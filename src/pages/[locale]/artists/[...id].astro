@@ -45,19 +45,24 @@ const alternates = supportedLocales.map((localeCode) => ({
 <BaseLayout lang={locale} alternates={alternates} title={`${entry.data.name} - KAMITSUBAKI WIKI`}>
   <SiteNav navItems={homeContent.navItems} localeLinks={localeLinks} brandLines={homeContent.hero.brandLines} />
   
-  <div class="max-w-7xl mx-auto px-6 py-12 flex flex-col lg:flex-row gap-8 items-start pt-32">
+  <div class="max-w-[90rem] mx-auto px-6 py-12 lg:grid lg:grid-cols-12 gap-12 lg:gap-8 items-start pt-32">
     
+    <!-- Left Sidebar ToC (Desktop) -->
+    <aside class="hidden lg:block lg:col-span-2 sticky top-32">
+      <TableOfContents headings={headings} />
+    </aside>
+
     <!-- Main Content -->
-    <main class="flex-1 w-full min-w-0">
-      <WikiInfoBox data={entry.data} />
-      
-      <article class="prose prose-invert max-w-none prose-headings:font-serif prose-headings:font-bold prose-h2:text-2xl prose-h2:border-b-2 prose-h2:border-white/10 prose-h2:pb-2 prose-h2:mt-12 prose-h2:mb-6 prose-p:text-white/80 prose-p:leading-relaxed prose-a:text-[#00ffd0] prose-a:no-underline hover:prose-a:underline prose-li:text-white/80">
+    <main class="lg:col-span-7 w-full min-w-0 order-last lg:order-none">
+      <article class="prose prose-invert max-w-none prose-headings:font-serif prose-headings:font-bold prose-h2:text-2xl prose-h2:border-b prose-h2:border-white/10 prose-h2:pb-3 prose-h2:mt-16 prose-h2:mb-6 prose-h2:text-white prose-p:text-white/70 prose-p:leading-loose prose-a:text-[#00ffd0] prose-a:no-underline hover:prose-a:underline prose-li:text-white/70">
         <Content />
       </article>
     </main>
 
-    <!-- Sidebar ToC -->
-    <TableOfContents headings={headings} />
+    <!-- Right Sidebar InfoBox -->
+    <aside class="lg:col-span-3 sticky top-32 w-full max-w-sm mx-auto lg:max-w-none">
+      <WikiInfoBox data={entry.data} />
+    </aside>
     
   </div>
 
