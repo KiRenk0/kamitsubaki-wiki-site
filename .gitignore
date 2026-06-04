@@ -1,4 +1,38 @@
+# Dependencies
 node_modules/
-dist/
-.astro/
 .pnpm-store/
+
+# Build output
+dist/
+
+# Astro generated
+.astro/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Debug
+debug/
+
+# Vercel / Netlify
+.vercel/
+.netlify/

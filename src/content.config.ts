@@ -76,7 +76,7 @@ const site = defineCollection({
 });
 
 const artists = defineCollection({
-  loader: glob({ pattern: '*.json', base: './src/content/artists' }),
+  loader: glob({ pattern: '**/*.json', base: './src/content/artists' }),
   schema: z.object({
     locale,
     translationKey: z.string(),
@@ -97,7 +97,7 @@ const artists = defineCollection({
 });
 
 const projects = defineCollection({
-  loader: glob({ pattern: '*.json', base: './src/content/projects' }),
+  loader: glob({ pattern: '**/*.json', base: './src/content/projects' }),
   schema: z.object({
     locale,
     translationKey: z.string(),
@@ -109,7 +109,7 @@ const projects = defineCollection({
 });
 
 const logs = defineCollection({
-  loader: glob({ pattern: '*.json', base: './src/content/logs' }),
+  loader: glob({ pattern: '**/*.json', base: './src/content/logs' }),
   schema: z.object({
     locale,
     translationKey: z.string(),

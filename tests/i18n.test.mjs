@@ -33,9 +33,9 @@ test('site has url-based zh ja en locales with Chinese as default', async () => 
 
 test('localized content exists for key records in all supported locales', async () => {
   for (const locale of locales) {
-    const artist = await readJson(`../src/content/artists/kaf.${locale}.json`);
-    const project = await readJson(`../src/content/projects/kamitsubaki-city.${locale}.json`);
-    const log = await readJson(`../src/content/logs/2024-06-01-vwp-live.${locale}.json`);
+    const artist = await readJson(`../src/content/artists/vwp/kaf.${locale}.json`);
+    const project = await readJson(`../src/content/projects/arg/kamitsubaki-city.${locale}.json`);
+    const log = await readJson(`../src/content/logs/2024/2024-06-01-vwp-live.${locale}.json`);
 
     assert.equal(artist.locale, locale);
     assert.equal(artist.translationKey, 'kaf');

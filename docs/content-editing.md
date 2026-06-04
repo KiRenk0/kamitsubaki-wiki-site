@@ -118,9 +118,9 @@ Each artist entry is one JSON file in `src/content/artists/`.
 For each artist, keep one file per language:
 
 ```text
-src/content/artists/kaf.zh.json
-src/content/artists/kaf.ja.json
-src/content/artists/kaf.en.json
+src/content/artists/vwp/kaf.zh.json
+src/content/artists/vwp/kaf.ja.json
+src/content/artists/vwp/kaf.en.json
 ```
 
 Required fields:
@@ -194,9 +194,9 @@ The category title and subtitle are repeated on each artist file so the category
 2. Create three files:
 
 ```text
-src/content/artists/new-artist.zh.json
-src/content/artists/new-artist.ja.json
-src/content/artists/new-artist.en.json
+src/content/artists/vwp/new-artist.zh.json
+src/content/artists/vwp/new-artist.ja.json
+src/content/artists/vwp/new-artist.en.json
 ```
 
 3. Keep `translationKey` the same in all three files.
@@ -226,9 +226,9 @@ Example:
 For a new project, create all three files:
 
 ```text
-src/content/projects/new-project.zh.json
-src/content/projects/new-project.ja.json
-src/content/projects/new-project.en.json
+src/content/projects/arg/new-project.zh.json
+src/content/projects/arg/new-project.ja.json
+src/content/projects/arg/new-project.en.json
 ```
 
 ## Logs
@@ -253,9 +253,9 @@ Example:
 For a new log entry, use a date-prefixed translation key:
 
 ```text
-src/content/logs/2026-06-04-example.zh.json
-src/content/logs/2026-06-04-example.ja.json
-src/content/logs/2026-06-04-example.en.json
+src/content/logs/2026/2026-06-04-example.zh.json
+src/content/logs/2026/2026-06-04-example.ja.json
+src/content/logs/2026/2026-06-04-example.en.json
 ```
 
 ## What Not To Edit For Content Changes

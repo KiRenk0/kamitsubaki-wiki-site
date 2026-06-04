@@ -4,6 +4,27 @@ import test from 'node:test';
 
 import { buildArtistCategories, sortByOrder } from '../src/lib/homeData.mjs';
 
+const artistFolders = new Map([
+  ['kaf', 'vwp'],
+  ['rim', 'vwp'],
+  ['harusaruhi', 'vwp'],
+  ['isekaijoucho', 'vwp'],
+  ['koko', 'vwp'],
+  ['ciel', 'solo'],
+  ['albemuth', 'solo'],
+  ['kanzaki-iori', 'creators'],
+  ['guiano', 'creators'],
+  ['palow', 'creators'],
+  ['kafu', 'isotopes'],
+  ['sekai', 'isotopes'],
+]);
+
+const projectFolders = new Map([
+  ['kamitsubaki-city', 'arg'],
+  ['sinsaekai-studio', 'labels'],
+  ['witch-exhibition', 'exhibitions'],
+]);
+
 async function readJson(path) {
   return JSON.parse(await readFile(new URL(path, import.meta.url), 'utf8'));
 }
@@ -35,7 +56,7 @@ test('artist database keeps the original four categories and key entities', asyn
   const artistEntries = await Promise.all(
     artistFiles.map(async (id) => ({
       id,
-      data: await readJson(`../src/content/artists/${id}.zh.json`),
+      data: await readJson(`../src/content/artists/${artistFolders.get(id)}/${id}.zh.json`),
     })),
   );
   const artistCategories = buildArtistCategories(artistEntries);
@@ -65,7 +86,7 @@ test('projects and log entries preserve the static page content', async () => {
     await Promise.all(
       projectFiles.map(async (id) => ({
         id,
-        data: await readJson(`../src/content/projects/${id}.zh.json`),
+        data: await readJson(`../src/content/projects/${projectFolders.get(id)}/${id}.zh.json`),
       })),
     ),
   ).map((entry) => entry.data);
@@ -74,7 +95,7 @@ test('projects and log entries preserve the static page content', async () => {
     await Promise.all(
       logFiles.map(async (id) => ({
         id,
-        data: await readJson(`../src/content/logs/${id}.zh.json`),
+        data: await readJson(`../src/content/logs/2024/${id}.zh.json`),
       })),
     ),
   ).map((entry) => entry.data);

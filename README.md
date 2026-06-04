@@ -33,9 +33,9 @@ translation-key.locale.json
 Example:
 
 ```text
-src/content/artists/kaf.zh.json
-src/content/artists/kaf.ja.json
-src/content/artists/kaf.en.json
+src/content/artists/vwp/kaf.zh.json
+src/content/artists/vwp/kaf.ja.json
+src/content/artists/vwp/kaf.en.json
 ```
 
 ## Stack
@@ -83,9 +83,9 @@ All public-facing content should live in Astro Content Collections under `src/co
 Records that appear in all languages use a shared `translationKey` and one file per locale:
 
 ```text
-src/content/artists/kaf.zh.json
-src/content/artists/kaf.ja.json
-src/content/artists/kaf.en.json
+src/content/artists/vwp/kaf.zh.json
+src/content/artists/vwp/kaf.ja.json
+src/content/artists/vwp/kaf.en.json
 ```
 
 The implementation reads collections, filters by locale, shapes records in `src/lib/homeData.mjs`, then passes data into presentational components.
