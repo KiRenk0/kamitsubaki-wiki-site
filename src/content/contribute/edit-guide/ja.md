@@ -82,6 +82,24 @@ variants:
           - `image`
 
           > `translationKey` は3言語ファイルで一致していなければいけません。
+
+          アーティスト記事では `theme` も使えます。これは記事ページのテーマ色と、情報欄の配色パネルに反映されます。
+
+          ```yaml
+          theme:
+            name: "KAF Bloom"
+            accentColor: "#F29AC2"
+            mutedColor: "#E63145"
+            surfaceColor: "#111321"
+            highlightColor: "#FFF6FA"
+            palette:
+              - label: "花譜ピンク"
+                value: "#F29AC2"
+              - label: "赤い花"
+                value: "#E63145"
+          ```
+
+          テーマ色は感覚だけで決めないでください。公式アーティストページ、公式キービジュアル、公式アルバムカバー、キャラクター資料を優先し、最も識別しやすい色を `accentColor` に、読みやすい濃色背景を `surfaceColor` に入れます。
       - title: "Step 4: 新規追加では3言語を意識する"
         body: |
           このサイトは中・日・英の3ルートを持っています。
@@ -239,6 +257,7 @@ variants:
           - `statusLabel` / `status`
           - `categoryTitle` / `categorySubtitle`
           - `categoryOrder` / `itemOrder`
+          - `theme.*`
           - `seo.*`
 
           多言語項目なら：
@@ -246,6 +265,7 @@ variants:
           - `translationKey` は一致させる
           - 3言語ファイルはできるだけ揃える
           - 本文の完成度差はあっても構造は揃える
+          - `theme` の色値は3言語で揃え、`palette.label` だけ各言語に合わせる
       - title: GitHub Web 編集の最短安全導線
         body: |
           最短ルートは次の通りです。

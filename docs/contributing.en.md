@@ -12,8 +12,8 @@ Most edits belong in `src/content/`.
 src/content/site/       Site navigation, section labels, footer text (.json)
 src/content/artists/    Artist, creator, unit, and isotope pages (.md)
 src/content/projects/   Project pages and cards (.md)
-src/content/logs/       Timeline/update rows (.json)
-src/content/contribute/ GitHub edit-guide copy (.json)
+src/content/logs/       Timeline/update rows (.md)
+src/content/contribute/ GitHub edit-guide copy (.md)
 ```
 
 Do not edit `dist/`, `.astro/`, or `node_modules/`.
@@ -38,7 +38,7 @@ Markdown files use YAML frontmatter for structured data.
 ---
 locale: zh
 translationKey: kaf
-name: "花谱"
+name: "花譜"
 romanizedName: "KAF"
 categoryTitle: "虚拟世代的魔女们"
 categorySubtitle: "VIRTUAL WITCH PHENOMENON"
@@ -47,17 +47,77 @@ itemOrder: 1
 statusLabel: "STATUS"
 status: "ACTIVE"
 image: "https://placehold.co/1200x800/111/333?text=KAF"
+theme:
+  name: "KAF Bloom"
+  accentColor: "#F29AC2"
+  mutedColor: "#E63145"
+  surfaceColor: "#111321"
+  highlightColor: "#FFF6FA"
+  palette:
+    - label: "KAF Pink"
+      value: "#F29AC2"
+    - label: "Bloom Red"
+      value: "#E63145"
+    - label: "Observation Navy"
+      value: "#111321"
+    - label: "Soft Light"
+      value: "#FFF6FA"
 seo:
-  title: "花谱 - KAMITSUBAKI WIKI"
+  title: "花譜 - KAMITSUBAKI WIKI"
   description: "Custom text for search results and link previews."
   image: "https://example.com/share-card.jpg"
   keywords:
-    - "花谱"
+    - "花譜"
     - "KAF"
 ---
 ```
 
 Write article content after the second `---`. Empty bodies are allowed, but do not add filler text.
+
+`theme` is optional. When present, the article page shows a palette panel and uses the entry colors for the ToC highlight, source link accent, and infobox framing.
+
+Do not pick theme colors just because they look nice. Use this order:
+
+1. Start from official artist pages, official key visuals, official album art, or official character material.
+2. Identify stable character signals such as hair color, outfit color, recurring background color, or symbolic motif color.
+3. Use `accentColor` for the strongest recognition color.
+4. Use `mutedColor` for a supporting or contrasting color.
+5. Keep `surfaceColor` dark so the reader remains readable instead of turning into a saturated panel.
+6. Use `highlightColor` as a light highlight only.
+7. Add at least 3 to 4 `palette` swatches, and name each swatch in the current language.
+
+The five V.W.P member pages provide reference-quality examples:
+
+```text
+KAF: KAF Bloom
+RIM: RIM Neuromance
+HARUSARUHI: Harusaruhi Impact
+ISEKAIJOUCHO: Isekaijoucho Dark Canvas
+KOKO: KOKO Lightning Rock
+```
+
+If you are unsure about an entry's colors, leave `theme` out for now instead of adding a temporary palette.
+
+## Artist Page Template
+
+For people, singer, or creator entries under `src/content/artists/`, use the same wiki-style outline whenever possible:
+
+```md
+## Overview
+## Role and Creative Position
+## Activity History
+## Representative Works and Related Entries
+## Related Projects / Setting
+## References
+## External Links
+```
+
+Guidelines:
+
+- `Overview`: explain who the subject is, where they belong, and why they matter.
+- `Activity History`: keep only meaningful milestones, not a year-by-year dump.
+- `References`: prefer official artist pages, official news posts, official releases, and major media interviews.
+- `External Links`: keep it small and useful.
 
 ## Homepage Display
 
@@ -89,6 +149,16 @@ Use `seo.title`, `seo.description`, `seo.image`, `seo.keywords`, or `seo.noindex
 5. Leave the body empty if real content is not ready.
 6. Run local verification.
 7. Open a Pull Request.
+
+### V.W.P Launch Samples
+
+`src/content/artists/vwp/` now contains launch-quality sample entries for the five members. If you are new, copy those patterns first:
+
+- how the frontmatter is structured
+- how the article sections are ordered
+- how references and external links are closed out
+
+Imitating a good existing entry is the easiest way to stay inside the repo's conventions.
 
 ## Verify Locally
 

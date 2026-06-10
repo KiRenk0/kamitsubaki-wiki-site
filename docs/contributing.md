@@ -12,8 +12,8 @@
 src/content/site/       站点导航、分区标题、页脚文案 (.json)
 src/content/artists/    艺人、创作者、组合、音乐同位体条目 (.md)
 src/content/projects/   企划页面和卡片内容 (.md)
-src/content/logs/       时间线/更新记录 (.json)
-src/content/contribute/ GitHub 编辑教程页文案 (.json)
+src/content/logs/       时间线/更新记录 (.md)
+src/content/contribute/ GitHub 编辑教程页文案 (.md)
 ```
 
 不要编辑 `dist/`、`.astro/` 或 `node_modules/`。
@@ -38,7 +38,7 @@ Markdown 文件使用 YAML frontmatter 存放结构化数据。
 ---
 locale: zh
 translationKey: kaf
-name: "花谱"
+name: "花譜"
 romanizedName: "KAF"
 categoryTitle: "虚拟世代的魔女们"
 categorySubtitle: "VIRTUAL WITCH PHENOMENON"
@@ -47,17 +47,79 @@ itemOrder: 1
 statusLabel: "STATUS"
 status: "ACTIVE"
 image: "https://placehold.co/1200x800/111/333?text=KAF"
+theme:
+  name: "KAF Bloom"
+  accentColor: "#F29AC2"
+  mutedColor: "#E63145"
+  surfaceColor: "#111321"
+  highlightColor: "#FFF6FA"
+  palette:
+    - label: "花譜粉"
+      value: "#F29AC2"
+    - label: "红花"
+      value: "#E63145"
+    - label: "观测深蓝"
+      value: "#111321"
+    - label: "柔光白"
+      value: "#FFF6FA"
 seo:
-  title: "花谱 - KAMITSUBAKI WIKI"
+  title: "花譜 - KAMITSUBAKI WIKI"
   description: "用于搜索结果和链接预览的自定义描述。"
   image: "https://example.com/share-card.jpg"
   keywords:
-    - "花谱"
+    - "花譜"
     - "KAF"
 ---
 ```
 
 正文写在第二个 `---` 后面。正文可以留空，但不要写占位介绍。
+
+`theme` 也是可选字段。填写后，条目页会显示配色面板，并把目录、高亮链接、资料卡边框切到对应角色主题色。
+
+主题色不要随便挑“好看的颜色”。推荐按这个顺序决定：
+
+1. 先看官方艺人页、官方主视觉、官方专辑封面或官方设定图。
+2. 找出最稳定的角色识别色，比如发色、服装主色、背景常用色、代表意象色。
+3. `accentColor` 放最能代表角色的一眼识别色。
+4. `mutedColor` 放辅助色或视觉反差色。
+5. `surfaceColor` 用深色背景，避免阅读器变成高饱和色块。
+6. `highlightColor` 用浅色，只负责高光和轻量强调。
+7. `palette` 至少写 3 到 4 个色块，并用当前语言写清每个色块来自哪里。
+
+V.W.P 五位成员已经提供了可参考的主题色样板：
+
+```text
+花譜: KAF Bloom
+理芽: RIM Neuromance
+春猿火: Harusaruhi Impact
+ヰ世界情緒: Isekaijoucho Dark Canvas
+幸祜: KOKO Lightning Rock
+```
+
+如果你不确定某个角色该用什么颜色，宁可先不写 `theme`，也不要用随意的临时配色。
+
+## 人物页模板
+
+`src/content/artists/` 下的人物页，推荐统一采用维基式结构：
+
+```md
+## 概述
+## 角色与创作定位
+## 活动历程
+## 代表作品与相关条目
+## 相关企划 / 关联设定
+## 参考资料
+## 外部链接
+```
+
+其中：
+
+- `概述` 用 1 到 2 段说清“她是谁、属于哪里、为什么重要”。
+- `活动历程` 只保留高价值节点，不写流水账。
+- `参考资料` 优先使用官方艺人页、官方新闻、官方发布、主流媒体采访。
+- `外部链接` 放官方主页、团体主页、可靠百科入口即可，不要堆太多。
+
+如果你要补的是艺人页，优先按这个结构补齐，再考虑继续扩写。
 
 ## 首页展示
 
@@ -89,6 +151,16 @@ src/content/artists/vwp/kaf/zh.md
 5. 正文未准备好时可以留空。
 6. 运行本地验证。
 7. 发起 Pull Request。
+
+### V.W.P 首发样板
+
+`src/content/artists/vwp/` 现在已经提供了五位成员的首发样板写法。新手最稳的方式，是先照着这些文件学习：
+
+- 看 frontmatter 怎么写
+- 看正文分节怎么组织
+- 看 `参考资料` 和 `外部链接` 怎么收尾
+
+先模仿，再扩展，通常最不容易把结构写乱。
 
 ## 本地验证
 

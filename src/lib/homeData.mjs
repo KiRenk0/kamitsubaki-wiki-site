@@ -55,6 +55,7 @@ export function buildArtistDisplayData(entry) {
 
   return {
     ...entry.data,
+    theme: entry.data.theme,
     categoryId: `cat-${categorySlug}`,
     categoryTitle: entry.data.categoryTitle || humanizeSlug(categorySlug),
     categorySubtitle: entry.data.categorySubtitle || buildCategorySubtitle(categorySlug),

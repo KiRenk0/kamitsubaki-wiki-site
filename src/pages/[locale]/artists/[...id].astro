@@ -57,6 +57,24 @@ const articleLabels = {
     source: '编辑源文件',
     languages: '切换语言',
     contents: '目录',
+    infobox: '资料卡',
+    classification: '分类',
+    name: '名称',
+    romanized: '罗马字',
+    debutDate: '出道',
+    meta: '备注',
+    affiliations: '所属 / 关联',
+    designCredits: '设定 / 设计',
+    officialLinks: '官方链接',
+    featuredEntries: '相关条目',
+    theme: '条目配色',
+    themeName: '主题',
+    kindLabels: {
+      artist: '艺人',
+      project: '项目',
+      album: '专辑',
+      song: '歌曲',
+    },
   },
   ja: {
     home: 'ホーム',
@@ -66,6 +84,24 @@ const articleLabels = {
     source: 'ソースを編集',
     languages: '言語を切り替え',
     contents: '目次',
+    infobox: '情報欄',
+    classification: '分類',
+    name: '名称',
+    romanized: '表記',
+    debutDate: 'デビュー',
+    meta: 'メモ',
+    affiliations: '所属 / 関連',
+    designCredits: '設定 / デザイン',
+    officialLinks: '公式リンク',
+    featuredEntries: '関連項目',
+    theme: '記事配色',
+    themeName: 'テーマ',
+    kindLabels: {
+      artist: 'アーティスト',
+      project: 'プロジェクト',
+      album: 'アルバム',
+      song: '楽曲',
+    },
   },
   en: {
     home: 'Home',
@@ -75,6 +111,24 @@ const articleLabels = {
     source: 'Edit source',
     languages: 'Switch language',
     contents: 'Contents',
+    infobox: 'Infobox',
+    classification: 'Classification',
+    name: 'Name',
+    romanized: 'Romanized',
+    debutDate: 'Debut',
+    meta: 'Meta',
+    affiliations: 'Affiliations',
+    designCredits: 'Design',
+    officialLinks: 'Official Links',
+    featuredEntries: 'Related Entries',
+    theme: 'Entry Theme',
+    themeName: 'Theme',
+    kindLabels: {
+      artist: 'Artist',
+      project: 'Project',
+      album: 'Album',
+      song: 'Song',
+    },
   },
 }[localeCode];
 
@@ -86,63 +140,77 @@ const metadata = buildArticleMetadata({
   locale: localeCode,
   id,
 });
+const theme = articleData.theme ?? {
+  accentColor: '#89f5df',
+  mutedColor: '#8fb0c2',
+  surfaceColor: '#0f1419',
+  highlightColor: '#f6f7fb',
+};
+const themeStyle = [
+  `--wiki-accent-color:${theme.accentColor}`,
+  `--wiki-muted-color:${theme.mutedColor ?? theme.accentColor}`,
+  `--wiki-surface-color:${theme.surfaceColor ?? '#0f1419'}`,
+  `--wiki-highlight-color:${theme.highlightColor ?? '#f6f7fb'}`,
+].join(';');
 ---
 
 <BaseLayout lang={locale} alternates={alternates} title={`${articleData.name} - Kamitsubaki Studio Fan Wiki`} metadata={metadata}>
-  <SiteNav navItems={homeContent.navItems} localeLinks={localeLinks} brandLines={homeContent.hero.brandLines} compact homeHref={`/${localeCode}/`} />
+  <div class="wiki-theme-shell" style={themeStyle}>
+    <SiteNav navItems={homeContent.navItems} localeLinks={localeLinks} brandLines={homeContent.hero.brandLines} compact homeHref={`/${localeCode}/`} />
 
-  <div class="fixed left-0 top-0 z-[60] h-px w-full origin-left bg-white/70" data-reading-progress></div>
+    <div class="fixed left-0 top-0 z-[60] h-px w-full origin-left bg-white/70" data-reading-progress></div>
 
-  <div class="mx-auto max-w-[92rem] px-4 pb-3 pt-17 sm:px-6 sm:pb-4 sm:pt-20 lg:pt-20">
-    <WikiArticleHeader
-      data={articleData}
-      localeLinks={localeLinks}
-      labels={articleLabels}
-      sourceHref={sourceHref}
-      homeHref={`/${localeCode}/`}
-    />
-  </div>
+    <div class="mx-auto max-w-[92rem] px-4 pb-3 pt-17 sm:px-6 sm:pb-4 sm:pt-20 lg:pt-20">
+      <WikiArticleHeader
+        data={articleData}
+        localeLinks={localeLinks}
+        labels={articleLabels}
+        sourceHref={sourceHref}
+        homeHref={`/${localeCode}/`}
+      />
+    </div>
 
-  <div class:list={[
-    'mx-auto grid max-w-[92rem] items-start gap-5 px-4 py-4 sm:gap-8 sm:px-6 sm:py-5 lg:gap-8',
-    hasArticleBody ? 'lg:grid-cols-12' : 'lg:grid-cols-[minmax(0,1fr)_22rem]',
-  ]}>
-    {hasTableOfContents && (
-      <aside class="hidden lg:block lg:col-span-2 sticky top-32">
-        <TableOfContents headings={headings} title={articleLabels.contents} />
-      </aside>
-    )}
-
-    {hasArticleBody && (
-      <main class:list={[
-        'order-last w-full min-w-0 lg:order-none',
-        hasTableOfContents ? 'lg:col-span-7' : 'lg:col-span-8 lg:col-start-2',
-      ]}>
-        {hasTableOfContents && (
-          <details class="wiki-mobile-toc mb-8 rounded-lg border border-white/10 bg-white/[0.03] p-4 lg:hidden">
-            <summary class="cursor-pointer text-[11px] font-mono uppercase tracking-[0.24em] text-white/65">
-              {articleLabels.contents}
-            </summary>
-            <div class="mt-4 border-t border-white/10 pt-4">
-              <TableOfContents headings={headings} title={articleLabels.contents} />
-            </div>
-          </details>
-        )}
-
-        <article class="wiki-prose prose prose-invert max-w-none">
-          <Content />
-        </article>
-      </main>
-    )}
-
-    <aside class:list={[
-      'w-full max-w-sm mx-auto lg:sticky lg:top-32 lg:max-w-none',
-      hasArticleBody ? 'lg:col-span-3' : 'lg:col-start-2',
+    <div class:list={[
+      'mx-auto grid max-w-[92rem] items-start gap-5 px-4 py-4 sm:gap-8 sm:px-6 sm:py-5 lg:gap-8',
+      hasArticleBody ? 'lg:grid-cols-12' : 'lg:grid-cols-[minmax(0,1fr)_22rem]',
     ]}>
-      <WikiInfoBox data={articleData} />
-    </aside>
-    
-  </div>
+      {hasTableOfContents && (
+        <aside class="hidden lg:block lg:col-span-2 sticky top-32">
+          <TableOfContents headings={headings} title={articleLabels.contents} />
+        </aside>
+      )}
 
-  <SiteFooter footer={homeContent.footer} />
+      {hasArticleBody && (
+        <main class:list={[
+          'order-last w-full min-w-0 lg:order-none',
+          hasTableOfContents ? 'lg:col-span-7' : 'lg:col-span-8 lg:col-start-2',
+        ]}>
+          {hasTableOfContents && (
+            <details class="wiki-mobile-toc mb-8 rounded-lg border border-white/10 bg-white/[0.03] p-4 lg:hidden">
+              <summary class="cursor-pointer text-[11px] font-mono uppercase tracking-[0.24em] text-white/65">
+                {articleLabels.contents}
+              </summary>
+              <div class="mt-4 border-t border-white/10 pt-4">
+                <TableOfContents headings={headings} title={articleLabels.contents} />
+              </div>
+            </details>
+          )}
+
+          <article class="wiki-prose prose prose-invert max-w-none">
+            <Content />
+          </article>
+        </main>
+      )}
+
+      <aside class:list={[
+        'w-full max-w-sm mx-auto lg:sticky lg:top-32 lg:max-w-none',
+        hasArticleBody ? 'lg:col-span-3' : 'lg:col-start-2',
+      ]}>
+        <WikiInfoBox data={articleData} labels={articleLabels} />
+      </aside>
+      
+    </div>
+
+    <SiteFooter footer={homeContent.footer} />
+  </div>
 </BaseLayout>

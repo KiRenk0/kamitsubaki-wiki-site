@@ -37,41 +37,119 @@ const visibleHeadings = headings.filter((heading) => heading.depth === 2 || head
 </nav>
 
 <script>
-  function initToC() {
-    if (document.documentElement.dataset.tocInitialized === 'true') {
+  type TocWindow = Window & typeof globalThis & {
+    __wikiTocCleanup?: (() => void) | null;
+    __wikiTocTrackingBound?: boolean;
+  };
+
+  const getAnchorOffset = () => {
+    const fixedNav = document.querySelector<HTMLElement>('nav.fixed');
+    const navHeight = fixedNav?.getBoundingClientRect().height ?? 72;
+
+    return Math.ceil(navHeight + 32);
+  };
+
+  function setupToCTracking() {
+    const tocWindow = window as TocWindow;
+
+    if (tocWindow.__wikiTocCleanup) {
+      tocWindow.__wikiTocCleanup();
+      tocWindow.__wikiTocCleanup = null;
+    }
+
+    const headings = Array.from(document.querySelectorAll<HTMLElement>('h2[id], h3[id]'));
+    const links = Array.from(document.querySelectorAll<HTMLAnchorElement>('.toc-list a[data-slug]'));
+
+    if (headings.length === 0 || links.length === 0) {
       return;
     }
 
-    document.documentElement.dataset.tocInitialized = 'true';
+    const setActiveSlug = (slug: string | null) => {
+      links.forEach((link) => {
+        const isActive = link.dataset.slug === slug;
+        link.dataset.active = isActive ? 'true' : 'false';
+      });
+    };
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          const id = entry.target.getAttribute('id');
-          const links = document.querySelectorAll(`.toc-list a[data-slug="${id}"]`);
-          
-          if (entry.isIntersecting && links.length > 0) {
-            document.querySelectorAll('.toc-list a').forEach((a) => {
-              a.classList.remove('text-white', 'font-bold', 'translate-x-1');
-              a.classList.add('text-white/55');
-            });
-            links.forEach((link) => {
-              link.classList.add('text-white', 'font-bold', 'translate-x-1');
-              link.classList.remove('text-white/55');
-            });
-          }
-        });
-      },
-      { rootMargin: '0px 0px -80% 0px' }
-    );
+    const syncActiveHeading = () => {
+      const offset = getAnchorOffset();
+      let activeSlug = headings[0].getAttribute('id');
 
-    document.querySelectorAll('h2[id], h3[id]').forEach((section) => {
-      observer.observe(section);
-    });
+      for (const heading of headings) {
+        if (heading.getBoundingClientRect().top - offset <= 0) {
+          activeSlug = heading.getAttribute('id');
+        } else {
+          break;
+        }
+      }
+
+      if (activeSlug) {
+        setActiveSlug(activeSlug);
+      }
+    };
+
+    const scrollToHeading = (event: MouseEvent) => {
+      const link = event.currentTarget;
+
+      if (!(link instanceof HTMLAnchorElement)) {
+        return;
+      }
+
+      const slug = link.dataset.slug;
+      const target = slug ? document.getElementById(slug) : null;
+
+      if (!slug || !target) {
+        return;
+      }
+
+      event.preventDefault();
+
+      const top = Math.max(target.getBoundingClientRect().top + window.scrollY - getAnchorOffset(), 0);
+      const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      setActiveSlug(slug);
+      window.history.pushState(null, '', `${window.location.pathname}${window.location.search}#${slug}`);
+      window.scrollTo({
+        top,
+        behavior: prefersReducedMotion ? 'auto' : 'smooth',
+      });
+    };
+
+    let ticking = false;
+    const requestSync = () => {
+      if (ticking) {
+        return;
+      }
+
+      ticking = true;
+      window.requestAnimationFrame(() => {
+        syncActiveHeading();
+        ticking = false;
+      });
+    };
+
+    requestSync();
+    links.forEach((link) => link.addEventListener('click', scrollToHeading));
+    window.addEventListener('scroll', requestSync, { passive: true });
+    window.addEventListener('resize', requestSync);
+    window.addEventListener('hashchange', requestSync);
+
+    tocWindow.__wikiTocCleanup = () => {
+      links.forEach((link) => link.removeEventListener('click', scrollToHeading));
+      tocWindow.removeEventListener('scroll', requestSync);
+      tocWindow.removeEventListener('resize', requestSync);
+      tocWindow.removeEventListener('hashchange', requestSync);
+    };
   }
 
-  initToC();
-  document.addEventListener('astro:page-load', initToC);
+  const tocWindow = window as TocWindow;
+
+  if (!tocWindow.__wikiTocTrackingBound) {
+    tocWindow.__wikiTocTrackingBound = true;
+    document.addEventListener('astro:page-load', setupToCTracking);
+  }
+
+  setupToCTracking();
 </script>
 
 <style>

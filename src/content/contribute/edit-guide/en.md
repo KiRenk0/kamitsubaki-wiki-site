@@ -84,6 +84,24 @@ variants:
           - `image`
 
           > `translationKey` must remain identical across the localized files, or the site will stop treating them as one entry.
+
+          Artist entries can also include `theme`, which controls the article theme color and the palette panel in the infobox.
+
+          ```yaml
+          theme:
+            name: "KAF Bloom"
+            accentColor: "#F29AC2"
+            mutedColor: "#E63145"
+            surfaceColor: "#111321"
+            highlightColor: "#FFF6FA"
+            palette:
+              - label: "KAF Pink"
+                value: "#F29AC2"
+              - label: "Bloom Red"
+                value: "#E63145"
+          ```
+
+          Do not invent colors casually. Prefer official artist pages, official key visuals, official album covers, or character material. Put the strongest recognition color in `accentColor`, and keep `surfaceColor` dark enough for comfortable reading.
       - title: "Step 4: follow the three-language rule when creating entries"
         body: |
           The site supports three locale routes:
@@ -256,6 +274,7 @@ variants:
           - `statusLabel` / `status`
           - `categoryTitle` / `categorySubtitle`
           - `categoryOrder` / `itemOrder`
+          - `theme.*`
           - `seo.*`
 
           For localized entries:
@@ -263,6 +282,7 @@ variants:
           - keep `translationKey` identical
           - prefer all three locale files to exist together
           - the bodies can vary in completeness, but the structure should stay aligned
+          - keep `theme` color values synchronized across locales, while localizing `palette.label`
       - title: Shortest safe GitHub web-edit flow
         body: |
           The shortest safe path is:

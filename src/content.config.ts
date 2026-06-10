@@ -13,6 +13,22 @@ const seo = z
   })
   .optional();
 
+const theme = z
+  .object({
+    name: z.string().optional(),
+    accentColor: z.string(),
+    mutedColor: z.string().optional(),
+    surfaceColor: z.string().optional(),
+    highlightColor: z.string().optional(),
+    palette: z.array(
+      z.object({
+        label: z.string(),
+        value: z.string(),
+      }),
+    ),
+  })
+  .optional();
+
 const site = defineCollection({
   loader: glob({ pattern: '*.json', base: './src/content/site' }),
   schema: z.object({
@@ -91,6 +107,28 @@ const artists = defineCollection({
     categoryOrder: z.number().optional(),
     itemOrder: z.number().optional(),
     meta: z.string().optional(),
+    debutDate: z.string().optional(),
+    profileTagline: z.string().optional(),
+    designCredits: z.array(z.string()).optional(),
+    affiliations: z.array(z.string()).optional(),
+    officialLinks: z
+      .array(
+        z.object({
+          label: z.string(),
+          href: z.string(),
+        }),
+      )
+      .optional(),
+    featuredEntries: z
+      .array(
+        z.object({
+          label: z.string(),
+          href: z.string(),
+          kind: z.enum(['artist', 'project', 'album', 'song']),
+        }),
+      )
+      .optional(),
+    theme,
     statusLabel: z.string(),
     status: z.string(),
     inactive: z.boolean().optional(),

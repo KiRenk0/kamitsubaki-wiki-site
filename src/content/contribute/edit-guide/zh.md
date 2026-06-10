@@ -89,6 +89,24 @@ variants:
           - `image`：主图，也会参与分享卡片生成
 
           > `translationKey` 在三语文件里必须一致。只要它不一致，系统就不会把这些文件视为同一个条目。
+
+          艺人条目还可以写 `theme`，用于控制条目页的主题色和资料卡里的配色面板。
+
+          ```yaml
+          theme:
+            name: "KAF Bloom"
+            accentColor: "#F29AC2"
+            mutedColor: "#E63145"
+            surfaceColor: "#111321"
+            highlightColor: "#FFF6FA"
+            palette:
+              - label: "花譜粉"
+                value: "#F29AC2"
+              - label: "红花"
+                value: "#E63145"
+          ```
+
+          主题色不要凭感觉乱填。优先看官方艺人页、官方主视觉、官方专辑封面或角色设定图；把最能代表角色的颜色放进 `accentColor`，把背景阅读用的深色放进 `surfaceColor`。
       - title: 第四步，新增条目时先遵守三语规则
         body: |
           这个站点默认支持中、日、英三语路由：
@@ -262,6 +280,7 @@ variants:
           - `statusLabel` / `status`
           - `categoryTitle` / `categorySubtitle`
           - `categoryOrder` / `itemOrder`
+          - `theme.*`
           - `seo.*`
 
           如果是三语条目：
@@ -269,6 +288,7 @@ variants:
           - `translationKey` 必须一致
           - 推荐三语文件同时存在
           - 正文可以不对等完整，但结构最好对齐
+          - `theme` 应该三语同步，色值一致，`palette.label` 用各语言本地化
       - title: GitHub 网页编辑时的最短工作流
         body: |
           最短路径就是：

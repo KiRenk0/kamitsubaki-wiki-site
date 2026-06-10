@@ -79,7 +79,7 @@ test('artist database keeps the original four categories and key entities', asyn
   assert.deepEqual(vwp.items[0], {
     id: 'vwp/kaf',
     code: '01',
-    name: '花谱',
+    name: '花譜',
     romanizedName: 'KAF',
     meta: 'DEBUT: 2018.10.18',
     statusLabel: 'STATUS',

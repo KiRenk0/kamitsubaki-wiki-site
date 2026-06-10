@@ -14,6 +14,10 @@
 
 :root {
   --cursor-size: 8px;
+  --wiki-accent-color: #89f5df;
+  --wiki-muted-color: #8fb0c2;
+  --wiki-surface-color: #0f1419;
+  --wiki-highlight-color: #f6f7fb;
 }
 
 :lang(ja) {
@@ -293,27 +297,28 @@ input[type="reset"] {
   min-width: 2rem;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  border: 1px solid color-mix(in srgb, var(--wiki-accent-color) 24%, rgba(255, 255, 255, 0.08));
   padding: 0.35rem 0.5rem;
   color: rgba(255, 255, 255, 0.42);
-  transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease;
+  transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .wiki-chip:hover {
-  background-color: rgba(255, 255, 255, 0.04);
+  background-color: color-mix(in srgb, var(--wiki-accent-color) 8%, transparent);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--wiki-accent-color) 16%, transparent);
 }
 
 .wiki-source-link {
   width: max-content;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.22);
+  border-bottom: 1px solid color-mix(in srgb, var(--wiki-accent-color) 44%, rgba(255, 255, 255, 0.12));
   padding-bottom: 0.25rem;
   color: rgba(255, 255, 255, 0.52);
   transition: border-color 0.2s ease, color 0.2s ease;
 }
 
 .wiki-source-link:hover {
-  border-color: rgba(255, 255, 255, 0.8);
-  color: white;
+  border-color: var(--wiki-accent-color);
+  color: color-mix(in srgb, var(--wiki-accent-color) 78%, white);
 }
 
 .wiki-guide-action[aria-disabled="true"] {
@@ -345,13 +350,13 @@ input[type="reset"] {
   --tw-prose-body: rgba(255, 255, 255, 0.72);
   --tw-prose-headings: rgba(255, 255, 255, 0.94);
   --tw-prose-lead: rgba(255, 255, 255, 0.74);
-  --tw-prose-links: #00ffd0;
+  --tw-prose-links: var(--wiki-accent-color);
   --tw-prose-bold: rgba(255, 255, 255, 0.9);
   --tw-prose-counters: rgba(255, 255, 255, 0.38);
   --tw-prose-bullets: rgba(255, 255, 255, 0.34);
   --tw-prose-hr: rgba(255, 255, 255, 0.12);
   --tw-prose-quotes: rgba(255, 255, 255, 0.78);
-  --tw-prose-quote-borders: rgba(0, 255, 208, 0.55);
+  --tw-prose-quote-borders: color-mix(in srgb, var(--wiki-accent-color) 55%, transparent);
   --tw-prose-captions: rgba(255, 255, 255, 0.4);
   --tw-prose-code: rgba(255, 255, 255, 0.88);
   --tw-prose-pre-code: rgba(255, 255, 255, 0.78);
@@ -368,7 +373,7 @@ input[type="reset"] {
 
 .wiki-prose :where(h2) {
   margin-top: 3.25rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  border-bottom: 1px solid color-mix(in srgb, var(--wiki-accent-color) 18%, rgba(255, 255, 255, 0.08));
   padding-bottom: 0.75rem;
   font-family: var(--font-serif);
   font-size: 1.75rem;
@@ -457,19 +462,19 @@ input[type="reset"] {
   position: absolute;
   inset: 0 auto 0 0;
   width: 1px;
-  background: linear-gradient(180deg, rgba(0, 255, 208, 0.45), rgba(255, 255, 255, 0.02));
+  background: linear-gradient(180deg, color-mix(in srgb, var(--wiki-accent-color) 45%, transparent), rgba(255, 255, 255, 0.02));
   content: '';
 }
 
 .wiki-guide-prose {
   --tw-prose-body: rgba(255, 255, 255, 0.72);
   --tw-prose-headings: rgba(255, 255, 255, 0.9);
-  --tw-prose-links: #9afdf0;
+  --tw-prose-links: color-mix(in srgb, var(--wiki-accent-color) 76%, white);
   --tw-prose-bold: rgba(255, 255, 255, 0.92);
-  --tw-prose-bullets: rgba(0, 255, 208, 0.42);
-  --tw-prose-counters: rgba(0, 255, 208, 0.42);
+  --tw-prose-bullets: color-mix(in srgb, var(--wiki-accent-color) 42%, transparent);
+  --tw-prose-counters: color-mix(in srgb, var(--wiki-accent-color) 42%, transparent);
   --tw-prose-quotes: rgba(255, 255, 255, 0.78);
-  --tw-prose-quote-borders: rgba(0, 255, 208, 0.4);
+  --tw-prose-quote-borders: color-mix(in srgb, var(--wiki-accent-color) 40%, transparent);
   --tw-prose-code: rgba(255, 255, 255, 0.9);
   --tw-prose-pre-code: rgba(255, 255, 255, 0.8);
   --tw-prose-pre-bg: rgba(255, 255, 255, 0.05);
@@ -509,6 +514,39 @@ input[type="reset"] {
 
 .wiki-guide-prose :where(ul) {
   list-style: disc;
+}
+
+.wiki-theme-shell .wiki-article-header,
+.wiki-theme-shell .wiki-infobox,
+.wiki-theme-shell .wiki-mobile-toc,
+.wiki-theme-shell .wiki-toc {
+  border-color: color-mix(in srgb, var(--wiki-accent-color) 16%, rgba(255, 255, 255, 0.08));
+}
+
+.wiki-theme-shell .wiki-infobox,
+.wiki-theme-shell .wiki-mobile-toc {
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--wiki-surface-color) 82%, transparent), rgba(255, 255, 255, 0.02)),
+    rgba(255, 255, 255, 0.03);
+}
+
+.wiki-theme-shell .wiki-infobox figure,
+.wiki-theme-shell .theme-swatch-row {
+  background-color: color-mix(in srgb, var(--wiki-surface-color) 62%, rgba(255, 255, 255, 0.02));
+}
+
+.wiki-toc .toc-list a[data-active="true"] {
+  color: color-mix(in srgb, var(--wiki-accent-color) 72%, white);
+  font-weight: 700;
+  transform: translateX(0.25rem);
+}
+
+.wiki-toc .toc-list a[data-active="false"] {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.wiki-toc .toc-list a:hover {
+  color: color-mix(in srgb, var(--wiki-accent-color) 78%, white);
 }
 
 .wiki-guide-prose :where(ol) {

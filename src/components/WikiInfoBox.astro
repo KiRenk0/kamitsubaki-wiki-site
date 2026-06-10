@@ -4,20 +4,51 @@ interface Props {
     name: string;
     romanizedName: string;
     image: string;
+    profileTagline?: string;
     statusLabel: string;
     status: string;
     meta?: string;
+    debutDate?: string;
     categoryTitle: string;
+    designCredits?: string[];
+    affiliations?: string[];
+    officialLinks?: { label: string; href: string }[];
+    featuredEntries?: { label: string; href: string; kind: 'artist' | 'project' | 'album' | 'song' }[];
+    theme?: {
+      name?: string;
+      accentColor: string;
+      mutedColor?: string;
+      surfaceColor?: string;
+      highlightColor?: string;
+      palette: { label: string; value: string }[];
+    };
+  };
+  labels: {
+    infobox: string;
+    classification: string;
+    name: string;
+    romanized: string;
+    debutDate: string;
+    meta: string;
+    affiliations: string;
+    designCredits: string;
+    officialLinks: string;
+    featuredEntries: string;
+    theme: string;
+    themeName: string;
+    kindLabels: Record<'artist' | 'project' | 'album' | 'song', string>;
   };
 }
 
-const { data } = Astro.props;
+const { data, labels } = Astro.props;
+const isExternalHref = (href: string) => /^https?:\/\//.test(href);
 ---
 
 <aside class="wiki-infobox w-full overflow-hidden rounded-md border border-white/10 bg-white/[0.035] shadow-2xl backdrop-blur-md sm:rounded-lg">
   <div class="border-b border-white/10 bg-white/[0.03] px-3 py-2.5 sm:px-4 sm:py-3">
-    <p class="text-[9px] font-mono uppercase tracking-[0.24em] text-white/35 sm:text-[10px] sm:tracking-[0.28em]">Infobox</p>
+    <p class="text-[9px] font-mono uppercase tracking-[0.24em] text-white/35 sm:text-[10px] sm:tracking-[0.28em]">{labels.infobox}</p>
     <h2 class="mt-1 font-serif text-xl font-semibold tracking-[0.1em] text-white sm:text-2xl sm:tracking-[0.12em]">{data.name}</h2>
+    {data.profileTagline && <p class="mt-2 text-sm leading-6 text-white/62">{data.profileTagline}</p>}
   </div>
 
   <figure class="bg-black/30 p-1">
@@ -33,17 +64,17 @@ const { data } = Astro.props;
 
   <div class="p-3 sm:p-4">
     <div class="mb-3 border-b border-white/10 pb-3 sm:mb-4 sm:pb-4">
-      <p class="text-[9px] font-mono uppercase tracking-[0.2em] text-white/30 sm:text-[10px] sm:tracking-[0.24em]">Classification</p>
+      <p class="text-[9px] font-mono uppercase tracking-[0.2em] text-white/30 sm:text-[10px] sm:tracking-[0.24em]">{labels.classification}</p>
       <p class="mt-1 text-xs tracking-[0.14em] text-white/75 sm:text-sm sm:tracking-[0.18em]">{data.categoryTitle}</p>
     </div>
 
     <dl class="divide-y divide-white/5 text-xs sm:text-sm">
       <div class="grid grid-cols-[5.25rem_1fr] gap-3 py-2.5 sm:grid-cols-[6rem_1fr] sm:py-3">
-        <dt class="text-[9px] font-mono uppercase tracking-[0.18em] text-white/35 sm:text-[10px] sm:tracking-[0.2em]">Name</dt>
+        <dt class="text-[9px] font-mono uppercase tracking-[0.18em] text-white/35 sm:text-[10px] sm:tracking-[0.2em]">{labels.name}</dt>
         <dd class="text-white/80">{data.name}</dd>
       </div>
       <div class="grid grid-cols-[5.25rem_1fr] gap-3 py-2.5 sm:grid-cols-[6rem_1fr] sm:py-3">
-        <dt class="text-[9px] font-mono uppercase tracking-[0.18em] text-white/35 sm:text-[10px] sm:tracking-[0.2em]">Romanized</dt>
+        <dt class="text-[9px] font-mono uppercase tracking-[0.18em] text-white/35 sm:text-[10px] sm:tracking-[0.2em]">{labels.romanized}</dt>
         <dd class="text-white/80">{data.romanizedName}</dd>
       </div>
       <div class="grid grid-cols-[5.25rem_1fr] gap-3 py-2.5 sm:grid-cols-[6rem_1fr] sm:py-3">
@@ -53,11 +84,99 @@ const { data } = Astro.props;
           {data.status}
         </dd>
       </div>
-      
+
+      {data.debutDate && (
+        <div class="grid grid-cols-[5.25rem_1fr] gap-3 py-2.5 sm:grid-cols-[6rem_1fr] sm:py-3">
+          <dt class="text-[9px] font-mono uppercase tracking-[0.18em] text-white/35 sm:text-[10px] sm:tracking-[0.2em]">{labels.debutDate}</dt>
+          <dd class="text-white/80">{data.debutDate}</dd>
+        </div>
+      )}
+
       {data.meta && (
         <div class="grid grid-cols-[5.25rem_1fr] gap-3 py-2.5 sm:grid-cols-[6rem_1fr] sm:py-3">
-          <dt class="text-[9px] font-mono uppercase tracking-[0.18em] text-white/35 sm:text-[10px] sm:tracking-[0.2em]">Meta</dt>
+          <dt class="text-[9px] font-mono uppercase tracking-[0.18em] text-white/35 sm:text-[10px] sm:tracking-[0.2em]">{labels.meta}</dt>
           <dd class="text-white/80">{data.meta}</dd>
+        </div>
+      )}
+
+      {data.affiliations && data.affiliations.length > 0 && (
+        <div class="py-2.5 sm:py-3">
+          <dt class="text-[9px] font-mono uppercase tracking-[0.18em] text-white/35 sm:text-[10px] sm:tracking-[0.2em]">{labels.affiliations}</dt>
+          <dd class="mt-2 flex flex-wrap gap-2">
+            {data.affiliations.map((item) => (
+              <span class="rounded-full border border-white/12 px-2.5 py-1 text-[11px] text-white/72">{item}</span>
+            ))}
+          </dd>
+        </div>
+      )}
+
+      {data.designCredits && data.designCredits.length > 0 && (
+        <div class="py-2.5 sm:py-3">
+          <dt class="text-[9px] font-mono uppercase tracking-[0.18em] text-white/35 sm:text-[10px] sm:tracking-[0.2em]">{labels.designCredits}</dt>
+          <dd class="mt-2 space-y-1.5 text-white/80">
+            {data.designCredits.map((item) => (
+              <div>{item}</div>
+            ))}
+          </dd>
+        </div>
+      )}
+
+      {data.officialLinks && data.officialLinks.length > 0 && (
+        <div class="py-2.5 sm:py-3">
+          <dt class="text-[9px] font-mono uppercase tracking-[0.18em] text-white/35 sm:text-[10px] sm:tracking-[0.2em]">{labels.officialLinks}</dt>
+          <dd class="mt-2 space-y-2">
+            {data.officialLinks.map((item) => (
+              <a
+                href={item.href}
+                target={isExternalHref(item.href) ? '_blank' : undefined}
+                rel={isExternalHref(item.href) ? 'noopener noreferrer' : undefined}
+                class="flex items-center justify-between rounded-md border border-white/10 bg-white/[0.03] px-3 py-2 text-[11px] text-white/80 transition-colors hover:border-white/20 hover:text-white"
+              >
+                <span>{item.label}</span>
+                <span class="font-mono text-[9px] uppercase tracking-[0.18em] text-white/34">Link</span>
+              </a>
+            ))}
+          </dd>
+        </div>
+      )}
+
+      {data.featuredEntries && data.featuredEntries.length > 0 && (
+        <div class="py-2.5 sm:py-3">
+          <dt class="text-[9px] font-mono uppercase tracking-[0.18em] text-white/35 sm:text-[10px] sm:tracking-[0.2em]">{labels.featuredEntries}</dt>
+          <dd class="mt-2 space-y-2">
+            {data.featuredEntries.map((item) => (
+              <a href={item.href} class="block rounded-md border border-white/10 bg-white/[0.03] px-3 py-2 transition-colors hover:border-white/20 hover:bg-white/[0.05]">
+                <div class="text-[11px] text-white/82">{item.label}</div>
+                <div class="mt-1 font-mono text-[9px] uppercase tracking-[0.18em] text-white/34">{labels.kindLabels[item.kind]}</div>
+              </a>
+            ))}
+          </dd>
+        </div>
+      )}
+
+      {data.theme && data.theme.palette.length > 0 && (
+        <div class="py-2.5 sm:py-3">
+          <dt class="text-[9px] font-mono uppercase tracking-[0.18em] text-white/35 sm:text-[10px] sm:tracking-[0.2em]">{labels.theme}</dt>
+          <dd class="mt-2 space-y-3">
+            {data.theme.name && (
+              <p class="text-[11px] tracking-[0.12em] text-white/65">{labels.themeName}: {data.theme.name}</p>
+            )}
+            <div class="grid gap-2">
+              {data.theme.palette.map((swatch) => (
+                <div class="theme-swatch-row flex items-center gap-3 rounded-md border border-white/10 bg-white/[0.03] px-3 py-2">
+                  <span
+                    class="theme-swatch h-5 w-5 shrink-0 rounded-full border border-white/18"
+                    style={`background:${swatch.value}; box-shadow: 0 0 0 1px ${swatch.value}33;`}
+                    aria-hidden="true"
+                  ></span>
+                  <div class="min-w-0 flex-1">
+                    <p class="text-[11px] text-white/82">{swatch.label}</p>
+                    <p class="font-mono text-[9px] uppercase tracking-[0.18em] text-white/34">{swatch.value}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </dd>
         </div>
       )}
     </dl>
