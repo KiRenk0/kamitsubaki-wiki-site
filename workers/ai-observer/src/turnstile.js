@@ -18,7 +18,7 @@ export async function verifyTurnstileToken({ token, remoteIp, secret, fetchImpl 
       }),
     });
 
-    return response.json();
+    return await response.json();
   } catch {
     return { success: false, 'error-codes': ['internal-error'] };
   }
