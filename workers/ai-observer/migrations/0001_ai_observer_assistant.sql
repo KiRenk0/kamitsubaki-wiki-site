@@ -145,7 +145,7 @@ CREATE TABLE IF NOT EXISTS deletion_requests (
   FOREIGN KEY (anonymous_session_id) REFERENCES anonymous_sessions(id) ON DELETE SET NULL
 );
 
-CREATE INDEX IF NOT EXISTS idx_user_identities_provider_user
+CREATE UNIQUE INDEX IF NOT EXISTS idx_user_identities_provider_user
   ON user_identities(provider, provider_user_id);
 
 CREATE INDEX IF NOT EXISTS idx_anonymous_sessions_token_ip

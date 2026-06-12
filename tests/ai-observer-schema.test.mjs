@@ -34,8 +34,9 @@ test('AI observer migration stores hashed IPs but no plaintext IP column', async
 
 test('AI observer migration adds ownership and lookup indexes', async () => {
   const sql = await readFile(migrationPath, 'utf8');
+  assert.match(sql, /\bCREATE UNIQUE INDEX IF NOT EXISTS idx_user_identities_provider_user\b/);
+
   const requiredIndexes = [
-    'idx_user_identities_provider_user',
     'idx_anonymous_sessions_token_ip',
     'idx_chat_threads_user_updated',
     'idx_chat_threads_anonymous_updated',
