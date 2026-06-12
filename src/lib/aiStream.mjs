@@ -1,7 +1,10 @@
 export function parseAiStreamChunk(chunk, previousRemainder = '') {
-  const input = `${previousRemainder}${chunk}`.replace(/\r\n?/g, '\n');
+  const rawInput = `${previousRemainder}${chunk}`;
+  const hasSplitTrailingCR = rawInput.endsWith('\r') && !rawInput.endsWith('\r\r');
+  const normalizedInput = hasSplitTrailingCR ? rawInput.slice(0, -1) : rawInput;
+  const input = normalizedInput.replace(/\r\n?/g, '\n');
   const frames = input.split('\n\n');
-  const remainder = frames.pop() ?? '';
+  const remainder = `${frames.pop() ?? ''}${hasSplitTrailingCR ? '\r' : ''}`;
   const events = [];
 
   for (const frame of frames) {

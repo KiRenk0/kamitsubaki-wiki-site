@@ -50,6 +50,16 @@ test('parseAiStreamChunk parses CRLF-delimited frames', () => {
   assert.equal(result.remainder, '');
 });
 
+test('parseAiStreamChunk preserves a CRLF-delimited frame split after CR', () => {
+  const first = parseAiStreamChunk('event: delta\r');
+  const second = parseAiStreamChunk('\ndata: {"text":"x"}\r\n\r\n', first.remainder);
+
+  assert.deepEqual(first.events, []);
+  assert.equal(first.remainder, 'event: delta\r');
+  assert.deepEqual(second.events, [{ type: 'delta', data: { text: 'x' } }]);
+  assert.equal(second.remainder, '');
+});
+
 test('parseAiStreamChunk parses CR-delimited frames', () => {
   const result = parseAiStreamChunk('event: delta\rdata: {"text":"観測"}\r\r');
 
