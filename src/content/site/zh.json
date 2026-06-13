@@ -125,6 +125,50 @@
       "神椿是什么？",
       "V.W.P 是谁？",
       "推荐新用户阅读路线"
+    ],
+    "modelModeLabel": "模型",
+    "customModelLabel": "自定义",
+    "customModelPlaceholder": "例如 gpt-4.1-mini",
+    "thinkingModeLabel": "思考",
+    "modelModes": [
+      {
+        "value": "auto",
+        "label": "自动"
+      },
+      {
+        "value": "fast",
+        "label": "快速"
+      },
+      {
+        "value": "balanced",
+        "label": "均衡"
+      },
+      {
+        "value": "deep",
+        "label": "深入"
+      },
+      {
+        "value": "custom",
+        "label": "自定义"
+      }
+    ],
+    "thinkingModes": [
+      {
+        "value": "auto",
+        "label": "自动"
+      },
+      {
+        "value": "off",
+        "label": "关闭"
+      },
+      {
+        "value": "light",
+        "label": "轻量"
+      },
+      {
+        "value": "deep",
+        "label": "深度"
+      }
     ]
   }
 }

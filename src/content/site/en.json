@@ -125,6 +125,50 @@
       "What is Kamitsubaki?",
       "Who are V.W.P?",
       "New reader route"
+    ],
+    "modelModeLabel": "Model",
+    "customModelLabel": "Custom",
+    "customModelPlaceholder": "e.g. gpt-4.1-mini",
+    "thinkingModeLabel": "Thinking",
+    "modelModes": [
+      {
+        "value": "auto",
+        "label": "Auto"
+      },
+      {
+        "value": "fast",
+        "label": "Fast"
+      },
+      {
+        "value": "balanced",
+        "label": "Balanced"
+      },
+      {
+        "value": "deep",
+        "label": "Deep"
+      },
+      {
+        "value": "custom",
+        "label": "Custom"
+      }
+    ],
+    "thinkingModes": [
+      {
+        "value": "auto",
+        "label": "Auto"
+      },
+      {
+        "value": "off",
+        "label": "Off"
+      },
+      {
+        "value": "light",
+        "label": "Light"
+      },
+      {
+        "value": "deep",
+        "label": "Deep"
+      }
     ]
   }
 }

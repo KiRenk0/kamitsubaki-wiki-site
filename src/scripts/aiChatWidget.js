@@ -71,6 +71,28 @@ function normalizeCopy(root) {
   }
 }
 
+function updateCustomModelVisibility(root) {
+  const modelChoice = root.querySelector('[data-ai-model-choice]');
+  const customModelWrap = root.querySelector('[data-ai-custom-model-wrap]');
+  if (!(modelChoice instanceof HTMLSelectElement) || !(customModelWrap instanceof HTMLElement)) {
+    return;
+  }
+
+  customModelWrap.hidden = modelChoice.value !== 'custom';
+}
+
+function readModelSettings(root) {
+  const modelChoice = root.querySelector('[data-ai-model-choice]');
+  const customModel = root.querySelector('[data-ai-custom-model]');
+  const thinkingMode = root.querySelector('[data-ai-thinking-mode]');
+
+  return {
+    modelChoice: modelChoice instanceof HTMLSelectElement ? modelChoice.value : 'auto',
+    customModel: customModel instanceof HTMLInputElement ? customModel.value.trim() : '',
+    thinkingMode: thinkingMode instanceof HTMLSelectElement ? thinkingMode.value : 'auto',
+  };
+}
+
 async function bootstrap(root) {
   const apiBase = root.dataset.apiBase || '';
   if (!apiBase) {
@@ -168,11 +190,13 @@ function initWidget(root) {
   const input = root.querySelector('[data-ai-input]');
   const messages = root.querySelector('[data-ai-messages]');
   const quick = root.querySelector('[data-ai-quick]');
+  const modelChoice = root.querySelector('[data-ai-model-choice]');
 
   if (!toggle || !close || !minimize || !form || !input || !messages || !quick) {
     return;
   }
 
+  updateCustomModelVisibility(root);
   bootstrap(root).catch(() => {});
 
   toggle.addEventListener('click', () => {
@@ -194,6 +218,10 @@ function initWidget(root) {
     input.value = target.dataset.aiPrompt || '';
     input.focus();
   });
+
+  if (modelChoice) {
+    modelChoice.addEventListener('change', () => updateCustomModelVisibility(root));
+  }
 
   input.addEventListener('input', () => {
     input.style.height = 'auto';
@@ -230,7 +258,7 @@ function initWidget(root) {
           'Content-Type': 'application/json',
           Accept: 'text/event-stream',
         },
-        body: JSON.stringify({ message, locale }),
+        body: JSON.stringify({ message, locale, ...readModelSettings(root) }),
       });
 
       await readStream(response, assistantMessage.paragraph, thinkingMessage, messages, copy);

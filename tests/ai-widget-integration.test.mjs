@@ -49,11 +49,18 @@ test('AI chat widget exposes interaction hooks and stream parser integration', a
   assert.match(component, /data-ai-toggle/);
   assert.match(component, /data-ai-messages/);
   assert.match(component, /data-ai-form/);
+  assert.match(component, /data-ai-model-choice/);
+  assert.match(component, /data-ai-thinking-mode/);
+  assert.match(component, /data-ai-custom-model/);
   assert.match(script, /parseAiStreamChunk/);
   assert.match(script, /text\/event-stream/);
   assert.match(script, /event\.type === 'source'/);
   assert.match(css, /\.ai-message__sources/);
   assert.match(script, /dataset\.aiPrompt/);
+  assert.match(script, /readModelSettings/);
+  assert.match(script, /modelChoice/);
+  assert.match(script, /thinkingMode/);
+  assert.match(css, /\.ai-chat__controls/);
   assert.match(css, /\.ai-chat\.is-thinking/);
   assert.match(css, /@keyframes aiThinking/);
   assert.match(css, /@media \(max-width: 639px\)/);

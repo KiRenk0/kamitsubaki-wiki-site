@@ -100,6 +100,22 @@ const site = defineCollection({
       inputLabel: z.string(),
       inputPlaceholder: z.string(),
       sendLabel: z.string(),
+      modelModeLabel: z.string(),
+      customModelLabel: z.string(),
+      customModelPlaceholder: z.string(),
+      thinkingModeLabel: z.string(),
+      modelModes: z.array(
+        z.object({
+          value: z.string(),
+          label: z.string(),
+        }),
+      ),
+      thinkingModes: z.array(
+        z.object({
+          value: z.string(),
+          label: z.string(),
+        }),
+      ),
       bubbleIdle: z.string(),
       bubbleThinking: z.string(),
       greeting: z.string(),

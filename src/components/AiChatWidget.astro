@@ -8,6 +8,12 @@ type AiChatCopy = {
   inputLabel: string;
   inputPlaceholder: string;
   sendLabel: string;
+  modelModeLabel: string;
+  customModelLabel: string;
+  customModelPlaceholder: string;
+  thinkingModeLabel: string;
+  modelModes: { value: string; label: string }[];
+  thinkingModes: { value: string; label: string }[];
   bubbleIdle: string;
   bubbleThinking: string;
   greeting: string;
@@ -19,6 +25,26 @@ type AiChatCopy = {
 };
 
 const { lang = 'zh', copy } = Astro.props as { lang?: string; copy: AiChatCopy };
+const normalizedCopy = {
+  ...copy,
+  modelModeLabel: copy.modelModeLabel ?? 'Model',
+  customModelLabel: copy.customModelLabel ?? 'Custom',
+  customModelPlaceholder: copy.customModelPlaceholder ?? 'gpt-4.1-mini',
+  thinkingModeLabel: copy.thinkingModeLabel ?? 'Thinking',
+  modelModes: copy.modelModes ?? [
+    { value: 'auto', label: 'Auto' },
+    { value: 'fast', label: 'Fast' },
+    { value: 'balanced', label: 'Balanced' },
+    { value: 'deep', label: 'Deep' },
+    { value: 'custom', label: 'Custom' },
+  ],
+  thinkingModes: copy.thinkingModes ?? [
+    { value: 'auto', label: 'Auto' },
+    { value: 'off', label: 'Off' },
+    { value: 'light', label: 'Light' },
+    { value: 'deep', label: 'Deep' },
+  ],
+};
 const apiBase = import.meta.env.PUBLIC_AI_OBSERVER_API_BASE || '';
 ---
 
@@ -27,7 +53,7 @@ const apiBase = import.meta.env.PUBLIC_AI_OBSERVER_API_BASE || '';
   data-ai-chat
   data-api-base={apiBase}
   data-locale={lang}
-  data-copy={JSON.stringify(copy)}
+  data-copy={JSON.stringify(normalizedCopy)}
   aria-label={copy.title}
 >
   <div class="ai-chat__bubble" data-ai-bubble aria-hidden="true">{copy.bubbleIdle}</div>
@@ -55,6 +81,29 @@ const apiBase = import.meta.env.PUBLIC_AI_OBSERVER_API_BASE || '';
         </button>
       </div>
     </header>
+
+    <div class="ai-chat__controls" data-ai-controls>
+      <label>
+        <span>{normalizedCopy.modelModeLabel}</span>
+        <select data-ai-model-choice aria-label={normalizedCopy.modelModeLabel}>
+          {normalizedCopy.modelModes.map((mode) => (
+            <option value={mode.value}>{mode.label}</option>
+          ))}
+        </select>
+      </label>
+      <label class="ai-chat__custom-model" data-ai-custom-model-wrap hidden>
+        <span>{normalizedCopy.customModelLabel}</span>
+        <input data-ai-custom-model type="text" inputmode="text" autocomplete="off" placeholder={normalizedCopy.customModelPlaceholder} />
+      </label>
+      <label>
+        <span>{normalizedCopy.thinkingModeLabel}</span>
+        <select data-ai-thinking-mode aria-label={normalizedCopy.thinkingModeLabel}>
+          {normalizedCopy.thinkingModes.map((mode) => (
+            <option value={mode.value}>{mode.label}</option>
+          ))}
+        </select>
+      </label>
+    </div>
 
     <div class="ai-chat__messages" data-ai-messages role="log" aria-live="polite">
       <article class="ai-message ai-message--assistant">
