@@ -93,6 +93,37 @@ function readModelSettings(root) {
   };
 }
 
+function updateAuthState(root, copy, viewer) {
+  const status = root.querySelector('[data-ai-auth-status]');
+  const logout = root.querySelector('[data-ai-logout]');
+  const oauthButtons = root.querySelectorAll('[data-ai-oauth]');
+  const note = root.querySelector('[data-ai-auth-note]');
+  const isUser = viewer?.kind === 'user';
+
+  root.dataset.viewerKind = isUser ? 'user' : 'anonymous';
+
+  if (status) {
+    status.textContent = isUser
+      ? `${copy.accountLoggedInPrefix || ''} ${viewer.displayName || viewer.email || ''}`.trim()
+      : copy.accountAnonymous || '';
+  }
+
+  oauthButtons.forEach((button) => {
+    if (button instanceof HTMLButtonElement) {
+      button.hidden = isUser;
+    }
+  });
+
+  if (logout instanceof HTMLButtonElement) {
+    logout.hidden = !isUser;
+  }
+
+  if (note instanceof HTMLElement) {
+    note.hidden = true;
+    note.textContent = '';
+  }
+}
+
 async function bootstrap(root) {
   const apiBase = root.dataset.apiBase || '';
   if (!apiBase) {
@@ -109,17 +140,47 @@ async function bootstrap(root) {
   }
 
   const data = await response.json();
-  if (typeof data.greeting !== 'string' || !data.greeting) {
-    return;
-  }
+  const copy = normalizeCopy(root);
+  updateAuthState(root, copy, data.viewer);
 
-  const firstAssistantMessage = root.querySelector('.ai-message--assistant p');
-  if (firstAssistantMessage) {
-    firstAssistantMessage.textContent = data.greeting;
+  if (typeof data.greeting === 'string' && data.greeting) {
+    const firstAssistantMessage = root.querySelector('.ai-message--assistant p');
+    if (firstAssistantMessage) {
+      firstAssistantMessage.textContent = data.greeting;
+    }
   }
 
   if (data.turnstile?.siteKey) {
     root.dataset.turnstileSiteKey = data.turnstile.siteKey;
+  }
+}
+
+function startOAuth(root, provider) {
+  const apiBase = root.dataset.apiBase || '';
+  if (!apiBase || !['github', 'google'].includes(provider)) {
+    return;
+  }
+
+  const returnTo = window.location.href;
+  const url = new URL(apiBase + '/api/auth/oauth/' + provider + '/start');
+  url.searchParams.set('returnTo', returnTo);
+  window.location.assign(url.toString());
+}
+
+async function logout(root, copy) {
+  const apiBase = root.dataset.apiBase || '';
+  if (!apiBase) {
+    return;
+  }
+
+  try {
+    await fetch(`${apiBase}/api/auth/logout`, {
+      method: 'POST',
+      credentials: 'include',
+      headers: { Accept: 'application/json' },
+    });
+  } finally {
+    updateAuthState(root, copy, { kind: 'anonymous' });
   }
 }
 
@@ -191,12 +252,15 @@ function initWidget(root) {
   const messages = root.querySelector('[data-ai-messages]');
   const quick = root.querySelector('[data-ai-quick]');
   const modelChoice = root.querySelector('[data-ai-model-choice]');
+  const oauthButtons = root.querySelectorAll('[data-ai-oauth]');
+  const logoutButton = root.querySelector('[data-ai-logout]');
 
   if (!toggle || !close || !minimize || !form || !input || !messages || !quick) {
     return;
   }
 
   updateCustomModelVisibility(root);
+  updateAuthState(root, copy, { kind: 'anonymous' });
   bootstrap(root).catch(() => {});
 
   toggle.addEventListener('click', () => {
@@ -221,6 +285,18 @@ function initWidget(root) {
 
   if (modelChoice) {
     modelChoice.addEventListener('change', () => updateCustomModelVisibility(root));
+  }
+
+  oauthButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      if (button instanceof HTMLButtonElement) {
+        startOAuth(root, button.dataset.aiOauth || '');
+      }
+    });
+  });
+
+  if (logoutButton instanceof HTMLButtonElement) {
+    logoutButton.addEventListener('click', () => logout(root, copy).catch(() => {}));
   }
 
   input.addEventListener('input', () => {

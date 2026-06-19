@@ -65,3 +65,28 @@ test('AI chat widget exposes interaction hooks and stream parser integration', a
   assert.match(css, /@keyframes aiThinking/);
   assert.match(css, /@media \(max-width: 639px\)/);
 });
+
+test('AI chat widget exposes auth hooks and localized account copy', async () => {
+  const component = await readProjectFile('../src/components/AiChatWidget.astro');
+  const script = await readProjectFile('../src/scripts/aiChatWidget.js');
+  const css = await readProjectFile('../src/styles/global.css');
+
+  for (const locale of locales) {
+    const content = JSON.parse(await readProjectFile(`../src/content/site/${locale}.json`));
+    assert.equal(typeof content.aiChat.accountAnonymous, 'string');
+    assert.equal(typeof content.aiChat.githubLoginLabel, 'string');
+    assert.equal(typeof content.aiChat.googleLoginLabel, 'string');
+    assert.equal(typeof content.aiChat.logoutLabel, 'string');
+  }
+
+  assert.match(component, /data-ai-auth/);
+  assert.match(component, /data-ai-oauth="github"/);
+  assert.match(component, /data-ai-oauth="google"/);
+  assert.match(component, /data-ai-logout/);
+  assert.match(script, /api\/auth\/oauth/);
+  assert.match(script, /startOAuth/);
+  assert.match(script, /api\/auth\/logout/);
+  assert.match(script, /updateAuthState/);
+  assert.match(css, /\.ai-chat__auth/);
+  assert.match(css, /\.ai-chat__auth-actions/);
+});

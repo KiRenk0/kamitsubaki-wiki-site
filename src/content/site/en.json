@@ -169,6 +169,12 @@
         "value": "deep",
         "label": "Deep"
       }
-    ]
+    ],
+    "accountAnonymous": "Anonymous observer",
+    "accountLoggedInPrefix": "Signed in",
+    "logoutLabel": "Sign out",
+    "authErrorFallback": "The auth line is unstable.",
+    "githubLoginLabel": "Sign in with GitHub",
+    "googleLoginLabel": "Sign in with Google"
   }
 }

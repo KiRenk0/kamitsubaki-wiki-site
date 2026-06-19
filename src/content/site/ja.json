@@ -169,6 +169,12 @@
         "value": "deep",
         "label": "深く"
       }
-    ]
+    ],
+    "accountAnonymous": "匿名観測者",
+    "accountLoggedInPrefix": "ログイン中",
+    "logoutLabel": "ログアウト",
+    "authErrorFallback": "認証回線が不安定です。",
+    "githubLoginLabel": "GitHubでログイン",
+    "googleLoginLabel": "Googleでログイン"
   }
 }

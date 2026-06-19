@@ -169,6 +169,12 @@
         "value": "deep",
         "label": "深度"
       }
-    ]
+    ],
+    "accountAnonymous": "匿名观测",
+    "accountLoggedInPrefix": "已登录",
+    "logoutLabel": "登出",
+    "authErrorFallback": "认证回线暂时不稳定。",
+    "githubLoginLabel": "GitHub 登录",
+    "googleLoginLabel": "Google 登录"
   }
 }
