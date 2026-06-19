@@ -104,5 +104,77 @@
       "所有官方权利归其各自所有者所有。"
     ],
     "copyright": "© 2026 LinkTh1rsty All Rights Reserved"
+  },
+  "aiChat": {
+    "title": "AI 观测端",
+    "status": "KAMITSUBAKI WIKI",
+    "buttonLabel": "打开 AI 观测端",
+    "closeLabel": "关闭 AI 观测端",
+    "minimizeLabel": "收起 AI 观测端",
+    "inputLabel": "向 AI 观测端提问",
+    "inputPlaceholder": "问我神椿、V.W.P、企划、世界观...",
+    "sendLabel": "发送",
+    "bubbleIdle": "需要快速了解神椿吗？",
+    "bubbleThinking": "正在观测资料流...",
+    "greeting": "晚上好，观测者。我可以帮你快速了解神椿、整理百科线索，或继续扩展到公开网页资料。",
+    "fallbackOffline": "观测回线暂时不稳定，稍后再试。",
+    "emptyResponse": "观测完成，但没有可展示的回答。",
+    "challengeFallback": "观测频率过高，请稍后再试。",
+    "streamErrorFallback": "观测端暂时无法回答。",
+    "quickPrompts": [
+      "神椿是什么？",
+      "V.W.P 是谁？",
+      "推荐新用户阅读路线"
+    ],
+    "modelModeLabel": "模型",
+    "customModelLabel": "自定义",
+    "customModelPlaceholder": "例如 model-id",
+    "thinkingModeLabel": "思考",
+    "modelModes": [
+      {
+        "value": "auto",
+        "label": "自动"
+      },
+      {
+        "value": "fast",
+        "label": "快速"
+      },
+      {
+        "value": "balanced",
+        "label": "均衡"
+      },
+      {
+        "value": "deep",
+        "label": "深入"
+      },
+      {
+        "value": "custom",
+        "label": "自定义"
+      }
+    ],
+    "thinkingModes": [
+      {
+        "value": "auto",
+        "label": "自动"
+      },
+      {
+        "value": "off",
+        "label": "关闭"
+      },
+      {
+        "value": "light",
+        "label": "轻量"
+      },
+      {
+        "value": "deep",
+        "label": "深度"
+      }
+    ],
+    "accountAnonymous": "匿名观测",
+    "accountLoggedInPrefix": "已登录",
+    "logoutLabel": "登出",
+    "authErrorFallback": "认证回线暂时不稳定。",
+    "githubLoginLabel": "GitHub 登录",
+    "googleLoginLabel": "Google 登录"
   }
 }

@@ -147,6 +147,26 @@ pnpm build
 - `pnpm check`：运行 Astro 诊断并校验 Content Collections schema。
 - `pnpm build`：生成静态站点并确认所有路由能构建。
 
+## AI Observer API
+
+AI 聊天功能按“静态网页 + 独立后端接口”实现：这个公开仓库只保留 Astro 前端、聊天框 UI、流式显示逻辑和内容文案。私有后端仓库负责 AI 接口、检索、身份关联、持久化和防滥用逻辑。
+
+前端通过环境变量连接后端：
+
+本地联调：
+
+```bash
+PUBLIC_AI_OBSERVER_API_BASE=http://127.0.0.1:8787 pnpm dev --host 127.0.0.1
+```
+
+生产部署时，在静态站点环境变量中设置：
+
+```env
+PUBLIC_AI_OBSERVER_API_BASE=https://your-backend-worker.example
+```
+
+浏览器只会调用后端公开 API：`GET /api/ai/bootstrap` 和 `POST /api/ai/chat`。不要在这个前端仓库中提交后端源码、模型密钥、数据库配置或服务端规则。
+
 ## GitHub PR 与 CI 流程
 
 1. 从 `main` 创建或同步你的分支。

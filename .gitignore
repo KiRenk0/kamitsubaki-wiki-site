@@ -4,6 +4,8 @@ node_modules/
 
 # Build output
 dist/
+.wrangler/
+**/.wrangler/
 
 # Astro generated
 .astro/
@@ -12,6 +14,8 @@ dist/
 .env
 .env.*
 !.env.example
+.dev.vars
+.dev.vars.*
 
 # OS files
 .DS_Store

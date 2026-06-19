@@ -91,6 +91,40 @@ const site = defineCollection({
       disclaimer: z.array(z.string()),
       copyright: z.string(),
     }),
+    aiChat: z.object({
+      title: z.string(),
+      status: z.string(),
+      buttonLabel: z.string(),
+      closeLabel: z.string(),
+      minimizeLabel: z.string(),
+      inputLabel: z.string(),
+      inputPlaceholder: z.string(),
+      sendLabel: z.string(),
+      modelModeLabel: z.string(),
+      customModelLabel: z.string(),
+      customModelPlaceholder: z.string(),
+      thinkingModeLabel: z.string(),
+      modelModes: z.array(
+        z.object({
+          value: z.string(),
+          label: z.string(),
+        }),
+      ),
+      thinkingModes: z.array(
+        z.object({
+          value: z.string(),
+          label: z.string(),
+        }),
+      ),
+      bubbleIdle: z.string(),
+      bubbleThinking: z.string(),
+      greeting: z.string(),
+      fallbackOffline: z.string(),
+      emptyResponse: z.string(),
+      challengeFallback: z.string(),
+      streamErrorFallback: z.string(),
+      quickPrompts: z.array(z.string()).min(1),
+    }),
   }),
 });
 

@@ -1,4 +1,6 @@
 ---
+import { getCollection } from 'astro:content';
+import AiChatWidget from '../components/AiChatWidget.astro';
 import '../styles/global.css';
 
 type PageMetadata = {
@@ -36,6 +38,10 @@ const canonicalUrl = siteOrigin ? `${siteOrigin}${canonicalPath}` : canonicalPat
 const pageImage = metadata.image;
 const pageImageUrl = pageImage && siteOrigin && pageImage.startsWith('/') ? `${siteOrigin}${pageImage}` : pageImage;
 const robots = metadata.noindex ? 'noindex, nofollow' : 'index, follow';
+const siteEntries = await getCollection('site');
+const defaultSiteEntry = siteEntries.find((entry) => entry.data.locale === 'zh');
+const siteEntry = siteEntries.find((entry) => entry.data.locale === lang) ?? defaultSiteEntry;
+const aiChatCopy = siteEntry?.data.aiChat;
 ---
 
 <!doctype html>
@@ -91,6 +97,7 @@ const robots = metadata.noindex ? 'noindex, nofollow' : 'index, follow';
     <div class="cursor-dot hidden md:block" id="cursor"></div>
 
     <slot />
+    {aiChatCopy && <AiChatWidget lang={lang} copy={aiChatCopy} />}
 
     <script>
       import '../scripts/siteInteractions.js';

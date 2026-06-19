@@ -104,5 +104,77 @@
       "すべての公式権利は各権利者に帰属します。"
     ],
     "copyright": "© 2026 LinkTh1rsty All Rights Reserved"
+  },
+  "aiChat": {
+    "title": "AI 観測端末",
+    "status": "KAMITSUBAKI WIKI",
+    "buttonLabel": "AI 観測端末を開く",
+    "closeLabel": "AI 観測端末を閉じる",
+    "minimizeLabel": "AI 観測端末をしまう",
+    "inputLabel": "AI 観測端末に質問する",
+    "inputPlaceholder": "神椿、V.W.P、企画、世界観について...",
+    "sendLabel": "送信",
+    "bubbleIdle": "神椿をすばやく知りたい？",
+    "bubbleThinking": "資料流を観測中...",
+    "greeting": "こんばんは、観測者。神椿の概要、百科の手がかり、公開情報への拡張を手伝えます。",
+    "fallbackOffline": "観測回線が一時的に不安定です。少し後でもう一度試してください。",
+    "emptyResponse": "観測は完了しましたが、表示できる回答がありません。",
+    "challengeFallback": "観測頻度が高すぎます。少し後でもう一度試してください。",
+    "streamErrorFallback": "観測端末は一時的に回答できません。",
+    "quickPrompts": [
+      "神椿とは？",
+      "V.W.P は誰？",
+      "初めての読み方を教えて"
+    ],
+    "modelModeLabel": "モデル",
+    "customModelLabel": "任意",
+    "customModelPlaceholder": "例: model-id",
+    "thinkingModeLabel": "思考",
+    "modelModes": [
+      {
+        "value": "auto",
+        "label": "自動"
+      },
+      {
+        "value": "fast",
+        "label": "高速"
+      },
+      {
+        "value": "balanced",
+        "label": "標準"
+      },
+      {
+        "value": "deep",
+        "label": "深く"
+      },
+      {
+        "value": "custom",
+        "label": "任意"
+      }
+    ],
+    "thinkingModes": [
+      {
+        "value": "auto",
+        "label": "自動"
+      },
+      {
+        "value": "off",
+        "label": "なし"
+      },
+      {
+        "value": "light",
+        "label": "軽め"
+      },
+      {
+        "value": "deep",
+        "label": "深く"
+      }
+    ],
+    "accountAnonymous": "匿名観測者",
+    "accountLoggedInPrefix": "ログイン中",
+    "logoutLabel": "ログアウト",
+    "authErrorFallback": "認証回線が不安定です。",
+    "githubLoginLabel": "GitHubでログイン",
+    "googleLoginLabel": "Googleでログイン"
   }
 }

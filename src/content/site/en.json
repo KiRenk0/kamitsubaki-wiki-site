@@ -104,5 +104,77 @@
       "All official rights belong to their respective owners."
     ],
     "copyright": "© 2026 LinkTh1rsty All Rights Reserved"
+  },
+  "aiChat": {
+    "title": "AI Observer",
+    "status": "KAMITSUBAKI WIKI",
+    "buttonLabel": "Open AI Observer",
+    "closeLabel": "Close AI Observer",
+    "minimizeLabel": "Minimize AI Observer",
+    "inputLabel": "Ask the AI Observer",
+    "inputPlaceholder": "Ask about Kamitsubaki, V.W.P, projects, lore...",
+    "sendLabel": "Send",
+    "bubbleIdle": "Need a quick Kamitsubaki primer?",
+    "bubbleThinking": "Observing the archive stream...",
+    "greeting": "Good evening, observer. I can help you understand Kamitsubaki, summarize wiki threads, and expand into public web sources.",
+    "fallbackOffline": "The observation line is offline. Please try again later.",
+    "emptyResponse": "Observation complete, but there is no displayable answer.",
+    "challengeFallback": "Observation frequency is too high. Please try again later.",
+    "streamErrorFallback": "The observer cannot answer right now.",
+    "quickPrompts": [
+      "What is Kamitsubaki?",
+      "Who are V.W.P?",
+      "New reader route"
+    ],
+    "modelModeLabel": "Model",
+    "customModelLabel": "Custom",
+    "customModelPlaceholder": "e.g. model-id",
+    "thinkingModeLabel": "Thinking",
+    "modelModes": [
+      {
+        "value": "auto",
+        "label": "Auto"
+      },
+      {
+        "value": "fast",
+        "label": "Fast"
+      },
+      {
+        "value": "balanced",
+        "label": "Balanced"
+      },
+      {
+        "value": "deep",
+        "label": "Deep"
+      },
+      {
+        "value": "custom",
+        "label": "Custom"
+      }
+    ],
+    "thinkingModes": [
+      {
+        "value": "auto",
+        "label": "Auto"
+      },
+      {
+        "value": "off",
+        "label": "Off"
+      },
+      {
+        "value": "light",
+        "label": "Light"
+      },
+      {
+        "value": "deep",
+        "label": "Deep"
+      }
+    ],
+    "accountAnonymous": "Anonymous observer",
+    "accountLoggedInPrefix": "Signed in",
+    "logoutLabel": "Sign out",
+    "authErrorFallback": "The auth line is unstable.",
+    "githubLoginLabel": "Sign in with GitHub",
+    "googleLoginLabel": "Sign in with Google"
   }
 }
