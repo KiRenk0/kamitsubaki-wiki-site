@@ -33,6 +33,12 @@ test('AI chat widget receives copy from BaseLayout content lookup', async () => 
   assert.match(layout, /<AiChatWidget lang=\{lang\} copy=\{aiChatCopy\}/);
 });
 
+test('AI chat keeps the production Worker fallback when Pages build variables are absent', async () => {
+  const component = await readProjectFile('../src/components/AiChatWidget.astro');
+
+  assert.match(component, /PUBLIC_AI_OBSERVER_API_BASE\s*\|\|\s*'https:\/\/kamitsubaki-ai-observer\.linkth1rstyg\.workers\.dev'/);
+});
+
 test('AI chat implementation does not hardcode localized chat copy', async () => {
   const component = await readProjectFile('../src/components/AiChatWidget.astro');
   const script = await readProjectFile('../src/scripts/aiChatWidget.js');
