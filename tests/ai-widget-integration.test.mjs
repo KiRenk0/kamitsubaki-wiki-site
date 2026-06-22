@@ -39,6 +39,13 @@ test('AI chat keeps the production Worker fallback when Pages build variables ar
   assert.match(component, /PUBLIC_AI_OBSERVER_API_BASE\s*\|\|\s*'https:\/\/kamitsubaki-ai-observer\.linkth1rstyg\.workers\.dev'/);
 });
 
+test('AI chat bootstrap sends the active page locale for localized IP greetings', async () => {
+  const script = await readProjectFile('../src/scripts/aiChatWidget.js');
+
+  assert.match(script, /searchParams\.set\('locale',\s*root\.dataset\.locale/);
+  assert.match(script, /fetch\(bootstrapUrl/);
+});
+
 test('AI chat implementation does not hardcode localized chat copy', async () => {
   const component = await readProjectFile('../src/components/AiChatWidget.astro');
   const script = await readProjectFile('../src/scripts/aiChatWidget.js');

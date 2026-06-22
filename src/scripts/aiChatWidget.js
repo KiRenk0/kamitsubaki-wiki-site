@@ -459,7 +459,9 @@ async function bootstrap(root) {
     return;
   }
 
-  const response = await fetch(`${apiBase}/api/ai/bootstrap`, {
+  const bootstrapUrl = new URL(`${apiBase}/api/ai/bootstrap`);
+  bootstrapUrl.searchParams.set('locale', root.dataset.locale || document.documentElement.lang || 'zh');
+  const response = await fetch(bootstrapUrl, {
     credentials: 'include',
     headers: { Accept: 'application/json' },
   });
