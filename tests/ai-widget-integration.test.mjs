@@ -73,6 +73,8 @@ test('AI chat widget exposes interaction hooks and stream parser integration', a
   assert.match(component, /data-ai-settings-popover/);
   assert.match(component, /data-ai-model-choice/);
   assert.match(component, /data-ai-thinking-mode/);
+  assert.match(component, /data-ai-challenge-tray/);
+  assert.match(component, /data-ai-challenge-mount/);
   assert.match(script, /toggle\.addEventListener\('click'/);
   assert.match(script, /close\.addEventListener\('click'/);
   assert.match(script, /scrim\?\.addEventListener\('click'/);
@@ -92,6 +94,9 @@ test('AI chat widget exposes interaction hooks and stream parser integration', a
   assert.match(css, /\.ai-message__sources-list/);
   assert.match(script, /dataset\.aiPrompt/);
   assert.match(script, /readModelSettings/);
+  assert.match(script, /showChallengeTray/);
+  assert.match(script, /hideChallengeTray/);
+  assert.match(script, /theme: 'dark'/);
   assert.match(controls, /modelChoice/);
   assert.match(controls, /thinkingMode/);
   assert.match(script, /event\.key === 'Enter'/);
@@ -160,6 +165,9 @@ test('AI chat widget supports draggable launcher, compact settings, history, and
   assert.match(css, /\.ai-chat__launcher\.is-hidden/);
   assert.match(css, /\.ai-chat__settings-popover/);
   assert.match(css, /\.ai-chat__segmented/);
+  assert.match(css, /\.ai-chat__challenge-tray/);
+  assert.match(css, /\.ai-chat__challenge-shell/);
+  assert.match(css, /\.ai-chat__challenge-mount/);
   assert.match(css, /\.ai-chat__header\s*\{[^}]*z-index: 4;/s);
   assert.match(css, /\.ai-chat__settings-popover\s*\{[^}]*z-index: 20;/s);
   assert.match(css, /\.ai-chat__body\s*\{[^}]*z-index: 1;/s);

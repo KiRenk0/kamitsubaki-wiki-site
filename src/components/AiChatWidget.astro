@@ -201,6 +201,13 @@ const apiBase = import.meta.env.PUBLIC_AI_OBSERVER_API_BASE || 'https://kamitsub
           {copy.quickPrompts.map((prompt) => <button type="button" data-ai-prompt={prompt}>&gt; {prompt}</button>)}
         </div>
 
+        <div class="ai-chat__challenge-tray" data-ai-challenge-tray hidden aria-live="polite">
+          <div class="ai-chat__challenge-shell">
+            <span class="ai-chat__challenge-label">SECURITY CHECK</span>
+            <div class="ai-chat__challenge-mount" data-ai-challenge-mount></div>
+          </div>
+        </div>
+
         <form class="ai-chat__form" data-ai-form>
           <div class="ai-chat__composer">
             <span class="ai-chat__prompt-symbol">&gt;_</span>

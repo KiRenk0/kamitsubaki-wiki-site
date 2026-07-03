@@ -520,6 +520,31 @@ function loadTurnstile() {
   return turnstileLoader;
 }
 
+function showChallengeTray(root, container) {
+  const tray = root.querySelector('[data-ai-challenge-tray]');
+  const mount = root.querySelector('[data-ai-challenge-mount]');
+  if (!(tray instanceof HTMLElement) || !(mount instanceof HTMLElement)) {
+    return false;
+  }
+
+  mount.replaceChildren(container);
+  tray.hidden = false;
+  root.classList.add('is-challenge-open');
+  return true;
+}
+
+function hideChallengeTray(root) {
+  const tray = root.querySelector('[data-ai-challenge-tray]');
+  const mount = root.querySelector('[data-ai-challenge-mount]');
+  if (mount instanceof HTMLElement) {
+    mount.replaceChildren();
+  }
+  if (tray instanceof HTMLElement) {
+    tray.hidden = true;
+  }
+  root.classList.remove('is-challenge-open');
+}
+
 async function requestTurnstileToken(root, content, copy, options = {}) {
   const siteKey = root.dataset.turnstileSiteKey || '';
   if (!siteKey) {
@@ -530,27 +555,39 @@ async function requestTurnstileToken(root, content, copy, options = {}) {
     const turnstile = await loadTurnstile();
     const container = document.createElement('div');
     container.className = 'ai-message__challenge';
-    const anchor = content instanceof HTMLElement ? content : root;
-    if (anchor === root) {
-      root.append(container);
-    } else {
-      anchor.after(container);
+    const usesTray = showChallengeTray(root, container);
+    if (!usesTray) {
+      const anchor = content instanceof HTMLElement ? content : root;
+      if (anchor === root) {
+        root.append(container);
+      } else {
+        anchor.after(container);
+      }
     }
 
     return await new Promise((resolve) => {
       turnstile.render(container, {
         sitekey: siteKey,
+        theme: 'dark',
         action: options.action || 'ai_chat',
         callback(token) {
           root.dataset.turnstileToken = token;
-          container.remove();
+          if (usesTray) {
+            hideChallengeTray(root);
+          } else {
+            container.remove();
+          }
           if (options.updateContent !== false && content instanceof HTMLElement) {
             setMessageMarkdown(content, copy.challengeReady || content.textContent || '');
           }
           resolve(token);
         },
         'error-callback'() {
-          container.remove();
+          if (usesTray) {
+            hideChallengeTray(root);
+          } else {
+            container.remove();
+          }
           resolve('');
         },
         'expired-callback'() {
