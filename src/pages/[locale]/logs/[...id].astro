@@ -94,7 +94,7 @@ const labels = {
         )}
       </div>
 
-      <aside class="rounded-md border border-white/10 bg-white/[0.03] p-5 sm:p-6">
+      <aside class="wiki-side-card rounded-md border border-white/10 bg-white/[0.03] p-5 sm:p-6">
         <p class="text-[9px] font-mono uppercase tracking-[0.2em] text-white/35">{logEntry.type}</p>
         <p class="mt-2 text-lg font-medium text-white/84">{logEntry.date}</p>
         <p class="mt-5 break-all text-[11px] leading-6 text-white/38">src/content/logs/{id}/{localeCode}.md</p>
@@ -113,7 +113,7 @@ const labels = {
 
       {hasArticleBody && (
         <article class:list={[
-          'wiki-prose prose prose-invert min-w-0 max-w-none',
+          'wiki-reader wiki-prose prose prose-invert min-w-0 max-w-none',
           hasTableOfContents ? 'lg:col-span-8' : 'lg:col-span-10 lg:col-start-2',
         ]}>
           {hasTableOfContents && (

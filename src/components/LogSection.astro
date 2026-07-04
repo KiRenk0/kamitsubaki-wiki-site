@@ -28,10 +28,10 @@ const { logEntries, section } = Astro.props as {
       {logEntries.map((entry, index) => (
         <a
           href={entry.href}
-          class="group relative overflow-hidden rounded-md border border-white/10 bg-white/[0.025] p-5 transition-colors duration-500 hover:border-white/35 reveal-up sm:p-6"
+          class="wiki-card group relative overflow-hidden rounded-md border border-white/10 bg-white/[0.025] p-5 transition-colors duration-500 hover:border-white/30 reveal-up sm:p-6"
           style={`transition-delay: ${index * 0.08}s;`}
         >
-          <div class="absolute inset-0 bg-white/[0.04] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+          <div class="wiki-card__wash absolute inset-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
           <article class="relative z-10 grid gap-5 md:grid-cols-[8rem_minmax(0,1fr)] md:gap-6">
             <div class="space-y-3 border-b border-white/10 pb-4 md:border-b-0 md:border-r md:border-white/10 md:pb-0 md:pr-6">
               <p class="text-[9px] font-mono uppercase tracking-[0.18em] text-white/42">{entry.date}</p>
