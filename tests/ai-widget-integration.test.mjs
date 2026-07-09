@@ -252,6 +252,9 @@ test('logged-in history exposes rename, delete, clear, and restored source contr
   assert.match(css, /grid-column: 1 \/ -1/);
   assert.match(css, /\.ai-chat__thread-actions button/);
   assert.match(css, /\.ai-chat__dialog \{/);
+  assert.match(css, /\.ai-chat__dialog \{[\s\S]*display: none;/);
+  assert.match(css, /\.ai-chat__dialog \{[\s\S]*pointer-events: none;/);
+  assert.match(css, /\.ai-chat__dialog\[open\] \{[\s\S]*display: block;[\s\S]*pointer-events: auto;/);
   assert.match(css, /z-index: 80/);
   assert.equal(css.includes('position: absolute;\n  top: 100%;'), false);
   assert.match(css, /backdrop-filter:/);
