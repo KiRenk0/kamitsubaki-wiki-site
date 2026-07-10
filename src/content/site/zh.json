@@ -111,7 +111,7 @@
     "title": "联系与关注",
     "buttonLabel": "打开社交平台联系入口",
     "closeLabel": "关闭社交平台联系入口",
-    "helper": "欢迎关注、反馈、投稿补充资料。这里可以继续添加 B 站、X、YouTube、微博、Discord、QQ群等平台。",
+    "helper": "欢迎加入社群、反馈或投稿补充资料。",
     "maxVisible": 12,
     "items": [
       {
@@ -163,17 +163,21 @@
       },
       {
         "label": "Discord",
-        "href": "",
-        "handle": "填写邀请链接",
-        "icon": "discord",
-        "enabled": false
+        "href": "https://discord.gg/cnXcvkS4j7",
+        "handle": "中文观测者社群",
+        "icon": "discord"
       },
       {
         "label": "QQ群",
-        "href": "",
-        "handle": "填写群链接或公告页",
-        "icon": "qq",
-        "enabled": false
+        "href": "https://qun.qq.com/",
+        "handle": "群号：1056086519",
+        "icon": "qq"
+      },
+      {
+        "label": "抖音群",
+        "href": "https://v.douyin.com/group/689323013627",
+        "handle": "抖音社群入口",
+        "icon": "link"
       }
     ]
   },

@@ -111,7 +111,7 @@
     "title": "連絡・フォロー",
     "buttonLabel": "ソーシャルリンクを開く",
     "closeLabel": "ソーシャルリンクを閉じる",
-    "helper": "フォロー、フィードバック、資料追加を歓迎します。Bilibili、X、YouTube、Weibo、Discord、QQ などもここに追加できます。",
+    "helper": "コミュニティへの参加、フィードバック、資料追加を歓迎します。",
     "maxVisible": 12,
     "items": [
       {
@@ -163,17 +163,21 @@
       },
       {
         "label": "Discord",
-        "href": "",
-        "handle": "招待リンクを設定",
-        "icon": "discord",
-        "enabled": false
+        "href": "https://discord.gg/cnXcvkS4j7",
+        "handle": "中国語圏オブザーバーコミュニティ",
+        "icon": "discord"
       },
       {
         "label": "QQ Group",
-        "href": "",
-        "handle": "グループリンクを設定",
-        "icon": "qq",
-        "enabled": false
+        "href": "https://qun.qq.com/",
+        "handle": "グループ番号：1056086519",
+        "icon": "qq"
+      },
+      {
+        "label": "Douyin Group",
+        "href": "https://v.douyin.com/group/689323013627",
+        "handle": "Douyin コミュニティ入口",
+        "icon": "link"
       }
     ]
   },
