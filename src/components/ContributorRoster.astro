@@ -12,11 +12,11 @@ const copy = {
   zh: {
     kicker: mode === 'entry' ? '条目维护记录' : '全站维护记录',
     title: mode === 'entry' ? '条目贡献名单' : '贡献名单',
-    subtitle: mode === 'entry' ? '最近维护与累计编辑记录' : '全站最近贡献与累计贡献榜',
+    subtitle: mode === 'entry' ? '最近维护与累计编辑记录' : '记录公开提交与长期维护',
     loading: '读取贡献记录中',
     empty: '贡献记录等待同步',
-    topTitle: '累计贡献',
-    recentTitle: '最近贡献',
+    topTitle: '长期维护者',
+    recentTitle: '最近记录',
     contributors: '贡献者',
     contributions: '贡献',
     entries: '条目',
@@ -26,11 +26,11 @@ const copy = {
   ja: {
     kicker: mode === 'entry' ? '記事メンテナンス記録' : 'サイトメンテナンス記録',
     title: mode === 'entry' ? '記事の貢献者' : '貢献者一覧',
-    subtitle: mode === 'entry' ? '最近の更新と累積編集記録' : 'サイト全体の最近の貢献と累積ランキング',
+    subtitle: mode === 'entry' ? '最近の更新と累積編集記録' : '公開コミットと継続的なメンテナンスの記録',
     loading: '貢献記録を読み込み中',
     empty: '貢献記録は同期待ちです',
-    topTitle: '累積貢献',
-    recentTitle: '最近の貢献',
+    topTitle: '継続メンテナー',
+    recentTitle: '最近の記録',
     contributors: '貢献者',
     contributions: '貢献',
     entries: '記事',
@@ -40,11 +40,11 @@ const copy = {
   en: {
     kicker: mode === 'entry' ? 'Entry Maintenance Record' : 'Site Maintenance Record',
     title: mode === 'entry' ? 'Entry Contributors' : 'Contributor Roster',
-    subtitle: mode === 'entry' ? 'Recent maintenance and cumulative edits' : 'Recent site contributions and all-time contributors',
+    subtitle: mode === 'entry' ? 'Recent maintenance and cumulative edits' : 'A record of public commits and long-term maintenance',
     loading: 'Loading contribution records',
     empty: 'Contribution records are waiting for sync',
-    topTitle: 'All-Time',
-    recentTitle: 'Recent',
+    topTitle: 'Maintainers',
+    recentTitle: 'Recent records',
     contributors: 'Contributors',
     contributions: 'Contributions',
     entries: 'Entries',
@@ -68,7 +68,7 @@ const copy = {
 ---
 
 <section
-  class:list={['contributor-roster', mode === 'summary' ? 'contributor-roster--summary' : 'contributor-roster--entry']}
+  class:list={['contributor-roster', 'reveal-up', mode === 'summary' ? 'contributor-roster--summary' : 'contributor-roster--entry']}
   data-contributor-roster
   data-mode={mode}
   data-api-base={apiBase}
