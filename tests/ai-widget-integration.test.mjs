@@ -82,7 +82,7 @@ test('AI chat widget exposes interaction hooks and stream parser integration', a
   assert.match(script, /setExpanded\(root, false\)/);
   assert.match(script, /document\.querySelector\('\[data-ai-launcher\]'\)/);
   assert.match(script, /classList\.toggle\('is-hidden'/);
-  assert.match(script, /dataset\.suppressClick/);
+  assert.match(script, /resetLauncherDock/);
   assert.equal(component.includes("dataset.launcherDragging==='true'"), false);
   assert.equal(component.includes('onclick='), false);
   assert.equal(component.includes('data-ai-custom-model'), false);
@@ -114,7 +114,7 @@ test('AI chat widget exposes interaction hooks and stream parser integration', a
   assert.match(css, /@media \(max-width: 639px\)/);
 });
 
-test('AI chat widget supports draggable launcher, compact settings, history, and safe rich text rendering', async () => {
+test('AI chat widget keeps its launcher docked while supporting settings, history, and safe rich text rendering', async () => {
   const component = await readProjectFile('../src/components/AiChatWidget.astro');
   const homePage = await readProjectFile('../src/pages/[locale]/index.astro');
   const script = await readProjectFile('../src/scripts/aiChatWidget.js');
@@ -127,15 +127,13 @@ test('AI chat widget supports draggable launcher, compact settings, history, and
   assert.match(homePage, /data-page-context-root/);
   assert.match(component, /viewBox="0 0 16 16"/);
   assert.match(component, /viewBox="0 0 48 48"/);
-  assert.match(script, /localStorage/);
-  assert.match(script, /pointerdown/);
-  assert.match(script, /pointermove/);
-  assert.match(script, /pointerup/);
-  assert.match(script, /launcherDragThreshold = 12/);
-  assert.match(script, /suppressClick/);
-  assert.match(script, /window\.addEventListener\('pointermove'/);
-  assert.match(script, /stopImmediatePropagation/);
-  assert.equal(script.includes('setPointerCapture'), false);
+  assert.match(script, /legacyLauncherPositionKey/);
+  assert.match(script, /localStorage\.removeItem\(legacyLauncherPositionKey\)/);
+  assert.match(script, /style\.removeProperty\('left'\)/);
+  assert.equal(script.includes('pointerdown'), false);
+  assert.equal(script.includes('pointermove'), false);
+  assert.equal(script.includes('pointerup'), false);
+  assert.equal(script.includes('suppressClick'), false);
   assert.match(script, /api\/ai\/threads/);
   assert.match(script, /loadThreadList/);
   assert.match(script, /loadThreadDetail/);

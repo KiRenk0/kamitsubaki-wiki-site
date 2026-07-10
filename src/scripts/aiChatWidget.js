@@ -6,8 +6,7 @@ import { readModelSettings, setSegmentedValue } from '../lib/aiChatControls.mjs'
 import { parseAiStreamChunk } from '../lib/aiStream.mjs';
 
 const widgets = document.querySelectorAll('[data-ai-chat]');
-const launcherStorageKey = 'kfw_ai_launcher_position';
-const launcherDragThreshold = 12;
+const legacyLauncherPositionKey = 'kfw_ai_launcher_position';
 let turnstileLoader;
 
 function sanitizeRenderedHtml(html) {
@@ -1046,108 +1045,20 @@ async function readStream(response, assistantMessage, messages, copy, root) {
   return { needsChallenge: false };
 }
 
-function applyLauncherPosition(position) {
-  const launcher = document.querySelector('[data-ai-launcher]');
-  if (!(launcher instanceof HTMLElement)) {
-    return;
-  }
-
-  const width = launcher.offsetWidth || 72;
-  const height = launcher.offsetHeight || 72;
-  const x = Math.max(12, Math.min(Number(position?.x ?? window.innerWidth - width - 24), window.innerWidth - width - 12));
-  const y = Math.max(12, Math.min(Number(position?.y ?? window.innerHeight - height - 24), window.innerHeight - height - 12));
-  launcher.style.left = `${x}px`;
-  launcher.style.top = `${y}px`;
-  launcher.style.right = 'auto';
-  launcher.style.bottom = 'auto';
-}
-
-function initLauncherDrag(root) {
+function resetLauncherDock() {
   const launcher = document.querySelector('[data-ai-launcher]');
   if (!(launcher instanceof HTMLElement)) {
     return;
   }
 
   try {
-    applyLauncherPosition(JSON.parse(localStorage.getItem(launcherStorageKey) || 'null'));
-  } catch {
-    applyLauncherPosition(null);
-  }
+    localStorage.removeItem(legacyLauncherPositionKey);
+  } catch {}
 
-  let drag = null;
-  launcher.addEventListener('pointerdown', (event) => {
-    if (!(event.target instanceof Element) || !event.target.closest('[data-ai-toggle]')) {
-      return;
-    }
-    if (event.button !== 0) {
-      return;
-    }
-    const rect = launcher.getBoundingClientRect();
-    drag = {
-      pointerId: event.pointerId,
-      startX: event.clientX,
-      startY: event.clientY,
-      offsetX: event.clientX - rect.left,
-      offsetY: event.clientY - rect.top,
-      moved: false,
-    };
-  });
-
-  window.addEventListener('pointermove', (event) => {
-    if (!drag || event.pointerId !== drag.pointerId) {
-      return;
-    }
-    const moved = Math.abs(event.clientX - drag.startX) + Math.abs(event.clientY - drag.startY);
-    if (moved > launcherDragThreshold) {
-      drag.moved = true;
-      root.dataset.launcherDragging = 'true';
-      launcher.dataset.dragging = 'true';
-    }
-    if (drag.moved) {
-      event.preventDefault();
-      applyLauncherPosition({ x: event.clientX - drag.offsetX, y: event.clientY - drag.offsetY });
-    }
-  });
-
-  window.addEventListener('pointerup', (event) => {
-    if (!drag || event.pointerId !== drag.pointerId) {
-      return;
-    }
-    if (drag.moved) {
-      event.preventDefault();
-      const rect = launcher.getBoundingClientRect();
-      localStorage.setItem(launcherStorageKey, JSON.stringify({ x: rect.left, y: rect.top }));
-      launcher.dataset.suppressClick = 'true';
-      window.setTimeout(() => {
-        delete launcher.dataset.suppressClick;
-      }, 160);
-    }
-    delete root.dataset.launcherDragging;
-    delete launcher.dataset.dragging;
-    drag = null;
-  });
-
-  window.addEventListener('pointercancel', (event) => {
-    if (!drag || event.pointerId !== drag.pointerId) {
-      return;
-    }
-    drag = null;
-    delete root.dataset.launcherDragging;
-    delete launcher.dataset.dragging;
-    delete launcher.dataset.suppressClick;
-  });
-
-  launcher.addEventListener('click', (event) => {
-    if (launcher.dataset.suppressClick === 'true') {
-      event.preventDefault();
-      event.stopImmediatePropagation();
-    }
-  }, true);
-
-  window.addEventListener('resize', () => {
-    const rect = launcher.getBoundingClientRect();
-    applyLauncherPosition({ x: rect.left, y: rect.top });
-  });
+  launcher.style.removeProperty('top');
+  launcher.style.removeProperty('right');
+  launcher.style.removeProperty('bottom');
+  launcher.style.removeProperty('left');
 }
 
 function initWidget(root) {
@@ -1184,15 +1095,11 @@ function initWidget(root) {
     window.setTimeout(() => input.focus(), 160);
   };
 
-  initLauncherDrag(root);
+  resetLauncherDock();
   updateAuthState(root, copy, { kind: 'anonymous' });
   bootstrap(root).catch(() => {});
 
   toggle.addEventListener('click', () => {
-    const launcher = document.querySelector('[data-ai-launcher]');
-    if (launcher instanceof HTMLElement && launcher.dataset.suppressClick === 'true') {
-      return;
-    }
     openPanel();
   });
 
