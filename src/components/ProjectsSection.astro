@@ -20,14 +20,11 @@ const { projects, section } = Astro.props as {
 ---
 
 <section id="projects" class="py-32 px-6 max-w-7xl mx-auto border-t border-white/10 relative ui-crosshair bl br">
-  <div class="flex flex-col md:flex-row justify-between items-end mb-16 reveal-up">
+  <div class="mb-16 reveal-up">
     <div>
       <h3 class="text-[10px] tracking-kamidest-lg font-light text-white mb-2">{section.heading}</h3>
       <p class="font-serif text-[10px] text-white/50 tracking-widest">{section.subheading}</p>
     </div>
-    <a href="#" class="text-[9px] font-mono text-white/40 hover:text-white transition-colors border-b border-transparent hover:border-white pb-1 mt-6 md:mt-0">
-      {section.viewAllLabel}
-    </a>
   </div>
 
   <div class="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">

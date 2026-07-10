@@ -21,6 +21,12 @@ const { navItems, localeLinks, brandLines, compact = false } = Astro.props as {
 };
 
 const { homeHref = '/' } = Astro.props as { homeHref?: string };
+const resolvedNavItems = compact
+  ? navItems.map((item) => ({
+      ...item,
+      href: item.href.startsWith('#') ? `${homeHref}${item.href}` : item.href,
+    }))
+  : navItems;
 ---
 
 <nav class:list={[
@@ -50,7 +56,17 @@ const { homeHref = '/' } = Astro.props as { homeHref?: string };
     'pointer-events-auto flex items-end text-[9px] md:text-[10px] tracking-kamidest-lg font-light text-white',
     compact ? 'flex-row gap-5' : 'flex-col gap-3',
   ]}>
-    {navItems.map((item) => (
+    {compact && (
+      <details class="site-nav__menu pointer-events-auto md:hidden">
+        <summary aria-label="Open navigation">MENU</summary>
+        <div class="site-nav__menu-panel">
+          {resolvedNavItems.map((item) => (
+            <a href={item.href}>{item.label}</a>
+          ))}
+        </div>
+      </details>
+    )}
+    {resolvedNavItems.map((item) => (
       <a href={item.href} class={compact ? 'hidden md:inline hover:text-white/50 transition-all duration-300' : 'hover:text-white/50 transition-all duration-300'}>{item.label}</a>
     ))}
     <div class:list={[

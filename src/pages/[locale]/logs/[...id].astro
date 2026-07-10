@@ -53,16 +53,19 @@ const labels = {
     back: '返回首页',
     eyebrow: '观测记录',
     contents: '目录',
+    entryId: '记录编号',
   },
   ja: {
     back: 'ホームへ戻る',
     eyebrow: '観測記録',
     contents: '目次',
+    entryId: '記録 ID',
   },
   en: {
     back: 'Back to home',
     eyebrow: 'Observation log',
     contents: 'Contents',
+    entryId: 'Record ID',
   },
 }[localeCode];
 ---
@@ -73,7 +76,7 @@ const labels = {
   <div class="fixed left-0 top-0 z-[60] h-px w-full origin-left bg-white/70" data-reading-progress></div>
 
   <main class="mx-auto max-w-[92rem] px-4 pb-12 pt-24 sm:px-6 sm:pt-28 lg:pt-28">
-    <div class="grid gap-8 border-b border-white/10 pb-8 sm:gap-10 sm:pb-10 lg:grid-cols-[minmax(0,1fr)_18rem]">
+    <div class="wiki-entry-hero grid gap-8 border-b border-white/10 pb-8 sm:gap-10 sm:pb-10 lg:grid-cols-[minmax(0,1fr)_18rem] reveal-up">
       <div class="min-w-0">
         <a href={`/${localeCode}/#log`} class="text-[9px] font-mono uppercase tracking-[0.22em] text-white/38 transition-colors hover:text-white">
           {labels.back}
@@ -94,16 +97,17 @@ const labels = {
         )}
       </div>
 
-      <aside class="wiki-side-card rounded-md border border-white/10 bg-white/[0.03] p-5 sm:p-6">
+      <aside class="wiki-side-card wiki-entry-meta-card rounded-md border border-white/10 bg-white/[0.03] p-5 sm:p-6">
         <p class="text-[9px] font-mono uppercase tracking-[0.2em] text-white/35">{logEntry.type}</p>
         <p class="mt-2 text-lg font-medium text-white/84">{logEntry.date}</p>
-        <p class="mt-5 break-all text-[11px] leading-6 text-white/38">src/content/logs/{id}/{localeCode}.md</p>
+        <p class="mt-5 text-[9px] font-mono uppercase tracking-[0.2em] text-white/32">{labels.entryId}</p>
+        <p class="mt-2 break-all text-[11px] leading-6 text-white/48">{id}</p>
       </aside>
     </div>
 
     <div class:list={[
-      'mt-8 grid gap-8 lg:mt-10 lg:grid-cols-12',
-      hasArticleBody ? '' : 'lg:grid-cols-1',
+      'mt-8 grid gap-8 lg:mt-10',
+      hasArticleBody ? 'lg:grid-cols-12' : 'lg:grid-cols-1',
     ]}>
       {hasTableOfContents && (
         <aside class="hidden lg:col-span-2 lg:block">
@@ -113,7 +117,7 @@ const labels = {
 
       {hasArticleBody && (
         <article class:list={[
-          'wiki-reader wiki-prose prose prose-invert min-w-0 max-w-none',
+          'wiki-reader wiki-prose prose prose-invert min-w-0 max-w-none reveal-up',
           hasTableOfContents ? 'lg:col-span-8' : 'lg:col-span-10 lg:col-start-2',
         ]}>
           {hasTableOfContents && (

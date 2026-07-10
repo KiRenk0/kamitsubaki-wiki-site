@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
+@import "katex/dist/katex.min.css";
 
 @theme {
   --font-sans: Montserrat, "Noto Sans JP", sans-serif;
@@ -292,6 +293,58 @@ input[type="reset"] {
   transition: transform 120ms linear;
 }
 
+:focus-visible {
+  outline: 1px solid var(--wiki-accent-color);
+  outline-offset: 4px;
+}
+
+.site-nav__menu {
+  position: relative;
+}
+
+.site-nav__menu summary {
+  list-style: none;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.32);
+  padding-bottom: 0.3rem;
+  font-family: var(--font-mono);
+  font-size: 0.56rem;
+  letter-spacing: 0.2em;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.site-nav__menu summary::-webkit-details-marker {
+  display: none;
+}
+
+.site-nav__menu-panel {
+  position: absolute;
+  top: calc(100% + 0.75rem);
+  right: 0;
+  display: grid;
+  min-width: 10rem;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(7, 8, 9, 0.94);
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.28);
+  padding: 0.45rem;
+}
+
+.site-nav__menu-panel a {
+  padding: 0.7rem 0.8rem;
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.16em;
+  color: rgba(255, 255, 255, 0.66);
+  transition: background-color 180ms ease, color 180ms ease, padding-left 180ms ease;
+}
+
+.site-nav__menu-panel a:hover,
+.site-nav__menu-panel a:focus-visible {
+  background: color-mix(in srgb, var(--wiki-accent-color) 10%, transparent);
+  color: white;
+  padding-left: 1rem;
+}
+
 .wiki-chip {
   display: inline-flex;
   min-width: 2rem;
@@ -571,6 +624,74 @@ input[type="reset"] {
     linear-gradient(180deg, rgba(255, 255, 255, 0.032), rgba(255, 255, 255, 0.012)),
     rgba(10, 11, 12, 0.58);
   box-shadow: 0 18px 48px rgba(0, 0, 0, 0.16);
+}
+
+.wiki-entry-hero {
+  position: relative;
+}
+
+.wiki-entry-hero::after {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: min(14rem, 28%);
+  height: 1px;
+  background: linear-gradient(90deg, var(--wiki-accent-color), transparent);
+  content: '';
+  opacity: 0.68;
+}
+
+.wiki-entry-meta-card {
+  align-self: start;
+  transition: border-color 240ms ease, transform 240ms ease, box-shadow 240ms ease;
+}
+
+.wiki-entry-meta-card:hover {
+  border-color: color-mix(in srgb, var(--wiki-accent-color) 34%, rgba(255, 255, 255, 0.14));
+  transform: translateY(-2px);
+  box-shadow: 0 20px 52px rgba(0, 0, 0, 0.24);
+}
+
+.wiki-empty-state {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--wiki-accent-color) 18%, rgba(255, 255, 255, 0.1));
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--wiki-accent-color) 7%, transparent), transparent 46%),
+    rgba(9, 10, 11, 0.58);
+  box-shadow: 0 18px 52px rgba(0, 0, 0, 0.18);
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+.wiki-empty-state::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, var(--wiki-accent-color), transparent 72%);
+  content: '';
+}
+
+.wiki-empty-state__action {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.6rem;
+  border: 1px solid color-mix(in srgb, var(--wiki-accent-color) 46%, rgba(255, 255, 255, 0.14));
+  padding: 0.65rem 0.9rem;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.16em;
+  color: color-mix(in srgb, var(--wiki-accent-color) 76%, white);
+  transition: background-color 200ms ease, border-color 200ms ease, color 200ms ease, transform 200ms ease;
+}
+
+.wiki-empty-state__action:hover,
+.wiki-empty-state__action:focus-visible {
+  border-color: var(--wiki-accent-color);
+  background: color-mix(in srgb, var(--wiki-accent-color) 12%, transparent);
+  color: white;
+  transform: translateY(-1px);
 }
 
 .wiki-card {

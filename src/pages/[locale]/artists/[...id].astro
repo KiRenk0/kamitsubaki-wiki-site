@@ -197,14 +197,14 @@ const themeStyle = [
             </details>
           )}
 
-          <article class="wiki-reader wiki-prose prose prose-invert max-w-none">
+          <article class="wiki-reader wiki-prose prose prose-invert max-w-none reveal-up">
             <Content />
           </article>
         </main>
       )}
 
       <aside class:list={[
-        'w-full max-w-sm mx-auto lg:sticky lg:top-32 lg:max-w-none',
+        'w-full max-w-sm mx-auto lg:sticky lg:top-32 lg:max-w-none reveal-up',
         hasArticleBody ? 'lg:col-span-3' : 'lg:col-start-2',
       ]}>
         <WikiInfoBox data={articleData} labels={articleLabels} />
