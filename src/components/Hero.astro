@@ -4,7 +4,7 @@ const hasCjkVerticalText = /[\u3040-\u30ff\u3400-\u9fff]/.test(hero.leftVertical
 const verticalRailHeight = hasCjkVerticalText ? 'h-[22rem] md:h-[24rem]' : 'h-72 md:h-80';
 ---
 
-<header class="relative flex min-h-screen flex-col items-center justify-center overflow-hidden border-b border-white/10 ui-crosshair bl br">
+<header class="relative flex min-h-[100svh] flex-col items-center justify-center overflow-hidden border-b border-white/10 ui-crosshair bl br">
   <div class="absolute left-6 top-28 text-[9px] font-mono leading-loose text-white/30 tracking-widest reveal-up md:left-12 md:top-32" style="transition-delay: 0.32s;">
     {hero.systemVersion}<br />
     {hero.coordinates}<br />

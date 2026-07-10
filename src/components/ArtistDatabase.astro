@@ -36,7 +36,7 @@ const { artistCategories, databaseJumpLinks, section } = Astro.props as {
 const locale = Astro.props.locale ?? 'zh';
 ---
 
-<section id="database" class="py-32 relative max-w-7xl mx-auto px-6 ui-crosshair bl br tl tr">
+<section id="database" class="relative mx-auto max-w-7xl px-5 py-20 ui-crosshair bl br tl tr sm:px-6 sm:py-32">
   <div id="artist-bg-container" class="fixed-bg-hack opacity-0 transition-all duration-700 ease-out flex justify-center items-center pointer-events-none">
     <div class="absolute inset-0 bg-[#030303] opacity-80 z-10 mix-blend-multiply"></div>
     <img
@@ -47,7 +47,7 @@ const locale = Astro.props.locale ?? 'zh';
     />
   </div>
 
-  <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24">
+  <div class="relative z-10 grid grid-cols-1 gap-9 sm:gap-12 lg:grid-cols-12 lg:gap-24">
     <div class="lg:col-span-3">
       <div class="sticky top-32 reveal-up">
         <h3 class="text-[10px] tracking-kamidest-lg font-light text-white mb-2">{section.heading}</h3>
@@ -63,7 +63,7 @@ const locale = Astro.props.locale ?? 'zh';
 
     <div class="lg:col-span-9 flex flex-col pb-20" id="artist-list">
       {artistCategories.map((category) => (
-        <div id={category.id} class="mb-24 pt-8 scroll-mt-32 last:mb-12">
+        <div id={category.id} class="artist-category mb-16 pt-8 scroll-mt-32 last:mb-8 sm:mb-24 sm:last:mb-12">
           <div class="border-b border-white/20 pb-4 mb-4 flex justify-between items-end reveal-up">
             <h4 class="font-serif text-base tracking-[0.4em] text-white/80">{category.title}</h4>
             <span class="text-[9px] font-mono text-white/40 hidden md:block">{category.subtitle}</span>

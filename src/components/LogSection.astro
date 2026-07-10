@@ -17,14 +17,14 @@ const { logEntries, section } = Astro.props as {
 };
 ---
 
-<section id="log" class="py-32 px-6 max-w-7xl mx-auto border-t border-white/10 relative ui-crosshair bl br tl tr">
-  <div class="grid grid-cols-1 md:grid-cols-12 gap-12">
+<section id="log" class="relative mx-auto max-w-7xl border-t border-white/10 px-5 py-20 ui-crosshair bl br tl tr sm:px-6 sm:py-32">
+  <div class="grid grid-cols-1 gap-8 sm:gap-12 md:grid-cols-12">
     <div class="md:col-span-3 reveal-up">
       <h3 class="text-[10px] tracking-kamidest-lg font-light text-white mb-2">{section.heading}</h3>
       <p class="font-serif text-[10px] text-white/50 tracking-widest">{section.subheading}</p>
     </div>
 
-    <div class="md:col-span-9 grid gap-5 md:gap-6">
+    <div class="grid gap-4 sm:gap-5 md:col-span-9 md:gap-6">
       {logEntries.map((entry, index) => (
         <a
           href={entry.href}

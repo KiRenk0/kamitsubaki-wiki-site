@@ -56,18 +56,16 @@ const resolvedNavItems = compact
     'pointer-events-auto flex items-end text-[9px] md:text-[10px] tracking-kamidest-lg font-light text-white',
     compact ? 'flex-row gap-5' : 'flex-col gap-3',
   ]}>
-    {compact && (
-      <details class="site-nav__menu pointer-events-auto md:hidden">
-        <summary aria-label="Open navigation">MENU</summary>
-        <div class="site-nav__menu-panel">
-          {resolvedNavItems.map((item) => (
-            <a href={item.href}>{item.label}</a>
-          ))}
-        </div>
-      </details>
-    )}
+    <details class="site-nav__menu pointer-events-auto md:hidden">
+      <summary aria-label="Open navigation">MENU</summary>
+      <div class="site-nav__menu-panel">
+        {resolvedNavItems.map((item) => (
+          <a href={item.href}>{item.label}</a>
+        ))}
+      </div>
+    </details>
     {resolvedNavItems.map((item) => (
-      <a href={item.href} class={compact ? 'site-nav__link hidden md:inline hover:text-white/50 transition-all duration-300' : 'site-nav__link hover:text-white/50 transition-all duration-300'}>{item.label}</a>
+      <a href={item.href} class="site-nav__link hidden md:inline hover:text-white/50 transition-all duration-300">{item.label}</a>
     ))}
     <div class:list={[
       'flex gap-3 font-mono tracking-widest text-[8px]',

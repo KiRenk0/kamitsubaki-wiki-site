@@ -19,6 +19,9 @@
   --wiki-muted-color: #8fb0c2;
   --wiki-surface-color: #0f1419;
   --wiki-highlight-color: #f6f7fb;
+  --floating-action-edge: 2rem;
+  --floating-action-size: 3.2rem;
+  --floating-action-gap: 0.8rem;
 }
 
 :lang(ja) {
@@ -864,8 +867,8 @@ html.has-js .reveal-up.active {
 /* --- Social Contact Dock --- */
 .social-contact {
   position: fixed;
-  right: 2rem;
-  bottom: 6rem;
+  right: var(--floating-action-edge);
+  bottom: calc(var(--floating-action-edge) + var(--floating-action-size) + var(--floating-action-gap));
   z-index: 39;
   display: grid;
   justify-items: end;
@@ -876,8 +879,8 @@ html.has-js .reveal-up.active {
 .social-contact__toggle {
   position: relative;
   display: inline-flex;
-  width: 3.2rem;
-  height: 3.2rem;
+  width: var(--floating-action-size);
+  height: var(--floating-action-size);
   align-items: center;
   justify-content: center;
   border: 1px solid rgba(255, 255, 255, 0.12);
@@ -1095,13 +1098,6 @@ html.has-js .reveal-up.active {
   font-size: 0.68rem;
 }
 
-@media (max-width: 640px) {
-  .social-contact {
-    right: 1rem;
-    bottom: 5.55rem;
-  }
-}
-
 /* --- AI Chat Sidebar (Kamitsubaki HUD) --- */
 .ai-chat {
   --ai-bg: #030303;
@@ -1134,8 +1130,8 @@ html.has-js .reveal-up.active {
 
 .ai-chat__launcher {
   position: fixed;
-  right: 2rem;
-  bottom: 2rem;
+  right: var(--floating-action-edge);
+  bottom: var(--floating-action-edge);
   z-index: 40;
   display: flex;
   align-items: flex-end;
@@ -1183,8 +1179,8 @@ html.has-js .reveal-up.active {
 .ai-chat__orb {
   position: relative;
   display: grid;
-  width: 3.2rem;
-  height: 3.2rem;
+  width: var(--floating-action-size);
+  height: var(--floating-action-size);
   place-items: center;
   border-radius: 0;
   border: 1px solid rgba(255, 255, 255, 0.12);
@@ -2694,8 +2690,57 @@ html.has-js .reveal-up.active {
 
 
 @media (max-width: 639px) {
+  :root {
+    --floating-action-edge: max(1rem, env(safe-area-inset-right));
+    --floating-action-size: 3rem;
+    --floating-action-gap: 0.65rem;
+  }
+
   html {
     scroll-padding-top: 5.5rem;
+  }
+
+  nav.fixed {
+    padding: 1rem;
+  }
+
+  nav.fixed > div {
+    gap: 0.6rem;
+  }
+
+  .site-nav__menu summary {
+    display: inline-flex;
+    min-height: 2.75rem;
+    align-items: center;
+    padding-bottom: 0;
+  }
+
+  .site-nav__menu-panel {
+    min-width: 11.5rem;
+    padding: 0.35rem;
+  }
+
+  .site-nav__menu-panel a {
+    min-height: 2.75rem;
+    padding: 0.8rem;
+  }
+
+  .social-contact__panel {
+    width: min(20rem, calc(100vw - 2rem - env(safe-area-inset-right)));
+    max-height: min(34rem, calc(100svh - 8.5rem));
+    overflow-y: auto;
+  }
+
+  .social-contact__link {
+    min-height: 3.25rem;
+  }
+
+  .ai-chat__launcher {
+    gap: 0;
+  }
+
+  .ai-chat__bubble {
+    display: none;
   }
 
   .ai-chat__panel {
@@ -2814,7 +2859,7 @@ html.has-js .reveal-up.active {
   }
 
   .ai-chat__form {
-    padding: 0 0.9rem 1rem;
+    padding: 0 0.9rem max(1rem, env(safe-area-inset-bottom));
   }
 
   .ai-chat__composer {
@@ -2869,6 +2914,39 @@ html.has-js .reveal-up.active {
     padding: 0.85rem 1rem;
   }
 
+  .wiki-page-title {
+    font-size: clamp(1.75rem, 9vw, 2rem);
+    letter-spacing: 0.04em;
+  }
+
+  .wiki-entry-hero {
+    gap: 1.35rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .wiki-entry-meta-card {
+    padding: 1rem;
+  }
+
+  .wiki-mobile-toc {
+    padding: 0.9rem;
+  }
+
+  .artist-row > div {
+    gap: 0.8rem;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+  }
+
+  .artist-row h4 {
+    font-size: 1.08rem;
+    letter-spacing: 0.12em;
+  }
+
+  .artist-row .font-mono.text-\[9px\] {
+    flex: 0 0 auto;
+  }
+
   .wiki-guide-prose {
     font-size: 0.94rem;
     line-height: 1.75;
@@ -2907,6 +2985,15 @@ html.has-js .reveal-up.active {
 
   .contributor-roster__recent-main strong {
     white-space: normal;
+  }
+
+  .contributor-roster__recent li {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.35rem;
+  }
+
+  .contributor-roster__recent-meta {
+    justify-content: flex-start;
   }
 }
 
