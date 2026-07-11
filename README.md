@@ -18,8 +18,8 @@
 src/content/site/       导航、分区标题、页脚等站点文案 (.json)
 src/content/artists/    艺人、创作者、组合、音乐同位体条目 (.md)
 src/content/projects/   企划卡片与企划条目 (.md)
-src/content/logs/       时间线/更新记录 (.json)
-src/content/contribute/ GitHub 编辑教程页文案 (.json)
+src/content/logs/       时间线/更新记录 (.md)
+src/content/contribute/ GitHub 编辑教程页文案 (.md)
 ```
 
 实现代码在这些目录：

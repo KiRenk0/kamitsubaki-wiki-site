@@ -8,30 +8,22 @@ import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../lib/
 import { renderMarkdownFragment } from '../../../lib/markdown.mjs';
 
 export function getStaticPaths() {
-  return supportedLocales.map((locale) => ({
-    params: { locale },
-  }));
+  return supportedLocales.map((locale) => ({ params: { locale } }));
 }
 
 const { locale } = Astro.params;
 const localeCode = locale as 'zh' | 'ja' | 'en';
 const siteEntries = await getCollection('site');
-const editGuideEntries = await getCollection('editGuide');
+const guideEntries = await getCollection('editGuide');
 const homeContent = getLocalizedSite(siteEntries, localeCode, defaultLocale);
 const copy =
-  editGuideEntries.find((entry) => entry.data.locale === localeCode)?.data ??
-  editGuideEntries.find((entry) => entry.data.locale === defaultLocale)?.data;
+  guideEntries.find((entry) => entry.data.locale === localeCode)?.data ??
+  guideEntries.find((entry) => entry.data.locale === defaultLocale)?.data;
 const currentPath = '/contribute/edit';
 const localeLinks = buildLocaleLinks(homeContent, localeCode, currentPath);
+const alternates = supportedLocales.map((code) => ({ locale: code, href: `/${code}${currentPath}` }));
 
-const alternates = supportedLocales.map((localeCode) => ({
-  locale: localeCode,
-  href: `/${localeCode}${currentPath}`,
-}));
-
-if (!copy) {
-  throw new Error(`Missing edit guide content for locale: ${localeCode}`);
-}
+if (!copy) throw new Error(`Missing edit guide content for locale: ${localeCode}`);
 
 const docsHref = `https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/main/${copy.docsPath}`;
 const repoEditRoot = 'https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/edit/main/';
@@ -52,6 +44,7 @@ const renderedVariants = await Promise.all(
     ),
   })),
 );
+const modeKeys = renderedVariants.map((variant) => variant.key).join(',');
 
 const metadata = {
   title: `${copy.title} - Kamitsubaki Studio Fan Wiki`,
@@ -66,294 +59,416 @@ const metadata = {
   <SiteNav navItems={homeContent.navItems} localeLinks={localeLinks} brandLines={homeContent.hero.brandLines} compact homeHref={`/${localeCode}/`} />
 
   <main
-    class="mx-auto flex min-h-screen max-w-5xl flex-col px-4 pb-12 pt-24 sm:px-6 sm:pt-28 lg:pt-32"
+    class="guide-shell mx-auto min-h-screen max-w-7xl px-4 pb-16 pt-24 sm:px-6 sm:pt-28 lg:px-8 lg:pt-32"
     data-guide-runtime
     data-repo-edit-root={repoEditRoot}
     data-content-path-prefix={contentPathPrefix}
     data-docs-href={docsHref}
     data-invalid-target={copy.invalidTarget}
     data-default-guide-mode="beginner"
+    data-guide-modes={modeKeys}
+    data-complete-label={copy.completeLabel}
+    data-completed-label={copy.completedLabel}
+    data-progress-label={copy.progressLabel}
+    data-ai-copy-label={copy.aiCopyLabel}
+    data-ai-copied-label={copy.aiCopiedLabel}
   >
     <div class="mb-8 flex flex-wrap items-center justify-between gap-4 text-[9px] font-mono uppercase tracking-[0.22em] text-white/40">
       <a href={`/${localeCode}/`} class="transition-colors hover:text-white">{copy.back}</a>
-      <a href={docsHref} class="transition-colors hover:text-white" target="_blank" rel="noopener noreferrer">
-        {copy.docs}
-      </a>
+      <a href={docsHref} class="transition-colors hover:text-white" target="_blank" rel="noopener noreferrer">{copy.docs}</a>
     </div>
 
-    <section class="border-y border-white/10 py-8 sm:py-10">
-      <p class="mb-4 text-[9px] font-mono uppercase tracking-[0.28em] text-white/35">
-        {copy.eyebrow}
-      </p>
-      <div class="grid gap-5 lg:grid-cols-[minmax(0,1fr)_18rem] lg:items-end">
+    <section class="guide-hero border-y border-white/10 py-10 sm:py-14 lg:py-16">
+      <div class="grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(25rem,0.8fr)] lg:items-center">
         <div>
-          <h1 class="font-serif text-3xl font-semibold leading-tight tracking-[0.06em] text-white sm:text-5xl">
+          <p class="mb-4 text-[9px] font-mono uppercase tracking-[0.28em] text-white/35">{copy.eyebrow}</p>
+          <h1 class="max-w-3xl font-serif text-[2.4rem] font-semibold leading-[1.16] tracking-[0.04em] text-white sm:text-5xl lg:text-6xl">
             {copy.title}
           </h1>
-          <div class="wiki-guide-prose prose prose-invert mt-5 max-w-2xl" set:html={introHtml} />
+          <div class="wiki-guide-prose prose prose-invert mt-6 max-w-2xl" set:html={introHtml} />
+          <button type="button" class="guide-primary-action mt-8" data-guide-start>
+            <span>{copy.primaryAction}</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+          </button>
         </div>
-        <div class="rounded-md border border-white/10 bg-white/[0.03] p-4">
-          <p class="mb-2 text-[9px] font-mono uppercase tracking-[0.2em] text-white/35">{copy.targetLabel}</p>
-          <div class="wiki-guide-prose prose prose-invert max-w-none text-white/48" set:html={targetIntroHtml} />
-          <p class="mt-3 break-all text-xs leading-6 text-white/70" data-guide-target-path>{copy.invalidTarget}</p>
+
+        <div class="guide-journey" aria-label={copy.journeyLabel}>
+          <p class="text-[9px] font-mono uppercase tracking-[0.22em] text-white/35">{copy.journeyLabel}</p>
+          <ol class="mt-7 grid grid-cols-3">
+            {copy.journeySteps.map((step, index) => (
+              <li class="relative text-center">
+                <span class="guide-journey__line" aria-hidden="true"></span>
+                <span class="guide-journey__node">{String(index + 1).padStart(2, '0')}</span>
+                <span class="mt-4 block font-serif text-sm tracking-[0.08em] text-white/78 sm:text-base">{step}</span>
+              </li>
+            ))}
+          </ol>
         </div>
+      </div>
+
+      <div class="guide-target mt-10 grid gap-4 border border-white/10 px-4 py-4 sm:grid-cols-[auto_minmax(0,1fr)] sm:items-center sm:px-5">
+        <div>
+          <p class="text-[9px] font-mono uppercase tracking-[0.2em] text-white/35">{copy.targetLabel}</p>
+          <div class="wiki-guide-prose prose prose-invert mt-2 max-w-2xl text-sm" set:html={targetIntroHtml} />
+        </div>
+        <p class="break-all font-mono text-xs leading-6 text-cyan-100/80 sm:text-right" data-guide-target-path>{copy.invalidTarget}</p>
       </div>
     </section>
 
-    <section class="grid gap-8 py-8 sm:gap-10 sm:py-10 lg:grid-cols-[minmax(0,1fr)_17rem] lg:items-start">
-      <div class="grid gap-6 sm:gap-8">
-        <section class="rounded-md border border-white/10 bg-white/[0.025] p-4 sm:p-5">
-          <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-            <div>
-              <p class="text-[9px] font-mono uppercase tracking-[0.22em] text-white/35">{copy.switchLabel}</p>
-            </div>
-            <div class="wiki-guide-mode-switch inline-flex flex-wrap gap-2" role="tablist" aria-label={copy.switchLabel}>
-              {renderedVariants.map((variant, index) => (
-                <button
-                  type="button"
-                  role="tab"
-                  aria-selected={index === 0 ? 'true' : 'false'}
-                  class:list={[
-                    'wiki-guide-mode-button inline-flex min-h-11 items-center rounded-md border px-4 text-[10px] font-mono uppercase tracking-[0.16em] transition-colors',
-                    index === 0
-                      ? 'border-cyan-200/60 bg-cyan-300/[0.12] text-cyan-50'
-                      : 'border-white/12 bg-white/[0.02] text-white/58 hover:border-white/28 hover:text-white',
-                  ]}
-                  data-guide-mode-button={variant.key}
-                  data-guide-mode-active={index === 0 ? 'true' : 'false'}
-                  aria-controls={`guide-panel-${variant.key}`}
-                  id={`guide-tab-${variant.key}`}
-                >
-                  {variant.label}
-                </button>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {renderedVariants.map((variant, variantIndex) => (
-          <section
-            id={`guide-panel-${variant.key}`}
-            role="tabpanel"
-            aria-labelledby={`guide-tab-${variant.key}`}
-            hidden={variantIndex !== 0}
-            data-guide-mode-panel={variant.key}
-          >
-            <div class="rounded-md border border-white/10 bg-white/[0.02] p-4 sm:p-5">
-              <p class="text-[9px] font-mono uppercase tracking-[0.22em] text-cyan-200/60">{variant.label}</p>
-              <div class="wiki-guide-prose prose prose-invert mt-3 max-w-3xl" set:html={variant.descriptionHtml} />
-            </div>
-            <div class="mt-6 grid gap-6 sm:gap-8">
-              {variant.renderedSections.map((section, index) => (
-                <article id={section.id} class="wiki-guide-card rounded-md border border-white/10 bg-white/[0.025] p-5 sm:p-6">
-                  <div class="flex items-start gap-4 sm:gap-5">
-                    <div class="flex shrink-0 flex-col items-center gap-3 pt-0.5">
-                      <span class="flex h-11 w-11 items-center justify-center rounded-full border border-white/12 bg-white/[0.04] font-mono text-sm text-white/72 sm:h-12 sm:w-12">
-                        {String(index + 1).padStart(2, '0')}
-                      </span>
-                      {index < variant.renderedSections.length - 1 && <span class="wiki-guide-card-line hidden h-full w-px bg-white/10 lg:block" />}
-                    </div>
-                    <div class="min-w-0 flex-1">
-                      <p class="text-[9px] font-mono uppercase tracking-[0.22em] text-cyan-200/60">
-                        Step {String(index + 1).padStart(2, '0')}
-                      </p>
-                      <h2 class="mt-2 text-lg font-medium tracking-[0.08em] text-white sm:text-xl">{section.title}</h2>
-                      <div class="wiki-guide-prose prose prose-invert mt-5 max-w-none" set:html={section.bodyHtml} />
-                    </div>
-                  </div>
-                </article>
-              ))}
-
-              <section class="rounded-md border border-white/12 bg-white/[0.03] p-5 sm:p-6">
-                <p class="text-[9px] font-mono uppercase tracking-[0.22em] text-white/35">{variant.finalTitle}</p>
-                <div class="wiki-guide-prose prose prose-invert mt-4 max-w-3xl" set:html={variant.finalBodyHtml} />
-                <div class="mt-6 flex flex-wrap gap-3">
-                  <a
-                    href={docsHref}
-                    class="inline-flex min-h-12 items-center rounded-md border border-white/12 px-5 text-[10px] font-mono uppercase tracking-[0.18em] text-white/65 transition-colors hover:border-white/28 hover:text-white"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {copy.docs}
-                  </a>
-                  <a
-                    href={docsHref}
-                    class="inline-flex min-h-12 items-center rounded-md border border-cyan-300/30 bg-cyan-300/[0.06] px-5 text-[10px] font-mono uppercase tracking-[0.18em] text-cyan-50 transition-colors hover:border-cyan-200/60 hover:bg-cyan-300/[0.12]"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    data-github-edit-link={variant.key}
-                  >
-                    {variant.finalLinkLabel}
-                  </a>
-                </div>
-              </section>
-            </div>
-          </section>
-        ))}
+    <section class="py-10 sm:py-14" id="choose-guide" data-guide-chooser>
+      <div class="mb-8 max-w-3xl">
+        <p class="text-[9px] font-mono uppercase tracking-[0.22em] text-cyan-200/60">01 / Route</p>
+        <h2 class="mt-3 font-serif text-2xl tracking-[0.06em] text-white sm:text-3xl">{copy.switchLabel}</h2>
+        <p class="mt-3 text-sm leading-7 text-white/52">{copy.switchHint}</p>
       </div>
 
-      <aside class="lg:sticky lg:top-28">
-        <div class="rounded-md border border-white/10 bg-white/[0.02] p-4 sm:p-5">
-          <p class="text-[9px] font-mono uppercase tracking-[0.22em] text-white/35">{copy.eyebrow}</p>
-          {renderedVariants.map((variant, variantIndex) => (
-            <nav
-              class:list={['wiki-guide-rail mt-4 space-y-1.5', variantIndex !== 0 && 'hidden']}
-              data-guide-rail={variant.key}
-            >
+      <div class="guide-route-list" role="tablist" aria-label={copy.switchLabel}>
+        {renderedVariants.map((variant, index) => (
+          <button
+            type="button"
+            role="tab"
+            aria-selected={index === 0 ? 'true' : 'false'}
+            tabindex={index === 0 ? 0 : -1}
+            class="guide-route"
+            data-guide-mode-button={variant.key}
+            data-guide-mode-active={index === 0 ? 'true' : 'false'}
+            aria-controls={`guide-panel-${variant.key}`}
+            id={`guide-tab-${variant.key}`}
+          >
+            <span class="guide-route__number">{String(index + 1).padStart(2, '0')}</span>
+            <span class="min-w-0 flex-1 text-left">
+              <span class="block font-serif text-lg tracking-[0.05em] text-white sm:text-xl">{variant.label}</span>
+              <span class="mt-2 block text-sm leading-6 text-white/50">{variant.summary}</span>
+              <span class="mt-5 grid gap-3 border-t border-white/10 pt-4 sm:grid-cols-2">
+                <span>
+                  <span class="block font-mono text-[8px] uppercase tracking-[0.18em] text-white/30">{copy.durationLabel}</span>
+                  <span class="mt-1 block text-xs text-white/68">{variant.duration}</span>
+                </span>
+                <span>
+                  <span class="block font-mono text-[8px] uppercase tracking-[0.18em] text-white/30">{copy.outcomeLabel}</span>
+                  <span class="mt-1 block text-xs text-white/68">{variant.outcome}</span>
+                </span>
+              </span>
+            </span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+          </button>
+        ))}
+      </div>
+    </section>
+
+    {renderedVariants.map((variant, variantIndex) => (
+      <section
+        id={`guide-panel-${variant.key}`}
+        role="tabpanel"
+        aria-labelledby={`guide-tab-${variant.key}`}
+        hidden={variantIndex !== 0}
+        data-guide-mode-panel={variant.key}
+        data-step-count={variant.renderedSections.length}
+      >
+        <div class="guide-progress-bar sticky top-[4.4rem] z-20 mb-8 border-y border-white/10 bg-black/90 px-4 py-3 backdrop-blur-md sm:top-[4.8rem] sm:px-5">
+          <div class="flex flex-wrap items-center gap-x-5 gap-y-3">
+            <p class="shrink-0 font-mono text-[9px] uppercase tracking-[0.18em] text-white/58" data-guide-progress-text>
+              {copy.progressLabel} 0 / {variant.renderedSections.length}
+            </p>
+            <span class="h-px min-w-24 flex-1 overflow-hidden bg-white/10"><span class="block h-full w-0 bg-cyan-200 transition-[width] duration-500" data-guide-progress-fill></span></span>
+            <button type="button" class="font-mono text-[9px] uppercase tracking-[0.18em] text-white/35 transition-colors hover:text-white" data-guide-reset data-reset-confirm={copy.resetConfirm}>
+              {copy.resetLabel}
+            </button>
+          </div>
+        </div>
+
+        <div class="mb-9 border-l border-cyan-200/45 pl-5 sm:pl-7">
+          <p class="text-[9px] font-mono uppercase tracking-[0.22em] text-cyan-200/65">{variant.audience}</p>
+          <div class="wiki-guide-prose prose prose-invert mt-3 max-w-3xl" set:html={variant.descriptionHtml} />
+        </div>
+
+        <div class="grid gap-8 lg:grid-cols-[15rem_minmax(0,1fr)_16rem] lg:items-start xl:grid-cols-[17rem_minmax(0,1fr)_18rem]">
+          <aside class="hidden lg:sticky lg:top-36 lg:block">
+            <nav class="guide-step-rail" data-guide-rail={variant.key} aria-label={variant.label}>
               {variant.renderedSections.map((section, index) => (
-                <a href={`#${section.id}`} class="block rounded-md px-3 py-2 transition-colors hover:bg-white/[0.04]">
-                  <span class="block font-mono text-[9px] uppercase tracking-[0.18em] text-white/32">
-                    Step {String(index + 1).padStart(2, '0')}
-                  </span>
-                  <span class="mt-1 block text-sm leading-6 text-white/72">{section.title}</span>
+                <a href={`#${section.id}`} data-step-rail-link={index}>
+                  <span>{String(index + 1).padStart(2, '0')}</span>
+                  <span>{section.title}</span>
+                  <span class="guide-step-rail__check" aria-hidden="true">✓</span>
                 </a>
               ))}
             </nav>
-          ))}
+          </aside>
 
-          <div class="mt-5 border-t border-white/10 pt-4">
-            <p class="text-[9px] font-mono uppercase tracking-[0.18em] text-white/32">{copy.targetLabel}</p>
-            <p class="mt-2 text-xs leading-6 text-white/55 break-all" data-guide-target-path>{copy.invalidTarget}</p>
+          <div class="min-w-0 space-y-6">
+            {variant.renderedSections.map((section, index) => (
+              <article id={section.id} class="guide-step" data-guide-step={index}>
+                <header class="guide-step__header">
+                  <span class="guide-step__number">{String(index + 1).padStart(2, '0')}</span>
+                  <div class="min-w-0">
+                    <p class="font-mono text-[9px] uppercase tracking-[0.2em] text-cyan-200/60">Step {String(index + 1).padStart(2, '0')}</p>
+                    <h3 class="mt-2 font-serif text-xl tracking-[0.05em] text-white sm:text-2xl">{section.title}</h3>
+                    <p class="mt-3 text-sm leading-7 text-cyan-50/64">{section.summary}</p>
+                  </div>
+                </header>
+
+                <div class="wiki-guide-prose prose prose-invert max-w-none px-5 py-6 sm:px-7" set:html={section.bodyHtml} />
+
+                {section.action && (
+                  <div class="px-5 pb-6 sm:px-7">
+                    <a href={section.action.href} class="guide-external-action" target="_blank" rel="noopener noreferrer">
+                      <span>{section.action.label}</span>
+                      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg>
+                    </a>
+                  </div>
+                )}
+
+                <div class="guide-checkpoint mx-5 mb-6 sm:mx-7">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6" /></svg>
+                  <p><strong>{copy.checkpointLabel}</strong> {section.checkpoint}</p>
+                </div>
+
+                {section.aiPrompt && (
+                  <details class="guide-ai-help mx-5 mb-6 sm:mx-7">
+                    <summary>
+                      <span>{copy.aiHelpTitle}</span>
+                      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg>
+                    </summary>
+                    <div class="border-t border-white/10 p-4 sm:p-5">
+                      <p class="mb-4 text-sm leading-7 text-white/50">{copy.aiHelpBody}</p>
+                      <pre data-ai-prompt>{section.aiPrompt}</pre>
+                      <button type="button" class="guide-copy-button mt-4" data-ai-copy>
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 8h11v11H8zM5 16H4V4h12v1" /></svg>
+                        <span data-ai-copy-text>{copy.aiCopyLabel}</span>
+                      </button>
+                    </div>
+                  </details>
+                )}
+
+                <footer class="flex flex-col gap-3 border-t border-white/10 px-5 py-4 sm:flex-row sm:items-center sm:justify-between sm:px-7">
+                  <p class="text-xs leading-6 text-white/35">{section.checkpoint}</p>
+                  <button type="button" class="guide-complete-button" aria-pressed="false" data-step-complete={index}>
+                    <span data-complete-button-text>{copy.completeLabel}</span>
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6" /></svg>
+                  </button>
+                </footer>
+              </article>
+            ))}
+
+            <section class="guide-finale">
+              <p class="text-[9px] font-mono uppercase tracking-[0.22em] text-cyan-200/60">Pull Request</p>
+              <h3 class="mt-3 font-serif text-2xl tracking-[0.05em] text-white sm:text-3xl">{variant.finalTitle}</h3>
+              <div class="wiki-guide-prose prose prose-invert mt-5 max-w-3xl" set:html={variant.finalBodyHtml} />
+              <div class="mt-7 flex flex-wrap gap-3">
+                <a href={docsHref} class="guide-secondary-action" target="_blank" rel="noopener noreferrer">{copy.docs}</a>
+                <a href={docsHref} class="guide-primary-action" target="_blank" rel="noopener noreferrer" data-github-edit-link={variant.key}>
+                  <span>{variant.finalLinkLabel}</span>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg>
+                </a>
+              </div>
+            </section>
           </div>
+
+          <aside class="space-y-4 lg:sticky lg:top-36">
+            <section class="guide-focus-card">
+              <p class="text-[9px] font-mono uppercase tracking-[0.2em] text-white/35">{copy.targetLabel}</p>
+              <p class="mt-3 break-all font-mono text-xs leading-6 text-cyan-100/72" data-guide-target-path>{copy.invalidTarget}</p>
+            </section>
+            <section class="guide-glossary">
+              <h3 class="font-serif text-lg tracking-[0.06em] text-white">{copy.glossaryTitle}</h3>
+              <dl class="mt-4 divide-y divide-white/10">
+                {copy.glossary.map((item) => (
+                  <div class="py-3 first:pt-0 last:pb-0">
+                    <dt class="font-mono text-[10px] text-cyan-100/78">{item.term}</dt>
+                    <dd class="mt-1 text-xs leading-6 text-white/48">{item.definition}</dd>
+                  </div>
+                ))}
+              </dl>
+            </section>
+          </aside>
         </div>
-      </aside>
-    </section>
+      </section>
+    ))}
   </main>
 
   <SiteFooter footer={homeContent.footer} />
 </BaseLayout>
 
 <script is:inline type="module">
-  const runtimeRoot = document.querySelector('[data-guide-runtime]');
-  const repoEditRoot = runtimeRoot?.getAttribute('data-repo-edit-root') || '';
-  const contentPathPrefix = runtimeRoot?.getAttribute('data-content-path-prefix') || '';
-  const docsHref = runtimeRoot?.getAttribute('data-docs-href') || '';
-  const invalidTarget = runtimeRoot?.getAttribute('data-invalid-target') || '';
-  const defaultGuideMode = runtimeRoot?.getAttribute('data-default-guide-mode') || 'beginner';
+  const root = document.querySelector('[data-guide-runtime]');
+  if (root instanceof HTMLElement) {
+    const repoEditRoot = root.dataset.repoEditRoot || '';
+    const contentPathPrefix = root.dataset.contentPathPrefix || '';
+    const docsHref = root.dataset.docsHref || '';
+    const invalidTarget = root.dataset.invalidTarget || '';
+    const defaultMode = root.dataset.defaultGuideMode || 'beginner';
+    const availableModes = (root.dataset.guideModes || '').split(',').filter(Boolean);
+    const completeLabel = root.dataset.completeLabel || '';
+    const completedLabel = root.dataset.completedLabel || '';
+    const progressLabel = root.dataset.progressLabel || '';
+    const aiCopyLabel = root.dataset.aiCopyLabel || '';
+    const aiCopiedLabel = root.dataset.aiCopiedLabel || '';
 
-  const normalizeTarget = (value) => {
-    let candidate = String(value || '').trim();
-
-    for (let index = 0; index < 2; index += 1) {
-      try {
-        const decoded = decodeURIComponent(candidate);
-
-        if (decoded === candidate) {
-          break;
-        }
-
-        candidate = decoded;
-      } catch {
-        break;
+    const normalizeTarget = (value) => {
+      let candidate = String(value || '').trim();
+      for (let index = 0; index < 2; index += 1) {
+        try {
+          const decoded = decodeURIComponent(candidate);
+          if (decoded === candidate) break;
+          candidate = decoded;
+        } catch { break; }
       }
-    }
-
-    if (!candidate) {
+      if (!candidate) return '';
+      if (candidate.startsWith(contentPathPrefix)) return candidate;
+      if (repoEditRoot && candidate.startsWith(repoEditRoot)) {
+        const path = candidate.slice(repoEditRoot.length);
+        return path.startsWith(contentPathPrefix) ? path : '';
+      }
       return '';
+    };
+
+    const searchParams = new URLSearchParams(window.location.search);
+    const rawTarget = searchParams.get('target') || '';
+    const normalizedTarget = normalizeTarget(rawTarget);
+    const resolvedTargetPath = normalizedTarget || invalidTarget;
+    const resolvedEditHref = normalizedTarget ? `${repoEditRoot}${normalizedTarget}` : docsHref;
+    const storageBase = `kamitsubaki-edit-guide:${normalizedTarget || 'general'}`;
+
+    for (const node of root.querySelectorAll('[data-guide-target-path]')) node.textContent = resolvedTargetPath;
+    for (const prompt of root.querySelectorAll('[data-ai-prompt]')) {
+      prompt.textContent = (prompt.textContent || '').replaceAll('{{TARGET_PATH}}', resolvedTargetPath);
+    }
+    for (const link of root.querySelectorAll('[data-github-edit-link]')) {
+      if (link instanceof HTMLAnchorElement) link.href = resolvedEditHref;
     }
 
-    if (candidate.startsWith(contentPathPrefix)) {
-      return candidate;
-    }
+    const localeLinks = document.querySelectorAll('nav[aria-label="Language switcher"] a');
+    const readProgress = (mode) => {
+      try { return new Set(JSON.parse(localStorage.getItem(`${storageBase}:${mode}`) || '[]')); }
+      catch { return new Set(); }
+    };
+    const saveProgress = (mode, completed) => {
+      try { localStorage.setItem(`${storageBase}:${mode}`, JSON.stringify([...completed])); }
+      catch { /* Progress persistence is an enhancement. */ }
+    };
 
-    if (repoEditRoot && candidate.startsWith(repoEditRoot)) {
-      const relativePath = candidate.slice(repoEditRoot.length);
-      return relativePath.startsWith(contentPathPrefix) ? relativePath : '';
-    }
+    const updatePanelProgress = (mode) => {
+      const panel = root.querySelector(`[data-guide-mode-panel="${mode}"]`);
+      if (!(panel instanceof HTMLElement)) return;
+      const completed = readProgress(mode);
+      const steps = panel.querySelectorAll('[data-guide-step]');
+      const safeCompleted = new Set([...completed].filter((value) => Number(value) < steps.length));
 
-    return '';
-  };
-
-  const searchParams = new URLSearchParams(window.location.search);
-  const rawTarget = searchParams.get('target') || '';
-  const normalizedTarget = normalizeTarget(rawTarget);
-  const resolvedTargetPath = normalizedTarget || invalidTarget;
-  const resolvedEditHref = normalizedTarget ? `${repoEditRoot}${normalizedTarget}` : docsHref;
-  const localeLinks = document.querySelectorAll('nav[aria-label="Language switcher"] a');
-
-  for (const node of document.querySelectorAll('[data-guide-target-path]')) {
-    node.textContent = resolvedTargetPath;
-  }
-
-  for (const editLink of document.querySelectorAll('[data-github-edit-link]')) {
-    if (editLink instanceof HTMLAnchorElement) {
-      editLink.href = resolvedEditHref;
-    }
-  }
-
-  const syncGuideMode = (mode) => {
-    for (const button of document.querySelectorAll('[data-guide-mode-button]')) {
-      if (!(button instanceof HTMLButtonElement)) {
-        continue;
+      for (const step of steps) {
+        if (!(step instanceof HTMLElement)) continue;
+        const index = step.dataset.guideStep || '';
+        step.dataset.completed = safeCompleted.has(index) ? 'true' : 'false';
       }
-
-      const isActive = button.getAttribute('data-guide-mode-button') === mode;
-      button.setAttribute('aria-selected', isActive ? 'true' : 'false');
-      button.setAttribute('data-guide-mode-active', isActive ? 'true' : 'false');
-      button.classList.toggle('border-cyan-200/60', isActive);
-      button.classList.toggle('bg-cyan-300/[0.12]', isActive);
-      button.classList.toggle('text-cyan-50', isActive);
-      button.classList.toggle('border-white/12', !isActive);
-      button.classList.toggle('bg-white/[0.02]', !isActive);
-      button.classList.toggle('text-white/58', !isActive);
-    }
-
-    for (const panel of document.querySelectorAll('[data-guide-mode-panel]')) {
-      if (!(panel instanceof HTMLElement)) {
-        continue;
+      for (const button of panel.querySelectorAll('[data-step-complete]')) {
+        if (!(button instanceof HTMLButtonElement)) continue;
+        const isCompleted = safeCompleted.has(button.dataset.stepComplete || '');
+        button.setAttribute('aria-pressed', isCompleted ? 'true' : 'false');
+        const label = button.querySelector('[data-complete-button-text]');
+        if (label) label.textContent = isCompleted ? completedLabel : completeLabel;
       }
-
-      panel.hidden = panel.getAttribute('data-guide-mode-panel') !== mode;
-    }
-
-    for (const rail of document.querySelectorAll('[data-guide-rail]')) {
-      if (!(rail instanceof HTMLElement)) {
-        continue;
+      for (const link of panel.querySelectorAll('[data-step-rail-link]')) {
+        if (!(link instanceof HTMLElement)) continue;
+        link.dataset.completed = safeCompleted.has(link.dataset.stepRailLink || '') ? 'true' : 'false';
       }
+      const text = panel.querySelector('[data-guide-progress-text]');
+      if (text) text.textContent = `${progressLabel} ${safeCompleted.size} / ${steps.length}`;
+      const fill = panel.querySelector('[data-guide-progress-fill]');
+      if (fill instanceof HTMLElement) fill.style.width = `${steps.length ? (safeCompleted.size / steps.length) * 100 : 0}%`;
+    };
 
-      rail.classList.toggle('hidden', rail.getAttribute('data-guide-rail') !== mode);
-    }
-  };
-
-  const syncLocaleLinks = (mode) => {
-    for (const node of localeLinks) {
-      if (!(node instanceof HTMLAnchorElement)) {
-        continue;
+    const syncLocaleLinks = (mode) => {
+      for (const node of localeLinks) {
+        if (!(node instanceof HTMLAnchorElement)) continue;
+        const href = new URL(node.href, window.location.origin);
+        if (rawTarget) href.searchParams.set('target', normalizedTarget || rawTarget);
+        else href.searchParams.delete('target');
+        href.searchParams.set('mode', mode);
+        node.href = `${href.pathname}${href.search}`;
       }
+    };
 
-      const href = new URL(node.href, window.location.origin);
-
-      if (rawTarget) {
-        href.searchParams.set('target', normalizedTarget || rawTarget);
-      } else {
-        href.searchParams.delete('target');
+    const syncMode = (mode) => {
+      const activeMode = availableModes.includes(mode) ? mode : defaultMode;
+      for (const button of root.querySelectorAll('[data-guide-mode-button]')) {
+        if (!(button instanceof HTMLButtonElement)) continue;
+        const active = button.dataset.guideModeButton === activeMode;
+        button.setAttribute('aria-selected', active ? 'true' : 'false');
+        button.dataset.guideModeActive = active ? 'true' : 'false';
+        button.tabIndex = active ? 0 : -1;
       }
+      for (const panel of root.querySelectorAll('[data-guide-mode-panel]')) {
+        if (panel instanceof HTMLElement) panel.hidden = panel.dataset.guideModePanel !== activeMode;
+      }
+      updatePanelProgress(activeMode);
+      syncLocaleLinks(activeMode);
+      return activeMode;
+    };
 
-      href.searchParams.set('mode', mode);
-      node.href = `${href.pathname}${href.search}`;
+    const initialMode = syncMode(searchParams.get('mode') || defaultMode);
+
+    for (const button of root.querySelectorAll('[data-guide-mode-button]')) {
+      if (!(button instanceof HTMLButtonElement)) continue;
+      button.addEventListener('click', () => {
+        const mode = syncMode(button.dataset.guideModeButton || defaultMode);
+        const url = new URL(window.location.href);
+        url.searchParams.set('mode', mode);
+        history.replaceState({}, '', `${url.pathname}${url.search}`);
+        root.querySelector(`[data-guide-mode-panel="${mode}"]`)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+      button.addEventListener('keydown', (event) => {
+        if (!['ArrowLeft', 'ArrowRight'].includes(event.key)) return;
+        event.preventDefault();
+        const current = availableModes.indexOf(button.dataset.guideModeButton || initialMode);
+        const delta = event.key === 'ArrowRight' ? 1 : -1;
+        const nextMode = availableModes[(current + delta + availableModes.length) % availableModes.length];
+        const nextButton = root.querySelector(`[data-guide-mode-button="${nextMode}"]`);
+        if (nextButton instanceof HTMLButtonElement) { nextButton.focus(); nextButton.click(); }
+      });
     }
-  };
 
-  const modeFromQuery = searchParams.get('mode');
-  const initialMode = modeFromQuery === 'experienced' || modeFromQuery === 'beginner'
-    ? modeFromQuery
-    : defaultGuideMode;
-
-  syncGuideMode(initialMode);
-  syncLocaleLinks(initialMode);
-
-  for (const button of document.querySelectorAll('[data-guide-mode-button]')) {
-    if (!(button instanceof HTMLButtonElement)) {
-      continue;
-    }
-
-    button.addEventListener('click', () => {
-      const mode = button.getAttribute('data-guide-mode-button') || defaultGuideMode;
-      const url = new URL(window.location.href);
-      url.searchParams.set('mode', mode);
-      history.replaceState({}, '', `${url.pathname}${url.search}`);
-      syncGuideMode(mode);
-      syncLocaleLinks(mode);
+    root.querySelector('[data-guide-start]')?.addEventListener('click', () => {
+      root.querySelector('[data-guide-chooser]')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
+
+    for (const button of root.querySelectorAll('[data-step-complete]')) {
+      if (!(button instanceof HTMLButtonElement)) continue;
+      button.addEventListener('click', () => {
+        const panel = button.closest('[data-guide-mode-panel]');
+        if (!(panel instanceof HTMLElement)) return;
+        const mode = panel.dataset.guideModePanel || defaultMode;
+        const index = button.dataset.stepComplete || '';
+        const completed = readProgress(mode);
+        if (completed.has(index)) completed.delete(index); else completed.add(index);
+        saveProgress(mode, completed);
+        updatePanelProgress(mode);
+      });
+    }
+
+    for (const button of root.querySelectorAll('[data-guide-reset]')) {
+      if (!(button instanceof HTMLButtonElement)) continue;
+      button.addEventListener('click', () => {
+        const panel = button.closest('[data-guide-mode-panel]');
+        if (!(panel instanceof HTMLElement)) return;
+        if (!window.confirm(button.dataset.resetConfirm || 'Reset progress?')) return;
+        const mode = panel.dataset.guideModePanel || defaultMode;
+        saveProgress(mode, new Set());
+        updatePanelProgress(mode);
+      });
+    }
+
+    for (const button of root.querySelectorAll('[data-ai-copy]')) {
+      if (!(button instanceof HTMLButtonElement)) continue;
+      button.addEventListener('click', async () => {
+        const prompt = button.closest('details')?.querySelector('[data-ai-prompt]')?.textContent || '';
+        try {
+          await navigator.clipboard.writeText(prompt);
+          const label = button.querySelector('[data-ai-copy-text]');
+          if (label) label.textContent = aiCopiedLabel;
+          window.setTimeout(() => { if (label) label.textContent = aiCopyLabel; }, 1800);
+        } catch { window.prompt(aiCopyLabel, prompt); }
+      });
+    }
+
+    for (const mode of availableModes) updatePanelProgress(mode);
   }
 </script>

@@ -25,14 +25,18 @@ test('edit source links route through the local contributor guide first', async 
   assert.doesNotMatch(articleHeader, /target="_blank"/);
 });
 
-test('localized contributor guide renders a markdown-driven learning page and final edit link', async () => {
+test('localized contributor guide renders a tiered, progress-aware learning journey and final edit link', async () => {
   assert.equal(await fileExists('../src/pages/[locale]/contribute/edit.astro'), true);
 
   const guidePage = await readSource('../src/pages/[locale]/contribute/edit.astro');
 
   assert.match(guidePage, /getStaticPaths/);
-  assert.doesNotMatch(guidePage, /data-guide-step/g);
-  assert.doesNotMatch(guidePage, /checkbox/);
+  assert.match(guidePage, /data-guide-step/);
+  assert.match(guidePage, /data-step-complete/);
+  assert.match(guidePage, /localStorage/);
+  assert.match(guidePage, /data-guide-progress-fill/);
+  assert.match(guidePage, /data-ai-prompt/);
+  assert.match(guidePage, /navigator\.clipboard\.writeText/);
   assert.match(guidePage, /data-github-edit-link/);
   assert.match(guidePage, /new URLSearchParams\(window\.location\.search\)/);
   assert.match(guidePage, /normalizeTarget/);
@@ -46,6 +50,7 @@ test('localized contributor guide renders a markdown-driven learning page and fi
   assert.match(guidePage, /data-guide-mode-button/);
   assert.match(guidePage, /data-guide-mode-panel/);
   assert.match(guidePage, /data-guide-rail/);
+  assert.match(guidePage, /availableModes/);
   assert.match(guidePage, /searchParams\.get\('mode'\)/);
   assert.match(guidePage, /history\.replaceState/);
   assert.match(guidePage, /data-guide-target-path/);
@@ -68,7 +73,12 @@ test('contributor guide copy lives in editable content files', async () => {
   assert.match(contentConfig, /switchLabel: z\.string\(\)/);
   assert.match(contentConfig, /variants: z\.array/);
   assert.match(zhGuide, /key: beginner/);
+  assert.match(zhGuide, /key: web/);
   assert.match(zhGuide, /key: experienced/);
+  assert.match(zhGuide, /注册免费的 GitHub 个人账号/);
+  assert.match(zhGuide, /创建你的第一个 Pull Request/);
+  assert.match(zhGuide, /aiPrompt:/);
+  assert.match(zhGuide, /\{\{TARGET_PATH\}\}/);
   assert.match(zhGuide, /```yaml/);
   assert.match(zhGuide, /> /);
 });

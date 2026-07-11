@@ -18,8 +18,8 @@ Most contributors only need `src/content/`.
 src/content/site/       Site navigation, section labels, footer text (.json)
 src/content/artists/    Artist, creator, unit, and isotope wiki pages (.md)
 src/content/projects/   Project cards and project wiki content (.md)
-src/content/logs/       Timeline/update rows (.json)
-src/content/contribute/ GitHub edit-guide copy (.json)
+src/content/logs/       Timeline/update rows (.md)
+src/content/contribute/ GitHub edit-guide copy (.md)
 ```
 
 Implementation lives outside `src/content/`:

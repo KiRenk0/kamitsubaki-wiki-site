@@ -18,8 +18,8 @@ Astro で構築された、非公式 KAMITSUBAKI STUDIO ファン Wiki の静的
 src/content/site/       ナビゲーション、セクション名、フッターなどのサイト文言 (.json)
 src/content/artists/    アーティスト、クリエイター、ユニット、音楽的同位体の記事 (.md)
 src/content/projects/   プロジェクトカードとプロジェクト記事 (.md)
-src/content/logs/       タイムライン/更新ログ (.json)
-src/content/contribute/ GitHub 編集ガイドの文言 (.json)
+src/content/logs/       タイムライン/更新ログ (.md)
+src/content/contribute/ GitHub 編集ガイドの文言 (.md)
 ```
 
 実装コードは次の場所にあります。
