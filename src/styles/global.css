@@ -1080,7 +1080,7 @@ html.has-js .reveal-up.active {
 
 .guide-route-list {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1px;
   border: 1px solid var(--guide-border);
   background: var(--guide-border);
@@ -1141,8 +1141,67 @@ html.has-js .reveal-up.active {
   color: var(--guide-accent);
 }
 
-.guide-progress-bar {
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
+.guide-progress-card {
+  border: 1px solid var(--guide-border);
+  background:
+    linear-gradient(135deg, rgba(117, 245, 226, 0.055), transparent 62%),
+    rgba(6, 7, 8, 0.88);
+  padding: 1rem;
+}
+
+.guide-progress-card__topline {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.guide-progress-card__route {
+  font-family: var(--font-serif);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.guide-progress-card__count {
+  margin-top: 0.35rem;
+  font-family: var(--font-mono);
+  font-size: 0.61rem;
+  letter-spacing: 0.14em;
+  color: var(--guide-accent);
+}
+
+.guide-progress-card__reset {
+  flex: none;
+  padding: 0.15rem 0;
+  font-family: var(--font-mono);
+  font-size: 0.52rem;
+  letter-spacing: 0.12em;
+  color: rgba(255, 255, 255, 0.3);
+  transition: color 180ms ease;
+}
+
+.guide-progress-card__reset:hover,
+.guide-progress-card__reset:focus-visible {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.guide-progress-card__track {
+  display: block;
+  height: 2px;
+  overflow: hidden;
+  margin-top: 0.9rem;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.guide-progress-card__track > span {
+  display: block;
+  width: 0;
+  height: 100%;
+  background: var(--guide-accent);
+  box-shadow: 0 0 10px rgba(117, 245, 226, 0.3);
+  transition: width 420ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .guide-step-rail {
@@ -1170,10 +1229,15 @@ html.has-js .reveal-up.active {
 }
 
 .guide-step-rail a:hover,
-.guide-step-rail a:focus-visible {
+.guide-step-rail a:focus-visible,
+.guide-step-rail a[data-active='true'] {
   border-left-color: var(--guide-accent);
   background: rgba(117, 245, 226, 0.035);
   color: rgba(255, 255, 255, 0.82);
+}
+
+.guide-step-rail a[data-active='true'] > span:first-child {
+  color: var(--guide-accent);
 }
 
 .guide-step-rail__check {
@@ -1260,8 +1324,10 @@ html.has-js .reveal-up.active {
 }
 
 .guide-ai-help {
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  background: rgba(0, 0, 0, 0.22);
+  border: 1px solid rgba(117, 245, 226, 0.2);
+  background:
+    linear-gradient(135deg, rgba(117, 245, 226, 0.045), transparent 52%),
+    rgba(0, 0, 0, 0.24);
 }
 
 .guide-ai-help summary {
@@ -1284,6 +1350,55 @@ html.has-js .reveal-up.active {
 
 .guide-ai-help[open] summary svg {
   transform: rotate(180deg);
+}
+
+.guide-ai-help[open] {
+  border-color: rgba(117, 245, 226, 0.48);
+}
+
+.guide-ai-privacy {
+  border-left: 1px solid rgba(117, 245, 226, 0.38);
+  padding-left: 0.75rem;
+  font-size: 0.7rem;
+  line-height: 1.7;
+  color: rgba(191, 255, 246, 0.58);
+}
+
+.guide-ai-context {
+  display: block;
+}
+
+.guide-ai-context > span {
+  display: block;
+  margin-bottom: 0.55rem;
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.12em;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.guide-ai-context textarea {
+  display: block;
+  width: 100%;
+  resize: vertical;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0.32);
+  padding: 0.8rem 0.9rem;
+  font-size: 0.82rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.8);
+  outline: none;
+  transition: border-color 180ms ease, background-color 180ms ease;
+}
+
+.guide-ai-context textarea::placeholder {
+  color: rgba(255, 255, 255, 0.26);
+}
+
+.guide-ai-context textarea:focus {
+  border-color: rgba(117, 245, 226, 0.52);
+  background: rgba(117, 245, 226, 0.025);
 }
 
 .guide-ai-help pre {
@@ -1355,6 +1470,10 @@ html.has-js .reveal-up.active {
   .guide-route {
     min-height: auto;
   }
+
+  .guide-progress-card--mobile {
+    position: static;
+  }
 }
 
 @media (max-width: 639px) {
@@ -1381,9 +1500,9 @@ html.has-js .reveal-up.active {
     display: none;
   }
 
-  .guide-progress-bar {
-    margin-right: -1rem;
-    margin-left: -1rem;
+  .guide-progress-card--mobile {
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .guide-step__header {

@@ -266,6 +266,12 @@ const editGuide = defineCollection({
     checkpointLabel: z.string(),
     aiHelpTitle: z.string(),
     aiHelpBody: z.string(),
+    aiPrivacyNote: z.string(),
+    aiContextLabel: z.string(),
+    aiContextPlaceholder: z.string(),
+    aiPromptPreviewLabel: z.string(),
+    aiNoContext: z.string(),
+    aiGuardrails: z.string(),
     aiCopyLabel: z.string(),
     aiCopiedLabel: z.string(),
     glossaryTitle: z.string(),
@@ -277,12 +283,13 @@ const editGuide = defineCollection({
     ),
     variants: z.array(
       z.object({
-        key: z.enum(['beginner', 'web', 'experienced']),
+        key: z.enum(['beginner', 'web', 'new-entry', 'experienced']),
         label: z.string(),
         summary: z.string(),
         audience: z.string(),
         duration: z.string(),
         outcome: z.string(),
+        entryMode: z.enum(['target', 'repository']).optional(),
         description: z.string(),
         sections: z.array(
           z.object({
@@ -303,7 +310,7 @@ const editGuide = defineCollection({
         finalBody: z.string(),
         finalLinkLabel: z.string(),
       }),
-    ).length(3),
+    ).length(4),
     docs: z.string(),
     docsPath: z.string(),
   }),

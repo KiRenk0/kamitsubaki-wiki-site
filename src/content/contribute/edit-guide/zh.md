@@ -28,9 +28,15 @@ resetConfirm: 确定清空这条路线在当前浏览器中的学习进度吗？
 completeLabel: 标记这一步已完成
 completedLabel: 这一步已完成
 checkpointLabel: 完成标准：
-aiHelpTitle: 卡住了？复制提示词问 AI
-aiHelpBody: 把下面整段复制给你常用的 AI。不要向任何 AI 提供密码、邮箱验证码、两步验证代码、令牌或其他私密信息。
-aiCopyLabel: 复制提示词
+aiHelpTitle: 让 AI 帮我处理这一步
+aiHelpBody: 先补充你当前看到的页面、报错或不确定之处。系统会把它和本步骤目标、当前文件及项目约束组合成一段完整问题。
+aiPrivacyNote: 只描述界面和公开错误文字，不要填写密码、验证码、Cookie、令牌、邮箱或其他私人信息。
+aiContextLabel: 补充你现在遇到的情况（可选）
+aiContextPlaceholder: 例如：我已经打开 GitHub，但找不到 Propose changes；页面上只看到 Commit changes…
+aiPromptPreviewLabel: 将复制以下完整提示词
+aiNoContext: 我还没有补充具体情况，请先告诉我这一步通常应该看到什么，再一次只给我一个操作。
+aiGuardrails: 不要索要或处理密码、验证码、Cookie、令牌或私人信息；不要编造资料、来源、测试结果或未展示的页面内容；一次只给当前步骤所需的最小操作。
+aiCopyLabel: 复制完整提示词
 aiCopiedLabel: 已复制，可以去问 AI 了
 glossaryTitle: 先认识 4 个词
 glossary:
@@ -379,6 +385,202 @@ variants:
     finalBody: |
       确认路径、差异、来源和隐私后，就可以进入 GitHub。网页路线只有一条主线：**Edit → Preview → Propose changes → Create pull request → Checks / review**。
     finalLinkLabel: 打开 GitHub 网页编辑器
+  - key: new-entry
+    label: 我要新增一个完整条目
+    summary: 从确定内容类型开始，创建目录与三语文件，填写结构、来源并提交一个可构建的 PR。
+    audience: 新增条目路线 · 网页或本地均可
+    duration: 约 35–70 分钟
+    outcome: 提交一个三语新条目
+    entryMode: repository
+    description: |
+      适合新增艺人、企划或时间线记录，而不是修改已有文件。新增条目通常会同时产生目录和三种语言文件，因此比单文件修正多几步。
+
+      你可以使用 GitHub 网页的 **Add file → Create new file**，也可以在本地创建文件。第一次建议先找一个同类型现有条目作为结构参考。
+    sections:
+      - title: 确定条目类型与收录范围
+        summary: 先判断它属于艺人、企划还是时间线，并确认内容值得成为独立条目。
+        body: |
+          当前主要 collection：
+
+          - `src/content/artists/`：艺人、创作者、组合、音乐同位体
+          - `src/content/projects/`：企划、世界观项目、展览或厂牌
+          - `src/content/logs/`：有明确日期的新闻、活动与观测记录
+
+          新条目需要有明确对象、稳定名称和可追溯的公开来源。只是补一个日期或链接时，优先修改已有条目，不要为了少量信息重复建页。
+        checkpoint: 你能明确说出条目属于哪个 collection，以及为什么需要独立条目。
+        aiPrompt: |
+          【目标】判断我准备新增的 Wiki 内容应该属于 artists、projects 还是 logs，并判断是否值得独立建页。
+          【仓库内容根目录】{{REPO_CONTENT_ROOT}}
+          【我的情况】{{USER_CONTEXT}}
+          【约束】只根据我提供的对象、来源和现有目录信息判断；不要编造收录规则或事实。
+          【请输出】推荐 collection、理由、是否应改已有条目、下一步需要准备的资料清单。
+      - title: 选择目录名与稳定 translationKey
+        summary: 用小写英文 slug 建目录，并让三语文件共享同一个稳定键。
+        body: |
+          目录名使用简短、可读、稳定的小写英文 slug，单词之间用连字符，例如：
+
+          ```text
+          src/content/artists/vwp/new-artist/
+          src/content/projects/arg/new-project/
+          src/content/logs/2026/2026-07-12-new-event/
+          ```
+
+          `translationKey` 用于把三语文件识别为同一条目。它不应包含语言后缀，也不要因为显示名翻译变化而改变。
+
+          先搜索仓库，避免目录名或 `translationKey` 与已有记录重复。
+        checkpoint: 目录 slug 与 translationKey 已确定、未重复，并且不会随语言变化。
+        aiPrompt: |
+          【目标】为一个新 Wiki 条目设计目录 slug 与 translationKey。
+          【我的情况】{{USER_CONTEXT}}
+          【约束】slug 只用小写英文字母、数字和连字符；translationKey 跨 zh/ja/en 完全一致；不要猜测未提供的官方英文名。
+          【请输出】3 个候选方案、推荐方案、需要在仓库中搜索确认的重复项。
+      - title: 创建目录与三语文件
+        summary: 在同一目录创建 zh.md、ja.md、en.md，先搭好可被系统识别的骨架。
+        body: |
+          一个可翻译条目推荐从一开始就创建：
+
+          ```text
+          <entry>/zh.md
+          <entry>/ja.md
+          <entry>/en.md
+          ```
+
+          GitHub 网页方式：进入正确 collection 和分类目录，点击 **Add file → Create new file**，在文件名输入框中可以用 `/` 一次创建目录和文件，例如 `new-artist/zh.md`。保存第一份后，再在同一目录创建另外两份。
+
+          正文来不及翻译时可以暂时留空，但 frontmatter 必须有效；不要放“待补充”“Lorem ipsum”等占位正文。
+        checkpoint: 三个语言文件位于同一条目目录，文件名准确，没有多余嵌套层级。
+        action:
+          label: 查看 GitHub 官方新建文件说明
+          href: https://docs.github.com/zh/repositories/working-with-files/managing-files/creating-new-files
+        aiPrompt: |
+          【目标】为新条目生成正确的目录与 zh.md、ja.md、en.md 文件骨架。
+          【仓库内容根目录】{{REPO_CONTENT_ROOT}}
+          【我的情况】{{USER_CONTEXT}}
+          【约束】遵守现有 collection 目录层级；三语文件放在同一目录；不生成占位事实或虚构正文。
+          【请输出】最终目录树、GitHub 网页逐步操作、三个空白文件各自应包含的最小结构。
+      - title: 按 collection 填写必要 frontmatter
+        summary: 不同内容类型字段不同；直接参考同目录现有文件和 content.config.ts。
+        body: |
+          三种常见最小结构：
+
+          ```yaml
+          # artists
+          locale: zh
+          translationKey: new-artist
+          name: "显示名"
+          romanizedName: "ROMANIZED NAME"
+          statusLabel: "STATUS"
+          status: "ACTIVE"
+          image: "https://可靠公开图片地址"
+          ```
+
+          ```yaml
+          # projects
+          locale: zh
+          translationKey: new-project
+          kind: "PROJECT"
+          title: "显示标题"
+          description: "简短说明"
+          order: 1
+          ```
+
+          ```yaml
+          # logs
+          locale: zh
+          translationKey: new-event
+          date: "2026-07-12"
+          type: "NEWS"
+          title: "记录标题"
+          order: 1
+          ```
+
+          实际必填字段以 `src/content.config.ts` 和同类型现有文件为准。不要为了“看起来完整”随意填写 `theme`、`seo` 或未知字段。
+        checkpoint: 三语 frontmatter 均能对应 schema，locale 各自正确，translationKey 完全一致。
+        aiPrompt: |
+          【目标】检查并生成新条目的最小有效 frontmatter。
+          【我的情况】{{USER_CONTEXT}}
+          【约束】严格按我提供的 content.config.ts schema 和现有同类型文件；缺少事实就列为待确认，不得虚构值；保持 zh/ja/en translationKey 一致。
+          【请输出】三语 frontmatter、每个字段依据、仍需我确认的项目。
+      - title: 编写正文与三语内容
+        summary: 先写稳定事实和来源，再做翻译；三语结构一致但不要求逐字对应。
+        body: |
+          艺人条目推荐从概述、创作定位、活动历程、代表作品、相关企划、参考资料和外部链接开始。企划与日志应使用与现有同类型页面一致的结构。
+
+          写作顺序：
+
+          1. 用资料来源写出事实清单
+          2. 完成信息最充分的语言版本
+          3. 翻译另外两种语言
+          4. 对照检查姓名、日期、作品名和链接
+
+          AI 可以协助翻译和润色，但不能成为资料来源。官方专有名词优先使用官方现有译名；不确定时保留原文并说明。
+        checkpoint: 三语文件结构相近，正文没有占位或无来源事实，专有名词与日期已核对。
+        aiPrompt: |
+          【目标】根据我提供的可靠来源，整理并翻译一个新 Wiki 条目的三语正文。
+          【我的情况与资料】{{USER_CONTEXT}}
+          【约束】只写来源直接支持的事实；AI 不是来源；不确定的专有名词保留原文并标注；三语结构一致但语言自然。
+          【请输出】先列事实与来源映射，再输出 zh/ja/en Markdown；最后列出无法确认的内容。
+      - title: 处理来源、链接与图片版权
+        summary: 每个关键事实可追溯，图片来自允许公开使用的官方来源，不上传私密或侵权材料。
+        body: |
+          优先使用官方艺人页、官方新闻、官方活动页、官方发布和正式采访。参考资料写清标题、发布方、日期与链接。
+
+          图片必须是公开可访问且适合引用的来源。不要上传付费内容截图、泄露素材、私人照片、含个人信息的截图或来源不明的二次转载。无法确认使用条件时，先使用可靠官方 URL 或暂不添加图片，并在 PR 中询问维护者。
+        checkpoint: 关键事实都有来源，所有链接可访问，图片没有明显版权或隐私风险。
+        aiPrompt: |
+          【目标】审查新条目的来源、外部链接和图片风险。
+          【我的情况】{{USER_CONTEXT}}
+          【约束】不把 AI 输出当来源；不认可付费截图、泄露素材、私人照片或不明转载；无法确认时明确标记风险。
+          【请输出】事实—来源对照表、失效或弱来源、图片风险、提交前必须处理的问题。
+      - title: 跨语言自检与本地验证
+        summary: 检查目录、字段和翻译一致性；能本地运行时执行与 CI 相同的命令。
+        body: |
+          手动检查：
+
+          - 三语文件是否都在正确目录
+          - `locale` 分别为 `zh`、`ja`、`en`
+          - `translationKey` 是否完全一致
+          - 必填字段、日期、排序值和链接是否有效
+          - 是否没有占位正文、敏感信息或生成目录
+
+          本地开发者运行：
+
+          ```bash
+          pnpm test
+          pnpm check
+          pnpm build
+          ```
+
+          纯网页贡献者可以提交 PR 后查看 CI；若失败，在同一分支继续修正。
+        checkpoint: 人工检查完成；本地命令通过，或你知道提交后在哪里查看 CI。
+        aiPrompt: |
+          【目标】对新条目的目录、三语文件、frontmatter、正文和来源做提交前审查。
+          【我的情况】{{USER_CONTEXT}}
+          【约束】逐项检查 locale、translationKey、schema、占位、隐私、来源和链接；不要声称运行了我未运行的命令。
+          【请输出】按“阻塞提交 / 建议修正 / 已通过”分组的检查结果，以及最小修复顺序。
+      - title: 提交一个可审阅的新条目 PR
+        summary: 一个 PR 只新增这个条目，说明目录、语言、来源和验证结果。
+        body: |
+          Commit 和 PR 标题示例：
+
+          ```text
+          content: add new artist entry
+          content: add 2026 event log
+          ```
+
+          PR 说明至少包含：条目类型与路径、三语完成情况、主要资料来源、图片来源、实际运行的验证，以及尚未确定的内容。不要把其他条目重写、无关格式化或生成文件混进同一 PR。
+
+          CI 或 review 要求修正时，继续在同一分支提交，原 PR 会自动更新。
+        checkpoint: PR 只包含新条目相关文件，说明与来源完整，并能被维护者直接审阅。
+        aiPrompt: |
+          【目标】为一个新 Wiki 条目生成可审阅的 Commit message 和 PR 说明。
+          【我的情况】{{USER_CONTEXT}}
+          【约束】只使用我实际提供的文件、来源和验证结果；不编造测试通过、翻译完成度或图片授权。
+          【请输出】Commit message、PR 标题、含 Summary / Files / Locales / Sources / Image / Validation / Open questions 的 Markdown 正文。
+    finalTitle: 从内容目录开始创建新条目
+    finalBody: |
+      先进入 `src/content/`，选择正确 collection 和分类，再创建条目目录与三语文件。提交前确保 schema、来源、图片与验证信息都清楚。
+    finalLinkLabel: 打开 GitHub 内容目录
   - key: experienced
     label: 我熟悉 Git / GitHub
     summary: 快速掌握仓库模型、三语约束、验证命令和 Fork PR 策略。

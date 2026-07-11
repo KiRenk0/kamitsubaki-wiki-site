@@ -27,6 +27,7 @@ if (!copy) throw new Error(`Missing edit guide content for locale: ${localeCode}
 
 const docsHref = `https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/main/${copy.docsPath}`;
 const repoEditRoot = 'https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/edit/main/';
+const repoContentRoot = 'https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/tree/main/src/content';
 const contentPathPrefix = 'src/content/';
 const introHtml = await renderMarkdownFragment(copy.intro);
 const targetIntroHtml = await renderMarkdownFragment(copy.targetIntro);
@@ -62,6 +63,7 @@ const metadata = {
     class="guide-shell mx-auto min-h-screen max-w-7xl px-4 pb-16 pt-24 sm:px-6 sm:pt-28 lg:px-8 lg:pt-32"
     data-guide-runtime
     data-repo-edit-root={repoEditRoot}
+    data-repo-content-root={repoContentRoot}
     data-content-path-prefix={contentPathPrefix}
     data-docs-href={docsHref}
     data-invalid-target={copy.invalidTarget}
@@ -72,6 +74,8 @@ const metadata = {
     data-progress-label={copy.progressLabel}
     data-ai-copy-label={copy.aiCopyLabel}
     data-ai-copied-label={copy.aiCopiedLabel}
+    data-ai-no-context={copy.aiNoContext}
+    data-ai-guardrails={copy.aiGuardrails}
   >
     <div class="mb-8 flex flex-wrap items-center justify-between gap-4 text-[9px] font-mono uppercase tracking-[0.22em] text-white/40">
       <a href={`/${localeCode}/`} class="transition-colors hover:text-white">{copy.back}</a>
@@ -165,25 +169,34 @@ const metadata = {
         data-guide-mode-panel={variant.key}
         data-step-count={variant.renderedSections.length}
       >
-        <div class="guide-progress-bar sticky top-[4.4rem] z-20 mb-8 border-y border-white/10 bg-black/90 px-4 py-3 backdrop-blur-md sm:top-[4.8rem] sm:px-5">
-          <div class="flex flex-wrap items-center gap-x-5 gap-y-3">
-            <p class="shrink-0 font-mono text-[9px] uppercase tracking-[0.18em] text-white/58" data-guide-progress-text>
-              {copy.progressLabel} 0 / {variant.renderedSections.length}
-            </p>
-            <span class="h-px min-w-24 flex-1 overflow-hidden bg-white/10"><span class="block h-full w-0 bg-cyan-200 transition-[width] duration-500" data-guide-progress-fill></span></span>
-            <button type="button" class="font-mono text-[9px] uppercase tracking-[0.18em] text-white/35 transition-colors hover:text-white" data-guide-reset data-reset-confirm={copy.resetConfirm}>
-              {copy.resetLabel}
-            </button>
-          </div>
-        </div>
-
         <div class="mb-9 border-l border-cyan-200/45 pl-5 sm:pl-7">
           <p class="text-[9px] font-mono uppercase tracking-[0.22em] text-cyan-200/65">{variant.audience}</p>
           <div class="wiki-guide-prose prose prose-invert mt-3 max-w-3xl" set:html={variant.descriptionHtml} />
         </div>
 
+        <div class="guide-progress-card guide-progress-card--mobile mb-8 lg:hidden">
+          <div class="guide-progress-card__topline">
+            <div>
+              <p class="guide-progress-card__route">{variant.label}</p>
+              <p class="guide-progress-card__count" data-guide-progress-text>{copy.progressLabel} 0 / {variant.renderedSections.length}</p>
+            </div>
+            <button type="button" class="guide-progress-card__reset" data-guide-reset data-reset-confirm={copy.resetConfirm}>{copy.resetLabel}</button>
+          </div>
+          <span class="guide-progress-card__track"><span data-guide-progress-fill></span></span>
+        </div>
+
         <div class="grid gap-8 lg:grid-cols-[15rem_minmax(0,1fr)_16rem] lg:items-start xl:grid-cols-[17rem_minmax(0,1fr)_18rem]">
-          <aside class="hidden lg:sticky lg:top-36 lg:block">
+          <aside class="hidden lg:sticky lg:top-28 lg:block">
+            <div class="guide-progress-card mb-5">
+              <div class="guide-progress-card__topline">
+                <div>
+                  <p class="guide-progress-card__route">{variant.label}</p>
+                  <p class="guide-progress-card__count" data-guide-progress-text>{copy.progressLabel} 0 / {variant.renderedSections.length}</p>
+                </div>
+                <button type="button" class="guide-progress-card__reset" data-guide-reset data-reset-confirm={copy.resetConfirm}>{copy.resetLabel}</button>
+              </div>
+              <span class="guide-progress-card__track"><span data-guide-progress-fill></span></span>
+            </div>
             <nav class="guide-step-rail" data-guide-rail={variant.key} aria-label={variant.label}>
               {variant.renderedSections.map((section, index) => (
                 <a href={`#${section.id}`} data-step-rail-link={index}>
@@ -230,8 +243,17 @@ const metadata = {
                       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg>
                     </summary>
                     <div class="border-t border-white/10 p-4 sm:p-5">
-                      <p class="mb-4 text-sm leading-7 text-white/50">{copy.aiHelpBody}</p>
-                      <pre data-ai-prompt>{section.aiPrompt}</pre>
+                      <p class="text-sm leading-7 text-white/52">{copy.aiHelpBody}</p>
+                      <p class="guide-ai-privacy mt-3">{copy.aiPrivacyNote}</p>
+                      <label class="guide-ai-context mt-5">
+                        <span>{copy.aiContextLabel}</span>
+                        <textarea rows="4" maxlength="600" placeholder={copy.aiContextPlaceholder} data-ai-context></textarea>
+                      </label>
+                      <div class="mt-5 flex items-center justify-between gap-4">
+                        <p class="font-mono text-[9px] uppercase tracking-[0.16em] text-white/35">{copy.aiPromptPreviewLabel}</p>
+                        <span class="font-mono text-[8px] tracking-[0.12em] text-white/24" data-ai-context-count>0 / 600</span>
+                      </div>
+                      <pre data-ai-prompt data-ai-prompt-template={section.aiPrompt}>{section.aiPrompt}</pre>
                       <button type="button" class="guide-copy-button mt-4" data-ai-copy>
                         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 8h11v11H8zM5 16H4V4h12v1" /></svg>
                         <span data-ai-copy-text>{copy.aiCopyLabel}</span>
@@ -256,7 +278,13 @@ const metadata = {
               <div class="wiki-guide-prose prose prose-invert mt-5 max-w-3xl" set:html={variant.finalBodyHtml} />
               <div class="mt-7 flex flex-wrap gap-3">
                 <a href={docsHref} class="guide-secondary-action" target="_blank" rel="noopener noreferrer">{copy.docs}</a>
-                <a href={docsHref} class="guide-primary-action" target="_blank" rel="noopener noreferrer" data-github-edit-link={variant.key}>
+                <a
+                  href={variant.entryMode === 'repository' ? repoContentRoot : docsHref}
+                  class="guide-primary-action"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-github-edit-link={variant.entryMode === 'repository' ? undefined : variant.key}
+                >
                   <span>{variant.finalLinkLabel}</span>
                   <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg>
                 </a>
@@ -293,6 +321,7 @@ const metadata = {
   const root = document.querySelector('[data-guide-runtime]');
   if (root instanceof HTMLElement) {
     const repoEditRoot = root.dataset.repoEditRoot || '';
+    const repoContentRoot = root.dataset.repoContentRoot || '';
     const contentPathPrefix = root.dataset.contentPathPrefix || '';
     const docsHref = root.dataset.docsHref || '';
     const invalidTarget = root.dataset.invalidTarget || '';
@@ -303,6 +332,8 @@ const metadata = {
     const progressLabel = root.dataset.progressLabel || '';
     const aiCopyLabel = root.dataset.aiCopyLabel || '';
     const aiCopiedLabel = root.dataset.aiCopiedLabel || '';
+    const aiNoContext = root.dataset.aiNoContext || '';
+    const aiGuardrails = root.dataset.aiGuardrails || '';
 
     const normalizeTarget = (value) => {
       let candidate = String(value || '').trim();
@@ -330,9 +361,21 @@ const metadata = {
     const storageBase = `kamitsubaki-edit-guide:${normalizedTarget || 'general'}`;
 
     for (const node of root.querySelectorAll('[data-guide-target-path]')) node.textContent = resolvedTargetPath;
-    for (const prompt of root.querySelectorAll('[data-ai-prompt]')) {
-      prompt.textContent = (prompt.textContent || '').replaceAll('{{TARGET_PATH}}', resolvedTargetPath);
-    }
+    const renderAiPrompt = (details) => {
+      if (!(details instanceof HTMLDetailsElement)) return '';
+      const preview = details.querySelector('[data-ai-prompt]');
+      const context = details.querySelector('[data-ai-context]');
+      if (!(preview instanceof HTMLElement)) return '';
+      const template = preview.dataset.aiPromptTemplate || preview.textContent || '';
+      const userContext = context instanceof HTMLTextAreaElement ? context.value.trim() : '';
+      const prompt = template
+        .replaceAll('{{TARGET_PATH}}', resolvedTargetPath)
+        .replaceAll('{{REPO_CONTENT_ROOT}}', repoContentRoot)
+        .replaceAll('{{USER_CONTEXT}}', userContext || aiNoContext);
+      preview.textContent = `${prompt.trim()}\n\n【安全边界】\n${aiGuardrails}`;
+      return preview.textContent;
+    };
+    for (const details of root.querySelectorAll('.guide-ai-help')) renderAiPrompt(details);
     for (const link of root.querySelectorAll('[data-github-edit-link]')) {
       if (link instanceof HTMLAnchorElement) link.href = resolvedEditHref;
     }
@@ -370,10 +413,12 @@ const metadata = {
         if (!(link instanceof HTMLElement)) continue;
         link.dataset.completed = safeCompleted.has(link.dataset.stepRailLink || '') ? 'true' : 'false';
       }
-      const text = panel.querySelector('[data-guide-progress-text]');
-      if (text) text.textContent = `${progressLabel} ${safeCompleted.size} / ${steps.length}`;
-      const fill = panel.querySelector('[data-guide-progress-fill]');
-      if (fill instanceof HTMLElement) fill.style.width = `${steps.length ? (safeCompleted.size / steps.length) * 100 : 0}%`;
+      for (const text of panel.querySelectorAll('[data-guide-progress-text]')) {
+        text.textContent = `${progressLabel} ${safeCompleted.size} / ${steps.length}`;
+      }
+      for (const fill of panel.querySelectorAll('[data-guide-progress-fill]')) {
+        if (fill instanceof HTMLElement) fill.style.width = `${steps.length ? (safeCompleted.size / steps.length) * 100 : 0}%`;
+      }
     };
 
     const syncLocaleLinks = (mode) => {
@@ -459,7 +504,8 @@ const metadata = {
     for (const button of root.querySelectorAll('[data-ai-copy]')) {
       if (!(button instanceof HTMLButtonElement)) continue;
       button.addEventListener('click', async () => {
-        const prompt = button.closest('details')?.querySelector('[data-ai-prompt]')?.textContent || '';
+        const details = button.closest('details');
+        const prompt = renderAiPrompt(details);
         try {
           await navigator.clipboard.writeText(prompt);
           const label = button.querySelector('[data-ai-copy-text]');
@@ -467,6 +513,31 @@ const metadata = {
           window.setTimeout(() => { if (label) label.textContent = aiCopyLabel; }, 1800);
         } catch { window.prompt(aiCopyLabel, prompt); }
       });
+    }
+
+    for (const textarea of root.querySelectorAll('[data-ai-context]')) {
+      if (!(textarea instanceof HTMLTextAreaElement)) continue;
+      textarea.addEventListener('input', () => {
+        const details = textarea.closest('details');
+        const count = details?.querySelector('[data-ai-context-count]');
+        if (count) count.textContent = `${textarea.value.length} / 600`;
+        renderAiPrompt(details);
+      });
+    }
+
+    if ('IntersectionObserver' in window) {
+      for (const panel of root.querySelectorAll('[data-guide-mode-panel]')) {
+        if (!(panel instanceof HTMLElement)) continue;
+        const observer = new IntersectionObserver((entries) => {
+          const visible = entries.filter((entry) => entry.isIntersecting).sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+          if (!(visible?.target instanceof HTMLElement)) return;
+          const activeIndex = visible.target.dataset.guideStep || '';
+          for (const link of panel.querySelectorAll('[data-step-rail-link]')) {
+            if (link instanceof HTMLElement) link.dataset.active = link.dataset.stepRailLink === activeIndex ? 'true' : 'false';
+          }
+        }, { rootMargin: '-18% 0px -62% 0px', threshold: [0, 0.15, 0.5] });
+        for (const step of panel.querySelectorAll('[data-guide-step]')) observer.observe(step);
+      }
     }
 
     for (const mode of availableModes) updatePanelProgress(mode);

@@ -35,7 +35,11 @@ test('localized contributor guide renders a tiered, progress-aware learning jour
   assert.match(guidePage, /data-step-complete/);
   assert.match(guidePage, /localStorage/);
   assert.match(guidePage, /data-guide-progress-fill/);
+  assert.match(guidePage, /guide-progress-card/);
+  assert.doesNotMatch(guidePage, /guide-progress-bar sticky/);
   assert.match(guidePage, /data-ai-prompt/);
+  assert.match(guidePage, /data-ai-context/);
+  assert.match(guidePage, /renderAiPrompt/);
   assert.match(guidePage, /navigator\.clipboard\.writeText/);
   assert.match(guidePage, /data-github-edit-link/);
   assert.match(guidePage, /new URLSearchParams\(window\.location\.search\)/);
@@ -74,9 +78,11 @@ test('contributor guide copy lives in editable content files', async () => {
   assert.match(contentConfig, /variants: z\.array/);
   assert.match(zhGuide, /key: beginner/);
   assert.match(zhGuide, /key: web/);
+  assert.match(zhGuide, /key: new-entry/);
   assert.match(zhGuide, /key: experienced/);
   assert.match(zhGuide, /注册免费的 GitHub 个人账号/);
   assert.match(zhGuide, /创建你的第一个 Pull Request/);
+  assert.match(zhGuide, /创建目录与三语文件/);
   assert.match(zhGuide, /aiPrompt:/);
   assert.match(zhGuide, /\{\{TARGET_PATH\}\}/);
   assert.match(zhGuide, /```yaml/);

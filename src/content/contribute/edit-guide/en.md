@@ -28,9 +28,15 @@ resetConfirm: Clear the saved progress for this route in this browser?
 completeLabel: Mark this step complete
 completedLabel: Step completed
 checkpointLabel: "You are ready when:"
-aiHelpTitle: Stuck? Copy this prompt into an AI tool
-aiHelpBody: Copy the full prompt into an AI assistant you trust. Never give an AI your password, email verification code, 2FA code, recovery code, token, cookie, or other private account data.
-aiCopyLabel: Copy help prompt
+aiHelpTitle: Ask AI to help with this step
+aiHelpBody: Add what you can currently see, the public error text, or what feels unclear. The guide combines it with this step's goal, target file, and repository constraints.
+aiPrivacyNote: Describe only public interface text and errors. Never enter a password, verification code, cookie, token, email address, or private personal information.
+aiContextLabel: Add your current situation (optional)
+aiContextPlaceholder: "Example: GitHub is open, but I cannot find Propose changes. I only see Commit changes…"
+aiPromptPreviewLabel: Complete prompt to be copied
+aiNoContext: I have not added a specific situation yet. First tell me what I should normally see at this step, then give me only one action at a time.
+aiGuardrails: Never request or process passwords, verification codes, cookies, tokens, or personal information. Do not invent facts, sources, test results, or interface details I did not provide. Give only the smallest action needed for the current step, one action at a time.
+aiCopyLabel: Copy complete prompt
 aiCopiedLabel: Copied — you can ask your AI now
 glossaryTitle: Four words to know
 glossary:
@@ -289,6 +295,123 @@ variants:
     finalBody: |
       Verify the path, diff, sources, and privacy, then follow **Edit → Preview → Propose changes → Create pull request → Checks / review**.
     finalLinkLabel: Open the GitHub web editor
+  - key: new-entry
+    label: I want to add a complete new entry
+    summary: Choose the content type, create a folder and three locale files, add structure and sources, validate, and submit a reviewable PR.
+    audience: New-entry route · web or local workflow
+    duration: About 35–70 minutes
+    outcome: A three-locale entry PR
+    entryMode: repository
+    description: |
+      Use this route to add a new artist, project, or timeline record rather than changing an existing file. New entries usually add a folder and several files, so begin by finding an existing entry of the same type to use as a structural reference.
+    sections:
+      - title: Choose the entry type and scope
+        summary: Decide between artists, projects, and logs, and confirm that the subject needs its own entry.
+        body: |
+          `artists/` contains artists, creators, groups, and musical isotopes. `projects/` contains projects, settings, exhibitions, and labels. `logs/` contains dated news, events, and observations.
+
+          A new entry needs a clear subject, stable name, and traceable public sources. If you only need to add one date or link, edit the existing entry instead.
+        checkpoint: You can name the collection and explain why this should be an independent entry.
+        aiPrompt: |
+          【Goal】Decide whether my new wiki content belongs in artists, projects, or logs and whether it needs an independent entry.
+          【Content root】{{REPO_CONTENT_ROOT}}
+          【My situation】{{USER_CONTEXT}}
+          【Constraints】Use only the subject, sources, and directory context I provide. Do not invent policy or facts.
+          【Output】Recommended collection, reasoning, existing-entry alternative, and preparation checklist.
+      - title: Choose a folder slug and translationKey
+        summary: Use a stable lowercase slug and one shared translationKey across all locales.
+        body: |
+          Examples include `src/content/artists/vwp/new-artist/`, `src/content/projects/arg/new-project/`, and `src/content/logs/2026/2026-07-12-new-event/`.
+
+          Use lowercase letters, numbers, and hyphens. The slug and `translationKey` should not change with display-language translations. Search the repository for duplicates first.
+        checkpoint: The slug and translationKey are stable, locale-independent, and not duplicated.
+        aiPrompt: |
+          【Goal】Design a folder slug and translationKey for a new wiki entry.
+          【My situation】{{USER_CONTEXT}}
+          【Constraints】Lowercase letters, numbers, and hyphens only; one translationKey for zh/ja/en; do not guess an official English name.
+          【Output】Three candidates, one recommendation, and duplicate checks to run.
+      - title: Create the folder and three locale files
+        summary: Put zh.md, ja.md, and en.md together in the same entry directory.
+        body: |
+          ```text
+          <entry>/zh.md
+          <entry>/ja.md
+          <entry>/en.md
+          ```
+
+          On GitHub, browse to the correct collection and use **Add file → Create new file**. A filename such as `new-artist/zh.md` creates the directory too. An unfinished body may remain empty, but do not add placeholder prose.
+        checkpoint: All three files are in the same correct directory with no accidental extra nesting.
+        action:
+          label: Official GitHub new-file guide
+          href: https://docs.github.com/en/repositories/working-with-files/managing-files/creating-new-files
+        aiPrompt: |
+          【Goal】Create the correct directory and zh.md / ja.md / en.md skeleton for a new entry.
+          【Content root】{{REPO_CONTENT_ROOT}}
+          【My situation】{{USER_CONTEXT}}
+          【Constraints】Follow the existing hierarchy, keep all locales together, and invent no placeholder facts.
+          【Output】Final directory tree, GitHub web steps, and the minimum structure for each file.
+      - title: Add collection-valid frontmatter
+        summary: Follow content.config.ts and an existing entry of the same type; include only fields you understand.
+        body: |
+          Artists, projects, and logs have different required fields. Each file's `locale` must match its filename, while `translationKey` must be identical across all three.
+
+          Do not invent `theme`, `seo`, image, or ordering values merely to make the file look complete. Use `src/content.config.ts` as the source of truth.
+        checkpoint: All locale frontmatter matches the schema, with correct locale values and one translationKey.
+        aiPrompt: |
+          【Goal】Create the minimum valid frontmatter for all three locale files using the content.config.ts and reference entry I provide.
+          【My situation】{{USER_CONTEXT}}
+          【Constraints】List missing facts as questions instead of inventing values; keep translationKey identical.
+          【Output】zh/ja/en frontmatter, field rationale, and unresolved items.
+      - title: Write and translate the body
+        summary: Map facts to sources first, then translate with matching structure and natural language.
+        body: |
+          Build a source-backed fact list, complete the strongest locale, translate the others, then verify names, dates, work titles, and links. AI may help translate or edit, but it is never a source. Keep uncertain official terms in their original form.
+        checkpoint: Locale structures align, with no placeholders or unsupported facts.
+        aiPrompt: |
+          【Goal】Turn reliable sources into a structured three-locale wiki article.
+          【Sources and situation】{{USER_CONTEXT}}
+          【Constraints】Write only directly supported facts; AI is not a source; retain uncertain official terms in the original language.
+          【Output】Fact-to-source map, zh/ja/en Markdown, and unresolved content.
+      - title: Review sources, links, and image rights
+        summary: Make key facts traceable and avoid private, paid, leaked, or unattributed media.
+        body: |
+          Prefer official pages, announcements, posts, and formal interviews. Do not add screenshots of paid content, leaked assets, private photos, personal information, or unattributed reposts. If image usage is uncertain, use a reliable official URL or ask maintainers before adding it.
+        checkpoint: Key facts are sourced, links work, and images have no obvious rights or privacy risk.
+        aiPrompt: |
+          【Goal】Audit sources, links, and image risk for a new entry.
+          【My situation】{{USER_CONTEXT}}
+          【Constraints】AI output is not evidence; reject paid, leaked, private, or unattributed media; flag uncertainty.
+          【Output】Fact-source table, weak links, image risks, and blocking fixes.
+      - title: Validate locales and the build
+        summary: Check locale, translationKey, schema, and links; run the same commands as CI when possible.
+        body: |
+          ```bash
+          pnpm test
+          pnpm check
+          pnpm build
+          ```
+
+          Browser-only contributors can use PR CI and fix failures on the same branch. Never include generated output or private data.
+        checkpoint: Manual review is complete and local checks pass, or you know where to read PR CI.
+        aiPrompt: |
+          【Goal】Audit a new entry's directories, locales, frontmatter, body, and sources before submission.
+          【My situation】{{USER_CONTEXT}}
+          【Constraints】Do not claim tests ran unless I provide their results.
+          【Output】Group findings as Blocking / Recommended / Passed and give the smallest repair order.
+      - title: Submit a reviewable new-entry PR
+        summary: Keep the PR limited to this entry and explain paths, locales, sources, images, and validation.
+        body: |
+          Include entry type and paths, locale completeness, major sources, image source, checks actually run, and open questions. Do not mix unrelated formatting or other entries into this PR. Continue CI and review fixes on the same branch.
+        checkpoint: The PR contains only new-entry files and gives maintainers everything needed to review it.
+        aiPrompt: |
+          【Goal】Draft a commit message and PR description for a new wiki entry.
+          【My situation】{{USER_CONTEXT}}
+          【Constraints】Use only actual files, sources, and validation results; do not invent translation completeness, tests, or image rights.
+          【Output】Commit message, PR title, and Markdown with Summary / Files / Locales / Sources / Image / Validation / Open questions.
+    finalTitle: Start the new entry from the content directory
+    finalBody: |
+      Open `src/content/`, choose the correct collection and category, then create the entry directory and all three locale files. Confirm schema, sources, images, and validation before submitting the PR.
+    finalLinkLabel: Open the GitHub content directory
   - key: experienced
     label: I know Git and GitHub
     summary: A concise reference for the repository model, locale constraints, validation commands, and fork PR strategy.

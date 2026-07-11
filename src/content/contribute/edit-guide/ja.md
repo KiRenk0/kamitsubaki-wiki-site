@@ -28,9 +28,15 @@ resetConfirm: このブラウザに保存されたルートの進捗を消去し
 completeLabel: このステップを完了にする
 completedLabel: このステップは完了済み
 checkpointLabel: "完了の目安："
-aiHelpTitle: 困ったら、この文を AI にコピー
-aiHelpBody: 下の文章全体を普段使う AI にコピーできます。ただし、パスワード、メール認証コード、2段階認証コード、復旧コード、トークン、Cookie などの秘密情報は絶対に渡さないでください。
-aiCopyLabel: AI用の質問をコピー
+aiHelpTitle: このステップを AI に手伝ってもらう
+aiHelpBody: 現在見えている画面、エラー、迷っている点を補足すると、このステップの目的・対象ファイル・リポジトリ制約と組み合わせた質問を作ります。
+aiPrivacyNote: 画面の公開情報とエラー文だけを書き、パスワード、認証コード、Cookie、トークン、メール、個人情報は入力しないでください。
+aiContextLabel: 現在の状況を補足（任意）
+aiContextPlaceholder: 例：GitHub は開けましたが、Propose changes が見つかりません。Commit changes…だけ表示されています。
+aiPromptPreviewLabel: コピーされる完全な質問
+aiNoContext: 具体的な状況はまだありません。このステップで通常見えるものを説明し、操作を一度に一つだけ案内してください。
+aiGuardrails: パスワード、認証コード、Cookie、トークン、個人情報を要求・処理しないこと。資料、出典、テスト結果、未表示の画面内容を作らないこと。現在のステップに必要な最小操作だけを一度に一つ示すこと。
+aiCopyLabel: 完全な質問をコピー
 aiCopiedLabel: コピーしました
 glossaryTitle: まず覚える4つの言葉
 glossary:
@@ -247,6 +253,125 @@ variants:
     finalBody: |
       パス、差分、出典、プライバシーを確認し、**Edit → Preview → Propose changes → Create pull request → Checks / review** と進みます。
     finalLinkLabel: GitHub Webエディタを開く
+  - key: new-entry
+    label: 完全な新規記事を追加したい
+    summary: 内容種別を決め、ディレクトリと3言語ファイルを作り、構造・出典・検証を揃えてPRを送ります。
+    audience: 新規記事ルート · Web / ローカル対応
+    duration: 約35〜70分
+    outcome: 3言語の新規記事PR
+    entryMode: repository
+    description: |
+      既存ファイルの修正ではなく、アーティスト・企画・タイムライン記録を新しく追加する人向けです。新規記事はディレクトリと複数ファイルを同時に扱うため、同種の既存記事を参考に進めます。
+    sections:
+      - title: 記事種別と収録範囲を決める
+        summary: artists、projects、logs のどれかを選び、独立記事にする理由を確認します。
+        body: |
+          `artists/` はアーティスト・クリエイター・ユニット、`projects/` は企画・世界観・展示、`logs/` は日付のあるニュースや活動記録です。
+
+          明確な対象名と信頼できる公開出典が必要です。既存記事に1項目を追加するだけなら、新規記事ではなく既存ファイルを編集します。
+        checkpoint: collectionと独立記事にする理由を説明できる。
+        aiPrompt: |
+          【目的】追加したい内容が artists / projects / logs のどれに属し、独立記事にすべきか判断する。
+          【内容ルート】{{REPO_CONTENT_ROOT}}
+          【現在の状況】{{USER_CONTEXT}}
+          【制約】提供された対象と出典だけで判断し、事実や規約を作らない。
+          【出力】推奨collection、理由、既存記事修正との比較、準備資料。
+      - title: ディレクトリ名とtranslationKeyを決める
+        summary: 小文字英数字とハイフンの安定したslugを使い、3言語で同じtranslationKeyを共有します。
+        body: |
+          例：`src/content/artists/vwp/new-artist/`、`src/content/projects/arg/new-project/`、`src/content/logs/2026/2026-07-12-new-event/`。
+
+          slugとtranslationKeyは表示言語が変わっても変更しません。既存ディレクトリと重複しないか検索してください。
+        checkpoint: slugとtranslationKeyが安定し、既存項目と重複していない。
+        aiPrompt: |
+          【目的】新規記事のslugとtranslationKeyを設計する。
+          【現在の状況】{{USER_CONTEXT}}
+          【制約】slugは小文字英数字とハイフンのみ。translationKeyはzh/ja/en共通。公式英語名を推測しない。
+          【出力】候補3案、推奨案、重複確認項目。
+      - title: ディレクトリと3言語ファイルを作る
+        summary: 同じ記事ディレクトリにzh.md、ja.md、en.mdを作成します。
+        body: |
+          ```text
+          <entry>/zh.md
+          <entry>/ja.md
+          <entry>/en.md
+          ```
+
+          Webでは正しいcollectionで **Add file → Create new file** を使い、`new-artist/zh.md` のように `/` を含む名前でディレクトリも作れます。本文未完成なら空欄にできますが、仮文は入れません。
+        checkpoint: 3ファイルが同じ正しいディレクトリにあり、余計な階層がない。
+        action:
+          label: GitHub公式の新規ファイル作成ガイド
+          href: https://docs.github.com/ja/repositories/working-with-files/managing-files/creating-new-files
+        aiPrompt: |
+          【目的】新規記事のディレクトリとzh.md / ja.md / en.md骨格を作る。
+          【内容ルート】{{REPO_CONTENT_ROOT}}
+          【現在の状況】{{USER_CONTEXT}}
+          【制約】既存階層に従い、3言語を同一ディレクトリに置き、仮の事実を書かない。
+          【出力】最終ディレクトリツリー、Web操作、各ファイルの最小構造。
+      - title: collectionに合うfrontmatterを書く
+        summary: content.config.tsと同種の既存ファイルを基準に、必要な項目だけ書きます。
+        body: |
+          Artists、Projects、Logs は必須項目が異なります。`locale` は各ファイルに合わせ、`translationKey` は3言語で完全一致させます。
+
+          不明な `theme`、`seo`、画像、順序値を見た目のために作らないでください。実際の必須項目は `src/content.config.ts` を確認します。
+        checkpoint: 3言語のfrontmatterがschemaに合い、localeとtranslationKeyが正しい。
+        aiPrompt: |
+          【目的】提供するcontent.config.tsと既存記事に基づき、最小の有効な3言語frontmatterを作る。
+          【現在の状況】{{USER_CONTEXT}}
+          【制約】不足情報は確認事項として残し、値を作らない。translationKeyを統一する。
+          【出力】zh/ja/en frontmatter、項目の根拠、未確認事項。
+      - title: 本文と3言語内容を書く
+        summary: 出典から事実を整理してから翻訳し、構造を揃えます。
+        body: |
+          まず出典ごとの事実を整理し、最も情報の多い言語を完成させてから他言語へ翻訳します。名前、日付、作品名、リンクを再確認してください。
+
+          AIは翻訳・校正に使えますが出典にはなりません。不明な公式用語は原文を維持します。
+        checkpoint: 3言語の構造が近く、仮文や出典のない事実がない。
+        aiPrompt: |
+          【目的】信頼できる出典から新規記事の3言語Markdownを整理する。
+          【資料と状況】{{USER_CONTEXT}}
+          【制約】出典が直接支える事実だけを書く。AIを出典にしない。不明な固有名詞は原文を残す。
+          【出力】事実—出典対応、zh/ja/en本文、未確認内容。
+      - title: 出典・リンク・画像の権利を確認する
+        summary: 重要な事実を追跡可能にし、非公開・有料・出所不明の画像を使いません。
+        body: |
+          公式サイト、公式告知、公式投稿、正式なインタビューを優先します。画像には公開された公式ソースを使い、有料コンテンツのスクリーンショット、流出素材、私的写真、出所不明の転載を追加しません。
+        checkpoint: 主要事実に出典があり、リンクが有効で、画像に明らかな権利・プライバシー問題がない。
+        aiPrompt: |
+          【目的】新規記事の出典、リンク、画像リスクを確認する。
+          【現在の状況】{{USER_CONTEXT}}
+          【制約】AI出力を出典にせず、有料・流出・私的・不明転載画像を認めない。
+          【出力】事実—出典表、弱い出典、画像リスク、必須修正。
+      - title: 多言語とビルドを検証する
+        summary: locale、translationKey、schema、リンクを確認し、可能ならCIと同じコマンドを実行します。
+        body: |
+          ```bash
+          pnpm test
+          pnpm check
+          pnpm build
+          ```
+
+          Webだけで投稿する場合はPR後のCIを確認し、同じブランチで修正します。生成物や秘密情報を含めないでください。
+        checkpoint: 手動確認済みで、ローカル検証が通るかCIの確認方法が分かる。
+        aiPrompt: |
+          【目的】新規記事のディレクトリ、3言語、frontmatter、本文、出典を提出前に監査する。
+          【現在の状況】{{USER_CONTEXT}}
+          【制約】未実行のテストを通過したと言わない。
+          【出力】提出阻止 / 推奨修正 / 通過に分けた結果と最小修正順。
+      - title: 新規記事PRを送る
+        summary: この1記事だけを含め、言語・出典・画像・検証を説明します。
+        body: |
+          PRには記事種別とパス、3言語の完成度、出典、画像ソース、実行した検証、未確認事項を書きます。無関係な整形や他記事の変更を混ぜません。CI/review修正は同じブランチで続けます。
+        checkpoint: PRが新規記事関連ファイルだけを含み、メンテナーが直接レビューできる。
+        aiPrompt: |
+          【目的】新規Wiki記事のCommit messageとPR説明を作る。
+          【現在の状況】{{USER_CONTEXT}}
+          【制約】実際のファイル、出典、検証結果だけを使い、翻訳・テスト・画像権利を作らない。
+          【出力】Commit、PRタイトル、Summary / Files / Locales / Sources / Image / Validation / Open questions本文。
+    finalTitle: 内容ディレクトリから新規記事を始める
+    finalBody: |
+      `src/content/` で正しいcollectionと分類を選び、記事ディレクトリと3言語ファイルを作成します。schema、出典、画像、検証を確認してからPRを送ってください。
+    finalLinkLabel: GitHubの内容ディレクトリを開く
   - key: experienced
     label: Git / GitHub に慣れている
     summary: リポジトリ構造、多言語制約、検証コマンド、Fork PR 戦略だけを確認します。
