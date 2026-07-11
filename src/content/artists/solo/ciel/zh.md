@@ -5,8 +5,8 @@ code: "06"
 romanizedName: "CIEL"
 categoryOrder: 2
 itemOrder: 1
-meta: "DEBUT: 2023"
-debutDate: "2023-01-01"
+meta: "DEBUT: 2021"
+debutDate: "2021-06-04"
 profileTagline: "通过神椿市异住定兽课选拔出道的虚拟歌手，以象征天空的蓝发为标志，从低头不前到迈出第一步。"
 designCredits: []
 affiliations:
@@ -72,12 +72,12 @@ CIEL 的核心设定是一个「总是低着头的少女终于抬起头来」的
 ## 活动历程
 
 - 通过 KAMITSUBAKI STUDIO 的选拔项目「神椿市异住定兽课」被发掘。
-- 2023 年 2 月 15 日：参加 KAMITSUBAKI FES'23
-- 为剧场版动画《映画大好きポンポさん》演唱主题曲。
-- 举办首次 VR Chat 独立 live，吸引约 400 名观众参加。
-- 2024 年 5 月 13 日：参加虚拟朗读剧《空想劇 —神椿市伍番街—》。
-- 2025 年 12 月 26 日：从活动中回归，举办虚拟迷你 live「再晴」。
-- 2026 年 1 月 14 日：与 Sooda 组成跨次元虚拟音乐组合「空爽 / KUUSOU」，发行出道曲「透明流星ラプソディ」。
+- 曾为剧场版动画《映画大好きポンポさん》演唱主题曲，并在 VR Chat 举办首次独立 live（吸引约 400 名观众）。
+- **2023年2月**：参加「KAMITSUBAKI FES'23」。
+- **2024年5月**：举办 1st VIRTUAL LIVE「空想劇-神椿市伍番街-」。
+- **2025年7月**：参加「KAMITSUBAKI FES ’25 / Singularity Live Vol.4」。
+- **2025年12月**：从活动休止中回归，举办个人虚拟迷你 live「再晴」。
+- **2026年1月**：与 Sooda 组成跨次元虚拟音乐组合「空爽 / KUUSOU」，发行出道曲「透明流星ラプソディ」。
 
 ## 代表作品与相关条目
 

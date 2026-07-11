@@ -6,7 +6,7 @@ romanizedName: "KAFU"
 categoryOrder: 4
 itemOrder: 1
 meta: "ORIGIN: KAF"
-debutDate: "2021-01-01"
+debutDate: "2021-07-07"
 profileTagline: "A CeVIO AI musical isotope built from KAF's vocal data, designed as a creative partner that expands the possibilities of vocal synthesis for creators."
 designCredits: []
 affiliations:
@@ -63,7 +63,7 @@ Operating on the CeVIO AI platform, KAFU is positioned not merely as a singing s
 
 ## Role and Creative Position
 
-The Musical Isotope Project's philosophy is that AI technology should not replace human singing but serve as a partner for creators. KAFU inherits the "girlishness" and "sense of distance" from KAF's voice while gaining a unique "non-human" quality inherent to合成 voices. This voice quality — situated between真人 and virtual — has become an aesthetic resource within the creator community.
+The Musical Isotope Project's philosophy is that AI technology should not replace human singing but serve as a partner for creators. KAFU inherits the "girlishness" and "sense of distance" from KAF's voice while gaining a unique "non-human" quality inherent to synthesized voices. This voice quality — situated between human and virtual — has become an aesthetic resource within the creator community.
 
 In the UGC ecosystem, KAFU has been widely adopted by Vocaloid and CeVIO creators, generating a vast body of derivative works. She is both an extension of KAF's voice and an independent creative symbol.
 
@@ -71,12 +71,13 @@ In the UGC ecosystem, KAFU has been widely adopted by Vocaloid and CeVIO creator
 
 - 2021: Released as the first product in the Musical Isotope series, concurrent with KAF's joining of V.W.P.
 - Became one of the most popular voice banks on the CeVIO AI platform.
+- June 9, 2024: Performed at "V.I.P 1st MINI LIVE ETHEREAL WORLD".
 - Participated in KAMITSUBAKI FES'24 and FES'25.
 - Widely used by creators in original songs, covers, and cross-media projects.
 
 ## Representative Works and Related Entries
 
-KAFU does not release traditional music作品 but exists as a tool within the creator ecosystem. Representative songs created using KAFU include:
+KAFU does not release traditional music works but exists as a tool within the creator ecosystem. Representative songs created using KAFU include:
 
 - KAF × KAFU "Ryuusenkei Mayday" (composed by HiFi-P)
 - A vast body of derivative works by UGC creators

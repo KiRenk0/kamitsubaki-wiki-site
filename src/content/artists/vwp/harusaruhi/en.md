@@ -59,29 +59,30 @@ seo:
 
 HARUSARUHI is a virtual singer from KAMITSUBAKI STUDIO and a member of V.W.P. She is usually recognized through the force of her delivery first: high-impact vocals, emotional drive, and a style that can feel both aggressive and unexpectedly youthful.
 
-Inside the wider Kamitsubaki lineup, she often reads as one of the most immediately energetic members.
+Inside the wider Kamitsubaki lineup, she often reads as one of the most immediately energetic members. She can sing with the destructive power of a typhoon or the innocence of a young girl, drawing listeners in with her powerful and versatile vocal ability.
 
 ## Role and Creative Position
 
 Rather than being defined by one fixed genre, HARUSARUHI is often defined by what her voice does to a song. Her performances can feel storm-like and confrontational, but they can also shift into a more open, almost childlike directness. That contrast is central to her identity.
 
-Within V.W.P, she frequently occupies the sharper and more explosive edge of the unit's internal balance.
+Within V.W.P, she frequently occupies the sharper and more explosive edge of the unit's internal balance, making her interactions in derived songs and live performances a highlight.
 
 ## Activity History
 
-- Began activity on November 15, 2019.
-- Joined V.W.P's shared group phase in 2021.
-- Continued to expand through solo songs, paired unit songs, and large Kamitsubaki live productions.
-- Is closely connected to the musical isotope HARU as a source voice reference point.
+- **2019**: Began activity on November 15 as one of the second wave of Kamitsubaki virtual singers.
+- **2021**: Joined V.W.P's shared group phase. Continued to expand through solo songs, paired unit songs, and large Kamitsubaki live productions.
+- **2024**: Held her 3rd ONE-MAN LIVE *Shamanism III* in April as part of the "KAMITSUBAKI Shinjuku Sensen". Appeared in the virtual stage play *Otogibanashi (Sen) ver1.35_Alternative* in December, expanding her scope of expression.
+- **2025**: Released the theme song "(A)letheia" for the free horror ADV game *Haru to Kaiya*. Participated in major live events like *KAMITSUBAKI FES '25*.
+- **2026**: Releasing her Remix Album *GLITCH STAGE*. Scheduled to perform at *KAMITSUBAKI WARS 2026 Kamitsubaki Yokohama Sensen* in September, maintaining a strong presence alongside her role as the voice provider for the musical isotope HARU.
 
 ## Representative Works and Related Entries
 
-- Solo singles
-- V.W.P paired songs with stronger confrontational energy
-- Live versions tied to major Kamitsubaki stage productions
+- **Solo Singles**: e.g., "Accomplice"
+- **Remix / Mix Projects**: e.g., *GLITCH STAGE*, *SPICE OF LIFE*
+- **V.W.P Paired Songs**: Confrontational duo tracks, such as "LOVEi" and "BREATHE" with Isekaijoucho
+- **Live Performances**: Live versions tied to major Kamitsubaki stage productions
 
 Related entry:
-
 - [Kamitsubaki City Under Construction](/en/projects/arg/kamitsubaki-city)
 
 ## Related Projects / Setting
@@ -96,5 +97,8 @@ HARUSARUHI is connected to V.W.P, to Kamitsubaki's larger live series, and to th
 
 ## External Links
 
-- Official artist page: <https://kamitsubaki.jp/artist/harusaruhi/>
-- Official V.W.P page: <https://kamitsubaki.jp/artist/v-w-p/>
+- [Official Website](https://kamitsubaki.jp/artist/harusaruhi/)
+- [YouTube(Main)](https://www.youtube.com/channel/UCE7gtjLeZKNXLp5YURzYYeg)
+- [X (Twitter)](https://twitter.com/harusaruhi)
+- [TikTok](https://www.tiktok.com/@harusaruhi)
+- [bilibili](https://space.bilibili.com/488976992)

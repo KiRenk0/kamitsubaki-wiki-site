@@ -6,7 +6,7 @@ romanizedName: "teresaAI"
 categoryOrder: 2
 itemOrder: 4
 meta: "分裂: 2023.03"
-debutDate: "2020-01-01"
+debutDate: "2020-05-29"
 profileTagline: "東京生まれ・ロサンゼルス育ちの3DCGバーチャルシンガー。バイリンガルפופと、音声合成ソフトウェアとアーティストへの分裂で知られる。"
 designCredits:
   - "3DCGキャラクター制作: 非公開"
@@ -70,8 +70,9 @@ teresaAIの音楽は太平洋を跨ぐ育ちに影響された、日本語と英
 - te'resa名義で3DCGバーチャルシンガーとしてデビュー。YouTube、Bilibili、Weiboで活動。
 - 中国のインテルテレビCMに出演し、メインストリームでの認知度を獲得。
 - NYLON'S NEXT 2021に選出。
-- 2022年6月25日、Rimとの「IMAGINARY WORLD」ライブに出演。
-- 2023年3月: 音声合成ソフトウェアteresaAIとアーティストELENAに分裂。
+- **2022年6月25日**：Rimとのツーマンライブ「IMAGINARY WORLD」に出演。
+- **2023年2月22日**：「αU research × KAMITSUBAKI STUDIO presents prompt αU」に参加。
+- **2023年3月**：音声合成ソフトウェア「teresaAI」とリアルアーティスト「ELЁNA」に分岐。
 
 ## 代表作品と関連項目
 

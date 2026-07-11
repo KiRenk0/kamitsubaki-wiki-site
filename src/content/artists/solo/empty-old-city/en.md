@@ -5,8 +5,8 @@ code: "09"
 romanizedName: "Empty old City"
 categoryOrder: 2
 itemOrder: 3
-meta: "DEBUT: 2021"
-debutDate: "2021-01-01"
+meta: "DEBUT: 2020"
+debutDate: "2020-10-31"
 profileTagline: "A two-member music unit known for narrative storytelling, ethereal melodies, and dense electro crossover soundscapes."
 designCredits: []
 affiliations:

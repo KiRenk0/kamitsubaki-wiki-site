@@ -6,7 +6,7 @@ romanizedName: "GUIANO"
 categoryOrder: 3
 itemOrder: 2
 meta: "ROLE: COMPOSER"
-debutDate: "2022-05-20"
+debutDate: "2014-08-20"
 profileTagline: "A Vocaloid producer and singer-songwriter under KAMITSUBAKI STUDIO who has provided songs for Rim, KAF, Myuk, and others."
 designCredits: []
 affiliations:
@@ -64,7 +64,8 @@ As a member of KAMITSUBAKI CREATION, Guiano's activities extend beyond the virtu
 
 ## Activity History
 
-- May 20, 2022: Released the single "Hana," launching solo activities.
+- 2014: Debuted as a Vocaloid Producer at age 13.
+- October 18, 2019: Joined KAMITSUBAKI STUDIO as a founding member.
 - February 20, 2023: Released the single "Watashi wa, Watashitachi wa."
 - May 24, 2023: Released the EP "Kachou Fuugetsu."
 - September 20, 2023: Released the collaborative album *imagine* with Rim.

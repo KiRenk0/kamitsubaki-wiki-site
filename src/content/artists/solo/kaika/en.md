@@ -65,17 +65,18 @@ Kaika's identity is built on the idea of "branching" — she is explicitly frame
 
 ## Activity History
 
-- January 14, 2024: Debuted at KAF's 4th ONE-MAN LIVE "Kaika" (怪歌) at Yoyogi National Stadium First Gymnasium.
-- August 25, 2024: Performed at YouTube Music Weekend 8.0.
-- January 14, 2025: Held Transmission Mini Live "Umareru mae kara kimi wo shitteru."
-- Released debut album *Umareru mae kara kimi wo shitteru* ("I've Known You Since Before You Were Born").
-- Released singles: "Stand By Me," "Higurashi no Uta," "Teddy Bear," "Kaika."
-- July 19, 2025: Held Kaika Exhibition "Kurukuru" (廻花展「くるくる」).
+- **January 14, 2024**: Debuted at KAF's 4th ONE-MAN LIVE "Kaika" (怪歌) at Yoyogi National Stadium First Gymnasium.
+- **August 25, 2024**: Performed at "YouTube Music Weekend 8.0".
+- **January 14, 2025**: Held Transmission Mini Live "Umareru mae kara kimi wo shitteru." Released debut album *Umareru mae kara kimi wo shitteru* ("I've Known You Since Before You Were Born").
+- **March 15, 2025**: Participated in KAF POP-UP STORE "KAF's New Year Cherry Blossom Festival".
+- **July 19, 2025**: Held Kaika Exhibition "Kurukuru" (廻花展「くるくる」).
+- **July 27, 2025**: Participated in "KAMITSUBAKI FES '25 / Singularity Live Vol.4".
+- **Other**: Released singles "Stand By Me" (スタンドバイミー), "Higurashi no Uta" (ひぐらしのうた), "Teddy Bear" (テディベア), and "Kaika" (かいか).
 
 ## Representative Works
 
 - 1st Album: *Umareru mae kara kimi wo shitteru*
-- Singles: "Stand By Me," "Higurashi no Uta," "Teddy Bear," "Kaika"
+- Singles: "Stand By Me" (スタンドバイミー), "Higurashi no Uta" (ひぐらしのうた), "Teddy Bear" (テディベア), "Kaika" (かいか)
 
 See also:
 

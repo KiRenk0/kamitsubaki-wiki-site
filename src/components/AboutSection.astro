@@ -9,8 +9,8 @@ type AboutContent = {
 const { content } = Astro.props as { content: AboutContent };
 ---
 
-<section id="about" class="py-32 px-6 max-w-7xl mx-auto relative border-b border-white/10 ui-crosshair bl br">
-  <div class="grid grid-cols-1 gap-12 md:grid-cols-12 md:gap-14">
+<section id="about" class="mx-auto max-w-7xl border-b border-white/10 px-5 py-20 relative ui-crosshair bl br sm:px-6 sm:py-32">
+  <div class="grid grid-cols-1 gap-8 sm:gap-12 md:grid-cols-12 md:gap-14">
     <div class="md:col-span-4 reveal-up">
       <h3 class="text-[10px] tracking-kamidest-lg font-light text-white mb-2">{content.heading}</h3>
       <p class="font-serif text-[10px] text-white/50 tracking-widest mb-8">{content.subheading}</p>

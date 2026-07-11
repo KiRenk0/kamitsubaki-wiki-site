@@ -5,8 +5,8 @@ code: "09"
 romanizedName: "Empty old City"
 categoryOrder: 2
 itemOrder: 3
-meta: "DEBUT: 2021"
-debutDate: "2021-01-01"
+meta: "DEBUT: 2020"
+debutDate: "2020-10-31"
 profileTagline: "以叙事性创作、空灵旋律与厚重的电子跨界声景著称的双人音乐组合。"
 designCredits: []
 affiliations:

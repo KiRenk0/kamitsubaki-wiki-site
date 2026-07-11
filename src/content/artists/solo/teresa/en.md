@@ -6,7 +6,7 @@ romanizedName: "teresaAI"
 categoryOrder: 2
 itemOrder: 4
 meta: "SPLIT: 2023.03"
-debutDate: "2020-01-01"
+debutDate: "2020-05-29"
 profileTagline: "A 3DCG virtual singer born in Tokyo and raised in Los Angeles, known for bilingual pop and a landmark split into voice-synthesis software and a human artist identity."
 designCredits:
   - "3DCG character production: undisclosed"
@@ -70,8 +70,9 @@ The 2023 split positioned teresaAI not just as a historical artist project but a
 - Debuted as te'resa, a 3DCG virtual singer active across YouTube, Bilibili, and Weibo.
 - Appeared in Intel TV commercials in China, gaining mainstream visibility.
 - Selected for NYLON'S NEXT 2021.
-- Performed "IMAGINARY WORLD" live with Rim on June 25, 2022.
-- March 2023: split into voice-synthesis software teresaAI and human artist ELENA.
+- **June 25, 2022**: Performed in her first two-man live, "IMAGINARY WORLD," with Rim.
+- **February 22, 2023**: Participated in "αU research × KAMITSUBAKI STUDIO presents prompt αU".
+- **March 2023**: Split into voice-synthesis software "teresaAI" and human artist "ELЁNA".
 
 ## Representative Works and Related Entries
 

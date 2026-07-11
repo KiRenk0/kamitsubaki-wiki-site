@@ -65,26 +65,25 @@ seo:
 
 官方页面将她定位为“虚拟暗色系歌手”，这一说法并不只是风格标签，更接近一种完整的创作方向。她的演唱常在脆弱与强韧之间摇摆，歌曲里的黑暗、神秘与叙事密度，往往比单纯的曲风分类更重要。
 
-此外，ヰ世界情緒并不把自己限制在“只负责唱歌”的角色里。插画、配音、讲述和世界观式表达，都是她个人身份的一部分，这使她在神椿内部具有很强的创作者属性。
+此外，ヰ世界情緒并不把自己限制在“只负责唱歌”的角色里。插画、配音、讲述和世界观式表达，都是她个人身份的一部分，这使她在神椿内部具有很强的创作者属性，被视为独一无二的综合型表达者。
 
 ## 活动历程
 
-- 2019 年 12 月 9 日开始活动，成为神椿早期核心成员之一。
-- 2021 年加入 V.W.P 的团体活动，开始在团体曲、派生曲与 live 中形成更稳定的存在。
-- 其后逐渐扩展到插画、旁白、声优等多方向表达。
-- 她是音乐的同位体“星界 / SEKAI”的声源提供者之一。
-- 近年继续深度参与神椿大型 live 与“神椿市”相关企划。
+- **2019年**：12月9日开始活动，成为神椿早期核心成员之一。
+- **2021年**：加入 V.W.P 的团体活动。其后逐渐扩展到插画、旁白、声优等多方向表达，并作为音乐同位体“星界 / SEKAI”的声源提供者拓展了活动生态。
+- **2024年**：8月作为「神椿横滨战线」的一环举办 3rd ONE-MAN LIVE《Anima III》。12月出演虚拟舞台剧《御伽噺(染) ver1.35_Alternative》。
+- **2025年**：1月举办了个人展览《ヰ世界情绪展Ⅱ》。12月发行 E.P.《幻视录》，并举办了首次 2DAYS LIVE（DAY-1「Flower Closet」 / DAY-2「Anima Re:birth」）。
+- **2026年**：3月，由其亲自担任制作人的虚拟偶像育成 ADV 游戏《Virtual Ties ～ヰ世界情绪梦想曲～》正式发售，进一步确立了其作为综合创作者的独特性。
 
 ## 代表作品与相关条目
 
 进入ヰ世界情緒，通常可以从以下几条线索开始：
 
-- 个人单曲与 EP
-- 更强调黑暗叙事与情绪密度的 V.W.P 派生曲
-- 她参与视觉、声音与角色表达的跨媒体项目
+- **个人单曲与 EP**：（如《幻视录》等）
+- **V.W.P 派生曲**：更强调黑暗叙事与情绪密度的组合曲
+- **跨媒体项目**：她参与视觉、声音与角色表达的跨媒体项目（如《Virtual Ties ～ヰ世界情绪梦想曲～》等）
 
 推荐搭配阅读：
-
 - [星界 / SEKAI](/zh/artists/isotopes/sekai)
 - [神椿市建设中。](/zh/projects/arg/kamitsubaki-city)
 
@@ -100,5 +99,9 @@ seo:
 
 ## 外部链接
 
-- KAMITSUBAKI STUDIO ヰ世界情緒页面：<https://kamitsubaki.jp/artist/isekaijoucho/>
-- V.W.P 官方页面：<https://kamitsubaki.jp/artist/v-w-p/>
+- [Official Website](https://kamitsubaki.jp/artist/isekaijoucho/)
+- [YouTube (Main)](https://www.youtube.com/channel/UCah4_WVjmr8XA7i5aigwV-Q)
+- [X (Twitter)](https://twitter.com/isekaijoucho)
+- [TikTok](https://www.tiktok.com/@isekaijoucho)
+- [piapro](https://piapro.jp/isekaijoucho)
+- [bilibili](https://space.bilibili.com/488978908)

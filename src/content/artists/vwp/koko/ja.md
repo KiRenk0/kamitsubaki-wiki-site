@@ -64,19 +64,19 @@ seo:
 
 ## 活動歴
 
-- 2020 年 10 月 25 日に活動開始。
-- その後 V.W.P のグループ展開へ参加し、派生曲やライブで存在感を広げた。
-- 個人名義ではロック感の強い楽曲やライブ表現を軸に活動を継続。
-- 音楽的同位体「狐子 / COKO」の声源との関連も重要である。
+- **2020年**：10月25日に活動開始。V.W.P の中では最後にデビューしたメンバーである。
+- **2021年**：V.W.P のグループ展開へ参加し、派生曲やライブで存在感を広げた。以後、個人名義ではロック感の強い楽曲やライブ表現を軸に活動を継続。音楽的同位体「狐子 / COKO」の声源としても展開。
+- **2024年**：4月に「神椿新宿戦線」として2nd ONE-MAN LIVE『PLAYER II』を開催。
+- **2025年**：2月に 3rd ONE-MAN LIVE「PLAYER Ⅲ」を開催。8月には TVアニメ『神椿市建設中。』のED楽曲「シャングリラ」をリリース。11月には「詩月灯りに幸福を」（詩道 / 幸祜 / 廉）のMVが公開されるなど、精力的な活動を見せる。
+- **2026年**：4月に「NIGHT HIKE -scramble- ‘26」や「#VRF_2026」に出演。9月の「KAMITSUBAKI WARS 2026 神椿横浜戦線」への参加も決定している。
 
 ## 代表作品と関連項目
 
-- 個人シングル、アルバム
-- V.W.P における対照的な派生曲
-- ライブでの高出力なパフォーマンス
+- **個人シングル・アルバム**：（『むすんでひらいて』、『prayer2』など）
+- **V.W.P における対照的な派生曲**
+- **ライブでの高出力なパフォーマンス**
 
 関連項目：
-
 - [神椿市建設中。](/ja/projects/arg/kamitsubaki-city)
 
 ## 関連企画 / 関連設定
@@ -91,5 +91,8 @@ seo:
 
 ## 外部リンク
 
-- KAMITSUBAKI STUDIO 幸祜ページ：<https://kamitsubaki.jp/artist/koko/>
-- V.W.P 公式ページ：<https://kamitsubaki.jp/artist/v-w-p/>
+- [Official Website](https://kamitsubaki.jp/artist/koko/)
+- [YouTube(Main)](https://www.youtube.com/channel/UC7Gow-kNHq21oejSIDg9PAg)
+- [X (Twitter)](https://twitter.com/KOKO__virtual)
+- [TikTok](https://www.tiktok.com/@koko_virtual)
+- [piapro](https://piapro.jp/virtual_koko)

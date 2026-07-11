@@ -65,24 +65,23 @@ seo:
 
 公式では“バーチャルダークシンガー”と紹介されており、その言葉どおり、ヰ世界情緒の表現には闇、儚さ、神秘性、そして物語を生み出す力が強く宿っている。単に曲を歌うだけではなく、歌とイメージと語りをまとめてひとつの世界として立ち上げるタイプの表現者である。
 
-そのため、神椿内では歌手とクリエイターの両方の側面を持つ重要な存在として位置づけられる。
+そのため、神椿内では歌手とクリエイターの両方の側面を持つ唯一無二の存在として位置づけられる。
 
 ## 活動歴
 
-- 2019 年 12 月 9 日に活動開始。
-- 2021 年に V.W.P の一員としてグループ展開へ参加。
-- 以後、歌唱だけでなく、イラスト、ナレーション、声優的表現など多面的な活動を継続。
-- 音楽的同位体「星界 / SEKAI」の声源との関連も大きい。
-- 神椿市関連の物語・ライブ・メディア企画にも継続的に関わっている。
+- **2019年**：12月9日に活動開始。
+- **2021年**：V.W.Pの一員としてグループ展開へ参加。以後、歌唱だけでなく、イラスト、ナレーション、声優的表現など多面的な活動を継続。音楽的同位体「星界 / SEKAI」の声源としても展開。
+- **2024年**：8月に「神椿横浜戦線」として3rd ONE-MAN LIVE『Anima III』を開催。12月にバーチャル舞台劇「御伽噺(染) ver1.35_Alternative」に出演。
+- **2025年**：1月に「ヰ世界情緒展Ⅱ」を開催。12月には E.P.『幻視録』をリリースし、自身初となる 2DAYS LIVE（DAY-1「Flower Closet」 / DAY-2「Anima Re:birth」）を開催。
+- **2026年**：3月に自らがプロデュースを務めるバーチャルアイドル育成ADVゲーム『Virtual Ties ～ヰ世界情緒夢想曲～』をリリースするなど、クリエイターとしての活動領域をさらに拡大している。
 
 ## 代表作品と関連項目
 
-- 個人シングル、EP
-- ダークで物語性の強い V.W.P 派生曲
-- ビジュアルと声の両面で関わるクロスメディア企画
+- **個人シングル・E.P.**：（『幻視録』など）
+- **ダークで物語性の強い V.W.P 派生曲**
+- **ビジュアルと声の両面で関わるクロスメディア企画**：（『Virtual Ties ～ヰ世界情緒夢想曲～』など）
 
 関連項目：
-
 - [星界 / SEKAI](/ja/artists/isotopes/sekai)
 - [神椿市建設中。](/ja/projects/arg/kamitsubaki-city)
 
@@ -98,5 +97,9 @@ seo:
 
 ## 外部リンク
 
-- KAMITSUBAKI STUDIO ヰ世界情緒ページ：<https://kamitsubaki.jp/artist/isekaijoucho/>
-- V.W.P 公式ページ：<https://kamitsubaki.jp/artist/v-w-p/>
+- [Official Website](https://kamitsubaki.jp/artist/isekaijoucho/)
+- [YouTube(Main)](https://www.youtube.com/channel/UCah4_WVjmr8XA7i5aigwV-Q)
+- [X (Twitter)](https://twitter.com/isekaijoucho)
+- [TikTok](https://www.tiktok.com/@isekaijoucho)
+- [piapro](https://piapro.jp/isekaijoucho)
+- [bilibili](https://space.bilibili.com/488978908)

@@ -68,22 +68,21 @@ seo:
 
 ## 活动历程
 
-- 2020 年 10 月 25 日开始活动，是 V.W.P 体系中相对较晚公开的成员。
-- 2021 年后逐步进入 V.W.P 的团体歌曲、派生曲与大型 live 结构。
-- 个人作品持续围绕高张力、偏摇滚的歌唱路线展开。
-- 她也是音乐的同位体“狐子 / COKO”的声源提供者之一。
-- 近年持续参与神椿大型 live 与跨媒体项目，并在神椿市相关企划中保持存在感。
+- **2020年**：10月25日开始活动，是 V.W.P 体系中相对较晚公开的成员。
+- **2021年**：加入 V.W.P 的组合活动，通过派生曲与各类 live 扩大了影响力。此后，个人名义活动主要围绕摇滚风格的歌曲和充满爆发力的现场演出展开。同时，也作为音乐同位体“狐子 / COKO”的声源提供者拓展活动范围。
+- **2024年**：4月作为「神椿新宿战线」的一环举办 2nd ONE-MAN LIVE《PLAYER II》。
+- **2025年**：2月举办了 3rd ONE-MAN LIVE「PLAYER Ⅲ」。8月发行 TV 动画《神椿市建设中。》的 ED 歌曲《香格里拉》（シャングリラ）。11月公开与诗道、廉的合作曲《诗月灯りに幸福を》MV，展现了活跃的跨领域合作。
+- **2026年**：4月接连参演「NIGHT HIKE -scramble- ‘26」与「#VRF_2026」。并确认参演 9月的「KAMITSUBAKI WARS 2026 神椿横滨战线」，持续在舞台上释放高能冲击力。
 
 ## 代表作品与相关条目
 
 了解幸祜时，可以先从以下方向进入：
 
-- 个人单曲与专辑
-- 与其他成员构成对照的 V.W.P 派生曲
-- 以现场冲击力见长的 one-man live 与大型活动片段
+- **个人单曲与专辑**：（如《むすんでひらいて》、《prayer2》等）
+- **V.W.P 派生曲**：与其他成员构成对照的合唱曲
+- **大型现场**：以现场冲击力见长的 one-man live 与大型活动片段
 
 推荐搭配阅读：
-
 - [神椿市建设中。](/zh/projects/arg/kamitsubaki-city)
 
 ## 相关企划 / 关联设定
@@ -98,5 +97,8 @@ seo:
 
 ## 外部链接
 
-- KAMITSUBAKI STUDIO 幸祜页面：<https://kamitsubaki.jp/artist/koko/>
-- V.W.P 官方页面：<https://kamitsubaki.jp/artist/v-w-p/>
+- [Official Website](https://kamitsubaki.jp/artist/koko/)
+- [YouTube (Main)](https://www.youtube.com/channel/UC7Gow-kNHq21oejSIDg9PAg)
+- [X (Twitter)](https://twitter.com/KOKO__virtual)
+- [TikTok](https://www.tiktok.com/@koko_virtual)
+- [piapro](https://piapro.jp/virtual_koko)

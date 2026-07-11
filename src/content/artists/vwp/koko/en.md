@@ -64,19 +64,19 @@ KOKO tends to leave an impression through pressure and directness first. Whether
 
 ## Activity History
 
-- Began activity on October 25, 2020.
-- Later joined the shared V.W.P group line through songs, paired tracks, and live work.
-- Continued building a solo path centered on high-energy, rock-adjacent singing.
-- Is also closely connected to the musical isotope COKO as a source voice identity.
+- **2020**: Began activity on October 25, being the last of the core members to debut before V.W.P's formation.
+- **2021**: Joined V.W.P's group activities, expanding her presence through unit songs and live performances. Continued to build her solo career around rock-oriented tracks and high-energy live expression. Also tied to the musical isotope COKO as a source voice.
+- **2024**: Held her 2nd ONE-MAN LIVE *PLAYER II* in April as part of the "KAMITSUBAKI Shinjuku Sensen".
+- **2025**: Held her 3rd ONE-MAN LIVE "PLAYER III" in February. Released the ED theme "Shangri-La" for the TV anime *Kamitsubaki City Under Construction* in August. Released the collaborative MV "Shizuki Akari ni Koufuku wo" with Shido and Ren in November.
+- **2026**: Performed at events like "NIGHT HIKE -scramble- '26" and "#VRF_2026" in April. Scheduled to perform at *KAMITSUBAKI WARS 2026 Kamitsubaki Yokohama Sensen* in September, maintaining her powerful presence on stage.
 
 ## Representative Works and Related Entries
 
-- Solo singles and albums
-- V.W.P paired songs built on contrast and pressure
-- Live performances where her stage-force is especially clear
+- **Solo Singles and Albums**: e.g., "Musunde Hiraite", *prayer2*
+- **V.W.P Paired Songs**: Unit songs built on contrast and pressure
+- **Live Performances**: Live settings where her stage-force is especially clear
 
 Related entry:
-
 - [Kamitsubaki City Under Construction](/en/projects/arg/kamitsubaki-city)
 
 ## Related Projects / Setting
@@ -91,5 +91,8 @@ KOKO is tied to V.W.P, to the musical isotope COKO, and to Kamitsubaki City rela
 
 ## External Links
 
-- Official artist page: <https://kamitsubaki.jp/artist/koko/>
-- Official V.W.P page: <https://kamitsubaki.jp/artist/v-w-p/>
+- [Official Website](https://kamitsubaki.jp/artist/koko/)
+- [YouTube(Main)](https://www.youtube.com/channel/UC7Gow-kNHq21oejSIDg9PAg)
+- [X (Twitter)](https://twitter.com/KOKO__virtual)
+- [TikTok](https://www.tiktok.com/@koko_virtual)
+- [piapro](https://piapro.jp/virtual_koko)

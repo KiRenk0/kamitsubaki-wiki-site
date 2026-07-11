@@ -5,8 +5,8 @@ code: "06"
 romanizedName: "CIEL"
 categoryOrder: 2
 itemOrder: 1
-meta: "DEBUT: 2023"
-debutDate: "2023-01-01"
+meta: "DEBUT: 2021"
+debutDate: "2021-06-04"
 profileTagline: "A virtual singer discovered through KAMITSUBAKI STUDIO's internal audition, known for blue hair symbolizing the sky and a story of looking up for the first time."
 designCredits: []
 affiliations:
@@ -71,12 +71,12 @@ Within KUUSOU, CIEL's voice forms a distinctive complementary relationship with 
 ## Activity History
 
 - Discovered through KAMITSUBAKI STUDIO's audition program "Kamitsubaki-shi Ijuu Teijuu-ka."
-- February 15, 2023: Made her first major event appearance at KAMITSUBAKI FES'23.
-- Performed the theme song for the theatrical anime *Eiga Daisuki Ponpo-san*.
-- Held her first VR Chat solo live, drawing approximately 400 attendees.
-- May 13, 2024: Participated in the virtual reading play *Kuusou Geki —Kamitsubaki-shi Goban-gai—*.
-- December 26, 2025: Returned from hiatus with a virtual mini-live titled "Saisei."
-- January 14, 2026: Co-founded the cross-dimensional virtual unit KUUSOU with Sooda, releasing the debut song "Toumei Ryusei Rhapsody."
+- Performed the theme song for the theatrical anime *Eiga Daisuki Ponpo-san* and held her first VR Chat solo live (drawing approx. 400 attendees).
+- **February 2023**: Participated in "KAMITSUBAKI FES'23".
+- **May 2024**: Held her 1st VIRTUAL LIVE "Kuusou Geki —Kamitsubaki-shi Goban-gai—".
+- **July 2025**: Participated in "KAMITSUBAKI FES '25 / Singularity Live Vol.4".
+- **December 2025**: Returned from hiatus to hold the solo virtual mini-live "Saisei".
+- **January 2026**: Co-founded the cross-dimensional virtual unit "KUUSOU" with Sooda, releasing the debut song "Toumei Ryusei Rhapsody."
 
 ## Representative Works and Related Entries
 

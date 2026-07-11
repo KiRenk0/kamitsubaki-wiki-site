@@ -96,7 +96,7 @@
       },
       {
         "label": "CONTACT",
-        "href": "#"
+        "href": "#social-contact"
       }
     ],
     "disclaimer": [
@@ -105,6 +105,84 @@
       "All official rights belong to their respective owners."
     ],
     "copyright": "© 2026 LinkTh1rsty All Rights Reserved"
+  },
+  "socialContact": {
+    "enabled": true,
+    "eyebrow": "SOCIAL LINK",
+    "title": "Contact & Follow",
+    "buttonLabel": "Open social contact links",
+    "closeLabel": "Close social contact links",
+    "helper": "Join the community, send feedback, or help add sources.",
+    "maxVisible": 12,
+    "items": [
+      {
+        "label": "QQ Group",
+        "href": "https://qun.qq.com/",
+        "handle": "Group no. 1056086519",
+        "icon": "qq",
+        "featured": true
+      },
+      {
+        "label": "Douyin Group",
+        "href": "https://v.douyin.com/group/689323013627",
+        "handle": "Douyin community entry",
+        "icon": "link",
+        "featured": true
+      },
+      {
+        "label": "Discord",
+        "href": "https://discord.gg/cnXcvkS4j7",
+        "handle": "Chinese observer community",
+        "icon": "discord",
+        "featured": true
+      },
+      {
+        "label": "GitHub",
+        "href": "https://github.com/LinkTh1rsty",
+        "handle": "@LinkTh1rsty",
+        "icon": "github"
+      },
+      {
+        "label": "Feedback",
+        "href": "https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/issues",
+        "handle": "Issues / Contact",
+        "icon": "link"
+      },
+      {
+        "label": "Contribute",
+        "href": "/en/contribute/edit",
+        "handle": "Improve the wiki together",
+        "icon": "link"
+      },
+      {
+        "label": "Bilibili",
+        "href": "",
+        "handle": "Add your Bilibili page",
+        "icon": "bilibili",
+        "enabled": false
+      },
+      {
+        "label": "X",
+        "href": "",
+        "handle": "Add your X account",
+        "icon": "x",
+        "enabled": false
+      },
+      {
+        "label": "YouTube",
+        "href": "",
+        "handle": "Add your YouTube channel",
+        "icon": "youtube",
+        "enabled": false
+      },
+      {
+        "label": "Weibo",
+        "href": "",
+        "handle": "Add your Weibo page",
+        "icon": "weibo",
+        "enabled": false
+      }
+    ]
   },
   "aiChat": {
     "title": "AI Observer",

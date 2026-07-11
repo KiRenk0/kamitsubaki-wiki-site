@@ -5,8 +5,8 @@ code: "09"
 romanizedName: "Empty old City"
 categoryOrder: 2
 itemOrder: 3
-meta: "DEBUT: 2021"
-debutDate: "2021-01-01"
+meta: "DEBUT: 2020"
+debutDate: "2020-10-31"
 profileTagline: "物語的な語り口、幻想的なメロディ、そして密度の高いエレクトロクロスオーバーのサウンドスケープで知られる2人組音楽ユニット。"
 designCredits: []
 affiliations:

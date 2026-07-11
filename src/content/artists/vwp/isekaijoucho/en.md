@@ -65,24 +65,23 @@ Among the Kamitsubaki members, she is one of the clearest examples of an artist 
 
 The official label "virtual dark singer" captures more than genre. In ISEKAIJOUCHO's work, darkness, fragility, mystery, and authorship are tightly bound together. Her songs often feel less like isolated tracks and more like fragments of a larger inner setting.
 
-That makes her an important hybrid figure inside Kamitsubaki: not only a singer, but also a creator whose identity extends through image, voice, and narrative tone.
+That makes her an important hybrid figure inside Kamitsubaki: not only a singer, but also a one-of-a-kind creator whose identity extends through image, voice, and narrative tone.
 
 ## Activity History
 
-- Began activity on December 9, 2019.
-- Entered V.W.P's group activity in 2021.
-- Continued to expand into illustration, narration, voice-style performance, and other creative fields beyond singing.
-- Is closely tied to the musical isotope SEKAI as a source voice identity.
-- Remains active across Kamitsubaki's large live and story-oriented projects.
+- **2019**: Began activity on December 9.
+- **2021**: Entered V.W.P's group activity. Continued to expand into illustration, narration, voice-style performance, and other creative fields beyond singing. Also tied to the musical isotope SEKAI as a source voice identity.
+- **2024**: Held her 3rd ONE-MAN LIVE *Anima III* in August as part of the "KAMITSUBAKI Yokohama Sensen". Appeared in the virtual stage play *Otogibanashi (Sen) ver1.35_Alternative* in December.
+- **2025**: Held her second exhibition *ISEKAIJOUCHO Exhibition II* in January. Released her E.P. *Genshiroku* and held her first 2DAYS LIVE (DAY-1 "Flower Closet" / DAY-2 "Anima Re:birth") in December.
+- **2026**: Released the virtual idol training ADV game *Virtual Ties ~Isekaijoucho Musoukyoku~* in March, which she produced herself, further establishing her role as a multi-disciplinary creator.
 
 ## Representative Works and Related Entries
 
-- Solo singles and EPs
-- Darker V.W.P paired songs with strong story atmosphere
-- Cross-media works where her visual and vocal presence both matter
+- **Solo Singles and EPs**: e.g., *Genshiroku*
+- **V.W.P Paired Songs**: Darker unit tracks with strong story atmosphere
+- **Cross-Media Works**: Projects where her visual and vocal presence both matter (e.g., *Virtual Ties*)
 
 Related entries:
-
 - [SEKAI](/en/artists/isotopes/sekai)
 - [Kamitsubaki City Under Construction](/en/projects/arg/kamitsubaki-city)
 
@@ -98,5 +97,9 @@ ISEKAIJOUCHO connects V.W.P, the musical isotope SEKAI, and the Kamitsubaki City
 
 ## External Links
 
-- Official artist page: <https://kamitsubaki.jp/artist/isekaijoucho/>
-- Official V.W.P page: <https://kamitsubaki.jp/artist/v-w-p/>
+- [Official Website](https://kamitsubaki.jp/artist/isekaijoucho/)
+- [YouTube(Main)](https://www.youtube.com/channel/UCah4_WVjmr8XA7i5aigwV-Q)
+- [X (Twitter)](https://twitter.com/isekaijoucho)
+- [TikTok](https://www.tiktok.com/@isekaijoucho)
+- [piapro](https://piapro.jp/isekaijoucho)
+- [bilibili](https://space.bilibili.com/488978908)

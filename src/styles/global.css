@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
+@import "katex/dist/katex.min.css";
 
 @theme {
   --font-sans: Montserrat, "Noto Sans JP", sans-serif;
@@ -18,6 +19,9 @@
   --wiki-muted-color: #8fb0c2;
   --wiki-surface-color: #0f1419;
   --wiki-highlight-color: #f6f7fb;
+  --floating-action-edge: 2rem;
+  --floating-action-size: 3.2rem;
+  --floating-action-gap: 0.8rem;
 }
 
 :lang(ja) {
@@ -126,17 +130,30 @@ input[type="reset"] {
 }
 
 .reveal-up {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+html.has-js .reveal-up {
   opacity: 0;
-  transform: translateY(40px);
+  transform: translate3d(0, 1.65rem, 0);
   transition:
-    opacity 0.85s cubic-bezier(0.16, 1, 0.3, 1),
-    transform 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+    opacity 0.72s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.72s cubic-bezier(0.16, 1, 0.3, 1);
   will-change: opacity, transform;
 }
 
-.reveal-up.active {
+html.has-js .reveal-up.active {
   opacity: 1;
-  transform: translateY(0);
+  transform: translate3d(0, 0, 0);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .hero-center {
+    transform: translate3d(0, var(--hero-parallax-y, 0), 0);
+    transition: transform 120ms linear;
+    will-change: transform;
+  }
 }
 
 .marquee-container {
@@ -368,6 +385,82 @@ input[type="reset"] {
 [data-reading-progress] {
   transform: scaleX(0);
   transition: transform 120ms linear;
+}
+
+:focus-visible {
+  outline: 1px solid var(--wiki-accent-color);
+  outline-offset: 4px;
+}
+
+.site-nav__menu {
+  position: relative;
+}
+
+.site-nav__link {
+  position: relative;
+}
+
+.site-nav__link::after {
+  position: absolute;
+  right: 0;
+  bottom: -0.45rem;
+  left: 0;
+  height: 1px;
+  background: currentColor;
+  content: '';
+  opacity: 0.56;
+  transform: scaleX(0);
+  transform-origin: right center;
+  transition: transform 260ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.site-nav__link:hover::after,
+.site-nav__link:focus-visible::after {
+  transform: scaleX(1);
+  transform-origin: left center;
+}
+
+.site-nav__menu summary {
+  list-style: none;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.32);
+  padding-bottom: 0.3rem;
+  font-family: var(--font-mono);
+  font-size: 0.56rem;
+  letter-spacing: 0.2em;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.site-nav__menu summary::-webkit-details-marker {
+  display: none;
+}
+
+.site-nav__menu-panel {
+  position: absolute;
+  top: calc(100% + 0.75rem);
+  right: 0;
+  display: grid;
+  min-width: 10rem;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(7, 8, 9, 0.94);
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.28);
+  padding: 0.45rem;
+}
+
+.site-nav__menu-panel a {
+  padding: 0.7rem 0.8rem;
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.16em;
+  color: rgba(255, 255, 255, 0.66);
+  transition: background-color 180ms ease, color 180ms ease, padding-left 180ms ease;
+}
+
+.site-nav__menu-panel a:hover,
+.site-nav__menu-panel a:focus-visible {
+  background: color-mix(in srgb, var(--wiki-accent-color) 10%, transparent);
+  color: white;
+  padding-left: 1rem;
 }
 
 .wiki-chip {
@@ -651,11 +744,84 @@ input[type="reset"] {
   box-shadow: 0 18px 48px rgba(0, 0, 0, 0.16);
 }
 
+.wiki-entry-hero {
+  position: relative;
+}
+
+.wiki-entry-hero::after {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: min(14rem, 28%);
+  height: 1px;
+  background: linear-gradient(90deg, var(--wiki-accent-color), transparent);
+  content: '';
+  opacity: 0.68;
+}
+
+.wiki-entry-meta-card {
+  align-self: start;
+  transition: border-color 240ms ease, transform 240ms ease, box-shadow 240ms ease;
+}
+
+.wiki-entry-meta-card:hover {
+  border-color: color-mix(in srgb, var(--wiki-accent-color) 34%, rgba(255, 255, 255, 0.14));
+  transform: translateY(-2px);
+  box-shadow: 0 20px 52px rgba(0, 0, 0, 0.24);
+}
+
+.wiki-empty-state {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--wiki-accent-color) 18%, rgba(255, 255, 255, 0.1));
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--wiki-accent-color) 7%, transparent), transparent 46%),
+    rgba(9, 10, 11, 0.58);
+  box-shadow: 0 18px 52px rgba(0, 0, 0, 0.18);
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+.wiki-empty-state::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, var(--wiki-accent-color), transparent 72%);
+  content: '';
+}
+
+.wiki-empty-state__action {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.6rem;
+  border: 1px solid color-mix(in srgb, var(--wiki-accent-color) 46%, rgba(255, 255, 255, 0.14));
+  padding: 0.65rem 0.9rem;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.16em;
+  color: color-mix(in srgb, var(--wiki-accent-color) 76%, white);
+  transition: background-color 200ms ease, border-color 200ms ease, color 200ms ease, transform 200ms ease;
+}
+
+.wiki-empty-state__action:hover,
+.wiki-empty-state__action:focus-visible {
+  border-color: var(--wiki-accent-color);
+  background: color-mix(in srgb, var(--wiki-accent-color) 12%, transparent);
+  color: white;
+  transform: translateY(-1px);
+}
+
 .wiki-card {
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01)),
     rgba(9, 10, 11, 0.54);
   box-shadow: 0 14px 42px rgba(0, 0, 0, 0.14);
+  transition:
+    border-color 280ms ease,
+    box-shadow 280ms ease,
+    transform 280ms cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform;
 }
 
 .wiki-card::before {
@@ -671,6 +837,19 @@ input[type="reset"] {
   background:
     linear-gradient(135deg, rgba(255, 255, 255, 0.04), transparent 48%),
     rgba(255, 255, 255, 0.012);
+  transform: translate3d(-1.2%, 0, 0);
+  transition: opacity 320ms ease, transform 520ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .wiki-card:hover {
+    transform: translate3d(0, -0.22rem, 0);
+    box-shadow: 0 22px 54px rgba(0, 0, 0, 0.26);
+  }
+
+  .wiki-card:hover .wiki-card__wash {
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 .wiki-toc .toc-list a[data-active="true"] {
@@ -763,6 +942,240 @@ input[type="reset"] {
   color: rgba(255, 255, 255, 0.35);
 }
 
+/* --- Social Contact Dock --- */
+.social-contact {
+  position: fixed;
+  right: var(--floating-action-edge);
+  bottom: calc(var(--floating-action-edge) + var(--floating-action-size) + var(--floating-action-gap));
+  z-index: 39;
+  display: grid;
+  justify-items: end;
+  font-family: var(--font-mono);
+  pointer-events: none;
+}
+
+.social-contact__toggle {
+  position: relative;
+  display: inline-flex;
+  width: var(--floating-action-size);
+  height: var(--floating-action-size);
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 0;
+  background: rgba(3, 3, 3, 0.92);
+  color: rgba(255, 255, 255, 0.58);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.44);
+  pointer-events: auto;
+  transition:
+    border-color 220ms ease,
+    background-color 220ms ease,
+    color 220ms ease,
+    box-shadow 220ms ease,
+    transform 220ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.social-contact__toggle:hover,
+.social-contact__toggle:focus-visible,
+.social-contact.is-open .social-contact__toggle {
+  border-color: rgba(255, 255, 255, 0.48);
+  background: #000;
+  color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 18px rgba(137, 245, 223, 0.08);
+}
+
+.social-contact__toggle:hover,
+.social-contact__toggle:focus-visible {
+  transform: translate3d(0, -2px, 0);
+}
+
+.social-contact__toggle > span {
+  position: absolute;
+  top: -0.45rem;
+  left: -0.3rem;
+  color: rgba(255, 255, 255, 0.22);
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  pointer-events: none;
+}
+
+.social-contact__toggle svg {
+  width: 1.45rem;
+  height: 1.45rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.4;
+}
+
+.social-contact__panel {
+  width: min(20rem, calc(100vw - 2rem));
+  margin-bottom: 0.85rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.045), rgba(255, 255, 255, 0.012)),
+    rgba(5, 6, 7, 0.94);
+  box-shadow: 0 22px 64px rgba(0, 0, 0, 0.42);
+  backdrop-filter: blur(20px) saturate(130%);
+  color: rgba(255, 255, 255, 0.78);
+  pointer-events: auto;
+  opacity: 0;
+  transform: translate3d(0, 0.75rem, 0) scale(0.985);
+  transform-origin: right bottom;
+  transition:
+    opacity 220ms ease,
+    transform 260ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.social-contact.is-open .social-contact__panel {
+  opacity: 1;
+  transform: translate3d(0, 0, 0) scale(1);
+}
+
+.social-contact__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 1rem 1rem 0.85rem;
+}
+
+.social-contact__head p {
+  margin: 0 0 0.35rem;
+  color: rgba(255, 255, 255, 0.34);
+  font-size: 0.6rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+.social-contact__head h2 {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+}
+
+.social-contact__head button {
+  display: grid;
+  width: 2rem;
+  height: 2rem;
+  flex: 0 0 auto;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.025);
+  color: rgba(255, 255, 255, 0.56);
+  transition:
+    border-color 180ms ease,
+    color 180ms ease,
+    background-color 180ms ease;
+}
+
+.social-contact__head button:hover,
+.social-contact__head button:focus-visible {
+  border-color: rgba(255, 255, 255, 0.36);
+  background: rgba(255, 255, 255, 0.06);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.social-contact__head svg {
+  width: 1rem;
+  height: 1rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: 1.5;
+}
+
+.social-contact__helper {
+  margin: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.065);
+  padding: 0.8rem 1rem;
+  color: rgba(255, 255, 255, 0.48);
+  font-size: 0.72rem;
+  line-height: 1.7;
+}
+
+.social-contact__list {
+  display: grid;
+  gap: 0.35rem;
+  padding: 0.6rem;
+}
+
+.social-contact__link {
+  display: grid;
+  grid-template-columns: 2.35rem minmax(0, 1fr);
+  gap: 0.7rem;
+  align-items: center;
+  border: 1px solid transparent;
+  padding: 0.62rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  transition:
+    border-color 180ms ease,
+    background-color 180ms ease,
+    color 180ms ease,
+    transform 180ms ease;
+}
+
+.social-contact__link:hover,
+.social-contact__link:focus-visible {
+  border-color: color-mix(in srgb, var(--wiki-accent-color) 32%, rgba(255, 255, 255, 0.12));
+  background: rgba(255, 255, 255, 0.04);
+  color: rgba(255, 255, 255, 0.92);
+  transform: translate3d(0.22rem, 0, 0);
+}
+
+.social-contact__link.is-featured {
+  border-color: color-mix(in srgb, var(--wiki-accent-color) 24%, rgba(255, 255, 255, 0.1));
+  background: color-mix(in srgb, var(--wiki-accent-color) 7%, transparent);
+}
+
+.social-contact__icon {
+  display: grid;
+  width: 2.35rem;
+  height: 2.35rem;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.social-contact__icon svg {
+  width: 1.2rem;
+  height: 1.2rem;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.35;
+}
+
+.social-contact__text {
+  min-width: 0;
+}
+
+.social-contact__text strong,
+.social-contact__text small {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.social-contact__text strong {
+  color: inherit;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+}
+
+.social-contact__text small {
+  margin-top: 0.2rem;
+  color: rgba(255, 255, 255, 0.42);
+  font-size: 0.68rem;
+}
+
 /* --- AI Chat Sidebar (Kamitsubaki HUD) --- */
 .ai-chat {
   --ai-bg: #030303;
@@ -795,8 +1208,8 @@ input[type="reset"] {
 
 .ai-chat__launcher {
   position: fixed;
-  right: 2rem;
-  bottom: 2rem;
+  right: var(--floating-action-edge);
+  bottom: var(--floating-action-edge);
   z-index: 40;
   display: flex;
   align-items: flex-end;
@@ -844,8 +1257,8 @@ input[type="reset"] {
 .ai-chat__orb {
   position: relative;
   display: grid;
-  width: 3.2rem;
-  height: 3.2rem;
+  width: var(--floating-action-size);
+  height: var(--floating-action-size);
   place-items: center;
   border-radius: 0;
   border: 1px solid rgba(255, 255, 255, 0.12);
@@ -2088,19 +2501,14 @@ input[type="reset"] {
 
 .contributor-roster {
   position: relative;
-  overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.085);
-  border-radius: 8px;
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.052), rgba(255, 255, 255, 0.018) 54%),
-    linear-gradient(90deg, rgba(0, 255, 208, 0.055), transparent 44%),
-    rgba(8, 10, 12, 0.72);
-  box-shadow: 0 18px 54px rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(8, 10, 12, 0.24);
 }
 
 .contributor-roster--summary {
   max-width: 80rem;
-  margin: -2.5rem auto 6rem;
+  margin: 0 auto 6rem;
   padding: 0;
 }
 
@@ -2113,11 +2521,8 @@ input[type="reset"] {
   gap: 1rem;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 1.05rem 1.1rem;
+  padding: 1.1rem 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.075);
-  background:
-    linear-gradient(90deg, rgba(255, 255, 255, 0.035), transparent 58%),
-    rgba(255, 255, 255, 0.018);
 }
 
 .contributor-roster__header h2 {
@@ -2130,7 +2535,7 @@ input[type="reset"] {
 }
 
 .contributor-roster__header p {
-  max-width: 18rem;
+  max-width: 20rem;
   margin: 0;
   font-size: 0.7rem;
   line-height: 1.65;
@@ -2144,12 +2549,12 @@ input[type="reset"] {
   line-height: 1.4;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: rgba(0, 255, 208, 0.56);
+  color: rgba(245, 246, 248, 0.4);
 }
 
 .contributor-roster__state,
 .contributor-roster__empty {
-  padding: 1.35rem 1.1rem;
+  padding: 1.35rem 0;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   font-size: 0.68rem;
   letter-spacing: 0.12em;
@@ -2157,37 +2562,34 @@ input[type="reset"] {
 }
 
 .contributor-roster__content {
-  padding: 1.1rem;
+  padding: 0;
 }
 
 .contributor-roster__stats {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0.55rem;
-  margin-bottom: 1.1rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.075);
 }
 
 .contributor-roster__stats div {
   min-width: 0;
-  padding: 0.82rem 0.78rem;
-  border: 1px solid rgba(255, 255, 255, 0.078);
-  border-radius: 6px;
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.018)),
-    rgba(255, 255, 255, 0.016);
+  padding: 0.9rem 1.15rem 0.95rem 0;
+  margin-right: 1.15rem;
+  border: 0;
 }
 
 .contributor-roster__stats strong {
-  display: block;
+  display: inline;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-  font-size: 1.18rem;
+  font-size: 1.05rem;
   line-height: 1.1;
   color: rgba(255, 255, 255, 0.9);
 }
 
 .contributor-roster__stats span {
-  display: block;
-  margin-top: 0.25rem;
+  display: inline;
+  margin-left: 0.45rem;
   font-size: 0.65rem;
   line-height: 1.4;
   color: rgba(245, 246, 248, 0.44);
@@ -2195,8 +2597,9 @@ input[type="reset"] {
 
 .contributor-roster__grid {
   display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
-  gap: 1rem;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.5rem;
+  padding: 1.4rem 0;
 }
 
 .contributor-roster--entry .contributor-roster__grid {
@@ -2208,18 +2611,20 @@ input[type="reset"] {
 }
 
 .contributor-roster__grid h3 {
-  margin: 0 0 0.62rem;
+  margin: 0 0 0.7rem;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   font-size: 0.62rem;
   line-height: 1.4;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: rgba(245, 246, 248, 0.44);
+  color: rgba(245, 246, 248, 0.38);
 }
 
 .contributor-roster__people {
   display: grid;
-  gap: 0.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.075);
 }
 
 .contributor-roster__person {
@@ -2227,19 +2632,17 @@ input[type="reset"] {
   grid-template-columns: 2.15rem minmax(0, 1fr);
   gap: 0.65rem;
   align-items: center;
-  min-height: 3rem;
-  padding: 0.46rem;
-  border: 1px solid rgba(255, 255, 255, 0.078);
-  border-radius: 6px;
-  background: rgba(255, 255, 255, 0.024);
+  min-height: 3.4rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.075);
   color: inherit;
   text-decoration: none;
-  transition: border-color 180ms ease, background 180ms ease;
+  transition: color 180ms ease, padding-left 180ms ease;
 }
 
 .contributor-roster__person:hover {
-  border-color: rgba(0, 255, 208, 0.22);
-  background: rgba(0, 255, 208, 0.045);
+  padding-left: 0.35rem;
+  color: white;
 }
 
 .contributor-roster__avatar {
@@ -2248,9 +2651,8 @@ input[type="reset"] {
   width: 2.15rem;
   height: 2.15rem;
   overflow: hidden;
-  border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  background: rgba(255, 255, 255, 0.075);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: transparent;
   color: rgba(255, 255, 255, 0.78);
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   font-size: 0.62rem;
@@ -2287,26 +2689,25 @@ input[type="reset"] {
 
 .contributor-roster__recent {
   display: grid;
-  gap: 0.5rem;
+  gap: 0;
   margin: 0;
   padding: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.075);
   list-style: none;
 }
 
 .contributor-roster__recent li {
   display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  gap: 0.45rem;
-  padding: 0.76rem;
-  border: 1px solid rgba(255, 255, 255, 0.078);
-  border-radius: 6px;
-  background: rgba(255, 255, 255, 0.022);
-  transition: border-color 180ms ease, background 180ms ease;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  padding: 0.78rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.075);
+  transition: background-color 180ms ease, padding-left 180ms ease;
 }
 
 .contributor-roster__recent li:hover {
-  border-color: rgba(255, 255, 255, 0.14);
-  background: rgba(255, 255, 255, 0.036);
+  padding-left: 0.35rem;
+  background: rgba(255, 255, 255, 0.018);
 }
 
 .contributor-roster__recent-main {
@@ -2318,7 +2719,7 @@ input[type="reset"] {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-size: 0.78rem;
+  font-size: 0.8rem;
   line-height: 1.4;
   color: rgba(255, 255, 255, 0.82);
 }
@@ -2332,7 +2733,7 @@ input[type="reset"] {
 
 .contributor-roster__recent-meta {
   display: flex;
-  gap: 0.7rem;
+  gap: 0.9rem;
   align-items: center;
   justify-content: space-between;
   min-width: 0;
@@ -2348,18 +2749,76 @@ input[type="reset"] {
 
 .contributor-roster__recent-meta a {
   flex: 0 0 auto;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(245, 246, 248, 0.56);
   text-decoration: none;
 }
 
 .contributor-roster__recent-meta a:hover {
-  color: rgba(255, 255, 255, 0.92);
+  color: white;
+}
+
+.contributor-roster--summary .contributor-roster__recent {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 1.75rem;
+}
+
+.contributor-roster--summary .contributor-roster__recent li:nth-child(2) {
+  border-top: 0;
 }
 
 
 @media (max-width: 639px) {
+  :root {
+    --floating-action-edge: max(1rem, env(safe-area-inset-right));
+    --floating-action-size: 3rem;
+    --floating-action-gap: 0.65rem;
+  }
+
   html {
     scroll-padding-top: 5.5rem;
+  }
+
+  nav.fixed {
+    padding: 1rem;
+  }
+
+  nav.fixed > div {
+    gap: 0.6rem;
+  }
+
+  .site-nav__menu summary {
+    display: inline-flex;
+    min-height: 2.75rem;
+    align-items: center;
+    padding-bottom: 0;
+  }
+
+  .site-nav__menu-panel {
+    min-width: 11.5rem;
+    padding: 0.35rem;
+  }
+
+  .site-nav__menu-panel a {
+    min-height: 2.75rem;
+    padding: 0.8rem;
+  }
+
+  .social-contact__panel {
+    width: min(20rem, calc(100vw - 2rem - env(safe-area-inset-right)));
+    max-height: min(34rem, calc(100svh - 8.5rem));
+    overflow-y: auto;
+  }
+
+  .social-contact__link {
+    min-height: 3.25rem;
+  }
+
+  .ai-chat__launcher {
+    gap: 0;
+  }
+
+  .ai-chat__bubble {
+    display: none;
   }
 
   .ai-chat__panel {
@@ -2478,7 +2937,7 @@ input[type="reset"] {
   }
 
   .ai-chat__form {
-    padding: 0 0.9rem 1rem;
+    padding: 0 0.9rem max(1rem, env(safe-area-inset-bottom));
   }
 
   .ai-chat__composer {
@@ -2533,6 +2992,39 @@ input[type="reset"] {
     padding: 0.85rem 1rem;
   }
 
+  .wiki-page-title {
+    font-size: clamp(1.75rem, 9vw, 2rem);
+    letter-spacing: 0.04em;
+  }
+
+  .wiki-entry-hero {
+    gap: 1.35rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .wiki-entry-meta-card {
+    padding: 1rem;
+  }
+
+  .wiki-mobile-toc {
+    padding: 0.9rem;
+  }
+
+  .artist-row > div {
+    gap: 0.8rem;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+  }
+
+  .artist-row h4 {
+    font-size: 1.08rem;
+    letter-spacing: 0.12em;
+  }
+
+  .artist-row .font-mono.text-\[9px\] {
+    flex: 0 0 auto;
+  }
+
   .wiki-guide-prose {
     font-size: 0.94rem;
     line-height: 1.75;
@@ -2564,8 +3056,22 @@ input[type="reset"] {
     grid-template-columns: 1fr;
   }
 
+  .contributor-roster--summary .contributor-roster__recent {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+  }
+
   .contributor-roster__recent-main strong {
     white-space: normal;
+  }
+
+  .contributor-roster__recent li {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.35rem;
+  }
+
+  .contributor-roster__recent-meta {
+    justify-content: flex-start;
   }
 }
 

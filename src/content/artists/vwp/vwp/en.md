@@ -6,7 +6,7 @@ romanizedName: "V.W.P"
 categoryOrder: 0
 itemOrder: 0
 meta: "GROUP: VIRTUAL WITCH PHENOMENON"
-debutDate: "2019-01-01"
+debutDate: "2021-03-13"
 profileTagline: "A virtual artist group of five digital witches, central to KAMITSUBAKI STUDIO's vocal-driven music and cross-media storytelling."
 designCredits: []
 affiliations:
@@ -75,7 +75,7 @@ More than a music unit, V.W.P is a cross-media narrative framework built around 
 
 ## Role and Creative Position
 
-V.W.P's song体系 is structured into three types:
+V.W.P's song system is structured into three types:
 
 - **Lineage Songs**: Written and composed by Iori Kanzaki, these form V.W.P's core narrative line. Each member's lineage song defines her role within the witch worldview.
 - **Derivative Songs**: Performed by rotating pairs or trios of members, exploring the chemistry between different combinations.
@@ -85,14 +85,15 @@ This three-track creative structure allows V.W.P to maintain narrative coherence
 
 ## Activity History
 
-- From 2019: Members began individual activities in succession, forming the prototype of V.W.P.
-- 2021: V.W.P officially formed; lineage song series released.
-- March 2023: 1st ONE-MAN LIVE "Phenomenon."
-- January 2024: 2nd ONE-MAN LIVE "Phenomenon II" at Yoyogi National Gymnasium.
-- 2024: 1st Album *Unmei* released.
-- January 21, 2026: 3rd Album *Hanten* released.
-- February 2026: 4th ONE-MAN LIVE "Phenomenon IV -Hanten Unmei-" at Pia Arena MM — the group's largest-scale performance in history.
-- End of March 2026: All five members entered the "INTERVAL" charging period to sharpen individual skills, aiming for a "Witch Rebirth" reunion.
+- **March 13, 2021**: V.W.P was officially formed during KAF's 2nd ONE-MAN LIVE "Fukakai Ni Q2".
+- **2021**: V.W.P officially formed; lineage song series released.
+- **March 2023**: Held 1st ONE-MAN LIVE "Phenomenon".
+- **January 2024**: Held 2nd ONE-MAN LIVE "Phenomenon II" at Yoyogi National Gymnasium. Released 1st Album *Unmei* the same year.
+- **November 2024**: Held "KAMITSUBAKI Makuhari Sensen: V.W.P 2nd ONE-MAN LIVE Phenomenon II (Re) -Majo Kakusei-" as the culmination of KAMITSUBAKI WARS 2024.
+- **January 2025**: Held SINKA LIVE SERIES EP.VI V.W.P 3rd ONE-MAN LIVE "Phenomenon III -Kamitsubaki City Under Exploration-".
+- **January 2026**: Released 3rd Album *Hanten*.
+- **February 28, 2026**: Held 4th ONE-MAN LIVE "Phenomenon IV -Hanten Unmei-" at Pia Arena MM. It marked the group's largest-scale performance in history, generating unprecedented excitement and expanding their reach as virtual artists.
+- **March 31, 2026**: All five members entered the "INTERVAL" charging period to sharpen their individual expressive skills. They are currently focusing on solo activities, aiming to reconvene for a "Witch Rebirth."
 
 ## Representative Works and Related Entries
 
@@ -113,7 +114,7 @@ See also the individual member pages:
 
 V.W.P is directly tied to the "witch" worldview within the Kamitsubaki ecosystem. The five members each represent different witch attributes, and their lineage and derivative songs form the backbone of Kamitsubaki's narrative. Group activities are also deeply connected to cross-media projects like "Kamitsubaki City Under Construction."
 
-The "INTERVAL" charging period that began at the end of March 2026 marks the end of V.W.P's first chapter and preparation for a new phase. After each member has refined her skills individually, they plan to reconvene as a "Witch Rebirth."
+The "INTERVAL" charging period that began on March 31, 2026 marks the end of V.W.P's first chapter and preparation for a new phase. After each member has refined her skills individually, they plan to reconvene as a "Witch Rebirth."
 
 ## References
 

@@ -65,7 +65,7 @@ KUUSOU occupies a unique structural position in the Kamitsubaki roster as a unit
 
 ## Activity History
 
-- January 14, 2026: KUUSOU was formed by CIEL and Sooda, releasing the debut single "Toumei Ryusei Rhapsody" (透明流星ラプソディ, "Transparent Meteor Rhapsody").
+- **January 14, 2026**: KUUSOU was formed by CIEL and Sooda, releasing the debut single "Toumei Ryusei Rhapsody" (透明流星ラプソディ, "Transparent Meteor Rhapsody").
 
 ## Representative Works
 

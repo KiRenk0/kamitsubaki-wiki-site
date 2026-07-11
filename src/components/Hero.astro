@@ -4,7 +4,7 @@ const hasCjkVerticalText = /[\u3040-\u30ff\u3400-\u9fff]/.test(hero.leftVertical
 const verticalRailHeight = hasCjkVerticalText ? 'h-[22rem] md:h-[24rem]' : 'h-72 md:h-80';
 ---
 
-<header class="relative flex min-h-screen flex-col items-center justify-center overflow-hidden border-b border-white/10 ui-crosshair bl br">
+<header class="relative flex min-h-[100svh] flex-col items-center justify-center overflow-hidden border-b border-white/10 ui-crosshair bl br">
   <div class="absolute left-6 top-28 text-[9px] font-mono leading-loose text-white/30 tracking-widest reveal-up md:left-12 md:top-32" style="transition-delay: 0.32s;">
     {hero.systemVersion}<br />
     {hero.coordinates}<br />
@@ -34,7 +34,7 @@ const verticalRailHeight = hasCjkVerticalText ? 'h-[22rem] md:h-[24rem]' : 'h-72
     </p>
   </div>
 
-  <div class="relative z-10 mt-18 px-4 text-center sm:mt-20">
+  <div class="hero-center relative z-10 mt-18 px-4 text-center sm:mt-20" data-hero-parallax>
     <div class="absolute left-1/2 top-[-2.75rem] h-8 w-px -translate-x-1/2 bg-white/30 reveal-up" style="transition-delay: 0.36s;"></div>
     <p class="mb-6 text-[9px] font-light text-white/40 tracking-kamidest-lg reveal-up md:text-xs">
       {hero.eyebrow}

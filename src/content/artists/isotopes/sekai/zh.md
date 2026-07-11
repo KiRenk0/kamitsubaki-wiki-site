@@ -6,7 +6,7 @@ romanizedName: "SEKAI"
 categoryOrder: 4
 itemOrder: 2
 meta: "ORIGIN: ISEKAIJOUCHO"
-debutDate: "2022-01-01"
+debutDate: "2022-04-29"
 profileTagline: "以ヰ世界情緒的歌声数据为基础生成的 CeVIO AI 音乐同位体，继承了原歌声中的透明感与叙事性。"
 designCredits: []
 affiliations:
@@ -70,9 +70,10 @@ seo:
 
 ## 活动历程
 
-- 2022 年前后：作为音楽的同位体系列第二弹发布。
+- 2022年前后：作为音乐同位体系列第二弹发布。
 - 成为 CeVIO AI 平台上与可不并列的代表性声库之一。
-- 参加 KAMITSUBAKI FES'24 和 FES'25。
+- 2024年6月9日：参加「V.I.P 1st MINI LIVE ETHEREAL WORLD」。
+- 参加「KAMITSUBAKI FES'24」与「KAMITSUBAKI FES'25」。
 - 被创作者广泛用于原创乐曲与翻唱中。
 
 ## 代表作品与相关条目

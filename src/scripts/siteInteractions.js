@@ -1,11 +1,52 @@
 document.addEventListener('DOMContentLoaded', () => {
+  document.documentElement.classList.add('has-js');
+
   const preloader = document.getElementById('preloader');
   const bodyWrap = document.getElementById('body-wrap');
   const hasSeenPreloader = window.sessionStorage.getItem('kamitsubaki-preloader-seen') === '1';
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const revealElements = document.querySelectorAll('.reveal-up');
+  let revealsStarted = false;
+
+  const startReveals = () => {
+    if (revealsStarted) {
+      return;
+    }
+
+    revealsStarted = true;
+
+    if (prefersReducedMotion || !('IntersectionObserver' in window)) {
+      revealElements.forEach((element) => element.classList.add('active'));
+      return;
+    }
+
+    const revealObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      },
+      {
+        root: null,
+        rootMargin: '0px 0px -10% 0px',
+        threshold: 0.06,
+      },
+    );
+
+    revealElements.forEach((element) => {
+      revealObserver.observe(element);
+    });
+  };
 
   const hidePreloader = () => {
     preloader?.classList.add('hidden-preloader');
     bodyWrap?.classList.remove('overflow-hidden', 'ui-loading');
+
+    window.setTimeout(startReveals, hasSeenPreloader ? 40 : 180);
+
     window.setTimeout(() => {
       if (preloader) {
         preloader.style.display = 'none';
@@ -74,26 +115,29 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  const revealElements = document.querySelectorAll('.reveal-up');
-  const revealObserver = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('active');
-          revealObserver.unobserve(entry.target);
-        }
-      });
-    },
-    {
-      root: null,
-      rootMargin: '0px 0px -12% 0px',
-      threshold: 0.08,
-    },
-  );
+  const heroParallaxElements = document.querySelectorAll('[data-hero-parallax]');
 
-  revealElements.forEach((element) => {
-    revealObserver.observe(element);
-  });
+  if (heroParallaxElements.length > 0 && !prefersReducedMotion) {
+    let heroFrame = 0;
+
+    const updateHeroParallax = () => {
+      heroFrame = 0;
+      const offset = Math.min(window.scrollY, 760) * -0.035;
+
+      heroParallaxElements.forEach((element) => {
+        element.style.setProperty('--hero-parallax-y', `${offset.toFixed(2)}px`);
+      });
+    };
+
+    const requestHeroParallax = () => {
+      if (!heroFrame) {
+        heroFrame = window.requestAnimationFrame(updateHeroParallax);
+      }
+    };
+
+    updateHeroParallax();
+    window.addEventListener('scroll', requestHeroParallax, { passive: true });
+  }
 
   const readingProgressBars = document.querySelectorAll('[data-reading-progress]');
 

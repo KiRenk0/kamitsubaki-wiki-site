@@ -6,7 +6,7 @@ romanizedName: "SEKAI"
 categoryOrder: 4
 itemOrder: 2
 meta: "ORIGIN: ISEKAIJOUCHO"
-debutDate: "2022-01-01"
+debutDate: "2022-04-29"
 profileTagline: "A CeVIO AI musical isotope built from ISEKAIJOUCHO's vocal data, inheriting the transparency and narrative quality of the original voice."
 designCredits: []
 affiliations:
@@ -70,13 +70,14 @@ Like KAFU, SEKAI is not merely a tool but is positioned as a "voice character" w
 ## Activity History
 
 - Circa 2022: Released as the second installment in the Musical Isotope series.
-- Became one of the代表性 voice banks on the CeVIO AI platform alongside KAFU.
+- Became one of the representative voice banks on the CeVIO AI platform alongside KAFU.
+- June 9, 2024: Performed at "V.I.P 1st MINI LIVE ETHEREAL WORLD".
 - Participated in KAMITSUBAKI FES'24 and FES'25.
 - Widely used by creators in original songs and covers.
 
 ## Representative Works and Related Entries
 
-SEKAI does not release traditional music作品 but exists as a creative tool. Songs created with SEKAI are continuously produced by the UGC creator community.
+SEKAI does not release traditional music works but exists as a creative tool. Songs created with SEKAI are continuously produced by the UGC creator community.
 
 Useful related entries:
 

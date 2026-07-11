@@ -47,6 +47,8 @@ const metadata = buildProjectMetadata({
 });
 const hasArticleBody = Boolean(entry.body?.trim());
 const hasTableOfContents = headings.some((heading) => heading.depth === 2 || heading.depth === 3);
+const contentSourcePath = `src/content/projects/${id}/${localeCode}.md`;
+const sourceHref = `/${localeCode}/contribute/edit?target=${encodeURIComponent(contentSourcePath)}`;
 
 const labels = {
   zh: {
@@ -54,18 +56,30 @@ const labels = {
     eyebrow: '项目条目',
     contents: '目录',
     category: '分类',
+    entryId: '条目编号',
+    emptyTitle: '资料正在整理',
+    emptyBody: '这个项目已经建立观测入口，但可验证的资料仍待补充。欢迎从项目背景、时间线或关联作品开始完善。',
+    emptyAction: '补充这个条目',
   },
   ja: {
     back: 'ホームへ戻る',
     eyebrow: 'プロジェクト記事',
     contents: '目次',
     category: '分類',
+    entryId: '記事 ID',
+    emptyTitle: '資料を整理中です',
+    emptyBody: 'このプロジェクトの観測入口は用意されています。検証可能な資料は、背景・年表・関連作品から少しずつ補完できます。',
+    emptyAction: 'この項目を補完する',
   },
   en: {
     back: 'Back to home',
     eyebrow: 'Project Article',
     contents: 'Contents',
     category: 'Category',
+    entryId: 'Entry ID',
+    emptyTitle: 'Documentation in progress',
+    emptyBody: 'This project already has an observation entry. Its verified background, timeline, and related works are ready to be documented.',
+    emptyAction: 'Contribute to this entry',
   },
 }[localeCode];
 ---
@@ -76,7 +90,7 @@ const labels = {
   <div class="fixed left-0 top-0 z-[60] h-px w-full origin-left bg-white/70" data-reading-progress></div>
 
   <main class="mx-auto max-w-[92rem] px-4 pb-12 pt-24 sm:px-6 sm:pt-28 lg:pt-28">
-    <div class="grid gap-8 border-b border-white/10 pb-8 sm:gap-10 sm:pb-10 lg:grid-cols-[minmax(0,1fr)_20rem]">
+    <div class="wiki-entry-hero grid gap-8 border-b border-white/10 pb-8 sm:gap-10 sm:pb-10 lg:grid-cols-[minmax(0,1fr)_20rem] reveal-up">
       <div class="min-w-0">
         <a href={`/${localeCode}/#projects`} class="text-[9px] font-mono uppercase tracking-[0.22em] text-white/38 transition-colors hover:text-white">
           {labels.back}
@@ -97,16 +111,17 @@ const labels = {
         )}
       </div>
 
-      <aside class="wiki-side-card rounded-md border border-white/10 bg-white/[0.03] p-5 sm:p-6">
+      <aside class="wiki-side-card wiki-entry-meta-card rounded-md border border-white/10 bg-white/[0.03] p-5 sm:p-6">
         <p class="text-[9px] font-mono uppercase tracking-[0.2em] text-white/35">{project.categoryTitle}</p>
         <p class="mt-2 text-lg font-medium text-white/84">{project.kind}</p>
-        <p class="mt-5 break-all text-[11px] leading-6 text-white/38">src/content/projects/{id}/{localeCode}.md</p>
+        <p class="mt-5 text-[9px] font-mono uppercase tracking-[0.2em] text-white/32">{labels.entryId}</p>
+        <p class="mt-2 break-all text-[11px] leading-6 text-white/48">{id}</p>
       </aside>
     </div>
 
     <div class:list={[
-      'mt-8 grid gap-8 lg:mt-10 lg:grid-cols-12',
-      hasArticleBody ? '' : 'lg:grid-cols-1',
+      'mt-8 grid gap-8 lg:mt-10',
+      hasArticleBody ? 'lg:grid-cols-12' : 'lg:grid-cols-1',
     ]}>
       {hasTableOfContents && (
         <aside class="hidden lg:col-span-2 lg:block">
@@ -116,7 +131,7 @@ const labels = {
 
       {hasArticleBody && (
         <article class:list={[
-          'wiki-reader wiki-prose prose prose-invert min-w-0 max-w-none',
+          'wiki-reader wiki-prose prose prose-invert min-w-0 max-w-none reveal-up',
           hasTableOfContents ? 'lg:col-span-8' : 'lg:col-span-10 lg:col-start-2',
         ]}>
           {hasTableOfContents && (
@@ -132,6 +147,15 @@ const labels = {
 
           <Content />
         </article>
+      )}
+
+      {!hasArticleBody && (
+        <section class="wiki-empty-state mx-auto w-full max-w-2xl reveal-up" aria-labelledby="project-empty-title">
+          <p class="text-[9px] font-mono uppercase tracking-[0.24em] text-white/36">PROJECT NOTE</p>
+          <h2 id="project-empty-title" class="mt-4 font-serif text-2xl text-white/88 sm:text-3xl">{labels.emptyTitle}</h2>
+          <p class="mt-4 max-w-xl text-sm leading-7 text-white/62 sm:text-[15px] sm:leading-8">{labels.emptyBody}</p>
+          <a href={sourceHref} class="wiki-empty-state__action mt-7">{labels.emptyAction}</a>
+        </section>
       )}
     </div>
   </main>

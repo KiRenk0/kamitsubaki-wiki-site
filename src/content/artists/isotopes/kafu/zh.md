@@ -6,7 +6,7 @@ romanizedName: "KAFU"
 categoryOrder: 4
 itemOrder: 1
 meta: "ORIGIN: KAF"
-debutDate: "2021-01-01"
+debutDate: "2021-07-07"
 profileTagline: "以花譜的歌声数据为基础生成的 CeVIO AI 音乐同位体，作为创作者的「创意伙伴」拓展声音合成的可能性。"
 designCredits: []
 affiliations:
@@ -70,9 +70,10 @@ seo:
 
 ## 活动历程
 
-- 2021 年：随花譜参加 V.W.P 结成的同时，可不作为音楽的同位体系列的首款产品发布。
+- 2021年：随花谱参加 V.W.P 结成的同时，可不作为音乐同位体系列的首款产品发布。
 - 成为 CeVIO AI 平台上最受欢迎的声库之一。
-- 参加 KAMITSUBAKI FES'24 和 FES'25。
+- 2024年6月9日：参加「V.I.P 1st MINI LIVE ETHEREAL WORLD」。
+- 参加「KAMITSUBAKI FES'24」与「KAMITSUBAKI FES'25」。
 - 被大量创作者用于原创乐曲、翻唱与跨媒体企划中。
 
 ## 代表作品与相关条目

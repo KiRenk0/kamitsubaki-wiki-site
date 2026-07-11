@@ -5,7 +5,7 @@ code: "13"
 romanizedName: "ASU"
 categoryOrder: 2
 itemOrder: 7
-meta: "DEBUT: 2024"
+meta: "DEBUT: 2021"
 profileTagline: "A next-generation virtual singer who emerged from Shinkai-kai, the other world alongside Kamitsubaki. Instinctive, unpredictable, and free-spirited."
 designCredits:
   - "Character design: Mai Yoneyama"
@@ -51,7 +51,7 @@ seo:
 
 ASU is a next-generation virtual singer who appeared in Shinkai-kai, the parallel other world that exists alongside the Kamitsubaki setting. Characterized by innate rhythmic sense and an unpredictable singing voice, she is a carefree, innocent girl who acts on pure instinct. Her character design was created by renowned animator Mai Yoneyama.
 
-ASU made her formal debut with the 1st ONE-MAN LIVE "RAY" in 2024, followed by the 2nd ONE-MAN LIVE "BIRTH" in 2025, quickly establishing a distinct presence. Her activities are connected to yet independent from the main Kamitsubaki world, representing the musical expression of the Shinkai-kai side.
+ASU debuted in August 2021. She held her first in-person 1st ONE-MAN LIVE "RAY" on December 28, 2024, followed by her 2nd ONE-MAN LIVE "BIRTH" on August 30, 2025, quickly establishing a distinct presence. Her activities are connected to yet independent from the main Kamitsubaki world, representing the musical expression of the Shinkai-kai side.
 
 ## Role and Creative Position
 
@@ -61,9 +61,9 @@ Her songwriting emphasizes intuitive emotional expression. The lyrics and melodi
 
 ## Activity History
 
-- Began activities as a virtual singer from Shinkai-kai.
-- September 18, 2024: Held the 1st ONE-MAN LIVE "RAY."
-- April 30, 2025: Held the 2nd ONE-MAN LIVE "BIRTH."
+- August 2021: Debuted and began activities as a virtual singer from Shinkai-kai.
+- December 28, 2024: Held the 1st ONE-MAN LIVE "RAY."
+- August 30, 2025: Held the 2nd ONE-MAN LIVE "BIRTH" and her first fan meeting "ASCHOOL!".
 - Appeared at KAMITSUBAKI WARS 2025 and KAMITSUBAKI FES '25.
 - Appeared at KAMITSUBAKI WARS 2026 Yokohama.
 

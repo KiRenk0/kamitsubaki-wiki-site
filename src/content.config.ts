@@ -92,6 +92,28 @@ const site = defineCollection({
       disclaimer: z.array(z.string()),
       copyright: z.string(),
     }),
+    socialContact: z
+      .object({
+        enabled: z.boolean().optional(),
+        eyebrow: z.string(),
+        title: z.string(),
+        buttonLabel: z.string(),
+        closeLabel: z.string(),
+        helper: z.string().optional(),
+        maxVisible: z.number().int().positive().optional(),
+        items: z.array(
+          z.object({
+            label: z.string(),
+            href: z.string(),
+            handle: z.string().optional(),
+            description: z.string().optional(),
+            icon: z.string().optional(),
+            enabled: z.boolean().optional(),
+            featured: z.boolean().optional(),
+          }),
+        ),
+      })
+      .optional(),
     aiChat: z.object({
       title: z.string(),
       status: z.string(),

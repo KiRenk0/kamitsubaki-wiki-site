@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import AiChatWidget from '../components/AiChatWidget.astro';
+import SocialContactWidget from '../components/SocialContactWidget.astro';
 import '../styles/global.css';
 
 type PageMetadata = {
@@ -42,6 +43,7 @@ const siteEntries = await getCollection('site');
 const defaultSiteEntry = siteEntries.find((entry) => entry.data.locale === 'zh');
 const siteEntry = siteEntries.find((entry) => entry.data.locale === lang) ?? defaultSiteEntry;
 const aiChatCopy = siteEntry?.data.aiChat;
+const socialContactCopy = siteEntry?.data.socialContact;
 ---
 
 <!doctype html>
@@ -75,13 +77,6 @@ const aiChatCopy = siteEntry?.data.aiChat;
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&family=Noto+Sans+JP:wght@300;400;500&family=Noto+Serif+SC:wght@400;500;600;700&family=Shippori+Mincho:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-    <link 
-      rel="stylesheet" 
-      href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" 
-      integrity="sha384-n8MVd4RsEw426118w3I6g4ZSywB1B4HkX+5y/BnjP9KFOo231s2L8gQO1vF5A49U" 
-      crossorigin="anonymous"
-    >
-
   </head>
   <body class="antialiased font-sans selection:bg-white selection:text-black overflow-hidden ui-loading" id="body-wrap">
     <div id="preloader">
@@ -97,6 +92,7 @@ const aiChatCopy = siteEntry?.data.aiChat;
     <div class="cursor-dot hidden md:block" id="cursor"></div>
 
     <slot />
+    {socialContactCopy && <SocialContactWidget copy={socialContactCopy} />}
     {aiChatCopy && <AiChatWidget lang={lang} copy={aiChatCopy} />}
 
     <script>

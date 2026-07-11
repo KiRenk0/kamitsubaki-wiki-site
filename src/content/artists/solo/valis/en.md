@@ -5,8 +5,8 @@ code: "08"
 romanizedName: "VALIS"
 categoryOrder: 2
 itemOrder: 2
-meta: "DEBUT: 2022"
-debutDate: "2022-01-01"
+meta: "DEBUT: 2020"
+debutDate: "2020-05-15"
 profileTagline: "A five-member virtual girls group that travels between virtual and real worlds through both avatar and origin performance forms."
 designCredits:
   - "Avatar design: Nekosuke"
@@ -67,7 +67,7 @@ Musically, VALIS blends a pop-sensibility rooted in the idol and girls-group tra
 
 ## Activity History
 
-- Debuted circa 2022 under the SINSEKAI RECORD label.
+- Debuted on May 15, 2020, with the release of their first original song "Zankyo Vandeler" (残響ヴァンデラー).
 - Released a string of original songs including "Mukyuu Platonic" (Mukyuu Plutonic), "Netsuai Frozen", "Otome-teki Psycho Pathy", "Saiken Romanesque", and "Guzou Nightmare".
 - Held multiple ONE-MAN LIVE events, building a dedicated live audience base.
 - Participated in the virtual stage play "Otogi-banashi (Some)" in collaboration with the KAMITSUBAKI PHILHARMONIC ORCHESTRA.

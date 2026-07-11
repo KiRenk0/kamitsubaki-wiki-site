@@ -36,6 +36,8 @@ pnpm-debug.log*
 
 # Debug
 debug/
+.playwright-cli/
+output/playwright/
 
 # Vercel / Netlify
 .vercel/
