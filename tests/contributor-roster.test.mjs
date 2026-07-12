@@ -28,10 +28,10 @@ test('contributor roster fetches public summary and entry contribution APIs', as
   assert.match(script, /searchParams\.set\('collection'/);
   assert.match(script, /searchParams\.set\('entryId'/);
   assert.match(script, /renderContributor/);
-  assert.match(script, /renderRecent/);
+  assert.match(script, /renderActivity/);
   assert.match(script, /contributorRosterStatus/);
   assert.match(script, /astro:page-load/);
-  assert.match(script, /status === 'loading' \|\| status === 'loaded' \|\| status === 'error'/);
+  assert.match(script, /status === 'loading' \|\| status === 'loaded'/);
   assert.match(css, /\.contributor-roster/);
   assert.match(css, /\.contributor-roster--entry/);
   assert.match(css, /\.contributor-roster--summary/);
@@ -147,4 +147,19 @@ test('contributor roster exposes localized honor wall copy and contribution rout
   assert.match(component, /data-edit-href/);
   assert.match(component, /contribute\/edit/);
   assert.match(component, /src\/content\/artists/);
+});
+
+test('contributor renderer builds honor wall cards, readable activity, and retry states', async () => {
+  const script = await readProjectFile('../src/scripts/contributorRoster.js');
+
+  assert.match(script, /normalizeContributorData/);
+  assert.match(script, /contributor-roster__rank/);
+  assert.match(script, /contributor-roster__actions/);
+  assert.match(script, /contributor-roster__locale/);
+  assert.match(script, /contributor-roster__activity/);
+  assert.match(script, /recentLimit:\s*mode === 'entry' \? 3 : 8/);
+  assert.match(script, /data-contributor-retry/);
+  assert.match(script, /addEventListener\('click'/);
+  assert.match(script, /delete root\.dataset\.contributorRosterStatus/);
+  assert.match(script, /copy\.error/);
 });
