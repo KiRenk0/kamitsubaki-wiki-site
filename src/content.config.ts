@@ -48,12 +48,6 @@ const site = defineCollection({
         href: z.string(),
       }),
     ),
-    themeToggle: z.object({
-      label: z.string(),
-      system: z.string(),
-      light: z.string(),
-      dark: z.string(),
-    }),
     hero: z.object({
       brandLines: z.array(z.string()),
       systemVersion: z.string(),

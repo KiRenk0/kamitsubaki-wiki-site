@@ -37,12 +37,6 @@
       "href": "#log"
     }
   ],
-  "themeToggle": {
-    "label": "Change display theme",
-    "system": "System",
-    "light": "Light",
-    "dark": "Dark"
-  },
   "hero": {
     "brandLines": [
       "Kamitsubaki",
