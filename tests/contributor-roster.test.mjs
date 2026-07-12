@@ -176,3 +176,15 @@ test('contributor honor wall styles cover cards, actions, activity, focus, and m
   assert.match(css, /\.contributor-roster__action:focus-visible/);
   assert.match(css, /@media \(max-width: 639px\)[\s\S]*\.contributor-roster__actions/);
 });
+
+test('contributor workflow fails loudly when sync configuration is missing', async () => {
+  const workflow = await readProjectFile('../.github/workflows/sync-contributors.yml');
+
+  assert.match(workflow, /workflow_dispatch:/);
+  assert.match(workflow, /permissions:[\s\S]*contents:\s*read/);
+  assert.match(workflow, /::error::CONTRIBUTOR_SYNC_TOKEN/);
+  assert.match(workflow, /exit 1/);
+  assert.doesNotMatch(workflow, /skipping contributor sync/);
+  assert.match(workflow, /GITHUB_TOKEN:\s*\$\{\{ secrets\.GITHUB_TOKEN \}\}/);
+  assert.match(workflow, /GITHUB_REPOSITORY:\s*\$\{\{ github\.repository \}\}/);
+});

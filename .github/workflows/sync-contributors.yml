@@ -10,6 +10,9 @@ on:
       - 'scripts/sync-contributors.mjs'
       - '.github/workflows/sync-contributors.yml'
 
+permissions:
+  contents: read
+
 jobs:
   sync:
     name: Sync contribution history
@@ -34,11 +37,13 @@ jobs:
       - name: Sync contributors
         run: |
           if [ -z "$CONTRIBUTOR_SYNC_TOKEN" ]; then
-            echo "CONTRIBUTOR_SYNC_TOKEN is not configured; skipping contributor sync."
-            exit 0
+            echo "::error::CONTRIBUTOR_SYNC_TOKEN is not configured in repository Actions secrets."
+            exit 1
           fi
           pnpm contributors:sync
         env:
           CONTRIBUTORS_API_BASE: ${{ vars.CONTRIBUTORS_API_BASE || 'https://kamitsubaki-ai-observer.linkth1rstyg.workers.dev' }}
           CONTRIBUTOR_SYNC_TOKEN: ${{ secrets.CONTRIBUTOR_SYNC_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
           CONTRIBUTORS_COMMIT_BASE_URL: ${{ vars.CONTRIBUTORS_COMMIT_BASE_URL || format('https://github.com/{0}/commit', github.repository) }}
