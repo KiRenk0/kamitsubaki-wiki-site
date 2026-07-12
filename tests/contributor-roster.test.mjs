@@ -51,3 +51,55 @@ test('contributor sync script derives safe identities from git history', async (
   assert.match(script, /api\/admin\/contributors\/sync/);
   assert.doesNotMatch(script, /email:\s*authorEmail/);
 });
+
+test('contributor data groups locale files from one commit into one contribution', async () => {
+  const { normalizeContributorData } = await import('../src/lib/contributorRosterData.mjs');
+  const contributor = { id: 'git:link', displayName: 'Link' };
+  const recent = ['zh', 'ja', 'en'].map((locale) => ({
+    commitSha: 'abc123456789',
+    commitUrl: 'https://example.com/commit/abc123456789',
+    committedAt: '2026-07-12T00:00:00.000Z',
+    summary: 'content: update artist entry',
+    collection: 'artists',
+    entryId: 'solo/teresa',
+    locale,
+    contributor,
+  }));
+
+  const normalized = normalizeContributorData(
+    {
+      totals: { contributors: 1, contributions: 3, entries: 1 },
+      topContributors: [{ ...contributor, contributionCount: 3, entryCount: 1 }],
+      recent,
+    },
+    { mode: 'summary', recentLimit: 8 },
+  );
+
+  assert.equal(normalized.recent.length, 1);
+  assert.deepEqual(normalized.recent[0].locales, ['en', 'ja', 'zh']);
+  assert.deepEqual(normalized.recent[0].entryIds, ['solo/teresa']);
+  assert.equal(normalized.totals.contributions, 1);
+  assert.equal(normalized.totals.entries, 1);
+  assert.equal(normalized.topContributors[0].contributionCount, 1);
+});
+
+test('entry contributor data shows at most three unique recent commits', async () => {
+  const { normalizeContributorData } = await import('../src/lib/contributorRosterData.mjs');
+  const contributor = { id: 'git:link', displayName: 'Link' };
+  const recent = Array.from({ length: 5 }, (_, index) => ({
+    commitSha: `commit-${index}`,
+    committedAt: `2026-07-${String(12 - index).padStart(2, '0')}T00:00:00.000Z`,
+    collection: 'artists',
+    entryId: 'solo/teresa',
+    locale: 'zh',
+    contributor,
+  }));
+
+  const normalized = normalizeContributorData(
+    { topContributors: [{ ...contributor, contributionCount: 5 }], recent },
+    { mode: 'entry', recentLimit: 3 },
+  );
+
+  assert.equal(normalized.recent.length, 3);
+  assert.deepEqual(normalized.recent.map((event) => event.commitSha), ['commit-0', 'commit-1', 'commit-2']);
+});
