@@ -80,11 +80,22 @@ seo:
 
 ## 活动历程
 
-- **2022年7月15日**：官方发布狐子先行视频，正式公开其形象剪影。
-- **2022年10月9日**：在幸祜的 2nd ONE-MAN LIVE 演出中，宣布狐子将于 2023 年 1 月 25 日正式发售，并同步开启预订。
-- **2023年1月25日**：声库正式公开发售。
-- **2024年1月25日**：狐子 TALK EXTENSION (collaboration with VOICEPEAK) 正式发售，拓展了语音对话的应用范围。
-- 狐子作为主要嘉宾之一频繁在「KAMITSUBAKI FES」等大型舞台上登场，展现出强烈的舞台感染力。
+### 2022年
+
+- **7月7日**：宣布狐子的先行映像将于7月15日公开，同时放出一张狐子的形象剪影。
+- **7月15日**：官方发布先行视频，并决定在2022年冬季发售狐子。。
+- **10月9日**：在「ARARE LIVE2」中宣布狐子将于2023年01月25日发售，同日开启预售。。
+
+### 2023年
+
+- **1月25日**：狐子正式发售。
+- **10月18日**：宣布「音乐的同位体 狐子 TALK EXTENSION collaboration with VOICEPEAK」2024年
+- **11月17日**：「音乐的同位体 狐子 TALK EXTENSION collaboration with VOICEPEAK」开始预售。
+- **12月11日**：「音乐的同位体 狐子 TALK EXTENSION collaboration with VOICEPEAK」发布试听。
+
+### 2024年
+
+- **1月25日**：「音乐的同位体 狐子 TALK EXTENSION collaboration with VOICEPEAK」发售。
 
 ## 代表作品与相关条目
 

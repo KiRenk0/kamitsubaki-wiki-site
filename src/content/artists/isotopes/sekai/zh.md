@@ -80,11 +80,22 @@ seo:
 
 ## 活动历程
 
-- 2022年前后：作为音乐同位体系列第二弹发布。
-- 成为 CeVIO AI 平台上与可不并列的代表性声库之一。
-- 2024年6月9日：参加「V.I.P 1st MINI LIVE ETHEREAL WORLD」。
-- 参加「KAMITSUBAKI FES'24」与「KAMITSUBAKI FES'25」。
-- 被创作者广泛用于原创乐曲与翻唱中。
+### 2021年
+
+- **10月23日**：在「Anima」制作名单后，播出宣传短评。首次公布了「音乐的同位体」星界之存在，并预计2022亮相
+
+### 2022年
+
+- **2月25日**：神椿官方成立推特账号「音乐的同位体 星界」，同时投稿视频「【音乐的同位体】 ディメンション / DIMENSION covered by 星界」
+- **2月28日**：官方发布视频「音乐的同位体 星界 予约贩卖开始！」宣布星界开始预售。
+- **4月29日**：「音乐的同位体 星界」发售。
+
+### 2023年
+
+- **7月7日**：官方宣布「音乐的同位体 星界 TALK EXTENSION collaboration with VOICEPEAK」于同年冬季发售。
+- **8月7日**：「音乐的同位体 星界 TALK EXTENSION collaboration with VOICEPEAK」开启预售。
+- **9月19日**：官方发布「音乐的同位体 星界 TALK EXTENSION collaboration with VOICEPEAK」试听。
+- **12月10日**：「音乐的同位体 星界 TALK EXTENSION collaboration with VOICEPEAK」发售。
 
 ## 代表作品与相关条目
 
