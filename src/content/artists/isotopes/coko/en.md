@@ -77,12 +77,12 @@ Designed by SWAV, COKO's visual appearance is defined by short white hair, sky-b
 
 Vocally, COKO preserves KOKO's strong long notes while featuring realistic breathing sounds and crystal-clear vocals, making her highly suitable for high-energy music genres such as rock and electronic music. In January 2024, the VOICEPEAK-compatible "TALK EXTENSION" software was released, providing COKO with highly natural speech synthesis capabilities for spoken dialogues.
 
-## History
+## Activity History
 
 - **July 15, 2022**: The first teaser video for COKO was released, introducing her silhouette.
-- **October 9, 2022**: During KOKO's 2nd ONE-MAN LIVE, it was announced that COKO would be released on January 25, 2023, and pre-orders were opened.
-- **January 25, 2023**: The voicebank was officially released.
-- **January 25, 2024**: COKO TALK EXTENSION (collaboration with VOICEPEAK) was released, expanding her application to spoken voiceover work.
+- **October 9, 2022**: During KOKO's 2nd ONE-MAN LIVE "PLAYER Ⅱ -AraRe-", it was announced that COKO would be released on January 25, 2023, and pre-orders were opened.
+- **January 25, 2023**: The voicebank "CeVIO AI Musical Isotope COKO" was officially released.
+- **January 25, 2024**: The speech synthesis software "Musical Isotope COKO TALK EXTENSION collaboration with VOICEPEAK" was officially released.
 - COKO regularly appears as a guest performer in studio events like "KAMITSUBAKI FES", showcasing a vibrant stage presence.
 
 ## Representative Works and Related Entries

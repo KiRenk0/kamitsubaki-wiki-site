@@ -67,11 +67,48 @@ KOKO tends to leave an impression through pressure and directness first. Whether
 
 ## Activity History
 
-- **2020**: Began activity on October 25, being the last of the core members to debut before V.W.P's formation.
-- **2021**: Joined V.W.P's group activities, expanding her presence through unit songs and live performances. Continued to build her solo career around rock-oriented tracks and high-energy live expression. Also tied to the musical isotope COKO as a source voice.
-- **2024**: Held her 2nd ONE-MAN LIVE *PLAYER II* in April as part of the "KAMITSUBAKI Shinjuku Sensen".
-- **2025**: Held her 3rd ONE-MAN LIVE "PLAYER III" in February. Released the ED theme "Shangri-La" for the TV anime *Kamitsubaki City Under Construction* in August. Released the collaborative MV "Shizuki Akari ni Koufuku wo" with Shido and Ren in November.
-- **2026**: Performed at events like "NIGHT HIKE -scramble- '26" and "#VRF_2026" in April. Scheduled to perform at *KAMITSUBAKI WARS 2026 Kamitsubaki Yokohama Sensen* in September, maintaining her powerful presence on stage.
+### 2020
+
+- **October 25**: Officially debuted as the fifth virtual singer of KAMITSUBAKI STUDIO, releasing her first cover single "Hearts".
+- **November 15**: Released her 1st original single "harmony".
+
+### 2021
+
+- **March 13**: Announced the formation of the virtual singer group "V.W.P" alongside Kaf, Rim, Harusaruhi, and Isekai Joucho during Kaf's 2nd ONE-MAN LIVE "Fukakai 2 Q2".
+- **May 8**: Held her first online cover live concert "ARARE LIVE".
+- **June 10**: Released the original single "ASH", featured as an insert song for the game *Monark*.
+- **June 20**: Released V.W.P's 1st original single "Denno" (電脳) with other group members.
+- **September–October**: Released three consecutive original singles for the "Player" project: "Meimoku", "Yako wo Yobu", and "the last bullet".
+- **December 29**: Held her 1st ONE-MAN LIVE "PLAYER", revealing her Type-Real 3D form "Alnair"; on the same day, pre-orders opened for her 1st album *prayer*.
+
+### 2022
+
+- **February 23**: Officially released her 1st album *prayer*.
+- **April 15–16**: Performed at V.W.P's 1st ONE-MAN LIVE "Phenomenon" (現象) and the joint concert "Majo Shukai" (魔女集会).
+- **July 12**: Released the collaboration original single "Kokuin" (刻印) with Isekai Joucho.
+- **July 15**: Announced the production of her musical isotope "COKO" (狐子); on the same day, released the song "TIME", which served as the opening theme for the TV anime *The 5-billion-year button*.
+- **November 6**: Held the joint two-man live "Singularity Live Vol.2" with Harusaruhi.
+
+### 2023
+
+- **September 3**: Held her 2nd ONE-MAN LIVE "PLAYER II -Kamitsubaki City 4th Avenue-" (PLAYER Ⅱ -神椿市肆番街-) online.
+
+### 2024
+
+- **June**: Released the digital single "Hajimari no Jusei" (始まりの銃声); in the same month, announced a temporary hiatus to focus on medical treatment.
+
+### 2025
+
+- **February**: Officially announced her return to activities.
+- **April 23**: Officially released her 2nd album *prayer2*.
+- **May 14**: Held her 3rd ONE-MAN LIVE "PLAYER III" (at Zepp Shinjuku), her first offline concert with a live audience in about three and a half years.
+- **August 13**: Released the single "Shangri-La" (シャングリラ), featured as an insert song for the TV anime *Kamitsubaki City Under Construction*.
+
+### 2026
+
+- **February 28**: Performed at V.W.P 4th ONE-MAN LIVE "Phenomenon IV -Reversal of Fate-" (現象Ⅳ -反転運命-) at Pia Arena MM.
+- **April**: Performed at events such as "NIGHT HIKE -scramble- '26" and "#VRF_2026".
+- **September 5**: Scheduled to perform at "KAMITSUBAKI FES '26 FIELD OF RESONANCE" on Day 1 of "KAMITSUBAKI WARS 2026 Kamitsubaki Yokohama Sensen".
 
 ## Representative Works and Related Entries
 

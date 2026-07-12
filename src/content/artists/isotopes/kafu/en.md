@@ -79,11 +79,32 @@ In the UGC ecosystem, KAFU has been widely adopted by Vocaloid and CeVIO creator
 
 ## Activity History
 
-- 2021: Released as the first product in the Musical Isotope series, concurrent with KAF's joining of V.W.P.
-- Became one of the most popular voice banks on the CeVIO AI platform.
-- June 9, 2024: Performed at "V.I.P 1st MINI LIVE ETHEREAL WORLD".
-- Participated in KAMITSUBAKI FES'24 and FES'25.
-- Widely used by creators in original songs, covers, and cross-media projects.
+### 2020
+
+- **October 10**: The production of Musical Isotope KAFU was announced in a teaser video following KAF's 2nd ONE-MAN LIVE "Fukakai Ni Q1".
+- **October 19**: Following a Twitter questionnaire and discussions with KAF, it was decided to base KAFU's voice library on "Type B".
+- **December 25**: KAFU's first original song, "Night Rule" (ナイトルール) composed by Nilfruits, was revealed on the live broadcast program "Hanatachi to Tsubaki to Kimi. vol.6".
+
+### 2021
+
+- **January 9**: The original song "Hologram" (ホログラム) composed by Hifumi was released.
+- **February 20**: The original song "Cute Na Kanojo" (キュートなカノジョ) composed by syudou was released, gaining massive popularity and sparking a creation boom.
+- **June 5**: The original song "Phony" (フォニイ) composed by tsumiki was released, becoming KAFU's most iconic and widely covered hit.
+- **July 7**: The voice synthesis software "Musical Isotope KAFU" was officially released, bundled with its 1st compilation album *KAF+YOU KAFU COMPILATION ALBUM*.
+- **July 17**: The original song "Cat Loving" (キャットラビング) composed by Kashii Moimi was released, generating high engagement and numerous derivative works in the creator community.
+
+### 2023
+
+- **March 30–31**: Performed at "KAMITSUBAKI FES '23" held at Toyosu PIT.
+
+### 2024
+
+- **July 7**: As a member of the isotope group "V.I.P", KAFU performed at the Musical Isotope 3rd Anniversary free virtual mini-live "V.I.P 1st MINI LIVE ETHEREAL WORLD".
+- **August 8**: As a member of "V.I.P", KAFU performed at "KAMITSUBAKI FES '24 THE DAY THE EARTH STOOD STILL" held at Pacifico Yokohama.
+
+### 2025
+
+- **November 2**: As a member of "V.I.P", KAFU performed at "KAMITSUBAKI FES '25 OUR ONE-DAY WAR" held at Kanadevia Hall.
 
 ## Representative Works and Related Entries
 

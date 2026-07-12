@@ -77,13 +77,36 @@ Designed by PALOW., RIME's visual features include white hair with deep blue hig
 
 As a member of the Musical Isotope series, she is positioned as a "creative partner" for creators. Within the UGC (User Generated Content) ecosystem, many creators have used RIME to publish a vast collection of diverse derivative works.
 
-## History
+## Activity History
 
-- **April 16, 2022**: RIME's existence was first revealed during the end credits of V.W.P's 1st ONE-MAN LIVE "Phenomenon" (現象).
-- **July 7, 2022**: Pre-orders began, accompanied by the release of the first cover song, "Carnivorous Plant" (食虫植物) covered by RIME.
-- **October 25, 2022**: The voicebank was officially released.
-- **June 9, 2024**: Performed at "V.I.P 1st MINI LIVE ETHEREAL WORLD".
-- She continues to perform in large-scale events like "KAMITSUBAKI FES" and collaborates in chorus pieces with other isotopes.
+### 2022
+
+- **April 16**: RIME's existence was first revealed in a teaser video during the end credits of V.W.P's 1st ONE-MAN LIVE "Phenomenon" (現象).
+- **July 7**: Pre-orders for CeVIO AI RIME officially began, and the music video for her first cover song, "Carnivorous Plant" (食虫植物) (originally by Kaf), was released on YouTube.
+- **July 14**: The first original song "Mandarin" (マンダリン), composed by R Sound Design, was released.
+- **September 30**: RIM released the duet version of her song, "NEUROMANCE feat. RIME (from Singularity Live)".
+- **October 25**: "CeVIO AI Musical Isotope RIME" was officially released, and character designer PALOW. revealed the official character illustration.
+- **December 5**: The RIME Illustration, Song, and MV Contest was launched.
+
+### 2023
+
+- **April 4**: Announced the release of RIME's 1st compilation album "Paranormal" (パラノーマル), featuring 39 original tracks by various UGC creators.
+- **May 10**: The first volume of the compilation album, "Zankyou no Paranormal" (残響のパラノーマル), was released digitally.
+- **May 24**: The second volume of the compilation album, "Tamayura no Paranormal" (玉響のパラノーマル), was released digitally.
+- **June 7**: The third volume of the compilation album, "Koukyou no Paranormal" (交響のパラノーマル), was released digitally, alongside the release of the physical CD box set.
+- **September 13**: The fourth volume of the compilation album, "Kuusou no Paranormal" (空想のパラノーマル), was released digitally.
+- **November 22**: Released the music video for the song contest grand prize winner, "Hana Fururu" (花降るる) composed by haruna..
+- **December 16**: Announced the development of the speech synthesis software "Musical Isotope RIME TALK EXTENSION collaboration with VOICEPEAK", with pre-orders beginning on December 18.
+
+### 2024
+
+- **February 26**: "Musical Isotope RIME TALK EXTENSION collaboration with VOICEPEAK" was officially released.
+- **July 7**: As a member of the isotope group "V.I.P", RIME performed at the 3rd-anniversary commemorative virtual mini-live "V.I.P 1st MINI LIVE ETHEREAL WORLD".
+- **August 8**: As a member of "V.I.P", RIME performed at "KAMITSUBAKI FES '24 THE DAY THE EARTH STOOD STILL" held at Pacifico Yokohama.
+
+### 2025
+
+- **November 2**: As a member of "V.I.P", RIME performed at "KAMITSUBAKI FES '25 OUR ONE-DAY WAR" held at Kanadevia Hall.
 
 ## Representative Works and Related Entries
 

@@ -72,18 +72,50 @@ Over time, KAF expanded beyond that initial phase into a wider project-based rol
 ## Activity History
 
 ### 2018–2020: Debut and the "Fukakai" Era
-- **2018**: Opened her YouTube channel and debuted on October 18. Released her first original song "Ito" in December.
-- **2019**: Released her first EP *Hana to Shinzo* in May. Held her first one-man live *Fukakai* at LIQUIDROOM on August 1, funded by a successful 40 million yen crowdfunding campaign. Released her first album *Kansoku* in September.
-- **2020**: Held the audience-less streaming live *Fukakai (Re)* in March. Provided the ending theme "Answer" for the TV anime *Black Clover*. Released her second album *Maho* in November.
+- **2018**
+  - **October 18**: Released her first video on YouTube and officially debuted.
+  - **December 6**: Released her first original single "Ito".
+  - **December 28**: Released her second original single "Shinzo to Karakuri".
+  - **December 31**: Participated in the VTuber New Year's Eve event "Count0", performing "Ito", "Shinzo to Karakuri", and "Majo".
+- **2019**
+  - **March 20**: Concluded her academic hiatus and announced her return with the release of the original single "Hinadori".
+  - **May 15**: Released her first limited digital EP *Hana to Shinzo*.
+  - **August 1**: Held her 1st ONE-MAN LIVE *Fukakai* at LIQUIDROOM, funded by a successful 40 million yen crowdfunding campaign.
+  - **September 11**: Released her 1st Album *Kansoku*; collaborated with the music game *Cytus II* on the same day.
+- **2020**
+  - **March 23**: Held the audience-less streaming live *Fukakai (Re)*.
+  - **April 7**: Provided the ending theme song "Answer" for the TV anime *Black Clover*.
+  - **June 10**: Released her first mini-album *Tomadoi Telepathy*.
+  - **July 22**: Released her second mini-album *Hana to Kaito*.
+  - **October 10**: Held the audience-less streaming live *Fukakai 2 Q1* and announced that her 2nd Album *Maho* would be released on November 25.
+  - **October 25**: Officially announced "KAFU", the CeVIO AI voicebank based on her voice.
 
 ### 2021–2023: V.W.P Formation and Nippon Budokan
-- **2021**: The formation of "V.W.P" was announced during *Fukakai 2 Q2* in March. The CeVIO AI voicebank "KAFU", based on her voice, was released in July. The collaboration project "Suite" began in October.
-- **2022**: Held her 3rd ONE-MAN LIVE *Fukakai 3 (Mad)* at the Nippon Budokan on August 24, becoming the first virtual singer to perform at the venue. Selected for "Forbes JAPAN 30 UNDER 30 2022" in the entertainment category.
-- **2023**: Held the virtual live *Fukakai 3 (So)* in March, concluding the "Fukakai" series. Released her third album *Kyoso* in the same month (her final album with Iori Kanzaki as the primary composer).
+- **2021**
+  - **March 13**: Held her 2nd ONE-MAN LIVE *Fukakai 2 Q2* and announced the formation of the virtual singer unit "V.W.P".
+  - **June 11–12**: Held the live series *Fukakai 2 Rebuilding*.
+  - **July 7**: The CeVIO AI voicebank "KAFU" was officially released.
+  - **October**: Launched the collaboration project "Suite" (Kumikyoku), featuring collaborations with real-world artists and creators.
+  - **November 15**: Appeared on the NHK program *Numa ni Hamatte Kiite Mita*, performing "Kako wo Kurau" and "Umi ni Bakeru".
+- **2022**
+  - **March 26**: Held a special live performance commemorating her high school graduation, titled *Bokura Tameiki Hitotsu de Otona ni Nareru nda*.
+  - **August 22**: Selected for "Forbes JAPAN 30 UNDER 30 2022" in the entertainment category.
+  - **August 24**: Held her 3rd ONE-MAN LIVE *Fukakai 3 (Mad)* at the Nippon Budokan, becoming the first virtual singer to perform solo at the venue.
+- **2023**
+  - **March 4**: Held the virtual live *Fukakai 3 (So)*, concluding the "Fukakai" live series.
+  - **March**: Released her 3rd Album *Kyoso* (her final album with Iori Kanzaki as the primary composer).
 
 ### 2024–Present: New Chapter "Kaika" and Further Expansion
-- **2024**: Held her 4th ONE-MAN LIVE *Kaika* at Yoyogi National Gymnasium in January and announced the new project "Kaika". Reached 1 million YouTube subscribers on June 21. Held 4th ONE-MAN LIVE *Kaika (Re)* in November as part of the "KAMITSUBAKI Makuhari Sensen". Released her fourth album *Guuwa* in December.
-- **2025 and Beyond**: Slated to provide the opening theme for the TV anime *Chuzenji-sensei Mononoke Kougiroku* starting in April, and continues to expand her activities domestically and internationally with appearances at overseas conventions.
+- **2024**
+  - **January 14**: Held her 4th ONE-MAN LIVE *Kaika* (written as "怪歌") at Yoyogi National Gymnasium and announced her new project "Kaika" (written as "廻花") as a virtual singer-songwriter.
+  - **June 21**: Reached 1 million subscribers on her YouTube channel.
+  - **November 2**: Held her 4th ONE-MAN LIVE *Kaika (Re)* (written as "怪歌（再）") at Makuhari Messe as part of the "KAMITSUBAKI Makuhari Sensen".
+  - **December 18**: Released her 4th Album *Guuwa*.
+- **2025**
+  - **April**: Slated to provide the opening theme for the TV anime *Chuzenji-sensei Mononoke Kougiroku*.
+  - **September 12**: Announced her first solo concert in China, *Shukusei China 1st Solo Live*, scheduled to be held in Shanghai on November 29–30 (later cancelled on November 28 due to force majeure).
+- **2026**
+  - **May 30**: Successfully held the solo live *Shukusei in Hong Kong* at the AsiaWorld-Expo.
 
 ## Representative Works and Related Entries
 

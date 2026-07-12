@@ -77,12 +77,12 @@ Designed by illustrator Isshiki (一色), HARU's visual identity includes long w
 
 In terms of vocal performance, HARU features crisp pronunciation and excels in rapid rap sequences and explosive high notes. In March 2024, the VOICEPEAK-compatible "TALK EXTENSION" was released, adding natural text-to-speech capabilities to her portfolio.
 
-## History
+## Activity History
 
-- **July 7, 2022**: The silhouette of HARU was first released.
-- **October 18, 2022**: The teaser video for HARU was officially unveiled during the studio's 3rd anniversary livestream.
-- **November 13, 2023**: The voicebank was officially released.
-- **March 29, 2024**: HARU TALK EXTENSION (collaboration with VOICEPEAK) was released, expanding her capabilities to spoken voiceovers.
+- **October 18, 2022**: The teaser video for HARU was officially unveiled during the studio's 3rd anniversary livestream, announcing the project.
+- **November 13, 2023**: The singing voice synthesis software "CeVIO AI Musical Isotope HARU" was officially released.
+- **March 29, 2024**: The text-to-speech software "Musical Isotope HARU TALK EXTENSION collaboration with VOICEPEAK" was officially released.
+- **July 7, 2024**: Performed at the first virtual joint mini-concert of the Musical Isotopes, "V.I.P 1st MINI LIVE ETHEREAL WORLD".
 - Since her release, HARU has integrated into the studio's virtual singer chorus line and has become a popular choice among UGC creators.
 
 ## Representative Works and Related Entries

@@ -72,11 +72,49 @@ Within V.W.P, she frequently occupies the sharper and more explosive edge of the
 
 ## Activity History
 
-- **2019**: Began activity on November 15 as one of the second wave of Kamitsubaki virtual singers.
-- **2021**: Joined V.W.P's shared group phase. Continued to expand through solo songs, paired unit songs, and large Kamitsubaki live productions.
-- **2024**: Held her 3rd ONE-MAN LIVE *Shamanism III* in April as part of the "KAMITSUBAKI Shinjuku Sensen". Appeared in the virtual stage play *Otogibanashi (Sen) ver1.35_Alternative* in December, expanding her scope of expression.
-- **2025**: Released the theme song "(A)letheia" for the free horror ADV game *Haru to Kaiya*. Participated in major live events like *KAMITSUBAKI FES '25*.
-- **2026**: Releasing her Remix Album *GLITCH STAGE*. Scheduled to perform at *KAMITSUBAKI WARS 2026 Kamitsubaki Yokohama Sensen* in September, maintaining a strong presence alongside her role as the voice provider for the musical isotope HARU.
+### 2019
+
+- **November 15**: Uploaded her first teaser video, officially beginning her activities.
+- **December 25**: Released her 1st original single "逆転" (Gyakuten).
+
+### 2020
+
+- **March 23**: Made her first 3D model appearance as a guest at Kaf's 1st LIVE "FUKAKAI (Re)".
+- **July 30**: Released her 4th original single "オオゴト" (Oogoto).
+- **September 28**: Released her 5th original single "告げ口" (Tsugeguchi).
+- **December 5**: Held her 1st Streaming Cover Live "Choucream Live".
+
+### 2021
+
+- **January 16**: Her YouTube channel reached 100,000 subscribers.
+- **March 14**: Joined the virtual singer group V.W.P (Virtual Witch Phenomenon) during Kaf's 2nd LIVE "FUKAKAI II Q2".
+- **August 27**: Held her 1st ONE-MAN LIVE "Shamanism" at HULIC HALL TOKYO.
+- **October 6**: Released her 1st album *心眼* (Shingan).
+
+### 2022
+
+- **January 28**: Released the original single "Oarana", which served as the theme song for the anime *The Orbital Children*.
+- **August 6**: Held her Streaming Cover Live "Choucream Live 2".
+- **November 6**: Co-hosted "Singularity Live 2" with Koko and CIEL, releasing the song "自由までの距離" (Jiyuu made no Kyori) and debuting the 3D model of her musical isotope HARU (羽累).
+
+### 2023
+
+- **November 4**: Held SINKA LIVE SERIES EP.Ⅲ Harusaruhi 2nd ONE-MAN LIVE "Shamanism II – Kamitsubaki City 2nd Avenue -".
+
+### 2024
+
+- **April 10**: Held her 3rd ONE-MAN LIVE "Shamanism III" as part of the "KAMITSUBAKI Shinjuku Sensen".
+- **August**: Appeared in the virtual stage play *Otogibanashi (Sen)* series, starting with "ver0.92_prototype".
+
+### 2025
+
+- **August 27**: Released the original single "(A)letheia" (theme song for the free horror ADV game *Haru to Kaiya*).
+- **November 2**: Participated in "KAMITSUBAKI FES '25".
+
+### 2026
+
+- **June 24**: Released her Remix Album *GLITCH STAGE*.
+- **September 5–6**: Scheduled to perform at "KAMITSUBAKI WARS 2026 Kamitsubaki Yokohama Sensen".
 
 ## Representative Works and Related Entries
 

@@ -71,19 +71,52 @@ She also stands out for singing across Japanese, English, and Korean material, w
 
 ## Activity History
 
-### 2019–2020: Debut and the Viral Hit "Carnivorous Plant"
-- **2019**: Debuted on October 18 alongside the launch of KAMITSUBAKI STUDIO. Released her first original song "You and Me" in December.
-- **2020**: In August, her original song "Carnivorous Plant" (Shokuchu Shokubutsu) buzzed on TikTok and YouTube, surpassing 10 million views for the first time. Held the cover streaming LIVE *CHOCOLATE LIVE* on YouTube Live in December.
+### 2019
 
-### 2021–2023: 1st/2nd Lives and Studying in the US
-- **2021**: Held her 1st ONE-MAN LIVE *Neuromance* in May and released her 1st Album *New Romancer* in July.
-- **2022**: Held a two-man live *Singularity Live* with Isekaijoucho in July. Travelled to the United States in the summer to study English.
-- **2023**: Returned from the US in April. Released her 2nd Album *New Romancer 2* on December 6, and held her 2nd ONE-MAN LIVE *NEUROMANCE II -Kamitsubaki City Ichibangai-* on December 16.
+- **October 18**: Debuted alongside the launch of KAMITSUBAKI STUDIO.
+- **December 20**: Released her first original single "You & Me".
 
-### 2024–Present: Expanding Activities and "RIM Exhibition"
-- **2024**: In September, as part of the "KAMITSUBAKI Korakuen Sensen", held a two-man live *Singularity Live Vol.3* with KAF on the 14th, followed by her 3rd ONE-MAN LIVE *NEUROMANCE III* at TOKYO DOME CITY HALL the next day.
-- **2025**: Performed the ending theme "Senkou datta" for the third episode of the TV anime *Kamitsubaki City Under Construction*. Also appeared at events related to EXPO 2025 Osaka/Kansai.
-- **2026**: Held her first exhibition *RIM Exhibition* (理芽展) at Ebisu AL in March.
+### 2020
+
+- **January 3**: Released her second original single "Carnivorous Plant" (Shokuchu Shokubutsu).
+- **August 12**: "Carnivorous Plant" gained massive popularity on TikTok, triggering a viral trend. The video exceeded 10 million plays on TikTok, and its YouTube views surpassed 3 million.
+- **September 5**: "Carnivorous Plant" surpassed 10 million views on YouTube.
+- **October 28**: Released her original single "Luscious Lawless" (甘美な無法).
+- **December 20**: Held her first cover streaming LIVE *CHOCOLATE LIVE* on YouTube.
+
+### 2021
+
+- **March 13**: Formally announced the formation of the virtual artist group V.W.P (Virtual Witch Phenomenon) during KAF's 2nd ONE-MAN LIVE *Fukakai-Ni Q2*.
+- **May 15**: Held her 1st ONE-MAN LIVE *NEUROMANCE*.
+- **July 21**: Released her 1st Album *NEW ROMANCER*.
+
+### 2022
+
+- **April 16**: Performed in V.W.P's 1st LIVE *Majo Shukai* (The Witch Assembly) and *Phenomenon*.
+- **April 27**: Reached 200,000 subscribers on YouTube. Released "Pilgrim" (theme song for HAL College of Technology & Design) and revealed her second outfit "The Cosmic Puppets".
+- **July 17**: Co-hosted the two-man live *Singularity Live* with fellow Kamitsubaki virtual singer Isekaijoucho.
+- **August 17**: Released her original single "Tick Tock Boy" (ending theme for the TV anime *The 5-Second Button*).
+- **September**: Travelled to the United States to study English abroad for approximately half a year.
+- **October 5**: Released "Inner Child" (theme song for the TV drama *Shonen no Abyss*).
+
+### 2023
+
+- **April**: Returned to Japan from her study abroad program and resumed activities.
+- **December 6**: Released her 2nd Album *NEW ROMANCER2*.
+- **December 16**: Held her 2nd ONE-MAN LIVE *NEUROMANCE II -Kamitsubaki City Ichibangai-*.
+
+### 2024
+
+- **September 14**: Co-hosted the two-man live *Singularity Live Vol.3* with KAF.
+- **September 15**: Held her 3rd ONE-MAN LIVE *NEUROMANCE III* at TOKYO DOME CITY HALL.
+
+### 2025
+
+- **During the year**: Performed the ending theme "Senkou datta" for the third episode of the TV anime *Kamitsubaki City Under Construction*, and appeared at events related to Expo 2025 Osaka, Kansai.
+
+### 2026
+
+- **March**: Held her first solo exhibition *RIM Exhibition* (理芽展) at Ebisu AL.
 
 ## Representative Works and Related Entries
 

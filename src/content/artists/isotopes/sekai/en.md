@@ -79,11 +79,23 @@ Like KAFU, SEKAI is not merely a tool but is positioned as a "voice character" w
 
 ## Activity History
 
-- Circa 2022: Released as the second installment in the Musical Isotope series.
-- Became one of the representative voice banks on the CeVIO AI platform alongside KAFU.
-- June 9, 2024: Performed at "V.I.P 1st MINI LIVE ETHEREAL WORLD".
-- Participated in KAMITSUBAKI FES'24 and FES'25.
-- Widely used by creators in original songs and covers.
+### 2021
+
+- **October 23**: The production of Musical Isotope SEKAI was announced during the end credits of ISEKAIJOUCHO's 1st ONE-MAN LIVE "Anima".
+
+### 2022
+
+- **February 28**: Pre-orders for Musical Isotope SEKAI began.
+- **April 29**: Musical Isotope SEKAI (CeVIO AI voicebank) was officially released.
+
+### 2023
+
+- **April 29**: SEKAI's 1st compilation album *Metaphor* was officially released.
+- **December 10**: "Musical Isotope SEKAI TALK EXTENSION collaboration with VOICEPEAK" (speech synthesis software) was officially released.
+
+### 2024
+
+- **June 9**: Performed at "V.I.P 1st MINI LIVE ETHEREAL WORLD".
 
 ## Representative Works and Related Entries
 

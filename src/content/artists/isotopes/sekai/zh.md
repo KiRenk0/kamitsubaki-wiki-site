@@ -82,20 +82,21 @@ seo:
 
 ### 2021年
 
-- **10月23日**：在「Anima」制作名单后，播出宣传短评。首次公布了「音乐的同位体」星界之存在，并预计2022亮相
+- **10月23日**：在ヰ世界情緒 1st ONE-MAN LIVE「Anima」的片尾视频中，首次公布了「音乐的同位体 星界」的制作决定。
 
 ### 2022年
 
-- **2月25日**：神椿官方成立推特账号「音乐的同位体 星界」，同时投稿视频「【音乐的同位体】 ディメンション / DIMENSION covered by 星界」
-- **2月28日**：官方发布视频「音乐的同位体 星界 予约贩卖开始！」宣布星界开始预售。
-- **4月29日**：「音乐的同位体 星界」发售。
+- **2月28日**：「音乐的同位体 星界」开启预售。
+- **4月29日**：「音乐的同位体 星界」（CeVIO AI 歌声合成软件）正式发售。
 
 ### 2023年
 
-- **7月7日**：官方宣布「音乐的同位体 星界 TALK EXTENSION collaboration with VOICEPEAK」于同年冬季发售。
-- **8月7日**：「音乐的同位体 星界 TALK EXTENSION collaboration with VOICEPEAK」开启预售。
-- **9月19日**：官方发布「音乐的同位体 星界 TALK EXTENSION collaboration with VOICEPEAK」试听。
-- **12月10日**：「音乐的同位体 星界 TALK EXTENSION collaboration with VOICEPEAK」发售。
+- **4月29日**：星界 1st 概念合辑《Metaphor》（メタファー）正式发售。
+- **12月10日**：「音乐的同位体 星界 TALK EXTENSION collaboration with VOICEPEAK」（语音合成软件）正式发售。
+
+### 2024年
+
+- **6月9日**：出演迷你演唱会「V.I.P 1st MINI LIVE ETHEREAL WORLD」。
 
 ## 代表作品与相关条目
 

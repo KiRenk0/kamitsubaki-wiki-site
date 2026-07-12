@@ -16,18 +16,24 @@ The label's slogan is **"Everything starts from here."** and its mission is **"T
 ## History
 
 ### 2018 - 2019: Pre-dawn and Foundation
-- **October 18, 2018**: Virtual singer KAF debuted on YouTube. In December, her signature song "Ito" (糸), written and composed by Kanzaki Iori, was released.
-- **October 18, 2019**: During KAF's 1st anniversary broadcast "Hana to Tsubaki to Kimi," the team officially launched under the name "KAMITSUBAKI STUDIO." On the same day, RIM debuted, and Virtual Rapper Harusaruhi and Virtual Darksinger Isekaijoucho joined the roster.
+- **October 18, 2018**: Virtual singer KAF released her first video on YouTube, officially beginning her activities.
+- **December 6, 2018**: Released KAF's first original single "Ito" (糸), written and composed by Kanzaki Iori.
+- **October 18, 2019**: During KAF's first anniversary live stream, the management team officially launched under the name "KAMITSUBAKI STUDIO." On the same day, virtual singer RIM debuted, and virtual rapper Harusaruhi and virtual darksinger Isekaijoucho joined the studio.
 
 ### 2020 - 2021: Witch Assembly and Project Expansion
-- **May 2020**: Virtual singer Teresa joined the studio. The cross-media franchise project "Kamitsubaki City Under Construction" was announced.
-- **October 2020**: The 5th virtual singer KOKO joined, completing the V.W.P lineup. The development of the first musical isotope vocal synthesis library, KAFU, was announced.
-- **March 2021**: The virtual singer unit "V.W.P (Virtual Witch Phenomenon)" was officially formed during KAF's online live concert "Fukakai Ni Q2."
+- **May 29, 2020**: Announced the core cross-media original IP project "Kamitsubaki City Under Construction" (神椿市建設中。).
+- **August 12, 2020**: RIM's signature song "Carnivorous Plant" (食虫植物) gained massive popularity on TikTok and other platforms, surpassing 10 million views.
+- **October 10, 2020**: Held KAF's 2nd ONE-MAN LIVE "Fukakai Ni" (不可解弐). The development of the first musical isotope vocal synthesis library, "KAFU" (可不), was announced.
+- **October 25, 2020**: Announced the addition of the fifth virtual singer KOKO, completing the lineup of the five virtual singers. On the same day, THINKR was disclosed as the parent company of the studio.
+- **March 13, 2021**: The virtual artist group "V.W.P (Virtual Witch Phenomenon)," consisting of KAF, RIM, Harusaruhi, Isekaijoucho, and KOKO, was officially formed during KAF's 2nd ONE-MAN LIVE "Fukakai Ni Q2" (不可解弐Q2).
+- **July 7, 2021**: The first musical isotope vocal synthesis library, "KAFU" (可不), built on CeVIO AI, was officially released.
 
-### 2022 and Beyond: Expanding the Ecosystem
-- **2022**: RIM went to the United States to study abroad. In April, the upcoming musical isotope RIME was announced. KAF successfully held her 3rd one-man live "Fukakai San (Kyo)" at Nippon Budokan in August.
-- **2023**: In March, resident composer Kanzaki Iori graduated from the studio. In the same year, vocal synthesis libraries COKO and HARU were released.
-- **2024**: Held "KAMITSUBAKI FES'24," continuing to push boundaries through TV animations, games, and real-life performances based on the Kamitsubaki City franchise.
+### 2022 and Beyond: Ecosystem Expansion and Diversification
+- **April 15–16, 2022**: Held the studio's first joint live show "Witch Assembly" (魔女集会) and V.W.P's 1st ONE-MAN LIVE "Phenomenon" (現象).
+- **August 24, 2022**: KAF successfully held her 3rd ONE-MAN LIVE "Fukakai San (Kyo)" (不可解参(狂)) at the Nippon Budokan, becoming the first virtual singer to hold a solo concert at the venue.
+- **March 31, 2023**: Resident composer and music producer Kanzaki Iori officially graduated from the studio.
+- **October 18, 2023**: Announced that Yunosuke and WaMi would debut as the musical duo "Awairo."
+- **January 13–14, 2024**: Successfully held the studio-hosted festival "KAMITSUBAKI FES '24."
 
 ## Core Members
 

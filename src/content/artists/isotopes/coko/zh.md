@@ -82,20 +82,17 @@ seo:
 
 ### 2022年
 
-- **7月7日**：宣布狐子的先行映像将于7月15日公开，同时放出一张狐子的形象剪影。
-- **7月15日**：官方发布先行视频，并决定在2022年冬季发售狐子。。
-- **10月9日**：在「ARARE LIVE2」中宣布狐子将于2023年01月25日发售，同日开启预售。。
+- **7月15日**：首支先行视频公开，首次展示狐子的角色剪影。
+- **10月9日**：在幸祜 2nd ONE-MAN LIVE「PLAYER Ⅱ -AraRe-」上，宣布狐子将于2023年1月25日正式发售，并开启预订。
 
 ### 2023年
 
-- **1月25日**：狐子正式发售。
-- **10月18日**：宣布「音乐的同位体 狐子 TALK EXTENSION collaboration with VOICEPEAK」2024年
-- **11月17日**：「音乐的同位体 狐子 TALK EXTENSION collaboration with VOICEPEAK」开始预售。
-- **12月11日**：「音乐的同位体 狐子 TALK EXTENSION collaboration with VOICEPEAK」发布试听。
+- **1月25日**：歌声合成软件「CeVIO AI 音乐的同位体 狐子」正式发售。
 
 ### 2024年
 
-- **1月25日**：「音乐的同位体 狐子 TALK EXTENSION collaboration with VOICEPEAK」发售。
+- **1月25日**：语音合成软件「音乐的同位体 狐子 TALK EXTENSION collaboration with VOICEPEAK」正式发售。
+- 常作为嘉宾参加「KAMITSUBAKI FES」等工作室线下活动，以充满力量感的歌声和舞蹈表现活跃于舞台。
 
 ## 代表作品与相关条目
 
