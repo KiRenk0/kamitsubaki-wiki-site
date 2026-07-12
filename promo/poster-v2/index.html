@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <title>KAMITSUBAKI FAN WIKI — 第二弹宣传海报</title>
+    <style>
+      :root {
+        --ink: #10112b;
+        --indigo: #28255f;
+        --paper: rgba(255, 255, 255, 0.92);
+        --pink: #ee2050;
+        --cyan: #5dd7ef;
+      }
+
+      * { box-sizing: border-box; }
+
+      html, body { margin: 0; min-height: 100%; }
+
+      body {
+        display: grid;
+        place-items: center;
+        padding: 28px;
+        overflow-x: hidden;
+        background: #e8e8f1;
+        color: var(--ink);
+        font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+      }
+
+      .export-toolbar {
+        position: fixed;
+        z-index: 20;
+        right: 24px;
+        bottom: 24px;
+      }
+
+      .export-button {
+        min-width: 184px;
+        padding: 13px 18px;
+        border: 1px solid rgba(255,255,255,.7);
+        border-radius: 3px;
+        background: #171936;
+        color: white;
+        box-shadow: 0 12px 32px rgba(16,17,43,.26);
+        font: 800 13px/1 "Noto Sans SC", "PingFang SC", sans-serif;
+        letter-spacing: .06em;
+        cursor: pointer;
+      }
+
+      .export-button:hover { background: #ef2754; }
+      .export-button:disabled { cursor: wait; opacity: .65; }
+
+      .poster {
+        position: relative;
+        width: min(1490px, calc(100vw - 56px));
+        aspect-ratio: 1490 / 1055;
+        overflow: hidden;
+        isolation: isolate;
+        background: #f7f3fb;
+        box-shadow: 0 32px 90px rgba(24, 20, 58, 0.24);
+      }
+
+      .poster__art {
+        position: absolute;
+        inset: 0;
+        z-index: -3;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .poster::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: -2;
+        pointer-events: none;
+        background:
+          linear-gradient(90deg, rgba(255,255,255,.76) 0 15%, transparent 31% 68%, rgba(255,255,255,.68) 88% 100%),
+          linear-gradient(180deg, transparent 0 43%, rgba(22,20,58,.04) 54%, rgba(14,13,40,.88) 100%);
+      }
+
+      .masthead {
+        position: absolute;
+        top: 5.8%;
+        left: 4.4%;
+        display: flex;
+        gap: 18px;
+        align-items: flex-start;
+      }
+
+      .vertical-title {
+        margin: 0;
+        padding: 18px 11px 17px;
+        border: 2px solid currentColor;
+        background: rgba(255,255,255,.64);
+        font-family: "Noto Serif SC", "Songti SC", serif;
+        font-size: clamp(18px, 2.25vw, 36px);
+        font-weight: 800;
+        line-height: 1.02;
+        letter-spacing: .08em;
+        writing-mode: vertical-rl;
+      }
+
+      .vertical-title:last-child { margin-top: 54px; }
+
+      .cards {
+        position: absolute;
+        top: 5.6%;
+        right: 4.6%;
+        width: 25%;
+        min-width: 230px;
+        height: 30%;
+      }
+
+      .card {
+        position: absolute;
+        width: 68%;
+        padding: 20px 22px 18px;
+        border: 2px solid var(--ink);
+        background: var(--paper);
+        box-shadow: 7px 7px 0 rgba(239,32,80,.75);
+      }
+
+      .card:first-child { top: 0; left: 0; }
+      .card:last-child { right: 0; bottom: 0; box-shadow: 7px 7px 0 rgba(93,215,239,.8); }
+      .card small { display: block; margin-bottom: 8px; font-size: clamp(8px, .75vw, 12px); font-weight: 800; letter-spacing: .16em; }
+      .card strong { display: block; font-family: "Noto Serif SC", "Songti SC", serif; font-size: clamp(16px, 1.75vw, 28px); line-height: 1.2; }
+
+      .message {
+        position: absolute;
+        left: 30%;
+        bottom: 4.7%;
+        width: 38%;
+        color: white;
+        text-shadow: 0 2px 14px rgba(8,7,30,.55);
+      }
+
+      .message__eyebrow {
+        margin: 0 0 8px;
+        font-size: clamp(9px, .9vw, 14px);
+        font-weight: 800;
+        letter-spacing: .21em;
+      }
+
+      .message h2 {
+        margin: 0 0 12px;
+        max-width: 560px;
+        font-family: "Noto Serif SC", "Songti SC", serif;
+        font-size: clamp(24px, 3.1vw, 49px);
+        line-height: 1.12;
+        letter-spacing: -.03em;
+      }
+
+      .message p:last-child {
+        margin: 0;
+        max-width: 560px;
+        font-size: clamp(9px, 1vw, 16px);
+        line-height: 1.7;
+      }
+
+      .community {
+        position: absolute;
+        right: 4.5%;
+        bottom: 4.2%;
+        display: grid;
+        grid-template-columns: minmax(110px, 180px) minmax(92px, 150px);
+        gap: 14px;
+        width: 27%;
+        padding: 14px;
+        border: 1px solid rgba(255,255,255,.6);
+        background: rgba(255,255,255,.92);
+        box-shadow: 0 18px 40px rgba(8,7,30,.28);
+      }
+
+      .community__copy { align-self: center; }
+      .community__copy small { display: block; color: #65647b; font-size: clamp(7px, .65vw, 10px); font-weight: 800; letter-spacing: .14em; }
+      .community__copy strong { display: block; margin: 8px 0 5px; font-size: clamp(13px, 1.45vw, 23px); line-height: 1.16; }
+      .community__links { display: grid; gap: 3px; color: #5f5d73; font-size: clamp(8px, .72vw, 12px); line-height: 1.35; }
+      .community__links b { color: var(--ink); font-weight: 800; }
+      .community img { width: 100%; aspect-ratio: 1; object-fit: cover; background: white; }
+
+      .site-mark {
+        position: absolute;
+        left: 4.4%;
+        bottom: 6.1%;
+        width: 23.5%;
+        padding-top: 14px;
+        border-top: 2px solid rgba(255,255,255,.9);
+        color: white;
+        text-shadow: 0 3px 18px rgba(8,7,30,.5);
+      }
+
+      .site-mark::before {
+        content: "";
+        position: absolute;
+        top: -2px;
+        left: 0;
+        width: 28%;
+        height: 2px;
+        background: var(--pink);
+      }
+
+      .site-mark__label { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+      .site-mark small { font-size: clamp(7px, .58vw, 9px); font-weight: 800; letter-spacing: .19em; }
+      .site-mark i { display: grid; place-items: center; width: 22px; height: 22px; border: 1px solid rgba(255,255,255,.68); border-radius: 50%; font-size: 12px; font-style: normal; }
+      .site-mark strong { display: block; white-space: nowrap; font-size: clamp(18px, 2vw, 31px); line-height: 1; letter-spacing: -.045em; }
+      .site-mark em { display: block; margin-top: 9px; font-size: clamp(7px, .61vw, 10px); font-style: normal; font-weight: 700; letter-spacing: .1em; opacity: .68; }
+
+      .disclaimer {
+        position: absolute;
+        left: 4.4%;
+        bottom: 1.6%;
+        margin: 0;
+        color: rgba(255,255,255,.66);
+        font-size: clamp(6px, .55vw, 9px);
+      }
+
+      @media (max-width: 760px) {
+        body { padding: 0; background: #f7f3fb; }
+        .poster { width: 100vw; box-shadow: none; }
+        .cards { min-width: 0; }
+        .card { padding: 8px; box-shadow: 3px 3px 0 rgba(239,32,80,.75); }
+        .vertical-title { padding: 7px 4px; border-width: 1px; }
+        .community { gap: 6px; padding: 6px; }
+        .message h2 { margin-bottom: 5px; }
+      }
+
+      @media print {
+        @page { size: 1490px 1055px; margin: 0; }
+        body { padding: 0; background: none; }
+        .poster { width: 1490px; box-shadow: none; }
+        .export-toolbar { display: none; }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="poster" aria-labelledby="poster-title">
+      <img class="poster__art" src="./assets/vwp-key-visual.png" alt="V.W.P 五位成员与红日、城市的主视觉插画" />
+
+      <header class="masthead">
+        <h1 class="vertical-title" id="poster-title">神椿百科</h1>
+        <p class="vertical-title">观测者集结</p>
+      </header>
+
+      <section class="cards" aria-label="宣传重点">
+        <article class="card"><small>READ · EXPLORE</small><strong>从一首歌<br />走进神椿世界</strong></article>
+        <article class="card"><small>WRITE · CONNECT</small><strong>共同记录<br />每一次相遇</strong></article>
+      </section>
+
+      <section class="message" aria-label="项目介绍">
+        <p class="message__eyebrow">KAMITSUBAKI FAN WIKI</p>
+        <h2>观测神椿，<br />也记录相遇。</h2>
+        <p>由粉丝共同编写与维护的非官方百科。整理艺人、音乐、企划与世界线，也为第一次抵达这里的人提供清晰的入门路线。</p>
+      </section>
+
+      <aside class="community" aria-label="QQ群二维码">
+        <div class="community__copy">
+          <small>JOIN THE COMMUNITY</small>
+          <strong>与同好一起<br />继续观测</strong>
+          <div class="community__links">
+            <span><b>QQ群</b> 1056086519</span>
+            <span><b>抖音群</b> 入口见网站</span>
+            <span><b>Discord</b> 入口见网站</span>
+          </div>
+        </div>
+        <img src="./assets/qq-group-qr-monochrome.png" alt="神椿 Fan Wiki 交流群二维码" />
+      </aside>
+
+      <div class="site-mark">
+        <div class="site-mark__label"><small>VISIT THE FAN ARCHIVE</small><i>↗</i></div>
+        <strong>KAMITSUBAKI.WIKI</strong>
+        <em>非官方粉丝百科 · 中 / 日 / EN</em>
+      </div>
+      <p class="disclaimer">与 KAMITSUBAKI STUDIO 及 THINKR 无关联 · 所有官方权利归其各自所有者所有</p>
+    </main>
+
+    <div class="export-toolbar">
+      <button class="export-button" id="export-png" type="button">导出高清 PNG · 2×</button>
+    </div>
+
+    <script src="./assets/html2canvas.min.js"></script>
+    <script>
+      const exportButton = document.querySelector('#export-png');
+
+      async function exportPoster() {
+        exportButton.disabled = true;
+        exportButton.textContent = '正在生成高清图片…';
+
+        try {
+          await document.fonts.ready;
+          const source = document.querySelector('.poster');
+          const originalWidth = source.style.width;
+          const originalShadow = source.style.boxShadow;
+          source.style.width = '1490px';
+          source.style.boxShadow = 'none';
+
+          const canvas = await html2canvas(source, {
+            scale: 2,
+            width: 1490,
+            height: 1055,
+            useCORS: true,
+            backgroundColor: '#f7f3fb',
+            logging: false,
+            imageTimeout: 0
+          });
+
+          source.style.width = originalWidth;
+          source.style.boxShadow = originalShadow;
+
+          const blob = await new Promise((resolve) => canvas.toBlob(resolve, 'image/png', 1));
+          const downloadUrl = URL.createObjectURL(blob);
+          const link = document.createElement('a');
+          link.href = downloadUrl;
+          link.download = 'kamitsubaki-wiki-poster-v2-2980x2110.png';
+          link.click();
+          setTimeout(() => URL.revokeObjectURL(downloadUrl), 1000);
+        } finally {
+          exportButton.disabled = false;
+          exportButton.textContent = '导出高清 PNG · 2×';
+        }
+      }
+
+      exportButton.addEventListener('click', exportPoster);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#e6efe6" />
+    <link rel="icon" href="data:," />
+    <title>KAMITSUBAKI FAN WIKI — 横版海报导出</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #123b37;
+        --aqua: #5ebeb1;
+        --aqua-deep: #27665e;
+        --sun: #f0d72d;
+        --paper: #f7faf2;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        min-height: 100%;
+        margin: 0;
+      }
+
+      body {
+        color: var(--ink);
+        background: #dfeae1;
+        font-family: Inter, "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+      }
+
+      button {
+        font: inherit;
+      }
+
+      .studio {
+        width: min(1500px, calc(100% - 40px));
+        margin: 0 auto;
+        padding: 28px 0 48px;
+      }
+
+      .toolbar {
+        position: sticky;
+        top: 16px;
+        z-index: 20;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 22px;
+        margin-bottom: 24px;
+        padding: 16px 18px;
+        color: #ecf8f3;
+        background: rgba(18, 59, 55, 0.94);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 0 18px 50px rgba(18, 59, 55, 0.18);
+        backdrop-filter: blur(18px);
+      }
+
+      .toolbar__title {
+        margin: 0;
+        font-size: 13px;
+        font-weight: 760;
+        letter-spacing: 0.08em;
+      }
+
+      .toolbar__title span {
+        display: block;
+        margin-top: 3px;
+        color: rgba(236, 248, 243, 0.58);
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 0.06em;
+      }
+
+      .toolbar__actions {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 9px;
+      }
+
+      .action {
+        min-height: 40px;
+        padding: 0 15px;
+        color: #eff9f5;
+        background: transparent;
+        border: 1px solid rgba(239, 249, 245, 0.28);
+        border-radius: 0;
+        cursor: pointer;
+        font-size: 11px;
+        font-weight: 760;
+        letter-spacing: 0.05em;
+        transition: transform 150ms ease, color 150ms ease, background 150ms ease;
+      }
+
+      .action:hover,
+      .action:focus-visible {
+        color: var(--ink);
+        background: #ffffff;
+        outline: none;
+        transform: translateY(-1px);
+      }
+
+      .action--primary {
+        color: var(--ink);
+        background: var(--sun);
+        border-color: var(--sun);
+      }
+
+      .preview-grid {
+        display: grid;
+        gap: 30px;
+      }
+
+      .preview {
+        margin: 0;
+      }
+
+      .preview__meta {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 16px;
+        margin: 0 0 10px;
+        color: #315e58;
+        font-size: 11px;
+        font-weight: 760;
+        letter-spacing: 0.07em;
+      }
+
+      .preview__meta span {
+        color: rgba(49, 94, 88, 0.58);
+        font-weight: 560;
+      }
+
+      .artboard {
+        display: block;
+        width: 100%;
+        height: auto;
+        background: #cfdfd9;
+        box-shadow: 0 28px 75px rgba(18, 59, 55, 0.2);
+      }
+
+      .status {
+        min-height: 20px;
+        margin: 15px 2px 0;
+        color: #47706b;
+        font-size: 11px;
+        letter-spacing: 0.04em;
+      }
+
+      @media (max-width: 820px) {
+        .studio {
+          width: min(100% - 20px, 1500px);
+          padding-top: 10px;
+        }
+
+        .toolbar {
+          position: static;
+          align-items: flex-start;
+          flex-direction: column;
+        }
+
+        .toolbar__actions {
+          width: 100%;
+          justify-content: stretch;
+        }
+
+        .action {
+          flex: 1 1 150px;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          transition-duration: 0.01ms !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="studio">
+      <header class="toolbar">
+        <h1 class="toolbar__title">
+          KAMITSUBAKI FAN WIKI · 海报导出
+          <span>浏览器本地生成 PNG，不上传图片</span>
+        </h1>
+        <div class="toolbar__actions" aria-label="导出操作">
+          <button class="action" type="button" data-export="poster-4x3">导出 4:3 PNG</button>
+          <button class="action" type="button" data-export="poster-3x4">导出 3:4 PNG</button>
+          <button class="action" type="button" data-export="poster-16x9">导出 16:9 PNG</button>
+          <button class="action action--primary" type="button" id="export-all">一键导出全部</button>
+        </div>
+      </header>
+
+      <section class="preview-grid" aria-label="海报预览">
+        <figure class="preview">
+          <figcaption class="preview__meta">3:4 竖版 <span>导出尺寸 1800 × 2400</span></figcaption>
+          <svg class="artboard" id="poster-3x4" viewBox="0 0 1200 1600" role="img" aria-labelledby="title-3x4 desc-3x4" xmlns="http://www.w3.org/2000/svg">
+            <title id="title-3x4">KAMITSUBAKI FAN WIKI 三比四宣传海报</title>
+            <desc id="desc-3x4">以用户提供的竖版城市角色插画为背景，包含网站简介、网址和社交平台信息。</desc>
+            <defs>
+              <linearGradient id="fade-3x4" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#f7faf2" stop-opacity="0.02" />
+                <stop offset="0.7" stop-color="#e4eee0" stop-opacity="0.05" />
+                <stop offset="1" stop-color="#dce8d6" stop-opacity="0.5" />
+              </linearGradient>
+              <style>
+                .en { font-family: Inter, Montserrat, Arial, sans-serif; }
+                .zh { font-family: "Songti SC", "Noto Serif SC", "PingFang SC", serif; }
+                .sans { font-family: "Noto Sans SC", "PingFang SC", Arial, sans-serif; }
+              </style>
+            </defs>
+            <image data-background href="./assets/kamitsubaki-promo-background.jpg" width="1200" height="1600" preserveAspectRatio="xMidYMid slice" />
+            <rect width="1200" height="1600" fill="url(#fade-3x4)" />
+            <rect x="28" y="28" width="1144" height="1544" fill="none" stroke="#ffffff" stroke-opacity="0.78" />
+
+            <g aria-label="标题">
+              <rect x="60" y="60" width="610" height="252" fill="#f7faf2" fill-opacity="0.94" />
+              <rect x="60" y="60" width="10" height="252" fill="#f0d72d" />
+              <text class="en" x="105" y="145" fill="#123b37" font-size="66" font-weight="780" letter-spacing="-3.5">KAMITSUBAKI</text>
+              <text class="en" x="105" y="213" fill="none" stroke="#123b37" stroke-width="1.8" font-size="64" font-weight="650" letter-spacing="-2">FAN WIKI</text>
+              <circle cx="112" cy="270" r="8" fill="#f0d72d" />
+              <text class="en" x="134" y="275" fill="#2e8278" font-size="12" font-weight="750" letter-spacing="3">UNOFFICIAL · FAN-MADE</text>
+            </g>
+
+            <g aria-label="竖排标语">
+              <rect x="1065" y="60" width="72" height="402" fill="#f7faf2" fill-opacity="0.88" />
+              <rect x="1065" y="60" width="72" height="8" fill="#5ebeb1" />
+              <text class="zh" x="1101" y="105" fill="#123b37" font-size="19" font-weight="650" text-anchor="middle">
+                <tspan x="1101" dy="0">观</tspan><tspan x="1101" dy="28">测</tspan><tspan x="1101" dy="28">神</tspan><tspan x="1101" dy="28">椿</tspan><tspan x="1101" dy="28">，</tspan><tspan x="1101" dy="28">也</tspan><tspan x="1101" dy="28">记</tspan><tspan x="1101" dy="28">录</tspan><tspan x="1101" dy="28">相</tspan><tspan x="1101" dy="28">遇</tspan><tspan x="1101" dy="28">。</tspan>
+              </text>
+            </g>
+
+            <g aria-label="网站简介">
+              <rect x="60" y="1040" width="1080" height="290" fill="#f7faf2" fill-opacity="0.95" />
+              <text class="en" x="105" y="1092" fill="#2e8278" font-size="12" font-weight="800" letter-spacing="3">ABOUT THE PROJECT</text>
+              <text class="zh" x="105" y="1154" fill="#123b37" font-size="40" font-weight="650">从一首歌开始，认识整个神椿世界。</text>
+              <text class="sans" x="105" y="1202" fill="#365f5a" font-size="17">
+                <tspan x="105" dy="0">由粉丝共同维护的 KAMITSUBAKI STUDIO 非官方百科，</tspan>
+                <tspan x="105" dy="31">整理艺人、音乐、企划与世界线，也为新人提供清晰的入门路线。</tspan>
+              </text>
+              <text class="en" x="105" y="1286" fill="#123b37" font-size="11" font-weight="800" letter-spacing="1.8">ARTISTS  ·  PROJECTS  ·  TIMELINE  ·  AI GUIDE  ·  中 / 日 / EN</text>
+            </g>
+
+            <g aria-label="网站与社交平台连接栏">
+              <rect x="60" y="1330" width="1080" height="210" fill="#27665e" fill-opacity="0.97" />
+              <text class="en" x="105" y="1383" fill="#b9dbd3" font-size="11" font-weight="800" letter-spacing="2.4">VISIT THE OBSERVATION DATABASE</text>
+              <text class="en" x="105" y="1440" fill="#ffffff" font-size="38" font-weight="800">KAMITSUBAKI.WIKI</text>
+              <line x1="450" y1="1366" x2="450" y2="1505" stroke="#edf9f4" stroke-opacity="0.3" />
+
+              <text class="en" x="495" y="1383" fill="#b9dbd3" font-size="11" font-weight="800" letter-spacing="2.2">COMMUNITY</text>
+              <text class="sans" x="495" y="1432" fill="#ffffff" font-size="16" font-weight="700">QQ群</text>
+              <text class="en" x="495" y="1458" fill="#d7e8e2" font-size="11">1056086519</text>
+              <text class="sans" x="670" y="1432" fill="#ffffff" font-size="16" font-weight="700">抖音群</text>
+              <text class="en" x="670" y="1458" fill="#d7e8e2" font-size="11">社群入口</text>
+              <text class="en" x="830" y="1432" fill="#ffffff" font-size="16" font-weight="700">Discord</text>
+              <text class="en" x="830" y="1458" fill="#d7e8e2" font-size="11">中文观测者社群</text>
+              <text class="en" x="1010" y="1432" fill="#ffffff" font-size="16" font-weight="700">GitHub</text>
+              <text class="en" x="1010" y="1458" fill="#d7e8e2" font-size="11">@LinkTh1rsty</text>
+            </g>
+
+            <text class="sans" x="1135" y="1562" fill="#123b37" fill-opacity="0.64" font-size="8" text-anchor="end">非官方粉丝百科 · 与 KAMITSUBAKI STUDIO 及 THINKR 无关联</text>
+          </svg>
+        </figure>
+
+        <figure class="preview">
+          <figcaption class="preview__meta">4:3 横版 <span>导出尺寸 2400 × 1800</span></figcaption>
+          <svg class="artboard" id="poster-4x3" viewBox="0 0 1200 900" role="img" aria-labelledby="title-4x3 desc-4x3" xmlns="http://www.w3.org/2000/svg">
+            <title id="title-4x3">KAMITSUBAKI FAN WIKI 四比三宣传海报</title>
+            <desc id="desc-4x3">以用户提供的城市角色插画为背景，包含网站简介和社交平台信息。</desc>
+            <defs>
+              <linearGradient id="fade-4x3" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#f7faf2" stop-opacity="0.02" />
+                <stop offset="0.76" stop-color="#e4eee0" stop-opacity="0.08" />
+                <stop offset="1" stop-color="#dce8d6" stop-opacity="0.52" />
+              </linearGradient>
+              <style>
+                .en { font-family: Inter, Montserrat, Arial, sans-serif; }
+                .zh { font-family: "Songti SC", "Noto Serif SC", "PingFang SC", serif; }
+                .sans { font-family: "Noto Sans SC", "PingFang SC", Arial, sans-serif; }
+              </style>
+            </defs>
+            <image data-background href="./assets/kamitsubaki-promo-background.jpg" width="1200" height="900" preserveAspectRatio="xMidYMid slice" />
+            <rect width="1200" height="900" fill="url(#fade-4x3)" />
+            <rect x="23" y="23" width="1154" height="854" fill="none" stroke="#ffffff" stroke-opacity="0.76" />
+
+            <g aria-label="标题">
+              <rect x="55" y="55" width="510" height="224" fill="#f7faf2" fill-opacity="0.94" />
+              <rect x="55" y="55" width="9" height="224" fill="#f0d72d" />
+              <text class="en" x="94" y="132" fill="#123b37" font-size="57" font-weight="780" letter-spacing="-3">KAMITSUBAKI</text>
+              <text class="en" x="94" y="189" fill="none" stroke="#123b37" stroke-width="1.7" font-size="56" font-weight="650" letter-spacing="-2">FAN WIKI</text>
+              <circle cx="100" cy="239" r="7" fill="#f0d72d" />
+              <text class="en" x="119" y="244" fill="#2e8278" font-size="12" font-weight="750" letter-spacing="3">UNOFFICIAL · FAN-MADE</text>
+            </g>
+
+            <g aria-label="竖排标语">
+              <rect x="1092" y="55" width="62" height="338" fill="#f7faf2" fill-opacity="0.88" />
+              <rect x="1092" y="55" width="62" height="7" fill="#5ebeb1" />
+              <text class="zh" x="1123" y="94" fill="#123b37" font-size="17" font-weight="650" text-anchor="middle">
+                <tspan x="1123" dy="0">观</tspan><tspan x="1123" dy="24">测</tspan><tspan x="1123" dy="24">神</tspan><tspan x="1123" dy="24">椿</tspan><tspan x="1123" dy="24">，</tspan><tspan x="1123" dy="24">也</tspan><tspan x="1123" dy="24">记</tspan><tspan x="1123" dy="24">录</tspan><tspan x="1123" dy="24">相</tspan><tspan x="1123" dy="24">遇</tspan><tspan x="1123" dy="24">。</tspan>
+              </text>
+            </g>
+
+            <g aria-label="简介">
+              <rect x="55" y="600" width="620" height="245" fill="#f7faf2" fill-opacity="0.95" />
+              <text class="en" x="90" y="656" fill="#2e8278" font-size="11" font-weight="800" letter-spacing="3">ABOUT THE PROJECT</text>
+              <text class="zh" x="90" y="704" fill="#123b37" font-size="30" font-weight="650">从一首歌开始，认识整个神椿世界。</text>
+              <text class="sans" x="90" y="740" fill="#365f5a" font-size="14">
+                <tspan x="90" dy="0">由粉丝共同维护的 KAMITSUBAKI STUDIO 非官方百科，</tspan>
+                <tspan x="90" dy="24">整理艺人、音乐、企划与世界线，也为新人提供清晰的入门路线。</tspan>
+              </text>
+              <text class="en" x="90" y="814" fill="#123b37" font-size="10" font-weight="800" letter-spacing="1.6">ARTISTS  ·  PROJECTS  ·  TIMELINE  ·  AI GUIDE  ·  中 / 日 / EN</text>
+            </g>
+
+            <g aria-label="社交平台">
+              <rect x="675" y="600" width="479" height="245" fill="#27665e" fill-opacity="0.96" />
+              <text class="en" x="710" y="641" fill="#b9dbd3" font-size="10" font-weight="800" letter-spacing="2.1">VISIT THE DATABASE</text>
+              <text class="en" x="710" y="679" fill="#ffffff" font-size="27" font-weight="800">KAMITSUBAKI.WIKI</text>
+              <path d="M1098 654h18v18m0-18-22 22" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+              <line x1="710" y1="698" x2="1120" y2="698" stroke="#edf9f4" stroke-opacity="0.3" />
+
+              <text class="sans" x="710" y="734" fill="#ffffff" font-size="14" font-weight="700">QQ群</text>
+              <text class="en" x="710" y="755" fill="#d7e8e2" font-size="10">1056086519</text>
+              <text class="sans" x="920" y="734" fill="#ffffff" font-size="14" font-weight="700">抖音群</text>
+              <text class="en" x="920" y="755" fill="#d7e8e2" font-size="10">社群入口</text>
+              <text class="en" x="710" y="798" fill="#ffffff" font-size="14" font-weight="700">Discord</text>
+              <text class="en" x="710" y="819" fill="#d7e8e2" font-size="10">中文观测者社群</text>
+              <text class="en" x="920" y="798" fill="#ffffff" font-size="14" font-weight="700">GitHub</text>
+              <text class="en" x="920" y="819" fill="#d7e8e2" font-size="10">@LinkTh1rsty</text>
+            </g>
+
+            <text class="sans" x="1148" y="870" fill="#123b37" fill-opacity="0.62" font-size="8" text-anchor="end">非官方粉丝百科 · 与 KAMITSUBAKI STUDIO 及 THINKR 无关联</text>
+          </svg>
+        </figure>
+
+        <figure class="preview">
+          <figcaption class="preview__meta">16:9 横版 <span>导出尺寸 2560 × 1440</span></figcaption>
+          <svg class="artboard" id="poster-16x9" viewBox="0 0 1600 900" role="img" aria-labelledby="title-16x9 desc-16x9" xmlns="http://www.w3.org/2000/svg">
+            <title id="title-16x9">KAMITSUBAKI FAN WIKI 十六比九宣传海报</title>
+            <desc id="desc-16x9">以用户提供的城市角色插画为背景，包含网站简介和社交平台信息。</desc>
+            <defs>
+              <linearGradient id="fade-16x9" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#f7faf2" stop-opacity="0.03" />
+                <stop offset="0.72" stop-color="#e4eee0" stop-opacity="0.06" />
+                <stop offset="1" stop-color="#dce8d6" stop-opacity="0.48" />
+              </linearGradient>
+              <style>
+                .en { font-family: Inter, Montserrat, Arial, sans-serif; }
+                .zh { font-family: "Songti SC", "Noto Serif SC", "PingFang SC", serif; }
+                .sans { font-family: "Noto Sans SC", "PingFang SC", Arial, sans-serif; }
+              </style>
+            </defs>
+            <image data-background href="./assets/kamitsubaki-promo-background-16x9.jpg" width="1600" height="900" preserveAspectRatio="xMidYMid slice" />
+            <rect width="1600" height="900" fill="url(#fade-16x9)" />
+            <rect x="24" y="24" width="1552" height="852" fill="none" stroke="#ffffff" stroke-opacity="0.76" />
+
+            <g aria-label="标题">
+              <rect x="55" y="55" width="515" height="220" fill="#f7faf2" fill-opacity="0.94" />
+              <rect x="55" y="55" width="9" height="220" fill="#f0d72d" />
+              <text class="en" x="96" y="130" fill="#123b37" font-size="57" font-weight="780" letter-spacing="-3">KAMITSUBAKI</text>
+              <text class="en" x="96" y="187" fill="none" stroke="#123b37" stroke-width="1.7" font-size="56" font-weight="650" letter-spacing="-2">FAN WIKI</text>
+              <circle cx="101" cy="236" r="7" fill="#f0d72d" />
+              <text class="en" x="120" y="241" fill="#2e8278" font-size="12" font-weight="750" letter-spacing="3">UNOFFICIAL · FAN-MADE</text>
+            </g>
+
+            <g aria-label="竖排标语">
+              <rect x="1490" y="55" width="62" height="338" fill="#f7faf2" fill-opacity="0.88" />
+              <rect x="1490" y="55" width="62" height="7" fill="#5ebeb1" />
+              <text class="zh" x="1521" y="94" fill="#123b37" font-size="17" font-weight="650" text-anchor="middle">
+                <tspan x="1521" dy="0">观</tspan><tspan x="1521" dy="24">测</tspan><tspan x="1521" dy="24">神</tspan><tspan x="1521" dy="24">椿</tspan><tspan x="1521" dy="24">，</tspan><tspan x="1521" dy="24">也</tspan><tspan x="1521" dy="24">记</tspan><tspan x="1521" dy="24">录</tspan><tspan x="1521" dy="24">相</tspan><tspan x="1521" dy="24">遇</tspan><tspan x="1521" dy="24">。</tspan>
+              </text>
+            </g>
+
+            <g aria-label="简介">
+              <rect x="55" y="585" width="650" height="260" fill="#f7faf2" fill-opacity="0.95" />
+              <text class="en" x="92" y="630" fill="#2e8278" font-size="12" font-weight="800" letter-spacing="3">ABOUT THE PROJECT</text>
+              <text class="zh" x="92" y="684" fill="#123b37" font-size="31" font-weight="650">从一首歌开始，认识整个神椿世界。</text>
+              <text class="sans" x="92" y="726" fill="#365f5a" font-size="15">
+                <tspan x="92" dy="0">由粉丝共同维护的 KAMITSUBAKI STUDIO 非官方百科，</tspan>
+                <tspan x="92" dy="27">整理艺人、音乐、企划与世界线，为新人提供清晰的入门路线。</tspan>
+              </text>
+              <text class="en" x="92" y="812" fill="#123b37" font-size="11" font-weight="800" letter-spacing="1.7">ARTISTS  ·  PROJECTS  ·  TIMELINE  ·  AI GUIDE  ·  中 / 日 / EN</text>
+            </g>
+
+            <g aria-label="社交平台">
+              <rect x="900" y="585" width="652" height="260" fill="#27665e" fill-opacity="0.96" />
+              <text class="en" x="940" y="628" fill="#b9dbd3" font-size="11" font-weight="800" letter-spacing="2.4">VISIT THE OBSERVATION DATABASE</text>
+              <text class="en" x="940" y="677" fill="#ffffff" font-size="35" font-weight="800">KAMITSUBAKI.WIKI</text>
+              <path d="M1484 644h21v21m0-21-26 26" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" />
+              <line x1="940" y1="699" x2="1512" y2="699" stroke="#edf9f4" stroke-opacity="0.3" />
+
+              <text class="sans" x="940" y="744" fill="#ffffff" font-size="15" font-weight="700">QQ群</text>
+              <text class="en" x="1040" y="744" fill="#d7e8e2" font-size="11">1056086519</text>
+              <text class="sans" x="1248" y="744" fill="#ffffff" font-size="15" font-weight="700">抖音群</text>
+              <text class="en" x="1355" y="744" fill="#d7e8e2" font-size="11">社群入口</text>
+              <line x1="940" y1="767" x2="1512" y2="767" stroke="#edf9f4" stroke-opacity="0.16" />
+              <text class="en" x="940" y="812" fill="#ffffff" font-size="15" font-weight="700">Discord</text>
+              <text class="en" x="1040" y="812" fill="#d7e8e2" font-size="11">中文观测者社群</text>
+              <text class="en" x="1248" y="812" fill="#ffffff" font-size="15" font-weight="700">GitHub</text>
+              <text class="en" x="1355" y="812" fill="#d7e8e2" font-size="11">@LinkTh1rsty</text>
+            </g>
+
+            <text class="sans" x="1548" y="870" fill="#123b37" fill-opacity="0.62" font-size="8" text-anchor="end">非官方粉丝百科 · 与 KAMITSUBAKI STUDIO 及 THINKR 无关联</text>
+          </svg>
+        </figure>
+      </section>
+
+      <p class="status" id="status" aria-live="polite">选择上方按钮即可导出高清 PNG。</p>
+    </main>
+
+    <script>
+      const exportSpecs = {
+        'poster-4x3': { width: 2400, height: 1800, filename: 'kamitsubaki-wiki-poster-4x3.png', background: './assets/kamitsubaki-promo-background.jpg' },
+        'poster-3x4': { width: 1800, height: 2400, filename: 'kamitsubaki-wiki-poster-3x4.png', background: './assets/kamitsubaki-promo-background.jpg' },
+        'poster-16x9': { width: 2560, height: 1440, filename: 'kamitsubaki-wiki-poster-16x9.png', background: './assets/kamitsubaki-promo-background-16x9.jpg' },
+      };
+      const status = document.querySelector('#status');
+
+      function toDataUrl(blob) {
+        return new Promise((resolve, reject) => {
+          const reader = new FileReader();
+          reader.onload = () => resolve(reader.result);
+          reader.onerror = reject;
+          reader.readAsDataURL(blob);
+        });
+      }
+
+      async function getEmbeddedBackground(url) {
+        getEmbeddedBackground.cache ||= new Map();
+        if (!getEmbeddedBackground.cache.has(url)) {
+          getEmbeddedBackground.cache.set(url, fetch(url)
+            .then((response) => {
+              if (!response.ok) throw new Error('背景图片加载失败');
+              return response.blob();
+            })
+            .then(toDataUrl));
+        }
+        return getEmbeddedBackground.cache.get(url);
+      }
+
+      async function exportPoster(id, options = {}) {
+        const source = document.getElementById(id);
+        const spec = exportSpecs[id];
+        const clone = source.cloneNode(true);
+        const embeddedBackground = await getEmbeddedBackground(spec.background);
+        clone.setAttribute('width', String(spec.width));
+        clone.setAttribute('height', String(spec.height));
+        clone.querySelector('[data-background]').setAttribute('href', embeddedBackground);
+
+        const serialized = new XMLSerializer().serializeToString(clone);
+        const svgBlob = new Blob([serialized], { type: 'image/svg+xml;charset=utf-8' });
+        const svgUrl = URL.createObjectURL(svgBlob);
+
+        try {
+          const image = await new Promise((resolve, reject) => {
+            const raster = new Image();
+            raster.onload = () => resolve(raster);
+            raster.onerror = () => reject(new Error('海报渲染失败'));
+            raster.src = svgUrl;
+          });
+          const canvas = document.createElement('canvas');
+          canvas.width = spec.width;
+          canvas.height = spec.height;
+          const context = canvas.getContext('2d');
+          context.drawImage(image, 0, 0, spec.width, spec.height);
+          const pngBlob = await new Promise((resolve) => canvas.toBlob(resolve, 'image/png', 1));
+          const pngUrl = URL.createObjectURL(pngBlob);
+          const link = document.createElement('a');
+          link.href = pngUrl;
+          link.download = spec.filename;
+          document.body.append(link);
+          link.click();
+          link.remove();
+          setTimeout(() => URL.revokeObjectURL(pngUrl), 1500);
+          if (!options.silent) status.textContent = `已导出 ${spec.filename}`;
+        } finally {
+          URL.revokeObjectURL(svgUrl);
+        }
+      }
+
+      document.querySelectorAll('[data-export]').forEach((button) => {
+        button.addEventListener('click', async () => {
+          button.disabled = true;
+          status.textContent = '正在生成高清 PNG…';
+          try {
+            await exportPoster(button.dataset.export);
+          } catch (error) {
+            status.textContent = error.message || '导出失败，请刷新后重试。';
+          } finally {
+            button.disabled = false;
+          }
+        });
+      });
+
+      document.querySelector('#export-all').addEventListener('click', async (event) => {
+        const button = event.currentTarget;
+        button.disabled = true;
+        status.textContent = '正在生成三个高清版本…';
+        try {
+          await exportPoster('poster-4x3', { silent: true });
+          await new Promise((resolve) => setTimeout(resolve, 350));
+          await exportPoster('poster-3x4', { silent: true });
+          await new Promise((resolve) => setTimeout(resolve, 350));
+          await exportPoster('poster-16x9', { silent: true });
+          status.textContent = '4:3、3:4 与 16:9 三个版本已导出。';
+        } catch (error) {
+          status.textContent = error.message || '导出失败，请刷新后重试。';
+        } finally {
+          button.disabled = false;
+        }
+      });
+    </script>
+  </body>
+</html>
