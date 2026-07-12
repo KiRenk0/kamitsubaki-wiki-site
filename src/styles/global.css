@@ -4043,6 +4043,7 @@ html.has-js .reveal-up.active {
   .contributor-roster__actions {
     display: grid;
     grid-template-columns: 1fr;
+    padding-right: calc(var(--floating-action-size) + var(--floating-action-gap) + 0.35rem);
   }
 
   .contributor-roster__action {
