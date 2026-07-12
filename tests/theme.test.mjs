@@ -50,4 +50,23 @@ test('base layout initializes the saved theme before paint and mounts localized 
   assert.match(en, /System/);
 });
 
+test('global styles define semantic paper-white and near-black theme tokens', async () => {
+  const css = await readProjectFile('../src/styles/global.css');
+  for (const token of [
+    '--surface-canvas', '--surface-raised', '--surface-subtle', '--surface-inverse',
+    '--text-primary', '--text-secondary', '--text-muted', '--text-inverse',
+    '--line-strong', '--line-default', '--line-soft', '--accent', '--accent-contrast',
+    '--focus-ring', '--shadow-color', '--noise-opacity',
+  ]) assert.match(css, new RegExp(token));
+
+  assert.match(css, /:root\[data-theme="light"\]/);
+  assert.match(css, /:root\[data-theme="dark"\]/);
+  assert.match(css, /color-scheme:\s*light/);
+  assert.match(css, /color-scheme:\s*dark/);
+  assert.match(css, /background-color:\s*var\(--surface-canvas\)/);
+  assert.match(css, /\.theme-toggle__button/);
+  assert.match(css, /\[data-theme-preference="system"\][\s\S]*\[data-theme-icon="system"\]/);
+  assert.match(css, /:root\[data-theme="light"\][\s\S]*\.text-white/);
+});
+
 export { readProjectFile };
