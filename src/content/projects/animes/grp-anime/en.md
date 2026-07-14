@@ -12,13 +12,13 @@ order: 1
 
 ## Characters
 
-- **Kakyoin** (VA: [Kakyoin](https://kamitsubaki.wiki/en/artists/girls_revolution_project/kakyoin/))
-- **Orihime** (VA: [Orihime](https://kamitsubaki.wiki/en/artists/girls_revolution_project/orihime/))
-- **Garasumiya** (VA: [Garasumiya](https://kamitsubaki.wiki/en/artists/girls_revolution_project/garasumiya/))
-- **Mikoto** (VA: [Mikoto](https://kamitsubaki.wiki/en/artists/girls_revolution_project/mikoto/))
-- **Yunagi** (VA: [Yunagi](https://kamitsubaki.wiki/en/artists/girls_revolution_project/yunagi/))
-- **Hinageshi** (VA: [Hinageshi](https://kamitsubaki.wiki/en/artists/girls_revolution_project/hinageshi/))
-- **Shiromaru** (CV: ??? / [<span style="filter: blur(5px); transition: filter 0.3s; cursor: pointer;" onmouseover="this.style.filter='none'" onmouseout="this.style.filter='blur(5px)'" onclick="this.style.filter='none'">Isekai Joucho</span>](https://kamitsubaki.wiki/en/artists/vwp/isekaijoucho/))
+- Kakyoin (VA: [Kakyoin](https://kamitsubaki.wiki/en/artists/girls_revolution_project/kakyoin/))
+- Orihime (VA: [Orihime](https://kamitsubaki.wiki/en/artists/girls_revolution_project/orihime/))
+- Garasumiya (VA: [Garasumiya](https://kamitsubaki.wiki/en/artists/girls_revolution_project/garasumiya/))
+- Mikoto (VA: [Mikoto](https://kamitsubaki.wiki/en/artists/girls_revolution_project/mikoto/))
+- Yunagi (VA: [Yunagi](https://kamitsubaki.wiki/en/artists/girls_revolution_project/yunagi/))
+- Hinageshi (VA: [Hinageshi](https://kamitsubaki.wiki/en/artists/girls_revolution_project/hinageshi/))
+- ???<span style="filter: blur(5px); transition: filter 0.3s; cursor: pointer;" onmouseover="this.style.filter='none'" onmouseout="this.style.filter='blur(5px)'" onclick="this.style.filter='none'">Shiromaru</span> (CV: ??? / [<span style="filter: blur(5px); transition: filter 0.3s; cursor: pointer;" onmouseover="this.style.filter='none'" onmouseout="this.style.filter='blur(5px)'" onclick="this.style.filter='none'">IsekaiJoucho</span>](https://kamitsubaki.wiki/en/artists/vwp/isekaijoucho/))
 - **Maou** (VA: Shido)
 
 ## Episode List
