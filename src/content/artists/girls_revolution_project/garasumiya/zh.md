@@ -3,7 +3,7 @@ locale: zh
 translationKey: garasumiya
 code: G3
 romanizedName: GARASUMIYA
-categoryOrder: 3
+categoryOrder: 5
 itemOrder: 3
 statusLabel: STATUS
 status: ACTIVE

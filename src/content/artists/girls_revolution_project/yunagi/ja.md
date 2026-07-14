@@ -9,6 +9,6 @@ statusLabel: STATUS
 status: ACTIVE
 image: "https://placehold.co/1200x800/0a0a12/a0a0b0?text=YUNAGI"
 name: 夕凪機
-categoryTitle: 少女革命计划
+categoryTitle: 少女革命計画
 categorySubtitle: GIRLS REVOLUTION PROJECT
 ---

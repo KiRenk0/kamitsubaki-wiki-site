@@ -3,7 +3,7 @@ locale: zh
 translationKey: hinageshi
 code: G6
 romanizedName: HINAGESHI
-categoryOrder: 6
+categoryOrder: 5
 itemOrder: 6
 statusLabel: STATUS
 status: ACTIVE

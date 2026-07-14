@@ -3,7 +3,7 @@ locale: zh
 translationKey: orihime
 code: G1
 romanizedName: ORIHIME
-categoryOrder: 1
+categoryOrder: 5
 itemOrder: 1
 statusLabel: STATUS
 status: ACTIVE

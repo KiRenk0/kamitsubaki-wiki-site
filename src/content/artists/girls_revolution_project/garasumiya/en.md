@@ -3,12 +3,12 @@ locale: en
 translationKey: garasumiya
 code: G3
 romanizedName: GARASUMIYA
-categoryOrder: 3
+categoryOrder: 5
 itemOrder: 3
 statusLabel: STATUS
 status: ACTIVE
 image: "https://placehold.co/1200x800/0a0a12/a0a0b0?text=GARASUMIYA"
-name: 硝子宮
-categoryTitle: 少女革命计划
-categorySubtitle: GIRLS REVOLUTION PROJECT
+name: GARASUMIYA
+categoryTitle: GIRLS REVOLUTION PROJECT
+categorySubtitle: 少女革命計画
 ---

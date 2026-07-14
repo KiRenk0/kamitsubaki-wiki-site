@@ -3,7 +3,7 @@ locale: zh
 translationKey: mikoto
 code: G4
 romanizedName: MIKOTO
-categoryOrder: 4
+categoryOrder: 5
 itemOrder: 4
 statusLabel: STATUS
 status: ACTIVE

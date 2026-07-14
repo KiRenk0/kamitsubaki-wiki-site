@@ -3,7 +3,7 @@ locale: zh
 translationKey: kakyoin
 code: G2
 romanizedName: KAKYOIN
-categoryOrder: 2
+categoryOrder: 5
 itemOrder: 2
 statusLabel: 'STATUS'
 status: 'ACTIVE'
