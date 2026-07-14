@@ -115,7 +115,7 @@ order: 3
     - 出演：御莉姫、美古途、夕凪機、氷夏至
 - **KAMITSUBAKI WARS 2025 神椿川崎戦線 少女革命計画 1st LIVE/第一幕『改変』**
     - 出演：佳鏡院、御莉姫、硝子宮、美古途、夕凪機、氷夏至
-- **~~GRAYSCALE -CYAN-**
+- **~~RAYSCALE -CYAN-~~**
     - ~~出演：美古途、夕凪機、氷夏至~~
     - ****注：该演出因爆炸预告信被迫中止。***
 - **KAMITSUBAKI FES ’25 OUR ONE-DAY WAR**
@@ -147,6 +147,6 @@ order: 3
 
 ## 外部链接
 
-[**少女革命计划 官方网站**](https://girlsrevolutionproject.jp/)
-[**少女革命计划 官方Youtube页面**](https://www.youtube.com/@girls_rev_pj)
-[**少女革命计划 官方X主页**](https://x.com/girls_rev_pj)
+- [**少女革命计划 官方网站**](https://girlsrevolutionproject.jp/)<br>
+- [**少女革命计划 官方Youtube页面**](https://www.youtube.com/@girls_rev_pj)<br>
+- [**少女革命计划 官方X主页**](https://x.com/girls_rev_pj)<br>

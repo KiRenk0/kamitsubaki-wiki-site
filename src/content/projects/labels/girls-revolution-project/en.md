@@ -115,7 +115,7 @@ As a new venture for KAMITSUBAKI STUDIO, they not only engage in musical activit
 - **KAMITSUBAKI WARS 2025 Kamitsubaki Kawasaki Sensen Girls' Revolution Project 1st LIVE / Act I "Kaihen"**
     - Cast: Kakyoin, Orihime, Garasumiya, Mikoto, Yunagi, Hinageshi
         
-- **~~GRAYSCALE -CYAN-**
+- **~~GRAYSCALE -CYAN-~~**
     - ~~Cast: Mikoto, Yunagi, Hinageshi~~
     - **_Note: This performance was cancelled due to a bomb threat._**
         
@@ -156,6 +156,6 @@ As a new venture for KAMITSUBAKI STUDIO, they not only engage in musical activit
 
 ## External Links
 
-[**Girls' Revolution Project Official Website**](https://girlsrevolutionproject.jp/)
-[**Girls' Revolution Project Official YouTube Channel**](https://www.youtube.com/@girls_rev_pj)
-[**Girls' Revolution Project Official X Account**](https://x.com/girls_rev_pj)
+- [**Girls' Revolution Project Official Website**](https://girlsrevolutionproject.jp/)
+- [**Girls' Revolution Project Official YouTube Channel**](https://www.youtube.com/@girls_rev_pj)
+- [**Girls' Revolution Project Official X Account**](https://x.com/girls_rev_pj)
