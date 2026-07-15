@@ -50,31 +50,40 @@ description: 本站使用的Markdown语法及词条属性填写指南。
 
 ## 超链接
 
-- 链接: `[链接名称](URL)  
-    例如: `[本站地址](https://kamitsubaki.wiki/zh/)
+- 链接: 
+    `[链接名称](URL)`  
+    例如: 
+
+
+    `[本站地址](https://kamitsubaki.wiki/zh/)`
+
     你将会得到这个结果：[本站地址](https://kamitsubaki.wiki/zh/)
 
 ## 表格
 
 使用 | 定义列，- 定义表头分隔线：
 
-`|   |   |   |
-`|:---|:---:|---:|
-`|艺人|歌名|歌词|
-`|KAF|糸|略|
-`|RIM|1999|略|
+
+`|   |   |   |`<br>
+`|:---|:---:|---:|`<br>
+`|艺人|歌名|歌词|`<br>
+`|KAF|糸|略|`<br>
+`|RIM|1999|略|`<br>
+
 将得到以下表格：
 
 | 艺人  |  歌名  |  歌词 |
 | :-- | :--: | --: |
 | KAF |  糸   |   略 |
 | RIM | 1999 |   略 |
-注：:--- 左对齐, :---: 居中, ---: 右对齐
+
+`注：:--- 左对齐, :---: 居中, ---: 右对齐`
 
 ### frontmatter
 
 在顶部frontmatter中，我们将写入所编辑词条的属性。
 frontmatter的始/终符号均为---。
+
 ### 关于markdown编辑器
 
 实际上，markdown格式并不需要特殊的编辑器。你甚至可以用备忘录和记事本写md文件（只需在保存时更改扩展名为.md即可）。
@@ -87,30 +96,47 @@ frontmatter的始/终符号均为---。
 ### Ruby标签
 
 ruby是在汉字文化圈常用的排版形式，各位所看到的如<ruby>局部坏死<rt>zheng ge hao huo</rt></markdown>之类形式即使用ruby进行表记。
-ruby字语法如下：
-`<ruby>局部坏死<rt>zheng ge hao huo</rt>`
-如果需要精准对齐，可以这样写：
-`<ruby>清<rt>hun</rt>楚<rt>dun</rt></ruby>
+ruby字语法如下：<br>
+
+```html
+<ruby>局部坏死<rt>zheng ge hao huo</rt></ruby>
+```
+
+<br>如果需要精准对齐，可以这样写：
+
+```html
+<ruby>清<rt>hun</rt>楚<rt>dun</rt></ruby>
+```
+
 显示如下：
 - <ruby>清<rt>hun</rt>楚<rt>dun</rt></ruby>
 
 ### 黑幕效果
 
 在实现这样的黑幕效果时，本站使用如下的代码：
-`<span style="filter: blur(5px); transition: filter 0.3s; cursor: pointer;" onmouseover="this.style.filter='none'" onmouseout="this.style.filter='blur(5px)'" onclick="this.style.filter='none'">这是一段被精神污染的机密文本</span>`
+
+```html
+<span style="filter: blur(5px); transition: filter 0.3s; cursor: pointer;" onmouseover="this.style.filter='none'" onmouseout="this.style.filter='blur(5px)'" onclick="this.style.filter='none'">This is a confidential passage contaminated by forbidden knowledge.</span>
+```
+
 表现效果如下：
 <span style="filter: blur(5px); transition: filter 0.3s; cursor: pointer;" onmouseover="this.style.filter='none'" onmouseout="this.style.filter='blur(5px)'" onclick="this.style.filter='none'">你看不到我看不到我</span>
 在使用时，可以直接替换代码中的汉字文本来进行使用。
 
 ### 收起与展开
 
-在项目过多时（尤其在表格中），我们使用以下格式来默认隐藏过多内容：
-`<details>
-`<summary>
-`这里写平时显示的标题（点击可以展开）</summary>`
-`这里写平时隐藏的内容，展开后才会看到。
-`</details>
+在项目过多时（尤其在表格中），我们使用以下格式来默认隐藏过多内容：<br>
+
+```html
+<details>
+  <summary>Write the title that is normally visible here. Click it to expand.</summary>
+  Write the content that is normally hidden here. It will appear after expansion.
+</details>
+```
+<br>
+
 显示效果如下：
+
 <details>
   <summary>这里写平时显示的标题（点击可以展开）</summary>
   这里写平时隐藏的内容，展开后才会看到。
@@ -138,7 +164,7 @@ ruby字语法如下：
 ### 艺人部分
 
 |            属性             |       类型       | 必填  |                   作用与填写内容                    |
-| :-----------------------: | :------------: | :-: | :------------------------------------------: |
+| :-----------------------: | :------------: | :---: | :------------------------------------------: |
 |         `locale`          | `zh / ja / en` |  是  |                    当前词条语言                    |
 |     `translationKey`      |      字符串       |  是  |               同一人物不同语言版本的共同标识                |
 |          `code`           |      字符串       |  否  |                人物编号、档案编号或内部代码                |
@@ -149,7 +175,7 @@ ruby字语法如下：
 |      `categoryOrder`      |       数字       |  否  |              分类之间的排序值，较小值通常排在前面              |
 |        `itemOrder`        |       数字       |  否  |                当前人物在所属分类内的排序值                |
 |          `meta`           |      字符串       |  否  |           列表卡片上的简短元信息，例如身份、所属或一句概括           |
-|        `debutDate`        |      字符串       |  否  |    出道日期。建议统一写为 `YYYY-MM-DD`，但 Schema 不强制     |
+|        `debutDate`        |      字符串       |  否  |    出道日期。建议统一写为 `YYYY-MM-DD`     |
 |     `profileTagline`      |      字符串       |  否  |                 人物详情页上的简介标语                  |
 |      `designCredits`      |     字符串数组      |  否  |             角色设计、视觉设计、建模等制作人员名单              |
 |      `affiliations`       |     字符串数组      |  否  |                所属厂牌、组合、企划或机构                 |
@@ -170,7 +196,7 @@ ruby字语法如下：
 ### 企划部分
 
 |属性|类型|必填|作用与填写内容|
-|---|---|--:|---|
+|:---:|:---:|:--:|:---:|
 |`locale`|`zh / ja / en`|是|当前企划词条的语言|
 |`translationKey`|字符串|是|同一企划多语言版本的共同标识|
 |`kind`|字符串|是|企划类型，例如 `project`、`game`、`virtual-world`；Schema 不限制固定值|
@@ -182,7 +208,7 @@ ruby字语法如下：
 ### logs部分
 
 |属性|类型|必填|作用与填写内容|
-|---|---|--:|---|
+|:---:|:---:|:--:|:---:|
 |`locale`|`zh / ja / en`|是|当前日志语言|
 |`translationKey`|字符串|是|同一日志多语言版本的共同标识|
 |`date`|字符串|是|日志日期。建议写 `YYYY-MM-DD`，但 Schema 不验证格式|
@@ -195,7 +221,7 @@ ruby字语法如下：
 ### 歌曲部分
 
 |属性|类型|必填|作用与填写内容|
-|---|---|--:|---|
+|:---:|:---:|:--:|:---:|
 |`locale`|`zh / ja / en`|是|当前歌曲词条语言|
 |`translationKey`|字符串|是|同一歌曲多语言版本的共同标识|
 |`title`|字符串|是|歌曲标题|
