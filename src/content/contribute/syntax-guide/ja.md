@@ -129,6 +129,13 @@ translationKey: example-entry
 title: 記事の例
 ---
 ```
+### 画像の挿入
+
+記事に画像を挿入する場合は、以下の形式を使用してください：
+
+`![画像の説明](/public/images/画像のパス)`
+
+また、挿入する画像は `/public/images/` ディレクトリに配置してください。画像のパスは `/public/images/` からの相対パスとなります。
 
 ### Markdownエディターについて
 

@@ -84,6 +84,14 @@ description: 本站使用的Markdown语法及词条属性填写指南。
 在顶部frontmatter中，我们将写入所编辑词条的属性。
 frontmatter的始/终符号均为---。
 
+### 插入图片
+
+若需要将图片插入到词条中，请使用如下格式：
+
+`![图片描述](/public/images/图片路径)`
+
+同时，请将需要插入的图片放置在/public/images/目录下，图片路径为相对于/public/images/的路径。
+
 ### 关于markdown编辑器
 
 实际上，markdown格式并不需要特殊的编辑器。你甚至可以用备忘录和记事本写md文件（只需在保存时更改扩展名为.md即可）。

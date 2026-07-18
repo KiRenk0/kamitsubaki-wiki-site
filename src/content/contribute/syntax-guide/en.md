@@ -127,6 +127,13 @@ translationKey: example-entry
 title: Example Entry
 ---
 ```
+### Inserting Images
+
+To insert an image into an entry, please use the following format:
+
+`![Image description](/public/images/image_path)`
+
+Additionally, please upload the images you wish to insert into the `/public/images/` directory. The image path should be relative to the `/public/images/` directory.
 
 ### About Markdown editors
 
