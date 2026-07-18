@@ -154,8 +154,32 @@ ruby字语法如下：<br>
 
 ### 插入音频/视频
 
-本站支持iframe格式嵌入视频/音频。
-各大流媒体站点均支持直接生成iframe格式嵌入链接，可直接粘贴使用。
+本站提供统一的媒体嵌入短语法。将下面的语法单独放在一行，构建时会自动生成响应式、安全且延迟加载的 `iframe`：
+
+```md
+@[来源](媒体 ID 或分享链接 "可选标题")
+```
+
+支持的来源名称为 `youtube`、`bilibili`、`apple-music`、`spotify`、`netease`（网易云音乐）和 `qq-music`。YouTube、bilibili、网易云音乐和 QQ 音乐可直接填写单曲/视频 ID；所有来源均支持常见的分享链接。
+
+```md
+@[youtube](3Wtx6k2vInU "花譜 - 糸")
+@[bilibili](BV1CJ411b7Ym "花譜 - 糸")
+@[apple-music](https://music.apple.com/cn/song/example/123456789)
+@[spotify](https://open.spotify.com/track/4cOdK2wGLETKBW3PvgPWqT)
+@[netease](2637083551)
+@[qq-music](001ABCDEF)
+```
+
+在 Markdown 表格的同一个单元格中可以连续填写多个短语法，播放器会按照填写顺序纵向排列。该单元格只能包含短语法及空格，不要混入说明文字：
+
+```md
+| 作曲 | 作词 | 试听 |
+| --- | --- | --- |
+| Wiz_nicc | Wiz_nicc | @[bilibili](BV13ZZNYQEQx) @[netease](2637083551) |
+```
+
+无法识别的来源或地址会保留为普通链接，不会生成任意第三方 iframe。旧文章中已有的原始 `<iframe>` 仍然兼容，但新内容应优先使用短语法以保持尺寸和样式一致。
 
 以上便是本站编辑过程中较为常用的语法格式。此文档可能会进行更新。
 

@@ -205,9 +205,32 @@ The result is:
 
 ### Embedding audio and video
 
-This site supports embedding audio and video through `iframe` elements.
+This site provides one media shortcode. Put it on a line by itself and the build will generate a responsive, restricted, lazy-loaded `iframe`:
 
-Most major streaming platforms can directly generate an iframe embed code. You can copy and paste the generated code into the entry.
+```md
+@[provider](media ID or share URL "optional title")
+```
+
+Supported provider names are `youtube`, `bilibili`, `apple-music`, `spotify`, `netease`, and `qq-music`. YouTube, bilibili, NetEase Cloud Music, and QQ Music accept a video or song ID directly; all providers accept their common share URLs.
+
+```md
+@[youtube](3Wtx6k2vInU "KAF - Ito")
+@[bilibili](BV1CJ411b7Ym "KAF - Ito")
+@[apple-music](https://music.apple.com/cn/song/example/123456789)
+@[spotify](https://open.spotify.com/track/4cOdK2wGLETKBW3PvgPWqT)
+@[netease](2637083551)
+@[qq-music](001ABCDEF)
+```
+
+Multiple shortcodes may be placed in the same Markdown table cell. Players are stacked vertically in source order. The cell must contain only shortcodes and whitespace, without explanatory text:
+
+```md
+| Composer | Lyricist | Players |
+| --- | --- | --- |
+| Wiz_nicc | Wiz_nicc | @[bilibili](BV13ZZNYQEQx) @[netease](2637083551) |
+```
+
+An unrecognized provider or target remains a normal link and never becomes an arbitrary third-party iframe. Existing raw `<iframe>` markup remains compatible, but new content should use the shortcode for consistent sizing and styling.
 
 These are the syntax formats most commonly used when editing this site. This document may be updated in the future.
 

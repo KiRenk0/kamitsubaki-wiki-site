@@ -2,9 +2,10 @@ import { createMarkdownProcessor } from '@astrojs/markdown-remark';
 import rehypeExternalLinks from 'rehype-external-links';
 import rehypeKatex from 'rehype-katex';
 import remarkMath from 'remark-math';
+import remarkMediaEmbed from './mediaEmbed.mjs';
 
 export const siteMarkdownOptions = {
-  remarkPlugins: [remarkMath],
+  remarkPlugins: [remarkMath, remarkMediaEmbed],
   rehypePlugins: [
     rehypeKatex,
     [rehypeExternalLinks, { target: '_blank', rel: ['noopener', 'noreferrer'] }],

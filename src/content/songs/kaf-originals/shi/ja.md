@@ -22,7 +22,7 @@ image: https://placehold.co/1200x800/0a0a12/a0a0b0?text=SHI
 
 ## 試聴
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3Wtx6k2vInU?si=wzt-Iuxmk-93EZ2u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+@[youtube](3Wtx6k2vInU "花譜 - 糸")
 
 ## 歌詞
 

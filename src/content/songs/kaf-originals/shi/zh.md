@@ -22,7 +22,7 @@ image: https://placehold.co/1200x800/0a0a12/a0a0b0?text=SHI
 
 ## 试听链接
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=81604669&bvid=BV1CJ411b7Ym&cid=258863137&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+@[bilibili](BV1CJ411b7Ym "花譜 - 糸")
 
 ## 歌词
 
