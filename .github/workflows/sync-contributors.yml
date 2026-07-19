@@ -26,14 +26,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Checkout backend history
-        uses: actions/checkout@v7
-        with:
-          repository: LinkTh1rsty/kamitsubaki-wiki-site-backend
-          path: .contributor-sources/backend
-          fetch-depth: 0
-          persist-credentials: false
-
       - name: Setup pnpm
         uses: pnpm/action-setup@v6
         with:
@@ -57,6 +49,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           CONTRIBUTORS_COMMIT_BASE_URL: ${{ vars.CONTRIBUTORS_COMMIT_BASE_URL || format('https://github.com/{0}/commit', github.repository) }}
-          CONTRIBUTORS_BACKEND_REPO_PATH: .contributor-sources/backend
-          CONTRIBUTORS_BACKEND_GITHUB_REPOSITORY: LinkTh1rsty/kamitsubaki-wiki-site-backend
-          CONTRIBUTORS_BACKEND_COMMIT_BASE_URL: https://github.com/LinkTh1rsty/kamitsubaki-wiki-site-backend/commit

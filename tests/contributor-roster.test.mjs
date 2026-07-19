@@ -221,8 +221,8 @@ test('contributor workflow fails loudly when sync configuration is missing', asy
   assert.doesNotMatch(workflow, /skipping contributor sync/);
   assert.match(workflow, /GITHUB_TOKEN:\s*\$\{\{ secrets\.GITHUB_TOKEN \}\}/);
   assert.match(workflow, /GITHUB_REPOSITORY:\s*\$\{\{ github\.repository \}\}/);
-  assert.match(workflow, /repository:\s*LinkTh1rsty\/kamitsubaki-wiki-site-backend/);
-  assert.match(workflow, /CONTRIBUTORS_BACKEND_REPO_PATH/);
+  assert.doesNotMatch(workflow, /kamitsubaki-wiki-site-backend/);
+  assert.doesNotMatch(workflow, /CONTRIBUTORS_BACKEND_REPO_PATH/);
 });
 
 test('GitHub identity resolver enriches contributors, caches commits, and falls back safely', async () => {
@@ -268,6 +268,8 @@ test('contributor sync submits an enriched replacement snapshot', async () => {
   assert.match(script, /GITHUB_TOKEN/);
   assert.match(script, /GITHUB_REPOSITORY/);
   assert.match(script, /identityEnriched/);
+  assert.match(script, /API limit is 1000/);
+  assert.match(script, /accepted.*events\.length/);
 });
 
 test('GitHub identity resolver falls back to the associated pull request author', async () => {

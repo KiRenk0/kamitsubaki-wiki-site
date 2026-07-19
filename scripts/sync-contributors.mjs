@@ -49,6 +49,9 @@ async function main() {
   }
 
   const collectedEvents = collectEvents();
+  if (collectedEvents.length > 1000) {
+    throw new Error(`Contributor sync produced ${collectedEvents.length} events; API limit is 1000.`);
+  }
   const identityResolvers = new Map();
   const resolverFor = (repository) => {
     if (!identityResolvers.has(repository)) {
@@ -80,6 +83,9 @@ async function main() {
   const body = await response.json().catch(() => ({}));
   if (!response.ok) {
     throw new Error(`Contributor sync failed with ${response.status}: ${JSON.stringify(body)}`);
+  }
+  if (Number(body.accepted) !== events.length) {
+    throw new Error(`Contributor sync accepted ${body.accepted ?? 0} of ${events.length} events.`);
   }
 
   console.log(`Synced ${body.accepted ?? events.length} contribution events from ${body.contributors ?? 0} contributors; ${identityEnriched} events enriched by GitHub.`);
