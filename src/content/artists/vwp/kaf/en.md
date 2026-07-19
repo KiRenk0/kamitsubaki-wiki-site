@@ -115,14 +115,14 @@ Over time, KAF expanded beyond that initial phase into a wider project-based rol
   - **April**: Slated to provide the opening theme for the TV anime *Chuzenji-sensei Mononoke Kougiroku*.
   - **September 12**: Announced her first solo concert in China, *Shukusei China 1st Solo Live*, scheduled to be held in Shanghai on November 29–30 (later cancelled on November 28 due to force majeure).
 - **2026**
-  - **May 27**: Released her 5th Album *Shin'ai*.
+  - **May 27**: Released her 5th Album *Transcendent-love*.
   - **May 30**: Successfully held the solo live *Shukusei in Hong Kong* at the AsiaWorld-Expo.
 
 ## Representative Works and Related Entries
 
 Key gateways into her work include:
 
-- **Albums**: 1st *Kansoku* (2019), 2nd *Maho* (2020), 3rd *Kyoso* (2023), 4th *Guuwa* (2024), 5th *Shin'ai*
+- **Albums**: 1st *Kansoku* (2019), 2nd *Maho* (2020), 3rd *Kyoso* (2023), 4th *Guuwa* (2024), 5th *Transcendent-love*
 - **Early Representative Songs**: "Ito", "Hinadori", "Yoru ga Furiyamu Mae ni"
 - **Key Collaborative Projects**: The *Suite* series, V.W.P group songs, and the KAFU voicebank
 
