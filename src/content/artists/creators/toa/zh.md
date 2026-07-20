@@ -60,12 +60,12 @@ Toa 的制作风格在 Vocaloid 领域占据独特的位置。他不偏向纯粹
 
 长达十年以上的持续活动体现了他在合成歌声制作人社群中的坚持与不断进化的艺术创造力。
 
-## 代表作品
+## 作品索引
 
 - 「ツギハギスタッカート」（拼布断奏）
 - 「アイディスマイル」（理念微笑）
 
 ## 外部链接
 
-- Twitter：<https://twitter.com/o0toa0o>
-- YouTube：<https://www.youtube.com/user/0toa0oto0>
+- [Twitter](https://twitter.com/o0toa0o)
+- [YouTube](https://www.youtube.com/user/0toa0oto0)

@@ -79,5 +79,5 @@ Useful related entries:
 
 ## External Links
 
-- Twitter: <https://twitter.com/tokiwa_shion>
-- YouTube: <https://youtube.com/@tokiwa_shion>
+- [Twitter](https://twitter.com/tokiwa_shion)
+- [YouTube](https://youtube.com/@tokiwa_shion)

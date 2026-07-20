@@ -108,7 +108,7 @@ VALIS has points of contact with other KAMITSUBAKI STUDIO music projects, includ
 
 ## External Links
 
-- VALIS official website: <https://valis.sinsekaistudio.jp/>
-- Twitter: <https://twitter.com/VALIS_Official>
-- YouTube main channel: <https://www.youtube.com/channel/UCx0uRc5HF-rFDEQ7lmNYKEw>
-- YouTube sub channel: <https://www.youtube.com/@mugenshoujo_valis/featured>
+- [VALIS official website](https://valis.sinsekaistudio.jp/)
+- [Twitter](https://twitter.com/VALIS_Official)
+- [YouTube main channel](https://www.youtube.com/channel/UCx0uRc5HF-rFDEQ7lmNYKEw)
+- [YouTube sub channel](https://www.youtube.com/@mugenshoujo_valis/featured)

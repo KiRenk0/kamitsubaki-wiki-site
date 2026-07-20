@@ -1,14 +1,14 @@
 ---
 locale: "ja"
 translationKey: "kanzaki-iori"
-code: "C1"
-romanizedName: "KANZAKI IORI"
-categoryOrder: 3
+code: "16"
+romanizedName: "Kanzaki Iori"
+categoryOrder: 4
 itemOrder: 1
 meta: "ROLE: COMPOSER"
+debutDate: "2014-01"
 statusLabel: "STATUS"
-status: "GRADUATED"
-inactive: true
+status: "INDEPENDENT"
 image: "https://placehold.co/1200x800/0a0a12/a0a0b0?text=KANZAKI+IORI"
 name: "カンザキイオリ"
 categoryTitle: "クリエイター"

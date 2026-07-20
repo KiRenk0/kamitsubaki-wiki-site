@@ -96,5 +96,5 @@ Representative works include “Marshmary”, “Daijoubu da yo.”, and “Hima
 
 ## External Links
 
-- X (Twitter): <https://twitter.com/mimi_3mi>
-- YouTube: <https://www.youtube.com/channel/UCam3IAA-nyfxRL8_wDQ35VA>
+- [X (Twitter)](https://twitter.com/mimi_3mi)
+- [YouTube](https://www.youtube.com/channel/UCam3IAA-nyfxRL8_wDQ35VA)

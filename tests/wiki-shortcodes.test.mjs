@@ -1,8 +1,28 @@
 import assert from 'node:assert/strict';
-import { readFile } from 'node:fs/promises';
+import { readdir, readFile } from 'node:fs/promises';
+import { join } from 'node:path';
 import test from 'node:test';
+import { fileURLToPath } from 'node:url';
 
 import { renderMarkdownFragment } from '../src/lib/markdown.mjs';
+
+async function collectMarkdownFiles(directory) {
+  const files = [];
+
+  for (const entry of await readdir(directory, { withFileTypes: true })) {
+    const path = join(directory, entry.name);
+    if (entry.isDirectory()) files.push(...await collectMarkdownFiles(path));
+    else if (entry.name.endsWith('.md')) files.push(path);
+  }
+
+  return files;
+}
+
+function removeCodeExamples(source) {
+  return source
+    .replace(/^(```|~~~)[^\n]*\n[\s\S]*?^\1\s*$/gm, '')
+    .replace(/`[^`\n]*`/g, '');
+}
 
 test('renders fixed inline Wiki aliases without authored HTML', async () => {
   const rendered = await renderMarkdownFragment(`
@@ -48,6 +68,23 @@ test('escapes shortcode arguments and leaves unknown or malformed calls as text'
   assert.match(rendered, /<abbr title="letters &#x26; more">A&#x26;B<\/abbr>/);
   assert.match(rendered, /\{\{unknown::value\}\}/);
   assert.match(rendered, /\{\{ruby::missing-reading\}\}/);
+});
+
+test('content does not put Markdown markup inside plain-text Wiki shortcode arguments', async () => {
+  const contentRoot = fileURLToPath(new URL('../src/content/', import.meta.url));
+  const files = await collectMarkdownFiles(contentRoot);
+  const invalid = [];
+  const richMarkup = /\{\{(?:ruby|spoiler|mark|abbr|kbd|time|small|sub|sup)::[^}\n]*(?:\*\*|__|\[[^\]]+\]\(|<\/?[a-z][^>]*>)[^}\n]*\}\}/gi;
+
+  for (const path of files) {
+    const source = removeCodeExamples(await readFile(path, 'utf8'));
+    for (const match of source.matchAll(richMarkup)) {
+      const line = source.slice(0, match.index).split('\n').length;
+      invalid.push(`${path}:${line}: ${match[0]}`);
+    }
+  }
+
+  assert.deepEqual(invalid, [], invalid.join('\n'));
 });
 
 test('does not open an unterminated details block', async () => {

@@ -89,6 +89,6 @@ ANARCHIC RECORD 所属として活動し、デビューから約 2 年間で約 
 
 ## 外部リンク
 
-- YouTube：<https://www.youtube.com/channel/UC9_8AXpxjjNl62HPhF5IAyg>
-- Twitter：<https://twitter.com/moi__moimi>
-- Bilibili：<https://space.bilibili.com/627704742>
+- [YouTube](https://www.youtube.com/channel/UC9_8AXpxjjNl62HPhF5IAyg)
+- [Twitter](https://twitter.com/moi__moimi)
+- [Bilibili](https://space.bilibili.com/627704742)

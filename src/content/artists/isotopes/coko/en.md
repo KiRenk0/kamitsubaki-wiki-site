@@ -1,9 +1,9 @@
 ---
 locale: "en"
 translationKey: "coko"
-code: "M4"
+code: "14"
 romanizedName: "COKO"
-categoryOrder: 4
+categoryOrder: 3
 itemOrder: 4
 meta: "ORIGIN: KOKO"
 debutDate: "2023-01-25"
@@ -52,7 +52,7 @@ theme:
     - label: "Soft Light"
       value: "#F0F4F8"
 statusLabel: "TYPE"
-status: "CeVIO AI"
+status: "ACTIVE"
 image: "https://placehold.co/1200x800/0a1120/4299e1?text=COKO"
 name: "COKO"
 categoryTitle: "Musical Isotopes"
@@ -124,6 +124,6 @@ COKO is a key software product of the "Musical Isotope Project". The project dig
 
 ## External Links
 
-- Musical Isotope official website: <https://musical-isotope.kamitsubaki.jp/>
-- Musical Isotope official X (Twitter): <https://twitter.com/musicalisotope>
-- Musical Isotope official YouTube channel: <https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA>
+- [Musical Isotope official website](https://musical-isotope.kamitsubaki.jp/)
+- [Musical Isotope official X (Twitter)](https://twitter.com/musicalisotope)
+- [Musical Isotope official YouTube channel](https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA)

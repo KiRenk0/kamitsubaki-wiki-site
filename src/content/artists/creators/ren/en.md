@@ -61,7 +61,7 @@ A significant milestone in Ren's career was the music video for "Shizuki Akari n
 
 Ren's production occupies a darker corner of the Vocaloid landscape, characterized by cold, atmospheric textures and emotionally charged narratives. His diverse melodic approach ensures that even within his signature somber framework, each song offers a distinct emotional journey. His growing body of work since 2020 has established him as a notable voice in the contemporary Vocaloid producer scene.
 
-## Representative Works
+## Work Index
 
 - "Yomei Nikki" (余命日記)
 - "Utsuzuki ga Kirei Desu ne" (嘘月が綺麗ですね)
@@ -73,5 +73,5 @@ Ren's production occupies a darker corner of the Vocaloid landscape, characteriz
 
 ## External Links
 
-- YouTube: <https://www.youtube.com/channel/UCqETmB5g96_4uPgHozWm_4Q>
-- Twitter: <https://twitter.com/ren_suimin>
+- [YouTube](https://www.youtube.com/channel/UCqETmB5g96_4uPgHozWm_4Q)
+- [Twitter](https://twitter.com/ren_suimin)

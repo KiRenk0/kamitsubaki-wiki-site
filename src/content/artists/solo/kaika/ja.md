@@ -92,7 +92,7 @@ seo:
 
 ## 外部リンク
 
-- 公式サイト：<https://kaika.kamitsubaki.jp/>
-- X (Twitter)：<https://x.com/qurux2_flower>
-- YouTube：<https://www.youtube.com/@curling_flower_>
-- TikTok：<https://www.tiktok.com/@virtual_kaika>
+- [公式サイト](https://kaika.kamitsubaki.jp/)
+- [X (Twitter)](https://x.com/qurux2_flower)
+- [YouTube](https://www.youtube.com/@curling_flower_)
+- [TikTok](https://www.tiktok.com/@virtual_kaika)

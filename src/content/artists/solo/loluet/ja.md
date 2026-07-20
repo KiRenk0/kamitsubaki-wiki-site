@@ -114,5 +114,5 @@ LOLUETは2021年からYouTubeを中心に活動するバーチャルシンガー
 
 ## 外部リンク
 
-- YouTube：<https://www.youtube.com/channel/UC1CGaG114jfEiiWzZ2SkyhQ>
-- X (Twitter)：<https://twitter.com/LOLUET>
+- [YouTube](https://www.youtube.com/channel/UC1CGaG114jfEiiWzZ2SkyhQ)
+- [X (Twitter)](https://twitter.com/LOLUET)

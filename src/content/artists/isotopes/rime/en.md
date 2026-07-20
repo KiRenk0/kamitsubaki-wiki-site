@@ -1,9 +1,9 @@
 ---
 locale: "en"
 translationKey: "rime"
-code: "M3"
+code: "13"
 romanizedName: "RIME"
-categoryOrder: 4
+categoryOrder: 3
 itemOrder: 3
 meta: "ORIGIN: RIM"
 debutDate: "2022-10-25"
@@ -52,7 +52,7 @@ theme:
     - label: "Soft Light"
       value: "#FFF5F5"
 statusLabel: "TYPE"
-status: "CeVIO AI"
+status: "ACTIVE"
 image: "https://placehold.co/1200x800/1a0f0f/e51500?text=RIME"
 name: "RIME"
 categoryTitle: "Musical Isotopes"
@@ -149,6 +149,6 @@ RIME is a core member of the "Musical Isotope Project" initiated by KAMITSUBAKI 
 
 ## External Links
 
-- Musical Isotope official website: <https://musical-isotope.kamitsubaki.jp/>
-- Musical Isotope official X (Twitter): <https://twitter.com/musicalisotope>
-- Musical Isotope official YouTube channel: <https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA>
+- [Musical Isotope official website](https://musical-isotope.kamitsubaki.jp/)
+- [Musical Isotope official X (Twitter)](https://twitter.com/musicalisotope)
+- [Musical Isotope official YouTube channel](https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA)

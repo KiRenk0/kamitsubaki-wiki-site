@@ -77,5 +77,5 @@ WaMi とのユニット「Awairo」のメンバーとしても活動しており
 
 ## 外部リンク
 
-- Twitter：<https://twitter.com/bass_ynk>
-- YouTube：<https://www.youtube.com/user/yunosuke23>
+- [Twitter](https://twitter.com/bass_ynk)
+- [YouTube](https://www.youtube.com/user/yunosuke23)

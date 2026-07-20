@@ -10,6 +10,14 @@ type FooterContent = {
   tagline: string;
   links: FooterLink[];
   disclaimer: string[];
+  license: {
+    notice: string;
+    mediaNotice: string;
+    detailsLabel: string;
+    detailsHref: string;
+    deedLabel: string;
+    deedHref: string;
+  };
   copyright: string;
 };
 
@@ -40,6 +48,19 @@ const footerLogoAlt = getLocalizedSiteName(Astro.params.locale);
         </>
       ))}
     </p>
+    <div class="mb-6 max-w-2xl text-[10px] font-light leading-6 text-white/42">
+      <p>{footer.license.notice}</p>
+      <p class="mt-1 text-white/30">{footer.license.mediaNotice}</p>
+      <p class="mt-2 flex flex-wrap justify-center gap-x-3 gap-y-1 font-mono text-[9px] uppercase tracking-[0.14em]">
+        <a href={footer.license.detailsHref} class="transition-colors hover:text-white">
+          {footer.license.detailsLabel}
+        </a>
+        <span aria-hidden="true" class="text-white/15">/</span>
+        <a rel="license" href={footer.license.deedHref} class="transition-colors hover:text-white">
+          {footer.license.deedLabel}
+        </a>
+      </p>
+    </div>
     <p class="text-[9px] font-mono text-white/20 tracking-widest">
       {footer.copyright}
     </p>

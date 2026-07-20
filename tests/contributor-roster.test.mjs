@@ -206,6 +206,18 @@ test('manual collaborators use an independent local data file and summary-only s
   assert.equal(typeof data[0].contacts[0].label, 'string');
   assert.equal(typeof data[0].introduction.zh, 'string');
   assert.equal(typeof data[0].quote.zh, 'string');
+  assert.match(component, /Math\.random\(\)/);
+  assert.match(component, /aspect-ratio: 1 \/ 1/);
+  assert.match(component, /object-fit: cover/);
+
+  const inu = data.find((contributor) => contributor.id === 'inu');
+  assert.equal(inu.contacts.length, 1);
+  assert.deepEqual(new Set(Object.values(inu.introduction)), new Set(['歌を歌うのは寂しいから 目を閉じるのは聞きたいから']));
+  assert.deepEqual(new Set(Object.values(inu.quote)), new Set(['要继续喜欢神椿呀！']));
+
+  const xiaochi = data.find((contributor) => contributor.id === 'xiaochi');
+  assert.deepEqual(new Set(Object.values(xiaochi.introduction)), new Set(['关注花谱喵关注花谱谢谢喵']));
+  assert.deepEqual(new Set(Object.values(xiaochi.quote)), new Set(['世界平和なんて噓だ　皆一人ぼっちだ']));
 });
 
 test('contributor renderer builds honor wall cards, readable activity, and retry states', async () => {

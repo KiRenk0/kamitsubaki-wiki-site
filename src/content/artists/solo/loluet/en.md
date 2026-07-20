@@ -126,5 +126,5 @@ LOLUET's history has a clear boundary: before March 31, 2023 she worked under he
 
 ## External Links
 
-- YouTube: <https://www.youtube.com/channel/UC1CGaG114jfEiiWzZ2SkyhQ>
-- X (Twitter): <https://twitter.com/LOLUET>
+- [YouTube](https://www.youtube.com/channel/UC1CGaG114jfEiiWzZ2SkyhQ)
+- [X (Twitter)](https://twitter.com/LOLUET)

@@ -231,6 +231,6 @@ export function buildArtistAlbumCatalog(albumEntries, artistEntries, locale = 'e
         || (right.data.releaseDate ?? '').localeCompare(left.data.releaseDate ?? '')
         || left.data.title.localeCompare(right.data.title, locale),
       ),
-      cover: group.entries.find((entry) => entry.data.image)?.data.image ?? group.artistEntry?.data.image,
+      cover: group.artistEntry?.data.image ?? group.entries.find((entry) => entry.data.image)?.data.image,
     }));
 }

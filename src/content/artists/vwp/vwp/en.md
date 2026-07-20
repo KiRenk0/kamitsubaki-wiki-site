@@ -142,8 +142,8 @@ The "INTERVAL" charging period that began on March 31, 2026 marks the end of V.W
 
 ## External Links
 
-- KAMITSUBAKI STUDIO V.W.P page: <https://kamitsubaki.jp/artist/v-w-p/>
-- YouTube: <https://www.youtube.com/channel/UCfiSo8tO3WPU-8YOgr4Ba6g>
-- X (Twitter): <https://twitter.com/VWP_virtual>
-- Bilibili: <https://space.bilibili.com/1636327445>
-- Weibo: <https://weibo.com/u/7573179727>
+- [KAMITSUBAKI STUDIO V.W.P page](https://kamitsubaki.jp/artist/v-w-p/)
+- [YouTube](https://www.youtube.com/channel/UCfiSo8tO3WPU-8YOgr4Ba6g)
+- [X (Twitter)](https://twitter.com/VWP_virtual)
+- [Bilibili](https://space.bilibili.com/1636327445)
+- [Weibo](https://weibo.com/u/7573179727)

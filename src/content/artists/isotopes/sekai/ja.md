@@ -1,9 +1,9 @@
 ---
 locale: "ja"
 translationKey: "sekai"
-code: "M2"
+code: "12"
 romanizedName: "SEKAI"
-categoryOrder: 4
+categoryOrder: 3
 itemOrder: 2
 meta: "ORIGIN: ISEKAIJOUCHO"
 debutDate: "2022-04-29"
@@ -52,7 +52,7 @@ theme:
     - label: "ソフトホワイト"
       value: "#F0EBFF"
 statusLabel: "TYPE"
-status: "CeVIO AI"
+status: "ACTIVE"
 image: "https://placehold.co/1200x800/0f0d1a/a78bfa?text=SEKAI"
 name: "星界"
 categoryTitle: "音楽的同位体"
@@ -138,6 +138,6 @@ seo:
 
 ## 外部リンク
 
-- 音楽的同位体公式サイト：<https://musical-isotope.kamitsubaki.jp/>
-- X (Twitter)：<https://twitter.com/musicalisotope>
-- YouTube：<https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA>
+- [音楽的同位体公式サイト](https://musical-isotope.kamitsubaki.jp/)
+- [X (Twitter)](https://twitter.com/musicalisotope)
+- [YouTube](https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA)

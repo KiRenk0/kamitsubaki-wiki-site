@@ -151,7 +151,7 @@ seo:
 - **街头机能风装束**：标志性的红蓝挑染长发与沉稳机能风外套，表现出出色的现场力量感。
 - **舞台版本演进**：从 1st Live「シャーマニズム」到舞台剧《御伽噺(染)》的「ver0.92_prototype」，春猿火在舞台形态上不断融合科技感与萨满神话色彩。
 
-{{spoiler::**“台风般强力又像天真少女”**：萌百资料中常将春猿火的音色与台风相比。在歌唱时她拥有掀翻舞台般的压倒性气场，而在日常直播与谈话环节中，她又展现出天真、活泼且极具少女感的亲和一面，这种巨大反差深受同好喜爱。}}
+{{spoiler::“台风般强力又像天真少女”：早期粉丝资料中常将春猿火的音色与台风相比。在歌唱时她拥有掀翻舞台般的压倒性气场，而在日常直播与谈话环节中，她又展现出天真、活泼且极具少女感的亲和一面，这种巨大反差深受同好喜爱。}}
 
 ## 相关企划 / 关联结构
 
@@ -159,10 +159,13 @@ seo:
 - **[羽累 / HARU](/zh/artists/isotopes/haru)**：基于春猿火声线制作的“音乐的同位体”CeVIO AI 声库。
 - **[神椿市建设中。](/zh/projects/arg/kamitsubaki-city)**：神椿 ARG 世界观企划成员。
 
-## 参考资料与外部链接
+## 参考资料
 
-- KAMITSUBAKI STUDIO 官方艺人页：<https://kamitsubaki.jp/artist/harusaruhi/>
-- KAMITSUBAKI STUDIO 官方 V.W.P 页面：<https://kamitsubaki.jp/artist/v-w-p/>
+- [KAMITSUBAKI STUDIO 官方艺人页](https://kamitsubaki.jp/artist/harusaruhi/)
+- [KAMITSUBAKI STUDIO 官方 V.W.P 页面](https://kamitsubaki.jp/artist/v-w-p/)
+
+## 外部链接
+
 - [YouTube 官方频道](https://www.youtube.com/channel/UCE7gtjLeZKNXLp5YURzYYeg)
 - [X (Twitter)](https://twitter.com/harusaruhi)
 - [TikTok](https://www.tiktok.com/@harusaruhi)

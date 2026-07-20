@@ -66,12 +66,7 @@ seo:
 - 「夏至下る」
 - 「飛燕」
 
-## 参考资料
-
-- YouTube：<https://www.youtube.com/channel/UCv9b9KtcBkM1_VEZZpK8bVQ>
-- Twitter：<https://twitter.com/yoshihisahirata>
-
 ## 外部链接
 
-- YouTube：<https://www.youtube.com/channel/UCv9b9KtcBkM1_VEZZpK8bVQ>
-- Twitter：<https://twitter.com/yoshihisahirata>
+- [YouTube](https://www.youtube.com/channel/UCv9b9KtcBkM1_VEZZpK8bVQ)
+- [Twitter](https://twitter.com/yoshihisahirata)

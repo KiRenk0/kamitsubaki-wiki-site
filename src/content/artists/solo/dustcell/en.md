@@ -122,7 +122,7 @@ DUSTCELL's place in KAMITSUBAKI cannot be reduced to a management label. It conn
 
 ## External Links
 
-- YouTube: <https://www.youtube.com/channel/UCJSzxbt4Acel9JdeLiY7tJQ>
-- X (Twitter): <https://twitter.com/dust_cell>
-- Bilibili: <https://space.bilibili.com/488979186>
-- Weibo: <https://www.weibo.com/u/7360051745>
+- [YouTube](https://www.youtube.com/channel/UCJSzxbt4Acel9JdeLiY7tJQ)
+- [X (Twitter)](https://twitter.com/dust_cell)
+- [Bilibili](https://space.bilibili.com/488979186)
+- [Weibo](https://www.weibo.com/u/7360051745)

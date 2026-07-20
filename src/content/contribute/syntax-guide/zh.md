@@ -371,6 +371,8 @@ machigai
 
 少量行内内容使用黑幕短语法，较长内容使用下一节的折叠块。两种写法都不需要文章脚本。
 
+`spoiler` 的参数只能是纯文本，不要在 `{{spoiler::...}}` 内部放入 `**加粗**`、Markdown 链接或 HTML，否则短语法会作为原文显示。如果整段黑幕都需要加粗，可以写成 `**{{spoiler::隐藏文字}}**`；需要在隐藏内容中混排标题、列表或链接时，请改用下一节的 `details` 折叠块。
+
 **写法：**
 
 ```md
@@ -476,12 +478,48 @@ machigai
 
 无法识别的来源或地址会保留为普通链接，不会生成任意第三方 iframe。新内容应使用短语法，以保持来源范围、尺寸、隐私属性和样式一致；不要直接复制第三方网站给出的原始 `<iframe>`。
 
+## 艺人页的外部链接品牌卡片
+
+艺人页有两处可以填写官方链接，它们使用同一套平台识别与品牌样式，但写法不同。
+
+### 资料卡中的官方链接
+
+资料卡使用 frontmatter 的 `officialLinks`。每项必须同时填写显示名称 `label` 和完整地址 `href`：
+
+```yaml
+officialLinks:
+  - label: "官方网站"
+    href: "https://kaf.kamitsubaki.jp/"
+  - label: "YouTube"
+    href: "https://www.youtube.com/@virtual_kaf"
+```
+
+### 正文中的外部链接
+
+正文必须使用独立的二级标题 `## 外部链接`，并在其下直接书写普通 Markdown 无序列表。每一项都要把平台或页面名称写进链接文字：
+
+```md
+## 外部链接
+
+- [官方网站](https://kaf.kamitsubaki.jp/)
+- [YouTube](https://www.youtube.com/@virtual_kaf)
+- [X (Twitter)](https://x.com/virtual_kaf)
+```
+
+- 不要写成 `- YouTube：<https://...>`、`- <https://...>` 或只有说明文字的列表项；这些写法无法生成完整卡片。
+- 不要使用“参考资料与外部链接”之类的混合标题。资料来源放在独立的 `## 参考资料` 下，供读者访问的官方主页和社交账号放在 `## 外部链接` 下。
+- 中文、日文和英文艺人正文分别使用 `外部链接`、`外部リンク` 和 `External Links`；标题必须保持准确，站点才能识别。
+- JavaScript 可用时，列表会在艺人页增强为带平台 Logo、品牌色和外链箭头的响应式链接卡片；语义仍是用于跳转的链接，不是表单按钮。没有 JavaScript 时，它会保留为可读、可点击的普通列表。
+- 当前可识别 Bilibili、YouTube、X/Twitter、TikTok、Instagram、微博、Niconico、Spotify、Apple Music、网易云音乐、pixiv、piapro、Steam、Wikipedia 和 KAMITSUBAKI 官方站点；其他网址使用通用网站样式。
+- 不要在正文中粘贴平台 SVG 或远程 Logo，图标由站点统一提供。
+
 ## 提交前自检
 
 - 文件路径和 `locale` 对应，三语文件共享同一个 `translationKey`。
 - frontmatter 的两个 `---`、YAML 缩进和字段类型没有被破坏。
 - 日期使用 `YYYY-MM-DD`，时长使用 `MM:SS` 或 `HH:MM:SS`。
 - 新事实有可靠来源，链接能打开，信息图片有合适的替代文本。
+- 艺人正文的外链使用独立的 `## 外部链接` 和 `- [名称](网址)` 列表，没有裸网址或混合标题。
 - 媒体使用 `@[来源](...)`，正文不包含脚本、事件属性、密码、令牌或个人隐私。
 - Preview / Changes 中只有本次需要的修改，没有误删其他语言或无关内容。
 

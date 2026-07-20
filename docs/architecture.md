@@ -49,11 +49,26 @@ tests/                  Node 测试
 - `site`：站点外壳和页面标签，来源为 JSON。
 - `artists`：艺人、创作者、组合、音乐同位体的 Markdown 条目。
 - `projects`：企划 Markdown 记录。
-- `logs`：时间线 JSON 记录。
+- `logs`：时间线 Markdown 记录。
+- `songs`：歌曲 Markdown 条目。
+- `albums`：专辑 Markdown 条目与结构化曲目表。
+- `announcements`：首页公告 Markdown 条目。
+- `syntaxGuide`、`editGuide`：站内贡献文档。
 
 schema 位于 `src/content.config.ts`，由 `pnpm check` 校验。
 
 首页 DATABASE 的艺人分类从 `src/content/artists/<category>/<entry>/<locale>.md` 的第一层文件夹自动推导。`categoryTitle`、`categorySubtitle`、`categoryOrder`、`itemOrder` 和 `code` 只是可选展示覆盖。
+
+## 当前功能映射
+
+- 外部链接品牌图标：平台注册表在 `src/lib/externalPlatforms.mjs`，由 `ExternalLinkCard.astro`、`PlatformIcon.astro` 和正文增强脚本共用。
+- 特别协力名单：资料在 `src/data/manualContributors.json`，由 `ManualContributors.astro` 随机排列展示；个人介绍和留言按投稿原文保存。
+- 站点品牌：长版与方形 Logo 分别位于 `public/brand/kamitsubakiwiki-long.svg` 和 `public/brand/kamitsubakiwiki-square.svg`；三语站名由 `src/lib/i18n.mjs` 统一提供。
+- 公告板：首页从 `announcements` collection 选择置顶或最新记录，并由 `AnnouncementModal.astro` 展示。
+- 专辑艺人分类：`src/lib/musicCatalog.mjs` 按专辑目录中的艺人 ID 分组；`src/pages/[locale]/albums/artists/[artist].astro` 渲染分类页，艺人封面优先取对应 `artists` 条目的 `image`。
+- 分层内容授权：`src/content.config.ts` 校验四种 `license` 标记，`ContentLicenseNotice.astro` 在详情页展示条目许可与媒体排除说明，`src/pages/[locale]/license.astro` 提供三语著作权信息页；编辑规则见[内容授权与来源标注](licensing.md)。
+
+这些功能的公开资料必须放在内容或数据文件中，组件只负责渲染。新增可翻译词条时，必须同时提供 `zh`、`ja`、`en`，并保持 `translationKey` 和路由结构一致。
 
 ## 元数据
 

@@ -127,7 +127,15 @@
       "与 KAMITSUBAKI STUDIO 及 THINKR 无关联。",
       "所有官方权利归其各自所有者所有。"
     ],
-    "copyright": "© 2026 LinkTh1rsty All Rights Reserved"
+    "license": {
+      "notice": "除另有声明外，本站有权许可的原创文字内容采用 CC BY-NC-SA 4.0 国际许可协议。",
+      "mediaNotice": "图片、封面、歌词、音视频、角色设计、Logo、商标及其他第三方内容不适用该默认协议。",
+      "detailsLabel": "著作权信息",
+      "detailsHref": "/zh/license",
+      "deedLabel": "CC BY-NC-SA 4.0",
+      "deedHref": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    "copyright": "© 2026 LinkTh1rsty · 部分权利保留"
   },
   "socialContact": {
     "enabled": true,

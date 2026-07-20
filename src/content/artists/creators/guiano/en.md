@@ -1,12 +1,12 @@
 ---
 locale: "en"
 translationKey: "guiano"
-code: "C2"
-romanizedName: "GUIANO"
-categoryOrder: 3
+code: "17"
+romanizedName: "Guiano"
+categoryOrder: 4
 itemOrder: 2
 meta: "ROLE: COMPOSER"
-debutDate: "2014-08-20"
+debutDate: "2014"
 profileTagline: "A Vocaloid producer and singer-songwriter under KAMITSUBAKI STUDIO who has provided songs for Rim, KAF, Myuk, and others."
 designCredits: []
 affiliations:
@@ -38,7 +38,7 @@ theme:
     - label: "Soft Cream"
       value: "#FFF4E6"
 statusLabel: "STATUS"
-status: "ACTIVE"
+status: "INDEPENDENT"
 image: "https://placehold.co/1200x800/1a1410/f5a623?text=GUIANO"
 name: "Guiano"
 categoryTitle: "Creators"
@@ -92,4 +92,4 @@ Useful related entries:
 
 ## External Links
 
-- KAMITSUBAKI STUDIO Guiano page: <https://kamitsubaki.jp/artist/guiano/>
+- [KAMITSUBAKI STUDIO Guiano page](https://kamitsubaki.jp/artist/guiano/)

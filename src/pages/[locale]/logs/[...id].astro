@@ -4,6 +4,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import SiteNav from '../../../components/SiteNav.astro';
 import SiteFooter from '../../../components/SiteFooter.astro';
 import TableOfContents from '../../../components/TableOfContents.astro';
+import ContentLicenseNotice from '../../../components/ContentLicenseNotice.astro';
 import { buildLogDisplayData, getLocalizedSite } from '../../../lib/homeData.mjs';
 import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../lib/i18n.mjs';
 import { buildLogMetadata } from '../../../lib/metadata.mjs';
@@ -134,6 +135,10 @@ const labels = {
           <Content />
         </article>
       )}
+    </div>
+
+    <div class="mx-auto mt-10 max-w-4xl">
+      <ContentLicenseNotice license={entry.data.license} locale={localeCode} />
     </div>
   </main>
 

@@ -1,9 +1,9 @@
 ---
 locale: "en"
 translationKey: "haru"
-code: "M5"
+code: "15"
 romanizedName: "HARU"
-categoryOrder: 4
+categoryOrder: 3
 itemOrder: 5
 meta: "ORIGIN: HARUSARUHI"
 debutDate: "2023-11-13"
@@ -52,7 +52,7 @@ theme:
     - label: "Soft Light"
       value: "#F0FFF4"
 statusLabel: "TYPE"
-status: "CeVIO AI"
+status: "ACTIVE"
 image: "https://placehold.co/1200x800/0f1a14/48bb78?text=HARU"
 name: "HARU"
 categoryTitle: "Musical Isotopes"
@@ -120,6 +120,6 @@ HARU is the fifth member of the "Musical Isotope Project". By digitizing Harusar
 
 ## External Links
 
-- Musical Isotope official website: <https://musical-isotope.kamitsubaki.jp/>
-- Musical Isotope official X (Twitter): <https://twitter.com/musicalisotope>
-- Musical Isotope official YouTube channel: <https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA>
+- [Musical Isotope official website](https://musical-isotope.kamitsubaki.jp/)
+- [Musical Isotope official X (Twitter)](https://twitter.com/musicalisotope)
+- [Musical Isotope official YouTube channel](https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA)

@@ -4,6 +4,10 @@ export const defaultSiteDescription = 'KAMITSUBAKI STUDIO 非官方粉丝百科�
 export const siteName = getLocalizedSiteName('en');
 
 const markdownPatterns = [
+  [/\{\{(?:ruby|abbr|time)::([^}:]+)(?:::[^}]*)?\}\}/g, '$1'],
+  [/\{\{(?:spoiler|mark|kbd|small|sup|sub)::([^}]*)\}\}/g, '$1'],
+  [/\{\{(?:details|media-switcher)::[^}]*\}\}|\{\{\/(?:details|media-switcher)\}\}|\{\{lyrics-controls::[^}]*\}\}/g, ''],
+  [/\{\{[^{}]*\}\}/g, ''],
   [/^#+\s+/g, ''],
   [/\[([^\]]+)\]\([^)]+\)/g, '$1'],
   [/!\[[^\]]*]\([^)]+\)/g, ''],

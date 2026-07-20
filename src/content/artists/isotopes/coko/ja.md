@@ -1,9 +1,9 @@
 ---
 locale: "ja"
 translationKey: "coko"
-code: "M4"
+code: "14"
 romanizedName: "COKO"
-categoryOrder: 4
+categoryOrder: 3
 itemOrder: 4
 meta: "ORIGIN: KOKO"
 debutDate: "2023-01-25"
@@ -52,7 +52,7 @@ theme:
     - label: "ソフトホワイト"
       value: "#F0F4F8"
 statusLabel: "TYPE"
-status: "CeVIO AI"
+status: "ACTIVE"
 image: "https://placehold.co/1200x800/0a1120/4299e1?text=COKO"
 name: "狐子"
 categoryTitle: "音楽的同位体"
@@ -125,6 +125,6 @@ CeVIO AIプラットフォーム上で動作し、日本語の「狐子（ここ
 
 ## 外部リンク
 
-- 音楽的同位体 公式サイト：<https://musical-isotope.kamitsubaki.jp/>
-- 音楽的同位体 公式 X (Twitter)：<https://twitter.com/musicalisotope>
-- 音楽的同位体 公式 YouTubeチャンネル：<https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA>
+- [音楽的同位体 公式サイト](https://musical-isotope.kamitsubaki.jp/)
+- [音楽的同位体 公式 X (Twitter)](https://twitter.com/musicalisotope)
+- [音楽的同位体 公式 YouTubeチャンネル](https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA)

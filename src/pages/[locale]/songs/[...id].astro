@@ -8,6 +8,7 @@ import WikiArticleHeader from '../../../components/WikiArticleHeader.astro';
 import TableOfContents from '../../../components/TableOfContents.astro';
 import ContributorRoster from '../../../components/ContributorRoster.astro';
 import MusicSubnav from '../../../components/MusicSubnav.astro';
+import ContentLicenseNotice from '../../../components/ContentLicenseNotice.astro';
 import { getLocalizedEntries, getLocalizedSite } from '../../../lib/homeData.mjs';
 import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../lib/i18n.mjs';
 import { buildArticleMetadata } from '../../../lib/metadata.mjs';
@@ -258,6 +259,10 @@ const themeStyle = [
         <ContributorRoster mode="entry" locale={localeCode} collection="songs" entryId={id} />
       </aside>
       
+    </div>
+
+    <div class="mx-auto max-w-[92rem] px-4 pb-6 sm:px-6">
+      <ContentLicenseNotice license={entry.data.license} locale={localeCode} />
     </div>
 
     <SiteFooter footer={homeContent.footer} />

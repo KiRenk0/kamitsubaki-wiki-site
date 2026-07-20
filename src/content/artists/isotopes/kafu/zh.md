@@ -108,4 +108,4 @@ seo:
 
 ## 外部链接
 
-- 音乐同位体 可不 官方网站：<https://kafu.kamitsubaki.jp/>
+- [音乐同位体 可不 官方网站](https://kafu.kamitsubaki.jp/)

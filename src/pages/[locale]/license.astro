@@ -1,0 +1,153 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import SiteNav from '../../components/SiteNav.astro';
+import { getLocalizedSite } from '../../lib/homeData.mjs';
+import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../lib/i18n.mjs';
+
+export function getStaticPaths() {
+  return supportedLocales.map((locale) => ({ params: { locale } }));
+}
+
+const { locale } = Astro.params;
+const localeCode = locale as 'zh' | 'ja' | 'en';
+const siteEntries = await getCollection('site');
+const homeContent = getLocalizedSite(siteEntries, localeCode, defaultLocale);
+const currentPath = '/license';
+const localeLinks = buildLocaleLinks(homeContent, localeCode, currentPath);
+const alternates = supportedLocales.map((code) => ({ locale: code, href: `/${code}${currentPath}` }));
+
+const content = {
+  zh: {
+    eyebrow: '版权与许可',
+    title: '著作权信息',
+    intro: '本站采用分层授权：只许可本站实际拥有或有权许可的内容，不将第三方作品自动纳入开放许可。',
+    defaultTitle: '默认文字许可',
+    defaultBody: '除条目或段落另有标注外，本站有权许可的原创文字内容采用知识共享 署名—非商业性使用—相同方式共享 4.0 国际许可协议（CC BY-NC-SA 4.0）。该许可不代表本站拥有条目所涉及作品、人物、品牌或素材的权利。',
+    permissionsTitle: '你可以',
+    permissions: ['以非商业目的复制、转载和分享许可文字。', '以非商业目的翻译、改写或基于许可文字创作。'],
+    conditionsTitle: '你需要遵守',
+    conditions: ['署名：标明条目标题、本站名称或指定署名者，并提供原文链接。', '协议：提供 CC BY-NC-SA 4.0 协议链接。', '修改说明：明确说明是否翻译、删改、整理或补充。', '非商业：不得将许可内容主要用于商业优势或金钱回报。', '相同方式共享：发布演绎内容时采用相同或兼容的许可。'],
+    attributionTitle: '推荐署名格式',
+    attributionExample: '《条目标题》，KAMITSUBAKI Fan Wiki contributors，原文：https://kamitsubaki.wiki/zh/…，CC BY-NC-SA 4.0；已翻译并节选。',
+    exclusionsTitle: '不属于默认 4.0 许可的内容',
+    exclusions: ['图片、专辑封面、截图、插画、角色设计和摄影作品。', '歌词、音频、视频、音乐、表演和嵌入的第三方播放器内容。', 'KAMITSUBAKI、THINKR 及其他权利人的 Logo、商标和品牌标识。', '标为“原作者保留权利”或“授权使用”的内容。', '来自其他网站、出版物或作者且采用其他协议的文字。', '网站程序代码及仓库中的软件文件。'],
+    mixedTitle: '采用其他协议的第三方文字',
+    mixedBody: '复制、翻译或改编自第三方的文字继续采用其原有许可协议。相关条目应标明原页面、署名和本站所作修改，不会自动升级为本站的 4.0 许可。',
+    contributionsTitle: '投稿与贡献',
+    contributionsBody: '本站目前不通过贡献入口取得统一的 CC 授权。其他贡献者提交的内容只有在权利人另行明确同意，或条目中已记录相应许可时，才纳入 CC BY-NC-SA 4.0；否则其权利仍由贡献者保留。贡献者不得提交自己无权许可或无权提供本站使用的材料。',
+    noticesTitle: '其他说明',
+    noticesBody: '事实本身、公共领域材料以及法律允许无需授权使用的内容，不因本页声明产生额外限制。许可内容按现状提供，不保证完整、准确或适合特定用途。形象权、隐私权、商标权等其他权利仍可能限制具体使用。',
+    officialDeed: '查看 CC BY-NC-SA 4.0 官方许可摘要',
+    oldDeed: '查看 CC BY-NC-SA 3.0 中国大陆许可',
+  },
+  ja: {
+    eyebrow: '著作権とライセンス',
+    title: '著作権情報',
+    intro: '本サイトは階層型のライセンス表示を採用し、実際に権利を有する、または許諾できる内容のみをライセンスします。第三者の作品が自動的に対象になることはありません。',
+    defaultTitle: '文章の既定ライセンス',
+    defaultBody: '記事または段落に別の表示がない限り、本サイトが許諾権限を有するオリジナル文章は Creative Commons 表示—非営利—継承 4.0 国際（CC BY-NC-SA 4.0）で提供されます。この表示は、記事が扱う作品、人物、ブランド、素材の権利を本サイトが所有することを意味しません。',
+    permissionsTitle: '許可されること',
+    permissions: ['非営利目的で、対象文章を複製・転載・共有すること。', '非営利目的で、対象文章を翻訳・改変・翻案すること。'],
+    conditionsTitle: '守るべき条件',
+    conditions: ['表示：記事名、本サイト名または指定された表示名、元ページへのリンクを示すこと。', 'ライセンス：CC BY-NC-SA 4.0 へのリンクを示すこと。', '変更表示：翻訳、抜粋、整理、追記などの変更を明示すること。', '非営利：商業上の利益または金銭的報酬を主目的としないこと。', '継承：翻案物を同一または互換ライセンスで公開すること。'],
+    attributionTitle: '推奨クレジット例',
+    attributionExample: '「記事名」KAMITSUBAKI Fan Wiki contributors、原文：https://kamitsubaki.wiki/ja/…、CC BY-NC-SA 4.0、翻訳・抜粋済み。',
+    exclusionsTitle: '既定の 4.0 ライセンスに含まれないもの',
+    exclusions: ['画像、ジャケット、スクリーンショット、イラスト、キャラクターデザイン、写真。', '歌詞、音声、映像、音楽、実演、埋め込まれた第三者プレイヤーの内容。', 'KAMITSUBAKI、THINKR その他の権利者のロゴ、商標、ブランド表示。', '「原著作者が権利を留保」または「許諾による使用」と表示された内容。', '別のサイト、出版物、著作者に由来し、別の条件で提供される文章。', 'サイトのプログラムコードおよびリポジトリ内のソフトウェアファイル。'],
+    mixedTitle: '別のライセンスで提供される第三者の文章',
+    mixedBody: '第三者から複製、翻訳、翻案した文章には、引き続き元のライセンスが適用されます。該当記事には原ページ、表示、変更内容を記載し、本サイトの 4.0 へ自動的に更新しません。',
+    contributionsTitle: '投稿と貢献',
+    contributionsBody: '現在、本サイトは投稿画面で一律の CC 許諾を取得しません。他の貢献者による内容は、権利者が別途明示的に同意した場合、または記事に対応するライセンスが記録されている場合に限り CC BY-NC-SA 4.0 の対象となります。それ以外の権利は貢献者に留保されます。',
+    noticesTitle: 'その他',
+    noticesBody: '事実、パブリックドメインの素材、法令上許諾を要しない利用には、本表示による追加制限はありません。対象内容は現状有姿で提供され、完全性、正確性、特定目的への適合性は保証されません。肖像権、プライバシー権、商標権などが利用を制限する場合があります。',
+    officialDeed: 'CC BY-NC-SA 4.0 公式ライセンス概要',
+    oldDeed: 'CC BY-NC-SA 3.0 中国大陸版',
+  },
+  en: {
+    eyebrow: 'Copyright and licensing',
+    title: 'Copyright information',
+    intro: 'This site uses layered licensing. It licenses only material that it owns or has authority to license; third-party works are never automatically included.',
+    defaultTitle: 'Default text license',
+    defaultBody: 'Unless an entry or passage says otherwise, original text that this site has the right to license is available under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). This does not mean the site owns rights in the works, people, brands, or media described by an entry.',
+    permissionsTitle: 'You may',
+    permissions: ['Copy, redistribute, and share licensed text for noncommercial purposes.', 'Translate, revise, or build upon licensed text for noncommercial purposes.'],
+    conditionsTitle: 'You must',
+    conditions: ['Attribution: identify the entry, this site or the designated attribution party, and link to the source page.', 'License: link to CC BY-NC-SA 4.0.', 'Changes: say whether you translated, excerpted, reorganized, or added to the material.', 'NonCommercial: do not use the material primarily for commercial advantage or monetary compensation.', 'ShareAlike: distribute adaptations under the same or a compatible license.'],
+    attributionTitle: 'Recommended attribution',
+    attributionExample: '“Entry title,” KAMITSUBAKI Fan Wiki contributors, source: https://kamitsubaki.wiki/en/…, CC BY-NC-SA 4.0; translated and excerpted.',
+    exclusionsTitle: 'Excluded from the default 4.0 license',
+    exclusions: ['Images, cover art, screenshots, illustrations, character designs, and photographs.', 'Lyrics, audio, video, music, performances, and content delivered by embedded third-party players.', 'Logos, trademarks, and branding owned by KAMITSUBAKI, THINKR, or other rightsholders.', 'Material marked “rights reserved” or “used with authorization.”', 'Text from another website, publication, or author that is offered under different terms.', 'Site source code and software files in the repository.'],
+    mixedTitle: 'Third-party text under other licenses',
+    mixedBody: 'Text copied, translated, or adapted from a third party remains under its original license. Affected entries should identify the source page, attribution, and changes; that material is not automatically upgraded to this site’s 4.0 license.',
+    contributionsTitle: 'Contributions',
+    contributionsBody: 'The contribution interface does not currently obtain a blanket CC license. Material submitted by another contributor is covered by CC BY-NC-SA 4.0 only when the rightsholder separately gives clear permission or the relevant license is recorded on the entry. Otherwise, the contributor retains their rights.',
+    noticesTitle: 'Other notices',
+    noticesBody: 'Facts, public-domain material, and uses permitted without authorization by law are not additionally restricted by this notice. Licensed material is provided as-is without warranties of completeness, accuracy, or fitness for a particular purpose. Publicity, privacy, trademark, and other rights may still restrict a particular use.',
+    officialDeed: 'Official CC BY-NC-SA 4.0 license deed',
+    oldDeed: 'CC BY-NC-SA 3.0 China Mainland license',
+  },
+}[localeCode];
+
+const metadata = {
+  title: `${content.title} - Kamitsubaki Studio Fan Wiki`,
+  description: content.intro,
+  canonicalPath: `/${localeCode}${currentPath}`,
+  type: 'article' as const,
+};
+---
+
+<BaseLayout lang={localeCode} alternates={alternates} title={metadata.title} metadata={metadata}>
+  <SiteNav navItems={homeContent.navItems} localeLinks={localeLinks} brandLines={homeContent.hero.brandLines} compact homeHref={`/${localeCode}/`} />
+
+  <main class="mx-auto max-w-5xl px-4 pb-16 pt-24 sm:px-6 sm:pt-28">
+    <header class="border-b border-white/10 pb-9 reveal-up">
+      <p class="font-mono text-[9px] uppercase tracking-[0.24em] text-white/35">{content.eyebrow}</p>
+      <h1 class="mt-4 font-serif text-4xl font-semibold tracking-[0.06em] text-white sm:text-5xl">{content.title}</h1>
+      <p class="mt-6 max-w-3xl text-sm leading-7 text-white/62 sm:text-[15px] sm:leading-8">{content.intro}</p>
+    </header>
+
+    <div class="mt-10 grid gap-8 lg:grid-cols-12">
+      <article class="wiki-reader wiki-prose prose prose-invert max-w-none lg:col-span-8 reveal-up">
+        <h2>{content.defaultTitle}</h2>
+        <p>{content.defaultBody}</p>
+
+        <h2>{content.permissionsTitle}</h2>
+        <ul>{content.permissions.map((item) => <li>{item}</li>)}</ul>
+
+        <h2>{content.conditionsTitle}</h2>
+        <ul>{content.conditions.map((item) => <li>{item}</li>)}</ul>
+
+        <h2>{content.attributionTitle}</h2>
+        <blockquote>{content.attributionExample}</blockquote>
+
+        <h2>{content.exclusionsTitle}</h2>
+        <ul>{content.exclusions.map((item) => <li>{item}</li>)}</ul>
+
+        <h2>{content.mixedTitle}</h2>
+        <p>{content.mixedBody}</p>
+
+        <h2>{content.contributionsTitle}</h2>
+        <p>{content.contributionsBody}</p>
+
+        <h2>{content.noticesTitle}</h2>
+        <p>{content.noticesBody}</p>
+      </article>
+
+      <aside class="lg:col-span-4">
+        <div class="sticky top-28 rounded-md border border-white/10 bg-white/[0.03] p-6 reveal-up">
+          <p class="font-mono text-[9px] uppercase tracking-[0.2em] text-white/35">LICENSES</p>
+          <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="mt-5 block border-b border-white/8 pb-5 text-sm leading-6 text-cyan-50/72 transition-colors hover:text-cyan-50">
+            {content.officialDeed}
+          </a>
+          <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/" class="mt-5 block text-sm leading-6 text-white/52 transition-colors hover:text-white">
+            {content.oldDeed}
+          </a>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <SiteFooter footer={homeContent.footer} />
+</BaseLayout>

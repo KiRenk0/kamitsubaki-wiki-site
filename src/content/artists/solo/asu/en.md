@@ -85,5 +85,5 @@ ASU originates from Shinkai-kai, a world that exists in parallel with the Kamits
 
 ## External Links
 
-- X (Twitter): <https://twitter.com/ASU_virtual>
-- YouTube: <https://www.youtube.com/channel/UCBLGjbYv6-xxju1i44RjnnA>
+- [X (Twitter)](https://twitter.com/ASU_virtual)
+- [YouTube](https://www.youtube.com/channel/UCBLGjbYv6-xxju1i44RjnnA)

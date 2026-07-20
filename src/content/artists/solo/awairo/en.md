@@ -86,5 +86,5 @@ Awairo connects with other Kamitsubaki artists through major events such as KAMI
 
 ## External Links
 
-- X (Twitter): <https://twitter.com/Awairo_info>
-- YouTube: <https://www.youtube.com/@yunosuke23>
+- [X (Twitter)](https://twitter.com/Awairo_info)
+- [YouTube](https://www.youtube.com/@yunosuke23)

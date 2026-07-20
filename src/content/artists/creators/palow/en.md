@@ -95,5 +95,5 @@ Useful related entries:
 
 ## External Links
 
-- X (Twitter): <https://twitter.com/PALOW_>
-- KAMITSUBAKI STUDIO PALOW. page: <https://kamitsubaki.jp/artist/palow/>
+- [X (Twitter)](https://twitter.com/PALOW_)
+- [KAMITSUBAKI STUDIO PALOW. page](https://kamitsubaki.jp/artist/palow/)

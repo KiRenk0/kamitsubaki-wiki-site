@@ -49,7 +49,8 @@ if (!announcement) return;
   const openButton = document.querySelector('[data-announcement-open]');
   const closeButtons = modal?.querySelectorAll('[data-announcement-close]') ?? [];
   const storageKey = 'kamitsubaki-wiki-announcement-seen';
-  const hasSeenAnnouncement = window.localStorage.getItem(storageKey) === 'true';
+  const announcementId = modal instanceof HTMLElement ? modal.dataset.announcementId ?? '' : '';
+  const hasSeenAnnouncement = window.localStorage.getItem(storageKey) === announcementId;
   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   let closeTimer: number | undefined;
 
@@ -77,7 +78,7 @@ if (!announcement) return;
   };
 
   if (!hasSeenAnnouncement && modal instanceof HTMLElement) {
-    window.localStorage.setItem(storageKey, 'true');
+    window.localStorage.setItem(storageKey, announcementId);
     window.setTimeout(openModal, 450);
   }
 

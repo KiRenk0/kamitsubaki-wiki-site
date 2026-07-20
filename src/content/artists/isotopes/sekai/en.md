@@ -1,9 +1,9 @@
 ---
 locale: "en"
 translationKey: "sekai"
-code: "M2"
+code: "12"
 romanizedName: "SEKAI"
-categoryOrder: 4
+categoryOrder: 3
 itemOrder: 2
 meta: "ORIGIN: ISEKAIJOUCHO"
 debutDate: "2022-04-29"
@@ -52,7 +52,7 @@ theme:
     - label: "Soft White"
       value: "#F0EBFF"
 statusLabel: "TYPE"
-status: "CeVIO AI"
+status: "ACTIVE"
 image: "https://placehold.co/1200x800/0f0d1a/a78bfa?text=SEKAI"
 name: "SEKAI"
 categoryTitle: "Musical Isotopes"
@@ -138,6 +138,6 @@ Contact: musical-isotope@kamitsubaki.jp
 
 ## External Links
 
-- Musical Isotope official website: <https://musical-isotope.kamitsubaki.jp/>
-- X (Twitter): <https://twitter.com/musicalisotope>
-- YouTube: <https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA>
+- [Musical Isotope official website](https://musical-isotope.kamitsubaki.jp/)
+- [X (Twitter)](https://twitter.com/musicalisotope)
+- [YouTube](https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA)

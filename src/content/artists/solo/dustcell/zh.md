@@ -129,7 +129,7 @@ DUSTCELL 与 KAMITSUBAKI STUDIO 的关系不能简化为“旗下组合”四个
 
 ## 外部链接
 
-- YouTube：<https://www.youtube.com/channel/UCJSzxbt4Acel9JdeLiY7tJQ>
-- X (Twitter)：<https://twitter.com/dust_cell>
-- Bilibili：<https://space.bilibili.com/488979186>
-- Weibo：<https://www.weibo.com/u/7360051745>
+- [YouTube](https://www.youtube.com/channel/UCJSzxbt4Acel9JdeLiY7tJQ)
+- [X (Twitter)](https://twitter.com/dust_cell)
+- [Bilibili](https://space.bilibili.com/488979186)
+- [Weibo](https://www.weibo.com/u/7360051745)

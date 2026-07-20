@@ -64,4 +64,4 @@ seo:
 
 ## 外部リンク
 
-- Twitter：<https://twitter.com/tsukisimasouki>
+- [Twitter](https://twitter.com/tsukisimasouki)

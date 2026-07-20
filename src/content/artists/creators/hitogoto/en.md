@@ -86,5 +86,5 @@ Useful related entries:
 
 ## External Links
 
-- Twitter: <https://twitter.com/hito_go_to_7>
-- YouTube: <https://www.youtube.com/@hitogoto>
+- [Twitter](https://twitter.com/hito_go_to_7)
+- [YouTube](https://www.youtube.com/@hitogoto)

@@ -159,7 +159,7 @@ seo:
 - **高中生制服形态**：配合青春期毕业概念推出的常服视觉。
 - **The Cosmic Puppets**：2022 年公开的第二代舞台演出视觉，强化了宇宙与傀儡的解构美学。
 
-{{spoiler::**推特账号冻结事件**：2021 年理芽因早年在旧社交账号上上传的外文歌曲 Cover 短片遭遇第三方版权申诉，导致账号暂时冻结。运营方随即发布公告澄清事实，并为其启用了新的官方 Twitter 账号，展示了运营团队与理芽对作品版权的严谨态度。}}
+{{spoiler::推特账号冻结事件：2021 年理芽因早年在旧社交账号上上传的外文歌曲 Cover 短片遭遇第三方版权申诉，导致账号暂时冻结。运营方随即发布公告澄清事实，并为其启用了新的官方 Twitter 账号，展示了运营团队与理芽对作品版权的严谨态度。}}
 
 ## 相关企划 / 关联结构
 
@@ -167,11 +167,14 @@ seo:
 - **[裏命 / RIME](/zh/artists/isotopes/rime)**：基于理芽声线制作的“音乐的同位体”CeVIO AI 声库。
 - **[神椿市建设中。](/zh/projects/arg/kamitsubaki-city)**：神椿 ARG 世界观企划成员。
 
-## 参考资料与外部链接
+## 参考资料
 
-- KAMITSUBAKI STUDIO 官方艺人页：<https://kamitsubaki.jp/artist/rim/>
-- KAMITSUBAKI STUDIO 官方 V.W.P 页面：<https://kamitsubaki.jp/artist/v-w-p/>
-- Wikipedia (Rim): <https://en.wikipedia.org/wiki/Rim_%28singer%29>
+- [KAMITSUBAKI STUDIO 官方艺人页](https://kamitsubaki.jp/artist/rim/)
+- [KAMITSUBAKI STUDIO 官方 V.W.P 页面](https://kamitsubaki.jp/artist/v-w-p/)
+- [Wikipedia (Rim)](https://en.wikipedia.org/wiki/Rim_%28singer%29)
+
+## 外部链接
+
 - [YouTube 官方频道](https://www.youtube.com/c/RIM_virtual)
 - [X (Twitter)](https://twitter.com/RIM_virtual)
 - [Instagram](https://www.instagram.com/rim_virtual/?hl=ja)

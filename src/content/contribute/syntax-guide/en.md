@@ -382,6 +382,8 @@ The result is:
 
 Use the spoiler shortcode for short inline content and the block form below for longer optional content. Neither form requires article-level JavaScript.
 
+The `spoiler` argument is plain text. Do not put `**bold text**`, Markdown links, or HTML inside `{{spoiler::...}}`, because the shortcode will remain visible as source text. To bold the complete spoiler, write `**{{spoiler::hidden text}}**`. Use the `details` block in the next section when hidden content needs headings, lists, links, or other mixed formatting.
+
 **Source:**
 
 ```md
@@ -487,12 +489,48 @@ Multiple shortcodes may be placed in the same Markdown table cell. Players are s
 
 An unrecognized provider or target remains a normal link and never becomes an arbitrary third-party iframe. New content should use the shortcode so provider scope, privacy attributes, sizing, and styling stay consistent; do not paste raw third-party `<iframe>` snippets.
 
+## Branded external-link cards on artist pages
+
+Artist pages can show official links in two places. Both use the same platform detection and brand styling, but their source syntax is different.
+
+### Official links in the infobox
+
+The infobox reads `officialLinks` from frontmatter. Every item must provide both a display `label` and a complete `href`:
+
+```yaml
+officialLinks:
+  - label: "Official Website"
+    href: "https://kaf.kamitsubaki.jp/"
+  - label: "YouTube"
+    href: "https://www.youtube.com/@virtual_kaf"
+```
+
+### External links in the article body
+
+Use the exact standalone level-two heading `## External Links`, followed immediately by an ordinary Markdown unordered list. Put the platform or page name inside each link:
+
+```md
+## External Links
+
+- [Official Website](https://kaf.kamitsubaki.jp/)
+- [YouTube](https://www.youtube.com/@virtual_kaf)
+- [X (Twitter)](https://x.com/virtual_kaf)
+```
+
+- Do not write `- YouTube: <https://...>`, `- <https://...>`, or a list item containing only descriptive text. Those forms cannot produce a complete card.
+- Do not combine the section with sources under a heading such as “Sources and External Links.” Put evidence in a separate `## Sources` section and reader-facing official pages or social accounts under `## External Links`.
+- Chinese, Japanese, and English artist articles use `外部链接`, `外部リンク`, and `External Links`, respectively. The heading must be exact so the site can recognize it.
+- With JavaScript, the artist page enhances the list into responsive link cards with platform logos, brand colors, and an external-link arrow. They remain navigation links rather than form buttons. Without JavaScript, the source remains a readable, clickable list.
+- Recognized platforms include Bilibili, YouTube, X/Twitter, TikTok, Instagram, Weibo, Niconico, Spotify, Apple Music, NetEase Cloud Music, pixiv, piapro, Steam, Wikipedia, and official KAMITSUBAKI sites. Other URLs receive the generic website style.
+- Do not paste platform SVG or remote logo images into the article; the site supplies the icons centrally.
+
 ## Pre-PR checklist
 
 - The path matches `locale`, and localized siblings share one `translationKey`.
 - Both `---` markers, YAML indentation, and field types are intact.
 - Dates use `YYYY-MM-DD`; durations use `MM:SS` or `HH:MM:SS`.
 - New facts have reliable sources, links open, and informative images have useful alternative text.
+- Artist-body links use a standalone `## External Links` heading and `- [Label](URL)` list items, with no bare URLs or combined heading.
 - Media uses `@[provider](...)`; the body contains no scripts, event handlers, credentials, tokens, or private information.
 - Preview / Changes contains only the intended edit and no accidental deletion of another locale.
 

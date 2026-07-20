@@ -147,8 +147,8 @@ V.W.P 与神椿体系中的「魔女」世界观直接相关。五位成员各�
 
 ## 外部链接
 
-- KAMITSUBAKI STUDIO V.W.P 页面：<https://kamitsubaki.jp/artist/v-w-p/>
-- YouTube：<https://www.youtube.com/channel/UCfiSo8tO3WPU-8YOgr4Ba6g>
-- X (Twitter)：<https://twitter.com/VWP_virtual>
-- Bilibili：<https://space.bilibili.com/1636327445>
-- Weibo：<https://weibo.com/u/7573179727>
+- [KAMITSUBAKI STUDIO V.W.P 页面](https://kamitsubaki.jp/artist/v-w-p/)
+- [YouTube](https://www.youtube.com/channel/UCfiSo8tO3WPU-8YOgr4Ba6g)
+- [X (Twitter)](https://twitter.com/VWP_virtual)
+- [Bilibili](https://space.bilibili.com/1636327445)
+- [Weibo](https://weibo.com/u/7573179727)

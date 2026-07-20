@@ -90,6 +90,6 @@ Representative works include “Cat Loving”, “Henshoku”, “Kanri-yoku”,
 
 ## External Links
 
-- YouTube: <https://www.youtube.com/channel/UC9_8AXpxjjNl62HPhF5IAyg>
-- Twitter: <https://twitter.com/moi__moimi>
-- Bilibili: <https://space.bilibili.com/627704742>
+- [YouTube](https://www.youtube.com/channel/UC9_8AXpxjjNl62HPhF5IAyg)
+- [Twitter](https://twitter.com/moi__moimi)
+- [Bilibili](https://space.bilibili.com/627704742)

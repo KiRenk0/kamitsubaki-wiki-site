@@ -32,7 +32,7 @@ officialLinks:
     href: https://space.bilibili.com/3546832122677764
 featuredEntries:
   - label: GIRLS' REV PROJECT
-    href: /zh/projects/labels/girls-revolution-project
+    href: /en/projects/labels/girls-revolution-project
     kind: project
 theme:
   name: KAKYOIN theme

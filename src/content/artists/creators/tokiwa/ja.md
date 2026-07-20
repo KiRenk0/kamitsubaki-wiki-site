@@ -79,5 +79,5 @@ EDM、R&B、ロックと柔軟にジャンルを渡り歩くその作風は、CR
 
 ## 外部リンク
 
-- Twitter：<https://twitter.com/tokiwa_shion>
-- YouTube：<https://youtube.com/@tokiwa_shion>
+- [Twitter](https://twitter.com/tokiwa_shion)
+- [YouTube](https://youtube.com/@tokiwa_shion)

@@ -49,11 +49,26 @@ tests/                  Node テスト
 - `site`: JSON のサイト外枠とページラベル
 - `artists`: アーティスト、クリエイター、ユニット、音楽的同位体の Markdown 記事
 - `projects`: プロジェクトの Markdown レコード
-- `logs`: タイムラインの JSON レコード
+- `logs`: タイムラインの Markdown レコード
+- `songs`: 楽曲の Markdown 記事
+- `albums`: 構造化された収録曲一覧を持つアルバムの Markdown 記事
+- `announcements`: トップページのお知らせ Markdown
+- `syntaxGuide`、`editGuide`: サイト内のコントリビューション文書
 
 schema は `src/content.config.ts` にあり、`pnpm check` で検証されます。
 
 トップページ DATABASE のアーティスト分類は `src/content/artists/<category>/<entry>/<locale>.md` の第一階層フォルダから自動生成されます。`categoryTitle`、`categorySubtitle`、`categoryOrder`、`itemOrder`、`code` は任意の表示上書きです。
+
+## 現在の機能マップ
+
+- 外部リンクのブランドアイコン：`src/lib/externalPlatforms.mjs` を共通レジストリとし、`ExternalLinkCard.astro`、`PlatformIcon.astro`、記事拡張スクリプトから利用します。
+- 特別協力者：データは `src/data/manualContributors.json` に置き、`ManualContributors.astro` がランダム順で表示します。自己紹介とメッセージは投稿された原文のまま保存します。
+- サイトブランド：横長・正方形ロゴは `public/brand/kamitsubakiwiki-long.svg` と `public/brand/kamitsubakiwiki-square.svg`、三言語のサイト名は `src/lib/i18n.mjs` が一元管理します。
+- お知らせボード：トップページが `announcements` collection から固定または最新の記事を選び、`AnnouncementModal.astro` で表示します。
+- アルバムのアーティスト分類：`src/lib/musicCatalog.mjs` がディレクトリ内のアーティスト ID でアルバムを分類し、`src/pages/[locale]/albums/artists/[artist].astro` が分類ページを描画します。カバーには対応する `artists` 記事の `image` を優先します。
+- 階層型コンテンツライセンス：`src/content.config.ts` が4種類の `license` 表示を検証し、`ContentLicenseNotice.astro` が詳細ページで記事ライセンスとメディア除外を表示します。`src/pages/[locale]/license.astro` は3言語の著作権情報ページを生成します。編集規則は[コンテンツのライセンスと出典表示](licensing.ja.md)を参照してください。
+
+公開データはコンテンツまたはデータファイルに置き、コンポーネントは表示のみを担当します。翻訳対象の記事には `zh`、`ja`、`en` をすべて用意し、`translationKey` とルート構造を一致させてください。
 
 ## メタデータ
 

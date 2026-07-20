@@ -59,6 +59,15 @@ test('article metadata scans markdown when seo description is not provided', () 
   assert.equal(scanMarkdownDescription(''), 'KAMITSUBAKI STUDIO 非官方粉丝百科。');
 });
 
+test('article metadata converts Wiki shortcodes to readable plain text', () => {
+  assert.equal(
+    scanMarkdownDescription('{{ruby::花譜::かふ::kaf}} 是 {{abbr::V.W.P::Virtual Witch Phenomenon}} 成员，也有 {{mark::重要记录}}。'),
+    '花譜是 V.W.P 成员，也有重要记录。',
+  );
+  assert.equal(scanMarkdownDescription('{{spoiler::补充说明}}'), '补充说明');
+  assert.equal(scanMarkdownDescription('{{details::展开}}{{/details}}'), '');
+});
+
 test('article metadata supports title-based works and noindexes stub entries', () => {
   const metadata = buildArticleMetadata({
     locale: 'en',

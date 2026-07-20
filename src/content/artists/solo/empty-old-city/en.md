@@ -93,8 +93,8 @@ Empty old City's body of work forms an expanding narrative tapestry, with indivi
 
 ## External Links
 
-- YouTube: <https://www.youtube.com/c/emptyoldCity>
-- X (Twitter): <https://twitter.com/Empty_old_City>
-- Instagram: <https://www.instagram.com/empty_old_city/>
-- TikTok: <https://www.tiktok.com/@emptyoldcity>
-- Streaming: <https://emptyoldcity.lnk.to/Artist>
+- [YouTube](https://www.youtube.com/c/emptyoldCity)
+- [X (Twitter)](https://twitter.com/Empty_old_City)
+- [Instagram](https://www.instagram.com/empty_old_city/)
+- [TikTok](https://www.tiktok.com/@emptyoldcity)
+- [Streaming](https://emptyoldcity.lnk.to/Artist)

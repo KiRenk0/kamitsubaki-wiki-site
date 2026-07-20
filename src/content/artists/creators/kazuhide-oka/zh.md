@@ -63,4 +63,4 @@ Kazuhide Oka（冈一秀）是一位游戏编剧与独立游戏开发者，与 K
 
 ## 外部链接
 
-- X (Twitter)：<https://x.com/nKTqcTFkvMEjKcX>
+- [X (Twitter)](https://x.com/nKTqcTFkvMEjKcX)

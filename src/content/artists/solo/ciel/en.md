@@ -99,7 +99,7 @@ CIEL is directly tied to the KUUSOU unit within the Kamitsubaki ecosystem, and h
 
 ## External Links
 
-- KAMITSUBAKI STUDIO CIEL page: <https://kamitsubaki.jp/artist/ciel/>
-- YouTube: <https://www.youtube.com/channel/UCRvkXFtB70ZADg4L6A8L3wQ>
-- X (Twitter): <https://twitter.com/CIEL_VanillaSky>
-- TikTok: <https://www.tiktok.com/@ciel_vanillasky>
+- [KAMITSUBAKI STUDIO CIEL page](https://kamitsubaki.jp/artist/ciel/)
+- [YouTube](https://www.youtube.com/channel/UCRvkXFtB70ZADg4L6A8L3wQ)
+- [X (Twitter)](https://twitter.com/CIEL_VanillaSky)
+- [TikTok](https://www.tiktok.com/@ciel_vanillasky)

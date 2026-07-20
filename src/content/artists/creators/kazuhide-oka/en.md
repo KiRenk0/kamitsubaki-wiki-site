@@ -63,4 +63,4 @@ He produced "Moonless Moon" for ANMC and released "Girls Maid Pudding" in 2025, 
 
 ## External Links
 
-- X (Twitter): <https://x.com/nKTqcTFkvMEjKcX>
+- [X (Twitter)](https://x.com/nKTqcTFkvMEjKcX)

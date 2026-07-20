@@ -77,5 +77,5 @@ The major solo albums include *Unique Antique*, *Pathos*, *Black or White*, *Fic
 
 ## External Links
 
-- Twitter: <https://twitter.com/bass_ynk>
-- YouTube: <https://www.youtube.com/user/yunosuke23>
+- [Twitter](https://twitter.com/bass_ynk)
+- [YouTube](https://www.youtube.com/user/yunosuke23)

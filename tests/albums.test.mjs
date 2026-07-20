@@ -75,8 +75,8 @@ test('album catalog groups entries by folder-driven artist ids', async () => {
     { id: 'vwp/fate/zh', data: { artist: 'V.W.P', title: 'FATE', releaseDate: '2024-03-27', image: '/fate.jpg' } },
   ];
   const artists = [
-    { id: 'vwp/kaf/zh', data: { translationKey: 'kaf', name: '花譜', romanizedName: 'KAF', categoryOrder: 1, itemOrder: 1 } },
-    { id: 'vwp/vwp/zh', data: { translationKey: 'vwp', name: 'V.W.P', romanizedName: 'V.W.P', categoryOrder: 1, itemOrder: 0 } },
+    { id: 'vwp/kaf/zh', data: { translationKey: 'kaf', name: '花譜', romanizedName: 'KAF', image: '/kaf-artist.jpg', categoryOrder: 1, itemOrder: 1 } },
+    { id: 'vwp/vwp/zh', data: { translationKey: 'vwp', name: 'V.W.P', romanizedName: 'V.W.P', image: '/vwp-artist.jpg', categoryOrder: 1, itemOrder: 0 } },
   ];
 
   const catalog = buildArtistAlbumCatalog(albums, artists, 'zh');
@@ -85,7 +85,7 @@ test('album catalog groups entries by folder-driven artist ids', async () => {
     { slug: 'kaf', size: 2 },
   ]);
   assert.deepEqual(catalog[1].entries.map((entry) => entry.data.title), ['観測', '魔法']);
-  assert.equal(catalog[1].cover, '/kansoku.jpg');
+  assert.equal(catalog[1].cover, '/kaf-artist.jpg');
 });
 
 test('song artwork prefers song covers and falls back to artist artwork', async () => {

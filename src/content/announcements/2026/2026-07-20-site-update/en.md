@@ -6,5 +6,5 @@ type: "SITE UPDATE"
 title: "Announcement board is live"
 summary: "A dedicated board now gathers site updates, maintenance notices, and ways to help improve the wiki."
 order: 1
-pinned: true
+pinned: false
 ---

@@ -127,7 +127,15 @@
       "KAMITSUBAKI STUDIOおよびTHINKRとは無関係です。",
       "すべての公式権利は各権利者に帰属します。"
     ],
-    "copyright": "© 2026 LinkTh1rsty All Rights Reserved"
+    "license": {
+      "notice": "別途記載がない限り、本サイトが許諾権限を有するオリジナル文章は CC BY-NC-SA 4.0 国際ライセンスで提供されます。",
+      "mediaNotice": "画像、ジャケット、歌詞、音声・映像、キャラクターデザイン、ロゴ、商標、その他の第三者素材は対象外です。",
+      "detailsLabel": "著作権情報",
+      "detailsHref": "/ja/license",
+      "deedLabel": "CC BY-NC-SA 4.0",
+      "deedHref": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    "copyright": "© 2026 LinkTh1rsty · Some rights reserved"
   },
   "socialContact": {
     "enabled": true,

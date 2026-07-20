@@ -37,7 +37,7 @@ theme:
       value: "#14130D"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "/images/artists/kafu.jpg"
+image: "https://placehold.co/1200x800/14130d/f7ca00?text=KAFU"
 name: "KAFU"
 categoryTitle: "Musical Isotopes"
 categorySubtitle: "MUSICAL ISOTOPES"
