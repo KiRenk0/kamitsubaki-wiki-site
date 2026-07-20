@@ -84,7 +84,7 @@ seo:
 
 ### コンテンツの安全性
 
-記事 HTML は明示的なホワイトリスト方式です。一般的な文字装飾、表、`ruby`、`details`、画像は保持されますが、`script`、`style`、生の `iframe`、フォーム、インラインイベント属性、危険な URL はビルド時に削除されます。音声・動画には管理された `@[provider](ID-or-share-URL "任意のキャプション")` 短縮構文だけを使用してください。YouTube、bilibili、Apple Music、Spotify、NetEase Music、QQ Music に対応しています。
+記事 HTML は明示的なホワイトリスト方式です。一般的な文字装飾、表、`ruby`、`details`、画像は保持されますが、`script`、`style`、生の `iframe`、フォーム、インラインイベント属性、危険な URL はビルド時に削除されます。音声・動画には管理された `@[provider](ID-or-share-URL "任意のキャプション")` 短縮構文だけを使用してください。YouTube、bilibili、Apple Music、Spotify、NetEase Music、QQ Music に対応しています。同じ作品の公式プラットフォームを切り替える場合は、2–6件の従来メディア構文を `{{media-switcher::タイトル}}` と `{{/media-switcher}}` で囲みます。
 
 投稿者は生成後の HTML を直接書かず、`{{ruby::本文::読み}}`、`{{spoiler::隠す文字}}`、`{{mark::重要}}`、楽曲ページの `{{lyrics-controls::ja}}`、対になる `{{details::見出し}}` / `{{/details}}` などの Wiki 短縮構文を優先します。複数行コードは言語名付きの Markdown フェンスを使って構文を色分けします。HTML ホワイトリストは互換性と安全性の最終境界であり、通常の執筆インターフェースではありません。
 

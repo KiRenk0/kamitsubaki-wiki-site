@@ -439,6 +439,43 @@ Supported provider names are `youtube`, `bilibili`, `apple-music`, `spotify`, `n
 
 @[youtube](3Wtx6k2vInU "KAF - Ito")
 
+#### Aggregated media switcher
+
+When the same work has official media on several platforms, wrap the existing media shortcodes in one aggregate block. The page shows one selected source with platform buttons; the original standalone `@[provider](...)` syntax remains unchanged.
+
+##### Code syntax
+
+```md
+{{media-switcher::Switcher title}}
+@[first-provider](media-ID-or-share-URL "optional caption")
+@[second-provider](media-ID-or-share-URL "optional caption")
+{{/media-switcher}}
+```
+
+##### Authoring
+
+- A localized title is required, such as the work title or “Official media.”
+- Every item keeps the original media syntax and the same provider and URL validation rules.
+- A switcher accepts `2–6` distinct platforms. Do not repeat a provider, nest switchers, or mix ordinary paragraphs into the block.
+- Every source must validate. One unknown provider, hostile URL, or malformed ID prevents the entire block from creating an iframe and leaves visible source text for correction.
+- Without JavaScript, validated players appear in source order. With JavaScript, use the buttons, arrow keys, Home, or End to switch sources.
+
+##### Example
+
+```md
+{{media-switcher::KAF - Ito}}
+@[bilibili](BV1CJ411b7Ym "KAF - Ito")
+@[youtube](3Wtx6k2vInU "KAF - Ito")
+{{/media-switcher}}
+```
+
+**Rendered example:**
+
+{{media-switcher::KAF - Ito}}
+@[bilibili](BV1CJ411b7Ym "KAF - Ito")
+@[youtube](3Wtx6k2vInU "KAF - Ito")
+{{/media-switcher}}
+
 Multiple shortcodes may be placed in the same Markdown table cell. Players are stacked vertically in source order. The cell must contain only shortcodes and whitespace, without explanatory text:
 
 ```md

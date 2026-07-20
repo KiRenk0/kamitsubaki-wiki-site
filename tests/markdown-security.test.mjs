@@ -72,6 +72,48 @@ test('materializes shortcodes only through controlled iframe origins and capabil
   assert.doesNotMatch(rendered, /youtube\.com\/embed|autoplay|clipboard-write|web-share/);
 });
 
+test('media switcher materializes only validated child providers after sanitization', async () => {
+  const rendered = await renderMarkdownFragment(`
+{{media-switcher::Official media}}
+
+@[youtube](https://youtu.be/3Wtx6k2vInU)
+
+@[bilibili](https://www.bilibili.com/video/BV1CJ411b7Ym)
+
+{{/media-switcher}}
+  `);
+
+  assert.match(rendered, /data-media-switcher/);
+  assert.match(rendered, /youtube-nocookie\.com/);
+  assert.match(rendered, /player\.bilibili\.com/);
+  assert.doesNotMatch(rendered, /<wiki-media-(?:embed|switcher)|javascript:|onclick=/);
+
+  const authored = await renderMarkdownFragment(`
+<wiki-media-switcher data-label="Unsafe">
+  <wiki-media-embed data-provider="youtube" data-target="javascript:alert(1)"></wiki-media-embed>
+  <wiki-media-embed data-provider="unknown" data-target="https://evil.example"></wiki-media-embed>
+</wiki-media-switcher>
+  `);
+  assert.doesNotMatch(authored, /wiki-media-switcher|iframe|evil\.example|javascript:/);
+
+  const duplicateProvider = await renderMarkdownFragment(`
+<wiki-media-switcher data-label="Duplicate">
+  <wiki-media-embed data-provider="youtube" data-target="3Wtx6k2vInU"></wiki-media-embed>
+  <wiki-media-embed data-provider="youtube" data-target="anotherVideo"></wiki-media-embed>
+</wiki-media-switcher>
+  `);
+  assert.doesNotMatch(duplicateProvider, /wiki-media-switcher|iframe/);
+
+  const mixedAuthoredContent = await renderMarkdownFragment(`
+<wiki-media-switcher data-label="Mixed">
+  <wiki-media-embed data-provider="youtube" data-target="3Wtx6k2vInU"></wiki-media-embed>
+  <p>Unexpected prose</p>
+  <wiki-media-embed data-provider="bilibili" data-target="BV1CJ411b7Ym"></wiki-media-embed>
+</wiki-media-switcher>
+  `);
+  assert.doesNotMatch(mixedAuthoredContent, /wiki-media-switcher|iframe/);
+});
+
 test('drops raw iframes even when their hostname is an approved media provider', async () => {
   const approvedOrigin = await renderMarkdownFragment(
     '<iframe src="https://www.youtube.com/embed/3Wtx6k2vInU"></iframe>',

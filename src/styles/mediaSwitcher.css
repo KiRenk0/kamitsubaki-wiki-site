@@ -1,0 +1,97 @@
+.wiki-prose .wiki-media-switcher {
+  width: 100%;
+  margin: 2rem 0;
+  border-block: 1px solid color-mix(in srgb, var(--wiki-accent-color) 18%, rgba(255, 255, 255, 0.1));
+  background: color-mix(in srgb, var(--wiki-accent-color) 3%, rgba(3, 7, 10, 0.5));
+}
+
+.wiki-prose .wiki-media-switcher__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 0;
+}
+
+.wiki-prose .wiki-media-switcher__title {
+  flex: 0 1 auto;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+.wiki-prose .wiki-media-switcher__tabs {
+  display: flex;
+  flex: 0 1 auto;
+  gap: 0.2rem;
+  max-width: 100%;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.wiki-prose .wiki-media-switcher__tab {
+  appearance: none;
+  flex: 0 0 auto;
+  padding: 0.48rem 0.7rem;
+  border: 0;
+  border-bottom: 1px solid transparent;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.46);
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  transition: color 160ms ease, border-color 160ms ease, background-color 160ms ease;
+}
+
+.wiki-prose .wiki-media-switcher__tab:hover {
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.wiki-prose .wiki-media-switcher__tab[aria-selected='true'] {
+  border-color: color-mix(in srgb, var(--wiki-accent-color) 72%, white);
+  background: color-mix(in srgb, var(--wiki-accent-color) 8%, transparent);
+  color: color-mix(in srgb, var(--wiki-accent-color) 54%, white);
+}
+
+.wiki-prose .wiki-media-switcher__tab:focus-visible {
+  outline: 1px solid color-mix(in srgb, var(--wiki-accent-color) 70%, white);
+  outline-offset: -2px;
+}
+
+.wiki-prose .wiki-media-switcher__panel {
+  margin: 0;
+  padding: 0 0 0.85rem;
+}
+
+.has-js .wiki-prose .wiki-media-switcher__panel:not(.is-active) {
+  display: none;
+}
+
+.wiki-prose .wiki-media-switcher__panel > .wiki-embed {
+  margin: 0;
+  border-radius: 0.35rem;
+  box-shadow: none;
+}
+
+@media (max-width: 640px) {
+  .wiki-prose .wiki-media-switcher__header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .wiki-prose .wiki-media-switcher__tabs {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wiki-prose .wiki-media-switcher__tab {
+    transition: none;
+  }
+}

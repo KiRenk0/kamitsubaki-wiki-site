@@ -84,7 +84,7 @@ Write article content after the second `---`. Empty bodies are allowed, but do n
 
 ### Content security
 
-Article HTML uses an explicit allowlist. Common typography, tables, `ruby`, `details`, and images are retained; `script`, `style`, raw `iframe`, forms, inline event handlers, and dangerous URLs are removed during the build. Audio and video must use the controlled `@[provider](ID-or-share-URL "optional caption")` shortcode. Supported providers are YouTube, bilibili, Apple Music, Spotify, NetEase Music, and QQ Music.
+Article HTML uses an explicit allowlist. Common typography, tables, `ruby`, `details`, and images are retained; `script`, `style`, raw `iframe`, forms, inline event handlers, and dangerous URLs are removed during the build. Audio and video must use the controlled `@[provider](ID-or-share-URL "optional caption")` shortcode. Supported providers are YouTube, bilibili, Apple Music, Spotify, NetEase Music, and QQ Music. Wrap 2–6 unchanged media shortcodes in `{{media-switcher::title}}` and `{{/media-switcher}}` to switch between official platforms for the same work.
 
 Authors should call Wiki shortcodes instead of writing their generated HTML, for example `{{ruby::text::reading}}`, `{{spoiler::hidden text}}`, `{{mark::important}}`, the song-page `{{lyrics-controls::en}}`, and the paired `{{details::title}}` / `{{/details}}` block. Multiline code continues to use a language-labelled Markdown fence for syntax highlighting. The HTML allowlist is the final compatibility and security boundary, not the preferred everyday authoring API.
 

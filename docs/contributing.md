@@ -84,7 +84,7 @@ seo:
 
 ### 内容安全
 
-正文 HTML 采用显式白名单。常用排版标签、表格、`ruby`、`details`、图片等会保留；`script`、`style`、原始 `iframe`、表单、内联事件属性和危险 URL 会在构建时移除。音视频只能使用 `@[来源](ID 或分享链接 "可选标题")` 受控短语法，当前支持 YouTube、bilibili、Apple Music、Spotify、网易云音乐和 QQ 音乐。
+正文 HTML 采用显式白名单。常用排版标签、表格、`ruby`、`details`、图片等会保留；`script`、`style`、原始 `iframe`、表单、内联事件属性和危险 URL 会在构建时移除。音视频只能使用 `@[来源](ID 或分享链接 "可选标题")` 受控短语法，当前支持 YouTube、bilibili、Apple Music、Spotify、网易云音乐和 QQ 音乐；同一作品的多个平台可用 `{{media-switcher::标题}}` 与 `{{/media-switcher}}` 包裹 2–6 条原有媒体短语法，以按钮切换。
 
 作者优先调用 Wiki 短语法，不直接编写生成后的 HTML，例如 `{{ruby::正文::注音}}`、`{{spoiler::隐藏文字}}`、`{{mark::重点}}`、歌曲页的 `{{lyrics-controls::zh}}`，以及成对的 `{{details::标题}}` / `{{/details}}`。多行代码继续使用带语言名称的 Markdown 围栏以获得语法高亮。HTML 白名单是最后一道兼容与安全边界，不是推荐的日常写作接口。
 

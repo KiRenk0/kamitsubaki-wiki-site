@@ -45,6 +45,67 @@ test('markdown shortcode is transformed only when it occupies a whole paragraph'
   assert.doesNotMatch(inline, /data-media-provider/);
 });
 
+test('media switcher aggregates distinct supported providers without changing individual syntax', async () => {
+  const rendered = await renderMarkdownFragment(`
+{{media-switcher::KAF - Ito}}
+
+@[bilibili](BV1CJ411b7Ym "KAF - Ito")
+
+@[youtube](3Wtx6k2vInU "KAF - Ito")
+
+@[spotify](spotify:track:4cOdK2wGLETKBW3PvgPWqT "KAF - Ito")
+
+{{/media-switcher}}
+  `);
+
+  assert.match(rendered, /class="wiki-media-switcher"/);
+  assert.match(rendered, /aria-label="KAF - Ito"/);
+  assert.equal((rendered.match(/data-media-switcher-tab/g) || []).length, 3);
+  assert.equal((rendered.match(/role="tabpanel"/g) || []).length, 3);
+  assert.equal((rendered.match(/<iframe /g) || []).length, 3);
+  assert.match(rendered, /data-media-provider="bilibili"/);
+  assert.match(rendered, /data-media-provider="youtube"/);
+  assert.match(rendered, /data-media-provider="spotify"/);
+  assert.match(rendered, /aria-selected="true"/);
+  assert.match(rendered, /aria-selected="false"/);
+});
+
+test('media switcher rejects malformed, duplicate, or single-provider groups as inert text', async () => {
+  const cases = [
+    `
+{{media-switcher::Unsafe}}
+
+@[youtube](3Wtx6k2vInU)
+
+@[unknown](https://evil.example/embed)
+
+{{/media-switcher}}
+    `,
+    `
+{{media-switcher::Duplicate}}
+
+@[youtube](3Wtx6k2vInU)
+
+@[youtube](anotherVideo)
+
+{{/media-switcher}}
+    `,
+    `
+{{media-switcher::Single}}
+
+@[youtube](3Wtx6k2vInU)
+
+{{/media-switcher}}
+    `,
+  ];
+
+  for (const source of cases) {
+    const rendered = await renderMarkdownFragment(source);
+    assert.doesNotMatch(rendered, /wiki-media-switcher|<iframe /);
+    assert.match(rendered, /media-switcher/);
+  }
+});
+
 test('multiple shortcodes in a table cell render as a vertical media stack', async () => {
   const rendered = await renderMarkdownFragment(`
 | Composer | Lyricist | Players |

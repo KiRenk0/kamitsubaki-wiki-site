@@ -31,6 +31,9 @@ const VIDEO_ALLOW = 'encrypted-media; picture-in-picture; fullscreen';
 const AUDIO_ALLOW = 'encrypted-media; fullscreen';
 const SAFE_ID = /^[A-Za-z0-9_-]+$/;
 const BILIBILI_BVID = /^BV[A-Za-z0-9]+$/i;
+const MEDIA_SWITCHER_OPEN = /^\{\{media-switcher::(.+)\}\}$/i;
+const MEDIA_SWITCHER_CLOSE = /^\{\{\/media-switcher\}\}$/i;
+const MAX_MEDIA_SWITCHER_ITEMS = 6;
 
 function safeUrl(value) {
   try {
@@ -267,25 +270,130 @@ function mediaEmbedNode(media) {
   };
 }
 
-function materializeMediaPlaceholders(node) {
+function mediaFromPlaceholder(node) {
+  if (node?.type !== 'element' || node.tagName !== 'wiki-media-embed') return null;
+  const provider = node.properties?.dataProvider;
+  const target = node.properties?.dataTarget;
+  const caption = node.properties?.dataCaption || '';
+  const media = resolveMediaEmbed(provider, target);
+  return media ? { ...media, caption } : null;
+}
+
+function mediaSwitcherNode(node, state) {
+  const children = (node.children || []).filter(
+    (child) => child?.type !== 'text' || String(child.value || '').trim(),
+  );
+  const mediaItems = children.map(mediaFromPlaceholder);
+  if (mediaItems.some((media) => !media)) return null;
+  if (mediaItems.length < 2 || mediaItems.length > MAX_MEDIA_SWITCHER_ITEMS) return null;
+  if (new Set(mediaItems.map((media) => media.provider)).size !== mediaItems.length) return null;
+
+  const label = String(node.properties?.dataLabel || '').trim();
+  if (!label) return null;
+
+  const switcherIndex = state.switcherIndex;
+  state.switcherIndex += 1;
+  const baseId = `wiki-media-switcher-${switcherIndex}`;
+
+  const tabs = mediaItems.map((media, index) => {
+    const selected = index === 0;
+    return {
+      type: 'element',
+      tagName: 'button',
+      properties: {
+        type: 'button',
+        role: 'tab',
+        id: `${baseId}-tab-${index}`,
+        className: ['wiki-media-switcher__tab'],
+        dataMediaSwitcherTab: '',
+        dataMediaProvider: media.provider,
+        ariaControls: `${baseId}-panel-${index}`,
+        ariaSelected: String(selected),
+        tabIndex: selected ? 0 : -1,
+      },
+      children: [{ type: 'text', value: media.label }],
+    };
+  });
+
+  const panels = mediaItems.map((media, index) => ({
+    type: 'element',
+    tagName: 'div',
+    properties: {
+      role: 'tabpanel',
+      id: `${baseId}-panel-${index}`,
+      className: index === 0
+        ? ['wiki-media-switcher__panel', 'is-active']
+        : ['wiki-media-switcher__panel'],
+      dataMediaSwitcherPanel: '',
+      ariaLabelledBy: `${baseId}-tab-${index}`,
+      tabIndex: 0,
+    },
+    children: [mediaEmbedNode(media)],
+  }));
+
+  return {
+    type: 'element',
+    tagName: 'section',
+    properties: {
+      className: ['wiki-media-switcher'],
+      dataMediaSwitcher: '',
+      ariaLabel: label,
+    },
+    children: [
+      {
+        type: 'element',
+        tagName: 'div',
+        properties: { className: ['wiki-media-switcher__header'] },
+        children: [
+          {
+            type: 'element',
+            tagName: 'p',
+            properties: { className: ['wiki-media-switcher__title'] },
+            children: [{ type: 'text', value: label }],
+          },
+          {
+            type: 'element',
+            tagName: 'div',
+            properties: {
+              className: ['wiki-media-switcher__tabs'],
+              role: 'tablist',
+              ariaLabel: label,
+            },
+            children: tabs,
+          },
+        ],
+      },
+      {
+        type: 'element',
+        tagName: 'div',
+        properties: { className: ['wiki-media-switcher__panels'] },
+        children: panels,
+      },
+    ],
+  };
+}
+
+function materializeMediaPlaceholders(node, state) {
   if (!node?.children) return;
 
   node.children = node.children.flatMap((child) => {
-    if (child?.type === 'element' && child.tagName === 'wiki-media-embed') {
-      const provider = child.properties?.dataProvider;
-      const target = child.properties?.dataTarget;
-      const caption = child.properties?.dataCaption || '';
-      const media = resolveMediaEmbed(provider, target);
-      return media ? [mediaEmbedNode({ ...media, caption })] : [];
+    if (child?.type === 'element' && child.tagName === 'wiki-media-switcher') {
+      const switcher = mediaSwitcherNode(child, state);
+      return switcher ? [switcher] : [];
     }
 
-    materializeMediaPlaceholders(child);
+    const media = mediaFromPlaceholder(child);
+    if (media) {
+      return [mediaEmbedNode(media)];
+    }
+
+    materializeMediaPlaceholders(child, state);
     return [child];
   });
 }
 
 export function rehypeMaterializeMediaEmbeds() {
-  return materializeMediaPlaceholders;
+  return (tree) => materializeMediaPlaceholders(tree, { switcherIndex: 0 });
 }
 
 function shortcodeFromLink(node) {
@@ -311,6 +419,84 @@ function shortcodeFromParagraph(node) {
   }
 
   return null;
+}
+
+function paragraphText(node) {
+  if (node?.type !== 'paragraph' || node.children?.length !== 1 || node.children[0].type !== 'text') return null;
+  return node.children[0].value.trim();
+}
+
+function shortcodeSource(shortcode) {
+  const caption = shortcode.caption ? ` "${String(shortcode.caption).replaceAll('"', '\\"')}"` : '';
+  return `@[${shortcode.provider}](${shortcode.target}${caption})`;
+}
+
+function inertMediaSwitcherBlock(nodes) {
+  const source = nodes
+    .map((node) => {
+      const text = paragraphText(node);
+      if (text) return text;
+      const shortcode = shortcodeFromParagraph(node);
+      return shortcode ? shortcodeSource(shortcode) : '';
+    })
+    .filter(Boolean)
+    .join('\n');
+
+  return { type: 'paragraph', children: [{ type: 'text', value: source }] };
+}
+
+function renderMediaSwitcherPlaceholder(label, shortcodes) {
+  const embeds = shortcodes.map(({ provider, target, caption }) => renderMediaPlaceholder(provider, target, caption));
+  if (embeds.some((embed) => !embed)) return null;
+  return `<wiki-media-switcher data-label="${escapeHtml(label)}">${embeds.join('')}</wiki-media-switcher>`;
+}
+
+function transformMediaSwitcherBlocks(node) {
+  if (!node?.children) return;
+
+  const transformed = [];
+  for (let index = 0; index < node.children.length; index += 1) {
+    const child = node.children[index];
+    const opening = paragraphText(child)?.match(MEDIA_SWITCHER_OPEN);
+
+    if (!opening) {
+      transformMediaSwitcherBlocks(child);
+      transformed.push(child);
+      continue;
+    }
+
+    let closingIndex = index + 1;
+    while (closingIndex < node.children.length && !MEDIA_SWITCHER_CLOSE.test(paragraphText(node.children[closingIndex]) || '')) {
+      closingIndex += 1;
+    }
+
+    if (closingIndex >= node.children.length) {
+      transformed.push(child);
+      continue;
+    }
+
+    const label = opening[1].trim();
+    const contents = node.children.slice(index + 1, closingIndex);
+    const shortcodes = contents.map(shortcodeFromParagraph);
+    const resolved = shortcodes.map((shortcode) => shortcode && resolveMediaEmbed(shortcode.provider, shortcode.target));
+    const providerNames = resolved.filter(Boolean).map((media) => media.provider);
+    const valid = Boolean(label)
+      && shortcodes.length >= 2
+      && shortcodes.length <= MAX_MEDIA_SWITCHER_ITEMS
+      && shortcodes.every(Boolean)
+      && resolved.every(Boolean)
+      && new Set(providerNames).size === providerNames.length;
+
+    const placeholder = valid && renderMediaSwitcherPlaceholder(label, shortcodes);
+    if (placeholder) {
+      transformed.push({ type: 'html', value: placeholder });
+    } else {
+      transformed.push(inertMediaSwitcherBlock(node.children.slice(index, closingIndex + 1)));
+    }
+    index = closingIndex;
+  }
+
+  node.children = transformed;
 }
 
 function mediaStackFromTableCell(node) {
@@ -366,5 +552,8 @@ function transformShortcodes(node) {
 }
 
 export default function remarkMediaEmbed() {
-  return transformShortcodes;
+  return (tree) => {
+    transformMediaSwitcherBlocks(tree);
+    transformShortcodes(tree);
+  };
 }

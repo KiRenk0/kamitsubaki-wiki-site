@@ -25,6 +25,7 @@ export const wikiHtmlSchema = {
     'time',
     'u',
     'wiki-media-embed',
+    'wiki-media-switcher',
   ],
   strip: [...(defaultSchema.strip || []), 'style', 'iframe', 'object', 'embed', 'form'],
   attributes: {
@@ -57,5 +58,6 @@ export const wikiHtmlSchema = {
       ['decoding', 'async', 'sync', 'auto'],
     ],
     'wiki-media-embed': ['dataProvider', 'dataTarget', 'dataCaption'],
+    'wiki-media-switcher': ['dataLabel'],
   },
 };
