@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import AiChatWidget from '../components/AiChatWidget.astro';
 import SocialContactWidget from '../components/SocialContactWidget.astro';
+import { getLocalizedSiteName } from '../lib/i18n.mjs';
 import '../styles/global.css';
 import '../styles/mediaSwitcher.css';
 
@@ -30,15 +31,13 @@ const {
   metadata?: PageMetadata;
 };
 
-const siteName = 'Kamitsubaki Studio Fan Wiki';
-const localizedSiteName = lang === 'zh' ? '神椿观测站-KAMITSUBAKI Fan Wiki' : siteName;
+const localizedSiteName = getLocalizedSiteName(lang);
 const siteOrigin = (import.meta.env.PUBLIC_SITE_URL || Astro.site?.origin || 'https://kamitsubaki.wiki').replace(/\/$/, '');
 const requestedPageTitle = metadata.title || title;
-const pageTitle = lang === 'zh'
-  ? (/^\/zh\/?$/.test(Astro.url.pathname)
-      ? localizedSiteName
-      : requestedPageTitle.replace(/Kamitsubaki Studio Fan Wiki$/i, localizedSiteName))
-  : requestedPageTitle;
+const isLocalizedHome = new RegExp(`^/${lang}/?$`).test(Astro.url.pathname);
+const pageTitle = isLocalizedHome
+  ? localizedSiteName
+  : requestedPageTitle.replace(/Kamitsubaki Studio Fan Wiki$/i, localizedSiteName);
 const pageDescription = metadata.description || 'KAMITSUBAKI STUDIO 非官方粉丝百科。';
 const pageType = metadata.type || 'website';
 const canonicalPath = metadata.canonicalPath || Astro.url.pathname;

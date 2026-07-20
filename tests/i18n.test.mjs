@@ -3,6 +3,8 @@ import { access, readFile } from 'node:fs/promises';
 import test from 'node:test';
 import yaml from 'yaml';
 
+import { getLocalizedSiteName, localizedSiteNames } from '../src/lib/i18n.mjs';
+
 const locales = ['zh', 'ja', 'en'];
 
 async function fileExists(path) {
@@ -36,6 +38,15 @@ test('site has url-based zh ja en locales with Chinese as default', async () => 
     assert.equal(site.locale, locale);
     assert.equal(site.translationKey, 'home');
   }
+});
+
+test('site name is localized across Chinese, Japanese, and English', () => {
+  assert.deepEqual(localizedSiteNames, {
+    zh: '神椿观测站-KAMITSUBAKI Fan Wiki',
+    ja: '神椿観測所-KAMITSUBAKI Fan Wiki',
+    en: 'KAMITSUBAKI Observatory-KAMITSUBAKI Fan Wiki',
+  });
+  assert.equal(getLocalizedSiteName('unknown'), localizedSiteNames.zh);
 });
 
 test('localized content exists for key records in all supported locales', async () => {

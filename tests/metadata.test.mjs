@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import test from 'node:test';
 
-import { buildArticleMetadata, scanMarkdownDescription } from '../src/lib/metadata.mjs';
+import { buildArticleMetadata, buildHomeMetadata, scanMarkdownDescription } from '../src/lib/metadata.mjs';
 
 test('article metadata prefers custom seo fields over scanned fallbacks', () => {
   const metadata = buildArticleMetadata({
@@ -72,9 +72,17 @@ test('article metadata supports title-based works and noindexes stub entries', (
     },
   });
 
-  assert.equal(metadata.title, 'FATE - Kamitsubaki Studio Fan Wiki');
+  assert.equal(metadata.title, 'FATE - KAMITSUBAKI Observatory-KAMITSUBAKI Fan Wiki');
   assert.equal(metadata.description, 'FATE / V.W.P first album');
   assert.equal(metadata.noindex, true);
+});
+
+test('home metadata uses the localized site name in every language', () => {
+  const siteContent = { hero: { title: 'Observer' }, sections: {}, footer: {} };
+
+  assert.equal(buildHomeMetadata(siteContent, 'zh').title, '神椿观测站-KAMITSUBAKI Fan Wiki');
+  assert.equal(buildHomeMetadata(siteContent, 'ja').title, '神椿観測所-KAMITSUBAKI Fan Wiki');
+  assert.equal(buildHomeMetadata(siteContent, 'en').title, 'KAMITSUBAKI Observatory-KAMITSUBAKI Fan Wiki');
 });
 
 test('base layout renders configurable metadata tags', async () => {
@@ -86,6 +94,6 @@ test('base layout renders configurable metadata tags', async () => {
   assert.match(layout, /name="twitter:card"/);
   assert.match(layout, /name="robots"/);
   assert.match(layout, /PUBLIC_SITE_URL/);
-  assert.match(layout, /神椿观测站-KAMITSUBAKI Fan Wiki/);
+  assert.match(layout, /getLocalizedSiteName\(lang\)/);
   assert.match(layout, /rel="icon" type="image\/svg\+xml" href="\/brand\/kamitsubakiwiki-square\.svg"/);
 });

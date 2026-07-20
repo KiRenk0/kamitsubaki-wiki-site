@@ -1,5 +1,7 @@
+import { getLocalizedSiteName } from './i18n.mjs';
+
 export const defaultSiteDescription = 'KAMITSUBAKI STUDIO 非官方粉丝百科。';
-export const siteName = 'Kamitsubaki Studio Fan Wiki';
+export const siteName = getLocalizedSiteName('en');
 
 const markdownPatterns = [
   [/^#+\s+/g, ''],
@@ -73,7 +75,7 @@ export function buildArticleMetadata({ data, body = '', locale, id, collection =
   const articleTitle = data.title || data.name;
 
   return {
-    title: seo.title || `${articleTitle} - ${siteName}`,
+    title: seo.title || `${articleTitle} - ${getLocalizedSiteName(locale)}`,
     description: seo.description || buildArticleDescription(data, body),
     image: seo.image || data.image,
     canonicalPath: `/${locale}/${collection}/${id}`,
@@ -91,7 +93,7 @@ export function buildHomeMetadata(siteContent, locale) {
   ].find(Boolean);
 
   return {
-    title: `${siteContent.hero?.title || 'Observer'} - ${siteName}`,
+    title: getLocalizedSiteName(locale),
     description: truncateDescription(descriptionSource || defaultSiteDescription),
     canonicalPath: `/${locale}/`,
     type: 'website',
@@ -102,7 +104,7 @@ export function buildProjectMetadata({ data, body = '', locale, id }) {
   const seo = data.seo || {};
 
   return {
-    title: seo.title || `${data.title} - ${siteName}`,
+    title: seo.title || `${data.title} - ${getLocalizedSiteName(locale)}`,
     description: seo.description || scanMarkdownDescription(body, data.description || defaultSiteDescription),
     image: seo.image,
     canonicalPath: `/${locale}/projects/${id}`,
@@ -116,7 +118,7 @@ export function buildLogMetadata({ data, body = '', locale, id }) {
   const seo = data.seo || {};
 
   return {
-    title: seo.title || `${data.title} - ${siteName}`,
+    title: seo.title || `${data.title} - ${getLocalizedSiteName(locale)}`,
     description: seo.description || scanMarkdownDescription(body, data.summary || defaultSiteDescription),
     image: seo.image,
     canonicalPath: `/${locale}/logs/${id}`,

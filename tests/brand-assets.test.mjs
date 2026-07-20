@@ -20,6 +20,7 @@ test('site footer closes the page with the long brand logo', async () => {
   const footer = await readFile(new URL('../src/components/SiteFooter.astro', import.meta.url), 'utf8');
 
   assert.match(footer, /src="\/brand\/kamitsubakiwiki-long\.svg"/);
+  assert.match(footer, /alt=\{footerLogoAlt\}/);
   assert.match(footer, /width="1577"/);
   assert.match(footer, /height="400"/);
 });

@@ -1,4 +1,6 @@
 ---
+import { getLocalizedSiteName } from '../lib/i18n.mjs';
+
 type FooterLink = {
   label: string;
   href: string;
@@ -12,6 +14,7 @@ type FooterContent = {
 };
 
 const { footer } = Astro.props as { footer: FooterContent };
+const footerLogoAlt = getLocalizedSiteName(Astro.params.locale);
 ---
 
 <footer class="relative mt-14 overflow-hidden border-t border-white/10 py-14 text-center ui-crosshair tl tr sm:mt-20 sm:py-20">
@@ -44,7 +47,7 @@ const { footer } = Astro.props as { footer: FooterContent };
     <div class="mt-12 w-full pr-12 sm:mt-16 sm:pr-0">
       <img
         src="/brand/kamitsubakiwiki-long.svg"
-        alt="神椿观测站 KAMITSUBAKI Fan Wiki"
+        alt={footerLogoAlt}
         width="1577"
         height="400"
         loading="lazy"
