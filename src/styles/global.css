@@ -333,7 +333,8 @@ html.has-js .reveal-up.active {
   width: 100%;
   background: transparent;
   border: none;
-  cursor: none;
+  color: rgba(255, 255, 255, 0.38);
+  cursor: pointer;
 }
 
 .artist-expand-btn:focus-visible {
@@ -344,7 +345,7 @@ html.has-js .reveal-up.active {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0;
+  gap: 0.7rem;
   padding-top: 1.3rem;
   padding-bottom: 1.3rem;
 }
@@ -365,11 +366,33 @@ html.has-js .reveal-up.active {
 }
 
 .artist-expand-line--left {
-  margin-right: 0.75rem;
+  margin-right: 0;
 }
 
 .artist-expand-line--right {
-  margin-left: 0.75rem;
+  margin-left: 0;
+}
+
+.artist-expand-copy {
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 0.55rem;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 0.54rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  transition: color 260ms ease;
+}
+
+.artist-expand-copy > span:last-child {
+  color: color-mix(in srgb, var(--wiki-accent-color) 58%, rgba(255, 255, 255, 0.28));
+  letter-spacing: 0.05em;
+}
+
+.artist-expand-btn:hover .artist-expand-copy,
+.artist-expand-btn:focus-visible .artist-expand-copy {
+  color: rgba(255, 255, 255, 0.78);
 }
 
 .artist-expand-btn:hover .artist-expand-line {
@@ -401,13 +424,50 @@ html.has-js .reveal-up.active {
   transform: rotate(180deg) scale(1.18);
 }
 
-.artist-row-collapsed {
+.artist-collapsible {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition:
+    max-height 580ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 360ms ease;
+}
+
+.artist-collapsible[data-expanded="true"] {
+  max-height: var(--artist-collapsible-height, 0px);
   opacity: 1;
-  transform: translateY(0);
-  transition: opacity 0.75s cubic-bezier(0.16, 1, 0.3, 1),
-              transform 0.75s cubic-bezier(0.16, 1, 0.3, 1),
-              background-color 0.4s ease,
-              padding-left 0.4s ease;
+}
+
+.artist-collapsible__inner {
+  overflow: visible;
+}
+
+.artist-row-collapsed {
+  opacity: 0;
+  transform: translate3d(0, -0.55rem, 0);
+  transition:
+    opacity 360ms ease,
+    transform 480ms cubic-bezier(0.22, 0.61, 0.36, 1),
+    background-color 0.4s ease,
+    padding-left 0.4s ease;
+  transition-delay: 0ms;
+}
+
+.artist-collapsible[data-expanded="true"] .artist-row-collapsed {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition-delay: calc(70ms + var(--artist-row-order, 0) * 34ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .artist-collapsible,
+  .artist-row-collapsed,
+  .artist-expand-chevron,
+  .artist-expand-copy,
+  .artist-expand-line {
+    transition-duration: 0.01ms;
+    transition-delay: 0ms !important;
+  }
 }
 
 [data-reading-progress] {

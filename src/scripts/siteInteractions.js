@@ -254,46 +254,38 @@ document.addEventListener('DOMContentLoaded', () => {
       const button = event.target instanceof Element && event.target.closest('.artist-expand-btn');
       if (!button) return;
 
-      const categoryId = button.getAttribute('data-category-id');
-      if (!categoryId) return;
+      const collapsibleId = button.getAttribute('aria-controls');
+      if (!collapsibleId) return;
 
-      const categoryContainer = document.getElementById(categoryId);
-      if (!categoryContainer) return;
+      const collapsible = document.getElementById(collapsibleId);
+      if (!(collapsible instanceof HTMLElement)) return;
 
-      const collapsedRows = categoryContainer.querySelectorAll('.artist-row-collapsed');
+      const copy = button.querySelector('[data-artist-expand-copy]');
+      const inner = collapsible.querySelector('.artist-collapsible__inner');
       const isExpanded = button.getAttribute('aria-expanded') === 'true';
+      const nextExpanded = !isExpanded;
 
-      if (isExpanded) {
-        collapsedRows.forEach((row) => {
-          row.classList.add('hidden');
-          row.style.transitionDelay = '';
-        });
-        button.setAttribute('aria-expanded', 'false');
-        requestAnimationFrame(() => {
-          button.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        });
-      } else {
-        collapsedRows.forEach((row, index) => {
-          row.classList.remove('hidden');
-          row.style.opacity = '0';
-          row.style.transform = 'translateY(24px)';
-          row.style.transitionDelay = `${index * 0.05}s`;
-          row.addEventListener(
-            'transitionend',
-            () => {
-              row.style.transitionDelay = '';
-            },
-            { once: true },
-          );
-          requestAnimationFrame(() => {
-            requestAnimationFrame(() => {
-              row.style.opacity = '';
-              row.style.transform = '';
-            });
-          });
-        });
-        button.setAttribute('aria-expanded', 'true');
+      if (inner instanceof HTMLElement) {
+        collapsible.style.setProperty('--artist-collapsible-height', `${inner.scrollHeight}px`);
       }
+
+      button.setAttribute('aria-expanded', String(nextExpanded));
+      collapsible.dataset.expanded = String(nextExpanded);
+      collapsible.setAttribute('aria-hidden', String(!nextExpanded));
+      collapsible.inert = !nextExpanded;
+
+      if (copy) {
+        copy.textContent = nextExpanded
+          ? button.getAttribute('data-collapse-label') || ''
+          : button.getAttribute('data-expand-label') || '';
+      }
+
+      button.setAttribute(
+        'aria-label',
+        nextExpanded
+          ? button.getAttribute('data-collapse-label') || ''
+          : button.getAttribute('data-expand-label') || '',
+      );
     });
   }
 });
