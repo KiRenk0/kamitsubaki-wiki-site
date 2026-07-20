@@ -648,7 +648,95 @@ tracks:
 | `theme` | Shared theme object | No | Custom color theme for the album detail page |
 | `seo` | Shared SEO object | No | Search-engine and social-sharing information |
 
-- For specific examples, refer to completed entries in this site's GitHub repository.
+#### Song and album backfill standard
+
+Backfill work has two independently reviewable levels:
+
+- **Catalog-ready:** paths, required metadata, official sources, local high-resolution artwork, official links, and a minimal body are reliable. Track links, lyrics, or long-form text may still be incomplete if the missing scope is stated clearly.
+- **Complete entry:** adds verified tracks, internal song links, body copy, usable lyric material, and all three locales. Completeness never means filling uncertain fields.
+
+##### Directory code syntax
+
+```md
+songs/<artistId>/<category>/<songId>/<locale>.md
+albums/<artistId>/<albumId>/<locale>.md
+```
+
+##### Authoring
+
+Group songs by artist and then song category. Group albums only by artist and album ID; do not reproduce the artist-category UI as album folders. Use stable lowercase slugs for `artistId`, `songId`, and `albumId`, and share one `translationKey` across locales.
+
+##### Example
+
+```md
+src/content/songs/kaf/originals/shi/
+├── zh.md
+├── ja.md
+└── en.md
+
+src/content/albums/kaf/kansoku-alpha/
+├── zh.md
+├── ja.md
+└── en.md
+```
+
+##### Song acceptance criteria
+
+- The path's `artistId`, category, and `songId` agree with the metadata. Reuse `originals`, `covers`, `genealogy`, `suites`, `collaborations`, or `projects` when applicable.
+- Titles, dates, and credits are supported by official sites, official upload descriptions, legitimate release pages, or reliable interviews. AI output is not a source.
+- `categoryOrder` and `itemOrder` do not conflict with existing entries and preserve a stable public or site order.
+- `image` resolves to a real repository asset, not an expiring URL, search thumbnail, placeholder, or unnecessary duplicate.
+- Use controlled media syntax such as `@[bilibili](BV...)`; do not add raw `<iframe>` markup, autoplay, or unofficial reuploads.
+- The body identifies the work and cites traceable sources. Lyrics are optional. If added, distinguish original, translation, and romanization, reuse the lyric controls, and verify provenance and copyright boundaries.
+- Prefer `zh.md`, `ja.md`, and `en.md` together. List missing translations or facts in the PR instead of inventing text or adding placeholder prose.
+
+##### Album acceptance criteria
+
+- **Catalog-ready minimum:** title, artist, type, verified release information, official artwork, at least one official or licensed streaming link, a shared three-locale `translationKey`, and a short source-backed body.
+- Prefer the highest-quality artwork available from Apple Music or another licensed service or official product page. Use a square image of at least `1500 × 1500` when available; reject search thumbnails, screenshots, placeholders, and artificial upscales.
+- Store artwork at `public/images/albums/<artistId>/<albumId>.jpg` and reference `/images/albums/<artistId>/<albumId>.jpg` in frontmatter rather than relying on a third-party image URL.
+- `trackCount` matches the verified total. When `tracks` is present, check disc number, sequence, title, artist, and duration against the official track list.
+- Add `tracks[].songId` only when the target song entry exists. A track without a page keeps its `title` and must not create a broken link.
+- Separate standard, reissue, remix, and live editions only when they are officially distinct releases; never mix dates or track lists from different editions.
+- If tracks or body copy are incomplete, state the scope in both the entry and PR. Do not fabricate data or imply that coverage is complete.
+- Structural metadata, sequence, artwork, and links remain aligned across locales; localize display text and prose only.
+
+##### Body code syntax
+
+```md
+## About the release
+
+Describe the work, release context, and verified production information.
+
+## Official media
+
+@[bilibili](BVxxxxxxxxxx)
+
+## Backfill status
+
+Core metadata and official links are complete; track links will be added as song entries become available.
+
+## Sources
+
+- [Official release page](https://example.com/official)
+- [Apple Music](https://music.apple.com/example)
+```
+
+##### Authoring
+
+Make only claims supported by sources. The status note should tell reviewers and future editors what is complete and what remains, without presenting plans or guesses as encyclopedia facts.
+
+##### Example
+
+Use `src/content/songs/kaf/`, `src/content/albums/kaf/`, and `public/images/albums/kaf/` as current references. Before submitting, run:
+
+```md
+pnpm check
+pnpm test
+pnpm build
+```
+
+Passing checks is the minimum technical bar; it does not replace source, track-order, link, or artwork-quality review.
 
 ## Advanced: supported raw HTML
 
