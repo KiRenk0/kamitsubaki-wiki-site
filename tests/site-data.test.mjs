@@ -18,6 +18,7 @@ const artistFolders = new Map([
   ['palow', 'creators'],
   ['kafu', 'isotopes'],
   ['sekai', 'isotopes'],
+  ['hinageshi', 'girls_revolution_project'],
 ]);
 
 const projectFolders = new Map([
@@ -45,7 +46,7 @@ test('nav items point to the primary page sections in display order', async () =
   );
 });
 
-test('artist database keeps the original four categories and key entities', async () => {
+test('artist database keeps the five homepage categories in editorial order', async () => {
   const artistFiles = [
     'kaf',
     'rim',
@@ -59,6 +60,7 @@ test('artist database keeps the original four categories and key entities', asyn
     'palow',
     'kafu',
     'sekai',
+    'hinageshi',
   ];
   const artistEntries = await Promise.all(
     artistFiles.map(async (id) => ({
@@ -70,7 +72,7 @@ test('artist database keeps the original four categories and key entities', asyn
 
   assert.deepEqual(
     artistCategories.map((category) => category.id),
-    ['cat-vwp', 'cat-solo', 'cat-creators', 'cat-isotopes'],
+    ['cat-vwp', 'cat-isotopes', 'cat-solo', 'cat-girls_revolution_project', 'cat-creators'],
   );
 
   const vwp = artistCategories.find((category) => category.id === 'cat-vwp');
@@ -185,14 +187,14 @@ test('artist database creates readable fallback labels from folder names', () =>
     })),
     [
       {
-        id: 'cat-fan-units',
-        title: 'Fan Units',
-        subtitle: 'FAN UNITS',
-      },
-      {
         id: 'cat-vwp',
         title: 'VWP',
         subtitle: 'VWP',
+      },
+      {
+        id: 'cat-fan-units',
+        title: 'Fan Units',
+        subtitle: 'FAN UNITS',
       },
     ],
   );

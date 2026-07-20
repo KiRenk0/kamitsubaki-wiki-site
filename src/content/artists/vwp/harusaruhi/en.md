@@ -47,7 +47,7 @@ theme:
       value: "#0F0D0E"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0f0d0e/ffd400?text=HARUSARUHI"
+image: "/images/artists/harusaruhi.png"
 name: "HARUSARUHI"
 categoryTitle: "Witches of the Virtual Generation"
 categorySubtitle: "VIRTUAL WITCH PHENOMENON"

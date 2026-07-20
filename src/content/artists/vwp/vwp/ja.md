@@ -56,7 +56,7 @@ theme:
       value: "#F0E6FF"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0d0a14/9b59b6?text=V.W.P"
+image: "/images/artists/vwp.jpg"
 name: "V.W.P -Virtual Witch Phenomenon-"
 categoryTitle: "仮想世代の魔女達"
 categorySubtitle: "VIRTUAL WITCH PHENOMENON"

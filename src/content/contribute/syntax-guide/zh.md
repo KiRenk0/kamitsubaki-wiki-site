@@ -559,11 +559,14 @@ order: 10
 
 ### 歌曲部分
 
+歌曲文件使用 `艺人 ID / 分类 / 歌曲 ID / 语言.md` 四级结构，例如 `songs/kaf/originals/shi/zh.md`。页面会直接按分类文件夹渲染；推荐使用 `originals`（原创曲）、`covers`（翻唱曲）、`genealogy`（系谱曲）、`suites`（组曲）、`collaborations`（合作曲）和 `projects`（企划曲）。新建其他文件夹也能自动形成新分类。
+
 **最小实例：**
 
 ```yaml
 title: 糸
 artist: 花譜
+artistId: kaf
 releaseDate: "2018-12-06"
 duration: "03:52"
 ```
@@ -576,6 +579,7 @@ duration: "03:52"
 |`translationKey`|字符串|是|同一歌曲多语言版本的共同标识|
 |`title`|字符串|是|歌曲标题|
 |`artist`|字符串|是|主演唱者或艺人名称|
+|`artistId`|小写英文 ID|是|关联艺人条目与歌曲目录，例如 `kaf`；必须与歌曲路径第一层文件夹一致|
 |`composer`|字符串|否|作曲者|
 |`lyricist`|字符串|否|作词者|
 |`album`|字符串|否|所属专辑|
@@ -601,7 +605,7 @@ releaseDate: "2019-09-11"
 tracks:
   - number: 1
     title: 糸
-    songId: kaf-originals/shi
+    songId: kaf/originals/shi
 ```
 
 **显示结果：** 专辑页会生成基本信息和曲目表；带 `songId` 的曲目可跳转到本站歌曲页。
@@ -628,7 +632,7 @@ tracks:
 |`image`|字符串|否|专辑封面路径或 URL|
 |`officialLinks`|对象数组|否|官方页面、购买或串流链接；每项填写 `label` 与 `href`|
 |`tracks`|对象数组|否|曲目表；每项必须填写 `title`，还可填写 `disc`、`number`、`artist`、`duration`、`songId`|
-|`tracks[].songId`|字符串|否|关联本站歌曲词条的路径，例如 `kaf-originals/shi`|
+|`tracks[].songId`|字符串|否|关联本站歌曲词条的路径，例如 `kaf/originals/shi`|
 |`theme`|公共主题对象|否|专辑详情页的个性化配色|
 |`seo`|公共 SEO 对象|否|搜索和分享信息|
 

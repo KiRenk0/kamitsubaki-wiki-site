@@ -82,6 +82,14 @@ function compareOptionalOrder(a, b) {
   return left - right;
 }
 
+const homepageArtistCategoryOrder = {
+  vwp: 1,
+  isotopes: 2,
+  solo: 3,
+  girls_revolution_project: 4,
+  creators: 5,
+};
+
 export function buildArtistCategories(artistEntries) {
   const categories = new Map();
 
@@ -89,6 +97,7 @@ export function buildArtistCategories(artistEntries) {
     const artist = entry.data;
     const { categorySlug, itemPath } = parseArtistPath(entry.id);
     const categoryId = `cat-${categorySlug}`;
+    const fixedHomepageOrder = homepageArtistCategoryOrder[categorySlug];
 
     if (!categories.has(categoryId)) {
       categories.set(categoryId, {
@@ -96,7 +105,7 @@ export function buildArtistCategories(artistEntries) {
         slug: categorySlug,
         title: artist.categoryTitle || humanizeSlug(categorySlug),
         subtitle: artist.categorySubtitle || buildCategorySubtitle(categorySlug),
-        order: artist.categoryOrder,
+        order: fixedHomepageOrder ?? artist.categoryOrder,
         items: [],
       });
     }
@@ -111,7 +120,7 @@ export function buildArtistCategories(artistEntries) {
       category.subtitle = artist.categorySubtitle;
     }
 
-    if (artist.categoryOrder !== undefined) {
+    if (fixedHomepageOrder === undefined && artist.categoryOrder !== undefined) {
       category.order = Math.min(category.order ?? artist.categoryOrder, artist.categoryOrder);
     }
 

@@ -44,7 +44,7 @@ theme:
       value: "#DCE8F0"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0e1620/5b8fa8?text=Empty+old+City"
+image: "/images/artists/empty-old-city.png"
 name: "Empty old City"
 categoryTitle: "Solo / 组合"
 categorySubtitle: "SOLO ARTISTS & UNITS"

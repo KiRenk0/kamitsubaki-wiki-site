@@ -569,11 +569,14 @@ order: 10
 
 ### 楽曲部分
 
+楽曲ファイルは `アーティスト ID / カテゴリ / 楽曲 ID / 言語.md` の構造にします（例：`songs/kaf/originals/shi/ja.md`）。ページはカテゴリフォルダをそのまま読み込みます。推奨フォルダは `originals`（オリジナル曲）、`covers`（カバー曲）、`genealogy`（系譜曲）、`suites`（組曲）、`collaborations`（コラボ曲）、`projects`（企画曲）です。独自のフォルダも自動的に新しいカテゴリになります。
+
 **最小例：**
 
 ```yaml
 title: 糸
 artist: 花譜
+artistId: kaf
 releaseDate: "2018-12-06"
 duration: "03:52"
 ```
@@ -586,6 +589,7 @@ duration: "03:52"
 | `translationKey` | 文字列 | はい | 同一楽曲の各言語版で共通して使用する識別子 |
 | `title` | 文字列 | はい | 楽曲タイトル |
 | `artist` | 文字列 | はい | メインアーティストまたは歌唱者名 |
+| `artistId` | 小文字英数字 ID | はい | アーティスト記事と楽曲フォルダを結ぶ ID（例：`kaf`）。パスの最初のフォルダと一致させます |
 | `composer` | 文字列 | いいえ | 作曲者 |
 | `lyricist` | 文字列 | いいえ | 作詞者 |
 | `album` | 文字列 | いいえ | 収録アルバム |
@@ -611,7 +615,7 @@ releaseDate: "2019-09-11"
 tracks:
   - number: 1
     title: 糸
-    songId: kaf-originals/shi
+    songId: kaf/originals/shi
 ```
 
 **表示結果：** アルバム情報と収録曲一覧が生成され、`songId` のある曲は本サイトの楽曲ページへ移動できます。
@@ -638,7 +642,7 @@ tracks:
 | `image` | 文字列 | いいえ | アルバムジャケットへのパスまたは URL |
 | `officialLinks` | オブジェクト配列 | いいえ | 公式ページ、購入、配信リンク。各項目に `label` と `href` を指定します |
 | `tracks` | オブジェクト配列 | いいえ | 収録曲一覧。各項目の `title` は必須で、`disc`、`number`、`artist`、`duration`、`songId` も指定できます |
-| `tracks[].songId` | 文字列 | いいえ | 本サイト内の楽曲記事へのパス。例：`kaf-originals/shi` |
+| `tracks[].songId` | 文字列 | いいえ | 本サイト内の楽曲記事へのパス。例：`kaf/originals/shi` |
 | `theme` | 共通テーマオブジェクト | いいえ | アルバム詳細ページの配色 |
 | `seo` | 共通SEOオブジェクト | いいえ | 検索エンジンおよび共有用情報 |
 

@@ -15,7 +15,7 @@ categorySubtitle: Albums
 categoryOrder: 1
 itemOrder: 1
 code: KTR-0105
-image: /images/fate-vwp-1400x1400.jpg
+image: /images/albums/fate-vwp-1400x1400.jpg
 officialLinks:
   - label: KAMITSUBAKI STUDIO 公式紹介ページ
     href: https://kamitsubaki.jp/discography/v-w-p/3082/

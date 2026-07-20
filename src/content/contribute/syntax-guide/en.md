@@ -571,11 +571,14 @@ order: 10
 
 ### Song properties
 
+Store song files as `artist ID / category / song ID / locale.md`, for example `songs/kaf/originals/shi/en.md`. The page renders category folders directly. Recommended folders are `originals`, `covers`, `genealogy`, `suites`, `collaborations`, and `projects`; any additional folder automatically becomes a new category.
+
 **Minimal example:**
 
 ```yaml
 title: Ito
 artist: KAF
+artistId: kaf
 releaseDate: "2018-12-06"
 duration: "03:52"
 ```
@@ -588,6 +591,7 @@ duration: "03:52"
 | `translationKey` | String | Yes | Shared identifier used by all language versions of the same song |
 | `title` | String | Yes | Song title |
 | `artist` | String | Yes | Main performer or artist name |
+| `artistId` | Lowercase slug | Yes | Connects the artist entry and song folder, such as `kaf`; it must match the first folder in the song path |
 | `composer` | String | No | Composer |
 | `lyricist` | String | No | Lyricist |
 | `album` | String | No | Album containing the song |
@@ -613,7 +617,7 @@ releaseDate: "2019-09-11"
 tracks:
   - number: 1
     title: Ito
-    songId: kaf-originals/shi
+    songId: kaf/originals/shi
 ```
 
 **Result:** the album page builds its metadata and track list; a track with `songId` links to the corresponding song page.
@@ -640,7 +644,7 @@ tracks:
 | `image` | String | No | Path or URL for the album cover |
 | `officialLinks` | Object array | No | Official, purchase, or streaming links; each item uses `label` and `href` |
 | `tracks` | Object array | No | Track list. Each item requires `title` and may include `disc`, `number`, `artist`, `duration`, and `songId` |
-| `tracks[].songId` | String | No | Path of a related song entry on this site, such as `kaf-originals/shi` |
+| `tracks[].songId` | String | No | Path of a related song entry on this site, such as `kaf/originals/shi` |
 | `theme` | Shared theme object | No | Custom color theme for the album detail page |
 | `seo` | Shared SEO object | No | Search-engine and social-sharing information |
 

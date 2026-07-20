@@ -44,7 +44,7 @@ theme:
       value: "#E8E3D5"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0d1110/d65a31?text=ISEKAIJOUCHO"
+image: "/images/artists/isekaijoucho.png"
 name: "ヰ世界情緒"
 categoryTitle: "仮想世代の魔女達"
 categorySubtitle: "VIRTUAL WITCH PHENOMENON"

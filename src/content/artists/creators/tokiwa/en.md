@@ -34,7 +34,7 @@ theme:
       value: "#E8F0FA"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0e1a26/6fa8dc?text=TOKIWA"
+image: "/images/artists/tokiwa.png"
 name: "tokiwa"
 categoryTitle: "Creators"
 categorySubtitle: "CREATORS / COMPOSERS / ILLUSTRATORS"

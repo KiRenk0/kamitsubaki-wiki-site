@@ -102,6 +102,15 @@ test('artist background hover does not change entry text brightness or weight', 
   assert.doesNotMatch(styles, /\.artist-row:hover[^}]*text-shadow/s);
 });
 
+test('artist hover backgrounds preserve the source image colors', async () => {
+  const database = await readSource('../src/components/ArtistDatabase.astro');
+  const backgroundImage = database.match(/<img\s+id="artist-bg-img"[\s\S]*?\/>/)?.[0] ?? '';
+
+  assert.notEqual(backgroundImage, '');
+  assert.doesNotMatch(backgroundImage, /\bgrayscale(?:-|\b)/);
+  assert.match(backgroundImage, /\bsaturate-125\b/);
+});
+
 test('table of contents tracks the active heading from scroll position', async () => {
   const toc = await readSource('../src/components/TableOfContents.astro');
 
