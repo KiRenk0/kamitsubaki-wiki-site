@@ -173,10 +173,18 @@ The CI workflow is defined in `.github/workflows/ci.yml`.
 - Do not move content into components or pages.
 - Do not add filler article text. Empty content is better than fake content.
 
+## Content Licensing
+
+Original text that the site has authority to license defaults to CC BY-NC-SA 4.0. Images, cover art, lyrics, audio, video, character designs, logos, trademarks, and other third-party material are excluded. Third-party text under another license retains its original terms together with its source, attribution, and change notice.
+
+Entry `license` frontmatter supports `CC-BY-NC-SA-4.0`, `CC-BY-NC-SA-3.0-CN`, `rights-reserved`, and `authorized-use`. See [Content licensing and attribution](docs/licensing.en.md) for fields, examples, and review rules. The content CC license does not cover the site's program source code.
+
 ## Documentation
 
 - [Contributing guide](docs/contributing.en.md)
 - [Architecture notes](docs/architecture.en.md)
+- [Content licensing and attribution](docs/licensing.en.md)
+- [Branded external-link cards](docs/external-links.en.md)
 
 ## Tech Stack
 

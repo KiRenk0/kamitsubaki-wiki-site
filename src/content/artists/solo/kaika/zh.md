@@ -41,7 +41,7 @@ theme:
       value: "#FFEDF0"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/1a0d10/e8788a?text=Kaika"
+image: "/images/artists/kaika.png"
 name: "Kaika"
 categoryTitle: "Solo / 组合"
 categorySubtitle: "SOLO ARTISTS & UNITS"
@@ -92,7 +92,7 @@ seo:
 
 ## 外部链接
 
-- 官方网站：<https://kaika.kamitsubaki.jp/>
-- X (Twitter)：<https://x.com/qurux2_flower>
-- YouTube：<https://www.youtube.com/@curling_flower_>
-- TikTok：<https://www.tiktok.com/@virtual_kaika>
+- [官方网站](https://kaika.kamitsubaki.jp/)
+- [X (Twitter)](https://x.com/qurux2_flower)
+- [YouTube](https://www.youtube.com/@curling_flower_)
+- [TikTok](https://www.tiktok.com/@virtual_kaika)

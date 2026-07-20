@@ -2,7 +2,9 @@
 import { getCollection } from 'astro:content';
 import AiChatWidget from '../components/AiChatWidget.astro';
 import SocialContactWidget from '../components/SocialContactWidget.astro';
+import { getLocalizedSiteName } from '../lib/i18n.mjs';
 import '../styles/global.css';
+import '../styles/mediaSwitcher.css';
 
 type PageMetadata = {
   title?: string;
@@ -29,9 +31,13 @@ const {
   metadata?: PageMetadata;
 };
 
-const siteName = 'Kamitsubaki Studio Fan Wiki';
+const localizedSiteName = getLocalizedSiteName(lang);
 const siteOrigin = (import.meta.env.PUBLIC_SITE_URL || Astro.site?.origin || 'https://kamitsubaki.wiki').replace(/\/$/, '');
-const pageTitle = metadata.title || title;
+const requestedPageTitle = metadata.title || title;
+const isLocalizedHome = new RegExp(`^/${lang}/?$`).test(Astro.url.pathname);
+const pageTitle = isLocalizedHome
+  ? localizedSiteName
+  : requestedPageTitle.replace(/Kamitsubaki Studio Fan Wiki$/i, localizedSiteName);
 const pageDescription = metadata.description || 'KAMITSUBAKI STUDIO 非官方粉丝百科。';
 const pageType = metadata.type || 'website';
 const canonicalPath = metadata.canonicalPath || Astro.url.pathname;
@@ -52,6 +58,7 @@ const socialContactCopy = siteEntry?.data.socialContact;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{pageTitle}</title>
+    <link rel="icon" type="image/svg+xml" href="/brand/kamitsubakiwiki-square.svg" />
     <meta name="description" content={pageDescription} />
     <meta name="robots" content={robots} />
     {metadata.keywords?.length && <meta name="keywords" content={metadata.keywords.join(', ')} />}
@@ -60,7 +67,7 @@ const socialContactCopy = siteEntry?.data.socialContact;
       <link rel="alternate" hreflang={alternate.locale} href={alternate.href} />
     ))}
     <link rel="alternate" hreflang="x-default" href="/zh/" />
-    <meta property="og:site_name" content={siteName} />
+    <meta property="og:site_name" content={localizedSiteName} />
     <meta property="og:type" content={pageType} />
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={pageDescription} />
@@ -97,6 +104,7 @@ const socialContactCopy = siteEntry?.data.socialContact;
 
     <script>
       import '../scripts/siteInteractions.js';
+      import '../scripts/mediaSwitcher.js';
     </script>
   </body>
 </html>

@@ -117,7 +117,7 @@ variants:
           src/content/artists/vwp/kaf/en.md
           ```
 
-          `zh.md` is Chinese, `ja.md` is Japanese, and `en.md` is English. Common folders are `artists/`, `projects/`, `logs/`, and `site/`.
+          `zh.md` is Chinese, `ja.md` is Japanese, and `en.md` is English. Common folders are `artists/`, `songs/`, `albums/`, `projects/`, `logs/`, and `site/`.
 
           Prepare a traceable source. Prefer official websites and announcements, then official social posts, formal interviews, or reliable publications. Do not treat AI output, rumors, or unverifiable fan discussion as factual evidence.
         checkpoint: The path points to the right entry and locale, and you know what reliable source supports the new information.
@@ -303,17 +303,17 @@ variants:
     outcome: A three-locale entry PR
     entryMode: repository
     description: |
-      Use this route to add a new artist, project, or timeline record rather than changing an existing file. New entries usually add a folder and several files, so begin by finding an existing entry of the same type to use as a structural reference.
+      Use this route to add a new artist, song, album, project, or timeline record rather than changing an existing file. New entries usually add a folder and several files, so begin by finding an existing entry of the same type to use as a structural reference.
     sections:
       - title: Choose the entry type and scope
-        summary: Decide between artists, projects, and logs, and confirm that the subject needs its own entry.
+        summary: Decide between artists, songs, albums, projects, and logs, and confirm that the subject needs its own entry.
         body: |
-          `artists/` contains artists, creators, groups, and musical isotopes. `projects/` contains projects, settings, exhibitions, and labels. `logs/` contains dated news, events, and observations.
+          `artists/` contains artists, creators, groups, and musical isotopes. `songs/` contains songs grouped by artist and category. `albums/` contains albums, EPs, and other official releases grouped by artist. `projects/` contains projects, settings, exhibitions, and labels. `logs/` contains dated news, events, and observations.
 
           A new entry needs a clear subject, stable name, and traceable public sources. If you only need to add one date or link, edit the existing entry instead.
         checkpoint: You can name the collection and explain why this should be an independent entry.
         aiPrompt: |
-          【Goal】Decide whether my new wiki content belongs in artists, projects, or logs and whether it needs an independent entry.
+          【Goal】Decide whether my new wiki content belongs in artists, songs, albums, projects, or logs and whether it needs an independent entry.
           【Content root】{{REPO_CONTENT_ROOT}}
           【My situation】{{USER_CONTEXT}}
           【Constraints】Use only the subject, sources, and directory context I provide. Do not invent policy or facts.
@@ -321,7 +321,7 @@ variants:
       - title: Choose a folder slug and translationKey
         summary: Use a stable lowercase slug and one shared translationKey across all locales.
         body: |
-          Examples include `src/content/artists/vwp/new-artist/`, `src/content/projects/arg/new-project/`, and `src/content/logs/2026/2026-07-12-new-event/`.
+          Examples include `src/content/artists/vwp/new-artist/`, `src/content/songs/kaf/originals/new-song/`, `src/content/albums/kaf/new-album/`, `src/content/projects/arg/new-project/`, and `src/content/logs/2026/2026-07-12-new-event/`.
 
           Use lowercase letters, numbers, and hyphens. The slug and `translationKey` should not change with display-language translations. Search the repository for duplicates first.
         checkpoint: The slug and translationKey are stable, locale-independent, and not duplicated.
@@ -353,7 +353,7 @@ variants:
       - title: Add collection-valid frontmatter
         summary: Follow content.config.ts and an existing entry of the same type; include only fields you understand.
         body: |
-          Artists, projects, and logs have different required fields. Each file's `locale` must match its filename, while `translationKey` must be identical across all three.
+          Artists, songs, albums, projects, and logs have different required fields. Each file's `locale` must match its filename, while `translationKey` must be identical across all three. Songs require `artist` and `artistId`; album tracks should include `songId` only when the linked song entry exists.
 
           Do not invent `theme`, `seo`, image, or ordering values merely to make the file look complete. Use `src/content.config.ts` as the source of truth.
         checkpoint: All locale frontmatter matches the schema, with correct locale values and one translationKey.
@@ -426,6 +426,8 @@ variants:
         body: |
           ```text
           src/content/artists/<category>/<entry>/<locale>.md
+          src/content/songs/<artistId>/<category>/<songId>/<locale>.md
+          src/content/albums/<artistId>/<albumId>/<locale>.md
           src/content/projects/<category>/<project>/<locale>.md
           src/content/logs/<year>/<record>/<locale>.md
           src/content/site/<locale>.json
@@ -434,11 +436,11 @@ variants:
           Do not include `dist/`, `.astro/`, `node_modules/`, or hard-coded article copy in components in a content PR.
         checkpoint: The change is classified as content or implementation and the target matches its collection path.
         aiPrompt: |
-          Review whether {{TARGET_PATH}} fits this repository's artists/projects/logs/site content model and explain its likely rendering impact. Avoid assumptions about code I have not supplied.
+          Review whether {{TARGET_PATH}} fits this repository's artists/songs/albums/projects/logs/site content model and explain its likely rendering impact. Avoid assumptions about code I have not supplied.
       - title: Apply schema and localization constraints
         summary: content.config.ts validates frontmatter; localized records share translationKey and structure.
         body: |
-          `locale` is `zh | ja | en`. Localized files share a stable `translationKey`. Artists, projects, and logs have distinct schemas. Prefer `zh.md`, `ja.md`, and `en.md` together for a new entry; incomplete bodies may be empty but must not use placeholder prose.
+          `locale` is `zh | ja | en`. Localized files share a stable `translationKey`. Artists, songs, albums, projects, and logs have distinct schemas. Prefer `zh.md`, `ja.md`, and `en.md` together for a new entry; incomplete bodies may be empty but must not use placeholder prose.
 
           Keep `theme.*` color values consistent across locales, localize only palette labels, and use `seo.*` only for deliberate metadata overrides.
         checkpoint: Frontmatter satisfies its collection schema and locale/translationKey match sibling files.

@@ -7,6 +7,7 @@ import WikiInfoBox from '../../../components/WikiInfoBox.astro';
 import WikiArticleHeader from '../../../components/WikiArticleHeader.astro';
 import TableOfContents from '../../../components/TableOfContents.astro';
 import ContributorRoster from '../../../components/ContributorRoster.astro';
+import ContentLicenseNotice from '../../../components/ContentLicenseNotice.astro';
 import { buildArtistDisplayData, getLocalizedSite } from '../../../lib/homeData.mjs';
 import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../lib/i18n.mjs';
 import { buildArticleMetadata } from '../../../lib/metadata.mjs';
@@ -203,7 +204,7 @@ const themeStyle = [
             </details>
           )}
 
-          <article class="wiki-reader wiki-prose prose prose-invert max-w-none reveal-up">
+          <article class="wiki-reader wiki-prose wiki-artist-prose prose prose-invert max-w-none reveal-up">
             <Content />
           </article>
         </main>
@@ -217,6 +218,10 @@ const themeStyle = [
         <ContributorRoster mode="entry" locale={localeCode} collection="artists" entryId={id} />
       </aside>
       
+    </div>
+
+    <div class="mx-auto max-w-[92rem] px-4 pb-6 sm:px-6">
+      <ContentLicenseNotice license={entry.data.license} locale={localeCode} />
     </div>
 
     <SiteFooter footer={homeContent.footer} />

@@ -28,6 +28,7 @@ Generated HTML belongs in site code. Contributors use fixed, function-like alias
 | `{{details::title}}` … `{{/details}}` | Disclosure block containing Markdown |
 | `{{lyrics-controls::zh}}` (`ja` / `en`) | Fixed localized lyric-practice buttons |
 | `@[provider](target "caption")` | Controlled media player |
+| `{{media-switcher::title}}` … `{{/media-switcher}}` | Accessible tabs around 2–6 existing media shortcodes |
 
 `src/lib/wikiShortcodes.mjs` owns the non-media aliases and `src/lib/mediaEmbed.mjs` owns media. Inline arguments are plain text and are HTML-escaped before parsing; shortcode output is still sanitized. Unknown names and invalid argument counts remain visible as source text rather than guessing at author intent.
 
@@ -64,6 +65,17 @@ Use a shortcode on its own line:
 ```
 
 Multiple shortcodes may occupy a table cell without other text. `src/lib/mediaEmbed.mjs` accepts only known provider names and validates each ID or URL against a fixed hostname and shape before generating an iframe.
+
+To present the same work across several official platforms, use a block containing the unchanged single-provider syntax:
+
+```md
+{{media-switcher::KAF - Ito}}
+@[bilibili](BV1CJ411b7Ym "KAF - Ito")
+@[youtube](3Wtx6k2vInU "KAF - Ito")
+{{/media-switcher}}
+```
+
+The block requires a title and 2–6 distinct valid providers. It does not accept repeated providers, arbitrary prose, nesting, or partially valid input. After sanitization, site code materializes the validated players into an accessible tab interface. A malformed block remains inert text and creates no iframe. The no-JavaScript fallback shows all validated players in source order.
 
 | Provider | Accepted origin | Generated origin |
 | --- | --- | --- |

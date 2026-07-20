@@ -86,5 +86,5 @@ seo:
 
 ## 外部链接
 
-- X (Twitter)：<https://twitter.com/Awairo_info>
-- YouTube：<https://www.youtube.com/@yunosuke23>
+- [X (Twitter)](https://twitter.com/Awairo_info)
+- [YouTube](https://www.youtube.com/@yunosuke23)

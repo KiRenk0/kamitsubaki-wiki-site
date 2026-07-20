@@ -194,10 +194,18 @@ CI 工作流位于 `.github/workflows/ci.yml`。
 - 不要把内容硬编码进组件或页面。
 - 不要添加占位文章正文。宁可留空，也不要填假内容。
 
+## 内容许可
+
+本站有权许可的原创文字默认采用 CC BY-NC-SA 4.0。图片、封面、歌词、音视频、角色设计、Logo、商标和其他第三方素材不在默认文字许可范围内；采用其他协议的第三方文字继续遵循其原协议，并保留来源署名和修改说明。
+
+条目可通过 `license` frontmatter 标记 `CC-BY-NC-SA-4.0`、`CC-BY-NC-SA-3.0-CN`、`rights-reserved` 或 `authorized-use`。具体字段、示例和 review 规则见[内容授权与来源标注](docs/licensing.md)。站点程序代码不随百科文字采用 CC 协议。
+
 ## 文档
 
 - [贡献指南](docs/contributing.md)
 - [架构说明](docs/architecture.md)
+- [内容授权与来源标注](docs/licensing.md)
+- [外部链接品牌卡片](docs/external-links.md)
 
 ## 技术栈
 

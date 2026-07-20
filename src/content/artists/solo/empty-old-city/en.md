@@ -44,7 +44,7 @@ theme:
       value: "#DCE8F0"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0e1620/5b8fa8?text=Empty+old+City"
+image: "/images/artists/empty-old-city.png"
 name: "Empty old City"
 categoryTitle: "Solo Artists / Units"
 categorySubtitle: "SOLO ARTISTS & UNITS"
@@ -93,8 +93,8 @@ Empty old City's body of work forms an expanding narrative tapestry, with indivi
 
 ## External Links
 
-- YouTube: <https://www.youtube.com/c/emptyoldCity>
-- X (Twitter): <https://twitter.com/Empty_old_City>
-- Instagram: <https://www.instagram.com/empty_old_city/>
-- TikTok: <https://www.tiktok.com/@emptyoldcity>
-- Streaming: <https://emptyoldcity.lnk.to/Artist>
+- [YouTube](https://www.youtube.com/c/emptyoldCity)
+- [X (Twitter)](https://twitter.com/Empty_old_City)
+- [Instagram](https://www.instagram.com/empty_old_city/)
+- [TikTok](https://www.tiktok.com/@emptyoldcity)
+- [Streaming](https://emptyoldcity.lnk.to/Artist)

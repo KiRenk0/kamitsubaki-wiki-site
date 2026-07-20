@@ -37,7 +37,7 @@ theme:
       value: "#E0F0FF"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0d1520/4a9eff?text=PIEDPIPER"
+image: "/images/artists/piedpiper.png"
 name: "PIEDPIPER"
 categoryTitle: "创作者"
 categorySubtitle: "CREATORS / COMPOSERS / ILLUSTRATORS"
@@ -86,4 +86,4 @@ PIEDPIPER 是 KAMITSUBAKI STUDIO 的统括制作人（統括プロデューサ�
 
 ## 外部链接
 
-- X (Twitter)：<https://twitter.com/PIEDPIPER2045>
+- [X (Twitter)](https://twitter.com/PIEDPIPER2045)

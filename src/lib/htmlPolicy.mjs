@@ -1,6 +1,10 @@
 import { defaultSchema } from 'rehype-sanitize';
 
 const allowedDivClasses = [
+  'wiki-fact-grid',
+  'wiki-fact-card',
+  'wiki-fact-card__label',
+  'wiki-fact-card__value',
   'wiki-embed-stack',
   'my-lyric-controls',
   'my-lyric-box',
@@ -25,6 +29,7 @@ export const wikiHtmlSchema = {
     'time',
     'u',
     'wiki-media-embed',
+    'wiki-media-switcher',
   ],
   strip: [...(defaultSchema.strip || []), 'style', 'iframe', 'object', 'embed', 'form'],
   attributes: {
@@ -57,5 +62,6 @@ export const wikiHtmlSchema = {
       ['decoding', 'async', 'sync', 'auto'],
     ],
     'wiki-media-embed': ['dataProvider', 'dataTarget', 'dataCaption'],
+    'wiki-media-switcher': ['dataLabel'],
   },
 };

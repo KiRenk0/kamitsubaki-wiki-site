@@ -34,7 +34,7 @@ theme:
       value: "#E8F0FA"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0e1a26/6fa8dc?text=TOKIWA"
+image: "/images/artists/tokiwa.png"
 name: "tokiwa"
 categoryTitle: "创作者"
 categorySubtitle: "CREATORS / COMPOSERS / ILLUSTRATORS"
@@ -80,5 +80,5 @@ tokiwa 作为横跨音乐与视觉艺术的多面手创作者，拥有独特的�
 
 ## 外部链接
 
-- Twitter：<https://twitter.com/tokiwa_shion>
-- YouTube：<https://youtube.com/@tokiwa_shion>
+- [Twitter](https://twitter.com/tokiwa_shion)
+- [YouTube](https://youtube.com/@tokiwa_shion)

@@ -41,7 +41,7 @@ theme:
       value: "#FFEDF0"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/1a0d10/e8788a?text=Kaika"
+image: "/images/artists/kaika.png"
 name: "Kaika"
 categoryTitle: "Solo Artists / Units"
 categorySubtitle: "SOLO ARTISTS & UNITS"
@@ -92,7 +92,7 @@ Kaika's origin is directly tied to KAF's artistic narrative — she emerged from
 
 ## External Links
 
-- Official Site: <https://kaika.kamitsubaki.jp/>
-- X (Twitter): <https://x.com/qurux2_flower>
-- YouTube: <https://www.youtube.com/@curling_flower_>
-- TikTok: <https://www.tiktok.com/@virtual_kaika>
+- [Official Site](https://kaika.kamitsubaki.jp/)
+- [X (Twitter)](https://x.com/qurux2_flower)
+- [YouTube](https://www.youtube.com/@curling_flower_)
+- [TikTok](https://www.tiktok.com/@virtual_kaika)

@@ -34,7 +34,7 @@ theme:
       value: "#E8F0FA"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0e1a26/6fa8dc?text=TOKIWA"
+image: "/images/artists/tokiwa.png"
 name: "tokiwa"
 categoryTitle: "クリエイター"
 categorySubtitle: "CREATORS / COMPOSERS / ILLUSTRATORS"
@@ -79,5 +79,5 @@ EDM、R&B、ロックと柔軟にジャンルを渡り歩くその作風は、CR
 
 ## 外部リンク
 
-- Twitter：<https://twitter.com/tokiwa_shion>
-- YouTube：<https://youtube.com/@tokiwa_shion>
+- [Twitter](https://twitter.com/tokiwa_shion)
+- [YouTube](https://youtube.com/@tokiwa_shion)

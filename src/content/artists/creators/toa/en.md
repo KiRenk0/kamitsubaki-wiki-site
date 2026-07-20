@@ -60,12 +60,12 @@ Toa's production style occupies a unique niche in the Vocaloid landscape. Rather
 
 His long career spanning over a decade speaks to his consistency and evolving artistry within the synth vocal producer community.
 
-## Representative Works
+## Work Index
 
 - "Tsugihagi Staccato" (ツギハギスタッカート)
 - "Idea Smile" (アイディスマイル)
 
 ## External Links
 
-- Twitter: <https://twitter.com/o0toa0o>
-- YouTube: <https://www.youtube.com/user/0toa0oto0>
+- [Twitter](https://twitter.com/o0toa0o)
+- [YouTube](https://www.youtube.com/user/0toa0oto0)

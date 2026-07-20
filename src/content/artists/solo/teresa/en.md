@@ -90,6 +90,6 @@ teresaAI operates within the SINSEKAI RECORD ecosystem, a label that houses mult
 
 ## External Links
 
-- YouTube: <https://www.youtube.com/channel/UCqG0skCM-dky7KGazl9bLqA/>
-- Twitter: <https://twitter.com/virtual_teresa>
-- Instagram: <https://www.instagram.com/virtual_teresa/>
+- [YouTube](https://www.youtube.com/channel/UCqG0skCM-dky7KGazl9bLqA/)
+- [Twitter](https://twitter.com/virtual_teresa)
+- [Instagram](https://www.instagram.com/virtual_teresa/)

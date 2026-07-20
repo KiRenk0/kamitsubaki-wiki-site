@@ -86,5 +86,5 @@ KUUSOU represents a key experiment in KAMITSUBAKI STUDIO's broader "cross-dimens
 
 ## External Links
 
-- X (Twitter): <https://x.com/KUUSOU_virtual>
-- YouTube: <https://www.youtube.com/@kuusou_virtual>
+- [X (Twitter)](https://x.com/KUUSOU_virtual)
+- [YouTube](https://www.youtube.com/@kuusou_virtual)

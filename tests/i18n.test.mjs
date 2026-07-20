@@ -3,6 +3,8 @@ import { access, readFile } from 'node:fs/promises';
 import test from 'node:test';
 import yaml from 'yaml';
 
+import { getLocalizedSiteName, localizedSiteNames } from '../src/lib/i18n.mjs';
+
 const locales = ['zh', 'ja', 'en'];
 
 async function fileExists(path) {
@@ -38,6 +40,15 @@ test('site has url-based zh ja en locales with Chinese as default', async () => 
   }
 });
 
+test('site name is localized across Chinese, Japanese, and English', () => {
+  assert.deepEqual(localizedSiteNames, {
+    zh: '神椿观测站-KAMITSUBAKI Fan Wiki',
+    ja: '神椿観測所-KAMITSUBAKI Fan Wiki',
+    en: 'KAMITSUBAKI Observatory-KAMITSUBAKI Fan Wiki',
+  });
+  assert.equal(getLocalizedSiteName('unknown'), localizedSiteNames.zh);
+});
+
 test('localized content exists for key records in all supported locales', async () => {
   for (const locale of locales) {
     const artist = await readMd(`../src/content/artists/vwp/kaf/${locale}.md`);
@@ -71,7 +82,7 @@ test('localized site config exposes configurable social contact links', async ()
     const site = await readJson(`../src/content/site/${locale}.json`);
     const contactLink = site.footer.links.find((link) => link.label === 'CONTACT');
 
-    assert.equal(contactLink.href, '#social-contact');
+    assert.equal(contactLink.href, `/${locale}/#social-contact`);
     assert.equal(site.socialContact.enabled, true);
     assert.deepEqual(
       site.socialContact.items.slice(0, 3).map((item) => item.icon),
@@ -81,6 +92,6 @@ test('localized site config exposes configurable social contact links', async ()
       site.socialContact.items.find((item) => item.icon === 'github')?.href,
       'https://github.com/LinkTh1rsty',
     );
-    assert.equal(site.socialContact.items.some((item) => item.enabled === false && item.icon === 'bilibili'), true);
+    assert.equal(site.socialContact.items.every((item) => item.href && item.enabled !== false), true);
   }
 });

@@ -371,6 +371,8 @@ machigai
 
 少量行内内容使用黑幕短语法，较长内容使用下一节的折叠块。两种写法都不需要文章脚本。
 
+`spoiler` 的参数只能是纯文本，不要在 `{{spoiler::...}}` 内部放入 `**加粗**`、Markdown 链接或 HTML，否则短语法会作为原文显示。如果整段黑幕都需要加粗，可以写成 `**{{spoiler::隐藏文字}}**`；需要在隐藏内容中混排标题、列表或链接时，请改用下一节的 `details` 折叠块。
+
 **写法：**
 
 ```md
@@ -428,6 +430,44 @@ machigai
 
 @[youtube](3Wtx6k2vInU "花譜 - 糸")
 
+#### 聚合媒体切换
+
+同一作品在多个平台都有官方内容时，可以用一个聚合块把原有媒体短语法组合起来。页面只显示当前选择的平台，并提供按钮切换；原来的单个 `@[来源](...)` 写法保持不变。
+
+##### 代码语法
+
+```md
+{{media-switcher::聚合播放器标题}}
+@[来源一](媒体 ID 或分享链接 "可选标题")
+@[来源二](媒体 ID 或分享链接 "可选标题")
+{{/media-switcher}}
+```
+
+##### 写法
+
+- 标题必填，并应使用当前词条语言，例如作品名或“官方视听”。
+- 每条内容仍使用原来的媒体短语法；支持来源及地址验证规则完全相同。
+- 各行可以直接连续书写，不需要插入空行；同一行书写也能解析，但为了审阅和维护，推荐每个平台单独一行。
+- 一个聚合块接受 `2–6` 个不同平台。同一平台不能重复，不能嵌套聚合块，也不能混入普通段落。
+- 聚合块中的所有来源必须有效；只要有一个未知平台、恶意地址或错误 ID，整块就不会生成 iframe，而会保留为可见文本方便修正。
+- 无 JavaScript 时所有已验证播放器会顺序显示；启用 JavaScript 后使用按钮或键盘方向键、Home、End 切换。
+
+##### 实例
+
+```md
+{{media-switcher::花譜 - 糸}}
+@[bilibili](BV1CJ411b7Ym "花譜 - 糸")
+@[youtube](3Wtx6k2vInU "花譜 - 糸")
+{{/media-switcher}}
+```
+
+**显示实例：**
+
+{{media-switcher::花譜 - 糸}}
+@[bilibili](BV1CJ411b7Ym "花譜 - 糸")
+@[youtube](3Wtx6k2vInU "花譜 - 糸")
+{{/media-switcher}}
+
 在 Markdown 表格的同一个单元格中可以连续填写多个短语法，播放器会按照填写顺序纵向排列。该单元格只能包含短语法及空格，不要混入说明文字：
 
 ```md
@@ -438,12 +478,48 @@ machigai
 
 无法识别的来源或地址会保留为普通链接，不会生成任意第三方 iframe。新内容应使用短语法，以保持来源范围、尺寸、隐私属性和样式一致；不要直接复制第三方网站给出的原始 `<iframe>`。
 
+## 艺人页的外部链接品牌卡片
+
+艺人页有两处可以填写官方链接，它们使用同一套平台识别与品牌样式，但写法不同。
+
+### 资料卡中的官方链接
+
+资料卡使用 frontmatter 的 `officialLinks`。每项必须同时填写显示名称 `label` 和完整地址 `href`：
+
+```yaml
+officialLinks:
+  - label: "官方网站"
+    href: "https://kaf.kamitsubaki.jp/"
+  - label: "YouTube"
+    href: "https://www.youtube.com/@virtual_kaf"
+```
+
+### 正文中的外部链接
+
+正文必须使用独立的二级标题 `## 外部链接`，并在其下直接书写普通 Markdown 无序列表。每一项都要把平台或页面名称写进链接文字：
+
+```md
+## 外部链接
+
+- [官方网站](https://kaf.kamitsubaki.jp/)
+- [YouTube](https://www.youtube.com/@virtual_kaf)
+- [X (Twitter)](https://x.com/virtual_kaf)
+```
+
+- 不要写成 `- YouTube：<https://...>`、`- <https://...>` 或只有说明文字的列表项；这些写法无法生成完整卡片。
+- 不要使用“参考资料与外部链接”之类的混合标题。资料来源放在独立的 `## 参考资料` 下，供读者访问的官方主页和社交账号放在 `## 外部链接` 下。
+- 中文、日文和英文艺人正文分别使用 `外部链接`、`外部リンク` 和 `External Links`；标题必须保持准确，站点才能识别。
+- JavaScript 可用时，列表会在艺人页增强为带平台 Logo、品牌色和外链箭头的响应式链接卡片；语义仍是用于跳转的链接，不是表单按钮。没有 JavaScript 时，它会保留为可读、可点击的普通列表。
+- 当前可识别 Bilibili、YouTube、X/Twitter、TikTok、Instagram、微博、Niconico、Spotify、Apple Music、网易云音乐、pixiv、piapro、Steam、Wikipedia 和 KAMITSUBAKI 官方站点；其他网址使用通用网站样式。
+- 不要在正文中粘贴平台 SVG 或远程 Logo，图标由站点统一提供。
+
 ## 提交前自检
 
 - 文件路径和 `locale` 对应，三语文件共享同一个 `translationKey`。
 - frontmatter 的两个 `---`、YAML 缩进和字段类型没有被破坏。
 - 日期使用 `YYYY-MM-DD`，时长使用 `MM:SS` 或 `HH:MM:SS`。
 - 新事实有可靠来源，链接能打开，信息图片有合适的替代文本。
+- 艺人正文的外链使用独立的 `## 外部链接` 和 `- [名称](网址)` 列表，没有裸网址或混合标题。
 - 媒体使用 `@[来源](...)`，正文不包含脚本、事件属性、密码、令牌或个人隐私。
 - Preview / Changes 中只有本次需要的修改，没有误删其他语言或无关内容。
 
@@ -559,11 +635,14 @@ order: 10
 
 ### 歌曲部分
 
+歌曲文件使用 `艺人 ID / 分类 / 歌曲 ID / 语言.md` 四级结构，例如 `songs/kaf/originals/shi/zh.md`。页面会直接按分类文件夹渲染；推荐使用 `originals`（原创曲）、`covers`（翻唱曲）、`genealogy`（系谱曲）、`suites`（组曲）、`collaborations`（合作曲）和 `projects`（企划曲）。新建其他文件夹也能自动形成新分类。
+
 **最小实例：**
 
 ```yaml
 title: 糸
 artist: 花譜
+artistId: kaf
 releaseDate: "2018-12-06"
 duration: "03:52"
 ```
@@ -576,6 +655,7 @@ duration: "03:52"
 |`translationKey`|字符串|是|同一歌曲多语言版本的共同标识|
 |`title`|字符串|是|歌曲标题|
 |`artist`|字符串|是|主演唱者或艺人名称|
+|`artistId`|小写英文 ID|是|关联艺人条目与歌曲目录，例如 `kaf`；必须与歌曲路径第一层文件夹一致|
 |`composer`|字符串|否|作曲者|
 |`lyricist`|字符串|否|作词者|
 |`album`|字符串|否|所属专辑|
@@ -601,7 +681,7 @@ releaseDate: "2019-09-11"
 tracks:
   - number: 1
     title: 糸
-    songId: kaf-originals/shi
+    songId: kaf/originals/shi
 ```
 
 **显示结果：** 专辑页会生成基本信息和曲目表；带 `songId` 的曲目可跳转到本站歌曲页。
@@ -628,11 +708,99 @@ tracks:
 |`image`|字符串|否|专辑封面路径或 URL|
 |`officialLinks`|对象数组|否|官方页面、购买或串流链接；每项填写 `label` 与 `href`|
 |`tracks`|对象数组|否|曲目表；每项必须填写 `title`，还可填写 `disc`、`number`、`artist`、`duration`、`songId`|
-|`tracks[].songId`|字符串|否|关联本站歌曲词条的路径，例如 `kaf-originals/shi`|
+|`tracks[].songId`|字符串|否|关联本站歌曲词条的路径，例如 `kaf/originals/shi`|
 |`theme`|公共主题对象|否|专辑详情页的个性化配色|
 |`seo`|公共 SEO 对象|否|搜索和分享信息|
 
-- ***关于具体的填写示例，可在本站GitHub仓库寻找已填写完毕的词条内容进行查看。***
+#### 歌曲与专辑补写标准
+
+补写分为两个可以独立审核的完成度：
+
+- **可进入目录：** 路径、必填元数据、官方来源、本地高清图片、官方链接和最小正文已经可靠；允许曲目互链、歌词或三语长文尚未完成，但必须明确说明缺少什么。
+- **完整词条：** 在可进入目录的基础上，补齐确认过的曲目、站内歌曲互链、正文、可用的歌词资料和三语内容。完整不等于堆满字段，不确定的内容仍然应省略。
+
+##### 目录代码语法
+
+```md
+songs/<artistId>/<category>/<songId>/<locale>.md
+albums/<artistId>/<albumId>/<locale>.md
+```
+
+##### 写法
+
+歌曲先按艺人、再按曲种分类；专辑只按艺人和专辑 ID 组织，不按曲种或艺人分类页面的 UI 分组重复建目录。`artistId`、`songId`、`albumId` 使用稳定的小写 slug，三语文件共用同一 `translationKey`。
+
+##### 实例
+
+```md
+src/content/songs/kaf/originals/shi/
+├── zh.md
+├── ja.md
+└── en.md
+
+src/content/albums/kaf/kansoku-alpha/
+├── zh.md
+├── ja.md
+└── en.md
+```
+
+##### 歌曲补写验收标准
+
+- 路径中的 `artistId`、分类和 `songId` 与词条元数据一致，分类优先复用 `originals`、`covers`、`genealogy`、`suites`、`collaborations`、`projects`。
+- 标题、发布日期、作词、作曲等事实由官方网站、官方投稿说明、正式发行页或可靠采访支持；AI 输出不能作为来源。
+- `categoryOrder` 和 `itemOrder` 与现有文件不冲突，并保持公开顺序或已有站内顺序稳定。
+- `image` 指向仓库内真实文件；不用临时外链、搜索缩略图、占位图或没有必要的重复图片。
+- 视频使用 `@[bilibili](BV...)` 等受控短语法；不写原始 `<iframe>`，不自动播放，不嵌入非官方搬运。
+- 正文至少说明“这是什么作品”并列出可追溯来源；没有歌词不会阻止词条进入目录。添加歌词时需区分原文、翻译、罗马音，沿用歌词控件，并确认来源与版权边界。
+- 新词条优先同时补 `zh.md`、`ja.md`、`en.md`。暂缺的翻译或事实应在 PR 说明中列出，不写“待补充”、虚构译文或占位正文。
+
+##### 专辑补写验收标准
+
+- **可进入目录的最低条件：** 作品名、艺人、类型、已确认的发行信息、官方封面、至少一个官方或正版串流链接、三语共同 `translationKey`，以及有来源的最小正文。
+- 封面优先从 Apple Music 等正版串流服务或官方商品页取得可用的最高质量版本，原则上为正方形且至少 `1500 × 1500`。禁止搜索缩略图、截图、占位图和单纯插值放大的假高清图。
+- 封面保存为 `public/images/albums/<artistId>/<albumId>.jpg`，frontmatter 使用 `/images/albums/<artistId>/<albumId>.jpg`，不直接依赖第三方图片 URL。
+- `trackCount` 与确认过的总曲数一致；填写 `tracks` 时按官方曲目表校对碟号、序号、标题、艺人和时长。
+- 只有目标歌曲词条真实存在时才填写 `tracks[].songId`。未建歌曲页的曲目保留 `title` 即可，不制造坏链接。
+- 普通版、再版、重混版、现场版只有在官方作为不同发行物时才拆分；不能把不同版本的发行日期和曲目混在同一词条。
+- 曲目或正文未完成时，在正文和 PR 中明确范围，不用虚构数据补齐，也不能写成已经完整收录。
+- 三语文件的结构元数据、曲序、封面和链接保持一致，只本地化显示名称与正文。
+
+##### 正文代码语法
+
+```md
+## 作品简介
+
+说明作品定位、发行背景和已核实的制作信息。
+
+## 官方视听
+
+@[bilibili](BVxxxxxxxxxx)
+
+## 补写状态
+
+当前已完成基本资料与官方链接；完整曲目互链将在对应歌曲词条建立后补齐。
+
+## 来源
+
+- [官方作品页](https://example.com/official)
+- [Apple Music](https://music.apple.com/example)
+```
+
+##### 写法
+
+只写来源能够支持的断言。补写状态要告诉审核者和后续编辑者“已经完成什么、还缺什么”，但不要把计划或猜测写成百科事实。
+
+##### 实例
+
+花谱现有补写可参考 `src/content/songs/kaf/`、`src/content/albums/kaf/` 与 `public/images/albums/kaf/`。提交前运行：
+
+```md
+pnpm check
+pnpm test
+pnpm build
+```
+
+检查通过只是最低条件，不能代替来源、曲序、链接和图片质量审核。
 
 ## 高级用法：保留的 HTML 语法
 

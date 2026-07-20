@@ -112,7 +112,7 @@ variants:
           src/content/artists/vwp/kaf/ja.md
           ```
 
-          `zh.md` は中国語、`ja.md` は日本語、`en.md` は英語です。`artists/` はアーティスト、`projects/` は企画、`logs/` は記録、`site/` はサイト共通文言です。
+          `zh.md` は中国語、`ja.md` は日本語、`en.md` は英語です。`artists/` はアーティスト、`songs/` は楽曲、`albums/` はアルバム、`projects/` は企画、`logs/` は記録、`site/` はサイト共通文言です。
 
           新しい事実には追跡可能な出典を用意します。公式サイト・公式告知を優先し、AI 出力、噂、確認できないファン投稿を事実の根拠にはしません。
         checkpoint: 対象とロケールが正しく、新しい情報を支える信頼できる出典がある。
@@ -261,17 +261,17 @@ variants:
     outcome: 3言語の新規記事PR
     entryMode: repository
     description: |
-      既存ファイルの修正ではなく、アーティスト・企画・タイムライン記録を新しく追加する人向けです。新規記事はディレクトリと複数ファイルを同時に扱うため、同種の既存記事を参考に進めます。
+      既存ファイルの修正ではなく、アーティスト・楽曲・アルバム・企画・タイムライン記録を新しく追加する人向けです。新規記事はディレクトリと複数ファイルを同時に扱うため、同種の既存記事を参考に進めます。
     sections:
       - title: 記事種別と収録範囲を決める
-        summary: artists、projects、logs のどれかを選び、独立記事にする理由を確認します。
+        summary: artists、songs、albums、projects、logs のどれかを選び、独立記事にする理由を確認します。
         body: |
-          `artists/` はアーティスト・クリエイター・ユニット、`projects/` は企画・世界観・展示、`logs/` は日付のあるニュースや活動記録です。
+          `artists/` はアーティスト・クリエイター・ユニット、`songs/` はアーティストと曲種ごとの楽曲、`albums/` はアーティストごとのアルバム・EP・公式リリース、`projects/` は企画・世界観・展示、`logs/` は日付のあるニュースや活動記録です。
 
           明確な対象名と信頼できる公開出典が必要です。既存記事に1項目を追加するだけなら、新規記事ではなく既存ファイルを編集します。
         checkpoint: collectionと独立記事にする理由を説明できる。
         aiPrompt: |
-          【目的】追加したい内容が artists / projects / logs のどれに属し、独立記事にすべきか判断する。
+          【目的】追加したい内容が artists / songs / albums / projects / logs のどれに属し、独立記事にすべきか判断する。
           【内容ルート】{{REPO_CONTENT_ROOT}}
           【現在の状況】{{USER_CONTEXT}}
           【制約】提供された対象と出典だけで判断し、事実や規約を作らない。
@@ -279,7 +279,7 @@ variants:
       - title: ディレクトリ名とtranslationKeyを決める
         summary: 小文字英数字とハイフンの安定したslugを使い、3言語で同じtranslationKeyを共有します。
         body: |
-          例：`src/content/artists/vwp/new-artist/`、`src/content/projects/arg/new-project/`、`src/content/logs/2026/2026-07-12-new-event/`。
+          例：`src/content/artists/vwp/new-artist/`、`src/content/songs/kaf/originals/new-song/`、`src/content/albums/kaf/new-album/`、`src/content/projects/arg/new-project/`、`src/content/logs/2026/2026-07-12-new-event/`。
 
           slugとtranslationKeyは表示言語が変わっても変更しません。既存ディレクトリと重複しないか検索してください。
         checkpoint: slugとtranslationKeyが安定し、既存項目と重複していない。
@@ -311,7 +311,7 @@ variants:
       - title: collectionに合うfrontmatterを書く
         summary: content.config.tsと同種の既存ファイルを基準に、必要な項目だけ書きます。
         body: |
-          Artists、Projects、Logs は必須項目が異なります。`locale` は各ファイルに合わせ、`translationKey` は3言語で完全一致させます。
+          Artists、Songs、Albums、Projects、Logs は必須項目が異なります。`locale` は各ファイルに合わせ、`translationKey` は3言語で完全一致させます。楽曲には `artist` と `artistId` が必要で、アルバムの `songId` はリンク先の楽曲記事が存在する場合だけ設定します。
 
           不明な `theme`、`seo`、画像、順序値を見た目のために作らないでください。実際の必須項目は `src/content.config.ts` を確認します。
         checkpoint: 3言語のfrontmatterがschemaに合い、localeとtranslationKeyが正しい。
@@ -386,6 +386,8 @@ variants:
         body: |
           ```text
           src/content/artists/<category>/<entry>/<locale>.md
+          src/content/songs/<artistId>/<category>/<songId>/<locale>.md
+          src/content/albums/<artistId>/<albumId>/<locale>.md
           src/content/projects/<category>/<project>/<locale>.md
           src/content/logs/<year>/<record>/<locale>.md
           src/content/site/<locale>.json
@@ -394,11 +396,11 @@ variants:
           内容 PR に `dist/`、`.astro/`、`node_modules/`、コンポーネントへの記事本文ハードコードを含めません。
         checkpoint: 内容変更か実装変更かを分類し、対象が対応collectionのパスに合っている。
         aiPrompt: |
-          {{TARGET_PATH}} が artists/projects/logs/site の内容モデルに合うか確認し、想定される表示影響を説明してください。未提供コードを推測しないでください。
+          {{TARGET_PATH}} が artists/songs/albums/projects/logs/site の内容モデルに合うか確認し、想定される表示影響を説明してください。未提供コードを推測しないでください。
       - title: schemaと多言語制約を守る
         summary: content.config.tsがfrontmatterを検証し、多言語記事はtranslationKeyと構造を共有します。
         body: |
-          `locale` は `zh | ja | en`。同一記事は安定した `translationKey` を共有します。新規記事は `zh.md`、`ja.md`、`en.md` を優先し、本文未完成なら空欄にできますが仮文は入れません。
+          `locale` は `zh | ja | en`。同一記事は安定した `translationKey` を共有します。Artists、Songs、Albums、Projects、Logs はそれぞれ異なる schema を使います。新規記事は `zh.md`、`ja.md`、`en.md` を優先し、本文未完成なら空欄にできますが仮文は入れません。
 
           `theme.*` の色値は言語間で揃え、palette label のみ翻訳します。`seo.*` は自動 metadata を明示上書きするときだけ使います。
         checkpoint: frontmatterがcollection schemaを満たし、locale/translationKeyが他言語ファイルと一致する。

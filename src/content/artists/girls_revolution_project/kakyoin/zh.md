@@ -80,10 +80,10 @@ seo:
 | :---------: | :----------------------------------: | :-------: | :-------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | 2024年10月23日 |                 夢の揺籠                 | Wiz_nicc  | Wiz_nicc  |   @[bilibili](BV13ZZNYQEQx) @[netease](2637083551)  |
 | 2024年12月11日 |                宇宙逃避行                 |   MIMI    |   MIMI    | @[bilibili](https://player.bilibili.com/player.html?isOutside=true&aid=114517451215757&bvid=BV1cUE4zgEVF&cid=29991305386&p=1) @[netease](https://music.163.com/outchain/player?type=2&id=2653100592&auto=0&height=66) |
-| 2025年3月19日  | <ruby>キリガサガリキ<rt>kirigasagariki</rt> | Purukichi | Purukichi |   @[bilibili](https://player.bilibili.com/player.html?isOutside=true&aid=115049322584049&bvid=BV19fY4zYEaP&cid=31779784208&p=1) @[netease](https://music.163.com/outchain/player?type=2&id=2683803668&auto=0&height=66)   |
+| 2025年3月19日  | <ruby>キリガサガリキ<rt>kirigasagariki</rt></ruby> | Purukichi | Purukichi |   @[bilibili](https://player.bilibili.com/player.html?isOutside=true&aid=115049322584049&bvid=BV19fY4zYEaP&cid=31779784208&p=1) @[netease](https://music.163.com/outchain/player?type=2&id=2683803668&auto=0&height=66)   |
 | 2025年11月12日 |                 月へゆく                 |   tama    |   tama    |   @[bilibili](https://player.bilibili.com/player.html?isOutside=true&aid=115576294936811&bvid=BV1cByJBNEUm&cid=34113520708&p=1) @[netease](https://music.163.com/outchain/player?type=2&id=2754194786&auto=0&height=66)   |
 
-### 合唱曲目
+### 合作与团体曲目
 
 - 该类别包含佳镜院参与演唱之曲目，包含合唱曲目、心世纪团曲与少女革命计划团曲等。
 
@@ -91,7 +91,7 @@ seo:
 
 |    投稿时间    |              歌曲名称               |    演唱者     |  作词   |  作曲   |                                                                                                                                                                                                   试听                                                                                                                                                                                                    |
 | :--------: | :-----------------------------: | :--------: | :---: | :---: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| 2025年2月12日 | <ruby>シネマティック<rt>Cinematic</rt> | 佳镜院<br>冰夏至 | 櫻井健太郎 | 櫻井健太郎 | @[bilibili](https://player.bilibili.com/player.html?isOutside=true&aid=114815800445626&bvid=BV12KGEz5Er2&cid=30913922329&p=1) @[netease](https://music.163.com/outchain/player?type=2&id=2672413957&auto=0&height=66) |
+| 2025年2月12日 | <ruby>シネマティック<rt>Cinematic</rt></ruby> | 佳镜院<br>冰夏至 | 櫻井健太郎 | 櫻井健太郎 | @[bilibili](https://player.bilibili.com/player.html?isOutside=true&aid=114815800445626&bvid=BV12KGEz5Er2&cid=30913922329&p=1) @[netease](https://music.163.com/outchain/player?type=2&id=2672413957&auto=0&height=66) |
 
 #### 心世纪曲目
 

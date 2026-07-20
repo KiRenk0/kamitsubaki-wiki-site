@@ -66,12 +66,7 @@ His use of the Gekiyaku UTAU voicebank adds a virtual singer dimension to his wo
 - "Natsu Chita Kudaru" (夏至下る)
 - "Hien" (飛燕)
 
-## References
-
-- YouTube: <https://www.youtube.com/channel/UCv9b9KtcBkM1_VEZZpK8bVQ>
-- Twitter: <https://twitter.com/yoshihisahirata>
-
 ## External Links
 
-- YouTube: <https://www.youtube.com/channel/UCv9b9KtcBkM1_VEZZpK8bVQ>
-- Twitter: <https://twitter.com/yoshihisahirata>
+- [YouTube](https://www.youtube.com/channel/UCv9b9KtcBkM1_VEZZpK8bVQ)
+- [Twitter](https://twitter.com/yoshihisahirata)

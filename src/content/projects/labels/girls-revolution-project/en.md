@@ -11,7 +11,7 @@ order: 3
 	Go deeper, electronic girls!
 ## Introduction
 
-Girls' Revolution Project is a "Music × Story" multimedia project. Co-produced by KAMITSUBAKI STUDIO and FUKAIKA, this project features collaborations with various artists and composers. The project centers around the girls of the XTuber unit "<ruby>心世紀<rt>SINSEIKI</rt></markdown>" and the virtual singer group "<ruby>罪十罰<rt>TSUMITOBATSU</rt></markdown>". The virtual character designs for the girls are illustrated by PALOW.
+Girls' Revolution Project is a "Music × Story" multimedia project. Co-produced by KAMITSUBAKI STUDIO and FUKAIKA, this project features collaborations with various artists and composers. The project centers around the girls of the XTuber unit "<ruby>心世紀<rt>SINSEIKI</rt></ruby>" and the virtual singer group "<ruby>罪十罰<rt>TSUMITOBATSU</rt></ruby>". The virtual character designs for the girls are illustrated by PALOW.
 
 Most members of the groups were selected through the "SINSEKAI AUDITION" held in November 2021. On January 13, 2024, the project and its key visual were officially announced during "KAMITSUBAKI YOYOGI KESSEN 2024 GENSEI II -MAJO KAKUSEI-." Prior to their official debut, a manga providing insight into their inner personalities was released in conjunction with "Girls' Revolution Project – Q for REVOLUTION -," an online puzzle-solving event for users. On August 8 of the same year, they made their official debut as artists at the "KAMITSUBAKI FES '24 THE DAY THE EARTH STOOD STILL" event. Subsequently, they held their first one-man live concert on July 11, 2025.
 
@@ -24,18 +24,18 @@ As a new venture for KAMITSUBAKI STUDIO, they not only engage in musical activit
 	A trio Xtuber unit that delivers their voices from the narrow gap between the real and the virtual. 
 	Cloaked in the light of a supernova, the girls race through the sleepless night.
 
-- [**<ruby>御莉姬<rt>Orihime</rt></markdown>**](https://kamitsubaki.wiki/en/artists/girls_revolution_project/orihime/)
-- [**<ruby>佳镜院<rt>Kakyoin</rt></markdown>**](https://kamitsubaki.wiki/en/artists/girls_revolution_project/kakyoin/)
-- [**<ruby>硝子宫<rt>Garasumiya</rt></markdown>**](https://kamitsubaki.wiki/en/artists/girls_revolution_project/garasumiya/)
+- [**<ruby>御莉姬<rt>Orihime</rt></ruby>**](https://kamitsubaki.wiki/en/artists/girls_revolution_project/orihime/)
+- [**<ruby>佳镜院<rt>Kakyoin</rt></ruby>**](https://kamitsubaki.wiki/en/artists/girls_revolution_project/kakyoin/)
+- [**<ruby>硝子宫<rt>Garasumiya</rt></ruby>**](https://kamitsubaki.wiki/en/artists/girls_revolution_project/garasumiya/)
 - 
 - ### TSUMITOBATSU
 	An aggressive dance tune that sears the brand of sin with vocals echoing through the virtual world. 
 	A trio virtual singer unit that delivers their voices from the far-off abyss of the virtual realm. 
 	Bound by a secret pact, the girls slumber in an endless night.
 
--  [**<ruby>美古途<rt>Mikoto</rt></markdown>**](https://kamitsubaki.wiki/en/artists/girls_revolution_project/mikoto/)
-- [**<ruby>夕凪機<rt>Yunagi</rt></markdown>**](https://kamitsubaki.wiki/en/artists/girls_revolution_project/yunagi/)
-- [**<ruby>氷夏至<rt>Hinageshi</rt></markdown>**](https://kamitsubaki.wiki/en/artists/girls_revolution_project/hinageshi/)
+-  [**<ruby>美古途<rt>Mikoto</rt></ruby>**](https://kamitsubaki.wiki/en/artists/girls_revolution_project/mikoto/)
+- [**<ruby>夕凪機<rt>Yunagi</rt></ruby>**](https://kamitsubaki.wiki/en/artists/girls_revolution_project/yunagi/)
+- [**<ruby>氷夏至<rt>Hinageshi</rt></ruby>**](https://kamitsubaki.wiki/en/artists/girls_revolution_project/hinageshi/)
 
 ## Songs
 

@@ -1,9 +1,9 @@
 ---
 locale: "en"
 translationKey: "coko"
-code: "M4"
+code: "14"
 romanizedName: "COKO"
-categoryOrder: 4
+categoryOrder: 3
 itemOrder: 4
 meta: "ORIGIN: KOKO"
 debutDate: "2023-01-25"
@@ -52,7 +52,7 @@ theme:
     - label: "Soft Light"
       value: "#F0F4F8"
 statusLabel: "TYPE"
-status: "CeVIO AI"
+status: "ACTIVE"
 image: "https://placehold.co/1200x800/0a1120/4299e1?text=COKO"
 name: "COKO"
 categoryTitle: "Musical Isotopes"
@@ -98,12 +98,32 @@ Recommended related entries:
 - [KAFU](/en/artists/isotopes/kafu)
 - [SEKAI](/en/artists/isotopes/sekai)
 
+## Basic Profile and Character Setting
+
+COKO is a musical-isotope voicebank and character based on KOKO's vocal data, not KOKO herself. Its design and sound preserve the source singer's strong projection, sustained notes, and emotional drive while making those qualities available for new creator works.
+
+| Item | Detail |
+| --- | --- |
+| Voice source | KOKO |
+| Platform | CeVIO AI and VOICEPEAK TALK EXTENSION |
+| Character design | SWAV |
+| First release | January 25, 2023 |
+| Demonstration work | “the last bullet” |
+
+## Representative Songs and Creator Ecosystem
+
+“the last bullet” is the clearest bridge between KOKO's live impact and COKO's synthetic voice. TALK EXTENSION expands COKO beyond singing into speech, while V.I.P places the character alongside other Kamitsubaki musical isotopes. Community-created rap, electronic pop, and high-energy songs form the broader catalogue.
+
+## Name and Identity Boundaries
+
+COKO, KOKO, and songs made with COKO must be recorded as separate layers: synthetic character, source virtual singer, and creator work. A COKO release is not automatically a KOKO performance, even where official projects reference one another.
+
 ## Related Projects / Setting
 
 COKO is a key software product of the "Musical Isotope Project". The project digitizes and extends KOKO's voice, enabling it to act not only as a personal singer's voice but also as an open-source vocal asset for creators to program and restructure, stimulating diverse cross-dimensional creations.
 
 ## External Links
 
-- Musical Isotope official website: <https://musical-isotope.kamitsubaki.jp/>
-- Musical Isotope official X (Twitter): <https://twitter.com/musicalisotope>
-- Musical Isotope official YouTube channel: <https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA>
+- [Musical Isotope official website](https://musical-isotope.kamitsubaki.jp/)
+- [Musical Isotope official X (Twitter)](https://twitter.com/musicalisotope)
+- [Musical Isotope official YouTube channel](https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA)

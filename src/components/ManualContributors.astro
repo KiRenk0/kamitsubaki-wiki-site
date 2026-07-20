@@ -1,0 +1,726 @@
+---
+import manualContributorData from '../data/manualContributors.json';
+
+type ContributorLocale = 'zh' | 'ja' | 'en';
+type LocalizedContributorText = string | Partial<Record<ContributorLocale, string>>;
+
+interface ManualContributor {
+  id: string;
+  collaboration: LocalizedContributorText;
+  name: string;
+  avatar?: string;
+  contacts: Array<{ label: string; href?: string }>;
+  introduction: LocalizedContributorText;
+  quote: LocalizedContributorText;
+  enabled?: boolean;
+}
+
+interface Props {
+  locale?: ContributorLocale | string;
+}
+
+const { locale = 'zh' } = Astro.props as Props;
+const activeLocale: ContributorLocale = locale === 'ja' || locale === 'en' ? locale : 'zh';
+const contributors = (manualContributorData as ManualContributor[]).filter((contributor) => contributor.enabled !== false);
+
+const copy = {
+  zh: {
+    title: '特别协力者',
+    subtitle: '感谢以不同方式为这座观测站提供帮助的每一位同行者。点击头像查看他们的故事。',
+    contact: '联系方式',
+    quote: '他的一句话',
+    open: '查看资料',
+    close: '收起资料',
+    showAll: '展开全部',
+    showLess: '收起名单',
+    empty: '手动协力者名单尚未添加。可在本地数据文件中补充。',
+  },
+  ja: {
+    title: 'スペシャルサポーター',
+    subtitle: 'さまざまな形でこの観測拠点を支えてくださった皆さまに感謝します。アイコンを選ぶとプロフィールが開きます。',
+    contact: '連絡先',
+    quote: 'ひとこと',
+    open: 'プロフィールを見る',
+    close: 'プロフィールを閉じる',
+    showAll: 'すべて表示',
+    showLess: '折りたたむ',
+    empty: '手動サポーターはまだ登録されていません。ローカルデータファイルから追加できます。',
+  },
+  en: {
+    title: 'Special collaborators',
+    subtitle: 'With thanks to everyone who supports this observatory in their own way. Select a portrait to meet them.',
+    contact: 'Contact',
+    quote: 'In their words',
+    open: 'View profile',
+    close: 'Close profile',
+    showAll: 'Show all',
+    showLess: 'Show less',
+    empty: 'No manual collaborators have been added yet. Add them in the local data file.',
+  },
+}[activeLocale];
+
+function localized(value: LocalizedContributorText) {
+  if (typeof value === 'string') return value;
+  return value[activeLocale] || value.zh || value.ja || value.en || '';
+}
+
+function safeContactHref(value?: string) {
+  if (!value) return '';
+  if (value.startsWith('mailto:')) return value;
+
+  try {
+    const url = new URL(value);
+    return url.protocol === 'https:' || url.protocol === 'http:' ? value : '';
+  } catch {
+    return '';
+  }
+}
+
+function safeAvatarSrc(value?: string) {
+  if (!value) return '';
+  if (value.startsWith('/') && !value.startsWith('//')) return value;
+
+  try {
+    const url = new URL(value);
+    return url.protocol === 'https:' || url.protocol === 'http:' ? value : '';
+  } catch {
+    return '';
+  }
+}
+
+function initials(name: string) {
+  return Array.from(name.trim()).slice(0, 2).join('').toUpperCase() || '?';
+}
+---
+
+<section
+  class="manual-contributors"
+  aria-labelledby="manual-contributors-title"
+  data-manual-contributors
+  data-list-expanded="false"
+  data-detail-open="false"
+  data-has-overflow="false"
+>
+  <header class="manual-contributors__header">
+    <div>
+      <h3 id="manual-contributors-title">{copy.title}</h3>
+      <p>{copy.subtitle}</p>
+    </div>
+    <span aria-label={`${contributors.length} ${copy.title}`}>{String(contributors.length).padStart(2, '0')}</span>
+  </header>
+
+  {contributors.length > 0 ? (
+    <>
+      <div class="manual-contributors__grid-wrap">
+        <div class="manual-contributors__grid" data-contributor-grid>
+          {contributors.map((contributor) => {
+            const avatarSrc = safeAvatarSrc(contributor.avatar);
+            const detailId = `manual-contributor-${contributor.id}`;
+
+            return (
+              <button
+                class="manual-contributors__card"
+                type="button"
+                aria-expanded="false"
+                aria-controls={detailId}
+                aria-label={`${copy.open}：${contributor.name}`}
+                data-contributor-card={contributor.id}
+              >
+                <span class="manual-contributors__avatar">
+                  {avatarSrc ? (
+                    <img src={avatarSrc} alt="" loading="lazy" referrerpolicy="no-referrer" />
+                  ) : (
+                    <span>{initials(contributor.name)}</span>
+                  )}
+                </span>
+                <span class="manual-contributors__card-copy">
+                  <strong>{contributor.name}</strong>
+                  <small>{localized(contributor.collaboration)}</small>
+                </span>
+                <span class="manual-contributors__card-mark" aria-hidden="true">↗</span>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      <button
+        class="manual-contributors__toggle"
+        type="button"
+        aria-expanded="false"
+        data-contributor-list-toggle
+        data-show-all={copy.showAll}
+        data-show-less={copy.showLess}
+      >
+        <span>{copy.showAll}</span><i aria-hidden="true">⌄</i>
+      </button>
+
+      <div class="manual-contributors__drawer" data-contributor-drawer>
+        <div class="manual-contributors__drawer-clip">
+          <div class="manual-contributors__drawer-surface">
+            <button class="manual-contributors__drawer-close" type="button" aria-label={copy.close} data-contributor-close>×</button>
+            {contributors.map((contributor) => {
+              const avatarSrc = safeAvatarSrc(contributor.avatar);
+              const contacts = Array.isArray(contributor.contacts) ? contributor.contacts : [];
+
+              return (
+                <article id={`manual-contributor-${contributor.id}`} class="manual-contributors__detail" hidden data-contributor-detail={contributor.id}>
+                  <div class="manual-contributors__identity">
+                    <span class="manual-contributors__detail-avatar">
+                      {avatarSrc ? (
+                        <img src={avatarSrc} alt="" loading="lazy" referrerpolicy="no-referrer" />
+                      ) : (
+                        <span>{initials(contributor.name)}</span>
+                      )}
+                    </span>
+                    <div>
+                      <p>{localized(contributor.collaboration)}</p>
+                      <h4>{contributor.name}</h4>
+                    </div>
+                  </div>
+
+                  <div class="manual-contributors__bio">
+                    <p>{localized(contributor.introduction)}</p>
+                    {contacts.length > 0 && (
+                      <div class="manual-contributors__contacts">
+                        <span>{copy.contact}</span>
+                        <div>
+                          {contacts.map((contact) => {
+                            const contactHref = safeContactHref(contact.href);
+                            return contactHref ? (
+                              <a href={contactHref} target={contactHref.startsWith('mailto:') ? undefined : '_blank'} rel={contactHref.startsWith('mailto:') ? undefined : 'noopener noreferrer'}>
+                                {contact.label}<span aria-hidden="true">↗</span>
+                              </a>
+                            ) : (
+                              <strong>{contact.label}</strong>
+                            );
+                          })}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+
+                  <blockquote>
+                    <span>{copy.quote}</span>
+                    <p>“{localized(contributor.quote)}”</p>
+                  </blockquote>
+                </article>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+    </>
+  ) : (
+    <p class="manual-contributors__empty">{copy.empty}</p>
+  )}
+</section>
+
+<script>
+  function initializeManualContributors() {
+    document.querySelectorAll<HTMLElement>('[data-manual-contributors]').forEach((root) => {
+      if (root.dataset.initialized === 'true') return;
+      root.dataset.initialized = 'true';
+
+      const grid = root.querySelector<HTMLElement>('[data-contributor-grid]');
+      const listToggle = root.querySelector<HTMLButtonElement>('[data-contributor-list-toggle]');
+      const closeButton = root.querySelector<HTMLButtonElement>('[data-contributor-close]');
+      const cards = Array.from(root.querySelectorAll<HTMLButtonElement>('[data-contributor-card]'));
+      const details = Array.from(root.querySelectorAll<HTMLElement>('[data-contributor-detail]'));
+      let selectedId = '';
+
+      const shuffledCards = [...cards];
+      for (let index = shuffledCards.length - 1; index > 0; index -= 1) {
+        const randomIndex = Math.floor(Math.random() * (index + 1));
+        [shuffledCards[index], shuffledCards[randomIndex]] = [shuffledCards[randomIndex], shuffledCards[index]];
+      }
+      shuffledCards.forEach((card) => grid?.append(card));
+
+      const closeDetail = () => {
+        root.dataset.detailOpen = 'false';
+        cards.forEach((card) => card.setAttribute('aria-expanded', 'false'));
+        selectedId = '';
+      };
+
+      const updateOverflow = () => {
+        if (!grid || root.dataset.listExpanded === 'true') return;
+        root.dataset.hasOverflow = String(grid.scrollHeight > grid.clientHeight + 2);
+      };
+
+      cards.forEach((card) => {
+        card.addEventListener('click', () => {
+          const id = card.dataset.contributorCard || '';
+          if (selectedId === id && root.dataset.detailOpen === 'true') {
+            closeDetail();
+            return;
+          }
+
+          details.forEach((detail) => {
+            detail.hidden = detail.dataset.contributorDetail !== id;
+          });
+          cards.forEach((item) => item.setAttribute('aria-expanded', String(item === card)));
+          selectedId = id;
+          root.dataset.detailOpen = 'true';
+        });
+      });
+
+      closeButton?.addEventListener('click', closeDetail);
+
+      listToggle?.addEventListener('click', () => {
+        const expanded = root.dataset.listExpanded !== 'true';
+        root.dataset.listExpanded = String(expanded);
+        listToggle.setAttribute('aria-expanded', String(expanded));
+        const label = listToggle.querySelector('span');
+        if (label) label.textContent = expanded ? listToggle.dataset.showLess || '' : listToggle.dataset.showAll || '';
+      });
+
+      updateOverflow();
+      window.addEventListener('resize', updateOverflow, { passive: true });
+    });
+  }
+
+  initializeManualContributors();
+  document.addEventListener('astro:page-load', initializeManualContributors);
+</script>
+
+<style>
+  .manual-contributors {
+    --manual-row-size: 5rem;
+    --manual-grid-gap: clamp(1.25rem, 3vw, 2rem);
+    margin: 0 0 clamp(2rem, 4vw, 2.75rem);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .manual-contributors__header {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: clamp(1.6rem, 3vw, 2.4rem) 0 clamp(1.1rem, 2vw, 1.4rem);
+  }
+
+  .manual-contributors__header h3 {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-size: clamp(1.2rem, 2.2vw, 1.7rem);
+    font-weight: 400;
+    letter-spacing: 0;
+    color: rgba(255, 255, 255, 0.92);
+  }
+
+  .manual-contributors__header p {
+    max-width: 32rem;
+    margin: 0.55rem 0 0;
+    font-size: 0.82rem;
+    line-height: 1.65;
+    color: rgba(255, 255, 255, 0.56);
+  }
+
+  .manual-contributors__header > span {
+    padding-top: 0.15rem;
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.12em;
+    color: rgba(255, 255, 255, 0.28);
+  }
+
+  .manual-contributors__grid-wrap {
+    max-height: calc(var(--manual-row-size) * 2 + var(--manual-grid-gap));
+    overflow: hidden;
+    transition: max-height 560ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .manual-contributors[data-list-expanded='true'] .manual-contributors__grid-wrap {
+    max-height: 120rem;
+  }
+
+  .manual-contributors__grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: var(--manual-grid-gap);
+    border-top: 1px solid rgba(255, 255, 255, 0.075);
+  }
+
+  .manual-contributors__card {
+    position: relative;
+    display: grid;
+    grid-template-columns: 3.75rem minmax(0, 1fr);
+    height: var(--manual-row-size);
+    min-width: 0;
+    padding: 0.6rem 0;
+    align-items: center;
+    gap: 0.85rem;
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.075);
+    border-radius: 0;
+    background: transparent;
+    color: inherit;
+    text-align: left;
+    cursor: pointer;
+    transition: color 180ms ease, background-color 180ms ease;
+  }
+
+  .manual-contributors__card::before {
+    position: absolute;
+    inset: 0 auto 0 -0.75rem;
+    width: 2px;
+    background: var(--wiki-accent-color);
+    content: '';
+    opacity: 0;
+    transition: opacity 180ms ease;
+  }
+
+  .manual-contributors__card:hover,
+  .manual-contributors__card:focus-visible,
+  .manual-contributors__card[aria-expanded='true'] {
+    background: rgba(255, 255, 255, 0.018);
+    outline: none;
+  }
+
+  .manual-contributors__card:hover::before,
+  .manual-contributors__card:focus-visible::before,
+  .manual-contributors__card[aria-expanded='true']::before {
+    opacity: 1;
+  }
+
+  .manual-contributors__avatar,
+  .manual-contributors__avatar > img,
+  .manual-contributors__avatar > span,
+  .manual-contributors__detail-avatar,
+  .manual-contributors__detail-avatar > img,
+  .manual-contributors__detail-avatar > span {
+    display: grid;
+    place-items: center;
+  }
+
+  .manual-contributors__avatar {
+    position: relative;
+    width: 3.75rem;
+    height: 3.75rem;
+    aspect-ratio: 1 / 1;
+    flex: 0 0 3.75rem;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    transition: border-color 180ms ease;
+  }
+
+  .manual-contributors__card:hover .manual-contributors__avatar,
+  .manual-contributors__card:focus-visible .manual-contributors__avatar,
+  .manual-contributors__card[aria-expanded='true'] .manual-contributors__avatar {
+    border-color: color-mix(in srgb, var(--wiki-accent-color) 52%, rgba(255, 255, 255, 0.25));
+  }
+
+  .manual-contributors__avatar > img,
+  .manual-contributors__avatar > span {
+    width: 100%;
+    height: 100%;
+  }
+
+  .manual-contributors__avatar img,
+  .manual-contributors__detail-avatar img {
+    display: block;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .manual-contributors__avatar > span,
+  .manual-contributors__detail-avatar > span {
+    font-family: var(--font-mono);
+    color: rgba(255, 255, 255, 0.68);
+  }
+
+  .manual-contributors__avatar > span {
+    font-size: 0.66rem;
+  }
+
+  .manual-contributors__card-copy {
+    position: relative;
+    display: grid;
+    min-width: 0;
+    width: 100%;
+    gap: 0.32rem;
+    text-align: left;
+  }
+
+  .manual-contributors__card-copy strong {
+    font-family: var(--font-serif);
+    font-size: 1rem;
+    line-height: 1.35;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: rgba(255, 255, 255, 0.88);
+    overflow-wrap: anywhere;
+  }
+
+  .manual-contributors__card-copy small {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.09em;
+    color: rgba(255, 255, 255, 0.38);
+  }
+
+  .manual-contributors__toggle {
+    display: none;
+    gap: 0.55rem;
+    margin: 0.85rem auto 0;
+    padding: 0.35rem 0.65rem;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.08em;
+    color: rgba(255, 255, 255, 0.45);
+    cursor: pointer;
+  }
+
+  .manual-contributors[data-has-overflow='true'] .manual-contributors__toggle {
+    display: flex;
+  }
+
+  .manual-contributors__toggle i {
+    font-style: normal;
+    transition: transform 320ms ease;
+  }
+
+  .manual-contributors[data-list-expanded='true'] .manual-contributors__toggle i {
+    transform: rotate(180deg);
+  }
+
+  .manual-contributors__drawer {
+    display: grid;
+    grid-template-rows: 0fr;
+    opacity: 0;
+    transition: grid-template-rows 520ms cubic-bezier(0.22, 1, 0.36, 1), opacity 260ms ease;
+  }
+
+  .manual-contributors[data-detail-open='true'] .manual-contributors__drawer {
+    grid-template-rows: 1fr;
+    opacity: 1;
+  }
+
+  .manual-contributors__drawer-clip {
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  .manual-contributors__drawer-surface {
+    position: relative;
+    margin-top: clamp(0.75rem, 1.5vw, 1rem);
+    padding: clamp(1rem, 2vw, 1.5rem) 0;
+    border-top: 1px solid color-mix(in srgb, var(--wiki-accent-color) 28%, rgba(255, 255, 255, 0.08));
+    border-bottom: 1px solid rgba(255, 255, 255, 0.075);
+  }
+
+  .manual-contributors__drawer-close {
+    position: absolute;
+    z-index: 1;
+    top: 0.65rem;
+    right: 0;
+    padding: 0.25rem;
+    border: 0;
+    background: transparent;
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.35);
+    cursor: pointer;
+  }
+
+  .manual-contributors__drawer-close:hover,
+  .manual-contributors__drawer-close:focus-visible {
+    color: white;
+    outline: none;
+  }
+
+  .manual-contributors__detail {
+    display: grid;
+    grid-template-columns: minmax(12rem, 0.7fr) minmax(18rem, 1.3fr);
+    gap: clamp(1.25rem, 3vw, 2.5rem);
+    align-items: start;
+    animation: manual-contributor-detail-in 420ms 90ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .manual-contributors__detail[hidden] {
+    display: none;
+  }
+
+  @keyframes manual-contributor-detail-in {
+    from { opacity: 0; transform: translateY(0.45rem); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .manual-contributors__identity {
+    display: grid;
+    grid-template-columns: 4.25rem minmax(0, 1fr);
+    gap: 0.85rem;
+    align-items: center;
+  }
+
+  .manual-contributors__detail-avatar,
+  .manual-contributors__detail-avatar > img,
+  .manual-contributors__detail-avatar > span {
+    width: 4.25rem;
+    height: 4.25rem;
+  }
+
+  .manual-contributors__detail-avatar {
+    aspect-ratio: 1 / 1;
+    flex: 0 0 4.25rem;
+    overflow: hidden;
+    border: 1px solid color-mix(in srgb, var(--wiki-accent-color) 38%, rgba(255, 255, 255, 0.12));
+  }
+
+  .manual-contributors__detail-avatar > span {
+    font-size: 0.68rem;
+  }
+
+  .manual-contributors__identity p {
+    margin: 0 0 0.35rem;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    color: color-mix(in srgb, var(--wiki-accent-color) 72%, white 12%);
+  }
+
+  .manual-contributors__identity h4 {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-size: clamp(1.15rem, 2vw, 1.45rem);
+    font-weight: 400;
+    letter-spacing: 0;
+    color: rgba(255, 255, 255, 0.92);
+  }
+
+  .manual-contributors__bio > p {
+    margin: 0;
+    font-size: 0.82rem;
+    line-height: 1.65;
+    color: rgba(255, 255, 255, 0.62);
+  }
+
+  .manual-contributors__contacts {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 0.45rem 0.75rem;
+    margin-top: 0.65rem;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+  }
+
+  .manual-contributors__contacts > span {
+    color: rgba(255, 255, 255, 0.28);
+  }
+
+  .manual-contributors__contacts > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.75rem;
+  }
+
+  .manual-contributors__contacts a,
+  .manual-contributors__contacts strong {
+    display: inline-flex;
+    gap: 0.3rem;
+    color: rgba(255, 255, 255, 0.72);
+    font-weight: 400;
+    text-decoration: none;
+  }
+
+  .manual-contributors__contacts a:hover,
+  .manual-contributors__contacts a:focus-visible {
+    color: white;
+  }
+
+  .manual-contributors__detail blockquote {
+    grid-column: 1 / -1;
+    margin: 0;
+    padding: clamp(0.8rem, 1.5vw, 1rem) 0 0 clamp(5.25rem, 10vw, 8rem);
+    border-top: 1px solid rgba(255, 255, 255, 0.075);
+  }
+
+  .manual-contributors__detail blockquote span {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.12em;
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  .manual-contributors__detail blockquote p {
+    margin: 0.4rem 0 0;
+    font-family: var(--font-serif);
+    max-width: 52rem;
+    font-size: clamp(0.95rem, 1.5vw, 1.08rem);
+    line-height: 1.65;
+    color: rgba(255, 255, 255, 0.74);
+  }
+
+  .manual-contributors__empty {
+    margin: 0;
+    padding: 1.3rem 0 1.7rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    line-height: 1.7;
+    letter-spacing: 0.06em;
+    color: rgba(255, 255, 255, 0.38);
+  }
+
+  @media (max-width: 760px) {
+    .manual-contributors {
+      --manual-row-size: 4.85rem;
+      --manual-grid-gap: 0;
+    }
+
+    .manual-contributors__header {
+      gap: 1rem;
+      padding-top: 1.5rem;
+    }
+
+    .manual-contributors__grid {
+      grid-template-columns: 1fr;
+    }
+
+    .manual-contributors__card {
+      grid-template-columns: 3.65rem minmax(0, 1fr);
+      gap: 0.85rem;
+    }
+
+    .manual-contributors__avatar {
+      width: 3.65rem;
+      height: 3.65rem;
+      flex-basis: 3.65rem;
+    }
+
+    .manual-contributors__detail {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
+    .manual-contributors__contacts {
+      grid-template-columns: 1fr;
+      gap: 0.4rem;
+    }
+
+    .manual-contributors__contacts > div {
+      gap: 0.55rem 1rem;
+    }
+
+    .manual-contributors__detail blockquote {
+      padding: 0.9rem 0 0;
+      border-top: 1px solid color-mix(in srgb, var(--wiki-accent-color) 24%, rgba(255, 255, 255, 0.08));
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .manual-contributors__grid-wrap,
+    .manual-contributors__drawer,
+    .manual-contributors__card {
+      transition-duration: 0.01ms;
+    }
+
+    .manual-contributors__detail {
+      animation: none;
+    }
+  }
+</style>

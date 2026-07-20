@@ -18,7 +18,7 @@ featuredEntries:
     href: "/en/artists/vwp/kaf"
     kind: "artist"
   - label: "V.W.P"
-    href: "/en/artists/vwp"
+    href: "/en/artists/vwp/vwp"
     kind: "artist"
 theme:
   name: "PIEDPIPER Command"
@@ -37,7 +37,7 @@ theme:
       value: "#E0F0FF"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0d1520/4a9eff?text=PIEDPIPER"
+image: "/images/artists/piedpiper.png"
 name: "PIEDPIPER"
 categoryTitle: "Creators"
 categorySubtitle: "CREATORS / COMPOSERS / ILLUSTRATORS"
@@ -78,7 +78,7 @@ As overall lead producer, PIEDPIPER's role is fundamentally organizational and v
 Useful related entries:
 
 - [KAF](/en/artists/vwp/kaf)
-- [V.W.P](/en/artists/vwp)
+- [V.W.P](/en/artists/vwp/vwp)
 
 ## References
 
@@ -86,4 +86,4 @@ Useful related entries:
 
 ## External Links
 
-- X (Twitter): <https://twitter.com/PIEDPIPER2045>
+- [X (Twitter)](https://twitter.com/PIEDPIPER2045)

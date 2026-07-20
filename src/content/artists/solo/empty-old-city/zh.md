@@ -44,7 +44,7 @@ theme:
       value: "#DCE8F0"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0e1620/5b8fa8?text=Empty+old+City"
+image: "/images/artists/empty-old-city.png"
 name: "Empty old City"
 categoryTitle: "Solo / 组合"
 categorySubtitle: "SOLO ARTISTS & UNITS"
@@ -93,8 +93,8 @@ Empty old City 的作品体系构成了一幅不断延展的叙事织锦，每�
 
 ## 外部链接
 
-- YouTube：<https://www.youtube.com/c/emptyoldCity>
-- X (Twitter)：<https://twitter.com/Empty_old_City>
-- Instagram：<https://www.instagram.com/empty_old_city/>
-- TikTok：<https://www.tiktok.com/@emptyoldcity>
-- 流媒体：<https://emptyoldcity.lnk.to/Artist>
+- [YouTube](https://www.youtube.com/c/emptyoldCity)
+- [X (Twitter)](https://twitter.com/Empty_old_City)
+- [Instagram](https://www.instagram.com/empty_old_city/)
+- [TikTok](https://www.tiktok.com/@emptyoldcity)
+- [流媒体](https://emptyoldcity.lnk.to/Artist)

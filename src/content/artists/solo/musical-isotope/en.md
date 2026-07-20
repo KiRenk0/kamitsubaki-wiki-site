@@ -73,7 +73,7 @@ For details on individual voice models (KAFU, SEKAI, etc.), see their respective
 
 ## External Links
 
-- Official site: <https://musical-isotope.kamitsubaki.jp/>
-- Twitter: <https://twitter.com/musicalisotope>
-- YouTube: <https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA>
-- Contact: <musical-isotope@kamitsubaki.jp>
+- [Official site](https://musical-isotope.kamitsubaki.jp/)
+- [Twitter](https://twitter.com/musicalisotope)
+- [YouTube](https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA)
+- [Contact](mailto:musical-isotope@kamitsubaki.jp)

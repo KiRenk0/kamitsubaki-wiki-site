@@ -46,7 +46,7 @@ theme:
       value: "#F2F0FF"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0b0b12/8a5cff?text=KOKO"
+image: "/images/artists/koko.png"
 name: "幸祜"
 categoryTitle: "仮想世代の魔女達"
 categorySubtitle: "VIRTUAL WITCH PHENOMENON"
@@ -118,6 +118,25 @@ seo:
 
 関連項目：
 - [神椿市建設中。](/ja/projects/arg/kamitsubaki-city)
+
+## 基本資料とキャラクター設定
+
+幸祜の「祜」には幸福や守護のニュアンスがある。SWAVによる初期デザインは、黒から紫青へ移る長髪、紫の瞳、イヤリング、首元の装飾、機能性のあるアウターが特徴。『PLAYER』で公開された Type-Real Alnair は、現実の舞台に立つ演奏者としての印象を強めた形態である。
+
+| 項目 | 内容 |
+| --- | --- |
+| キャラクターデザイン | SWAV |
+| 主要企画 | 『PLAYER』、『ARARE LIVE』、V.W.P |
+| 主なコラボレーター | 大沼パセリ、Len、Feryquitous、香椎モイミ、DIVELA |
+| 音声の展開 | 幸祜の歌声をもとにした音楽的同位体「狐子」 |
+
+## 音楽作品・ライブとコラボレーション
+
+「harmony」「白昼夢」「この世界に口づけを」「ASH」「瞑目」「夜光を呼ぶ」「the last bullet」は、デビュー曲から『PLAYER』期への流れを示す。アルバム『prayer』『prayer2』は個人活動の大きな区切りであり、『PLAYER』はワンマンライブの中心ブランド、『ARARE LIVE』はカバーと歌唱の幅を示すシリーズである。体調回復後の『PLAYER III』は観客を入れた個人舞台への復帰となった。
+
+## 形態・設定・エピソード
+
+幸祜の舞台形態は各ライブのコンセプトと結びついており、日常衣装として一括して扱わない。幸祜はバーチャルシンガー、狐子は歌声データをもとにした別のキャラクター・音源である。療養に関する公式発表は事実として記録し、非公開の医療情報を推測しない。
 
 ## 関連企画 / 関連設定
 

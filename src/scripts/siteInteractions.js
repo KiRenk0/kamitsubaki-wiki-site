@@ -1,5 +1,94 @@
+import { detectExternalPlatform } from '../lib/externalPlatforms.mjs';
+
+const externalLinksHeadingPattern = /^(外部链接|外部連結|外部リンク|external\s+links?)$/i;
+
+export const isExternalLinksHeading = (value) => externalLinksHeadingPattern.test(String(value).trim());
+
+const createPlatformIcon = (ownerDocument, platform) => {
+  const badge = ownerDocument.createElement('span');
+  badge.className = 'platform-icon';
+  badge.dataset.platform = platform.id;
+  badge.title = platform.name;
+  badge.setAttribute('aria-hidden', 'true');
+
+  const svg = ownerDocument.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  svg.setAttribute('viewBox', '0 0 24 24');
+  svg.setAttribute('focusable', 'false');
+
+  if (platform.icon) {
+    const path = ownerDocument.createElementNS('http://www.w3.org/2000/svg', 'path');
+    path.setAttribute('d', platform.icon.path);
+    svg.append(path);
+  } else {
+    svg.classList.add('platform-icon__globe');
+    const circle = ownerDocument.createElementNS('http://www.w3.org/2000/svg', 'circle');
+    circle.setAttribute('cx', '12');
+    circle.setAttribute('cy', '12');
+    circle.setAttribute('r', '8.75');
+    const path = ownerDocument.createElementNS('http://www.w3.org/2000/svg', 'path');
+    path.setAttribute('d', 'M3.5 12h17M12 3.25c2.2 2.35 3.3 5.27 3.3 8.75S14.2 18.4 12 20.75C9.8 18.4 8.7 15.48 8.7 12S9.8 5.6 12 3.25Z');
+    svg.append(circle, path);
+  }
+
+  badge.append(svg);
+  return badge;
+};
+
+const createExternalArrow = (ownerDocument) => {
+  const svg = ownerDocument.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  svg.classList.add('external-link-card__arrow');
+  svg.setAttribute('viewBox', '0 0 20 20');
+  svg.setAttribute('aria-hidden', 'true');
+  svg.setAttribute('focusable', 'false');
+  const path = ownerDocument.createElementNS('http://www.w3.org/2000/svg', 'path');
+  path.setAttribute('d', 'M6 14 14 6M8 6h6v6');
+  svg.append(path);
+  return svg;
+};
+
+export const enhanceExternalLinkSections = (root) => {
+  root.querySelectorAll('.wiki-artist-prose h2').forEach((heading) => {
+    if (!isExternalLinksHeading(heading.textContent)) return;
+
+    let list = heading.nextElementSibling;
+    while (list && list.tagName !== 'H2' && list.tagName !== 'UL') list = list.nextElementSibling;
+    if (!list || list.tagName !== 'UL') return;
+
+    heading.classList.add('wiki-external-links-heading');
+    list.classList.add('wiki-external-links');
+
+    Array.from(list.children).forEach((item) => {
+      if (!(item instanceof HTMLElement) || item.dataset.externalLinkEnhanced === 'true') return;
+      const link = item.querySelector(':scope > a');
+      if (!(link instanceof HTMLAnchorElement)) return;
+
+      const label = link.textContent?.trim() || link.href;
+      const platform = detectExternalPlatform({ href: link.href, label });
+      const ownerDocument = link.ownerDocument;
+      const copy = ownerDocument.createElement('span');
+      const name = ownerDocument.createElement('span');
+      const platformName = ownerDocument.createElement('span');
+
+      copy.className = 'external-link-card__copy';
+      name.className = 'external-link-card__label';
+      platformName.className = 'external-link-card__platform';
+      platformName.textContent = platform.name;
+      while (link.firstChild) name.append(link.firstChild);
+      copy.append(name, platformName);
+
+      item.classList.add('wiki-external-links__item');
+      item.dataset.externalLinkEnhanced = 'true';
+      link.classList.add('external-link-card', 'external-link-card--prose');
+      link.dataset.platform = platform.id;
+      link.style.setProperty('--platform-color', platform.color);
+      link.append(createPlatformIcon(ownerDocument, platform), copy, createExternalArrow(ownerDocument));
+    });
+  });
+};
+
 document.addEventListener('DOMContentLoaded', () => {
   document.documentElement.classList.add('has-js');
+  enhanceExternalLinkSections(document);
 
   const preloader = document.getElementById('preloader');
   const bodyWrap = document.getElementById('body-wrap');
@@ -93,17 +182,47 @@ document.addEventListener('DOMContentLoaded', () => {
   const artistList = document.getElementById('artist-list');
 
   if (bgContainer instanceof HTMLElement && bgImg instanceof HTMLImageElement) {
+    const bgLayers = Array.from(bgContainer.querySelectorAll('.artist-bg__image')).filter(
+      (layer) => layer instanceof HTMLImageElement,
+    );
+    let activeBgLayer = null;
+    let backgroundRequest = 0;
+
     const showArtistBackground = (row) => {
-      bgImg.src = row.getAttribute('data-img') ?? '';
-      bgContainer.style.opacity = '1';
-      window.setTimeout(() => {
-        bgImg.style.transform = 'scale(1)';
-      }, 50);
+      const imageUrl = row.getAttribute('data-img');
+      if (!imageUrl) return;
+
+      const request = ++backgroundRequest;
+      bgContainer.classList.add('is-visible');
+
+      if (activeBgLayer?.dataset.src === imageUrl) {
+        activeBgLayer.classList.add('is-active');
+        return;
+      }
+
+      const nextLayer = bgLayers.find((layer) => layer !== activeBgLayer) ?? bgImg;
+      nextLayer.classList.remove('is-active');
+      nextLayer.dataset.src = imageUrl;
+      nextLayer.src = imageUrl;
+
+      const revealLayer = () => {
+        if (request !== backgroundRequest) return;
+        activeBgLayer?.classList.remove('is-active');
+        nextLayer.classList.add('is-active');
+        activeBgLayer = nextLayer;
+      };
+
+      if (nextLayer.complete) {
+        window.requestAnimationFrame(revealLayer);
+      } else {
+        nextLayer.addEventListener('load', revealLayer, { once: true });
+      }
     };
 
     const hideArtistBackground = () => {
-      bgContainer.style.opacity = '0';
-      bgImg.style.transform = 'scale(0.95)';
+      backgroundRequest += 1;
+      bgContainer.classList.remove('is-visible');
+      activeBgLayer?.classList.remove('is-active');
     };
 
     document.querySelectorAll('.artist-row').forEach((row) => {
@@ -224,46 +343,38 @@ document.addEventListener('DOMContentLoaded', () => {
       const button = event.target instanceof Element && event.target.closest('.artist-expand-btn');
       if (!button) return;
 
-      const categoryId = button.getAttribute('data-category-id');
-      if (!categoryId) return;
+      const collapsibleId = button.getAttribute('aria-controls');
+      if (!collapsibleId) return;
 
-      const categoryContainer = document.getElementById(categoryId);
-      if (!categoryContainer) return;
+      const collapsible = document.getElementById(collapsibleId);
+      if (!(collapsible instanceof HTMLElement)) return;
 
-      const collapsedRows = categoryContainer.querySelectorAll('.artist-row-collapsed');
+      const copy = button.querySelector('[data-artist-expand-copy]');
+      const inner = collapsible.querySelector('.artist-collapsible__inner');
       const isExpanded = button.getAttribute('aria-expanded') === 'true';
+      const nextExpanded = !isExpanded;
 
-      if (isExpanded) {
-        collapsedRows.forEach((row) => {
-          row.classList.add('hidden');
-          row.style.transitionDelay = '';
-        });
-        button.setAttribute('aria-expanded', 'false');
-        requestAnimationFrame(() => {
-          button.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        });
-      } else {
-        collapsedRows.forEach((row, index) => {
-          row.classList.remove('hidden');
-          row.style.opacity = '0';
-          row.style.transform = 'translateY(24px)';
-          row.style.transitionDelay = `${index * 0.05}s`;
-          row.addEventListener(
-            'transitionend',
-            () => {
-              row.style.transitionDelay = '';
-            },
-            { once: true },
-          );
-          requestAnimationFrame(() => {
-            requestAnimationFrame(() => {
-              row.style.opacity = '';
-              row.style.transform = '';
-            });
-          });
-        });
-        button.setAttribute('aria-expanded', 'true');
+      if (inner instanceof HTMLElement) {
+        collapsible.style.setProperty('--artist-collapsible-height', `${inner.scrollHeight}px`);
       }
+
+      button.setAttribute('aria-expanded', String(nextExpanded));
+      collapsible.dataset.expanded = String(nextExpanded);
+      collapsible.setAttribute('aria-hidden', String(!nextExpanded));
+      collapsible.inert = !nextExpanded;
+
+      if (copy) {
+        copy.textContent = nextExpanded
+          ? button.getAttribute('data-collapse-label') || ''
+          : button.getAttribute('data-expand-label') || '';
+      }
+
+      button.setAttribute(
+        'aria-label',
+        nextExpanded
+          ? button.getAttribute('data-collapse-label') || ''
+          : button.getAttribute('data-expand-label') || '',
+      );
     });
   }
 });

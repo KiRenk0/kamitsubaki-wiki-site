@@ -41,24 +41,93 @@ test('album navigation and labels exist in every supported locale', async () => 
   }
 });
 
-test('music pages use artist-first song navigation and a flat album catalog', async () => {
-  const [subnav, songsPage, artistSongsPage, albumsPage, albumDetail] = await Promise.all([
+test('music pages use artist-first song and album navigation', async () => {
+  const [subnav, songsPage, artistSongsPage, albumsPage, artistAlbumsPage, albumDetail] = await Promise.all([
     readProjectFile('../src/components/MusicSubnav.astro'),
     readProjectFile('../src/pages/[locale]/songs/index.astro'),
     readProjectFile('../src/pages/[locale]/songs/artists/[artist].astro'),
     readProjectFile('../src/pages/[locale]/albums/index.astro'),
+    readProjectFile('../src/pages/[locale]/albums/artists/[artist].astro'),
     readProjectFile('../src/pages/[locale]/albums/[...id].astro'),
   ]);
 
   assert.match(subnav, /current === 'songs'/);
   assert.match(subnav, /current === 'albums'/);
-  assert.match(songsPage, /groupMusicByArtist/);
+  assert.match(songsPage, /buildArtistSongCatalog/);
   assert.match(songsPage, /songs\/artists\/\$\{group\.slug\}/);
-  assert.match(artistSongsPage, /groupMusicByArtist/);
+  assert.match(artistSongsPage, /buildArtistSongCatalog/);
+  assert.match(artistSongsPage, /category\.entries\.map/);
   assert.match(artistSongsPage, /songs\/\$\{songPath\}/);
-  assert.doesNotMatch(albumsPage, /groupMusicByArtist/);
-  assert.match(albumsPage, /sortedAlbums\.map/);
+  assert.match(artistSongsPage, /song\.data\.image \?\? group\.cover/);
+  assert.match(albumsPage, /buildArtistAlbumCatalog/);
+  assert.match(albumsPage, /albums\/artists\/\$\{group\.slug\}/);
+  assert.match(artistAlbumsPage, /buildArtistAlbumCatalog/);
+  assert.match(artistAlbumsPage, /albums\.map/);
+  assert.match(artistAlbumsPage, /albums\/\$\{albumPath\}/);
   assert.match(albumDetail, /<MusicSubnav locale=\{localeCode\} current="albums"/);
+});
+
+test('album catalog groups entries by folder-driven artist ids', async () => {
+  const { buildArtistAlbumCatalog } = await import('../src/lib/musicCatalog.mjs');
+  const albums = [
+    { id: 'kaf/maho/zh', data: { artist: '花譜', title: '魔法', releaseDate: '2020-11-25', itemOrder: 2, image: '/maho.jpg' } },
+    { id: 'kaf/kansoku/zh', data: { artist: '花譜', title: '観測', releaseDate: '2019-09-11', itemOrder: 1, image: '/kansoku.jpg' } },
+    { id: 'vwp/fate/zh', data: { artist: 'V.W.P', title: 'FATE', releaseDate: '2024-03-27', image: '/fate.jpg' } },
+  ];
+  const artists = [
+    { id: 'vwp/kaf/zh', data: { translationKey: 'kaf', name: '花譜', romanizedName: 'KAF', image: '/kaf-artist.jpg', categoryOrder: 1, itemOrder: 1 } },
+    { id: 'vwp/vwp/zh', data: { translationKey: 'vwp', name: 'V.W.P', romanizedName: 'V.W.P', image: '/vwp-artist.jpg', categoryOrder: 1, itemOrder: 0 } },
+  ];
+
+  const catalog = buildArtistAlbumCatalog(albums, artists, 'zh');
+  assert.deepEqual(catalog.map((group) => ({ slug: group.slug, size: group.entries.length })), [
+    { slug: 'vwp', size: 1 },
+    { slug: 'kaf', size: 2 },
+  ]);
+  assert.deepEqual(catalog[1].entries.map((entry) => entry.data.title), ['観測', '魔法']);
+  assert.equal(catalog[1].cover, '/kaf-artist.jpg');
+});
+
+test('song artwork prefers song covers and falls back to artist artwork', async () => {
+  const songDetail = await readProjectFile('../src/pages/[locale]/songs/[...id].astro');
+
+  assert.match(songDetail, /entry\.data\.image\s*\?\? artistEntry\?\.data\.image/);
+  assert.match(songDetail, /getCollection\('artists'\)/);
+  assert.match(songDetail, /artist\.data\.translationKey === entry\.data\.artistId/);
+});
+
+test('song catalog uses artist entry artwork and folder-driven categories', async () => {
+  const { buildArtistSongCatalog, parseSongCatalogPath } = await import('../src/lib/musicCatalog.mjs');
+  const songs = [
+    { id: 'kaf/originals/shi/zh', data: { artist: '花譜', artistId: 'kaf', title: '糸', itemOrder: 1 } },
+    { id: 'kaf/covers/example/zh', data: { artist: '花譜', artistId: 'kaf', title: 'Example cover', itemOrder: 1 } },
+    { id: 'kaf-genealogy/example/zh', data: { artist: '花譜', artistId: 'kaf', title: 'Legacy path' } },
+  ];
+  const artists = [{
+    id: 'vwp/kaf/zh',
+    data: {
+      translationKey: 'kaf',
+      name: '花譜',
+      romanizedName: 'KAF',
+      image: '/images/artists/kaf.webp',
+      categoryOrder: 1,
+      itemOrder: 1,
+    },
+  }];
+
+  const [catalog] = buildArtistSongCatalog(songs, artists, 'zh');
+  assert.equal(catalog.cover, '/images/artists/kaf.webp');
+  assert.equal(catalog.artistPath, 'vwp/kaf');
+  assert.deepEqual(
+    catalog.categories.map((category) => ({ slug: category.slug, title: category.title, size: category.entries.length })),
+    [
+      { slug: 'originals', title: '原创曲', size: 1 },
+      { slug: 'covers', title: '翻唱曲', size: 1 },
+      { slug: 'genealogy', title: '系谱曲', size: 1 },
+    ],
+  );
+  assert.equal(parseSongCatalogPath('kaf/originals/shi/zh', 'kaf').songPath, 'kaf/originals/shi');
+  assert.equal(parseSongCatalogPath('kaf-covers/example/zh', 'kaf').categorySlug, 'covers');
 });
 
 test('music catalog groups entries by artist with stable anchors', async () => {
@@ -77,6 +146,29 @@ test('music catalog groups entries by artist with stable anchors', async () => {
       { artist: 'V.W.P', id: 'artist-vwp', size: 2 },
     ],
   );
+});
+
+test('multi-artist songs appear once in every credited artist catalog', async () => {
+  const { groupMusicByArtist } = await import('../src/lib/musicCatalog.mjs');
+  const entries = [{
+    id: 'vwp/genealogy/resonance/zh',
+    data: {
+      artist: 'V.W.P',
+      artistId: 'vwp',
+      artistIds: ['vwp', 'kaf', 'rim', 'harusaruhi', 'isekaijoucho', 'koko'],
+      title: '共鳴',
+    },
+  }];
+  const artists = [
+    { id: 'vwp/vwp/zh', data: { translationKey: 'vwp', name: 'V.W.P' } },
+    { id: 'vwp/rim/zh', data: { translationKey: 'rim', name: '理芽' } },
+  ];
+
+  const groups = groupMusicByArtist(entries, 'zh', artists);
+  assert.equal(groups.length, 6);
+  assert.equal(groups.find(({ slug }) => slug === 'vwp').entries.length, 1);
+  assert.equal(groups.find(({ slug }) => slug === 'rim').artist, '理芽');
+  assert.equal(groups.find(({ slug }) => slug === 'rim').entries.length, 1);
 });
 
 test('album track links are emitted only for localized song entries', async () => {

@@ -1,9 +1,9 @@
 ---
 locale: "en"
 translationKey: "rime"
-code: "M3"
+code: "13"
 romanizedName: "RIME"
-categoryOrder: 4
+categoryOrder: 3
 itemOrder: 3
 meta: "ORIGIN: RIM"
 debutDate: "2022-10-25"
@@ -52,7 +52,7 @@ theme:
     - label: "Soft Light"
       value: "#FFF5F5"
 statusLabel: "TYPE"
-status: "CeVIO AI"
+status: "ACTIVE"
 image: "https://placehold.co/1200x800/1a0f0f/e51500?text=RIME"
 name: "RIME"
 categoryTitle: "Musical Isotopes"
@@ -122,12 +122,33 @@ Recommended related entries:
 - [KAFU](/en/artists/isotopes/kafu)
 - [SEKAI](/en/artists/isotopes/sekai)
 
+## Basic Profile and Character Setting
+
+RIME is a CeVIO AI singing-synthesis product and character based on RIM's vocal data. It preserves the transparency and strangeness associated with the source voice while remaining an independent creative identity.
+
+| Item | Detail |
+| --- | --- |
+| Voice source | RIM |
+| Platform | CeVIO AI and VOICEPEAK TALK EXTENSION |
+| Character design | PALOW. |
+| Main projects | *Paranormal*, RIME song contest |
+
+## Representative Songs and Creator Ecosystem
+
+“Insect Plant” is an official demonstration cover connecting RIM's catalogue to RIME, while “Mandarin” demonstrates RIME as an independent synthetic singer. The *Paranormal* compilation series gathers UGC works into a formal release history, and the RIME song contest extends the ecosystem to original songs and music videos.
+
+When cataloguing a work, distinguish RIM's performance, a RIME performance, and a duet between RIM and RIME. TALK EXTENSION expands the project from singing into speech expression.
+
+## Official Music and Community Works
+
+RIME's history differs from that of a conventional solo artist: demonstrations, contests, and creator compilations are the primary milestones. The *Paranormal* releases should therefore be read as a creator-community archive as well as a music release series.
+
 ## Related Projects / Setting
 
 RIME is a core member of the "Musical Isotope Project" initiated by KAMITSUBAKI STUDIO. Using virtual singers' vocal data to create synthesis software, this project allows RIM's voice to transcend standard vocal performances and become a versatile musical material for creators to restructure infinitely.
 
 ## External Links
 
-- Musical Isotope official website: <https://musical-isotope.kamitsubaki.jp/>
-- Musical Isotope official X (Twitter): <https://twitter.com/musicalisotope>
-- Musical Isotope official YouTube channel: <https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA>
+- [Musical Isotope official website](https://musical-isotope.kamitsubaki.jp/)
+- [Musical Isotope official X (Twitter)](https://twitter.com/musicalisotope)
+- [Musical Isotope official YouTube channel](https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA)

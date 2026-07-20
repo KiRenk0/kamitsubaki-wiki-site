@@ -43,7 +43,7 @@ theme:
       value: "#EDE8FF"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/12101f/7b68ee?text=PALOW."
+image: "/images/artists/palow.png"
 name: "PALOW."
 categoryTitle: "クリエイター"
 categorySubtitle: "CREATORS / COMPOSERS / ILLUSTRATORS"
@@ -95,5 +95,5 @@ PALOW. の画風は、複雑な幾何学模様と精密なメカニカル要素�
 
 ## 外部リンク
 
-- X (Twitter)：<https://twitter.com/PALOW_>
-- KAMITSUBAKI STUDIO PALOW. ページ：<https://kamitsubaki.jp/artist/palow/>
+- [X (Twitter)](https://twitter.com/PALOW_)
+- [KAMITSUBAKI STUDIO PALOW. ページ](https://kamitsubaki.jp/artist/palow/)

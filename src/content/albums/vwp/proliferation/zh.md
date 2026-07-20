@@ -1,0 +1,162 @@
+---
+locale: zh
+translationKey: vwp_album_proliferation
+title: "繁殖"
+romanizedTitle: "Hanshoku"
+artist: "V.W.P"
+type: "录音室专辑"
+description: "V.W.P正式发行的《繁殖》，已校对完整曲序并链接每首歌曲。"
+releaseDate: "2025-03-26"
+label: "PHENOMENON RECORD"
+trackCount: 20
+duration: "1:12:52"
+categoryTitle: "专辑"
+categorySubtitle: ALBUMS
+categoryOrder: 1
+itemOrder: 1742972400000
+image: /images/albums/vwp/proliferation.jpg
+officialLinks:
+  - label: "官方作品目录"
+    href: https://kamitsubaki.jp/disco_category/v-w-p/
+  - label: "Apple Music Japan"
+    href: https://music.apple.com/jp/album/%E7%B9%81%E6%AE%96/1801409159?uo=4
+tracks:
+  -
+    number: "1"
+    title: "歯車 (feat. KAF & V.W.P)"
+    artist: "幸祜"
+    duration: "03:48"
+    songId: "vwp/genealogy/track-1708174777"
+  -
+    number: "2"
+    title: "刻印 (feat. KOKO & V.W.P)"
+    artist: "ヰ世界情緒"
+    duration: "02:46"
+    songId: "vwp/genealogy/track-1801409162"
+  -
+    number: "3"
+    title: "牢獄 (feat. Isekaijoucho & V.W.P)"
+    artist: "春猿火"
+    duration: "03:02"
+    songId: "vwp/genealogy/track-1801409163"
+  -
+    number: "4"
+    title: "逆絶 (feat. KOKO & V.W.P)"
+    artist: "春猿火"
+    duration: "04:12"
+    songId: "vwp/genealogy/track-1801409164"
+  -
+    number: "5"
+    title: "深淵 (feat. KAF & V.W.P)"
+    artist: "ヰ世界情緒"
+    duration: "03:16"
+    songId: "vwp/genealogy/track-1801409165"
+  -
+    number: "6"
+    title: "暗闇 (feat. Isekaijoucho & V.W.P)"
+    artist: "花譜"
+    duration: "04:18"
+    songId: "vwp/genealogy/track-1801409166"
+  -
+    number: "7"
+    title: "残火 (feat. KAF & V.W.P)"
+    artist: "春猿火"
+    duration: "03:39"
+    songId: "vwp/genealogy/track-1801409168"
+  -
+    number: "8"
+    title: "夢魔 (feat. Harusaruhi & V.W.P)"
+    artist: "花譜"
+    duration: "03:47"
+    songId: "vwp/genealogy/track-1801409169"
+  -
+    number: "9"
+    title: "甘粒 (feat. RIM & V.W.P)"
+    artist: "幸祜"
+    duration: "03:52"
+    songId: "vwp/genealogy/track-1801409170"
+  -
+    number: "10"
+    title: "魔法 (feat. RIM & V.W.P)"
+    artist: "花譜"
+    duration: "03:13"
+    songId: "vwp/genealogy/track-1801409171"
+  -
+    number: "1"
+    title: "本懐 (feat. RIM & V.W.P)"
+    artist: "春猿火"
+    duration: "03:18"
+    songId: "vwp/genealogy/track-1801409172"
+  -
+    number: "2"
+    title: "泡沫 (feat. RIM & V.W.P)"
+    artist: "ヰ世界情緒"
+    duration: "03:47"
+    songId: "vwp/genealogy/track-1801409173"
+  -
+    number: "3"
+    title: "生存 (feat. Harusaruhi & V.W.P)"
+    artist: "ヰ世界情緒"
+    duration: "03:05"
+    songId: "vwp/genealogy/track-1801409174"
+  -
+    number: "4"
+    title: "愛憎 (feat. Isekaijoucho & V.W.P)"
+    artist: "幸祜"
+    duration: "02:50"
+    songId: "vwp/genealogy/track-1801409175"
+  -
+    number: "5"
+    title: "一服 (feat. KOKO & V.W.P)"
+    artist: "花譜"
+    duration: "03:45"
+    songId: "vwp/genealogy/track-1801409176"
+  -
+    number: "6"
+    title: "私的 (feat. Harusaruhi & V.W.P)"
+    artist: "理芽"
+    duration: "04:16"
+    songId: "vwp/genealogy/track-1801409177"
+  -
+    number: "7"
+    title: "不的 (feat. Isekaijoucho & V.W.P)"
+    artist: "理芽"
+    duration: "04:45"
+    songId: "vwp/genealogy/track-1801409178"
+  -
+    number: "8"
+    title: "素的 (feat. KOKO & V.W.P)"
+    artist: "理芽"
+    duration: "03:46"
+    songId: "vwp/genealogy/track-1801409270"
+  -
+    number: "9"
+    title: "魔的 (feat. KAF & V.W.P)"
+    artist: "理芽"
+    duration: "03:40"
+    songId: "vwp/genealogy/track-1801409271"
+  -
+    number: "10"
+    title: "古傷 (feat. Harusaruhi & V.W.P)"
+    artist: "幸祜"
+    duration: "03:47"
+    songId: "vwp/genealogy/track-1801409273"
+---
+
+## 作品简介
+
+《繁殖》是本目录收录的正式发行作品。发行日、曲序、时长与参与艺人以官方作品页和 Apple Music 日本区资料交叉核对。
+
+## 曲目与版本
+
+本页收录 20 轨；每一轨均链接到独立歌曲或版本页。重复收录沿用同一词条，现场、重混与重新编曲版本则独立建页。
+
+## 资料说明
+
+封面优先采用 Apple Music 可提供的最高原生分辨率；仅实体发行作品采用官方商品图。
+
+## 来源
+
+- [官方作品目录](https://kamitsubaki.jp/disco_category/v-w-p/)
+- [Apple Music Japan](https://music.apple.com/jp/album/%E7%B9%81%E6%AE%96/1801409159?uo=4)
+- [VGMdb V.W.P](https://vgmdb.net/artist/47724)

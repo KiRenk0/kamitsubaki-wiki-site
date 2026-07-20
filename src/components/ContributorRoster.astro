@@ -1,4 +1,6 @@
 ---
+import ManualContributors from './ManualContributors.astro';
+
 interface Props {
   mode: 'summary' | 'entry';
   locale?: 'zh' | 'ja' | 'en' | string;
@@ -156,6 +158,7 @@ const copy = {
 
   <div class="contributor-roster__state" data-contributor-state>{copy.loading}</div>
   <div class="contributor-roster__content" data-contributor-content hidden></div>
+  {mode === 'summary' && <ManualContributors locale={locale} />}
 </section>
 
 <script>

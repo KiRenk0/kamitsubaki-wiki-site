@@ -35,7 +35,7 @@ theme:
       value: "#FFFBE6"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0e1117/ffd966?text=ASU"
+image: "/images/artists/asu.png"
 name: "明透 / ASU"
 categoryTitle: "Solo / 组合"
 categorySubtitle: "SOLO ARTISTS & UNITS"
@@ -85,5 +85,5 @@ ASU 出身于「深脊界」——与神椿世界并行存在的另一个世界�
 
 ## 外部链接
 
-- X (Twitter)：<https://twitter.com/ASU_virtual>
-- YouTube：<https://www.youtube.com/channel/UCBLGjbYv6-xxju1i44RjnnA>
+- [X (Twitter)](https://twitter.com/ASU_virtual)
+- [YouTube](https://www.youtube.com/channel/UCBLGjbYv6-xxju1i44RjnnA)

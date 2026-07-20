@@ -35,7 +35,7 @@ theme:
       value: "#FFFBE6"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0e1117/ffd966?text=ASU"
+image: "/images/artists/asu.png"
 name: "ASU"
 categoryTitle: "Solo / Units"
 categorySubtitle: "SOLO ARTISTS & UNITS"
@@ -85,5 +85,5 @@ ASU originates from Shinkai-kai, a world that exists in parallel with the Kamits
 
 ## External Links
 
-- X (Twitter): <https://twitter.com/ASU_virtual>
-- YouTube: <https://www.youtube.com/channel/UCBLGjbYv6-xxju1i44RjnnA>
+- [X (Twitter)](https://twitter.com/ASU_virtual)
+- [YouTube](https://www.youtube.com/channel/UCBLGjbYv6-xxju1i44RjnnA)

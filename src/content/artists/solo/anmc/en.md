@@ -84,8 +84,8 @@ Two titles are currently available on Steam: *Natsuno Kanata* (App ID: 2951340) 
 
 ## External Links
 
-- Lit.Link: <https://lit.link/anmc>
-- X (Twitter): <https://x.com/ANMCkamitsubaki>
-- YouTube: <https://youtube.com/@ANMC_KAMITSUBAKI>
-- TikTok: <https://www.tiktok.com/@anmc_kamitsubaki>
-- Steam: <https://store.steampowered.com/app/2951340>
+- [Lit.Link](https://lit.link/anmc)
+- [X (Twitter)](https://x.com/ANMCkamitsubaki)
+- [YouTube](https://youtube.com/@ANMC_KAMITSUBAKI)
+- [TikTok](https://www.tiktok.com/@anmc_kamitsubaki)
+- [Steam](https://store.steampowered.com/app/2951340)

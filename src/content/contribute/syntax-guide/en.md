@@ -382,6 +382,8 @@ The result is:
 
 Use the spoiler shortcode for short inline content and the block form below for longer optional content. Neither form requires article-level JavaScript.
 
+The `spoiler` argument is plain text. Do not put `**bold text**`, Markdown links, or HTML inside `{{spoiler::...}}`, because the shortcode will remain visible as source text. To bold the complete spoiler, write `**{{spoiler::hidden text}}**`. Use the `details` block in the next section when hidden content needs headings, lists, links, or other mixed formatting.
+
 **Source:**
 
 ```md
@@ -439,6 +441,44 @@ Supported provider names are `youtube`, `bilibili`, `apple-music`, `spotify`, `n
 
 @[youtube](3Wtx6k2vInU "KAF - Ito")
 
+#### Aggregated media switcher
+
+When the same work has official media on several platforms, wrap the existing media shortcodes in one aggregate block. The page shows one selected source with platform buttons; the original standalone `@[provider](...)` syntax remains unchanged.
+
+##### Code syntax
+
+```md
+{{media-switcher::Switcher title}}
+@[first-provider](media-ID-or-share-URL "optional caption")
+@[second-provider](media-ID-or-share-URL "optional caption")
+{{/media-switcher}}
+```
+
+##### Authoring
+
+- A localized title is required, such as the work title or “Official media.”
+- Every item keeps the original media syntax and the same provider and URL validation rules.
+- Lines may be consecutive without blank lines. A single-line block also parses, but one platform per line is recommended for review and maintenance.
+- A switcher accepts `2–6` distinct platforms. Do not repeat a provider, nest switchers, or mix ordinary paragraphs into the block.
+- Every source must validate. One unknown provider, hostile URL, or malformed ID prevents the entire block from creating an iframe and leaves visible source text for correction.
+- Without JavaScript, validated players appear in source order. With JavaScript, use the buttons, arrow keys, Home, or End to switch sources.
+
+##### Example
+
+```md
+{{media-switcher::KAF - Ito}}
+@[bilibili](BV1CJ411b7Ym "KAF - Ito")
+@[youtube](3Wtx6k2vInU "KAF - Ito")
+{{/media-switcher}}
+```
+
+**Rendered example:**
+
+{{media-switcher::KAF - Ito}}
+@[bilibili](BV1CJ411b7Ym "KAF - Ito")
+@[youtube](3Wtx6k2vInU "KAF - Ito")
+{{/media-switcher}}
+
 Multiple shortcodes may be placed in the same Markdown table cell. Players are stacked vertically in source order. The cell must contain only shortcodes and whitespace, without explanatory text:
 
 ```md
@@ -449,12 +489,48 @@ Multiple shortcodes may be placed in the same Markdown table cell. Players are s
 
 An unrecognized provider or target remains a normal link and never becomes an arbitrary third-party iframe. New content should use the shortcode so provider scope, privacy attributes, sizing, and styling stay consistent; do not paste raw third-party `<iframe>` snippets.
 
+## Branded external-link cards on artist pages
+
+Artist pages can show official links in two places. Both use the same platform detection and brand styling, but their source syntax is different.
+
+### Official links in the infobox
+
+The infobox reads `officialLinks` from frontmatter. Every item must provide both a display `label` and a complete `href`:
+
+```yaml
+officialLinks:
+  - label: "Official Website"
+    href: "https://kaf.kamitsubaki.jp/"
+  - label: "YouTube"
+    href: "https://www.youtube.com/@virtual_kaf"
+```
+
+### External links in the article body
+
+Use the exact standalone level-two heading `## External Links`, followed immediately by an ordinary Markdown unordered list. Put the platform or page name inside each link:
+
+```md
+## External Links
+
+- [Official Website](https://kaf.kamitsubaki.jp/)
+- [YouTube](https://www.youtube.com/@virtual_kaf)
+- [X (Twitter)](https://x.com/virtual_kaf)
+```
+
+- Do not write `- YouTube: <https://...>`, `- <https://...>`, or a list item containing only descriptive text. Those forms cannot produce a complete card.
+- Do not combine the section with sources under a heading such as “Sources and External Links.” Put evidence in a separate `## Sources` section and reader-facing official pages or social accounts under `## External Links`.
+- Chinese, Japanese, and English artist articles use `外部链接`, `外部リンク`, and `External Links`, respectively. The heading must be exact so the site can recognize it.
+- With JavaScript, the artist page enhances the list into responsive link cards with platform logos, brand colors, and an external-link arrow. They remain navigation links rather than form buttons. Without JavaScript, the source remains a readable, clickable list.
+- Recognized platforms include Bilibili, YouTube, X/Twitter, TikTok, Instagram, Weibo, Niconico, Spotify, Apple Music, NetEase Cloud Music, pixiv, piapro, Steam, Wikipedia, and official KAMITSUBAKI sites. Other URLs receive the generic website style.
+- Do not paste platform SVG or remote logo images into the article; the site supplies the icons centrally.
+
 ## Pre-PR checklist
 
 - The path matches `locale`, and localized siblings share one `translationKey`.
 - Both `---` markers, YAML indentation, and field types are intact.
 - Dates use `YYYY-MM-DD`; durations use `MM:SS` or `HH:MM:SS`.
 - New facts have reliable sources, links open, and informative images have useful alternative text.
+- Artist-body links use a standalone `## External Links` heading and `- [Label](URL)` list items, with no bare URLs or combined heading.
 - Media uses `@[provider](...)`; the body contains no scripts, event handlers, credentials, tokens, or private information.
 - Preview / Changes contains only the intended edit and no accidental deletion of another locale.
 
@@ -571,11 +647,14 @@ order: 10
 
 ### Song properties
 
+Store song files as `artist ID / category / song ID / locale.md`, for example `songs/kaf/originals/shi/en.md`. The page renders category folders directly. Recommended folders are `originals`, `covers`, `genealogy`, `suites`, `collaborations`, and `projects`; any additional folder automatically becomes a new category.
+
 **Minimal example:**
 
 ```yaml
 title: Ito
 artist: KAF
+artistId: kaf
 releaseDate: "2018-12-06"
 duration: "03:52"
 ```
@@ -588,6 +667,7 @@ duration: "03:52"
 | `translationKey` | String | Yes | Shared identifier used by all language versions of the same song |
 | `title` | String | Yes | Song title |
 | `artist` | String | Yes | Main performer or artist name |
+| `artistId` | Lowercase slug | Yes | Connects the artist entry and song folder, such as `kaf`; it must match the first folder in the song path |
 | `composer` | String | No | Composer |
 | `lyricist` | String | No | Lyricist |
 | `album` | String | No | Album containing the song |
@@ -613,7 +693,7 @@ releaseDate: "2019-09-11"
 tracks:
   - number: 1
     title: Ito
-    songId: kaf-originals/shi
+    songId: kaf/originals/shi
 ```
 
 **Result:** the album page builds its metadata and track list; a track with `songId` links to the corresponding song page.
@@ -640,11 +720,99 @@ tracks:
 | `image` | String | No | Path or URL for the album cover |
 | `officialLinks` | Object array | No | Official, purchase, or streaming links; each item uses `label` and `href` |
 | `tracks` | Object array | No | Track list. Each item requires `title` and may include `disc`, `number`, `artist`, `duration`, and `songId` |
-| `tracks[].songId` | String | No | Path of a related song entry on this site, such as `kaf-originals/shi` |
+| `tracks[].songId` | String | No | Path of a related song entry on this site, such as `kaf/originals/shi` |
 | `theme` | Shared theme object | No | Custom color theme for the album detail page |
 | `seo` | Shared SEO object | No | Search-engine and social-sharing information |
 
-- For specific examples, refer to completed entries in this site's GitHub repository.
+#### Song and album backfill standard
+
+Backfill work has two independently reviewable levels:
+
+- **Catalog-ready:** paths, required metadata, official sources, local high-resolution artwork, official links, and a minimal body are reliable. Track links, lyrics, or long-form text may still be incomplete if the missing scope is stated clearly.
+- **Complete entry:** adds verified tracks, internal song links, body copy, usable lyric material, and all three locales. Completeness never means filling uncertain fields.
+
+##### Directory code syntax
+
+```md
+songs/<artistId>/<category>/<songId>/<locale>.md
+albums/<artistId>/<albumId>/<locale>.md
+```
+
+##### Authoring
+
+Group songs by artist and then song category. Group albums only by artist and album ID; do not reproduce the artist-category UI as album folders. Use stable lowercase slugs for `artistId`, `songId`, and `albumId`, and share one `translationKey` across locales.
+
+##### Example
+
+```md
+src/content/songs/kaf/originals/shi/
+├── zh.md
+├── ja.md
+└── en.md
+
+src/content/albums/kaf/kansoku-alpha/
+├── zh.md
+├── ja.md
+└── en.md
+```
+
+##### Song acceptance criteria
+
+- The path's `artistId`, category, and `songId` agree with the metadata. Reuse `originals`, `covers`, `genealogy`, `suites`, `collaborations`, or `projects` when applicable.
+- Titles, dates, and credits are supported by official sites, official upload descriptions, legitimate release pages, or reliable interviews. AI output is not a source.
+- `categoryOrder` and `itemOrder` do not conflict with existing entries and preserve a stable public or site order.
+- `image` resolves to a real repository asset, not an expiring URL, search thumbnail, placeholder, or unnecessary duplicate.
+- Use controlled media syntax such as `@[bilibili](BV...)`; do not add raw `<iframe>` markup, autoplay, or unofficial reuploads.
+- The body identifies the work and cites traceable sources. Lyrics are optional. If added, distinguish original, translation, and romanization, reuse the lyric controls, and verify provenance and copyright boundaries.
+- Prefer `zh.md`, `ja.md`, and `en.md` together. List missing translations or facts in the PR instead of inventing text or adding placeholder prose.
+
+##### Album acceptance criteria
+
+- **Catalog-ready minimum:** title, artist, type, verified release information, official artwork, at least one official or licensed streaming link, a shared three-locale `translationKey`, and a short source-backed body.
+- Prefer the highest-quality artwork available from Apple Music or another licensed service or official product page. Use a square image of at least `1500 × 1500` when available; reject search thumbnails, screenshots, placeholders, and artificial upscales.
+- Store artwork at `public/images/albums/<artistId>/<albumId>.jpg` and reference `/images/albums/<artistId>/<albumId>.jpg` in frontmatter rather than relying on a third-party image URL.
+- `trackCount` matches the verified total. When `tracks` is present, check disc number, sequence, title, artist, and duration against the official track list.
+- Add `tracks[].songId` only when the target song entry exists. A track without a page keeps its `title` and must not create a broken link.
+- Separate standard, reissue, remix, and live editions only when they are officially distinct releases; never mix dates or track lists from different editions.
+- If tracks or body copy are incomplete, state the scope in both the entry and PR. Do not fabricate data or imply that coverage is complete.
+- Structural metadata, sequence, artwork, and links remain aligned across locales; localize display text and prose only.
+
+##### Body code syntax
+
+```md
+## About the release
+
+Describe the work, release context, and verified production information.
+
+## Official media
+
+@[bilibili](BVxxxxxxxxxx)
+
+## Backfill status
+
+Core metadata and official links are complete; track links will be added as song entries become available.
+
+## Sources
+
+- [Official release page](https://example.com/official)
+- [Apple Music](https://music.apple.com/example)
+```
+
+##### Authoring
+
+Make only claims supported by sources. The status note should tell reviewers and future editors what is complete and what remains, without presenting plans or guesses as encyclopedia facts.
+
+##### Example
+
+Use `src/content/songs/kaf/`, `src/content/albums/kaf/`, and `public/images/albums/kaf/` as current references. Before submitting, run:
+
+```md
+pnpm check
+pnpm test
+pnpm build
+```
+
+Passing checks is the minimum technical bar; it does not replace source, track-order, link, or artwork-quality review.
 
 ## Advanced: supported raw HTML
 

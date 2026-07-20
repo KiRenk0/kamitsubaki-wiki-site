@@ -1,9 +1,9 @@
 ---
 locale: "en"
 translationKey: "haru"
-code: "M5"
+code: "15"
 romanizedName: "HARU"
-categoryOrder: 4
+categoryOrder: 3
 itemOrder: 5
 meta: "ORIGIN: HARUSARUHI"
 debutDate: "2023-11-13"
@@ -52,7 +52,7 @@ theme:
     - label: "Soft Light"
       value: "#F0FFF4"
 statusLabel: "TYPE"
-status: "CeVIO AI"
+status: "ACTIVE"
 image: "https://placehold.co/1200x800/0f1a14/48bb78?text=HARU"
 name: "HARU"
 categoryTitle: "Musical Isotopes"
@@ -95,12 +95,31 @@ Recommended related entries:
 - [KAFU](/en/artists/isotopes/kafu)
 - [SEKAI](/en/artists/isotopes/sekai)
 
+## Basic Profile and Character Setting
+
+HARU is a musical-isotope voicebank and character based on HARUSARUHI's vocal data. It translates the source singer's rhythmic drive, rap delivery, and explosive emotional attack into a synthetic voice for creators.
+
+| Item | Detail |
+| --- | --- |
+| Voice source | HARUSARUHI |
+| Platform | CeVIO AI and VOICEPEAK TALK EXTENSION |
+| Character design | Isshiki |
+| Main projects | HARU original-song contest, V.I.P |
+
+## Representative Songs and Creator Ecosystem
+
+HARU is widely used for rap, fast electronic pop, and rhythm-driven works. Demonstration songs, the HARU original-song contest, and TALK EXTENSION are the main public routes through the project. The relationship with HARUSARUHI is a voice-source relationship, not shared authorship or a shared personal discography.
+
+## Name and Identity Boundaries
+
+HARU is the isotope character and voicebank; HARUSARUHI is the virtual singer whose vocal data supports it. Official demonstrations, creator songs, and joint V.I.P performances should be listed separately so that the source artist and user-generated works are not merged.
+
 ## Related Projects / Setting
 
 HARU is the fifth member of the "Musical Isotope Project". By digitizing Harusaruhi's personal rap and vocal styling, this project makes virtual rap creation accessible to more creators. As a digital creative partner, HARU continues to expand the possibilities of vocal synthesis in cutting-edge musical genres.
 
 ## External Links
 
-- Musical Isotope official website: <https://musical-isotope.kamitsubaki.jp/>
-- Musical Isotope official X (Twitter): <https://twitter.com/musicalisotope>
-- Musical Isotope official YouTube channel: <https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA>
+- [Musical Isotope official website](https://musical-isotope.kamitsubaki.jp/)
+- [Musical Isotope official X (Twitter)](https://twitter.com/musicalisotope)
+- [Musical Isotope official YouTube channel](https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA)

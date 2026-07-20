@@ -1,0 +1,146 @@
+---
+locale: zh
+translationKey: rim_album_chocolate_live_2
+title: "CHOCOLATE LIVE2"
+romanizedTitle: "CHOCOLATE LIVE2"
+artist: "理芽"
+type: "现场专辑"
+description: "理芽正式发行的《CHOCOLATE LIVE2》，已校对完整曲序并链接每首歌曲。"
+releaseDate: "2024-02-28"
+label: "PHENOMENON RECORD / THINKR Inc."
+trackCount: 20
+duration: "1:29:10"
+categoryTitle: "专辑"
+categorySubtitle: ALBUMS
+categoryOrder: 1
+itemOrder: 1709107200000
+image: /images/albums/rim/chocolate-live-2.jpg
+officialLinks:
+  - label: "官方作品目录"
+    href: https://kamitsubaki.jp/discography/rim/3170/
+  - label: "Apple Music Japan"
+    href: https://music.apple.com/jp/album/chocolate-live2/1731094532?uo=4
+tracks:
+  -
+    number: "1"
+    title: "アスノヨゾラ哨戒班"
+    duration: "03:17"
+    songId: "rim/covers/track-1731094533"
+  -
+    number: "2"
+    title: "エジソン"
+    duration: "03:58"
+    songId: "rim/covers/track-1731094534"
+  -
+    number: "3"
+    title: "Caffeine"
+    duration: "03:37"
+    songId: "rim/covers/track-1731094535"
+  -
+    number: "4"
+    title: "夏夜のマジック"
+    duration: "05:45"
+    songId: "rim/covers/track-1731094536"
+  -
+    number: "5"
+    title: "日常革命"
+    duration: "04:34"
+    songId: "rim/covers/track-1731094537"
+  -
+    number: "6"
+    title: "1999"
+    duration: "04:17"
+    songId: "rim/covers/track-1731094538"
+  -
+    number: "7"
+    title: "good job"
+    duration: "04:07"
+    songId: "rim/covers/track-1731094539"
+  -
+    number: "8"
+    title: "Do you feel"
+    duration: "04:11"
+    songId: "rim/covers/track-1731094540"
+  -
+    number: "9"
+    title: "CHOA (feat. Harusaruhi)"
+    artist: "理芽 feat. 春猿火"
+    duration: "04:02"
+    songId: "rim/covers/track-1731094541"
+  -
+    number: "10"
+    title: "SUMMER SONG"
+    duration: "03:33"
+    songId: "rim/covers/track-1731094542"
+  -
+    number: "11"
+    title: "ビターチョコデコレーション"
+    duration: "03:42"
+    songId: "rim/covers/track-1731094543"
+  -
+    number: "12"
+    title: "みかんハート (feat. Isekaijoucho)"
+    artist: "理芽 feat. ヰ世界情緒"
+    duration: "05:22"
+    songId: "rim/covers/track-1731094544"
+  -
+    number: "13"
+    title: "うろんなひと"
+    duration: "05:10"
+    songId: "rim/covers/track-1731094545"
+  -
+    number: "14"
+    title: "ヘビースモーク"
+    duration: "05:02"
+    songId: "rim/covers/track-1731094546"
+  -
+    number: "15"
+    title: "ヤングアダルト (feat. KOKO)"
+    artist: "理芽 feat. 幸祜"
+    duration: "04:09"
+    songId: "rim/covers/track-1731094817"
+  -
+    number: "16"
+    title: "雫"
+    duration: "04:20"
+    songId: "rim/covers/track-1731094818"
+  -
+    number: "17"
+    title: "最愛の果て"
+    duration: "03:40"
+    songId: "rim/covers/track-1731094819"
+  -
+    number: "18"
+    title: "結"
+    duration: "04:22"
+    songId: "rim/covers/track-1731094820"
+  -
+    number: "19"
+    title: "37458 (feat. KAF)"
+    artist: "理芽 feat. 花譜"
+    duration: "06:02"
+    songId: "rim/covers/track-1731094821"
+  -
+    number: "20"
+    title: "オワリはじまり"
+    duration: "06:00"
+    songId: "rim/covers/track-1731094822"
+---
+
+## 作品简介
+
+《CHOCOLATE LIVE2》是本目录收录的正式发行作品。发行日、曲序、时长与参与艺人以官方作品页和 Apple Music 日本区资料交叉核对。
+
+## 曲目与版本
+
+本页收录 20 轨；每一轨均链接到独立歌曲或版本页。重复收录沿用同一词条，现场、重混与重新编曲版本则独立建页。
+
+## 资料说明
+
+封面优先采用 Apple Music 可提供的最高原生分辨率；仅实体发行作品采用官方商品图。
+
+## 来源
+
+- [官方作品目录](https://kamitsubaki.jp/discography/rim/3170/)
+- [Apple Music Japan](https://music.apple.com/jp/album/chocolate-live2/1731094532?uo=4)
+- [VGMdb 理芽](https://vgmdb.net/artist/53598)

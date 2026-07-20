@@ -4,6 +4,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import SiteNav from '../../../components/SiteNav.astro';
 import SiteFooter from '../../../components/SiteFooter.astro';
 import TableOfContents from '../../../components/TableOfContents.astro';
+import ContentLicenseNotice from '../../../components/ContentLicenseNotice.astro';
 import { buildProjectDisplayData, getLocalizedSite } from '../../../lib/homeData.mjs';
 import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../lib/i18n.mjs';
 import { buildProjectMetadata } from '../../../lib/metadata.mjs';
@@ -157,6 +158,10 @@ const labels = {
           <a href={sourceHref} class="wiki-empty-state__action mt-7">{labels.emptyAction}</a>
         </section>
       )}
+    </div>
+
+    <div class="mx-auto mt-10 max-w-4xl">
+      <ContentLicenseNotice license={entry.data.license} locale={localeCode} />
     </div>
   </main>
 

@@ -32,6 +32,34 @@ const seo = z
   })
   .optional();
 
+const contentLicense = z
+  .object({
+    code: z.enum([
+      'CC-BY-NC-SA-4.0',
+      'CC-BY-NC-SA-3.0-CN',
+      'rights-reserved',
+      'authorized-use',
+    ]),
+    attribution: z.string().optional(),
+    sourceTitle: z.string().optional(),
+    sourceUrl: siteRelativeOrHttpUrl.optional(),
+    modifications: z.string().optional(),
+    note: z.string().optional(),
+  })
+  .superRefine((value, context) => {
+    if (value.code !== 'CC-BY-NC-SA-3.0-CN') return;
+
+    for (const field of ['attribution', 'sourceTitle', 'sourceUrl', 'modifications'] as const) {
+      if (!value[field]) {
+        context.addIssue({
+          code: 'custom',
+          path: [field],
+          message: `${field} is required for CC-BY-NC-SA-3.0-CN material`,
+        });
+      }
+    }
+  });
+
 const theme = z
   .object({
     name: z.string().optional(),
@@ -120,6 +148,14 @@ const site = defineCollection({
         }),
       ),
       disclaimer: z.array(z.string()),
+      license: z.object({
+        notice: z.string(),
+        mediaNotice: z.string(),
+        detailsLabel: z.string(),
+        detailsHref: z.string(),
+        deedLabel: z.string(),
+        deedHref: siteRelativeOrHttpUrl.refine((value) => value.startsWith('http'), 'Must be an HTTP(S) URL'),
+      }),
       copyright: z.string(),
     }),
     socialContact: z
@@ -239,6 +275,7 @@ const artists = defineCollection({
     status: z.string(),
     inactive: z.boolean().optional(),
     image: z.string(),
+    license: contentLicense.optional(),
     seo,
   }),
 });
@@ -252,6 +289,7 @@ const projects = defineCollection({
     title: z.string(),
     description: z.string(),
     order: z.number(),
+    license: contentLicense.optional(),
     seo,
   }),
 });
@@ -266,6 +304,7 @@ const logs = defineCollection({
     title: z.string(),
     summary: z.string().optional(),
     order: z.number(),
+    license: contentLicense.optional(),
     seo,
   }),
 });
@@ -283,6 +322,7 @@ const workBaseSchema = z.object({
     itemOrder: z.number().optional(),
     image: z.string().optional(),
     theme,
+    license: contentLicense.optional(),
     seo,
 });
 
@@ -290,6 +330,10 @@ const songs = defineCollection({
   loader: glob({ pattern: '**/{zh,ja,en}.md', base: './src/content/songs' }),
   schema: workBaseSchema.extend({
     artistId: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, 'Expected a lowercase URL slug'),
+    artistIds: z
+      .array(z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, 'Expected a lowercase URL slug'))
+      .min(1)
+      .optional(),
     composer: z.string().optional(),
     lyricist: z.string().optional(),
     album: z.string().optional(),
@@ -330,6 +374,21 @@ const albums = defineCollection({
   }),
 });
 
+const announcements = defineCollection({
+  loader: glob({ pattern: '**/{zh,ja,en}.md', base: './src/content/announcements' }),
+  schema: z.object({
+    locale,
+    translationKey: z.string(),
+    date: z.string(),
+    type: z.string(),
+    title: z.string(),
+    summary: z.string(),
+    order: z.number().optional(),
+    pinned: z.boolean().default(false),
+    license: contentLicense.optional(),
+  }),
+});
+
 const syntaxGuide = defineCollection({
   loader: glob({
     pattern: ['zh.md', 'ja.md', 'en.md'],
@@ -340,6 +399,7 @@ const syntaxGuide = defineCollection({
     translationKey: z.string(),
     title: z.string(),
     description: z.string().optional(),
+    license: contentLicense.optional(),
     seo,
   }),
 });
@@ -426,6 +486,7 @@ export const collections = {
   artists,
   projects,
   logs,
+  announcements,
   editGuide,
   songs,
   albums,

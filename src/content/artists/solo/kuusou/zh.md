@@ -86,5 +86,5 @@ seo:
 
 ## 外部链接
 
-- X (Twitter)：<https://x.com/KUUSOU_virtual>
-- YouTube：<https://www.youtube.com/@kuusou_virtual>
+- [X (Twitter)](https://x.com/KUUSOU_virtual)
+- [YouTube](https://www.youtube.com/@kuusou_virtual)

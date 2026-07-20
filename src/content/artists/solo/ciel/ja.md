@@ -45,7 +45,7 @@ theme:
       value: "#E8F2FF"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0d1520/6eb4f7?text=CIEL"
+image: "/images/artists/ciel.png"
 name: "CIEL"
 categoryTitle: "ソロ / ユニット"
 categorySubtitle: "SOLO ARTISTS & UNITS"
@@ -100,7 +100,7 @@ CIEL は神椿における「空爽」ユニットの直接的な構成員であ
 
 ## 外部リンク
 
-- KAMITSUBAKI STUDIO CIEL ページ：<https://kamitsubaki.jp/artist/ciel/>
-- YouTube：<https://www.youtube.com/channel/UCRvkXFtB70ZADg4L6A8L3wQ>
-- X (Twitter)：<https://twitter.com/CIEL_VanillaSky>
-- TikTok：<https://www.tiktok.com/@ciel_vanillasky>
+- [KAMITSUBAKI STUDIO CIEL ページ](https://kamitsubaki.jp/artist/ciel/)
+- [YouTube](https://www.youtube.com/channel/UCRvkXFtB70ZADg4L6A8L3wQ)
+- [X (Twitter)](https://twitter.com/CIEL_VanillaSky)
+- [TikTok](https://www.tiktok.com/@ciel_vanillasky)

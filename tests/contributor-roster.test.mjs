@@ -176,6 +176,50 @@ test('contributor roster exposes localized honor wall copy and contribution rout
   assert.match(component, /src\/content\/\$\{collection\}/);
 });
 
+test('manual collaborators use an independent local data file and summary-only section', async () => {
+  const roster = await readProjectFile('../src/components/ContributorRoster.astro');
+  const component = await readProjectFile('../src/components/ManualContributors.astro');
+  const data = JSON.parse(await readProjectFile('../src/data/manualContributors.json'));
+
+  assert.match(roster, /import ManualContributors/);
+  assert.match(roster, /mode === 'summary' && <ManualContributors locale=\{locale\}/);
+  assert.match(component, /manualContributorData/);
+  assert.match(component, /特别协力者/);
+  assert.match(component, /スペシャルサポーター/);
+  assert.match(component, /Special collaborators/);
+  assert.match(component, /safeContactHref/);
+  assert.match(component, /safeAvatarSrc/);
+  assert.match(component, /data-manual-contributors/);
+  assert.match(component, /data-contributor-card/);
+  assert.match(component, /data-contributor-drawer/);
+  assert.match(component, /data-list-expanded/);
+  assert.match(component, /grid-template-rows: 0fr/);
+  assert.doesNotMatch(component, /manual-contributor-hint/);
+  assert.match(component, /contacts\.map/);
+  assert.equal(Array.isArray(data), true);
+  assert.equal(data[0].enabled, true);
+  assert.deepEqual(Object.keys(data[0]).sort(), ['avatar', 'collaboration', 'contacts', 'enabled', 'id', 'introduction', 'name', 'quote']);
+  assert.equal(typeof data[0].collaboration.zh, 'string');
+  assert.equal(typeof data[0].avatar, 'string');
+  assert.equal(Array.isArray(data[0].contacts), true);
+  assert.equal(data[0].contacts.length, 1);
+  assert.equal(typeof data[0].contacts[0].label, 'string');
+  assert.equal(typeof data[0].introduction.zh, 'string');
+  assert.equal(typeof data[0].quote.zh, 'string');
+  assert.match(component, /Math\.random\(\)/);
+  assert.match(component, /aspect-ratio: 1 \/ 1/);
+  assert.match(component, /object-fit: cover/);
+
+  const inu = data.find((contributor) => contributor.id === 'inu');
+  assert.equal(inu.contacts.length, 1);
+  assert.deepEqual(new Set(Object.values(inu.introduction)), new Set(['歌を歌うのは寂しいから 目を閉じるのは聞きたいから']));
+  assert.deepEqual(new Set(Object.values(inu.quote)), new Set(['要继续喜欢神椿呀！']));
+
+  const xiaochi = data.find((contributor) => contributor.id === 'xiaochi');
+  assert.deepEqual(new Set(Object.values(xiaochi.introduction)), new Set(['关注花谱喵关注花谱谢谢喵']));
+  assert.deepEqual(new Set(Object.values(xiaochi.quote)), new Set(['世界平和なんて噓だ　皆一人ぼっちだ']));
+});
+
 test('contributor renderer builds honor wall cards, readable activity, and retry states', async () => {
   const script = await readProjectFile('../src/scripts/contributorRoster.js');
 
@@ -192,6 +236,10 @@ test('contributor renderer builds honor wall cards, readable activity, and retry
   assert.match(script, /addEventListener\('click'/);
   assert.match(script, /delete root\.dataset\.contributorRosterStatus/);
   assert.match(script, /copy\.error/);
+  assert.match(script, /prepareRosterMotion/);
+  assert.match(script, /IntersectionObserver/);
+  assert.match(script, /animateRosterNumbers/);
+  assert.match(script, /prefers-reduced-motion/);
 });
 
 test('contributor honor wall styles cover cards, actions, activity, focus, and mobile layouts', async () => {
@@ -205,6 +253,8 @@ test('contributor honor wall styles cover cards, actions, activity, focus, and m
   assert.match(css, /\.contributor-roster__action--primary/);
   assert.match(css, /\.contributor-roster__locale/);
   assert.match(css, /\.contributor-roster__activity/);
+  assert.match(css, /contributor-roster-reveal/);
+  assert.match(css, /data-roster-animate/);
   assert.match(css, /\.contributor-roster--entry \.contributor-roster__person/);
   assert.match(css, /\.contributor-roster__action:focus-visible/);
   assert.match(css, /@media \(max-width: 639px\)[\s\S]*\.contributor-roster__actions/);

@@ -65,5 +65,5 @@ seo:
 
 ## 外部链接
 
-- Twitter：<https://twitter.com/Knji__k>
-- YouTube：<https://www.youtube.com/user/kawa6kawa6kawa>
+- [Twitter](https://twitter.com/Knji__k)
+- [YouTube](https://www.youtube.com/user/kawa6kawa6kawa)

@@ -36,7 +36,7 @@ theme:
       value: "#FCE4EF"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/1a0f18/d4739a?text=MIMI"
+image: "/images/artists/mimi.png"
 name: "MIMI"
 categoryTitle: "Creators"
 categorySubtitle: "CREATORS / COMPOSERS / ILLUSTRATORS"
@@ -79,6 +79,16 @@ Useful related entries:
 
 - [KAF](/en/artists/vwp/kaf)
 
+## Upload History and Catalogue Scope
+
+MIMI debuted with “Rapizurazuri” in 2016, and “Moment” became the first catalogue entry to reach the Hall of Fame threshold in 2017. As of July 5, 2025, the organized record counts 68 VOCALOID/CeVIO works: 55 reached Hall of Fame on niconico, 15 reached Legend on YouTube, and 3 reached Legend on niconico. The works commonly pair piano-led arrangements with one-image videos and gentle illustration.
+
+MIMI joined Kamitsubaki in 2022 while retaining an independent creative line. The first original album was released on October 24, 2023, followed by *Yoru wo Dakishimeru Toki.* on December 20, 2024.
+
+## Albums and Collaborations
+
+Representative works include “Marshmary”, “Daijoubu da yo.”, and “Himawari no Kioku”. “Daijoubu da yo.” features KAFU and shows how MIMI's intimate piano writing can be translated into a musical-isotope voice. Uploads, album tracks, and animation tie-ins should remain separate catalogue layers.
+
 ## References
 
 - MIMI official X (Twitter): <https://twitter.com/mimi_3mi>
@@ -86,5 +96,5 @@ Useful related entries:
 
 ## External Links
 
-- X (Twitter): <https://twitter.com/mimi_3mi>
-- YouTube: <https://www.youtube.com/channel/UCam3IAA-nyfxRL8_wDQ35VA>
+- [X (Twitter)](https://twitter.com/mimi_3mi)
+- [YouTube](https://www.youtube.com/channel/UCam3IAA-nyfxRL8_wDQ35VA)

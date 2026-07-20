@@ -49,11 +49,26 @@ tests/                  Node test runner checks
 - `site`: site chrome and page labels from JSON
 - `artists`: Markdown wiki pages for artists, creators, units, and isotopes
 - `projects`: Markdown project records
-- `logs`: JSON timeline rows
+- `logs`: Markdown timeline records
+- `songs`: Markdown song entries
+- `albums`: Markdown album entries with structured track lists
+- `announcements`: Markdown home-page announcements
+- `syntaxGuide` and `editGuide`: in-site contribution documentation
 
 Schemas live in `src/content.config.ts`. `pnpm check` validates them.
 
 Homepage DATABASE categories are derived from the first folder level in `src/content/artists/<category>/<entry>/<locale>.md`. `categoryTitle`, `categorySubtitle`, `categoryOrder`, `itemOrder`, and `code` are optional display overrides.
+
+## Current Feature Map
+
+- Branded external links: `src/lib/externalPlatforms.mjs` is the shared registry used by `ExternalLinkCard.astro`, `PlatformIcon.astro`, and the article enhancement script.
+- Special contributors: records live in `src/data/manualContributors.json` and `ManualContributors.astro` displays them in randomized order. Personal introductions and messages remain exactly as submitted.
+- Site branding: the long and square logos are `public/brand/kamitsubakiwiki-long.svg` and `public/brand/kamitsubakiwiki-square.svg`; `src/lib/i18n.mjs` provides the three localized site names.
+- Announcement board: the home page selects the pinned or latest record from the `announcements` collection and displays it through `AnnouncementModal.astro`.
+- Album artist categories: `src/lib/musicCatalog.mjs` groups albums by the artist ID in their directory; `src/pages/[locale]/albums/artists/[artist].astro` renders each category and prefers the matching `artists` entry's `image` for its cover.
+- Layered content licensing: `src/content.config.ts` validates four `license` markers, `ContentLicenseNotice.astro` renders entry licensing and media exclusions on detail pages, and `src/pages/[locale]/license.astro` generates the localized copyright pages. Authoring rules live in [Content licensing and attribution](licensing.en.md).
+
+Public feature data belongs in content or data files, while components only render it. Every translatable entry must include `zh`, `ja`, and `en` files with the same `translationKey` and route structure.
 
 ## Metadata
 

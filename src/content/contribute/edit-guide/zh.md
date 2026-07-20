@@ -130,6 +130,8 @@ variants:
           常见目录：
 
           - `artists/`：艺人、创作者、组合等百科条目
+          - `songs/`：按艺人和曲种组织的歌曲词条
+          - `albums/`：按艺人组织的专辑与唱片目录
           - `projects/`：企划与项目
           - `logs/`：新闻、活动和观测记录
           - `site/`：首页、导航、页脚文案
@@ -393,23 +395,25 @@ variants:
     outcome: 提交一个三语新条目
     entryMode: repository
     description: |
-      适合新增艺人、企划或时间线记录，而不是修改已有文件。新增条目通常会同时产生目录和三种语言文件，因此比单文件修正多几步。
+      适合新增艺人、歌曲、专辑、企划或时间线记录，而不是修改已有文件。新增条目通常会同时产生目录和三种语言文件，因此比单文件修正多几步。
 
       你可以使用 GitHub 网页的 **Add file → Create new file**，也可以在本地创建文件。第一次建议先找一个同类型现有条目作为结构参考。
     sections:
       - title: 确定条目类型与收录范围
-        summary: 先判断它属于艺人、企划还是时间线，并确认内容值得成为独立条目。
+        summary: 先判断它属于艺人、歌曲、专辑、企划还是时间线，并确认内容值得成为独立条目。
         body: |
           当前主要 collection：
 
           - `src/content/artists/`：艺人、创作者、组合、音乐同位体
+          - `src/content/songs/`：按艺人和原创、翻唱、系谱等曲种分类的歌曲
+          - `src/content/albums/`：按艺人整理的专辑、EP 与其他正式发行物
           - `src/content/projects/`：企划、世界观项目、展览或厂牌
           - `src/content/logs/`：有明确日期的新闻、活动与观测记录
 
           新条目需要有明确对象、稳定名称和可追溯的公开来源。只是补一个日期或链接时，优先修改已有条目，不要为了少量信息重复建页。
         checkpoint: 你能明确说出条目属于哪个 collection，以及为什么需要独立条目。
         aiPrompt: |
-          【目标】判断我准备新增的 Wiki 内容应该属于 artists、projects 还是 logs，并判断是否值得独立建页。
+          【目标】判断我准备新增的 Wiki 内容应该属于 artists、songs、albums、projects 还是 logs，并判断是否值得独立建页。
           【仓库内容根目录】{{REPO_CONTENT_ROOT}}
           【我的情况】{{USER_CONTEXT}}
           【约束】只根据我提供的对象、来源和现有目录信息判断；不要编造收录规则或事实。
@@ -421,6 +425,8 @@ variants:
 
           ```text
           src/content/artists/vwp/new-artist/
+          src/content/songs/kaf/originals/new-song/
+          src/content/albums/kaf/new-album/
           src/content/projects/arg/new-project/
           src/content/logs/2026/2026-07-12-new-event/
           ```
@@ -597,6 +603,8 @@ variants:
 
           ```text
           src/content/artists/<category>/<entry>/<locale>.md
+          src/content/songs/<artistId>/<category>/<songId>/<locale>.md
+          src/content/albums/<artistId>/<albumId>/<locale>.md
           src/content/projects/<category>/<project>/<locale>.md
           src/content/logs/<year>/<record>/<locale>.md
           src/content/site/<locale>.json
@@ -605,11 +613,11 @@ variants:
           首页尽量按目录自动分类和渲染。内容 PR 不应修改 `dist/`、`.astro/`、`node_modules/`，也不要把百科正文硬编码回组件。
         checkpoint: 已确认本次属于内容修改还是实现修改，且目标路径符合对应 collection。
         aiPrompt: |
-          审查这个目标路径是否符合仓库内容模型：{{TARGET_PATH}}。请根据 artists/projects/logs/site 的目录约束说明它会影响什么，避免推测未提供的代码。
+          审查这个目标路径是否符合仓库内容模型：{{TARGET_PATH}}。请根据 artists/songs/albums/projects/logs/site 的目录约束说明它会影响什么，避免推测未提供的代码。
       - title: 遵守 schema、i18n 与内容约束
         summary: frontmatter 由 content.config.ts 校验；三语共享 translationKey，结构一致。
         body: |
-          `locale` 仅允许 `zh | ja | en`。同一记录的多语言文件共享稳定 `translationKey`。Artists 关注 `name`、`romanizedName`、`statusLabel`、`status`、`image`；Projects 与 Logs 使用各自 schema。
+          `locale` 仅允许 `zh | ja | en`。同一记录的多语言文件共享稳定 `translationKey`。Artists、Songs、Albums、Projects 与 Logs 各自使用对应 schema；歌曲额外要求 `artist` 与 `artistId`，专辑曲目只在目标歌曲词条存在时填写 `songId`。
 
           新增条目优先同时创建 `zh.md`、`ja.md`、`en.md`。正文允许完成度不同，但不要用占位文本。`theme.*` 色值跨语言一致，仅 `palette.label` 本地化；`seo.*` 只在需要显式覆盖自动 metadata 时填写。
         checkpoint: frontmatter 满足 collection schema，locale/translationKey/目录与同条目其他语言一致。

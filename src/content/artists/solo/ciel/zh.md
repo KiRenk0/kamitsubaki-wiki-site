@@ -45,7 +45,7 @@ theme:
       value: "#E8F2FF"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0d1520/6eb4f7?text=CIEL"
+image: "/images/artists/ciel.png"
 name: "CIEL"
 categoryTitle: "Solo / 组合"
 categorySubtitle: "SOLO ARTISTS & UNITS"
@@ -100,7 +100,7 @@ CIEL 与神椿体系中的「空爽」组合直接相关，同时也是 Sooda �
 
 ## 外部链接
 
-- KAMITSUBAKI STUDIO CIEL 页面：<https://kamitsubaki.jp/artist/ciel/>
-- YouTube：<https://www.youtube.com/channel/UCRvkXFtB70ZADg4L6A8L3wQ>
-- X (Twitter)：<https://twitter.com/CIEL_VanillaSky>
-- TikTok：<https://www.tiktok.com/@ciel_vanillasky>
+- [KAMITSUBAKI STUDIO CIEL 页面](https://kamitsubaki.jp/artist/ciel/)
+- [YouTube](https://www.youtube.com/channel/UCRvkXFtB70ZADg4L6A8L3wQ)
+- [X (Twitter)](https://twitter.com/CIEL_VanillaSky)
+- [TikTok](https://www.tiktok.com/@ciel_vanillasky)

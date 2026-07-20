@@ -82,9 +82,15 @@ seo:
 
 Write article content after the second `---`. Empty bodies are allowed, but do not add filler text.
 
+### Licensing And Provenance
+
+Before submitting, identify whether text is site-original, governed by a third-party open license, rights-reserved, or covered by specific authorization. Site-original text that the project has authority to license defaults to CC BY-NC-SA 4.0. Third-party text under another license must retain its original license and version and record the source page, attribution, and changes in `license` frontmatter.
+
+Images, cover art, lyrics, audio, video, and trademarks are not automatically included in the text license. A marker is not a substitute for permission, so do not submit third-party material without a valid basis for use. See [Content licensing and attribution](licensing.en.md) for the four markers and copyable examples.
+
 ### Content security
 
-Article HTML uses an explicit allowlist. Common typography, tables, `ruby`, `details`, and images are retained; `script`, `style`, raw `iframe`, forms, inline event handlers, and dangerous URLs are removed during the build. Audio and video must use the controlled `@[provider](ID-or-share-URL "optional caption")` shortcode. Supported providers are YouTube, bilibili, Apple Music, Spotify, NetEase Music, and QQ Music.
+Article HTML uses an explicit allowlist. Common typography, tables, `ruby`, `details`, and images are retained; `script`, `style`, raw `iframe`, forms, inline event handlers, and dangerous URLs are removed during the build. Audio and video must use the controlled `@[provider](ID-or-share-URL "optional caption")` shortcode. Supported providers are YouTube, bilibili, Apple Music, Spotify, NetEase Music, and QQ Music. Wrap 2–6 unchanged media shortcodes in `{{media-switcher::title}}` and `{{/media-switcher}}` to switch between official platforms for the same work.
 
 Authors should call Wiki shortcodes instead of writing their generated HTML, for example `{{ruby::text::reading}}`, `{{spoiler::hidden text}}`, `{{mark::important}}`, the song-page `{{lyrics-controls::en}}`, and the paired `{{details::title}}` / `{{/details}}` block. Multiline code continues to use a language-labelled Markdown fence for syntax highlighting. The HTML allowlist is the final compatibility and security boundary, not the preferred everyday authoring API.
 
@@ -203,6 +209,7 @@ The CI workflow lives at `.github/workflows/ci.yml`.
 ## Merge Checklist
 
 - No filler article text.
+- Third-party material records its source, license version, and changes without confusing media rights with the text license.
 - All required locale files exist.
 - `pnpm test`, `pnpm check`, and `pnpm build` pass.
 - The PR changes only relevant files.

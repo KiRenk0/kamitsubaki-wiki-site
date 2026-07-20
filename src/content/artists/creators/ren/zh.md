@@ -61,7 +61,7 @@ Ren 生涯中的一个重要里程碑是与 Shido、Koyuku 合作的「詩月灯
 
 Ren 的制作风格占据着 Vocaloid 领域中更为黑暗的一隅，以冰冷的氛围质感与饱含情感的叙事为核心特征。多元化的旋律手法确保即便在他标志性的沉郁框架内，每首歌曲都能呈现独特的情感旅程。自 2020 年以来不断积累的作品已确立了他作为当代 Vocaloid 制作人中值得关注的声音的地位。
 
-## 代表作品
+## 作品索引
 
 - 「余命日記」
 - 「嘘月が綺麗ですね」
@@ -73,5 +73,5 @@ Ren 的制作风格占据着 Vocaloid 领域中更为黑暗的一隅，以冰冷
 
 ## 外部链接
 
-- YouTube：<https://www.youtube.com/channel/UCqETmB5g96_4uPgHozWm_4Q>
-- Twitter：<https://twitter.com/ren_suimin>
+- [YouTube](https://www.youtube.com/channel/UCqETmB5g96_4uPgHozWm_4Q)
+- [Twitter](https://twitter.com/ren_suimin)

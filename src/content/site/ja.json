@@ -107,15 +107,19 @@
     "links": [
       {
         "label": "ABOUT",
-        "href": "#about"
+        "href": "/ja/#about"
       },
       {
-        "label": "GUIDELINES",
-        "href": "https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/main/docs/contributing.md"
+        "label": "CONTRIBUTE",
+        "href": "/ja/contribute/edit"
       },
       {
         "label": "CONTACT",
-        "href": "#social-contact"
+        "href": "/ja/#social-contact"
+      },
+      {
+        "label": "REPOSITORY",
+        "href": "https://github.com/LinkTh1rsty/kamitsubaki-wiki-site"
       }
     ],
     "disclaimer": [
@@ -123,7 +127,15 @@
       "KAMITSUBAKI STUDIOおよびTHINKRとは無関係です。",
       "すべての公式権利は各権利者に帰属します。"
     ],
-    "copyright": "© 2026 LinkTh1rsty All Rights Reserved"
+    "license": {
+      "notice": "別途記載がない限り、本サイトが許諾権限を有するオリジナル文章は CC BY-NC-SA 4.0 国際ライセンスで提供されます。",
+      "mediaNotice": "画像、ジャケット、歌詞、音声・映像、キャラクターデザイン、ロゴ、商標、その他の第三者素材は対象外です。",
+      "detailsLabel": "著作権情報",
+      "detailsHref": "/ja/license",
+      "deedLabel": "CC BY-NC-SA 4.0",
+      "deedHref": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    "copyright": "© 2026 LinkTh1rsty · Some rights reserved"
   },
   "socialContact": {
     "enabled": true,
@@ -172,34 +184,6 @@
         "href": "/ja/contribute/edit",
         "handle": "Wiki を一緒に更新する",
         "icon": "link"
-      },
-      {
-        "label": "Bilibili",
-        "href": "",
-        "handle": "Bilibili ページを設定",
-        "icon": "bilibili",
-        "enabled": false
-      },
-      {
-        "label": "X",
-        "href": "",
-        "handle": "X アカウントを設定",
-        "icon": "x",
-        "enabled": false
-      },
-      {
-        "label": "YouTube",
-        "href": "",
-        "handle": "YouTube チャンネルを設定",
-        "icon": "youtube",
-        "enabled": false
-      },
-      {
-        "label": "Weibo",
-        "href": "",
-        "handle": "Weibo ページを設定",
-        "icon": "weibo",
-        "enabled": false
       }
     ]
   },

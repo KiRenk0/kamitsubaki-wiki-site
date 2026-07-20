@@ -43,7 +43,7 @@ theme:
       value: "#EDE8FF"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/12101f/7b68ee?text=PALOW."
+image: "/images/artists/palow.png"
 name: "PALOW."
 categoryTitle: "Creators"
 categorySubtitle: "CREATORS / COMPOSERS / ILLUSTRATORS"
@@ -95,5 +95,5 @@ Useful related entries:
 
 ## External Links
 
-- X (Twitter): <https://twitter.com/PALOW_>
-- KAMITSUBAKI STUDIO PALOW. page: <https://kamitsubaki.jp/artist/palow/>
+- [X (Twitter)](https://twitter.com/PALOW_)
+- [KAMITSUBAKI STUDIO PALOW. page](https://kamitsubaki.jp/artist/palow/)

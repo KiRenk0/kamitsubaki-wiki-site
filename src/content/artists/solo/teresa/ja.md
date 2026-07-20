@@ -90,6 +90,6 @@ teresaAIはSINSEKAI RECORDのエコシステム内で活動している。te'res
 
 ## 外部リンク
 
-- YouTube: <https://www.youtube.com/channel/UCqG0skCM-dky7KGazl9bLqA/>
-- Twitter: <https://twitter.com/virtual_teresa>
-- Instagram: <https://www.instagram.com/virtual_teresa/>
+- [YouTube](https://www.youtube.com/channel/UCqG0skCM-dky7KGazl9bLqA/)
+- [Twitter](https://twitter.com/virtual_teresa)
+- [Instagram](https://www.instagram.com/virtual_teresa/)

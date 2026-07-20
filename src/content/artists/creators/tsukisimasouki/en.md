@@ -65,4 +65,4 @@ His involvement in high-profile franchises demonstrates his capacity to work wit
 
 ## External Links
 
-- Twitter: <https://twitter.com/tsukisimasouki>
+- [Twitter](https://twitter.com/tsukisimasouki)

@@ -7,6 +7,7 @@ import SiteFooter from '../../../components/SiteFooter.astro';
 import SiteNav from '../../../components/SiteNav.astro';
 import TableOfContents from '../../../components/TableOfContents.astro';
 import WikiArticleHeader from '../../../components/WikiArticleHeader.astro';
+import ContentLicenseNotice from '../../../components/ContentLicenseNotice.astro';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getLocalizedSite } from '../../../lib/homeData.mjs';
 import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../lib/i18n.mjs';
@@ -174,6 +175,10 @@ const themeStyle = [
         <AlbumInfoBox data={entry.data} labels={articleLabels} />
         <ContributorRoster mode="entry" locale={localeCode} collection="albums" entryId={id} />
       </aside>
+    </div>
+
+    <div class="mx-auto max-w-[92rem] px-4 pb-6 sm:px-6">
+      <ContentLicenseNotice license={entry.data.license} locale={localeCode} />
     </div>
 
     <SiteFooter footer={homeContent.footer} />

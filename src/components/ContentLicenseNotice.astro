@@ -1,0 +1,168 @@
+---
+type LicenseCode =
+  | 'CC-BY-NC-SA-4.0'
+  | 'CC-BY-NC-SA-3.0-CN'
+  | 'rights-reserved'
+  | 'authorized-use';
+
+type ContentLicense = {
+  code: LicenseCode;
+  attribution?: string;
+  sourceTitle?: string;
+  sourceUrl?: string;
+  modifications?: string;
+  note?: string;
+};
+
+const {
+  license,
+  locale = 'zh',
+} = Astro.props as {
+  license?: ContentLicense;
+  locale?: 'zh' | 'ja' | 'en';
+};
+
+const resolvedLicense: ContentLicense = license ?? { code: 'CC-BY-NC-SA-4.0' };
+
+const copy = {
+  zh: {
+    eyebrow: '内容许可',
+    details: '查看著作权信息',
+    source: '原始来源',
+    attribution: '署名',
+    modifications: '修改说明',
+    media: '本页图片、封面、歌词、音视频、角色设计、Logo、商标及其他第三方素材不适用上述文字许可；其权利归原权利人所有。',
+    licenses: {
+      'CC-BY-NC-SA-4.0': {
+        label: 'CC BY-NC-SA 4.0',
+        description: '除另有声明外，本条目中本站有权许可的原创文字采用 CC BY-NC-SA 4.0 国际许可协议。',
+      },
+      'CC-BY-NC-SA-3.0-CN': {
+        label: 'CC BY-NC-SA 3.0 CN',
+        description: '本条目含有依据 CC BY-NC-SA 3.0 中国大陆许可协议使用或改编的文字，相关部分继续适用原协议。',
+      },
+      'rights-reserved': {
+        label: '原作者保留权利',
+        description: '本条目所标明的内容不适用本站默认的 CC 许可，相关权利由原权利人保留。',
+      },
+      'authorized-use': {
+        label: '授权使用',
+        description: '本条目所标明的内容仅在权利人授权范围内使用，不适用本站默认的 CC 许可。',
+      },
+    },
+  },
+  ja: {
+    eyebrow: 'コンテンツライセンス',
+    details: '著作権情報を見る',
+    source: '原典',
+    attribution: '表示',
+    modifications: '変更内容',
+    media: '本ページの画像、ジャケット、歌詞、音声・映像、キャラクターデザイン、ロゴ、商標、その他の第三者素材には上記の文章ライセンスは適用されず、権利は各権利者に帰属します。',
+    licenses: {
+      'CC-BY-NC-SA-4.0': {
+        label: 'CC BY-NC-SA 4.0',
+        description: '別途記載がない限り、本記事内で本サイトが許諾権限を有するオリジナル文章は CC BY-NC-SA 4.0 国際ライセンスで提供されます。',
+      },
+      'CC-BY-NC-SA-3.0-CN': {
+        label: 'CC BY-NC-SA 3.0 CN',
+        description: '本記事には CC BY-NC-SA 3.0 中国大陸版に基づき利用または翻案した文章が含まれ、該当部分には引き続き元のライセンスが適用されます。',
+      },
+      'rights-reserved': {
+        label: '原著作者が権利を留保',
+        description: '表示された内容には本サイト既定の CC ライセンスは適用されず、権利は原権利者に留保されます。',
+      },
+      'authorized-use': {
+        label: '許諾による使用',
+        description: '表示された内容は権利者が許諾した範囲でのみ使用され、本サイト既定の CC ライセンスは適用されません。',
+      },
+    },
+  },
+  en: {
+    eyebrow: 'Content license',
+    details: 'View copyright information',
+    source: 'Original source',
+    attribution: 'Attribution',
+    modifications: 'Changes',
+    media: 'Images, cover art, lyrics, audio, video, character designs, logos, trademarks, and other third-party material on this page are excluded from the text license above; rights remain with their respective owners.',
+    licenses: {
+      'CC-BY-NC-SA-4.0': {
+        label: 'CC BY-NC-SA 4.0',
+        description: 'Unless otherwise noted, original text in this entry that the site has the right to license is available under CC BY-NC-SA 4.0 International.',
+      },
+      'CC-BY-NC-SA-3.0-CN': {
+        label: 'CC BY-NC-SA 3.0 CN',
+        description: 'This entry contains text used or adapted under CC BY-NC-SA 3.0 China Mainland. The relevant material remains under its original license.',
+      },
+      'rights-reserved': {
+        label: 'Rights reserved by the original owner',
+        description: 'The marked material is not covered by this site’s default CC license. Its original rightsholder reserves the relevant rights.',
+      },
+      'authorized-use': {
+        label: 'Used with authorization',
+        description: 'The marked material is used only within the rightsholder’s authorization and is not covered by this site’s default CC license.',
+      },
+    },
+  },
+}[locale];
+
+const licenseUrls: Partial<Record<LicenseCode, string>> = {
+  'CC-BY-NC-SA-4.0': 'https://creativecommons.org/licenses/by-nc-sa/4.0/',
+  'CC-BY-NC-SA-3.0-CN': 'https://creativecommons.org/licenses/by-nc-sa/3.0/cn/',
+};
+
+const licenseCopy = copy.licenses[resolvedLicense.code];
+const licenseUrl = licenseUrls[resolvedLicense.code];
+---
+
+<aside
+  class="not-prose rounded-md border border-white/10 bg-white/[0.025] p-5 text-left sm:p-6"
+  aria-label={copy.eyebrow}
+  data-content-license
+  data-license-code={resolvedLicense.code}
+>
+  <div class="flex flex-wrap items-center justify-between gap-3">
+    <p class="font-mono text-[9px] uppercase tracking-[0.22em] text-white/35">{copy.eyebrow}</p>
+    {licenseUrl ? (
+      <a rel="license" href={licenseUrl} class="font-mono text-[9px] uppercase tracking-[0.15em] text-cyan-50/65 transition-colors hover:text-cyan-50">
+        {licenseCopy.label}
+      </a>
+    ) : (
+      <span class="font-mono text-[9px] uppercase tracking-[0.15em] text-white/52">{licenseCopy.label}</span>
+    )}
+  </div>
+
+  <p class="mt-3 text-xs leading-6 text-white/58 sm:text-[13px]">{licenseCopy.description}</p>
+
+  {(resolvedLicense.sourceUrl || resolvedLicense.attribution || resolvedLicense.modifications) && (
+    <dl class="mt-4 grid gap-3 border-t border-white/8 pt-4 text-xs leading-5 text-white/52 sm:grid-cols-3">
+      {resolvedLicense.sourceUrl && (
+        <div>
+          <dt class="font-mono text-[8px] uppercase tracking-[0.16em] text-white/28">{copy.source}</dt>
+          <dd class="mt-1">
+            <a href={resolvedLicense.sourceUrl} class="break-words text-cyan-50/65 transition-colors hover:text-cyan-50">
+              {resolvedLicense.sourceTitle ?? resolvedLicense.sourceUrl}
+            </a>
+          </dd>
+        </div>
+      )}
+      {resolvedLicense.attribution && (
+        <div>
+          <dt class="font-mono text-[8px] uppercase tracking-[0.16em] text-white/28">{copy.attribution}</dt>
+          <dd class="mt-1">{resolvedLicense.attribution}</dd>
+        </div>
+      )}
+      {resolvedLicense.modifications && (
+        <div>
+          <dt class="font-mono text-[8px] uppercase tracking-[0.16em] text-white/28">{copy.modifications}</dt>
+          <dd class="mt-1">{resolvedLicense.modifications}</dd>
+        </div>
+      )}
+    </dl>
+  )}
+
+  {resolvedLicense.note && <p class="mt-3 text-[11px] leading-5 text-white/42">{resolvedLicense.note}</p>}
+  <p class="mt-4 border-t border-white/8 pt-4 text-[11px] leading-5 text-white/35">{copy.media}</p>
+  <a href={`/${locale}/license`} class="mt-3 inline-flex font-mono text-[9px] uppercase tracking-[0.16em] text-white/42 transition-colors hover:text-white">
+    {copy.details} →
+  </a>
+</aside>

@@ -71,7 +71,7 @@ seo:
 
 ## 外部リンク
 
-- 公式サイト：<https://musical-isotope.kamitsubaki.jp/>
-- Twitter：<https://twitter.com/musicalisotope>
-- YouTube：<https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA>
-- お問い合わせ：<musical-isotope@kamitsubaki.jp>
+- [公式サイト](https://musical-isotope.kamitsubaki.jp/)
+- [Twitter](https://twitter.com/musicalisotope)
+- [YouTube](https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA)
+- [お問い合わせ](mailto:musical-isotope@kamitsubaki.jp)
