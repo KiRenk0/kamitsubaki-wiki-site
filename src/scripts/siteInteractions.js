@@ -130,10 +130,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (siteIntro) {
     const configuredDuration = Number.parseInt(siteIntro.dataset.animationDuration ?? '', 10);
-    const animationDuration = prefersReducedMotion ? 900 : (configuredDuration || 3250);
+    const animationDuration = prefersReducedMotion ? 900 : (configuredDuration || 5845);
+    const introVideo = siteIntro.querySelector('[data-site-intro-video]');
     let animationComplete = false;
     let pageLoaded = document.readyState === 'complete';
     let leaving = false;
+
+    const finishAnimation = () => {
+      if (animationComplete) return;
+      animationComplete = true;
+      siteIntro.dataset.state = pageLoaded ? 'ready' : 'waiting';
+      siteIntro.classList.add('is-animation-complete');
+      revealSite();
+    };
 
     const revealSite = () => {
       if (leaving || !animationComplete || !pageLoaded) return;
@@ -152,12 +161,24 @@ document.addEventListener('DOMContentLoaded', () => {
       }, prefersReducedMotion ? 180 : 720);
     };
 
-    window.setTimeout(() => {
-      animationComplete = true;
-      siteIntro.dataset.state = pageLoaded ? 'ready' : 'waiting';
-      siteIntro.classList.add('is-animation-complete');
-      revealSite();
-    }, animationDuration);
+    if (introVideo instanceof HTMLVideoElement && !prefersReducedMotion) {
+      const handleVideoError = () => {
+        siteIntro.classList.add('is-video-unavailable');
+        window.setTimeout(finishAnimation, 900);
+      };
+
+      if (introVideo.ended) {
+        finishAnimation();
+      } else {
+        introVideo.addEventListener('ended', finishAnimation, { once: true });
+        introVideo.addEventListener('error', handleVideoError, { once: true });
+        introVideo.play().catch(handleVideoError);
+        window.setTimeout(finishAnimation, animationDuration + 1500);
+      }
+    } else {
+      if (introVideo instanceof HTMLVideoElement) introVideo.pause();
+      window.setTimeout(finishAnimation, animationDuration);
+    }
 
     if (pageLoaded) {
       revealSite();

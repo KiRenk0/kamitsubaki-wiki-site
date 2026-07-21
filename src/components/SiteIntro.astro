@@ -2,59 +2,66 @@
   id="site-intro"
   class="site-intro"
   data-site-intro
-  data-animation-duration="3250"
+  data-animation-duration="5845"
   data-state="animating"
   aria-hidden="true"
 >
   <div class="site-intro__stage">
-    <div class="site-intro__animation">
-      <span class="site-intro__logo-layer site-intro__logo-layer--echo"></span>
-      <span class="site-intro__logo-layer site-intro__logo-layer--core"></span>
-      <span class="site-intro__logo-layer site-intro__logo-layer--top"></span>
-      <span class="site-intro__logo-layer site-intro__logo-layer--middle"></span>
-      <span class="site-intro__logo-layer site-intro__logo-layer--bottom"></span>
-      <span class="site-intro__scan"></span>
-    </div>
+    <video
+      class="site-intro__video"
+      data-site-intro-video
+      autoplay
+      muted
+      playsinline
+      preload="auto"
+      disablepictureinpicture
+      tabindex="-1"
+    >
+      <source src="/brand/site-intro-light.mp4" type="video/mp4" />
+    </video>
 
     <div class="site-intro__static">
-      <img
-        class="site-intro__static-logo site-intro__static-logo--dark"
-        src="/brand/main-logo-dark.svg"
-        alt=""
-        width="400"
-        height="400"
-        decoding="sync"
-      />
-      <img
-        class="site-intro__static-logo site-intro__static-logo--light"
-        src="/brand/main-logo-light.svg"
-        alt=""
-        width="400"
-        height="400"
-        decoding="sync"
-      />
+      <div class="site-intro__mark">
+        <div class="site-intro__logo-wrap">
+          <img
+            class="site-intro__static-logo site-intro__static-logo--dark"
+            src="/brand/main-logo-dark.svg"
+            alt=""
+            width="400"
+            height="400"
+            decoding="sync"
+          />
+          <img
+            class="site-intro__static-logo site-intro__static-logo--light"
+            src="/brand/main-logo-light.svg"
+            alt=""
+            width="400"
+            height="400"
+            decoding="sync"
+          />
+        </div>
+        <p class="site-intro__tagline">UNOFFICIAL KAMITSUBAKI FAN WIKI</p>
+      </div>
     </div>
   </div>
 </div>
 
 <style>
   .site-intro {
-    --site-intro-duration: 3250ms;
-    --site-intro-logo: url('/brand/main-logo-dark.svg');
+    --site-intro-duration: 5845ms;
     position: fixed;
     inset: 0;
     z-index: 1000000;
     display: none;
-    align-items: center;
-    justify-content: center;
     overflow: hidden;
-    background: var(--theme-bg);
+    background: #ffffff;
     opacity: 1;
     visibility: visible;
+    animation: siteIntroBackdropDark var(--site-intro-duration) linear both;
   }
 
   :global(html.site-intro-enabled) .site-intro {
-    display: flex;
+    display: block;
   }
 
   :global(html.site-intro-enabled),
@@ -64,77 +71,64 @@
   }
 
   :global(html[data-theme='light']) .site-intro {
-    --site-intro-logo: url('/brand/main-logo-light.svg');
+    animation-name: siteIntroBackdropLight;
   }
 
-  .site-intro__stage {
-    position: relative;
-    width: clamp(12rem, 34vw, 25rem);
-    aspect-ratio: 1;
-    transition: transform 680ms cubic-bezier(0.16, 1, 0.3, 1), opacity 520ms ease;
-  }
-
-  .site-intro__animation,
-  .site-intro__static,
-  .site-intro__logo-layer,
-  .site-intro__static-logo {
+  .site-intro__stage,
+  .site-intro__video,
+  .site-intro__static {
     position: absolute;
     inset: 0;
   }
 
-  .site-intro__animation {
-    opacity: 1;
-    transition: opacity 120ms linear;
+  .site-intro__stage {
+    transition: transform 680ms cubic-bezier(0.16, 1, 0.3, 1), opacity 520ms ease;
   }
 
-  .site-intro__logo-layer {
+  .site-intro__video {
     display: block;
-    background: var(--site-intro-logo) center / contain no-repeat;
-    will-change: transform, opacity, clip-path;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    object-fit: contain;
+    object-position: center;
+    pointer-events: none;
   }
 
-  .site-intro__logo-layer--core {
-    animation: siteIntroCore var(--site-intro-duration) cubic-bezier(0.65, 0, 0.2, 1) both;
+  :global(html:not([data-theme='light'])) .site-intro__video {
+    filter: invert(1);
   }
 
-  .site-intro__logo-layer--echo {
-    animation: siteIntroEcho var(--site-intro-duration) steps(1, end) both;
-  }
-
-  .site-intro__logo-layer--top {
-    clip-path: inset(0 0 66% 0);
-    animation: siteIntroTop var(--site-intro-duration) cubic-bezier(0.2, 0.8, 0.2, 1) both;
-  }
-
-  .site-intro__logo-layer--middle {
-    clip-path: inset(32% 0 32% 0);
-    animation: siteIntroMiddle var(--site-intro-duration) cubic-bezier(0.2, 0.8, 0.2, 1) both;
-  }
-
-  .site-intro__logo-layer--bottom {
-    clip-path: inset(66% 0 0 0);
-    animation: siteIntroBottom var(--site-intro-duration) cubic-bezier(0.2, 0.8, 0.2, 1) both;
-  }
-
-  .site-intro__scan {
-    position: absolute;
-    left: -8%;
-    top: 0;
-    width: 116%;
-    height: 1px;
-    background: rgb(var(--theme-fg-rgb) / 0.6);
-    box-shadow: 0 0 14px rgb(var(--theme-fg-rgb) / 0.16);
-    opacity: 0;
-    animation: siteIntroScan var(--site-intro-duration) cubic-bezier(0.7, 0, 0.3, 1) both;
+  .site-intro__video::-webkit-media-controls {
+    display: none !important;
   }
 
   .site-intro__static {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--theme-fg);
     opacity: 0;
-    transform: scale(0.995);
-    transition: opacity 120ms linear, transform 180ms ease-out;
+    pointer-events: none;
+  }
+
+  .site-intro__mark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-1%);
+  }
+
+  .site-intro__logo-wrap {
+    position: relative;
+    width: min(41.1vw, 73.1vh);
+    aspect-ratio: 1;
   }
 
   .site-intro__static-logo {
+    position: absolute;
+    inset: 0;
     display: block;
     width: 100%;
     height: 100%;
@@ -152,13 +146,23 @@
     display: block;
   }
 
-  .site-intro.is-animation-complete .site-intro__animation {
-    opacity: 0;
+  .site-intro__tagline {
+    margin: min(2.35vw, 4.18vh) 0 0;
+    color: currentColor;
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: min(2.68vw, 4.76vh);
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.035em;
+    white-space: nowrap;
   }
 
-  .site-intro.is-animation-complete .site-intro__static {
+  .site-intro.is-video-unavailable .site-intro__video {
+    display: none;
+  }
+
+  .site-intro.is-video-unavailable .site-intro__static {
     opacity: 1;
-    transform: scale(1);
   }
 
   .site-intro.is-leaving {
@@ -169,61 +173,21 @@
 
   .site-intro.is-leaving .site-intro__stage {
     opacity: 0;
-    transform: scale(0.94);
+    transform: scale(0.98);
   }
 
-  @keyframes siteIntroCore {
-    0%, 8% { opacity: 0; transform: scale(0.76) rotate(-13deg); }
-    12% { opacity: 0.18; transform: scale(1.12) rotate(5deg); }
-    15% { opacity: 0; }
-    22% { opacity: 0.42; transform: scale(0.9) rotate(-4deg); }
-    26% { opacity: 0.08; }
-    34% { opacity: 0.74; transform: scale(1.055) rotate(1.5deg); }
-    42% { opacity: 0.22; transform: scale(0.98) rotate(-0.8deg); }
-    49% { opacity: 1; transform: scale(1.015) rotate(0deg); }
-    58% { opacity: 0.55; }
-    63%, 100% { opacity: 1; transform: scale(1) rotate(0deg); }
+  @keyframes siteIntroBackdropLight {
+    0% { background-color: #ffffff; }
+    19% { background-color: #fbfbfb; }
+    29% { background-color: #fafafa; }
+    51%, 100% { background-color: #f7f7f7; }
   }
 
-  @keyframes siteIntroEcho {
-    0%, 27% { opacity: 0; transform: scale(0.7) rotate(-18deg); }
-    28% { opacity: 0.28; transform: scale(1.28) rotate(8deg); }
-    34% { opacity: 0; transform: scale(1.38) rotate(12deg); }
-    46% { opacity: 0; transform: scale(0.76) rotate(-8deg); }
-    47% { opacity: 0.22; transform: scale(0.9) rotate(-3deg); }
-    54%, 100% { opacity: 0; transform: scale(1.08) rotate(0deg); }
-  }
-
-  @keyframes siteIntroTop {
-    0%, 17% { opacity: 0; transform: translate3d(34%, -12%, 0) scale(1.08); }
-    23% { opacity: 0.85; transform: translate3d(-9%, 4%, 0) scale(0.96); }
-    29% { opacity: 0.15; transform: translate3d(12%, 0, 0); }
-    38% { opacity: 0.95; transform: translate3d(-3%, 0, 0); }
-    50%, 100% { opacity: 0; transform: translate3d(0, 0, 0); }
-  }
-
-  @keyframes siteIntroMiddle {
-    0%, 20% { opacity: 0; transform: translate3d(-42%, 0, 0) scale(1.12); }
-    26% { opacity: 0.9; transform: translate3d(11%, 0, 0) scale(0.97); }
-    33% { opacity: 0.12; transform: translate3d(-15%, 0, 0); }
-    43% { opacity: 1; transform: translate3d(2%, 0, 0); }
-    55%, 100% { opacity: 0; transform: translate3d(0, 0, 0); }
-  }
-
-  @keyframes siteIntroBottom {
-    0%, 24% { opacity: 0; transform: translate3d(29%, 14%, 0) scale(1.08); }
-    31% { opacity: 0.82; transform: translate3d(-12%, -3%, 0) scale(0.98); }
-    39% { opacity: 0.2; transform: translate3d(9%, 0, 0); }
-    48% { opacity: 0.9; transform: translate3d(-2%, 0, 0); }
-    59%, 100% { opacity: 0; transform: translate3d(0, 0, 0); }
-  }
-
-  @keyframes siteIntroScan {
-    0%, 18% { opacity: 0; transform: translateY(-12%); }
-    20% { opacity: 0.5; }
-    50% { opacity: 0.16; }
-    62% { opacity: 0; transform: translateY(10000%); }
-    100% { opacity: 0; }
+  @keyframes siteIntroBackdropDark {
+    0% { background-color: #000000; }
+    19% { background-color: #040404; }
+    29% { background-color: #050505; }
+    51%, 100% { background-color: #080808; }
   }
 
   @keyframes siteIntroReduced {
@@ -231,29 +195,23 @@
     to { opacity: 1; transform: scale(1); }
   }
 
-  @media (max-width: 40rem) {
-    .site-intro__stage {
-      width: min(68vw, 19rem);
-    }
-  }
-
   @media (prefers-reduced-motion: reduce) {
-    .site-intro__logo-layer--echo,
-    .site-intro__logo-layer--top,
-    .site-intro__logo-layer--middle,
-    .site-intro__logo-layer--bottom,
-    .site-intro__scan {
+    .site-intro {
+      animation: none;
+      background: var(--theme-bg);
+    }
+
+    .site-intro__video {
       display: none;
     }
 
-    .site-intro__logo-layer--core {
+    .site-intro__static {
+      opacity: 1;
       animation: siteIntroReduced 900ms ease-out both;
     }
 
     .site-intro,
-    .site-intro__stage,
-    .site-intro__animation,
-    .site-intro__static {
+    .site-intro__stage {
       transition-duration: 160ms;
     }
   }
