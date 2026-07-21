@@ -93,7 +93,7 @@ OH NO <ruby>加<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>班
 
 <div class="lyric-line">
 <div class="jp-lyric">
-她说
+<ruby>她<rt class="furi">她</rt><rt class="roma">她</rt></ruby><ruby>说<rt class="furi">说</rt><rt class="roma">说</rt></ruby>
 </div>
 </div>
 
@@ -273,7 +273,7 @@ OH NO <ruby>加<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>班
 
 <div class="lyric-line">
 <div class="jp-lyric">
-哦YE 哦YE
+<ruby>哦<rt class="furi">哦</rt><rt class="roma">哦</rt></ruby>YE <ruby>哦<rt class="furi">哦</rt><rt class="roma">哦</rt></ruby>YE
 </div>
 </div>
 

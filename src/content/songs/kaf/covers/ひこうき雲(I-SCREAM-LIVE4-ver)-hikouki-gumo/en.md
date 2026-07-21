@@ -36,24 +36,30 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 Ashita moshi haretara
 </div>
+<div class="trans-lyric">If tomorrow is clear</div>
+<div class="trans-lyric">If tomorrow is clear</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Hikoukigumo zenbu atsumete
 </div>
+<div class="trans-lyric">Gather all the contrails</div>
+<div class="trans-lyric">Gather all the contrails</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Kimi ga sumu sono machi ni
 </div>
+<div class="trans-lyric">To that town where you live</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Todokeru yo owaranai uta wo
 </div>
+<div class="trans-lyric">I'll deliver an endless song</div>
 </div>
 
 <br />
@@ -62,24 +68,30 @@ Todokeru yo owaranai uta wo
 <div class="jp-lyric">
 Bokura wo tsunagu yo mugen ni hirogaru
 </div>
+<div class="trans-lyric">It connects us, endlessly expanding</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Afureru omoi to jiyuuna sono basho
 </div>
+<div class="trans-lyric">Overflowing feelings and that free place</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Egakidasu kokoro won ni takushite
 </div>
+<div class="trans-lyric">Entrusting the heart that paints to that place</div>
+<div class="trans-lyric">Entrusting the heart that paints to that place</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Todoke ni iku yo kimi ga iru machi ni
 </div>
+<div class="trans-lyric">I'll go deliver it to the town where you are</div>
+<div class="trans-lyric">I'll go deliver it to the town where you are</div>
 </div>
 
 <br />
@@ -88,24 +100,28 @@ Todoke ni iku yo kimi ga iru machi ni
 <div class="jp-lyric">
 Mukaikaze ni fuka reta toki
 </div>
+<div class="trans-lyric">When we were blown by the headwind</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Bokura wa itsumo tachidomaru
 </div>
+<div class="trans-lyric">We always stop</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Owari wo kaite shimaunara
 </div>
+<div class="trans-lyric">If we write the end</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Yumemita keshiki wa mou touzakatte shimau
 </div>
+<div class="trans-lyric">The dreamed landscape will be far away</div>
 </div>
 
 <br />
@@ -114,12 +130,15 @@ Yumemita keshiki wa mou touzakatte shimau
 <div class="jp-lyric">
 Bokura o tsunagu yo mugen ni hirogaru
 </div>
+<div class="trans-lyric">It connects us, endlessly expanding</div>
+<div class="trans-lyric">It connects us, endlessly expanding</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Afureru omoi to jiyuuna kono basho
 </div>
+<div class="trans-lyric">Overflowing feelings and this free place</div>
 </div>
 
 <div class="lyric-line">
@@ -152,12 +171,14 @@ Hikoukigumo zenbu atsumete
 <div class="jp-lyric">
 Kimi ga sumu kono machi ni
 </div>
+<div class="trans-lyric">To this town where you live</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Todokeru yo owaranai uta
 </div>
+<div class="trans-lyric">I'll deliver an endless song</div>
 </div>
 
 <br />
@@ -172,18 +193,21 @@ Bokura o tsunagu yo mugen ni hirogaru
 <div class="jp-lyric">
 Afureru omoi o kaki tsudzukeyou
 </div>
+<div class="trans-lyric">Let's continue writing the overflowing feelings</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Shirokuro no ashita irodzuite yuku
 </div>
+<div class="trans-lyric">The black-and-white tomorrow becomes colored</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Todoke tsudzukeru yakusoku no merodii
 </div>
+<div class="trans-lyric">A melody of promise that continues to deliver</div>
 </div>
 
 </div>

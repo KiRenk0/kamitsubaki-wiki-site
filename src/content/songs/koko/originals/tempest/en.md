@@ -35,24 +35,28 @@ Tempest (feat. 幸祜) appears on Tempest or a related official release. Entries
 <div class="jp-lyric">
 Bruised but forgiven
 </div>
+<div class="trans-lyric">Bruised but forgiven</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You talk like the world is against you
 </div>
+<div class="trans-lyric">You talk like the world is against you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You pull yourself to pieces
 </div>
+<div class="trans-lyric">You pull yourself to pieces</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 But I'm never getting over you
 </div>
+<div class="trans-lyric">But I'm never getting over you</div>
 </div>
 
 <br />
@@ -61,6 +65,10 @@ But I'm never getting over you
 <div class="jp-lyric">
 Give it some thought before you fall
 </div>
+<div class="trans-lyric">Give it some thought before you fall</div>
+<div class="trans-lyric">Give it some thought before you fall</div>
+<div class="trans-lyric">Give it some thought before you fall</div>
+<div class="trans-lyric">Give it some thought before you fall</div>
 </div>
 
 <div class="lyric-line">
@@ -75,24 +83,28 @@ Give it some thought before you fall
 <div class="jp-lyric">
 I was fading out
 </div>
+<div class="trans-lyric">I was fading out</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Like a whisper in the wind
 </div>
+<div class="trans-lyric">Like a whisper in the wind</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Wishing I was someone else, somewhere new
 </div>
+<div class="trans-lyric">Wishing I was someone else, somewhere new</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Sailing away with you
 </div>
+<div class="trans-lyric">Sailing away with you</div>
 </div>
 
 <br />
@@ -101,24 +113,32 @@ Sailing away with you
 <div class="jp-lyric">
 I won't turn away
 </div>
+<div class="trans-lyric">I won't turn away</div>
+<div class="trans-lyric">I won't turn away</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 As you sail away from the shore
 </div>
+<div class="trans-lyric">As you sail away from the shore</div>
+<div class="trans-lyric">As you sail away from the shore</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I'm a castaway
 </div>
+<div class="trans-lyric">I'm a castaway</div>
+<div class="trans-lyric">I'm a castaway</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 But I was dead and buried long before
 </div>
+<div class="trans-lyric">But I was dead and buried long before</div>
+<div class="trans-lyric">But I was dead and buried long before</div>
 </div>
 
 <br />

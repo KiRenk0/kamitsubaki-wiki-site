@@ -35,60 +35,73 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 You know, I could just go on
 </div>
+<div class="cn-lyric">你知道，我可以继续下去</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Never forgive you and just keep on keeping on
 </div>
+<div class="cn-lyric">永不原谅你，只是继续坚持</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It's not like I don't have good reason
 </div>
+<div class="cn-lyric">并非我没有充分理由</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 To put you out season after season
 </div>
+<div class="cn-lyric">一季又一季将你赶出</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And now oh-oh you know
 </div>
+<div class="cn-lyric">而现在哦哦你知道</div>
+<div class="cn-lyric">而现在哦哦你知道</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Whoa those years are gone
 </div>
+<div class="cn-lyric">哇，那些年已逝去</div>
+<div class="cn-lyric">哇，那些年已逝去</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You ripped up the book of my childhood
 </div>
+<div class="cn-lyric">你撕碎了我童年的书</div>
+<div class="cn-lyric">你撕碎了我童年的书</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Maybe there's no one to blame
 </div>
+<div class="cn-lyric">也许无人可指责</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 But I would like to give you back your shame
 </div>
+<div class="cn-lyric">但我愿将你的羞愧归还</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Cause I think that 35 years is long enough to keep it for you here
 </div>
+<div class="cn-lyric">因为我认为三十五年足够我替你保留它</div>
 </div>
 
 <div class="lyric-line">
@@ -107,36 +120,43 @@ Whoa those years are gone
 <div class="jp-lyric">
 You say you weren't thinking, just doing your drinking
 </div>
+<div class="cn-lyric">你说你当时没多想，只是喝酒</div>
+<div class="cn-lyric">你说你当时没多想，只是喝酒</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You taught me I did not deserve
 </div>
+<div class="cn-lyric">你教会我我不配</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 To be protected, respected or heard
 </div>
+<div class="cn-lyric">被保护、被尊重或被倾听</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Didn't I see what was lost or just who was paying your cost?
 </div>
+<div class="cn-lyric">难道我没看清失去什么，或谁在承担你的代价？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 So let's lay this on the line
 </div>
+<div class="cn-lyric">所以让我们把话说清楚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 What you have taken was mine
 </div>
+<div class="cn-lyric">你夺走的是我的东西</div>
 </div>
 
 <div class="lyric-line">

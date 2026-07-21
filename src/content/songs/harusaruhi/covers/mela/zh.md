@@ -30,6 +30,9 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 Ere mela mela mela mela mela mela
 </div>
+<div class="cn-lyric">埃雷 梅拉 梅拉 梅拉 梅拉 梅拉 梅拉</div>
+<div class="cn-lyric">埃雷 梅拉 梅拉 梅拉 梅拉 梅拉 梅拉</div>
+<div class="cn-lyric">埃雷 梅拉 梅拉 梅拉 梅拉 梅拉 梅拉</div>
 </div>
 
 <div class="lyric-line">
@@ -48,42 +51,49 @@ Ere mela mela mela mela mela mela
 <div class="jp-lyric">
 Ere mela mela mela mela
 </div>
+<div class="cn-lyric">埃雷 梅拉 梅拉 梅拉 梅拉</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Ere mela belu chela atbelu
 </div>
+<div class="cn-lyric">埃雷 梅拉 贝卢 切拉 阿特贝卢</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Bekerbet yemiyawukut sew agenagnun
 </div>
+<div class="cn-lyric">贝克尔贝特 耶米亚乌库特 塞乌 阿格纳格农</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Slesu fikiren yemteykew alegn
 </div>
+<div class="cn-lyric">斯莱苏 菲基伦 耶姆泰凯乌 阿莱格恩</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Mela mela sewoch hulu mela mela mela belu mela mela sewoch huluu mela mela
 </div>
+<div class="cn-lyric">梅拉 梅拉 塞沃奇 胡卢 梅拉 梅拉 梅拉 贝卢 梅拉 梅拉 塞沃奇 胡卢 梅拉 梅拉</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Chela atbelu mela mela
 </div>
+<div class="cn-lyric">切拉 阿特贝卢 梅拉 梅拉</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Sewoch hulu mela mela mela belu sewoch hulu mela belugn
 </div>
+<div class="cn-lyric">塞沃奇 胡卢 梅拉 梅拉 梅拉 贝卢 塞沃奇 胡卢 梅拉 贝卢格恩</div>
 </div>
 
 </div>

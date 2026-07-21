@@ -30,24 +30,28 @@ Twig appears on CREAM PUFF LIVE or a related official release. Entries are versi
 <div class="jp-lyric">
 Some weepy, creepy, willow, pillow, boggy shit
 </div>
+<div class="trans-lyric">Some weepy, creepy, willow, pillow, boggy shit</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Transcendental big wheel can ya feel it
 </div>
+<div class="trans-lyric">Transcendental big wheel can ya feel it</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I got a chickey face down trippin' so damn hard
 </div>
+<div class="trans-lyric">I got a chickey face down trippin' so damn hard</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 His head splits open stuffin', spills out into the car
 </div>
+<div class="trans-lyric">His head splits open stuffin', spills out into the car</div>
 </div>
 
 <br />
@@ -56,24 +60,28 @@ His head splits open stuffin', spills out into the car
 <div class="jp-lyric">
 Cup of dirty water and a lonely boney frog
 </div>
+<div class="trans-lyric">Cup of dirty water and a lonely boney frog</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Slip me seven dollars and I'll pump it full of smog
 </div>
+<div class="trans-lyric">Slip me seven dollars and I'll pump it full of smog</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Paint a monkey gold let him loose downtown
 </div>
+<div class="trans-lyric">Paint a monkey gold let him loose downtown</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You start him with a smile, he'll come back with a frown
 </div>
+<div class="trans-lyric">You start him with a smile, he'll come back with a frown</div>
 </div>
 
 <br />
@@ -82,18 +90,22 @@ You start him with a smile, he'll come back with a frown
 <div class="jp-lyric">
 He's just a twig in the wind, a twig in the wind
 </div>
+<div class="trans-lyric">He's just a twig in the wind, a twig in the wind</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 A twig in the wind, a twig in the wind, ah hoo
 </div>
+<div class="trans-lyric">A twig in the wind, a twig in the wind, ah hoo</div>
+<div class="trans-lyric">A twig in the wind, a twig in the wind, ah hoo</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I'm thick and thin and all right
 </div>
+<div class="trans-lyric">I'm thick and thin and all right</div>
 </div>
 
 <br />
@@ -102,24 +114,28 @@ I'm thick and thin and all right
 <div class="jp-lyric">
 I'm happy feeling crappy in my nappy little car
 </div>
+<div class="trans-lyric">I'm happy feeling crappy in my nappy little car</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Squozen, frozen duplicated drunk in a bar
 </div>
+<div class="trans-lyric">Squozen, frozen duplicated drunk in a bar</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 A tape recorded all distorted genius machine
 </div>
+<div class="trans-lyric">A tape recorded all distorted genius machine</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 A spokes model dipped in refried beans
 </div>
+<div class="trans-lyric">A spokes model dipped in refried beans</div>
 </div>
 
 <br />
@@ -128,24 +144,28 @@ A spokes model dipped in refried beans
 <div class="jp-lyric">
 Piggies pay full price, to put their necks on the stumpy
 </div>
+<div class="trans-lyric">Piggies pay full price, to put their necks on the stumpy</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Dusty busted skeletons who pay at the pumpy
 </div>
+<div class="trans-lyric">Dusty busted skeletons who pay at the pumpy</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Multi nippled rotating DJ sap
 </div>
+<div class="trans-lyric">Multi nippled rotating DJ sap</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I'm shoulder high in crap and my water wings are flat
 </div>
+<div class="trans-lyric">I'm shoulder high in crap and my water wings are flat</div>
 </div>
 
 <br />
@@ -154,6 +174,7 @@ I'm shoulder high in crap and my water wings are flat
 <div class="jp-lyric">
 I'm just a twig in the wind, a twig in the wind
 </div>
+<div class="trans-lyric">I'm just a twig in the wind, a twig in the wind</div>
 </div>
 
 <div class="lyric-line">
@@ -166,6 +187,7 @@ A twig in the wind, a twig in the wind, ah hoo
 <div class="jp-lyric">
 I'm thick and I'm thin and alright, alright, alright, alright
 </div>
+<div class="trans-lyric">I'm thick and I'm thin and alright, alright, alright, alright</div>
 </div>
 
 <br />
@@ -174,18 +196,21 @@ I'm thick and I'm thin and alright, alright, alright, alright
 <div class="jp-lyric">
 I'm twig in the wind, a twig in the wind
 </div>
+<div class="trans-lyric">I'm twig in the wind, a twig in the wind</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 A twig in the wind, a twig in the wind
 </div>
+<div class="trans-lyric">A twig in the wind, a twig in the wind</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 A twig in the wind, a twig in the wind, well, alright
 </div>
+<div class="trans-lyric">A twig in the wind, a twig in the wind, well, alright</div>
 </div>
 
 </div>

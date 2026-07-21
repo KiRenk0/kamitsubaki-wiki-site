@@ -35,36 +35,42 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 <ruby>口<rt class="furi">くち</rt><rt class="roma">kuchi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>大<rt class="furi">おお</rt><rt class="roma">oo</rt></ruby><ruby>きく<rt class="roma">kiku</rt></ruby><ruby>開<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">不要张大口大笑</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>大<rt class="furi">おお</rt><rt class="roma">oo</rt></ruby><ruby>きな<rt class="roma">kina</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">不要大声笑</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>でも<rt class="roma">demo</rt></ruby> <ruby>疲<rt class="furi">つか</rt><rt class="roma">tsuka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>とき<rt class="roma">toki</rt></ruby><ruby>こそ<rt class="roma">koso</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>？
 </div>
+<div class="cn-lyric">但是 疲惫之时更应该笑吧？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>なんて<rt class="roma">nante</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby>
 </div>
+<div class="cn-lyric">你却没有说过那样的话</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>また<rt class="roma">mata</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> <ruby>あぁ<rt class="roma">aa</rt></ruby>
 </div>
+<div class="cn-lyric">说还想在某个地方再见面啊 啊啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ばか<rt class="roma">baka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">别小看我</div>
 </div>
 
 <br />
@@ -73,12 +79,14 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>道<rt class="furi">みち</rt><rt class="roma">michi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>走<rt class="furi">はし</rt><rt class="roma">hashi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
 </div>
+<div class="cn-lyric">你奔跑在你的路上</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>走<rt class="furi">はし</rt><rt class="roma">hashi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby> <ruby>走<rt class="furi">はし</rt><rt class="roma">hashi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">跑就好 跑就好啦</div>
 </div>
 
 <br />
@@ -87,24 +95,36 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">即使你已不在</div>
+<div class="cn-lyric">即使你已不在</div>
+<div class="cn-lyric">即使你已不在</div>
+<div class="cn-lyric">即使你已不在</div>
+<div class="cn-lyric">即使你已不在</div>
+<div class="cn-lyric">即使你已不在</div>
+<div class="cn-lyric">即使你已不在</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ご飯<rt class="furi">ごはん</rt><rt class="roma">gohan</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>おいしい<rt class="roma">oishii</rt></ruby> <ruby>ちゃんと<rt class="roma">chanto</rt></ruby><ruby>味<rt class="furi">あじ</rt><rt class="roma">aji</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>
 </div>
+<div class="cn-lyric">饭依然美味 也尝得出味道</div>
+<div class="cn-lyric">饭依然美味 也尝得出味道</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ロックンロール<rt class="roma">rokkunrouru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby> <ruby>あぁ<rt class="roma">aa</rt></ruby>
 </div>
+<div class="cn-lyric">你说过你喜欢摇滚乐 啊啊</div>
+<div class="cn-lyric">你说过你喜欢摇滚乐 啊啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby> <ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づけ<rt class="roma">zuke</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">两人 不经意间牵起了手呢</div>
 </div>
 
 <br />
@@ -113,36 +133,42 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 <ruby>愚痴<rt class="furi">ぐち</rt><rt class="roma">guchi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>たくさん<rt class="roma">takusan</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>あげ<rt class="roma">age</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">没能好好听你许多的抱怨</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>口<rt class="furi">くち</rt><rt class="roma">kuchi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>「<ruby>ごめん<rt class="roma">gomen</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>」<ruby>は<rt class="roma">wa</rt></ruby><ruby>照<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>れくさく<rt class="roma">rekusaku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
+<div class="cn-lyric">嘴上说'对不起'实在太害羞了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>伝<rt class="furi">つた</rt><rt class="roma">tsuta</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>「<ruby>ごめん<rt class="roma">gomen</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>」<ruby>なんて<rt class="roma">nante</rt></ruby>
 </div>
+<div class="cn-lyric">没能传达出'对不起'这样的话</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby>
 </div>
+<div class="cn-lyric">我连那样的话都说不出口</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>また<rt class="roma">mata</rt></ruby><ruby>これから<rt class="roma">korekara</rt></ruby>「<ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby>」<ruby>に<rt class="roma">ni</rt></ruby><ruby>なり<rt class="roma">nari</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> <ruby>あぁ<rt class="roma">aa</rt></ruby>
 </div>
+<div class="cn-lyric">说今后也想成为'两人'啊 啊啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ばか<rt class="roma">baka</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">像个傻瓜呢</div>
 </div>
 
 <br />
@@ -151,12 +177,14 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>家<rt class="furi">いえ</rt><rt class="roma">ie</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
 </div>
+<div class="cn-lyric">你回到你的家</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby> <ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">回去就好 回去就好啦</div>
 </div>
 
 <br />
@@ -171,18 +199,23 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 <ruby>ギター<rt class="roma">gitaa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>弾<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> <ruby>地球<rt class="furi">ちきゅう</rt><rt class="roma">chikyuu</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>回<rt class="furi">まわ</rt><rt class="roma">mawa</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
 </div>
+<div class="cn-lyric">弹着吉他 地球依然转动</div>
+<div class="cn-lyric">弹着吉他 地球依然转动</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ロックンロール<rt class="roma">rokkunrouru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>
 </div>
+<div class="cn-lyric">你说过你喜欢摇滚乐</div>
+<div class="cn-lyric">你说过你喜欢摇滚乐</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby> <ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づけ<rt class="roma">zuke</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>わせ<rt class="roma">wase</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">两人 不经意间对上了视线呢</div>
 </div>
 
 <br />
@@ -209,6 +242,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 <ruby>まだ<rt class="roma">mada</rt></ruby> <ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
+<div class="cn-lyric">仍然 在做梦</div>
 </div>
 
 <br />
@@ -253,6 +287,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 <ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby> <ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づけ<rt class="roma">zuke</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>ねぇ<rt class="roma">nee</rt></ruby>
 </div>
+<div class="cn-lyric">两人 不经意间牵起了手呢 呐</div>
 </div>
 
 </div>

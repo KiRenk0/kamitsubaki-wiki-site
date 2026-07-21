@@ -36,24 +36,31 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 And he's mean talking
 </div>
+<div class="trans-lyric">And he's mean talking</div>
+<div class="trans-lyric">And he's mean talking</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Bean stalking icy man
 </div>
+<div class="trans-lyric">Bean stalking icy man</div>
+<div class="trans-lyric">Bean stalking icy man</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 My feet are walking over him
 </div>
+<div class="trans-lyric">My feet are walking over him</div>
+<div class="trans-lyric">My feet are walking over him</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 My sneakers in his hand
 </div>
+<div class="trans-lyric">My sneakers in his hand</div>
 </div>
 
 <br />
@@ -62,24 +69,31 @@ My sneakers in his hand
 <div class="jp-lyric">
 And with a picket for a knife
 </div>
+<div class="trans-lyric">And with a picket for a knife</div>
+<div class="trans-lyric">And with a picket for a knife</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And a rocket to depart in
 </div>
+<div class="trans-lyric">And a rocket to depart in</div>
+<div class="trans-lyric">And a rocket to depart in</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 My life had barely started
 </div>
+<div class="trans-lyric">My life had barely started</div>
+<div class="trans-lyric">My life had barely started</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 When you jumped all on my heart
 </div>
+<div class="trans-lyric">When you jumped all on my heart</div>
 </div>
 
 <br />
@@ -88,12 +102,15 @@ When you jumped all on my heart
 <div class="jp-lyric">
 And now we're lazy, lazy
 </div>
+<div class="trans-lyric">And now we're lazy, lazy</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Ooh, lazy, lazy
 </div>
+<div class="trans-lyric">Ooh, lazy, lazy</div>
+<div class="trans-lyric">Ooh, lazy, lazy</div>
 </div>
 
 <br />
@@ -102,24 +119,28 @@ Ooh, lazy, lazy
 <div class="jp-lyric">
 In the galaxy of stars
 </div>
+<div class="trans-lyric">In the galaxy of stars</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 With nothing in the middle
 </div>
+<div class="trans-lyric">With nothing in the middle</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 'Cept the planet that we own
 </div>
+<div class="trans-lyric">'Cept the planet that we own</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And it's playing second fiddle
 </div>
+<div class="trans-lyric">And it's playing second fiddle</div>
 </div>
 
 <br />
@@ -128,18 +149,21 @@ And it's playing second fiddle
 <div class="jp-lyric">
 And we're bogged down in a delta of glee
 </div>
+<div class="trans-lyric">And we're bogged down in a delta of glee</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And my mouth has sprung wide open
 </div>
+<div class="trans-lyric">And my mouth has sprung wide open</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 We got tickets they were free
 </div>
+<div class="trans-lyric">We got tickets they were free</div>
 </div>
 
 <br />
@@ -148,18 +172,21 @@ We got tickets they were free
 <div class="jp-lyric">
 And can you keep sleeping metaphysical girl?
 </div>
+<div class="trans-lyric">And can you keep sleeping metaphysical girl?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Since the stars predicted something new
 </div>
+<div class="trans-lyric">Since the stars predicted something new</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Would reconnect our worlds
 </div>
+<div class="trans-lyric">Would reconnect our worlds</div>
 </div>
 
 <br />
@@ -168,6 +195,7 @@ Would reconnect our worlds
 <div class="jp-lyric">
 And now we're lazy, we're lazy
 </div>
+<div class="trans-lyric">And now we're lazy, we're lazy</div>
 </div>
 
 <div class="lyric-line">
@@ -182,12 +210,18 @@ Ooh, lazy, lazy
 <div class="jp-lyric">
 Can we grow, can we grow
 </div>
+<div class="trans-lyric">Can we grow, can we grow</div>
+<div class="trans-lyric">Can we grow, can we grow</div>
+<div class="trans-lyric">Can we grow, can we grow</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Can we grow out? Whoa
 </div>
+<div class="trans-lyric">Can we grow out? Whoa</div>
+<div class="trans-lyric">Can we grow out? Whoa</div>
+<div class="trans-lyric">Can we grow out? Whoa</div>
 </div>
 
 <div class="lyric-line">
@@ -220,6 +254,8 @@ Can we grow out? Whoa
 <div class="jp-lyric">
 Whoa, whoa, whoa
 </div>
+<div class="trans-lyric">Whoa, whoa, whoa</div>
+<div class="trans-lyric">Whoa, whoa, whoa</div>
 </div>
 
 <div class="lyric-line">
@@ -252,6 +288,7 @@ My feet are walking over him
 <div class="jp-lyric">
 Sneakers in his hand
 </div>
+<div class="trans-lyric">Sneakers in his hand</div>
 </div>
 
 <br />
@@ -278,6 +315,7 @@ My life had barely started
 <div class="jp-lyric">
 When you jumped all on my h-h-h-heart
 </div>
+<div class="trans-lyric">When you jumped all on my h-h-h-heart</div>
 </div>
 
 </div>

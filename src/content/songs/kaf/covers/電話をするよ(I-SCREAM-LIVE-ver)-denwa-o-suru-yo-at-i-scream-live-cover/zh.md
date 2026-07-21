@@ -36,30 +36,35 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ふけ<rt class="roma">fuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>窓<rt class="furi">まど</rt><rt class="roma">mado</rt></ruby><ruby>しめ<rt class="roma">shime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">夜深了关上窗</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>お日様<rt class="furi">おひさま</rt><rt class="roma">ohisama</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>昇<rt class="furi">のぼ</rt><rt class="roma">nobo</rt></ruby><ruby>ったら<rt class="roma">ttara</rt></ruby>
 </div>
+<div class="cn-lyric">当太阳稍稍升起</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>閉<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>まぶしく<rt class="roma">mabushiku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">即使闭上眼睛也刺眼</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ちょっと<rt class="roma">chotto</rt></ruby><ruby>ユウウツ<rt class="roma">yuuutsu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+<div class="cn-lyric">有些忧郁</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>じゃま<rt class="roma">jama</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
 </div>
+<div class="cn-lyric">若来打扰我</div>
 </div>
 
 <br />
@@ -68,24 +73,35 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>また<rt class="roma">mata</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">我会再打电话</div>
+<div class="cn-lyric">我会再打电话</div>
+<div class="cn-lyric">我会再打电话</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">给你打电话</div>
+<div class="cn-lyric">给你打电话</div>
+<div class="cn-lyric">给你打电话</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">一定会打电话</div>
+<div class="cn-lyric">一定会打电话</div>
+<div class="cn-lyric">一定会打电话</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>たのむ<rt class="roma">tanomu</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>なぐさめ<rt class="roma">nagusame</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">拜托了请安慰我</div>
+<div class="cn-lyric">拜托了请安慰我</div>
 </div>
 
 <br />
@@ -94,24 +110,28 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>内緒<rt class="furi">ないしょ</rt><rt class="roma">naisho</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> (<ruby>内緒<rt class="furi">ないしょ</rt><rt class="roma">naisho</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>)
 </div>
+<div class="cn-lyric">这是秘密哦 (这是秘密哦)</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>秘密<rt class="furi">ひみつ</rt><rt class="roma">himitsu</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> (<ruby>秘密<rt class="furi">ひみつ</rt><rt class="roma">himitsu</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>)
 </div>
+<div class="cn-lyric">是秘密哦 (是秘密哦)</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Oh <ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby> (oh <ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>)
 </div>
+<div class="cn-lyric">Oh 只有一点点 (oh 只有一点点)</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>狂<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">我有些疯狂</div>
 </div>
 
 <br />
@@ -120,24 +140,28 @@ Oh <ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>�
 <div class="jp-lyric">
 <ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> (<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>)
 </div>
+<div class="cn-lyric">比谁都要 (比谁都要)</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> (<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>)
 </div>
+<div class="cn-lyric">比什么都要 (比什么都要)</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>総理<rt class="furi">そうり</rt><rt class="roma">souri</rt></ruby><ruby>大臣<rt class="furi">だいじん</rt><rt class="roma">daijin</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> (<ruby>総理<rt class="furi">そうり</rt><rt class="roma">souri</rt></ruby><ruby>大臣<rt class="furi">だいじん</rt><rt class="roma">daijin</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>)
 </div>
+<div class="cn-lyric">比总理大臣还要 (比总理大臣还要)</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>頼<rt class="furi">たよ</rt><rt class="roma">tayo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">我依赖着你</div>
 </div>
 
 <br />
@@ -164,6 +188,7 @@ Oh <ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>�
 <div class="jp-lyric">
 <ruby>たのむ<rt class="roma">tanomu</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">拜托了请将我</div>
 </div>
 
 <br />

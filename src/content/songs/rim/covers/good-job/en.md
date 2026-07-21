@@ -35,30 +35,39 @@ good job appears on CHOCOLATE LIVE2 or a related official release. Entries are v
 <div class="jp-lyric">
 I'm on my way back home
 </div>
+<div class="trans-lyric">I'm on my way back home</div>
+<div class="trans-lyric">I'm on my way back home</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 오늘도 참 많은 일이 있었지
 </div>
+<div class="trans-lyric">So many things happened today as well</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 불빛이 흐르고
 </div>
+<div class="trans-lyric">The lights stream by</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 나는 또 멍하니 바라보았지
 </div>
+<div class="trans-lyric">I stared blankly once again</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 On my way back home
 </div>
+<div class="trans-lyric">On my way back home</div>
+<div class="trans-lyric">On my way back home</div>
+<div class="trans-lyric">On my way back home</div>
+<div class="trans-lyric">On my way back home</div>
 </div>
 
 <div class="lyric-line">
@@ -79,18 +88,21 @@ I'm on my way back home
 <div class="jp-lyric">
 오늘도 참 많이도 힘들었지
 </div>
+<div class="trans-lyric">Today was so difficult as well</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 한숨을 돌리고
 </div>
+<div class="trans-lyric">Let out a sigh</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 나는 또 두 눈을 닫아 버렸지
 </div>
+<div class="trans-lyric">I closed my eyes once more</div>
 </div>
 
 <div class="lyric-line">
@@ -111,48 +123,64 @@ On my way back home
 <div class="jp-lyric">
 수많은 차들이 지나가네
 </div>
+<div class="trans-lyric">Countless cars are passing by</div>
+<div class="trans-lyric">Countless cars are passing by</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 수많은 하루들을 싣고서
 </div>
+<div class="trans-lyric">Carrying so many days</div>
+<div class="trans-lyric">Carrying so many days</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 How was your day
 </div>
+<div class="trans-lyric">How was your day</div>
+<div class="trans-lyric">How was your day</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 음음
 </div>
+<div class="trans-lyric">Mmm</div>
+<div class="trans-lyric">Mmm</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 수많은 말들이 생각나네
 </div>
+<div class="trans-lyric">So many words come to mind</div>
+<div class="trans-lyric">So many words come to mind</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 수많은 침묵들뿐이지만
 </div>
+<div class="trans-lyric">Only countless silences though</div>
+<div class="trans-lyric">Only countless silences though</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 But I gotta say
 </div>
+<div class="trans-lyric">But I gotta say</div>
+<div class="trans-lyric">But I gotta say</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I gotta say
 </div>
+<div class="trans-lyric">I gotta say</div>
+<div class="trans-lyric">I gotta say</div>
 </div>
 
 <br />
@@ -161,54 +189,76 @@ I gotta say
 <div class="jp-lyric">
 Yeah I did a good job
 </div>
+<div class="trans-lyric">Yeah I did a good job</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 수고했다고
 </div>
+<div class="trans-lyric">You worked hard</div>
+<div class="trans-lyric">You worked hard</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 더 잘 할 수 있었단 말로
 </div>
+<div class="trans-lyric">With words like 'you could have done better'</div>
+<div class="trans-lyric">With words like 'you could have done better'</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 채찍질하지 마
 </div>
+<div class="trans-lyric">Don't whip yourself</div>
+<div class="trans-lyric">Don't whip yourself</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I did a freaking good job
 </div>
+<div class="trans-lyric">I did a freaking good job</div>
+<div class="trans-lyric">I did a freaking good job</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 이 정도면 뭐
 </div>
+<div class="trans-lyric">This is good enough</div>
+<div class="trans-lyric">This is good enough</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 편히 쉬어도 돼
 </div>
+<div class="trans-lyric">You can rest easy</div>
+<div class="trans-lyric">You can rest easy</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 'Cause I
 </div>
+<div class="trans-lyric">'Cause I</div>
+<div class="trans-lyric">'Cause I</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I did a good job
 </div>
+<div class="trans-lyric">I did a good job</div>
+<div class="trans-lyric">I did a good job</div>
+<div class="trans-lyric">I did a good job</div>
+<div class="trans-lyric">I did a good job</div>
+<div class="trans-lyric">I did a good job</div>
+<div class="trans-lyric">I did a good job</div>
+<div class="trans-lyric">I did a good job</div>
 </div>
 
 <div class="lyric-line">

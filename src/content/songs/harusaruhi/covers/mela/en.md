@@ -30,6 +30,9 @@ Mela! appears on CREAM PUFF LIVE or a related official release. Entries are vers
 <div class="jp-lyric">
 Ere mela mela mela mela mela mela
 </div>
+<div class="trans-lyric">Ere mela mela mela mela mela mela</div>
+<div class="trans-lyric">Ere mela mela mela mela mela mela</div>
+<div class="trans-lyric">Ere mela mela mela mela mela mela</div>
 </div>
 
 <div class="lyric-line">
@@ -48,42 +51,49 @@ Ere mela mela mela mela mela mela
 <div class="jp-lyric">
 Ere mela mela mela mela
 </div>
+<div class="trans-lyric">Ere mela mela mela mela</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Ere mela belu chela atbelu
 </div>
+<div class="trans-lyric">Ere mela belu chela atbelu</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Bekerbet yemiyawukut sew agenagnun
 </div>
+<div class="trans-lyric">Bekerbet yemiyawukut sew agenagnun</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Slesu fikiren yemteykew alegn
 </div>
+<div class="trans-lyric">Slesu fikiren yemteykew alegn</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Mela mela sewoch hulu mela mela mela belu mela mela sewoch huluu mela mela
 </div>
+<div class="trans-lyric">Mela mela sewoch hulu mela mela mela belu mela mela sewoch huluu mela mela</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Chela atbelu mela mela
 </div>
+<div class="trans-lyric">Chela atbelu mela mela</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Sewoch hulu mela mela mela belu sewoch hulu mela belugn
 </div>
+<div class="trans-lyric">Sewoch hulu mela mela mela belu sewoch hulu mela belugn</div>
 </div>
 
 </div>

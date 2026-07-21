@@ -30,36 +30,46 @@ CULT appears on CREAM PUFF LIVE or a related official release. Entries are versi
 <div class="jp-lyric">
 Focused on deceit, watch those fearful notions start to creep
 </div>
+<div class="trans-lyric">Focused on deceit, watch those fearful notions start to creep</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Loyalty is cheap, bought by those whose hatred runs so deep
 </div>
+<div class="trans-lyric">Loyalty is cheap, bought by those whose hatred runs so deep</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Just a total brainwash like they're in a cult
 </div>
+<div class="trans-lyric">Just a total brainwash like they're in a cult</div>
+<div class="trans-lyric">Just a total brainwash like they're in a cult</div>
+<div class="trans-lyric">Just a total brainwash like they're in a cult</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And I'm so scared of what will be the end result
 </div>
+<div class="trans-lyric">And I'm so scared of what will be the end result</div>
+<div class="trans-lyric">And I'm so scared of what will be the end result</div>
+<div class="trans-lyric">And I'm so scared of what will be the end result</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Second civil war, not sure what they think they're fighting for
 </div>
+<div class="trans-lyric">Second civil war, not sure what they think they're fighting for</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 We're all fucking poor, we should be the ones storming their doors
 </div>
+<div class="trans-lyric">We're all fucking poor, we should be the ones storming their doors</div>
 </div>
 
 <div class="lyric-line">
@@ -78,48 +88,57 @@ And I'm so scared of what will be the end result
 <div class="jp-lyric">
 Tell you you've got a chance then they kill all your dreams
 </div>
+<div class="trans-lyric">Tell you you've got a chance then they kill all your dreams</div>
+<div class="trans-lyric">Tell you you've got a chance then they kill all your dreams</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It's like we're living in some fucked up ponzi scheme
 </div>
+<div class="trans-lyric">It's like we're living in some fucked up ponzi scheme</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Bail out the banks
 </div>
+<div class="trans-lyric">Bail out the banks</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Think they'll do the same
 </div>
+<div class="trans-lyric">Think they'll do the same</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Try to join their ranks but it's a shame
 </div>
+<div class="trans-lyric">Try to join their ranks but it's a shame</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You're just fodder for
 </div>
+<div class="trans-lyric">You're just fodder for</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Their foreign wars
 </div>
+<div class="trans-lyric">Their foreign wars</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And they'll slap your hand if you ask for more
 </div>
+<div class="trans-lyric">And they'll slap your hand if you ask for more</div>
 </div>
 
 <br />
@@ -146,6 +165,7 @@ Tell you you've got a chance then they kill all your dreams
 <div class="jp-lyric">
 It's like we're living in a fucked up ponzi scheme
 </div>
+<div class="trans-lyric">It's like we're living in a fucked up ponzi scheme</div>
 </div>
 
 </div>

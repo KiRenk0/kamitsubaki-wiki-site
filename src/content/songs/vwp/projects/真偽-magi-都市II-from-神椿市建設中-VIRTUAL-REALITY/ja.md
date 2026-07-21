@@ -56,7 +56,7 @@ image: /images/albums/vwp/city-ii-virtual-reality.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-演唱 Vocal : VISION SOUND
+<ruby>演<rt class="furi">演</rt><rt class="roma">演</rt></ruby><ruby>唱<rt class="furi">唱</rt><rt class="roma">唱</rt></ruby> Vocal : VISION SOUND
 </div>
 </div>
 

@@ -35,30 +35,48 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 Do you feel the way I do
 </div>
+<div class="cn-lyric">你是否和我有同样的感受</div>
+<div class="cn-lyric">你是否和我有同样的感受</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Tell me now oh tell me now
 </div>
+<div class="cn-lyric">现在告诉我，哦，现在告诉我</div>
+<div class="cn-lyric">现在告诉我，哦，现在告诉我</div>
+<div class="cn-lyric">现在告诉我，哦，现在告诉我</div>
+<div class="cn-lyric">现在告诉我，哦，现在告诉我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I need to know that it's true
 </div>
+<div class="cn-lyric">我需要知道这是真的</div>
+<div class="cn-lyric">我需要知道这是真的</div>
+<div class="cn-lyric">我需要知道这是真的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Oh do you feel the way I do
 </div>
+<div class="cn-lyric">哦，你是否和我有同样的感受</div>
+<div class="cn-lyric">哦，你是否和我有同样的感受</div>
+<div class="cn-lyric">哦，你是否和我有同样的感受</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I need to know
 </div>
+<div class="cn-lyric">我需要知道</div>
+<div class="cn-lyric">我需要知道</div>
+<div class="cn-lyric">我需要知道</div>
+<div class="cn-lyric">我需要知道</div>
+<div class="cn-lyric">我需要知道</div>
+<div class="cn-lyric">我需要知道</div>
 </div>
 
 <br />
@@ -67,6 +85,7 @@ I need to know
 <div class="jp-lyric">
 Do you love me the way I love you
 </div>
+<div class="cn-lyric">你是否像我爱你那样爱我</div>
 </div>
 
 <div class="lyric-line">
@@ -85,6 +104,7 @@ I need to know that it's true
 <div class="jp-lyric">
 Oh fo you feel the way I do
 </div>
+<div class="cn-lyric">哦，你是否和我有同样的感受</div>
 </div>
 
 <div class="lyric-line">
@@ -99,30 +119,37 @@ I need to know
 <div class="jp-lyric">
 The world is a wonderful place
 </div>
+<div class="cn-lyric">世界是一个奇妙的地方</div>
+<div class="cn-lyric">世界是一个奇妙的地方</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It spins around and spins around
 </div>
+<div class="cn-lyric">它旋转着，旋转着</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The world has a magic about it
 </div>
+<div class="cn-lyric">世界充满魔力</div>
+<div class="cn-lyric">世界充满魔力</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The stars above are like my love
 </div>
+<div class="cn-lyric">天上的星星就像我的爱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You never need to doubt it
 </div>
+<div class="cn-lyric">你永远不必怀疑</div>
 </div>
 
 <br />
@@ -131,6 +158,7 @@ You never need to doubt it
 <div class="jp-lyric">
 Ooh are we real or is this a dream
 </div>
+<div class="cn-lyric">哦，我们是真实的还是这只是个梦</div>
 </div>
 
 <div class="lyric-line">
@@ -143,6 +171,7 @@ Tell me now oh tell me now
 <div class="jp-lyric">
 Is it all that it seems
 </div>
+<div class="cn-lyric">一切是否如所见</div>
 </div>
 
 <div class="lyric-line">
@@ -169,12 +198,14 @@ The world is a wonderful place
 <div class="jp-lyric">
 It spins around and it spins around
 </div>
+<div class="cn-lyric">它旋转着，旋转着</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And spins around in space
 </div>
+<div class="cn-lyric">在太空中旋转</div>
 </div>
 
 <div class="lyric-line">
@@ -187,12 +218,14 @@ The world has a magic about it
 <div class="jp-lyric">
 And though I try there's so much I
 </div>
+<div class="cn-lyric">尽管我努力，有太多我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Will never know about it
 </div>
+<div class="cn-lyric">永远无法了解的事</div>
 </div>
 
 <br />
@@ -237,18 +270,21 @@ I need to know
 <div class="jp-lyric">
 Do you feel the same way
 </div>
+<div class="cn-lyric">你是否也有同样的感受</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Do you feel the same way I do
 </div>
+<div class="cn-lyric">你是否和我有同样的感受</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Do you feel like I do
 </div>
+<div class="cn-lyric">你是否像我一样感受</div>
 </div>
 
 <div class="lyric-line">

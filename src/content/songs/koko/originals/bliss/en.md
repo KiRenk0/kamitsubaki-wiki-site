@@ -35,36 +35,43 @@ bliss appears on prayer or a related official release. Entries are version-speci
 <div class="jp-lyric">
 The overlapping hearts are in me
 </div>
+<div class="trans-lyric">The overlapping hearts are in me</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The thin raindrops are like tears
 </div>
+<div class="trans-lyric">The thin raindrops are like tears</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I still remember the feeling
 </div>
+<div class="trans-lyric">I still remember the feeling</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 He held hands even in the dark
 </div>
+<div class="trans-lyric">He held hands even in the dark</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 If you have wings, please come back to me
 </div>
+<div class="trans-lyric">If you have wings, please come back to me</div>
+<div class="trans-lyric">If you have wings, please come back to me</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 To the world of sleep
 </div>
+<div class="trans-lyric">To the world of sleep</div>
 </div>
 
 <br />
@@ -73,36 +80,46 @@ To the world of sleep
 <div class="jp-lyric">
 The sound of destruction is roaring to plain
 </div>
+<div class="trans-lyric">The sound of destruction is roaring to plain</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The priests are lining up in mourning
 </div>
+<div class="trans-lyric">The priests are lining up in mourning</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Wishing to see you again, cry
 </div>
+<div class="trans-lyric">Wishing to see you again, cry</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Atonement aria echoes in the cathedral
 </div>
+<div class="trans-lyric">Atonement aria echoes in the cathedral</div>
+<div class="trans-lyric">Atonement aria echoes in the cathedral</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The crescent moon turned off the light
 </div>
+<div class="trans-lyric">The crescent moon turned off the light</div>
+<div class="trans-lyric">The crescent moon turned off the light</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Just looking at the lunar eclipse
 </div>
+<div class="trans-lyric">Just looking at the lunar eclipse</div>
+<div class="trans-lyric">Just looking at the lunar eclipse</div>
+<div class="trans-lyric">Just looking at the lunar eclipse</div>
 </div>
 
 <br />
@@ -111,24 +128,28 @@ Just looking at the lunar eclipse
 <div class="jp-lyric">
 Every time I was lonely, I wanted you
 </div>
+<div class="trans-lyric">Every time I was lonely, I wanted you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 My heart was in pain
 </div>
+<div class="trans-lyric">My heart was in pain</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You gave me the lost temperature
 </div>
+<div class="trans-lyric">You gave me the lost temperature</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You knew the answer to love
 </div>
+<div class="trans-lyric">You knew the answer to love</div>
 </div>
 
 <div class="lyric-line">
@@ -141,6 +162,7 @@ If you have wings, please come back to me
 <div class="jp-lyric">
 To the world of song
 </div>
+<div class="trans-lyric">To the world of song</div>
 </div>
 
 <br />
@@ -149,30 +171,36 @@ To the world of song
 <div class="jp-lyric">
 The bridge of light is coming down from the sky
 </div>
+<div class="trans-lyric">The bridge of light is coming down from the sky</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The priests are singing prayer songs
 </div>
+<div class="trans-lyric">The priests are singing prayer songs</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 To me, this world looks cruel and beautiful
 </div>
+<div class="trans-lyric">To me, this world looks cruel and beautiful</div>
+<div class="trans-lyric">To me, this world looks cruel and beautiful</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Yeah, I was hoping for the truth
 </div>
+<div class="trans-lyric">Yeah, I was hoping for the truth</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 What I wanted to love was the connection
 </div>
+<div class="trans-lyric">What I wanted to love was the connection</div>
 </div>
 
 <div class="lyric-line">
@@ -187,12 +215,14 @@ Just looking at the lunar eclipse
 <div class="jp-lyric">
 I want to change the world with this song
 </div>
+<div class="trans-lyric">I want to change the world with this song</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Even if wishing for happiness is a sin
 </div>
+<div class="trans-lyric">Even if wishing for happiness is a sin</div>
 </div>
 
 <div class="lyric-line">

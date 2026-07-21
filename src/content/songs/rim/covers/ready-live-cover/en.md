@@ -35,24 +35,28 @@ READY (Live Cover) appears on CHOCOLATE LIVE4 or a related official release. Ent
 <div class="jp-lyric">
 My story I'll help you understand
 </div>
+<div class="trans-lyric">My story I'll help you understand</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Born, raised in Japan
 </div>
+<div class="trans-lyric">Born, raised in Japan</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Left school I was 15
 </div>
+<div class="trans-lyric">Left school I was 15</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Left home went to Berlin
 </div>
+<div class="trans-lyric">Left home went to Berlin</div>
 </div>
 
 <br />
@@ -61,36 +65,44 @@ Left home went to Berlin
 <div class="jp-lyric">
 I move I walked I walked
 </div>
+<div class="trans-lyric">I move I walked I walked</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Sensation of stopping shocked
 </div>
+<div class="trans-lyric">Sensation of stopping shocked</div>
+<div class="trans-lyric">Sensation of stopping shocked</div>
+<div class="trans-lyric">Sensation of stopping shocked</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The sisters never approved
 </div>
+<div class="trans-lyric">The sisters never approved</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I went through life feeling guilt
 </div>
+<div class="trans-lyric">I went through life feeling guilt</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Worked raped exploited I built
 </div>
+<div class="trans-lyric">Worked raped exploited I built</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 A job a trip to brazil
 </div>
+<div class="trans-lyric">A job a trip to brazil</div>
 </div>
 
 <br />
@@ -99,18 +111,22 @@ A job a trip to brazil
 <div class="jp-lyric">
 And wore a suit and a sale
 </div>
+<div class="trans-lyric">And wore a suit and a sale</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Sandy beaches money and
 </div>
+<div class="trans-lyric">Sandy beaches money and</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I moved I walked I walked
 </div>
+<div class="trans-lyric">I moved I walked I walked</div>
+<div class="trans-lyric">I moved I walked I walked</div>
 </div>
 
 <div class="lyric-line">
@@ -137,18 +153,21 @@ Sensation of stopping shocked
 <div class="jp-lyric">
 Won't you tell something
 </div>
+<div class="trans-lyric">Won't you tell something</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Won't you just try to understand
 </div>
+<div class="trans-lyric">Won't you just try to understand</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Wait don't run wait don't stay
 </div>
+<div class="trans-lyric">Wait don't run wait don't stay</div>
 </div>
 
 <br />
@@ -157,12 +176,16 @@ Wait don't run wait don't stay
 <div class="jp-lyric">
 Mom told me wait be steady be locked be ready
 </div>
+<div class="trans-lyric">Mom told me wait be steady be locked be ready</div>
+<div class="trans-lyric">Mom told me wait be steady be locked be ready</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 For things just like this
 </div>
+<div class="trans-lyric">For things just like this</div>
+<div class="trans-lyric">For things just like this</div>
 </div>
 
 <div class="lyric-line">
@@ -181,18 +204,21 @@ For things just like this
 <div class="jp-lyric">
 Wait don't go
 </div>
+<div class="trans-lyric">Wait don't go</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Wait don't run
 </div>
+<div class="trans-lyric">Wait don't run</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Wait don't stay
 </div>
+<div class="trans-lyric">Wait don't stay</div>
 </div>
 
 </div>

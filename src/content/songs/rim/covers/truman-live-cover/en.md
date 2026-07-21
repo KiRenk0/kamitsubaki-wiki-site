@@ -35,18 +35,21 @@ TRUMAN (Live Cover) appears on CHOCOLATE LIVE4 or a related official release. En
 <div class="jp-lyric">
 Time won't compromise
 </div>
+<div class="trans-lyric">Time won't compromise</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 First thing I learnt in school
 </div>
+<div class="trans-lyric">First thing I learnt in school</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Here I am still tryna break the rules
 </div>
+<div class="trans-lyric">Here I am still tryna break the rules</div>
 </div>
 
 <br />
@@ -55,18 +58,21 @@ Here I am still tryna break the rules
 <div class="jp-lyric">
 Sometimes I dream of moving backwards
 </div>
+<div class="trans-lyric">Sometimes I dream of moving backwards</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 To before I hid behind the microphone
 </div>
+<div class="trans-lyric">To before I hid behind the microphone</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Oh I
 </div>
+<div class="trans-lyric">Oh I</div>
 </div>
 
 <br />
@@ -75,24 +81,39 @@ Oh I
 <div class="jp-lyric">
 I hope that feeling comes back
 </div>
+<div class="trans-lyric">I hope that feeling comes back</div>
+<div class="trans-lyric">I hope that feeling comes back</div>
+<div class="trans-lyric">I hope that feeling comes back</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Maybe we'll all wake up soon, who knows?
 </div>
+<div class="trans-lyric">Maybe we'll all wake up soon, who knows?</div>
+<div class="trans-lyric">Maybe we'll all wake up soon, who knows?</div>
+<div class="trans-lyric">Maybe we'll all wake up soon, who knows?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I live this day again and again
 </div>
+<div class="trans-lyric">I live this day again and again</div>
+<div class="trans-lyric">I live this day again and again</div>
+<div class="trans-lyric">I live this day again and again</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Hello if you're watching this, from home
 </div>
+<div class="trans-lyric">Hello if you're watching this, from home</div>
+<div class="trans-lyric">Hello if you're watching this, from home</div>
+<div class="trans-lyric">Hello if you're watching this, from home</div>
+<div class="trans-lyric">Hello if you're watching this, from home</div>
+<div class="trans-lyric">Hello if you're watching this, from home</div>
+<div class="trans-lyric">Hello if you're watching this, from home</div>
 </div>
 
 <br />
@@ -101,30 +122,37 @@ Hello if you're watching this, from home
 <div class="jp-lyric">
 Yeah it hurts just a little
 </div>
+<div class="trans-lyric">Yeah it hurts just a little</div>
+<div class="trans-lyric">Yeah it hurts just a little</div>
+<div class="trans-lyric">Yeah it hurts just a little</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Always lived life on the outside now
 </div>
+<div class="trans-lyric">Always lived life on the outside now</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Never thought it would get better
 </div>
+<div class="trans-lyric">Never thought it would get better</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 But that's what we do
 </div>
+<div class="trans-lyric">But that's what we do</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 That's what we do
 </div>
+<div class="trans-lyric">That's what we do</div>
 </div>
 
 <br />
@@ -159,36 +187,42 @@ Hello if you're watching this, from home
 <div class="jp-lyric">
 Don't look so surprised
 </div>
+<div class="trans-lyric">Don't look so surprised</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Got that universal charm
 </div>
+<div class="trans-lyric">Got that universal charm</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 But it's so hard to take your own advice
 </div>
+<div class="trans-lyric">But it's so hard to take your own advice</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Something's disconnected
 </div>
+<div class="trans-lyric">Something's disconnected</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The moment that you stop
 </div>
+<div class="trans-lyric">The moment that you stop</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The thoughts take over and you're terrified
 </div>
+<div class="trans-lyric">The thoughts take over and you're terrified</div>
 </div>
 
 <br />
@@ -203,18 +237,23 @@ Yeah it hurts just a little
 <div class="jp-lyric">
 And I'll tell you why
 </div>
+<div class="trans-lyric">And I'll tell you why</div>
+<div class="trans-lyric">And I'll tell you why</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Thought you were on my side
 </div>
+<div class="trans-lyric">Thought you were on my side</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Thought we'd coincide
 </div>
+<div class="trans-lyric">Thought we'd coincide</div>
+<div class="trans-lyric">Thought we'd coincide</div>
 </div>
 
 <br />
@@ -235,6 +274,7 @@ And I'll tell you why
 <div class="jp-lyric">
 You should've been on my side
 </div>
+<div class="trans-lyric">You should've been on my side</div>
 </div>
 
 <div class="lyric-line">

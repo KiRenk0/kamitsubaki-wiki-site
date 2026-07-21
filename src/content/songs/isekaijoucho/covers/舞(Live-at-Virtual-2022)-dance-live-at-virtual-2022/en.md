@@ -36,24 +36,32 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 <ruby>桜<rt class="furi">さくら</rt><rt class="roma">sakura</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>匂<rt class="furi">にお</rt><rt class="roma">nio</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby>
 </div>
+<div class="trans-lyric">The scent of cherry blossoms drifts</div>
+<div class="trans-lyric">The scent of cherry blossoms drifts</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>旅<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>発<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby>
 </div>
+<div class="trans-lyric">I am setting off on a journey</div>
+<div class="trans-lyric">I am setting off on a journey</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
 </div>
+<div class="trans-lyric">Thinking of this day today</div>
+<div class="trans-lyric">Thinking of this day today</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ゆける<rt class="roma">yukeru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
 </div>
+<div class="trans-lyric">I can keep living through any future today</div>
+<div class="trans-lyric">I can keep living through any future today</div>
 </div>
 
 <br />
@@ -62,24 +70,30 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 <ruby>生<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>まれ<rt class="roma">mare</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>理由<rt class="furi">りゆう</rt><rt class="roma">riyuu</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby>
 </div>
+<div class="trans-lyric">Only the reason I was born</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>求<rt class="furi">もと</rt><rt class="roma">moto</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>まし<rt class="roma">mashi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="trans-lyric">I lived seeking them</div>
+<div class="trans-lyric">I was living in search of it</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>違<rt class="furi">ちが</rt><rt class="roma">chiga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
+<div class="trans-lyric">The difference between you and me</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>隠<rt class="furi">かく</rt><rt class="roma">kaku</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>息<rt class="furi">いき</rt><rt class="roma">iki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">I breathed as if to hide it</div>
+<div class="trans-lyric">I breathed as if to hide it</div>
 </div>
 
 <br />
@@ -88,24 +102,31 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 <ruby>怯<rt class="furi">おび</rt><rt class="roma">obi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>まし<rt class="roma">mashi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>まし<rt class="roma">mashi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>まし<rt class="roma">mashi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="trans-lyric">I was afraid, I was afraid, I was afraid</div>
+<div class="trans-lyric">I was afraid, I was afraid, I was afraid</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>愛想<rt class="furi">あいそ</rt><rt class="roma">aiso</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>人間<rt class="furi">にんげん</rt><rt class="roma">ningen</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
 </div>
+<div class="trans-lyric">I am nothing but a person of pleasantries</div>
+<div class="trans-lyric">I am nothing but a person of pleasantries</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>あぁ<rt class="roma">aa</rt></ruby> <ruby>こんな<rt class="roma">konna</rt></ruby> <ruby>こんな<rt class="roma">konna</rt></ruby> <ruby>こんな<rt class="roma">konna</rt></ruby>
 </div>
+<div class="trans-lyric">Ah, like this, like this, like this</div>
+<div class="trans-lyric">Ah, like this, like this, like this</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？ <ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
 </div>
+<div class="trans-lyric">Is it okay for me to live too, o world?</div>
 </div>
 
 <br />
@@ -114,30 +135,38 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 <ruby>これから<rt class="roma">korekara</rt></ruby> <ruby>ねぇ<rt class="roma">nee</rt></ruby> <ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby> <ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby> <ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby>
 </div>
+<div class="trans-lyric">From now on, hey, tomorrow, tomorrow, tomorrow</div>
+<div class="trans-lyric">From now on, hey, tomorrow, tomorrow, tomorrow</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ほんと<rt class="roma">honto</rt></ruby>
 </div>
+<div class="trans-lyric">I truly don't care about things like tomorrow and such</div>
+<div class="trans-lyric">I truly don't care about things like tomorrow and such</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ただ<rt class="roma">tada</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="trans-lyric">I just want to dance, dance, dance</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>場所<rt class="furi">ばしょ</rt><rt class="roma">basho</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="trans-lyric">With you, in this place</div>
+<div class="trans-lyric">With you, in this place</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>びら<rt class="roma">bira</rt></ruby><ruby>散<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="trans-lyric">Before the petals fall</div>
 </div>
 
 <br />
@@ -146,30 +175,35 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 <ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>作<rt class="furi">つく</rt><rt class="roma">tsuku</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>壁<rt class="furi">かべ</rt><rt class="roma">kabe</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="trans-lyric">I always barricaded myself behind a constructed self</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby>
 </div>
+<div class="trans-lyric">True words are always in my heart</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>濾<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">Filtering the person called you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>つめ<rt class="roma">tsume</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>追い越<rt class="furi">おいこ</rt><rt class="roma">oiko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">Surpassing the me who gazed</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>欲<rt class="furi">ほ</rt><rt class="roma">ho</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="trans-lyric">Wanting you to know the real me, you see</div>
 </div>
 
 <br />
@@ -178,6 +212,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 <ruby>でき<rt class="roma">deki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>理由<rt class="furi">りゆう</rt><rt class="roma">riyuu</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby>
 </div>
+<div class="trans-lyric">Only reasons I cannot</div>
 </div>
 
 <div class="lyric-line">
@@ -190,6 +225,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>距離<rt class="furi">きょり</rt><rt class="roma">kyori</rt></ruby>
 </div>
+<div class="trans-lyric">The distance between you and me</div>
 </div>
 
 <div class="lyric-line">
@@ -222,6 +258,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
 </div>
+<div class="trans-lyric">It's okay for me to live too, world</div>
 </div>
 
 <br />
@@ -242,6 +279,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 <ruby>でも<rt class="roma">demo</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="trans-lyric">But I want to dance, dance, dance</div>
 </div>
 
 <div class="lyric-line">
@@ -254,6 +292,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 <ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>びら<rt class="roma">bira</rt></ruby><ruby>舞<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="trans-lyric">Like petals dancing</div>
 </div>
 
 <br />

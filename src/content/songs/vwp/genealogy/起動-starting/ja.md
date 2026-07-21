@@ -38,7 +38,7 @@ image: /images/albums/vwp/inversion.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-NSAD12B 启动
+NSAD12B <ruby>启<rt class="furi">启</rt><rt class="roma">启</rt></ruby><ruby>动<rt class="furi">动</rt><rt class="roma">动</rt></ruby>
 </div>
 </div>
 
@@ -80,13 +80,13 @@ NSAD12B 启动
 
 <div class="lyric-line">
 <div class="jp-lyric">
-请说些什么
+<ruby>请<rt class="furi">请</rt><rt class="roma">请</rt></ruby><ruby>说<rt class="furi">说</rt><rt class="roma">说</rt></ruby><ruby>些<rt class="furi">些</rt><rt class="roma">些</rt></ruby><ruby>什<rt class="furi">什</rt><rt class="roma">什</rt></ruby><ruby>么<rt class="furi">么</rt><rt class="roma">么</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-已确认圣问
+<ruby>已<rt class="furi">已</rt><rt class="roma">已</rt></ruby><ruby>确<rt class="furi">确</rt><rt class="roma">确</rt></ruby><ruby>认<rt class="furi">认</rt><rt class="roma">认</rt></ruby><ruby>圣<rt class="furi">圣</rt><rt class="roma">圣</rt></ruby><ruby>问<rt class="furi">问</rt><rt class="roma">问</rt></ruby>
 </div>
 </div>
 
@@ -128,7 +128,7 @@ NSAD12B 启动
 
 <div class="lyric-line">
 <div class="jp-lyric">
-媞姬
+<ruby>媞<rt class="furi">媞</rt><rt class="roma">媞</rt></ruby><ruby>姬<rt class="furi">姬</rt><rt class="roma">姬</rt></ruby>
 </div>
 </div>
 
@@ -368,7 +368,7 @@ NSAD12B 启动
 
 <div class="lyric-line">
 <div class="jp-lyric">
-亲亲
+<ruby>亲<rt class="furi">亲</rt><rt class="roma">亲</rt></ruby><ruby>亲<rt class="furi">亲</rt><rt class="roma">亲</rt></ruby>
 </div>
 </div>
 
@@ -452,7 +452,7 @@ NSAD12B 启动
 
 <div class="lyric-line">
 <div class="jp-lyric">
-那么
+<ruby>那<rt class="furi">那</rt><rt class="roma">那</rt></ruby><ruby>么<rt class="furi">么</rt><rt class="roma">么</rt></ruby>
 </div>
 </div>
 
@@ -596,7 +596,7 @@ master<ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><rub
 
 <div class="lyric-line">
 <div class="jp-lyric">
-啊
+<ruby>啊<rt class="furi">啊</rt><rt class="roma">啊</rt></ruby>
 </div>
 </div>
 

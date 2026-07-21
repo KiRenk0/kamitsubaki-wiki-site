@@ -36,24 +36,30 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 Ashita moshi haretara
 </div>
+<div class="cn-lyric">明天如果放晴了</div>
+<div class="cn-lyric">明天如果放晴了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Hikoukigumo zenbu atsumete
 </div>
+<div class="cn-lyric">收集所有的航迹云</div>
+<div class="cn-lyric">收集所有的航迹云</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Kimi ga sumu sono machi ni
 </div>
+<div class="cn-lyric">在你居住的那座城市</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Todokeru yo owaranai uta wo
 </div>
+<div class="cn-lyric">将永不终结的歌送达</div>
 </div>
 
 <br />
@@ -62,24 +68,30 @@ Todokeru yo owaranai uta wo
 <div class="jp-lyric">
 Bokura wo tsunagu yo mugen ni hirogaru
 </div>
+<div class="cn-lyric">将我们相连 无限延伸</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Afureru omoi to jiyuuna sono basho
 </div>
+<div class="cn-lyric">满溢的思念与那自由之地</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Egakidasu kokoro won ni takushite
 </div>
+<div class="cn-lyric">描绘出的心灵 寄托于音符</div>
+<div class="cn-lyric">描绘出的心灵 寄托于音符</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Todoke ni iku yo kimi ga iru machi ni
 </div>
+<div class="cn-lyric">前往送达 到你所在的城市</div>
+<div class="cn-lyric">前往送达 到你所在的城市</div>
 </div>
 
 <br />
@@ -88,24 +100,28 @@ Todoke ni iku yo kimi ga iru machi ni
 <div class="jp-lyric">
 Mukaikaze ni fuka reta toki
 </div>
+<div class="cn-lyric">当被逆风吹袭之时</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Bokura wa itsumo tachidomaru
 </div>
+<div class="cn-lyric">我们总是停下脚步</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Owari wo kaite shimaunara
 </div>
+<div class="cn-lyric">如果写下结局的话</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Yumemita keshiki wa mou touzakatte shimau
 </div>
+<div class="cn-lyric">梦见的风景就会远去</div>
 </div>
 
 <br />
@@ -114,12 +130,15 @@ Yumemita keshiki wa mou touzakatte shimau
 <div class="jp-lyric">
 Bokura o tsunagu yo mugen ni hirogaru
 </div>
+<div class="cn-lyric">将我们相连 无限延伸</div>
+<div class="cn-lyric">将我们相连 无限延伸</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Afureru omoi to jiyuuna kono basho
 </div>
+<div class="cn-lyric">满溢的思念与这片自由之地</div>
 </div>
 
 <div class="lyric-line">
@@ -152,12 +171,14 @@ Hikoukigumo zenbu atsumete
 <div class="jp-lyric">
 Kimi ga sumu kono machi ni
 </div>
+<div class="cn-lyric">在你居住的这座城市</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Todokeru yo owaranai uta
 </div>
+<div class="cn-lyric">将永不终结的歌送达</div>
 </div>
 
 <br />
@@ -172,18 +193,21 @@ Bokura o tsunagu yo mugen ni hirogaru
 <div class="jp-lyric">
 Afureru omoi o kaki tsudzukeyou
 </div>
+<div class="cn-lyric">让我们继续书写满溢的思念</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Shirokuro no ashita irodzuite yuku
 </div>
+<div class="cn-lyric">黑白交织的明天 渐渐染上色彩</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Todoke tsudzukeru yakusoku no merodii
 </div>
+<div class="cn-lyric">持续送达的 约定的旋律</div>
 </div>
 
 </div>

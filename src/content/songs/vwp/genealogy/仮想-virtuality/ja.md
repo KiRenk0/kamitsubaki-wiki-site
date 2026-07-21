@@ -38,7 +38,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-词：喻弋
+<ruby>词<rt class="furi">词</rt><rt class="roma">词</rt></ruby>：<ruby>喻<rt class="furi">喻</rt><rt class="roma">喻</rt></ruby><ruby>弋<rt class="furi">弋</rt><rt class="roma">弋</rt></ruby>
 </div>
 </div>
 
@@ -146,7 +146,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-你总说
+<ruby>你<rt class="furi">你</rt><rt class="roma">你</rt></ruby><ruby>总<rt class="furi">总</rt><rt class="roma">总</rt></ruby><ruby>说<rt class="furi">说</rt><rt class="roma">说</rt></ruby>
 </div>
 </div>
 
@@ -170,7 +170,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-你说你难过
+<ruby>你<rt class="furi">你</rt><rt class="roma">你</rt></ruby><ruby>说<rt class="furi">说</rt><rt class="roma">说</rt></ruby><ruby>你<rt class="furi">你</rt><rt class="roma">你</rt></ruby><ruby>难<rt class="furi">难</rt><rt class="roma">难</rt></ruby><ruby>过<rt class="furi">过</rt><rt class="roma">过</rt></ruby>
 </div>
 </div>
 
@@ -272,7 +272,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-听风
+<ruby>听<rt class="furi">听</rt><rt class="roma">听</rt></ruby><ruby>风<rt class="furi">风</rt><rt class="roma">风</rt></ruby>
 </div>
 </div>
 
@@ -302,7 +302,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-让你难过
+<ruby>让<rt class="furi">让</rt><rt class="roma">让</rt></ruby><ruby>你<rt class="furi">你</rt><rt class="roma">你</rt></ruby><ruby>难<rt class="furi">难</rt><rt class="roma">难</rt></ruby><ruby>过<rt class="furi">过</rt><rt class="roma">过</rt></ruby>
 </div>
 </div>
 
@@ -362,7 +362,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-请别难过
+<ruby>请<rt class="furi">请</rt><rt class="roma">请</rt></ruby><ruby>别<rt class="furi">别</rt><rt class="roma">别</rt></ruby><ruby>难<rt class="furi">难</rt><rt class="roma">难</rt></ruby><ruby>过<rt class="furi">过</rt><rt class="roma">过</rt></ruby>
 </div>
 </div>
 

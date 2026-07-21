@@ -33,24 +33,28 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 There's a raging storm around us
 </div>
+<div class="trans-lyric">There's a raging storm around us</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Trying to tear us from the ground
 </div>
+<div class="trans-lyric">Trying to tear us from the ground</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 We can ride this wave together
 </div>
+<div class="trans-lyric">We can ride this wave together</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Until the thunder makes no sound
 </div>
+<div class="trans-lyric">Until the thunder makes no sound</div>
 </div>
 
 <br />
@@ -59,12 +63,19 @@ Until the thunder makes no sound
 <div class="jp-lyric">
 We are the new world
 </div>
+<div class="trans-lyric">We are the new world</div>
+<div class="trans-lyric">We are the new world</div>
+<div class="trans-lyric">We are the new world</div>
+<div class="trans-lyric">We are the new world</div>
+<div class="trans-lyric">We are the new world</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 We'll unite this world together
 </div>
+<div class="trans-lyric">We'll unite this world together</div>
+<div class="trans-lyric">We'll unite this world together</div>
 </div>
 
 <div class="lyric-line">
@@ -77,6 +88,9 @@ We are the new world
 <div class="jp-lyric">
 We'll put this fire out forever
 </div>
+<div class="trans-lyric">We'll put this fire out forever</div>
+<div class="trans-lyric">We'll put this fire out forever</div>
+<div class="trans-lyric">We'll put this fire out forever</div>
 </div>
 
 <br />
@@ -99,24 +113,28 @@ We'll put this fire out forever
 <div class="jp-lyric">
 We can make our own salvation
 </div>
+<div class="trans-lyric">We can make our own salvation</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 When there's a battle to be won
 </div>
+<div class="trans-lyric">When there's a battle to be won</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 We can end this fight forever
 </div>
+<div class="trans-lyric">We can end this fight forever</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Take the bullet from the gun
 </div>
+<div class="trans-lyric">Take the bullet from the gun</div>
 </div>
 
 <br />

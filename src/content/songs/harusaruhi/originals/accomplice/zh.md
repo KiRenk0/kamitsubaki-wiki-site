@@ -35,36 +35,43 @@ image: /images/songs/harusaruhi/single-1895909161.jpg
 <div class="jp-lyric">
 Speak your mind, let silence ring
 </div>
+<div class="cn-lyric">直言不讳，让寂静回响</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 'Cause there's nothing there
 </div>
+<div class="cn-lyric">因为那里空无一物</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 See yourself as a martyr of truth
 </div>
+<div class="cn-lyric">将自己视为真理的殉道者</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Blissfully unaware
 </div>
+<div class="cn-lyric">浑然不觉却幸福</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I am on your tail
 </div>
+<div class="cn-lyric">我紧跟在你身后</div>
+<div class="cn-lyric">我紧跟在你身后</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I will hunt you down
 </div>
+<div class="cn-lyric">我会追捕你到天涯海角</div>
 </div>
 
 <div class="lyric-line">
@@ -77,36 +84,42 @@ I am on your tail
 <div class="jp-lyric">
 On your fucking tail
 </div>
+<div class="cn-lyric">紧追着你的混账尾巴</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 With lives at stake
 </div>
+<div class="cn-lyric">生死攸关</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You spread your lies
 </div>
+<div class="cn-lyric">你散布你的谎言</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Why should I tolerate?
 </div>
+<div class="cn-lyric">我为何要容忍？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 No
 </div>
+<div class="cn-lyric">不</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You are nothing but an accomplice of death
 </div>
+<div class="cn-lyric">你不过是死亡的帮凶</div>
 </div>
 
 </div>

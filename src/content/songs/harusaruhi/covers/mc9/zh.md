@@ -35,24 +35,40 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 *Epic begining*
 </div>
+<div class="cn-lyric">*史诗般的开始*</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Hank hanking al over the place :)
 </div>
+<div class="cn-lyric">汉克到处晃悠 :)</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Shi sha uh
 </div>
+<div class="cn-lyric">嘶沙呃</div>
+<div class="cn-lyric">嘶沙呃</div>
+<div class="cn-lyric">嘶沙呃</div>
+<div class="cn-lyric">嘶沙呃</div>
+<div class="cn-lyric">嘶沙呃</div>
+<div class="cn-lyric">嘶沙呃</div>
+<div class="cn-lyric">嘶沙呃</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I ah ah ah
 </div>
+<div class="cn-lyric">啊哈哈</div>
+<div class="cn-lyric">啊哈哈</div>
+<div class="cn-lyric">啊哈哈</div>
+<div class="cn-lyric">啊哈哈</div>
+<div class="cn-lyric">啊哈哈</div>
+<div class="cn-lyric">啊哈哈</div>
+<div class="cn-lyric">啊哈哈</div>
 </div>
 
 <div class="lyric-line">

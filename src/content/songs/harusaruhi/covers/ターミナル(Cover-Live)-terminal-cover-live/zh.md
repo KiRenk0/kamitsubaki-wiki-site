@@ -35,12 +35,14 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 kidzuita nowa nakushita sono ato de
 </div>
+<div class="cn-lyric">察觉之时已在失去之后</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 furikaereba kaze ga naita
 </div>
+<div class="cn-lyric">回首四顾风在哭泣</div>
 </div>
 
 <br />
@@ -49,24 +51,30 @@ furikaereba kaze ga naita
 <div class="jp-lyric">
 kienai koe ga itsumademo mune ni
 </div>
+<div class="cn-lyric">永不消逝的声音 永远在心中</div>
+<div class="cn-lyric">永不消逝的声音 永远在心中</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 fureta matataiteiru
 </div>
+<div class="cn-lyric">触碰并闪烁</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 kousa shiteku koto no nai sen demo
 </div>
+<div class="cn-lyric">即使是没有交集的航线</div>
+<div class="cn-lyric">即使是没有交集的航线</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 itsuka, dokoka, tadoritsuku darou ka
 </div>
+<div class="cn-lyric">总有一天 会抵达某处吧</div>
 </div>
 
 <br />
@@ -75,24 +83,28 @@ itsuka, dokoka, tadoritsuku darou ka
 <div class="jp-lyric">
 kibou wa itsushika
 </div>
+<div class="cn-lyric">希望不知何时</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 risou to genjitsu toriatte
 </div>
+<div class="cn-lyric">理想与现实交织</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 dochira nimo somarenai boku wa
 </div>
+<div class="cn-lyric">无法染上任何一色的我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 hibi ni nomareta
 </div>
+<div class="cn-lyric">被时光吞噬</div>
 </div>
 
 <br />
@@ -101,6 +113,7 @@ hibi ni nomareta
 <div class="jp-lyric">
 tatoeba, ano toki kimi ga...
 </div>
+<div class="cn-lyric">比如 那时你曾...</div>
 </div>
 
 <br />
@@ -109,24 +122,28 @@ tatoeba, ano toki kimi ga...
 <div class="jp-lyric">
 kienai koe ga ima mo toikakeru boku o
 </div>
+<div class="cn-lyric">永不消逝的声音 至今仍在质问着我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 tamesu you ni
 </div>
+<div class="cn-lyric">仿佛在试探</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 sono kanjou ikitsuku saki niwa kimi ga
 </div>
+<div class="cn-lyric">那份情感抵达的尽头 有你在</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 nozomu mono ga aru noka, to
 </div>
+<div class="cn-lyric">是否有你所期望之物呢</div>
 </div>
 
 <br />
@@ -135,18 +152,21 @@ nozomu mono ga aru noka, to
 <div class="jp-lyric">
 kaze ga naida
 </div>
+<div class="cn-lyric">风在哭泣</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 tooku ni uta g aru
 </div>
+<div class="cn-lyric">远处有歌声</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 kimi ga kureta manazashi tomo ni
 </div>
+<div class="cn-lyric">与你给予的目光一同</div>
 </div>
 
 <br />
@@ -161,6 +181,7 @@ kienai koe ga itsumademo mune ni
 <div class="jp-lyric">
 furete matataiteiru
 </div>
+<div class="cn-lyric">触碰而闪烁</div>
 </div>
 
 <div class="lyric-line">
@@ -173,6 +194,7 @@ kousa shiteku koto no nai sen demo
 <div class="jp-lyric">
 itsuka, dokoka, tadoritsuku darou
 </div>
+<div class="cn-lyric">总有一天 会抵达某处吧</div>
 </div>
 
 </div>

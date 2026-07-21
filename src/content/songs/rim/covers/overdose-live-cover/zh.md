@@ -35,24 +35,28 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 Some people feel the void inside
 </div>
+<div class="cn-lyric">有些人感受到内心的空虚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 They try to fill the emptiness
 </div>
+<div class="cn-lyric">他们试图填补那份空虚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 With anything in touch or sight
 </div>
+<div class="cn-lyric">用任何触手可及或目之所及的事物</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 They try to ease the pain
 </div>
+<div class="cn-lyric">他们试图缓解痛苦</div>
 </div>
 
 <br />
@@ -61,12 +65,14 @@ They try to ease the pain
 <div class="jp-lyric">
 The void affects everyone
 </div>
+<div class="cn-lyric">空虚影响着每个人</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 But how we respond is up to us
 </div>
+<div class="cn-lyric">但如何回应取决于我们自己</div>
 </div>
 
 <br />
@@ -75,18 +81,21 @@ But how we respond is up to us
 <div class="jp-lyric">
 I can feel you now like a virus in my veins
 </div>
+<div class="cn-lyric">此刻我感受到你如同病毒在我血管中</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I want you more and more
 </div>
+<div class="cn-lyric">我越来越渴望你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Jesus you're my overdose
 </div>
+<div class="cn-lyric">耶稣啊，你是我的过剂量</div>
 </div>
 
 <br />
@@ -95,24 +104,28 @@ Jesus you're my overdose
 <div class="jp-lyric">
 People have sex and drink to death
 </div>
+<div class="cn-lyric">人们纵欲酗酒至死</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And some depend on drugs for peace
 </div>
+<div class="cn-lyric">有些人依赖毒品寻求平静</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 But nothing else can satisfy
 </div>
+<div class="cn-lyric">但没有什么能满足</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I think it's time for change
 </div>
+<div class="cn-lyric">我想是时候改变了</div>
 </div>
 
 </div>

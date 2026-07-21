@@ -35,36 +35,42 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 I'm sitting by the fire drinking wine
 </div>
+<div class="cn-lyric">我坐在炉火旁饮酒</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Staring at your portrait all the time
 </div>
+<div class="cn-lyric">一直凝视着你的画像</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I try to fade away
 </div>
+<div class="cn-lyric">我试图消逝</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I can hear your voice fly past my bedroom door
 </div>
+<div class="cn-lyric">我能听见你的声音飞过我的卧室门</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I can hear the rustling ofthe skirt you wore
 </div>
+<div class="cn-lyric">我能听见你裙子的沙沙声</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I whisper Nevermore
 </div>
+<div class="cn-lyric">我低语 永不复还</div>
 </div>
 
 <br />
@@ -73,30 +79,36 @@ I whisper Nevermore
 <div class="jp-lyric">
 Before you came the objects weren't for me
 </div>
+<div class="cn-lyric">你来之前 万物不属于我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You dressed them in names and meanings I could see
 </div>
+<div class="cn-lyric">你为它们披上名字与意义 我能看见</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 They're all undressed again
 </div>
+<div class="cn-lyric">它们又都褪去了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I-ah walk through the pouring rain
 </div>
+<div class="cn-lyric">我啊 行走在倾盆大雨中</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I walk the hills alone again
 </div>
+<div class="cn-lyric">我再次独行山丘</div>
+<div class="cn-lyric">我再次独行山丘</div>
 </div>
 
 <br />
@@ -105,6 +117,20 @@ I walk the hills alone again
 <div class="jp-lyric">
 They say Nevermore but I ah ah
 </div>
+<div class="cn-lyric">他们说永不复还 但我啊 啊</div>
+<div class="cn-lyric">他们说永不复还 但我啊 啊</div>
+<div class="cn-lyric">他们说永不复还 但我啊 啊</div>
+<div class="cn-lyric">他们说永不复还 但我啊 啊</div>
+<div class="cn-lyric">他们说永不复还 但我啊 啊</div>
+<div class="cn-lyric">他们说永不复还 但我啊 啊</div>
+<div class="cn-lyric">他们说永不复还 但我啊 啊</div>
+<div class="cn-lyric">他们说永不复还 但我啊 啊</div>
+<div class="cn-lyric">他们说永不复还 但我啊 啊</div>
+<div class="cn-lyric">他们说永不复还 但我啊 啊</div>
+<div class="cn-lyric">他们说永不复还 但我啊 啊</div>
+<div class="cn-lyric">他们说永不复还 但我啊 啊</div>
+<div class="cn-lyric">他们说永不复还 但我啊 啊</div>
+<div class="cn-lyric">他们说永不复还 但我啊 啊</div>
 </div>
 
 <div class="lyric-line">
@@ -117,12 +143,21 @@ They say Nevermore but I ah ah
 <div class="jp-lyric">
 They say Nevermore but I'm not sure
 </div>
+<div class="cn-lyric">他们说永不复还 但我不确定</div>
+<div class="cn-lyric">他们说永不复还 但我不确定</div>
+<div class="cn-lyric">他们说永不复还 但我不确定</div>
+<div class="cn-lyric">他们说永不复还 但我不确定</div>
+<div class="cn-lyric">他们说永不复还 但我不确定</div>
+<div class="cn-lyric">他们说永不复还 但我不确定</div>
+<div class="cn-lyric">他们说永不复还 但我不确定</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I could feel you were here before
 </div>
+<div class="cn-lyric">我能感觉到你曾在此</div>
+<div class="cn-lyric">我能感觉到你曾在此</div>
 </div>
 
 <br />
@@ -149,6 +184,11 @@ They say Nevermore but I'm not sure
 <div class="jp-lyric">
 Oh please give me the sign I am waiting for
 </div>
+<div class="cn-lyric">哦请给我 我等待的迹象</div>
+<div class="cn-lyric">哦请给我 我等待的迹象</div>
+<div class="cn-lyric">哦请给我 我等待的迹象</div>
+<div class="cn-lyric">哦请给我 我等待的迹象</div>
+<div class="cn-lyric">哦请给我 我等待的迹象</div>
 </div>
 
 <br />
@@ -157,6 +197,10 @@ Oh please give me the sign I am waiting for
 <div class="jp-lyric">
 'Cause I am falling down
 </div>
+<div class="cn-lyric">因为我正在坠落</div>
+<div class="cn-lyric">因为我正在坠落</div>
+<div class="cn-lyric">因为我正在坠落</div>
+<div class="cn-lyric">因为我正在坠落</div>
 </div>
 
 <div class="lyric-line">
@@ -197,18 +241,21 @@ Oh please give me the sign I am waiting for
 <div class="jp-lyric">
 There's no more music pouring through these castle halls
 </div>
+<div class="cn-lyric">再无音乐流淌过这些城堡大厅</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Without your light it is so cold between these walls
 </div>
+<div class="cn-lyric">没有你的光芒 这墙内如此寒冷</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You said: &quot;don't be afraid&quot;
 </div>
+<div class="cn-lyric">你说：“不要害怕”</div>
 </div>
 
 <br />
@@ -217,6 +264,7 @@ You said: &quot;don't be afraid&quot;
 <div class="jp-lyric">
 But I ah walk through the pouring rain
 </div>
+<div class="cn-lyric">但我啊 行走在倾盆大雨中</div>
 </div>
 
 <div class="lyric-line">
@@ -347,6 +395,8 @@ Oh please give me the sign I am waiting for
 <div class="jp-lyric">
 Give me the sign I am waiting for
 </div>
+<div class="cn-lyric">给我 我等待的迹象</div>
+<div class="cn-lyric">给我 我等待的迹象</div>
 </div>
 
 <div class="lyric-line">

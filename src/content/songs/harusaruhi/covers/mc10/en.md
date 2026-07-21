@@ -35,24 +35,28 @@ MC10 appears on CREAM PUFF LIVE 2 or a related official release. Entries are ver
 <div class="jp-lyric">
 A melancholy state of mind
 </div>
+<div class="trans-lyric">A melancholy state of mind</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Psychic irritation
 </div>
+<div class="trans-lyric">Psychic irritation</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 A walk on caribbean shores
 </div>
+<div class="trans-lyric">A walk on caribbean shores</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 A little tantrication
 </div>
+<div class="trans-lyric">A little tantrication</div>
 </div>
 
 <br />
@@ -61,24 +65,29 @@ A little tantrication
 <div class="jp-lyric">
 Curvature of flesh, oh oh
 </div>
+<div class="trans-lyric">Curvature of flesh, oh oh</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Exotic friendly faces
 </div>
+<div class="trans-lyric">Exotic friendly faces</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Surprised to find you feel at home
 </div>
+<div class="trans-lyric">Surprised to find you feel at home</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Come on, come on and find a smile
 </div>
+<div class="trans-lyric">Come on, come on and find a smile</div>
+<div class="trans-lyric">Come on, come on and find a smile</div>
 </div>
 
 <br />
@@ -87,6 +96,9 @@ Come on, come on and find a smile
 <div class="jp-lyric">
 Confusion!
 </div>
+<div class="trans-lyric">Confusion!</div>
+<div class="trans-lyric">Confusion!</div>
+<div class="trans-lyric">Confusion!</div>
 </div>
 
 <br />
@@ -95,48 +107,57 @@ Confusion!
 <div class="jp-lyric">
 You kill my lice
 </div>
+<div class="trans-lyric">You kill my lice</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You flash a bra
 </div>
+<div class="trans-lyric">You flash a bra</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You lick it nice
 </div>
+<div class="trans-lyric">You lick it nice</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You shootin' star
 </div>
+<div class="trans-lyric">You shootin' star</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You lose your pants
 </div>
+<div class="trans-lyric">You lose your pants</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You crush a man
 </div>
+<div class="trans-lyric">You crush a man</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You run it up
 </div>
+<div class="trans-lyric">You run it up</div>
+<div class="trans-lyric">You run it up</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You're my favourite
 </div>
+<div class="trans-lyric">You're my favourite</div>
 </div>
 
 <br />
@@ -145,24 +166,28 @@ You're my favourite
 <div class="jp-lyric">
 Girl, I gotta tell ya that you're on the telly
 </div>
+<div class="trans-lyric">Girl, I gotta tell ya that you're on the telly</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And you're on tonight - yeah, I wanna sell ya
 </div>
+<div class="trans-lyric">And you're on tonight - yeah, I wanna sell ya</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Thatcher ronny roger melly on the right
 </div>
+<div class="trans-lyric">Thatcher ronny roger melly on the right</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [Repeat]
 </div>
+<div class="trans-lyric">[Repeat]</div>
 </div>
 
 <br />
@@ -179,36 +204,42 @@ Confusion!
 <div class="jp-lyric">
 You love my beard
 </div>
+<div class="trans-lyric">You love my beard</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You trick a spy
 </div>
+<div class="trans-lyric">You trick a spy</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You melt a gun
 </div>
+<div class="trans-lyric">You melt a gun</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You eat a fly
 </div>
+<div class="trans-lyric">You eat a fly</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You find your pants
 </div>
+<div class="trans-lyric">You find your pants</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You understand
 </div>
+<div class="trans-lyric">You understand</div>
 </div>
 
 <div class="lyric-line">
@@ -221,12 +252,15 @@ You run it up
 <div class="jp-lyric">
 You are my favourite
 </div>
+<div class="trans-lyric">You are my favourite</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Girl, I gotta tell ya...
 </div>
+<div class="trans-lyric">Girl, I gotta tell ya...</div>
+<div class="trans-lyric">Girl, I gotta tell ya...</div>
 </div>
 
 <br />
@@ -243,24 +277,28 @@ Confusion!
 <div class="jp-lyric">
 A melody a beat a groan
 </div>
+<div class="trans-lyric">A melody a beat a groan</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Free of limitation
 </div>
+<div class="trans-lyric">Free of limitation</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The weight of all the things you own
 </div>
+<div class="trans-lyric">The weight of all the things you own</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 So what?!
 </div>
+<div class="trans-lyric">So what?!</div>
 </div>
 
 <br />
@@ -269,18 +307,21 @@ So what?!
 <div class="jp-lyric">
 Fire on the beach at dawn
 </div>
+<div class="trans-lyric">Fire on the beach at dawn</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 With dancer and her sisters
 </div>
+<div class="trans-lyric">With dancer and her sisters</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Clothes are off, the water's warm
 </div>
+<div class="trans-lyric">Clothes are off, the water's warm</div>
 </div>
 
 <div class="lyric-line">

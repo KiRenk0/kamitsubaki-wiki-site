@@ -35,12 +35,18 @@ Lullaby appears on prayer2 or a related official release. Entries are version-sp
 <div class="jp-lyric">
 <ruby>ララバイラーラバイ<rt class="roma">rarabairaarabai</rt></ruby>
 </div>
+<div class="trans-lyric">Lullaby, lullaby</div>
+<div class="trans-lyric">Lullaby, lullaby</div>
+<div class="trans-lyric">Lullaby, lullaby</div>
+<div class="trans-lyric">Lullaby, lullaby</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>お<rt class="roma">o</rt></ruby><ruby>休<rt class="furi">やす</rt><rt class="roma">yasu</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>ラーラバイ<rt class="roma">raarabai</rt></ruby>
 </div>
+<div class="trans-lyric">Good night, lullaby</div>
+<div class="trans-lyric">Good night, lullaby</div>
 </div>
 
 <div class="lyric-line">
@@ -53,12 +59,20 @@ Lullaby appears on prayer2 or a related official release. Entries are version-sp
 <div class="jp-lyric">
 <ruby>グッナイ<rt class="roma">gunai</rt></ruby> <ruby>ラーラバイ<rt class="roma">raarabai</rt></ruby> Yeah!
 </div>
+<div class="trans-lyric">Good night, lullaby, Yeah!</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 (Get on it)
 </div>
+<div class="trans-lyric">(Get on it)</div>
+<div class="trans-lyric">(Get on it)</div>
+<div class="trans-lyric">(Get on it)</div>
+<div class="trans-lyric">(Get on it)</div>
+<div class="trans-lyric">(Get on it)</div>
+<div class="trans-lyric">(Get on it)</div>
+<div class="trans-lyric">(Get on it)</div>
 </div>
 
 <div class="lyric-line">
@@ -83,6 +97,9 @@ Lullaby appears on prayer2 or a related official release. Entries are version-sp
 <div class="jp-lyric">
 (yeah!)
 </div>
+<div class="trans-lyric">(yeah!)</div>
+<div class="trans-lyric">(yeah!)</div>
+<div class="trans-lyric">(yeah!)</div>
 </div>
 
 <div class="lyric-line">
@@ -127,6 +144,7 @@ Lullaby appears on prayer2 or a related official release. Entries are version-sp
 <div class="jp-lyric">
 <ruby>グッナイ<rt class="roma">gunai</rt></ruby> <ruby>ラララ<rt class="roma">rarara</rt></ruby> Yeah!
 </div>
+<div class="trans-lyric">Good night, la la la, Yeah!</div>
 </div>
 
 <br />
@@ -151,6 +169,7 @@ Lullaby appears on prayer2 or a related official release. Entries are version-sp
 <div class="jp-lyric">
 <ruby>おやすみなさい<rt class="roma">oyasuminasai</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="trans-lyric">Goodnight, you know.</div>
 </div>
 
 </div>

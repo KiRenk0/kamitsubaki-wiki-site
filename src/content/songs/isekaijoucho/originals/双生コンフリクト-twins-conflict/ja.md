@@ -129,13 +129,13 @@ image: /images/songs/isekaijoucho/single-1760084629.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
+<ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby> <ruby>・<rt class="roma">/</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby> <ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby> <ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby> <ruby>・<rt class="roma">/</rt></ruby> <ruby>ー<rt class="roma">-</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby> <ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby> <ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
+<ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby> <ruby>・<rt class="roma">/</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby> <ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby> <ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby> <ruby>・<rt class="roma">/</rt></ruby> <ruby>ー<rt class="roma">-</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby> <ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby> <ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby>
 </div>
 </div>
 
@@ -171,13 +171,13 @@ image: /images/songs/isekaijoucho/single-1760084629.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
+<ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby> <ruby>・<rt class="roma">/</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby> <ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby> <ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby> <ruby>・<rt class="roma">/</rt></ruby> <ruby>ー<rt class="roma">-</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby> <ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby> <ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
+<ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby> <ruby>・<rt class="roma">/</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby> <ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby> <ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby> <ruby>・<rt class="roma">/</rt></ruby> <ruby>ー<rt class="roma">-</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby> <ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby> <ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby>
 </div>
 </div>
 
@@ -189,13 +189,13 @@ image: /images/songs/isekaijoucho/single-1760084629.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
+<ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby> <ruby>・<rt class="roma">/</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby> <ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby> <ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby> <ruby>・<rt class="roma">/</rt></ruby> <ruby>ー<rt class="roma">-</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby> <ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby> <ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
+<ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby> <ruby>・<rt class="roma">/</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby> <ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby> <ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby> <ruby>・<rt class="roma">/</rt></ruby> <ruby>ー<rt class="roma">-</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby> <ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby> <ruby>・<rt class="roma">/</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby>
 </div>
 </div>
 

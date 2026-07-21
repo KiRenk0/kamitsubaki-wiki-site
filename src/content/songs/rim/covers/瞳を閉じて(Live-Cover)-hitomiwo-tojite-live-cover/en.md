@@ -35,72 +35,87 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 <ruby>作<rt class="furi">さく</rt><rt class="roma">saku</rt></ruby>词：<ruby>松井<rt class="furi">まつい</rt><rt class="roma">matsui</rt></ruby><ruby>五郎<rt class="furi">ごろう</rt><rt class="roma">gorou</rt></ruby>
 </div>
+<div class="trans-lyric">Lyrics: Goro Matsui</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>作曲<rt class="furi">さっきょく</rt><rt class="roma">sakkyoku</rt></ruby>：<ruby>玉置<rt class="furi">たまき</rt><rt class="roma">tamaki</rt></ruby><ruby>浩二<rt class="furi">こうじ</rt><rt class="roma">kouji</rt></ruby>
 </div>
+<div class="trans-lyric">Composer: Koji Tamaki</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>原<rt class="furi">はら</rt><rt class="roma">hara</rt></ruby>唱：<ruby>玉置<rt class="furi">たまき</rt><rt class="roma">tamaki</rt></ruby><ruby>浩二<rt class="furi">こうじ</rt><rt class="roma">kouji</rt></ruby>
 </div>
+<div class="trans-lyric">Original singer: Koji Tamaki</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 演唱：杨<ruby>子<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby>为
 </div>
+<div class="trans-lyric">Singer: Yang Ziwei</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">Hold me close, hold me close</div>
+<div class="trans-lyric">Hold me close, hold me close</div>
+<div class="trans-lyric">Hold me close, hold me close</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>瞳<rt class="furi">ひとみ</rt><rt class="roma">hitomi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>閉<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">Close your eyes</div>
+<div class="trans-lyric">Close your eyes</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>安<rt class="furi">やす</rt><rt class="roma">yasu</rt></ruby><ruby>らか<rt class="roma">raka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+<div class="trans-lyric">Peaceful as if to disappear</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>想い出<rt class="furi">おもいで</rt><rt class="roma">omoide</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="trans-lyric">I want to see the wind in memories</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>やさしい<rt class="roma">yasashii</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+<div class="trans-lyric">Your gentle voice</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>きこえ<rt class="roma">kikoe</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
+<div class="trans-lyric">I can hear it</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>は<rt class="roma">ha</rt></ruby><ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+<div class="trans-lyric">Actually, someone</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>そば<rt class="roma">soba</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="trans-lyric">Was always by my side</div>
 </div>
 
 <div class="lyric-line">
@@ -113,42 +128,49 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 <ruby>ひとり<rt class="roma">hitori</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="trans-lyric">In my solitude</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ふれあえ<rt class="roma">fureae</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>なくし<rt class="roma">nakushi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
+<div class="trans-lyric">When we touch, we lose</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ときめき<rt class="roma">tokimeki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こたえ<rt class="roma">kotae</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby>
 </div>
+<div class="trans-lyric">There is an answer to the heartbeat</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>さみしい<rt class="roma">samishii</rt></ruby><ruby>わけ<rt class="roma">wake</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="trans-lyric">The reason for my loneliness</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>教<rt class="furi">おし</rt><rt class="roma">oshi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="trans-lyric">You taught me</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>涙<rt class="furi">なみだ</rt><rt class="roma">namida</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>かわい<rt class="roma">kawai</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>あと<rt class="roma">ato</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="trans-lyric">The trace of dried tears</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">I won't forget</div>
 </div>
 
 <div class="lyric-line">
@@ -167,12 +189,14 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="trans-lyric">Your heart</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>あたため<rt class="roma">atatame</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+<div class="trans-lyric">If I could warm it</div>
 </div>
 
 </div>

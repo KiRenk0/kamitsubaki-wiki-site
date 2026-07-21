@@ -32,42 +32,49 @@ image: /images/songs/kaf/track-1817085907.jpg
 <div class="jp-lyric">
 I can't explain the reason why the love I had is gone
 </div>
+<div class="trans-lyric">I can't explain the reason why the love I had is gone</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 My heart has lost all feeling, I've been crying too long
 </div>
+<div class="trans-lyric">My heart has lost all feeling, I've been crying too long</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Can't even think no more. I can't feel or see my skin
 </div>
+<div class="trans-lyric">Can't even think no more. I can't feel or see my skin</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Lost in a world of sorrow, can't ignore the pain
 </div>
+<div class="trans-lyric">Lost in a world of sorrow, can't ignore the pain</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Surely someone other than me must have been to blame
 </div>
+<div class="trans-lyric">Surely someone other than me must have been to blame</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It's crazy that I never knew it all
 </div>
+<div class="trans-lyric">It's crazy that I never knew it all</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Could fade away
 </div>
+<div class="trans-lyric">Could fade away</div>
 </div>
 
 <br />
@@ -76,42 +83,49 @@ Could fade away
 <div class="jp-lyric">
 All our hopes and dreams, what did they mean?
 </div>
+<div class="trans-lyric">All our hopes and dreams, what did they mean?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 All those things we did weren't as they seemed
 </div>
+<div class="trans-lyric">All those things we did weren't as they seemed</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And the past, out there, it waits for us
 </div>
+<div class="trans-lyric">And the past, out there, it waits for us</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Teeth shining in the dark, waiting for us
 </div>
+<div class="trans-lyric">Teeth shining in the dark, waiting for us</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 All of my sorrow, all my loneliness, if they were gone
 </div>
+<div class="trans-lyric">All of my sorrow, all my loneliness, if they were gone</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 When the night dies in the dark
 </div>
+<div class="trans-lyric">When the night dies in the dark</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I'd dream of you instead of singing this song
 </div>
+<div class="trans-lyric">I'd dream of you instead of singing this song</div>
 </div>
 
 <br />
@@ -120,48 +134,56 @@ I'd dream of you instead of singing this song
 <div class="jp-lyric">
 Searching for your smile, if I knew it could be found
 </div>
+<div class="trans-lyric">Searching for your smile, if I knew it could be found</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I wouldn't give it up, I wouldn't have drowned
 </div>
+<div class="trans-lyric">I wouldn't give it up, I wouldn't have drowned</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Remembering the words you say in every conversation
 </div>
+<div class="trans-lyric">Remembering the words you say in every conversation</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The only way to cure the pain, the suffering
 </div>
+<div class="trans-lyric">The only way to cure the pain, the suffering</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Now, I only focus on the reason that I'm living
 </div>
+<div class="trans-lyric">Now, I only focus on the reason that I'm living</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I always knew that kindness wasn't like it seemed
 </div>
+<div class="trans-lyric">I always knew that kindness wasn't like it seemed</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 So, if you see me smiling every time I see you crying
 </div>
+<div class="trans-lyric">So, if you see me smiling every time I see you crying</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 At last, you'll understand I don't know what shame means
 </div>
+<div class="trans-lyric">At last, you'll understand I don't know what shame means</div>
 </div>
 
 <br />
@@ -170,24 +192,30 @@ At last, you'll understand I don't know what shame means
 <div class="jp-lyric">
 Melodies of a nightingale
 </div>
+<div class="trans-lyric">Melodies of a nightingale</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 As I tear apart my college diploma
 </div>
+<div class="trans-lyric">As I tear apart my college diploma</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Rising up, and to the stars they sail
 </div>
+<div class="trans-lyric">Rising up, and to the stars they sail</div>
+<div class="trans-lyric">Rising up, and to the stars they sail</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Eating up the memory of the past
 </div>
+<div class="trans-lyric">Eating up the memory of the past</div>
+<div class="trans-lyric">Eating up the memory of the past</div>
 </div>
 
 <br />
@@ -196,54 +224,63 @@ Eating up the memory of the past
 <div class="jp-lyric">
 Call it a phase, all this rage that we're feeling
 </div>
+<div class="trans-lyric">Call it a phase, all this rage that we're feeling</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Got us seeing that revenge is the way
 </div>
+<div class="trans-lyric">Got us seeing that revenge is the way</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Let the adults sing
 </div>
+<div class="trans-lyric">Let the adults sing</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Even though the thought is so empty
 </div>
+<div class="trans-lyric">Even though the thought is so empty</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 They just like the fact that they're singing
 </div>
+<div class="trans-lyric">They just like the fact that they're singing</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 With a hollowed-out soul, with the strength of youth
 </div>
+<div class="trans-lyric">With a hollowed-out soul, with the strength of youth</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And I realize that my nails are coming loose
 </div>
+<div class="trans-lyric">And I realize that my nails are coming loose</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I forgot the reason why I liked
 </div>
+<div class="trans-lyric">I forgot the reason why I liked</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The rain or why I liked my favorite song
 </div>
+<div class="trans-lyric">The rain or why I liked my favorite song</div>
 </div>
 
 <br />
@@ -252,24 +289,28 @@ The rain or why I liked my favorite song
 <div class="jp-lyric">
 Everything revolving in my heart, in my mind
 </div>
+<div class="trans-lyric">Everything revolving in my heart, in my mind</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Missing all the people and the times gone by
 </div>
+<div class="trans-lyric">Missing all the people and the times gone by</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 But there's one feeling that I can't forget
 </div>
+<div class="trans-lyric">But there's one feeling that I can't forget</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 After all, I'm thinking about you
 </div>
+<div class="trans-lyric">After all, I'm thinking about you</div>
 </div>
 
 <br />
@@ -278,42 +319,49 @@ After all, I'm thinking about you
 <div class="jp-lyric">
 We meet up in the city, just imagine for a second
 </div>
+<div class="trans-lyric">We meet up in the city, just imagine for a second</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 A dreamlike conversation, building each and every sentence
 </div>
+<div class="trans-lyric">A dreamlike conversation, building each and every sentence</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Would you understand me? Just smiling and laughing
 </div>
+<div class="trans-lyric">Would you understand me? Just smiling and laughing</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Imagine you and me, inside a screen, meeting up
 </div>
+<div class="trans-lyric">Imagine you and me, inside a screen, meeting up</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Remembering the memories, regrets, and all the pain
 </div>
+<div class="trans-lyric">Remembering the memories, regrets, and all the pain</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Even now, I still love you
 </div>
+<div class="trans-lyric">Even now, I still love you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And if I could, I would just do it all again
 </div>
+<div class="trans-lyric">And if I could, I would just do it all again</div>
 </div>
 
 <br />
@@ -322,48 +370,56 @@ And if I could, I would just do it all again
 <div class="jp-lyric">
 If I could bear to be a grown-up adult
 </div>
+<div class="trans-lyric">If I could bear to be a grown-up adult</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The sadness and the bruises would just fade away
 </div>
+<div class="trans-lyric">The sadness and the bruises would just fade away</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And finally, we understand the words that really matter
 </div>
+<div class="trans-lyric">And finally, we understand the words that really matter</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The tears on my face would just dry away
 </div>
+<div class="trans-lyric">The tears on my face would just dry away</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Do you know you spin my mind into a spiral pattern
 </div>
+<div class="trans-lyric">Do you know you spin my mind into a spiral pattern</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Can't take another day, can't take another morning light
 </div>
+<div class="trans-lyric">Can't take another day, can't take another morning light</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The thought of growing up scared me away
 </div>
+<div class="trans-lyric">The thought of growing up scared me away</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The thought of getting tough had me afraid
 </div>
+<div class="trans-lyric">The thought of getting tough had me afraid</div>
 </div>
 
 <br />
@@ -372,12 +428,14 @@ The thought of getting tough had me afraid
 <div class="jp-lyric">
 The melody of a nightingale
 </div>
+<div class="trans-lyric">The melody of a nightingale</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 My uniform turns into a piece of trash
 </div>
+<div class="trans-lyric">My uniform turns into a piece of trash</div>
 </div>
 
 <div class="lyric-line">

@@ -39,7 +39,7 @@ image: /images/songs/koko/single-1809943180.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-词：TKT
+<ruby>词<rt class="furi">词</rt><rt class="roma">词</rt></ruby>：TKT
 </div>
 </div>
 

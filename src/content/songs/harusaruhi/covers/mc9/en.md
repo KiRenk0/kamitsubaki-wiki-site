@@ -35,24 +35,40 @@ MC9 appears on CREAM PUFF LIVE 2 or a related official release. Entries are vers
 <div class="jp-lyric">
 *Epic begining*
 </div>
+<div class="trans-lyric">*Epic beginning*</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Hank hanking al over the place :)
 </div>
+<div class="trans-lyric">Hank hanking all over the place :)</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Shi sha uh
 </div>
+<div class="trans-lyric">Shi sha uh</div>
+<div class="trans-lyric">Shi sha uh</div>
+<div class="trans-lyric">Shi sha uh</div>
+<div class="trans-lyric">Shi sha uh</div>
+<div class="trans-lyric">Shi sha uh</div>
+<div class="trans-lyric">Shi sha uh</div>
+<div class="trans-lyric">Shi sha uh</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I ah ah ah
 </div>
+<div class="trans-lyric">I ah ah ah</div>
+<div class="trans-lyric">I ah ah ah</div>
+<div class="trans-lyric">I ah ah ah</div>
+<div class="trans-lyric">I ah ah ah</div>
+<div class="trans-lyric">I ah ah ah</div>
+<div class="trans-lyric">I ah ah ah</div>
+<div class="trans-lyric">I ah ah ah</div>
 </div>
 
 <div class="lyric-line">

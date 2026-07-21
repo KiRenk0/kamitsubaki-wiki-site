@@ -35,12 +35,14 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 kidzuita nowa nakushita sono ato de
 </div>
+<div class="trans-lyric">I realized it only after I had lost it</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 furikaereba kaze ga naita
 </div>
+<div class="trans-lyric">When I looked back, the wind was crying</div>
 </div>
 
 <br />
@@ -49,24 +51,30 @@ furikaereba kaze ga naita
 <div class="jp-lyric">
 kienai koe ga itsumademo mune ni
 </div>
+<div class="trans-lyric">A voice that won't vanish, forever in my heart</div>
+<div class="trans-lyric">A voice that won't vanish, forever in my heart</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 fureta matataiteiru
 </div>
+<div class="trans-lyric">Touched and flickering</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 kousa shiteku koto no nai sen demo
 </div>
+<div class="trans-lyric">Even on lines that will never intersect</div>
+<div class="trans-lyric">Even on lines that will never intersect</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 itsuka, dokoka, tadoritsuku darou ka
 </div>
+<div class="trans-lyric">Someday, somewhere, will I ever reach?</div>
 </div>
 
 <br />
@@ -75,24 +83,28 @@ itsuka, dokoka, tadoritsuku darou ka
 <div class="jp-lyric">
 kibou wa itsushika
 </div>
+<div class="trans-lyric">Hope, before I knew it</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 risou to genjitsu toriatte
 </div>
+<div class="trans-lyric">Intertwining ideals and reality</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 dochira nimo somarenai boku wa
 </div>
+<div class="trans-lyric">I, dyed by neither side</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 hibi ni nomareta
 </div>
+<div class="trans-lyric">Was swallowed by the days</div>
 </div>
 
 <br />
@@ -101,6 +113,7 @@ hibi ni nomareta
 <div class="jp-lyric">
 tatoeba, ano toki kimi ga...
 </div>
+<div class="trans-lyric">For example, if at that time you...</div>
 </div>
 
 <br />
@@ -109,24 +122,28 @@ tatoeba, ano toki kimi ga...
 <div class="jp-lyric">
 kienai koe ga ima mo toikakeru boku o
 </div>
+<div class="trans-lyric">A voice that won't fade even now questions me</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 tamesu you ni
 </div>
+<div class="trans-lyric">As if to test</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 sono kanjou ikitsuku saki niwa kimi ga
 </div>
+<div class="trans-lyric">At the end of that feeling, you are</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 nozomu mono ga aru noka, to
 </div>
+<div class="trans-lyric">Is there something you desire?</div>
 </div>
 
 <br />
@@ -135,18 +152,21 @@ nozomu mono ga aru noka, to
 <div class="jp-lyric">
 kaze ga naida
 </div>
+<div class="trans-lyric">The wind cried</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 tooku ni uta g aru
 </div>
+<div class="trans-lyric">There is a song in the distance</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 kimi ga kureta manazashi tomo ni
 </div>
+<div class="trans-lyric">Together with the gaze you gave me</div>
 </div>
 
 <br />
@@ -161,6 +181,7 @@ kienai koe ga itsumademo mune ni
 <div class="jp-lyric">
 furete matataiteiru
 </div>
+<div class="trans-lyric">Touched and flickering</div>
 </div>
 
 <div class="lyric-line">
@@ -173,6 +194,7 @@ kousa shiteku koto no nai sen demo
 <div class="jp-lyric">
 itsuka, dokoka, tadoritsuku darou
 </div>
+<div class="trans-lyric">Someday, somewhere, I will reach</div>
 </div>
 
 </div>

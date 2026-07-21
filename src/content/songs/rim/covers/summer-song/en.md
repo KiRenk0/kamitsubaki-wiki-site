@@ -35,48 +35,59 @@ SUMMER SONG appears on CHOCOLATE LIVE2 or a related official release. Entries ar
 <div class="jp-lyric">
 There is nothing like the
 </div>
+<div class="trans-lyric">There is nothing like the</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Smell of a summer breeze
 </div>
+<div class="trans-lyric">Smell of a summer breeze</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Nothing like the chill from
 </div>
+<div class="trans-lyric">Nothing like the chill from</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The shadow of a shady tree
 </div>
+<div class="trans-lyric">The shadow of a shady tree</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Gonna go down to the river
 </div>
+<div class="trans-lyric">Gonna go down to the river</div>
+<div class="trans-lyric">Gonna go down to the river</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Gonna go down make it right
 </div>
+<div class="trans-lyric">Gonna go down make it right</div>
+<div class="trans-lyric">Gonna go down make it right</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And send all my love to your maker
 </div>
+<div class="trans-lyric">And send all my love to your maker</div>
+<div class="trans-lyric">And send all my love to your maker</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 For making you right
 </div>
+<div class="trans-lyric">For making you right</div>
 </div>
 
 <br />
@@ -85,24 +96,36 @@ For making you right
 <div class="jp-lyric">
 Are you ready for a new day, a new day
 </div>
+<div class="trans-lyric">Are you ready for a new day, a new day</div>
+<div class="trans-lyric">Are you ready for a new day, a new day</div>
+<div class="trans-lyric">Are you ready for a new day, a new day</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Blow me a kiss and send it straight to the sun
 </div>
+<div class="trans-lyric">Blow me a kiss and send it straight to the sun</div>
+<div class="trans-lyric">Blow me a kiss and send it straight to the sun</div>
+<div class="trans-lyric">Blow me a kiss and send it straight to the sun</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And if you want to take it my way, my way
 </div>
+<div class="trans-lyric">And if you want to take it my way, my way</div>
+<div class="trans-lyric">And if you want to take it my way, my way</div>
+<div class="trans-lyric">And if you want to take it my way, my way</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Then this could be our summer song
 </div>
+<div class="trans-lyric">Then this could be our summer song</div>
+<div class="trans-lyric">Then this could be our summer song</div>
+<div class="trans-lyric">Then this could be our summer song</div>
 </div>
 
 <br />
@@ -111,24 +134,28 @@ Then this could be our summer song
 <div class="jp-lyric">
 There's nothing like the
 </div>
+<div class="trans-lyric">There's nothing like the</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Way that you say your on my side
 </div>
+<div class="trans-lyric">Way that you say your on my side</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And I want to know that
 </div>
+<div class="trans-lyric">And I want to know that</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Words help me days go by
 </div>
+<div class="trans-lyric">Words help me days go by</div>
 </div>
 
 <div class="lyric-line">
@@ -153,6 +180,7 @@ And send all my love to your maker
 <div class="jp-lyric">
 Ffor making you right
 </div>
+<div class="trans-lyric">Ffor making you right</div>
 </div>
 
 <br />
@@ -187,48 +215,56 @@ Then this could be our summer song
 <div class="jp-lyric">
 Let me make you understand
 </div>
+<div class="trans-lyric">Let me make you understand</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Just take me by the hand
 </div>
+<div class="trans-lyric">Just take me by the hand</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Let me show you all i can
 </div>
+<div class="trans-lyric">Let me show you all i can</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And be your only man
 </div>
+<div class="trans-lyric">And be your only man</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 If I could only make you see
 </div>
+<div class="trans-lyric">If I could only make you see</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Just what you mean to me
 </div>
+<div class="trans-lyric">Just what you mean to me</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You know it won't be to long
 </div>
+<div class="trans-lyric">You know it won't be to long</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Till we sing our summer song
 </div>
+<div class="trans-lyric">Till we sing our summer song</div>
 </div>
 
 <br />

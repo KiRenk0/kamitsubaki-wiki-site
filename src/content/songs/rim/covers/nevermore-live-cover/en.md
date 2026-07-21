@@ -35,36 +35,42 @@ Nevermore (Live Cover) appears on CHOCOLATE LIVE4 or a related official release.
 <div class="jp-lyric">
 I'm sitting by the fire drinking wine
 </div>
+<div class="trans-lyric">I'm sitting by the fire drinking wine</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Staring at your portrait all the time
 </div>
+<div class="trans-lyric">Staring at your portrait all the time</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I try to fade away
 </div>
+<div class="trans-lyric">I try to fade away</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I can hear your voice fly past my bedroom door
 </div>
+<div class="trans-lyric">I can hear your voice fly past my bedroom door</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I can hear the rustling ofthe skirt you wore
 </div>
+<div class="trans-lyric">I can hear the rustling ofthe skirt you wore</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I whisper Nevermore
 </div>
+<div class="trans-lyric">I whisper Nevermore</div>
 </div>
 
 <br />
@@ -73,30 +79,36 @@ I whisper Nevermore
 <div class="jp-lyric">
 Before you came the objects weren't for me
 </div>
+<div class="trans-lyric">Before you came the objects weren't for me</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You dressed them in names and meanings I could see
 </div>
+<div class="trans-lyric">You dressed them in names and meanings I could see</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 They're all undressed again
 </div>
+<div class="trans-lyric">They're all undressed again</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I-ah walk through the pouring rain
 </div>
+<div class="trans-lyric">I-ah walk through the pouring rain</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I walk the hills alone again
 </div>
+<div class="trans-lyric">I walk the hills alone again</div>
+<div class="trans-lyric">I walk the hills alone again</div>
 </div>
 
 <br />
@@ -105,6 +117,20 @@ I walk the hills alone again
 <div class="jp-lyric">
 They say Nevermore but I ah ah
 </div>
+<div class="trans-lyric">They say Nevermore but I ah ah</div>
+<div class="trans-lyric">They say Nevermore but I ah ah</div>
+<div class="trans-lyric">They say Nevermore but I ah ah</div>
+<div class="trans-lyric">They say Nevermore but I ah ah</div>
+<div class="trans-lyric">They say Nevermore but I ah ah</div>
+<div class="trans-lyric">They say Nevermore but I ah ah</div>
+<div class="trans-lyric">They say Nevermore but I ah ah</div>
+<div class="trans-lyric">They say Nevermore but I ah ah</div>
+<div class="trans-lyric">They say Nevermore but I ah ah</div>
+<div class="trans-lyric">They say Nevermore but I ah ah</div>
+<div class="trans-lyric">They say Nevermore but I ah ah</div>
+<div class="trans-lyric">They say Nevermore but I ah ah</div>
+<div class="trans-lyric">They say Nevermore but I ah ah</div>
+<div class="trans-lyric">They say Nevermore but I ah ah</div>
 </div>
 
 <div class="lyric-line">
@@ -117,12 +143,21 @@ They say Nevermore but I ah ah
 <div class="jp-lyric">
 They say Nevermore but I'm not sure
 </div>
+<div class="trans-lyric">They say Nevermore but I'm not sure</div>
+<div class="trans-lyric">They say Nevermore but I'm not sure</div>
+<div class="trans-lyric">They say Nevermore but I'm not sure</div>
+<div class="trans-lyric">They say Nevermore but I'm not sure</div>
+<div class="trans-lyric">They say Nevermore but I'm not sure</div>
+<div class="trans-lyric">They say Nevermore but I'm not sure</div>
+<div class="trans-lyric">They say Nevermore but I'm not sure</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I could feel you were here before
 </div>
+<div class="trans-lyric">I could feel you were here before</div>
+<div class="trans-lyric">I could feel you were here before</div>
 </div>
 
 <br />
@@ -149,6 +184,11 @@ They say Nevermore but I'm not sure
 <div class="jp-lyric">
 Oh please give me the sign I am waiting for
 </div>
+<div class="trans-lyric">Oh please give me the sign I am waiting for</div>
+<div class="trans-lyric">Oh please give me the sign I am waiting for</div>
+<div class="trans-lyric">Oh please give me the sign I am waiting for</div>
+<div class="trans-lyric">Oh please give me the sign I am waiting for</div>
+<div class="trans-lyric">Oh please give me the sign I am waiting for</div>
 </div>
 
 <br />
@@ -157,6 +197,10 @@ Oh please give me the sign I am waiting for
 <div class="jp-lyric">
 'Cause I am falling down
 </div>
+<div class="trans-lyric">'Cause I am falling down</div>
+<div class="trans-lyric">'Cause I am falling down</div>
+<div class="trans-lyric">'Cause I am falling down</div>
+<div class="trans-lyric">'Cause I am falling down</div>
 </div>
 
 <div class="lyric-line">
@@ -197,18 +241,21 @@ Oh please give me the sign I am waiting for
 <div class="jp-lyric">
 There's no more music pouring through these castle halls
 </div>
+<div class="trans-lyric">There's no more music pouring through these castle halls</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Without your light it is so cold between these walls
 </div>
+<div class="trans-lyric">Without your light it is so cold between these walls</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You said: &quot;don't be afraid&quot;
 </div>
+<div class="trans-lyric">You said: "don't be afraid"</div>
 </div>
 
 <br />
@@ -217,6 +264,7 @@ You said: &quot;don't be afraid&quot;
 <div class="jp-lyric">
 But I ah walk through the pouring rain
 </div>
+<div class="trans-lyric">But I ah walk through the pouring rain</div>
 </div>
 
 <div class="lyric-line">
@@ -347,6 +395,8 @@ Oh please give me the sign I am waiting for
 <div class="jp-lyric">
 Give me the sign I am waiting for
 </div>
+<div class="trans-lyric">Give me the sign I am waiting for</div>
+<div class="trans-lyric">Give me the sign I am waiting for</div>
 </div>
 
 <div class="lyric-line">

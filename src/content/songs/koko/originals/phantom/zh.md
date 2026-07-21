@@ -35,24 +35,28 @@ image: /images/songs/koko/single-1890386260.jpg
 <div class="jp-lyric">
 Sure I'd give it up
 </div>
+<div class="cn-lyric">当然我愿放弃</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Just for one more chance to say
 </div>
+<div class="cn-lyric">只为再多一次机会说</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Goodnight, all my love
 </div>
+<div class="cn-lyric">晚安，我所有的爱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Was it real or just fantasy?
 </div>
+<div class="cn-lyric">是真实还是幻想？</div>
 </div>
 
 <br />
@@ -61,18 +65,24 @@ Was it real or just fantasy?
 <div class="jp-lyric">
 Your phantom sits with me
 </div>
+<div class="cn-lyric">你的幻影伴我</div>
+<div class="cn-lyric">你的幻影伴我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 When I'm all alone
 </div>
+<div class="cn-lyric">当我独自一人</div>
+<div class="cn-lyric">当我独自一人</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I love you still
 </div>
+<div class="cn-lyric">我依然爱你</div>
+<div class="cn-lyric">我依然爱你</div>
 </div>
 
 <br />
@@ -81,24 +91,28 @@ I love you still
 <div class="jp-lyric">
 Surely, I was wrong
 </div>
+<div class="cn-lyric">确实是我错了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Casting spells and singing silly songs
 </div>
+<div class="cn-lyric">施咒语，唱傻歌</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You knew all along
 </div>
+<div class="cn-lyric">你始终知道</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Hold your love before it's gone
 </div>
+<div class="cn-lyric">在爱逝去前抓紧</div>
 </div>
 
 <br />

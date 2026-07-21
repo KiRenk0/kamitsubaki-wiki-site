@@ -33,24 +33,28 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 There's a raging storm around us
 </div>
+<div class="cn-lyric">我们身边风暴肆虐</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Trying to tear us from the ground
 </div>
+<div class="cn-lyric">试图将我们连根拔起</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 We can ride this wave together
 </div>
+<div class="cn-lyric">我们可以一起乘风破浪</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Until the thunder makes no sound
 </div>
+<div class="cn-lyric">直到雷霆不再作响</div>
 </div>
 
 <br />
@@ -59,12 +63,19 @@ Until the thunder makes no sound
 <div class="jp-lyric">
 We are the new world
 </div>
+<div class="cn-lyric">我们是新世界</div>
+<div class="cn-lyric">我们是新世界</div>
+<div class="cn-lyric">我们是新世界</div>
+<div class="cn-lyric">我们是新世界</div>
+<div class="cn-lyric">我们是新世界</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 We'll unite this world together
 </div>
+<div class="cn-lyric">我们将携手团结这世界</div>
+<div class="cn-lyric">我们将携手团结这世界</div>
 </div>
 
 <div class="lyric-line">
@@ -77,6 +88,9 @@ We are the new world
 <div class="jp-lyric">
 We'll put this fire out forever
 </div>
+<div class="cn-lyric">我们将永远扑灭这火焰</div>
+<div class="cn-lyric">我们将永远扑灭这火焰</div>
+<div class="cn-lyric">我们将永远扑灭这火焰</div>
 </div>
 
 <br />
@@ -99,24 +113,28 @@ We'll put this fire out forever
 <div class="jp-lyric">
 We can make our own salvation
 </div>
+<div class="cn-lyric">我们可以自我救赎</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 When there's a battle to be won
 </div>
+<div class="cn-lyric">当有战役待赢取</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 We can end this fight forever
 </div>
+<div class="cn-lyric">我们可以永远结束这场战斗</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Take the bullet from the gun
 </div>
+<div class="cn-lyric">将子弹从枪膛取出</div>
 </div>
 
 <br />

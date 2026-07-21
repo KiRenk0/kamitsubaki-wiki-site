@@ -82,7 +82,7 @@ image: /images/albums/vwp/city-regenerate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-谁听说
+<ruby>谁<rt class="furi">谁</rt><rt class="roma">谁</rt></ruby><ruby>听<rt class="furi">听</rt><rt class="roma">听</rt></ruby><ruby>说<rt class="furi">说</rt><rt class="roma">说</rt></ruby>
 </div>
 </div>
 
@@ -162,7 +162,7 @@ image: /images/albums/vwp/city-regenerate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-谁听说
+<ruby>谁<rt class="furi">谁</rt><rt class="roma">谁</rt></ruby><ruby>听<rt class="furi">听</rt><rt class="roma">听</rt></ruby><ruby>说<rt class="furi">说</rt><rt class="roma">说</rt></ruby>
 </div>
 </div>
 
@@ -210,7 +210,7 @@ image: /images/albums/vwp/city-regenerate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-谁听说
+<ruby>谁<rt class="furi">谁</rt><rt class="roma">谁</rt></ruby><ruby>听<rt class="furi">听</rt><rt class="roma">听</rt></ruby><ruby>说<rt class="furi">说</rt><rt class="roma">说</rt></ruby>
 </div>
 </div>
 

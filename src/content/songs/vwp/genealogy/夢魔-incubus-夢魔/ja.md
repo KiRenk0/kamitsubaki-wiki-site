@@ -844,7 +844,7 @@ Boy~你<ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ru
 
 <div class="lyric-line">
 <div class="jp-lyric">
-让她怀孕~！啪哧啪哧~x4
+<ruby>让<rt class="furi">让</rt><rt class="roma">让</rt></ruby><ruby>她<rt class="furi">她</rt><rt class="roma">她</rt></ruby><ruby>怀<rt class="furi">怀</rt><rt class="roma">怀</rt></ruby><ruby>孕<rt class="furi">孕</rt><rt class="roma">孕</rt></ruby>~！<ruby>啪<rt class="furi">啪</rt><rt class="roma">啪</rt></ruby><ruby>哧<rt class="furi">哧</rt><rt class="roma">哧</rt></ruby><ruby>啪<rt class="furi">啪</rt><rt class="roma">啪</rt></ruby><ruby>哧<rt class="furi">哧</rt><rt class="roma">哧</rt></ruby>~x4
 </div>
 </div>
 

@@ -170,7 +170,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-对吧？
+<ruby>对<rt class="furi">对</rt><rt class="roma">对</rt></ruby><ruby>吧<rt class="furi">吧</rt><rt class="roma">吧</rt></ruby>？
 </div>
 </div>
 
@@ -404,7 +404,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-谢谢你
+<ruby>谢<rt class="furi">谢</rt><rt class="roma">谢</rt></ruby><ruby>谢<rt class="furi">谢</rt><rt class="roma">谢</rt></ruby><ruby>你<rt class="furi">你</rt><rt class="roma">你</rt></ruby>
 </div>
 </div>
 
@@ -422,7 +422,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-诶？
+<ruby>诶<rt class="furi">诶</rt><rt class="roma">诶</rt></ruby>？
 </div>
 </div>
 
@@ -458,7 +458,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-对吧
+<ruby>对<rt class="furi">对</rt><rt class="roma">对</rt></ruby><ruby>吧<rt class="furi">吧</rt><rt class="roma">吧</rt></ruby>
 </div>
 </div>
 
@@ -512,7 +512,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-怎么样？
+<ruby>怎<rt class="furi">怎</rt><rt class="roma">怎</rt></ruby><ruby>么<rt class="furi">么</rt><rt class="roma">么</rt></ruby><ruby>样<rt class="furi">样</rt><rt class="roma">样</rt></ruby>？
 </div>
 </div>
 
@@ -536,7 +536,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-对吧
+<ruby>对<rt class="furi">对</rt><rt class="roma">对</rt></ruby><ruby>吧<rt class="furi">吧</rt><rt class="roma">吧</rt></ruby>
 </div>
 </div>
 
@@ -800,13 +800,13 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-叻啾 叻啾 叻
+<ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby><ruby>啾<rt class="furi">啾</rt><rt class="roma">啾</rt></ruby> <ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby><ruby>啾<rt class="furi">啾</rt><rt class="roma">啾</rt></ruby> <ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-叻啾 叻啾 叻
+<ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby><ruby>啾<rt class="furi">啾</rt><rt class="roma">啾</rt></ruby> <ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby><ruby>啾<rt class="furi">啾</rt><rt class="roma">啾</rt></ruby> <ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby>
 </div>
 </div>
 
@@ -836,7 +836,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-为什么吗
+<ruby>为<rt class="furi">为</rt><rt class="roma">为</rt></ruby><ruby>什<rt class="furi">什</rt><rt class="roma">什</rt></ruby><ruby>么<rt class="furi">么</rt><rt class="roma">么</rt></ruby><ruby>吗<rt class="furi">吗</rt><rt class="roma">吗</rt></ruby>
 </div>
 </div>
 
@@ -908,25 +908,25 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-叻啾 叻
+<ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby><ruby>啾<rt class="furi">啾</rt><rt class="roma">啾</rt></ruby> <ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-叻
+<ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-叻
+<ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-叻
+<ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby>
 </div>
 </div>
 
@@ -1034,13 +1034,13 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-叻啾 叻
+<ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby><ruby>啾<rt class="furi">啾</rt><rt class="roma">啾</rt></ruby> <ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-叻啾 叻
+<ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby><ruby>啾<rt class="furi">啾</rt><rt class="roma">啾</rt></ruby> <ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby>
 </div>
 </div>
 
@@ -1070,7 +1070,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-而且
+<ruby>而<rt class="furi">而</rt><rt class="roma">而</rt></ruby><ruby>且<rt class="furi">且</rt><rt class="roma">且</rt></ruby>
 </div>
 </div>
 
@@ -1100,7 +1100,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-嗅嗅
+<ruby>嗅<rt class="furi">嗅</rt><rt class="roma">嗅</rt></ruby><ruby>嗅<rt class="furi">嗅</rt><rt class="roma">嗅</rt></ruby>
 </div>
 </div>
 
@@ -1184,25 +1184,25 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-叻啾 叻
+<ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby><ruby>啾<rt class="furi">啾</rt><rt class="roma">啾</rt></ruby> <ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-叻啾 叻
+<ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby><ruby>啾<rt class="furi">啾</rt><rt class="roma">啾</rt></ruby> <ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-叻啾 叻
+<ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby><ruby>啾<rt class="furi">啾</rt><rt class="roma">啾</rt></ruby> <ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-叻啾 叻
+<ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby><ruby>啾<rt class="furi">啾</rt><rt class="roma">啾</rt></ruby> <ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby>
 </div>
 </div>
 
@@ -1220,7 +1220,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-那么
+<ruby>那<rt class="furi">那</rt><rt class="roma">那</rt></ruby><ruby>么<rt class="furi">么</rt><rt class="roma">么</rt></ruby>
 </div>
 </div>
 
@@ -1238,7 +1238,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-嘻嘻
+<ruby>嘻<rt class="furi">嘻</rt><rt class="roma">嘻</rt></ruby><ruby>嘻<rt class="furi">嘻</rt><rt class="roma">嘻</rt></ruby>
 </div>
 </div>
 
@@ -1298,7 +1298,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-嘻嘻
+<ruby>嘻<rt class="furi">嘻</rt><rt class="roma">嘻</rt></ruby><ruby>嘻<rt class="furi">嘻</rt><rt class="roma">嘻</rt></ruby>
 </div>
 </div>
 
@@ -1310,25 +1310,25 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-叻啾 叻
+<ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby><ruby>啾<rt class="furi">啾</rt><rt class="roma">啾</rt></ruby> <ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-叻啾 叻
+<ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby><ruby>啾<rt class="furi">啾</rt><rt class="roma">啾</rt></ruby> <ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-叻啾 叻
+<ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby><ruby>啾<rt class="furi">啾</rt><rt class="roma">啾</rt></ruby> <ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-叻啾 叻
+<ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby><ruby>啾<rt class="furi">啾</rt><rt class="roma">啾</rt></ruby> <ruby>叻<rt class="furi">叻</rt><rt class="roma">叻</rt></ruby>
 </div>
 </div>
 
@@ -1364,7 +1364,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-那么
+<ruby>那<rt class="furi">那</rt><rt class="roma">那</rt></ruby><ruby>么<rt class="furi">么</rt><rt class="roma">么</rt></ruby>
 </div>
 </div>
 
@@ -1466,7 +1466,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-撸啊撸啊 撸啊撸啊
+<ruby>撸<rt class="furi">撸</rt><rt class="roma">撸</rt></ruby><ruby>啊<rt class="furi">啊</rt><rt class="roma">啊</rt></ruby><ruby>撸<rt class="furi">撸</rt><rt class="roma">撸</rt></ruby><ruby>啊<rt class="furi">啊</rt><rt class="roma">啊</rt></ruby> <ruby>撸<rt class="furi">撸</rt><rt class="roma">撸</rt></ruby><ruby>啊<rt class="furi">啊</rt><rt class="roma">啊</rt></ruby><ruby>撸<rt class="furi">撸</rt><rt class="roma">撸</rt></ruby><ruby>啊<rt class="furi">啊</rt><rt class="roma">啊</rt></ruby>
 </div>
 </div>
 
@@ -1814,7 +1814,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-唉
+<ruby>唉<rt class="furi">唉</rt><rt class="roma">唉</rt></ruby>
 </div>
 </div>
 
@@ -1868,7 +1868,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-哎呀
+<ruby>哎<rt class="furi">哎</rt><rt class="roma">哎</rt></ruby><ruby>呀<rt class="furi">呀</rt><rt class="roma">呀</rt></ruby>
 </div>
 </div>
 
@@ -1910,7 +1910,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-撸啊撸啊撸啊撸啊
+<ruby>撸<rt class="furi">撸</rt><rt class="roma">撸</rt></ruby><ruby>啊<rt class="furi">啊</rt><rt class="roma">啊</rt></ruby><ruby>撸<rt class="furi">撸</rt><rt class="roma">撸</rt></ruby><ruby>啊<rt class="furi">啊</rt><rt class="roma">啊</rt></ruby><ruby>撸<rt class="furi">撸</rt><rt class="roma">撸</rt></ruby><ruby>啊<rt class="furi">啊</rt><rt class="roma">啊</rt></ruby><ruby>撸<rt class="furi">撸</rt><rt class="roma">撸</rt></ruby><ruby>啊<rt class="furi">啊</rt><rt class="roma">啊</rt></ruby>
 </div>
 </div>
 
@@ -2126,7 +2126,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-抱歉抱歉
+<ruby>抱<rt class="furi">抱</rt><rt class="roma">抱</rt></ruby><ruby>歉<rt class="furi">歉</rt><rt class="roma">歉</rt></ruby><ruby>抱<rt class="furi">抱</rt><rt class="roma">抱</rt></ruby><ruby>歉<rt class="furi">歉</rt><rt class="roma">歉</rt></ruby>
 </div>
 </div>
 
@@ -2156,7 +2156,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-撸啊撸啊撸啊
+<ruby>撸<rt class="furi">撸</rt><rt class="roma">撸</rt></ruby><ruby>啊<rt class="furi">啊</rt><rt class="roma">啊</rt></ruby><ruby>撸<rt class="furi">撸</rt><rt class="roma">撸</rt></ruby><ruby>啊<rt class="furi">啊</rt><rt class="roma">啊</rt></ruby><ruby>撸<rt class="furi">撸</rt><rt class="roma">撸</rt></ruby><ruby>啊<rt class="furi">啊</rt><rt class="roma">啊</rt></ruby>
 </div>
 </div>
 
