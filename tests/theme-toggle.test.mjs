@@ -29,6 +29,7 @@ test('theme preference defaults to system and offers localized light, dark, and 
   assert.match(nav, /value: 'dark', shortLabel: 'NIGHT'/);
   assert.match(nav, /value: 'system', shortLabel: 'SYS'/);
   assert.match(nav, /site-nav__controls[\s\S]*Language switcher[\s\S]*site-nav__theme-switcher/);
+  assert.match(styles, /\.site-nav__controls > \[aria-label='Language switcher'\],[\s\S]*\.site-nav__theme-switcher\s*\{[\s\S]*grid-template-columns: repeat\(3, 1\.25rem\)[\s\S]*justify-items: center/);
   assert.match(script, /localStorage\.setItem\(storageKey, nextPreference\)/);
   assert.match(script, /aria-checked/);
   assert.match(script, /systemThemeQuery\.addEventListener\('change', handleSystemThemeChange\)/);

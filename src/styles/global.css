@@ -753,6 +753,14 @@ html.has-js .reveal-up.active {
   gap: 0.55rem;
 }
 
+.site-nav__controls > [aria-label='Language switcher'],
+.site-nav__theme-switcher {
+  display: grid;
+  grid-template-columns: repeat(3, 1.25rem);
+  justify-items: center;
+  gap: 0;
+}
+
 .site-nav__theme-option {
   appearance: none;
   border: 0;
