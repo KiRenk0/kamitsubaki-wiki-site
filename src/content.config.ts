@@ -1,6 +1,7 @@
 import { glob } from 'astro/loaders';
 import { defineCollection } from 'astro:content';
 import { z } from 'astro/zod';
+import { metadataOnlyGlob } from './lib/metadataOnlyGlob.mjs';
 
 const locale = z.enum(['zh', 'ja', 'en']);
 const contentStatus = z.enum(['stub', 'published']).default('published');
@@ -236,7 +237,7 @@ const site = defineCollection({
 });
 
 const artists = defineCollection({
-  loader: glob({ pattern: '**/{zh,ja,en}.md', base: './src/content/artists', retainBody: false }),
+  loader: metadataOnlyGlob({ pattern: '**/{zh,ja,en}.md', base: './src/content/artists', retainBody: false }),
   schema: z.object({
     locale,
     translationKey: z.string(),
@@ -281,7 +282,7 @@ const artists = defineCollection({
 });
 
 const projects = defineCollection({
-  loader: glob({ pattern: '**/{zh,ja,en}.md', base: './src/content/projects', retainBody: false }),
+  loader: metadataOnlyGlob({ pattern: '**/{zh,ja,en}.md', base: './src/content/projects', retainBody: false }),
   schema: z.object({
     locale,
     translationKey: z.string(),
@@ -295,7 +296,7 @@ const projects = defineCollection({
 });
 
 const logs = defineCollection({
-  loader: glob({ pattern: '**/{zh,ja,en}.md', base: './src/content/logs', retainBody: false }),
+  loader: metadataOnlyGlob({ pattern: '**/{zh,ja,en}.md', base: './src/content/logs', retainBody: false }),
   schema: z.object({
     locale,
     translationKey: z.string(),
@@ -356,12 +357,12 @@ const songSchema = workBaseSchema.extend({
 });
 
 const songs = defineCollection({
-  loader: glob({ pattern: '**/{zh,ja,en}.md', base: './src/content/songs', retainBody: false }),
+  loader: metadataOnlyGlob({ pattern: '**/{zh,ja,en}.md', base: './src/content/songs', retainBody: false }),
   schema: songSchema,
 });
 
 const albums = defineCollection({
-  loader: glob({ pattern: '**/{zh,ja,en}.md', base: './src/content/albums', retainBody: false }),
+  loader: metadataOnlyGlob({ pattern: '**/{zh,ja,en}.md', base: './src/content/albums', retainBody: false }),
   schema: workBaseSchema.extend({
     romanizedTitle: z.string().optional(),
     type: z.string().optional(),
@@ -394,7 +395,7 @@ const albums = defineCollection({
 });
 
 const announcements = defineCollection({
-  loader: glob({ pattern: '**/{zh,ja,en}.md', base: './src/content/announcements', retainBody: false }),
+  loader: metadataOnlyGlob({ pattern: '**/{zh,ja,en}.md', base: './src/content/announcements', retainBody: false }),
   schema: z.object({
     locale,
     translationKey: z.string(),
@@ -409,7 +410,7 @@ const announcements = defineCollection({
 });
 
 const syntaxGuide = defineCollection({
-  loader: glob({
+  loader: metadataOnlyGlob({
     pattern: ['zh.md', 'ja.md', 'en.md'],
     base: new URL('./content/contribute/syntax-guide/', import.meta.url),
     retainBody: false,
@@ -425,7 +426,7 @@ const syntaxGuide = defineCollection({
 });
 
 const editGuide = defineCollection({
-  loader: glob({
+  loader: metadataOnlyGlob({
     pattern: '{zh,ja,en}.md',
     base: './src/content/contribute/edit-guide',
     retainBody: false,

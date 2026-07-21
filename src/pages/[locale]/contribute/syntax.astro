@@ -1,11 +1,12 @@
 ---
-import { getCollection, render } from 'astro:content';
+import { getCollection } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import SiteNav from '../../../components/SiteNav.astro';
 import SiteFooter from '../../../components/SiteFooter.astro';
 import TableOfContents from '../../../components/TableOfContents.astro';
 import { getLocalizedSite } from '../../../lib/homeData.mjs';
 import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../lib/i18n.mjs';
+import { renderContentEntry } from '../../../lib/contentSource.mjs';
 
 export async function getStaticPaths() {
   return supportedLocales.map((locale) => ({
@@ -28,10 +29,8 @@ if (!entry) {
   throw new Error(`Missing syntax guide for locale: ${localeCode}`);
 }
 
-const { Content, headings } = await render(entry);
-// syntaxGuide intentionally uses retainBody: false; rendered headings are the
-// reliable signal that the guide contains displayable Markdown content.
-const hasArticleBody = headings.length > 0;
+const { html: contentHtml, headings, body: articleBody } = await renderContentEntry(entry);
+const hasArticleBody = Boolean(articleBody);
 const hasTableOfContents = headings.some(
   (heading) => heading.depth === 2 || heading.depth === 3,
 );
@@ -227,7 +226,7 @@ const metadata = {
             </details>
           )}
 
-          <Content />
+          <Fragment set:html={contentHtml} />
         </article>
       ) : (
         <section class:list={[

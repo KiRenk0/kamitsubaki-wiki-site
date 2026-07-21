@@ -59,9 +59,9 @@ test('localized contributor guide renders a tiered, progress-aware learning jour
   assert.match(guidePage, /history\.replaceState/);
   assert.match(guidePage, /data-guide-target-path/);
   assert.match(guidePage, /getCollection\('syntaxGuide'\)/);
-  assert.match(guidePage, /render\(syntaxEntry\)/);
+  assert.match(guidePage, /renderContentEntry\(syntaxEntry\)/);
   assert.match(guidePage, /id="syntax-reference"/);
-  assert.match(guidePage, /<SyntaxContent \/>/);
+  assert.match(guidePage, /<Fragment set:html=\{syntaxHtml\} \/>/);
   assert.match(guidePage, /<TableOfContents headings=\{syntaxHeadings\}/);
   assert.match(guidePage, /href="#choose-guide"/);
   assert.match(guidePage, /href="#syntax-reference"/);
@@ -100,7 +100,8 @@ test('contribution documentation presents one connected learning path in every l
   const syntaxPage = await readSource('../src/pages/[locale]/contribute/syntax.astro');
 
   assert.match(syntaxPage, /contribute\/edit#syntax-reference/);
-  assert.match(syntaxPage, /const hasArticleBody = headings\.length > 0/);
+  assert.match(syntaxPage, /renderContentEntry\(entry\)/);
+  assert.match(syntaxPage, /const hasArticleBody = Boolean\(articleBody\)/);
   assert.doesNotMatch(syntaxPage, /Boolean\(entry\.body\?\.trim\(\)\)/);
 
   for (const locale of ['zh', 'ja', 'en']) {
