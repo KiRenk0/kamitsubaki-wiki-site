@@ -149,9 +149,9 @@ test('syntax tutorials pair highlighted source blocks with rendered examples and
     assert.equal(headings.at(-1), expectation.finalHeading);
     assert.doesNotMatch(guide, /^## (?:代码与语法高亮|コードとシンタックスハイライト|Code and syntax highlighting)$/m);
     assert.match(guide, expectation.result);
-    assert.match(guide, /```md\n/);
-    assert.match(guide, /```yaml\n/);
-    assert.match(guide, /```html\n/);
+    assert.match(guide, /```md\r?\n/);
+    assert.match(guide, /```yaml\r?\n/);
+    assert.match(guide, /```html\r?\n/);
     assert.match(guide, /<ruby>.+<rt>.+<\/rt><\/ruby>/s);
     assert.match(guide, /<details>.+<summary>.+<\/summary>.+<\/details>/s);
     for (const step of expectation.lyricSteps) assert.match(guide, new RegExp(`^${step}$`, 'm'));
@@ -162,7 +162,7 @@ test('syntax tutorials pair highlighted source blocks with rendered examples and
     assert.match(guide, /Never output style|禁止 style|style、すべての on\*/);
 
     let insideFence = false;
-    for (const line of guide.split('\n').filter((line) => line.startsWith('```'))) {
+    for (const line of guide.split(/\r?\n/).filter((line) => line.startsWith('```'))) {
       if (!insideFence) {
         assert.match(line, /^```(?:md|yaml|html)$/);
       } else {

@@ -3,6 +3,8 @@ import { access, readFile, readdir, stat } from 'node:fs/promises';
 import test from 'node:test';
 import { parse } from 'yaml';
 
+import { assertNoPlaceholderContent } from './helpers/content-assertions.mjs';
+
 const projectRoot = new URL('../', import.meta.url);
 const locales = ['zh', 'ja', 'en'];
 const albumCounts = { vwp: 10, rim: 8, harusaruhi: 9, isekaijoucho: 6, koko: 4 };
@@ -20,7 +22,7 @@ function fileUrl(path) {
 
 async function readEntry(path) {
   const source = await readFile(fileUrl(path), 'utf8');
-  const match = source.match(/^---\n([\s\S]*?)\n---\n/);
+  const match = source.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n/);
   assert.ok(match, `${path} must contain frontmatter`);
   return { source, data: parse(match[1]) };
 }
@@ -69,7 +71,7 @@ test('V.W.P and the four newly completed member catalogs contain 37 localized re
       assert.equal(canonical.data.trackCount, canonical.data.tracks.length, `${artist}/${album} track count`);
       for (const { data, source } of localized) {
         assert.deepEqual(data.tracks, canonical.data.tracks, `${artist}/${album} localized tracks`);
-        assert.doesNotMatch(source, /placehold|待补|未定|TBD/i);
+        assertNoPlaceholderContent(source);
         assert.match(source, new RegExp(`https://vgmdb\\.net/artist/`));
       }
       for (const track of canonical.data.tracks) {
@@ -123,7 +125,7 @@ test('all 634 canonical V.W.P-family recordings are trilingual, credited, unique
           assert.equal(data.artistId, artist);
           assert.ok(data.artistIds.includes(artist));
           assert.ok(data.image.startsWith('/images/'));
-          assert.doesNotMatch(source, /<iframe\b|placehold|待补|未定|TBD/i);
+          assertNoPlaceholderContent(source, { forbidRawIframe: true });
           assert.match(source, /^## (?:歌词|歌詞|Lyrics)$/m);
           await access(fileUrl(`public/${data.image.slice(1)}`));
           checkedArtwork.add(`public/${data.image.slice(1)}`);
