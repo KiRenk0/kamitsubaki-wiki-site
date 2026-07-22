@@ -5,10 +5,10 @@ import AlbumsSection from '../../components/AlbumsSection.astro';
 import ArtistDatabase from '../../components/ArtistDatabase.astro';
 import ContributorRoster from '../../components/ContributorRoster.astro';
 import Hero from '../../components/Hero.astro';
+import HomeSiteNav from '../../components/HomeSiteNav.astro';
 import LogSection from '../../components/LogSection.astro';
 import ProjectsSection from '../../components/ProjectsSection.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
-import SiteNav from '../../components/SiteNav.astro';
 import SongsSection from '../../components/SongsSection.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
@@ -65,7 +65,7 @@ const metadata = buildHomeMetadata(homeContent, locale);
 
 <BaseLayout lang={locale} alternates={alternates} metadata={metadata}>
   <div data-page-context-root>
-    <SiteNav navItems={homeContent.navItems} localeLinks={localeLinks} brandLines={homeContent.hero.brandLines} homeHref={`/${locale}/`} />
+    <HomeSiteNav navItems={homeContent.navItems} localeLinks={localeLinks} brandLines={homeContent.hero.brandLines} homeHref={`/${locale}/`} />
     <AnnouncementModal announcement={featuredAnnouncement} labels={announcementModalLabels} />
     <Hero hero={homeContent.hero} />
     <AboutSection content={homeContent.sections.about} />

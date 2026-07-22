@@ -752,6 +752,15 @@ html.has-js .reveal-up.active {
   position: relative;
 }
 
+.site-nav__brand-group,
+.site-nav__navigation {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 1.25rem;
+  white-space: nowrap;
+}
+
 .site-nav__controls {
   display: grid;
   justify-items: end;
@@ -759,6 +768,7 @@ html.has-js .reveal-up.active {
 }
 
 .site-nav__controls > [aria-label='Language switcher'],
+.site-nav__language-switcher,
 .site-nav__theme-switcher {
   display: grid;
   grid-template-columns: repeat(3, 1.25rem);
@@ -5145,6 +5155,10 @@ html[data-theme='light'] .ai-chat__submit-btn:focus-visible {
 
   nav.fixed > div {
     gap: 0.6rem;
+  }
+
+  .site-nav__brand-link p {
+    letter-spacing: 0.12em;
   }
 
   .site-nav__menu summary {
