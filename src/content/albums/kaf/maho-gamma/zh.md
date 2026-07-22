@@ -63,7 +63,7 @@ tracks:
     duration: "03:26"
     songId: "kaf/remixes/メルの黄昏(雄之助-Remix)-mels-twilight-yunosuke-remix"
   -
-    number: "9"
+    number: "9"·
     title: "痛みを(Peg Remix)"
     duration: "03:01"
     songId: "kaf/remixes/痛みを(Peg-Remix)-pain-peg-remix"
@@ -91,7 +91,9 @@ tracks:
 
 ## 作品简介
 
-《魔法》的官方重混专辑，十三位创作者分别重构原专辑的十三首演唱曲。
+花谱的第二弹 remix专辑《观测 γ （Gamma）》。
+
+这次特别邀请了13位超人气 Vocaloid P主分别对9月11日发行的2020年11月25日发行的第二张专辑《魔法》中除纯音乐外的全部13首歌曲一对一进行了重新混音。
 
 ## 发行与版本
 
