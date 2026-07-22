@@ -65,7 +65,7 @@ const copy = {
               ) : (
                 <span class="grid h-full place-items-center font-serif text-5xl text-white/10">{group.artist.slice(0, 1)}</span>
               )}
-              <div class="absolute inset-0 bg-gradient-to-t from-[#08090d] via-transparent to-transparent"></div>
+              <div class="catalog-card__mask absolute inset-0 bg-gradient-to-t from-[#08090d] via-transparent to-transparent"></div>
               <span class="absolute bottom-4 left-4 font-mono text-[9px] uppercase tracking-[0.2em] text-white/55">
                 {String(group.categories.length).padStart(2, '0')} {copy.categories}
               </span>
@@ -120,6 +120,10 @@ const copy = {
   .artist-card:focus-visible {
     outline: 1px solid color-mix(in srgb, var(--artist-accent) 70%, white);
     outline-offset: 3px;
+  }
+
+  :global(html[data-theme='light']) .artist-card .catalog-card__mask {
+    display: none;
   }
 
   @media (prefers-reduced-motion: reduce) {

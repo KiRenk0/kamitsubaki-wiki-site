@@ -127,6 +127,13 @@ const pageStyle = `--catalog-accent:${accentColor};--catalog-surface:${group.the
     outline-offset: 3px;
   }
 
+  :global(html[data-theme='light']) .album-card img,
+  :global(html[data-theme='light']) .album-card:hover img,
+  :global(html[data-theme='light']) .album-card:focus-visible img {
+    opacity: 1;
+    filter: none;
+  }
+
   @media (prefers-reduced-motion: reduce) {
     .album-card img,
     .album-card::after {
