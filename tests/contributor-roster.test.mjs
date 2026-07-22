@@ -41,6 +41,7 @@ test('contributor roster fetches public summary and entry contribution APIs', as
 
 test('contributor sync script derives safe identities from git history', async () => {
   const script = await readProjectFile('../scripts/sync-contributors.mjs');
+  const syncClient = await readProjectFile('../scripts/contributor-sync-client.mjs');
   const history = await readProjectFile('../scripts/contributor-history.mjs');
   const packageJson = JSON.parse(await readProjectFile('../package.json'));
 
@@ -51,7 +52,7 @@ test('contributor sync script derives safe identities from git history', async (
   assert.match(history, /users\\\.noreply\\\.github\\\.com/);
   assert.match(history, /https:\/\/github\.com\/\$\{githubLogin\}\.png\?size=96/);
   assert.match(history, /emailHash/);
-  assert.match(script, /api\/admin\/contributors\/sync/);
+  assert.match(syncClient, /api\/admin\/contributors\/sync/);
   assert.match(script, /spawn\('git'/);
   assert.match(script, /consumeGitLogRecords/);
   assert.doesNotMatch(script, /execFileSync|maxBuffer/);
@@ -362,12 +363,12 @@ test('GitHub identity resolver enriches contributors, caches commits, and falls 
 test('contributor sync submits an enriched snapshot in API-sized batches', async () => {
   const script = await readProjectFile('../scripts/sync-contributors.mjs');
   assert.match(script, /createGithubIdentityResolver/);
+  assert.match(script, /replaceSource:\s*true/);
   assert.match(script, /GITHUB_TOKEN/);
   assert.match(script, /GITHUB_REPOSITORY/);
   assert.match(script, /identityEnriched/);
-  assert.match(script, /SYNC_BATCH_SIZE = 1000/);
-  assert.match(script, /replaceSource:\s*index === 0/);
-  assert.match(script, /accepted.*batch\.length/);
+  assert.match(script, /API limit is 1000/);
+  assert.match(script, /accepted.*events\.length/);
 });
 
 test('GitHub identity resolver falls back to the associated pull request author', async () => {
