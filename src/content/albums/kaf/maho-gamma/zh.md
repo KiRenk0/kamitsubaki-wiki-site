@@ -63,7 +63,7 @@ tracks:
     duration: "03:26"
     songId: "kaf/remixes/メルの黄昏(雄之助-Remix)-mels-twilight-yunosuke-remix"
   -
-    number: "9"·
+    number: "9"
     title: "痛みを(Peg Remix)"
     duration: "03:01"
     songId: "kaf/remixes/痛みを(Peg-Remix)-pain-peg-remix"
