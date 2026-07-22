@@ -80,6 +80,40 @@ test('song artist catalog hero uses an artist-tinted surface in light mode', asy
   );
 });
 
+test('song and album details use the normal light surface in light mode', async () => {
+  const [songDetail, albumDetail, styles] = await Promise.all([
+    readProjectFile('../src/pages/[locale]/songs/[...id].astro'),
+    readProjectFile('../src/pages/[locale]/albums/[...id].astro'),
+    readProjectFile('../src/styles/global.css'),
+  ]);
+
+  assert.match(songDetail, /<div class="wiki-theme-shell" style=\{themeStyle\}>/);
+  assert.match(albumDetail, /<div class="wiki-theme-shell" style=\{themeStyle\}>/);
+  assert.doesNotMatch(songDetail, /wiki-theme-shell music-theme-shell/);
+  assert.doesNotMatch(albumDetail, /wiki-theme-shell music-theme-shell/);
+  assert.doesNotMatch(styles, /\.music-theme-shell/);
+});
+
+test('song and album catalog cards remove their image mask in light mode', async () => {
+  const [songCatalog, albumCatalog] = await Promise.all([
+    readProjectFile('../src/pages/[locale]/songs/index.astro'),
+    readProjectFile('../src/pages/[locale]/albums/index.astro'),
+  ]);
+
+  for (const [source, className] of [[songCatalog, 'artist-card'], [albumCatalog, 'album-artist-card']]) {
+    assert.match(source, /catalog-card__mask absolute inset-0 bg-gradient-to-t/);
+    assert.match(source, new RegExp(`html\\[data-theme='light'\\]\\) \\.${className} \\.catalog-card__mask\\s*\\{[\\s\\S]*display: none;`));
+    assert.doesNotMatch(source, new RegExp(`html\\[data-theme='light'\\]\\) \\.${className},[\\s\\S]*background-color: #14171a`));
+  }
+  assert.match(songCatalog, /artist-card:hover img,[\s\S]*opacity: 1;[\s\S]*filter: none;/);
+  assert.match(albumCatalog, /album-artist-card:hover img,[\s\S]*opacity: 1;[\s\S]*filter: none;/);
+});
+
+test('artist album cards are not dimmed in light mode', async () => {
+  const artistAlbums = await readProjectFile('../src/pages/[locale]/albums/artists/[artist].astro');
+  assert.match(artistAlbums, /html\[data-theme='light'\]\) \.album-card img,[\s\S]*opacity: 1;[\s\S]*filter: none;/);
+});
+
 test('album catalog groups entries by folder-driven artist ids', async () => {
   const { buildArtistAlbumCatalog } = await import('../src/lib/musicCatalog.mjs');
   const albums = [
