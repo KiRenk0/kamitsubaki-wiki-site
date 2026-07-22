@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
+import { Readable } from 'node:stream';
 import test from 'node:test';
 
 async function readProjectFile(path) {
@@ -51,7 +52,54 @@ test('contributor sync script derives safe identities from git history', async (
   assert.match(history, /https:\/\/github\.com\/\$\{githubLogin\}\.png\?size=96/);
   assert.match(history, /emailHash/);
   assert.match(script, /api\/admin\/contributors\/sync/);
+  assert.match(script, /spawn\('git'/);
+  assert.match(script, /consumeGitLogRecords/);
+  assert.doesNotMatch(script, /execFileSync|maxBuffer/);
   assert.doesNotMatch(`${script}\n${history}`, /email:\s*authorEmail/);
+});
+
+test('git history streaming handles output larger than the execFileSync buffer', async () => {
+  const { consumeGitLogRecords } = await import('../scripts/sync-contributors.mjs');
+  const recordCount = 18_000;
+  async function* largeGitLog() {
+    for (let index = 0; index < recordCount; index += 1) {
+      yield `\x1e${String(index).padStart(40, '0')}\x1fContributor\x1fprivate@example.com\x1f2026-07-22T00:00:00.000Z\x1fbulk\n`;
+      yield `src/content/songs/example-${index}/zh.md\n`;
+    }
+  }
+
+  let seen = 0;
+  let largestRecord = 0;
+  await consumeGitLogRecords(Readable.from(largeGitLog()), (record) => {
+    seen += 1;
+    largestRecord = Math.max(largestRecord, Buffer.byteLength(record));
+  });
+
+  assert.equal(seen, recordCount);
+  assert.ok(largestRecord < 1024);
+});
+
+test('contributor snapshots are uploaded in API-sized batches after streaming', async () => {
+  const { submitContributionEvents } = await import('../scripts/sync-contributors.mjs');
+  const calls = [];
+  const events = Array.from({ length: 2_105 }, (_, index) => ({ commitSha: String(index) }));
+  const result = await submitContributionEvents(events, {
+    apiBaseUrl: 'https://contributors.example',
+    token: 'secret',
+    fetchImpl: async (_url, options) => {
+      const body = JSON.parse(options.body);
+      calls.push(body);
+      return {
+        ok: true,
+        status: 200,
+        json: async () => ({ accepted: body.events.length, contributors: 12 }),
+      };
+    },
+  });
+
+  assert.deepEqual(calls.map(({ events: batch }) => batch.length), [1000, 1000, 105]);
+  assert.deepEqual(calls.map(({ replaceSource }) => replaceSource), [true, false, false]);
+  assert.deepEqual(result, { accepted: 2105, contributors: 12, batches: 3 });
 });
 
 test('contributor data groups locale files from one commit into one contribution', async () => {
@@ -311,15 +359,15 @@ test('GitHub identity resolver enriches contributors, caches commits, and falls 
   assert.deepEqual(await failingResolver('missing', fallback), fallback);
 });
 
-test('contributor sync submits an enriched replacement snapshot', async () => {
+test('contributor sync submits an enriched snapshot in API-sized batches', async () => {
   const script = await readProjectFile('../scripts/sync-contributors.mjs');
   assert.match(script, /createGithubIdentityResolver/);
-  assert.match(script, /replaceSource:\s*true/);
   assert.match(script, /GITHUB_TOKEN/);
   assert.match(script, /GITHUB_REPOSITORY/);
   assert.match(script, /identityEnriched/);
-  assert.match(script, /API limit is 1000/);
-  assert.match(script, /accepted.*events\.length/);
+  assert.match(script, /SYNC_BATCH_SIZE = 1000/);
+  assert.match(script, /replaceSource:\s*index === 0/);
+  assert.match(script, /accepted.*batch\.length/);
 });
 
 test('GitHub identity resolver falls back to the associated pull request author', async () => {
