@@ -363,12 +363,13 @@ test('GitHub identity resolver enriches contributors, caches commits, and falls 
 test('contributor sync submits an enriched snapshot in API-sized batches', async () => {
   const script = await readProjectFile('../scripts/sync-contributors.mjs');
   assert.match(script, /createGithubIdentityResolver/);
-  assert.match(script, /replaceSource:\s*true/);
   assert.match(script, /GITHUB_TOKEN/);
   assert.match(script, /GITHUB_REPOSITORY/);
   assert.match(script, /identityEnriched/);
-  assert.match(script, /API limit is 1000/);
-  assert.match(script, /accepted.*events\.length/);
+  assert.match(script, /const collectedEvents = await collectEvents\(\)/);
+  assert.match(script, /submitContributionEvents\(events\)/);
+  assert.match(script, /replaceSource:\s*index === 0/);
+  assert.doesNotMatch(script, /API limit is 1000/);
 });
 
 test('GitHub identity resolver falls back to the associated pull request author', async () => {
