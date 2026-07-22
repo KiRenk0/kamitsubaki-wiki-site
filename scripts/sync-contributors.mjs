@@ -12,14 +12,21 @@ const commitBaseUrl = process.env.CONTRIBUTORS_COMMIT_BASE_URL || 'https://githu
 const backendRepositoryPath = process.env.CONTRIBUTORS_BACKEND_REPO_PATH || '';
 const backendGithubRepository = process.env.CONTRIBUTORS_BACKEND_GITHUB_REPOSITORY || '';
 const backendCommitBaseUrl = process.env.CONTRIBUTORS_BACKEND_COMMIT_BASE_URL || '';
-const gitOutputMaxBuffer = 64 * 1024 * 1024;
 
-function runGit(args, cwd = '.') {
-  return execFileSync('git', args, {
-    cwd,
-    encoding: 'utf8',
-    maxBuffer: gitOutputMaxBuffer,
-  });
+export async function consumeGitLogRecords(stream, onRecord) {
+  let pending = '';
+
+  for await (const chunk of stream) {
+    pending += chunk;
+    const records = pending.split('\x1e');
+    pending = records.pop() || '';
+
+    for (const record of records) {
+      if (record.trim()) await onRecord(record);
+    }
+  }
+
+  if (pending.trim()) await onRecord(pending);
 }
 
 export async function collectRepositoryEvents({ cwd = '.', repository = 'site', githubRepositoryName = '', baseUrl = commitBaseUrl }) {
@@ -67,46 +74,6 @@ async function collectEvents() {
   return events;
 }
 
-export async function submitContributionEvents(events, {
-  apiBaseUrl = apiBase,
-  token = syncToken,
-  fetchImpl = fetch,
-} = {}) {
-  const batches = [];
-  for (let index = 0; index < events.length; index += SYNC_BATCH_SIZE) {
-    batches.push(events.slice(index, index + SYNC_BATCH_SIZE));
-  }
-  if (batches.length === 0) batches.push([]);
-
-  let accepted = 0;
-  let contributors = 0;
-  for (let index = 0; index < batches.length; index += 1) {
-    const batch = batches[index];
-    const response = await fetchImpl(new URL('/api/admin/contributors/sync', apiBaseUrl), {
-      method: 'POST',
-      headers: {
-        Authorization: `Bearer ${token}`,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        source: 'git-history',
-        replaceSource: index === 0,
-        events: batch,
-      }),
-    });
-    const body = await response.json().catch(() => ({}));
-    if (!response.ok) {
-      throw new Error(`Contributor sync batch ${index + 1}/${batches.length} failed with ${response.status}: ${JSON.stringify(body)}`);
-    }
-    if (Number(body.accepted) !== batch.length) {
-      throw new Error(`Contributor sync batch ${index + 1}/${batches.length} accepted ${body.accepted ?? 0} of ${batch.length} events.`);
-    }
-    accepted += Number(body.accepted);
-    contributors = Math.max(contributors, Number(body.contributors) || 0);
-  }
-  return { accepted, contributors, batches: batches.length };
-}
-
 async function main() {
   if (!apiBase) {
     throw new Error('Set CONTRIBUTORS_API_BASE or PUBLIC_AI_OBSERVER_API_BASE before syncing contributors.');
@@ -115,10 +82,7 @@ async function main() {
     throw new Error('Set CONTRIBUTOR_SYNC_TOKEN before syncing contributors.');
   }
 
-  const collectedEvents = collectEvents();
-  if (collectedEvents.length > 1000) {
-    throw new Error(`Contributor sync produced ${collectedEvents.length} events; API limit is 1000.`);
-  }
+  const collectedEvents = await collectEvents();
   const identityResolvers = new Map();
   const resolverFor = (repository) => {
     if (!identityResolvers.has(repository)) {
@@ -134,28 +98,9 @@ async function main() {
     if (resolved.contributor.id !== fallback.contributor.id) identityEnriched += 1;
     return { ...publicEvent, ...resolved };
   }));
-  const response = await fetch(new URL('/api/admin/contributors/sync', apiBase), {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${syncToken}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      source: 'git-history',
-      replaceSource: true,
-      events,
-    }),
-  });
-
-  const body = await response.json().catch(() => ({}));
-  if (!response.ok) {
-    throw new Error(`Contributor sync failed with ${response.status}: ${JSON.stringify(body)}`);
-  }
-  if (Number(body.accepted) !== events.length) {
-    throw new Error(`Contributor sync accepted ${body.accepted ?? 0} of ${events.length} events.`);
-  }
-
-  console.log(`Synced ${body.accepted ?? events.length} contribution events from ${body.contributors ?? 0} contributors; ${identityEnriched} events enriched by GitHub.`);
+  const result = await syncContributionEvents({ apiBase, syncToken, events });
+  const contributors = new Set(events.map((event) => event.contributor.id)).size;
+  console.log(`Synced ${result.accepted} contribution events from ${contributors} contributors in ${result.batches} batches; ${identityEnriched} events enriched by GitHub.`);
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
