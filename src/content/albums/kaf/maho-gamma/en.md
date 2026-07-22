@@ -91,7 +91,9 @@ tracks:
 
 ## Overview
 
-The official remix companion to Mahou, reimagining its thirteen vocal tracks through thirteen creators.
+Kaf's second remix album, Kansoku γ (Gamma).
+
+For this release, 13 highly popular Vocaloid producers were specially invited to create individual remixes for all 13 non-instrumental tracks from her second studio album, Mahou, which was released on November 25, 2020.
 
 ## Release and editions
 
