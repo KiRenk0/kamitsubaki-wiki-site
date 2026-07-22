@@ -153,7 +153,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>うるさく<rt class="roma">urusaku</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>文字<rt class="furi">もじ</rt><rt class="roma">moji</rt></ruby><ruby>盤<rt class="furi">ばん</rt><rt class="roma">ban</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[01:39.46]<ruby>うるさく<rt class="roma">urusaku</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>文字<rt class="furi">もじ</rt><rt class="roma">moji</rt></ruby><ruby>盤<rt class="furi">ばん</rt><rt class="roma">ban</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
@@ -201,13 +201,13 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ああ<rt class="roma">aa</rt></ruby> <ruby>取り繕<rt class="furi">とりつくろ</rt><rt class="roma">toritsukuro</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
+[02:00.88]<ruby>ああ<rt class="roma">aa</rt></ruby> <ruby>取り繕<rt class="furi">とりつくろ</rt><rt class="roma">toritsukuro</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ちゃんと<rt class="roma">chanto</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>なきゃ<rt class="roma">nakya</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
+[02:03.05]<ruby>ちゃんと<rt class="roma">chanto</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>なきゃ<rt class="roma">nakya</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
 </div>
 
@@ -273,7 +273,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>わたし<rt class="roma">watashi</rt></ruby> <ruby>きゅう<rt class="roma">kyuu</rt></ruby><ruby>くら<rt class="roma">kura</rt></ruby><ruby>りん<rt class="roma">rin</rt></ruby>
+[02:48.80]<ruby>わたし<rt class="roma">watashi</rt></ruby> <ruby>きゅう<rt class="roma">kyuu</rt></ruby><ruby>くら<rt class="roma">kura</rt></ruby><ruby>りん<rt class="roma">rin</rt></ruby>
 </div>
 </div>
 
@@ -321,13 +321,13 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>空<rt class="furi">から</rt><rt class="roma">kara</rt></ruby><ruby>っぽ<rt class="roma">ppo</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>埋<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby>
+[03:09.33]<ruby>空<rt class="furi">から</rt><rt class="roma">kara</rt></ruby><ruby>っぽ<rt class="roma">ppo</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>埋<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>ばれ<rt class="roma">bare</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[03:11.62]<ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>ばれ<rt class="roma">bare</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 

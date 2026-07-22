@@ -367,7 +367,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>空想<rt class="furi">くうそう</rt><rt class="roma">kuusou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>鼓動<rt class="furi">こどう</rt><rt class="roma">kodou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>打<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
+[03:02.56]<ruby>空想<rt class="furi">くうそう</rt><rt class="roma">kuusou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>鼓動<rt class="furi">こどう</rt><rt class="roma">kodou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>打<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 
@@ -380,7 +380,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>戻<rt class="furi">もど</rt><rt class="roma">modo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[03:08.87]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>戻<rt class="furi">もど</rt><rt class="roma">modo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
@@ -395,25 +395,25 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>海<rt class="furi">うみ</rt><rt class="roma">umi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>渡<rt class="furi">わた</rt><rt class="roma">wata</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[03:30.02]<ruby>海<rt class="furi">うみ</rt><rt class="roma">umi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>渡<rt class="furi">わた</rt><rt class="roma">wata</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[03:33.57]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>化物<rt class="furi">ばけもの</rt><rt class="roma">bakemono</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+[03:37.06]<ruby>化物<rt class="furi">ばけもの</rt><rt class="roma">bakemono</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>選<rt class="furi">えら</rt><rt class="roma">era</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby>
+[03:40.84]<ruby>選<rt class="furi">えら</rt><rt class="roma">era</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby>
 </div>
 </div>
 
@@ -451,7 +451,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>なびい<rt class="roma">nabii</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
+[04:06.46]<ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>なびい<rt class="roma">nabii</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 

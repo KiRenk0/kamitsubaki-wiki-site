@@ -214,19 +214,19 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ナガレテク<rt class="roma">nagareteku</rt></ruby> <ruby>雲<rt class="furi">くも</rt><rt class="roma">kumo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>速<rt class="furi">はや</rt><rt class="roma">haya</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
+[02:55.18]<ruby>ナガレテク<rt class="roma">nagareteku</rt></ruby> <ruby>雲<rt class="furi">くも</rt><rt class="roma">kumo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>速<rt class="furi">はや</rt><rt class="roma">haya</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>置<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>かれ<rt class="roma">kare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby> <ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>エチュード<rt class="roma">echuudo</rt></ruby>
+[03:00.75]<ruby>置<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>かれ<rt class="roma">kare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby> <ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>エチュード<rt class="roma">echuudo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>カナエタイ<rt class="roma">kanaetai</rt></ruby> <ruby>静<rt class="furi">しず</rt><rt class="roma">shizu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>絶望<rt class="furi">ぜつぼう</rt><rt class="roma">zetsubou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[03:06.63]<ruby>カナエタイ<rt class="roma">kanaetai</rt></ruby> <ruby>静<rt class="furi">しず</rt><rt class="roma">shizu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>絶望<rt class="furi">ぜつぼう</rt><rt class="roma">zetsubou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
@@ -241,19 +241,19 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>カワリダス<rt class="roma">kawaridasu</rt></ruby> <ruby>街<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>風の音<rt class="furi">かぜのおと</rt><rt class="roma">kazenooto</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+[03:18.48]<ruby>カワリダス<rt class="roma">kawaridasu</rt></ruby> <ruby>街<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>風の音<rt class="furi">かぜのおと</rt><rt class="roma">kazenooto</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>とらえ<rt class="roma">torae</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>息吹<rt class="furi">いぶ</rt><rt class="roma">ibu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>数<rt class="furi">かず</rt><rt class="roma">kazu</rt></ruby> <ruby>ほどける<rt class="roma">hodokeru</rt></ruby><ruby>ソリチュード<rt class="roma">sorichuudo</rt></ruby>
+[03:23.55]<ruby>とらえ<rt class="roma">torae</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>息吹<rt class="furi">いぶ</rt><rt class="roma">ibu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>数<rt class="furi">かず</rt><rt class="roma">kazu</rt></ruby> <ruby>ほどける<rt class="roma">hodokeru</rt></ruby><ruby>ソリチュード<rt class="roma">sorichuudo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ナンドデモ<rt class="roma">nandodemo</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>はじめる<rt class="roma">hajimeru</rt></ruby>
+[03:29.65]<ruby>ナンドデモ<rt class="roma">nandodemo</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>はじめる<rt class="roma">hajimeru</rt></ruby>
 </div>
 </div>
 

@@ -103,7 +103,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ヘビースモーク<rt class="roma">hebiisumouku</rt></ruby>
+[01:24.85]<ruby>ヘビースモーク<rt class="roma">hebiisumouku</rt></ruby>
 </div>
 </div>
 
@@ -149,7 +149,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ヘビースモーク<rt class="roma">hebiisumouku</rt></ruby>
+[02:20.29]<ruby>ヘビースモーク<rt class="roma">hebiisumouku</rt></ruby>
 </div>
 </div>
 
@@ -167,13 +167,13 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ヘビースモーク<rt class="roma">hebiisumouku</rt></ruby>
+[02:34.32]<ruby>ヘビースモーク<rt class="roma">hebiisumouku</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それ<rt class="roma">sore</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>深<rt class="furi">ふか</rt><rt class="roma">fuka</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>吸い込<rt class="furi">すいこ</rt><rt class="roma">suiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[02:36.23]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>深<rt class="furi">ふか</rt><rt class="roma">fuka</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>吸い込<rt class="furi">すいこ</rt><rt class="roma">suiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
@@ -207,37 +207,37 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ヘビースモーク<rt class="roma">hebiisumouku</rt></ruby>
+[03:16.33]<ruby>ヘビースモーク<rt class="roma">hebiisumouku</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>手持ち無沙汰<rt class="furi">てもちぶさた</rt><rt class="roma">temochibusata</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
+[03:18.27]<ruby>手持ち無沙汰<rt class="furi">てもちぶさた</rt><rt class="roma">temochibusata</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>両<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>握<rt class="furi">にぎ</rt><rt class="roma">nigi</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>拘束<rt class="furi">こうそく</rt><rt class="roma">kousoku</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>
+[03:22.66]<ruby>両<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>握<rt class="furi">にぎ</rt><rt class="roma">nigi</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>拘束<rt class="furi">こうそく</rt><rt class="roma">kousoku</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ヘビースモーク<rt class="roma">hebiisumouku</rt></ruby>
+[03:30.05]<ruby>ヘビースモーク<rt class="roma">hebiisumouku</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それ<rt class="roma">sore</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>深<rt class="furi">ふか</rt><rt class="roma">fuka</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>吸い込<rt class="furi">すいこ</rt><rt class="roma">suiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[03:31.93]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>深<rt class="furi">ふか</rt><rt class="roma">fuka</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>吸い込<rt class="furi">すいこ</rt><rt class="roma">suiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>色<rt class="furi">しょく</rt><rt class="roma">shoku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>なり<rt class="roma">nari</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[03:35.95]<ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>色<rt class="furi">しょく</rt><rt class="roma">shoku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>なり<rt class="roma">nari</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 </div>
 
@@ -245,43 +245,43 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ヘビースモーク<rt class="roma">hebiisumouku</rt></ruby>
+[03:44.34]<ruby>ヘビースモーク<rt class="roma">hebiisumouku</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>口<rt class="furi">くち</rt><rt class="roma">kuchi</rt></ruby><ruby>寂<rt class="furi">さび</rt><rt class="roma">sabi</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
+[03:45.90]<ruby>口<rt class="furi">くち</rt><rt class="roma">kuchi</rt></ruby><ruby>寂<rt class="furi">さび</rt><rt class="roma">sabi</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>その<rt class="roma">sono</rt></ruby><ruby>口<rt class="furi">くち</rt><rt class="roma">kuchi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>がち<rt class="roma">gachi</rt></ruby><ruby>ゅってして<rt class="roma">yutteshite</rt></ruby><ruby>拘束<rt class="furi">こうそく</rt><rt class="roma">kousoku</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>
+[03:50.96]<ruby>その<rt class="roma">sono</rt></ruby><ruby>口<rt class="furi">くち</rt><rt class="roma">kuchi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>がち<rt class="roma">gachi</rt></ruby><ruby>ゅってして<rt class="roma">yutteshite</rt></ruby><ruby>拘束<rt class="furi">こうそく</rt><rt class="roma">kousoku</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ヘビースモーク<rt class="roma">hebiisumouku</rt></ruby>
+[03:57.97]<ruby>ヘビースモーク<rt class="roma">hebiisumouku</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それ<rt class="roma">sore</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>深<rt class="furi">ふか</rt><rt class="roma">fuka</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>吸い込<rt class="furi">すいこ</rt><rt class="roma">suiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[03:59.71]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>深<rt class="furi">ふか</rt><rt class="roma">fuka</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>吸い込<rt class="furi">すいこ</rt><rt class="roma">suiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>以上<rt class="furi">いじょう</rt><rt class="roma">ijou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>身体<rt class="furi">しんたい</rt><rt class="roma">shintai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>蝕<rt class="furi">むしば</rt><rt class="roma">mushiba</rt></ruby><ruby>め<rt class="roma">me</rt></ruby>
+[04:03.68]<ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>以上<rt class="furi">いじょう</rt><rt class="roma">ijou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>身体<rt class="furi">しんたい</rt><rt class="roma">shintai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>蝕<rt class="furi">むしば</rt><rt class="roma">mushiba</rt></ruby><ruby>め<rt class="roma">me</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>以上<rt class="furi">いじょう</rt><rt class="roma">ijou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>身体<rt class="furi">しんたい</rt><rt class="roma">shintai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>蝕<rt class="furi">むしば</rt><rt class="roma">mushiba</rt></ruby><ruby>め<rt class="roma">me</rt></ruby>
+[04:12.05]<ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>以上<rt class="furi">いじょう</rt><rt class="roma">ijou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>身体<rt class="furi">しんたい</rt><rt class="roma">shintai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>蝕<rt class="furi">むしば</rt><rt class="roma">mushiba</rt></ruby><ruby>め<rt class="roma">me</rt></ruby>
 </div>
 </div>
 

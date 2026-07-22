@@ -93,25 +93,25 @@ image: /images/songs/koko/single-1678056895.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Why am I here?
+[00:54.80]Why am I here?
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Why did I keep quiet?
+[00:56.73]Why did I keep quiet?
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-What is my point?
+[00:58.69]What is my point?
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Where is my word?
+[01:00.57]Where is my word?
 </div>
 </div>
 
@@ -171,85 +171,85 @@ Where is my word?
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Why am I here?
+[02:10.68]Why am I here?
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Why did I keep quiet?
+[02:12.76]Why did I keep quiet?
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-What is my point?
+[02:14.84]What is my point?
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Where is my word?
+[02:16.72]Where is my word?
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Why am I here?
+[02:18.72]Why am I here?
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Why did I keep quiet?
+[02:20.61]Why did I keep quiet?
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-What is my point?
+[02:22.62]What is my point?
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Where is my word?
+[02:24.49]Where is my word?
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-This is what it is abstractions void
+[02:33.87]This is what it is abstractions void
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Blankness is what I am.
+[02:37.42]Blankness is what I am.
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-There is no actual situation.
+[02:39.31]There is no actual situation.
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Not even the definition can catch me
+[02:42.08]Not even the definition can catch me
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Regression is the engraving
+[02:45.15]Regression is the engraving
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-There is all reason being negated by the inevitable phenomenon
+[02:46.99]There is all reason being negated by the inevitable phenomenon
 </div>
 </div>
 
@@ -303,43 +303,43 @@ There is all reason being negated by the inevitable phenomenon
 
 <div class="lyric-line">
 <div class="jp-lyric">
-This is what it is abstractions void
+[03:32.61]This is what it is abstractions void
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Blankness is what I am.
+[03:35.93]Blankness is what I am.
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-There is no actual situation.
+[03:37.87]There is no actual situation.
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Not even the definition can catch me
+[03:40.63]Not even the definition can catch me
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Regression is the engraving
+[03:43.67]Regression is the engraving
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-There is all reason being negated by the inevitable phenomenon
+[03:45.69]There is all reason being negated by the inevitable phenomenon
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Now, I give away again
+[04:05.88]Now, I give away again
 </div>
 </div>
 

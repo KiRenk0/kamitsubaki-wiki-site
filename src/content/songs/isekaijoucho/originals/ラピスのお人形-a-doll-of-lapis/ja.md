@@ -93,7 +93,7 @@ image: /images/songs/isekaijoucho/single-1706063153.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>こわれる<rt class="roma">kowareru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>だきしめ<rt class="roma">dakishime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[00:51.00]<ruby>こわれる<rt class="roma">kowareru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>だきしめ<rt class="roma">dakishime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 

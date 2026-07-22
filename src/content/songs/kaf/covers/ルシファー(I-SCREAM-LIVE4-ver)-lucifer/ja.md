@@ -239,13 +239,13 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ルシファー<rt class="roma">rushifuaa</rt></ruby>
+[01:46.42]<ruby>ルシファー<rt class="roma">rushifuaa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ル<rt class="roma">ru</rt></ruby> <ruby>ルシファー<rt class="roma">rushifuaa</rt></ruby>
+[01:47.45]<ruby>ル<rt class="roma">ru</rt></ruby> <ruby>ルシファー<rt class="roma">rushifuaa</rt></ruby>
 </div>
 </div>
 
@@ -291,7 +291,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ルシファー<rt class="roma">rushifuaa</rt></ruby>
+[02:26.00]<ruby>ルシファー<rt class="roma">rushifuaa</rt></ruby>
 </div>
 </div>
 
@@ -323,13 +323,13 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ルシファー<rt class="roma">rushifuaa</rt></ruby>
+[02:36.15]<ruby>ルシファー<rt class="roma">rushifuaa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ル<rt class="roma">ru</rt></ruby> <ruby>ルシファー<rt class="roma">rushifuaa</rt></ruby>
+[02:37.28]<ruby>ル<rt class="roma">ru</rt></ruby> <ruby>ルシファー<rt class="roma">rushifuaa</rt></ruby>
 </div>
 </div>
 
@@ -349,7 +349,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>友<rt class="furi">とも</rt><rt class="roma">tomo</rt></ruby><ruby>だち<rt class="roma">dachi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[02:45.67]<ruby>友<rt class="furi">とも</rt><rt class="roma">tomo</rt></ruby><ruby>だち<rt class="roma">dachi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
@@ -361,7 +361,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>親<rt class="furi">おや</rt><rt class="roma">oya</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby>
+[02:50.92]<ruby>親<rt class="furi">おや</rt><rt class="roma">oya</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby>
 </div>
 </div>
 
@@ -387,7 +387,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>修羅場<rt class="furi">しゅらば</rt><rt class="roma">shuraba</rt></ruby><ruby>こそ<rt class="roma">koso</rt></ruby>
+[03:01.09]<ruby>修羅場<rt class="furi">しゅらば</rt><rt class="roma">shuraba</rt></ruby><ruby>こそ<rt class="roma">koso</rt></ruby>
 </div>
 </div>
 

@@ -40,7 +40,7 @@ image: /images/songs/kaf/track-1687478190.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Beyond meta, meta
+[00:15.15]Beyond meta, meta
 </div>
 </div>
 
@@ -54,7 +54,7 @@ Beyond meta, meta
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ワンピース<rt class="roma">wanpiisu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[00:20.52]<ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ワンピース<rt class="roma">wanpiisu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
@@ -66,7 +66,7 @@ Beyond meta, meta
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ドキドキ<rt class="roma">dokidoki</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
+[00:28.51]<ruby>ドキドキ<rt class="roma">dokidoki</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
@@ -74,7 +74,7 @@ Beyond meta, meta
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
+[00:31.44]<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
 </div>
 
@@ -106,7 +106,7 @@ Beyond meta, meta
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>画面<rt class="furi">がめん</rt><rt class="roma">gamen</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>超<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>次<rt class="furi">つぎ</rt><rt class="roma">tsugi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ステップ<rt class="roma">suteppu</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
+[00:54.21]<ruby>画面<rt class="furi">がめん</rt><rt class="roma">gamen</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>超<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>次<rt class="furi">つぎ</rt><rt class="roma">tsugi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ステップ<rt class="roma">suteppu</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
 </div>
 
@@ -136,19 +136,19 @@ Beyond meta, meta
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>完璧<rt class="furi">かんぺき</rt><rt class="roma">kanpeki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[01:08.99]<ruby>完璧<rt class="furi">かんぺき</rt><rt class="roma">kanpeki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Let's go beyond, yeah
+[01:12.35]Let's go beyond, yeah
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Let's go beyond meta
+[01:14.39]Let's go beyond meta
 </div>
 </div>
 
@@ -156,13 +156,13 @@ Let's go beyond meta
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Beyond meta, meta
+[01:21.64]Beyond meta, meta
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Beyond meta, meta
+[01:28.99]Beyond meta, meta
 </div>
 </div>
 
@@ -170,13 +170,13 @@ Beyond meta, meta
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ピクセル<rt class="roma">pikuseru</rt></ruby><ruby>化<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>その<rt class="roma">sono</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
+[01:38.28]<ruby>ピクセル<rt class="roma">pikuseru</rt></ruby><ruby>化<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>その<rt class="roma">sono</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>毎日<rt class="furi">まいにち</rt><rt class="roma">mainichi</rt></ruby><ruby>起<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>きる<rt class="roma">kiru</rt></ruby><ruby>理由<rt class="furi">りゆう</rt><rt class="roma">riyuu</rt></ruby>
+[01:45.68]<ruby>毎日<rt class="furi">まいにち</rt><rt class="roma">mainichi</rt></ruby><ruby>起<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>きる<rt class="roma">kiru</rt></ruby><ruby>理由<rt class="furi">りゆう</rt><rt class="roma">riyuu</rt></ruby>
 </div>
 </div>
 
@@ -190,7 +190,7 @@ Beyond meta, meta
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
+[01:52.70]<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
 </div>
 
@@ -202,7 +202,7 @@ Beyond meta, meta
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>超<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[02:00.47]<ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>超<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
@@ -222,25 +222,25 @@ Beyond meta, meta
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby> I gotta be with ya, ya, ya, ya
+[02:11.71]<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby> I gotta be with ya, ya, ya, ya
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>画面<rt class="furi">がめん</rt><rt class="roma">gamen</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>超<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>次<rt class="furi">つぎ</rt><rt class="roma">tsugi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ステップ<rt class="roma">suteppu</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
+[02:15.24]<ruby>画面<rt class="furi">がめん</rt><rt class="roma">gamen</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>超<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>次<rt class="furi">つぎ</rt><rt class="roma">tsugi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ステップ<rt class="roma">suteppu</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Let's go beyond, yeah
+[02:18.92]Let's go beyond, yeah
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Let's go beyond meta
+[02:20.87]Let's go beyond meta
 </div>
 </div>
 
@@ -258,19 +258,19 @@ Let's go beyond meta
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そのまま<rt class="roma">sonomama</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>？
+[02:30.08]<ruby>そのまま<rt class="roma">sonomama</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Let's go beyond, yeah
+[02:33.53]Let's go beyond, yeah
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Let's go beyond meta
+[02:35.49]Let's go beyond meta
 </div>
 </div>
 
@@ -278,19 +278,19 @@ Let's go beyond meta
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>禁<rt class="furi">きん</rt><rt class="roma">kin</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>かも<rt class="roma">kamo</rt></ruby>
+[02:38.16]<ruby>禁<rt class="furi">きん</rt><rt class="roma">kin</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>かも<rt class="roma">kamo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>でも<rt class="roma">demo</rt></ruby> <ruby>その<rt class="roma">sono</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>度<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby>
+[02:41.97]<ruby>でも<rt class="roma">demo</rt></ruby> <ruby>その<rt class="roma">sono</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>度<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>深<rt class="furi">ふか</rt><rt class="roma">fuka</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> <ruby>深<rt class="furi">ふか</rt><rt class="roma">fuka</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> <ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ちる<rt class="roma">chiru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[02:45.61]<ruby>深<rt class="furi">ふか</rt><rt class="roma">fuka</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> <ruby>深<rt class="furi">ふか</rt><rt class="roma">fuka</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> <ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ちる<rt class="roma">chiru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
@@ -316,31 +316,31 @@ Let's go beyond meta
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby> I wanna see ya, ya, ya, ya
+[03:03.21]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby> I wanna see ya, ya, ya, ya
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby> I gotta be with ya, ya, ya, ya
+[03:07.10]<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby> I gotta be with ya, ya, ya, ya
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>画面<rt class="furi">がめん</rt><rt class="roma">gamen</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>超<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>次<rt class="furi">つぎ</rt><rt class="roma">tsugi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ステップ<rt class="roma">suteppu</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
+[03:10.62]<ruby>画面<rt class="furi">がめん</rt><rt class="roma">gamen</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>超<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>次<rt class="furi">つぎ</rt><rt class="roma">tsugi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ステップ<rt class="roma">suteppu</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Let's go beyond, yeah
+[03:14.19]Let's go beyond, yeah
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Let's go beyond meta
+[03:16.06]Let's go beyond meta
 </div>
 </div>
 
@@ -348,13 +348,13 @@ Let's go beyond meta
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Beyond meta, meta
+[03:23.52]Beyond meta, meta
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Beyond meta, meta
+[03:30.93]Beyond meta, meta
 </div>
 </div>
 

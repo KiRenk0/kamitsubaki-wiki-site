@@ -177,13 +177,13 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby>
+[03:14.28]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>べる<rt class="roma">beru</rt></ruby>
+[03:21.24]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>べる<rt class="roma">beru</rt></ruby>
 </div>
 </div>
 
@@ -203,13 +203,13 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby>
+[03:41.50]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>べる<rt class="roma">beru</rt></ruby>
+[03:48.69]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>べる<rt class="roma">beru</rt></ruby>
 </div>
 </div>
 
@@ -221,13 +221,13 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>景色<rt class="furi">けしき</rt><rt class="roma">keshiki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[04:03.62]<ruby>景色<rt class="furi">けしき</rt><rt class="roma">keshiki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>自由<rt class="furi">じゆう</rt><rt class="roma">jiyuu</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[04:10.14]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>自由<rt class="furi">じゆう</rt><rt class="roma">jiyuu</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 

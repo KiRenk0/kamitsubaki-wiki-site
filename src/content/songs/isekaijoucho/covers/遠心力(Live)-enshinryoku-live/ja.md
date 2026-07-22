@@ -157,25 +157,25 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>感動<rt class="furi">かんどう</rt><rt class="roma">kandou</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>対<rt class="furi">たい</rt><rt class="roma">tai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
+[01:20.92]<ruby>感動<rt class="furi">かんどう</rt><rt class="roma">kandou</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>対<rt class="furi">たい</rt><rt class="roma">tai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>遠心<rt class="furi">えんしん</rt><rt class="roma">enshin</rt></ruby><ruby>力<rt class="furi">りょく</rt><rt class="roma">ryoku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>動<rt class="furi">うご</rt><rt class="roma">ugo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> <ruby>ふしぎ<rt class="roma">fushigi</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
+[01:23.82]<ruby>遠心<rt class="furi">えんしん</rt><rt class="roma">enshin</rt></ruby><ruby>力<rt class="furi">りょく</rt><rt class="roma">ryoku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>動<rt class="furi">うご</rt><rt class="roma">ugo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> <ruby>ふしぎ<rt class="roma">fushigi</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>相反<rt class="furi">そうはん</rt><rt class="roma">souhan</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>感覚<rt class="furi">かんかく</rt><rt class="roma">kankaku</rt></ruby>
+[01:26.80]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>相反<rt class="furi">そうはん</rt><rt class="roma">souhan</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>感覚<rt class="furi">かんかく</rt><rt class="roma">kankaku</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ひとりでに<rt class="roma">hitorideni</rt></ruby><ruby>完成<rt class="furi">かんせい</rt><rt class="roma">kansei</rt></ruby><ruby>系<rt class="furi">けい</rt><rt class="roma">kei</rt></ruby>
+[01:29.89]<ruby>ひとりでに<rt class="roma">hitorideni</rt></ruby><ruby>完成<rt class="furi">かんせい</rt><rt class="roma">kansei</rt></ruby><ruby>系<rt class="furi">けい</rt><rt class="roma">kei</rt></ruby>
 </div>
 </div>
 

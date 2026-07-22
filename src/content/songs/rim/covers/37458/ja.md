@@ -144,31 +144,31 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>なし<rt class="roma">nashi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>ただ<rt class="roma">tada</rt></ruby>
+[01:41.27]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>なし<rt class="roma">nashi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>ただ<rt class="roma">tada</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>それだけ<rt class="roma">soredake</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
+[01:46.44]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>それだけ<rt class="roma">soredake</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>この<rt class="roma">kono</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>とれる<rt class="roma">toreru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いや<rt class="roma">iya</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[01:52.14]<ruby>この<rt class="roma">kono</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>とれる<rt class="roma">toreru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いや<rt class="roma">iya</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どう<rt class="roma">dou</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby><ruby>黙<rt class="furi">だま</rt><rt class="roma">dama</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>パパ<rt class="roma">papa</rt></ruby>
+[01:56.67]<ruby>どう<rt class="roma">dou</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby><ruby>黙<rt class="furi">だま</rt><rt class="roma">dama</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>パパ<rt class="roma">papa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>黙<rt class="furi">だま</rt><rt class="roma">dama</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>パパ<rt class="roma">papa</rt></ruby>
+[02:02.11]<ruby>黙<rt class="furi">だま</rt><rt class="roma">dama</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>パパ<rt class="roma">papa</rt></ruby>
 </div>
 </div>
 
@@ -222,7 +222,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>大丈夫<rt class="furi">だいじょうぶ</rt><rt class="roma">daijoubu</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[02:42.94]<ruby>大丈夫<rt class="furi">だいじょうぶ</rt><rt class="roma">daijoubu</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
 </div>
 
@@ -240,19 +240,19 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>この<rt class="roma">kono</rt></ruby><ruby>なんと<rt class="roma">nanto</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いや<rt class="roma">iya</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[02:57.71]<ruby>この<rt class="roma">kono</rt></ruby><ruby>なんと<rt class="roma">nanto</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いや<rt class="roma">iya</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>なし<rt class="roma">nashi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>ただ<rt class="roma">tada</rt></ruby>
+[03:02.34]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>なし<rt class="roma">nashi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>ただ<rt class="roma">tada</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>それだけ<rt class="roma">soredake</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
+[03:07.69]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>それだけ<rt class="roma">soredake</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
 </div>
 </div>
 
@@ -302,31 +302,31 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>だから<rt class="roma">dakara</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>なんと<rt class="roma">nanto</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いや<rt class="roma">iya</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[04:14.69]<ruby>だから<rt class="roma">dakara</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>なんと<rt class="roma">nanto</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いや<rt class="roma">iya</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>なし<rt class="roma">nashi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>ただ<rt class="roma">tada</rt></ruby>
+[04:19.70]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>なし<rt class="roma">nashi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>ただ<rt class="roma">tada</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>それだけ<rt class="roma">soredake</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
+[04:25.16]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>それだけ<rt class="roma">soredake</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>この<rt class="roma">kono</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>とれる<rt class="roma">toreru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いや<rt class="roma">iya</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[04:30.92]<ruby>この<rt class="roma">kono</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>とれる<rt class="roma">toreru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いや<rt class="roma">iya</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どう<rt class="roma">dou</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby><ruby>黙<rt class="furi">だま</rt><rt class="roma">dama</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>パパ<rt class="roma">papa</rt></ruby>
+[04:35.18]<ruby>どう<rt class="roma">dou</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby><ruby>黙<rt class="furi">だま</rt><rt class="roma">dama</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>パパ<rt class="roma">papa</rt></ruby>
 </div>
 </div>
 
@@ -356,7 +356,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>この<rt class="roma">kono</rt></ruby><ruby>なんと<rt class="roma">nanto</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いや<rt class="roma">iya</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[05:01.83]<ruby>この<rt class="roma">kono</rt></ruby><ruby>なんと<rt class="roma">nanto</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いや<rt class="roma">iya</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 

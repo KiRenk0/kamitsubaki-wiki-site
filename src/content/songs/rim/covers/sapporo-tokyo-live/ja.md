@@ -169,19 +169,19 @@ image: /images/albums/rim/chocolate-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(Tu-ru-ru, tu-ru-ru, tu-ru-ru, tu-ru-ru, tu-tu)
+[01:26.73](Tu-ru-ru, tu-ru-ru, tu-ru-ru, tu-ru-ru, tu-tu)
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Sapporo Tokyo
+[01:31.06]Sapporo Tokyo
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(Tu-ru-ru, tu-ru-ru, tu-ru-ru, tu-ru-ru, tu-tu)
+[01:32.45](Tu-ru-ru, tu-ru-ru, tu-ru-ru, tu-ru-ru, tu-tu)
 </div>
 </div>
 
@@ -251,7 +251,7 @@ Sapporo Tokyo
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(Tu-ru-ru, tu-ru-ru, tu-ru-ru) yeah
+[02:25.68](Tu-ru-ru, tu-ru-ru, tu-ru-ru) yeah
 </div>
 </div>
 
@@ -259,7 +259,7 @@ Sapporo Tokyo
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>さあ<rt class="roma">saa</rt></ruby>、<ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[02:30.96]<ruby>さあ<rt class="roma">saa</rt></ruby>、<ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
@@ -271,13 +271,13 @@ Sapporo Tokyo
 
 <div class="lyric-line">
 <div class="jp-lyric">
-One, two, three <ruby>で<rt class="roma">de</rt></ruby> flying up
+[02:36.80]One, two, three <ruby>で<rt class="roma">de</rt></ruby> flying up
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>チケット<rt class="roma">chiketto</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>高<rt class="furi">たか</rt><rt class="roma">taka</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby>
+[02:39.25]<ruby>チケット<rt class="roma">chiketto</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>高<rt class="furi">たか</rt><rt class="roma">taka</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby>
 </div>
 </div>
 
@@ -289,19 +289,19 @@ One, two, three <ruby>で<rt class="roma">de</rt></ruby> flying up
 
 <div class="lyric-line">
 <div class="jp-lyric">
-A, B, C <ruby>で<rt class="roma">de</rt></ruby> coming back
+[02:47.87]A, B, C <ruby>で<rt class="roma">de</rt></ruby> coming back
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ありがとう<rt class="roma">arigatou</rt></ruby> <ruby>ただいま<rt class="roma">tadaima</rt></ruby>
+[02:50.41]<ruby>ありがとう<rt class="roma">arigatou</rt></ruby> <ruby>ただいま<rt class="roma">tadaima</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(Tu-ru-ru, tu-ru-ru, tu-ru-ru, tu-ru-ru, tu-tu)
+[02:53.36](Tu-ru-ru, tu-ru-ru, tu-ru-ru, tu-ru-ru, tu-tu)
 </div>
 </div>
 
@@ -319,7 +319,7 @@ A, B, C <ruby>で<rt class="roma">de</rt></ruby> coming back
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(Tu-ru-ru, tu-ru-ru, tu-ru-ru, tu-ru-ru, tu-tu)
+[03:04.57](Tu-ru-ru, tu-ru-ru, tu-ru-ru, tu-ru-ru, tu-tu)
 </div>
 </div>
 
@@ -331,7 +331,7 @@ A, B, C <ruby>で<rt class="roma">de</rt></ruby> coming back
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(Tu-ru-ru, tu-ru-ru, tu-ru-ru, tu-ru-ru, tu-tu)
+[03:10.13](Tu-ru-ru, tu-ru-ru, tu-ru-ru, tu-ru-ru, tu-tu)
 </div>
 </div>
 

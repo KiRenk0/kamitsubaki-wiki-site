@@ -268,7 +268,7 @@ image: /images/albums/rim/singularity-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>霞<rt class="furi">かすみ</rt><rt class="roma">kasumi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>つい<rt class="roma">tsui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くる<rt class="roma">kuru</rt></ruby>
+[03:21.67]<ruby>霞<rt class="furi">かすみ</rt><rt class="roma">kasumi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>つい<rt class="roma">tsui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くる<rt class="roma">kuru</rt></ruby>
 </div>
 </div>
 

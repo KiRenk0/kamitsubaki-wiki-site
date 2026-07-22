@@ -161,7 +161,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>単純<rt class="furi">たんじゅん</rt><rt class="roma">tanjun</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+[01:41.83]<ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>単純<rt class="furi">たんじゅん</rt><rt class="roma">tanjun</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
 </div>
 
@@ -291,7 +291,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>単純<rt class="furi">たんじゅん</rt><rt class="roma">tanjun</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+[03:30.87]<ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>単純<rt class="furi">たんじゅん</rt><rt class="roma">tanjun</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
 </div>
 
@@ -335,7 +335,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>かせ<rt class="roma">kase</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
+[04:00.04]<ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>かせ<rt class="roma">kase</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
 </div>
 

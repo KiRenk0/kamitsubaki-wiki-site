@@ -123,7 +123,7 @@ image: /images/songs/rim/single-1687473629.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
+[01:04.52]<ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
 </div>
 </div>
 
@@ -175,25 +175,25 @@ image: /images/songs/rim/single-1687473629.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>世の中<rt class="furi">よのなか</rt><rt class="roma">yononaka</rt></ruby><ruby>推敲<rt class="furi">すいこう</rt><rt class="roma">suikou</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>嘘<rt class="furi">うそ</rt><rt class="roma">uso</rt></ruby><ruby>ばっか<rt class="roma">bakka</rt></ruby>
+[01:52.88]<ruby>世の中<rt class="furi">よのなか</rt><rt class="roma">yononaka</rt></ruby><ruby>推敲<rt class="furi">すいこう</rt><rt class="roma">suikou</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>嘘<rt class="furi">うそ</rt><rt class="roma">uso</rt></ruby><ruby>ばっか<rt class="roma">bakka</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
+[01:59.45]<ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>奥<rt class="furi">おく</rt><rt class="roma">oku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[02:06.29]<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>奥<rt class="furi">おく</rt><rt class="roma">oku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
+[02:13.15]<ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
 </div>
 </div>
 
@@ -224,25 +224,25 @@ image: /images/songs/rim/single-1687473629.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>世の中<rt class="furi">よのなか</rt><rt class="roma">yononaka</rt></ruby><ruby>推敲<rt class="furi">すいこう</rt><rt class="roma">suikou</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>嘘<rt class="furi">うそ</rt><rt class="roma">uso</rt></ruby><ruby>ばっか<rt class="roma">bakka</rt></ruby>
+[02:47.58]<ruby>世の中<rt class="furi">よのなか</rt><rt class="roma">yononaka</rt></ruby><ruby>推敲<rt class="furi">すいこう</rt><rt class="roma">suikou</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>嘘<rt class="furi">うそ</rt><rt class="roma">uso</rt></ruby><ruby>ばっか<rt class="roma">bakka</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
+[02:54.30]<ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>奥<rt class="furi">おく</rt><rt class="roma">oku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[03:01.23]<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>奥<rt class="furi">おく</rt><rt class="roma">oku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
+[03:08.07]<ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
 </div>
 </div>
 

@@ -51,51 +51,51 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>昼下<rt class="furi">ひるさ</rt><rt class="roma">hirusa</rt></ruby><ruby>がり<rt class="roma">gari</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>柔<rt class="furi">やわ</rt><rt class="roma">yawa</rt></ruby><ruby>らかい<rt class="roma">rakai</rt></ruby><ruby>日差<rt class="furi">ひざ</rt><rt class="roma">hiza</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
+[00:10.91]<ruby>昼下<rt class="furi">ひるさ</rt><rt class="roma">hirusa</rt></ruby><ruby>がり<rt class="roma">gari</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>柔<rt class="furi">やわ</rt><rt class="roma">yawa</rt></ruby><ruby>らかい<rt class="roma">rakai</rt></ruby><ruby>日差<rt class="furi">ひざ</rt><rt class="roma">hiza</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
-<div class="cn-lyric">午后柔和的阳光</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>体<rt class="furi">からだ</rt><rt class="roma">karada</rt></ruby><ruby>ぽかぽか<rt class="roma">pokapoka</rt></ruby><ruby>まるで<rt class="roma">marude</rt></ruby><ruby>子守<rt class="furi">こもり</rt><rt class="roma">komori</rt></ruby><ruby>唄<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby>
-</div>
-<div class="cn-lyric">身体暖洋洋像摇篮曲</div>
+<div class="cn-lyric">[00:10.91]午后柔和的阳光</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>カーテン<rt class="roma">kaaten</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>まつげ<rt class="roma">matsuge</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ゆらゆら<rt class="roma">yurayura</rt></ruby>
+[00:13.82]<ruby>体<rt class="furi">からだ</rt><rt class="roma">karada</rt></ruby><ruby>ぽかぽか<rt class="roma">pokapoka</rt></ruby><ruby>まるで<rt class="roma">marude</rt></ruby><ruby>子守<rt class="furi">こもり</rt><rt class="roma">komori</rt></ruby><ruby>唄<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby>
 </div>
-<div class="cn-lyric">摇曳的窗帘上睫毛也轻轻晃动</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>いつの間<rt class="furi">いつのま</rt><rt class="roma">itsunoma</rt></ruby><ruby>にか<rt class="roma">nika</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>スヤスヤ<rt class="roma">suyasuya</rt></ruby>
-</div>
-<div class="cn-lyric">不知不觉在梦中呼呼大睡</div>
+<div class="cn-lyric">[00:13.82]身体暖洋洋像摇篮曲</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>この<rt class="roma">kono</rt></ruby><ruby>幸<rt class="furi">しあわ</rt><rt class="roma">shiawa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby> <ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>寝<rt class="furi">ね</rt><rt class="roma">ne</rt></ruby>
+[00:16.51]<ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>カーテン<rt class="roma">kaaten</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>まつげ<rt class="roma">matsuge</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ゆらゆら<rt class="roma">yurayura</rt></ruby>
 </div>
-<div class="cn-lyric">这份幸福 从早晨再睡回笼觉</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>もはや<rt class="roma">mohaya</rt></ruby><ruby>昼寝<rt class="furi">ひるね</rt><rt class="roma">hirune</rt></ruby> <ruby>お構<rt class="furi">おかま</rt><rt class="roma">okama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>なし<rt class="roma">nashi</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
-</div>
-<div class="cn-lyric">已经是午睡 不管不顾了呢</div>
+<div class="cn-lyric">[00:16.51]摇曳的窗帘上睫毛也轻轻晃动</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あと<rt class="roma">ato</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べる<rt class="roma">beru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ケーキ<rt class="roma">keeki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>コーヒー<rt class="roma">kouhii</rt></ruby>
+[00:19.20]<ruby>いつの間<rt class="furi">いつのま</rt><rt class="roma">itsunoma</rt></ruby><ruby>にか<rt class="roma">nika</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>スヤスヤ<rt class="roma">suyasuya</rt></ruby>
 </div>
-<div class="cn-lyric">等会儿吃蛋糕和咖啡</div>
+<div class="cn-lyric">[00:19.20]不知不觉在梦中呼呼大睡</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:21.98]<ruby>この<rt class="roma">kono</rt></ruby><ruby>幸<rt class="furi">しあわ</rt><rt class="roma">shiawa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby> <ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>寝<rt class="furi">ね</rt><rt class="roma">ne</rt></ruby>
+</div>
+<div class="cn-lyric">[00:21.98]这份幸福 从早晨再睡回笼觉</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:24.64]<ruby>もはや<rt class="roma">mohaya</rt></ruby><ruby>昼寝<rt class="furi">ひるね</rt><rt class="roma">hirune</rt></ruby> <ruby>お構<rt class="furi">おかま</rt><rt class="roma">okama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>なし<rt class="roma">nashi</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
+</div>
+<div class="cn-lyric">[00:24.64]已经是午睡 不管不顾了呢</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:27.48]<ruby>あと<rt class="roma">ato</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べる<rt class="roma">beru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ケーキ<rt class="roma">keeki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>コーヒー<rt class="roma">kouhii</rt></ruby>
+</div>
+<div class="cn-lyric">[00:27.48]等会儿吃蛋糕和咖啡</div>
 </div>
 
 <div class="lyric-line">
@@ -128,9 +128,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>抱<rt class="furi">かか</rt><rt class="roma">kaka</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>テディベア<rt class="roma">tedeibea</rt></ruby>
+[00:44.71]<ruby>抱<rt class="furi">かか</rt><rt class="roma">kaka</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>テディベア<rt class="roma">tedeibea</rt></ruby>
 </div>
-<div class="cn-lyric">抱着泰迪熊</div>
+<div class="cn-lyric">[00:44.71]抱着泰迪熊</div>
 </div>
 
 <div class="lyric-line">

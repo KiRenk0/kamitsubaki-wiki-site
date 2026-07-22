@@ -134,7 +134,7 @@ image: /images/songs/vwp/single-1864120511.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-（Shake it like a fate）
+[00:47.60]（Shake it like a fate）
 </div>
 </div>
 
@@ -163,7 +163,7 @@ image: /images/songs/vwp/single-1864120511.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-（Shake it like a fate）
+[00:54.34]（Shake it like a fate）
 </div>
 </div>
 
@@ -279,7 +279,7 @@ image: /images/songs/vwp/single-1864120511.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>正真正銘<rt class="furi">しょうしんしょうめい</rt><rt class="roma">shoushinshoumei</rt></ruby> <ruby>これ<rt class="roma">kore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby> <ruby>さあ<rt class="roma">saa</rt></ruby><ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>めよ<rt class="roma">meyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[01:57.94]<ruby>正真正銘<rt class="furi">しょうしんしょうめい</rt><rt class="roma">shoushinshoumei</rt></ruby> <ruby>これ<rt class="roma">kore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby> <ruby>さあ<rt class="roma">saa</rt></ruby><ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>めよ<rt class="roma">meyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
@@ -306,19 +306,19 @@ image: /images/songs/vwp/single-1864120511.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-（Shake it like a fate）
+[02:20.80]（Shake it like a fate）
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>狂<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>躁<ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby> Always Trouble
+[02:21.95]<ruby>狂<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>躁<ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby> Always Trouble
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-（Fight it Fight it）
+[02:24.55]（Fight it Fight it）
 </div>
 </div>
 
@@ -331,7 +331,7 @@ image: /images/songs/vwp/single-1864120511.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-（Shake it like a fate）
+[02:27.44]（Shake it like a fate）
 </div>
 </div>
 
@@ -351,31 +351,31 @@ image: /images/songs/vwp/single-1864120511.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-All our sins grieve well
+[02:38.75]All our sins grieve well
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Everything alt
+[02:42.13]Everything alt
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-We shoot for reason
+[02:45.56]We shoot for reason
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-We can’t plaster fight, you
+[02:48.87]We can’t plaster fight, you
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>燃<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby> <ruby>鼓動<rt class="furi">こどう</rt><rt class="roma">kodou</rt></ruby> <ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby> <ruby>祈<rt class="furi">いの</rt><rt class="roma">ino</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>
+[03:06.42]<ruby>燃<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby> <ruby>鼓動<rt class="furi">こどう</rt><rt class="roma">kodou</rt></ruby> <ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby> <ruby>祈<rt class="furi">いの</rt><rt class="roma">ino</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>
 </div>
 </div>
 

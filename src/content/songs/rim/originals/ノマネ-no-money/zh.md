@@ -180,9 +180,9 @@ image: /images/songs/rim/single-1840911230.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あぁ<rt class="roma">aa</rt></ruby>･･･
+[01:16.32]<ruby>あぁ<rt class="roma">aa</rt></ruby>･･･
 </div>
-<div class="cn-lyric">啊...</div>
+<div class="cn-lyric">[01:16.32]啊...</div>
 </div>
 
 <div class="lyric-line">

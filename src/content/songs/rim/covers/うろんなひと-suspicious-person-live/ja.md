@@ -281,7 +281,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>つまらない<rt class="roma">tsumaranai</rt></ruby><ruby>つまらない<rt class="roma">tsumaranai</rt></ruby>
+[02:41.79]<ruby>つまらない<rt class="roma">tsumaranai</rt></ruby><ruby>つまらない<rt class="roma">tsumaranai</rt></ruby>
 </div>
 </div>
 
@@ -363,13 +363,13 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[03:50.45]<ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いけ<rt class="roma">ike</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[03:52.34]<ruby>いけ<rt class="roma">ike</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 </div>
 

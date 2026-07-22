@@ -57,7 +57,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ねぇ<rt class="roma">nee</rt></ruby> <ruby>ねぇ<rt class="roma">nee</rt></ruby>
+[00:40.17]<ruby>ねぇ<rt class="roma">nee</rt></ruby> <ruby>ねぇ<rt class="roma">nee</rt></ruby>
 </div>
 </div>
 
@@ -178,7 +178,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ねぇ<rt class="roma">nee</rt></ruby> <ruby>ねぇ<rt class="roma">nee</rt></ruby>
+[02:00.19]<ruby>ねぇ<rt class="roma">nee</rt></ruby> <ruby>ねぇ<rt class="roma">nee</rt></ruby>
 </div>
 </div>
 
@@ -302,7 +302,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>だ<rt class="roma">da</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>憶<ruby>う<rt class="roma">u</rt></ruby>
+[03:14.87]<ruby>だ<rt class="roma">da</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>憶<ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
@@ -317,7 +317,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ねぇ<rt class="roma">nee</rt></ruby> <ruby>ねぇ<rt class="roma">nee</rt></ruby>
+[03:52.14]<ruby>ねぇ<rt class="roma">nee</rt></ruby> <ruby>ねぇ<rt class="roma">nee</rt></ruby>
 </div>
 </div>
 
@@ -339,7 +339,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>夕<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby><ruby>暮<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby> <ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[04:11.00]<ruby>夕<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby><ruby>暮<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby> <ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
@@ -373,7 +373,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>大<rt class="furi">おお</rt><rt class="roma">oo</rt></ruby><ruby>きな<rt class="roma">kina</rt></ruby><ruby>火<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[04:30.98]<ruby>大<rt class="furi">おお</rt><rt class="roma">oo</rt></ruby><ruby>きな<rt class="roma">kina</rt></ruby><ruby>火<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
@@ -386,7 +386,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>だ<rt class="roma">da</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>憶<ruby>う<rt class="roma">u</rt></ruby>
+[04:38.85]<ruby>だ<rt class="roma">da</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>憶<ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 

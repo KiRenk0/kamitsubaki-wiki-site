@@ -169,7 +169,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby>
+[02:09.02]<ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby>
 </div>
 </div>
 
@@ -189,25 +189,25 @@ image: /images/albums/isekaijoucho/sousei.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[02:25.98]<ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>未<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby><ruby>開<rt class="furi">ひら</rt><rt class="roma">hira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[02:28.86]<ruby>未<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby><ruby>開<rt class="furi">ひら</rt><rt class="roma">hira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>弾<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby> <ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
+[02:33.39]<ruby>弾<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby> <ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>未<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>尊<rt class="furi">とうと</rt><rt class="roma">touto</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>蜜月<rt class="furi">みつげつ</rt><rt class="roma">mitsugetsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+[02:36.24]<ruby>未<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>尊<rt class="furi">とうと</rt><rt class="roma">touto</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>蜜月<rt class="furi">みつげつ</rt><rt class="roma">mitsugetsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 

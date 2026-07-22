@@ -292,7 +292,7 @@ image: /images/songs/vwp/single-1687247705.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
+[02:48.30]<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 
@@ -347,7 +347,7 @@ image: /images/songs/vwp/single-1687247705.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>この<rt class="roma">kono</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[03:02.86]<ruby>この<rt class="roma">kono</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 

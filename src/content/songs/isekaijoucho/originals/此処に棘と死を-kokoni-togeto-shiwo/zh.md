@@ -191,7 +191,7 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh, jewelry, jealousy
+[01:56.16]Oh, jewelry, jealousy
 </div>
 </div>
 
@@ -271,7 +271,7 @@ Oh, jewelry, jealousy
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh, jewelry, jealousy
+[02:41.25]Oh, jewelry, jealousy
 </div>
 </div>
 
@@ -314,7 +314,7 @@ Oh, jewelry, jealousy
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh, jewelry, jealousy
+[03:06.36]Oh, jewelry, jealousy
 </div>
 </div>
 

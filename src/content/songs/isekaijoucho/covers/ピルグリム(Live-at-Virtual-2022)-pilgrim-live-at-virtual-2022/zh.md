@@ -112,7 +112,7 @@ image: /images/albums/rim/singularity-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>せい<rt class="roma">sei</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:48.48]<ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>せい<rt class="roma">sei</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
@@ -126,7 +126,7 @@ image: /images/albums/rim/singularity-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>錯覚<rt class="furi">さっかく</rt><rt class="roma">sakkaku</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
+[00:55.32]<ruby>錯覚<rt class="furi">さっかく</rt><rt class="roma">sakkaku</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
 </div>
 
@@ -194,19 +194,19 @@ image: /images/albums/rim/singularity-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>性格<rt class="furi">せいかく</rt><rt class="roma">seikaku</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
+[01:30.86]<ruby>性格<rt class="furi">せいかく</rt><rt class="roma">seikaku</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>錯覚<rt class="furi">さっかく</rt><rt class="roma">sakkaku</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
+[01:36.21]<ruby>錯覚<rt class="furi">さっかく</rt><rt class="roma">sakkaku</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>錯覚<rt class="furi">さっかく</rt><rt class="roma">sakkaku</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
+[01:37.97]<ruby>錯覚<rt class="furi">さっかく</rt><rt class="roma">sakkaku</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
 </div>
 
@@ -267,13 +267,13 @@ image: /images/albums/rim/singularity-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>完全<rt class="furi">かんぜん</rt><rt class="roma">kanzen</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+[02:27.97]<ruby>完全<rt class="furi">かんぜん</rt><rt class="roma">kanzen</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>特別<rt class="furi">とくべつ</rt><rt class="roma">tokubetsu</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>もん<rt class="roma">mon</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
+[02:29.85]<ruby>特別<rt class="furi">とくべつ</rt><rt class="roma">tokubetsu</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>もん<rt class="roma">mon</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
 </div>
 

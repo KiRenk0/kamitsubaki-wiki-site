@@ -187,25 +187,25 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>眠<rt class="furi">ねむ</rt><rt class="roma">nemu</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[03:09.95]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>眠<rt class="furi">ねむ</rt><rt class="roma">nemu</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>天使<rt class="furi">てんし</rt><rt class="roma">tenshi</rt></ruby>
+[03:15.99]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>天使<rt class="furi">てんし</rt><rt class="roma">tenshi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>名前<rt class="furi">なまえ</rt><rt class="roma">namae</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+[03:21.54]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>名前<rt class="furi">なまえ</rt><rt class="roma">namae</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>思い出<rt class="furi">おもいだ</rt><rt class="roma">omoida</rt></ruby><ruby>せる<rt class="roma">seru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[03:28.09]<ruby>思い出<rt class="furi">おもいだ</rt><rt class="roma">omoida</rt></ruby><ruby>せる<rt class="roma">seru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
 </div>
 

@@ -301,13 +301,13 @@ image: /images/songs/isekaijoucho/single-1781819764.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[03:22.52]<ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ただ<rt class="roma">tada</rt></ruby> <ruby>ただ<rt class="roma">tada</rt></ruby> <ruby>もがく<rt class="roma">mogaku</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[03:26.17]<ruby>ただ<rt class="roma">tada</rt></ruby> <ruby>ただ<rt class="roma">tada</rt></ruby> <ruby>もがく<rt class="roma">mogaku</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 

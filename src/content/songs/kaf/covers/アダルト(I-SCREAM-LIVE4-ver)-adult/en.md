@@ -175,7 +175,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Yeah! <ruby>妄想<rt class="furi">もうそう</rt><rt class="roma">mousou</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>アダルト<rt class="roma">adaruto</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>オンリー<rt class="roma">onrii</rt></ruby>
+[02:37.17]Yeah! <ruby>妄想<rt class="furi">もうそう</rt><rt class="roma">mousou</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>アダルト<rt class="roma">adaruto</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>オンリー<rt class="roma">onrii</rt></ruby>
 </div>
 </div>
 

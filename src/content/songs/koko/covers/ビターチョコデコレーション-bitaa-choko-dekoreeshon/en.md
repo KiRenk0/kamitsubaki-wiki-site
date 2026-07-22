@@ -125,7 +125,7 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ビターチョコデコレーション<rt class="roma">bitaachokodekoreeshon</rt></ruby>
+[00:50.57]<ruby>ビターチョコデコレーション<rt class="roma">bitaachokodekoreeshon</rt></ruby>
 </div>
 </div>
 
@@ -283,7 +283,7 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ビターチョコデコレーション<rt class="roma">bitaachokodekoreeshon</rt></ruby>
+[01:43.60]<ruby>ビターチョコデコレーション<rt class="roma">bitaachokodekoreeshon</rt></ruby>
 </div>
 </div>
 
@@ -296,7 +296,7 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ビターチョコデコレーション<rt class="roma">bitaachokodekoreeshon</rt></ruby>
+[01:49.23]<ruby>ビターチョコデコレーション<rt class="roma">bitaachokodekoreeshon</rt></ruby>
 </div>
 </div>
 
@@ -366,7 +366,7 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ビターチョコデコレーション<rt class="roma">bitaachokodekoreeshon</rt></ruby>
+[02:33.61]<ruby>ビターチョコデコレーション<rt class="roma">bitaachokodekoreeshon</rt></ruby>
 </div>
 </div>
 
@@ -379,7 +379,7 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ビターチョコデコレーション<rt class="roma">bitaachokodekoreeshon</rt></ruby>
+[02:38.99]<ruby>ビターチョコデコレーション<rt class="roma">bitaachokodekoreeshon</rt></ruby>
 </div>
 </div>
 
@@ -392,7 +392,7 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ビターチョコデコレーション<rt class="roma">bitaachokodekoreeshon</rt></ruby>
+[02:44.87]<ruby>ビターチョコデコレーション<rt class="roma">bitaachokodekoreeshon</rt></ruby>
 </div>
 </div>
 
@@ -405,7 +405,7 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ビターチョコデコレーション<rt class="roma">bitaachokodekoreeshon</rt></ruby>
+[02:50.24]<ruby>ビターチョコデコレーション<rt class="roma">bitaachokodekoreeshon</rt></ruby>
 </div>
 </div>
 

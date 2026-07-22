@@ -171,7 +171,7 @@ non-reflection (Cover Live) appears on CANDY LIVE 3 (Cover Live) or a related of
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I am a glass of water
+[01:35.99]I am a glass of water
 </div>
 </div>
 
@@ -296,7 +296,7 @@ I am a glass of water
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>神話<rt class="furi">しんわ</rt><rt class="roma">shinwa</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>代<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[02:50.08]<ruby>神話<rt class="furi">しんわ</rt><rt class="roma">shinwa</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>代<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 

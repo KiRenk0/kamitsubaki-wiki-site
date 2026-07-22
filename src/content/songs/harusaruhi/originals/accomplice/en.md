@@ -76,7 +76,7 @@ Accomplice appears on Accomplice or a related official release. Entries are vers
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I am on your tail
+[01:10.37]I am on your tail
 </div>
 </div>
 

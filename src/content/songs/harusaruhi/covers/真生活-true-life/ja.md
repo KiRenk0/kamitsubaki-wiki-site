@@ -117,19 +117,19 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ねえ<rt class="roma">nee</rt></ruby> <ruby>ねえ<rt class="roma">nee</rt></ruby> <ruby>話<rt class="furi">はなし</rt><rt class="roma">hanashi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:01.79]<ruby>ねえ<rt class="roma">nee</rt></ruby> <ruby>ねえ<rt class="roma">nee</rt></ruby> <ruby>話<rt class="furi">はなし</rt><rt class="roma">hanashi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby> <ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby>
+[01:04.59]<ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby> <ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-make me want to cry
+[01:07.46]make me want to cry
 </div>
 </div>
 

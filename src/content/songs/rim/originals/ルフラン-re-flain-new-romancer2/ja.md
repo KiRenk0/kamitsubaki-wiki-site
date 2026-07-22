@@ -165,7 +165,7 @@ image: /images/albums/rim/new-romancer-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ふざけ<rt class="roma">fuzake</rt></ruby><ruby>あい<rt class="roma">ai</rt></ruby><ruby>たり<rt class="roma">tari</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>、<ruby>だ<rt class="roma">da</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>
+[01:29.089]<ruby>ふざけ<rt class="roma">fuzake</rt></ruby><ruby>あい<rt class="roma">ai</rt></ruby><ruby>たり<rt class="roma">tari</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>、<ruby>だ<rt class="roma">da</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>
 </div>
 </div>
 
@@ -177,7 +177,7 @@ image: /images/albums/rim/new-romancer-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>泣き叫<rt class="furi">なきさけ</rt><rt class="roma">nakisake</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、
+[01:34.427]<ruby>泣き叫<rt class="furi">なきさけ</rt><rt class="roma">nakisake</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、
 </div>
 </div>
 

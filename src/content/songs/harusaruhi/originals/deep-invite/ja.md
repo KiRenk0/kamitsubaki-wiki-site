@@ -267,13 +267,13 @@ image: /images/albums/harusaruhi/rule-the-world.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>バースデイ<rt class="roma">baasudei</rt></ruby> <ruby>迷宮<rt class="furi">めいきゅう</rt><rt class="roma">meikyuu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>祝祭<rt class="furi">しゅくさい</rt><rt class="roma">shukusai</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>ようこそ<rt class="roma">youkoso</rt></ruby>
+[02:45.89]<ruby>バースデイ<rt class="roma">baasudei</rt></ruby> <ruby>迷宮<rt class="furi">めいきゅう</rt><rt class="roma">meikyuu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>祝祭<rt class="furi">しゅくさい</rt><rt class="roma">shukusai</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>ようこそ<rt class="roma">youkoso</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>此処<rt class="furi">ここ</rt><rt class="roma">koko</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>酷<rt class="furi">ひど</rt><rt class="roma">hido</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>不自由<rt class="furi">ふじゆう</rt><rt class="roma">fujiyuu</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>無限<rt class="furi">むげん</rt><rt class="roma">mugen</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>在<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
+[02:49.94]<ruby>此処<rt class="furi">ここ</rt><rt class="roma">koko</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>酷<rt class="furi">ひど</rt><rt class="roma">hido</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>不自由<rt class="furi">ふじゆう</rt><rt class="roma">fujiyuu</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>無限<rt class="furi">むげん</rt><rt class="roma">mugen</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>在<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
 </div>
 </div>
 

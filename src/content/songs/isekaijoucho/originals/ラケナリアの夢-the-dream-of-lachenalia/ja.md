@@ -213,7 +213,7 @@ image: /images/songs/isekaijoucho/single-1860513191.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>遍<rt class="furi">へん</rt><rt class="roma">hen</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>焦<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>がれ<rt class="roma">gare</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[01:57.02]<ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>遍<rt class="furi">へん</rt><rt class="roma">hen</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>焦<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>がれ<rt class="roma">gare</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
@@ -237,7 +237,7 @@ image: /images/songs/isekaijoucho/single-1860513191.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Under the moonlight
+[02:06.34]Under the moonlight
 </div>
 </div>
 
@@ -249,7 +249,7 @@ Under the moonlight
 
 <div class="lyric-line">
 <div class="jp-lyric">
-How many chains must I break?
+[02:12.04]How many chains must I break?
 </div>
 </div>
 

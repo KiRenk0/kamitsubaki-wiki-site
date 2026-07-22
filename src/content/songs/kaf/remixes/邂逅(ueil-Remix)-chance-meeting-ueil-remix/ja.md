@@ -123,7 +123,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>在<rt class="furi">ざい</rt><rt class="roma">zai</rt></ruby><ruby>深<rt class="furi">ふか</rt><rt class="roma">fuka</rt></ruby><ruby>秋<rt class="furi">あき</rt><rt class="roma">aki</rt></ruby><ruby>邂逅<rt class="furi">かいこう</rt><rt class="roma">kaikou</rt></ruby>你
+[01:58.82]<ruby>在<rt class="furi">ざい</rt><rt class="roma">zai</rt></ruby><ruby>深<rt class="furi">ふか</rt><rt class="roma">fuka</rt></ruby><ruby>秋<rt class="furi">あき</rt><rt class="roma">aki</rt></ruby><ruby>邂逅<rt class="furi">かいこう</rt><rt class="roma">kaikou</rt></ruby>你
 </div>
 </div>
 
@@ -149,13 +149,13 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>冷雨<rt class="furi">れいう</rt><rt class="roma">reiu</rt></ruby><ruby>落下<rt class="furi">らっか</rt><rt class="roma">rakka</rt></ruby><ruby>長夜<rt class="furi">ちょうや</rt><rt class="roma">chouya</rt></ruby><ruby>裏<rt class="furi">うら</rt><rt class="roma">ura</rt></ruby> <ruby>似<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>心<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby>碎
+[02:43.89]<ruby>冷雨<rt class="furi">れいう</rt><rt class="roma">reiu</rt></ruby><ruby>落下<rt class="furi">らっか</rt><rt class="roma">rakka</rt></ruby><ruby>長夜<rt class="furi">ちょうや</rt><rt class="roma">chouya</rt></ruby><ruby>裏<rt class="furi">うら</rt><rt class="roma">ura</rt></ruby> <ruby>似<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>心<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby>碎
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-抱緊<ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby>虛 <ruby>急<rt class="furi">きゅう</rt><rt class="roma">kyuu</rt></ruby><ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>正<rt class="furi">せい</rt><rt class="roma">sei</rt></ruby>吹
+[02:48.81]抱緊<ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby>虛 <ruby>急<rt class="furi">きゅう</rt><rt class="roma">kyuu</rt></ruby><ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>正<rt class="furi">せい</rt><rt class="roma">sei</rt></ruby>吹
 </div>
 </div>
 
@@ -163,25 +163,25 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby>以<ruby>分<rt class="furi">ぶん</rt><rt class="roma">bun</rt></ruby><ruby>開<rt class="furi">ひらき</rt><rt class="roma">hiraki</rt></ruby> <ruby>長夜<rt class="furi">ちょうや</rt><rt class="roma">chouya</rt></ruby><ruby>共<rt class="furi">ども</rt><rt class="roma">domo</rt></ruby><ruby>冷雨<rt class="furi">れいう</rt><rt class="roma">reiu</rt></ruby><ruby>説<rt class="furi">せつ</rt><rt class="roma">setsu</rt></ruby><ruby>相愛<rt class="furi">そうあい</rt><rt class="roma">souai</rt></ruby>
+[02:56.13]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby>以<ruby>分<rt class="furi">ぶん</rt><rt class="roma">bun</rt></ruby><ruby>開<rt class="furi">ひらき</rt><rt class="roma">hiraki</rt></ruby> <ruby>長夜<rt class="furi">ちょうや</rt><rt class="roma">chouya</rt></ruby><ruby>共<rt class="furi">ども</rt><rt class="roma">domo</rt></ruby><ruby>冷雨<rt class="furi">れいう</rt><rt class="roma">reiu</rt></ruby><ruby>説<rt class="furi">せつ</rt><rt class="roma">setsu</rt></ruby><ruby>相愛<rt class="furi">そうあい</rt><rt class="roma">souai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>離別<rt class="furi">りべつ</rt><rt class="roma">ribetsu</rt></ruby><ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby>你 每<ruby>日<rt class="furi">び</rt><rt class="roma">bi</rt></ruby>如蠟<ruby>像<rt class="furi">ぞう</rt><rt class="roma">zou</rt></ruby><ruby>在<rt class="furi">ざい</rt><rt class="roma">zai</rt></ruby>發呆
+[03:02.77]<ruby>離別<rt class="furi">りべつ</rt><rt class="roma">ribetsu</rt></ruby><ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby>你 每<ruby>日<rt class="furi">び</rt><rt class="roma">bi</rt></ruby>如蠟<ruby>像<rt class="furi">ぞう</rt><rt class="roma">zou</rt></ruby><ruby>在<rt class="furi">ざい</rt><rt class="roma">zai</rt></ruby>發呆
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>可<rt class="furi">か</rt><rt class="roma">ka</rt></ruby>以<ruby>分<rt class="furi">ぶん</rt><rt class="roma">bun</rt></ruby><ruby>開<rt class="furi">ひらき</rt><rt class="roma">hiraki</rt></ruby> <ruby>留<rt class="furi">とめ</rt><rt class="roma">tome</rt></ruby><ruby>下<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>抱怨<ruby>與<rt class="furi">あたえ</rt><rt class="roma">atae</rt></ruby><ruby>感慨<rt class="furi">かんがい</rt><rt class="roma">kangai</rt></ruby>
+[03:09.85]<ruby>可<rt class="furi">か</rt><rt class="roma">ka</rt></ruby>以<ruby>分<rt class="furi">ぶん</rt><rt class="roma">bun</rt></ruby><ruby>開<rt class="furi">ひらき</rt><rt class="roma">hiraki</rt></ruby> <ruby>留<rt class="furi">とめ</rt><rt class="roma">tome</rt></ruby><ruby>下<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>抱怨<ruby>與<rt class="furi">あたえ</rt><rt class="roma">atae</rt></ruby><ruby>感慨<rt class="furi">かんがい</rt><rt class="roma">kangai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>離別<rt class="furi">りべつ</rt><rt class="roma">ribetsu</rt></ruby><ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby>你 <ruby>午<rt class="furi">うま</rt><rt class="roma">uma</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>仍<ruby>造<rt class="furi">みやつこ</rt><rt class="roma">miyatsuko</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>你來
+[03:16.62]<ruby>離別<rt class="furi">りべつ</rt><rt class="roma">ribetsu</rt></ruby><ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby>你 <ruby>午<rt class="furi">うま</rt><rt class="roma">uma</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>仍<ruby>造<rt class="furi">みやつこ</rt><rt class="roma">miyatsuko</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>你來
 </div>
 </div>
 
@@ -189,13 +189,13 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby>以<ruby>分<rt class="furi">ぶん</rt><rt class="roma">bun</rt></ruby><ruby>開<rt class="furi">ひらき</rt><rt class="roma">hiraki</rt></ruby> <ruby>長夜<rt class="furi">ちょうや</rt><rt class="roma">chouya</rt></ruby><ruby>共<rt class="furi">ども</rt><rt class="roma">domo</rt></ruby><ruby>冷雨<rt class="furi">れいう</rt><rt class="roma">reiu</rt></ruby><ruby>説<rt class="furi">せつ</rt><rt class="roma">setsu</rt></ruby><ruby>相愛<rt class="furi">そうあい</rt><rt class="roma">souai</rt></ruby>
+[03:23.62]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby>以<ruby>分<rt class="furi">ぶん</rt><rt class="roma">bun</rt></ruby><ruby>開<rt class="furi">ひらき</rt><rt class="roma">hiraki</rt></ruby> <ruby>長夜<rt class="furi">ちょうや</rt><rt class="roma">chouya</rt></ruby><ruby>共<rt class="furi">ども</rt><rt class="roma">domo</rt></ruby><ruby>冷雨<rt class="furi">れいう</rt><rt class="roma">reiu</rt></ruby><ruby>説<rt class="furi">せつ</rt><rt class="roma">setsu</rt></ruby><ruby>相愛<rt class="furi">そうあい</rt><rt class="roma">souai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>離別<rt class="furi">りべつ</rt><rt class="roma">ribetsu</rt></ruby><ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby>你 <ruby>午<rt class="furi">うま</rt><rt class="roma">uma</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>仍<ruby>造<rt class="furi">みやつこ</rt><rt class="roma">miyatsuko</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>你來
+[03:30.68]<ruby>離別<rt class="furi">りべつ</rt><rt class="roma">ribetsu</rt></ruby><ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby>你 <ruby>午<rt class="furi">うま</rt><rt class="roma">uma</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>仍<ruby>造<rt class="furi">みやつこ</rt><rt class="roma">miyatsuko</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>你來
 </div>
 </div>
 
@@ -203,25 +203,25 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>在<rt class="furi">ざい</rt><rt class="roma">zai</rt></ruby><ruby>深<rt class="furi">ふか</rt><rt class="roma">fuka</rt></ruby><ruby>秋<rt class="furi">あき</rt><rt class="roma">aki</rt></ruby><ruby>邂逅<rt class="furi">かいこう</rt><rt class="roma">kaikou</rt></ruby>你
+[03:43.09]<ruby>在<rt class="furi">ざい</rt><rt class="roma">zai</rt></ruby><ruby>深<rt class="furi">ふか</rt><rt class="roma">fuka</rt></ruby><ruby>秋<rt class="furi">あき</rt><rt class="roma">aki</rt></ruby><ruby>邂逅<rt class="furi">かいこう</rt><rt class="roma">kaikou</rt></ruby>你
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>由<rt class="furi">よし</rt><rt class="roma">yoshi</rt></ruby><ruby>相<rt class="furi">しょう</rt><rt class="roma">shou</rt></ruby>戀緊<ruby>接<rt class="furi">せっ</rt><rt class="roma">se</rt></ruby><ruby>分離<rt class="furi">ぶんり</rt><rt class="roma">bunri</rt></ruby>
+[03:46.50]<ruby>由<rt class="furi">よし</rt><rt class="roma">yoshi</rt></ruby><ruby>相<rt class="furi">しょう</rt><rt class="roma">shou</rt></ruby>戀緊<ruby>接<rt class="furi">せっ</rt><rt class="roma">se</rt></ruby><ruby>分離<rt class="furi">ぶんり</rt><rt class="roma">bunri</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-仍<ruby>願<rt class="furi">ねがい</rt><rt class="roma">negai</rt></ruby><ruby>靜<rt class="furi">しず</rt><rt class="roma">shizu</rt></ruby>默盼<ruby>祈<rt class="furi">いの</rt><rt class="roma">ino</rt></ruby>
+[03:51.23]仍<ruby>願<rt class="furi">ねがい</rt><rt class="roma">negai</rt></ruby><ruby>靜<rt class="furi">しず</rt><rt class="roma">shizu</rt></ruby>默盼<ruby>祈<rt class="furi">いの</rt><rt class="roma">ino</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>抱擁<rt class="furi">ほうよう</rt><rt class="roma">houyou</rt></ruby><ruby>着<rt class="furi">ぎ</rt><rt class="roma">gi</rt></ruby>你
+[03:54.26]<ruby>抱擁<rt class="furi">ほうよう</rt><rt class="roma">houyou</rt></ruby><ruby>着<rt class="furi">ぎ</rt><rt class="roma">gi</rt></ruby>你
 </div>
 </div>
 

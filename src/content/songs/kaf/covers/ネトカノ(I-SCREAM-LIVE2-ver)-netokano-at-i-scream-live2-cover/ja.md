@@ -69,7 +69,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-you are always gonna be wonder
+[00:47.02]you are always gonna be wonder
 </div>
 </div>
 
@@ -121,19 +121,19 @@ you are always gonna be wonder
 
 <div class="lyric-line">
 <div class="jp-lyric">
-you are always gonna be wonder
+[01:44.37]you are always gonna be wonder
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>くせ<rt class="roma">kuse</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いつも<rt class="roma">itsumo</rt></ruby>be my love
+[01:48.58]<ruby>くせ<rt class="roma">kuse</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いつも<rt class="roma">itsumo</rt></ruby>be my love
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-you are always gonna be wonder
+[01:53.68]you are always gonna be wonder
 </div>
 </div>
 
@@ -151,7 +151,7 @@ you are always gonna be wonder
 
 <div class="lyric-line">
 <div class="jp-lyric">
-to the night
+[02:10.17]to the night
 </div>
 </div>
 
@@ -177,13 +177,13 @@ to the night
 
 <div class="lyric-line">
 <div class="jp-lyric">
-you can say
+[02:24.14]you can say
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-wake up! alright
+[02:26.02]wake up! alright
 </div>
 </div>
 

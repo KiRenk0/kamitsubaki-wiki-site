@@ -254,7 +254,7 @@ image: /images/albums/vwp/witch-plus.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Chu Chu Chu Ah
+[01:47.593]Chu Chu Chu Ah
 </div>
 </div>
 
@@ -284,19 +284,19 @@ Chu Chu Chu Ah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Q&amp;A <ruby>理由<rt class="furi">りゆう</rt><rt class="roma">riyuu</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>
+[02:12.690]Q&amp;A <ruby>理由<rt class="furi">りゆう</rt><rt class="roma">riyuu</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-U&amp;Me <ruby>ない<rt class="roma">nai</rt></ruby><ruby>かも<rt class="roma">kamo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
+[02:15.652]U&amp;Me <ruby>ない<rt class="roma">nai</rt></ruby><ruby>かも<rt class="roma">kamo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>仮想<rt class="furi">かそう</rt><rt class="roma">kasou</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>リアル<rt class="roma">riaru</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby>
+[02:18.700]<ruby>仮想<rt class="furi">かそう</rt><rt class="roma">kasou</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>リアル<rt class="roma">riaru</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby>
 </div>
 </div>
 
@@ -332,7 +332,7 @@ U&amp;Me <ruby>ない<rt class="roma">nai</rt></ruby><ruby>かも<rt class="roma
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>次元<rt class="furi">じげん</rt><rt class="roma">jigen</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>超<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[02:27.946]<ruby>次元<rt class="furi">じげん</rt><rt class="roma">jigen</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>超<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
@@ -362,7 +362,7 @@ U&amp;Me <ruby>ない<rt class="roma">nai</rt></ruby><ruby>かも<rt class="roma
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Ah Ah Ah
+[02:41.534]Ah Ah Ah
 </div>
 </div>
 
@@ -380,7 +380,7 @@ Ah Ah Ah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>ゅんしたい<rt class="roma">yunshitai</rt></ruby> Don't Stop！
+[02:45.550]<ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>ゅんしたい<rt class="roma">yunshitai</rt></ruby> Don't Stop！
 </div>
 </div>
 
@@ -392,7 +392,7 @@ Ah Ah Ah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ピース<rt class="roma">piisu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ミューズ<rt class="roma">myuuzu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> Can't Stop！
+[02:48.394]<ruby>ピース<rt class="roma">piisu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ミューズ<rt class="roma">myuuzu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> Can't Stop！
 </div>
 </div>
 
@@ -404,19 +404,19 @@ Ah Ah Ah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>自己<rt class="furi">じこ</rt><rt class="roma">jiko</rt></ruby><ruby>満<rt class="furi">まん</rt><rt class="roma">man</rt></ruby><ruby>勝<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
+[02:51.816]<ruby>自己<rt class="furi">じこ</rt><rt class="roma">jiko</rt></ruby><ruby>満<rt class="furi">まん</rt><rt class="roma">man</rt></ruby><ruby>勝<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Ah Ah Ah
+[02:53.439]Ah Ah Ah
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ヒーロー<rt class="roma">hiirou</rt></ruby><ruby>気取<rt class="furi">けど</rt><rt class="roma">kedo</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> Non Stop！
+[02:54.576]<ruby>ヒーロー<rt class="roma">hiirou</rt></ruby><ruby>気取<rt class="furi">けど</rt><rt class="roma">kedo</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> Non Stop！
 </div>
 </div>
 
@@ -428,7 +428,7 @@ Ah Ah Ah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>意外<rt class="furi">いがい</rt><rt class="roma">igai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>ハマる<rt class="roma">hamaru</rt></ruby><ruby>かも<rt class="roma">kamo</rt></ruby> Don't Stop！
+[02:57.938]<ruby>意外<rt class="furi">いがい</rt><rt class="roma">igai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>ハマる<rt class="roma">hamaru</rt></ruby><ruby>かも<rt class="roma">kamo</rt></ruby> Don't Stop！
 </div>
 </div>
 
@@ -440,19 +440,19 @@ Ah Ah Ah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>余所見<rt class="furi">よそみ</rt><rt class="roma">yosomi</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> Can't Stop！
+[03:00.491]<ruby>余所見<rt class="furi">よそみ</rt><rt class="roma">yosomi</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> Can't Stop！
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ご<rt class="roma">go</rt></ruby><ruby>機嫌<rt class="furi">きげん</rt><rt class="roma">kigen</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> Now <ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[03:03.290]<ruby>ご<rt class="roma">go</rt></ruby><ruby>機嫌<rt class="furi">きげん</rt><rt class="roma">kigen</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> Now <ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Chu Chu Chu Ah
+[03:05.480]Chu Chu Chu Ah
 </div>
 </div>
 
@@ -470,25 +470,25 @@ Chu Chu Chu Ah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(Don't Stop Musical)
+[03:23.093](Don't Stop Musical)
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ダンジョン<rt class="roma">danjon</rt></ruby><ruby>風味<rt class="furi">ふうみ</rt><rt class="roma">fuumi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> Non Stop！
+[03:24.646]<ruby>ダンジョン<rt class="roma">danjon</rt></ruby><ruby>風味<rt class="furi">ふうみ</rt><rt class="roma">fuumi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> Non Stop！
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ご<rt class="roma">go</rt></ruby><ruby>機嫌<rt class="furi">きげん</rt><rt class="roma">kigen</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> Now <ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[03:27.513]<ruby>ご<rt class="roma">go</rt></ruby><ruby>機嫌<rt class="furi">きげん</rt><rt class="roma">kigen</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> Now <ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Chu Chu Chu Ah
+[03:29.549]Chu Chu Chu Ah
 </div>
 </div>
 

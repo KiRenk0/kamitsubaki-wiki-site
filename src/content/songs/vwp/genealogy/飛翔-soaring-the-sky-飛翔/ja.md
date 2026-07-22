@@ -218,7 +218,7 @@ image: /images/songs/vwp/single-1698252310.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>だって<rt class="roma">datte</rt></ruby> <ruby>だって<rt class="roma">datte</rt></ruby>
+[02:36.87]<ruby>だって<rt class="roma">datte</rt></ruby> <ruby>だって<rt class="roma">datte</rt></ruby>
 </div>
 </div>
 

@@ -52,7 +52,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-두빠두빠 두비두비 마카롱
+[00:22.98]두빠두빠 두비두비 마카롱
 </div>
 </div>
 
@@ -186,13 +186,13 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-눈빛마저 tasty
+[01:10.08]눈빛마저 tasty
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'm going going crazy
+[01:11.98]I'm going going crazy
 </div>
 </div>
 
@@ -200,19 +200,19 @@ I'm going going crazy
 
 <div class="lyric-line">
 <div class="jp-lyric">
-두빠두빠 두비두비 마카롱
+[01:14.95]두빠두빠 두비두비 마카롱
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Hey hey hey hey
+[01:17.47]Hey hey hey hey
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-두빠두빠 두비두비 마카롱
+[01:19.36]두빠두빠 두비두비 마카롱
 </div>
 </div>
 
@@ -244,13 +244,13 @@ Hey hey hey hey
 
 <div class="lyric-line">
 <div class="jp-lyric">
-랄랄라 라랄랄라라라 랄랄 라라라
+[01:28.80]랄랄라 라랄랄라라라 랄랄 라라라
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(너무 달콤해)
+[01:32.74](너무 달콤해)
 </div>
 </div>
 
@@ -258,19 +258,19 @@ Hey hey hey hey
 
 <div class="lyric-line">
 <div class="jp-lyric">
-살금살금 다가와
+[01:33.55]살금살금 다가와
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-한순간에 훔쳐 가
+[01:36.05]한순간에 훔쳐 가
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-맘이 난리 난 걸 티가 나서 어쩌니?
+[01:38.39]맘이 난리 난 걸 티가 나서 어쩌니?
 </div>
 </div>
 
@@ -278,19 +278,19 @@ Hey hey hey hey
 
 <div class="lyric-line">
 <div class="jp-lyric">
-이 밤에 우리 둘이
+[01:42.93]이 밤에 우리 둘이
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-오 boogie woogie boogie
+[01:46.22]오 boogie woogie boogie
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-아주 비밀스럽게 (음)
+[01:48.54]아주 비밀스럽게 (음)
 </div>
 </div>
 
@@ -298,49 +298,49 @@ Hey hey hey hey
 
 <div class="lyric-line">
 <div class="jp-lyric">
-사랑에 춤을 추듯이
+[01:51.50]사랑에 춤을 추듯이
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-살살 녹여주는 넌
+[01:54.09]살살 녹여주는 넌
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-눈빛마저 tasty
+[01:57.17]눈빛마저 tasty
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'm going going crazy
+[01:59.03]I'm going going crazy
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-따라와요 baby
+[02:01.83]따라와요 baby
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-같이 춤을 춰요 baby
+[02:03.72]같이 춤을 춰요 baby
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-눈빛마저 tasty
+[02:06.52]눈빛마저 tasty
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'm going going crazy
+[02:08.49]I'm going going crazy
 </div>
 </div>
 
@@ -378,49 +378,49 @@ I'm going going crazy
 
 <div class="lyric-line">
 <div class="jp-lyric">
-사랑에 춤을 추듯이
+[02:30.33]사랑에 춤을 추듯이
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-살살 녹여주는 넌
+[02:32.82]살살 녹여주는 넌
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-눈빛마저 tasty
+[02:35.88]눈빛마저 tasty
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'm going going crazy
+[02:37.90]I'm going going crazy
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-따라와요 baby
+[02:40.60]따라와요 baby
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-같이 춤을 춰요 baby
+[02:42.54]같이 춤을 춰요 baby
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-눈빛마저 tasty
+[02:45.26]눈빛마저 tasty
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'm going going crazy
+[02:47.27]I'm going going crazy
 </div>
 </div>
 
@@ -428,43 +428,43 @@ I'm going going crazy
 
 <div class="lyric-line">
 <div class="jp-lyric">
-두빠두빠 두비두비 마카롱
+[02:50.09]두빠두빠 두비두비 마카롱
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Hey hey hey hey
+[02:52.52]Hey hey hey hey
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-두빠두빠 두비두비 마카롱
+[02:54.79]두빠두빠 두비두비 마카롱
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-두빠두빠 두비두비 마카롱
+[02:59.49]두빠두빠 두비두비 마카롱
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Hey hey hey hey
+[03:02.26]Hey hey hey hey
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-두빠두빠 두비두비 마카롱
+[03:04.43]두빠두빠 두비두비 마카롱
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-우리 둘이 우리 둘이
+[03:06.63]우리 둘이 우리 둘이
 </div>
 </div>
 

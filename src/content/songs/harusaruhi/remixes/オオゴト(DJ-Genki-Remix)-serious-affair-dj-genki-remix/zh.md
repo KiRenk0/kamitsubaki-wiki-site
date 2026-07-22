@@ -552,13 +552,13 @@ image: /images/songs/harusaruhi/single-1800090598.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>みな<rt class="roma">mina</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>縄張<rt class="furi">なわば</rt><rt class="roma">nawaba</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>
+[03:13.80]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>みな<rt class="roma">mina</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>縄張<rt class="furi">なわば</rt><rt class="roma">nawaba</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>一瞬<rt class="furi">いっしゅん</rt><rt class="roma">isshun</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>くなる<rt class="roma">kunaru</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> <ruby>蟠<rt class="furi">わだかま</rt><rt class="roma">wadakama</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>
+[03:15.63]<ruby>一瞬<rt class="furi">いっしゅん</rt><rt class="roma">isshun</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>くなる<rt class="roma">kunaru</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> <ruby>蟠<rt class="furi">わだかま</rt><rt class="roma">wadakama</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>
 </div>
 </div>
 

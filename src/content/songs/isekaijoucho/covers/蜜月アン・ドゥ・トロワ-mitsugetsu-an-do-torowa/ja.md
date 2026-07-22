@@ -132,7 +132,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Chasse 'n' Whisk 'n' Natural-Turn
+[02:08.26]Chasse 'n' Whisk 'n' Natural-Turn
 </div>
 </div>
 
@@ -144,7 +144,7 @@ Chasse 'n' Whisk 'n' Natural-Turn
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Throwaway and Oversway
+[02:15.44]Throwaway and Oversway
 </div>
 </div>
 
@@ -158,7 +158,7 @@ Throwaway and Oversway
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>蜜月<rt class="furi">みつげつ</rt><rt class="roma">mitsugetsu</rt></ruby> Un<ruby>・<rt class="roma">/</rt></ruby>Deux<ruby>・<rt class="roma">/</rt></ruby>Trois
+[02:23.87]<ruby>蜜月<rt class="furi">みつげつ</rt><rt class="roma">mitsugetsu</rt></ruby> Un<ruby>・<rt class="roma">/</rt></ruby>Deux<ruby>・<rt class="roma">/</rt></ruby>Trois
 </div>
 </div>
 
@@ -170,7 +170,7 @@ Throwaway and Oversway
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Singin' swingin' sweetest song
+[02:31.52]Singin' swingin' sweetest song
 </div>
 </div>
 
@@ -210,25 +210,25 @@ Singin' swingin' sweetest song
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>蜜月<rt class="furi">みつげつ</rt><rt class="roma">mitsugetsu</rt></ruby> Un<ruby>・<rt class="roma">/</rt></ruby>Deux<ruby>・<rt class="roma">/</rt></ruby>Trois
+[02:55.13]<ruby>蜜月<rt class="furi">みつげつ</rt><rt class="roma">mitsugetsu</rt></ruby> Un<ruby>・<rt class="roma">/</rt></ruby>Deux<ruby>・<rt class="roma">/</rt></ruby>Trois
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>互<rt class="furi">たが</rt><rt class="roma">taga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>指<rt class="furi">ゆび</rt><rt class="roma">yubi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>絡<rt class="furi">から</rt><rt class="roma">kara</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[02:58.36]<ruby>互<rt class="furi">たが</rt><rt class="roma">taga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>指<rt class="furi">ゆび</rt><rt class="roma">yubi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>絡<rt class="furi">から</rt><rt class="roma">kara</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Singin' swingin' sweetest song
+[03:02.75]Singin' swingin' sweetest song
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>奏<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>でる<rt class="roma">deru</rt></ruby>
+[03:06.39]<ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>奏<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>でる<rt class="roma">deru</rt></ruby>
 </div>
 </div>
 
@@ -236,25 +236,25 @@ Singin' swingin' sweetest song
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>蜜月<rt class="furi">みつげつ</rt><rt class="roma">mitsugetsu</rt></ruby> Un<ruby>・<rt class="roma">/</rt></ruby>Deux<ruby>・<rt class="roma">/</rt></ruby>Trois
+[03:10.42]<ruby>蜜月<rt class="furi">みつげつ</rt><rt class="roma">mitsugetsu</rt></ruby> Un<ruby>・<rt class="roma">/</rt></ruby>Deux<ruby>・<rt class="roma">/</rt></ruby>Trois
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>その<rt class="roma">sono</rt></ruby><ruby>唇<rt class="furi">くちびる</rt><rt class="roma">kuchibiru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>重<rt class="furi">かさ</rt><rt class="roma">kasa</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[03:14.16]<ruby>その<rt class="roma">sono</rt></ruby><ruby>唇<rt class="furi">くちびる</rt><rt class="roma">kuchibiru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>重<rt class="furi">かさ</rt><rt class="roma">kasa</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Singin' swingin' sweetest song
+[03:18.17]Singin' swingin' sweetest song
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>奏<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>でる<rt class="roma">deru</rt></ruby>
+[03:21.65]<ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>奏<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>でる<rt class="roma">deru</rt></ruby>
 </div>
 </div>
 

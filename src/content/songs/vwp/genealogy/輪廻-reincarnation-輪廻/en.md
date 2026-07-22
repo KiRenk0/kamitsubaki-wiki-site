@@ -249,13 +249,13 @@ image: /images/songs/vwp/single-1688347683.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>一度<rt class="furi">いちど</rt><rt class="roma">ichido</rt></ruby><ruby>捨<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[02:04.04]<ruby>一度<rt class="furi">いちど</rt><rt class="roma">ichido</rt></ruby><ruby>捨<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>取り戻<rt class="furi">とりもど</rt><rt class="roma">torimodo</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[02:06.68]<ruby>取り戻<rt class="furi">とりもど</rt><rt class="roma">torimodo</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
@@ -321,7 +321,7 @@ image: /images/songs/vwp/single-1688347683.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>取り戻<rt class="furi">とりもど</rt><rt class="roma">torimodo</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[03:08.69]<ruby>取り戻<rt class="furi">とりもど</rt><rt class="roma">torimodo</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 

@@ -141,13 +141,13 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ハロー<rt class="roma">harou</rt></ruby> <ruby>絶望<rt class="furi">ぜつぼう</rt><rt class="roma">zetsubou</rt></ruby>
+[01:02.21]<ruby>ハロー<rt class="roma">harou</rt></ruby> <ruby>絶望<rt class="furi">ぜつぼう</rt><rt class="roma">zetsubou</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>はず<rt class="roma">hazu</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>？
+[01:04.33]<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>はず<rt class="roma">hazu</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>？
 </div>
 </div>
 
@@ -216,7 +216,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ハロー<rt class="roma">harou</rt></ruby> <ruby>絶望<rt class="furi">ぜつぼう</rt><rt class="roma">zetsubou</rt></ruby>
+[02:00.78]<ruby>ハロー<rt class="roma">harou</rt></ruby> <ruby>絶望<rt class="furi">ぜつぼう</rt><rt class="roma">zetsubou</rt></ruby>
 </div>
 </div>
 
@@ -273,7 +273,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>美<rt class="furi">うつく</rt><rt class="roma">utsuku</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby>
+[02:53.11]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>美<rt class="furi">うつく</rt><rt class="roma">utsuku</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby>
 </div>
 </div>
 
@@ -304,7 +304,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>越<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>唄<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[03:20.95]<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>越<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>唄<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
@@ -324,7 +324,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>美<rt class="furi">うつく</rt><rt class="roma">utsuku</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby>
+[03:40.90]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>美<rt class="furi">うつく</rt><rt class="roma">utsuku</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby>
 </div>
 </div>
 

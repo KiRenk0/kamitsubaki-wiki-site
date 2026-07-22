@@ -221,7 +221,7 @@ image: /images/albums/kaf/tomadoi-telepathy.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby>
+[01:43.72]<ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby>
 </div>
 </div>
 
@@ -285,19 +285,19 @@ image: /images/albums/kaf/tomadoi-telepathy.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>絵文字<rt class="furi">えもじ</rt><rt class="roma">emoji</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>頷<rt class="furi">うなず</rt><rt class="roma">unazu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>あお<rt class="roma">ao</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:17.20]<ruby>絵文字<rt class="furi">えもじ</rt><rt class="roma">emoji</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>頷<rt class="furi">うなず</rt><rt class="roma">unazu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>あお<rt class="roma">ao</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>上昇<rt class="furi">じょうしょう</rt><rt class="roma">joushou</rt></ruby><ruby>中<rt class="furi">ちゅう</rt><rt class="roma">chuu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>記号<rt class="furi">きごう</rt><rt class="roma">kigou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>鼓動<rt class="furi">こどう</rt><rt class="roma">kodou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[02:19.73]<ruby>上昇<rt class="furi">じょうしょう</rt><rt class="roma">joushou</rt></ruby><ruby>中<rt class="furi">ちゅう</rt><rt class="roma">chuu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>記号<rt class="furi">きごう</rt><rt class="roma">kigou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>鼓動<rt class="furi">こどう</rt><rt class="roma">kodou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>単純<rt class="furi">たんじゅん</rt><rt class="roma">tanjun</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
+[02:22.31]<ruby>単純<rt class="furi">たんじゅん</rt><rt class="roma">tanjun</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
 </div>
 
@@ -329,7 +329,7 @@ image: /images/albums/kaf/tomadoi-telepathy.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>その<rt class="roma">sono</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>かっぽ<rt class="roma">kappo</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
+[02:38.75]<ruby>その<rt class="roma">sono</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>かっぽ<rt class="roma">kappo</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
 </div>
 </div>
 
@@ -341,7 +341,7 @@ image: /images/albums/kaf/tomadoi-telepathy.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ばし<rt class="roma">bashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:45.15]<ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ばし<rt class="roma">bashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
@@ -353,7 +353,7 @@ image: /images/albums/kaf/tomadoi-telepathy.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:48.92]<ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
@@ -379,13 +379,13 @@ image: /images/albums/kaf/tomadoi-telepathy.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>哀<ruby>を<rt class="roma">wo</rt></ruby>逢<ruby>を<rt class="roma">wo</rt></ruby><ruby>藍<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>染<rt class="furi">そ</rt><rt class="roma">so</rt></ruby><ruby>まって<rt class="roma">matte</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
+[02:58.13]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>哀<ruby>を<rt class="roma">wo</rt></ruby>逢<ruby>を<rt class="roma">wo</rt></ruby><ruby>藍<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>染<rt class="furi">そ</rt><rt class="roma">so</rt></ruby><ruby>まって<rt class="roma">matte</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>焦<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>がし<rt class="roma">gashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
+[03:01.50]<ruby>焦<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>がし<rt class="roma">gashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
 </div>
 
@@ -397,7 +397,7 @@ image: /images/albums/kaf/tomadoi-telepathy.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>もかも<rt class="roma">mokamo</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[03:06.13]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>もかも<rt class="roma">mokamo</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 

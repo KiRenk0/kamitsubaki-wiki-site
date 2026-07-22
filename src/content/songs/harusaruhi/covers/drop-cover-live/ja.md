@@ -125,25 +125,25 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Ich hab noch immer keinen Job, Job, Job
+[01:07.20]Ich hab noch immer keinen Job, Job, Job
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Bin bankrott-krott-krott und saufe trotzdem
+[01:09.71]Bin bankrott-krott-krott und saufe trotzdem
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Auf das ganze Lernen hab ich immer noch kein'n Bock, Bock, Bock
+[01:12.67]Auf das ganze Lernen hab ich immer noch kein'n Bock, Bock, Bock
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Kippe Shots und hab am nächsten Morgen Kopfweh
+[01:16.04]Kippe Shots und hab am nächsten Morgen Kopfweh
 </div>
 </div>
 
@@ -151,7 +151,7 @@ Kippe Shots und hab am nächsten Morgen Kopfweh
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Und wenn sie nicht gestorben sind, feiern sie immer noch, noch, noch
+[01:20.27]Und wenn sie nicht gestorben sind, feiern sie immer noch, noch, noch
 </div>
 </div>
 
@@ -163,7 +163,7 @@ Und wenn sie nicht gestorben sind, feiern sie immer noch, noch, noch
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Glaub mir, Babe, ich bleib so lange, bis das nicht mehr schockt, schockt, schockt
+[01:26.75]Glaub mir, Babe, ich bleib so lange, bis das nicht mehr schockt, schockt, schockt
 </div>
 </div>
 
@@ -177,25 +177,25 @@ Glaub mir, Babe, ich bleib so lange, bis das nicht mehr schockt, schockt, schock
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Ich hab noch immer keinen Job, Job, Job
+[01:47.09]Ich hab noch immer keinen Job, Job, Job
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Bin bankrott-krott-krott und saufe trotzdem
+[01:49.67]Bin bankrott-krott-krott und saufe trotzdem
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Auf das ganze Lernen hab ich immer noch kein'n Bock, Bock, Bock
+[01:52.36]Auf das ganze Lernen hab ich immer noch kein'n Bock, Bock, Bock
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Kippe Shots und hab am nächsten Morgen Kopfweh
+[01:56.07]Kippe Shots und hab am nächsten Morgen Kopfweh
 </div>
 </div>
 

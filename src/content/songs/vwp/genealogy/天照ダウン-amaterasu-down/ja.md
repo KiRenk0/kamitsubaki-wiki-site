@@ -236,7 +236,7 @@ image: /images/albums/vwp/witch-plus-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Down Down Down
+[02:09.68]Down Down Down
 </div>
 </div>
 
@@ -290,7 +290,7 @@ Down Down Down
 
 <div class="lyric-line">
 <div class="jp-lyric">
-lalala~
+[02:34.65]lalala~
 </div>
 </div>
 

@@ -41,9 +41,9 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ビートルズ<rt class="roma">biitoruzu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>借<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[00:22.41]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ビートルズ<rt class="roma">biitoruzu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>借<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
-<div class="trans-lyric">I rented The Beatles</div>
+<div class="trans-lyric">[00:22.41]I rented The Beatles</div>
 </div>
 
 <div class="lyric-line">
@@ -69,9 +69,9 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>全然<rt class="furi">ぜんぜん</rt><rt class="roma">zenzen</rt></ruby><ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>かり<rt class="roma">kari</rt></ruby><ruby>ませ<rt class="roma">mase</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby>
+[00:29.17]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>全然<rt class="furi">ぜんぜん</rt><rt class="roma">zenzen</rt></ruby><ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>かり<rt class="roma">kari</rt></ruby><ruby>ませ<rt class="roma">mase</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby>
 </div>
-<div class="trans-lyric">I have no idea what's so good about it</div>
+<div class="trans-lyric">[00:29.17]I have no idea what's so good about it</div>
 </div>
 
 <div class="lyric-line">
@@ -97,16 +97,16 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>夕暮<rt class="furi">ゆうぐ</rt><rt class="roma">yuugu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>時<rt class="furi">じ</rt><rt class="roma">ji</rt></ruby>、<ruby>部活<rt class="furi">ぶかつ</rt><rt class="roma">bukatsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>帰り道<rt class="furi">かえりみち</rt><rt class="roma">kaerimichi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[00:44.50]<ruby>夕暮<rt class="furi">ゆうぐ</rt><rt class="roma">yuugu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>時<rt class="furi">じ</rt><rt class="roma">ji</rt></ruby>、<ruby>部活<rt class="furi">ぶかつ</rt><rt class="roma">bukatsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>帰り道<rt class="furi">かえりみち</rt><rt class="roma">kaerimichi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
-<div class="trans-lyric">At dusk, on the way home from club activities</div>
+<div class="trans-lyric">[00:44.50]At dusk, on the way home from club activities</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>また<rt class="roma">mata</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ビートルズ<rt class="roma">biitoruzu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[00:50.55]<ruby>また<rt class="roma">mata</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ビートルズ<rt class="roma">biitoruzu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
-<div class="trans-lyric">I listened to The Beatles again</div>
+<div class="trans-lyric">[00:50.55]I listened to The Beatles again</div>
 </div>
 
 <div class="lyric-line">
@@ -118,9 +118,9 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>以前<rt class="furi">いぜん</rt><rt class="roma">izen</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>違<rt class="furi">ちが</rt><rt class="roma">chiga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[00:54.30]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>以前<rt class="furi">いぜん</rt><rt class="roma">izen</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>違<rt class="furi">ちが</rt><rt class="roma">chiga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
-<div class="trans-lyric">Something was different from before</div>
+<div class="trans-lyric">[00:54.30]Something was different from before</div>
 </div>
 
 <div class="lyric-line">
@@ -132,9 +132,9 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>なんで<rt class="roma">nande</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>全然<rt class="furi">ぜんぜん</rt><rt class="roma">zenzen</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>止<rt class="furi">や</rt><rt class="roma">ya</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>ねぇ<rt class="roma">nee</rt></ruby><ruby>っ<rt class="roma"></rt></ruby>
+[00:57.86]<ruby>なんで<rt class="roma">nande</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>全然<rt class="furi">ぜんぜん</rt><rt class="roma">zenzen</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>止<rt class="furi">や</rt><rt class="roma">ya</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>ねぇ<rt class="roma">nee</rt></ruby><ruby>っ<rt class="roma"></rt></ruby>
 </div>
-<div class="trans-lyric">Why the hell won't it stop?!</div>
+<div class="trans-lyric">[00:57.86]Why the hell won't it stop?!</div>
 </div>
 
 <div class="lyric-line">
@@ -169,44 +169,44 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>こえる<rt class="roma">koeru</rt></ruby><ruby>あの<rt class="roma">ano</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>あの<rt class="roma">ano</rt></ruby><ruby>曲<rt class="furi">きょく</rt><rt class="roma">kyoku</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
+[01:26.82]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>こえる<rt class="roma">koeru</rt></ruby><ruby>あの<rt class="roma">ano</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>あの<rt class="roma">ano</rt></ruby><ruby>曲<rt class="furi">きょく</rt><rt class="roma">kyoku</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
-<div class="trans-lyric">Even now, that song from that time is heard in the distance</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>近<rt class="furi">ちか</rt><rt class="roma">chika</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby><ruby>傍<rt class="furi">はた</rt><rt class="roma">hata</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>、<ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
-</div>
-<div class="trans-lyric">Far and near, right beside me, it's screaming</div>
+<div class="trans-lyric">[01:26.82]Even now, that song from that time is heard in the distance</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>あの<rt class="roma">ano</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby>
+[01:34.45]<ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>近<rt class="furi">ちか</rt><rt class="roma">chika</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby><ruby>傍<rt class="furi">はた</rt><rt class="roma">hata</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>、<ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
-<div class="trans-lyric">Look from afar, me as I was back then</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>初<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>めて<rt class="roma">mete</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>がつい<rt class="roma">gatsui</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>あの<rt class="roma">ano</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>衝撃<rt class="furi">しょうげき</rt><rt class="roma">shougeki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
-</div>
-<div class="trans-lyric">Give me the shock of that moment when I first realized</div>
+<div class="trans-lyric">[01:34.45]Far and near, right beside me, it's screaming</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:44.77]<ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>あの<rt class="roma">ano</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby>
 </div>
-<div class="trans-lyric">Forever, forever, forever give it to me</div>
+<div class="trans-lyric">[01:44.77]Look from afar, me as I was back then</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もっと<rt class="roma">motto</rt></ruby><ruby>もっと<rt class="roma">motto</rt></ruby>、<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:50.02]<ruby>初<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>めて<rt class="roma">mete</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>がつい<rt class="roma">gatsui</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>あの<rt class="roma">ano</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>衝撃<rt class="furi">しょうげき</rt><rt class="roma">shougeki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
-<div class="trans-lyric">More and more, give it to me</div>
+<div class="trans-lyric">[01:50.02]Give me the shock of that moment when I first realized</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:52.37]<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+</div>
+<div class="trans-lyric">[01:52.37]Forever, forever, forever give it to me</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:57.94]<ruby>もっと<rt class="roma">motto</rt></ruby><ruby>もっと<rt class="roma">motto</rt></ruby>、<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+</div>
+<div class="trans-lyric">[01:57.94]More and more, give it to me</div>
 </div>
 
 <div class="lyric-line">
@@ -225,30 +225,30 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>がけ<rt class="roma">gake</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>吐き出<rt class="furi">はきだ</rt><rt class="roma">hakida</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[02:09.92]<ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>がけ<rt class="roma">gake</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>吐き出<rt class="furi">はきだ</rt><rt class="roma">hakida</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
-<div class="trans-lyric">I'll spit it out aiming at you far away</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>近<rt class="furi">ちか</rt><rt class="roma">chika</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby><ruby>傍<rt class="furi">はた</rt><rt class="roma">hata</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>やる<rt class="roma">yaru</rt></ruby>
-</div>
-<div class="trans-lyric">I'll scream far, near, right beside you</div>
+<div class="trans-lyric">[02:09.92]I'll spit it out aiming at you far away</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>最近<rt class="furi">さいきん</rt><rt class="roma">saikin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>曲<rt class="furi">きょく</rt><rt class="roma">kyoku</rt></ruby><ruby>なんか<rt class="roma">nanka</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>クソ<rt class="roma">kuso</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>曲<rt class="furi">きょく</rt><rt class="roma">kyoku</rt></ruby><ruby>だらけ<rt class="roma">darake</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>!
+[02:16.83]<ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>近<rt class="furi">ちか</rt><rt class="roma">chika</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby><ruby>傍<rt class="furi">はた</rt><rt class="roma">hata</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>やる<rt class="roma">yaru</rt></ruby>
 </div>
-<div class="trans-lyric">Recent songs are all just crap-like songs!</div>
+<div class="trans-lyric">[02:16.83]I'll scream far, near, right beside you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>なんて<rt class="roma">nante</rt></ruby><ruby>事<rt class="furi">こと</rt><rt class="roma">koto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>、<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>時代<rt class="furi">じだい</rt><rt class="roma">jidai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+[02:26.56]<ruby>最近<rt class="furi">さいきん</rt><rt class="roma">saikin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>曲<rt class="furi">きょく</rt><rt class="roma">kyoku</rt></ruby><ruby>なんか<rt class="roma">nanka</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>クソ<rt class="roma">kuso</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>曲<rt class="furi">きょく</rt><rt class="roma">kyoku</rt></ruby><ruby>だらけ<rt class="roma">darake</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>!
 </div>
-<div class="trans-lyric">You say such things, in any era</div>
+<div class="trans-lyric">[02:26.56]Recent songs are all just crap-like songs!</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:30.78]<ruby>なんて<rt class="roma">nante</rt></ruby><ruby>事<rt class="furi">こと</rt><rt class="roma">koto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>、<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>時代<rt class="furi">じだい</rt><rt class="roma">jidai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+</div>
+<div class="trans-lyric">[02:30.78]You say such things, in any era</div>
 </div>
 
 <div class="lyric-line">
@@ -260,30 +260,30 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby>、<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby>、<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby><ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:37.50]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby>、<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby>、<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby><ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="trans-lyric">I'll scream right now, right now, right now</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby>、<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby>、<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ギター<rt class="roma">gitaa</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>らし<rt class="roma">rashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>やる<rt class="roma">yaru</rt></ruby>
-</div>
-<div class="trans-lyric">I'll make my guitar ring for you right now, now</div>
+<div class="trans-lyric">[02:37.50]I'll scream right now, right now, right now</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby>、<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby>、<ruby>曲<rt class="furi">きょく</rt><rt class="roma">kyoku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>とも<rt class="roma">tomo</rt></ruby>
+[02:48.20]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby>、<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby>、<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ギター<rt class="roma">gitaa</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>らし<rt class="roma">rashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>やる<rt class="roma">yaru</rt></ruby>
 </div>
-<div class="trans-lyric">Even if you don't understand the meaning of the song right now, now</div>
+<div class="trans-lyric">[02:48.20]I'll make my guitar ring for you right now, now</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>らす<rt class="roma">rasu</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby>、<ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>らす<rt class="roma">rasu</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby>
+[02:55.33]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby>、<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby>、<ruby>曲<rt class="furi">きょく</rt><rt class="roma">kyoku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>とも<rt class="roma">tomo</rt></ruby>
 </div>
-<div class="trans-lyric">Now I play, the time I play</div>
+<div class="trans-lyric">[02:55.33]Even if you don't understand the meaning of the song right now, now</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:58.75]<ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>らす<rt class="roma">rasu</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby>、<ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>らす<rt class="roma">rasu</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby>
+</div>
+<div class="trans-lyric">[02:58.75]Now I play, the time I play</div>
 </div>
 
 <div class="lyric-line">

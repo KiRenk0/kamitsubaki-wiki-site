@@ -178,7 +178,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-⼀⼈<ruby>で<rt class="roma">de</rt></ruby><ruby>迎<rt class="furi">むか</rt><rt class="roma">muka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[01:14.57]⼀⼈<ruby>で<rt class="roma">de</rt></ruby><ruby>迎<rt class="furi">むか</rt><rt class="roma">muka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
@@ -228,7 +228,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>たぶん<rt class="roma">tabun</rt></ruby>
+[01:34.28]<ruby>たぶん<rt class="roma">tabun</rt></ruby>
 </div>
 </div>
 
@@ -280,13 +280,13 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>回<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
+[01:56.03]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>回<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そう<rt class="roma">sou</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
+[01:59.70]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
 </div>
 
@@ -299,13 +299,13 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>仕<rt class="furi">つかまつ</rt><rt class="roma">tsukamatsu</rt></ruby>⽅<ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
+[02:07.69]<ruby>仕<rt class="furi">つかまつ</rt><rt class="roma">tsukamatsu</rt></ruby>⽅<ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「<ruby>おかえり<rt class="roma">okaeri</rt></ruby>」
+[02:10.17]「<ruby>おかえり<rt class="roma">okaeri</rt></ruby>」
 </div>
 </div>
 
@@ -371,7 +371,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>回<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
+[02:57.93]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>回<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
 </div>
 
@@ -379,43 +379,43 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>回<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
+[03:00.55]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>回<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そう<rt class="roma">sou</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
+[03:03.50]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>と共<rt class="furi">ととも</rt><rt class="roma">totomo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[03:06.22]<ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>と共<rt class="furi">ととも</rt><rt class="roma">totomo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>仕<rt class="furi">つかまつ</rt><rt class="roma">tsukamatsu</rt></ruby>⽅<ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
+[03:11.52]<ruby>仕<rt class="furi">つかまつ</rt><rt class="roma">tsukamatsu</rt></ruby>⽅<ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「<ruby>おかえり<rt class="roma">okaeri</rt></ruby>」
+[03:14.15]「<ruby>おかえり<rt class="roma">okaeri</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>わず<rt class="roma">wazu</rt></ruby><ruby>零<rt class="furi">こぼ</rt><rt class="roma">kobo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>⾔<ruby>葉<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+[03:14.92]<ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>わず<rt class="roma">wazu</rt></ruby><ruby>零<rt class="furi">こぼ</rt><rt class="roma">kobo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>⾔<ruby>葉<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>違<rt class="furi">ちが</rt><rt class="roma">chiga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
+[03:19.06]<ruby>違<rt class="furi">ちが</rt><rt class="roma">chiga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 </div>
 
@@ -430,7 +430,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そう<rt class="roma">sou</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
+[03:24.89]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
 </div>
 
@@ -450,7 +450,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「<ruby>おかえり<rt class="roma">okaeri</rt></ruby>」
+[03:35.59]「<ruby>おかえり<rt class="roma">okaeri</rt></ruby>」
 </div>
 </div>
 

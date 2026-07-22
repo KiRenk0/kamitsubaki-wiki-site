@@ -252,7 +252,7 @@ image: /images/songs/vwp/single-1840334634.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
+[02:14.11]<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 
@@ -300,7 +300,7 @@ image: /images/songs/vwp/single-1840334634.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>この<rt class="roma">kono</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[02:28.72]<ruby>この<rt class="roma">kono</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
@@ -384,25 +384,25 @@ image: /images/songs/vwp/single-1840334634.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>産声<rt class="furi">うぶごえ</rt><rt class="roma">ubugoe</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+[03:45.49]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>産声<rt class="furi">うぶごえ</rt><rt class="roma">ubugoe</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>頭<rt class="furi">あたま</rt><rt class="roma">atama</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>悪<rt class="furi">わる</rt><rt class="roma">waru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>号<rt class="furi">ごう</rt><rt class="roma">gou</rt></ruby>哭<ruby>を<rt class="roma">wo</rt></ruby>
+[03:47.95]<ruby>頭<rt class="furi">あたま</rt><rt class="roma">atama</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>悪<rt class="furi">わる</rt><rt class="roma">waru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>号<rt class="furi">ごう</rt><rt class="roma">gou</rt></ruby>哭<ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[03:50.42]<ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
+[03:51.42]<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 

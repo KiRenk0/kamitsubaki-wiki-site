@@ -318,25 +318,25 @@ MC2 appears on CREAM PUFF LIVE 2 or a related official release. Entries are vers
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Ritual ideas relativity
+[01:30.24]Ritual ideas relativity
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Only buildings, no people prophecy
+[01:33.48]Only buildings, no people prophecy
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Time slide, place to hide, nudge reality
+[01:37.16]Time slide, place to hide, nudge reality
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Foresight, minds wide, magic imagery
+[01:40.66]Foresight, minds wide, magic imagery
 </div>
 </div>
 
@@ -434,25 +434,25 @@ Foresight, minds wide, magic imagery
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Ritual ideas relativity
+[02:29.53]Ritual ideas relativity
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Only buildings, no people prophecy
+[02:32.73]Only buildings, no people prophecy
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Time slide, place to hide, nudge reality
+[02:36.49]Time slide, place to hide, nudge reality
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Foresight, minds wide, magic imagery
+[02:40.25]Foresight, minds wide, magic imagery
 </div>
 </div>
 
@@ -520,25 +520,25 @@ Foresight, minds wide, magic imagery
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Ritual ideas relativity
+[03:13.38]Ritual ideas relativity
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Only buildings, no people prophecy
+[03:16.87]Only buildings, no people prophecy
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Time slide, place to hide, nudge reality
+[03:21.37]Time slide, place to hide, nudge reality
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Foresight, minds wide, magic imagery
+[03:24.82]Foresight, minds wide, magic imagery
 </div>
 </div>
 
@@ -604,25 +604,25 @@ Foresight, minds wide, magic imagery
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Ritual ideas relativity
+[03:52.25]Ritual ideas relativity
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Only buildings, no people prophecy
+[03:55.66]Only buildings, no people prophecy
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Time slide, place to hide, nudge reality
+[03:59.41]Time slide, place to hide, nudge reality
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Foresight, minds wide, magic imagery
+[04:02.88]Foresight, minds wide, magic imagery
 </div>
 </div>
 
@@ -649,31 +649,31 @@ Foresight, minds wide, magic imagery
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Ritual ideas relativity
+[04:19.80]Ritual ideas relativity
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Only buildings, no people prophecy
+[04:20.12]Only buildings, no people prophecy
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Time slide, place to hide, nudge reality
+[04:20.40]Time slide, place to hide, nudge reality
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Foresight, minds wide, magic imagery
+[04:20.67]Foresight, minds wide, magic imagery
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Ritual ideas relativity
+[04:20.92]Ritual ideas relativity
 </div>
 </div>
 
@@ -686,13 +686,13 @@ Ritual ideas relativity
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Time slide, place to hide, nudge reality
+[04:21.46]Time slide, place to hide, nudge reality
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Foresight, minds wide, magic imagery
+[04:21.70]Foresight, minds wide, magic imagery
 </div>
 </div>
 

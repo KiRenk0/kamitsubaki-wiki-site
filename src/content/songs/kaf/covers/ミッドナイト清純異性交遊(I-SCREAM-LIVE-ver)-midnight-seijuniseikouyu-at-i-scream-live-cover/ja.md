@@ -161,13 +161,13 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> iPhone <ruby>の<rt class="roma">no</rt></ruby><ruby>あかり<rt class="roma">akari</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+[02:30.19]<ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> iPhone <ruby>の<rt class="roma">no</rt></ruby><ruby>あかり<rt class="roma">akari</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>残<rt class="furi">のこ</rt><rt class="roma">noko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> one-room fantasy
+[02:35.03]<ruby>残<rt class="furi">のこ</rt><rt class="roma">noko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> one-room fantasy
 </div>
 </div>
 
@@ -217,7 +217,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Straw <ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>噛<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> bus stop <ruby>から<rt class="roma">kara</rt></ruby><ruby>睨<rt class="furi">にら</rt><rt class="roma">nira</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[03:10.96]Straw <ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>噛<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> bus stop <ruby>から<rt class="roma">kara</rt></ruby><ruby>睨<rt class="furi">にら</rt><rt class="roma">nira</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 

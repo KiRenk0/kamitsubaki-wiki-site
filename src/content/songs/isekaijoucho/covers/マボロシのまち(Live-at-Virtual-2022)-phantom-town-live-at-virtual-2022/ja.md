@@ -232,7 +232,7 @@ image: /images/albums/rim/singularity-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>回路<rt class="furi">かいろ</rt><rt class="roma">kairo</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>伝<rt class="furi">つた</rt><rt class="roma">tsuta</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
+[02:12.08]<ruby>回路<rt class="furi">かいろ</rt><rt class="roma">kairo</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>伝<rt class="furi">つた</rt><rt class="roma">tsuta</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
 </div>
 
@@ -304,19 +304,19 @@ image: /images/albums/rim/singularity-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>せる<rt class="roma">seru</rt></ruby> <ruby>この<rt class="roma">kono</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+[03:18.32]<ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>せる<rt class="roma">seru</rt></ruby> <ruby>この<rt class="roma">kono</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>歪<rt class="furi">いびつ</rt><rt class="roma">ibitsu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>綺麗<rt class="furi">きれい</rt><rt class="roma">kirei</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby>
+[03:22.32]<ruby>歪<rt class="furi">いびつ</rt><rt class="roma">ibitsu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>綺麗<rt class="furi">きれい</rt><rt class="roma">kirei</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
+[03:26.28]<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
 </div>
 

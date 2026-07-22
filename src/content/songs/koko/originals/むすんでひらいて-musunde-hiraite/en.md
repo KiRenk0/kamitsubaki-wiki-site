@@ -173,43 +173,43 @@ image: /images/songs/koko/single-1791868643.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Yasashisa mo tsuyosa mo itami mo zenbu
+[01:17.07]Yasashisa mo tsuyosa mo itami mo zenbu
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Itsu demo moratte bakari da tta n da
+[01:22.36]Itsu demo moratte bakari da tta n da
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Musunde hiraite musubi naoshite
+[01:27.73]Musunde hiraite musubi naoshite
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Kurikaeshite iku tsugi wa boku ga
+[01:32.74]Kurikaeshite iku tsugi wa boku ga
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ōkiku iki wo suikonde
+[01:36.17]ōkiku iki wo suikonde
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Todoketai tsutaetai
+[01:38.64]Todoketai tsutaetai
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-«Arigatō» wo kimi ni
+[01:41.49]«Arigatō» wo kimi ni
 </div>
 </div>
 
@@ -335,7 +335,7 @@ Todoketai tsutaetai
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Annafūni kimi mitai ni
+[02:49.18]Annafūni kimi mitai ni
 </div>
 </div>
 
@@ -411,31 +411,31 @@ Annafūni kimi mitai ni
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Yasashisa mo tsuyosa mo itami mo zenbu
+[03:27.40]Yasashisa mo tsuyosa mo itami mo zenbu
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Itsu demo moratte bakari da tta n da
+[03:32.55]Itsu demo moratte bakari da tta n da
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Musunde hiraite musubi naoshite
+[03:37.92]Musunde hiraite musubi naoshite
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Kurikaeshite iku tsugi wa boku ga
+[03:43.12]Kurikaeshite iku tsugi wa boku ga
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ōkiku iki wo suikonde
+[03:46.35]ōkiku iki wo suikonde
 </div>
 </div>
 
@@ -455,13 +455,13 @@ Kurikaeshite iku tsugi wa boku ga
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Todoketai tsutaetai
+[03:54.41]Todoketai tsutaetai
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-«Arigatō» wo kimi ni
+[03:57.02]«Arigatō» wo kimi ni
 </div>
 </div>
 

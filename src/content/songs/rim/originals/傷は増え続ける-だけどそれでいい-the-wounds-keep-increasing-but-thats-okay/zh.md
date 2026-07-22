@@ -228,13 +228,13 @@ image: /images/albums/rim/imagine.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'll be fine I'm fine
+[00:54.17]I'll be fine I'm fine
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'll be fine I'm fine
+[00:59.90]I'll be fine I'm fine
 </div>
 </div>
 
@@ -250,13 +250,13 @@ I'll be fine I'm fine
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'll be fine I'm fine
+[01:11.39]I'll be fine I'm fine
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'll be I'm ok
+[01:17.19]I'll be I'm ok
 </div>
 </div>
 
@@ -451,31 +451,31 @@ I'll be I'm ok
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'll be fine I'm fine
+[02:15.43]I'll be fine I'm fine
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'll be fine I'm fine
+[02:21.47]I'll be fine I'm fine
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'll be I'm ok
+[02:27.00]I'll be I'm ok
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'll be fine I'm fine
+[02:32.85]I'll be fine I'm fine
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'll be I'm ok
+[02:38.58]I'll be I'm ok
 </div>
 </div>
 

@@ -52,13 +52,13 @@ image: /images/songs/vwp/single-1732391309.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Virtual Witch Phenomenon
+[00:09.69]Virtual Witch Phenomenon
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Virtual Witch Phenomenon
+[00:15.77]Virtual Witch Phenomenon
 </div>
 </div>
 
@@ -73,13 +73,13 @@ Virtual Witch Phenomenon
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Virtual Witch Phenomenon
+[00:21.73]Virtual Witch Phenomenon
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Virtual Witch Phenomenon time!
+[00:24.71]Virtual Witch Phenomenon time!
 </div>
 </div>
 
@@ -269,7 +269,7 @@ Virtual Witch Phenomenon time!
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>作り物<rt class="furi">つくりもの</rt><rt class="roma">tsukurimono</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>人生<rt class="furi">じんせい</rt><rt class="roma">jinsei</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby>
+[02:07.95]<ruby>作り物<rt class="furi">つくりもの</rt><rt class="roma">tsukurimono</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>人生<rt class="furi">じんせい</rt><rt class="roma">jinsei</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby>
 </div>
 </div>
 
@@ -291,31 +291,31 @@ Virtual Witch Phenomenon time!
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Virtual Witch Phenomenon
+[02:30.04]Virtual Witch Phenomenon
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Virtual Witch Phenomenon
+[02:36.10]Virtual Witch Phenomenon
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Virtual Witch Phenomenon
+[02:42.16]Virtual Witch Phenomenon
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Virtual Witch Phenomenon time!
+[02:45.07]Virtual Witch Phenomenon time!
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Virtual Witch Phenomenon
+[02:48.01]Virtual Witch Phenomenon
 </div>
 </div>
 
@@ -330,25 +330,25 @@ Virtual Witch Phenomenon
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>運命<rt class="furi">うんめい</rt><rt class="roma">unmei</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>制<rt class="furi">せい</rt><rt class="roma">sei</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[03:01.25]<ruby>運命<rt class="furi">うんめい</rt><rt class="roma">unmei</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>制<rt class="furi">せい</rt><rt class="roma">sei</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>作り物<rt class="furi">つくりもの</rt><rt class="roma">tsukurimono</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>人生<rt class="furi">じんせい</rt><rt class="roma">jinsei</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby>
+[03:03.71]<ruby>作り物<rt class="furi">つくりもの</rt><rt class="roma">tsukurimono</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>人生<rt class="furi">じんせい</rt><rt class="roma">jinsei</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>書き換<rt class="furi">かきか</rt><rt class="roma">kakika</rt></ruby><ruby>えれ<rt class="roma">ere</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[03:07.13]<ruby>書き換<rt class="furi">かきか</rt><rt class="roma">kakika</rt></ruby><ruby>えれ<rt class="roma">ere</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>その<rt class="roma">sono</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>なんで<rt class="roma">nande</rt></ruby> <ruby>空<rt class="furi">から</rt><rt class="roma">kara</rt></ruby><ruby>っぽ<rt class="roma">ppo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[03:09.11]<ruby>その<rt class="roma">sono</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>なんで<rt class="roma">nande</rt></ruby> <ruby>空<rt class="furi">から</rt><rt class="roma">kara</rt></ruby><ruby>っぽ<rt class="roma">ppo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
@@ -356,13 +356,13 @@ Virtual Witch Phenomenon
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>だ<rt class="roma">da</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby> <ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>解<rt class="furi">わか</rt><rt class="roma">waka</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[03:13.87]<ruby>だ<rt class="roma">da</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby> <ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>解<rt class="furi">わか</rt><rt class="roma">waka</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>半端<rt class="furi">はんぱ</rt><rt class="roma">hanpa</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>傍観<rt class="furi">ぼうかん</rt><rt class="roma">boukan</rt></ruby><ruby>者<rt class="furi">しゃ</rt><rt class="roma">sha</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>っし<rt class="roma">sshi</rt></ruby><ruby>のし<rt class="roma">noshi</rt></ruby>
+[03:16.99]<ruby>半端<rt class="furi">はんぱ</rt><rt class="roma">hanpa</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>傍観<rt class="furi">ぼうかん</rt><rt class="roma">boukan</rt></ruby><ruby>者<rt class="furi">しゃ</rt><rt class="roma">sha</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>っし<rt class="roma">sshi</rt></ruby><ruby>のし<rt class="roma">noshi</rt></ruby>
 </div>
 </div>
 
@@ -391,13 +391,13 @@ Virtual Witch Phenomenon
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>運命<rt class="furi">うんめい</rt><rt class="roma">unmei</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>制<rt class="furi">せい</rt><rt class="roma">sei</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[03:31.43]<ruby>運命<rt class="furi">うんめい</rt><rt class="roma">unmei</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>制<rt class="furi">せい</rt><rt class="roma">sei</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>運命<rt class="furi">うんめい</rt><rt class="roma">unmei</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>せい<rt class="roma">sei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[03:37.48]<ruby>運命<rt class="furi">うんめい</rt><rt class="roma">unmei</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>せい<rt class="roma">sei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 </div>
 

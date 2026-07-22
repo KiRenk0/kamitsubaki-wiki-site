@@ -194,43 +194,43 @@ image: /images/albums/vwp/awakening.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ありがとう<rt class="roma">arigatou</rt></ruby>
+[02:31.66]<ruby>ありがとう<rt class="roma">arigatou</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[02:33.46]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>かじかん<rt class="roma">kajikan</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby>
+[02:37.34]<ruby>かじかん<rt class="roma">kajikan</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>暖<rt class="furi">あたた</rt><rt class="roma">atata</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby><ruby>温<rt class="furi">ぬく</rt><rt class="roma">nuku</rt></ruby><ruby>もり<rt class="roma">mori</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+[02:38.80]<ruby>暖<rt class="furi">あたた</rt><rt class="roma">atata</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby><ruby>温<rt class="furi">ぬく</rt><rt class="roma">nuku</rt></ruby><ruby>もり<rt class="roma">mori</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>この<rt class="roma">kono</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>居<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
+[02:42.96]<ruby>この<rt class="roma">kono</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>居<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それ<rt class="roma">sore</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[02:46.71]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>透明<rt class="furi">とうめい</rt><rt class="roma">toumei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>
+[02:48.67]<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>透明<rt class="furi">とうめい</rt><rt class="roma">toumei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>
 </div>
 </div>
 

@@ -181,19 +181,19 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>交<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わし<rt class="roma">washi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>約束<rt class="furi">やくそく</rt><rt class="roma">yakusoku</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:23.28]<ruby>交<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わし<rt class="roma">washi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>約束<rt class="furi">やくそく</rt><rt class="roma">yakusoku</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>閉<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>確<rt class="furi">たし</rt><rt class="roma">tashi</rt></ruby><ruby>かめる<rt class="roma">kameru</rt></ruby>
+[02:26.51]<ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>閉<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>確<rt class="furi">たし</rt><rt class="roma">tashi</rt></ruby><ruby>かめる<rt class="roma">kameru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>押し寄<rt class="furi">おしよ</rt><rt class="roma">oshiyo</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>闇<rt class="furi">やみ</rt><rt class="roma">yami</rt></ruby> <ruby>振り払<rt class="furi">ふりはら</rt><rt class="roma">furihara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>進<rt class="furi">すす</rt><rt class="roma">susu</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:28.84]<ruby>押し寄<rt class="furi">おしよ</rt><rt class="roma">oshiyo</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>闇<rt class="furi">やみ</rt><rt class="roma">yami</rt></ruby> <ruby>振り払<rt class="furi">ふりはら</rt><rt class="roma">furihara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>進<rt class="furi">すす</rt><rt class="roma">susu</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
@@ -233,31 +233,31 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>目覚<rt class="furi">めざ</rt><rt class="roma">meza</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>走り出<rt class="furi">はしりだ</rt><rt class="roma">hashirida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby>
+[03:31.71]<ruby>目覚<rt class="furi">めざ</rt><rt class="roma">meza</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>走り出<rt class="furi">はしりだ</rt><rt class="roma">hashirida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>難<rt class="furi">むずか</rt><rt class="roma">muzuka</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>道<rt class="furi">みち</rt><rt class="roma">michi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>立ち止<rt class="furi">たちど</rt><rt class="roma">tachido</rt></ruby><ruby>まって<rt class="roma">matte</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+[03:37.47]<ruby>難<rt class="furi">むずか</rt><rt class="roma">muzuka</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>道<rt class="furi">みち</rt><rt class="roma">michi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>立ち止<rt class="furi">たちど</rt><rt class="roma">tachido</rt></ruby><ruby>まって<rt class="roma">matte</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>きれい<rt class="roma">kirei</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>青<rt class="furi">あお</rt><rt class="roma">ao</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くれる<rt class="roma">kureru</rt></ruby>
+[03:41.52]<ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>きれい<rt class="roma">kirei</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>青<rt class="furi">あお</rt><rt class="roma">ao</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くれる<rt class="roma">kureru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>だから<rt class="roma">dakara</rt></ruby><ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[03:47.49]<ruby>だから<rt class="roma">dakara</rt></ruby><ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう<rt class="roma">mou</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>あって<rt class="roma">atte</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>挫<rt class="furi">くじ</rt><rt class="roma">kuji</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[03:49.53]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>あって<rt class="roma">atte</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>挫<rt class="furi">くじ</rt><rt class="roma">kuji</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 

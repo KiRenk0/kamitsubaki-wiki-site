@@ -164,7 +164,7 @@ image: /images/albums/vwp/witch-plus.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>笑<rt class="furi">え</rt><rt class="roma">e</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>笑<rt class="furi">え</rt><rt class="roma">e</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[02:13.61]<ruby>笑<rt class="furi">え</rt><rt class="roma">e</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>笑<rt class="furi">え</rt><rt class="roma">e</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 </div>
 

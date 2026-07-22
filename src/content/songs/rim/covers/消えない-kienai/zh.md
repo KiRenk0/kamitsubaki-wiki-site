@@ -67,7 +67,7 @@ image: /images/albums/rim/chocolate-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>わかってる<rt class="roma">wakatteru</rt></ruby>
+[00:46.82]<ruby>わかってる<rt class="roma">wakatteru</rt></ruby>
 </div>
 </div>
 
@@ -156,7 +156,7 @@ image: /images/albums/rim/chocolate-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>わかってる<rt class="roma">wakatteru</rt></ruby>
+[01:34.05]<ruby>わかってる<rt class="roma">wakatteru</rt></ruby>
 </div>
 </div>
 
@@ -171,19 +171,19 @@ image: /images/albums/rim/chocolate-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>簡単<rt class="furi">かんたん</rt><rt class="roma">kantan</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>詰<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>まる<rt class="roma">maru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>なぜ<rt class="roma">naze</rt></ruby>
+[01:55.89]<ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>簡単<rt class="furi">かんたん</rt><rt class="roma">kantan</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>詰<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>まる<rt class="roma">maru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>なぜ<rt class="roma">naze</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
+[02:02.96]<ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>せる<rt class="roma">seru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
+[02:06.52]<ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>せる<rt class="roma">seru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
 </div>
 
@@ -221,13 +221,13 @@ image: /images/albums/rim/chocolate-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>沈<rt class="furi">しず</rt><rt class="roma">shizu</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>タイ<rt class="roma">tai</rt></ruby><ruby>タン<rt class="roma">tan</rt></ruby><ruby>号<rt class="furi">ごう</rt><rt class="roma">gou</rt></ruby> <ruby>燃<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>人形<rt class="furi">にんぎょう</rt><rt class="roma">ningyou</rt></ruby><ruby>町<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby>
+[02:24.89]<ruby>沈<rt class="furi">しず</rt><rt class="roma">shizu</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>タイ<rt class="roma">tai</rt></ruby><ruby>タン<rt class="roma">tan</rt></ruby><ruby>号<rt class="furi">ごう</rt><rt class="roma">gou</rt></ruby> <ruby>燃<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>人形<rt class="furi">にんぎょう</rt><rt class="roma">ningyou</rt></ruby><ruby>町<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>荒<rt class="furi">あら</rt><rt class="roma">ara</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>水<rt class="furi">みず</rt><rt class="roma">mizu</rt></ruby><ruby>金地<rt class="furi">きんじ</rt><rt class="roma">kinji</rt></ruby><ruby>火<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>木<rt class="furi">き</rt><rt class="roma">ki</rt></ruby>
+[02:28.65]<ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>荒<rt class="furi">あら</rt><rt class="roma">ara</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>水<rt class="furi">みず</rt><rt class="roma">mizu</rt></ruby><ruby>金地<rt class="furi">きんじ</rt><rt class="roma">kinji</rt></ruby><ruby>火<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>木<rt class="furi">き</rt><rt class="roma">ki</rt></ruby>
 </div>
 </div>
 

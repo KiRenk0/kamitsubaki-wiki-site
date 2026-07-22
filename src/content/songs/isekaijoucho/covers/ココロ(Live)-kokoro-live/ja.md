@@ -159,7 +159,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>フシギ<rt class="roma">fushigi</rt></ruby> <ruby>ココロ<rt class="roma">kokoro</rt></ruby> <ruby>ココロ<rt class="roma">kokoro</rt></ruby> <ruby>フシギ<rt class="roma">fushigi</rt></ruby>
+[02:23.86]<ruby>フシギ<rt class="roma">fushigi</rt></ruby> <ruby>ココロ<rt class="roma">kokoro</rt></ruby> <ruby>ココロ<rt class="roma">kokoro</rt></ruby> <ruby>フシギ<rt class="roma">fushigi</rt></ruby>
 </div>
 </div>
 
@@ -253,7 +253,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>アリガトウ<rt class="roma">arigatou</rt></ruby>･･･
+[03:34.05]<ruby>アリガトウ<rt class="roma">arigatou</rt></ruby>･･･
 </div>
 </div>
 
@@ -265,7 +265,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>アリガトウ<rt class="roma">arigatou</rt></ruby>･･･
+[03:41.07]<ruby>アリガトウ<rt class="roma">arigatou</rt></ruby>･･･
 </div>
 </div>
 
@@ -277,7 +277,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>アリガトウ<rt class="roma">arigatou</rt></ruby>･･･
+[03:47.79]<ruby>アリガトウ<rt class="roma">arigatou</rt></ruby>･･･
 </div>
 </div>
 
@@ -289,7 +289,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>アリガトウ<rt class="roma">arigatou</rt></ruby>･･･
+[03:54.82]<ruby>アリガトウ<rt class="roma">arigatou</rt></ruby>･･･
 </div>
 </div>
 

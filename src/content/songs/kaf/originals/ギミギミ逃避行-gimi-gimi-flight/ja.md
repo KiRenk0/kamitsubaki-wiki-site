@@ -291,7 +291,7 @@ image: /images/songs/kaf/track-1732389947.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-we go we go we go we go
+[01:43.65]we go we go we go we go
 </div>
 </div>
 
@@ -387,13 +387,13 @@ we go we go we go we go
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I wanna feel <ruby>ギルティ<rt class="roma">girutei</rt></ruby>
+[02:21.91]I wanna feel <ruby>ギルティ<rt class="roma">girutei</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-gimme gimme <ruby>逃避行<rt class="furi">とうひこう</rt><rt class="roma">touhikou</rt></ruby>
+[02:23.62]gimme gimme <ruby>逃避行<rt class="furi">とうひこう</rt><rt class="roma">touhikou</rt></ruby>
 </div>
 </div>
 
@@ -405,7 +405,7 @@ gimme gimme <ruby>逃避行<rt class="furi">とうひこう</rt><rt class="roma"
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ビート<rt class="roma">biito</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>乗<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby> <ruby>天使<rt class="furi">てんし</rt><rt class="roma">tenshi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>悪魔<rt class="furi">あくま</rt><rt class="roma">akuma</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>包囲<rt class="furi">ほうい</rt><rt class="roma">houi</rt></ruby><ruby>網<rt class="furi">もう</rt><rt class="roma">mou</rt></ruby>
+[02:29.56]<ruby>ビート<rt class="roma">biito</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>乗<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby> <ruby>天使<rt class="furi">てんし</rt><rt class="roma">tenshi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>悪魔<rt class="furi">あくま</rt><rt class="roma">akuma</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>包囲<rt class="furi">ほうい</rt><rt class="roma">houi</rt></ruby><ruby>網<rt class="furi">もう</rt><rt class="roma">mou</rt></ruby>
 </div>
 </div>
 
@@ -417,43 +417,43 @@ gimme gimme <ruby>逃避行<rt class="furi">とうひこう</rt><rt class="roma"
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>確<rt class="furi">たし</rt><rt class="roma">tashi</rt></ruby><ruby>かめ<rt class="roma">kame</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[02:37.71]<ruby>確<rt class="furi">たし</rt><rt class="roma">tashi</rt></ruby><ruby>かめ<rt class="roma">kame</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-we go we go we go we go
+[02:39.20]we go we go we go we go
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>何気<rt class="furi">なにげ</rt><rt class="roma">nanige</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>day to day <ruby>色付<rt class="furi">いろづ</rt><rt class="roma">irozu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>special day
+[02:43.67]<ruby>何気<rt class="furi">なにげ</rt><rt class="roma">nanige</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>day to day <ruby>色付<rt class="furi">いろづ</rt><rt class="roma">irozu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>special day
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[02:45.39]<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-we go we go we go we go
+[02:47.03]we go we go we go we go
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>デタラメ<rt class="roma">detarame</rt></ruby>one night
+[02:49.27]<ruby>デタラメ<rt class="roma">detarame</rt></ruby>one night
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>まだまだ<rt class="roma">madamada</rt></ruby><ruby>遊<rt class="furi">あそ</rt><rt class="roma">aso</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[02:50.91]<ruby>まだまだ<rt class="roma">madamada</rt></ruby><ruby>遊<rt class="furi">あそ</rt><rt class="roma">aso</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 </div>
 

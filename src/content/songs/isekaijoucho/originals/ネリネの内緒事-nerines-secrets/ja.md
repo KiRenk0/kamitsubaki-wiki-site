@@ -197,7 +197,7 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>憂<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby>、<ruby>憂<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby>、<ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>らめく<rt class="roma">rameku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+[02:14.22]<ruby>憂<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby>、<ruby>憂<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby>、<ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>らめく<rt class="roma">rameku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 

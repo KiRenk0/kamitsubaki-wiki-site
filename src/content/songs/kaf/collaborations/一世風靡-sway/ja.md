@@ -77,7 +77,7 @@ image: /images/songs/kaf/track-1779199800.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いっせ<rt class="roma">isse</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ので<rt class="roma">node</rt></ruby><ruby>いって<rt class="roma">itte</rt></ruby><ruby>みよ<rt class="roma">miyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[00:27.82]<ruby>いっせ<rt class="roma">isse</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ので<rt class="roma">node</rt></ruby><ruby>いって<rt class="roma">itte</rt></ruby><ruby>みよ<rt class="roma">miyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
@@ -135,7 +135,7 @@ image: /images/songs/kaf/track-1779199800.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いっせ<rt class="roma">isse</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ので<rt class="roma">node</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>みよ<rt class="roma">miyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[01:00.56]<ruby>いっせ<rt class="roma">isse</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ので<rt class="roma">node</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>みよ<rt class="roma">miyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
@@ -231,19 +231,19 @@ image: /images/songs/kaf/track-1779199800.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いっせ<rt class="roma">isse</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ので<rt class="roma">node</rt></ruby><ruby>いって<rt class="roma">itte</rt></ruby><ruby>みよ<rt class="roma">miyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[01:49.39]<ruby>いっせ<rt class="roma">isse</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ので<rt class="roma">node</rt></ruby><ruby>いって<rt class="roma">itte</rt></ruby><ruby>みよ<rt class="roma">miyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いっせ<rt class="roma">isse</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ので<rt class="roma">node</rt></ruby><ruby>いって<rt class="roma">itte</rt></ruby><ruby>みよ<rt class="roma">miyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[01:54.82]<ruby>いっせ<rt class="roma">isse</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ので<rt class="roma">node</rt></ruby><ruby>いって<rt class="roma">itte</rt></ruby><ruby>みよ<rt class="roma">miyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いって<rt class="roma">itte</rt></ruby><ruby>みよ<rt class="roma">miyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[01:57.46]<ruby>いって<rt class="roma">itte</rt></ruby><ruby>みよ<rt class="roma">miyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
@@ -251,7 +251,7 @@ image: /images/songs/kaf/track-1779199800.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いっせ<rt class="roma">isse</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ので<rt class="roma">node</rt></ruby><ruby>いって<rt class="roma">itte</rt></ruby><ruby>みよ<rt class="roma">miyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[02:11.07]<ruby>いっせ<rt class="roma">isse</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ので<rt class="roma">node</rt></ruby><ruby>いって<rt class="roma">itte</rt></ruby><ruby>みよ<rt class="roma">miyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 

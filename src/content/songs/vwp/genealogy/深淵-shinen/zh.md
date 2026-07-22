@@ -363,7 +363,7 @@ image: /images/albums/vwp/proliferation.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Revive
+[03:07.47]Revive
 </div>
 </div>
 

@@ -158,19 +158,19 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>たとえば<rt class="roma">tatoeba</rt></ruby><ruby>ゆるい<rt class="roma">yurui</rt></ruby><ruby>幸<rt class="furi">しあわ</rt><rt class="roma">shiawa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>だら<rt class="roma">dara</rt></ruby><ruby>っと<rt class="roma">tto</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>
+[03:01.14]<ruby>たとえば<rt class="roma">tatoeba</rt></ruby><ruby>ゆるい<rt class="roma">yurui</rt></ruby><ruby>幸<rt class="furi">しあわ</rt><rt class="roma">shiawa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>だら<rt class="roma">dara</rt></ruby><ruby>っと<rt class="roma">tto</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>悪<rt class="furi">わる</rt><rt class="roma">waru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>種<rt class="furi">たね</rt><rt class="roma">tane</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>芽<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>出<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[03:12.09]<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>悪<rt class="furi">わる</rt><rt class="roma">waru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>種<rt class="furi">たね</rt><rt class="roma">tane</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>芽<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>出<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう<rt class="roma">mou</rt></ruby> <ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>なん<rt class="roma">nan</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[03:18.92]<ruby>もう<rt class="roma">mou</rt></ruby> <ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>なん<rt class="roma">nan</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 

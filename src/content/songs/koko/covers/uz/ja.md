@@ -112,7 +112,7 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Heb heb mem giggel ibbän zou
+[01:41.51]Heb heb mem giggel ibbän zou
 </div>
 </div>
 
@@ -120,13 +120,13 @@ Heb heb mem giggel ibbän zou
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Un wenn de do dei do uze don do dost
+[01:53.36]Un wenn de do dei do uze don do dost
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Do däi disch dabbes dabbe dabbe däi disch dabbes
+[01:54.98]Do däi disch dabbes dabbe dabbe däi disch dabbes
 </div>
 </div>
 
@@ -146,7 +146,7 @@ Do däi disch dabbes dabbe dabbe däi disch dabbes
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Heb heb mem giggel ibbän zou
+[02:08.30]Heb heb mem giggel ibbän zou
 </div>
 </div>
 
@@ -154,7 +154,7 @@ Heb heb mem giggel ibbän zou
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Uz misch ned
+[03:07.23]Uz misch ned
 </div>
 </div>
 

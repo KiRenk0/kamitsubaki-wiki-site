@@ -231,7 +231,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Down Down Down
+[02:10.46]Down Down Down
 </div>
 </div>
 
@@ -285,7 +285,7 @@ Down Down Down
 
 <div class="lyric-line">
 <div class="jp-lyric">
-lalala~
+[02:35.10]lalala~
 </div>
 </div>
 

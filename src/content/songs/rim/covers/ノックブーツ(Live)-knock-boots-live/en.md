@@ -55,7 +55,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いや<rt class="roma">iya</rt></ruby>、<ruby>なんか<rt class="roma">nanka</rt></ruby>違<ruby>く<rt class="roma">ku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
+[00:25.20]<ruby>いや<rt class="roma">iya</rt></ruby>、<ruby>なんか<rt class="roma">nanka</rt></ruby>違<ruby>く<rt class="roma">ku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
 </div>
 
@@ -363,7 +363,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>」<ruby>とか<rt class="roma">toka</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[02:31.66]「<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>」<ruby>とか<rt class="roma">toka</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 

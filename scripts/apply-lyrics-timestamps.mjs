@@ -1,370 +1,203 @@
 /**
- * apply-lyrics-timestamps.mjs
- * 
- * Reads the lyrics-cache.json and applies synced LRC timestamps
- * to all song markdown files in src/content/songs.
- * 
- * For each file:
- * 1. Extracts plain text from jp-lyric lines (stripping HTML tags)
- * 2. Matches against cached LRC data using fuzzy text comparison
- * 3. Inserts [MM:SS.CC] timestamps at the beginning of matching lines
+ * Apply validated cached LRC timestamps to localized song Markdown files.
+ * Existing timestamps are preserved; missing line-start tags are filled only
+ * when the cached lyric text reliably aligns with the local Japanese lyrics.
  */
 
-import fs from 'fs';
-import path from 'path';
+import fs from 'node:fs';
+import path from 'node:path';
+import { pathToFileURL } from 'node:url';
+
+import {
+  alignLyrics,
+  isReliableAlignment,
+  lrcTimeToSeconds,
+} from './lyrics-timestamp-utils.mjs';
 
 const SONGS_DIR = path.join(process.cwd(), 'src/content/songs');
 const CACHE_FILE = path.join(process.cwd(), 'scripts/lyrics-cache.json');
+const dryRun = process.argv.includes('--dry-run');
+const verbose = process.argv.includes('--verbose');
+const keyFilter = process.argv.find((argument) => argument.startsWith('--key='))?.slice('--key='.length);
+const TIMESTAMP_PATTERN = /\[\d{2,3}:\d{2}\.\d{2,3}\]/u;
 
-// ─── Helpers ─────────────────────────────────────────────────
-
-/**
- * Recursively find all .md files
- */
-async function findAllMdFiles(dir, list = []) {
-  const entries = await fs.promises.readdir(dir, { withFileTypes: true });
+async function findAllMarkdownFiles(directory, files = []) {
+  const entries = await fs.promises.readdir(directory, { withFileTypes: true });
   for (const entry of entries) {
-    const full = path.join(dir, entry.name);
-    if (entry.isDirectory()) {
-      await findAllMdFiles(full, list);
-    } else if (entry.name.endsWith('.md') && entry.name !== 'README.md') {
-      list.push(full);
-    }
+    const fullPath = path.join(directory, entry.name);
+    if (entry.isDirectory()) await findAllMarkdownFiles(fullPath, files);
+    else if (entry.name.endsWith('.md') && entry.name !== 'README.md') files.push(fullPath);
   }
-  return list;
+  return files;
 }
 
-/**
- * Parse frontmatter
- */
 function parseFrontmatter(content) {
-  const match = content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
-  if (!match) return {};
-  const fm = {};
-  for (const line of match[1].split(/\r?\n/)) {
-    const m = line.match(/^(\w+):\s*(?:"([^"]*)"|(.+))$/);
-    if (m) {
-      fm[m[1]] = (m[2] !== undefined ? m[2] : m[3]).trim();
-    }
+  const block = content.match(/^---\r?\n([\s\S]*?)\r?\n---/u)?.[1];
+  if (!block) return {};
+  const frontmatter = {};
+  for (const line of block.split(/\r?\n/u)) {
+    const match = line.match(/^(\w+):\s*(?:"([^"]*)"|'([^']*)'|(.+))$/u);
+    if (match) frontmatter[match[1]] = (match[2] ?? match[3] ?? match[4]).trim();
   }
-  return fm;
+  return frontmatter;
 }
 
-/**
- * Extract plain text from a jp-lyric line (strip all HTML tags and existing timestamps)
- */
-function extractPlainText(jpLine) {
-  // Remove existing timestamps like [00:00.00]
-  let text = jpLine.replace(/\[\d{2}:\d{2}\.\d{2,3}\]/g, '');
-  // Remove <rt ...>content</rt> elements entirely (furigana and romaji annotations)
-  text = text.replace(/<rt[^>]*>.*?<\/rt>/g, '');
-  // Remove all remaining HTML tags
-  text = text.replace(/<[^>]+>/g, '');
-  // Normalize whitespace
-  text = text.replace(/\s+/g, ' ').trim();
-  return text;
+function addTimestampToContainer(block, className, timestamp) {
+  const opening = new RegExp(`(<div class="${className}">(?:\\r?\\n)?)(?!\\[\\d{2,3}:\\d{2}\\.\\d{2,3}\\])`, 'u');
+  return block.replace(opening, `$1[${timestamp}]`);
 }
 
-/**
- * Normalize text for comparison: remove spaces, punctuation, and special chars
- */
-function normalizeForMatch(text) {
-  return text
-    .replace(/\s+/g, '')
-    .replace(/[、。！？「」『』（）…・ー～〜,\.\!\?\(\)]/g, '')
-    .replace(/[\u3000]/g, '') // full-width space
-    .toLowerCase();
+function extractJapaneseLineData(content) {
+  const rows = [];
+  const pattern = /<div class="jp-lyric">\r?\n?([\s\S]*?)\r?\n?<\/div>/gu;
+  let match;
+  while ((match = pattern.exec(String(content || '')))) {
+    const timestamp = match[1].match(TIMESTAMP_PATTERN)?.[0]?.slice(1, -1) || null;
+    const text = match[1]
+      .replace(TIMESTAMP_PATTERN, '')
+      .replace(/<rt[^>]*>[\s\S]*?<\/rt>/gu, '')
+      .replace(/<[^>]+>/gu, '')
+      .replace(/\s+/gu, ' ')
+      .trim();
+    if (text) rows.push({ text, timestamp });
+  }
+  return rows;
 }
 
-/**
- * Calculate similarity between two strings (0 to 1)
- * Uses longest common subsequence ratio
- */
-function similarity(a, b) {
-  if (a === b) return 1;
-  if (!a || !b) return 0;
-  
-  const na = normalizeForMatch(a);
-  const nb = normalizeForMatch(b);
-  
-  if (na === nb) return 1;
-  if (!na || !nb) return 0;
-  
-  // Simple containment check - if one is substring of other
-  if (na.includes(nb) || nb.includes(na)) return 0.9;
-  
-  // LCS-based similarity
-  const m = na.length;
-  const n = nb.length;
-  
-  // For very long strings, use a simpler approach
-  if (m > 100 || n > 100) {
-    // Character frequency similarity
-    const freqA = {};
-    const freqB = {};
-    for (const c of na) freqA[c] = (freqA[c] || 0) + 1;
-    for (const c of nb) freqB[c] = (freqB[c] || 0) + 1;
-    let common = 0;
-    for (const c in freqA) {
-      if (freqB[c]) common += Math.min(freqA[c], freqB[c]);
-    }
-    return (2 * common) / (m + n);
-  }
-  
-  // LCS DP
-  const dp = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(0));
-  for (let i = 1; i <= m; i++) {
-    for (let j = 1; j <= n; j++) {
-      if (na[i-1] === nb[j-1]) {
-        dp[i][j] = dp[i-1][j-1] + 1;
-      } else {
-        dp[i][j] = Math.max(dp[i-1][j], dp[i][j-1]);
-      }
+export function validateTimestampAnchors(lineData, alignment, toleranceSeconds = 2.5) {
+  const anchors = lineData
+    .map((line, index) => ({ index, time: lrcTimeToSeconds(line.timestamp) }))
+    .filter(({ time }) => Number.isFinite(time));
+  if (anchors.length === 0) return { compatible: true, anchors: 0, compared: 0 };
+
+  let compared = 0;
+  for (const anchor of anchors) {
+    const cachedMatch = alignment.matches.get(anchor.index);
+    if (!cachedMatch) continue;
+    compared += 1;
+    const cachedTime = lrcTimeToSeconds(cachedMatch.time);
+    if (!Number.isFinite(cachedTime) || Math.abs(cachedTime - anchor.time) > toleranceSeconds) {
+      return { compatible: false, anchors: anchors.length, compared };
     }
   }
-  
-  return (2 * dp[m][n]) / (m + n);
+  return { compatible: compared > 0, anchors: anchors.length, compared };
 }
 
-// ─── Timestamp Application ───────────────────────────────────
+function isWithinExistingAnchors(lineIndex, candidateTime, lineData) {
+  const seconds = lrcTimeToSeconds(candidateTime);
+  if (!Number.isFinite(seconds)) return false;
 
-/**
- * Match file lyrics lines to LRC timestamp data.
- * Returns a map of lyric-line index -> timestamp string
- */
-function matchTimestamps(lyricLines, lrcData) {
-  if (!lrcData || lrcData.length === 0) return {};
-  
-  const timestamps = {};
-  let lrcIdx = 0;
-  
-  for (let i = 0; i < lyricLines.length; i++) {
-    const plainText = lyricLines[i];
-    if (!plainText) continue; // skip empty lines
-    
-    // Try to find best match starting from current lrcIdx
-    let bestMatch = -1;
-    let bestScore = 0;
-    
-    // Search in a window around expected position
-    const searchStart = Math.max(0, lrcIdx - 2);
-    const searchEnd = Math.min(lrcData.length, lrcIdx + 5);
-    
-    for (let j = searchStart; j < searchEnd; j++) {
-      const score = similarity(plainText, lrcData[j].text);
-      if (score > bestScore) {
-        bestScore = score;
-        bestMatch = j;
-      }
-    }
-    
-    // Accept match if similarity > 0.5
-    if (bestScore >= 0.5 && bestMatch >= 0) {
-      timestamps[i] = lrcData[bestMatch].time;
-      lrcIdx = bestMatch + 1;
-    } else {
-      // Try wider search for this line
-      for (let j = 0; j < lrcData.length; j++) {
-        const score = similarity(plainText, lrcData[j].text);
-        if (score > bestScore) {
-          bestScore = score;
-          bestMatch = j;
-        }
-      }
-      if (bestScore >= 0.5 && bestMatch >= 0) {
-        timestamps[i] = lrcData[bestMatch].time;
-        lrcIdx = bestMatch + 1;
-      }
+  for (let index = lineIndex - 1; index >= 0; index -= 1) {
+    const previous = lrcTimeToSeconds(lineData[index]?.timestamp);
+    if (Number.isFinite(previous)) {
+      if (seconds < previous) return false;
+      break;
     }
   }
-  
-  return timestamps;
+  for (let index = lineIndex + 1; index < lineData.length; index += 1) {
+    const next = lrcTimeToSeconds(lineData[index]?.timestamp);
+    if (Number.isFinite(next)) return seconds <= next;
+  }
+  return true;
 }
 
-/**
- * Apply timestamps to a single markdown file's content
- */
-function applyTimestampsToContent(content, lrcData) {
-  // Find the lyrics section
-  const lyricBoxStart = content.indexOf('<div class="my-lyric-box">');
-  if (lyricBoxStart === -1) return { content, modified: false };
-  
-  const lyricBoxEnd = content.lastIndexOf('</div>', content.indexOf('## ', lyricBoxStart + 1) !== -1 
-    ? content.indexOf('## ', lyricBoxStart + 1) 
-    : content.length);
-  
-  if (lyricBoxEnd === -1) return { content, modified: false };
-  
-  // Extract all lyric-line blocks
-  const lyricSection = content.substring(lyricBoxStart, lyricBoxEnd);
-  
-  // Find all jp-lyric divs and extract plain text
-  const jpLyricRegex = /<div class="jp-lyric">\r?\n?([\s\S]*?)\r?\n?<\/div>/g;
-  const lyricLines = [];
-  const jpMatches = [];
-  let m;
-  
-  while ((m = jpLyricRegex.exec(lyricSection)) !== null) {
-    const plainText = extractPlainText(m[1]);
-    lyricLines.push(plainText);
-    jpMatches.push({
-      fullMatch: m[0],
-      innerContent: m[1],
-      index: m.index,
-    });
+export function applyTimestampsToContent(content, lrcRows) {
+  const lineData = extractJapaneseLineData(content);
+  const localLines = lineData.map(({ text }) => text);
+  const alignment = alignLyrics(localLines, lrcRows);
+  if (!isReliableAlignment(alignment)) {
+    return { content, modified: false, modifiedLines: 0, alignment, anchorsCompatible: true };
   }
-  
-  if (lyricLines.length === 0) return { content, modified: false };
-  
-  // Match timestamps
-  const timestamps = matchTimestamps(lyricLines, lrcData);
-  
-  if (Object.keys(timestamps).length === 0) return { content, modified: false };
-  
-  // Build new content
-  let newContent = content;
-  let modified = false;
-  
-  // Process each lyric-line block
-  // We need to work with the full content and find each lyric-line div
-  const lineBlockRegex = /<div class="lyric-line">\r?\n([\s\S]*?)<\/div>\r?\n<\/div>/g;
-  const blocks = [];
-  
-  while ((m = lineBlockRegex.exec(content)) !== null) {
-    blocks.push({
-      fullMatch: m[0],
-      innerContent: m[1],
-      startIndex: m.index,
-    });
+  const anchorCheck = validateTimestampAnchors(lineData, alignment);
+  if (!anchorCheck.compatible) {
+    return { content, modified: false, modifiedLines: 0, alignment, anchorsCompatible: false };
   }
-  
-  // For each block, extract jp-lyric plain text, find its timestamp, and apply
-  let offset = 0;
-  let lineIdx = 0;
-  
-  for (const block of blocks) {
-    // Check if this block's jp-lyric has timestamp data
-    const jpMatch = block.innerContent.match(/<div class="jp-lyric">\r?\n?([\s\S]*?)\r?\n?<\/div>/);
-    if (!jpMatch) { lineIdx++; continue; }
-    
-    const jpContent = jpMatch[1];
-    const hasExistingTimestamp = /\[\d{2}:\d{2}\.\d{2,3}\]/.test(jpContent);
-    
-    // Skip if already has timestamps (unless it's the example file being corrected separately)
-    if (hasExistingTimestamp) { lineIdx++; continue; }
-    
-    const ts = timestamps[lineIdx];
-    if (!ts) { lineIdx++; continue; }
-    
-    // Apply timestamp to jp-lyric line
-    const tsTag = `[${ts}]`;
-    
-    // Find and modify the block in newContent
-    const blockStart = block.startIndex + offset;
-    const blockEnd = blockStart + block.fullMatch.length;
-    const blockContent = newContent.substring(blockStart, blockEnd);
-    
-    let modifiedBlock = blockContent;
-    
-    // Insert timestamp at start of jp-lyric content
-    // Pattern: <div class="jp-lyric">\n<ruby>... -> <div class="jp-lyric">\n[MM:SS.CC]<ruby>...
-    // or:      <div class="jp-lyric">\n「<ruby>... -> <div class="jp-lyric">\n[MM:SS.CC]「<ruby>...
-    modifiedBlock = modifiedBlock.replace(
-      /(<div class="jp-lyric">(?:\r?\n)?)/,
-      `$1${tsTag}`
-    );
-    
-    // Insert timestamp at start of cn-lyric content
-    modifiedBlock = modifiedBlock.replace(
-      /(<div class="cn-lyric">)/g,
-      `$1${tsTag}`
-    );
-    
-    // Insert timestamp at start of en-lyric content (if exists)
-    modifiedBlock = modifiedBlock.replace(
-      /(<div class="en-lyric">)/g,
-      `$1${tsTag}`
-    );
-    
-    if (modifiedBlock !== blockContent) {
-      newContent = newContent.substring(0, blockStart) + modifiedBlock + newContent.substring(blockEnd);
-      offset += modifiedBlock.length - block.fullMatch.length;
-      modified = true;
-    }
-    
-    lineIdx++;
-  }
-  
-  return { content: newContent, modified };
-}
 
-// ─── Main ────────────────────────────────────────────────────
+  const lineBlockPattern = /<div class="lyric-line">\r?\n[\s\S]*?<\/div>\r?\n<\/div>/gu;
+  let localLineIndex = 0;
+  let modifiedLines = 0;
+  const updated = content.replace(lineBlockPattern, (block) => {
+    if (!block.includes('<div class="jp-lyric">')) return block;
+    const match = alignment.matches.get(localLineIndex);
+    localLineIndex += 1;
+    if (!match) return block;
+
+    const jpContent = block.match(/<div class="jp-lyric">\r?\n?([\s\S]*?)\r?\n?<\/div>/u)?.[1] || '';
+    if (TIMESTAMP_PATTERN.test(jpContent)) return block;
+    if (!isWithinExistingAnchors(localLineIndex - 1, match.time, lineData)) return block;
+
+    let nextBlock = addTimestampToContainer(block, 'jp-lyric', match.time);
+    for (const className of ['cn-lyric', 'en-lyric', 'trans-lyric']) {
+      nextBlock = addTimestampToContainer(nextBlock, className, match.time);
+    }
+    if (nextBlock !== block) modifiedLines += 1;
+    return nextBlock;
+  });
+
+  return {
+    content: updated,
+    modified: updated !== content,
+    modifiedLines,
+    alignment,
+    anchorsCompatible: true,
+  };
+}
 
 async function main() {
-  // Load cache
-  if (!fs.existsSync(CACHE_FILE)) {
-    console.error('Cache file not found. Run fetch-lyrics-timestamps.mjs first.');
-    process.exit(1);
-  }
-  
-  const cache = JSON.parse(fs.readFileSync(CACHE_FILE, 'utf-8'));
-  const cacheKeys = Object.keys(cache);
-  const withLyrics = cacheKeys.filter(k => cache[k].syncedLyrics && cache[k].syncedLyrics.length > 0);
-  console.log(`Cache has ${withLyrics.length}/${cacheKeys.length} songs with synced lyrics`);
-  
-  // Find all files
-  console.log('\nScanning files...');
-  const allFiles = await findAllMdFiles(SONGS_DIR);
-  console.log(`Found ${allFiles.length} files`);
-  
-  let modifiedCount = 0;
-  let skippedCount = 0;
-  let noMatchCount = 0;
-  let errorCount = 0;
-  
-  for (const filePath of allFiles) {
-    const content = await fs.promises.readFile(filePath, 'utf-8');
-    const fm = parseFrontmatter(content);
-    const key = fm.translationKey;
-    
-    if (!key) continue;
+  if (!fs.existsSync(CACHE_FILE)) throw new Error('Lyrics cache is missing. Run lyrics:timestamps:fetch first.');
+  const cache = JSON.parse(await fs.promises.readFile(CACHE_FILE, 'utf8'));
+  const files = await findAllMarkdownFiles(SONGS_DIR);
+  const stats = {
+    eligibleFiles: 0,
+    modifiedFiles: 0,
+    modifiedLines: 0,
+    unchangedFiles: 0,
+    missingCache: 0,
+    rejectedAlignment: 0,
+    rejectedAnchors: 0,
+  };
+
+  for (const filePath of files) {
+    const content = await fs.promises.readFile(filePath, 'utf8');
     if (!content.includes('my-lyric-box')) continue;
-    
-    // Check if file already has timestamps
-    if (/\[\d{2}:\d{2}\.\d{2,3}\]/.test(content)) {
-      skippedCount++;
+    const frontmatter = parseFrontmatter(content);
+    if (!frontmatter.translationKey || (keyFilter && frontmatter.translationKey !== keyFilter)) continue;
+    stats.eligibleFiles += 1;
+
+    const rows = cache[frontmatter.translationKey]?.syncedLyrics;
+    if (!Array.isArray(rows) || rows.length === 0) {
+      stats.missingCache += 1;
       continue;
     }
-    
-    // Find cached LRC data
-    const cached = cache[key];
-    if (!cached || !cached.syncedLyrics || cached.syncedLyrics.length === 0) {
-      noMatchCount++;
+
+    const result = applyTimestampsToContent(content, rows);
+    if (!isReliableAlignment(result.alignment)) {
+      stats.rejectedAlignment += 1;
       continue;
     }
-    
-    try {
-      const { content: newContent, modified } = applyTimestampsToContent(content, cached.syncedLyrics);
-      
-      if (modified) {
-        await fs.promises.writeFile(filePath, newContent, 'utf-8');
-        const rel = path.relative(process.cwd(), filePath);
-        console.log(`✓ ${rel}`);
-        modifiedCount++;
-      }
-    } catch (e) {
-      const rel = path.relative(process.cwd(), filePath);
-      console.error(`✗ ${rel}: ${e.message}`);
-      errorCount++;
+    if (!result.anchorsCompatible) {
+      stats.rejectedAnchors += 1;
+      continue;
     }
+    if (!result.modified) {
+      stats.unchangedFiles += 1;
+      continue;
+    }
+
+    stats.modifiedFiles += 1;
+    stats.modifiedLines += result.modifiedLines;
+    const relativePath = path.relative(process.cwd(), filePath);
+    if (verbose) console.log(`${dryRun ? 'would update' : 'updated'} ${relativePath} (${result.modifiedLines} lines)`);
+    if (!dryRun) await fs.promises.writeFile(filePath, result.content, 'utf8');
   }
-  
-  console.log('\n═══════════════════════════════');
-  console.log(`Results:`);
-  console.log(`  Modified: ${modifiedCount}`);
-  console.log(`  Skipped (already has timestamps): ${skippedCount}`);
-  console.log(`  No LRC data available: ${noMatchCount}`);
-  console.log(`  Errors: ${errorCount}`);
+
+  console.log('\nResults');
+  console.log(JSON.stringify({ dryRun, ...stats }, null, 2));
 }
 
-main().catch(console.error);
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((error) => {
+    console.error(error);
+    process.exitCode = 1;
+  });
+}

@@ -106,7 +106,7 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>斬<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby> Carry On Carry On Carryalion
+[00:59.30]<ruby>斬<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby> Carry On Carry On Carryalion
 </div>
 </div>
 
@@ -184,13 +184,13 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>斬<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby> Carry On Carry On Carryalion
+[01:50.14]<ruby>斬<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby> Carry On Carry On Carryalion
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>斬<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby> Carry On Carry On Carryalion
+[01:53.03]<ruby>斬<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby> Carry On Carry On Carryalion
 </div>
 </div>
 
@@ -248,25 +248,25 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ギャリギャリ<rt class="roma">gyarigyari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>刻<rt class="furi">きざ</rt><rt class="roma">kiza</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[02:31.32]<ruby>ギャリギャリ<rt class="roma">gyarigyari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>刻<rt class="furi">きざ</rt><rt class="roma">kiza</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>知覚<rt class="furi">ちかく</rt><rt class="roma">chikaku</rt></ruby><ruby>能力<rt class="furi">のうりょく</rt><rt class="roma">nouryoku</rt></ruby><ruby>フル<rt class="roma">furu</rt></ruby><ruby>回転<rt class="furi">かいてん</rt><rt class="roma">kaiten</rt></ruby>
+[02:34.17]<ruby>知覚<rt class="furi">ちかく</rt><rt class="roma">chikaku</rt></ruby><ruby>能力<rt class="furi">のうりょく</rt><rt class="roma">nouryoku</rt></ruby><ruby>フル<rt class="roma">furu</rt></ruby><ruby>回転<rt class="furi">かいてん</rt><rt class="roma">kaiten</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>快楽<rt class="furi">かいらく</rt><rt class="roma">kairaku</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>包<rt class="furi">つつ</rt><rt class="roma">tsutsu</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>でる<rt class="roma">deru</rt></ruby>
+[02:36.98]<ruby>快楽<rt class="furi">かいらく</rt><rt class="roma">kairaku</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>包<rt class="furi">つつ</rt><rt class="roma">tsutsu</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>でる<rt class="roma">deru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>騙<rt class="furi">だま</rt><rt class="roma">dama</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>衝動<rt class="furi">しょうどう</rt><rt class="roma">shoudou</rt></ruby> <ruby>溶け合<rt class="furi">とけあ</rt><rt class="roma">tokea</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[02:39.60]<ruby>騙<rt class="furi">だま</rt><rt class="roma">dama</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>衝動<rt class="furi">しょうどう</rt><rt class="roma">shoudou</rt></ruby> <ruby>溶け合<rt class="furi">とけあ</rt><rt class="roma">tokea</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 

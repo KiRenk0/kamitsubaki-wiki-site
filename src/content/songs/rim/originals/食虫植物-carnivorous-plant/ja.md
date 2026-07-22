@@ -39,7 +39,7 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>嫌<rt class="furi">いや</rt><rt class="roma">iya</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>させ<rt class="roma">sase</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>？
+[00:19.77]<ruby>嫌<rt class="furi">いや</rt><rt class="roma">iya</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>させ<rt class="roma">sase</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>？
 </div>
 </div>
 
@@ -51,7 +51,7 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>体温<rt class="furi">たいおん</rt><rt class="roma">taion</rt></ruby><ruby>と<rt class="roma">to</rt></ruby> <ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby> 臓
+[00:27.64]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>体温<rt class="furi">たいおん</rt><rt class="roma">taion</rt></ruby><ruby>と<rt class="roma">to</rt></ruby> <ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby> 臓
 </div>
 </div>
 
@@ -71,7 +71,7 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>すべて<rt class="roma">subete</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>あたし<rt class="roma">atashi</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
+[00:39.20]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>すべて<rt class="roma">subete</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>あたし<rt class="roma">atashi</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
 </div>
 </div>
 
@@ -91,13 +91,13 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[00:54.98]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>機密<rt class="furi">きみつ</rt><rt class="roma">kimitsu</rt></ruby><ruby>事項<rt class="furi">じこう</rt><rt class="roma">jikou</rt></ruby>！
+[00:58.74]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>機密<rt class="furi">きみつ</rt><rt class="roma">kimitsu</rt></ruby><ruby>事項<rt class="furi">じこう</rt><rt class="roma">jikou</rt></ruby>！
 </div>
 </div>
 
@@ -111,19 +111,19 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>さめざめ<rt class="roma">samezame</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>終電<rt class="furi">しゅうでん</rt><rt class="roma">shuuden</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[01:14.32]<ruby>さめざめ<rt class="roma">samezame</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>終電<rt class="furi">しゅうでん</rt><rt class="roma">shuuden</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>可愛<rt class="furi">かわい</rt><rt class="roma">kawai</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>あぁ<rt class="roma">aa</rt></ruby> <ruby>可愛<rt class="furi">かわい</rt><rt class="roma">kawai</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[01:18.35]<ruby>可愛<rt class="furi">かわい</rt><rt class="roma">kawai</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>あぁ<rt class="roma">aa</rt></ruby> <ruby>可愛<rt class="furi">かわい</rt><rt class="roma">kawai</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>可愛<rt class="furi">かわい</rt><rt class="roma">kawai</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> <ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>？
+[01:22.06]<ruby>可愛<rt class="furi">かわい</rt><rt class="roma">kawai</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> <ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>？
 </div>
 </div>
 
@@ -131,7 +131,7 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>現在<rt class="furi">げんざい</rt><rt class="roma">genzai</rt></ruby><ruby>開発<rt class="furi">かいはつ</rt><rt class="roma">kaihatsu</rt></ruby><ruby>中<rt class="furi">ちゅう</rt><rt class="roma">chuu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>アンケート<rt class="roma">ankeeto</rt></ruby><ruby>調査<rt class="furi">ちょうさ</rt><rt class="roma">chousa</rt></ruby><ruby>ツール<rt class="roma">tsuuru</rt></ruby>
+[01:25.91]<ruby>現在<rt class="furi">げんざい</rt><rt class="roma">genzai</rt></ruby><ruby>開発<rt class="furi">かいはつ</rt><rt class="roma">kaihatsu</rt></ruby><ruby>中<rt class="furi">ちゅう</rt><rt class="roma">chuu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>アンケート<rt class="roma">ankeeto</rt></ruby><ruby>調査<rt class="furi">ちょうさ</rt><rt class="roma">chousa</rt></ruby><ruby>ツール<rt class="roma">tsuuru</rt></ruby>
 </div>
 </div>
 
@@ -145,7 +145,7 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[01:41.65]<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
@@ -157,13 +157,13 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>理解<rt class="furi">りかい</rt><rt class="roma">rikai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>理解<rt class="furi">りかい</rt><rt class="roma">rikai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[01:49.38]<ruby>理解<rt class="furi">りかい</rt><rt class="roma">rikai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>理解<rt class="furi">りかい</rt><rt class="roma">rikai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>理解<rt class="furi">りかい</rt><rt class="roma">rikai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>地球<rt class="furi">ちきゅう</rt><rt class="roma">chikyuu</rt></ruby><ruby>規模<rt class="furi">きぼ</rt><rt class="roma">kibo</rt></ruby>
+[01:53.44]<ruby>理解<rt class="furi">りかい</rt><rt class="roma">rikai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>地球<rt class="furi">ちきゅう</rt><rt class="roma">chikyuu</rt></ruby><ruby>規模<rt class="furi">きぼ</rt><rt class="roma">kibo</rt></ruby>
 </div>
 </div>
 
@@ -177,19 +177,19 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> <ruby>嫌<rt class="furi">きら</rt><rt class="roma">kira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
+[02:16.72]<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> <ruby>嫌<rt class="furi">きら</rt><rt class="roma">kira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[02:20.94]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>地球<rt class="furi">ちきゅう</rt><rt class="roma">chikyuu</rt></ruby><ruby>規模<rt class="furi">きぼ</rt><rt class="roma">kibo</rt></ruby>！
+[02:24.68]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>地球<rt class="furi">ちきゅう</rt><rt class="roma">chikyuu</rt></ruby><ruby>規模<rt class="furi">きぼ</rt><rt class="roma">kibo</rt></ruby>！
 </div>
 </div>
 

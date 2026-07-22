@@ -43,17 +43,17 @@ daydream appears on daydream or a related official release. Entries are version-
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>放<rt class="furi">ほう</rt><rt class="roma">hou</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>フリ<rt class="roma">furi</rt></ruby>
+[00:21.10]<ruby>放<rt class="furi">ほう</rt><rt class="roma">hou</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>フリ<rt class="roma">furi</rt></ruby>
 </div>
-<div class="trans-lyric">Left behind, pretending to dream</div>
+<div class="trans-lyric">[00:21.10]Left behind, pretending to dream</div>
 <div class="trans-lyric">Left behind, pretending to dream</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>陽射<rt class="furi">ひざ</rt><rt class="roma">hiza</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>かけ<rt class="roma">kake</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>予定<rt class="furi">よてい</rt><rt class="roma">yotei</rt></ruby><ruby>通<rt class="furi">どお</rt><rt class="roma">doo</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>
+[00:24.03]<ruby>陽射<rt class="furi">ひざ</rt><rt class="roma">hiza</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>かけ<rt class="roma">kake</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>予定<rt class="furi">よてい</rt><rt class="roma">yotei</rt></ruby><ruby>通<rt class="furi">どお</rt><rt class="roma">doo</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>
 </div>
-<div class="trans-lyric">The sunlight is breaking down, as scheduled</div>
+<div class="trans-lyric">[00:24.03]The sunlight is breaking down, as scheduled</div>
 <div class="trans-lyric">The sunlight is breaking down, as scheduled</div>
 </div>
 
@@ -94,23 +94,23 @@ daydream appears on daydream or a related official release. Entries are version-
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>カーテン<rt class="roma">kaaten</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>隙間<rt class="furi">すきま</rt><rt class="roma">sukima</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>弔<rt class="furi">とむら</rt><rt class="roma">tomura</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
+[00:42.19]<ruby>カーテン<rt class="roma">kaaten</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>隙間<rt class="furi">すきま</rt><rt class="roma">sukima</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>弔<rt class="furi">とむら</rt><rt class="roma">tomura</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
-<div class="trans-lyric">The gap in the curtain mourns the night</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>錆色<rt class="furi">さびいろ</rt><rt class="roma">sabiiro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>daylight <ruby>退屈<rt class="furi">たいくつ</rt><rt class="roma">taikutsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>転<rt class="furi">ころ</rt><rt class="roma">koro</rt></ruby><ruby>がってる<rt class="roma">gatteru</rt></ruby>
-</div>
-<div class="trans-lyric">Rust-colored daylight, rolling in boredom</div>
+<div class="trans-lyric">[00:42.19]The gap in the curtain mourns the night</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>置き時計<rt class="furi">おきどけい</rt><rt class="roma">okidokei</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>傾<rt class="furi">かたむ</rt><rt class="roma">katamu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:46.03]<ruby>錆色<rt class="furi">さびいろ</rt><rt class="roma">sabiiro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>daylight <ruby>退屈<rt class="furi">たいくつ</rt><rt class="roma">taikutsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>転<rt class="furi">ころ</rt><rt class="roma">koro</rt></ruby><ruby>がってる<rt class="roma">gatteru</rt></ruby>
 </div>
-<div class="trans-lyric">The table clock will tilt soon</div>
+<div class="trans-lyric">[00:46.03]Rust-colored daylight, rolling in boredom</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:52.07]<ruby>置き時計<rt class="furi">おきどけい</rt><rt class="roma">okidokei</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>傾<rt class="furi">かたむ</rt><rt class="roma">katamu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+</div>
+<div class="trans-lyric">[00:52.07]The table clock will tilt soon</div>
 </div>
 
 <div class="lyric-line">
@@ -122,9 +122,9 @@ daydream appears on daydream or a related official release. Entries are version-
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>白<rt class="furi">しろ</rt><rt class="roma">shiro</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>余<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[00:58.55]<ruby>白<rt class="furi">しろ</rt><rt class="roma">shiro</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>余<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
-<div class="trans-lyric">In the days left white and unused</div>
+<div class="trans-lyric">[00:58.55]In the days left white and unused</div>
 </div>
 
 <div class="lyric-line">
@@ -138,15 +138,15 @@ daydream appears on daydream or a related official release. Entries are version-
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう少<rt class="furi">もうすこ</rt><rt class="roma">mousuko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>daze slowly
+[01:03.55]<ruby>もう少<rt class="furi">もうすこ</rt><rt class="roma">mousuko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>daze slowly
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>覆<rt class="furi">おお</rt><rt class="roma">oo</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[01:06.35]<ruby>覆<rt class="furi">おお</rt><rt class="roma">oo</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
-<div class="trans-lyric">Covered, as if swaying</div>
+<div class="trans-lyric">[01:06.35]Covered, as if swaying</div>
 <div class="trans-lyric">Covered, as if swaying</div>
 </div>
 
@@ -160,15 +160,15 @@ daydream appears on daydream or a related official release. Entries are version-
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう少<rt class="furi">もうすこ</rt><rt class="roma">mousuko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby>ice cream
+[01:14.67]<ruby>もう少<rt class="furi">もうすこ</rt><rt class="roma">mousuko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby>ice cream
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>口<rt class="furi">くち</rt><rt class="roma">kuchi</rt></ruby><ruby>色<rt class="furi">しょく</rt><rt class="roma">shoku</rt></ruby><ruby>移<rt class="furi">うつ</rt><rt class="roma">utsu</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>
+[01:17.68]<ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>口<rt class="furi">くち</rt><rt class="roma">kuchi</rt></ruby><ruby>色<rt class="furi">しょく</rt><rt class="roma">shoku</rt></ruby><ruby>移<rt class="furi">うつ</rt><rt class="roma">utsu</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>
 </div>
-<div class="trans-lyric">The last bite, color transfer</div>
+<div class="trans-lyric">[01:17.68]The last bite, color transfer</div>
 <div class="trans-lyric">The last bite, color transfer</div>
 </div>
 
@@ -192,9 +192,9 @@ daydream appears on daydream or a related official release. Entries are version-
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>寄り添<rt class="furi">よりそ</rt><rt class="roma">yoriso</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>がり<rt class="roma">gari</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>微睡<rt class="furi">まどろ</rt><rt class="roma">madoro</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby>
+[01:27.55]<ruby>寄り添<rt class="furi">よりそ</rt><rt class="roma">yoriso</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>がり<rt class="roma">gari</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>微睡<rt class="furi">まどろ</rt><rt class="roma">madoro</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby>
 </div>
-<div class="trans-lyric">A drowsiness that wants to cling close</div>
+<div class="trans-lyric">[01:27.55]A drowsiness that wants to cling close</div>
 </div>
 
 <div class="lyric-line">
@@ -206,9 +206,9 @@ daydream appears on daydream or a related official release. Entries are version-
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>片目<rt class="furi">かため</rt><rt class="roma">katame</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>眩<rt class="furi">くら</rt><rt class="roma">kura</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[01:33.63]<ruby>片目<rt class="furi">かため</rt><rt class="roma">katame</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>眩<rt class="furi">くら</rt><rt class="roma">kura</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
-<div class="trans-lyric">Dazzled in only one eye</div>
+<div class="trans-lyric">[01:33.63]Dazzled in only one eye</div>
 </div>
 
 <div class="lyric-line">
@@ -227,9 +227,9 @@ daydream appears on daydream or a related official release. Entries are version-
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>簡単<rt class="furi">かんたん</rt><rt class="roma">kantan</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>着<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>アネクメーネ<rt class="roma">anekumeene</rt></ruby>
+[01:39.20]<ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>簡単<rt class="furi">かんたん</rt><rt class="roma">kantan</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>着<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>アネクメーネ<rt class="roma">anekumeene</rt></ruby>
 </div>
-<div class="trans-lyric">Arriving at Anacumene more easily than usual</div>
+<div class="trans-lyric">[01:39.20]Arriving at Anacumene more easily than usual</div>
 </div>
 
 <div class="lyric-line">
@@ -250,37 +250,37 @@ daydream appears on daydream or a related official release. Entries are version-
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう少<rt class="furi">もうすこ</rt><rt class="roma">mousuko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>daze slowly
+[01:51.42]<ruby>もう少<rt class="furi">もうすこ</rt><rt class="roma">mousuko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>daze slowly
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>放<rt class="furi">ほう</rt><rt class="roma">hou</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>フリ<rt class="roma">furi</rt></ruby>
+[01:54.43]<ruby>放<rt class="furi">ほう</rt><rt class="roma">hou</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>フリ<rt class="roma">furi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>陽射<rt class="furi">ひざ</rt><rt class="roma">hiza</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>かけ<rt class="roma">kake</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>予定<rt class="furi">よてい</rt><rt class="roma">yotei</rt></ruby><ruby>通<rt class="furi">どお</rt><rt class="roma">doo</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>
+[01:57.28]<ruby>陽射<rt class="furi">ひざ</rt><rt class="roma">hiza</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>かけ<rt class="roma">kake</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>予定<rt class="furi">よてい</rt><rt class="roma">yotei</rt></ruby><ruby>通<rt class="furi">どお</rt><rt class="roma">doo</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう少<rt class="furi">もうすこ</rt><rt class="roma">mousuko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby>ice cream
+[02:02.55]<ruby>もう少<rt class="furi">もうすこ</rt><rt class="roma">mousuko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby>ice cream
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どうか<rt class="roma">douka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>rain of dreams
+[02:05.64]<ruby>どうか<rt class="roma">douka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>rain of dreams
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>掠<rt class="furi">かす</rt><rt class="roma">kasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>欠<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>pieces
+[02:08.50]<ruby>掠<rt class="furi">かす</rt><rt class="roma">kasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>欠<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>pieces
 </div>
 </div>
 
@@ -288,43 +288,43 @@ daydream appears on daydream or a related official release. Entries are version-
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう少<rt class="furi">もうすこ</rt><rt class="roma">mousuko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>daze slowly
+[02:13.99]<ruby>もう少<rt class="furi">もうすこ</rt><rt class="roma">mousuko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>daze slowly
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>覆<rt class="furi">おお</rt><rt class="roma">oo</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[02:16.93]<ruby>覆<rt class="furi">おお</rt><rt class="roma">oo</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>醒<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>覚<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>music
+[02:20.49]<ruby>醒<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>覚<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>music
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう少<rt class="furi">もうすこ</rt><rt class="roma">mousuko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby>ice cream
+[02:25.36]<ruby>もう少<rt class="furi">もうすこ</rt><rt class="roma">mousuko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby>ice cream
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>口<rt class="furi">くち</rt><rt class="roma">kuchi</rt></ruby><ruby>色<rt class="furi">しょく</rt><rt class="roma">shoku</rt></ruby><ruby>移<rt class="furi">うつ</rt><rt class="roma">utsu</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>
+[02:28.13]<ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>口<rt class="furi">くち</rt><rt class="roma">kuchi</rt></ruby><ruby>色<rt class="furi">しょく</rt><rt class="roma">shoku</rt></ruby><ruby>移<rt class="furi">うつ</rt><rt class="roma">utsu</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>偏<rt class="furi">かたよ</rt><rt class="roma">katayo</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>tuning
+[02:31.71]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>偏<rt class="furi">かたよ</rt><rt class="roma">katayo</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>tuning
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I will undo it
+[02:36.72]I will undo it
 </div>
 </div>
 

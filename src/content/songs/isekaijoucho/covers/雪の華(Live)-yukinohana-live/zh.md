@@ -290,25 +290,25 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>今年<rt class="furi">ことし</rt><rt class="roma">kotoshi</rt></ruby> <ruby>最初<rt class="furi">さいしょ</rt><rt class="roma">saisho</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>雪<rt class="furi">ゆき</rt><rt class="roma">yuki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>華<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+[04:11.96]<ruby>今年<rt class="furi">ことし</rt><rt class="roma">kotoshi</rt></ruby> <ruby>最初<rt class="furi">さいしょ</rt><rt class="roma">saisho</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>雪<rt class="furi">ゆき</rt><rt class="roma">yuki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>華<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-2<ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>寄り添<rt class="furi">よりそ</rt><rt class="roma">yoriso</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
+[04:17.85]2<ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>寄り添<rt class="furi">よりそ</rt><rt class="roma">yoriso</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>眺<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>時間<rt class="furi">じかん</rt><rt class="roma">jikan</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[04:21.75]<ruby>眺<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>時間<rt class="furi">じかん</rt><rt class="roma">jikan</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>シアワセ<rt class="roma">shiawase</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>あふれ<rt class="roma">afure</rt></ruby><ruby>だす<rt class="roma">dasu</rt></ruby>
+[04:25.50]<ruby>シアワセ<rt class="roma">shiawase</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>あふれ<rt class="roma">afure</rt></ruby><ruby>だす<rt class="roma">dasu</rt></ruby>
 </div>
 </div>
 
@@ -316,7 +316,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>えと<rt class="roma">eto</rt></ruby><ruby>か弱<rt class="furi">かよわ</rt><rt class="roma">kayowa</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[04:29.36]<ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>えと<rt class="roma">eto</rt></ruby><ruby>か弱<rt class="furi">かよわ</rt><rt class="roma">kayowa</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 

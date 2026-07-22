@@ -107,7 +107,7 @@ image: /images/albums/rim/new-romancer-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby>
+[01:44.32]<ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby>
 </div>
 </div>
 
@@ -139,13 +139,13 @@ image: /images/albums/rim/new-romancer-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby>／<ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
+[02:09.37]<ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby>／<ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>こん<rt class="roma">kon</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>早<rt class="furi">はや</rt><rt class="roma">haya</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[02:18.81]<ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>こん<rt class="roma">kon</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>早<rt class="furi">はや</rt><rt class="roma">haya</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
@@ -153,13 +153,13 @@ image: /images/albums/rim/new-romancer-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
+[02:26.36]<ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>どんどん<rt class="roma">dondon</rt></ruby><ruby>近<rt class="furi">ちか</rt><rt class="roma">chika</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くる<rt class="roma">kuru</rt></ruby>
+[02:30.68]<ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>どんどん<rt class="roma">dondon</rt></ruby><ruby>近<rt class="furi">ちか</rt><rt class="roma">chika</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くる<rt class="roma">kuru</rt></ruby>
 </div>
 </div>
 
@@ -187,7 +187,7 @@ image: /images/albums/rim/new-romancer-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>事件<rt class="furi">じけん</rt><rt class="roma">jiken</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>事件<rt class="furi">じけん</rt><rt class="roma">jiken</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
+[03:24.74]<ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>事件<rt class="furi">じけん</rt><rt class="roma">jiken</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>事件<rt class="furi">じけん</rt><rt class="roma">jiken</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
 </div>
 
@@ -209,37 +209,37 @@ image: /images/albums/rim/new-romancer-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby>
+[03:38.34]<ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>忍び寄<rt class="furi">しのびよ</rt><rt class="roma">shinobiyo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby> <ruby>足音<rt class="furi">あしおと</rt><rt class="roma">ashioto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>気付<rt class="furi">きづ</rt><rt class="roma">kizu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[04:00.29]<ruby>忍び寄<rt class="furi">しのびよ</rt><rt class="roma">shinobiyo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby> <ruby>足音<rt class="furi">あしおと</rt><rt class="roma">ashioto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>気付<rt class="furi">きづ</rt><rt class="roma">kizu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby>
+[04:05.43]<ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>増<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> <ruby>真<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>っ<rt class="roma"></rt></ruby><ruby>暗闇<rt class="furi">くらやみ</rt><rt class="roma">kurayami</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>気付<rt class="furi">きづ</rt><rt class="roma">kizu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[04:08.78]<ruby>増<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> <ruby>真<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>っ<rt class="roma"></rt></ruby><ruby>暗闇<rt class="furi">くらやみ</rt><rt class="roma">kurayami</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>気付<rt class="furi">きづ</rt><rt class="roma">kizu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねん<rt class="roma">nen</rt></ruby>
+[04:13.81]<ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねん<rt class="roma">nen</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ゆく<rt class="roma">yuku</rt></ruby>／<ruby>不気味<rt class="furi">ぶきみ</rt><rt class="roma">bukimi</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>予感<rt class="furi">よかん</rt><rt class="roma">yokan</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
+[04:17.06]<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ゆく<rt class="roma">yuku</rt></ruby>／<ruby>不気味<rt class="furi">ぶきみ</rt><rt class="roma">bukimi</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>予感<rt class="furi">よかん</rt><rt class="roma">yokan</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
 </div>
 

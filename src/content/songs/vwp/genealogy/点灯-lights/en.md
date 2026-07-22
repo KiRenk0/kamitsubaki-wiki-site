@@ -301,7 +301,7 @@ image: /images/albums/vwp/inversion.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>走り出<rt class="furi">はしりだ</rt><rt class="roma">hashirida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
+[03:44.57]<ruby>走り出<rt class="furi">はしりだ</rt><rt class="roma">hashirida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
 </div>
 
@@ -328,19 +328,19 @@ image: /images/albums/vwp/inversion.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じる<rt class="roma">jiru</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby>
+[04:06.27]<ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じる<rt class="roma">jiru</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>走り出<rt class="furi">はしりだ</rt><rt class="roma">hashirida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
+[04:10.11]<ruby>走り出<rt class="furi">はしりだ</rt><rt class="roma">hashirida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ああ<rt class="roma">aa</rt></ruby> <ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
+[04:13.15]<ruby>ああ<rt class="roma">aa</rt></ruby> <ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
 </div>
 

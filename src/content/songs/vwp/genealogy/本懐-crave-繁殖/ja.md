@@ -158,7 +158,7 @@ image: /images/albums/vwp/proliferation.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Go knock, knock, knock
+[01:06.44]Go knock, knock, knock
 </div>
 </div>
 
@@ -270,25 +270,25 @@ Go knock, knock, knock
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ねぇ<rt class="roma">nee</rt></ruby> <ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby>
+[02:15.91]<ruby>ねぇ<rt class="roma">nee</rt></ruby> <ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>息<rt class="furi">いき</rt><rt class="roma">iki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>追<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>いつけ<rt class="roma">itsuke</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[02:17.19]<ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>息<rt class="furi">いき</rt><rt class="roma">iki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>追<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>いつけ<rt class="roma">itsuke</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>だって<rt class="roma">datte</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby><ruby>我慢<rt class="furi">がまん</rt><rt class="roma">gaman</rt></ruby><ruby>でき<rt class="roma">deki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:21.63]<ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>だって<rt class="roma">datte</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby><ruby>我慢<rt class="furi">がまん</rt><rt class="roma">gaman</rt></ruby><ruby>でき<rt class="roma">deki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>報<rt class="furi">むく</rt><rt class="roma">muku</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby> <ruby>大嫌<rt class="furi">だいきら</rt><rt class="roma">daikira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
+[02:27.13]<ruby>報<rt class="furi">むく</rt><rt class="roma">muku</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby> <ruby>大嫌<rt class="furi">だいきら</rt><rt class="roma">daikira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
 </div>
 

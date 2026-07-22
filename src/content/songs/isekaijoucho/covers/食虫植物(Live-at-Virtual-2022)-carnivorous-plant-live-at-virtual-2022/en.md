@@ -165,7 +165,7 @@ image: /images/albums/rim/singularity-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[02:18.81]<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
@@ -208,7 +208,7 @@ image: /images/albums/rim/singularity-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[02:57.48]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 </div>
 

@@ -112,7 +112,7 @@ image: /images/albums/harusaruhi/glitch-stage.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby>
+[00:57.61]<ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby>
 </div>
 </div>
 
@@ -125,7 +125,7 @@ image: /images/albums/harusaruhi/glitch-stage.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby>
+[01:00.85]<ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby>
 </div>
 </div>
 
@@ -138,9 +138,9 @@ image: /images/albums/harusaruhi/glitch-stage.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>バイバイバイバイバイ<rt class="roma">baibaibaibaibai</rt></ruby>
+[01:04.06]<ruby>バイバイバイバイバイ<rt class="roma">baibaibaibaibai</rt></ruby>
 </div>
-<div class="cn-lyric">拜拜拜拜拜</div>
+<div class="cn-lyric">[01:04.06]拜拜拜拜拜</div>
 <div class="cn-lyric">拜拜拜拜拜</div>
 </div>
 
@@ -244,7 +244,7 @@ image: /images/albums/harusaruhi/glitch-stage.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby>
+[02:00.19]<ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby>
 </div>
 </div>
 
@@ -257,7 +257,7 @@ image: /images/albums/harusaruhi/glitch-stage.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby>
+[02:03.58]<ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby>
 </div>
 </div>
 
@@ -270,7 +270,7 @@ image: /images/albums/harusaruhi/glitch-stage.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby>
+[02:06.55]<ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby>
 </div>
 </div>
 
@@ -283,7 +283,7 @@ image: /images/albums/harusaruhi/glitch-stage.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>バイバイバイバイバイ<rt class="roma">baibaibaibaibai</rt></ruby>
+[02:09.66]<ruby>バイバイバイバイバイ<rt class="roma">baibaibaibaibai</rt></ruby>
 </div>
 </div>
 
@@ -291,19 +291,19 @@ image: /images/albums/harusaruhi/glitch-stage.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ああ<rt class="roma">aa</rt></ruby><ruby>くだらない<rt class="roma">kudaranai</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby> <ruby>まだ<rt class="roma">mada</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>?
+[02:12.85]<ruby>ああ<rt class="roma">aa</rt></ruby><ruby>くだらない<rt class="roma">kudaranai</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby> <ruby>まだ<rt class="roma">mada</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>?
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>スワイプ<rt class="roma">suwaipu</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[02:17.81]<ruby>スワイプ<rt class="roma">suwaipu</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>さあ<rt class="roma">saa</rt></ruby><ruby>息苦<rt class="furi">いきぐる</rt><rt class="roma">ikiguru</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>ぶった斬<rt class="furi">ぶったぎ</rt><rt class="roma">buttagi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[02:19.37]<ruby>さあ<rt class="roma">saa</rt></ruby><ruby>息苦<rt class="furi">いきぐる</rt><rt class="roma">ikiguru</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>ぶった斬<rt class="furi">ぶったぎ</rt><rt class="roma">buttagi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
@@ -311,7 +311,7 @@ image: /images/albums/harusaruhi/glitch-stage.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Na-Na-Na-
+[02:26.08]Na-Na-Na-
 </div>
 </div>
 

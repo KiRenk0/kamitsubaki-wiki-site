@@ -65,7 +65,7 @@ image: /images/songs/koko/single-1800618742.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Give it some thought before you fall
+[00:52.28]Give it some thought before you fall
 </div>
 </div>
 
@@ -125,13 +125,13 @@ Give it some thought before you fall
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Give it some thought before you fall
+[02:22.28]Give it some thought before you fall
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Give it some thought before you fall
+[02:31.98]Give it some thought before you fall
 </div>
 </div>
 
@@ -139,25 +139,25 @@ Give it some thought before you fall
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I won't turn away
+[02:37.25]I won't turn away
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-As you sail away from the shore
+[02:42.19]As you sail away from the shore
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'm a castaway
+[02:47.03]I'm a castaway
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-But I was dead and buried long before
+[02:51.67]But I was dead and buried long before
 </div>
 </div>
 

@@ -187,13 +187,13 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'm just playing games I know that's plastic love
+[04:10.77]I'm just playing games I know that's plastic love
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Dance to the plastic beat Another morning comes
+[04:20.19]Dance to the plastic beat Another morning comes
 </div>
 </div>
 
@@ -201,13 +201,13 @@ Dance to the plastic beat Another morning comes
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'm just playing games I know that's plastic love
+[04:29.39]I'm just playing games I know that's plastic love
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Dance to the plastic beat Another morning comes
+[04:38.89]Dance to the plastic beat Another morning comes
 </div>
 </div>
 

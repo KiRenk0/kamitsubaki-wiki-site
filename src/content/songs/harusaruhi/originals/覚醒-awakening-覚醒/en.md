@@ -445,13 +445,13 @@ image: /images/songs/harusaruhi/single-1687478942.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>追い抜<rt class="furi">おいぬ</rt><rt class="roma">oinu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>老<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>枯<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[03:22.91]<ruby>追い抜<rt class="furi">おいぬ</rt><rt class="roma">oinu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>老<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>枯<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>理想<rt class="furi">りそう</rt><rt class="roma">risou</rt></ruby><ruby>像<rt class="furi">ぞう</rt><rt class="roma">zou</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>のい<rt class="roma">noi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>冷<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
+[03:25.13]<ruby>理想<rt class="furi">りそう</rt><rt class="roma">risou</rt></ruby><ruby>像<rt class="furi">ぞう</rt><rt class="roma">zou</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>のい<rt class="roma">noi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>冷<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
 </div>
 
@@ -471,7 +471,7 @@ image: /images/songs/harusaruhi/single-1687478942.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>さあ<rt class="roma">saa</rt></ruby>、<ruby>初心<rt class="furi">うぶ</rt><rt class="roma">ubu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>響<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>かせ<rt class="roma">kase</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[03:32.19]<ruby>さあ<rt class="roma">saa</rt></ruby>、<ruby>初心<rt class="furi">うぶ</rt><rt class="roma">ubu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>響<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>かせ<rt class="roma">kase</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
@@ -484,19 +484,19 @@ image: /images/songs/harusaruhi/single-1687478942.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Let's go <ruby>鼓動<rt class="furi">こどう</rt><rt class="roma">kodou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>伝<rt class="furi">つた</rt><rt class="roma">tsuta</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[03:38.69]Let's go <ruby>鼓動<rt class="furi">こどう</rt><rt class="roma">kodou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>伝<rt class="furi">つた</rt><rt class="roma">tsuta</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>一度<rt class="furi">いちど</rt><rt class="roma">ichido</rt></ruby><ruby>きり<rt class="roma">kiri</rt></ruby><ruby>自由<rt class="furi">じゆう</rt><rt class="roma">jiyuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
+[03:41.22]<ruby>一度<rt class="furi">いちど</rt><rt class="roma">ichido</rt></ruby><ruby>きり<rt class="roma">kiri</rt></ruby><ruby>自由<rt class="furi">じゆう</rt><rt class="roma">jiyuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>無邪気<rt class="furi">むじゃき</rt><rt class="roma">mujaki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>隠<rt class="furi">かく</rt><rt class="roma">kaku</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>、<ruby>さあ<rt class="roma">saa</rt></ruby>
+[03:44.23]<ruby>無邪気<rt class="furi">むじゃき</rt><rt class="roma">mujaki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>隠<rt class="furi">かく</rt><rt class="roma">kaku</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>、<ruby>さあ<rt class="roma">saa</rt></ruby>
 </div>
 </div>
 

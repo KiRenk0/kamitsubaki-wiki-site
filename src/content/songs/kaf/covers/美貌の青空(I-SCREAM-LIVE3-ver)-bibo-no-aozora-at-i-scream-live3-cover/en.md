@@ -163,7 +163,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>狂<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>おしい<rt class="roma">oshii</rt></ruby><ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby>
+[04:17.72]<ruby>狂<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>おしい<rt class="roma">oshii</rt></ruby><ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby>
 </div>
 </div>
 

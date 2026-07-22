@@ -300,7 +300,7 @@ image: /images/songs/isekaijoucho/single-1678038938.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Revive
+[03:08.07]Revive
 </div>
 </div>
 

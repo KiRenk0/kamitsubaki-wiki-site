@@ -249,37 +249,37 @@ image: /images/songs/kaf/track-1830941076.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それ<rt class="roma">sore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まるで<rt class="roma">marude</rt></ruby><ruby>英雄<rt class="furi">えいゆう</rt><rt class="roma">eiyuu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
+[02:43.49]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まるで<rt class="roma">marude</rt></ruby><ruby>英雄<rt class="furi">えいゆう</rt><rt class="roma">eiyuu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>闇夜<rt class="furi">やみよ</rt><rt class="roma">yamiyo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>漏<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>光芒<rt class="furi">こうぼう</rt><rt class="roma">koubou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
+[02:47.01]<ruby>闇夜<rt class="furi">やみよ</rt><rt class="roma">yamiyo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>漏<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>光芒<rt class="furi">こうぼう</rt><rt class="roma">koubou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>キラキラ<rt class="roma">kirakira</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>メサイア<rt class="roma">mesaia</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+[02:50.53]<ruby>キラキラ<rt class="roma">kirakira</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>メサイア<rt class="roma">mesaia</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>かけ離<rt class="furi">かけはな</rt><rt class="roma">kakehana</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[02:54.86]<ruby>かけ離<rt class="furi">かけはな</rt><rt class="roma">kakehana</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ひどく<rt class="roma">hidoku</rt></ruby><ruby>強欲<rt class="furi">ごうよく</rt><rt class="roma">gouyoku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[02:57.33]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ひどく<rt class="roma">hidoku</rt></ruby><ruby>強欲<rt class="furi">ごうよく</rt><rt class="roma">gouyoku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あるいは<rt class="roma">aruiha</rt></ruby><ruby>ひどく<rt class="roma">hidoku</rt></ruby><ruby>強引<rt class="furi">ごういん</rt><rt class="roma">gouin</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>歪<rt class="furi">ゆが</rt><rt class="roma">yuga</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[03:00.83]<ruby>あるいは<rt class="roma">aruiha</rt></ruby><ruby>ひどく<rt class="roma">hidoku</rt></ruby><ruby>強引<rt class="furi">ごういん</rt><rt class="roma">gouin</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>歪<rt class="furi">ゆが</rt><rt class="roma">yuga</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
@@ -339,7 +339,7 @@ image: /images/songs/kaf/track-1830941076.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ああ<rt class="roma">aa</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[03:36.37]<ruby>ああ<rt class="roma">aa</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 </div>
 

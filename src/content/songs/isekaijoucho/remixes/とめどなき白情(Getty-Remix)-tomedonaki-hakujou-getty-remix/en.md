@@ -55,7 +55,7 @@ image: /images/songs/isekaijoucho/single-1800090314.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby>
+[00:14.99]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby>
 </div>
 </div>
 
@@ -78,7 +78,7 @@ image: /images/songs/isekaijoucho/single-1800090314.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>その<rt class="roma">sono</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>粒<rt class="furi">つぶ</rt><rt class="roma">tsubu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+[00:26.12]<ruby>その<rt class="roma">sono</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>粒<rt class="furi">つぶ</rt><rt class="roma">tsubu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 </div>
 
@@ -285,7 +285,7 @@ image: /images/songs/isekaijoucho/single-1800090314.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>そうして<rt class="roma">soushite</rt></ruby>
+[02:59.31]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>そうして<rt class="roma">soushite</rt></ruby>
 </div>
 </div>
 
@@ -317,19 +317,19 @@ image: /images/songs/isekaijoucho/single-1800090314.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>その<rt class="roma">sono</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>粒<rt class="furi">つぶ</rt><rt class="roma">tsubu</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+[03:27.42]<ruby>その<rt class="roma">sono</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>粒<rt class="furi">つぶ</rt><rt class="roma">tsubu</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>その<rt class="roma">sono</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>粒<rt class="furi">つぶ</rt><rt class="roma">tsubu</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+[03:33.24]<ruby>その<rt class="roma">sono</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>粒<rt class="furi">つぶ</rt><rt class="roma">tsubu</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>その<rt class="roma">sono</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>粒<rt class="furi">つぶ</rt><rt class="roma">tsubu</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+[03:35.48]<ruby>その<rt class="roma">sono</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>粒<rt class="furi">つぶ</rt><rt class="roma">tsubu</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
@@ -367,13 +367,13 @@ image: /images/songs/isekaijoucho/single-1800090314.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>そうして<rt class="roma">soushite</rt></ruby>
+[04:06.59]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>そうして<rt class="roma">soushite</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>視<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
+[04:08.99]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>視<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
 </div>
 

@@ -71,7 +71,7 @@ image: /images/songs/isekaijoucho/single-1692480468.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Lindo Lindo <ruby>憐<rt class="furi">あわ</rt><rt class="roma">awa</rt></ruby><ruby>れみ<rt class="roma">remi</rt></ruby><ruby>憂<rt class="furi">うれ</rt><rt class="roma">ure</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[00:53.39]Lindo Lindo <ruby>憐<rt class="furi">あわ</rt><rt class="roma">awa</rt></ruby><ruby>れみ<rt class="roma">remi</rt></ruby><ruby>憂<rt class="furi">うれ</rt><rt class="roma">ure</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 

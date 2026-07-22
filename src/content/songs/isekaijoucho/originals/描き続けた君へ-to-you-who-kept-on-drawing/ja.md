@@ -163,7 +163,7 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どうか<rt class="roma">douka</rt></ruby><ruby>自由<rt class="furi">じゆう</rt><rt class="roma">jiyuu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ヰ<rt class="roma">wi</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>連れ出<rt class="furi">つれだ</rt><rt class="roma">tsureda</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[02:49.14]<ruby>どうか<rt class="roma">douka</rt></ruby><ruby>自由<rt class="furi">じゆう</rt><rt class="roma">jiyuu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ヰ<rt class="roma">wi</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>連れ出<rt class="furi">つれだ</rt><rt class="roma">tsureda</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 

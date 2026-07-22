@@ -219,13 +219,13 @@ image: /images/songs/rim/single-1700404196.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>おまじない<rt class="roma">omajinai</rt></ruby>
+[02:13.11]<ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>おまじない<rt class="roma">omajinai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どう<rt class="roma">dou</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
+[02:15.33]<ruby>どう<rt class="roma">dou</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
 </div>
 
@@ -291,7 +291,7 @@ image: /images/songs/rim/single-1700404196.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>天使<rt class="furi">てんし</rt><rt class="roma">tenshi</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
+[02:47.14]<ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>天使<rt class="furi">てんし</rt><rt class="roma">tenshi</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
 </div>
 

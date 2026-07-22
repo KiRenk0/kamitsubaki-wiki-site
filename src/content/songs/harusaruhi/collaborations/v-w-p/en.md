@@ -34,9 +34,9 @@ V.W.P appears on SPICE OF LIFE or a related official release. Entries are versio
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ぶつけ<rt class="roma">butsuke</rt></ruby><ruby>合<rt class="furi">ごう</rt><rt class="roma">gou</rt></ruby> <ruby>う<rt class="roma">u</rt></ruby><ruby>魂<rt class="furi">たましい</rt><rt class="roma">tamashii</rt></ruby>V.W.P
+[00:00.00]<ruby>ぶつけ<rt class="roma">butsuke</rt></ruby><ruby>合<rt class="furi">ごう</rt><rt class="roma">gou</rt></ruby> <ruby>う<rt class="roma">u</rt></ruby><ruby>魂<rt class="furi">たましい</rt><rt class="roma">tamashii</rt></ruby>V.W.P
 </div>
-<div class="trans-lyric">Clashing souls V.W.P</div>
+<div class="trans-lyric">[00:00.00]Clashing souls V.W.P</div>
 </div>
 
 <div class="lyric-line">
@@ -48,9 +48,9 @@ V.W.P appears on SPICE OF LIFE or a related official release. Entries are versio
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>紡<rt class="furi">つむ</rt><rt class="roma">tsumu</rt></ruby><ruby>ぐ<rt class="roma">gu</rt></ruby><ruby>ストーリー<rt class="roma">sutourii</rt></ruby><ruby>皆<rt class="furi">みな</rt><rt class="roma">mina</rt></ruby><ruby>かかる<rt class="roma">kakaru</rt></ruby><ruby>マジック<rt class="roma">majikku</rt></ruby>
+[00:06.07]<ruby>紡<rt class="furi">つむ</rt><rt class="roma">tsumu</rt></ruby><ruby>ぐ<rt class="roma">gu</rt></ruby><ruby>ストーリー<rt class="roma">sutourii</rt></ruby><ruby>皆<rt class="furi">みな</rt><rt class="roma">mina</rt></ruby><ruby>かかる<rt class="roma">kakaru</rt></ruby><ruby>マジック<rt class="roma">majikku</rt></ruby>
 </div>
-<div class="trans-lyric">Spinning stories, a magic that captivates everyone</div>
+<div class="trans-lyric">[00:06.07]Spinning stories, a magic that captivates everyone</div>
 </div>
 
 <div class="lyric-line">
@@ -62,37 +62,37 @@ V.W.P appears on SPICE OF LIFE or a related official release. Entries are versio
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もはや<rt class="roma">mohaya</rt></ruby><ruby>今<rt class="furi">こん</rt><rt class="roma">kon</rt></ruby><ruby>クラシック<rt class="roma">kurashikku</rt></ruby>
+[00:10.43]<ruby>もはや<rt class="roma">mohaya</rt></ruby><ruby>今<rt class="furi">こん</rt><rt class="roma">kon</rt></ruby><ruby>クラシック<rt class="roma">kurashikku</rt></ruby>
 </div>
-<div class="trans-lyric">Already now a classic</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>光<rt class="furi">ひか</rt><rt class="roma">hika</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>味<rt class="furi">あじ</rt><rt class="roma">aji</rt></ruby><ruby>集<rt class="furi">あつ</rt><rt class="roma">atsu</rt></ruby><ruby>まれ<rt class="roma">mare</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>最強<rt class="furi">さいきょう</rt><rt class="roma">saikyou</rt></ruby>
-</div>
-<div class="trans-lyric">When shining talents gather, we're the strongest</div>
+<div class="trans-lyric">[00:10.43]Already now a classic</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>感動<rt class="furi">かんどう</rt><rt class="roma">kandou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>一緒<rt class="furi">いっしょ</rt><rt class="roma">issho</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>倍増<rt class="furi">ばいぞう</rt><rt class="roma">baizou</rt></ruby>
+[00:12.29]<ruby>光<rt class="furi">ひか</rt><rt class="roma">hika</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>味<rt class="furi">あじ</rt><rt class="roma">aji</rt></ruby><ruby>集<rt class="furi">あつ</rt><rt class="roma">atsu</rt></ruby><ruby>まれ<rt class="roma">mare</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>最強<rt class="furi">さいきょう</rt><rt class="roma">saikyou</rt></ruby>
 </div>
-<div class="trans-lyric">If the emotion is together, it doubles</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>これ<rt class="roma">kore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ミラクル<rt class="roma">mirakuru</rt></ruby><ruby>溢<rt class="furi">あふ</rt><rt class="roma">afu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>愛情<rt class="furi">あいじょう</rt><rt class="roma">aijou</rt></ruby>
-</div>
-<div class="trans-lyric">This is love overflowing with miracles</div>
+<div class="trans-lyric">[00:12.29]When shining talents gather, we're the strongest</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>腕<rt class="furi">うで</rt><rt class="roma">ude</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>磨<rt class="furi">みが</rt><rt class="roma">miga</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>5<ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>沸<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>かす<rt class="roma">kasu</rt></ruby><ruby>会場<rt class="furi">かいじょう</rt><rt class="roma">kaijou</rt></ruby>
+[00:14.92]<ruby>感動<rt class="furi">かんどう</rt><rt class="roma">kandou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>一緒<rt class="furi">いっしょ</rt><rt class="roma">issho</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>倍増<rt class="furi">ばいぞう</rt><rt class="roma">baizou</rt></ruby>
 </div>
-<div class="trans-lyric">Five people honing their skills, heating up the venue</div>
+<div class="trans-lyric">[00:14.92]If the emotion is together, it doubles</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:18.14]<ruby>これ<rt class="roma">kore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ミラクル<rt class="roma">mirakuru</rt></ruby><ruby>溢<rt class="furi">あふ</rt><rt class="roma">afu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>愛情<rt class="furi">あいじょう</rt><rt class="roma">aijou</rt></ruby>
+</div>
+<div class="trans-lyric">[00:18.14]This is love overflowing with miracles</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:21.16]<ruby>腕<rt class="furi">うで</rt><rt class="roma">ude</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>磨<rt class="furi">みが</rt><rt class="roma">miga</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>5<ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>沸<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>かす<rt class="roma">kasu</rt></ruby><ruby>会場<rt class="furi">かいじょう</rt><rt class="roma">kaijou</rt></ruby>
+</div>
+<div class="trans-lyric">[00:21.16]Five people honing their skills, heating up the venue</div>
 </div>
 
 <div class="lyric-line">
@@ -141,51 +141,51 @@ V.W.P appears on SPICE OF LIFE or a related official release. Entries are versio
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>阻<rt class="furi">はば</rt><rt class="roma">haba</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>行く手<rt class="furi">ゆくて</rt><rt class="roma">yukute</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>震<rt class="furi">ふる</rt><rt class="roma">furu</rt></ruby><ruby>え<rt class="roma">e</rt></ruby>
+[00:48.01]<ruby>阻<rt class="furi">はば</rt><rt class="roma">haba</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>行く手<rt class="furi">ゆくて</rt><rt class="roma">yukute</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>震<rt class="furi">ふる</rt><rt class="roma">furu</rt></ruby><ruby>え<rt class="roma">e</rt></ruby>
 </div>
-<div class="trans-lyric">Trembling that doesn't stop in the face of obstacles</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>隣<rt class="furi">となり</rt><rt class="roma">tonari</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>ほら<rt class="roma">hora</rt></ruby><ruby>魔女<rt class="furi">まじょ</rt><rt class="roma">majo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>娘<rt class="furi">むすめ</rt><rt class="roma">musume</rt></ruby>
-</div>
-<div class="trans-lyric">Look next to you, there's the witch's daughter</div>
+<div class="trans-lyric">[00:48.01]Trembling that doesn't stop in the face of obstacles</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>喧嘩<rt class="furi">けんか</rt><rt class="roma">kenka</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
+[00:51.26]<ruby>隣<rt class="furi">となり</rt><rt class="roma">tonari</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>ほら<rt class="roma">hora</rt></ruby><ruby>魔女<rt class="furi">まじょ</rt><rt class="roma">majo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>娘<rt class="furi">むすめ</rt><rt class="roma">musume</rt></ruby>
 </div>
-<div class="trans-lyric">We've never once fought</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>リスペクト<rt class="roma">risupekuto</rt></ruby><ruby>ぶつけ<rt class="roma">butsuke</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>会話<rt class="furi">かいわ</rt><rt class="roma">kaiwa</rt></ruby>
-</div>
-<div class="trans-lyric">Conversations clashing with respect</div>
+<div class="trans-lyric">[00:51.26]Look next to you, there's the witch's daughter</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>個性<rt class="furi">こせい</rt><rt class="roma">kosei</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>Fire <ruby>高<rt class="furi">たか</rt><rt class="roma">taka</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>合<rt class="furi">ごう</rt><rt class="roma">gou</rt></ruby> <ruby>う<rt class="roma">u</rt></ruby><ruby>間<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby>
+[00:54.18]<ruby>喧嘩<rt class="furi">けんか</rt><rt class="roma">kenka</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
-<div class="trans-lyric">Personalities are fire, while elevating each other</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>互<rt class="furi">たが</rt><rt class="roma">taga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>引き出<rt class="furi">ひきだ</rt><rt class="roma">hikida</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>魅力<rt class="furi">みりょく</rt><rt class="roma">miryoku</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>開花<rt class="furi">かいか</rt><rt class="roma">kaika</rt></ruby>
-</div>
-<div class="trans-lyric">The charm we draw out from each other blooms</div>
+<div class="trans-lyric">[00:54.18]We've never once fought</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>切磋琢磨<rt class="furi">せっさたくま</rt><rt class="roma">sessatakuma</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ネバーリタイヤ<rt class="roma">nebaaritaiya</rt></ruby>
+[00:57.12]<ruby>リスペクト<rt class="roma">risupekuto</rt></ruby><ruby>ぶつけ<rt class="roma">butsuke</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>会話<rt class="furi">かいわ</rt><rt class="roma">kaiwa</rt></ruby>
 </div>
-<div class="trans-lyric">Through mutual improvement, never retire</div>
+<div class="trans-lyric">[00:57.12]Conversations clashing with respect</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:00.46]<ruby>個性<rt class="furi">こせい</rt><rt class="roma">kosei</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>Fire <ruby>高<rt class="furi">たか</rt><rt class="roma">taka</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>合<rt class="furi">ごう</rt><rt class="roma">gou</rt></ruby> <ruby>う<rt class="roma">u</rt></ruby><ruby>間<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby>
+</div>
+<div class="trans-lyric">[01:00.46]Personalities are fire, while elevating each other</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:03.29]<ruby>互<rt class="furi">たが</rt><rt class="roma">taga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>引き出<rt class="furi">ひきだ</rt><rt class="roma">hikida</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>魅力<rt class="furi">みりょく</rt><rt class="roma">miryoku</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>開花<rt class="furi">かいか</rt><rt class="roma">kaika</rt></ruby>
+</div>
+<div class="trans-lyric">[01:03.29]The charm we draw out from each other blooms</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:06.36]<ruby>切磋琢磨<rt class="furi">せっさたくま</rt><rt class="roma">sessatakuma</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ネバーリタイヤ<rt class="roma">nebaaritaiya</rt></ruby>
+</div>
+<div class="trans-lyric">[01:06.36]Through mutual improvement, never retire</div>
 </div>
 
 <div class="lyric-line">
@@ -204,25 +204,25 @@ V.W.P appears on SPICE OF LIFE or a related official release. Entries are versio
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Yeah, we are V.W.P
+[01:12.36]Yeah, we are V.W.P
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-We are the V.W.P
+[01:15.88]We are the V.W.P
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Nobody like us V.W.P
+[01:18.07]Nobody like us V.W.P
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>この<rt class="roma">kono</rt></ruby>5<ruby>ピース<rt class="roma">piisu</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>MVP
+[01:21.31]<ruby>この<rt class="roma">kono</rt></ruby>5<ruby>ピース<rt class="roma">piisu</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>MVP
 </div>
 </div>
 
@@ -249,7 +249,7 @@ Nobody like us V.W.P
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>この<rt class="roma">kono</rt></ruby>5<ruby>ピース<rt class="roma">piisu</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>MVP
+[01:33.20]<ruby>この<rt class="roma">kono</rt></ruby>5<ruby>ピース<rt class="roma">piisu</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>MVP
 </div>
 </div>
 
@@ -262,9 +262,9 @@ Nobody like us V.W.P
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>絆<rt class="furi">きずな</rt><rt class="roma">kizuna</rt></ruby>
+[01:40.03]<ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>絆<rt class="furi">きずな</rt><rt class="roma">kizuna</rt></ruby>
 </div>
-<div class="trans-lyric">This bond that never separates</div>
+<div class="trans-lyric">[01:40.03]This bond that never separates</div>
 </div>
 
 <div class="lyric-line">

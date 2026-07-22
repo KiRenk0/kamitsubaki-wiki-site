@@ -284,13 +284,13 @@ image: /images/albums/vwp/witch-plus-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>無関係<rt class="furi">むかんけい</rt><rt class="roma">mukankei</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>ばっか<rt class="roma">bakka</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
+[02:15.59]<ruby>無関係<rt class="furi">むかんけい</rt><rt class="roma">mukankei</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>ばっか<rt class="roma">bakka</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>栄養<rt class="furi">えいよう</rt><rt class="roma">eiyou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
+[02:18.31]<ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>栄養<rt class="furi">えいよう</rt><rt class="roma">eiyou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
 </div>
 </div>
 
@@ -320,13 +320,13 @@ image: /images/albums/vwp/witch-plus-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>考<rt class="furi">かんが</rt><rt class="roma">kanga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>フリ<rt class="roma">furi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+[02:31.71]<ruby>考<rt class="furi">かんが</rt><rt class="roma">kanga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>フリ<rt class="roma">furi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ふさぎ<rt class="roma">fusagi</rt></ruby><ruby>っぱなし<rt class="roma">ppanashi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+[02:32.95]<ruby>ふさぎ<rt class="roma">fusagi</rt></ruby><ruby>っぱなし<rt class="roma">ppanashi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
 </div>
 
@@ -350,13 +350,13 @@ image: /images/albums/vwp/witch-plus-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>嘘<rt class="furi">うそ</rt><rt class="roma">uso</rt></ruby><ruby>つい<rt class="roma">tsui</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[02:42.19]<ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>嘘<rt class="furi">うそ</rt><rt class="roma">uso</rt></ruby><ruby>つい<rt class="roma">tsui</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>暴力<rt class="furi">ぼうりょく</rt><rt class="roma">bouryoku</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>イグノランス<rt class="roma">igunoransu</rt></ruby>
+[02:45.05]<ruby>暴力<rt class="furi">ぼうりょく</rt><rt class="roma">bouryoku</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>イグノランス<rt class="roma">igunoransu</rt></ruby>
 </div>
 </div>
 
@@ -368,7 +368,7 @@ image: /images/albums/vwp/witch-plus-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>暴力<rt class="furi">ぼうりょく</rt><rt class="roma">bouryoku</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>イグノランス<rt class="roma">igunoransu</rt></ruby>
+[02:50.40]<ruby>暴力<rt class="furi">ぼうりょく</rt><rt class="roma">bouryoku</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>イグノランス<rt class="roma">igunoransu</rt></ruby>
 </div>
 </div>
 

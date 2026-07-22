@@ -192,13 +192,13 @@ image: /images/albums/rim/chocolate-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>以外<rt class="furi">いがい</rt><rt class="roma">igai</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>当たり前<rt class="furi">あたりまえ</rt><rt class="roma">atarimae</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
+[01:47.22]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>以外<rt class="furi">いがい</rt><rt class="roma">igai</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>当たり前<rt class="furi">あたりまえ</rt><rt class="roma">atarimae</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>だから<rt class="roma">dakara</rt></ruby><ruby>報<rt class="furi">むく</rt><rt class="roma">muku</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>整理<rt class="furi">せいり</rt><rt class="roma">seiri</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[01:52.92]<ruby>だから<rt class="roma">dakara</rt></ruby><ruby>報<rt class="furi">むく</rt><rt class="roma">muku</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>整理<rt class="furi">せいり</rt><rt class="roma">seiri</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 

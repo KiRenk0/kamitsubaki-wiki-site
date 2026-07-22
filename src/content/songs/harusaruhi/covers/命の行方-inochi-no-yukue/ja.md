@@ -193,13 +193,13 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>がってる<rt class="roma">gatteru</rt></ruby>
+[01:31.89]<ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>がってる<rt class="roma">gatteru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
+[01:34.86]<ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
 </div>
 

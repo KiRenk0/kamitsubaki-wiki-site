@@ -323,7 +323,7 @@ image: /images/albums/kaf/shinai.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>殺<rt class="furi">ころ</rt><rt class="roma">koro</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[04:01.58]<ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>殺<rt class="furi">ころ</rt><rt class="roma">koro</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
@@ -378,13 +378,13 @@ image: /images/albums/kaf/shinai.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[04:45.74]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[04:51.39]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
 </div>
 

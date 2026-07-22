@@ -121,7 +121,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それなら<rt class="roma">sorenara</rt></ruby> <ruby>それなら<rt class="roma">sorenara</rt></ruby><ruby>どうして<rt class="roma">doushite</rt></ruby>
+[01:51.23]<ruby>それなら<rt class="roma">sorenara</rt></ruby> <ruby>それなら<rt class="roma">sorenara</rt></ruby><ruby>どうして<rt class="roma">doushite</rt></ruby>
 </div>
 </div>
 
@@ -187,19 +187,19 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Shooting a shower, scary invisible shadow
+[03:01.98]Shooting a shower, scary invisible shadow
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>天使<rt class="furi">てんし</rt><rt class="roma">tenshi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>寂<rt class="furi">さび</rt><rt class="roma">sabi</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
+[03:10.45]<ruby>天使<rt class="furi">てんし</rt><rt class="roma">tenshi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>寂<rt class="furi">さび</rt><rt class="roma">sabi</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Smile over kind in my story
+[03:14.65]Smile over kind in my story
 </div>
 </div>
 

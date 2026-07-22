@@ -51,13 +51,13 @@ image: /images/albums/harusaruhi/rule-the-world.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Log in to my life
+[00:11.67]Log in to my life
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Log in to my life
+[00:13.50]Log in to my life
 </div>
 </div>
 
@@ -75,7 +75,7 @@ Log in to my life
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Log in to my life
+[00:20.10]Log in to my life
 </div>
 </div>
 
@@ -189,49 +189,49 @@ Log in to my life
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Log in to my life
+[01:00.15]Log in to my life
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>自由自在<rt class="furi">じゆうじざい</rt><rt class="roma">jiyuujizai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>パレード<rt class="roma">pareedo</rt></ruby>
+[01:02.60]<ruby>自由自在<rt class="furi">じゆうじざい</rt><rt class="roma">jiyuujizai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>パレード<rt class="roma">pareedo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I do whatever I want
+[01:04.82]I do whatever I want
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Log in to my life
+[01:06.83]Log in to my life
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Log in to my life
+[01:08.73]Log in to my life
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ほら<rt class="roma">hora</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>揃<rt class="furi">そろ</rt><rt class="roma">soro</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>羽根<rt class="furi">はね</rt><rt class="roma">hane</rt></ruby>
+[01:10.66]<ruby>ほら<rt class="roma">hora</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>揃<rt class="furi">そろ</rt><rt class="roma">soro</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>羽根<rt class="furi">はね</rt><rt class="roma">hane</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-You can do whatever you want
+[01:13.27]You can do whatever you want
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Log in to my life
+[01:15.33]Log in to my life
 </div>
 </div>
 

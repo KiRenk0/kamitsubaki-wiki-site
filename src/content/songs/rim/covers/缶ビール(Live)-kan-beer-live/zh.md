@@ -242,31 +242,31 @@ YouTube <ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>�
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>缶<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>ビール<rt class="roma">biiru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>買<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
+[01:55.32]<ruby>缶<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>ビール<rt class="roma">biiru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>買<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ねぇ<rt class="roma">nee</rt></ruby>、<ruby>缶<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>ビール<rt class="roma">biiru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>買<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
+[01:57.44]<ruby>ねぇ<rt class="roma">nee</rt></ruby>、<ruby>缶<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>ビール<rt class="roma">biiru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>買<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>おまけ<rt class="roma">omake</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>アイス<rt class="roma">aisu</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>買<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>バニラ<rt class="roma">banira</rt></ruby>
+[01:59.28]<ruby>おまけ<rt class="roma">omake</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>アイス<rt class="roma">aisu</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>買<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>バニラ<rt class="roma">banira</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>無料<rt class="furi">むりょう</rt><rt class="roma">muryou</rt></ruby><ruby>交換<rt class="furi">こうかん</rt><rt class="roma">koukan</rt></ruby><ruby>チケット<rt class="roma">chiketto</rt></ruby>
+[02:04.04]<ruby>無料<rt class="furi">むりょう</rt><rt class="roma">muryou</rt></ruby><ruby>交換<rt class="furi">こうかん</rt><rt class="roma">koukan</rt></ruby><ruby>チケット<rt class="roma">chiketto</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>入<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>チョコレート<rt class="roma">chokoreeto</rt></ruby>
+[02:06.28]<ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>入<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>チョコレート<rt class="roma">chokoreeto</rt></ruby>
 </div>
 </div>
 
@@ -279,7 +279,7 @@ YouTube <ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>�
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ポケット<rt class="roma">poketto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>入<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[02:10.84]<ruby>ポケット<rt class="roma">poketto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>入<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
@@ -287,13 +287,13 @@ YouTube <ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>�
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>缶<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>ビール<rt class="roma">biiru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>買<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>缶<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>ビール<rt class="roma">biiru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>買<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
+[02:17.59]<ruby>缶<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>ビール<rt class="roma">biiru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>買<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>缶<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>ビール<rt class="roma">biiru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>買<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>缶<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>ビール<rt class="roma">biiru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>買<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
+[02:26.59]<ruby>缶<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>ビール<rt class="roma">biiru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>買<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 

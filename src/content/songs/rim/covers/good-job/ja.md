@@ -63,7 +63,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-On my way back home
+[00:24.46]On my way back home
 </div>
 </div>
 
@@ -71,7 +71,7 @@ On my way back home
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'm on my way back home
+[00:31.22]I'm on my way back home
 </div>
 </div>
 
@@ -95,13 +95,13 @@ I'm on my way back home
 
 <div class="lyric-line">
 <div class="jp-lyric">
-On my way back home
+[00:46.07]On my way back home
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-On my way back home
+[00:53.12]On my way back home
 </div>
 </div>
 
@@ -213,7 +213,7 @@ On my way back home
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I did a good job
+[02:04.62]I did a good job
 </div>
 </div>
 
@@ -221,25 +221,25 @@ I did a good job
 
 <div class="lyric-line">
 <div class="jp-lyric">
-수많은 차들이 지나가네
+[02:40.87]수많은 차들이 지나가네
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-수많은 하루들을 싣고서
+[02:44.41]수많은 하루들을 싣고서
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-How was your day
+[02:48.15]How was your day
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-음음
+[02:52.18]음음
 </div>
 </div>
 
@@ -247,25 +247,25 @@ How was your day
 
 <div class="lyric-line">
 <div class="jp-lyric">
-수많은 말들이 생각나네
+[02:55.33]수많은 말들이 생각나네
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-수많은 침묵들뿐이지만
+[02:58.79]수많은 침묵들뿐이지만
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-But I gotta say
+[03:02.35]But I gotta say
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I gotta say
+[03:05.76]I gotta say
 </div>
 </div>
 
@@ -273,73 +273,73 @@ I gotta say
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I did a good job
+[03:12.81]I did a good job
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-수고했다고
+[03:17.48]수고했다고
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-더 잘 할 수 있었단 말로
+[03:20.97]더 잘 할 수 있었단 말로
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-채찍질하지 마
+[03:24.39]채찍질하지 마
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I did a freaking good job
+[03:26.81]I did a freaking good job
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-이 정도면 뭐
+[03:31.60]이 정도면 뭐
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-편히 쉬어도 돼
+[03:34.12]편히 쉬어도 돼
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-'Cause I
+[03:38.59]'Cause I
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I did a good job
+[03:41.76]I did a good job
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I did a good job
+[03:48.82]I did a good job
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I did a good job
+[03:55.93]I did a good job
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I did a good job
+[04:03.15]I did a good job
 </div>
 </div>
 

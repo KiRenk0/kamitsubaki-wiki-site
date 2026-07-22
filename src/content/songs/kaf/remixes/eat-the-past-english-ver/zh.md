@@ -440,13 +440,13 @@ image: /images/songs/kaf/track-1817085907.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Rising up, and to the stars they sail
+[03:21.52]Rising up, and to the stars they sail
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Eating up the memory of the past
+[03:24.02]Eating up the memory of the past
 </div>
 </div>
 

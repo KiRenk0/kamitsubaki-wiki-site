@@ -233,25 +233,25 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>冗談<rt class="furi">じょうだん</rt><rt class="roma">joudan</rt></ruby><ruby>じゃあ<rt class="roma">jaa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
+[01:59.06]<ruby>冗談<rt class="furi">じょうだん</rt><rt class="roma">joudan</rt></ruby><ruby>じゃあ<rt class="roma">jaa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>トウキョウ・シャンディ・ランデヴ<rt class="roma">toukyou/shandei/randevu</rt></ruby>
+[02:01.26]<ruby>トウキョウ・シャンディ・ランデヴ<rt class="roma">toukyou/shandei/randevu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>その<rt class="roma">sono</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>如何<rt class="furi">いか</rt><rt class="roma">ika</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby>
+[02:02.99]<ruby>その<rt class="roma">sono</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>如何<rt class="furi">いか</rt><rt class="roma">ika</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>メランコリ<rt class="roma">merankori</rt></ruby><ruby>化<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
+[02:06.92]<ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>メランコリ<rt class="roma">merankori</rt></ruby><ruby>化<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
 </div>
 
@@ -265,19 +265,19 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>冗談<rt class="furi">じょうだん</rt><rt class="roma">joudan</rt></ruby><ruby>じゃあ<rt class="roma">jaa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
+[02:29.38]<ruby>冗談<rt class="furi">じょうだん</rt><rt class="roma">joudan</rt></ruby><ruby>じゃあ<rt class="roma">jaa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>トウキョウ・シャンディ・ランデヴ<rt class="roma">toukyou/shandei/randevu</rt></ruby>
+[02:31.56]<ruby>トウキョウ・シャンディ・ランデヴ<rt class="roma">toukyou/shandei/randevu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>その<rt class="roma">sono</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>如何<rt class="furi">いか</rt><rt class="roma">ika</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby>
+[02:33.23]<ruby>その<rt class="roma">sono</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>如何<rt class="furi">いか</rt><rt class="roma">ika</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby>
 </div>
 </div>
 
@@ -309,25 +309,25 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>トウキョウ・シャンディ・ランデヴ<rt class="roma">toukyou/shandei/randevu</rt></ruby>
+[02:45.59]<ruby>トウキョウ・シャンディ・ランデヴ<rt class="roma">toukyou/shandei/randevu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>その<rt class="roma">sono</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>如何<rt class="furi">いか</rt><rt class="roma">ika</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby>
+[02:47.28]<ruby>その<rt class="roma">sono</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>如何<rt class="furi">いか</rt><rt class="roma">ika</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>メランコリ<rt class="roma">merankori</rt></ruby><ruby>化<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
+[02:51.23]<ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>メランコリ<rt class="roma">merankori</rt></ruby><ruby>化<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あたし<rt class="roma">atashi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>あ<rt class="roma">a</rt></ruby>掻<ruby>攫<rt class="furi">さら</rt><rt class="roma">sara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>今<rt class="furi">こん</rt><rt class="roma">kon</rt></ruby><ruby>テイクオンミー<rt class="roma">teikuonmii</rt></ruby>
+[02:55.36]<ruby>あたし<rt class="roma">atashi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>あ<rt class="roma">a</rt></ruby>掻<ruby>攫<rt class="furi">さら</rt><rt class="roma">sara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>今<rt class="furi">こん</rt><rt class="roma">kon</rt></ruby><ruby>テイクオンミー<rt class="roma">teikuonmii</rt></ruby>
 </div>
 </div>
 

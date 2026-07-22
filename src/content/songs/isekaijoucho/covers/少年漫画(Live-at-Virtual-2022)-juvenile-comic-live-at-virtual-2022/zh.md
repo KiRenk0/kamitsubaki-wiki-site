@@ -163,7 +163,7 @@ image: /images/albums/rim/singularity-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Want to be a boyish
+[01:27.21]Want to be a boyish
 </div>
 </div>
 
@@ -219,37 +219,37 @@ Want to be a boyish
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>トゥルルル<rt class="roma">tourururu</rt></ruby> <ruby>トゥルリラ<rt class="roma">toururira</rt></ruby>
+[01:52.13]<ruby>トゥルルル<rt class="roma">tourururu</rt></ruby> <ruby>トゥルリラ<rt class="roma">toururira</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Boyish <ruby>もっと<rt class="roma">motto</rt></ruby> <ruby>もっと<rt class="roma">motto</rt></ruby><ruby>華麗<rt class="furi">かれい</rt><rt class="roma">karei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>とんがって<rt class="roma">tongatte</rt></ruby>
+[01:55.17]Boyish <ruby>もっと<rt class="roma">motto</rt></ruby> <ruby>もっと<rt class="roma">motto</rt></ruby><ruby>華麗<rt class="furi">かれい</rt><rt class="roma">karei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>とんがって<rt class="roma">tongatte</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Boyish <ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>塗<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>りつぶす<rt class="roma">ritsubusu</rt></ruby>
+[02:00.68]Boyish <ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>塗<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>りつぶす<rt class="roma">ritsubusu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-“<ruby>少年<rt class="furi">しょうねん</rt><rt class="roma">shounen</rt></ruby><ruby>漫画<rt class="furi">まんが</rt><rt class="roma">manga</rt></ruby>”<ruby>に<rt class="roma">ni</rt></ruby><ruby>なり<rt class="roma">nari</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>叶<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
+[02:15.80]“<ruby>少年<rt class="furi">しょうねん</rt><rt class="roma">shounen</rt></ruby><ruby>漫画<rt class="furi">まんが</rt><rt class="roma">manga</rt></ruby>”<ruby>に<rt class="roma">ni</rt></ruby><ruby>なり<rt class="roma">nari</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>叶<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>泥<rt class="furi">どろ</rt><rt class="roma">doro</rt></ruby><ruby>だらけ<rt class="roma">darake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ボク<rt class="roma">boku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[02:21.37]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>泥<rt class="furi">どろ</rt><rt class="roma">doro</rt></ruby><ruby>だらけ<rt class="roma">darake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ボク<rt class="roma">boku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう<rt class="roma">mou</rt></ruby><ruby>かっこいい<rt class="roma">kakkoii</rt></ruby><ruby>主人公<rt class="furi">しゅじんこう</rt><rt class="roma">shujinkou</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>構<rt class="furi">かま</rt><rt class="roma">kama</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[02:26.37]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>かっこいい<rt class="roma">kakkoii</rt></ruby><ruby>主人公<rt class="furi">しゅじんこう</rt><rt class="roma">shujinkou</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>構<rt class="furi">かま</rt><rt class="roma">kama</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
@@ -262,25 +262,25 @@ Boyish <ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>全部<rt class="f
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Want to be a boyish
+[02:37.90]Want to be a boyish
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Can't be a boyish yet
+[02:40.25]Can't be a boyish yet
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Want to be a boyish
+[02:43.04]Want to be a boyish
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby> <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby>
+[02:45.28]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby> <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby>
 </div>
 </div>
 

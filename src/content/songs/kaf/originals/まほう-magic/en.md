@@ -126,7 +126,7 @@ image: /images/albums/kaf/maho.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>これ<rt class="roma">kore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>魔法<rt class="furi">まほう</rt><rt class="roma">mahou</rt></ruby>？
+[01:10.20]<ruby>これ<rt class="roma">kore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>魔法<rt class="furi">まほう</rt><rt class="roma">mahou</rt></ruby>？
 </div>
 </div>
 
@@ -149,7 +149,7 @@ image: /images/albums/kaf/maho.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby> <ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby>
+[01:30.27]<ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby> <ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby>
 </div>
 </div>
 

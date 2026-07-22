@@ -197,7 +197,7 @@ image: /images/songs/vwp/single-1694863306.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>闇<rt class="furi">やみ</rt><rt class="roma">yami</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>払<rt class="furi">はら</rt><rt class="roma">hara</rt></ruby><ruby>え<rt class="roma">e</rt></ruby>
+[01:50.60]<ruby>闇<rt class="furi">やみ</rt><rt class="roma">yami</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>払<rt class="furi">はら</rt><rt class="roma">hara</rt></ruby><ruby>え<rt class="roma">e</rt></ruby>
 </div>
 </div>
 
@@ -284,7 +284,7 @@ image: /images/songs/vwp/single-1694863306.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>闇<rt class="furi">やみ</rt><rt class="roma">yami</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>払<rt class="furi">はら</rt><rt class="roma">hara</rt></ruby><ruby>え<rt class="roma">e</rt></ruby>
+[02:40.08]<ruby>闇<rt class="furi">やみ</rt><rt class="roma">yami</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>払<rt class="furi">はら</rt><rt class="roma">hara</rt></ruby><ruby>え<rt class="roma">e</rt></ruby>
 </div>
 </div>
 

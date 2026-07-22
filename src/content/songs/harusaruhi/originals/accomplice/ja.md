@@ -69,7 +69,7 @@ image: /images/songs/harusaruhi/single-1895909161.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I am on your tail
+[01:10.37]I am on your tail
 </div>
 </div>
 

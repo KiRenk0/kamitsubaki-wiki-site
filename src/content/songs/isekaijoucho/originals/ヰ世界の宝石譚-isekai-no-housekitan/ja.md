@@ -117,13 +117,13 @@ image: /images/albums/isekaijoucho/sousei.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-嗤<ruby>う<rt class="roma">u</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby> <ruby>堪<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby>
+[01:06.78]嗤<ruby>う<rt class="roma">u</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby> <ruby>堪<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>堕<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ちる<rt class="roma">chiru</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby> <ruby>馳<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>せる<rt class="roma">seru</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby>
+[01:08.96]<ruby>堕<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ちる<rt class="roma">chiru</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby> <ruby>馳<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>せる<rt class="roma">seru</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby>
 </div>
 </div>
 
@@ -149,7 +149,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>スバラシキ<rt class="roma">subarashiki</rt></ruby> (<ruby>ヰ<rt class="roma">wi</rt></ruby>)<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
+[01:19.20]<ruby>スバラシキ<rt class="roma">subarashiki</rt></ruby> (<ruby>ヰ<rt class="roma">wi</rt></ruby>)<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
 </div>
 </div>
 
@@ -233,13 +233,13 @@ image: /images/albums/isekaijoucho/sousei.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>スバラシキ<rt class="roma">subarashiki</rt></ruby> (<ruby>ヰ<rt class="roma">wi</rt></ruby>)<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
+[02:02.92]<ruby>スバラシキ<rt class="roma">subarashiki</rt></ruby> (<ruby>ヰ<rt class="roma">wi</rt></ruby>)<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>スバラシキ<rt class="roma">subarashiki</rt></ruby> (<ruby>ヰ<rt class="roma">wi</rt></ruby>)<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
+[02:07.14]<ruby>スバラシキ<rt class="roma">subarashiki</rt></ruby> (<ruby>ヰ<rt class="roma">wi</rt></ruby>)<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
 </div>
 </div>
 
@@ -317,13 +317,13 @@ image: /images/albums/isekaijoucho/sousei.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>スバラシキ<rt class="roma">subarashiki</rt></ruby> (<ruby>ヰ<rt class="roma">wi</rt></ruby>)<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
+[02:53.54]<ruby>スバラシキ<rt class="roma">subarashiki</rt></ruby> (<ruby>ヰ<rt class="roma">wi</rt></ruby>)<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>スバラシキ<rt class="roma">subarashiki</rt></ruby> (<ruby>ヰ<rt class="roma">wi</rt></ruby>)<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
+[02:57.86]<ruby>スバラシキ<rt class="roma">subarashiki</rt></ruby> (<ruby>ヰ<rt class="roma">wi</rt></ruby>)<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
 </div>
 </div>
 
@@ -349,13 +349,13 @@ image: /images/albums/isekaijoucho/sousei.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>スバラシキ<rt class="roma">subarashiki</rt></ruby> (<ruby>ヰ<rt class="roma">wi</rt></ruby>)<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
+[03:08.09]<ruby>スバラシキ<rt class="roma">subarashiki</rt></ruby> (<ruby>ヰ<rt class="roma">wi</rt></ruby>)<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>スバラシキ<rt class="roma">subarashiki</rt></ruby> (<ruby>ヰ<rt class="roma">wi</rt></ruby>)<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
+[03:12.36]<ruby>スバラシキ<rt class="roma">subarashiki</rt></ruby> (<ruby>ヰ<rt class="roma">wi</rt></ruby>)<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
 </div>
 </div>
 

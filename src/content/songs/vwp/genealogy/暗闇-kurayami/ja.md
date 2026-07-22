@@ -200,13 +200,13 @@ image: /images/albums/vwp/proliferation.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう<rt class="roma">mou</rt></ruby><ruby>いいよって<rt class="roma">iiyotte</rt></ruby><ruby>怒<rt class="furi">いか</rt><rt class="roma">ika</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>湧<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[02:05.98]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>いいよって<rt class="roma">iiyotte</rt></ruby><ruby>怒<rt class="furi">いか</rt><rt class="roma">ika</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>湧<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>孤独<rt class="furi">こどく</rt><rt class="roma">kodoku</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>刃<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わって<rt class="roma">watte</rt></ruby>
+[02:08.75]<ruby>孤独<rt class="furi">こどく</rt><rt class="roma">kodoku</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>刃<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わって<rt class="roma">watte</rt></ruby>
 </div>
 </div>
 
@@ -238,7 +238,7 @@ image: /images/albums/vwp/proliferation.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>明暗<rt class="furi">めいあん</rt><rt class="roma">meian</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>境<rt class="furi">さかい</rt><rt class="roma">sakai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>潜<rt class="furi">もぐ</rt><rt class="roma">mogu</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
+[02:22.28]<ruby>明暗<rt class="furi">めいあん</rt><rt class="roma">meian</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>境<rt class="furi">さかい</rt><rt class="roma">sakai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>潜<rt class="furi">もぐ</rt><rt class="roma">mogu</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 
@@ -250,19 +250,19 @@ image: /images/albums/vwp/proliferation.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+[02:28.63]<ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>バッドエンド<rt class="roma">baddoendo</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ハッピーエンド<rt class="roma">happiiendo</rt></ruby>
+[02:30.17]<ruby>バッドエンド<rt class="roma">baddoendo</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ハッピーエンド<rt class="roma">happiiendo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
+[02:36.18]<ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
 </div>
 
@@ -284,13 +284,13 @@ image: /images/albums/vwp/proliferation.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>闇夜<rt class="furi">やみよ</rt><rt class="roma">yamiyo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>染<rt class="furi">そ</rt><rt class="roma">so</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[03:13.16]<ruby>闇夜<rt class="furi">やみよ</rt><rt class="roma">yamiyo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>染<rt class="furi">そ</rt><rt class="roma">so</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>背後<rt class="furi">はいご</rt><rt class="roma">haigo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>怯<rt class="furi">おび</rt><rt class="roma">obi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[03:15.95]<ruby>背後<rt class="furi">はいご</rt><rt class="roma">haigo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>怯<rt class="furi">おび</rt><rt class="roma">obi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
@@ -302,25 +302,25 @@ image: /images/albums/vwp/proliferation.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>信<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>隠し持<rt class="furi">かくしも</rt><rt class="roma">kakushimo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
+[03:21.82]<ruby>信<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>隠し持<rt class="furi">かくしも</rt><rt class="roma">kakushimo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+[03:25.09]<ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>バッドエンド<rt class="roma">baddoendo</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ハッピーエンド<rt class="roma">happiiendo</rt></ruby>
+[03:26.73]<ruby>バッドエンド<rt class="roma">baddoendo</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ハッピーエンド<rt class="roma">happiiendo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
+[03:32.45]<ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
 </div>
 

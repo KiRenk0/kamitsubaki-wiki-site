@@ -154,7 +154,7 @@ image: /images/albums/koko/prayer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-If you have wings, please come back to me
+[02:00.70]If you have wings, please come back to me
 </div>
 </div>
 
@@ -205,7 +205,7 @@ If you have wings, please come back to me
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Just looking at the lunar eclipse
+[02:33.89]Just looking at the lunar eclipse
 </div>
 </div>
 
@@ -227,25 +227,25 @@ Just looking at the lunar eclipse
 
 <div class="lyric-line">
 <div class="jp-lyric">
-To me, this world looks cruel and beautiful
+[03:06.54]To me, this world looks cruel and beautiful
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Atonement aria echoes in the cathedral
+[03:12.31]Atonement aria echoes in the cathedral
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-The crescent moon turned off the light
+[03:17.66]The crescent moon turned off the light
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Just looking at the lunar eclipse
+[03:22.00]Just looking at the lunar eclipse
 </div>
 </div>
 

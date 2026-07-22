@@ -226,7 +226,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>染<rt class="furi">そ</rt><rt class="roma">so</rt></ruby><ruby>まって<rt class="roma">matte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
+[02:56.52]<ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>染<rt class="furi">そ</rt><rt class="roma">so</rt></ruby><ruby>まって<rt class="roma">matte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
 </div>
 
@@ -364,25 +364,25 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I need some holiday
+[03:57.38]I need some holiday
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-But I don't wish that everyday is holiday
+[03:59.72]But I don't wish that everyday is holiday
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Because I didn't bear the pain
+[04:05.95]Because I didn't bear the pain
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Because it wasn't a true freedom
+[04:10.26]Because it wasn't a true freedom
 </div>
 </div>
 

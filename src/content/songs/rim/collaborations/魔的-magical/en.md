@@ -185,7 +185,7 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>なんか<rt class="roma">nanka</rt></ruby><ruby>全然<rt class="furi">ぜんぜん</rt><rt class="roma">zenzen</rt></ruby><ruby>ピン<rt class="roma">pin</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[01:22.34]<ruby>なんか<rt class="roma">nanka</rt></ruby><ruby>全然<rt class="furi">ぜんぜん</rt><rt class="roma">zenzen</rt></ruby><ruby>ピン<rt class="roma">pin</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 

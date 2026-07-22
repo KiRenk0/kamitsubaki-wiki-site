@@ -131,19 +131,19 @@ image: /images/albums/rim/chocolate-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Sensation of stopping shocked
+[01:16.76]Sensation of stopping shocked
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I moved I walked I walked
+[01:20.29]I moved I walked I walked
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Sensation of stopping shocked
+[01:23.44]Sensation of stopping shocked
 </div>
 </div>
 
@@ -190,13 +190,13 @@ Sensation of stopping shocked
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Mom told me wait be steady be locked be ready
+[01:46.65]Mom told me wait be steady be locked be ready
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-For things just like this
+[01:50.45]For things just like this
 </div>
 </div>
 

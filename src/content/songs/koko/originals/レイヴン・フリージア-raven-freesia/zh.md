@@ -150,7 +150,7 @@ image: /images/albums/koko/prayer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Maybe we are choosing to be in a dystopia
+[01:14.43]Maybe we are choosing to be in a dystopia
 </div>
 </div>
 
@@ -163,7 +163,7 @@ Maybe we are choosing to be in a dystopia
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Why do I have such a strong desire to still be alive?
+[01:27.19]Why do I have such a strong desire to still be alive?
 </div>
 </div>
 
@@ -289,7 +289,7 @@ Why do I have such a strong desire to still be alive?
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Maybe we are choosing to be in a dystopia
+[02:56.79]Maybe we are choosing to be in a dystopia
 </div>
 </div>
 
@@ -302,13 +302,13 @@ Maybe we are choosing to be in a dystopia
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Why do I have such a strong desire to still be alive?
+[03:09.56]Why do I have such a strong desire to still be alive?
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>核<rt class="furi">かく</rt><rt class="roma">kaku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>成<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>フリージア<rt class="roma">furiijia</rt></ruby>
+[03:16.09]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>核<rt class="furi">かく</rt><rt class="roma">kaku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>成<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>フリージア<rt class="roma">furiijia</rt></ruby>
 </div>
 </div>
 
@@ -321,7 +321,7 @@ Why do I have such a strong desire to still be alive?
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それ<rt class="roma">sore</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
+[03:25.61]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
 </div>
 

@@ -37,7 +37,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Tick tick tack
+[00:12.55]Tick tick tack
 </div>
 </div>
 
@@ -119,7 +119,7 @@ Tick tick tack
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Tick tick tack
+[01:25.15]Tick tick tack
 </div>
 </div>
 
@@ -167,7 +167,7 @@ Tick tick tack
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>大丈夫<rt class="furi">だいじょうぶ</rt><rt class="roma">daijoubu</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>魔法<rt class="furi">まほう</rt><rt class="roma">mahou</rt></ruby><ruby>かけよ<rt class="roma">kakeyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[02:04.46]<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>大丈夫<rt class="furi">だいじょうぶ</rt><rt class="roma">daijoubu</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>魔法<rt class="furi">まほう</rt><rt class="roma">mahou</rt></ruby><ruby>かけよ<rt class="roma">kakeyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
@@ -179,13 +179,13 @@ Tick tick tack
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>また<rt class="roma">mata</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>約束<rt class="furi">やくそく</rt><rt class="roma">yakusoku</rt></ruby>
+[02:10.02]<ruby>また<rt class="roma">mata</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>約束<rt class="furi">やくそく</rt><rt class="roma">yakusoku</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>旅<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>Good luck!
+[02:11.53]<ruby>旅<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>Good luck!
 </div>
 </div>
 
@@ -193,7 +193,7 @@ Tick tick tack
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Tick tick tack
+[02:22.21]Tick tick tack
 </div>
 </div>
 
@@ -213,7 +213,7 @@ Tick tick tack
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>物語<rt class="furi">ものがたり</rt><rt class="roma">monogatari</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
+[02:50.63]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>物語<rt class="furi">ものがたり</rt><rt class="roma">monogatari</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
 </div>
 
@@ -247,31 +247,31 @@ Tick tick tack
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>きゅっと<rt class="roma">kyutto</rt></ruby><ruby>指切<rt class="furi">ゆびき</rt><rt class="roma">yubiki</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[03:13.74]<ruby>きゅっと<rt class="roma">kyutto</rt></ruby><ruby>指切<rt class="furi">ゆびき</rt><rt class="roma">yubiki</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>さめ<rt class="roma">same</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>リズム<rt class="roma">rizumu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[03:15.79]<ruby>さめ<rt class="roma">same</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>リズム<rt class="roma">rizumu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>大丈夫<rt class="furi">だいじょうぶ</rt><rt class="roma">daijoubu</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>魔法<rt class="furi">まほう</rt><rt class="roma">mahou</rt></ruby><ruby>かけよ<rt class="roma">kakeyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[03:17.47]<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>大丈夫<rt class="furi">だいじょうぶ</rt><rt class="roma">daijoubu</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>魔法<rt class="furi">まほう</rt><rt class="roma">mahou</rt></ruby><ruby>かけよ<rt class="roma">kakeyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-TREK TRUNK <ruby>ひとつ<rt class="roma">hitotsu</rt></ruby><ruby>持<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
+[03:20.98]TREK TRUNK <ruby>ひとつ<rt class="roma">hitotsu</rt></ruby><ruby>持<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>また<rt class="roma">mata</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>約束<rt class="furi">やくそく</rt><rt class="roma">yakusoku</rt></ruby>
+[03:22.98]<ruby>また<rt class="roma">mata</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>約束<rt class="furi">やくそく</rt><rt class="roma">yakusoku</rt></ruby>
 </div>
 </div>
 
@@ -285,19 +285,19 @@ TREK TRUNK <ruby>ひとつ<rt class="roma">hitotsu</rt></ruby><ruby>持<rt class
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Tick tick tack
+[03:42.03]Tick tick tack
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Tick tick tack
+[03:45.67]Tick tick tack
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Tick tick tack
+[03:49.46]Tick tick tack
 </div>
 </div>
 

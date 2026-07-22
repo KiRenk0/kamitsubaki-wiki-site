@@ -109,7 +109,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>カタルシス<rt class="roma">katarushisu</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby> <ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>移入<rt class="furi">いにゅう</rt><rt class="roma">inyuu</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃい<rt class="roma">chai</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby>
+[01:15.80]<ruby>カタルシス<rt class="roma">katarushisu</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby> <ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>移入<rt class="furi">いにゅう</rt><rt class="roma">inyuu</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃい<rt class="roma">chai</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby>
 </div>
 </div>
 
@@ -137,7 +137,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
+[01:56.67]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
@@ -209,25 +209,25 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>バタバタ<rt class="roma">batabata</rt></ruby><ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>バタ<rt class="roma">bata</rt></ruby><ruby>足<rt class="furi">あし</rt><rt class="roma">ashi</rt></ruby><ruby>まじり<rt class="roma">majiri</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[02:52.67]<ruby>バタバタ<rt class="roma">batabata</rt></ruby><ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>バタ<rt class="roma">bata</rt></ruby><ruby>足<rt class="furi">あし</rt><rt class="roma">ashi</rt></ruby><ruby>まじり<rt class="roma">majiri</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ジタバタ<rt class="roma">jitabata</rt></ruby><ruby>泳<rt class="furi">およ</rt><rt class="roma">oyo</rt></ruby><ruby>ぐ<rt class="roma">gu</rt></ruby><ruby>バタフライ<rt class="roma">batafurai</rt></ruby>
+[02:55.92]<ruby>ジタバタ<rt class="roma">jitabata</rt></ruby><ruby>泳<rt class="furi">およ</rt><rt class="roma">oyo</rt></ruby><ruby>ぐ<rt class="roma">gu</rt></ruby><ruby>バタフライ<rt class="roma">batafurai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>気取<rt class="furi">きど</rt><rt class="roma">kido</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>溺<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
+[02:58.76]<ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>気取<rt class="furi">きど</rt><rt class="roma">kido</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>溺<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>高笑<rt class="furi">たかわら</rt><rt class="roma">takawara</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>むなしい<rt class="roma">munashii</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[03:02.70]<ruby>高笑<rt class="furi">たかわら</rt><rt class="roma">takawara</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>むなしい<rt class="roma">munashii</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
@@ -259,13 +259,13 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>カタルシス<rt class="roma">katarushisu</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby> <ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>移入<rt class="furi">いにゅう</rt><rt class="roma">inyuu</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃい<rt class="roma">chai</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby>
+[03:20.11]<ruby>カタルシス<rt class="roma">katarushisu</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby> <ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>移入<rt class="furi">いにゅう</rt><rt class="roma">inyuu</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃい<rt class="roma">chai</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>カタルシス<rt class="roma">katarushisu</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby> <ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>移入<rt class="furi">いにゅう</rt><rt class="roma">inyuu</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃい<rt class="roma">chai</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby>
+[03:26.79]<ruby>カタルシス<rt class="roma">katarushisu</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby> <ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>移入<rt class="furi">いにゅう</rt><rt class="roma">inyuu</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃい<rt class="roma">chai</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby>
 </div>
 </div>
 

@@ -222,19 +222,19 @@ Right by, vivo, <ruby>限界<rt class="furi">げんかい</rt><rt class="roma">g
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>不完全<rt class="furi">ふかんぜん</rt><rt class="roma">fukanzen</rt></ruby> <ruby>そう<rt class="roma">sou</rt></ruby><ruby>問題<rt class="furi">もんだい</rt><rt class="roma">mondai</rt></ruby><ruby>外<rt class="furi">がい</rt><rt class="roma">gai</rt></ruby>
+[02:23.17]<ruby>不完全<rt class="furi">ふかんぜん</rt><rt class="roma">fukanzen</rt></ruby> <ruby>そう<rt class="roma">sou</rt></ruby><ruby>問題<rt class="furi">もんだい</rt><rt class="roma">mondai</rt></ruby><ruby>外<rt class="furi">がい</rt><rt class="roma">gai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう<rt class="roma">mou</rt></ruby><ruby>一生<rt class="furi">いっしょう</rt><rt class="roma">isshou</rt></ruby><ruby>どうし<rt class="roma">doushi</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[02:26.89]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>一生<rt class="furi">いっしょう</rt><rt class="roma">isshou</rt></ruby><ruby>どうし<rt class="roma">doushi</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>理想<rt class="furi">りそう</rt><rt class="roma">risou</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>現実<rt class="furi">げんじつ</rt><rt class="roma">genjitsu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
+[02:29.94]<ruby>理想<rt class="furi">りそう</rt><rt class="roma">risou</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>現実<rt class="furi">げんじつ</rt><rt class="roma">genjitsu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 

@@ -34,19 +34,19 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ふけ<rt class="roma">fuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>窓<rt class="furi">まど</rt><rt class="roma">mado</rt></ruby><ruby>しめ<rt class="roma">shime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[00:14.01]<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ふけ<rt class="roma">fuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>窓<rt class="furi">まど</rt><rt class="roma">mado</rt></ruby><ruby>しめ<rt class="roma">shime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>お日様<rt class="furi">おひさま</rt><rt class="roma">ohisama</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>昇<rt class="furi">のぼ</rt><rt class="roma">nobo</rt></ruby><ruby>ったら<rt class="roma">ttara</rt></ruby>
+[00:24.52]<ruby>お日様<rt class="furi">おひさま</rt><rt class="roma">ohisama</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>昇<rt class="furi">のぼ</rt><rt class="roma">nobo</rt></ruby><ruby>ったら<rt class="roma">ttara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>閉<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>まぶしく<rt class="roma">mabushiku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[00:39.66]<ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>閉<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>まぶしく<rt class="roma">mabushiku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
@@ -58,7 +58,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>じゃま<rt class="roma">jama</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
+[00:49.28]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>じゃま<rt class="roma">jama</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
 </div>
 </div>
 
@@ -66,25 +66,25 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>また<rt class="roma">mata</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:54.68]<ruby>また<rt class="roma">mata</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:59.56]<ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:04.80]<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>たのむ<rt class="roma">tanomu</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>なぐさめ<rt class="roma">nagusame</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[01:09.95]<ruby>たのむ<rt class="roma">tanomu</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>なぐさめ<rt class="roma">nagusame</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
@@ -98,19 +98,19 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>秘密<rt class="furi">ひみつ</rt><rt class="roma">himitsu</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> (<ruby>秘密<rt class="furi">ひみつ</rt><rt class="roma">himitsu</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>)
+[01:27.11]<ruby>秘密<rt class="furi">ひみつ</rt><rt class="roma">himitsu</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> (<ruby>秘密<rt class="furi">ひみつ</rt><rt class="roma">himitsu</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>)
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh <ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby> (oh <ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>)
+[01:37.47]Oh <ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby> (oh <ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>)
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>狂<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:41.48]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>狂<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
@@ -118,25 +118,25 @@ Oh <ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>�
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> (<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>)
+[01:47.93]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> (<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>)
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> (<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>)
+[01:53.27]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> (<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>)
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>総理<rt class="furi">そうり</rt><rt class="roma">souri</rt></ruby><ruby>大臣<rt class="furi">だいじん</rt><rt class="roma">daijin</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> (<ruby>総理<rt class="furi">そうり</rt><rt class="roma">souri</rt></ruby><ruby>大臣<rt class="furi">だいじん</rt><rt class="roma">daijin</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>)
+[01:57.43]<ruby>総理<rt class="furi">そうり</rt><rt class="roma">souri</rt></ruby><ruby>大臣<rt class="furi">だいじん</rt><rt class="roma">daijin</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> (<ruby>総理<rt class="furi">そうり</rt><rt class="roma">souri</rt></ruby><ruby>大臣<rt class="furi">だいじん</rt><rt class="roma">daijin</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>)
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>頼<rt class="furi">たよ</rt><rt class="roma">tayo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:02.38]<ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>頼<rt class="furi">たよ</rt><rt class="roma">tayo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
@@ -144,25 +144,25 @@ Oh <ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>�
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>また<rt class="roma">mata</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:07.55]<ruby>また<rt class="roma">mata</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:12.59]<ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:17.77]<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>たのむ<rt class="roma">tanomu</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+[02:23.00]<ruby>たのむ<rt class="roma">tanomu</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 </div>
 
@@ -170,25 +170,25 @@ Oh <ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>�
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>また<rt class="roma">mata</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:28.46]<ruby>また<rt class="roma">mata</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:33.46]<ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:38.53]<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>たのむ<rt class="roma">tanomu</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>なぐさめ<rt class="roma">nagusame</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[02:43.81]<ruby>たのむ<rt class="roma">tanomu</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>なぐさめ<rt class="roma">nagusame</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 

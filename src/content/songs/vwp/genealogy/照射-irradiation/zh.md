@@ -55,7 +55,7 @@ image: /images/songs/vwp/single-1862499284.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
+[00:24.09]<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
 </div>
 </div>
 
@@ -79,13 +79,13 @@ image: /images/songs/vwp/single-1862499284.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
+[00:37.59]<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
+[00:39.45]<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
 </div>
 </div>
 
@@ -218,7 +218,7 @@ image: /images/songs/vwp/single-1862499284.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>過去<rt class="furi">かこ</rt><rt class="roma">kako</rt></ruby> <ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby> <ruby>受容<rt class="furi">じゅよう</rt><rt class="roma">juyou</rt></ruby> <ruby>連結<rt class="furi">れんけつ</rt><rt class="roma">renketsu</rt></ruby>
+[02:29.63]<ruby>過去<rt class="furi">かこ</rt><rt class="roma">kako</rt></ruby> <ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby> <ruby>受容<rt class="furi">じゅよう</rt><rt class="roma">juyou</rt></ruby> <ruby>連結<rt class="furi">れんけつ</rt><rt class="roma">renketsu</rt></ruby>
 </div>
 </div>
 
@@ -240,25 +240,25 @@ image: /images/songs/vwp/single-1862499284.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby> <ruby>照射<rt class="furi">しょうしゃ</rt><rt class="roma">shousha</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>
+[02:40.67]<ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby> <ruby>照射<rt class="furi">しょうしゃ</rt><rt class="roma">shousha</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>映像<rt class="furi">えいぞう</rt><rt class="roma">eizou</rt></ruby> <ruby>ねえ<rt class="roma">nee</rt></ruby>、<ruby>それ<rt class="roma">sore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あたし<rt class="roma">atashi</rt></ruby>？
+[02:48.45]<ruby>映像<rt class="furi">えいぞう</rt><rt class="roma">eizou</rt></ruby> <ruby>ねえ<rt class="roma">nee</rt></ruby>、<ruby>それ<rt class="roma">sore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あたし<rt class="roma">atashi</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>駆<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>巡<rt class="furi">めぐ</rt><rt class="roma">megu</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby> 1<ruby>と<rt class="roma">to</rt></ruby>0<ruby>に<rt class="roma">ni</rt></ruby>
+[02:56.01]<ruby>駆<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>巡<rt class="furi">めぐ</rt><rt class="roma">megu</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby> 1<ruby>と<rt class="roma">to</rt></ruby>0<ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>やどる<rt class="roma">yadoru</rt></ruby> <ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>来<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
+[03:03.68]<ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>やどる<rt class="roma">yadoru</rt></ruby> <ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>来<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
 </div>
 </div>
 
@@ -303,25 +303,25 @@ image: /images/songs/vwp/single-1862499284.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
+[03:43.39]<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
+[03:45.41]<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>反射<rt class="furi">はんしゃ</rt><rt class="roma">hansha</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>あたし<rt class="roma">atashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>？
+[03:47.32]<ruby>反射<rt class="furi">はんしゃ</rt><rt class="roma">hansha</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>あたし<rt class="roma">atashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>すら<rt class="roma">sura</rt></ruby><ruby>握<rt class="furi">にぎ</rt><rt class="roma">nigi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[03:51.23]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>すら<rt class="roma">sura</rt></ruby><ruby>握<rt class="furi">にぎ</rt><rt class="roma">nigi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
@@ -329,25 +329,25 @@ image: /images/songs/vwp/single-1862499284.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
+[03:58.72]<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
+[04:00.70]<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>身体<rt class="furi">しんたい</rt><rt class="roma">shintai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>欲<rt class="furi">ほ</rt><rt class="roma">ho</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>
+[04:02.79]<ruby>身体<rt class="furi">しんたい</rt><rt class="roma">shintai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>欲<rt class="furi">ほ</rt><rt class="roma">ho</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>考<rt class="furi">かんが</rt><rt class="roma">kanga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby> <ruby>たった<rt class="roma">tatta</rt></ruby><ruby>三<rt class="furi">さん</rt><rt class="roma">san</rt></ruby><ruby>秒<rt class="furi">びょう</rt><rt class="roma">byou</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+[04:06.56]<ruby>考<rt class="furi">かんが</rt><rt class="roma">kanga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby> <ruby>たった<rt class="roma">tatta</rt></ruby><ruby>三<rt class="furi">さん</rt><rt class="roma">san</rt></ruby><ruby>秒<rt class="furi">びょう</rt><rt class="roma">byou</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
@@ -355,19 +355,19 @@ image: /images/songs/vwp/single-1862499284.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
+[04:14.56]<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
+[04:16.74]<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
+[04:22.92]<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
 </div>
 </div>
 

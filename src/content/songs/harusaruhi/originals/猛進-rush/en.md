@@ -255,25 +255,25 @@ image: /images/albums/harusaruhi/shingan.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>世界中<rt class="furi">せかいじゅう</rt><rt class="roma">sekaijuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>振り撒<rt class="furi">ふりま</rt><rt class="roma">furima</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>「<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby>」
+[01:24.49]<ruby>世界中<rt class="furi">せかいじゅう</rt><rt class="roma">sekaijuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>振り撒<rt class="furi">ふりま</rt><rt class="roma">furima</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>「<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あり<rt class="roma">ari</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>「<ruby>正解<rt class="furi">せいかい</rt><rt class="roma">seikai</rt></ruby>」
+[01:26.45]<ruby>あり<rt class="roma">ari</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>「<ruby>正解<rt class="furi">せいかい</rt><rt class="roma">seikai</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>取<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>っ<rt class="roma"></rt></ruby><ruby>払<rt class="furi">はら</rt><rt class="roma">hara</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>警戒<rt class="furi">けいかい</rt><rt class="roma">keikai</rt></ruby>
+[01:28.48]<ruby>取<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>っ<rt class="roma"></rt></ruby><ruby>払<rt class="furi">はら</rt><rt class="roma">hara</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>警戒<rt class="furi">けいかい</rt><rt class="roma">keikai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>上昇<rt class="furi">じょうしょう</rt><rt class="roma">joushou</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby> Stay high!
+[01:29.89]<ruby>上昇<rt class="furi">じょうしょう</rt><rt class="roma">joushou</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby> Stay high!
 </div>
 </div>
 
@@ -311,25 +311,25 @@ image: /images/albums/harusaruhi/shingan.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いや<rt class="roma">iya</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>まっちゃ<rt class="roma">matcha</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[01:54.94]<ruby>いや<rt class="roma">iya</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>まっちゃ<rt class="roma">matcha</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>沈<rt class="furi">しず</rt><rt class="roma">shizu</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>まだ<rt class="roma">mada</rt></ruby><ruby>小<rt class="furi">ちい</rt><rt class="roma">chii</rt></ruby><ruby>さい<rt class="roma">sai</rt></ruby>
+[01:56.88]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>沈<rt class="furi">しず</rt><rt class="roma">shizu</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>まだ<rt class="roma">mada</rt></ruby><ruby>小<rt class="furi">ちい</rt><rt class="roma">chii</rt></ruby><ruby>さい<rt class="roma">sai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>無限<rt class="furi">むげん</rt><rt class="roma">mugen</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>情熱<rt class="furi">じょうねつ</rt><rt class="roma">jounetsu</rt></ruby> <ruby>吐<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[01:58.24]<ruby>無限<rt class="furi">むげん</rt><rt class="roma">mugen</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>情熱<rt class="furi">じょうねつ</rt><rt class="roma">jounetsu</rt></ruby> <ruby>吐<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>辿<rt class="furi">たど</rt><rt class="roma">tado</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>着<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby> <ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>千<rt class="furi">せん</rt><rt class="roma">sen</rt></ruby><ruby>回<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby>？
+[02:00.91]<ruby>辿<rt class="furi">たど</rt><rt class="roma">tado</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>着<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby> <ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>千<rt class="furi">せん</rt><rt class="roma">sen</rt></ruby><ruby>回<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby>？
 </div>
 </div>
 
@@ -337,25 +337,25 @@ image: /images/albums/harusaruhi/shingan.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>世界中<rt class="furi">せかいじゅう</rt><rt class="roma">sekaijuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>振り撒<rt class="furi">ふりま</rt><rt class="roma">furima</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>「<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby>」
+[02:02.87]<ruby>世界中<rt class="furi">せかいじゅう</rt><rt class="roma">sekaijuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>振り撒<rt class="furi">ふりま</rt><rt class="roma">furima</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>「<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あり<rt class="roma">ari</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>「<ruby>正解<rt class="furi">せいかい</rt><rt class="roma">seikai</rt></ruby>」
+[02:04.52]<ruby>あり<rt class="roma">ari</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>「<ruby>正解<rt class="furi">せいかい</rt><rt class="roma">seikai</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>取<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>っ<rt class="roma"></rt></ruby><ruby>払<rt class="furi">はら</rt><rt class="roma">hara</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>警戒<rt class="furi">けいかい</rt><rt class="roma">keikai</rt></ruby>
+[02:06.52]<ruby>取<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>っ<rt class="roma"></rt></ruby><ruby>払<rt class="furi">はら</rt><rt class="roma">hara</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>警戒<rt class="furi">けいかい</rt><rt class="roma">keikai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>上昇<rt class="furi">じょうしょう</rt><rt class="roma">joushou</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby> Stay high!
+[02:08.54]<ruby>上昇<rt class="furi">じょうしょう</rt><rt class="roma">joushou</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby> Stay high!
 </div>
 </div>
 

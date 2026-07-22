@@ -73,7 +73,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ダンダラ<rt class="roma">dandara</rt></ruby> <ruby>ダ<rt class="roma">da</rt></ruby> <ruby>ダ<rt class="roma">da</rt></ruby> <ruby>ダンダラ<rt class="roma">dandara</rt></ruby>
+[00:40.40]<ruby>ダンダラ<rt class="roma">dandara</rt></ruby> <ruby>ダ<rt class="roma">da</rt></ruby> <ruby>ダ<rt class="roma">da</rt></ruby> <ruby>ダンダラ<rt class="roma">dandara</rt></ruby>
 </div>
 </div>
 
@@ -217,19 +217,19 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ダンダラ<rt class="roma">dandara</rt></ruby> <ruby>ダ<rt class="roma">da</rt></ruby> <ruby>ダ<rt class="roma">da</rt></ruby> <ruby>ダンダラ<rt class="roma">dandara</rt></ruby>
+[02:18.48]<ruby>ダンダラ<rt class="roma">dandara</rt></ruby> <ruby>ダ<rt class="roma">da</rt></ruby> <ruby>ダ<rt class="roma">da</rt></ruby> <ruby>ダンダラ<rt class="roma">dandara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ダンダラ<rt class="roma">dandara</rt></ruby> <ruby>ダ<rt class="roma">da</rt></ruby> <ruby>ダ<rt class="roma">da</rt></ruby> <ruby>ダンダラ<rt class="roma">dandara</rt></ruby>
+[02:20.93]<ruby>ダンダラ<rt class="roma">dandara</rt></ruby> <ruby>ダ<rt class="roma">da</rt></ruby> <ruby>ダ<rt class="roma">da</rt></ruby> <ruby>ダンダラ<rt class="roma">dandara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ダンダラ<rt class="roma">dandara</rt></ruby> <ruby>ダ<rt class="roma">da</rt></ruby> <ruby>ダ<rt class="roma">da</rt></ruby> <ruby>ダンダラ<rt class="roma">dandara</rt></ruby>
+[02:24.16]<ruby>ダンダラ<rt class="roma">dandara</rt></ruby> <ruby>ダ<rt class="roma">da</rt></ruby> <ruby>ダ<rt class="roma">da</rt></ruby> <ruby>ダンダラ<rt class="roma">dandara</rt></ruby>
 </div>
 </div>
 
@@ -241,7 +241,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ダンダラボッチ<rt class="roma">dandarabotchi</rt></ruby><ruby>転<rt class="furi">ころ</rt><rt class="roma">koro</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby> <ruby>どっち<rt class="roma">dotchi</rt></ruby>
+[02:31.48]<ruby>ダンダラボッチ<rt class="roma">dandarabotchi</rt></ruby><ruby>転<rt class="furi">ころ</rt><rt class="roma">koro</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby> <ruby>どっち<rt class="roma">dotchi</rt></ruby>
 </div>
 </div>
 
@@ -259,7 +259,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>なん<rt class="roma">nan</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>ぼっち<rt class="roma">botchi</rt></ruby><ruby>望<rt class="furi">のぞ</rt><rt class="roma">nozo</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby> Dodge
+[02:40.46]<ruby>なん<rt class="roma">nan</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>ぼっち<rt class="roma">botchi</rt></ruby><ruby>望<rt class="furi">のぞ</rt><rt class="roma">nozo</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby> Dodge
 </div>
 </div>
 

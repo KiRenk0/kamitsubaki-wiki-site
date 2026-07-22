@@ -317,13 +317,13 @@ image: /images/albums/kaf/maho.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>モンタージュ<rt class="roma">montaaju</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>かかった<rt class="roma">kakatta</rt></ruby>
+[02:21.82]<ruby>モンタージュ<rt class="roma">montaaju</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>かかった<rt class="roma">kakatta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どの<rt class="roma">dono</rt></ruby><ruby>部分<rt class="furi">ぶぶん</rt><rt class="roma">bubun</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
+[02:23.17]<ruby>どの<rt class="roma">dono</rt></ruby><ruby>部分<rt class="furi">ぶぶん</rt><rt class="roma">bubun</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
 </div>
 
@@ -352,13 +352,13 @@ image: /images/albums/kaf/maho.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>モンタージュ<rt class="roma">montaaju</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>かかった<rt class="roma">kakatta</rt></ruby>
+[02:49.91]<ruby>モンタージュ<rt class="roma">montaaju</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>かかった<rt class="roma">kakatta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どの<rt class="roma">dono</rt></ruby><ruby>部分<rt class="furi">ぶぶん</rt><rt class="roma">bubun</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
+[02:51.26]<ruby>どの<rt class="roma">dono</rt></ruby><ruby>部分<rt class="furi">ぶぶん</rt><rt class="roma">bubun</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
 </div>
 

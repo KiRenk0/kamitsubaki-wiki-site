@@ -175,13 +175,13 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[01:18.56]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
+[01:21.86]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
 </div>
 
@@ -237,13 +237,13 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[02:07.48]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
+[02:10.63]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
 </div>
 
@@ -267,13 +267,13 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[02:19.31]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[02:22.68]<ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
 </div>
 
@@ -297,13 +297,13 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[02:31.53]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
+[02:34.82]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
 </div>
 
@@ -327,13 +327,13 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[03:10.31]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
+[03:13.43]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
 </div>
 
@@ -357,13 +357,13 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[03:22.32]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[03:25.62]<ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
 </div>
 
@@ -387,13 +387,13 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[03:34.50]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
+[03:37.83]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
 </div>
 

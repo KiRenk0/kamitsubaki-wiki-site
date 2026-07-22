@@ -175,7 +175,7 @@ image: /images/songs/isekaijoucho/single-1772840925.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>素敵<rt class="furi">すてき</rt><rt class="roma">suteki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>あり<rt class="roma">ari</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[01:49.78]<ruby>素敵<rt class="furi">すてき</rt><rt class="roma">suteki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>あり<rt class="roma">ari</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
@@ -299,13 +299,13 @@ image: /images/songs/isekaijoucho/single-1772840925.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>また<rt class="roma">mata</rt></ruby> <ruby>は<rt class="roma">wa</rt></ruby> <ruby>破裂<rt class="furi">はれつ</rt><rt class="roma">haretsu</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ときめき<rt class="roma">tokimeki</rt></ruby>
+[03:02.13]<ruby>また<rt class="roma">mata</rt></ruby> <ruby>は<rt class="roma">wa</rt></ruby> <ruby>破裂<rt class="furi">はれつ</rt><rt class="roma">haretsu</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ときめき<rt class="roma">tokimeki</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-1000<ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+[03:07.89]1000<ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
 </div>
 
@@ -325,13 +325,13 @@ image: /images/songs/isekaijoucho/single-1772840925.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>不幸<rt class="furi">ふしあわ</rt><rt class="roma">fushiawa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
+[03:16.66]<ruby>不幸<rt class="furi">ふしあわ</rt><rt class="roma">fushiawa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+[03:19.96]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 

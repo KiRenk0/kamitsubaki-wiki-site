@@ -160,7 +160,7 @@ Departures ~あなたにおくるアイの歌~ appears on CREAM PUFF LIVE 2 or a
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[02:02.95]<ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
@@ -205,7 +205,7 @@ Departures ~あなたにおくるアイの歌~ appears on CREAM PUFF LIVE 2 or a
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[02:59.72]<ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 

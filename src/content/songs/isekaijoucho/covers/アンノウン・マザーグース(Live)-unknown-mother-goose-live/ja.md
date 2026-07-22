@@ -149,7 +149,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
+[01:29.52]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
 </div>
 
@@ -371,13 +371,13 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
+[03:28.49]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
+[03:30.69]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
 </div>
 

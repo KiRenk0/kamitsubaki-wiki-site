@@ -100,7 +100,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>うんざり<rt class="roma">unzari</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby>
+[01:16.65]<ruby>うんざり<rt class="roma">unzari</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby>
 </div>
 </div>
 
@@ -175,7 +175,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>うんざり<rt class="roma">unzari</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby>
+[02:19.21]<ruby>うんざり<rt class="roma">unzari</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby>
 </div>
 </div>
 
@@ -209,49 +209,49 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ブランド<rt class="roma">burando</rt></ruby><ruby>着<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>やつ<rt class="roma">yatsu</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby> Good night
+[02:36.61]<ruby>ブランド<rt class="roma">burando</rt></ruby><ruby>着<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>やつ<rt class="roma">yatsu</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby> Good night
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-M<ruby>で<rt class="roma">de</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby><ruby>やつ<rt class="roma">yatsu</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby> Good night
+[02:40.57]M<ruby>で<rt class="roma">de</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby><ruby>やつ<rt class="roma">yatsu</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby> Good night
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>頭<rt class="furi">あたま</rt><rt class="roma">atama</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>やつ<rt class="roma">yatsu</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby> Good night
+[02:44.38]<ruby>頭<rt class="furi">あたま</rt><rt class="roma">atama</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>やつ<rt class="roma">yatsu</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby> Good night
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>広<rt class="furi">ひろ</rt><rt class="roma">hiro</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>浅<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>やつ<rt class="roma">yatsu</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby> Good night
+[02:48.24]<ruby>広<rt class="furi">ひろ</rt><rt class="roma">hiro</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>浅<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>やつ<rt class="roma">yatsu</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby> Good night
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Stay tune in <ruby>東京<rt class="furi">とうきょう</rt><rt class="roma">toukyou</rt></ruby> Friday night
+[02:52.96]Stay tune in <ruby>東京<rt class="furi">とうきょう</rt><rt class="roma">toukyou</rt></ruby> Friday night
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh Good time <ruby>癒<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> like The “Dead rising” soon
+[03:02.97]Oh Good time <ruby>癒<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> like The “Dead rising” soon
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-23 Haunted now the time
+[03:08.57]23 Haunted now the time
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-“SAT” Scramble comin'
+[03:16.28]“SAT” Scramble comin'
 </div>
 </div>
 

@@ -143,13 +143,13 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Good night
+[01:22.29]Good night
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Good night, good night, good night, good night
+[01:27.26]Good night, good night, good night, good night
 </div>
 </div>
 
@@ -207,31 +207,31 @@ Good night, good night, good night, good night
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Good night
+[01:52.21]Good night
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Good night, good night, good night, good night
+[01:57.26]Good night, good night, good night, good night
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Good night
+[02:02.18]Good night
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Good night, good night, good night, good night
+[02:07.26]Good night, good night, good night, good night
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Good night
+[02:12.25]Good night
 </div>
 </div>
 
@@ -339,43 +339,43 @@ Good night
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Good night
+[03:32.24]Good night
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Good night, good night, good night, good night
+[03:37.10]Good night, good night, good night, good night
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Good night
+[03:42.10]Good night
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Good night, good night, good night, good night
+[03:47.21]Good night, good night, good night, good night
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Good night
+[03:52.12]Good night
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Good night, good night, good night, good night
+[03:57.13]Good night, good night, good night, good night
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Good night
+[04:02.29]Good night
 </div>
 </div>
 

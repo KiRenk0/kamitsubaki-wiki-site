@@ -247,7 +247,7 @@ image: /images/albums/koko/prayer-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ありがとう<rt class="roma">arigatou</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>お陰様<rt class="furi">おかげさま</rt><rt class="roma">okagesama</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[01:50.54]<ruby>ありがとう<rt class="roma">arigatou</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>お陰様<rt class="furi">おかげさま</rt><rt class="roma">okagesama</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
@@ -290,13 +290,13 @@ image: /images/albums/koko/prayer-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>重<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>傾<rt class="furi">かたむ</rt><rt class="roma">katamu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[02:10.83]<ruby>重<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>傾<rt class="furi">かたむ</rt><rt class="roma">katamu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>かけがえ<rt class="roma">kakegae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+[02:14.98]<ruby>かけがえ<rt class="roma">kakegae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 </div>
 
@@ -350,7 +350,7 @@ image: /images/albums/koko/prayer-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>は<rt class="roma">ha</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>気付<rt class="furi">きづ</rt><rt class="roma">kizu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[02:49.52]<ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>は<rt class="roma">ha</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>気付<rt class="furi">きづ</rt><rt class="roma">kizu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 

@@ -48,19 +48,19 @@ image: /images/songs/vwp/single-1690114244.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-V.W.P
+[00:04.04]V.W.P
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-V.W.P
+[00:06.85]V.W.P
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-V.W.P
+[00:09.58]V.W.P
 </div>
 </div>
 
@@ -269,7 +269,7 @@ V.W.P
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>テステスマイクチェック<rt class="roma">tesutesumaikuchekku</rt></ruby> <ruby>ワンツー<rt class="roma">wantsuu</rt></ruby>？
+[01:57.99]<ruby>テステスマイクチェック<rt class="roma">tesutesumaikuchekku</rt></ruby> <ruby>ワンツー<rt class="roma">wantsuu</rt></ruby>？
 </div>
 </div>
 
@@ -486,7 +486,7 @@ V.W.P
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> V.W.P
+[03:32.99]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> V.W.P
 </div>
 </div>
 

@@ -34,13 +34,13 @@ image: /images/albums/rim/chocolate-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(All my love, said it don't)
+[00:04.20](All my love, said it don't)
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(All my love, said it don't)
+[00:06.88](All my love, said it don't)
 </div>
 </div>
 
@@ -176,7 +176,7 @@ image: /images/albums/rim/chocolate-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Ha-ha-ha-ha-ha-ha
+[01:44.08]Ha-ha-ha-ha-ha-ha
 </div>
 </div>
 
@@ -190,13 +190,13 @@ Ha-ha-ha-ha-ha-ha
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>洗剤<rt class="furi">せんざい</rt><rt class="roma">senzai</rt></ruby><ruby>食<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>らって<rt class="roma">ratte</rt></ruby><ruby>睫毛<rt class="furi">まつげ</rt><rt class="roma">matsuge</rt></ruby><ruby>乾<rt class="furi">かわ</rt><rt class="roma">kawa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>？ No<ruby>で<rt class="roma">de</rt></ruby>no<ruby>で<rt class="roma">de</rt></ruby>no
+[01:49.86]<ruby>洗剤<rt class="furi">せんざい</rt><rt class="roma">senzai</rt></ruby><ruby>食<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>らって<rt class="roma">ratte</rt></ruby><ruby>睫毛<rt class="furi">まつげ</rt><rt class="roma">matsuge</rt></ruby><ruby>乾<rt class="furi">かわ</rt><rt class="roma">kawa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>？ No<ruby>で<rt class="roma">de</rt></ruby>no<ruby>で<rt class="roma">de</rt></ruby>no
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh-oh-oh-oh
+[01:54.33]Oh-oh-oh-oh
 </div>
 </div>
 
@@ -216,19 +216,19 @@ Oh-oh-oh-oh
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Lonely? <ruby>浪人<rt class="furi">ろうにん</rt><rt class="roma">rounin</rt></ruby>？ Morning? Sorry? <ruby>苦労人<rt class="furi">くろうにん</rt><rt class="roma">kurounin</rt></ruby>？ <ruby>病人<rt class="furi">びょうにん</rt><rt class="roma">byounin</rt></ruby>？ <ruby>考<rt class="furi">かんが</rt><rt class="roma">kanga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+[02:05.67]Lonely? <ruby>浪人<rt class="furi">ろうにん</rt><rt class="roma">rounin</rt></ruby>？ Morning? Sorry? <ruby>苦労人<rt class="furi">くろうにん</rt><rt class="roma">kurounin</rt></ruby>？ <ruby>病人<rt class="furi">びょうにん</rt><rt class="roma">byounin</rt></ruby>？ <ruby>考<rt class="furi">かんが</rt><rt class="roma">kanga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-A-a-alalala-ta, tu-ru, la-a-a-a-alalala-ta
+[02:11.35]A-a-alalala-ta, tu-ru, la-a-a-a-alalala-ta
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh <ruby>思い出<rt class="furi">おもいだ</rt><rt class="roma">omoida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>魚<rt class="furi">さかな</rt><rt class="roma">sakana</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>眼<rt class="furi">め</rt><rt class="roma">me</rt></ruby> oh <ruby>それとなく<rt class="roma">soretonaku</rt></ruby><ruby>キルミー<rt class="roma">kirumii</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>！
+[02:15.69]Oh <ruby>思い出<rt class="furi">おもいだ</rt><rt class="roma">omoida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>魚<rt class="furi">さかな</rt><rt class="roma">sakana</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>眼<rt class="furi">め</rt><rt class="roma">me</rt></ruby> oh <ruby>それとなく<rt class="roma">soretonaku</rt></ruby><ruby>キルミー<rt class="roma">kirumii</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>！
 </div>
 </div>
 

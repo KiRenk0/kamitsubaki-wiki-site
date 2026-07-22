@@ -275,7 +275,7 @@ image: /images/songs/isekaijoucho/single-1765250905.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ゆけ<rt class="roma">yuke</rt></ruby>
+[02:32.15]<ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ゆけ<rt class="roma">yuke</rt></ruby>
 </div>
 </div>
 
@@ -295,13 +295,13 @@ image: /images/songs/isekaijoucho/single-1765250905.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>風景<rt class="furi">ふうけい</rt><rt class="roma">fuukei</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+[02:42.88]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>風景<rt class="furi">ふうけい</rt><rt class="roma">fuukei</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>春<rt class="furi">はる</rt><rt class="roma">haru</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>芽吹<rt class="furi">めぶ</rt><rt class="roma">mebu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[02:45.19]<ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>春<rt class="furi">はる</rt><rt class="roma">haru</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>芽吹<rt class="furi">めぶ</rt><rt class="roma">mebu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
@@ -314,7 +314,7 @@ image: /images/songs/isekaijoucho/single-1765250905.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Rest in my heart
+[02:56.91]Rest in my heart
 </div>
 </div>
 

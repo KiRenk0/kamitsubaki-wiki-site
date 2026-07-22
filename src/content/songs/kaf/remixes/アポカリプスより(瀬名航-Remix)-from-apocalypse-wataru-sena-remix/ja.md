@@ -271,37 +271,37 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ユーフォリア<rt class="roma">yuufuoria</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>麻酔<rt class="furi">ますい</rt><rt class="roma">masui</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[02:34.01]<ruby>ユーフォリア<rt class="roma">yuufuoria</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>麻酔<rt class="furi">ますい</rt><rt class="roma">masui</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>苦<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>しみ<rt class="roma">shimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>殺<rt class="furi">ころ</rt><rt class="roma">koro</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>せい<rt class="roma">sei</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:39.16]<ruby>苦<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>しみ<rt class="roma">shimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>殺<rt class="furi">ころ</rt><rt class="roma">koro</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>せい<rt class="roma">sei</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+[02:42.29]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ねえ<rt class="roma">nee</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>撃ち抜<rt class="furi">うちぬ</rt><rt class="roma">uchinu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[02:44.56]<ruby>ねえ<rt class="roma">nee</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>撃ち抜<rt class="furi">うちぬ</rt><rt class="roma">uchinu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>運命<rt class="furi">うんめい</rt><rt class="roma">unmei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>抗<rt class="furi">あらが</rt><rt class="roma">araga</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby>
+[02:49.63]<ruby>運命<rt class="furi">うんめい</rt><rt class="roma">unmei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>抗<rt class="furi">あらが</rt><rt class="roma">araga</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>強<rt class="furi">つよ</rt><rt class="roma">tsuyo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby>
+[02:52.31]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>強<rt class="furi">つよ</rt><rt class="roma">tsuyo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby>
 </div>
 </div>
 

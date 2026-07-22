@@ -47,25 +47,25 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>指<rt class="furi">ゆび</rt><rt class="roma">yubi</rt></ruby><ruby>差<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>場所<rt class="furi">ばしょ</rt><rt class="roma">basho</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ノリ<rt class="roma">nori</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>go
+[00:19.26]<ruby>指<rt class="furi">ゆび</rt><rt class="roma">yubi</rt></ruby><ruby>差<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>場所<rt class="furi">ばしょ</rt><rt class="roma">basho</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ノリ<rt class="roma">nori</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>go
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>疲<rt class="furi">つか</rt><rt class="roma">tsuka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>結構<rt class="furi">けっこう</rt><rt class="roma">kekkou</rt></ruby>
+[00:21.91]<ruby>疲<rt class="furi">つか</rt><rt class="roma">tsuka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>結構<rt class="furi">けっこう</rt><rt class="roma">kekkou</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>なら<rt class="roma">nara</rt></ruby><ruby>全力<rt class="furi">ぜんりょく</rt><rt class="roma">zenryoku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>はしゃご<rt class="roma">hashago</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[00:23.53]<ruby>なら<rt class="roma">nara</rt></ruby><ruby>全力<rt class="furi">ぜんりょく</rt><rt class="roma">zenryoku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>はしゃご<rt class="roma">hashago</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>飛行機<rt class="furi">ひこうき</rt><rt class="roma">hikouki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>こわい<rt class="roma">kowai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[00:25.72]<ruby>飛行機<rt class="furi">ひこうき</rt><rt class="roma">hikouki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>こわい<rt class="roma">kowai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
 </div>
 
@@ -83,31 +83,31 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>まだ<rt class="roma">mada</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>その<rt class="roma">sono</rt></ruby><ruby>街<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
+[00:36.39]<ruby>まだ<rt class="roma">mada</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>その<rt class="roma">sono</rt></ruby><ruby>街<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-（<ruby>山<rt class="furi">やま</rt><rt class="roma">yama</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>海<rt class="furi">うみ</rt><rt class="roma">umi</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>）
+[00:39.98]（<ruby>山<rt class="furi">やま</rt><rt class="roma">yama</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>海<rt class="furi">うみ</rt><rt class="roma">umi</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>）
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Trip Trip Trip
+[00:43.44]Trip Trip Trip
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>たまに<rt class="roma">tamani</rt></ruby><ruby>気晴<rt class="furi">きば</rt><rt class="roma">kiba</rt></ruby><ruby>らし<rt class="roma">rashi</rt></ruby><ruby>リフレッシュ<rt class="roma">rifuresshu</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[00:44.73]<ruby>たまに<rt class="roma">tamani</rt></ruby><ruby>気晴<rt class="furi">きば</rt><rt class="roma">kiba</rt></ruby><ruby>らし<rt class="roma">rashi</rt></ruby><ruby>リフレッシュ<rt class="roma">rifuresshu</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-（<ruby>さあ<rt class="roma">saa</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べよ<rt class="roma">beyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>）
+[00:48.66]（<ruby>さあ<rt class="roma">saa</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べよ<rt class="roma">beyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>）
 </div>
 </div>
 

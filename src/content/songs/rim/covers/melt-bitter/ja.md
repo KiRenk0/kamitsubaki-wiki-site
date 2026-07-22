@@ -162,7 +162,7 @@ image: /images/albums/rim/chocolate-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby> <ruby>愛<rt class="furi">いと</rt><rt class="roma">ito</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>
+[01:38.92]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby> <ruby>愛<rt class="furi">いと</rt><rt class="roma">ito</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>
 </div>
 </div>
 

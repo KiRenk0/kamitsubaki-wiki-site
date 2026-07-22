@@ -134,7 +134,7 @@ image: /images/albums/rim/chocolate-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>コールドフィンガーガール<rt class="roma">kourudofyingaagaaru</rt></ruby> <ruby>コールドフィンガーガール<rt class="roma">kourudofyingaagaaru</rt></ruby>
+[01:46.41]<ruby>コールドフィンガーガール<rt class="roma">kourudofyingaagaaru</rt></ruby> <ruby>コールドフィンガーガール<rt class="roma">kourudofyingaagaaru</rt></ruby>
 </div>
 </div>
 
@@ -161,43 +161,43 @@ image: /images/albums/rim/chocolate-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ショッキング<rt class="roma">shokkingu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>ブラッディピクチュアー<rt class="roma">buraddeipikuchuaa</rt></ruby>
+[02:37.76]<ruby>ショッキング<rt class="roma">shokkingu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>ブラッディピクチュアー<rt class="roma">buraddeipikuchuaa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>吐き気<rt class="furi">はきけ</rt><rt class="roma">hakike</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くる<rt class="roma">kuru</rt></ruby>
+[02:42.76]<ruby>吐き気<rt class="furi">はきけ</rt><rt class="roma">hakike</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くる<rt class="roma">kuru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あ<rt class="roma">a</rt></ruby><ruby>たま<rt class="roma">tama</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>かかえ<rt class="roma">kakae</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>地下鉄<rt class="furi">ちかてつ</rt><rt class="roma">chikatetsu</rt></ruby> <ruby>乗り込<rt class="furi">のりこ</rt><rt class="roma">noriko</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby>
+[02:48.05]<ruby>あ<rt class="roma">a</rt></ruby><ruby>たま<rt class="roma">tama</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>かかえ<rt class="roma">kakae</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>地下鉄<rt class="furi">ちかてつ</rt><rt class="roma">chikatetsu</rt></ruby> <ruby>乗り込<rt class="furi">のりこ</rt><rt class="roma">noriko</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>正<rt class="furi">ただ</rt><rt class="roma">tada</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>生き方<rt class="furi">いきかた</rt><rt class="roma">ikikata</rt></ruby> <ruby>正<rt class="furi">ただ</rt><rt class="roma">tada</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>方<rt class="furi">かた</rt><rt class="roma">kata</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
+[02:58.11]<ruby>正<rt class="furi">ただ</rt><rt class="roma">tada</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>生き方<rt class="furi">いきかた</rt><rt class="roma">ikikata</rt></ruby> <ruby>正<rt class="furi">ただ</rt><rt class="roma">tada</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>方<rt class="furi">かた</rt><rt class="roma">kata</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いったい<rt class="roma">ittai</rt></ruby><ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>いったい<rt class="roma">ittai</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>教<rt class="furi">おし</rt><rt class="roma">oshi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くれる<rt class="roma">kureru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[03:08.57]<ruby>いったい<rt class="roma">ittai</rt></ruby><ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>いったい<rt class="roma">ittai</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>教<rt class="furi">おし</rt><rt class="roma">oshi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くれる<rt class="roma">kureru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>コールドフィンガーガール<rt class="roma">kourudofyingaagaaru</rt></ruby> <ruby>コールドフィンガーガール<rt class="roma">kourudofyingaagaaru</rt></ruby>
+[03:18.92]<ruby>コールドフィンガーガール<rt class="roma">kourudofyingaagaaru</rt></ruby> <ruby>コールドフィンガーガール<rt class="roma">kourudofyingaagaaru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>コールドフィンガーガール<rt class="roma">kourudofyingaagaaru</rt></ruby> <ruby>コールドフィンガーガール<rt class="roma">kourudofyingaagaaru</rt></ruby>
+[03:24.19]<ruby>コールドフィンガーガール<rt class="roma">kourudofyingaagaaru</rt></ruby> <ruby>コールドフィンガーガール<rt class="roma">kourudofyingaagaaru</rt></ruby>
 </div>
 </div>
 

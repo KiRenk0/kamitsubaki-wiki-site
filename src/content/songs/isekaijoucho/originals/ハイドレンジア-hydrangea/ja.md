@@ -65,25 +65,25 @@ image: /images/albums/isekaijoucho/sousei.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>空白<rt class="furi">くうはく</rt><rt class="roma">kuuhaku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>埋<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>度<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby>
+[00:29.56]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>空白<rt class="furi">くうはく</rt><rt class="roma">kuuhaku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>埋<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>度<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>推測<rt class="furi">すいそく</rt><rt class="roma">suisoku</rt></ruby><ruby>断<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>教<rt class="furi">おし</rt><rt class="roma">oshi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[00:33.27]<ruby>推測<rt class="furi">すいそく</rt><rt class="roma">suisoku</rt></ruby><ruby>断<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>教<rt class="furi">おし</rt><rt class="roma">oshi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>空白<rt class="furi">くうはく</rt><rt class="roma">kuuhaku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>埋<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>度<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby>
+[00:36.69]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>空白<rt class="furi">くうはく</rt><rt class="roma">kuuhaku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>埋<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>度<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>痛覚<rt class="furi">つうかく</rt><rt class="roma">tsuukaku</rt></ruby><ruby>立<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>教<rt class="furi">おし</rt><rt class="roma">oshi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[00:39.98]<ruby>痛覚<rt class="furi">つうかく</rt><rt class="roma">tsuukaku</rt></ruby><ruby>立<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>教<rt class="furi">おし</rt><rt class="roma">oshi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
@@ -267,13 +267,13 @@ image: /images/albums/isekaijoucho/sousei.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>楽<rt class="furi">たの</rt><rt class="roma">tano</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>、<ruby>正<rt class="furi">ただ</rt><rt class="roma">tada</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
+[02:54.08]<ruby>楽<rt class="furi">たの</rt><rt class="roma">tano</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>、<ruby>正<rt class="furi">ただ</rt><rt class="roma">tada</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>愛憎<rt class="furi">あいぞう</rt><rt class="roma">aizou</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>覚<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
+[02:57.05]<ruby>愛憎<rt class="furi">あいぞう</rt><rt class="roma">aizou</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>覚<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 </div>
 
@@ -343,7 +343,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いい<rt class="roma">ii</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
+[03:51.23]<ruby>いい<rt class="roma">ii</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
 </div>
 

@@ -144,43 +144,43 @@ L4DY (Live Cover) appears on CHOCOLATE LIVE4 or a related official release. Entr
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh Lady,Oh Baby
+[00:47.91]Oh Lady,Oh Baby
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「<ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>」<ruby>って<rt class="roma">tte</rt></ruby>
+[00:50.06]「<ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>」<ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>飲み込<rt class="furi">のみこ</rt><rt class="roma">nomiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
+[00:52.34]<ruby>飲み込<rt class="furi">のみこ</rt><rt class="roma">nomiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Lady,Oh Baby
+[00:56.15]Lady,Oh Baby
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby>
+[00:57.88]<ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>掌<rt class="furi">てのひら</rt><rt class="roma">tenohira</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>わせ<rt class="roma">wase</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
+[01:00.08]<ruby>掌<rt class="furi">てのひら</rt><rt class="roma">tenohira</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>わせ<rt class="roma">wase</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>明<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>かそ<rt class="roma">kaso</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[01:02.25]<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>明<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>かそ<rt class="roma">kaso</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
@@ -228,43 +228,43 @@ Lady,Oh Baby
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh Lady,Oh Baby
+[01:39.18]Oh Lady,Oh Baby
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「<ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>」<ruby>って<rt class="roma">tte</rt></ruby>
+[01:41.12]「<ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>」<ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>飲み込<rt class="furi">のみこ</rt><rt class="roma">nomiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
+[01:43.26]<ruby>飲み込<rt class="furi">のみこ</rt><rt class="roma">nomiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Lady,Oh Baby
+[01:47.21]Lady,Oh Baby
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby>
+[01:48.97]<ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>掌<rt class="furi">てのひら</rt><rt class="roma">tenohira</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>わせ<rt class="roma">wase</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
+[01:51.13]<ruby>掌<rt class="furi">てのひら</rt><rt class="roma">tenohira</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>わせ<rt class="roma">wase</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>明<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>かそ<rt class="roma">kaso</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[01:53.56]<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>明<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>かそ<rt class="roma">kaso</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
@@ -298,37 +298,37 @@ Lady,Oh Baby
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh Lady,Oh Baby
+[02:10.43]Oh Lady,Oh Baby
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「<ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>」<ruby>って<rt class="roma">tte</rt></ruby>
+[02:12.57]「<ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>」<ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>飲み込<rt class="furi">のみこ</rt><rt class="roma">nomiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
+[02:14.82]<ruby>飲み込<rt class="furi">のみこ</rt><rt class="roma">nomiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Lady,Oh Baby
+[02:18.74]Lady,Oh Baby
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby>
+[02:20.45]<ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>掌<rt class="furi">てのひら</rt><rt class="roma">tenohira</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>わせ<rt class="roma">wase</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
+[02:22.54]<ruby>掌<rt class="furi">てのひら</rt><rt class="roma">tenohira</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>わせ<rt class="roma">wase</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
 </div>
 

@@ -99,7 +99,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>恩返<rt class="furi">おんがえ</rt><rt class="roma">ongae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>「<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こもった<rt class="roma">komotta</rt></ruby><ruby>投<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>キッス<rt class="roma">kissu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>」
+[00:54.65]<ruby>恩返<rt class="furi">おんがえ</rt><rt class="roma">ongae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>「<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こもった<rt class="roma">komotta</rt></ruby><ruby>投<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>キッス<rt class="roma">kissu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>」
 </div>
 </div>
 
@@ -195,7 +195,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ファンサ<rt class="roma">fuansa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>ぞ<rt class="roma">zo</rt></ruby>
+[02:20.54]<ruby>ファンサ<rt class="roma">fuansa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>ぞ<rt class="roma">zo</rt></ruby>
 </div>
 </div>
 
@@ -281,13 +281,13 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby>！<ruby>もっと<rt class="roma">motto</rt></ruby>！<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>！<ruby>もっと<rt class="roma">motto</rt></ruby>！
+[03:27.27]<ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby>！<ruby>もっと<rt class="roma">motto</rt></ruby>！<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>！<ruby>もっと<rt class="roma">motto</rt></ruby>！
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>恩返<rt class="furi">おんがえ</rt><rt class="roma">ongae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>「<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こもった<rt class="roma">komotta</rt></ruby><ruby>投<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>キッス<rt class="roma">kissu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>」
+[03:32.81]<ruby>恩返<rt class="furi">おんがえ</rt><rt class="roma">ongae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>「<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こもった<rt class="roma">komotta</rt></ruby><ruby>投<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>キッス<rt class="roma">kissu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>」
 </div>
 </div>
 
@@ -299,13 +299,13 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>楽<rt class="furi">たの</rt><rt class="roma">tano</rt></ruby><ruby>しん<rt class="roma">shin</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こもった<rt class="roma">komotta</rt></ruby><ruby>スペシャル<rt class="roma">supesharu</rt></ruby><ruby>ナイト<rt class="roma">naito</rt></ruby>
+[03:44.01]<ruby>楽<rt class="furi">たの</rt><rt class="roma">tano</rt></ruby><ruby>しん<rt class="roma">shin</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こもった<rt class="roma">komotta</rt></ruby><ruby>スペシャル<rt class="roma">supesharu</rt></ruby><ruby>ナイト<rt class="roma">naito</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ファンサ<rt class="roma">fuansa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>ぞ<rt class="roma">zo</rt></ruby>
+[03:50.42]<ruby>ファンサ<rt class="roma">fuansa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>ぞ<rt class="roma">zo</rt></ruby>
 </div>
 </div>
 

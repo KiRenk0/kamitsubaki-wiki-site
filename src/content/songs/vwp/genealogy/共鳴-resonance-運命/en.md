@@ -400,13 +400,13 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>レッツシングアウトボーイ<rt class="roma">rettsushinguautoboui</rt></ruby>
+[02:45.63]<ruby>レッツシングアウトボーイ<rt class="roma">rettsushinguautoboui</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>レッツシングアウトガール<rt class="roma">rettsushinguautogaaru</rt></ruby>
+[02:47.23]<ruby>レッツシングアウトガール<rt class="roma">rettsushinguautogaaru</rt></ruby>
 </div>
 </div>
 
@@ -420,13 +420,13 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ベイビーアイラービュー<rt class="roma">beibiiairaabyuu</rt></ruby>
+[02:52.48]<ruby>ベイビーアイラービュー<rt class="roma">beibiiairaabyuu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>どうも<rt class="roma">doumo</rt></ruby>
+[02:54.04]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>どうも<rt class="roma">doumo</rt></ruby>
 </div>
 </div>
 
@@ -543,13 +543,13 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>レッツシングアウトボーイ<rt class="roma">rettsushinguautoboui</rt></ruby>
+[04:04.59]<ruby>レッツシングアウトボーイ<rt class="roma">rettsushinguautoboui</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>レッツシングアウトガール<rt class="roma">rettsushinguautogaaru</rt></ruby>
+[04:06.16]<ruby>レッツシングアウトガール<rt class="roma">rettsushinguautogaaru</rt></ruby>
 </div>
 </div>
 
@@ -562,7 +562,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ベイビーアイラービュー<rt class="roma">beibiiairaabyuu</rt></ruby>
+[04:11.47]<ruby>ベイビーアイラービュー<rt class="roma">beibiiairaabyuu</rt></ruby>
 </div>
 </div>
 
@@ -628,25 +628,25 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>レッツシングアウトボーイ<rt class="roma">rettsushinguautoboui</rt></ruby>
+[04:28.59]<ruby>レッツシングアウトボーイ<rt class="roma">rettsushinguautoboui</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>レッツシングアウトガール<rt class="roma">rettsushinguautogaaru</rt></ruby>
+[04:30.17]<ruby>レッツシングアウトガール<rt class="roma">rettsushinguautogaaru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>とりあえず<rt class="roma">toriaezu</rt></ruby><ruby>みんな<rt class="roma">minna</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>みよ<rt class="roma">miyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>（<ruby>せ<rt class="roma">se</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>）
+[04:31.75]<ruby>とりあえず<rt class="roma">toriaezu</rt></ruby><ruby>みんな<rt class="roma">minna</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>みよ<rt class="roma">miyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>（<ruby>せ<rt class="roma">se</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>）
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ベイビーアイラービュー<rt class="roma">beibiiairaabyuu</rt></ruby>
+[04:35.44]<ruby>ベイビーアイラービュー<rt class="roma">beibiiairaabyuu</rt></ruby>
 </div>
 </div>
 

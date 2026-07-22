@@ -47,16 +47,16 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>おしい<rt class="roma">oshii</rt></ruby>
+[00:13.89]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>おしい<rt class="roma">oshii</rt></ruby>
 </div>
-<div class="cn-lyric">无论做什么都令人怜爱</div>
+<div class="cn-lyric">[00:13.89]无论做什么都令人怜爱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>存在<rt class="furi">そんざい</rt><rt class="roma">sonzai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>マジ<rt class="roma">maji</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>癒<rt class="furi">いや</rt><rt class="roma">iya</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby>
+[00:15.50]<ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>存在<rt class="furi">そんざい</rt><rt class="roma">sonzai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>マジ<rt class="roma">maji</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>癒<rt class="furi">いや</rt><rt class="roma">iya</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby>
 </div>
-<div class="cn-lyric">你的存在真是治愈</div>
+<div class="cn-lyric">[00:15.50]你的存在真是治愈</div>
 </div>
 
 <div class="lyric-line">
@@ -69,28 +69,28 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>白<rt class="furi">しろ</rt><rt class="roma">shiro</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ふわふわ<rt class="roma">fuwafuwa</rt></ruby><ruby>顔<rt class="furi">かお</rt><rt class="roma">kao</rt></ruby><ruby>埋<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>め<rt class="roma">me</rt></ruby>
+[00:18.71]<ruby>白<rt class="furi">しろ</rt><rt class="roma">shiro</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ふわふわ<rt class="roma">fuwafuwa</rt></ruby><ruby>顔<rt class="furi">かお</rt><rt class="roma">kao</rt></ruby><ruby>埋<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>め<rt class="roma">me</rt></ruby>
 </div>
-<div class="cn-lyric">把脸埋进白色蓬松里</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>匂<rt class="furi">にお</rt><rt class="roma">nio</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>嗅<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>ぐ<rt class="roma">gu</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>ぎゅっ<rt class="roma">gyu</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby>
-</div>
-<div class="cn-lyric">闻味道呢 紧紧抱住</div>
+<div class="cn-lyric">[00:18.71]把脸埋进白色蓬松里</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>一緒<rt class="furi">いっしょ</rt><rt class="roma">issho</rt></ruby> <ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>添い寝<rt class="furi">そいね</rt><rt class="roma">soine</rt></ruby>
+[00:22.68]<ruby>匂<rt class="furi">にお</rt><rt class="roma">nio</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>嗅<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>ぐ<rt class="roma">gu</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>ぎゅっ<rt class="roma">gyu</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby>
 </div>
-<div class="cn-lyric">永远在一起 今天也一起睡</div>
+<div class="cn-lyric">[00:22.68]闻味道呢 紧紧抱住</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-yeah
+[00:24.75]<ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>一緒<rt class="furi">いっしょ</rt><rt class="roma">issho</rt></ruby> <ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>添い寝<rt class="furi">そいね</rt><rt class="roma">soine</rt></ruby>
+</div>
+<div class="cn-lyric">[00:24.75]永远在一起 今天也一起睡</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:27.17]yeah
 </div>
 </div>
 
@@ -111,29 +111,29 @@ yeah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>まぐれ<rt class="roma">magure</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>実<rt class="furi">じつ</rt><rt class="roma">jitsu</rt></ruby><ruby>は<rt class="roma">ha</rt></ruby><ruby>甘えん坊<rt class="furi">あまえんぼう</rt><rt class="roma">amaenbou</rt></ruby>
+[00:32.09]<ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>まぐれ<rt class="roma">magure</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>実<rt class="furi">じつ</rt><rt class="roma">jitsu</rt></ruby><ruby>は<rt class="roma">ha</rt></ruby><ruby>甘えん坊<rt class="furi">あまえんぼう</rt><rt class="roma">amaenbou</rt></ruby>
 </div>
-<div class="cn-lyric">虽然任性其实很爱撒娇</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>それ<rt class="roma">sore</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>可愛<rt class="furi">かわい</rt><rt class="roma">kawai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>倍増<rt class="furi">ばいぞう</rt><rt class="roma">baizou</rt></ruby>
-</div>
-<div class="cn-lyric">正因如此可爱加倍</div>
+<div class="cn-lyric">[00:32.09]虽然任性其实很爱撒娇</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Lucky Happy
+[00:34.37]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>可愛<rt class="furi">かわい</rt><rt class="roma">kawai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>倍増<rt class="furi">ばいぞう</rt><rt class="roma">baizou</rt></ruby>
+</div>
+<div class="cn-lyric">[00:34.37]正因如此可爱加倍</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:37.11]Lucky Happy
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>唯一<rt class="furi">ゆいいつ</rt><rt class="roma">yuiitsu</rt></ruby><ruby>話<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>男の子<rt class="furi">おとこのこ</rt><rt class="roma">otokonoko</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby>
+[00:39.04]<ruby>唯一<rt class="furi">ゆいいつ</rt><rt class="roma">yuiitsu</rt></ruby><ruby>話<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>男の子<rt class="furi">おとこのこ</rt><rt class="roma">otokonoko</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby>
 </div>
-<div class="cn-lyric">因为是唯一说话的男孩</div>
+<div class="cn-lyric">[00:39.04]因为是唯一说话的男孩</div>
 </div>
 
 <div class="lyric-line">

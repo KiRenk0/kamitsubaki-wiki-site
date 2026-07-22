@@ -119,7 +119,7 @@ image: /images/albums/harusaruhi/shinju.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(Wanna come to life!)
+[03:22.64](Wanna come to life!)
 </div>
 </div>
 

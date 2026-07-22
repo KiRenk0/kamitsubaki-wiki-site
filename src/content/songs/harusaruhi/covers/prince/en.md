@@ -54,9 +54,9 @@ Prince appears on CREAM PUFF LIVE 2 or a related official release. Entries are v
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>俺<rt class="furi">おれ</rt><rt class="roma">ore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ペース<rt class="roma">peesu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[00:07.34]<ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>俺<rt class="furi">おれ</rt><rt class="roma">ore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ペース<rt class="roma">peesu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
-<div class="trans-lyric">Do as you like, I'll keep this pace</div>
+<div class="trans-lyric">[00:07.34]Do as you like, I'll keep this pace</div>
 </div>
 
 <div class="lyric-line">
@@ -68,9 +68,9 @@ Prince appears on CREAM PUFF LIVE 2 or a related official release. Entries are v
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>確<rt class="furi">たし</rt><rt class="roma">tashi</rt></ruby><ruby>かめ<rt class="roma">kame</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>必要<rt class="furi">ひつよう</rt><rt class="roma">hitsuyou</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[00:12.78]<ruby>確<rt class="furi">たし</rt><rt class="roma">tashi</rt></ruby><ruby>かめ<rt class="roma">kame</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>必要<rt class="furi">ひつよう</rt><rt class="roma">hitsuyou</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
-<div class="trans-lyric">No need to confirm each other</div>
+<div class="trans-lyric">[00:12.78]No need to confirm each other</div>
 </div>
 
 <div class="lyric-line">
@@ -82,9 +82,9 @@ Prince appears on CREAM PUFF LIVE 2 or a related official release. Entries are v
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>フリー<rt class="roma">furii</rt></ruby><ruby>ダム<rt class="roma">damu</rt></ruby> <ruby>フリー<rt class="roma">furii</rt></ruby><ruby>スタイル<rt class="roma">sutairu</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
+[00:17.19]<ruby>フリー<rt class="roma">furii</rt></ruby><ruby>ダム<rt class="roma">damu</rt></ruby> <ruby>フリー<rt class="roma">furii</rt></ruby><ruby>スタイル<rt class="roma">sutairu</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
-<div class="trans-lyric">Freedom, freestyle, you're not here</div>
+<div class="trans-lyric">[00:17.19]Freedom, freestyle, you're not here</div>
 </div>
 
 <div class="lyric-line">
@@ -96,9 +96,9 @@ Prince appears on CREAM PUFF LIVE 2 or a related official release. Entries are v
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>生まれ変<rt class="furi">うまれか</rt><rt class="roma">umareka</rt></ruby><ruby>われる<rt class="roma">wareru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>そば<rt class="roma">soba</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>居<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[00:22.18]<ruby>生まれ変<rt class="furi">うまれか</rt><rt class="roma">umareka</rt></ruby><ruby>われる<rt class="roma">wareru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>そば<rt class="roma">soba</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>居<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="trans-lyric">If I can be reborn, stay by my side</div>
+<div class="trans-lyric">[00:22.18]If I can be reborn, stay by my side</div>
 </div>
 
 <div class="lyric-line">
@@ -117,16 +117,16 @@ Prince appears on CREAM PUFF LIVE 2 or a related official release. Entries are v
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>他人<rt class="furi">たにん</rt><rt class="roma">tanin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby> <ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[00:29.35]<ruby>他人<rt class="furi">たにん</rt><rt class="roma">tanin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby> <ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
-<div class="trans-lyric">No one understands others' pain</div>
+<div class="trans-lyric">[00:29.35]No one understands others' pain</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>周<rt class="furi">まわ</rt><rt class="roma">mawa</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>逃<rt class="furi">のが</rt><rt class="roma">noga</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[00:31.66]<ruby>周<rt class="furi">まわ</rt><rt class="roma">mawa</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>逃<rt class="furi">のが</rt><rt class="roma">noga</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
-<div class="trans-lyric">Can't escape the eyes around me</div>
+<div class="trans-lyric">[00:31.66]Can't escape the eyes around me</div>
 </div>
 
 <div class="lyric-line">
@@ -163,47 +163,47 @@ Prince appears on CREAM PUFF LIVE 2 or a related official release. Entries are v
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>場所<rt class="furi">ばしょ</rt><rt class="roma">basho</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
+[00:43.74]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>場所<rt class="furi">ばしょ</rt><rt class="roma">basho</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
-<div class="trans-lyric">To a place no one knows</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>不安定<rt class="furi">ふあんてい</rt><rt class="roma">fuantei</rt></ruby><ruby>不<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>確定<rt class="furi">かくてい</rt><rt class="roma">kakutei</rt></ruby> <ruby>でも<rt class="roma">demo</rt></ruby>
-</div>
-<div class="trans-lyric">The future is unstable, uncertain, but</div>
+<div class="trans-lyric">[00:43.74]To a place no one knows</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>達<rt class="furi">たち</rt><rt class="roma">tachi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
+[00:46.20]<ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>不安定<rt class="furi">ふあんてい</rt><rt class="roma">fuantei</rt></ruby><ruby>不<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>確定<rt class="furi">かくてい</rt><rt class="roma">kakutei</rt></ruby> <ruby>でも<rt class="roma">demo</rt></ruby>
 </div>
+<div class="trans-lyric">[00:46.20]The future is unstable, uncertain, but</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:48.40]<ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>達<rt class="furi">たち</rt><rt class="roma">tachi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
+</div>
+<div class="trans-lyric">[00:48.40]With words, surely</div>
 <div class="trans-lyric">With words, surely</div>
-<div class="trans-lyric">With words, surely</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ところ<rt class="roma">tokoro</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[00:50.61]<ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ところ<rt class="roma">tokoro</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="trans-lyric">[00:50.61]Let's go to a dreamlike place</div>
 <div class="trans-lyric">Let's go to a dreamlike place</div>
-<div class="trans-lyric">Let's go to a dreamlike place</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>果<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>旅<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
+[00:53.12]<ruby>果<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>旅<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
-<div class="trans-lyric">The endless journey continues</div>
+<div class="trans-lyric">[00:53.12]The endless journey continues</div>
 <div class="trans-lyric">The endless journey continues</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>うなずか<rt class="roma">unazuka</rt></ruby><ruby>せる<rt class="roma">seru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
+[00:55.33]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>うなずか<rt class="roma">unazuka</rt></ruby><ruby>せる<rt class="roma">seru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
-<div class="trans-lyric">Until I make you nod</div>
+<div class="trans-lyric">[00:55.33]Until I make you nod</div>
 </div>
 
 <br />
@@ -222,9 +222,9 @@ Prince appears on CREAM PUFF LIVE 2 or a related official release. Entries are v
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いき<rt class="roma">iki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[01:00.58]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いき<rt class="roma">iki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
-<div class="trans-lyric">I want to go where you don't know</div>
+<div class="trans-lyric">[01:00.58]I want to go where you don't know</div>
 <div class="trans-lyric">I want to go where you don't know</div>
 <div class="trans-lyric">I want to go where you don't know</div>
 <div class="trans-lyric">I want to go where you don't know</div>
@@ -241,22 +241,22 @@ Prince appears on CREAM PUFF LIVE 2 or a related official release. Entries are v
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
+[01:05.25]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
 </div>
-<div class="trans-lyric">Will you go somewhere far?</div>
+<div class="trans-lyric">[01:05.25]Will you go somewhere far?</div>
 <div class="trans-lyric">Will you go somewhere far?</div>
 <div class="trans-lyric">Will you go somewhere far?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh ma baby I'll be your prince
+[01:07.70]Oh ma baby I'll be your prince
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いき<rt class="roma">iki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[01:09.93]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いき<rt class="roma">iki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 </div>
 
@@ -273,9 +273,9 @@ Oh ma baby I'll be your prince
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[01:14.96]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
-<div class="trans-lyric">You're going somewhere</div>
+<div class="trans-lyric">[01:14.96]You're going somewhere</div>
 <div class="trans-lyric">You're going somewhere</div>
 <div class="trans-lyric">You're going somewhere</div>
 </div>
@@ -319,23 +319,23 @@ Oh ma baby I'll be your prince
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>邪魔<rt class="furi">じゃま</rt><rt class="roma">jama</rt></ruby><ruby>でき<rt class="roma">deki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[01:32.84]<ruby>邪魔<rt class="furi">じゃま</rt><rt class="roma">jama</rt></ruby><ruby>でき<rt class="roma">deki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
-<div class="trans-lyric">So as not to disturb</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>ストーリー<rt class="roma">sutourii</rt></ruby>
-</div>
-<div class="trans-lyric">Alone, I draw another story</div>
+<div class="trans-lyric">[01:32.84]So as not to disturb</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づけ<rt class="roma">zuke</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>上<rt class="furi">うえ</rt><rt class="roma">ue</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>上<rt class="furi">うえ</rt><rt class="roma">ue</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>方<rt class="furi">ほう</rt><rt class="roma">hou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[01:34.09]<ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>ストーリー<rt class="roma">sutourii</rt></ruby>
 </div>
-<div class="trans-lyric">Before I know it, surely far above</div>
+<div class="trans-lyric">[01:34.09]Alone, I draw another story</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:36.69]<ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づけ<rt class="roma">zuke</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>上<rt class="furi">うえ</rt><rt class="roma">ue</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>上<rt class="furi">うえ</rt><rt class="roma">ue</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>方<rt class="furi">ほう</rt><rt class="roma">hou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+</div>
+<div class="trans-lyric">[01:36.69]Before I know it, surely far above</div>
 </div>
 
 <div class="lyric-line">
@@ -377,9 +377,9 @@ Oh ma baby I'll be your prince
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>俺<rt class="furi">おれ</rt><rt class="roma">ore</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ありえ<rt class="roma">arie</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
+[01:48.69]<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>俺<rt class="furi">おれ</rt><rt class="roma">ore</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ありえ<rt class="roma">arie</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
-<div class="trans-lyric">Surely between us, it can never be</div>
+<div class="trans-lyric">[01:48.69]Surely between us, it can never be</div>
 </div>
 
 <div class="lyric-line">
@@ -398,118 +398,118 @@ Oh ma baby I'll be your prince
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>間違<rt class="furi">まちが</rt><rt class="roma">machiga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>だらけ<rt class="roma">darake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[01:55.51]<ruby>間違<rt class="furi">まちが</rt><rt class="roma">machiga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>だらけ<rt class="roma">darake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
-<div class="trans-lyric">From days full of mistakes</div>
+<div class="trans-lyric">[01:55.51]From days full of mistakes</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>傷<rt class="furi">きず</rt><rt class="roma">kizu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>抱<rt class="furi">かか</rt><rt class="roma">kaka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>もう一度<rt class="furi">もういちど</rt><rt class="roma">mouichido</rt></ruby><ruby>グッバイ<rt class="roma">gubbai</rt></ruby>
+[01:57.79]<ruby>傷<rt class="furi">きず</rt><rt class="roma">kizu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>抱<rt class="furi">かか</rt><rt class="roma">kaka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>もう一度<rt class="furi">もういちど</rt><rt class="roma">mouichido</rt></ruby><ruby>グッバイ<rt class="roma">gubbai</rt></ruby>
 </div>
-<div class="trans-lyric">Embracing wounds, goodbye once more</div>
+<div class="trans-lyric">[01:57.79]Embracing wounds, goodbye once more</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Anyone will do yeah
+[02:01.41]Anyone will do yeah
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あしらって<rt class="roma">ashiratte</rt></ruby>stay
+[02:04.02]<ruby>あしらって<rt class="roma">ashiratte</rt></ruby>stay
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>あい<rt class="roma">ai</rt></ruby><ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby>
+[02:05.20]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>あい<rt class="roma">ai</rt></ruby><ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby>
 </div>
-<div class="trans-lyric">Loving each other, over and over</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>祈<rt class="furi">いの</rt><rt class="roma">ino</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>残<rt class="furi">のこ</rt><rt class="roma">noko</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
-</div>
-<div class="trans-lyric">Unreachable prayers remain</div>
+<div class="trans-lyric">[02:05.20]Loving each other, over and over</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>達<rt class="furi">たち</rt><rt class="roma">tachi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
+[02:07.73]<ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>祈<rt class="furi">いの</rt><rt class="roma">ino</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>残<rt class="furi">のこ</rt><rt class="roma">noko</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
 </div>
+<div class="trans-lyric">[02:07.73]Unreachable prayers remain</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ところ<rt class="roma">tokoro</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[02:10.25]<ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>達<rt class="furi">たち</rt><rt class="roma">tachi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>果<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>旅<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
+[02:12.50]<ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ところ<rt class="roma">tokoro</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
+[02:14.92]<ruby>果<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>旅<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
-<div class="trans-lyric">To where you cannot reach</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:17.12]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
+</div>
+<div class="trans-lyric">[02:17.12]To where you cannot reach</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh ma baby I'll be your prince
+[02:19.65]Oh ma baby I'll be your prince
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いき<rt class="roma">iki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[02:21.72]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いき<rt class="roma">iki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh ma baby <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
+[02:24.46]Oh ma baby <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
+[02:26.91]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh ma baby I'll be your prince
+[02:29.09]Oh ma baby I'll be your prince
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いき<rt class="roma">iki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[02:31.35]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いき<rt class="roma">iki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh ma baby <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
+[02:33.88]Oh ma baby <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[02:36.39]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
@@ -552,49 +552,49 @@ Oh ma baby <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><rub
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh ma baby I'll be your prince
+[03:02.84]Oh ma baby I'll be your prince
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いき<rt class="roma">iki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[03:05.28]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いき<rt class="roma">iki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh ma baby <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
+[03:07.34]Oh ma baby <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
+[03:09.91]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh ma baby I'll be your prince
+[03:12.37]Oh ma baby I'll be your prince
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いき<rt class="roma">iki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[03:14.52]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いき<rt class="roma">iki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh ma baby <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
+[03:17.12]Oh ma baby <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[03:19.64]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
@@ -602,19 +602,19 @@ Oh ma baby <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><rub
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Can't you feel how much I love you？
+[03:21.86]Can't you feel how much I love you？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Someday I will make you love me
+[03:24.37]Someday I will make you love me
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-With my voice！
+[03:26.59]With my voice！
 </div>
 </div>
 
@@ -622,13 +622,13 @@ With my voice！
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Can't you feel how much I love you？
+[03:31.88]Can't you feel how much I love you？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Someday I will make you love me
+[03:36.32]Someday I will make you love me
 </div>
 </div>
 

@@ -206,7 +206,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Snow jam, snow jam
+[01:06.44]Snow jam, snow jam
 </div>
 </div>
 
@@ -341,13 +341,13 @@ Snow jam, snow jam
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>考<rt class="furi">かんが</rt><rt class="roma">kanga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ただ<rt class="roma">tada</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[01:57.24]<ruby>考<rt class="furi">かんが</rt><rt class="roma">kanga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ただ<rt class="roma">tada</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>濃<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>濃度<rt class="furi">のうど</rt><rt class="roma">noudo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>蓋<rt class="furi">ふた</rt><rt class="roma">futa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[02:00.01]<ruby>濃<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>濃度<rt class="furi">のうど</rt><rt class="roma">noudo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>蓋<rt class="furi">ふた</rt><rt class="roma">futa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
@@ -360,7 +360,7 @@ Snow jam, snow jam
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby> snow jam
+[02:05.45]<ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby> snow jam
 </div>
 </div>
 
@@ -374,7 +374,7 @@ Snow jam, snow jam
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Snow jam, snow jam
+[02:10.72]Snow jam, snow jam
 </div>
 </div>
 
@@ -396,7 +396,7 @@ Snow jam, snow jam
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>考<rt class="furi">かんが</rt><rt class="roma">kanga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ただ<rt class="roma">tada</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[02:19.64]<ruby>考<rt class="furi">かんが</rt><rt class="roma">kanga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ただ<rt class="roma">tada</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
@@ -409,31 +409,31 @@ Snow jam, snow jam
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Feel you, I really care about you, ahh
+[02:25.04]Feel you, I really care about you, ahh
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby> snow jam
+[02:27.84]<ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby> snow jam
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たす<rt class="roma">tasu</rt></ruby> snow jam
+[02:30.59]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たす<rt class="roma">tasu</rt></ruby> snow jam
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Snow jam, snow jam
+[02:32.79]Snow jam, snow jam
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Snow jam, snow jam
+[02:35.66]Snow jam, snow jam
 </div>
 </div>
 
@@ -441,25 +441,25 @@ Snow jam, snow jam
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Loading <ruby>で<rt class="roma">de</rt></ruby><ruby>進<rt class="furi">すす</rt><rt class="roma">susu</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>毎日<rt class="furi">まいにち</rt><rt class="roma">mainichi</rt></ruby>
+[02:39.34]Loading <ruby>で<rt class="roma">de</rt></ruby><ruby>進<rt class="furi">すす</rt><rt class="roma">susu</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>毎日<rt class="furi">まいにち</rt><rt class="roma">mainichi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>上品<rt class="furi">じょうひん</rt><rt class="roma">jouhin</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>似合<rt class="furi">にあ</rt><rt class="roma">nia</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> my lady
+[02:42.11]<ruby>上品<rt class="furi">じょうひん</rt><rt class="roma">jouhin</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>似合<rt class="furi">にあ</rt><rt class="roma">nia</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> my lady
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Morning <ruby>ただただ<rt class="roma">tadatada</rt></ruby><ruby>うわつい<rt class="roma">uwatsui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[02:45.03]Morning <ruby>ただただ<rt class="roma">tadatada</rt></ruby><ruby>うわつい<rt class="roma">uwatsui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>日<rt class="furi">にち</rt><rt class="roma">nichi</rt></ruby><ruby>中<rt class="furi">ちゅう</rt><rt class="roma">chuu</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>淡<rt class="furi">あわ</rt><rt class="roma">awa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
+[02:47.76]<ruby>日<rt class="furi">にち</rt><rt class="roma">nichi</rt></ruby><ruby>中<rt class="furi">ちゅう</rt><rt class="roma">chuu</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>淡<rt class="furi">あわ</rt><rt class="roma">awa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
 </div>
 </div>
 
@@ -472,13 +472,13 @@ Morning <ruby>ただただ<rt class="roma">tadatada</rt></ruby><ruby>うわつ�
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>愛情<rt class="furi">あいじょう</rt><rt class="roma">aijou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby>
+[02:53.35]<ruby>愛情<rt class="furi">あいじょう</rt><rt class="roma">aijou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>静<rt class="furi">しず</rt><rt class="roma">shizu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[02:56.40]<ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>静<rt class="furi">しず</rt><rt class="roma">shizu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 

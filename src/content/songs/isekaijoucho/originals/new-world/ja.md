@@ -217,7 +217,7 @@ image: /images/songs/isekaijoucho/single-1748965688.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(<ruby>ドコニダッテユケル<rt class="roma">dokonidatteyukeru</rt></ruby>)
+[03:46.85](<ruby>ドコニダッテユケル<rt class="roma">dokonidatteyukeru</rt></ruby>)
 </div>
 </div>
 
@@ -231,25 +231,25 @@ image: /images/songs/isekaijoucho/single-1748965688.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>無邪気<rt class="furi">むじゃき</rt><rt class="roma">mujaki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> 1<ruby>つ<rt class="roma">tsu</rt></ruby>2<ruby>つと<rt class="roma">tsuto</rt></ruby><ruby>並<rt class="furi">なら</rt><rt class="roma">nara</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[03:55.87]<ruby>無邪気<rt class="furi">むじゃき</rt><rt class="roma">mujaki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> 1<ruby>つ<rt class="roma">tsu</rt></ruby>2<ruby>つと<rt class="roma">tsuto</rt></ruby><ruby>並<rt class="furi">なら</rt><rt class="roma">nara</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>形<rt class="furi">かたち</rt><rt class="roma">katachi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>new world <ruby>確<rt class="furi">たし</rt><rt class="roma">tashi</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[04:00.16]<ruby>形<rt class="furi">かたち</rt><rt class="roma">katachi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>new world <ruby>確<rt class="furi">たし</rt><rt class="roma">tashi</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>理想<rt class="furi">りそう</rt><rt class="roma">risou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>縁<rt class="furi">えん</rt><rt class="roma">en</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>辿<rt class="furi">たど</rt><rt class="roma">tado</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> 1<ruby>秒<rt class="furi">びょう</rt><rt class="roma">byou</rt></ruby>2<ruby>秒<rt class="furi">びょう</rt><rt class="roma">byou</rt></ruby><ruby>重<rt class="furi">かさ</rt><rt class="roma">kasa</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[04:04.56]<ruby>理想<rt class="furi">りそう</rt><rt class="roma">risou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>縁<rt class="furi">えん</rt><rt class="roma">en</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>辿<rt class="furi">たど</rt><rt class="roma">tado</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> 1<ruby>秒<rt class="furi">びょう</rt><rt class="roma">byou</rt></ruby>2<ruby>秒<rt class="furi">びょう</rt><rt class="roma">byou</rt></ruby><ruby>重<rt class="furi">かさ</rt><rt class="roma">kasa</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>your world <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>紡<rt class="furi">つむ</rt><rt class="roma">tsumu</rt></ruby><ruby>ぎ<rt class="roma">gi</rt></ruby><ruby>出<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby>
+[04:09.12]<ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>your world <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>紡<rt class="furi">つむ</rt><rt class="roma">tsumu</rt></ruby><ruby>ぎ<rt class="roma">gi</rt></ruby><ruby>出<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby>
 </div>
 </div>
 

@@ -92,13 +92,13 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>地獄<rt class="furi">じごく</rt><rt class="roma">jigoku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>救<rt class="furi">すく</rt><rt class="roma">suku</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>
+[01:50.22]<ruby>地獄<rt class="furi">じごく</rt><rt class="roma">jigoku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>救<rt class="furi">すく</rt><rt class="roma">suku</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>天国<rt class="furi">てんごく</rt><rt class="roma">tengoku</rt></ruby><ruby>昇<rt class="furi">のぼ</rt><rt class="roma">nobo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby>
+[01:54.01]<ruby>天国<rt class="furi">てんごく</rt><rt class="roma">tengoku</rt></ruby><ruby>昇<rt class="furi">のぼ</rt><rt class="roma">nobo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby>
 </div>
 </div>
 
@@ -188,13 +188,13 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>地獄<rt class="furi">じごく</rt><rt class="roma">jigoku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>救<rt class="furi">すく</rt><rt class="roma">suku</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>
+[03:44.72]<ruby>地獄<rt class="furi">じごく</rt><rt class="roma">jigoku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>救<rt class="furi">すく</rt><rt class="roma">suku</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>天国<rt class="furi">てんごく</rt><rt class="roma">tengoku</rt></ruby><ruby>昇<rt class="furi">のぼ</rt><rt class="roma">nobo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby>
+[03:48.52]<ruby>天国<rt class="furi">てんごく</rt><rt class="roma">tengoku</rt></ruby><ruby>昇<rt class="furi">のぼ</rt><rt class="roma">nobo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby>
 </div>
 </div>
 

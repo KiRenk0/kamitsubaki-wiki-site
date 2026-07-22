@@ -165,7 +165,7 @@ image: /images/albums/kaf/maho.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「<ruby>もう<rt class="roma">mou</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>守<rt class="furi">まも</rt><rt class="roma">mamo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>けれど<rt class="roma">keredo</rt></ruby>」
+[02:02.94]「<ruby>もう<rt class="roma">mou</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>守<rt class="furi">まも</rt><rt class="roma">mamo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>けれど<rt class="roma">keredo</rt></ruby>」
 </div>
 </div>
 
@@ -179,7 +179,7 @@ image: /images/albums/kaf/maho.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どうしても<rt class="roma">doushitemo</rt></ruby><ruby>別<rt class="furi">わか</rt><rt class="roma">waka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby>
+[02:11.76]<ruby>どうしても<rt class="roma">doushitemo</rt></ruby><ruby>別<rt class="furi">わか</rt><rt class="roma">waka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby>
 </div>
 </div>
 

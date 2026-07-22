@@ -33,25 +33,25 @@ image: /images/songs/harusaruhi/single-1771810723.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>迷い込<rt class="furi">まよいこ</rt><rt class="roma">mayoiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>かき分<rt class="furi">かきわ</rt><rt class="roma">kakiwa</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[00:07.27]<ruby>迷い込<rt class="furi">まよいこ</rt><rt class="roma">mayoiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>かき分<rt class="furi">かきわ</rt><rt class="roma">kakiwa</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>はず<rt class="roma">hazu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いった<rt class="roma">itta</rt></ruby>
+[00:14.53]<ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>はず<rt class="roma">hazu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いった<rt class="roma">itta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>違<rt class="furi">ちが</rt><rt class="roma">chiga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>目覚<rt class="furi">めざ</rt><rt class="roma">meza</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いたん<rt class="roma">itan</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[00:21.21]<ruby>違<rt class="furi">ちが</rt><rt class="roma">chiga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>目覚<rt class="furi">めざ</rt><rt class="roma">meza</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いたん<rt class="roma">itan</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そこ<rt class="roma">soko</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby>
+[00:28.88]<ruby>そこ<rt class="roma">soko</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby>
 </div>
 </div>
 
@@ -73,13 +73,13 @@ image: /images/songs/harusaruhi/single-1771810723.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>歯軋<rt class="furi">はぎし</rt><rt class="roma">hagishi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>埋<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>まった<rt class="roma">matta</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
+[01:02.10]<ruby>歯軋<rt class="furi">はぎし</rt><rt class="roma">hagishi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>埋<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>まった<rt class="roma">matta</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>耳<rt class="furi">みみ</rt><rt class="roma">mimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>塞<rt class="furi">ふさ</rt><rt class="roma">fusa</rt></ruby><ruby>ぎ<rt class="roma">gi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[01:04.36]<ruby>耳<rt class="furi">みみ</rt><rt class="roma">mimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>塞<rt class="furi">ふさ</rt><rt class="roma">fusa</rt></ruby><ruby>ぎ<rt class="roma">gi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 </div>
 
@@ -97,7 +97,7 @@ image: /images/songs/harusaruhi/single-1771810723.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>誤魔化<rt class="furi">ごまか</rt><rt class="roma">gomaka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
+[01:11.12]<ruby>誤魔化<rt class="furi">ごまか</rt><rt class="roma">gomaka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
 </div>
 
@@ -109,7 +109,7 @@ image: /images/songs/harusaruhi/single-1771810723.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>現実<rt class="furi">げんじつ</rt><rt class="roma">genjitsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>向<rt class="furi">む</rt><rt class="roma">mu</rt></ruby><ruby>こう<rt class="roma">kou</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
+[01:15.18]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>現実<rt class="furi">げんじつ</rt><rt class="roma">genjitsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>向<rt class="furi">む</rt><rt class="roma">mu</rt></ruby><ruby>こう<rt class="roma">kou</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
 </div>
 
@@ -123,19 +123,19 @@ image: /images/songs/harusaruhi/single-1771810723.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Rise and be fearless
+[01:22.48]Rise and be fearless
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ひび割<rt class="furi">ひびわ</rt><rt class="roma">hibiwa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>突き抜<rt class="furi">つきぬ</rt><rt class="roma">tsukinu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby>
+[01:25.51]<ruby>ひび割<rt class="furi">ひびわ</rt><rt class="roma">hibiwa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>突き抜<rt class="furi">つきぬ</rt><rt class="roma">tsukinu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>違<rt class="furi">ちが</rt><rt class="roma">chiga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>次元<rt class="furi">じげん</rt><rt class="roma">jigen</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>入<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>楽園<rt class="furi">らくえん</rt><rt class="roma">rakuen</rt></ruby>
+[01:30.73]<ruby>違<rt class="furi">ちが</rt><rt class="roma">chiga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>次元<rt class="furi">じげん</rt><rt class="roma">jigen</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>入<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>楽園<rt class="furi">らくえん</rt><rt class="roma">rakuen</rt></ruby>
 </div>
 </div>
 
@@ -147,7 +147,7 @@ Rise and be fearless
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>狂<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+[01:39.02]<ruby>狂<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
 </div>
 
@@ -179,7 +179,7 @@ Rise and be fearless
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Awaken in another world with light
+[01:57.06]Awaken in another world with light
 </div>
 </div>
 
@@ -217,7 +217,7 @@ Awaken in another world with light
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>悪<rt class="furi">わる</rt><rt class="roma">waru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby><ruby>お先<rt class="furi">おさき</rt><rt class="roma">osaki</rt></ruby> <ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
+[02:10.78]<ruby>悪<rt class="furi">わる</rt><rt class="roma">waru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby><ruby>お先<rt class="furi">おさき</rt><rt class="roma">osaki</rt></ruby> <ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
 </div>
 
@@ -261,7 +261,7 @@ Awaken in another world with light
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もしか<rt class="roma">moshika</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>美<rt class="furi">うつく</rt><rt class="roma">utsuku</rt></ruby><ruby>しかった<rt class="roma">shikatta</rt></ruby>
+[02:23.36]<ruby>もしか<rt class="roma">moshika</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>美<rt class="furi">うつく</rt><rt class="roma">utsuku</rt></ruby><ruby>しかった<rt class="roma">shikatta</rt></ruby>
 </div>
 </div>
 
@@ -273,7 +273,7 @@ Awaken in another world with light
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>思い通<rt class="furi">おもいどお</rt><rt class="roma">omoidoo</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>行き過<rt class="furi">いきす</rt><rt class="roma">ikisu</rt></ruby><ruby>ぎ<rt class="roma">gi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
+[02:29.84]<ruby>思い通<rt class="furi">おもいどお</rt><rt class="roma">omoidoo</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>行き過<rt class="furi">いきす</rt><rt class="roma">ikisu</rt></ruby><ruby>ぎ<rt class="roma">gi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
 </div>
 
@@ -285,13 +285,13 @@ Awaken in another world with light
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>違<rt class="furi">ちが</rt><rt class="roma">chiga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>目覚<rt class="furi">めざ</rt><rt class="roma">meza</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いたん<rt class="roma">itan</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[02:38.57]<ruby>違<rt class="furi">ちが</rt><rt class="roma">chiga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>目覚<rt class="furi">めざ</rt><rt class="roma">meza</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いたん<rt class="roma">itan</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby>
+[02:46.16]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby>
 </div>
 </div>
 
@@ -299,49 +299,49 @@ Awaken in another world with light
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Awaken in another world with light
+[02:51.94]Awaken in another world with light
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Take them all. What I noticed is mine
+[02:55.06]Take them all. What I noticed is mine
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Awaken in another world with light
+[02:58.54]Awaken in another world with light
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Grab them all. Make it up and realize
+[03:01.61]Grab them all. Make it up and realize
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Awaken in another world with light
+[03:05.27]Awaken in another world with light
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Take them all. What I noticed is mine
+[03:08.67]Take them all. What I noticed is mine
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Awaken in another world with light
+[03:12.01]Awaken in another world with light
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Grab them all. Make it up and realize
+[03:15.48]Grab them all. Make it up and realize
 </div>
 </div>
 
@@ -349,43 +349,43 @@ Grab them all. Make it up and realize
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Rise and be fearless
+[03:18.66]Rise and be fearless
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ひび割<rt class="furi">ひびわ</rt><rt class="roma">hibiwa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>突き抜<rt class="furi">つきぬ</rt><rt class="roma">tsukinu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby>
+[03:21.22]<ruby>ひび割<rt class="furi">ひびわ</rt><rt class="roma">hibiwa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>突き抜<rt class="furi">つきぬ</rt><rt class="roma">tsukinu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>違<rt class="furi">ちが</rt><rt class="roma">chiga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>次元<rt class="furi">じげん</rt><rt class="roma">jigen</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>入<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>楽園<rt class="furi">らくえん</rt><rt class="roma">rakuen</rt></ruby>
+[03:26.34]<ruby>違<rt class="furi">ちが</rt><rt class="roma">chiga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>次元<rt class="furi">じげん</rt><rt class="roma">jigen</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>入<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>楽園<rt class="furi">らくえん</rt><rt class="roma">rakuen</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Raise your emotion
+[03:32.11]Raise your emotion
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>狂<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+[03:35.17]<ruby>狂<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Take them all. Grab them all
+[03:38.79]Take them all. Grab them all
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>新<rt class="furi">あたら</rt><rt class="roma">atara</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby>landscape <ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[03:41.89]<ruby>新<rt class="furi">あたら</rt><rt class="roma">atara</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby>landscape <ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
@@ -393,49 +393,49 @@ Take them all. Grab them all
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Awaken in another world with light
+[03:46.10]Awaken in another world with light
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Take them all. What I noticed is mine
+[03:49.42]Take them all. What I noticed is mine
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Awaken in another world with light
+[03:53.04]Awaken in another world with light
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Grab them all. Make it up and realize
+[03:56.29]Grab them all. Make it up and realize
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Awaken in another world with light
+[03:59.75]Awaken in another world with light
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Take them all. What I noticed is mine
+[04:03.05]Take them all. What I noticed is mine
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Awaken in another world with light
+[04:06.50]Awaken in another world with light
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Grab them all. Make it up and realize
+[04:09.99]Grab them all. Make it up and realize
 </div>
 </div>
 
