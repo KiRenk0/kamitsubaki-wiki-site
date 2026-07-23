@@ -12,7 +12,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getLocalizedSite } from '../../../lib/homeData.mjs';
 import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../lib/i18n.mjs';
 import { buildArticleMetadata } from '../../../lib/metadata.mjs';
-import { renderContentEntry } from '../../../lib/contentSource.mjs';
+import { render } from 'astro:content';
 
 export async function getStaticPaths() {
   const albumEntries = await getCollection('albums');
@@ -31,7 +31,8 @@ export async function getStaticPaths() {
 
 const { locale, id } = Astro.params;
 const { entry } = Astro.props;
-const { html: contentHtml, headings, body: articleBody } = await renderContentEntry(entry);
+const { Content, headings } = await render(entry);
+const articleBody = entry.body;
 const localeCode = locale as 'zh' | 'ja' | 'en';
 const hasArticleBody = Boolean(articleBody);
 const hasTracks = Boolean(entry.data.tracks?.length);
@@ -131,7 +132,7 @@ const themeStyle = [
             </details>
           )}
 
-          {hasArticleBody && <article class="wiki-reader wiki-prose prose prose-invert max-w-none reveal-up"><Fragment set:html={contentHtml} /></article>}
+          {hasArticleBody && <article class="wiki-reader wiki-prose prose prose-invert max-w-none reveal-up"><Content /></article>}
 
           {hasTracks && (
             <section class:list={['reveal-up', hasArticleBody && 'mt-12 border-t border-white/10 pt-10']}>

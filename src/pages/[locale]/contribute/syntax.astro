@@ -6,7 +6,7 @@ import SiteFooter from '../../../components/SiteFooter.astro';
 import TableOfContents from '../../../components/TableOfContents.astro';
 import { getLocalizedSite } from '../../../lib/homeData.mjs';
 import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../lib/i18n.mjs';
-import { renderContentEntry } from '../../../lib/contentSource.mjs';
+import { render } from 'astro:content';
 
 export async function getStaticPaths() {
   return supportedLocales.map((locale) => ({
@@ -29,7 +29,8 @@ if (!entry) {
   throw new Error(`Missing syntax guide for locale: ${localeCode}`);
 }
 
-const { html: contentHtml, headings, body: articleBody } = await renderContentEntry(entry);
+const { Content, headings } = await render(entry);
+const articleBody = entry.body;
 const hasArticleBody = Boolean(articleBody);
 const hasTableOfContents = headings.some(
   (heading) => heading.depth === 2 || heading.depth === 3,
@@ -226,7 +227,7 @@ const metadata = {
             </details>
           )}
 
-          <Fragment set:html={contentHtml} />
+          <Content />
         </article>
       ) : (
         <section class:list={[

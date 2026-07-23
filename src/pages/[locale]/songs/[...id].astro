@@ -12,7 +12,7 @@ import ContentLicenseNotice from '../../../components/ContentLicenseNotice.astro
 import { getLocalizedEntries, getLocalizedSite } from '../../../lib/homeData.mjs';
 import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../lib/i18n.mjs';
 import { buildArticleMetadata } from '../../../lib/metadata.mjs';
-import { renderContentEntry } from '../../../lib/contentSource.mjs';
+import { render } from 'astro:content';
 
 export async function getStaticPaths() {
   const songEntries = await getCollection('songs');
@@ -35,7 +35,8 @@ export async function getStaticPaths() {
 
 const { locale, id } = Astro.params;
 const { entry } = Astro.props;
-const { html: contentHtml, headings, body: articleBody } = await renderContentEntry(entry);
+const { Content, headings } = await render(entry);
+const articleBody = entry.body;
 const localeCode = locale as 'zh' | 'ja' | 'en';
 const hasArticleBody = Boolean(articleBody);
 const hasTableOfContents = headings.some((heading) => heading.depth === 2 || heading.depth === 3);
@@ -247,7 +248,7 @@ const themeStyle = [
           )}
 
           <article class="wiki-reader wiki-prose prose prose-invert max-w-none reveal-up">
-            <Fragment set:html={contentHtml} />
+            <Content />
           </article>
         </main>
       )}
