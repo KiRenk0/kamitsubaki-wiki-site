@@ -1,7 +1,7 @@
 import { spawn } from 'node:child_process';
 import { pathToFileURL } from 'node:url';
 import { collectContributionEvents } from './contributor-history.mjs';
-import { CONTRIBUTOR_SYNC_BATCH_SIZE as SYNC_BATCH_SIZE } from './contributor-sync-client.mjs';
+import { syncContributionEvents } from './contributor-sync-client.mjs';
 import { createGithubIdentityResolver } from './github-contributor-identity.mjs';
 
 const apiBase = process.env.CONTRIBUTORS_API_BASE || process.env.PUBLIC_AI_OBSERVER_API_BASE;
@@ -106,28 +106,20 @@ async function main() {
     if (resolved.contributor.id !== fallback.contributor.id) identityEnriched += 1;
     return { ...publicEvent, ...resolved };
   }));
-  const response = await fetch(new URL('/api/admin/contributors/sync', apiBase), {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${syncToken}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      source: 'git-history',
-      replaceSource: true,
-      events,
-    }),
-  });
-
-  const body = await response.json().catch(() => ({}));
-  if (!response.ok) {
-    throw new Error(`Contributor sync failed with ${response.status}: ${JSON.stringify(body)}`);
-  }
-  if (Number(body.accepted) !== events.length) {
-    throw new Error(`Contributor sync accepted ${body.accepted ?? 0} of ${events.length} events.`);
+  const events = filterGithubContributionEvents(resolvedEvents);
+  const skippedUnresolved = resolvedEvents.length - events.length;
+  if (events.length === 0) {
+    throw new Error('Contributor sync found no verified GitHub contribution events.');
   }
 
-  console.log(`Synced ${body.accepted ?? events.length} contribution events from ${body.contributors ?? 0} contributors; ${identityEnriched} events enriched by GitHub.`);
+  // The contributor API limit is 1000 events per request.
+  const result = await syncContributionEvents({ apiBase, syncToken, events });
+  if (result.accepted !== events.length) {
+    throw new Error(`Contributor sync accepted ${result.accepted} of ${events.length} events.`);
+  }
+
+  const contributors = new Set(events.map((event) => event.contributor.id)).size;
+  console.log(`Synced ${result.accepted} verified GitHub contribution events from ${contributors} contributors in ${result.batches} batches; ${identityEnriched} events enriched and ${skippedUnresolved} unresolved Git events skipped.`);
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
