@@ -252,7 +252,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Use event delegation to handle dynamically loaded elements (like AI Chat)
     document.addEventListener('mouseover', (event) => {
-      const hoverable = event.target instanceof Element && event.target.closest('a, button, summary, [data-hoverable], [role="button"], input[type="button"], input[type="submit"]');
+      const target = event.target instanceof Element ? event.target : null;
+      const textEntry = target?.closest('input:not([type="button"]):not([type="submit"]):not([type="reset"]), textarea, [contenteditable="true"]');
+      const hoverable = target?.closest('a, button, summary, [data-hoverable], [role="button"], input[type="button"], input[type="submit"]');
+      cursor.classList.toggle('text-entry', Boolean(textEntry));
       if (hoverable) {
         cursor.classList.add('hovering');
       } else {
@@ -262,6 +265,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.addEventListener('mouseleave', () => {
       cursor.classList.remove('hovering');
+      cursor.classList.remove('text-entry');
     });
   } else if (cursor) {
     cursor.style.display = 'none';

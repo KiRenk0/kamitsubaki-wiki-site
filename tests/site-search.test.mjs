@@ -1,0 +1,231 @@
+import assert from 'node:assert/strict';
+import { readFile } from 'node:fs/promises';
+import test from 'node:test';
+
+import {
+  buildSearchExcerpt,
+  normalizeSearchText,
+  searchResultPath,
+  searchSiteIndex,
+} from '../src/lib/siteSearch.mjs';
+import {
+  buildIndexAliases,
+  buildIndexStats,
+  cleanIndexText,
+  extractIndexHeadings,
+  flattenIndexMetadata,
+} from '../src/lib/searchIndex.mjs';
+import { foldCjkSearchText } from '../src/lib/cjkSearch.mjs';
+
+const entries = [
+  {
+    title: '花譜',
+    url: 'https://kamitsubaki.wiki/zh/artists/vwp/kaf/',
+    locale: 'zh',
+    kind: 'artist',
+    text: 'KAF 是 KAMITSUBAKI STUDIO 旗下虚拟歌手。',
+  },
+  {
+    title: 'KAF',
+    url: 'https://kamitsubaki.wiki/en/artists/vwp/kaf/',
+    locale: 'en',
+    kind: 'artist',
+    text: 'KAF is a virtual singer from KAMITSUBAKI STUDIO.',
+  },
+  {
+    title: '魔女',
+    url: 'https://kamitsubaki.wiki/zh/songs/vwp/genealogy/魔女/',
+    locale: 'zh',
+    kind: 'song',
+    text: 'V.W.P 的代表歌曲。',
+  },
+];
+
+test('search normalization handles width, case, and repeated whitespace', () => {
+  assert.equal(normalizeSearchText('  ＫＡＦ   Studio '), 'kaf studio');
+});
+
+test('site search prioritizes exact titles and filters the active locale', () => {
+  const zhResults = searchSiteIndex(entries, '花譜', { locale: 'zh' });
+  assert.deepEqual(zhResults.map((entry) => entry.title), ['花譜']);
+
+  const enResults = searchSiteIndex(entries, 'kaf', { locale: 'en' });
+  assert.deepEqual(enResults.map((entry) => entry.title), ['KAF']);
+  assert.ok(enResults[0].score > 1000);
+});
+
+test('site search supports multi-token body matches and safe result paths', () => {
+  const results = searchSiteIndex(entries, 'V.W.P 代表', { locale: 'zh' });
+  assert.deepEqual(results.map((entry) => entry.title), ['魔女']);
+  assert.equal(searchResultPath(results[0].url), '/zh/songs/vwp/genealogy/%E9%AD%94%E5%A5%B3/');
+});
+
+test('site search tolerates small Latin-name typos and supports kind filters', () => {
+  const typoResults = searchSiteIndex(entries, 'KAFf', { locale: 'en' });
+  assert.deepEqual(typoResults.map((entry) => entry.title), ['KAF']);
+
+  assert.deepEqual(
+    searchSiteIndex(entries, 'V.W.P', { locale: 'zh', kind: 'song' }).map((entry) => entry.title),
+    ['魔女'],
+  );
+});
+
+test('CJK folding unifies simplified, traditional, and Japanese shinjitai', () => {
+  assert.equal(foldCjkSearchText('观测'), '观测');
+  assert.equal(foldCjkSearchText('觀測'), '观测');
+  assert.equal(foldCjkSearchText('観測'), '观测');
+  assert.equal(foldCjkSearchText('藝術 芸術'), '艺术 艺术');
+  assert.equal(foldCjkSearchText('カミツバキ'), 'かみつばき');
+});
+
+test('site search uses folded CJK keys and tolerates a CJK typo', () => {
+  const foldedEntries = [{
+    title: '観測者',
+    path: '/ja/artists/observer/',
+    locale: 'ja',
+    kind: 'artist',
+    description: 'Japanese title',
+    titleKey: foldCjkSearchText('観測者'),
+    aliasKey: foldCjkSearchText('觀測者 观测者'),
+    headingKey: foldCjkSearchText('神椿藝術'),
+    searchKey: '',
+  }];
+
+  for (const query of ['观测者', '觀測者', '観測者', '观侧者', '观者']) {
+    const results = searchSiteIndex(foldedEntries, query, {
+      locale: 'ja',
+      queryNormalizer: foldCjkSearchText,
+    });
+    assert.deepEqual(results.map((entry) => entry.title), ['観測者'], query);
+  }
+});
+
+test('fuzzy title matches rank above incidental alias matches', () => {
+  const fuzzyEntries = [
+    {
+      title: '花譜',
+      path: '/zh/artists/vwp/kaf/',
+      locale: 'zh',
+      kind: 'artist',
+      titleKey: foldCjkSearchText('花譜'),
+      aliasKey: foldCjkSearchText('KAF'),
+      headingKey: '',
+      searchKey: '',
+    },
+    {
+      title: '1984 (LIVE)',
+      path: '/zh/songs/kaf/covers/1984/',
+      locale: 'zh',
+      kind: 'song',
+      titleKey: foldCjkSearchText('1984 (LIVE)'),
+      aliasKey: foldCjkSearchText('花譜 KAF'),
+      headingKey: '',
+      searchKey: '',
+    },
+    {
+      title: '花女',
+      path: '/zh/songs/kaf/originals/flower-girl/',
+      locale: 'zh',
+      kind: 'song',
+      titleKey: foldCjkSearchText('花女'),
+      aliasKey: '',
+      headingKey: '',
+      searchKey: '',
+    },
+  ];
+  const results = searchSiteIndex(fuzzyEntries, '花普', {
+    locale: 'zh',
+    queryNormalizer: foldCjkSearchText,
+  });
+
+  assert.deepEqual(results.map((entry) => entry.title), ['花譜', '花女', '1984 (LIVE)']);
+  assert.ok(results[0].score > results[1].score);
+});
+
+test('search excerpts center the first query match', () => {
+  const excerpt = buildSearchExcerpt({ text: `${'前文'.repeat(80)} 花譜 观测记录 ${'后文'.repeat(80)}` }, '花譜', 80);
+  assert.match(excerpt, /^…/);
+  assert.match(excerpt, /花譜/);
+  assert.match(excerpt, /…$/);
+});
+
+test('AI index helpers preserve useful ruby readings while removing markup noise', () => {
+  const cleaned = cleanIndexText(`
+## 概述
+{{ruby::花譜::かふ::kaf}} 是歌手。
+<ruby>魔女<rt>まじょ</rt></ruby>
+@[youtube](https://example.com)
+[官方页面](https://example.com)
+  `);
+  assert.match(cleaned, /花譜 かふ kaf/);
+  assert.match(cleaned, /魔女/);
+  assert.doesNotMatch(cleaned, /まじょ|https:|youtube/);
+  assert.match(cleaned, /官方页面/);
+});
+
+test('AI index helpers build aliases, headings, flattened metadata, and stats', () => {
+  const data = {
+    name: '花譜',
+    romanizedName: 'KAF',
+    seo: { keywords: ['V.W.P', '花譜'] },
+    affiliations: ['KAMITSUBAKI STUDIO'],
+    theme: { accentColor: '#fff' },
+  };
+  assert.deepEqual(buildIndexAliases(data), ['花譜', 'KAF', 'V.W.P']);
+  assert.deepEqual(extractIndexHeadings('## 概述\nText\n### 活动历程'), ['概述', '活动历程']);
+  assert.deepEqual(flattenIndexMetadata(data), ['花譜', 'KAF', 'V.W.P', '花譜', 'KAMITSUBAKI STUDIO']);
+  assert.deepEqual(buildIndexStats(entries), {
+    total: 3,
+    byLocale: { zh: 2, en: 1 },
+    byKind: { artist: 2, song: 1 },
+  });
+});
+
+test('search UI is mounted globally with open and close motion', async () => {
+  const read = (path) => readFile(new URL(path, import.meta.url), 'utf8');
+  const [layout, component, script, styles, nav, homeNav] = await Promise.all([
+    read('../src/layouts/BaseLayout.astro'),
+    read('../src/components/SiteSearch.astro'),
+    read('../src/scripts/siteSearch.js'),
+    read('../src/styles/global.css'),
+    read('../src/components/SiteNav.astro'),
+    read('../src/components/HomeSiteNav.astro'),
+  ]);
+
+  assert.match(layout, /<SiteSearch lang=\{lang\}/);
+  assert.match(component, /data-site-search/);
+  assert.match(component, /role="dialog"/);
+  assert.match(component, /data-search-input/);
+  assert.match(script, /search-index\.json/);
+  assert.match(script, /event\.key\.toLowerCase\(\) === 'k'/);
+  assert.match(script, /event\.key === 'Escape'/);
+  assert.match(script, /event\.key !== 'Tab'/);
+  assert.match(script, /classList\.add\('is-closing'\)/);
+  assert.match(script, /closeAnimationTimer/);
+  assert.match(styles, /@keyframes site-search-enter/);
+  assert.match(styles, /@keyframes site-search-exit/);
+  assert.match(styles, /@keyframes site-search-backdrop-in/);
+  assert.match(styles, /@keyframes site-search-backdrop-out/);
+  assert.match(styles, /@media \(prefers-reduced-motion: reduce\)/);
+  assert.match(nav, /data-search-open/);
+  assert.match(homeNav, /data-search-open/);
+});
+
+test('AI index v2 keeps legacy fields while adding retrieval metadata', async () => {
+  const endpoint = await readFile(new URL('../src/pages/ai-index.json.ts', import.meta.url), 'utf8');
+  assert.match(endpoint, /version:\s*2/);
+  assert.match(endpoint, /schema:\s*'kamitsubaki-wiki-ai-index'/);
+  assert.match(endpoint, /stats:\s*buildIndexStats/);
+  assert.match(endpoint, /aliases/);
+  assert.match(endpoint, /description/);
+  assert.match(endpoint, /headings/);
+  assert.match(endpoint, /\btext,/);
+});
+
+test('localized lightweight search index is generated separately from the AI corpus', async () => {
+  const endpoint = await readFile(new URL('../src/pages/[locale]/search-index.json.ts', import.meta.url), 'utf8');
+  assert.match(endpoint, /kamitsubaki-wiki-search-index/);
+  assert.match(endpoint, /entry\.data\.locale !== locale/);
+  assert.match(endpoint, /searchKey/);
+  assert.match(endpoint, /1100/);
+});

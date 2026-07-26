@@ -1,0 +1,143 @@
+---
+const { lang = 'zh' } = Astro.props as { lang?: string };
+
+const copy = {
+  zh: {
+    openLabel: '打开站内搜索',
+    title: '搜索观测记录',
+    closeLabel: '关闭搜索',
+    placeholder: '搜索艺人、歌曲、专辑、企划或观测记录…',
+    idle: '输入关键词，检索本站全部观测记录。',
+    loading: '正在读取观测索引…',
+    error: '搜索索引暂时无法读取，请稍后再试。',
+    empty: '没有找到匹配的观测记录。',
+    resultCount: (count: number) => `找到 ${count} 条结果`,
+    kinds: { all: '全部', artist: '艺人', song: '歌曲', album: '专辑', project: '企划', log: '记录' },
+    navigateHint: '↑↓ 选择',
+    openHint: 'ENTER 打开',
+    shortcutHint: '⌘K 搜索',
+  },
+  ja: {
+    openLabel: 'サイト内検索を開く',
+    title: '観測記録を検索',
+    closeLabel: '検索を閉じる',
+    placeholder: 'アーティスト、楽曲、アルバム、プロジェクト、記録を検索…',
+    idle: 'キーワードを入力して、すべての観測記録を検索します。',
+    loading: '観測インデックスを読み込んでいます…',
+    error: '検索インデックスを読み込めません。しばらくしてからお試しください。',
+    empty: '一致する観測記録が見つかりませんでした。',
+    resultCount: (count: number) => `${count} 件の結果`,
+    kinds: { all: 'すべて', artist: 'アーティスト', song: '楽曲', album: 'アルバム', project: '企画', log: '記録' },
+    navigateHint: '↑↓ 選択',
+    openHint: 'ENTER 開く',
+    shortcutHint: '⌘K 検索',
+  },
+  en: {
+    openLabel: 'Open site search',
+    title: 'Search observations',
+    closeLabel: 'Close search',
+    placeholder: 'Search artists, songs, albums, projects, or logs…',
+    idle: 'Enter a keyword to search every observation on this site.',
+    loading: 'Loading observation index…',
+    error: 'The search index is unavailable. Please try again later.',
+    empty: 'No matching observations found.',
+    resultCount: (count: number) => `${count} result${count === 1 ? '' : 's'}`,
+    kinds: { all: 'All', artist: 'Artist', song: 'Song', album: 'Album', project: 'Project', log: 'Log' },
+    navigateHint: '↑↓ Select',
+    openHint: 'ENTER Open',
+    shortcutHint: '⌘K Search',
+  },
+}[lang] ?? {
+  openLabel: 'Open site search',
+  title: 'Search observations',
+  closeLabel: 'Close search',
+  placeholder: 'Search the wiki…',
+  idle: 'Enter a keyword to search this site.',
+  loading: 'Loading search index…',
+  error: 'The search index is unavailable.',
+  empty: 'No results found.',
+  resultCount: (count: number) => `${count} results`,
+  kinds: { all: 'All', artist: 'Artist', song: 'Song', album: 'Album', project: 'Project', log: 'Log' },
+  navigateHint: '↑↓ Select',
+  openHint: 'ENTER Open',
+  shortcutHint: '⌘K Search',
+};
+
+const serializedCopy = {
+  ...copy,
+  resultCount: undefined,
+  resultCountTemplate: lang === 'zh'
+    ? '找到 {count} 条结果'
+    : lang === 'ja'
+      ? '{count} 件の結果'
+      : '{count} result|{count} results',
+};
+---
+
+<div
+  class="site-search"
+  data-site-search
+  data-locale={lang}
+  data-copy={JSON.stringify(serializedCopy)}
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="site-search-title"
+  hidden
+>
+  <section class="site-search__panel">
+    <header class="site-search__header">
+      <div>
+        <span class="site-search__eyebrow">DATABASE_QUERY // {lang.toUpperCase()}</span>
+        <h2 id="site-search-title">{copy.title}</h2>
+      </div>
+      <button class="site-search__close" type="button" data-search-close aria-label={copy.closeLabel}>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true">
+          <path d="M18 6 6 18M6 6l12 12" />
+        </svg>
+      </button>
+    </header>
+
+    <form class="site-search__form" data-search-form role="search">
+      <svg class="site-search__input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true">
+        <circle cx="11" cy="11" r="6.5" />
+        <path d="m16 16 4 4" />
+      </svg>
+      <input
+        class="site-search__input"
+        data-search-input
+        type="search"
+        name="q"
+        autocomplete="off"
+        spellcheck="false"
+        placeholder={copy.placeholder}
+        aria-controls="site-search-results"
+      />
+      <kbd>ESC</kbd>
+    </form>
+
+    <div class="site-search__status" data-search-status aria-live="polite">{copy.idle}</div>
+    <div class="site-search__filters" aria-label={copy.title}>
+      {Object.entries(copy.kinds).map(([kind, label], index) => (
+        <button
+          type="button"
+          data-search-kind={kind}
+          class={index === 0 ? 'is-active' : ''}
+          aria-pressed={index === 0 ? 'true' : 'false'}
+        >
+          {label}
+        </button>
+      ))}
+    </div>
+    <div class="site-search__results" id="site-search-results" data-search-results role="listbox"></div>
+
+    <footer class="site-search__footer" aria-hidden="true">
+      <span>{copy.navigateHint}</span>
+      <span>{copy.openHint}</span>
+      <span>{copy.shortcutHint}</span>
+    </footer>
+  </section>
+</div>
+
+<script>
+  import '../scripts/siteSearch.js';
+</script>
