@@ -21,6 +21,11 @@ const { navItems, localeLinks, brandLines, homeHref = '/' } = Astro.props as {
 };
 
 const currentLocale = localeLinks.find((item) => item.current)?.code ?? 'en';
+const searchLabel = {
+  zh: '打开站内搜索',
+  ja: 'サイト内検索を開く',
+  en: 'Open site search',
+}[currentLocale] ?? 'Open site search';
 const themeCopy = {
   zh: {
     groupLabel: '主题模式',
@@ -97,11 +102,20 @@ const resolvedNavItems = navItems.map((item) => ({
         {resolvedNavItems.map((item) => (
           <a href={item.href}>{item.label}</a>
         ))}
+        <button type="button" data-search-open>SEARCH</button>
       </div>
     </details>
     {resolvedNavItems.map((item) => (
       <a href={item.href} class="site-nav__link hidden lg:inline hover:text-white/50 transition-all duration-300">{item.label}</a>
     ))}
+    <button class="site-nav__search-trigger hidden lg:inline" type="button" data-search-open aria-label={searchLabel}>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+        <circle cx="10.5" cy="10.5" r="6" />
+        <path d="m15 15 4.5 4.5" />
+      </svg>
+      <span>SEARCH</span>
+      <kbd>⌘K</kbd>
+    </button>
     <div class="site-nav__language-switcher font-mono tracking-widest text-[8px]" aria-label="Language switcher">
       {localeLinks.map((item) => (
         <a

@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import AiChatWidget from '../components/AiChatWidget.astro';
+import SiteSearch from '../components/SiteSearch.astro';
 import SiteIntro from '../components/SiteIntro.astro';
 import SocialContactWidget from '../components/SocialContactWidget.astro';
 import { getLocalizedSiteName } from '../lib/i18n.mjs';
@@ -147,6 +148,7 @@ const fontStylesheet = {
     <div class="cursor-dot hidden md:block" id="cursor"></div>
 
     <slot />
+    <SiteSearch lang={lang} />
     {socialContactCopy && <SocialContactWidget copy={socialContactCopy} />}
     {aiChatCopy && <AiChatWidget lang={lang} copy={aiChatCopy} />}
 

@@ -111,6 +111,15 @@ test('artist hover backgrounds preserve the source image colors', async () => {
   assert.match(backgroundImage, /\bsaturate-125\b/);
 });
 
+test('artist hover background overscans the full viewport without changing its animation', async () => {
+  const styles = await readSource('../src/styles/global.css');
+
+  assert.match(styles, /\.fixed-bg-hack\s*\{[^}]*width:\s*100vw;[^}]*height:\s*100dvh;/s);
+  assert.match(styles, /\.artist-bg__image\s*\{[^}]*top:\s*-2%;[^}]*left:\s*-2%;[^}]*width:\s*104%;[^}]*max-width:\s*none;[^}]*height:\s*104%;/s);
+  assert.match(styles, /\.artist-bg__image\s*\{[^}]*transform:\s*scale\(1\.035\);[^}]*opacity 680ms[^}]*transform 1600ms[^}]*filter 900ms/s);
+  assert.match(styles, /\.artist-bg__image\.is-active\s*\{[^}]*opacity:\s*0\.35;[^}]*transform:\s*scale\(1\);/s);
+});
+
 test('table of contents tracks the active heading from scroll position', async () => {
   const toc = await readSource('../src/components/TableOfContents.astro');
 
