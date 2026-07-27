@@ -131,6 +131,7 @@ function renderActions(root, copy) {
       <a class="contributor-roster__action contributor-roster__action--primary" href="${escapeHtml(root.dataset.editHref || root.dataset.guideHref || '#')}">${escapeHtml(copy.joinAction)} <span aria-hidden="true">→</span></a>
       <a class="contributor-roster__action" href="${escapeHtml(root.dataset.guideHref || '#')}">${escapeHtml(copy.guideAction)}</a>
       <a class="contributor-roster__action" href="${escapeHtml(root.dataset.syntaxHref || '#')}">${escapeHtml(copy.syntaxAction)}</a>
+      <a class="contributor-roster__action" href="${escapeHtml(root.dataset.formatHref || '#')}">${escapeHtml(copy.formatAction)}</a>
     </div>
   `;
 }

@@ -244,8 +244,14 @@ test('contributor roster exposes localized honor wall copy and contribution rout
   assert.match(component, /retry/);
   assert.match(component, /error/);
   assert.match(component, /data-guide-href/);
+  assert.match(component, /data-syntax-href/);
+  assert.match(component, /data-format-href/);
   assert.match(component, /data-edit-href/);
   assert.match(component, /contribute\/edit/);
+  assert.match(component, /contribute\/format/);
+  assert.match(component, /统一格式指南/);
+  assert.match(component, /統一スタイルガイド/);
+  assert.match(component, /Unified style guide/);
   assert.match(component, /src\/content\/\$\{collection\}/);
 });
 
@@ -309,6 +315,10 @@ test('contributor renderer builds honor wall cards, readable activity, and retry
   assert.match(script, /contributor-roster__breakdown/);
   assert.match(script, /topLimit', '24/);
   assert.match(script, /contributor-roster__actions/);
+  assert.match(script, /dataset\.syntaxHref/);
+  assert.match(script, /dataset\.formatHref/);
+  assert.match(script, /copy\.syntaxAction/);
+  assert.match(script, /copy\.formatAction/);
   assert.match(script, /contributor-roster__locale/);
   assert.match(script, /contributor-roster__activity/);
   assert.match(script, /recentLimit:\s*mode === 'entry' \? 3 : 10/);

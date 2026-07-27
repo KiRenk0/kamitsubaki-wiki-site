@@ -33,6 +33,7 @@ test('rendered Markdown collections do not retain duplicate source bodies', asyn
     'albums',
     'announcements',
     'syntaxGuide',
+    'formatGuide',
     'editGuide',
   ];
 

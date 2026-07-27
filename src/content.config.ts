@@ -425,6 +425,22 @@ const syntaxGuide = defineCollection({
   }),
 });
 
+const formatGuide = defineCollection({
+  loader: metadataOnlyGlob({
+    pattern: ['zh.md', 'ja.md', 'en.md'],
+    base: new URL('./content/contribute/format-guide/', import.meta.url),
+    retainBody: false,
+  }),
+  schema: z.object({
+    locale,
+    translationKey: z.literal('format-guide'),
+    title: z.string(),
+    description: z.string().optional(),
+    license: contentLicense.optional(),
+    seo,
+  }),
+});
+
 const editGuide = defineCollection({
   loader: metadataOnlyGlob({
     pattern: '{zh,ja,en}.md',
@@ -516,4 +532,5 @@ export const collections = {
   songs,
   albums,
   syntaxGuide,
+  formatGuide,
 };
