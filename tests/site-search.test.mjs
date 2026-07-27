@@ -16,6 +16,7 @@ import {
   flattenIndexMetadata,
 } from '../src/lib/searchIndex.mjs';
 import { foldCjkSearchText } from '../src/lib/cjkSearch.mjs';
+import { getSearchShortcut } from '../src/lib/searchShortcut.mjs';
 
 const entries = [
   {
@@ -40,6 +41,13 @@ const entries = [
     text: 'V.W.P 的代表歌曲。',
   },
 ];
+
+test('search shortcut labels follow the visitor operating system', () => {
+  assert.equal(getSearchShortcut({ platform: 'MacIntel' }), '⌘K');
+  assert.equal(getSearchShortcut({ platform: 'iPhone' }), '⌘K');
+  assert.equal(getSearchShortcut({ platform: 'Win32' }), 'Ctrl+K');
+  assert.equal(getSearchShortcut({ platform: 'Linux x86_64' }), 'Ctrl+K');
+});
 
 test('search normalization handles width, case, and repeated whitespace', () => {
   assert.equal(normalizeSearchText('  ＫＡＦ   Studio '), 'kaf studio');
@@ -198,6 +206,8 @@ test('search UI is mounted globally with open and close motion', async () => {
   assert.match(component, /data-search-input/);
   assert.match(script, /search-index\.json/);
   assert.match(script, /event\.key\.toLowerCase\(\) === 'k'/);
+  assert.match(script, /getSearchShortcut/);
+  assert.match(script, /querySelectorAll\('\[data-search-shortcut\]'\)/);
   assert.match(script, /event\.key === 'Escape'/);
   assert.match(script, /event\.key !== 'Tab'/);
   assert.match(script, /classList\.add\('is-closing'\)/);
@@ -208,7 +218,10 @@ test('search UI is mounted globally with open and close motion', async () => {
   assert.match(styles, /@keyframes site-search-backdrop-out/);
   assert.match(styles, /@media \(prefers-reduced-motion: reduce\)/);
   assert.match(nav, /data-search-open/);
+  assert.match(nav, /data-search-shortcut/);
   assert.match(homeNav, /data-search-open/);
+  assert.match(homeNav, /data-search-shortcut/);
+  assert.match(component, /data-search-shortcut/);
 });
 
 test('AI index v2 keeps legacy fields while adding retrieval metadata', async () => {

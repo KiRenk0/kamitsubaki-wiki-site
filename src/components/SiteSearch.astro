@@ -15,7 +15,7 @@ const copy = {
     kinds: { all: '全部', artist: '艺人', song: '歌曲', album: '专辑', project: '企划', log: '记录' },
     navigateHint: '↑↓ 选择',
     openHint: 'ENTER 打开',
-    shortcutHint: '⌘K 搜索',
+    shortcutAction: '搜索',
   },
   ja: {
     openLabel: 'サイト内検索を開く',
@@ -30,7 +30,7 @@ const copy = {
     kinds: { all: 'すべて', artist: 'アーティスト', song: '楽曲', album: 'アルバム', project: '企画', log: '記録' },
     navigateHint: '↑↓ 選択',
     openHint: 'ENTER 開く',
-    shortcutHint: '⌘K 検索',
+    shortcutAction: '検索',
   },
   en: {
     openLabel: 'Open site search',
@@ -45,7 +45,7 @@ const copy = {
     kinds: { all: 'All', artist: 'Artist', song: 'Song', album: 'Album', project: 'Project', log: 'Log' },
     navigateHint: '↑↓ Select',
     openHint: 'ENTER Open',
-    shortcutHint: '⌘K Search',
+    shortcutAction: 'Search',
   },
 }[lang] ?? {
   openLabel: 'Open site search',
@@ -60,7 +60,7 @@ const copy = {
   kinds: { all: 'All', artist: 'Artist', song: 'Song', album: 'Album', project: 'Project', log: 'Log' },
   navigateHint: '↑↓ Select',
   openHint: 'ENTER Open',
-  shortcutHint: '⌘K Search',
+  shortcutAction: 'Search',
 };
 
 const serializedCopy = {
@@ -133,7 +133,7 @@ const serializedCopy = {
     <footer class="site-search__footer" aria-hidden="true">
       <span>{copy.navigateHint}</span>
       <span>{copy.openHint}</span>
-      <span>{copy.shortcutHint}</span>
+      <span><span data-search-shortcut>Ctrl+K</span> {copy.shortcutAction}</span>
     </footer>
   </section>
 </div>
