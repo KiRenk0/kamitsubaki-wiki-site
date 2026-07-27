@@ -7,6 +7,7 @@ vwp/       V.W.P artists
 solo/      solo artists and units
 creators/  composers, illustrators, and other creators
 isotopes/  musical isotope entries
+derivative_characters/  derivative character entries
 ```
 
 Each entry has three locale files using the same `translationKey`.

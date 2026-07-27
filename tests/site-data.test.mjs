@@ -3,7 +3,7 @@ import { readFile } from 'node:fs/promises';
 import test from 'node:test';
 import yaml from 'yaml';
 
-import { buildArtistCategories, buildDatabaseJumpLinks, buildLogCards, buildProjectCards } from '../src/lib/homeData.mjs';
+import { buildArtistCategories, buildDatabaseJumpLinks, buildHomepageArtistCategories, buildLogCards, buildProjectCards } from '../src/lib/homeData.mjs';
 
 const artistFolders = new Map([
   ['kaf', 'vwp'],
@@ -46,7 +46,7 @@ test('nav items point to the primary page sections in display order', async () =
   );
 });
 
-test('artist database keeps the five homepage categories in editorial order', async () => {
+test('artist database keeps the six homepage categories in editorial order', async () => {
   const artistFiles = [
     'kaf',
     'rim',
@@ -68,16 +68,28 @@ test('artist database keeps the five homepage categories in editorial order', as
       data: await readMd(`../src/content/artists/${artistFolders.get(id)}/${id}/zh.md`),
     })),
   );
-  const artistCategories = buildArtistCategories(artistEntries);
+  const artistCategories = buildHomepageArtistCategories(artistEntries, 'zh');
 
   assert.deepEqual(
     artistCategories.map((category) => category.id),
-    ['cat-vwp', 'cat-isotopes', 'cat-solo', 'cat-girls_revolution_project', 'cat-creators'],
+    [
+      'cat-vwp',
+      'cat-isotopes',
+      'cat-solo',
+      'cat-girls_revolution_project',
+      'cat-creators',
+      'cat-derivative_characters',
+    ],
   );
 
   const vwp = artistCategories.find((category) => category.id === 'cat-vwp');
+  const derivativeCharacters = artistCategories.find(
+    (category) => category.id === 'cat-derivative_characters',
+  );
   assert.equal(vwp.title, '虚拟世代的魔女们');
   assert.equal(vwp.items.length, 5);
+  assert.equal(derivativeCharacters.title, '衍生角色');
+  assert.deepEqual(derivativeCharacters.items, []);
   assert.deepEqual(vwp.items[0], {
     id: 'vwp/kaf',
     code: '01',
@@ -151,6 +163,50 @@ test('artist database derives categories and jump links from folders', async () 
     {
       label: '>> 自定义组合',
       href: '#cat-fan-units',
+    },
+  ]);
+});
+
+test('artist database places derivative characters after Girls Revolution Project artists', () => {
+  const artistCategories = buildHomepageArtistCategories([
+    {
+      id: 'derivative_characters/example-character/zh',
+      data: {
+        name: '衍生角色',
+        romanizedName: 'Derivative Character',
+        categoryTitle: '衍生角色',
+        categorySubtitle: 'DERIVATIVE CHARACTERS',
+        statusLabel: 'STATUS',
+        status: 'ACTIVE',
+        image: 'https://example.com/derivative-character.jpg',
+      },
+    },
+    {
+      id: 'girls_revolution_project/example-artist/zh',
+      data: {
+        name: '少女革命计划艺人',
+        romanizedName: 'Girls Revolution Project Artist',
+        categoryTitle: '少女革命计划',
+        categorySubtitle: 'GIRLS REVOLUTION PROJECT',
+        statusLabel: 'STATUS',
+        status: 'ACTIVE',
+        image: 'https://example.com/girls-revolution-project-artist.jpg',
+      },
+    },
+  ], 'zh');
+
+  assert.deepEqual(
+    artistCategories.map((category) => category.id),
+    ['cat-girls_revolution_project', 'cat-derivative_characters'],
+  );
+  assert.deepEqual(buildDatabaseJumpLinks(artistCategories), [
+    {
+      label: '>> 少女革命计划',
+      href: '#cat-girls_revolution_project',
+    },
+    {
+      label: '>> 衍生角色',
+      href: '#cat-derivative_characters',
     },
   ]);
 });

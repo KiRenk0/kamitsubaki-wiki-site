@@ -88,10 +88,41 @@ const homepageArtistCategoryOrder = {
   solo: 3,
   girls_revolution_project: 4,
   creators: 5,
+  derivative_characters: 6,
 };
 
-export function buildArtistCategories(artistEntries) {
+const homepageArtistCategoryLabels = {
+  derivative_characters: {
+    zh: {
+      title: '衍生角色',
+      subtitle: 'DERIVATIVE CHARACTERS',
+    },
+    ja: {
+      title: '派生キャラクター',
+      subtitle: 'DERIVATIVE CHARACTERS',
+    },
+    en: {
+      title: 'Derivative Characters',
+      subtitle: 'DERIVATIVE CHARACTERS',
+    },
+  },
+};
+
+export function buildArtistCategories(artistEntries, initialCategories = []) {
   const categories = new Map();
+
+  for (const initialCategory of initialCategories) {
+    const categoryId = `cat-${initialCategory.slug}`;
+
+    categories.set(categoryId, {
+      id: categoryId,
+      slug: initialCategory.slug,
+      title: initialCategory.title,
+      subtitle: initialCategory.subtitle,
+      order: homepageArtistCategoryOrder[initialCategory.slug] ?? initialCategory.order,
+      items: [],
+    });
+  }
 
   for (const entry of artistEntries) {
     const artist = entry.data;
@@ -163,6 +194,19 @@ export function buildArtistCategories(artistEntries) {
           code: artist.code || String(index + 1).padStart(2, '0'),
         })),
     }));
+}
+
+export function buildHomepageArtistCategories(artistEntries, locale = 'zh') {
+  const derivativeCharacterLabels =
+    homepageArtistCategoryLabels.derivative_characters[locale] ??
+    homepageArtistCategoryLabels.derivative_characters.zh;
+
+  return buildArtistCategories(artistEntries, [
+    {
+      slug: 'derivative_characters',
+      ...derivativeCharacterLabels,
+    },
+  ]);
 }
 
 export function buildDatabaseJumpLinks(artistCategories) {

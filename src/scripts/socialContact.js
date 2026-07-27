@@ -12,16 +12,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     let closeTimer;
+    let openFrame;
+
+    const announceState = (open) => {
+      widget.dispatchEvent(new CustomEvent('social-contact:statechange', {
+        bubbles: true,
+        detail: { open },
+      }));
+    };
 
     const setOpen = (nextOpen) => {
       window.clearTimeout(closeTimer);
+      window.cancelAnimationFrame(openFrame);
 
       if (nextOpen) {
         panel.hidden = false;
         widget.classList.remove('is-open');
-        window.requestAnimationFrame(() => widget.classList.add('is-open'));
+        openFrame = window.requestAnimationFrame(() => {
+          widget.classList.add('is-open');
+          announceState(true);
+        });
       } else {
         widget.classList.remove('is-open');
+        announceState(false);
         closeTimer = window.setTimeout(() => {
           panel.hidden = true;
         }, prefersReducedMotion ? 0 : 240);

@@ -867,6 +867,48 @@ html.has-js .reveal-up.active {
   white-space: nowrap;
 }
 
+.site-nav__home-cluster {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.site-nav__controls-origin,
+.site-nav__controls-destination {
+  pointer-events: none;
+}
+
+.site-nav__controls-origin {
+  display: grid;
+  justify-items: end;
+}
+
+.site-nav__controls-destination:empty {
+  display: none;
+}
+
+.site-nav__controls-destination:not(:empty) {
+  display: block;
+  margin-top: 1.25rem;
+}
+
+.site-nav__portable-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.75rem;
+  pointer-events: auto;
+  will-change: transform, opacity;
+}
+
+.site-nav__controls-destination .site-nav__portable-controls {
+  align-items: flex-start;
+}
+
+.site-nav__controls-destination .site-nav__controls {
+  justify-items: start;
+}
+
 .site-nav__controls {
   display: grid;
   justify-items: end;

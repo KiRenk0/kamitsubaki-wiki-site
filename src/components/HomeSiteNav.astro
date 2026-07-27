@@ -60,16 +60,19 @@ const themeCopy = {
 };
 ---
 
-<nav class="site-nav site-nav--home fixed top-0 w-full z-50 mix-blend-difference flex justify-between pointer-events-none items-start px-6 py-8 md:px-12">
-  <a href={homeHref} class="pointer-events-auto group">
-    <p class="text-white tracking-kamidest font-light uppercase group-hover:opacity-50 transition-opacity duration-500 text-[10px] leading-relaxed md:text-xs">
-      {brandLines.map((line, index) => (
-        <>
-          {line}{index < brandLines.length - 1 && <br />}
-        </>
-      ))}
-    </p>
-  </a>
+<nav class="site-nav site-nav--home fixed top-0 w-full z-50 mix-blend-difference flex justify-between pointer-events-none items-start px-6 py-8 md:px-12" data-home-nav-collision>
+  <div class="site-nav__home-cluster">
+    <a href={homeHref} class="pointer-events-auto group" data-home-nav-brand>
+      <p class="text-white tracking-kamidest font-light uppercase group-hover:opacity-50 transition-opacity duration-500 text-[10px] leading-relaxed md:text-xs">
+        {brandLines.map((line, index) => (
+          <>
+            {line}{index < brandLines.length - 1 && <br />}
+          </>
+        ))}
+      </p>
+    </a>
+    <div class="site-nav__controls-destination" data-home-nav-controls-destination></div>
+  </div>
   <div class="pointer-events-auto flex items-end text-[9px] md:text-[10px] tracking-kamidest-lg font-light text-white flex-col gap-3">
     <details class="site-nav__menu pointer-events-auto md:hidden">
       <summary aria-label="Open navigation">MENU</summary>
@@ -83,48 +86,56 @@ const themeCopy = {
     {navItems.map((item) => (
       <a href={item.href} class="site-nav__link hidden md:inline hover:text-white/50 transition-all duration-300">{item.label}</a>
     ))}
-    <button class="site-nav__search-trigger hidden md:inline" type="button" data-search-open aria-label={searchLabel}>
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-        <circle cx="10.5" cy="10.5" r="6" />
-        <path d="m15 15 4.5 4.5" />
-      </svg>
-      <span>SEARCH</span>
-      <kbd>⌘K</kbd>
-    </button>
-    <div class="site-nav__controls mt-4">
-      <div class="flex gap-3 font-mono tracking-widest text-[8px]" aria-label="Language switcher">
-        {localeLinks.map((item) => (
-          <a
-            href={item.href}
-            aria-current={item.current ? 'page' : undefined}
-            title={item.label}
-            class={item.current ? 'text-white' : 'text-white/35 hover:text-white transition-colors'}
+    <div class="site-nav__controls-origin" data-home-nav-controls-origin>
+      <div class="site-nav__portable-controls" data-home-nav-portable-controls>
+        <button class="site-nav__search-trigger hidden md:inline" type="button" data-search-open aria-label={searchLabel}>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <circle cx="10.5" cy="10.5" r="6" />
+            <path d="m15 15 4.5 4.5" />
+          </svg>
+          <span>SEARCH</span>
+          <kbd>⌘K</kbd>
+        </button>
+        <div class="site-nav__controls mt-4">
+          <div class="flex gap-3 font-mono tracking-widest text-[8px]" aria-label="Language switcher">
+            {localeLinks.map((item) => (
+              <a
+                href={item.href}
+                aria-current={item.current ? 'page' : undefined}
+                title={item.label}
+                class={item.current ? 'text-white' : 'text-white/35 hover:text-white transition-colors'}
+              >
+                {item.shortLabel}
+              </a>
+            ))}
+          </div>
+          <div
+            class="site-nav__theme-switcher flex gap-3 font-mono tracking-widest text-[8px]"
+            data-theme-switcher
+            role="radiogroup"
+            aria-label={themeCopy.groupLabel}
           >
-            {item.shortLabel}
-          </a>
-        ))}
-      </div>
-      <div
-        class="site-nav__theme-switcher flex gap-3 font-mono tracking-widest text-[8px]"
-        data-theme-switcher
-        role="radiogroup"
-        aria-label={themeCopy.groupLabel}
-      >
-        {themeCopy.options.map((option) => (
-          <button
-            type="button"
-            class="site-nav__theme-option"
-            data-theme-toggle
-            data-theme-value={option.value}
-            role="radio"
-            aria-checked="false"
-            aria-label={option.label}
-            title={option.label}
-          >
-            {option.shortLabel}
-          </button>
-        ))}
+            {themeCopy.options.map((option) => (
+              <button
+                type="button"
+                class="site-nav__theme-option"
+                data-theme-toggle
+                data-theme-value={option.value}
+                role="radio"
+                aria-checked="false"
+                aria-label={option.label}
+                title={option.label}
+              >
+                {option.shortLabel}
+              </button>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </nav>
+
+<script>
+  import '../scripts/homeNavCollision.js';
+</script>

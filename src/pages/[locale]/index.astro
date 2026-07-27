@@ -12,7 +12,7 @@ import SiteFooter from '../../components/SiteFooter.astro';
 import SongsSection from '../../components/SongsSection.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import { buildArtistCategories, buildDatabaseJumpLinks, buildLogCards, buildProjectCards, getLocalizedEntries, getLocalizedSite } from '../../lib/homeData.mjs';
+import { buildDatabaseJumpLinks, buildHomepageArtistCategories, buildLogCards, buildProjectCards, getLocalizedEntries, getLocalizedSite } from '../../lib/homeData.mjs';
 import { buildHomeMusicCatalog, sampleRandom } from '../../lib/homeMusicCatalog.mjs';
 import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../lib/i18n.mjs';
 import { buildHomeMetadata } from '../../lib/metadata.mjs';
@@ -36,7 +36,7 @@ const homeMusicCatalog = buildHomeMusicCatalog(songEntries, albumEntries, artist
 const songs = sampleRandom(homeMusicCatalog.songs, 5);
 const albums = sampleRandom(homeMusicCatalog.albums, 5);
 
-const artistCategories = buildArtistCategories(artistEntries);
+const artistCategories = buildHomepageArtistCategories(artistEntries, locale);
 const databaseJumpLinks = buildDatabaseJumpLinks(artistCategories);
 const projects = buildProjectCards(projectEntries, locale);
 const logEntries = buildLogCards(logEntryCollection, locale);
