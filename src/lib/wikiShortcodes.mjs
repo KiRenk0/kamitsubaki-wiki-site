@@ -1,7 +1,10 @@
+import { resolveLocaleCopy } from './i18n.mjs';
+import { splitShortcodeArguments } from './shortcodeArguments.mjs';
+
 const INLINE_SHORTCODE = /\{\{([a-z][a-z-]*)(::(?:\\.|[^{}])*)\}\}/gi;
 const DETAILS_OPEN = /^\{\{details::((?:\\.|[^{}])+)\}\}$/i;
 const DETAILS_CLOSE = /^\{\{\/details\}\}$/i;
-const LYRICS_CONTROLS = /^\{\{lyrics-controls::(zh|ja|en)\}\}$/i;
+const LYRICS_CONTROLS = /^\{\{lyrics-controls::(zh|zh-tw|zh-hk|ja|en)\}\}$/i;
 const LRC_TIMESTAMP_PATTERN = /\[\d{2}:\d{2}\.\d{2,3}\]/;
 const LRC_TAG_REGEX = /\[(\d{2}):(\d{2})\.(\d{2,3})\]/g;
 
@@ -40,36 +43,12 @@ function escapeHtml(value) {
     .replaceAll("'", '&#39;');
 }
 
-function splitArguments(source) {
-  const values = [];
-  let current = '';
-  let escaped = false;
-
-  const input = source.slice(2);
-  for (let index = 0; index < input.length; index += 1) {
-    const character = input[index];
-    if (escaped) {
-      current += character;
-      escaped = false;
-    } else if (character === '\\') {
-      escaped = true;
-    } else if (character === ':' && input[index + 1] === ':') {
-      values.push(current);
-      current = '';
-      index += 1;
-    } else {
-      current += character;
-    }
+function renderInlineShortcode(name, args) {
+  if (name === 'zh-variant' && args.length === 3 && args.every(Boolean)) {
+    return { type: 'text', value: args[0] };
   }
 
-  if (escaped) current += '\\';
-  values.push(current);
-  return values.map((value) => value.trim());
-}
-
-function renderInlineShortcode(name, args) {
   const safe = args.map(escapeHtml);
-
   if (name === 'ruby' && (safe.length === 2 || safe.length === 3) && safe.every(Boolean)) {
     if (safe.length === 3) {
       return `<ruby>${safe[0]}<rt class="furi">${safe[1]}</rt><rt class="roma">${safe[2]}</rt></ruby>`;
@@ -100,7 +79,7 @@ function paragraphText(node) {
 }
 
 function renderLyricControls(locale, hasTimeline) {
-  const copy = lyricControlCopy[locale];
+  const copy = resolveLocaleCopy(lyricControlCopy, locale);
   const buttons = [
     `<button type="button" data-lyric-action="ruby" data-show-label="${copy.ruby[0]}" data-hide-label="${copy.ruby[1]}" aria-pressed="false">${copy.ruby[1]}</button>`,
   ];
@@ -160,7 +139,7 @@ function transformDetailsBlocks(node, hasTimeline) {
       continue;
     }
 
-    const titleArguments = splitArguments(`::${opening[1]}`);
+    const titleArguments = splitShortcodeArguments(`::${opening[1]}`);
     const title = titleArguments[0];
     if (titleArguments.length !== 1 || !title) {
       transformed.push(child);
@@ -195,10 +174,17 @@ function transformInlineShortcodes(node) {
     INLINE_SHORTCODE.lastIndex = 0;
 
     while ((match = INLINE_SHORTCODE.exec(child.value))) {
-      const html = renderInlineShortcode(match[1].toLowerCase(), splitArguments(match[2]));
-      if (!html) continue;
+      const rendered = renderInlineShortcode(
+        match[1].toLowerCase(),
+        splitShortcodeArguments(match[2]),
+      );
+      if (!rendered) continue;
       if (match.index > cursor) parts.push({ type: 'text', value: child.value.slice(cursor, match.index) });
-      parts.push({ type: 'html', value: html });
+      parts.push(
+        typeof rendered === 'string'
+          ? { type: 'html', value: rendered }
+          : rendered,
+      );
       cursor = match.index + match[0].length;
     }
 

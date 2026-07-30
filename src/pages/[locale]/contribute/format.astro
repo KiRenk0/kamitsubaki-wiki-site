@@ -5,7 +5,7 @@ import SiteNav from '../../../components/SiteNav.astro';
 import SiteFooter from '../../../components/SiteFooter.astro';
 import TableOfContents from '../../../components/TableOfContents.astro';
 import { getLocalizedSite } from '../../../lib/homeData.mjs';
-import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../lib/i18n.mjs';
+import { buildLocaleLinks, defaultLocale, getEditableLocale, resolveLocaleCopy, supportedLocales } from '../../../lib/i18n.mjs';
 import { renderContentEntry } from '../../../lib/contentSource.mjs';
 
 export async function getStaticPaths() {
@@ -15,7 +15,7 @@ export async function getStaticPaths() {
 }
 
 const { locale } = Astro.params;
-const localeCode = locale as 'zh' | 'ja' | 'en';
+const localeCode = locale as 'zh' | 'zh-tw' | 'zh-hk' | 'ja' | 'en';
 
 const siteEntries = await getCollection('site');
 const guideEntries = await getCollection('formatGuide');
@@ -42,11 +42,11 @@ const alternates = supportedLocales.map((code) => ({
   href: `/${code}${currentPath}`,
 }));
 
-const contentSourcePath = `src/content/contribute/format-guide/${localeCode}.md`;
+const contentSourcePath = `src/content/contribute/format-guide/${getEditableLocale(localeCode)}.md`;
 const sourceHref = `/${localeCode}/contribute/edit?target=${encodeURIComponent(contentSourcePath)}`;
 const syntaxHref = `/${localeCode}/contribute/syntax`;
 
-const labels = {
+const labels = resolveLocaleCopy({
   zh: {
     back: '返回贡献学习中心',
     eyebrow: '站点指南',
@@ -104,7 +104,7 @@ const labels = {
     emptyAction: 'Contribute to this guide',
     descriptionFallback: 'The unified guide to article structure, prose, sourcing, naming, and layout.',
   },
-}[localeCode];
+}, localeCode);
 
 const pageDescription = entry.data.description ?? labels.descriptionFallback;
 const pageTitle = `${entry.data.seo?.title ?? entry.data.title} - Kamitsubaki Studio Fan Wiki`;

@@ -4,21 +4,21 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
 import SiteNav from '../../components/SiteNav.astro';
 import { getLocalizedSite } from '../../lib/homeData.mjs';
-import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../lib/i18n.mjs';
+import { buildLocaleLinks, defaultLocale, resolveLocaleCopy, supportedLocales } from '../../lib/i18n.mjs';
 
 export function getStaticPaths() {
   return supportedLocales.map((locale) => ({ params: { locale } }));
 }
 
 const { locale } = Astro.params;
-const localeCode = locale as 'zh' | 'ja' | 'en';
+const localeCode = locale as 'zh' | 'zh-tw' | 'zh-hk' | 'ja' | 'en';
 const siteEntries = await getCollection('site');
 const homeContent = getLocalizedSite(siteEntries, localeCode, defaultLocale);
 const currentPath = '/license';
 const localeLinks = buildLocaleLinks(homeContent, localeCode, currentPath);
 const alternates = supportedLocales.map((code) => ({ locale: code, href: `/${code}${currentPath}` }));
 
-const content = {
+const content = resolveLocaleCopy({
   zh: {
     eyebrow: '版权与许可',
     title: '著作权信息',
@@ -88,7 +88,7 @@ const content = {
     officialDeed: 'Official CC BY-NC-SA 4.0 license deed',
     oldDeed: 'CC BY-NC-SA 3.0 China Mainland license',
   },
-}[localeCode];
+}, localeCode);
 
 const metadata = {
   title: `${content.title} - Kamitsubaki Studio Fan Wiki`,
@@ -114,16 +114,16 @@ const metadata = {
         <p>{content.defaultBody}</p>
 
         <h2>{content.permissionsTitle}</h2>
-        <ul>{content.permissions.map((item) => <li>{item}</li>)}</ul>
+        <ul>{content.permissions.map((item: string) => <li>{item}</li>)}</ul>
 
         <h2>{content.conditionsTitle}</h2>
-        <ul>{content.conditions.map((item) => <li>{item}</li>)}</ul>
+        <ul>{content.conditions.map((item: string) => <li>{item}</li>)}</ul>
 
         <h2>{content.attributionTitle}</h2>
         <blockquote>{content.attributionExample}</blockquote>
 
         <h2>{content.exclusionsTitle}</h2>
-        <ul>{content.exclusions.map((item) => <li>{item}</li>)}</ul>
+        <ul>{content.exclusions.map((item: string) => <li>{item}</li>)}</ul>
 
         <h2>{content.mixedTitle}</h2>
         <p>{content.mixedBody}</p>

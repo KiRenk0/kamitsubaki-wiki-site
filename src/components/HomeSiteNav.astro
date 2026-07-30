@@ -1,4 +1,7 @@
 ---
+import CompactLanguageSwitcher from './CompactLanguageSwitcher.astro';
+import { resolveLocaleCopy } from '../lib/i18n.mjs';
+
 type NavItem = {
   label: string;
   href: string;
@@ -8,6 +11,8 @@ type LocaleLink = {
   code: string;
   label: string;
   shortLabel: string;
+  navShortLabel?: string;
+  dropdownLabel?: string;
   href: string;
   current: boolean;
 };
@@ -20,12 +25,12 @@ const { navItems, localeLinks, brandLines, homeHref = '/' } = Astro.props as {
 };
 
 const currentLocale = localeLinks.find((item) => item.current)?.code ?? 'en';
-const searchLabel = {
+const searchLabel = resolveLocaleCopy({
   zh: '打开站内搜索',
   ja: 'サイト内検索を開く',
   en: 'Open site search',
-}[currentLocale] ?? 'Open site search';
-const themeCopy = {
+}, currentLocale);
+const themeCopy = resolveLocaleCopy({
   zh: {
     groupLabel: '主题模式',
     options: [
@@ -50,14 +55,7 @@ const themeCopy = {
       { value: 'system', shortLabel: 'SYS', label: 'Follow system theme' },
     ],
   },
-}[currentLocale] ?? {
-  groupLabel: 'Theme mode',
-  options: [
-    { value: 'light', shortLabel: 'DAY', label: 'Use light mode' },
-    { value: 'dark', shortLabel: 'NIGHT', label: 'Use dark mode' },
-    { value: 'system', shortLabel: 'SYS', label: 'Follow system theme' },
-  ],
-};
+}, currentLocale);
 ---
 
 <nav class="site-nav site-nav--home fixed top-0 w-full z-50 mix-blend-difference flex justify-between pointer-events-none items-start px-6 py-8 md:px-12" data-home-nav-collision>
@@ -97,25 +95,14 @@ const themeCopy = {
           <kbd data-search-shortcut>Ctrl+K</kbd>
         </button>
         <div class="site-nav__controls mt-4">
-          <div class="flex gap-3 font-mono tracking-widest text-[8px]" aria-label="Language switcher">
-            {localeLinks.map((item) => (
-              <a
-                href={item.href}
-                aria-current={item.current ? 'page' : undefined}
-                title={item.label}
-                class={item.current ? 'text-white' : 'text-white/35 hover:text-white transition-colors'}
-              >
-                {item.shortLabel}
-              </a>
-            ))}
-          </div>
+          <CompactLanguageSwitcher localeLinks={localeLinks} />
           <div
             class="site-nav__theme-switcher flex gap-3 font-mono tracking-widest text-[8px]"
             data-theme-switcher
             role="radiogroup"
             aria-label={themeCopy.groupLabel}
           >
-            {themeCopy.options.map((option) => (
+            {themeCopy.options.map((option: { value: string; shortLabel: string; label: string }) => (
               <button
                 type="button"
                 class="site-nav__theme-option"

@@ -14,7 +14,7 @@ test('home navigation relocates controls when the social contact panel overlaps 
 
   assert.match(homeNav, /data-home-nav-brand[\s\S]*data-home-nav-controls-destination/);
   assert.match(homeNav, /data-home-nav-controls-origin[\s\S]*data-home-nav-portable-controls/);
-  assert.match(homeNav, /data-home-nav-portable-controls[\s\S]*data-search-open[\s\S]*Language switcher[\s\S]*data-theme-switcher/);
+  assert.match(homeNav, /data-home-nav-portable-controls[\s\S]*data-search-open[\s\S]*CompactLanguageSwitcher[\s\S]*data-theme-switcher/);
   assert.match(homeNav, /homeNavCollision\.js/);
 
   assert.match(socialScript, /social-contact:statechange/);

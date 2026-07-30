@@ -249,13 +249,16 @@ Negative or potentially reputation-damaging material requires high-quality sourc
 
 ## Multilingual content
 
-Chinese, Japanese, and English entries should communicate the same core facts, but word order, punctuation, and explanatory detail may follow each language. They do not need to be literal sentence-by-sentence translations.
+The site maintains Chinese `zh.md`, Japanese, and English as three source languages. The Chinese source may mix Simplified, Taiwan Traditional, and Hong Kong Traditional forms; it is automatically normalized into the published Simplified, Taiwan Traditional, and Hong Kong pages, for five published locales in total. Authors do not need to normalize Chinese character forms first. Entries should communicate the same core facts, but word order, punctuation, and explanatory detail may follow each language. They do not need to be literal sentence-by-sentence translations.
 
 - Keep official names, dates, numbers, catalog codes, and URLs aligned across languages.
 - Recheck sources while translating. A claim is not reliable merely because it already appears in another language.
 - When the target language has no established translation, retain the official name and add a brief explanation on first mention.
 - Do not treat machine translation as a finished draft. Human review is essential for names, honorifics, omitted subjects, and work-specific context. Generative AI may assist translation, but it is not a source for facts or translations. Check and revise every adopted sentence, and disclose AI assistance when required by the project.
-- When adding or removing an important fact, update all three languages when practical. Do not copy a translation you cannot verify.
+- When adding or removing an important fact, update the three maintained sources when practical. Simplified, Taiwan Traditional, and Hong Kong Traditional pages are normalized or regenerated from the Chinese `zh.md` source.
+- Do not edit generated `zh-tw` or `zh-hk` files. Ordinary mixed Simplified and Traditional forms need no correction; use `{{zh-variant::Simplified::Taiwan::Hong Kong}}` only for a small context-dependent term that automatic conversion cannot decide, and maintain repeated official-name mis-conversions in `public/TraditionalChineseConvert.json`.
+- Taiwan and Hong Kong pages may use familiar regional vocabulary, but do not rewrite facts or tone merely to manufacture a regional difference.
+- When reviewing a Chinese change, spot-check the Simplified and both Traditional outputs for ambiguous families such as 后／後, 发／發／髮, 干／乾／幹, 里／裡, 台／臺, 制／製, 面／麵, and 复／復／複.
 
 ## Links, images, and media
 
@@ -313,7 +316,7 @@ After: Both projects published teasers on 1 June 2025. As of that date, official
 - Are names, capitalization, dates, time zones, numbers, and punctuation consistent?
 - Are lists and tables clearer than prose and readable on mobile?
 - Are internal links, external links, alternative text, and media sources accurate?
-- Do important names, figures, and links agree across all three languages?
+- Do important names, figures, and links agree across the three maintained sources and two Traditional Chinese derivatives?
 - Is the change limited to its stated purpose, and has the diff been previewed?
 - Do the Markdown and frontmatter pass the [syntax and properties guide](/en/contribute/syntax) checks?
 

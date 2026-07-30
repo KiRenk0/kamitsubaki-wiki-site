@@ -5,7 +5,7 @@ import SiteNav from '../../../components/SiteNav.astro';
 import SiteFooter from '../../../components/SiteFooter.astro';
 import TableOfContents from '../../../components/TableOfContents.astro';
 import { getLocalizedSite } from '../../../lib/homeData.mjs';
-import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../lib/i18n.mjs';
+import { buildLocaleLinks, defaultLocale, getEditableLocale, resolveLocaleCopy, supportedLocales } from '../../../lib/i18n.mjs';
 import { renderMarkdownFragment } from '../../../lib/markdown.mjs';
 import { renderContentEntry } from '../../../lib/contentSource.mjs';
 
@@ -14,7 +14,7 @@ export function getStaticPaths() {
 }
 
 const { locale } = Astro.params;
-const localeCode = locale as 'zh' | 'ja' | 'en';
+const localeCode = locale as 'zh' | 'zh-tw' | 'zh-hk' | 'ja' | 'en';
 const siteEntries = await getCollection('site');
 const guideEntries = await getCollection('editGuide');
 const syntaxEntries = await getCollection('syntaxGuide');
@@ -35,10 +35,10 @@ const syntaxEntry =
 if (!syntaxEntry) throw new Error(`Missing syntax guide content for locale: ${localeCode}`);
 
 const { html: syntaxHtml, headings: syntaxHeadings } = await renderContentEntry(syntaxEntry);
-const syntaxSourcePath = `src/content/contribute/syntax-guide/${localeCode}.md`;
+const syntaxSourcePath = `src/content/contribute/syntax-guide/${getEditableLocale(localeCode)}.md`;
 const syntaxEditHref = `/${localeCode}/contribute/edit?target=${encodeURIComponent(syntaxSourcePath)}#syntax-reference`;
 const syntaxStandaloneHref = `/${localeCode}/contribute/syntax`;
-const learningCopy = {
+const learningCopy = resolveLocaleCopy({
   zh: {
     navLabel: '贡献学习中心',
     journey: '分步贡献路线',
@@ -81,7 +81,7 @@ const learningCopy = {
     workflowTitle: 'Recommended learning order',
     workflow: ['Choose a contribution route', 'Confirm the file and locale', 'Look up syntax while editing', 'Review the diff and open a PR'],
   },
-}[localeCode];
+}, localeCode);
 
 const docsHref = `https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/main/${copy.docsPath}`;
 const repoEditRoot = 'https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/edit/main/';
@@ -393,7 +393,7 @@ const metadata = {
           <p class="mt-5 max-w-3xl text-sm leading-7 text-white/55 sm:text-[15px] sm:leading-8">{learningCopy.referenceIntro}</p>
         </div>
         <ol aria-label={learningCopy.workflowTitle}>
-          {learningCopy.workflow.map((step, index) => (
+          {learningCopy.workflow.map((step: string, index: number) => (
             <li><span>{String(index + 1).padStart(2, '0')}</span>{step}</li>
           ))}
         </ol>
@@ -486,7 +486,7 @@ const metadata = {
       if (link instanceof HTMLAnchorElement) link.href = resolvedEditHref;
     }
 
-    const localeLinks = document.querySelectorAll('nav[aria-label="Language switcher"] a');
+    const localeLinks = document.querySelectorAll('[aria-label="Language switcher"] a');
     const readProgress = (mode) => {
       try { return new Set(JSON.parse(localStorage.getItem(`${storageBase}:${mode}`) || '[]')); }
       catch { return new Set(); }

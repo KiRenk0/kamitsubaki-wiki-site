@@ -1,4 +1,7 @@
 ---
+import CompactLanguageSwitcher from './CompactLanguageSwitcher.astro';
+import { resolveLocaleCopy } from '../lib/i18n.mjs';
+
 type NavItem = {
   label: string;
   href: string;
@@ -8,6 +11,8 @@ type LocaleLink = {
   code: string;
   label: string;
   shortLabel: string;
+  navShortLabel?: string;
+  dropdownLabel?: string;
   href: string;
   current: boolean;
 };
@@ -21,12 +26,12 @@ const { navItems, localeLinks, brandLines, homeHref = '/' } = Astro.props as {
 };
 
 const currentLocale = localeLinks.find((item) => item.current)?.code ?? 'en';
-const searchLabel = {
+const searchLabel = resolveLocaleCopy({
   zh: '打开站内搜索',
   ja: 'サイト内検索を開く',
   en: 'Open site search',
-}[currentLocale] ?? 'Open site search';
-const themeCopy = {
+}, currentLocale);
+const themeCopy = resolveLocaleCopy({
   zh: {
     groupLabel: '主题模式',
     options: [
@@ -51,14 +56,7 @@ const themeCopy = {
       { value: 'system', shortLabel: 'SYS', label: 'Follow system theme' },
     ],
   },
-}[currentLocale] ?? {
-  groupLabel: 'Theme mode',
-  options: [
-    { value: 'light', shortLabel: 'DAY', label: 'Use light mode' },
-    { value: 'dark', shortLabel: 'NIGHT', label: 'Use dark mode' },
-    { value: 'system', shortLabel: 'SYS', label: 'Follow system theme' },
-  ],
-};
+}, currentLocale);
 const resolvedNavItems = navItems.map((item) => ({
   ...item,
   href: item.href.startsWith('#') ? `${homeHref}${item.href}` : item.href,
@@ -73,7 +71,7 @@ const resolvedNavItems = navItems.map((item) => ({
       role="radiogroup"
       aria-label={themeCopy.groupLabel}
     >
-      {themeCopy.options.map((option) => (
+      {themeCopy.options.map((option: { value: string; shortLabel: string; label: string }) => (
         <button
           type="button"
           class="site-nav__theme-option"
@@ -116,17 +114,6 @@ const resolvedNavItems = navItems.map((item) => ({
       <span>SEARCH</span>
       <kbd data-search-shortcut>Ctrl+K</kbd>
     </button>
-    <div class="site-nav__language-switcher font-mono tracking-widest text-[8px]" aria-label="Language switcher">
-      {localeLinks.map((item) => (
-        <a
-          href={item.href}
-          aria-current={item.current ? 'page' : undefined}
-          title={item.label}
-          class={item.current ? 'text-white' : 'text-white/35 hover:text-white transition-colors'}
-        >
-          {item.shortLabel}
-        </a>
-      ))}
-    </div>
+    <CompactLanguageSwitcher localeLinks={localeLinks} />
   </div>
 </nav>

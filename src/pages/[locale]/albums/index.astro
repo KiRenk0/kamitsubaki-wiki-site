@@ -5,7 +5,7 @@ import SiteNav from '../../../components/SiteNav.astro';
 import SiteFooter from '../../../components/SiteFooter.astro';
 import MusicSubnav from '../../../components/MusicSubnav.astro';
 import { getLocalizedEntries, getLocalizedSite } from '../../../lib/homeData.mjs';
-import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../lib/i18n.mjs';
+import { buildLocaleLinks, defaultLocale, resolveLocaleCopy, supportedLocales } from '../../../lib/i18n.mjs';
 import { buildArtistAlbumCatalog } from '../../../lib/musicCatalog.mjs';
 
 export function getStaticPaths() {
@@ -13,7 +13,7 @@ export function getStaticPaths() {
 }
 
 const { locale } = Astro.params;
-const localeCode = locale as 'zh' | 'ja' | 'en';
+const localeCode = locale as 'zh' | 'zh-tw' | 'zh-hk' | 'ja' | 'en';
 const siteEntries = await getCollection('site');
 const homeContent = getLocalizedSite(siteEntries, localeCode, defaultLocale);
 const albumEntries = getLocalizedEntries(await getCollection('albums'), localeCode, defaultLocale);
@@ -21,11 +21,11 @@ const artistEntries = getLocalizedEntries(await getCollection('artists'), locale
 const artistGroups = buildArtistAlbumCatalog(albumEntries, artistEntries, localeCode);
 const localeLinks = buildLocaleLinks(homeContent, localeCode, '/albums');
 const alternates = supportedLocales.map((code) => ({ locale: code, href: `/${code}/albums` }));
-const copy = {
+const copy = resolveLocaleCopy({
   zh: { title: '专辑作品', intro: '选择艺人，浏览其专辑、EP 与现场录音作品。', count: '张专辑', view: '进入艺人专辑库' },
   ja: { title: 'アルバム作品', intro: 'アーティストを選び、アルバム・EP・ライブ音源を閲覧できます。', count: '作品', view: 'アルバム一覧を見る' },
   en: { title: 'Albums', intro: 'Choose an artist to browse albums, EPs, and live recordings.', count: 'albums', view: 'Open album catalog' },
-}[localeCode];
+}, localeCode);
 ---
 
 <BaseLayout lang={localeCode} alternates={alternates} title={`${copy.title} - Kamitsubaki Studio Fan Wiki`}>

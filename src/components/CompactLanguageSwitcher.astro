@@ -1,0 +1,66 @@
+---
+type LocaleLink = {
+  code: string;
+  label: string;
+  shortLabel: string;
+  navShortLabel?: string;
+  dropdownLabel?: string;
+  href: string;
+  current: boolean;
+};
+
+const { localeLinks } = Astro.props as { localeLinks: LocaleLink[] };
+const linksByCode = new Map(localeLinks.map((item) => [item.code, item]));
+const simplifiedChinese = linksByCode.get('zh');
+const traditionalLinks = ['zh-hk', 'zh-tw']
+  .map((code) => linksByCode.get(code))
+  .filter((item): item is LocaleLink => Boolean(item));
+const japanese = linksByCode.get('ja');
+const english = linksByCode.get('en');
+const chineseIsCurrent = localeLinks.some(
+  (item) => item.current && ['zh', 'zh-tw', 'zh-hk'].includes(item.code),
+);
+
+const primaryLinks = [japanese, english].filter(
+  (item): item is LocaleLink => Boolean(item),
+);
+---
+
+<div class="site-nav__language-switcher font-mono tracking-widest text-[8px]" aria-label="Language switcher">
+  {simplifiedChinese && (
+    <div class="site-nav__language-family">
+      <a
+        href={simplifiedChinese.href}
+        aria-current={simplifiedChinese.current ? 'page' : undefined}
+        aria-haspopup="menu"
+        title={simplifiedChinese.label}
+        class={chineseIsCurrent ? 'text-white' : 'text-white/35 hover:text-white transition-colors'}
+      >
+        {simplifiedChinese.navShortLabel ?? '中'}
+      </a>
+      <div class="site-nav__language-menu" role="menu" aria-label="繁體中文">
+        {traditionalLinks.map((item) => (
+          <a
+            href={item.href}
+            role="menuitem"
+            aria-current={item.current ? 'page' : undefined}
+            title={item.label}
+            class={item.current ? 'is-current' : undefined}
+          >
+            {item.dropdownLabel ?? item.shortLabel}
+          </a>
+        ))}
+      </div>
+    </div>
+  )}
+  {primaryLinks.map((item) => (
+    <a
+      href={item.href}
+      aria-current={item.current ? 'page' : undefined}
+      title={item.label}
+      class={item.current ? 'text-white' : 'text-white/35 hover:text-white transition-colors'}
+    >
+      {item.navShortLabel ?? item.shortLabel}
+    </a>
+  ))}
+</div>

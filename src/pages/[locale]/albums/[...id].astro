@@ -10,7 +10,7 @@ import WikiArticleHeader from '../../../components/WikiArticleHeader.astro';
 import ContentLicenseNotice from '../../../components/ContentLicenseNotice.astro';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getLocalizedSite } from '../../../lib/homeData.mjs';
-import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../lib/i18n.mjs';
+import { buildLocaleLinks, defaultLocale, getEditableLocale, resolveLocaleCopy, supportedLocales } from '../../../lib/i18n.mjs';
 import { buildArticleMetadata } from '../../../lib/metadata.mjs';
 import { renderContentEntry } from '../../../lib/contentSource.mjs';
 
@@ -32,7 +32,7 @@ export async function getStaticPaths() {
 const { locale, id } = Astro.params;
 const { entry } = Astro.props;
 const { html: contentHtml, headings, body: articleBody } = await renderContentEntry(entry);
-const localeCode = locale as 'zh' | 'ja' | 'en';
+const localeCode = locale as 'zh' | 'zh-tw' | 'zh-hk' | 'ja' | 'en';
 const hasArticleBody = Boolean(articleBody);
 const hasTracks = Boolean(entry.data.tracks?.length);
 const hasMainContent = hasArticleBody || hasTracks;
@@ -50,7 +50,7 @@ const currentPath = `/albums/${id}`;
 const localeLinks = buildLocaleLinks(homeContent, localeCode, currentPath);
 const alternates = supportedLocales.map((code) => ({ locale: code, href: `/${code}/albums/${id}` }));
 
-const articleLabels = {
+const articleLabels = resolveLocaleCopy({
   zh: {
     home: '首页', albums: '专辑', article: 'Wiki 条目', category: '分类', source: '编辑源文件', languages: '切换语言',
     contents: '目录', infobox: '专辑信息', artist: '艺人', type: '类型', releaseDate: '发行日期', label: '发行厂牌',
@@ -69,9 +69,9 @@ const articleLabels = {
     catalogNumber: 'Catalog No.', trackCount: 'Tracks', duration: 'Duration', officialLinks: 'Official Links', coverPlaceholder: 'No cover available',
     tracklist: 'Track listing', disc: 'Disc', track: 'Track', trackArtist: 'Artist', trackDuration: 'Duration', albumFallback: 'Album works',
   },
-}[localeCode];
+}, localeCode);
 
-const contentSourcePath = `src/content/albums/${id}/${localeCode}.md`;
+const contentSourcePath = `src/content/albums/${id}/${getEditableLocale(localeCode)}.md`;
 const sourceHref = `/${localeCode}/contribute/edit?target=${encodeURIComponent(contentSourcePath)}`;
 const articleData = {
   ...entry.data,

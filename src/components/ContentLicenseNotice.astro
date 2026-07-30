@@ -1,4 +1,6 @@
 ---
+import { resolveLocaleCopy } from '../lib/i18n.mjs';
+
 type LicenseCode =
   | 'CC-BY-NC-SA-4.0'
   | 'CC-BY-NC-SA-3.0-CN'
@@ -19,12 +21,12 @@ const {
   locale = 'zh',
 } = Astro.props as {
   license?: ContentLicense;
-  locale?: 'zh' | 'ja' | 'en';
+  locale?: 'zh' | 'zh-tw' | 'zh-hk' | 'ja' | 'en';
 };
 
 const resolvedLicense: ContentLicense = license ?? { code: 'CC-BY-NC-SA-4.0' };
 
-const copy = {
+const copy = resolveLocaleCopy({
   zh: {
     eyebrow: '内容许可',
     details: '查看著作权信息',
@@ -103,7 +105,7 @@ const copy = {
       },
     },
   },
-}[locale];
+}, locale);
 
 const licenseUrls: Partial<Record<LicenseCode, string>> = {
   'CC-BY-NC-SA-4.0': 'https://creativecommons.org/licenses/by-nc-sa/4.0/',

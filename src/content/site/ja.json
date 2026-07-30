@@ -5,18 +5,28 @@
   "supportedLocales": [
     {
       "code": "zh",
-      "label": "中文",
-      "shortLabel": "中"
+      "label": "简体中文",
+      "shortLabel": "简中"
+    },
+    {
+      "code": "zh-tw",
+      "label": "繁體中文（台灣）",
+      "shortLabel": "台繁"
+    },
+    {
+      "code": "zh-hk",
+      "label": "繁體中文（香港）",
+      "shortLabel": "港繁"
     },
     {
       "code": "ja",
       "label": "日本語",
-      "shortLabel": "日"
+      "shortLabel": "日语"
     },
     {
       "code": "en",
       "label": "English",
-      "shortLabel": "EN"
+      "shortLabel": "ENG"
     }
   ],
   "navItems": [
@@ -193,6 +203,9 @@
     "buttonLabel": "AI 観測端末を開く",
     "closeLabel": "AI 観測端末を閉じる",
     "minimizeLabel": "AI 観測端末をしまう",
+    "settingsLabel": "AI 観測端末の設定",
+    "threadActionsLabel": "会話の操作",
+    "cancelLabel": "キャンセル",
     "inputLabel": "AI 観測端末に質問する",
     "inputPlaceholder": "神椿、V.W.P、企画、世界観について...",
     "sendLabel": "送信",

@@ -1,3 +1,37 @@
+import {
+  convertChineseValue,
+  isChineseContentLocale,
+  isTraditionalChineseLocale,
+} from './traditionalChinese.mjs';
+
+function rewriteLocalizedSiteRoutes(value, locale) {
+  if (typeof value === 'string') {
+    return value.replace(/^\/zh(?=\/|[?#]|$)/u, `/${locale}`);
+  }
+  if (Array.isArray(value)) {
+    return value.map((item) => rewriteLocalizedSiteRoutes(item, locale));
+  }
+  if (!value || typeof value !== 'object') return value;
+
+  return Object.fromEntries(
+    Object.entries(value).map(([key, item]) => [
+      key,
+      rewriteLocalizedSiteRoutes(item, locale),
+    ]),
+  );
+}
+
+function deriveChineseSite(source, locale) {
+  const converted = convertChineseValue(source, locale, { ui: true });
+  return {
+    ...rewriteLocalizedSiteRoutes(converted, locale),
+    locale,
+    ...(isTraditionalChineseLocale(locale)
+      ? { generated: true, generatedFrom: 'zh' }
+      : {}),
+  };
+}
+
 export function sortByOrder(entries) {
   return [...entries].sort((a, b) => a.data.order - b.data.order);
 }
@@ -22,10 +56,13 @@ export function getLocalizedEntries(entries, locale, fallbackLocale = 'zh') {
 }
 
 export function getLocalizedSite(siteEntries, locale, fallbackLocale = 'zh') {
-  return (
-    siteEntries.find((entry) => entry.data.locale === locale)?.data ??
-    siteEntries.find((entry) => entry.data.locale === fallbackLocale)?.data
-  );
+  const fallback = siteEntries.find((entry) => entry.data.locale === fallbackLocale)?.data;
+
+  if (isChineseContentLocale(locale) && fallback) {
+    return deriveChineseSite(fallback, locale);
+  }
+
+  return siteEntries.find((entry) => entry.data.locale === locale)?.data ?? fallback;
 }
 
 export function humanizeSlug(slug) {
@@ -197,9 +234,11 @@ export function buildArtistCategories(artistEntries, initialCategories = []) {
 }
 
 export function buildHomepageArtistCategories(artistEntries, locale = 'zh') {
-  const derivativeCharacterLabels =
-    homepageArtistCategoryLabels.derivative_characters[locale] ??
-    homepageArtistCategoryLabels.derivative_characters.zh;
+  const derivativeCharacterLabels = resolveLocaleCopy(
+    homepageArtistCategoryLabels.derivative_characters,
+    locale,
+    'zh',
+  );
 
   return buildArtistCategories(artistEntries, [
     {
@@ -272,3 +311,4 @@ export function buildLogDisplayData(entry, locale) {
 export function buildLogCards(logEntries, locale) {
   return sortByOrder(logEntries).map((entry) => buildLogDisplayData(entry, locale));
 }
+import { resolveLocaleCopy } from './i18n.mjs';

@@ -2,6 +2,10 @@ import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { renderMarkdownDocument } from './markdown.mjs';
+import {
+  convertChineseMarkdown,
+  isChineseContentLocale,
+} from './traditionalChinese.mjs';
 
 const frontmatterPattern = /^\uFEFF?---\r?\n[\s\S]*?\r?\n---(?:\r?\n|$)/u;
 
@@ -13,8 +17,14 @@ function resolveEntryPath(entry) {
 export async function readContentEntryBody(entry) {
   const filePath = resolveEntryPath(entry);
   const source = await readFile(filePath, 'utf8');
+  const sourceBody = source.replace(frontmatterPattern, '').trim();
+  const locale = entry?.data?.locale ?? entry?.id?.split('/').at(-1);
+  const body = isChineseContentLocale(locale)
+    ? convertChineseMarkdown(sourceBody, locale)
+    : sourceBody;
+
   return {
-    body: source.replace(frontmatterPattern, '').trim(),
+    body,
     fileURL: pathToFileURL(filePath),
   };
 }

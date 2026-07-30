@@ -5,18 +5,28 @@
   "supportedLocales": [
     {
       "code": "zh",
-      "label": "中文",
-      "shortLabel": "中"
+      "label": "简体中文",
+      "shortLabel": "简中"
+    },
+    {
+      "code": "zh-tw",
+      "label": "繁體中文（台灣）",
+      "shortLabel": "台繁"
+    },
+    {
+      "code": "zh-hk",
+      "label": "繁體中文（香港）",
+      "shortLabel": "港繁"
     },
     {
       "code": "ja",
       "label": "日本語",
-      "shortLabel": "日"
+      "shortLabel": "日语"
     },
     {
       "code": "en",
       "label": "English",
-      "shortLabel": "EN"
+      "shortLabel": "ENG"
     }
   ],
   "navItems": [
@@ -193,6 +203,9 @@
     "buttonLabel": "打开 AI 观测端",
     "closeLabel": "关闭 AI 观测端",
     "minimizeLabel": "收起 AI 观测端",
+    "settingsLabel": "设置 AI 观测端",
+    "threadActionsLabel": "对话操作",
+    "cancelLabel": "取消",
     "inputLabel": "向 AI 观测端提问",
     "inputPlaceholder": "问我神椿、V.W.P、企划、世界观...",
     "sendLabel": "发送",

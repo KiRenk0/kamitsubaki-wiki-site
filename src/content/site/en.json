@@ -5,18 +5,28 @@
   "supportedLocales": [
     {
       "code": "zh",
-      "label": "中文",
-      "shortLabel": "中"
+      "label": "简体中文",
+      "shortLabel": "简中"
+    },
+    {
+      "code": "zh-tw",
+      "label": "繁體中文（台灣）",
+      "shortLabel": "台繁"
+    },
+    {
+      "code": "zh-hk",
+      "label": "繁體中文（香港）",
+      "shortLabel": "港繁"
     },
     {
       "code": "ja",
       "label": "日本語",
-      "shortLabel": "日"
+      "shortLabel": "日语"
     },
     {
       "code": "en",
       "label": "English",
-      "shortLabel": "EN"
+      "shortLabel": "ENG"
     }
   ],
   "navItems": [
@@ -193,6 +203,9 @@
     "buttonLabel": "Open AI Observer",
     "closeLabel": "Close AI Observer",
     "minimizeLabel": "Minimize AI Observer",
+    "settingsLabel": "AI Observer settings",
+    "threadActionsLabel": "Conversation actions",
+    "cancelLabel": "Cancel",
     "inputLabel": "Ask the AI Observer",
     "inputPlaceholder": "Ask about Kamitsubaki, V.W.P, projects, lore...",
     "sendLabel": "Send",

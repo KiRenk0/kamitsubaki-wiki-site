@@ -10,7 +10,7 @@ import ContributorRoster from '../../../components/ContributorRoster.astro';
 import MusicSubnav from '../../../components/MusicSubnav.astro';
 import ContentLicenseNotice from '../../../components/ContentLicenseNotice.astro';
 import { getLocalizedEntries, getLocalizedSite } from '../../../lib/homeData.mjs';
-import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../lib/i18n.mjs';
+import { buildLocaleLinks, defaultLocale, getEditableLocale, resolveLocaleCopy, supportedLocales } from '../../../lib/i18n.mjs';
 import { buildArticleMetadata } from '../../../lib/metadata.mjs';
 import { renderContentEntry } from '../../../lib/contentSource.mjs';
 
@@ -36,7 +36,7 @@ export async function getStaticPaths() {
 const { locale, id } = Astro.params;
 const { entry } = Astro.props;
 const { html: contentHtml, headings, body: articleBody } = await renderContentEntry(entry);
-const localeCode = locale as 'zh' | 'ja' | 'en';
+const localeCode = locale as 'zh' | 'zh-tw' | 'zh-hk' | 'ja' | 'en';
 const hasArticleBody = Boolean(articleBody);
 const hasTableOfContents = headings.some((heading) => heading.depth === 2 || heading.depth === 3);
 
@@ -52,7 +52,7 @@ const alternates = supportedLocales.map((localeCode) => ({
   href: `/${localeCode}/songs/${id}`,
 }));
 
-const articleLabels = {
+const articleLabels = resolveLocaleCopy({
   zh: {
     home: '首页',
     songs: '歌曲',
@@ -158,9 +158,9 @@ const articleLabels = {
       song: 'Song',
     },
   },
-}[localeCode];
+}, localeCode);
 
-const contentSourcePath = `src/content/songs/${id}/${localeCode}.md`;
+const contentSourcePath = `src/content/songs/${id}/${getEditableLocale(localeCode)}.md`;
 const sourceHref = `/${localeCode}/contribute/edit?target=${encodeURIComponent(contentSourcePath)}`;
 const songImage = entry.data.image
   ?? artistEntry?.data.image

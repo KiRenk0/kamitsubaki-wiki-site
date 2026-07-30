@@ -29,7 +29,7 @@ test('the localized unified format guide has a content collection and standalone
   assert.match(page, /getCollection\('formatGuide'\)/);
   assert.match(page, /renderContentEntry\(entry\)/);
   assert.match(page, /currentPath = '\/contribute\/format'/);
-  assert.match(page, /src\/content\/contribute\/format-guide\/\$\{localeCode\}\.md/);
+  assert.match(page, /src\/content\/contribute\/format-guide\/\$\{getEditableLocale\(localeCode\)\}\.md/);
   assert.match(page, /<TableOfContents headings=\{headings\}/);
   assert.match(page, /href=\{syntaxHref\}/);
 });

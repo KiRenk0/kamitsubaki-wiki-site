@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "description": "混合简体、台湾繁体或香港繁体的 zh.md 派生为简中、台繁或港繁页面时使用的专有词汇保护表。转换器会先遮蔽这些词，再规范化并按阅读语言转换，最后按目标地区恢复。",
+  "terms": [
+    {
+      "source": "花譜",
+      "preserve": true,
+      "category": "artist"
+    },
+    {
+      "source": "花谱",
+      "tw": "花譜",
+      "hk": "花譜",
+      "category": "artist"
+    },
+    {
+      "source": "理芽",
+      "preserve": true,
+      "category": "artist"
+    },
+    {
+      "source": "春猿火",
+      "preserve": true,
+      "category": "artist"
+    },
+    {
+      "source": "ヰ世界情緒",
+      "preserve": true,
+      "category": "artist"
+    },
+    {
+      "source": "幸祜",
+      "preserve": true,
+      "category": "artist"
+    },
+    {
+      "source": "可不",
+      "preserve": true,
+      "category": "artist"
+    },
+    {
+      "source": "廻花",
+      "preserve": true,
+      "category": "artist"
+    },
+    {
+      "source": "V.W.P",
+      "preserve": true,
+      "category": "group"
+    },
+    {
+      "source": "KAMITSUBAKI STUDIO",
+      "preserve": true,
+      "category": "organization"
+    },
+    {
+      "source": "THINKR",
+      "preserve": true,
+      "category": "organization"
+    },
+    {
+      "source": "PHENOMENON RECORD",
+      "preserve": true,
+      "category": "organization"
+    },
+    {
+      "source": "SINSEKAI RECORD",
+      "preserve": true,
+      "category": "organization"
+    },
+    {
+      "source": "Girls Revolution Project",
+      "preserve": true,
+      "category": "organization"
+    },
+    {
+      "source": "神椿市建設中。",
+      "preserve": true,
+      "category": "project"
+    },
+    {
+      "source": "神椿市建设中。",
+      "tw": "神椿市建設中。",
+      "hk": "神椿市建設中。",
+      "category": "project"
+    },
+    {
+      "source": "CeVIO AI",
+      "preserve": true,
+      "category": "product"
+    },
+    {
+      "source": "Synthesizer V",
+      "preserve": true,
+      "category": "product"
+    }
+  ]
+}

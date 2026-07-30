@@ -10,6 +10,12 @@ dist/
 # Astro generated
 .astro/
 
+# Build-generated Traditional Chinese content
+src/content/**/zh-tw.md
+src/content/**/zh-hk.md
+src/content/site/zh-tw.json
+src/content/site/zh-hk.json
+
 # Environment variables
 .env
 .env.*

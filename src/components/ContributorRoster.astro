@@ -1,5 +1,6 @@
 ---
 import ManualContributors from './ManualContributors.astro';
+import { getEditableLocale, resolveLocaleCopy } from '../lib/i18n.mjs';
 
 interface Props {
   mode: 'summary' | 'entry';
@@ -15,9 +16,10 @@ const syntaxHref = `/${locale}/contribute/syntax`;
 const formatHref = `/${locale}/contribute/format`;
 const ownerLogin = import.meta.env.PUBLIC_SITE_OWNER_GITHUB || 'LinkTh1rsty';
 const editableCollections = new Set(['artists', 'albums', 'songs', 'projects', 'logs']);
-const targetPath = editableCollections.has(collection) && entryId ? `src/content/${collection}/${entryId}/${locale}.md` : '';
+const editableLocale = getEditableLocale(locale);
+const targetPath = editableCollections.has(collection) && entryId ? `src/content/${collection}/${entryId}/${editableLocale}.md` : '';
 const editHref = targetPath ? `${guideHref}?target=${encodeURIComponent(targetPath)}` : guideHref;
-const copy = {
+const resolvedCopy = resolveLocaleCopy({
   zh: {
     kicker: mode === 'entry' ? 'ENTRY KEEPERS' : 'COMMUNITY ARCHIVE',
     title: mode === 'entry' ? '守护这个条目的贡献者' : '一起建设这座观测站',
@@ -114,28 +116,14 @@ const copy = {
     areaLabels: { automation: 'Automation and CI', quality: 'Testing and quality', 'wiki-docs': 'Wiki documentation', 'backend-docs': 'Backend documentation', 'site-assets': 'Site visual assets', 'data-platform': 'Data platform', 'backend-services': 'Backend services', 'backend-tooling': 'Backend engineering', 'site-experience': 'Site experience', 'content-platform': 'Content platform', 'contributor-tooling': 'Contributor tooling', 'site-tooling': 'Frontend engineering' },
     localeLabels: { zh: '中文', ja: '日本語', en: 'English' },
   },
-}[locale as 'zh' | 'ja' | 'en'] ?? {
-  kicker: 'COMMUNITY ARCHIVE',
-  title: 'Build this fan archive together',
-  subtitle: 'Thank you to every observer helping keep these records accurate.',
-  loading: 'Connecting to contribution records…',
-  empty: 'No public maintenance record yet. You can be the first contributor.',
-  error: 'Contribution records are temporarily unavailable. Please try again.',
-  retry: 'Try again',
-  topTitle: 'Contributor honor wall',
-  recentTitle: 'Recent maintenance',
-  contributors: 'Contributors',
-  contributions: 'public updates',
-  entries: 'entries',
-  rankLabel: 'Honor number',
-  guideAction: 'Read the contribution guide',
-  syntaxAction: 'Syntax guide',
-  formatAction: 'Unified style guide',
-  joinAction: 'Join the contributors',
-  commit: 'View change',
-  unknownSummary: 'Improved entry information',
-  maintainedEntry: 'Maintained',
-  localeLabels: { zh: '中文', ja: '日本語', en: 'English' },
+}, locale);
+const copy = {
+  ...resolvedCopy,
+  localeLabels: {
+    ...resolvedCopy.localeLabels,
+    'zh-tw': '台繁',
+    'zh-hk': '港繁',
+  },
 };
 ---
 

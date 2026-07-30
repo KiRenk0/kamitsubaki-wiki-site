@@ -21,7 +21,7 @@ test('edit source links route through the local contributor guide first', async 
 
   assert.match(artistPage, /\/contribute\/edit\?target=/);
   assert.match(artistPage, /encodeURIComponent\(contentSourcePath\)/);
-  assert.match(artistPage, /src\/content\/artists\/\$\{id\}\/\$\{localeCode\}\.md/);
+  assert.match(artistPage, /src\/content\/artists\/\$\{id\}\/\$\{getEditableLocale\(localeCode\)\}\.md/);
   assert.doesNotMatch(articleHeader, /target="_blank"/);
 });
 

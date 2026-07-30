@@ -698,15 +698,17 @@ function renderThreadList(root, threads) {
     menu.type = 'button';
     menu.className = 'ai-chat__thread-menu';
     menu.dataset.aiThreadMenuToggle = thread.id;
-    menu.setAttribute('aria-label', 'Conversation actions');
+    const copy = normalizeCopy(root);
+    const threadActionsLabel = copy.threadActionsLabel || 'Conversation actions';
+    const cancelLabel = copy.cancelLabel || 'Cancel';
+    menu.setAttribute('aria-label', threadActionsLabel);
     menu.setAttribute('aria-expanded', 'false');
     menu.innerHTML = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="1.45"/><circle cx="12" cy="12" r="1.45"/><circle cx="19" cy="12" r="1.45"/></svg>';
 
     const actions = document.createElement('div');
     actions.className = 'ai-chat__thread-actions';
     actions.hidden = true;
-    actions.setAttribute('aria-label', 'Conversation actions');
-    const copy = normalizeCopy(root);
+    actions.setAttribute('aria-label', threadActionsLabel);
     const renameLabel = copy.renameThreadLabel || 'Rename';
     const deleteLabel = copy.deleteThreadLabel || 'Delete';
     actions.innerHTML = `
@@ -717,14 +719,14 @@ function renderThreadList(root, threads) {
       <div class="ai-chat__thread-action-view ai-chat__thread-action-view--form" data-ai-thread-action-view="rename" hidden>
         <input type="text" maxlength="80" data-ai-thread-rename-input>
         <div class="ai-chat__thread-confirm-row">
-          <button type="button" data-ai-thread-action-cancel>[CANCEL]</button>
+          <button type="button" data-ai-thread-action-cancel></button>
           <button type="button" data-ai-thread-rename-confirm></button>
         </div>
       </div>
       <div class="ai-chat__thread-action-view ai-chat__thread-action-view--confirm" data-ai-thread-action-view="delete" hidden>
         <p data-ai-thread-delete-message></p>
         <div class="ai-chat__thread-confirm-row">
-          <button type="button" data-ai-thread-action-cancel>[CANCEL]</button>
+          <button type="button" data-ai-thread-action-cancel></button>
           <button type="button" data-ai-thread-delete-confirm></button>
         </div>
       </div>
@@ -735,6 +737,12 @@ function renderThreadList(root, threads) {
     const deleteConfirm = actions.querySelector('[data-ai-thread-delete-confirm]');
     const renameInput = actions.querySelector('[data-ai-thread-rename-input]');
     const deleteMessage = actions.querySelector('[data-ai-thread-delete-message]');
+    actions.querySelectorAll('[data-ai-thread-action-cancel]').forEach((cancelButton) => {
+      if (cancelButton instanceof HTMLButtonElement) {
+        cancelButton.textContent = cancelLabel;
+        cancelButton.setAttribute('aria-label', cancelLabel);
+      }
+    });
     if (renameButton instanceof HTMLButtonElement) {
       renameButton.textContent = renameLabel;
       renameButton.setAttribute('aria-label', renameLabel);
