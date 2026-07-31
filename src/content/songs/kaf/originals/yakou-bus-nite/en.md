@@ -17,11 +17,11 @@ code: KO10
 image: /images/albums/kaf/kansoku.jpg
 ---
 
-## Introduction
+## Overview
 
 KAF's tenth original song, written, composed, and arranged by Iori Kanzaki.
 
-## Preview
+## Listen
 
 {{media-switcher::KAF - Yakou Bus nite}}
 @[bilibili](BV1AJ411875A "KAF - Yakou Bus nite")

@@ -17,7 +17,7 @@ code: KO3
 image: /images/albums/kaf/flower-and-heart.jpg
 ---
 
-## 紹介
+## 作品概要
 
 花譜のオリジナル楽曲第3作。作詞・作曲・編曲はカンザキイオリです。
 

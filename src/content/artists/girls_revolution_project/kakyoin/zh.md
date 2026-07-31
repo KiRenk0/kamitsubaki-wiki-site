@@ -97,15 +97,22 @@ seo:
 
 |    投稿时间    |                           歌曲名称                           |    作词     |      作曲       |                                                                                       试听                                                                                       |
 | :--------: | :------------------------------------------------------: | :-------: | :-----------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| 2024-08-09 | <ruby>フェイクナイト・シンデレラ<rt>Fake Night Cinderella</rt></ruby> |   矢野達也    |     矢野達也      | @[netease](https://music.163.com/outchain/player?type=2&id=2749848111&auto=0&height=66) |
-| 2024-09-18 |         <ruby>パーフェクション<rt>Perfection</rt></ruby>         |   水野あつ    | HIDEYA KOJIMA | @[netease](https://music.163.com/outchain/player?type=2&id=2749849270&auto=0&height=66) |
-| 2025-01-22 |                        Ephemeral                         |  100回嘔吐   |    100回嘔吐     | @[netease](https://music.163.com/outchain/player?type=2&id=2749849268&auto=0&height=66) |
-| 2025-02-26 |            <ruby>ココロト<rt>Kokoroto</rt></ruby>            |    とあ     |      とあ       | @[netease](https://music.163.com/outchain/player?type=2&id=2749849271&auto=0&height=66) |
-| 2025-04-02 |                           うそ鳴き                           |    ぽん     | HIDEYA KOJIMA | @[netease](https://music.163.com/outchain/player?type=2&id=2749848112&auto=0&height=66) |
-| 2025-05-21 |                         いずれ僕は溶けて                         | Purukichi |   Purukichi   | @[netease](https://music.163.com/outchain/player?type=2&id=2749849272&auto=0&height=66) |
-| 2025-05-21 |  <ruby>ミリオン・コンプレクシティ<rt>Million Complexity</rt></ruby>   |   矢野達也    |     矢野達也      | @[netease](https://music.163.com/outchain/player?type=2&id=2749849274&auto=0&height=66) |
-| 2025-10-29 |         <ruby>ロストオービット<rt>Lost Orbit</rt></ruby>         | shikisai  |   shikisai    | @[netease](https://music.163.com/outchain/player?type=2&id=2749849269&auto=0&height=66) |
-| 2025-10-29 |           <ruby>コントラスト<rt>Contrast</rt></ruby>           |   矢野達也    |     矢野達也      | @[netease](https://music.163.com/outchain/player?type=2&id=2749849273&auto=0&height=66) |
-| 2025-10-29 |                        FantastiQ                         |    ぽん     | HIDEYA KOJIMA | @[netease](https://music.163.com/outchain/player?type=2&id=2749848113&auto=0&height=66) |
-| 2025-10-29 |                          改変 -心-                          |    たなか    |   たなか、LLLL    | @[netease](https://music.163.com/outchain/player?type=2&id=2749849275&auto=0&height=66) |
-| 2026-02-20 |                           雑几帖                            |   矢野達也    |     矢野達也      | @[netease](https://music.163.com/outchain/player?type=2&id=3339843367&auto=0&height=66) |
+| 2024年8月9日 | <ruby>フェイクナイト・シンデレラ<rt>Fake Night Cinderella</rt></ruby> |   矢野達也    |     矢野達也      | @[netease](https://music.163.com/outchain/player?type=2&id=2749848111&auto=0&height=66) |
+| 2024年9月18日 |         <ruby>パーフェクション<rt>Perfection</rt></ruby>         |   水野あつ    | HIDEYA KOJIMA | @[netease](https://music.163.com/outchain/player?type=2&id=2749849270&auto=0&height=66) |
+| 2025年1月22日 |                        Ephemeral                         |  100回嘔吐   |    100回嘔吐     | @[netease](https://music.163.com/outchain/player?type=2&id=2749849268&auto=0&height=66) |
+| 2025年2月26日 |            <ruby>ココロト<rt>Kokoroto</rt></ruby>            |    とあ     |      とあ       | @[netease](https://music.163.com/outchain/player?type=2&id=2749849271&auto=0&height=66) |
+| 2025年4月2日 |                           うそ鳴き                           |    ぽん     | HIDEYA KOJIMA | @[netease](https://music.163.com/outchain/player?type=2&id=2749848112&auto=0&height=66) |
+| 2025年5月21日 |                         いずれ僕は溶けて                         | Purukichi |   Purukichi   | @[netease](https://music.163.com/outchain/player?type=2&id=2749849272&auto=0&height=66) |
+| 2025年5月21日 |  <ruby>ミリオン・コンプレクシティ<rt>Million Complexity</rt></ruby>   |   矢野達也    |     矢野達也      | @[netease](https://music.163.com/outchain/player?type=2&id=2749849274&auto=0&height=66) |
+| 2025年10月29日 |         <ruby>ロストオービット<rt>Lost Orbit</rt></ruby>         | shikisai  |   shikisai    | @[netease](https://music.163.com/outchain/player?type=2&id=2749849269&auto=0&height=66) |
+| 2025年10月29日 |           <ruby>コントラスト<rt>Contrast</rt></ruby>           |   矢野達也    |     矢野達也      | @[netease](https://music.163.com/outchain/player?type=2&id=2749849273&auto=0&height=66) |
+| 2025年10月29日 |                        FantastiQ                         |    ぽん     | HIDEYA KOJIMA | @[netease](https://music.163.com/outchain/player?type=2&id=2749848113&auto=0&height=66) |
+| 2025年10月29日 |                          改変 -心-                          |    たなか    |   たなか、LLLL    | @[netease](https://music.163.com/outchain/player?type=2&id=2749849275&auto=0&height=66) |
+| 2026年2月20日 |                           雑几帖                            |   矢野達也    |     矢野達也      | @[netease](https://music.163.com/outchain/player?type=2&id=3339843367&auto=0&height=66) |
+## 外部链接
+
+- [神椿工作室 官方艺人页](https://kamitsubaki.jp/artist/sinseiki/)
+- [少女革命計画 官方艺人页](https://kamitsubaki.jp/artist/sinseiki/)
+- [YouTube 个人主页](https://www.youtube.com/@kakyoin_grp)
+- [X 个人主页](https://x.com/kakyoin_gr)
+- [Bilibili 个人主页](https://space.bilibili.com/3546832122677764)

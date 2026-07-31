@@ -17,11 +17,11 @@ code: KO3
 image: /images/albums/kaf/flower-and-heart.jpg
 ---
 
-## Introduction
+## Overview
 
 KAF's third original song, written, composed, and arranged by Iori Kanzaki.
 
-## Preview
+## Listen
 
 {{media-switcher::KAF - Majo}}
 @[bilibili](BV1FJ41187QY "KAF - Majo")

@@ -16,7 +16,7 @@ image: /images/songs/kaf/track-1753878885.jpg
 
 ## Overview
 
-“ゲシュタルト(崩壊Remix)” is a KAF release dated 2024-07-10.
+“ゲシュタルト(崩壊Remix)” is a KAF release dated July 10, 2024.
 
 ## Listen
 

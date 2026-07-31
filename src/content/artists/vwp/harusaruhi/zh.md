@@ -66,7 +66,7 @@ seo:
 
 ## 概述
 
-{{ruby::春猿火::はるさるひ::harusaruhi}} 是 KAMITSUBAKI STUDIO 旗下的虚拟歌手及 Virtual Rapper，也是顶级虚拟歌手组合 {{abbr::V.W.P::Virtual Witch Phenomenon}} 的核心成员之一。她在 2019 年 11 月 15 日正式宣告出道。春猿火的个人风格在神椿诸位魔女中极为独树一帜，常以高能量、高张力、强劲节奏感与带有冲撞感的流动 Rap 表现被听众迅速辨识。
+{{ruby::春猿火::はるさるひ::harusaruhi}} 是 KAMITSUBAKI STUDIO 旗下的虚拟歌手及 Virtual Rapper，也是顶级虚拟歌手组合 {{abbr::V.W.P::Virtual Witch Phenomenon}} 的核心成员之一。她在 2019年11月15日正式宣告出道。春猿火的个人风格在神椿诸位魔女中极为独树一帜，常以高能量、高张力、强劲节奏感与带有冲撞感的流动 Rap 表现被听众迅速辨识。
 
 与神椿体系中偏向内省与叙事抽离的路线不同，春猿火的作品更容易给人以“直击内心的强烈情绪”这一第一印象。她既能用宛如台风袭击般的现场爆发力推进歌曲高潮，也能在更稚气、直接的段落里保持极高的临场倾听感。这种在强音说唱与抒情歌唱之间自由切换的变幻表现力，正是其个人艺人形象的核心亮点。
 
@@ -137,12 +137,12 @@ seo:
 
 {{details::点击展开「シャーマニズム」与 Live 全历程}}
 
-1. **2020.12.05 翻唱 LIVE「シュークリームライブ」** (线上 Live)
-2. **2021.08.27 1st ONE-MAN LIVE「シャーマニズム」** (HULIC HALL TOKYO)
-3. **2022.08.06 翻唱 LIVE「シュークリームライブ2」** (线上 Live)
-4. **2022.11.06 联决 LIVE「Singularity Live 2」** (与 幸祜、CIEL)
-5. **2023.11.04 2nd ONE-MAN LIVE「シャーマニズムⅡ -神椿市弐番街-」** (SINKA LIVE)
-6. **2024.04.10 3rd ONE-MAN LIVE「シャーマニズムⅢ」** (Zepp Shinjuku)
+1. **2020年12月5日 翻唱 LIVE「シュークリームライブ」** (线上 Live)
+2. **2021年8月27日 1st ONE-MAN LIVE「シャーマニズム」** (HULIC HALL TOKYO)
+3. **2022年8月6日 翻唱 LIVE「シュークリームライブ2」** (线上 Live)
+4. **2022年11月6日 联决 LIVE「Singularity Live 2」** (与 幸祜、CIEL)
+5. **2023年11月4日 2nd ONE-MAN LIVE「シャーマニズムⅡ -神椿市弐番街-」** (SINKA LIVE)
+6. **2024年4月10日 3rd ONE-MAN LIVE「シャーマニズムⅢ」** (Zepp Shinjuku)
 
 {{/details}}
 

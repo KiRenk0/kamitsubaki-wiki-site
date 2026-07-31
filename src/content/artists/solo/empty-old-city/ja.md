@@ -69,11 +69,11 @@ ANARCHIC RECORD のエコシステムに所属しながら、バーチャルお�
 ## 活動歴
 
 - 2021 年：1st Single「Urban Cruise」でデビュー。
-- 2024 年 1 月：11th Single「Chronicle A」をリリース。YouTube での再生回数が 1200 万回を突破し、ブレイクヒットとなる。
-- 2025 年 9 月 11 日：コンセプト EP『From Noir into Clair』をリリース。
-- 2025 年 10 月 19 日：Spotify O-EAST にて 5th Anniversary Live「Quintennial: recall」を開催。
-- 2026 年 4 月 22 日：2nd Album『Strings in Owl』をリリース。
-- 2026 年 6 月 2 日：2nd ONE-MAN LIVE の開催を発表。
+- 2024年1月：11th Single「Chronicle A」をリリース。YouTube での再生回数が 1200 万回を突破し、ブレイクヒットとなる。
+- 2025年9月11日：コンセプト EP『From Noir into Clair』をリリース。
+- 2025年10月19日：Spotify O-EAST にて 5th Anniversary Live「Quintennial: recall」を開催。
+- 2026年4月22日：2nd Album『Strings in Owl』をリリース。
+- 2026年6月2日：2nd ONE-MAN LIVE の開催を発表。
 
 ## 代表作品
 

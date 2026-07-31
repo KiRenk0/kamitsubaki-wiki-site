@@ -16,7 +16,7 @@ image: /images/songs/kaf/track-1817085907.jpg
 
 ## Overview
 
-“EAT THE PAST (English Ver.)” is a KAF release dated 2025-06-11.
+“EAT THE PAST (English Ver.)” is a KAF release dated June 11, 2025.
 
 ## Listen
 

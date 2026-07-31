@@ -16,7 +16,7 @@ image: /images/songs/kaf/track-1848786354.jpg
 
 ## Overview
 
-“ユーフォーを見にいこう” is a KAF release dated 2025-11-26.
+“ユーフォーを見にいこう” is a KAF release dated November 26, 2025.
 
 ## Listen
 

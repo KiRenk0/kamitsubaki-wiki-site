@@ -80,12 +80,12 @@ VALIS 的核心定位围绕"虚拟"与"真实"的二元关系展开。五位成�
 
 ## 活动历程
 
-- 2020 年 5 月 15 日发行出道曲《残响Vandeler》正式出道，随后以 SINSEKAI RECORD 名义展开音乐活动。
+- 2020年5月15日发行出道曲《残响Vandeler》正式出道，随后以 SINSEKAI RECORD 名义展开音乐活动。
 - 持续推出原创音乐作品，包括《無窮プラトニック》《熱愛フローズン》《乙女的サイコパシー》《再見ロマネスク》《偶像ナイトメア》等代表性曲目。
 - 多次举办 ONE-MAN LIVE 专场演出，积累了稳定的现场观众基础。
 - 参与 KAMITSUBAKI PHILHARMONIC ORCHESTRA 协力的虚拟舞台剧《御伽噺（Some）》等跨媒体企划。
-- 2025 年 2 月 21 日举办第 6 回 ONE-MAN LIVE《喝采 Curtain Call》。
-- 2025 年 9 月 27 日举办第 7 回 ONE-MAN LIVE《咆哮 Forever》。
+- 2025年2月21日举办第 6 回 ONE-MAN LIVE《喝采 Curtain Call》。
+- 2025年9月27日举办第 7 回 ONE-MAN LIVE《咆哮 Forever》。
 
 VALIS 的主要录音作品还包括 1st Album《WONDERLAND》（2021）与 2nd Album《SHINSEKAI》（2023）。
 

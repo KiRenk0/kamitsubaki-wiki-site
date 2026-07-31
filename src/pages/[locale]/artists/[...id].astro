@@ -12,25 +12,12 @@ import { buildArtistDisplayData, getLocalizedSite } from '../../../lib/homeData.
 import { buildLocaleLinks, defaultLocale, getEditableLocale, resolveLocaleCopy, supportedLocales } from '../../../lib/i18n.mjs';
 import { buildArticleMetadata } from '../../../lib/metadata.mjs';
 import { renderContentEntry } from '../../../lib/contentSource.mjs';
+import { buildLocalizedStaticPaths } from '../../../lib/staticPaths.mjs';
 
 export async function getStaticPaths() {
   const artistEntries = await getCollection('artists');
-  
-  return artistEntries.map((entry) => {
-    // The entry.id looks like 'vwp/kaf/zh' or 'solo/ciel/ja'
-    // We split by '/' to separate the locale from the rest of the path
-    const parts = entry.id.split('/');
-    const entryLocale = parts.pop(); // 'zh', 'ja', 'en'
-    const idPath = parts.join('/'); // 'vwp/kaf'
-    
-    return {
-      params: { 
-        locale: entryLocale,
-        id: idPath 
-      },
-      props: { entry },
-    };
-  });
+
+  return buildLocalizedStaticPaths(artistEntries);
 }
 
 const { locale, id } = Astro.params;

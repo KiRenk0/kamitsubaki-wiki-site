@@ -17,7 +17,7 @@ code: KO5
 image: /images/albums/kaf/kansoku.jpg
 ---
 
-## 紹介
+## 作品概要
 
 花譜の5作目となるオリジナル楽曲。カンザキイオリが作詞・作曲・編曲を手がけた。
 

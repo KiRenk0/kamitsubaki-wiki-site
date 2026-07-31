@@ -16,7 +16,7 @@ image: /images/songs/kaf/track-1819865325.jpg
 
 ## 作品简介
 
-《撃って (feat. CHiCO)》是花譜于 2025-06-25 正式发行的作品。
+《撃って (feat. CHiCO)》是花譜于 2025年6月25日 正式发行的作品。
 
 ## 试听
 

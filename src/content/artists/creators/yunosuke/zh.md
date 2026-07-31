@@ -68,11 +68,11 @@ Yunosuke 的制作风格以精致的电子音景与流行乐感的融合为核�
 
 ## 投稿与制作履历
 
-雄之助自 2014 年 10 月开始在网络音乐界活动，第一首原创 VOCALOID 曲《ループメモリー》于 2014 年 10 月 17 日投稿。他主要使用 EDM、House 等电子音乐语汇，同时也制作纯音乐、游戏音乐和商业合作曲；《Take Me!!》《Pathos》《PaⅢ.SENSATION》是其早期代表作。
+雄之助自 2014年10月开始在网络音乐界活动，第一首原创 VOCALOID 曲《ループメモリー》于 2014年10月17日投稿。他主要使用 EDM、House 等电子音乐语汇，同时也制作纯音乐、游戏音乐和商业合作曲；《Take Me!!》《Pathos》《PaⅢ.SENSATION》是其早期代表作。
 
-他在 2016 年 3 月 7 日于 Bilibili 投稿《Take Me!! (2016 Remix)》，是较早进入中文视频平台的日本 VOCALOID 制作人之一。其 Bilibili 受众规模和部分作品播放量长期高于 niconico，构成其海外传播经历的重要部分。
+他在 2016年3月7日于 Bilibili 投稿《Take Me!! (2016 Remix)》，是较早进入中文视频平台的日本 VOCALOID 制作人之一。其 Bilibili 受众规模和部分作品播放量长期高于 niconico，构成其海外传播经历的重要部分。
 
-除个人投稿外，雄之助还为 SOUND VOLTEX、Arcaea 等音乐游戏提供乐曲，并与 WaMi 组成音乐组合 Awairo。2023 年 10 月 18 日公开组合出道，10 月 20 日发布首支单曲《Pale&Deep》。
+除个人投稿外，雄之助还为 SOUND VOLTEX、Arcaea 等音乐游戏提供乐曲，并与 WaMi 组成音乐组合 Awairo。2023年10月18日公开组合出道，10 月 20 日发布首支单曲《Pale&Deep》。
 
 ## 作品整理
 

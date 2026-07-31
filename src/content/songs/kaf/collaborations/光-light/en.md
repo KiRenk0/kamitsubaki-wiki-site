@@ -16,7 +16,7 @@ image: /images/songs/kaf/track-1834063163.jpg
 
 ## Overview
 
-“光” is a KAF release dated 2025-09-03.
+“光” is a KAF release dated September 3, 2025.
 
 ## Listen
 

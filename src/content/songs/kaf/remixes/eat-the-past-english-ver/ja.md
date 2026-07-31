@@ -16,7 +16,7 @@ image: /images/songs/kaf/track-1817085907.jpg
 
 ## 作品概要
 
-「EAT THE PAST (English Ver.)」は2025-06-11に正式リリースされた花譜の楽曲です。
+「EAT THE PAST (English Ver.)」は2025年6月11日に正式リリースされた花譜の楽曲です。
 
 ## 視聴
 

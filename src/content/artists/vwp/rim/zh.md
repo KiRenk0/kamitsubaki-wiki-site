@@ -65,7 +65,7 @@ seo:
 
 ## 概述
 
-{{ruby::理芽::りめ::rim}} 是 KAMITSUBAKI STUDIO 旗下的次世代虚拟歌手（Virtual Singer），也是顶级虚拟歌手组合 {{abbr::V.W.P::Virtual Witch Phenomenon}} 的核心成员之一。她在 2019 年 10 月 18 日与神椿工作室的成立正式宣告同步出道。理芽的个人形象常以“神秘感”、“透明感”与卓越的多语言（日语、英语、韩语）演唱能力为核心辨识点，在神椿诸位魔女中拥有极为鲜明的时尚感与都市流行声线。
+{{ruby::理芽::りめ::rim}} 是 KAMITSUBAKI STUDIO 旗下的次世代虚拟歌手（Virtual Singer），也是顶级虚拟歌手组合 {{abbr::V.W.P::Virtual Witch Phenomenon}} 的核心成员之一。她在 2019年10月18日与神椿工作室的成立正式宣告同步出道。理芽的个人形象常以“神秘感”、“透明感”与卓越的多语言（日语、英语、韩语）演唱能力为核心辨识点，在神椿诸位魔女中拥有极为鲜明的时尚感与都市流行声线。
 
 与神椿体系中偏向深重世界观驱动的部分相比，理芽的个人原创曲与 Cover 作品常给人以更直接、更具呼吸感与灵动感的都市流行色彩（Urban Pop/R&B）。她不仅是音乐同位体“{{ruby::裏命::りめ::rime}}”的歌声数据声源提供者，其跨越语种界限的演唱与赴美留学背景，也使她成为神椿工作室较早展现出强劲国际传播潜力的代表性艺人。《食虫植物》在 TikTok 与 YouTube 突破数千万播放，奠定了其不可替代的都市歌姬地位。
 
@@ -143,13 +143,13 @@ seo:
 
 {{details::点击展开「NEUROMANCE」与演唱会全历程}}
 
-1. **2020.12.20 翻唱 LIVE「CHOCOLATE LIVE」** (线上 Live)
-2. **2021.05.15 1st ONE-MAN LIVE「NEUROMANCE」** (线上 Live)
-3. **2022.07.17 联决 LIVE「Singularity Live」** (与 ヰ世界情緒)
-4. **2023.12.16 2nd ONE-MAN LIVE「NEUROMANCE II」** (丰洲 PIT)
-5. **2024.09.14 联决 LIVE「Singularity Live Vol.3」** (与 花譜)
-6. **2024.09.15 3rd ONE-MAN LIVE「NEUROMANCE III」** (TOKYO DOME CITY HALL)
-7. **2026.03.01 - 03.15 个人艺术展「理芽展 / RIM Exhibition」** (惠比寿 AL)
+1. **2020年12月20日 翻唱 LIVE「CHOCOLATE LIVE」** (线上 Live)
+2. **2021年5月15日 1st ONE-MAN LIVE「NEUROMANCE」** (线上 Live)
+3. **2022年7月17日 联决 LIVE「Singularity Live」** (与 ヰ世界情緒)
+4. **2023年12月16日 2nd ONE-MAN LIVE「NEUROMANCE II」** (丰洲 PIT)
+5. **2024年9月14日 联决 LIVE「Singularity Live Vol.3」** (与 花譜)
+6. **2024年9月15日 3rd ONE-MAN LIVE「NEUROMANCE III」** (TOKYO DOME CITY HALL)
+7. **2026年3月1日 - 03.15 个人艺术展「理芽展 / RIM Exhibition」** (惠比寿 AL)
 
 {{/details}}
 

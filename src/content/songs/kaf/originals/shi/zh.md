@@ -17,11 +17,11 @@ code: KO1
 image: /images/albums/kaf/flower-and-heart.jpg
 ---
 
-## 简介
+## 作品简介
 
 - 花谱的第一首原创曲目。
 
-## 试听链接
+## 试听
 
 {{media-switcher::花譜 - 糸}}
 @[bilibili](BV1CJ411b7Ym "花譜 - 糸")

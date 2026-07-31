@@ -17,7 +17,7 @@ code: KO10
 image: /images/albums/kaf/kansoku.jpg
 ---
 
-## 简介
+## 作品简介
 
 花谱第十首原创曲，由カンザキイオリ作词、作曲与编曲。
 

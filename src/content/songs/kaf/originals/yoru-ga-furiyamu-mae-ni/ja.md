@@ -17,7 +17,7 @@ code: KO7
 image: /images/albums/kaf/yoru-ga-furiyamu-mae-ni.jpg
 ---
 
-## 紹介
+## 作品概要
 
 花譜の7作目となるオリジナル楽曲。カンザキイオリが作詞・作曲・編曲を手がけた。
 

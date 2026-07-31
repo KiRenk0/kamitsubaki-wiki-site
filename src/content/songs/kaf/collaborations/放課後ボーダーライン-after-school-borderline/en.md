@@ -16,7 +16,7 @@ image: /images/songs/kaf/track-1889815863.jpg
 
 ## Overview
 
-“放課後ボーダーライン” is a KAF release dated 2026-04-29.
+“放課後ボーダーライン” is a KAF release dated April 29, 2026.
 
 ## Listen
 

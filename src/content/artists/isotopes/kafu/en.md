@@ -82,14 +82,14 @@ PALOW.'s character design uses white and yellow, circular pupils, a hooded outer
 
 | Date | Song | Creator |
 | --- | --- | --- |
-| 2021-01-09 | *Hologram* | Hifumi |
-| 2021-02-20 | *Cute na Kanojo* | syudou |
-| 2021-03-07 | *Ice Cream* | Guiano |
-| 2021-04-10 | *Retropolis* | R Sound Design |
-| 2021-05-01 | *Hana to Nare* | Yunosuke |
-| 2021-05-08 | *Suimenka* | Osanuma Paseri |
-| 2021-06-05 | *Phony* | Tsumiki |
-| 2021-07-17 | *Cat Loving* | Moimi Kashii |
+| January 9, 2021 | *Hologram* | Hifumi |
+| February 20, 2021 | *Cute na Kanojo* | syudou |
+| March 7, 2021 | *Ice Cream* | Guiano |
+| April 10, 2021 | *Retropolis* | R Sound Design |
+| May 1, 2021 | *Hana to Nare* | Yunosuke |
+| May 8, 2021 | *Suimenka* | Osanuma Paseri |
+| June 5, 2021 | *Phony* | Tsumiki |
+| July 17, 2021 | *Cat Loving* | Moimi Kashii |
 
 {{/details}}
 
@@ -98,3 +98,6 @@ These official commissions are an entry point rather than a closed discography: 
 ## Project connections
 
 KAFU opened the Musical Isotope project. The subsequent [SEKAI](/en/artists/isotopes/sekai), [RIME](/en/artists/isotopes/rime), [COKO](/en/artists/isotopes/coko), and [HARU](/en/artists/isotopes/haru) voice characters extend the same creator-facing framework.
+## External Links
+
+- [Musical Isotope KAFU official site](https://kafu.kamitsubaki.jp/)

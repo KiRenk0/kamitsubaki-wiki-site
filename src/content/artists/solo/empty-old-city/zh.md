@@ -69,11 +69,11 @@ Empty old City 是由作曲家兼制作人 Neuron（ニューロン）与主唱 
 ## 活动历程
 
 - 2021 年：以 1st Single「Urban Cruise」正式出道。
-- 2024 年 1 月：发布 11th Single「Chronicle A」，YouTube 播放量突破 1200 万次，成为标志性破圈作品。
-- 2025 年 9 月 11 日：发行概念 EP《From Noir into Clair》。
-- 2025 年 10 月 19 日：在 Spotify O-EAST 举办五周年纪念演唱会「Quintennial: recall」。
-- 2026 年 4 月 22 日：发行第 2 张专辑《Strings in Owl》。
-- 2026 年 6 月 2 日：宣布举办第 2 次 ONE-MAN LIVE。
+- 2024年1月：发布 11th Single「Chronicle A」，YouTube 播放量突破 1200 万次，成为标志性破圈作品。
+- 2025年9月11日：发行概念 EP《From Noir into Clair》。
+- 2025年10月19日：在 Spotify O-EAST 举办五周年纪念演唱会「Quintennial: recall」。
+- 2026年4月22日：发行第 2 张专辑《Strings in Owl》。
+- 2026年6月2日：宣布举办第 2 次 ONE-MAN LIVE。
 
 ## 代表作品
 

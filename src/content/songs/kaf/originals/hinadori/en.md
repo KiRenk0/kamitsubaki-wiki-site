@@ -17,11 +17,11 @@ code: KO5
 image: /images/albums/kaf/kansoku.jpg
 ---
 
-## Introduction
+## Overview
 
 KAF's fifth original song, written, composed, and arranged by Iori Kanzaki.
 
-## Preview
+## Listen
 
 {{media-switcher::KAF - Hinadori}}
 @[bilibili](BV1wJ411873J "KAF - Hinadori")

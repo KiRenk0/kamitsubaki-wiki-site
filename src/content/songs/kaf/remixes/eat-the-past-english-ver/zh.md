@@ -16,7 +16,7 @@ image: /images/songs/kaf/track-1817085907.jpg
 
 ## 作品简介
 
-《EAT THE PAST (English Ver.)》是花譜于 2025-06-11 正式发行的作品。
+《EAT THE PAST (English Ver.)》是花譜于 2025年6月11日 正式发行的作品。
 
 ## 试听
 

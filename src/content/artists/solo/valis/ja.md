@@ -72,8 +72,8 @@ VALIS の活動における核となるのは、「バーチャル」と「リ�
 - 『無窮プラトニック』『熱愛フローズン』『乙女的サイコパシー』『再見ロマネスク』『偶像ナイトメア』など、多数のオリジナル楽曲をリリース。
 - 複数回の ONE-MAN LIVE を開催し、安定したライブファン基盤を築く。
 - KAMITSUBAKI PHILHARMONIC ORCHESTRA 協力によるバーチャル舞台劇『御伽噺（Some）』など、横断的企画にも参加。
-- 2025 年 2 月 21 日、6th ONE-MAN LIVE『喝采 Curtain Call』を開催。
-- 2025 年 9 月 27 日、7th ONE-MAN LIVE『咆哮 Forever』を開催予定。
+- 2025年2月21日、6th ONE-MAN LIVE『喝采 Curtain Call』を開催。
+- 2025年9月27日、7th ONE-MAN LIVE『咆哮 Forever』を開催予定。
 
 ## メンバーと形態
 

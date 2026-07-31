@@ -16,7 +16,7 @@ image: /images/songs/kaf/track-1760084307.jpg
 
 ## Overview
 
-“チューイン・ディスコ” is a KAF release dated 2024-08-21.
+“チューイン・ディスコ” is a KAF release dated August 21, 2024.
 
 ## Listen
 

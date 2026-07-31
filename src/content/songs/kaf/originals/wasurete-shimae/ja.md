@@ -17,7 +17,7 @@ code: KO4
 image: /images/albums/kaf/kansoku.jpg
 ---
 
-## 紹介
+## 作品概要
 
 花譜のオリジナル楽曲第4作。作詞・作曲・編曲はカンザキイオリです。
 

@@ -17,7 +17,7 @@ code: KO2
 image: /images/albums/kaf/flower-and-heart.jpg
 ---
 
-## 简介
+## 作品简介
 
 花谱第二首原创曲，由カンザキイオリ作词、作曲与编曲。
 
