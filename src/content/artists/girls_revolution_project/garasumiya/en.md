@@ -8,7 +8,7 @@ categoryOrder: 5
 itemOrder: 3
 statusLabel: STATUS
 status: ACTIVE
-image: "https://placehold.co/1200x800/0a0a12/a0a0b0?text=GARASUMIYA"
+image: "/images/artists/garasumiya.png"
 name: GARASUMIYA
 categoryTitle: GIRLS REVOLUTION PROJECT
 categorySubtitle: 少女革命計画

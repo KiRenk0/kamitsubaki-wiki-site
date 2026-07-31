@@ -8,7 +8,7 @@ categoryOrder: 5
 itemOrder: 6
 statusLabel: STATUS
 status: ACTIVE
-image: "https://placehold.co/1200x800/0a0a12/a0a0b0?text=HINAGESHI"
+image: "/images/artists/hinageshi.png"
 name: 氷夏至
 categoryTitle: 少女革命计划
 categorySubtitle: GIRLS REVOLUTION PROJECT
