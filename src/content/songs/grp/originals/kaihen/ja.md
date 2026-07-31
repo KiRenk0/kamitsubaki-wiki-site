@@ -4,7 +4,7 @@ translationKey: "grp_grp_originals_kaihen"
 title: "改変"
 artist: "心世紀×罪十罰"
 artistId: grp
-duration: "03:04"
+duration: "03:24"
 releaseDate: "2025-10-29"
 categoryTitle: "オリジナル曲"
 categorySubtitle: "ORIGINALS"
