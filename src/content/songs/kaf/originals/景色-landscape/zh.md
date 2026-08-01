@@ -190,7 +190,7 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-[03:08.15]<ruby>理由<rt class="furi">りゆう</rt><rt class="roma">riyuu</rt></ruby><ruby>なき<rt class="roma">naki</rt></ruby><ruby>礎<rt class="furi">いしずえ</rt><rt class="roma">ishizue</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>
+[03:08.15]<ruby>理由<rt class="furi">わけ</rt><rt class="roma">wake</rt></ruby><ruby>なき<rt class="roma">naki</rt></ruby><ruby>礎<rt class="furi">いしずえ</rt><rt class="roma">ishizue</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>
 </div>
 <div class="cn-lyric">[03:08.15]成为无理由的基石</div>
 </div>
@@ -211,7 +211,7 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-[03:28.82]<ruby>仮<rt class="furi">かり</rt><rt class="roma">kari</rt></ruby><ruby>初<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>捨<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いけ<rt class="roma">ike</rt></ruby>
+[03:28.82]<ruby>仮<rt class="furi">かり</rt><rt class="roma">kari</rt></ruby><ruby>初<rt class="furi">そ</rt><rt class="roma">so</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>捨<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いけ<rt class="roma">ike</rt></ruby>
 </div>
 <div class="cn-lyric">[03:28.82]舍弃所有暂时的意义吧</div>
 </div>
