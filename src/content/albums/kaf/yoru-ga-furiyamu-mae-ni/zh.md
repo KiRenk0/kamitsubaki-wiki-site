@@ -11,8 +11,8 @@ label: "KAMITSUBAKI RECORD"
 catalogNumber: "ANTCD-46537"
 trackCount: 4
 duration: "13:25"
-categoryTitle: "专辑"
-categorySubtitle: ALBUMS
+categoryTitle: "EP"
+categorySubtitle: EPS
 categoryOrder: 1
 itemOrder: 18
 image: /images/albums/kaf/yoru-ga-furiyamu-mae-ni.jpg

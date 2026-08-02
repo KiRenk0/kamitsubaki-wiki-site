@@ -8,7 +8,7 @@ itemOrder: 7
 meta: "ROLE: COMPOSER"
 statusLabel: "状态"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0a0a12/a0a0b0?text=HiFi-P"
+image: "/images/artists/hifi-p.jpg"
 name: "HiFi-P"
 ---
 

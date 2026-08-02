@@ -33,7 +33,7 @@ theme:
       value: "#E0ECFF"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0a0f1a/4a90d9?text=Yoshihisa+Hirata"
+image: "/images/artists/hiratayoshihisa.png"
 name: "平田義久"
 categoryTitle: "クリエイター"
 categorySubtitle: "CREATORS / COMPOSERS"

@@ -41,7 +41,7 @@ theme:
       value: "#EEF4FF"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0e1525/6ea8fe?text=teresaAI"
+image: "/images/artists/teresa.jpg"
 name: "teresaAI"
 categoryTitle: "个人艺术家"
 categorySubtitle: "SINSEKAI RECORD"

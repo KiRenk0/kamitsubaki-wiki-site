@@ -11,8 +11,8 @@ label: "KAMITSUBAKI RECORD"
 catalogNumber: "ANTCD-46469"
 trackCount: 3
 duration: "12:51"
-categoryTitle: "专辑"
-categorySubtitle: ALBUMS
+categoryTitle: "EP"
+categorySubtitle: EPS
 categoryOrder: 1
 itemOrder: 19
 image: /images/albums/kaf/flower-and-heart.jpg

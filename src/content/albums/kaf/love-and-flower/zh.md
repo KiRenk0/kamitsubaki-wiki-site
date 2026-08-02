@@ -10,8 +10,8 @@ releaseDate: "2020-09-23"
 label: "KAMITSUBAKI RECORD"
 trackCount: 4
 duration: "14:40"
-categoryTitle: "专辑"
-categorySubtitle: ALBUMS
+categoryTitle: "EP"
+categorySubtitle: EPS
 categoryOrder: 1
 itemOrder: 13
 image: /images/albums/kaf/love-and-flower.jpg

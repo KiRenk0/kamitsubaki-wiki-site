@@ -34,7 +34,7 @@ theme:
       value: "#ECE4FF"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/12101a/b48eff?text=Musical+Isotope"
+image: "/images/artists/musical-isotope.jpg"
 name: "Musical Isotope"
 categoryTitle: "Solo Artists / Units"
 categorySubtitle: "SOLO ARTISTS & UNITS"

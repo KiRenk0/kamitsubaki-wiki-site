@@ -31,7 +31,7 @@ theme:
       value: "#FFF4E0"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/1a1510/e6a84e?text=Kazuhide+Oka"
+image: "/images/artists/kazuhide-oka.png"
 name: "Kazuhide Oka"
 categoryTitle: "Creators"
 categorySubtitle: "CREATORS / GAME CREATORS"

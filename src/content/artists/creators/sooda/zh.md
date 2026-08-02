@@ -8,7 +8,7 @@ itemOrder: 6
 meta: "ROLE: SINGER-SONGWRITER"
 statusLabel: "状态"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0a0a12/a0a0b0?text=Sooda"
+image: "/images/artists/sooda.jpg"
 name: "Sooda"
 ---
 

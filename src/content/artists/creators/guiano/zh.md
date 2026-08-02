@@ -37,7 +37,7 @@ theme:
       value: "#0B120C"
 statusLabel: "STATUS"
 status: "INDEPENDENT"
-image: "/images/artists/guiano.jpg"
+image: "https://placehold.co/1200x800/0a0a12/a0a0b0?text=GUIANO"
 name: "Guiano"
 categoryTitle: "创作者团队"
 categorySubtitle: "CREATORS & PRODUCERS"

@@ -11,8 +11,8 @@ label: "KAMITSUBAKI RECORD"
 catalogNumber: "ANTCD-46556"
 trackCount: 5
 duration: "18:31"
-categoryTitle: "Albums"
-categorySubtitle: ALBUMS
+categoryTitle: "EP"
+categorySubtitle: EPS
 categoryOrder: 1
 itemOrder: 15
 image: /images/albums/kaf/tomadoi-telepathy.jpg

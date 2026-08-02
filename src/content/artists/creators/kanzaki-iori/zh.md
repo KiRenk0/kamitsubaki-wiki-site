@@ -37,7 +37,7 @@ theme:
       value: "#0B0E1A"
 statusLabel: "STATUS"
 status: "INDEPENDENT"
-image: "/images/artists/kanzaki-iori.jpg"
+image: "https://placehold.co/1200x800/0a0a12/a0a0b0?text=KANZAKI-IORI"
 name: "神崎一织"
 categoryTitle: "创作者团队"
 categorySubtitle: "CREATORS & PRODUCERS"

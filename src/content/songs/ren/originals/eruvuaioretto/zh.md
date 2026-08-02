@@ -1,0 +1,174 @@
+---
+locale: zh
+translationKey: "single_ren_eruvuaioretto"
+title: "エルヴァイオレット"
+artist: "廉"
+artistId: ren
+duration: "02:24"
+releaseDate: "2023-05-30"
+categoryTitle: "原创曲"
+categorySubtitle: "ORIGINALS"
+categoryOrder: 1
+itemOrder: 1
+code: "single-eruvuaioretto"
+image: /images/songs/ren/eruvuaioretto.jpg
+---
+
+
+## 作品简介
+
+廉于 2023-05-30 发行的单曲《エルヴァイオレット》。
+
+## 试听
+{{media-switcher::エルヴァイオレット}}
+@[apple-music](https://music.apple.com/jp/album/%E3%82%A8%E3%83%AB%E3%83%B4%E3%82%A1%E3%82%A4%E3%82%AA%E3%83%AC%E3%83%83%E3%83%88/1687911015?i=1687911436&uo=4 "エルヴァイオレット")
+@[netease](https://music.163.com/song?id=2050367053 "エルヴァイオレット")
+{{/media-switcher}}
+
+## 歌词
+
+{{lyrics-controls::zh}}
+
+<div class="my-lyric-box">
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:17.06]<ruby>期待<rt class="furi">きたい</rt><rt class="roma">kitai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>顔<rt class="furi">かお</rt><rt class="roma">kao</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>　<ruby>貴女<rt class="furi">きじょ</rt><rt class="roma">kijo</rt></ruby><ruby>は<rt class="roma">ha</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>求<rt class="furi">もと</rt><rt class="roma">moto</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+</div>
+<div class="cn-lyric">[00:17.06]露出期待的神情 你渴求着我</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:24.91]<ruby>歪<rt class="furi">いが</rt><rt class="roma">iga</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>笑顔<rt class="furi">えがお</rt><rt class="roma">egao</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>漏<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>　<ruby>貴女<rt class="furi">きじょ</rt><rt class="roma">kijo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>身体<rt class="furi">しんたい</rt><rt class="roma">shintai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ぞ<rt class="roma">zo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+</div>
+<div class="cn-lyric">[00:24.91]泄漏出扭曲的笑容 描摹着你的身体</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:33.14]La ta ta　<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>遊<rt class="furi">あそ</rt><rt class="roma">aso</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ょ<rt class="roma">yo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+</div>
+<div class="cn-lyric">[00:33.14]La ta ta 与我一同玩耍吧</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:36.62]<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>沈<rt class="furi">しず</rt><rt class="roma">shizu</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>影<rt class="furi">かげ</rt><rt class="roma">kage</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
+</div>
+<div class="cn-lyric">[00:36.62]沉入夜色的影子摇曳着</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:41.06]La ta ta　<ruby>顔<rt class="furi">かお</rt><rt class="roma">kao</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>隠<rt class="furi">かく</rt><rt class="roma">kaku</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+</div>
+<div class="cn-lyric">[00:41.06]La ta ta 不要藏起脸庞</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:44.74]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>溺<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>媚<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby>
+</div>
+<div class="cn-lyric">[00:44.74]沉溺于我 向我献媚吧</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:48.89]Kiss　Kiss　Tickle　<ruby>愛嬌<rt class="furi">あいきょう</rt><rt class="roma">aikyou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>Violet
+</div>
+<div class="cn-lyric">[00:48.89]Kiss Kiss Tickle 娇媚话语的紫罗兰</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:54.43]<ruby>魅惑<rt class="furi">みわく</rt><rt class="roma">miwaku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>花園<rt class="furi">はなぞの</rt><rt class="roma">hanazono</rt></ruby>
+</div>
+<div class="cn-lyric">[00:54.43]魅惑的花园</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:57.58]Kiss　Kiss　Tickle　<ruby>愛玩<rt class="furi">あいがん</rt><rt class="roma">aigan</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>蠱惑<rt class="furi">こわく</rt><rt class="roma">kowaku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>Violet
+</div>
+<div class="cn-lyric">[00:57.58]Kiss Kiss Tickle 玩赏与蛊惑的紫罗兰</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:02.63]<ruby>貴女<rt class="furi">きじょ</rt><rt class="roma">kijo</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>は<rt class="roma">ha</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
+</div>
+<div class="cn-lyric">[01:02.63]绝不会放开你</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:13.98]<ruby>不安定<rt class="furi">ふあんてい</rt><rt class="roma">fuantei</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>息<rt class="furi">いき</rt><rt class="roma">iki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>リ<rt class="roma">ri</rt></ruby><ruby>ズ<rt class="roma">zu</rt></ruby><ruby>ム<rt class="roma">mu</rt></ruby>　<ruby>理性<rt class="furi">りせい</rt><rt class="roma">risei</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>染<rt class="furi">そ</rt><rt class="roma">so</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>欲<rt class="furi">よく</rt><rt class="roma">yoku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>イ<rt class="roma">i</rt></ruby><ruby>ズ<rt class="roma">zu</rt></ruby><ruby>ム<rt class="roma">mu</rt></ruby>
+</div>
+<div class="cn-lyric">[01:13.98]不安定的呼吸节奏 染透理性的欲望主义</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:21.62]<ruby>不透明<rt class="furi">ふとうめい</rt><rt class="roma">futoumei</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>っ<rt class="roma"></rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>構<rt class="furi">かま</rt><rt class="roma">kama</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>　<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>貴女<rt class="furi">きじょ</rt><rt class="roma">kijo</rt></ruby><ruby>結<rt class="furi">むす</rt><rt class="roma">musu</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+</div>
+<div class="cn-lyric">[01:21.62]就算暧昧不明也无妨 我与你将紧紧相连</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:30.30]Kiss　Kiss　Tickle　<ruby>愛染<rt class="furi">あいぜん</rt><rt class="roma">aizen</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>乱<rt class="furi">みだ</rt><rt class="roma">mida</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>Violet
+</div>
+<div class="cn-lyric">[01:30.30]Kiss Kiss Tickle 在爱染中凌乱的紫罗兰</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:35.46]<ruby>秘密<rt class="furi">ひみつ</rt><rt class="roma">himitsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>花園<rt class="furi">はなぞの</rt><rt class="roma">hanazono</rt></ruby>
+</div>
+<div class="cn-lyric">[01:35.46]秘密的花园</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:38.65]Kiss　Kiss　Tickle　<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>軋<rt class="furi">きし</rt><rt class="roma">kishi</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>Violet
+</div>
+<div class="cn-lyric">[01:38.65]Kiss Kiss Tickle 因爱恋而吱呀作响的紫罗兰</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:43.66]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>奪<rt class="furi">うば</rt><rt class="roma">uba</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
+</div>
+<div class="cn-lyric">[01:43.66]谁也无法夺走</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:46.94]Kiss　Kiss　Tickle　<ruby>愛嬌<rt class="furi">あいきょう</rt><rt class="roma">aikyou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>Violet
+</div>
+<div class="cn-lyric">[01:46.94]Kiss Kiss Tickle 娇媚话语的紫罗兰</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:51.83]<ruby>魅惑<rt class="furi">みわく</rt><rt class="roma">miwaku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>花園<rt class="furi">はなぞの</rt><rt class="roma">hanazono</rt></ruby>
+</div>
+<div class="cn-lyric">[01:51.83]魅惑的花园</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:54.84]Kiss　Kiss　Tickle　<ruby>愛玩<rt class="furi">あいがん</rt><rt class="roma">aigan</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>蠱惑<rt class="furi">こわく</rt><rt class="roma">kowaku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>Violet
+</div>
+<div class="cn-lyric">[01:54.84]Kiss Kiss Tickle 玩赏与蛊惑的紫罗兰</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:00.04]<ruby>貴女<rt class="furi">きじょ</rt><rt class="roma">kijo</rt></ruby><ruby>は<rt class="roma">ha</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+</div>
+<div class="cn-lyric">[02:00.04]你是属于我的</div>
+</div>
+
+</div>

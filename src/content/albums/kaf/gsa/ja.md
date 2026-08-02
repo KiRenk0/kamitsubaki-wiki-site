@@ -10,8 +10,8 @@ label: "PHENOMENON RECORD"
 catalogNumber: "ANTCD-56439"
 trackCount: 3
 duration: "10:08"
-categoryTitle: "アルバム"
-categorySubtitle: ALBUMS
+categoryTitle: "EP"
+categorySubtitle: EPS
 categoryOrder: 1
 itemOrder: 6
 image: /images/albums/kaf/gsa.jpg

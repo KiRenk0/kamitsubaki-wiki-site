@@ -40,7 +40,7 @@ theme:
       value: "#E4F3F8"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0e1a22/a8d8ea?text=KUUSOU"
+image: "/images/artists/kuusou.jpg"
 name: "KUUSOU"
 categoryTitle: "ソロ / ユニット"
 categorySubtitle: "SOLO ARTISTS & UNITS"
