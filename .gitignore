@@ -36,6 +36,10 @@ Thumbs.db
 *.swo
 *~
 
+# Local AI assistant state
+.reasonix/
+reasonix.toml
+
 # Logs
 *.log
 npm-debug.log*

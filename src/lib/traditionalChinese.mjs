@@ -382,17 +382,21 @@ export function convertChineseMarkdown(markdown, locale) {
 
   const newline = markdown.includes('\r\n') ? '\r\n' : '\n';
   const lines = markdown.split(/\r?\n/u);
-  let fence = '';
+  let fence;
   let mathBlock = false;
 
   const converted = lines.map((line) => {
-    const fenceMatch = line.match(/^\s{0,3}(`{3,}|~{3,})/u);
+    const fenceMatch = line.match(/^\s{0,3}(`{3,}|~{3,})(.*)$/u);
     if (fenceMatch) {
-      const marker = fenceMatch[1][0];
+      const marker = fenceMatch[1];
       if (!fence) {
-        fence = marker;
-      } else if (fence === marker) {
-        fence = '';
+        fence = { character: marker[0], length: marker.length };
+      } else if (
+        fence.character === marker[0]
+        && marker.length >= fence.length
+        && /^\s*$/u.test(fenceMatch[2])
+      ) {
+        fence = undefined;
       }
       return line;
     }

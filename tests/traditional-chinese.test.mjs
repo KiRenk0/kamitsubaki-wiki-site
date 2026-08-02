@@ -147,6 +147,20 @@ test('Markdown conversion changes visible prose but protects syntax and destinat
   assert.match(converted, /\{\{lyrics-controls::zh-tw\}\}/);
 });
 
+test('Markdown conversion keeps longer fenced code blocks open across shorter markers', () => {
+  const source = [
+    '````md',
+    '```',
+    '软件',
+    '```',
+    '````',
+    '软件',
+  ].join('\n');
+
+  const converted = convertChineseMarkdown(source, 'zh-tw');
+  assert.equal(converted, ['````md', '```', '软件', '```', '````', '軟體'].join('\n'));
+});
+
 test('Markdown regional vocabulary overrides select exact Taiwan and Hong Kong text', () => {
   const source = [
     '这款{{zh-variant::软件::軟體::軟件}}保留人工指定词：',
