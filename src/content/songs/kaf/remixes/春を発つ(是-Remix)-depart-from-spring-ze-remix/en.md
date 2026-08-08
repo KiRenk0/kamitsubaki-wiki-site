@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 
 ## Overview
 
-“春を発つ(是 Remix)” is track 3 of KAF’s 狂想γ.
+“春を発つ(是 Remix)” is track 3 of [KAF](/en/artists/vwp/kaf)’s [狂想γ](/en/albums/kaf/kyoso-gamma).
 
 ## Listen
 

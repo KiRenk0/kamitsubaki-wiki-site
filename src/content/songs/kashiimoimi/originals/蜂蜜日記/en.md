@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/蜂蜜日記.jpg
 
 ## Overview
 
-“蜂蜜日記” is a single by 香椎モイミ, released on 2024-05-21.
+“蜂蜜日記” is a single by [香椎モイミ](/en/artists/creators/kashiimoimi), released on 2024-05-21.
 
 ## Listen
 {{media-switcher::蜂蜜日記}}

@@ -17,7 +17,7 @@ image: /images/songs/kafu/iishanten-oobaadoozu.jpg
 
 ## 作品概要
 
-可不が2023-02-28にリリースしたシングル「イーシャンテン・オーバードーズ」。
+[可不](/ja/artists/isotopes/kafu)が2023-02-28にリリースしたシングル「イーシャンテン・オーバードーズ」。
 
 ## 視聴
 {{media-switcher::イーシャンテン・オーバードーズ}}

@@ -69,7 +69,7 @@ seo:
 
 ## 概要
 
-V.W.P（Virtual Witch Phenomenon）は KAMITSUBAKI STUDIO の中核をなすバーチャルアーティストグループ。花譜（KAF）、理芽（Rim）、春猿火（HARUSARUHI）、ヰ世界情緒（ISEKAIJOUCHO）、幸祜（KOKO）の五人の「デジタル魔女」で構成される。
+V.W.P（Virtual Witch Phenomenon）は [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) の中核をなすバーチャルアーティストグループ。[花譜](/ja/artists/vwp/kaf)（KAF）、[理芽](/ja/artists/vwp/rim)（Rim）、[春猿火](/ja/artists/vwp/harusaruhi)（HARUSARUHI）、[ヰ世界情緒](/ja/artists/vwp/isekaijoucho)（ISEKAIJOUCHO）、[幸祜](/ja/artists/vwp/koko)（KOKO）の五人の「デジタル魔女」で構成される。
 
 神椿において最も象徴的なグループ活動であり、単なる音楽ユニットではなく「魔女」のモチーフを中心に据えた跨メディアの叙事的枠組みを持つ。五人のメンバーはそれぞれ独立した個人活動を展開しつつ、V.W.P 名義では運命、観測、魔女の覚醒を巡る壮大な物語を共同構築している。
 
@@ -77,7 +77,7 @@ V.W.P（Virtual Witch Phenomenon）は KAMITSUBAKI STUDIO の中核をなすバ�
 
 V.W.P の楽曲体系は三つのタイプで構成される：
 
-- **系譜曲**（Lineage Songs）：カンザキイオリが作詞作曲を担当する、V.W.P の中核叙事ライン。各メンバーの系譜曲は、魔女世界观における彼女たちの役割を定義する。
+- **系譜曲**（Lineage Songs）：[カンザキイオリ](/ja/artists/creators/kanzaki-iori)が作詞作曲を担当する、V.W.P の中核叙事ライン。各メンバーの系譜曲は、魔女世界观における彼女たちの役割を定義する。
 - **派生曲**（Derivative Songs）：メンバーの二人組や三人組で歌唱し、組み合わせのローテーションを通じてメンバー間のケミストリーを探る。
 - **拡声曲**（Expansion Songs）：外部クリエイターを招き作曲してもらい、V.W.P の音楽版図に新たなスタイルをもたらす。
 
@@ -92,7 +92,7 @@ V.W.P の楽曲体系は三つのタイプで構成される：
 - **2024年3月27日**：2nd Album『覚醒』をリリース。
 - **2024年11月**：KAMITSUBAKI WARS 2024の集大成として「神椿幕張戦線：V.W.P 2nd ONE-MAN LIVE 現象II（再）-魔女拡成-」を開催。
 - **2025年1月**：SINKA LIVE SERIES EP.Ⅵ V.W.P 3rd ONE-MAN LIVE「現象III-神椿市探訪中-」を開催。
-- **2026年1月**：3rd Album『反転』をリリース。
+- **2026年1月**：3rd Album『[反転](/ja/albums/vwp/inversion)』をリリース。
 - **2026年2月28日**：4th ONE-MAN LIVE「現象IV-反転運命-」をぴあアリーナMMで開催。グループ史上最大規模の熱狂を生み出し、バーチャルアーティストとしての活躍の幅を広げる。
 - **2026年3月31日**：メンバー全員が表現の地力を高めるための「INTERVAL」充電期間に突入。各自活動を研ぎ澄ませ、「魔女再誕」の時を目指して再集結予定。
 

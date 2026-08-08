@@ -16,7 +16,7 @@ image: /images/songs/grp/unknown.jpg
 
 ## Overview
 
-“unknown” is a 硝子宮 release dated 2025-03-26.
+“unknown” is a [硝子宮](/en/artists/girls_revolution_project/garasumiya) release dated 2025-03-26.
 
 ## Listen
 

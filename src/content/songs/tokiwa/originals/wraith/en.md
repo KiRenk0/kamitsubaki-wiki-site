@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/wraith.jpg
 
 ## Overview
 
-“Wraith” is a single by tokiwa, released on 2022-09-23.
+“Wraith” is a single by [tokiwa](/en/artists/creators/tokiwa), released on 2022-09-23.
 
 ## Listen
 {{media-switcher::Wraith}}

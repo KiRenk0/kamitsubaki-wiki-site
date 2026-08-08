@@ -17,7 +17,7 @@ image: /images/songs/mimi/消enai温度-feat.-可不-cover.jpg
 
 ## 作品概要
 
-MIMIが2024-08-19にリリースしたシングル「消えない温度 (feat. 可不) [Cover]」。
+MIMIが2024-08-19にリリースしたシングル「消えない温度 (feat. [可不](/ja/artists/isotopes/kafu)) [Cover]」。
 
 ## 視聴
 {{media-switcher::消えない温度 (feat. 可不) [Cover]}}

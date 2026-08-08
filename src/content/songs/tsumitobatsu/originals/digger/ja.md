@@ -16,7 +16,7 @@ image: /images/songs/grp/digger.jpg
 
 ## 作品概要
 
-「DIGGER」は罪十罰が2025-10-29にリリースした楽曲です。
+「DIGGER」は[罪十罰](/ja/artists/girls_revolution_project/tsumitobatsu)が2025-10-29にリリースした楽曲です。
 
 ## 視聴
 

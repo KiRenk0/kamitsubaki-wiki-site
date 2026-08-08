@@ -16,7 +16,7 @@ image: /images/songs/grp/survival.jpg
 
 ## 作品概要
 
-「SURVIVAL」は罪十罰が2025-06-04にリリースした楽曲です。
+「SURVIVAL」は[罪十罰](/ja/artists/girls_revolution_project/tsumitobatsu)が2025-06-04にリリースした楽曲です。
 
 ## 視聴
 

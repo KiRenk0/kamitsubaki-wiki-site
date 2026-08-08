@@ -16,7 +16,7 @@ image: /images/songs/hitogoto/偶像to悪魔-feat.-gurni.jpg
 
 ## Overview
 
-“偶像と悪魔 (feat. Gurni.)” is a single by 他人事, released on 2025-06-06.
+“偶像と悪魔 (feat. Gurni.)” is a single by [他人事](/en/artists/creators/hitogoto), released on 2025-06-06.
 
 ## Listen
 {{media-switcher::偶像と悪魔 (feat. Gurni.)}}

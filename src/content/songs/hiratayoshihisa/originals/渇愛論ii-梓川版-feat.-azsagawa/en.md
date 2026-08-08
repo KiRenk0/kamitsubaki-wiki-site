@@ -17,7 +17,7 @@ image: /images/songs/hiratayoshihisa/渇愛論ii-梓川版-feat.-azsagawa.jpg
 
 ## Overview
 
-“渇愛論II(梓川版) [feat. Azsagawa]” is a single by 平田義久, released on 2024-11-26.
+“渇愛論II(梓川版) [feat. Azsagawa]” is a single by [平田義久](/en/artists/creators/hiratayoshihisa), released on 2024-11-26.
 
 ## Listen
 {{media-switcher::渇愛論II(梓川版) [feat. Azsagawa]}}

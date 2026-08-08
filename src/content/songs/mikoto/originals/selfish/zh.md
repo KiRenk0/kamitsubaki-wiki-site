@@ -16,7 +16,7 @@ image: /images/songs/grp/selfish.jpg
 
 ## 作品简介
 
-《セルフィッシュ》是美古途于 2024-11-13 正式发行的作品。
+《セルフィッシュ》是[美古途](/zh/artists/girls_revolution_project/mikoto)于 2024-11-13 正式发行的作品。
 
 ## 试听
 

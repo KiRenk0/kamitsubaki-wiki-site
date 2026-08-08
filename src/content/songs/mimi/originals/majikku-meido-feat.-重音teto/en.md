@@ -17,7 +17,7 @@ image: /images/songs/mimi/majikku-meido-feat.-重音teto.jpg
 
 ## Overview
 
-“マジック・メイド (feat. 重音テト)” is a single by MIMI, released on 2025-08-24.
+“マジック・メイド (feat. 重音テト)” is a single by [MIMI](/en/artists/creators/mimi), released on 2025-08-24.
 
 ## Listen
 {{media-switcher::マジック・メイド (feat. 重音テト)}}

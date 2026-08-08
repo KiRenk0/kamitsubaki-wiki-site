@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1687478190.jpg
 
 ## Overview
 
-“Beyond META” is track 8 of KAF’s 組曲.
+“Beyond META” is track 8 of [KAF](/en/artists/vwp/kaf)’s [組曲](/en/albums/kaf/suite).
 
 ## Listen
 

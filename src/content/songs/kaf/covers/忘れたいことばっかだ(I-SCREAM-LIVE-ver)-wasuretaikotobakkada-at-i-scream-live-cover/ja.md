@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 ## 作品概要
 
-「忘れたいことばっかだ (I SCREAM LIVE ver.)」は花譜の『I SCREAM LIVE』に収録された12曲目です。
+「忘れたいことばっかだ (I SCREAM LIVE ver.)」は[花譜](/ja/artists/vwp/kaf)の『[I SCREAM LIVE](/ja/albums/kaf/i-scream-live)』に収録された12曲目です。
 
 ## 視聴
 

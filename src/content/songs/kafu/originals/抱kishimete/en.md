@@ -16,7 +16,7 @@ image: /images/songs/kafu/抱kishimete.jpg
 
 ## Overview
 
-“『抱きしめて。』” is a single by 可不, released on 2024-10-22.
+“『抱きしめて。』” is a single by [可不](/en/artists/isotopes/kafu), released on 2024-10-22.
 
 ## Listen
 {{media-switcher::『抱きしめて。』}}

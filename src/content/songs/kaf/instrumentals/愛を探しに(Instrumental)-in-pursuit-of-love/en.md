@@ -17,7 +17,7 @@ image: /images/albums/kaf/shinai.jpg
 
 ## Overview
 
-“愛を探しに (Instrumental)” is track 1 of KAF’s 深愛.
+“愛を探しに (Instrumental)” is track 1 of [KAF](/en/artists/vwp/kaf)’s [深愛](/en/albums/kaf/shinai).
 
 ## Listen
 

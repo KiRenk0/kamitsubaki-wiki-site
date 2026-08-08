@@ -17,7 +17,7 @@ image: /images/songs/sekai/geemugashitainouta.jpg
 
 ## 作品概要
 
-星界が2026-04-23にリリースしたシングル「ゲームがしたいのうた」。
+[星界](/ja/artists/isotopes/sekai)が2026-04-23にリリースしたシングル「ゲームがしたいのうた」。
 
 ## 視聴
 {{media-switcher::ゲームがしたいのうた}}

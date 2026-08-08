@@ -17,7 +17,7 @@ image: /images/songs/kafu/yurayura.jpg
 
 ## Overview
 
-“ゆらゆら” is a single by 可不, released on 2026-07-28.
+“ゆらゆら” is a single by [可不](/en/artists/isotopes/kafu), released on 2026-07-28.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/%E3%82%86%E3%82%89%E3%82%86%E3%82%89/1700180489?i=1700180490&uo=4 "ゆらゆら")

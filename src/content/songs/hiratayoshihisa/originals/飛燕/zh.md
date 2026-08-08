@@ -17,7 +17,7 @@ image: /images/songs/hiratayoshihisa/飛燕.jpg
 
 ## 作品简介
 
-平田義久于 2022-09-13 发行的单曲《飛燕》。
+[平田義久](/zh/artists/creators/hiratayoshihisa)于 2022-09-13 发行的单曲《飛燕》。
 
 ## 试听
 {{media-switcher::飛燕}}

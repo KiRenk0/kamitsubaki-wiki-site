@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/紫色no向日葵.jpg
 
 ## 作品简介
 
-香椎モイミ于 2024-10-22 发行的单曲《紫色の向日葵》。
+[香椎モイミ](/zh/artists/creators/kashiimoimi)于 2024-10-22 发行的单曲《紫色の向日葵》。
 
 ## 试听
 {{media-switcher::紫色の向日葵}}

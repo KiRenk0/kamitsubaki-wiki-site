@@ -19,7 +19,7 @@ image: /images/songs/isekaijoucho/single-1760084629.jpg
 
 ## Overview
 
-双生コンフリクト feat. ヰ世界情緒 appears on 双生コンフリクト feat. ヰ世界情緒 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+双生コンフリクト feat. [ヰ世界情緒](/en/artists/vwp/isekaijoucho) appears on 双生コンフリクト feat. ヰ世界情緒 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

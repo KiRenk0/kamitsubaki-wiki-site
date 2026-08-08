@@ -17,7 +17,7 @@ image: /images/songs/dustcell/心臓.jpg
 
 ## Overview
 
-“心臓” is a single by DUSTCELL, released on 2025-02-18.
+“心臓” is a single by [DUSTCELL](/en/artists/solo/dustcell), released on 2025-02-18.
 
 ## Listen
 {{media-switcher::心臓}}

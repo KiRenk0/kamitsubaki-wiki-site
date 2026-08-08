@@ -17,7 +17,7 @@ image: /images/songs/rime/eden-404.jpg
 
 ## 作品概要
 
-裏命が2025-02-28にリリースしたシングル「eden-404」。
+[裏命](/ja/artists/isotopes/rime)が2025-02-28にリリースしたシングル「eden-404」。
 
 ## 視聴
 {{media-switcher::eden-404}}

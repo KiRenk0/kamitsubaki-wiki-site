@@ -17,7 +17,7 @@ image: /images/songs/anmc/月no匂i-feat.-wami-,-ueil.jpg
 
 ## Overview
 
-“月の匂い feat. WaMi , ueil” is a single by ANMC, released on 2024-09-11.
+“月の匂い feat. WaMi , ueil” is a single by [ANMC](/en/artists/solo/anmc), released on 2024-09-11.
 
 ## Listen
 {{media-switcher::月の匂い feat. WaMi , ueil}}

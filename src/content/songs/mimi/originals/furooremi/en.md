@@ -17,7 +17,7 @@ image: /images/songs/mimi/furooremi.jpg
 
 ## Overview
 
-“フローレミ” is a single by MIMI, released on 2020-03-20.
+“フローレミ” is a single by [MIMI](/en/artists/creators/mimi), released on 2020-03-20.
 
 ## Listen
 {{media-switcher::フローレミ}}

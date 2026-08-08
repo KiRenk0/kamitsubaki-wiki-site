@@ -16,7 +16,7 @@ image: /images/songs/grp/well.jpg
 
 ## 作品概要
 
-「well」は硝子宮が2024-10-09にリリースした楽曲です。
+「well」は[硝子宮](/ja/artists/girls_revolution_project/garasumiya)が2024-10-09にリリースした楽曲です。
 
 ## 視聴
 

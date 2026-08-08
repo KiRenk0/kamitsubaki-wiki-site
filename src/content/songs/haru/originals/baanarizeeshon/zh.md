@@ -17,7 +17,7 @@ image: /images/songs/haru/baanarizeeshon.jpg
 
 ## 作品简介
 
-羽累于 2024-10-25 发行的单曲《バーナリゼーション》。
+[羽累](/zh/artists/isotopes/haru)于 2024-10-25 发行的单曲《バーナリゼーション》。
 
 ## 试听
 {{media-switcher::バーナリゼーション}}

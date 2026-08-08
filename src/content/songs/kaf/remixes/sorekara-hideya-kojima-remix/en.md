@@ -15,7 +15,7 @@ image: /images/albums/kaf/suite.jpg
 
 ## Overview
 
-“ソレカラ - HIDEYA KOJIMA Remix -” is track 17 of KAF’s 組曲.
+“ソレカラ - HIDEYA KOJIMA Remix -” is track 17 of [KAF](/en/artists/vwp/kaf)’s [組曲](/en/albums/kaf/suite).
 
 ## Lyrics
 

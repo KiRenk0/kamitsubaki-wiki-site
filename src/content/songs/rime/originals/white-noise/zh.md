@@ -16,7 +16,7 @@ image: /images/songs/rime/white-noise.jpg
 
 ## 作品简介
 
-裏命于 2025-11-08 发行的单曲《White Noise》。
+[裏命](/zh/artists/isotopes/rime)于 2025-11-08 发行的单曲《White Noise》。
 
 
 ## 歌词

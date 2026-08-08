@@ -17,7 +17,7 @@ image: /images/songs/ciel/少年漫画.jpg
 
 ## Overview
 
-“少年漫画” is a single by CIEL, released on 2024-07-23.
+“少年漫画” is a single by [CIEL](/en/artists/solo/ciel), released on 2024-07-23.
 
 ## Listen
 {{media-switcher::少年漫画}}

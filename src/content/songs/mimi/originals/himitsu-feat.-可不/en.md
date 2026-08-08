@@ -17,7 +17,7 @@ image: /images/songs/mimi/himitsu-feat.-可不.jpg
 
 ## Overview
 
-“ヒミツ (feat. 可不)” is a single by MIMI, released on 2022-07-22.
+“ヒミツ (feat. [可不](/en/artists/isotopes/kafu))” is a single by [MIMI](/en/artists/creators/mimi), released on 2022-07-22.
 
 ## Listen
 {{media-switcher::ヒミツ (feat. 可不)}}

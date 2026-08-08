@@ -17,7 +17,7 @@ image: /images/songs/mimi/moomento.jpg
 
 ## Overview
 
-“モーメント” is a single by MIMI, released on 2018-06-04.
+“モーメント” is a single by [MIMI](/en/artists/creators/mimi), released on 2018-06-04.
 
 ## Listen
 {{media-switcher::モーメント}}

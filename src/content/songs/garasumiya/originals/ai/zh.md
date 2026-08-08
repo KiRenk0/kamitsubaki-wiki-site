@@ -16,7 +16,7 @@ image: /images/songs/grp/ai.jpg
 
 ## 作品简介
 
-《アイ》是硝子宮于 2024-11-27 正式发行的作品。
+《アイ》是[硝子宮](/zh/artists/girls_revolution_project/garasumiya)于 2024-11-27 正式发行的作品。
 
 ## 试听
 

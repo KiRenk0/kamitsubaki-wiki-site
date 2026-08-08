@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/reiniimuun.jpg
 
 ## Overview
 
-“レイニームーン” is a single by tokiwa, released on 2025-06-28.
+“レイニームーン” is a single by [tokiwa](/en/artists/creators/tokiwa), released on 2025-06-28.
 
 ## Listen
 {{media-switcher::レイニームーン}}

@@ -17,7 +17,7 @@ image: /images/songs/valis/watashitoraberaa-nina.jpg
 
 ## Overview
 
-“わたしトラベラー(NINA)” is a single by VALIS, released on 2023-10-21.
+“わたしトラベラー(NINA)” is a single by [VALIS](/en/artists/solo/valis), released on 2023-10-21.
 
 ## Listen
 {{media-switcher::わたしトラベラー(NINA)}}

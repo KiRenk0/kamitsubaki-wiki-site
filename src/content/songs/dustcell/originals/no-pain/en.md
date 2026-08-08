@@ -17,7 +17,7 @@ image: /images/songs/dustcell/no-pain.jpg
 
 ## Overview
 
-“NO PAIN” is a single by DUSTCELL, released on 2024-12-10.
+“NO PAIN” is a single by [DUSTCELL](/en/artists/solo/dustcell), released on 2024-12-10.
 
 ## Listen
 {{media-switcher::NO PAIN}}

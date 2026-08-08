@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1783267960.jpg
 
 ## 作品概要
 
-「代替嬉々」は花譜の『寓話』に収録された13曲目です。
+「代替嬉々」は[花譜](/ja/artists/vwp/kaf)の『[寓話](/ja/albums/kaf/guwa)』に収録された13曲目です。
 
 ## 視聴
 

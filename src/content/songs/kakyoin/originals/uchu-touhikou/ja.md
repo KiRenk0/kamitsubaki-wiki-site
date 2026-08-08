@@ -16,7 +16,7 @@ image: /images/songs/grp/uchu-touhikou.jpg
 
 ## 作品概要
 
-「宇宙逃避行」は佳鏡院が2024-12-11にリリースした楽曲です。
+「宇宙逃避行」は[佳鏡院](/ja/artists/girls_revolution_project/kakyoin)が2024-12-11にリリースした楽曲です。
 
 ## 視聴
 

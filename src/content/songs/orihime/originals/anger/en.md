@@ -16,7 +16,7 @@ image: /images/songs/grp/anger.jpg
 
 ## Overview
 
-“ANGER” is a 御莉姫 release dated 2025-03-12.
+“ANGER” is a [御莉姫](/en/artists/girls_revolution_project/orihime) release dated 2025-03-12.
 
 ## Listen
 

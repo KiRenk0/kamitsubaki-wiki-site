@@ -16,7 +16,7 @@ image: /images/songs/kaf/track-1732389947.jpg
 
 ## Overview
 
-“ギミギミ逃避行 feat. #KTちゃん” is a KAF release dated February 28, 2024.
+“ギミギミ逃避行 feat. #KTちゃん” is a [KAF](/en/artists/vwp/kaf) release dated February 28, 2024.
 
 ## Listen
 

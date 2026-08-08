@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 
 ## 作品概要
 
-「あるふぁYOU(伊根 Remix)」は花譜の『狂想γ』に収録された7曲目です。
+「あるふぁYOU(伊根 Remix)」は[花譜](/ja/artists/vwp/kaf)の『[狂想γ](/ja/albums/kaf/kyoso-gamma)』に収録された7曲目です。
 
 ## 視聴
 

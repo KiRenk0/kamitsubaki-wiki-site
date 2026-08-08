@@ -59,12 +59,12 @@ seo:
 ## 简介
 
 佳鏡院是2024年8月8日开始活动的跨次元主播(Xtuber)。<br>
-神椿工作室旗下「少女革命计划」成员之一，隶属于「心世纪」组合单元。<br>
+神椿工作室旗下「[少女革命计划](/zh/projects/labels/girls-revolution-project)」成员之一，隶属于「[心世纪](/zh/artists/girls_revolution_project/sinseiki)」组合单元。<br>
 
 ## 活动历史
 
 - 2024年8月8日：于KAMITSUBAKI FES '24 宣告正式出道，开启企划活动。
-- 2024年10月23日：发布个人首支单曲《夢の揺籠》。
+- 2024年10月23日：发布个人首支单曲《[夢の揺籠](/zh/songs/kakyoin/originals/yume-no-yurikago)》。
 - 2024年12月17日： Youtube初配信。
 - 2025年7月11日：参演KAMITSUBAKI WARS 2025 神椿川崎戦線 少女革命計画 1st LIVE/第一幕『改変』
 - 2026年2月8日：参演心世纪专属线上 Live「Petalstride -鼓動- 」，并于2月至3月随组合登上“Sanrio Virtual Festival 2026”舞台。
@@ -79,7 +79,7 @@ seo:
 |    投稿时间     |                 歌曲名称                 |    作词     |    作曲     |                                                                                                                                                                                                     试听                                                                                                                                                                                                      |
 | :---------: | :----------------------------------: | :-------: | :-------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | 2024年10月23日 |                 夢の揺籠                 | Wiz_nicc  | Wiz_nicc  |   @[bilibili](BV13ZZNYQEQx) @[netease](2637083551)  |
-| 2024年12月11日 |                宇宙逃避行                 |   MIMI    |   MIMI    | @[bilibili](https://player.bilibili.com/player.html?isOutside=true&aid=114517451215757&bvid=BV1cUE4zgEVF&cid=29991305386&p=1) @[netease](https://music.163.com/outchain/player?type=2&id=2653100592&auto=0&height=66) |
+| 2024年12月11日 |                [宇宙逃避行](/zh/songs/kakyoin/originals/uchu-touhikou)                 |   [MIMI](/zh/artists/creators/mimi)    |   MIMI    | @[bilibili](https://player.bilibili.com/player.html?isOutside=true&aid=114517451215757&bvid=BV1cUE4zgEVF&cid=29991305386&p=1) @[netease](https://music.163.com/outchain/player?type=2&id=2653100592&auto=0&height=66) |
 | 2025年3月19日  | <ruby>キリガサガリキ<rt>kirigasagariki</rt></ruby> | Purukichi | Purukichi |   @[bilibili](https://player.bilibili.com/player.html?isOutside=true&aid=115049322584049&bvid=BV19fY4zYEaP&cid=31779784208&p=1) @[netease](https://music.163.com/outchain/player?type=2&id=2683803668&auto=0&height=66)   |
 | 2025年11月12日 |                 月へゆく                 |   tama    |   tama    |   @[bilibili](https://player.bilibili.com/player.html?isOutside=true&aid=115576294936811&bvid=BV1cByJBNEUm&cid=34113520708&p=1) @[netease](https://music.163.com/outchain/player?type=2&id=2754194786&auto=0&height=66)   |
 

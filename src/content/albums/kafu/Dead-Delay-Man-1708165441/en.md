@@ -54,7 +54,7 @@ tracks:
 
 ## Overview
 
-可不's album “Dead Delay Man”, released on 2023-10-04, featuring 8 tracks.
+[可不](/en/artists/isotopes/kafu)'s album “Dead Delay Man”, released on 2023-10-04, featuring 8 tracks.
 
 ## Track List
 

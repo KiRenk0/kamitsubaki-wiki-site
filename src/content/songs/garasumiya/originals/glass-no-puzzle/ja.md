@@ -16,7 +16,7 @@ image: /images/songs/grp/glass-no-puzzle.jpg
 
 ## 作品概要
 
-「ガラスのパズル」は硝子宮×美古途が2025-02-05にリリースした楽曲です。
+「ガラスのパズル」は[硝子宮](/ja/artists/girls_revolution_project/garasumiya)×[美古途](/ja/artists/girls_revolution_project/mikoto)が2025-02-05にリリースした楽曲です。
 
 ## 視聴
 

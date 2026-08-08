@@ -66,7 +66,7 @@ tracks:
 
 ## Overview
 
-香椎モイミ's album “渇愛”, released on 2020-08-03, featuring 11 tracks.
+[香椎モイミ](/en/artists/creators/kashiimoimi)'s album “渇愛”, released on 2020-08-03, featuring 11 tracks.
 
 ## Track List
 

@@ -17,7 +17,7 @@ image: /images/songs/mimi/頂戴na-feat.-沖石.jpg
 
 ## Overview
 
-“頂戴な (feat. 沖石)” is a single by MIMI, released on 2024-01-24.
+“頂戴な (feat. 沖石)” is a single by [MIMI](/en/artists/creators/mimi), released on 2024-01-24.
 
 ## Listen
 {{media-switcher::頂戴な (feat. 沖石)}}

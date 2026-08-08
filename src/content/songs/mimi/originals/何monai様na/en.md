@@ -17,7 +17,7 @@ image: /images/songs/mimi/何monai様na.jpg
 
 ## Overview
 
-“何もない様な” is a single by MIMI, released on 2019-11-02.
+“何もない様な” is a single by [MIMI](/en/artists/creators/mimi), released on 2019-11-02.
 
 ## Listen
 {{media-switcher::何もない様な}}

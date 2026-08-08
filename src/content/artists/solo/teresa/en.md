@@ -71,7 +71,7 @@ The 2023 split positioned teresaAI not just as a historical artist project but a
 - Appeared in Intel TV commercials in China, gaining mainstream visibility.
 - Selected for NYLON'S NEXT 2021.
 - **June 25, 2022**: Performed in her first two-man live, "IMAGINARY WORLD," with Rim.
-- **February 22, 2023**: Participated in "αU research × KAMITSUBAKI STUDIO presents prompt αU".
+- **February 22, 2023**: Participated in "αU research × [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) presents prompt αU".
 - **March 2023**: Split into voice-synthesis software "teresaAI" and human artist "ELЁNA".
 
 ## Representative Works and Related Entries
@@ -81,7 +81,7 @@ The 2023 split positioned teresaAI not just as a historical artist project but a
 
 ## Related Projects / Setting
 
-teresaAI operates within the SINSEKAI RECORD ecosystem, a label that houses multiple virtual and semi-virtual artists. The project's evolution from te'resa into a software-and-artist pair mirrors a wider trend in the virtual singer space, where voice identity increasingly exists independently of any single performer or avatar.
+teresaAI operates within the [SINSEKAI RECORD](/en/projects/labels/sinsekai-studio) ecosystem, a label that houses multiple virtual and semi-virtual artists. The project's evolution from te'resa into a software-and-artist pair mirrors a wider trend in the virtual singer space, where voice identity increasingly exists independently of any single performer or avatar.
 
 ## References
 

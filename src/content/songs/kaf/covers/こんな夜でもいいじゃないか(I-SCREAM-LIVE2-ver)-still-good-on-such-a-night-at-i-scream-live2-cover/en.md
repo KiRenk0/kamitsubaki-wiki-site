@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 ## Overview
 
-“こんな夜でもいいじゃないか (I SCREAM LIVE2 ver.)” is track 18 of KAF’s I SCREAM LIVE2.
+“こんな夜でもいいじゃないか (I SCREAM LIVE2 ver.)” is track 18 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE2](/en/albums/kaf/i-scream-live-2).
 
 ## Listen
 

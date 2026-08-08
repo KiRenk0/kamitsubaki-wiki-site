@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/human-like.jpg
 
 ## 作品概要
 
-香椎モイミが2024-03-19にリリースしたシングル「Human-Like」。
+[香椎モイミ](/ja/artists/creators/kashiimoimi)が2024-03-19にリリースしたシングル「Human-Like」。
 
 ## 視聴
 {{media-switcher::Human-Like}}

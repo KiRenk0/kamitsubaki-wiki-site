@@ -17,7 +17,7 @@ image: /images/songs/rime/怪獣ha猫ga好kinanda.jpg
 
 ## Overview
 
-“怪獣は猫が好きなんだ” is a single by 裏命, released on 2017-07-25.
+“怪獣は猫が好きなんだ” is a single by [裏命](/en/artists/isotopes/rime), released on 2017-07-25.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/%E6%80%AA%E7%8D%A3%E3%81%AF%E7%8C%AB%E3%81%8C%E5%A5%BD%E3%81%8D%E3%81%AA%E3%82%93%E3%81%A0/1715598092?i=1715598094&uo=4 "怪獣は猫が好きなんだ")

@@ -16,7 +16,7 @@ image: /images/songs/grp/kaihen.jpg
 
 ## 作品概要
 
-「改変」は心世紀×罪十罰が2025-10-29にリリースした楽曲です。
+「改変」は[心世紀](/ja/artists/girls_revolution_project/sinseiki)×[罪十罰](/ja/artists/girls_revolution_project/tsumitobatsu)が2025-10-29にリリースした楽曲です。
 
 ## 視聴
 

@@ -17,7 +17,7 @@ image: /images/songs/kafu/voyager.jpg
 
 ## 作品概要
 
-可不が2024-04-04にリリースしたシングル「Voyager」。
+[可不](/ja/artists/isotopes/kafu)が2024-04-04にリリースしたシングル「Voyager」。
 
 ## 視聴
 {{media-switcher::Voyager}}

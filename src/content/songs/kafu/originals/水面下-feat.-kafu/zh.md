@@ -17,7 +17,7 @@ image: /images/songs/kafu/水面下-feat.-kafu.jpg
 
 ## 作品简介
 
-可不于 2022-07-12 发行的单曲《水面下 (feat. Kafu)》。
+[可不](/zh/artists/isotopes/kafu)于 2022-07-12 发行的单曲《水面下 (feat. Kafu)》。
 
 ## 试听
 @[apple-music](https://music.apple.com/jp/album/%E6%B0%B4%E9%9D%A2%E4%B8%8B-feat-kafu/1687478821?i=1687478822&uo=4 "水面下 (feat. Kafu)")

@@ -17,7 +17,7 @@ image: /images/songs/rime/stargazer.jpg
 
 ## 作品概要
 
-裏命が2025-07-29にリリースしたシングル「stargazer」。
+[裏命](/ja/artists/isotopes/rime)が2025-07-29にリリースしたシングル「stargazer」。
 
 ## 視聴
 {{media-switcher::stargazer}}

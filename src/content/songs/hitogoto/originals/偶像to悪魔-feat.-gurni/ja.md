@@ -16,7 +16,7 @@ image: /images/songs/hitogoto/偶像to悪魔-feat.-gurni.jpg
 
 ## 作品概要
 
-他人事が2025-06-06にリリースしたシングル「偶像と悪魔 (feat. Gurni.)」。
+[他人事](/ja/artists/creators/hitogoto)が2025-06-06にリリースしたシングル「偶像と悪魔 (feat. Gurni.)」。
 
 ## 視聴
 {{media-switcher::偶像と悪魔 (feat. Gurni.)}}

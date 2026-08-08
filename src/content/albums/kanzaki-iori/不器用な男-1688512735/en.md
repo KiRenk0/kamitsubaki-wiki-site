@@ -82,14 +82,14 @@ tracks:
 
 ## Overview
 
-カンザキイオリ's album “不器用な男”, released on 2021-08-11, featuring 15 tracks.
+[カンザキイオリ](/en/artists/creators/kanzaki-iori)'s album “不器用な男”, released on 2021-08-11, featuring 15 tracks.
 
 ## Track List
 
 1. 命に嫌われている (04:28)
 2. カメムシ (01:42)
 3. 吸血鬼 (03:54)
-4. あの夏が飽和する (feat. KAF) (05:58)
+4. あの夏が飽和する (feat. [KAF](/en/artists/vwp/kaf)) (05:58)
 5. 桜の子 (04:02)
 6. 成長痛 (04:25)
 7. 畢生よ (03:58)

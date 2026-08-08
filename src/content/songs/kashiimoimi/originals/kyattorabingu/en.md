@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/kyattorabingu.jpg
 
 ## Overview
 
-“キャットラビング” is a single by 香椎モイミ, released on 2022-07-12.
+“キャットラビング” is a single by [香椎モイミ](/en/artists/creators/kashiimoimi), released on 2022-07-12.
 
 ## Listen
 {{media-switcher::キャットラビング}}

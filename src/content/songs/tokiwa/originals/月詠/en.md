@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/月詠.jpg
 
 ## Overview
 
-“月詠” is a single by tokiwa, released on 2025-02-27.
+“月詠” is a single by [tokiwa](/en/artists/creators/tokiwa), released on 2025-02-27.
 
 ## Listen
 {{media-switcher::月詠}}

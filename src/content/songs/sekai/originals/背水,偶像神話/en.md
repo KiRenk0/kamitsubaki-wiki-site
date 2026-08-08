@@ -17,7 +17,7 @@ image: /images/songs/sekai/背水,偶像神話.jpg
 
 ## Overview
 
-“背水、偶像神話” is a single by 星界, released on 2024-11-26.
+“背水、偶像神話” is a single by [星界](/en/artists/isotopes/sekai), released on 2024-11-26.
 
 ## Listen
 {{media-switcher::背水、偶像神話}}

@@ -17,7 +17,7 @@ image: /images/songs/mimi/余熱-feat.-初音miku.jpg
 
 ## Overview
 
-“余熱 (feat. 初音ミク)” is a single by MIMI, released on 2025-07-07.
+“余熱 (feat. 初音ミク)” is a single by [MIMI](/en/artists/creators/mimi), released on 2025-07-07.
 
 ## Listen
 {{media-switcher::余熱 (feat. 初音ミク)}}

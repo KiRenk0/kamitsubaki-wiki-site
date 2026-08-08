@@ -17,7 +17,7 @@ image: /images/songs/rime/exam-feat.-rime.jpg
 
 ## Overview
 
-“EXAM (feat. Rime)” is a single by 裏命, released on 2015-10-11.
+“EXAM (feat. Rime)” is a single by [裏命](/en/artists/isotopes/rime), released on 2015-10-11.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/exam-feat-rime/1746439427?i=1746439428&uo=4 "EXAM (feat. Rime)")

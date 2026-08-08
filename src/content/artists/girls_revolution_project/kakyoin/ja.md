@@ -58,12 +58,12 @@ seo:
 
 ## 紹介
 
-佳鏡院は、2024年8月8日に活動を開始したクロスディメンショナル・ストリーマー（Xtuber）です。KAMITSUBAKI STUDIOの「少女革命計画」プロジェクトのメンバーであり、ユニット「心世紀」に所属しています。
+佳鏡院は、2024年8月8日に活動を開始したクロスディメンショナル・ストリーマー（Xtuber）です。[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio)の「[少女革命計画](/ja/projects/labels/girls-revolution-project)」プロジェクトのメンバーであり、ユニット「[心世紀](/ja/artists/girls_revolution_project/sinseiki)」に所属しています。
 
 ## 活動略歴
 
 - **2024年8月8日**：KAMITSUBAKI FES '24にて正式にデビューを発表し、プロジェクト活動を開始。
-- **2024年10月23日**：初のソロシングル『夢の揺籠』をリリース。
+- **2024年10月23日**：初のソロシングル『[夢の揺籠](/ja/songs/kakyoin/originals/yume-no-yurikago)』をリリース。
 - **2024年12月17日**：YouTubeでの初配信を実施。
 - **2025年7月11日**：KAMITSUBAKI WARS 2025 神椿川崎戦線 少女革命計画 1st LIVE/第一幕『改変』に出演。
 - **2026年2月8日**：心世紀の初のオンラインライブ「Petalstride -鼓動-」に出演。また、2月から3月にかけて同ユニットとして「Sanrio Virtual Festival 2026」のステージに出演。
@@ -78,7 +78,7 @@ seo:
 | 投稿日 | 楽曲名 | 作詞 | 作曲 | 試聴 |
 | :---: | :---: | :---: | :---: | :---: |
 | 2024年10月23日 | 夢の揺籠 | Wiz_nicc | Wiz_nicc | @[youtube](https://www.youtube.com/embed/pP667C1y1zA?si=2kXeZA-ru7ZleSXF) |
-| 2024年12月11日 | 宇宙逃避行 | MIMI | MIMI | @[youtube](https://www.youtube.com/embed/QBObLindkQk?si=BcJCEw1zPln9zAtA) |
+| 2024年12月11日 | [宇宙逃避行](/ja/songs/kakyoin/originals/uchu-touhikou) | [MIMI](/ja/artists/creators/mimi) | MIMI | @[youtube](https://www.youtube.com/embed/QBObLindkQk?si=BcJCEw1zPln9zAtA) |
 | 2025年3月19日 | <ruby>キリガサガリキ<rt>kirigasagariki</rt></ruby> | Purukichi | Purukichi | @[youtube](https://www.youtube.com/embed/O-19NUEyBiU?si=vDQhbNk2Q_tkJwmF) |
 | 2025年11月12日 | 月へゆく | tama | tama | @[youtube](https://www.youtube.com/embed/4Oeflvc57GM?si=Qlkr2WnrvPtmvN8f) |
 
@@ -89,7 +89,7 @@ seo:
 
 | 投稿日 | 楽曲名 | 歌唱 | 作詞 | 作曲 | 試聴 |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 2025年2月12日 | <ruby>シネマティック<rt>Cinematic</rt></ruby> | 佳鏡院<br>氷夏至 | 櫻井健太郎 | 櫻井健太郎 | @[youtube](https://www.youtube.com/embed/J5LONI0DVik?si=eXxF6WYwujSeHhpG) |
+| 2025年2月12日 | <ruby>[シネマティック](/ja/songs/kakyoin/originals/cinematic)<rt>Cinematic</rt></ruby> | 佳鏡院<br>[氷夏至](/ja/artists/girls_revolution_project/hinageshi) | 櫻井健太郎 | 櫻井健太郎 | @[youtube](https://www.youtube.com/embed/J5LONI0DVik?si=eXxF6WYwujSeHhpG) |
 
 #### 心世紀 ユニット曲
 

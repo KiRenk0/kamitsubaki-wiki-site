@@ -19,7 +19,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 ## Overview
 
-“そして花になる(syudou Remix)” is track 13 of KAF’s 観測γ.
+“そして花になる(syudou Remix)” is track 13 of [KAF](/en/artists/vwp/kaf)’s [観測γ](/en/albums/kaf/kansoku-gamma).
 
 ## Listen
 

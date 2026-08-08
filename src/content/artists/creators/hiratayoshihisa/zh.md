@@ -59,12 +59,12 @@ seo:
 
 ## 代表作品
 
-- 「夜に暇電」
-- 「日本の夜」-- 全长专辑
+- 「[夜に暇電](/zh/songs/hiratayoshihisa/originals/夜ni暇電)」
+- 「[日本の夜](/zh/albums/hiratayoshihisa/日本の夜-1820372816)」-- 全长专辑
 - 「渇愛論II」
-- 「トーキョー・コーリング」（Tokyo Calling）
-- 「夏至下る」
-- 「飛燕」
+- 「[トーキョー・コーリング](/zh/songs/hiratayoshihisa/originals/tookyoo-kooringu)」（Tokyo Calling）
+- 「[夏至下る](/zh/songs/hiratayoshihisa/originals/夏至下ru)」
+- 「[飛燕](/zh/songs/hiratayoshihisa/originals/飛燕)」
 
 ## 外部链接
 

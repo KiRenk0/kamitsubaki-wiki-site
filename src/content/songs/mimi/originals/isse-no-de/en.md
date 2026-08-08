@@ -20,7 +20,7 @@ image: /images/songs/mimi/isse-no-de.jpg
 
 ## Overview
 
-“いっせーのーで” is a single by MIMI, released on 2021-10-01.
+“いっせーのーで” is a single by [MIMI](/en/artists/creators/mimi), released on 2021-10-01.
 
 ## Listen
 {{media-switcher::いっせーのーで}}

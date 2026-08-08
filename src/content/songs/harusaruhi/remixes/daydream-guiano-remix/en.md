@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/glitch-stage.jpg
 
 ## Overview
 
-daydream (Guiano Remix) appears on GLITCH STAGE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+daydream ([Guiano](/en/artists/creators/guiano) Remix) appears on [GLITCH STAGE](/en/albums/harusaruhi/glitch-stage) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

@@ -17,7 +17,7 @@ image: /images/songs/kafu/terepashi-feat.-重音teto-cover.jpg
 
 ## Overview
 
-“テレパシ (feat. 重音テト) [Cover]” is a single by 可不, released on 2025-04-18.
+“テレパシ (feat. 重音テト) [Cover]” is a single by [可不](/en/artists/isotopes/kafu), released on 2025-04-18.
 
 ## Listen
 {{media-switcher::テレパシ (feat. 重音テト) [Cover]}}

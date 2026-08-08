@@ -17,7 +17,7 @@ image: /images/songs/hitogoto/神wo偽tta悪魔he-始.jpg
 
 ## Overview
 
-“神を偽った悪魔へ【始】” is a single by 他人事, released on 2022-04-22.
+“神を偽った悪魔へ【始】” is a single by [他人事](/en/artists/creators/hitogoto), released on 2022-04-22.
 
 ## Listen
 {{media-switcher::神を偽った悪魔へ【始】}}

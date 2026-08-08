@@ -33,23 +33,23 @@ featuredEntries:
 
 ## Overview
 
-SINSEIKI (心世紀) is an Xtuber unit under the GIRLS REVOLUTION PROJECT label of KAMITSUBAKI STUDIO, consisting of ORIHIME, KAKYOIN, and GARASUMIYA.
+SINSEIKI (心世紀) is an Xtuber unit under the [GIRLS REVOLUTION PROJECT](/en/projects/labels/girls-revolution-project) label of [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio), consisting of [ORIHIME](/en/artists/girls_revolution_project/orihime), [KAKYOIN](/en/artists/girls_revolution_project/kakyoin), and [GARASUMIYA](/en/artists/girls_revolution_project/garasumiya).
 
 The unit is characterized by “heart-generation music” that crosses the boundary between reality and virtuality. Wrapped in the light of a supernova, the girls race through sleepless nights. SINSEIKI is one of the core units driving the Girls Revolution Project storyline.
 
 ## Timeline
 
-- **August 2024**: Debuted with the single “フェイクナイト・シンデレラ”.
+- **August 2024**: Debuted with the single “[フェイクナイト・シンデレラ](/en/songs/sinseiki/originals/fake-night-cinderella)”.
 - **April 1, 2025**: Performed at KAMITSUBAKI WARS 2025 Kanagawa Front “Girls Revolution Project 1st LIVE / Act 1 『KAIHEN』”.
-- **July 16, 2025**: Released the dual-unit single “改変” together with TSUMITOBATSU.
+- **July 16, 2025**: Released the dual-unit single “[改変](/en/songs/grp/originals/kaihen)” together with [TSUMITOBATSU](/en/artists/girls_revolution_project/tsumitobatsu).
 - **October 29, 2025**: Released their 1st Album “改変 -心-”.
 - **May 2026**: Performed at KAMITSUBAKI WARS 2026 Shibuya Front “Girls Revolution Project 2nd LIVE『Revolutio』”.
 
 ## Selected Works
 
 - Album: “改変 -心-”
-- Singles: “フェイクナイト・シンデレラ”, “ココロト”, “Ephemeral”, “雑几帖”, etc.
-- Dual-unit songs: “改変”, “主人行路”, “鈍色幻灯”, “現世回帰”
+- Singles: “[フェイクナイト・シンデレラ](/en/songs/sinseiki/originals/fake-night-cinderella)”, “[ココロト](/en/songs/sinseiki/originals/kokoroto)”, “[Ephemeral](/en/songs/sinseiki/originals/ephemeral)”, “[雑几帖](/en/songs/sinseiki/originals/zatsukichou)”, etc.
+- Dual-unit songs: “[改変](/en/songs/grp/originals/kaihen)”, “[主人行路](/en/songs/grp/originals/shujin-kouro)”, “[鈍色幻灯](/en/songs/grp/originals/nibiiro-gentou)”, “[現世回帰](/en/songs/grp/originals/gense-kaiki)”
 
 ## External Links
 

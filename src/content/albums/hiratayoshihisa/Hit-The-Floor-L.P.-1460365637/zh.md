@@ -58,7 +58,7 @@ tracks:
 
 ## 简介
 
-平田義久于 2019-04-28 发行的Album《Hit The Floor L.P.》,共收录 9 首歌曲。
+[平田義久](/zh/artists/creators/hiratayoshihisa)于 2019-04-28 发行的Album《Hit The Floor L.P.》,共收录 9 首歌曲。
 
 ## 收录曲
 

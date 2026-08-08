@@ -16,7 +16,7 @@ image: /images/songs/grp/yume-no-yurikago.jpg
 
 ## 作品概要
 
-「夢の揺籠」は佳鏡院が2024-10-23にリリースした楽曲です。
+「夢の揺籠」は[佳鏡院](/ja/artists/girls_revolution_project/kakyoin)が2024-10-23にリリースした楽曲です。
 
 ## 視聴
 

@@ -17,7 +17,7 @@ image: /images/songs/valis/乙女的saikopashii-valis.jpg
 
 ## Overview
 
-“乙女的サイコパシー(VALIS)” is a single by VALIS, released on 2024-04-03.
+“乙女的サイコパシー([VALIS](/en/artists/solo/valis))” is a single by VALIS, released on 2024-04-03.
 
 ## Listen
 {{media-switcher::乙女的サイコパシー(VALIS)}}

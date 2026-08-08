@@ -16,7 +16,7 @@ image: /images/songs/grp/tsuki-e-yuku.jpg
 
 ## 作品概要
 
-「月へゆく」は佳鏡院が2025-11-12にリリースした楽曲です。
+「月へゆく」は[佳鏡院](/ja/artists/girls_revolution_project/kakyoin)が2025-11-12にリリースした楽曲です。
 
 ## 視聴
 

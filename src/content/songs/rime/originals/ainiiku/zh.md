@@ -17,7 +17,7 @@ image: /images/songs/rime/ainiiku.jpg
 
 ## 作品简介
 
-裏命于 2025-05-01 发行的单曲《アイニーク》。
+[裏命](/zh/artists/isotopes/rime)于 2025-05-01 发行的单曲《アイニーク》。
 
 ## 试听
 {{media-switcher::アイニーク}}

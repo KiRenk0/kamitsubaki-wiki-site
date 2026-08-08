@@ -16,7 +16,7 @@ image: /images/songs/empty-old-city/goosuto警告wo唄u-english-ver.jpg
 
 ## Overview
 
-“ゴースト警告を唄う (English Ver.)” is a single by Empty old City, released on 2024-07-30.
+“ゴースト警告を唄う (English Ver.)” is a single by [Empty old City](/en/artists/solo/empty-old-city), released on 2024-07-30.
 
 ## Listen
 {{media-switcher::ゴースト警告を唄う (English Ver.)}}

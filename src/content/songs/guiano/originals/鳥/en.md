@@ -17,7 +17,7 @@ image: /images/songs/guiano/鳥.jpg
 
 ## Overview
 
-“鳥” is a single by Guiano, released on 2022-09-22.
+“鳥” is a single by [Guiano](/en/artists/creators/guiano), released on 2022-09-22.
 
 ## Listen
 {{media-switcher::鳥}}

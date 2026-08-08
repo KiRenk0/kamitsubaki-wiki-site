@@ -16,7 +16,7 @@ image: /images/songs/grp/shujin-kouro.jpg
 
 ## 作品简介
 
-《主人行路》是少女革命計画于 2025-08-27 正式发行的作品。
+《主人行路》是[少女革命計画](/zh/projects/labels/girls-revolution-project)于 2025-08-27 正式发行的作品。
 
 ## 试听
 

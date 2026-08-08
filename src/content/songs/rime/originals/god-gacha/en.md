@@ -17,7 +17,7 @@ image: /images/songs/rime/god-gacha.jpg
 
 ## Overview
 
-“God Gacha” is a single by 裏命, released on 2025-09-09.
+“God Gacha” is a single by [裏命](/en/artists/isotopes/rime), released on 2025-09-09.
 
 ## Listen
 {{media-switcher::God Gacha}}

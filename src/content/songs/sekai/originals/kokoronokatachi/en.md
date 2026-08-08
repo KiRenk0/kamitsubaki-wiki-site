@@ -17,7 +17,7 @@ image: /images/songs/sekai/kokoronokatachi.jpg
 
 ## Overview
 
-“ココロノカタチ” is a single by 星界, released on 2022-10-14.
+“ココロノカタチ” is a single by [星界](/en/artists/isotopes/sekai), released on 2022-10-14.
 
 ## Listen
 {{media-switcher::ココロノカタチ}}

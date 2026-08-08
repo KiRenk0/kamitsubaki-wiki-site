@@ -46,7 +46,7 @@ tracks:
 
 ## 概要
 
-裏命が2025-04-26にリリースしたEP『Newgame』。全6曲を収録。
+[裏命](/ja/artists/isotopes/rime)が2025-04-26にリリースしたEP『Newgame』。全6曲を収録。
 
 ## 収録曲
 

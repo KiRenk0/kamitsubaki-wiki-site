@@ -17,7 +17,7 @@ image: /images/songs/kanzaki-iori/antaha死nda-feat.-重音teto.jpg
 
 ## 作品简介
 
-カンザキイオリ于 2024-08-24 发行的单曲《あんたは死んだ (feat. 重音テト)》。
+[カンザキイオリ](/zh/artists/creators/kanzaki-iori)于 2024-08-24 发行的单曲《あんたは死んだ (feat. 重音テト)》。
 
 ## 试听
 {{media-switcher::あんたは死んだ (feat. 重音テト)}}

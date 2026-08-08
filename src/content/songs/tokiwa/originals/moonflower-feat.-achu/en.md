@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/moonflower-feat.-achu.jpg
 
 ## Overview
 
-“Moonflower (feat. Achu*)” is a single by tokiwa, released on 2022-05-13.
+“Moonflower (feat. Achu*)” is a single by [tokiwa](/en/artists/creators/tokiwa), released on 2022-05-13.
 
 ## Listen
 {{media-switcher::Moonflower (feat. Achu*)}}

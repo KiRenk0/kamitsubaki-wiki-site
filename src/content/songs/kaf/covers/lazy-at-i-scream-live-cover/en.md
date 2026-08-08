@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 ## Overview
 
-“LAZY (I SCREAM LIVE ver.)” is track 13 of KAF’s I SCREAM LIVE.
+“LAZY (I SCREAM LIVE ver.)” is track 13 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE](/en/albums/kaf/i-scream-live).
 
 ## Listen
 

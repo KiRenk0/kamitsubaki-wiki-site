@@ -59,12 +59,12 @@ UTAU 音源「劇薬」の活用は、ボカロ / UTAU クリエイターとの�
 
 ## 代表作品
 
-- 「夜に暇電」
-- 「日本の夜」-- フルアルバム
+- 「[夜に暇電](/ja/songs/hiratayoshihisa/originals/夜ni暇電)」
+- 「[日本の夜](/ja/albums/hiratayoshihisa/日本の夜-1820372816)」-- フルアルバム
 - 「渇愛論II」
-- 「トーキョー・コーリング」
-- 「夏至下る」
-- 「飛燕」
+- 「[トーキョー・コーリング](/ja/songs/hiratayoshihisa/originals/tookyoo-kooringu)」
+- 「[夏至下る](/ja/songs/hiratayoshihisa/originals/夏至下ru)」
+- 「[飛燕](/ja/songs/hiratayoshihisa/originals/飛燕)」
 
 ## 外部リンク
 

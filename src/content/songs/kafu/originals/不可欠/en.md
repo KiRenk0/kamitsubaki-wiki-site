@@ -17,7 +17,7 @@ image: /images/songs/kafu/不可欠.jpg
 
 ## Overview
 
-“不可欠” is a single by 可不, released on 2010-12-12.
+“不可欠” is a single by [可不](/en/artists/isotopes/kafu), released on 2010-12-12.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/%E4%B8%8D%E5%8F%AF%E6%AC%A0/1644704083?i=1644704509&uo=4 "不可欠")

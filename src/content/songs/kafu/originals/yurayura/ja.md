@@ -17,7 +17,7 @@ image: /images/songs/kafu/yurayura.jpg
 
 ## 作品概要
 
-可不が2026-07-28にリリースしたシングル「ゆらゆら」。
+[可不](/ja/artists/isotopes/kafu)が2026-07-28にリリースしたシングル「ゆらゆら」。
 
 ## 視聴
 @[apple-music](https://music.apple.com/jp/album/%E3%82%86%E3%82%89%E3%82%86%E3%82%89/1700180489?i=1700180490&uo=4 "ゆらゆら")

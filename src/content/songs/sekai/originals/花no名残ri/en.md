@@ -17,7 +17,7 @@ image: /images/songs/sekai/花no名残ri.jpg
 
 ## Overview
 
-“花の名残り” is a single by 星界, released on 2024-10-15.
+“花の名残り” is a single by [星界](/en/artists/isotopes/sekai), released on 2024-10-15.
 
 ## Listen
 {{media-switcher::花の名残り}}

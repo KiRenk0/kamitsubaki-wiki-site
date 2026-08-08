@@ -20,7 +20,7 @@ image: /images/albums/rim/new-romancer.jpg
 
 ## Overview
 
-魔的 (feat. KAF) appears on NEW ROMANCER or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+魔的 (feat. [KAF](/en/artists/vwp/kaf)) appears on [NEW ROMANCER](/en/albums/rim/new-romancer) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

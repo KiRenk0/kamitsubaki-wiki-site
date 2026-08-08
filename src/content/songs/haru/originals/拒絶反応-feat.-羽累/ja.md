@@ -17,7 +17,7 @@ image: /images/songs/haru/拒絶反応-feat.-羽累.jpg
 
 ## 作品概要
 
-羽累が2024-06-27にリリースしたシングル「拒絶反応 feat. 羽累」。
+[羽累](/ja/artists/isotopes/haru)が2024-06-27にリリースしたシングル「拒絶反応 feat. 羽累」。
 
 ## 視聴
 {{media-switcher::拒絶反応 feat. 羽累}}

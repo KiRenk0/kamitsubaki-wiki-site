@@ -17,7 +17,7 @@ image: /images/songs/kafu/解-体.jpg
 
 ## Overview
 
-“解/体” is a single by 可不, released on 2023-12-10.
+“解/体” is a single by [可不](/en/artists/isotopes/kafu), released on 2023-12-10.
 
 ## Listen
 {{media-switcher::解/体}}

@@ -17,7 +17,7 @@ image: /images/songs/loluet/ai.jpg
 
 ## Overview
 
-“アイ” is a single by LOLUET, released on 2025-01-21.
+“アイ” is a single by [LOLUET](/en/artists/solo/loluet), released on 2025-01-21.
 
 ## Listen
 {{media-switcher::アイ}}

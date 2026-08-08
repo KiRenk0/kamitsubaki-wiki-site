@@ -16,7 +16,7 @@ image: /images/songs/grp/uchu-touhikou.jpg
 
 ## Overview
 
-“宇宙逃避行 (feat. MIMI)” is a 佳鏡院 release dated 2024-12-11.
+“宇宙逃避行 (feat. [MIMI](/en/artists/creators/mimi))” is a [佳鏡院](/en/artists/girls_revolution_project/kakyoin) release dated 2024-12-11.
 
 ## Listen
 

@@ -24,7 +24,7 @@ image: /images/songs/vwp/single-1694863306.jpg
 
 ## Overview
 
-玩具 (feat. KAF, RIM, Isekaijoucho, Harusaruhi & KOKO) appears on 玩具 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+玩具 (feat. [KAF](/en/artists/vwp/kaf), [RIM](/en/artists/vwp/rim), [Isekaijoucho](/en/artists/vwp/isekaijoucho), [Harusaruhi](/en/artists/vwp/harusaruhi) & [KOKO](/en/artists/vwp/koko)) appears on 玩具 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

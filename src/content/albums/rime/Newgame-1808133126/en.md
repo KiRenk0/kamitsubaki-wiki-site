@@ -46,7 +46,7 @@ tracks:
 
 ## Overview
 
-裏命's ep “Newgame”, released on 2025-04-26, featuring 6 tracks.
+[裏命](/en/artists/isotopes/rime)'s ep “Newgame”, released on 2025-04-26, featuring 6 tracks.
 
 ## Track List
 

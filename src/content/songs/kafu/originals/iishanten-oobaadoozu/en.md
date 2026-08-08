@@ -17,7 +17,7 @@ image: /images/songs/kafu/iishanten-oobaadoozu.jpg
 
 ## Overview
 
-“イーシャンテン・オーバードーズ” is a single by 可不, released on 2023-02-28.
+“イーシャンテン・オーバードーズ” is a single by [可不](/en/artists/isotopes/kafu), released on 2023-02-28.
 
 ## Listen
 {{media-switcher::イーシャンテン・オーバードーズ}}

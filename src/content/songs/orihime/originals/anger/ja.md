@@ -16,7 +16,7 @@ image: /images/songs/grp/anger.jpg
 
 ## 作品概要
 
-「ANGER」は御莉姫が2025-03-12にリリースした楽曲です。
+「ANGER」は[御莉姫](/ja/artists/girls_revolution_project/orihime)が2025-03-12にリリースした楽曲です。
 
 ## 視聴
 

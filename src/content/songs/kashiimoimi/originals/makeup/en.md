@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/makeup.jpg
 
 ## Overview
 
-“Makeup” is a single by 香椎モイミ, released on 2023-04-04.
+“Makeup” is a single by [香椎モイミ](/en/artists/creators/kashiimoimi), released on 2023-04-04.
 
 ## Listen
 {{media-switcher::Makeup}}

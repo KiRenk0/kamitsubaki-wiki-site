@@ -17,7 +17,7 @@ image: /images/songs/rime/現象rabu-songu.jpg
 
 ## Overview
 
-“現象ラブ・ソング” is a single by 裏命, released on 2026-03-29.
+“現象ラブ・ソング” is a single by [裏命](/en/artists/isotopes/rime), released on 2026-03-29.
 
 ## Listen
 {{media-switcher::現象ラブ・ソング}}

@@ -24,7 +24,7 @@ image: /images/albums/vwp/awakening.jpg
 
 ## 作品概要
 
-「暁光 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)」は『覚醒』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「暁光 (feat. [花譜](/ja/artists/vwp/kaf), [理芽](/ja/artists/vwp/rim), [春猿火](/ja/artists/vwp/harusaruhi), [ヰ世界情緒](/ja/artists/vwp/isekaijoucho) & [幸祜](/ja/artists/vwp/koko))」は『[覚醒](/ja/albums/vwp/awakening)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 試聴
 

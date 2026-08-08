@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/管理欲.jpg
 
 ## Overview
 
-“管理欲” is a single by 香椎モイミ, released on 2026-03-24.
+“管理欲” is a single by [香椎モイミ](/en/artists/creators/kashiimoimi), released on 2026-03-24.
 
 ## Listen
 {{media-switcher::管理欲}}

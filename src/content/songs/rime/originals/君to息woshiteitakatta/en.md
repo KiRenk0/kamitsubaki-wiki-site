@@ -17,7 +17,7 @@ image: /images/songs/rime/君to息woshiteitakatta.jpg
 
 ## Overview
 
-“君と息をしていたかった” is a single by 裏命, released on 2025-10-10.
+“君と息をしていたかった” is a single by [裏命](/en/artists/isotopes/rime), released on 2025-10-10.
 
 ## Listen
 {{media-switcher::君と息をしていたかった}}

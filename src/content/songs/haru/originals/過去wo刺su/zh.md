@@ -20,7 +20,7 @@ image: /images/songs/haru/過去wo刺su.jpg
 
 ## 作品简介
 
-羽累于 2025-02-20 发行的单曲《過去を刺す》。
+[羽累](/zh/artists/isotopes/haru)于 2025-02-20 发行的单曲《過去を刺す》。
 
 ## 试听
 {{media-switcher::過去を刺す}}

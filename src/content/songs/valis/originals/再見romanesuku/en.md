@@ -17,7 +17,7 @@ image: /images/songs/valis/再見romanesuku.jpg
 
 ## Overview
 
-“再見ロマネスク” is a single by VALIS, released on 2022-11-15.
+“再見ロマネスク” is a single by [VALIS](/en/artists/solo/valis), released on 2022-11-15.
 
 ## Listen
 {{media-switcher::再見ロマネスク}}

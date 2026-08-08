@@ -17,7 +17,7 @@ image: /images/songs/kafu/iishanten-oobaadoozu.jpg
 
 ## 作品简介
 
-可不于 2023-02-28 发行的单曲《イーシャンテン・オーバードーズ》。
+[可不](/zh/artists/isotopes/kafu)于 2023-02-28 发行的单曲《イーシャンテン・オーバードーズ》。
 
 ## 试听
 {{media-switcher::イーシャンテン・オーバードーズ}}

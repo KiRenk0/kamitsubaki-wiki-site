@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1703711463.jpg
 
 ## 作品简介
 
-《わたしの声》是花譜收录于《組曲》的第 14 轨。
+《わたしの声》是[花譜](/zh/artists/vwp/kaf)收录于《[組曲](/zh/albums/kaf/suite)》的第 14 轨。
 
 ## 试听
 

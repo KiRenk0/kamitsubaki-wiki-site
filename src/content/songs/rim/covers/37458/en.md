@@ -20,7 +20,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 ## Overview
 
-37458 (feat. KAF) appears on CHOCOLATE LIVE2 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+37458 (feat. [KAF](/en/artists/vwp/kaf)) appears on [CHOCOLATE LIVE2](/en/albums/rim/chocolate-live-2) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

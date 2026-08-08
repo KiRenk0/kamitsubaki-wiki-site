@@ -17,7 +17,7 @@ image: /images/songs/mimi/rokoko-feat.-初音miku.jpg
 
 ## Overview
 
-“ロココ (feat. 初音ミク)” is a single by MIMI, released on 2023-01-19.
+“ロココ (feat. 初音ミク)” is a single by [MIMI](/en/artists/creators/mimi), released on 2023-01-19.
 
 ## Listen
 {{media-switcher::ロココ (feat. 初音ミク)}}

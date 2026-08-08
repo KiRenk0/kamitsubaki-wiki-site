@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/daisy-crown.jpg
 
 ## Overview
 
-“Daisy Crown” is a single by Empty old City, released on 2025-02-21.
+“Daisy Crown” is a single by [Empty old City](/en/artists/solo/empty-old-city), released on 2025-02-21.
 
 ## Listen
 {{media-switcher::Daisy Crown}}

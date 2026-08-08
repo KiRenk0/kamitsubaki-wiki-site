@@ -17,7 +17,7 @@ image: /images/songs/sekai/僕raha青春ni参加shinai.jpg
 
 ## 作品简介
 
-星界于 2023-06-09 发行的单曲《僕らは青春に参加しない》。
+[星界](/zh/artists/isotopes/sekai)于 2023-06-09 发行的单曲《僕らは青春に参加しない》。
 
 ## 试听
 {{media-switcher::僕らは青春に参加しない}}

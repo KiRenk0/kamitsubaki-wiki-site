@@ -77,7 +77,7 @@ seo:
 
 ## 基本资料与人物设定
 
-理芽的角色设计同样由 PALOW. 操刀，外观识别要素包括蓝色短发、红色内层挑染、三色同心环瞳孔、鱼形兜帽、麻花辫、绿色菱形耳饰以及融合街头时尚的服饰。
+理芽的角色设计同样由 [PALOW.](/zh/artists/creators/palow) 操刀，外观识别要素包括蓝色短发、红色内层挑染、三色同心环瞳孔、鱼形兜帽、麻花辫、绿色菱形耳饰以及融合街头时尚的服饰。
 
 | 项目 | 内容 |
 | --- | --- |
@@ -85,8 +85,8 @@ seo:
 | 角色设计 | PALOW.（角色原案）；视觉制作长期由 川サキ（川サキケンジ）等创作者协作 |
 | 视觉标志 | 蓝发红挑染、同心环瞳孔、鱼形兜帽、绿菱形耳饰、高中生制服姿态 |
 | 萌点属性 | 萌姬、兜帽、短发、挑染、异色瞳、短裙、{{spoiler::花谱的姐姐}}、多语言、都市流行 |
-| 核心关联 | KAMITSUBAKI STUDIO、V.W.P、裏命 (RIME)、神椿市建设中。 |
-| 代表合作人 | 笹川真生、Guiano、Misumi、samayuzame 等 |
+| 核心关联 | [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio)、[V.W.P](/zh/artists/vwp/vwp)、[裏命](/zh/artists/isotopes/rime) (RIME)、神椿市建设中。 |
+| 代表合作人 | 笹川真生、[Guiano](/zh/artists/creators/guiano)、Misumi、samayuzame 等 |
 | 声源延伸 | 音乐同位体「{{ruby::裏命::りめ::rime}}」（CeVIO AI）声源原型 |
 
 > **高中生制服与“毕业”概念**：理芽的高中生制服形态在 2020 年公开，随后她以“毕业”为主题发布了一系列原创曲与形象演变。这一过程使制服不只是单一换装，而是成为了她个人青春成长叙事的重要篇章。
@@ -100,33 +100,33 @@ seo:
   - **12月20日**：发布首支原创单曲《{{ruby::ユーエンミー::ゆうえんみー::you and me}}》。
 - **2020年**
   - **1月3日**：发布第二支原创单曲《{{ruby::食虫植物::しょくちゅうしょくぶつ::syokuchuu syokubutsu}}》。
-  - **8月12日**：《食虫植物》在 TikTok 上爆发式走红并掀起全网翻唱热潮，短视频播放量迅速突破千万，YouTube MV 播放量跃升至 300 万。
+  - **8月12日**：《[食虫植物](/zh/songs/rim/originals/食虫植物-carnivorous-plant)》在 TikTok 上爆发式走红并掀起全网翻唱热潮，短视频播放量迅速突破千万，YouTube MV 播放量跃升至 300 万。
   - **9月5日**：《食虫植物》在 YouTube 上的播放量正式突破 1000 万，成为神椿工作室最早突破千万播放的标志性单曲之一。
   - **10月28日**：发布单曲《{{ruby::甘美な無法::かんびなむほう::kanbi na muhou}}》。
   - **12月20日**：举办首次个人翻唱 Live 演唱会「CHOCOLATE LIVE」。
 - **2021年**
-  - **3月13日**：在花谱 2nd LIVE「不可解弐Q2」现场，与花谱、春猿火、ヰ世界情绪、幸祜共同结成 V.W.P。
+  - **3月13日**：在[花谱](/zh/artists/vwp/kaf) 2nd LIVE「不可解弐Q2」现场，与花谱、[春猿火](/zh/artists/vwp/harusaruhi)、[ヰ世界情绪](/zh/artists/vwp/isekaijoucho)、[幸祜](/zh/artists/vwp/koko)共同结成 [V.W.P](/zh/artists/vwp/vwp)。
   - **5月15日**：举办首场个人 ONE-MAN LIVE「{{ruby::ニューロマンス::にゅーろまんす::neuromance}}」。
-  - **7月21日**：发行首张个人专辑 1st Album《NEW ROMANCER》。
+  - **7月21日**：发行首张个人专辑 1st Album《[NEW ROMANCER](/zh/albums/rim/new-romancer)》。
 
 ### 2022年 - 2023年：美国留学与《NEW ROMANCER2》
 
 - **2022年**
   - **4月16日**：与 V.W.P 成员共同出演首场团体现场演唱会「魔女集会」和「现象」。
   - **4月27日**：YouTube 频道订阅数突破 20 万。发布 HAL 专门学校广告主题曲《{{ruby::ピルグリム::ぴるぐりむ::pilgrim}}》，并公开第二代视觉形态「The Cosmic Puppets」。
-  - **7月17日**：与 ヰ世界情緒 共同举办双人联决演唱会「Singularity Live」。
+  - **7月17日**：与 [ヰ世界情緒](/zh/artists/vwp/isekaijoucho) 共同举办双人联决演唱会「Singularity Live」。
   - **8月17日**：发布单曲《{{ruby::チクタクボーイ::ちくたくぼーい::tick tock boy}}》（TV 动画《5亿年按钮》片尾曲）。
   - **9月**：为了提升多语言创作与国际视野，前往美国展开为期约半年的语学留学，期间保持线上音乐作品发布。
   - **10月5日**：发布日剧《少年的深渊》片头主题曲《{{ruby::インナアチャイルド::いんなあちゃいるど::inner child}}》。
 - **2023年**
   - **4月**：结束美国留学顺利回到日本，正式全面恢复国内的常规现场与音乐活动。
-  - **12月6日**：发行第二张个人专辑 2nd Album《NEW ROMANCER2》。
+  - **12月6日**：发行第二张个人专辑 2nd Album《[NEW ROMANCER2](/zh/albums/rim/new-romancer-2)》。
   - **12月16日**：于丰洲 PIT 举办第二场个人单人演唱会 2nd ONE-MAN LIVE「NEUROMANCE II -Kamitsubaki City Ichibangai-」。
 
 ### 2024年至今：NEUROMANCE III 与个人展览
 
 - **2024年**
-  - **9月14日**：与 花譜 共同举办双人联决演唱会「Singularity Live Vol.3」。
+  - **9月14日**：与 [花譜](/zh/artists/vwp/kaf) 共同举办双人联决演唱会「Singularity Live Vol.3」。
   - **9月15日**：在 TOKYO DOME CITY HALL 举办第三场个人单人演唱会 3rd ONE-MAN LIVE「NEUROMANCE III」。
 - **2025年**
   - 为 TV 动画《神椿市建设中。》演唱第三集片尾曲《{{ruby::閃光だった::せんこうだった::senkou datta}}》，并出演 2025 年大阪·关西世博会官方音乐活动。
@@ -138,7 +138,7 @@ seo:
 @[bilibili](BV18Z4y1g77g "理芽 - 食虫植物")
 
 - **个人专辑**：1st《NEW ROMANCER》(2021)、2nd《NEW ROMANCER2》(2023)
-- **代表单曲**：《ユーエンミー》《食虫植物》《ピロウトーク》《Flowering》《卒業》《クライベイビー》《甘美な無法》《法螺話》《十九月》《インナアチャイルド》《えろいむ》
+- **代表单曲**：《[ユーエンミー](/zh/songs/rim/originals/ユーエンミー-you-and-me)》《[食虫植物](/zh/songs/rim/originals/食虫植物-carnivorous-plant)》《[ピロウトーク](/zh/songs/rim/originals/ピロウトーク-pillow-talk)》《Flowering》《卒業》《[クライベイビー](/zh/songs/rim/originals/クライベイビー-cry-baby)》《[甘美な無法](/zh/songs/rim/originals/甘美な無法-luscious-lawless)》《法螺話》《[十九月](/zh/songs/rim/originals/十九月-juuku-gatsu)》《[インナアチャイルド](/zh/songs/rim/originals/インナアチャイルド-inner-child)》《[えろいむ](/zh/songs/rim/originals/えろいむ-eloim)》
 - **翻唱 Live 系列**：《CHOCOLATE LIVE》(2020)、《CHOCOLATE LIVE 2》(2022)
 
 {{details::点击展开「NEUROMANCE」与演唱会全历程}}

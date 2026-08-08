@@ -20,7 +20,7 @@ image: /images/songs/rime/phntm.jpg
 
 ## 作品概要
 
-裏命が2023-04-13にリリースしたシングル「PHNTM」。
+[裏命](/ja/artists/isotopes/rime)が2023-04-13にリリースしたシングル「PHNTM」。
 
 ## 視聴
 {{media-switcher::PHNTM}}

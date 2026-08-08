@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho.jpg
 
 ## 作品简介
 
-《痛みを》是花譜收录于《魔法》的第 10 轨。
+《痛みを》是[花譜](/zh/artists/vwp/kaf)收录于《[魔法](/zh/albums/kaf/maho)》的第 10 轨。
 
 ## 试听
 

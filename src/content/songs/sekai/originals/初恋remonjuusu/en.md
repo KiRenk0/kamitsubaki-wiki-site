@@ -17,7 +17,7 @@ image: /images/songs/sekai/初恋remonjuusu.jpg
 
 ## Overview
 
-“初恋レモンジュース” is a single by 星界, released on 2024-12-24.
+“初恋レモンジュース” is a single by [星界](/en/artists/isotopes/sekai), released on 2024-12-24.
 
 ## Listen
 {{media-switcher::初恋レモンジュース}}

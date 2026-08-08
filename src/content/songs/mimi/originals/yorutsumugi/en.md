@@ -17,7 +17,7 @@ image: /images/songs/mimi/yorutsumugi.jpg
 
 ## Overview
 
-“よるつむぎ” is a single by MIMI, released on 2021-10-15.
+“よるつむぎ” is a single by [MIMI](/en/artists/creators/mimi), released on 2021-10-15.
 
 ## Listen
 {{media-switcher::よるつむぎ}}

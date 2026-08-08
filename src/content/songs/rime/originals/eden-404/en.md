@@ -17,7 +17,7 @@ image: /images/songs/rime/eden-404.jpg
 
 ## Overview
 
-“eden-404” is a single by 裏命, released on 2025-02-28.
+“eden-404” is a single by [裏命](/en/artists/isotopes/rime), released on 2025-02-28.
 
 ## Listen
 {{media-switcher::eden-404}}

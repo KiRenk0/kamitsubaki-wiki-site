@@ -17,7 +17,7 @@ image: /images/songs/mimi/o砂糖哀歌-feat.-初音miku.jpg
 
 ## Overview
 
-“お砂糖哀歌 (feat. 初音ミク)” is a single by MIMI, released on 2025-05-02.
+“お砂糖哀歌 (feat. 初音ミク)” is a single by [MIMI](/en/artists/creators/mimi), released on 2025-05-02.
 
 ## Listen
 {{media-switcher::お砂糖哀歌 (feat. 初音ミク)}}

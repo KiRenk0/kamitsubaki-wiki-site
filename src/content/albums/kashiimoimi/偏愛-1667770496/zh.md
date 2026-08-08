@@ -74,7 +74,7 @@ tracks:
 
 ## 简介
 
-香椎モイミ于 2023-02-08 发行的Album《偏愛》,共收录 13 首歌曲。
+[香椎モイミ](/zh/artists/creators/kashiimoimi)于 2023-02-08 发行的Album《偏愛》,共收录 13 首歌曲。
 
 ## 收录曲
 

@@ -17,7 +17,7 @@ image: /images/songs/kafu/rumurutoru.jpg
 
 ## 作品简介
 
-可不于 2023-04-29 发行的单曲《ルムルトル》。
+[可不](/zh/artists/isotopes/kafu)于 2023-04-29 发行的单曲《ルムルトル》。
 
 ## 试听
 {{media-switcher::ルムルトル}}

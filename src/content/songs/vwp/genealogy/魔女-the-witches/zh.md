@@ -26,7 +26,7 @@ image: /images/albums/vwp/fate.jpg
 
 ## 作品简介
 
-- V.W.P对花谱的单曲《魔女》的翻唱版本。该版本首次发行于专辑《運命》之中。若要寻找花譜所演唱的版本，请查阅相关词条（建设完毕后将补全超链接）。
+- V.W.P对花谱的单曲《[魔女](/zh/songs/kaf/originals/majo)》的翻唱版本。该版本首次发行于专辑《[運命](/zh/albums/vwp/fate)》之中。若要寻找[花譜](/zh/artists/vwp/kaf)所演唱的版本，请查阅相关词条（建设完毕后将补全超链接）。
 
 ## 试听
 

@@ -17,7 +17,7 @@ image: /images/songs/mimi/恋shikunattara手wo叩kou-feat.-花鏡紅璃.jpg
 
 ## Overview
 
-“恋しくなったら手を叩こう (feat. 花鏡紅璃)” is a single by MIMI, released on 2025-06-04.
+“恋しくなったら手を叩こう (feat. 花鏡紅璃)” is a single by [MIMI](/en/artists/creators/mimi), released on 2025-06-04.
 
 ## Listen
 {{media-switcher::恋しくなったら手を叩こう (feat. 花鏡紅璃)}}

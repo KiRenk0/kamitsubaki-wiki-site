@@ -16,7 +16,7 @@ image: /images/songs/grp/shin-yuu.jpg
 
 ## 作品概要
 
-「シンユウ」は御莉姫が2024-11-06にリリースした楽曲です。
+「シンユウ」は[御莉姫](/ja/artists/girls_revolution_project/orihime)が2024-11-06にリリースした楽曲です。
 
 ## 視聴
 

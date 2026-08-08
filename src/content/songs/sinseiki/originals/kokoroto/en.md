@@ -16,7 +16,7 @@ image: /images/songs/grp/kokoroto.jpg
 
 ## Overview
 
-“ココロト (feat. Toa)” is a 心世紀 release dated 2025-02-26.
+“ココロト (feat. [Toa](/en/artists/creators/toa))” is a [心世紀](/en/artists/girls_revolution_project/sinseiki) release dated 2025-02-26.
 
 ## Listen
 

@@ -17,7 +17,7 @@ image: /images/songs/sooda/tootobaggu.jpg
 
 ## Overview
 
-“トートバッグ” is a single by Sooda, released on 2025-11-18.
+“トートバッグ” is a single by [Sooda](/en/artists/creators/sooda), released on 2025-11-18.
 
 ## Listen
 {{media-switcher::トートバッグ}}

@@ -24,7 +24,7 @@ image: /images/albums/vwp/inversion.jpg
 
 ## 作品简介
 
-《言葉 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)》收录于《反転》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《言葉 (feat. [花譜](/zh/artists/vwp/kaf), [理芽](/zh/artists/vwp/rim), [春猿火](/zh/artists/vwp/harusaruhi), [ヰ世界情緒](/zh/artists/vwp/isekaijoucho) & [幸祜](/zh/artists/vwp/koko))》收录于《[反転](/zh/albums/vwp/inversion)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 

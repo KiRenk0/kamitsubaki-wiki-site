@@ -24,7 +24,7 @@ image: /images/albums/vwp/witch-plus-2.jpg
 
 ## 作品简介
 
-《機械の声 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)》收录于《魔女ぷらす2》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《機械の声 (feat. [花譜](/zh/artists/vwp/kaf), [理芽](/zh/artists/vwp/rim), [春猿火](/zh/artists/vwp/harusaruhi), [ヰ世界情緒](/zh/artists/vwp/isekaijoucho) & [幸祜](/zh/artists/vwp/koko))》收录于《[魔女ぷらす2](/zh/albums/vwp/witch-plus-2)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 

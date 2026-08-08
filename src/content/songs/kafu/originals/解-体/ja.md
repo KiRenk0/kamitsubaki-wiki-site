@@ -17,7 +17,7 @@ image: /images/songs/kafu/解-体.jpg
 
 ## 作品概要
 
-可不が2023-12-10にリリースしたシングル「解/体」。
+[可不](/ja/artists/isotopes/kafu)が2023-12-10にリリースしたシングル「解/体」。
 
 ## 視聴
 {{media-switcher::解/体}}

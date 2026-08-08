@@ -66,7 +66,7 @@ tracks:
 
 ## Overview
 
-羽累's album “制定のオーバーラップ”, released on 2024-09-18, featuring 11 tracks.
+[羽累](/en/artists/isotopes/haru)'s album “制定のオーバーラップ”, released on 2024-09-18, featuring 11 tracks.
 
 ## Track List
 

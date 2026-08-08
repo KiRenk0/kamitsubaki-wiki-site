@@ -17,7 +17,7 @@ image: /images/songs/guiano/花.jpg
 
 ## Overview
 
-“花” is a single by Guiano, released on 2022-05-21.
+“花” is a single by [Guiano](/en/artists/creators/guiano), released on 2022-05-21.
 
 ## Listen
 {{media-switcher::花}}

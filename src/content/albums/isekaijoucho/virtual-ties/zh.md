@@ -40,7 +40,7 @@ tracks:
 
 ## 作品简介
 
-《Virtual Ties 〜ヰ世界情緒夢想曲〜 Theme Songs》是本目录收录的正式发行作品。发行日、曲序、时长与参与艺人以官方作品页和 Apple Music 日本区资料交叉核对。
+《Virtual Ties 〜[ヰ世界情緒](/zh/artists/vwp/isekaijoucho)夢想曲〜 Theme Songs》是本目录收录的正式发行作品。发行日、曲序、时长与参与艺人以官方作品页和 Apple Music 日本区资料交叉核对。
 
 ## 曲目与版本
 

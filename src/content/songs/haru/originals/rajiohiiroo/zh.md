@@ -17,7 +17,7 @@ image: /images/songs/haru/rajiohiiroo.jpg
 
 ## 作品简介
 
-羽累于 2024-11-26 发行的单曲《ラジオヒーロー》。
+[羽累](/zh/artists/isotopes/haru)于 2024-11-26 发行的单曲《ラジオヒーロー》。
 
 ## 试听
 {{media-switcher::ラジオヒーロー}}

@@ -16,7 +16,7 @@ image: /images/songs/grp/shinshoku-no-kiroku.jpg
 
 ## 作品简介
 
-《侵蝕の記録》是美古途于 2026-02-18 正式发行的作品。
+《侵蝕の記録》是[美古途](/zh/artists/girls_revolution_project/mikoto)于 2026-02-18 正式发行的作品。
 
 ## 试听
 

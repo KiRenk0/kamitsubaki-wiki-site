@@ -17,7 +17,7 @@ image: /images/songs/awairo/個性-feat.-wami-&-雄之助.jpg
 
 ## Overview
 
-“個性 (feat. WaMi & 雄之助)” is a single by Awairo, released on 2023-12-08.
+“個性 (feat. WaMi & [雄之助](/en/artists/creators/yunosuke))” is a single by [Awairo](/en/artists/solo/awairo), released on 2023-12-08.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/%E5%80%8B%E6%80%A7-feat-wami-%E9%9B%84%E4%B9%8B%E5%8A%A9/1717374077?i=1717374078&uo=4 "個性 (feat. WaMi & 雄之助)")

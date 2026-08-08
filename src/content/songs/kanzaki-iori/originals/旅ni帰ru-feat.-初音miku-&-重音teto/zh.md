@@ -17,7 +17,7 @@ image: /images/songs/kanzaki-iori/旅ni帰ru-feat.-初音miku-&-重音teto.jpg
 
 ## 作品简介
 
-カンザキイオリ于 2026-04-16 发行的单曲《旅に帰る (feat. 初音ミク & 重音テト)》。
+[カンザキイオリ](/zh/artists/creators/kanzaki-iori)于 2026-04-16 发行的单曲《旅に帰る (feat. 初音ミク & 重音テト)》。
 
 ## 试听
 @[apple-music](https://music.apple.com/jp/album/%E6%97%85%E3%81%AB%E5%B8%B0%E3%82%8B-feat-%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF-%E9%87%8D%E9%9F%B3%E3%83%86%E3%83%88/6791833238?i=6791833257&uo=4 "旅に帰る (feat. 初音ミク & 重音テト)")

@@ -17,7 +17,7 @@ image: /images/songs/valis/猫好的torikkusutaa-neffy.jpg
 
 ## Overview
 
-“猫好的トリックスター(NEFFY)” is a single by VALIS, released on 2023-06-24.
+“猫好的トリックスター(NEFFY)” is a single by [VALIS](/en/artists/solo/valis), released on 2023-06-24.
 
 ## Listen
 {{media-switcher::猫好的トリックスター(NEFFY)}}

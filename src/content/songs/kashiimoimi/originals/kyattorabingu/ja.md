@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/kyattorabingu.jpg
 
 ## 作品概要
 
-香椎モイミが2022-07-12にリリースしたシングル「キャットラビング」。
+[香椎モイミ](/ja/artists/creators/kashiimoimi)が2022-07-12にリリースしたシングル「キャットラビング」。
 
 ## 視聴
 {{media-switcher::キャットラビング}}

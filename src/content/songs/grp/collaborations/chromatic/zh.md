@@ -16,7 +16,7 @@ image: /images/songs/grp/chromatic.jpg
 
 ## 作品简介
 
-《クロマティック》是少女革命計画于 2025-12-24 正式发行的作品。
+《クロマティック》是[少女革命計画](/zh/projects/labels/girls-revolution-project)于 2025-12-24 正式发行的作品。
 
 ## 试听
 

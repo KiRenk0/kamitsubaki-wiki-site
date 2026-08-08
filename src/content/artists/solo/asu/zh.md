@@ -49,7 +49,7 @@ seo:
 
 ## 概述
 
-ASU（明透）是 KAMITSUBAKI STUDIO 体系中出现在平行异世界「深脊界」的下一代虚拟歌手。她以天生的节奏感和不可预测的歌唱方式为特征，整体形象是一个凭本能行动、自由奔放的天真少女。角色设计由知名动画师米山舞担当。
+ASU（明透）是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 体系中出现在平行异世界「深脊界」的下一代虚拟歌手。她以天生的节奏感和不可预测的歌唱方式为特征，整体形象是一个凭本能行动、自由奔放的天真少女。角色设计由知名动画师米山舞担当。
 
 ASU 于 2021年8月正式出道。2024年12月28日，她举办了首次有观众的 ONE-MAN LIVE「RAY」，随后在 2025年8月30日举办了第二次 ONE-MAN LIVE「BIRTH」，迅速确立了个人存在感。她的活动与神椿本体世界既有联系又保持独立，代表着深脊界一侧的音乐表达。
 
@@ -69,7 +69,7 @@ ASU 的核心气质是「本能」与「不可预测」。她的声线变化丰�
 
 ## 代表作品与相关条目
 
-- 单曲：「Little Bit」「ルートキュア」「ビターエチュード」「HOME」「Link」
+- 单曲：「[Little Bit](/zh/songs/asu/originals/little-bit)」「[ルートキュア](/zh/songs/asu/originals/ruutokyua)」「[ビターエチュード](/zh/songs/asu/originals/bitaaechuudo)」「[HOME](/zh/songs/asu/originals/home)」「[Link](/zh/songs/asu/originals/link)」
 
 推荐搭配阅读：
 

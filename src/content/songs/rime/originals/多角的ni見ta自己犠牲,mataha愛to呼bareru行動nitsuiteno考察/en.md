@@ -17,7 +17,7 @@ image: /images/songs/rime/多角的ni見ta自己犠牲,mataha愛to呼bareru行�
 
 ## Overview
 
-“多角的に見た自己犠牲、または愛と呼ばれる行動についての考察” is a single by 裏命, released on 2024-10-16.
+“多角的に見た自己犠牲、または愛と呼ばれる行動についての考察” is a single by [裏命](/en/artists/isotopes/rime), released on 2024-10-16.
 
 ## Listen
 {{media-switcher::多角的に見た自己犠牲、または愛と呼ばれる行動についての考察}}

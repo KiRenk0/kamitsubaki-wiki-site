@@ -17,7 +17,7 @@ image: /images/songs/kafu/流線形meedee.jpg
 
 ## 作品概要
 
-可不が2022-07-12にリリースしたシングル「流線形メーデー」。
+[可不](/ja/artists/isotopes/kafu)が2022-07-12にリリースしたシングル「流線形メーデー」。
 
 ## 視聴
 {{media-switcher::流線形メーデー}}

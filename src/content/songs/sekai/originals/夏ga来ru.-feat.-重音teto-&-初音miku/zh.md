@@ -17,7 +17,7 @@ image: /images/songs/sekai/夏ga来ru.-feat.-重音teto-&-初音miku.jpg
 
 ## 作品简介
 
-星界于 2024-05-10 发行的单曲《夏が来る。 (feat. 重音テト & 初音ミク)》。
+[星界](/zh/artists/isotopes/sekai)于 2024-05-10 发行的单曲《夏が来る。 (feat. 重音テト & 初音ミク)》。
 
 ## 试听
 {{media-switcher::夏が来る。 (feat. 重音テト & 初音ミク)}}

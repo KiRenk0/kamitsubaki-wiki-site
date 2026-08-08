@@ -16,7 +16,7 @@ image: /images/songs/grp/bakemono-de-isasete.jpg
 
 ## 作品概要
 
-「化け物でいさせて」は夕凪機が2025-12-17にリリースした楽曲です。
+「化け物でいさせて」は[夕凪機](/ja/artists/girls_revolution_project/yunagi)が2025-12-17にリリースした楽曲です。
 
 ## 視聴
 

@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/管理欲.jpg
 
 ## 作品简介
 
-香椎モイミ于 2026-03-24 发行的单曲《管理欲》。
+[香椎モイミ](/zh/artists/creators/kashiimoimi)于 2026-03-24 发行的单曲《管理欲》。
 
 ## 试听
 {{media-switcher::管理欲}}

@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/海蛍.jpg
 
 ## Overview
 
-“海蛍” is a single by 香椎モイミ, released on 2024-10-15.
+“海蛍” is a single by [香椎モイミ](/en/artists/creators/kashiimoimi), released on 2024-10-15.
 
 ## Listen
 {{media-switcher::海蛍}}

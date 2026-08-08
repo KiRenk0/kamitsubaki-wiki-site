@@ -17,7 +17,7 @@ image: /images/songs/albemuth/tuberose-feat.-存流-&-明透.jpg
 
 ## Overview
 
-“tuberose (feat. 存流 & 明透)” is a single by Albemuth, released on 2023-08-30.
+“tuberose (feat. 存流 & [明透](/en/artists/solo/asu))” is a single by [Albemuth](/en/artists/solo/albemuth), released on 2023-08-30.
 
 ## Listen
 {{media-switcher::tuberose (feat. 存流 & 明透)}}

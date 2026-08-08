@@ -24,7 +24,7 @@ image: /images/albums/vwp/witch-plus.jpg
 
 ## Overview
 
-friction (feat. 春猿火 & 梓川) [Remix] appears on 魔女ぷらす or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+friction (feat. [春猿火](/en/artists/vwp/harusaruhi) & 梓川) [Remix] appears on [魔女ぷらす](/en/albums/vwp/witch-plus) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

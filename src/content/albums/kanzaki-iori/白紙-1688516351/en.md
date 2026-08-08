@@ -78,7 +78,7 @@ tracks:
 
 ## Overview
 
-カンザキイオリ's album “白紙”, released on 2021-08-11, featuring 14 tracks.
+[カンザキイオリ](/en/artists/creators/kanzaki-iori)'s album “白紙”, released on 2021-08-11, featuring 14 tracks.
 
 ## Track List
 
@@ -95,4 +95,4 @@ tracks:
 11. 冬が僕を嫌ってるので (01:41)
 12. 音楽なんてわからない (05:34)
 13. 進化劇 (04:26)
-14. 音楽なんてわからない(Guiano Remix) (02:55)
+14. 音楽なんてわからない([Guiano](/en/artists/creators/guiano) Remix) (02:55)

@@ -17,7 +17,7 @@ image: /images/songs/mimi/lilly.jpg
 
 ## Overview
 
-“Lilly” is a single by MIMI, released on 2023-12-08.
+“Lilly” is a single by [MIMI](/en/artists/creators/mimi), released on 2023-12-08.
 
 ## Listen
 {{media-switcher::Lilly}}

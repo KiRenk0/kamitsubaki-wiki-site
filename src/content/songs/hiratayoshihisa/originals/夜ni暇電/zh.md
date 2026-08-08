@@ -17,7 +17,7 @@ image: /images/songs/hiratayoshihisa/夜ni暇電.jpg
 
 ## 作品简介
 
-平田義久于 2026-06-16 发行的单曲《夜に暇電》。
+[平田義久](/zh/artists/creators/hiratayoshihisa)于 2026-06-16 发行的单曲《夜に暇電》。
 
 ## 试听
 {{media-switcher::夜に暇電}}

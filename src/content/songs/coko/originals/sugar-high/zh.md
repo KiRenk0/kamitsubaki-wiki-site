@@ -22,7 +22,7 @@ image: /images/songs/coko/sugar-high.jpg
 
 ## 作品简介
 
-狐子于 2026-01-27 发行的单曲《Sugar-High》。
+[狐子](/zh/artists/isotopes/coko)于 2026-01-27 发行的单曲《Sugar-High》。
 
 ## 试听
 {{media-switcher::Sugar-High}}

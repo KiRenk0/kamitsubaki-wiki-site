@@ -17,7 +17,7 @@ image: /images/songs/sekai/geemugashitainouta.jpg
 
 ## 作品简介
 
-星界于 2026-04-23 发行的单曲《ゲームがしたいのうた》。
+[星界](/zh/artists/isotopes/sekai)于 2026-04-23 发行的单曲《ゲームがしたいのうた》。
 
 ## 试听
 {{media-switcher::ゲームがしたいのうた}}

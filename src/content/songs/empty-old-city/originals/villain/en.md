@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/villain.jpg
 
 ## Overview
 
-“Villain” is a single by Empty old City, released on 2022-03-22.
+“Villain” is a single by [Empty old City](/en/artists/solo/empty-old-city), released on 2022-03-22.
 
 ## Listen
 {{media-switcher::Villain}}

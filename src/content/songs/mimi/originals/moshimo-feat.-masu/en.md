@@ -17,7 +17,7 @@ image: /images/songs/mimi/moshimo-feat.-masu.jpg
 
 ## Overview
 
-“もしも (feat. マス)” is a single by MIMI, released on 2025-07-06.
+“もしも (feat. マス)” is a single by [MIMI](/en/artists/creators/mimi), released on 2025-07-06.
 
 ## Listen
 {{media-switcher::もしも (feat. マス)}}

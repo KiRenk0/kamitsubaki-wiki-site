@@ -19,7 +19,7 @@ image: /images/albums/koko/arare-live.jpg
 
 ## 作品概要
 
-「鏡面の波 feat.ヰ世界情緒」は『ARARE LIVE』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「鏡面の波 feat.[ヰ世界情緒](/ja/artists/vwp/isekaijoucho)」は『[ARARE LIVE](/ja/albums/koko/arare-live)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 歌詞
 

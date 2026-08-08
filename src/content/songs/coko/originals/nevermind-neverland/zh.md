@@ -17,7 +17,7 @@ image: /images/songs/coko/nevermind-neverland.jpg
 
 ## 作品简介
 
-狐子于 2025-02-28 发行的单曲《NEVERMIND NEVERLAND》。
+[狐子](/zh/artists/isotopes/coko)于 2025-02-28 发行的单曲《NEVERMIND NEVERLAND》。
 
 ## 试听
 {{media-switcher::NEVERMIND NEVERLAND}}

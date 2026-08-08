@@ -16,7 +16,7 @@ image: /images/songs/mimi/夜to幸se-feat.-詩no出素.jpg
 
 ## Overview
 
-“夜と幸せ (feat. 詩の出素。)” is a single by MIMI, released on 2025-04-09.
+“夜と幸せ (feat. 詩の出素。)” is a single by [MIMI](/en/artists/creators/mimi), released on 2025-04-09.
 
 ## Listen
 {{media-switcher::夜と幸せ (feat. 詩の出素。)}}

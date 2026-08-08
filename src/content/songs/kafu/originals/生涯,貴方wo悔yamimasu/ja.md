@@ -16,7 +16,7 @@ image: /images/songs/kafu/生涯,貴方wo悔yamimasu.jpg
 
 ## 作品概要
 
-可不が2023-03-17にリリースしたシングル「生涯、貴方を悔やみます。」。
+[可不](/ja/artists/isotopes/kafu)が2023-03-17にリリースしたシングル「生涯、貴方を悔やみます。」。
 
 ## 視聴
 {{media-switcher::生涯、貴方を悔やみます。}}

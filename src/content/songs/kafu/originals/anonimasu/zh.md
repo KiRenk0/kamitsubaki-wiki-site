@@ -17,7 +17,7 @@ image: /images/songs/kafu/anonimasu.jpg
 
 ## 作品简介
 
-可不于 2023-05-03 发行的单曲《アノニマス》。
+[可不](/zh/artists/isotopes/kafu)于 2023-05-03 发行的单曲《アノニマス》。
 
 ## 试听
 {{media-switcher::アノニマス}}

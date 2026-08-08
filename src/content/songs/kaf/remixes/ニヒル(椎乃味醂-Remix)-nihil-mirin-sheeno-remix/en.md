@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 
 ## Overview
 
-“ニヒル(椎乃味醂 Remix)” is track 6 of KAF’s 狂想γ.
+“ニヒル(椎乃味醂 Remix)” is track 6 of [KAF](/en/artists/vwp/kaf)’s [狂想γ](/en/albums/kaf/kyoso-gamma).
 
 ## Listen
 

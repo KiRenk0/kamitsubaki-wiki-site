@@ -17,7 +17,7 @@ image: /images/songs/rime/unnamed.jpg
 
 ## Overview
 
-“unnamed” is a single by 裏命, released on 2025-10-13.
+“unnamed” is a single by [裏命](/en/artists/isotopes/rime), released on 2025-10-13.
 
 ## Listen
 {{media-switcher::unnamed}}

@@ -17,7 +17,7 @@ image: /images/songs/haru/rajiohiiroo.jpg
 
 ## Overview
 
-“ラジオヒーロー” is a single by 羽累, released on 2024-11-26.
+“ラジオヒーロー” is a single by [羽累](/en/artists/isotopes/haru), released on 2024-11-26.
 
 ## Listen
 {{media-switcher::ラジオヒーロー}}

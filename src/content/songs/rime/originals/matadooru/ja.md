@@ -17,7 +17,7 @@ image: /images/songs/rime/matadooru.jpg
 
 ## 作品概要
 
-裏命が2023-05-27にリリースしたシングル「マタドール」。
+[裏命](/ja/artists/isotopes/rime)が2023-05-27にリリースしたシングル「マタドール」。
 
 ## 視聴
 {{media-switcher::マタドール}}

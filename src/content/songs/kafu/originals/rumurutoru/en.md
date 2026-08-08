@@ -17,7 +17,7 @@ image: /images/songs/kafu/rumurutoru.jpg
 
 ## Overview
 
-“ルムルトル” is a single by 可不, released on 2023-04-29.
+“ルムルトル” is a single by [可不](/en/artists/isotopes/kafu), released on 2023-04-29.
 
 ## Listen
 {{media-switcher::ルムルトル}}

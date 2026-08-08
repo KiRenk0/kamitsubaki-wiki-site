@@ -19,7 +19,7 @@ image: /images/albums/kaf/gsa.jpg
 
 ## Overview
 
-“スイマー” is track 2 of KAF’s GSA.
+“スイマー” is track 2 of [KAF](/en/artists/vwp/kaf)’s GSA.
 
 ## Listen
 

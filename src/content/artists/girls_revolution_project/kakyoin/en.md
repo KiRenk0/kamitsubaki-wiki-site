@@ -58,14 +58,14 @@ seo:
 
 ## Introduction
 
-Kakyoin is a cross-dimensional streamer (Xtuber) who began her activities on August 8, 2024. She is a member of the "Girls' Revolution Project" under KAMITSUBAKI STUDIO, and belongs to the unit "SINSEIKI".
+Kakyoin is a cross-dimensional streamer (Xtuber) who began her activities on August 8, 2024. She is a member of the "Girls' Revolution Project" under [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio), and belongs to the unit "[SINSEIKI](/en/artists/girls_revolution_project/sinseiki)".
 
 ## Activity Briefs
 
 - **August 8, 2024**: Officially announced her debut at KAMITSUBAKI FES '24, commencing her activities in the project.
 - **October 23, 2024**: Released her first solo single, "Yume no Yurikago" (夢の揺籠).
 - **December 17, 2024**: Held her debut stream on YouTube.
-- **July 11, 2025**: Performed in "KAMITSUBAKI WARS 2025: KAMITSUBAKI Kawasaki Sensen - Girls' Revolution Project 1st LIVE / Act I 'Kaihen' (改変)".
+- **July 11, 2025**: Performed in "KAMITSUBAKI WARS 2025: KAMITSUBAKI [Kawasaki](/en/artists/creators/kawasaki) Sensen - Girls' Revolution Project 1st LIVE / Act I 'Kaihen' (改変)".
 - **February 8, 2026**: Performed in SINSEIKI's exclusive online live "Petalstride -Kodou- (鼓動)", and appeared on the stage of "Sanrio Virtual Festival 2026" with her unit from February to March.
 - **May 2026**: Performed in "KAMITSUBAKI FES '26 FIELD OF RESONANCE".
 
@@ -78,7 +78,7 @@ Kakyoin is a cross-dimensional streamer (Xtuber) who began her activities on Aug
 |    Upload Date    |        Song Title        |  Lyrics   | Composition |                                                                                                                                                                 Preview                                                                                                                                                                  |
 | :---------------: | :----------------------: | :-------: | :---------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | October 23, 2024  | 夢の揺籠 (Cradle of Dreams)  | Wiz_nicc  |  Wiz_nicc   | @[youtube](https://www.youtube.com/embed/pP667C1y1zA?si=2kXeZA-ru7ZleSXF) |
-| December 11, 2024 |   宇宙逃避行 (Space Escape)   |   MIMI    |    MIMI     | @[youtube](https://www.youtube.com/embed/QBObLindkQk?si=BcJCEw1zPln9zAtA) |
+| December 11, 2024 |   [宇宙逃避行](/en/songs/kakyoin/originals/uchu-touhikou) (Space Escape)   |   [MIMI](/en/artists/creators/mimi)    |    MIMI     | @[youtube](https://www.youtube.com/embed/QBObLindkQk?si=BcJCEw1zPln9zAtA) |
 |  March 19, 2025   | キリガサガリキ (Kirigasagariki) | Purukichi |  Purukichi  | @[youtube](https://www.youtube.com/embed/O-19NUEyBiU?si=vDQhbNk2Q_tkJwmF) |
 | November 12, 2025 | 月へゆく (Going to the Moon) |   tama    |    tama     | @[youtube](https://www.youtube.com/embed/4Oeflvc57GM?si=Qlkr2WnrvPtmvN8f) |
 
@@ -98,7 +98,7 @@ Kakyoin is a cross-dimensional streamer (Xtuber) who began her activities on Aug
 | August 9, 2024  | フェイクナイト・シンデレラ (Fake Night Cinderella) | Tatsuya Yano | Tatsuya Yano  |                                                                               @[youtube](https://www.youtube.com/embed/b3btbgVGuqA?si=h_tMVMMwGh61fJLA)                                                                                |
 | September 18, 2024  |         パーフェクション (Perfection)         | Atsu Mizuno  | HIDEYA KOJIMA |                                                                               @[youtube](https://www.youtube.com/embed/qYkxlMfM8L8?si=SSY9PBJ2uOSX4c6r)                                                                                |
 | January 22, 2025  |               Ephemeral               |  100kaiouto  |  100kaiouto   |                                                                               @[youtube](https://www.youtube.com/embed/8JRuowZtRBc?si=YZNAPErdlRnMC3Oo)                                                                                |
-| February 26, 2025  |            ココロト (Kokoroto)            |     Toa      |      Toa      |                                                                               @[youtube](https://www.youtube.com/embed/fNrKWnVc7bI?si=xX4i9sq7F2fXtELp)                                                                                |
+| February 26, 2025  |            ココロト (Kokoroto)            |     [Toa](/en/artists/creators/toa)      |      Toa      |                                                                               @[youtube](https://www.youtube.com/embed/fNrKWnVc7bI?si=xX4i9sq7F2fXtELp)                                                                                |
 | April 2, 2025  |          うそ鳴き (Fake Crying)           |     Pon      | HIDEYA KOJIMA |                                                                               @[youtube](https://www.youtube.com/embed/MhblPJMvc4c?si=tV6ky_J36DxNOmQs)                                                                                |
 | May 21, 2025  |  いずれ僕は溶けて (Eventually, I Will Melt)   |  Purukichi   |   Purukichi   |     @[apple-music](https://embed.music.apple.com/cn/song/%E3%81%84%E3%81%9A%E3%82%8C%E5%83%95%E3%81%AF%E6%BA%B6%E3%81%91%E3%81%A6-feat-purukichi/1842289624)      |
 | May 21, 2025  |  ミリオン・コンプレクシティ (Million Complexity)   | Tatsuya Yano | Tatsuya Yano  |                                                                               @[youtube](https://www.youtube.com/embed/POfCdtX4caM?si=jXOKBQgoUxpTeVlQ)                                                                                |

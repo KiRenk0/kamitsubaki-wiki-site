@@ -17,7 +17,7 @@ image: /images/songs/mimi/pyon-feat.-初音miku-&-重音teto.jpg
 
 ## Overview
 
-“ぴょん (feat. 初音ミク & 重音テト)” is a single by MIMI, released on 2026-04-26.
+“ぴょん (feat. 初音ミク & 重音テト)” is a single by [MIMI](/en/artists/creators/mimi), released on 2026-04-26.
 
 ## Listen
 {{media-switcher::ぴょん (feat. 初音ミク & 重音テト)}}

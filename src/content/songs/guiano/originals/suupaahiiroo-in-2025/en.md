@@ -17,7 +17,7 @@ image: /images/songs/guiano/suupaahiiroo-in-2025.jpg
 
 ## Overview
 
-“スーパーヒーロー (in 2025)” is a single by Guiano, released on 2025-04-29.
+“スーパーヒーロー (in 2025)” is a single by [Guiano](/en/artists/creators/guiano), released on 2025-04-29.
 
 ## Listen
 {{media-switcher::スーパーヒーロー (in 2025)}}

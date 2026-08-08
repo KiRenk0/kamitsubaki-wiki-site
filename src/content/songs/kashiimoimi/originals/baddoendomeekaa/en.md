@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/baddoendomeekaa.jpg
 
 ## Overview
 
-“バッドエンドメーカー” is a single by 香椎モイミ, released on 2023-09-19.
+“バッドエンドメーカー” is a single by [香椎モイミ](/en/artists/creators/kashiimoimi), released on 2023-09-19.
 
 ## Listen
 {{media-switcher::バッドエンドメーカー}}

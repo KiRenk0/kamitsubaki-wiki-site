@@ -17,7 +17,7 @@ image: /images/songs/hitogoto/aianmeedee-feat.-nene.jpg
 
 ## 作品简介
 
-他人事于 2023-11-24 发行的单曲《アイアンメーデー (feat. ねね)》。
+[他人事](/zh/artists/creators/hitogoto)于 2023-11-24 发行的单曲《アイアンメーデー (feat. ねね)》。
 
 ## 试听
 {{media-switcher::アイアンメーデー (feat. ねね)}}

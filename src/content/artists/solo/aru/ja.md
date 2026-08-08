@@ -16,7 +16,7 @@ categorySubtitle: "SOLO ARTISTS & UNITS"
 
 ## 概要
 
-存流（ARU / ある）は KAMITSUBAKI STUDIO、SINSEKAI STUDIO 系譜のバーチャルシンガーで、明透（ASU）とAlbemuthを結成していた。2021年6月20日に活動を開始し、2024年4月9日に卒業した。
+存流（ARU / ある）は [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio)、SINSEKAI STUDIO 系譜のバーチャルシンガーで、[明透](/ja/artists/solo/asu)（ASU）と[Albemuth](/ja/artists/solo/albemuth)を結成していた。2021年6月20日に活動を開始し、2024年4月9日に卒業した。
 
 囁き、息遣い、抑制された感情の進行を感じさせる声と、米山舞による白いゴシック・エレガントなビジュアルが特徴である。明透の明るく衝動的な歌唱と対照をなすことで、Albemuthの二重構造を形づくった。
 
@@ -35,7 +35,7 @@ categorySubtitle: "SOLO ARTISTS & UNITS"
 
 ## 代表作品
 
-「さよなら」「まほう」「残響」「かいぶつ」「ギフテッド」が代表作にあたる。Albemuth期には「Guilty」「新世界へ」「tether」「Black Cloth」に参加し、メンバーサイド・アルバム『eve』ではユニットの存流側の視点を担った。
+「さよなら」「まほう」「残響」「かいぶつ」「ギフテッド」が代表作にあたる。[Albemuth](/ja/artists/solo/albemuth)期には「[Guilty](/ja/songs/albemuth/originals/guilty)」「[新世界へ](/ja/songs/asu/originals/新世界he)」「tether」「Black Cloth」に参加し、メンバーサイド・アルバム『eve』ではユニットの存流側の視点を担った。
 
 ## 歩み
 

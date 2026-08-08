@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 
 ## Overview
 
-ずるいね feat.理芽 appears on CREAM PUFF LIVE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+ずるいね feat.[理芽](/en/artists/vwp/rim) appears on [CREAM PUFF LIVE](/en/albums/harusaruhi/cream-puff-live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Lyrics
 

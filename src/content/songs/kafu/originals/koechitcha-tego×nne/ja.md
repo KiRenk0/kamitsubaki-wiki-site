@@ -17,7 +17,7 @@ image: /images/songs/kafu/koechitcha-tego×nne.jpg
 
 ## 作品概要
 
-可不が2024-10-15にリリースしたシングル「コぇちっちゃ<てゴ×ンネ」。
+[可不](/ja/artists/isotopes/kafu)が2024-10-15にリリースしたシングル「コぇちっちゃ<てゴ×ンネ」。
 
 ## 視聴
 @[apple-music](https://music.apple.com/jp/album/%E3%82%B3%E3%81%87%E3%81%A1%E3%81%A3%E3%81%A1%E3%82%83-%E3%81%A6%E3%82%B4-%E3%83%B3%E3%83%8D/1771810614?i=1771810615&uo=4 "コぇちっちゃ<てゴ×ンネ")

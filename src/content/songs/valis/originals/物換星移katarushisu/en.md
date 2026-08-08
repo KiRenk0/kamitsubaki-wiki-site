@@ -17,7 +17,7 @@ image: /images/songs/valis/物換星移katarushisu.jpg
 
 ## Overview
 
-“物換星移カタルシス” is a single by VALIS, released on 2023-04-17.
+“物換星移カタルシス” is a single by [VALIS](/en/artists/solo/valis), released on 2023-04-17.
 
 ## Listen
 {{media-switcher::物換星移カタルシス}}

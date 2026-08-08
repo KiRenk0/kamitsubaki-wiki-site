@@ -24,7 +24,7 @@ image: /images/albums/vwp/witch-plus.jpg
 
 ## 作品概要
 
-「千年奏者 (feat. 花譜 & Albemuth)」は『魔女ぷらす』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「千年奏者 (feat. [花譜](/ja/artists/vwp/kaf) & [Albemuth](/ja/artists/solo/albemuth))」は『[魔女ぷらす](/ja/albums/vwp/witch-plus)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 試聴
 

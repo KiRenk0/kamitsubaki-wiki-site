@@ -17,7 +17,7 @@ image: /images/songs/rime/君to息woshiteitakatta.jpg
 
 ## 作品简介
 
-裏命于 2025-10-10 发行的单曲《君と息をしていたかった》。
+[裏命](/zh/artists/isotopes/rime)于 2025-10-10 发行的单曲《君と息をしていたかった》。
 
 ## 试听
 {{media-switcher::君と息をしていたかった}}

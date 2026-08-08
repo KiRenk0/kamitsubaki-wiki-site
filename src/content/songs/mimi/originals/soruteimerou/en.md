@@ -17,7 +17,7 @@ image: /images/songs/mimi/soruteimerou.jpg
 
 ## Overview
 
-“ソルティメロウ” is a single by MIMI, released on 2025-02-22.
+“ソルティメロウ” is a single by [MIMI](/en/artists/creators/mimi), released on 2025-02-22.
 
 ## Listen
 {{media-switcher::ソルティメロウ}}

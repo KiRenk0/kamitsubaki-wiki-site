@@ -17,7 +17,7 @@ image: /images/songs/mimi/soredemo優shikatta君he-feat.-沖石.jpg
 
 ## Overview
 
-“それでも優しかった君へ (feat. 沖石)” is a single by MIMI, released on 2026-02-03.
+“それでも優しかった君へ (feat. 沖石)” is a single by [MIMI](/en/artists/creators/mimi), released on 2026-02-03.
 
 ## Listen
 {{media-switcher::それでも優しかった君へ (feat. 沖石)}}

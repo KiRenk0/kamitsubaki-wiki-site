@@ -17,7 +17,7 @@ image: /images/songs/mimi/anone-feat.-可不.jpg
 
 ## 作品简介
 
-MIMI于 2022-08-27 发行的单曲《あのね (feat. 可不)》。
+MIMI于 2022-08-27 发行的单曲《あのね (feat. [可不](/zh/artists/isotopes/kafu))》。
 
 ## 试听
 {{media-switcher::あのね (feat. 可不)}}

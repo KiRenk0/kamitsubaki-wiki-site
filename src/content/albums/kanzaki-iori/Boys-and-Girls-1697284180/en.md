@@ -46,7 +46,7 @@ tracks:
 
 ## Overview
 
-カンザキイオリ's ep “Boys and Girls”, released on 2023-07-21, featuring 6 tracks.
+[カンザキイオリ](/en/artists/creators/kanzaki-iori)'s ep “Boys and Girls”, released on 2023-07-21, featuring 6 tracks.
 
 ## Track List
 

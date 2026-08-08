@@ -16,7 +16,7 @@ image: /images/songs/grp/raven.jpg
 
 ## Overview
 
-“RAVEN” is a 罪十罰 release dated 2025-10-29.
+“RAVEN” is a [罪十罰](/en/artists/girls_revolution_project/tsumitobatsu) release dated 2025-10-29.
 
 ## Listen
 

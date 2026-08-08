@@ -16,7 +16,7 @@ image: /images/songs/grp/glass-no-puzzle.jpg
 
 ## Overview
 
-“ガラスのパズル” is a 硝子宮 release dated 2025-02-05.
+“ガラスのパズル” is a [硝子宮](/en/artists/girls_revolution_project/garasumiya) release dated 2025-02-05.
 
 ## Listen
 

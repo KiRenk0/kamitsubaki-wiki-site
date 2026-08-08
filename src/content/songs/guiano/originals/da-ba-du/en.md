@@ -17,7 +17,7 @@ image: /images/songs/guiano/da-ba-du.jpg
 
 ## Overview
 
-“Da Ba Du” is a single by Guiano, released on 2024-05-21.
+“Da Ba Du” is a single by [Guiano](/en/artists/creators/guiano), released on 2024-05-21.
 
 ## Listen
 {{media-switcher::Da Ba Du}}

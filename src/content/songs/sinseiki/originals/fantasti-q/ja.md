@@ -16,7 +16,7 @@ image: /images/songs/grp/fantasti-q.jpg
 
 ## 作品概要
 
-「FantastiQ」は心世紀が2025-10-29にリリースした楽曲です。
+「FantastiQ」は[心世紀](/ja/artists/girls_revolution_project/sinseiki)が2025-10-29にリリースした楽曲です。
 
 ## 視聴
 

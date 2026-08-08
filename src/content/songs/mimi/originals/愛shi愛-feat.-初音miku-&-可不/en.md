@@ -17,7 +17,7 @@ image: /images/songs/mimi/愛shi愛-feat.-初音miku-&-可不.jpg
 
 ## Overview
 
-“愛し愛 (feat. 初音ミク & 可不)” is a single by MIMI, released on 2024-01-15.
+“愛し愛 (feat. 初音ミク & [可不](/en/artists/isotopes/kafu))” is a single by [MIMI](/en/artists/creators/mimi), released on 2024-01-15.
 
 ## Listen
 {{media-switcher::愛し愛 (feat. 初音ミク & 可不)}}

@@ -16,7 +16,7 @@ image: /images/songs/sekai/film.jpg
 
 ## 作品简介
 
-星界于 2023-05-14 发行的单曲《film.》。
+[星界](/zh/artists/isotopes/sekai)于 2023-05-14 发行的单曲《film.》。
 
 ## 试听
 {{media-switcher::film.}}

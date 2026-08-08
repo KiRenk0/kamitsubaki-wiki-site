@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/makeup.jpg
 
 ## 作品概要
 
-香椎モイミが2023-04-04にリリースしたシングル「Makeup」。
+[香椎モイミ](/ja/artists/creators/kashiimoimi)が2023-04-04にリリースしたシングル「Makeup」。
 
 ## 視聴
 {{media-switcher::Makeup}}

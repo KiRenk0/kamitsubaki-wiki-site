@@ -24,7 +24,7 @@ image: /images/albums/vwp/city-ii-virtual-reality.jpg
 
 ## 作品概要
 
-「真偽 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)」は『都市II from 神椿市建設中。VIRTUAL REALITY』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「真偽 (feat. [花譜](/ja/artists/vwp/kaf), [理芽](/ja/artists/vwp/rim), [春猿火](/ja/artists/vwp/harusaruhi), [ヰ世界情緒](/ja/artists/vwp/isekaijoucho) & [幸祜](/ja/artists/vwp/koko))」は『[都市II from 神椿市建設中。VIRTUAL REALITY](/ja/albums/vwp/city-ii-virtual-reality)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 試聴
 

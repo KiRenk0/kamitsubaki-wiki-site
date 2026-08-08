@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 ## 作品概要
 
-「今夜はブギー・バック feat. 春猿火 (I SCREAM LIVE2 ver.)」は花譜の『I SCREAM LIVE2』に収録された24曲目です。
+「今夜はブギー・バック feat. [春猿火](/ja/artists/vwp/harusaruhi) (I SCREAM LIVE2 ver.)」は[花譜](/ja/artists/vwp/kaf)の『[I SCREAM LIVE2](/ja/albums/kaf/i-scream-live-2)』に収録された24曲目です。
 
 ## 視聴
 

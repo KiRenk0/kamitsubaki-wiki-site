@@ -17,7 +17,7 @@ image: /images/songs/kafu/terepashi-feat.-重音teto-cover.jpg
 
 ## 作品概要
 
-可不が2025-04-18にリリースしたシングル「テレパシ (feat. 重音テト) [Cover]」。
+[可不](/ja/artists/isotopes/kafu)が2025-04-18にリリースしたシングル「テレパシ (feat. 重音テト) [Cover]」。
 
 ## 視聴
 {{media-switcher::テレパシ (feat. 重音テト) [Cover]}}

@@ -17,7 +17,7 @@ image: /images/songs/rime/doubt.jpg
 
 ## 作品概要
 
-裏命が2015-05-14にリリースしたシングル「Doubt」。
+[裏命](/ja/artists/isotopes/rime)が2015-05-14にリリースしたシングル「Doubt」。
 
 ## 視聴
 @[apple-music](https://music.apple.com/jp/album/doubt/1747211220?i=1747211221&uo=4 "Doubt")

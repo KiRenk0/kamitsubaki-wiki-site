@@ -17,7 +17,7 @@ image: /images/songs/sekai/棺ha明澄no底de眠ru.jpg
 
 ## Overview
 
-“棺は明澄の底で眠る” is a single by 星界, released on 2026-03-27.
+“棺は明澄の底で眠る” is a single by [星界](/en/artists/isotopes/sekai), released on 2026-03-27.
 
 ## Listen
 {{media-switcher::棺は明澄の底で眠る}}

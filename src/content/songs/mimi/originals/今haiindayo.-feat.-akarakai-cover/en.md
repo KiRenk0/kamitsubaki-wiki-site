@@ -17,7 +17,7 @@ image: /images/songs/mimi/今haiindayo.-feat.-akarakai-cover.jpg
 
 ## Overview
 
-“今はいいんだよ。 (feat. アカラカイ) [Cover]” is a single by MIMI, released on 2024-05-21.
+“今はいいんだよ。 (feat. アカラカイ) [Cover]” is a single by [MIMI](/en/artists/creators/mimi), released on 2024-05-21.
 
 ## Listen
 {{media-switcher::今はいいんだよ。 (feat. アカラカイ) [Cover]}}

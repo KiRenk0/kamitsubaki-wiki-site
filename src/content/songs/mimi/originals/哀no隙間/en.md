@@ -17,7 +17,7 @@ image: /images/songs/mimi/哀no隙間.jpg
 
 ## Overview
 
-“哀の隙間” is a single by MIMI, released on 2019-11-02.
+“哀の隙間” is a single by [MIMI](/en/artists/creators/mimi), released on 2019-11-02.
 
 ## Listen
 {{media-switcher::哀の隙間}}

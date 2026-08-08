@@ -17,7 +17,7 @@ image: /images/songs/hiratayoshihisa/tookyoo-kooringu.jpg
 
 ## Overview
 
-“トーキョー・コーリング” is a single by 平田義久, released on 2024-02-06.
+“トーキョー・コーリング” is a single by [平田義久](/en/artists/creators/hiratayoshihisa), released on 2024-02-06.
 
 ## Listen
 {{media-switcher::トーキョー・コーリング}}

@@ -17,7 +17,7 @@ image: /images/songs/dustcell/scapegoat.jpg
 
 ## Overview
 
-“SCAPEGOAT” is a single by DUSTCELL, released on 2025-02-25.
+“SCAPEGOAT” is a single by [DUSTCELL](/en/artists/solo/dustcell), released on 2025-02-25.
 
 ## Listen
 {{media-switcher::SCAPEGOAT}}

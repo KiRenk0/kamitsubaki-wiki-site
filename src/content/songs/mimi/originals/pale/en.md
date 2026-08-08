@@ -17,7 +17,7 @@ image: /images/songs/mimi/pale.jpg
 
 ## Overview
 
-“Pale” is a single by MIMI, released on 2021-03-19.
+“Pale” is a single by [MIMI](/en/artists/creators/mimi), released on 2021-03-19.
 
 ## Listen
 {{media-switcher::Pale}}

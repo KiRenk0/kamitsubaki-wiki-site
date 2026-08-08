@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 
 ## 作品概要
 
-「世惑い子(ササノマリイ Remix)」は花譜の『狂想γ』に収録された5曲目です。
+「世惑い子(ササノマリイ Remix)」は[花譜](/ja/artists/vwp/kaf)の『[狂想γ](/ja/albums/kaf/kyoso-gamma)』に収録された5曲目です。
 
 ## 視聴
 

@@ -17,7 +17,7 @@ image: /images/songs/dustcell/void.jpg
 
 ## Overview
 
-“Void” is a single by DUSTCELL, released on 2022-07-19.
+“Void” is a single by [DUSTCELL](/en/artists/solo/dustcell), released on 2022-07-19.
 
 ## Listen
 {{media-switcher::Void}}

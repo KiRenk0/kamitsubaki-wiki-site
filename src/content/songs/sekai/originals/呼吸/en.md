@@ -17,7 +17,7 @@ image: /images/songs/sekai/呼吸.jpg
 
 ## Overview
 
-“呼吸” is a single by 星界, released on 2025-04-06.
+“呼吸” is a single by [星界](/en/artists/isotopes/sekai), released on 2025-04-06.
 
 ## Listen
 {{media-switcher::呼吸}}

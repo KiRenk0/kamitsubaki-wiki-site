@@ -57,7 +57,7 @@ His creative reach extends well beyond the Vocaloid community. Yunosuke has prov
 
 Yunosuke's production style is characterized by polished, forward-looking electronic soundscapes fused with pop sensibilities. His ability to craft high-energy, sonically rich tracks while maintaining melodic accessibility has made him a sought-after collaborator in both the virtual and real-artist spaces.
 
-He is also a co-member of the unit Awairo alongside WaMi, further diversifying his collaborative output within the Kamitsubaki creative ecosystem. His illustrations are credited to Yonebaru (米室).
+He is also a co-member of the unit [Awairo](/en/artists/solo/awairo) alongside WaMi, further diversifying his collaborative output within the Kamitsubaki creative ecosystem. His illustrations are credited to Yonebaru (米室).
 
 ## Representative Works
 
@@ -67,7 +67,7 @@ He is also a co-member of the unit Awairo alongside WaMi, further diversifying h
 
 ## Upload and Production History
 
-Yunosuke has worked in online music since October 2014; his first original VOCALOID song, “Loop Memory”, was posted on October 17, 2014. His production centres on EDM and house vocabulary while also extending into instrumental music, game tracks, and commercial work. “Take Me!!”, “Pathos”, and “PaIII.SENSATION” are key early works.
+Yunosuke has worked in online music since October 2014; his first original VOCALOID song, “Loop Memory”, was posted on October 17, 2014. His production centres on EDM and house vocabulary while also extending into instrumental music, game tracks, and commercial work. “Take Me!!”, “[Pathos](/en/albums/yunosuke/Pathos-1103188278)”, and “PaIII.SENSATION” are key early works.
 
 He posted “Take Me!! (2016 Remix)” on Bilibili on March 7, 2016, making him one of the earlier Japanese VOCALOID producers to establish a presence on the Chinese video platform. He has also written for SOUND VOLTEX and Arcaea, and formed the duo Awairo with WaMi; the duo was announced on October 18, 2023 and released “Pale&Deep” on October 20.
 

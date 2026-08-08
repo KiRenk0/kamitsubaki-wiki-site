@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/sooma.jpg
 
 ## Overview
 
-“ソーマ” is a single by tokiwa, released on 2024-10-29.
+“ソーマ” is a single by [tokiwa](/en/artists/creators/tokiwa), released on 2024-10-29.
 
 ## Listen
 {{media-switcher::ソーマ}}

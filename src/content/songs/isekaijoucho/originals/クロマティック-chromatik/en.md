@@ -19,7 +19,7 @@ image: /images/songs/isekaijoucho/single-1856150336.jpg
 
 ## Overview
 
-クロマティック (feat. ヰ世界情緒) appears on クロマティック or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+クロマティック (feat. [ヰ世界情緒](/en/artists/vwp/isekaijoucho)) appears on クロマティック or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

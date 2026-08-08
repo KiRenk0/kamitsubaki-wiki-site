@@ -17,7 +17,7 @@ image: /images/songs/sekai/仏翼.jpg
 
 ## 作品概要
 
-星界が2023-12-24にリリースしたシングル「仏翼」。
+[星界](/ja/artists/isotopes/sekai)が2023-12-24にリリースしたシングル「仏翼」。
 
 ## 視聴
 {{media-switcher::仏翼}}

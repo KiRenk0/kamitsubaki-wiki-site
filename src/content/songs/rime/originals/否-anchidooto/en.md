@@ -17,7 +17,7 @@ image: /images/songs/rime/否-anchidooto.jpg
 
 ## Overview
 
-“否・アンチドート” is a single by 裏命, released on 2024-10-29.
+“否・アンチドート” is a single by [裏命](/en/artists/isotopes/rime), released on 2024-10-29.
 
 ## Listen
 {{media-switcher::否・アンチドート}}

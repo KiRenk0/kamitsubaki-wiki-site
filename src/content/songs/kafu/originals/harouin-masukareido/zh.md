@@ -17,7 +17,7 @@ image: /images/songs/kafu/harouin-masukareido.jpg
 
 ## 作品简介
 
-可不于 2022-11-09 发行的单曲《ハロウィン・マスカレイド》。
+[可不](/zh/artists/isotopes/kafu)于 2022-11-09 发行的单曲《ハロウィン・マスカレイド》。
 
 ## 试听
 {{media-switcher::ハロウィン・マスカレイド}}

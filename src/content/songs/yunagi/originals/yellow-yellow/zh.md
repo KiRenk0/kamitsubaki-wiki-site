@@ -16,7 +16,7 @@ image: /images/songs/grp/yellow-yellow.jpg
 
 ## 作品简介
 
-《Yellow Yellow》是夕凪機于 2025-04-30 正式发行的作品。
+《Yellow Yellow》是[夕凪機](/zh/artists/girls_revolution_project/yunagi)于 2025-04-30 正式发行的作品。
 
 ## 试听
 

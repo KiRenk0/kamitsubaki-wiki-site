@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 ## Overview
 
-“まほう (feat. 理芽) (I SCREAM LIVE ver.)” is track 14 on disc 3 of KAF’s I SCREAM LIVE.
+“まほう (feat. [理芽](/en/artists/vwp/rim)) (I SCREAM LIVE ver.)” is track 14 on disc 3 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE](/en/albums/kaf/i-scream-live).
 
 ## Listen
 

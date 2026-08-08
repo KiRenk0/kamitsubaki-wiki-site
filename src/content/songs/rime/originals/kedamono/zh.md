@@ -17,7 +17,7 @@ image: /images/songs/rime/kedamono.jpg
 
 ## 作品简介
 
-裏命于 2023-06-02 发行的单曲《けだもの》。
+[裏命](/zh/artists/isotopes/rime)于 2023-06-02 发行的单曲《けだもの》。
 
 ## 试听
 {{media-switcher::けだもの}}

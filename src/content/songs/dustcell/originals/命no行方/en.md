@@ -17,7 +17,7 @@ image: /images/songs/dustcell/命no行方.jpg
 
 ## Overview
 
-“命の行方” is a single by DUSTCELL, released on 2021-04-09.
+“命の行方” is a single by [DUSTCELL](/en/artists/solo/dustcell), released on 2021-04-09.
 
 ## Listen
 {{media-switcher::命の行方}}

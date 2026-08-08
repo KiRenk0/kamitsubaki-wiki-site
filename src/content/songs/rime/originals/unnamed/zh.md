@@ -17,7 +17,7 @@ image: /images/songs/rime/unnamed.jpg
 
 ## 作品简介
 
-裏命于 2025-10-13 发行的单曲《unnamed》。
+[裏命](/zh/artists/isotopes/rime)于 2025-10-13 发行的单曲《unnamed》。
 
 ## 试听
 {{media-switcher::unnamed}}

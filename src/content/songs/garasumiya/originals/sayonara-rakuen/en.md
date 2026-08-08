@@ -16,7 +16,7 @@ image: /images/songs/grp/sayonara-rakuen.jpg
 
 ## Overview
 
-“さよなら、楽園” is a 硝子宮 release dated 2026-03-06.
+“さよなら、楽園” is a [硝子宮](/en/artists/girls_revolution_project/garasumiya) release dated 2026-03-06.
 
 ## Listen
 

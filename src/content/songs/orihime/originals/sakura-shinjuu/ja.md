@@ -16,7 +16,7 @@ image: /images/songs/grp/sakura-shinjuu.jpg
 
 ## 作品概要
 
-「桜心中」は御莉姫が2026-04-08にリリースした楽曲です。
+「桜心中」は[御莉姫](/ja/artists/girls_revolution_project/orihime)が2026-04-08にリリースした楽曲です。
 
 ## 視聴
 

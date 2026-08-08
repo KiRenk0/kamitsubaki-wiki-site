@@ -17,7 +17,7 @@ image: /images/songs/ciel/馥郁no街.jpg
 
 ## Overview
 
-“馥郁の街” is a single by CIEL, released on 2022-03-29.
+“馥郁の街” is a single by [CIEL](/en/artists/solo/ciel), released on 2022-03-29.
 
 ## Listen
 {{media-switcher::馥郁の街}}

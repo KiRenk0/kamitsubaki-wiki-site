@@ -17,7 +17,7 @@ image: /images/songs/rime/溶kekirenai背景.jpg
 
 ## 作品概要
 
-裏命が2025-08-04にリリースしたシングル「溶けきれない背景」。
+[裏命](/ja/artists/isotopes/rime)が2025-08-04にリリースしたシングル「溶けきれない背景」。
 
 ## 視聴
 {{media-switcher::溶けきれない背景}}

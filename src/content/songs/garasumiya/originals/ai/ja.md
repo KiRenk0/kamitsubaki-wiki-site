@@ -16,7 +16,7 @@ image: /images/songs/grp/ai.jpg
 
 ## 作品概要
 
-「アイ」は硝子宮が2024-11-27にリリースした楽曲です。
+「アイ」は[硝子宮](/ja/artists/girls_revolution_project/garasumiya)が2024-11-27にリリースした楽曲です。
 
 ## 視聴
 

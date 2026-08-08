@@ -19,7 +19,7 @@ image: /images/albums/kaf/flower-and-heart.jpg
 
 ## Overview
 
-The very first original song of KAF.
+The very first original song of [KAF](/en/artists/vwp/kaf).
 
 ## Listen
 

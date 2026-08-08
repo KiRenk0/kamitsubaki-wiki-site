@@ -17,7 +17,7 @@ image: /images/songs/rime/yasashii嘘.jpg
 
 ## Overview
 
-“やさしい嘘” is a single by 裏命, released on 2024-01-31.
+“やさしい嘘” is a single by [裏命](/en/artists/isotopes/rime), released on 2024-01-31.
 
 ## Listen
 {{media-switcher::やさしい嘘}}

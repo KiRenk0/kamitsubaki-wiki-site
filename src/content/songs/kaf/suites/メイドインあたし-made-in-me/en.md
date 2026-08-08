@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1674703343.jpg
 
 ## Overview
 
-“メイドインあたし” is track 11 of KAF’s 組曲.
+“メイドインあたし” is track 11 of [KAF](/en/artists/vwp/kaf)’s [組曲](/en/albums/kaf/suite).
 
 ## Listen
 

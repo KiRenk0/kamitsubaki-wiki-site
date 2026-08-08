@@ -17,7 +17,7 @@ image: /images/songs/albemuth/感光.jpg
 
 ## Overview
 
-“感光” is a single by Albemuth, released on 2023-02-15.
+“感光” is a single by [Albemuth](/en/artists/solo/albemuth), released on 2023-02-15.
 
 ## Listen
 {{media-switcher::感光}}

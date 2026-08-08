@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/clover-feat.-星界.jpg
 
 ## Overview
 
-“Clover (feat. 星界)” is a single by tokiwa, released on 2024-08-09.
+“Clover (feat. [星界](/en/artists/isotopes/sekai))” is a single by [tokiwa](/en/artists/creators/tokiwa), released on 2024-08-09.
 
 ## Listen
 {{media-switcher::Clover (feat. 星界)}}

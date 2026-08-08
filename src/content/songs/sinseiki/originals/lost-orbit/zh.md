@@ -16,7 +16,7 @@ image: /images/songs/grp/lost-orbit.jpg
 
 ## 作品简介
 
-《ロストオービット》是心世紀于 2025-10-29 正式发行的作品。
+《ロストオービット》是[心世紀](/zh/artists/girls_revolution_project/sinseiki)于 2025-10-29 正式发行的作品。
 
 ## 试听
 

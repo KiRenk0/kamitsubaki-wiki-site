@@ -17,7 +17,7 @@ image: /images/songs/albemuth/black-glow.jpg
 
 ## Overview
 
-“Black Glow” is a single by Albemuth, released on 2023-06-21.
+“Black Glow” is a single by [Albemuth](/en/artists/solo/albemuth), released on 2023-06-21.
 
 ## Listen
 {{media-switcher::Black Glow}}

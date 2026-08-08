@@ -17,7 +17,7 @@ image: /images/songs/rime/cheers.jpg
 
 ## Overview
 
-“cheers” is a single by 裏命, released on 2025-07-18.
+“cheers” is a single by [裏命](/en/artists/isotopes/rime), released on 2025-07-18.
 
 ## Listen
 {{media-switcher::cheers}}

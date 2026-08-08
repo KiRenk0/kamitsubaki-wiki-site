@@ -24,7 +24,7 @@ image: /images/albums/vwp/witch-plus-2.jpg
 
 ## Overview
 
-機械の声 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜) appears on 魔女ぷらす2 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+機械の声 (feat. [花譜](/en/artists/vwp/kaf), [理芽](/en/artists/vwp/rim), [春猿火](/en/artists/vwp/harusaruhi), [ヰ世界情緒](/en/artists/vwp/isekaijoucho) & [幸祜](/en/artists/vwp/koko)) appears on [魔女ぷらす2](/en/albums/vwp/witch-plus-2) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

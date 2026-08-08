@@ -16,7 +16,7 @@ image: /images/songs/grp/selfish.jpg
 
 ## 作品概要
 
-「セルフィッシュ」は美古途が2024-11-13にリリースした楽曲です。
+「セルフィッシュ」は[美古途](/ja/artists/girls_revolution_project/mikoto)が2024-11-13にリリースした楽曲です。
 
 ## 視聴
 

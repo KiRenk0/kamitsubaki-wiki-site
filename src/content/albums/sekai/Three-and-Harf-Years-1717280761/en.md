@@ -78,7 +78,7 @@ tracks:
 
 ## Overview
 
-星界's album “Three and Harf Years”, released on 2023-11-19, featuring 14 tracks.
+[星界](/en/artists/isotopes/sekai)'s album “Three and Harf Years”, released on 2023-11-19, featuring 14 tracks.
 
 ## Track List
 

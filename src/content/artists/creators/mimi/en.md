@@ -50,7 +50,7 @@ seo:
 
 ## Overview
 
-MIMI is a composer under KAMITSUBAKI STUDIO known for bittersweet, piano-driven songs that resonate with listeners who find life difficult. His music carries a gentle, contemplative quality — melodies that acknowledge sadness without surrendering to it — and has earned support across a remarkably wide age range of listeners.
+MIMI is a composer under [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) known for bittersweet, piano-driven songs that resonate with listeners who find life difficult. His music carries a gentle, contemplative quality — melodies that acknowledge sadness without surrendering to it — and has earned support across a remarkably wide age range of listeners.
 
 Rooted in accessible piano arrangements and emotionally transparent songwriting, MIMI's work occupies a quiet but vital space within the Kamitsubaki creator roster. His compositions often pair delicate harmonic progressions with lyrics that offer comfort through honest acknowledgment of struggle, rather than through reassurance alone.
 

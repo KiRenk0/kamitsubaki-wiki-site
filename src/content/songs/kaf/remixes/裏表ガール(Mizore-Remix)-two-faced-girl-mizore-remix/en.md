@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 
 ## Overview
 
-“裏表ガール(Mizore Remix)” is track 11 of KAF’s 狂想γ.
+“裏表ガール(Mizore Remix)” is track 11 of [KAF](/en/artists/vwp/kaf)’s [狂想γ](/en/albums/kaf/kyoso-gamma).
 
 ## Listen
 

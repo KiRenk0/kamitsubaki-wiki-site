@@ -17,7 +17,7 @@ categorySubtitle: "SOLO ARTISTS & UNITS"
 
 ## 概述
 
-存流（ARU / ある）是 KAMITSUBAKI STUDIO、SINSEKAI STUDIO 体系中的虚拟歌手，曾与明透（ASU）组成双人组合 Albemuth。她于 2021年6月20日开始活动，并于 2024年4月9日毕业。
+存流（ARU / ある）是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio)、SINSEKAI STUDIO 体系中的虚拟歌手，曾与[明透](/zh/artists/solo/asu)（ASU）组成双人组合 [Albemuth](/zh/artists/solo/albemuth)。她于 2021年6月20日开始活动，并于 2024年4月9日毕业。
 
 存流的声音以低语感、气声和克制的情绪推进为主要特征。她的白色系视觉形象由米山舞设计，服装带有哥特优雅和异世界感；与明透明亮、跃动的歌唱形成对照，是 Albemuth 双轨构成的重要一半。
 
@@ -36,7 +36,7 @@ categorySubtitle: "SOLO ARTISTS & UNITS"
 
 ## 代表作品
 
-存流的代表作品包括《さよなら》《まほう》《残響》《かいぶつ》《ギフテッド》。她在 Albemuth 组合时期还参与了《Guilty》《新世界へ》《tether》《Black Cloth》等作品，并以成员侧专辑《eve》记录了组合创作中的个人视角。
+存流的代表作品包括《さよなら》《まほう》《残響》《かいぶつ》《ギフテッド》。她在 [Albemuth](/zh/artists/solo/albemuth) 组合时期还参与了《[Guilty](/zh/songs/albemuth/originals/guilty)》《[新世界へ](/zh/songs/asu/originals/新世界he)》《tether》《Black Cloth》等作品，并以成员侧专辑《eve》记录了组合创作中的个人视角。
 
 ## 活动历程
 

@@ -62,7 +62,7 @@ tracks:
 
 ## Overview
 
-星界's album “那由多のメタファー”, released on 2024-06-26, featuring 10 tracks.
+[星界](/en/artists/isotopes/sekai)'s album “那由多のメタファー”, released on 2024-06-26, featuring 10 tracks.
 
 ## Track List
 

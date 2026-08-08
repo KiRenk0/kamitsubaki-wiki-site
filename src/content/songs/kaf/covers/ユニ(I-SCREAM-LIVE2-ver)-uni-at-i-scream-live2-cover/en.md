@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 ## Overview
 
-“ユニ (I SCREAM LIVE2 ver.)” is track 12 of KAF’s I SCREAM LIVE2.
+“ユニ (I SCREAM LIVE2 ver.)” is track 12 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE2](/en/albums/kaf/i-scream-live-2).
 
 ## Listen
 

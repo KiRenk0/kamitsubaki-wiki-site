@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 ## 作品简介
 
-《畢生よ(柊マグネタイト Remix)》是花譜收录于《魔法γ》的第 6 轨。
+《畢生よ(柊マグネタイト Remix)》是[花譜](/zh/artists/vwp/kaf)收录于《[魔法γ](/zh/albums/kaf/maho-gamma)》的第 6 轨。
 
 ## 试听
 

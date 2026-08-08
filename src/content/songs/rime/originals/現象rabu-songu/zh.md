@@ -17,7 +17,7 @@ image: /images/songs/rime/現象rabu-songu.jpg
 
 ## 作品简介
 
-裏命于 2026-03-29 发行的单曲《現象ラブ・ソング》。
+[裏命](/zh/artists/isotopes/rime)于 2026-03-29 发行的单曲《現象ラブ・ソング》。
 
 ## 试听
 {{media-switcher::現象ラブ・ソング}}

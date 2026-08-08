@@ -17,7 +17,7 @@ image: /images/songs/hiratayoshihisa/ayakashiraidaa.jpg
 
 ## Overview
 
-“アヤカシライダー” is a single by 平田義久, released on 2022-01-07.
+“アヤカシライダー” is a single by [平田義久](/en/artists/creators/hiratayoshihisa), released on 2022-01-07.
 
 ## Listen
 {{media-switcher::アヤカシライダー}}

@@ -17,7 +17,7 @@ image: /images/songs/dustcell/mad-hatter.jpg
 
 ## Overview
 
-“Mad Hatter” is a single by DUSTCELL, released on 2021-10-19.
+“Mad Hatter” is a single by [DUSTCELL](/en/artists/solo/dustcell), released on 2021-10-19.
 
 ## Listen
 {{media-switcher::Mad Hatter}}

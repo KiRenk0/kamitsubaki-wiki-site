@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 ## Overview
 
-“今夜はブギー・バック feat. 春猿火 (I SCREAM LIVE2 ver.)” is track 24 of KAF’s I SCREAM LIVE2.
+“今夜はブギー・バック feat. [春猿火](/en/artists/vwp/harusaruhi) (I SCREAM LIVE2 ver.)” is track 24 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE2](/en/albums/kaf/i-scream-live-2).
 
 ## Listen
 

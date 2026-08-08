@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 
 ## 作品概要
 
-「人を気取る(Sakuzyo Remix)」は花譜の『狂想γ』に収録された2曲目です。
+「人を気取る(Sakuzyo Remix)」は[花譜](/ja/artists/vwp/kaf)の『[狂想γ](/ja/albums/kaf/kyoso-gamma)』に収録された2曲目です。
 
 ## 視聴
 

@@ -17,7 +17,7 @@ image: /images/songs/mimi/sorano議事録-feat.-初音miku.jpg
 
 ## Overview
 
-“ソラの議事録 (feat. 初音ミク)” is a single by MIMI, released on 2026-05-20.
+“ソラの議事録 (feat. 初音ミク)” is a single by [MIMI](/en/artists/creators/mimi), released on 2026-05-20.
 
 ## Listen
 {{media-switcher::ソラの議事録 (feat. 初音ミク)}}

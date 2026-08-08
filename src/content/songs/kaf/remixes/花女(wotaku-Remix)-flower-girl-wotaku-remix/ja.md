@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 ## 作品概要
 
-「花女(wotaku Remix)」は花譜の『魔法γ』に収録された7曲目です。
+「花女(wotaku Remix)」は[花譜](/ja/artists/vwp/kaf)の『[魔法γ](/ja/albums/kaf/maho-gamma)』に収録された7曲目です。
 
 ## 視聴
 

@@ -46,7 +46,7 @@ tracks:
 
 ## 概要
 
-カンザキイオリが2024-12-11にリリースしたライブアルバム『Acoustic Mini Live [Hibi, ]』。全6曲を収録。
+[カンザキイオリ](/ja/artists/creators/kanzaki-iori)が2024-12-11にリリースしたライブアルバム『Acoustic Mini Live [Hibi, ]』。全6曲を収録。
 
 ## 収録曲
 

@@ -17,7 +17,7 @@ image: /images/songs/rime/doubt.jpg
 
 ## Overview
 
-“Doubt” is a single by 裏命, released on 2015-05-14.
+“Doubt” is a single by [裏命](/en/artists/isotopes/rime), released on 2015-05-14.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/doubt/1747211220?i=1747211221&uo=4 "Doubt")

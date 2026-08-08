@@ -16,7 +16,7 @@ image: /images/songs/grp/usonaki.jpg
 
 ## 作品概要
 
-「うそ鳴き」は心世紀が2025-04-02にリリースした楽曲です。
+「うそ鳴き」は[心世紀](/ja/artists/girls_revolution_project/sinseiki)が2025-04-02にリリースした楽曲です。
 
 ## 視聴
 

@@ -16,7 +16,7 @@ image: /images/songs/grp/sayonara-rakuen.jpg
 
 ## 作品概要
 
-「さよなら、楽園」は硝子宮が2026-03-06にリリースした楽曲です。
+「さよなら、楽園」は[硝子宮](/ja/artists/girls_revolution_project/garasumiya)が2026-03-06にリリースした楽曲です。
 
 ## 視聴
 

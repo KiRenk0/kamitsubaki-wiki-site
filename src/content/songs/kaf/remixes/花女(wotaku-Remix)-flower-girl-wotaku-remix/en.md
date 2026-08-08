@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 ## Overview
 
-“花女(wotaku Remix)” is track 7 of KAF’s 魔法γ.
+“花女(wotaku Remix)” is track 7 of [KAF](/en/artists/vwp/kaf)’s [魔法γ](/en/albums/kaf/maho-gamma).
 
 ## Listen
 

@@ -16,7 +16,7 @@ image: /images/songs/kaf/track-1790801573.jpg
 
 ## 作品简介
 
-《My Life》是花譜于 2025年1月29日 正式发行的作品。
+《My Life》是[花譜](/zh/artists/vwp/kaf)于 2025年1月29日 正式发行的作品。
 
 ## 试听
 

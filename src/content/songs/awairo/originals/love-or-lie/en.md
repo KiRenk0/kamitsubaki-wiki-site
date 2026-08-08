@@ -17,7 +17,7 @@ image: /images/songs/awairo/love-or-lie.jpg
 
 ## Overview
 
-“Love or Lie” is a single by Awairo, released on 2024-12-05.
+“Love or Lie” is a single by [Awairo](/en/artists/solo/awairo), released on 2024-12-05.
 
 ## Listen
 {{media-switcher::Love or Lie}}

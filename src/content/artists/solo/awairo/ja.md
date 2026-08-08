@@ -48,9 +48,9 @@ seo:
 
 ## 概要
 
-淡色（Awairo）は KAMITSUBAKI STUDIO 所属の次世代音楽ユニット。作曲家のゆのすけと歌手 WaMi の二人で構成されている。甘くエモーショナルなメロディに EDM の要素を融合させ、繊細で切ない感情世界を表現するのが特徴。
+淡色（Awairo）は [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) 所属の次世代音楽ユニット。作曲家のゆのすけと歌手 WaMi の二人で構成されている。甘くエモーショナルなメロディに EDM の要素を融合させ、繊細で切ない感情世界を表現するのが特徴。
 
-2025年1月に 1st Album「グラデーション」をリリースし、発売記念 Party を開催。同年 2 月にはシングル「ブルーンーン」を発表した。KAMITSUBAKI WARS 2024 横浜公演や KAMITSUBAKI FES '24 への出演、梓川との 2MAN LIVE を通じて、神椿体系内での存在感を着実に広げている。
+2025年1月に 1st Album「[グラデーション](/ja/albums/awairo/グラデーション-1798638788)」をリリースし、発売記念 Party を開催。同年 2 月にはシングル「ブルーンーン」を発表した。KAMITSUBAKI WARS 2024 横浜公演や KAMITSUBAKI FES '24 への出演、梓川との 2MAN LIVE を通じて、神椿体系内での存在感を着実に広げている。
 
 ## 役割と創作上の位置づけ
 

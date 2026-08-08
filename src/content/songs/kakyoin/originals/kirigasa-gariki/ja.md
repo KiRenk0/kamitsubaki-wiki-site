@@ -16,7 +16,7 @@ image: /images/songs/grp/kirigasa-gariki.jpg
 
 ## 作品概要
 
-「キリガサガリキ」は佳鏡院が2025-03-19にリリースした楽曲です。
+「キリガサガリキ」は[佳鏡院](/ja/artists/girls_revolution_project/kakyoin)が2025-03-19にリリースした楽曲です。
 
 ## 視聴
 

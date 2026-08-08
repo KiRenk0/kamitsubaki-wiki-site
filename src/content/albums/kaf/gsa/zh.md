@@ -40,7 +40,7 @@ tracks:
 
 ## 作品简介
 
-三曲 EP，标题由《ゲシュタルト》《スイマー》《アポカリプスより》的首字母组成，三曲后来均收录于《寓話》。
+三曲 EP，标题由《[ゲシュタルト](/zh/songs/kaf/originals/ゲシュタルト-gestalt)》《[スイマー](/zh/songs/kaf/originals/スイマー-swimmer)》《[アポカリプスより](/zh/songs/kaf/originals/アポカリプスより-from-apocalypse)》的首字母组成，三曲后来均收录于《[寓話](/zh/albums/kaf/guwa)》。
 
 ## 发行与版本
 

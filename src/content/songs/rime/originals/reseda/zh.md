@@ -17,7 +17,7 @@ image: /images/songs/rime/reseda.jpg
 
 ## 作品简介
 
-裏命于 2023-08-13 发行的单曲《レセダ》。
+[裏命](/zh/artists/isotopes/rime)于 2023-08-13 发行的单曲《レセダ》。
 
 ## 试听
 {{media-switcher::レセダ}}

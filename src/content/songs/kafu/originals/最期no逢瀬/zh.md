@@ -17,7 +17,7 @@ image: /images/songs/kafu/最期no逢瀬.jpg
 
 ## 作品简介
 
-可不于 2024-09-05 发行的单曲《最期の逢瀬》。
+[可不](/zh/artists/isotopes/kafu)于 2024-09-05 发行的单曲《最期の逢瀬》。
 
 ## 试听
 {{media-switcher::最期の逢瀬}}

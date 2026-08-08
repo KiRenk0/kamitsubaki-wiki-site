@@ -17,7 +17,7 @@ image: /images/songs/mimi/maple-feat.-羽累.jpg
 
 ## Overview
 
-“Maple (feat. 羽累)” is a single by MIMI, released on 2023-10-14.
+“Maple (feat. [羽累](/en/artists/isotopes/haru))” is a single by [MIMI](/en/artists/creators/mimi), released on 2023-10-14.
 
 ## Listen
 {{media-switcher::Maple (feat. 羽累)}}

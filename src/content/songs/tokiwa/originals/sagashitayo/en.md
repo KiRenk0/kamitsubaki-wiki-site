@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/sagashitayo.jpg
 
 ## Overview
 
-“さがしたよ” is a single by tokiwa, released on 2026-05-21.
+“さがしたよ” is a single by [tokiwa](/en/artists/creators/tokiwa), released on 2026-05-21.
 
 ## Listen
 {{media-switcher::さがしたよ}}

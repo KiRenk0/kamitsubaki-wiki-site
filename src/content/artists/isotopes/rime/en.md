@@ -67,13 +67,13 @@ seo:
 
 ## Overview
 
-RIME (裏命) is the third voice synthesis software in KAMITSUBAKI STUDIO's "Musical Isotope" (音楽的同位体) series. It is built using AI technology based on the vocal data of virtual singer RIM (理芽) to generate highly realistic singing voices.
+RIME (裏命) is the third voice synthesis software in [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio)'s "[Musical Isotope](/en/artists/solo/musical-isotope)" (音楽的同位体) series. It is built using AI technology based on the vocal data of virtual singer [RIM](/en/artists/vwp/rim) (理芽) to generate highly realistic singing voices.
 
 Running on the CeVIO AI platform, the name "RIME" is derived from the concept of "RIM + ECHO". She inherits the combination of transparency and mysterious vibes from RIM's voice, while exhibiting powerful emotional expression.
 
 ## Character and Creative Positioning
 
-Designed by PALOW., RIME's visual features include white hair with deep blue highlights and an eight-pointed star hair accessory, giving her a cool and cybernetic look. In terms of vocal performance, RIME is equipped with realistic breathing sounds and delicate vocal control, allowing her to deliver strong emotional resonance across fast-paced electronic, rock, or slow ballad genres.
+Designed by [PALOW.](/en/artists/creators/palow), RIME's visual features include white hair with deep blue highlights and an eight-pointed star hair accessory, giving her a cool and cybernetic look. In terms of vocal performance, RIME is equipped with realistic breathing sounds and delicate vocal control, allowing her to deliver strong emotional resonance across fast-paced electronic, rock, or slow ballad genres.
 
 As a member of the Musical Isotope series, she is positioned as a "creative partner" for creators. Within the UGC (User Generated Content) ecosystem, many creators have used RIME to publish a vast collection of diverse derivative works.
 

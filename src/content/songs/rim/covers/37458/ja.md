@@ -20,7 +20,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 ## 作品概要
 
-「37458 (feat. KAF)」は『CHOCOLATE LIVE2』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「37458 (feat. [KAF](/ja/artists/vwp/kaf))」は『[CHOCOLATE LIVE2](/ja/albums/rim/chocolate-live-2)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 試聴
 

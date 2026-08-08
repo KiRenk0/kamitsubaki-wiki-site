@@ -16,7 +16,7 @@ image: /images/songs/grp/zatsukichou.jpg
 
 ## Overview
 
-“雑几帖” is a 心世紀 release dated 2026-02-20.
+“雑几帖” is a [心世紀](/en/artists/girls_revolution_project/sinseiki) release dated 2026-02-20.
 
 ## Listen
 

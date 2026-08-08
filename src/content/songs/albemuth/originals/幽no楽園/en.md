@@ -17,7 +17,7 @@ image: /images/songs/albemuth/幽no楽園.jpg
 
 ## Overview
 
-“幽ノ楽園” is a single by Albemuth, released on 2022-11-23.
+“幽ノ楽園” is a single by [Albemuth](/en/artists/solo/albemuth), released on 2022-11-23.
 
 ## Listen
 {{media-switcher::幽ノ楽園}}

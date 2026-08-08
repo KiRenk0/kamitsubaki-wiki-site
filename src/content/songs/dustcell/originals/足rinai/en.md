@@ -17,7 +17,7 @@ image: /images/songs/dustcell/足rinai.jpg
 
 ## Overview
 
-“足りない” is a single by DUSTCELL, released on 2022-05-31.
+“足りない” is a single by [DUSTCELL](/en/artists/solo/dustcell), released on 2022-05-31.
 
 ## Listen
 {{media-switcher::足りない}}

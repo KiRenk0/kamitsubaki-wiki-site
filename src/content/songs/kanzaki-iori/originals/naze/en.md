@@ -17,7 +17,7 @@ image: /images/songs/kanzaki-iori/naze.jpg
 
 ## Overview
 
-“なぜ” is a single by カンザキイオリ, released on 2023-03-31.
+“なぜ” is a single by [カンザキイオリ](/en/artists/creators/kanzaki-iori), released on 2023-03-31.
 
 ## Listen
 {{media-switcher::なぜ}}

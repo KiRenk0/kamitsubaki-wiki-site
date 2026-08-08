@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/vivop.jpg
 
 ## Overview
 
-“Vivop” is a single by Empty old City, released on 2026-03-31.
+“Vivop” is a single by [Empty old City](/en/artists/solo/empty-old-city), released on 2026-03-31.
 
 ## Listen
 {{media-switcher::Vivop}}

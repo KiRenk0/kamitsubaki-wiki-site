@@ -17,7 +17,7 @@ image: /images/songs/guiano/black-gold-feat.-ia.jpg
 
 ## Overview
 
-“Black Gold (feat. IA)” is a single by Guiano, released on 2021-04-29.
+“Black Gold (feat. IA)” is a single by [Guiano](/en/artists/creators/guiano), released on 2021-04-29.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/black-gold-feat-ia/1378687886?i=1378687891&uo=4 "Black Gold (feat. IA)")

@@ -17,7 +17,7 @@ image: /images/songs/dustcell/orutaaego.jpg
 
 ## Overview
 
-“オルターエゴ” is a single by DUSTCELL, released on 2023-02-21.
+“オルターエゴ” is a single by [DUSTCELL](/en/artists/solo/dustcell), released on 2023-02-21.
 
 ## Listen
 {{media-switcher::オルターエゴ}}

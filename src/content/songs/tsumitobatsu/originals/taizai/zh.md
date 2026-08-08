@@ -16,7 +16,7 @@ image: /images/songs/grp/taizai.jpg
 
 ## 作品简介
 
-《大罪》是罪十罰于 2026-01-23 正式发行的作品。
+《大罪》是[罪十罰](/zh/artists/girls_revolution_project/tsumitobatsu)于 2026-01-23 正式发行的作品。
 
 ## 试听
 

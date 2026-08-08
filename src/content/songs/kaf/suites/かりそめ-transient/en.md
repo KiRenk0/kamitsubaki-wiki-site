@@ -17,7 +17,7 @@ image: /images/albums/kaf/love-and-flower.jpg
 
 ## Overview
 
-“かりそめ” is track 2 of KAF’s 愛と花.
+“かりそめ” is track 2 of [KAF](/en/artists/vwp/kaf)’s [愛と花](/en/albums/kaf/love-and-flower).
 
 ## Listen
 

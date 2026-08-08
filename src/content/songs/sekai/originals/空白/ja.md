@@ -17,7 +17,7 @@ image: /images/songs/sekai/空白.jpg
 
 ## 作品概要
 
-星界が2025-03-16にリリースしたシングル「空白」。
+[星界](/ja/artists/isotopes/sekai)が2025-03-16にリリースしたシングル「空白」。
 
 ## 視聴
 {{media-switcher::空白}}

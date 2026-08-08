@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/花色-feat.-kaito.jpg
 
 ## 作品概要
 
-香椎モイミが2020-02-13にリリースしたシングル「花色 (feat. KAITO)」。
+[香椎モイミ](/ja/artists/creators/kashiimoimi)が2020-02-13にリリースしたシングル「花色 (feat. KAITO)」。
 
 ## 視聴
 {{media-switcher::花色 (feat. KAITO)}}

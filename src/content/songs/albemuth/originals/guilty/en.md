@@ -17,7 +17,7 @@ image: /images/songs/albemuth/guilty.jpg
 
 ## Overview
 
-“guilty” is a single by Albemuth, released on 2023-04-26.
+“guilty” is a single by [Albemuth](/en/artists/solo/albemuth), released on 2023-04-26.
 
 ## Listen
 {{media-switcher::guilty}}

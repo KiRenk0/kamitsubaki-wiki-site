@@ -17,7 +17,7 @@ image: /images/songs/kafu/suwaroo-feat.-kafu.jpg
 
 ## Overview
 
-“スワロー (feat. KAFU)” is a single by 可不, released on 2023-07-21.
+“スワロー (feat. [KAFU](/en/artists/isotopes/kafu))” is a single by 可不, released on 2023-07-21.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/%E3%82%B9%E3%83%AF%E3%83%AD%E3%83%BC-feat-kafu/1760082218?i=1760082219&uo=4 "スワロー (feat. KAFU)")

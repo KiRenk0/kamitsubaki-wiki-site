@@ -17,7 +17,7 @@ image: /images/songs/rime/爆発反転-feat.-masarada.jpg
 
 ## 作品简介
 
-裏命于 2015-10-11 发行的单曲《爆発反転 (feat. マサラダ)》。
+[裏命](/zh/artists/isotopes/rime)于 2015-10-11 发行的单曲《爆発反転 (feat. マサラダ)》。
 
 ## 试听
 {{media-switcher::爆発反転 (feat. マサラダ)}}

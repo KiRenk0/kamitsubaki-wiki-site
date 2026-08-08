@@ -16,7 +16,7 @@ image: /images/songs/grp/well.jpg
 
 ## Overview
 
-“well (feat. HiFi-P)” is a 硝子宮 release dated 2024-10-09.
+“well (feat. [HiFi-P](/en/artists/creators/hifi-p))” is a [硝子宮](/en/artists/girls_revolution_project/garasumiya) release dated 2024-10-09.
 
 ## Listen
 

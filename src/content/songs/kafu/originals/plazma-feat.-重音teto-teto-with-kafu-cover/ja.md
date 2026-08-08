@@ -17,7 +17,7 @@ image: /images/songs/kafu/plazma-feat.-重音teto-teto-with-kafu-cover.jpg
 
 ## 作品概要
 
-可不が2025-07-11にリリースしたシングル「Plazma (feat. 重音テト) [TETO with KAFU Cover]」。
+[可不](/ja/artists/isotopes/kafu)が2025-07-11にリリースしたシングル「Plazma (feat. 重音テト) [TETO with KAFU Cover]」。
 
 ## 視聴
 {{media-switcher::Plazma (feat. 重音テト) [TETO with KAFU Cover]}}

@@ -17,7 +17,7 @@ image: /images/songs/ciel/君to旅風.jpg
 
 ## Overview
 
-“君と旅風” is a single by CIEL, released on 2026-05-12.
+“君と旅風” is a single by [CIEL](/en/artists/solo/ciel), released on 2026-05-12.
 
 ## Listen
 {{media-switcher::君と旅風}}

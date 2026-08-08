@@ -20,7 +20,7 @@ image: /images/songs/rime/幽玄no詩-feat.-◈-yukuewatto.jpg
 
 ## Overview
 
-“幽玄の詩 (feat. ◈*ゆくえわっと)” is a single by 裏命, released on 2015-10-11.
+“幽玄の詩 (feat. ◈*ゆくえわっと)” is a single by [裏命](/en/artists/isotopes/rime), released on 2015-10-11.
 
 ## Listen
 {{media-switcher::幽玄の詩 (feat. ◈*ゆくえわっと)}}

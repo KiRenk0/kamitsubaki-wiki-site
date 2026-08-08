@@ -16,7 +16,7 @@ image: /images/songs/grp/izure-boku-wa-tokete.jpg
 
 ## 作品概要
 
-「いずれ僕は溶けて」は心世紀が2025-10-29にリリースした楽曲です。
+「いずれ僕は溶けて」は[心世紀](/ja/artists/girls_revolution_project/sinseiki)が2025-10-29にリリースした楽曲です。
 
 ## 視聴
 

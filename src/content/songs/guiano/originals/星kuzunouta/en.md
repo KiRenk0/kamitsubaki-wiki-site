@@ -17,7 +17,7 @@ image: /images/songs/guiano/星kuzunouta.jpg
 
 ## Overview
 
-“星くずのうた” is a single by Guiano, released on 2024-10-29.
+“星くずのうた” is a single by [Guiano](/en/artists/creators/guiano), released on 2024-10-29.
 
 ## Listen
 {{media-switcher::星くずのうた}}

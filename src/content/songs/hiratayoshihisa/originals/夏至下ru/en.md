@@ -17,7 +17,7 @@ image: /images/songs/hiratayoshihisa/夏至下ru.jpg
 
 ## Overview
 
-“夏至下る” is a single by 平田義久, released on 2023-05-09.
+“夏至下る” is a single by [平田義久](/en/artists/creators/hiratayoshihisa), released on 2023-05-09.
 
 ## Listen
 {{media-switcher::夏至下る}}

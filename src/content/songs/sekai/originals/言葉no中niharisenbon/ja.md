@@ -17,7 +17,7 @@ image: /images/songs/sekai/言葉no中niharisenbon.jpg
 
 ## 作品概要
 
-星界が2025-07-05にリリースしたシングル「言葉の中にはりせんぼん」。
+[星界](/ja/artists/isotopes/sekai)が2025-07-05にリリースしたシングル「言葉の中にはりせんぼん」。
 
 ## 視聴
 {{media-switcher::言葉の中にはりせんぼん}}

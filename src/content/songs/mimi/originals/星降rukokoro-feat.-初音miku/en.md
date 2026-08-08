@@ -17,7 +17,7 @@ image: /images/songs/mimi/星降rukokoro-feat.-初音miku.jpg
 
 ## Overview
 
-“星降るココロ (feat. 初音ミク)” is a single by MIMI, released on 2024-07-11.
+“星降るココロ (feat. 初音ミク)” is a single by [MIMI](/en/artists/creators/mimi), released on 2024-07-11.
 
 ## Listen
 {{media-switcher::星降るココロ (feat. 初音ミク)}}

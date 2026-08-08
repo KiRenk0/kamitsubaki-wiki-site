@@ -17,7 +17,7 @@ image: /images/songs/mimi/karabakoniai.jpg
 
 ## Overview
 
-“カラバコにアイ” is a single by MIMI, released on 2020-04-26.
+“カラバコにアイ” is a single by [MIMI](/en/artists/creators/mimi), released on 2020-04-26.
 
 ## Listen
 {{media-switcher::カラバコにアイ}}

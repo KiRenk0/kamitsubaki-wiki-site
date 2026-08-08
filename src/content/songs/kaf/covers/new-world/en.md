@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 ## Overview
 
-“new world (feat. ヰ世界情緒) (I SCREAM LIVE4 ver.)” is track 5 of KAF’s I SCREAM LIVE4 - Cover Live Album -.
+“new world (feat. [ヰ世界情緒](/en/artists/vwp/isekaijoucho)) (I SCREAM LIVE4 ver.)” is track 5 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE4 - Cover Live Album -](/en/albums/kaf/i-scream-live-4).
 
 ## Listen
 

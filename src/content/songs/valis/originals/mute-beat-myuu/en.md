@@ -17,7 +17,7 @@ image: /images/songs/valis/mute-beat-myuu.jpg
 
 ## Overview
 
-“Mute Beat(ミュー)” is a single by VALIS, released on 2025-05-30.
+“Mute Beat(ミュー)” is a single by [VALIS](/en/artists/solo/valis), released on 2025-05-30.
 
 ## Listen
 {{media-switcher::Mute Beat(ミュー)}}

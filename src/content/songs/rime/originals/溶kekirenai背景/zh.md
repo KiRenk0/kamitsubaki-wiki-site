@@ -17,7 +17,7 @@ image: /images/songs/rime/溶kekirenai背景.jpg
 
 ## 作品简介
 
-裏命于 2025-08-04 发行的单曲《溶けきれない背景》。
+[裏命](/zh/artists/isotopes/rime)于 2025-08-04 发行的单曲《溶けきれない背景》。
 
 ## 试听
 {{media-switcher::溶けきれない背景}}

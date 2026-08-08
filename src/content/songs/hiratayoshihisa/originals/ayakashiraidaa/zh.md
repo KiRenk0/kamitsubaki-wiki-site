@@ -17,7 +17,7 @@ image: /images/songs/hiratayoshihisa/ayakashiraidaa.jpg
 
 ## 作品简介
 
-平田義久于 2022-01-07 发行的单曲《アヤカシライダー》。
+[平田義久](/zh/artists/creators/hiratayoshihisa)于 2022-01-07 发行的单曲《アヤカシライダー》。
 
 ## 试听
 {{media-switcher::アヤカシライダー}}

@@ -16,7 +16,7 @@ image: /images/songs/grp/junk.jpg
 
 ## 作品概要
 
-「ジャンク」は氷夏至が2024-12-04にリリースした楽曲です。
+「ジャンク」は[氷夏至](/ja/artists/girls_revolution_project/hinageshi)が2024-12-04にリリースした楽曲です。
 
 ## 視聴
 

@@ -16,7 +16,7 @@ image: /images/songs/grp/survival.jpg
 
 ## Overview
 
-“SURVIVAL” is a 罪十罰 release dated 2025-06-04.
+“SURVIVAL” is a [罪十罰](/en/artists/girls_revolution_project/tsumitobatsu) release dated 2025-06-04.
 
 ## Listen
 

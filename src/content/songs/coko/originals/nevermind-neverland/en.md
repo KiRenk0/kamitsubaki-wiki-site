@@ -17,7 +17,7 @@ image: /images/songs/coko/nevermind-neverland.jpg
 
 ## Overview
 
-“NEVERMIND NEVERLAND” is a single by 狐子, released on 2025-02-28.
+“NEVERMIND NEVERLAND” is a single by [狐子](/en/artists/isotopes/coko), released on 2025-02-28.
 
 ## Listen
 {{media-switcher::NEVERMIND NEVERLAND}}

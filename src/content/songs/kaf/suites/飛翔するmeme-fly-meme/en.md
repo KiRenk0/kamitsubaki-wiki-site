@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1688514096.jpg
 
 ## Overview
 
-“飛翔するmeme” is track 4 of KAF’s 組曲.
+“飛翔するmeme” is track 4 of [KAF](/en/artists/vwp/kaf)’s [組曲](/en/albums/kaf/suite).
 
 ## Listen
 

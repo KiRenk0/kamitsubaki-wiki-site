@@ -16,7 +16,7 @@ image: /images/songs/kaf/track-1706955684.jpg
 
 ## Overview
 
-“わたしの声(0b4k3 Remix)” is a KAF release dated September 20, 2023.
+“わたしの声(0b4k3 Remix)” is a [KAF](/en/artists/vwp/kaf) release dated September 20, 2023.
 
 ## Listen
 

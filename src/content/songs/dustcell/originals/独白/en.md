@@ -17,7 +17,7 @@ image: /images/songs/dustcell/独白.jpg
 
 ## Overview
 
-“独白” is a single by DUSTCELL, released on 2021-06-22.
+“独白” is a single by [DUSTCELL](/en/artists/solo/dustcell), released on 2021-06-22.
 
 ## Listen
 {{media-switcher::独白}}

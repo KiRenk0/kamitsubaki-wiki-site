@@ -19,7 +19,7 @@ image: /images/songs/rim/single-1609167678.jpg
 
 ## Overview
 
-舞 feat. 理芽 appears on 舞 feat. 理芽 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+舞 feat. [理芽](/en/artists/vwp/rim) appears on 舞 feat. 理芽 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

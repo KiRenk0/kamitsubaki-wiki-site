@@ -17,7 +17,7 @@ image: /images/songs/kafu/解-体.jpg
 
 ## 作品简介
 
-可不于 2023-12-10 发行的单曲《解/体》。
+[可不](/zh/artists/isotopes/kafu)于 2023-12-10 发行的单曲《解/体》。
 
 ## 试听
 {{media-switcher::解/体}}

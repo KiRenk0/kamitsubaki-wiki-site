@@ -20,7 +20,7 @@ image: /images/songs/musical-isotope/辺獄ekonomika.jpg
 
 ## 作品简介
 
-音楽的同位体于 2023-11-12 发行的单曲《辺獄エコノミカ》。
+[音楽的同位体](/zh/artists/solo/musical-isotope)于 2023-11-12 发行的单曲《辺獄エコノミカ》。
 
 ## 试听
 {{media-switcher::辺獄エコノミカ}}

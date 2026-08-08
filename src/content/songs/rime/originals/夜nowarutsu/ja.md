@@ -17,7 +17,7 @@ image: /images/songs/rime/夜nowarutsu.jpg
 
 ## 作品概要
 
-裏命が2023-12-04にリリースしたシングル「夜のワルツ」。
+[裏命](/ja/artists/isotopes/rime)が2023-12-04にリリースしたシングル「夜のワルツ」。
 
 ## 視聴
 {{media-switcher::夜のワルツ}}

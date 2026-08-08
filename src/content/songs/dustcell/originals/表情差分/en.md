@@ -17,7 +17,7 @@ image: /images/songs/dustcell/表情差分.jpg
 
 ## Overview
 
-“表情差分” is a single by DUSTCELL, released on 2024-10-08.
+“表情差分” is a single by [DUSTCELL](/en/artists/solo/dustcell), released on 2024-10-08.
 
 ## Listen
 {{media-switcher::表情差分}}

@@ -17,7 +17,7 @@ image: /images/songs/haru/小sana冒険.jpg
 
 ## 作品简介
 
-羽累于 2016-01-26 发行的单曲《小さな冒険》。
+[羽累](/zh/artists/isotopes/haru)于 2016-01-26 发行的单曲《小さな冒険》。
 
 ## 试听
 @[apple-music](https://music.apple.com/jp/album/%E5%B0%8F%E3%81%95%E3%81%AA%E5%86%92%E9%99%BA/1823598831?i=1823598834&uo=4 "小さな冒険")

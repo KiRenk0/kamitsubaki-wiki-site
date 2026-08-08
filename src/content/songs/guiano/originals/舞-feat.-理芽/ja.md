@@ -17,7 +17,7 @@ image: /images/songs/guiano/舞-feat.-理芽.jpg
 
 ## 作品概要
 
-Guianoが2022-03-08にリリースしたシングル「舞 feat. 理芽」。
+Guianoが2022-03-08にリリースしたシングル「舞 feat. [理芽](/ja/artists/vwp/rim)」。
 
 ## 視聴
 {{media-switcher::舞 feat. 理芽}}

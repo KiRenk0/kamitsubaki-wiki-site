@@ -49,7 +49,7 @@ tracks:
 
 ## 作品概要
 
-花譜とKizuna AIのコラボEP。「ラブしい」「かりそめ」と各インストを収録し、KAF editionのCDにはトーク企画も収められた。
+[花譜](/ja/artists/vwp/kaf)とKizuna AIのコラボEP。「[ラブしい](/ja/songs/kaf/suites/ラブしい-loveshii)」「[かりそめ](/ja/songs/kaf/suites/かりそめ-transient)」と各インストを収録し、KAF editionのCDにはトーク企画も収められた。
 
 ## リリースと仕様
 

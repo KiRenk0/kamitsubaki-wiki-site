@@ -17,7 +17,7 @@ image: /images/songs/kafu/iris-out-kafu-cover.jpg
 
 ## 作品简介
 
-可不于 2025-10-13 发行的单曲《IRIS OUT (KAFU Cover)》。
+[可不](/zh/artists/isotopes/kafu)于 2025-10-13 发行的单曲《IRIS OUT (KAFU Cover)》。
 
 ## 试听
 {{media-switcher::IRIS OUT (KAFU Cover)}}

@@ -17,7 +17,7 @@ image: /images/songs/rime/ainiiku.jpg
 
 ## 作品概要
 
-裏命が2025-05-01にリリースしたシングル「アイニーク」。
+[裏命](/ja/artists/isotopes/rime)が2025-05-01にリリースしたシングル「アイニーク」。
 
 ## 視聴
 {{media-switcher::アイニーク}}

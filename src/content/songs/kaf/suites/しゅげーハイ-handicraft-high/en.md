@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1694251446.jpg
 
 ## Overview
 
-“しゅげーハイ!!!” is track 13 of KAF’s 組曲.
+“しゅげーハイ!!!” is track 13 of [KAF](/en/artists/vwp/kaf)’s [組曲](/en/albums/kaf/suite).
 
 ## Listen
 

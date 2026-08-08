@@ -24,7 +24,7 @@ image: /images/albums/vwp/witch-plus.jpg
 
 ## Overview
 
-異世界転調リクヱスト (feat. ヰ世界情緒 & VALIS) appears on 魔女ぷらす or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+異世界転調リクヱスト (feat. [ヰ世界情緒](/en/artists/vwp/isekaijoucho) & [VALIS](/en/artists/solo/valis)) appears on [魔女ぷらす](/en/albums/vwp/witch-plus) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

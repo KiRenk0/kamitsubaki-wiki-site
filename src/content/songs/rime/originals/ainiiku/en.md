@@ -17,7 +17,7 @@ image: /images/songs/rime/ainiiku.jpg
 
 ## Overview
 
-“アイニーク” is a single by 裏命, released on 2025-05-01.
+“アイニーク” is a single by [裏命](/en/artists/isotopes/rime), released on 2025-05-01.
 
 ## Listen
 {{media-switcher::アイニーク}}

@@ -17,7 +17,7 @@ image: /images/songs/rime/美shiimono.jpg
 
 ## 作品简介
 
-裏命于 2024-08-25 发行的单曲《美しいもの》。
+[裏命](/zh/artists/isotopes/rime)于 2024-08-25 发行的单曲《美しいもの》。
 
 ## 试听
 {{media-switcher::美しいもの}}

@@ -51,7 +51,7 @@ seo:
 
 ## 概要
 
-ヒトゴト（他人事）は「面」と「魚魚」の 2 人で構成される音楽ユニット。KAMITSUBAKI STUDIO の CREATOR FARM に所属し、2020 年からボカロオリジナル楽曲やセルフカバーの制作を通じて活動を開始した。
+ヒトゴト（他人事）は「面」と「魚魚」の 2 人で構成される音楽ユニット。[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) の CREATOR FARM に所属し、2020 年からボカロオリジナル楽曲やセルフカバーの制作を通じて活動を開始した。
 
 2022 年春の The VOCALOID Collection では、約 2,800 曲の応募の中からルーキーランキング 8 位にランクインし、大きな注目を集めた。イラストは神多洋氏が担当し、楽曲の情感を視覚的にも表現している。
 
@@ -65,7 +65,7 @@ seo:
 
 - 2020 年：ユニットを結成し、ボカロオリジナル楽曲およびセルフカバーの制作を開始。
 - 2022 年春：The VOCALOID Collection 2022 Spring にてルーキーランキング 8 位入賞（応募数約 2,800 曲）。
-- 罪と罰へ「弔花」を提供（作詞 / 作曲 / 編曲）。
+- 罪と罰へ「[弔花](/ja/songs/tsumitobatsu/originals/chouka)」を提供（作詞 / 作曲 / 編曲）。
 - V.W.P へ「真偽」を提供（作詞 / 作曲）。
 - Muse Dash へ「信仰と存在」を提供（ストリーミング 300 万回超）。
 - KAMITSUBAKI STUDIO の CREATOR FARM に参加。

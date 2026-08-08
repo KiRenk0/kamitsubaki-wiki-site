@@ -17,7 +17,7 @@ image: /images/songs/rime/god-gacha.jpg
 
 ## 作品简介
 
-裏命于 2025-09-09 发行的单曲《God Gacha》。
+[裏命](/zh/artists/isotopes/rime)于 2025-09-09 发行的单曲《God Gacha》。
 
 ## 试听
 {{media-switcher::God Gacha}}

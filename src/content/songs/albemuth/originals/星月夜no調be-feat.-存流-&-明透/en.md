@@ -17,7 +17,7 @@ image: /images/songs/albemuth/星月夜no調be-feat.-存流-&-明透.jpg
 
 ## Overview
 
-“星月夜の調べ (feat. 存流 & 明透)” is a single by Albemuth, released on 2023-08-16.
+“星月夜の調べ (feat. 存流 & [明透](/en/artists/solo/asu))” is a single by [Albemuth](/en/artists/solo/albemuth), released on 2023-08-16.
 
 ## Listen
 {{media-switcher::星月夜の調べ (feat. 存流 & 明透)}}

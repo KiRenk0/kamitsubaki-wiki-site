@@ -54,7 +54,7 @@ tracks:
 
 ## 简介
 
-平田義久于 2018-06-13 发行的Album《All in this summer LP》,共收录 8 首歌曲。
+[平田義久](/zh/artists/creators/hiratayoshihisa)于 2018-06-13 发行的Album《All in this summer LP》,共收录 8 首歌曲。
 
 ## 收录曲
 

@@ -16,7 +16,7 @@ image: /images/songs/grp/survival.jpg
 
 ## 作品简介
 
-《SURVIVAL》是罪十罰于 2025-06-04 正式发行的作品。
+《SURVIVAL》是[罪十罰](/zh/artists/girls_revolution_project/tsumitobatsu)于 2025-06-04 正式发行的作品。
 
 ## 试听
 

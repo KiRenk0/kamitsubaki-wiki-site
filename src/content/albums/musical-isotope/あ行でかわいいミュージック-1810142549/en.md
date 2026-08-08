@@ -62,7 +62,7 @@ tracks:
 
 ## Overview
 
-音楽的同位体's album “あ行でかわいいミュージック”, released on 2025-04-24, featuring 10 tracks.
+[音楽的同位体](/en/artists/solo/musical-isotope)'s album “あ行でかわいいミュージック”, released on 2025-04-24, featuring 10 tracks.
 
 ## Track List
 

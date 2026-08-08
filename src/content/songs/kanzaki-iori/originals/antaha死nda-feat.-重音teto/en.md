@@ -17,7 +17,7 @@ image: /images/songs/kanzaki-iori/antaha死nda-feat.-重音teto.jpg
 
 ## Overview
 
-“あんたは死んだ (feat. 重音テト)” is a single by カンザキイオリ, released on 2024-08-24.
+“あんたは死んだ (feat. 重音テト)” is a single by [カンザキイオリ](/en/artists/creators/kanzaki-iori), released on 2024-08-24.
 
 ## Listen
 {{media-switcher::あんたは死んだ (feat. 重音テト)}}

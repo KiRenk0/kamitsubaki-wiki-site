@@ -19,7 +19,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 ## Overview
 
-“心臓と絡繰(春野 Remix)” is track 3 of KAF’s 観測γ.
+“心臓と絡繰(春野 Remix)” is track 3 of [KAF](/en/artists/vwp/kaf)’s [観測γ](/en/albums/kaf/kansoku-gamma).
 
 ## Listen
 

@@ -17,7 +17,7 @@ image: /images/songs/rime/rasutoenputeisateraito.jpg
 
 ## 作品简介
 
-裏命于 2025-12-20 发行的单曲《ラストエンプティサテライト》。
+[裏命](/zh/artists/isotopes/rime)于 2025-12-20 发行的单曲《ラストエンプティサテライト》。
 
 ## 试听
 {{media-switcher::ラストエンプティサテライト}}

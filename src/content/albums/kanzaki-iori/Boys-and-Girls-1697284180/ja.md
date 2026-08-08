@@ -46,7 +46,7 @@ tracks:
 
 ## 概要
 
-カンザキイオリが2023-07-21にリリースしたEP『Boys and Girls』。全6曲を収録。
+[カンザキイオリ](/ja/artists/creators/kanzaki-iori)が2023-07-21にリリースしたEP『Boys and Girls』。全6曲を収録。
 
 ## 収録曲
 

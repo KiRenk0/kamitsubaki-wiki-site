@@ -55,9 +55,9 @@ seo:
 
 ## 概述
 
-空爽（KUUSOU）是由虚拟歌手 CIEL 与现实歌手 Sooda 于 2026年1月14日组成的跨次元虚拟音乐组合。组合概念以「清纯与温柔」为核心，有意模糊虚拟与现实的边界，创造一种全新的音乐表达模式。
+空爽（KUUSOU）是由虚拟歌手 [CIEL](/zh/artists/solo/ciel) 与现实歌手 [Sooda](/zh/artists/creators/sooda) 于 2026年1月14日组成的跨次元虚拟音乐组合。组合概念以「清纯与温柔」为核心，有意模糊虚拟与现实的边界，创造一种全新的音乐表达模式。
 
-这一搭档在神椿体系中具有特殊意义：以蓝色头发和「第一次抬起头来」的叙事为标志的虚拟角色 CIEL，与扎根于现实世界的创作者 Sooda 相遇。两人的合作体现了 KAMITSUBAKI STUDIO 对「次元横断」艺术的持续探索——在角色与真人、屏幕与舞台之间，界线被有意地变得模糊。
+这一搭档在神椿体系中具有特殊意义：以蓝色头发和「第一次抬起头来」的叙事为标志的虚拟角色 [CIEL](/zh/artists/solo/ciel)，与扎根于现实世界的创作者 [Sooda](/zh/artists/creators/sooda) 相遇。两人的合作体现了 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 对「次元横断」艺术的持续探索——在角色与真人、屏幕与舞台之间，界线被有意地变得模糊。
 
 ## 角色与创作定位
 
@@ -65,7 +65,7 @@ seo:
 
 ## 活动历程
 
-- **2026年1月14日**：CIEL 与 Sooda 组成空爽，发行出道单曲「透明流星ラプソディ」（透明流星狂想曲）。
+- **2026年1月14日**：[CIEL](/zh/artists/solo/ciel) 与 [Sooda](/zh/artists/creators/sooda) 组成空爽，发行出道单曲「[透明流星ラプソディ](/zh/songs/kuusou/originals/透明流星rapusodei)」（透明流星狂想曲）。
 
 ## 代表作品
 

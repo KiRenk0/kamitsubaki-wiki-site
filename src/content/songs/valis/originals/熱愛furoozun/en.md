@@ -17,7 +17,7 @@ image: /images/songs/valis/熱愛furoozun.jpg
 
 ## Overview
 
-“熱愛フローズン” is a single by VALIS, released on 2023-02-04.
+“熱愛フローズン” is a single by [VALIS](/en/artists/solo/valis), released on 2023-02-04.
 
 ## Listen
 {{media-switcher::熱愛フローズン}}

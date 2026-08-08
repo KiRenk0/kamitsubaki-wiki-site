@@ -17,7 +17,7 @@ image: /images/songs/kanzaki-iori/泥虫-feat.-重音teto.jpg
 
 ## Overview
 
-“泥虫 (feat. 重音テト)” is a single by カンザキイオリ, released on 2025-04-18.
+“泥虫 (feat. 重音テト)” is a single by [カンザキイオリ](/en/artists/creators/kanzaki-iori), released on 2025-04-18.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/%E6%B3%A5%E8%99%AB-feat-%E9%87%8D%E9%9F%B3%E3%83%86%E3%83%88/1857845084?i=1857845100&uo=4 "泥虫 (feat. 重音テト)")

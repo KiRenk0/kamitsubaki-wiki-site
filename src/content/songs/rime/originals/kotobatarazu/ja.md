@@ -20,7 +20,7 @@ image: /images/songs/rime/kotobatarazu.jpg
 
 ## 作品概要
 
-裏命が2025-09-16にリリースしたシングル「ことばたらず」。
+[裏命](/ja/artists/isotopes/rime)が2025-09-16にリリースしたシングル「ことばたらず」。
 
 ## 視聴
 {{media-switcher::ことばたらず}}

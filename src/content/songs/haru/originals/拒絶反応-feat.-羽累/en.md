@@ -17,7 +17,7 @@ image: /images/songs/haru/拒絶反応-feat.-羽累.jpg
 
 ## Overview
 
-“拒絶反応 feat. 羽累” is a single by 羽累, released on 2024-06-27.
+“拒絶反応 feat. [羽累](/en/artists/isotopes/haru)” is a single by 羽累, released on 2024-06-27.
 
 ## Listen
 {{media-switcher::拒絶反応 feat. 羽累}}

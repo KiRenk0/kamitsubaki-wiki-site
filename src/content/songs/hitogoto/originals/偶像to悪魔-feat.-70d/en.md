@@ -17,7 +17,7 @@ image: /images/songs/hitogoto/偶像to悪魔-feat.-70d.jpg
 
 ## Overview
 
-“偶像と悪魔 (feat. 70D)” is a single by 他人事, released on 2025-04-10.
+“偶像と悪魔 (feat. 70D)” is a single by [他人事](/en/artists/creators/hitogoto), released on 2025-04-10.
 
 ## Listen
 {{media-switcher::偶像と悪魔 (feat. 70D)}}

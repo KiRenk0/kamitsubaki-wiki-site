@@ -17,7 +17,7 @@ image: /images/songs/haru/森no中nopiano.jpg
 
 ## Overview
 
-“森の中のピアノ” is a single by 羽累, released on 2025-06-29.
+“森の中のピアノ” is a single by [羽累](/en/artists/isotopes/haru), released on 2025-06-29.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/%E6%A3%AE%E3%81%AE%E4%B8%AD%E3%81%AE%E3%83%94%E3%82%A2%E3%83%8E/1823465064?i=1823465066&uo=4 "森の中のピアノ")

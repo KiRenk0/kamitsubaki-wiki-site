@@ -17,7 +17,7 @@ image: /images/songs/kafu/夜no自販機.jpg
 
 ## 作品简介
 
-可不于 2022-05-11 发行的单曲《夜の自販機》。
+[可不](/zh/artists/isotopes/kafu)于 2022-05-11 发行的单曲《夜の自販機》。
 
 ## 试听
 {{media-switcher::夜の自販機}}

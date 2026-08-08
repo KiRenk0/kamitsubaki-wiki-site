@@ -17,7 +17,7 @@ image: /images/songs/haru/meguru.jpg
 
 ## Overview
 
-“meguru” is a single by 羽累, released on 2026-07-29.
+“meguru” is a single by [羽累](/en/artists/isotopes/haru), released on 2026-07-29.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/meguru/1807749989?i=1807749993&uo=4 "meguru")

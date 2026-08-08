@@ -57,7 +57,7 @@ seo:
 
 ## 概要
 
-ヰ世界情緒は KAMITSUBAKI STUDIO に所属するバーチャルシンガー、クリエイターであり、V.W.P のメンバーの一人でもある。歌唱だけにとどまらず、イラスト、ナレーション、声の演技、世界観表現までを含めて自己の表現として扱う点が大きな特徴である。
+ヰ世界情緒は [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) に所属するバーチャルシンガー、クリエイターであり、[V.W.P](/ja/artists/vwp/vwp) のメンバーの一人でもある。歌唱だけにとどまらず、イラスト、ナレーション、声の演技、世界観表現までを含めて自己の表現として扱う点が大きな特徴である。
 
 神椿の中でも、最も“別世界そのもの”を背負っている感覚の強いアーティストの一人といえる。
 
@@ -76,29 +76,29 @@ seo:
 
 ### 2020年
 
-- **2月23日**：初のオリジナル楽曲「物語りのワルツ」（作詞・作曲：samayuzame）を公開。
-- **4月27日**：2ndオリジナル楽曲「ジオラマドラマ」（作詞・作曲：samayuzame）を公開。
-- **7月16日**：3rdオリジナル楽曲「ハイドレンジア」（作詞・作曲：とうかさ）を公開。
+- **2月23日**：初のオリジナル楽曲「[物語りのワルツ](/ja/songs/isekaijoucho/originals/物語りのワルツ-waltz-of-storyteller)」（作詞・作曲：samayuzame）を公開。
+- **4月27日**：2ndオリジナル楽曲「[ジオラマドラマ](/ja/songs/isekaijoucho/originals/ジオラマドラマ-georama-drama)」（作詞・作曲：samayuzame）を公開。
+- **7月16日**：3rdオリジナル楽曲「[ハイドレンジア](/ja/songs/isekaijoucho/originals/ハイドレンジア-hydrangea)」（作詞・作曲：とうかさ）を公開。
 - **9月26日**：5thオリジナル楽曲「とめどなき白情」（作詞・作曲：はるまきごはん）を公開。
 - **12月26日**：初のカバーライブ「キャンディライブ」を開催。ライブ終了後、代表曲となる7thオリジナル楽曲「シリウスの心臓」（作詞・作曲：傘村トータ）を公開。
 
 ### 2021年
 
-- **3月13日**：花譜 2nd ONE-MAN LIVE「不可解弐Q2」にて、バーチャルアーティストグループ「V.W.P」のメンバーとして初お披露目され、グループ結成を発表。
-- **10月23日**：初の3Dバーチャルワンマンライブ「Anima」を開催。同日、1stアルバム『創生』の制作と、音楽的同位体「CeVIO AI 星界」の制作決定を発表。
+- **3月13日**：[花譜](/ja/artists/vwp/kaf) 2nd ONE-MAN LIVE「不可解弐Q2」にて、バーチャルアーティストグループ「[V.W.P](/ja/artists/vwp/vwp)」のメンバーとして初お披露目され、グループ結成を発表。
+- **10月23日**：初の3Dバーチャルワンマンライブ「Anima」を開催。同日、1stアルバム『[創生](/ja/albums/isekaijoucho/sousei)』の制作と、[音楽的同位体](/ja/artists/solo/musical-isotope)「CeVIO AI [星界](/ja/artists/isotopes/sekai)」の制作決定を発表。
 - **12月8日**：1stアルバム『創生』をリリース。
 
 ### 2022年
 
 - **4月29日**：自身の歌声をもとにした音楽的同位体「CeVIO AI 星界 / SEKAI」が正式発売。
-- **7月17日**：理芽とのツーマンバーチャルライブ「Singularity Live Vol. 1」を開催し、コラボ楽曲「パンドラコール」を発表。
+- **7月17日**：[理芽](/ja/artists/vwp/rim)とのツーマンバーチャルライブ「Singularity Live Vol. 1」を開催し、コラボ楽曲「[パンドラコール](/ja/songs/isekaijoucho/originals/パンドラコール-pandora-call)」を発表。
 - **9月10日 - 10月10日**：初の個展「ヰ世界情緒展」を東京にて開催。
 
 ### 2023年
 
 - **1月14日**：2回目のカバーライブ「キャンディライブ2」を開催。
 - **6月18日**：2nd ONE-MAN LIVE「Anima Ⅱ -神椿市参番街-」を開催。新3Dモデル「普遍体」をお披露目。
-- **12月9日**：4周年記念配信にて、2ndアルバム『色彩』の制作決定を発表。
+- **12月9日**：4周年記念配信にて、2ndアルバム『[色彩](/ja/albums/isekaijoucho/shikisai)』の制作決定を発表。
 
 ### 2024年
 
@@ -141,7 +141,7 @@ seo:
 
 ## 音楽作品・ライブとコラボレーション
 
-「物語りのワルツ」「ジオラマドラマ」「ハイドレンジア」「とめどなき白情」「斯く美しき造花」「シリウスの心臓」から、アルバム『創生』『色彩』、EP『幻視録』へと個人作品が展開した。「CANDY LIVE」、「Anima」、Singularity Live、V.W.P公演、2026年の「Flower Closet / Anima Re:birth」は、歌、絵、キャラクター、世界観を異なる組み合わせで提示する。
+「[物語りのワルツ](/ja/songs/isekaijoucho/originals/物語りのワルツ-waltz-of-storyteller)」「[ジオラマドラマ](/ja/songs/isekaijoucho/originals/ジオラマドラマ-georama-drama)」「[ハイドレンジア](/ja/songs/isekaijoucho/originals/ハイドレンジア-hydrangea)」「[とめどなき白情](/ja/songs/isekaijoucho/originals/とめどなき白情-tomedonaki-hakujou)」「[斯く美しき造花](/ja/songs/isekaijoucho/originals/斯く美しき造花-such-a-beautiful-artificial-flower)」「シリウスの心臓」から、アルバム『[創生](/ja/albums/isekaijoucho/sousei)』『[色彩](/ja/albums/isekaijoucho/shikisai)』、EP『幻視録』へと個人作品が展開した。「[CANDY LIVE](/ja/albums/isekaijoucho/candy-live)」、「Anima」、Singularity Live、[V.W.P](/ja/artists/vwp/vwp)公演、2026年の「Flower Closet / Anima Re:birth」は、歌、絵、キャラクター、世界観を異なる組み合わせで提示する。
 
 『Virtual Ties』ではキャラクターの原型、視覚制作者、歌手という複数の役割を担う。orie、れおえん、samayuzame、とうかさ、はるまきごはんなどが各時期の作品に関わっている。
 

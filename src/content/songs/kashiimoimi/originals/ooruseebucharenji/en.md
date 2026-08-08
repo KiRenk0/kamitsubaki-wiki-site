@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/ooruseebucharenji.jpg
 
 ## Overview
 
-“オールセーブチャレンジ” is a single by 香椎モイミ, released on 2025-06-11.
+“オールセーブチャレンジ” is a single by [香椎モイミ](/en/artists/creators/kashiimoimi), released on 2025-06-11.
 
 ## Listen
 {{media-switcher::オールセーブチャレンジ}}

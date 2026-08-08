@@ -19,7 +19,7 @@ image: /images/songs/kaf/track-1687478833.jpg
 
 ## Overview
 
-“例えば” is track 10 of KAF’s 狂想.
+“例えば” is track 10 of [KAF](/en/artists/vwp/kaf)’s [狂想](/en/albums/kaf/kyoso).
 
 ## Listen
 

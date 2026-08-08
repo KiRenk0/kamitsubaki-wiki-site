@@ -19,7 +19,7 @@ image: /images/albums/kaf/kansoku.jpg
 
 ## 作品概要
 
-「不可解」は花譜の『観測』に収録された13曲目です。
+「不可解」は[花譜](/ja/artists/vwp/kaf)の『[観測](/ja/albums/kaf/kansoku)』に収録された13曲目です。
 
 ## 視聴
 

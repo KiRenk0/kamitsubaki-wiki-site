@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa.jpg
 
 ## 作品简介
 
-《かみのいないせかいで(Instrumental)》是花譜收录于《寓話》的第 1 轨。
+《かみのいないせかいで(Instrumental)》是[花譜](/zh/artists/vwp/kaf)收录于《[寓話](/zh/albums/kaf/guwa)》的第 1 轨。
 
 ## 试听
 

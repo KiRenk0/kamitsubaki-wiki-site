@@ -19,7 +19,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 ## Overview
 
-“未確認少女進行形(煮ル果実 Remix)” is track 7 of KAF’s 観測γ.
+“未確認少女進行形(煮ル果実 Remix)” is track 7 of [KAF](/en/artists/vwp/kaf)’s [観測γ](/en/albums/kaf/kansoku-gamma).
 
 ## Listen
 

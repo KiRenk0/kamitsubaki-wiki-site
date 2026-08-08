@@ -19,7 +19,7 @@ image: /images/albums/rim/new-romancer.jpg
 
 ## 作品简介
 
-《NEUROMANCE》收录于《NEW ROMANCER》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《NEUROMANCE》收录于《[NEW ROMANCER](/zh/albums/rim/new-romancer)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 

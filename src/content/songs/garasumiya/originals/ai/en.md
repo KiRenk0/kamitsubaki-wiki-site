@@ -16,7 +16,7 @@ image: /images/songs/grp/ai.jpg
 
 ## Overview
 
-“アイ (feat. higma)” is a 硝子宮 release dated 2024-11-27.
+“アイ (feat. higma)” is a [硝子宮](/en/artists/girls_revolution_project/garasumiya) release dated 2024-11-27.
 
 ## Listen
 

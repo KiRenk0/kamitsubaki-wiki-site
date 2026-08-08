@@ -59,7 +59,7 @@ seo:
 
 ## 概要
 
-幸祜は KAMITSUBAKI STUDIO に所属するバーチャルシンガーであり、V.W.P のメンバーの一人でもある。雷のように伸びるロングトーンと、真正面から押し込むような歌唱が大きな個性で、神椿の中ではロック的な推進力を象徴する存在として見られることが多い。
+幸祜は [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) に所属するバーチャルシンガーであり、[V.W.P](/ja/artists/vwp/vwp) のメンバーの一人でもある。雷のように伸びるロングトーンと、真正面から押し込むような歌唱が大きな個性で、神椿の中ではロック的な推進力を象徴する存在として見られることが多い。
 
 ## 役割と創作上の位置づけ
 
@@ -69,24 +69,24 @@ seo:
 
 ### 2020年
 
-- **10月25日**：KAMITSUBAKI STUDIOの5人目のメンバーとしてデビュー。同日、初のカバー楽曲「Hearts」を公開。
-- **11月15日**：1stオリジナルシングル「harmony」（作詞・作曲：Len）をリリース。
+- **10月25日**：[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio)の5人目のメンバーとしてデビュー。同日、初のカバー楽曲「[Hearts](/ja/songs/koko/covers/hearts)」を公開。
+- **11月15日**：1stオリジナルシングル「[harmony](/ja/songs/koko/originals/harmony)」（作詞・作曲：Len）をリリース。
 
 ### 2021年
 
-- **3月13日**：花譜 2nd ONE-MAN LIVE「不可解・弐Q2」にて、花譜、理芽、春猿火、ヰ世界情緒とともにバーチャルシンガーグループ「V.W.P」の結成を発表。
+- **3月13日**：[花譜](/ja/artists/vwp/kaf) 2nd ONE-MAN LIVE「不可解・弐Q2」にて、花譜、[理芽](/ja/artists/vwp/rim)、[春猿火](/ja/artists/vwp/harusaruhi)、[ヰ世界情緒](/ja/artists/vwp/isekaijoucho)とともにバーチャルシンガーグループ「[V.W.P](/ja/artists/vwp/vwp)」の結成を発表。
 - **5月8日**：初のカバーライブ「ARARE LIVE」をオンラインで開催。
 - **6月10日**：ゲーム『モナーク／Monark』の挿入歌であるオリジナルシングル「ASH」をリリース。
 - **6月20日**：V.W.Pのメンバーとともにグループ初のオリジナルシングル「電脳」をリリース。
-- **9月〜10月**：企画「Player」のオリジナルシングル「瞑目」「夜光を呼ぶ」「the last bullet」を連続リリース。
-- **12月29日**：1st ONE-MAN LIVE「PLAYER」を開催し、3D新形態 Type-Real「Alnair」を披露。同日、1stアルバム『prayer』の予約受付を開始。
+- **9月〜10月**：企画「Player」のオリジナルシングル「[瞑目](/ja/songs/koko/originals/瞑目-closing-ones-eyes)」「[夜光を呼ぶ](/ja/songs/koko/originals/夜光を呼ぶ-recall-me)」「[the last bullet](/ja/songs/koko/originals/the-last-bullet)」を連続リリース。
+- **12月29日**：1st ONE-MAN LIVE「PLAYER」を開催し、3D新形態 Type-Real「Alnair」を披露。同日、1stアルバム『[prayer](/ja/albums/koko/prayer)』の予約受付を開始。
 
 ### 2022年
 
 - **2月23日**：1stアルバム『prayer』をリリース。
 - **4月15日〜16日**：V.W.P 1st ONE-MAN LIVE「現象」および合同ライブ「魔女集会」に出演。
-- **7月12日**：ヰ世界情緒とのコラボレーションオリジナル楽曲「刻印」をリリース。
-- **7月15日**：自身の声をベースとした音楽的同位体「狐子（COKO）」の制作を発表。同日、TVアニメ『5億年ボタン』のオープニングテーマ「TIME」をリリース。
+- **7月12日**：[ヰ世界情緒](/ja/artists/vwp/isekaijoucho)とのコラボレーションオリジナル楽曲「[刻印](/ja/songs/isekaijoucho/collaborations/刻印-kokuin)」をリリース。
+- **7月15日**：自身の声をベースとした[音楽的同位体](/ja/artists/solo/musical-isotope)「[狐子](/ja/artists/isotopes/coko)（COKO）」の制作を発表。同日、TVアニメ『5億年ボタン』のオープニングテーマ「[TIME](/ja/songs/koko/originals/time)」をリリース。
 - **11月6日**：春猿火とのツーマンライブ「Singularity Live Vol.2」を開催。
 
 ### 2023年
@@ -95,12 +95,12 @@ seo:
 
 ### 2024年
 
-- **6月**：デジタルシングル「始まりの銃声」をリリース。同月、療養のため活動休止を発表。
+- **6月**：デジタルシングル「[始まりの銃声](/ja/songs/koko/originals/始まりの銃声-signal-of-the-beginning)」をリリース。同月、療養のため活動休止を発表。
 
 ### 2025年
 
 - **2月**：活動再開を発表。
-- **4月23日**：2ndアルバム『prayer2』をリリース。
+- **4月23日**：2ndアルバム『[prayer2](/ja/albums/koko/prayer-2)』をリリース。
 - **5月14日**：3rd ONE-MAN LIVE「PLAYER Ⅲ」（Zepp Shinjuku）を開催。約3年半ぶりとなる有観客でのワンマンライブとなった。
 - **8月13日**：TVアニメ『神椿市建設中。』の挿入歌「シャングリラ」をリリース。
 
@@ -112,7 +112,7 @@ seo:
 
 ## 代表作品と関連項目
 
-- **個人シングル・アルバム**：（『むすんでひらいて』、『prayer2』など）
+- **個人シングル・アルバム**：（『[むすんでひらいて](/ja/songs/koko/originals/むすんでひらいて-musunde-hiraite)』、『[prayer2](/ja/albums/koko/prayer-2)』など）
 - **V.W.P における対照的な派生曲**
 - **ライブでの高出力なパフォーマンス**
 
@@ -127,12 +127,12 @@ seo:
 | --- | --- |
 | キャラクターデザイン | SWAV |
 | 主要企画 | 『PLAYER』、『ARARE LIVE』、V.W.P |
-| 主なコラボレーター | 大沼パセリ、Len、Feryquitous、香椎モイミ、DIVELA |
+| 主なコラボレーター | 大沼パセリ、Len、Feryquitous、[香椎モイミ](/ja/artists/creators/kashiimoimi)、DIVELA |
 | 音声の展開 | 幸祜の歌声をもとにした音楽的同位体「狐子」 |
 
 ## 音楽作品・ライブとコラボレーション
 
-「harmony」「白昼夢」「この世界に口づけを」「ASH」「瞑目」「夜光を呼ぶ」「the last bullet」は、デビュー曲から『PLAYER』期への流れを示す。アルバム『prayer』『prayer2』は個人活動の大きな区切りであり、『PLAYER』はワンマンライブの中心ブランド、『ARARE LIVE』はカバーと歌唱の幅を示すシリーズである。体調回復後の『PLAYER III』は観客を入れた個人舞台への復帰となった。
+「[harmony](/ja/songs/koko/originals/harmony)」「[白昼夢](/ja/songs/koko/originals/白昼夢-daydream)」「[この世界に口づけを](/ja/songs/koko/originals/この世界に口づけを-kiss-this-world)」「ASH」「[瞑目](/ja/songs/koko/originals/瞑目-closing-ones-eyes)」「[夜光を呼ぶ](/ja/songs/koko/originals/夜光を呼ぶ-recall-me)」「[the last bullet](/ja/songs/koko/originals/the-last-bullet)」は、デビュー曲から『PLAYER』期への流れを示す。アルバム『[prayer](/ja/albums/koko/prayer)』『[prayer2](/ja/albums/koko/prayer-2)』は個人活動の大きな区切りであり、『PLAYER』はワンマンライブの中心ブランド、『[ARARE LIVE](/ja/albums/koko/arare-live)』はカバーと歌唱の幅を示すシリーズである。体調回復後の『PLAYER III』は観客を入れた個人舞台への復帰となった。
 
 ## 形態・設定・エピソード
 

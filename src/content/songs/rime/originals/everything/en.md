@@ -17,7 +17,7 @@ image: /images/songs/rime/everything.jpg
 
 ## Overview
 
-“Everything” is a single by 裏命, released on 2016-01-28.
+“Everything” is a single by [裏命](/en/artists/isotopes/rime), released on 2016-01-28.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/everything/1851923844?i=1851923845&uo=4 "Everything")

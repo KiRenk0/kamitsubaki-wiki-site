@@ -17,7 +17,7 @@ image: /images/songs/kafu/kurukuru.jpg
 
 ## Overview
 
-“くるくる” is a single by 可不, released on 2020-12-24.
+“くるくる” is a single by [可不](/en/artists/isotopes/kafu), released on 2020-12-24.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/%E3%81%8F%E3%82%8B%E3%81%8F%E3%82%8B/1678686023?i=1678686024&uo=4 "くるくる")

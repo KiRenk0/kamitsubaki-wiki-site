@@ -17,7 +17,7 @@ image: /images/songs/kanzaki-iori/naze.jpg
 
 ## 作品概要
 
-カンザキイオリが2023-03-31にリリースしたシングル「なぜ」。
+[カンザキイオリ](/ja/artists/creators/kanzaki-iori)が2023-03-31にリリースしたシングル「なぜ」。
 
 ## 視聴
 {{media-switcher::なぜ}}

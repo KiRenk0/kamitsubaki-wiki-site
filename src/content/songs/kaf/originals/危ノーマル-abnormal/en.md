@@ -19,7 +19,7 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 
 ## Overview
 
-“危ノーマル” is track 2 of KAF’s 魔法.
+“危ノーマル” is track 2 of [KAF](/en/artists/vwp/kaf)’s [魔法](/en/albums/kaf/maho).
 
 ## Listen
 

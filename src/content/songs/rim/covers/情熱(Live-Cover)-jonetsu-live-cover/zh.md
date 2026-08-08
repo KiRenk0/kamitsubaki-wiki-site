@@ -19,7 +19,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 
 ## 作品简介
 
-《情熱 (Live Cover)》收录于《CHOCOLATE LIVE4》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《情熱 (Live Cover)》收录于《[CHOCOLATE LIVE4](/zh/albums/rim/chocolate-live-4)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 

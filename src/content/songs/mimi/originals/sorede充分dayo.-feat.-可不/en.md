@@ -17,7 +17,7 @@ image: /images/songs/mimi/sorede充分dayo.-feat.-可不.jpg
 
 ## Overview
 
-“それで充分だよ。 (feat. 可不)” is a single by MIMI, released on 2023-12-17.
+“それで充分だよ。 (feat. [可不](/en/artists/isotopes/kafu))” is a single by [MIMI](/en/artists/creators/mimi), released on 2023-12-17.
 
 ## Listen
 {{media-switcher::それで充分だよ。 (feat. 可不)}}

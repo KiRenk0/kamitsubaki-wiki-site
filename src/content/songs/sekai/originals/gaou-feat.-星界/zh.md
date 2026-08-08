@@ -17,7 +17,7 @@ image: /images/songs/sekai/gaou-feat.-星界.jpg
 
 ## 作品简介
 
-星界于 2024-03-05 发行的单曲《ガオウ (feat. 星界)》。
+[星界](/zh/artists/isotopes/sekai)于 2024-03-05 发行的单曲《ガオウ (feat. 星界)》。
 
 ## 试听
 @[apple-music](https://music.apple.com/jp/album/%E3%82%AC%E3%82%AA%E3%82%A6-feat-%E6%98%9F%E7%95%8C/1760081653?i=1760081655&uo=4 "ガオウ (feat. 星界)")

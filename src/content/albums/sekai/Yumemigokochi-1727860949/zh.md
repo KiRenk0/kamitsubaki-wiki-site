@@ -42,7 +42,7 @@ tracks:
 
 ## 简介
 
-星界于 2024-02-01 发行的EP《Yumemigokochi》,共收录 5 首歌曲。
+[星界](/zh/artists/isotopes/sekai)于 2024-02-01 发行的EP《Yumemigokochi》,共收录 5 首歌曲。
 
 ## 收录曲
 

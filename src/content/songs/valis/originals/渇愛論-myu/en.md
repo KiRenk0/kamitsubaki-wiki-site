@@ -17,7 +17,7 @@ image: /images/songs/valis/渇愛論-myu.jpg
 
 ## Overview
 
-“渇愛論(MYU)” is a single by VALIS, released on 2023-06-24.
+“渇愛論(MYU)” is a single by [VALIS](/en/artists/solo/valis), released on 2023-06-24.
 
 ## Listen
 {{media-switcher::渇愛論(MYU)}}

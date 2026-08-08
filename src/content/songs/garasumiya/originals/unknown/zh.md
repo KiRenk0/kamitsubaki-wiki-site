@@ -16,7 +16,7 @@ image: /images/songs/grp/unknown.jpg
 
 ## 作品简介
 
-《unknown》是硝子宮于 2025-03-26 正式发行的作品。
+《unknown》是[硝子宮](/zh/artists/girls_revolution_project/garasumiya)于 2025-03-26 正式发行的作品。
 
 ## 试听
 

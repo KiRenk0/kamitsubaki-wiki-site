@@ -17,7 +17,7 @@ image: /images/songs/valis/彷徨fuooebaa.jpg
 
 ## Overview
 
-“彷徨フォーエバー” is a single by VALIS, released on 2025-12-16.
+“彷徨フォーエバー” is a single by [VALIS](/en/artists/solo/valis), released on 2025-12-16.
 
 ## Listen
 {{media-switcher::彷徨フォーエバー}}

@@ -17,7 +17,7 @@ image: /images/songs/rime/美shiimono.jpg
 
 ## Overview
 
-“美しいもの” is a single by 裏命, released on 2024-08-25.
+“美しいもの” is a single by [裏命](/en/artists/isotopes/rime), released on 2024-08-25.
 
 ## Listen
 {{media-switcher::美しいもの}}

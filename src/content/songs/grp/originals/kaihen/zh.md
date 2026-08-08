@@ -16,7 +16,7 @@ image: /images/songs/grp/kaihen.jpg
 
 ## 作品简介
 
-《改変》是少女革命計画于 2025-10-29 正式发行的作品。
+《改変》是[少女革命計画](/zh/projects/labels/girls-revolution-project)于 2025-10-29 正式发行的作品。
 
 ## 试听
 

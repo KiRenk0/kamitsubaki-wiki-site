@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/chronicle-a.jpg
 
 ## Overview
 
-“Chronicle A” is a single by Empty old City, released on 2023-10-24.
+“Chronicle A” is a single by [Empty old City](/en/artists/solo/empty-old-city), released on 2023-10-24.
 
 ## Listen
 {{media-switcher::Chronicle A}}

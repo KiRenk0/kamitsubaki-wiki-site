@@ -17,7 +17,7 @@ image: /images/songs/sooda/bansoukou.jpg
 
 ## Overview
 
-“Bansoukou” is a single by Sooda, released on 2024-03-22.
+“Bansoukou” is a single by [Sooda](/en/artists/creators/sooda), released on 2024-03-22.
 
 ## Listen
 {{media-switcher::Bansoukou}}

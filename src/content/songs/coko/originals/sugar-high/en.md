@@ -22,7 +22,7 @@ image: /images/songs/coko/sugar-high.jpg
 
 ## Overview
 
-“Sugar-High” is a single by 狐子, released on 2026-01-27.
+“Sugar-High” is a single by [狐子](/en/artists/isotopes/coko), released on 2026-01-27.
 
 ## Listen
 {{media-switcher::Sugar-High}}

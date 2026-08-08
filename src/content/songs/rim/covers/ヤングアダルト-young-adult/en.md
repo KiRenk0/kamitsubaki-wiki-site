@@ -20,7 +20,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 ## Overview
 
-ヤングアダルト (feat. KOKO) appears on CHOCOLATE LIVE2 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+ヤングアダルト (feat. [KOKO](/en/artists/vwp/koko)) appears on [CHOCOLATE LIVE2](/en/albums/rim/chocolate-live-2) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

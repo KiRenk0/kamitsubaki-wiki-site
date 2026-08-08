@@ -17,7 +17,7 @@ image: /images/songs/sekai/hanabira.jpg
 
 ## Overview
 
-“ハナビラ” is a single by 星界, released on 2024-04-11.
+“ハナビラ” is a single by [星界](/en/artists/isotopes/sekai), released on 2024-04-11.
 
 ## Listen
 {{media-switcher::ハナビラ}}

@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa.jpg
 
 ## Overview
 
-“かみのいないせかいで(Instrumental)” is track 1 of KAF’s 寓話.
+“かみのいないせかいで(Instrumental)” is track 1 of [KAF](/en/artists/vwp/kaf)’s [寓話](/en/albums/kaf/guwa).
 
 ## Listen
 

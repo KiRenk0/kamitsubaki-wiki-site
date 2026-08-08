@@ -17,7 +17,7 @@ image: /images/songs/kafu/人間ni産maretakara.jpg
 
 ## 作品概要
 
-可不が2025-02-01にリリースしたシングル「人間に産まれたから」。
+[可不](/ja/artists/isotopes/kafu)が2025-02-01にリリースしたシングル「人間に産まれたから」。
 
 ## 視聴
 {{media-switcher::人間に産まれたから}}

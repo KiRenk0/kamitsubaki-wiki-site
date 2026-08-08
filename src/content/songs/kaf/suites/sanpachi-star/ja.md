@@ -15,7 +15,7 @@ image: /images/albums/kaf/suite.jpg
 
 ## 作品概要
 
-「サンパチスター feat. 花譜」は花譜の『組曲』に収録された16曲目です。
+「サンパチスター feat. [花譜](/ja/artists/vwp/kaf)」は花譜の『[組曲](/ja/albums/kaf/suite)』に収録された16曲目です。
 
 ## 歌詞
 

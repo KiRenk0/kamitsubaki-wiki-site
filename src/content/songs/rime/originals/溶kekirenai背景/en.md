@@ -17,7 +17,7 @@ image: /images/songs/rime/溶kekirenai背景.jpg
 
 ## Overview
 
-“溶けきれない背景” is a single by 裏命, released on 2025-08-04.
+“溶けきれない背景” is a single by [裏命](/en/artists/isotopes/rime), released on 2025-08-04.
 
 ## Listen
 {{media-switcher::溶けきれない背景}}

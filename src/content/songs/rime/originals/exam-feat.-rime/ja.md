@@ -17,7 +17,7 @@ image: /images/songs/rime/exam-feat.-rime.jpg
 
 ## 作品概要
 
-裏命が2015-10-11にリリースしたシングル「EXAM (feat. Rime)」。
+[裏命](/ja/artists/isotopes/rime)が2015-10-11にリリースしたシングル「EXAM (feat. Rime)」。
 
 ## 視聴
 @[apple-music](https://music.apple.com/jp/album/exam-feat-rime/1746439427?i=1746439428&uo=4 "EXAM (feat. Rime)")

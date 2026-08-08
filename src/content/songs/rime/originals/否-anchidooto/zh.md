@@ -17,7 +17,7 @@ image: /images/songs/rime/否-anchidooto.jpg
 
 ## 作品简介
 
-裏命于 2024-10-29 发行的单曲《否・アンチドート》。
+[裏命](/zh/artists/isotopes/rime)于 2024-10-29 发行的单曲《否・アンチドート》。
 
 ## 试听
 {{media-switcher::否・アンチドート}}

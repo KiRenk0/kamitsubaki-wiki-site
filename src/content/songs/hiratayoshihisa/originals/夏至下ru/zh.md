@@ -17,7 +17,7 @@ image: /images/songs/hiratayoshihisa/夏至下ru.jpg
 
 ## 作品简介
 
-平田義久于 2023-05-09 发行的单曲《夏至下る》。
+[平田義久](/zh/artists/creators/hiratayoshihisa)于 2023-05-09 发行的单曲《夏至下る》。
 
 ## 试听
 {{media-switcher::夏至下る}}

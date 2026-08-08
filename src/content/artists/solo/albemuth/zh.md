@@ -15,7 +15,7 @@ categorySubtitle: "SOLO ARTISTS & UNITS"
 
 ## 概述
 
-Albemuth（日文：アルベムス）是 KAMITSUBAKI STUDIO 旗下 SINSEKAI STUDIO 系谱中的双人虚拟歌手组合，由存流（ARU）与明透（ASU）组成。组合名称取自天文学中的天狼星相关意象，也延续了深脊界一侧作品对于星体、光和异世界的想象。
+Albemuth（日文：アルベムス）是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 旗下 SINSEKAI STUDIO 系谱中的双人虚拟歌手组合，由存流（[ARU](/zh/artists/solo/aru)）与[明透](/zh/artists/solo/asu)（ASU）组成。组合名称取自天文学中的天狼星相关意象，也延续了深脊界一侧作品对于星体、光和异世界的想象。
 
 Albemuth 的两位成员拥有反差明显的歌唱个性：存流以低语感、幽暗而克制的声音建立近距离的听觉空间；明透则以清亮、高能量且难以预测的声线制造更强的跃动感。二人的组合创作因此不是简单的同声合唱，而是以对照和互补为核心的双轨表达。
 
@@ -42,7 +42,7 @@ Albemuth 的两位成员拥有反差明显的歌唱个性：存流以低语感�
 
 ## 组合音乐与作品
 
-Albemuth 的作品以成员各自的视角形成对照。2023年7月5日发行的《eve》与《ADAM》分别从存流与明透的侧面展开，是理解二人不同创作气质的核心专辑。组合代表曲包括《Guilty》《新世界へ》《tether》《Black Cloth》。
+Albemuth 的作品以成员各自的视角形成对照。2023年7月5日发行的《eve》与《ADAM》分别从存流与[明透](/zh/artists/solo/asu)的侧面展开，是理解二人不同创作气质的核心专辑。组合代表曲包括《[Guilty](/zh/songs/albemuth/originals/guilty)》《[新世界へ](/zh/songs/asu/originals/新世界he)》《tether》《Black Cloth》。
 
 | 作品 | 关联成员 / 说明 |
 | --- | --- |

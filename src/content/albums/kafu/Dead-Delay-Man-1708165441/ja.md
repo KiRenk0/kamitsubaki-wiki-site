@@ -54,7 +54,7 @@ tracks:
 
 ## 概要
 
-可不が2023-10-04にリリースしたアルバム『Dead Delay Man』。全8曲を収録。
+[可不](/ja/artists/isotopes/kafu)が2023-10-04にリリースしたアルバム『Dead Delay Man』。全8曲を収録。
 
 ## 収録曲
 

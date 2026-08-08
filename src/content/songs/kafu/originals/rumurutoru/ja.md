@@ -17,7 +17,7 @@ image: /images/songs/kafu/rumurutoru.jpg
 
 ## 作品概要
 
-可不が2023-04-29にリリースしたシングル「ルムルトル」。
+[可不](/ja/artists/isotopes/kafu)が2023-04-29にリリースしたシングル「ルムルトル」。
 
 ## 視聴
 {{media-switcher::ルムルトル}}

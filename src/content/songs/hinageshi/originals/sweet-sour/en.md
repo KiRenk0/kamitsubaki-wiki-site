@@ -16,7 +16,7 @@ image: /images/songs/grp/sweet-sour.jpg
 
 ## Overview
 
-“sweet/sour” is a 氷夏至 release dated 2026-01-07.
+“sweet/sour” is a [氷夏至](/en/artists/girls_revolution_project/hinageshi) release dated 2026-01-07.
 
 ## Listen
 

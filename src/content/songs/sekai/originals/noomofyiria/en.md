@@ -17,7 +17,7 @@ image: /images/songs/sekai/noomofyiria.jpg
 
 ## Overview
 
-“ノーモフィリア” is a single by 星界, released on 2016-02-16.
+“ノーモフィリア” is a single by [星界](/en/artists/isotopes/sekai), released on 2016-02-16.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/%E3%83%8E%E3%83%BC%E3%83%A2%E3%83%95%E3%82%A3%E3%83%AA%E3%82%A2/1851487241?i=1851487245&uo=4 "ノーモフィリア")

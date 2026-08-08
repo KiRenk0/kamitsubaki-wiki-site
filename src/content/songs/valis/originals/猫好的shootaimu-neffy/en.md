@@ -17,7 +17,7 @@ image: /images/songs/valis/猫好的shootaimu-neffy.jpg
 
 ## Overview
 
-“猫好的ショータイム(NEFFY)” is a single by VALIS, released on 2023-10-21.
+“猫好的ショータイム(NEFFY)” is a single by [VALIS](/en/artists/solo/valis), released on 2023-10-21.
 
 ## Listen
 {{media-switcher::猫好的ショータイム(NEFFY)}}

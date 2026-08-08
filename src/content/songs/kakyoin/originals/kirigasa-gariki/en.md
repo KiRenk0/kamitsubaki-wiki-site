@@ -16,7 +16,7 @@ image: /images/songs/grp/kirigasa-gariki.jpg
 
 ## Overview
 
-“キリガサガリキ” is a 佳鏡院 release dated 2025-03-19.
+“キリガサガリキ” is a [佳鏡院](/en/artists/girls_revolution_project/kakyoin) release dated 2025-03-19.
 
 ## Listen
 

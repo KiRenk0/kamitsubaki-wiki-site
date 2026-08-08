@@ -57,7 +57,7 @@ seo:
 软件于 2023年11月13日基于 CeVIO AI 发售。角色设计由一色操刀，定位强调清晰咬字、快速说唱与强张力演唱。
 
 <div class="wiki-fact-grid">
-  <div class="wiki-fact-card"><p class="wiki-fact-card__label">VOICE PROVIDER</p><p class="wiki-fact-card__value">春猿火 / HARUSARUHI</p></div>
+  <div class="wiki-fact-card"><p class="wiki-fact-card__label">VOICE PROVIDER</p><p class="wiki-fact-card__value">[春猿火](/zh/artists/vwp/harusaruhi) / HARUSARUHI</p></div>
   <div class="wiki-fact-card"><p class="wiki-fact-card__label">SINGING / TALK</p><p class="wiki-fact-card__value">CeVIO AI；TALK EXTENSION × VOICEPEAK</p></div>
   <div class="wiki-fact-card"><p class="wiki-fact-card__label">CHARACTER DESIGN</p><p class="wiki-fact-card__value">一色</p></div>
   <div class="wiki-fact-card"><p class="wiki-fact-card__label">NAME CONCEPT</p><p class="wiki-fact-card__value">取自“春”，也关联“羽化”与“累ねる”</p></div>

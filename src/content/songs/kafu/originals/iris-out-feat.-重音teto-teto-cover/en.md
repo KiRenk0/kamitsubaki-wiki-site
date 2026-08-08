@@ -17,7 +17,7 @@ image: /images/songs/kafu/iris-out-feat.-重音teto-teto-cover.jpg
 
 ## Overview
 
-“IRIS OUT (feat. 重音テト) [Teto Cover]” is a single by 可不, released on 2025-10-05.
+“IRIS OUT (feat. 重音テト) [Teto Cover]” is a single by [可不](/en/artists/isotopes/kafu), released on 2025-10-05.
 
 ## Listen
 {{media-switcher::IRIS OUT (feat. 重音テト) [Teto Cover]}}

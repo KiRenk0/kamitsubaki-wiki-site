@@ -19,7 +19,7 @@ image: /images/albums/isekaijoucho/virtual-ties.jpg
 
 ## 作品概要
 
-「また、ここから」は『Virtual Ties 〜ヰ世界情緒夢想曲〜 Theme Songs』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「また、ここから」は『[Virtual Ties 〜ヰ世界情緒夢想曲〜 Theme Songs](/ja/albums/isekaijoucho/virtual-ties)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 試聴
 

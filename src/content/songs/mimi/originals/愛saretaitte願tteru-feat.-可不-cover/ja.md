@@ -17,7 +17,7 @@ image: /images/songs/mimi/愛saretaitte願tteru-feat.-可不-cover.jpg
 
 ## 作品概要
 
-MIMIが2025-11-20にリリースしたシングル「愛されたいって願ってる (feat. 可不) [Cover]」。
+MIMIが2025-11-20にリリースしたシングル「愛されたいって願ってる (feat. [可不](/ja/artists/isotopes/kafu)) [Cover]」。
 
 ## 視聴
 {{media-switcher::愛されたいって願ってる (feat. 可不) [Cover]}}

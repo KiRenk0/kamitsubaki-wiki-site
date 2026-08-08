@@ -16,7 +16,7 @@ image: /images/songs/kaf/track-1772862797.jpg
 
 ## 作品概要
 
-「Answer (English Ver.)」は2024年10月23日に正式リリースされた花譜の楽曲です。
+「Answer (English Ver.)」は2024年10月23日に正式リリースされた[花譜](/ja/artists/vwp/kaf)の楽曲です。
 
 ## 視聴
 

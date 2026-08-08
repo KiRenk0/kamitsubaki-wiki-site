@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 ## Overview
 
-“ラムのラブソング (I SCREAM LIVE2 ver.)” is track 27 of KAF’s I SCREAM LIVE2.
+“ラムのラブソング (I SCREAM LIVE2 ver.)” is track 27 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE2](/en/albums/kaf/i-scream-live-2).
 
 ## Listen
 

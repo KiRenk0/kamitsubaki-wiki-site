@@ -19,7 +19,7 @@ image: /images/albums/kaf/gsa.jpg
 
 ## 作品简介
 
-《スイマー》是花譜收录于《GSA》的第 2 轨。
+《スイマー》是[花譜](/zh/artists/vwp/kaf)收录于《[GSA](/zh/albums/kaf/gsa)》的第 2 轨。
 
 ## 试听
 

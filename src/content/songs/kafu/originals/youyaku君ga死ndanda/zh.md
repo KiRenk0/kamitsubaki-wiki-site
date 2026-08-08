@@ -16,7 +16,7 @@ image: /images/songs/kafu/youyaku君ga死ndanda.jpg
 
 ## 作品简介
 
-可不于 2022-07-31 发行的单曲《ようやく君が死んだんだ。》。
+[可不](/zh/artists/isotopes/kafu)于 2022-07-31 发行的单曲《ようやく君が死んだんだ。》。
 
 ## 试听
 {{media-switcher::ようやく君が死んだんだ。}}

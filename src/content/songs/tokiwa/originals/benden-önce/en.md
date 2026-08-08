@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/benden-önce.jpg
 
 ## Overview
 
-“Benden Önce” is a single by tokiwa, released on 2026-05-21.
+“Benden Önce” is a single by [tokiwa](/en/artists/creators/tokiwa), released on 2026-05-21.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/benden-%C3%B6nce/1856680616?i=1856680618&uo=4 "Benden Önce")

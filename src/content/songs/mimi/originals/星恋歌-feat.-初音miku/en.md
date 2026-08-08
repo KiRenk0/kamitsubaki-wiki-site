@@ -17,7 +17,7 @@ image: /images/songs/mimi/星恋歌-feat.-初音miku.jpg
 
 ## Overview
 
-“星恋歌 (feat. 初音ミク)” is a single by MIMI, released on 2024-11-22.
+“星恋歌 (feat. 初音ミク)” is a single by [MIMI](/en/artists/creators/mimi), released on 2024-11-22.
 
 ## Listen
 {{media-switcher::星恋歌 (feat. 初音ミク)}}

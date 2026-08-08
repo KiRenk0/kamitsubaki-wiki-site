@@ -16,7 +16,7 @@ image: /images/songs/grp/alive.jpg
 
 ## 作品简介
 
-《アライブ》是氷夏至于 2024-10-16 正式发行的作品。
+《アライブ》是[氷夏至](/zh/artists/girls_revolution_project/hinageshi)于 2024-10-16 正式发行的作品。
 
 ## 试听
 

@@ -51,7 +51,7 @@ seo:
 
 ## 代表作品
 
-「余命日記」「嘘月が綺麗ですね」「レグルスリベリオン」「エメの鳥籠」「バレットシャーク」「化猫横丁」など、物語の深みをアトモスフェリックなエレクトロニックプロダクションに織り込む能力を示す作品を多数発表している。
+「[余命日記](/ja/songs/ren/originals/余命日記)」「[嘘月が綺麗ですね](/ja/songs/ren/originals/嘘月ga綺麗desune)」「[レグルスリベリオン](/ja/songs/ren/originals/regurusuriberion)」「[エメの鳥籠](/ja/songs/ren/originals/emeno鳥籠)」「[バレットシャーク](/ja/songs/ren/originals/barettoshaaku)」「[化猫横丁](/ja/songs/ren/originals/化猫横丁)」など、物語の深みをアトモスフェリックなエレクトロニックプロダクションに織り込む能力を示す作品を多数発表している。
 
 ## コラボレーションと最近の活動
 

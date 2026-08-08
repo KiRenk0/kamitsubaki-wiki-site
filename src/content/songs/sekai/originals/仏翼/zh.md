@@ -17,7 +17,7 @@ image: /images/songs/sekai/仏翼.jpg
 
 ## 作品简介
 
-星界于 2023-12-24 发行的单曲《仏翼》。
+[星界](/zh/artists/isotopes/sekai)于 2023-12-24 发行的单曲《仏翼》。
 
 ## 试听
 {{media-switcher::仏翼}}

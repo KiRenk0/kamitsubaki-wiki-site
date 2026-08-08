@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 ## Overview
 
-“何者(威戸れもね。 Remix)” is track 2 of KAF’s 寓話γ.
+“何者(威戸れもね。 Remix)” is track 2 of [KAF](/en/artists/vwp/kaf)’s [寓話γ](/en/albums/kaf/guwa-gamma).
 
 ## Listen
 

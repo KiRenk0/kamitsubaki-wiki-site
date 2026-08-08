@@ -17,7 +17,7 @@ image: /images/songs/ciel/常shinae.jpg
 
 ## Overview
 
-“常しなえ” is a single by CIEL, released on 2025-09-23.
+“常しなえ” is a single by [CIEL](/en/artists/solo/ciel), released on 2025-09-23.
 
 ## Listen
 {{media-switcher::常しなえ}}

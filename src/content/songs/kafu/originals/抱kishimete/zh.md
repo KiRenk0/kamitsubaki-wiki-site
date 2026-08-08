@@ -16,7 +16,7 @@ image: /images/songs/kafu/抱kishimete.jpg
 
 ## 作品简介
 
-可不于 2024-10-22 发行的单曲《『抱きしめて。』》。
+[可不](/zh/artists/isotopes/kafu)于 2024-10-22 发行的单曲《『抱きしめて。』》。
 
 ## 试听
 {{media-switcher::『抱きしめて。』}}

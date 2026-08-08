@@ -54,7 +54,7 @@ tracks:
 
 ## 简介
 
-可不于 2023-10-04 发行的Album《Dead Delay Man》,共收录 8 首歌曲。
+[可不](/zh/artists/isotopes/kafu)于 2023-10-04 发行的Album《Dead Delay Man》,共收录 8 首歌曲。
 
 ## 收录曲
 

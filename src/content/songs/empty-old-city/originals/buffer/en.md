@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/buffer.jpg
 
 ## Overview
 
-“Buffer” is a single by Empty old City, released on 2024-04-02.
+“Buffer” is a single by [Empty old City](/en/artists/solo/empty-old-city), released on 2024-04-02.
 
 ## Listen
 {{media-switcher::Buffer}}

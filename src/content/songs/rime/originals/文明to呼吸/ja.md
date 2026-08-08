@@ -17,7 +17,7 @@ image: /images/songs/rime/文明to呼吸.jpg
 
 ## 作品概要
 
-裏命が2023-03-20にリリースしたシングル「文明と呼吸」。
+[裏命](/ja/artists/isotopes/rime)が2023-03-20にリリースしたシングル「文明と呼吸」。
 
 ## 視聴
 {{media-switcher::文明と呼吸}}

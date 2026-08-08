@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa.jpg
 
 ## Overview
 
-“カルぺ・ディエム” is track 11 of KAF’s 寓話.
+“カルぺ・ディエム” is track 11 of [KAF](/en/artists/vwp/kaf)’s [寓話](/en/albums/kaf/guwa).
 
 ## Listen
 

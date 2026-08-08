@@ -16,7 +16,7 @@ image: /images/songs/grp/raven.jpg
 
 ## 作品概要
 
-「RAVEN」は罪十罰が2025-10-29にリリースした楽曲です。
+「RAVEN」は[罪十罰](/ja/artists/girls_revolution_project/tsumitobatsu)が2025-10-29にリリースした楽曲です。
 
 ## 視聴
 

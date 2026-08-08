@@ -17,7 +17,7 @@ image: /images/songs/kafu/夜no自販機.jpg
 
 ## 作品概要
 
-可不が2022-05-11にリリースしたシングル「夜の自販機」。
+[可不](/ja/artists/isotopes/kafu)が2022-05-11にリリースしたシングル「夜の自販機」。
 
 ## 視聴
 {{media-switcher::夜の自販機}}

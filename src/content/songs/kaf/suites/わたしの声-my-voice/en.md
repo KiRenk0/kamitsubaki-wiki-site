@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1703711463.jpg
 
 ## Overview
 
-“わたしの声” is track 14 of KAF’s 組曲.
+“わたしの声” is track 14 of [KAF](/en/artists/vwp/kaf)’s [組曲](/en/albums/kaf/suite).
 
 ## Listen
 

@@ -17,7 +17,7 @@ image: /images/songs/rime/哀shiki玩具.jpg
 
 ## Overview
 
-“哀しき玩具” is a single by 裏命, released on 2024-10-29.
+“哀しき玩具” is a single by [裏命](/en/artists/isotopes/rime), released on 2024-10-29.
 
 ## Listen
 {{media-switcher::哀しき玩具}}

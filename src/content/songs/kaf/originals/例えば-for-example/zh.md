@@ -19,7 +19,7 @@ image: /images/songs/kaf/track-1687478833.jpg
 
 ## 作品简介
 
-《例えば》是花譜收录于《狂想》的第 10 轨。
+《例えば》是[花譜](/zh/artists/vwp/kaf)收录于《[狂想](/zh/albums/kaf/kyoso)》的第 10 轨。
 
 ## 试听
 

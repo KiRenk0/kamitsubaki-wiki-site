@@ -61,7 +61,7 @@ teresaAIはte'resa名義で活動を開始した3DCGバーチャルシンガー�
 
 ## 役割と創作上の位置づけ
 
-teresaAIの音楽は太平洋を跨ぐ育ちに影響された、日本語と英語のポップスを基盤としている。「I Wanna Be Your Girl!」のような明るく親しみやすい楽曲から、EP「predawn」に代表されるより成熟的で空気感のある作品まで、幅広い作風を展開する。2022年6月25日にRimとの「IMAGINARY WORLD」ライブコラボレーションを行うなど、SINSEKAI RECORDのアーティストネットワーク内での存在感も大きい。
+teresaAIの音楽は太平洋を跨ぐ育ちに影響された、日本語と英語のポップスを基盤としている。「I Wanna Be Your Girl!」のような明るく親しみやすい楽曲から、EP「predawn」に代表されるより成熟的で空気感のある作品まで、幅広い作風を展開する。2022年6月25日にRimとの「IMAGINARY WORLD」ライブコラボレーションを行うなど、[SINSEKAI RECORD](/ja/projects/labels/sinsekai-studio)のアーティストネットワーク内での存在感も大きい。
 
 2023年の分裂により、teresaAIは単なるアーティストプロジェクトではなく、オリジナルの歌声を継承する音声合成エンジンとして、クリエイター主導の制作領域にもその声を残すことになった。
 
@@ -71,7 +71,7 @@ teresaAIの音楽は太平洋を跨ぐ育ちに影響された、日本語と英
 - 中国のインテルテレビCMに出演し、メインストリームでの認知度を獲得。
 - NYLON'S NEXT 2021に選出。
 - **2022年6月25日**：Rimとのツーマンライブ「IMAGINARY WORLD」に出演。
-- **2023年2月22日**：「αU research × KAMITSUBAKI STUDIO presents prompt αU」に参加。
+- **2023年2月22日**：「αU research × [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) presents prompt αU」に参加。
 - **2023年3月**：音声合成ソフトウェア「teresaAI」とリアルアーティスト「ELЁNA」に分岐。
 
 ## 代表作品と関連項目

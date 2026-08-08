@@ -16,7 +16,7 @@ image: /images/songs/grp/sayonara-rakuen.jpg
 
 ## 作品简介
 
-《さよなら、楽園》是硝子宮于 2026-03-06 正式发行的作品。
+《さよなら、楽園》是[硝子宮](/zh/artists/girls_revolution_project/garasumiya)于 2026-03-06 正式发行的作品。
 
 ## 试听
 

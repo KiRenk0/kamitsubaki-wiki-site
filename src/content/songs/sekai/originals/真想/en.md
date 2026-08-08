@@ -17,7 +17,7 @@ image: /images/songs/sekai/真想.jpg
 
 ## Overview
 
-“真想” is a single by 星界, released on 2025-04-13.
+“真想” is a single by [星界](/en/artists/isotopes/sekai), released on 2025-04-13.
 
 ## Listen
 {{media-switcher::真想}}

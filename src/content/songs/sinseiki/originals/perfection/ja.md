@@ -16,7 +16,7 @@ image: /images/songs/grp/perfection.jpg
 
 ## 作品概要
 
-「パーフェクション」は心世紀が2024-09-18にリリースした楽曲です。
+「パーフェクション」は[心世紀](/ja/artists/girls_revolution_project/sinseiki)が2024-09-18にリリースした楽曲です。
 
 ## 視聴
 

@@ -17,7 +17,7 @@ image: /images/songs/mimi/mashumarii.jpg
 
 ## Overview
 
-“マシュマリー” is a single by MIMI, released on 2019-11-02.
+“マシュマリー” is a single by [MIMI](/en/artists/creators/mimi), released on 2019-11-02.
 
 ## Listen
 {{media-switcher::マシュマリー}}

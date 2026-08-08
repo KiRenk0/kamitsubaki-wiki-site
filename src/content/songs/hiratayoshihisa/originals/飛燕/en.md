@@ -17,7 +17,7 @@ image: /images/songs/hiratayoshihisa/飛燕.jpg
 
 ## Overview
 
-“飛燕” is a single by 平田義久, released on 2022-09-13.
+“飛燕” is a single by [平田義久](/en/artists/creators/hiratayoshihisa), released on 2022-09-13.
 
 ## Listen
 {{media-switcher::飛燕}}

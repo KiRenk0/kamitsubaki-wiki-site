@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/purezento.jpg
 
 ## Overview
 
-“プレゼント” is a single by tokiwa, released on 2025-06-19.
+“プレゼント” is a single by [tokiwa](/en/artists/creators/tokiwa), released on 2025-06-19.
 
 ## Listen
 {{media-switcher::プレゼント}}

@@ -17,7 +17,7 @@ image: /images/songs/sekai/雨霧.jpg
 
 ## 作品简介
 
-星界于 2025-03-23 发行的单曲《雨霧》。
+[星界](/zh/artists/isotopes/sekai)于 2025-03-23 发行的单曲《雨霧》。
 
 ## 试听
 {{media-switcher::雨霧}}

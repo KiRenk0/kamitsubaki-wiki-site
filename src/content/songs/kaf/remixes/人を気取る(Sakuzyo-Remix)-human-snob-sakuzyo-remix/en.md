@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 
 ## Overview
 
-“人を気取る(Sakuzyo Remix)” is track 2 of KAF’s 狂想γ.
+“人を気取る(Sakuzyo Remix)” is track 2 of [KAF](/en/artists/vwp/kaf)’s [狂想γ](/en/albums/kaf/kyoso-gamma).
 
 ## Listen
 

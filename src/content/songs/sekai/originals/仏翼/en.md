@@ -17,7 +17,7 @@ image: /images/songs/sekai/仏翼.jpg
 
 ## Overview
 
-“仏翼” is a single by 星界, released on 2023-12-24.
+“仏翼” is a single by [星界](/en/artists/isotopes/sekai), released on 2023-12-24.
 
 ## Listen
 {{media-switcher::仏翼}}

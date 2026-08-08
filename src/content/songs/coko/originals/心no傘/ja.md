@@ -17,7 +17,7 @@ image: /images/songs/coko/心no傘.jpg
 
 ## 作品概要
 
-狐子が2023-03-26にリリースしたシングル「心の傘」。
+[狐子](/ja/artists/isotopes/coko)が2023-03-26にリリースしたシングル「心の傘」。
 
 ## 視聴
 {{media-switcher::心の傘}}

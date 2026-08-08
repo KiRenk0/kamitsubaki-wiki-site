@@ -20,7 +20,7 @@ image: /images/songs/mimi/hanataba.jpg
 
 ## Overview
 
-“ハナタバ” is a single by MIMI, released on 2022-12-02.
+“ハナタバ” is a single by [MIMI](/en/artists/creators/mimi), released on 2022-12-02.
 
 ## Listen
 {{media-switcher::ハナタバ}}

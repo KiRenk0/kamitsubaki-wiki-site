@@ -16,7 +16,7 @@ image: /images/songs/grp/contrast.jpg
 
 ## Overview
 
-“コントラスト (feat. 矢野達也)” is a 心世紀 release dated 2025-10-29.
+“コントラスト (feat. 矢野達也)” is a [心世紀](/en/artists/girls_revolution_project/sinseiki) release dated 2025-10-29.
 
 ## Listen
 

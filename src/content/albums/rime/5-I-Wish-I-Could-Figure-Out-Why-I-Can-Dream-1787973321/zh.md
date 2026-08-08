@@ -62,7 +62,7 @@ tracks:
 
 ## 简介
 
-裏命于 2025-01-11 发行的Album《5: I Wish I Could Figure Out Why I Can Dream》,共收录 10 首歌曲。
+[裏命](/zh/artists/isotopes/rime)于 2025-01-11 发行的Album《5: I Wish I Could Figure Out Why I Can Dream》,共收录 10 首歌曲。
 
 ## 收录曲
 

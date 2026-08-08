@@ -17,7 +17,7 @@ image: /images/songs/awairo/satellite-feat.-yunosuke-&-wami.jpg
 
 ## 作品概要
 
-Awairoが2022-10-21にリリースしたシングル「Satellite (feat. Yunosuke & WaMi)」。
+Awairoが2022-10-21にリリースしたシングル「Satellite (feat. [Yunosuke](/ja/artists/creators/yunosuke) & WaMi)」。
 
 ## 視聴
 @[apple-music](https://music.apple.com/jp/album/satellite-feat-yunosuke-wami/1727062639?i=1727062641&uo=4 "Satellite (feat. Yunosuke & WaMi)")

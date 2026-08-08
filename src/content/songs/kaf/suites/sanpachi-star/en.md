@@ -15,7 +15,7 @@ image: /images/albums/kaf/suite.jpg
 
 ## Overview
 
-“サンパチスター feat. 花譜” is track 16 of KAF’s 組曲.
+“サンパチスター feat. [花譜](/en/artists/vwp/kaf)” is track 16 of KAF’s [組曲](/en/albums/kaf/suite).
 
 ## Lyrics
 

@@ -16,7 +16,7 @@ image: /images/songs/kanzaki-iori/怒ri-vocaloid-ver.-feat.-noz.jpg
 
 ## Overview
 
-“怒り[VOCALOID ver.] [feat. Noz.]” is a single by カンザキイオリ, released on 2026-02-13.
+“怒り[VOCALOID ver.] [feat. Noz.]” is a single by [カンザキイオリ](/en/artists/creators/kanzaki-iori), released on 2026-02-13.
 
 ## Listen
 {{media-switcher::怒り[VOCALOID ver.] [feat. Noz.]}}

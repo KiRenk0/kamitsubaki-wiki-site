@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/蜂蜜日記.jpg
 
 ## 作品概要
 
-香椎モイミが2024-05-21にリリースしたシングル「蜂蜜日記」。
+[香椎モイミ](/ja/artists/creators/kashiimoimi)が2024-05-21にリリースしたシングル「蜂蜜日記」。
 
 ## 視聴
 {{media-switcher::蜂蜜日記}}

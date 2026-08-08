@@ -16,7 +16,7 @@ image: /images/songs/rime/white-noise.jpg
 
 ## 作品概要
 
-裏命が2025-11-08にリリースしたシングル「White Noise」。
+[裏命](/ja/artists/isotopes/rime)が2025-11-08にリリースしたシングル「White Noise」。
 
 
 ## 歌詞

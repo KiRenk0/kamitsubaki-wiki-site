@@ -17,7 +17,7 @@ image: /images/songs/hitogoto/aianmeedee-feat.-nene.jpg
 
 ## 作品概要
 
-他人事が2023-11-24にリリースしたシングル「アイアンメーデー (feat. ねね)」。
+[他人事](/ja/artists/creators/hitogoto)が2023-11-24にリリースしたシングル「アイアンメーデー (feat. ねね)」。
 
 ## 視聴
 {{media-switcher::アイアンメーデー (feat. ねね)}}

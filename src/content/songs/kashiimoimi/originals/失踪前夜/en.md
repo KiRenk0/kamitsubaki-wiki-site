@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/失踪前夜.jpg
 
 ## Overview
 
-“失踪前夜” is a single by 香椎モイミ, released on 2023-12-05.
+“失踪前夜” is a single by [香椎モイミ](/en/artists/creators/kashiimoimi), released on 2023-12-05.
 
 ## Listen
 {{media-switcher::失踪前夜}}

@@ -17,7 +17,7 @@ image: /images/songs/kanzaki-iori/文化ninatteiku.jpg
 
 ## 作品简介
 
-カンザキイオリ于 2023-08-09 发行的单曲《文化になっていく》。
+[カンザキイオリ](/zh/artists/creators/kanzaki-iori)于 2023-08-09 发行的单曲《文化になっていく》。
 
 ## 试听
 {{media-switcher::文化になっていく}}

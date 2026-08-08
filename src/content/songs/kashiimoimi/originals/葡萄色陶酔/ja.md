@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/葡萄色陶酔.jpg
 
 ## 作品概要
 
-香椎モイミが2025-03-18にリリースしたシングル「葡萄色陶酔」。
+[香椎モイミ](/ja/artists/creators/kashiimoimi)が2025-03-18にリリースしたシングル「葡萄色陶酔」。
 
 ## 視聴
 {{media-switcher::葡萄色陶酔}}

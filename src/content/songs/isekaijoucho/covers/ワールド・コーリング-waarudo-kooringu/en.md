@@ -19,7 +19,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 
 ## Overview
 
-ワールド・コーリング feat.春猿火 appears on CANDY LIVE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+ワールド・コーリング feat.[春猿火](/en/artists/vwp/harusaruhi) appears on [CANDY LIVE](/en/albums/isekaijoucho/candy-live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Lyrics
 

@@ -17,7 +17,7 @@ image: /images/songs/anmc/二人dakeno物語-feat.-muto,-m.jpg
 
 ## Overview
 
-“二人だけの物語 feat. むト, m” is a single by ANMC, released on 2025-04-09.
+“二人だけの物語 feat. むト, m” is a single by [ANMC](/en/artists/solo/anmc), released on 2025-04-09.
 
 ## Listen
 {{media-switcher::二人だけの物語 feat. むト, m}}

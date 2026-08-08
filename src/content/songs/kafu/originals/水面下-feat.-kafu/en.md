@@ -17,7 +17,7 @@ image: /images/songs/kafu/水面下-feat.-kafu.jpg
 
 ## Overview
 
-“水面下 (feat. Kafu)” is a single by 可不, released on 2022-07-12.
+“水面下 (feat. Kafu)” is a single by [可不](/en/artists/isotopes/kafu), released on 2022-07-12.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/%E6%B0%B4%E9%9D%A2%E4%B8%8B-feat-kafu/1687478821?i=1687478822&uo=4 "水面下 (feat. Kafu)")

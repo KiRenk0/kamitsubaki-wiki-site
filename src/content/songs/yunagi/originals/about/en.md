@@ -16,7 +16,7 @@ image: /images/songs/grp/about.jpg
 
 ## Overview
 
-“アバウト (feat. ポリスピカデリー)” is a 夕凪機 release dated 2024-10-30.
+“アバウト (feat. ポリスピカデリー)” is a [夕凪機](/en/artists/girls_revolution_project/yunagi) release dated 2024-10-30.
 
 ## Listen
 

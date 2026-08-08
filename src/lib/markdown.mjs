@@ -8,12 +8,14 @@ import remarkMath from 'remark-math';
 import { rehypeMaterializeMediaEmbeds } from './mediaEmbed.mjs';
 import remarkMediaEmbed from './mediaEmbed.mjs';
 import { wikiHtmlSchema } from './htmlPolicy.mjs';
+import rehypeRawHtmlMarkdownLinks from './rawHtmlMarkdownLinks.mjs';
 import remarkWikiShortcodes from './wikiShortcodes.mjs';
 
 export const siteMarkdownOptions = {
   syntaxHighlight: false,
   remarkPlugins: [remarkMath, remarkWikiShortcodes, remarkMediaEmbed],
   rehypePlugins: [
+    rehypeRawHtmlMarkdownLinks,
     rehypeRaw,
     [rehypeSanitize, wikiHtmlSchema],
     rehypeMaterializeMediaEmbeds,

@@ -18,7 +18,7 @@ image: /images/albums/kaf/kyoso.jpg
 
 ## 作品概要
 
-「そうぞうりょく(Instrumental)」は花譜の『狂想』に収録された1曲目です。
+「そうぞうりょく(Instrumental)」は[花譜](/ja/artists/vwp/kaf)の『[狂想](/ja/albums/kaf/kyoso)』に収録された1曲目です。
 
 ## 視聴
 

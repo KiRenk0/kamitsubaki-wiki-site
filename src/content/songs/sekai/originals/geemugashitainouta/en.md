@@ -17,7 +17,7 @@ image: /images/songs/sekai/geemugashitainouta.jpg
 
 ## Overview
 
-“ゲームがしたいのうた” is a single by 星界, released on 2026-04-23.
+“ゲームがしたいのうた” is a single by [星界](/en/artists/isotopes/sekai), released on 2026-04-23.
 
 ## Listen
 {{media-switcher::ゲームがしたいのうた}}

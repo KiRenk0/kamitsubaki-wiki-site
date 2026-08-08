@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 ## Overview
 
-“スワン(cosMo@暴走P Remix)” is track 11 of KAF’s 寓話γ.
+“スワン(cosMo@暴走P Remix)” is track 11 of [KAF](/en/artists/vwp/kaf)’s [寓話γ](/en/albums/kaf/guwa-gamma).
 
 ## Listen
 

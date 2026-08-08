@@ -16,7 +16,7 @@ image: /images/songs/kafu/生涯,貴方wo悔yamimasu.jpg
 
 ## 作品简介
 
-可不于 2023-03-17 发行的单曲《生涯、貴方を悔やみます。》。
+[可不](/zh/artists/isotopes/kafu)于 2023-03-17 发行的单曲《生涯、貴方を悔やみます。》。
 
 ## 试听
 {{media-switcher::生涯、貴方を悔やみます。}}

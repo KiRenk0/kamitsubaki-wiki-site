@@ -16,7 +16,7 @@ image: /images/songs/grp/million-complexity.jpg
 
 ## 作品简介
 
-《ミリオン・コンプレクシティ》是心世紀于 2025-10-29 正式发行的作品。
+《ミリオン・コンプレクシティ》是[心世紀](/zh/artists/girls_revolution_project/sinseiki)于 2025-10-29 正式发行的作品。
 
 ## 试听
 

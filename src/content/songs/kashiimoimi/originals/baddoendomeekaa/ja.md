@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/baddoendomeekaa.jpg
 
 ## 作品概要
 
-香椎モイミが2023-09-19にリリースしたシングル「バッドエンドメーカー」。
+[香椎モイミ](/ja/artists/creators/kashiimoimi)が2023-09-19にリリースしたシングル「バッドエンドメーカー」。
 
 ## 視聴
 {{media-switcher::バッドエンドメーカー}}

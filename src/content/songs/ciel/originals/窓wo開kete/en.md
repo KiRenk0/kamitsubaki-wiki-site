@@ -17,7 +17,7 @@ image: /images/songs/ciel/窓wo開kete.jpg
 
 ## Overview
 
-“窓を開けて” is a single by CIEL, released on 2024-07-23.
+“窓を開けて” is a single by [CIEL](/en/artists/solo/ciel), released on 2024-07-23.
 
 ## Listen
 {{media-switcher::窓を開けて}}

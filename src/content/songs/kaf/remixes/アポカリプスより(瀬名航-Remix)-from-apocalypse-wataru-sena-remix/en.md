@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 ## Overview
 
-“アポカリプスより(瀬名航 Remix)” is track 1 of KAF’s 寓話γ.
+“アポカリプスより(瀬名航 Remix)” is track 1 of [KAF](/en/artists/vwp/kaf)’s [寓話γ](/en/albums/kaf/guwa-gamma).
 
 ## Listen
 

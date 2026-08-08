@@ -20,7 +20,7 @@ image: /images/songs/rime/幽玄no詩-feat.-◈-yukuewatto.jpg
 
 ## 作品简介
 
-裏命于 2015-10-11 发行的单曲《幽玄の詩 (feat. ◈*ゆくえわっと)》。
+[裏命](/zh/artists/isotopes/rime)于 2015-10-11 发行的单曲《幽玄の詩 (feat. ◈*ゆくえわっと)》。
 
 ## 试听
 {{media-switcher::幽玄の詩 (feat. ◈*ゆくえわっと)}}

@@ -17,7 +17,7 @@ image: /images/songs/hitogoto/信仰to存在-feat.-否.jpg
 
 ## 作品概要
 
-他人事が2022-08-12にリリースしたシングル「信仰と存在 (feat. 否)」。
+[他人事](/ja/artists/creators/hitogoto)が2022-08-12にリリースしたシングル「信仰と存在 (feat. 否)」。
 
 ## 視聴
 {{media-switcher::信仰と存在 (feat. 否)}}

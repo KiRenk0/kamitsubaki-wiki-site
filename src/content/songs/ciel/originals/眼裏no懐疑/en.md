@@ -17,7 +17,7 @@ image: /images/songs/ciel/眼裏no懐疑.jpg
 
 ## Overview
 
-“眼裏の懐疑” is a single by CIEL, released on 2024-07-23.
+“眼裏の懐疑” is a single by [CIEL](/en/artists/solo/ciel), released on 2024-07-23.
 
 ## Listen
 {{media-switcher::眼裏の懐疑}}

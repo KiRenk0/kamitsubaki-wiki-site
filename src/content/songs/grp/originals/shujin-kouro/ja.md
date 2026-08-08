@@ -16,7 +16,7 @@ image: /images/songs/grp/shujin-kouro.jpg
 
 ## 作品概要
 
-「主人行路」は心世紀×罪十罰が2025-08-27にリリースした楽曲です。
+「主人行路」は[心世紀](/ja/artists/girls_revolution_project/sinseiki)×[罪十罰](/ja/artists/girls_revolution_project/tsumitobatsu)が2025-08-27にリリースした楽曲です。
 
 ## 視聴
 

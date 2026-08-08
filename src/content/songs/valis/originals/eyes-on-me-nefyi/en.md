@@ -17,7 +17,7 @@ image: /images/songs/valis/eyes-on-me-nefyi.jpg
 
 ## Overview
 
-“Eyes On Me(ネフィ)” is a single by VALIS, released on 2025-05-30.
+“Eyes On Me(ネフィ)” is a single by [VALIS](/en/artists/solo/valis), released on 2025-05-30.
 
 ## Listen
 {{media-switcher::Eyes On Me(ネフィ)}}

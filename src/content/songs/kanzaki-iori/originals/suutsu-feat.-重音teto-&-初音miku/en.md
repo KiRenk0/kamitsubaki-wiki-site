@@ -17,7 +17,7 @@ image: /images/songs/kanzaki-iori/suutsu-feat.-重音teto-&-初音miku.jpg
 
 ## Overview
 
-“スーツ (feat. 重音テト & 初音ミク)” is a single by カンザキイオリ, released on 2025-12-09.
+“スーツ (feat. 重音テト & 初音ミク)” is a single by [カンザキイオリ](/en/artists/creators/kanzaki-iori), released on 2025-12-09.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/%E3%82%B9%E3%83%BC%E3%83%84-feat-%E9%87%8D%E9%9F%B3%E3%83%86%E3%83%88-%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF/1791939044?i=1791939268&uo=4 "スーツ (feat. 重音テト & 初音ミク)")

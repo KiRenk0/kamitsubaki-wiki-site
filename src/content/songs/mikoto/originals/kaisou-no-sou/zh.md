@@ -16,7 +16,7 @@ image: /images/songs/grp/kaisou-no-sou.jpg
 
 ## 作品简介
 
-《回想の層》是美古途于 2025-04-23 正式发行的作品。
+《回想の層》是[美古途](/zh/artists/girls_revolution_project/mikoto)于 2025-04-23 正式发行的作品。
 
 ## 试听
 

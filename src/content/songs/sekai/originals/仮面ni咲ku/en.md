@@ -17,7 +17,7 @@ image: /images/songs/sekai/仮面ni咲ku.jpg
 
 ## Overview
 
-“仮面に咲く” is a single by 星界, released on 2024-10-24.
+“仮面に咲く” is a single by [星界](/en/artists/isotopes/sekai), released on 2024-10-24.
 
 ## Listen
 {{media-switcher::仮面に咲く}}

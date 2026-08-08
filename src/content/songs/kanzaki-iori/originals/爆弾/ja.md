@@ -17,7 +17,7 @@ image: /images/songs/kanzaki-iori/爆弾.jpg
 
 ## 作品概要
 
-カンザキイオリが2021-11-18にリリースしたシングル「爆弾」。
+[カンザキイオリ](/ja/artists/creators/kanzaki-iori)が2021-11-18にリリースしたシングル「爆弾」。
 
 ## 視聴
 {{media-switcher::爆弾}}

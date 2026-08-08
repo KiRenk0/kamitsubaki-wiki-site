@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 ## 作品概要
 
-「スイマー(takachi Remix)」は花譜の『寓話γ』に収録された5曲目です。
+「スイマー(takachi Remix)」は[花譜](/ja/artists/vwp/kaf)の『[寓話γ](/ja/albums/kaf/guwa-gamma)』に収録された5曲目です。
 
 ## 視聴
 

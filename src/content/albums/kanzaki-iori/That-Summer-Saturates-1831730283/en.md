@@ -50,7 +50,7 @@ tracks:
 
 ## Overview
 
-カンザキイオリ's album “That Summer Saturates”, released on 2025-08-12, featuring 7 tracks.
+[カンザキイオリ](/en/artists/creators/kanzaki-iori)'s album “That Summer Saturates”, released on 2025-08-12, featuring 7 tracks.
 
 ## Track List
 

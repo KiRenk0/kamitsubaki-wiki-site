@@ -19,7 +19,7 @@ image: /images/albums/kaf/yoru-ga-furiyamu-mae-ni.jpg
 
 ## Overview
 
-“夜が降り止む前に(大沼パセリ Remix)” is track 3 of KAF’s 夜が降り止む前に.
+“[夜が降り止む前に](/en/albums/kaf/yoru-ga-furiyamu-mae-ni)(大沼パセリ Remix)” is track 3 of [KAF](/en/artists/vwp/kaf)’s 夜が降り止む前に.
 
 ## Listen
 

@@ -17,7 +17,7 @@ image: /images/songs/rime/花ni笑u.jpg
 
 ## 作品概要
 
-裏命が2025-07-16にリリースしたシングル「花に笑う」。
+[裏命](/ja/artists/isotopes/rime)が2025-07-16にリリースしたシングル「花に笑う」。
 
 ## 視聴
 {{media-switcher::花に笑う}}

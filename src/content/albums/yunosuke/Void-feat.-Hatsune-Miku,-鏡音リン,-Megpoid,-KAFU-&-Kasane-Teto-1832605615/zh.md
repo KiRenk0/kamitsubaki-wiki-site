@@ -70,7 +70,7 @@ tracks:
 
 ## 简介
 
-雄之助于 2025-08-31 发行的Album《Void (feat. Hatsune Miku, 鏡音リン, Megpoid, KAFU & Kasane Teto)》,共收录 12 首歌曲。
+[雄之助](/zh/artists/creators/yunosuke)于 2025-08-31 发行的Album《Void (feat. Hatsune Miku, 鏡音リン, Megpoid, [KAFU](/zh/artists/isotopes/kafu) & Kasane Teto)》,共收录 12 首歌曲。
 
 ## 收录曲
 

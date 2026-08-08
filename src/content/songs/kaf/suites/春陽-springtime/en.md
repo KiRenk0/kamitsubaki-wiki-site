@@ -17,7 +17,7 @@ image: /images/albums/kaf/suite.jpg
 
 ## Overview
 
-“春陽” is track 6 of KAF’s 組曲.
+“春陽” is track 6 of [KAF](/en/artists/vwp/kaf)’s [組曲](/en/albums/kaf/suite).
 
 ## Listen
 

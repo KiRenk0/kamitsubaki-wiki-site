@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/羊飼ino号令.jpg
 
 ## Overview
 
-“羊飼いの号令” is a single by Empty old City, released on 2023-07-04.
+“羊飼いの号令” is a single by [Empty old City](/en/artists/solo/empty-old-city), released on 2023-07-04.
 
 ## Listen
 {{media-switcher::羊飼いの号令}}

@@ -19,7 +19,7 @@ image: /images/songs/kaf/track-1882181555.jpg
 
 ## 作品概要
 
-「エラーソング」は花譜の『深愛』に収録された12曲目です。
+「エラーソング」は[花譜](/ja/artists/vwp/kaf)の『[深愛](/ja/albums/kaf/shinai)』に収録された12曲目です。
 
 ## 視聴
 

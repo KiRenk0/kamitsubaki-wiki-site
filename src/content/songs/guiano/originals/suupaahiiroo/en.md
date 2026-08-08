@@ -17,7 +17,7 @@ image: /images/songs/guiano/suupaahiiroo.jpg
 
 ## Overview
 
-“スーパーヒーロー” is a single by Guiano, released on 2019-12-25.
+“スーパーヒーロー” is a single by [Guiano](/en/artists/creators/guiano), released on 2019-12-25.
 
 ## Listen
 {{media-switcher::スーパーヒーロー}}

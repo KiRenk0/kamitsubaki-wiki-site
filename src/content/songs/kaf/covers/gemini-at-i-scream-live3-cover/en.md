@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 
 ## Overview
 
-“Gemini (I SCREAM LIVE3 ver.)” is track 9 of KAF’s I SCREAM LIVE3.
+“Gemini (I SCREAM LIVE3 ver.)” is track 9 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE3](/en/albums/kaf/i-scream-live-3).
 
 ## Listen
 

@@ -17,7 +17,7 @@ image: /images/songs/dustcell/独白-kanzakiiori-remix.jpg
 
 ## Overview
 
-“独白(カンザキイオリ Remix)” is a single by DUSTCELL, released on 2022-02-08.
+“独白([カンザキイオリ](/en/artists/creators/kanzaki-iori) Remix)” is a single by [DUSTCELL](/en/artists/solo/dustcell), released on 2022-02-08.
 
 ## Listen
 {{media-switcher::独白(カンザキイオリ Remix)}}

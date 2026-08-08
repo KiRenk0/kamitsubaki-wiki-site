@@ -49,5 +49,5 @@ Guiano's ep “あの夏の記憶だけ”, released on 2020-08-12, featuring 5 
 1. 死んでしまったのだろうか(self cover) (03:31)
 2. I Don't Wanna Know (03:53)
 3. 夜、眠るため (03:37)
-4. 透過夏 (feat. RIM) (03:15)
+4. 透過夏 (feat. [RIM](/en/artists/vwp/rim)) (03:15)
 5. あの夏の記憶だけ (03:14)

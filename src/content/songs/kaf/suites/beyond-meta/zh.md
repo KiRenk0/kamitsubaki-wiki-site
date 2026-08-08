@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1687478190.jpg
 
 ## 作品简介
 
-《Beyond META》是花譜收录于《組曲》的第 8 轨。
+《Beyond META》是[花譜](/zh/artists/vwp/kaf)收录于《[組曲](/zh/albums/kaf/suite)》的第 8 轨。
 
 ## 试听
 

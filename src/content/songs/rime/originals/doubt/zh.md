@@ -17,7 +17,7 @@ image: /images/songs/rime/doubt.jpg
 
 ## 作品简介
 
-裏命于 2015-05-14 发行的单曲《Doubt》。
+[裏命](/zh/artists/isotopes/rime)于 2015-05-14 发行的单曲《Doubt》。
 
 ## 试听
 @[apple-music](https://music.apple.com/jp/album/doubt/1747211220?i=1747211221&uo=4 "Doubt")

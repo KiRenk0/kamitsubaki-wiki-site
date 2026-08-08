@@ -16,7 +16,7 @@ image: /images/songs/grp/player-watashi.jpg
 
 ## 作品概要
 
-「プレイヤーわたし」は夕凪機が2024-12-18にリリースした楽曲です。
+「プレイヤーわたし」は[夕凪機](/ja/artists/girls_revolution_project/yunagi)が2024-12-18にリリースした楽曲です。
 
 ## 視聴
 

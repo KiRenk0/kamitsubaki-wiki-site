@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 
 ## 作品概要
 
-「MC9」は『CREAM PUFF LIVE 2』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「MC9」は『[CREAM PUFF LIVE 2](/ja/albums/harusaruhi/cream-puff-live-2)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 試聴
 

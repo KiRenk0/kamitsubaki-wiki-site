@@ -16,7 +16,7 @@ image: /images/songs/grp/brrrrrreak-it.jpg
 
 ## 作品简介
 
-《Brrrrrreak It》是罪十罰于 2025-10-29 正式发行的作品。
+《Brrrrrreak It》是[罪十罰](/zh/artists/girls_revolution_project/tsumitobatsu)于 2025-10-29 正式发行的作品。
 
 ## 试听
 

@@ -19,7 +19,7 @@ contentStatus: stub
 
 ## 作品概要
 
-「The end of prologue(Instrumental)」は花譜の『観測』に収録された15曲目です。
+「The end of prologue(Instrumental)」は[花譜](/ja/artists/vwp/kaf)の『[観測](/ja/albums/kaf/kansoku)』に収録された15曲目です。
 
 ## 視聴
 

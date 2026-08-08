@@ -55,7 +55,7 @@ seo:
 
 ## 概述
 
-廻花（Kaika）是 KAMITSUBAKI STUDIO 旗下的新一代虚拟歌手创作者，被定位为「花谱的全新分枝」。她于 2024年1月14日在花谱第四次 ONE-MAN LIVE「怪歌」（国立代々木競技場第一体育館）中正式出道，以将冲动的、未经修饰的情感直接注入歌曲为特征。她的概念代表着花谱创作血脉中的一次分叉——从同一根系中绽放出的全新花朵，朝自己的方向生长。
+廻花（Kaika）是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 旗下的新一代虚拟歌手创作者，被定位为「[花谱](/zh/artists/vwp/kaf)的全新分枝」。她于 2024年1月14日在花谱第四次 ONE-MAN LIVE「怪歌」（国立代々木競技場第一体育館）中正式出道，以将冲动的、未经修饰的情感直接注入歌曲为特征。她的概念代表着花谱创作血脉中的一次分叉——从同一根系中绽放出的全新花朵，朝自己的方向生长。
 
 在神椿体系中，廻花占据着独特的位置：既是歌手创作者，也是角色叙事的一部分。她的作品探索直觉与本能，与 V.W.P 成员们更具文学性或哲学性的表达形成差异。
 
@@ -67,11 +67,11 @@ seo:
 
 - **2024年1月14日**：在花谱第四次 ONE-MAN LIVE「怪歌」（国立代代木竞技场第一体育馆）中正式出道。
 - **2024年8月25日**：参加「YouTube Music Weekend 8.0」演出。
-- **2025年1月14日**：举办 Transmission Mini Live「うまれるまえからきみをしってる」。并发行首张专辑《うまれるまえからきみをしってる》（在你出生前就认识你）。
-- **2025年3月15日**：参加 KAF POP-UP STORE「花谱之新春樱祭」。
+- **2025年1月14日**：举办 Transmission Mini Live「うまれるまえからきみをしってる」。并发行首张专辑《[うまれるまえからきみをしってる](/zh/albums/kaika/うまれるまえからきみをしってる-1801387883)》（在你出生前就认识你）。
+- **2025年3月15日**：参加 [KAF](/zh/artists/vwp/kaf) POP-UP STORE「花谱之新春樱祭」。
 - **2025年7月19日**：举办廻花展「くるくる」。
 - **2025年7月27日**：参加「KAMITSUBAKI FES ’25 / Singularity Live Vol.4」。
-- **其他**：发行单曲「スタンドバイミー」（Stand By Me）、「ひぐらしのうた」（蜩之歌）、「テディベア」（Teddy Bear）、「かいか」（廻花）等。
+- **其他**：发行单曲「[スタンドバイミー](/zh/songs/kaika/originals/sutandobaimii)」（Stand By Me）、「[ひぐらしのうた](/zh/songs/kaika/originals/higurashinouta)」（蜩之歌）、「[テディベア](/zh/songs/kaika/originals/tedeibea)」（Teddy Bear）、「[かいか](/zh/songs/kaika/originals/kaika)」（廻花）等。
 
 ## 代表作品
 

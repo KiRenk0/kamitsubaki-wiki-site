@@ -17,7 +17,7 @@ image: /images/songs/mimi/心wo刺su言葉dake-feat.-初音miku-&-可不.jpg
 
 ## 作品简介
 
-MIMI于 2023-10-18 发行的单曲《心を刺す言葉だけ (feat. 初音ミク & 可不)》。
+MIMI于 2023-10-18 发行的单曲《心を刺す言葉だけ (feat. 初音ミク & [可不](/zh/artists/isotopes/kafu))》。
 
 ## 试听
 {{media-switcher::心を刺す言葉だけ (feat. 初音ミク & 可不)}}

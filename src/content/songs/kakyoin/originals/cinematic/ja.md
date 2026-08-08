@@ -16,7 +16,7 @@ image: /images/songs/grp/cinematic.jpg
 
 ## 作品概要
 
-「シネマティック」は佳鏡院×氷夏至が2025-02-12にリリースした楽曲です。
+「シネマティック」は[佳鏡院](/ja/artists/girls_revolution_project/kakyoin)×[氷夏至](/ja/artists/girls_revolution_project/hinageshi)が2025-02-12にリリースした楽曲です。
 
 ## 視聴
 

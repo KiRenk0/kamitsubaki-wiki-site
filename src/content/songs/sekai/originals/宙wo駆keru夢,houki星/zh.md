@@ -16,7 +16,7 @@ image: /images/songs/sekai/宙wo駆keru夢,houki星.jpg
 
 ## 作品简介
 
-星界于 2023-06-14 发行的单曲《宙を駆ける夢、ほうき星。》。
+[星界](/zh/artists/isotopes/sekai)于 2023-06-14 发行的单曲《宙を駆ける夢、ほうき星。》。
 
 ## 试听
 {{media-switcher::宙を駆ける夢、ほうき星。}}

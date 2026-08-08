@@ -18,7 +18,7 @@ image: /images/albums/kaf/kansoku.jpg
 
 ## Overview
 
-“確信(Instrumental)” is track 1 of KAF’s 観測.
+“確信(Instrumental)” is track 1 of [KAF](/en/artists/vwp/kaf)’s [観測](/en/albums/kaf/kansoku).
 
 ## Listen
 

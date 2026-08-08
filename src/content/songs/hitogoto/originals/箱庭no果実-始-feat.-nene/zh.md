@@ -17,7 +17,7 @@ image: /images/songs/hitogoto/箱庭no果実-始-feat.-nene.jpg
 
 ## 作品简介
 
-他人事于 2024-02-22 发行的单曲《箱庭の果実【始】 (feat. ねね)》。
+[他人事](/zh/artists/creators/hitogoto)于 2024-02-22 发行的单曲《箱庭の果実【始】 (feat. ねね)》。
 
 ## 试听
 {{media-switcher::箱庭の果実【始】 (feat. ねね)}}

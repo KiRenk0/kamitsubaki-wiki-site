@@ -17,7 +17,7 @@ image: /images/songs/kafu/水面下-feat.-kafu.jpg
 
 ## 作品概要
 
-可不が2022-07-12にリリースしたシングル「水面下 (feat. Kafu)」。
+[可不](/ja/artists/isotopes/kafu)が2022-07-12にリリースしたシングル「水面下 (feat. Kafu)」。
 
 ## 視聴
 @[apple-music](https://music.apple.com/jp/album/%E6%B0%B4%E9%9D%A2%E4%B8%8B-feat-kafu/1687478821?i=1687478822&uo=4 "水面下 (feat. Kafu)")

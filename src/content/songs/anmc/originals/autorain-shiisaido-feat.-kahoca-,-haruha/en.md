@@ -17,7 +17,7 @@ image: /images/songs/anmc/autorain-shiisaido-feat.-kahoca-,-haruha.jpg
 
 ## Overview
 
-“アウトライン・シーサイド feat. kahoca , ハルハ” is a single by ANMC, released on 2024-08-28.
+“アウトライン・シーサイド feat. kahoca , ハルハ” is a single by [ANMC](/en/artists/solo/anmc), released on 2024-08-28.
 
 ## Listen
 {{media-switcher::アウトライン・シーサイド feat. kahoca , ハルハ}}

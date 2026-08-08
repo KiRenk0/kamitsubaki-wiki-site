@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 ## Overview
 
-“畢生よ(柊マグネタイト Remix)” is track 6 of KAF’s 魔法γ.
+“畢生よ(柊マグネタイト Remix)” is track 6 of [KAF](/en/artists/vwp/kaf)’s [魔法γ](/en/albums/kaf/maho-gamma).
 
 ## Listen
 

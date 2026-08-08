@@ -17,7 +17,7 @@ image: /images/songs/rime/文明to呼吸.jpg
 
 ## Overview
 
-“文明と呼吸” is a single by 裏命, released on 2023-03-20.
+“文明と呼吸” is a single by [裏命](/en/artists/isotopes/rime), released on 2023-03-20.
 
 ## Listen
 {{media-switcher::文明と呼吸}}

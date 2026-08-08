@@ -17,7 +17,7 @@ image: /images/songs/sekai/音toha.jpg
 
 ## Overview
 
-“音とは” is a single by 星界, released on 2025-11-30.
+“音とは” is a single by [星界](/en/artists/isotopes/sekai), released on 2025-11-30.
 
 ## Listen
 @[netease](https://music.163.com/song?id=3320755714 "音とは")

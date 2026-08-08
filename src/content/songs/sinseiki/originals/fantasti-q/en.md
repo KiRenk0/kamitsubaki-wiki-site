@@ -16,7 +16,7 @@ image: /images/songs/grp/fantasti-q.jpg
 
 ## Overview
 
-“FantastiQ (feat. Hideya Kojima)” is a 心世紀 release dated 2025-10-29.
+“FantastiQ (feat. Hideya Kojima)” is a [心世紀](/en/artists/girls_revolution_project/sinseiki) release dated 2025-10-29.
 
 ## Listen
 

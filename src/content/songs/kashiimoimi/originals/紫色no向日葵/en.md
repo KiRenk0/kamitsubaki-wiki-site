@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/紫色no向日葵.jpg
 
 ## Overview
 
-“紫色の向日葵” is a single by 香椎モイミ, released on 2024-10-22.
+“紫色の向日葵” is a single by [香椎モイミ](/en/artists/creators/kashiimoimi), released on 2024-10-22.
 
 ## Listen
 {{media-switcher::紫色の向日葵}}

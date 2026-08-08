@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/haint.jpg
 
 ## Overview
 
-“Haint” is a single by tokiwa, released on 2022-11-11.
+“Haint” is a single by [tokiwa](/en/artists/creators/tokiwa), released on 2022-11-11.
 
 ## Listen
 {{media-switcher::Haint}}

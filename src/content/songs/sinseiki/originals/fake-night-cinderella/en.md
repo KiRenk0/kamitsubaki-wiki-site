@@ -16,7 +16,7 @@ image: /images/songs/grp/fake-night-cinderella.jpg
 
 ## Overview
 
-“フェイクナイト・シンデレラ (KAIHEN Live ver.)” is a 心世紀 release dated 2026-04-01.
+“フェイクナイト・シンデレラ (KAIHEN Live ver.)” is a [心世紀](/en/artists/girls_revolution_project/sinseiki) release dated 2026-04-01.
 
 ## Listen
 

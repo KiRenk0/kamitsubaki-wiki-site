@@ -20,7 +20,7 @@ image: /images/albums/rim/new-romancer.jpg
 
 ## 作品概要
 
-「魔的 (feat. KAF)」は『NEW ROMANCER』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「魔的 (feat. [KAF](/ja/artists/vwp/kaf))」は『[NEW ROMANCER](/ja/albums/rim/new-romancer)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 試聴
 

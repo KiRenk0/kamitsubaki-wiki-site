@@ -17,7 +17,7 @@ image: /images/songs/haru/promise.jpg
 
 ## 作品概要
 
-羽累が1997-11-26にリリースしたシングル「promise」。
+[羽累](/ja/artists/isotopes/haru)が1997-11-26にリリースしたシングル「promise」。
 
 ## 視聴
 {{media-switcher::promise}}

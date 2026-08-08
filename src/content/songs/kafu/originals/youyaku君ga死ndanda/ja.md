@@ -16,7 +16,7 @@ image: /images/songs/kafu/youyaku君ga死ndanda.jpg
 
 ## 作品概要
 
-可不が2022-07-31にリリースしたシングル「ようやく君が死んだんだ。」。
+[可不](/ja/artists/isotopes/kafu)が2022-07-31にリリースしたシングル「ようやく君が死んだんだ。」。
 
 ## 視聴
 {{media-switcher::ようやく君が死んだんだ。}}

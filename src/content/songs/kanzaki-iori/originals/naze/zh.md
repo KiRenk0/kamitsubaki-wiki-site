@@ -17,7 +17,7 @@ image: /images/songs/kanzaki-iori/naze.jpg
 
 ## 作品简介
 
-カンザキイオリ于 2023-03-31 发行的单曲《なぜ》。
+[カンザキイオリ](/zh/artists/creators/kanzaki-iori)于 2023-03-31 发行的单曲《なぜ》。
 
 ## 试听
 {{media-switcher::なぜ}}

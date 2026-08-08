@@ -17,7 +17,7 @@ image: /images/songs/mimi/今haiindayo.-feat.-可不.jpg
 
 ## Overview
 
-“今はいいんだよ。 (feat. 可不)” is a single by MIMI, released on 2022-12-22.
+“今はいいんだよ。 (feat. [可不](/en/artists/isotopes/kafu))” is a single by [MIMI](/en/artists/creators/mimi), released on 2022-12-22.
 
 ## Listen
 {{media-switcher::今はいいんだよ。 (feat. 可不)}}

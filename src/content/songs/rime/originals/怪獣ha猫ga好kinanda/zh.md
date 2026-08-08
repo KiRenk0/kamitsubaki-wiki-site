@@ -17,7 +17,7 @@ image: /images/songs/rime/怪獣ha猫ga好kinanda.jpg
 
 ## 作品简介
 
-裏命于 2017-07-25 发行的单曲《怪獣は猫が好きなんだ》。
+[裏命](/zh/artists/isotopes/rime)于 2017-07-25 发行的单曲《怪獣は猫が好きなんだ》。
 
 ## 试听
 @[apple-music](https://music.apple.com/jp/album/%E6%80%AA%E7%8D%A3%E3%81%AF%E7%8C%AB%E3%81%8C%E5%A5%BD%E3%81%8D%E3%81%AA%E3%82%93%E3%81%A0/1715598092?i=1715598094&uo=4 "怪獣は猫が好きなんだ")

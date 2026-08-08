@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho.jpg
 
 ## Overview
 
-“まほう (feat. RIM)” is track 14 of KAF’s 魔法.
+“まほう (feat. [RIM](/en/artists/vwp/rim))” is track 14 of [KAF](/en/artists/vwp/kaf)’s [魔法](/en/albums/kaf/maho).
 
 ## Listen
 

@@ -19,7 +19,7 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 
 ## 作品简介
 
-《危ノーマル》是花譜收录于《魔法》的第 2 轨。
+《危ノーマル》是[花譜](/zh/artists/vwp/kaf)收录于《[魔法](/zh/albums/kaf/maho)》的第 2 轨。
 
 ## 试听
 

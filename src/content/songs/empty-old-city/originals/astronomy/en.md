@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/astronomy.jpg
 
 ## Overview
 
-“Astronomy” is a single by Empty old City, released on 2024-10-22.
+“Astronomy” is a single by [Empty old City](/en/artists/solo/empty-old-city), released on 2024-10-22.
 
 ## Listen
 {{media-switcher::Astronomy}}

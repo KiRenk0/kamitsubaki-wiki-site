@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/la-rose-jaune-feat.-sennzai.jpg
 
 ## Overview
 
-“La rose jaune (feat. Sennzai)” is a single by tokiwa, released on 2021-04-09.
+“La rose jaune (feat. Sennzai)” is a single by [tokiwa](/en/artists/creators/tokiwa), released on 2021-04-09.
 
 ## Listen
 {{media-switcher::La rose jaune (feat. Sennzai)}}

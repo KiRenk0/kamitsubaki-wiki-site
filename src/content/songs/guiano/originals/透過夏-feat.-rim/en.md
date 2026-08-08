@@ -17,7 +17,7 @@ image: /images/songs/guiano/透過夏-feat.-rim.jpg
 
 ## Overview
 
-“透過夏 (feat. RIM)” is a single by Guiano, released on 2023-01-17.
+“透過夏 (feat. [RIM](/en/artists/vwp/rim))” is a single by [Guiano](/en/artists/creators/guiano), released on 2023-01-17.
 
 ## Listen
 {{media-switcher::透過夏 (feat. RIM)}}

@@ -16,7 +16,7 @@ image: /images/songs/grp/zatsukichou.jpg
 
 ## 作品简介
 
-《雑几帖》是心世紀于 2026-02-20 正式发行的作品。
+《雑几帖》是[心世紀](/zh/artists/girls_revolution_project/sinseiki)于 2026-02-20 正式发行的作品。
 
 ## 试听
 

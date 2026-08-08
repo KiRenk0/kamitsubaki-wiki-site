@@ -17,7 +17,7 @@ image: /images/songs/mimi/桜no戦略-feat.-masu.jpg
 
 ## Overview
 
-“桜の戦略 (feat. マス)” is a single by MIMI, released on 2025-04-30.
+“桜の戦略 (feat. マス)” is a single by [MIMI](/en/artists/creators/mimi), released on 2025-04-30.
 
 ## Listen
 {{media-switcher::桜の戦略 (feat. マス)}}

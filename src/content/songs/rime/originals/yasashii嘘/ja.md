@@ -17,7 +17,7 @@ image: /images/songs/rime/yasashii嘘.jpg
 
 ## 作品概要
 
-裏命が2024-01-31にリリースしたシングル「やさしい嘘」。
+[裏命](/ja/artists/isotopes/rime)が2024-01-31にリリースしたシングル「やさしい嘘」。
 
 ## 視聴
 {{media-switcher::やさしい嘘}}

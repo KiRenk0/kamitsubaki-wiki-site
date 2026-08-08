@@ -17,7 +17,7 @@ image: /images/songs/kafu/sutoreishiipu.jpg
 
 ## 作品概要
 
-可不が2023-03-23にリリースしたシングル「ストレイシープ」。
+[可不](/ja/artists/isotopes/kafu)が2023-03-23にリリースしたシングル「ストレイシープ」。
 
 ## 視聴
 {{media-switcher::ストレイシープ}}

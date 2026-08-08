@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/mireniano水槽.jpg
 
 ## Overview
 
-“ミレニアの水槽” is a single by Empty old City, released on 2023-01-31.
+“ミレニアの水槽” is a single by [Empty old City](/en/artists/solo/empty-old-city), released on 2023-01-31.
 
 ## Listen
 {{media-switcher::ミレニアの水槽}}

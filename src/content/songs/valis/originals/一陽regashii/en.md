@@ -17,7 +17,7 @@ image: /images/songs/valis/一陽regashii.jpg
 
 ## Overview
 
-“一陽レガシー” is a single by VALIS, released on 2023-04-17.
+“一陽レガシー” is a single by [VALIS](/en/artists/solo/valis), released on 2023-04-17.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/%E4%B8%80%E9%99%BD%E3%83%AC%E3%82%AC%E3%82%B7%E3%83%BC/1625565842?i=1625565843&uo=4 "一陽レガシー")

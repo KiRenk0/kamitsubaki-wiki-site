@@ -24,7 +24,7 @@ image: /images/songs/vwp/single-1741511499.jpg
 
 ## Overview
 
-私的 (feat. 春猿火 & V.W.P) appears on 私的 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+私的 (feat. [春猿火](/en/artists/vwp/harusaruhi) & [V.W.P](/en/artists/vwp/vwp)) appears on 私的 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

@@ -50,7 +50,7 @@ tracks:
 
 ## 概要
 
-カンザキイオリが2025-08-12にリリースしたアルバム『That Summer Saturates』。全7曲を収録。
+[カンザキイオリ](/ja/artists/creators/kanzaki-iori)が2025-08-12にリリースしたアルバム『That Summer Saturates』。全7曲を収録。
 
 ## 収録曲
 

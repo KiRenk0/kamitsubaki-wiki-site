@@ -17,7 +17,7 @@ image: /images/songs/hiratayoshihisa/日本no夏-feat.-七滝今-&-梓川.jpg
 
 ## 作品简介
 
-平田義久于 2022-07-21 发行的单曲《日本の夏 (feat. 七滝今 & 梓川)》。
+[平田義久](/zh/artists/creators/hiratayoshihisa)于 2022-07-21 发行的单曲《日本の夏 (feat. 七滝今 & 梓川)》。
 
 ## 试听
 {{media-switcher::日本の夏 (feat. 七滝今 & 梓川)}}

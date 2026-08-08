@@ -20,7 +20,7 @@ image: /images/songs/coko/fake.jpg
 
 ## 作品简介
 
-狐子于 2022-01-11 发行的单曲《FAKE》。
+[狐子](/zh/artists/isotopes/coko)于 2022-01-11 发行的单曲《FAKE》。
 
 ## 试听
 @[apple-music](https://music.apple.com/jp/album/fake/1715460603?i=1715460604&uo=4 "FAKE")

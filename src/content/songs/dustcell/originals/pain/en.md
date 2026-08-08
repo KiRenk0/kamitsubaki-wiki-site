@@ -17,7 +17,7 @@ image: /images/songs/dustcell/pain.jpg
 
 ## Overview
 
-“PAIN” is a single by DUSTCELL, released on 2020-09-15.
+“PAIN” is a single by [DUSTCELL](/en/artists/solo/dustcell), released on 2020-09-15.
 
 ## Listen
 {{media-switcher::PAIN}}

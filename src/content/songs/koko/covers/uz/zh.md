@@ -18,7 +18,7 @@ image: /images/albums/koko/arare-live.jpg
 
 ## 作品简介
 
-《Uz》收录于《ARARE LIVE》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《Uz》收录于《[ARARE LIVE](/zh/albums/koko/arare-live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 歌词
 

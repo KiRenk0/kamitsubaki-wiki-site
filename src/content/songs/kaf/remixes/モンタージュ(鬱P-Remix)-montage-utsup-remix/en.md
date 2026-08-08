@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 ## Overview
 
-“モンタージュ(鬱P Remix)” is track 10 of KAF’s 魔法γ.
+“モンタージュ(鬱P Remix)” is track 10 of [KAF](/en/artists/vwp/kaf)’s [魔法γ](/en/albums/kaf/maho-gamma).
 
 ## Listen
 

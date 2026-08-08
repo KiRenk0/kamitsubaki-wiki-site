@@ -17,7 +17,7 @@ image: /images/songs/mimi/風鈴歌.jpg
 
 ## Overview
 
-“風鈴歌” is a single by MIMI, released on 2022-08-12.
+“風鈴歌” is a single by [MIMI](/en/artists/creators/mimi), released on 2022-08-12.
 
 ## Listen
 {{media-switcher::風鈴歌}}

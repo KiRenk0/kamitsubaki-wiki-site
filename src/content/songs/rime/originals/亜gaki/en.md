@@ -17,7 +17,7 @@ image: /images/songs/rime/亜gaki.jpg
 
 ## Overview
 
-“亜ガキ” is a single by 裏命, released on 2023-07-17.
+“亜ガキ” is a single by [裏命](/en/artists/isotopes/rime), released on 2023-07-17.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/%E4%BA%9C%E3%82%AC%E3%82%AD/1694640344?i=1694640345&uo=4 "亜ガキ")

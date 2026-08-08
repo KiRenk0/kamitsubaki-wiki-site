@@ -17,7 +17,7 @@ image: /images/songs/valis/偶像naitomea.jpg
 
 ## Overview
 
-“偶像ナイトメア” is a single by VALIS, released on 2023-04-17.
+“偶像ナイトメア” is a single by [VALIS](/en/artists/solo/valis), released on 2023-04-17.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/%E5%81%B6%E5%83%8F%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A1%E3%82%A2/1689358586?i=1689358587&uo=4 "偶像ナイトメア")

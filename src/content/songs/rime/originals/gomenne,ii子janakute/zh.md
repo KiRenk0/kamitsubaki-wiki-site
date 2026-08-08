@@ -17,7 +17,7 @@ image: /images/songs/rime/gomenne,ii子janakute.jpg
 
 ## 作品简介
 
-裏命于 2025-11-20 发行的单曲《ごめんね、いい子じゃなくて》。
+[裏命](/zh/artists/isotopes/rime)于 2025-11-20 发行的单曲《ごめんね、いい子じゃなくて》。
 
 ## 试听
 {{media-switcher::ごめんね、いい子じゃなくて}}

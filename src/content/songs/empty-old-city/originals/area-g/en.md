@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/area-g.jpg
 
 ## Overview
 
-“Area G” is a single by Empty old City, released on 2022-02-08.
+“Area G” is a single by [Empty old City](/en/artists/solo/empty-old-city), released on 2022-02-08.
 
 ## Listen
 {{media-switcher::Area G}}

@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/fragmented-world.jpg
 
 ## Overview
 
-“Fragmented World” is a single by tokiwa, released on 2023-10-30.
+“Fragmented World” is a single by [tokiwa](/en/artists/creators/tokiwa), released on 2023-10-30.
 
 ## Listen
 {{media-switcher::Fragmented World}}

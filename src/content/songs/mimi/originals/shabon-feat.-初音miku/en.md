@@ -17,7 +17,7 @@ image: /images/songs/mimi/shabon-feat.-初音miku.jpg
 
 ## Overview
 
-“シャボン (feat. 初音ミク)” is a single by MIMI, released on 2025-06-25.
+“シャボン (feat. 初音ミク)” is a single by [MIMI](/en/artists/creators/mimi), released on 2025-06-25.
 
 ## Listen
 {{media-switcher::シャボン (feat. 初音ミク)}}

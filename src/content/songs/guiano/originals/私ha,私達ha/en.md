@@ -17,7 +17,7 @@ image: /images/songs/guiano/私ha,私達ha.jpg
 
 ## Overview
 
-“私は、私達は” is a single by Guiano, released on 2023-03-21.
+“私は、私達は” is a single by [Guiano](/en/artists/creators/guiano), released on 2023-03-21.
 
 ## Listen
 {{media-switcher::私は、私達は}}

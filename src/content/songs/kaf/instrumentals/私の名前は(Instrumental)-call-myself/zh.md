@@ -17,7 +17,7 @@ image: /images/albums/kaf/shinai.jpg
 
 ## 作品简介
 
-《私の名前は (Instrumental)》是花譜收录于《深愛》的第 15 轨。
+《私の名前は (Instrumental)》是[花譜](/zh/artists/vwp/kaf)收录于《[深愛](/zh/albums/kaf/shinai)》的第 15 轨。
 
 ## 试听
 

@@ -17,7 +17,7 @@ image: /images/songs/kafu/terepashi-feat.-重音teto-cover.jpg
 
 ## 作品简介
 
-可不于 2025-04-18 发行的单曲《テレパシ (feat. 重音テト) [Cover]》。
+[可不](/zh/artists/isotopes/kafu)于 2025-04-18 发行的单曲《テレパシ (feat. 重音テト) [Cover]》。
 
 ## 试听
 {{media-switcher::テレパシ (feat. 重音テト) [Cover]}}

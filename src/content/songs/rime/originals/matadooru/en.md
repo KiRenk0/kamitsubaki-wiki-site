@@ -17,7 +17,7 @@ image: /images/songs/rime/matadooru.jpg
 
 ## Overview
 
-“マタドール” is a single by 裏命, released on 2023-05-27.
+“マタドール” is a single by [裏命](/en/artists/isotopes/rime), released on 2023-05-27.
 
 ## Listen
 {{media-switcher::マタドール}}

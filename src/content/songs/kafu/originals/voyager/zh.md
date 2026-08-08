@@ -17,7 +17,7 @@ image: /images/songs/kafu/voyager.jpg
 
 ## 作品简介
 
-可不于 2024-04-04 发行的单曲《Voyager》。
+[可不](/zh/artists/isotopes/kafu)于 2024-04-04 发行的单曲《Voyager》。
 
 ## 试听
 {{media-switcher::Voyager}}

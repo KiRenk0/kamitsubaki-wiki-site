@@ -57,7 +57,7 @@ seo:
 软件于 2022年4月29日基于 CeVIO AI 引擎发售。角色视觉由 れおえん 设计，声线以清澈、柔和与叙事感为重要特征。
 
 <div class="wiki-fact-grid">
-  <div class="wiki-fact-card"><p class="wiki-fact-card__label">VOICE PROVIDER</p><p class="wiki-fact-card__value">ヰ世界情緒 / ISEKAIJOUCHO</p></div>
+  <div class="wiki-fact-card"><p class="wiki-fact-card__label">VOICE PROVIDER</p><p class="wiki-fact-card__value">[ヰ世界情緒](/zh/artists/vwp/isekaijoucho) / ISEKAIJOUCHO</p></div>
   <div class="wiki-fact-card"><p class="wiki-fact-card__label">SINGING / TALK</p><p class="wiki-fact-card__value">CeVIO AI；TALK EXTENSION × VOICEPEAK</p></div>
   <div class="wiki-fact-card"><p class="wiki-fact-card__label">CHARACTER DESIGN</p><p class="wiki-fact-card__value">れおえん</p></div>
   <div class="wiki-fact-card"><p class="wiki-fact-card__label">SERIES POSITION</p><p class="wiki-fact-card__value">音乐同位体第二弹</p></div>

@@ -16,7 +16,7 @@ image: /images/songs/grp/kaisou-no-sou.jpg
 
 ## Overview
 
-“回想の層” is a 美古途 release dated 2025-04-23.
+“回想の層” is a [美古途](/en/artists/girls_revolution_project/mikoto) release dated 2025-04-23.
 
 ## Listen
 

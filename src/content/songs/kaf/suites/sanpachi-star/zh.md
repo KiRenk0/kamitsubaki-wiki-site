@@ -15,7 +15,7 @@ image: /images/albums/kaf/suite.jpg
 
 ## 作品简介
 
-《サンパチスター feat. 花譜》是花譜收录于《組曲》的第 16 轨。
+《サンパチスター feat. [花譜](/zh/artists/vwp/kaf)》是花譜收录于《[組曲](/zh/albums/kaf/suite)》的第 16 轨。
 
 ## 歌词
 

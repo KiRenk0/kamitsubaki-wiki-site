@@ -17,7 +17,7 @@ image: /images/songs/hiratayoshihisa/夜ni暇電.jpg
 
 ## Overview
 
-“夜に暇電” is a single by 平田義久, released on 2026-06-16.
+“夜に暇電” is a single by [平田義久](/en/artists/creators/hiratayoshihisa), released on 2026-06-16.
 
 ## Listen
 {{media-switcher::夜に暇電}}

@@ -17,7 +17,7 @@ image: /images/songs/hiratayoshihisa/tookyoo-kooringu.jpg
 
 ## 作品简介
 
-平田義久于 2024-02-06 发行的单曲《トーキョー・コーリング》。
+[平田義久](/zh/artists/creators/hiratayoshihisa)于 2024-02-06 发行的单曲《トーキョー・コーリング》。
 
 ## 试听
 {{media-switcher::トーキョー・コーリング}}

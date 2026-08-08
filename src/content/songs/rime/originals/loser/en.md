@@ -17,7 +17,7 @@ image: /images/songs/rime/loser.jpg
 
 ## Overview
 
-“LOSER” is a single by 裏命, released on 2025-11-21.
+“LOSER” is a single by [裏命](/en/artists/isotopes/rime), released on 2025-11-21.
 
 ## Listen
 {{media-switcher::LOSER}}

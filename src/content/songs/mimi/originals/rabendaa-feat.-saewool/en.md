@@ -17,7 +17,7 @@ image: /images/songs/mimi/rabendaa-feat.-saewool.jpg
 
 ## Overview
 
-“ラベンダー (feat. saewool)” is a single by MIMI, released on 2025-06-22.
+“ラベンダー (feat. saewool)” is a single by [MIMI](/en/artists/creators/mimi), released on 2025-06-22.
 
 ## Listen
 {{media-switcher::ラベンダー (feat. saewool)}}

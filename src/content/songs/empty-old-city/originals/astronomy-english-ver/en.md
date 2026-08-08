@@ -16,7 +16,7 @@ image: /images/songs/empty-old-city/astronomy-english-ver.jpg
 
 ## Overview
 
-“Astronomy (English Ver.)” is a single by Empty old City, released on 2024-12-03.
+“Astronomy (English Ver.)” is a single by [Empty old City](/en/artists/solo/empty-old-city), released on 2024-12-03.
 
 ## Listen
 {{media-switcher::Astronomy (English Ver.)}}

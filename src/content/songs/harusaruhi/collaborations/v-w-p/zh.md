@@ -20,7 +20,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 ## 作品简介
 
-《V.W.P》收录于《SPICE OF LIFE》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《V.W.P》收录于《[SPICE OF LIFE](/zh/albums/harusaruhi/spice-of-life)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 

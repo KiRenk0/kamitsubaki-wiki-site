@@ -17,7 +17,7 @@ image: /images/songs/haru/送ri雨道.jpg
 
 ## Overview
 
-“送り雨道” is a single by 羽累, released on 2024-05-26.
+“送り雨道” is a single by [羽累](/en/artists/isotopes/haru), released on 2024-05-26.
 
 ## Listen
 {{media-switcher::送り雨道}}

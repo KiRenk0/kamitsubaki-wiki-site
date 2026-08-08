@@ -17,7 +17,7 @@ image: /images/songs/rime/timeover.jpg
 
 ## Overview
 
-“TIMEOVER” is a single by 裏命, released on 2026-04-15.
+“TIMEOVER” is a single by [裏命](/en/artists/isotopes/rime), released on 2026-04-15.
 
 ## Listen
 {{media-switcher::TIMEOVER}}

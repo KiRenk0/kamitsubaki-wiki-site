@@ -17,7 +17,7 @@ image: /images/songs/rime/timeover.jpg
 
 ## 作品简介
 
-裏命于 2026-04-15 发行的单曲《TIMEOVER》。
+[裏命](/zh/artists/isotopes/rime)于 2026-04-15 发行的单曲《TIMEOVER》。
 
 ## 试听
 {{media-switcher::TIMEOVER}}

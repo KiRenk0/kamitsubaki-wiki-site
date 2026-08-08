@@ -17,7 +17,7 @@ image: /images/songs/rime/reseda.jpg
 
 ## 作品概要
 
-裏命が2023-08-13にリリースしたシングル「レセダ」。
+[裏命](/ja/artists/isotopes/rime)が2023-08-13にリリースしたシングル「レセダ」。
 
 ## 視聴
 {{media-switcher::レセダ}}

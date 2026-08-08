@@ -16,7 +16,7 @@ image: /images/songs/grp/cinematic.jpg
 
 ## Overview
 
-“シネマティック” is a 佳鏡院 release dated 2025-02-12.
+“シネマティック” is a [佳鏡院](/en/artists/girls_revolution_project/kakyoin) release dated 2025-02-12.
 
 ## Listen
 

@@ -17,7 +17,7 @@ image: /images/songs/mimi/月夜-feat.-宵.jpg
 
 ## Overview
 
-“月夜 (feat. 宵)” is a single by MIMI, released on 2026-04-21.
+“月夜 (feat. 宵)” is a single by [MIMI](/en/artists/creators/mimi), released on 2026-04-21.
 
 ## Listen
 {{media-switcher::月夜 (feat. 宵)}}

@@ -17,7 +17,7 @@ image: /images/songs/kafu/iris-out-feat.-初音miku-hatsune-miku-cover.jpg
 
 ## Overview
 
-“IRIS OUT (feat. 初音ミク) [Hatsune Miku Cover]” is a single by 可不, released on 2025-10-26.
+“IRIS OUT (feat. 初音ミク) [Hatsune Miku Cover]” is a single by [可不](/en/artists/isotopes/kafu), released on 2025-10-26.
 
 ## Listen
 {{media-switcher::IRIS OUT (feat. 初音ミク) [Hatsune Miku Cover]}}

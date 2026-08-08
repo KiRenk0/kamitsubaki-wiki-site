@@ -17,7 +17,7 @@ image: /images/songs/hiratayoshihisa/bakemonobattaa.jpg
 
 ## 作品概要
 
-平田義久が2022-01-28にリリースしたシングル「バケモノバッター」。
+[平田義久](/ja/artists/creators/hiratayoshihisa)が2022-01-28にリリースしたシングル「バケモノバッター」。
 
 ## 視聴
 {{media-switcher::バケモノバッター}}

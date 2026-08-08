@@ -42,7 +42,7 @@ tracks:
 
 ## Overview
 
-星界's ep “Yumemigokochi”, released on 2024-02-01, featuring 5 tracks.
+[星界](/en/artists/isotopes/sekai)'s ep “Yumemigokochi”, released on 2024-02-01, featuring 5 tracks.
 
 ## Track List
 

@@ -17,7 +17,7 @@ image: /images/songs/rime/reseda.jpg
 
 ## Overview
 
-“レセダ” is a single by 裏命, released on 2023-08-13.
+“レセダ” is a single by [裏命](/en/artists/isotopes/rime), released on 2023-08-13.
 
 ## Listen
 {{media-switcher::レセダ}}

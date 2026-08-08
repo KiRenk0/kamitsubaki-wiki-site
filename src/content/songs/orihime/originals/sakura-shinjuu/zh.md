@@ -16,7 +16,7 @@ image: /images/songs/grp/sakura-shinjuu.jpg
 
 ## 作品简介
 
-《桜心中》是御莉姫于 2026-04-08 正式发行的作品。
+《桜心中》是[御莉姫](/zh/artists/girls_revolution_project/orihime)于 2026-04-08 正式发行的作品。
 
 ## 试听
 

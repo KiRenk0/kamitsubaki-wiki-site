@@ -17,7 +17,7 @@ image: /images/songs/rime/美shiimono.jpg
 
 ## 作品概要
 
-裏命が2024-08-25にリリースしたシングル「美しいもの」。
+[裏命](/ja/artists/isotopes/rime)が2024-08-25にリリースしたシングル「美しいもの」。
 
 ## 視聴
 {{media-switcher::美しいもの}}

@@ -62,7 +62,7 @@ tracks:
 
 ## 概要
 
-裏命が2025-01-11にリリースしたアルバム『5: I Wish I Could Figure Out Why I Can Dream』。全10曲を収録。
+[裏命](/ja/artists/isotopes/rime)が2025-01-11にリリースしたアルバム『5: I Wish I Could Figure Out Why I Can Dream』。全10曲を収録。
 
 ## 収録曲
 

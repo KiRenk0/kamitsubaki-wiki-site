@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 ## 作品概要
 
-「この世界は美しい(tokiwa Remix)」は花譜の『寓話γ』に収録された4曲目です。
+「この世界は美しい([tokiwa](/ja/artists/creators/tokiwa) Remix)」は[花譜](/ja/artists/vwp/kaf)の『[寓話γ](/ja/albums/kaf/guwa-gamma)』に収録された4曲目です。
 
 ## 視聴
 

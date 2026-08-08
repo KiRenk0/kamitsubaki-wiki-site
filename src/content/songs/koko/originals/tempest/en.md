@@ -19,7 +19,7 @@ image: /images/songs/koko/single-1800618742.jpg
 
 ## Overview
 
-Tempest (feat. 幸祜) appears on Tempest or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+Tempest (feat. [幸祜](/en/artists/vwp/koko)) appears on Tempest or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

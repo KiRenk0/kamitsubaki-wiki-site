@@ -59,7 +59,7 @@ seo:
 
 ## Overview
 
-KOKO is a virtual singer from KAMITSUBAKI STUDIO and a member of V.W.P. One of her clearest signatures is the way she drives songs with powerful long tones and a head-on vocal attack, which often gives her a more rock-oriented image within the wider Kamitsubaki lineup.
+KOKO is a virtual singer from [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) and a member of [V.W.P](/en/artists/vwp/vwp). One of her clearest signatures is the way she drives songs with powerful long tones and a head-on vocal attack, which often gives her a more rock-oriented image within the wider Kamitsubaki lineup.
 
 ## Role and Creative Position
 
@@ -86,7 +86,7 @@ KOKO tends to leave an impression through pressure and directness first. Whether
 - **February 23**: Officially released her 1st album *prayer*.
 - **April 15–16**: Performed at V.W.P's 1st ONE-MAN LIVE "Phenomenon" (現象) and the joint concert "Majo Shukai" (魔女集会).
 - **July 12**: Released the collaboration original single "Kokuin" (刻印) with Isekai Joucho.
-- **July 15**: Announced the production of her musical isotope "COKO" (狐子); on the same day, released the song "TIME", which served as the opening theme for the TV anime *The 5-billion-year button*.
+- **July 15**: Announced the production of her [musical isotope](/en/artists/solo/musical-isotope) "[COKO](/en/artists/isotopes/coko)" (狐子); on the same day, released the song "[TIME](/en/songs/koko/originals/time)", which served as the opening theme for the TV anime *The 5-billion-year button*.
 - **November 6**: Held the joint two-man live "Singularity Live Vol.2" with Harusaruhi.
 
 ### 2023

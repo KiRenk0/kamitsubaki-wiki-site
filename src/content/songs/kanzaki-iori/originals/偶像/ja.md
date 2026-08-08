@@ -17,7 +17,7 @@ image: /images/songs/kanzaki-iori/偶像.jpg
 
 ## 作品概要
 
-カンザキイオリが2022-02-28にリリースしたシングル「偶像」。
+[カンザキイオリ](/ja/artists/creators/kanzaki-iori)が2022-02-28にリリースしたシングル「偶像」。
 
 ## 視聴
 {{media-switcher::偶像}}

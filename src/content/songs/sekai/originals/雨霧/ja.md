@@ -17,7 +17,7 @@ image: /images/songs/sekai/雨霧.jpg
 
 ## 作品概要
 
-星界が2025-03-23にリリースしたシングル「雨霧」。
+[星界](/ja/artists/isotopes/sekai)が2025-03-23にリリースしたシングル「雨霧」。
 
 ## 視聴
 {{media-switcher::雨霧}}

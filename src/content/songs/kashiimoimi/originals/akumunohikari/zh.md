@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/akumunohikari.jpg
 
 ## 作品简介
 
-香椎モイミ于 2025-10-14 发行的单曲《あくむのひかり》。
+[香椎モイミ](/zh/artists/creators/kashiimoimi)于 2025-10-14 发行的单曲《あくむのひかり》。
 
 ## 试听
 {{media-switcher::あくむのひかり}}

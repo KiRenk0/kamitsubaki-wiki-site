@@ -17,7 +17,7 @@ image: /images/songs/loluet/doresu.jpg
 
 ## Overview
 
-“ドレス” is a single by LOLUET, released on 2025-09-09.
+“ドレス” is a single by [LOLUET](/en/artists/solo/loluet), released on 2025-09-09.
 
 ## Listen
 {{media-switcher::ドレス}}

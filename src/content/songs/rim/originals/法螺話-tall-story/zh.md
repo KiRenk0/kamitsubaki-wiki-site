@@ -19,7 +19,7 @@ image: /images/songs/rim/single-1687473629.jpg
 
 ## 作品简介
 
-《法螺話 (with Guiano)》收录于《法螺話 (with Guiano)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《法螺話 (with [Guiano](/zh/artists/creators/guiano))》收录于《法螺話 (with Guiano)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 

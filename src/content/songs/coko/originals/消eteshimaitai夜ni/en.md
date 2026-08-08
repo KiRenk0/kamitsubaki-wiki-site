@@ -17,7 +17,7 @@ image: /images/songs/coko/消eteshimaitai夜ni.jpg
 
 ## Overview
 
-“消えてしまいたい夜に” is a single by 狐子, released on 2025-11-14.
+“消えてしまいたい夜に” is a single by [狐子](/en/artists/isotopes/coko), released on 2025-11-14.
 
 ## Listen
 {{media-switcher::消えてしまいたい夜に}}

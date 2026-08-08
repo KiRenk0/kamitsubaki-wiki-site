@@ -16,7 +16,7 @@ image: /images/songs/grp/alive.jpg
 
 ## Overview
 
-“アライブ (feat. 夢魅たぴ)” is a 氷夏至 release dated 2024-10-16.
+“アライブ (feat. 夢魅たぴ)” is a [氷夏至](/en/artists/girls_revolution_project/hinageshi) release dated 2024-10-16.
 
 ## Listen
 

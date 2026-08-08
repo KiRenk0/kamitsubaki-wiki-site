@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 
 ## Overview
 
-“水面に、アイス (I SCREAM LIVE3 ver.)” is track 10 of KAF’s I SCREAM LIVE3.
+“水面に、アイス (I SCREAM LIVE3 ver.)” is track 10 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE3](/en/albums/kaf/i-scream-live-3).
 
 ## Listen
 

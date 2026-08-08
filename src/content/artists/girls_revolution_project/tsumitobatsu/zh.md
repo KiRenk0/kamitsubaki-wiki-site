@@ -33,22 +33,22 @@ featuredEntries:
 
 ## 概述
 
-罪十罰（TSUMITOBATSU）是 KAMITSUBAKI STUDIO 旗下「少女革命計画」（GIRLS REVOLUTION PROJECT）厂牌中的虚拟歌手组合，由美古途、夕凪機、氷夏至三人组成。
+罪十罰（TSUMITOBATSU）是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 旗下「[少女革命計画](/zh/projects/labels/girls-revolution-project)」（GIRLS REVOLUTION PROJECT）厂牌中的虚拟歌手组合，由[美古途](/zh/artists/girls_revolution_project/mikoto)、[夕凪機](/zh/artists/girls_revolution_project/yunagi)、[氷夏至](/zh/artists/girls_revolution_project/hinageshi)三人组成。
 
-组合的定位是「在虚拟世界回响的歌声中刻下罪之烙印」——她们以充满攻击性的舞曲风格著称。三位少女立下密约，在永不终结的夜晚中浅眠。罪十罰与心世紀共同构成少女革命計画的两大核心组合。
+组合的定位是「在虚拟世界回响的歌声中刻下罪之烙印」——她们以充满攻击性的舞曲风格著称。三位少女立下密约，在永不终结的夜晚中浅眠。罪十罰与[心世紀](/zh/artists/girls_revolution_project/sinseiki)共同构成[少女革命計画](/zh/projects/labels/girls-revolution-project)的两大核心组合。
 
 ## 活动历程
 
-- **2025年1月**：以单曲《弔花》正式出道。
-- **2025年7月16日**：与心世紀共同发行双组曲《改変》。
+- **2025年1月**：以单曲《[弔花](/zh/songs/tsumitobatsu/originals/chouka)》正式出道。
+- **2025年7月16日**：与[心世紀](/zh/artists/girls_revolution_project/sinseiki)共同发行双组曲《[改変](/zh/songs/grp/originals/kaihen)》。
 - **2025年10月29日**：发行 1st Album《改変 -罪-》。
 - **2026年5月**：参加 KAMITSUBAKI WARS 2026 神椿渋谷戦線「少女革命計画 2nd LIVE『Revolutio』」。
 
 ## 代表作品
 
 - 专辑：《改変 -罪-》
-- 单曲：《弔花》《SURVIVAL》《SHOCK》《大罪》《blindness》等
-- 组合曲：《改変》《主人行路》《鈍色幻灯》《現世回帰》
+- 单曲：《[弔花](/zh/songs/tsumitobatsu/originals/chouka)》《[SURVIVAL](/zh/songs/tsumitobatsu/originals/survival)》《[SHOCK](/zh/songs/tsumitobatsu/originals/shock)》《[大罪](/zh/songs/tsumitobatsu/originals/taizai)》《[blindness](/zh/songs/tsumitobatsu/originals/blindness)》等
+- 组合曲：《[改変](/zh/songs/grp/originals/kaihen)》《[主人行路](/zh/songs/grp/originals/shujin-kouro)》《[鈍色幻灯](/zh/songs/grp/originals/nibiiro-gentou)》《[現世回帰](/zh/songs/grp/originals/gense-kaiki)》
 
 ## 外部链接
 

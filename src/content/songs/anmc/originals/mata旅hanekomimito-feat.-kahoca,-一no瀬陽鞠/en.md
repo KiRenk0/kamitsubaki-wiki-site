@@ -17,7 +17,7 @@ image: /images/songs/anmc/mata旅hanekomimito-feat.-kahoca,-一no瀬陽鞠.jpg
 
 ## Overview
 
-“また旅はネコミミと feat. kahoca, 一ノ瀬陽鞠” is a single by ANMC, released on 2025-04-16.
+“また旅はネコミミと feat. kahoca, 一ノ瀬陽鞠” is a single by [ANMC](/en/artists/solo/anmc), released on 2025-04-16.
 
 ## Listen
 {{media-switcher::また旅はネコミミと feat. kahoca, 一ノ瀬陽鞠}}

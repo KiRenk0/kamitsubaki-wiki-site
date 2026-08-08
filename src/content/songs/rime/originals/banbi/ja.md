@@ -17,7 +17,7 @@ image: /images/songs/rime/banbi.jpg
 
 ## 作品概要
 
-裏命が2023-09-06にリリースしたシングル「バンビ」。
+[裏命](/ja/artists/isotopes/rime)が2023-09-06にリリースしたシングル「バンビ」。
 
 ## 視聴
 {{media-switcher::バンビ}}

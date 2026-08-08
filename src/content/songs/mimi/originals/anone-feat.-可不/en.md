@@ -17,7 +17,7 @@ image: /images/songs/mimi/anone-feat.-可不.jpg
 
 ## Overview
 
-“あのね (feat. 可不)” is a single by MIMI, released on 2022-08-27.
+“あのね (feat. [可不](/en/artists/isotopes/kafu))” is a single by [MIMI](/en/artists/creators/mimi), released on 2022-08-27.
 
 ## Listen
 {{media-switcher::あのね (feat. 可不)}}

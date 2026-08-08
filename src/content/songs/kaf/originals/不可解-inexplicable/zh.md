@@ -19,7 +19,7 @@ image: /images/albums/kaf/kansoku.jpg
 
 ## 作品简介
 
-《不可解》是花譜收录于《観測》的第 13 轨。
+《不可解》是[花譜](/zh/artists/vwp/kaf)收录于《[観測](/zh/albums/kaf/kansoku)》的第 13 轨。
 
 ## 试听
 

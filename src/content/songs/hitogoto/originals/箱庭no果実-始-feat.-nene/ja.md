@@ -17,7 +17,7 @@ image: /images/songs/hitogoto/箱庭no果実-始-feat.-nene.jpg
 
 ## 作品概要
 
-他人事が2024-02-22にリリースしたシングル「箱庭の果実【始】 (feat. ねね)」。
+[他人事](/ja/artists/creators/hitogoto)が2024-02-22にリリースしたシングル「箱庭の果実【始】 (feat. ねね)」。
 
 ## 視聴
 {{media-switcher::箱庭の果実【始】 (feat. ねね)}}

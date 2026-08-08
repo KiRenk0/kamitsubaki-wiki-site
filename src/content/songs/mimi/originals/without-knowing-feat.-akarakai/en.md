@@ -17,7 +17,7 @@ image: /images/songs/mimi/without-knowing-feat.-akarakai.jpg
 
 ## Overview
 
-“Without Knowing (feat. アカラカイ)” is a single by MIMI, released on 2023-08-18.
+“Without Knowing (feat. アカラカイ)” is a single by [MIMI](/en/artists/creators/mimi), released on 2023-08-18.
 
 ## Listen
 {{media-switcher::Without Knowing (feat. アカラカイ)}}

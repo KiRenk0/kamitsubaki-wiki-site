@@ -50,7 +50,7 @@ seo:
 
 ## Overview
 
-Hitogoto (他人事) is a two-person music unit composed of "Men" (面) and "Uo Uo" (魚魚), affiliated with KAMITSUBAKI STUDIO's CREATOR FARM. Active since 2020, they began by producing Vocaloid originals and self-covers, quickly gaining attention for their emotionally charged songwriting and polished arrangements.
+Hitogoto (他人事) is a two-person music unit composed of "Men" (面) and "Uo Uo" (魚魚), affiliated with [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio)'s CREATOR FARM. Active since 2020, they began by producing Vocaloid originals and self-covers, quickly gaining attention for their emotionally charged songwriting and polished arrangements.
 
 The unit achieved notable recognition by placing 8th in the Rookie Rankings at The VOCALOID Collection 2022 Spring, competing against approximately 2,800 submissions. Their illustrations are provided by Kanta Yo (神多洋), whose artwork complements the unit's evocative musical world.
 

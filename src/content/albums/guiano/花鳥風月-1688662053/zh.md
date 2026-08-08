@@ -78,10 +78,10 @@ Guiano于 2023-04-29 发行的Album《花鳥風月》,共收录 12 首歌曲。
 2. 鳥（02:20）
 3. 風（03:00）
 4. 月（03:34）
-5. 花 feat. 花譜（03:28）
-6. 鳥 feat. 幸祜, 春猿火（02:21）
-7. 風 feat. 理芽（03:00）
-8. 月 feat. ヰ世界情緒（03:34）
+5. 花 feat. [花譜](/zh/artists/vwp/kaf)（03:28）
+6. 鳥 feat. [幸祜](/zh/artists/vwp/koko), [春猿火](/zh/artists/vwp/harusaruhi)（02:21）
+7. 風 feat. [理芽](/zh/artists/vwp/rim)（03:00）
+8. 月 feat. [ヰ世界情緒](/zh/artists/vwp/isekaijoucho)（03:34）
 9. 花 (Guiano Ver.)（03:30）
 10. 鳥 (Guiano Ver.)（02:33）
 11. 風 (Guiano Ver.)（03:00）

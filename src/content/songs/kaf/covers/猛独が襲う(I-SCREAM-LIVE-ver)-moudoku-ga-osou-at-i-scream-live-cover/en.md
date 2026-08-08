@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 ## Overview
 
-“猛独が襲う (I SCREAM LIVE ver.)” is track 4 of KAF’s I SCREAM LIVE.
+“猛独が襲う (I SCREAM LIVE ver.)” is track 4 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE](/en/albums/kaf/i-scream-live).
 
 ## Listen
 

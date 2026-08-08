@@ -17,7 +17,7 @@ image: /images/songs/rime/banbi.jpg
 
 ## 作品简介
 
-裏命于 2023-09-06 发行的单曲《バンビ》。
+[裏命](/zh/artists/isotopes/rime)于 2023-09-06 发行的单曲《バンビ》。
 
 ## 试听
 {{media-switcher::バンビ}}

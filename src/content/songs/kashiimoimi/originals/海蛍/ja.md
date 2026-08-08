@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/海蛍.jpg
 
 ## 作品概要
 
-香椎モイミが2024-10-15にリリースしたシングル「海蛍」。
+[香椎モイミ](/ja/artists/creators/kashiimoimi)が2024-10-15にリリースしたシングル「海蛍」。
 
 ## 視聴
 {{media-switcher::海蛍}}

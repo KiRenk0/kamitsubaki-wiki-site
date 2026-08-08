@@ -59,7 +59,7 @@ seo:
 
 ## Overview
 
-ANMC (anomachi) is an "indie game x music" project led by game creator Kazuhide Oka. It gained recognition with the 2022 Steam release *Natsuno Kanata* and operates within KAMITSUBAKI STUDIO's ANARCHIC RECORD ecosystem and KAMITSUBAKI CREATION framework.
+ANMC (anomachi) is an "indie game x music" project led by game creator [Kazuhide Oka](/en/artists/creators/kazuhide-oka). It gained recognition with the 2022 Steam release *Natsuno Kanata* and operates within [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio)'s ANARCHIC RECORD ecosystem and KAMITSUBAKI CREATION framework.
 
 The core concept is "music becomes a piece of the game." By producing games, music, and music videos simultaneously from the scenario stage, ANMC builds a unique creative model where creators converge in the game world of "Ano Machi."
 
@@ -71,7 +71,7 @@ Two titles are currently available on Steam: *Natsuno Kanata* (App ID: 2951340) 
 
 ## Discography
 
-- 6th Single: "Mata Tabi wa Nekomimi to" feat. kahoca (from Empty old City), Ichinose Hinatsu
+- 6th Single: "Mata Tabi wa Nekomimi to" feat. kahoca (from [Empty old City](/en/artists/solo/empty-old-city)), Ichinose Hinatsu
 - 5th Single: "Futari dake no Monogatari"
 - 4th Single: "moonless"
 - 3rd Single: "Tsuki no Nioi" feat. WaMi

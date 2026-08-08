@@ -17,7 +17,7 @@ image: /images/songs/sekai/終着世界.jpg
 
 ## 作品简介
 
-星界于 2024-10-22 发行的单曲《終着世界》。
+[星界](/zh/artists/isotopes/sekai)于 2024-10-22 发行的单曲《終着世界》。
 
 ## 试听
 {{media-switcher::終着世界}}

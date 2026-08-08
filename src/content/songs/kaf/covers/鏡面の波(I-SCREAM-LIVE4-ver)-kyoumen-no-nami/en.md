@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 ## Overview
 
-“鏡面の波 (I SCREAM LIVE4 ver.)” is track 3 of KAF’s I SCREAM LIVE4 - Cover Live Album -.
+“鏡面の波 (I SCREAM LIVE4 ver.)” is track 3 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE4 - Cover Live Album -](/en/albums/kaf/i-scream-live-4).
 
 ## Listen
 

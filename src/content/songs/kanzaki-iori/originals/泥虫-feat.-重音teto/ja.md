@@ -17,7 +17,7 @@ image: /images/songs/kanzaki-iori/泥虫-feat.-重音teto.jpg
 
 ## 作品概要
 
-カンザキイオリが2025-04-18にリリースしたシングル「泥虫 (feat. 重音テト)」。
+[カンザキイオリ](/ja/artists/creators/kanzaki-iori)が2025-04-18にリリースしたシングル「泥虫 (feat. 重音テト)」。
 
 ## 視聴
 @[apple-music](https://music.apple.com/jp/album/%E6%B3%A5%E8%99%AB-feat-%E9%87%8D%E9%9F%B3%E3%83%86%E3%83%88/1857845084?i=1857845100&uo=4 "泥虫 (feat. 重音テト)")

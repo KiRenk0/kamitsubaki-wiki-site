@@ -17,7 +17,7 @@ image: /images/songs/coko/tokyo-midnight-fantasy.jpg
 
 ## 作品概要
 
-狐子が2026-05-26にリリースしたシングル「TOKYO MIDNIGHT FANTASY」。
+[狐子](/ja/artists/isotopes/coko)が2026-05-26にリリースしたシングル「TOKYO MIDNIGHT FANTASY」。
 
 ## 視聴
 @[apple-music](https://music.apple.com/jp/album/tokyo-midnight-fantasy/1735647741?i=1735647742&uo=4 "TOKYO MIDNIGHT FANTASY")

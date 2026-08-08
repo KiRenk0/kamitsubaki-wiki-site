@@ -17,7 +17,7 @@ image: /images/songs/sekai/saikederikku感情戦.jpg
 
 ## Overview
 
-“サイケデリック感情戦” is a single by 星界, released on 2024-11-19.
+“サイケデリック感情戦” is a single by [星界](/en/artists/isotopes/sekai), released on 2024-11-19.
 
 ## Listen
 {{media-switcher::サイケデリック感情戦}}

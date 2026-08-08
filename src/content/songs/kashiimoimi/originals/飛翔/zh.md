@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/飛翔.jpg
 
 ## 作品简介
 
-香椎モイミ于 2025-07-15 发行的单曲《飛翔》。
+[香椎モイミ](/zh/artists/creators/kashiimoimi)于 2025-07-15 发行的单曲《飛翔》。
 
 ## 试听
 {{media-switcher::飛翔}}

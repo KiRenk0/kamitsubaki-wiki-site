@@ -17,7 +17,7 @@ image: /images/songs/mimi/愛saretaitte願tteru-feat.-可不-cover.jpg
 
 ## Overview
 
-“愛されたいって願ってる (feat. 可不) [Cover]” is a single by MIMI, released on 2025-11-20.
+“愛されたいって願ってる (feat. [可不](/en/artists/isotopes/kafu)) [Cover]” is a single by [MIMI](/en/artists/creators/mimi), released on 2025-11-20.
 
 ## Listen
 {{media-switcher::愛されたいって願ってる (feat. 可不) [Cover]}}

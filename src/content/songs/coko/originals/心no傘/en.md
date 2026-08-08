@@ -17,7 +17,7 @@ image: /images/songs/coko/心no傘.jpg
 
 ## Overview
 
-“心の傘” is a single by 狐子, released on 2023-03-26.
+“心の傘” is a single by [狐子](/en/artists/isotopes/coko), released on 2023-03-26.
 
 ## Listen
 {{media-switcher::心の傘}}

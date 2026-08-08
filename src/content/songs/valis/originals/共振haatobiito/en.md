@@ -17,7 +17,7 @@ image: /images/songs/valis/共振haatobiito.jpg
 
 ## Overview
 
-“共振ハートビート” is a single by VALIS, released on 2025-05-20.
+“共振ハートビート” is a single by [VALIS](/en/artists/solo/valis), released on 2025-05-20.
 
 ## Listen
 {{media-switcher::共振ハートビート}}

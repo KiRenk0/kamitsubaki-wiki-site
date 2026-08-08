@@ -20,7 +20,7 @@ image: /images/songs/musical-isotope/辺獄ekonomika.jpg
 
 ## 作品概要
 
-音楽的同位体が2023-11-12にリリースしたシングル「辺獄エコノミカ」。
+[音楽的同位体](/ja/artists/solo/musical-isotope)が2023-11-12にリリースしたシングル「辺獄エコノミカ」。
 
 ## 視聴
 {{media-switcher::辺獄エコノミカ}}

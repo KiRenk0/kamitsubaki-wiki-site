@@ -17,7 +17,7 @@ image: /images/songs/guiano/法螺話-self-cover.jpg
 
 ## Overview
 
-“法螺話(self cover)” is a single by Guiano, released on 2021-03-23.
+“法螺話(self cover)” is a single by [Guiano](/en/artists/creators/guiano), released on 2021-03-23.
 
 ## Listen
 {{media-switcher::法螺話(self cover)}}

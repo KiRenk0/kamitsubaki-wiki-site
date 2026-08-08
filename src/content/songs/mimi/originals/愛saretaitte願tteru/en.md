@@ -17,7 +17,7 @@ image: /images/songs/mimi/愛saretaitte願tteru.jpg
 
 ## Overview
 
-“愛されたいって願ってる” is a single by MIMI, released on 2025-08-22.
+“愛されたいって願ってる” is a single by [MIMI](/en/artists/creators/mimi), released on 2025-08-22.
 
 ## Listen
 {{media-switcher::愛されたいって願ってる}}

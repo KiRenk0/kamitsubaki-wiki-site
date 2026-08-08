@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/flash-feat.-kaito.jpg
 
 ## 作品概要
 
-香椎モイミが2022-07-19にリリースしたシングル「FLASH (feat. KAITO)」。
+[香椎モイミ](/ja/artists/creators/kashiimoimi)が2022-07-19にリリースしたシングル「FLASH (feat. KAITO)」。
 
 ## 視聴
 {{media-switcher::FLASH (feat. KAITO)}}

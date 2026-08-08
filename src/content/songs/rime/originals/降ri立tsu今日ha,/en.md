@@ -20,7 +20,7 @@ image: /images/songs/rime/降ri立tsu今日ha,.jpg
 
 ## Overview
 
-“降り立つ今日は、” is a single by 裏命, released on 2025-09-07.
+“降り立つ今日は、” is a single by [裏命](/en/artists/isotopes/rime), released on 2025-09-07.
 
 ## Listen
 {{media-switcher::降り立つ今日は、}}

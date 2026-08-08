@@ -24,7 +24,7 @@ image: /images/albums/vwp/virtual-city-record.jpg
 
 ## 作品简介
 
-《BREATHE(Rearranged ver.)》收录于《仮想都市録》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《BREATHE(Rearranged ver.)》收录于《[仮想都市録](/zh/albums/vwp/virtual-city-record)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 

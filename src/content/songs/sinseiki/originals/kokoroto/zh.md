@@ -16,7 +16,7 @@ image: /images/songs/grp/kokoroto.jpg
 
 ## 作品简介
 
-《ココロト》是心世紀于 2025-02-26 正式发行的作品。
+《ココロト》是[心世紀](/zh/artists/girls_revolution_project/sinseiki)于 2025-02-26 正式发行的作品。
 
 ## 试听
 

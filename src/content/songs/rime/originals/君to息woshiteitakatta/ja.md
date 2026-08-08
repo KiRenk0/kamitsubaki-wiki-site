@@ -17,7 +17,7 @@ image: /images/songs/rime/君to息woshiteitakatta.jpg
 
 ## 作品概要
 
-裏命が2025-10-10にリリースしたシングル「君と息をしていたかった」。
+[裏命](/ja/artists/isotopes/rime)が2025-10-10にリリースしたシングル「君と息をしていたかった」。
 
 ## 視聴
 {{media-switcher::君と息をしていたかった}}

@@ -16,7 +16,7 @@ image: /images/songs/grp/taizai.jpg
 
 ## Overview
 
-“大罪” is a 罪十罰 release dated 2026-01-23.
+“大罪” is a [罪十罰](/en/artists/girls_revolution_project/tsumitobatsu) release dated 2026-01-23.
 
 ## Listen
 

@@ -17,7 +17,7 @@ image: /images/songs/valis/月輪迷宮-rara.jpg
 
 ## Overview
 
-“月輪迷宮(RARA)” is a single by VALIS, released on 2023-10-21.
+“月輪迷宮(RARA)” is a single by [VALIS](/en/artists/solo/valis), released on 2023-10-21.
 
 ## Listen
 {{media-switcher::月輪迷宮(RARA)}}

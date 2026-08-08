@@ -17,7 +17,7 @@ image: /images/songs/hitogoto/aianmeedee-feat.-nene.jpg
 
 ## Overview
 
-“アイアンメーデー (feat. ねね)” is a single by 他人事, released on 2023-11-24.
+“アイアンメーデー (feat. ねね)” is a single by [他人事](/en/artists/creators/hitogoto), released on 2023-11-24.
 
 ## Listen
 {{media-switcher::アイアンメーデー (feat. ねね)}}

@@ -40,7 +40,7 @@ tracks:
 
 ## Overview
 
-Virtual Ties 〜ヰ世界情緒夢想曲〜 Theme Songs is an official release represented in this catalog. Release date, track order, durations, and credited performers were cross-checked against the official discography and Apple Music Japan.
+Virtual Ties 〜[ヰ世界情緒](/en/artists/vwp/isekaijoucho)夢想曲〜 Theme Songs is an official release represented in this catalog. Release date, track order, durations, and credited performers were cross-checked against the official discography and Apple Music Japan.
 
 ## Tracks and versions
 

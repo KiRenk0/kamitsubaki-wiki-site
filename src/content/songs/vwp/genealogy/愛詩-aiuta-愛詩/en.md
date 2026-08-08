@@ -24,7 +24,7 @@ image: /images/songs/vwp/single-1807259067.jpg
 
 ## Overview
 
-愛詩 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO) appears on 愛詩 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+愛詩 (feat. [KAF](/en/artists/vwp/kaf), [RIM](/en/artists/vwp/rim), [Harusaruhi](/en/artists/vwp/harusaruhi), [Isekaijoucho](/en/artists/vwp/isekaijoucho) & [KOKO](/en/artists/vwp/koko)) appears on 愛詩 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

@@ -17,7 +17,7 @@ image: /images/songs/hitogoto/神wo偽tta悪魔he-始.jpg
 
 ## 作品概要
 
-他人事が2022-04-22にリリースしたシングル「神を偽った悪魔へ【始】」。
+[他人事](/ja/artists/creators/hitogoto)が2022-04-22にリリースしたシングル「神を偽った悪魔へ【始】」。
 
 ## 視聴
 {{media-switcher::神を偽った悪魔へ【始】}}

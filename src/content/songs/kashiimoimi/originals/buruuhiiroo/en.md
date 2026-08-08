@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/buruuhiiroo.jpg
 
 ## Overview
 
-“ブルーヒーロー” is a single by 香椎モイミ, released on 2026-03-10.
+“ブルーヒーロー” is a single by [香椎モイミ](/en/artists/creators/kashiimoimi), released on 2026-03-10.
 
 ## Listen
 {{media-switcher::ブルーヒーロー}}

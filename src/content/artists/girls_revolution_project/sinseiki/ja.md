@@ -33,23 +33,23 @@ featuredEntries:
 
 ## 概要
 
-心世紀（SINSEIKI）は、KAMITSUBAKI STUDIOの「少女革命計画」（GIRLS REVOLUTION PROJECT）レーベルに所属する3人組のXtuberユニット。メンバーは御莉姫、佳鏡院、硝子宮。
+心世紀（SINSEIKI）は、[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio)の「[少女革命計画](/ja/projects/labels/girls-revolution-project)」（GIRLS REVOLUTION PROJECT）レーベルに所属する3人組のXtuberユニット。メンバーは[御莉姫](/ja/artists/girls_revolution_project/orihime)、[佳鏡院](/ja/artists/girls_revolution_project/kakyoin)、[硝子宮](/ja/artists/girls_revolution_project/garasumiya)。
 
 リアルとバーチャルという二層の狭間から声を届ける「心世代ミュージック」を特徴とし、少女たちは超新星の光を纏い、眠らない夜を駆け抜ける。少女革命計画の物語を牽引する中心ユニットのひとつ。
 
 ## 活動履歴
 
-- **2024年8月**：シングル『フェイクナイト・シンデレラ』でデビュー。
+- **2024年8月**：シングル『[フェイクナイト・シンデレラ](/ja/songs/sinseiki/originals/fake-night-cinderella)』でデビュー。
 - **2025年4月1日**：KAMITSUBAKI WARS 2025 神椿川崎戦線「少女革命計画 1st LIVE/第一幕『改変』」に出演。
-- **2025年7月16日**：罪十罰と共に両組曲『改変』をリリース。
+- **2025年7月16日**：[罪十罰](/ja/artists/girls_revolution_project/tsumitobatsu)と共に両組曲『[改変](/ja/songs/grp/originals/kaihen)』をリリース。
 - **2025年10月29日**：1stアルバム『改変 -心-』を発売。
 - **2026年5月**：KAMITSUBAKI WARS 2026 神椿渋谷戦線「少女革命計画 2nd LIVE『Revolutio』」に出演。
 
 ## 代表作品
 
 - アルバム：『改変 -心-』
-- シングル：『フェイクナイト・シンデレラ』『ココロト』『Ephemeral』『雑几帖』など
-- 両組曲：『改変』『主人行路』『鈍色幻灯』『現世回帰』
+- シングル：『[フェイクナイト・シンデレラ](/ja/songs/sinseiki/originals/fake-night-cinderella)』『[ココロト](/ja/songs/sinseiki/originals/kokoroto)』『[Ephemeral](/ja/songs/sinseiki/originals/ephemeral)』『[雑几帖](/ja/songs/sinseiki/originals/zatsukichou)』など
+- 両組曲：『[改変](/ja/songs/grp/originals/kaihen)』『[主人行路](/ja/songs/grp/originals/shujin-kouro)』『[鈍色幻灯](/ja/songs/grp/originals/nibiiro-gentou)』『[現世回帰](/ja/songs/grp/originals/gense-kaiki)』
 
 ## 外部リンク
 

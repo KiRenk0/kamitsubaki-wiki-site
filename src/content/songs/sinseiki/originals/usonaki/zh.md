@@ -16,7 +16,7 @@ image: /images/songs/grp/usonaki.jpg
 
 ## 作品简介
 
-《うそ鳴き》是心世紀于 2025-04-02 正式发行的作品。
+《うそ鳴き》是[心世紀](/zh/artists/girls_revolution_project/sinseiki)于 2025-04-02 正式发行的作品。
 
 ## 试听
 

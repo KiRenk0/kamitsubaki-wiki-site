@@ -17,7 +17,7 @@ image: /images/songs/rime/gyuttoshite.jpg
 
 ## 作品简介
 
-裏命于 2023-12-22 发行的单曲《ぎゅっとして》。
+[裏命](/zh/artists/isotopes/rime)于 2023-12-22 发行的单曲《ぎゅっとして》。
 
 ## 试听
 @[apple-music](https://music.apple.com/jp/album/%E3%81%8E%E3%82%85%E3%81%A3%E3%81%A8%E3%81%97%E3%81%A6/1718676296?i=1718676297&uo=4 "ぎゅっとして")

@@ -16,7 +16,7 @@ image: /images/songs/rime/大作戦desu.jpg
 
 ## 作品简介
 
-裏命于 2024-10-22 发行的单曲《大作戦です。》。
+[裏命](/zh/artists/isotopes/rime)于 2024-10-22 发行的单曲《大作戦です。》。
 
 ## 试听
 {{media-switcher::大作戦です。}}

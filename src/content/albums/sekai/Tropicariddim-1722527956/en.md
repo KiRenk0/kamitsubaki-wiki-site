@@ -70,7 +70,7 @@ tracks:
 
 ## Overview
 
-星界's album “Tropicariddim!”, released on 2023-12-21, featuring 12 tracks.
+[星界](/en/artists/isotopes/sekai)'s album “Tropicariddim!”, released on 2023-12-21, featuring 12 tracks.
 
 ## Track List
 

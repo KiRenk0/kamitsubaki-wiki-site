@@ -50,7 +50,7 @@ tracks:
 
 ## 概要
 
-カンザキイオリが2024-12-25にリリースしたアルバム『Freely Captured』。全7曲を収録。
+[カンザキイオリ](/ja/artists/creators/kanzaki-iori)が2024-12-25にリリースしたアルバム『Freely Captured』。全7曲を収録。
 
 ## 収録曲
 

@@ -17,7 +17,7 @@ image: /images/songs/kafu/madiva.jpg
 
 ## 作品概要
 
-可不が2025-02-20にリリースしたシングル「MaDiVA」。
+[可不](/ja/artists/isotopes/kafu)が2025-02-20にリリースしたシングル「MaDiVA」。
 
 ## 視聴
 {{media-switcher::MaDiVA}}

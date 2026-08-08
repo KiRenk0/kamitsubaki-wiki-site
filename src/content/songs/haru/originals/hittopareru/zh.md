@@ -17,7 +17,7 @@ image: /images/songs/haru/hittopareru.jpg
 
 ## 作品简介
 
-羽累于 2024-08-31 发行的单曲《ヒットパレル》。
+[羽累](/zh/artists/isotopes/haru)于 2024-08-31 发行的单曲《ヒットパレル》。
 
 ## 试听
 {{media-switcher::ヒットパレル}}

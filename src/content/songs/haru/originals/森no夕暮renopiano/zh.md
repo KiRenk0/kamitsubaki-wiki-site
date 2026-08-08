@@ -17,7 +17,7 @@ image: /images/songs/haru/森no夕暮renopiano.jpg
 
 ## 作品简介
 
-羽累于 2026-07-31 发行的单曲《森の夕暮れのピアノ》。
+[羽累](/zh/artists/isotopes/haru)于 2026-07-31 发行的单曲《森の夕暮れのピアノ》。
 
 ## 试听
 @[apple-music](https://music.apple.com/jp/album/%E6%A3%AE%E3%81%AE%E5%A4%95%E6%9A%AE%E3%82%8C%E3%81%AE%E3%83%94%E3%82%A2%E3%83%8E/1823465190?i=1823465192&uo=4 "森の夕暮れのピアノ")

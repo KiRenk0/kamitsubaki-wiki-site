@@ -17,7 +17,7 @@ image: /images/songs/mimi/torikkuhaato-feat.-重音teto.jpg
 
 ## Overview
 
-“トリックハート (feat. 重音テト)” is a single by MIMI, released on 2026-01-03.
+“トリックハート (feat. 重音テト)” is a single by [MIMI](/en/artists/creators/mimi), released on 2026-01-03.
 
 ## Listen
 {{media-switcher::トリックハート (feat. 重音テト)}}

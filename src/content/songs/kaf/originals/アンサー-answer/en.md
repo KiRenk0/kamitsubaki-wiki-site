@@ -19,7 +19,7 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 
 ## Overview
 
-“アンサー” is track 3 of KAF’s 魔法.
+“アンサー” is track 3 of [KAF](/en/artists/vwp/kaf)’s [魔法](/en/albums/kaf/maho).
 
 ## Listen
 

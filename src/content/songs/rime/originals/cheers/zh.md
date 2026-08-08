@@ -17,7 +17,7 @@ image: /images/songs/rime/cheers.jpg
 
 ## 作品简介
 
-裏命于 2025-07-18 发行的单曲《cheers》。
+[裏命](/zh/artists/isotopes/rime)于 2025-07-18 发行的单曲《cheers》。
 
 ## 试听
 {{media-switcher::cheers}}

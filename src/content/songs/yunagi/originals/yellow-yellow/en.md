@@ -16,7 +16,7 @@ image: /images/songs/grp/yellow-yellow.jpg
 
 ## Overview
 
-“Yellow Yellow” is a 夕凪機 release dated 2025-04-30.
+“Yellow Yellow” is a [夕凪機](/en/artists/girls_revolution_project/yunagi) release dated 2025-04-30.
 
 ## Listen
 

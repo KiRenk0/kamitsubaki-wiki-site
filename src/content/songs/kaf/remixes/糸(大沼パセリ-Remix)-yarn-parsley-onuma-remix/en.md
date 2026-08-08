@@ -19,7 +19,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 ## Overview
 
-“糸(大沼パセリ Remix)” is track 1 of KAF’s 観測γ.
+“糸(大沼パセリ Remix)” is track 1 of [KAF](/en/artists/vwp/kaf)’s [観測γ](/en/albums/kaf/kansoku-gamma).
 
 ## Listen
 

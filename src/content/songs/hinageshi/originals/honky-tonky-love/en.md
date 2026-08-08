@@ -16,7 +16,7 @@ image: /images/songs/grp/honky-tonky-love.jpg
 
 ## Overview
 
-“ホンキートンキーラブ” is a 氷夏至 release dated 2025-04-16.
+“ホンキートンキーラブ” is a [氷夏至](/en/artists/girls_revolution_project/hinageshi) release dated 2025-04-16.
 
 ## Listen
 

@@ -17,7 +17,7 @@ image: /images/songs/mimi/ankoorudansu-feat.-重音teto.jpg
 
 ## Overview
 
-“アンコールダンス (feat. 重音テト)” is a single by MIMI, released on 2025-03-13.
+“アンコールダンス (feat. 重音テト)” is a single by [MIMI](/en/artists/creators/mimi), released on 2025-03-13.
 
 ## Listen
 {{media-switcher::アンコールダンス (feat. 重音テト)}}

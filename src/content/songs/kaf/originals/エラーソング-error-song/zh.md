@@ -19,7 +19,7 @@ image: /images/songs/kaf/track-1882181555.jpg
 
 ## 作品简介
 
-《エラーソング》是花譜收录于《深愛》的第 12 轨。
+《エラーソング》是[花譜](/zh/artists/vwp/kaf)收录于《[深愛](/zh/albums/kaf/shinai)》的第 12 轨。
 
 ## 试听
 

@@ -50,7 +50,7 @@ tracks:
 
 ## 简介
 
-カンザキイオリ于 2025-08-12 发行的Album《That Summer Saturates》,共收录 7 首歌曲。
+[カンザキイオリ](/zh/artists/creators/kanzaki-iori)于 2025-08-12 发行的Album《That Summer Saturates》,共收录 7 首歌曲。
 
 ## 收录曲
 

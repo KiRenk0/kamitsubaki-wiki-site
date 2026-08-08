@@ -16,7 +16,7 @@ image: /images/songs/grp/masquerade-kill.jpg
 
 ## 作品简介
 
-《Masquerade Kill》是御莉姫于 2025-11-26 正式发行的作品。
+《Masquerade Kill》是[御莉姫](/zh/artists/girls_revolution_project/orihime)于 2025-11-26 正式发行的作品。
 
 ## 试听
 

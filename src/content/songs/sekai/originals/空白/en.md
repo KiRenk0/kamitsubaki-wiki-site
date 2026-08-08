@@ -17,7 +17,7 @@ image: /images/songs/sekai/空白.jpg
 
 ## Overview
 
-“空白” is a single by 星界, released on 2025-03-16.
+“空白” is a single by [星界](/en/artists/isotopes/sekai), released on 2025-03-16.
 
 ## Listen
 {{media-switcher::空白}}

@@ -20,7 +20,7 @@ image: /images/songs/coko/fake.jpg
 
 ## Overview
 
-“FAKE” is a single by 狐子, released on 2022-01-11.
+“FAKE” is a single by [狐子](/en/artists/isotopes/coko), released on 2022-01-11.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/fake/1715460603?i=1715460604&uo=4 "FAKE")

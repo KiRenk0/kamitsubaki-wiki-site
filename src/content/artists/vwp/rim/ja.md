@@ -59,9 +59,9 @@ seo:
 
 ## 概要
 
-理芽は KAMITSUBAKI STUDIO に所属する次世代バーチャルシンガーであり、V.W.P のメンバーの一人でもある。2019年10月のスタジオ発足と同時にデビューし、透明感と艶をあわせ持つ歌声、多言語（日本語、英語、韓国語）での歌唱、そして都市的なポップ感覚によって独自の立ち位置を築いてきた。
+理芽は [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) に所属する次世代バーチャルシンガーであり、[V.W.P](/ja/artists/vwp/vwp) のメンバーの一人でもある。2019年10月のスタジオ発足と同時にデビューし、透明感と艶をあわせ持つ歌声、多言語（日本語、英語、韓国語）での歌唱、そして都市的なポップ感覚によって独自の立ち位置を築いてきた。
 
-神椿の中でも理芽は、物語性だけに寄りすぎず、楽曲そのものの強さでリスナーを引き込むタイプのアーティストとして受け取られることが多い。音楽的同位体「裏命 / RIME」の声源提供者でもあり、ジャンルと国境を横断する可能性を秘めている。
+神椿の中でも理芽は、物語性だけに寄りすぎず、楽曲そのものの強さでリスナーを引き込むタイプのアーティストとして受け取られることが多い。[音楽的同位体](/ja/artists/solo/musical-isotope)「[裏命](/ja/artists/isotopes/rime) / RIME」の声源提供者でもあり、ジャンルと国境を横断する可能性を秘めている。
 
 ## 役割と創作上の位置づけ
 
@@ -74,35 +74,35 @@ V.W.P の一員としてグループの楽曲群に参加しつつ、個人で�
 ### 2019年
 
 - **10月18日**：KAMITSUBAKI STUDIO の発足とともにデビュー。
-- **12月20日**：1stオリジナルシングル『ユーエンミー』をリリース。
+- **12月20日**：1stオリジナルシングル『[ユーエンミー](/ja/songs/rim/originals/ユーエンミー-you-and-me)』をリリース。
 
 ### 2020年
 
-- **1月3日**：2ndオリジナルシングル『食虫植物』をリリース。
+- **1月3日**：2ndオリジナルシングル『[食虫植物](/ja/songs/rim/originals/食虫植物-carnivorous-plant)』をリリース。
 - **8月12日**：『食虫植物』が TikTok を中心にバイラルヒットし、カバー動画が流行。動画総再生回数が数千万回を超え、YouTubeでの再生回数も300万回を突破。
 - **9月5日**：『食虫植物』の YouTube 再生回数が1,000万回を突破。
-- **10月28日**：オリジナルシングル『甘美な無法』をリリース。
+- **10月28日**：オリジナルシングル『[甘美な無法](/ja/songs/rim/originals/甘美な無法-luscious-lawless)』をリリース。
 - **12月20日**：自身初となるカバーストリーミングLIVE『CHOCOLATE LIVE』を開催。
 
 ### 2021年
 
-- **3月13日**：花譜 2nd ONE-MAN LIVE『不可解弐Q2』内にて、バーチャルシンガーグループ「V.W.P」（Virtual Witch Phenomenon）の結成を発表。
+- **3月13日**：[花譜](/ja/artists/vwp/kaf) 2nd ONE-MAN LIVE『不可解弐Q2』内にて、バーチャルシンガーグループ「[V.W.P](/ja/artists/vwp/vwp)」（Virtual Witch Phenomenon）の結成を発表。
 - **5月15日**：1st ONE-MAN LIVE『ニューロマンス / NEUROMANCE』を開催。
-- **7月21日**：1st Album『NEW ROMANCER』をリリース。
+- **7月21日**：1st Album『[NEW ROMANCER](/ja/albums/rim/new-romancer)』をリリース。
 
 ### 2022年
 
 - **4月16日**：V.W.P のメンバーとして、初のグループワンマンライブ『魔女集会』『現象』に出演。
-- **4月27日**：YouTubeチャンネル登録者数が20万人を突破。HALのテレビCMソング『ピルグリム』をリリースし、新衣装（2nd Metamorphose）「The Cosmic Puppets」を公開。
-- **7月17日**：ヰ世界情緒とのツーマンライブ『Singularity Live』を開催。
-- **8月17日**：オリジナルシングル『チクタクボーイ』（TVアニメ『5億年ボタン【公式】～菅原壮太の超短篇～』EDテーマ）をリリース。
+- **4月27日**：YouTubeチャンネル登録者数が20万人を突破。HALのテレビCMソング『[ピルグリム](/ja/songs/rim/originals/ピルグリム-pilgrim)』をリリースし、新衣装（2nd Metamorphose）「The Cosmic Puppets」を公開。
+- **7月17日**：[ヰ世界情緒](/ja/artists/vwp/isekaijoucho)とのツーマンライブ『Singularity Live』を開催。
+- **8月17日**：オリジナルシングル『[チクタクボーイ](/ja/songs/rim/originals/チクタクボーイ-tick-tock-boy)』（TVアニメ『5億年ボタン【公式】～菅原壮太の超短篇～』EDテーマ）をリリース。
 - **9月**：英語習得のため、約半年間のアメリカへの語学留学を発表・渡米。
-- **10月5日**：オリジナルシングル『インナアチャイルド』（MBSドラマ特区『少年のアビス』オープニング主題歌）をリリース。
+- **10月5日**：オリジナルシングル『[インナアチャイルド](/ja/songs/rim/originals/インナアチャイルド-inner-child)』（MBSドラマ特区『少年のアビス』オープニング主題歌）をリリース。
 
 ### 2023年
 
 - **4月**：アメリカ留学から帰国し、日本での活動を再開。
-- **12月6日**：2nd Album『NEW ROMANCER2』をリリース。
+- **12月6日**：2nd Album『[NEW ROMANCER2](/ja/albums/rim/new-romancer-2)』をリリース。
 - **12月16日**：2nd ONE-MAN LIVE『NEUROMANCE Ⅱ -神椿市壱番街-』を開催。
 
 ### 2024年
@@ -121,7 +121,7 @@ V.W.P の一員としてグループの楽曲群に参加しつつ、個人で�
 ## 代表作品と関連項目
 
 - **アルバム**：1st『NEW ROMANCER』(2021)、2nd『NEW ROMANCER2』(2023)
-- **代表曲**：『食虫植物』『甘美な無法』『十九月』『インナアチャイルド』『えろいむ』
+- **代表曲**：『[食虫植物](/ja/songs/rim/originals/食虫植物-carnivorous-plant)』『[甘美な無法](/ja/songs/rim/originals/甘美な無法-luscious-lawless)』『[十九月](/ja/songs/rim/originals/十九月-juuku-gatsu)』『[インナアチャイルド](/ja/songs/rim/originals/インナアチャイルド-inner-child)』『[えろいむ](/ja/songs/rim/originals/えろいむ-eloim)』
 - **重要な協働軸**：笹川真生、Guiano
 - **カバーライブシリーズ**：『CHOCOLATE LIVE』シリーズ
 
@@ -134,7 +134,7 @@ V.W.P の一員としてグループの楽曲群に参加しつつ、個人で�
 
 | 項目 | 内容 |
 | --- | --- |
-| キャラクターデザイン | PALOW. |
+| キャラクターデザイン | [PALOW.](/ja/artists/creators/palow) |
 | 中心的なモチーフ | 青、フード、重なった瞳、夜のロマンス |
 | 主要な作家 | 笹川真生、Guiano、Misumi、samayuzame |
 | 音声の展開 | 理芽の歌声をもとにした音楽的同位体「裏命」 |

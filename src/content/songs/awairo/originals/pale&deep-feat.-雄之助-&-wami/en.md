@@ -17,7 +17,7 @@ image: /images/songs/awairo/pale&deep-feat.-雄之助-&-wami.jpg
 
 ## Overview
 
-“Pale&Deep (feat. 雄之助 & WaMi)” is a single by Awairo, released on 2023-10-20.
+“Pale&Deep (feat. [雄之助](/en/artists/creators/yunosuke) & WaMi)” is a single by [Awairo](/en/artists/solo/awairo), released on 2023-10-20.
 
 ## Listen
 {{media-switcher::Pale&Deep (feat. 雄之助 & WaMi)}}

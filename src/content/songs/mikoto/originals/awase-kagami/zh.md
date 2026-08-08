@@ -16,7 +16,7 @@ image: /images/songs/grp/awase-kagami.jpg
 
 ## 作品简介
 
-《アワセカガミ》是美古途于 2025-01-08 正式发行的作品。
+《アワセカガミ》是[美古途](/zh/artists/girls_revolution_project/mikoto)于 2025-01-08 正式发行的作品。
 
 ## 试听
 

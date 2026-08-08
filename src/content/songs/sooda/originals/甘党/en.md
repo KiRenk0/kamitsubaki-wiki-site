@@ -17,7 +17,7 @@ image: /images/songs/sooda/甘党.jpg
 
 ## Overview
 
-“甘党” is a single by Sooda, released on 2023-11-09.
+“甘党” is a single by [Sooda](/en/artists/creators/sooda), released on 2023-11-09.
 
 ## Listen
 {{media-switcher::甘党}}

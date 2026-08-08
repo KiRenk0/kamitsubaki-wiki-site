@@ -57,7 +57,7 @@ seo:
 软件于 2023年1月25日基于 CeVIO AI 发售。角色设计由 SWAV 操刀，展现强劲的朋克摇滚风格。
 
 <div class="wiki-fact-grid">
-  <div class="wiki-fact-card"><p class="wiki-fact-card__label">VOICE PROVIDER</p><p class="wiki-fact-card__value">幸祜 / KOKO</p></div>
+  <div class="wiki-fact-card"><p class="wiki-fact-card__label">VOICE PROVIDER</p><p class="wiki-fact-card__value">[幸祜](/zh/artists/vwp/koko) / KOKO</p></div>
   <div class="wiki-fact-card"><p class="wiki-fact-card__label">SINGING / TALK</p><p class="wiki-fact-card__value">CeVIO AI；TALK EXTENSION × VOICEPEAK</p></div>
   <div class="wiki-fact-card"><p class="wiki-fact-card__label">CHARACTER DESIGN</p><p class="wiki-fact-card__value">SWAV</p></div>
   <div class="wiki-fact-card"><p class="wiki-fact-card__label">NAME RELATION</p><p class="wiki-fact-card__value">COKO 与 KOKO 的日语读音相近</p></div>
@@ -92,7 +92,7 @@ seo:
 | 2022年11月4日 | 《ヴィクセン》 | 葵木ゴウ |
 | 2022年11月16日 | 《桔梗》 | ATOLS |
 | 2022年12月14日 | 《こんなはずじゃなかった》 | ピコン |
-| 2023年4月14日 | 《破壊少女》 | 香椎モイミ |
+| 2023年4月14日 | 《破壊少女》 | [香椎モイミ](/zh/artists/creators/kashiimoimi) |
 
 {{/details}}
 

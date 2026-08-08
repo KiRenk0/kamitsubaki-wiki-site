@@ -66,7 +66,7 @@ tracks:
 
 ## 简介
 
-香椎モイミ于 2020-08-03 发行的Album《渇愛》,共收录 11 首歌曲。
+[香椎モイミ](/zh/artists/creators/kashiimoimi)于 2020-08-03 发行的Album《渇愛》,共收录 11 首歌曲。
 
 ## 收录曲
 

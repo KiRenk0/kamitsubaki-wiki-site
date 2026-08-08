@@ -17,7 +17,7 @@ image: /images/songs/kafu/iris-out-kafu-cover.jpg
 
 ## 作品概要
 
-可不が2025-10-13にリリースしたシングル「IRIS OUT (KAFU Cover)」。
+[可不](/ja/artists/isotopes/kafu)が2025-10-13にリリースしたシングル「IRIS OUT (KAFU Cover)」。
 
 ## 視聴
 {{media-switcher::IRIS OUT (KAFU Cover)}}

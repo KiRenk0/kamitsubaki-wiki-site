@@ -17,7 +17,7 @@ image: /images/songs/mimi/naranai日々.jpg
 
 ## Overview
 
-“ならない日々” is a single by MIMI, released on 2025-09-25.
+“ならない日々” is a single by [MIMI](/en/artists/creators/mimi), released on 2025-09-25.
 
 ## Listen
 {{media-switcher::ならない日々}}

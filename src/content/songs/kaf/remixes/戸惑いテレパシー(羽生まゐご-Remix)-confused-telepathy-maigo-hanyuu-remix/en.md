@@ -19,7 +19,7 @@ image: /images/albums/kaf/tomadoi-telepathy.jpg
 
 ## Overview
 
-“戸惑いテレパシー(羽生まゐご Remix)” is track 4 of KAF’s 戸惑いテレパシー.
+“[戸惑いテレパシー](/en/albums/kaf/tomadoi-telepathy)(羽生まゐご Remix)” is track 4 of [KAF](/en/artists/vwp/kaf)’s 戸惑いテレパシー.
 
 ## Listen
 

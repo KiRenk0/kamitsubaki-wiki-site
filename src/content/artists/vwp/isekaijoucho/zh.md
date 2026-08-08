@@ -57,9 +57,9 @@ seo:
 
 ## 概述
 
-ヰ世界情緒是 KAMITSUBAKI STUDIO 旗下的虚拟歌手、创作者，也是 V.W.P 成员之一。她的个人定位在神椿成员中十分独特：不仅以歌手身份活动，也持续把插画、旁白、声优式表演与更浓厚的个人创作意识带入自己的表达体系。
+ヰ世界情緒是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 旗下的虚拟歌手、创作者，也是 [V.W.P](/zh/artists/vwp/vwp) 成员之一。她的个人定位在神椿成员中十分独特：不仅以歌手身份活动，也持续把插画、旁白、声优式表演与更浓厚的个人创作意识带入自己的表达体系。
 
-如果说花譜更像神椿“观测”系统的起点，理芽偏向现代流行的切口，那么ヰ世界情緒的魅力往往来自她所营造的“另一个世界”本身。她的名字、声线、视觉与叙事语感，几乎总是一起工作。
+如果说[花譜](/zh/artists/vwp/kaf)更像神椿“观测”系统的起点，[理芽](/zh/artists/vwp/rim)偏向现代流行的切口，那么ヰ世界情緒的魅力往往来自她所营造的“另一个世界”本身。她的名字、声线、视觉与叙事语感，几乎总是一起工作。
 
 ## 角色与创作定位
 
@@ -76,7 +76,7 @@ seo:
 | 角色设计 | 初期由 orie 负责，后续形态与演出设计涉及れおえん等创作者 |
 | 创作身份 | 歌手、插画创作者、角色表达者、叙事型虚拟艺术家 |
 | 代表形态 | 普遍体、Anemone 系列、花魁鸟、八咫乌、Heliotrope 等 |
-| 重要声源关联 | 音乐同位体「星界 / SEKAI」 |
+| 重要声源关联 | 音乐同位体「[星界](/zh/artists/isotopes/sekai) / SEKAI」 |
 | 个人兴趣 | 纯音乐、电影/游戏原声、Vocaloid 与绘画创作 |
 
 普遍体是她日常账号、联动立绘和多数曲绘中最常用的形态；现场专用形态则与具体 Live 的叙事和舞台主题绑定，不能把所有形态都当成同时存在的日常服装。
@@ -90,29 +90,29 @@ seo:
 
 ### 2020年
 
-- **2月23日**：发布第一首原创单曲《物語りのワルツ》（Samayuzame词曲）。
-- **4月27日**：发布第二首原创单曲《ジオラマドラマ》（Samayuzame词曲）。
-- **7月16日**：发布第三首原创单曲《ハイドレンジア》（Toucasa词曲）。
+- **2月23日**：发布第一首原创单曲《[物語りのワルツ](/zh/songs/isekaijoucho/originals/物語りのワルツ-waltz-of-storyteller)》（Samayuzame词曲）。
+- **4月27日**：发布第二首原创单曲《[ジオラマドラマ](/zh/songs/isekaijoucho/originals/ジオラマドラマ-georama-drama)》（Samayuzame词曲）。
+- **7月16日**：发布第三首原创单曲《[ハイドレンジア](/zh/songs/isekaijoucho/originals/ハイドレンジア-hydrangea)》（Toucasa词曲）。
 - **9月26日**：发布第五首原创单曲《とめどなき白情》（Harumakigohan词曲）。
 - **12月26日**：举办首次 Cover Live「キャンディライブ」。会后发布第七首原创单曲《シリウスの心臓》（伞村Tota词曲），该曲成为其最具代表性的单曲之一。
 
 ### 2021年
 
 - **3月13日**：作为虚拟歌手组合 V.W.P（Virtual Witch Phenomenon）的成员，于花谱 2nd ONE-MAN LIVE「不可解弐Q2」正式公开亮相并宣布组合结成。
-- **10月23日**：举办首次个人 3D 虚拟单独演唱会 / 1st ONE-MAN LIVE「Anima」。同日宣布制作首张个人专辑《創生》及音乐同位体「CeVIO AI 星界」。
+- **10月23日**：举办首次个人 3D 虚拟单独演唱会 / 1st ONE-MAN LIVE「Anima」。同日宣布制作首张个人专辑《[創生](/zh/albums/isekaijoucho/sousei)》及音乐同位体「CeVIO AI [星界](/zh/artists/isotopes/sekai)」。
 - **12月8日**：发行首张个人专辑《創生》。
 
 ### 2022年
 
 - **4月29日**：以其歌声数据为基础开发的音乐同位体「CeVIO AI 星界 / SEKAI」正式发售。
-- **7月17日**：与理芽联合举办虚拟演唱会「Singularity Live Vol. 1」，并公开合作单曲《パンドラコール》（Pandora Call）。
+- **7月17日**：与[理芽](/zh/artists/vwp/rim)联合举办虚拟演唱会「Singularity Live Vol. 1」，并公开合作单曲《[パンドラコール](/zh/songs/isekaijoucho/originals/パンドラコール-pandora-call)》（Pandora Call）。
 - **9月10日 - 10月10日**：在东京举办首次个人艺术展「ヰ世界情緒展」。
 
 ### 2023年
 
 - **1月14日**：举办第二次 Cover Live「キャンディライブ2」。
 - **6月18日**：举办第二次个人 3D 虚拟单独演唱会 / 2nd ONE-MAN LIVE「Anima Ⅱ -神椿市参番街-」，并公布全新 3D 造型「普遍体」。
-- **12月9日**：在 4 周年直播中宣布制作第二张个人专辑《色彩》。
+- **12月9日**：在 4 周年直播中宣布制作第二张个人专辑《[色彩](/zh/albums/isekaijoucho/shikisai)》。
 
 ### 2024年
 
@@ -146,7 +146,7 @@ seo:
 
 ## 个人音乐目录与合作
 
-ヰ世界情緒的早期原创曲包括《物語りのワルツ》《ジオラマドラマ》《ハイドレンジア》《いろはに咲きて》《とめどなき白情》《斯く美しき造花》《シリウスの心臓》；后续作品还包括《パンドラコール》《ほしをみるひと》《みらいのかたち》等。她的翻唱 Live 也具有独立作品价值，已整理为《CANDY LIVE》系列专辑。
+ヰ世界情緒的早期原创曲包括《[物語りのワルツ](/zh/songs/isekaijoucho/originals/物語りのワルツ-waltz-of-storyteller)》《[ジオラマドラマ](/zh/songs/isekaijoucho/originals/ジオラマドラマ-georama-drama)》《[ハイドレンジア](/zh/songs/isekaijoucho/originals/ハイドレンジア-hydrangea)》《[いろはに咲きて](/zh/songs/isekaijoucho/originals/いろはに咲きて-irohani-sakite)》《[とめどなき白情](/zh/songs/isekaijoucho/originals/とめどなき白情-tomedonaki-hakujou)》《[斯く美しき造花](/zh/songs/isekaijoucho/originals/斯く美しき造花-such-a-beautiful-artificial-flower)》《シリウスの心臓》；后续作品还包括《[パンドラコール](/zh/songs/isekaijoucho/originals/パンドラコール-pandora-call)》《ほしをみるひと》《[みらいのかたち](/zh/songs/isekaijoucho/originals/みらいのかたち-mirainokatachi)》等。她的翻唱 Live 也具有独立作品价值，已整理为《[CANDY LIVE](/zh/albums/isekaijoucho/candy-live)》系列专辑。
 
 | 作品阶段 | 主要内容 | 说明 |
 | --- | --- | --- |

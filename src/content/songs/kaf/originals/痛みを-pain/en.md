@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho.jpg
 
 ## Overview
 
-“痛みを” is track 10 of KAF’s 魔法.
+“痛みを” is track 10 of [KAF](/en/artists/vwp/kaf)’s [魔法](/en/albums/kaf/maho).
 
 ## Listen
 

@@ -17,7 +17,7 @@ image: /images/songs/dustcell/灯火.jpg
 
 ## Overview
 
-“灯火” is a single by DUSTCELL, released on 2025-07-15.
+“灯火” is a single by [DUSTCELL](/en/artists/solo/dustcell), released on 2025-07-15.
 
 ## Listen
 {{media-switcher::灯火}}

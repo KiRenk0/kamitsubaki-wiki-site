@@ -20,7 +20,7 @@ image: /images/songs/coko/神羅-feat.-yuuyu.jpg
 
 ## Overview
 
-“神羅 (feat. ゆうゆ)” is a single by 狐子, released on 2015-10-11.
+“神羅 (feat. ゆうゆ)” is a single by [狐子](/en/artists/isotopes/coko), released on 2015-10-11.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/%E7%A5%9E%E7%BE%85-feat-%E3%82%86%E3%81%86%E3%82%86/1889096311?i=1889096312&uo=4 "神羅 (feat. ゆうゆ)")

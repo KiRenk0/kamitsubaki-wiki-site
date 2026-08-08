@@ -19,7 +19,7 @@ image: /images/albums/kaf/tomadoi-telepathy.jpg
 
 ## 作品概要
 
-「戸惑いテレパシー(羽生まゐご Remix)」は花譜の『戸惑いテレパシー』に収録された4曲目です。
+「[戸惑いテレパシー](/ja/albums/kaf/tomadoi-telepathy)(羽生まゐご Remix)」は[花譜](/ja/artists/vwp/kaf)の『戸惑いテレパシー』に収録された4曲目です。
 
 ## 視聴
 

@@ -16,7 +16,7 @@ image: /images/songs/grp/mabataki.jpg
 
 ## 作品概要
 
-「瞬き」は御莉姫×夕凪機が2025-02-19にリリースした楽曲です。
+「瞬き」は[御莉姫](/ja/artists/girls_revolution_project/orihime)×[夕凪機](/ja/artists/girls_revolution_project/yunagi)が2025-02-19にリリースした楽曲です。
 
 ## 視聴
 

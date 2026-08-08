@@ -16,7 +16,7 @@ image: /images/songs/grp/uchu-touhikou.jpg
 
 ## 作品简介
 
-《宇宙逃避行》是佳鏡院于 2024-12-11 正式发行的作品。
+《宇宙逃避行》是[佳鏡院](/zh/artists/girls_revolution_project/kakyoin)于 2024-12-11 正式发行的作品。
 
 ## 试听
 

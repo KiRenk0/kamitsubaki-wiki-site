@@ -17,7 +17,7 @@ image: /images/songs/rime/文明to呼吸.jpg
 
 ## 作品简介
 
-裏命于 2023-03-20 发行的单曲《文明と呼吸》。
+[裏命](/zh/artists/isotopes/rime)于 2023-03-20 发行的单曲《文明と呼吸》。
 
 ## 试听
 {{media-switcher::文明と呼吸}}

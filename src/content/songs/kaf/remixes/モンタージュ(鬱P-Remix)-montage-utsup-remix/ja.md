@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 ## 作品概要
 
-「モンタージュ(鬱P Remix)」は花譜の『魔法γ』に収録された10曲目です。
+「モンタージュ(鬱P Remix)」は[花譜](/ja/artists/vwp/kaf)の『[魔法γ](/ja/albums/kaf/maho-gamma)』に収録された10曲目です。
 
 ## 視聴
 

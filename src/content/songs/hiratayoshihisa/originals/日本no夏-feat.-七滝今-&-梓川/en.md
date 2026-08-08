@@ -17,7 +17,7 @@ image: /images/songs/hiratayoshihisa/日本no夏-feat.-七滝今-&-梓川.jpg
 
 ## Overview
 
-“日本の夏 (feat. 七滝今 & 梓川)” is a single by 平田義久, released on 2022-07-21.
+“日本の夏 (feat. 七滝今 & 梓川)” is a single by [平田義久](/en/artists/creators/hiratayoshihisa), released on 2022-07-21.
 
 ## Listen
 {{media-switcher::日本の夏 (feat. 七滝今 & 梓川)}}

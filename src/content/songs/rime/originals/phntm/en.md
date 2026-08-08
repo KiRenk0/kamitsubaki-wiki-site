@@ -20,7 +20,7 @@ image: /images/songs/rime/phntm.jpg
 
 ## Overview
 
-“PHNTM” is a single by 裏命, released on 2023-04-13.
+“PHNTM” is a single by [裏命](/en/artists/isotopes/rime), released on 2023-04-13.
 
 ## Listen
 {{media-switcher::PHNTM}}

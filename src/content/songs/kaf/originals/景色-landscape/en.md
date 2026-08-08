@@ -19,7 +19,7 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 
 ## Overview
 
-“景色” is track 12 of KAF’s 魔法.
+“景色” is track 12 of [KAF](/en/artists/vwp/kaf)’s [魔法](/en/albums/kaf/maho).
 
 ## Listen
 

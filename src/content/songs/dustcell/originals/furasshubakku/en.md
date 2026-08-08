@@ -17,7 +17,7 @@ image: /images/songs/dustcell/furasshubakku.jpg
 
 ## Overview
 
-“フラッシュバック” is a single by DUSTCELL, released on 2023-10-03.
+“フラッシュバック” is a single by [DUSTCELL](/en/artists/solo/dustcell), released on 2023-10-03.
 
 ## Listen
 {{media-switcher::フラッシュバック}}

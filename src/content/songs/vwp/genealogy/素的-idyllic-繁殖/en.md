@@ -24,7 +24,7 @@ image: /images/albums/vwp/proliferation.jpg
 
 ## Overview
 
-素的 (feat. KOKO & V.W.P) appears on 繁殖 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+素的 (feat. [KOKO](/en/artists/vwp/koko) & [V.W.P](/en/artists/vwp/vwp)) appears on [繁殖](/en/albums/vwp/proliferation) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

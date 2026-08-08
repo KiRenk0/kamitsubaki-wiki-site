@@ -16,7 +16,7 @@ image: /images/songs/grp/gense-kaiki.jpg
 
 ## 作品简介
 
-《現世回帰》是少女革命計画于 2024-11-20 正式发行的作品。
+《現世回帰》是[少女革命計画](/zh/projects/labels/girls-revolution-project)于 2024-11-20 正式发行的作品。
 
 ## 试听
 

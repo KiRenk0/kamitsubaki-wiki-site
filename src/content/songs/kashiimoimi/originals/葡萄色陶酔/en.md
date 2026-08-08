@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/葡萄色陶酔.jpg
 
 ## Overview
 
-“葡萄色陶酔” is a single by 香椎モイミ, released on 2025-03-18.
+“葡萄色陶酔” is a single by [香椎モイミ](/en/artists/creators/kashiimoimi), released on 2025-03-18.
 
 ## Listen
 {{media-switcher::葡萄色陶酔}}

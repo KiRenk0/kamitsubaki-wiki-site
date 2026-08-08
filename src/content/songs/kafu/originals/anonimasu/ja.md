@@ -17,7 +17,7 @@ image: /images/songs/kafu/anonimasu.jpg
 
 ## 作品概要
 
-可不が2023-05-03にリリースしたシングル「アノニマス」。
+[可不](/ja/artists/isotopes/kafu)が2023-05-03にリリースしたシングル「アノニマス」。
 
 ## 視聴
 {{media-switcher::アノニマス}}

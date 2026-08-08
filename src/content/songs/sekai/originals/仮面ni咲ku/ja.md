@@ -17,7 +17,7 @@ image: /images/songs/sekai/仮面ni咲ku.jpg
 
 ## 作品概要
 
-星界が2024-10-24にリリースしたシングル「仮面に咲く」。
+[星界](/ja/artists/isotopes/sekai)が2024-10-24にリリースしたシングル「仮面に咲く」。
 
 ## 視聴
 {{media-switcher::仮面に咲く}}

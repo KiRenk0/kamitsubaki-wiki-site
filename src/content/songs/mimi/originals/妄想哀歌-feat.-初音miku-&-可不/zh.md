@@ -17,7 +17,7 @@ image: /images/songs/mimi/妄想哀歌-feat.-初音miku-&-可不.jpg
 
 ## 作品简介
 
-MIMI于 2023-06-11 发行的单曲《妄想哀歌 (feat. 初音ミク & 可不)》。
+MIMI于 2023-06-11 发行的单曲《妄想哀歌 (feat. 初音ミク & [可不](/zh/artists/isotopes/kafu))》。
 
 ## 试听
 {{media-switcher::妄想哀歌 (feat. 初音ミク & 可不)}}

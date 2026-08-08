@@ -17,7 +17,7 @@ image: /images/songs/mimi/fyioore-feat.-初音miku-&-可不.jpg
 
 ## 作品简介
 
-MIMI于 2023-08-26 发行的单曲《フィオーレ (feat. 初音ミク & 可不)》。
+MIMI于 2023-08-26 发行的单曲《フィオーレ (feat. 初音ミク & [可不](/zh/artists/isotopes/kafu))》。
 
 ## 试听
 {{media-switcher::フィオーレ (feat. 初音ミク & 可不)}}

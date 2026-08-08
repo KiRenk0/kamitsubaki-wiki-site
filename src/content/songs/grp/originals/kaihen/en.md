@@ -16,7 +16,7 @@ image: /images/songs/grp/kaihen.jpg
 
 ## Overview
 
-“DIGGER (feat. biz & ZERA)” is a 少女革命計画 release dated 2025-10-29.
+“DIGGER (feat. biz & ZERA)” is a [少女革命計画](/en/projects/labels/girls-revolution-project) release dated 2025-10-29.
 
 ## Listen
 

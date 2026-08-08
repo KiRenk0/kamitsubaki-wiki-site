@@ -17,7 +17,7 @@ image: /images/songs/mimi/dakishimerumade.-feat.-可不.jpg
 
 ## 作品简介
 
-MIMI于 2022-02-05 发行的单曲《だきしめるまで。 (feat. 可不)》。
+MIMI于 2022-02-05 发行的单曲《だきしめるまで。 (feat. [可不](/zh/artists/isotopes/kafu))》。
 
 ## 试听
 {{media-switcher::だきしめるまで。 (feat. 可不)}}

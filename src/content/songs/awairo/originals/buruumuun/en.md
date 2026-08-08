@@ -17,7 +17,7 @@ image: /images/songs/awairo/buruumuun.jpg
 
 ## Overview
 
-“ブルームーン” is a single by Awairo, released on 2025-02-21.
+“ブルームーン” is a single by [Awairo](/en/artists/solo/awairo), released on 2025-02-21.
 
 ## Listen
 {{media-switcher::ブルームーン}}

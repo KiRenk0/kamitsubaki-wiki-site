@@ -17,7 +17,7 @@ image: /images/songs/kafu/sutoreishiipu.jpg
 
 ## 作品简介
 
-可不于 2023-03-23 发行的单曲《ストレイシープ》。
+[可不](/zh/artists/isotopes/kafu)于 2023-03-23 发行的单曲《ストレイシープ》。
 
 ## 试听
 {{media-switcher::ストレイシープ}}

@@ -24,7 +24,7 @@ image: /images/albums/vwp/witch-plus.jpg
 
 ## 作品简介
 
-《異世界転調リクヱスト (feat. ヰ世界情緒 & VALIS)》收录于《魔女ぷらす》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《異世界転調リクヱスト (feat. [ヰ世界情緒](/zh/artists/vwp/isekaijoucho) & [VALIS](/zh/artists/solo/valis))》收录于《[魔女ぷらす](/zh/albums/vwp/witch-plus)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 

@@ -16,7 +16,7 @@ image: /images/songs/grp/shin-yuu.jpg
 
 ## 作品简介
 
-《シンユウ》是御莉姫于 2024-11-06 正式发行的作品。
+《シンユウ》是[御莉姫](/zh/artists/girls_revolution_project/orihime)于 2024-11-06 正式发行的作品。
 
 ## 试听
 

@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/aabankuruuzu.jpg
 
 ## Overview
 
-“アーバンクルーズ” is a single by Empty old City, released on 2021-01-19.
+“アーバンクルーズ” is a single by [Empty old City](/en/artists/solo/empty-old-city), released on 2021-01-19.
 
 ## Listen
 {{media-switcher::アーバンクルーズ}}

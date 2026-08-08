@@ -17,7 +17,7 @@ image: /images/songs/kanzaki-iori/怒ri.jpg
 
 ## 作品简介
 
-カンザキイオリ于 2026-02-13 发行的单曲《怒り》。
+[カンザキイオリ](/zh/artists/creators/kanzaki-iori)于 2026-02-13 发行的单曲《怒り》。
 
 ## 试听
 {{media-switcher::怒り}}

@@ -17,7 +17,7 @@ image: /images/songs/valis/βlack-swan-vyitte.jpg
 
 ## Overview
 
-“βlack Swan(ヴィッテ)” is a single by VALIS, released on 2025-05-30.
+“βlack Swan(ヴィッテ)” is a single by [VALIS](/en/artists/solo/valis), released on 2025-05-30.
 
 ## Listen
 {{media-switcher::βlack Swan(ヴィッテ)}}

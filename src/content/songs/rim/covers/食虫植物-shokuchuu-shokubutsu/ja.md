@@ -19,7 +19,7 @@ image: /images/albums/rim/chocolate-live.jpg
 
 ## 作品概要
 
-「食虫植物 feat. 花譜」は『CHOCOLATE LIVE』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「食虫植物 feat. [花譜](/ja/artists/vwp/kaf)」は『[CHOCOLATE LIVE](/ja/albums/rim/chocolate-live)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 歌詞
 

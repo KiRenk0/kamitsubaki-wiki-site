@@ -61,7 +61,7 @@ Spanning EDM, R&B, and rock, his genre fluidity reflects the broad creative ambi
 ## Activity History
 
 - Active as a Vocaloid producer, developing a catalog of original songs across multiple genres.
-- Joined KAMITSUBAKI STUDIO's CREATOR FARM, expanding his reach within the Kamitsubaki creator ecosystem.
+- Joined [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio)'s CREATOR FARM, expanding his reach within the Kamitsubaki creator ecosystem.
 - Consistently self-produces all aspects of his releases, including illustration and video.
 
 ## Representative Works and Related Entries

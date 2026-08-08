@@ -16,7 +16,7 @@ image: /images/songs/rime/秘meta想i-2025ver.jpg
 
 ## 作品概要
 
-裏命が2025-07-23にリリースしたシングル「秘めた想い (2025ver.)」。
+[裏命](/ja/artists/isotopes/rime)が2025-07-23にリリースしたシングル「秘めた想い (2025ver.)」。
 
 ## 視聴
 {{media-switcher::秘めた想い (2025ver.)}}

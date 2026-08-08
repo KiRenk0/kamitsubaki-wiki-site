@@ -17,7 +17,7 @@ image: /images/songs/kanzaki-iori/怒ri.jpg
 
 ## Overview
 
-“怒り” is a single by カンザキイオリ, released on 2026-02-13.
+“怒り” is a single by [カンザキイオリ](/en/artists/creators/kanzaki-iori), released on 2026-02-13.
 
 ## Listen
 {{media-switcher::怒り}}

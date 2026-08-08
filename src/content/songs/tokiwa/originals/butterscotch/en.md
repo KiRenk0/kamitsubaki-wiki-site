@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/butterscotch.jpg
 
 ## Overview
 
-“butterscotch” is a single by tokiwa, released on 2023-02-09.
+“butterscotch” is a single by [tokiwa](/en/artists/creators/tokiwa), released on 2023-02-09.
 
 ## Listen
 {{media-switcher::butterscotch}}

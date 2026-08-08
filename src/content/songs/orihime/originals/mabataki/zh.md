@@ -16,7 +16,7 @@ image: /images/songs/grp/mabataki.jpg
 
 ## 作品简介
 
-《瞬き》是御莉姫于 2025-02-19 正式发行的作品。
+《瞬き》是[御莉姫](/zh/artists/girls_revolution_project/orihime)于 2025-02-19 正式发行的作品。
 
 ## 试听
 

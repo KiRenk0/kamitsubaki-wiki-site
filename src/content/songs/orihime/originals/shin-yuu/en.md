@@ -16,7 +16,7 @@ image: /images/songs/grp/shin-yuu.jpg
 
 ## Overview
 
-“シンユウ (feat. wotaku)” is a 御莉姫 release dated 2024-11-06.
+“シンユウ (feat. wotaku)” is a [御莉姫](/en/artists/girls_revolution_project/orihime) release dated 2024-11-06.
 
 ## Listen
 

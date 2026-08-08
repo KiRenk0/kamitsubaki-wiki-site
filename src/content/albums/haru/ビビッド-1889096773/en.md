@@ -38,7 +38,7 @@ tracks:
 
 ## Overview
 
-羽累's ep “ビビッド”, released on 2026-04-26, featuring 4 tracks.
+[羽累](/en/artists/isotopes/haru)'s ep “ビビッド”, released on 2026-04-26, featuring 4 tracks.
 
 ## Track List
 

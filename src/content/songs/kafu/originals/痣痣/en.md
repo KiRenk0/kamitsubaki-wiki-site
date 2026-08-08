@@ -17,7 +17,7 @@ image: /images/songs/kafu/痣痣.jpg
 
 ## Overview
 
-“痣痣” is a single by 可不, released on 2026-05-21.
+“痣痣” is a single by [可不](/en/artists/isotopes/kafu), released on 2026-05-21.
 
 ## Listen
 {{media-switcher::痣痣}}

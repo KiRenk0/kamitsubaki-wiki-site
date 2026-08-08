@@ -17,7 +17,7 @@ image: /images/songs/mimi/unfading-feat.-初音miku.jpg
 
 ## Overview
 
-“UNFADING (feat. 初音ミク)” is a single by MIMI, released on 2024-05-07.
+“UNFADING (feat. 初音ミク)” is a single by [MIMI](/en/artists/creators/mimi), released on 2024-05-07.
 
 ## Listen
 {{media-switcher::UNFADING (feat. 初音ミク)}}

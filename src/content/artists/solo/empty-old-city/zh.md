@@ -69,17 +69,17 @@ Empty old City 是由作曲家兼制作人 Neuron（ニューロン）与主唱 
 ## 活动历程
 
 - 2021 年：以 1st Single「Urban Cruise」正式出道。
-- 2024年1月：发布 11th Single「Chronicle A」，YouTube 播放量突破 1200 万次，成为标志性破圈作品。
-- 2025年9月11日：发行概念 EP《From Noir into Clair》。
+- 2024年1月：发布 11th Single「[Chronicle A](/zh/songs/empty-old-city/originals/chronicle-a)」，YouTube 播放量突破 1200 万次，成为标志性破圈作品。
+- 2025年9月11日：发行概念 EP《[From Noir into Clair](/zh/albums/empty-old-city/From-Noir-into-Clair-1840911030)》。
 - 2025年10月19日：在 Spotify O-EAST 举办五周年纪念演唱会「Quintennial: recall」。
-- 2026年4月22日：发行第 2 张专辑《Strings in Owl》。
+- 2026年4月22日：发行第 2 张专辑《[Strings in Owl](/zh/albums/empty-old-city/Strings-in-Owl-1888375903)》。
 - 2026年6月2日：宣布举办第 2 次 ONE-MAN LIVE。
 
 ## 代表作品
 
 - 专辑：《Strings in Owl》（2nd Album, 2026）
 - 概念 EP：《From Noir into Clair》（2025）
-- 主要单曲：「Chronicle A」（11th）、「Daisy Crown」（16th）、「Death Designer」（15th）、「Astronomy」（14th）、「Ghost Keikai wo Utau」（13th）、「Buffer」（12th）
+- 主要单曲：「[Chronicle A](/zh/songs/empty-old-city/originals/chronicle-a)」（11th）、「[Daisy Crown](/zh/songs/empty-old-city/originals/daisy-crown)」（16th）、「[Death Designer](/zh/songs/empty-old-city/originals/death-designer)」（15th）、「[Astronomy](/zh/songs/empty-old-city/originals/astronomy)」（14th）、「Ghost Keikai wo Utau」（13th）、「[Buffer](/zh/songs/empty-old-city/originals/buffer)」（12th）
 - 出道单曲：「Urban Cruise」（2021）
 
 ## 相关企划 / 关联设定

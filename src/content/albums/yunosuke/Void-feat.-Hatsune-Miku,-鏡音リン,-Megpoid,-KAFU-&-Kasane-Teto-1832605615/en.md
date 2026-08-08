@@ -70,7 +70,7 @@ tracks:
 
 ## Overview
 
-雄之助's album “Void (feat. Hatsune Miku, 鏡音リン, Megpoid, KAFU & Kasane Teto)”, released on 2025-08-31, featuring 12 tracks.
+[雄之助](/en/artists/creators/yunosuke)'s album “Void (feat. Hatsune Miku, 鏡音リン, Megpoid, [KAFU](/en/artists/isotopes/kafu) & Kasane Teto)”, released on 2025-08-31, featuring 12 tracks.
 
 ## Track List
 

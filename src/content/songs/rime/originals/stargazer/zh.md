@@ -17,7 +17,7 @@ image: /images/songs/rime/stargazer.jpg
 
 ## 作品简介
 
-裏命于 2025-07-29 发行的单曲《stargazer》。
+[裏命](/zh/artists/isotopes/rime)于 2025-07-29 发行的单曲《stargazer》。
 
 ## 试听
 {{media-switcher::stargazer}}

@@ -46,7 +46,7 @@ tracks:
 
 ## 简介
 
-裏命于 2025-04-26 发行的EP《Newgame》,共收录 6 首歌曲。
+[裏命](/zh/artists/isotopes/rime)于 2025-04-26 发行的EP《Newgame》,共收录 6 首歌曲。
 
 ## 收录曲
 

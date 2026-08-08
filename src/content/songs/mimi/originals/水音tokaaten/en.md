@@ -17,7 +17,7 @@ image: /images/songs/mimi/水音tokaaten.jpg
 
 ## Overview
 
-“水音とカーテン” is a single by MIMI, released on 2019-11-02.
+“水音とカーテン” is a single by [MIMI](/en/artists/creators/mimi), released on 2019-11-02.
 
 ## Listen
 {{media-switcher::水音とカーテン}}

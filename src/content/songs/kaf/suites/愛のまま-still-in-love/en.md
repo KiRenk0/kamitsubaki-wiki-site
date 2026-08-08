@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1721090584.jpg
 
 ## Overview
 
-“愛のまま” is track 15 of KAF’s 組曲.
+“愛のまま” is track 15 of [KAF](/en/artists/vwp/kaf)’s [組曲](/en/albums/kaf/suite).
 
 ## Listen
 

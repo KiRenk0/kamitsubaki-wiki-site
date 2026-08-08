@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/僕tachiga消eta夜.jpg
 
 ## Overview
 
-“僕たちが消えた夜” is a single by tokiwa, released on 2026-02-26.
+“僕たちが消えた夜” is a single by [tokiwa](/en/artists/creators/tokiwa), released on 2026-02-26.
 
 ## Listen
 {{media-switcher::僕たちが消えた夜}}

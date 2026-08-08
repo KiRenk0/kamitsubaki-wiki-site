@@ -19,7 +19,7 @@ image: /images/albums/kaf/gsa.jpg
 
 ## Overview
 
-“ゲシュタルト” is track 1 of KAF’s GSA.
+“ゲシュタルト” is track 1 of [KAF](/en/artists/vwp/kaf)’s GSA.
 
 ## Listen
 

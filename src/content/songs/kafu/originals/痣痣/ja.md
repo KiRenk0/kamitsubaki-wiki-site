@@ -17,7 +17,7 @@ image: /images/songs/kafu/痣痣.jpg
 
 ## 作品概要
 
-可不が2026-05-21にリリースしたシングル「痣痣」。
+[可不](/ja/artists/isotopes/kafu)が2026-05-21にリリースしたシングル「痣痣」。
 
 ## 視聴
 {{media-switcher::痣痣}}

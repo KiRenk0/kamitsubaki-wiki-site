@@ -20,7 +20,7 @@ image: /images/songs/rime/phntm.jpg
 
 ## 作品简介
 
-裏命于 2023-04-13 发行的单曲《PHNTM》。
+[裏命](/zh/artists/isotopes/rime)于 2023-04-13 发行的单曲《PHNTM》。
 
 ## 试听
 {{media-switcher::PHNTM}}

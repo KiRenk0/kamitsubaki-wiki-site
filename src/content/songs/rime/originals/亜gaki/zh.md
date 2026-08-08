@@ -17,7 +17,7 @@ image: /images/songs/rime/亜gaki.jpg
 
 ## 作品简介
 
-裏命于 2023-07-17 发行的单曲《亜ガキ》。
+[裏命](/zh/artists/isotopes/rime)于 2023-07-17 发行的单曲《亜ガキ》。
 
 ## 试听
 @[apple-music](https://music.apple.com/jp/album/%E4%BA%9C%E3%82%AC%E3%82%AD/1694640344?i=1694640345&uo=4 "亜ガキ")

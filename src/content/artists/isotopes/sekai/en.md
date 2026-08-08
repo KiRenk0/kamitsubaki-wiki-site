@@ -67,9 +67,9 @@ seo:
 
 ## Overview
 
-SEKAI is the second voice synthesis software in KAMITSUBAKI STUDIO's Musical Isotope series, built from the vocal data of virtual singer ISEKAIJOUCHO. It inherits the transparency and narrative quality characteristic of the original voice.
+SEKAI is the second voice synthesis software in [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio)'s [Musical Isotope](/en/artists/solo/musical-isotope) series, built from the vocal data of virtual singer [ISEKAIJOUCHO](/en/artists/vwp/isekaijoucho). It inherits the transparency and narrative quality characteristic of the original voice.
 
-Joining the series after KAFU, SEKAI further enriches the Musical Isotope product line. Its voice quality tends toward clarity and softness, occupying a differentiated position from KAFU's more youthful character.
+Joining the series after [KAFU](/en/artists/isotopes/kafu), SEKAI further enriches the [Musical Isotope](/en/artists/solo/musical-isotope) product line. Its voice quality tends toward clarity and softness, occupying a differentiated position from KAFU's more youthful character.
 
 ## Role and Creative Position
 
@@ -127,7 +127,7 @@ SEKAI is the voicebank and character; ISEKAIJOUCHO is the virtual singer who pro
 
 ## Related Projects / Setting
 
-SEKAI is part of the Musical Isotope Project, initiated by KAMITSUBAKI STUDIO to develop voice synthesis software based on its virtual singers' vocal data using AI technology. KAFU (based on KAF) and SEKAI (based on ISEKAIJOUCHO) are the current core products.
+SEKAI is part of the [Musical Isotope](/en/artists/solo/musical-isotope) Project, initiated by [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) to develop voice synthesis software based on its virtual singers' vocal data using AI technology. [KAFU](/en/artists/isotopes/kafu) (based on [KAF](/en/artists/vwp/kaf)) and SEKAI (based on [ISEKAIJOUCHO](/en/artists/vwp/isekaijoucho)) are the current core products.
 
 Contact: musical-isotope@kamitsubaki.jp
 

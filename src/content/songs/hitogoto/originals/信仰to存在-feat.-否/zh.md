@@ -17,7 +17,7 @@ image: /images/songs/hitogoto/信仰to存在-feat.-否.jpg
 
 ## 作品简介
 
-他人事于 2022-08-12 发行的单曲《信仰と存在 (feat. 否)》。
+[他人事](/zh/artists/creators/hitogoto)于 2022-08-12 发行的单曲《信仰と存在 (feat. 否)》。
 
 ## 试听
 {{media-switcher::信仰と存在 (feat. 否)}}

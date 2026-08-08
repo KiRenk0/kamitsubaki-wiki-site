@@ -16,7 +16,7 @@ image: /images/songs/grp/sakura-shinjuu.jpg
 
 ## Overview
 
-“桜心中” is a 御莉姫 release dated 2026-04-08.
+“桜心中” is a [御莉姫](/en/artists/girls_revolution_project/orihime) release dated 2026-04-08.
 
 ## Listen
 

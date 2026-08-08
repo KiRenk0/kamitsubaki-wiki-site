@@ -20,7 +20,7 @@ image: /images/songs/rime/kotobatarazu.jpg
 
 ## 作品简介
 
-裏命于 2025-09-16 发行的单曲《ことばたらず》。
+[裏命](/zh/artists/isotopes/rime)于 2025-09-16 发行的单曲《ことばたらず》。
 
 ## 试听
 {{media-switcher::ことばたらず}}

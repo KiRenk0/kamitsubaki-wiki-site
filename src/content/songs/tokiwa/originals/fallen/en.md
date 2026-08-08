@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/fallen.jpg
 
 ## Overview
 
-“fallen” is a single by tokiwa, released on 2025-09-16.
+“fallen” is a single by [tokiwa](/en/artists/creators/tokiwa), released on 2025-09-16.
 
 ## Listen
 {{media-switcher::fallen}}

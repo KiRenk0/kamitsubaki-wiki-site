@@ -16,7 +16,7 @@ image: /images/songs/grp/nibiiro-gentou.jpg
 
 ## 作品简介
 
-《鈍色幻灯》是少女革命計画于 2025-07-02 正式发行的作品。
+《鈍色幻灯》是[少女革命計画](/zh/projects/labels/girls-revolution-project)于 2025-07-02 正式发行的作品。
 
 ## 试听
 

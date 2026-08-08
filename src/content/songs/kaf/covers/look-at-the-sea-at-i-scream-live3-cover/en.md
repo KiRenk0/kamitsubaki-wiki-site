@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 
 ## Overview
 
-“look at the sea (I SCREAM LIVE3 ver.)” is track 4 of KAF’s I SCREAM LIVE3.
+“look at the sea (I SCREAM LIVE3 ver.)” is track 4 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE3](/en/albums/kaf/i-scream-live-3).
 
 ## Listen
 

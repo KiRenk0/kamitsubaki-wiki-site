@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa.jpg
 
 ## 作品概要
 
-「カルぺ・ディエム」は花譜の『寓話』に収録された11曲目です。
+「カルぺ・ディエム」は[花譜](/ja/artists/vwp/kaf)の『[寓話](/ja/albums/kaf/guwa)』に収録された11曲目です。
 
 ## 視聴
 

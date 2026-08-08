@@ -17,7 +17,7 @@ image: /images/songs/awairo/satellite-feat.-yunosuke-&-wami.jpg
 
 ## 作品简介
 
-Awairo于 2022-10-21 发行的单曲《Satellite (feat. Yunosuke & WaMi)》。
+Awairo于 2022-10-21 发行的单曲《Satellite (feat. [Yunosuke](/zh/artists/creators/yunosuke) & WaMi)》。
 
 ## 试听
 @[apple-music](https://music.apple.com/jp/album/satellite-feat-yunosuke-wami/1727062639?i=1727062641&uo=4 "Satellite (feat. Yunosuke & WaMi)")

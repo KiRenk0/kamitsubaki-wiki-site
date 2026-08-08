@@ -24,7 +24,7 @@ image: /images/songs/vwp/single-1696039388.jpg
 
 ## 作品简介
 
-《逆絶 (feat. V.W.P & KOKO)》收录于《逆絶》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《逆絶 (feat. [V.W.P](/zh/artists/vwp/vwp) & [KOKO](/zh/artists/vwp/koko))》收录于《逆絶》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 

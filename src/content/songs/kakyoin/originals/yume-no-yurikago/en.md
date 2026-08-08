@@ -16,7 +16,7 @@ image: /images/songs/grp/yume-no-yurikago.jpg
 
 ## Overview
 
-“夢の揺籠 (feat. Wiz_nicc)” is a 佳鏡院 release dated 2024-10-23.
+“夢の揺籠 (feat. Wiz_nicc)” is a [佳鏡院](/en/artists/girls_revolution_project/kakyoin) release dated 2024-10-23.
 
 ## Listen
 

@@ -17,7 +17,7 @@ image: /images/songs/mimi/kuuninaru-feat.-可不.jpg
 
 ## 作品简介
 
-MIMI于 2022-01-17 发行的单曲《くうになる (feat. 可不)》。
+MIMI于 2022-01-17 发行的单曲《くうになる (feat. [可不](/zh/artists/isotopes/kafu))》。
 
 ## 试听
 {{media-switcher::くうになる (feat. 可不)}}

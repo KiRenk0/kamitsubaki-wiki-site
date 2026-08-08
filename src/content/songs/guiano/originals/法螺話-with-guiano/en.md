@@ -17,7 +17,7 @@ image: /images/songs/guiano/法螺話-with-guiano.jpg
 
 ## Overview
 
-“法螺話 (with Guiano)” is a single by Guiano, released on 2023-09-19.
+“法螺話 (with [Guiano](/en/artists/creators/guiano))” is a single by Guiano, released on 2023-09-19.
 
 ## Listen
 {{media-switcher::法螺話 (with Guiano)}}

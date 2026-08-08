@@ -17,7 +17,7 @@ image: /images/songs/haru/meguru.jpg
 
 ## 作品概要
 
-羽累が2026-07-29にリリースしたシングル「meguru」。
+[羽累](/ja/artists/isotopes/haru)が2026-07-29にリリースしたシングル「meguru」。
 
 ## 視聴
 @[apple-music](https://music.apple.com/jp/album/meguru/1807749989?i=1807749993&uo=4 "meguru")

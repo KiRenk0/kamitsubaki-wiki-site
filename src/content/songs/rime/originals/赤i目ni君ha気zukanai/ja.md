@@ -17,7 +17,7 @@ image: /images/songs/rime/赤i目ni君ha気zukanai.jpg
 
 ## 作品概要
 
-裏命が2025-03-22にリリースしたシングル「赤い目に君は気づかない」。
+[裏命](/ja/artists/isotopes/rime)が2025-03-22にリリースしたシングル「赤い目に君は気づかない」。
 
 ## 視聴
 {{media-switcher::赤い目に君は気づかない}}

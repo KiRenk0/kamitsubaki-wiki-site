@@ -19,7 +19,7 @@ image: /images/songs/rim/single-1687473629.jpg
 
 ## Overview
 
-法螺話 (with Guiano) appears on 法螺話 (with Guiano) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+法螺話 (with [Guiano](/en/artists/creators/guiano)) appears on 法螺話 (with Guiano) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

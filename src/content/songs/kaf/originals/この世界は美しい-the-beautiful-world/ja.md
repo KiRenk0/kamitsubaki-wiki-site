@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa.jpg
 
 ## 作品概要
 
-「この世界は美しい」は花譜の『寓話』に収録された5曲目です。
+「この世界は美しい」は[花譜](/ja/artists/vwp/kaf)の『[寓話](/ja/albums/kaf/guwa)』に収録された5曲目です。
 
 ## 視聴
 

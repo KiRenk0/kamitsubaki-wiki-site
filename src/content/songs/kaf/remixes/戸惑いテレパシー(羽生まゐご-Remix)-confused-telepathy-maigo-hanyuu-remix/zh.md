@@ -19,7 +19,7 @@ image: /images/albums/kaf/tomadoi-telepathy.jpg
 
 ## 作品简介
 
-《戸惑いテレパシー(羽生まゐご Remix)》是花譜收录于《戸惑いテレパシー》的第 4 轨。
+《[戸惑いテレパシー](/zh/albums/kaf/tomadoi-telepathy)(羽生まゐご Remix)》是[花譜](/zh/artists/vwp/kaf)收录于《戸惑いテレパシー》的第 4 轨。
 
 ## 试听
 

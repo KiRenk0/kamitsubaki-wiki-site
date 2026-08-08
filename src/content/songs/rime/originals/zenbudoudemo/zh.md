@@ -17,7 +17,7 @@ image: /images/songs/rime/zenbudoudemo.jpg
 
 ## 作品简介
 
-裏命于 2023-08-19 发行的单曲《ぜんぶどうでも》。
+[裏命](/zh/artists/isotopes/rime)于 2023-08-19 发行的单曲《ぜんぶどうでも》。
 
 ## 试听
 {{media-switcher::ぜんぶどうでも}}

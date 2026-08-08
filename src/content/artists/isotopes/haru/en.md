@@ -67,7 +67,7 @@ seo:
 
 ## Overview
 
-HARU (羽累) is the fifth voice synthesis software in KAMITSUBAKI STUDIO's "Musical Isotope" series. Built on the CeVIO AI platform, she is created using AI technology based on the vocal data of virtual rapper/singer HARUSARUHI (春猿火) to generate highly realistic singing voices.
+HARU (羽累) is the fifth voice synthesis software in [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio)'s "[Musical Isotope](/en/artists/solo/musical-isotope)" series. Built on the CeVIO AI platform, she is created using AI technology based on the vocal data of virtual rapper/singer [HARUSARUHI](/en/artists/vwp/harusaruhi) (春猿火) to generate highly realistic singing voices.
 
 As the final voicebank revealed in the initial lineup of the project, the name "HARU" is taken from the "Haru" (春 - Spring) in Harusaruhi's name, while reflecting the concepts of "emergence" (羽化) and "accumulation" (累ねて). She inherits Harusaruhi's sharp phrasing and high-speed rap/singing capabilities.
 

@@ -17,7 +17,7 @@ image: /images/songs/kafu/meidoinbeibii.jpg
 
 ## Overview
 
-“メイドインベイビー” is a single by 可不, released on 2022-01-29.
+“メイドインベイビー” is a single by [可不](/en/artists/isotopes/kafu), released on 2022-01-29.
 
 ## Listen
 {{media-switcher::メイドインベイビー}}

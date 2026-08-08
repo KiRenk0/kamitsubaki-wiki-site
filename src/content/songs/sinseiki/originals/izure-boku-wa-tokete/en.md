@@ -16,7 +16,7 @@ image: /images/songs/grp/izure-boku-wa-tokete.jpg
 
 ## Overview
 
-“いずれ僕は溶けて (feat. Purukichi)” is a 心世紀 release dated 2025-10-29.
+“いずれ僕は溶けて (feat. Purukichi)” is a [心世紀](/en/artists/girls_revolution_project/sinseiki) release dated 2025-10-29.
 
 ## Listen
 

@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 ## 作品概要
 
-「畢生よ(柊マグネタイト Remix)」は花譜の『魔法γ』に収録された6曲目です。
+「畢生よ(柊マグネタイト Remix)」は[花譜](/ja/artists/vwp/kaf)の『[魔法γ](/ja/albums/kaf/maho-gamma)』に収録された6曲目です。
 
 ## 視聴
 

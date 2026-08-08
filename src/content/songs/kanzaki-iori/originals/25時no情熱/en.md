@@ -17,7 +17,7 @@ image: /images/songs/kanzaki-iori/25時no情熱.jpg
 
 ## Overview
 
-“25時の情熱” is a single by カンザキイオリ, released on 2024-01-12.
+“25時の情熱” is a single by [カンザキイオリ](/en/artists/creators/kanzaki-iori), released on 2024-01-12.
 
 ## Listen
 {{media-switcher::25時の情熱}}

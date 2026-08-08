@@ -17,7 +17,7 @@ image: /images/songs/kafu/痣痣.jpg
 
 ## 作品简介
 
-可不于 2026-05-21 发行的单曲《痣痣》。
+[可不](/zh/artists/isotopes/kafu)于 2026-05-21 发行的单曲《痣痣》。
 
 ## 试听
 {{media-switcher::痣痣}}

@@ -20,7 +20,7 @@ image: /images/albums/rim/singularity-live.jpg
 
 ## Overview
 
-異星にいこうね (feat. 星界) [Live at Virtual, 2022] appears on Singularity Live or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+異星にいこうね (feat. [星界](/en/artists/isotopes/sekai)) [Live at Virtual, 2022] appears on Singularity Live or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

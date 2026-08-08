@@ -16,7 +16,7 @@ image: /images/songs/grp/player-watashi.jpg
 
 ## 作品简介
 
-《プレイヤーわたし》是夕凪機于 2024-12-18 正式发行的作品。
+《プレイヤーわたし》是[夕凪機](/zh/artists/girls_revolution_project/yunagi)于 2024-12-18 正式发行的作品。
 
 ## 试听
 

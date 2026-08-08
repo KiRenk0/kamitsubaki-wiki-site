@@ -17,7 +17,7 @@ image: /images/songs/sekai/終着世界.jpg
 
 ## Overview
 
-“終着世界” is a single by 星界, released on 2024-10-22.
+“終着世界” is a single by [星界](/en/artists/isotopes/sekai), released on 2024-10-22.
 
 ## Listen
 {{media-switcher::終着世界}}

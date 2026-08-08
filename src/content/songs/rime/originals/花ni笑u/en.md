@@ -17,7 +17,7 @@ image: /images/songs/rime/花ni笑u.jpg
 
 ## Overview
 
-“花に笑う” is a single by 裏命, released on 2025-07-16.
+“花に笑う” is a single by [裏命](/en/artists/isotopes/rime), released on 2025-07-16.
 
 ## Listen
 {{media-switcher::花に笑う}}

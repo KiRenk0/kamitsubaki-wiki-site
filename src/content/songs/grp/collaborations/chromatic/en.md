@@ -16,7 +16,7 @@ image: /images/songs/grp/chromatic.jpg
 
 ## Overview
 
-“クロマティック (feat. ヰ世界情緒)” is a 少女革命計画 release dated 2025-12-24.
+“クロマティック (feat. [ヰ世界情緒](/en/artists/vwp/isekaijoucho))” is a [少女革命計画](/en/projects/labels/girls-revolution-project) release dated 2025-12-24.
 
 ## Listen
 

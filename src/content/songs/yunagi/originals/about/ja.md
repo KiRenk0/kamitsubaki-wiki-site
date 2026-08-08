@@ -16,7 +16,7 @@ image: /images/songs/grp/about.jpg
 
 ## 作品概要
 
-「アバウト」は夕凪機が2024-10-30にリリースした楽曲です。
+「アバウト」は[夕凪機](/ja/artists/girls_revolution_project/yunagi)が2024-10-30にリリースした楽曲です。
 
 ## 視聴
 

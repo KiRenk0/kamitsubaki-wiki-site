@@ -16,7 +16,7 @@ image: /images/songs/grp/cinematic.jpg
 
 ## 作品简介
 
-《シネマティック》是佳鏡院于 2025-02-12 正式发行的作品。
+《シネマティック》是[佳鏡院](/zh/artists/girls_revolution_project/kakyoin)于 2025-02-12 正式发行的作品。
 
 ## 试听
 

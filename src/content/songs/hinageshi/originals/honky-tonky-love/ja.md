@@ -16,7 +16,7 @@ image: /images/songs/grp/honky-tonky-love.jpg
 
 ## 作品概要
 
-「ホンキートンキーラブ」は氷夏至が2025-04-16にリリースした楽曲です。
+「ホンキートンキーラブ」は[氷夏至](/ja/artists/girls_revolution_project/hinageshi)が2025-04-16にリリースした楽曲です。
 
 ## 視聴
 

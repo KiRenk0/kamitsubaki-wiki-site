@@ -17,7 +17,7 @@ image: /images/songs/coko/killer-tune-feat.-狐子.jpg
 
 ## 作品简介
 
-狐子于 2021-06-19 发行的单曲《KiLLer TuNe (feat. 狐子)》。
+[狐子](/zh/artists/isotopes/coko)于 2021-06-19 发行的单曲《KiLLer TuNe (feat. 狐子)》。
 
 ## 试听
 @[apple-music](https://music.apple.com/jp/album/killer-tune-feat-%E7%8B%90%E5%AD%90/1740262341?i=1740262342&uo=4 "KiLLer TuNe (feat. 狐子)")

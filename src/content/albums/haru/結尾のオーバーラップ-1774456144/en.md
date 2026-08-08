@@ -66,7 +66,7 @@ tracks:
 
 ## Overview
 
-羽累's album “結尾のオーバーラップ”, released on 2024-10-30, featuring 11 tracks.
+[羽累](/en/artists/isotopes/haru)'s album “結尾のオーバーラップ”, released on 2024-10-30, featuring 11 tracks.
 
 ## Track List
 

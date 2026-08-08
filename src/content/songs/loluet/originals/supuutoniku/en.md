@@ -17,7 +17,7 @@ image: /images/songs/loluet/supuutoniku.jpg
 
 ## Overview
 
-“スプートニク” is a single by LOLUET, released on 2026-02-24.
+“スプートニク” is a single by [LOLUET](/en/artists/solo/loluet), released on 2026-02-24.
 
 ## Listen
 {{media-switcher::スプートニク}}

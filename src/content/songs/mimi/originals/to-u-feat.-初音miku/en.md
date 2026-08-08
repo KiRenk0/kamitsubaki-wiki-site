@@ -17,7 +17,7 @@ image: /images/songs/mimi/to-u-feat.-初音miku.jpg
 
 ## Overview
 
-“To U (feat. 初音ミク)” is a single by MIMI, released on 2024-10-08.
+“To U (feat. 初音ミク)” is a single by [MIMI](/en/artists/creators/mimi), released on 2024-10-08.
 
 ## Listen
 {{media-switcher::To U (feat. 初音ミク)}}

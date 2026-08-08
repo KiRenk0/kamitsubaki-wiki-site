@@ -17,7 +17,7 @@ image: /images/songs/kafu/不可欠.jpg
 
 ## 作品简介
 
-可不于 2010-12-12 发行的单曲《不可欠》。
+[可不](/zh/artists/isotopes/kafu)于 2010-12-12 发行的单曲《不可欠》。
 
 ## 试听
 @[apple-music](https://music.apple.com/jp/album/%E4%B8%8D%E5%8F%AF%E6%AC%A0/1644704083?i=1644704509&uo=4 "不可欠")

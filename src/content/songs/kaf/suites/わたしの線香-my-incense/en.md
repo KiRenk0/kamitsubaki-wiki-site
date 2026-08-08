@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1688670244.jpg
 
 ## Overview
 
-“わたしの線香” is track 5 of KAF’s 組曲.
+“わたしの線香” is track 5 of [KAF](/en/artists/vwp/kaf)’s [組曲](/en/albums/kaf/suite).
 
 ## Listen
 

@@ -18,7 +18,7 @@ image: /images/albums/kaf/kyoso.jpg
 
 ## Overview
 
-“あなたをあいしてる(Instrumental)” is track 15 of KAF’s 狂想.
+“あなたをあいしてる(Instrumental)” is track 15 of [KAF](/en/artists/vwp/kaf)’s [狂想](/en/albums/kaf/kyoso).
 
 ## Listen
 

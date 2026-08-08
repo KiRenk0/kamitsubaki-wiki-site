@@ -17,7 +17,7 @@ image: /images/songs/mimi/sayonaraha言wanaidesa-feat.-可不.jpg
 
 ## Overview
 
-“サヨナラは言わないでさ (feat. 可不)” is a single by MIMI, released on 2023-06-21.
+“サヨナラは言わないでさ (feat. [可不](/en/artists/isotopes/kafu))” is a single by [MIMI](/en/artists/creators/mimi), released on 2023-06-21.
 
 ## Listen
 {{media-switcher::サヨナラは言わないでさ (feat. 可不)}}

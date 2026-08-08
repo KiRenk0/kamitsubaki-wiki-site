@@ -20,7 +20,7 @@ image: /images/songs/rime/幽玄no詩-feat.-◈-yukuewatto.jpg
 
 ## 作品概要
 
-裏命が2015-10-11にリリースしたシングル「幽玄の詩 (feat. ◈*ゆくえわっと)」。
+[裏命](/ja/artists/isotopes/rime)が2015-10-11にリリースしたシングル「幽玄の詩 (feat. ◈*ゆくえわっと)」。
 
 ## 視聴
 {{media-switcher::幽玄の詩 (feat. ◈*ゆくえわっと)}}

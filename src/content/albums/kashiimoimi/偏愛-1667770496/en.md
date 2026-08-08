@@ -74,7 +74,7 @@ tracks:
 
 ## Overview
 
-香椎モイミ's album “偏愛”, released on 2023-02-08, featuring 13 tracks.
+[香椎モイミ](/en/artists/creators/kashiimoimi)'s album “偏愛”, released on 2023-02-08, featuring 13 tracks.
 
 ## Track List
 

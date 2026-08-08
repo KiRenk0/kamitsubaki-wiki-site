@@ -26,7 +26,7 @@ image: /images/albums/vwp/fate.jpg
 
 ## Overview
 
-- V.W.P's cover of KAF's single "Witch." This version first appeared on the album "Fate." For KAF's version, see the related article (link to be added once the article is complete).
+- [V.W.P](/en/artists/vwp/vwp)'s cover of [KAF](/en/artists/vwp/kaf)'s single "Witch." This version first appeared on the album "Fate." For KAF's version, see the related article (link to be added once the article is complete).
 
 ## Listen
 

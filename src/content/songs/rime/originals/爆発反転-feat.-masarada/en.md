@@ -17,7 +17,7 @@ image: /images/songs/rime/爆発反転-feat.-masarada.jpg
 
 ## Overview
 
-“爆発反転 (feat. マサラダ)” is a single by 裏命, released on 2015-10-11.
+“爆発反転 (feat. マサラダ)” is a single by [裏命](/en/artists/isotopes/rime), released on 2015-10-11.
 
 ## Listen
 {{media-switcher::爆発反転 (feat. マサラダ)}}

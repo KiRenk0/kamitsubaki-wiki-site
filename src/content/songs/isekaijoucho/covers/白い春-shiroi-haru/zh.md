@@ -18,7 +18,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 
 ## 作品简介
 
-《白い春》收录于《CANDY LIVE》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《白い春》收录于《[CANDY LIVE](/zh/albums/isekaijoucho/candy-live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 歌词
 

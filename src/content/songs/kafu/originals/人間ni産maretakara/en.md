@@ -17,7 +17,7 @@ image: /images/songs/kafu/人間ni産maretakara.jpg
 
 ## Overview
 
-“人間に産まれたから” is a single by 可不, released on 2025-02-01.
+“人間に産まれたから” is a single by [可不](/en/artists/isotopes/kafu), released on 2025-02-01.
 
 ## Listen
 {{media-switcher::人間に産まれたから}}

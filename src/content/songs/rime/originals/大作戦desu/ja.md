@@ -16,7 +16,7 @@ image: /images/songs/rime/大作戦desu.jpg
 
 ## 作品概要
 
-裏命が2024-10-22にリリースしたシングル「大作戦です。」。
+[裏命](/ja/artists/isotopes/rime)が2024-10-22にリリースしたシングル「大作戦です。」。
 
 ## 視聴
 {{media-switcher::大作戦です。}}

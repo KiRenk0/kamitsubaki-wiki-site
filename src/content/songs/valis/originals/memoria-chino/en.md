@@ -17,7 +17,7 @@ image: /images/songs/valis/memoria-chino.jpg
 
 ## Overview
 
-“Memoria(チノ)” is a single by VALIS, released on 2025-08-26.
+“Memoria(チノ)” is a single by [VALIS](/en/artists/solo/valis), released on 2025-08-26.
 
 ## Listen
 {{media-switcher::Memoria(チノ)}}

@@ -16,7 +16,7 @@ image: /images/songs/grp/talking-doll.jpg
 
 ## Overview
 
-“Talking Doll (feat. hitogoto)” is a 御莉姫 release dated 2024-12-25.
+“Talking Doll (feat. [hitogoto](/en/artists/creators/hitogoto))” is a [御莉姫](/en/artists/girls_revolution_project/orihime) release dated 2024-12-25.
 
 ## Listen
 

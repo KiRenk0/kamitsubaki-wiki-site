@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/青揺rerufyiria-feat.-dazbee.jpg
 
 ## Overview
 
-“青揺れるフィリア (feat. Dazbee)” is a single by Empty old City, released on 2022-05-30.
+“青揺れるフィリア (feat. Dazbee)” is a single by [Empty old City](/en/artists/solo/empty-old-city), released on 2022-05-30.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/%E9%9D%92%E6%8F%BA%E3%82%8C%E3%82%8B%E3%83%95%E3%82%A3%E3%83%AA%E3%82%A2-feat-dazbee/6790332253?i=6790332537&uo=4 "青揺れるフィリア (feat. Dazbee)")

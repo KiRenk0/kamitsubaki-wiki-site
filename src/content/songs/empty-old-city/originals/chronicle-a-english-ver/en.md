@@ -16,7 +16,7 @@ image: /images/songs/empty-old-city/chronicle-a-english-ver.jpg
 
 ## Overview
 
-“Chronicle A (English Ver.)” is a single by Empty old City, released on 2024-01-23.
+“Chronicle A (English Ver.)” is a single by [Empty old City](/en/artists/solo/empty-old-city), released on 2024-01-23.
 
 ## Listen
 {{media-switcher::Chronicle A (English Ver.)}}

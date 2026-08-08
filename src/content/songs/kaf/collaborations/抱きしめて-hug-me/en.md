@@ -16,7 +16,7 @@ image: /images/songs/kaf/track-1749003639.jpg
 
 ## Overview
 
-“抱きしめて” is a KAF release dated June 12, 2024.
+“抱きしめて” is a [KAF](/en/artists/vwp/kaf) release dated June 12, 2024.
 
 ## Listen
 

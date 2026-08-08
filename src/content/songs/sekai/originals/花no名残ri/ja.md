@@ -17,7 +17,7 @@ image: /images/songs/sekai/花no名残ri.jpg
 
 ## 作品概要
 
-星界が2024-10-15にリリースしたシングル「花の名残り」。
+[星界](/ja/artists/isotopes/sekai)が2024-10-15にリリースしたシングル「花の名残り」。
 
 ## 視聴
 {{media-switcher::花の名残り}}

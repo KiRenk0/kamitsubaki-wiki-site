@@ -17,7 +17,7 @@ image: /images/songs/hitogoto/偶像to悪魔-feat.-70d.jpg
 
 ## 作品概要
 
-他人事が2025-04-10にリリースしたシングル「偶像と悪魔 (feat. 70D)」。
+[他人事](/ja/artists/creators/hitogoto)が2025-04-10にリリースしたシングル「偶像と悪魔 (feat. 70D)」。
 
 ## 視聴
 {{media-switcher::偶像と悪魔 (feat. 70D)}}

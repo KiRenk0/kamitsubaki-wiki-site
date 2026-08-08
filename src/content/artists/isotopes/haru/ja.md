@@ -68,7 +68,7 @@ seo:
 
 ## 概要
 
-羽累（HARU）は、KAMITSUBAKI STUDIOが展開する「音楽的同位体」シリーズの第5弾としてリリースされた音声合成ソフトウェアです。バーチャルシンガー/ラッパーである春猿火（HARUSARUHI）の歌声データをベースに、AI技术を用いて独特の滑舌やスピード感のあるラップ・歌唱スタイルを再現しています。
+羽累（HARU）は、[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio)が展開する「[音楽的同位体](/ja/artists/solo/musical-isotope)」シリーズの第5弾としてリリースされた音声合成ソフトウェアです。バーチャルシンガー/ラッパーである[春猿火](/ja/artists/vwp/harusaruhi)（HARUSARUHI）の歌声データをベースに、AI技术を用いて独特の滑舌やスピード感のあるラップ・歌唱スタイルを再現しています。
 
 CeVIO AIプラットフォーム上で動作し、名前の「HARU」は春猿火の「春」に由来するだけでなく、「羽化する」および「（詞を）累ねる」という深いコンセプトから名付けられました。
 

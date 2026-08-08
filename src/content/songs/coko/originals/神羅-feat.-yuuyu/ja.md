@@ -20,7 +20,7 @@ image: /images/songs/coko/神羅-feat.-yuuyu.jpg
 
 ## 作品概要
 
-狐子が2015-10-11にリリースしたシングル「神羅 (feat. ゆうゆ)」。
+[狐子](/ja/artists/isotopes/coko)が2015-10-11にリリースしたシングル「神羅 (feat. ゆうゆ)」。
 
 ## 視聴
 @[apple-music](https://music.apple.com/jp/album/%E7%A5%9E%E7%BE%85-feat-%E3%82%86%E3%81%86%E3%82%86/1889096311?i=1889096312&uo=4 "神羅 (feat. ゆうゆ)")

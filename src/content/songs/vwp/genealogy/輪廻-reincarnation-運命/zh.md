@@ -26,7 +26,7 @@ image: /images/albums/vwp/fate.jpg
 
 ## 作品简介
 
-- V.W.P于2021年11月3日发行的原创单曲《輪廻》。该版本首次发行于专辑《運命》之中。muv-luv alternative 的OP曲。
+- V.W.P于2021年11月3日发行的原创单曲《輪廻》。该版本首次发行于专辑《[運命](/zh/albums/vwp/fate)》之中。muv-luv alternative 的OP曲。
 
 ## 试听
 

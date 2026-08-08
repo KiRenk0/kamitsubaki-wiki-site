@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 
 ## Overview
 
-“青春の温度(南ノ南 Remix)” is track 10 of KAF’s 狂想γ.
+“青春の温度(南ノ南 Remix)” is track 10 of [KAF](/en/artists/vwp/kaf)’s [狂想γ](/en/albums/kaf/kyoso-gamma).
 
 ## Listen
 

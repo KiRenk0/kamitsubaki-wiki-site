@@ -17,7 +17,7 @@ image: /images/songs/rime/爆発反転-feat.-masarada.jpg
 
 ## 作品概要
 
-裏命が2015-10-11にリリースしたシングル「爆発反転 (feat. マサラダ)」。
+[裏命](/ja/artists/isotopes/rime)が2015-10-11にリリースしたシングル「爆発反転 (feat. マサラダ)」。
 
 ## 視聴
 {{media-switcher::爆発反転 (feat. マサラダ)}}

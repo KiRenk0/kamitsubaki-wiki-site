@@ -17,7 +17,7 @@ image: /images/songs/valis/禁断果実-rara.jpg
 
 ## Overview
 
-“禁断果実(RARA)” is a single by VALIS, released on 2023-06-24.
+“禁断果実(RARA)” is a single by [VALIS](/en/artists/solo/valis), released on 2023-06-24.
 
 ## Listen
 {{media-switcher::禁断果実(RARA)}}

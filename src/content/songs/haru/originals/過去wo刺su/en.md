@@ -20,7 +20,7 @@ image: /images/songs/haru/過去wo刺su.jpg
 
 ## Overview
 
-“過去を刺す” is a single by 羽累, released on 2025-02-20.
+“過去を刺す” is a single by [羽累](/en/artists/isotopes/haru), released on 2025-02-20.
 
 ## Listen
 {{media-switcher::過去を刺す}}

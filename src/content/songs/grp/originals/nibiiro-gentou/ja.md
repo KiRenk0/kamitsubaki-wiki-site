@@ -16,7 +16,7 @@ image: /images/songs/grp/nibiiro-gentou.jpg
 
 ## 作品概要
 
-「鈍色幻灯」は心世紀×罪十罰が2025-07-02にリリースした楽曲です。
+「鈍色幻灯」は[心世紀](/ja/artists/girls_revolution_project/sinseiki)×[罪十罰](/ja/artists/girls_revolution_project/tsumitobatsu)が2025-07-02にリリースした楽曲です。
 
 ## 視聴
 

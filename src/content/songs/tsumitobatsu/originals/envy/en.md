@@ -16,7 +16,7 @@ image: /images/songs/grp/envy.jpg
 
 ## Overview
 
-“Envy (feat. tokiwa)” is a 罪十罰 release dated 2025-10-29.
+“Envy (feat. [tokiwa](/en/artists/creators/tokiwa))” is a [罪十罰](/en/artists/girls_revolution_project/tsumitobatsu) release dated 2025-10-29.
 
 ## Listen
 

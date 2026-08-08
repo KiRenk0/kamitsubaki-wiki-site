@@ -16,7 +16,7 @@ image: /images/songs/grp/perfection.jpg
 
 ## Overview
 
-“パーフェクション (feat. 御莉姫, 佳鏡院, 硝子宮 & 小島 英也)” is a 心世紀 release dated 2024-09-18.
+“パーフェクション (feat. [御莉姫](/en/artists/girls_revolution_project/orihime), [佳鏡院](/en/artists/girls_revolution_project/kakyoin), [硝子宮](/en/artists/girls_revolution_project/garasumiya) & 小島 英也)” is a [心世紀](/en/artists/girls_revolution_project/sinseiki) release dated 2024-09-18.
 
 ## Listen
 

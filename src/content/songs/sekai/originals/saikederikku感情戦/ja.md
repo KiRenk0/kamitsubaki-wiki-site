@@ -17,7 +17,7 @@ image: /images/songs/sekai/saikederikku感情戦.jpg
 
 ## 作品概要
 
-星界が2024-11-19にリリースしたシングル「サイケデリック感情戦」。
+[星界](/ja/artists/isotopes/sekai)が2024-11-19にリリースしたシングル「サイケデリック感情戦」。
 
 ## 視聴
 {{media-switcher::サイケデリック感情戦}}

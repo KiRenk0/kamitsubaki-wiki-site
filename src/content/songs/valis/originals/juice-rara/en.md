@@ -17,7 +17,7 @@ image: /images/songs/valis/juice-rara.jpg
 
 ## Overview
 
-“JUICE(ララ)” is a single by VALIS, released on 2025-05-30.
+“JUICE(ララ)” is a single by [VALIS](/en/artists/solo/valis), released on 2025-05-30.
 
 ## Listen
 {{media-switcher::JUICE(ララ)}}

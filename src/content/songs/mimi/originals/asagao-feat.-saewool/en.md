@@ -17,7 +17,7 @@ image: /images/songs/mimi/asagao-feat.-saewool.jpg
 
 ## Overview
 
-“アサガオ (feat. saewool)” is a single by MIMI, released on 2026-07-03.
+“アサガオ (feat. saewool)” is a single by [MIMI](/en/artists/creators/mimi), released on 2026-07-03.
 
 ## Listen
 {{media-switcher::アサガオ (feat. saewool)}}

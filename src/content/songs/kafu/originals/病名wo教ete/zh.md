@@ -17,7 +17,7 @@ image: /images/songs/kafu/病名wo教ete.jpg
 
 ## 作品简介
 
-可不于 2020-02-29 发行的单曲《病名を教えて》。
+[可不](/zh/artists/isotopes/kafu)于 2020-02-29 发行的单曲《病名を教えて》。
 
 ## 试听
 {{media-switcher::病名を教えて}}

@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 ## 作品概要
 
-「明けない夜のリリィ (I SCREAM LIVE ver.)」は花譜の『I SCREAM LIVE』に収録されたDISC 2の10曲目です。
+「明けない夜のリリィ (I SCREAM LIVE ver.)」は[花譜](/ja/artists/vwp/kaf)の『[I SCREAM LIVE](/ja/albums/kaf/i-scream-live)』に収録されたDISC 2の10曲目です。
 
 ## 視聴
 

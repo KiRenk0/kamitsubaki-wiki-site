@@ -16,7 +16,7 @@ image: /images/songs/kaf/track-1732389947.jpg
 
 ## 作品简介
 
-《ギミギミ逃避行 feat. #KTちゃん》是花譜于 2024年2月28日 正式发行的作品。
+《ギミギミ逃避行 feat. #KTちゃん》是[花譜](/zh/artists/vwp/kaf)于 2024年2月28日 正式发行的作品。
 
 ## 试听
 

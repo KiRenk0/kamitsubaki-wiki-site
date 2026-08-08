@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 ## Overview
 
-“痛みを(Peg Remix)” is track 9 of KAF’s 魔法γ.
+“痛みを(Peg Remix)” is track 9 of [KAF](/en/artists/vwp/kaf)’s [魔法γ](/en/albums/kaf/maho-gamma).
 
 ## Listen
 

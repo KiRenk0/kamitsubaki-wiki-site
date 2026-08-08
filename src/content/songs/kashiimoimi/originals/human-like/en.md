@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/human-like.jpg
 
 ## Overview
 
-“Human-Like” is a single by 香椎モイミ, released on 2024-03-19.
+“Human-Like” is a single by [香椎モイミ](/en/artists/creators/kashiimoimi), released on 2024-03-19.
 
 ## Listen
 {{media-switcher::Human-Like}}

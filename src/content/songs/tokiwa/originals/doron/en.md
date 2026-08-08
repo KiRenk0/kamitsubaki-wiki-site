@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/doron.jpg
 
 ## Overview
 
-“ドロン” is a single by tokiwa, released on 2025-01-28.
+“ドロン” is a single by [tokiwa](/en/artists/creators/tokiwa), released on 2025-01-28.
 
 ## Listen
 {{media-switcher::ドロン}}

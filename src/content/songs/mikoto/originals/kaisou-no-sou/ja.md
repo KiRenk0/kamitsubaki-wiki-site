@@ -16,7 +16,7 @@ image: /images/songs/grp/kaisou-no-sou.jpg
 
 ## 作品概要
 
-「回想の層」は美古途が2025-04-23にリリースした楽曲です。
+「回想の層」は[美古途](/ja/artists/girls_revolution_project/mikoto)が2025-04-23にリリースした楽曲です。
 
 ## 視聴
 

@@ -17,7 +17,7 @@ image: /images/songs/sekai/真想.jpg
 
 ## 作品概要
 
-星界が2025-04-13にリリースしたシングル「真想」。
+[星界](/ja/artists/isotopes/sekai)が2025-04-13にリリースしたシングル「真想」。
 
 ## 視聴
 {{media-switcher::真想}}

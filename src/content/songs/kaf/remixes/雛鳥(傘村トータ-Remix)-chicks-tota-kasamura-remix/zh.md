@@ -19,7 +19,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 ## 作品简介
 
-《雛鳥(傘村トータ Remix)》是花譜收录于《観測γ》的第 10 轨。
+《雛鳥(傘村トータ Remix)》是[花譜](/zh/artists/vwp/kaf)收录于《[観測γ](/zh/albums/kaf/kansoku-gamma)》的第 10 轨。
 
 ## 试听
 

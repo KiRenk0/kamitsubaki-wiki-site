@@ -17,7 +17,7 @@ image: /images/songs/mimi/天使no涙-feat.-初音miku.jpg
 
 ## Overview
 
-“天使の涙 (feat. 初音ミク)” is a single by MIMI, released on 2025-03-01.
+“天使の涙 (feat. 初音ミク)” is a single by [MIMI](/en/artists/creators/mimi), released on 2025-03-01.
 
 ## Listen
 {{media-switcher::天使の涙 (feat. 初音ミク)}}

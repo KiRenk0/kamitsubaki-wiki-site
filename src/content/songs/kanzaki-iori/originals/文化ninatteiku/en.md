@@ -17,7 +17,7 @@ image: /images/songs/kanzaki-iori/文化ninatteiku.jpg
 
 ## Overview
 
-“文化になっていく” is a single by カンザキイオリ, released on 2023-08-09.
+“文化になっていく” is a single by [カンザキイオリ](/en/artists/creators/kanzaki-iori), released on 2023-08-09.
 
 ## Listen
 {{media-switcher::文化になっていく}}

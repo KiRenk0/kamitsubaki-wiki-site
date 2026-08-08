@@ -16,15 +16,15 @@ The label's slogan is **"Everything starts from here."** and its mission is **"T
 ## History
 
 ### 2018 - 2019: Pre-dawn and Foundation
-- **October 18, 2018**: Virtual singer KAF released her first video on YouTube, officially beginning her activities.
-- **December 6, 2018**: Released KAF's first original single "Ito" (糸), written and composed by Kanzaki Iori.
-- **October 18, 2019**: During KAF's first anniversary live stream, the management team officially launched under the name "KAMITSUBAKI STUDIO." On the same day, virtual singer RIM debuted, and virtual rapper Harusaruhi and virtual darksinger Isekaijoucho joined the studio.
+- **October 18, 2018**: Virtual singer [KAF](/en/artists/vwp/kaf) released her first video on YouTube, officially beginning her activities.
+- **December 6, 2018**: Released [KAF](/en/artists/vwp/kaf)'s first original single "Ito" (糸), written and composed by [Kanzaki Iori](/en/artists/creators/kanzaki-iori).
+- **October 18, 2019**: During [KAF](/en/artists/vwp/kaf)'s first anniversary live stream, the management team officially launched under the name "KAMITSUBAKI STUDIO." On the same day, virtual singer [RIM](/en/artists/vwp/rim) debuted, and virtual rapper [Harusaruhi](/en/artists/vwp/harusaruhi) and virtual darksinger [Isekaijoucho](/en/artists/vwp/isekaijoucho) joined the studio.
 
 ### 2020 - 2021: Witch Assembly and Project Expansion
 - **May 29, 2020**: Announced the core cross-media original IP project "Kamitsubaki City Under Construction" (神椿市建設中。).
 - **August 12, 2020**: RIM's signature song "Carnivorous Plant" (食虫植物) gained massive popularity on TikTok and other platforms, surpassing 10 million views.
-- **October 10, 2020**: Held KAF's 2nd ONE-MAN LIVE "Fukakai Ni" (不可解弐). The development of the first musical isotope vocal synthesis library, "KAFU" (可不), was announced.
-- **October 25, 2020**: Announced the addition of the fifth virtual singer KOKO, completing the lineup of the five virtual singers. On the same day, THINKR was disclosed as the parent company of the studio.
+- **October 10, 2020**: Held [KAF](/en/artists/vwp/kaf)'s 2nd ONE-MAN LIVE "Fukakai Ni" (不可解弐). The development of the first [musical isotope](/en/artists/solo/musical-isotope) vocal synthesis library, "[KAFU](/en/artists/isotopes/kafu)" (可不), was announced.
+- **October 25, 2020**: Announced the addition of the fifth virtual singer [KOKO](/en/artists/vwp/koko), completing the lineup of the five virtual singers. On the same day, THINKR was disclosed as the parent company of the studio.
 - **March 13, 2021**: The virtual artist group "V.W.P (Virtual Witch Phenomenon)," consisting of KAF, RIM, Harusaruhi, Isekaijoucho, and KOKO, was officially formed during KAF's 2nd ONE-MAN LIVE "Fukakai Ni Q2" (不可解弐Q2).
 - **July 7, 2021**: The first musical isotope vocal synthesis library, "KAFU" (可不), built on CeVIO AI, was officially released.
 
@@ -32,7 +32,7 @@ The label's slogan is **"Everything starts from here."** and its mission is **"T
 - **April 15–16, 2022**: Held the studio's first joint live show "Witch Assembly" (魔女集会) and V.W.P's 1st ONE-MAN LIVE "Phenomenon" (現象).
 - **August 24, 2022**: KAF successfully held her 3rd ONE-MAN LIVE "Fukakai San (Kyo)" (不可解参(狂)) at the Nippon Budokan, becoming the first virtual singer to hold a solo concert at the venue.
 - **March 31, 2023**: Resident composer and music producer Kanzaki Iori officially graduated from the studio.
-- **October 18, 2023**: Announced that Yunosuke and WaMi would debut as the musical duo "Awairo."
+- **October 18, 2023**: Announced that [Yunosuke](/en/artists/creators/yunosuke) and WaMi would debut as the musical duo "[Awairo](/en/artists/solo/awairo)."
 - **January 13–14, 2024**: Successfully held the studio-hosted festival "KAMITSUBAKI FES '24."
 
 ## Core Members
@@ -45,16 +45,16 @@ The label's slogan is **"Everything starts from here."** and its mission is **"T
 - **KOKO**: A virtual rock singer known for her strong long-note vocals and high-energy stage performances.
 
 ### Boundary-Crossing Singers and Duos
-- **CIEL**: A virtual singer who debuted through the studio's audition project, combining clear vocals with growth narratives.
-- **DUSTCELL**: An exceptionally popular musical duo consisting of vocalist EMA and composer Misumi.
+- [**CIEL**](/en/artists/solo/ciel): A virtual singer who debuted through the studio's audition project, combining clear vocals with growth narratives.
+- [**DUSTCELL**](/en/artists/solo/dustcell): An exceptionally popular musical duo consisting of vocalist EMA and composer Misumi.
 
 ### Musical Isotope Project
 Creative vocal synthesis software developed in collaboration with CeVIO AI and VOICEPEAK:
 - **KAFU** (Voice Source: KAF)
-- **SEKAI** (Voice Source: Isekaijoucho)
-- **RIME** (Voice Source: RIM)
-- **COKO** (Voice Source: KOKO)
-- **HARU** (Voice Source: Harusaruhi)
+- [**SEKAI**](/en/artists/isotopes/sekai) (Voice Source: [Isekaijoucho](/en/artists/vwp/isekaijoucho))
+- [**RIME**](/en/artists/isotopes/rime) (Voice Source: [RIM](/en/artists/vwp/rim))
+- [**COKO**](/en/artists/isotopes/coko) (Voice Source: [KOKO](/en/artists/vwp/koko))
+- [**HARU**](/en/artists/isotopes/haru) (Voice Source: [Harusaruhi](/en/artists/vwp/harusaruhi))
 
 ## Related Projects
 
@@ -68,8 +68,8 @@ Kamitsubaki is not only an agency for virtual singers. It is a label ecosystem i
 | Division | Role and associated lines |
 | --- | --- |
 | PHENOMENON RECORD | Core virtual-witch label for KAF, RIM, Harusaruhi, Isekaijoucho, KOKO, and V.W.P |
-| SINSEKAI STUDIO / SINSEKAI RECORD | Other-world and derivative lines including Albemuth, ARU, ASU, and VALIS |
-| GIRLS REVOLUTION PROJECT | Cross-media girl-group, audition, and new virtual-artist projects |
+| SINSEKAI STUDIO / [SINSEKAI RECORD](/en/projects/labels/sinsekai-studio) | Other-world and derivative lines including [Albemuth](/en/artists/solo/albemuth), [ARU](/en/artists/solo/aru), [ASU](/en/artists/solo/asu), and [VALIS](/en/artists/solo/valis) |
+| [GIRLS REVOLUTION PROJECT](/en/projects/labels/girls-revolution-project) | Cross-media girl-group, audition, and new virtual-artist projects |
 | KAMITSUBAKI CREATION | Network of composers, illustrators, directors, and other production creators |
 | Musical Isotopes | CeVIO AI and VOICEPEAK products and characters developed from artists' vocal data |
 
@@ -81,6 +81,6 @@ The studio often starts with music and extends it into videos, illustrations, ch
 
 ## Early Members and Creator Network
 
-The studio's early history also involves CIEL, DUSTCELL, Teresa, and a wide network of composers, illustrators, and visual directors. Kanzaki Iori shaped important KAF and early V.W.P works; Guiano, Onuma Parsley, Misumi, samayuzame, PALOW., orie, reoen, SWAV, and Kawasaki contributed to songs, characters, artwork, music videos, and live visuals at different stages.
+The studio's early history also involves [CIEL](/en/artists/solo/ciel), [DUSTCELL](/en/artists/solo/dustcell), Teresa, and a wide network of composers, illustrators, and visual directors. [Kanzaki Iori](/en/artists/creators/kanzaki-iori) shaped important [KAF](/en/artists/vwp/kaf) and early [V.W.P](/en/artists/vwp/vwp) works; [Guiano](/en/artists/creators/guiano), Onuma Parsley, Misumi, samayuzame, [PALOW.](/en/artists/creators/palow), orie, reoen, SWAV, and [Kawasaki](/en/artists/creators/kawasaki) contributed to songs, characters, artwork, music videos, and live visuals at different stages.
 
 These creators are not merely a credits list. Their methods directly shaped the artists' vocal identities, visual language, and worldbuilding, making them essential to understanding how Kamitsubaki works are produced.

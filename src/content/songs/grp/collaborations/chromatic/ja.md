@@ -16,7 +16,7 @@ image: /images/songs/grp/chromatic.jpg
 
 ## 作品概要
 
-「クロマティック」は心世紀×罪十罰 feat. ヰ世界情緒が2025-12-24にリリースした楽曲です。
+「クロマティック」は[心世紀](/ja/artists/girls_revolution_project/sinseiki)×[罪十罰](/ja/artists/girls_revolution_project/tsumitobatsu) feat. [ヰ世界情緒](/ja/artists/vwp/isekaijoucho)が2025-12-24にリリースした楽曲です。
 
 ## 視聴
 

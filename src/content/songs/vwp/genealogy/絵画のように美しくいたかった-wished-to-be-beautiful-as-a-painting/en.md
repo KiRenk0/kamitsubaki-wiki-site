@@ -24,7 +24,7 @@ image: /images/albums/vwp/witch-plus.jpg
 
 ## Overview
 
-絵画のように美しくいたかった (feat. 理芽 & Guiano) appears on 魔女ぷらす or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+絵画のように美しくいたかった (feat. [理芽](/en/artists/vwp/rim) & [Guiano](/en/artists/creators/guiano)) appears on [魔女ぷらす](/en/albums/vwp/witch-plus) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

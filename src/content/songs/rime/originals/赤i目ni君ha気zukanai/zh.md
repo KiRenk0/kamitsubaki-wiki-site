@@ -17,7 +17,7 @@ image: /images/songs/rime/赤i目ni君ha気zukanai.jpg
 
 ## 作品简介
 
-裏命于 2025-03-22 发行的单曲《赤い目に君は気づかない》。
+[裏命](/zh/artists/isotopes/rime)于 2025-03-22 发行的单曲《赤い目に君は気づかない》。
 
 ## 试听
 {{media-switcher::赤い目に君は気づかない}}

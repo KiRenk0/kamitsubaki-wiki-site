@@ -59,9 +59,9 @@ seo:
 
 ## 概要
 
-CIEL は KAMITSUBAKI STUDIO のバーチャルシンガーであり、スタジオの内部オーディション「神椿市異住定獣課」によって発掘された。空を象徴する青い髪をトレードマークとし、「ずっと俯いていた少女が初めて一歩を踏み出す」という成長の物語を軸に活動している。
+CIEL は [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) のバーチャルシンガーであり、スタジオの内部オーディション「神椿市異住定獣課」によって発掘された。空を象徴する青い髪をトレードマークとし、「ずっと俯いていた少女が初めて一歩を踏み出す」という成長の物語を軸に活動している。
 
-個人活動のほか、2026 年初頭にはリアルアーティストの Sooda と跨次元バーチャルユニット「空爽 / KUUSOU」を結成。「清純とやさしさ」をテーマに活動中。劇場版アニメ『映画大好きポンポさん』の主題歌を担当するなど、神椿の新生代バーチャルシンガーとして注目されている。
+個人活動のほか、2026 年初頭にはリアルアーティストの [Sooda](/ja/artists/creators/sooda) と跨次元バーチャルユニット「空爽 / [KUUSOU](/ja/artists/solo/kuusou)」を結成。「清純とやさしさ」をテーマに活動中。劇場版アニメ『映画大好きポンポさん』の主題歌を担当するなど、神椿の新生代バーチャルシンガーとして注目されている。
 
 ## 役割と創作上の位置づけ
 
@@ -77,12 +77,12 @@ CIEL のキャラクター設定は「俯いていた少女が空を仰ぐ」と
 - **2024年5月**：1st VIRTUAL LIVE「空想劇-神椿市伍番街-」を開催。
 - **2025年7月**：「KAMITSUBAKI FES ’25 / Singularity Live Vol.4」に参加。
 - **2025年12月**：活動休止から復帰し、単独バーチャルミニライブ「再晴」を開催。
-- **2026年1月**：Sooda と跨次元バーチャルユニット「空爽 / KUUSOU」を結成、デビュー曲「透明流星ラプソディ」をリリース。
+- **2026年1月**：[Sooda](/ja/artists/creators/sooda) と跨次元バーチャルユニット「[空爽](/ja/artists/solo/kuusou) / KUUSOU」を結成、デビュー曲「[透明流星ラプソディ](/ja/songs/kuusou/originals/透明流星rapusodei)」をリリース。
 
 ## 代表作品と関連項目
 
-- シングル：「眼裏の懐疑」「窓を開けて」
-- 映像作品：Rim × ヰ世界情緒 TWO-MAN LIVE「Singularity Live」（CIEL 出演）
+- シングル：「[眼裏の懐疑](/ja/songs/ciel/originals/眼裏no懐疑)」「[窓を開けて](/ja/songs/ciel/originals/窓wo開kete)」
+- 映像作品：[Rim](/ja/artists/vwp/rim) × [ヰ世界情緒](/ja/artists/vwp/isekaijoucho) TWO-MAN LIVE「Singularity Live」（CIEL 出演）
 - ユニットデビュー曲：「透明流星ラプソディ」（空爽名義）
 
 あわせて読むとつながりが見えやすい項目：

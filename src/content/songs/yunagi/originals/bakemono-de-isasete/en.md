@@ -16,7 +16,7 @@ image: /images/songs/grp/bakemono-de-isasete.jpg
 
 ## Overview
 
-“化け物でいさせて (feat. LELLE)” is a 夕凪機 release dated 2025-12-17.
+“化け物でいさせて (feat. LELLE)” is a [夕凪機](/en/artists/girls_revolution_project/yunagi) release dated 2025-12-17.
 
 ## Listen
 

@@ -16,7 +16,7 @@ image: /images/songs/grp/alive.jpg
 
 ## 作品概要
 
-「アライブ」は氷夏至が2024-10-16にリリースした楽曲です。
+「アライブ」は[氷夏至](/ja/artists/girls_revolution_project/hinageshi)が2024-10-16にリリースした楽曲です。
 
 ## 視聴
 

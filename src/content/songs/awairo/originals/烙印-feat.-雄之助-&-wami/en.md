@@ -17,7 +17,7 @@ image: /images/songs/awairo/烙印-feat.-雄之助-&-wami.jpg
 
 ## Overview
 
-“烙印 (feat. 雄之助 & WaMi)” is a single by Awairo, released on 2024-04-26.
+“烙印 (feat. [雄之助](/en/artists/creators/yunosuke) & WaMi)” is a single by [Awairo](/en/artists/solo/awairo), released on 2024-04-26.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/%E7%83%99%E5%8D%B0-feat-%E9%9B%84%E4%B9%8B%E5%8A%A9-wami/1740906739?i=1740906740&uo=4 "烙印 (feat. 雄之助 & WaMi)")

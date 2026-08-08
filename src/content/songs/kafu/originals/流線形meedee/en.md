@@ -17,7 +17,7 @@ image: /images/songs/kafu/流線形meedee.jpg
 
 ## Overview
 
-“流線形メーデー” is a single by 可不, released on 2022-07-12.
+“流線形メーデー” is a single by [可不](/en/artists/isotopes/kafu), released on 2022-07-12.
 
 ## Listen
 {{media-switcher::流線形メーデー}}

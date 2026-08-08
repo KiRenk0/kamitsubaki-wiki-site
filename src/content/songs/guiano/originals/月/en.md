@@ -17,7 +17,7 @@ image: /images/songs/guiano/月.jpg
 
 ## Overview
 
-“月” is a single by Guiano, released on 2022-11-22.
+“月” is a single by [Guiano](/en/artists/creators/guiano), released on 2022-11-22.
 
 ## Listen
 {{media-switcher::月}}

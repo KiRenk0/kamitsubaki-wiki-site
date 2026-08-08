@@ -17,7 +17,7 @@ image: /images/songs/sekai/kokoropororika.jpg
 
 ## 作品简介
 
-星界于 2026-03-22 发行的单曲《ココロポロリカ》。
+[星界](/zh/artists/isotopes/sekai)于 2026-03-22 发行的单曲《ココロポロリカ》。
 
 ## 试听
 {{media-switcher::ココロポロリカ}}

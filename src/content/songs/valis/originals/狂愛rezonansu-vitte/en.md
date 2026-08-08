@@ -17,7 +17,7 @@ image: /images/songs/valis/狂愛rezonansu-vitte.jpg
 
 ## Overview
 
-“狂愛レゾナンス(VITTE)” is a single by VALIS, released on 2023-10-21.
+“狂愛レゾナンス(VITTE)” is a single by [VALIS](/en/artists/solo/valis), released on 2023-10-21.
 
 ## Listen
 {{media-switcher::狂愛レゾナンス(VITTE)}}

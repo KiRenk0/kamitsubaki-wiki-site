@@ -11,9 +11,9 @@ order: 3
 	深化せよ、電子の少女達！
 ## 概要
 
-**『少女革命計画**』（しょうじょかくめいけいかく、GIRLS REVOLUTION PROJECT）は、KAMITSUBAKI STUDIOと深化による「音楽×物語」の新レーベルプロジェクト。
+**『少女革命計画**』（しょうじょかくめいけいかく、GIRLS REVOLUTION PROJECT）は、[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio)と深化による「音楽×物語」の新レーベルプロジェクト。
 
-XTuberユニット『**<ruby>心世紀<rt>しんせいき</rt></ruby>**』とバーチャルシンガーユニット『**<ruby>罪十罰<rt>つみとばつ</rt></ruby>**』の少女たちを中心に、複数のアーティストとコンポーザーが参加する「音楽×物語」をテーマとしたプロジェクト。 少女たちのバーチャルの姿のデザインはPALOW.が担当する。
+XTuberユニット『**<ruby>[心世紀](/ja/artists/girls_revolution_project/sinseiki)<rt>しんせいき</rt></ruby>**』とバーチャルシンガーユニット『**<ruby>[罪十罰](/ja/artists/girls_revolution_project/tsumitobatsu)<rt>つみとばつ</rt></ruby>**』の少女たちを中心に、複数のアーティストとコンポーザーが参加する「音楽×物語」をテーマとしたプロジェクト。 少女たちのバーチャルの姿のデザインは[PALOW.](/ja/artists/creators/palow)が担当する。
 
 キャッチコピーは「A SECRET PROTOCOL THAT HELPS YOU EVOLVE. EVOLVE, ELECTRONIC GIRLS!」。
 
@@ -56,19 +56,19 @@ KAMITSUBAKI STUDIO初の試みとして、音楽活動だけにとどまらず�
 |        タイトル        |     公開日     |                      作詞・作曲・編曲                       |        歌唱        |
 | :----------------: | :---------: | :-------------------------------------------------: | :--------------: |
 |   フェイクナイト・シンデレラ    |  2024年8月9日  |                        矢野達也                         |       心世紀        |
-|         弔花         | 2024年8月14日  |                         他人事                         |       罪十罰        |
+|         弔花         | 2024年8月14日  |                         [他人事](/ja/artists/creators/hitogoto)                         |       [罪十罰](/ja/artists/girls_revolution_project/tsumitobatsu)        |
 |      パーフェクション      | 2024年9月18日  |           水野あつ（作詞）<br>HIDEYA KOJIMA（作編曲）            |       心世紀        |
 |       DIGGER       | 2024年9月25日  |              biz（作詞）<br>biz、ZERA（作編曲）               |       罪十罰        |
-|        well        | 2024年10月9日  |              祭日ハネダ（作詞）<br>HiFi-P（作編曲）               |       硝子宮        |
-|        アライブ        | 2024年10月16日 |                        夢魅たぴ                         |       氷夏至        |
-|        夢の揺籠        | 2024年10月23日 |                      Wiz_nicc                       |       佳鏡院        |
-|        アバウト        | 2024年10月30日 |                      ポリスピカデリー                       |       夕凪機        |
-|        シンユウ        | 2024年11月6日  |                       wotaku                        |       御莉姫        |
-|      セルフィッシュ       | 2024年11月13日 |                      Shun Ueno                      |       美古途        |
+|        well        | 2024年10月9日  |              祭日ハネダ（作詞）<br>[HiFi-P](/ja/artists/creators/hifi-p)（作編曲）               |       [硝子宮](/ja/artists/girls_revolution_project/garasumiya)        |
+|        アライブ        | 2024年10月16日 |                        夢魅たぴ                         |       [氷夏至](/ja/artists/girls_revolution_project/hinageshi)        |
+|        夢の揺籠        | 2024年10月23日 |                      Wiz_nicc                       |       [佳鏡院](/ja/artists/girls_revolution_project/kakyoin)        |
+|        アバウト        | 2024年10月30日 |                      ポリスピカデリー                       |       [夕凪機](/ja/artists/girls_revolution_project/yunagi)        |
+|        シンユウ        | 2024年11月6日  |                       wotaku                        |       [御莉姫](/ja/artists/girls_revolution_project/orihime)        |
+|      セルフィッシュ       | 2024年11月13日 |                      Shun Ueno                      |       [美古途](/ja/artists/girls_revolution_project/mikoto)        |
 |        現世回帰        | 2024年11月20日 |               真崎エリカ（作詞）<br>水野谷怜（作編曲）                |     心世紀×罪十罰      |
 |         アイ         | 2024年11月27日 |                        higma                        |       硝子宮        |
 |        ジャンク        | 2024年12月4日  |                       内緒のピアス                        |       氷夏至        |
-|       宇宙逃避行        | 2024年12月11日 |                        MIMI                         |       佳鏡院        |
+|       宇宙逃避行        | 2024年12月11日 |                        [MIMI](/ja/artists/creators/mimi)                         |       [佳鏡院](/ja/artists/girls_revolution_project/kakyoin)        |
 |      プレイヤーわたし      | 2024年12月18日 |                        harha                        |       夕凪機        |
 |    Talking Doll    | 2024年12月25日 |                         他人事                         |       御莉姫        |
 |       アワセカガミ       |  2025年1月8日  |                        木下龍平                         |       美古途        |
@@ -97,13 +97,13 @@ KAMITSUBAKI STUDIO初の試みとして、音楽活動だけにとどまらず�
 |     FantastiQ      | 2025年10月29日 |            ぽん（作詞）<br>HIDEYA KOJIMA（作編曲）             |       心世紀        |
 |       RAVEN        | 2025年10月29日 |                         梓川                          |       罪十罰        |
 |      アウフヘーベン       | 2025年10月29日 |                        椎乃味醂                         |       罪十罰        |
-|   Brrrrrreak It    | 2025年10月29日 |                        平田義久                         |       罪十罰        |
-|        Envy        | 2025年10月29日 |              tokiwa（作詞作曲）<br>朝比奈健人（編曲）              |       罪十罰        |
+|   Brrrrrreak It    | 2025年10月29日 |                        [平田義久](/ja/artists/creators/hiratayoshihisa)                         |       [罪十罰](/ja/artists/girls_revolution_project/tsumitobatsu)        |
+|        Envy        | 2025年10月29日 |              [tokiwa](/ja/artists/creators/tokiwa)（作詞作曲）<br>朝比奈健人（編曲）              |       [罪十罰](/ja/artists/girls_revolution_project/tsumitobatsu)        |
 |         改変         | 2025年10月29日 |         たなか（作詞作曲）<br>Kazuto Okawa:LLLL（編曲）          |     心世紀×罪十罰      |
 |        月へゆく        | 2025年11月12日 |                        tama                         |       佳鏡院        |
 |  Masquerade Kill   | 2025年11月26日 |                          廉                          |       御莉姫        |
 |      化け物でいさせて      | 2025年12月17日 |               櫻井健太郎（作詞作曲）<br>永野大輔（編曲）               |       夕凪機        |
-| クロマティック feat.ヰ世界情緒 | 2025年12月24日 |                        矢野達也                         | 心世紀×罪十罰<br>ヰ世界情緒 |
+| クロマティック feat.[ヰ世界情緒](/ja/artists/vwp/isekaijoucho) | 2025年12月24日 |                        矢野達也                         | [心世紀](/ja/artists/girls_revolution_project/sinseiki)×[罪十罰](/ja/artists/girls_revolution_project/tsumitobatsu)<br>ヰ世界情緒 |
 |     sweet/sour     |  2026年1月7日  |                         水槽                          |       氷夏至        |
 |         大罪         | 2026年1月23日  |             他人事（作詞）<br>他人事、Zexnum（作編曲）              |       罪十罰        |
 |       侵蝕の記録        | 2026年2月18日  |                       Neuron                        |       美古途        |

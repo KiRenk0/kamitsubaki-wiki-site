@@ -17,7 +17,7 @@ image: /images/songs/sekai/言葉no中niharisenbon.jpg
 
 ## 作品简介
 
-星界于 2025-07-05 发行的单曲《言葉の中にはりせんぼん》。
+[星界](/zh/artists/isotopes/sekai)于 2025-07-05 发行的单曲《言葉の中にはりせんぼん》。
 
 ## 试听
 {{media-switcher::言葉の中にはりせんぼん}}

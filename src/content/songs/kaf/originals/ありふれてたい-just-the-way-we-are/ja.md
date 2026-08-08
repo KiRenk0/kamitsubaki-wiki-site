@@ -19,7 +19,7 @@ image: /images/songs/kaf/track-1842997817.jpg
 
 ## 作品概要
 
-「ありふれてたい」は花譜の『深愛』に収録された13曲目です。
+「ありふれてたい」は[花譜](/ja/artists/vwp/kaf)の『[深愛](/ja/albums/kaf/shinai)』に収録された13曲目です。
 
 ## 視聴
 

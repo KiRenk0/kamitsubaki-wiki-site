@@ -17,7 +17,7 @@ image: /images/songs/kafu/osakewo飲ndarakusuriga飲menaino唄-feat.-初音miku.
 
 ## 作品概要
 
-可不が2024-01-08にリリースしたシングル「おさけを飲んだらくすりが飲めないの唄 (feat. 初音ミク)」。
+[可不](/ja/artists/isotopes/kafu)が2024-01-08にリリースしたシングル「おさけを飲んだらくすりが飲めないの唄 (feat. 初音ミク)」。
 
 ## 視聴
 {{media-switcher::おさけを飲んだらくすりが飲めないの唄 (feat. 初音ミク)}}

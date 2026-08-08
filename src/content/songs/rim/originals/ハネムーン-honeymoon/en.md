@@ -19,7 +19,7 @@ image: /images/songs/rim/single-1746439230.jpg
 
 ## Overview
 
-ハネムーン feat. 理芽 appears on ハネムーン feat. 理芽 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+ハネムーン feat. [理芽](/en/artists/vwp/rim) appears on ハネムーン feat. 理芽 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

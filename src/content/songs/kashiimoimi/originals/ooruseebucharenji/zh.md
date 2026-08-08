@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/ooruseebucharenji.jpg
 
 ## 作品简介
 
-香椎モイミ于 2025-06-11 发行的单曲《オールセーブチャレンジ》。
+[香椎モイミ](/zh/artists/creators/kashiimoimi)于 2025-06-11 发行的单曲《オールセーブチャレンジ》。
 
 ## 试听
 {{media-switcher::オールセーブチャレンジ}}

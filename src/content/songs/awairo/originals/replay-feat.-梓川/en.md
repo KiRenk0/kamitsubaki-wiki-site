@@ -17,7 +17,7 @@ image: /images/songs/awairo/replay-feat.-梓川.jpg
 
 ## Overview
 
-“Replay feat. 梓川” is a single by Awairo, released on 2024-07-13.
+“Replay feat. 梓川” is a single by [Awairo](/en/artists/solo/awairo), released on 2024-07-13.
 
 ## Listen
 {{media-switcher::Replay feat. 梓川}}

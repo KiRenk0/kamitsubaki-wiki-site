@@ -17,7 +17,7 @@ image: /images/songs/mimi/息wosurudake-feat.-可不.jpg
 
 ## 作品概要
 
-MIMIが2023-07-22にリリースしたシングル「息をするだけ (feat. 可不)」。
+MIMIが2023-07-22にリリースしたシングル「息をするだけ (feat. [可不](/ja/artists/isotopes/kafu))」。
 
 ## 視聴
 {{media-switcher::息をするだけ (feat. 可不)}}

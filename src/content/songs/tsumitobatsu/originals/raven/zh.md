@@ -16,7 +16,7 @@ image: /images/songs/grp/raven.jpg
 
 ## 作品简介
 
-《RAVEN》是罪十罰于 2025-10-29 正式发行的作品。
+《RAVEN》是[罪十罰](/zh/artists/girls_revolution_project/tsumitobatsu)于 2025-10-29 正式发行的作品。
 
 ## 试听
 

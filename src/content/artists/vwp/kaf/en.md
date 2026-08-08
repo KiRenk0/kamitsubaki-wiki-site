@@ -59,15 +59,15 @@ seo:
 
 ## Overview
 
-KAF is one of the defining virtual singers of KAMITSUBAKI STUDIO and a central member of V.W.P. Since her 2018 debut at the age of 14, she has built a massive following as a 3D avatar artist who does not reveal her real face. She has become closely associated with the studio's identity through a distinctive voice, a strong "observation" motif, and ambitious stage-driven presentations.
+KAF is one of the defining virtual singers of [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) and a central member of [V.W.P](/en/artists/vwp/vwp). Since her 2018 debut at the age of 14, she has built a massive following as a 3D avatar artist who does not reveal her real face. She has become closely associated with the studio's identity through a distinctive voice, a strong "observation" motif, and ambitious stage-driven presentations.
 
-She is important not only as a solo artist but also as a bridge across multiple Kamitsubaki projects. In addition to her own albums and one-man lives, she is tied to V.W.P, to the musical isotope voicebank KAFU, and to the broader Kamitsubaki City multimedia line. As of June 2024, her YouTube channel has surpassed 1 million subscribers.
+She is important not only as a solo artist but also as a bridge across multiple Kamitsubaki projects. In addition to her own albums and one-man lives, she is tied to [V.W.P](/en/artists/vwp/vwp), to the [musical isotope](/en/artists/solo/musical-isotope) voicebank [KAFU](/en/artists/isotopes/kafu), and to the broader Kamitsubaki City multimedia line. As of June 2024, her YouTube channel has surpassed 1 million subscribers.
 
 ## Role and Creative Position
 
 KAF's work often combines intimate emotion, adolescent perspective, and a carefully mediated virtual presence. Her early artistic arc is strongly linked with main composer Iori Kanzaki, whose collaborations with her helped define the tone of her first major releases and live narratives.
 
-Over time, KAF expanded beyond that initial phase into a wider project-based role: a solo singer, a unit member, a voice source for synthetic singing software, and a recurring figure in Kamitsubaki's cross-media worldbuilding. In 2021, she started a collaborative project titled "Suite" with real-world artists and composers. In 2024, she officially announced her new singer-songwriter project under the name "Kaika".
+Over time, KAF expanded beyond that initial phase into a wider project-based role: a solo singer, a unit member, a voice source for synthetic singing software, and a recurring figure in Kamitsubaki's cross-media worldbuilding. In 2021, she started a collaborative project titled "Suite" with real-world artists and composers. In 2024, she officially announced her new singer-songwriter project under the name "[Kaika](/en/artists/solo/kaika)".
 
 ## Activity History
 
@@ -136,7 +136,7 @@ KAF's public identity is built around anonymity, observation, and the distance b
 
 | Item | Detail |
 | --- | --- |
-| Character design | PALOW. |
+| Character design | [PALOW.](/en/artists/creators/palow) |
 | Core imagery | Observation, the witch, flowers, and the Laplace motif |
 | Main affiliations | KAMITSUBAKI STUDIO, V.W.P, KAFU |
 | Early creative partner | Iori Kanzaki |

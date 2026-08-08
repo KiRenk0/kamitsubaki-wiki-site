@@ -62,7 +62,7 @@ tracks:
 
 ## Overview
 
-裏命's album “5: I Wish I Could Figure Out Why I Can Dream”, released on 2025-01-11, featuring 10 tracks.
+[裏命](/en/artists/isotopes/rime)'s album “5: I Wish I Could Figure Out Why I Can Dream”, released on 2025-01-11, featuring 10 tracks.
 
 ## Track List
 

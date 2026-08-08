@@ -17,7 +17,7 @@ image: /images/songs/valis/無窮puratonikku.jpg
 
 ## Overview
 
-“無窮プラトニック” is a single by VALIS, released on 2023-04-08.
+“無窮プラトニック” is a single by [VALIS](/en/artists/solo/valis), released on 2023-04-08.
 
 ## Listen
 {{media-switcher::無窮プラトニック}}

@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/海蛍.jpg
 
 ## 作品简介
 
-香椎モイミ于 2024-10-15 发行的单曲《海蛍》。
+[香椎モイミ](/zh/artists/creators/kashiimoimi)于 2024-10-15 发行的单曲《海蛍》。
 
 ## 试听
 {{media-switcher::海蛍}}

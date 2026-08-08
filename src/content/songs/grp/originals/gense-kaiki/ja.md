@@ -16,7 +16,7 @@ image: /images/songs/grp/gense-kaiki.jpg
 
 ## 作品概要
 
-「現世回帰」は心世紀×罪十罰が2024-11-20にリリースした楽曲です。
+「現世回帰」は[心世紀](/ja/artists/girls_revolution_project/sinseiki)×[罪十罰](/ja/artists/girls_revolution_project/tsumitobatsu)が2024-11-20にリリースした楽曲です。
 
 ## 視聴
 

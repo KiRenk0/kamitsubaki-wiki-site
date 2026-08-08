@@ -17,7 +17,7 @@ image: /images/songs/mimi/suro-ri-naito-feat.-初音miku.jpg
 
 ## Overview
 
-“すろーりーないと (feat. 初音ミク)” is a single by MIMI, released on 2024-06-29.
+“すろーりーないと (feat. 初音ミク)” is a single by [MIMI](/en/artists/creators/mimi), released on 2024-06-29.
 
 ## Listen
 {{media-switcher::すろーりーないと (feat. 初音ミク)}}

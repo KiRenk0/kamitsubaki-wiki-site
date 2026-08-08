@@ -17,7 +17,7 @@ image: /images/songs/rime/微睡mu夏.jpg
 
 ## Overview
 
-“微睡む夏” is a single by 裏命, released on 2024-08-31.
+“微睡む夏” is a single by [裏命](/en/artists/isotopes/rime), released on 2024-08-31.
 
 ## Listen
 {{media-switcher::微睡む夏}}

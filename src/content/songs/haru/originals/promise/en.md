@@ -17,7 +17,7 @@ image: /images/songs/haru/promise.jpg
 
 ## Overview
 
-“promise” is a single by 羽累, released on 1997-11-26.
+“promise” is a single by [羽累](/en/artists/isotopes/haru), released on 1997-11-26.
 
 ## Listen
 {{media-switcher::promise}}

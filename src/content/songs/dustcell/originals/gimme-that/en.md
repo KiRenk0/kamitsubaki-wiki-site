@@ -17,7 +17,7 @@ image: /images/songs/dustcell/gimme-that.jpg
 
 ## Overview
 
-“Gimme That!” is a single by DUSTCELL, released on 2026-07-14.
+“Gimme That!” is a single by [DUSTCELL](/en/artists/solo/dustcell), released on 2026-07-14.
 
 ## Listen
 {{media-switcher::Gimme That!}}

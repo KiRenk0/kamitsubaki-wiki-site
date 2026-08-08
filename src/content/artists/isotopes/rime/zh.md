@@ -55,7 +55,7 @@ seo:
 
 {{ruby::裏命::りめ::rime}}（中文也常写作“里命”）是 KAMITSUBAKI STUDIO 推出的音乐同位体合成歌声库，声源原型为虚拟歌手 **[理芽 / RIM](/zh/artists/vwp/rim)**。
 
-软件于 2022年10月25日发售。继承了理芽透明感、节奏切分与多语言流行的歌唱特质。
+软件于 2022年10月25日发售。继承了[理芽](/zh/artists/vwp/rim)透明感、节奏切分与多语言流行的歌唱特质。
 
 <div class="wiki-fact-grid">
   <div class="wiki-fact-card"><p class="wiki-fact-card__label">VOICE PROVIDER</p><p class="wiki-fact-card__value">理芽 / RIM</p></div>
@@ -84,7 +84,7 @@ seo:
 
 | 类别 | 曲名 | 创作者 / 来源 |
 | --- | --- | --- |
-| Cover | 《食虫植物》 | 花譜原曲 |
+| Cover | 《食虫植物》 | [花譜](/zh/artists/vwp/kaf)原曲 |
 | Cover | 《甘美な無法》 | 理芽原曲 |
 | Cover | 《法螺話》 | 理芽原曲 |
 | 原创 | 《マンダリン》 | R Sound Design |

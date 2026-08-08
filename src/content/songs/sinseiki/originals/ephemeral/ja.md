@@ -16,7 +16,7 @@ image: /images/songs/grp/ephemeral.jpg
 
 ## 作品概要
 
-「Ephemeral」は心世紀が2025-01-22にリリースした楽曲です。
+「Ephemeral」は[心世紀](/ja/artists/girls_revolution_project/sinseiki)が2025-01-22にリリースした楽曲です。
 
 ## 視聴
 

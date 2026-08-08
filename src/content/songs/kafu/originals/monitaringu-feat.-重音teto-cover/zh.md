@@ -17,7 +17,7 @@ image: /images/songs/kafu/monitaringu-feat.-重音teto-cover.jpg
 
 ## 作品简介
 
-可不于 2025-12-17 发行的单曲《モニタリング (feat. 重音テト) [Cover]》。
+[可不](/zh/artists/isotopes/kafu)于 2025-12-17 发行的单曲《モニタリング (feat. 重音テト) [Cover]》。
 
 ## 试听
 {{media-switcher::モニタリング (feat. 重音テト) [Cover]}}

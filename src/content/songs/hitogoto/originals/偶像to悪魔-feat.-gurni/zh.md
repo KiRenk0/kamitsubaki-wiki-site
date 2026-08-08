@@ -16,7 +16,7 @@ image: /images/songs/hitogoto/偶像to悪魔-feat.-gurni.jpg
 
 ## 作品简介
 
-他人事于 2025-06-06 发行的单曲《偶像と悪魔 (feat. Gurni.)》。
+[他人事](/zh/artists/creators/hitogoto)于 2025-06-06 发行的单曲《偶像と悪魔 (feat. Gurni.)》。
 
 ## 试听
 {{media-switcher::偶像と悪魔 (feat. Gurni.)}}

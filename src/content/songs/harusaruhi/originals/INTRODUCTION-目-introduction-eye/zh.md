@@ -20,7 +20,7 @@ contentStatus: stub
 
 ## 作品简介
 
-《INTRODUCTION -目-》收录于《心眼》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《INTRODUCTION -目-》收录于《[心眼](/zh/albums/harusaruhi/shingan)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 

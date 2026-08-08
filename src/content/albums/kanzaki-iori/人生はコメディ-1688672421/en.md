@@ -42,7 +42,7 @@ tracks:
 
 ## Overview
 
-カンザキイオリ's ep “人生はコメディ”, released on 2021-08-11, featuring 5 tracks.
+[カンザキイオリ](/en/artists/creators/kanzaki-iori)'s ep “人生はコメディ”, released on 2021-08-11, featuring 5 tracks.
 
 ## Track List
 

@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 ## Overview
 
-“黄金の木(パソコン音楽クラブ Remix)” is track 7 of KAF’s 寓話γ.
+“黄金の木(パソコン音楽クラブ Remix)” is track 7 of [KAF](/en/artists/vwp/kaf)’s [寓話γ](/en/albums/kaf/guwa-gamma).
 
 ## Listen
 

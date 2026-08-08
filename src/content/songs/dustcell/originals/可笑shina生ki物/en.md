@@ -17,7 +17,7 @@ image: /images/songs/dustcell/可笑shina生ki物.jpg
 
 ## Overview
 
-“可笑しな生き物” is a single by DUSTCELL, released on 2024-04-23.
+“可笑しな生き物” is a single by [DUSTCELL](/en/artists/solo/dustcell), released on 2024-04-23.
 
 ## Listen
 {{media-switcher::可笑しな生き物}}

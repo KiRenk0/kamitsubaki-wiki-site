@@ -48,7 +48,7 @@ seo:
 
 ## 概述
 
-LOLUET 是一名以 YouTube 活动为中心的虚拟歌手，2021 年开始公开投稿，早期以个人名义活动，后于 2023年3月31日宣布加入 KAMITSUBAKI STUDIO。其活动基底与 ALLT STUDIO 有关，角色设计由望月けい负责。
+LOLUET 是一名以 YouTube 活动为中心的虚拟歌手，2021 年开始公开投稿，早期以个人名义活动，后于 2023年3月31日宣布加入 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio)。其活动基底与 ALLT STUDIO 有关，角色设计由望月けい负责。
 
 LOLUET 的公开形象和活动方式都带有不稳定、自由和难以预测的特征。她曾用“想变得更擅长歌唱”作为自我表达，主要通过翻唱、短篇影像和少量原创/合作作品积累听众。
 
@@ -99,7 +99,7 @@ LOLUET 的公开形象和活动方式都带有不稳定、自由和难以预测�
 - **2月2日**：发布《NightmaRe》翻唱。
 - **2月14日**：发布《レコード・レド》翻唱。
 - **3月9日**：发布《ラブ＆デストロイ》翻唱。
-- **5月29日**：发布原创歌曲《ハネムーン feat. 理芽 / Honeymoon feat. RIM》。
+- **5月29日**：发布原创歌曲《ハネムーン feat. [理芽](/zh/artists/vwp/rim) / Honeymoon feat. RIM》。
 
 ## 作品目录
 

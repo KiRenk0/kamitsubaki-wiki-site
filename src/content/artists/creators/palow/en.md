@@ -58,7 +58,7 @@ seo:
 
 PALOW. is an illustrator and character designer from Fukuoka Prefecture, active under the name PALOW. since 2011. He gained recognition in 2013 with the "Mushi Meka Shoujo" (Insect Mecha Girl) series, which was later used in a 2016 HAL vocational school television commercial.
 
-Within KAMITSUBAKI STUDIO, PALOW.'s most significant contribution is serving as the character designer for KAF and Rim — two of the studio's foundational virtual singers. Their visual identities, from initial concepts to subsequent evolutions, are his work, playing a key role in establishing the early Kamitsubaki aesthetic.
+Within [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio), PALOW.'s most significant contribution is serving as the character designer for [KAF](/en/artists/vwp/kaf) and [Rim](/en/artists/vwp/rim) — two of the studio's foundational virtual singers. Their visual identities, from initial concepts to subsequent evolutions, are his work, playing a key role in establishing the early Kamitsubaki aesthetic.
 
 ## Role and Creative Position
 

@@ -17,7 +17,7 @@ image: /images/songs/haru/小sana冒険.jpg
 
 ## Overview
 
-“小さな冒険” is a single by 羽累, released on 2016-01-26.
+“小さな冒険” is a single by [羽累](/en/artists/isotopes/haru), released on 2016-01-26.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/%E5%B0%8F%E3%81%95%E3%81%AA%E5%86%92%E9%99%BA/1823598831?i=1823598834&uo=4 "小さな冒険")

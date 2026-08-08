@@ -19,7 +19,7 @@ image: /images/albums/kaf/kansoku.jpg
 
 ## Overview
 
-“不可解” is track 13 of KAF’s 観測.
+“不可解” is track 13 of [KAF](/en/artists/vwp/kaf)’s [観測](/en/albums/kaf/kansoku).
 
 ## Listen
 

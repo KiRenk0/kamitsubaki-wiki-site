@@ -16,7 +16,7 @@ image: /images/songs/grp/anger.jpg
 
 ## 作品简介
 
-《ANGER》是御莉姫于 2025-03-12 正式发行的作品。
+《ANGER》是[御莉姫](/zh/artists/girls_revolution_project/orihime)于 2025-03-12 正式发行的作品。
 
 ## 试听
 

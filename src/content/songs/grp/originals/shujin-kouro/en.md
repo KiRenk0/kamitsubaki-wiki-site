@@ -16,7 +16,7 @@ image: /images/songs/grp/shujin-kouro.jpg
 
 ## Overview
 
-“主人行路 (feat. 矢野達也)” is a 少女革命計画 release dated 2025-08-27.
+“主人行路 (feat. 矢野達也)” is a [少女革命計画](/en/projects/labels/girls-revolution-project) release dated 2025-08-27.
 
 ## Listen
 

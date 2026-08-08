@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 ## 作品概要
 
-「黄金の木(パソコン音楽クラブ Remix)」は花譜の『寓話γ』に収録された7曲目です。
+「黄金の木(パソコン音楽クラブ Remix)」は[花譜](/ja/artists/vwp/kaf)の『[寓話γ](/ja/albums/kaf/guwa-gamma)』に収録された7曲目です。
 
 ## 視聴
 

@@ -17,7 +17,7 @@ image: /images/songs/mimi/花bira哀歌-feat.-重音teto.jpg
 
 ## Overview
 
-“花びら哀歌 (feat. 重音テト)” is a single by MIMI, released on 2026-02-21.
+“花びら哀歌 (feat. 重音テト)” is a single by [MIMI](/en/artists/creators/mimi), released on 2026-02-21.
 
 ## Listen
 {{media-switcher::花びら哀歌 (feat. 重音テト)}}

@@ -16,7 +16,7 @@ image: /images/songs/kaf/track-1830941076.jpg
 
 ## Overview
 
-“ひとえに壊れて” is a KAF release dated August 20, 2025.
+“ひとえに壊れて” is a [KAF](/en/artists/vwp/kaf) release dated August 20, 2025.
 
 ## Listen
 

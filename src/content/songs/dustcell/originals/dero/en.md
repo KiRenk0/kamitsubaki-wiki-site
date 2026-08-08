@@ -17,7 +17,7 @@ image: /images/songs/dustcell/dero.jpg
 
 ## Overview
 
-“DERO” is a single by DUSTCELL, released on 2021-10-19.
+“DERO” is a single by [DUSTCELL](/en/artists/solo/dustcell), released on 2021-10-19.
 
 ## Listen
 {{media-switcher::DERO}}

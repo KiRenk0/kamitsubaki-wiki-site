@@ -17,7 +17,7 @@ image: /images/songs/hiratayoshihisa/夏至下ru.jpg
 
 ## 作品概要
 
-平田義久が2023-05-09にリリースしたシングル「夏至下る」。
+[平田義久](/ja/artists/creators/hiratayoshihisa)が2023-05-09にリリースしたシングル「夏至下る」。
 
 ## 視聴
 {{media-switcher::夏至下る}}

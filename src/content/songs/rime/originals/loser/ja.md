@@ -17,7 +17,7 @@ image: /images/songs/rime/loser.jpg
 
 ## 作品概要
 
-裏命が2025-11-21にリリースしたシングル「LOSER」。
+[裏命](/ja/artists/isotopes/rime)が2025-11-21にリリースしたシングル「LOSER」。
 
 ## 視聴
 {{media-switcher::LOSER}}

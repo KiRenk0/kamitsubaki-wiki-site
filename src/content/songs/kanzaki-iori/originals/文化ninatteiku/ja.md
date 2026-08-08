@@ -17,7 +17,7 @@ image: /images/songs/kanzaki-iori/文化ninatteiku.jpg
 
 ## 作品概要
 
-カンザキイオリが2023-08-09にリリースしたシングル「文化になっていく」。
+[カンザキイオリ](/ja/artists/creators/kanzaki-iori)が2023-08-09にリリースしたシングル「文化になっていく」。
 
 ## 視聴
 {{media-switcher::文化になっていく}}

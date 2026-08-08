@@ -16,7 +16,7 @@ image: /images/songs/grp/about.jpg
 
 ## 作品简介
 
-《アバウト》是夕凪機于 2024-10-30 正式发行的作品。
+《アバウト》是[夕凪機](/zh/artists/girls_revolution_project/yunagi)于 2024-10-30 正式发行的作品。
 
 ## 试听
 

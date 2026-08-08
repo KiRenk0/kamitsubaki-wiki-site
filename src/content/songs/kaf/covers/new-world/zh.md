@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 ## 作品简介
 
-《new world (feat. ヰ世界情緒) (I SCREAM LIVE4 ver.)》是花譜收录于《I SCREAM LIVE4 - Cover Live Album -》的第 5 轨。
+《new world (feat. [ヰ世界情緒](/zh/artists/vwp/isekaijoucho)) (I SCREAM LIVE4 ver.)》是[花譜](/zh/artists/vwp/kaf)收录于《[I SCREAM LIVE4 - Cover Live Album -](/zh/albums/kaf/i-scream-live-4)》的第 5 轨。
 
 ## 试听
 

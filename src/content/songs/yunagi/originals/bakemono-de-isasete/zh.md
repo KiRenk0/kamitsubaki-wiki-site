@@ -16,7 +16,7 @@ image: /images/songs/grp/bakemono-de-isasete.jpg
 
 ## 作品简介
 
-《化け物でいさせて》是夕凪機于 2025-12-17 正式发行的作品。
+《化け物でいさせて》是[夕凪機](/zh/artists/girls_revolution_project/yunagi)于 2025-12-17 正式发行的作品。
 
 ## 试听
 

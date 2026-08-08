@@ -17,7 +17,7 @@ image: /images/songs/kafu/harouin-masukareido.jpg
 
 ## Overview
 
-“ハロウィン・マスカレイド” is a single by 可不, released on 2022-11-09.
+“ハロウィン・マスカレイド” is a single by [可不](/en/artists/isotopes/kafu), released on 2022-11-09.
 
 ## Listen
 {{media-switcher::ハロウィン・マスカレイド}}

@@ -17,7 +17,7 @@ image: /images/songs/rime/exam-feat.-rime.jpg
 
 ## 作品简介
 
-裏命于 2015-10-11 发行的单曲《EXAM (feat. Rime)》。
+[裏命](/zh/artists/isotopes/rime)于 2015-10-11 发行的单曲《EXAM (feat. Rime)》。
 
 ## 试听
 @[apple-music](https://music.apple.com/jp/album/exam-feat-rime/1746439427?i=1746439428&uo=4 "EXAM (feat. Rime)")

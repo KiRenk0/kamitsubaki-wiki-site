@@ -16,7 +16,7 @@ image: /images/songs/grp/awase-kagami.jpg
 
 ## Overview
 
-“アワセカガミ (feat. 木下龍平)” is a 美古途 release dated 2025-01-08.
+“アワセカガミ (feat. 木下龍平)” is a [美古途](/en/artists/girls_revolution_project/mikoto) release dated 2025-01-08.
 
 ## Listen
 

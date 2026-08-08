@@ -17,7 +17,7 @@ image: /images/songs/hitogoto/箱庭no果実-始-feat.-nene.jpg
 
 ## Overview
 
-“箱庭の果実【始】 (feat. ねね)” is a single by 他人事, released on 2024-02-22.
+“箱庭の果実【始】 (feat. ねね)” is a single by [他人事](/en/artists/creators/hitogoto), released on 2024-02-22.
 
 ## Listen
 {{media-switcher::箱庭の果実【始】 (feat. ねね)}}

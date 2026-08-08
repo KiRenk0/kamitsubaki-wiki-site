@@ -17,7 +17,7 @@ image: /images/songs/kafu/夜no自販機.jpg
 
 ## Overview
 
-“夜の自販機” is a single by 可不, released on 2022-05-11.
+“夜の自販機” is a single by [可不](/en/artists/isotopes/kafu), released on 2022-05-11.
 
 ## Listen
 {{media-switcher::夜の自販機}}

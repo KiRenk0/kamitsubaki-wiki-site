@@ -16,7 +16,7 @@ image: /images/songs/grp/awase-kagami.jpg
 
 ## 作品概要
 
-「アワセカガミ」は美古途が2025-01-08にリリースした楽曲です。
+「アワセカガミ」は[美古途](/ja/artists/girls_revolution_project/mikoto)が2025-01-08にリリースした楽曲です。
 
 ## 視聴
 

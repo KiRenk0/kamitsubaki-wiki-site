@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/thaw.jpg
 
 ## Overview
 
-“thaw” is a single by tokiwa, released on 2022-12-21.
+“thaw” is a single by [tokiwa](/en/artists/creators/tokiwa), released on 2022-12-21.
 
 ## Listen
 {{media-switcher::thaw}}

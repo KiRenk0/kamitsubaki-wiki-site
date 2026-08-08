@@ -46,7 +46,7 @@ tracks:
 
 ## 简介
 
-カンザキイオリ于 2023-07-21 发行的EP《Boys and Girls》,共收录 6 首歌曲。
+[カンザキイオリ](/zh/artists/creators/kanzaki-iori)于 2023-07-21 发行的EP《Boys and Girls》,共收录 6 首歌曲。
 
 ## 收录曲
 

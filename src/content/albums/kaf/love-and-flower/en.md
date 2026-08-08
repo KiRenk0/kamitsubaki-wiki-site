@@ -49,7 +49,7 @@ tracks:
 
 ## Overview
 
-A collaboration EP by KAF and Kizuna AI, featuring “Love-shii,” “Karisome,” and their instrumentals; the KAF physical edition also included a radio segment.
+A collaboration EP by [KAF](/en/artists/vwp/kaf) and Kizuna AI, featuring “Love-shii,” “Karisome,” and their instrumentals; the KAF physical edition also included a radio segment.
 
 ## Release and editions
 

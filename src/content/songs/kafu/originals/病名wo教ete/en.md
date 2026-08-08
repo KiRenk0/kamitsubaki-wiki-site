@@ -17,7 +17,7 @@ image: /images/songs/kafu/病名wo教ete.jpg
 
 ## Overview
 
-“病名を教えて” is a single by 可不, released on 2020-02-29.
+“病名を教えて” is a single by [可不](/en/artists/isotopes/kafu), released on 2020-02-29.
 
 ## Listen
 {{media-switcher::病名を教えて}}

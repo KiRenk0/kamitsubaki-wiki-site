@@ -17,7 +17,7 @@ image: /images/songs/guiano/風.jpg
 
 ## Overview
 
-“風” is a single by Guiano, released on 2022-10-20.
+“風” is a single by [Guiano](/en/artists/creators/guiano), released on 2022-10-20.
 
 ## Listen
 {{media-switcher::風}}

@@ -66,7 +66,7 @@ tracks:
 
 ## Overview
 
-羽累's album “対峙のオーバーラップ”, released on 2024-10-16, featuring 11 tracks.
+[羽累](/en/artists/isotopes/haru)'s album “対峙のオーバーラップ”, released on 2024-10-16, featuring 11 tracks.
 
 ## Track List
 

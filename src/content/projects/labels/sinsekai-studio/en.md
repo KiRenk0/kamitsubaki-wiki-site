@@ -20,19 +20,19 @@ At *SINSEKAI STUDIO*, three companies are collaborating closely under the keywor
 *SINSEKAI STUDIO* will break free from the constraints of a single organizational framework and, as a “team” united by a shared theme, create something entirely new and uniquely distinctive. 
 ## Development History
  
-- June 20, 2021: Kamitsubaki Studio announced the spin-off project “SINSEKAI CITY PROJECT.” The key themes of the SINSEKAI universe are “chaos” and “exploration.” The story is set in “Fukushikai City,” a place that lies close yet tantalizingly out of reach from “Kamitsubaki City.” At the same time, the project unveiled content related to ARU.
+- June 20, 2021: [Kamitsubaki Studio](/en/projects/labels/kamitsubaki-studio) announced the spin-off project “SINSEKAI CITY PROJECT.” The key themes of the SINSEKAI universe are “chaos” and “exploration.” The story is set in “Fukushikai City,” a place that lies close yet tantalizingly out of reach from “Kamitsubaki City.” At the same time, the project unveiled content related to [ARU](/en/artists/solo/aru).
 - August 21, 2021: SINSEKAI STUDIO was officially announced. On the same day, ASU made her first public appearance, and Fukushikai Studio officially began operations.
-- November 23, 2021: VALIS’s “Act One” phase concluded, and it was announced that VALIS would be transferring to Fukushikai Studio.
-- July 2, 2022: ARU and ASU, under the duo name Albemuth, released their first original song, 「新世界へ」(To a New World).
+- November 23, 2021: [VALIS](/en/artists/solo/valis)’s “Act One” phase concluded, and it was announced that VALIS would be transferring to Fukushikai Studio.
+- July 2, 2022: [ARU](/en/artists/solo/aru) and [ASU](/en/artists/solo/asu), under the duo name [Albemuth](/en/artists/solo/albemuth), released their first original song, 「[新世界へ](/en/songs/asu/originals/新世界he)」(To a New World).
 - November 1, 2022: 梓川(Azukigawa) officially joined SINSEKAI STUDIO and released her debut single, 「告赤」(kokuseki) on the same day.
-- November 18, 2022: The duo “Amayadori,” composed of Mizuno Atsu and Sooda, announced their joining of SINSEKAI STUDIO.
+- November 18, 2022: The duo “Amayadori,” composed of Mizuno Atsu and [Sooda](/en/artists/creators/sooda), announced their joining of SINSEKAI STUDIO.
 - November 19, 2022: The musical duo Albemuth was officially announced, consisting of ARU and ASU, described as “music born from Sinsekai Studio, created by two distinctly different personalities.”
 - March 31, 2023: SINSEKAI STUDIO was officially reorganized and renamed SINSEKAI RECORD, becoming a sub-label under KAMITSUBAKI LABEL.
 - April 6, 2023: Shido officially debuted.
 - February 5, 2024: An official announcement was made stating that ARU would conclude her activities after her solo concert on April 9, marking the disbandment of Albemuth.
 - April 9, 2024: Albemuth held their 1st ONE-MAN LIVE “Crime and Paradise,” where ARU officially graduated and the group Albemuth disbanded. Their final original song,ss「舟」(Hana), was released on the same day.
 - August 8, 2024: KAMITSUBAKI FES '24 “THE DAY THE EARTH STOOD STILL” was held at the Yokohama International Peace Conference Hall. Artists from SINSEKAI RECORD performed alongside artists from Kamitsubaki Headquarters.
-- April 30, 2025: The new virtual singer BEMA officially debuted, uploading her first video, 「琶舞 Op.1 - はじめまして。」(Bema Op.1 - Nice to meet you).
+- April 30, 2025: The new virtual singer [BEMA](/en/artists/solo/bema) officially debuted, uploading her first video, 「琶舞 Op.1 - はじめまして。」(Bema Op.1 - Nice to meet you).
 - May 5, 2025: An official announcement was made confirming that ASU and BEMA would form a new duo centered around the theme of “love”.
 - May 7, 2025: The music video for ASU and BEMA’s original song, “Symbiotic Dominion,” was released.
  
@@ -71,7 +71,7 @@ At *SINSEKAI STUDIO*, three companies are collaborating closely under the keywor
     <br>A virtual idol group under SINSEKAI, consisting of Chino, Myu, Neffy, Nina, Rara, and Vitte. The group officially joined the SINSEKAI STUDIO system in November 2021 and continues to be active in music and stage performances within the SINSEKAI ecosystem.
     
 - [**Awairo**](https://kamitsubaki.wiki/en/artists/solo/awairo/)    
-    <br>A new group announced to debut in October 2023, featuring members such as Yunosuke, Singer, and WaMi. It is a key musical act introduced during SINSEKAI's expansion phase.
+    <br>A new group announced to debut in October 2023, featuring members such as [Yunosuke](/en/artists/creators/yunosuke), Singer, and WaMi. It is a key musical act introduced during SINSEKAI's expansion phase.
     
 
 **CREATOR FARM**

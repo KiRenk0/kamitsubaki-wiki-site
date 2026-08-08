@@ -17,7 +17,7 @@ image: /images/songs/kanzaki-iori/大人.jpg
 
 ## 作品概要
 
-カンザキイオリが2021-08-10にリリースしたシングル「大人」。
+[カンザキイオリ](/ja/artists/creators/kanzaki-iori)が2021-08-10にリリースしたシングル「大人」。
 
 ## 視聴
 {{media-switcher::大人}}

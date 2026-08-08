@@ -17,7 +17,7 @@ image: /images/songs/rime/timeover.jpg
 
 ## 作品概要
 
-裏命が2026-04-15にリリースしたシングル「TIMEOVER」。
+[裏命](/ja/artists/isotopes/rime)が2026-04-15にリリースしたシングル「TIMEOVER」。
 
 ## 視聴
 {{media-switcher::TIMEOVER}}

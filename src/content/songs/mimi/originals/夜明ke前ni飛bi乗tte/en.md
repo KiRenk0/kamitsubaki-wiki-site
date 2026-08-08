@@ -17,7 +17,7 @@ image: /images/songs/mimi/夜明ke前ni飛bi乗tte.jpg
 
 ## Overview
 
-“夜明け前に飛び乗って” is a single by MIMI, released on 2020-07-03.
+“夜明け前に飛び乗って” is a single by [MIMI](/en/artists/creators/mimi), released on 2020-07-03.
 
 ## Listen
 {{media-switcher::夜明け前に飛び乗って}}

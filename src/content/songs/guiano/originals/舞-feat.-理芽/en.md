@@ -17,7 +17,7 @@ image: /images/songs/guiano/舞-feat.-理芽.jpg
 
 ## Overview
 
-“舞 feat. 理芽” is a single by Guiano, released on 2022-03-08.
+“舞 feat. [理芽](/en/artists/vwp/rim)” is a single by [Guiano](/en/artists/creators/guiano), released on 2022-03-08.
 
 ## Listen
 {{media-switcher::舞 feat. 理芽}}

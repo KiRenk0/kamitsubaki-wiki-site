@@ -16,7 +16,7 @@ image: /images/songs/grp/sweet-sour.jpg
 
 ## 作品概要
 
-「sweet/sour」は氷夏至が2026-01-07にリリースした楽曲です。
+「sweet/sour」は[氷夏至](/ja/artists/girls_revolution_project/hinageshi)が2026-01-07にリリースした楽曲です。
 
 ## 視聴
 

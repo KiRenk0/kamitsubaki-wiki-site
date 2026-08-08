@@ -42,7 +42,7 @@ tracks:
 
 ## 概要
 
-星界が2024-02-01にリリースしたEP『Yumemigokochi』。全5曲を収録。
+[星界](/ja/artists/isotopes/sekai)が2024-02-01にリリースしたEP『Yumemigokochi』。全5曲を収録。
 
 ## 収録曲
 

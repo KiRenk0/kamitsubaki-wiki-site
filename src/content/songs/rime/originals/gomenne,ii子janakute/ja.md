@@ -17,7 +17,7 @@ image: /images/songs/rime/gomenne,ii子janakute.jpg
 
 ## 作品概要
 
-裏命が2025-11-20にリリースしたシングル「ごめんね、いい子じゃなくて」。
+[裏命](/ja/artists/isotopes/rime)が2025-11-20にリリースしたシングル「ごめんね、いい子じゃなくて」。
 
 ## 視聴
 {{media-switcher::ごめんね、いい子じゃなくて}}

@@ -17,7 +17,7 @@ image: /images/songs/musical-isotope/泡沫幸福論.jpg
 
 ## 作品概要
 
-音楽的同位体が2024-10-30にリリースしたシングル「泡沫幸福論」。
+[音楽的同位体](/ja/artists/solo/musical-isotope)が2024-10-30にリリースしたシングル「泡沫幸福論」。
 
 ## 視聴
 {{media-switcher::泡沫幸福論}}

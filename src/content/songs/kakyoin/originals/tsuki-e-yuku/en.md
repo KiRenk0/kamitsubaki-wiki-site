@@ -16,7 +16,7 @@ image: /images/songs/grp/tsuki-e-yuku.jpg
 
 ## Overview
 
-“月へゆく (feat. タマ)” is a 佳鏡院 release dated 2025-11-12.
+“月へゆく (feat. タマ)” is a [佳鏡院](/en/artists/girls_revolution_project/kakyoin) release dated 2025-11-12.
 
 ## Listen
 

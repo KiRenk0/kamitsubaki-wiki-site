@@ -17,7 +17,7 @@ image: /images/songs/rime/哀shiki玩具.jpg
 
 ## 作品概要
 
-裏命が2024-10-29にリリースしたシングル「哀しき玩具」。
+[裏命](/ja/artists/isotopes/rime)が2024-10-29にリリースしたシングル「哀しき玩具」。
 
 ## 視聴
 {{media-switcher::哀しき玩具}}

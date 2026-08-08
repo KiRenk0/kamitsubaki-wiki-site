@@ -17,7 +17,7 @@ image: /images/songs/hitogoto/神wo偽tta悪魔he-始.jpg
 
 ## 作品简介
 
-他人事于 2022-04-22 发行的单曲《神を偽った悪魔へ【始】》。
+[他人事](/zh/artists/creators/hitogoto)于 2022-04-22 发行的单曲《神を偽った悪魔へ【始】》。
 
 ## 试听
 {{media-switcher::神を偽った悪魔へ【始】}}

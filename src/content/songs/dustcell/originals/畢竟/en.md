@@ -17,7 +17,7 @@ image: /images/songs/dustcell/畢竟.jpg
 
 ## Overview
 
-“畢竟” is a single by DUSTCELL, released on 2025-01-01.
+“畢竟” is a single by [DUSTCELL](/en/artists/solo/dustcell), released on 2025-01-01.
 
 ## Listen
 {{media-switcher::畢竟}}

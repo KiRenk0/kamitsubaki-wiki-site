@@ -17,7 +17,7 @@ image: /images/songs/sekai/saikederikku感情戦.jpg
 
 ## 作品简介
 
-星界于 2024-11-19 发行的单曲《サイケデリック感情戦》。
+[星界](/zh/artists/isotopes/sekai)于 2024-11-19 发行的单曲《サイケデリック感情戦》。
 
 ## 试听
 {{media-switcher::サイケデリック感情戦}}

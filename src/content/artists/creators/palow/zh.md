@@ -59,7 +59,7 @@ seo:
 
 PALOW. 是来自福冈县的插画师与角色设计师，2011 年开始以 PALOW. 名义活动。2013 年凭借「虫メカ少女」（虫机少女）系列获得关注，该系列后来被用于 2016 年 HAL 专门学校的电视广告中。
 
-在 KAMITSUBAKI STUDIO 体系中，PALOW. 最重要的贡献是担任花譜（KAF）和理芽（Rim）的角色设计师。这两位虚拟歌手的视觉形象——从初始设定到后续演变——都出自 PALOW. 之手，对神椿早期美学风格的建立起到了关键作用。
+在 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 体系中，PALOW. 最重要的贡献是担任[花譜](/zh/artists/vwp/kaf)（KAF）和[理芽](/zh/artists/vwp/rim)（Rim）的角色设计师。这两位虚拟歌手的视觉形象——从初始设定到后续演变——都出自 PALOW. 之手，对神椿早期美学风格的建立起到了关键作用。
 
 ## 角色与创作定位
 

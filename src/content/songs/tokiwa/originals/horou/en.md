@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/horou.jpg
 
 ## Overview
 
-“ホロウ” is a single by tokiwa, released on 2026-03-05.
+“ホロウ” is a single by [tokiwa](/en/artists/creators/tokiwa), released on 2026-03-05.
 
 ## Listen
 {{media-switcher::ホロウ}}

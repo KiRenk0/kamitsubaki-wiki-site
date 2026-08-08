@@ -17,7 +17,7 @@ image: /images/songs/mimi/rapisurazuri.jpg
 
 ## Overview
 
-“ラピスラズリ” is a single by MIMI, released on 2020-08-24.
+“ラピスラズリ” is a single by [MIMI](/en/artists/creators/mimi), released on 2020-08-24.
 
 ## Listen
 {{media-switcher::ラピスラズリ}}

@@ -17,7 +17,7 @@ image: /images/songs/mimi/始点前夕暮re-feat.-初音miku.jpg
 
 ## Overview
 
-“始点前夕暮れ (feat. 初音ミク)” is a single by MIMI, released on 2023-12-02.
+“始点前夕暮れ (feat. 初音ミク)” is a single by [MIMI](/en/artists/creators/mimi), released on 2023-12-02.
 
 ## Listen
 {{media-switcher::始点前夕暮れ (feat. 初音ミク)}}

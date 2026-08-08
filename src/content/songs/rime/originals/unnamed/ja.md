@@ -17,7 +17,7 @@ image: /images/songs/rime/unnamed.jpg
 
 ## 作品概要
 
-裏命が2025-10-13にリリースしたシングル「unnamed」。
+[裏命](/ja/artists/isotopes/rime)が2025-10-13にリリースしたシングル「unnamed」。
 
 ## 視聴
 {{media-switcher::unnamed}}

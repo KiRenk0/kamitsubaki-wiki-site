@@ -20,7 +20,7 @@ image: /images/albums/rim/singularity-live.jpg
 
 ## Overview
 
-NEUROMANCE (feat. 裏命) [Live at Virtual, 2022] appears on Singularity Live or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+NEUROMANCE (feat. [裏命](/en/artists/isotopes/rime)) [Live at Virtual, 2022] appears on Singularity Live or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

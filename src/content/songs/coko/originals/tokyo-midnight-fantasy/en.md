@@ -17,7 +17,7 @@ image: /images/songs/coko/tokyo-midnight-fantasy.jpg
 
 ## Overview
 
-“TOKYO MIDNIGHT FANTASY” is a single by 狐子, released on 2026-05-26.
+“TOKYO MIDNIGHT FANTASY” is a single by [狐子](/en/artists/isotopes/coko), released on 2026-05-26.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/tokyo-midnight-fantasy/1735647741?i=1735647742&uo=4 "TOKYO MIDNIGHT FANTASY")

@@ -17,7 +17,7 @@ image: /images/songs/sekai/hanabira.jpg
 
 ## 作品概要
 
-星界が2024-04-11にリリースしたシングル「ハナビラ」。
+[星界](/ja/artists/isotopes/sekai)が2024-04-11にリリースしたシングル「ハナビラ」。
 
 ## 視聴
 {{media-switcher::ハナビラ}}

@@ -17,7 +17,7 @@ image: /images/songs/musical-isotope/泡沫幸福論.jpg
 
 ## Overview
 
-“泡沫幸福論” is a single by 音楽的同位体, released on 2024-10-30.
+“泡沫幸福論” is a single by [音楽的同位体](/en/artists/solo/musical-isotope), released on 2024-10-30.
 
 ## Listen
 {{media-switcher::泡沫幸福論}}

@@ -17,7 +17,7 @@ image: /images/songs/sekai/言葉no中niharisenbon.jpg
 
 ## Overview
 
-“言葉の中にはりせんぼん” is a single by 星界, released on 2025-07-05.
+“言葉の中にはりせんぼん” is a single by [星界](/en/artists/isotopes/sekai), released on 2025-07-05.
 
 ## Listen
 {{media-switcher::言葉の中にはりせんぼん}}

@@ -16,7 +16,7 @@ image: /images/songs/grp/glass-no-puzzle.jpg
 
 ## 作品简介
 
-《ガラスのパズル》是硝子宮于 2025-02-05 正式发行的作品。
+《ガラスのパズル》是[硝子宮](/zh/artists/girls_revolution_project/garasumiya)于 2025-02-05 正式发行的作品。
 
 ## 试听
 

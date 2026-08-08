@@ -17,7 +17,7 @@ image: /images/songs/mimi/glacies.jpg
 
 ## Overview
 
-“GLACIES” is a single by MIMI, released on 2023-03-23.
+“GLACIES” is a single by [MIMI](/en/artists/creators/mimi), released on 2023-03-23.
 
 ## Listen
 {{media-switcher::GLACIES}}

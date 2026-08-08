@@ -17,7 +17,7 @@ image: /images/songs/rime/kedamono.jpg
 
 ## 作品概要
 
-裏命が2023-06-02にリリースしたシングル「けだもの」。
+[裏命](/ja/artists/isotopes/rime)が2023-06-02にリリースしたシングル「けだもの」。
 
 ## 視聴
 {{media-switcher::けだもの}}

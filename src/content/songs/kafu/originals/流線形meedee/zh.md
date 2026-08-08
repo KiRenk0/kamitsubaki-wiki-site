@@ -17,7 +17,7 @@ image: /images/songs/kafu/流線形meedee.jpg
 
 ## 作品简介
 
-可不于 2022-07-12 发行的单曲《流線形メーデー》。
+[可不](/zh/artists/isotopes/kafu)于 2022-07-12 发行的单曲《流線形メーデー》。
 
 ## 试听
 {{media-switcher::流線形メーデー}}

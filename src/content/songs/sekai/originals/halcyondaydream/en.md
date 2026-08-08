@@ -17,7 +17,7 @@ image: /images/songs/sekai/halcyondaydream.jpg
 
 ## Overview
 
-“Halcyondaydream” is a single by 星界, released on 2026-06-30.
+“Halcyondaydream” is a single by [星界](/en/artists/isotopes/sekai), released on 2026-06-30.
 
 ## Listen
 {{media-switcher::Halcyondaydream}}

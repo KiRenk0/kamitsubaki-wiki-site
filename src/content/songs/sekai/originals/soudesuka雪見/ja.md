@@ -17,7 +17,7 @@ image: /images/songs/sekai/soudesuka雪見.jpg
 
 ## 作品概要
 
-星界が2025-07-05にリリースしたシングル「soudesuka雪見」。
+[星界](/ja/artists/isotopes/sekai)が2025-07-05にリリースしたシングル「soudesuka雪見」。
 
 ## 視聴
 {{media-switcher::soudesuka雪見}}

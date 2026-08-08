@@ -17,7 +17,7 @@ image: /images/songs/valis/watashimanyuaru-nina.jpg
 
 ## Overview
 
-“わたしマニュアル(NINA)” is a single by VALIS, released on 2023-06-24.
+“わたしマニュアル(NINA)” is a single by [VALIS](/en/artists/solo/valis), released on 2023-06-24.
 
 ## Listen
 {{media-switcher::わたしマニュアル(NINA)}}

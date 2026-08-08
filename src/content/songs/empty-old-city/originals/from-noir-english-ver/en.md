@@ -16,7 +16,7 @@ image: /images/songs/empty-old-city/from-noir-english-ver.jpg
 
 ## Overview
 
-“From Noir (English Ver.)” is a single by Empty old City, released on 2026-03-12.
+“From Noir (English Ver.)” is a single by [Empty old City](/en/artists/solo/empty-old-city), released on 2026-03-12.
 
 ## Listen
 {{media-switcher::From Noir (English Ver.)}}

@@ -16,7 +16,7 @@ image: /images/songs/grp/fake-night-cinderella.jpg
 
 ## 作品概要
 
-「フェイクナイト・シンデレラ」は心世紀が2026-04-01にリリースした楽曲です。
+「フェイクナイト・シンデレラ」は[心世紀](/ja/artists/girls_revolution_project/sinseiki)が2026-04-01にリリースした楽曲です。
 
 ## 視聴
 

@@ -17,7 +17,7 @@ image: /images/songs/rime/真夜中haitsumo一人.jpg
 
 ## Overview
 
-“真夜中はいつも一人” is a single by 裏命, released on 2024-06-25.
+“真夜中はいつも一人” is a single by [裏命](/en/artists/isotopes/rime), released on 2024-06-25.
 
 ## Listen
 {{media-switcher::真夜中はいつも一人}}

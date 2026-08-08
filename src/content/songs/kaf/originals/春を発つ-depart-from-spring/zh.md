@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso.jpg
 
 ## 作品简介
 
-《春を発つ》是花譜收录于《狂想》的第 4 轨。
+《春を発つ》是[花譜](/zh/artists/vwp/kaf)收录于《[狂想](/zh/albums/kaf/kyoso)》的第 4 轨。
 
 ## 试听
 

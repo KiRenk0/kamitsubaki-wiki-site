@@ -17,7 +17,7 @@ image: /images/songs/dustcell/antihero.jpg
 
 ## Overview
 
-“ANTIHERO” is a single by DUSTCELL, released on 2023-01-26.
+“ANTIHERO” is a single by [DUSTCELL](/en/artists/solo/dustcell), released on 2023-01-26.
 
 ## Listen
 {{media-switcher::ANTIHERO}}

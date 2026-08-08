@@ -16,7 +16,7 @@ image: /images/songs/rime/秘meta想i-2025ver.jpg
 
 ## 作品简介
 
-裏命于 2025-07-23 发行的单曲《秘めた想い (2025ver.)》。
+[裏命](/zh/artists/isotopes/rime)于 2025-07-23 发行的单曲《秘めた想い (2025ver.)》。
 
 ## 试听
 {{media-switcher::秘めた想い (2025ver.)}}

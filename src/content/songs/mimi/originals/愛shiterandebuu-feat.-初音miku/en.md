@@ -17,7 +17,7 @@ image: /images/songs/mimi/愛shiterandebuu-feat.-初音miku.jpg
 
 ## Overview
 
-“愛してランデブー (feat. 初音ミク)” is a single by MIMI, released on 2025-07-16.
+“愛してランデブー (feat. 初音ミク)” is a single by [MIMI](/en/artists/creators/mimi), released on 2025-07-16.
 
 ## Listen
 {{media-switcher::愛してランデブー (feat. 初音ミク)}}

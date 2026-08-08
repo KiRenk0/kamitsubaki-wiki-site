@@ -24,7 +24,7 @@ image: /images/songs/vwp/single-1690114244.jpg
 
 ## Overview
 
-定命 (feat. KAF, RIM, Isekaijoucho, Harusaruhi & KOKO) appears on 定命 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+定命 (feat. [KAF](/en/artists/vwp/kaf), [RIM](/en/artists/vwp/rim), [Isekaijoucho](/en/artists/vwp/isekaijoucho), [Harusaruhi](/en/artists/vwp/harusaruhi) & [KOKO](/en/artists/vwp/koko)) appears on 定命 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

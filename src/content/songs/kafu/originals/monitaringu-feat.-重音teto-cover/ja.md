@@ -17,7 +17,7 @@ image: /images/songs/kafu/monitaringu-feat.-重音teto-cover.jpg
 
 ## 作品概要
 
-可不が2025-12-17にリリースしたシングル「モニタリング (feat. 重音テト) [Cover]」。
+[可不](/ja/artists/isotopes/kafu)が2025-12-17にリリースしたシングル「モニタリング (feat. 重音テト) [Cover]」。
 
 ## 視聴
 {{media-switcher::モニタリング (feat. 重音テト) [Cover]}}

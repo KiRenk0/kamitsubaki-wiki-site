@@ -17,7 +17,7 @@ image: /images/songs/kanzaki-iori/爆弾.jpg
 
 ## Overview
 
-“爆弾” is a single by カンザキイオリ, released on 2021-11-18.
+“爆弾” is a single by [カンザキイオリ](/en/artists/creators/kanzaki-iori), released on 2021-11-18.
 
 ## Listen
 {{media-switcher::爆弾}}

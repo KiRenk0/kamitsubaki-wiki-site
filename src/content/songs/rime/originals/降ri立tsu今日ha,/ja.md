@@ -20,7 +20,7 @@ image: /images/songs/rime/降ri立tsu今日ha,.jpg
 
 ## 作品概要
 
-裏命が2025-09-07にリリースしたシングル「降り立つ今日は、」。
+[裏命](/ja/artists/isotopes/rime)が2025-09-07にリリースしたシングル「降り立つ今日は、」。
 
 ## 視聴
 {{media-switcher::降り立つ今日は、}}

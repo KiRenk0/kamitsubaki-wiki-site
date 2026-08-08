@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 ## Overview
 
-“代替嬉々(TORIENA Remix)” is track 12 of KAF’s 寓話γ.
+“代替嬉々(TORIENA Remix)” is track 12 of [KAF](/en/artists/vwp/kaf)’s [寓話γ](/en/albums/kaf/guwa-gamma).
 
 ## Listen
 

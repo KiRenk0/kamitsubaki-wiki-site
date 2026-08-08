@@ -24,7 +24,7 @@ image: /images/albums/vwp/witch-plus-2.jpg
 
 ## Overview
 
-天照ダウン feat. 春猿火 appears on 魔女ぷらす2 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+天照ダウン feat. [春猿火](/en/artists/vwp/harusaruhi) appears on [魔女ぷらす2](/en/albums/vwp/witch-plus-2) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

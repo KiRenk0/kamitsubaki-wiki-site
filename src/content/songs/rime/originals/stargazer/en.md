@@ -17,7 +17,7 @@ image: /images/songs/rime/stargazer.jpg
 
 ## Overview
 
-“stargazer” is a single by 裏命, released on 2025-07-29.
+“stargazer” is a single by [裏命](/en/artists/isotopes/rime), released on 2025-07-29.
 
 ## Listen
 {{media-switcher::stargazer}}

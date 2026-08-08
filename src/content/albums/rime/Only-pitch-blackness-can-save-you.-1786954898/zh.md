@@ -58,7 +58,7 @@ tracks:
 
 ## 简介
 
-裏命于 2025-01-16 发行的Album《Only pitch-blackness can save you.》,共收录 9 首歌曲。
+[裏命](/zh/artists/isotopes/rime)于 2025-01-16 发行的Album《Only pitch-blackness can save you.》,共收录 9 首歌曲。
 
 ## 收录曲
 

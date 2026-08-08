@@ -17,7 +17,7 @@ image: /images/songs/valis/天命系meruto.jpg
 
 ## Overview
 
-“天命系メルト” is a single by VALIS, released on 2021-07-29.
+“天命系メルト” is a single by [VALIS](/en/artists/solo/valis), released on 2021-07-29.
 
 ## Listen
 {{media-switcher::天命系メルト}}

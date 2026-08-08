@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/jikiru-feat.-星界.jpg
 
 ## Overview
 
-“ジキル (feat. 星界)” is a single by tokiwa, released on 2024-08-28.
+“ジキル (feat. [星界](/en/artists/isotopes/sekai))” is a single by [tokiwa](/en/artists/creators/tokiwa), released on 2024-08-28.
 
 ## Listen
 {{media-switcher::ジキル (feat. 星界)}}

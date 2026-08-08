@@ -17,7 +17,7 @@ image: /images/songs/mimi/gyutte.jpg
 
 ## Overview
 
-“ぎゅって” is a single by MIMI, released on 2022-04-29.
+“ぎゅって” is a single by [MIMI](/en/artists/creators/mimi), released on 2022-04-29.
 
 ## Listen
 {{media-switcher::ぎゅって}}

@@ -19,7 +19,7 @@ image: /images/songs/kaf/track-1687477846.jpg
 
 ## Overview
 
-“海に化ける” is track 2 of KAF’s 狂想.
+“海に化ける” is track 2 of [KAF](/en/artists/vwp/kaf)’s [狂想](/en/albums/kaf/kyoso).
 
 ## Listen
 

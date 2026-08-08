@@ -17,7 +17,7 @@ image: /images/songs/dustcell/toubou.jpg
 
 ## Overview
 
-“TOUBOU” is a single by DUSTCELL, released on 2021-07-27.
+“TOUBOU” is a single by [DUSTCELL](/en/artists/solo/dustcell), released on 2021-07-27.
 
 ## Listen
 {{media-switcher::TOUBOU}}

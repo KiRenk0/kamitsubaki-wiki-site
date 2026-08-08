@@ -17,7 +17,7 @@ image: /images/songs/ciel/uwanosora.jpg
 
 ## Overview
 
-“うわのそら” is a single by CIEL, released on 2023-12-05.
+“うわのそら” is a single by [CIEL](/en/artists/solo/ciel), released on 2023-12-05.
 
 ## Listen
 {{media-switcher::うわのそら}}

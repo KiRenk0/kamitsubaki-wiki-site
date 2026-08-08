@@ -17,7 +17,7 @@ image: /images/songs/haru/follow-me-now.jpg
 
 ## Overview
 
-“Follow Me Now!” is a single by 羽累, released on 2024-03-27.
+“Follow Me Now!” is a single by [羽累](/en/artists/isotopes/haru), released on 2024-03-27.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/follow-me-now/1737258485?i=1737258493&uo=4 "Follow Me Now!")

@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 ## Overview
 
-“忘れっぽい天使 (I SCREAM LIVE2 ver.)” is track 7 of KAF’s I SCREAM LIVE2.
+“忘れっぽい天使 (I SCREAM LIVE2 ver.)” is track 7 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE2](/en/albums/kaf/i-scream-live-2).
 
 ## Listen
 

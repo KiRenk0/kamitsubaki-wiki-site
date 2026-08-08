@@ -17,7 +17,7 @@ image: /images/songs/kafu/meidoinbeibii.jpg
 
 ## 作品概要
 
-可不が2022-01-29にリリースしたシングル「メイドインベイビー」。
+[可不](/ja/artists/isotopes/kafu)が2022-01-29にリリースしたシングル「メイドインベイビー」。
 
 ## 視聴
 {{media-switcher::メイドインベイビー}}

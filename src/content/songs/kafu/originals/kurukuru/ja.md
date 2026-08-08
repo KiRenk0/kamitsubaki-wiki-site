@@ -17,7 +17,7 @@ image: /images/songs/kafu/kurukuru.jpg
 
 ## 作品概要
 
-可不が2020-12-24にリリースしたシングル「くるくる」。
+[可不](/ja/artists/isotopes/kafu)が2020-12-24にリリースしたシングル「くるくる」。
 
 ## 視聴
 @[apple-music](https://music.apple.com/jp/album/%E3%81%8F%E3%82%8B%E3%81%8F%E3%82%8B/1678686023?i=1678686024&uo=4 "くるくる")

@@ -17,7 +17,7 @@ image: /images/songs/ciel/空yori.jpg
 
 ## Overview
 
-“空より” is a single by CIEL, released on 2024-07-23.
+“空より” is a single by [CIEL](/en/artists/solo/ciel), released on 2024-07-23.
 
 ## Listen
 {{media-switcher::空より}}

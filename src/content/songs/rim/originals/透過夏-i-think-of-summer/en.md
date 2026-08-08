@@ -19,7 +19,7 @@ image: /images/songs/rim/single-1688513828.jpg
 
 ## Overview
 
-透過夏 (feat. RIM) appears on 透過夏 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+透過夏 (feat. [RIM](/en/artists/vwp/rim)) appears on 透過夏 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

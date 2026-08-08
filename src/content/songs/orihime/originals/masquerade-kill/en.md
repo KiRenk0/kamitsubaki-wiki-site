@@ -16,7 +16,7 @@ image: /images/songs/grp/masquerade-kill.jpg
 
 ## Overview
 
-“Masquerade Kill (feat. 廉)” is a 御莉姫 release dated 2025-11-26.
+“Masquerade Kill (feat. 廉)” is a [御莉姫](/en/artists/girls_revolution_project/orihime) release dated 2025-11-26.
 
 ## Listen
 

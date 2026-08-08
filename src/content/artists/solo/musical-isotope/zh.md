@@ -49,9 +49,9 @@ seo:
 
 ## 概述
 
-音楽的同位体（Musical Isotope）是诞生于 KAMITSUBAKI STUDIO 旗下虚拟歌手歌声的 AI 语音合成软件项目。该项目被定位为通过 UGC（用户生成内容）拓展创作者可能性的「创作伙伴」。
+音楽的同位体（Musical Isotope）是诞生于 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 旗下虚拟歌手歌声的 AI 语音合成软件项目。该项目被定位为通过 UGC（用户生成内容）拓展创作者可能性的「创作伙伴」。
 
-秉承「UGC 使世界更加丰富」的理念，该项目为创作者提供全新的表达手段。各个 AI 语音模型（KAFU、SEKAI 等）拥有各自独立的条目。
+秉承「UGC 使世界更加丰富」的理念，该项目为创作者提供全新的表达手段。各个 AI 语音模型（[KAFU](/zh/artists/isotopes/kafu)、[SEKAI](/zh/artists/isotopes/sekai) 等）拥有各自独立的条目。
 
 ## 概念与定位
 

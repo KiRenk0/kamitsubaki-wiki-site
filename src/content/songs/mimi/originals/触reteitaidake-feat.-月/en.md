@@ -17,7 +17,7 @@ image: /images/songs/mimi/触reteitaidake-feat.-月.jpg
 
 ## Overview
 
-“触れていたいだけ (feat. 月)” is a single by MIMI, released on 2024-03-10.
+“触れていたいだけ (feat. 月)” is a single by [MIMI](/en/artists/creators/mimi), released on 2024-03-10.
 
 ## Listen
 {{media-switcher::触れていたいだけ (feat. 月)}}

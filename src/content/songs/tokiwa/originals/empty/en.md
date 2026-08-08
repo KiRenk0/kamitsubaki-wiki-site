@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/empty.jpg
 
 ## Overview
 
-“empty” is a single by tokiwa, released on 2023-10-03.
+“empty” is a single by [tokiwa](/en/artists/creators/tokiwa), released on 2023-10-03.
 
 ## Listen
 {{media-switcher::empty}}

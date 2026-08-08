@@ -16,7 +16,7 @@ image: /images/songs/grp/chouka.jpg
 
 ## Overview
 
-“弔花 (feat. hitogoto)” is a 罪十罰 release dated 2024-08-14.
+“弔花 (feat. [hitogoto](/en/artists/creators/hitogoto))” is a [罪十罰](/en/artists/girls_revolution_project/tsumitobatsu) release dated 2024-08-14.
 
 ## Listen
 

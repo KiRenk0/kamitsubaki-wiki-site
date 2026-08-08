@@ -17,7 +17,7 @@ image: /images/songs/rime/yasashii嘘.jpg
 
 ## 作品简介
 
-裏命于 2024-01-31 发行的单曲《やさしい嘘》。
+[裏命](/zh/artists/isotopes/rime)于 2024-01-31 发行的单曲《やさしい嘘》。
 
 ## 试听
 {{media-switcher::やさしい嘘}}

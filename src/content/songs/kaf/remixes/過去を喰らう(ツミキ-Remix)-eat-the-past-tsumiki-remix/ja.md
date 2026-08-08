@@ -19,7 +19,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 ## 作品概要
 
-「過去を喰らう(ツミキ Remix)」は花譜の『観測γ』に収録された8曲目です。
+「過去を喰らう(ツミキ Remix)」は[花譜](/ja/artists/vwp/kaf)の『[観測γ](/ja/albums/kaf/kansoku-gamma)』に収録された8曲目です。
 
 ## 視聴
 

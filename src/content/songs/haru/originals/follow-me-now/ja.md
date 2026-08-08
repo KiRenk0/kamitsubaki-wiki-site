@@ -17,7 +17,7 @@ image: /images/songs/haru/follow-me-now.jpg
 
 ## 作品概要
 
-羽累が2024-03-27にリリースしたシングル「Follow Me Now!」。
+[羽累](/ja/artists/isotopes/haru)が2024-03-27にリリースしたシングル「Follow Me Now!」。
 
 ## 視聴
 @[apple-music](https://music.apple.com/jp/album/follow-me-now/1737258485?i=1737258493&uo=4 "Follow Me Now!")

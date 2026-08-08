@@ -17,7 +17,7 @@ image: /images/songs/coko/kitsunegami.jpg
 
 ## Overview
 
-“キツネガミ” is a single by 狐子, released on 2024-12-10.
+“キツネガミ” is a single by [狐子](/en/artists/isotopes/coko), released on 2024-12-10.
 
 ## Listen
 {{media-switcher::キツネガミ}}

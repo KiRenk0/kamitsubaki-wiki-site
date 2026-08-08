@@ -19,7 +19,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 ## 作品概要
 
-「糸(大沼パセリ Remix)」は花譜の『観測γ』に収録された1曲目です。
+「糸(大沼パセリ Remix)」は[花譜](/ja/artists/vwp/kaf)の『[観測γ](/ja/albums/kaf/kansoku-gamma)』に収録された1曲目です。
 
 ## 視聴
 

@@ -16,7 +16,7 @@ image: /images/songs/rime/秘meta想i-2025ver.jpg
 
 ## Overview
 
-“秘めた想い (2025ver.)” is a single by 裏命, released on 2025-07-23.
+“秘めた想い (2025ver.)” is a single by [裏命](/en/artists/isotopes/rime), released on 2025-07-23.
 
 ## Listen
 {{media-switcher::秘めた想い (2025ver.)}}

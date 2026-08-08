@@ -17,7 +17,7 @@ image: /images/songs/kafu/最期no逢瀬.jpg
 
 ## Overview
 
-“最期の逢瀬” is a single by 可不, released on 2024-09-05.
+“最期の逢瀬” is a single by [可不](/en/artists/isotopes/kafu), released on 2024-09-05.
 
 ## Listen
 {{media-switcher::最期の逢瀬}}

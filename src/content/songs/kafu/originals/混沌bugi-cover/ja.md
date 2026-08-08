@@ -17,7 +17,7 @@ image: /images/songs/kafu/混沌bugi-cover.jpg
 
 ## 作品概要
 
-可不が2024-05-31にリリースしたシングル「混沌ブギ (Cover)」。
+[可不](/ja/artists/isotopes/kafu)が2024-05-31にリリースしたシングル「混沌ブギ (Cover)」。
 
 ## 視聴
 {{media-switcher::混沌ブギ (Cover)}}

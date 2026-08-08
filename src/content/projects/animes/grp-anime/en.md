@@ -61,6 +61,6 @@ order: 1
 - **Series Composition**: Ichiro Ko
 - **Music**: Kento Asahina
 - **Animation Director**: Saori Hosoda
-- **Original Character Design**: PALOW.
+- **Original Character Design**: [PALOW.](/en/artists/creators/palow)
 - **Character Design**: Chirori directed by PHASE STUDIO
 - **Producer**: PIEDPIPER

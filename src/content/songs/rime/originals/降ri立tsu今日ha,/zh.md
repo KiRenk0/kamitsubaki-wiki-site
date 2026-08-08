@@ -20,7 +20,7 @@ image: /images/songs/rime/降ri立tsu今日ha,.jpg
 
 ## 作品简介
 
-裏命于 2025-09-07 发行的单曲《降り立つ今日は、》。
+[裏命](/zh/artists/isotopes/rime)于 2025-09-07 发行的单曲《降り立つ今日は、》。
 
 ## 试听
 {{media-switcher::降り立つ今日は、}}

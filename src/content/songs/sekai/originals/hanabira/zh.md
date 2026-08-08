@@ -17,7 +17,7 @@ image: /images/songs/sekai/hanabira.jpg
 
 ## 作品简介
 
-星界于 2024-04-11 发行的单曲《ハナビラ》。
+[星界](/zh/artists/isotopes/sekai)于 2024-04-11 发行的单曲《ハナビラ》。
 
 ## 试听
 {{media-switcher::ハナビラ}}

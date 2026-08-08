@@ -17,7 +17,7 @@ image: /images/songs/guiano/good-style.jpg
 
 ## Overview
 
-“Good Style” is a single by Guiano, released on 2024-03-26.
+“Good Style” is a single by [Guiano](/en/artists/creators/guiano), released on 2024-03-26.
 
 ## Listen
 {{media-switcher::Good Style}}

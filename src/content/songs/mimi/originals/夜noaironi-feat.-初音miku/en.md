@@ -17,7 +17,7 @@ image: /images/songs/mimi/夜noaironi-feat.-初音miku.jpg
 
 ## Overview
 
-“夜のあいろに (feat. 初音ミク)” is a single by MIMI, released on 2022-12-20.
+“夜のあいろに (feat. 初音ミク)” is a single by [MIMI](/en/artists/creators/mimi), released on 2022-12-20.
 
 ## Listen
 {{media-switcher::夜のあいろに (feat. 初音ミク)}}

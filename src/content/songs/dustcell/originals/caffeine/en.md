@@ -17,7 +17,7 @@ image: /images/songs/dustcell/caffeine.jpg
 
 ## Overview
 
-“Caffeine” is a single by DUSTCELL, released on 2023-05-16.
+“Caffeine” is a single by [DUSTCELL](/en/artists/solo/dustcell), released on 2023-05-16.
 
 ## Listen
 {{media-switcher::Caffeine}}

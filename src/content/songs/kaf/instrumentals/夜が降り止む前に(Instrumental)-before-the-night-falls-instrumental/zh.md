@@ -18,7 +18,7 @@ image: /images/albums/kaf/yoru-ga-furiyamu-mae-ni.jpg
 
 ## 作品简介
 
-《夜が降り止む前に(Instrumental)》是花譜收录于《夜が降り止む前に》的第 4 轨。
+《[夜が降り止む前に](/zh/albums/kaf/yoru-ga-furiyamu-mae-ni)(Instrumental)》是[花譜](/zh/artists/vwp/kaf)收录于《夜が降り止む前に》的第 4 轨。
 
 ## 试听
 

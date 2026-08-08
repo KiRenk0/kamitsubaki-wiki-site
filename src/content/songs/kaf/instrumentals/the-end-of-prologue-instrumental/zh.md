@@ -19,7 +19,7 @@ contentStatus: stub
 
 ## 作品简介
 
-《The end of prologue(Instrumental)》是花譜收录于《観測》的第 15 轨。
+《The end of prologue(Instrumental)》是[花譜](/zh/artists/vwp/kaf)收录于《[観測](/zh/albums/kaf/kansoku)》的第 15 轨。
 
 ## 试听
 

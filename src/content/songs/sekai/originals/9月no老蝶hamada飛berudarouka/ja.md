@@ -17,7 +17,7 @@ image: /images/songs/sekai/9月no老蝶hamada飛berudarouka.jpg
 
 ## 作品概要
 
-星界が2026-03-27にリリースしたシングル「9月の老蝶はまだ飛べるだろうか」。
+[星界](/ja/artists/isotopes/sekai)が2026-03-27にリリースしたシングル「9月の老蝶はまだ飛べるだろうか」。
 
 ## 視聴
 @[apple-music](https://music.apple.com/jp/album/9%E6%9C%88%E3%81%AE%E8%80%81%E8%9D%B6%E3%81%AF%E3%81%BE%E3%81%A0%E9%A3%9B%E3%81%B9%E3%82%8B%E3%81%A0%E3%82%8D%E3%81%86%E3%81%8B/1888494375?i=1888494388&uo=4 "9月の老蝶はまだ飛べるだろうか")

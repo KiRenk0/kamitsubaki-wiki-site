@@ -17,7 +17,7 @@ image: /images/songs/kafu/meidoinbeibii.jpg
 
 ## 作品简介
 
-可不于 2022-01-29 发行的单曲《メイドインベイビー》。
+[可不](/zh/artists/isotopes/kafu)于 2022-01-29 发行的单曲《メイドインベイビー》。
 
 ## 试听
 {{media-switcher::メイドインベイビー}}

@@ -17,7 +17,7 @@ image: /images/songs/haru/hittopareru.jpg
 
 ## Overview
 
-“ヒットパレル” is a single by 羽累, released on 2024-08-31.
+“ヒットパレル” is a single by [羽累](/en/artists/isotopes/haru), released on 2024-08-31.
 
 ## Listen
 {{media-switcher::ヒットパレル}}

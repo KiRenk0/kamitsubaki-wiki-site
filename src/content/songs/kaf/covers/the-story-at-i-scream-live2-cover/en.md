@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 ## Overview
 
-“The Story (I SCREAM LIVE2 ver.)” is track 10 of KAF’s I SCREAM LIVE2.
+“The Story (I SCREAM LIVE2 ver.)” is track 10 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE2](/en/albums/kaf/i-scream-live-2).
 
 ## Listen
 

@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 ## Overview
 
-“ひらいて (I SCREAM LIVE2 ver.)” is track 4 of KAF’s I SCREAM LIVE2.
+“ひらいて (I SCREAM LIVE2 ver.)” is track 4 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE2](/en/albums/kaf/i-scream-live-2).
 
 ## Listen
 

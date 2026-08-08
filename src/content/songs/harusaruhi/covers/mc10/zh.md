@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 
 ## 作品简介
 
-《MC10》收录于《CREAM PUFF LIVE 2》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《MC10》收录于《[CREAM PUFF LIVE 2](/zh/albums/harusaruhi/cream-puff-live-2)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 

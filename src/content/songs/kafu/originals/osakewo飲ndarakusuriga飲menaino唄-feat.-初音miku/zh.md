@@ -17,7 +17,7 @@ image: /images/songs/kafu/osakewo飲ndarakusuriga飲menaino唄-feat.-初音miku.
 
 ## 作品简介
 
-可不于 2024-01-08 发行的单曲《おさけを飲んだらくすりが飲めないの唄 (feat. 初音ミク)》。
+[可不](/zh/artists/isotopes/kafu)于 2024-01-08 发行的单曲《おさけを飲んだらくすりが飲めないの唄 (feat. 初音ミク)》。
 
 ## 试听
 {{media-switcher::おさけを飲んだらくすりが飲めないの唄 (feat. 初音ミク)}}

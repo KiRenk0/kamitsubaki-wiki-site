@@ -17,7 +17,7 @@ image: /images/songs/rime/zenbudoudemo.jpg
 
 ## 作品概要
 
-裏命が2023-08-19にリリースしたシングル「ぜんぶどうでも」。
+[裏命](/ja/artists/isotopes/rime)が2023-08-19にリリースしたシングル「ぜんぶどうでも」。
 
 ## 視聴
 {{media-switcher::ぜんぶどうでも}}

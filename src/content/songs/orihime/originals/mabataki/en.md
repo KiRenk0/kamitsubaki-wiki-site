@@ -16,7 +16,7 @@ image: /images/songs/grp/mabataki.jpg
 
 ## Overview
 
-“瞬き” is a 御莉姫 release dated 2025-02-19.
+“瞬き” is a [御莉姫](/en/artists/girls_revolution_project/orihime) release dated 2025-02-19.
 
 ## Listen
 

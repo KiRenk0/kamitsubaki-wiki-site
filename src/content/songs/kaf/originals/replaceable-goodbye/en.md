@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa.jpg
 
 ## Overview
 
-“Replaceable Goodbye” is track 14 of KAF’s 寓話.
+“Replaceable Goodbye” is track 14 of [KAF](/en/artists/vwp/kaf)’s [寓話](/en/albums/kaf/guwa).
 
 ## Listen
 

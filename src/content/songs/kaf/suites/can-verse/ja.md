@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1688524557.jpg
 
 ## 作品概要
 
-「CAN-VERSE」は花譜の『組曲』に収録された10曲目です。
+「CAN-VERSE」は[花譜](/ja/artists/vwp/kaf)の『[組曲](/ja/albums/kaf/suite)』に収録された10曲目です。
 
 ## 視聴
 

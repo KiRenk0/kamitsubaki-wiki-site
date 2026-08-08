@@ -17,7 +17,7 @@ image: /images/songs/mimi/ruruuju.jpg
 
 ## Overview
 
-“ルルージュ” is a single by MIMI, released on 2020-09-08.
+“ルルージュ” is a single by [MIMI](/en/artists/creators/mimi), released on 2020-09-08.
 
 ## Listen
 {{media-switcher::ルルージュ}}

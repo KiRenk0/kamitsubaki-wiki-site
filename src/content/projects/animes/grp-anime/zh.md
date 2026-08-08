@@ -15,9 +15,9 @@ order: 1
 - 佳镜院（CV：[佳镜院](https://kamitsubaki.wiki/zh/artists/girls_revolution_project/kakyoin/)）
 - 御莉姬（CV：[御莉姬](https://kamitsubaki.wiki/zh/artists/girls_revolution_project/orihime/)）
 - 硝子宫（CV：[硝子宫](https://kamitsubaki.wiki/zh/artists/girls_revolution_project/garasumiya/)）
-- 美古途（CV：[美古途](https://kamitsubaki.wiki/zh/artists/girls_revolution_project/mikoto/)）
+- [美古途](/zh/artists/girls_revolution_project/mikoto)（CV：[美古途](https://kamitsubaki.wiki/zh/artists/girls_revolution_project/mikoto/)）
 - 夕凪机（CV：[夕凪机](https://kamitsubaki.wiki/zh/artists/girls_revolution_project/yunagi/)）
-- 氷夏至（CV：[氷夏至](https://kamitsubaki.wiki/zh/artists/girls_revolution_project/hinageshi/)）
+- [氷夏至](/zh/artists/girls_revolution_project/hinageshi)（CV：[氷夏至](https://kamitsubaki.wiki/zh/artists/girls_revolution_project/hinageshi/)）
 - ？？？<span class="wiki-spoiler" tabindex="0">白丸</span>（CV：？？？[<span class="wiki-spoiler" tabindex="0">ヰ世界情绪</span>](https://kamitsubaki.wiki/zh/artists/vwp/isekaijoucho/)）
 - 魔王（CV：诗道）
 
@@ -51,16 +51,16 @@ order: 1
 | 第24话 | <ruby>追憶のリミナルスペース<rt>追忆的阈限空间</rt></ruby> | 中田歩 (ヨーロッパ企画) |     SHOCK     |    5月7日    |
 | 第25话 |  <ruby>赤マント・青マント<rt>红斗篷与蓝斗篷</rt></ruby>  | 中田歩 (ヨーロッパ企画) | ミリオン・コンプレクシティ |   5月21日    |
 | 第26话 |    <ruby>ヲモヒノカタチ<rt>思念之形</rt></ruby>     | 中田歩 (ヨーロッパ企画) |   SURVIVAL    |    6月4日    |
-| 第27话 |    <ruby>少女革命計画<rt>少女革命计划</rt></ruby>    | 中田歩 (ヨーロッパ企画) |       -       |   6月18日    |
+| 第27话 |    <ruby>[少女革命計画](/zh/projects/labels/girls-revolution-project)<rt>少女革命计划</rt></ruby>    | 中田歩 (ヨーロッパ企画) |       -       |   6月18日    |
 
 ## 制作人员
 
 - 制作：THINKR 
-- 企划：KAMITSUBAKI STUDIO 
+- 企划：[KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio)
 - 动画制作：MANAA ANIMATION 
 - 系列构成：考一郎 
 - 音乐：朝比奈健人 
 - 作画监督：细田沙织 
-- 角色设计原案：PALOW. 
+- 角色设计原案：[PALOW.](/zh/artists/creators/palow)
 - 角色设计：ちろり directed by PHASE STUDIO 
 - 制作人：PIEDPIPER

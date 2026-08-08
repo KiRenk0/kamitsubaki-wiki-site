@@ -17,7 +17,7 @@ image: /images/songs/coko/oboetero.jpg
 
 ## Overview
 
-“おぼえてろ” is a single by 狐子, released on 2024-12-10.
+“おぼえてろ” is a single by [狐子](/en/artists/isotopes/coko), released on 2024-12-10.
 
 ## Listen
 {{media-switcher::おぼえてろ}}

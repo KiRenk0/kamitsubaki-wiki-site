@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/kimitonaru.jpg
 
 ## Overview
 
-“きみとなる” is a single by tokiwa, released on 2026-03-17.
+“きみとなる” is a single by [tokiwa](/en/artists/creators/tokiwa), released on 2026-03-17.
 
 ## Listen
 {{media-switcher::きみとなる}}

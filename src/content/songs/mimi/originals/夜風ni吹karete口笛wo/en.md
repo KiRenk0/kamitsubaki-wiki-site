@@ -17,7 +17,7 @@ image: /images/songs/mimi/夜風ni吹karete口笛wo.jpg
 
 ## Overview
 
-“夜風に吹かれて口笛を” is a single by MIMI, released on 2024-09-02.
+“夜風に吹かれて口笛を” is a single by [MIMI](/en/artists/creators/mimi), released on 2024-09-02.
 
 ## Listen
 {{media-switcher::夜風に吹かれて口笛を}}

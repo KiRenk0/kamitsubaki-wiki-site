@@ -17,7 +17,7 @@ image: /images/songs/kafu/madiva.jpg
 
 ## Overview
 
-“MaDiVA” is a single by 可不, released on 2025-02-20.
+“MaDiVA” is a single by [可不](/en/artists/isotopes/kafu), released on 2025-02-20.
 
 ## Listen
 {{media-switcher::MaDiVA}}

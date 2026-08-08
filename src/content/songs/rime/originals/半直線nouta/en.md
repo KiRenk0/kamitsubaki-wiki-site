@@ -17,7 +17,7 @@ image: /images/songs/rime/半直線nouta.jpg
 
 ## Overview
 
-“半直線のうた” is a single by 裏命, released on 2023-09-06.
+“半直線のうた” is a single by [裏命](/en/artists/isotopes/rime), released on 2023-09-06.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/%E5%8D%8A%E7%9B%B4%E7%B7%9A%E3%81%AE%E3%81%86%E3%81%9F/1703182926?i=1703182927&uo=4 "半直線のうた")

@@ -17,7 +17,7 @@ image: /images/songs/kafu/anonimasu.jpg
 
 ## Overview
 
-“アノニマス” is a single by 可不, released on 2023-05-03.
+“アノニマス” is a single by [可不](/en/artists/isotopes/kafu), released on 2023-05-03.
 
 ## Listen
 {{media-switcher::アノニマス}}

@@ -17,7 +17,7 @@ image: /images/songs/kanzaki-iori/偶像.jpg
 
 ## Overview
 
-“偶像” is a single by カンザキイオリ, released on 2022-02-28.
+“偶像” is a single by [カンザキイオリ](/en/artists/creators/kanzaki-iori), released on 2022-02-28.
 
 ## Listen
 {{media-switcher::偶像}}

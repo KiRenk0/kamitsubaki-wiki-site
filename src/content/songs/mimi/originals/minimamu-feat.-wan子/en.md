@@ -17,7 +17,7 @@ image: /images/songs/mimi/minimamu-feat.-wan子.jpg
 
 ## Overview
 
-“みにまむ (feat. わん子)” is a single by MIMI, released on 2022-08-25.
+“みにまむ (feat. わん子)” is a single by [MIMI](/en/artists/creators/mimi), released on 2022-08-25.
 
 ## Listen
 {{media-switcher::みにまむ (feat. わん子)}}

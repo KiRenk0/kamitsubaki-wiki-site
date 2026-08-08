@@ -59,7 +59,7 @@ Released on July 7, 2021, KAFU became a phenomenon in VOCALOID producer culture,
 <div class="wiki-fact-grid">
   <div class="wiki-fact-card"><p class="wiki-fact-card__label">VOICE PROVIDER</p><p class="wiki-fact-card__value">KAF</p></div>
   <div class="wiki-fact-card"><p class="wiki-fact-card__label">SINGING ENGINES</p><p class="wiki-fact-card__value">CeVIO AI; later expanded to Synthesizer V AI</p></div>
-  <div class="wiki-fact-card"><p class="wiki-fact-card__label">CHARACTER DESIGN</p><p class="wiki-fact-card__value">PALOW.</p></div>
+  <div class="wiki-fact-card"><p class="wiki-fact-card__label">CHARACTER DESIGN</p><p class="wiki-fact-card__value">[PALOW.](/en/artists/creators/palow)</p></div>
   <div class="wiki-fact-card"><p class="wiki-fact-card__label">RELEASE</p><p class="wiki-fact-card__value">7 July 2021</p></div>
 </div>
 
@@ -84,12 +84,12 @@ PALOW.'s character design uses white and yellow, circular pupils, a hooded outer
 | --- | --- | --- |
 | January 9, 2021 | *Hologram* | Hifumi |
 | February 20, 2021 | *Cute na Kanojo* | syudou |
-| March 7, 2021 | *Ice Cream* | Guiano |
+| March 7, 2021 | *Ice Cream* | [Guiano](/en/artists/creators/guiano) |
 | April 10, 2021 | *Retropolis* | R Sound Design |
-| May 1, 2021 | *Hana to Nare* | Yunosuke |
+| May 1, 2021 | *Hana to Nare* | [Yunosuke](/en/artists/creators/yunosuke) |
 | May 8, 2021 | *Suimenka* | Osanuma Paseri |
 | June 5, 2021 | *Phony* | Tsumiki |
-| July 17, 2021 | *Cat Loving* | Moimi Kashii |
+| July 17, 2021 | *Cat Loving* | [Moimi Kashii](/en/artists/creators/kashiimoimi) |
 
 {{/details}}
 
@@ -97,7 +97,7 @@ These official commissions are an entry point rather than a closed discography: 
 
 ## Project connections
 
-KAFU opened the Musical Isotope project. The subsequent [SEKAI](/en/artists/isotopes/sekai), [RIME](/en/artists/isotopes/rime), [COKO](/en/artists/isotopes/coko), and [HARU](/en/artists/isotopes/haru) voice characters extend the same creator-facing framework.
+KAFU opened the [Musical Isotope](/en/artists/solo/musical-isotope) project. The subsequent [SEKAI](/en/artists/isotopes/sekai), [RIME](/en/artists/isotopes/rime), [COKO](/en/artists/isotopes/coko), and [HARU](/en/artists/isotopes/haru) voice characters extend the same creator-facing framework.
 ## External Links
 
 - [Musical Isotope KAFU official site](https://kafu.kamitsubaki.jp/)

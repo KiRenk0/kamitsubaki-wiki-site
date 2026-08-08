@@ -16,7 +16,7 @@ image: /images/songs/grp/kaihen-kokoro.jpg
 
 ## Overview
 
-“改変 -心- (feat. たなか & LLLL)” is a 心世紀 release dated 2025-10-29.
+“改変 -心- (feat. たなか & LLLL)” is a [心世紀](/en/artists/girls_revolution_project/sinseiki) release dated 2025-10-29.
 
 ## Listen
 

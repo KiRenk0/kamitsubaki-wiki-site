@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 
 ## 作品概要
 
-「狂感覚(雄之助 Remix)」は花譜の『狂想γ』に収録された12曲目です。
+「狂感覚([雄之助](/ja/artists/creators/yunosuke) Remix)」は[花譜](/ja/artists/vwp/kaf)の『[狂想γ](/ja/albums/kaf/kyoso-gamma)』に収録された12曲目です。
 
 ## 視聴
 

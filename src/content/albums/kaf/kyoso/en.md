@@ -109,7 +109,7 @@ All lyrics, composition, and arrangements for the entire album were handled excl
 The physical release comes in two packaging formats. In addition to the common CD Kyōsō, both versions include different bonus merchandise box sets (note: the CD tracklist is identical in both versions).
 
 [Box α Contents]
-CD Album Kyōsō α (tracklist is common with Box β), "Crazy for you" coin purse, acrylic keychain (Crazy ver.), MAD stickers, Natsume Eri illustration stickers, No Copyright Girl illustration stickers, C4U can badges, Gekko (rooster) can badges, and messages for the album Kyōsō (written by Kaf, Kanzaki Iori, and PIEDPIPER).
+CD Album Kyōsō α (tracklist is common with Box β), "Crazy for you" coin purse, acrylic keychain (Crazy ver.), MAD stickers, Natsume Eri illustration stickers, No Copyright Girl illustration stickers, C4U can badges, Gekko (rooster) can badges, and messages for the album Kyōsō (written by [Kaf](/en/artists/vwp/kaf), [Kanzaki Iori](/en/artists/creators/kanzaki-iori), and [PIEDPIPER](/en/artists/creators/piedpiper)).
 
 ## Release and editions
 

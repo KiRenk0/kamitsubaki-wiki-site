@@ -17,7 +17,7 @@ image: /images/songs/mimi/愛suruyouni.jpg
 
 ## Overview
 
-“愛するように” is a single by MIMI, released on 2023-01-24.
+“愛するように” is a single by [MIMI](/en/artists/creators/mimi), released on 2023-01-24.
 
 ## Listen
 {{media-switcher::愛するように}}

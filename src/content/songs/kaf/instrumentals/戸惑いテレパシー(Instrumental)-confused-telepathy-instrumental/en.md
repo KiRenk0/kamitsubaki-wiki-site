@@ -18,7 +18,7 @@ image: /images/albums/kaf/tomadoi-telepathy.jpg
 
 ## Overview
 
-“戸惑いテレパシー(Instrumental)” is track 5 of KAF’s 戸惑いテレパシー.
+“[戸惑いテレパシー](/en/albums/kaf/tomadoi-telepathy)(Instrumental)” is track 5 of [KAF](/en/artists/vwp/kaf)’s 戸惑いテレパシー.
 
 ## Listen
 

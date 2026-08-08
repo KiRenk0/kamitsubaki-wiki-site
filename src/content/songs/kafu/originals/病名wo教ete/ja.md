@@ -17,7 +17,7 @@ image: /images/songs/kafu/病名wo教ete.jpg
 
 ## 作品概要
 
-可不が2020-02-29にリリースしたシングル「病名を教えて」。
+[可不](/ja/artists/isotopes/kafu)が2020-02-29にリリースしたシングル「病名を教えて」。
 
 ## 視聴
 {{media-switcher::病名を教えて}}

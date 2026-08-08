@@ -17,7 +17,7 @@ image: /images/songs/coko/oboetero.jpg
 
 ## 作品概要
 
-狐子が2024-12-10にリリースしたシングル「おぼえてろ」。
+[狐子](/ja/artists/isotopes/coko)が2024-12-10にリリースしたシングル「おぼえてろ」。
 
 ## 視聴
 {{media-switcher::おぼえてろ}}

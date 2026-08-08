@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/kimiha天使.jpg
 
 ## Overview
 
-“きみは天使” is a single by tokiwa, released on 2026-06-11.
+“きみは天使” is a single by [tokiwa](/en/artists/creators/tokiwa), released on 2026-06-11.
 
 ## Listen
 {{media-switcher::きみは天使}}

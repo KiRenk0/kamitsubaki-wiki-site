@@ -16,7 +16,7 @@ image: /images/songs/grp/kirigasa-gariki.jpg
 
 ## 作品简介
 
-《キリガサガリキ》是佳鏡院于 2025-03-19 正式发行的作品。
+《キリガサガリキ》是[佳鏡院](/zh/artists/girls_revolution_project/kakyoin)于 2025-03-19 正式发行的作品。
 
 ## 试听
 

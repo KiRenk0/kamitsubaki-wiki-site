@@ -17,7 +17,7 @@ image: /images/songs/mimi/劣等哀歌-feat.-初音miku-&-重音teto.jpg
 
 ## Overview
 
-“劣等哀歌 (feat. 初音ミク & 重音テト)” is a single by MIMI, released on 2024-11-08.
+“劣等哀歌 (feat. 初音ミク & 重音テト)” is a single by [MIMI](/en/artists/creators/mimi), released on 2024-11-08.
 
 ## Listen
 {{media-switcher::劣等哀歌 (feat. 初音ミク & 重音テト)}}

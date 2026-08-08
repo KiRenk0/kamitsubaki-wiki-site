@@ -58,7 +58,7 @@ tracks:
 
 ## 概要
 
-裏命が2025-01-16にリリースしたアルバム『Only pitch-blackness can save you.』。全9曲を収録。
+[裏命](/ja/artists/isotopes/rime)が2025-01-16にリリースしたアルバム『Only pitch-blackness can save you.』。全9曲を収録。
 
 ## 収録曲
 

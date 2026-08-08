@@ -17,7 +17,7 @@ image: /images/songs/sekai/soudesuka雪見.jpg
 
 ## Overview
 
-“soudesuka雪見” is a single by 星界, released on 2025-07-05.
+“soudesuka雪見” is a single by [星界](/en/artists/isotopes/sekai), released on 2025-07-05.
 
 ## Listen
 {{media-switcher::soudesuka雪見}}

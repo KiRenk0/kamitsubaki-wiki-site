@@ -24,7 +24,7 @@ image: /images/albums/vwp/fate.jpg
 
 ## Overview
 
-開幕 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO) appears on 運命 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+開幕 (feat. [KAF](/en/artists/vwp/kaf), [RIM](/en/artists/vwp/rim), [Harusaruhi](/en/artists/vwp/harusaruhi), [Isekaijoucho](/en/artists/vwp/isekaijoucho) & [KOKO](/en/artists/vwp/koko)) appears on [運命](/en/albums/vwp/fate) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

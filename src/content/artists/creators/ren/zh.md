@@ -51,7 +51,7 @@ seo:
 
 ## 代表作品
 
-Ren 的重要作品包括「余命日記」「嘘月が綺麗ですね」「レグルスリベリオン」「エメの鳥籠」「バレットシャーク」「化猫横丁」等，每首曲目都展现了他将叙事深度融入氛围电子制作的能力。
+Ren 的重要作品包括「[余命日記](/zh/songs/ren/originals/余命日記)」「[嘘月が綺麗ですね](/zh/songs/ren/originals/嘘月ga綺麗desune)」「[レグルスリベリオン](/zh/songs/ren/originals/regurusuriberion)」「[エメの鳥籠](/zh/songs/ren/originals/emeno鳥籠)」「[バレットシャーク](/zh/songs/ren/originals/barettoshaaku)」「[化猫横丁](/zh/songs/ren/originals/化猫横丁)」等，每首曲目都展现了他将叙事深度融入氛围电子制作的能力。
 
 ## 合作与近期活动
 

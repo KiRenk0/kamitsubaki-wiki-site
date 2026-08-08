@@ -19,7 +19,7 @@ contentStatus: stub
 
 ## Overview
 
-春猿火自由律#05「iのアンサー」 appears on CREAM PUFF LIVE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+[春猿火](/en/artists/vwp/harusaruhi)自由律#05「iのアンサー」 appears on [CREAM PUFF LIVE](/en/albums/harusaruhi/cream-puff-live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Lyrics
 

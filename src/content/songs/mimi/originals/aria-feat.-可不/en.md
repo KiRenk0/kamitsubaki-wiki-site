@@ -17,7 +17,7 @@ image: /images/songs/mimi/aria-feat.-可不.jpg
 
 ## Overview
 
-“ありあ (feat. 可不)” is a single by MIMI, released on 2024-02-27.
+“ありあ (feat. [可不](/en/artists/isotopes/kafu))” is a single by [MIMI](/en/artists/creators/mimi), released on 2024-02-27.
 
 ## Listen
 {{media-switcher::ありあ (feat. 可不)}}

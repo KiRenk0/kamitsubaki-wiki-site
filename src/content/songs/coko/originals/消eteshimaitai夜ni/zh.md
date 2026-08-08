@@ -17,7 +17,7 @@ image: /images/songs/coko/消eteshimaitai夜ni.jpg
 
 ## 作品简介
 
-狐子于 2025-11-14 发行的单曲《消えてしまいたい夜に》。
+[狐子](/zh/artists/isotopes/coko)于 2025-11-14 发行的单曲《消えてしまいたい夜に》。
 
 ## 试听
 {{media-switcher::消えてしまいたい夜に}}

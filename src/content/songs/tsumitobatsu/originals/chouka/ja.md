@@ -16,7 +16,7 @@ image: /images/songs/grp/chouka.jpg
 
 ## 作品概要
 
-「弔花」は罪十罰が2024-08-14にリリースした楽曲です。
+「弔花」は[罪十罰](/ja/artists/girls_revolution_project/tsumitobatsu)が2024-08-14にリリースした楽曲です。
 
 ## 視聴
 

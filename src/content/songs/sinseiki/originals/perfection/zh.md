@@ -16,7 +16,7 @@ image: /images/songs/grp/perfection.jpg
 
 ## 作品简介
 
-《パーフェクション》是心世紀于 2024-09-18 正式发行的作品。
+《パーフェクション》是[心世紀](/zh/artists/girls_revolution_project/sinseiki)于 2024-09-18 正式发行的作品。
 
 ## 试听
 

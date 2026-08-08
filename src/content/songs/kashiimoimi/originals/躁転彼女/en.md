@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/躁転彼女.jpg
 
 ## Overview
 
-“躁転彼女” is a single by 香椎モイミ, released on 2025-02-11.
+“躁転彼女” is a single by [香椎モイミ](/en/artists/creators/kashiimoimi), released on 2025-02-11.
 
 ## Listen
 {{media-switcher::躁転彼女}}

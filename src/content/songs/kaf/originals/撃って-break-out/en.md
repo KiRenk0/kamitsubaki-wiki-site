@@ -16,7 +16,7 @@ image: /images/songs/kaf/track-1819865325.jpg
 
 ## Overview
 
-“撃って (feat. CHiCO)” is a KAF release dated June 25, 2025.
+“撃って (feat. CHiCO)” is a [KAF](/en/artists/vwp/kaf) release dated June 25, 2025.
 
 ## Listen
 

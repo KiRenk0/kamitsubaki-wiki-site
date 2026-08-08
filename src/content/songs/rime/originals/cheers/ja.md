@@ -17,7 +17,7 @@ image: /images/songs/rime/cheers.jpg
 
 ## 作品概要
 
-裏命が2025-07-18にリリースしたシングル「cheers」。
+[裏命](/ja/artists/isotopes/rime)が2025-07-18にリリースしたシングル「cheers」。
 
 ## 視聴
 {{media-switcher::cheers}}

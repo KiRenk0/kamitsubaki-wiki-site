@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/躁転彼女.jpg
 
 ## 作品概要
 
-香椎モイミが2025-02-11にリリースしたシングル「躁転彼女」。
+[香椎モイミ](/ja/artists/creators/kashiimoimi)が2025-02-11にリリースしたシングル「躁転彼女」。
 
 ## 視聴
 {{media-switcher::躁転彼女}}

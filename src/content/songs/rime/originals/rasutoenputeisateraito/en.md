@@ -17,7 +17,7 @@ image: /images/songs/rime/rasutoenputeisateraito.jpg
 
 ## Overview
 
-“ラストエンプティサテライト” is a single by 裏命, released on 2025-12-20.
+“ラストエンプティサテライト” is a single by [裏命](/en/artists/isotopes/rime), released on 2025-12-20.
 
 ## Listen
 {{media-switcher::ラストエンプティサテライト}}

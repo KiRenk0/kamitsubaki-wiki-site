@@ -17,7 +17,7 @@ image: /images/songs/rime/kedamono.jpg
 
 ## Overview
 
-“けだもの” is a single by 裏命, released on 2023-06-02.
+“けだもの” is a single by [裏命](/en/artists/isotopes/rime), released on 2023-06-02.
 
 ## Listen
 {{media-switcher::けだもの}}

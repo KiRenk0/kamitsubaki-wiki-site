@@ -17,7 +17,7 @@ image: /images/songs/kanzaki-iori/25時no情熱.jpg
 
 ## 作品概要
 
-カンザキイオリが2024-01-12にリリースしたシングル「25時の情熱」。
+[カンザキイオリ](/ja/artists/creators/kanzaki-iori)が2024-01-12にリリースしたシングル「25時の情熱」。
 
 ## 視聴
 {{media-switcher::25時の情熱}}

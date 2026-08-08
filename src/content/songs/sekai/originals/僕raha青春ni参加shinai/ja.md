@@ -17,7 +17,7 @@ image: /images/songs/sekai/僕raha青春ni参加shinai.jpg
 
 ## 作品概要
 
-星界が2023-06-09にリリースしたシングル「僕らは青春に参加しない」。
+[星界](/ja/artists/isotopes/sekai)が2023-06-09にリリースしたシングル「僕らは青春に参加しない」。
 
 ## 視聴
 {{media-switcher::僕らは青春に参加しない}}

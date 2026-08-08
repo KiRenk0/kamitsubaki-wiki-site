@@ -17,7 +17,7 @@ image: /images/songs/anmc/mata旅hanekomimito-feat.-muto,-m.jpg
 
 ## Overview
 
-“また旅はネコミミと feat. むト, m” is a single by ANMC, released on 2025-04-30.
+“また旅はネコミミと feat. むト, m” is a single by [ANMC](/en/artists/solo/anmc), released on 2025-04-30.
 
 ## Listen
 {{media-switcher::また旅はネコミミと feat. むト, m}}

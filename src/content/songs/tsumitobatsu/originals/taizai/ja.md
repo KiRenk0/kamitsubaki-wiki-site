@@ -16,7 +16,7 @@ image: /images/songs/grp/taizai.jpg
 
 ## 作品概要
 
-「大罪」は罪十罰が2026-01-23にリリースした楽曲です。
+「大罪」は[罪十罰](/ja/artists/girls_revolution_project/tsumitobatsu)が2026-01-23にリリースした楽曲です。
 
 ## 視聴
 

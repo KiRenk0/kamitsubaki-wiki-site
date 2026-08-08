@@ -17,7 +17,7 @@ image: /images/songs/sekai/背水,偶像神話.jpg
 
 ## 作品概要
 
-星界が2024-11-26にリリースしたシングル「背水、偶像神話」。
+[星界](/ja/artists/isotopes/sekai)が2024-11-26にリリースしたシングル「背水、偶像神話」。
 
 ## 視聴
 {{media-switcher::背水、偶像神話}}

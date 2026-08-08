@@ -16,7 +16,7 @@ image: /images/songs/grp/selfish.jpg
 
 ## Overview
 
-“セルフィッシュ” is a 美古途 release dated 2024-11-13.
+“セルフィッシュ” is a [美古途](/en/artists/girls_revolution_project/mikoto) release dated 2024-11-13.
 
 ## Listen
 

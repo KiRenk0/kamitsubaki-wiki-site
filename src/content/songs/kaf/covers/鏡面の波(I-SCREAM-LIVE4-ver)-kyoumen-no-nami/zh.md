@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 ## 作品简介
 
-《鏡面の波 (I SCREAM LIVE4 ver.)》是花譜收录于《I SCREAM LIVE4 - Cover Live Album -》的第 3 轨。
+《鏡面の波 (I SCREAM LIVE4 ver.)》是[花譜](/zh/artists/vwp/kaf)收录于《[I SCREAM LIVE4 - Cover Live Album -](/zh/albums/kaf/i-scream-live-4)》的第 3 轨。
 
 ## 试听
 

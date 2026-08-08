@@ -17,7 +17,7 @@ image: /images/songs/mimi/sorrowchat.jpg
 
 ## Overview
 
-“SorrowChat” is a single by MIMI, released on 2021-03-19.
+“SorrowChat” is a single by [MIMI](/en/artists/creators/mimi), released on 2021-03-19.
 
 ## Listen
 {{media-switcher::SorrowChat}}

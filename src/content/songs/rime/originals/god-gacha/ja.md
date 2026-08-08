@@ -17,7 +17,7 @@ image: /images/songs/rime/god-gacha.jpg
 
 ## 作品概要
 
-裏命が2025-09-09にリリースしたシングル「God Gacha」。
+[裏命](/ja/artists/isotopes/rime)が2025-09-09にリリースしたシングル「God Gacha」。
 
 ## 視聴
 {{media-switcher::God Gacha}}

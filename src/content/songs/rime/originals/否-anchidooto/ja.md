@@ -17,7 +17,7 @@ image: /images/songs/rime/否-anchidooto.jpg
 
 ## 作品概要
 
-裏命が2024-10-29にリリースしたシングル「否・アンチドート」。
+[裏命](/ja/artists/isotopes/rime)が2024-10-29にリリースしたシングル「否・アンチドート」。
 
 ## 視聴
 {{media-switcher::否・アンチドート}}

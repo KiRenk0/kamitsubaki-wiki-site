@@ -17,7 +17,7 @@ image: /images/songs/kafu/混沌bugi-cover.jpg
 
 ## Overview
 
-“混沌ブギ (Cover)” is a single by 可不, released on 2024-05-31.
+“混沌ブギ (Cover)” is a single by [可不](/en/artists/isotopes/kafu), released on 2024-05-31.
 
 ## Listen
 {{media-switcher::混沌ブギ (Cover)}}

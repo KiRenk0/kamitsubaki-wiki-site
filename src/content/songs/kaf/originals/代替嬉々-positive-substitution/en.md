@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1783267960.jpg
 
 ## Overview
 
-“代替嬉々” is track 13 of KAF’s 寓話.
+“代替嬉々” is track 13 of [KAF](/en/artists/vwp/kaf)’s [寓話](/en/albums/kaf/guwa).
 
 ## Listen
 

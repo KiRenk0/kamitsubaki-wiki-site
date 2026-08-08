@@ -17,7 +17,7 @@ image: /images/songs/sekai/halcyondaydream.jpg
 
 ## 作品概要
 
-星界が2026-06-30にリリースしたシングル「Halcyondaydream」。
+[星界](/ja/artists/isotopes/sekai)が2026-06-30にリリースしたシングル「Halcyondaydream」。
 
 ## 視聴
 {{media-switcher::Halcyondaydream}}

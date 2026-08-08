@@ -17,7 +17,7 @@ image: /images/songs/mimi/声no欠片-feat.-月.jpg
 
 ## Overview
 
-“声の欠片 (feat. 月)” is a single by MIMI, released on 2025-12-26.
+“声の欠片 (feat. 月)” is a single by [MIMI](/en/artists/creators/mimi), released on 2025-12-26.
 
 ## Listen
 {{media-switcher::声の欠片 (feat. 月)}}

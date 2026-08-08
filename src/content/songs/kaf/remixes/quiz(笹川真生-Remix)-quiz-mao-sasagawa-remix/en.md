@@ -19,7 +19,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 ## Overview
 
-“quiz(笹川真生 Remix)” is track 4 of KAF’s 観測γ.
+“quiz(笹川真生 Remix)” is track 4 of [KAF](/en/artists/vwp/kaf)’s [観測γ](/en/albums/kaf/kansoku-gamma).
 
 ## Listen
 

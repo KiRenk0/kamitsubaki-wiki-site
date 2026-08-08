@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 ## Overview
 
-“おやすみ泣き声、さよなら歌姫 (I SCREAM LIVE ver.)” is track 8 on disc 3 of KAF’s I SCREAM LIVE.
+“おやすみ泣き声、さよなら歌姫 (I SCREAM LIVE ver.)” is track 8 on disc 3 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE](/en/albums/kaf/i-scream-live).
 
 ## Listen
 

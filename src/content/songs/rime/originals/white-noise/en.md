@@ -16,7 +16,7 @@ image: /images/songs/rime/white-noise.jpg
 
 ## Overview
 
-“White Noise” is a single by 裏命, released on 2025-11-08.
+“White Noise” is a single by [裏命](/en/artists/isotopes/rime), released on 2025-11-08.
 
 
 ## Lyrics

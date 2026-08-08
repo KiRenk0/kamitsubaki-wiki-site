@@ -17,7 +17,7 @@ image: /images/songs/sekai/音toha.jpg
 
 ## 作品概要
 
-星界が2025-11-30にリリースしたシングル「音とは」。
+[星界](/ja/artists/isotopes/sekai)が2025-11-30にリリースしたシングル「音とは」。
 
 ## 視聴
 @[netease](https://music.163.com/song?id=3320755714 "音とは")

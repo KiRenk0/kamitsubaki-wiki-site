@@ -16,7 +16,7 @@ image: /images/songs/grp/sweet-sour.jpg
 
 ## 作品简介
 
-《sweet/sour》是氷夏至于 2026-01-07 正式发行的作品。
+《sweet/sour》是[氷夏至](/zh/artists/girls_revolution_project/hinageshi)于 2026-01-07 正式发行的作品。
 
 ## 试听
 

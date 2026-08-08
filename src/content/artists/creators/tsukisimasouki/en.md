@@ -46,7 +46,7 @@ seo:
 
 ## Overview
 
-Tsukishima Souki (月島 総記) is a novelist, screenwriter, and game creator who holds a business partnership (業務提携) with KAMITSUBAKI STUDIO. As an external collaborator rather than a full studio member, he contributes narrative expertise drawn from over two decades of professional work spanning novels, games, and anime.
+Tsukishima Souki (月島 総記) is a novelist, screenwriter, and game creator who holds a business partnership (業務提携) with [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio). As an external collaborator rather than a full studio member, he contributes narrative expertise drawn from over two decades of professional work spanning novels, games, and anime.
 
 He debuted in 2005 after winning the Square Enix Novel Grand Prize, launching a career that would see him become one of the more versatile writers working across Japanese media. His ability to craft compelling stories across different formats — from interactive game narratives to serialized anime scripts — makes him a valuable creative partner for a studio that operates at the intersection of music, visuals, and storytelling.
 

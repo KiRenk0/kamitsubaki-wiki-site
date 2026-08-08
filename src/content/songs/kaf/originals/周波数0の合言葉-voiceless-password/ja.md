@@ -19,7 +19,7 @@ image: /images/songs/kaf/track-1872604651.jpg
 
 ## 作品概要
 
-「周波数0の合言葉」は花譜の『深愛』に収録された11曲目です。
+「周波数0の合言葉」は[花譜](/ja/artists/vwp/kaf)の『[深愛](/ja/albums/kaf/shinai)』に収録された11曲目です。
 
 ## 視聴
 

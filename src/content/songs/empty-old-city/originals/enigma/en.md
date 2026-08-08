@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/enigma.jpg
 
 ## Overview
 
-“Enigma” is a single by Empty old City, released on 2022-11-08.
+“Enigma” is a single by [Empty old City](/en/artists/solo/empty-old-city), released on 2022-11-08.
 
 ## Listen
 {{media-switcher::Enigma}}

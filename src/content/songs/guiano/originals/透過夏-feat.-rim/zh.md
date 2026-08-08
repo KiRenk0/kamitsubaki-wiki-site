@@ -17,7 +17,7 @@ image: /images/songs/guiano/透過夏-feat.-rim.jpg
 
 ## 作品简介
 
-Guiano于 2023-01-17 发行的单曲《透過夏 (feat. RIM)》。
+Guiano于 2023-01-17 发行的单曲《透過夏 (feat. [RIM](/zh/artists/vwp/rim))》。
 
 ## 试听
 {{media-switcher::透過夏 (feat. RIM)}}

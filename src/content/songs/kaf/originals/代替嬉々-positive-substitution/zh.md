@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1783267960.jpg
 
 ## 作品简介
 
-《代替嬉々》是花譜收录于《寓話》的第 13 轨。
+《代替嬉々》是[花譜](/zh/artists/vwp/kaf)收录于《[寓話](/zh/albums/kaf/guwa)》的第 13 轨。
 
 ## 试听
 

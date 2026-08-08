@@ -16,7 +16,7 @@ image: /images/songs/sekai/film.jpg
 
 ## 作品概要
 
-星界が2023-05-14にリリースしたシングル「film.」。
+[星界](/ja/artists/isotopes/sekai)が2023-05-14にリリースしたシングル「film.」。
 
 ## 視聴
 {{media-switcher::film.}}

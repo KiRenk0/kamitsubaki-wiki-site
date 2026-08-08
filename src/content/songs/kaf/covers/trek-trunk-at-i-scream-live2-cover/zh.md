@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 ## 作品简介
 
-《TREK TRUNK (I SCREAM LIVE2 ver.)》是花譜收录于《I SCREAM LIVE2》的第 22 轨。
+《TREK TRUNK (I SCREAM LIVE2 ver.)》是[花譜](/zh/artists/vwp/kaf)收录于《[I SCREAM LIVE2](/zh/albums/kaf/i-scream-live-2)》的第 22 轨。
 
 ## 试听
 

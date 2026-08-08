@@ -17,7 +17,7 @@ image: /images/songs/loluet/crack.jpg
 
 ## Overview
 
-“crack” is a single by LOLUET, released on 2024-11-19.
+“crack” is a single by [LOLUET](/en/artists/solo/loluet), released on 2024-11-19.
 
 ## Listen
 {{media-switcher::crack}}

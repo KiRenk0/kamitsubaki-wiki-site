@@ -17,7 +17,7 @@ image: /images/songs/mimi/凪to藍空-feat.-masu.jpg
 
 ## Overview
 
-“凪と藍空 (feat. マス)” is a single by MIMI, released on 2025-12-06.
+“凪と藍空 (feat. マス)” is a single by [MIMI](/en/artists/creators/mimi), released on 2025-12-06.
 
 ## Listen
 {{media-switcher::凪と藍空 (feat. マス)}}

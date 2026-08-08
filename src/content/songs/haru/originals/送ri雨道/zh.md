@@ -17,7 +17,7 @@ image: /images/songs/haru/送ri雨道.jpg
 
 ## 作品简介
 
-羽累于 2024-05-26 发行的单曲《送り雨道》。
+[羽累](/zh/artists/isotopes/haru)于 2024-05-26 发行的单曲《送り雨道》。
 
 ## 试听
 {{media-switcher::送り雨道}}

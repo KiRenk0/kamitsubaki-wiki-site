@@ -17,7 +17,7 @@ image: /images/songs/rime/zenbudoudemo.jpg
 
 ## Overview
 
-“ぜんぶどうでも” is a single by 裏命, released on 2023-08-19.
+“ぜんぶどうでも” is a single by [裏命](/en/artists/isotopes/rime), released on 2023-08-19.
 
 ## Listen
 {{media-switcher::ぜんぶどうでも}}

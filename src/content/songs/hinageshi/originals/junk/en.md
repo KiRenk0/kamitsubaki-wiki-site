@@ -16,7 +16,7 @@ image: /images/songs/grp/junk.jpg
 
 ## Overview
 
-“ジャンク (feat. 内緒のピアス)” is a 氷夏至 release dated 2024-12-04.
+“ジャンク (feat. 内緒のピアス)” is a [氷夏至](/en/artists/girls_revolution_project/hinageshi) release dated 2024-12-04.
 
 ## Listen
 

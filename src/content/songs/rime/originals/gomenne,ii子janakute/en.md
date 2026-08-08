@@ -17,7 +17,7 @@ image: /images/songs/rime/gomenne,ii子janakute.jpg
 
 ## Overview
 
-“ごめんね、いい子じゃなくて” is a single by 裏命, released on 2025-11-20.
+“ごめんね、いい子じゃなくて” is a single by [裏命](/en/artists/isotopes/rime), released on 2025-11-20.
 
 ## Listen
 {{media-switcher::ごめんね、いい子じゃなくて}}

@@ -60,7 +60,7 @@ seo:
 
 ## 概述
 
-ANMC（あのまち）是由游戏创作者冈秀英发起的「indie game x music」项目。凭借 2022 年在 Steam 发行的《ナツノカナタ》受到关注，目前在 KAMITSUBAKI STUDIO 的 ANARCHIC RECORD 生态体系及 KAMITSUBAKI CREATION 框架下开展活动。
+ANMC（あのまち）是由游戏创作者冈秀英发起的「indie game x music」项目。凭借 2022 年在 Steam 发行的《ナツノカナタ》受到关注，目前在 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 的 ANARCHIC RECORD 生态体系及 KAMITSUBAKI CREATION 框架下开展活动。
 
 核心概念是「音乐成为游戏的一片拼图」。从剧本阶段便同步制作游戏、音乐与 MV，由此构建出一个创作者齐聚于游戏世界「あの街」的独特创作模型。
 
@@ -72,7 +72,7 @@ Steam 上目前有《ナツノカナタ》（App ID: 2951340）与第二款作�
 
 ## 代表作品
 
-- 第 6 张单曲：「また旅はネコミミと」feat. kahoca（Empty old City）、一ノ瀬陽鞠
+- 第 6 张单曲：「また旅はネコミミと」feat. kahoca（[Empty old City](/zh/artists/solo/empty-old-city)）、一ノ瀬陽鞠
 - 第 5 张单曲：「ふたりだけの物語」
 - 第 4 张单曲：「moonless」
 - 第 3 张单曲：「月の匂い」feat. WaMi

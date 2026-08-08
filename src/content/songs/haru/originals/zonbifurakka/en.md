@@ -17,7 +17,7 @@ image: /images/songs/haru/zonbifurakka.jpg
 
 ## Overview
 
-“ゾンビフラッカ” is a single by 羽累, released on 2025-08-31.
+“ゾンビフラッカ” is a single by [羽累](/en/artists/isotopes/haru), released on 2025-08-31.
 
 ## Listen
 {{media-switcher::ゾンビフラッカ}}

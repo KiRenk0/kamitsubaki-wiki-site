@@ -17,7 +17,7 @@ image: /images/songs/sekai/星追.jpg
 
 ## Overview
 
-“星追” is a single by 星界, released on 2025-04-06.
+“星追” is a single by [星界](/en/artists/isotopes/sekai), released on 2025-04-06.
 
 ## Listen
 {{media-switcher::星追}}

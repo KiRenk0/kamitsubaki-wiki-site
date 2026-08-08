@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/cirrus-feat.-achu.jpg
 
 ## Overview
 
-“Cirrus (feat. Achu*)” is a single by tokiwa, released on 2022-03-31.
+“Cirrus (feat. Achu*)” is a single by [tokiwa](/en/artists/creators/tokiwa), released on 2022-03-31.
 
 ## Listen
 {{media-switcher::Cirrus (feat. Achu*)}}

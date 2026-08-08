@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/glitch-stage.jpg
 
 ## 作品概要
 
-「ディストーション (Ava1anche Remix)」は『GLITCH STAGE』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「ディストーション (Ava1anche Remix)」は『[GLITCH STAGE](/ja/albums/harusaruhi/glitch-stage)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 試聴
 

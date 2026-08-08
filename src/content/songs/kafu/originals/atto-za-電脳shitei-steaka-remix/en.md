@@ -17,7 +17,7 @@ image: /images/songs/kafu/atto-za-電脳shitei-steaka-remix.jpg
 
 ## Overview
 
-“アット・ザ・電脳シティ(STEAKA Remix)” is a single by 可不, released on 2024-12-20.
+“アット・ザ・電脳シティ(STEAKA Remix)” is a single by [可不](/en/artists/isotopes/kafu), released on 2024-12-20.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/%E3%82%A2%E3%83%83%E3%83%88-%E3%82%B6-%E9%9B%BB%E8%84%B3%E3%82%B7%E3%83%86%E3%82%A3-steaka-remix/1629019282?i=1629019283&uo=4 "アット・ザ・電脳シティ(STEAKA Remix)")

@@ -16,7 +16,7 @@ image: /images/songs/grp/tsuki-e-yuku.jpg
 
 ## 作品简介
 
-《月へゆく》是佳鏡院于 2025-11-12 正式发行的作品。
+《月へゆく》是[佳鏡院](/zh/artists/girls_revolution_project/kakyoin)于 2025-11-12 正式发行的作品。
 
 ## 试听
 

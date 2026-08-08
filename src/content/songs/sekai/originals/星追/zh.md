@@ -17,7 +17,7 @@ image: /images/songs/sekai/星追.jpg
 
 ## 作品简介
 
-星界于 2025-04-06 发行的单曲《星追》。
+[星界](/zh/artists/isotopes/sekai)于 2025-04-06 发行的单曲《星追》。
 
 ## 试听
 {{media-switcher::星追}}

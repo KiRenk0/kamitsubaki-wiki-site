@@ -16,7 +16,7 @@ image: /images/songs/grp/zatsukichou.jpg
 
 ## 作品概要
 
-「雑几帖」は心世紀が2026-02-20にリリースした楽曲です。
+「雑几帖」は[心世紀](/ja/artists/girls_revolution_project/sinseiki)が2026-02-20にリリースした楽曲です。
 
 ## 視聴
 

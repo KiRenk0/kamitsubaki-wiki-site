@@ -17,7 +17,7 @@ image: /images/songs/kafu/voyager.jpg
 
 ## Overview
 
-“Voyager” is a single by 可不, released on 2024-04-04.
+“Voyager” is a single by [可不](/en/artists/isotopes/kafu), released on 2024-04-04.
 
 ## Listen
 {{media-switcher::Voyager}}

@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 ## 作品概要
 
-「危ノーマル(廉 Remix)」は花譜の『魔法γ』に収録された1曲目です。
+「危ノーマル(廉 Remix)」は[花譜](/ja/artists/vwp/kaf)の『[魔法γ](/ja/albums/kaf/maho-gamma)』に収録された1曲目です。
 
 ## 視聴
 

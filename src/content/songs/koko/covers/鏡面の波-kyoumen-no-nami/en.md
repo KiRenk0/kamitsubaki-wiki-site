@@ -19,7 +19,7 @@ image: /images/albums/koko/arare-live.jpg
 
 ## Overview
 
-鏡面の波 feat.ヰ世界情緒 appears on ARARE LIVE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+鏡面の波 feat.[ヰ世界情緒](/en/artists/vwp/isekaijoucho) appears on [ARARE LIVE](/en/albums/koko/arare-live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Lyrics
 

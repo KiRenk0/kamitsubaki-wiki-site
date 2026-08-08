@@ -11,7 +11,7 @@ order: 3
 	深化吧，电子少女们！
 ## 简介
 
-少女革命计划（GIRLS REVOLUTION PROJECT）是 KAMITSUBAKI STUDIO 推出的「音乐×故事」型新厂牌，也是一个由<ruby>神椿工作室<rt>KAMITSUBAKI STUDIO</rt></ruby>和<ruby>深化<rt>FUKAIKA</rt></ruby>共同打造的多媒体项目。项目由多位艺术家与作曲家共同参与，以 XTuber 组合「心世纪」与虚拟歌手组合「罪十罚」的少女们为核心展开。少女们的虚拟形象设计由画师 PALOW. 担任。
+少女革命计划（GIRLS REVOLUTION PROJECT）是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 推出的「音乐×故事」型新厂牌，也是一个由<ruby>神椿工作室<rt>KAMITSUBAKI STUDIO</rt></ruby>和<ruby>深化<rt>FUKAIKA</rt></ruby>共同打造的多媒体项目。项目由多位艺术家与作曲家共同参与，以 XTuber 组合「[心世纪](/zh/artists/girls_revolution_project/sinseiki)」与虚拟歌手组合「[罪十罚](/zh/artists/girls_revolution_project/tsumitobatsu)」的少女们为核心展开。少女们的虚拟形象设计由画师 [PALOW.](/zh/artists/creators/palow) 担任。
 
 企划标语为「A SECRET PROTOCOL THAT HELPS YOU EVOLVE. EVOLVE, ELECTRONIC GIRLS!」（助你进化的秘密协议。进化吧，电子少女们！）。
 
@@ -54,19 +54,19 @@ order: 3
 |                        标题                         |     公开日     |                      作词・作曲・编曲                       |       演唱        |
 | :-----------------------------------------------: | :---------: | :-------------------------------------------------: | :-------------: |
 | <ruby>フェイクナイト・シンデレラ<rt>Fake Night Cinderella</rt></ruby> |  2024年8月9日  |                        矢野達也                         |       心世纪       |
-|                        弔花                         | 2024年8月14日  |                         他人事                         |       罪十罚       |
+|                        弔花                         | 2024年8月14日  |                         [他人事](/zh/artists/creators/hitogoto)                         |       [罪十罚](/zh/artists/girls_revolution_project/tsumitobatsu)       |
 |         <ruby>パーフェクション<rt>Perfection</rt></ruby>         | 2024年9月18日  |         水野あつ（作词）<br>HIDEYA KOJIMA（作编曲）<br>          |       心世纪       |
 |                      DIGGER                       | 2024年9月25日  |            biz（作词）<br>biz、ZERA（作编曲）<br>             |       罪十罚       |
-|                       well                        | 2024年10月9日  |            祭日ハネダ（作词）<br>HiFi-P（作编曲）<br>             |       硝子宫       |
-|             <ruby>アライブ<rt>Alive</rt></ruby>              | 2024年10月16日 |                        夢魅たぴ                         |       氷夏至       |
+|                       well                        | 2024年10月9日  |            祭日ハネダ（作词）<br>[HiFi-P](/zh/artists/creators/hifi-p)（作编曲）<br>             |       [硝子宫](/zh/artists/girls_revolution_project/garasumiya)       |
+|             <ruby>アライブ<rt>Alive</rt></ruby>              | 2024年10月16日 |                        夢魅たぴ                         |       [氷夏至](/zh/artists/girls_revolution_project/hinageshi)       |
 |                    夢の揺籠（梦之摇篮）                     | 2024年10月23日 |                      Wiz_nicc                       |       佳镜院       |
 |             <ruby>アバウト<rt>About</rt></ruby>              | 2024年10月30日 |                      ポリスピカデリー                       |       夕凪机       |
 |                     シンユウ（挚友）                      | 2024年11月6日  |                       wotaku                        |       御莉姬       |
-|           <ruby>セルフィッシュ<rt>Selfish</rt></ruby>           | 2024年11月13日 |                      Shun Ueno                      |       美古途       |
+|           <ruby>セルフィッシュ<rt>Selfish</rt></ruby>           | 2024年11月13日 |                      Shun Ueno                      |       [美古途](/zh/artists/girls_revolution_project/mikoto)       |
 |                    現世回帰（现世回归）                     | 2024年11月20日 |             真崎エリカ（作词）<br>水野谷怜（作编曲）<br>              |     心世纪×罪十罚     |
 |                       アイ（爱）                       | 2024年11月27日 |                        higma                        |       硝子宫       |
 |              <ruby>ジャンク<rt>Junk</rt></ruby>              | 2024年12月4日  |                       内緒のピアス                        |       氷夏至       |
-|                       宇宙逃避行                       | 2024年12月11日 |                        MIMI                         |       佳镜院       |
+|                       宇宙逃避行                       | 2024年12月11日 |                        [MIMI](/zh/artists/creators/mimi)                         |       [佳镜院](/zh/artists/girls_revolution_project/kakyoin)       |
 |         <ruby>プレイヤーわたし<rt>Player Me</rt></ruby>          | 2024年12月18日 |                        harha                        |       夕凪机       |
 |                   Talking Doll                    | 2024年12月25日 |                         他人事                         |       御莉姬       |
 |                   アワセカガミ（镜中世界）                    |  2025年1月8日  |                        木下龍平                         |       美古途       |
@@ -95,8 +95,8 @@ order: 3
 |                     FantastiQ                     | 2025年10月29日 |            ぽん（作词）<br>HIDEYA KOJIMA（作编曲）             |       心世纪       |
 |                       RAVEN                       | 2025年10月29日 |                         梓川                          |       罪十罚       |
 |                    アウフヘーベン（扬弃）                    | 2025年10月29日 |                        椎乃味醂                         |       罪十罚       |
-|                   Brrrrrreak It                   | 2025年10月29日 |                        平田義久                         |       罪十罚       |
-|                       Envy                        | 2025年10月29日 |              tokiwa（作词作曲）<br>朝比奈健人（编曲）              |       罪十罚       |
+|                   Brrrrrreak It                   | 2025年10月29日 |                        [平田義久](/zh/artists/creators/hiratayoshihisa)                         |       [罪十罚](/zh/artists/girls_revolution_project/tsumitobatsu)       |
+|                       Envy                        | 2025年10月29日 |              [tokiwa](/zh/artists/creators/tokiwa)（作词作曲）<br>朝比奈健人（编曲）              |       [罪十罚](/zh/artists/girls_revolution_project/tsumitobatsu)       |
 |                        改変                         | 2025年10月29日 |         たなか（作词作曲）<br>Kazuto Okawa:LLLL（编曲）          |     心世纪×罪十罚     |
 |                    月へゆく（前往月亮）                     | 2025年11月12日 |                        tama                         |       佳镜院       |
 |                  Masquerade Kill                  | 2025年11月26日 |                          廉                          |       御莉姬       |
@@ -119,7 +119,7 @@ order: 3
 ### 音乐活动
 
 - **KAMITSUBAKI FES '24 THE DAY THE EARTH STOOD STILL**
-    - 出演：佳鏡院、御莉姫、硝子宮、美古途、夕凪機、氷夏至
+    - 出演：[佳鏡院](/zh/artists/girls_revolution_project/kakyoin)、[御莉姫](/zh/artists/girls_revolution_project/orihime)、[硝子宮](/zh/artists/girls_revolution_project/garasumiya)、[美古途](/zh/artists/girls_revolution_project/mikoto)、[夕凪機](/zh/artists/girls_revolution_project/yunagi)、[氷夏至](/zh/artists/girls_revolution_project/hinageshi)
 - **KAMITSUBAKI WARS 2024 神椿幕張戦線 V.W.P 2nd ONE-MAN LIVE「現象II（再）」**
     - 出演：御莉姫、美古途、夕凪機、氷夏至
 - **KAMITSUBAKI WARS 2025 神椿川崎戦線 少女革命計画 1st LIVE/第一幕『改変』**
@@ -144,8 +144,8 @@ order: 3
 ### 联动活动
 
 - IMAGINARY BASE AKIHABARA×少女革命計画
-    - 第1弾「心世紀」（2025年3月1日～3月31日）
-    - 第2弾「罪十罰」（2025年4月1日～4月29日）
+    - 第1弾「[心世紀](/zh/artists/girls_revolution_project/sinseiki)」（2025年3月1日～3月31日）
+    - 第2弾「[罪十罰](/zh/artists/girls_revolution_project/tsumitobatsu)」（2025年4月1日～4月29日）
 - 『少女革命計画』×カラオケの鉄人（2025年7月23日～8月31日）
 - 少女革命計画×岡田美術館 ー絢爛革命 心・罪ー（2026年1月31日～3月31日）
 

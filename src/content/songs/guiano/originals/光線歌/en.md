@@ -17,7 +17,7 @@ image: /images/songs/guiano/光線歌.jpg
 
 ## Overview
 
-“光線歌” is a single by Guiano, released on 2025-06-07.
+“光線歌” is a single by [Guiano](/en/artists/creators/guiano), released on 2025-06-07.
 
 ## Listen
 {{media-switcher::光線歌}}

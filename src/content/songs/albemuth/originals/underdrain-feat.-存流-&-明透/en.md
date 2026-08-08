@@ -17,7 +17,7 @@ image: /images/songs/albemuth/underdrain-feat.-存流-&-明透.jpg
 
 ## Overview
 
-“Underdrain (feat. 存流 & 明透)” is a single by Albemuth, released on 2023-08-16.
+“Underdrain (feat. 存流 & [明透](/en/artists/solo/asu))” is a single by [Albemuth](/en/artists/solo/albemuth), released on 2023-08-16.
 
 ## Listen
 {{media-switcher::Underdrain (feat. 存流 & 明透)}}

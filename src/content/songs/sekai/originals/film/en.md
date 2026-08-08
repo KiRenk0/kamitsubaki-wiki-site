@@ -16,7 +16,7 @@ image: /images/songs/sekai/film.jpg
 
 ## Overview
 
-“film.” is a single by 星界, released on 2023-05-14.
+“film.” is a single by [星界](/en/artists/isotopes/sekai), released on 2023-05-14.
 
 ## Listen
 {{media-switcher::film.}}

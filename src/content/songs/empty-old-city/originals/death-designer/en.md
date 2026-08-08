@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/death-designer.jpg
 
 ## Overview
 
-“Death Designer” is a single by Empty old City, released on 2025-02-04.
+“Death Designer” is a single by [Empty old City](/en/artists/solo/empty-old-city), released on 2025-02-04.
 
 ## Listen
 {{media-switcher::Death Designer}}

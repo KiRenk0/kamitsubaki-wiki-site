@@ -17,7 +17,7 @@ image: /images/songs/kafu/sutoreishiipu.jpg
 
 ## Overview
 
-“ストレイシープ” is a single by 可不, released on 2023-03-23.
+“ストレイシープ” is a single by [可不](/en/artists/isotopes/kafu), released on 2023-03-23.
 
 ## Listen
 {{media-switcher::ストレイシープ}}

@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 ## Overview
 
-“戸惑いテレパシー(あめのむらくもP Remix)” is track 4 of KAF’s 魔法γ.
+“戸惑いテレパシー(あめのむらくもP Remix)” is track 4 of [KAF](/en/artists/vwp/kaf)’s [魔法γ](/en/albums/kaf/maho-gamma).
 
 ## Listen
 

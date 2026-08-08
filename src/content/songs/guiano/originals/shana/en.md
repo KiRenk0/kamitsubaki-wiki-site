@@ -17,7 +17,7 @@ image: /images/songs/guiano/shana.jpg
 
 ## Overview
 
-“シャナ” is a single by Guiano, released on 2019-12-25.
+“シャナ” is a single by [Guiano](/en/artists/creators/guiano), released on 2019-12-25.
 
 ## Listen
 {{media-switcher::シャナ}}

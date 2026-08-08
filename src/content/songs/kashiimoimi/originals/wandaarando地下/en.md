@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/wandaarando地下.jpg
 
 ## Overview
 
-“ワンダーランド地下” is a single by 香椎モイミ, released on 2024-05-14.
+“ワンダーランド地下” is a single by [香椎モイミ](/en/artists/creators/kashiimoimi), released on 2024-05-14.
 
 ## Listen
 {{media-switcher::ワンダーランド地下}}

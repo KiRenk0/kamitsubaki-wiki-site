@@ -17,7 +17,7 @@ image: /images/songs/rime/現象rabu-songu.jpg
 
 ## 作品概要
 
-裏命が2026-03-29にリリースしたシングル「現象ラブ・ソング」。
+[裏命](/ja/artists/isotopes/rime)が2026-03-29にリリースしたシングル「現象ラブ・ソング」。
 
 ## 視聴
 {{media-switcher::現象ラブ・ソング}}

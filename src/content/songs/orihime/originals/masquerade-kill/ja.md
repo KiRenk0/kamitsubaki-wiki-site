@@ -16,7 +16,7 @@ image: /images/songs/grp/masquerade-kill.jpg
 
 ## 作品概要
 
-「Masquerade Kill」は御莉姫が2025-11-26にリリースした楽曲です。
+「Masquerade Kill」は[御莉姫](/ja/artists/girls_revolution_project/orihime)が2025-11-26にリリースした楽曲です。
 
 ## 視聴
 

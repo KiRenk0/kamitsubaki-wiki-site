@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/niwl.jpg
 
 ## Overview
 
-“niwl” is a single by tokiwa, released on 2023-05-11.
+“niwl” is a single by [tokiwa](/en/artists/creators/tokiwa), released on 2023-05-11.
 
 ## Listen
 {{media-switcher::niwl}}

@@ -17,7 +17,7 @@ image: /images/songs/guiano/faker.jpg
 
 ## Overview
 
-“faker” is a single by Guiano, released on 2024-04-23.
+“faker” is a single by [Guiano](/en/artists/creators/guiano), released on 2024-04-23.
 
 ## Listen
 {{media-switcher::faker}}

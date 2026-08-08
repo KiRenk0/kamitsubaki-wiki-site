@@ -17,7 +17,7 @@ image: /images/songs/valis/pikapikakyandeirabuizumu-vitte.jpg
 
 ## Overview
 
-“ピカピカキャンディラブイズム(VITTE)” is a single by VALIS, released on 2023-06-24.
+“ピカピカキャンディラブイズム(VITTE)” is a single by [VALIS](/en/artists/solo/valis), released on 2023-06-24.
 
 ## Listen
 {{media-switcher::ピカピカキャンディラブイズム(VITTE)}}

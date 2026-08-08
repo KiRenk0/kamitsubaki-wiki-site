@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/buruuhiiroo.jpg
 
 ## 作品简介
 
-香椎モイミ于 2026-03-10 发行的单曲《ブルーヒーロー》。
+[香椎モイミ](/zh/artists/creators/kashiimoimi)于 2026-03-10 发行的单曲《ブルーヒーロー》。
 
 ## 试听
 {{media-switcher::ブルーヒーロー}}

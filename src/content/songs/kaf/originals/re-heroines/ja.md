@@ -19,7 +19,7 @@ image: /images/albums/kaf/kansoku.jpg
 
 ## 作品概要
 
-「Re:HEROINES」は花譜の『観測』に収録された6曲目です。
+「Re:HEROINES」は[花譜](/ja/artists/vwp/kaf)の『[観測](/ja/albums/kaf/kansoku)』に収録された6曲目です。
 
 ## 視聴
 

@@ -16,7 +16,7 @@ image: /images/songs/grp/shock.jpg
 
 ## 作品概要
 
-「SHOCK」は罪十罰が2025-05-07にリリースした楽曲です。
+「SHOCK」は[罪十罰](/ja/artists/girls_revolution_project/tsumitobatsu)が2025-05-07にリリースした楽曲です。
 
 ## 視聴
 

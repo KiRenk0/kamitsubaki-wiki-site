@@ -17,7 +17,7 @@ image: /images/songs/anmc/my-dad-is-a.jpg
 
 ## Overview
 
-“My Dad is A” is a single by ANMC, released on 2026-06-12.
+“My Dad is A” is a single by [ANMC](/en/artists/solo/anmc), released on 2026-06-12.
 
 ## Listen
 {{media-switcher::My Dad is A}}

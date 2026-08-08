@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 
 ## Overview
 
-“海に化ける(他人事 Remix)” is track 1 of KAF’s 狂想γ.
+“海に化ける([他人事](/en/artists/creators/hitogoto) Remix)” is track 1 of [KAF](/en/artists/vwp/kaf)’s [狂想γ](/en/albums/kaf/kyoso-gamma).
 
 ## Listen
 

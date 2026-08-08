@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/akumunohikari.jpg
 
 ## Overview
 
-“あくむのひかり” is a single by 香椎モイミ, released on 2025-10-14.
+“あくむのひかり” is a single by [香椎モイミ](/en/artists/creators/kashiimoimi), released on 2025-10-14.
 
 ## Listen
 {{media-switcher::あくむのひかり}}

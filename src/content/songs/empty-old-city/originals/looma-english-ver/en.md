@@ -16,7 +16,7 @@ image: /images/songs/empty-old-city/looma-english-ver.jpg
 
 ## Overview
 
-“Looma (English Ver.)” is a single by Empty old City, released on 2026-06-30.
+“Looma (English Ver.)” is a single by [Empty old City](/en/artists/solo/empty-old-city), released on 2026-06-30.
 
 ## Listen
 {{media-switcher::Looma (English Ver.)}}

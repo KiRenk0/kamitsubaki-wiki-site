@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/somunia.jpg
 
 ## Overview
 
-“ソムニア” is a single by tokiwa, released on 2005-11-22.
+“ソムニア” is a single by [tokiwa](/en/artists/creators/tokiwa), released on 2005-11-22.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/%E3%82%BD%E3%83%A0%E3%83%8B%E3%82%A2/1681691051?i=1681691052&uo=4 "ソムニア")

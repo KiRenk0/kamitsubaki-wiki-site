@@ -61,7 +61,7 @@ teresaAI是一位以te'resa名义开始活动的3DCG虚拟歌手，东京出生�
 
 ## 角色与创作定位
 
-teresaAI的音乐根植于跨太平洋的成长背景，以日语和英语流行乐为基础。从明亮易记的"I Wanna Be Your Girl!"到成熟且富有氛围感的EP《predawn》，展现了丰富的音乐风格。2022年6月25日与Rim的"IMAGINARY WORLD"现场合作演出，进一步巩固了她在SINSEKAI RECORD艺术家网络中的位置。
+teresaAI的音乐根植于跨太平洋的成长背景，以日语和英语流行乐为基础。从明亮易记的"I Wanna Be Your Girl!"到成熟且富有氛围感的EP《predawn》，展现了丰富的音乐风格。2022年6月25日与Rim的"IMAGINARY WORLD"现场合作演出，进一步巩固了她在[SINSEKAI RECORD](/zh/projects/labels/sinsekai-studio)艺术家网络中的位置。
 
 2023年的分裂使teresaAI不再仅仅是一个艺术家项目，更成为一个产品：一个继承原始虚拟歌手音色的音声合成引擎，将声音延伸至创作者主导的制作领域。
 
@@ -71,7 +71,7 @@ teresaAI的音乐根植于跨太平洋的成长背景，以日语和英语流行
 - 出演中国英特尔电视广告，获得主流知名度。
 - 入选 NYLON'S NEXT 2021。
 - **2022年6月25日**：与 Rim 举办首次双人演唱会「IMAGINARY WORLD」。
-- **2023年2月22日**：参加「αU research × KAMITSUBAKI STUDIO presents prompt αU」。
+- **2023年2月22日**：参加「αU research × [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) presents prompt αU」。
 - **2023年3月**：正式分裂为语音合成软件「teresaAI」与真人艺术家「ELЁNA」。
 
 ## 代表作品与相关条目

@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/wandaarando地下.jpg
 
 ## 作品简介
 
-香椎モイミ于 2024-05-14 发行的单曲《ワンダーランド地下》。
+[香椎モイミ](/zh/artists/creators/kashiimoimi)于 2024-05-14 发行的单曲《ワンダーランド地下》。
 
 ## 试听
 {{media-switcher::ワンダーランド地下}}

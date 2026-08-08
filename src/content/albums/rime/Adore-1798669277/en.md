@@ -70,7 +70,7 @@ tracks:
 
 ## Overview
 
-裏命's album “Adore”, released on 2025-03-15, featuring 12 tracks.
+[裏命](/en/artists/isotopes/rime)'s album “Adore”, released on 2025-03-15, featuring 12 tracks.
 
 ## Track List
 
@@ -78,7 +78,7 @@ tracks:
 2. くびったけ (01:52)
 3. おえっぷ。 (02:47)
 4. モルゲンロート (03:42)
-5. DENY (feat. 可不) (03:01)
+5. DENY (feat. [可不](/en/artists/isotopes/kafu)) (03:01)
 6. これ、風邪じゃないの? (02:22)
 7. ロビン (04:00)
 8. ネクローシス (03:19)

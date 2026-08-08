@@ -51,7 +51,7 @@ seo:
 
 香椎モイミ（Kashii Moimi）是一位于 2018年12月出道的女性 VocaloP。她以黑暗而富有中毒性的旋律搭配独特的女性视角，迅速在创作者群体中崭露头角。她的音乐风格难以简单归类，将钢琴与弦乐的抒情基底、EDM 的电子律动以及城市流行（City Pop）的质感巧妙融合，形成了独树一帜的跨界美学。
 
-隶属 ANARCHIC RECORD 厂牌，香椎モイミ在出道后约两年内发布了约 30 首作品。代表作「キャットラビング」（Cat Loving）播放量超过 2,400 万，「偏食」（Henshoku）播放量超过 200 万，使她成为厂牌中商业成绩最为突出的创作者之一。
+隶属 ANARCHIC RECORD 厂牌，香椎モイミ在出道后约两年内发布了约 30 首作品。代表作「[キャットラビング](/zh/songs/kashiimoimi/originals/kyattorabingu)」（Cat Loving）播放量超过 2,400 万，「偏食」（Henshoku）播放量超过 200 万，使她成为厂牌中商业成绩最为突出的创作者之一。
 
 ## 角色与创作定位
 
@@ -63,25 +63,25 @@ seo:
 
 - 「キャットラビング」（Cat Loving）-- 2,400 万+ 播放
 - 「偏食」（Henshoku）-- 200 万+ 播放
-- 「管理欲」
-- 「ブルーヒーロー」（Blue Hero）
-- 「あくむのひかり」
-- 「飛翔」
-- 「失踪前夜」
-- 「バッドエンドメーカー」（Bad End Maker）
-- 「Human-Like」
-- 「ワンダーランド地下」
-- 「蜂蜜日記」
+- 「[管理欲](/zh/songs/kashiimoimi/originals/管理欲)」
+- 「[ブルーヒーロー](/zh/songs/kashiimoimi/originals/buruuhiiroo)」（Blue Hero）
+- 「[あくむのひかり](/zh/songs/kashiimoimi/originals/akumunohikari)」
+- 「[飛翔](/zh/songs/kashiimoimi/originals/飛翔)」
+- 「[失踪前夜](/zh/songs/kashiimoimi/originals/失踪前夜)」
+- 「[バッドエンドメーカー](/zh/songs/kashiimoimi/originals/baddoendomeekaa)」（Bad End Maker）
+- 「[Human-Like](/zh/songs/kashiimoimi/originals/human-like)」
+- 「[ワンダーランド地下](/zh/songs/kashiimoimi/originals/wandaarando地下)」
+- 「[蜂蜜日記](/zh/songs/kashiimoimi/originals/蜂蜜日記)」
 
 ## 活动历程与投稿统计
 
-香椎モイミ于 2018年12月15日在 niconico 与 YouTube 投稿 VOCALOID 处女作《そっか》，2020年7月8日进入 Bilibili。2021年7月17日投稿由可不演唱的《キャットラビング》，成为她的首首传说曲；2022年7月该曲 YouTube 播放量突破一千万。她于 2021年10月18日加入神椿。
+香椎モイミ于 2018年12月15日在 niconico 与 YouTube 投稿 VOCALOID 处女作《そっか》，2020年7月8日进入 Bilibili。2021年7月17日投稿由[可不](/zh/artists/isotopes/kafu)演唱的《[キャットラビング](/zh/songs/kashiimoimi/originals/kyattorabingu)》，成为她的首首传说曲；2022年7月该曲 YouTube 播放量突破一千万。她于 2021年10月18日加入神椿。
 
-资料整理截至 2024年4月27日记录其共投稿 53 首 VOCALOID / CeVIO 原创曲，其中 15 首达成殿堂、1 首达成传说。她偏爱 KAITO，也长期为ヰ世界情绪供曲，并负责过星界翻唱示范曲的调声。个人创作外，她与檀上大空等画师有公开合作与互动。
+资料整理截至 2024年4月27日记录其共投稿 53 首 VOCALOID / CeVIO 原创曲，其中 15 首达成殿堂、1 首达成传说。她偏爱 KAITO，也长期为[ヰ世界情绪](/zh/artists/vwp/isekaijoucho)供曲，并负责过[星界](/zh/artists/isotopes/sekai)翻唱示范曲的调声。个人创作外，她与檀上大空等画师有公开合作与互动。
 
 ## 代表专辑与合作
 
-代表曲包括《キャットラビング》《偏食》《管理欲》《ブルーヒーロー》《あくむのひかり》《飛翔》《失踪前夜》《バッドエンドメーカー》《Human-Like》《ワンダーランド地下》《蜂蜜日記》。专辑线索包括《渇愛》和《偏愛》；记录时应区分 VOCALOID / CeVIO 投稿、为神椿艺人供曲、翻唱示范和个人专辑。
+代表曲包括《[キャットラビング](/zh/songs/kashiimoimi/originals/kyattorabingu)》《偏食》《[管理欲](/zh/songs/kashiimoimi/originals/管理欲)》《[ブルーヒーロー](/zh/songs/kashiimoimi/originals/buruuhiiroo)》《[あくむのひかり](/zh/songs/kashiimoimi/originals/akumunohikari)》《[飛翔](/zh/songs/kashiimoimi/originals/飛翔)》《[失踪前夜](/zh/songs/kashiimoimi/originals/失踪前夜)》《[バッドエンドメーカー](/zh/songs/kashiimoimi/originals/baddoendomeekaa)》《[Human-Like](/zh/songs/kashiimoimi/originals/human-like)》《[ワンダーランド地下](/zh/songs/kashiimoimi/originals/wandaarando地下)》《[蜂蜜日記](/zh/songs/kashiimoimi/originals/蜂蜜日記)》。专辑线索包括《[渇愛](/zh/albums/kashiimoimi/渇愛-1525996939)》和《[偏愛](/zh/albums/kashiimoimi/偏愛-1667770496)》；记录时应区分 VOCALOID / CeVIO 投稿、为神椿艺人供曲、翻唱示范和个人专辑。
 
 ## 参考资料
 

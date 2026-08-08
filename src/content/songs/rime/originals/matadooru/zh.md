@@ -17,7 +17,7 @@ image: /images/songs/rime/matadooru.jpg
 
 ## 作品简介
 
-裏命于 2023-05-27 发行的单曲《マタドール》。
+[裏命](/zh/artists/isotopes/rime)于 2023-05-27 发行的单曲《マタドール》。
 
 ## 试听
 {{media-switcher::マタドール}}

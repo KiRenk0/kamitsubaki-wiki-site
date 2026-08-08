@@ -19,7 +19,7 @@ image: /images/albums/kaf/yoru-ga-furiyamu-mae-ni.jpg
 
 ## 作品简介
 
-花谱第七首原创曲，由カンザキイオリ作词、作曲与编曲。
+[花谱](/zh/artists/vwp/kaf)第七首原创曲，由[カンザキイオリ](/zh/artists/creators/kanzaki-iori)作词、作曲与编曲。
 
 ## 试听
 

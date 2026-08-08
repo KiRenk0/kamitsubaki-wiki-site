@@ -16,7 +16,7 @@ image: /images/songs/grp/gense-kaiki.jpg
 
 ## Overview
 
-“現世回帰 (feat. 御莉姫, 佳鏡院, 硝子宮, 氷夏至, 美古途, 夕凪機 & 水野谷 怜)” is a 少女革命計画 release dated 2024-11-20.
+“現世回帰 (feat. [御莉姫](/en/artists/girls_revolution_project/orihime), [佳鏡院](/en/artists/girls_revolution_project/kakyoin), [硝子宮](/en/artists/girls_revolution_project/garasumiya), [氷夏至](/en/artists/girls_revolution_project/hinageshi), [美古途](/en/artists/girls_revolution_project/mikoto), [夕凪機](/en/artists/girls_revolution_project/yunagi) & 水野谷 怜)” is a [少女革命計画](/en/projects/labels/girls-revolution-project) release dated 2024-11-20.
 
 ## Listen
 

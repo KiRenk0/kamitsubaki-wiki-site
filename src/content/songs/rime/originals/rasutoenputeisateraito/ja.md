@@ -17,7 +17,7 @@ image: /images/songs/rime/rasutoenputeisateraito.jpg
 
 ## 作品概要
 
-裏命が2025-12-20にリリースしたシングル「ラストエンプティサテライト」。
+[裏命](/ja/artists/isotopes/rime)が2025-12-20にリリースしたシングル「ラストエンプティサテライト」。
 
 ## 視聴
 {{media-switcher::ラストエンプティサテライト}}

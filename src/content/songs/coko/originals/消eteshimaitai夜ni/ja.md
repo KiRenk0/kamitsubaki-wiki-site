@@ -17,7 +17,7 @@ image: /images/songs/coko/消eteshimaitai夜ni.jpg
 
 ## 作品概要
 
-狐子が2025-11-14にリリースしたシングル「消えてしまいたい夜に」。
+[狐子](/ja/artists/isotopes/coko)が2025-11-14にリリースしたシングル「消えてしまいたい夜に」。
 
 ## 視聴
 {{media-switcher::消えてしまいたい夜に}}

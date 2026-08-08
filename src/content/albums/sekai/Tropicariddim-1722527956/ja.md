@@ -70,7 +70,7 @@ tracks:
 
 ## 概要
 
-星界が2023-12-21にリリースしたアルバム『Tropicariddim!』。全12曲を収録。
+[星界](/ja/artists/isotopes/sekai)が2023-12-21にリリースしたアルバム『Tropicariddim!』。全12曲を収録。
 
 ## 収録曲
 

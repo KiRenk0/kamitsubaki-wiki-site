@@ -20,7 +20,7 @@ image: /images/songs/musical-isotope/辺獄ekonomika.jpg
 
 ## Overview
 
-“辺獄エコノミカ” is a single by 音楽的同位体, released on 2023-11-12.
+“辺獄エコノミカ” is a single by [音楽的同位体](/en/artists/solo/musical-isotope), released on 2023-11-12.
 
 ## Listen
 {{media-switcher::辺獄エコノミカ}}

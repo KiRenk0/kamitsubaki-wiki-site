@@ -20,7 +20,7 @@ image: /images/songs/haru/過去wo刺su.jpg
 
 ## 作品概要
 
-羽累が2025-02-20にリリースしたシングル「過去を刺す」。
+[羽累](/ja/artists/isotopes/haru)が2025-02-20にリリースしたシングル「過去を刺す」。
 
 ## 視聴
 {{media-switcher::過去を刺す}}

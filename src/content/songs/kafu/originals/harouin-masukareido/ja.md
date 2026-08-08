@@ -17,7 +17,7 @@ image: /images/songs/kafu/harouin-masukareido.jpg
 
 ## 作品概要
 
-可不が2022-11-09にリリースしたシングル「ハロウィン・マスカレイド」。
+[可不](/ja/artists/isotopes/kafu)が2022-11-09にリリースしたシングル「ハロウィン・マスカレイド」。
 
 ## 視聴
 {{media-switcher::ハロウィン・マスカレイド}}

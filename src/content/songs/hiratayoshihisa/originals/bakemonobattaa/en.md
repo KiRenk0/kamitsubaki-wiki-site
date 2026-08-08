@@ -17,7 +17,7 @@ image: /images/songs/hiratayoshihisa/bakemonobattaa.jpg
 
 ## Overview
 
-“バケモノバッター” is a single by 平田義久, released on 2022-01-28.
+“バケモノバッター” is a single by [平田義久](/en/artists/creators/hiratayoshihisa), released on 2022-01-28.
 
 ## Listen
 {{media-switcher::バケモノバッター}}

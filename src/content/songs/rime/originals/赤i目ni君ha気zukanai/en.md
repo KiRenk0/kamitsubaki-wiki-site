@@ -17,7 +17,7 @@ image: /images/songs/rime/赤i目ni君ha気zukanai.jpg
 
 ## Overview
 
-“赤い目に君は気づかない” is a single by 裏命, released on 2025-03-22.
+“赤い目に君は気づかない” is a single by [裏命](/en/artists/isotopes/rime), released on 2025-03-22.
 
 ## Listen
 {{media-switcher::赤い目に君は気づかない}}

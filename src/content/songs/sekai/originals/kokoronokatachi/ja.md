@@ -17,7 +17,7 @@ image: /images/songs/sekai/kokoronokatachi.jpg
 
 ## 作品概要
 
-星界が2022-10-14にリリースしたシングル「ココロノカタチ」。
+[星界](/ja/artists/isotopes/sekai)が2022-10-14にリリースしたシングル「ココロノカタチ」。
 
 ## 視聴
 {{media-switcher::ココロノカタチ}}

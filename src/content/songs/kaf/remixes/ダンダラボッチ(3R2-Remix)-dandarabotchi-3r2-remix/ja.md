@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 ## 作品概要
 
-「ダンダラボッチ(3R2 Remix)」は花譜の『寓話γ』に収録された8曲目です。
+「ダンダラボッチ(3R2 Remix)」は[花譜](/ja/artists/vwp/kaf)の『[寓話γ](/ja/albums/kaf/guwa-gamma)』に収録された8曲目です。
 
 ## 視聴
 

@@ -18,7 +18,7 @@ image: /images/albums/kaf/maho.jpg
 
 ## 作品概要
 
-「世界線は分岐する(Instrumental)」は花譜の『魔法』に収録された15曲目です。
+「世界線は分岐する(Instrumental)」は[花譜](/ja/artists/vwp/kaf)の『[魔法](/ja/albums/kaf/maho)』に収録された15曲目です。
 
 ## 視聴
 

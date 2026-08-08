@@ -20,7 +20,7 @@ image: /images/songs/rime/kotobatarazu.jpg
 
 ## Overview
 
-“ことばたらず” is a single by 裏命, released on 2025-09-16.
+“ことばたらず” is a single by [裏命](/en/artists/isotopes/rime), released on 2025-09-16.
 
 ## Listen
 {{media-switcher::ことばたらず}}

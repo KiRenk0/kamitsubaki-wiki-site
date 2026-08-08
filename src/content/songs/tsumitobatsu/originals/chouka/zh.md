@@ -16,7 +16,7 @@ image: /images/songs/grp/chouka.jpg
 
 ## 作品简介
 
-《弔花》是罪十罰于 2024-08-14 正式发行的作品。
+《弔花》是[罪十罰](/zh/artists/girls_revolution_project/tsumitobatsu)于 2024-08-14 正式发行的作品。
 
 ## 试听
 

@@ -17,7 +17,7 @@ image: /images/songs/loluet/双生konfurikuto-feat.-wi世界情緒.jpg
 
 ## Overview
 
-“双生コンフリクト feat. ヰ世界情緒” is a single by LOLUET, released on 2026-07-21.
+“双生コンフリクト feat. [ヰ世界情緒](/en/artists/vwp/isekaijoucho)” is a single by [LOLUET](/en/artists/solo/loluet), released on 2026-07-21.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/%E5%8F%8C%E7%94%9F%E3%82%B3%E3%83%B3%E3%83%95%E3%83%AA%E3%82%AF%E3%83%88-feat-%E3%83%B0%E4%B8%96%E7%95%8C%E6%83%85%E7%B7%92/1760084629?i=1760084630&uo=4 "双生コンフリクト feat. ヰ世界情緒")

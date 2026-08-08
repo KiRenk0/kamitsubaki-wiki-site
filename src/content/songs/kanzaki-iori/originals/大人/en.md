@@ -17,7 +17,7 @@ image: /images/songs/kanzaki-iori/大人.jpg
 
 ## Overview
 
-“大人” is a single by カンザキイオリ, released on 2021-08-10.
+“大人” is a single by [カンザキイオリ](/en/artists/creators/kanzaki-iori), released on 2021-08-10.
 
 ## Listen
 {{media-switcher::大人}}

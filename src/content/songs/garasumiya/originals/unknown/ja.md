@@ -16,7 +16,7 @@ image: /images/songs/grp/unknown.jpg
 
 ## 作品概要
 
-「unknown」は硝子宮が2025-03-26にリリースした楽曲です。
+「unknown」は[硝子宮](/ja/artists/girls_revolution_project/garasumiya)が2025-03-26にリリースした楽曲です。
 
 ## 視聴
 

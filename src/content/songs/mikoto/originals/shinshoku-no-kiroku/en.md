@@ -16,7 +16,7 @@ image: /images/songs/grp/shinshoku-no-kiroku.jpg
 
 ## Overview
 
-“侵蝕の記録” is a 美古途 release dated 2026-02-18.
+“侵蝕の記録” is a [美古途](/en/artists/girls_revolution_project/mikoto) release dated 2026-02-18.
 
 ## Listen
 

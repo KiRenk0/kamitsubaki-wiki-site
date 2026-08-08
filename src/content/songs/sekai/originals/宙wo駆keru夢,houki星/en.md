@@ -16,7 +16,7 @@ image: /images/songs/sekai/宙wo駆keru夢,houki星.jpg
 
 ## Overview
 
-“宙を駆ける夢、ほうき星。” is a single by 星界, released on 2023-06-14.
+“宙を駆ける夢、ほうき星。” is a single by [星界](/en/artists/isotopes/sekai), released on 2023-06-14.
 
 ## Listen
 {{media-switcher::宙を駆ける夢、ほうき星。}}

@@ -19,7 +19,7 @@ image: /images/songs/harusaruhi/single-1889319192.jpg
 
 ## Overview
 
-Splash. (feat. 春猿火) appears on Splash. or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+Splash. (feat. [春猿火](/en/artists/vwp/harusaruhi)) appears on Splash. or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

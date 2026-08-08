@@ -16,7 +16,7 @@ image: /images/songs/grp/player-watashi.jpg
 
 ## Overview
 
-“プレイヤーわたし” is a 夕凪機 release dated 2024-12-18.
+“プレイヤーわたし” is a [夕凪機](/en/artists/girls_revolution_project/yunagi) release dated 2024-12-18.
 
 ## Listen
 

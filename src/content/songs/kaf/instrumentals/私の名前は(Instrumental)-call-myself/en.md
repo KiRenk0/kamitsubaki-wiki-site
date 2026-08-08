@@ -17,7 +17,7 @@ image: /images/albums/kaf/shinai.jpg
 
 ## Overview
 
-“私の名前は (Instrumental)” is track 15 of KAF’s 深愛.
+“私の名前は (Instrumental)” is track 15 of [KAF](/en/artists/vwp/kaf)’s [深愛](/en/albums/kaf/shinai).
 
 ## Listen
 

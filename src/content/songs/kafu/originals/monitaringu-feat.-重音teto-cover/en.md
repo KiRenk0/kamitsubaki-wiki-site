@@ -17,7 +17,7 @@ image: /images/songs/kafu/monitaringu-feat.-重音teto-cover.jpg
 
 ## Overview
 
-“モニタリング (feat. 重音テト) [Cover]” is a single by 可不, released on 2025-12-17.
+“モニタリング (feat. 重音テト) [Cover]” is a single by [可不](/en/artists/isotopes/kafu), released on 2025-12-17.
 
 ## Listen
 {{media-switcher::モニタリング (feat. 重音テト) [Cover]}}

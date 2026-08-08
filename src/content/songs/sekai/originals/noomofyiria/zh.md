@@ -17,7 +17,7 @@ image: /images/songs/sekai/noomofyiria.jpg
 
 ## 作品简介
 
-星界于 2016-02-16 发行的单曲《ノーモフィリア》。
+[星界](/zh/artists/isotopes/sekai)于 2016-02-16 发行的单曲《ノーモフィリア》。
 
 ## 试听
 @[apple-music](https://music.apple.com/jp/album/%E3%83%8E%E3%83%BC%E3%83%A2%E3%83%95%E3%82%A3%E3%83%AA%E3%82%A2/1851487241?i=1851487245&uo=4 "ノーモフィリア")

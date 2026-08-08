@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 ## Overview
 
-“あなたの夜が明けるまで (I SCREAM LIVE ver.)” is track 11 on disc 2 of KAF’s I SCREAM LIVE.
+“あなたの夜が明けるまで (I SCREAM LIVE ver.)” is track 11 on disc 2 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE](/en/albums/kaf/i-scream-live).
 
 ## Listen
 

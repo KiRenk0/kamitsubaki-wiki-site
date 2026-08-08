@@ -17,7 +17,7 @@ image: /images/songs/kanzaki-iori/偶像.jpg
 
 ## 作品简介
 
-カンザキイオリ于 2022-02-28 发行的单曲《偶像》。
+[カンザキイオリ](/zh/artists/creators/kanzaki-iori)于 2022-02-28 发行的单曲《偶像》。
 
 ## 试听
 {{media-switcher::偶像}}

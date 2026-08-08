@@ -17,7 +17,7 @@ image: /images/songs/mimi/光no残ri方.jpg
 
 ## Overview
 
-“光の残り方” is a single by MIMI, released on 2026-03-22.
+“光の残り方” is a single by [MIMI](/en/artists/creators/mimi), released on 2026-03-22.
 
 ## Listen
 {{media-switcher::光の残り方}}

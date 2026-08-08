@@ -17,7 +17,7 @@ image: /images/songs/sekai/呼吸.jpg
 
 ## 作品概要
 
-星界が2025-04-06にリリースしたシングル「呼吸」。
+[星界](/ja/artists/isotopes/sekai)が2025-04-06にリリースしたシングル「呼吸」。
 
 ## 視聴
 {{media-switcher::呼吸}}

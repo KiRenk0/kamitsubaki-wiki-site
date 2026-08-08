@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/gemini.jpg
 
 ## Overview
 
-“Gemini” is a single by Empty old City, released on 2023-03-28.
+“Gemini” is a single by [Empty old City](/en/artists/solo/empty-old-city), released on 2023-03-28.
 
 ## Listen
 {{media-switcher::Gemini}}

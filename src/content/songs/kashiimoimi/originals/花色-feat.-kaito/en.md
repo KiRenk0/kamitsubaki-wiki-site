@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/花色-feat.-kaito.jpg
 
 ## Overview
 
-“花色 (feat. KAITO)” is a single by 香椎モイミ, released on 2020-02-13.
+“花色 (feat. KAITO)” is a single by [香椎モイミ](/en/artists/creators/kashiimoimi), released on 2020-02-13.
 
 ## Listen
 {{media-switcher::花色 (feat. KAITO)}}

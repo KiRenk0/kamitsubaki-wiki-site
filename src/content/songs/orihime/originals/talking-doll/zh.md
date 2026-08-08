@@ -16,7 +16,7 @@ image: /images/songs/grp/talking-doll.jpg
 
 ## 作品简介
 
-《Talking Doll》是御莉姫于 2024-12-25 正式发行的作品。
+《Talking Doll》是[御莉姫](/zh/artists/girls_revolution_project/orihime)于 2024-12-25 正式发行的作品。
 
 ## 试听
 

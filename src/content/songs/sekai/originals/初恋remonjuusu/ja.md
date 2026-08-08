@@ -17,7 +17,7 @@ image: /images/songs/sekai/初恋remonjuusu.jpg
 
 ## 作品概要
 
-星界が2024-12-24にリリースしたシングル「初恋レモンジュース」。
+[星界](/ja/artists/isotopes/sekai)が2024-12-24にリリースしたシングル「初恋レモンジュース」。
 
 ## 視聴
 {{media-switcher::初恋レモンジュース}}

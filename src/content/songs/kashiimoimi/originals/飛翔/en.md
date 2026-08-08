@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/飛翔.jpg
 
 ## Overview
 
-“飛翔” is a single by 香椎モイミ, released on 2025-07-15.
+“飛翔” is a single by [香椎モイミ](/en/artists/creators/kashiimoimi), released on 2025-07-15.
 
 ## Listen
 {{media-switcher::飛翔}}

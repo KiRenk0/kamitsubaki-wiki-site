@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 
 ## Overview
 
-“むちっ (I SCREAM LIVE3 ver.)” is track 15 of KAF’s I SCREAM LIVE3.
+“むちっ (I SCREAM LIVE3 ver.)” is track 15 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE3](/en/albums/kaf/i-scream-live-3).
 
 ## Listen
 

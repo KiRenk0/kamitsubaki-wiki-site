@@ -94,7 +94,7 @@ tracks:
 
 ## Overview
 
-平田義久's album “日本の夜”, released on 2025-07-09, featuring 18 tracks.
+[平田義久](/en/artists/creators/hiratayoshihisa)'s album “日本の夜”, released on 2025-07-09, featuring 18 tracks.
 
 ## Track List
 
@@ -114,5 +114,5 @@ tracks:
 14. 日本の夏 (feat. 七滝今 & 梓川) (02:59)
 15. 両国行き (00:39)
 16. 花火大会 (feat. 梓川) (04:33)
-17. 夏至下る (feat. 理芽) (02:48)
+17. 夏至下る (feat. [理芽](/en/artists/vwp/rim)) (02:48)
 18. 渇愛論II (feat. 梓川) (02:57)

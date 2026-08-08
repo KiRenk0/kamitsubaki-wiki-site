@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 ## Overview
 
-“ダンダラボッチ(3R2 Remix)” is track 8 of KAF’s 寓話γ.
+“ダンダラボッチ(3R2 Remix)” is track 8 of [KAF](/en/artists/vwp/kaf)’s [寓話γ](/en/albums/kaf/guwa-gamma).
 
 ## Listen
 

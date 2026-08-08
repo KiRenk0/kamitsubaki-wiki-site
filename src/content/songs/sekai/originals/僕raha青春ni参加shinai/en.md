@@ -17,7 +17,7 @@ image: /images/songs/sekai/僕raha青春ni参加shinai.jpg
 
 ## Overview
 
-“僕らは青春に参加しない” is a single by 星界, released on 2023-06-09.
+“僕らは青春に参加しない” is a single by [星界](/en/artists/isotopes/sekai), released on 2023-06-09.
 
 ## Listen
 {{media-switcher::僕らは青春に参加しない}}

@@ -17,7 +17,7 @@ image: /images/songs/coko/kitsunegami.jpg
 
 ## 作品概要
 
-狐子が2024-12-10にリリースしたシングル「キツネガミ」。
+[狐子](/ja/artists/isotopes/coko)が2024-12-10にリリースしたシングル「キツネガミ」。
 
 ## 視聴
 {{media-switcher::キツネガミ}}

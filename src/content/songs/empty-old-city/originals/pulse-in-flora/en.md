@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/pulse-in-flora.jpg
 
 ## Overview
 
-“Pulse in Flora” is a single by Empty old City, released on 2025-09-05.
+“Pulse in Flora” is a single by [Empty old City](/en/artists/solo/empty-old-city), released on 2025-09-05.
 
 ## Listen
 {{media-switcher::Pulse in Flora}}

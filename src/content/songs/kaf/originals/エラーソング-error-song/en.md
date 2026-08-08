@@ -19,7 +19,7 @@ image: /images/songs/kaf/track-1882181555.jpg
 
 ## Overview
 
-“エラーソング” is track 12 of KAF’s 深愛.
+“エラーソング” is track 12 of [KAF](/en/artists/vwp/kaf)’s [深愛](/en/albums/kaf/shinai).
 
 ## Listen
 

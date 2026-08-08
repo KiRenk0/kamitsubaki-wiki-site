@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/失踪前夜.jpg
 
 ## 作品简介
 
-香椎モイミ于 2023-12-05 发行的单曲《失踪前夜》。
+[香椎モイミ](/zh/artists/creators/kashiimoimi)于 2023-12-05 发行的单曲《失踪前夜》。
 
 ## 试听
 {{media-switcher::失踪前夜}}

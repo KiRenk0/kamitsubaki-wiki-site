@@ -16,7 +16,7 @@ image: /images/songs/kafu/生涯,貴方wo悔yamimasu.jpg
 
 ## Overview
 
-“生涯、貴方を悔やみます。” is a single by 可不, released on 2023-03-17.
+“生涯、貴方を悔やみます。” is a single by [可不](/en/artists/isotopes/kafu), released on 2023-03-17.
 
 ## Listen
 {{media-switcher::生涯、貴方を悔やみます。}}

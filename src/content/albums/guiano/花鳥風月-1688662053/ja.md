@@ -78,10 +78,10 @@ Guianoが2023-04-29にリリースしたアルバム『花鳥風月』。全12�
 2. 鳥（02:20）
 3. 風（03:00）
 4. 月（03:34）
-5. 花 feat. 花譜（03:28）
-6. 鳥 feat. 幸祜, 春猿火（02:21）
-7. 風 feat. 理芽（03:00）
-8. 月 feat. ヰ世界情緒（03:34）
+5. 花 feat. [花譜](/ja/artists/vwp/kaf)（03:28）
+6. 鳥 feat. [幸祜](/ja/artists/vwp/koko), [春猿火](/ja/artists/vwp/harusaruhi)（02:21）
+7. 風 feat. [理芽](/ja/artists/vwp/rim)（03:00）
+8. 月 feat. [ヰ世界情緒](/ja/artists/vwp/isekaijoucho)（03:34）
 9. 花 (Guiano Ver.)（03:30）
 10. 鳥 (Guiano Ver.)（02:33）
 11. 風 (Guiano Ver.)（03:00）

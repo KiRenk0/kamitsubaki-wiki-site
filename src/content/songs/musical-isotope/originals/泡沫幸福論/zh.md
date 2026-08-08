@@ -17,7 +17,7 @@ image: /images/songs/musical-isotope/泡沫幸福論.jpg
 
 ## 作品简介
 
-音楽的同位体于 2024-10-30 发行的单曲《泡沫幸福論》。
+[音楽的同位体](/zh/artists/solo/musical-isotope)于 2024-10-30 发行的单曲《泡沫幸福論》。
 
 ## 试听
 {{media-switcher::泡沫幸福論}}

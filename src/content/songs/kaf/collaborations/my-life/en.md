@@ -16,7 +16,7 @@ image: /images/songs/kaf/track-1790801573.jpg
 
 ## Overview
 
-“My Life” is a KAF release dated January 29, 2025.
+“My Life” is a [KAF](/en/artists/vwp/kaf) release dated January 29, 2025.
 
 ## Listen
 

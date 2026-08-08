@@ -17,7 +17,7 @@ image: /images/songs/valis/境界線makugafyin.jpg
 
 ## Overview
 
-“境界線マクガフィン” is a single by VALIS, released on 2023-04-17.
+“境界線マクガフィン” is a single by [VALIS](/en/artists/solo/valis), released on 2023-04-17.
 
 ## Listen
 {{media-switcher::境界線マクガフィン}}

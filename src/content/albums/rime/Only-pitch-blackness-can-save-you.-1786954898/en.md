@@ -58,7 +58,7 @@ tracks:
 
 ## Overview
 
-裏命's album “Only pitch-blackness can save you.”, released on 2025-01-16, featuring 9 tracks.
+[裏命](/en/artists/isotopes/rime)'s album “Only pitch-blackness can save you.”, released on 2025-01-16, featuring 9 tracks.
 
 ## Track List
 

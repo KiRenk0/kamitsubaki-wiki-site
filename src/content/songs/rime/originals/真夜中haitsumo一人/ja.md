@@ -17,7 +17,7 @@ image: /images/songs/rime/真夜中haitsumo一人.jpg
 
 ## 作品概要
 
-裏命が2024-06-25にリリースしたシングル「真夜中はいつも一人」。
+[裏命](/ja/artists/isotopes/rime)が2024-06-25にリリースしたシングル「真夜中はいつも一人」。
 
 ## 視聴
 {{media-switcher::真夜中はいつも一人}}

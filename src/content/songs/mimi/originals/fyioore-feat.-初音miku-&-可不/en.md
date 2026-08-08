@@ -17,7 +17,7 @@ image: /images/songs/mimi/fyioore-feat.-初音miku-&-可不.jpg
 
 ## Overview
 
-“フィオーレ (feat. 初音ミク & 可不)” is a single by MIMI, released on 2023-08-26.
+“フィオーレ (feat. 初音ミク & [可不](/en/artists/isotopes/kafu))” is a single by [MIMI](/en/artists/creators/mimi), released on 2023-08-26.
 
 ## Listen
 {{media-switcher::フィオーレ (feat. 初音ミク & 可不)}}

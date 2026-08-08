@@ -16,7 +16,7 @@ image: /images/songs/kafu/抱kishimete.jpg
 
 ## 作品概要
 
-可不が2024-10-22にリリースしたシングル「『抱きしめて。』」。
+[可不](/ja/artists/isotopes/kafu)が2024-10-22にリリースしたシングル「『抱きしめて。』」。
 
 ## 視聴
 {{media-switcher::『抱きしめて。』}}

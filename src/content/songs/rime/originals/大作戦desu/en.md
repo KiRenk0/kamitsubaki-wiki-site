@@ -16,7 +16,7 @@ image: /images/songs/rime/大作戦desu.jpg
 
 ## Overview
 
-“大作戦です。” is a single by 裏命, released on 2024-10-22.
+“大作戦です。” is a single by [裏命](/en/artists/isotopes/rime), released on 2024-10-22.
 
 ## Listen
 {{media-switcher::大作戦です。}}

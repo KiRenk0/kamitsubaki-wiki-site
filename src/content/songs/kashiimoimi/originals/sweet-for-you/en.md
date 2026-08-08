@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/sweet-for-you.jpg
 
 ## Overview
 
-“Sweet for You” is a single by 香椎モイミ, released on 2019-11-06.
+“Sweet for You” is a single by [香椎モイミ](/en/artists/creators/kashiimoimi), released on 2019-11-06.
 
 ## Listen
 @[apple-music](https://music.apple.com/jp/album/sweet-for-you/1672543459?i=1672543461&uo=4 "Sweet for You")

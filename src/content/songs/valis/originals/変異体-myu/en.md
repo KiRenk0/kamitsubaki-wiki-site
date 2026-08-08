@@ -17,7 +17,7 @@ image: /images/songs/valis/変異体-myu.jpg
 
 ## Overview
 
-“変異体(MYU)” is a single by VALIS, released on 2023-10-21.
+“変異体(MYU)” is a single by [VALIS](/en/artists/solo/valis), released on 2023-10-21.
 
 ## Listen
 {{media-switcher::変異体(MYU)}}

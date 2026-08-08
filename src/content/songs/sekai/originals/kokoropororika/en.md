@@ -17,7 +17,7 @@ image: /images/songs/sekai/kokoropororika.jpg
 
 ## Overview
 
-“ココロポロリカ” is a single by 星界, released on 2026-03-22.
+“ココロポロリカ” is a single by [星界](/en/artists/isotopes/sekai), released on 2026-03-22.
 
 ## Listen
 {{media-switcher::ココロポロリカ}}

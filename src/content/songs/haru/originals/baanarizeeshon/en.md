@@ -17,7 +17,7 @@ image: /images/songs/haru/baanarizeeshon.jpg
 
 ## Overview
 
-“バーナリゼーション” is a single by 羽累, released on 2024-10-25.
+“バーナリゼーション” is a single by [羽累](/en/artists/isotopes/haru), released on 2024-10-25.
 
 ## Listen
 {{media-switcher::バーナリゼーション}}

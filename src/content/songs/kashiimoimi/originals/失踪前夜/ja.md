@@ -17,7 +17,7 @@ image: /images/songs/kashiimoimi/失踪前夜.jpg
 
 ## 作品概要
 
-香椎モイミが2023-12-05にリリースしたシングル「失踪前夜」。
+[香椎モイミ](/ja/artists/creators/kashiimoimi)が2023-12-05にリリースしたシングル「失踪前夜」。
 
 ## 視聴
 {{media-switcher::失踪前夜}}

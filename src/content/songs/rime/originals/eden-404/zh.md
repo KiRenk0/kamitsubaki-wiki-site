@@ -17,7 +17,7 @@ image: /images/songs/rime/eden-404.jpg
 
 ## 作品简介
 
-裏命于 2025-02-28 发行的单曲《eden-404》。
+[裏命](/zh/artists/isotopes/rime)于 2025-02-28 发行的单曲《eden-404》。
 
 ## 试听
 {{media-switcher::eden-404}}

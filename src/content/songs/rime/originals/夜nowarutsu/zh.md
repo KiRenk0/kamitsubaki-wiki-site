@@ -17,7 +17,7 @@ image: /images/songs/rime/夜nowarutsu.jpg
 
 ## 作品简介
 
-裏命于 2023-12-04 发行的单曲《夜のワルツ》。
+[裏命](/zh/artists/isotopes/rime)于 2023-12-04 发行的单曲《夜のワルツ》。
 
 ## 试听
 {{media-switcher::夜のワルツ}}

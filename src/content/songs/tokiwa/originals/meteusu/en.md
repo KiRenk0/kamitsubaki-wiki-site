@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/meteusu.jpg
 
 ## Overview
 
-“メテウス” is a single by tokiwa, released on 2024-12-24.
+“メテウス” is a single by [tokiwa](/en/artists/creators/tokiwa), released on 2024-12-24.
 
 ## Listen
 {{media-switcher::メテウス}}

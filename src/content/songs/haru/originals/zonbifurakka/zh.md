@@ -17,7 +17,7 @@ image: /images/songs/haru/zonbifurakka.jpg
 
 ## 作品简介
 
-羽累于 2025-08-31 发行的单曲《ゾンビフラッカ》。
+[羽累](/zh/artists/isotopes/haru)于 2025-08-31 发行的单曲《ゾンビフラッカ》。
 
 ## 试听
 {{media-switcher::ゾンビフラッカ}}

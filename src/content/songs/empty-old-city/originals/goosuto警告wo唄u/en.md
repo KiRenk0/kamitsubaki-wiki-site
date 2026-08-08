@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/goosuto警告wo唄u.jpg
 
 ## Overview
 
-“ゴースト警告を唄う” is a single by Empty old City, released on 2024-07-02.
+“ゴースト警告を唄う” is a single by [Empty old City](/en/artists/solo/empty-old-city), released on 2024-07-02.
 
 ## Listen
 {{media-switcher::ゴースト警告を唄う}}

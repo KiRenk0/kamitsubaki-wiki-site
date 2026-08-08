@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/towairaito-serenaade.jpg
 
 ## Overview
 
-“トワイライト・セレナーデ” is a single by Empty old City, released on 2022-08-02.
+“トワイライト・セレナーデ” is a single by [Empty old City](/en/artists/solo/empty-old-city), released on 2022-08-02.
 
 ## Listen
 {{media-switcher::トワイライト・セレナーデ}}

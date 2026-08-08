@@ -17,7 +17,7 @@ image: /images/songs/mimi/watashimadababy-feat.-音楽的同位体-狐子.jpg
 
 ## Overview
 
-“わたしまだBABY (feat. 音楽的同位体 狐子)” is a single by MIMI, released on 2024-05-30.
+“わたしまだBABY (feat. [音楽的同位体](/en/artists/solo/musical-isotope) [狐子](/en/artists/isotopes/coko))” is a single by [MIMI](/en/artists/creators/mimi), released on 2024-05-30.
 
 ## Listen
 {{media-switcher::わたしまだBABY (feat. 音楽的同位体 狐子)}}

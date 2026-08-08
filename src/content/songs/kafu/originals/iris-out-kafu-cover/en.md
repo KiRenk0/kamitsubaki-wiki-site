@@ -17,7 +17,7 @@ image: /images/songs/kafu/iris-out-kafu-cover.jpg
 
 ## Overview
 
-“IRIS OUT (KAFU Cover)” is a single by 可不, released on 2025-10-13.
+“IRIS OUT ([KAFU](/en/artists/isotopes/kafu) Cover)” is a single by 可不, released on 2025-10-13.
 
 ## Listen
 {{media-switcher::IRIS OUT (KAFU Cover)}}

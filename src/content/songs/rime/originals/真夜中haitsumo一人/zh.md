@@ -17,7 +17,7 @@ image: /images/songs/rime/真夜中haitsumo一人.jpg
 
 ## 作品简介
 
-裏命于 2024-06-25 发行的单曲《真夜中はいつも一人》。
+[裏命](/zh/artists/isotopes/rime)于 2024-06-25 发行的单曲《真夜中はいつも一人》。
 
 ## 试听
 {{media-switcher::真夜中はいつも一人}}

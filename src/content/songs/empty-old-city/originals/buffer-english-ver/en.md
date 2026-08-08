@@ -16,7 +16,7 @@ image: /images/songs/empty-old-city/buffer-english-ver.jpg
 
 ## Overview
 
-“Buffer (English Ver.)” is a single by Empty old City, released on 2024-05-14.
+“Buffer (English Ver.)” is a single by [Empty old City](/en/artists/solo/empty-old-city), released on 2024-05-14.
 
 ## Listen
 {{media-switcher::Buffer (English Ver.)}}

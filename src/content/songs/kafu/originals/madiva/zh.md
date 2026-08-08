@@ -17,7 +17,7 @@ image: /images/songs/kafu/madiva.jpg
 
 ## 作品简介
 
-可不于 2025-02-20 发行的单曲《MaDiVA》。
+[可不](/zh/artists/isotopes/kafu)于 2025-02-20 发行的单曲《MaDiVA》。
 
 ## 试听
 {{media-switcher::MaDiVA}}

@@ -17,7 +17,7 @@ image: /images/songs/valis/本懐paradokkusu.jpg
 
 ## Overview
 
-“本懐パラドックス” is a single by VALIS, released on 2025-12-31.
+“本懐パラドックス” is a single by [VALIS](/en/artists/solo/valis), released on 2025-12-31.
 
 ## Listen
 {{media-switcher::本懐パラドックス}}

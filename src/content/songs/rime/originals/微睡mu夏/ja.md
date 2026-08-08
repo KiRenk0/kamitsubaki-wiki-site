@@ -17,7 +17,7 @@ image: /images/songs/rime/微睡mu夏.jpg
 
 ## 作品概要
 
-裏命が2024-08-31にリリースしたシングル「微睡む夏」。
+[裏命](/ja/artists/isotopes/rime)が2024-08-31にリリースしたシングル「微睡む夏」。
 
 ## 視聴
 {{media-switcher::微睡む夏}}

@@ -16,7 +16,7 @@ image: /images/songs/grp/kokoroto.jpg
 
 ## 作品概要
 
-「ココロト」は心世紀が2025-02-26にリリースした楽曲です。
+「ココロト」は[心世紀](/ja/artists/girls_revolution_project/sinseiki)が2025-02-26にリリースした楽曲です。
 
 ## 視聴
 

@@ -16,7 +16,7 @@ image: /images/songs/grp/synapse.jpg
 
 ## 作品概要
 
-「Synapse」は罪十罰が2025-10-29にリリースした楽曲です。
+「Synapse」は[罪十罰](/ja/artists/girls_revolution_project/tsumitobatsu)が2025-10-29にリリースした楽曲です。
 
 ## 視聴
 

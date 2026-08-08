@@ -17,7 +17,7 @@ image: /images/songs/mimi/esuke-pu-feat.-星界.jpg
 
 ## 作品概要
 
-MIMIが2022-05-26にリリースしたシングル「えすけーぷ (feat. 星界)」。
+MIMIが2022-05-26にリリースしたシングル「えすけーぷ (feat. [星界](/ja/artists/isotopes/sekai))」。
 
 ## 視聴
 {{media-switcher::えすけーぷ (feat. 星界)}}

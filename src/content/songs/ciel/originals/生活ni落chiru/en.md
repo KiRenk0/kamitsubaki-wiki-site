@@ -17,7 +17,7 @@ image: /images/songs/ciel/生活ni落chiru.jpg
 
 ## Overview
 
-“生活に落ちる” is a single by CIEL, released on 2023-04-11.
+“生活に落ちる” is a single by [CIEL](/en/artists/solo/ciel), released on 2023-04-11.
 
 ## Listen
 {{media-switcher::生活に落ちる}}
