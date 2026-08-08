@@ -49,7 +49,7 @@ test('rendered Markdown collections do not retain duplicate source bodies', asyn
     assert.match(config.slice(start, end), /metadataOnlyGlob/, `${name} should keep rendered HTML out of the data store`);
   }
 
-  const aiIndex = await readFile(new URL('../src/pages/ai-index.json.ts', import.meta.url), 'utf8');
+  const aiIndex = await readFile(new URL('../src/lib/aiIndex.mjs', import.meta.url), 'utf8');
   assert.match(aiIndex, /await readContentEntryBody\(entry\)/);
   assert.doesNotMatch(aiIndex, /entry\.(?:body|rendered)/);
 });

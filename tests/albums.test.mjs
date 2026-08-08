@@ -284,7 +284,7 @@ test('album and song contributions are included in contributor history', async (
 
 test('albums are included in the AI index and use entry-specific edit targets', async () => {
   const [aiIndex, roster] = await Promise.all([
-    readProjectFile('../src/pages/ai-index.json.ts'),
+    readProjectFile('../src/pages/ai-index/[locale]/[collection].json.ts'),
     readProjectFile('../src/components/ContributorRoster.astro'),
   ]);
 

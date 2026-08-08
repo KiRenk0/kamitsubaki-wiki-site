@@ -80,7 +80,8 @@ kamitsubaki-wiki-site/
 │  │     ├─ albums/artists/[artist].astro / songs/artists/[artist].astro  分类页
 │  │     ├─ contribute/{edit,syntax,format}.astro / license.astro
 │  │     ├─ home-catalog.json.ts / search-index.json.ts   JSON 端点
-│  │     └─ (顶层) ai-index.json.ts                        AI 引导端点
+│  │     ├─ (顶层) ai-index.json.ts                        AI 索引分片清单
+│  │     └─ (顶层) ai-index/[locale]/[collection].json.ts  按语言及内容类型生成 AI 索引分片
 │  ├─ scripts/                 10 个浏览器交互 .js（themeToggle、siteSearch、aiChatWidget、mediaSwitcher、contributorRoster 等）
 │  └─ styles/                 global.css（Tailwind 入口 + 视觉系统）、mediaSwitcher.css
 ├─ public/                    静态资源（brand SVG、图片、字体、TraditionalChineseConvert.json）
