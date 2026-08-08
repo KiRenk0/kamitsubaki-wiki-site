@@ -11,17 +11,26 @@ order: 3
 	深化せよ、電子の少女達！
 ## 概要
 
-**『少女革命計画**』（しょうじょかくめいけいかく、GIRLS REVOLUTION PROJECT）は、KAMITSUBAKI STUDIOと深化によるプロジェクト。
+**『少女革命計画**』（しょうじょかくめいけいかく、GIRLS REVOLUTION PROJECT）は、KAMITSUBAKI STUDIOと深化による「音楽×物語」の新レーベルプロジェクト。
 
 XTuberユニット『**<ruby>心世紀<rt>しんせいき</rt></ruby>**』とバーチャルシンガーユニット『**<ruby>罪十罰<rt>つみとばつ</rt></ruby>**』の少女たちを中心に、複数のアーティストとコンポーザーが参加する「音楽×物語」をテーマとしたプロジェクト。 少女たちのバーチャルの姿のデザインはPALOW.が担当する。
+
+キャッチコピーは「A SECRET PROTOCOL THAT HELPS YOU EVOLVE. EVOLVE, ELECTRONIC GIRLS!」。
 
 メンバーの多くは2021年11月開催の『SINSEKAI AUDITION』から選出され、2024年1月13日に行われたライブイベント『神椿代々木決戦二〇二四 現象II -魔女拡成-』でプロジェクトとキービジュアルを発表。デビューに先駆けて実施されたユーザー参加型オンライン謎解きイベント『少女革命計画 – Q for REVOLUTION -』に合わせて彼女たちの深層（パーソナリティ）を知る一助となるコミックが公開された。同年8月8日、『KAMITSUBAKI FES '24 THE DAY THE EARTH STOOD STILL』にて正式にアーティストデビュー。2025年7月11日には初の単独公演となるファーストライブを開催した。
 
 KAMITSUBAKI STUDIO初の試みとして、音楽活動だけにとどまらず、Live2Dモデルを用いたゲーム実況といった一般的なバーチャルYoutubeのような配信活動も行っていくとしている。
 
+## スタッフ
+
+- Producer：PIEDPIPER
+- Original Story：KAMITSUBAKI STUDIO
+- Art Direction：PHASE STUDIO
+- Character Design：PALOW.
+
 ## 所属アーティスト
 
-- ### 心世紀
+- ### [心世紀](https://kamitsubaki.wiki/ja/artists/girls_revolution_project/sinseiki/)
 	現実と仮想が交差するエモーショナルな
 	サウンドが特徴の心世代ミュージック
 	リアルとバーチャルという二層の狭間から声を届ける、3人組のXtuberユニット。
@@ -31,7 +40,7 @@ KAMITSUBAKI STUDIO初の試みとして、音楽活動だけにとどまらず�
 - [**<ruby>佳鏡院<rt>かきょういん</rt></ruby>**](https://kamitsubaki.wiki/ja/artists/girls_revolution_project/kakyoin/)
 - [**<ruby>硝子宮<rt>がらすみや</rt></ruby>**](https://kamitsubaki.wiki/ja/artists/girls_revolution_project/garasumiya/)
 
-- ### 罪十罰
+- ### [罪十罰](https://kamitsubaki.wiki/ja/artists/girls_revolution_project/tsumitobatsu/)
 	仮想世界に響く歌声で
 	罪の烙印を刻むアグレッシブなダンスチューン
 	遥か遠くバーチャルの深淵から声を届ける、3人組のバーチャルシンガーユニット。 少女たちは密約を交わし、終わらない夜に微睡む。
