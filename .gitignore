@@ -39,6 +39,7 @@ Thumbs.db
 # Local AI assistant state
 .reasonix/
 reasonix.toml
+.workbuddy/
 
 # Logs
 *.log
@@ -54,6 +55,8 @@ output/playwright/
 .vercel/
 .netlify/
 
-# Promo
-promo-app/
-promo-page/
+# Promo (keep sources, ignore regenerable exports)
+promo/*/exports/
+
+# Lyrics fetch cache (regenerable, maintenance scripts only)
+scripts/lyrics-cache.json

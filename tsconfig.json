@@ -4,5 +4,5 @@
     "baseUrl": ".",
     "ignoreDeprecations": "6.0"
   },
-  "exclude": ["dist", ".astro", "node_modules", "promo-app", "promo-page"]
+  "exclude": ["dist", ".astro", "node_modules", "promo"]
 }
