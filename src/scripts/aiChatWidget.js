@@ -3,6 +3,11 @@ import { micromark } from 'micromark';
 import { gfm, gfmHtml } from 'micromark-extension-gfm';
 import { math, mathHtml } from 'micromark-extension-math';
 import { readModelSettings, setSegmentedValue } from '../lib/aiChatControls.mjs';
+import {
+  buildAiLocaleRequest,
+  convertAiResponseText,
+  isTraditionalAiResponseLocale,
+} from '../lib/aiResponseLocale.mjs';
 import { parseAiStreamChunk } from '../lib/aiStream.mjs';
 
 const widgets = document.querySelectorAll('[data-ai-chat]');
@@ -74,26 +79,46 @@ function sanitizeRenderedHtml(html) {
   return template.innerHTML;
 }
 
-function renderMarkdown(text) {
-  return sanitizeRenderedHtml(
+function localizeRenderedHtml(html, locale) {
+  if (!isTraditionalAiResponseLocale(locale)) {
+    return html;
+  }
+
+  const template = document.createElement('template');
+  template.innerHTML = html;
+  const walker = document.createTreeWalker(template.content, NodeFilter.SHOW_TEXT);
+  let node = walker.nextNode();
+  while (node) {
+    const parent = node.parentElement;
+    if (!parent?.closest('code, pre, .katex, .katex-display')) {
+      node.data = convertAiResponseText(node.data, locale);
+    }
+    node = walker.nextNode();
+  }
+  return template.innerHTML;
+}
+
+function renderMarkdown(text, locale = '') {
+  const html = sanitizeRenderedHtml(
     micromark(String(text || ''), {
       extensions: [gfm(), math()],
       htmlExtensions: [gfmHtml(), mathHtml({ katex, throwOnError: false, strict: false })],
     }),
   );
+  return localizeRenderedHtml(html, locale);
 }
 
-function setMessageMarkdown(content, text) {
-  content.innerHTML = renderMarkdown(text);
+function setMessageMarkdown(content, text, locale = '') {
+  content.innerHTML = renderMarkdown(text, locale);
 }
 
-function createStreamingRenderer(content, messages) {
+function createStreamingRenderer(content, messages, locale = '') {
   let pendingText = '';
   let frame = 0;
 
   const flush = () => {
     frame = 0;
-    content.textContent = pendingText;
+    content.textContent = convertAiResponseText(pendingText, locale);
     scrollMessages(messages);
   };
 
@@ -114,7 +139,7 @@ function createStreamingRenderer(content, messages) {
         frame = 0;
       }
       content.classList.remove('ai-message__content--streaming');
-      setMessageMarkdown(content, text);
+      setMessageMarkdown(content, text, locale);
       scrollMessages(messages);
     },
     cancel() {
@@ -127,7 +152,7 @@ function createStreamingRenderer(content, messages) {
   };
 }
 
-function createMessage(role, text = '') {
+function createMessage(role, text = '', locale = '') {
   const message = document.createElement('article');
   message.className = `ai-message ai-message--${role}`;
 
@@ -142,8 +167,8 @@ function createMessage(role, text = '') {
 
   const content = document.createElement('div');
   content.className = 'ai-message__content ai-markdown';
-  setMessageMarkdown(content, text);
   message.append(content);
+  setMessageMarkdown(content, text, role === 'assistant' ? locale : '');
 
   return { message, content };
 }
@@ -241,6 +266,7 @@ function appendSource(content, source) {
   if (!message) {
     return;
   }
+  const locale = content.closest('[data-ai-chat]')?.dataset.locale || '';
 
   let sources = message.querySelector('.ai-message__sources');
   if (!sources) {
@@ -248,7 +274,7 @@ function appendSource(content, source) {
     sources.className = 'ai-message__sources';
     sources.innerHTML = `
       <summary>
-        <span class="ai-message__sources-label">引用</span>
+        <span class="ai-message__sources-label">${convertAiResponseText('引用', locale)}</span>
         <span class="ai-message__sources-count">0</span>
       </summary>
       <div class="ai-message__sources-list"></div>
@@ -274,8 +300,8 @@ function appendSource(content, source) {
   link.href = normalizedUrl;
   link.target = '_blank';
   link.rel = 'noreferrer';
-  kind.textContent = formatSourceKind(source);
-  title.textContent = String(source.title || formatSourceHost(sourceUrl)).trim();
+  kind.textContent = convertAiResponseText(formatSourceKind(source), locale);
+  title.textContent = convertAiResponseText(String(source.title || formatSourceHost(sourceUrl)).trim(), locale);
   host.textContent = formatSourceHost(sourceUrl);
   link.append(kind, title, host);
   list.append(link);
@@ -473,7 +499,11 @@ async function bootstrap(root) {
   }
 
   const bootstrapUrl = new URL(`${apiBase}/api/ai/bootstrap`);
-  bootstrapUrl.searchParams.set('locale', root.dataset.locale || document.documentElement.lang || 'zh');
+  const localeRequest = buildAiLocaleRequest(root.dataset.locale || document.documentElement.lang || 'zh');
+  bootstrapUrl.searchParams.set('locale', localeRequest.locale);
+  bootstrapUrl.searchParams.set('responseLocale', localeRequest.locale);
+  bootstrapUrl.searchParams.set('languageTag', localeRequest.languageTag);
+  bootstrapUrl.searchParams.set('responseVariant', localeRequest.responseVariant);
   const response = await fetch(bootstrapUrl, {
     credentials: 'include',
     headers: { Accept: 'application/json' },
@@ -496,7 +526,7 @@ async function bootstrap(root) {
   if (typeof data.greeting === 'string' && data.greeting) {
     const firstAssistantMessage = root.querySelector('.ai-message--assistant .ai-message__content');
     if (firstAssistantMessage instanceof HTMLElement) {
-      setMessageMarkdown(firstAssistantMessage, data.greeting);
+      setMessageMarkdown(firstAssistantMessage, data.greeting, localeRequest.locale);
     }
   }
 
@@ -899,7 +929,7 @@ async function clearAllThreads(root, copy) {
   clearMessages(root);
   const messages = root.querySelector('[data-ai-messages]');
   if (messages instanceof HTMLElement) {
-    messages.append(createMessage('assistant', copy.greeting || '').message);
+    messages.append(createMessage('assistant', copy.greeting || '', root.dataset.locale).message);
   }
   loadThreadList(root).catch(() => {});
 }
@@ -949,7 +979,11 @@ async function loadThreadDetail(root, threadId) {
   root.dataset.currentThreadId = data.thread?.id || '';
   clearMessages(root);
   for (const item of data.messages || []) {
-    const rendered = createMessage(item.role === 'user' ? 'user' : 'assistant', item.content || '');
+    const rendered = createMessage(
+      item.role === 'user' ? 'user' : 'assistant',
+      item.content || '',
+      root.dataset.locale,
+    );
     messages.append(rendered.message);
     for (const source of item.sources || []) {
       appendSource(rendered.content, source);
@@ -965,6 +999,7 @@ async function loadThreadDetail(root, threadId) {
 
 async function readStream(response, assistantMessage, messages, copy, root) {
   const { content } = assistantMessage;
+  const locale = root?.dataset.locale || document.documentElement.lang || 'zh';
   const contentType = response.headers.get('Content-Type') || '';
   if (!contentType.includes('text/event-stream')) {
     throw new Error('AI observer response is not an event stream.');
@@ -972,7 +1007,7 @@ async function readStream(response, assistantMessage, messages, copy, root) {
 
   if (!response.body) {
     finishThinkingMessage(assistantMessage);
-    setMessageMarkdown(content, content.dataset.emptyResponse || '');
+    setMessageMarkdown(content, content.dataset.emptyResponse || '', locale);
     return;
   }
 
@@ -983,7 +1018,7 @@ async function readStream(response, assistantMessage, messages, copy, root) {
   let hasDelta = false;
   let hasTerminalMessage = false;
   let needsChallenge = false;
-  const streamRenderer = createStreamingRenderer(content, messages);
+  const streamRenderer = createStreamingRenderer(content, messages, locale);
 
   while (true) {
     const { value, done } = await reader.read();
@@ -1011,7 +1046,7 @@ async function readStream(response, assistantMessage, messages, copy, root) {
       if (event.type === 'challenge_required') {
         finishThinkingMessage(assistantMessage);
         streamRenderer.cancel();
-        setMessageMarkdown(content, event.data.message || copy.challengeFallback || '');
+        setMessageMarkdown(content, event.data.message || copy.challengeFallback || '', locale);
         needsChallenge = true;
         hasTerminalMessage = true;
       }
@@ -1019,7 +1054,7 @@ async function readStream(response, assistantMessage, messages, copy, root) {
       if (event.type === 'login_required') {
         finishThinkingMessage(assistantMessage);
         streamRenderer.cancel();
-        setMessageMarkdown(content, event.data.message || copy.loginRequiredFallback || copy.authErrorFallback || '');
+        setMessageMarkdown(content, event.data.message || copy.loginRequiredFallback || copy.authErrorFallback || '', locale);
         hasTerminalMessage = true;
       }
 
@@ -1030,7 +1065,7 @@ async function readStream(response, assistantMessage, messages, copy, root) {
       if (event.type === 'error') {
         finishThinkingMessage(assistantMessage);
         streamRenderer.cancel();
-        setMessageMarkdown(content, event.data.message || copy.streamErrorFallback || '');
+        setMessageMarkdown(content, event.data.message || copy.streamErrorFallback || '', locale);
         hasTerminalMessage = true;
       }
     }
@@ -1043,7 +1078,7 @@ async function readStream(response, assistantMessage, messages, copy, root) {
   if (!hasDelta && !hasTerminalMessage) {
     finishThinkingMessage(assistantMessage);
     streamRenderer.cancel();
-    setMessageMarkdown(content, content.dataset.emptyResponse || '');
+    setMessageMarkdown(content, content.dataset.emptyResponse || '', locale);
   }
 
   if (needsChallenge && root) {
@@ -1141,7 +1176,7 @@ function initWidget(root) {
   newThreadButton?.addEventListener('click', () => {
     root.dataset.currentThreadId = '';
     clearMessages(root);
-    const greeting = createMessage('assistant', copy.greeting || '');
+    const greeting = createMessage('assistant', copy.greeting || '', root.dataset.locale);
     messages.append(greeting.message);
   });
 
@@ -1302,6 +1337,7 @@ function initWidget(root) {
 
     const apiBase = root.dataset.apiBase || '';
     const locale = root.dataset.locale || document.documentElement.lang || 'zh';
+    const localeRequest = buildAiLocaleRequest(locale);
     const userMessage = createMessage('user', message);
     messages.append(userMessage.message);
     input.value = '';
@@ -1316,9 +1352,14 @@ function initWidget(root) {
     const requestChat = (turnstileToken = '') => {
       const body = {
         message,
-        locale,
+        ...localeRequest,
         threadId: root.dataset.currentThreadId || undefined,
-        pageContext: collectPageContext(root),
+        pageContext: {
+          ...collectPageContext(root),
+          responseLocale: localeRequest.locale,
+          responseLanguage: localeRequest.responseLanguage,
+          responseInstruction: localeRequest.responseInstruction,
+        },
         ...readModelSettings(root),
       };
       if (turnstileToken) {
@@ -1343,7 +1384,11 @@ function initWidget(root) {
         });
         if (!turnstileToken) {
           finishThinkingMessage(assistantMessage);
-          setMessageMarkdown(assistantMessage.content, copy.challengeFallback || copy.streamErrorFallback || '');
+          setMessageMarkdown(
+            assistantMessage.content,
+            copy.challengeFallback || copy.streamErrorFallback || '',
+            localeRequest.locale,
+          );
           return;
         }
       }
@@ -1370,7 +1415,7 @@ function initWidget(root) {
       }
     } catch {
       finishThinkingMessage(assistantMessage);
-      setMessageMarkdown(assistantMessage.content, copy.fallbackOffline || '');
+      setMessageMarkdown(assistantMessage.content, copy.fallbackOffline || '', localeRequest.locale);
     } finally {
       setThinking(root, copy, false);
       scrollMessages(messages);

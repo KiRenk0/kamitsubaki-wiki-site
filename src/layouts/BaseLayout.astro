@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import AiChatWidget from '../components/AiChatWidget.astro';
+import LiveEventsWidget from '../components/LiveEventsWidget.astro';
 import SiteSearch from '../components/SiteSearch.astro';
 import SiteIntro from '../components/SiteIntro.astro';
 import SocialContactWidget from '../components/SocialContactWidget.astro';
@@ -62,6 +63,7 @@ const siteEntries = await getCollection('site');
 const siteContent = getLocalizedSite(siteEntries, lang);
 const aiChatCopy = siteContent?.aiChat;
 const socialContactCopy = siteContent?.socialContact;
+const liveEventsCopy = siteContent?.liveEvents;
 const fontStylesheet = getLocaleFontStylesheet(lang);
 ---
 
@@ -156,6 +158,7 @@ const fontStylesheet = getLocaleFontStylesheet(lang);
     <slot />
     <SiteSearch lang={lang} />
     {socialContactCopy && <SocialContactWidget lang={lang} copy={socialContactCopy} />}
+    {isLocalizedHome && liveEventsCopy && <LiveEventsWidget lang={lang} copy={liveEventsCopy} />}
     {aiChatCopy && <AiChatWidget lang={lang} copy={aiChatCopy} />}
 
     <script>

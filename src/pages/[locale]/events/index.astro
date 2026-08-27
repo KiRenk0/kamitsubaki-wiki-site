@@ -1,0 +1,51 @@
+---
+import { getCollection } from 'astro:content';
+import EventsCalendar from '../../../components/EventsCalendar.astro';
+import SiteFooter from '../../../components/SiteFooter.astro';
+import SiteNav from '../../../components/SiteNav.astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getLocalizedSite } from '../../../lib/homeData.mjs';
+import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../lib/i18n.mjs';
+
+export function getStaticPaths() {
+  return supportedLocales.map((locale) => ({ params: { locale } }));
+}
+
+const { locale } = Astro.params;
+const localeCode = locale as 'zh' | 'zh-tw' | 'zh-hk' | 'ja' | 'en';
+const siteEntries = await getCollection('site');
+const homeContent = getLocalizedSite(siteEntries, localeCode, defaultLocale);
+const copy = homeContent.liveEvents;
+const currentPath = '/events';
+const localeLinks = buildLocaleLinks(homeContent, localeCode, currentPath);
+const alternates = supportedLocales.map((code) => ({ locale: code, href: `/${code}${currentPath}` }));
+const metadata = {
+  title: `${copy.pageTitle} - Kamitsubaki Studio Fan Wiki`,
+  description: copy.pageDescription,
+  canonicalPath: `/${localeCode}${currentPath}`,
+};
+---
+
+<BaseLayout lang={localeCode} alternates={alternates} metadata={metadata}>
+  <div class="events-page min-h-screen">
+    <SiteNav
+      navItems={homeContent.navItems}
+      localeLinks={localeLinks}
+      brandLines={homeContent.hero.brandLines}
+      compact
+      homeHref={`/${localeCode}/`}
+    />
+
+    <main class="events-page__main">
+      <header class="events-page__hero">
+        <p>{copy.eyebrow}</p>
+        <h1>{copy.pageTitle}</h1>
+        <span>{copy.pageDescription}</span>
+        <a href={`/${localeCode}/`}>← {copy.backHomeLabel}</a>
+      </header>
+      <EventsCalendar lang={localeCode} copy={copy} />
+    </main>
+
+    <SiteFooter footer={homeContent.footer} />
+  </div>
+</BaseLayout>

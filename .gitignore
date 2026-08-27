@@ -60,3 +60,4 @@ promo/*/exports/
 
 # Lyrics fetch cache (regenerable, maintenance scripts only)
 scripts/lyrics-cache.json
+lazygit.exe

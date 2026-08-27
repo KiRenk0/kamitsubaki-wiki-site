@@ -11,6 +11,7 @@ export const localeProfiles = Object.freeze({
     label: '简体中文',
     shortLabel: '简中',
     navShortLabel: '中',
+    dropdownLabel: '简体中文',
     sourceLocale: null,
     fontStylesheet: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=optional',
   }),

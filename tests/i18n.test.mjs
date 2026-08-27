@@ -103,6 +103,7 @@ test('localized site config exposes language switcher labels and page chrome', a
       ['en', 'ENG'],
     ],
   );
+  assert.equal(localeLinks.find((link) => link.code === 'zh')?.dropdownLabel, '简体中文');
   assert.equal(localeLinks.find((link) => link.code === 'zh-tw')?.current, true);
 });
 

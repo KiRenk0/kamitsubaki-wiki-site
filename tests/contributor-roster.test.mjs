@@ -39,6 +39,16 @@ test('contributor roster fetches public summary and entry contribution APIs', as
   assert.match(css, /\.contributor-roster__section/);
 });
 
+test('contribution actions remain visible when the contributor API is unavailable', async () => {
+  const script = await readProjectFile('../src/scripts/contributorRoster.js');
+
+  assert.match(
+    script,
+    /function renderError\(root, state, content, copy\)[\s\S]*content\.innerHTML = renderActions\(root, copy\);[\s\S]*content\.hidden = false;/,
+  );
+  assert.match(script, /catch \{[\s\S]*renderError\(root, state, content, copy\);/);
+});
+
 test('contributor sync script derives safe identities from git history', async () => {
   const script = await readProjectFile('../scripts/sync-contributors.mjs');
   const syncClient = await readProjectFile('../scripts/contributor-sync-client.mjs');

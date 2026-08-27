@@ -235,9 +235,11 @@ function renderRoster(root, source, copy) {
   `;
 }
 
-function renderError(root, state, copy) {
+function renderError(root, state, content, copy) {
   state.hidden = false;
   state.innerHTML = `<span>${escapeHtml(copy.error)}</span><button type="button" data-contributor-retry>${escapeHtml(copy.retry)}</button>`;
+  content.innerHTML = renderActions(root, copy);
+  content.hidden = false;
   state.querySelector('[data-contributor-retry]')?.addEventListener('click', () => {
     delete root.dataset.contributorRosterStatus;
     state.textContent = copy.loading;
@@ -279,7 +281,7 @@ async function loadRoster(root) {
     root.dataset.contributorRosterStatus = 'loaded';
   } catch {
     root.dataset.contributorRosterStatus = 'error';
-    renderError(root, state, copy);
+    renderError(root, state, content, copy);
   }
 }
 

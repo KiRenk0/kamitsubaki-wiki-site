@@ -43,10 +43,12 @@ test('AI chat keeps the production Worker fallback when Pages build variables ar
   assert.match(component, /PUBLIC_AI_OBSERVER_API_BASE\s*\|\|\s*'https:\/\/api\.kamitsubaki\.wiki'/);
 });
 
-test('AI chat bootstrap sends the active page locale for localized IP greetings', async () => {
+test('AI chat bootstrap sends the exact response locale for localized greetings', async () => {
   const script = await readProjectFile('../src/scripts/aiChatWidget.js');
 
-  assert.match(script, /searchParams\.set\('locale',\s*root\.dataset\.locale/);
+  assert.match(script, /buildAiLocaleRequest\(root\.dataset\.locale/);
+  assert.match(script, /searchParams\.set\('locale',\s*localeRequest\.locale/);
+  assert.match(script, /searchParams\.set\('languageTag',\s*localeRequest\.languageTag/);
   assert.match(script, /fetch\(bootstrapUrl/);
 });
 
@@ -145,7 +147,8 @@ test('AI chat widget keeps its launcher docked while supporting settings, histor
   assert.match(script, /loadThreadDetail/);
   assert.match(script, /data\.recentThreads/);
   assert.match(script, /collectPageContext/);
-  assert.match(script, /pageContext: collectPageContext\(root\)/);
+  assert.match(script, /\.\.\.collectPageContext\(root\)/);
+  assert.match(script, /responseInstruction:\s*localeRequest\.responseInstruction/);
   assert.match(script, /data-page-context-root/);
   assert.match(script, /!node\.closest\('\[data-ai-chat\]'\)/);
   assert.match(script, /clonedMain\.textContent \|\| ''/);
@@ -164,7 +167,7 @@ test('AI chat widget keeps its launcher docked while supporting settings, histor
   assert.match(script, /katex/);
   assert.match(script, /createStreamingRenderer/);
   assert.match(script, /requestAnimationFrame/);
-  assert.match(script, /textContent = pendingText/);
+  assert.match(script, /textContent = convertAiResponseText\(pendingText, locale\)/);
   assert.match(css, /\.ai-chat__launcher/);
   assert.match(css, /\.ai-chat__launcher\.is-hidden/);
   assert.match(css, /\.ai-chat__settings-popover/);
