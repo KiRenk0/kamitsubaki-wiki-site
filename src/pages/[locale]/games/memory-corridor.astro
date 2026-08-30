@@ -18,18 +18,18 @@ const alternates = supportedLocales.map((code) => ({ locale: code, href: `/${cod
 const copy = {
   zh: {
     title: '记忆回廊',
-    description: '从 Wiki 条目接入的像素跑酷档案。收集记忆碎片并返回关联条目。',
-    label: 'WIKI LINK MODE',
+    description: '包含记忆采集、条目传送与经典跑酷的像素档案探索游戏。',
+    label: 'THREE ARCHIVE ROUTES',
   },
   ja: {
     title: '記憶回廊',
-    description: 'Wiki 記事と接続するピクセルラン。記憶の欠片を集め、関連記事へ戻ろう。',
-    label: 'WIKI LINK MODE',
+    description: '記憶採集、記事転送、クラシックランの3モードを収録したピクセル探索ゲーム。',
+    label: 'THREE ARCHIVE ROUTES',
   },
   en: {
     title: 'Memory Corridor',
-    description: 'A pixel runner linked to Wiki entries. Recover memory fragments and return to related articles.',
-    label: 'WIKI LINK MODE',
+    description: 'A pixel archive game with memory hunts, entry portals, and the original runner.',
+    label: 'THREE ARCHIVE ROUTES',
   },
 }[locale];
 ---
@@ -50,7 +50,7 @@ const copy = {
       <iframe
         id="memory-corridor-frame"
         title={copy.title}
-        src={`/games/memory-corridor/index.html?locale=${locale}`}
+        src={`/games/kamitsubaki-explorer/index.html?locale=${locale}`}
         allow="autoplay"
         loading="eager"
       ></iframe>
@@ -63,7 +63,7 @@ const copy = {
       if (!(frame instanceof HTMLIFrameElement)) return;
       const params = new URLSearchParams(window.location.search);
       params.set('locale', locale);
-      frame.src = `/games/memory-corridor/index.html?${params.toString()}`;
+      frame.src = `/games/kamitsubaki-explorer/index.html?${params.toString()}`;
     })();
   </script>
 </BaseLayout>
