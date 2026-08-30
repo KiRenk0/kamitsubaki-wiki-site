@@ -41,6 +41,10 @@
       "href": "#projects"
     },
     {
+      "label": "GAME",
+      "href": "/zh/games/memory-corridor"
+    },
+    {
       "label": "LOG",
       "href": "#log"
     }
