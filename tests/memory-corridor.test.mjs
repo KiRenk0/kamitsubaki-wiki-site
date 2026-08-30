@@ -63,10 +63,32 @@ test('runner reads the Wiki catalog and records recovered entry fragments', asyn
 
   assert.match(runner, /\/\$\{wikiLocale\}\/game-index\.json/);
   assert.match(runner, /kamitsubaki-memory-corridor-archive-v1/);
-  assert.match(runner, /recordWikiFragment\(\)/);
+  assert.match(runner, /recordWikiFragment\(/);
   assert.match(runner, /RETURN TO WIKI/);
   assert.match(endpoint, /getCollection\('artists'\)/);
   assert.match(endpoint, /getCollection\('songs'\)/);
   assert.match(endpoint, /getCollection\('albums'\)/);
   assert.match(endpoint, /getCollection\('projects'\)/);
+});
+
+test('Wiki catalog emits clue facts and typed graph connections', async () => {
+  const endpoint = await readProjectFile('../src/pages/[locale]/game-index.json.ts');
+
+  assert.match(endpoint, /facts: compactFacts/);
+  assert.match(endpoint, /connections: unique\(connected\.map\(itemKey\)\)/);
+  assert.match(endpoint, /featuredHrefs/);
+  assert.match(endpoint, /trackSongIds/);
+  assert.match(endpoint, /albumTitle/);
+});
+
+test('runner turns three recovered clues into a route decision and clickable memory path', async () => {
+  const runner = await readProjectFile('../public/games/memory-corridor/index.html');
+
+  assert.match(runner, /id="routeDecision"/);
+  assert.match(runner, /id="routeClues"/);
+  assert.match(runner, /function openRouteDecision\(\)/);
+  assert.match(runner, /function chooseRoute\(choice\)/);
+  assert.match(runner, /world\.routeRound >= 3/);
+  assert.match(runner, /function renderMemoryPath\(container\)/);
+  assert.match(runner, /id="completePath"/);
 });

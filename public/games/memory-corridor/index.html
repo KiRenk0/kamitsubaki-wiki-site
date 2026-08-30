@@ -213,6 +213,7 @@
 
       .game-shell[data-state="ready"] .overlay-panel--ready,
       .game-shell[data-state="gameover"] .overlay-panel--gameover,
+      .game-shell[data-state="complete"] .overlay-panel--complete,
       .game-shell[data-state="paused"] .overlay-panel--paused,
       .game-shell[data-state="loading"] .overlay-panel--loading {
         opacity: 1;
@@ -502,7 +503,8 @@
 
         .game-shell[data-state="ready"] .overlay-panel--ready,
         .game-shell[data-state="paused"] .overlay-panel--paused,
-        .game-shell[data-state="gameover"] .overlay-panel--gameover {
+        .game-shell[data-state="gameover"] .overlay-panel--gameover,
+        .game-shell[data-state="complete"] .overlay-panel--complete {
           transform: translateY(-34px);
         }
 
@@ -770,6 +772,154 @@
         display: none;
       }
 
+      .clue-panel {
+        position: absolute;
+        top: calc(var(--safe-top) + 110px);
+        left: var(--safe-left);
+        z-index: 6;
+        width: min(430px, calc(100vw - var(--safe-left) - var(--safe-right)));
+        padding: 9px 11px 10px;
+        border: 2px solid #203a34;
+        background: rgba(3, 3, 3, 0.92);
+        box-shadow: 5px 5px 0 #0b1010;
+        color: var(--muted);
+        font-family: "SFMono-Regular", Consolas, monospace;
+        font-size: 9px;
+        letter-spacing: 0.08em;
+        transition: opacity 100ms steps(2, end);
+      }
+
+      .clue-panel[hidden],
+      .game-shell:not([data-state="running"]) .clue-panel {
+        opacity: 0;
+        pointer-events: none;
+      }
+
+      .clue-panel__head {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        color: var(--accent);
+      }
+
+      .clue-panel ol {
+        display: grid;
+        gap: 4px;
+        margin: 7px 0 0;
+        padding: 7px 0 0 18px;
+        border-top: 1px dashed #203a34;
+      }
+
+      .clue-panel li {
+        color: var(--fg);
+      }
+
+      .clue-panel li.is-locked {
+        color: #52605d;
+      }
+
+      .route-decision {
+        position: absolute;
+        inset: 0;
+        z-index: 12;
+        display: grid;
+        place-items: center;
+        padding: 110px 22px 70px;
+        background: rgba(3, 3, 3, 0.78);
+      }
+
+      .route-decision[hidden] {
+        display: none;
+      }
+
+      .route-decision__panel {
+        width: min(640px, 94vw);
+        padding: 24px;
+        border: 2px solid var(--accent);
+        background: #030303;
+        box-shadow: 8px 8px 0 #006b48;
+        color: var(--fg);
+        text-align: center;
+      }
+
+      .route-decision__label {
+        margin: 0;
+        color: var(--accent);
+        font-family: "SFMono-Regular", Consolas, monospace;
+        font-size: 10px;
+        letter-spacing: 0.16em;
+      }
+
+      .route-decision h2 {
+        margin: 13px 0 0;
+        font-size: clamp(24px, 4vw, 38px);
+        letter-spacing: 0.12em;
+      }
+
+      .route-decision__facts {
+        display: grid;
+        gap: 5px;
+        margin: 16px auto 0;
+        padding: 13px 0;
+        border-top: 1px dashed #37675c;
+        border-bottom: 1px dashed #37675c;
+        color: var(--muted);
+        font-family: "SFMono-Regular", Consolas, monospace;
+        font-size: 10px;
+        line-height: 1.7;
+        list-style: none;
+      }
+
+      .route-decision__choices {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+        margin-top: 18px;
+      }
+
+      .route-choice {
+        min-height: 66px;
+        padding: 10px 12px;
+        border: 2px solid #37675c;
+        background: #030303;
+        box-shadow: 4px 4px 0 #0b1010;
+        color: var(--fg);
+        font-family: "SFMono-Regular", Consolas, monospace;
+        font-size: 11px;
+        line-height: 1.5;
+        cursor: pointer;
+      }
+
+      .route-choice:hover,
+      .route-choice:focus-visible {
+        border-color: var(--accent);
+        color: var(--accent);
+        outline: none;
+        box-shadow: 4px 4px 0 #006b48;
+      }
+
+      .memory-path {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+        margin-top: 16px;
+        font-family: "SFMono-Regular", Consolas, monospace;
+        font-size: 10px;
+        line-height: 1.6;
+      }
+
+      .memory-path a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      .memory-path a[data-correct="false"] {
+        color: #ff8aa2;
+        text-decoration: line-through;
+      }
+
       @media (max-width: 660px) {
         .overlay-panel {
           padding: 22px 18px 24px;
@@ -794,6 +944,26 @@
 
         .game-tools {
           top: calc(var(--safe-top) + 142px);
+        }
+
+        .clue-panel {
+          right: var(--safe-right);
+          top: calc(var(--safe-top) + 180px);
+          width: auto;
+          font-size: 8px;
+        }
+
+        .route-decision {
+          padding: 148px 14px 70px;
+        }
+
+        .route-decision__panel {
+          padding: 18px 14px 20px;
+          box-shadow: 5px 5px 0 #006b48;
+        }
+
+        .route-decision__choices {
+          grid-template-columns: 1fr;
         }
       }
     </style>
@@ -832,6 +1002,27 @@
 
       <div class="event-banner" id="eventBanner" role="status" aria-live="polite"></div>
 
+      <aside class="clue-panel" id="cluePanel" hidden aria-label="档案修复线索">
+        <div class="clue-panel__head">
+          <span id="routeProgress">ROUTE 01 / 03</span>
+          <span id="routeCurrent">---</span>
+        </div>
+        <ol id="routeClues">
+          <li class="is-locked">SIGNAL LOCKED</li>
+          <li class="is-locked">SIGNAL LOCKED</li>
+          <li class="is-locked">SIGNAL LOCKED</li>
+        </ol>
+      </aside>
+
+      <section class="route-decision" id="routeDecision" hidden aria-label="档案关联判定">
+        <div class="route-decision__panel">
+          <p class="route-decision__label">ARCHIVE RELATION CHECK</p>
+          <h2>这些线索属于哪个关联档案？</h2>
+          <ul class="route-decision__facts" id="decisionFacts"></ul>
+          <div class="route-decision__choices" id="routeChoices"></div>
+        </div>
+      </section>
+
       <div class="overlay">
         <section class="overlay-panel overlay-panel--loading" aria-label="资源加载中">
           <h1 class="overlay-title">正在接入</h1>
@@ -844,7 +1035,7 @@
             <span class="keyboard-hint">点击 / 空格键跳跃</span>
             <span class="touch-hint">轻触屏幕跳跃</span>
           </p>
-          <p class="overlay-note">轻按低跳 · 长按高跳 · 收集 3 枚碎片生成记忆护盾</p>
+          <p class="overlay-note">收集 3 条真实 Wiki 线索 · 判定关联条目 · 修复 3 段记忆路线</p>
           <button class="action-button" id="startButton" type="button">开始奔跑</button>
         </section>
 
@@ -858,11 +1049,20 @@
           <h1 class="overlay-title">记忆中断</h1>
           <p class="overlay-subtitle">档案片段发生碰撞</p>
           <p class="overlay-result" id="resultText">本次距离 00000 M · 收集 0</p>
+          <div class="memory-path" id="resultPath"></div>
           <div class="result-links" id="resultLinks" hidden>
             <a id="resultReturnLink" href="/zh/" target="_top">返回 Wiki 条目</a>
             <a id="resultRelatedLink" href="/zh/" target="_top">探索关联档案</a>
           </div>
           <button class="action-button" id="restartButton" type="button">再次奔跑</button>
+        </section>
+
+        <section class="overlay-panel overlay-panel--complete" aria-label="档案修复完成">
+          <h1 class="overlay-title">档案修复完成</h1>
+          <p class="overlay-subtitle">记忆路径已写入观测记录</p>
+          <p class="overlay-result" id="completeText">完成 3 次关联判定</p>
+          <div class="memory-path" id="completePath"></div>
+          <button class="action-button" id="completeRestartButton" type="button">生成新路线</button>
         </section>
       </div>
 
@@ -904,6 +1104,17 @@
         const resultLinksNode = document.querySelector("#resultLinks");
         const resultReturnNode = document.querySelector("#resultReturnLink");
         const resultRelatedNode = document.querySelector("#resultRelatedLink");
+        const cluePanelNode = document.querySelector("#cluePanel");
+        const routeProgressNode = document.querySelector("#routeProgress");
+        const routeCurrentNode = document.querySelector("#routeCurrent");
+        const routeCluesNode = document.querySelector("#routeClues");
+        const routeDecisionNode = document.querySelector("#routeDecision");
+        const decisionFactsNode = document.querySelector("#decisionFacts");
+        const routeChoicesNode = document.querySelector("#routeChoices");
+        const resultPathNode = document.querySelector("#resultPath");
+        const completePathNode = document.querySelector("#completePath");
+        const completeTextNode = document.querySelector("#completeText");
+        const completeRestartButton = document.querySelector("#completeRestartButton");
 
         const STORAGE_KEY = "kamitsubaki-memory-corridor-best-v1";
         const SOUND_STORAGE_KEY = "kamitsubaki-memory-corridor-sound-v1";
@@ -963,6 +1174,11 @@
           stage: 0,
           lastObstacleType: "",
           shieldSaves: 0,
+          routeFragments: 0,
+          routeSpawned: 0,
+          routeRound: 0,
+          wrongChoices: 0,
+          corruptionTime: 0,
         };
 
         const player = {
@@ -986,13 +1202,19 @@
         let audioContext = null;
         let soundEnabled = readSoundPreference();
         let wikiSource = null;
+        let wikiCatalog = [];
+        let wikiCatalogByKey = new Map();
+        let routeCurrent = null;
+        let routeStep = null;
+        let memoryPath = [];
+        let routeChoiceItems = [];
 
         const query = new URLSearchParams(window.location.search);
         const wikiLocale = ["zh", "ja", "en"].includes(query.get("locale")) ? query.get("locale") : "zh";
         const wikiCopy = {
-          zh: { context: "WIKI 档案", back: "返回条目", resultBack: "返回 Wiki 条目", related: "探索关联档案" },
-          ja: { context: "WIKI 記事", back: "記事へ戻る", resultBack: "Wiki 記事へ戻る", related: "関連記録を探す" },
-          en: { context: "WIKI ENTRY", back: "RETURN", resultBack: "RETURN TO WIKI", related: "EXPLORE RELATED" },
+          zh: { context: "WIKI 档案", back: "返回条目", resultBack: "返回 Wiki 条目", related: "探索关联档案", locked: "信号未恢复", route: "记忆路径", correct: "关联确认", wrong: "档案污染", complete: "三段关系已修复" },
+          ja: { context: "WIKI 記事", back: "記事へ戻る", resultBack: "Wiki 記事へ戻る", related: "関連記録を探す", locked: "信号未復元", route: "記憶経路", correct: "関連確認", wrong: "記録汚染", complete: "3 件の関連を復元" },
+          en: { context: "WIKI ENTRY", back: "RETURN", resultBack: "RETURN TO WIKI", related: "EXPLORE RELATED", locked: "SIGNAL LOCKED", route: "MEMORY ROUTE", correct: "RELATION VERIFIED", wrong: "ARCHIVE CORRUPTED", complete: "THREE RELATIONS RESTORED" },
         }[wikiLocale];
 
         bestNode.textContent = formatMeters(world.best);
@@ -1011,11 +1233,13 @@
             const source = catalog.items.find((item) => item.kind === sourceKind && item.id === sourceId);
             if (!source) return;
 
-            const related = catalog.items.find((item) =>
-              item.id !== source.id && item.relatedKey && item.relatedKey === source.relatedKey,
-            ) ?? catalog.items.find((item) => item.id !== source.id && item.kind === source.kind);
-
+            wikiCatalog = catalog.items;
+            wikiCatalogByKey = new Map(wikiCatalog.map((item) => [gameItemKey(item), item]));
             wikiSource = source;
+            routeCurrent = source;
+            memoryPath = [{ ...source, correct: true }];
+            prepareRouteStep();
+            renderCluePanel();
             document.documentElement.style.setProperty("--accent", source.accentColor || "#89f5df");
             wikiContextLabelNode.textContent = wikiCopy.context;
             wikiContextTitleNode.textContent = source.title;
@@ -1023,6 +1247,7 @@
             wikiContextReturnNode.href = source.href;
             resultReturnNode.textContent = wikiCopy.resultBack;
             resultReturnNode.href = source.href;
+            const related = source.connections?.map((key) => wikiCatalogByKey.get(key)).find(Boolean);
             if (related) {
               resultRelatedNode.textContent = `${wikiCopy.related} / ${related.title}`;
               resultRelatedNode.href = related.href;
@@ -1036,14 +1261,176 @@
           }
         }
 
-        function recordWikiFragment() {
-          if (!wikiSource) return;
+        function gameItemKey(item) {
+          return `${item.kind}:${item.id}`;
+        }
+
+        function randomItem(items) {
+          return items[Math.floor(Math.random() * items.length)];
+        }
+
+        function prepareRouteStep() {
+          if (!routeCurrent || wikiCatalog.length === 0) {
+            routeStep = null;
+            return;
+          }
+
+          const visited = new Set(memoryPath.map(gameItemKey));
+          const connectionKeys = new Set(routeCurrent.connections || []);
+          const connected = (routeCurrent.connections || [])
+            .map((key) => wikiCatalogByKey.get(key))
+            .filter((item) => item && !visited.has(gameItemKey(item)));
+          const fallbackConnected = wikiCatalog.filter((item) =>
+            gameItemKey(item) !== gameItemKey(routeCurrent) && item.relatedKey === routeCurrent.relatedKey,
+          );
+          const target = randomItem(connected.length > 0 ? connected : fallbackConnected);
+          if (!target) {
+            routeStep = null;
+            return;
+          }
+
+          const distractors = wikiCatalog.filter((item) =>
+            gameItemKey(item) !== gameItemKey(target)
+            && gameItemKey(item) !== gameItemKey(routeCurrent)
+            && item.kind === target.kind
+            && !connectionKeys.has(gameItemKey(item)),
+          );
+          const broadDistractors = wikiCatalog.filter((item) =>
+            gameItemKey(item) !== gameItemKey(target) && gameItemKey(item) !== gameItemKey(routeCurrent),
+          );
+          const distractor = randomItem(distractors.length > 0 ? distractors : broadDistractors);
+          const facts = [...(target.facts || [])].slice(0, 3);
+          if (facts.length < 3 && target.subtitle) facts.push(`${wikiCopy.context} / ${target.subtitle}`);
+          while (facts.length < 3) facts.push(`${wikiCopy.context} / ${target.kind.toUpperCase()}`);
+          routeStep = { target, distractor, facts: facts.slice(0, 3) };
+        }
+
+        function renderCluePanel() {
+          if (!wikiSource || !routeStep) {
+            cluePanelNode.hidden = true;
+            return;
+          }
+          cluePanelNode.hidden = false;
+          routeProgressNode.textContent = `ROUTE ${String(world.routeRound + 1).padStart(2, "0")} / 03`;
+          routeCurrentNode.textContent = `${routeCurrent.title} → ???`;
+          routeCluesNode.replaceChildren();
+          routeStep.facts.forEach((fact, index) => {
+            const item = document.createElement("li");
+            const revealed = index < world.routeFragments;
+            item.textContent = revealed ? fact : wikiCopy.locked;
+            item.classList.toggle("is-locked", !revealed);
+            routeCluesNode.append(item);
+          });
+        }
+
+        function openRouteDecision() {
+          if (!routeStep || world.state !== "running") return;
+          setState("decision");
+          routeDecisionNode.hidden = false;
+          decisionFactsNode.replaceChildren();
+          routeStep.facts.forEach((fact) => {
+            const item = document.createElement("li");
+            item.textContent = fact;
+            decisionFactsNode.append(item);
+          });
+          routeChoiceItems = Math.random() > 0.5
+            ? [routeStep.target, routeStep.distractor]
+            : [routeStep.distractor, routeStep.target];
+          routeChoicesNode.replaceChildren();
+          routeChoiceItems.forEach((item, index) => {
+            const button = document.createElement("button");
+            button.type = "button";
+            button.className = "route-choice";
+            button.textContent = `${index + 1} / ${item.title}`;
+            button.addEventListener("click", (event) => {
+              event.stopPropagation();
+              chooseRoute(item);
+            });
+            routeChoicesNode.append(button);
+          });
+          routeChoicesNode.querySelector("button")?.focus();
+          liveNode.textContent = "档案关联判定。请选择与线索对应的 Wiki 条目。";
+        }
+
+        function chooseRoute(choice) {
+          if (!routeStep || world.state !== "decision") return;
+          const correct = gameItemKey(choice) === gameItemKey(routeStep.target);
+          if (!correct) {
+            world.wrongChoices += 1;
+            world.corruptionTime = 10;
+          }
+          const recovered = { ...routeStep.target, correct };
+          memoryPath.push(recovered);
+          routeCurrent = routeStep.target;
+          world.routeRound += 1;
+          world.routeFragments = 0;
+          routeDecisionNode.hidden = true;
+          recordWikiFragment(routeCurrent);
+          document.documentElement.style.setProperty("--accent", routeCurrent.accentColor || "#89f5df");
+          wikiContextTitleNode.textContent = routeCurrent.title;
+          wikiContextReturnNode.href = routeCurrent.href;
+
+          if (world.routeRound >= 3) {
+            completeArchive();
+            return;
+          }
+
+          prepareRouteStep();
+          renderCluePanel();
+          // Each archive gateway opens a short, readable transition into the next route.
+          obstacles = [];
+          crystals = [];
+          world.spawnIn = 7.5;
+          world.crystalIn = 0.3;
+          world.routeSpawned = 0;
+          world.invulnerable = 0.9;
+          setState("running");
+          world.lastTime = performance.now();
+          showEvent(correct ? `${wikiCopy.correct} / ${routeCurrent.title}` : `${wikiCopy.wrong} / NOISE +`, 2.3);
+          playTone(correct ? 760 : 180, 0.12, "square", 0.02);
+        }
+
+        function renderMemoryPath(container) {
+          container.replaceChildren();
+          memoryPath.forEach((item, index) => {
+            if (index > 0) {
+              const arrow = document.createElement("span");
+              arrow.textContent = "→";
+              container.append(arrow);
+            }
+            const link = document.createElement("a");
+            link.href = item.href;
+            link.target = "_top";
+            link.textContent = item.title;
+            link.dataset.correct = String(item.correct !== false);
+            container.append(link);
+          });
+        }
+
+        function completeArchive() {
+          const finalDistance = Math.floor(world.distance);
+          memoryPath.forEach((item) => recordWikiFragment(item));
+          if (finalDistance > world.best) {
+            world.best = finalDistance;
+            saveBest(world.best);
+            bestNode.textContent = formatMeters(world.best);
+          }
+          completeTextNode.textContent = `${wikiCopy.complete} · ${world.wrongChoices === 0 ? "PERFECT" : `${world.wrongChoices} NOISE`}`;
+          renderMemoryPath(completePathNode);
+          setState("complete");
+          liveNode.textContent = `${wikiCopy.complete}。`;
+          playTone(620, 0.11, "square", 0.018);
+          playTone(820, 0.14, "square", 0.016, 0.1);
+        }
+
+        function recordWikiFragment(item = wikiSource) {
+          if (!item) return;
           try {
             const storageKey = "kamitsubaki-memory-corridor-archive-v1";
             const stored = JSON.parse(localStorage.getItem(storageKey) || "[]");
             const fragments = Array.isArray(stored) ? stored : [];
-            const next = fragments.filter((item) => !(item.kind === wikiSource.kind && item.id === wikiSource.id));
-            next.unshift({ kind: wikiSource.kind, id: wikiSource.id, title: wikiSource.title, savedAt: new Date().toISOString() });
+            const next = fragments.filter((fragment) => !(fragment.kind === item.kind && fragment.id === item.id));
+            next.unshift({ kind: item.kind, id: item.id, title: item.title, savedAt: new Date().toISOString() });
             localStorage.setItem(storageKey, JSON.stringify(next.slice(0, 200)));
           } catch {
             // Archive progress remains optional when storage is unavailable.
@@ -1155,6 +1542,10 @@
               ? "SYSTEM / RUNNING"
               : nextState === "paused"
                 ? "SYSTEM / ARCHIVE FROZEN"
+              : nextState === "decision"
+                ? "SYSTEM / RELATION CHECK"
+              : nextState === "complete"
+                ? "SYSTEM / ARCHIVE RESTORED"
               : nextState === "gameover"
                 ? "SYSTEM / MEMORY LOST"
                 : "SYSTEM / STANDBY";
@@ -1190,7 +1581,8 @@
           world.distance = 0;
           world.memory = 0;
           world.speed = world.baseSpeed;
-          world.spawnIn = 1.95;
+          // Give the archive clues time to establish the route before the first obstacle arrives.
+          world.spawnIn = 6.2;
           world.crystalIn = 0.55;
           world.flash = 0;
           world.shake = 0;
@@ -1208,7 +1600,17 @@
           world.stage = 0;
           world.lastObstacleType = "";
           world.shieldSaves = 0;
+          world.routeFragments = 0;
+          world.routeSpawned = 0;
+          world.routeRound = 0;
+          world.wrongChoices = 0;
+          world.corruptionTime = 0;
           world.lastHudMeter = -1;
+          routeCurrent = wikiSource;
+          memoryPath = wikiSource ? [{ ...wikiSource, correct: true }] : [];
+          prepareRouteStep();
+          renderCluePanel();
+          routeDecisionNode.hidden = true;
           shell.classList.remove("is-resonance");
           eventBanner.classList.remove("is-visible");
           resonanceLine.style.width = "0%";
@@ -1315,7 +1717,7 @@
         function endGame() {
           if (world.state !== "running") return;
           const finalDistance = Math.floor(world.distance);
-          recordWikiFragment();
+          memoryPath.forEach((item) => recordWikiFragment(item));
           world.shake = reducedMotion ? 0 : 9;
           world.flash = 1;
           shell.classList.remove("is-resonance");
@@ -1326,6 +1728,7 @@
           }
           bestNode.textContent = formatMeters(world.best);
           resultNode.textContent = `距离 ${formatMeters(finalDistance)} M · 碎片 ${world.memory} · 护盾抵消 ${world.shieldSaves} · 险避 ${world.nearMisses} · MAX COMBO × ${Math.max(1, world.maxCombo)}`;
+          renderMemoryPath(resultPathNode);
           setState("gameover");
           liveNode.textContent = `记忆中断，本次距离 ${finalDistance} 米，收集 ${world.memory} 个记忆碎片。`;
           playTone(180, 0.2, "sawtooth", 0.025);
@@ -1357,7 +1760,9 @@
           const height = player.height * 0.43;
           const source = objectSources.crystal;
           const width = height * source.ratio;
-          const high = world.memory > 0 && Math.random() > 0.56;
+          // Later routes always place the second clue high, teaching one readable jump
+          // instead of hiding essential Wiki progress behind random crystal heights.
+          const high = world.routeRound > 0 && world.routeSpawned % 3 === 1;
           crystals.push({
             x: world.width + 80,
             y: world.groundY - height - (high ? player.height * 0.82 : player.height * 0.28),
@@ -1365,9 +1770,12 @@
             height,
             bob: Math.random() * Math.PI * 2,
           });
-          world.crystalIn = world.shieldActive || world.shieldCharge >= SHIELD_COST
-            ? 2.25 + Math.random() * 2.3
-            : 1.25 + Math.random() * 0.75;
+          world.routeSpawned += 1;
+          world.crystalIn = routeStep
+            ? 0.9 + Math.random() * 0.75
+            : world.shieldActive || world.shieldCharge >= SHIELD_COST
+              ? 2.25 + Math.random() * 2.3
+              : 1.25 + Math.random() * 0.75;
         }
 
         function emitDust(x, y, count) {
@@ -1402,7 +1810,8 @@
           if (world.state !== "running") return;
 
           world.elapsed += dt;
-          world.speed = world.baseSpeed + Math.min(300, world.distance * 1.35);
+          world.corruptionTime = Math.max(0, world.corruptionTime - dt);
+          world.speed = world.baseSpeed + Math.min(300, world.distance * 1.35) + (world.corruptionTime > 0 ? 120 : 0);
           world.distance += (world.speed * dt) / 90;
           world.invulnerable = Math.max(0, world.invulnerable - dt);
           world.spawnIn -= dt;
@@ -1525,6 +1934,7 @@
           }
 
           if (world.state === "running") {
+            let routeReady = false;
             crystals = crystals.filter((crystal) => {
               const collected = intersects(hitbox, {
                 x: crystal.x + crystal.width * 0.12,
@@ -1551,14 +1961,21 @@
                 const bonus = baseBonus * (world.resonanceTime > 0 ? 2 : 1);
                 world.distance += bonus;
                 world.flash = 0.35;
+                if (routeStep) {
+                  world.routeFragments = Math.min(routeStep.facts.length, world.routeFragments + 1);
+                  renderCluePanel();
+                  routeReady = world.routeFragments >= routeStep.facts.length;
+                }
                 memoryNode.textContent = String(world.memory);
                 updateCombo();
-                showEvent(world.combo > 1 ? `记忆连击 COMBO ×${world.combo} +${bonus}` : `记忆修复 +${bonus}`);
+                const recoveredFact = routeStep?.facts[world.routeFragments - 1];
+                showEvent(recoveredFact ? `线索 ${world.routeFragments}/3 · ${recoveredFact}` : world.combo > 1 ? `记忆连击 COMBO ×${world.combo} +${bonus}` : `记忆修复 +${bonus}`, 2.1);
                 playTone(620 + world.combo * 42, 0.07, "square", 0.018);
                 burstCrystal(crystal.x + crystal.width / 2, crystal.y + crystal.height / 2);
               }
               return !collected;
             });
+            if (routeReady) openRouteDecision();
           }
 
           updateHud();
@@ -1771,7 +2188,7 @@
           if (event) event.preventDefault();
           unlockAudio();
           if (world.state === "ready") startGame(true);
-          else if (world.state === "gameover") startGame(false);
+          else if (["gameover", "complete"].includes(world.state)) startGame(false);
           else if (world.state === "paused") togglePause();
           else jump();
         }
@@ -1783,6 +2200,12 @@
           startGame(false);
         });
         restartButton.addEventListener("click", (event) => {
+          event.stopPropagation();
+          event.currentTarget.blur();
+          unlockAudio();
+          startGame(false);
+        });
+        completeRestartButton.addEventListener("click", (event) => {
           event.stopPropagation();
           event.currentTarget.blur();
           unlockAudio();
@@ -1818,7 +2241,10 @@
             if (["KeyP", "Escape"].includes(event.code)) {
               event.preventDefault();
               togglePause();
-            } else if (event.code === "KeyR" && world.state === "gameover") {
+            } else if (["Digit1", "Digit2"].includes(event.code) && world.state === "decision") {
+              event.preventDefault();
+              chooseRoute(routeChoiceItems[event.code === "Digit1" ? 0 : 1]);
+            } else if (event.code === "KeyR" && ["gameover", "complete"].includes(world.state)) {
               event.preventDefault();
               startGame(false);
             } else if (["Space", "ArrowUp", "KeyW"].includes(event.code) && !event.repeat) {
