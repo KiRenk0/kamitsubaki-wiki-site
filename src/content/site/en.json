@@ -35,6 +35,10 @@
       "href": "#about"
     },
     {
+      "label": "EXPERIENCES",
+      "href": "#experiences"
+    },
+    {
       "label": "DATABASE",
       "href": "#database"
     },
@@ -49,6 +53,10 @@
     {
       "label": "PROJECTS",
       "href": "#projects"
+    },
+    {
+      "label": "GAME",
+      "href": "/en/games/memory-corridor"
     },
     {
       "label": "LOG",
