@@ -191,22 +191,10 @@ const site = defineCollection({
       inputPlaceholder: z.string(),
       sendLabel: z.string(),
       keyboardHint: z.string(),
-      modelModeLabel: z.string(),
-      customModelLabel: z.string(),
-      customModelPlaceholder: z.string(),
-      thinkingModeLabel: z.string(),
-      modelModes: z.array(
-        z.object({
-          value: z.string(),
-          label: z.string(),
-        }),
-      ),
-      thinkingModes: z.array(
-        z.object({
-          value: z.string(),
-          label: z.string(),
-        }),
-      ),
+      retrievalLabel: z.string(),
+      retrievalAutoLabel: z.string(),
+      retrievalForcedLabel: z.string(),
+      terminalLabel: z.string(),
       bubbleIdle: z.string(),
       bubbleThinking: z.string(),
       thinkingPhrases: z.array(z.string()).min(1),

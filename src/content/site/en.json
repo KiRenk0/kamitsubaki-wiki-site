@@ -223,50 +223,10 @@
       "How does this connect to V.W.P?",
       "Give me a first route"
     ],
-    "modelModeLabel": "Model",
-    "customModelLabel": "Custom",
-    "customModelPlaceholder": "e.g. model-id",
-    "thinkingModeLabel": "Thinking",
-    "modelModes": [
-      {
-        "value": "auto",
-        "label": "Auto"
-      },
-      {
-        "value": "fast",
-        "label": "Fast"
-      },
-      {
-        "value": "balanced",
-        "label": "Balanced"
-      },
-      {
-        "value": "deep",
-        "label": "Deep"
-      },
-      {
-        "value": "custom",
-        "label": "Custom"
-      }
-    ],
-    "thinkingModes": [
-      {
-        "value": "auto",
-        "label": "Auto"
-      },
-      {
-        "value": "off",
-        "label": "Off"
-      },
-      {
-        "value": "light",
-        "label": "Light"
-      },
-      {
-        "value": "deep",
-        "label": "Deep"
-      }
-    ],
+    "retrievalLabel": "Knowledge retrieval",
+    "retrievalAutoLabel": "Auto for factual questions",
+    "retrievalForcedLabel": "Always search",
+    "terminalLabel": "Open the full AI Terminal",
     "accountAnonymous": "Anonymous observer",
     "accountLoggedInPrefix": "Signed in",
     "loginRequiredFallback": "Anonymous observation is limited to 5 AI conversations. Sign in to continue.",

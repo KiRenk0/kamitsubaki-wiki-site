@@ -3937,6 +3937,26 @@ html[data-theme='light'] .guide-shell {
   box-shadow: inset 0 0 0 1px rgb(var(--theme-fg-rgb) / 0.72);
 }
 
+.ai-chat__terminal-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 2.5rem;
+  border-top: 1px solid var(--ai-border);
+  color: var(--ai-text-muted);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 180ms ease, border-color 180ms ease;
+}
+
+.ai-chat__terminal-link:hover,
+.ai-chat__terminal-link:focus-visible {
+  border-color: rgb(var(--theme-fg-rgb) / 0.52);
+  color: var(--theme-fg);
+}
+
 /* Body layout */
 .ai-chat__body {
   position: relative;

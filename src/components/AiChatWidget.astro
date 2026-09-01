@@ -9,10 +9,10 @@ type AiChatCopy = {
   inputPlaceholder: string;
   sendLabel: string;
   keyboardHint?: string;
-  modelModeLabel: string;
-  thinkingModeLabel: string;
-  modelModes: { value: string; label: string }[];
-  thinkingModes: { value: string; label: string }[];
+  retrievalLabel?: string;
+  retrievalAutoLabel?: string;
+  retrievalForcedLabel?: string;
+  terminalLabel?: string;
   bubbleIdle: string;
   bubbleThinking: string;
   thinkingPhrases?: string[];
@@ -43,8 +43,10 @@ type AiChatCopy = {
 const { lang = 'zh', copy } = Astro.props as { lang?: string; copy: AiChatCopy };
 const normalizedCopy = {
   ...copy,
-  modelModeLabel: copy.modelModeLabel ?? 'Model',
-  thinkingModeLabel: copy.thinkingModeLabel ?? 'Thinking',
+  retrievalLabel: copy.retrievalLabel ?? 'Search',
+  retrievalAutoLabel: copy.retrievalAutoLabel ?? 'Auto',
+  retrievalForcedLabel: copy.retrievalForcedLabel ?? 'Always search',
+  terminalLabel: copy.terminalLabel ?? 'Open AI Terminal',
   keyboardHint: copy.keyboardHint ?? 'Enter sends · Control+Enter newline',
   accountAnonymous: copy.accountAnonymous ?? 'Anonymous observer',
   accountLoggedInPrefix: copy.accountLoggedInPrefix ?? 'Signed in',
@@ -63,20 +65,9 @@ const normalizedCopy = {
   deleteThreadConfirm: copy.deleteThreadConfirm ?? 'Delete this conversation?',
   clearHistoryConfirm: copy.clearHistoryConfirm ?? 'Delete all conversations?',
   thinkingPhrases: copy.thinkingPhrases ?? [copy.bubbleThinking ?? 'Thinking'],
-  modelModes: (copy.modelModes ?? [
-    { value: 'auto', label: 'Auto' },
-    { value: 'fast', label: 'Fast' },
-    { value: 'balanced', label: 'Balanced' },
-    { value: 'deep', label: 'Deep' },
-  ]).filter((mode) => mode.value !== 'custom'),
-  thinkingModes: copy.thinkingModes ?? [
-    { value: 'auto', label: 'Auto' },
-    { value: 'off', label: 'Off' },
-    { value: 'light', label: 'Light' },
-    { value: 'deep', label: 'Deep' },
-  ],
 };
 const apiBase = import.meta.env.PUBLIC_AI_OBSERVER_API_BASE || 'https://api.kamitsubaki.wiki';
+const terminalUrl = `https://chat.kamitsubaki.wiki/${lang}/`;
 ---
 
 <div class="ai-chat__launcher" data-ai-launcher>
@@ -137,25 +128,17 @@ const apiBase = import.meta.env.PUBLIC_AI_OBSERVER_API_BASE || 'https://api.kami
       <div class="ai-chat__settings-popover" data-ai-settings-popover hidden>
         <div class="ai-chat__controls" data-ai-controls>
           <div class="ai-chat__control-group">
-            <span>// {normalizedCopy.modelModeLabel}</span>
-            <div class="ai-chat__segmented" role="radiogroup" data-ai-model-choice data-value={normalizedCopy.modelModes[0]?.value ?? 'auto'}>
-              {normalizedCopy.modelModes.map((mode, index) => (
-                <button type="button" role="radio" data-ai-model-option={mode.value} aria-checked={index === 0 ? 'true' : 'false'} class={index === 0 ? 'is-active' : ''}>
-                  {mode.label}
-                </button>
-              ))}
+            <span>// {normalizedCopy.retrievalLabel}</span>
+            <div class="ai-chat__segmented" role="radiogroup" data-ai-retrieval-mode data-value="auto">
+              <button type="button" role="radio" data-ai-retrieval-option="auto" aria-checked="true" class="is-active">
+                {normalizedCopy.retrievalAutoLabel}
+              </button>
+              <button type="button" role="radio" data-ai-retrieval-option="forced" aria-checked="false">
+                {normalizedCopy.retrievalForcedLabel}
+              </button>
             </div>
           </div>
-          <div class="ai-chat__control-group">
-            <span>// {normalizedCopy.thinkingModeLabel}</span>
-            <div class="ai-chat__segmented" role="radiogroup" data-ai-thinking-mode data-value={normalizedCopy.thinkingModes[0]?.value ?? 'auto'}>
-              {normalizedCopy.thinkingModes.map((mode, index) => (
-                <button type="button" role="radio" data-ai-thinking-option={mode.value} aria-checked={index === 0 ? 'true' : 'false'} class={index === 0 ? 'is-active' : ''}>
-                  {mode.label}
-                </button>
-              ))}
-            </div>
-          </div>
+          <a class="ai-chat__terminal-link" href={terminalUrl}>{normalizedCopy.terminalLabel} <span aria-hidden="true">→</span></a>
         </div>
       </div>
     </header>

@@ -223,50 +223,10 @@
       "V.W.P との関係は？",
       "最初の読み方を教えて"
     ],
-    "modelModeLabel": "モデル",
-    "customModelLabel": "任意",
-    "customModelPlaceholder": "例: model-id",
-    "thinkingModeLabel": "思考",
-    "modelModes": [
-      {
-        "value": "auto",
-        "label": "自動"
-      },
-      {
-        "value": "fast",
-        "label": "高速"
-      },
-      {
-        "value": "balanced",
-        "label": "標準"
-      },
-      {
-        "value": "deep",
-        "label": "深く"
-      },
-      {
-        "value": "custom",
-        "label": "任意"
-      }
-    ],
-    "thinkingModes": [
-      {
-        "value": "auto",
-        "label": "自動"
-      },
-      {
-        "value": "off",
-        "label": "なし"
-      },
-      {
-        "value": "light",
-        "label": "軽め"
-      },
-      {
-        "value": "deep",
-        "label": "深く"
-      }
-    ],
+    "retrievalLabel": "知識検索",
+    "retrievalAutoLabel": "事実質問のみ自動検索",
+    "retrievalForcedLabel": "常に検索",
+    "terminalLabel": "AI 観測端末を開く",
     "accountAnonymous": "匿名観測者",
     "accountLoggedInPrefix": "ログイン中",
     "loginRequiredFallback": "匿名観測は AI 会話 5 件までです。続けるにはログインしてください。",
