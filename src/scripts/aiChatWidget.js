@@ -1148,6 +1148,7 @@ function initWidget(root) {
   const threadList = root.querySelector('[data-ai-thread-list]');
   const oauthButtons = root.querySelectorAll('[data-ai-oauth]');
   const logoutButton = root.querySelector('[data-ai-logout]');
+  const terminalLink = root.querySelector('[data-ai-terminal-link]');
 
   if (
     !(toggle instanceof HTMLButtonElement) ||
@@ -1166,6 +1167,15 @@ function initWidget(root) {
   };
 
   resetLauncherDock();
+  if (terminalLink instanceof HTMLAnchorElement) {
+    const context = collectPageContext(root);
+    const target = new URL(terminalLink.href);
+    target.searchParams.set('sourcePage', context.url);
+    if (context.title) {
+      target.searchParams.set('sourceTitle', context.title);
+    }
+    terminalLink.href = target.toString();
+  }
   consumeAuthResult();
   updateAuthState(root, copy, { kind: 'anonymous' });
   bootstrap(root).catch(() => {});
@@ -1333,19 +1343,33 @@ function initWidget(root) {
     input.style.height = `${Math.min(input.scrollHeight, 128)}px`;
   });
 
+  let inputIsComposing = false;
+  let compositionEndedAt = Number.NEGATIVE_INFINITY;
+  input.addEventListener('compositionstart', () => {
+    inputIsComposing = true;
+  });
+  input.addEventListener('compositionend', () => {
+    inputIsComposing = false;
+    compositionEndedAt = performance.now();
+  });
+
   input.addEventListener('keydown', (event) => {
     if (event.defaultPrevented) {
       return;
     }
 
     const isEnter = event.key === 'Enter' || event.code === 'NumpadEnter';
-    if (isEnter && (event.ctrlKey || event.metaKey) && !event.isComposing) {
+    const isImeCommit = inputIsComposing || event.isComposing || event.keyCode === 229 || performance.now() - compositionEndedAt < 80;
+    if (isEnter && isImeCommit) {
+      return;
+    }
+    if (isEnter && (event.ctrlKey || event.metaKey)) {
       event.preventDefault();
       insertTextareaNewline(input);
       return;
     }
 
-    if (isEnter && !event.shiftKey && !event.altKey && !event.ctrlKey && !event.metaKey && !event.isComposing) {
+    if (isEnter && !event.shiftKey && !event.altKey && !event.ctrlKey && !event.metaKey) {
       event.preventDefault();
       form.requestSubmit();
     }

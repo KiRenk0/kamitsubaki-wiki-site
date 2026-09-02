@@ -149,6 +149,12 @@ What they do:
 - `pnpm check`: runs Astro diagnostics and validates Content Collections schemas.
 - `pnpm build`: generates the static site and confirms all routes build.
 
+## Unified AI Entry
+
+The in-Wiki assistant and the standalone KAMITSUBAKI AI Terminal share the same AI v2 control plane. This public repository contains only the Astro widget, streaming UI, and localized copy. Authentication, Agents, retrieval, history, memory, model policy, and abuse controls remain in private services.
+
+Set `PUBLIC_AI_OBSERVER_API_BASE` to the Worker origin. The widget defaults to the `observer` knowledge Agent and links to `https://chat.kamitsubaki.wiki/<locale>/` for the complete six-Agent terminal. See [Unified AI widget](docs/ai-terminal.en.md).
+
 ## GitHub PR And CI Flow
 
 1. Create or sync your branch from `main`.
@@ -183,6 +189,7 @@ Entry `license` frontmatter supports `CC-BY-NC-SA-4.0`, `CC-BY-NC-SA-3.0-CN`, `r
 
 - [Contributing guide](docs/contributing.en.md)
 - [Architecture notes](docs/architecture.en.md)
+- [Unified AI widget](docs/ai-terminal.en.md)
 - [Content licensing and attribution](docs/licensing.en.md)
 - [Branded external-link cards](docs/external-links.en.md)
 

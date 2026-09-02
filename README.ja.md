@@ -149,6 +149,12 @@ pnpm build
 - `pnpm check`: Astro 診断と Content Collections schema の検証を行います。
 - `pnpm build`: 静的サイトを生成し、すべてのルートがビルドできることを確認します。
 
+## 統合 AI エントリー
+
+Wiki 内アシスタントと独立した KAMITSUBAKI AI 観測端末は、同じ AI v2 コントロールプレーンを利用します。この公開リポジトリに含まれるのは Astro ウィジェット、ストリーミング UI、三言語の文言だけです。認証、Agent、検索、履歴、メモリ、モデル方針、不正利用対策は非公開サービスが担当します。
+
+`PUBLIC_AI_OBSERVER_API_BASE` に Worker のオリジンを設定します。ウィジェットの既定 Agent は知識担当の `observer` で、完全な六 Agent 端末は `https://chat.kamitsubaki.wiki/<locale>/` です。詳細は[統合 AI ウィジェット](docs/ai-terminal.ja.md)を参照してください。
+
 ## GitHub PR と CI の流れ
 
 1. `main` からブランチを作成、または最新状態に同期します。
@@ -183,6 +189,7 @@ CI ワークフローは `.github/workflows/ci.yml` にあります。
 
 - [コントリビューションガイド](docs/contributing.ja.md)
 - [アーキテクチャ](docs/architecture.ja.md)
+- [統合 AI ウィジェット](docs/ai-terminal.ja.md)
 - [コンテンツのライセンスと出典表示](docs/licensing.ja.md)
 - [外部リンクのブランドカード](docs/external-links.ja.md)
 

@@ -149,9 +149,9 @@ pnpm build
 - `pnpm check`：运行 Astro 诊断并校验 Content Collections schema。
 - `pnpm build`：生成静态站点并确认所有路由能构建。
 
-## AI Observer API
+## 统一 AI 入口
 
-AI 聊天功能按“静态网页 + 独立后端接口”实现：这个公开仓库只保留 Astro 前端、聊天框 UI、流式显示逻辑和内容文案。私有后端仓库负责 AI 接口、检索、身份关联、持久化和防滥用逻辑。
+Wiki 内的小组件和独立 `KAMITSUBAKI AI 观测终端` 使用同一个 AI v2 控制平面。这个公开仓库只保留 Astro 小组件、流式显示和三语文案；Worker/Gateway/AstrBot 负责登录、Agent、检索、历史、记忆、模型与防滥用。小组件默认打开第六个 Agent `observer`，完整角色大厅位于 `https://chat.kamitsubaki.wiki/<locale>/`。
 
 前端通过环境变量连接后端：
 
@@ -168,7 +168,7 @@ PUBLIC_SITE_URL=https://kamitsubaki.wiki
 PUBLIC_AI_OBSERVER_API_BASE=https://api.kamitsubaki.wiki
 ```
 
-浏览器只会调用后端公开 API：`GET /api/ai/bootstrap` 和 `POST /api/ai/chat`。不要在这个前端仓库中提交后端源码、模型密钥、数据库配置或服务端规则。
+浏览器只调用统一后端 `/api/ai/v2/*`。当前小组件使用 bootstrap、chat 和 Observer 会话管理接口；不要在这个前端仓库中提交后端源码、模型密钥、数据库配置或服务端规则。完整交互与联调说明见[统一 AI 小组件](docs/ai-terminal.md)。
 
 ## GitHub PR 与 CI 流程
 
@@ -204,6 +204,7 @@ CI 工作流位于 `.github/workflows/ci.yml`。
 
 - [贡献指南](docs/contributing.md)
 - [架构说明](docs/architecture.md)
+- [统一 AI 小组件](docs/ai-terminal.md)
 - [内容授权与来源标注](docs/licensing.md)
 - [外部链接品牌卡片](docs/external-links.md)
 
