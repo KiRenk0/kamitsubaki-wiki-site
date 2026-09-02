@@ -40,7 +40,7 @@ type LiveEventsCopy = {
 
 const { lang = 'zh', copy } = Astro.props as { lang?: string; copy: LiveEventsCopy };
 const languageTag = getLanguageTag(lang);
-const apiBase = import.meta.env.PUBLIC_EVENTS_API_BASE || 'https://api.kamitsubaki.wiki';
+const apiBase = import.meta.env.PUBLIC_EVENTS_API_BASE || 'https://kamitsubaki-events-api.apikatsuwiki.workers.dev';
 ---
 
 {copy.enabled !== false && (

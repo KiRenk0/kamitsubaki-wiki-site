@@ -30,6 +30,21 @@ function memoryStorage() {
   };
 }
 
+test('live-event components default to the production Workers API', async () => {
+  const expectedBase = 'https://kamitsubaki-events-api.apikatsuwiki.workers.dev';
+  const [calendar, widget, envExample] = await Promise.all([
+    readFile(new URL('../src/components/EventsCalendar.astro', import.meta.url), 'utf8'),
+    readFile(new URL('../src/components/LiveEventsWidget.astro', import.meta.url), 'utf8'),
+    readFile(new URL('../.env.example', import.meta.url), 'utf8'),
+  ]);
+
+  assert.match(calendar, /import\.meta\.env\.PUBLIC_EVENTS_API_BASE/);
+  assert.match(widget, /import\.meta\.env\.PUBLIC_EVENTS_API_BASE/);
+  assert.ok(calendar.includes(expectedBase));
+  assert.ok(widget.includes(expectedBase));
+  assert.match(envExample, new RegExp(`PUBLIC_EVENTS_API_BASE=${expectedBase.replaceAll('.', '\\.')}\\s`));
+});
+
 test('live-event times can be rendered in the visitor time zone and JST', () => {
   const local = formatEventDateTime(event, 'en-GB', 'All day', 'Asia/Hong_Kong');
   const jst = formatEventDateTime(event, 'en-GB', 'All day', 'Asia/Tokyo');

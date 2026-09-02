@@ -7,11 +7,11 @@
 新增的公开环境变量为：
 
 ```dotenv
-PUBLIC_EVENTS_API_BASE=https://events-api.example.com
+PUBLIC_EVENTS_API_BASE=https://kamitsubaki-events-api.apikatsuwiki.workers.dev
 ```
 
 - 变量只填写 API 基地址，不要包含末尾 `/`，也不要包含 `/v1/events`。
-- 未配置时默认使用 `https://api.kamitsubaki.wiki`。
+- 未配置时默认使用 `https://kamitsubaki-events-api.apikatsuwiki.workers.dev`。
 - `PUBLIC_` 变量会被编译到公开的 JavaScript 中，因此严禁在这里放 API Key、Bearer Token 或其他秘密。
 - 本地开发可把变量写入未提交的 `.env.local`，部署时应在托管平台的环境变量设置中配置，然后重新构建站点。仓库根目录的 `.env.example` 是可入库的模板，复制为 `.env.local` 后按需修改即可。
 
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
 2. `https://kamitsubaki.wiki` 页面向 `http://` 地址发起的请求会被浏览器按混合内容（mixed content）拦截。
 3. 前端 `buildEventsUrl` 使用不带 base 的 `new URL()`，只接受绝对 URL，相对路径（如 `/api`）会直接抛错。
 
-**两种部署场景共用同一配置 `PUBLIC_EVENTS_API_BASE=https://api.kamitsubaki.wiki`：**
+**正式部署使用 `PUBLIC_EVENTS_API_BASE=https://kamitsubaki-events-api.apikatsuwiki.workers.dev`：**
 
 | 场景 | 路由方式 | 说明 |
 | --- | --- | --- |
@@ -165,7 +165,7 @@ Content-Type: application/json; charset=utf-8
 **构建与变量来源：**
 
 - `.env.local` 被 `.gitignore` 排除、不会入库，仅用于本机覆盖。
-- 托管平台应设置环境变量 `PUBLIC_EVENTS_API_BASE=https://api.kamitsubaki.wiki`；不设置时自动使用代码内置的相同默认值。
+- 托管平台应设置环境变量 `PUBLIC_EVENTS_API_BASE=https://kamitsubaki-events-api.apikatsuwiki.workers.dev`；不设置时自动使用代码内置的相同默认值。
 - `PUBLIC_` 变量在构建期内联到产物中，修改后必须重新构建并部署才会生效。
 
 ## 8. 上线检查
@@ -173,8 +173,8 @@ Content-Type: application/json; charset=utf-8
 可先用下面的命令验证 API，再配置站点：
 
 ```bash
-curl -i "https://events-api.example.com/v1/events?date=2026-08-16&locale=zh"
-curl -i "https://events-api.example.com/v1/events?from=2026-08-01&to=2026-08-31&locale=en"
+curl -i "https://kamitsubaki-events-api.apikatsuwiki.workers.dev/v1/events?date=2026-08-16&locale=zh"
+curl -i "https://kamitsubaki-events-api.apikatsuwiki.workers.dev/v1/events?from=2026-08-01&to=2026-08-31&locale=en"
 ```
 
 检查响应时确认：状态码为 `200`、`Content-Type` 正确、浏览器来源获得正确 CORS 头、所有时间带时区、空结果使用空数组。随后设置 `PUBLIC_EVENTS_API_BASE`、重新构建并分别打开 `/zh/` 与 `/zh/events`；断网测试应显示回退文案，切换后台 30 秒后不应继续发出请求。
