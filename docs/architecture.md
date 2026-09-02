@@ -13,7 +13,7 @@
 /en/   -> 英文站点
 ```
 
-生产构建输出静态 HTML、CSS 和浏览器 JavaScript，运行时不需要后端。
+生产构建输出静态 HTML、CSS 和浏览器 JavaScript。百科阅读本身不需要站点服务器；统一 AI 小组件在浏览器运行时调用独立 Worker API。
 
 ## 内容流
 
@@ -67,6 +67,8 @@ schema 位于 `src/content.config.ts`，由 `pnpm check` 校验。
 - 公告板：首页从 `announcements` collection 选择置顶或最新记录，并由 `AnnouncementModal.astro` 展示。
 - 专辑艺人分类：`src/lib/musicCatalog.mjs` 按专辑目录中的艺人 ID 分组；`src/pages/[locale]/albums/artists/[artist].astro` 渲染分类页，艺人封面优先取对应 `artists` 条目的 `image`。
 - 分层内容授权：`src/content.config.ts` 校验四种 `license` 标记，`ContentLicenseNotice.astro` 在详情页展示条目许可与媒体排除说明，`src/pages/[locale]/license.astro` 提供三语著作权信息页；编辑规则见[内容授权与来源标注](licensing.md)。
+- 统一 AI 入口：`AiChatWidget.astro` 与 `src/scripts/aiChatWidget.js` 调用 `/api/ai/v2/*`，默认使用 Observer，并把完整会话入口交给独立终端；详见[统一 AI 小组件](ai-terminal.md)。
+- 体验入口：`ExperiencePortals.astro` 在主站整合游戏与 AI 终端入口，文案跟随页面语言，深浅色模式使用全局设计 token。
 
 这些功能的公开资料必须放在内容或数据文件中，组件只负责渲染。新增可翻译词条时，必须同时提供 `zh`、`ja`、`en`，并保持 `translationKey` 和路由结构一致。
 
