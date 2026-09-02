@@ -14,7 +14,7 @@ const { announcement, labels } = Astro.props as {
 
 if (!announcement) return;
 
-function escapeHtml(value) {
+function escapeHtml(value: string) {
   return String(value ?? '')
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')

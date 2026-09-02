@@ -15,7 +15,7 @@ async function readAnnouncement(id, locale) {
   return yaml.parse(frontmatter[1]);
 }
 
-test('V1.3.3 announcement is complete and pinned in every locale', async () => {
+test('V1.3.3 announcement is complete and superseded in every locale', async () => {
   const announcements = await Promise.all(
     locales.map((locale) => readAnnouncement('2026-07-26-v1-3-3', locale)),
   );
@@ -25,10 +25,20 @@ test('V1.3.3 announcement is complete and pinned in every locale', async () => {
     announcements.every((announcement) => announcement.translationKey === '2026-07-26-v1-3-3'),
     true,
   );
-  assert.equal(announcements.every((announcement) => announcement.pinned === true), true);
+  assert.equal(announcements.every((announcement) => announcement.pinned === false), true);
   assert.equal(announcements.every((announcement) => announcement.title.includes('V1.3.3')), true);
   assert.equal(announcements.every((announcement) => announcement.summary.length > 300), true);
   assert.equal(announcements.every((announcement) => !announcement.summary.includes('PR #')), true);
+});
+
+test('V2.0.0 announcement is pinned in every locale', async () => {
+  const announcements = await Promise.all(
+    locales.map((locale) => readAnnouncement('2026-09-01-v2-0-0', locale)),
+  );
+
+  assert.deepEqual(announcements.map((announcement) => announcement.locale), locales);
+  assert.equal(announcements.every((announcement) => announcement.pinned === true), true);
+  assert.equal(announcements.every((announcement) => announcement.title.includes('V2.0.0')), true);
 });
 
 test('previous V1.3.0 announcement is no longer pinned', async () => {

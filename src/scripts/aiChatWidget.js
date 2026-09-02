@@ -2,12 +2,7 @@ import katex from 'katex';
 import { micromark } from 'micromark';
 import { gfm, gfmHtml } from 'micromark-extension-gfm';
 import { math, mathHtml } from 'micromark-extension-math';
-import { readModelSettings, setSegmentedValue } from '../lib/aiChatControls.mjs';
-import {
-  buildAiLocaleRequest,
-  convertAiResponseText,
-  isTraditionalAiResponseLocale,
-} from '../lib/aiResponseLocale.mjs';
+import { setSegmentedValue } from '../lib/aiChatControls.mjs';
 import { parseAiStreamChunk } from '../lib/aiStream.mjs';
 
 const widgets = document.querySelectorAll('[data-ai-chat]');
@@ -498,12 +493,8 @@ async function bootstrap(root) {
     return;
   }
 
-  const bootstrapUrl = new URL(`${apiBase}/api/ai/bootstrap`);
-  const localeRequest = buildAiLocaleRequest(root.dataset.locale || document.documentElement.lang || 'zh');
-  bootstrapUrl.searchParams.set('locale', localeRequest.locale);
-  bootstrapUrl.searchParams.set('responseLocale', localeRequest.locale);
-  bootstrapUrl.searchParams.set('languageTag', localeRequest.languageTag);
-  bootstrapUrl.searchParams.set('responseVariant', localeRequest.responseVariant);
+  const bootstrapUrl = new URL(`${apiBase}/api/ai/v2/bootstrap`);
+  bootstrapUrl.searchParams.set('locale', root.dataset.locale || document.documentElement.lang || 'zh');
   const response = await fetch(bootstrapUrl, {
     credentials: 'include',
     headers: { Accept: 'application/json' },
@@ -517,9 +508,6 @@ async function bootstrap(root) {
   const copy = normalizeCopy(root);
   updateAuthState(root, copy, data.viewer);
   if (data.viewer?.kind === 'user') {
-    if (Array.isArray(data.recentThreads)) {
-      renderThreadList(root, data.recentThreads);
-    }
     loadThreadList(root).catch(() => {});
   }
 
@@ -876,7 +864,7 @@ async function renameThread(root, threadId, title) {
   if (!threadId || !title?.trim()) {
     return;
   }
-  const response = await fetch(`${root.dataset.apiBase}/api/ai/threads/${encodeURIComponent(threadId)}`, {
+  const response = await fetch(`${root.dataset.apiBase}/api/ai/v2/conversations/${encodeURIComponent(threadId)}`, {
     method: 'PATCH',
     credentials: 'include',
     headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
@@ -891,7 +879,7 @@ async function deleteThread(root, threadId) {
   if (!threadId) {
     return;
   }
-  const response = await fetch(`${root.dataset.apiBase}/api/ai/threads/${encodeURIComponent(threadId)}`, {
+  const response = await fetch(`${root.dataset.apiBase}/api/ai/v2/conversations/${encodeURIComponent(threadId)}`, {
     method: 'DELETE',
     credentials: 'include',
     headers: { Accept: 'application/json' },
@@ -915,7 +903,7 @@ async function clearAllThreads(root, copy) {
   if (!confirmed) {
     return;
   }
-  const response = await fetch(`${root.dataset.apiBase}/api/ai/threads`, {
+  const response = await fetch(`${root.dataset.apiBase}/api/ai/v2/conversations?agentId=observer`, {
     method: 'DELETE',
     credentials: 'include',
     headers: { Accept: 'application/json' },
@@ -940,7 +928,7 @@ async function loadThreadList(root) {
     return;
   }
 
-  const response = await fetch(`${apiBase}/api/ai/threads`, {
+  const response = await fetch(`${apiBase}/api/ai/v2/conversations?agentId=observer`, {
     credentials: 'include',
     headers: { Accept: 'application/json' },
   });
@@ -949,7 +937,7 @@ async function loadThreadList(root) {
   }
 
   const data = await response.json();
-  renderThreadList(root, Array.isArray(data.threads) ? data.threads : []);
+  renderThreadList(root, Array.isArray(data.conversations) ? data.conversations : []);
 }
 
 function clearMessages(root) {
@@ -967,7 +955,7 @@ async function loadThreadDetail(root, threadId) {
     return;
   }
 
-  const response = await fetch(`${apiBase}/api/ai/threads/${encodeURIComponent(threadId)}`, {
+  const response = await fetch(`${apiBase}/api/ai/v2/conversations/${encodeURIComponent(threadId)}`, {
     credentials: 'include',
     headers: { Accept: 'application/json' },
   });
@@ -976,7 +964,7 @@ async function loadThreadDetail(root, threadId) {
   }
 
   const data = await response.json();
-  root.dataset.currentThreadId = data.thread?.id || '';
+  root.dataset.currentThreadId = data.conversation?.id || data.thread?.id || threadId;
   clearMessages(root);
   for (const item of data.messages || []) {
     const rendered = createMessage(
@@ -1185,19 +1173,15 @@ function initWidget(root) {
   });
   settingsPopover?.addEventListener('click', (event) => {
     const option = event.target instanceof Element
-      ? event.target.closest('[data-ai-model-option], [data-ai-thinking-option]')
+      ? event.target.closest('[data-ai-retrieval-option]')
       : null;
     if (!(option instanceof HTMLButtonElement)) {
       return;
     }
 
-    const modelValue = option.dataset.aiModelOption;
-    const thinkingValue = option.dataset.aiThinkingOption;
-    if (modelValue) {
-      setSegmentedValue(root.querySelector('[data-ai-model-choice]'), modelValue);
-    }
-    if (thinkingValue) {
-      setSegmentedValue(root.querySelector('[data-ai-thinking-mode]'), thinkingValue);
+    const retrievalValue = option.dataset.aiRetrievalOption;
+    if (retrievalValue) {
+      setSegmentedValue(root.querySelector('[data-ai-retrieval-mode]'), retrievalValue);
     }
   });
   historyToggle?.addEventListener('click', () => {
@@ -1382,21 +1366,18 @@ function initWidget(root) {
 
     const requestChat = (turnstileToken = '') => {
       const body = {
+        agentId: 'observer',
         message,
-        ...localeRequest,
-        threadId: root.dataset.currentThreadId || undefined,
-        pageContext: {
-          ...collectPageContext(root),
-          responseLocale: localeRequest.locale,
-          responseLanguage: localeRequest.responseLanguage,
-          responseInstruction: localeRequest.responseInstruction,
-        },
-        ...readModelSettings(root),
+        locale,
+        conversationId: root.dataset.currentThreadId || undefined,
+        clientMessageId: crypto.randomUUID(),
+        retrievalMode: root.querySelector('[data-ai-retrieval-mode]')?.dataset.value === 'forced' ? 'forced' : 'auto',
+        pageContext: collectPageContext(root),
       };
       if (turnstileToken) {
         body.turnstileToken = turnstileToken;
       }
-      return fetch(`${apiBase}/api/ai/chat`, {
+      return fetch(`${apiBase}/api/ai/v2/chat`, {
         method: 'POST',
         credentials: 'include',
         headers: {
