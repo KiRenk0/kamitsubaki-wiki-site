@@ -9,6 +9,7 @@ import {
   getLocaleProfile,
   getLocalizedSiteName,
   localizedSiteNames,
+  resolveLocaleCopy,
   supportedLocales,
 } from '../src/lib/i18n.mjs';
 import { getLocalizedSite } from '../src/lib/homeData.mjs';
@@ -158,6 +159,34 @@ test('Traditional Chinese site chrome is derived at runtime without falling back
     hk.footer.links.find((item) => item.label === 'CONTACT')?.href,
     '/zh-hk/#social-contact',
   );
+});
+
+test('home experience portals resolve copy for both Traditional Chinese routes', async () => {
+  const component = await readFile(
+    new URL('../src/components/ExperiencePortals.astro', import.meta.url),
+    'utf8',
+  );
+  const copy = {
+    zh: {
+      heading: 'EXPERIENCES',
+      subheading: '从资料库进入神椿的另一侧',
+      gameAction: '进入游戏',
+    },
+    ja: {},
+    en: {},
+  };
+
+  assert.match(component, /resolveLocaleCopy\(\{[\s\S]*\}, locale\)/);
+  assert.deepEqual(resolveLocaleCopy(copy, 'zh-tw'), {
+    heading: 'EXPERIENCES',
+    subheading: '從資料庫進入神椿的另一側',
+    gameAction: '進入遊戲',
+  });
+  assert.deepEqual(resolveLocaleCopy(copy, 'zh-hk'), {
+    heading: 'EXPERIENCES',
+    subheading: '從資料庫進入神椿的另一側',
+    gameAction: '進入遊戲',
+  });
 });
 
 test('floating UI roots carry explicit Traditional Chinese language inheritance', async () => {
