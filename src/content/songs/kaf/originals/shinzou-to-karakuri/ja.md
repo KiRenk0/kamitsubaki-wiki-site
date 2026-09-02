@@ -78,7 +78,7 @@ image: /images/albums/kaf/flower-and-heart.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-[01:01.94]<ruby>最初<rt class="furi">さいしょ</rt><rt class="roma">saisho</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>かったら<rt class="roma">kattara</rt></ruby><ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
+[01:01.94]<ruby>最初<rt class="furi">さいしょ</rt><rt class="roma">saisho</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>かったら<rt class="roma">kattara</rt></ruby><ruby>良<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
 </div>
 
@@ -106,13 +106,13 @@ image: /images/albums/kaf/flower-and-heart.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-[01:18.53]<ruby>騙<rt class="furi">だま</rt><rt class="roma">dama</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たって<rt class="roma">tatte</rt></ruby><ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:18.53]<ruby>騙<rt class="furi">だま</rt><rt class="roma">dama</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たって<rt class="roma">tatte</rt></ruby><ruby>良<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-[01:21.48]<ruby>奪<rt class="furi">うば</rt><rt class="roma">uba</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たって<rt class="roma">tatte</rt></ruby><ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:21.48]<ruby>奪<rt class="furi">うば</rt><rt class="roma">uba</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たって<rt class="roma">tatte</rt></ruby><ruby>良<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
