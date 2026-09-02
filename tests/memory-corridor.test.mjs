@@ -35,6 +35,8 @@ test('memory corridor has a localized wrapper, static runner, and required sprit
   assert.match(wrapper, /new URLSearchParams\(window\.location\.search\)/);
   assert.match(wrapper, /params\.toString\(\)/);
   assert.match(wrapper, /memory-corridor-frame/);
+  assert.match(wrapper, /'zh-tw': \{[\s\S]*title: '記憶迴廊'/);
+  assert.match(wrapper, /'zh-hk': \{[\s\S]*title: '記憶迴廊'/);
 });
 
 test('all primary article types link into a source-aware run', async () => {
@@ -53,6 +55,9 @@ test('all primary article types link into a source-aware run', async () => {
   const component = await readProjectFile('../src/components/MemoryCorridorEntryLink.astro');
   assert.match(component, /sourceKind/);
   assert.match(component, /sourceId/);
+  assert.match(component, /'zh-tw'/);
+  assert.match(component, /'zh-hk'/);
+  assert.match(component, /寫入記憶迴廊/);
 });
 
 test('runner reads the Wiki catalog and records recovered entry fragments', async () => {
@@ -69,6 +74,8 @@ test('runner reads the Wiki catalog and records recovered entry fragments', asyn
   assert.match(endpoint, /getCollection\('songs'\)/);
   assert.match(endpoint, /getCollection\('albums'\)/);
   assert.match(endpoint, /getCollection\('projects'\)/);
+  assert.match(endpoint, /'zh-tw': \{ artist: '藝人'/);
+  assert.match(endpoint, /'zh-hk': \{ artist: '藝人'/);
 });
 
 test('Wiki catalog emits clue facts and typed graph connections', async () => {

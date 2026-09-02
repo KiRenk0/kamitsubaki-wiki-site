@@ -3,6 +3,11 @@ import { micromark } from 'micromark';
 import { gfm, gfmHtml } from 'micromark-extension-gfm';
 import { math, mathHtml } from 'micromark-extension-math';
 import { setSegmentedValue } from '../lib/aiChatControls.mjs';
+import {
+  buildAiLocaleRequest,
+  convertAiResponseText,
+  isTraditionalAiResponseLocale,
+} from '../lib/aiResponseLocale.mjs';
 import { parseAiStreamChunk } from '../lib/aiStream.mjs';
 
 const widgets = document.querySelectorAll('[data-ai-chat]');
@@ -494,7 +499,11 @@ async function bootstrap(root) {
   }
 
   const bootstrapUrl = new URL(`${apiBase}/api/ai/v2/bootstrap`);
-  bootstrapUrl.searchParams.set('locale', root.dataset.locale || document.documentElement.lang || 'zh');
+  const localeRequest = buildAiLocaleRequest(root.dataset.locale || document.documentElement.lang || 'zh');
+  bootstrapUrl.searchParams.set('locale', localeRequest.locale);
+  bootstrapUrl.searchParams.set('responseLocale', localeRequest.locale);
+  bootstrapUrl.searchParams.set('languageTag', localeRequest.languageTag);
+  bootstrapUrl.searchParams.set('responseVariant', localeRequest.responseVariant);
   const response = await fetch(bootstrapUrl, {
     credentials: 'include',
     headers: { Accept: 'application/json' },
@@ -1368,11 +1377,16 @@ function initWidget(root) {
       const body = {
         agentId: 'observer',
         message,
-        locale,
+        locale: localeRequest.locale,
         conversationId: root.dataset.currentThreadId || undefined,
         clientMessageId: crypto.randomUUID(),
         retrievalMode: root.querySelector('[data-ai-retrieval-mode]')?.dataset.value === 'forced' ? 'forced' : 'auto',
-        pageContext: collectPageContext(root),
+        pageContext: {
+          ...collectPageContext(root),
+          responseLocale: localeRequest.locale,
+          responseLanguage: localeRequest.responseLanguage,
+          responseInstruction: localeRequest.responseInstruction,
+        },
       };
       if (turnstileToken) {
         body.turnstileToken = turnstileToken;

@@ -42,9 +42,11 @@ function compactFacts(items: Array<string | undefined>) {
 }
 
 export const GET: APIRoute = async ({ params }) => {
-  const locale = (supportedLocales.includes(params.locale ?? '') ? params.locale! : 'zh') as 'zh' | 'ja' | 'en';
+  const locale = (supportedLocales.includes(params.locale ?? '') ? params.locale! : 'zh') as 'zh' | 'zh-tw' | 'zh-hk' | 'ja' | 'en';
   const labels = {
     zh: { artist: '艺人', song: '歌曲', album: '专辑', project: '企划', type: '档案类型', code: '观测代号', debut: '出道日期', performer: '演唱', release: '发行日期', collection: '收录', category: '分类', tracks: '曲目数' },
+    'zh-tw': { artist: '藝人', song: '歌曲', album: '專輯', project: '企劃', type: '檔案類型', code: '觀測代號', debut: '出道日期', performer: '演唱', release: '發行日期', collection: '收錄', category: '分類', tracks: '曲目數' },
+    'zh-hk': { artist: '藝人', song: '歌曲', album: '專輯', project: '企劃', type: '檔案類型', code: '觀測代號', debut: '出道日期', performer: '演唱', release: '發行日期', collection: '收錄', category: '分類', tracks: '曲目數' },
     ja: { artist: 'アーティスト', song: '楽曲', album: 'アルバム', project: 'プロジェクト', type: '記録種別', code: '観測コード', debut: 'デビュー', performer: 'アーティスト', release: 'リリース', collection: '収録', category: '分類', tracks: '曲数' },
     en: { artist: 'Artist', song: 'Song', album: 'Album', project: 'Project', type: 'Archive type', code: 'Observer code', debut: 'Debut', performer: 'Artist', release: 'Released', collection: 'Collection', category: 'Category', tracks: 'Tracks' },
   }[locale];
