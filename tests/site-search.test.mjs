@@ -224,7 +224,7 @@ test('search UI is mounted globally with open and close motion', async () => {
   assert.match(component, /data-search-shortcut/);
 });
 
-test('AI index v3 publishes a lightweight manifest and locale-collection shards', async () => {
+test('AI index v3 publishes shards and compact entries for the deployed v2 reader', async () => {
   const [manifest, shard, indexBuilder] = await Promise.all([
     readFile(new URL('../src/pages/ai-index.json.ts', import.meta.url), 'utf8'),
     readFile(new URL('../src/pages/ai-index/[locale]/[collection].json.ts', import.meta.url), 'utf8'),
@@ -234,7 +234,12 @@ test('AI index v3 publishes a lightweight manifest and locale-collection shards'
   assert.match(manifest, /schema:\s*'kamitsubaki-wiki-ai-index'/);
   assert.match(manifest, /layout:\s*'locale-collection-shards'/);
   assert.match(manifest, /buildAiIndexShardDescriptors\(supportedLocales\)/);
-  assert.doesNotMatch(manifest, /getCollection|buildAiIndexEntries|\bentries\b/);
+  assert.match(manifest, /getCollection/);
+  assert.match(manifest, /buildAiIndexEntries/);
+  assert.match(manifest, /compatibility:\s*'v2-compact-entries'/);
+  assert.match(manifest, /\bentries,/);
+  assert.match(manifest, /\{ title, text, url, locale: entryLocale \}/);
+  assert.match(manifest, /text:\s*text\.slice\(0, compatibilityTextLimit\)/);
   assert.match(shard, /schema:\s*'kamitsubaki-wiki-ai-index-shard'/);
   assert.match(shard, /stats:\s*buildIndexStats/);
   assert.match(shard, /buildAiIndexEntries/);
