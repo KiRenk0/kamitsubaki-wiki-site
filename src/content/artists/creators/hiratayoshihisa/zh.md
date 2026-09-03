@@ -33,7 +33,7 @@ theme:
       value: "#E0ECFF"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0a0f1a/4a90d9?text=Yoshihisa+Hirata"
+image: "/images/artists/hiratayoshihisa.png"
 name: "平田義久"
 categoryTitle: "创作者"
 categorySubtitle: "CREATORS / COMPOSERS"
@@ -47,7 +47,7 @@ seo:
 
 ## 概述
 
-平田義久（Yoshihisa Hirata）是一位音乐艺术家兼影像作家，于 2021 年 10 月 18 日正式加入 ANARCHIC RECORD。他将爵士、嘻哈与摇滚融为一体，形成了自称的「东京之声」（Tokyo Sound）-- 一种充满电影感、跨越类型界限的音乐风格，捕捉着都市日本的质感与活力。作为一名资深影迷，平田義久将叙事深度与视觉叙事的感性贯穿于音乐创作和影像制作之中。
+平田義久（Yoshihisa Hirata）是一位音乐艺术家兼影像作家，于 2021年10月18日正式加入 ANARCHIC RECORD。他将爵士、嘻哈与摇滚融为一体，形成了自称的「东京之声」（Tokyo Sound）-- 一种充满电影感、跨越类型界限的音乐风格，捕捉着都市日本的质感与活力。作为一名资深影迷，平田義久将叙事深度与视觉叙事的感性贯穿于音乐创作和影像制作之中。
 
 他也因使用 UTAU 音源「劇薬」（Gekiyaku）而为人所知，将合成歌声融入作品，构建出融合人声与虚拟表达的独特声音身份。
 
@@ -59,12 +59,12 @@ seo:
 
 ## 代表作品
 
-- 「夜に暇電」
-- 「日本の夜」-- 全长专辑
+- 「[夜に暇電](/zh/songs/hiratayoshihisa/originals/夜ni暇電)」
+- 「[日本の夜](/zh/albums/hiratayoshihisa/日本の夜-1820372816)」-- 全长专辑
 - 「渇愛論II」
-- 「トーキョー・コーリング」（Tokyo Calling）
-- 「夏至下る」
-- 「飛燕」
+- 「[トーキョー・コーリング](/zh/songs/hiratayoshihisa/originals/tookyoo-kooringu)」（Tokyo Calling）
+- 「[夏至下る](/zh/songs/hiratayoshihisa/originals/夏至下ru)」
+- 「[飛燕](/zh/songs/hiratayoshihisa/originals/飛燕)」
 
 ## 外部链接
 

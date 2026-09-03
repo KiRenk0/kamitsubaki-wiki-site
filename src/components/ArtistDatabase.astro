@@ -1,4 +1,6 @@
 ---
+import { resolveLocaleCopy } from '../lib/i18n.mjs';
+
 type DatabaseJumpLink = {
   label: string;
   href: string;
@@ -32,11 +34,11 @@ const { artistCategories, databaseJumpLinks, section, locale = 'zh' } = Astro.pr
     subheading: string;
     expandLabel?: string;
   };
-  locale: 'zh' | 'ja' | 'en';
+  locale: 'zh' | 'zh-tw' | 'zh-hk' | 'ja' | 'en';
 };
 
-const stubLabel = { zh: '待完善', ja: '未完成', en: 'STUB' }[locale];
-const collapseLabel = { zh: '收起条目', ja: '折りたたむ', en: 'Collapse' }[locale];
+const stubLabel = resolveLocaleCopy({ zh: '待完善', ja: '未完成', en: 'STUB' }, locale);
+const collapseLabel = resolveLocaleCopy({ zh: '收起条目', ja: '折りたたむ', en: 'Collapse' }, locale);
 const ITEMS_PER_CATEGORY = 6;
 ---
 

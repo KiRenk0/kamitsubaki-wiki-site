@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1688348617.jpg
 
 ## Overview
 
-“イマジナリーフレンド” is track 2 of KAF’s 組曲.
+“イマジナリーフレンド” is track 2 of [KAF](/en/artists/vwp/kaf)’s [組曲](/en/albums/kaf/suite).
 
 ## Listen
 

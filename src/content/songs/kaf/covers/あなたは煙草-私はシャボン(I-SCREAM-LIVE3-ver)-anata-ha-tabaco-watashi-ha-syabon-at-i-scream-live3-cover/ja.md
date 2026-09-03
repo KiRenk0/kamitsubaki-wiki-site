@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 
 ## 作品概要
 
-「あなたは煙草 私はシャボン (I SCREAM LIVE3 ver.)」は花譜の『I SCREAM LIVE3』に収録された3曲目です。
+「あなたは煙草 私はシャボン (I SCREAM LIVE3 ver.)」は[花譜](/ja/artists/vwp/kaf)の『[I SCREAM LIVE3](/ja/albums/kaf/i-scream-live-3)』に収録された3曲目です。
 
 ## 視聴
 

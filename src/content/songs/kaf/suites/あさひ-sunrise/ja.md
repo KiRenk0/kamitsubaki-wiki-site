@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1688351642.jpg
 
 ## 作品概要
 
-「あさひ」は花譜の『組曲』に収録された3曲目です。
+「あさひ」は[花譜](/ja/artists/vwp/kaf)の『[組曲](/ja/albums/kaf/suite)』に収録された3曲目です。
 
 ## 視聴
 

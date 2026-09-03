@@ -66,7 +66,7 @@ seo:
 
 ## 概述
 
-{{ruby::春猿火::はるさるひ::harusaruhi}} 是 KAMITSUBAKI STUDIO 旗下的虚拟歌手及 Virtual Rapper，也是顶级虚拟歌手组合 {{abbr::V.W.P::Virtual Witch Phenomenon}} 的核心成员之一。她在 2019 年 11 月 15 日正式宣告出道。春猿火的个人风格在神椿诸位魔女中极为独树一帜，常以高能量、高张力、强劲节奏感与带有冲撞感的流动 Rap 表现被听众迅速辨识。
+{{ruby::春猿火::はるさるひ::harusaruhi}} 是 KAMITSUBAKI STUDIO 旗下的虚拟歌手及 Virtual Rapper，也是顶级虚拟歌手组合 {{abbr::V.W.P::Virtual Witch Phenomenon}} 的核心成员之一。她在 2019年11月15日正式宣告出道。春猿火的个人风格在神椿诸位魔女中极为独树一帜，常以高能量、高张力、强劲节奏感与带有冲撞感的流动 Rap 表现被听众迅速辨识。
 
 与神椿体系中偏向内省与叙事抽离的路线不同，春猿火的作品更容易给人以“直击内心的强烈情绪”这一第一印象。她既能用宛如台风袭击般的现场爆发力推进歌曲高潮，也能在更稚气、直接的段落里保持极高的临场倾听感。这种在强音说唱与抒情歌唱之间自由切换的变幻表现力，正是其个人艺人形象的核心亮点。
 
@@ -82,7 +82,7 @@ seo:
 | 角色设计 | 穂竹藤丸（角色原案）；一色（主视觉插画） |
 | 视觉标志 | 黑发红蓝双挑染、金瞳、耳机、眼影、机能街头风服装 |
 | 萌点属性 | 萌姬、挑染、金瞳、耳机、机能风、{{spoiler::台风般强力又像少女般变化无常}}、Rap |
-| 核心关联 | KAMITSUBAKI STUDIO、V.W.P、羽累 (HARU)、神椿市建设中。 |
+| 核心关联 | [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio)、[V.W.P](/zh/artists/vwp/vwp)、[羽累](/zh/artists/isotopes/haru) (HARU)、神椿市建设中。 |
 | 代表合作人 | たかやん、さなり、V.W.P 成员等 |
 | 声源延伸 | 音乐同位体「{{ruby::羽累::はる::haru}}」（CeVIO AI）声源原型 |
 
@@ -102,16 +102,16 @@ seo:
   - **12月5日**：举办首次线上翻唱演唱会「シュークリームライブ」。
 - **2021年**
   - **1月16日**：YouTube 官方频道订阅人数突破 10 万大关。
-  - **3月14日**：在花谱 2nd LIVE「不可解弐Q2」现场，与花谱、理芽、ヰ世界情绪、幸祜共同结成 V.W.P。
+    - **3月14日**：在[花谱](/zh/artists/vwp/kaf) 2nd LIVE「不可解弐Q2」现场，与花谱、[理芽](/zh/artists/vwp/rim)、[ヰ世界情绪](/zh/artists/vwp/isekaijoucho)、[幸祜](/zh/artists/vwp/koko)共同结成 [V.W.P](/zh/artists/vwp/vwp)。
   - **8月27日**：于 HULIC HALL TOKYO 成功举办首场个人 ONE-MAN LIVE「{{ruby::シャーマニズム::しゃーまにずむ::shamanism}}」。
-  - **10月6日**：首张个人专辑《心眼》正式发售。
+  - **10月6日**：首张个人专辑《[心眼](/zh/albums/harusaruhi/shingan)》正式发售。
 
 ### 2022年 - 2024年：动画主题曲与「シャーマニズム」巡演
 
 - **2022年**
-  - **1月28日**：发布单曲《Oarana》（动画《地球外少年少女》主题曲）。
+  - **1月28日**：发布单曲《[Oarana](/zh/songs/harusaruhi/originals/oarana)》（动画《地球外少年少女》主题曲）。
   - **8月6日**：举办线上翻唱演唱会「シュークリームライブ2」。
-  - **11月6日**：与 幸祜、CIEL 共同举办「Singularity Live 2」，同场发布新曲《自由までの距離》并公开音乐同位体「羽累」的 3D 模型。
+  - **11月6日**：与 [幸祜](/zh/artists/vwp/koko)、[CIEL](/zh/artists/solo/ciel) 共同举办「Singularity Live 2」，同场发布新曲《[自由までの距離](/zh/songs/harusaruhi/originals/自由までの距離-distance-to-freedom)》并公开音乐同位体「[羽累](/zh/artists/isotopes/haru)」的 3D 模型。
 - **2023年**
   - **11月4日**：举办 SINKA LIVE SERIES EP.Ⅲ 春猿火 2nd ONE-MAN LIVE「シャーマニズムⅡ – 神椿市弐番街 -」。
 - **2024年**
@@ -121,28 +121,28 @@ seo:
 ### 2025年至今：游戏主题曲与专辑《GLITCH STAGE》
 
 - **2025年**
-  - **8月27日**：发布单曲《(A)letheia》（免费恐怖 ADV 游戏《春琉ト怪夜》主题曲）。
+  - **8月27日**：发布单曲《[(A)letheia](/zh/songs/harusaruhi/originals/a-letheia)》（免费恐怖 ADV 游戏《春琉ト怪夜》主题曲）。
   - **11月2日**：出演大型现场「KAMITSUBAKI FES '25」。
 - **2026年**
-  - **6月24日**：个人 Remix 专辑《GLITCH STAGE》正式发售。
+  - **6月24日**：个人 Remix 专辑《[GLITCH STAGE](/zh/albums/harusaruhi/glitch-stage)》正式发售。
   - **9月5日 - 6日**：预定参演「KAMITSUBAKI WARS 2026 神椿横浜戦線」。
 
 ## 代表作品与视听
 
 @[bilibili](BV1i54y1Y7y6 "春猿火 - 逆転")
 
-- **代表单曲**：《逆転》《Lift Up》《猛進》《オオゴト》《告げ口》《台風の眼》《居場所》《覚醒 feat. さなり》《Oarana》《(A)letheia》
+- **代表单曲**：《[逆転](/zh/songs/harusaruhi/originals/逆転-reversal)》《[Lift Up](/zh/songs/harusaruhi/originals/lift-up)》《[猛進](/zh/songs/harusaruhi/originals/猛進-rush)》《[オオゴト](/zh/songs/harusaruhi/originals/オオゴト-serious-affair)》《告げ口》《[台風の眼](/zh/songs/harusaruhi/originals/台風の眼-eye-of-the-storm)》《[居場所](/zh/songs/harusaruhi/originals/居場所-my-place)》《[覚醒](/zh/songs/harusaruhi/originals/覚醒-awakening-心眼) feat. さなり》《[Oarana](/zh/songs/harusaruhi/originals/oarana)》《[(A)letheia](/zh/songs/harusaruhi/originals/a-letheia)》
 - **个人专辑**：1st Album《心眼》(2021)、Remix Album《GLITCH STAGE》(2026)
-- **企划企划**：短篇说唱「春猿火自由律」系列、Mix 企划《SPICE OF LIFE》
+- **企划企划**：短篇说唱「春猿火自由律」系列、Mix 企划《[SPICE OF LIFE](/zh/albums/harusaruhi/spice-of-life)》
 
 {{details::点击展开「シャーマニズム」与 Live 全历程}}
 
-1. **2020.12.05 翻唱 LIVE「シュークリームライブ」** (线上 Live)
-2. **2021.08.27 1st ONE-MAN LIVE「シャーマニズム」** (HULIC HALL TOKYO)
-3. **2022.08.06 翻唱 LIVE「シュークリームライブ2」** (线上 Live)
-4. **2022.11.06 联决 LIVE「Singularity Live 2」** (与 幸祜、CIEL)
-5. **2023.11.04 2nd ONE-MAN LIVE「シャーマニズムⅡ -神椿市弐番街-」** (SINKA LIVE)
-6. **2024.04.10 3rd ONE-MAN LIVE「シャーマニズムⅢ」** (Zepp Shinjuku)
+1. **2020年12月5日 翻唱 LIVE「シュークリームライブ」** (线上 Live)
+2. **2021年8月27日 1st ONE-MAN LIVE「シャーマニズム」** (HULIC HALL TOKYO)
+3. **2022年8月6日 翻唱 LIVE「シュークリームライブ2」** (线上 Live)
+4. **2022年11月6日 联决 LIVE「Singularity Live 2」** (与 幸祜、CIEL)
+5. **2023年11月4日 2nd ONE-MAN LIVE「シャーマニズムⅡ -神椿市弐番街-」** (SINKA LIVE)
+6. **2024年4月10日 3rd ONE-MAN LIVE「シャーマニズムⅢ」** (Zepp Shinjuku)
 
 {{/details}}
 

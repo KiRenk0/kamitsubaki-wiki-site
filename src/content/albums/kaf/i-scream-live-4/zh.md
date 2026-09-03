@@ -123,7 +123,7 @@ tracks:
 
 ## 作品简介
 
-“I SCREAM LIVE”翻唱现场系列第四作，收录二十首现场演唱，并包含多首合作舞台。
+“[I SCREAM LIVE](/zh/albums/kaf/i-scream-live)”翻唱现场系列第四作，收录二十首现场演唱，并包含多首合作舞台。
 
 ## 发行与版本
 

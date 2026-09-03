@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa.jpg
 
 ## Overview
 
-“黄金の木” is track 8 of KAF’s 寓話.
+“黄金の木” is track 8 of [KAF](/en/artists/vwp/kaf)’s [寓話](/en/albums/kaf/guwa).
 
 ## Listen
 

@@ -1,5 +1,7 @@
 ---
 import manualContributorData from '../data/manualContributors.json';
+import { resolveLocaleCopy } from '../lib/i18n.mjs';
+import { convertTraditionalChinese } from '../lib/traditionalChinese.mjs';
 
 type ContributorLocale = 'zh' | 'ja' | 'en';
 type LocalizedContributorText = string | Partial<Record<ContributorLocale, string>>;
@@ -23,7 +25,7 @@ const { locale = 'zh' } = Astro.props as Props;
 const activeLocale: ContributorLocale = locale === 'ja' || locale === 'en' ? locale : 'zh';
 const contributors = (manualContributorData as ManualContributor[]).filter((contributor) => contributor.enabled !== false);
 
-const copy = {
+const copy = resolveLocaleCopy({
   zh: {
     title: '特别协力者',
     subtitle: '感谢以不同方式为这座观测站提供帮助的每一位同行者。点击头像查看他们的故事。',
@@ -57,11 +59,13 @@ const copy = {
     showLess: 'Show less',
     empty: 'No manual collaborators have been added yet. Add them in the local data file.',
   },
-}[activeLocale];
+}, locale);
 
 function localized(value: LocalizedContributorText) {
-  if (typeof value === 'string') return value;
-  return value[activeLocale] || value.zh || value.ja || value.en || '';
+  const localizedValue = typeof value === 'string'
+    ? value
+    : value[activeLocale] || value.zh || value.ja || value.en || '';
+  return convertTraditionalChinese(localizedValue, locale, { ui: true });
 }
 
 function safeContactHref(value?: string) {

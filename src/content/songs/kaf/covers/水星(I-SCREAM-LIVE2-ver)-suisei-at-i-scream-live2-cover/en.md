@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 ## Overview
 
-“水星 (I SCREAM LIVE2 ver.)” is track 2 of KAF’s I SCREAM LIVE2.
+“水星 (I SCREAM LIVE2 ver.)” is track 2 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE2](/en/albums/kaf/i-scream-live-2).
 
 ## Listen
 

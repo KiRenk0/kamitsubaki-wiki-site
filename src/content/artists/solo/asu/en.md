@@ -81,7 +81,7 @@ ASU originates from Shinkai-kai, a world that exists in parallel with the Kamits
 
 ## References
 
-- KAMITSUBAKI STUDIO official information
+- [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) official information
 
 ## External Links
 

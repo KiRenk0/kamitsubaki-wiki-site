@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 ## Overview
 
-“ビームが撃てたらいいのに (I SCREAM LIVE ver.)” is track 5 on disc 3 of KAF’s I SCREAM LIVE.
+“ビームが撃てたらいいのに (I SCREAM LIVE ver.)” is track 5 on disc 3 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE](/en/albums/kaf/i-scream-live).
 
 ## Listen
 

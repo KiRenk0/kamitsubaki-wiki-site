@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 ## Overview
 
-“危ノーマル(廉 Remix)” is track 1 of KAF’s 魔法γ.
+“危ノーマル(廉 Remix)” is track 1 of [KAF](/en/artists/vwp/kaf)’s [魔法γ](/en/albums/kaf/maho-gamma).
 
 ## Listen
 

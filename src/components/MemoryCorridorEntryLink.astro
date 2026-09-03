@@ -1,6 +1,6 @@
 ---
 type Props = {
-  locale: 'zh' | 'ja' | 'en';
+  locale: 'zh' | 'zh-tw' | 'zh-hk' | 'ja' | 'en';
   kind: 'artist' | 'song' | 'album' | 'project';
   entryId: string;
 };
@@ -10,6 +10,14 @@ const copy = {
   zh: {
     label: '写入记忆回廊',
     helper: '以当前条目生成一局 Wiki 联动跑酷',
+  },
+  'zh-tw': {
+    label: '寫入記憶迴廊',
+    helper: '以目前條目生成一局 Wiki 聯動跑酷',
+  },
+  'zh-hk': {
+    label: '寫入記憶迴廊',
+    helper: '以目前條目生成一局 Wiki 聯動跑酷',
   },
   ja: {
     label: '記憶回廊に接続',

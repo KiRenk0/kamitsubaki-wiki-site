@@ -17,9 +17,9 @@ code: KO2
 image: /images/albums/kaf/flower-and-heart.jpg
 ---
 
-## 紹介
+## 作品概要
 
-花譜のオリジナル楽曲第2作。作詞・作曲・編曲はカンザキイオリです。
+[花譜](/ja/artists/vwp/kaf)のオリジナル楽曲第2作。作詞・作曲・編曲は[カンザキイオリ](/ja/artists/creators/kanzaki-iori)です。
 
 ## 試聴
 

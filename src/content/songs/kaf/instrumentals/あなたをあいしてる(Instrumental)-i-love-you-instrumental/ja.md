@@ -18,7 +18,7 @@ image: /images/albums/kaf/kyoso.jpg
 
 ## 作品概要
 
-「あなたをあいしてる(Instrumental)」は花譜の『狂想』に収録された15曲目です。
+「あなたをあいしてる(Instrumental)」は[花譜](/ja/artists/vwp/kaf)の『[狂想](/ja/albums/kaf/kyoso)』に収録された15曲目です。
 
 ## 視聴
 

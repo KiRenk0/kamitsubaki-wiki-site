@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 
 ## Overview
 
-“恋は永遠 (I SCREAM LIVE3 ver.)” is track 21 of KAF’s I SCREAM LIVE3.
+“恋は永遠 (I SCREAM LIVE3 ver.)” is track 21 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE3](/en/albums/kaf/i-scream-live-3).
 
 ## Listen
 

@@ -35,7 +35,7 @@ theme:
       value: "#E0F7FA"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0d1b2a/5ce1e6?text=Yunosuke"
+image: "/images/artists/yunosuke.jpg"
 name: "Yunosuke"
 categoryTitle: "クリエイター"
 categorySubtitle: "CREATORS / COMPOSERS"
@@ -57,7 +57,7 @@ seo:
 
 Yunosuke のプロデューススタイルは、洗練された電子サウンドスケープとポップセンスの融合に特徴がある。高エネルギーで音響的に豊かな楽曲を、メロディの親しみやすさを保ちながら構築する能力は、バーチャルアーティストとリアルアーティストの両空間で高い需要を集めている。
 
-WaMi とのユニット「Awairo」のメンバーとしても活動しており、神椿クリエイティブエコシステム内でのコラボレーションの幅をさらに広げている。イラストレーションは米室が担当。
+WaMi とのユニット「[Awairo](/ja/artists/solo/awairo)」のメンバーとしても活動しており、神椿クリエイティブエコシステム内でのコラボレーションの幅をさらに広げている。イラストレーションは米室が担当。
 
 ## 代表作品
 
@@ -67,13 +67,13 @@ WaMi とのユニット「Awairo」のメンバーとしても活動しており
 
 ## 投稿と制作履歴
 
-雄之助は2014年10月からネット音楽界で活動し、2014年10月17日に初のオリジナルVOCALOID曲「ループメモリー」を投稿した。EDMやハウスを中心に、インストゥルメンタル、ゲーム楽曲、商業向け制作にも活動を広げている。「Take Me!!」「Pathos」「PaⅢ.SENSATION」は初期の代表作である。
+雄之助は2014年10月からネット音楽界で活動し、2014年10月17日に初のオリジナルVOCALOID曲「ループメモリー」を投稿した。EDMやハウスを中心に、インストゥルメンタル、ゲーム楽曲、商業向け制作にも活動を広げている。「Take Me!!」「[Pathos](/ja/albums/yunosuke/Pathos-1103188278)」「PaⅢ.SENSATION」は初期の代表作である。
 
 2016年3月7日にはBilibiliへ「Take Me!! (2016 Remix)」を投稿し、日本のVOCALOIDプロデューサーとして早い時期から中国語圏の動画プラットフォームでも活動した。SOUND VOLTEXやArcaeaへの楽曲提供、WaMiとのユニットAwairoにも参加し、2023年10月18日に結成を発表、10月20日に「Pale&Deep」を発表した。
 
 ## 作品の整理
 
-主なソロアルバムには『Unique Antique』『Pathos』『Black or White』『Fiction』『Proto』『Tranquilizer』がある。VOCALOID投稿、純音楽、ゲーム提供曲、Awairo作品を分け、作詞・作曲・編曲・調声・歌唱などのクレジットも別項目として残す。
+主なソロアルバムには『[Unique Antique](/ja/albums/yunosuke/Unique-Antique-1011454503)』『[Pathos](/ja/albums/yunosuke/Pathos-1103188278)』『[Black or White](/ja/albums/yunosuke/Black-or-White-1304869904)』『[Fiction](/ja/albums/yunosuke/Fiction-1419403824)』『[Proto](/ja/albums/yunosuke/Proto-1535422307)』『[Tranquilizer](/ja/albums/yunosuke/Tranquilizer-1684861827)』がある。VOCALOID投稿、純音楽、ゲーム提供曲、[Awairo](/ja/artists/solo/awairo)作品を分け、作詞・作曲・編曲・調声・歌唱などのクレジットも別項目として残す。
 
 ## 外部リンク
 

@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 ## Overview
 
-“命に嫌われている (I SCREAM LIVE ver.)” is track 12 on disc 3 of KAF’s I SCREAM LIVE.
+“命に嫌われている (I SCREAM LIVE ver.)” is track 12 on disc 3 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE](/en/albums/kaf/i-scream-live).
 
 ## Listen
 

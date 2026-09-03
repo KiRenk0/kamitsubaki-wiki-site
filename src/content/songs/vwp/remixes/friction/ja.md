@@ -24,7 +24,7 @@ image: /images/albums/vwp/witch-plus.jpg
 
 ## 作品概要
 
-「friction (feat. 春猿火 & 梓川) [Remix]」は『魔女ぷらす』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「friction (feat. [春猿火](/ja/artists/vwp/harusaruhi) & 梓川) [Remix]」は『[魔女ぷらす](/ja/albums/vwp/witch-plus)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 試聴
 

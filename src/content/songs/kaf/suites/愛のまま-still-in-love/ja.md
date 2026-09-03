@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1721090584.jpg
 
 ## 作品概要
 
-「愛のまま」は花譜の『組曲』に収録された15曲目です。
+「愛のまま」は[花譜](/ja/artists/vwp/kaf)の『[組曲](/ja/albums/kaf/suite)』に収録された15曲目です。
 
 ## 視聴
 

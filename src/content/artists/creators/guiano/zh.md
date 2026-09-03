@@ -37,7 +37,7 @@ theme:
       value: "#0B120C"
 statusLabel: "STATUS"
 status: "INDEPENDENT"
-image: "/images/artists/guiano.jpg"
+image: "https://placehold.co/1200x800/0a0a12/a0a0b0?text=GUIANO"
 name: "Guiano"
 categoryTitle: "创作者团队"
 categorySubtitle: "CREATORS & PRODUCERS"
@@ -56,5 +56,8 @@ seo:
 
 以《{{ruby::死んでしまったのだろうか::しんでしまったのだろうか::shinde shimatta no darou ka}}》等爆款 Vocaloid 单曲闻名。他在神椿工作室期间为 理芽、春猿火、ヰ世界情绪 提供过多首经典曲目。
 
-- **代表作品**：《死んでしまったのだろうか》《透過夏》《スーパーヒーロー》《地球の裏》《法螺話 (feat. 理芽)》
+- **代表作品**：《死んでしまったのだろうか》《透過夏》《[スーパーヒーロー](/zh/songs/guiano/originals/suupaahiiroo)》《地球の裏》《法螺話 (feat. [理芽](/zh/artists/vwp/rim))》
 - **专辑**：《Love & Pop》《AHOY!!!!!!》
+## 外部链接
+
+- [Guiano 官方网站](https://guiano.fanpla.jp/)

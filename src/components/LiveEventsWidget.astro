@@ -1,0 +1,99 @@
+---
+import { getLanguageTag } from '../lib/i18n.mjs';
+
+type LiveEventsCopy = {
+  enabled?: boolean;
+  eyebrow: string;
+  title: string;
+  buttonLabel: string;
+  closeLabel: string;
+  todayLabel: string;
+  loading: string;
+  fallback: string;
+  cachedFallback: string;
+  emptyToday: string;
+  updatedLabel: string;
+  cachedUpdatedLabel: string;
+  localTimeLabel: string;
+  jstTimeLabel: string;
+  viewCalendar: string;
+  detailsLabel: string;
+  allDayLabel: string;
+  statusLive: string;
+  statusUpcoming: string;
+  statusEnded: string;
+  statusCancelled: string;
+  pageTitle: string;
+  pageDescription: string;
+  calendarEyebrow: string;
+  calendarTitle: string;
+  calendarIntro: string;
+  previousMonthLabel: string;
+  nextMonthLabel: string;
+  todayButtonLabel: string;
+  selectDateLabel: string;
+  emptyDay: string;
+  eventCountLabel: string;
+  backHomeLabel: string;
+  weekdays: string[];
+};
+
+const { lang = 'zh', copy } = Astro.props as { lang?: string; copy: LiveEventsCopy };
+const languageTag = getLanguageTag(lang);
+const apiBase = import.meta.env.PUBLIC_EVENTS_API_BASE || 'https://kamitsubaki-events-api.apikatsuwiki.workers.dev';
+---
+
+{copy.enabled !== false && (
+  <aside
+    class="live-events"
+    data-live-events
+    data-api-base={apiBase}
+    data-locale={lang}
+    data-language-tag={languageTag}
+    data-copy={JSON.stringify(copy)}
+    lang={languageTag}
+  >
+    <div class="live-events__panel" data-live-events-panel hidden aria-hidden="true">
+      <header class="live-events__head">
+        <div>
+          <p>{copy.eyebrow}</p>
+          <h2>{copy.title}</h2>
+        </div>
+        <button type="button" data-live-events-close aria-label={copy.closeLabel}>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12" /></svg>
+        </button>
+      </header>
+
+      <div class="live-events__date-line">
+        <span data-live-events-time-zone>{copy.todayLabel}</span>
+        <time data-live-events-date></time>
+      </div>
+
+      <div class="live-events__status" data-live-events-status aria-live="polite">{copy.loading}</div>
+      <div class="live-events__list" data-live-events-list></div>
+
+      <footer class="live-events__footer">
+        <span data-live-events-updated>{copy.updatedLabel}</span>
+        <a href={`/${lang}/events`}>{copy.viewCalendar}<span aria-hidden="true">→</span></a>
+      </footer>
+    </div>
+
+    <button
+      class="live-events__toggle"
+      type="button"
+      data-live-events-toggle
+      aria-label={copy.buttonLabel}
+      aria-expanded="false"
+    >
+      <span aria-hidden="true">04</span>
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M5 3v3M19 3v3M4 8h16M5 5h14a1 1 0 0 1 1 1v14H4V6a1 1 0 0 1 1-1ZM8 12h3v3H8z" />
+      </svg>
+      <i data-live-events-signal aria-hidden="true"></i>
+    </button>
+  </aside>
+)}
+
+<script>
+  import '../scripts/liveEvents.js';
+</script>

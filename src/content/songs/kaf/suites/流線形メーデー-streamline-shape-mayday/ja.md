@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1689187750.jpg
 
 ## 作品概要
 
-「流線形メーデー」は花譜の『組曲』に収録された9曲目です。
+「流線形メーデー」は[花譜](/ja/artists/vwp/kaf)の『[組曲](/ja/albums/kaf/suite)』に収録された9曲目です。
 
 ## 視聴
 

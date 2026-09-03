@@ -24,7 +24,7 @@ image: /images/songs/vwp/single-1807259067.jpg
 
 ## 作品简介
 
-《愛詩 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)》收录于《愛詩》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《愛詩 (feat. [KAF](/zh/artists/vwp/kaf), [RIM](/zh/artists/vwp/rim), [Harusaruhi](/zh/artists/vwp/harusaruhi), [Isekaijoucho](/zh/artists/vwp/isekaijoucho) & [KOKO](/zh/artists/vwp/koko))》收录于《愛詩》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 

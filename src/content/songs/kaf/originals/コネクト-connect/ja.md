@@ -19,7 +19,7 @@ image: /images/albums/kaf/shinai.jpg
 
 ## 作品概要
 
-「コネクト」は花譜の『深愛』に収録された10曲目です。
+「コネクト」は[花譜](/ja/artists/vwp/kaf)の『[深愛](/ja/albums/kaf/shinai)』に収録された10曲目です。
 
 ## 視聴
 

@@ -24,7 +24,7 @@ image: /images/songs/vwp/single-1687478548.jpg
 
 ## 作品概要
 
-「電脳 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)」は『電脳』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「電脳 (feat. [花譜](/ja/artists/vwp/kaf), [理芽](/ja/artists/vwp/rim), [春猿火](/ja/artists/vwp/harusaruhi), [ヰ世界情緒](/ja/artists/vwp/isekaijoucho) & [幸祜](/ja/artists/vwp/koko))」は『電脳』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 試聴
 

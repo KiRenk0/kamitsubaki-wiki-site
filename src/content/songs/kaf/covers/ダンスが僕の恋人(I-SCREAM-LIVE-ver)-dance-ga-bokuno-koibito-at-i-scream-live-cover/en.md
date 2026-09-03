@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 ## Overview
 
-“ダンスが僕の恋人 (I SCREAM LIVE ver.)” is track 6 on disc 2 of KAF’s I SCREAM LIVE.
+“ダンスが僕の恋人 (I SCREAM LIVE ver.)” is track 6 on disc 2 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE](/en/albums/kaf/i-scream-live).
 
 ## Listen
 

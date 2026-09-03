@@ -1,8 +1,20 @@
 import { normalizeSearchText, searchResultPath, searchSiteIndex } from '../lib/siteSearch.mjs';
+import { getSearchShortcut } from '../lib/searchShortcut.mjs';
 
 const searchDialog = document.querySelector('[data-site-search]');
 let indexPromise;
 let queryNormalizerPromise;
+
+function updateSearchShortcutHints() {
+  const shortcut = getSearchShortcut({
+    platform: navigator.platform,
+    userAgent: navigator.userAgent,
+  });
+
+  document.querySelectorAll('[data-search-shortcut]').forEach((hint) => {
+    hint.textContent = shortcut;
+  });
+}
 
 function readCopy(root) {
   try {
@@ -304,4 +316,5 @@ function initializeSearch(root) {
   });
 }
 
+updateSearchShortcutHints();
 if (searchDialog) initializeSearch(searchDialog);

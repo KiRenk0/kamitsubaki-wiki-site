@@ -60,7 +60,7 @@ seo:
 
 ## Overview
 
-HARUSARUHI is a virtual singer from KAMITSUBAKI STUDIO and a member of V.W.P. She is usually recognized through the force of her delivery first: high-impact vocals, emotional drive, and a style that can feel both aggressive and unexpectedly youthful.
+HARUSARUHI is a virtual singer from [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) and a member of [V.W.P](/en/artists/vwp/vwp). She is usually recognized through the force of her delivery first: high-impact vocals, emotional drive, and a style that can feel both aggressive and unexpectedly youthful.
 
 Inside the wider Kamitsubaki lineup, she often reads as one of the most immediately energetic members. She can sing with the destructive power of a typhoon or the innocence of a young girl, drawing listeners in with her powerful and versatile vocal ability.
 
@@ -95,7 +95,7 @@ Within V.W.P, she frequently occupies the sharper and more explosive edge of the
 
 - **January 28**: Released the original single "Oarana", which served as the theme song for the anime *The Orbital Children*.
 - **August 6**: Held her Streaming Cover Live "Choucream Live 2".
-- **November 6**: Co-hosted "Singularity Live 2" with Koko and CIEL, releasing the song "自由までの距離" (Jiyuu made no Kyori) and debuting the 3D model of her musical isotope HARU (羽累).
+- **November 6**: Co-hosted "Singularity Live 2" with [Koko](/en/artists/vwp/koko) and [CIEL](/en/artists/solo/ciel), releasing the song "[自由までの距離](/en/songs/harusaruhi/originals/自由までの距離-distance-to-freedom)" (Jiyuu made no Kyori) and debuting the 3D model of her [musical isotope](/en/artists/solo/musical-isotope) [HARU](/en/artists/isotopes/haru) (羽累).
 
 ### 2023
 
@@ -133,7 +133,7 @@ HARUSARUHI was introduced as a Virtual Rapper. Her visual identity, designed by 
 | Item | Detail |
 | --- | --- |
 | Character design | Hotake Fujimaru |
-| Early originals | “Gyakuten”, “Lift Up”, “Moshigoto”, “Oogoto”, “Tsugeguchi” |
+| Early originals | “Gyakuten”, “[Lift Up](/en/songs/harusaruhi/originals/lift-up)”, “Moshigoto”, “Oogoto”, “Tsugeguchi” |
 | Major album | *Shingan* |
 | Voice extension | HARU, a musical-isotope voicebank based on her voice |
 
@@ -145,7 +145,7 @@ Takayan contributed to early rap lyrics and “Jiyu-ritsu” materials; Hotake F
 
 ## Forms, Setting, and Anecdotes
 
-HARUSARUHI first appeared in 3D at KAF's *Fukakai (Re)* in 2020, and later forms were developed for one-man lives and large Kamitsubaki events. “Multiple personalities” in fan culture is a character motif or performance language, not a real-world diagnosis. HARU is an independent synthetic voicebank and character built from her vocal data.
+HARUSARUHI first appeared in 3D at [KAF](/en/artists/vwp/kaf)'s *Fukakai (Re)* in 2020, and later forms were developed for one-man lives and large Kamitsubaki events. “Multiple personalities” in fan culture is a character motif or performance language, not a real-world diagnosis. [HARU](/en/artists/isotopes/haru) is an independent synthetic voicebank and character built from her vocal data.
 
 ## Related Projects / Setting
 

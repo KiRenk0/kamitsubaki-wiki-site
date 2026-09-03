@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1688351642.jpg
 
 ## Overview
 
-“あさひ” is track 3 of KAF’s 組曲.
+“あさひ” is track 3 of [KAF](/en/artists/vwp/kaf)’s [組曲](/en/albums/kaf/suite).
 
 ## Listen
 

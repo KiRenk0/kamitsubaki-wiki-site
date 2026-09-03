@@ -40,7 +40,7 @@ theme:
       value: "#E4F3F8"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0e1a22/a8d8ea?text=KUUSOU"
+image: "/images/artists/kuusou.jpg"
 name: "KUUSOU"
 categoryTitle: "Solo Artists / Units"
 categorySubtitle: "SOLO ARTISTS & UNITS"
@@ -55,9 +55,9 @@ seo:
 
 ## Overview
 
-KUUSOU (空爽) is a cross-dimensional virtual music unit formed on January 14, 2026, composed of virtual singer CIEL and real-world artist Sooda. The unit's concept centers on the theme of "purity and softness" (清純とやさしさ), deliberately blurring the boundary between the virtual and the real to create a new mode of musical expression.
+KUUSOU (空爽) is a cross-dimensional virtual music unit formed on January 14, 2026, composed of virtual singer [CIEL](/en/artists/solo/ciel) and real-world artist [Sooda](/en/artists/creators/sooda). The unit's concept centers on the theme of "purity and softness" (清純とやさしさ), deliberately blurring the boundary between the virtual and the real to create a new mode of musical expression.
 
-The pairing is significant within the Kamitsubaki ecosystem: CIEL, a virtual character represented by blue hair and a narrative of looking upward for the first time, meets Sooda, a grounded real-world creator. Their collaboration embodies KAMITSUBAKI STUDIO's ongoing exploration of "cross-dimensional" (次元横断) art — where the line between character and person, screen and stage, becomes intentionally ambiguous.
+The pairing is significant within the Kamitsubaki ecosystem: [CIEL](/en/artists/solo/ciel), a virtual character represented by blue hair and a narrative of looking upward for the first time, meets [Sooda](/en/artists/creators/sooda), a grounded real-world creator. Their collaboration embodies [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio)'s ongoing exploration of "cross-dimensional" (次元横断) art — where the line between character and person, screen and stage, becomes intentionally ambiguous.
 
 ## Role and Creative Position
 

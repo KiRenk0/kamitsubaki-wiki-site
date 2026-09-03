@@ -60,7 +60,7 @@ seo:
 
 ## 概要
 
-春猿火は KAMITSUBAKI STUDIO に所属するバーチャルシンガーであり、V.W.P のメンバーでもある。高い瞬発力と感情の押し出しを持つ歌唱で知られ、神椿の中でも特にエネルギーの強い存在として認識されることが多い。
+春猿火は [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) に所属するバーチャルシンガーであり、[V.W.P](/ja/artists/vwp/vwp) のメンバーでもある。高い瞬発力と感情の押し出しを持つ歌唱で知られ、神椿の中でも特にエネルギーの強い存在として認識されることが多い。
 
 冷たさや距離感よりも、まず歌声の勢いが前に出るタイプであり、時に台風のように力強く、時にあどけない少女のように変幻自在な表現力でリスナーを引き込む。その点が他メンバーとの大きな対照にもなっている。
 
@@ -75,27 +75,27 @@ V.W.P の中では、より直接的な熱量を持ち込むポジションと�
 ### 2019年
 
 - **11月15日**：初のティザー映像を投稿し、活動を開始。
-- **12月25日**：1stオリジナルシングル『逆転』をリリース。
+- **12月25日**：1stオリジナルシングル『[逆転](/ja/songs/harusaruhi/originals/逆転-reversal)』をリリース。
 
 ### 2020年
 
-- **3月23日**：花譜 1st LIVE「不可解（再）」にゲスト出演し、3Dモデルを初披露。
-- **7月30日**：4thオリジナルシングル『オオゴト』をリリース。
+- **3月23日**：[花譜](/ja/artists/vwp/kaf) 1st LIVE「不可解（再）」にゲスト出演し、3Dモデルを初披露。
+- **7月30日**：4thオリジナルシングル『[オオゴト](/ja/songs/harusaruhi/originals/オオゴト-serious-affair)』をリリース。
 - **9月28日**：5thオリジナルシングル『告げ口』をリリース。
 - **12月5日**：初の配信カバーライブ「シュークリームライブ」を開催。
 
 ### 2021年
 
 - **1月16日**：YouTubeチャンネルの登録者数が10万人を突破。
-- **3月14日**：花譜 2nd LIVE「不可解弐Q2」にて、花譜、理芽、ヰ世界情緒、幸祜と共にバーチャルシンガーユニット「V.W.P」の結成を発表。
+- **3月14日**：[花譜](/ja/artists/vwp/kaf) 2nd LIVE「不可解弐Q2」にて、花譜、[理芽](/ja/artists/vwp/rim)、[ヰ世界情緒](/ja/artists/vwp/isekaijoucho)、[幸祜](/ja/artists/vwp/koko)と共にバーチャルシンガーユニット「[V.W.P](/ja/artists/vwp/vwp)」の結成を発表。
 - **8月27日**：HULIC HALL TOKYOにて、1st ONE-MAN LIVE「シャーマニズム」を開催。
-- **10月6日**：1stアルバム『心眼』をリリース。
+- **10月6日**：1stアルバム『[心眼](/ja/albums/harusaruhi/shingan)』をリリース。
 
 ### 2022年
 
-- **1月28日**：オリジナルシングル『Oarana』をリリース（アニメ『地球外少年少女』主題歌）。
+- **1月28日**：オリジナルシングル『[Oarana](/ja/songs/harusaruhi/originals/oarana)』をリリース（アニメ『地球外少年少女』主題歌）。
 - **8月6日**：配信カバーライブ「シュークリームライブ2」を開催。
-- **11月6日**：幸祜、CIELとの合同ライブ「Singularity Live 2」を開催。新曲『自由までの距離』を披露し、音楽的同位体「羽累」の3Dモデルが初公開された。
+- **11月6日**：[幸祜](/ja/artists/vwp/koko)、[CIEL](/ja/artists/solo/ciel)との合同ライブ「Singularity Live 2」を開催。新曲『[自由までの距離](/ja/songs/harusaruhi/originals/自由までの距離-distance-to-freedom)』を披露し、[音楽的同位体](/ja/artists/solo/musical-isotope)「[羽累](/ja/artists/isotopes/haru)」の3Dモデルが初公開された。
 
 ### 2023年
 
@@ -108,19 +108,19 @@ V.W.P の中では、より直接的な熱量を持ち込むポジションと�
 
 ### 2025年
 
-- **8月27日**：オリジナルシングル『(A)letheia』をリリース（フリーホラーADVゲーム『春琉ト怪夜』主題歌）。
+- **8月27日**：オリジナルシングル『[(A)letheia](/ja/songs/harusaruhi/originals/a-letheia)』をリリース（フリーホラーADVゲーム『春琉ト怪夜』主題歌）。
 - **11月2日**：「KAMITSUBAKI FES '25」に出演。
 
 ### 2026年
 
-- **6月24日**：Remix Album『GLITCH STAGE』をリリース。
+- **6月24日**：Remix Album『[GLITCH STAGE](/ja/albums/harusaruhi/glitch-stage)』をリリース。
 - **9月5日 - 6日**：「KAMITSUBAKI WARS 2026 神椿横浜戦線」に出演予定。
 
 ## 代表作品と関連項目
 
-- 個人名義のシングル群（『Accomplice』など）
-- Remix / Mix 企画（『GLITCH STAGE』『SPICE OF LIFE』など）
-- V.W.P における派生曲・対歌曲（ヰ世界情緒とのデュエット『LOVEぃ』『BREATHE』など）
+- 個人名義のシングル群（『[Accomplice](/ja/songs/harusaruhi/originals/accomplice)』など）
+- Remix / Mix 企画（『[GLITCH STAGE](/ja/albums/harusaruhi/glitch-stage)』『[SPICE OF LIFE](/ja/albums/harusaruhi/spice-of-life)』など）
+- [V.W.P](/ja/artists/vwp/vwp) における派生曲・対歌曲（[ヰ世界情緒](/ja/artists/vwp/isekaijoucho)とのデュエット『[LOVEぃ](/ja/songs/harusaruhi/collaborations/LOVEぃ-lovi)』『[BREATHE](/ja/songs/vwp/projects/breathe)』など）
 - 大型ライブでのパフォーマンス音源や映像
 
 関連項目：
@@ -133,13 +133,13 @@ V.W.P の中では、より直接的な熱量を持ち込むポジションと�
 | 項目 | 内容 |
 | --- | --- |
 | キャラクターデザイン | 穂竹藤丸 |
-| 初期代表曲 | 「逆転」「Lift Up」「猛進」「オオゴト」「告げ口」 |
+| 初期代表曲 | 「[逆転](/ja/songs/harusaruhi/originals/逆転-reversal)」「[Lift Up](/ja/songs/harusaruhi/originals/lift-up)」「[猛進](/ja/songs/harusaruhi/originals/猛進-rush)」「[オオゴト](/ja/songs/harusaruhi/originals/オオゴト-serious-affair)」「告げ口」 |
 | 主要アルバム | 『心眼』 |
 | 音声の展開 | 春猿火の歌声をもとにした音楽的同位体「羽累」 |
 
 ## 音楽作品・ライブとコラボレーション
 
-初期楽曲は高い推進力を持つラップ路線を築き、『心眼』でアルバムとしてまとめられた。「春猿火自由律」は日常の言葉やその場の感情を記録する短編企画で、正式リリース曲とは区別する。「居場所」「覚醒 feat. さなり」「哀愁さえも仲間」「Oarana」はメロディやメディア作品との接続を広げた例である。「シャーマニズム」、シュークリームライブ、Singularity Live、V.W.P公演は、彼女のリズム面と感情面での推進力を示す。
+初期楽曲は高い推進力を持つラップ路線を築き、『[心眼](/ja/albums/harusaruhi/shingan)』でアルバムとしてまとめられた。「春猿火自由律」は日常の言葉やその場の感情を記録する短編企画で、正式リリース曲とは区別する。「[居場所](/ja/songs/harusaruhi/originals/居場所-my-place)」「[覚醒](/ja/songs/harusaruhi/originals/覚醒-awakening-心眼) feat. さなり」「[哀愁さえも仲間](/ja/songs/harusaruhi/originals/哀愁さえも仲間-even-melancholy-companion)」「[Oarana](/ja/songs/harusaruhi/originals/oarana)」はメロディやメディア作品との接続を広げた例である。「シャーマニズム」、シュークリームライブ、Singularity Live、[V.W.P](/ja/artists/vwp/vwp)公演は、彼女のリズム面と感情面での推進力を示す。
 
 たかやんは初期のラップ詞や「自由律」に関わり、穂竹藤丸はキャラクターデザインを担当した。台風のような強さという表現は歌唱・舞台上の比喩であり、固定的なジャンル定義ではない。
 

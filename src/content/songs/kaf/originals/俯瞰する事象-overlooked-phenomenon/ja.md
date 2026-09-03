@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa.jpg
 
 ## 作品概要
 
-「俯瞰する事象」は花譜の『寓話』に収録された4曲目です。
+「俯瞰する事象」は[花譜](/ja/artists/vwp/kaf)の『[寓話](/ja/albums/kaf/guwa)』に収録された4曲目です。
 
 ## 視聴
 

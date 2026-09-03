@@ -16,7 +16,7 @@ image: /images/songs/kaf/track-1753878885.jpg
 
 ## 作品简介
 
-《ゲシュタルト(崩壊Remix)》是花譜于 2024-07-10 正式发行的作品。
+《ゲシュタルト(崩壊Remix)》是[花譜](/zh/artists/vwp/kaf)于 2024年7月10日 正式发行的作品。
 
 ## 试听
 

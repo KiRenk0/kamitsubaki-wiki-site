@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho.jpg
 
 ## 作品简介
 
-《まほう (feat. RIM)》是花譜收录于《魔法》的第 14 轨。
+《まほう (feat. [RIM](/zh/artists/vwp/rim))》是[花譜](/zh/artists/vwp/kaf)收录于《[魔法](/zh/albums/kaf/maho)》的第 14 轨。
 
 ## 试听
 

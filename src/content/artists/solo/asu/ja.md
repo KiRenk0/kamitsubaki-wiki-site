@@ -49,7 +49,7 @@ seo:
 
 ## 概要
 
-ASU（明透）は KAMITSUBAKI STUDIO の世界観と並行する異世界「深脊界」出身の次世代バーチャルシンガーである。生まれ持ったリズム感と予測不可能な歌声を武器に、本能のままに行動する自由奔放な少女として活動している。キャラクターデザインはアニメーターの米山舞が手がけた。
+ASU（明透）は [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) の世界観と並行する異世界「深脊界」出身の次世代バーチャルシンガーである。生まれ持ったリズム感と予測不可能な歌声を武器に、本能のままに行動する自由奔放な少女として活動している。キャラクターデザインはアニメーターの米山舞が手がけた。
 
 2021年8月にデビュー。2024年12月28日に初の有観客となる 1st ONE-MAN LIVE「RAY」を開催し、2025年8月30日には 2nd ONE-MAN LIVE「BIRTH」で新たなステージへと進出。神椿本体とは異なる深脊界側の音楽表現を担う存在として、急速に存在感を高めている。
 
@@ -69,7 +69,7 @@ ASU の特徴は「本能」と「予測不能」にある。歌声の表現力�
 
 ## 代表作品と関連項目
 
-- シングル：「Little Bit」「ルートキュア」「ビターエチュード」「HOME」「Link」
+- シングル：「[Little Bit](/ja/songs/asu/originals/little-bit)」「[ルートキュア](/ja/songs/asu/originals/ruutokyua)」「[ビターエチュード](/ja/songs/asu/originals/bitaaechuudo)」「[HOME](/ja/songs/asu/originals/home)」「[Link](/ja/songs/asu/originals/link)」
 
 あわせて読むとつながりが見えやすい項目：
 

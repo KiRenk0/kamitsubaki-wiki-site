@@ -31,7 +31,7 @@ theme:
       value: "#FFF4E0"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/1a1510/e6a84e?text=Kazuhide+Oka"
+image: "/images/artists/kazuhide-oka.png"
 name: "Kazuhide Oka"
 categoryTitle: "クリエイター"
 categorySubtitle: "CREATORS / GAME CREATORS"
@@ -45,7 +45,7 @@ seo:
 
 ## 概要
 
-岡一秀（Kazuhide Oka）は、KAMITSUBAKI STUDIOと業務提携関係にあるゲームクリエイターおよび脚本家。スタジオの正所属メンバーではなく、外部のクリエイターとして神椿と協力し、物語駆動型のゲームデザインの専門知識を共同プロジェクトに持ち込む。
+岡一秀（Kazuhide Oka）は、[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio)と業務提携関係にあるゲームクリエイターおよび脚本家。スタジオの正所属メンバーではなく、外部のクリエイターとして神椿と協力し、物語駆動型のゲームデザインの専門知識を共同プロジェクトに持ち込む。
 
 代表作「ナツノカナタ」は Steam で「圧倒的に好評」の評価を獲得——物語の感情的な共鳴を示す稀有な称賛である。この作品は彼の創作姿勢を体現しており、派手さよりも雰囲気とキャラクターを重視した丁寧な物語構築が特徴だ。
 

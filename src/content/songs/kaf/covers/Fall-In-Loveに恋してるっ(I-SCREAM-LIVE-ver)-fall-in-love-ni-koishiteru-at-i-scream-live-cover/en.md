@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 ## Overview
 
-“Fall In Loveに恋してるっ♪ (I SCREAM LIVE ver.)” is track 2 on disc 3 of KAF’s I SCREAM LIVE.
+“Fall In Loveに恋してるっ♪ (I SCREAM LIVE ver.)” is track 2 on disc 3 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE](/en/albums/kaf/i-scream-live).
 
 ## Listen
 

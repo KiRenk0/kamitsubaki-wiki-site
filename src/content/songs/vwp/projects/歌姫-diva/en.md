@@ -24,7 +24,7 @@ image: /images/albums/vwp/songstress.jpg
 
 ## Overview
 
-歌姫 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜) appears on 歌姫 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+[歌姫](/en/albums/vwp/songstress) (feat. [花譜](/en/artists/vwp/kaf), [理芽](/en/artists/vwp/rim), [春猿火](/en/artists/vwp/harusaruhi), [ヰ世界情緒](/en/artists/vwp/isekaijoucho) & [幸祜](/en/artists/vwp/koko)) appears on 歌姫 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

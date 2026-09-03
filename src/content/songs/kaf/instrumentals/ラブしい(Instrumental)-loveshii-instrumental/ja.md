@@ -17,7 +17,7 @@ image: /images/albums/kaf/love-and-flower.jpg
 
 ## 作品概要
 
-「ラブしい(Instrumental)」は花譜の『愛と花』に収録された3曲目です。
+「ラブしい(Instrumental)」は[花譜](/ja/artists/vwp/kaf)の『[愛と花](/ja/albums/kaf/love-and-flower)』に収録された3曲目です。
 
 ## 視聴
 

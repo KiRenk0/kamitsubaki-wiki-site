@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 ## Overview
 
-“彷徨い(吐息 Remix)” is track 5 of KAF’s 魔法γ.
+“彷徨い(吐息 Remix)” is track 5 of [KAF](/en/artists/vwp/kaf)’s [魔法γ](/en/albums/kaf/maho-gamma).
 
 ## Listen
 

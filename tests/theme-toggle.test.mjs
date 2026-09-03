@@ -5,10 +5,12 @@ import test from 'node:test';
 const readSource = (path) => readFile(new URL(path, import.meta.url), 'utf8');
 
 test('theme preference defaults to system and offers localized light, dark, and system options', async () => {
-  const [layout, nav, homeNav, homePage, script, styles] = await Promise.all([
+  const [layout, nav, homeNav, languageSwitcher, languageSwitcherScript, homePage, script, styles] = await Promise.all([
     readSource('../src/layouts/BaseLayout.astro'),
     readSource('../src/components/SiteNav.astro'),
     readSource('../src/components/HomeSiteNav.astro'),
+    readSource('../src/components/CompactLanguageSwitcher.astro'),
+    readSource('../src/scripts/languageSwitcher.js'),
     readSource('../src/pages/[locale]/index.astro'),
     readSource('../src/scripts/themeToggle.js'),
     readSource('../src/styles/global.css'),
@@ -31,16 +33,27 @@ test('theme preference defaults to system and offers localized light, dark, and 
   assert.match(nav, /value: 'dark', shortLabel: 'NIGHT'/);
   assert.match(nav, /value: 'system', shortLabel: 'SYS'/);
   assert.match(nav, /site-nav__brand-group[\s\S]*site-nav__theme-switcher[\s\S]*site-nav__brand-link/);
-  assert.match(nav, /site-nav__navigation[\s\S]*resolvedNavItems\.map[\s\S]*site-nav__language-switcher/);
+  assert.match(nav, /site-nav__navigation[\s\S]*resolvedNavItems\.map[\s\S]*CompactLanguageSwitcher/);
   assert.ok(nav.indexOf('site-nav__theme-switcher') < nav.indexOf('site-nav__brand-link'));
-  assert.ok(nav.lastIndexOf('site-nav__link') < nav.indexOf('site-nav__language-switcher'));
-  assert.match(homeNav, /site-nav__controls[\s\S]*Language switcher[\s\S]*site-nav__theme-switcher/);
+  assert.ok(nav.lastIndexOf('site-nav__link') < nav.lastIndexOf('CompactLanguageSwitcher'));
+  assert.match(homeNav, /site-nav__controls[\s\S]*CompactLanguageSwitcher[\s\S]*site-nav__theme-switcher/);
   assert.doesNotMatch(homeNav, /site-nav__brand-group|site-nav__brand-link|site-nav__navigation|site-nav__language-switcher/);
+  assert.match(languageSwitcher, /chineseLinks = \['zh', 'zh-hk', 'zh-tw'\]/);
+  assert.match(languageSwitcher, /<button[\s\S]*data-language-menu-trigger/);
+  assert.doesNotMatch(languageSwitcher, /<a[\s\S]*aria-haspopup="menu"/);
+  assert.match(languageSwitcher, /site-nav__language-menu/);
+  assert.match(languageSwitcher, /dropdownLabel/);
+  assert.match(languageSwitcherScript, /trigger\.addEventListener\('click'/);
+  assert.match(languageSwitcherScript, /event\.key === 'Escape'/);
+  assert.match(languageSwitcherScript, /ArrowDown/);
   assert.match(homePage, /import HomeSiteNav from/);
   assert.match(homePage, /<HomeSiteNav /);
   assert.doesNotMatch(homePage, /import SiteNav from|<SiteNav /);
   assert.match(styles, /\.site-nav__brand-group,[\s\S]*\.site-nav__navigation\s*\{[\s\S]*flex-flow: row nowrap/);
   assert.match(styles, /\.site-nav__language-switcher,[\s\S]*\.site-nav__theme-switcher\s*\{[\s\S]*grid-template-columns: repeat\(3, 1\.25rem\)[\s\S]*justify-items: center/);
+  assert.doesNotMatch(styles, /\.site-nav__language-family:hover \.site-nav__language-menu/);
+  assert.doesNotMatch(styles, /\.site-nav__language-family:focus-within \.site-nav__language-menu/);
+  assert.match(styles, /\.site-nav__language-family\.is-open \.site-nav__language-menu/);
   assert.match(script, /localStorage\.setItem\(storageKey, nextPreference\)/);
   assert.match(script, /aria-checked/);
   assert.match(script, /systemThemeQuery\.addEventListener\('change', handleSystemThemeChange\)/);

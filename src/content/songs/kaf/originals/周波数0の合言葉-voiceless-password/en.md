@@ -19,7 +19,7 @@ image: /images/songs/kaf/track-1872604651.jpg
 
 ## Overview
 
-“周波数0の合言葉” is track 11 of KAF’s 深愛.
+“周波数0の合言葉” is track 11 of [KAF](/en/artists/vwp/kaf)’s [深愛](/en/albums/kaf/shinai).
 
 ## Listen
 

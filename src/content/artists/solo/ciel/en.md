@@ -58,9 +58,9 @@ seo:
 
 ## Overview
 
-CIEL is a virtual singer under KAMITSUBAKI STUDIO, discovered through the studio's internal audition program "Kamitsubaki-shi Ijuu Teijuu-ka." Recognizable by her blue hair symbolizing the sky, her artistic identity centers on the narrative of a girl who always looked down finally taking her first step forward.
+CIEL is a virtual singer under [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio), discovered through the studio's internal audition program "Kamitsubaki-shi Ijuu Teijuu-ka." Recognizable by her blue hair symbolizing the sky, her artistic identity centers on the narrative of a girl who always looked down finally taking her first step forward.
 
-Beyond solo activities, CIEL formed the cross-dimensional virtual music unit KUUSOU with real-world artist Sooda in early 2026, themed around "purity and softness." She also performed the theme song for the theatrical anime *Eiga Daisuki Ponpo-san*, making her one of the more prominent next-generation virtual singers in the Kamitsubaki ecosystem.
+Beyond solo activities, CIEL formed the cross-dimensional virtual music unit [KUUSOU](/en/artists/solo/kuusou) with real-world artist [Sooda](/en/artists/creators/sooda) in early 2026, themed around "purity and softness." She also performed the theme song for the theatrical anime *Eiga Daisuki Ponpo-san*, making her one of the more prominent next-generation virtual singers in the Kamitsubaki ecosystem.
 
 ## Role and Creative Position
 

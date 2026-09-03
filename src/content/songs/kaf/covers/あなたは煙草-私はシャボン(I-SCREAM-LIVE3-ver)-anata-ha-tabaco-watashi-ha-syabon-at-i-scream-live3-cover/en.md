@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 
 ## Overview
 
-“あなたは煙草 私はシャボン (I SCREAM LIVE3 ver.)” is track 3 of KAF’s I SCREAM LIVE3.
+“あなたは煙草 私はシャボン (I SCREAM LIVE3 ver.)” is track 3 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE3](/en/albums/kaf/i-scream-live-3).
 
 ## Listen
 

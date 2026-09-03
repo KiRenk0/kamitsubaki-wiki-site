@@ -19,7 +19,7 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 
 ## 作品简介
 
-《息吹-instrumental-》收录于《色彩》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《息吹-instrumental-》收录于《[色彩](/zh/albums/isekaijoucho/shikisai)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 

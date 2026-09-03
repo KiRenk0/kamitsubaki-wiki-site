@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 ## 作品概要
 
-「ありがとう」は『SPICE OF LIFE』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「ありがとう」は『[SPICE OF LIFE](/ja/albums/harusaruhi/spice-of-life)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 試聴
 

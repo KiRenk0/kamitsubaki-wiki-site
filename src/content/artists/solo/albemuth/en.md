@@ -15,7 +15,7 @@ categorySubtitle: "SOLO ARTISTS & UNITS"
 
 ## Overview
 
-Albemuth is a two-member virtual singer unit in the SINSEKAI STUDIO branch of KAMITSUBAKI STUDIO, formed by ARU and ASU. Its work is built around contrast: ARU's restrained whisper-like voice and pale gothic imagery meet ASU's bright, high-energy, unpredictable delivery. The unit is therefore an independent project with its own visual and performance identity, not simply a label for the members' solo catalogues.
+Albemuth is a two-member virtual singer unit in the SINSEKAI STUDIO branch of [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio), formed by [ARU](/en/artists/solo/aru) and [ASU](/en/artists/solo/asu). Its work is built around contrast: ARU's restrained whisper-like voice and pale gothic imagery meet ASU's bright, high-energy, unpredictable delivery. The unit is therefore an independent project with its own visual and performance identity, not simply a label for the members' solo catalogues.
 
 ## Basic Information
 
@@ -30,7 +30,7 @@ Albemuth is a two-member virtual singer unit in the SINSEKAI STUDIO branch of KA
 
 ## Members and Creative Roles
 
-ARU began activity on June 20, 2021 and graduated on April 9, 2024. Her white, gothic-elegant design and whisper-oriented vocal colour create an intimate, dark listening space. Her representative works include “Sayonara”, “Mahou”, “Zankyo”, “Kaibutsu”, and “Gifted”.
+[ARU](/en/artists/solo/aru) began activity on June 20, 2021 and graduated on April 9, 2024. Her white, gothic-elegant design and whisper-oriented vocal colour create an intimate, dark listening space. Her representative works include “Sayonara”, “[Mahou](/en/albums/kaf/maho)”, “Zankyo”, “Kaibutsu”, and “Gifted”.
 
 ASU began activity on August 28, 2021 and continues as a solo artist. Her clear high register, rock-pop projection, and instinctive rhythmic sense provide the brighter counterpoint. Her representative songs include “Snow Noise”, “Taiyo”, “Kyoka”, “Kaikakai”, and “Monochrome”.
 

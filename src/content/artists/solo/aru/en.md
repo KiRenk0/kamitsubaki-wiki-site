@@ -17,7 +17,7 @@ categorySubtitle: "SOLO ARTISTS & UNITS"
 
 ## Overview
 
-ARU (存流 / ある) was a virtual singer in the SINSEKAI STUDIO branch of KAMITSUBAKI STUDIO and one half of Albemuth with ASU. She began activity on June 20, 2021 and graduated on April 9, 2024.
+ARU (存流 / ある) was a virtual singer in the SINSEKAI STUDIO branch of [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) and one half of [Albemuth](/en/artists/solo/albemuth) with [ASU](/en/artists/solo/asu). She began activity on June 20, 2021 and graduated on April 9, 2024.
 
 Her whisper-like, breathy, restrained vocal colour and white gothic-elegant visual identity, designed by Mai Yoneyama, formed one side of Albemuth's contrast with ASU's brighter and more impulsive singing.
 
@@ -36,7 +36,7 @@ Her whisper-like, breathy, restrained vocal colour and white gothic-elegant visu
 
 ## Representative Works
 
-Her representative works include “Sayonara”, “Mahou”, “Zankyo”, “Kaibutsu”, and “Gifted”. During Albemuth's unit period she also participated in “Guilty”, “Shinsekai e”, “tether”, and “Black Cloth”. The album *eve* presents the ARU side of the paired *eve / ADAM* project.
+Her representative works include “Sayonara”, “[Mahou](/en/albums/kaf/maho)”, “Zankyo”, “Kaibutsu”, and “Gifted”. During [Albemuth](/en/artists/solo/albemuth)'s unit period she also participated in “[Guilty](/en/songs/albemuth/originals/guilty)”, “Shinsekai e”, “tether”, and “Black Cloth”. The album *eve* presents the ARU side of the paired *eve / ADAM* project.
 
 ## Activity History
 

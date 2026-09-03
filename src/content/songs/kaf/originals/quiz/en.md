@@ -17,11 +17,11 @@ code: KO9
 image: /images/albums/kaf/kansoku.jpg
 ---
 
-## Introduction
+## Overview
 
 KAF's ninth original song, written, composed, and arranged by Iori Kanzaki.
 
-## Preview
+## Listen
 
 {{media-switcher::KAF - quiz}}
 @[bilibili](BV1AJ41187pR "KAF - quiz")

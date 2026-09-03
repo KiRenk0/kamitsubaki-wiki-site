@@ -34,7 +34,7 @@ theme:
       value: "#FFF0F5"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/1a1018/f7a8c4?text=Toa"
+image: "/images/artists/toa.jpg"
 name: "Toa"
 categoryTitle: "Creators"
 categorySubtitle: "CREATORS / COMPOSERS"
@@ -56,7 +56,7 @@ Among his most celebrated tracks are "Tsugihagi Staccato" (ツギハギスタッ
 
 ## Role and Creative Position
 
-Toa's production style occupies a unique niche in the Vocaloid landscape. Rather than leaning into purely upbeat or purely somber territory, he crafts songs that feel like joyful surfaces concealing deeper sadness — a tonal duality that resonates strongly with listeners. His vocal tuning technique, particularly with Miku and KAFU, brings a charming, almost conversational quality to his tracks that sets them apart.
+Toa's production style occupies a unique niche in the Vocaloid landscape. Rather than leaning into purely upbeat or purely somber territory, he crafts songs that feel like joyful surfaces concealing deeper sadness — a tonal duality that resonates strongly with listeners. His vocal tuning technique, particularly with Miku and [KAFU](/en/artists/isotopes/kafu), brings a charming, almost conversational quality to his tracks that sets them apart.
 
 His long career spanning over a decade speaks to his consistency and evolving artistry within the synth vocal producer community.
 

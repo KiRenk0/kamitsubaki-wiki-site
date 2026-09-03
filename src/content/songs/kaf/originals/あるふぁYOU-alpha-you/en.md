@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso.jpg
 
 ## Overview
 
-“あるふぁYOU” is track 8 of KAF’s 狂想.
+“あるふぁYOU” is track 8 of [KAF](/en/artists/vwp/kaf)’s [狂想](/en/albums/kaf/kyoso).
 
 ## Listen
 

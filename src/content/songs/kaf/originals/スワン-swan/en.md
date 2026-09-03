@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa.jpg
 
 ## Overview
 
-“スワン” is track 12 of KAF’s 寓話.
+“スワン” is track 12 of [KAF](/en/artists/vwp/kaf)’s [寓話](/en/albums/kaf/guwa).
 
 ## Listen
 

@@ -18,7 +18,7 @@ image: /images/albums/kaf/tomadoi-telepathy.jpg
 
 ## 作品概要
 
-「戸惑いテレパシー(Instrumental)」は花譜の『戸惑いテレパシー』に収録された5曲目です。
+「[戸惑いテレパシー](/ja/albums/kaf/tomadoi-telepathy)(Instrumental)」は[花譜](/ja/artists/vwp/kaf)の『戸惑いテレパシー』に収録された5曲目です。
 
 ## 視聴
 

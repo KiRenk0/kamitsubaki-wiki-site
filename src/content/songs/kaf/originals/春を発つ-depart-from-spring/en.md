@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso.jpg
 
 ## Overview
 
-“春を発つ” is track 4 of KAF’s 狂想.
+“春を発つ” is track 4 of [KAF](/en/artists/vwp/kaf)’s [狂想](/en/albums/kaf/kyoso).
 
 ## Listen
 

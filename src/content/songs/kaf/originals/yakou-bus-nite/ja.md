@@ -17,9 +17,9 @@ code: KO10
 image: /images/albums/kaf/kansoku.jpg
 ---
 
-## 紹介
+## 作品概要
 
-花譜の10作目となるオリジナル楽曲。カンザキイオリが作詞・作曲・編曲を手がけた。
+[花譜](/ja/artists/vwp/kaf)の10作目となるオリジナル楽曲。[カンザキイオリ](/ja/artists/creators/kanzaki-iori)が作詞・作曲・編曲を手がけた。
 
 ## 試聴
 

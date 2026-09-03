@@ -17,11 +17,11 @@ code: KO2
 image: /images/albums/kaf/flower-and-heart.jpg
 ---
 
-## Introduction
+## Overview
 
 KAF's second original song, written, composed, and arranged by Iori Kanzaki.
 
-## Preview
+## Listen
 
 {{media-switcher::KAF - Shinzou to Karakuri}}
 @[bilibili](BV1cJ41187UD "KAF - Shinzou to Karakuri")

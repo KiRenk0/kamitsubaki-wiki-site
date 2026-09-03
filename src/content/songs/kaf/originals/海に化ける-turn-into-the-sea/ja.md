@@ -19,7 +19,7 @@ image: /images/songs/kaf/track-1687477846.jpg
 
 ## 作品概要
 
-「海に化ける」は花譜の『狂想』に収録された2曲目です。
+「海に化ける」は[花譜](/ja/artists/vwp/kaf)の『[狂想](/ja/albums/kaf/kyoso)』に収録された2曲目です。
 
 ## 視聴
 

@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 
 ## 作品简介
 
-《狂感覚(雄之助 Remix)》是花譜收录于《狂想γ》的第 12 轨。
+《狂感覚([雄之助](/zh/artists/creators/yunosuke) Remix)》是[花譜](/zh/artists/vwp/kaf)收录于《[狂想γ](/zh/albums/kaf/kyoso-gamma)》的第 12 轨。
 
 ## 试听
 

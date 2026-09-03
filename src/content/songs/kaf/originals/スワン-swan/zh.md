@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa.jpg
 
 ## 作品简介
 
-《スワン》是花譜收录于《寓話》的第 12 轨。
+《スワン》是[花譜](/zh/artists/vwp/kaf)收录于《[寓話](/zh/albums/kaf/guwa)》的第 12 轨。
 
 ## 试听
 

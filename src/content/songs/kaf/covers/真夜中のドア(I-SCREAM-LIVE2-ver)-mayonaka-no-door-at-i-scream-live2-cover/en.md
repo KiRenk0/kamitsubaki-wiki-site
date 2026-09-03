@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 ## Overview
 
-“真夜中のドア (I SCREAM LIVE2 ver.)” is track 21 of KAF’s I SCREAM LIVE2.
+“真夜中のドア (I SCREAM LIVE2 ver.)” is track 21 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE2](/en/albums/kaf/i-scream-live-2).
 
 ## Listen
 

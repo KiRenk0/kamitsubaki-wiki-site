@@ -16,6 +16,7 @@ import {
   flattenIndexMetadata,
 } from '../src/lib/searchIndex.mjs';
 import { foldCjkSearchText } from '../src/lib/cjkSearch.mjs';
+import { getSearchShortcut } from '../src/lib/searchShortcut.mjs';
 
 const entries = [
   {
@@ -40,6 +41,13 @@ const entries = [
     text: 'V.W.P 的代表歌曲。',
   },
 ];
+
+test('search shortcut labels follow the visitor operating system', () => {
+  assert.equal(getSearchShortcut({ platform: 'MacIntel' }), '⌘K');
+  assert.equal(getSearchShortcut({ platform: 'iPhone' }), '⌘K');
+  assert.equal(getSearchShortcut({ platform: 'Win32' }), 'Ctrl+K');
+  assert.equal(getSearchShortcut({ platform: 'Linux x86_64' }), 'Ctrl+K');
+});
 
 test('search normalization handles width, case, and repeated whitespace', () => {
   assert.equal(normalizeSearchText('  ＫＡＦ   Studio '), 'kaf studio');
@@ -198,6 +206,8 @@ test('search UI is mounted globally with open and close motion', async () => {
   assert.match(component, /data-search-input/);
   assert.match(script, /search-index\.json/);
   assert.match(script, /event\.key\.toLowerCase\(\) === 'k'/);
+  assert.match(script, /getSearchShortcut/);
+  assert.match(script, /querySelectorAll\('\[data-search-shortcut\]'\)/);
   assert.match(script, /event\.key === 'Escape'/);
   assert.match(script, /event\.key !== 'Tab'/);
   assert.match(script, /classList\.add\('is-closing'\)/);
@@ -208,18 +218,49 @@ test('search UI is mounted globally with open and close motion', async () => {
   assert.match(styles, /@keyframes site-search-backdrop-out/);
   assert.match(styles, /@media \(prefers-reduced-motion: reduce\)/);
   assert.match(nav, /data-search-open/);
+  assert.match(nav, /data-search-shortcut/);
   assert.match(homeNav, /data-search-open/);
+  assert.match(homeNav, /data-search-shortcut/);
+  assert.match(component, /data-search-shortcut/);
 });
 
-test('AI index v2 keeps legacy fields while adding retrieval metadata', async () => {
-  const endpoint = await readFile(new URL('../src/pages/ai-index.json.ts', import.meta.url), 'utf8');
-  assert.match(endpoint, /version:\s*2/);
-  assert.match(endpoint, /schema:\s*'kamitsubaki-wiki-ai-index'/);
-  assert.match(endpoint, /stats:\s*buildIndexStats/);
-  assert.match(endpoint, /aliases/);
-  assert.match(endpoint, /description/);
-  assert.match(endpoint, /headings/);
-  assert.match(endpoint, /\btext,/);
+test('AI index v3 publishes shards and compact entries for the deployed v2 reader', async () => {
+  const [manifest, shard, indexBuilder] = await Promise.all([
+    readFile(new URL('../src/pages/ai-index.json.ts', import.meta.url), 'utf8'),
+    readFile(new URL('../src/pages/ai-index/[locale]/[collection].json.ts', import.meta.url), 'utf8'),
+    readFile(new URL('../src/lib/aiIndex.mjs', import.meta.url), 'utf8'),
+  ]);
+  assert.match(manifest, /version:\s*3/);
+  assert.match(manifest, /schema:\s*'kamitsubaki-wiki-ai-index'/);
+  assert.match(manifest, /layout:\s*'locale-collection-shards'/);
+  assert.match(manifest, /buildAiIndexShardDescriptors\(supportedLocales\)/);
+  assert.match(manifest, /getCollection/);
+  assert.match(manifest, /buildAiIndexEntries/);
+  assert.match(manifest, /compatibility:\s*'v2-compact-entries'/);
+  assert.match(manifest, /\bentries,/);
+  assert.match(manifest, /\{ title, text, url, locale: entryLocale \}/);
+  assert.match(manifest, /text:\s*text\.slice\(0, compatibilityTextLimit\)/);
+  assert.match(shard, /schema:\s*'kamitsubaki-wiki-ai-index-shard'/);
+  assert.match(shard, /stats:\s*buildIndexStats/);
+  assert.match(shard, /buildAiIndexEntries/);
+  assert.match(indexBuilder, /aliases/);
+  assert.match(indexBuilder, /description/);
+  assert.match(indexBuilder, /headings/);
+  assert.match(indexBuilder, /\btext,/);
+});
+
+test('AI index shard map covers every locale and content collection once', async () => {
+  const [{ supportedLocales }, { aiIndexCollections, buildAiIndexShardDescriptors }] = await Promise.all([
+    import('../src/lib/i18n.mjs'),
+    import('../src/lib/aiIndex.mjs'),
+  ]);
+  const shards = buildAiIndexShardDescriptors(supportedLocales);
+
+  assert.equal(shards.length, supportedLocales.length * aiIndexCollections.length);
+  assert.equal(new Set(shards.map(({ path }) => path)).size, shards.length);
+  assert.deepEqual(new Set(shards.map(({ locale }) => locale)), new Set(supportedLocales));
+  assert.deepEqual(new Set(shards.map(({ collection }) => collection)), new Set(aiIndexCollections));
+  assert.ok(shards.every(({ path, locale, collection }) => path === `/ai-index/${locale}/${collection}.json`));
 });
 
 test('localized lightweight search index is generated separately from the AI corpus', async () => {

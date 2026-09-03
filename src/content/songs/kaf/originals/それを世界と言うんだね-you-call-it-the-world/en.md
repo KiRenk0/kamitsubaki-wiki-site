@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso.jpg
 
 ## Overview
 
-“それを世界と言うんだね” is track 9 of KAF’s 狂想.
+“それを世界と言うんだね” is track 9 of [KAF](/en/artists/vwp/kaf)’s [狂想](/en/albums/kaf/kyoso).
 
 ## Listen
 

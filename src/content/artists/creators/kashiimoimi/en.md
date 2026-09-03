@@ -35,7 +35,7 @@ theme:
       value: "#F3E8FF"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/12091a/c47aed?text=Moimi+Kashii"
+image: "/images/artists/kashiimoimi.png"
 name: "Kashii Moimi"
 categoryTitle: "Creators"
 categorySubtitle: "CREATORS / COMPOSERS"
@@ -75,9 +75,9 @@ Her prolific output and consistent quality have made her a cornerstone of the AN
 
 ## Activity History and Upload Statistics
 
-Kashii Moimi posted her first VOCALOID song, “Sokka”, on niconico and YouTube on December 15, 2018. She joined Bilibili on July 8, 2020. “Cat Loving”, released with KAFU on July 17, 2021, became her first Legend-level song; its YouTube views passed ten million in July 2022. She joined Kamitsubaki on October 18, 2021.
+Kashii Moimi posted her first VOCALOID song, “Sokka”, on niconico and YouTube on December 15, 2018. She joined Bilibili on July 8, 2020. “Cat Loving”, released with [KAFU](/en/artists/isotopes/kafu) on July 17, 2021, became her first Legend-level song; its YouTube views passed ten million in July 2022. She joined Kamitsubaki on October 18, 2021.
 
-The organized record counts 53 original VOCALOID/CeVIO uploads as of April 27, 2024, including 15 Hall of Fame works and one Legend work. She is known to be a KAITO fan, has supplied songs for ISEKAIJOUCHO, and has tuned demonstration covers for SEKAI. Her public creator interactions also include illustrator Dandan Taikū.
+The organized record counts 53 original VOCALOID/CeVIO uploads as of April 27, 2024, including 15 Hall of Fame works and one Legend work. She is known to be a KAITO fan, has supplied songs for [ISEKAIJOUCHO](/en/artists/vwp/isekaijoucho), and has tuned demonstration covers for [SEKAI](/en/artists/isotopes/sekai). Her public creator interactions also include illustrator Dandan Taikū.
 
 ## Albums and Collaborations
 

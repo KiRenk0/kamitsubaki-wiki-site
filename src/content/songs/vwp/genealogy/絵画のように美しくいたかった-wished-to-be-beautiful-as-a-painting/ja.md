@@ -24,7 +24,7 @@ image: /images/albums/vwp/witch-plus.jpg
 
 ## 作品概要
 
-「絵画のように美しくいたかった (feat. 理芽 & Guiano)」は『魔女ぷらす』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「絵画のように美しくいたかった (feat. [理芽](/ja/artists/vwp/rim) & [Guiano](/ja/artists/creators/guiano))」は『[魔女ぷらす](/ja/albums/vwp/witch-plus)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 試聴
 

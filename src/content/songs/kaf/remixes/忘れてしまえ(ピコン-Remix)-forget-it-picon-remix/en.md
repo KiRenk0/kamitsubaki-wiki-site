@@ -19,7 +19,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 ## Overview
 
-“忘れてしまえ(ピコン Remix)” is track 2 of KAF’s 観測γ.
+“忘れてしまえ(ピコン Remix)” is track 2 of [KAF](/en/artists/vwp/kaf)’s [観測γ](/en/albums/kaf/kansoku-gamma).
 
 ## Listen
 

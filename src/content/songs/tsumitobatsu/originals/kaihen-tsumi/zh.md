@@ -1,0 +1,286 @@
+---
+locale: zh
+translationKey: "grp_tsumitobatsu_originals_kaihen-tsumi"
+title: "改変 -罪-"
+artist: "罪十罰"
+artistId: tsumitobatsu
+duration: "03:48"
+releaseDate: "2025-10-29"
+categoryTitle: "原创曲"
+categorySubtitle: "ORIGINALS"
+categoryOrder: 1
+itemOrder: 11
+code: "grp-kaihen-tsumi"
+image: /images/songs/grp/kaihen-tsumi.jpg
+---
+
+## 作品简介
+
+《改変 -罪-》是[罪十罰](/zh/artists/girls_revolution_project/tsumitobatsu)于 2025-10-29 正式发行的作品。
+
+## 试听
+
+{{media-switcher::改変 -罪-}}
+@[apple-music](https://music.apple.com/jp/album/%E6%94%B9%E5%A4%89-%E7%BD%AA-feat-%E3%81%9F%E3%81%AA%E3%81%8B-llll/1842289851?i=1842289863&uo=4 "改変 -罪-")
+@[netease](2749849252 "改変 -罪-")
+{{/media-switcher}}
+
+## 歌词
+
+{{lyrics-controls::zh}}
+
+<div class="my-lyric-box">
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:00.923]<ruby>書<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>換<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>わ<rt class="roma">wa</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>祈<rt class="furi">いの</rt><rt class="roma">ino</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+</div>
+<div class="cn-lyric">[00:00.923]改写我自己 请不要祈祷</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:26.388]<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>重<rt class="furi">かさ</rt><rt class="roma">kasa</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>増<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>傷<rt class="furi">きず</rt><rt class="roma">kizu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+</div>
+<div class="cn-lyric">[00:26.388]每过一夜就会增多的伤痕什么的</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:32.153]<ruby>も<rt class="roma">mo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>と<rt class="roma">to</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>馴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>ゃ<rt class="roma">ya</rt></ruby><ruby>っ<rt class="roma"></rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+</div>
+<div class="cn-lyric">[00:32.153]早就已经习惯了</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:34.145]<ruby>祝福<rt class="furi">しゅくふく</rt><rt class="roma">shukufuku</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>は<rt class="roma">ha</rt></ruby><ruby>来<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby>
+</div>
+<div class="cn-lyric">[00:34.145]即使不被祝福 早晨也照样来临</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:38.551]<ruby>キ<rt class="roma">ki</rt></ruby><ruby>ミ<rt class="roma">mi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>響<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>裏返<rt class="furi">うらがえ</rt><rt class="roma">uragae</rt></ruby><ruby>っ<rt class="roma"></rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>景色<rt class="furi">けしき</rt><rt class="roma">keshiki</rt></ruby>
+</div>
+<div class="cn-lyric">[00:38.551]你的声音回响着 景色随之翻转</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:44.597]<ruby>諦<rt class="furi">あきら</rt><rt class="roma">akira</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>編<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>檻<rt class="furi">おり</rt><rt class="roma">ori</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>破<rt class="furi">やぶ</rt><rt class="roma">yabu</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>音色<rt class="furi">ねいろ</rt><rt class="roma">neiro</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>っ<rt class="roma"></rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+</div>
+<div class="cn-lyric">[00:44.597]那是仿佛要击破以放弃编织的牢笼般的音色</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:50.227]<ruby>も<rt class="roma">mo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>嫌<rt class="furi">いや</rt><rt class="roma">iya</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>っ<rt class="roma"></rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+</div>
+<div class="cn-lyric">[00:50.227]已经受够了</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:54.719]<ruby>弱<rt class="furi">よわ</rt><rt class="roma">yowa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby> <ruby>手放<rt class="furi">てばな</rt><rt class="roma">tebana</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+</div>
+<div class="cn-lyric">[00:54.719]就算放下软弱的自己</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:00.688]<ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby> <ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+</div>
+<div class="cn-lyric">[01:00.688]一切也不会改变 那就随我所欲吧</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:06.865]<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+</div>
+<div class="cn-lyric">[01:06.865]我并非为了世界</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:09.848]<ruby>生<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>ゃ<rt class="roma">ya</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
+</div>
+<div class="cn-lyric">[01:09.848]而诞生于世</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:14.783]<ruby>枝<rt class="furi">えだ</rt><rt class="roma">eda</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>折<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>っ<rt class="roma"></rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+</div>
+<div class="cn-lyric">[01:14.783]折断了枝条</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:20.820]<ruby>書<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>換<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>わ<rt class="roma">wa</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+</div>
+<div class="cn-lyric">[01:20.820]改写我自己</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:27.019]<ruby>過去<rt class="furi">かこ</rt><rt class="roma">kako</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
+</div>
+<div class="cn-lyric">[01:27.019]过去的伤痛化作光芒</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:33.177]<ruby><ruby>改変<rt class="furi">かいへん</rt><rt class="roma">kaihen</rt></ruby><rt class="furi"><ruby>か<rt class="roma">ka</rt><rt class="roma"><ruby>ka<rt class="roma">ka</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby></rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>奔<rt class="furi">奔</rt><rt class="roma">奔</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby> <ruby>祈<rt class="furi">いの</rt><rt class="roma">ino</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+</div>
+<div class="cn-lyric">[01:33.177]在被改写的世界里 奔跑吧 请不要祈祷</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:46.415]<ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>逃<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>ゃ<rt class="roma">ya</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
+</div>
+<div class="cn-lyric">[01:46.415]好想从早晨逃开</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:49.294]<ruby>重<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>身体<rt class="furi">しんたい</rt><rt class="roma">shintai</rt></ruby><ruby>ど<rt class="roma">do</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
+</div>
+<div class="cn-lyric">[01:49.294]拖着沉重的身体</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:52.154]<ruby>引<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>っ<rt class="roma"></rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>乗<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>込<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+</div>
+<div class="cn-lyric">[01:52.154]好不容易爬上了这趟列车</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:54.150]<ruby>こ<rt class="roma">ko</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>列車<rt class="furi">れっしゃ</rt><rt class="roma">ressha</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>楽園<rt class="furi">らくえん</rt><rt class="roma">rakuen</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby> <ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+</div>
+<div class="cn-lyric">[01:54.150]要是这趟列车开往乐园 什么的</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:58.595]<ruby>キ<rt class="roma">ki</rt></ruby><ruby>ミ<rt class="roma">mi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby> <ruby>灰色<rt class="furi">はいいろ</rt><rt class="roma">haiiro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>日常<rt class="furi">にちじょう</rt><rt class="roma">nichijou</rt></ruby>
+</div>
+<div class="cn-lyric">[01:58.595]听不见你的声音 灰色的日常</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:04.649]<ruby>慰<rt class="furi">なぐさ</rt><rt class="roma">nagusa</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>ゃ<rt class="roma">ya</rt></ruby><ruby>ど<rt class="roma">do</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
+</div>
+<div class="cn-lyric">[02:04.649]靠安慰哪里也去不了</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:07.617]<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">ha</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>っ<rt class="roma"></rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+</div>
+<div class="cn-lyric">[02:07.617]歌唱的人 是我啊</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:10.119]<ruby>も<rt class="roma">mo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>嫌<rt class="furi">いや</rt><rt class="roma">iya</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>っ<rt class="roma"></rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+</div>
+<div class="cn-lyric">[02:10.119]已经受够了</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:14.478]<ruby>壁<rt class="furi">かべ</rt><rt class="roma">kabe</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>っ<rt class="roma"></rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
+</div>
+<div class="cn-lyric">[02:14.478]在墙壁前蜷缩着</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:20.627]<ruby>弱虫<rt class="furi">よわむし</rt><rt class="roma">yowamushi</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>ゃ<rt class="roma">ya</rt></ruby><ruby>駄目<rt class="furi">だめ</rt><rt class="roma">dame</rt></ruby>
+</div>
+<div class="cn-lyric">[02:20.627]懦夫是不行的</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:23.242]<ruby>キ<rt class="roma">ki</rt></ruby><ruby>ミ<rt class="roma">mi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby> <ruby>ま<rt class="roma">ma</rt></ruby><ruby>っ<rt class="roma"></rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>ぐ<rt class="roma">gu</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
+</div>
+<div class="cn-lyric">[02:23.242]唯有你的眼睛 我能直视</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:29.903]<ruby>わ<rt class="roma">wa</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>い<rt class="roma">i</rt></ruby> <ruby>そ<rt class="roma">so</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby>
+</div>
+<div class="cn-lyric">[02:29.903]我只想保持我自己 仅此而已</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:34.757]<ruby>息<rt class="furi">いき</rt><rt class="roma">iki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>吸<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>っ<rt class="roma"></rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+</div>
+<div class="cn-lyric">[02:34.757]我吸了一口气</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:42.349]<ruby>た<rt class="roma">ta</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+</div>
+<div class="cn-lyric">[02:42.349]只是</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:43.973]<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>い<rt class="roma">i</rt></ruby> <ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+</div>
+<div class="cn-lyric">[02:43.973]想亲眼看看 那未来</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:50.109]<ruby>強<rt class="furi">つよ</rt><rt class="roma">tsuyo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>形<rt class="furi">かたち</rt><rt class="roma">katachi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
+</div>
+<div class="cn-lyric">[02:50.109]强烈祈愿的话 就会化作形状</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:56.279]<ruby>間違<rt class="furi">まちが</rt><rt class="roma">machiga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
+</div>
+<div class="cn-lyric">[02:56.279]就算弄错了也无所谓</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[03:00.685]<ruby>隣<rt class="furi">となり</rt><rt class="roma">tonari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>キ<rt class="roma">ki</rt></ruby><ruby>ミ<rt class="roma">mi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
+</div>
+<div class="cn-lyric">[03:00.685]只要你在身旁</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[03:05.445]<ruby>書<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>換<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>わ<rt class="roma">wa</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+</div>
+<div class="cn-lyric">[03:05.445]改写我自己</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[03:11.664]<ruby>過去<rt class="furi">かこ</rt><rt class="roma">kako</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>っ<rt class="roma"></rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+</div>
+<div class="cn-lyric">[03:11.664]相信过去的伤痛会化作光芒</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[03:17.823]<ruby><ruby>改変<rt class="furi">かいへん</rt><rt class="roma">kaihen</rt></ruby><rt class="furi"><ruby>か<rt class="roma">ka</rt><rt class="roma"><ruby>ka<rt class="roma">ka</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby></rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>奔<rt class="furi">奔</rt><rt class="roma">奔</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby> <ruby>祈<rt class="furi">いの</rt><rt class="roma">ino</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+</div>
+<div class="cn-lyric">[03:17.823]在被改写的世界里 奔跑吧 请不要祈祷</div>
+</div>
+
+</div>

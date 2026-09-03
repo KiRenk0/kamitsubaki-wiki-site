@@ -1,9 +1,10 @@
 import { glob } from 'astro/loaders';
+import { convertChineseContentValue } from './traditionalChinese.mjs';
 
 function withoutRenderedContent(entry) {
   return {
     id: entry.id,
-    data: entry.data,
+    data: convertChineseContentValue(entry.data, entry.data?.locale),
     filePath: entry.filePath,
     digest: entry.digest,
     assetImports: entry.assetImports,

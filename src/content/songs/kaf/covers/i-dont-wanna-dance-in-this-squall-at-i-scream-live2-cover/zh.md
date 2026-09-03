@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 ## 作品简介
 
-《I Don't Wanna Dance In This Squall (I SCREAM LIVE2 ver.)》是花譜收录于《I SCREAM LIVE2》的第 11 轨。
+《I Don't Wanna Dance In This Squall (I SCREAM LIVE2 ver.)》是[花譜](/zh/artists/vwp/kaf)收录于《[I SCREAM LIVE2](/zh/albums/kaf/i-scream-live-2)》的第 11 轨。
 
 ## 试听
 

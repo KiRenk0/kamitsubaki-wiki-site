@@ -19,7 +19,7 @@ image: /images/albums/kaf/shinai.jpg
 
 ## Overview
 
-“私の在処” is track 9 of KAF’s 深愛.
+“私の在処” is track 9 of [KAF](/en/artists/vwp/kaf)’s [深愛](/en/albums/kaf/shinai).
 
 ## Listen
 

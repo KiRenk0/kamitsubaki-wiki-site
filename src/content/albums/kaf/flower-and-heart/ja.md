@@ -11,8 +11,8 @@ label: "KAMITSUBAKI RECORD"
 catalogNumber: "ANTCD-46469"
 trackCount: 3
 duration: "12:51"
-categoryTitle: "アルバム"
-categorySubtitle: ALBUMS
+categoryTitle: "EP"
+categorySubtitle: EPS
 categoryOrder: 1
 itemOrder: 19
 image: /images/albums/kaf/flower-and-heart.jpg
@@ -41,7 +41,7 @@ tracks:
 
 ## 作品概要
 
-花譜の活動初期を象徴する3曲を収めた、初の配信EP。
+[花譜](/ja/artists/vwp/kaf)の活動初期を象徴する3曲を収めた、初の配信EP。
 
 ## リリースと仕様
 

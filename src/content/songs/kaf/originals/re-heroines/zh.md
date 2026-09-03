@@ -19,7 +19,7 @@ image: /images/albums/kaf/kansoku.jpg
 
 ## 作品简介
 
-《Re:HEROINES》是花譜收录于《観測》的第 6 轨。
+《Re:HEROINES》是[花譜](/zh/artists/vwp/kaf)收录于《[観測](/zh/albums/kaf/kansoku)》的第 6 轨。
 
 ## 试听
 

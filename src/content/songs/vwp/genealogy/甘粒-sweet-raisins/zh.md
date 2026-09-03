@@ -24,7 +24,7 @@ image: /images/albums/vwp/proliferation.jpg
 
 ## 作品简介
 
-《甘粒 (feat. RIM & V.W.P)》收录于《繁殖》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《甘粒 (feat. [RIM](/zh/artists/vwp/rim) & [V.W.P](/zh/artists/vwp/vwp))》收录于《[繁殖](/zh/albums/vwp/proliferation)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 

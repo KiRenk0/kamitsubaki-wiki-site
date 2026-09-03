@@ -19,7 +19,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 ## Overview
 
-“不可解(Misumi Remix)” is track 12 of KAF’s 観測γ.
+“不可解(Misumi Remix)” is track 12 of [KAF](/en/artists/vwp/kaf)’s [観測γ](/en/albums/kaf/kansoku-gamma).
 
 ## Listen
 

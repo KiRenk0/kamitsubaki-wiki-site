@@ -33,7 +33,7 @@ theme:
       value: "#E0ECF8"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0f1520/4a90d9?text=Kawasaki"
+image: "/images/artists/kawasaki.jpg"
 name: "Kawasaki"
 categoryTitle: "Creators"
 categorySubtitle: "CREATORS / VIDEO DIRECTORS"
@@ -48,15 +48,15 @@ seo:
 
 ## Overview
 
-Kawasaki (川サキ) is a video director at Eallin Japan who holds a business partnership (業務提携) with KAMITSUBAKI STUDIO. As an external collaborator rather than a studio member, he brings a distinctive visual language to the Kamitsubaki ecosystem — one that seamlessly merges 3DCG, cel-style animation, and live action into cohesive emotional narratives.
+Kawasaki (川サキ) is a video director at Eallin Japan who holds a business partnership (業務提携) with [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio). As an external collaborator rather than a studio member, he brings a distinctive visual language to the Kamitsubaki ecosystem — one that seamlessly merges 3DCG, cel-style animation, and live action into cohesive emotional narratives.
 
 His directing style is defined by delicate emotional expression and a strong narrative sensibility. Whether through the weight of a single frame or the rhythm of an edited sequence, Kawasaki's work consistently prioritizes feeling over spectacle, crafting music videos that function as short films in their own right.
 
 ## Role and Creative Position
 
-Kawasaki occupies a unique position as a visual storyteller within a primarily music-oriented roster. His ongoing collaboration with KAF — producing music videos and visual content for Kamitsubaki's flagship virtual artist — represents one of the most visible intersections of his craft with the studio's identity.
+Kawasaki occupies a unique position as a visual storyteller within a primarily music-oriented roster. His ongoing collaboration with [KAF](/en/artists/vwp/kaf) — producing music videos and visual content for Kamitsubaki's flagship virtual artist — represents one of the most visible intersections of his craft with the studio's identity.
 
-His portfolio extends well beyond the Kamitsubaki sphere. He has directed music videos for major artists including Kanzaki Iori's "Ongaku Nante Wakaranai" (音楽なんてわからない) and Yorushika's "Kokoro ni Ana ga Aita" (心に穴が空いた), both of which showcase his ability to translate complex emotional textures into arresting visual form.
+His portfolio extends well beyond the Kamitsubaki sphere. He has directed music videos for major artists including [Kanzaki Iori](/en/artists/creators/kanzaki-iori)'s "Ongaku Nante Wakaranai" (音楽なんてわからない) and Yorushika's "Kokoro ni Ana ga Aita" (心に穴が空いた), both of which showcase his ability to translate complex emotional textures into arresting visual form.
 
 ## Representative Works
 

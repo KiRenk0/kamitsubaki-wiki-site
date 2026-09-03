@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso.jpg
 
 ## 作品概要
 
-「それを世界と言うんだね」は花譜の『狂想』に収録された9曲目です。
+「それを世界と言うんだね」は[花譜](/ja/artists/vwp/kaf)の『[狂想](/ja/albums/kaf/kyoso)』に収録された9曲目です。
 
 ## 視聴
 

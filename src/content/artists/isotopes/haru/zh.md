@@ -54,10 +54,10 @@ seo:
 
 {{ruby::羽累::はる::haru}} 是 KAMITSUBAKI STUDIO 推出的音乐同位体合成歌声库，声源原型为虚拟歌手 **[春猿火 / HARUSARUHI](/zh/artists/vwp/harusaruhi)**。
 
-软件于 2023 年 11 月 13 日基于 CeVIO AI 发售。角色设计由一色操刀，定位强调清晰咬字、快速说唱与强张力演唱。
+软件于 2023年11月13日基于 CeVIO AI 发售。角色设计由一色操刀，定位强调清晰咬字、快速说唱与强张力演唱。
 
 <div class="wiki-fact-grid">
-  <div class="wiki-fact-card"><p class="wiki-fact-card__label">VOICE PROVIDER</p><p class="wiki-fact-card__value">春猿火 / HARUSARUHI</p></div>
+  <div class="wiki-fact-card"><p class="wiki-fact-card__label">VOICE PROVIDER</p><p class="wiki-fact-card__value">[春猿火](/zh/artists/vwp/harusaruhi) / HARUSARUHI</p></div>
   <div class="wiki-fact-card"><p class="wiki-fact-card__label">SINGING / TALK</p><p class="wiki-fact-card__value">CeVIO AI；TALK EXTENSION × VOICEPEAK</p></div>
   <div class="wiki-fact-card"><p class="wiki-fact-card__label">CHARACTER DESIGN</p><p class="wiki-fact-card__value">一色</p></div>
   <div class="wiki-fact-card"><p class="wiki-fact-card__label">NAME CONCEPT</p><p class="wiki-fact-card__value">取自“春”，也关联“羽化”与“累ねる”</p></div>
@@ -71,10 +71,10 @@ seo:
 
 | 时间 | 节点 | 说明 |
 | --- | --- | --- |
-| 2022-10-18 | 先行预告 | 神椿工作室三周年特别节目公开羽累的预告影像。 |
-| 2023-11-13 | 正式发售 | CeVIO AI 音乐同位体 羽累上线。 |
-| 2024-03-29 | TALK EXTENSION | 与 VOICEPEAK 合作的朗读扩展版发售。 |
-| 2024-07-07 | V.I.P 演出 | 参与「V.I.P 1st MINI LIVE ETHEREAL WORLD」。 |
+| 2022年10月18日 | 先行预告 | 神椿工作室三周年特别节目公开羽累的预告影像。 |
+| 2023年11月13日 | 正式发售 | CeVIO AI 音乐同位体 羽累上线。 |
+| 2024年3月29日 | TALK EXTENSION | 与 VOICEPEAK 合作的朗读扩展版发售。 |
+| 2024年7月7日 | V.I.P 演出 | 参与「V.I.P 1st MINI LIVE ETHEREAL WORLD」。 |
 
 ## 使用场景与作品生态
 
@@ -89,3 +89,6 @@ seo:
 ## 项目关联
 
 羽累是音乐同位体初期五人阵容中的第五位公开成员。她将春猿火的节奏型歌唱与 Rap 表现带入合成声项目，并作为 V.I.P 的成员参与同位体联合舞台。
+## 外部链接
+
+- [音乐同位体 羽累 官方网站](https://haru.kamitsubaki.jp/)

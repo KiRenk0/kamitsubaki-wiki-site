@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 
 ## Overview
 
-“未観測(キツネリ Remix)” is track 4 of KAF’s 狂想γ.
+“未観測(キツネリ Remix)” is track 4 of [KAF](/en/artists/vwp/kaf)’s [狂想γ](/en/albums/kaf/kyoso-gamma).
 
 ## Listen
 

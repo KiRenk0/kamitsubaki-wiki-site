@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 ## Overview
 
-“日本の夏 (I SCREAM LIVE4 ver.)” is track 13 of KAF’s I SCREAM LIVE4 - Cover Live Album -.
+“日本の夏 (I SCREAM LIVE4 ver.)” is track 13 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE4 - Cover Live Album -](/en/albums/kaf/i-scream-live-4).
 
 ## Listen
 

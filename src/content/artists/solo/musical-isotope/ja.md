@@ -34,7 +34,7 @@ theme:
       value: "#ECE4FF"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/12101a/b48eff?text=Musical+Isotope"
+image: "/images/artists/musical-isotope.jpg"
 name: "音楽的同位体"
 categoryTitle: "ソロ / ユニット"
 categorySubtitle: "SOLO ARTISTS & UNITS"
@@ -49,9 +49,9 @@ seo:
 
 ## 概要
 
-音楽的同位体（Musical Isotope）は、KAMITSUBAKI STUDIO に所属するバーチャルシンガーたちの歌声から生まれた AI 音声合成ソフトウェアプロジェクトである。UGC（ユーザー生成コンテンツ）を通じてクリエイターの可能性を広げる「創作パートナー」として位置づけられている。
+音楽的同位体（Musical Isotope）は、[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) に所属するバーチャルシンガーたちの歌声から生まれた AI 音声合成ソフトウェアプロジェクトである。UGC（ユーザー生成コンテンツ）を通じてクリエイターの可能性を広げる「創作パートナー」として位置づけられている。
 
-このプロジェクトは「UGC が世界をより豊かにする」という哲学のもと、クリエイターに新たな表現手段を提供している。個々の AI 音声モデル（KAFU、SEKAI など）はそれぞれ独立したエントリを持つ。
+このプロジェクトは「UGC が世界をより豊かにする」という哲学のもと、クリエイターに新たな表現手段を提供している。個々の AI 音声モデル（[KAFU](/ja/artists/isotopes/kafu)、[SEKAI](/ja/artists/isotopes/sekai) など）はそれぞれ独立したエントリを持つ。
 
 ## 概念と役割
 

@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso.jpg
 
 ## Overview
 
-“人を気取る” is track 3 of KAF’s 狂想.
+“人を気取る” is track 3 of [KAF](/en/artists/vwp/kaf)’s [狂想](/en/albums/kaf/kyoso).
 
 ## Listen
 

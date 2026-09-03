@@ -19,7 +19,7 @@ image: /images/albums/kaf/kansoku.jpg
 
 ## Overview
 
-“未確認少女進行形” is track 8 of KAF’s 観測.
+“未確認少女進行形” is track 8 of [KAF](/en/artists/vwp/kaf)’s [観測](/en/albums/kaf/kansoku).
 
 ## Listen
 

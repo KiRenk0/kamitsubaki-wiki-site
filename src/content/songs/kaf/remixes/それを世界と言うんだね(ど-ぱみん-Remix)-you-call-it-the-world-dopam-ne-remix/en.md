@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 
 ## Overview
 
-“それを世界と言うんだね(ど〜ぱみん Remix)” is track 8 of KAF’s 狂想γ.
+“それを世界と言うんだね(ど〜ぱみん Remix)” is track 8 of [KAF](/en/artists/vwp/kaf)’s [狂想γ](/en/albums/kaf/kyoso-gamma).
 
 ## Listen
 

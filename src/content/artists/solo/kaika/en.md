@@ -55,7 +55,7 @@ seo:
 
 ## Overview
 
-Kaika (廻花) is a new-generation virtual singer-songwriter under KAMITSUBAKI STUDIO, described as "a new branching point of KAF." She debuted on January 14, 2024, at KAF's 4th ONE-MAN LIVE "Kaika" (怪歌) held at Yoyogi National Stadium First Gymnasium (国立代々木競技場第一体育館), emerging as a distinct artistic identity that channels impulsive, unfiltered feelings directly into song. Her concept represents a fork in KAF's creative lineage — a new flower blooming from the same root but growing in its own direction.
+Kaika (廻花) is a new-generation virtual singer-songwriter under [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio), described as "a new branching point of [KAF](/en/artists/vwp/kaf)." She debuted on January 14, 2024, at KAF's 4th ONE-MAN LIVE "Kaika" (怪歌) held at Yoyogi National Stadium First Gymnasium (国立代々木競技場第一体育館), emerging as a distinct artistic identity that channels impulsive, unfiltered feelings directly into song. Her concept represents a fork in KAF's creative lineage — a new flower blooming from the same root but growing in its own direction.
 
 With a vocal style that leans into raw emotional expression, Kaika occupies a unique space within the Kamitsubaki ecosystem: part singer-songwriter, part character narrative. Her work explores immediacy and instinct, contrasting with the more literary or philosophical approaches of other V.W.P members.
 

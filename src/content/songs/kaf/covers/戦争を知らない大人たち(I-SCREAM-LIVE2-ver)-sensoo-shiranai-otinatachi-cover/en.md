@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 ## Overview
 
-“戦争を知らない大人たち (I SCREAM LIVE2 ver.)” is track 15 of KAF’s I SCREAM LIVE2.
+“戦争を知らない大人たち (I SCREAM LIVE2 ver.)” is track 15 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE2](/en/albums/kaf/i-scream-live-2).
 
 ## Listen
 

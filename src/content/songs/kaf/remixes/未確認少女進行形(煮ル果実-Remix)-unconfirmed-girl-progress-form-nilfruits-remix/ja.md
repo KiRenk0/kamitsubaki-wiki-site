@@ -19,7 +19,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 ## 作品概要
 
-「未確認少女進行形(煮ル果実 Remix)」は花譜の『観測γ』に収録された7曲目です。
+「未確認少女進行形(煮ル果実 Remix)」は[花譜](/ja/artists/vwp/kaf)の『[観測γ](/ja/albums/kaf/kansoku-gamma)』に収録された7曲目です。
 
 ## 視聴
 

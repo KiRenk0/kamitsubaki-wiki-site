@@ -19,7 +19,7 @@ image: /images/albums/koko/climbinge-the-remix.jpg
 
 ## 作品概要
 
-「ClimBinge(DC Mizey Remix)」は『ClimBinge the Remix』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「ClimBinge(DC Mizey Remix)」は『[ClimBinge the Remix](/ja/albums/koko/climbinge-the-remix)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 試聴
 

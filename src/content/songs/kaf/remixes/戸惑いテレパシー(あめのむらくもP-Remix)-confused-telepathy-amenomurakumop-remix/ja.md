@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 ## 作品概要
 
-「戸惑いテレパシー(あめのむらくもP Remix)」は花譜の『魔法γ』に収録された4曲目です。
+「戸惑いテレパシー(あめのむらくもP Remix)」は[花譜](/ja/artists/vwp/kaf)の『[魔法γ](/ja/albums/kaf/maho-gamma)』に収録された4曲目です。
 
 ## 視聴
 

@@ -35,7 +35,7 @@ theme:
       value: "#F0E6F6"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/1a0e22/9b59b6?text=HITOGOTO"
+image: "/images/artists/hitogoto.jpg"
 name: "他人事"
 categoryTitle: "创作者"
 categorySubtitle: "CREATORS / COMPOSERS / ILLUSTRATORS"
@@ -51,7 +51,7 @@ seo:
 
 ## 概述
 
-Hitogoto（他人事）是由「面」与「鱼鱼」二人组成的音乐组合，隶属于 KAMITSUBAKI STUDIO 的 CREATOR FARM。自 2020 年起以 Vocaloid 原创曲和自我翻唱开启活动，凭借情感浓烈的词曲创作与精致的编曲迅速获得关注。
+Hitogoto（他人事）是由「面」与「鱼鱼」二人组成的音乐组合，隶属于 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 的 CREATOR FARM。自 2020 年起以 Vocaloid 原创曲和自我翻唱开启活动，凭借情感浓烈的词曲创作与精致的编曲迅速获得关注。
 
 在 2022 年春季举办的 The VOCALOID Collection 中，该组合在约 2,800 首应募作品中脱颖而出，取得新人排行榜第 8 名的成绩。插画由神多洋负责，其画风与乐曲的情感世界相得益彰。
 
@@ -65,7 +65,7 @@ Hitogoto 的核心优势在于深入人心的歌词与令人久久难忘的旋�
 
 - 2020 年：组合成立，开始制作 Vocaloid 原创曲及自我翻唱。
 - 2022 年春：在 The VOCALOID Collection 2022 Spring 新人排行榜中获得第 8 名（约 2,800 首应募）。
-- 为罪与罚提供「弔花」（作词 / 作曲 / 编曲）。
+- 为罪与罚提供「[弔花](/zh/songs/tsumitobatsu/originals/chouka)」（作词 / 作曲 / 编曲）。
 - 为 V.W.P 提供「真伪」（作词 / 作曲）。
 - 为 Muse Dash 提供「信仰与存在」（流媒体播放量超过 300 万次）。
 - 加入 KAMITSUBAKI STUDIO 的 CREATOR FARM。

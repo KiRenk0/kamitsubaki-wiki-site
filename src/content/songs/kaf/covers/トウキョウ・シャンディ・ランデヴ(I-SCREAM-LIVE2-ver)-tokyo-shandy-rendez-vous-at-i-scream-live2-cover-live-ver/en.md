@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 ## Overview
 
-“トウキョウ・シャンディ・ランデヴ (I SCREAM LIVE2 ver.)” is track 29 of KAF’s I SCREAM LIVE2.
+“トウキョウ・シャンディ・ランデヴ (I SCREAM LIVE2 ver.)” is track 29 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE2](/en/albums/kaf/i-scream-live-2).
 
 ## Listen
 

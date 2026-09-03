@@ -1,6 +1,8 @@
 ---
-const { locale = 'zh' } = Astro.props as { locale?: 'zh' | 'ja' | 'en' };
-const copy = {
+import { resolveLocaleCopy } from '../lib/i18n.mjs';
+
+const { locale = 'zh' } = Astro.props as { locale?: string };
+const copy = resolveLocaleCopy({
   zh: {
     heading: 'EXPERIENCES',
     subheading: '从资料库进入神椿的另一侧',
@@ -37,7 +39,7 @@ const copy = {
     chatBody: 'Choose KAF, RIM, HARUSARUHI, ISEKAIJOUCHO, or KOKO for an unofficial AI conversation with separate history and memory.',
     chatAction: 'Choose a character',
   },
-}[locale];
+}, locale);
 ---
 
 <section id="experiences" class="experience-portals ui-crosshair bl br">

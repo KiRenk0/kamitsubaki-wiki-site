@@ -1,7 +1,10 @@
 ---
-const { lang = 'zh' } = Astro.props as { lang?: string };
+import { getLanguageTag, resolveLocaleCopy } from '../lib/i18n.mjs';
 
-const copy = {
+const { lang = 'zh' } = Astro.props as { lang?: string };
+const languageTag = getLanguageTag(lang);
+
+const copy = resolveLocaleCopy({
   zh: {
     openLabel: '打开站内搜索',
     title: '搜索观测记录',
@@ -15,7 +18,7 @@ const copy = {
     kinds: { all: '全部', artist: '艺人', song: '歌曲', album: '专辑', project: '企划', log: '记录' },
     navigateHint: '↑↓ 选择',
     openHint: 'ENTER 打开',
-    shortcutHint: '⌘K 搜索',
+    shortcutAction: '搜索',
   },
   ja: {
     openLabel: 'サイト内検索を開く',
@@ -30,7 +33,7 @@ const copy = {
     kinds: { all: 'すべて', artist: 'アーティスト', song: '楽曲', album: 'アルバム', project: '企画', log: '記録' },
     navigateHint: '↑↓ 選択',
     openHint: 'ENTER 開く',
-    shortcutHint: '⌘K 検索',
+    shortcutAction: '検索',
   },
   en: {
     openLabel: 'Open site search',
@@ -45,32 +48,19 @@ const copy = {
     kinds: { all: 'All', artist: 'Artist', song: 'Song', album: 'Album', project: 'Project', log: 'Log' },
     navigateHint: '↑↓ Select',
     openHint: 'ENTER Open',
-    shortcutHint: '⌘K Search',
+    shortcutAction: 'Search',
   },
-}[lang] ?? {
-  openLabel: 'Open site search',
-  title: 'Search observations',
-  closeLabel: 'Close search',
-  placeholder: 'Search the wiki…',
-  idle: 'Enter a keyword to search this site.',
-  loading: 'Loading search index…',
-  error: 'The search index is unavailable.',
-  empty: 'No results found.',
-  resultCount: (count: number) => `${count} results`,
-  kinds: { all: 'All', artist: 'Artist', song: 'Song', album: 'Album', project: 'Project', log: 'Log' },
-  navigateHint: '↑↓ Select',
-  openHint: 'ENTER Open',
-  shortcutHint: '⌘K Search',
-};
+}, lang);
 
+const resultCountTemplate = resolveLocaleCopy({
+  zh: '找到 {count} 条结果',
+  ja: '{count} 件の結果',
+  en: '{count} result|{count} results',
+}, lang);
 const serializedCopy = {
   ...copy,
   resultCount: undefined,
-  resultCountTemplate: lang === 'zh'
-    ? '找到 {count} 条结果'
-    : lang === 'ja'
-      ? '{count} 件の結果'
-      : '{count} result|{count} results',
+  resultCountTemplate,
 };
 ---
 
@@ -79,6 +69,7 @@ const serializedCopy = {
   data-site-search
   data-locale={lang}
   data-copy={JSON.stringify(serializedCopy)}
+  lang={languageTag}
   role="dialog"
   aria-modal="true"
   aria-labelledby="site-search-title"
@@ -133,7 +124,7 @@ const serializedCopy = {
     <footer class="site-search__footer" aria-hidden="true">
       <span>{copy.navigateHint}</span>
       <span>{copy.openHint}</span>
-      <span>{copy.shortcutHint}</span>
+      <span><span data-search-shortcut>Ctrl+K</span> {copy.shortcutAction}</span>
     </footer>
   </section>
 </div>

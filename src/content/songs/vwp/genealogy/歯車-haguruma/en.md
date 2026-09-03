@@ -24,7 +24,7 @@ image: /images/songs/vwp/single-1708174776.jpg
 
 ## Overview
 
-歯車 (feat. KAF & V.W.P) appears on 歯車 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+歯車 (feat. [KAF](/en/artists/vwp/kaf) & [V.W.P](/en/artists/vwp/vwp)) appears on 歯車 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

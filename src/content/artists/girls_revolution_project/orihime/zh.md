@@ -8,7 +8,7 @@ categoryOrder: 5
 itemOrder: 1
 statusLabel: STATUS
 status: ACTIVE
-image: "https://placehold.co/1200x800/0a0a12/a0a0b0?text=ORIHIME"
+image: "/images/artists/orihime.png"
 name: 御莉姫
 categoryTitle: 少女革命计划
 categorySubtitle: GIRLS REVOLUTION PROJECT

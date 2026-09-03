@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso.jpg
 
 ## 作品概要
 
-「ニヒル」は花譜の『狂想』に収録された7曲目です。
+「ニヒル」は[花譜](/ja/artists/vwp/kaf)の『[狂想](/ja/albums/kaf/kyoso)』に収録された7曲目です。
 
 ## 視聴
 

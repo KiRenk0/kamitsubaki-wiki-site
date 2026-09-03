@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho.jpg
 
 ## 作品概要
 
-「花女」は花譜の『魔法』に収録された8曲目です。
+「花女」は[花譜](/ja/artists/vwp/kaf)の『[魔法](/ja/albums/kaf/maho)』に収録された8曲目です。
 
 ## 視聴
 

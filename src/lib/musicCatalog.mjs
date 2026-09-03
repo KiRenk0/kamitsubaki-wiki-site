@@ -140,7 +140,9 @@ export function getSongCategoryMeta(categorySlug, locale = 'en', entryData = {})
 
   return {
     slug: canonicalSlug,
-    title: definition?.label[locale] ?? entryData.categoryTitle ?? humanizeCategorySlug(canonicalSlug),
+    title: definition
+      ? resolveLocaleCopy(definition.label, locale)
+      : entryData.categoryTitle ?? humanizeCategorySlug(canonicalSlug),
     subtitle: definition?.subtitle ?? entryData.categorySubtitle ?? canonicalSlug.replace(/[-_]/g, ' ').toUpperCase(),
     order: entryData.categoryOrder ?? definition?.order ?? Number.POSITIVE_INFINITY,
   };
@@ -260,3 +262,4 @@ export function buildArtistAlbumCatalog(albumEntries, artistEntries, locale = 'e
       cover: group.artistEntry?.data.image ?? group.entries.find((entry) => entry.data.image)?.data.image,
     }));
 }
+import { resolveLocaleCopy } from './i18n.mjs';

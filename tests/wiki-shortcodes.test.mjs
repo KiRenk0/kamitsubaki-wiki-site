@@ -42,6 +42,15 @@ test('renders fixed inline Wiki aliases without authored HTML', async () => {
   assert.match(rendered, /<time datetime="2026-07-19">today<\/time>/);
 });
 
+test('renders the Simplified Chinese branch of a regional vocabulary override', async () => {
+  const rendered = await renderMarkdownFragment(
+    '这款{{zh-variant::软件::軟體::軟件}}用于内容管理。',
+  );
+
+  assert.match(rendered, /这款软件用于内容管理/);
+  assert.doesNotMatch(rendered, /zh-variant|軟體|軟件/);
+});
+
 test('renders a details alias while preserving Markdown inside the block', async () => {
   const rendered = await renderMarkdownFragment(`
 {{details::Track list}}
@@ -74,7 +83,7 @@ test('content does not put Markdown markup inside plain-text Wiki shortcode argu
   const contentRoot = fileURLToPath(new URL('../src/content/', import.meta.url));
   const files = await collectMarkdownFiles(contentRoot);
   const invalid = [];
-  const richMarkup = /\{\{(?:ruby|spoiler|mark|abbr|kbd|time|small|sub|sup)::[^}\n]*(?:\*\*|__|\[[^\]]+\]\(|<\/?[a-z][^>]*>)[^}\n]*\}\}/gi;
+  const richMarkup = /\{\{(?:zh-variant|ruby|spoiler|mark|abbr|kbd|time|small|sub|sup)::[^}\n]*(?:\*\*|__|\[[^\]]+\]\(|<\/?[a-z][^>]*>)[^}\n]*\}\}/gi;
 
   for (const path of files) {
     const source = removeCodeExamples(await readFile(path, 'utf8'));

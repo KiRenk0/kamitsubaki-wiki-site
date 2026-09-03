@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1688514096.jpg
 
 ## 作品简介
 
-《飛翔するmeme》是花譜收录于《組曲》的第 4 轨。
+《飛翔するmeme》是[花譜](/zh/artists/vwp/kaf)收录于《[組曲](/zh/albums/kaf/suite)》的第 4 轨。
 
 ## 试听
 

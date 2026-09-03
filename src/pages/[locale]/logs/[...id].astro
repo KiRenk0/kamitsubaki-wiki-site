@@ -6,32 +6,21 @@ import SiteFooter from '../../../components/SiteFooter.astro';
 import TableOfContents from '../../../components/TableOfContents.astro';
 import ContentLicenseNotice from '../../../components/ContentLicenseNotice.astro';
 import { buildLogDisplayData, getLocalizedSite } from '../../../lib/homeData.mjs';
-import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../lib/i18n.mjs';
+import { buildLocaleLinks, defaultLocale, resolveLocaleCopy, supportedLocales } from '../../../lib/i18n.mjs';
 import { buildLogMetadata } from '../../../lib/metadata.mjs';
 import { renderContentEntry } from '../../../lib/contentSource.mjs';
+import { buildLocalizedStaticPaths } from '../../../lib/staticPaths.mjs';
 
 export async function getStaticPaths() {
   const logEntries = await getCollection('logs');
 
-  return logEntries.map((entry) => {
-    const parts = entry.id.split('/');
-    const entryLocale = parts.pop();
-    const idPath = parts.join('/');
-
-    return {
-      params: {
-        locale: entryLocale,
-        id: idPath,
-      },
-      props: { entry },
-    };
-  });
+  return buildLocalizedStaticPaths(logEntries);
 }
 
 const { locale, id } = Astro.params;
 const { entry } = Astro.props;
 const { html: contentHtml, headings, body: articleBody } = await renderContentEntry(entry);
-const localeCode = locale as 'zh' | 'ja' | 'en';
+const localeCode = locale as 'zh' | 'zh-tw' | 'zh-hk' | 'ja' | 'en';
 const siteEntries = await getCollection('site');
 const homeContent = getLocalizedSite(siteEntries, localeCode, defaultLocale);
 const logEntry = buildLogDisplayData(entry, localeCode);
@@ -50,7 +39,7 @@ const metadata = buildLogMetadata({
 const hasArticleBody = Boolean(articleBody);
 const hasTableOfContents = headings.some((heading) => heading.depth === 2 || heading.depth === 3);
 
-const labels = {
+const labels = resolveLocaleCopy({
   zh: {
     back: '返回首页',
     eyebrow: '观测记录',
@@ -69,7 +58,7 @@ const labels = {
     contents: 'Contents',
     entryId: 'Record ID',
   },
-}[localeCode];
+}, localeCode);
 ---
 
 <BaseLayout lang={localeCode} alternates={alternates} title={`${logEntry.title} - Kamitsubaki Studio Fan Wiki`} metadata={metadata}>

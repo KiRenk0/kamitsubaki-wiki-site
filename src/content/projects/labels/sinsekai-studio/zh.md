@@ -21,22 +21,22 @@ pulse：致力于构建虚拟世界「INSPIX WORLD」，并不断挑战次世代
 
 ## 发展历程
 
-- 2021年6月20日：神椿工作室发表派生企划「SINSEKAI CITY PROJECT」。脊界世界观的关键词，是“混沌”与“探索”。故事的舞台，设定在与“神椿市”近在咫尺却又遥不可及的“深脊界市”。同时，该企划释出了存流（ARU）的相关内容。
+- 2021年6月20日：神椿工作室发表派生企划「SINSEKAI CITY PROJECT」。脊界世界观的关键词，是“混沌”与“探索”。故事的舞台，设定在与“神椿市”近在咫尺却又遥不可及的“深脊界市”。同时，该企划释出了存流（[ARU](/zh/artists/solo/aru)）的相关内容。
 
 - 2021年8月21日：SINSEKAI STUDIO正式宣布成立。同日，明透（ASU）首次公开亮相，深脊界工作室正式开始运营。
-- 2021年11月23日：VALIS“第一幕”阶段结束，宣布移籍至深脊界工作室。
-- 2022年7月2日：存流（ARU）与明透（ASU）以组合Albemuth名义发布首支原创曲「新世界へ」。
+- 2021年11月23日：[VALIS](/zh/artists/solo/valis)“第一幕”阶段结束，宣布移籍至深脊界工作室。
+- 2022年7月2日：存流（[ARU](/zh/artists/solo/aru)）与[明透](/zh/artists/solo/asu)（ASU）以组合[Albemuth](/zh/artists/solo/albemuth)名义发布首支原创曲「[新世界へ](/zh/songs/asu/originals/新世界he)」。
 - 2022年11月1日：梓川正式加入SINSEKAI STUDIO，并于同日发行首支单曲《告赤》。
-- 2022年11月18日：由水野あつ与Sooda组成的组合「雨宿り」宣布加入SINSEKAI STUDIO。
+- 2022年11月18日：由水野あつ与[Sooda](/zh/artists/creators/sooda)组成的组合「雨宿り」宣布加入SINSEKAI STUDIO。
 - 2022年11月19日：双人音乐组合「Albemuth」正式宣布结成，由存流（ARU）和明透（ASU）组成，定位为"起源于深脊界工作室的，以两种截然不同的个性所创造出的音乐"。
 - 2023年3月31日：SINSEKAI STUDIO正式重组更名为SINSEKAI RECORD，成为KAMITSUBAKI LABEL旗下厂牌。
 - 2023年4月6日：诗道（Shido）正式出道。
 - 2024年2月5日：官方发布公告，宣布存流（ARU）将于4月9日的专场演唱会后结束活动，「Albemuth」随之解散。
 - 2024年4月9日：Albemuth 1st ONE-MAN LIVE「罪と楽園」举办，存流正式毕业，「Albemuth」组合解散。最后一首原创曲「舟」于同日公开。
 - 2024年8月8日：KAMITSUBAKI FES '24「THE DAY THE EARTH STOOD STILL」在横滨国际平和会议场举办。SINSEKAI RECORD 旗下艺人与神椿本部艺人同台共演。
-- 2025年4月30日：新虚拟歌手琶舞（BEMA）正式出道，上传首个视频「琶舞 Op.1 - はじめまして。」。
+- 2025年4月30日：新虚拟歌手琶舞（[BEMA](/zh/artists/solo/bema)）正式出道，上传首个视频「琶舞 Op.1 - はじめまして。」。
 - 2025年5月5日：官方正式公告，明透与琶舞将组成以"爱"为主题的新组合进行活动。
-- 2025年5月7日：明透与琶舞的原创曲MV「Symbiotic Dominion」公开。
+- 2025年5月7日：[明透](/zh/artists/solo/asu)与[琶舞](/zh/artists/solo/bema)的原创曲MV「[Symbiotic Dominion](/zh/songs/bema/originals/symbiotic-dominion)」公开。
 
 ## 旗下艺人
 

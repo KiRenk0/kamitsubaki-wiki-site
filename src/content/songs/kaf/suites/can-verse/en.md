@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1688524557.jpg
 
 ## Overview
 
-“CAN-VERSE” is track 10 of KAF’s 組曲.
+“CAN-VERSE” is track 10 of [KAF](/en/artists/vwp/kaf)’s [組曲](/en/albums/kaf/suite).
 
 ## Listen
 

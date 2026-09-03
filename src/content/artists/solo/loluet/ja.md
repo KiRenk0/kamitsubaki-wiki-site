@@ -48,7 +48,7 @@ seo:
 
 ## 概要
 
-LOLUETは2021年からYouTubeを中心に活動するバーチャルシンガーである。初期は個人名義で活動し、2023年3月31日にKAMITSUBAKI STUDIOへの所属を発表した。ALLT STUDIOとの関連があり、キャラクターデザインは望月けいが担当している。
+LOLUETは2021年からYouTubeを中心に活動するバーチャルシンガーである。初期は個人名義で活動し、2023年3月31日に[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio)への所属を発表した。ALLT STUDIOとの関連があり、キャラクターデザインは望月けいが担当している。
 
 ## 基本資料
 
@@ -85,7 +85,7 @@ LOLUETは2021年からYouTubeを中心に活動するバーチャルシンガー
 
 - 1月3日：biz × ZERA feat. LOLUET mini album『愛狂』に参加。
 - 「√ (roots)」「NightmaRe」「レコード・レド」「ラブ＆デストロイ」などを発表。
-- 5月29日：「ハネムーン feat. 理芽 / Honeymoon feat. RIM」を発表。
+- 5月29日：「ハネムーン feat. [理芽](/ja/artists/vwp/rim) / Honeymoon feat. RIM」を発表。
 
 ## 作品の整理
 

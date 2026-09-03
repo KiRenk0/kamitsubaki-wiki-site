@@ -24,7 +24,7 @@ image: /images/songs/vwp/single-1729962972.jpg
 
 ## Overview
 
-素的 (feat. 幸祜 & V.W.P) appears on 素的 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+素的 (feat. [幸祜](/en/artists/vwp/koko) & [V.W.P](/en/artists/vwp/vwp)) appears on 素的 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

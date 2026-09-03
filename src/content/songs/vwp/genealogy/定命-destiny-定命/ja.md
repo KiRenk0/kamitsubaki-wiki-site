@@ -24,7 +24,7 @@ image: /images/songs/vwp/single-1690114244.jpg
 
 ## 作品概要
 
-「定命 (feat. KAF, RIM, Isekaijoucho, Harusaruhi & KOKO)」は『定命』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「定命 (feat. [KAF](/ja/artists/vwp/kaf), [RIM](/ja/artists/vwp/rim), [Isekaijoucho](/ja/artists/vwp/isekaijoucho), [Harusaruhi](/ja/artists/vwp/harusaruhi) & [KOKO](/ja/artists/vwp/koko))」は『定命』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 試聴
 

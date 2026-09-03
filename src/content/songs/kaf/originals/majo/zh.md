@@ -17,9 +17,9 @@ code: KO3
 image: /images/albums/kaf/flower-and-heart.jpg
 ---
 
-## 简介
+## 作品简介
 
-花谱第三首原创曲，由カンザキイオリ作词、作曲与编曲。
+[花谱](/zh/artists/vwp/kaf)第三首原创曲，由[カンザキイオリ](/zh/artists/creators/kanzaki-iori)作词、作曲与编曲。
 
 ## 试听
 

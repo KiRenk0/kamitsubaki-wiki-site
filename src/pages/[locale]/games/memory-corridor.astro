@@ -9,7 +9,7 @@ export function getStaticPaths() {
   return supportedLocales.map((locale) => ({ params: { locale } }));
 }
 
-const locale = (Astro.params.locale ?? defaultLocale) as 'zh' | 'ja' | 'en';
+const locale = (Astro.params.locale ?? defaultLocale) as 'zh' | 'zh-tw' | 'zh-hk' | 'ja' | 'en';
 const siteEntries = await getCollection('site');
 const homeContent = getLocalizedSite(siteEntries, locale, defaultLocale);
 const currentPath = '/games/memory-corridor';
@@ -19,6 +19,16 @@ const copy = {
   zh: {
     title: '记忆回廊',
     description: '包含记忆采集、条目传送与经典跑酷的像素档案探索游戏。',
+    label: 'THREE ARCHIVE ROUTES',
+  },
+  'zh-tw': {
+    title: '記憶迴廊',
+    description: '包含記憶採集、條目傳送與經典跑酷的像素檔案探索遊戲。',
+    label: 'THREE ARCHIVE ROUTES',
+  },
+  'zh-hk': {
+    title: '記憶迴廊',
+    description: '包含記憶採集、條目傳送與經典跑酷的像素檔案探索遊戲。',
     label: 'THREE ARCHIVE ROUTES',
   },
   ja: {

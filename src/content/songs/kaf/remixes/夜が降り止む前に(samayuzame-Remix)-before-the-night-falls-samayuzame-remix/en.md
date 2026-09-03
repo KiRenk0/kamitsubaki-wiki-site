@@ -19,7 +19,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 ## Overview
 
-“夜が降り止む前に(samayuzame Remix)” is track 11 of KAF’s 観測γ.
+“夜が降り止む前に(samayuzame Remix)” is track 11 of [KAF](/en/artists/vwp/kaf)’s [観測γ](/en/albums/kaf/kansoku-gamma).
 
 ## Listen
 

@@ -50,9 +50,9 @@ seo:
 
 ## 概要
 
-PIEDPIPER は KAMITSUBAKI STUDIO の統括プロデューサー。日本で最も独自性の高いバーチャルアーティスト・プロジェクトの一つである神椿の、戦略的かつ創造的方向性を統括している。
+PIEDPIPER は [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) の統括プロデューサー。日本で最も独自性の高いバーチャルアーティスト・プロジェクトの一つである神椿の、戦略的かつ創造的方向性を統括している。
 
-その統括範囲は神椿の全エコシステムに及ぶ。花譜（KAF）のソロ活動、V.W.P としてのグループ展開、そして「神椿市建設中。」「音楽的同位体」「KAMITSUBAKI VERSE」といった主要 IP プロジェクトまで。PIEDPIPER は、個々の創作成果物と神椿宇宙のより大きな物語構造を結ぶ役割を担っている。
+その統括範囲は神椿の全エコシステムに及ぶ。[花譜](/ja/artists/vwp/kaf)（KAF）のソロ活動、[V.W.P](/ja/artists/vwp/vwp) としてのグループ展開、そして「神椿市建設中。」「[音楽的同位体](/ja/artists/solo/musical-isotope)」「KAMITSUBAKI VERSE」といった主要 IP プロジェクトまで。PIEDPIPER は、個々の創作成果物と神椿宇宙のより大きな物語構造を結ぶ役割を担っている。
 
 ## 役割と創作上の位置づけ
 

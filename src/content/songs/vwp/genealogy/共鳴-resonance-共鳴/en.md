@@ -24,7 +24,7 @@ image: /images/songs/vwp/single-1689357635.jpg
 
 ## Overview
 
-共鳴 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜) appears on 共鳴 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+共鳴 (feat. [花譜](/en/artists/vwp/kaf), [理芽](/en/artists/vwp/rim), [春猿火](/en/artists/vwp/harusaruhi), [ヰ世界情緒](/en/artists/vwp/isekaijoucho) & [幸祜](/en/artists/vwp/koko)) appears on 共鳴 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

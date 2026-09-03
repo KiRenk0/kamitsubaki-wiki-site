@@ -17,11 +17,11 @@ code: KO4
 image: /images/albums/kaf/kansoku.jpg
 ---
 
-## Introduction
+## Overview
 
 KAF's fourth original song, written, composed, and arranged by Iori Kanzaki.
 
-## Preview
+## Listen
 
 {{media-switcher::KAF - Wasurete Shimae}}
 @[bilibili](BV1wJ41187mP "KAF - Wasurete Shimae")

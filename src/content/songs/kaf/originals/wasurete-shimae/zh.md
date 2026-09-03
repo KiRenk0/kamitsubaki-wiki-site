@@ -17,9 +17,9 @@ code: KO4
 image: /images/albums/kaf/kansoku.jpg
 ---
 
-## 简介
+## 作品简介
 
-花谱第四首原创曲，由カンザキイオリ作词、作曲与编曲。
+[花谱](/zh/artists/vwp/kaf)第四首原创曲，由[カンザキイオリ](/zh/artists/creators/kanzaki-iori)作词、作曲与编曲。
 
 ## 试听
 

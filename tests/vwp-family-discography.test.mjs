@@ -8,12 +8,15 @@ import { assertNoPlaceholderContent } from './helpers/content-assertions.mjs';
 const projectRoot = new URL('../', import.meta.url);
 const locales = ['zh', 'ja', 'en'];
 const albumCounts = { vwp: 10, rim: 8, harusaruhi: 9, isekaijoucho: 6, koko: 4 };
-const canonicalSongCounts = { vwp: 117, rim: 131, harusaruhi: 169, isekaijoucho: 141, koko: 76 };
+const canonicalSongCounts = { vwp: 117, rim: 132, harusaruhi: 169, isekaijoucho: 142, koko: 76 };
 const physicalOnlyAlbums = new Set([
   'rim/chocolate-live',
   'harusaruhi/cream-puff-live',
   'isekaijoucho/candy-live',
   'koko/arare-live',
+]);
+const officialSongArtworkMinimumWidths = new Map([
+  ['public/images/songs/rim/ハウメニ-how-many.jpg', 1400],
 ]);
 
 function fileUrl(path) {
@@ -101,7 +104,7 @@ test('V.W.P and the four newly completed member catalogs contain 37 localized re
   }
 });
 
-test('all 634 canonical V.W.P-family recordings are trilingual, credited, unique, and locally illustrated', async () => {
+test('all 636 canonical V.W.P-family recordings are trilingual, credited, unique, and locally illustrated', async () => {
   const checkedArtwork = new Set();
   const songPathsByCode = new Map();
   let totalSongs = 0;
@@ -135,13 +138,14 @@ test('all 634 canonical V.W.P-family recordings are trilingual, credited, unique
     assert.equal(artistSongs, expectedCount, `${artist} song count must stay complete`);
     totalSongs += artistSongs;
   }
-  assert.equal(totalSongs, 634);
+  assert.equal(totalSongs, 636);
 
   for (const artworkPath of checkedArtwork) {
     const artwork = await readFile(fileUrl(artworkPath));
     const dimensions = readJpegDimensions(artwork);
     if (!physicalOnlyAlbums.has(artworkPath.replace('public/images/albums/', '').replace('.jpg', ''))) {
-      assert.ok(dimensions.width >= 1600, `${artworkPath} must not be a thumbnail`);
+      const minimumWidth = officialSongArtworkMinimumWidths.get(artworkPath) ?? 1600;
+      assert.ok(dimensions.width >= minimumWidth, `${artworkPath} must preserve the best available official artwork`);
       assert.equal(dimensions.width, dimensions.height, `${artworkPath} must remain square`);
     }
   }

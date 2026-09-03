@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/rule-the-world.jpg
 
 ## 作品简介
 
-《XRXD》收录于《RULE THE WORLD》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《XRXD》收录于《[RULE THE WORLD](/zh/albums/harusaruhi/rule-the-world)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 

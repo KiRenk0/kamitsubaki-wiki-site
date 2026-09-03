@@ -33,7 +33,7 @@ theme:
       value: "#E6F3FA"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0f1923/a8d8ea?text=Awairo"
+image: "/images/artists/awairo.jpg"
 name: "淡色 / Awairo"
 categoryTitle: "ソロ / ユニット"
 categorySubtitle: "SOLO ARTISTS & UNITS"
@@ -48,9 +48,9 @@ seo:
 
 ## 概要
 
-淡色（Awairo）は KAMITSUBAKI STUDIO 所属の次世代音楽ユニット。作曲家のゆのすけと歌手 WaMi の二人で構成されている。甘くエモーショナルなメロディに EDM の要素を融合させ、繊細で切ない感情世界を表現するのが特徴。
+淡色（Awairo）は [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) 所属の次世代音楽ユニット。作曲家のゆのすけと歌手 WaMi の二人で構成されている。甘くエモーショナルなメロディに EDM の要素を融合させ、繊細で切ない感情世界を表現するのが特徴。
 
-2025 年 1 月に 1st Album「グラデーション」をリリースし、発売記念 Party を開催。同年 2 月にはシングル「ブルーンーン」を発表した。KAMITSUBAKI WARS 2024 横浜公演や KAMITSUBAKI FES '24 への出演、梓川との 2MAN LIVE を通じて、神椿体系内での存在感を着実に広げている。
+2025年1月に 1st Album「[グラデーション](/ja/albums/awairo/グラデーション-1798638788)」をリリースし、発売記念 Party を開催。同年 2 月にはシングル「ブルーンーン」を発表した。KAMITSUBAKI WARS 2024 横浜公演や KAMITSUBAKI FES '24 への出演、梓川との 2MAN LIVE を通じて、神椿体系内での存在感を着実に広げている。
 
 ## 役割と創作上の位置づけ
 
@@ -63,13 +63,13 @@ seo:
 - ゆのすけ（作曲）+ WaMi（歌唱）のユニットとして活動を開始。
 - KAMITSUBAKI WARS 2024 横浜公演に出演。
 - KAMITSUBAKI FES '24 に出演。
-- 2025 年 1 月 15 日：1st Album「グラデーション」をリリース、Release Party を開催。
-- 2025 年 2 月 21 日：シングル「ブルーンーン」をリリース。
+- 2025年1月15日：1st Album「グラデーション」をリリース、Release Party を開催。
+- 2025年2月21日：シングル「ブルーンーン」をリリース。
 - 梓川との 2MAN LIVE を開催。
 
 ## 代表作品と関連項目
 
-- アルバム：「グラデーション」（2025.01.15）
+- アルバム：「グラデーション」（2025年1月15日）
 - シングル：「Pale&Deep」「個性」「Satellite」「烙印」「ブルーンーン」
 
 あわせて読むとつながりが見えやすい項目：

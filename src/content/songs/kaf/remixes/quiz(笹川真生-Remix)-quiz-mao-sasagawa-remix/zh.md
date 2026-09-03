@@ -19,7 +19,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 ## 作品简介
 
-《quiz(笹川真生 Remix)》是花譜收录于《観測γ》的第 4 轨。
+《quiz(笹川真生 Remix)》是[花譜](/zh/artists/vwp/kaf)收录于《[観測γ](/zh/albums/kaf/kansoku-gamma)》的第 4 轨。
 
 ## 试听
 

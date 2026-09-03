@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 ## Overview
 
-“この世界は美しい(tokiwa Remix)” is track 4 of KAF’s 寓話γ.
+“この世界は美しい([tokiwa](/en/artists/creators/tokiwa) Remix)” is track 4 of [KAF](/en/artists/vwp/kaf)’s [寓話γ](/en/albums/kaf/guwa-gamma).
 
 ## Listen
 

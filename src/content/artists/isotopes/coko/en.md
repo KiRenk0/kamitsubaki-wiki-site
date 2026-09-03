@@ -67,7 +67,7 @@ seo:
 
 ## Overview
 
-COKO (狐子) is the fourth voice synthesis software in KAMITSUBAKI STUDIO's "Musical Isotope" series. It is built using AI technology based on the vocal data of virtual singer KOKO (幸祜) to generate highly realistic singing voices on the CeVIO AI platform.
+COKO (狐子) is the fourth voice synthesis software in [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio)'s "[Musical Isotope](/en/artists/solo/musical-isotope)" series. It is built using AI technology based on the vocal data of virtual singer [KOKO](/en/artists/vwp/koko) (幸祜) to generate highly realistic singing voices on the CeVIO AI platform.
 
 As a member of the Musical Isotope series, COKO inherits KOKO's high-pitched, powerful, and energetic vocal tone. In Japanese, the pronunciation "COKO" forms a playful homophonic pairing with KOKO's name.
 

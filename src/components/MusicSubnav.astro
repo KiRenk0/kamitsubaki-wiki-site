@@ -1,14 +1,16 @@
 ---
+import { resolveLocaleCopy } from '../lib/i18n.mjs';
+
 const { locale, current } = Astro.props as {
-  locale: 'zh' | 'ja' | 'en';
+  locale: 'zh' | 'zh-tw' | 'zh-hk' | 'ja' | 'en';
   current: 'songs' | 'albums';
 };
 
-const copy = {
+const copy = resolveLocaleCopy({
   zh: { label: '音乐作品分类', songs: '单曲', albums: '专辑' },
   ja: { label: '音楽作品カテゴリー', songs: '楽曲', albums: 'アルバム' },
   en: { label: 'Music categories', songs: 'Songs', albums: 'Albums' },
-}[locale];
+}, locale);
 ---
 
 <nav aria-label={copy.label} class="music-subnav border-y border-white/10 bg-white/[0.02]">

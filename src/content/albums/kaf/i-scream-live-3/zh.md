@@ -130,7 +130,7 @@ tracks:
 
 ## 作品简介
 
-“I SCREAM LIVE”翻唱现场系列第三作，收录二十一首现场演唱。
+“[I SCREAM LIVE](/zh/albums/kaf/i-scream-live)”翻唱现场系列第三作，收录二十一首现场演唱。
 
 ## 发行与版本
 

@@ -39,6 +39,16 @@ test('contributor roster fetches public summary and entry contribution APIs', as
   assert.match(css, /\.contributor-roster__section/);
 });
 
+test('contribution actions remain visible when the contributor API is unavailable', async () => {
+  const script = await readProjectFile('../src/scripts/contributorRoster.js');
+
+  assert.match(
+    script,
+    /function renderError\(root, state, content, copy\)[\s\S]*content\.innerHTML = renderActions\(root, copy\);[\s\S]*content\.hidden = false;/,
+  );
+  assert.match(script, /catch \{[\s\S]*renderError\(root, state, content, copy\);/);
+});
+
 test('contributor sync script derives safe identities from git history', async () => {
   const script = await readProjectFile('../scripts/sync-contributors.mjs');
   const syncClient = await readProjectFile('../scripts/contributor-sync-client.mjs');
@@ -244,8 +254,14 @@ test('contributor roster exposes localized honor wall copy and contribution rout
   assert.match(component, /retry/);
   assert.match(component, /error/);
   assert.match(component, /data-guide-href/);
+  assert.match(component, /data-syntax-href/);
+  assert.match(component, /data-format-href/);
   assert.match(component, /data-edit-href/);
   assert.match(component, /contribute\/edit/);
+  assert.match(component, /contribute\/format/);
+  assert.match(component, /统一格式指南/);
+  assert.match(component, /統一スタイルガイド/);
+  assert.match(component, /Unified style guide/);
   assert.match(component, /src\/content\/\$\{collection\}/);
 });
 
@@ -337,6 +353,10 @@ test('contributor renderer builds honor wall cards, readable activity, and retry
   assert.match(script, /contributor-roster__breakdown/);
   assert.match(script, /topLimit', '24/);
   assert.match(script, /contributor-roster__actions/);
+  assert.match(script, /dataset\.syntaxHref/);
+  assert.match(script, /dataset\.formatHref/);
+  assert.match(script, /copy\.syntaxAction/);
+  assert.match(script, /copy\.formatAction/);
   assert.match(script, /contributor-roster__locale/);
   assert.match(script, /contributor-roster__activity/);
   assert.match(script, /recentLimit:\s*mode === 'entry' \? 3 : 10/);

@@ -74,7 +74,7 @@ seo:
 
 ## 概述
 
-V.W.P（Virtual Witch Phenomenon）是 KAMITSUBAKI STUDIO 旗下的核心虚拟艺术家团体，由花譜（KAF）、理芽（Rim）、春猿火（HARUSARUHI）、ヰ世界情緒（ISEKAIJOUCHO）、幸祜（KOKO）五位「数字魔女」组成。
+V.W.P（Virtual Witch Phenomenon）是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 旗下的核心虚拟艺术家团体，由[花譜](/zh/artists/vwp/kaf)（KAF）、[理芽](/zh/artists/vwp/rim)（Rim）、[春猿火](/zh/artists/vwp/harusaruhi)（HARUSARUHI）、[ヰ世界情緒](/zh/artists/vwp/isekaijoucho)（ISEKAIJOUCHO）、[幸祜](/zh/artists/vwp/koko)（KOKO）五位「数字魔女」组成。
 
 作为神椿体系中最具代表性的团体活动，V.W.P 不仅是一个音乐组合，更是一个围绕「魔女」意象展开的跨媒体叙事框架。五位成员各自拥有独立的个人活动，但在 V.W.P 名义下，她们共同构建了一个关于命运、观测与魔女觉醒的宏大故事。
 
@@ -82,7 +82,7 @@ V.W.P（Virtual Witch Phenomenon）是 KAMITSUBAKI STUDIO 旗下的核心虚拟�
 
 V.W.P 的歌曲体系分为三种类型：
 
-- **系谱曲**（Lineage Songs）：由カンザキイオリ作词作曲，是 V.W.P 的核心叙事线。五位成员各自的系谱曲定义了她们在魔女世界观中的角色定位。
+- **系谱曲**（Lineage Songs）：由[カンザキイオリ](/zh/artists/creators/kanzaki-iori)作词作曲，是 V.W.P 的核心叙事线。五位成员各自的系谱曲定义了她们在魔女世界观中的角色定位。
 - **派生曲**（Derivative Songs）：由不同成员的两人或三人组合演唱，通过轮换搭配探索成员之间的化学反应。
 - **扩声曲**（Expansion Songs）：引入外部创作者作曲，为 V.W.P 的音乐版图带来新的风格维度。
 
@@ -103,7 +103,7 @@ V.W.P 的歌曲体系分为三种类型：
 
 ## 代表作品与相关条目
 
-- 专辑：「運命」「覚醒」「反転」
+- 专辑：「[運命](/zh/albums/vwp/fate)」「[覚醒](/zh/albums/vwp/awakening)」「[反転](/zh/albums/vwp/inversion)」
 - 单曲：「同盟」「切札」「感情」「秘密」等
 - 系谱曲系列：定义各成员角色的核心叙事歌曲
 - 派生曲系列：成员两两组合的化学反应实验
@@ -133,7 +133,7 @@ V.W.P 拥有独立于成员个人作品的系谱曲体系。系谱曲通常以�
 | 9 | 《定火》 | 以火与持续性为核心意象 |
 | 10 | 《狂々》 | 以狂喜和高密度合唱推进情绪 |
 
-公开资料中记录的主要公演包括 2021 年 3 月 13 日结成披露演、2022 年 4 月 15 日「魔女集会 EP.1」、4 月 16 日 1st ONE-MAN LIVE「現象Ⅰ -Demonstration-」、2024 年 1 月 13 日「魔女集会 EP.2」及 2nd ONE-MAN LIVE「現象Ⅱ -魔女神話-」，以及 2026 年 1 月 10 日 3rd ONE-MAN LIVE「現象Ⅲ」。
+公开资料中记录的主要公演包括 2021年3月13日结成披露演、2022年4月15日「魔女集会 EP.1」、4 月 16 日 1st ONE-MAN LIVE「現象Ⅰ -Demonstration-」、2024年1月13日「魔女集会 EP.2」及 2nd ONE-MAN LIVE「現象Ⅱ -魔女神話-」，以及 2026年1月10日 3rd ONE-MAN LIVE「現象Ⅲ」。
 
 ## 相关企划 / 关联设定
 

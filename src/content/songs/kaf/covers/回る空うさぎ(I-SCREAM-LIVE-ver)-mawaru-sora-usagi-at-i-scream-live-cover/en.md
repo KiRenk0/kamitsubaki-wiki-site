@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 ## Overview
 
-“回る空うさぎ (I SCREAM LIVE ver.)” is track 7 of KAF’s I SCREAM LIVE.
+“回る空うさぎ (I SCREAM LIVE ver.)” is track 7 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE](/en/albums/kaf/i-scream-live).
 
 ## Listen
 

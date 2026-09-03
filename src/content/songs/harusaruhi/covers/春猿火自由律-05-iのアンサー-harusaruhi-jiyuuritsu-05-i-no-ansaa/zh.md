@@ -19,7 +19,7 @@ contentStatus: stub
 
 ## 作品简介
 
-《春猿火自由律#05「iのアンサー」》收录于《CREAM PUFF LIVE》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《[春猿火](/zh/artists/vwp/harusaruhi)自由律#05「iのアンサー」》收录于《[CREAM PUFF LIVE](/zh/albums/harusaruhi/cream-puff-live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 歌词
 

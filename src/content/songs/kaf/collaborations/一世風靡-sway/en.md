@@ -16,7 +16,7 @@ image: /images/songs/kaf/track-1779199800.jpg
 
 ## Overview
 
-“一世風靡” is a KAF release dated 2024-11-27.
+“一世風靡” is a [KAF](/en/artists/vwp/kaf) release dated November 27, 2024.
 
 ## Listen
 

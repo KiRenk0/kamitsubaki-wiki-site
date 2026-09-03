@@ -17,11 +17,11 @@ code: KO7
 image: /images/albums/kaf/yoru-ga-furiyamu-mae-ni.jpg
 ---
 
-## Introduction
+## Overview
 
 KAF's seventh original song, written, composed, and arranged by Iori Kanzaki.
 
-## Preview
+## Listen
 
 {{media-switcher::KAF - Yoru ga Furiyamu Mae ni}}
 @[bilibili](BV1wJ41187KH "KAF - Yoru ga Furiyamu Mae ni")

@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho.jpg
 
 ## 作品概要
 
-「私論理」は花譜の『魔法』に収録された4曲目です。
+「私論理」は[花譜](/ja/artists/vwp/kaf)の『[魔法](/ja/albums/kaf/maho)』に収録された4曲目です。
 
 ## 視聴
 

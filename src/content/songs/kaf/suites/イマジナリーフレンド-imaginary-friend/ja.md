@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1688348617.jpg
 
 ## 作品概要
 
-「イマジナリーフレンド」は花譜の『組曲』に収録された2曲目です。
+「イマジナリーフレンド」は[花譜](/ja/artists/vwp/kaf)の『[組曲](/ja/albums/kaf/suite)』に収録された2曲目です。
 
 ## 視聴
 

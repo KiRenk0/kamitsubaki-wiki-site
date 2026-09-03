@@ -16,7 +16,7 @@ image: /images/songs/kaf/track-1772862797.jpg
 
 ## Overview
 
-“Answer (English Ver.)” is a KAF release dated 2024-10-23.
+“Answer (English Ver.)” is a [KAF](/en/artists/vwp/kaf) release dated October 23, 2024.
 
 ## Listen
 

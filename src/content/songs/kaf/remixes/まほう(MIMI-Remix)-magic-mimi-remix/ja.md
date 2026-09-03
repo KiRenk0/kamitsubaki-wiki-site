@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 ## 作品概要
 
-「まほう(MIMI Remix) [feat. RIM]」は花譜の『魔法γ』に収録された13曲目です。
+「まほう([MIMI](/ja/artists/creators/mimi) Remix) [feat. RIM]」は[花譜](/ja/artists/vwp/kaf)の『[魔法γ](/ja/albums/kaf/maho-gamma)』に収録された13曲目です。
 
 ## 視聴
 

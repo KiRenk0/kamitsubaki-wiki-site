@@ -20,7 +20,7 @@ image: /images/albums/rim/singularity-live.jpg
 
 ## 作品简介
 
-《マボロシのまち (Live at Virtual, 2022)》收录于《Singularity Live》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《マボロシのまち (Live at Virtual, 2022)》收录于《[Singularity Live](/zh/albums/rim/singularity-live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 

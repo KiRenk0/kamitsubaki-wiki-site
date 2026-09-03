@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa.jpg
 
 ## Overview
 
-“俯瞰する事象” is track 4 of KAF’s 寓話.
+“俯瞰する事象” is track 4 of [KAF](/en/artists/vwp/kaf)’s [寓話](/en/albums/kaf/guwa).
 
 ## Listen
 

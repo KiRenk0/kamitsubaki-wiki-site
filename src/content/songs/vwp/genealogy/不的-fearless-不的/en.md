@@ -24,7 +24,7 @@ image: /images/songs/vwp/single-1696880421.jpg
 
 ## Overview
 
-不的 (feat. ヰ世界情緒 & V.W.P) appears on 不的 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+不的 (feat. [ヰ世界情緒](/en/artists/vwp/isekaijoucho) & [V.W.P](/en/artists/vwp/vwp)) appears on 不的 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

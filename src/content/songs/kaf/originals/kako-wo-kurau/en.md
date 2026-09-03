@@ -17,11 +17,11 @@ code: KO6
 image: /images/albums/kaf/kansoku.jpg
 ---
 
-## Introduction
+## Overview
 
 KAF's sixth original song, written, composed, and arranged by Iori Kanzaki.
 
-## Preview
+## Listen
 
 {{media-switcher::KAF - Kako wo Kurau}}
 @[bilibili](BV1wJ41187Kd "KAF - Kako wo Kurau")

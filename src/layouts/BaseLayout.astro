@@ -1,10 +1,17 @@
 ---
 import { getCollection } from 'astro:content';
 import AiChatWidget from '../components/AiChatWidget.astro';
+import LiveEventsWidget from '../components/LiveEventsWidget.astro';
 import SiteSearch from '../components/SiteSearch.astro';
 import SiteIntro from '../components/SiteIntro.astro';
 import SocialContactWidget from '../components/SocialContactWidget.astro';
-import { getLocalizedSiteName } from '../lib/i18n.mjs';
+import {
+  getLanguageTag,
+  getLocaleFontStylesheet,
+  getLocalizedSiteName,
+  resolveLocaleCopy,
+} from '../lib/i18n.mjs';
+import { getLocalizedSite } from '../lib/homeData.mjs';
 import '../styles/global.css';
 import '../styles/mediaSwitcher.css';
 
@@ -34,13 +41,18 @@ const {
 };
 
 const localizedSiteName = getLocalizedSiteName(lang);
+const languageTag = getLanguageTag(lang);
 const siteOrigin = (import.meta.env.PUBLIC_SITE_URL || Astro.site?.origin || 'https://kamitsubaki.wiki').replace(/\/$/, '');
 const requestedPageTitle = metadata.title || title;
 const isLocalizedHome = new RegExp(`^/${lang}/?$`).test(Astro.url.pathname);
 const pageTitle = isLocalizedHome
   ? localizedSiteName
   : requestedPageTitle.replace(/Kamitsubaki Studio Fan Wiki$/i, localizedSiteName);
-const pageDescription = metadata.description || 'KAMITSUBAKI STUDIO 非官方粉丝百科。';
+const pageDescription = metadata.description || resolveLocaleCopy({
+  zh: 'KAMITSUBAKI STUDIO 非官方粉丝百科。',
+  ja: 'KAMITSUBAKI STUDIO 非公式ファン百科。',
+  en: 'An unofficial KAMITSUBAKI STUDIO fan encyclopedia.',
+}, lang);
 const pageType = metadata.type || 'website';
 const canonicalPath = metadata.canonicalPath || Astro.url.pathname;
 const canonicalUrl = siteOrigin ? `${siteOrigin}${canonicalPath}` : canonicalPath;
@@ -48,19 +60,15 @@ const pageImage = metadata.image;
 const pageImageUrl = pageImage && siteOrigin && pageImage.startsWith('/') ? `${siteOrigin}${pageImage}` : pageImage;
 const robots = metadata.noindex ? 'noindex, nofollow' : 'index, follow';
 const siteEntries = await getCollection('site');
-const defaultSiteEntry = siteEntries.find((entry) => entry.data.locale === 'zh');
-const siteEntry = siteEntries.find((entry) => entry.data.locale === lang) ?? defaultSiteEntry;
-const aiChatCopy = siteEntry?.data.aiChat;
-const socialContactCopy = siteEntry?.data.socialContact;
-const fontStylesheet = {
-  zh: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=optional',
-  ja: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;600;700&family=Shippori+Mincho:wght@400;500;600;700&display=optional',
-  en: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Shippori+Mincho:wght@400;500;600;700&display=optional',
-}[lang] ?? 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=optional';
+const siteContent = getLocalizedSite(siteEntries, lang);
+const aiChatCopy = siteContent?.aiChat;
+const socialContactCopy = siteContent?.socialContact;
+const liveEventsCopy = siteContent?.liveEvents;
+const fontStylesheet = getLocaleFontStylesheet(lang);
 ---
 
 <!doctype html>
-<html lang={lang} class="scroll-smooth">
+<html lang={languageTag} class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <script is:inline define:vars={{ isLocalizedHome }}>
@@ -108,7 +116,7 @@ const fontStylesheet = {
     {metadata.keywords?.length && <meta name="keywords" content={metadata.keywords.join(', ')} />}
     <link rel="canonical" href={canonicalUrl} />
     {alternates.map((alternate) => (
-      <link rel="alternate" hreflang={alternate.locale} href={alternate.href} />
+      <link rel="alternate" hreflang={getLanguageTag(alternate.locale)} href={alternate.href} />
     ))}
     <link rel="alternate" hreflang="x-default" href="/zh/" />
     {isLocalizedHome && (
@@ -149,7 +157,8 @@ const fontStylesheet = {
 
     <slot />
     <SiteSearch lang={lang} />
-    {socialContactCopy && <SocialContactWidget copy={socialContactCopy} />}
+    {socialContactCopy && <SocialContactWidget lang={lang} copy={socialContactCopy} />}
+    {isLocalizedHome && liveEventsCopy && <LiveEventsWidget lang={lang} copy={liveEventsCopy} />}
     {aiChatCopy && <AiChatWidget lang={lang} copy={aiChatCopy} />}
 
     <script>

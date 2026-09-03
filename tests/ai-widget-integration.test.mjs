@@ -18,6 +18,9 @@ test('AI chat copy lives in localized site content', async () => {
     assert.equal(typeof content.aiChat.challengeFallback, 'string');
     assert.equal(typeof content.aiChat.streamErrorFallback, 'string');
     assert.equal(typeof content.aiChat.keyboardHint, 'string');
+    assert.equal(typeof content.aiChat.settingsLabel, 'string');
+    assert.equal(typeof content.aiChat.threadActionsLabel, 'string');
+    assert.equal(typeof content.aiChat.cancelLabel, 'string');
     assert.equal(typeof content.aiChat.loginRequiredFallback, 'string');
     assert.equal(content.aiChat.thinkingPhrases.length >= 1, true);
     assert.equal(typeof content.aiChat.historyLabel, 'string');
@@ -29,7 +32,8 @@ test('AI chat widget receives copy from BaseLayout content lookup', async () => 
   const layout = await readProjectFile('../src/layouts/BaseLayout.astro');
 
   assert.match(layout, /getCollection\('site'\)/);
-  assert.match(layout, /data\.aiChat/);
+  assert.match(layout, /getLocalizedSite\(siteEntries,\s*lang\)/);
+  assert.match(layout, /siteContent\?\.aiChat/);
   assert.match(layout, /<AiChatWidget lang=\{lang\} copy=\{aiChatCopy\}/);
 });
 
@@ -39,10 +43,12 @@ test('AI chat keeps the production Worker fallback when Pages build variables ar
   assert.match(component, /PUBLIC_AI_OBSERVER_API_BASE\s*\|\|\s*'https:\/\/api\.kamitsubaki\.wiki'/);
 });
 
-test('AI chat bootstrap sends the active page locale for localized IP greetings', async () => {
+test('AI chat bootstrap sends the exact response locale for localized greetings', async () => {
   const script = await readProjectFile('../src/scripts/aiChatWidget.js');
 
-  assert.match(script, /searchParams\.set\('locale',\s*root\.dataset\.locale/);
+  assert.match(script, /buildAiLocaleRequest\(root\.dataset\.locale/);
+  assert.match(script, /searchParams\.set\('locale',\s*localeRequest\.locale/);
+  assert.match(script, /searchParams\.set\('languageTag',\s*localeRequest\.languageTag/);
   assert.match(script, /fetch\(bootstrapUrl/);
 });
 
@@ -55,6 +61,8 @@ test('AI chat implementation does not hardcode localized chat copy', async () =>
   assert.equal(script.includes('观测回线暂时不稳定'), false);
   assert.equal(script.includes('观测频率过高'), false);
   assert.equal(script.includes('The observation line is offline'), false);
+  assert.equal(component.includes('[CANCEL]'), false);
+  assert.equal(script.includes('[CANCEL]'), false);
 });
 
 test('AI chat widget exposes interaction hooks and stream parser integration', async () => {
@@ -147,9 +155,8 @@ test('AI chat widget keeps its launcher docked while supporting settings, histor
   assert.match(script, /loadThreadDetail/);
   assert.match(script, /data\.conversations/);
   assert.match(script, /collectPageContext/);
-  assert.match(script, /pageContext: collectPageContext\(root\)/);
-  assert.match(script, /target\.searchParams\.set\('sourcePage'/);
-  assert.match(script, /target\.searchParams\.set\('sourceTitle'/);
+  assert.match(script, /\.\.\.collectPageContext\(root\)/);
+  assert.match(script, /responseInstruction:\s*localeRequest\.responseInstruction/);
   assert.match(script, /data-page-context-root/);
   assert.match(script, /!node\.closest\('\[data-ai-chat\]'\)/);
   assert.match(script, /clonedMain\.textContent \|\| ''/);
@@ -168,7 +175,7 @@ test('AI chat widget keeps its launcher docked while supporting settings, histor
   assert.match(script, /katex/);
   assert.match(script, /createStreamingRenderer/);
   assert.match(script, /requestAnimationFrame/);
-  assert.match(script, /textContent = pendingText/);
+  assert.match(script, /textContent = convertAiResponseText\(pendingText, locale\)/);
   assert.match(css, /\.ai-chat__launcher/);
   assert.match(css, /\.ai-chat__launcher\.is-hidden/);
   assert.match(css, /\.ai-chat__settings-popover/);

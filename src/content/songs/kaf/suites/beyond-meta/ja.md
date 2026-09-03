@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1687478190.jpg
 
 ## 作品概要
 
-「Beyond META」は花譜の『組曲』に収録された8曲目です。
+「Beyond META」は[花譜](/ja/artists/vwp/kaf)の『[組曲](/ja/albums/kaf/suite)』に収録された8曲目です。
 
 ## 視聴
 

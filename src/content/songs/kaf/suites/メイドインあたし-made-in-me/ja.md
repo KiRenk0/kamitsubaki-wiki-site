@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1674703343.jpg
 
 ## 作品概要
 
-「メイドインあたし」は花譜の『組曲』に収録された11曲目です。
+「メイドインあたし」は[花譜](/ja/artists/vwp/kaf)の『[組曲](/ja/albums/kaf/suite)』に収録された11曲目です。
 
 ## 視聴
 

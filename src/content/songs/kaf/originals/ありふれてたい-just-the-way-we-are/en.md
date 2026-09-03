@@ -19,7 +19,7 @@ image: /images/songs/kaf/track-1842997817.jpg
 
 ## Overview
 
-“ありふれてたい” is track 13 of KAF’s 深愛.
+“ありふれてたい” is track 13 of [KAF](/en/artists/vwp/kaf)’s [深愛](/en/albums/kaf/shinai).
 
 ## Listen
 

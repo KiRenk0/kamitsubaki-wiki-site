@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 ## Overview
 
-“俯瞰する事象(あばらや Remix)” is track 3 of KAF’s 寓話γ.
+“俯瞰する事象(あばらや Remix)” is track 3 of [KAF](/en/artists/vwp/kaf)’s [寓話γ](/en/albums/kaf/guwa-gamma).
 
 ## Listen
 

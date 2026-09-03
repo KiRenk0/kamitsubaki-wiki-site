@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 
 ## 作品概要
 
-「八月は僕の名前 (I SCREAM LIVE3 ver.)」は花譜の『I SCREAM LIVE3』に収録された16曲目です。
+「八月は僕の名前 (I SCREAM LIVE3 ver.)」は[花譜](/ja/artists/vwp/kaf)の『[I SCREAM LIVE3](/ja/albums/kaf/i-scream-live-3)』に収録された16曲目です。
 
 ## 視聴
 

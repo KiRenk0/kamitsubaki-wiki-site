@@ -19,7 +19,7 @@ image: /images/albums/kaf/gsa.jpg
 
 ## 作品概要
 
-「スイマー」は花譜の『GSA』に収録された2曲目です。
+「スイマー」は[花譜](/ja/artists/vwp/kaf)の『[GSA](/ja/albums/kaf/gsa)』に収録された2曲目です。
 
 ## 視聴
 

@@ -68,7 +68,7 @@ seo:
 
 ## 概要
 
-狐子（COKO）は、KAMITSUBAKI STUDIOが展開する「音楽的同位体」シリーズの第4弾としてリリースされた音声合成ソフトウェアです。バーチャルシンガー幸祜（KOKO）の歌声データをベースに、AI技術を用いて本人の圧倒的な声量とキレのある高音域を再現しています。
+狐子（COKO）は、[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio)が展開する「[音楽的同位体](/ja/artists/solo/musical-isotope)」シリーズの第4弾としてリリースされた音声合成ソフトウェアです。バーチャルシンガー[幸祜](/ja/artists/vwp/koko)（KOKO）の歌声データをベースに、AI技術を用いて本人の圧倒的な声量とキレのある高音域を再現しています。
 
 CeVIO AIプラットフォーム上で動作し、日本語の「狐子（ここ）」という名前は、幸祜の読みである「KOKO」と同じ響きを持たせる形でネーミングされました。
 

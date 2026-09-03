@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 ## Overview
 
-“帰り路(100回嘔吐 Remix)” is track 12 of KAF’s 魔法γ.
+“帰り路(100回嘔吐 Remix)” is track 12 of [KAF](/en/artists/vwp/kaf)’s [魔法γ](/en/albums/kaf/maho-gamma).
 
 ## Listen
 

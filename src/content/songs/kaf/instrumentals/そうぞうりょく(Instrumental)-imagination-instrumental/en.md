@@ -18,7 +18,7 @@ image: /images/albums/kaf/kyoso.jpg
 
 ## Overview
 
-“そうぞうりょく(Instrumental)” is track 1 of KAF’s 狂想.
+“そうぞうりょく(Instrumental)” is track 1 of [KAF](/en/artists/vwp/kaf)’s [狂想](/en/albums/kaf/kyoso).
 
 ## Listen
 

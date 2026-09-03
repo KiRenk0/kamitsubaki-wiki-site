@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 ## Overview
 
-“五月雨 (I SCREAM LIVE ver.)” is track 15 of KAF’s I SCREAM LIVE.
+“五月雨 (I SCREAM LIVE ver.)” is track 15 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE](/en/albums/kaf/i-scream-live).
 
 ## Listen
 

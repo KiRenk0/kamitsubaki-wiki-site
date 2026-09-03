@@ -3,7 +3,7 @@ import { defineCollection } from 'astro:content';
 import { z } from 'astro/zod';
 import { metadataOnlyGlob } from './lib/metadataOnlyGlob.mjs';
 
-const locale = z.enum(['zh', 'ja', 'en']);
+const locale = z.enum(['zh', 'zh-tw', 'zh-hk', 'ja', 'en']);
 const contentStatus = z.enum(['stub', 'published']).default('published');
 const dateString = z.string().regex(
   /^\d{4}(?:-\d{2}(?:-\d{2})?)?$/,
@@ -181,12 +181,51 @@ const site = defineCollection({
         ),
       })
       .optional(),
+    liveEvents: z.object({
+      enabled: z.boolean().optional(),
+      eyebrow: z.string(),
+      title: z.string(),
+      buttonLabel: z.string(),
+      closeLabel: z.string(),
+      todayLabel: z.string(),
+      loading: z.string(),
+      fallback: z.string(),
+      cachedFallback: z.string(),
+      emptyToday: z.string(),
+      updatedLabel: z.string(),
+      cachedUpdatedLabel: z.string(),
+      localTimeLabel: z.string(),
+      jstTimeLabel: z.string(),
+      viewCalendar: z.string(),
+      detailsLabel: z.string(),
+      allDayLabel: z.string(),
+      statusLive: z.string(),
+      statusUpcoming: z.string(),
+      statusEnded: z.string(),
+      statusCancelled: z.string(),
+      pageTitle: z.string(),
+      pageDescription: z.string(),
+      calendarEyebrow: z.string(),
+      calendarTitle: z.string(),
+      calendarIntro: z.string(),
+      previousMonthLabel: z.string(),
+      nextMonthLabel: z.string(),
+      todayButtonLabel: z.string(),
+      selectDateLabel: z.string(),
+      emptyDay: z.string(),
+      eventCountLabel: z.string(),
+      backHomeLabel: z.string(),
+      weekdays: z.array(z.string()).length(7),
+    }),
     aiChat: z.object({
       title: z.string(),
       status: z.string(),
       buttonLabel: z.string(),
       closeLabel: z.string(),
       minimizeLabel: z.string(),
+      settingsLabel: z.string(),
+      threadActionsLabel: z.string(),
+      cancelLabel: z.string(),
       inputLabel: z.string(),
       inputPlaceholder: z.string(),
       sendLabel: z.string(),
@@ -225,7 +264,7 @@ const site = defineCollection({
 });
 
 const artists = defineCollection({
-  loader: metadataOnlyGlob({ pattern: '**/{zh,ja,en}.md', base: './src/content/artists', retainBody: false }),
+  loader: metadataOnlyGlob({ pattern: '**/{zh,zh-tw,zh-hk,ja,en}.md', base: './src/content/artists', retainBody: false }),
   schema: z.object({
     locale,
     translationKey: z.string(),
@@ -270,7 +309,7 @@ const artists = defineCollection({
 });
 
 const projects = defineCollection({
-  loader: metadataOnlyGlob({ pattern: '**/{zh,ja,en}.md', base: './src/content/projects', retainBody: false }),
+  loader: metadataOnlyGlob({ pattern: '**/{zh,zh-tw,zh-hk,ja,en}.md', base: './src/content/projects', retainBody: false }),
   schema: z.object({
     locale,
     translationKey: z.string(),
@@ -284,7 +323,7 @@ const projects = defineCollection({
 });
 
 const logs = defineCollection({
-  loader: metadataOnlyGlob({ pattern: '**/{zh,ja,en}.md', base: './src/content/logs', retainBody: false }),
+  loader: metadataOnlyGlob({ pattern: '**/{zh,zh-tw,zh-hk,ja,en}.md', base: './src/content/logs', retainBody: false }),
   schema: z.object({
     locale,
     translationKey: z.string(),
@@ -345,12 +384,12 @@ const songSchema = workBaseSchema.extend({
 });
 
 const songs = defineCollection({
-  loader: metadataOnlyGlob({ pattern: '**/{zh,ja,en}.md', base: './src/content/songs', retainBody: false }),
+  loader: metadataOnlyGlob({ pattern: '**/{zh,zh-tw,zh-hk,ja,en}.md', base: './src/content/songs', retainBody: false }),
   schema: songSchema,
 });
 
 const albums = defineCollection({
-  loader: metadataOnlyGlob({ pattern: '**/{zh,ja,en}.md', base: './src/content/albums', retainBody: false }),
+  loader: metadataOnlyGlob({ pattern: '**/{zh,zh-tw,zh-hk,ja,en}.md', base: './src/content/albums', retainBody: false }),
   schema: workBaseSchema.extend({
     romanizedTitle: z.string().optional(),
     type: z.string().optional(),
@@ -383,7 +422,7 @@ const albums = defineCollection({
 });
 
 const announcements = defineCollection({
-  loader: metadataOnlyGlob({ pattern: '**/{zh,ja,en}.md', base: './src/content/announcements', retainBody: false }),
+  loader: metadataOnlyGlob({ pattern: '**/{zh,zh-tw,zh-hk,ja,en}.md', base: './src/content/announcements', retainBody: false }),
   schema: z.object({
     locale,
     translationKey: z.string(),
@@ -399,7 +438,7 @@ const announcements = defineCollection({
 
 const syntaxGuide = defineCollection({
   loader: metadataOnlyGlob({
-    pattern: ['zh.md', 'ja.md', 'en.md'],
+    pattern: ['zh.md', 'zh-tw.md', 'zh-hk.md', 'ja.md', 'en.md'],
     base: new URL('./content/contribute/syntax-guide/', import.meta.url),
     retainBody: false,
   }),
@@ -413,9 +452,25 @@ const syntaxGuide = defineCollection({
   }),
 });
 
+const formatGuide = defineCollection({
+  loader: metadataOnlyGlob({
+    pattern: ['zh.md', 'zh-tw.md', 'zh-hk.md', 'ja.md', 'en.md'],
+    base: new URL('./content/contribute/format-guide/', import.meta.url),
+    retainBody: false,
+  }),
+  schema: z.object({
+    locale,
+    translationKey: z.literal('format-guide'),
+    title: z.string(),
+    description: z.string().optional(),
+    license: contentLicense.optional(),
+    seo,
+  }),
+});
+
 const editGuide = defineCollection({
   loader: metadataOnlyGlob({
-    pattern: '{zh,ja,en}.md',
+    pattern: '{zh,zh-tw,zh-hk,ja,en}.md',
     base: './src/content/contribute/edit-guide',
     retainBody: false,
   }),
@@ -504,4 +559,5 @@ export const collections = {
   songs,
   albums,
   syntaxGuide,
+  formatGuide,
 };

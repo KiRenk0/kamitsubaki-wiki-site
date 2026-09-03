@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso.jpg
 
 ## Overview
 
-“狂感覚” is track 13 of KAF’s 狂想.
+“狂感覚” is track 13 of [KAF](/en/artists/vwp/kaf)’s [狂想](/en/albums/kaf/kyoso).
 
 ## Listen
 

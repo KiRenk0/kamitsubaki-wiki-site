@@ -19,7 +19,7 @@ image: /images/albums/kaf/yoru-ga-furiyamu-mae-ni.jpg
 
 ## 作品简介
 
-《夜が降り止む前に(大沼パセリ Remix)》是花譜收录于《夜が降り止む前に》的第 3 轨。
+《[夜が降り止む前に](/zh/albums/kaf/yoru-ga-furiyamu-mae-ni)(大沼パセリ Remix)》是[花譜](/zh/artists/vwp/kaf)收录于《夜が降り止む前に》的第 3 轨。
 
 ## 试听
 

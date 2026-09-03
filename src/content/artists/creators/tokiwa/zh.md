@@ -49,7 +49,7 @@ seo:
 
 ## 概述
 
-tokiwa 是隶属于 KAMITSUBAKI STUDIO CREATOR FARM 的音乐人兼 Vocaloid 制作人。他一人包揽作词、作曲、编曲、插画及视频制作，是一位极为少见的全流程自制型创作者。
+tokiwa 是隶属于 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) CREATOR FARM 的音乐人兼 Vocaloid 制作人。他一人包揽作词、作曲、编曲、插画及视频制作，是一位极为少见的全流程自制型创作者。
 
 他的音乐风格跨越 EDM、R&B、摇滚等多种流派，以令人印象深刻的旋律和富有情感张力的歌词见长。由于连视觉层面也由本人亲自制作，每首作品都呈现出高度统一的世界观。在神椿创作者生态中，tokiwa 以全能型创作者的定位独树一帜。
 

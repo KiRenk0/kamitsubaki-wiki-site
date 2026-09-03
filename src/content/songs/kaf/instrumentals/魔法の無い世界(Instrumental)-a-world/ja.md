@@ -18,7 +18,7 @@ image: /images/albums/kaf/maho.jpg
 
 ## 作品概要
 
-「魔法の無い世界(Instrumental)」は花譜の『魔法』に収録された1曲目です。
+「魔法の無い世界(Instrumental)」は[花譜](/ja/artists/vwp/kaf)の『[魔法](/ja/albums/kaf/maho)』に収録された1曲目です。
 
 ## 視聴
 

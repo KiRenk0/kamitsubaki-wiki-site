@@ -18,7 +18,7 @@ image: /images/albums/kaf/maho.jpg
 
 ## Overview
 
-“魔法の無い世界(Instrumental)” is track 1 of KAF’s 魔法.
+“魔法の無い世界(Instrumental)” is track 1 of [KAF](/en/artists/vwp/kaf)’s [魔法](/en/albums/kaf/maho).
 
 ## Listen
 

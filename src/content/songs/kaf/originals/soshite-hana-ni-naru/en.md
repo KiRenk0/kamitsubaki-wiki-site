@@ -17,11 +17,11 @@ code: KO8
 image: /images/albums/kaf/kansoku.jpg
 ---
 
-## Introduction
+## Overview
 
 KAF's eighth original song, written, composed, and arranged by Iori Kanzaki.
 
-## Preview
+## Listen
 
 {{media-switcher::KAF - Soshite Hana ni Naru}}
 @[bilibili](BV1AJ41187Qi "KAF - Soshite Hana ni Naru")

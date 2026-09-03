@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1678454359.jpg
 
 ## 作品简介
 
-《秘密の言葉》是花譜收录于《組曲》的第 12 轨。
+《秘密の言葉》是[花譜](/zh/artists/vwp/kaf)收录于《[組曲](/zh/albums/kaf/suite)》的第 12 轨。
 
 ## 试听
 

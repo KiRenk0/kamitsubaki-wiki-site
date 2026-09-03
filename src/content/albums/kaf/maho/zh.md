@@ -103,11 +103,11 @@ tracks:
 
 这是花谱的第二张专辑。自2018年10月开始活动，在迎来出道2周年之际，花谱的全新作品正式诞生。
 
-专辑收录了全15首歌曲，所有词曲均由カンザキイオリ（神崎イオリ）包办。曲目包括：TV动画《黑色五叶草》ED主题曲《Answer》、Netflix原创动画《日本沉没2020》大结局主题曲《景色》、超沉浸式能量饮料『ZONe』IMMERSIVE SONG PROJECT合作曲《危ノーマル》、花谱与ドコモ（docomo）联手打造的『HAYABUSA EXPERIENCE by 3.5D × docomo ONLINE EXHIBITION』主题曲《戸惑いテレパシー》，以及10月10日在第二场个人专场演唱会「不可解弐Q1」上首次披露的多首新曲。
+专辑收录了全15首歌曲，所有词曲均由[カンザキイオリ](/zh/artists/creators/kanzaki-iori)（神崎イオリ）包办。曲目包括：TV动画《黑色五叶草》ED主题曲《Answer》、Netflix原创动画《日本沉没2020》大结局主题曲《[景色](/zh/songs/kaf/originals/景色-landscape)》、超沉浸式能量饮料『ZONe』IMMERSIVE SONG PROJECT合作曲《[危ノーマル](/zh/songs/kaf/originals/危ノーマル-abnormal)》、[花谱](/zh/artists/vwp/kaf)与ドコモ（docomo）联手打造的『HAYABUSA EXPERIENCE by 3.5D × docomo ONLINE EXHIBITION』主题曲《[戸惑いテレパシー](/zh/songs/kaf/originals/戸惑いテレパシー-confused-telepathy)》，以及10月10日在第二场个人专场演唱会「不可解弐Q1」上首次披露的多首新曲。
 
-封面插画方面，「魔法α」版由大家熟悉的 PALOW. 绘制，「魔法β」版则由漫画家 宇佐崎しろ 全新绘制。
+封面插画方面，「魔法α」版由大家熟悉的 [PALOW.](/zh/artists/creators/palow) 绘制，「魔法β」版则由漫画家 宇佐崎しろ 全新绘制。
 
-除了CD专辑《魔法》外，还推出了包含写真集《透明2》（36页）、音声剧《御伽噺 -第三幕-》（Poetry CD）、亚克力钥匙扣（PALOW. Ver.）、贴纸（PALOW. Ver.）、集换式卡牌套装α（3张）、橡胶手环α，以及专辑《魔法》寄语（由花谱、カンザキイオリ、PIEDPIPER撰写）的特别套装。
+除了CD专辑《魔法》外，还推出了包含写真集《透明2》（36页）、音声剧《御伽噺 -第三幕-》（Poetry CD）、亚克力钥匙扣（[PALOW.](/zh/artists/creators/palow) Ver.）、贴纸（PALOW. Ver.）、集换式卡牌套装α（3张）、橡胶手环α，以及专辑《魔法》寄语（由[花谱](/zh/artists/vwp/kaf)、[カンザキイオリ](/zh/artists/creators/kanzaki-iori)、[PIEDPIPER](/zh/artists/creators/piedpiper)撰写）的特别套装。
 
 【商品基本信息】  
 定价：5,000日元（含税）  

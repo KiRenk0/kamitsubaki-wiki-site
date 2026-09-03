@@ -5,7 +5,7 @@ import SiteFooter from '../../../../components/SiteFooter.astro';
 import SiteNav from '../../../../components/SiteNav.astro';
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import { getLocalizedEntries, getLocalizedSite } from '../../../../lib/homeData.mjs';
-import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../../lib/i18n.mjs';
+import { buildLocaleLinks, defaultLocale, resolveLocaleCopy, supportedLocales } from '../../../../lib/i18n.mjs';
 import { buildArtistSongCatalog } from '../../../../lib/musicCatalog.mjs';
 
 export async function getStaticPaths() {
@@ -27,7 +27,7 @@ export async function getStaticPaths() {
 
 const { locale, artist } = Astro.params;
 const { group } = Astro.props;
-const localeCode = locale as 'zh' | 'ja' | 'en';
+const localeCode = locale as 'zh' | 'zh-tw' | 'zh-hk' | 'ja' | 'en';
 const artistName = group.artist;
 type SongCategory = {
   slug: string;
@@ -44,7 +44,7 @@ const homeContent = getLocalizedSite(siteEntries, localeCode, defaultLocale);
 const currentPath = `/songs/artists/${artist}`;
 const localeLinks = buildLocaleLinks(homeContent, localeCode, currentPath);
 const alternates = supportedLocales.map((code) => ({ locale: code, href: `/${code}${currentPath}` }));
-const copy = {
+const copy = resolveLocaleCopy({
   zh: {
     back: '全部艺人', songs: '首歌曲', categories: '个分类', catalog: '作品分类', album: '收录专辑',
     released: '发布于', artistEntry: '查看艺人条目', browse: '按分类浏览', uncategorized: '其他歌曲',
@@ -57,7 +57,7 @@ const copy = {
     back: 'All artists', songs: 'songs', categories: 'categories', catalog: 'Catalog', album: 'Album',
     released: 'Released', artistEntry: 'View artist entry', browse: 'Browse by category', uncategorized: 'Other songs',
   },
-}[localeCode];
+}, localeCode);
 const accentColor = group.theme?.accentColor ?? '#d9dbe8';
 const pageStyle = `--catalog-accent:${accentColor};--catalog-surface:${group.theme?.surfaceColor ?? '#101117'}`;
 ---

@@ -57,9 +57,9 @@ seo:
 2021年7月7日に CeVIO AI 版が発売。ツミキによる《フォニイ》をはじめ、数々のメガヒット曲を生み出し、ボカロシーンを代表する音声ライブラリとなった。
 
 <div class="wiki-fact-grid">
-  <div class="wiki-fact-card"><p class="wiki-fact-card__label">VOICE PROVIDER</p><p class="wiki-fact-card__value">花譜 / KAF</p></div>
+  <div class="wiki-fact-card"><p class="wiki-fact-card__label">VOICE PROVIDER</p><p class="wiki-fact-card__value">[花譜](/ja/artists/vwp/kaf) / KAF</p></div>
   <div class="wiki-fact-card"><p class="wiki-fact-card__label">SINGING ENGINE</p><p class="wiki-fact-card__value">CeVIO AI、のちに Synthesizer V AI も展開</p></div>
-  <div class="wiki-fact-card"><p class="wiki-fact-card__label">CHARACTER DESIGN</p><p class="wiki-fact-card__value">PALOW.</p></div>
+  <div class="wiki-fact-card"><p class="wiki-fact-card__label">CHARACTER DESIGN</p><p class="wiki-fact-card__value">[PALOW.](/ja/artists/creators/palow)</p></div>
   <div class="wiki-fact-card"><p class="wiki-fact-card__label">RELEASE</p><p class="wiki-fact-card__value">2021年7月7日</p></div>
 </div>
 
@@ -82,14 +82,14 @@ PALOW.による白と黄色を軸にしたデザイン、環状の瞳、フー�
 
 | 日付 | 楽曲 | クリエイター |
 | --- | --- | --- |
-| 2021-01-09 | 《ホログラム》 | 一二三 |
-| 2021-02-20 | 《キュートなカノジョ》 | syudou |
-| 2021-03-07 | 《アイスクリーム》 | Guiano |
-| 2021-04-10 | 《レトロポリス》 | R Sound Design |
-| 2021-05-01 | 《花となれ》 | 雄之助 |
-| 2021-05-08 | 《水面下》 | 大沼パセリ |
-| 2021-06-05 | 《フォニイ》 | ツミキ |
-| 2021-07-17 | 《キャットラビング》 | 香椎モイミ |
+| 2021年1月9日 | 《ホログラム》 | 一二三 |
+| 2021年2月20日 | 《キュートなカノジョ》 | syudou |
+| 2021年3月7日 | 《アイスクリーム》 | [Guiano](/ja/artists/creators/guiano) |
+| 2021年4月10日 | 《レトロポリス》 | R Sound Design |
+| 2021年5月1日 | 《花となれ》 | 雄之助 |
+| 2021年5月8日 | 《水面下》 | 大沼パセリ |
+| 2021年6月5日 | 《フォニイ》 | ツミキ |
+| 2021年7月17日 | 《[キャットラビング](/ja/songs/kashiimoimi/originals/kyattorabingu)》 | [香椎モイミ](/ja/artists/creators/kashiimoimi) |
 
 {{/details}}
 
@@ -97,4 +97,7 @@ PALOW.による白と黄色を軸にしたデザイン、環状の瞳、フー�
 
 ## プロジェクト内のつながり
 
-可不は音楽的同位体プロジェクトの出発点であり、[星界 / SEKAI](/ja/artists/isotopes/sekai)、[裏命 / RIME](/ja/artists/isotopes/rime)、[狐子 / COKO](/ja/artists/isotopes/coko)、[羽累 / HARU](/ja/artists/isotopes/haru)へと続くクリエイター向けの歌声キャラクター群の基礎になった。
+可不は[音楽的同位体](/ja/artists/solo/musical-isotope)プロジェクトの出発点であり、[星界 / SEKAI](/ja/artists/isotopes/sekai)、[裏命 / RIME](/ja/artists/isotopes/rime)、[狐子 / COKO](/ja/artists/isotopes/coko)、[羽累 / HARU](/ja/artists/isotopes/haru)へと続くクリエイター向けの歌声キャラクター群の基礎になった。
+## 外部リンク
+
+- [音楽的同位体 可不 公式サイト](https://kafu.kamitsubaki.jp/)

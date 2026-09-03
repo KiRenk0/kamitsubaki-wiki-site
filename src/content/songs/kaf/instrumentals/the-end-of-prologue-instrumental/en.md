@@ -19,7 +19,7 @@ contentStatus: stub
 
 ## Overview
 
-“The end of prologue(Instrumental)” is track 15 of KAF’s 観測.
+“The end of prologue(Instrumental)” is track 15 of [KAF](/en/artists/vwp/kaf)’s [観測](/en/albums/kaf/kansoku).
 
 ## Listen
 

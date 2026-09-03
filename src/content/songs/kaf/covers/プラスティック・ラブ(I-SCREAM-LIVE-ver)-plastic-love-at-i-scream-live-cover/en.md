@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 ## Overview
 
-“プラスティック・ラブ (I SCREAM LIVE ver.)” is track 5 on disc 2 of KAF’s I SCREAM LIVE.
+“プラスティック・ラブ (I SCREAM LIVE ver.)” is track 5 on disc 2 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE](/en/albums/kaf/i-scream-live).
 
 ## Listen
 

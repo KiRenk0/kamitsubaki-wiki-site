@@ -17,7 +17,7 @@ image: /images/albums/kaf/shinai.jpg
 
 ## 作品概要
 
-「愛を探しに (Instrumental)」は花譜の『深愛』に収録された1曲目です。
+「愛を探しに (Instrumental)」は[花譜](/ja/artists/vwp/kaf)の『[深愛](/ja/albums/kaf/shinai)』に収録された1曲目です。
 
 ## 視聴
 

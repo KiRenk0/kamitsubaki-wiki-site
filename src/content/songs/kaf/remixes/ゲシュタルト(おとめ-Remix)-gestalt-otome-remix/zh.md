@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 ## 作品简介
 
-《ゲシュタルト(おとめ Remix)》是花譜收录于《寓話γ》的第 9 轨。
+《ゲシュタルト(おとめ Remix)》是[花譜](/zh/artists/vwp/kaf)收录于《[寓話γ](/zh/albums/kaf/guwa-gamma)》的第 9 轨。
 
 ## 试听
 

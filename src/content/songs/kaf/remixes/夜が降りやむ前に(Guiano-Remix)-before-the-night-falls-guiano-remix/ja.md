@@ -19,7 +19,7 @@ image: /images/albums/kaf/yoru-ga-furiyamu-mae-ni.jpg
 
 ## 作品概要
 
-「夜が降りやむ前に(Guiano Remix)」は花譜の『夜が降り止む前に』に収録された2曲目です。
+「夜が降りやむ前に([Guiano](/ja/artists/creators/guiano) Remix)」は[花譜](/ja/artists/vwp/kaf)の『[夜が降り止む前に](/ja/albums/kaf/yoru-ga-furiyamu-mae-ni)』に収録された2曲目です。
 
 ## 視聴
 

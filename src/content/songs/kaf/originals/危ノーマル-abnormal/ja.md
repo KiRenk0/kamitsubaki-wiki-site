@@ -19,7 +19,7 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 
 ## 作品概要
 
-「危ノーマル」は花譜の『魔法』に収録された2曲目です。
+「危ノーマル」は[花譜](/ja/artists/vwp/kaf)の『[魔法](/ja/albums/kaf/maho)』に収録された2曲目です。
 
 ## 視聴
 

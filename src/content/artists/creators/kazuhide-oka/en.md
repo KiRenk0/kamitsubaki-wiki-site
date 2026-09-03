@@ -31,7 +31,7 @@ theme:
       value: "#FFF4E0"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/1a1510/e6a84e?text=Kazuhide+Oka"
+image: "/images/artists/kazuhide-oka.png"
 name: "Kazuhide Oka"
 categoryTitle: "Creators"
 categorySubtitle: "CREATORS / GAME CREATORS"
@@ -45,7 +45,7 @@ seo:
 
 ## Overview
 
-Kazuhide Oka is a story writer and indie game developer who holds a business partnership (業務提携) with KAMITSUBAKI STUDIO. Rather than being a full studio member, he collaborates with Kamitsubaki as an external creative partner, bringing his expertise in narrative-driven game design to joint projects.
+Kazuhide Oka is a story writer and indie game developer who holds a business partnership (業務提携) with [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio). Rather than being a full studio member, he collaborates with Kamitsubaki as an external creative partner, bringing his expertise in narrative-driven game design to joint projects.
 
 His best-known title, "Natsu no Kanata" (ナツノカナタ), earned an "Overwhelmingly Positive" rating on Steam — a rare distinction that speaks to the emotional resonance of his storytelling. The game exemplifies his approach: carefully constructed narratives that prioritize atmosphere and character over spectacle.
 
@@ -53,7 +53,7 @@ His best-known title, "Natsu no Kanata" (ナツノカナタ), earned an "Overwhe
 
 Oka's work bridges the gap between indie game development and the broader creative ecosystem that KAMITSUBAKI STUDIO cultivates. His partnership with the studio allows him to contribute game-oriented storytelling to a roster otherwise dominated by music creators.
 
-He produced "Moonless Moon" for ANMC and released "Girls Maid Pudding" in 2025, demonstrating continued output across different genres and platforms. His focus remains on crafting experiences where narrative and gameplay serve a single emotional purpose.
+He produced "Moonless Moon" for [ANMC](/en/artists/solo/anmc) and released "Girls Maid Pudding" in 2025, demonstrating continued output across different genres and platforms. His focus remains on crafting experiences where narrative and gameplay serve a single emotional purpose.
 
 ## Representative Works
 

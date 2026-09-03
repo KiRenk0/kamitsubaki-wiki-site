@@ -34,7 +34,7 @@ theme:
       value: "#ECE4FF"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/12101a/b48eff?text=Musical+Isotope"
+image: "/images/artists/musical-isotope.jpg"
 name: "Musical Isotope"
 categoryTitle: "Solo Artists / Units"
 categorySubtitle: "SOLO ARTISTS & UNITS"
@@ -49,9 +49,9 @@ seo:
 
 ## Overview
 
-Musical Isotope (音楽的同位体) is an AI vocal synthesis software project born from the voices of KAMITSUBAKI STUDIO's virtual singers. Positioned as a "creative partner," it aims to expand possibilities for creators through user-generated content (UGC).
+Musical Isotope (音楽的同位体) is an AI vocal synthesis software project born from the voices of [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio)'s virtual singers. Positioned as a "creative partner," it aims to expand possibilities for creators through user-generated content (UGC).
 
-Guided by the philosophy that "UGC enriches the world," the project provides creators with new means of expression. Each individual AI voice model (KAFU, SEKAI, etc.) has its own dedicated entry in the wiki.
+Guided by the philosophy that "UGC enriches the world," the project provides creators with new means of expression. Each individual AI voice model ([KAFU](/en/artists/isotopes/kafu), [SEKAI](/en/artists/isotopes/sekai), etc.) has its own dedicated entry in the wiki.
 
 ## Concept and Role
 

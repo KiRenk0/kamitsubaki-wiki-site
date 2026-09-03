@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 ## 作品概要
 
-「おやすみ泣き声、さよなら歌姫 (I SCREAM LIVE ver.)」は花譜の『I SCREAM LIVE』に収録されたDISC 3の8曲目です。
+「おやすみ泣き声、さよなら歌姫 (I SCREAM LIVE ver.)」は[花譜](/ja/artists/vwp/kaf)の『[I SCREAM LIVE](/ja/albums/kaf/i-scream-live)』に収録されたDISC 3の8曲目です。
 
 ## 視聴
 

@@ -21,6 +21,45 @@ test('preserves the documented semantic Wiki HTML allowlist', async () => {
   assert.match(rendered, /<picture><source srcset="\/images\/example\.webp"><img src="\/images\/example\.png" alt="Example"><\/picture>/);
 });
 
+test('materializes internal Markdown links inside safe raw HTML elements', async () => {
+  const rendered = await renderMarkdownFragment(`
+<div class="wiki-fact-card">
+  <p class="wiki-fact-card__label">VOICE PROVIDER</p>
+  <p class="wiki-fact-card__value">[花譜](/zh/artists/vwp/kaf) / KAF</p>
+  <p class="wiki-fact-card__value">[歌姫](/ja/songs/vwp/instrumentals/歌姫(Instrumental)-diva-instrumental)</p>
+</div>
+  `);
+
+  assert.match(rendered, /<a href="\/zh\/artists\/vwp\/kaf">花譜<\/a> \/ KAF/);
+  assert.match(rendered, /<a href="\/ja\/songs\/vwp\/instrumentals\/歌姫\(Instrumental\)-diva-instrumental">歌姫<\/a>/);
+  assert.doesNotMatch(rendered, /\[花譜\]|\[歌姫\]/);
+});
+
+test('keeps unsafe or external Markdown destinations inert inside raw HTML', async () => {
+  const rendered = await renderMarkdownFragment(`
+<div class="wiki-fact-card">
+  <p>[unsafe](javascript:alert(1))</p>
+  <p>[external](https://example.com)</p>
+</div>
+  `);
+
+  assert.doesNotMatch(rendered, /<a\b/);
+  assert.doesNotMatch(rendered, /href=/);
+  assert.match(rendered, /\[unsafe\]\(javascript:alert\(1\)\)/);
+  assert.match(rendered, /\[external\]\(https:\/\/example\.com\)/);
+});
+
+test('renders ordinary article links as native navigable anchors', async () => {
+  const rendered = await renderMarkdownFragment(`
+## 所属艺人
+
+- [心世紀](/zh/artists/girls_revolution_project/sinseiki)
+  `);
+
+  assert.match(rendered, /<li><a href="\/zh\/artists\/girls_revolution_project\/sinseiki">心世紀<\/a><\/li>/);
+  assert.doesNotMatch(rendered, /target="_blank"/);
+});
+
 test('removes executable elements, event handlers, inline styles, and unsafe URLs', async () => {
   const rendered = await renderMarkdownFragment(`
 <script>alert('script')</script>

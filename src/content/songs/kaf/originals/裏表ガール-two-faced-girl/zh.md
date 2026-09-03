@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso.jpg
 
 ## 作品简介
 
-《裏表ガール》是花譜收录于《狂想》的第 12 轨。
+《裏表ガール》是[花譜](/zh/artists/vwp/kaf)收录于《[狂想](/zh/albums/kaf/kyoso)》的第 12 轨。
 
 ## 试听
 

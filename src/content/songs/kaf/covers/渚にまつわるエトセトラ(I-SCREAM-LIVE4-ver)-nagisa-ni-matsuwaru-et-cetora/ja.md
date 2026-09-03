@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 ## 作品概要
 
-「渚にまつわるエトセトラ (I SCREAM LIVE4 ver.)」は花譜の『I SCREAM LIVE4 - Cover Live Album -』に収録された19曲目です。
+「渚にまつわるエトセトラ (I SCREAM LIVE4 ver.)」は[花譜](/ja/artists/vwp/kaf)の『[I SCREAM LIVE4 - Cover Live Album -](/ja/albums/kaf/i-scream-live-4)』に収録された19曲目です。
 
 ## 視聴
 

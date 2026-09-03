@@ -1,0 +1,78 @@
+---
+import { getLanguageTag } from '../lib/i18n.mjs';
+
+type EventsCalendarCopy = {
+  loading: string;
+  fallback: string;
+  updatedLabel: string;
+  detailsLabel: string;
+  allDayLabel: string;
+  statusLive: string;
+  statusUpcoming: string;
+  statusEnded: string;
+  statusCancelled: string;
+  calendarEyebrow: string;
+  calendarTitle: string;
+  calendarIntro: string;
+  previousMonthLabel: string;
+  nextMonthLabel: string;
+  todayButtonLabel: string;
+  selectDateLabel: string;
+  emptyDay: string;
+  eventCountLabel: string;
+  weekdays: string[];
+};
+
+const { lang = 'zh', copy } = Astro.props as { lang?: string; copy: EventsCalendarCopy };
+const languageTag = getLanguageTag(lang);
+const apiBase = import.meta.env.PUBLIC_EVENTS_API_BASE || 'https://kamitsubaki-events-api.apikatsuwiki.workers.dev';
+---
+
+<section
+  class="events-calendar"
+  data-events-calendar
+  data-api-base={apiBase}
+  data-locale={lang}
+  data-language-tag={languageTag}
+  data-copy={JSON.stringify(copy)}
+  lang={languageTag}
+>
+  <header class="events-calendar__header">
+    <div>
+      <p>{copy.calendarEyebrow}</p>
+      <h2>{copy.calendarTitle}</h2>
+    </div>
+    <div class="events-calendar__controls">
+      <button type="button" data-events-calendar-previous aria-label={copy.previousMonthLabel}>←</button>
+      <button type="button" data-events-calendar-today>{copy.todayButtonLabel}</button>
+      <button type="button" data-events-calendar-next aria-label={copy.nextMonthLabel}>→</button>
+    </div>
+  </header>
+
+  <p class="events-calendar__intro">{copy.calendarIntro}</p>
+  <div class="events-calendar__month" data-events-calendar-month aria-live="polite"></div>
+
+  <div class="events-calendar__weekdays" aria-hidden="true">
+    {copy.weekdays.map((weekday) => <span>{weekday}</span>)}
+  </div>
+  <div class="events-calendar__grid" data-events-calendar-grid></div>
+
+  <div class="events-calendar__status" data-events-calendar-status aria-live="polite">{copy.loading}</div>
+
+  <section class="events-calendar__agenda" aria-live="polite">
+    <header>
+      <div>
+        <span>{copy.selectDateLabel}</span>
+        <h3 data-events-calendar-selected-date></h3>
+      </div>
+      <span data-events-calendar-count></span>
+    </header>
+    <div class="events-calendar__agenda-list" data-events-calendar-list></div>
+  </section>
+
+  <footer class="events-calendar__footer" data-events-calendar-updated>{copy.updatedLabel}</footer>
+</section>
+
+<script>
+  import '../scripts/eventsCalendar.js';
+</script>

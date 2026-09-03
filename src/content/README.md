@@ -10,6 +10,8 @@ artists/vwp/kaf/ja.md
 artists/vwp/kaf/en.md
 albums/<category>/<album-id>/zh.md
 contribute/edit-guide/zh.md
+contribute/syntax-guide/zh.md
+contribute/format-guide/zh.md
 logs/2024/2024-06-01-vwp-live/zh.md
 ```
 

@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa.jpg
 
 ## Overview
 
-“ダンダラボッチ” is track 9 of KAF’s 寓話.
+“ダンダラボッチ” is track 9 of [KAF](/en/artists/vwp/kaf)’s [寓話](/en/albums/kaf/guwa).
 
 ## Listen
 

@@ -20,7 +20,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 ## 作品简介
 
-《ヤングアダルト (feat. KOKO)》收录于《CHOCOLATE LIVE2》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《ヤングアダルト (feat. [KOKO](/zh/artists/vwp/koko))》收录于《[CHOCOLATE LIVE2](/zh/albums/rim/chocolate-live-2)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 

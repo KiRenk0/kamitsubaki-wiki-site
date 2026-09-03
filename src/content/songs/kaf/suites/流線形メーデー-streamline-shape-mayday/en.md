@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1689187750.jpg
 
 ## Overview
 
-“流線形メーデー” is track 9 of KAF’s 組曲.
+“流線形メーデー” is track 9 of [KAF](/en/artists/vwp/kaf)’s [組曲](/en/albums/kaf/suite).
 
 ## Listen
 

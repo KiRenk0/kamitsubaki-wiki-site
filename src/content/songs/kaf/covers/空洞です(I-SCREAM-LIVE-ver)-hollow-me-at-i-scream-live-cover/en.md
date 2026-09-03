@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 ## Overview
 
-“空洞です (I SCREAM LIVE ver.)” is track 16 on disc 3 of KAF’s I SCREAM LIVE.
+“空洞です (I SCREAM LIVE ver.)” is track 16 on disc 3 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE](/en/albums/kaf/i-scream-live).
 
 ## Listen
 

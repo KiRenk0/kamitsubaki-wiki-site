@@ -55,7 +55,7 @@ seo:
 
 {{ruby::裏命::りめ::rime}}（中文也常写作“里命”）是 KAMITSUBAKI STUDIO 推出的音乐同位体合成歌声库，声源原型为虚拟歌手 **[理芽 / RIM](/zh/artists/vwp/rim)**。
 
-软件于 2022 年 10 月 25 日发售。继承了理芽透明感、节奏切分与多语言流行的歌唱特质。
+软件于 2022年10月25日发售。继承了[理芽](/zh/artists/vwp/rim)透明感、节奏切分与多语言流行的歌唱特质。
 
 <div class="wiki-fact-grid">
   <div class="wiki-fact-card"><p class="wiki-fact-card__label">VOICE PROVIDER</p><p class="wiki-fact-card__value">理芽 / RIM</p></div>
@@ -72,11 +72,11 @@ seo:
 
 | 时间 | 节点 | 说明 |
 | --- | --- | --- |
-| 2022-04-16 | 首次预告 | 在 V.W.P 1st ONE-MAN LIVE「現象」片尾公布。 |
+| 2022年4月16日 | 首次预告 | 在 V.W.P 1st ONE-MAN LIVE「現象」片尾公布。 |
 | 2022-07 | 预售与先行曲 | 《食虫植物》《甘美な無法》《法螺話》等 Cover 及委约原创曲开始发布。 |
-| 2022-10-25 | 正式发售 | CeVIO AI 音乐同位体 裏命上线，同时公布正式角色视觉。 |
+| 2022年10月25日 | 正式发售 | CeVIO AI 音乐同位体 裏命上线，同时公布正式角色视觉。 |
 | 2023 | 《パラノーマル》 | 39 首原创曲的首张合辑以四个数字配信卷和实体盒装陆续展开。 |
-| 2024-02-26 | TALK EXTENSION | 与 VOICEPEAK 合作的朗读扩展版发售。 |
+| 2024年2月26日 | TALK EXTENSION | 与 VOICEPEAK 合作的朗读扩展版发售。 |
 
 ## 先行曲与《パラノーマル》
 
@@ -84,7 +84,7 @@ seo:
 
 | 类别 | 曲名 | 创作者 / 来源 |
 | --- | --- | --- |
-| Cover | 《食虫植物》 | 花譜原曲 |
+| Cover | 《食虫植物》 | [花譜](/zh/artists/vwp/kaf)原曲 |
 | Cover | 《甘美な無法》 | 理芽原曲 |
 | Cover | 《法螺話》 | 理芽原曲 |
 | 原创 | 《マンダリン》 | R Sound Design |
@@ -100,3 +100,6 @@ seo:
 ## 项目关联
 
 裏命是音乐同位体项目的第三位公开成员，也是 [理芽 / RIM](/zh/artists/vwp/rim) 声线进入合成声创作生态的入口。与其余同位体共同以 V.I.P 名义参与周年虚拟演出及 KAMITSUBAKI FES 舞台。
+## 外部链接
+
+- [音乐同位体 裏命 官方网站](https://rime.kamitsubaki.jp/)

@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso.jpg
 
 ## 作品简介
 
-《世惑い子》是花譜收录于《狂想》的第 6 轨。
+《世惑い子》是[花譜](/zh/artists/vwp/kaf)收录于《[狂想](/zh/albums/kaf/kyoso)》的第 6 轨。
 
 ## 试听
 

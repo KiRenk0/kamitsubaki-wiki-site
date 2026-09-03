@@ -10,8 +10,8 @@ label: "PHENOMENON RECORD"
 catalogNumber: "ANTCD-56439"
 trackCount: 3
 duration: "10:08"
-categoryTitle: "专辑"
-categorySubtitle: ALBUMS
+categoryTitle: "EP"
+categorySubtitle: EPS
 categoryOrder: 1
 itemOrder: 6
 image: /images/albums/kaf/gsa.jpg
@@ -40,7 +40,7 @@ tracks:
 
 ## 作品简介
 
-三曲 EP，标题由《ゲシュタルト》《スイマー》《アポカリプスより》的首字母组成，三曲后来均收录于《寓話》。
+三曲 EP，标题由《[ゲシュタルト](/zh/songs/kaf/originals/ゲシュタルト-gestalt)》《[スイマー](/zh/songs/kaf/originals/スイマー-swimmer)》《[アポカリプスより](/zh/songs/kaf/originals/アポカリプスより-from-apocalypse)》的首字母组成，三曲后来均收录于《[寓話](/zh/albums/kaf/guwa)》。
 
 ## 发行与版本
 

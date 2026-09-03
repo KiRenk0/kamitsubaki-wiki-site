@@ -19,7 +19,7 @@ image: /images/albums/kaf/yoru-ga-furiyamu-mae-ni.jpg
 
 ## Overview
 
-“夜が降りやむ前に(Guiano Remix)” is track 2 of KAF’s 夜が降り止む前に.
+“夜が降りやむ前に([Guiano](/en/artists/creators/guiano) Remix)” is track 2 of [KAF](/en/artists/vwp/kaf)’s [夜が降り止む前に](/en/albums/kaf/yoru-ga-furiyamu-mae-ni).
 
 ## Listen
 

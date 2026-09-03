@@ -105,9 +105,9 @@ This is Kaf's second studio album. Having begun her activities in October 2018, 
 
 The album features a total of 15 tracks, with all lyrics and composition handled entirely by Kanzaki Iori. The tracklist includes the TV anime Black Clover ending theme Answer, the final episode theme song for the Netflix original anime Japan Sinks: 2020 titled Keshiki, the collaboration track Ki no Normal for the ultra-immersive energy drink "ZONe" IMMERSIVE SONG PROJECT, and Tomadoi Telepathy, the theme song for the "HAYABUSA EXPERIENCE by 3.5D × docomo ONLINE EXHIBITION" created in partnership with docomo. It also includes several new songs that made their live debut at her second solo concert, "Fukakai Ni Q1," on October 10th.
 
-For the cover art, the "Mahou α" version features illustrations by the familiar PALOW., while the "Mahou β" version features brand-new illustrations by manga artist Usazaki Shiro.
+For the cover art, the "Mahou α" version features illustrations by the familiar [PALOW.](/en/artists/creators/palow), while the "Mahou β" version features brand-new illustrations by manga artist Usazaki Shiro.
 
-Alongside the CD album Mahou, a special box set is available. It includes the photo book Tomei 2 (36 pages), an audio drama Otogi-banashi -Dai San Maku- (Poetry CD), an acrylic keychain (PALOW. Ver.), stickers (PALOW. Ver.), a trading card set α (3 cards), a rubber wristband α, and messages for the album Mahou (written by Kaf, Kanzaki Iori, and PIEDPIPER).
+Alongside the CD album Mahou, a special box set is available. It includes the photo book Tomei 2 (36 pages), an audio drama Otogi-banashi -Dai San Maku- (Poetry CD), an acrylic keychain ([PALOW.](/en/artists/creators/palow) Ver.), stickers (PALOW. Ver.), a trading card set α (3 cards), a rubber wristband α, and messages for the album Mahou (written by [Kaf](/en/artists/vwp/kaf), [Kanzaki Iori](/en/artists/creators/kanzaki-iori), and [PIEDPIPER](/en/artists/creators/piedpiper)).
 
 [Product Information]  
 Price: 5,000 JPY (tax included)  

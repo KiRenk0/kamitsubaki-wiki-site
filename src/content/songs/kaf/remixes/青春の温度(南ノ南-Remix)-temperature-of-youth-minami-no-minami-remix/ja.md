@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 
 ## 作品概要
 
-「青春の温度(南ノ南 Remix)」は花譜の『狂想γ』に収録された10曲目です。
+「青春の温度(南ノ南 Remix)」は[花譜](/ja/artists/vwp/kaf)の『[狂想γ](/ja/albums/kaf/kyoso-gamma)』に収録された10曲目です。
 
 ## 視聴
 

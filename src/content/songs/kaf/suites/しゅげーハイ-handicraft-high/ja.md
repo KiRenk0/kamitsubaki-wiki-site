@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1694251446.jpg
 
 ## 作品概要
 
-「しゅげーハイ!!!」は花譜の『組曲』に収録された13曲目です。
+「しゅげーハイ!!!」は[花譜](/ja/artists/vwp/kaf)の『[組曲](/ja/albums/kaf/suite)』に収録された13曲目です。
 
 ## 視聴
 

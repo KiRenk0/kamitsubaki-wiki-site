@@ -59,9 +59,9 @@ seo:
 
 ## 概述
 
-CIEL 是 KAMITSUBAKI STUDIO 旗下的虚拟歌手，通过工作室内部选拔项目「神椿市异住定兽课」被发掘出道。她以象征天空的蓝色长发为视觉标志，整体形象围绕「从一直低着头到迈出第一步」这一成长叙事展开。
+CIEL 是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 旗下的虚拟歌手，通过工作室内部选拔项目「神椿市异住定兽课」被发掘出道。她以象征天空的蓝色长发为视觉标志，整体形象围绕「从一直低着头到迈出第一步」这一成长叙事展开。
 
-在个人活动之外，CIEL 于 2026 年初与现实歌手 Sooda 组成了跨次元虚拟音乐组合「空爽 / KUUSOU」，以「清纯与温柔」为主题展开活动。她曾为剧场版动画《映画大好きポンポさん》演唱主题曲，是神椿体系中较具代表性的新生代虚拟歌手之一。
+在个人活动之外，CIEL 于 2026 年初与现实歌手 [Sooda](/zh/artists/creators/sooda) 组成了跨次元虚拟音乐组合「空爽 / [KUUSOU](/zh/artists/solo/kuusou)」，以「清纯与温柔」为主题展开活动。她曾为剧场版动画《映画大好きポンポさん》演唱主题曲，是神椿体系中较具代表性的新生代虚拟歌手之一。
 
 ## 角色与创作定位
 
@@ -77,12 +77,12 @@ CIEL 的核心设定是一个「总是低着头的少女终于抬起头来」的
 - **2024年5月**：举办 1st VIRTUAL LIVE「空想劇-神椿市伍番街-」。
 - **2025年7月**：参加「KAMITSUBAKI FES ’25 / Singularity Live Vol.4」。
 - **2025年12月**：从活动休止中回归，举办个人虚拟迷你 live「再晴」。
-- **2026年1月**：与 Sooda 组成跨次元虚拟音乐组合「空爽 / KUUSOU」，发行出道曲「透明流星ラプソディ」。
+- **2026年1月**：与 [Sooda](/zh/artists/creators/sooda) 组成跨次元虚拟音乐组合「[空爽](/zh/artists/solo/kuusou) / KUUSOU」，发行出道曲「[透明流星ラプソディ](/zh/songs/kuusou/originals/透明流星rapusodei)」。
 
 ## 代表作品与相关条目
 
-- 单曲：「眼裏の懐疑」「窓を開けて」
-- 影像作品：Rim × ヰ世界情緒 TWO-MAN LIVE「Singularity Live」（CIEL 参演）
+- 单曲：「[眼裏の懐疑](/zh/songs/ciel/originals/眼裏no懐疑)」「[窓を開けて](/zh/songs/ciel/originals/窓wo開kete)」
+- 影像作品：[Rim](/zh/artists/vwp/rim) × [ヰ世界情緒](/zh/artists/vwp/isekaijoucho) TWO-MAN LIVE「Singularity Live」（CIEL 参演）
 - 组合出道曲：「透明流星ラプソディ」（空爽名义）
 
 推荐搭配阅读：

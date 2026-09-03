@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1674703343.jpg
 
 ## 作品简介
 
-《メイドインあたし》是花譜收录于《組曲》的第 11 轨。
+《メイドインあたし》是[花譜](/zh/artists/vwp/kaf)收录于《[組曲](/zh/albums/kaf/suite)》的第 11 轨。
 
 ## 试听
 

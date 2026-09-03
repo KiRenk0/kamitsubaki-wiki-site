@@ -17,7 +17,7 @@ image: /images/albums/kaf/love-and-flower.jpg
 
 ## Overview
 
-“ラブしい” is track 1 of KAF’s 愛と花.
+“ラブしい” is track 1 of [KAF](/en/artists/vwp/kaf)’s [愛と花](/en/albums/kaf/love-and-flower).
 
 ## Listen
 

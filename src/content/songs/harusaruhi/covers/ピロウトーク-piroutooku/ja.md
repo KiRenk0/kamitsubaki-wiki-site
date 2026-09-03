@@ -18,7 +18,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 
 ## 作品概要
 
-「ピロウトーク」は『CREAM PUFF LIVE』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「ピロウトーク」は『[CREAM PUFF LIVE](/ja/albums/harusaruhi/cream-puff-live)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 歌詞
 

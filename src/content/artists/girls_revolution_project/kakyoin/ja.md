@@ -7,7 +7,7 @@ categoryOrder: 5
 itemOrder: 2
 statusLabel: STATUS
 status: ACTIVE
-image: https://placehold.co/1200x800/0a0a12/a0a0b0?text=KAKYOIN
+image: "/images/artists/kakyoin.png"
 name: 佳鏡院
 categoryTitle: 少女革命計画
 categorySubtitle: GIRLS REVOLUTION PROJECT
@@ -58,12 +58,12 @@ seo:
 
 ## 紹介
 
-佳鏡院は、2024年8月8日に活動を開始したクロスディメンショナル・ストリーマー（Xtuber）です。KAMITSUBAKI STUDIOの「少女革命計画」プロジェクトのメンバーであり、ユニット「心世紀」に所属しています。
+佳鏡院は、2024年8月8日に活動を開始したクロスディメンショナル・ストリーマー（Xtuber）です。[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio)の「[少女革命計画](/ja/projects/labels/girls-revolution-project)」プロジェクトのメンバーであり、ユニット「[心世紀](/ja/artists/girls_revolution_project/sinseiki)」に所属しています。
 
 ## 活動略歴
 
 - **2024年8月8日**：KAMITSUBAKI FES '24にて正式にデビューを発表し、プロジェクト活動を開始。
-- **2024年10月23日**：初のソロシングル『夢の揺籠』をリリース。
+- **2024年10月23日**：初のソロシングル『[夢の揺籠](/ja/songs/kakyoin/originals/yume-no-yurikago)』をリリース。
 - **2024年12月17日**：YouTubeでの初配信を実施。
 - **2025年7月11日**：KAMITSUBAKI WARS 2025 神椿川崎戦線 少女革命計画 1st LIVE/第一幕『改変』に出演。
 - **2026年2月8日**：心世紀の初のオンラインライブ「Petalstride -鼓動-」に出演。また、2月から3月にかけて同ユニットとして「Sanrio Virtual Festival 2026」のステージに出演。
@@ -78,7 +78,7 @@ seo:
 | 投稿日 | 楽曲名 | 作詞 | 作曲 | 試聴 |
 | :---: | :---: | :---: | :---: | :---: |
 | 2024年10月23日 | 夢の揺籠 | Wiz_nicc | Wiz_nicc | @[youtube](https://www.youtube.com/embed/pP667C1y1zA?si=2kXeZA-ru7ZleSXF) |
-| 2024年12月11日 | 宇宙逃避行 | MIMI | MIMI | @[youtube](https://www.youtube.com/embed/QBObLindkQk?si=BcJCEw1zPln9zAtA) |
+| 2024年12月11日 | [宇宙逃避行](/ja/songs/kakyoin/originals/uchu-touhikou) | [MIMI](/ja/artists/creators/mimi) | MIMI | @[youtube](https://www.youtube.com/embed/QBObLindkQk?si=BcJCEw1zPln9zAtA) |
 | 2025年3月19日 | <ruby>キリガサガリキ<rt>kirigasagariki</rt></ruby> | Purukichi | Purukichi | @[youtube](https://www.youtube.com/embed/O-19NUEyBiU?si=vDQhbNk2Q_tkJwmF) |
 | 2025年11月12日 | 月へゆく | tama | tama | @[youtube](https://www.youtube.com/embed/4Oeflvc57GM?si=Qlkr2WnrvPtmvN8f) |
 
@@ -89,21 +89,28 @@ seo:
 
 | 投稿日 | 楽曲名 | 歌唱 | 作詞 | 作曲 | 試聴 |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 2025年2月12日 | <ruby>シネマティック<rt>Cinematic</rt></ruby> | 佳鏡院<br>氷夏至 | 櫻井健太郎 | 櫻井健太郎 | @[youtube](https://www.youtube.com/embed/J5LONI0DVik?si=eXxF6WYwujSeHhpG) |
+| 2025年2月12日 | <ruby>[シネマティック](/ja/songs/kakyoin/originals/cinematic)<rt>Cinematic</rt></ruby> | 佳鏡院<br>[氷夏至](/ja/artists/girls_revolution_project/hinageshi) | 櫻井健太郎 | 櫻井健太郎 | @[youtube](https://www.youtube.com/embed/J5LONI0DVik?si=eXxF6WYwujSeHhpG) |
 
 #### 心世紀 ユニット曲
 
 | 投稿日 | 楽曲名 | 作詞 | 作曲 | 試聴 |
 | :---: | :---: | :---: | :---: | :---: |
-| 2024-08-09 | <ruby>フェイクナイト・シンデレラ<rt>Fake Night Cinderella</rt></ruby> | 矢野達也 | 矢野達也 | @[youtube](https://www.youtube.com/embed/b3btbgVGuqA?si=h_tMVMMwGh61fJLA) |
-| 2024-09-18 | <ruby>パーフェクション<rt>Perfection</rt></ruby> | 水野あつ | HIDEYA KOJIMA | @[youtube](https://www.youtube.com/embed/qYkxlMfM8L8?si=SSY9PBJ2uOSX4c6r) |
-| 2025-01-22 | Ephemeral | 100回嘔吐 | 100回嘔吐 | @[youtube](https://www.youtube.com/embed/8JRuowZtRBc?si=YZNAPErdlRnMC3Oo) |
-| 2025-02-26 | <ruby>ココロト<rt>Kokoroto</rt></ruby> | とあ | とあ | @[youtube](https://www.youtube.com/embed/fNrKWnVc7bI?si=xX4i9sq7F2fXtELp) |
-| 2025-04-02 | うそ鳴き | ぽん | HIDEYA KOJIMA | @[youtube](https://www.youtube.com/embed/MhblPJMvc4c?si=tV6ky_J36DxNOmQs) |
-| 2025-05-21 | いぜれ僕は溶けて | Purukichi | Purukichi | @[apple-music](https://embed.music.apple.com/cn/song/%E3%81%84%E3%81%9A%E3%82%8C%E5%83%95%E3%81%AF%E6%BA%B6%E3%81%91%E3%81%A6-feat-purukichi/1842289624) |
-| 2025-05-21 | <ruby>ミリオン・コンプレクシティ<rt>Million Complexity</rt></ruby> | 矢野達也 | 矢野達也 | @[youtube](https://www.youtube.com/embed/POfCdtX4caM?si=jXOKBQgoUxpTeVlQ) |
-| 2025-10-29 | <ruby>ロストオービット<rt>Lost Orbit</rt></ruby> | shikisai | shikisai | @[apple-music](https://embed.music.apple.com/cn/song/%E3%83%AD%E3%82%B9%E3%83%88%E3%82%AA%E3%83%BC%E3%83%93%E3%83%83%E3%83%88-feat-shikisai/1842289621) |
-| 2025-10-29 | <ruby>コントラスト<rt>Contrast</rt></ruby> | 矢野達也 | 矢野達也 | @[apple-music](https://embed.music.apple.com/cn/song/%E3%82%B3%E3%83%B3%E3%83%88%E3%83%A9%E3%82%B9%E3%83%88-feat-%E7%9F%A2%E9%87%8E%E9%81%94%E4%B9%9F/1842289625) |
-| 2025-10-29 | FantastiQ | ぽん | HIDEYA KOJIMA | @[apple-music](https://embed.music.apple.com/cn/song/fantastiq-feat-hideya-kojima/1842289627) |
-| 2025-10-29 | 改変 -心- | たなか | たなか、LLLL | @[apple-music](https://embed.music.apple.com/cn/song/%E6%94%B9%E5%A4%89-%E5%BF%83-feat-%E3%81%9F%E3%81%AA%E3%81%8B-llll/1842289629) |
-| 2026-02-20 | 雑几帖 | 矢野達也 | 矢野達也 | @[youtube](https://www.youtube.com/embed/XhXkkh_4cVs?si=WVor92d2H8x5MgKF) |
+| 2024年8月9日 | <ruby>フェイクナイト・シンデレラ<rt>Fake Night Cinderella</rt></ruby> | 矢野達也 | 矢野達也 | @[youtube](https://www.youtube.com/embed/b3btbgVGuqA?si=h_tMVMMwGh61fJLA) |
+| 2024年9月18日 | <ruby>パーフェクション<rt>Perfection</rt></ruby> | 水野あつ | HIDEYA KOJIMA | @[youtube](https://www.youtube.com/embed/qYkxlMfM8L8?si=SSY9PBJ2uOSX4c6r) |
+| 2025年1月22日 | Ephemeral | 100回嘔吐 | 100回嘔吐 | @[youtube](https://www.youtube.com/embed/8JRuowZtRBc?si=YZNAPErdlRnMC3Oo) |
+| 2025年2月26日 | <ruby>ココロト<rt>Kokoroto</rt></ruby> | とあ | とあ | @[youtube](https://www.youtube.com/embed/fNrKWnVc7bI?si=xX4i9sq7F2fXtELp) |
+| 2025年4月2日 | うそ鳴き | ぽん | HIDEYA KOJIMA | @[youtube](https://www.youtube.com/embed/MhblPJMvc4c?si=tV6ky_J36DxNOmQs) |
+| 2025年5月21日 | いぜれ僕は溶けて | Purukichi | Purukichi | @[apple-music](https://embed.music.apple.com/cn/song/%E3%81%84%E3%81%9A%E3%82%8C%E5%83%95%E3%81%AF%E6%BA%B6%E3%81%91%E3%81%A6-feat-purukichi/1842289624) |
+| 2025年5月21日 | <ruby>ミリオン・コンプレクシティ<rt>Million Complexity</rt></ruby> | 矢野達也 | 矢野達也 | @[youtube](https://www.youtube.com/embed/POfCdtX4caM?si=jXOKBQgoUxpTeVlQ) |
+| 2025年10月29日 | <ruby>ロストオービット<rt>Lost Orbit</rt></ruby> | shikisai | shikisai | @[apple-music](https://embed.music.apple.com/cn/song/%E3%83%AD%E3%82%B9%E3%83%88%E3%82%AA%E3%83%BC%E3%83%93%E3%83%83%E3%83%88-feat-shikisai/1842289621) |
+| 2025年10月29日 | <ruby>コントラスト<rt>Contrast</rt></ruby> | 矢野達也 | 矢野達也 | @[apple-music](https://embed.music.apple.com/cn/song/%E3%82%B3%E3%83%B3%E3%83%88%E3%83%A9%E3%82%B9%E3%83%88-feat-%E7%9F%A2%E9%87%8E%E9%81%94%E4%B9%9F/1842289625) |
+| 2025年10月29日 | FantastiQ | ぽん | HIDEYA KOJIMA | @[apple-music](https://embed.music.apple.com/cn/song/fantastiq-feat-hideya-kojima/1842289627) |
+| 2025年10月29日 | 改変 -心- | たなか | たなか、LLLL | @[apple-music](https://embed.music.apple.com/cn/song/%E6%94%B9%E5%A4%89-%E5%BF%83-feat-%E3%81%9F%E3%81%AA%E3%81%8B-llll/1842289629) |
+| 2026年2月20日 | 雑几帖 | 矢野達也 | 矢野達也 | @[youtube](https://www.youtube.com/embed/XhXkkh_4cVs?si=WVor92d2H8x5MgKF) |
+## 外部リンク
+
+- [KAMITSUBAKI STUDIO 公式サイト](https://kamitsubaki.jp/artist/sinseiki/)
+- [少女革命計画 公式サイト](https://kamitsubaki.jp/artist/sinseiki/)
+- [YouTube チャンネル](https://www.youtube.com/@kakyoin_grp)
+- [X 公式ページ](https://x.com/kakyoin_gr)
+- [Bilibili チャンネル](https://space.bilibili.com/3546832122677764)

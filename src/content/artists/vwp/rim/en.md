@@ -59,9 +59,9 @@ seo:
 
 ## Overview
 
-RIM is a next-generation virtual singer from KAMITSUBAKI STUDIO and a member of V.W.P. She debuted alongside the launch of the studio in October 2019 and quickly stood out for a vocal style that can feel transparent, mysterious, and emotionally sharp at the same time, often singing across multiple languages (Japanese, English, and Korean).
+RIM is a next-generation virtual singer from [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) and a member of [V.W.P](/en/artists/vwp/vwp). She debuted alongside the launch of the studio in October 2019 and quickly stood out for a vocal style that can feel transparent, mysterious, and emotionally sharp at the same time, often singing across multiple languages (Japanese, English, and Korean).
 
-Within the Kamitsubaki roster, RIM is often one of the easiest artists to approach through the songs themselves. Her work has a strong pop-facing pull, while still fitting naturally into the larger unit and story-based structures around V.W.P. She is also the voice provider for the musical isotope RIME, holding the potential to cross both genres and borders.
+Within the Kamitsubaki roster, RIM is often one of the easiest artists to approach through the songs themselves. Her work has a strong pop-facing pull, while still fitting naturally into the larger unit and story-based structures around [V.W.P](/en/artists/vwp/vwp). She is also the voice provider for the [musical isotope](/en/artists/solo/musical-isotope) [RIME](/en/artists/isotopes/rime), holding the potential to cross both genres and borders.
 
 ## Role and Creative Position
 
@@ -86,7 +86,7 @@ She also stands out for singing across Japanese, English, and Korean material, w
 
 ### 2021
 
-- **March 13**: Formally announced the formation of the virtual artist group V.W.P (Virtual Witch Phenomenon) during KAF's 2nd ONE-MAN LIVE *Fukakai-Ni Q2*.
+- **March 13**: Formally announced the formation of the virtual artist group [V.W.P](/en/artists/vwp/vwp) (Virtual Witch Phenomenon) during [KAF](/en/artists/vwp/kaf)'s 2nd ONE-MAN LIVE *Fukakai-Ni Q2*.
 - **May 15**: Held her 1st ONE-MAN LIVE *NEUROMANCE*.
 - **July 21**: Released her 1st Album *NEW ROMANCER*.
 
@@ -134,7 +134,7 @@ RIM is presented through a cool, mysterious visual language: blue-toned hair, la
 
 | Item | Detail |
 | --- | --- |
-| Character design | PALOW. |
+| Character design | [PALOW.](/en/artists/creators/palow) |
 | Main imagery | Blue, hooded silhouette, layered eyes, nocturnal romance |
 | Important collaborators | Mao Sasagawa, Guiano, Misumi, samayuzame |
 | Voice extension | RIME, a musical-isotope voicebank based on RIM's voice |

@@ -33,6 +33,7 @@ test('rendered Markdown collections do not retain duplicate source bodies', asyn
     'albums',
     'announcements',
     'syntaxGuide',
+    'formatGuide',
     'editGuide',
   ];
 
@@ -48,7 +49,7 @@ test('rendered Markdown collections do not retain duplicate source bodies', asyn
     assert.match(config.slice(start, end), /metadataOnlyGlob/, `${name} should keep rendered HTML out of the data store`);
   }
 
-  const aiIndex = await readFile(new URL('../src/pages/ai-index.json.ts', import.meta.url), 'utf8');
+  const aiIndex = await readFile(new URL('../src/lib/aiIndex.mjs', import.meta.url), 'utf8');
   assert.match(aiIndex, /await readContentEntryBody\(entry\)/);
   assert.doesNotMatch(aiIndex, /entry\.(?:body|rendered)/);
 });
@@ -65,6 +66,18 @@ test('metadata-only entries drop large bodies and render from their source file 
 
   assert.equal(compact.body, undefined);
   assert.equal(compact.rendered, undefined);
+  assert.equal(
+    withoutRenderedContent({
+      id: 'artists/example/zh',
+      data: {
+        locale: 'zh',
+        translationKey: 'mixed-script',
+        name: '繁體名称与简体说明',
+        href: '/zh/artists/example',
+      },
+    }).data.name,
+    '繁体名称与简体说明',
+  );
 
   const entry = {
     id: 'syntax-guide/zh',
@@ -76,6 +89,39 @@ test('metadata-only entries drop large bodies and render from their source file 
   assert.match(body, /^## 开始之前/m);
   assert.match(rendered.html, /<h2 id="开始之前">开始之前<\/h2>/);
   assert.ok(rendered.headings.some((heading) => heading.text === '开始之前'));
+});
+
+test('content source normalizes one mixed zh.md file for each Chinese reading locale', async () => {
+  const filePath = 'tests/fixtures/mixed-chinese/zh.md';
+  const simplified = await readContentEntryBody({
+    id: 'fixtures/mixed/zh',
+    data: { locale: 'zh' },
+    filePath,
+  });
+  const tw = await renderContentEntry({
+    id: 'fixtures/mixed/zh-tw',
+    data: { locale: 'zh-tw' },
+    filePath,
+  });
+  const hk = await renderContentEntry({
+    id: 'fixtures/mixed/zh-hk',
+    data: { locale: 'zh-hk' },
+    filePath,
+  });
+
+  assert.match(simplified.body, /^# 混合标题与简体内容/m);
+  assert.match(simplified.body, /这款软体连接网络并管理档案。/);
+  assert.match(simplified.body, /`原樣代码`与\[站内连结\]\(\/zh\/artists\/vwp\/kaf\)/);
+
+  assert.match(tw.html, /<h1 id="混合標題與簡體內容">混合標題與簡體內容<\/h1>/);
+  assert.match(tw.html, /這款軟體連線網路並管理檔案。/);
+  assert.match(tw.html, /href="\/zh-tw\/artists\/vwp\/kaf"/);
+  assert.match(tw.html, /<code>原樣代码<\/code>/);
+
+  assert.match(hk.html, /<h1 id="混合標題與簡體內容">混合標題與簡體內容<\/h1>/);
+  assert.match(hk.html, /這款軟體連接網絡並管理檔案。/);
+  assert.match(hk.html, /href="\/zh-hk\/artists\/vwp\/kaf"/);
+  assert.match(hk.html, /<code>原樣代码<\/code>/);
 });
 
 test('home page no longer imports the old implementation-side data module', async () => {

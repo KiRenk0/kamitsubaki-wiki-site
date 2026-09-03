@@ -24,7 +24,7 @@ image: /images/songs/vwp/single-1714414164.jpg
 
 ## Overview
 
-残火 (feat. 花譜 & V.W.P) appears on 残火 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+残火 (feat. [花譜](/en/artists/vwp/kaf) & [V.W.P](/en/artists/vwp/vwp)) appears on 残火 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

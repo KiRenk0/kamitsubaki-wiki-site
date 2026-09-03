@@ -50,9 +50,9 @@ seo:
 
 ## 概述
 
-PIEDPIPER 是 KAMITSUBAKI STUDIO 的统括制作人（統括プロデューサー），负责掌控这家日本最具独特性的虚拟艺人创作团体在战略与创作层面的总体方向。
+PIEDPIPER 是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 的统括制作人（統括プロデューサー），负责掌控这家日本最具独特性的虚拟艺人创作团体在战略与创作层面的总体方向。
 
-他的统筹范围覆盖整个神椿生态：花譜（KAF）的个人活动、V.W.P 作为五人虚拟歌手组合的运作，以及「神椿市建设中。」「音乐的同位体」「KAMITSUBAKI VERSE」等主要 IP 项目。PIEDPIPER 在其中扮演的角色，是将各个独立的创作成果与神椿宇宙更宏大的叙事架构相连接的枢纽。
+他的统筹范围覆盖整个神椿生态：[花譜](/zh/artists/vwp/kaf)（KAF）的个人活动、[V.W.P](/zh/artists/vwp/vwp) 作为五人虚拟歌手组合的运作，以及「神椿市建设中。」「音乐的同位体」「KAMITSUBAKI VERSE」等主要 IP 项目。PIEDPIPER 在其中扮演的角色，是将各个独立的创作成果与神椿宇宙更宏大的叙事架构相连接的枢纽。
 
 ## 角色与创作定位
 
@@ -72,7 +72,7 @@ PIEDPIPER 是 KAMITSUBAKI STUDIO 的统括制作人（統括プロデューサ�
 - 花譜（KAF）——个人艺人制作统筹
 - V.W.P ——组合编成与战略统筹
 - 神椿市建设中。——跨媒体 IP 项目
-- 音乐的同位体——Musical Isotope 系列
+- 音乐的同位体——[Musical Isotope](/zh/artists/solo/musical-isotope) 系列
 - KAMITSUBAKI VERSE ——叙事宇宙扩展
 
 推荐搭配阅读：

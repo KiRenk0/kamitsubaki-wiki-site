@@ -19,7 +19,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 
 ## 作品简介
 
-《真白 (Live)》收录于《CHOCOLATE LIVE3》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《真白 (Live)》收录于《[CHOCOLATE LIVE3](/zh/albums/rim/chocolate-live-3)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 

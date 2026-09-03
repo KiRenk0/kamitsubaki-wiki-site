@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 
 ## Overview
 
-“あるふぁYOU(伊根 Remix)” is track 7 of KAF’s 狂想γ.
+“あるふぁYOU(伊根 Remix)” is track 7 of [KAF](/en/artists/vwp/kaf)’s [狂想γ](/en/albums/kaf/kyoso-gamma).
 
 ## Listen
 

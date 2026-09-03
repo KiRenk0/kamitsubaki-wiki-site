@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 ## Overview
 
-“メルの黄昏(雄之助 Remix)” is track 8 of KAF’s 魔法γ.
+“メルの黄昏([雄之助](/en/artists/creators/yunosuke) Remix)” is track 8 of [KAF](/en/artists/vwp/kaf)’s [魔法γ](/en/albums/kaf/maho-gamma).
 
 ## Listen
 

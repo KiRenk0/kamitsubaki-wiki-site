@@ -56,13 +56,13 @@ seo:
 
 {{ruby::可不::かふ::kafu}} 是 KAMITSUBAKI STUDIO 推出的首款“音乐的同位体”（Musical Isotope）歌声合成软件及虚拟角色，声源原型为虚拟歌手 **[花譜 / KAF](/zh/artists/vwp/kaf)**。
 
-软件于 2021 年 7 月 7 日基于 CeVIO AI 引擎正式发售，随后推出了 Synthesizer V AI 版本。可不发售即在 Vocaloid 与同人创作圈引爆现象级狂潮，诞生了如 ツミキ 创作的《{{ruby::フォニイ::ふぉにい::phony}}》（Phony）、きくお 创作的《{{ruby::愛して愛して愛して::あいしてあいしてあいして::aishite aishite aishite}}》Cover 等播放破千万级别的神曲，成为 2020 年代最具代表性的语音合成巨星之一。
+软件于 2021年7月7日基于 CeVIO AI 引擎正式发售。可不发售即在 Vocaloid 与同人创作圈引爆现象级狂潮，诞生了如 ツミキ 创作的《{{ruby::フォニイ::ふぉにい::phony}}》（Phony）、きくお 创作的《{{ruby::愛して愛して愛して::あいしてあいしてあいして::aishite aishite aishite}}》Cover 等播放破千万级别的神曲，成为 2020 年代最具代表性的语音合成巨星之一。
 
 <div class="wiki-fact-grid">
-  <div class="wiki-fact-card"><p class="wiki-fact-card__label">VOICE PROVIDER</p><p class="wiki-fact-card__value">花譜 / KAF</p></div>
+  <div class="wiki-fact-card"><p class="wiki-fact-card__label">VOICE PROVIDER</p><p class="wiki-fact-card__value">[花譜](/zh/artists/vwp/kaf) / KAF</p></div>
   <div class="wiki-fact-card"><p class="wiki-fact-card__label">SINGING ENGINE</p><p class="wiki-fact-card__value">CeVIO AI；后续扩展至 Synthesizer V AI</p></div>
-  <div class="wiki-fact-card"><p class="wiki-fact-card__label">CHARACTER DESIGN</p><p class="wiki-fact-card__value">PALOW.</p></div>
-  <div class="wiki-fact-card"><p class="wiki-fact-card__label">RELEASE</p><p class="wiki-fact-card__value">2021 年 7 月 7 日</p></div>
+  <div class="wiki-fact-card"><p class="wiki-fact-card__label">CHARACTER DESIGN</p><p class="wiki-fact-card__value">[PALOW.](/zh/artists/creators/palow)</p></div>
+  <div class="wiki-fact-card"><p class="wiki-fact-card__label">RELEASE</p><p class="wiki-fact-card__value">2021年7月7日</p></div>
 </div>
 
 ## 角色设计与声音定位
@@ -88,15 +88,15 @@ seo:
 
 | 日期 | 曲名 | 创作者 |
 | --- | --- | --- |
-| 2020-11-14 | 《雛鳥》covered by 可不 | カンザキイオリ |
-| 2021-01-09 | 《ホログラム》 | 一二三 |
-| 2021-02-20 | 《キュートなカノジョ》 | syudou |
-| 2021-03-07 | 《アイスクリーム》 | Guiano |
-| 2021-04-10 | 《レトロポリス》 | R Sound Design |
-| 2021-05-01 | 《花となれ》 | 雄之助 |
-| 2021-05-08 | 《水面下》 | 大沼パセリ |
-| 2021-06-05 | 《フォニイ》 | ツミキ |
-| 2021-07-17 | 《キャットラビング》 | 香椎モイミ |
+| 2020年11月14日 | 《雛鳥》covered by 可不 | [カンザキイオリ](/zh/artists/creators/kanzaki-iori) |
+| 2021年1月9日 | 《ホログラム》 | 一二三 |
+| 2021年2月20日 | 《キュートなカノジョ》 | syudou |
+| 2021年3月7日 | 《アイスクリーム》 | [Guiano](/zh/artists/creators/guiano) |
+| 2021年4月10日 | 《レトロポリス》 | R Sound Design |
+| 2021年5月1日 | 《花となれ》 | 雄之助 |
+| 2021年5月8日 | 《水面下》 | 大沼パセリ |
+| 2021年6月5日 | 《フォニイ》 | ツミキ |
+| 2021年7月17日 | 《[キャットラビング](/zh/songs/kashiimoimi/originals/kyattorabingu)》 | [香椎モイミ](/zh/artists/creators/kashiimoimi) |
 
 {{/details}}
 

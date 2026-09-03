@@ -57,7 +57,7 @@ seo:
 
 ## Overview
 
-ISEKAIJOUCHO is a virtual singer and creator from KAMITSUBAKI STUDIO, and a member of V.W.P. She stands out for treating singing as only one part of a broader expressive practice that also includes illustration, narration, and character-driven atmosphere.
+ISEKAIJOUCHO is a virtual singer and creator from [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio), and a member of [V.W.P](/en/artists/vwp/vwp). She stands out for treating singing as only one part of a broader expressive practice that also includes illustration, narration, and character-driven atmosphere.
 
 Among the Kamitsubaki members, she is one of the clearest examples of an artist who feels like a world unto herself.
 
@@ -84,7 +84,7 @@ That makes her an important hybrid figure inside Kamitsubaki: not only a singer,
 
 ### 2021
 
-- **March 13**: Officially debuted as a member of the virtual artist group V.W.P (Virtual Witch Phenomenon) during KAF's 2nd ONE-MAN LIVE "Fukakai Ni Q2", announcing the group's formation.
+- **March 13**: Officially debuted as a member of the virtual artist group [V.W.P](/en/artists/vwp/vwp) (Virtual Witch Phenomenon) during [KAF](/en/artists/vwp/kaf)'s 2nd ONE-MAN LIVE "Fukakai Ni Q2", announcing the group's formation.
 - **October 23**: Held her first 3D virtual solo concert (1st ONE-MAN LIVE) "Anima". On the same day, she announced the production of her 1st album *Sousei* (創生) and the development of her musical isotope "CeVIO AI SEKAI".
 - **December 8**: Released her 1st album, *Sousei* (創生).
 
@@ -141,7 +141,7 @@ ISEKAIJOUCHO retains the old-form character “ヰ” in her name as part of her
 
 ## Discography, Live Performance, and Collaborations
 
-“Monogatari no Waltz”, “Diorama Drama”, “Hydrangea”, “Tomedonaki Hakujō”, “Artificial Flower”, and “Sirius no Shinzō” form the early solo line. *Sōsei*, *Shikisai*, and *Genshiroku* document later stages. The *CANDY LIVE* cover series, *Anima* lives, Singularity Live with RIM, V.W.P songs, and the 2026 *Flower Closet / Anima Re:birth* programme reveal how singing, drawing, character work, and worldbuilding operate together.
+“Monogatari no Waltz”, “Diorama Drama”, “Hydrangea”, “Tomedonaki Hakujō”, “Artificial Flower”, and “Sirius no Shinzō” form the early solo line. *Sōsei*, *[Shikisai](/en/albums/isekaijoucho/shikisai)*, and *Genshiroku* document later stages. The *[CANDY LIVE](/en/albums/isekaijoucho/candy-live)* cover series, *Anima* lives, Singularity Live with [RIM](/en/artists/vwp/rim), [V.W.P](/en/artists/vwp/vwp) songs, and the 2026 *Flower Closet / Anima Re:birth* programme reveal how singing, drawing, character work, and worldbuilding operate together.
 
 She also takes multiple roles in *Virtual Ties*, including character source, visual creator, and singer. orie, reoen, samayuzame, toukasa, and Harumakigohan are among the creators associated with different parts of the catalogue.
 

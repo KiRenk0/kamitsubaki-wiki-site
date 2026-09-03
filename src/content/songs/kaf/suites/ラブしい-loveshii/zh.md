@@ -17,7 +17,7 @@ image: /images/albums/kaf/love-and-flower.jpg
 
 ## 作品简介
 
-《ラブしい》是花譜收录于《愛と花》的第 1 轨。
+《ラブしい》是[花譜](/zh/artists/vwp/kaf)收录于《[愛と花](/zh/albums/kaf/love-and-flower)》的第 1 轨。
 
 ## 试听
 

@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1688348280.jpg
 
 ## 作品概要
 
-「鏡よ鏡」は花譜の『組曲』に収録された1曲目です。
+「鏡よ鏡」は[花譜](/ja/artists/vwp/kaf)の『[組曲](/ja/albums/kaf/suite)』に収録された1曲目です。
 
 ## 視聴
 

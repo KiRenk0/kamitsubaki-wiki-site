@@ -24,7 +24,7 @@ image: /images/albums/vwp/proliferation.jpg
 
 ## Overview
 
-深淵 (feat. KAF & V.W.P) appears on 繁殖 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+深淵 (feat. [KAF](/en/artists/vwp/kaf) & [V.W.P](/en/artists/vwp/vwp)) appears on [繁殖](/en/albums/vwp/proliferation) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

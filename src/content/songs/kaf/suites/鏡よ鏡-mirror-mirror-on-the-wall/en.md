@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1688348280.jpg
 
 ## Overview
 
-“鏡よ鏡” is track 1 of KAF’s 組曲.
+“鏡よ鏡” is track 1 of [KAF](/en/artists/vwp/kaf)’s [組曲](/en/albums/kaf/suite).
 
 ## Listen
 

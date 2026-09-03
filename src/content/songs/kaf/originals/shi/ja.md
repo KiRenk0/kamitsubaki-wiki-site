@@ -17,9 +17,9 @@ code: KO1
 image: /images/albums/kaf/flower-and-heart.jpg
 ---
 
-## 紹介
+## 作品概要
 
-花譜初のオリジナル楽曲。
+[花譜](/ja/artists/vwp/kaf)初のオリジナル楽曲。
 
 ## 試聴
 

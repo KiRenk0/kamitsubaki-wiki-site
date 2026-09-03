@@ -15,7 +15,7 @@ categorySubtitle: "SOLO ARTISTS & UNITS"
 
 ## 概要
 
-Albemuth（アルベムス）は、KAMITSUBAKI STUDIO の SINSEKAI STUDIO 系譜に属するバーチャルシンガーユニットで、存流（ARU）と明透（ASU）によって構成された。存流の囁くように抑制された歌声と、明透の明るく予測不能な歌唱を対比させることが、ユニットの表現の中心となっている。
+Albemuth（アルベムス）は、[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) の SINSEKAI STUDIO 系譜に属するバーチャルシンガーユニットで、存流（[ARU](/ja/artists/solo/aru)）と[明透](/ja/artists/solo/asu)（ASU）によって構成された。存流の囁くように抑制された歌声と、明透の明るく予測不能な歌唱を対比させることが、ユニットの表現の中心となっている。
 
 ## 基本資料
 
@@ -36,7 +36,7 @@ Albemuth（アルベムス）は、KAMITSUBAKI STUDIO の SINSEKAI STUDIO 系譜
 
 ## 音楽作品
 
-2023年7月5日に発売されたメンバーサイド・アルバム『eve』『ADAM』は、それぞれ存流側と明透側からユニットを捉える作品である。代表曲には「Guilty」「新世界へ」「tether」「Black Cloth」がある。
+2023年7月5日に発売されたメンバーサイド・アルバム『eve』『ADAM』は、それぞれ存流側と[明透](/ja/artists/solo/asu)側からユニットを捉える作品である。代表曲には「[Guilty](/ja/songs/albemuth/originals/guilty)」「[新世界へ](/ja/songs/asu/originals/新世界he)」「tether」「Black Cloth」がある。
 
 | 作品 | 内容 |
 | --- | --- |

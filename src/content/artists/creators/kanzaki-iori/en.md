@@ -9,7 +9,7 @@ meta: "ROLE: COMPOSER"
 debutDate: "2014-01"
 statusLabel: "STATUS"
 status: "INDEPENDENT"
-image: "https://placehold.co/1200x800/0a0a12/a0a0b0?text=KANZAKI+IORI"
+image: "https://placehold.co/1200x800/0a0a12/a0a0b0?text=KANZAKI-IORI"
 name: "Kanzaki Iori"
 categoryTitle: "Creators"
 categorySubtitle: "CREATORS / COMPOSERS / ILLUSTRATORS"
@@ -23,11 +23,11 @@ Kanzaki Iori is a Japanese Vocaloid producer, lyricist, composer, and novelist. 
 
 - **January 2014**: Began as a Vocaloid producer with “Hankouki”.
 - **2017**: Released “Inochi ni Kirawareteiru.”, which became his signature song.
-- **From 2018**: Wrote, composed, and arranged original works for the newly debuted KAF.
+- **From 2018**: Wrote, composed, and arranged original works for the newly debuted [KAF](/en/artists/vwp/kaf).
 - **April 2019**: Released his first album, *Hakushi*.
 - **February 2020**: Released the book-and-music set containing the novel *Kemono* and EP *Jinsei wa Comedy*.
 - **September 2020**: Published a substantially revised national edition of *Ano Natsu ga Hokyu-suru.*
-- **March 4, 2023**: Announced his graduation from KAMITSUBAKI STUDIO and THINKR to work independently.
+- **March 4, 2023**: Announced his graduation from [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) and THINKR to work independently.
 
 ## Role in Kamitsubaki
 

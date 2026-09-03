@@ -24,7 +24,7 @@ image: /images/albums/vwp/city-regenerate.jpg
 
 ## Overview
 
-流転 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO) appears on 都市 from 神椿市建設中。REGENERATE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+流転 (feat. [KAF](/en/artists/vwp/kaf), [RIM](/en/artists/vwp/rim), [Harusaruhi](/en/artists/vwp/harusaruhi), [Isekaijoucho](/en/artists/vwp/isekaijoucho) & [KOKO](/en/artists/vwp/koko)) appears on [都市 from 神椿市建設中。REGENERATE](/en/albums/vwp/city-regenerate) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

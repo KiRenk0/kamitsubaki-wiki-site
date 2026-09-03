@@ -15,7 +15,7 @@ image: /images/albums/kaf/suite.jpg
 
 ## 作品概要
 
-「ソレカラ - HIDEYA KOJIMA Remix -」は花譜の『組曲』に収録された17曲目です。
+「ソレカラ - HIDEYA KOJIMA Remix -」は[花譜](/ja/artists/vwp/kaf)の『[組曲](/ja/albums/kaf/suite)』に収録された17曲目です。
 
 ## 歌詞
 

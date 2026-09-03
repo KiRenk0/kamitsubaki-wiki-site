@@ -19,7 +19,7 @@ image: /images/albums/kaf/shinai.jpg
 
 ## Overview
 
-“君は水、私は魚” is track 8 of KAF’s 深愛.
+“君は水、私は魚” is track 8 of [KAF](/en/artists/vwp/kaf)’s [深愛](/en/albums/kaf/shinai).
 
 ## Listen
 

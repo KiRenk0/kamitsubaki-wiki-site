@@ -19,7 +19,7 @@ image: /images/albums/kaf/shinai.jpg
 
 ## Overview
 
-“乳白の宇宙” is track 4 of KAF’s 深愛.
+“乳白の宇宙” is track 4 of [KAF](/en/artists/vwp/kaf)’s [深愛](/en/albums/kaf/shinai).
 
 ## Listen
 

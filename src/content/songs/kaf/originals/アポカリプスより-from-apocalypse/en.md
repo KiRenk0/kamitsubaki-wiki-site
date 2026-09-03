@@ -19,7 +19,7 @@ image: /images/albums/kaf/gsa.jpg
 
 ## Overview
 
-“アポカリプスより” is track 3 of KAF’s GSA.
+“アポカリプスより” is track 3 of [KAF](/en/artists/vwp/kaf)’s GSA.
 
 ## Listen
 

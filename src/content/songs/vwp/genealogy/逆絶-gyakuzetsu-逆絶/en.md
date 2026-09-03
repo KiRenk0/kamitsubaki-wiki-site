@@ -24,7 +24,7 @@ image: /images/songs/vwp/single-1696039388.jpg
 
 ## Overview
 
-逆絶 (feat. V.W.P & KOKO) appears on 逆絶 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+逆絶 (feat. [V.W.P](/en/artists/vwp/vwp) & [KOKO](/en/artists/vwp/koko)) appears on 逆絶 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

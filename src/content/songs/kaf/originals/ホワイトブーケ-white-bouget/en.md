@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa.jpg
 
 ## Overview
 
-“ホワイトブーケ” is track 7 of KAF’s 寓話.
+“ホワイトブーケ” is track 7 of [KAF](/en/artists/vwp/kaf)’s [寓話](/en/albums/kaf/guwa).
 
 ## Listen
 

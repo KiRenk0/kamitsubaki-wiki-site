@@ -48,7 +48,7 @@ seo:
 
 ## Overview
 
-LOLUET is a virtual singer whose YouTube activity began in 2021. She first worked under her own name and announced her affiliation with KAMITSUBAKI STUDIO on March 31, 2023. Her activity is connected to ALLT STUDIO, and her character design is by Kei Mochizuki.
+LOLUET is a virtual singer whose YouTube activity began in 2021. She first worked under her own name and announced her affiliation with [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) on March 31, 2023. Her activity is connected to ALLT STUDIO, and her character design is by Kei Mochizuki.
 
 Her public presence is deliberately unstable and difficult to predict. Covers, short music videos, and a small number of original or collaborative works form the main record. The phrase “recording rebellious period” is a fan-facing joke about her activity and recording rhythm, not a formal setting or diagnosis.
 
@@ -97,7 +97,7 @@ Her public presence is deliberately unstable and difficult to predict. Covers, s
 - February 2: “NightmaRe” cover.
 - February 14: “Record Redo” cover.
 - March 9: “Love & Destroy” cover.
-- May 29: Released “Honeymoon feat. RIM”.
+- May 29: Released “Honeymoon feat. [RIM](/en/artists/vwp/rim)”.
 
 ## Catalogue
 

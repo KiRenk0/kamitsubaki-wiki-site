@@ -81,24 +81,24 @@ DUSTCELLのボーカル。低い語り、強い叫び、かすれた境界、長
 ### 2019年
 
 - **10月11日**：「CULT」を発表し活動開始。
-- **10月18日**：KAMITSUBAKI STUDIOへの参加を発表。
+- **10月18日**：[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio)への参加を発表。
 - **11月22日**：「STIGMA」を発表。
 
 ### 2020年
 
 - 「LAZY」「Heaven and Hell」「DOMINATION」「LILAC」「SOPPY」などを発表。
-- **5月20日**：1st Full Album『SUMMIT』を発売。
+- **5月20日**：1st Full Album『[SUMMIT](/ja/albums/dustcell/SUMMIT-1688155907)』を発売。
 - **7月31日**：1st ONE-MAN LIVE『SUMMIT』を無観客配信として開催。
 - **11月15日**：2nd ONE-MAN LIVE『HOWL』をオンライン・会場の両形式で開催。
-- **12月23日**：「Mad Hatter」を発表。
+- **12月23日**：「[Mad Hatter](/ja/songs/dustcell/originals/mad-hatter)」を発表。
 
 ### 2021年以降
 
-「命の行方」がHAL専門学校の2021年度TVCMソングに採用され、「独白」などを通して個人的な物語の線を拡張した。その後も神椿の音楽、映像、舞台企画と接続しながら活動を続けている。
+「[命の行方](/ja/songs/dustcell/originals/命no行方)」がHAL専門学校の2021年度TVCMソングに採用され、「[独白](/ja/songs/dustcell/originals/独白)」などを通して個人的な物語の線を拡張した。その後も神椿の音楽、映像、舞台企画と接続しながら活動を続けている。
 
 ## 音楽作品とライブ
 
-入口となる作品は「CULT」「STIGMA」「LAZY」「Heaven and Hell」「DOMINATION」「LILAC」「SOPPY」「アネモネ」「ONE」「終点」「DERO」「PAIN」「Mad Hatter」「命の行方」「独白」などである。
+入口となる作品は「CULT」「STIGMA」「LAZY」「Heaven and Hell」「DOMINATION」「LILAC」「SOPPY」「アネモネ」「ONE」「終点」「[DERO](/ja/songs/dustcell/originals/dero)」「[PAIN](/ja/songs/dustcell/originals/pain)」「[Mad Hatter](/ja/songs/dustcell/originals/mad-hatter)」「[命の行方](/ja/songs/dustcell/originals/命no行方)」「[独白](/ja/songs/dustcell/originals/独白)」などである。
 
 | 時期 | 主な作品 | 位置づけ |
 | --- | --- | --- |

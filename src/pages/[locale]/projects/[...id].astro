@@ -7,32 +7,21 @@ import TableOfContents from '../../../components/TableOfContents.astro';
 import ContentLicenseNotice from '../../../components/ContentLicenseNotice.astro';
 import MemoryCorridorEntryLink from '../../../components/MemoryCorridorEntryLink.astro';
 import { buildProjectDisplayData, getLocalizedSite } from '../../../lib/homeData.mjs';
-import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../lib/i18n.mjs';
+import { buildLocaleLinks, defaultLocale, getEditableLocale, resolveLocaleCopy, supportedLocales } from '../../../lib/i18n.mjs';
 import { buildProjectMetadata } from '../../../lib/metadata.mjs';
 import { renderContentEntry } from '../../../lib/contentSource.mjs';
+import { buildLocalizedStaticPaths } from '../../../lib/staticPaths.mjs';
 
 export async function getStaticPaths() {
   const projectEntries = await getCollection('projects');
 
-  return projectEntries.map((entry) => {
-    const parts = entry.id.split('/');
-    const entryLocale = parts.pop();
-    const idPath = parts.join('/');
-
-    return {
-      params: {
-        locale: entryLocale,
-        id: idPath,
-      },
-      props: { entry },
-    };
-  });
+  return buildLocalizedStaticPaths(projectEntries);
 }
 
 const { locale, id } = Astro.params;
 const { entry } = Astro.props;
 const { html: contentHtml, headings, body: articleBody } = await renderContentEntry(entry);
-const localeCode = locale as 'zh' | 'ja' | 'en';
+const localeCode = locale as 'zh' | 'zh-tw' | 'zh-hk' | 'ja' | 'en';
 const siteEntries = await getCollection('site');
 const homeContent = getLocalizedSite(siteEntries, localeCode, defaultLocale);
 const project = buildProjectDisplayData(entry, localeCode);
@@ -50,10 +39,10 @@ const metadata = buildProjectMetadata({
 });
 const hasArticleBody = Boolean(articleBody);
 const hasTableOfContents = headings.some((heading) => heading.depth === 2 || heading.depth === 3);
-const contentSourcePath = `src/content/projects/${id}/${localeCode}.md`;
+const contentSourcePath = `src/content/projects/${id}/${getEditableLocale(localeCode)}.md`;
 const sourceHref = `/${localeCode}/contribute/edit?target=${encodeURIComponent(contentSourcePath)}`;
 
-const labels = {
+const labels = resolveLocaleCopy({
   zh: {
     back: '返回首页',
     eyebrow: '项目条目',
@@ -84,7 +73,7 @@ const labels = {
     emptyBody: 'This project already has an observation entry. Its verified background, timeline, and related works are ready to be documented.',
     emptyAction: 'Contribute to this entry',
   },
-}[localeCode];
+}, localeCode);
 ---
 
 <BaseLayout lang={localeCode} alternates={alternates} title={`${project.title} - Kamitsubaki Studio Fan Wiki`} metadata={metadata}>

@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1678454359.jpg
 
 ## Overview
 
-“秘密の言葉” is track 12 of KAF’s 組曲.
+“秘密の言葉” is track 12 of [KAF](/en/artists/vwp/kaf)’s [組曲](/en/albums/kaf/suite).
 
 ## Listen
 

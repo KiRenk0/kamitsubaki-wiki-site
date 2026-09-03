@@ -19,7 +19,7 @@ image: /images/albums/kaf/shinai.jpg
 
 ## 作品概要
 
-「そばにいていいよ」は花譜の『深愛』に収録された7曲目です。
+「そばにいていいよ」は[花譜](/ja/artists/vwp/kaf)の『[深愛](/ja/albums/kaf/shinai)』に収録された7曲目です。
 
 ## 視聴
 

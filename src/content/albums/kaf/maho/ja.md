@@ -101,16 +101,16 @@ tracks:
 
 ## 作品概要
 
-花譜の2nd ALBUM。
+[花譜](/ja/artists/vwp/kaf)の2nd ALBUM。
 
 2018年10月から活動を開始し2周年を迎える花譜の新たな作品が誕生。
 
-TVアニメ『ブラッククローバー』のEDテーマ「アンサー」、Netflixオリジナルアニメ『日本沈没2020』グランドエンディングテーマ「景色」、超没入エナジードリンク『ZONe』IMMERSIVE SONG PROJECTコラボ曲「危ノーマル」、花譜とドコモがタッグを組んだ『HAYABUSA EXPERIENCE by 3.5D × docomo ONLINE EXHIBITION』テーマソング「戸惑いテレパシー」の他、10月10日に開催された2nd ONE-MAN LIVE「不可解弐Q1」で初披露された多数の新曲を加えた全15曲を収録。
-全曲の作詞作曲はカンザキイオリが担当。
+TVアニメ『ブラッククローバー』のEDテーマ「[アンサー](/ja/songs/kaf/originals/アンサー-answer)」、Netflixオリジナルアニメ『日本沈没2020』グランドエンディングテーマ「[景色](/ja/songs/kaf/originals/景色-landscape)」、超没入エナジードリンク『ZONe』IMMERSIVE SONG PROJECTコラボ曲「[危ノーマル](/ja/songs/kaf/originals/危ノーマル-abnormal)」、[花譜](/ja/artists/vwp/kaf)とドコモがタッグを組んだ『HAYABUSA EXPERIENCE by 3.5D × docomo ONLINE EXHIBITION』テーマソング「[戸惑いテレパシー](/ja/songs/kaf/originals/戸惑いテレパシー-confused-telepathy)」の他、10月10日に開催された2nd ONE-MAN LIVE「不可解弐Q1」で初披露された多数の新曲を加えた全15曲を収録。
+全曲の作詞作曲は[カンザキイオリ](/ja/artists/creators/kanzaki-iori)が担当。
 
-ジャケットのイラストは「魔法α」はお馴染みPALOW.氏、「魔法β」は漫画家の宇佐崎しろ氏の書き下ろしとなっている。
+ジャケットのイラストは「魔法α」はお馴染み[PALOW.](/ja/artists/creators/palow)氏、「魔法β」は漫画家の宇佐崎しろ氏の書き下ろしとなっている。
 
-CDアルバム「魔法」の他に写真集「透明2」(36P)、音声劇「御伽噺 -第三幕-」(ポエトリーCD)、アクリルキーホルダー (PALOW. Ver.)、ステッカー (PALOW. Ver.)、トレーディングカードセットα (3枚)、ラバーバンドα、アルバム「魔法」への寄稿文 (花譜、カンザキイオリ、PIEDPIPER)が同梱されたスペシャルボックス。
+CDアルバム「魔法」の他に写真集「透明2」(36P)、音声劇「御伽噺 -第三幕-」(ポエトリーCD)、アクリルキーホルダー ([PALOW.](/ja/artists/creators/palow) Ver.)、ステッカー (PALOW. Ver.)、トレーディングカードセットα (3枚)、ラバーバンドα、アルバム「魔法」への寄稿文 ([花譜](/ja/artists/vwp/kaf)、[カンザキイオリ](/ja/artists/creators/kanzaki-iori)、[PIEDPIPER](/ja/artists/creators/piedpiper))が同梱されたスペシャルボックス。
 
 定価：5,000円（税込）  
 収録曲数：15曲  

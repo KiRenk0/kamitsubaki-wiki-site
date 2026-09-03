@@ -51,6 +51,15 @@ test('artist infobox and header render optional structured fields', async () => 
   assert.match(artistPage, /accentColor/);
 });
 
+test('artist detail sidebar scrolls with the main content from the beginning', async () => {
+  const artistPage = await readSource('../src/pages/[locale]/artists/[...id].astro');
+  const sidebar = artistPage.match(/<aside class:list=\{\[[\s\S]*?<WikiInfoBox/)?.[0] ?? '';
+
+  assert.notEqual(sidebar, '');
+  assert.doesNotMatch(sidebar, /\blg:sticky\b/);
+  assert.doesNotMatch(sidebar, /\blg:top-32\b/);
+});
+
 test('artist display data preserves extended metadata from content files', async () => {
   const frontmatter = await readFrontmatter('../src/content/artists/vwp/kaf/zh.md');
   const data = buildArtistDisplayData({

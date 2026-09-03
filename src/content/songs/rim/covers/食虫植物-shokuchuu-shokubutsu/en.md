@@ -19,7 +19,7 @@ image: /images/albums/rim/chocolate-live.jpg
 
 ## Overview
 
-食虫植物 feat. 花譜 appears on CHOCOLATE LIVE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+食虫植物 feat. [花譜](/en/artists/vwp/kaf) appears on [CHOCOLATE LIVE](/en/albums/rim/chocolate-live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Lyrics
 

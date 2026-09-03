@@ -109,3 +109,10 @@ https://ja.kamitsubaki.wiki/* https://kamitsubaki.wiki/ja/:splat 302!
 /zh/songs/rim/covers/食虫植物(Live-at-Virtual-2022)-carnivorous-plant-live-at-virtual-2022 /zh/songs/isekaijoucho/covers/食虫植物(Live-at-Virtual-2022)-carnivorous-plant-live-at-virtual-2022 301
 /ja/songs/rim/covers/食虫植物(Live-at-Virtual-2022)-carnivorous-plant-live-at-virtual-2022 /ja/songs/isekaijoucho/covers/食虫植物(Live-at-Virtual-2022)-carnivorous-plant-live-at-virtual-2022 301
 /en/songs/rim/covers/食虫植物(Live-at-Virtual-2022)-carnivorous-plant-live-at-virtual-2022 /en/songs/isekaijoucho/covers/食虫植物(Live-at-Virtual-2022)-carnivorous-plant-live-at-virtual-2022 301
+
+# GRP artist entry merged into the projects/labels page
+/zh/artists/girls_revolution_project/grp /zh/projects/labels/girls-revolution-project 301
+/zh-tw/artists/girls_revolution_project/grp /zh-tw/projects/labels/girls-revolution-project 301
+/zh-hk/artists/girls_revolution_project/grp /zh-hk/projects/labels/girls-revolution-project 301
+/ja/artists/girls_revolution_project/grp /ja/projects/labels/girls-revolution-project 301
+/en/artists/girls_revolution_project/grp /en/projects/labels/girls-revolution-project 301

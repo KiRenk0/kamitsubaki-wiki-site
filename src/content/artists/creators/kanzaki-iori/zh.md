@@ -37,7 +37,7 @@ theme:
       value: "#0B0E1A"
 statusLabel: "STATUS"
 status: "INDEPENDENT"
-image: "/images/artists/kanzaki-iori.jpg"
+image: "https://placehold.co/1200x800/0a0a12/a0a0b0?text=KANZAKI-IORI"
 name: "神崎一织"
 categoryTitle: "创作者团队"
 categorySubtitle: "CREATORS & PRODUCERS"
@@ -58,7 +58,10 @@ seo:
 
 以 2017 年发布的 Vocaloid 代表作《{{ruby::命に嫌われている。::いのちにきらわれている。::inochi ni kirわれている}}》（被生命所厌恶。）引爆全网上亿播放。从 2018 年花譜出道起至 2023 年，他作为 KAMITSUBAKI STUDIO 的核心主创，为花譜创作了《糸》《心臓と絡繰》《魔女》《過去を喰らう》《不可解》《海に化ける》等数十首经典单曲，以及前三张个人专辑《観測》《魔法》《狂想》。
 
-2023 年 3 月，随着花譜 3rd LIVE「不可解参(想)」的举办，神崎一织宣布从神椿工作室独立毕业，以个人音乐家及小说家身份展开新阶段的独立创作。
+2023年3月，随着[花譜](/zh/artists/vwp/kaf) 3rd LIVE「不可解参(想)」的举办，神崎一织宣布从神椿工作室独立毕业，以个人音乐家及小说家身份展开新阶段的独立创作。
 
-- **代表音乐作品**：《命に嫌われている。》《君の神様になりたい。》《あの夏が飽和する。》《糸》《魔女》《不可解》《過去を喰らう》《番外》
+- **代表音乐作品**：《命に嫌われている。》《君の神様になりたい。》《あの夏が飽和する。》《糸》《[魔女](/zh/songs/kaf/originals/majo)》《不可解》《過去を喰らう》《番外》
 - **代表小说著作**：《あの夏が飽和する。》《親愛なるあなたへ》
+## 外部链接
+
+- [カンザキイオリ 官方网站](https://kanzakiiori.com/)

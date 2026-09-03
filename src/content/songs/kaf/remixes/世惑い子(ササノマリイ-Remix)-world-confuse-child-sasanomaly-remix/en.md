@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 
 ## Overview
 
-“世惑い子(ササノマリイ Remix)” is track 5 of KAF’s 狂想γ.
+“世惑い子(ササノマリイ Remix)” is track 5 of [KAF](/en/artists/vwp/kaf)’s [狂想γ](/en/albums/kaf/kyoso-gamma).
 
 ## Listen
 

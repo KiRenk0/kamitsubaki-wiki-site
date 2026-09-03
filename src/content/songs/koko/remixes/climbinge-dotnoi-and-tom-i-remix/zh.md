@@ -19,7 +19,7 @@ image: /images/albums/koko/climbinge-the-remix.jpg
 
 ## 作品简介
 
-《ClimBinge(Dotnoi&Tom-i Remix)》收录于《ClimBinge the Remix》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《ClimBinge(Dotnoi&Tom-i Remix)》收录于《[ClimBinge the Remix](/zh/albums/koko/climbinge-the-remix)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 

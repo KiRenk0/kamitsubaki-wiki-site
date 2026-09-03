@@ -10,8 +10,8 @@ releaseDate: "2020-09-23"
 label: "KAMITSUBAKI RECORD"
 trackCount: 4
 duration: "14:40"
-categoryTitle: "Albums"
-categorySubtitle: ALBUMS
+categoryTitle: "EP"
+categorySubtitle: EPS
 categoryOrder: 1
 itemOrder: 13
 image: /images/albums/kaf/love-and-flower.jpg
@@ -49,7 +49,7 @@ tracks:
 
 ## Overview
 
-A collaboration EP by KAF and Kizuna AI, featuring “Love-shii,” “Karisome,” and their instrumentals; the KAF physical edition also included a radio segment.
+A collaboration EP by [KAF](/en/artists/vwp/kaf) and Kizuna AI, featuring “Love-shii,” “Karisome,” and their instrumentals; the KAF physical edition also included a radio segment.
 
 ## Release and editions
 

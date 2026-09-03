@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 ## 作品概要
 
-「メルの黄昏(雄之助 Remix)」は花譜の『魔法γ』に収録された8曲目です。
+「メルの黄昏([雄之助](/ja/artists/creators/yunosuke) Remix)」は[花譜](/ja/artists/vwp/kaf)の『[魔法γ](/ja/albums/kaf/maho-gamma)』に収録された8曲目です。
 
 ## 視聴
 

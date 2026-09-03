@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa.jpg
 
 ## 作品概要
 
-「そしてまたはじめる(Instrumental)」は花譜の『寓話』に収録された15曲目です。
+「そしてまたはじめる(Instrumental)」は[花譜](/ja/artists/vwp/kaf)の『[寓話](/ja/albums/kaf/guwa)』に収録された15曲目です。
 
 ## 視聴
 

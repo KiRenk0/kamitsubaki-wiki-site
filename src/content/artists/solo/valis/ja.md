@@ -56,7 +56,7 @@ seo:
 
 ## 概要
 
-VALIS（ヴァリス）は、SINSEKAI RECORD に所属する6人組のバーチャルガールズグループである。メンバーは CHINO（チノ）、MYU（ミュー）、NEFFY（ネフィ）、NINA（ニナ）、RARA（ララ）、VITTE（ヴィッテ）の6名で構成される。
+VALIS（ヴァリス）は、[SINSEKAI RECORD](/ja/projects/labels/sinsekai-studio) に所属する6人組のバーチャルガールズグループである。メンバーは CHINO（チノ）、MYU（ミュー）、NEFFY（ネフィ）、NINA（ニナ）、RARA（ララ）、VITTE（ヴィッテ）の6名で構成される。
 
 「バーチャルとリアルの世界を旅する」というコンセプトのもと、アバター姿と「オリジン」と呼ばれるリアルな姿の二つの形態で活動を行うことが、VALIS の最大の特徴である。キャラクターデザインはねこ助が担当しており、少女らしさと未来的な要素を融合したビジュアルが特徴的だ。
 
@@ -69,11 +69,11 @@ VALIS の活動における核となるのは、「バーチャル」と「リ�
 ## 活動歴
 
 - 2020年5月15日にデビュー曲「残響ヴァンデラー」をリリースし、本格的に活動を開始。
-- 『無窮プラトニック』『熱愛フローズン』『乙女的サイコパシー』『再見ロマネスク』『偶像ナイトメア』など、多数のオリジナル楽曲をリリース。
+- 『[無窮プラトニック](/ja/songs/valis/originals/無窮puratonikku)』『[熱愛フローズン](/ja/songs/valis/originals/熱愛furoozun)』『乙女的サイコパシー』『[再見ロマネスク](/ja/songs/valis/originals/再見romanesuku)』『[偶像ナイトメア](/ja/songs/valis/originals/偶像naitomea)』など、多数のオリジナル楽曲をリリース。
 - 複数回の ONE-MAN LIVE を開催し、安定したライブファン基盤を築く。
 - KAMITSUBAKI PHILHARMONIC ORCHESTRA 協力によるバーチャル舞台劇『御伽噺（Some）』など、横断的企画にも参加。
-- 2025 年 2 月 21 日、6th ONE-MAN LIVE『喝采 Curtain Call』を開催。
-- 2025 年 9 月 27 日、7th ONE-MAN LIVE『咆哮 Forever』を開催予定。
+- 2025年2月21日、6th ONE-MAN LIVE『喝采 Curtain Call』を開催。
+- 2025年9月27日、7th ONE-MAN LIVE『咆哮 Forever』を開催予定。
 
 ## メンバーと形態
 
@@ -105,7 +105,7 @@ VALIS は KAMITSUBAKI PHILHARMONIC ORCHESTRA など、神椿体系内の音楽�
 ## 参考資料
 
 - VALIS 公式サイト：<https://valis.sinsekaistudio.jp/>
-- KAMITSUBAKI STUDIO 公式アーティストページ：<https://kamitsubaki.jp/artist/valis/>
+- [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) 公式アーティストページ：<https://kamitsubaki.jp/artist/valis/>
 
 ## 外部リンク
 

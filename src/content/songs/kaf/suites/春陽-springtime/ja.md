@@ -17,7 +17,7 @@ image: /images/albums/kaf/suite.jpg
 
 ## 作品概要
 
-「春陽」は花譜の『組曲』に収録された6曲目です。
+「春陽」は[花譜](/ja/artists/vwp/kaf)の『[組曲](/ja/albums/kaf/suite)』に収録された6曲目です。
 
 ## 視聴
 

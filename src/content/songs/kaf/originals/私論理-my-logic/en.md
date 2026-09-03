@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho.jpg
 
 ## Overview
 
-“私論理” is track 4 of KAF’s 魔法.
+“私論理” is track 4 of [KAF](/en/artists/vwp/kaf)’s [魔法](/en/albums/kaf/maho).
 
 ## Listen
 

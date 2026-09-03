@@ -10,8 +10,8 @@ label: "PHENOMENON RECORD"
 catalogNumber: "ANTCD-56439"
 trackCount: 3
 duration: "10:08"
-categoryTitle: "アルバム"
-categorySubtitle: ALBUMS
+categoryTitle: "EP"
+categorySubtitle: EPS
 categoryOrder: 1
 itemOrder: 6
 image: /images/albums/kaf/gsa.jpg
@@ -40,7 +40,7 @@ tracks:
 
 ## 作品概要
 
-「ゲシュタルト」「スイマー」「アポカリプスより」の頭文字を冠した3曲入りEP。3曲はいずれも後に『寓話』へ収録された。
+「[ゲシュタルト](/ja/songs/kaf/originals/ゲシュタルト-gestalt)」「[スイマー](/ja/songs/kaf/originals/スイマー-swimmer)」「[アポカリプスより](/ja/songs/kaf/originals/アポカリプスより-from-apocalypse)」の頭文字を冠した3曲入りEP。3曲はいずれも後に『[寓話](/ja/albums/kaf/guwa)』へ収録された。
 
 ## リリースと仕様
 

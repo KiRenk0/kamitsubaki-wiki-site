@@ -19,7 +19,7 @@ image: /images/albums/kaf/shinai.jpg
 
 ## Overview
 
-“コネクト” is track 10 of KAF’s 深愛.
+“コネクト” is track 10 of [KAF](/en/artists/vwp/kaf)’s [深愛](/en/albums/kaf/shinai).
 
 ## Listen
 

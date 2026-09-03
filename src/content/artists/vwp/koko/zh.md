@@ -59,7 +59,7 @@ seo:
 
 ## 概述
 
-幸祜是 KAMITSUBAKI STUDIO 旗下的虚拟歌手，也是 V.W.P 成员之一。她在成员中最鲜明的标签之一，是带有摇滚推进感的长音与直接冲击力。相较于更偏叙事或更偏冷感的成员，幸祜的歌声往往先以“击中感”进入听众记忆。
+幸祜是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 旗下的虚拟歌手，也是 [V.W.P](/zh/artists/vwp/vwp) 成员之一。她在成员中最鲜明的标签之一，是带有摇滚推进感的长音与直接冲击力。相较于更偏叙事或更偏冷感的成员，幸祜的歌声往往先以“击中感”进入听众记忆。
 
 她的个人路线常与“虚拟摇滚歌手”这一定位联系在一起，但并不意味着只局限于单一摇滚语法。更准确地说，幸祜的核心特征在于能够把高能量的推进感稳定地压进歌曲中心。
 
@@ -76,10 +76,10 @@ seo:
 | 项目 | 内容 |
 | --- | --- |
 | 角色设计 | SWAV |
-| 初次公开活动 | 2020 年 10 月 25 日发布介绍视频与《Hearts》翻唱 |
-| 代表企划 | 「PLAYER」系列、「ARARE LIVE」系列、V.W.P |
-| 主要合作 | 大沼パセリ、Len、Feryquitous、香椎モイミ、DIVELA 等 |
-| 声音延伸 | 音乐同位体「狐子 / COKO」 |
+| 初次公开活动 | 2020年10月25日发布介绍视频与《[Hearts](/zh/songs/koko/covers/hearts)》翻唱 |
+| 代表企划 | 「PLAYER」系列、「[ARARE LIVE](/zh/albums/koko/arare-live)」系列、[V.W.P](/zh/artists/vwp/vwp) |
+| 主要合作 | 大沼パセリ、Len、Feryquitous、[香椎モイミ](/zh/artists/creators/kashiimoimi)、DIVELA 等 |
+| 声音延伸 | 音乐同位体「[狐子](/zh/artists/isotopes/coko) / COKO」 |
 
 「Type-Real Alnair」是 2021 年「PLAYER」中公开的重要新形态，发型和服装都比初始形象更强调现实舞台与演奏者气质。
 
@@ -88,23 +88,23 @@ seo:
 ### 2020年
 
 - **10月25日**：作为 KAMITSUBAKI STUDIO 的第五位虚拟歌手正式出道，同日发布首支翻唱歌曲《Hearts》。
-- **11月15日**：发布首支个人原创单曲《harmony》。
+- **11月15日**：发布首支个人原创单曲《[harmony](/zh/songs/koko/originals/harmony)》。
 
 ### 2021年
 
-- **3月13日**：于花谱 2nd ONE-MAN LIVE「不可解・弐Q2」中，宣布与花谱、理芽、春猿火、ヰ世界情绪共同组成虚拟歌手组合「V.W.P」。
+- **3月13日**：于[花谱](/zh/artists/vwp/kaf) 2nd ONE-MAN LIVE「不可解・弐Q2」中，宣布与花谱、[理芽](/zh/artists/vwp/rim)、[春猿火](/zh/artists/vwp/harusaruhi)、[ヰ世界情绪](/zh/artists/vwp/isekaijoucho)共同组成虚拟歌手组合「[V.W.P](/zh/artists/vwp/vwp)」。
 - **5月8日**：举办首场线上翻唱演唱会「ARARE LIVE」。
 - **6月10日**：发布原创单曲《ASH》，该曲作为游戏《Monark / 罪恶王权》的插曲。
 - **6月20日**：与 V.W.P 成员共同发布组合首支原创单曲《电脑》（電脳）。
-- **9月－10月**：连续发布「Player」企划的三支原创单曲《瞑目》、《夜光を呼ぶ》及《the last bullet》。
-- **12月29日**：举办首场个人演唱会「PLAYER」，公布 3D 新形态 Type-Real「Alnair」；同日首张个人专辑《prayer》开启预售。
+- **9月－10月**：连续发布「Player」企划的三支原创单曲《[瞑目](/zh/songs/koko/originals/瞑目-closing-ones-eyes)》、《[夜光を呼ぶ](/zh/songs/koko/originals/夜光を呼ぶ-recall-me)》及《[the last bullet](/zh/songs/koko/originals/the-last-bullet)》。
+- **12月29日**：举办首场个人演唱会「PLAYER」，公布 3D 新形态 Type-Real「Alnair」；同日首张个人专辑《[prayer](/zh/albums/koko/prayer)》开启预售。
 
 ### 2022年
 
 - **2月23日**：正式发行首张个人专辑《prayer》。
 - **4月15日－16日**：参演 V.W.P 1st ONE-MAN LIVE「现象」及联手演唱会「魔女集会」。
-- **7月12日**：与ヰ世界情绪发布合作原创曲《刻印》。
-- **7月15日**：宣布以其声音为蓝本的音乐同位体「狐子 / COKO」开始制作；同日发布为 TV 动画《5亿年按钮》演唱的片头曲《TIME》。
+- **7月12日**：与[ヰ世界情绪](/zh/artists/vwp/isekaijoucho)发布合作原创曲《[刻印](/zh/songs/isekaijoucho/collaborations/刻印-kokuin)》。
+- **7月15日**：宣布以其声音为蓝本的音乐同位体「狐子 / [COKO](/zh/artists/isotopes/coko)」开始制作；同日发布为 TV 动画《5亿年按钮》演唱的片头曲《[TIME](/zh/songs/koko/originals/time)》。
 - **11月6日**：与春猿火联合举办双人演唱会「Singularity Live Vol.2」。
 
 ### 2023年
@@ -118,7 +118,7 @@ seo:
 ### 2025年
 
 - **2月**：宣布正式恢复活动。
-- **4月23日**：正式发行第二张个人专辑《prayer2》。
+- **4月23日**：正式发行第二张个人专辑《[prayer2](/zh/albums/koko/prayer-2)》。
 - **5月14日**：举办 3rd ONE-MAN LIVE「PLAYER III」（于 Zepp Shinjuku），为时隔三年半的首场有观众线下个人演唱会。
 - **8月13日**：发布单曲《香格里拉》（シャングリラ），该曲作为 TV 动画《神椿市建设中。》的插曲。
 
@@ -132,7 +132,7 @@ seo:
 
 了解幸祜时，可以先从以下方向进入：
 
-- **个人单曲与专辑**：（如《むすんでひらいて》、《prayer2》等）
+- **个人单曲与专辑**：（如《[むすんでひらいて](/zh/songs/koko/originals/むすんでひらいて-musunde-hiraite)》、《[prayer2](/zh/albums/koko/prayer-2)》等）
 - **V.W.P 派生曲**：与其他成员构成对照的合唱曲
 - **大型现场**：以现场冲击力见长的 one-man live 与大型活动片段
 
@@ -141,7 +141,7 @@ seo:
 
 ## 个人音乐目录与合作
 
-幸祜的个人原创曲目录以《harmony》《白昼夢》《この世界に口づけを》《ASH》《瞑目》《夜光を呼ぶ》《the last bullet》《LIT》《閃光の彼方》《TIME》等为核心。相关资料还将《prayer》中的《花と蜜》《此処へ》《レイヴン・フリージア》《Bliss》以及《Monark》相关《Dear》《強欲》一并列为个人音乐谱系。
+幸祜的个人原创曲目录以《[harmony](/zh/songs/koko/originals/harmony)》《[白昼夢](/zh/songs/koko/originals/白昼夢-daydream)》《[この世界に口づけを](/zh/songs/koko/originals/この世界に口づけを-kiss-this-world)》《ASH》《[瞑目](/zh/songs/koko/originals/瞑目-closing-ones-eyes)》《[夜光を呼ぶ](/zh/songs/koko/originals/夜光を呼ぶ-recall-me)》《[the last bullet](/zh/songs/koko/originals/the-last-bullet)》《[LIT](/zh/songs/koko/originals/lit)》《[閃光の彼方](/zh/songs/koko/originals/閃光の彼方-beyond-the-flash)》《[TIME](/zh/songs/koko/originals/time)》等为核心。相关资料还将《[prayer](/zh/albums/koko/prayer)》中的《[花と蜜](/zh/songs/koko/originals/花と蜜-flowers-and-nectar)》《[此処へ](/zh/songs/koko/originals/此処へ-koko-e)》《[レイヴン・フリージア](/zh/songs/koko/originals/レイヴン・フリージア-raven-freesia)》《[Bliss](/zh/songs/koko/originals/bliss)》以及《Monark》相关《Dear》《強欲》一并列为个人音乐谱系。
 
 | 作品阶段 | 主要内容 | 说明 |
 | --- | --- | --- |
@@ -149,7 +149,7 @@ seo:
 | Player 阶段 | 《瞑目》《夜光を呼ぶ》《the last bullet》《LIT》 | 与「PLAYER」现场和 Alnair 形态绑定 |
 | 《prayer》 | 2022 年首张个人专辑 | 汇总早期个人曲与不同创作者合作 |
 | 《prayer2》 | 2025 年第二张个人专辑 | 回归活动后的个人路线延续 |
-| 合作曲 | 《÷》《古傷》《刻印》《素的》《歯車》 | 连接 V.W.P 成员和跨媒介作品 |
+| 合作曲 | 《÷》《[古傷](/zh/songs/harusaruhi/collaborations/古傷-furukizu)》《[刻印](/zh/songs/isekaijoucho/collaborations/刻印-kokuin)》《素的》《歯車》 | 连接 [V.W.P](/zh/artists/vwp/vwp) 成员和跨媒介作品 |
 
 ## 音乐作品与现场活动
 
@@ -163,7 +163,7 @@ seo:
 | 「PLAYER」系列 | 个人 one-man live | “Player”概念与 Type-Real「Alnair」形态相连 |
 | 《始まりの銃声》《シャングリラ》 | 后续单曲线索 | 连接个人音乐、动画与神椿跨媒体项目 |
 
-幸祜与春猿火的《ATELIER》《Nectar》、与ヰ世界情緒的《刻印》以及 V.W.P 的系谱曲，是理解她如何在合唱中使用高穿透声线的关键材料。她的音乐同位体「狐子 / COKO」则把这套声线交给创作者社区继续使用。
+幸祜与[春猿火](/zh/artists/vwp/harusaruhi)的《ATELIER》《Nectar》、与[ヰ世界情緒](/zh/artists/vwp/isekaijoucho)的《[刻印](/zh/songs/isekaijoucho/collaborations/刻印-kokuin)》以及 [V.W.P](/zh/artists/vwp/vwp) 的系谱曲，是理解她如何在合唱中使用高穿透声线的关键材料。她的音乐同位体「狐子 / [COKO](/zh/artists/isotopes/coko)」则把这套声线交给创作者社区继续使用。
 
 ## 形态、设定与轶事
 

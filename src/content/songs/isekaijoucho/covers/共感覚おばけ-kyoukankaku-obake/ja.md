@@ -18,7 +18,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 
 ## 作品概要
 
-「共感覚おばけ」は『CANDY LIVE』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「共感覚おばけ」は『[CANDY LIVE](/ja/albums/isekaijoucho/candy-live)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 歌詞
 

@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho.jpg
 
 ## Overview
 
-“モンタージュ” is track 11 of KAF’s 魔法.
+“モンタージュ” is track 11 of [KAF](/en/artists/vwp/kaf)’s [魔法](/en/albums/kaf/maho).
 
 ## Listen
 

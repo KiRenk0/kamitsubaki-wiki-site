@@ -19,7 +19,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 ## Overview
 
-“夜行バスにて(ろくろ Remix)” is track 6 of KAF’s 観測γ.
+“夜行バスにて(ろくろ Remix)” is track 6 of [KAF](/en/artists/vwp/kaf)’s [観測γ](/en/albums/kaf/kansoku-gamma).
 
 ## Listen
 

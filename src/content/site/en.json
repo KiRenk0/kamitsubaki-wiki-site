@@ -5,18 +5,28 @@
   "supportedLocales": [
     {
       "code": "zh",
-      "label": "中文",
-      "shortLabel": "中"
+      "label": "简体中文",
+      "shortLabel": "简中"
+    },
+    {
+      "code": "zh-tw",
+      "label": "繁體中文（台灣）",
+      "shortLabel": "台繁"
+    },
+    {
+      "code": "zh-hk",
+      "label": "繁體中文（香港）",
+      "shortLabel": "港繁"
     },
     {
       "code": "ja",
       "label": "日本語",
-      "shortLabel": "日"
+      "shortLabel": "日语"
     },
     {
       "code": "en",
       "label": "English",
-      "shortLabel": "EN"
+      "shortLabel": "ENG"
     }
   ],
   "navItems": [
@@ -195,12 +205,51 @@
       }
     ]
   },
+  "liveEvents": {
+    "enabled": true,
+    "eyebrow": "LIVE SCHEDULE",
+    "title": "Today's observations",
+    "buttonLabel": "Open today's event feed",
+    "closeLabel": "Close today's event feed",
+    "todayLabel": "Local time",
+    "loading": "Synchronizing event intelligence…",
+    "fallback": "The event line is unavailable. Please try again later.",
+    "cachedFallback": "Cannot reach the event API. Showing the local cache.",
+    "emptyToday": "No streams or events are recorded for today.",
+    "updatedLabel": "Last synced",
+    "cachedUpdatedLabel": "Cached",
+    "localTimeLabel": "Local",
+    "jstTimeLabel": "JST",
+    "viewCalendar": "View event calendar",
+    "detailsLabel": "View details",
+    "allDayLabel": "All day",
+    "statusLive": "Live now",
+    "statusUpcoming": "Upcoming",
+    "statusEnded": "Ended",
+    "statusCancelled": "Cancelled",
+    "pageTitle": "Event schedule",
+    "pageDescription": "Explore related artists' streams, performances, and public event history alongside announced future plans.",
+    "calendarEyebrow": "ARCHIVE // FORECAST",
+    "calendarTitle": "Event observation calendar",
+    "calendarIntro": "Select a date to inspect its events. The calendar synchronizes with the external event API every 30 seconds and displays Japan Standard Time.",
+    "previousMonthLabel": "View previous month",
+    "nextMonthLabel": "View next month",
+    "todayButtonLabel": "Today",
+    "selectDateLabel": "Selected date",
+    "emptyDay": "No recorded events on this date.",
+    "eventCountLabel": "events",
+    "backHomeLabel": "Back to home",
+    "weekdays": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+  },
   "aiChat": {
     "title": "AI Observer",
     "status": "KAMITSUBAKI WIKI",
     "buttonLabel": "Open AI Observer",
     "closeLabel": "Close AI Observer",
     "minimizeLabel": "Minimize AI Observer",
+    "settingsLabel": "AI Observer settings",
+    "threadActionsLabel": "Conversation actions",
+    "cancelLabel": "Cancel",
     "inputLabel": "Ask the AI Observer",
     "inputPlaceholder": "Ask about Kamitsubaki, V.W.P, projects, lore...",
     "sendLabel": "Send",

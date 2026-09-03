@@ -24,7 +24,7 @@ image: /images/albums/vwp/witch-plus.jpg
 
 ## Overview
 
-千年奏者 (feat. 花譜 & Albemuth) appears on 魔女ぷらす or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+千年奏者 (feat. [花譜](/en/artists/vwp/kaf) & [Albemuth](/en/artists/solo/albemuth)) appears on [魔女ぷらす](/en/albums/vwp/witch-plus) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

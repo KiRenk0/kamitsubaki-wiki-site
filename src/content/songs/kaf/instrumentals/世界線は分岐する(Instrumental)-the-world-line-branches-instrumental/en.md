@@ -18,7 +18,7 @@ image: /images/albums/kaf/maho.jpg
 
 ## Overview
 
-“世界線は分岐する(Instrumental)” is track 15 of KAF’s 魔法.
+“世界線は分岐する(Instrumental)” is track 15 of [KAF](/en/artists/vwp/kaf)’s [魔法](/en/albums/kaf/maho).
 
 ## Listen
 

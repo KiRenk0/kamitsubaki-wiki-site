@@ -33,7 +33,7 @@ theme:
       value: "#E6F3FA"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0f1923/a8d8ea?text=Awairo"
+image: "/images/artists/awairo.jpg"
 name: "Awairo"
 categoryTitle: "Solo / Units"
 categorySubtitle: "SOLO ARTISTS & UNITS"
@@ -48,7 +48,7 @@ seo:
 
 ## Overview
 
-Awairo is a next-generation music unit under KAMITSUBAKI STUDIO, composed of producer Yunosuke and vocalist WaMi. Their music merges sweet, emotionally charged melodies with EDM elements to express a delicate and wistful emotional world.
+Awairo is a next-generation music unit under [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio), composed of producer [Yunosuke](/en/artists/creators/yunosuke) and vocalist WaMi. Their music merges sweet, emotionally charged melodies with EDM elements to express a delicate and wistful emotional world.
 
 The unit released their first album "Gradient" in January 2025 and held a release party to celebrate. In February 2025, they followed up with the single "Bloonune." Through appearances at KAMITSUBAKI WARS 2024 Yokohama, KAMITSUBAKI FES '24, and a 2MAN LIVE with Azusagawa, Awairo has steadily expanded their presence within the Kamitsubaki ecosystem.
 

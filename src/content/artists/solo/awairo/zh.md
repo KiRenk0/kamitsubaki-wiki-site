@@ -33,7 +33,7 @@ theme:
       value: "#E6F3FA"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0f1923/a8d8ea?text=Awairo"
+image: "/images/artists/awairo.jpg"
 name: "淡色 / Awairo"
 categoryTitle: "Solo / 组合"
 categorySubtitle: "SOLO ARTISTS & UNITS"
@@ -48,9 +48,9 @@ seo:
 
 ## 概述
 
-淡色（Awairo）是 KAMITSUBAKI STUDIO 旗下的下一代音乐组合，由作曲家ゆのすけ（Yunosuke）与歌手 WaMi 两人组成。他们的音乐将甜美感性的旋律与 EDM 元素相融合，表达出纤细而惆怅的独特情感世界。
+淡色（Awairo）是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 旗下的下一代音乐组合，由作曲家ゆのすけ（[Yunosuke](/zh/artists/creators/yunosuke)）与歌手 WaMi 两人组成。他们的音乐将甜美感性的旋律与 EDM 元素相融合，表达出纤细而惆怅的独特情感世界。
 
-组合于 2025 年 1 月发行首张专辑「グラデーション」并举办发售纪念 Party，随后于同年 2 月发行单曲「ブルーンーン」。淡色曾参加 KAMITSUBAKI WARS 2024 横滨公演、KAMITSUBAKI FES '24 等大型活动，并与梓川举办了 2MAN LIVE，逐步扩大了在神椿体系中的影响力。
+组合于 2025年1月发行首张专辑「[グラデーション](/zh/albums/awairo/グラデーション-1798638788)」并举办发售纪念 Party，随后于同年 2 月发行单曲「ブルーンーン」。淡色曾参加 KAMITSUBAKI WARS 2024 横滨公演、KAMITSUBAKI FES '24 等大型活动，并与梓川举办了 2MAN LIVE，逐步扩大了在神椿体系中的影响力。
 
 ## 角色与创作定位
 
@@ -63,13 +63,13 @@ seo:
 - 组合开始活动，以ゆのすけ（作曲）+ WaMi（演唱）的形式展开。
 - 参加 KAMITSUBAKI WARS 2024 横滨公演。
 - 参加 KAMITSUBAKI FES '24。
-- 2025 年 1 月 15 日：发行首张专辑「グラデーション」，并举办 Release Party。
-- 2025 年 2 月 21 日：发行单曲「ブルーンーン」。
+- 2025年1月15日：发行首张专辑「グラデーション」，并举办 Release Party。
+- 2025年2月21日：发行单曲「ブルーンーン」。
 - 与梓川举办 2MAN LIVE。
 
 ## 代表作品与相关条目
 
-- 专辑：「グラデーション」（2025.01.15）
+- 专辑：「グラデーション」（2025年1月15日）
 - 单曲：「Pale&Deep」「個性」「Satellite」「烙印」「ブルーンーン」
 
 推荐搭配阅读：

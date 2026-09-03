@@ -10,8 +10,8 @@ releaseDate: "2020-09-23"
 label: "KAMITSUBAKI RECORD"
 trackCount: 4
 duration: "14:40"
-categoryTitle: "专辑"
-categorySubtitle: ALBUMS
+categoryTitle: "EP"
+categorySubtitle: EPS
 categoryOrder: 1
 itemOrder: 13
 image: /images/albums/kaf/love-and-flower.jpg
@@ -49,7 +49,7 @@ tracks:
 
 ## 作品简介
 
-花譜与 Kizuna AI 的合作 EP，收录《ラブしい》《かりそめ》及两首伴奏版；实体 KAF edition 另含广播内容。
+[花譜](/zh/artists/vwp/kaf)与 Kizuna AI 的合作 EP，收录《[ラブしい](/zh/songs/kaf/suites/ラブしい-loveshii)》《[かりそめ](/zh/songs/kaf/suites/かりそめ-transient)》及两首伴奏版；实体 KAF edition 另含广播内容。
 
 ## 发行与版本
 

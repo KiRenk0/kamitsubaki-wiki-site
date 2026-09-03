@@ -35,7 +35,7 @@ theme:
       value: "#E0F7FA"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0d1b2a/5ce1e6?text=Yunosuke"
+image: "/images/artists/yunosuke.jpg"
 name: "Yunosuke"
 categoryTitle: "创作者"
 categorySubtitle: "CREATORS / COMPOSERS"
@@ -58,7 +58,7 @@ seo:
 
 Yunosuke 的制作风格以精致的电子音景与流行乐感的融合为核心特征。他能够在保持旋律亲和力的同时，构建高能量、音色丰富的曲目，这种能力使他在虚拟与现实艺人领域均备受青睐。
 
-他还是与 WaMi 共组的组合 Awairo 的成员，进一步拓展了在神椿创作生态系统中的合作版图。插画由米室负责。
+他还是与 WaMi 共组的组合 [Awairo](/zh/artists/solo/awairo) 的成员，进一步拓展了在神椿创作生态系统中的合作版图。插画由米室负责。
 
 ## 代表作品
 
@@ -68,15 +68,15 @@ Yunosuke 的制作风格以精致的电子音景与流行乐感的融合为核�
 
 ## 投稿与制作履历
 
-雄之助自 2014 年 10 月开始在网络音乐界活动，第一首原创 VOCALOID 曲《ループメモリー》于 2014 年 10 月 17 日投稿。他主要使用 EDM、House 等电子音乐语汇，同时也制作纯音乐、游戏音乐和商业合作曲；《Take Me!!》《Pathos》《PaⅢ.SENSATION》是其早期代表作。
+雄之助自 2014年10月开始在网络音乐界活动，第一首原创 VOCALOID 曲《ループメモリー》于 2014年10月17日投稿。他主要使用 EDM、House 等电子音乐语汇，同时也制作纯音乐、游戏音乐和商业合作曲；《Take Me!!》《[Pathos](/zh/albums/yunosuke/Pathos-1103188278)》《PaⅢ.SENSATION》是其早期代表作。
 
-他在 2016 年 3 月 7 日于 Bilibili 投稿《Take Me!! (2016 Remix)》，是较早进入中文视频平台的日本 VOCALOID 制作人之一。其 Bilibili 受众规模和部分作品播放量长期高于 niconico，构成其海外传播经历的重要部分。
+他在 2016年3月7日于 Bilibili 投稿《Take Me!! (2016 Remix)》，是较早进入中文视频平台的日本 VOCALOID 制作人之一。其 Bilibili 受众规模和部分作品播放量长期高于 niconico，构成其海外传播经历的重要部分。
 
-除个人投稿外，雄之助还为 SOUND VOLTEX、Arcaea 等音乐游戏提供乐曲，并与 WaMi 组成音乐组合 Awairo。2023 年 10 月 18 日公开组合出道，10 月 20 日发布首支单曲《Pale&Deep》。
+除个人投稿外，雄之助还为 SOUND VOLTEX、Arcaea 等音乐游戏提供乐曲，并与 WaMi 组成音乐组合 Awairo。2023年10月18日公开组合出道，10 月 20 日发布首支单曲《Pale&Deep》。
 
 ## 作品整理
 
-主要个人专辑包括《Unique Antique》《Pathos》《Black or White》《Fiction》《Proto》《Tranquilizer》。其创作可以分为 VOCALOID 投稿、纯音乐、游戏供曲与 Awairo 组合活动四条线索；目录中应保留作词、作曲、编曲、调音和演唱者等不同制作职位。
+主要个人专辑包括《[Unique Antique](/zh/albums/yunosuke/Unique-Antique-1011454503)》《[Pathos](/zh/albums/yunosuke/Pathos-1103188278)》《[Black or White](/zh/albums/yunosuke/Black-or-White-1304869904)》《[Fiction](/zh/albums/yunosuke/Fiction-1419403824)》《[Proto](/zh/albums/yunosuke/Proto-1535422307)》《[Tranquilizer](/zh/albums/yunosuke/Tranquilizer-1684861827)》。其创作可以分为 VOCALOID 投稿、纯音乐、游戏供曲与 [Awairo](/zh/artists/solo/awairo) 组合活动四条线索；目录中应保留作词、作曲、编曲、调音和演唱者等不同制作职位。
 
 ## 外部链接
 

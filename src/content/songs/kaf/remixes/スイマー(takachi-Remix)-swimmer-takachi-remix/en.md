@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 ## Overview
 
-“スイマー(takachi Remix)” is track 5 of KAF’s 寓話γ.
+“スイマー(takachi Remix)” is track 5 of [KAF](/en/artists/vwp/kaf)’s [寓話γ](/en/albums/kaf/guwa-gamma).
 
 ## Listen
 

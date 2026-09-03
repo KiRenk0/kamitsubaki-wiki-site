@@ -17,11 +17,11 @@ code: KO1
 image: /images/albums/kaf/flower-and-heart.jpg
 ---
 
-## Introduction
+## Overview
 
-The very first original song of KAF.
+The very first original song of [KAF](/en/artists/vwp/kaf).
 
-## Preview
+## Listen
 
 {{media-switcher::KAF - Ito}}
 @[bilibili](BV1CJ411b7Ym "KAF - Ito")

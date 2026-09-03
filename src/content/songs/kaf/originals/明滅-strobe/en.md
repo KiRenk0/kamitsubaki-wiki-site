@@ -19,7 +19,7 @@ image: /images/albums/kaf/shinai.jpg
 
 ## Overview
 
-“明滅” is track 3 of KAF’s 深愛.
+“明滅” is track 3 of [KAF](/en/artists/vwp/kaf)’s [深愛](/en/albums/kaf/shinai).
 
 ## Listen
 

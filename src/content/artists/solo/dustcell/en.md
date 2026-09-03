@@ -82,7 +82,7 @@ Misumi is DUSTCELL's composer and arranger and is also active as a Vocaloid prod
 ### 2019: Formation
 
 - **October 11**: Released the first original song “CULT”.
-- **October 18**: Announced participation in the newly established KAMITSUBAKI STUDIO.
+- **October 18**: Announced participation in the newly established [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio).
 - **November 22**: Released “STIGMA”, an important early work.
 
 ### 2020: Album and Live Foundation
@@ -93,7 +93,7 @@ Misumi is DUSTCELL's composer and arranger and is also active as a Vocaloid prod
 - **July 3**: Converted the planned live into an audience-free stream because of the pandemic.
 - **July 31**: Held the 1st ONE-MAN LIVE *SUMMIT*.
 - **November 15**: Held the 2nd ONE-MAN LIVE *HOWL* in both online and in-person formats.
-- **December 23**: Released “Mad Hatter”.
+- **December 23**: Released “[Mad Hatter](/en/songs/dustcell/originals/mad-hatter)”.
 
 ### 2021 and after
 
@@ -101,7 +101,7 @@ Misumi is DUSTCELL's composer and arranger and is also active as a Vocaloid prod
 
 ## Music and Live Catalogue
 
-The early route runs through “CULT”, “STIGMA”, “LAZY”, “Heaven and Hell”, “DOMINATION”, “LILAC”, “SOPPY”, “Anemone”, “ONE”, “Shūten”, “DERO”, “PAIN”, “Mad Hatter”, “Inochi no Yukue”, and “Dokuhaku”.
+The early route runs through “CULT”, “STIGMA”, “LAZY”, “Heaven and Hell”, “DOMINATION”, “LILAC”, “SOPPY”, “Anemone”, “ONE”, “Shūten”, “[DERO](/en/songs/dustcell/originals/dero)”, “[PAIN](/en/songs/dustcell/originals/pain)”, “[Mad Hatter](/en/songs/dustcell/originals/mad-hatter)”, “Inochi no Yukue”, and “Dokuhaku”.
 
 | Phase | Key material | Function |
 | --- | --- | --- |

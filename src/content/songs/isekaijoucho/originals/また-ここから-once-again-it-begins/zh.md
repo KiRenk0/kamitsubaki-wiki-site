@@ -19,7 +19,7 @@ image: /images/albums/isekaijoucho/virtual-ties.jpg
 
 ## 作品简介
 
-《また、ここから》收录于《Virtual Ties 〜ヰ世界情緒夢想曲〜 Theme Songs》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《また、ここから》收录于《[Virtual Ties 〜ヰ世界情緒夢想曲〜 Theme Songs](/zh/albums/isekaijoucho/virtual-ties)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 

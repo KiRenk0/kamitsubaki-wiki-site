@@ -19,7 +19,7 @@ image: /images/songs/koko/single-1846506764.jpg
 
 ## Overview
 
-詩月灯りに幸福を (feat. KOKO) appears on 詩月灯りに幸福を or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+詩月灯りに幸福を (feat. [KOKO](/en/artists/vwp/koko)) appears on 詩月灯りに幸福を or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

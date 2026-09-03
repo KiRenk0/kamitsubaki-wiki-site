@@ -19,7 +19,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 ## Overview
 
-“Re:HEROINES(ポリスピカデリー Remix)” is track 5 of KAF’s 観測γ.
+“Re:HEROINES(ポリスピカデリー Remix)” is track 5 of [KAF](/en/artists/vwp/kaf)’s [観測γ](/en/albums/kaf/kansoku-gamma).
 
 ## Listen
 

@@ -19,7 +19,7 @@ image: /images/songs/isekaijoucho/single-1837107373.jpg
 
 ## Overview
 
-Silhouette (feat. ヰ世界情緒) appears on Silhouette or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+Silhouette (feat. [ヰ世界情緒](/en/artists/vwp/isekaijoucho)) appears on Silhouette or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

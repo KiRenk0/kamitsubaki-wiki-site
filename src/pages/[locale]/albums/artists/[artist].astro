@@ -5,7 +5,7 @@ import SiteFooter from '../../../../components/SiteFooter.astro';
 import SiteNav from '../../../../components/SiteNav.astro';
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import { getLocalizedEntries, getLocalizedSite } from '../../../../lib/homeData.mjs';
-import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../../lib/i18n.mjs';
+import { buildLocaleLinks, defaultLocale, resolveLocaleCopy, supportedLocales } from '../../../../lib/i18n.mjs';
 import { buildArtistAlbumCatalog } from '../../../../lib/musicCatalog.mjs';
 
 export async function getStaticPaths() {
@@ -27,7 +27,7 @@ export async function getStaticPaths() {
 
 const { locale, artist } = Astro.params;
 const { group } = Astro.props;
-const localeCode = locale as 'zh' | 'ja' | 'en';
+const localeCode = locale as 'zh' | 'zh-tw' | 'zh-hk' | 'ja' | 'en';
 const albums = group.entries as CollectionEntry<'albums'>[];
 const artistName = group.artist;
 const siteEntries = await getCollection('site');
@@ -35,11 +35,11 @@ const homeContent = getLocalizedSite(siteEntries, localeCode, defaultLocale);
 const currentPath = `/albums/artists/${artist}`;
 const localeLinks = buildLocaleLinks(homeContent, localeCode, currentPath);
 const alternates = supportedLocales.map((code) => ({ locale: code, href: `/${code}${currentPath}` }));
-const copy = {
+const copy = resolveLocaleCopy({
   zh: { back: '全部艺人', catalog: '专辑目录', albums: '张作品', artistEntry: '查看艺人条目', type: '类型', release: '发行日期' },
   ja: { back: 'すべてのアーティスト', catalog: 'アルバム一覧', albums: '作品', artistEntry: 'アーティスト記事を見る', type: '種類', release: 'リリース日' },
   en: { back: 'All artists', catalog: 'Album catalog', albums: 'albums', artistEntry: 'View artist entry', type: 'Type', release: 'Release date' },
-}[localeCode];
+}, localeCode);
 const accentColor = group.theme?.accentColor ?? '#d9dbe8';
 const pageStyle = `--catalog-accent:${accentColor};--catalog-surface:${group.theme?.surfaceColor ?? '#101117'}`;
 ---

@@ -1,3 +1,37 @@
+import {
+  convertChineseValue,
+  isChineseContentLocale,
+  isTraditionalChineseLocale,
+} from './traditionalChinese.mjs';
+
+function rewriteLocalizedSiteRoutes(value, locale) {
+  if (typeof value === 'string') {
+    return value.replace(/^\/zh(?=\/|[?#]|$)/u, `/${locale}`);
+  }
+  if (Array.isArray(value)) {
+    return value.map((item) => rewriteLocalizedSiteRoutes(item, locale));
+  }
+  if (!value || typeof value !== 'object') return value;
+
+  return Object.fromEntries(
+    Object.entries(value).map(([key, item]) => [
+      key,
+      rewriteLocalizedSiteRoutes(item, locale),
+    ]),
+  );
+}
+
+function deriveChineseSite(source, locale) {
+  const converted = convertChineseValue(source, locale, { ui: true });
+  return {
+    ...rewriteLocalizedSiteRoutes(converted, locale),
+    locale,
+    ...(isTraditionalChineseLocale(locale)
+      ? { generated: true, generatedFrom: 'zh' }
+      : {}),
+  };
+}
+
 export function sortByOrder(entries) {
   return [...entries].sort((a, b) => a.data.order - b.data.order);
 }
@@ -22,10 +56,13 @@ export function getLocalizedEntries(entries, locale, fallbackLocale = 'zh') {
 }
 
 export function getLocalizedSite(siteEntries, locale, fallbackLocale = 'zh') {
-  return (
-    siteEntries.find((entry) => entry.data.locale === locale)?.data ??
-    siteEntries.find((entry) => entry.data.locale === fallbackLocale)?.data
-  );
+  const fallback = siteEntries.find((entry) => entry.data.locale === fallbackLocale)?.data;
+
+  if (isChineseContentLocale(locale) && fallback) {
+    return deriveChineseSite(fallback, locale);
+  }
+
+  return siteEntries.find((entry) => entry.data.locale === locale)?.data ?? fallback;
 }
 
 export function humanizeSlug(slug) {
@@ -88,10 +125,41 @@ const homepageArtistCategoryOrder = {
   solo: 3,
   girls_revolution_project: 4,
   creators: 5,
+  derivative_characters: 6,
 };
 
-export function buildArtistCategories(artistEntries) {
+const homepageArtistCategoryLabels = {
+  derivative_characters: {
+    zh: {
+      title: '衍生角色',
+      subtitle: 'DERIVATIVE CHARACTERS',
+    },
+    ja: {
+      title: '派生キャラクター',
+      subtitle: 'DERIVATIVE CHARACTERS',
+    },
+    en: {
+      title: 'Derivative Characters',
+      subtitle: 'DERIVATIVE CHARACTERS',
+    },
+  },
+};
+
+export function buildArtistCategories(artistEntries, initialCategories = []) {
   const categories = new Map();
+
+  for (const initialCategory of initialCategories) {
+    const categoryId = `cat-${initialCategory.slug}`;
+
+    categories.set(categoryId, {
+      id: categoryId,
+      slug: initialCategory.slug,
+      title: initialCategory.title,
+      subtitle: initialCategory.subtitle,
+      order: homepageArtistCategoryOrder[initialCategory.slug] ?? initialCategory.order,
+      items: [],
+    });
+  }
 
   for (const entry of artistEntries) {
     const artist = entry.data;
@@ -165,6 +233,21 @@ export function buildArtistCategories(artistEntries) {
     }));
 }
 
+export function buildHomepageArtistCategories(artistEntries, locale = 'zh') {
+  const derivativeCharacterLabels = resolveLocaleCopy(
+    homepageArtistCategoryLabels.derivative_characters,
+    locale,
+    'zh',
+  );
+
+  return buildArtistCategories(artistEntries, [
+    {
+      slug: 'derivative_characters',
+      ...derivativeCharacterLabels,
+    },
+  ]);
+}
+
 export function buildDatabaseJumpLinks(artistCategories) {
   return artistCategories.map((category) => ({
     label: `>> ${category.title}`,
@@ -228,3 +311,4 @@ export function buildLogDisplayData(entry, locale) {
 export function buildLogCards(logEntries, locale) {
   return sortByOrder(logEntries).map((entry) => buildLogDisplayData(entry, locale));
 }
+import { resolveLocaleCopy } from './i18n.mjs';

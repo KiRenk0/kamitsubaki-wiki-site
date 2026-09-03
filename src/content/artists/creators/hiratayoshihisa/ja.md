@@ -33,7 +33,7 @@ theme:
       value: "#E0ECFF"
 statusLabel: "STATUS"
 status: "ACTIVE"
-image: "https://placehold.co/1200x800/0a0f1a/4a90d9?text=Yoshihisa+Hirata"
+image: "/images/artists/hiratayoshihisa.png"
 name: "平田義久"
 categoryTitle: "クリエイター"
 categorySubtitle: "CREATORS / COMPOSERS"
@@ -47,7 +47,7 @@ seo:
 
 ## 概要
 
-平田義久は、2021 年 10 月 18 日から ANARCHIC RECORD に所属する音楽アーティスト兼映像作家である。ジャズ、ヒップホップ、ロックを融合させた独自の「トーキョーサウンド」を標榜し、都市東京の質感とエネルギーを映画音楽的なアプローチで表現している。自らを映画好きと称するほどシネフィルであり、音楽作品にも映像作品にも物語性と視覚的な語り口を持ち込む点が特徴。
+平田義久は、2021年10月18日から ANARCHIC RECORD に所属する音楽アーティスト兼映像作家である。ジャズ、ヒップホップ、ロックを融合させた独自の「トーキョーサウンド」を標榜し、都市東京の質感とエネルギーを映画音楽的なアプローチで表現している。自らを映画好きと称するほどシネフィルであり、音楽作品にも映像作品にも物語性と視覚的な語り口を持ち込む点が特徴。
 
 また、UTAU 音源「劇薬」（Gekiyaku）を楽曲に取り入れることでも知られ、合成歌声と人間の表現を融合させた独自のサウンドアイデンティティを構築している。
 
@@ -59,12 +59,12 @@ UTAU 音源「劇薬」の活用は、ボカロ / UTAU クリエイターとの�
 
 ## 代表作品
 
-- 「夜に暇電」
-- 「日本の夜」-- フルアルバム
+- 「[夜に暇電](/ja/songs/hiratayoshihisa/originals/夜ni暇電)」
+- 「[日本の夜](/ja/albums/hiratayoshihisa/日本の夜-1820372816)」-- フルアルバム
 - 「渇愛論II」
-- 「トーキョー・コーリング」
-- 「夏至下る」
-- 「飛燕」
+- 「[トーキョー・コーリング](/ja/songs/hiratayoshihisa/originals/tookyoo-kooringu)」
+- 「[夏至下る](/ja/songs/hiratayoshihisa/originals/夏至下ru)」
+- 「[飛燕](/ja/songs/hiratayoshihisa/originals/飛燕)」
 
 ## 外部リンク
 

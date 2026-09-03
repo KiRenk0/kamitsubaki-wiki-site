@@ -67,9 +67,9 @@ seo:
 
 ## 概要
 
-星界（SEKAI）は KAMITSUBAKI STUDIO の「音楽的同位体」シリーズ第二弾としてリリースされた歌声合成ソフトウェア。バーチャルシンガーヰ世界情緒（ISEKAIJOUCHO）の歌声データをベースに、原歌声の透明感と物語性を継承している。
+星界（SEKAI）は [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) の「[音楽的同位体](/ja/artists/solo/musical-isotope)」シリーズ第二弾としてリリースされた歌声合成ソフトウェア。バーチャルシンガー[ヰ世界情緒](/ja/artists/vwp/isekaijoucho)（ISEKAIJOUCHO）の歌声データをベースに、原歌声の透明感と物語性を継承している。
 
-可不（KAFU）に続く第二の同位体として、音楽的同位体の製品ラインナップをさらに充実させた。声質は澄んで柔らかく、可不の少女性とは異なるポジショニングを持つ。
+[可不](/ja/artists/isotopes/kafu)（KAFU）に続く第二の同位体として、[音楽的同位体](/ja/artists/solo/musical-isotope)の製品ラインナップをさらに充実させた。声質は澄んで柔らかく、可不の少女性とは異なるポジショニングを持つ。
 
 ## 役割と創作上の位置づけ
 
@@ -127,7 +127,7 @@ seo:
 
 ## 関連企画 / 関連設定
 
-星界は「音楽的同位体プロジェクト」の一員。同プロジェクトは KAMITSUBAKI STUDIO が発起し、所属バーチャルシンガーの歌声データをベースに AI 技術で歌声合成ソフトウェアを開発している。可不（花譜ベース）と星界（ヰ世界情緒ベース）は現在のコアプロダクト。
+星界は「[音楽的同位体](/ja/artists/solo/musical-isotope)プロジェクト」の一員。同プロジェクトは [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) が発起し、所属バーチャルシンガーの歌声データをベースに AI 技術で歌声合成ソフトウェアを開発している。[可不](/ja/artists/isotopes/kafu)（[花譜](/ja/artists/vwp/kaf)ベース）と星界（[ヰ世界情緒](/ja/artists/vwp/isekaijoucho)ベース）は現在のコアプロダクト。
 
 連絡先：musical-isotope@kamitsubaki.jp
 

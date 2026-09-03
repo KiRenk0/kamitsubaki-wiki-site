@@ -8,7 +8,7 @@ order: 1
 ---
 ## Kamitsubaki City Under Construction
 
-- This is the first television anime based on KAMITSUBAKI STUDIO's original IP project *Kamitsubaki City Under Construction*, which has been in development since 2019. All 13 episodes (Episodes 0–12) aired across 28 TBS-affiliated stations from July 3 to September 25, 2025. A theatrical preview, *Kamitsubaki City Under Construction: Witchling*, also received a two-week limited release beginning June 13, 2025. The story takes place in a world where human civilization was devastated by a catastrophe seven years earlier. As Kamitsubaki City rebuilds, monsters called Tesseractors—born from human malice and desire—cause supernatural incidents. Five girls known as the Witchlings confront them using voices endowed with magical power.
+- This is the first television anime based on [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio)'s original IP project *Kamitsubaki City Under Construction*, which has been in development since 2019. All 13 episodes (Episodes 0–12) aired across 28 TBS-affiliated stations from July 3 to September 25, 2025. A theatrical preview, *Kamitsubaki City Under Construction: Witchling*, also received a two-week limited release beginning June 13, 2025. The story takes place in a world where human civilization was devastated by a catastrophe seven years earlier. As Kamitsubaki City rebuilds, monsters called Tesseractors—born from human malice and desire—cause supernatural incidents. Five girls known as the Witchlings confront them using voices endowed with magical power.
 
 ## Characters
 
@@ -49,7 +49,7 @@ order: 1
 - **World Setting, Supervision, and Original Scenario**: Sōki Tsukishima
 - **Original Planning**: Kenjirō Hariya (THINKR), Hiroyuki Akiyama (THINKR)
 - **Director, Series Composition, and Sound Director**: Kōdai Kakimoto
-- **Character Design**: PALOW.
+- **Character Design**: [PALOW.](/en/artists/creators/palow)
 - **Sub-character Design and Chief Animation Director**: Yuka Aono
 - **Main CG Director**: Yūya Ishihara
 - **Art Director**: Ken Naitō

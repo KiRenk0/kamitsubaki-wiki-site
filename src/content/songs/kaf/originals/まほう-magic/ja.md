@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho.jpg
 
 ## 作品概要
 
-「まほう (feat. RIM)」は花譜の『魔法』に収録された14曲目です。
+「まほう (feat. [RIM](/ja/artists/vwp/rim))」は[花譜](/ja/artists/vwp/kaf)の『[魔法](/ja/albums/kaf/maho)』に収録された14曲目です。
 
 ## 視聴
 

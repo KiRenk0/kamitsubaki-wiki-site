@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1689187557.jpg
 
 ## Overview
 
-“蕾に雷” is track 7 of KAF’s 組曲.
+“蕾に雷” is track 7 of [KAF](/en/artists/vwp/kaf)’s [組曲](/en/albums/kaf/suite).
 
 ## Listen
 

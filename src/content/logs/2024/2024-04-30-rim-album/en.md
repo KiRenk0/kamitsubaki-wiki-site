@@ -8,7 +8,7 @@ summary: "Added structure for future RIM album, single, and performance coverage
 order: 3
 ---
 
-This record notes the current direction for expanding RIM-related coverage.
+This record notes the current direction for expanding [RIM](/en/artists/vwp/rim)-related coverage.
 
 The present pass prepares:
 

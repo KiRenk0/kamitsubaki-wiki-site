@@ -19,7 +19,7 @@ image: /images/albums/kaf/kansoku.jpg
 
 ## 作品概要
 
-「未確認少女進行形」は花譜の『観測』に収録された8曲目です。
+「未確認少女進行形」は[花譜](/ja/artists/vwp/kaf)の『[観測](/ja/albums/kaf/kansoku)』に収録された8曲目です。
 
 ## 視聴
 

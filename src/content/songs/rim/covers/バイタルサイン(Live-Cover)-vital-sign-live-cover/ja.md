@@ -19,7 +19,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 
 ## 作品概要
 
-「バイタルサイン (Live Cover)」は『CHOCOLATE LIVE4』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「バイタルサイン (Live Cover)」は『[CHOCOLATE LIVE4](/ja/albums/rim/chocolate-live-4)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 試聴
 

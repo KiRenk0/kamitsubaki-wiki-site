@@ -19,7 +19,7 @@ image: /images/albums/kaf/kansoku.jpg
 
 ## Overview
 
-“Re:HEROINES” is track 6 of KAF’s 観測.
+“Re:HEROINES” is track 6 of [KAF](/en/artists/vwp/kaf)’s [観測](/en/albums/kaf/kansoku).
 
 ## Listen
 

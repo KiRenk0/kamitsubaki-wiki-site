@@ -50,9 +50,9 @@ seo:
 
 ## Overview
 
-PIEDPIPER is the overall lead producer (統括プロデューサー) of KAMITSUBAKI STUDIO, the creative collective behind some of the most distinctive virtual artist projects in Japan. He is responsible for the strategic and creative direction that unifies the studio's diverse roster of singers, composers, and multimedia ventures.
+PIEDPIPER is the overall lead producer (統括プロデューサー) of [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio), the creative collective behind some of the most distinctive virtual artist projects in Japan. He is responsible for the strategic and creative direction that unifies the studio's diverse roster of singers, composers, and multimedia ventures.
 
-His oversight extends across the entire Kamitsubaki ecosystem: the solo activities of KAF, the group dynamics of V.W.P, and the studio's major intellectual property projects including 神椿市建設中。 (Kamitsubaki City Under Construction), 音楽的同位体 (Musical Isotope), and the KAMITSUBAKI VERSE initiative. In this capacity, PIEDPIPER serves as the connective tissue linking individual creative output to the broader narrative architecture of the Kamitsubaki universe.
+His oversight extends across the entire Kamitsubaki ecosystem: the solo activities of [KAF](/en/artists/vwp/kaf), the group dynamics of [V.W.P](/en/artists/vwp/vwp), and the studio's major intellectual property projects including 神椿市建設中。 (Kamitsubaki City Under Construction), [音楽的同位体](/en/artists/solo/musical-isotope) (Musical Isotope), and the KAMITSUBAKI VERSE initiative. In this capacity, PIEDPIPER serves as the connective tissue linking individual creative output to the broader narrative architecture of the Kamitsubaki universe.
 
 ## Role and Creative Position
 

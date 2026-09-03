@@ -40,3 +40,6 @@ jobs:
 
       - name: Build static site
         run: pnpm build
+
+      - name: Audit Cloudflare Pages asset sizes
+        run: pnpm pages:assets:audit

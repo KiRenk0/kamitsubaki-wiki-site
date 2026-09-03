@@ -19,7 +19,7 @@ image: /images/albums/kaf/tomadoi-telepathy.jpg
 
 ## Overview
 
-“戸惑いテレパシー(柊キライ Remix)” is track 2 of KAF’s 戸惑いテレパシー.
+“[戸惑いテレパシー](/en/albums/kaf/tomadoi-telepathy)(柊キライ Remix)” is track 2 of [KAF](/en/artists/vwp/kaf)’s 戸惑いテレパシー.
 
 ## Listen
 

@@ -5,7 +5,7 @@ import SiteFooter from '../../../components/SiteFooter.astro';
 import MusicSubnav from '../../../components/MusicSubnav.astro';
 import { getCollection } from 'astro:content';
 import { getLocalizedSite, getLocalizedEntries } from '../../../lib/homeData.mjs';
-import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../lib/i18n.mjs';
+import { buildLocaleLinks, defaultLocale, resolveLocaleCopy, supportedLocales } from '../../../lib/i18n.mjs';
 import { buildArtistSongCatalog } from '../../../lib/musicCatalog.mjs';
 
 export function getStaticPaths() {
@@ -13,7 +13,7 @@ export function getStaticPaths() {
 }
 
 const { locale } = Astro.params;
-const localeCode = locale as 'zh' | 'ja' | 'en';
+const localeCode = locale as 'zh' | 'zh-tw' | 'zh-hk' | 'ja' | 'en';
 
 const siteEntries = await getCollection('site');
 const homeContent = getLocalizedSite(siteEntries, localeCode, defaultLocale);
@@ -29,11 +29,11 @@ const sortedSongs = [...songEntries].sort((a, b) =>
   || a.data.title.localeCompare(b.data.title, localeCode),
 );
 const artistGroups = buildArtistSongCatalog(sortedSongs, artistEntries, localeCode);
-const copy = {
+const copy = resolveLocaleCopy({
   zh: { title: '音乐作品', intro: '选择艺人，按作品类型浏览歌曲。', count: '首作品', categories: '个分类', view: '进入艺人曲库' },
   ja: { title: '楽曲作品', intro: 'アーティストを選び、楽曲の種類ごとに閲覧できます。', count: '曲', categories: 'カテゴリ', view: '楽曲一覧を見る' },
   en: { title: 'Songs', intro: 'Choose an artist, then browse songs by catalog type.', count: 'tracks', categories: 'categories', view: 'Open catalog' },
-}[localeCode];
+}, localeCode);
 ---
 
 <BaseLayout lang={localeCode} alternates={alternates} title={`Songs - Kamitsubaki Studio Fan Wiki`}>

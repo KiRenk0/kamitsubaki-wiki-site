@@ -11,15 +11,24 @@ order: 3
 	Go deeper, electronic girls!
 ## Introduction
 
-Girls' Revolution Project is a "Music × Story" multimedia project. Co-produced by KAMITSUBAKI STUDIO and FUKAIKA, this project features collaborations with various artists and composers. The project centers around the girls of the XTuber unit "<ruby>心世紀<rt>SINSEIKI</rt></ruby>" and the virtual singer group "<ruby>罪十罰<rt>TSUMITOBATSU</rt></ruby>". The virtual character designs for the girls are illustrated by PALOW.
+Girls' Revolution Project (少女革命計画, GIRLS REVOLUTION PROJECT) is a new "Music × Story" label and multimedia project co-produced by [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) and FUKAIKA. The project features collaborations with various artists and composers, and centers around the girls of the XTuber unit "<ruby>[心世紀](/en/artists/girls_revolution_project/sinseiki)<rt>SINSEIKI</rt></ruby>" and the virtual singer group "<ruby>[罪十罰](/en/artists/girls_revolution_project/tsumitobatsu)<rt>TSUMITOBATSU</rt></ruby>". The virtual character designs for the girls are illustrated by [PALOW.](/en/artists/creators/palow)
+
+The project's catchphrase is "A SECRET PROTOCOL THAT HELPS YOU EVOLVE. EVOLVE, ELECTRONIC GIRLS!"
 
 Most members of the groups were selected through the "SINSEKAI AUDITION" held in November 2021. On January 13, 2024, the project and its key visual were officially announced during "KAMITSUBAKI YOYOGI KESSEN 2024 GENSEI II -MAJO KAKUSEI-." Prior to their official debut, a manga providing insight into their inner personalities was released in conjunction with "Girls' Revolution Project – Q for REVOLUTION -," an online puzzle-solving event for users. On August 8 of the same year, they made their official debut as artists at the "KAMITSUBAKI FES '24 THE DAY THE EARTH STOOD STILL" event. Subsequently, they held their first one-man live concert on July 11, 2025.
 
 As a new venture for KAMITSUBAKI STUDIO, they not only engage in musical activities but also stream content similar to typical Virtual YouTubers, such as game Let's Plays using Live2D models.
 
+## Staff
+
+- Producer: PIEDPIPER
+- Original Story: KAMITSUBAKI STUDIO
+- Art Direction: PHASE STUDIO
+- Character Design: PALOW.
+
 ## Affiliated Artists
 
-- ### SINSEKI
+- ### [SINSEIKI (心世紀)](https://kamitsubaki.wiki/en/artists/girls_revolution_project/sinseiki/)
 	An emotional new-generation music style defined by sounds where reality and the virtual world intersect. 
 	A trio Xtuber unit that delivers their voices from the narrow gap between the real and the virtual. 
 	Cloaked in the light of a supernova, the girls race through the sleepless night.
@@ -28,7 +37,7 @@ As a new venture for KAMITSUBAKI STUDIO, they not only engage in musical activit
 - [**<ruby>佳镜院<rt>Kakyoin</rt></ruby>**](https://kamitsubaki.wiki/en/artists/girls_revolution_project/kakyoin/)
 - [**<ruby>硝子宫<rt>Garasumiya</rt></ruby>**](https://kamitsubaki.wiki/en/artists/girls_revolution_project/garasumiya/)
 - 
-- ### TSUMITOBATSU
+- ### [TSUMITOBATSU (罪十罰)](https://kamitsubaki.wiki/en/artists/girls_revolution_project/tsumitobatsu/)
 	An aggressive dance tune that sears the brand of sin with vocals echoing through the virtual world. 
 	A trio virtual singer unit that delivers their voices from the far-off abyss of the virtual realm. 
 	Bound by a secret pact, the girls slumber in an endless night.
@@ -44,19 +53,19 @@ As a new venture for KAMITSUBAKI STUDIO, they not only engage in musical activit
 |                          Title                           |    Release Date    |                                      Lyrics • Composition • Arrangement                                       |                          Vocals                           |
 | :------------------------------------------------------: | :----------------: | :-----------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------: |
 |           フェイクナイト・シンデレラ（Fake Night Cinderella）           |   August 9, 2024   |                                              矢野達也（Tatsuya Yano）                                               |                       心世紀（Sinsekai）                       |
-|               弔花（Chouka / Mourning Flower）               |  August 14, 2024   |                                                 他人事（Hitogoto）                                                 |                     罪十罰（Tsumitobatsu）                     |
+|               弔花（Chouka / Mourning Flower）               |  August 14, 2024   |                                                 [他人事](/en/artists/creators/hitogoto)（Hitogoto）                                                 |                     [罪十罰](/en/artists/girls_revolution_project/tsumitobatsu)（Tsumitobatsu）                     |
 |                   パーフェクション（Perfection）                   | September 18, 2024 |                       水野あつ（Atsu Mizuno — Lyrics）<br>HIDEYA KOJIMA（Music & Arrangement）                        |                       心世紀（Sinsekai）                       |
 |                          DIGGER                          | September 25, 2024 |                                 biz（Lyrics）<br>biz, ZERA（Music & Arrangement）                                 |                     罪十罰（Tsumitobatsu）                     |
-|                           well                           |  October 9, 2024   |                        祭日ハネダ（Saijitsu Haneda — Lyrics）<br>HiFi-P（Music & Arrangement）                         |                      硝子宮（Garasumiya）                      |
-|                       アライブ（Alive）                        |  October 16, 2024  |                                                夢魅たぴ（Mumi Tapi）                                                |                      氷夏至（Hinageshi）                       |
-|         夢の揺籠（Yume no Yurago / Cradle of Dreams）          |  October 23, 2024  |                                                   Wiz_nicc                                                    |                       佳鏡院（Kakyoin）                        |
-|                       アバウト（About）                        |  October 30, 2024  |                                          ポリスピカデリー（Police Piccadilly）                                          |                        夕凪機（Yunagi）                        |
-|               シンユウ（Shinyu / Close Friend）                |  November 6, 2024  |                                                    wotaku                                                     |                       御莉姫（Orihime）                        |
-|                     セルフィッシュ（Selfish）                     | November 13, 2024  |                                                   Shun Ueno                                                   |                        美古途（Mikoto）                        |
+|                           well                           |  October 9, 2024   |                        祭日ハネダ（Saijitsu Haneda — Lyrics）<br>[HiFi-P](/en/artists/creators/hifi-p)（Music & Arrangement）                         |                      [硝子宮](/en/artists/girls_revolution_project/garasumiya)（Garasumiya）                      |
+|                       アライブ（Alive）                        |  October 16, 2024  |                                                夢魅たぴ（Mumi Tapi）                                                |                      [氷夏至](/en/artists/girls_revolution_project/hinageshi)（Hinageshi）                       |
+|         夢の揺籠（Yume no Yurago / Cradle of Dreams）          |  October 23, 2024  |                                                   Wiz_nicc                                                    |                       [佳鏡院](/en/artists/girls_revolution_project/kakyoin)（Kakyoin）                        |
+|                       アバウト（About）                        |  October 30, 2024  |                                          ポリスピカデリー（Police Piccadilly）                                          |                        [夕凪機](/en/artists/girls_revolution_project/yunagi)（Yunagi）                        |
+|               シンユウ（Shinyu / Close Friend）                |  November 6, 2024  |                                                    wotaku                                                     |                       [御莉姫](/en/artists/girls_revolution_project/orihime)（Orihime）                        |
+|                     セルフィッシュ（Selfish）                     | November 13, 2024  |                                                   Shun Ueno                                                   |                        [美古途](/en/artists/girls_revolution_project/mikoto)（Mikoto）                        |
 |     現世回帰（Gensei Kaiki / Return to the Living World）      | November 20, 2024  |                   真崎エリカ（Erika Masaki — Lyrics）<br>水野谷怜（Rei Mizunoya — Music & Arrangement）                    |             心世紀（Sinsekai） × 罪十罰（Tsumitobatsu）             |
 |                      アイ（Ai / Love）                       | November 27, 2024  |                                                     higma                                                     |                      硝子宮（Garasumiya）                      |
 |                        ジャンク（Junk）                        |  December 4, 2024  |                                           内緒のピアス（Naisho no Pierce）                                            |                      氷夏至（Hinageshi）                       |
-|           宇宙逃避行（Uchu Touhikou / Space Escape）            | December 11, 2024  |                                                     MIMI                                                      |                       佳鏡院（Kakyoin）                        |
+|           宇宙逃避行（Uchu Touhikou / Space Escape）            | December 11, 2024  |                                                     [MIMI](/en/artists/creators/mimi)                                                      |                       [佳鏡院](/en/artists/girls_revolution_project/kakyoin)（Kakyoin）                        |
 |           プレイヤーわたし（Player Watashi / Player Me）           | December 18, 2024  |                                                     harha                                                     |                        夕凪機（Yunagi）                        |
 |                       Talking Doll                       | December 25, 2024  |                                                 他人事（Hitogoto）                                                 |                       御莉姫（Orihime）                        |
 |          アワセカガミ（Awase Kagami / Facing Mirrors）           |  January 8, 2025   |                                            木下龍平（Ryuhei Kinoshita）                                             |                        美古途（Mikoto）                        |
@@ -65,7 +74,7 @@ As a new venture for KAMITSUBAKI STUDIO, they not only engage in musical activit
 |         ガラスのパズル（Garasu no Puzzle / Glass Puzzle）         |  February 5, 2025  |         ボンジュール鈴木（Bonjour Suzuki — Lyrics & Music）<br>鈴木Daichi秀行（Daichi Hideyuki Suzuki — Arrangement）         |               硝子宮（Garasumiya） × 美古途（Mikoto）               |
 |                    シネマティック（Cinematic）                    | February 12, 2025  |                                            櫻井健太郎（Kentaro Sakurai）                                             |               佳鏡院（Kakyoin） × 氷夏至（Hinageshi）               |
 |                   瞬き（Mabataki / Blink）                   | February 19, 2025  |                                            木下龍平（Ryuhei Kinoshita）                                             |                御莉姫（Orihime） × 夕凪機（Yunagi）                 |
-|                      ココロト（Kokoroto）                      | February 26, 2025  |                                                    とあ（Toa）                                                    |                       心世紀（Sinsekai）                       |
+|                      ココロト（Kokoroto）                      | February 26, 2025  |                                                    とあ（[Toa](/en/artists/creators/toa)）                                                    |                       [心世紀](/en/artists/girls_revolution_project/sinseiki)（Sinsekai）                       |
 |                        blindness                         |   March 5, 2025    |                                                ⌘ハイノミ（⌘Hainomi）                                                |                     罪十罰（Tsumitobatsu）                     |
 |                          ANGER                           |   March 12, 2025   |                           Mahiro（Lyrics）<br>Kazuto Okawa:LLLL（Music & Arrangement）                            |                       御莉姫（Orihime）                        |
 |                 キリガサガリキ（Kirigasa Gariki）                 |   March 19, 2025   |                                                   Purukichi                                                   |                       佳鏡院（Kakyoin）                        |
@@ -85,13 +94,13 @@ As a new venture for KAMITSUBAKI STUDIO, they not only engage in musical activit
 |                        FantastiQ                         |  October 29, 2025  |                            ぽん（Pon — Lyrics）<br>HIDEYA KOJIMA（Music & Arrangement）                             |                       心世紀（Sinsekai）                       |
 |                          RAVEN                           |  October 29, 2025  |                                                 梓川（Azusagawa）                                                 |                     罪十罰（Tsumitobatsu）                     |
 |                    アウフヘーベン（Aufheben）                     |  October 29, 2025  |                                              椎乃味醂（Shiino Mirin）                                               |                     罪十罰（Tsumitobatsu）                     |
-|                      Brrrrrreak It                       |  October 29, 2025  |                                            平田義久（Yoshihisa Hirata）                                             |                     罪十罰（Tsumitobatsu）                     |
-|                           Envy                           |  October 29, 2025  |                         tokiwa（Lyrics & Music）<br>朝比奈健人（Kento Asahina — Arrangement）                          |                     罪十罰（Tsumitobatsu）                     |
+|                      Brrrrrreak It                       |  October 29, 2025  |                                            [平田義久](/en/artists/creators/hiratayoshihisa)（Yoshihisa Hirata）                                             |                     [罪十罰](/en/artists/girls_revolution_project/tsumitobatsu)（Tsumitobatsu）                     |
+|                           Envy                           |  October 29, 2025  |                         [tokiwa](/en/artists/creators/tokiwa)（Lyrics & Music）<br>朝比奈健人（Kento Asahina — Arrangement）                          |                     [罪十罰](/en/artists/girls_revolution_project/tsumitobatsu)（Tsumitobatsu）                     |
 |                 改変（Kaihen / Alteration）                  |  October 29, 2025  |                        たなか（Tanaka — Lyrics & Music）<br>Kazuto Okawa:LLLL（Arrangement）                         |             心世紀（Sinsekai） × 罪十罰（Tsumitobatsu）             |
 |         月へゆく（Tsuki he Yuku / Going to the Moon）          | November 12, 2025  |                                                     tama                                                      |                       佳鏡院（Kakyoin）                        |
-|                     Masquerade Kill                      | November 26, 2025  |                                                    廉（Ren）                                                     |                       御莉姫（Orihime）                        |
+|                     Masquerade Kill                      | November 26, 2025  |                                                    廉（[Ren](/en/artists/creators/ren)）                                                     |                       [御莉姫](/en/artists/girls_revolution_project/orihime)（Orihime）                        |
 |  化け物でいさせて（Bakemono de Isasete / Let Me Stay a Monster）   | December 17, 2025  |                 櫻井健太郎（Kentaro Sakurai — Lyrics & Music）<br>永野大輔（Daisuke Nagano — Arrangement）                 |                        夕凪機（Yunagi）                        |
-|    クロマティック feat.ヰ世界情緒（Chromatic feat. Isekai Joucho）     | December 24, 2025  |                                              矢野達也（Tatsuya Yano）                                               | 心世紀（Sinsekai） × 罪十罰（Tsumitobatsu）<br>ヰ世界情緒（Isekai Joucho） |
+|    クロマティック feat.[ヰ世界情緒](/en/artists/vwp/isekaijoucho)（Chromatic feat. Isekai Joucho）     | December 24, 2025  |                                              矢野達也（Tatsuya Yano）                                               | [心世紀](/en/artists/girls_revolution_project/sinseiki)（Sinsekai） × [罪十罰](/en/artists/girls_revolution_project/tsumitobatsu)（Tsumitobatsu）<br>ヰ世界情緒（Isekai Joucho） |
 |                        sweet/sour                        |  January 7, 2026   |                                                  水槽（Suisou）                                                   |                      氷夏至（Hinageshi）                       |
 |                大罪（Taizai / Cardinal Sin）                 |  January 23, 2026  |                     他人事（Hitogoto — Lyrics）<br>他人事（Hitogoto）, Zexnum（Music & Arrangement）                      |                     罪十罰（Tsumitobatsu）                     |
 |      侵蝕の記録（Shinshoku no Kiroku / Record of Erosion）      | February 18, 2026  |                                                    Neuron                                                     |                        美古途（Mikoto）                        |
@@ -112,7 +121,7 @@ As a new venture for KAMITSUBAKI STUDIO, they not only engage in musical activit
 - **KAMITSUBAKI WARS 2024 Kamitsubaki Makuhari Sensen V.W.P 2nd ONE-MAN LIVE "Gensei II (Re)"**
     - Cast: Orihime, Mikoto, Yunagi, Hinageshi
     - 
-- **KAMITSUBAKI WARS 2025 Kamitsubaki Kawasaki Sensen Girls' Revolution Project 1st LIVE / Act I "Kaihen"**
+- **KAMITSUBAKI WARS 2025 Kamitsubaki [Kawasaki](/en/artists/creators/kawasaki) Sensen Girls' Revolution Project 1st LIVE / Act I "Kaihen"**
     - Cast: Kakyoin, Orihime, Garasumiya, Mikoto, Yunagi, Hinageshi
         
 - **~~GRAYSCALE -CYAN-~~**

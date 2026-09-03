@@ -19,7 +19,7 @@ image: /images/songs/isekaijoucho/single-1837107373.jpg
 
 ## 作品概要
 
-「Silhouette (feat. ヰ世界情緒)」は『Silhouette』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「Silhouette (feat. [ヰ世界情緒](/ja/artists/vwp/isekaijoucho))」は『Silhouette』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 試聴
 

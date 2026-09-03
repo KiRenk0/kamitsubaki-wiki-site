@@ -39,7 +39,7 @@ theme:
       value: "#FFF4E6"
 statusLabel: "STATUS"
 status: "INDEPENDENT"
-image: "https://placehold.co/1200x800/1a1410/f5a623?text=GUIANO"
+image: "https://placehold.co/1200x800/0a0a12/a0a0b0?text=GUIANO"
 name: "Guiano"
 categoryTitle: "Creators"
 categorySubtitle: "CREATORS / COMPOSERS / ILLUSTRATORS"
@@ -52,9 +52,9 @@ seo:
 
 ## Overview
 
-Guiano is a Vocaloid producer and singer-songwriter under KAMITSUBAKI STUDIO, also affiliated with the KAMITSUBAKI CREATION label. Known for warm, emotionally resonant melodies, he is active across personal releases, song provision for other artists, and cross-artist collaborations.
+Guiano is a Vocaloid producer and singer-songwriter under [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio), also affiliated with the KAMITSUBAKI CREATION label. Known for warm, emotionally resonant melodies, he is active across personal releases, song provision for other artists, and cross-artist collaborations.
 
-Within the Kamitsubaki ecosystem, Guiano is best known for his collaborative album *imagine* with Rim and for providing songs to KAF and Myuk. His work spans from tender ballads to rhythmically driven pop, demonstrating considerable creative range.
+Within the Kamitsubaki ecosystem, Guiano is best known for his collaborative album *[imagine](/en/albums/guiano/imagine-1706455950)* with [Rim](/en/artists/vwp/rim) and for providing songs to [KAF](/en/artists/vwp/kaf) and Myuk. His work spans from tender ballads to rhythmically driven pop, demonstrating considerable creative range.
 
 ## Role and Creative Position
 
@@ -69,7 +69,7 @@ As a member of KAMITSUBAKI CREATION, Guiano's activities extend beyond the virtu
 - February 20, 2023: Released the single "Watashi wa, Watashitachi wa."
 - May 24, 2023: Released the EP "Kachou Fuugetsu."
 - September 20, 2023: Released the collaborative album *imagine* with Rim.
-- 2023: Appeared at KAMITSUBAKI FES'23 (DAY2 main act alongside Kanzaki Iori, DUSTCELL, Onuma Paseli).
+- 2023: Appeared at KAMITSUBAKI FES'23 (DAY2 main act alongside [Kanzaki Iori](/en/artists/creators/kanzaki-iori), [DUSTCELL](/en/artists/solo/dustcell), Onuma Paseli).
 - March 27, 2024: Released the single "Good Style."
 - Provided songs for Myuk including "Ai no Uta" (2023) and "Arcana" (2024).
 - Held at least 2 solo one-man live concerts.

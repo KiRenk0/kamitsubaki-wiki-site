@@ -1,84 +1,64 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
-import { readContentEntryBody } from '../lib/contentSource.mjs';
 import {
-  buildIndexAliases,
-  buildIndexDescription,
-  buildIndexStats,
-  cleanIndexText,
-  extractIndexHeadings,
-  flattenIndexMetadata,
-} from '../lib/searchIndex.mjs';
+  aiIndexCollections,
+  buildAiIndexEntries,
+  buildAiIndexShardDescriptors,
+} from '../lib/aiIndex.mjs';
+import { supportedLocales } from '../lib/i18n.mjs';
 
 export const prerender = true;
 
-const textLimits: Record<string, number> = {
-  artist: 8000,
-  album: 4200,
-  song: 2200,
-  project: 7000,
-  log: 5200,
+type AiIndexCollection = 'artists' | 'albums' | 'songs' | 'projects' | 'logs';
+
+type CompatibilityEntry = {
+  title: string;
+  text: string;
+  url: string;
+  locale: string;
 };
 
-function articleRoute(collection: string, id: string) {
-  const parts = id.split('/');
-  const locale = parts.pop() || 'zh';
-  return `/${locale}/${collection}/${parts.join('/')}/`;
-}
+const compatibilityTextLimit = 2400;
 
-function titleFor(entry: { data: Record<string, unknown> }) {
-  return cleanIndexText(
-    entry.data.name || entry.data.title || entry.data.heading || entry.data.translationKey || '',
-    180,
-  );
-}
+const collectionLoaders = {
+  artists: () => getCollection('artists'),
+  albums: () => getCollection('albums'),
+  songs: () => getCollection('songs'),
+  projects: () => getCollection('projects'),
+  logs: () => getCollection('logs'),
+} satisfies Record<AiIndexCollection, () => Promise<unknown[]>>;
 
 export const GET: APIRoute = async ({ site }) => {
+  const shards = buildAiIndexShardDescriptors(supportedLocales);
   const origin = (import.meta.env.PUBLIC_SITE_URL || site?.origin || 'https://kamitsubaki.wiki').replace(/\/$/u, '');
-  const groups = await Promise.all([
-    getCollection('artists'),
-    getCollection('albums'),
-    getCollection('songs'),
-    getCollection('projects'),
-    getCollection('logs'),
-  ]);
-  const collectionNames = ['artists', 'albums', 'songs', 'projects', 'logs'];
-  const entries = [];
+  const entries: CompatibilityEntry[] = [];
 
-  for (const [groupIndex, group] of groups.entries()) {
-    for (const entry of group) {
-      const path = articleRoute(collectionNames[groupIndex], entry.id);
-      const { body } = await readContentEntryBody(entry);
-      const kind = collectionNames[groupIndex].replace(/s$/u, '');
-      const data = entry.data as Record<string, any>;
-      const title = titleFor(entry as { data: Record<string, unknown> });
-      const aliases = buildIndexAliases(data);
-      const description = buildIndexDescription(data, body);
-      const headings = extractIndexHeadings(body);
-      const metadata = flattenIndexMetadata(data).join(' ');
-      const text = cleanIndexText(`${metadata} ${body}`, textLimits[kind] || 6000);
-      entries.push({
-        id: `${kind}:${entry.id}`,
-        translationKey: data.translationKey,
+  // Keep only the fields consumed by the deployed v2 reader. Full metadata
+  // remains available in shards without pushing this compatibility asset over
+  // the Cloudflare Pages per-file limit.
+  for (const collection of aiIndexCollections as readonly AiIndexCollection[]) {
+    const group = await collectionLoaders[collection]();
+    for (const locale of supportedLocales) {
+      const shardEntries = await buildAiIndexEntries(group, { collection, locale, origin });
+      entries.push(...shardEntries.map(({ title, text, url, locale: entryLocale }) => ({
         title,
-        aliases,
-        url: `${origin}${path}`,
-        path,
-        locale: data.locale,
-        kind,
-        description,
-        headings,
-        image: typeof data.image === 'string' ? data.image : undefined,
-        text,
-      });
+        text: text.slice(0, compatibilityTextLimit),
+        url,
+        locale: entryLocale,
+      })));
     }
   }
 
   return new Response(JSON.stringify({
-    version: 2,
+    version: 3,
     schema: 'kamitsubaki-wiki-ai-index',
     generatedAt: new Date().toISOString(),
-    stats: buildIndexStats(entries),
+    layout: 'locale-collection-shards',
+    shardCount: shards.length,
+    locales: supportedLocales,
+    collections: aiIndexCollections,
+    shards,
+    compatibility: 'v2-compact-entries',
     entries,
   }), {
     headers: {

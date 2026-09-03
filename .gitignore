@@ -10,6 +10,12 @@ dist/
 # Astro generated
 .astro/
 
+# Build-generated Traditional Chinese content
+src/content/**/zh-tw.md
+src/content/**/zh-hk.md
+src/content/site/zh-tw.json
+src/content/site/zh-hk.json
+
 # Environment variables
 .env
 .env.*
@@ -30,6 +36,11 @@ Thumbs.db
 *.swo
 *~
 
+# Local AI assistant state
+.reasonix/
+reasonix.toml
+.workbuddy/
+
 # Logs
 *.log
 npm-debug.log*
@@ -44,6 +55,9 @@ output/playwright/
 .vercel/
 .netlify/
 
-# Promo
-promo-app/
-promo-page/
+# Promo (keep sources, ignore regenerable exports)
+promo/*/exports/
+
+# Lyrics fetch cache (regenerable, maintenance scripts only)
+scripts/lyrics-cache.json
+lazygit.exe

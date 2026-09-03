@@ -171,7 +171,7 @@ tracks:
 
 ## 作品简介
 
-“I SCREAM LIVE”翻唱现场系列第二作，数字版共三十一轨并保留九段 MC。
+“[I SCREAM LIVE](/zh/albums/kaf/i-scream-live)”翻唱现场系列第二作，数字版共三十一轨并保留九段 MC。
 
 ## 发行与版本
 

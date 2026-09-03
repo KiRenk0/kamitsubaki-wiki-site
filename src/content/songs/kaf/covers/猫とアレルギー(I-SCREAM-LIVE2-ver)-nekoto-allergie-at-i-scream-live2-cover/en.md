@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 ## Overview
 
-“猫とアレルギー (I SCREAM LIVE2 ver.)” is track 6 of KAF’s I SCREAM LIVE2.
+“猫とアレルギー (I SCREAM LIVE2 ver.)” is track 6 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE2](/en/albums/kaf/i-scream-live-2).
 
 ## Listen
 

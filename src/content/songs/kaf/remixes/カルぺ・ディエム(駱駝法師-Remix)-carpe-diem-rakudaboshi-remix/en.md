@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 ## Overview
 
-“カルぺ・ディエム(駱駝法師 Remix)” is track 10 of KAF’s 寓話γ.
+“カルぺ・ディエム(駱駝法師 Remix)” is track 10 of [KAF](/en/artists/vwp/kaf)’s [寓話γ](/en/albums/kaf/guwa-gamma).
 
 ## Listen
 

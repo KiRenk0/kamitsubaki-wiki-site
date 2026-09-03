@@ -91,8 +91,8 @@ tracks:
 
 ## 作品概要
 
-花譜のRemix Album「観測γ（ガンマ）」。
-9月11日に発売された1st Album「観測」のインストを除く全13曲を13名のアーティストが1曲ずつリミックスした作品集。参加アーティストは花譜も所属するKAMITSUBAKI STUDIOのGuiano、大沼パセリ、Misumi、samayuzameをはじめ、ピコン、春野、笹川真生、ポリスピカデリー、ろくろ、煮ル果実、ツミキ、傘村トータ、syudou、とまさに今注目されている新世代の才能13名が参加している。
+[花譜](/ja/artists/vwp/kaf)のRemix Album「観測γ（ガンマ）」。
+9月11日に発売された1st Album「[観測](/ja/albums/kaf/kansoku)」のインストを除く全13曲を13名のアーティストが1曲ずつリミックスした作品集。参加アーティストは[花譜](/ja/artists/vwp/kaf)も所属する[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio)の[Guiano](/ja/artists/creators/guiano)、大沼パセリ、Misumi、samayuzameをはじめ、ピコン、春野、笹川真生、ポリスピカデリー、ろくろ、煮ル果実、ツミキ、傘村トータ、syudou、とまさに今注目されている新世代の才能13名が参加している。
 
 CDアルバム「観測γ」の他にスクエアノート(64P)、音声劇「御伽噺 -第二幕-」(ポエトリーCD)、アクリルキーホルダー (穂竹藤丸 Ver.)、ポストカード (PALOW Ver.)、ステッカーγセット (3枚)、缶バッジγセット (3個)、アルバム「観測γ」への寄稿文 (リミックス参加アーティストより)が同梱されたスペシャルボックス。
 

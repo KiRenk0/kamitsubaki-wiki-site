@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 ## Overview
 
-“まほう(MIMI Remix) [feat. RIM]” is track 13 of KAF’s 魔法γ.
+“まほう([MIMI](/en/artists/creators/mimi) Remix) [feat. RIM]” is track 13 of [KAF](/en/artists/vwp/kaf)’s [魔法γ](/en/albums/kaf/maho-gamma).
 
 ## Listen
 

@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1703711463.jpg
 
 ## 作品概要
 
-「わたしの声」は花譜の『組曲』に収録された14曲目です。
+「わたしの声」は[花譜](/ja/artists/vwp/kaf)の『[組曲](/ja/albums/kaf/suite)』に収録された14曲目です。
 
 ## 視聴
 

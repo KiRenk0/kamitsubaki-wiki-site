@@ -19,7 +19,7 @@ image: /images/songs/kaf/track-1687478833.jpg
 
 ## 作品概要
 
-「例えば」は花譜の『狂想』に収録された10曲目です。
+「例えば」は[花譜](/ja/artists/vwp/kaf)の『[狂想](/ja/albums/kaf/kyoso)』に収録された10曲目です。
 
 ## 視聴
 

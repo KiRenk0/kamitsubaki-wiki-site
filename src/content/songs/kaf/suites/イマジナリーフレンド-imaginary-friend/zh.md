@@ -17,7 +17,7 @@ image: /images/songs/kaf/track-1688348617.jpg
 
 ## 作品简介
 
-《イマジナリーフレンド》是花譜收录于《組曲》的第 2 轨。
+《イマジナリーフレンド》是[花譜](/zh/artists/vwp/kaf)收录于《[組曲](/zh/albums/kaf/suite)》的第 2 轨。
 
 ## 试听
 

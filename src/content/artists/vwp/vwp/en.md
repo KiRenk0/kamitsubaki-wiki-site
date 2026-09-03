@@ -69,7 +69,7 @@ seo:
 
 ## Overview
 
-V.W.P (Virtual Witch Phenomenon) is the core virtual artist group under KAMITSUBAKI STUDIO, comprising five "digital witches": KAF, Rim, HARUSARUHI, ISEKAIJOUCHO, and KOKO.
+V.W.P (Virtual Witch Phenomenon) is the core virtual artist group under [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio), comprising five "digital witches": [KAF](/en/artists/vwp/kaf), [Rim](/en/artists/vwp/rim), [HARUSARUHI](/en/artists/vwp/harusaruhi), [ISEKAIJOUCHO](/en/artists/vwp/isekaijoucho), and [KOKO](/en/artists/vwp/koko).
 
 More than a music unit, V.W.P is a cross-media narrative framework built around the motif of "witches." Each member maintains her own solo activities, but under the V.W.P name they collectively construct a grand story about fate, observation, and the awakening of witches.
 

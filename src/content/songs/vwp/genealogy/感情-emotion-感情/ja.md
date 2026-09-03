@@ -24,7 +24,7 @@ image: /images/songs/vwp/single-1719581058.jpg
 
 ## 作品概要
 
-「感情 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)」は『感情』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「感情 (feat. [KAF](/ja/artists/vwp/kaf), [RIM](/ja/artists/vwp/rim), [Harusaruhi](/ja/artists/vwp/harusaruhi), [Isekaijoucho](/ja/artists/vwp/isekaijoucho) & [KOKO](/ja/artists/vwp/koko))」は『感情』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 試聴
 

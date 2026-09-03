@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 ## Overview
 
-“ゲシュタルト(おとめ Remix)” is track 9 of KAF’s 寓話γ.
+“ゲシュタルト(おとめ Remix)” is track 9 of [KAF](/en/artists/vwp/kaf)’s [寓話γ](/en/albums/kaf/guwa-gamma).
 
 ## Listen
 

@@ -24,7 +24,7 @@ image: /images/albums/vwp/witch-plus.jpg
 
 ## Overview
 
-此処で咲かせて (feat. 幸祜 & CIEL) appears on 魔女ぷらす or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+此処で咲かせて (feat. [幸祜](/en/artists/vwp/koko) & [CIEL](/en/artists/solo/ciel)) appears on [魔女ぷらす](/en/albums/vwp/witch-plus) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

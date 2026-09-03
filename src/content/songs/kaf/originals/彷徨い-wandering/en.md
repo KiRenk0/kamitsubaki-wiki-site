@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho.jpg
 
 ## Overview
 
-“彷徨い” is track 6 of KAF’s 魔法.
+“彷徨い” is track 6 of [KAF](/en/artists/vwp/kaf)’s [魔法](/en/albums/kaf/maho).
 
 ## Listen
 

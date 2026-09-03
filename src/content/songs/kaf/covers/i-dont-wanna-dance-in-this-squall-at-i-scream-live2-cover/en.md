@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 ## Overview
 
-“I Don't Wanna Dance In This Squall (I SCREAM LIVE2 ver.)” is track 11 of KAF’s I SCREAM LIVE2.
+“I Don't Wanna Dance In This Squall (I SCREAM LIVE2 ver.)” is track 11 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE2](/en/albums/kaf/i-scream-live-2).
 
 ## Listen
 
