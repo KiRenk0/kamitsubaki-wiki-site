@@ -84,6 +84,7 @@ test('AI chat widget exposes interaction hooks and stream parser integration', a
   assert.equal(component.includes('data-ai-thinking-mode'), false);
   assert.match(component, /data-ai-challenge-tray/);
   assert.match(component, /data-ai-challenge-mount/);
+  assert.match(component, /data-ai-terminal-link/);
   assert.match(script, /toggle\.addEventListener\('click'/);
   assert.match(script, /close\.addEventListener\('click'/);
   assert.match(script, /scrim\?\.addEventListener\('click'/);
@@ -115,6 +116,9 @@ test('AI chat widget exposes interaction hooks and stream parser integration', a
   assert.match(script, /event\.ctrlKey/);
   assert.match(script, /event\.metaKey/);
   assert.match(script, /event\.defaultPrevented/);
+  assert.match(script, /compositionstart/);
+  assert.match(script, /compositionend/);
+  assert.match(script, /event\.keyCode === 229/);
   assert.match(script, /insertTextareaNewline/);
   assert.match(script, /selectionStart/);
   assert.match(script, /requestSubmit/);

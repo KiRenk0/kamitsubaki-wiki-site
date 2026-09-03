@@ -13,7 +13,7 @@ This site is a static Astro wiki with URL-based internationalization and content
 /en/   -> English site
 ```
 
-The production build is static HTML, CSS, and browser JavaScript. It does not require a backend at runtime.
+The production build is static HTML, CSS, and browser JavaScript. Reading the wiki does not require an application server; the unified AI widget calls a separate Worker API at browser runtime.
 
 ## Content Flow
 
@@ -67,6 +67,8 @@ Homepage DATABASE categories are derived from the first folder level in `src/con
 - Announcement board: the home page selects the pinned or latest record from the `announcements` collection and displays it through `AnnouncementModal.astro`.
 - Album artist categories: `src/lib/musicCatalog.mjs` groups albums by the artist ID in their directory; `src/pages/[locale]/albums/artists/[artist].astro` renders each category and prefers the matching `artists` entry's `image` for its cover.
 - Layered content licensing: `src/content.config.ts` validates four `license` markers, `ContentLicenseNotice.astro` renders entry licensing and media exclusions on detail pages, and `src/pages/[locale]/license.astro` generates the localized copyright pages. Authoring rules live in [Content licensing and attribution](licensing.en.md).
+- Unified AI entry: `AiChatWidget.astro` and `src/scripts/aiChatWidget.js` use `/api/ai/v2/*`, default to Observer, and hand full conversation management to the standalone terminal. See [Unified AI widget](ai-terminal.en.md).
+- Experience portals: `ExperiencePortals.astro` integrates game and AI-terminal entry points with localized copy and shared light/dark design tokens.
 
 Public feature data belongs in content or data files, while components only render it. Every translatable entry must include `zh`, `ja`, and `en` files with the same `translationKey` and route structure.
 
