@@ -74,7 +74,7 @@
       "en": "Promotion support"
     },
     "name": "小池",
-    "avatar": "/images/contributors/xiaochi.png",
+    "avatar": "/images/contributors/xiaochi.jpg",
     "contacts": [
       {
         "label": "QQ邮箱：2372309656@qq.com",
@@ -142,6 +142,51 @@
       "zh": "歌声が届く場所へ、想いも届きますように。",
       "ja": "歌声が届く場所へ、想いも届きますように。",
       "en": "歌声が届く場所へ、想いも届きますように。"
+    }
+  },
+  {
+    "id": "vandalkov-van-yang-dark",
+    "enabled": true,
+    "collaboration": {
+      "zh": "涂装创作",
+      "ja": "塗装制作",
+      "en": "Livery creation"
+    },
+    "name": "范达尔科夫_Van漾dark",
+    "avatar": "/images/contributors/vandalkov-van-yang-dark.jpg",
+    "contacts": [
+      {
+        "label": "QQ：2868757958",
+        "href": "https://wpa.qq.com/msgrd?v=3&uin=2868757958&site=qq&menu=yes"
+      },
+      {
+        "label": "微信：13665747508"
+      },
+      {
+        "label": "B站：482147708",
+        "href": "https://space.bilibili.com/482147708"
+      },
+      {
+        "label": "X：@Vandalkov",
+        "href": "https://x.com/Vandalkov"
+      },
+      {
+        "label": "小黑盒：85907475"
+      },
+      {
+        "label": "邮箱：2868757958@qq.com",
+        "href": "mailto:2868757958@qq.com"
+      }
+    ],
+    "introduction": {
+      "zh": "你好，我是一个还在努力学习的新人涂装作者，请多关照",
+      "ja": "你好，我是一个还在努力学习的新人涂装作者，请多关照",
+      "en": "你好，我是一个还在努力学习的新人涂装作者，请多关照"
+    },
+    "quote": {
+      "zh": "でもあなたがいるから， 私は私になれる(但是正因为有你，我才成为了我自己)",
+      "ja": "でもあなたがいるから， 私は私になれる(但是正因为有你，我才成为了我自己)",
+      "en": "でもあなたがいるから， 私は私になれる(但是正因为有你，我才成为了我自己)"
     }
   }
 ]

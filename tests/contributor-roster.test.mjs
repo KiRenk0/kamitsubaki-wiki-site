@@ -289,6 +289,7 @@ test('manual collaborators use an independent local data file and summary-only s
   assert.deepEqual(new Set(Object.values(inu.quote)), new Set(['要继续喜欢神椿呀！']));
 
   const xiaochi = data.find((contributor) => contributor.id === 'xiaochi');
+  assert.equal(xiaochi.avatar, '/images/contributors/xiaochi.jpg');
   assert.deepEqual(new Set(Object.values(xiaochi.introduction)), new Set(['关注花谱喵关注花谱谢谢喵']));
   assert.deepEqual(new Set(Object.values(xiaochi.quote)), new Set(['世界平和なんて噓だ　皆一人ぼっちだ']));
 
@@ -298,6 +299,33 @@ test('manual collaborators use an independent local data file and summary-only s
   assert.deepEqual(kazane.contacts.map(({ label }) => label), ['QQ 20743692', '邮箱：15133618038z@gmail.com']);
   assert.deepEqual(new Set(Object.values(kazane.introduction)), new Set(['喜欢一个作品，也想为它留下些什么。']));
   assert.deepEqual(new Set(Object.values(kazane.quote)), new Set(['歌声が届く場所へ、想いも届きますように。']));
+
+  const vandalkov = data.find((contributor) => contributor.id === 'vandalkov-van-yang-dark');
+  assert.equal(vandalkov.name, '范达尔科夫_Van漾dark');
+  assert.equal(vandalkov.avatar, '/images/contributors/vandalkov-van-yang-dark.jpg');
+  assert.deepEqual(vandalkov.contacts.map(({ label }) => label), [
+    'QQ：2868757958',
+    '微信：13665747508',
+    'B站：482147708',
+    'X：@Vandalkov',
+    '小黑盒：85907475',
+    '邮箱：2868757958@qq.com',
+  ]);
+  assert.deepEqual(vandalkov.contacts.map(({ href = null }) => href), [
+    'https://wpa.qq.com/msgrd?v=3&uin=2868757958&site=qq&menu=yes',
+    null,
+    'https://space.bilibili.com/482147708',
+    'https://x.com/Vandalkov',
+    null,
+    'mailto:2868757958@qq.com',
+  ]);
+  assert.deepEqual(new Set(Object.values(vandalkov.introduction)), new Set(['你好，我是一个还在努力学习的新人涂装作者，请多关照']));
+  assert.deepEqual(new Set(Object.values(vandalkov.quote)), new Set(['でもあなたがいるから， 私は私になれる(但是正因为有你，我才成为了我自己)']));
+
+  for (const avatarPath of [xiaochi.avatar, vandalkov.avatar]) {
+    const avatar = await readFile(new URL(`../public${avatarPath}`, import.meta.url));
+    assert.deepEqual([...avatar.subarray(0, 3)], [0xff, 0xd8, 0xff]);
+  }
 });
 
 test('contributor renderer builds honor wall cards, readable activity, and retry states', async () => {
