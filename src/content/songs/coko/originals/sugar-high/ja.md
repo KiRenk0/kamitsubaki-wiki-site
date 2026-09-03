@@ -5,12 +5,15 @@ title: "Sugar-High"
 artist: "狐子"
 artistId: coko
 artistIds:
+  - kafu
   - coko
   - haru
   - rime
   - sekai
+composer: "A-ASTRO"
+lyricist: "A-ASTRO"
 duration: "03:02"
-releaseDate: "2026-01-27"
+releaseDate: "2026-01-28"
 categoryTitle: "オリジナル曲"
 categorySubtitle: "ORIGINALS"
 categoryOrder: 1
@@ -22,10 +25,11 @@ image: /images/songs/coko/sugar-high.jpg
 
 ## 作品概要
 
-[狐子](/ja/artists/isotopes/coko)が2026-01-27にリリースしたシングル「Sugar-High」。
+A-ASTROによるオリジナル楽曲。音楽的同位体5名（[可不](/ja/artists/isotopes/kafu)・[星界](/ja/artists/isotopes/sekai)・[裏命](/ja/artists/isotopes/rime)・[羽累](/ja/artists/isotopes/haru)・[狐子](/ja/artists/isotopes/coko)）が歌唱し、2026年1月28日にシングルとしてリリースされた。
 
 ## 視聴
 {{media-switcher::Sugar-High}}
+@[youtube](DsZZO6XVpPk "A-ASTRO - Sugar-High")
 @[apple-music](https://music.apple.com/jp/album/sugar-high/1872391474?i=1872391480&uo=4 "Sugar-High")
 @[netease](https://music.163.com/song?id=3340660787 "Sugar-High")
 {{/media-switcher}}
