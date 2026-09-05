@@ -1,0 +1,15 @@
+/* Shared Wiki controls around the pixel-rendered game world. */
+html body button,
+html body :is(.archive-dialog__links a, .route-choice, .interaction-prompt kbd) {
+  border-radius: var(--ui-radius-control);
+}
+html body :is(.mode-menu, .archive-dialog, .overlay-panel, .route-decision__panel,
+  .clue-panel, .quest-tracker, .toast) {
+  border-radius: var(--ui-radius-panel);
+}
+html body :is(button, a):focus-visible {
+  outline: 2px solid var(--cyan, #89f5df);
+  outline-offset: 3px;
+}
+html body .mode-option { border-radius: var(--ui-radius-control); }
+html body .touch-controls button { border-radius: var(--ui-radius-control); }

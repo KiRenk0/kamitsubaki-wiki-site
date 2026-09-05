@@ -317,6 +317,8 @@ const projects = defineCollection({
     title: z.string(),
     description: z.string(),
     order: z.number(),
+    releaseDate: dateString.optional(),
+    officialLinks: z.array(z.object({ label: z.string(), href: siteRelativeOrHttpUrl })).optional(),
     license: contentLicense.optional(),
     seo,
   }),
@@ -328,6 +330,8 @@ const logs = defineCollection({
     locale,
     translationKey: z.string(),
     date: z.string(),
+    eventDate: dateString.optional(),
+    eventSource: siteRelativeOrHttpUrl.optional(),
     type: z.string(),
     title: z.string(),
     summary: z.string().optional(),
@@ -357,6 +361,12 @@ const workBaseSchema = z.object({
 const artistSlug = z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, 'Expected a lowercase URL slug');
 
 const songSchema = workBaseSchema.extend({
+  lyricsSources: z.array(z.object({
+    label: z.string(),
+    href: siteRelativeOrHttpUrl.refine(value => value.startsWith('https://'), 'Use an HTTPS lyrics source'),
+    provider: z.enum(['official', 'publisher', 'lyrics-service']),
+    checkedAt: dateString,
+  })).optional(),
   artistId: artistSlug,
   artistIds: z.array(artistSlug).min(1).optional(),
   composer: z.string().optional(),

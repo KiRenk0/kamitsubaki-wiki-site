@@ -1,0 +1,50 @@
+---
+import { resolveLocaleCopy } from '../../lib/i18n.mjs';
+import '../../styles/labs.css';
+const { locale = 'zh', sourceLinks = [] } = Astro.props as { locale?: string; sourceLinks?: { label: string; href: string }[] };
+const c = resolveLocaleCopy({
+  zh: { title:'逐句练习 · LABs', note:'按自己的节奏练习；自动轮换仅控制句子，不控制外部播放器。进度保存在本机。', previous:'上一句', next:'下一句', play:'开始轮换', pause:'暂停', from:'起始句', to:'结束句', interval:'每句秒数', hints:'注音', kana:'假名', romaji:'罗马音', none:'隐藏注音', translation:'显示译文', mastered:'标记已掌握', reset:'重置练习进度', source:'歌词与媒体来源', sourceNote:'以下为本词条提供的来源，尚需逐项核对歌词授权与版本。未提供可靠来源时请补充，不能把自动注音当作人工校对。', missing:'当前词条尚未提供可核对的来源链接。', contribute:'补充或纠正来源', storage:'练习进度无法保存，请检查浏览器存储权限。', progress:'已掌握', empty:'此歌曲暂未提供可练习的逐句歌词。' },
+  en: { title:'Line-by-line practice · LABs', note:'Practice at your own pace. Auto-advance changes lines, not the external player. Progress stays on this device.',previous:'Previous line',next:'Next line',play:'Auto-advance',pause:'Pause',from:'First line',to:'Last line',interval:'Seconds per line',hints:'Reading aid',kana:'Kana',romaji:'Romaji',none:'No reading aid',translation:'Show translation',mastered:'Mark as learned',reset:'Reset practice progress',source:'Lyrics & media sources',sourceNote:'These links come from this entry; permissions and lyric versions still need checking. Automatic readings are not editorial verification.',missing:'No source link is available in this entry yet.',contribute:'Add or correct a source',storage:'Could not save progress in this browser.',progress:'Learned',empty:'No line-by-line lyrics are available for this song yet.' },
+  ja: { title:'一行ずつ練習 · LABs',note:'自分のペースで練習。自動送りは外部プレイヤーと同期しません。進捗は端末に保存されます。',previous:'前の行',next:'次の行',play:'自動送り',pause:'一時停止',from:'開始行',to:'終了行',interval:'一行の秒数',hints:'読み方',kana:'ふりがな',romaji:'ローマ字',none:'読みを隠す',translation:'訳を表示',mastered:'習得済みにする',reset:'練習進捗をリセット',source:'歌詞・メディアの出典',sourceNote:'記事内の出典です。許諾と歌詞の版は別途確認が必要です。自動ふりがなは校正の代わりではありません。',missing:'確認できる出典リンクがまだありません。',contribute:'出典を追加・修正',storage:'練習進捗を保存できませんでした。',progress:'習得済み',empty:'この曲には一行ずつの歌詞がまだありません。' },
+},locale);
+---
+<details class="labs-practice" data-practice data-hints="kana" data-translation="show">
+  <summary>{c.title}</summary><p>{c.note}</p>
+  <div data-practice-tools hidden>
+    <div class="labs-practice-controls"><button data-previous>{c.previous}</button><button data-next>{c.next}</button><button data-play data-play-label={c.play} data-pause-label={c.pause} aria-pressed="false">{c.play}</button><label>{c.from}<input type="number" data-start min="1" value="1" /></label><label>{c.to}<input type="number" data-end min="1" value="1" /></label><label>{c.interval}<input type="number" data-interval min="1" max="30" value="5" /></label></div>
+    <div class="labs-practice-controls"><label>{c.hints}<select data-hints-select><option value="kana">{c.kana}</option><option value="romaji">{c.romaji}</option><option value="none">{c.none}</option></select></label><label><input type="checkbox" data-translation-toggle checked />{c.translation}</label></div>
+    <div class="labs-practice-line" data-practice-line></div><div role="status" data-line-status></div>
+    <div class="labs-practice-controls"><button data-mastered aria-pressed="false">{c.mastered}</button><button data-practice-reset>{c.reset}</button></div>
+  </div>
+  <p data-practice-empty>{c.empty}</p>
+  <details><summary>{c.source}</summary><p>{c.sourceNote}</p>{sourceLinks.length ? <ul>{sourceLinks.map(s=><li><a href={s.href} target="_blank" rel="noopener noreferrer">{s.label}</a></li>)}</ul> : <p>{c.missing}</p>}<a href={`/${locale}/labs/submit/`}>{c.contribute} →</a></details>
+  <p role="status" data-practice-status></p>
+  <script is:inline type="application/json" data-practice-copy set:html={JSON.stringify(c).replace(/</g,'\\u003c')} />
+</details>
+<script>
+  document.querySelectorAll<HTMLDetailsElement>('[data-practice]').forEach(root => {
+    const lines = Array.from(document.querySelectorAll<HTMLElement>('.wiki-reader .my-lyric-box .lyric-line'));
+    if (!lines.length) return;
+    root.querySelector<HTMLElement>('[data-practice-tools]')!.hidden=false;
+    root.querySelector<HTMLElement>('[data-practice-empty]')!.hidden=true;
+    const c=JSON.parse(root.querySelector('[data-practice-copy]')!.textContent!);
+    const start=root.querySelector<HTMLInputElement>('[data-start]')!, end=root.querySelector<HTMLInputElement>('[data-end]')!, interval=root.querySelector<HTMLInputElement>('[data-interval]')!;
+    start.max=end.max=String(lines.length);end.value=String(lines.length);
+    const play=root.querySelector<HTMLButtonElement>('[data-play]')!, learnedButton=root.querySelector<HTMLButtonElement>('[data-mastered]')!;
+    const key=`kamitsubaki-practice-v1:${location.pathname.replace(/\/$/,'')}`;
+    let index=0, timer: ReturnType<typeof setInterval>|undefined, learned=new Set<number>(), storageReadable=true;
+    try { const raw=localStorage.getItem(key);if(raw){const state=JSON.parse(raw);if(!state||!Array.isArray(state.learned))throw new Error();learned=new Set(state.learned.filter((n: unknown)=>Number.isInteger(n)&&Number(n)>=0&&Number(n)<lines.length));index=Number.isInteger(state.index)?Math.min(lines.length-1,Math.max(0,state.index)):0;} } catch {storageReadable=false;root.querySelector('[data-practice-status]')!.textContent=c.storage;}
+    function persist(){if(!storageReadable)return;try{localStorage.setItem(key,JSON.stringify({index,learned:[...learned]}));}catch{root.querySelector('[data-practice-status]')!.textContent=c.storage;}}
+    function bounds(){const a=Math.min(lines.length,Math.max(1,Math.floor(Number(start.value)||1)));const b=Math.min(lines.length,Math.max(a,Math.floor(Number(end.value)||lines.length)));start.value=String(a);end.value=String(b);return[a-1,b-1];}
+    function render(){const clone=lines[index].cloneNode(true) as HTMLElement;clone.querySelectorAll('[id]').forEach(n=>n.removeAttribute('id'));clone.removeAttribute('id');clone.querySelectorAll('.lrc-tag').forEach(n=>n.remove());clone.querySelectorAll<HTMLElement>('[style]').forEach(n=>n.removeAttribute('style'));root.querySelector('[data-practice-line]')!.replaceChildren(clone);root.querySelector('[data-line-status]')!.textContent=`${index+1} / ${lines.length} · ${c.progress} ${learned.size} / ${lines.length}`;learnedButton.setAttribute('aria-pressed',String(learned.has(index)));persist();}
+    function move(delta:number){const[a,b]=bounds();index=index<a||index>b?a:index+delta>b?a:index+delta<a?b:index+delta;render();}
+    function stop(){if(timer!==undefined)clearInterval(timer);timer=undefined;play.textContent=play.dataset.playLabel!;play.setAttribute('aria-pressed','false');}
+    function run(){stop();const seconds=Math.max(1,Math.min(30,Number(interval.value)||5));interval.value=String(seconds);timer=setInterval(()=>move(1),seconds*1000);play.textContent=play.dataset.pauseLabel!;play.setAttribute('aria-pressed','true');}
+    root.querySelector('[data-previous]')!.addEventListener('click',()=>move(-1));root.querySelector('[data-next]')!.addEventListener('click',()=>move(1));play.addEventListener('click',()=>timer===undefined?run():stop());
+    [start,end].forEach(input=>input.addEventListener('change',()=>{const[a,b]=bounds();index=Math.min(b,Math.max(a,index));render();}));interval.addEventListener('change',()=>{if(timer!==undefined)run();});
+    root.querySelector<HTMLSelectElement>('[data-hints-select]')!.addEventListener('change',e=>{root.dataset.hints=(e.target as HTMLSelectElement).value;});root.querySelector<HTMLInputElement>('[data-translation-toggle]')!.addEventListener('change',e=>{root.dataset.translation=(e.target as HTMLInputElement).checked?'show':'hide';});
+    learnedButton.addEventListener('click',()=>{learned.has(index)?learned.delete(index):learned.add(index);render();});root.querySelector('[data-practice-reset]')!.addEventListener('click',()=>{stop();learned.clear();index=0;start.value='1';end.value=String(lines.length);render();});
+    root.addEventListener('toggle',()=>{if(!root.open)stop();});
+    document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();});window.addEventListener('pagehide',stop);render();
+  });
+</script>

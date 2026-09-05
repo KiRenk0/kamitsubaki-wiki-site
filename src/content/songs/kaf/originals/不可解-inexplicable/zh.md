@@ -1,4 +1,13 @@
 ---
+lyricsSources:
+  - label: "JOYSOUND · 不可解 / 花譜"
+    href: "https://www.joysound.com/web/search/song/781154"
+    provider: "lyrics-service"
+    checkedAt: "2026-09-05"
+  - label: "UtaTen · 不可解 / 花譜"
+    href: "https://utaten.com/lyric/sa19120577/"
+    provider: "lyrics-service"
+    checkedAt: "2026-09-05"
 locale: zh
 translationKey: kaf_originals_track_1688351157
 title: "不可解"

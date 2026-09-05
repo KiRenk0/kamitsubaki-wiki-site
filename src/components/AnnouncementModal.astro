@@ -87,7 +87,9 @@ const summaryHtml = escapeHtml(announcement.summary).replace(
     closeTimer = window.setTimeout(() => {
       modal.hidden = true;
       modal.classList.remove('is-closing');
-      if (openButton instanceof HTMLButtonElement) openButton.focus();
+      const dock = openButton?.closest('details');
+      const focusTarget = dock instanceof HTMLDetailsElement && !dock.open ? dock.querySelector('summary') : openButton;
+      if (focusTarget instanceof HTMLElement) focusTarget.focus();
     }, prefersReducedMotion ? 0 : 380);
   };
 

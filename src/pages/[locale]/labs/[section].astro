@@ -1,0 +1,82 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import SiteNav from '../../../components/SiteNav.astro';
+import SiteFooter from '../../../components/SiteFooter.astro';
+import { getLocalizedSite, getLocalizedEntries } from '../../../lib/homeData.mjs';
+import { buildLocaleLinks, supportedLocales, resolveLocaleCopy } from '../../../lib/i18n.mjs';
+import { labsCopy, labsSections } from '../../../lib/labsCopy.mjs';
+import { labsWorlds } from '../../../data/labsWorlds.mjs';
+import '../../../styles/labs.css';
+export function getStaticPaths() { return supportedLocales.flatMap((locale) => labsSections.map((section) => ({ params: { locale, section } }))); }
+const { locale = 'zh', section = 'explore' } = Astro.params;
+const copy = labsCopy(locale);
+const site = getLocalizedSite(await getCollection('site'), locale);
+const current = labsSections.indexOf(section);
+const route = `/labs/${section}/`;
+const projects = getLocalizedEntries(await getCollection('projects'), locale);
+---
+<BaseLayout lang={locale} title={`${copy.tabs[current]} · ${copy.title}`} metadata={{ noindex: true }}>
+  <SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site, locale, route)} brandLines={site.hero.brandLines} homeHref={`/${locale}/`} />
+  <main class="labs-shell" data-labs-section={section} data-locale={locale}>
+    <header class="labs-head">
+      <a href={`/${locale}/`}>{copy.home}</a><span class="labs-tag">LABs</span>
+      <h1>{copy.title}</h1>
+      <p>{copy.intro}</p>
+    </header>
+    <nav class="labs-nav" aria-label={copy.title} data-labs-nav>
+      <span class="labs-nav__indicator" data-labs-indicator aria-hidden="true"></span>
+      {labsSections.map((s, i) => <a id={`labs-tab-${s}`} data-labs-tab={s} href={`/${locale}/labs/${s}/`} aria-current={section === s ? 'page' : undefined}>{copy.tabs[i]}</a>)}
+    </nav>
+    <div class="labs-panels" data-labs-panels>
+    <section class="labs-panel" id="labs-panel-explore" data-labs-panel="explore" aria-labelledby="labs-tab-explore" hidden={section !== 'explore'}>
+      <div class="labs-banner"><h2>{copy.explore}</h2><p>{copy.descriptions[0]}</p><div class="labs-actions"><button data-search-open>{copy.fullSearch}</button><button data-random-discovery>{copy.random}</button><a class="labs-button" href={`/${locale}/labs/timeline/`}>{copy.tabs[1]} →</a></div></div>
+      <div class="labs-explore-grid">
+        {[1,2,3,4,5].map((i) => <section class="labs-feature"><h2>{copy.tabs[i]}</h2><p>{copy.descriptions[i]}</p><a href={`/${locale}/labs/${labsSections[i]}/`}>{copy.tabs[i]} →</a></section>)}
+        <section class="labs-feature"><h2>{copy.practice}</h2><p>{copy.practiceIntro}</p><a href={`/${locale}/songs/`}>{copy.practiceOpen} →</a></section>
+      </div>
+      <section class="labs-banner"><h2>{copy.game}</h2><p>{copy.gameIntro}</p><a class="labs-button" href={`/${locale}/games/memory-corridor`}>{copy.play} →</a></section>
+    </section>
+    <section class="labs-panel" id="labs-panel-timeline" data-labs-panel="timeline" aria-labelledby="labs-tab-timeline" hidden={section !== 'timeline'}>
+      <p class="labs-note">{copy.dateNote}</p>
+      <div class="labs-toolbar"><label><span>{copy.search}</span><input type="search" data-query placeholder="花谱 / KAF / V.W.P" /></label><label><span>{copy.kind}</span><select data-kind><option value="">{copy.all}</option>{['events','artists','songs','albums','projects','logs'].map(k => <option value={k}>{copy.kinds[k]}</option>)}</select></label><label><span>{copy.year}</span><select data-year><option value="">{copy.all}</option></select></label><label><span>{copy.order}</span><select data-order><option value="desc">{copy.newest}</option><option value="asc">{copy.oldest}</option></select></label><button data-reset>{copy.reset}</button></div>
+      <div class="labs-status" role="status" data-status>{copy.loading}</div><div class="labs-results" data-results></div><button data-more hidden>{copy.more}</button>
+    </section>
+    <section class="labs-panel" id="labs-panel-relations" data-labs-panel="relations" aria-labelledby="labs-tab-relations" hidden={section !== 'relations'}>
+      <p class="labs-note">{copy.graphNote}</p><label><span>{copy.choose}</span><input data-query type="search" placeholder="花谱 / KAF / V.W.P" /></label>
+      <div class="labs-status" role="status" data-status>{copy.loading}</div><div class="labs-pick-list" data-picks></div>
+      <div class="labs-graph-layout"><svg class="labs-graph" viewBox="0 0 700 460" role="group" aria-label={copy.tabs[2]} data-graph></svg><aside class="labs-graph-detail" data-detail></aside></div>
+      <h2 style="margin-top:32px">{copy.related}</h2><div class="labs-results" data-results></div><button data-more hidden>{copy.more}</button>
+    </section>
+    <section class="labs-panel" id="labs-panel-world" data-labs-panel="world" aria-labelledby="labs-tab-world" hidden={section !== 'world'}>
+      <p class="labs-note">{copy.worldNote}</p>
+      {labsWorlds.map((world, i) => <section class="labs-world-route"><small>{String(i+1).padStart(2,'0')} / {world.kind} · {world.date}</small><h2>{world.title}</h2><p>{resolveLocaleCopy(world.copy, locale)}</p><details><summary>{copy.spoiler}</summary><p>{resolveLocaleCopy(world.spoiler, locale)}</p></details><div class="labs-actions"><a class="labs-button" href={world.source} target="_blank" rel="noopener noreferrer">{copy.source} ↗</a>{world.path && <a class="labs-button" href={`/${locale}/projects/${world.path}/`}>{copy.open}</a>}</div></section>)}
+      <h2 style="margin-top:40px">{copy.projects}</h2>{projects.map(p => <div class="labs-row"><div class="labs-row-body"><h3><a href={`/${locale}/projects/${p.id.split('/').slice(0,-1).join('/')}/`}>{p.data.title}</a></h3><p>{p.data.description || copy.projects}</p></div></div>)}
+    </section>
+    <section class="labs-panel" id="labs-panel-library" data-labs-panel="library" aria-labelledby="labs-tab-library" hidden={section !== 'library'}>
+      <p class="labs-note">{copy.storageNote}</p><div class="labs-toolbar"><label><span>{copy.search}</span><input type="search" data-library-search /></label><label><span>{copy.list}</span><select data-list><option value="">{copy.allSaved}</option></select></label></div>
+      <form data-create-list class="labs-toolbar"><label><span>{copy.listName}</span><input name="name" required maxlength="80" /></label><button type="submit">{copy.create}</button></form>
+      <div class="labs-actions"><button data-export>{copy.export}</button><button data-import-open>{copy.import}</button><input type="file" data-import accept="application/json,.json" hidden /><button data-rename hidden>{copy.rename}</button><button data-delete-list hidden>{copy.deleteList}</button></div>
+      <div class="labs-status" role="status" data-status></div><div class="labs-results" data-results></div>
+    </section>
+    <section class="labs-panel" id="labs-panel-submit" data-labs-panel="submit" aria-labelledby="labs-tab-submit" hidden={section !== 'submit'}>
+      <p class="labs-note">{copy.submissionNote}</p>
+      <form class="labs-form" data-submission>
+        <label><span>{copy.submissionTitle}</span><input name="title" required maxlength="160" /></label>
+        <label><span>{copy.category}</span><select name="category">{Object.entries(copy.kinds).map(([k,v]) => <option value={k}>{v}</option>)}<option value="lyrics">{copy.practice}</option><option value="novel">{copy.novels}</option></select></label>
+        <label><span>{copy.sourceUrl}</span><input type="url" name="source" required pattern="https?://.+" placeholder="https://" /></label><p class="labs-note">{copy.sourceNote}</p>
+        <label><span>{copy.attachment}</span><input class="labs-file" type="file" data-text-file accept=".md,.txt,text/plain,text/markdown" /></label>
+        <label><span>{copy.body}</span><textarea name="body" required maxlength="20000" rows="12"></textarea></label>
+        <label><input type="checkbox" name="rights" required />{copy.rights}</label>
+        <div class="labs-actions"><button type="submit">{copy.preview}</button><button type="button" data-draft-clear>{copy.clearDraft}</button><button type="button" data-draft-download>{copy.download}</button><button type="button" data-github>{copy.github}</button></div>
+        <p role="status" data-status class="labs-status"></p>
+      </form>
+      <section class="labs-preview" data-preview style="margin-top:28px">{copy.previewHint}</section>
+    </section>
+    </div>
+    <noscript><p>{copy.failure} JavaScript is required for the interactive Labs tools.</p></noscript>
+    <script is:inline type="application/json" data-labs-copy set:html={JSON.stringify(copy).replace(/</g,'\\u003c')} />
+  </main>
+  <SiteFooter footer={site.footer} />
+  <script>import '../../../scripts/labsTabs.js';</script>
+</BaseLayout>
