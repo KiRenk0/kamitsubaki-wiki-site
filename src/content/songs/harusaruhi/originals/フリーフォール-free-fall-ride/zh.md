@@ -120,6 +120,7 @@ That I'm crashing right into you
 <div class="jp-lyric">
 (Wanna come to life!)
 </div>
+<div class="cn-lyric">(想要活过来！)</div>
 </div>
 
 </div>

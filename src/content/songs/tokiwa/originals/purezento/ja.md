@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/purezento.jpg
 
 ## 作品概要
 
-tokiwaが2025-06-19にリリースしたシングル「プレゼント」。
+[tokiwa](/ja/artists/creators/tokiwa)が2025-06-19にリリースしたシングル「プレゼント」。
 
 ## 視聴
 {{media-switcher::プレゼント}}

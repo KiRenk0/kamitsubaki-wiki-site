@@ -105,6 +105,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [00:50.33]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[00:50.33]不知道不跳舞的夜晚</div>
 </div>
 
 <div class="lyric-line">
@@ -197,42 +198,49 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [01:40.53]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[01:40.53]不知道不跳舞的夜晚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:43.36]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>気に入<rt class="furi">きにい</rt><rt class="roma">kinii</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[01:43.36]不喜欢不跳舞的夜晚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:46.26]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[01:46.26]不知道不跳舞的夜晚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:49.09]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>気に入<rt class="furi">きにい</rt><rt class="roma">kinii</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[01:49.09]不喜欢不跳舞的夜晚啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:53.22]<ruby>気に入<rt class="furi">きにい</rt><rt class="roma">kinii</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[01:53.22]我早已不知道什么是不喜欢的夜晚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:57.28]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>
 </div>
+<div class="cn-lyric">[01:57.28]没有不跳舞的夜晚的夜晚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:00.38]<ruby>とっても<rt class="roma">tottemo</rt></ruby><ruby>とっても<rt class="roma">tottemo</rt></ruby><ruby>退屈<rt class="furi">たいくつ</rt><rt class="roma">taikutsu</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
 </div>
+<div class="cn-lyric">[02:00.38]非常非常无聊</div>
 </div>
 
 <div class="lyric-line">
@@ -253,6 +261,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [02:15.17]<ruby>ほら<rt class="roma">hora</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby> <ruby>ダンスホール<rt class="roma">dansuhouru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:15.17]看啊在跳舞 舞厅的未来</div>
 </div>
 
@@ -260,6 +269,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [02:20.00]<ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>塗<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>きる<rt class="roma">kiru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:20.00]涂上色彩活着的是你 是你</div>
 </div>
 
@@ -267,6 +277,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [02:25.38]「<ruby>ダンス<rt class="roma">dansu</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>笑顔<rt class="furi">えがお</rt><rt class="roma">egao</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby>」
 </div>
+
 <div class="cn-lyric">[02:25.38]「舞蹈用笑容等待着」</div>
 </div>
 
@@ -278,42 +289,49 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [02:50.43]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:50.43]不知道不跳舞的夜晚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:53.06]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>気に入<rt class="furi">きにい</rt><rt class="roma">kinii</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:53.06]不喜欢不跳舞的夜晚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:55.90]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:55.90]不知道不跳舞的夜晚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:58.77]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>気に入<rt class="furi">きにい</rt><rt class="roma">kinii</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:58.77]不喜欢不跳舞的夜晚啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:02.98]<ruby>気に入<rt class="furi">きにい</rt><rt class="roma">kinii</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[03:02.98]我早已不知道什么是不喜欢的夜晚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:07.11]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>
 </div>
+<div class="cn-lyric">[03:07.11]没有不跳舞的夜晚的夜晚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:12.77]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:12.77]想知道想跳舞的夜晚</div>
 </div>
 
@@ -321,6 +339,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [03:15.31]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>気に入<rt class="furi">きにい</rt><rt class="roma">kinii</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:15.31]想喜欢想跳舞的夜晚</div>
 </div>
 
@@ -328,24 +347,29 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [03:18.15]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+
+<div class="cn-lyric">[03:18.15]想知道想跳舞的夜晚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:21.04]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>気に入<rt class="furi">きにい</rt><rt class="roma">kinii</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:21.04]不喜欢不跳舞的夜晚啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:25.25]<ruby>気に入<rt class="furi">きにい</rt><rt class="roma">kinii</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[03:25.25]我早已不知道什么是不喜欢的夜晚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:29.47]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:29.47]在想要跳舞的夜晚哭泣什么的</div>
 </div>
 
@@ -353,12 +377,14 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [03:32.37]<ruby>とっても<rt class="roma">tottemo</rt></ruby><ruby>とっても<rt class="roma">tottemo</rt></ruby><ruby>退屈<rt class="furi">たいくつ</rt><rt class="roma">taikutsu</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
 </div>
+<div class="cn-lyric">[03:32.37]非常非常无聊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:34.94]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>大切<rt class="furi">たいせつ</rt><rt class="roma">taisetsu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:34.94]想跳舞的夜晚是很重要的</div>
 </div>
 
@@ -366,6 +392,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [03:37.87]<ruby>とっても<rt class="roma">tottemo</rt></ruby><ruby>とっても<rt class="roma">tottemo</rt></ruby><ruby>とっても<rt class="roma">tottemo</rt></ruby><ruby>大切<rt class="furi">たいせつ</rt><rt class="roma">taisetsu</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:37.87]非常非常非常重要</div>
 </div>
 

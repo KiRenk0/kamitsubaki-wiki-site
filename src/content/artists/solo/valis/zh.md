@@ -58,7 +58,7 @@ seo:
 
 VALIS（ヴァリス）是 [SINSEKAI RECORD](/zh/projects/labels/sinsekai-studio) 旗下的六人虚拟少女组合，成员由 CHINO、MYU、NEFFY、NINA、RARA、VITTE 组成。团体以“在虚拟与现实之间旅行”为概念，同时以 avatar（虚拟形象）和 origin（真实形态）两种形态展开活动，形成独特的二元表达方式。
 
-角色视觉设计由插画师ねこ助（Nekosuke）担当，整体风格兼具少女感与未来感。作为 SINSEKAI RECORD 体系中较具代表性的组合之一，VALIS 在音乐作品和现场演出两个层面都保持着较高的活跃度，定期举办 ONE-MAN LIVE 等专场活动。
+角色视觉设计由插画师ねこ助（Nekosuke）担当，整体风格兼具少女感与未来感。作为 [SINSEKAI RECORD](/zh/projects/archive/sinsekai-studio) 体系中较具代表性的组合之一，VALIS 在音乐作品和现场演出两个层面都保持着较高的活跃度，定期举办 ONE-MAN LIVE 等专场活动。
 
 
 ## 角色与创作定位

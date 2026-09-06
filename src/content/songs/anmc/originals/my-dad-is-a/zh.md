@@ -17,7 +17,7 @@ image: /images/songs/anmc/my-dad-is-a.jpg
 
 ## 作品简介
 
-ANMC于 2026-06-12 发行的单曲《My Dad is A》。
+[ANMC](/zh/artists/solo/anmc)于 2026-06-12 发行的单曲《My Dad is A》。
 
 ## 试听
 {{media-switcher::My Dad is A}}

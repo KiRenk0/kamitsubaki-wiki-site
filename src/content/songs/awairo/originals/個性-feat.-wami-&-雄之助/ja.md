@@ -17,7 +17,7 @@ image: /images/songs/awairo/個性-feat.-wami-&-雄之助.jpg
 
 ## 作品概要
 
-Awairoが2023-12-08にリリースしたシングル「個性 (feat. WaMi & 雄之助)」。
+[Awairo](/ja/artists/solo/awairo)が2023-12-08にリリースしたシングル「個性 (feat. WaMi & 雄之助)」。
 
 ## 視聴
 @[apple-music](https://music.apple.com/jp/album/%E5%80%8B%E6%80%A7-feat-wami-%E9%9B%84%E4%B9%8B%E5%8A%A9/1717374077?i=1717374078&uo=4 "個性 (feat. WaMi & 雄之助)")

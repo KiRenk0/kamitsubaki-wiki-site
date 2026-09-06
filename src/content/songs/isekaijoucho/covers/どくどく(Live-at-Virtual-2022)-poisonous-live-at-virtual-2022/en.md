@@ -20,7 +20,7 @@ image: /images/albums/rim/singularity-live.jpg
 
 ## Overview
 
-どくどく (Live at Virtual, 2022) appears on Singularity Live or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+どくどく (Live at Virtual, 2022) appears on [Singularity Live](/en/albums/rim/singularity-live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -71,7 +71,9 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [02:48.92]<ruby>もっと<rt class="roma">motto</rt></ruby><ruby>汚<rt class="furi">きたな</rt><rt class="roma">kitana</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>不憫<rt class="furi">ふびん</rt><rt class="roma">fubin</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>あちら<rt class="roma">achira</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
-<div class="trans-lyric">Over there, dirtier and more miserable</div>
+<div class="trans-lyric">
+[02:48.92]Over there, dirtier and more miserable
+</div>
 </div>
 
 <div class="lyric-line">
@@ -169,66 +171,77 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 <ruby>どくどく<rt class="roma">dokudoku</rt></ruby><ruby>どく<rt class="roma">doku</rt></ruby><ruby>毒<rt class="furi">どく</rt><rt class="roma">doku</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">Doku doku doku, poisoned</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>どくどく<rt class="roma">dokudoku</rt></ruby><ruby>どく<rt class="roma">doku</rt></ruby><ruby>ボク<rt class="roma">boku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>夢中<rt class="furi">むちゅう</rt><rt class="roma">muchuu</rt></ruby>
 </div>
+<div class="trans-lyric">Doku doku doku, crazy for me</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>どくどく<rt class="roma">dokudoku</rt></ruby><ruby>どく<rt class="roma">doku</rt></ruby><ruby>神様<rt class="furi">かみさま</rt><rt class="roma">kamisama</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="trans-lyric">Doku doku doku, become a god or something</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>まさに<rt class="roma">masani</rt></ruby><ruby>ボク<rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>事<rt class="furi">こと</rt><rt class="roma">koto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+<div class="trans-lyric">Right now, what I say</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>皆様<rt class="furi">みなさま</rt><rt class="roma">minasama</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>伝<rt class="furi">つた</rt><rt class="roma">tsuta</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="trans-lyric">Doesn't seem to reach everyone</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>その<rt class="roma">sono</rt></ruby><ruby>身<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>傷<rt class="furi">きず</rt><rt class="roma">kizu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>つか<rt class="roma">tsuka</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby>
 </div>
+<div class="trans-lyric">So you don't get hurt</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>耳<rt class="furi">みみ</rt><rt class="roma">mimi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>持<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>馬鹿<rt class="furi">ばか</rt><rt class="roma">baka</rt></ruby><ruby>じゃん<rt class="roma">jan</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="trans-lyric">You're a fool who doesn't even listen</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>どくどく<rt class="roma">dokudoku</rt></ruby><ruby>どく<rt class="roma">doku</rt></ruby><ruby>毒<rt class="furi">どく</rt><rt class="roma">doku</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">Doku doku doku, poisoned</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>どくどく<rt class="roma">dokudoku</rt></ruby><ruby>どく<rt class="roma">doku</rt></ruby><ruby>ボク<rt class="roma">boku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>夢中<rt class="furi">むちゅう</rt><rt class="roma">muchuu</rt></ruby>
 </div>
+<div class="trans-lyric">Doku doku doku, crazy for me</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>どくどく<rt class="roma">dokudoku</rt></ruby><ruby>どく<rt class="roma">doku</rt></ruby><ruby>神様<rt class="furi">かみさま</rt><rt class="roma">kamisama</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="trans-lyric">Doku doku doku, become a god or something</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>どくどく<rt class="roma">dokudoku</rt></ruby><ruby>どく<rt class="roma">doku</rt></ruby><ruby>毒<rt class="furi">どく</rt><rt class="roma">doku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby>
 </div>
+
 <div class="trans-lyric">Doku doku doku, give me poison</div>
 </div>
 
@@ -236,6 +249,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 <ruby>どく<rt class="roma">doku</rt></ruby><ruby>どくどく<rt class="roma">dokudoku</rt></ruby><ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby>
 </div>
+
 <div class="trans-lyric">Doku doku doku, until I melt</div>
 </div>
 
@@ -243,6 +257,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 <ruby>どくどく<rt class="roma">dokudoku</rt></ruby><ruby>どく<rt class="roma">doku</rt></ruby><ruby>むせかえる<rt class="roma">musekaeru</rt></ruby><ruby>悪意<rt class="furi">あくい</rt><rt class="roma">akui</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby>
 </div>
+
 <div class="trans-lyric">Doku doku doku, give me choking malice</div>
 </div>
 

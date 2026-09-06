@@ -86,15 +86,15 @@ tracks:
 
 ## Overview
 
-VALIS's album “青春イマジネーション 覚醒ver.”, released on 2024-08-28, featuring 16 tracks.
+[VALIS](/en/artists/solo/valis)'s album “青春イマジネーション 覚醒ver.”, released on 2024-08-28, featuring 16 tracks.
 
 ## Track List
 
 1. 「熱烈歓迎」 (00:44)
-2. 無窮プラトニック (02:50)
+2. [無窮プラトニック](/en/songs/valis/originals/無窮puratonikku) (02:50)
 3. I.C.E(覚醒 ver.) (03:05)
 4. 渇愛論(覚醒 ver.) (03:02)
-5. 猫好的トリックスター(覚醒 ver.) (03:23)
+5. [猫好的トリックスター](/en/songs/ren/originals/猫好的torikkusutaa)(覚醒 ver.) (03:23)
 6. わたしマニュアル(覚醒 ver.) (02:39)
 7. 禁断果実(覚醒 ver.) (02:29)
 8. ピカピカキャンディラブイズム(覚醒 ver.) (03:12)

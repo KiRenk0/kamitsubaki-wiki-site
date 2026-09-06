@@ -75,7 +75,9 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 [00:35.45]<ruby>やる<rt class="roma">yaru</rt></ruby><ruby>しか<rt class="roma">shika</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
-<div class="trans-lyric">I have no choice but to do it</div>
+<div class="trans-lyric">
+[00:35.45]I have no choice but to do it
+</div>
 </div>
 
 <br />
@@ -84,7 +86,9 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 [00:37.33]<ruby>もしも<rt class="roma">moshimo</rt></ruby>
 </div>
-<div class="trans-lyric">If</div>
+<div class="trans-lyric">
+[00:37.33]If
+</div>
 </div>
 
 <div class="lyric-line">
@@ -151,21 +155,27 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 [00:37.33]<ruby>もしも<rt class="roma">moshimo</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
-<div class="trans-lyric">If you like crying</div>
+<div class="trans-lyric">
+[00:37.33]If you like crying
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:37.33]<ruby>もしも<rt class="roma">moshimo</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>立<rt class="furi">りつ</rt><rt class="roma">ritsu</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まる<rt class="roma">maru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
-<div class="trans-lyric">If you stop here</div>
+<div class="trans-lyric">
+[00:37.33]If you stop here
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:34.16]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>這<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>いつくばってろ<rt class="roma">itsukubattero</rt></ruby>
 </div>
-<div class="trans-lyric">Then stay here crawling on the ground forever</div>
+<div class="trans-lyric">
+[01:34.16]Then stay here crawling on the ground forever
+</div>
 </div>
 
 <div class="lyric-line">
@@ -234,6 +244,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 <ruby>やる<rt class="roma">yaru</rt></ruby><ruby>しか<rt class="roma">shika</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">I have no choice but to do it</div>
 </div>
 
 <br />
@@ -242,6 +253,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 <ruby>もしも<rt class="roma">moshimo</rt></ruby>
 </div>
+<div class="trans-lyric">If</div>
 </div>
 
 <div class="lyric-line">
@@ -276,6 +288,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">We are here</div>
 </div>
 
 <br />
@@ -284,6 +297,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 <ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>あの<rt class="roma">ano</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>もう一度<rt class="furi">もういちど</rt><rt class="roma">mouichido</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+
 <div class="trans-lyric">Someday, just one more time, those days</div>
 </div>
 
@@ -291,6 +305,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 <ruby>だから<rt class="roma">dakara</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>向<rt class="furi">む</rt><rt class="roma">mu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby>
 </div>
+
 <div class="trans-lyric">So now, look forward</div>
 </div>
 

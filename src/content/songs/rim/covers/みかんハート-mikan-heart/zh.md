@@ -234,6 +234,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [05:04.53]<ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>増<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby>
 </div>
+<div class="cn-lyric">[05:04.53]思念却只增不减</div>
 </div>
 
 <br />
@@ -242,6 +243,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [05:12.14]<ruby>いつか<rt class="roma">itsuka</rt></ruby> <ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby>
 </div>
+
 <div class="cn-lyric">[05:12.14]直到有一天能传达给你，我只会一直等待你</div>
 </div>
 

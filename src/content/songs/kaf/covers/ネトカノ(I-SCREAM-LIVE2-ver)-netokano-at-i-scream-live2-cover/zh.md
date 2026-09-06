@@ -77,6 +77,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [00:47.02]you are always gonna be wonder
 </div>
+<div class="cn-lyric">[00:47.02]you are always gonna be wonder</div>
 </div>
 
 <div class="lyric-line">
@@ -136,18 +137,21 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [01:44.37]you are always gonna be wonder
 </div>
+<div class="cn-lyric">[01:44.37]you are always gonna be wonder</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:48.58]<ruby>くせ<rt class="roma">kuse</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いつも<rt class="roma">itsumo</rt></ruby>be my love
 </div>
+<div class="cn-lyric">[01:48.58]戒不掉的心情总是 be my love</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:53.68]you are always gonna be wonder
 </div>
+<div class="cn-lyric">[01:53.68]you are always gonna be wonder</div>
 </div>
 
 <div class="lyric-line">
@@ -168,6 +172,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [02:10.17]to the night
 </div>
+<div class="cn-lyric">[02:10.17]to the night</div>
 </div>
 
 <br />
@@ -176,6 +181,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [02:15.66]you can say
 </div>
+
 <div class="cn-lyric">[02:15.66]you can say</div>
 </div>
 
@@ -183,6 +189,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [02:17.06]wake up! alright
 </div>
+
 <div class="cn-lyric">[02:17.06]wake up! alright</div>
 </div>
 
@@ -190,6 +197,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [02:19.11]<ruby>その<rt class="roma">sono</rt></ruby><ruby>うつろ<rt class="roma">utsuro</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>my heart
 </div>
+
 <div class="cn-lyric">[02:19.11]那空洞的眼神与my heart</div>
 </div>
 
@@ -197,18 +205,23 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [02:24.14]you can say
 </div>
+
+<div class="cn-lyric">[02:24.14]you can say</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:26.02]wake up! alright
 </div>
+
+<div class="cn-lyric">[02:26.02]wake up! alright</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:28.17]<ruby>でも<rt class="roma">demo</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby>hold me tight
 </div>
+
 <div class="cn-lyric">[02:28.17]但就这样 hold me tight</div>
 </div>
 

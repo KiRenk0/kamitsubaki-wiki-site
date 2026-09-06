@@ -19,7 +19,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 
 ## 作品简介
 
-《きゅうくらりん (Cover Live)》收录于《CANDY LIVE 3 (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《きゅうくらりん (Cover Live)》收录于《[CANDY LIVE 3](/zh/albums/isekaijoucho/candy-live-3) (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -175,6 +175,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 [01:39.46]<ruby>うるさく<rt class="roma">urusaku</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>文字<rt class="furi">もじ</rt><rt class="roma">moji</rt></ruby><ruby>盤<rt class="furi">ばん</rt><rt class="roma">ban</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[01:39.46]看着吵闹响起的表盘</div>
 </div>
 
 <div class="lyric-line">
@@ -230,12 +231,14 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 [02:00.88]<ruby>ああ<rt class="roma">aa</rt></ruby> <ruby>取り繕<rt class="furi">とりつくろ</rt><rt class="roma">toritsukuro</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+<div class="cn-lyric">[02:00.88]啊啊 好想伪装下去啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:03.05]<ruby>ちゃんと<rt class="roma">chanto</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>なきゃ<rt class="roma">nakya</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">[02:03.05]不好好笑不行呢</div>
 </div>
 
 <div class="lyric-line">
@@ -312,6 +315,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 [02:48.80]<ruby>わたし<rt class="roma">watashi</rt></ruby> <ruby>きゅう<rt class="roma">kyuu</rt></ruby><ruby>くら<rt class="roma">kura</rt></ruby><ruby>りん<rt class="roma">rin</rt></ruby>
 </div>
+<div class="cn-lyric">[02:48.80]我 局促不安</div>
 </div>
 
 <div class="lyric-line">
@@ -367,12 +371,14 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 [03:09.33]<ruby>空<rt class="furi">から</rt><rt class="roma">kara</rt></ruby><ruby>っぽ<rt class="roma">ppo</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>埋<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby>
 </div>
+<div class="cn-lyric">[03:09.33]空虚无法填补这件事</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:11.62]<ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>ばれ<rt class="roma">bare</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[03:11.62]如果全部暴露了怎么办</div>
 </div>
 
 <div class="lyric-line">
@@ -407,6 +413,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 [03:21.51]<ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>ムダ<rt class="roma">muda</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なったら<rt class="roma">nattara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:21.51]如果全部变成徒劳</div>
 </div>
 
@@ -414,6 +421,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 [03:23.53]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>罰<rt class="furi">ばち</rt><rt class="roma">bachi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>受<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:23.53]因为会承受爱过的惩罚</div>
 </div>
 
@@ -421,6 +429,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 [03:25.84]<ruby>ひどく<rt class="roma">hidoku</rt></ruby><ruby>優<rt class="furi">やさ</rt><rt class="roma">yasa</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:25.84]极其温柔的你</div>
 </div>
 
@@ -428,6 +437,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 [03:28.02]<ruby>胸<rt class="furi">むね</rt><rt class="roma">mune</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:28.02]如果在你的胸前哭泣该怎么办</div>
 </div>
 
@@ -435,6 +445,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 [03:30.00]<ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby> <ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:30.00]最后 看见的是那样的梦</div>
 </div>
 
@@ -442,6 +453,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 [03:32.12]<ruby>わたし<rt class="roma">watashi</rt></ruby> <ruby>ち<rt class="roma">chi</rt></ruby><ruby>ゅうぶらりん<rt class="roma">yuuburarin</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:32.12]我 悬空飘荡</div>
 </div>
 

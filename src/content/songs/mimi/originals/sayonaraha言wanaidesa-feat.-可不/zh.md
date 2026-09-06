@@ -17,7 +17,7 @@ image: /images/songs/mimi/sayonaraha言wanaidesa-feat.-可不.jpg
 
 ## 作品简介
 
-MIMI于 2023-06-21 发行的单曲《サヨナラは言わないでさ (feat. [可不](/zh/artists/isotopes/kafu))》。
+[MIMI](/zh/artists/creators/mimi)于 2023-06-21 发行的单曲《サヨナラは言わないでさ (feat. [可不](/zh/artists/isotopes/kafu))》。
 
 ## 试听
 {{media-switcher::サヨナラは言わないでさ (feat. 可不)}}

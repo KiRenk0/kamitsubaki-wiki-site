@@ -17,7 +17,7 @@ image: /images/songs/mimi/o砂糖哀歌-feat.-初音miku.jpg
 
 ## 作品简介
 
-MIMI于 2025-05-02 发行的单曲《お砂糖哀歌 (feat. 初音ミク)》。
+[MIMI](/zh/artists/creators/mimi)于 2025-05-02 发行的单曲《お砂糖哀歌 (feat. 初音ミク)》。
 
 ## 试听
 {{media-switcher::お砂糖哀歌 (feat. 初音ミク)}}

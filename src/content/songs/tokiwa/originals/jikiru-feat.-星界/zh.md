@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/jikiru-feat.-星界.jpg
 
 ## 作品简介
 
-tokiwa于 2024-08-28 发行的单曲《ジキル (feat. [星界](/zh/artists/isotopes/sekai))》。
+[tokiwa](/zh/artists/creators/tokiwa)于 2024-08-28 发行的单曲《ジキル (feat. [星界](/zh/artists/isotopes/sekai))》。
 
 ## 试听
 {{media-switcher::ジキル (feat. 星界)}}

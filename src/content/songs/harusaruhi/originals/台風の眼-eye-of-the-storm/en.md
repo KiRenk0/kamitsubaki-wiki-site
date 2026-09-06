@@ -79,7 +79,9 @@ image: /images/songs/harusaruhi/single-1687464984.jpg
 <div class="jp-lyric">
 [00:40.94]<ruby>怯<rt class="furi">ひる</rt><rt class="roma">hiru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
-<div class="trans-lyric">Because I can't stay cowering</div>
+<div class="trans-lyric">
+[00:40.94]Because I can't stay cowering
+</div>
 </div>
 
 <div class="lyric-line">
@@ -377,12 +379,14 @@ image: /images/songs/harusaruhi/single-1687464984.jpg
 <div class="jp-lyric">
 [02:33.97]<ruby>拳<rt class="furi">こぶし</rt><rt class="roma">kobushi</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>わす<rt class="roma">wasu</rt></ruby><ruby>仲間<rt class="furi">なかま</rt><rt class="roma">nakama</rt></ruby><ruby>達<rt class="furi">たち</rt><rt class="roma">tachi</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
+<div class="trans-lyric">[02:33.97]To my fellow comrades who fist bump</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:36.63]<ruby>未知<rt class="furi">みち</rt><rt class="roma">michi</rt></ruby> <ruby>苦悩<rt class="furi">くのう</rt><rt class="roma">kunou</rt></ruby> <ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby> <ruby>戦<rt class="furi">たたか</rt><rt class="roma">tataka</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="trans-lyric">[02:36.63]Unknown, anguish, future – let's fight</div>
 </div>
 
 <div class="lyric-line">
@@ -403,12 +407,14 @@ image: /images/songs/harusaruhi/single-1687464984.jpg
 <div class="jp-lyric">
 [02:45.74]<ruby>問題<rt class="furi">もんだい</rt><rt class="roma">mondai</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>
 </div>
+<div class="trans-lyric">[02:45.74]You can cry when there's no problem</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:48.46]<ruby>後悔<rt class="furi">こうかい</rt><rt class="roma">koukai</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>負<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">[02:48.46]I won't lose to a regretless self</div>
 </div>
 
 <div class="lyric-line">
@@ -422,6 +428,7 @@ image: /images/songs/harusaruhi/single-1687464984.jpg
 <div class="jp-lyric">
 [02:54.32]<ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>行<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>時間<rt class="furi">じかん</rt><rt class="roma">jikan</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="trans-lyric">[02:54.32]Until the time fades away</div>
 </div>
 
 <br />
@@ -430,6 +437,7 @@ image: /images/songs/harusaruhi/single-1687464984.jpg
 <div class="jp-lyric">
 [03:08.83]<ruby>考<rt class="furi">かんが</rt><rt class="roma">kanga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>過<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>ぎ<rt class="roma">gi</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:08.83]Don't overthink, hold hands</div>
 </div>
 
@@ -439,6 +447,7 @@ image: /images/songs/harusaruhi/single-1687464984.jpg
 <div class="jp-lyric">
 [03:23.21]<ruby>真面目<rt class="furi">まじめ</rt><rt class="roma">majime</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>進<rt class="furi">すす</rt><rt class="roma">susu</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:23.21]Even if I proceed seriously, I've been broken</div>
 </div>
 
@@ -446,6 +455,7 @@ image: /images/songs/harusaruhi/single-1687464984.jpg
 <div class="jp-lyric">
 [03:25.97]<ruby>なら<rt class="roma">nara</rt></ruby><ruby>自然体<rt class="furi">しぜんたい</rt><rt class="roma">shizentai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>魅<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>やれ<rt class="roma">yare</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:25.97]Then show it naturally</div>
 </div>
 
@@ -453,6 +463,7 @@ image: /images/songs/harusaruhi/single-1687464984.jpg
 <div class="jp-lyric">
 [03:29.42]<ruby>理不尽<rt class="furi">りふじん</rt><rt class="roma">rifujin</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>自由<rt class="furi">じゆう</rt><rt class="roma">jiyuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> (oh!)
 </div>
+
 <div class="trans-lyric">[03:29.42]Freedom from irrationality (oh!)</div>
 </div>
 
@@ -462,24 +473,28 @@ image: /images/songs/harusaruhi/single-1687464984.jpg
 <div class="jp-lyric">
 [03:35.33]<ruby>問題<rt class="furi">もんだい</rt><rt class="roma">mondai</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>
 </div>
+<div class="trans-lyric">[03:35.33]You can cry when there's no problem</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:37.93]<ruby>後悔<rt class="furi">こうかい</rt><rt class="roma">koukai</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>負<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">[03:37.93]I won't lose to a regretless self</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:40.98]<ruby>叶<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>期待<rt class="furi">きたい</rt><rt class="roma">kitai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="trans-lyric">[03:40.98]Fulfill your expectations</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:43.65]<ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>行<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>時間<rt class="furi">じかん</rt><rt class="roma">jikan</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="trans-lyric">[03:43.65]Until the time fades away</div>
 </div>
 
 </div>

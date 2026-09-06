@@ -20,7 +20,7 @@ image: /images/albums/rim/singularity-live.jpg
 
 ## Overview
 
-生きているより楽しそう (Live at Virtual, 2022) appears on Singularity Live or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+生きているより楽しそう (Live at Virtual, 2022) appears on [Singularity Live](/en/albums/rim/singularity-live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -148,6 +148,7 @@ Thank you for every thing my dearest friend
 <div class="jp-lyric">
 <ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>想像<rt class="furi">そうぞう</rt><rt class="roma">souzou</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby>
 </div>
+<div class="trans-lyric">Surely more than you imagine</div>
 </div>
 
 <div class="lyric-line">
@@ -231,6 +232,7 @@ Oh~<ruby>素直<rt class="furi">すなお</rt><rt class="roma">sunao</rt></ruby>
 <div class="jp-lyric">
 <ruby>ガールズトーク<rt class="roma">gaaruzutouku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>楽<rt class="furi">たの</rt><rt class="roma">tano</rt></ruby><ruby>しむ<rt class="roma">shimu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="trans-lyric">We enjoy our girl talk</div>
 </div>
 
 <div class="lyric-line">
@@ -251,24 +253,28 @@ Oh~<ruby>素直<rt class="furi">すなお</rt><rt class="roma">sunao</rt></ruby>
 <div class="jp-lyric">
 <ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>ありがとう<rt class="roma">arigatou</rt></ruby>
 </div>
+<div class="trans-lyric">Thank you always</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Thank you for every thing my dearest friend
 </div>
+<div class="trans-lyric">Thank you for every thing my dearest friend</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ガールズトーク<rt class="roma">gaaruzutouku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>楽<rt class="furi">たの</rt><rt class="roma">tano</rt></ruby><ruby>しむ<rt class="roma">shimu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="trans-lyric">We enjoy our girl talk</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>楽<rt class="furi">たの</rt><rt class="roma">tano</rt></ruby><ruby>しむ<rt class="roma">shimu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>楽<rt class="furi">たの</rt><rt class="roma">tano</rt></ruby><ruby>しむ<rt class="roma">shimu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="trans-lyric">Enjoy it, enjoy it</div>
 </div>
 
@@ -276,6 +282,7 @@ Thank you for every thing my dearest friend
 <div class="jp-lyric">
 <ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ありがとう<rt class="roma">arigatou</rt></ruby>
 </div>
+
 <div class="trans-lyric">Thank you so much always</div>
 </div>
 
@@ -283,6 +290,7 @@ Thank you for every thing my dearest friend
 <div class="jp-lyric">
 <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>、<ruby>楽<rt class="furi">らく</rt><rt class="roma">raku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なれる<rt class="roma">nareru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="trans-lyric">When I'm with you, I can relax</div>
 </div>
 
@@ -290,30 +298,35 @@ Thank you for every thing my dearest friend
 <div class="jp-lyric">
 <ruby>ガールズトーク<rt class="roma">gaaruzutouku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>楽<rt class="furi">たの</rt><rt class="roma">tano</rt></ruby><ruby>しむ<rt class="roma">shimu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="trans-lyric">We enjoy our girl talk</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>彼<rt class="furi">かれ</rt><rt class="roma">kare</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>話<rt class="furi">はなし</rt><rt class="roma">hanashi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>くれる<rt class="roma">kureru</rt></ruby>
 </div>
+<div class="trans-lyric">You laugh at stories I can't tell my boyfriend</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>大好<rt class="furi">だいす</rt><rt class="roma">daisu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby>
 </div>
+<div class="trans-lyric">I truly love you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>ありがとう<rt class="roma">arigatou</rt></ruby>
 </div>
+<div class="trans-lyric">Thank you always</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Thank you for every thing my dearest friend
 </div>
+<div class="trans-lyric">Thank you for every thing my dearest friend</div>
 </div>
 
 </div>

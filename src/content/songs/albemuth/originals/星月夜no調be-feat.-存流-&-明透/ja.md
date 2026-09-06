@@ -17,7 +17,7 @@ image: /images/songs/albemuth/星月夜no調be-feat.-存流-&-明透.jpg
 
 ## 作品概要
 
-Albemuthが2023-08-16にリリースしたシングル「星月夜の調べ (feat. 存流 & 明透)」。
+[Albemuth](/ja/artists/solo/albemuth)が2023-08-16にリリースしたシングル「星月夜の調べ (feat. 存流 & 明透)」。
 
 ## 視聴
 {{media-switcher::星月夜の調べ (feat. 存流 & 明透)}}

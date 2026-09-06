@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/towairaito-serenaade.jpg
 
 ## 作品概要
 
-Empty old Cityが2022-08-02にリリースしたシングル「トワイライト・セレナーデ」。
+[Empty old City](/ja/artists/solo/empty-old-city)が2022-08-02にリリースしたシングル「トワイライト・セレナーデ」。
 
 ## 視聴
 {{media-switcher::トワイライト・セレナーデ}}

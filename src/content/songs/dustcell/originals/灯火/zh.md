@@ -17,7 +17,7 @@ image: /images/songs/dustcell/灯火.jpg
 
 ## 作品简介
 
-DUSTCELL于 2025-07-15 发行的单曲《灯火》。
+[DUSTCELL](/zh/artists/solo/dustcell)于 2025-07-15 发行的单曲《灯火》。
 
 ## 试听
 {{media-switcher::灯火}}

@@ -63,24 +63,28 @@ Say goodnight cause im bout to hit the last swing
 <div class="jp-lyric">
 Slash slash till the mothafuccin wig split
 </div>
+<div class="cn-lyric">砍砍砍直到那该死的假发裂开</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Head gone by the time i finna dip dip
 </div>
+<div class="cn-lyric">当我准备溜走时头已经没了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Say bye bye when the devil make his round trip
 </div>
+<div class="cn-lyric">当魔鬼来回一趟时就说拜拜</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Say goodnight cause im bout to hit the last swing
 </div>
+<div class="cn-lyric">说晚安因为我要挥出最后一击</div>
 </div>
 
 <br />
@@ -175,6 +179,7 @@ Keeper of the damned bitch
 <div class="jp-lyric">
 My gang aint worth your time
 </div>
+
 <div class="cn-lyric">我的帮派不值得你费时间</div>
 </div>
 
@@ -182,6 +187,7 @@ My gang aint worth your time
 <div class="jp-lyric">
 So im only giving you, a little sixteen liner
 </div>
+
 <div class="cn-lyric">所以我只给你，一段十六行的小曲</div>
 </div>
 
@@ -189,6 +195,7 @@ So im only giving you, a little sixteen liner
 <div class="jp-lyric">
 You will only be a waste of bullets
 </div>
+
 <div class="cn-lyric">你只会是浪费子弹</div>
 </div>
 
@@ -196,6 +203,7 @@ You will only be a waste of bullets
 <div class="jp-lyric">
 Cause you were never once a fighter
 </div>
+
 <div class="cn-lyric">因为你从来不是战士</div>
 </div>
 
@@ -205,48 +213,56 @@ Cause you were never once a fighter
 <div class="jp-lyric">
 Slash slash till the mothafuccin wig split
 </div>
+<div class="cn-lyric">砍砍砍直到那该死的假发裂开</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Head gone by the time i finna dip dip
 </div>
+<div class="cn-lyric">当我准备溜走时头已经没了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Say bye bye when the devil make his round trip
 </div>
+<div class="cn-lyric">当魔鬼来回一趟时就说拜拜</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Say goodnight cause im bout to hit the last swing
 </div>
+<div class="cn-lyric">说晚安因为我要挥出最后一击</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Slash slash till the mothafuccin wig split
 </div>
+<div class="cn-lyric">砍砍砍直到那该死的假发裂开</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Head gone by the time i finna dip dip
 </div>
+<div class="cn-lyric">当我准备溜走时头已经没了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Say bye bye when the devil make his round trip
 </div>
+<div class="cn-lyric">当魔鬼来回一趟时就说拜拜</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Say goodnight cause im bout to hit the last swing
 </div>
+<div class="cn-lyric">说晚安因为我要挥出最后一击</div>
 </div>
 
 </div>

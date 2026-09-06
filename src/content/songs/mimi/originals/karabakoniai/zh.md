@@ -17,7 +17,7 @@ image: /images/songs/mimi/karabakoniai.jpg
 
 ## 作品简介
 
-MIMI于 2020-04-26 发行的单曲《カラバコにアイ》。
+[MIMI](/zh/artists/creators/mimi)于 2020-04-26 发行的单曲《カラバコにアイ》。
 
 ## 试听
 {{media-switcher::カラバコにアイ}}

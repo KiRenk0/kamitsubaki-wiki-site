@@ -17,7 +17,7 @@ image: /images/songs/mimi/月夜-feat.-宵.jpg
 
 ## 作品简介
 
-MIMI于 2026-04-21 发行的单曲《月夜 (feat. 宵)》。
+[MIMI](/zh/artists/creators/mimi)于 2026-04-21 发行的单曲《月夜 (feat. 宵)》。
 
 ## 试听
 {{media-switcher::月夜 (feat. 宵)}}

@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 
 ## 作品简介
 
-《青と夏 at CREAM PUFF LIVE 3(Cover)》收录于《CREAM PUFF LIVE 3》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《青と夏 at CREAM PUFF LIVE 3(Cover)》收录于《[CREAM PUFF LIVE 3](/zh/albums/harusaruhi/cream-puff-live-3)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -126,6 +126,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 <ruby>映画<rt class="furi">えいが</rt><rt class="roma">eiga</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">不是电影</div>
 </div>
 
 <div class="lyric-line">
@@ -160,6 +161,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 <ruby>風鈴<rt class="furi">ふうりん</rt><rt class="roma">fuurin</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>チリ<rt class="roma">chiri</rt></ruby><ruby>ン<rt class="roma">n</rt></ruby>
 </div>
+<div class="cn-lyric">风铃叮铃</div>
 </div>
 
 <div class="lyric-line">
@@ -236,6 +238,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 <ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>まった<rt class="roma">matta</rt></ruby>
 </div>
+<div class="cn-lyric">夏天开始了</div>
 </div>
 
 <div class="lyric-line">
@@ -277,6 +280,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">我的恋爱</div>
 </div>
 
 <div class="lyric-line">
@@ -346,6 +350,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 <ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>まった<rt class="roma">matta</rt></ruby>
 </div>
+<div class="cn-lyric">夏天开始了</div>
 </div>
 
 <div class="lyric-line">
@@ -373,6 +378,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 <ruby>映画<rt class="furi">えいが</rt><rt class="roma">eiga</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">不是电影</div>
 </div>
 
 <div class="lyric-line">
@@ -386,6 +392,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [03:30.86]<ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>まった<rt class="roma">matta</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:30.86]恋爱开始了</div>
 </div>
 
@@ -393,12 +400,14 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 <ruby>合図<rt class="furi">あいず</rt><rt class="roma">aizu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">信号发出了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:35.94]<ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>ちわび<rt class="roma">chiwabi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>なんて<rt class="roma">nante</rt></ruby><ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:35.94]翘首期盼今天 多么美好的一天</div>
 </div>
 
@@ -406,6 +415,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [03:41.20]<ruby>まだまだ<rt class="roma">madamada</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:41.20]这个夏天还远未结束</div>
 </div>
 
@@ -413,12 +423,14 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 <ruby>映画<rt class="furi">えいが</rt><rt class="roma">eiga</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">不是电影</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:46.02]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>番<rt class="furi">ばん</rt><rt class="roma">ban</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:46.02]轮到你们了</div>
 </div>
 
@@ -426,12 +438,14 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 <ruby>映画<rt class="furi">えいが</rt><rt class="roma">eiga</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">不是电影</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:51.27]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>青<rt class="furi">あお</rt><rt class="roma">ao</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:51.27]是我们的蓝色</div>
 </div>
 
@@ -439,12 +453,14 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 <ruby>映画<rt class="furi">えいが</rt><rt class="roma">eiga</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">不是电影</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:56.45]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:56.45]是我们的夏天</div>
 </div>
 

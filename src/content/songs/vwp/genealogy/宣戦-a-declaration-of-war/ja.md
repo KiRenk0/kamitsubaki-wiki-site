@@ -26,7 +26,7 @@ image: /images/albums/vwp/fate.jpg
 
 ## 作品概要
 
-- V.W.Pが2023年8月21日にリリースしたオリジナルシングル「宣戦」。本バージョンはアルバム「[運命](/ja/albums/vwp/fate)」に初収録された。
+- [V.W.P](/ja/artists/vwp/vwp)が2023年8月21日にリリースしたオリジナルシングル「宣戦」。本バージョンはアルバム「[運命](/ja/albums/vwp/fate)」に初収録された。
 
 ## 試聴
 

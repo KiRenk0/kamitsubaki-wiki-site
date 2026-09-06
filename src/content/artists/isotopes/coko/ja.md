@@ -90,7 +90,7 @@ CeVIO AIプラットフォーム上で動作し、日本語の「狐子（ここ
 
 狐子を用いた代表的な楽曲には以下のようなものがあります。
 
-- 『the last bullet』（狐子 カバーバージョン）
+- 『[the last bullet](/ja/songs/koko/originals/the-last-bullet)』（狐子 カバーバージョン）
 - クリエイターコミュニティによって制作された、熱量の高い数々のボカロ・CeVIOオリジナル楽曲
 
 おすすめの関連項目：

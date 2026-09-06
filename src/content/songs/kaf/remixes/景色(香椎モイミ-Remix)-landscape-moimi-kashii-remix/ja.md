@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 ## 作品概要
 
-「景色([香椎モイミ](/ja/artists/creators/kashiimoimi) Remix)」は[花譜](/ja/artists/vwp/kaf)の『[魔法γ](/ja/albums/kaf/maho-gamma)』に収録された11曲目です。
+「[景色](/ja/songs/kaf/originals/景色-landscape)([香椎モイミ](/ja/artists/creators/kashiimoimi) Remix)」は[花譜](/ja/artists/vwp/kaf)の『[魔法γ](/ja/albums/kaf/maho-gamma)』に収録された11曲目です。
 
 ## 視聴
 

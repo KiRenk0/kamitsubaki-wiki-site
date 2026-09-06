@@ -332,24 +332,28 @@ image: /images/songs/kaf/track-1872604651.jpg
 <div class="jp-lyric">
 <ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>らぐ<rt class="roma">ragu</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">将不会动摇的话语</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>彷徨<rt class="furi">ほうこう</rt><rt class="roma">houkou</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">将不会彷徨的话语</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">你传达给了我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>せい<rt class="roma">sei</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">正因为如此</div>
 </div>
 
 <div class="lyric-line">
@@ -363,6 +367,7 @@ image: /images/songs/kaf/track-1872604651.jpg
 <div class="jp-lyric">
 [03:49.63]<ruby>この<rt class="roma">kono</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>震<rt class="furi">ふる</rt><rt class="roma">furu</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:49.63]这声音仍在颤抖</div>
 </div>
 
@@ -370,6 +375,7 @@ image: /images/songs/kaf/track-1872604651.jpg
 <div class="jp-lyric">
 [03:55.63]<ruby>掠<rt class="furi">かす</rt><rt class="roma">kasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>滲<rt class="furi">にじ</rt><rt class="roma">niji</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:55.63]沙哑的思绪也渗透</div>
 </div>
 
@@ -377,6 +383,7 @@ image: /images/songs/kaf/track-1872604651.jpg
 <div class="jp-lyric">
 [04:01.33]<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>大切<rt class="furi">たいせつ</rt><rt class="roma">taisetsu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:01.33]即便如此 它也是重要的声音</div>
 </div>
 
@@ -384,6 +391,7 @@ image: /images/songs/kaf/track-1872604651.jpg
 <div class="jp-lyric">
 [04:09.70]<ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>まし<rt class="roma">mashi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:09.70]我终于明白了</div>
 </div>
 

@@ -52,7 +52,7 @@ seo:
 
 Toa (とあ) is a Vocaloid and synth vocal producer who has been active since 2013. He is recognized for his distinctive approach of pairing cute, poppy vocal tuning with lyrics steeped in sadness and melancholy — a contrast that gives his music a bittersweet emotional depth. His primary vocal canvases include Hatsune Miku and the CeVIO singer KAFU.
 
-- September 5, 2026: With the renewal of KAMITSUBAKI STUDIO, the in-studio labels were consolidated into PHENOMENON RECORD.
+- September 5, 2026: With the renewal of [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio), the in-studio labels were consolidated into PHENOMENON RECORD.
 
 ## Representative Works
 

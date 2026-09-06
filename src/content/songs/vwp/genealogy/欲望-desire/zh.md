@@ -167,6 +167,7 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [01:15.15]<ruby>息<rt class="furi">いき</rt><rt class="roma">iki</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>でき<rt class="roma">deki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby>
 </div>
+<div class="cn-lyric">[01:15.15]快要无法呼吸</div>
 </div>
 
 <div class="lyric-line">
@@ -196,6 +197,7 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [01:27.89]<ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>かん<rt class="roma">kan</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>未開<rt class="furi">みかい</rt><rt class="roma">mikai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>飲み込<rt class="furi">のみこ</rt><rt class="roma">nomiko</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[01:27.89]不明白啊 在未开化的世界中被吞没</div>
 </div>
 
 <div class="lyric-line">
@@ -269,6 +271,7 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [02:21.06]<ruby>欲望<rt class="furi">よくぼう</rt><rt class="roma">yokubou</rt></ruby> <ruby>渇<rt class="furi">かわ</rt><rt class="roma">kawa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>強<rt class="furi">つよ</rt><rt class="roma">tsuyo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>導<rt class="furi">みちび</rt><rt class="roma">michibi</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:21.06]欲望 越是干渴 强烈的光芒指引着</div>
 </div>
 
@@ -276,6 +279,7 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [02:26.56]<ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>希望<rt class="furi">きぼう</rt><rt class="roma">kibou</rt></ruby> <ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:26.56]祈愿 找到希望</div>
 </div>
 

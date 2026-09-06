@@ -78,18 +78,18 @@ tracks:
 
 ## Overview
 
-ALBEMUTH's album “Happy Merry Xmath (feat. 存流 & 明透)”, released on 2024-02-14, featuring 14 tracks.
+[ALBEMUTH](/en/artists/solo/albemuth)'s album “Happy Merry Xmath (feat. 存流 & 明透)”, released on 2024-02-14, featuring 14 tracks.
 
 ## Track List
 
-1. 虎視眈々 - Happy Merry Xmath ( Cover ) [feat. 存流 & 明透] (03:49)
+1. [虎視眈々](/en/songs/koko/covers/虎視眈々-koshitantan) - Happy Merry Xmath ( Cover ) [feat. 存流 & 明透] (03:49)
 1. Deal with the devil - Happy Merry Xmath ( Cover ) [feat. 存流 & 明透] (04:42)
 2. Gimme×Gimme - Happy Merry Xmath ( Cover ) [feat. 存流 & 明透] (03:38)
 2. 東京は夜 - Happy Merry Xmath ( Cover ) [feat. 存流 & 明透] (03:03)
 3. Ready Steady - Happy Merry Xmath ( Cover ) [feat. 存流 & 明透] (03:30)
 3. asphyxia - Happy Merry Xmath ( Cover ) [feat. 存流 & 明透] (02:59)
 4. G4L - Happy Merry Xmath ( Cover ) [feat. 存流 & 明透] (03:00)
-4. unravel - Happy Merry Xmath ( Cover ) [feat. 存流 & 明透] (03:59)
+4. [unravel](/en/songs/koko/covers/unravel) - Happy Merry Xmath ( Cover ) [feat. 存流 & 明透] (03:59)
 5. どれにしようかな - Happy Merry Xmath ( Cover ) [feat. 存流 & 明透] (02:42)
 5. タクト - Happy Merry Xmath ( Cover ) [feat. 存流 & 明透] (04:01)
 6. 火焔 - Happy Merry Xmath ( Cover ) [feat. 存流 & 明透] (02:59)

@@ -164,30 +164,35 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [01:41.27]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>なし<rt class="roma">nashi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>ただ<rt class="roma">tada</rt></ruby>
 </div>
+<div class="cn-lyric">[01:41.27]只是想不经意地看着 只是</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:46.44]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>それだけ<rt class="roma">soredake</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
 </div>
+<div class="cn-lyric">[01:46.44]明明只是那样而已</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:52.14]<ruby>この<rt class="roma">kono</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>とれる<rt class="roma">toreru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いや<rt class="roma">iya</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">[01:52.14]我讨厌这个怎么解释都行的世界</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:56.67]<ruby>どう<rt class="roma">dou</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby><ruby>黙<rt class="furi">だま</rt><rt class="roma">dama</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>パパ<rt class="roma">papa</rt></ruby>
 </div>
+<div class="cn-lyric">[01:56.67]无所谓了 闭嘴吧爸爸</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:02.11]<ruby>黙<rt class="furi">だま</rt><rt class="roma">dama</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>パパ<rt class="roma">papa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:02.11]闭嘴吧爸爸</div>
 </div>
 
 <div class="lyric-line">
@@ -250,6 +255,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [02:42.94]<ruby>大丈夫<rt class="furi">だいじょうぶ</rt><rt class="roma">daijoubu</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="cn-lyric">[02:42.94]因为没关系的</div>
 </div>
 
 <div class="lyric-line">
@@ -270,18 +276,21 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [02:57.71]<ruby>この<rt class="roma">kono</rt></ruby><ruby>なんと<rt class="roma">nanto</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いや<rt class="roma">iya</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">[02:57.71]我讨厌这个什么都能说的世界</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:02.34]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>なし<rt class="roma">nashi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>ただ<rt class="roma">tada</rt></ruby>
 </div>
+<div class="cn-lyric">[03:02.34]只是想不经意地看着 只是</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:07.69]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>それだけ<rt class="roma">soredake</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
 </div>
+<div class="cn-lyric">[03:07.69]明明只是那样而已</div>
 </div>
 
 <br />
@@ -311,6 +320,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [03:56.46]<ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>来<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:56.46]总有一天会迎来终结呢</div>
 </div>
 
@@ -318,6 +328,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [04:00.18]<ruby>正<rt class="furi">ただ</rt><rt class="roma">tada</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>正<rt class="furi">ただ</rt><rt class="roma">tada</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:00.18]关于正确性的正确性</div>
 </div>
 
@@ -325,6 +336,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [04:03.56]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:03.56]只是想知道而已</div>
 </div>
 
@@ -332,6 +344,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [04:07.90]<ruby>正<rt class="furi">まさ</rt><rt class="roma">masa</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>教<rt class="furi">おし</rt><rt class="roma">oshi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>てよ<rt class="roma">teyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:07.90]请正确地告诉我吧</div>
 </div>
 
@@ -339,36 +352,42 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [04:14.69]<ruby>だから<rt class="roma">dakara</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>なんと<rt class="roma">nanto</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いや<rt class="roma">iya</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">[04:14.69]所以我讨厌这个什么都能说的世界</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:19.70]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>なし<rt class="roma">nashi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>ただ<rt class="roma">tada</rt></ruby>
 </div>
+<div class="cn-lyric">[04:19.70]只是想不经意地看着 只是</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:25.16]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>それだけ<rt class="roma">soredake</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
 </div>
+<div class="cn-lyric">[04:25.16]明明只是那样而已</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:30.92]<ruby>この<rt class="roma">kono</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>とれる<rt class="roma">toreru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いや<rt class="roma">iya</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">[04:30.92]我讨厌这个怎么解释都行的世界</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:35.18]<ruby>どう<rt class="roma">dou</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby><ruby>黙<rt class="furi">だま</rt><rt class="roma">dama</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>パパ<rt class="roma">papa</rt></ruby>
 </div>
+<div class="cn-lyric">[04:35.18]无所谓了 闭嘴吧爸爸</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:40.84]<ruby>黙<rt class="furi">だま</rt><rt class="roma">dama</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>パパ<rt class="roma">papa</rt></ruby> <ruby>パパ<rt class="roma">papa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:40.84]闭嘴吧爸爸 爸爸</div>
 </div>
 
@@ -376,6 +395,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [04:46.40]<ruby>この<rt class="roma">kono</rt></ruby><ruby>なんと<rt class="roma">nanto</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:46.40]明明这是个什么都能说的世界</div>
 </div>
 
@@ -383,6 +403,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [04:50.46]<ruby>この<rt class="roma">kono</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>とも<rt class="roma">tomo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>なに<rt class="roma">nani</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:50.46]这份难以言喻的思念是什么</div>
 </div>
 
@@ -390,6 +411,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [04:56.37]<ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>なに<rt class="roma">nani</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:56.37]思念是什么</div>
 </div>
 
@@ -397,12 +419,14 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [05:01.83]<ruby>この<rt class="roma">kono</rt></ruby><ruby>なんと<rt class="roma">nanto</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いや<rt class="roma">iya</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">[05:01.83]我讨厌这个什么都能说的世界</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [05:09.52]<ruby>こんなに<rt class="roma">konnani</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>唄<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いや<rt class="roma">iya</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="cn-lyric">[05:09.52]我讨厌这个能这样歌唱的世界</div>
 </div>
 

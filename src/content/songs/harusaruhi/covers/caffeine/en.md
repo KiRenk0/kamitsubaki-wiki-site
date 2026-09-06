@@ -18,7 +18,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 
 ## Overview
 
-Caffeine appears on CREAM PUFF LIVE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+Caffeine appears on [CREAM PUFF LIVE](/en/albums/harusaruhi/cream-puff-live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Lyrics
 

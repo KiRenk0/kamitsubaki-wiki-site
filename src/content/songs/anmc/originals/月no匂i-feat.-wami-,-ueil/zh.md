@@ -17,7 +17,7 @@ image: /images/songs/anmc/月no匂i-feat.-wami-,-ueil.jpg
 
 ## 作品简介
 
-ANMC于 2024-09-11 发行的单曲《月の匂い feat. WaMi , ueil》。
+[ANMC](/zh/artists/solo/anmc)于 2024-09-11 发行的单曲《月の匂い feat. WaMi , ueil》。
 
 ## 试听
 {{media-switcher::月の匂い feat. WaMi , ueil}}

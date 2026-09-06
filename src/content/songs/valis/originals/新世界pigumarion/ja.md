@@ -17,7 +17,7 @@ image: /images/songs/valis/新世界pigumarion.jpg
 
 ## 作品概要
 
-VALISが2023-04-17にリリースしたシングル「新世界ピグマリオン」。
+[VALIS](/ja/artists/solo/valis)が2023-04-17にリリースしたシングル「新世界ピグマリオン」。
 
 ## 視聴
 @[apple-music](https://music.apple.com/jp/album/%E6%96%B0%E4%B8%96%E7%95%8C%E3%83%94%E3%82%AC%E3%83%9E%E3%83%AA%E3%82%AA%E3%83%B3/1687478155?i=1687478156&uo=4 "新世界ピグマリオン")

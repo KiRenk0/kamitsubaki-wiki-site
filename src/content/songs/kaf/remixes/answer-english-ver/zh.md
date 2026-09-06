@@ -243,42 +243,49 @@ Oh 달려가 너의 곁으로
 <div class="jp-lyric">
 Yeah 환상일까 like a prism
 </div>
+<div class="cn-lyric">Yeah 会是幻觉吗 like a prism</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 굴절된 light 조각나 있어
 </div>
+<div class="cn-lyric">折射的光 破碎开来</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 잠겨있던 거친 마음은
 </div>
+<div class="cn-lyric">曾被囚禁的粗粝之心</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 여전히 너를 향하고 있다고
 </div>
+<div class="cn-lyric">依然向着你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 미로 속에 갇혀버린 나
 </div>
+<div class="cn-lyric">被困在迷宫中的我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 어지럽게 늘 헤매여도
 </div>
+<div class="cn-lyric">即使总是晕头转向地徘徊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 결국 돌아가 너에게로 woah
 </div>
+<div class="cn-lyric">最终回到你身边 woah</div>
 </div>
 
 <br />
@@ -287,42 +294,49 @@ Yeah 환상일까 like a prism
 <div class="jp-lyric">
 넌 나의 answer 알 수 있어
 </div>
+<div class="cn-lyric">你是我的answer 我能知道</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 투명한 공기처럼
 </div>
+<div class="cn-lyric">如透明的空气一般</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 유일한 answer I can feel you
 </div>
+<div class="cn-lyric">唯一的answer I can feel you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 공허한 밤을 채워
 </div>
+<div class="cn-lyric">填满空虚的夜晚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 아련한 별들 같이 넌 내 안에 쏟아진다
 </div>
+<div class="cn-lyric">如朦胧的星辰般 你倾泻在我心中</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You are the one
 </div>
+<div class="cn-lyric">You are the one</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 찾고 있던 나의 answer, answer, yeah
 </div>
+<div class="cn-lyric">我一直在寻找的answer, answer, yeah</div>
 </div>
 
 <br />
@@ -331,6 +345,7 @@ You are the one
 <div class="jp-lyric">
 닿을 수 있을까 수평선을 넘어
 </div>
+
 <div class="cn-lyric">能触碰到吗 越过地平线</div>
 </div>
 
@@ -338,6 +353,7 @@ You are the one
 <div class="jp-lyric">
 손끝에 온기가 느껴질 거야
 </div>
+
 <div class="cn-lyric">指尖会感受到温暖</div>
 </div>
 
@@ -345,6 +361,7 @@ You are the one
 <div class="jp-lyric">
 아무도 알 수 없는 secret 너와
 </div>
+
 <div class="cn-lyric">无人知晓的secret 与你</div>
 </div>
 
@@ -352,6 +369,7 @@ You are the one
 <div class="jp-lyric">
 Wake up in the dark
 </div>
+
 <div class="cn-lyric">Wake up in the dark</div>
 </div>
 
@@ -359,6 +377,7 @@ Wake up in the dark
 <div class="jp-lyric">
 이제 깨어나 답을 찾아
 </div>
+
 <div class="cn-lyric">现在醒来 寻找答案</div>
 </div>
 
@@ -368,42 +387,49 @@ Wake up in the dark
 <div class="jp-lyric">
 넌 나의 answer 알 수 있어
 </div>
+<div class="cn-lyric">你是我的answer 我能知道</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 투명한 공기처럼
 </div>
+<div class="cn-lyric">如透明的空气一般</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 유일한 answer I can feel you
 </div>
+<div class="cn-lyric">唯一的answer I can feel you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 공허한 밤을 채워
 </div>
+<div class="cn-lyric">填满空虚的夜晚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 아련한 별들 같이 넌 내 안에 쏟아진다
 </div>
+<div class="cn-lyric">如朦胧的星辰般 你倾泻在我心中</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You are the one
 </div>
+<div class="cn-lyric">You are the one</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 찾고 있던 나의 answer, answer, yeah
 </div>
+<div class="cn-lyric">我一直在寻找的answer, answer, yeah</div>
 </div>
 
 </div>

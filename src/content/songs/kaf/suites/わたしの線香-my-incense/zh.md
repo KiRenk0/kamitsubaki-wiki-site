@@ -140,6 +140,7 @@ image: /images/songs/kaf/track-1688670244.jpg
 <div class="jp-lyric">
 [01:07.59]<ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby>
 </div>
+<div class="cn-lyric">[01:07.59]眼睛眼睛眼睛眼睛</div>
 </div>
 
 <div class="lyric-line">
@@ -160,6 +161,7 @@ image: /images/songs/kaf/track-1688670244.jpg
 <div class="jp-lyric">
 [01:14.62]<ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>手<rt class="furi">しゅ</rt><rt class="roma">shu</rt></ruby><ruby>手<rt class="furi">しゅ</rt><rt class="roma">shu</rt></ruby><ruby>手<rt class="furi">しゅ</rt><rt class="roma">shu</rt></ruby>
 </div>
+<div class="cn-lyric">[01:14.62]手手手手</div>
 </div>
 
 <div class="lyric-line">
@@ -182,6 +184,7 @@ image: /images/songs/kaf/track-1688670244.jpg
 <div class="jp-lyric">
 [01:22.05]<ruby>達磨<rt class="furi">だるま</rt><rt class="roma">daruma</rt></ruby><ruby>さん<rt class="roma">san</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[01:22.05]达磨先生，曾爱过</div>
 </div>
 
 <div class="lyric-line">
@@ -197,12 +200,14 @@ image: /images/songs/kaf/track-1688670244.jpg
 <div class="jp-lyric">
 [01:33.30]<ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>線香<rt class="furi">せんこう</rt><rt class="roma">senkou</rt></ruby><ruby>あげ<rt class="roma">age</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>ねぇ<rt class="roma">nee</rt></ruby><ruby>あげ<rt class="roma">age</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[01:33.30]请为我点上线香 呐 点上吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:38.29]<ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:38.29]并不是永别啊</div>
 </div>
 
@@ -210,6 +215,7 @@ image: /images/songs/kaf/track-1688670244.jpg
 <div class="jp-lyric">
 [01:40.42]偶<ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>参<rt class="furi">まい</rt><rt class="roma">mai</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:40.42]偶尔也来参拜一下吧</div>
 </div>
 
@@ -217,6 +223,7 @@ image: /images/songs/kaf/track-1688670244.jpg
 <div class="jp-lyric">
 [01:43.58]<ruby>また<rt class="roma">mata</rt></ruby><ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby> <ruby>息<rt class="furi">いき</rt><rt class="roma">iki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>吐<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:43.58]明天再见 呼出气息</div>
 </div>
 
@@ -226,6 +233,7 @@ image: /images/songs/kaf/track-1688670244.jpg
 <div class="jp-lyric">
 [02:00.85]<ruby>息<rt class="furi">いき</rt><rt class="roma">iki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>吐<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:00.85]呼出气息</div>
 </div>
 

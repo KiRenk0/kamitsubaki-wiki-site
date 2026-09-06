@@ -126,12 +126,14 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:32.23]Don’t worry
 </div>
+<div class="cn-lyric">[00:32.23]Don't worry</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:33.30]You’ll be happy
 </div>
+<div class="cn-lyric">[00:33.30]You'll be happy</div>
 </div>
 
 <div class="lyric-line">
@@ -145,6 +147,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:37.50]<ruby>たまに<rt class="roma">tamani</rt></ruby><ruby>恥<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>かく<rt class="roma">kaku</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>アリ<rt class="roma">ari</rt></ruby>
 </div>
+
 <div class="cn-lyric">[00:37.50]偶尔丢脸的日子也没关系</div>
 </div>
 
@@ -152,6 +155,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:40.17]<ruby>ゆっくり<rt class="roma">yukkuri</rt></ruby><ruby>いこう<rt class="roma">ikou</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>旅<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby>yeah
 </div>
+
 <div class="cn-lyric">[00:40.17]慢慢走吧 属于自己的旅程 yeah</div>
 </div>
 

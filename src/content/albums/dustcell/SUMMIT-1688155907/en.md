@@ -70,11 +70,11 @@ tracks:
 
 ## Overview
 
-DUSTCELL's album “SUMMIT”, released on 2020-05-20, featuring 12 tracks.
+[DUSTCELL](/en/artists/solo/dustcell)'s album “SUMMIT”, released on 2020-05-20, featuring 12 tracks.
 
 ## Track List
 
-1. CULT (03:21)
+1. [CULT](/en/songs/harusaruhi/covers/cult) (03:21)
 2. アネモネ (03:12)
 3. SOIREE (02:23)
 4. DOMINATION (03:39)
@@ -85,4 +85,4 @@ DUSTCELL's album “SUMMIT”, released on 2020-05-20, featuring 12 tracks.
 9. LILAC (03:17)
 10. ONE (03:41)
 11. STIGMA (03:24)
-12. 終点 (04:58)
+12. [終点](/en/songs/koko/covers/終点-shuuten) (04:58)

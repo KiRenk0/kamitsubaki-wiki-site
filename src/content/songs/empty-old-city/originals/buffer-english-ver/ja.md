@@ -16,7 +16,7 @@ image: /images/songs/empty-old-city/buffer-english-ver.jpg
 
 ## 作品概要
 
-Empty old Cityが2024-05-14にリリースしたシングル「Buffer (English Ver.)」。
+[Empty old City](/ja/artists/solo/empty-old-city)が2024-05-14にリリースしたシングル「Buffer (English Ver.)」。
 
 ## 視聴
 {{media-switcher::Buffer (English Ver.)}}

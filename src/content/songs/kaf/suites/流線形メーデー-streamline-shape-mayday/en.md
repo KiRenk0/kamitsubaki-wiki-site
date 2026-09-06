@@ -36,7 +36,9 @@ image: /images/songs/kaf/track-1689187750.jpg
 <div class="jp-lyric">
 [00:12.77]<ruby>果<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>たして<rt class="roma">tashite</rt></ruby> this is <ruby>呪<rt class="furi">のろ</rt><rt class="roma">noro</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
 </div>
-<div class="trans-lyric">Is this truly a curse?</div>
+<div class="trans-lyric">
+[00:12.77]Is this truly a curse?
+</div>
 </div>
 
 <div class="lyric-line">
@@ -66,7 +68,9 @@ image: /images/songs/kaf/track-1689187750.jpg
 <div class="jp-lyric">
 [00:24.71]<ruby>放課後<rt class="furi">ほうかご</rt><rt class="roma">houkago</rt></ruby> maybe <ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
 </div>
-<div class="trans-lyric">After school, maybe if our eyes meet</div>
+<div class="trans-lyric">
+[00:24.71]After school, maybe if our eyes meet
+</div>
 </div>
 
 <div class="lyric-line">
@@ -103,7 +107,9 @@ image: /images/songs/kaf/track-1689187750.jpg
 <div class="jp-lyric">
 [00:42.25]<ruby>リセット<rt class="roma">risetto</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>出会<rt class="furi">であ</rt><rt class="roma">dea</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
 </div>
-<div class="trans-lyric">If we could reset and meet</div>
+<div class="trans-lyric">
+[00:42.25]If we could reset and meet
+</div>
 </div>
 
 <div class="lyric-line">
@@ -184,7 +190,9 @@ image: /images/songs/kaf/track-1689187750.jpg
 <div class="jp-lyric">
 [01:36.58]<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby> <ruby>どこ<rt class="roma">doko</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
-<div class="trans-lyric">Forever, no matter how far</div>
+<div class="trans-lyric">
+[01:36.58]Forever, no matter how far
+</div>
 </div>
 
 <br />
@@ -223,12 +231,14 @@ image: /images/songs/kaf/track-1689187750.jpg
 <div class="jp-lyric">
 [01:52.17]<ruby>埃<rt class="furi">ほこり</rt><rt class="roma">hokori</rt></ruby><ruby>まみれ<rt class="roma">mamire</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>化石<rt class="furi">かせき</rt><rt class="roma">kaseki</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby>
 </div>
+<div class="trans-lyric">[01:52.17]Like a fossil living covered in dust</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:57.26]<ruby>リセット<rt class="roma">risetto</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>出会<rt class="furi">であ</rt><rt class="roma">dea</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
 </div>
+<div class="trans-lyric">[01:57.26]If we could reset and meet</div>
 </div>
 
 <div class="lyric-line">
@@ -265,18 +275,21 @@ image: /images/songs/kaf/track-1689187750.jpg
 <div class="jp-lyric">
 [02:15.80]<ruby>銘々<rt class="furi">めいめい</rt><rt class="roma">meimei</rt></ruby> <ruby>巡<rt class="furi">めぐ</rt><rt class="roma">megu</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>涙<rt class="furi">なみだ</rt><rt class="roma">namida</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>星<rt class="furi">ほし</rt><rt class="roma">hoshi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なり<rt class="roma">nari</rt></ruby> <ruby>流<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="trans-lyric">[02:15.80]Each one's circling tears will become stars and flow</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:21.66]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
+<div class="trans-lyric">[02:21.66]Until I forget you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:24.67]<ruby>流<rt class="furi">ながれ</rt><rt class="roma">nagare</rt></ruby><ruby>線形<rt class="furi">せんけい</rt><rt class="roma">senkei</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:24.67]Like a streamline</div>
 </div>
 
@@ -286,18 +299,21 @@ image: /images/songs/kaf/track-1689187750.jpg
 <div class="jp-lyric">
 [02:27.71]<ruby>メーデー<rt class="roma">meedee</rt></ruby> <ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>舞<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>青<rt class="furi">あお</rt><rt class="roma">ao</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>リマ<rt class="roma">rima</rt></ruby><ruby>インド<rt class="roma">indo</rt></ruby>
 </div>
+<div class="trans-lyric">[02:27.71]Mayday, reminded by the blue that dazzles the eyes</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:31.48]<ruby>巣<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>食<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>らう<rt class="roma">rau</rt></ruby><ruby>午後<rt class="furi">ごご</rt><rt class="roma">gogo</rt></ruby>
 </div>
+<div class="trans-lyric">[02:31.48]Afternoon that festers</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:33.85]<ruby>ねぇ<rt class="roma">nee</rt></ruby> <ruby>ねぇ<rt class="roma">nee</rt></ruby> <ruby>夢見<rt class="furi">ゆめみ</rt><rt class="roma">yumemi</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:33.85]Hey, hey, if we could meet even in dreams</div>
 </div>
 
@@ -305,6 +321,7 @@ image: /images/songs/kaf/track-1689187750.jpg
 <div class="jp-lyric">
 [02:39.81]<ruby>銘々<rt class="furi">めいめい</rt><rt class="roma">meimei</rt></ruby> <ruby>巡<rt class="furi">めぐ</rt><rt class="roma">megu</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>涙<rt class="furi">なみだ</rt><rt class="roma">namida</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>星<rt class="furi">ほし</rt><rt class="roma">hoshi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なり<rt class="roma">nari</rt></ruby> <ruby>輝<rt class="furi">かがや</rt><rt class="roma">kagaya</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:39.81]Each one's circling tears will become stars and shine</div>
 </div>
 
@@ -312,12 +329,14 @@ image: /images/songs/kaf/track-1689187750.jpg
 <div class="jp-lyric">
 [02:45.83]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
+<div class="trans-lyric">[02:45.83]Until I forget you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:48.61]<ruby>流<rt class="furi">ながれ</rt><rt class="roma">nagare</rt></ruby><ruby>線形<rt class="furi">せんけい</rt><rt class="roma">senkei</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>流<rt class="furi">ながれ</rt><rt class="roma">nagare</rt></ruby><ruby>線形<rt class="furi">せんけい</rt><rt class="roma">senkei</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="trans-lyric">[02:48.61]Like a streamline, like a streamline</div>
 </div>
 
 </div>

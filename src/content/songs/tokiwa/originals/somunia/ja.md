@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/somunia.jpg
 
 ## 作品概要
 
-tokiwaが2005-11-22にリリースしたシングル「ソムニア」。
+[tokiwa](/ja/artists/creators/tokiwa)が2005-11-22にリリースしたシングル「ソムニア」。
 
 ## 視聴
 @[apple-music](https://music.apple.com/jp/album/%E3%82%BD%E3%83%A0%E3%83%8B%E3%82%A2/1681691051?i=1681691052&uo=4 "ソムニア")

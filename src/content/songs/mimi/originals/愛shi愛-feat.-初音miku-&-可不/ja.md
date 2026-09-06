@@ -17,7 +17,7 @@ image: /images/songs/mimi/愛shi愛-feat.-初音miku-&-可不.jpg
 
 ## 作品概要
 
-MIMIが2024-01-15にリリースしたシングル「愛し愛 (feat. 初音ミク & [可不](/ja/artists/isotopes/kafu))」。
+[MIMI](/ja/artists/creators/mimi)が2024-01-15にリリースしたシングル「愛し愛 (feat. 初音ミク & [可不](/ja/artists/isotopes/kafu))」。
 
 ## 視聴
 {{media-switcher::愛し愛 (feat. 初音ミク & 可不)}}

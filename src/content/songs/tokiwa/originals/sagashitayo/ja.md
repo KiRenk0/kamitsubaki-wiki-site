@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/sagashitayo.jpg
 
 ## 作品概要
 
-tokiwaが2026-05-21にリリースしたシングル「さがしたよ」。
+[tokiwa](/ja/artists/creators/tokiwa)が2026-05-21にリリースしたシングル「さがしたよ」。
 
 ## 視聴
 {{media-switcher::さがしたよ}}

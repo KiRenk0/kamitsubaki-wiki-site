@@ -17,7 +17,7 @@ image: /images/songs/valis/熱愛furoozun.jpg
 
 ## 作品简介
 
-VALIS于 2023-02-04 发行的单曲《熱愛フローズン》。
+[VALIS](/zh/artists/solo/valis)于 2023-02-04 发行的单曲《熱愛フローズン》。
 
 ## 试听
 {{media-switcher::熱愛フローズン}}

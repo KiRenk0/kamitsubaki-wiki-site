@@ -17,7 +17,7 @@ image: /images/songs/mimi/微熱noririkku-feat.-重音teto.jpg
 
 ## 作品概要
 
-MIMIが2024-07-10にリリースしたシングル「微熱のリリック (feat. 重音テト)」。
+[MIMI](/ja/artists/creators/mimi)が2024-07-10にリリースしたシングル「微熱のリリック (feat. 重音テト)」。
 
 ## 視聴
 {{media-switcher::微熱のリリック (feat. 重音テト)}}

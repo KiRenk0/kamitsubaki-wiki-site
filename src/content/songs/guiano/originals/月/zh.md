@@ -17,7 +17,7 @@ image: /images/songs/guiano/月.jpg
 
 ## 作品简介
 
-Guiano于 2022-11-22 发行的单曲《月》。
+[Guiano](/zh/artists/creators/guiano)于 2022-11-22 发行的单曲《月》。
 
 ## 试听
 {{media-switcher::月}}

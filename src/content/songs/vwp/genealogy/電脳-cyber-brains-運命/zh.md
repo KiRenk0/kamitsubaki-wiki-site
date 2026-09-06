@@ -26,7 +26,7 @@ image: /images/albums/vwp/fate.jpg
 
 ## 作品简介
 
-- V.W.P于2021年6月20日发行的原创单曲《電脳》。该版本首次发行于专辑《[運命](/zh/albums/vwp/fate)》之中。
+- [V.W.P](/zh/artists/vwp/vwp)于2021年6月20日发行的原创单曲《電脳》。该版本首次发行于专辑《[運命](/zh/albums/vwp/fate)》之中。
 
 ## 试听
 
@@ -234,6 +234,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [02:13.92]<ruby>物語<rt class="furi">ものがたり</rt><rt class="roma">monogatari</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>せよ<rt class="roma">seyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[02:13.92]让我讲述故事吧</div>
 </div>
 
 <div class="lyric-line">
@@ -293,12 +294,14 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [02:50.25]<ruby>崩<rt class="furi">くず</rt><rt class="roma">kuzu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>真実<rt class="furi">しんじつ</rt><rt class="roma">shinjitsu</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby>
 </div>
+<div class="cn-lyric">[02:50.25]崩塌的真相无论何时</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:55.30]<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby>
 </div>
+<div class="cn-lyric">[02:55.30]都如所见般改变</div>
 </div>
 
 <br />
@@ -314,6 +317,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [03:05.41]<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>偽物<rt class="furi">にせもの</rt><rt class="roma">nisemono</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>信<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:05.41]即便如此也不相信感情是假的</div>
 </div>
 
@@ -321,6 +325,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [03:10.82]<ruby>物語<rt class="furi">ものがたり</rt><rt class="roma">monogatari</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>めよ<rt class="roma">meyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:10.82]开始故事吧</div>
 </div>
 
@@ -328,6 +333,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [03:15.63]<ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>救<rt class="furi">すく</rt><rt class="roma">suku</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby>？
 </div>
+
 <div class="cn-lyric">[03:15.63]拯救未来的是谁？</div>
 </div>
 

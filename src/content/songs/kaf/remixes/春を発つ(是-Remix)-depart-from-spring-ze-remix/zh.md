@@ -220,12 +220,14 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 <div class="jp-lyric">
 [04:16.25]<ruby>ハロー<rt class="roma">harou</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>出会<rt class="furi">であ</rt><rt class="roma">dea</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>運<rt class="furi">はこ</rt><rt class="roma">hako</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby>
 </div>
+<div class="cn-lyric">[04:16.25]你好 我们的相遇带来了风</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:21.42]<ruby>運命<rt class="furi">うんめい</rt><rt class="roma">unmei</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>恥<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>ずかしく<rt class="roma">zukashiku</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:21.42]所谓的命运 甚至会让人感到害羞</div>
 </div>
 

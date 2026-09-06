@@ -46,7 +46,7 @@ tracks:
 
 ## Track List
 
-1. Whispers of the Void (01:57)
+1. Whispers of the [Void](/en/songs/dustcell/originals/void) (01:57)
 2. Memory Autopsy (02:23)
 3. Quiet Rooms (02:55)
 4. The House That Remembers (02:29)

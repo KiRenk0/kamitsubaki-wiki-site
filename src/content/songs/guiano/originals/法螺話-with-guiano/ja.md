@@ -17,7 +17,7 @@ image: /images/songs/guiano/法螺話-with-guiano.jpg
 
 ## 作品概要
 
-Guianoが2023-09-19にリリースしたシングル「法螺話 (with Guiano)」。
+[Guiano](/ja/artists/creators/guiano)が2023-09-19にリリースしたシングル「法螺話 (with Guiano)」。
 
 ## 視聴
 {{media-switcher::法螺話 (with Guiano)}}

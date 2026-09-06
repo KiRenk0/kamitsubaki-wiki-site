@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 
 ## 作品简介
 
-《メルト at CREAM PUFF LIVE 3(Cover)》收录于《CREAM PUFF LIVE 3》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《メルト at CREAM PUFF LIVE 3(Cover)》收录于《[CREAM PUFF LIVE 3](/zh/albums/harusaruhi/cream-puff-live-3)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -147,24 +147,28 @@ It's in my heart
 <div class="jp-lyric">
 <ruby>どれ<rt class="roma">dore</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>すくって<rt class="roma">sukutte</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="cn-lyric">无论多少次挽起</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>指<rt class="furi">ゆび</rt><rt class="roma">yubi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>間<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>零<rt class="furi">こぼ</rt><rt class="roma">kobo</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>砂<rt class="furi">すな</rt><rt class="roma">suna</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby>
 </div>
+<div class="cn-lyric">也如从指缝间滑落的沙</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">即便如此 眼见之物并非一切</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It's in my heart
 </div>
+<div class="cn-lyric">It's in my heart</div>
 </div>
 
 <div class="lyric-line">
@@ -178,6 +182,7 @@ It's in my heart
 <div class="jp-lyric">
 <ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>まり<rt class="roma">mari</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+
 <div class="cn-lyric">开始与结束</div>
 </div>
 
@@ -185,6 +190,7 @@ It's in my heart
 <div class="jp-lyric">
 <ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>指図<rt class="furi">さしず</rt><rt class="roma">sashizu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>決<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>
 </div>
+
 <div class="cn-lyric">不必受任何人指使 可以自己决定</div>
 </div>
 
@@ -192,6 +198,7 @@ It's in my heart
 <div class="jp-lyric">
 I will follow my heart
 </div>
+
 <div class="cn-lyric">I will follow my heart</div>
 </div>
 
@@ -199,6 +206,7 @@ I will follow my heart
 <div class="jp-lyric">
 <ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>そ<rt class="roma">so</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">去寻找吧 未来</div>
 </div>
 

@@ -76,7 +76,7 @@ tracks:
 4. Lazy (feat. 初音ミク)（05:15）
 5. PaIII.SENSATION (feat. 初音ミク×GUMI×鏡音リン)（03:52）
 6. Colorless (feat. 初音ミク)（05:07）
-7. Spiral (feat. 初音ミク)（03:56）
+7. [Spiral](/zh/songs/asu/originals/spiral) (feat. 初音ミク)（03:56）
 8. BREAK IT (feat. 初音ミク)（04:13）
 9. PaIII.INCEPTION (feat. ミク×GUMI×リン)（04:31）
 10. I seek you (feat. 初音ミク)（04:33）

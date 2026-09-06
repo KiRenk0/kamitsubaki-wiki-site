@@ -17,7 +17,7 @@ image: /images/songs/dustcell/void.jpg
 
 ## 作品简介
 
-DUSTCELL于 2022-07-19 发行的单曲《Void》。
+[DUSTCELL](/zh/artists/solo/dustcell)于 2022-07-19 发行的单曲《Void》。
 
 ## 试听
 {{media-switcher::Void}}

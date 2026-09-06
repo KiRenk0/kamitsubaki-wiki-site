@@ -21,7 +21,7 @@ image: /images/songs/haru/low-speed-fake-lyric.jpg
 
 ## 作品概要
 
-[羽累](/ja/artists/isotopes/haru)が歌唱する、cosMo@暴走Pによるオリジナル曲。2024年10月16日リリースのアルバム『対峙のオーバーラップ』の表題曲。
+[羽累](/ja/artists/isotopes/haru)が歌唱する、cosMo@暴走Pによるオリジナル曲。2024年10月16日リリースのアルバム『[対峙のオーバーラップ](/ja/albums/haru/対峙のオーバーラップ-1772594213)』の表題曲。
 
 ## 試聴
 {{media-switcher::ロースピードフェイクリリック}}

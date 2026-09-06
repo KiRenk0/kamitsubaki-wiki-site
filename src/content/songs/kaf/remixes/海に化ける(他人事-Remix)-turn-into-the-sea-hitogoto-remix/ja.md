@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 
 ## 作品概要
 
-「海に化ける([他人事](/ja/artists/creators/hitogoto) Remix)」は[花譜](/ja/artists/vwp/kaf)の『[狂想γ](/ja/albums/kaf/kyoso-gamma)』に収録された1曲目です。
+「[海に化ける](/ja/songs/kaf/originals/海に化ける-turn-into-the-sea)([他人事](/ja/artists/creators/hitogoto) Remix)」は[花譜](/ja/artists/vwp/kaf)の『[狂想γ](/ja/albums/kaf/kyoso-gamma)』に収録された1曲目です。
 
 ## 視聴
 

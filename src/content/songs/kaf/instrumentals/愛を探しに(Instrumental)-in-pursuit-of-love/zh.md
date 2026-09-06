@@ -292,6 +292,7 @@ Don’t curse me,Rescue me
 <div class="jp-lyric">
 Don’t curse me,Rescue me
 </div>
+<div class="cn-lyric">别诅咒我，拯救我</div>
 </div>
 
 <div class="lyric-line">
@@ -305,6 +306,7 @@ Velvet curse
 <div class="jp-lyric">
 Don’t curse me,Rescue me
 </div>
+<div class="cn-lyric">别诅咒我，拯救我</div>
 </div>
 
 <div class="lyric-line">
@@ -318,6 +320,7 @@ Don’t curse me,Rescue me
 <div class="jp-lyric">
 <ruby>迷<rt class="furi">まよ</rt><rt class="roma">mayo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>後悔<rt class="furi">こうかい</rt><rt class="roma">koukai</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>連<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
+
 <div class="cn-lyric">连迷茫与后悔也一并带走</div>
 </div>
 
@@ -325,12 +328,14 @@ Don’t curse me,Rescue me
 <div class="jp-lyric">
 <ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby>
 </div>
+<div class="cn-lyric">直到死亡永远</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>選<rt class="furi">えら</rt><rt class="roma">era</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby>“<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby>”<ruby>が<rt class="roma">ga</rt></ruby> <ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>呪<rt class="furi">のろ</rt><rt class="roma">noro</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby>
 </div>
+
 <div class="cn-lyric">未曾选择的“此刻” 尽数化作诅咒</div>
 </div>
 
@@ -338,30 +343,35 @@ Don’t curse me,Rescue me
 <div class="jp-lyric">
 <ruby>絶対<rt class="furi">ぜったい</rt><rt class="roma">zettai</rt></ruby><ruby>許<rt class="furi">ゆる</rt><rt class="roma">yuru</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>降り注<rt class="furi">ふりそそ</rt><rt class="roma">furisoso</rt></ruby><ruby>ぐ<rt class="roma">gu</rt></ruby> <ruby>雨<rt class="furi">あめ</rt><rt class="roma">ame</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>
 </div>
+<div class="cn-lyric">绝不原谅 倾泻而下的雨夜</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>“<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby>”<ruby>が<rt class="roma">ga</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby>
 </div>
+<div class="cn-lyric">与你欢笑的“此刻” 化作了我的光芒</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>臨界<rt class="furi">りんかい</rt><rt class="roma">rinkai</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>季節<rt class="furi">きせつ</rt><rt class="roma">kisetsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>呪<rt class="furi">のろ</rt><rt class="roma">noro</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>紡<rt class="furi">つむ</rt><rt class="roma">tsumu</rt></ruby><ruby>ぎ<rt class="roma">gi</rt></ruby><ruby>呪<rt class="furi">のろ</rt><rt class="roma">noro</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>
 </div>
+<div class="cn-lyric">在临界季节再次编织诅咒并受诅咒</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby>
 </div>
+<div class="cn-lyric">直到死亡永远</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Velvet curse
 </div>
+<div class="cn-lyric">天鹅绒诅咒</div>
 </div>
 
 </div>

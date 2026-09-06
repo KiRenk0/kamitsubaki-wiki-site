@@ -19,7 +19,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 
 ## 作品简介
 
-《ファンサ (Cover Live)》收录于《CANDY LIVE 3 (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《ファンサ (Cover Live)》收录于《[CANDY LIVE 3](/zh/albums/isekaijoucho/candy-live-3) (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -111,6 +111,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 [00:54.65]<ruby>恩返<rt class="furi">おんがえ</rt><rt class="roma">ongae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>「<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こもった<rt class="roma">komotta</rt></ruby><ruby>投<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>キッス<rt class="roma">kissu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>」
 </div>
+<div class="cn-lyric">[00:54.65]回报是「充满爱的飞吻」</div>
 </div>
 
 <div class="lyric-line">
@@ -221,6 +222,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 [02:20.54]<ruby>ファンサ<rt class="roma">fuansa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>ぞ<rt class="roma">zo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:20.54]我要进行粉丝服务哦</div>
 </div>
 
 <br />
@@ -310,6 +312,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 [03:22.39]<ruby>合言葉<rt class="furi">あいことば</rt><rt class="roma">aikotoba</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>とび<rt class="roma">tobi</rt></ruby><ruby>っきり<rt class="roma">kkiri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>L-O-V-E
 </div>
+
 <div class="cn-lyric">[03:22.39]暗号是最棒的L-O-V-E</div>
 </div>
 
@@ -319,18 +322,21 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 [03:27.27]<ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby>！<ruby>もっと<rt class="roma">motto</rt></ruby>！<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>！<ruby>もっと<rt class="roma">motto</rt></ruby>！
 </div>
+<div class="cn-lyric">[03:27.27]喜欢上我吧！更多！看着我！更多！</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:32.81]<ruby>恩返<rt class="furi">おんがえ</rt><rt class="roma">ongae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>「<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こもった<rt class="roma">komotta</rt></ruby><ruby>投<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>キッス<rt class="roma">kissu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>」
 </div>
+<div class="cn-lyric">[03:32.81]回报是「充满爱的飞吻」</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:38.24]<ruby>虜<rt class="furi">とりこ</rt><rt class="roma">toriko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>！<ruby>もっと<rt class="roma">motto</rt></ruby>！<ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>せる<rt class="roma">seru</rt></ruby>！<ruby>もっと<rt class="roma">motto</rt></ruby>！
 </div>
+
 <div class="cn-lyric">[03:38.24]让你着迷！更多！让你看到梦想！更多！</div>
 </div>
 
@@ -338,12 +344,14 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 [03:44.01]<ruby>楽<rt class="furi">たの</rt><rt class="roma">tano</rt></ruby><ruby>しん<rt class="roma">shin</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こもった<rt class="roma">komotta</rt></ruby><ruby>スペシャル<rt class="roma">supesharu</rt></ruby><ruby>ナイト<rt class="roma">naito</rt></ruby>
 </div>
+<div class="cn-lyric">[03:44.01]享受吧 充满爱的特别之夜</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:50.42]<ruby>ファンサ<rt class="roma">fuansa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>ぞ<rt class="roma">zo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:50.42]我要进行粉丝服务哦</div>
 </div>
 
 </div>

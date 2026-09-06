@@ -70,7 +70,7 @@ tracks:
 
 ## Overview
 
-LOLUET's album “stream”, released on 2025-03-19, featuring 12 tracks.
+[LOLUET](/en/artists/solo/loluet)'s album “stream”, released on 2025-03-19, featuring 12 tracks.
 
 ## Track List
 
@@ -81,7 +81,7 @@ LOLUET's album “stream”, released on 2025-03-19, featuring 12 tracks.
 5. ぼくがあいつを殺した (03:21)
 6. 浴槽とネオンテトラ (04:24)
 7. 7 (03:20)
-8. 共感覚おばけ (03:22)
+8. [共感覚おばけ](/en/songs/isekaijoucho/covers/共感覚おばけ-kyoukankaku-obake) (03:22)
 9. 逆さまの蝶 (04:32)
 10. ラブ&デストロイ (03:34)
 11. VORACITY (03:49)

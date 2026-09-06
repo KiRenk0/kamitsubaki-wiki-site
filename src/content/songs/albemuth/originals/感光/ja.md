@@ -17,7 +17,7 @@ image: /images/songs/albemuth/感光.jpg
 
 ## 作品概要
 
-Albemuthが2023-02-15にリリースしたシングル「感光」。
+[Albemuth](/ja/artists/solo/albemuth)が2023-02-15にリリースしたシングル「感光」。
 
 ## 視聴
 {{media-switcher::感光}}

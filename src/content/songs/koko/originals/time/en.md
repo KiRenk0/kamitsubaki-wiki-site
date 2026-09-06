@@ -86,7 +86,9 @@ TIME appears on TIME or a related official release. Entries are version-specific
 <div class="jp-lyric">
 [00:50.24]<ruby>学<rt class="furi">まな</rt><rt class="roma">mana</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>やめ<rt class="roma">yame</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>falling
 </div>
-<div class="trans-lyric">Stopped learning, falling</div>
+<div class="trans-lyric">
+[00:50.24]Stopped learning, falling
+</div>
 </div>
 
 <br />
@@ -153,7 +155,9 @@ TIME appears on TIME or a related official release. Entries are version-specific
 <div class="jp-lyric">
 [01:25.28]<ruby>この<rt class="roma">kono</rt></ruby><ruby>ボタン<rt class="roma">botan</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>押<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="trans-lyric">Press this button</div>
+<div class="trans-lyric">
+[01:25.28]Press this button
+</div>
 </div>
 
 <div class="lyric-line">
@@ -190,7 +194,9 @@ TIME appears on TIME or a related official release. Entries are version-specific
 <div class="jp-lyric">
 [01:53.46]<ruby>目眩<rt class="furi">めまい</rt><rt class="roma">memai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>襲<rt class="furi">おそ</rt><rt class="roma">oso</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> falling, falling
 </div>
-<div class="trans-lyric">Attacked by dizziness, falling, falling</div>
+<div class="trans-lyric">
+[01:53.46]Attacked by dizziness, falling, falling
+</div>
 </div>
 
 <br />
@@ -199,6 +205,7 @@ TIME appears on TIME or a related official release. Entries are version-specific
 <div class="jp-lyric">
 [01:57.36]<ruby>悩<rt class="furi">なや</rt><rt class="roma">naya</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>事<rt class="furi">ごと</rt><rt class="roma">goto</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby> <ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>事<rt class="furi">こと</rt><rt class="roma">koto</rt></ruby>
 </div>
+<div class="trans-lyric">[01:57.36]Worries, things I can't say</div>
 </div>
 
 <div class="lyric-line">
@@ -212,7 +219,7 @@ TIME appears on TIME or a related official release. Entries are version-specific
 <div class="jp-lyric">
 [02:03.61]<ruby>ぐちゃぐちゃ<rt class="roma">guchagucha</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>は<rt class="roma">wa</rt></ruby><ruby>ちゃめ<rt class="roma">chame</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
-<div class="trans-lyric">Messy and chaotic</div>
+<div class="trans-lyric">[02:03.61]Messy and chaotic</div>
 </div>
 
 <div class="lyric-line">
@@ -242,24 +249,28 @@ TIME appears on TIME or a related official release. Entries are version-specific
 <div class="jp-lyric">
 [02:22.73]<ruby>灰<rt class="furi">はい</rt><rt class="roma">hai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby> <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[02:22.73]Become ashes and forget</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:26.12]<ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>暗闇<rt class="furi">くらやみ</rt><rt class="roma">kurayami</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="trans-lyric">[02:26.12]Repeating in the darkness</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:29.27]<ruby>この<rt class="roma">kono</rt></ruby><ruby>ボタン<rt class="roma">botan</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>押<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[02:29.27]Press this button</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:31.89]<ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby> <ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="trans-lyric">[02:31.89]A changing world, is there a tomorrow?</div>
 </div>
 
 <br />
@@ -268,18 +279,21 @@ TIME appears on TIME or a related official release. Entries are version-specific
 <div class="jp-lyric">
 [02:48.20]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby> <ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
+<div class="trans-lyric">[02:48.20]I want to become love and say goodbye, but</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:01.31]<ruby>灰<rt class="furi">はい</rt><rt class="roma">hai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby> <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[03:01.31]Become ashes and forget</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:04.52]綠<ruby>り<rt class="roma">ri</rt></ruby><ruby>返<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>暗闇<rt class="furi">くらやみ</rt><rt class="roma">kurayami</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:04.52]Repeating in the darkness</div>
 </div>
 
@@ -287,6 +301,7 @@ TIME appears on TIME or a related official release. Entries are version-specific
 <div class="jp-lyric">
 [03:07.62]<ruby>この<rt class="roma">kono</rt></ruby><ruby>ボタン<rt class="roma">botan</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>押<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[03:07.62]Press this button</div>
 </div>
 
 <br />
@@ -295,36 +310,42 @@ TIME appears on TIME or a related official release. Entries are version-specific
 <div class="jp-lyric">
 [03:13.80]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby> <ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
+<div class="trans-lyric">[03:13.80]I want to become love and say goodbye, but</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:18.89]<ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>進<rt class="furi">すす</rt><rt class="roma">susu</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[03:18.89]Moving forward is so scary, so scary</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:26.76]<ruby>灰<rt class="furi">はい</rt><rt class="roma">hai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby> <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[03:26.76]Become ashes and forget</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:29.96]<ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>暗闇<rt class="furi">くらやみ</rt><rt class="roma">kurayami</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="trans-lyric">[03:29.96]Repeating in the darkness</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:33.04]<ruby>この<rt class="roma">kono</rt></ruby><ruby>ボタン<rt class="roma">botan</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>押<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[03:33.04]Press this button</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:35.61]<ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby> <ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="trans-lyric">[03:35.61]A changing world, is there a tomorrow?</div>
 </div>
 
 </div>

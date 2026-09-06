@@ -58,7 +58,7 @@ seo:
 
 VALIS is a six-member virtual girls group under [SINSEKAI RECORD](/en/projects/labels/sinsekai-studio), consisting of CHINO, MYU, NEFFY, NINA, RARA, and VITTE. Built around the concept of traveling between virtual and real worlds, the group distinguishes itself through a dual-format approach: members perform in both avatar form and their "origin" real-person form, creating a layered identity that bridges the two realms.
 
-Character visuals were designed by illustrator Nekosuke, blending a distinctly feminine aesthetic with futuristic sensibilities. As one of the more prominent groups within the SINSEKAI RECORD framework, VALIS maintains a high level of activity across both recorded music and live performance, regularly hosting dedicated ONE-MAN LIVE events.
+Character visuals were designed by illustrator Nekosuke, blending a distinctly feminine aesthetic with futuristic sensibilities. As one of the more prominent groups within the [SINSEKAI RECORD](/en/projects/archive/sinsekai-studio) framework, VALIS maintains a high level of activity across both recorded music and live performance, regularly hosting dedicated ONE-MAN LIVE events.
 
 
 ## Role and Creative Position

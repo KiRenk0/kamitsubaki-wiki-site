@@ -36,88 +36,88 @@ image: /images/albums/kaf/tomadoi-telepathy.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>絵文字<rt class="furi">えもじ</rt><rt class="roma">emoji</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>頷<rt class="furi">うなず</rt><rt class="roma">unazu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>あお<rt class="roma">ao</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:01.66]<ruby>絵文字<rt class="furi">えもじ</rt><rt class="roma">emoji</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>頷<rt class="furi">うなず</rt><rt class="roma">unazu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>あお<rt class="roma">ao</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">只用表情符号相互点头吧</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>上昇<rt class="furi">じょうしょう</rt><rt class="roma">joushou</rt></ruby><ruby>中<rt class="furi">ちゅう</rt><rt class="roma">chuu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>記号<rt class="furi">きごう</rt><rt class="roma">kigou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>鼓動<rt class="furi">こどう</rt><rt class="roma">kodou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
-</div>
-<div class="cn-lyric">上升中的符号至今仍让心跳停止</div>
+<div class="cn-lyric">[00:01.66]只用表情符号相互点头吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>単純<rt class="furi">たんじゅん</rt><rt class="roma">tanjun</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
+[00:05.67]<ruby>上昇<rt class="furi">じょうしょう</rt><rt class="roma">joushou</rt></ruby><ruby>中<rt class="furi">ちゅう</rt><rt class="roma">chuu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>記号<rt class="furi">きごう</rt><rt class="roma">kigou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>鼓動<rt class="furi">こどう</rt><rt class="roma">kodou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
-<div class="cn-lyric">如果说这太简单</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby><ruby>わかり<rt class="roma">wakari</rt></ruby><ruby>やすく<rt class="roma">yasuku</rt></ruby><ruby>教<rt class="furi">おし</rt><rt class="roma">oshi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
-</div>
-<div class="cn-lyric">现在就简单明了地告诉我吧</div>
+<div class="cn-lyric">[00:05.67]上升中的符号至今仍让心跳停止</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てん<rt class="roma">ten</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
+[00:07.35]<ruby>単純<rt class="furi">たんじゅん</rt><rt class="roma">tanjun</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
-<div class="cn-lyric">你现在在做什么？</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>わかってる<rt class="roma">wakatteru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
-</div>
-<div class="cn-lyric">你现在明白什么？</div>
+<div class="cn-lyric">[00:07.35]如果说这太简单</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>わかってる<rt class="roma">wakatteru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby>
+[00:09.87]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby><ruby>わかり<rt class="roma">wakari</rt></ruby><ruby>やすく<rt class="roma">yasuku</rt></ruby><ruby>教<rt class="furi">おし</rt><rt class="roma">oshi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">如果明白的话就把关于我的全部说出来</div>
+<div class="cn-lyric">[00:09.87]现在就简单明了地告诉我吧</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:12.77]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てん<rt class="roma">ten</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
+</div>
+<div class="cn-lyric">[00:12.77]你现在在做什么？</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:15.38]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>わかってる<rt class="roma">wakatteru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
+</div>
+<div class="cn-lyric">[00:15.38]你现在明白什么？</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:17.37]<ruby>わかってる<rt class="roma">wakatteru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby>
+</div>
+<div class="cn-lyric">[00:17.37]如果明白的话就把关于我的全部说出来</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>表情<rt class="furi">ひょうじょう</rt><rt class="roma">hyoujou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>誤魔化<rt class="furi">ごまか</rt><rt class="roma">gomaka</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
+[00:23.70]<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>表情<rt class="furi">ひょうじょう</rt><rt class="roma">hyoujou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>誤魔化<rt class="furi">ごまか</rt><rt class="roma">gomaka</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
-<div class="cn-lyric">如果要掩饰看不见的表情</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>人間<rt class="furi">にんげん</rt><rt class="roma">ningen</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>曝<ruby>け<rt class="roma">ke</rt></ruby><ruby>出<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
-</div>
-<div class="cn-lyric">就暴露自己不是人类吧</div>
+<div class="cn-lyric">[00:23.70]如果要掩饰看不见的表情</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>吹っ飛<rt class="furi">ふっと</rt><rt class="roma">futto</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いけ<rt class="roma">ike</rt></ruby>
+[00:29.47]<ruby>人間<rt class="furi">にんげん</rt><rt class="roma">ningen</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>曝<ruby>け<rt class="roma">ke</rt></ruby><ruby>出<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">飞走吧</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>吹っ飛<rt class="furi">ふっと</rt><rt class="roma">futto</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いけ<rt class="roma">ike</rt></ruby>
-</div>
-<div class="cn-lyric">吹飞吧</div>
+<div class="cn-lyric">[00:29.47]就暴露自己不是人类吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>駆け抜<rt class="furi">かけぬ</rt><rt class="roma">kakenu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いけ<rt class="roma">ike</rt></ruby>
+[00:34.24]<ruby>吹っ飛<rt class="furi">ふっと</rt><rt class="roma">futto</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いけ<rt class="roma">ike</rt></ruby>
 </div>
-<div class="cn-lyric">奔跑穿越吧</div>
+<div class="cn-lyric">[00:34.24]飞走吧</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:35.63]<ruby>吹っ飛<rt class="furi">ふっと</rt><rt class="roma">futto</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いけ<rt class="roma">ike</rt></ruby>
+</div>
+<div class="cn-lyric">[00:35.63]吹飞吧</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:37.26]<ruby>駆け抜<rt class="furi">かけぬ</rt><rt class="roma">kakenu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いけ<rt class="roma">ike</rt></ruby>
+</div>
+<div class="cn-lyric">[00:37.26]奔跑穿越吧</div>
 </div>
 
 <div class="lyric-line">
@@ -138,51 +138,51 @@ image: /images/albums/kaf/tomadoi-telepathy.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>その<rt class="roma">sono</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>かっぽ<rt class="roma">kappo</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
+[00:45.02]<ruby>その<rt class="roma">sono</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>かっぽ<rt class="roma">kappo</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
 </div>
-<div class="cn-lyric">睁开那只眼睛察觉之时</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>内<rt class="furi">うち</rt><rt class="roma">uchi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>荒<rt class="furi">すさ</rt><rt class="roma">susa</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>探<rt class="furi">さぐ</rt><rt class="roma">sagu</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
-</div>
-<div class="cn-lyric">粗鲁地探索内心试试看</div>
+<div class="cn-lyric">[00:45.02]睁开那只眼睛察觉之时</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ばし<rt class="roma">bashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:48.05]<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>内<rt class="furi">うち</rt><rt class="roma">uchi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>荒<rt class="furi">すさ</rt><rt class="roma">susa</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>探<rt class="furi">さぐ</rt><rt class="roma">sagu</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">试着飞起来吧</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>その<rt class="roma">sono</rt></ruby><ruby>電波<rt class="furi">でんぱ</rt><rt class="roma">denpa</rt></ruby><ruby>思考<rt class="furi">しこう</rt><rt class="roma">shikou</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
-</div>
-<div class="cn-lyric">用那电波思维试着传达吧</div>
+<div class="cn-lyric">[00:48.05]粗鲁地探索内心试试看</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:50.19]<ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ばし<rt class="roma">bashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">可以的话现在也笑一笑吧</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>記号<rt class="furi">きごう</rt><rt class="roma">kigou</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
-</div>
-<div class="cn-lyric">可以的话即使只有符号</div>
+<div class="cn-lyric">[00:50.19]试着飞起来吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:52.84]<ruby>その<rt class="roma">sono</rt></ruby><ruby>電波<rt class="furi">でんぱ</rt><rt class="roma">denpa</rt></ruby><ruby>思考<rt class="furi">しこう</rt><rt class="roma">shikou</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">试着歌唱吧</div>
+<div class="cn-lyric">[00:52.84]用那电波思维试着传达吧</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:55.69]<ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+</div>
+<div class="cn-lyric">[00:55.69]可以的话现在也笑一笑吧</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:58.33]<ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>記号<rt class="furi">きごう</rt><rt class="roma">kigou</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+</div>
+<div class="cn-lyric">[00:58.33]可以的话即使只有符号</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:01.09]<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+</div>
+<div class="cn-lyric">[01:01.09]试着歌唱吧</div>
 </div>
 
 <div class="lyric-line">
@@ -196,89 +196,90 @@ image: /images/albums/kaf/tomadoi-telepathy.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>哀<ruby>を<rt class="roma">wo</rt></ruby>逢<ruby>を<rt class="roma">wo</rt></ruby><ruby>藍<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>染<rt class="furi">そ</rt><rt class="roma">so</rt></ruby><ruby>まって<rt class="roma">matte</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
+[01:04.59]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>哀<ruby>を<rt class="roma">wo</rt></ruby>逢<ruby>を<rt class="roma">wo</rt></ruby><ruby>藍<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>染<rt class="furi">そ</rt><rt class="roma">so</rt></ruby><ruby>まって<rt class="roma">matte</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
-<div class="cn-lyric">爱 哀 逢 渐染成蓝色</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>焦<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>がし<rt class="roma">gashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
-</div>
-<div class="cn-lyric">逐渐焦灼</div>
+<div class="cn-lyric">[01:04.59]爱 哀 逢 渐染成蓝色</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>その<rt class="roma">sono</rt></ruby><ruby>記号<rt class="furi">きごう</rt><rt class="roma">kigou</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:06.74]<ruby>焦<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>がし<rt class="roma">gashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
-<div class="cn-lyric">用那个符号现在许愿吧</div>
+<div class="cn-lyric">[01:06.74]逐渐焦灼</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>もかも<rt class="roma">mokamo</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:09.92]<ruby>その<rt class="roma">sono</rt></ruby><ruby>記号<rt class="furi">きごう</rt><rt class="roma">kigou</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">希望一切都能传达</div>
+<div class="cn-lyric">[01:09.92]用那个符号现在许愿吧</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:12.57]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>もかも<rt class="roma">mokamo</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+</div>
+<div class="cn-lyric">[01:12.57]希望一切都能传达</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>表情<rt class="furi">ひょうじょう</rt><rt class="roma">hyoujou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>俯<rt class="furi">うつむ</rt><rt class="roma">utsumu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
+[01:26.59]<ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>表情<rt class="furi">ひょうじょう</rt><rt class="roma">hyoujou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>俯<rt class="furi">うつむ</rt><rt class="roma">utsumu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
-<div class="cn-lyric">如果低垂着无法言说的表情</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>人間<rt class="furi">にんげん</rt><rt class="roma">ningen</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
-</div>
-<div class="cn-lyric">早就察觉你不是人类了吧</div>
+<div class="cn-lyric">[01:26.59]如果低垂着无法言说的表情</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いがみ合<rt class="furi">いがみあ</rt><rt class="roma">igamia</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>正解<rt class="furi">せいかい</rt><rt class="roma">seikai</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
+[01:34.15]<ruby>人間<rt class="furi">にんげん</rt><rt class="roma">ningen</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
 </div>
-<div class="cn-lyric">如果互相仇视才是正确答案</div>
+<div class="cn-lyric">[01:34.15]早就察觉你不是人类了吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>その<rt class="roma">sono</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>澄<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>まし<rt class="roma">mashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>連<rt class="furi">つら</rt><rt class="roma">tsura</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[01:37.43]<ruby>いがみ合<rt class="furi">いがみあ</rt><rt class="roma">igamia</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>正解<rt class="furi">せいかい</rt><rt class="roma">seikai</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
-<div class="cn-lyric">澄澈那双眼睛 接连倾听</div>
+<div class="cn-lyric">[01:37.43]如果互相仇视才是正确答案</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:39.93]<ruby>その<rt class="roma">sono</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>澄<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>まし<rt class="roma">mashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>連<rt class="furi">つら</rt><rt class="roma">tsura</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+</div>
+<div class="cn-lyric">[01:39.93]澄澈那双眼睛 接连倾听</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby>
 </div>
+<div class="cn-lyric">啊啊</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>仰<rt class="furi">あお</rt><rt class="roma">ao</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[01:47.78]<ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>仰<rt class="furi">あお</rt><rt class="roma">ao</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
-<div class="cn-lyric">知晓全部痛苦 仰望天空</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>そこ<rt class="roma">soko</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ちる<rt class="roma">chiru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
-</div>
-<div class="cn-lyric">从那里现在坠落</div>
+<div class="cn-lyric">[01:47.78]知晓全部痛苦 仰望天空</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>守<rt class="furi">まも</rt><rt class="roma">mamo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:50.98]<ruby>そこ<rt class="roma">soko</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ちる<rt class="roma">chiru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
-<div class="cn-lyric">守护我啊</div>
+<div class="cn-lyric">[01:50.98]从那里现在坠落</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:53.10]<ruby>守<rt class="furi">まも</rt><rt class="roma">mamo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+</div>
+<div class="cn-lyric">[01:53.10]守护我啊</div>
 </div>
 
 <div class="lyric-line">
@@ -290,30 +291,30 @@ image: /images/albums/kaf/tomadoi-telepathy.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>その<rt class="roma">sono</rt></ruby><ruby>電波<rt class="furi">でんぱ</rt><rt class="roma">denpa</rt></ruby><ruby>思考<rt class="furi">しこう</rt><rt class="roma">shikou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>既<rt class="furi">すんで</rt><rt class="roma">sunde</rt></ruby>読<ruby>を<rt class="roma">wo</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[01:55.57]<ruby>その<rt class="roma">sono</rt></ruby><ruby>電波<rt class="furi">でんぱ</rt><rt class="roma">denpa</rt></ruby><ruby>思考<rt class="furi">しこう</rt><rt class="roma">shikou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>既<rt class="furi">すんで</rt><rt class="roma">sunde</rt></ruby>読<ruby>を<rt class="roma">wo</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="cn-lyric">给那电波思维标上已读</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>そのまま<rt class="roma">sonomama</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
-</div>
-<div class="cn-lyric">就这样现在也笑吧</div>
+<div class="cn-lyric">[01:55.57]给那电波思维标上已读</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>脳髄<rt class="furi">のうずい</rt><rt class="roma">nouzui</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>混<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>さぶって<rt class="roma">sabutte</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:58.38]<ruby>そのまま<rt class="roma">sonomama</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">混合脑髓 摇动起来</div>
+<div class="cn-lyric">[01:58.38]就这样现在也笑吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>迷<rt class="furi">まよ</rt><rt class="roma">mayo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>みせ<rt class="roma">mise</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[02:01.02]<ruby>脳髄<rt class="furi">のうずい</rt><rt class="roma">nouzui</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>混<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>さぶって<rt class="roma">sabutte</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">迷惘给我看</div>
+<div class="cn-lyric">[02:01.02]混合脑髓 摇动起来</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:03.83]<ruby>迷<rt class="furi">まよ</rt><rt class="roma">mayo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>みせ<rt class="roma">mise</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+</div>
+<div class="cn-lyric">[02:03.83]迷惘给我看</div>
 </div>
 
 <div class="lyric-line">
@@ -327,102 +328,112 @@ image: /images/albums/kaf/tomadoi-telepathy.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>絵文字<rt class="furi">えもじ</rt><rt class="roma">emoji</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>頷<rt class="furi">うなず</rt><rt class="roma">unazu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>あお<rt class="roma">ao</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:18.23]<ruby>絵文字<rt class="furi">えもじ</rt><rt class="roma">emoji</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>頷<rt class="furi">うなず</rt><rt class="roma">unazu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>あお<rt class="roma">ao</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>上昇<rt class="furi">じょうしょう</rt><rt class="roma">joushou</rt></ruby><ruby>中<rt class="furi">ちゅう</rt><rt class="roma">chuu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>記号<rt class="furi">きごう</rt><rt class="roma">kigou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>鼓動<rt class="furi">こどう</rt><rt class="roma">kodou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
-</div>
+<div class="cn-lyric">[02:18.23]只用表情符号相互点头吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>単純<rt class="furi">たんじゅん</rt><rt class="roma">tanjun</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
+[02:22.06]<ruby>上昇<rt class="furi">じょうしょう</rt><rt class="roma">joushou</rt></ruby><ruby>中<rt class="furi">ちゅう</rt><rt class="roma">chuu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>記号<rt class="furi">きごう</rt><rt class="roma">kigou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>鼓動<rt class="furi">こどう</rt><rt class="roma">kodou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>いま<rt class="roma">ima</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby><ruby>わかり<rt class="roma">wakari</rt></ruby><ruby>やすく<rt class="roma">yasuku</rt></ruby><ruby>教<rt class="furi">おし</rt><rt class="roma">oshi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
-</div>
-<div class="cn-lyric">现在就简单明了地告诉我吧</div>
+<div class="cn-lyric">[02:22.06]上升中的符号至今仍让心跳停止</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>寂<rt class="furi">さび</rt><rt class="roma">sabi</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>今更<rt class="furi">いまさら</rt><rt class="roma">imasara</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[02:23.71]<ruby>単純<rt class="furi">たんじゅん</rt><rt class="roma">tanjun</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
-<div class="cn-lyric">事到如今已经不寂寞了</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>がってる<rt class="roma">gatteru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
-</div>
-<div class="cn-lyric">我们一直都连在一起啊</div>
+<div class="cn-lyric">[02:23.71]如果说这太简单</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>だから<rt class="roma">dakara</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>テレパシー<rt class="roma">terepashii</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>振<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:26.29]<ruby>いま<rt class="roma">ima</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby><ruby>わかり<rt class="roma">wakari</rt></ruby><ruby>やすく<rt class="roma">yasuku</rt></ruby><ruby>教<rt class="furi">おし</rt><rt class="roma">oshi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">所以现在请装作察觉到心灵感应吧</div>
+<div class="cn-lyric">[02:26.29]现在就简单明了地告诉我吧</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:29.17]<ruby>寂<rt class="furi">さび</rt><rt class="roma">sabi</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>今更<rt class="furi">いまさら</rt><rt class="roma">imasara</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+</div>
+<div class="cn-lyric">[02:29.17]事到如今已经不寂寞了</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:31.96]<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>がってる<rt class="roma">gatteru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+</div>
+<div class="cn-lyric">[02:31.96]我们一直都连在一起啊</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:34.34]<ruby>だから<rt class="roma">dakara</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>テレパシー<rt class="roma">terepashii</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>振<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+</div>
+<div class="cn-lyric">[02:34.34]所以现在请装作察觉到心灵感应吧</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>その<rt class="roma">sono</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>かっぽ<rt class="roma">kappo</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
+[02:39.52]<ruby>その<rt class="roma">sono</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>かっぽ<rt class="roma">kappo</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
 </div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>内<rt class="furi">うち</rt><rt class="roma">uchi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>荒<rt class="furi">すさ</rt><rt class="roma">susa</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>送<rt class="furi">おく</rt><rt class="roma">oku</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
-</div>
-<div class="cn-lyric">粗鲁地传送内心试试看</div>
+<div class="cn-lyric">[02:39.52]睁开那只眼睛察觉之时</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ばし<rt class="roma">bashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:42.68]<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>内<rt class="furi">うち</rt><rt class="roma">uchi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>荒<rt class="furi">すさ</rt><rt class="roma">susa</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>送<rt class="furi">おく</rt><rt class="roma">oku</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>その<rt class="roma">sono</rt></ruby><ruby>電波<rt class="furi">でんぱ</rt><rt class="roma">denpa</rt></ruby><ruby>思考<rt class="furi">しこう</rt><rt class="roma">shikou</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
-</div>
-<div class="cn-lyric">用那电波思维试着呐喊吧</div>
+<div class="cn-lyric">[02:42.68]粗鲁地传送内心试试看</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:44.72]<ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ばし<rt class="roma">bashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>でも<rt class="roma">demo</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>記号<rt class="furi">きごう</rt><rt class="roma">kigou</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
-</div>
-<div class="cn-lyric">但是即使现在只有符号</div>
+<div class="cn-lyric">[02:44.72]试着飞起来吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[02:47.37]<ruby>その<rt class="roma">sono</rt></ruby><ruby>電波<rt class="furi">でんぱ</rt><rt class="roma">denpa</rt></ruby><ruby>思考<rt class="furi">しこう</rt><rt class="roma">shikou</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">我也爱着你</div>
+
+<div class="cn-lyric">[02:47.37]用那电波思维试着呐喊吧</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:50.06]<ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+</div>
+<div class="cn-lyric">[02:50.06]可以的话现在也笑一笑吧</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:52.80]<ruby>でも<rt class="roma">demo</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>記号<rt class="furi">きごう</rt><rt class="roma">kigou</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+</div>
+
+<div class="cn-lyric">[02:52.80]但是即使现在只有符号</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:55.65]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+</div>
+
+<div class="cn-lyric">[02:55.65]我也爱着你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>みせ<rt class="roma">mise</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">试着爱我吧</div>
 </div>
 
@@ -430,27 +441,31 @@ image: /images/albums/kaf/tomadoi-telepathy.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>哀<ruby>を<rt class="roma">wo</rt></ruby>逢<ruby>を<rt class="roma">wo</rt></ruby><ruby>藍<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>染<rt class="furi">そ</rt><rt class="roma">so</rt></ruby><ruby>まって<rt class="roma">matte</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
+[02:59.13]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>哀<ruby>を<rt class="roma">wo</rt></ruby>逢<ruby>を<rt class="roma">wo</rt></ruby><ruby>藍<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>染<rt class="furi">そ</rt><rt class="roma">so</rt></ruby><ruby>まって<rt class="roma">matte</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>焦<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>がし<rt class="roma">gashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
-</div>
+<div class="cn-lyric">[02:59.13]爱 哀 逢 渐染成蓝色</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>その<rt class="roma">sono</rt></ruby><ruby>記号<rt class="furi">きごう</rt><rt class="roma">kigou</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>綴<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[03:01.17]<ruby>焦<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>がし<rt class="roma">gashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
-<div class="cn-lyric">用那个符号现在书写吧</div>
+<div class="cn-lyric">[03:01.17]逐渐焦灼</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>もかも<rt class="roma">mokamo</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[03:04.41]<ruby>その<rt class="roma">sono</rt></ruby><ruby>記号<rt class="furi">きごう</rt><rt class="roma">kigou</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>綴<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
+<div class="cn-lyric">[03:04.41]用那个符号现在书写吧</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[03:07.16]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>もかも<rt class="roma">mokamo</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+</div>
+<div class="cn-lyric">[03:07.16]希望一切都能传达</div>
 </div>
 
 </div>

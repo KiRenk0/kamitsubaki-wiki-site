@@ -153,18 +153,21 @@ Oh, oh, oh, ah <ruby>もう一度<rt class="furi">もういちど</rt><rt class=
 <div class="jp-lyric">
 Oh, oh, oh, ah <ruby>もう一度<rt class="furi">もういちど</rt><rt class="roma">mouichido</rt></ruby>
 </div>
+<div class="cn-lyric">噢 噢 噢 啊 再一次</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Oh, oh, oh, ah <ruby>もう一度<rt class="furi">もういちど</rt><rt class="roma">mouichido</rt></ruby>
 </div>
+<div class="cn-lyric">噢 噢 噢 啊 再一次</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Oh, oh, oh, ah <ruby>もう一度<rt class="furi">もういちど</rt><rt class="roma">mouichido</rt></ruby>
 </div>
+<div class="cn-lyric">噢 噢 噢 啊 再一次</div>
 </div>
 
 </div>

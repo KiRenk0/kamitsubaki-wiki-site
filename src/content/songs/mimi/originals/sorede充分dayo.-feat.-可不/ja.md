@@ -17,7 +17,7 @@ image: /images/songs/mimi/sorede充分dayo.-feat.-可不.jpg
 
 ## 作品概要
 
-MIMIが2023-12-17にリリースしたシングル「それで充分だよ。 (feat. [可不](/ja/artists/isotopes/kafu))」。
+[MIMI](/ja/artists/creators/mimi)が2023-12-17にリリースしたシングル「それで充分だよ。 (feat. [可不](/ja/artists/isotopes/kafu))」。
 
 ## 視聴
 {{media-switcher::それで充分だよ。 (feat. 可不)}}

@@ -21,7 +21,7 @@ image: /images/songs/isekaijoucho/永久に枯れぬ花-eikyuuni-karenu-hana.jpg
 
 ## Overview
 
-A single by [Isekaijoucho](/en/artists/vwp/isekaijoucho), released on 2026-05-02 with lyrics and music by Moimi Kashii.
+A single by [Isekaijoucho](/en/artists/vwp/isekaijoucho), released on 2026-05-02 with lyrics and music by [Moimi Kashii](/en/artists/creators/kashiimoimi).
 
 ## Listen
 {{media-switcher::永久に枯れぬ花}}

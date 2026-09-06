@@ -17,7 +17,7 @@ image: /images/songs/mimi/minimamu-feat.-wan子.jpg
 
 ## 作品概要
 
-MIMIが2022-08-25にリリースしたシングル「みにまむ (feat. わん子)」。
+[MIMI](/ja/artists/creators/mimi)が2022-08-25にリリースしたシングル「みにまむ (feat. わん子)」。
 
 ## 視聴
 {{media-switcher::みにまむ (feat. わん子)}}

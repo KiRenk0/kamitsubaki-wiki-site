@@ -80,7 +80,7 @@ tracks:
 
 ## Overview
 
-SINSEIKI's debut album “改変 -心-” featuring 11 tracks, released on 2025-10-29.
+[SINSEIKI](/en/artists/girls_revolution_project/sinseiki)'s debut album “改変 -心-” featuring 11 tracks, released on 2025-10-29.
 
 ## Track List
 

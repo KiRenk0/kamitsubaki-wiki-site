@@ -295,6 +295,7 @@ image: /images/songs/kaf/track-1688514096.jpg
 <div class="jp-lyric">
 [02:20.65]<ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>煙<rt class="furi">けむり</rt><rt class="roma">kemuri</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby> <ruby>生き延<rt class="furi">いきの</rt><rt class="roma">ikino</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[02:20.65]化为暧昧的烟 苟延残喘</div>
 </div>
 
 <div class="lyric-line">
@@ -331,6 +332,7 @@ image: /images/songs/kaf/track-1688514096.jpg
 <div class="jp-lyric">
 [02:38.03]<ruby>飛翔<rt class="furi">ひしょう</rt><rt class="roma">hishou</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>ミーム<rt class="roma">miimu</rt></ruby> <ruby>ミーム<rt class="roma">miimu</rt></ruby> <ruby>ミーム<rt class="roma">miimu</rt></ruby>
 </div>
+<div class="cn-lyric">[02:38.03]飞翔的迷因 迷因 迷因</div>
 </div>
 
 <div class="lyric-line">
@@ -344,18 +346,21 @@ image: /images/songs/kaf/track-1688514096.jpg
 <div class="jp-lyric">
 [02:44.23]<ruby>羽<rt class="furi">はね</rt><rt class="roma">hane</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby> <ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>舞<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>脳<rt class="furi">のう</rt><rt class="roma">nou</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
+<div class="cn-lyric">[02:44.23]化作翅膀 在空中飞舞 飞向你的脑海</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:49.60]<ruby>回<rt class="furi">まわ</rt><rt class="roma">mawa</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>リール<rt class="roma">riiru</rt></ruby> <ruby>リール<rt class="roma">riiru</rt></ruby> <ruby>リール<rt class="roma">riiru</rt></ruby>
 </div>
+<div class="cn-lyric">[02:49.60]旋转的卷轴 卷轴 卷轴</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:52.62]<ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby> <ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>背<rt class="furi">せ</rt><rt class="roma">se</rt></ruby><ruby>なに<rt class="roma">nani</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:52.62]不曾知道 在我的背后</div>
 </div>
 
 <div class="lyric-line">
@@ -450,6 +455,7 @@ image: /images/songs/kaf/track-1688514096.jpg
 <div class="jp-lyric">
 [03:34.30]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>欠片<rt class="furi">かけら</rt><rt class="roma">kakera</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:34.30]你会笑吗 话语的碎片又</div>
 </div>
 
@@ -457,6 +463,7 @@ image: /images/songs/kaf/track-1688514096.jpg
 <div class="jp-lyric">
 [03:37.26]<ruby>窓<rt class="furi">まど</rt><rt class="roma">mado</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>こえ<rt class="roma">koe</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ひらひら<rt class="roma">hirahira</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>舞<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:37.26]越过窗户 翩翩飞舞</div>
 </div>
 
@@ -464,6 +471,7 @@ image: /images/songs/kaf/track-1688514096.jpg
 <div class="jp-lyric">
 [03:39.67]<ruby>開<rt class="furi">ひら</rt><rt class="roma">hira</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>ちっぽけ<rt class="roma">chippoke</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ミーム<rt class="roma">miimu</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:39.67]向着敞开的天空 渺小的迷因</div>
 </div>
 
@@ -471,6 +479,7 @@ image: /images/songs/kaf/track-1688514096.jpg
 <div class="jp-lyric">
 [03:41.71]<ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>景色<rt class="furi">けしき</rt><rt class="roma">keshiki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>たくさん<rt class="roma">takusan</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>おい<rt class="roma">oi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:41.71]去看许多未知的景色吧</div>
 </div>
 
@@ -478,12 +487,15 @@ image: /images/songs/kaf/track-1688514096.jpg
 <div class="jp-lyric">
 [03:44.08]<ruby>開<rt class="furi">ひら</rt><rt class="roma">hira</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>ちっぽけ<rt class="roma">chippoke</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ミーム<rt class="roma">miimu</rt></ruby>
 </div>
+
+<div class="cn-lyric">[03:44.08]向着敞开的天空 渺小的迷因</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:46.65]<ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>景色<rt class="furi">けしき</rt><rt class="roma">keshiki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:46.65]未知的景色</div>
 </div>
 

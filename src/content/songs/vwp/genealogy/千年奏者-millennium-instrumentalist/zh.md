@@ -222,18 +222,21 @@ image: /images/albums/vwp/witch-plus.jpg
 <div class="jp-lyric">
 <ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>滅<rt class="furi">ほろ</rt><rt class="roma">horo</rt></ruby><ruby>ぼす<rt class="roma">bosu</rt></ruby><ruby>愚<rt class="furi">おろ</rt><rt class="roma">oro</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ぼく<rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
+<div class="cn-lyric">虽是毁灭世界的愚蠢的我们</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>あらい<rt class="roma">arai</rt></ruby><ruby>ざらい<rt class="roma">zarai</rt></ruby><ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>けあって<rt class="roma">keatte</rt></ruby>
 </div>
+<div class="cn-lyric">直到末日那天尽数触碰 交融一体</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>だれ<rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>夜明<rt class="furi">よあ</rt><rt class="roma">yoa</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>奏<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>あお<rt class="roma">ao</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">在无人知晓的黎明中演奏吧</div>
 </div>
 
 <div class="lyric-line">
@@ -247,6 +250,7 @@ image: /images/albums/vwp/witch-plus.jpg
 <div class="jp-lyric">
 <ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>滅<rt class="furi">ほろ</rt><rt class="roma">horo</rt></ruby><ruby>ぼす<rt class="roma">bosu</rt></ruby><ruby>愚<rt class="furi">おろ</rt><rt class="roma">oro</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ぼく<rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
+<div class="cn-lyric">虽是毁灭世界的愚蠢的我们</div>
 </div>
 
 <div class="lyric-line">
@@ -260,6 +264,7 @@ image: /images/albums/vwp/witch-plus.jpg
 <div class="jp-lyric">
 [03:34.93]<ruby>燃<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>いのち<rt class="roma">inochi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>模<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>肖像<rt class="furi">しょうぞう</rt><rt class="roma">shouzou</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:34.93]以燃烧的生命描绘爱的肖像</div>
 </div>
 
@@ -267,6 +272,7 @@ image: /images/albums/vwp/witch-plus.jpg
 <div class="jp-lyric">
 [03:40.16]<ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby><ruby>経<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>こえ<rt class="roma">koe</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くる<rt class="roma">kuru</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:40.16]无论经历多少年岁 定能听见吧</div>
 </div>
 
@@ -274,6 +280,7 @@ image: /images/albums/vwp/witch-plus.jpg
 <div class="jp-lyric">
 [03:43.12]<ruby>永遠<rt class="furi">えいえん</rt><rt class="roma">eien</rt></ruby><ruby>さえ<rt class="roma">sae</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>入<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:43.12]在不晓永恒为何物时便已获得</div>
 </div>
 
@@ -281,6 +288,7 @@ image: /images/albums/vwp/witch-plus.jpg
 <div class="jp-lyric">
 [03:45.78]<ruby>銀河<rt class="furi">ぎんが</rt><rt class="roma">ginga</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>とどまる<rt class="roma">todomaru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>唄<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:45.78]如银河般永不停止的歌</div>
 </div>
 

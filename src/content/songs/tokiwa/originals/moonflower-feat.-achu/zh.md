@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/moonflower-feat.-achu.jpg
 
 ## 作品简介
 
-tokiwa于 2022-05-13 发行的单曲《Moonflower (feat. Achu*)》。
+[tokiwa](/zh/artists/creators/tokiwa)于 2022-05-13 发行的单曲《Moonflower (feat. Achu*)》。
 
 ## 试听
 {{media-switcher::Moonflower (feat. Achu*)}}

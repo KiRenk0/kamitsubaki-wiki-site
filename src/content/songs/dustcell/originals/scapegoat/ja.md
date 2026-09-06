@@ -17,7 +17,7 @@ image: /images/songs/dustcell/scapegoat.jpg
 
 ## 作品概要
 
-DUSTCELLが2025-02-25にリリースしたシングル「SCAPEGOAT」。
+[DUSTCELL](/ja/artists/solo/dustcell)が2025-02-25にリリースしたシングル「SCAPEGOAT」。
 
 ## 視聴
 {{media-switcher::SCAPEGOAT}}

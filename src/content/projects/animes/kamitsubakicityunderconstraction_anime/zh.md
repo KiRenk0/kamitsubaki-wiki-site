@@ -36,16 +36,16 @@ order: 1
 | 第4话  |       <ruby>悪意 -Malice-<rt>恶意 -Malice-</rt></ruby>       | 小川瞳  |                  距离。                  |   7月31日    |
 | 第5话  |    <ruby>ファミリア -Familiar-<rt>使魔 -Familiar-</rt></ruby>     | 小川瞳  |                シャングリラ                |    8月7日    |
 | 第6话  | <ruby>記憶の卵 -Piece of memory-<rt>记忆之卵 -Piece of memory-</rt></ruby> | 后藤绿  |               ひとえに壊れて               |   8月14日    |
-| 第7话  |    <ruby>現象 -Phenomenon-<rt>现象 -Phenomenon-</rt></ruby>     | 小川瞳  |       閃光だった (Rearranged Ver.)       |   8月21日    |
+| 第7话  |    <ruby>現象 -Phenomenon-<rt>现象 -Phenomenon-</rt></ruby>     | 小川瞳  |       [閃光だった (Rearranged Ver.)](/zh/songs/vwp/remixes/閃光だったrearranged-ver-insight-rearranged-ver)       |   8月21日    |
 | 第8话  | <ruby>ブラックアウト -Beginning of the end-<rt>停电 -Beginning of the end-</rt></ruby> | 后藤绿  |        BREATHE (Rearranged Ver.)        |   8月28日    |
 | 第9话  |      <ruby>欲望 -Desire-<rt>欲望 -Desire-</rt></ruby>       | 窪山阿佐子 |                  欲望                  |    9月4日    |
 | 第10话 | <ruby>仮想と現実 -Artificial real-<rt>虚拟与现实 -Artificial real-</rt></ruby> | 后藤绿  |            電脳 sinka ver.             |   9月11日    |
 | 第11话 |   <ruby>再生 -Regenerate-<rt>再生 -Regenerate-</rt></ruby>    | 窪山阿佐子 |                  -                   |   9月18日    |
-| 第12话 | <ruby>神椿市建設中 -Under construction-<rt>神椿市建设中 -Under construction-</rt></ruby> | 后藤绿  |           魔女(真) sinka ver.           |   9月25日    |
+| 第12话 | <ruby>神椿市建設中 -Under construction-<rt>神椿市建设中 -Under construction-</rt></ruby> | 后藤绿  |           [魔女](/zh/songs/kaf/originals/majo)(真) sinka ver.           |   9月25日    |
 
 ## 制作人员
 
-- 原作、企划制作：KAMITSUBAKI STUDIO、PIEDPIPER
+- 原作、企划制作：KAMITSUBAKI STUDIO、[PIEDPIPER](/zh/artists/creators/piedpiper)
 - 世界观设定、监修、原作剧本：月岛总记
 - 原作企划：针谷建二郎（THINKR）、秋山广行（THINKR）
 - 导演、系列构成、音响导演：柿本广大

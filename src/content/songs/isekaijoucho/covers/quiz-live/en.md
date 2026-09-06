@@ -19,7 +19,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 
 ## Overview
 
-quiz(Live) appears on CANDY LIVE 2 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+quiz(Live) appears on [CANDY LIVE 2](/en/albums/isekaijoucho/candy-live-2) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -132,18 +132,21 @@ quiz(Live) appears on CANDY LIVE 2 or a related official release. Entries are ve
 <div class="jp-lyric">
 隨<ruby>堂<rt class="furi">どう</rt><rt class="roma">dou</rt></ruby><ruby>測<rt class="furi">はか</rt><rt class="roma">haka</rt></ruby>驗 <ruby>有<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby>沒<ruby>有<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby>發<ruby>現<rt class="furi">げん</rt><rt class="roma">gen</rt></ruby>
 </div>
+<div class="trans-lyric">Pop quiz, have you noticed?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>愛情<rt class="furi">あいじょう</rt><rt class="roma">aijou</rt></ruby><ruby>與<rt class="furi">あたえ</rt><rt class="roma">atae</rt></ruby><ruby>了解<rt class="furi">りょうかい</rt><rt class="roma">ryoukai</rt></ruby> <ruby>不<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>一定<rt class="furi">いってい</rt><rt class="roma">ittei</rt></ruby>關<ruby>連<rt class="furi">れん</rt><rt class="roma">ren</rt></ruby>
 </div>
+<div class="trans-lyric">Love and understanding are not necessarily related.</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 隨<ruby>堂<rt class="furi">どう</rt><rt class="roma">dou</rt></ruby><ruby>測<rt class="furi">はか</rt><rt class="roma">haka</rt></ruby>驗 <ruby>有<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby>沒<ruby>有<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby><ruby>共通<rt class="furi">きょうつう</rt><rt class="roma">kyoutsuu</rt></ruby>點
 </div>
+<div class="trans-lyric">Pop quiz, is there a common point?</div>
 </div>
 
 <div class="lyric-line">
@@ -157,6 +160,7 @@ quiz(Live) appears on CANDY LIVE 2 or a related official release. Entries are ve
 <div class="jp-lyric">
 你<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>上<rt class="furi">じょう</rt><rt class="roma">jou</rt></ruby><ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby><ruby>我<rt class="furi">わが</rt><rt class="roma">waga</rt></ruby> 哪<ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>面<rt class="furi">めん</rt><rt class="roma">men</rt></ruby>
 </div>
+<div class="trans-lyric">Which side of me have you fallen in love with?</div>
 </div>
 
 <br />
@@ -209,6 +213,7 @@ quiz(Live) appears on CANDY LIVE 2 or a related official release. Entries are ve
 <div class="jp-lyric">
 <ruby>甚麼<rt class="furi">いんも</rt><rt class="roma">inmo</rt></ruby>樣<ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby>關<ruby>係<rt class="furi">がかり</rt><rt class="roma">gakari</rt></ruby>會<ruby>充<rt class="furi">たかし</rt><rt class="roma">takashi</rt></ruby><ruby>滿<rt class="furi">みつる</rt><rt class="roma">mitsuru</rt></ruby><ruby>盲<rt class="furi">めくら</rt><rt class="roma">mekura</rt></ruby>點
 </div>
+
 <div class="trans-lyric">What kind of relationship is full of blind spots?</div>
 </div>
 
@@ -216,6 +221,7 @@ quiz(Live) appears on CANDY LIVE 2 or a related official release. Entries are ve
 <div class="jp-lyric">
 <ruby>甚麼<rt class="furi">いんも</rt><rt class="roma">inmo</rt></ruby>樣<ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>人我<rt class="furi">じんが</rt><rt class="roma">jinga</rt></ruby>會說沒<ruby>時間<rt class="furi">じかん</rt><rt class="roma">jikan</rt></ruby>
 </div>
+
 <div class="trans-lyric">What kind of person would I say I have no time for?</div>
 </div>
 
@@ -225,24 +231,28 @@ quiz(Live) appears on CANDY LIVE 2 or a related official release. Entries are ve
 <div class="jp-lyric">
 隨<ruby>堂<rt class="furi">どう</rt><rt class="roma">dou</rt></ruby><ruby>測<rt class="furi">はか</rt><rt class="roma">haka</rt></ruby>驗 <ruby>有<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby>沒<ruby>有<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby>發<ruby>現<rt class="furi">げん</rt><rt class="roma">gen</rt></ruby>
 </div>
+<div class="trans-lyric">Pop quiz, have you noticed?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>愛情<rt class="furi">あいじょう</rt><rt class="roma">aijou</rt></ruby><ruby>與<rt class="furi">あたえ</rt><rt class="roma">atae</rt></ruby><ruby>了解<rt class="furi">りょうかい</rt><rt class="roma">ryoukai</rt></ruby> <ruby>不<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>一定<rt class="furi">いってい</rt><rt class="roma">ittei</rt></ruby>關<ruby>連<rt class="furi">れん</rt><rt class="roma">ren</rt></ruby>
 </div>
+<div class="trans-lyric">Love and understanding are not necessarily related.</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 隨<ruby>堂<rt class="furi">どう</rt><rt class="roma">dou</rt></ruby><ruby>測<rt class="furi">はか</rt><rt class="roma">haka</rt></ruby>驗 <ruby>有<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby>沒<ruby>有<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby><ruby>共通<rt class="furi">きょうつう</rt><rt class="roma">kyoutsuu</rt></ruby>點
 </div>
+<div class="trans-lyric">Pop quiz, is there a common point?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 對<ruby>我<rt class="furi">わが</rt><rt class="roma">waga</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>印象<rt class="furi">いんしょう</rt><rt class="roma">inshou</rt></ruby><ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby><ruby>否<rt class="furi">いな</rt><rt class="roma">ina</rt></ruby><ruby>停<rt class="furi">とま</rt><rt class="roma">toma</rt></ruby><ruby>在<rt class="furi">ざい</rt><rt class="roma">zai</rt></ruby><ruby>昨<rt class="furi">さく</rt><rt class="roma">saku</rt></ruby><ruby>天<rt class="furi">てん</rt><rt class="roma">ten</rt></ruby>
 </div>
+
 <div class="trans-lyric">Does your impression of me stop at yesterday?</div>
 </div>
 
@@ -250,6 +260,7 @@ quiz(Live) appears on CANDY LIVE 2 or a related official release. Entries are ve
 <div class="jp-lyric">
 你<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>上<rt class="furi">じょう</rt><rt class="roma">jou</rt></ruby><ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby><ruby>我<rt class="furi">わが</rt><rt class="roma">waga</rt></ruby> 哪<ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>面<rt class="furi">めん</rt><rt class="roma">men</rt></ruby>
 </div>
+<div class="trans-lyric">Which side of me have you fallen in love with?</div>
 </div>
 
 <br />
@@ -258,18 +269,21 @@ quiz(Live) appears on CANDY LIVE 2 or a related official release. Entries are ve
 <div class="jp-lyric">
 你<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>上<rt class="furi">じょう</rt><rt class="roma">jou</rt></ruby><ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby><ruby>我<rt class="furi">わが</rt><rt class="roma">waga</rt></ruby> 哪<ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>面<rt class="furi">めん</rt><rt class="roma">men</rt></ruby>
 </div>
+<div class="trans-lyric">Which side of me have you fallen in love with?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 你<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>上<rt class="furi">じょう</rt><rt class="roma">jou</rt></ruby><ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby><ruby>我<rt class="furi">わが</rt><rt class="roma">waga</rt></ruby> 哪<ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>面<rt class="furi">めん</rt><rt class="roma">men</rt></ruby>
 </div>
+<div class="trans-lyric">Which side of me have you fallen in love with?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 你<ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby><ruby>否<rt class="furi">いな</rt><rt class="roma">ina</rt></ruby><ruby>太<rt class="furi">ふとし</rt><rt class="roma">futoshi</rt></ruby><ruby>表面<rt class="furi">ひょうめん</rt><rt class="roma">hyoumen</rt></ruby>
 </div>
+
 <div class="trans-lyric">Is your love too superficial?</div>
 </div>
 

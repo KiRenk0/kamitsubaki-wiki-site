@@ -17,7 +17,7 @@ image: /images/songs/mimi/minimamu-feat.-wan子.jpg
 
 ## 作品简介
 
-MIMI于 2022-08-25 发行的单曲《みにまむ (feat. わん子)》。
+[MIMI](/zh/artists/creators/mimi)于 2022-08-25 发行的单曲《みにまむ (feat. わん子)》。
 
 ## 试听
 {{media-switcher::みにまむ (feat. わん子)}}

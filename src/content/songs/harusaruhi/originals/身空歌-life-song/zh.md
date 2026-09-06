@@ -406,18 +406,21 @@ image: /images/songs/harusaruhi/single-1722255410.jpg
 <div class="jp-lyric">
 [03:25.28]<ruby>強<rt class="furi">つよ</rt><rt class="roma">tsuyo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>刻<rt class="furi">きざ</rt><rt class="roma">kiza</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>鼓動<rt class="furi">こどう</rt><rt class="roma">kodou</rt></ruby>
 </div>
+<div class="cn-lyric">[03:25.28]强烈刻下时间的心跳</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:30.54]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>景色<rt class="furi">けしき</rt><rt class="roma">keshiki</rt></ruby>
 </div>
+<div class="cn-lyric">[03:30.54]你为我发现的这片景色</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:35.86]<ruby>祈<rt class="furi">いの</rt><rt class="roma">ino</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>其<ruby>れ<rt class="roma">re</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>縋<rt class="furi">すが</rt><rt class="roma">suga</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
 </div>
+<div class="cn-lyric">[03:35.86]如同祈祷般依附于它</div>
 </div>
 
 <div class="lyric-line">
@@ -438,6 +441,7 @@ image: /images/songs/harusaruhi/single-1722255410.jpg
 <div class="jp-lyric">
 [03:50.92]<ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>偽<rt class="furi">いつわ</rt><rt class="roma">itsuwa</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:50.92]总有一天用这真诚的声音</div>
 </div>
 
@@ -445,6 +449,7 @@ image: /images/songs/harusaruhi/single-1722255410.jpg
 <div class="jp-lyric">
 [03:56.32]<ruby>伝<rt class="furi">つた</rt><rt class="roma">tsuta</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:56.32]有想要传达的话语</div>
 </div>
 
@@ -452,6 +457,7 @@ image: /images/songs/harusaruhi/single-1722255410.jpg
 <div class="jp-lyric">
 [04:01.06]<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なれる<rt class="roma">nareru</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:01.06]这样的我 也能被你喜欢吗</div>
 </div>
 

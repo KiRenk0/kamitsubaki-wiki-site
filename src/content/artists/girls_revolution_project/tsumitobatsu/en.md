@@ -41,7 +41,7 @@ The unit is known for aggressive dance tunes that carve the brand of sin with vo
 
 - **January 2025**: Debuted with the single “[弔花](/en/songs/tsumitobatsu/originals/chouka)”.
 - **July 16, 2025**: Released the dual-unit single “[改変](/en/songs/grp/originals/kaihen)” together with [SINSEIKI](/en/artists/girls_revolution_project/sinseiki).
-- **October 29, 2025**: Released their 1st Album “改変 -罪-”.
+- **October 29, 2025**: Released their 1st Album “[改変 -罪-](/en/albums/tsumitobatsu/kaihen-tsumi)”.
 - **May 2026**: Performed at KAMITSUBAKI WARS 2026 Shibuya Front “Girls Revolution Project 2nd LIVE『Revolutio』”.
 
 ## Selected Works

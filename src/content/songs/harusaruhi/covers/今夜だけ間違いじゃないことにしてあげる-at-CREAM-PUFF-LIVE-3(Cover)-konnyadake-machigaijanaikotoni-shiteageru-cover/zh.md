@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 
 ## 作品简介
 
-《今夜だけ間違いじゃないことにしてあげる at CREAM PUFF LIVE 3(Cover)》收录于《CREAM PUFF LIVE 3》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《今夜だけ間違いじゃないことにしてあげる at CREAM PUFF LIVE 3(Cover)》收录于《[CREAM PUFF LIVE 3](/zh/albums/harusaruhi/cream-puff-live-3)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -287,12 +287,14 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 <ruby>今夜<rt class="furi">こんや</rt><rt class="roma">kon'ya</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>間違<rt class="furi">まちが</rt><rt class="roma">machiga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">只有今晚不是错误</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ことに<rt class="roma">kotoni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>あげる<rt class="roma">ageru</rt></ruby>
 </div>
+<div class="cn-lyric">就当作是</div>
 </div>
 
 <div class="lyric-line">
@@ -306,6 +308,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+<div class="cn-lyric">我们的感情</div>
 </div>
 
 <div class="lyric-line">
@@ -319,18 +322,21 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 Midnight <ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>せい<rt class="roma">sei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">Midnight 怪罪给夜晚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>期待<rt class="furi">きたい</rt><rt class="roma">kitai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>すぎ<rt class="roma">sugi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
+<div class="cn-lyric">过于期待</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:05.82]<ruby>淡<rt class="furi">あわ</rt><rt class="roma">awa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ミラー<rt class="roma">miraa</rt></ruby><ruby>ボール<rt class="roma">bouru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:05.82]淡色迪斯科球的光芒</div>
 </div>
 
@@ -338,12 +344,14 @@ Midnight <ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><
 <div class="jp-lyric">
 <ruby>回<rt class="furi">まわ</rt><rt class="roma">mawa</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby>
 </div>
+<div class="cn-lyric">不停旋转</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:14.83]<ruby>ねえ<rt class="roma">nee</rt></ruby> <ruby>黙<rt class="furi">だま</rt><rt class="roma">dama</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:14.83]喂 别不说话</div>
 </div>
 
@@ -351,6 +359,7 @@ Midnight <ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><
 <div class="jp-lyric">
 [03:18.67]<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ドキドキ<rt class="roma">dokidoki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>聴<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>こえ<rt class="roma">koe</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:18.67]心脏的悸动 仿佛能听见</div>
 </div>
 
@@ -358,6 +367,7 @@ Midnight <ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><
 <div class="jp-lyric">
 [03:31.26]<ruby>この<rt class="roma">kono</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:31.26]就这样</div>
 </div>
 
@@ -365,54 +375,63 @@ Midnight <ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><
 <div class="jp-lyric">
 <ruby>今夜<rt class="furi">こんや</rt><rt class="roma">kon'ya</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>間違<rt class="furi">まちが</rt><rt class="roma">machiga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">只有今晚不是错误</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ことに<rt class="roma">kotoni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>あげる<rt class="roma">ageru</rt></ruby>
 </div>
+<div class="cn-lyric">就当作是</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>飲み干<rt class="furi">のみほ</rt><rt class="roma">nomiho</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">喝不完</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+<div class="cn-lyric">我们的感情</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>グルーヴ<rt class="roma">guruuvu</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
+<div class="cn-lyric">逐渐律动</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Midnight <ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>せい<rt class="roma">sei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">Midnight 怪罪给夜晚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>期待<rt class="furi">きたい</rt><rt class="roma">kitai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>すぎ<rt class="roma">sugi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
+<div class="cn-lyric">过于期待</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>青<rt class="furi">あお</rt><rt class="roma">ao</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ミラー<rt class="roma">miraa</rt></ruby><ruby>ボール<rt class="roma">bouru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby>
 </div>
+<div class="cn-lyric">蓝色迪斯科球的光芒</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:11.61]<ruby>回<rt class="furi">まわ</rt><rt class="roma">mawa</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby> <ruby>回<rt class="furi">まわ</rt><rt class="roma">mawa</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:11.61]不停旋转 不停转动着</div>
 </div>
 

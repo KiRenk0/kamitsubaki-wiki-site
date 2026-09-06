@@ -205,18 +205,21 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 [02:23.28]<ruby>交<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わし<rt class="roma">washi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>約束<rt class="furi">やくそく</rt><rt class="roma">yakusoku</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:23.28]不会忘记交换的约定</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:26.51]<ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>閉<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>確<rt class="furi">たし</rt><rt class="roma">tashi</rt></ruby><ruby>かめる<rt class="roma">kameru</rt></ruby>
 </div>
+<div class="cn-lyric">[02:26.51]闭上眼确认</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:28.84]<ruby>押し寄<rt class="furi">おしよ</rt><rt class="roma">oshiyo</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>闇<rt class="furi">やみ</rt><rt class="roma">yami</rt></ruby> <ruby>振り払<rt class="furi">ふりはら</rt><rt class="roma">furihara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>進<rt class="furi">すす</rt><rt class="roma">susu</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:28.84]驱散涌来的黑暗前进吧</div>
 </div>
 
 <div class="lyric-line">
@@ -246,6 +249,7 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 [03:19.26]<ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>彷徨<rt class="furi">ほうこう</rt><rt class="roma">houkou</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:19.26]在破碎的世界彷徨的我</div>
 </div>
 
@@ -253,6 +257,7 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 [03:24.45]<ruby>引き寄<rt class="furi">ひきよ</rt><rt class="roma">hikiyo</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>られる<rt class="roma">rareru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>辿<rt class="furi">たど</rt><rt class="roma">tado</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>着<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:24.45]像被吸引般到达</div>
 </div>
 
@@ -262,30 +267,35 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 [03:31.71]<ruby>目覚<rt class="furi">めざ</rt><rt class="roma">meza</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>走り出<rt class="furi">はしりだ</rt><rt class="roma">hashirida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby>
 </div>
+<div class="cn-lyric">[03:31.71]觉醒的心为了描绘奔驰的未来</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:37.47]<ruby>難<rt class="furi">むずか</rt><rt class="roma">muzuka</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>道<rt class="furi">みち</rt><rt class="roma">michi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>立ち止<rt class="furi">たちど</rt><rt class="roma">tachido</rt></ruby><ruby>まって<rt class="roma">matte</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:37.47]即使在艰难的路上停下脚步</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:41.52]<ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>きれい<rt class="roma">kirei</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>青<rt class="furi">あお</rt><rt class="roma">ao</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くれる<rt class="roma">kureru</rt></ruby>
 </div>
+<div class="cn-lyric">[03:41.52]天空总是以美丽的湛蓝等待着我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:47.49]<ruby>だから<rt class="roma">dakara</rt></ruby><ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[03:47.49]所以不害怕</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:49.53]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>あって<rt class="roma">atte</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>挫<rt class="furi">くじ</rt><rt class="roma">kuji</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[03:49.53]无论发生什么都不会气馁</div>
 </div>
 
 <br />
@@ -294,6 +304,7 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 [03:56.52]<ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:56.52]一直等待明天</div>
 </div>
 

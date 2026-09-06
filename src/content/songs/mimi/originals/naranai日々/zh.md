@@ -17,7 +17,7 @@ image: /images/songs/mimi/naranai日々.jpg
 
 ## 作品简介
 
-MIMI于 2025-09-25 发行的单曲《ならない日々》。
+[MIMI](/zh/artists/creators/mimi)于 2025-09-25 发行的单曲《ならない日々》。
 
 ## 试听
 {{media-switcher::ならない日々}}

@@ -381,30 +381,35 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [02:56.37]100<ruby>円<rt class="furi">えん</rt><rt class="roma">en</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>コンティニュー<rt class="roma">konteinyuu</rt></ruby>
 </div>
+<div class="cn-lyric">[02:56.37]用一百日元就能续关</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:58.13]<ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>はず<rt class="roma">hazu</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>意識<rt class="furi">いしき</rt><rt class="roma">ishiki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
+<div class="cn-lyric">[02:58.13]不可能做到 意识就在这里</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:00.30]<ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>永遠<rt class="furi">えいえん</rt><rt class="roma">eien</rt></ruby><ruby>かも<rt class="roma">kamo</rt></ruby><ruby>しれ<rt class="roma">shire</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:00.30]自己或许永恒</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:02.83]100<ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby><ruby>分<rt class="furi">ぶん</rt><rt class="roma">bun</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
+<div class="cn-lyric">[03:02.83]百年的你就在那里</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:05.50]<ruby>綺麗事<rt class="furi">きれいごと</rt><rt class="roma">kireigoto</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby><ruby>周<rt class="furi">まわ</rt><rt class="roma">mawa</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>「<ruby>引き寄<rt class="furi">ひきよ</rt><rt class="roma">hikiyo</rt></ruby><ruby>せろ<rt class="roma">sero</rt></ruby>」
 </div>
+
 <div class="cn-lyric">[03:05.50]虽是漂亮话 但说要「吸引周围」</div>
 </div>
 
@@ -414,6 +419,7 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [03:14.02]「<ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>一<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby>」<ruby>と<rt class="roma">to</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>この世<rt class="furi">このよ</rt><rt class="roma">konoyo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:14.02]在这个被称为「万物归一」的世间</div>
 </div>
 
@@ -421,18 +427,21 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [03:23.23]<ruby>もし<rt class="roma">moshi</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>あれ<rt class="roma">are</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby> <ruby>間違<rt class="furi">まちが</rt><rt class="roma">machiga</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
+<div class="cn-lyric">[03:23.23]若真是如此 难道没有错吗？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:26.04]<ruby>根拠<rt class="furi">こんきょ</rt><rt class="roma">konkyo</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>すがる<rt class="roma">sugaru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[03:26.04]依赖毫无根据之事</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:27.94]<ruby>可笑<rt class="furi">おか</rt><rt class="roma">oka</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:27.94]虽然可笑</div>
 </div>
 
 <br />
@@ -441,24 +450,28 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [03:32.41]<ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
+<div class="cn-lyric">[03:32.41]没有在前进吧？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:34.56]<ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>がって<rt class="roma">gatte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
+<div class="cn-lyric">[03:34.56]在害怕吧？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:36.88]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>同<rt class="furi">おな</rt><rt class="roma">ona</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby> <ruby>不安<rt class="furi">ふあん</rt><rt class="roma">fuan</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[03:36.88]我也一样 不安未曾改变</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:41.76]<ruby>過去<rt class="furi">かこ</rt><rt class="roma">kako</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>昨日<rt class="furi">きのう</rt><rt class="roma">kinou</rt></ruby><ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby> <ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>す<rt class="roma">su</rt></ruby>
 </div>
+<div class="cn-lyric">[03:41.76]过去未来昨天明天 寻找无意义的意义</div>
 </div>
 
 <br />
@@ -467,24 +480,28 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [03:50.49]<ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>は<rt class="roma">ha</rt></ruby><ruby>辛<rt class="furi">つら</rt><rt class="roma">tsura</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
+<div class="cn-lyric">[03:50.49]其实很痛苦吧？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:52.97]<ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>寂<rt class="furi">さび</rt><rt class="roma">sabi</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
+<div class="cn-lyric">[03:52.97]独自寂寞吧？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:55.05]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>同<rt class="furi">おな</rt><rt class="roma">ona</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby> <ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>かわら<rt class="roma">kawara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[03:55.05]我也一样 感情不会改变</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:59.58]<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>平和<rt class="furi">へいわ</rt><rt class="roma">heiwa</rt></ruby><ruby>無謀<rt class="furi">むぼう</rt><rt class="roma">mubou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby> <ruby>無邪気<rt class="furi">むじゃき</rt><rt class="roma">mujaki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>伸<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>ばす<rt class="roma">basu</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:59.58]世界和平鲁莽的梦 伸出天真的手</div>
 </div>
 

@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/death-designer.jpg
 
 ## 作品简介
 
-Empty old City于 2025-02-04 发行的单曲《Death Designer》。
+[Empty old City](/zh/artists/solo/empty-old-city)于 2025-02-04 发行的单曲《Death Designer》。
 
 ## 试听
 {{media-switcher::Death Designer}}

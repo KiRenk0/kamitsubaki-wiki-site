@@ -74,20 +74,20 @@ tracks:
 
 ## Overview
 
-Guiano's album “A”, released on 2021-03-24, featuring 13 tracks.
+[Guiano](/en/artists/creators/guiano)'s album “A”, released on 2021-03-24, featuring 13 tracks.
 
 ## Track List
 
 1. 晴れるなら (03:08)
 2. どうもしようもない (01:53)
 3. I love you(self cover) (03:17)
-4. 法螺話(self cover) (03:19)
+4. [法螺話(self cover)](/en/songs/guiano/originals/法螺話-self-cover) (03:19)
 5. アイスクリーム (feat. [KAF](/en/artists/vwp/kaf)) (03:58)
 6. 最低だ (03:27)
-7. あの夏の記憶だけ (03:13)
+7. [あの夏の記憶だけ](/en/albums/guiano/あの夏の記憶だけ-1688523952) (03:13)
 8. ポップソング (03:37)
 9. 夜考 (04:22)
 10. 風の吹くまま (04:18)
 11. 帰ってくるよ (03:49)
-12. 透過夏 (feat. [RIM](/en/artists/vwp/rim)) (03:14)
+12. [透過夏](/en/songs/rim/covers/透過夏-touka-natsu) (feat. [RIM](/en/artists/vwp/rim)) (03:14)
 13. 優しい大人になりたい (03:59)

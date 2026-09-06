@@ -19,7 +19,7 @@ image: /images/albums/rim/new-romancer.jpg
 
 ## Overview
 
-宿木 appears on NEW ROMANCER or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+宿木 appears on [NEW ROMANCER](/en/albums/rim/new-romancer) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -86,7 +86,9 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [00:42.32]<ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>？
 </div>
-<div class="trans-lyric">Is it because I want to melt?</div>
+<div class="trans-lyric">
+[00:42.32]Is it because I want to melt?
+</div>
 </div>
 
 <br />
@@ -116,7 +118,9 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [01:14.78]<ruby>せめて<rt class="roma">semete</rt></ruby><ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いれ<rt class="roma">ire</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
 </div>
-<div class="trans-lyric">At least if you were here</div>
+<div class="trans-lyric">
+[01:14.78]At least if you were here
+</div>
 </div>
 
 <br />
@@ -162,20 +166,22 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [02:21.54]<ruby>幼<rt class="furi">おさな</rt><rt class="roma">osana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ゆえ<rt class="roma">yue</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>罪<rt class="furi">つみ</rt><rt class="roma">tsumi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、<ruby>それでも<rt class="roma">soredemo</rt></ruby>、<ruby>いい<rt class="roma">ii</rt></ruby>
 </div>
+<div class="trans-lyric">[02:21.54]Even if it's a sin born of youth, even so, it's fine</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:31.21]<ruby>せめて<rt class="roma">semete</rt></ruby><ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いれ<rt class="roma">ire</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
 </div>
-<div class="trans-lyric">At least if you were here</div>
+<div class="trans-lyric">[02:31.21]At least if you were here</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:40.53]<ruby>せめて<rt class="roma">semete</rt></ruby><ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>わらう<rt class="roma">warau</rt></ruby>
 </div>
-<div class="trans-lyric">At least if you someday smile</div>
+
+<div class="trans-lyric">[02:40.53]At least if you someday smile</div>
 </div>
 
 </div>

@@ -189,6 +189,7 @@ image: /images/songs/rim/single-1712071520.jpg
 <div class="jp-lyric">
 <ruby>ふざけ<rt class="roma">fuzake</rt></ruby><ruby>あい<rt class="roma">ai</rt></ruby><ruby>たり<rt class="roma">tari</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>、<ruby>だ<rt class="roma">da</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>
 </div>
+<div class="cn-lyric">嬉闹不够，之类的</div>
 </div>
 
 <div class="lyric-line">
@@ -202,6 +203,7 @@ image: /images/songs/rim/single-1712071520.jpg
 <div class="jp-lyric">
 <ruby>泣き叫<rt class="furi">なきさけ</rt><rt class="roma">nakisake</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、
 </div>
+<div class="cn-lyric">即使哭喊，</div>
 </div>
 
 <div class="lyric-line">
@@ -376,6 +378,7 @@ image: /images/songs/rim/single-1712071520.jpg
 <div class="jp-lyric">
 [02:52.78]<ruby>これから<rt class="roma">korekara</rt></ruby><ruby>どんな<rt class="roma">donna</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:52.78]今后无论迎来怎样的日子</div>
 </div>
 
@@ -383,6 +386,7 @@ image: /images/songs/rim/single-1712071520.jpg
 <div class="jp-lyric">
 [02:57.20]<ruby>無敵<rt class="furi">むてき</rt><rt class="roma">muteki</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:57.20]无敌</div>
 </div>
 

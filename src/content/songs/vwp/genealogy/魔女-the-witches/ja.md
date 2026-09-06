@@ -26,7 +26,7 @@ image: /images/albums/vwp/fate.jpg
 
 ## 作品概要
 
-- V.W.Pによる、[花譜](/ja/artists/vwp/kaf)のシングル「[魔女](/ja/songs/kaf/originals/majo)」のカバーバージョン。このバージョンはアルバム「[運命](/ja/albums/vwp/fate)」に初収録された。花譜が歌唱するバージョンについては、関連項目を参照（項目の完成後にリンクを追加予定）。
+- [V.W.P](/ja/artists/vwp/vwp)による、[花譜](/ja/artists/vwp/kaf)のシングル「[魔女](/ja/songs/kaf/originals/majo)」のカバーバージョン。このバージョンはアルバム「[運命](/ja/albums/vwp/fate)」に初収録された。花譜が歌唱するバージョンについては、関連項目を参照（項目の完成後にリンクを追加予定）。
 
 ## 試聴
 

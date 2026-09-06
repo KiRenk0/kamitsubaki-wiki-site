@@ -47,12 +47,14 @@ image: /images/songs/vwp/single-1688514156.jpg
 <div class="jp-lyric">
 [00:17.00]No one can destroy this feeling
 </div>
+<div class="cn-lyric">[00:17.00]No one can destroy this feeling</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:22.74]No one can destroy this feeling
 </div>
+<div class="cn-lyric">[00:22.74]No one can destroy this feeling</div>
 </div>
 
 <div class="lyric-line">
@@ -230,6 +232,7 @@ image: /images/songs/vwp/single-1688514156.jpg
 <div class="jp-lyric">
 [02:35.94]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>達<rt class="furi">たち</rt><rt class="roma">tachi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>偽物<rt class="furi">にせもの</rt><rt class="roma">nisemono</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">[02:35.94]我们是赝品</div>
 </div>
 
 <br />
@@ -319,18 +322,21 @@ image: /images/songs/vwp/single-1688514156.jpg
 <div class="jp-lyric">
 [03:40.25]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[03:40.25]正在寻找你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:43.00]<ruby>これ<rt class="roma">kore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>という<rt class="roma">toiu</rt></ruby><ruby>名前<rt class="furi">なまえ</rt><rt class="roma">namae</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+<div class="cn-lyric">[03:43.00]如果这能成为名为爱的东西</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:48.16]<ruby>悲<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>しみ<rt class="roma">shimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>飲<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:48.16]被悲伤吞噬</div>
 </div>
 
@@ -338,6 +344,7 @@ image: /images/songs/vwp/single-1688514156.jpg
 <div class="jp-lyric">
 [03:50.80]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:50.80]无处可去</div>
 </div>
 
@@ -345,6 +352,7 @@ image: /images/songs/vwp/single-1688514156.jpg
 <div class="jp-lyric">
 [03:54.49]<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:54.49]即便如此，如果话语能够传达</div>
 </div>
 
@@ -352,6 +360,7 @@ image: /images/songs/vwp/single-1688514156.jpg
 <div class="jp-lyric">
 [04:00.36]<ruby>偽物<rt class="furi">にせもの</rt><rt class="roma">nisemono</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:00.36]我会歌唱，即使是赝品也无妨</div>
 </div>
 
@@ -361,6 +370,7 @@ image: /images/songs/vwp/single-1688514156.jpg
 <div class="jp-lyric">
 [04:05.78]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>言霊<rt class="furi">ことだま</rt><rt class="roma">kotodama</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>救<rt class="furi">すく</rt><rt class="roma">suku</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:05.78]爱啊，化为言灵拯救世界吧</div>
 </div>
 

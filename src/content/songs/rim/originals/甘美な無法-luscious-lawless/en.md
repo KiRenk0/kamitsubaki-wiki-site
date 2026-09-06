@@ -35,7 +35,9 @@ image: /images/songs/rim/single-1687465022.jpg
 <div class="jp-lyric">
 [00:14.67]3 + 1 <ruby>は<rt class="roma">wa</rt></ruby> 4 <ruby>では<rt class="roma">deha</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
 </div>
-<div class="trans-lyric">3 plus 1 is not 4</div>
+<div class="trans-lyric">
+[00:14.67]3 plus 1 is not 4
+</div>
 </div>
 
 <div class="lyric-line">
@@ -93,6 +95,7 @@ image: /images/songs/rim/single-1687465022.jpg
 <div class="jp-lyric">
 [00:48.50]<ruby>厭<rt class="furi">いと</rt><rt class="roma">ito</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">[00:48.50]Don't loathe me</div>
 </div>
 
 <br />
@@ -226,6 +229,7 @@ image: /images/songs/rim/single-1687465022.jpg
 <div class="jp-lyric">
 [01:54.00]<ruby>面<rt class="furi">めん</rt><rt class="roma">men</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>上<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>、<ruby>両<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby><ruby>眼<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>開<rt class="furi">ひら</rt><rt class="roma">hira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[01:54.00]Raise your face, open both eyes</div>
 </div>
 
 <div class="lyric-line">
@@ -255,18 +259,21 @@ image: /images/songs/rim/single-1687465022.jpg
 <div class="jp-lyric">
 [02:08.32]<ruby>春<rt class="furi">はる</rt><rt class="roma">haru</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>手向<rt class="furi">たむ</rt><rt class="roma">tamu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>対<rt class="furi">たい</rt><rt class="roma">tai</rt></ruby><ruby>無<rt class="furi">む</rt><rt class="roma">mu</rt></ruby><ruby>象<rt class="furi">ぞう</rt><rt class="roma">zou</rt></ruby><ruby>ストーリー<rt class="roma">sutourii</rt></ruby><ruby>ライター<rt class="roma">raitaa</rt></ruby>
 </div>
+<div class="trans-lyric">[02:08.32]A storywriter for the faceless, offered to spring</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:13.43]<ruby>厭<rt class="furi">いと</rt><rt class="roma">ito</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">[02:13.43]Don't loathe me</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:20.66]<ruby>厭<rt class="furi">いと</rt><rt class="roma">ito</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">[02:20.66]Don't loathe me</div>
 </div>
 
 <div class="lyric-line">
@@ -305,6 +312,7 @@ image: /images/songs/rim/single-1687465022.jpg
 <div class="jp-lyric">
 [03:01.15]<ruby>ロマンチック<rt class="roma">romanchikku</rt></ruby><ruby>シック<rt class="roma">shikku</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>形<rt class="furi">かたち</rt><rt class="roma">katachi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:01.15]In a romantic chic form</div>
 </div>
 
@@ -312,6 +320,7 @@ image: /images/songs/rim/single-1687465022.jpg
 <div class="jp-lyric">
 [03:04.78]<ruby>模造<rt class="furi">もぞう</rt><rt class="roma">mozou</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>刑期<rt class="furi">けいき</rt><rt class="roma">keiki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>われ<rt class="roma">ware</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:04.78]Once the counterfeit prison term ends</div>
 </div>
 
@@ -321,6 +330,7 @@ image: /images/songs/rim/single-1687465022.jpg
 <div class="jp-lyric">
 [03:08.19]<ruby>間違<rt class="furi">まちが</rt><rt class="roma">machiga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>だらけ<rt class="roma">darake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:08.19]To us full of mistakes</div>
 </div>
 
@@ -328,6 +338,7 @@ image: /images/songs/rim/single-1687465022.jpg
 <div class="jp-lyric">
 [03:11.75]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>半信半疑<rt class="furi">はんしんはんぎ</rt><rt class="roma">hanshinhangi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いら<rt class="roma">ira</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:11.75]No more half-belief and half-doubt</div>
 </div>
 
@@ -335,18 +346,21 @@ image: /images/songs/rim/single-1687465022.jpg
 <div class="jp-lyric">
 [03:15.54]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>勘違<rt class="furi">かんちが</rt><rt class="roma">kanchiga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
+<div class="trans-lyric">[03:15.54]That's what I want to misunderstand</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:17.65]<ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
+<div class="trans-lyric">[03:17.65]Even though it hurts</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:19.54]<ruby>単身<rt class="furi">たんしん</rt><rt class="roma">tanshin</rt></ruby><ruby>装備<rt class="furi">そうび</rt><rt class="roma">soubi</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>足<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">[03:19.54]Solo equipment is not enough</div>
 </div>
 
 <br />
@@ -355,36 +369,42 @@ image: /images/songs/rim/single-1687465022.jpg
 <div class="jp-lyric">
 [03:23.14]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>非常勤<rt class="furi">ひじょうきん</rt><rt class="roma">hijoukin</rt></ruby>
 </div>
+<div class="trans-lyric">[03:23.14]Love is part-time</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:24.78]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>すら<rt class="roma">sura</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>おしい<rt class="roma">oshii</rt></ruby>
 </div>
+<div class="trans-lyric">[03:24.78]Even that is dear</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:26.64]<ruby>今更<rt class="furi">いまさら</rt><rt class="roma">imasara</rt></ruby><ruby>迎<rt class="furi">むか</rt><rt class="roma">muka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="trans-lyric">[03:26.64]I'll come to pick you up now, even though it's late</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:30.31]<ruby>後悔<rt class="furi">こうかい</rt><rt class="roma">koukai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>疑問<rt class="furi">ぎもん</rt><rt class="roma">gimon</rt></ruby><ruby>視<rt class="furi">し</rt><rt class="roma">shi</rt></ruby>
 </div>
+<div class="trans-lyric">[03:30.31]Questioning regret</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:32.18]<ruby>胡乱<rt class="furi">うろん</rt><rt class="roma">uron</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>試供<rt class="furi">しきょう</rt><rt class="roma">shikyou</rt></ruby><ruby>品<rt class="furi">ひん</rt><rt class="roma">hin</rt></ruby>
 </div>
+<div class="trans-lyric">[03:32.18]Dubious sample</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:33.93]<ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:33.93]It's not just words</div>
 </div>
 

@@ -231,12 +231,14 @@ image: /images/songs/koko/single-1846506764.jpg
 <div class="jp-lyric">
 [02:00.32]<ruby>人生<rt class="furi">じんせい</rt><rt class="roma">jinsei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>乾杯<rt class="furi">かんぱい</rt><rt class="roma">kanpai</rt></ruby> <ruby>一興<rt class="furi">いっきょう</rt><rt class="roma">ikkyou</rt></ruby>
 </div>
+<div class="cn-lyric">[02:00.32]为人生干杯 一时兴起</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:01.87]<ruby>満員<rt class="furi">まんいん</rt><rt class="roma">man'in</rt></ruby><ruby>御礼<rt class="furi">おれい</rt><rt class="roma">orei</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">[02:01.87]难道不是满座谢礼吗</div>
 </div>
 
 <div class="lyric-line">
@@ -285,6 +287,7 @@ image: /images/songs/koko/single-1846506764.jpg
 <div class="jp-lyric">
 [02:38.19]<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>欠<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby>
 </div>
+<div class="cn-lyric">[02:38.19]盈满又亏缺</div>
 </div>
 
 <div class="lyric-line">
@@ -326,6 +329,7 @@ image: /images/songs/koko/single-1846506764.jpg
 <div class="jp-lyric">
 [02:59.47]<ruby>雲<rt class="furi">くも</rt><rt class="roma">kumo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>隠<rt class="furi">かく</rt><rt class="roma">kaku</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>月<rt class="furi">つき</rt><rt class="roma">tsuki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>す<rt class="roma">su</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:59.47]寻找被云层遮蔽的月亮</div>
 </div>
 
@@ -333,6 +337,7 @@ image: /images/songs/koko/single-1846506764.jpg
 <div class="jp-lyric">
 [03:05.69]<ruby>或<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>日<rt class="furi">にち</rt><rt class="roma">nichi</rt></ruby><ruby>諦<rt class="furi">あきら</rt><rt class="roma">akira</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>月<rt class="furi">つき</rt><rt class="roma">tsuki</rt></ruby><ruby>灯<rt class="furi">あか</rt><rt class="roma">aka</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>ユラリ<rt class="roma">yurari</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:05.69]在曾放弃的月光中 悠悠晃晃</div>
 </div>
 
@@ -340,6 +345,7 @@ image: /images/songs/koko/single-1846506764.jpg
 <div class="jp-lyric">
 [03:12.69]<ruby>幸福<rt class="furi">こうふく</rt><rt class="roma">koufuku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby> <ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>凝<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>らし<rt class="roma">rashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>す<rt class="roma">su</rt></ruby> <ruby>或<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>末<rt class="furi">すえ</rt><rt class="roma">sue</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:12.69]幸福 此刻 凝神寻找 某日的终末</div>
 </div>
 

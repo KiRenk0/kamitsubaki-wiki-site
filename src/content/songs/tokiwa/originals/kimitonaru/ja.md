@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/kimitonaru.jpg
 
 ## 作品概要
 
-tokiwaが2026-03-17にリリースしたシングル「きみとなる」。
+[tokiwa](/ja/artists/creators/tokiwa)が2026-03-17にリリースしたシングル「きみとなる」。
 
 ## 視聴
 {{media-switcher::きみとなる}}

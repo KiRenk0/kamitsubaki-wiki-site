@@ -208,30 +208,35 @@ image: /images/songs/koko/single-1749026657.jpg
 <div class="jp-lyric">
 [02:36.45]<ruby>あの<rt class="roma">ano</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>残像<rt class="furi">ざんぞう</rt><rt class="roma">zanzou</rt></ruby> <ruby>その<rt class="roma">sono</rt></ruby><ruby>衝動<rt class="furi">しょうどう</rt><rt class="roma">shoudou</rt></ruby> <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>胸<rt class="furi">むね</rt><rt class="roma">mune</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[02:36.45]那天的残影 那份冲动 至今仍在心中</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:41.59]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>と共<rt class="furi">ととも</rt><rt class="roma">totomo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>眼前<rt class="furi">がんぜん</rt><rt class="roma">ganzen</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
+<div class="cn-lyric">[02:41.59]与你一同迈向眼前的世界</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:46.44]<ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>遠方<rt class="furi">えんぽう</rt><rt class="roma">enpou</rt></ruby> <ruby>機<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>狙<rt class="furi">ねら</rt><rt class="roma">nera</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>定<rt class="furi">さだ</rt><rt class="roma">sada</rt></ruby><ruby>め<rt class="roma">me</rt></ruby>
 </div>
+<div class="cn-lyric">[02:46.44]一直在远方 等待时机 瞄准目标</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:51.12]<ruby>指<rt class="furi">ゆび</rt><rt class="roma">yubi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>掛<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>引き金<rt class="furi">ひきがね</rt><rt class="roma">hikigane</rt></ruby><ruby>撃ち落<rt class="furi">うちお</rt><rt class="roma">uchio</rt></ruby><ruby>とせ<rt class="roma">tose</rt></ruby><ruby>欺瞞<rt class="furi">ぎまん</rt><rt class="roma">giman</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:51.12]扣下扳机 击落那些谎言</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:56.49]<ruby>息<rt class="furi">いき</rt><rt class="roma">iki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>深<rt class="furi">ふか</rt><rt class="roma">fuka</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>吸い込<rt class="furi">すいこ</rt><rt class="roma">suiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>打<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:56.49]深深吸一口气 此刻扣响</div>
 </div>
 
@@ -239,6 +244,7 @@ image: /images/songs/koko/single-1749026657.jpg
 <div class="jp-lyric">
 [03:03.55]<ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>まり<rt class="roma">mari</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>銃声<rt class="furi">じゅうせい</rt><rt class="roma">juusei</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:03.55]那开始的枪声</div>
 </div>
 

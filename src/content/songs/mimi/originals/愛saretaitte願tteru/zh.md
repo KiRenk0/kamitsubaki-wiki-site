@@ -17,7 +17,7 @@ image: /images/songs/mimi/愛saretaitte願tteru.jpg
 
 ## 作品简介
 
-MIMI于 2025-08-22 发行的单曲《愛されたいって願ってる》。
+[MIMI](/zh/artists/creators/mimi)于 2025-08-22 发行的单曲《愛されたいって願ってる》。
 
 ## 试听
 {{media-switcher::愛されたいって願ってる}}

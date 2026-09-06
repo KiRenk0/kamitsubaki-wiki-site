@@ -261,6 +261,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 <ruby>心臓<rt class="furi">しんぞう</rt><rt class="roma">shinzou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>飲み込<rt class="furi">のみこ</rt><rt class="roma">nomiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">吞下了心脏</div>
 </div>
 
 <div class="lyric-line">
@@ -323,6 +324,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 「<ruby>オーマイダーティ<rt class="roma">oumaidaatei</rt></ruby>！
 </div>
+<div class="cn-lyric">哦我的肮脏！</div>
 </div>
 
 <div class="lyric-line">
@@ -364,6 +366,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 「<ruby>オーマイダーティ<rt class="roma">oumaidaatei</rt></ruby>！
 </div>
+<div class="cn-lyric">哦我的肮脏！</div>
 </div>
 
 <div class="lyric-line">
@@ -412,6 +415,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:01.55]「<ruby>あぁ<rt class="roma">aa</rt></ruby>、<ruby>ミ<rt class="roma">mi</rt></ruby><ruby>スっちゃった<rt class="roma">sutchatta</rt></ruby>」
 </div>
+
 <div class="cn-lyric">[03:01.55]「啊、搞砸了」</div>
 </div>
 
@@ -419,6 +423,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:02.74]<ruby>また<rt class="roma">mata</rt></ruby> <ruby>不気味<rt class="furi">ぶきみ</rt><rt class="roma">bukimi</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>、
 </div>
+
 <div class="cn-lyric">[03:02.74]又 对瘆人的我、</div>
 </div>
 
@@ -426,6 +431,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:02.74]<ruby>常々<rt class="furi">つねづね</rt><rt class="roma">tsunezune</rt></ruby><ruby>溺<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:02.74]总是渐渐沉溺</div>
 </div>
 

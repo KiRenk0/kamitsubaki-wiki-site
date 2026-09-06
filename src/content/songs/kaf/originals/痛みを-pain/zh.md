@@ -77,6 +77,7 @@ image: /images/albums/kaf/maho.jpg
 <div class="jp-lyric">
 [00:22.85]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">[00:22.85]我的 我的</div>
 </div>
 
 <div class="lyric-line">
@@ -99,6 +100,7 @@ image: /images/albums/kaf/maho.jpg
 <div class="jp-lyric">
 [00:29.88]<ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">[00:29.88]将痛苦</div>
 </div>
 
 <div class="lyric-line">
@@ -126,6 +128,7 @@ image: /images/albums/kaf/maho.jpg
 <div class="jp-lyric">
 [00:43.64]<ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">[00:43.64]将答案</div>
 </div>
 
 <div class="lyric-line">
@@ -227,6 +230,7 @@ image: /images/albums/kaf/maho.jpg
 <div class="jp-lyric">
 [01:45.92]<ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[01:45.92]祈愿</div>
 </div>
 
 <div class="lyric-line">
@@ -249,6 +253,7 @@ image: /images/albums/kaf/maho.jpg
 <div class="jp-lyric">
 [01:52.21]<ruby>それでも<rt class="roma">soredemo</rt></ruby>
 </div>
+<div class="cn-lyric">[01:52.21]即便如此</div>
 </div>
 
 <div class="lyric-line">
@@ -350,24 +355,28 @@ image: /images/albums/kaf/maho.jpg
 <div class="jp-lyric">
 [02:57.43]<ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:57.43]将痛苦</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:00.87]<ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:00.87]将痛苦</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:04.26]<ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>駆<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby>
 </div>
+<div class="cn-lyric">[03:04.26]驱驰于痛苦</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:09.16]<ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:09.16]呐喊的我们</div>
 </div>
 
@@ -377,24 +386,28 @@ image: /images/albums/kaf/maho.jpg
 <div class="jp-lyric">
 [03:11.81]<ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>きる<rt class="roma">kiru</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">[03:11.81]寻找生存意义的我们</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:15.14]<ruby>ある<rt class="roma">aru</rt></ruby><ruby>べき<rt class="roma">beki</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">[03:15.14]寻找应有意义的我们</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:18.52]<ruby>間違<rt class="furi">まちが</rt><rt class="roma">machiga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>だらけ<rt class="roma">darake</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>理由<rt class="furi">りゆう</rt><rt class="roma">riyuu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:18.52]充满错误的理由</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:22.17]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:22.17]我们至今仍未曾知晓</div>
 </div>
 
@@ -402,6 +415,7 @@ image: /images/albums/kaf/maho.jpg
 <div class="jp-lyric">
 [03:25.41]<ruby>だけど<rt class="roma">dakedo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:25.41]但是</div>
 </div>
 
@@ -409,6 +423,7 @@ image: /images/albums/kaf/maho.jpg
 <div class="jp-lyric">
 [03:26.35]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:26.35]我们拥有歌声</div>
 </div>
 
@@ -416,6 +431,7 @@ image: /images/albums/kaf/maho.jpg
 <div class="jp-lyric">
 [03:29.08]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>残<rt class="furi">のこ</rt><rt class="roma">noko</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:29.08]我们仍留有爱</div>
 </div>
 
@@ -423,6 +439,7 @@ image: /images/albums/kaf/maho.jpg
 <div class="jp-lyric">
 [03:32.33]<ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:32.33]为了寻找答案而歌唱</div>
 </div>
 
@@ -430,12 +447,14 @@ image: /images/albums/kaf/maho.jpg
 <div class="jp-lyric">
 [03:35.79]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>負<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[03:35.79]我们至今仍不会认输</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:38.55]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
+
 <div class="cn-lyric">[03:38.55]对吧？</div>
 </div>
 
@@ -445,12 +464,16 @@ image: /images/albums/kaf/maho.jpg
 <div class="jp-lyric">
 [03:41.96]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
+
+<div class="cn-lyric">[03:41.96]对吧？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:45.41]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
+
+<div class="cn-lyric">[03:45.41]对吧？</div>
 </div>
 
 </div>

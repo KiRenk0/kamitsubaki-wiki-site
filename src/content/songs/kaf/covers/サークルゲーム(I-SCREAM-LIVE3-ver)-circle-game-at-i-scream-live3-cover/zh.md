@@ -183,6 +183,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [01:41.83]<ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>単純<rt class="furi">たんじゅん</rt><rt class="roma">tanjun</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="cn-lyric">[01:41.83]暧昧的事物 单纯的事物</div>
 </div>
 
 <div class="lyric-line">
@@ -332,6 +333,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:30.87]<ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>単純<rt class="furi">たんじゅん</rt><rt class="roma">tanjun</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:30.87]暧昧的事物 单纯的事物</div>
 </div>
 
 <div class="lyric-line">
@@ -368,6 +370,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:51.02]<ruby>みんな<rt class="roma">minna</rt></ruby><ruby>追い越<rt class="furi">おいこ</rt><rt class="roma">oiko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:51.02]超越了一切</div>
 </div>
 
@@ -375,6 +378,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:53.93]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby> <ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>あの<rt class="roma">ano</rt></ruby><ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:53.93]我们的歌 在遥远的未来 那颜色的</div>
 </div>
 
@@ -382,6 +386,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [04:00.04]<ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>かせ<rt class="roma">kase</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
+<div class="cn-lyric">[04:00.04]花朵正在绽放</div>
 </div>
 
 </div>

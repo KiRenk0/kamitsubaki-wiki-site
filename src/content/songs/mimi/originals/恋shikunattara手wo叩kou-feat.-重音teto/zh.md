@@ -17,7 +17,7 @@ image: /images/songs/mimi/恋shikunattara手wo叩kou-feat.-重音teto.jpg
 
 ## 作品简介
 
-MIMI于 2025-06-04 发行的单曲《恋しくなったら手を叩こう (feat. 重音テト)》。
+[MIMI](/zh/artists/creators/mimi)于 2025-06-04 发行的单曲《恋しくなったら手を叩こう (feat. 重音テト)》。
 
 ## 试听
 {{media-switcher::恋しくなったら手を叩こう (feat. 重音テト)}}

@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/horou.jpg
 
 ## 作品简介
 
-tokiwa于 2026-03-05 发行的单曲《ホロウ》。
+[tokiwa](/zh/artists/creators/tokiwa)于 2026-03-05 发行的单曲《ホロウ》。
 
 ## 试听
 {{media-switcher::ホロウ}}

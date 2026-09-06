@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/daisy-crown.jpg
 
 ## 作品简介
 
-Empty old City于 2025-02-21 发行的单曲《Daisy Crown》。
+[Empty old City](/zh/artists/solo/empty-old-city)于 2025-02-21 发行的单曲《Daisy Crown》。
 
 ## 试听
 {{media-switcher::Daisy Crown}}

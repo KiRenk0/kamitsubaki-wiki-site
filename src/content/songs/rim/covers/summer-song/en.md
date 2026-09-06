@@ -19,7 +19,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 ## Overview
 
-SUMMER SONG appears on CHOCOLATE LIVE2 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+SUMMER SONG appears on [CHOCOLATE LIVE2](/en/albums/rim/chocolate-live-2) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -151,18 +151,21 @@ Words help me days go by
 <div class="jp-lyric">
 Gonna go down to the river
 </div>
+<div class="trans-lyric">Gonna go down to the river</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Gonna go down make it right
 </div>
+<div class="trans-lyric">Gonna go down make it right</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And send all my love to your maker
 </div>
+<div class="trans-lyric">And send all my love to your maker</div>
 </div>
 
 <div class="lyric-line">
@@ -178,24 +181,28 @@ Ffor making you right
 <div class="jp-lyric">
 Are you ready for a new day, a new day
 </div>
+<div class="trans-lyric">Are you ready for a new day, a new day</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Blow me a kiss and send it straight to the sun
 </div>
+<div class="trans-lyric">Blow me a kiss and send it straight to the sun</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And if you want to take it my way, my way
 </div>
+<div class="trans-lyric">And if you want to take it my way, my way</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Then this could be our summer song
 </div>
+<div class="trans-lyric">Then this could be our summer song</div>
 </div>
 
 <br />
@@ -211,6 +218,7 @@ Let me make you understand
 <div class="jp-lyric">
 Just take me by the hand
 </div>
+
 <div class="trans-lyric">Just take me by the hand</div>
 </div>
 
@@ -218,6 +226,7 @@ Just take me by the hand
 <div class="jp-lyric">
 Let me show you all i can
 </div>
+
 <div class="trans-lyric">Let me show you all i can</div>
 </div>
 
@@ -225,6 +234,7 @@ Let me show you all i can
 <div class="jp-lyric">
 And be your only man
 </div>
+
 <div class="trans-lyric">And be your only man</div>
 </div>
 
@@ -232,6 +242,7 @@ And be your only man
 <div class="jp-lyric">
 If I could only make you see
 </div>
+
 <div class="trans-lyric">If I could only make you see</div>
 </div>
 
@@ -239,6 +250,7 @@ If I could only make you see
 <div class="jp-lyric">
 Just what you mean to me
 </div>
+
 <div class="trans-lyric">Just what you mean to me</div>
 </div>
 
@@ -246,6 +258,7 @@ Just what you mean to me
 <div class="jp-lyric">
 You know it won't be to long
 </div>
+
 <div class="trans-lyric">You know it won't be to long</div>
 </div>
 
@@ -253,6 +266,7 @@ You know it won't be to long
 <div class="jp-lyric">
 Till we sing our summer song
 </div>
+
 <div class="trans-lyric">Till we sing our summer song</div>
 </div>
 
@@ -262,24 +276,28 @@ Till we sing our summer song
 <div class="jp-lyric">
 Are you ready for a new day, a new day
 </div>
+<div class="trans-lyric">Are you ready for a new day, a new day</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Blow me a kiss and send it straight to the sun
 </div>
+<div class="trans-lyric">Blow me a kiss and send it straight to the sun</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And if you want to take it my way, my way
 </div>
+<div class="trans-lyric">And if you want to take it my way, my way</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Then this could be our summer song
 </div>
+<div class="trans-lyric">Then this could be our summer song</div>
 </div>
 
 </div>

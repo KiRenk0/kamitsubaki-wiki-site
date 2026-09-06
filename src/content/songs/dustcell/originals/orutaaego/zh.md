@@ -17,7 +17,7 @@ image: /images/songs/dustcell/orutaaego.jpg
 
 ## 作品简介
 
-DUSTCELL于 2023-02-21 发行的单曲《オルターエゴ》。
+[DUSTCELL](/zh/artists/solo/dustcell)于 2023-02-21 发行的单曲《オルターエゴ》。
 
 ## 试听
 {{media-switcher::オルターエゴ}}

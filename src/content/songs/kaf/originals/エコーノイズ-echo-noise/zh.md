@@ -210,6 +210,7 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 <ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">等等我啊</div>
 </div>
 
 <div class="lyric-line">
@@ -251,18 +252,21 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 <ruby>記憶<rt class="furi">きおく</rt><rt class="roma">kioku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>行方<rt class="furi">ゆくえ</rt><rt class="roma">yukue</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>手繰<rt class="furi">たぐ</rt><rt class="roma">tagu</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>寄<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">摸索着记忆的去向</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">等等我啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:37.69]<ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>奪<rt class="furi">うば</rt><rt class="roma">uba</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:37.69]不要消失，不要夺走</div>
 </div>
 
@@ -270,24 +274,28 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 <ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>メモリー<rt class="roma">memorii</rt></ruby>
 </div>
+<div class="cn-lyric">为了让我是‘我’的记忆</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>正<rt class="furi">ただ</rt><rt class="roma">tada</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">所谓正确的东西</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>着込<rt class="furi">きこ</rt><rt class="roma">kiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>寂<rt class="furi">さび</rt><rt class="roma">sabi</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="cn-lyric">即使紧裹着，还是寂寞不是吗</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:48.83]<ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:48.83]为了我和你而歌唱</div>
 </div>
 
@@ -295,12 +303,14 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 <ruby>あぁ<rt class="roma">aa</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">啊，我已然察觉到了啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:59.06]<ruby>なぁ<rt class="roma">naa</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:59.06]呐，那正是为了我的歌</div>
 </div>
 

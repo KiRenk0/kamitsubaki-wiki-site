@@ -220,24 +220,28 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 <ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>せる<rt class="roma">seru</rt></ruby>
 </div>
+<div class="cn-lyric">能毁掉</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">不能毁掉</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>狂<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby>
 </div>
+<div class="cn-lyric">能疯狂</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>狂<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">不能疯狂</div>
 </div>
 
 <div class="lyric-line">
@@ -251,6 +255,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 <ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">摇曳了</div>
 </div>
 
 <br />
@@ -259,24 +264,28 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 <ruby>歪<rt class="furi">いが</rt><rt class="roma">iga</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>だんだん<rt class="roma">dandan</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>透き通<rt class="furi">すきとお</rt><rt class="roma">sukitoo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby>
 </div>
+<div class="cn-lyric">在扭曲的世界里 我渐渐变得透明 看不见了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">不要找我 关于我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>つめ<rt class="roma">tsume</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">不要注视我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:53.87]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>仕組<rt class="furi">しく</rt><rt class="roma">shiku</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>孤独<rt class="furi">こどく</rt><rt class="roma">kodoku</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>罠<rt class="furi">わな</rt><rt class="roma">wana</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ほどけ<rt class="roma">hodoke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:53.87]在某人设下的孤独陷阱中 在未来解开之前</div>
 </div>
 
@@ -284,6 +293,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:00.80]<ruby>思い出<rt class="furi">おもいだ</rt><rt class="roma">omoida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:00.80]请想起 关于我</div>
 </div>
 
@@ -291,6 +301,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 <ruby>鮮<rt class="furi">あざ</rt><rt class="roma">aza</rt></ruby><ruby>やか<rt class="roma">yaka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby>
 </div>
+<div class="cn-lyric">保持鲜明</div>
 </div>
 
 <br />
@@ -299,6 +310,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:11.20]<ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:11.20]不要忘记 不要忘记 不要忘记 不要忘记</div>
 </div>
 
@@ -308,6 +320,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:18.73]<ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わって<rt class="roma">watte</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>paralyze
 </div>
+
 <div class="cn-lyric">[03:18.73]对已经改变的事情 paralyze</div>
 </div>
 
@@ -315,6 +328,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:22.14]<ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>だらけ<rt class="roma">darake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>paradise
 </div>
+
 <div class="cn-lyric">[03:22.14]充满无法改变之事的 paradise</div>
 </div>
 
@@ -322,6 +336,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:25.94]<ruby>覚<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:25.94]请记住 关于我</div>
 </div>
 
@@ -331,6 +346,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:36.31]<ruby>教<rt class="furi">おし</rt><rt class="roma">oshi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:36.31]告诉我</div>
 </div>
 
@@ -338,12 +354,15 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 <ruby>教<rt class="furi">おし</rt><rt class="roma">oshi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
+<div class="cn-lyric">告诉我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>?
 </div>
+<div class="cn-lyric">在我的体内 谁在那里？</div>
 </div>
 
 <br />

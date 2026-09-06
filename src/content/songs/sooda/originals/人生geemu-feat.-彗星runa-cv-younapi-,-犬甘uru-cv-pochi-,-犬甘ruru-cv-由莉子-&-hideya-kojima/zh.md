@@ -17,7 +17,7 @@ image: /images/songs/sooda/人生geemu-feat.-彗星runa-cv-younapi-,-犬甘uru-c
 
 ## 作品简介
 
-Sooda于 2024-06-30 发行的单曲《人生ゲーム (feat. 彗星ルナ (CV:ようなぴ), 犬甘うる(CV:POCHI), 犬甘るる(CV:由莉子) & HIDEYA KOJIMA)》。
+[Sooda](/zh/artists/creators/sooda)于 2024-06-30 发行的单曲《人生ゲーム (feat. 彗星ルナ (CV:ようなぴ), 犬甘うる(CV:POCHI), 犬甘るる(CV:由莉子) & HIDEYA KOJIMA)》。
 
 ## 试听
 {{media-switcher::人生ゲーム (feat. 彗星ルナ (CV:ようなぴ), 犬甘うる(CV:POCHI), 犬甘るる(CV:由莉子) & HIDEYA KOJIMA)}}

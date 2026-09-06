@@ -230,6 +230,7 @@ Feeling so, so hot
 <div class="jp-lyric">
 Time to make it bounce like woah
 </div>
+<div class="cn-lyric">Time to make it bounce like woah</div>
 </div>
 
 <br />
@@ -238,36 +239,42 @@ Time to make it bounce like woah
 <div class="jp-lyric">
 어지러운 떨림
 </div>
+<div class="cn-lyric">令人眩晕的颤抖</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 처음 본 아름다움
 </div>
+<div class="cn-lyric">初次见到的美丽</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 거침없이 diving down, down, down
 </div>
+<div class="cn-lyric">毫不犹豫地 diving down, down, down</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 지금까지 느껴본 적 없는 신세계
 </div>
+<div class="cn-lyric">至今从未感受过的新世界</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 몸을 맡겨 던져 움직여봐
 </div>
+<div class="cn-lyric">把身体交给它，抛出去，动起来吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Make it pop, make it woop!
 </div>
+<div class="cn-lyric">Make it pop, make it woop!</div>
 </div>
 
 <div class="lyric-line">
@@ -411,6 +418,7 @@ Three-six-five, burn it up
 <div class="jp-lyric">
 Time to make it bounce like woah
 </div>
+<div class="cn-lyric">Time to make it bounce like woah</div>
 </div>
 
 <br />
@@ -419,72 +427,84 @@ Time to make it bounce like woah
 <div class="jp-lyric">
 어지러운 떨림
 </div>
+<div class="cn-lyric">令人眩晕的颤抖</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 처음 본 아름다움
 </div>
+<div class="cn-lyric">初次见到的美丽</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 거침없이 diving down, down, down
 </div>
+<div class="cn-lyric">毫不犹豫地 diving down, down, down</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 지금까지 느껴본 적 없는 신세계
 </div>
+<div class="cn-lyric">至今从未感受过的新世界</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 몸을 맡겨 던져 움직여봐
 </div>
+<div class="cn-lyric">把身体交给它，抛出去，动起来吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Make it pop, make it woop!
 </div>
+<div class="cn-lyric">Make it pop, make it woop!</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 날 이끄는 느낌 그 물결 따라
 </div>
+<div class="cn-lyric">跟随那引领我的感觉的波浪</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 위험해도 가야 해 더 빨리
 </div>
+<div class="cn-lyric">即使危险也要走得更快</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 돌이킬 수 없어
 </div>
+<div class="cn-lyric">无法回头</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I'm not back, I'm not back, back
 </div>
+<div class="cn-lyric">I'm not back, I'm not back, back</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 걷잡을 수 없이
 </div>
+<div class="cn-lyric">无法控制地</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 커진 꿈 그 위로
 </div>
+<div class="cn-lyric">在变大的梦想之上</div>
 </div>
 
 <br />
@@ -493,6 +513,7 @@ I'm not back, I'm not back, back
 <div class="jp-lyric">
 내 마음 깊은 곳 번져간
 </div>
+
 <div class="cn-lyric">在我内心深处蔓延的</div>
 </div>
 
@@ -500,6 +521,7 @@ I'm not back, I'm not back, back
 <div class="jp-lyric">
 설레는 feeling, this feeling, this feeling
 </div>
+
 <div class="cn-lyric">悸动的 feeling, this feeling, this feeling</div>
 </div>
 
@@ -507,6 +529,7 @@ I'm not back, I'm not back, back
 <div class="jp-lyric">
 So beautiful
 </div>
+
 <div class="cn-lyric">So beautiful</div>
 </div>
 
@@ -514,6 +537,7 @@ So beautiful
 <div class="jp-lyric">
 우린 미래를 그려가
 </div>
+
 <div class="cn-lyric">我们描绘着未来</div>
 </div>
 
@@ -521,6 +545,7 @@ So beautiful
 <div class="jp-lyric">
 끊임없이 diving, I'm diving, I'm diving
 </div>
+
 <div class="cn-lyric">不断地 diving, I'm diving, I'm diving</div>
 </div>
 
@@ -528,6 +553,7 @@ So beautiful
 <div class="jp-lyric">
 So wonderful
 </div>
+
 <div class="cn-lyric">So wonderful</div>
 </div>
 
@@ -537,6 +563,7 @@ So wonderful
 <div class="jp-lyric">
 빛이 드리워져
 </div>
+
 <div class="cn-lyric">光线洒落</div>
 </div>
 
@@ -544,6 +571,7 @@ So wonderful
 <div class="jp-lyric">
 천천히 감았던
 </div>
+
 <div class="cn-lyric">慢慢闭上的</div>
 </div>
 
@@ -551,6 +579,7 @@ So wonderful
 <div class="jp-lyric">
 눈을 떠 이제는 가야 해
 </div>
+
 <div class="cn-lyric">睁开眼，现在必须走了</div>
 </div>
 
@@ -558,6 +587,7 @@ So wonderful
 <div class="jp-lyric">
 우리가 원하던 미래
 </div>
+
 <div class="cn-lyric">我们曾渴望的未来</div>
 </div>
 
@@ -565,6 +595,7 @@ So wonderful
 <div class="jp-lyric">
 미래로 끝없이 헤엄쳐
 </div>
+
 <div class="cn-lyric">向着未来无尽地游去</div>
 </div>
 
@@ -572,6 +603,7 @@ So wonderful
 <div class="jp-lyric">
 나의 세계로 I own it
 </div>
+
 <div class="cn-lyric">到我的世界 I own it</div>
 </div>
 
@@ -579,12 +611,14 @@ So wonderful
 <div class="jp-lyric">
 Time to make it bounce like woah
 </div>
+<div class="cn-lyric">Time to make it bounce like woah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Woah
 </div>
+
 <div class="cn-lyric">Woah</div>
 </div>
 
@@ -594,6 +628,7 @@ Woah
 <div class="jp-lyric">
 Timе to make it bounce like woah
 </div>
+
 <div class="cn-lyric">Time to make it bounce like woah</div>
 </div>
 
@@ -601,36 +636,42 @@ Timе to make it bounce like woah
 <div class="jp-lyric">
 어지러운 떨림
 </div>
+<div class="cn-lyric">令人眩晕的颤抖</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 처음 본 아름다움
 </div>
+<div class="cn-lyric">初次见到的美丽</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 거침없이 diving down, down, down
 </div>
+<div class="cn-lyric">毫不犹豫地 diving down, down, down</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 지금까지 느껴본 적 없는 신세계
 </div>
+<div class="cn-lyric">至今从未感受过的新世界</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 몸을 맡겨 던져 움직여봐
 </div>
+<div class="cn-lyric">把身体交给它，抛出去，动起来吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Makе it pop, make it woop!
 </div>
+
 <div class="cn-lyric">Make it pop, make it woop!</div>
 </div>
 
@@ -638,36 +679,42 @@ Makе it pop, make it woop!
 <div class="jp-lyric">
 날 이끄는 느낌 그 물결 따라
 </div>
+<div class="cn-lyric">跟随那引领我的感觉的波浪</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 위험해도 가야 해 더 빨리
 </div>
+<div class="cn-lyric">即使危险也要走得更快</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 돌이킬 수 없어
 </div>
+<div class="cn-lyric">无法回头</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I'm not back, I'm not back, back
 </div>
+<div class="cn-lyric">I'm not back, I'm not back, back</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 걷잡을 수 없이
 </div>
+<div class="cn-lyric">无法控制地</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 커진 꿈 그 위로
 </div>
+<div class="cn-lyric">在变大的梦想之上</div>
 </div>
 
 </div>

@@ -206,6 +206,7 @@ image: /images/songs/rim/single-1609167678.jpg
 <div class="jp-lyric">
 [01:55.60]<ruby>求<rt class="furi">もと</rt><rt class="roma">moto</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>まし<rt class="roma">mashi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[01:55.60]这样活着走了过来</div>
 </div>
 
 <div class="lyric-line">
@@ -219,6 +220,7 @@ image: /images/songs/rim/single-1609167678.jpg
 <div class="jp-lyric">
 [02:02.89]<ruby>隠<rt class="furi">かく</rt><rt class="roma">kaku</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>息<rt class="furi">いき</rt><rt class="roma">iki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[02:02.89]像是要隐藏般呼吸着</div>
 </div>
 
 <br />
@@ -227,24 +229,28 @@ image: /images/songs/rim/single-1609167678.jpg
 <div class="jp-lyric">
 [02:06.26]<ruby>怯<rt class="furi">おび</rt><rt class="roma">obi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>まし<rt class="roma">mashi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>まし<rt class="roma">mashi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>まし<rt class="roma">mashi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[02:06.26]曾感到害怕 害怕 害怕</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:09.92]<ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>愛想<rt class="furi">あいそ</rt><rt class="roma">aiso</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>人間<rt class="furi">にんげん</rt><rt class="roma">ningen</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
 </div>
+<div class="cn-lyric">[02:09.92]只是个满嘴客套的人</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:13.83]<ruby>あぁ<rt class="roma">aa</rt></ruby> <ruby>こんな<rt class="roma">konna</rt></ruby> <ruby>こんな<rt class="roma">konna</rt></ruby> <ruby>こんな<rt class="roma">konna</rt></ruby>
 </div>
+<div class="cn-lyric">[02:13.83]啊 这样的 这样的 这样的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:17.15]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:17.15]我也可以活下去哦 世界</div>
 </div>
 
@@ -254,18 +260,21 @@ image: /images/songs/rim/single-1609167678.jpg
 <div class="jp-lyric">
 [02:20.70]<ruby>これから<rt class="roma">korekara</rt></ruby> <ruby>ねぇ<rt class="roma">nee</rt></ruby> <ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby> <ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby> <ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby>
 </div>
+<div class="cn-lyric">[02:20.70]从今以后 呐 明天 明天 明天</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:24.32]<ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ほんと<rt class="roma">honto</rt></ruby>
 </div>
+<div class="cn-lyric">[02:24.32]之类的事情 真的都无所谓了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:28.15]<ruby>でも<rt class="roma">demo</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:28.15]但是想要舞动 舞动 一直舞动</div>
 </div>
 
@@ -273,12 +282,14 @@ image: /images/songs/rim/single-1609167678.jpg
 <div class="jp-lyric">
 [02:32.30]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>場所<rt class="furi">ばしょ</rt><rt class="roma">basho</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[02:32.30]与你在这个地方</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:35.74]<ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>びら<rt class="roma">bira</rt></ruby><ruby>舞<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:35.74]如同花瓣飞舞般</div>
 </div>
 
@@ -288,24 +299,28 @@ image: /images/songs/rim/single-1609167678.jpg
 <div class="jp-lyric">
 [02:52.02]<ruby>桜<rt class="furi">さくら</rt><rt class="roma">sakura</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>匂<rt class="furi">にお</rt><rt class="roma">nio</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby>
 </div>
+<div class="cn-lyric">[02:52.02]闻到樱花的气息</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:55.57]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>旅<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>発<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby>
 </div>
+<div class="cn-lyric">[02:55.57]我将踏上旅途</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:59.21]<ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
 </div>
+<div class="cn-lyric">[02:59.21]每当想起今天这个日子</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:02.93]<ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ゆける<rt class="roma">yukeru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
 </div>
+<div class="cn-lyric">[03:02.93]便能继续活在某一天的今天里</div>
 </div>
 
 </div>

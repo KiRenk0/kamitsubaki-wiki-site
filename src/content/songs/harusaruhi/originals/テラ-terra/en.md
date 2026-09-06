@@ -79,7 +79,9 @@ image: /images/songs/harusaruhi/single-1688524765.jpg
 <div class="jp-lyric">
 [00:40.02]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>二度<rt class="furi">にど</rt><rt class="roma">nido</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>逢<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
-<div class="trans-lyric">Though we'll never meet again</div>
+<div class="trans-lyric">
+[00:40.02]Though we'll never meet again
+</div>
 </div>
 
 <div class="lyric-line">
@@ -183,7 +185,9 @@ image: /images/songs/harusaruhi/single-1688524765.jpg
 <div class="jp-lyric">
 [01:31.72]Stay high <ruby>まだ<rt class="roma">mada</rt></ruby><ruby>駆<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
-<div class="trans-lyric">Stay high, I still want to run</div>
+<div class="trans-lyric">
+[01:31.72]Stay high, I still want to run
+</div>
 </div>
 
 <div class="lyric-line">
@@ -222,6 +226,7 @@ image: /images/songs/harusaruhi/single-1688524765.jpg
 <div class="jp-lyric">
 [01:54.63]<ruby>後悔<rt class="furi">こうかい</rt><rt class="roma">koukai</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>一切<rt class="furi">いっさい</rt><rt class="roma">issai</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
+<div class="trans-lyric">[01:54.63]There's no regret at all</div>
 </div>
 
 <div class="lyric-line">
@@ -279,28 +284,28 @@ image: /images/songs/harusaruhi/single-1688524765.jpg
 <div class="jp-lyric">
 [02:22.63]<ruby>失態<rt class="furi">しったい</rt><rt class="roma">shittai</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby><ruby>成功<rt class="furi">せいこう</rt><rt class="roma">seikou</rt></ruby> <ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>次元<rt class="furi">じげん</rt><rt class="roma">jigen</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> Get it out
 </div>
-<div class="trans-lyric">Mistakes and successes, Get it out of that dimension</div>
+<div class="trans-lyric">[02:22.63]Mistakes and successes, Get it out of that dimension</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:25.43]<ruby>規模<rt class="furi">きぼ</rt><rt class="roma">kibo</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>stereo <ruby>まだ<rt class="roma">mada</rt></ruby><ruby>暴<rt class="furi">あば</rt><rt class="roma">aba</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いよ<rt class="roma">iyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="trans-lyric">The scale is stereo, let's still rage</div>
+<div class="trans-lyric">[02:25.43]The scale is stereo, let's still rage</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:28.75]<ruby>理想<rt class="furi">りそう</rt><rt class="roma">risou</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby> dunk <ruby>理性<rt class="furi">りせい</rt><rt class="roma">risei</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby> like a drunk
 </div>
-<div class="trans-lyric">Dunk towards the ideal, no reason like a drunk</div>
+<div class="trans-lyric">[02:28.75]Dunk towards the ideal, no reason like a drunk</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:31.37]<ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>吹き込<rt class="furi">ふきこ</rt><rt class="roma">fukiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby> mic <ruby>暴<rt class="furi">あば</rt><rt class="roma">aba</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby> overdrive
 </div>
-<div class="trans-lyric">The mic that breathed dreams, rage in overdrive</div>
+<div class="trans-lyric">[02:31.37]The mic that breathed dreams, rage in overdrive</div>
 </div>
 
 <div class="lyric-line">
@@ -353,12 +358,14 @@ image: /images/songs/harusaruhi/single-1688524765.jpg
 <div class="jp-lyric">
 [02:51.77]<ruby>拝啓<rt class="furi">はいけい</rt><rt class="roma">haikei</rt></ruby>、<ruby>あの<rt class="roma">ano</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>線<rt class="furi">せん</rt><rt class="roma">sen</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
+<div class="trans-lyric">[02:51.77]Dear me in that world line</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:54.18]<ruby>この<rt class="roma">kono</rt></ruby><ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
+
 <div class="trans-lyric">[02:54.18]Are you still holding these feelings?</div>
 </div>
 
@@ -366,12 +373,14 @@ image: /images/songs/harusaruhi/single-1688524765.jpg
 <div class="jp-lyric">
 [02:57.01]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>二度<rt class="furi">にど</rt><rt class="roma">nido</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>逢<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
+<div class="trans-lyric">[02:57.01]Though we'll never meet again</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:59.97]<ruby>絶<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>えず<rt class="roma">ezu</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>進<rt class="furi">すす</rt><rt class="roma">susu</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>欲<rt class="furi">ほ</rt><rt class="roma">ho</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby>
 </div>
+<div class="trans-lyric">[02:59.97]I want you to keep moving forward with me</div>
 </div>
 
 <br />
@@ -380,48 +389,56 @@ image: /images/songs/harusaruhi/single-1688524765.jpg
 <div class="jp-lyric">
 [03:03.90]<ruby>後悔<rt class="furi">こうかい</rt><rt class="roma">koukai</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>一切<rt class="furi">いっさい</rt><rt class="roma">issai</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
+<div class="trans-lyric">[03:03.90]There's no regret at all</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:06.25]<ruby>希望<rt class="furi">きぼう</rt><rt class="roma">kibou</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>懲<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>虚無<rt class="furi">きょむ</rt><rt class="roma">kyomu</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>飛び出<rt class="furi">とびだ</rt><rt class="roma">tobida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[03:06.25]Hope never learns, I leap out with emptiness</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:09.44]<ruby>此処<rt class="furi">ここ</rt><rt class="roma">koko</rt></ruby><ruby>を通<rt class="furi">をつう</rt><rt class="roma">wotsuu</rt></ruby><ruby>じて<rt class="roma">jite</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>出会<rt class="furi">であ</rt><rt class="roma">dea</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="trans-lyric">[03:09.44]Through here, I was able to meet you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:12.05]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>お陰<rt class="furi">おかげ</rt><rt class="roma">okage</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なれ<rt class="roma">nare</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="trans-lyric">[03:12.05]Thanks to you, I came to love it even more</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:15.17]<ruby>同<rt class="furi">おな</rt><rt class="roma">ona</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>ゴール<rt class="roma">gouru</rt></ruby><ruby>同士<rt class="furi">どうし</rt><rt class="roma">doushi</rt></ruby><ruby>高<rt class="furi">たか</rt><rt class="roma">taka</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いよ<rt class="roma">iyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="trans-lyric">[03:15.17]Let's elevate each other, sharing the same goal</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:17.77]<ruby>必<rt class="furi">かなら</rt><rt class="roma">kanara</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>互<rt class="furi">たが</rt><rt class="roma">taga</rt></ruby><ruby>いに<rt class="roma">ini</rt></ruby><ruby>乗り越<rt class="furi">のりこ</rt><rt class="roma">noriko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">[03:17.77]We surely overcome each other</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:20.64]<ruby>さあ<rt class="roma">saa</rt></ruby>、<ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>前<rt class="furi">ぜん</rt><rt class="roma">zen</rt></ruby>傾<ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="trans-lyric">[03:20.64]Come on, forgetting each other, leaning forward</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:23.57]「<ruby>魂<rt class="furi">たましい</rt><rt class="roma">tamashii</rt></ruby>」<ruby>を<rt class="roma">wo</rt></ruby><ruby>奮<rt class="furi">ふる</rt><rt class="roma">furu</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby>
 </div>
+<div class="trans-lyric">[03:23.57]Let our souls stir</div>
 </div>
 
 <br />
@@ -430,48 +447,56 @@ image: /images/songs/harusaruhi/single-1688524765.jpg
 <div class="jp-lyric">
 [03:26.77]<ruby>後悔<rt class="furi">こうかい</rt><rt class="roma">koukai</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>一切<rt class="furi">いっさい</rt><rt class="roma">issai</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
+<div class="trans-lyric">[03:26.77]There's no regret at all</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:29.08]<ruby>未<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>足<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>憂鬱<rt class="furi">ゆううつ</rt><rt class="roma">yuuutsu</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>追い出<rt class="furi">おいだ</rt><rt class="roma">oida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[03:29.08]Still not enough, drive out the melancholy too</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:32.23]<ruby>此処<rt class="furi">ここ</rt><rt class="roma">koko</rt></ruby><ruby>を通<rt class="furi">をつう</rt><rt class="roma">wotsuu</rt></ruby><ruby>じて<rt class="roma">jite</rt></ruby><ruby>やっと<rt class="roma">yatto</rt></ruby><ruby>解<rt class="furi">わか</rt><rt class="roma">waka</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>
 </div>
+<div class="trans-lyric">[03:32.23]Through here, I finally understood</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:35.13]<ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>経験<rt class="furi">けいけん</rt><rt class="roma">keiken</rt></ruby> <ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="trans-lyric">[03:35.13]I could love all the experiences I felt</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:38.08]<ruby>同<rt class="furi">おな</rt><rt class="roma">ona</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>ゴール<rt class="roma">gouru</rt></ruby><ruby>同士<rt class="furi">どうし</rt><rt class="roma">doushi</rt></ruby> <ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>ぐ<rt class="roma">gu</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">[03:38.08]Sharing the same goal, we'll join hands</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:40.66]<ruby>必<rt class="furi">かなら</rt><rt class="roma">kanara</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>叶<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>られる<rt class="roma">rareru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby>
 </div>
+<div class="trans-lyric">[03:40.66]So that surely in the end it will be fulfilled</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:43.32]<ruby>さあ<rt class="roma">saa</rt></ruby>、<ruby>与<rt class="furi">あた</rt><rt class="roma">ata</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>前<rt class="furi">ぜん</rt><rt class="roma">zen</rt></ruby>傾<ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="trans-lyric">[03:43.32]Come on, giving to each other, leaning forward</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:46.47]「<ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby>」<ruby>を<rt class="roma">wo</rt></ruby><ruby>奮<rt class="furi">ふる</rt><rt class="roma">furu</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby>
 </div>
+<div class="trans-lyric">[03:46.47]Let our lives stir</div>
 </div>
 
 </div>

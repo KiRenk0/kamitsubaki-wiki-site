@@ -17,7 +17,7 @@ image: /images/songs/valis/本懐paradokkusu.jpg
 
 ## 作品简介
 
-VALIS于 2025-12-31 发行的单曲《本懐パラドックス》。
+[VALIS](/zh/artists/solo/valis)于 2025-12-31 发行的单曲《本懐パラドックス》。
 
 ## 试听
 {{media-switcher::本懐パラドックス}}

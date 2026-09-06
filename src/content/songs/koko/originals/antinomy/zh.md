@@ -154,18 +154,21 @@ The broken night
 <div class="jp-lyric">
 The broken night
 </div>
+<div class="cn-lyric">破碎的夜晚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The broken night
 </div>
+<div class="cn-lyric">破碎的夜晚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The broken night
 </div>
+<div class="cn-lyric">破碎的夜晚</div>
 </div>
 
 <div class="lyric-line">
@@ -228,12 +231,14 @@ Of my humanity
 <div class="jp-lyric">
 Discard the meanings and find your will
 </div>
+<div class="cn-lyric">舍弃意义，找到你的意志</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Survive, survive and catch your breath
 </div>
+<div class="cn-lyric">活下去，活下去，喘口气</div>
 </div>
 
 <div class="lyric-line">
@@ -268,12 +273,14 @@ I get angry to anyone who tramples on my feelings
 <div class="jp-lyric">
 A mechanical device's tears
 </div>
+<div class="cn-lyric">机械装置的眼泪</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Who does this trembling heart belong to?
 </div>
+<div class="cn-lyric">这颗颤抖的心属于谁？</div>
 </div>
 
 <br />
@@ -324,6 +331,7 @@ Do we hate each other?
 <div class="jp-lyric">
 Now that I mention it
 </div>
+
 <div class="cn-lyric">说起来</div>
 </div>
 
@@ -331,6 +339,7 @@ Now that I mention it
 <div class="jp-lyric">
 This hatred is also very similar
 </div>
+
 <div class="cn-lyric">这憎恨也如此相似</div>
 </div>
 
@@ -338,6 +347,7 @@ This hatred is also very similar
 <div class="jp-lyric">
 I can't let go of your tearful voice
 </div>
+
 <div class="cn-lyric">我无法放下你含泪的声音</div>
 </div>
 
@@ -345,6 +355,7 @@ I can't let go of your tearful voice
 <div class="jp-lyric">
 Your hand is still warm
 </div>
+
 <div class="cn-lyric">你的手依然温暖</div>
 </div>
 
@@ -352,6 +363,7 @@ Your hand is still warm
 <div class="jp-lyric">
 Born as a corpse
 </div>
+
 <div class="cn-lyric">作为尸体而生</div>
 </div>
 
@@ -359,6 +371,7 @@ Born as a corpse
 <div class="jp-lyric">
 Antinomy, antinomy, the world's bug
 </div>
+
 <div class="cn-lyric">二律背反，二律背反，世界的错误</div>
 </div>
 
@@ -366,12 +379,14 @@ Antinomy, antinomy, the world's bug
 <div class="jp-lyric">
 Like a human
 </div>
+<div class="cn-lyric">像人类一样</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It gets angry to anyone who tramples on its feelings
 </div>
+
 <div class="cn-lyric">它会对任何践踏它情感的东西愤怒</div>
 </div>
 
@@ -379,36 +394,42 @@ It gets angry to anyone who tramples on its feelings
 <div class="jp-lyric">
 A mechanical device's tears
 </div>
+<div class="cn-lyric">机械装置的眼泪</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Who does this trembling heart belong to?
 </div>
+<div class="cn-lyric">这颗颤抖的心属于谁？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The broken night
 </div>
+<div class="cn-lyric">破碎的夜晚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The broken night
 </div>
+<div class="cn-lyric">破碎的夜晚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The broken night
 </div>
+<div class="cn-lyric">破碎的夜晚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The broken night
 </div>
+<div class="cn-lyric">破碎的夜晚</div>
 </div>
 
 <br />

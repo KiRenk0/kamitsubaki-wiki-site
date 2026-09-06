@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 ## 作品简介
 
-《まほう([MIMI](/zh/artists/creators/mimi) Remix) [feat. RIM]》是[花譜](/zh/artists/vwp/kaf)收录于《[魔法γ](/zh/albums/kaf/maho-gamma)》的第 13 轨。
+《まほう([MIMI](/zh/artists/creators/mimi) Remix) [feat. [RIM](/zh/artists/vwp/rim)]》是[花譜](/zh/artists/vwp/kaf)收录于《[魔法γ](/zh/albums/kaf/maho-gamma)》的第 13 轨。
 
 ## 试听
 
@@ -127,6 +127,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [01:10.20]<ruby>これ<rt class="roma">kore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>魔法<rt class="furi">まほう</rt><rt class="roma">mahou</rt></ruby>？
 </div>
+<div class="cn-lyric">[01:10.20]这就是魔法？</div>
 </div>
 
 <br />
@@ -149,6 +150,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [01:30.27]<ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby> <ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby>
 </div>
+<div class="cn-lyric">[01:30.27]啦啦啦啦 啦啦啦啦</div>
 </div>
 
 <br />
@@ -277,6 +279,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [02:51.08]<ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby> <ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby> <ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:51.08]啦啦啦 啦啦啦啦 啦啦啦</div>
 </div>
 
@@ -286,6 +289,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [03:01.44]<ruby>音楽<rt class="furi">おんがく</rt><rt class="roma">ongaku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>魔法<rt class="furi">まほう</rt><rt class="roma">mahou</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:01.44]音乐就是魔法</div>
 </div>
 

@@ -74,7 +74,7 @@ tracks:
 
 ## 简介
 
-VALIS于 2022-04-23 发行的Album《覚醒ヒストリア(覚醒 ver.)》,共收录 13 首歌曲。
+[VALIS](/zh/artists/solo/valis)于 2022-04-23 发行的Album《覚醒ヒストリア(覚醒 ver.)》,共收录 13 首歌曲。
 
 ## 收录曲
 

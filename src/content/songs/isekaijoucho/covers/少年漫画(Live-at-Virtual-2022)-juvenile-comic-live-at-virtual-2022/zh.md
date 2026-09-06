@@ -155,6 +155,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [01:27.21]Want to be a boyish
 </div>
+<div class="cn-lyric">[01:27.21]Want to be a boyish</div>
 </div>
 
 <div class="lyric-line">
@@ -210,42 +211,49 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [01:52.13]<ruby>トゥルルル<rt class="roma">tourururu</rt></ruby> <ruby>トゥルリラ<rt class="roma">toururira</rt></ruby>
 </div>
+<div class="cn-lyric">[01:52.13]噜噜噜 噜哩啦</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:55.17]Boyish <ruby>もっと<rt class="roma">motto</rt></ruby> <ruby>もっと<rt class="roma">motto</rt></ruby><ruby>華麗<rt class="furi">かれい</rt><rt class="roma">karei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>とんがって<rt class="roma">tongatte</rt></ruby>
 </div>
+<div class="cn-lyric">[01:55.17]Boyish 更加 更加华丽地尖锐</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:00.68]Boyish <ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>塗<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>りつぶす<rt class="roma">ritsubusu</rt></ruby>
 </div>
+<div class="cn-lyric">[02:00.68]Boyish 一定全部全部涂抹掉</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:15.80]“<ruby>少年<rt class="furi">しょうねん</rt><rt class="roma">shounen</rt></ruby><ruby>漫画<rt class="furi">まんが</rt><rt class="roma">manga</rt></ruby>”<ruby>に<rt class="roma">ni</rt></ruby><ruby>なり<rt class="roma">nari</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>叶<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+<div class="cn-lyric">[02:15.80]想要成为“少年漫画” 如果能够实现</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:21.37]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>泥<rt class="furi">どろ</rt><rt class="roma">doro</rt></ruby><ruby>だらけ<rt class="roma">darake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ボク<rt class="roma">boku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[02:21.37]对于不是爱或恋 满身泥泞的我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:26.37]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>かっこいい<rt class="roma">kakkoii</rt></ruby><ruby>主人公<rt class="furi">しゅじんこう</rt><rt class="roma">shujinkou</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>構<rt class="furi">かま</rt><rt class="roma">kama</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:26.37]即使不再是帅气的主人公也无所谓</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:31.83]<ruby>ああ<rt class="roma">aa</rt></ruby> <ruby>この<rt class="roma">kono</rt></ruby><ruby>背<rt class="furi">せ</rt><rt class="roma">se</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>あと<rt class="roma">ato</rt></ruby><ruby>もう少<rt class="furi">もうすこ</rt><rt class="roma">mousuko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>高<rt class="furi">たか</rt><rt class="roma">taka</rt></ruby><ruby>けりゃ<rt class="roma">kerya</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:31.83]啊啊 如果这身高能再高一点就好了</div>
 </div>
 
@@ -253,30 +261,35 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [02:37.90]Want to be a boyish
 </div>
+<div class="cn-lyric">[02:37.90]Want to be a boyish</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:40.25]Can't be a boyish yet
 </div>
+<div class="cn-lyric">[02:40.25]Can't be a boyish yet</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:43.04]Want to be a boyish
 </div>
+<div class="cn-lyric">[02:43.04]Want to be a boyish</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:45.28]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby> <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby>
 </div>
+<div class="cn-lyric">[02:45.28]现在 立刻</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:49.68]<ruby>オトコノコ<rt class="roma">otokonoko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>生<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>まれ<rt class="roma">mare</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:49.68]如果生而为男孩子的话</div>
 </div>
 

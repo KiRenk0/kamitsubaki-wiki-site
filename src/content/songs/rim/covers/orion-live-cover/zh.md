@@ -130,24 +130,28 @@ Scuffs his toes on old fag packets lying in the street
 <div class="jp-lyric">
 Orion, won't you give me your star sign
 </div>
+<div class="cn-lyric">猎户座，何不赐我你的星宿</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Orion, get up on the sky-line
 </div>
+<div class="cn-lyric">猎户座，升起于天际线</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I'm high on my hill and I feel fine
 </div>
+<div class="cn-lyric">我站在山丘高处，感觉舒畅</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Orion, let's sip the heavens' heady wine
 </div>
+<div class="cn-lyric">猎户座，让我们共饮天穹的醇酒</div>
 </div>
 
 <br />
@@ -193,6 +197,7 @@ Orion, won't you make me a star sign
 <div class="jp-lyric">
 Orion, get up on the sky-line
 </div>
+<div class="cn-lyric">猎户座，升起于天际线</div>
 </div>
 
 <div class="lyric-line">
@@ -206,6 +211,7 @@ I'm high on your love and I feel fine
 <div class="jp-lyric">
 Orion, let's sip the heavens' heady wine
 </div>
+<div class="cn-lyric">猎户座，让我们共饮天穹的醇酒</div>
 </div>
 
 <br />
@@ -214,6 +220,7 @@ Orion, let's sip the heavens' heady wine
 <div class="jp-lyric">
 And young girls shiver as they wait by lonely bus-stops
 </div>
+
 <div class="cn-lyric">年轻女孩在孤寂的公交站等车时颤抖</div>
 </div>
 
@@ -221,6 +228,7 @@ And young girls shiver as they wait by lonely bus-stops
 <div class="jp-lyric">
 After sad parties: no-one to take them home
 </div>
+
 <div class="cn-lyric">悲伤派对后，无人送她们回家</div>
 </div>
 
@@ -228,6 +236,7 @@ After sad parties: no-one to take them home
 <div class="jp-lyric">
 To greasy bed-sitters and make a late-night play
 </div>
+
 <div class="cn-lyric">回到油腻的租房，上演深夜的戏</div>
 </div>
 
@@ -235,6 +244,7 @@ To greasy bed-sitters and make a late-night play
 <div class="jp-lyric">
 For lost virginity a thousand miles away.
 </div>
+
 <div class="cn-lyric">为了千里之外失去的童贞。</div>
 </div>
 
@@ -244,24 +254,28 @@ For lost virginity a thousand miles away.
 <div class="jp-lyric">
 Orion, won't you make me a star sign
 </div>
+<div class="cn-lyric">猎户座，何不让我成为星象</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Orion, get up on the sky-line
 </div>
+<div class="cn-lyric">猎户座，升起于天际线</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I'm high on your love and I feel fine
 </div>
+<div class="cn-lyric">沐浴在你的爱中，我感觉舒畅</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Orion, let's sip the heavens' heady wine
 </div>
+<div class="cn-lyric">猎户座，让我们共饮天穹的醇酒</div>
 </div>
 
 <br />
@@ -270,6 +284,7 @@ Orion, let's sip the heavens' heady wine
 <div class="jp-lyric">
 On the sky-line
 </div>
+
 <div class="cn-lyric">在天际线上</div>
 </div>
 
@@ -277,6 +292,7 @@ On the sky-line
 <div class="jp-lyric">
 Orion
 </div>
+
 <div class="cn-lyric">猎户座</div>
 </div>
 

@@ -58,7 +58,7 @@ seo:
 
 Kaika (廻花) is a new-generation virtual singer-songwriter under [KYOKAI STUDIO](/en/projects/labels/kyokai-studio) (transferred from [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) in September 2026), described as "a new branching point of [KAF](/en/artists/vwp/kaf)." She debuted on January 14, 2024, at KAF's 4th ONE-MAN LIVE "Kaika" (怪歌) held at Yoyogi National Stadium First Gymnasium (国立代々木競技場第一体育館), emerging as a distinct artistic identity that channels impulsive, unfiltered feelings directly into song. Her concept represents a fork in KAF's creative lineage — a new flower blooming from the same root but growing in its own direction.
 
-With a vocal style that leans into raw emotional expression, Kaika occupies a unique space within the Kamitsubaki ecosystem: part singer-songwriter, part character narrative. Her work explores immediacy and instinct, contrasting with the more literary or philosophical approaches of other V.W.P members.
+With a vocal style that leans into raw emotional expression, Kaika occupies a unique space within the Kamitsubaki ecosystem: part singer-songwriter, part character narrative. Her work explores immediacy and instinct, contrasting with the more literary or philosophical approaches of other [V.W.P](/en/artists/vwp/vwp) members.
 
 
 ## Role and Creative Position
@@ -72,9 +72,9 @@ Kaika's identity is built on the idea of "branching" — she is explicitly frame
 - **August 25, 2024**: Performed at "YouTube Music Weekend 8.0".
 - **January 14, 2025**: Held Transmission Mini Live "Umareru mae kara kimi wo shitteru." Released debut album *Umareru mae kara kimi wo shitteru* ("I've Known You Since Before You Were Born").
 - **March 15, 2025**: Participated in KAF POP-UP STORE "KAF's New Year Cherry Blossom Festival".
-- **July 19, 2025**: Held Kaika Exhibition "Kurukuru" (廻花展「くるくる」).
+- **July 19, 2025**: Held Kaika Exhibition "Kurukuru" (廻花展「[くるくる](/en/songs/kafu/originals/kurukuru)」).
 - **July 27, 2025**: Participated in "KAMITSUBAKI FES '25 / Singularity Live Vol.4".
-- **Other**: Released singles "Stand By Me" (スタンドバイミー), "Higurashi no Uta" (ひぐらしのうた), "Teddy Bear" (テディベア), and "Kaika" (かいか).
+- **Other**: Released singles "Stand By Me" ([スタンドバイミー](/en/songs/kaika/originals/sutandobaimii)), "Higurashi no Uta" (ひぐらしのうた), "Teddy Bear" (テディベア), and "Kaika" (かいか).
 
 - September 2026: Transferred to [KYOKAI STUDIO](/en/projects/labels/kyokai-studio) as part of THINKR's studio reorganization (formerly under the [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) system).
 

@@ -95,7 +95,9 @@ image: /images/songs/rim/single-1687474050.jpg
 <div class="jp-lyric">
 [00:55.56]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>？
 </div>
-<div class="trans-lyric">Isn't that so?</div>
+<div class="trans-lyric">
+[00:55.56]Isn't that so?
+</div>
 </div>
 
 <div class="lyric-line">
@@ -146,7 +148,9 @@ image: /images/songs/rim/single-1687474050.jpg
 <div class="jp-lyric">
 [01:35.13]<ruby>ばか<rt class="roma">baka</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
-<div class="trans-lyric">How foolish</div>
+<div class="trans-lyric">
+[01:35.13]How foolish
+</div>
 </div>
 
 <br />
@@ -176,14 +180,18 @@ image: /images/songs/rim/single-1687474050.jpg
 <div class="jp-lyric">
 [01:54.15]<ruby>つまらない<rt class="roma">tsumaranai</rt></ruby>
 </div>
-<div class="trans-lyric">Boring</div>
+<div class="trans-lyric">
+[01:54.15]Boring
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:55.49]<ruby>埋<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
-<div class="trans-lyric">Cannot be filled</div>
+<div class="trans-lyric">
+[01:55.49]Cannot be filled
+</div>
 </div>
 
 <div class="lyric-line">
@@ -206,6 +214,7 @@ image: /images/songs/rim/single-1687474050.jpg
 <div class="jp-lyric">
 [02:06.47]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>？
 </div>
+<div class="trans-lyric">[02:06.47]Isn't that so?</div>
 </div>
 
 <div class="lyric-line">
@@ -219,6 +228,7 @@ image: /images/songs/rim/single-1687474050.jpg
 <div class="jp-lyric">
 [02:16.67]<ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>抱<rt class="furi">いだ</rt><rt class="roma">ida</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>寄<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>、<ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
 </div>
+
 <div class="trans-lyric">[02:16.67]Is it okay if you hold me close forever?</div>
 </div>
 

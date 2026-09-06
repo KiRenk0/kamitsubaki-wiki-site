@@ -23,7 +23,7 @@ tracks:
 
 ## 概要
 
-ANMCが2024-12-06にリリースしたアルバム『『ムーンレスムーン』BGM Soundtrack』。全8曲を収録。
+[ANMC](/ja/artists/solo/anmc)が2024-12-06にリリースしたアルバム『『ムーンレスムーン』BGM Soundtrack』。全8曲を収録。
 
 ## 収録曲
 

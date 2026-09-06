@@ -20,7 +20,7 @@ image: /images/songs/mimi/isse-no-de.jpg
 
 ## 作品简介
 
-MIMI于 2021-10-01 发行的单曲《いっせーのーで》。
+[MIMI](/zh/artists/creators/mimi)于 2021-10-01 发行的单曲《いっせーのーで》。
 
 ## 试听
 {{media-switcher::いっせーのーで}}

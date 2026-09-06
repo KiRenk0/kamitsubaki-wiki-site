@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/astronomy.jpg
 
 ## 作品概要
 
-Empty old Cityが2024-10-22にリリースしたシングル「Astronomy」。
+[Empty old City](/ja/artists/solo/empty-old-city)が2024-10-22にリリースしたシングル「Astronomy」。
 
 ## 視聴
 {{media-switcher::Astronomy}}

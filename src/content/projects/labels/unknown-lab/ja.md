@@ -9,7 +9,7 @@ order: 6
 
 ## 概要
 
-「UNKNOWN LAB」は、THINKR が 2026年9月5日のスタジオ再編発表で新設した研究開発部門（R&D）です。「[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio)」総括プロデューサー・PIEDPIPER を中心に運営され、新規事業および新プロジェクトを育成する実験の場と位置づけられています。
+「UNKNOWN LAB」は、THINKR が 2026年9月5日のスタジオ再編発表で新設した研究開発部門（R&D）です。「[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio)」総括プロデューサー・[PIEDPIPER](/ja/artists/creators/piedpiper) を中心に運営され、新規事業および新プロジェクトを育成する実験の場と位置づけられています。
 
 THINKR の新スタジオ体制において、UNKNOWN LAB は「RESEARCH & DEVELOPMENT」セクションを単独で構成し、「MUSIC & EXPERIENCE」（KAMITSUBAKI STUDIO / [KYOKAI STUDIO](/ja/projects/labels/kyokai-studio) / [ALLT STUDIO](/ja/projects/labels/allt-studio)）および「CREATIVE & ART」（QA STUDIO / PHASE STUDIO）と並びます。2026年9月時点で UNKNOWN LAB は独立した公式サイトを開設しておらず、具体的なプロジェクト内容も未公開です。
 

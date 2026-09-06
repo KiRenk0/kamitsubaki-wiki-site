@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/vanguards-feat.-星宮toto.jpg
 
 ## 作品简介
 
-tokiwa于 2020-05-10 发行的单曲《Vanguards (feat. 星宮とと)》。
+[tokiwa](/zh/artists/creators/tokiwa)于 2020-05-10 发行的单曲《Vanguards (feat. 星宮とと)》。
 
 ## 试听
 {{media-switcher::Vanguards (feat. 星宮とと)}}

@@ -17,7 +17,7 @@ image: /images/songs/valis/彷徨fuooebaa.jpg
 
 ## 作品简介
 
-VALIS于 2025-12-16 发行的单曲《彷徨フォーエバー》。
+[VALIS](/zh/artists/solo/valis)于 2025-12-16 发行的单曲《彷徨フォーエバー》。
 
 ## 试听
 {{media-switcher::彷徨フォーエバー}}

@@ -197,6 +197,7 @@ image: /images/songs/vwp/single-1694863306.jpg
 <div class="jp-lyric">
 [01:50.60]<ruby>闇<rt class="furi">やみ</rt><rt class="roma">yami</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>払<rt class="furi">はら</rt><rt class="roma">hara</rt></ruby><ruby>え<rt class="roma">e</rt></ruby>
 </div>
+<div class="cn-lyric">[01:50.60]驱散黑暗</div>
 </div>
 
 <div class="lyric-line">
@@ -284,6 +285,7 @@ image: /images/songs/vwp/single-1694863306.jpg
 <div class="jp-lyric">
 [02:40.08]<ruby>闇<rt class="furi">やみ</rt><rt class="roma">yami</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>払<rt class="furi">はら</rt><rt class="roma">hara</rt></ruby><ruby>え<rt class="roma">e</rt></ruby>
 </div>
+<div class="cn-lyric">[02:40.08]驱散黑暗</div>
 </div>
 
 <div class="lyric-line">
@@ -332,6 +334,7 @@ image: /images/songs/vwp/single-1694863306.jpg
 <div class="jp-lyric">
 [03:01.58]<ruby>絶望<rt class="furi">ぜつぼう</rt><rt class="roma">zetsubou</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>隠<rt class="furi">かく</rt><rt class="roma">kaku</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>味<rt class="furi">み</rt><rt class="roma">mi</rt></ruby>？
 </div>
+
 <div class="cn-lyric">[03:01.58]绝望是隐藏的调味料？</div>
 </div>
 
@@ -339,6 +342,7 @@ image: /images/songs/vwp/single-1694863306.jpg
 <div class="jp-lyric">
 [03:02.94]<ruby>どちら<rt class="roma">dochira</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby> <ruby>ただ<rt class="roma">tada</rt></ruby><ruby>闇<rt class="furi">やみ</rt><rt class="roma">yami</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>遊<rt class="furi">あそ</rt><rt class="roma">aso</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:02.94]无论哪种都好 只是与黑暗玩耍</div>
 </div>
 

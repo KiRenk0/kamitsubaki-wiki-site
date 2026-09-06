@@ -50,14 +50,14 @@ tracks:
 
 ## Overview
 
-DUSTCELL's album “ROUND TRIP”, released on 2023-03-29, featuring 7 tracks.
+[DUSTCELL](/en/artists/solo/dustcell)'s album “ROUND TRIP”, released on 2023-03-29, featuring 7 tracks.
 
 ## Track List
 
 1. TULPA (03:03)
-2. ANTIHERO (02:47)
+2. [ANTIHERO](/en/songs/dustcell/originals/antihero) (02:47)
 3. 透明度 (02:55)
 4. Kick It Down (02:55)
-5. オルターエゴ (03:43)
+5. [オルターエゴ](/en/songs/dustcell/originals/orutaaego) (03:43)
 6. SAVEPOINT (03:02)
 7. 過去の蜃気楼 (03:54)

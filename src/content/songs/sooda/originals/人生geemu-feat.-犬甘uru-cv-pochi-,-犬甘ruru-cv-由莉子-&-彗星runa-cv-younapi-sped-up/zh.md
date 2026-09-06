@@ -17,7 +17,7 @@ image: /images/songs/sooda/人生geemu-feat.-犬甘uru-cv-pochi-,-犬甘ruru-cv-
 
 ## 作品简介
 
-Sooda于 2025-08-17 发行的单曲《人生ゲーム (feat. 犬甘うる(CV:POCHI), 犬甘るる(CV:由莉子) & 彗星ルナ (CV:ようなぴ)) [Sped up]》。
+[Sooda](/zh/artists/creators/sooda)于 2025-08-17 发行的单曲《人生ゲーム (feat. 犬甘うる(CV:POCHI), 犬甘るる(CV:由莉子) & 彗星ルナ (CV:ようなぴ)) [Sped up]》。
 
 ## 试听
 {{media-switcher::人生ゲーム (feat. 犬甘うる(CV:POCHI), 犬甘るる(CV:由莉子) & 彗星ルナ (CV:ようなぴ)) [Sped up]}}

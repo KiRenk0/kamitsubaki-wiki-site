@@ -215,7 +215,9 @@ Oh
 <div class="jp-lyric">
 [00:34.13]Breathe slowly, take your time
 </div>
-<div class="trans-lyric">Breathe slowly, take your time</div>
+<div class="trans-lyric">
+[00:34.13]Breathe slowly, take your time
+</div>
 </div>
 
 <div class="lyric-line">
@@ -245,7 +247,9 @@ Just focus, calm down
 <div class="jp-lyric">
 [00:34.13](Breathe)
 </div>
-<div class="trans-lyric">(Breathe)</div>
+<div class="trans-lyric">
+[00:34.13](Breathe)
+</div>
 </div>
 
 <br />
@@ -254,7 +258,9 @@ Just focus, calm down
 <div class="jp-lyric">
 [00:34.13](Breathe slowly take your time)
 </div>
-<div class="trans-lyric">(Breathe slowly take your time)</div>
+<div class="trans-lyric">
+[00:34.13](Breathe slowly take your time)
+</div>
 </div>
 
 <div class="lyric-line">

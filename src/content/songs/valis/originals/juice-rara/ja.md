@@ -17,7 +17,7 @@ image: /images/songs/valis/juice-rara.jpg
 
 ## 作品概要
 
-VALISが2025-05-30にリリースしたシングル「JUICE(ララ)」。
+[VALIS](/ja/artists/solo/valis)が2025-05-30にリリースしたシングル「JUICE(ララ)」。
 
 ## 視聴
 {{media-switcher::JUICE(ララ)}}

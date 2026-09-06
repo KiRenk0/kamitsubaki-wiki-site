@@ -17,7 +17,7 @@ image: /images/songs/mimi/suro-ri-naito-feat.-初音miku.jpg
 
 ## 作品概要
 
-MIMIが2024-06-29にリリースしたシングル「すろーりーないと (feat. 初音ミク)」。
+[MIMI](/ja/artists/creators/mimi)が2024-06-29にリリースしたシングル「すろーりーないと (feat. 初音ミク)」。
 
 ## 視聴
 {{media-switcher::すろーりーないと (feat. 初音ミク)}}

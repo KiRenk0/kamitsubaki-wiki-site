@@ -116,6 +116,7 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [00:50.48]La-la-la-la-la-la-la
 </div>
+<div class="cn-lyric">[00:50.48]La-la-la-la-la-la-la</div>
 </div>
 
 <br />
@@ -350,6 +351,7 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [02:09.12]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>所為<rt class="furi">しょい</rt><rt class="roma">shoi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby>
 </div>
+<div class="cn-lyric">[02:09.12]因某人而看不见的明天</div>
 </div>
 
 <div class="lyric-line">
@@ -400,6 +402,7 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [02:42.16]<ruby>何時<rt class="furi">いつ</rt><rt class="roma">itsu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>青春<rt class="furi">せいしゅん</rt><rt class="roma">seishun</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:42.16]曾经的青春</div>
 </div>
 
@@ -409,30 +412,35 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [02:47.76]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>所為<rt class="furi">しょい</rt><rt class="roma">shoi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby>
 </div>
+<div class="cn-lyric">[02:47.76]因某人而看不见的明天</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:53.13]<ruby>無邪気<rt class="furi">むじゃき</rt><rt class="roma">mujaki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>さえ<rt class="roma">sae</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>吐<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[02:53.13]连天真的话语都曾吐露</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:00.44]<ruby>釘<rt class="furi">くぎ</rt><rt class="roma">kugi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>生<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>上<rt class="furi">のぼ</rt><rt class="roma">nobo</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>坂<rt class="furi">ざか</rt><rt class="roma">zaka</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:00.44]在长出钉子的上坡路上</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:06.14]<ruby>ゴール<rt class="roma">gouru</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>「<ruby>あなた<rt class="roma">anata</rt></ruby>」<ruby>伝<rt class="furi">つた</rt><rt class="roma">tsuta</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[03:06.14]终点是‘你’ 无法传达</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:11.62]<ruby>悲<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">[03:11.62]好悲伤</div>
 </div>
 
 <br />
@@ -441,12 +449,14 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [03:18.07]<ruby>悲<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">[03:18.07]好悲伤</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:22.08]<ruby>伝<rt class="furi">つた</rt><rt class="roma">tsuta</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>悲<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:22.08]无法传达 好悲伤</div>
 </div>
 

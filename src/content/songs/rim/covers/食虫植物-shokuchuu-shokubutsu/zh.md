@@ -192,12 +192,14 @@ AH AH
 <div class="jp-lyric">
 <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>、<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">不满足，不满足</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>、<ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>、<ruby>フィーリング<rt class="roma">fyiiringu</rt></ruby>、
 </div>
+<div class="cn-lyric">不满足的是感觉，</div>
 </div>
 
 <div class="lyric-line">
@@ -225,6 +227,7 @@ AH AH
 <div class="jp-lyric">
 [02:20.82]<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>、<ruby>から<rt class="roma">kara</rt></ruby>、<ruby>嫌<rt class="furi">きら</rt><rt class="roma">kira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:20.82]因为不满足，所以讨厌</div>
 </div>
 
@@ -232,12 +235,14 @@ AH AH
 <div class="jp-lyric">
 <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>、<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">想要被爱，想要被爱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:28.51]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>地球<rt class="furi">ちきゅう</rt><rt class="roma">chikyuu</rt></ruby><ruby>規模<rt class="furi">きぼ</rt><rt class="roma">kibo</rt></ruby>！
 </div>
+
 <div class="cn-lyric">[02:28.51]想要被爱是全球规模的！</div>
 </div>
 

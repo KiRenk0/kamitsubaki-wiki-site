@@ -36,14 +36,18 @@ image: /images/albums/kaf/love-and-flower.jpg
 <div class="jp-lyric">
 [00:00.96]Chain <ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>生まれ変<rt class="furi">うまれか</rt><rt class="roma">umareka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
-<div class="trans-lyric">Chain, reborn in a night of wishes</div>
+<div class="trans-lyric">
+[00:00.96]Chain, reborn in a night of wishes
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:05.70]<ruby>ほどける<rt class="roma">hodokeru</rt></ruby><ruby>かり<rt class="roma">kari</rt></ruby><ruby>そめ<rt class="roma">some</rt></ruby> <ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> chain
 </div>
-<div class="trans-lyric">A fleeting dream unraveling, chain</div>
+<div class="trans-lyric">
+[00:05.70]A fleeting dream unraveling, chain
+</div>
 </div>
 
 <div class="lyric-line">
@@ -80,7 +84,9 @@ image: /images/albums/kaf/love-and-flower.jpg
 <div class="jp-lyric">
 [00:43.00]<ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>、<ruby>じっと<rt class="roma">jitto</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>やめ<rt class="roma">yame</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="trans-lyric">Listen, I've already stopped just waiting around</div>
+<div class="trans-lyric">
+[00:43.00]Listen, I've already stopped just waiting around
+</div>
 </div>
 
 <br />
@@ -135,12 +141,14 @@ image: /images/albums/kaf/love-and-flower.jpg
 <div class="jp-lyric">
 [01:17.88]Chain <ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>生まれ変<rt class="furi">うまれか</rt><rt class="roma">umareka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="trans-lyric">[01:17.88]Chain, reborn in a night of wishes</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:22.47]<ruby>ほどける<rt class="roma">hodokeru</rt></ruby><ruby>かり<rt class="roma">kari</rt></ruby><ruby>そめ<rt class="roma">some</rt></ruby> <ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> chain
 </div>
+<div class="trans-lyric">[01:22.47]A fleeting dream unraveling, chain</div>
 </div>
 
 <div class="lyric-line">
@@ -156,19 +164,21 @@ image: /images/albums/kaf/love-and-flower.jpg
 <div class="jp-lyric">
 [01:33.23]Chain <ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>生まれ変<rt class="furi">うまれか</rt><rt class="roma">umareka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="trans-lyric">[01:33.23]Chain, reborn in a night of wishes</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:37.73]<ruby>ほどける<rt class="roma">hodokeru</rt></ruby><ruby>かり<rt class="roma">kari</rt></ruby><ruby>そめ<rt class="roma">some</rt></ruby> <ruby>キラキラ<rt class="roma">kirakira</rt></ruby><ruby>と<rt class="roma">to</rt></ruby> chain
 </div>
-<div class="trans-lyric">A fleeting unraveling, sparkling, chain</div>
+<div class="trans-lyric">[01:37.73]A fleeting unraveling, sparkling, chain</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:41.78]<ruby>うたう<rt class="roma">utau</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>この<rt class="roma">kono</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby> <ruby>あの<rt class="roma">ano</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby> chain
 </div>
+<div class="trans-lyric">[01:41.78]I sing, this voice, until it reaches that light, chain</div>
 </div>
 
 <br />
@@ -207,6 +217,7 @@ image: /images/albums/kaf/love-and-flower.jpg
 <div class="jp-lyric">
 [02:11.56]<ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>祈<rt class="furi">いの</rt><rt class="roma">ino</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>数<rt class="furi">かぞ</rt><rt class="roma">kazo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>高鳴<rt class="furi">たかな</rt><rt class="roma">takana</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>胸<rt class="furi">むね</rt><rt class="roma">mune</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:11.56]Counting the undying prayers, our hearts race, right?</div>
 </div>
 
@@ -214,6 +225,7 @@ image: /images/albums/kaf/love-and-flower.jpg
 <div class="jp-lyric">
 [02:18.70]<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby> <ruby>灯<rt class="furi">あか</rt><rt class="roma">aka</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>粧<ruby>し<rt class="roma">shi</rt></ruby> <ruby>ここ<rt class="roma">koko</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>向<rt class="furi">む</rt><rt class="roma">mu</rt></ruby><ruby>かう<rt class="roma">kau</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:18.70]If we cannot see, we'll just light a lamp and head from here</div>
 </div>
 
@@ -223,18 +235,21 @@ image: /images/albums/kaf/love-and-flower.jpg
 <div class="jp-lyric">
 [02:26.98]Chain <ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>生まれ変<rt class="furi">うまれか</rt><rt class="roma">umareka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="trans-lyric">[02:26.98]Chain, reborn in a night of wishes</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:31.53]<ruby>ほどける<rt class="roma">hodokeru</rt></ruby><ruby>かり<rt class="roma">kari</rt></ruby><ruby>そめ<rt class="roma">some</rt></ruby> <ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> chain
 </div>
+<div class="trans-lyric">[02:31.53]A fleeting dream unraveling, chain</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:35.36]<ruby>不思議<rt class="furi">ふしぎ</rt><rt class="roma">fushigi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>のち<rt class="roma">nochi</rt></ruby><ruby>纏<rt class="furi">まと</rt><rt class="roma">mato</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
+<div class="trans-lyric">[02:35.36]Wrapping this mysterious life, today as well, until it reaches</div>
 </div>
 
 <br />
@@ -243,18 +258,21 @@ image: /images/albums/kaf/love-and-flower.jpg
 <div class="jp-lyric">
 [02:42.26]Chain <ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>生まれ変<rt class="furi">うまれか</rt><rt class="roma">umareka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="trans-lyric">[02:42.26]Chain, reborn in a night of wishes</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:46.81]<ruby>ほどける<rt class="roma">hodokeru</rt></ruby><ruby>かり<rt class="roma">kari</rt></ruby><ruby>そめ<rt class="roma">some</rt></ruby> <ruby>キラキラ<rt class="roma">kirakira</rt></ruby><ruby>と<rt class="roma">to</rt></ruby> chain
 </div>
+<div class="trans-lyric">[02:46.81]A fleeting unraveling, sparkling, chain</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:50.79]<ruby>うたう<rt class="roma">utau</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>この<rt class="roma">kono</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby> <ruby>あの<rt class="roma">ano</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby> chain
 </div>
+<div class="trans-lyric">[02:50.79]I sing, this voice, until it reaches that light, chain</div>
 </div>
 
 <br />
@@ -263,13 +281,15 @@ image: /images/albums/kaf/love-and-flower.jpg
 <div class="jp-lyric">
 [03:05.43]Chain <ruby>うたう<rt class="roma">utau</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="trans-lyric">Chain, I sing</div>
+
+<div class="trans-lyric">[03:05.43]Chain, I sing</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:07.02]<ruby>この<rt class="roma">kono</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby> <ruby>あの<rt class="roma">ano</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby> chain
 </div>
+
 <div class="trans-lyric">[03:07.02]This voice, until it reaches that light, chain</div>
 </div>
 

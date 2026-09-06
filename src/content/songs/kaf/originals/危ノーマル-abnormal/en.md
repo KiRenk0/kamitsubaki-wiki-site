@@ -61,7 +61,9 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 <div class="jp-lyric">
 [00:22.50]<ruby>がむしゃら<rt class="roma">gamushara</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>エスコート<rt class="roma">esukouto</rt></ruby>
 </div>
-<div class="trans-lyric">Recklessly escorting</div>
+<div class="trans-lyric">
+[00:22.50]Recklessly escorting
+</div>
 </div>
 
 <br />
@@ -116,7 +118,9 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 <div class="jp-lyric">
 [00:54.00]<ruby>負<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>あいつ<rt class="roma">aitsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
-<div class="trans-lyric">For that guy I can't lose to</div>
+<div class="trans-lyric">
+[00:54.00]For that guy I can't lose to
+</div>
 </div>
 
 <div class="lyric-line">
@@ -130,7 +134,9 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 <div class="jp-lyric">
 [01:00.50]<ruby>どうして<rt class="roma">doushite</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>？
 </div>
-<div class="trans-lyric">Why is this place good, I wonder?</div>
+<div class="trans-lyric">
+[01:00.50]Why is this place good, I wonder?
+</div>
 </div>
 
 <div class="lyric-line">
@@ -169,7 +175,9 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 <div class="jp-lyric">
 [01:30.50]<ruby>哀<rt class="furi">あわ</rt><rt class="roma">awa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>？
 </div>
-<div class="trans-lyric">Are you calling me pitiful?</div>
+<div class="trans-lyric">
+[01:30.50]Are you calling me pitiful?
+</div>
 </div>
 
 <div class="lyric-line">
@@ -183,7 +191,9 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 <div class="jp-lyric">
 [01:36.50]<ruby>まあ<rt class="roma">maa</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby>
 </div>
-<div class="trans-lyric">Well, fine, I can't be bothered with that</div>
+<div class="trans-lyric">
+[01:36.50]Well, fine, I can't be bothered with that
+</div>
 </div>
 
 <div class="lyric-line">
@@ -220,6 +230,7 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 <div class="jp-lyric">
 <ruby>アブノーマル<rt class="roma">abunoumaru</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>日常<rt class="furi">にちじょう</rt><rt class="roma">nichijou</rt></ruby>
 </div>
+<div class="trans-lyric">Abnormal everyday life</div>
 </div>
 
 <br />
@@ -256,7 +267,7 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 <div class="jp-lyric">
 [02:36.00]Come on, come on, come on, baby!
 </div>
-<div class="trans-lyric">Come on, come on, come on, baby!</div>
+<div class="trans-lyric">[02:36.00]Come on, come on, come on, baby!</div>
 </div>
 
 <br />
@@ -265,24 +276,28 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 <div class="jp-lyric">
 [02:56.00]<ruby>負<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>あいつ<rt class="roma">aitsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="trans-lyric">[02:56.00]For that guy I can't lose to</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>蠢<rt class="furi">うごめ</rt><rt class="roma">ugome</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>情熱<rt class="furi">じょうねつ</rt><rt class="roma">jounetsu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="trans-lyric">The wriggling passion tells me</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>どうして<rt class="roma">doushite</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>？
 </div>
+<div class="trans-lyric">Why is this place good, I wonder?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>アブノーマル<rt class="roma">abunoumaru</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>日常<rt class="furi">にちじょう</rt><rt class="roma">nichijou</rt></ruby>
 </div>
+<div class="trans-lyric">Abnormal everyday life</div>
 </div>
 
 <br />
@@ -291,6 +306,7 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 <div class="jp-lyric">
 <ruby>後悔<rt class="furi">こうかい</rt><rt class="roma">koukai</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby>
 </div>
+
 <div class="trans-lyric">I have no regrets</div>
 </div>
 
@@ -298,6 +314,7 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 <div class="jp-lyric">
 <ruby>負<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>あいつ<rt class="roma">aitsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="trans-lyric">For that guy I can't lose to</div>
 </div>
 
 <br />
@@ -306,6 +323,7 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 <div class="jp-lyric">
 [03:02.80]<ruby>諦<rt class="furi">あきら</rt><rt class="roma">akira</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:02.80]Now is not the time to give up</div>
 </div>
 
@@ -313,6 +331,7 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 <div class="jp-lyric">
 [03:05.50]<ruby>収<rt class="furi">おさ</rt><rt class="roma">osa</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>鼓動<rt class="furi">こどう</rt><rt class="roma">kodou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:05.50]The unstoppable heartbeat tells me</div>
 </div>
 
@@ -320,6 +339,7 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 <div class="jp-lyric">
 [03:08.50]<ruby>立ち止<rt class="furi">たちど</rt><rt class="roma">tachido</rt></ruby><ruby>まる<rt class="roma">maru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>早<rt class="furi">はや</rt><rt class="roma">haya</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:08.50]It's too early to stop</div>
 </div>
 
@@ -327,6 +347,7 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 <div class="jp-lyric">
 [03:11.80]<ruby>場違<rt class="furi">ばちが</rt><rt class="roma">bachiga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>こう<rt class="roma">kou</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:11.80]If we're out of place, let's just laugh it off</div>
 </div>
 

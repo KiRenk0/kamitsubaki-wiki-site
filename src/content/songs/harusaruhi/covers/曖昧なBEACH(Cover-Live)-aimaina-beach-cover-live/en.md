@@ -20,7 +20,7 @@ contentStatus: stub
 
 ## Overview
 
-曖昧なBEACH (Cover Live) appears on CREAM PUFF LIVE 4 (Cover Live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+曖昧なBEACH (Cover Live) appears on [CREAM PUFF LIVE 4](/en/albums/harusaruhi/cream-puff-live-4) (Cover Live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

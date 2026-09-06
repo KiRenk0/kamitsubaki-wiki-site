@@ -19,7 +19,7 @@ image: /images/albums/rim/imagine.jpg
 
 ## 作品简介
 
-《傷は増え続ける、だけどそれでいい》收录于《imagine》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《傷は増え続ける、だけどそれでいい》收录于《[imagine](/zh/albums/rim/imagine)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -224,12 +224,14 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [00:54.17]I'll be fine I'm fine
 </div>
+<div class="cn-lyric">[00:54.17]I'll be fine I'm fine</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:59.90]I'll be fine I'm fine
 </div>
+<div class="cn-lyric">[00:59.90]I'll be fine I'm fine</div>
 </div>
 
 <div class="lyric-line">
@@ -243,12 +245,14 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [01:11.39]I'll be fine I'm fine
 </div>
+<div class="cn-lyric">[01:11.39]I'll be fine I'm fine</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:17.19]I'll be I'm ok
 </div>
+<div class="cn-lyric">[01:17.19]I'll be I'm ok</div>
 </div>
 
 <div class="lyric-line">
@@ -416,6 +420,7 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [02:00.74]<ruby>裏切<rt class="furi">うらぎ</rt><rt class="roma">uragi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>傷<rt class="furi">きず</rt><rt class="roma">kizu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:00.74]即使被背叛受伤</div>
 </div>
 
@@ -423,6 +428,7 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [02:02.66]<ruby>まだ<rt class="roma">mada</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:02.66]依然爱着 爱着</div>
 </div>
 
@@ -430,6 +436,7 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [02:06.95]<ruby>傷<rt class="furi">きず</rt><rt class="roma">kizu</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>治<rt class="furi">なお</rt><rt class="roma">nao</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:06.95]伤口也总有一天会愈合</div>
 </div>
 
@@ -437,6 +444,7 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [02:09.07]<ruby>だから<rt class="roma">dakara</rt></ruby> I'll be fine I'm fine
 </div>
+
 <div class="cn-lyric">[02:09.07]所以 I'll be fine I'm fine</div>
 </div>
 
@@ -444,30 +452,35 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [02:15.43]I'll be fine I'm fine
 </div>
+<div class="cn-lyric">[02:15.43]I'll be fine I'm fine</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:21.47]I'll be fine I'm fine
 </div>
+<div class="cn-lyric">[02:21.47]I'll be fine I'm fine</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:27.00]I'll be I'm ok
 </div>
+<div class="cn-lyric">[02:27.00]I'll be I'm ok</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:32.85]I'll be fine I'm fine
 </div>
+<div class="cn-lyric">[02:32.85]I'll be fine I'm fine</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:38.58]I'll be I'm ok
 </div>
+<div class="cn-lyric">[02:38.58]I'll be I'm ok</div>
 </div>
 
 </div>

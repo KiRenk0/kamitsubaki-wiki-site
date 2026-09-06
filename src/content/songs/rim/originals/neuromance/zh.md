@@ -227,12 +227,14 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [02:26.55]「<ruby>こころ<rt class="roma">kokoro</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、<ruby>からだ<rt class="roma">karada</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:26.55]「心灵也好，身体也好</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:31.43]<ruby>あの<rt class="roma">ano</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>預<rt class="furi">あづ</rt><rt class="roma">azu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[02:31.43]试着寄托给那片天空吧</div>
 </div>
 
 <div class="lyric-line">
@@ -283,30 +285,35 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [02:55.43]<ruby>何故<rt class="furi">なぜ</rt><rt class="roma">naze</rt></ruby>？<ruby>ねぇ<rt class="roma">nee</rt></ruby><ruby>何故<rt class="furi">なぜ</rt><rt class="roma">naze</rt></ruby>？
 </div>
+<div class="cn-lyric">[02:55.43]为什么？喂，为什么？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:57.69]<ruby>ねぇ<rt class="roma">nee</rt></ruby>、<ruby>何故<rt class="furi">なぜ</rt><rt class="roma">naze</rt></ruby>？
 </div>
+<div class="cn-lyric">[02:57.69]喂，为什么？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:59.08]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>達<rt class="furi">たち</rt><rt class="roma">tachi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>、<ruby>何故<rt class="furi">なぜ</rt><rt class="roma">naze</rt></ruby>？
 </div>
+<div class="cn-lyric">[02:59.08]你们，为什么？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:01.27]<ruby>ねぇ<rt class="roma">nee</rt></ruby><ruby>何故<rt class="furi">なぜ</rt><rt class="roma">naze</rt></ruby>？
 </div>
+<div class="cn-lyric">[03:01.27]喂，为什么？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:02.45]<ruby>大人<rt class="furi">おとな</rt><rt class="roma">otona</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>、<ruby>共感<rt class="furi">きょうかん</rt><rt class="roma">kyoukan</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>渦<rt class="furi">うず</rt><rt class="roma">uzu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>呑<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
 </div>
+
 <div class="cn-lyric">[03:02.45]所谓长大，就是被共鸣的漩涡吞噬吗？</div>
 </div>
 
@@ -316,6 +323,7 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [03:09.90]<ruby>本棚<rt class="furi">ほんだな</rt><rt class="roma">hondana</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>空<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>返<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:09.90]把书架上空缺的话语还回来</div>
 </div>
 
@@ -323,6 +331,7 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [03:14.73]<ruby>駅<rt class="furi">えき</rt><rt class="roma">eki</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>距離<rt class="furi">きょり</rt><rt class="roma">kyori</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:14.73]到车站的距离</div>
 </div>
 
@@ -330,6 +339,7 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [03:17.54]<ruby>仰向<rt class="furi">あおむ</rt><rt class="roma">aomu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>事<rt class="furi">こと</rt><rt class="roma">koto</rt></ruby><ruby>すら<rt class="roma">sura</rt></ruby><ruby>無理<rt class="furi">むり</rt><rt class="roma">muri</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>やばい<rt class="roma">yabai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:17.54]连仰面行走都做不到，太糟糕了</div>
 </div>
 
@@ -339,6 +349,7 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [03:43.86]<ruby>あれ<rt class="roma">are</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>霧<rt class="furi">きり</rt><rt class="roma">kiri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:43.86]从那以后我们一直在雾中</div>
 </div>
 
@@ -346,6 +357,7 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [03:48.79]<ruby>完全<rt class="furi">かんぜん</rt><rt class="roma">kanzen</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>電波<rt class="furi">でんぱ</rt><rt class="roma">denpa</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>奴隷<rt class="furi">どれい</rt><rt class="roma">dorei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:48.79]成为电波的完全奴隶</div>
 </div>
 

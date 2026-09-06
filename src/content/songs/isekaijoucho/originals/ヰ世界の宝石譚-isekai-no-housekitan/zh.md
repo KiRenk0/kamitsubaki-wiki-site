@@ -132,12 +132,14 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [01:06.78]嗤<ruby>う<rt class="roma">u</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby> <ruby>堪<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby>
 </div>
+<div class="cn-lyric">[01:06.78]嗤笑之人 忍耐之人</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:08.96]<ruby>堕<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ちる<rt class="roma">chiru</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby> <ruby>馳<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>せる<rt class="roma">seru</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby>
 </div>
+<div class="cn-lyric">[01:08.96]堕落之人 驰骋之人</div>
 </div>
 
 <div class="lyric-line">
@@ -167,6 +169,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [01:19.20]<ruby>スバラシキ<rt class="roma">subarashiki</rt></ruby> (<ruby>ヰ<rt class="roma">wi</rt></ruby>)<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
 </div>
+<div class="cn-lyric">[01:19.20]美好的 (异)世界</div>
 </div>
 
 <div class="lyric-line">
@@ -263,12 +266,14 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [02:02.92]<ruby>スバラシキ<rt class="roma">subarashiki</rt></ruby> (<ruby>ヰ<rt class="roma">wi</rt></ruby>)<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:02.92]美好的 (异)世界</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:07.14]<ruby>スバラシキ<rt class="roma">subarashiki</rt></ruby> (<ruby>ヰ<rt class="roma">wi</rt></ruby>)<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:07.14]美好的 (异)世界</div>
 </div>
 
 <div class="lyric-line">
@@ -358,12 +363,14 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [02:53.54]<ruby>スバラシキ<rt class="roma">subarashiki</rt></ruby> (<ruby>ヰ<rt class="roma">wi</rt></ruby>)<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:53.54]美好的 (异)世界</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:57.86]<ruby>スバラシキ<rt class="roma">subarashiki</rt></ruby> (<ruby>ヰ<rt class="roma">wi</rt></ruby>)<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:57.86]美好的 (异)世界</div>
 </div>
 
 <div class="lyric-line">
@@ -393,18 +400,21 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [03:08.09]<ruby>スバラシキ<rt class="roma">subarashiki</rt></ruby> (<ruby>ヰ<rt class="roma">wi</rt></ruby>)<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
 </div>
+<div class="cn-lyric">[03:08.09]美好的 (异)世界</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:12.36]<ruby>スバラシキ<rt class="roma">subarashiki</rt></ruby> (<ruby>ヰ<rt class="roma">wi</rt></ruby>)<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
 </div>
+<div class="cn-lyric">[03:12.36]美好的 (异)世界</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:16.24]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>！<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>聴<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>！
 </div>
+
 <div class="cn-lyric">[03:16.24]我看见了！我听见了！</div>
 </div>
 
@@ -412,6 +422,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [03:18.99]<ruby>泥<rt class="furi">どろ</rt><rt class="roma">doro</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>塗<rt class="furi">まみ</rt><rt class="roma">mami</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:18.99]即使沾满泥泞</div>
 </div>
 
@@ -419,6 +430,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [03:20.99]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>宝石<rt class="furi">ほうせき</rt><rt class="roma">houseki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>！
 </div>
+
 <div class="cn-lyric">[03:20.99]那也是 宝石啊！</div>
 </div>
 
@@ -428,6 +440,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [03:26.03]<ruby>ーヒト<rt class="roma">-hito</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>かつて<rt class="roma">katsute</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:26.03]—人曾经</div>
 </div>
 
@@ -435,6 +448,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [03:27.20]<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>零<rt class="furi">れい</rt><rt class="roma">rei</rt></ruby><ruby>レ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby> <ruby>情緒<rt class="furi">じょうちょ</rt><rt class="roma">joucho</rt></ruby> <ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:27.20]向世界零落的这份 情愫</div>
 </div>
 
@@ -442,6 +456,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [03:30.76]<ruby>いっタ<rt class="roma">itta</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>&quot;<ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby>&quot;<ruby>と<rt class="roma">to</rt></ruby><ruby>呼<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ノ<rt class="roma">no</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>！
 </div>
+
 <div class="cn-lyric">[03:30.76]究竟叫做"什么"呢！</div>
 </div>
 
@@ -449,6 +464,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [03:34.59]<ruby>あ<rt class="roma">a</rt></ruby><ruby>ア<rt class="roma">a</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:34.59]啊 啊</div>
 </div>
 
@@ -456,6 +472,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [03:36.77]La-la <ruby>ララ<rt class="roma">rara</rt></ruby> <ruby>薇<rt class="furi">ぜんまい</rt><rt class="roma">zenmai</rt></ruby><ruby>薇<rt class="furi">ぜんまい</rt><rt class="roma">zenmai</rt></ruby> <ruby>螺<rt class="furi">にし</rt><rt class="roma">nishi</rt></ruby><ruby>螺<rt class="furi">にし</rt><rt class="roma">nishi</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:36.77]La-la 啦啦 薇薇 螺螺</div>
 </div>
 

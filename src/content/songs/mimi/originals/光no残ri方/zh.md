@@ -17,7 +17,7 @@ image: /images/songs/mimi/光no残ri方.jpg
 
 ## 作品简介
 
-MIMI于 2026-03-22 发行的单曲《光の残り方》。
+[MIMI](/zh/artists/creators/mimi)于 2026-03-22 发行的单曲《光の残り方》。
 
 ## 试听
 {{media-switcher::光の残り方}}

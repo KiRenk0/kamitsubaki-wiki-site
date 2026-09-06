@@ -91,6 +91,7 @@ Qui sèche tes larmes
 <div class="jp-lyric">
 Quel est le sésame de ton âme?
 </div>
+<div class="cn-lyric">你灵魂的钥匙是什么？</div>
 </div>
 
 <div class="lyric-line">
@@ -164,12 +165,14 @@ Qui veille sur tes charmes
 <div class="jp-lyric">
 Quel est le sésame de ton âme?
 </div>
+<div class="cn-lyric">你灵魂的钥匙是什么？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Le rêve qui t'enflamme
 </div>
+<div class="cn-lyric">点燃你的梦想</div>
 </div>
 
 <br />
@@ -229,6 +232,7 @@ Qui brillerait sans rivale
 <div class="jp-lyric">
 Pour toi
 </div>
+<div class="cn-lyric">为你</div>
 </div>
 
 <div class="lyric-line">
@@ -295,12 +299,14 @@ Je pourrais même sauter la sieste
 <div class="jp-lyric">
 Pour toi
 </div>
+<div class="cn-lyric">为你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Je f'rais n'importe quoi
 </div>
+<div class="cn-lyric">我愿做任何事</div>
 </div>
 
 <br />
@@ -353,6 +359,7 @@ Qui se damne
 <div class="jp-lyric">
 Je veux trouver dans ce dédale
 </div>
+
 <div class="cn-lyric">我想在这迷宫中找到</div>
 </div>
 
@@ -360,6 +367,7 @@ Je veux trouver dans ce dédale
 <div class="jp-lyric">
 La clef de ton âme
 </div>
+
 <div class="cn-lyric">你灵魂的钥匙</div>
 </div>
 
@@ -367,6 +375,7 @@ La clef de ton âme
 <div class="jp-lyric">
 Est-ce que tu vois au fond de moi
 </div>
+
 <div class="cn-lyric">你是否看到在我的内心深处</div>
 </div>
 
@@ -374,6 +383,7 @@ Est-ce que tu vois au fond de moi
 <div class="jp-lyric">
 Le bonheur?
 </div>
+
 <div class="cn-lyric">幸福？</div>
 </div>
 
@@ -381,6 +391,7 @@ Le bonheur?
 <div class="jp-lyric">
 Quel est le sésame de ton âme
 </div>
+
 <div class="cn-lyric">你灵魂的钥匙是什么</div>
 </div>
 
@@ -388,6 +399,7 @@ Quel est le sésame de ton âme
 <div class="jp-lyric">
 Le rêve qui t'enflamme?
 </div>
+
 <div class="cn-lyric">点燃你的梦想？</div>
 </div>
 

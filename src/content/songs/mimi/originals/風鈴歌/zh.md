@@ -17,7 +17,7 @@ image: /images/songs/mimi/風鈴歌.jpg
 
 ## 作品简介
 
-MIMI于 2022-08-12 发行的单曲《風鈴歌》。
+[MIMI](/zh/artists/creators/mimi)于 2022-08-12 发行的单曲《風鈴歌》。
 
 ## 试听
 {{media-switcher::風鈴歌}}

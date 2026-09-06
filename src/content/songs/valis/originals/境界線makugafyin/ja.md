@@ -17,7 +17,7 @@ image: /images/songs/valis/境界線makugafyin.jpg
 
 ## 作品概要
 
-VALISが2023-04-17にリリースしたシングル「境界線マクガフィン」。
+[VALIS](/ja/artists/solo/valis)が2023-04-17にリリースしたシングル「境界線マクガフィン」。
 
 ## 視聴
 {{media-switcher::境界線マクガフィン}}

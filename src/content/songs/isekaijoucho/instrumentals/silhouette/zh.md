@@ -178,6 +178,7 @@ Addicted to the taste of it
 <div class="jp-lyric">
 Silhouette silhouette
 </div>
+<div class="cn-lyric">剪影 剪影</div>
 </div>
 
 <div class="lyric-line">
@@ -198,6 +199,7 @@ Place me where you want me
 <div class="jp-lyric">
 Just act like you know me
 </div>
+<div class="cn-lyric">就装作你了解我</div>
 </div>
 
 <br />
@@ -289,18 +291,21 @@ The difference is you know me
 <div class="jp-lyric">
 Don't act a fool
 </div>
+<div class="cn-lyric">别装傻</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Let me feel and touch you to
 </div>
+<div class="cn-lyric">让我也感受和触碰你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Don't be so modest
 </div>
+
 <div class="cn-lyric">别这么谦虚</div>
 </div>
 
@@ -308,12 +313,14 @@ Don't be so modest
 <div class="jp-lyric">
 When I know you want it
 </div>
+<div class="cn-lyric">当我知道你想要</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 (Want it want it)
 </div>
+
 <div class="cn-lyric">（想要 想要）</div>
 </div>
 
@@ -323,24 +330,28 @@ When I know you want it
 <div class="jp-lyric">
 Silhouette silhouette
 </div>
+<div class="cn-lyric">剪影 剪影</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Better get used to me knowing it
 </div>
+<div class="cn-lyric">最好习惯我知道</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Treat me like your little cigarette
 </div>
+<div class="cn-lyric">把我当成你的小香烟</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Addicted to the taste of it
 </div>
+<div class="cn-lyric">沉迷于它的味道</div>
 </div>
 
 <br />
@@ -349,24 +360,28 @@ Addicted to the taste of it
 <div class="jp-lyric">
 Silhouette silhouette
 </div>
+<div class="cn-lyric">剪影 剪影</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Playin in my head in my head
 </div>
+<div class="cn-lyric">在我脑海里 在我脑海里</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Place me where you want me
 </div>
+<div class="cn-lyric">把我放在你想放的地方</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Just act like you know me
 </div>
+<div class="cn-lyric">就装作你了解我</div>
 </div>
 
 <br />
@@ -375,42 +390,49 @@ Just act like you know me
 <div class="jp-lyric">
 Silhouette silhouette
 </div>
+<div class="cn-lyric">剪影 剪影</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Silhouette silhouette
 </div>
+<div class="cn-lyric">剪影 剪影</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Better get used to me knowing it
 </div>
+<div class="cn-lyric">最好习惯我知道</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Silhouette silhouette
 </div>
+<div class="cn-lyric">剪影 剪影</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Treat me like your little cigarette
 </div>
+<div class="cn-lyric">把我当成你的小香烟</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Silhouette silhouette
 </div>
+<div class="cn-lyric">剪影 剪影</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Better get addicted to the taste of it
 </div>
+
 <div class="cn-lyric">最好沉迷于它的味道</div>
 </div>
 
@@ -420,12 +442,14 @@ Better get addicted to the taste of it
 <div class="jp-lyric">
 Silhouette silhouette
 </div>
+<div class="cn-lyric">剪影 剪影</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You want it
 </div>
+
 <div class="cn-lyric">你想要</div>
 </div>
 
@@ -433,18 +457,22 @@ You want it
 <div class="jp-lyric">
 Just act like you know me
 </div>
+<div class="cn-lyric">就装作你了解我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Silhouette silhouette
 </div>
+<div class="cn-lyric">剪影 剪影</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Better get addicted to the taste of it
 </div>
+
+<div class="cn-lyric">最好沉迷于它的味道</div>
 </div>
 
 </div>

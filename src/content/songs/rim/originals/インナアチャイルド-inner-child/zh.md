@@ -243,18 +243,21 @@ image: /images/songs/rim/single-1646369845.jpg
 <div class="jp-lyric">
 [02:33.66]<ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>とおく<rt class="roma">tooku</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:33.66]你变得遥远是因为</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:38.02]<ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:38.02]你受伤是因为</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:42.46]<ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>よわく<rt class="roma">yowaku</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:42.46]你变弱是因为</div>
 </div>
 
 <div class="lyric-line">
@@ -277,6 +280,7 @@ image: /images/songs/rim/single-1646369845.jpg
 <div class="jp-lyric">
 [02:55.54]<ruby>この<rt class="roma">kono</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>裸<rt class="furi">はだか</rt><rt class="roma">hadaka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なれ<rt class="roma">nare</rt></ruby>
 </div>
+<div class="cn-lyric">[02:55.54]也让这每一天和心都赤裸</div>
 </div>
 
 <div class="lyric-line">
@@ -327,6 +331,7 @@ image: /images/songs/rim/single-1646369845.jpg
 <div class="jp-lyric">
 [03:21.58]<ruby>やれ<rt class="roma">yare</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>間違<rt class="furi">まちが</rt><rt class="roma">machiga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>たり<rt class="roma">tari</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:21.58]若能做到 便不会犯错</div>
 </div>
 
@@ -336,6 +341,7 @@ image: /images/songs/rim/single-1646369845.jpg
 <div class="jp-lyric">
 [03:43.87]<ruby>たとえば<rt class="roma">tatoeba</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:43.87]比方说</div>
 </div>
 
@@ -343,6 +349,7 @@ image: /images/songs/rim/single-1646369845.jpg
 <div class="jp-lyric">
 [03:44.95]<ruby>正解<rt class="furi">せいかい</rt><rt class="roma">seikai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>として<rt class="roma">toshite</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:44.95]假设有正确答案</div>
 </div>
 
@@ -350,6 +357,7 @@ image: /images/songs/rim/single-1646369845.jpg
 <div class="jp-lyric">
 [03:46.60]<ruby>どれ<rt class="roma">dore</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby><ruby>人間<rt class="furi">にんげん</rt><rt class="roma">ningen</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>踏み込<rt class="furi">ふみこ</rt><rt class="roma">fumiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby>？
 </div>
+
 <div class="cn-lyric">[03:46.60]想要深入人类到何种程度？</div>
 </div>
 

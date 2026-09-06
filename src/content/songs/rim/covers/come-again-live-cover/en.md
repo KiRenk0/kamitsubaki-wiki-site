@@ -19,7 +19,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 
 ## Overview
 
-come again (Live Cover) appears on CHOCOLATE LIVE4 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+come again (Live Cover) appears on [CHOCOLATE LIVE4](/en/albums/rim/chocolate-live-4) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -172,13 +172,16 @@ And softly you say goodbye
 <div class="jp-lyric">
 [00:38.92]Come again
 </div>
-<div class="trans-lyric">Come again</div>
+<div class="trans-lyric">
+[00:38.92]Come again
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Come again
 </div>
+<div class="trans-lyric">Come again</div>
 </div>
 
 </div>

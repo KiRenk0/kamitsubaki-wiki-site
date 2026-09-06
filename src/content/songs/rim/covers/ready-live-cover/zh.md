@@ -130,18 +130,21 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 [01:16.76]Sensation of stopping shocked
 </div>
+<div class="cn-lyric">[01:16.76]停止的感觉令人震惊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:20.29]I moved I walked I walked
 </div>
+<div class="cn-lyric">[01:20.29]我移动 我走 我走</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:23.44]Sensation of stopping shocked
 </div>
+<div class="cn-lyric">[01:23.44]停止的感觉令人震惊</div>
 </div>
 
 <br />
@@ -187,18 +190,21 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 [01:46.65]Mom told me wait be steady be locked be ready
 </div>
+<div class="cn-lyric">[01:46.65]妈妈告诉我等待 保持稳定 锁定 准备好</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:50.45]For things just like this
 </div>
+<div class="cn-lyric">[01:50.45]为了这样的事情</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:53.83]Wait don't go
 </div>
+
 <div class="cn-lyric">[01:53.83]等待 不要走</div>
 </div>
 
@@ -206,6 +212,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 [01:56.08]Wait don't run
 </div>
+
 <div class="cn-lyric">[01:56.08]等待 不要跑</div>
 </div>
 
@@ -213,6 +220,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 [01:58.04]Wait don't stay
 </div>
+
 <div class="cn-lyric">[01:58.04]等待 不要停留</div>
 </div>
 

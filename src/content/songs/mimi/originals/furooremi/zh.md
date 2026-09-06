@@ -17,7 +17,7 @@ image: /images/songs/mimi/furooremi.jpg
 
 ## 作品简介
 
-MIMI于 2020-03-20 发行的单曲《フローレミ》。
+[MIMI](/zh/artists/creators/mimi)于 2020-03-20 发行的单曲《フローレミ》。
 
 ## 试听
 {{media-switcher::フローレミ}}

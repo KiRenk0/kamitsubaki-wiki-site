@@ -19,7 +19,7 @@ Sooda is a singer-songwriter known for her ethereal whisper-like vocals. She ros
 
 She formed the unit "Amayadori" (雨宿り) with Mizuno Atsu, releasing several works together. The unit's last single, "Hajimari no Oto" (はじまりの音), was released on June 22, 2025, after which the duo entered an indefinite hiatus.
 
-In 2026, Sooda embarked on a new musical chapter by forming the virtual unit "[Kuusou](/en/artists/solo/kuusou)" (空爽) with [CIEL](/en/artists/solo/ciel). Their debut song, "Toumei Ryuusei Rhapsody" (透明流星ラプソディ), was released on January 14, 2026. Her first solo single, "Amatou" ([甘党](/en/songs/sooda/originals/甘党)), also showcases her multifaceted talent as a singer-songwriter.
+In 2026, Sooda embarked on a new musical chapter by forming the virtual unit "[Kuusou](/en/artists/solo/kuusou)" (空爽) with [CIEL](/en/artists/solo/ciel). Their debut song, "Toumei Ryuusei Rhapsody" ([透明流星ラプソディ](/en/songs/kuusou/originals/透明流星rapusodei)), was released on January 14, 2026. Her first solo single, "Amatou" ([甘党](/en/songs/sooda/originals/甘党)), also showcases her multifaceted talent as a singer-songwriter.
 
 Illustrations by Narume.
 

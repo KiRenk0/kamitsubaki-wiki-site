@@ -161,42 +161,49 @@ image: /images/songs/koko/single-1791868643.jpg
 <div class="jp-lyric">
 [01:17.07]Yasashisa mo tsuyosa mo itami mo zenbu
 </div>
+<div class="cn-lyric">[01:17.07]温柔也好 坚强也好 痛苦也好 全部</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:22.36]Itsu demo moratte bakari da tta n da
 </div>
+<div class="cn-lyric">[01:22.36]一直以来 总是只从你那里获得</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:27.73]Musunde hiraite musubi naoshite
 </div>
+<div class="cn-lyric">[01:27.73]系上又解开 重新系好</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:32.74]Kurikaeshite iku tsugi wa boku ga
 </div>
+<div class="cn-lyric">[01:32.74]不断重复 下一次轮到我来</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:36.17]ōkiku iki wo suikonde
 </div>
+<div class="cn-lyric">[01:36.17]深深吸一口气</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:38.64]Todoketai tsutaetai
 </div>
+<div class="cn-lyric">[01:38.64]想要传达 想要告诉你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:41.49]«Arigatō» wo kimi ni
 </div>
+<div class="cn-lyric">[01:41.49]「谢谢你」给你</div>
 </div>
 
 <div class="lyric-line">
@@ -322,6 +329,7 @@ image: /images/songs/koko/single-1791868643.jpg
 <div class="jp-lyric">
 [02:49.18]Annafūni kimi mitai ni
 </div>
+<div class="cn-lyric">[02:49.18]像那样 像你一样</div>
 </div>
 
 <div class="lyric-line">
@@ -356,6 +364,7 @@ image: /images/songs/koko/single-1791868643.jpg
 <div class="jp-lyric">
 [03:02.10]Mata koko kara hajimeru n da
 </div>
+
 <div class="cn-lyric">[03:02.10]再次从这里开始</div>
 </div>
 
@@ -363,6 +372,7 @@ image: /images/songs/koko/single-1791868643.jpg
 <div class="jp-lyric">
 [03:05.68]Yasashisa mo tsuyosa mo kondo wa zenbu
 </div>
+
 <div class="cn-lyric">[03:05.68]温柔也好 坚强也好 这次全部</div>
 </div>
 
@@ -370,6 +380,7 @@ image: /images/songs/koko/single-1791868643.jpg
 <div class="jp-lyric">
 [03:10.82]Boku ga tsutaete iku ban dakara
 </div>
+
 <div class="cn-lyric">[03:10.82]因为轮到我来传达给你</div>
 </div>
 
@@ -377,6 +388,7 @@ image: /images/songs/koko/single-1791868643.jpg
 <div class="jp-lyric">
 [03:16.25]Koronde naite mo mata aruki dashite
 </div>
+
 <div class="cn-lyric">[03:16.25]即使跌倒哭泣 也会再次迈步</div>
 </div>
 
@@ -384,6 +396,7 @@ image: /images/songs/koko/single-1791868643.jpg
 <div class="jp-lyric">
 [03:21.16]Kurikaeshite iku sorede ī yo
 </div>
+
 <div class="cn-lyric">[03:21.16]不断重复 那就足够了</div>
 </div>
 
@@ -391,6 +404,7 @@ image: /images/songs/koko/single-1791868643.jpg
 <div class="jp-lyric">
 [03:24.37]Tonari ni iru kurai wa dekiru yo
 </div>
+
 <div class="cn-lyric">[03:24.37]至少能陪在你身边 我可以做到</div>
 </div>
 
@@ -398,36 +412,42 @@ image: /images/songs/koko/single-1791868643.jpg
 <div class="jp-lyric">
 [03:27.40]Yasashisa mo tsuyosa mo itami mo zenbu
 </div>
+<div class="cn-lyric">[03:27.40]温柔也好 坚强也好 痛苦也好 全部</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:32.55]Itsu demo moratte bakari da tta n da
 </div>
+<div class="cn-lyric">[03:32.55]一直以来 总是只从你那里获得</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:37.92]Musunde hiraite musubi naoshite
 </div>
+<div class="cn-lyric">[03:37.92]系上又解开 重新系好</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:43.12]Kurikaeshite iku tsugi wa boku ga
 </div>
+<div class="cn-lyric">[03:43.12]不断重复 下一次轮到我来</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:46.35]ōkiku iki wo suikonde
 </div>
+<div class="cn-lyric">[03:46.35]深深吸一口气</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:48.75]Kowakute mo daijōbu
 </div>
+
 <div class="cn-lyric">[03:48.75]即使害怕也没关系</div>
 </div>
 
@@ -435,6 +455,7 @@ image: /images/songs/koko/single-1791868643.jpg
 <div class="jp-lyric">
 [03:51.51]Koko ni iru yo zutto
 </div>
+
 <div class="cn-lyric">[03:51.51]我会一直在这里</div>
 </div>
 
@@ -442,12 +463,14 @@ image: /images/songs/koko/single-1791868643.jpg
 <div class="jp-lyric">
 [03:54.41]Todoketai tsutaetai
 </div>
+<div class="cn-lyric">[03:54.41]想要传达 想要告诉你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:57.02]«Arigatō» wo kimi ni
 </div>
+<div class="cn-lyric">[03:57.02]「谢谢你」给你</div>
 </div>
 
 <br />

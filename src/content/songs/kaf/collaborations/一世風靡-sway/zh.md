@@ -86,6 +86,7 @@ image: /images/songs/kaf/track-1779199800.jpg
 <div class="jp-lyric">
 [00:27.82]<ruby>いっせ<rt class="roma">isse</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ので<rt class="roma">node</rt></ruby><ruby>いって<rt class="roma">itte</rt></ruby><ruby>みよ<rt class="roma">miyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[00:27.82]齐声一 去试试吧</div>
 </div>
 
 <div class="lyric-line">
@@ -152,6 +153,7 @@ image: /images/songs/kaf/track-1779199800.jpg
 <div class="jp-lyric">
 [01:00.56]<ruby>いっせ<rt class="roma">isse</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ので<rt class="roma">node</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>みよ<rt class="roma">miyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[01:00.56]齐声一 说出来吧</div>
 </div>
 
 <div class="lyric-line">
@@ -262,18 +264,21 @@ image: /images/songs/kaf/track-1779199800.jpg
 <div class="jp-lyric">
 [01:49.39]<ruby>いっせ<rt class="roma">isse</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ので<rt class="roma">node</rt></ruby><ruby>いって<rt class="roma">itte</rt></ruby><ruby>みよ<rt class="roma">miyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[01:49.39]齐声一 去试试吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:54.82]<ruby>いっせ<rt class="roma">isse</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ので<rt class="roma">node</rt></ruby><ruby>いって<rt class="roma">itte</rt></ruby><ruby>みよ<rt class="roma">miyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[01:54.82]齐声一 去试试吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:57.46]<ruby>いって<rt class="roma">itte</rt></ruby><ruby>みよ<rt class="roma">miyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[01:57.46]去试试吧</div>
 </div>
 
 <br />
@@ -282,6 +287,7 @@ image: /images/songs/kaf/track-1779199800.jpg
 <div class="jp-lyric">
 [02:11.07]<ruby>いっせ<rt class="roma">isse</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ので<rt class="roma">node</rt></ruby><ruby>いって<rt class="roma">itte</rt></ruby><ruby>みよ<rt class="roma">miyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[02:11.07]齐声一 去试试吧</div>
 </div>
 
 <div class="lyric-line">
@@ -360,6 +366,7 @@ image: /images/songs/kaf/track-1779199800.jpg
 <div class="jp-lyric">
 [02:43.55]<ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:43.55]我不是你</div>
 </div>
 
@@ -367,6 +374,7 @@ image: /images/songs/kaf/track-1779199800.jpg
 <div class="jp-lyric">
 [02:46.21]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:46.21]也不是谁的</div>
 </div>
 
@@ -374,6 +382,7 @@ image: /images/songs/kaf/track-1779199800.jpg
 <div class="jp-lyric">
 [02:48.87]<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:48.87]无论何时无论何地</div>
 </div>
 
@@ -381,6 +390,7 @@ image: /images/songs/kaf/track-1779199800.jpg
 <div class="jp-lyric">
 [02:51.61]<ruby>神出鬼没<rt class="furi">しんしゅつきぼつ</rt><rt class="roma">shinshutsukibotsu</rt></ruby><ruby>バーチャル<rt class="roma">baacharu</rt></ruby><ruby>シンガー<rt class="roma">shingaa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:51.61]神出鬼没的虚拟歌手</div>
 </div>
 
@@ -388,6 +398,7 @@ image: /images/songs/kaf/track-1779199800.jpg
 <div class="jp-lyric">
 [02:54.46]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>形<rt class="furi">かたち</rt><rt class="roma">katachi</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>伝<rt class="furi">つた</rt><rt class="roma">tsuta</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:54.46]无形的思念能否传达给你呢</div>
 </div>
 
@@ -395,6 +406,7 @@ image: /images/songs/kaf/track-1779199800.jpg
 <div class="jp-lyric">
 [02:59.88]<ruby>束<rt class="furi">たば</rt><rt class="roma">taba</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>すべて<rt class="roma">subete</rt></ruby><ruby>嘘<rt class="furi">うそ</rt><rt class="roma">uso</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:59.88]因为汇聚的思念全部都不是谎言</div>
 </div>
 

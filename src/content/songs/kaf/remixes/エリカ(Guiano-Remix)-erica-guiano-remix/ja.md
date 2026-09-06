@@ -19,7 +19,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 ## 作品概要
 
-「エリカ([Guiano](/ja/artists/creators/guiano) Remix)」は[花譜](/ja/artists/vwp/kaf)の『[観測γ](/ja/albums/kaf/kansoku-gamma)』に収録された9曲目です。
+「[エリカ](/ja/songs/kaf/originals/エリカ-erica)([Guiano](/ja/artists/creators/guiano) Remix)」は[花譜](/ja/artists/vwp/kaf)の『[観測γ](/ja/albums/kaf/kansoku-gamma)』に収録された9曲目です。
 
 ## 視聴
 

@@ -41,7 +41,7 @@ tracks:
 
 ## Overview
 
-KAF’s first digital EP collects three songs that define the opening phase of her career.
+[KAF](/en/artists/vwp/kaf)’s first digital EP collects three songs that define the opening phase of her career.
 
 ## Release and editions
 

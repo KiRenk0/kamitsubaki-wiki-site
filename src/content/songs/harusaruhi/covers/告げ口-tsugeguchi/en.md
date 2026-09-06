@@ -18,7 +18,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 
 ## Overview
 
-告げ口 appears on CREAM PUFF LIVE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+告げ口 appears on [CREAM PUFF LIVE](/en/albums/harusaruhi/cream-puff-live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Lyrics
 
@@ -51,7 +51,9 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [00:29.88]<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>、<ruby>同<rt class="furi">おな</rt><rt class="roma">ona</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>様<rt class="furi">よう</rt><rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>回<rt class="furi">まわ</rt><rt class="roma">mawa</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby> oh-wow-wow
 </div>
-<div class="trans-lyric">The world keeps spinning the same oh-wow-wow</div>
+<div class="trans-lyric">
+[00:29.88]The world keeps spinning the same oh-wow-wow
+</div>
 </div>
 
 <br />
@@ -60,14 +62,18 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [00:34.15]<ruby>飽<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
-<div class="trans-lyric">I've grown tired of it</div>
+<div class="trans-lyric">
+[00:34.15]I've grown tired of it
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:35.71]<ruby>そもそも<rt class="roma">somosomo</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
-<div class="trans-lyric">But I wasn't even alive to begin with</div>
+<div class="trans-lyric">
+[00:35.71]But I wasn't even alive to begin with
+</div>
 </div>
 
 <div class="lyric-line">
@@ -109,7 +115,9 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [00:48.09]Day by day <ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby> <ruby>再<rt class="furi">ふたた</rt><rt class="roma">futata</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby>
 </div>
-<div class="trans-lyric">Day by day, shout, once again</div>
+<div class="trans-lyric">
+[00:48.09]Day by day, shout, once again
+</div>
 </div>
 
 <br />
@@ -347,24 +355,28 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [02:58.03]<ruby>過去<rt class="furi">かこ</rt><rt class="roma">kako</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>振り返<rt class="furi">ふりかえ</rt><rt class="roma">furikae</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby> <ruby>真夜中<rt class="furi">まよなか</rt><rt class="roma">mayonaka</rt></ruby>
 </div>
+<div class="trans-lyric">[02:58.03]Looking back at the past, midnight</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:01.28]<ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>のく<rt class="roma">noku</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>距離<rt class="furi">きょり</rt><rt class="roma">kyori</rt></ruby>
 </div>
+<div class="trans-lyric">[03:01.28]A distance that makes me feel faint</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:06.14]<ruby>不安<rt class="furi">ふあん</rt><rt class="roma">fuan</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>、<ruby>兄弟<rt class="furi">きょうだい</rt><rt class="roma">kyoudai</rt></ruby>
 </div>
+<div class="trans-lyric">[03:06.14]Let me hear your worries, brother</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:09.19]<ruby>画面<rt class="furi">がめん</rt><rt class="roma">gamen</rt></ruby><ruby>越<rt class="furi">ご</rt><rt class="roma">go</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>一緒<rt class="furi">いっしょ</rt><rt class="roma">issho</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>居<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="trans-lyric">[03:09.19]I want to be with you even through the screen</div>
 </div>
 
 <br />
@@ -373,24 +385,28 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [03:14.22]<ruby>例<rt class="furi">たと</rt><rt class="roma">tato</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>どうしても<rt class="roma">doushitemo</rt></ruby><ruby>逃<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="trans-lyric">[03:14.22]Even on days I desperately want to run away</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:17.94]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>よけれ<rt class="roma">yokere</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>背中<rt class="furi">せなか</rt><rt class="roma">senaka</rt></ruby><ruby>押<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">[03:17.94]If it's okay with me, I'll push your back</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:21.88]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>休<rt class="furi">やす</rt><rt class="roma">yasu</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>、<ruby>兄弟<rt class="furi">きょうだい</rt><rt class="roma">kyoudai</rt></ruby>
 </div>
+<div class="trans-lyric">[03:21.88]Let's rest now, brother</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:25.55]<ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>来<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>話<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="trans-lyric">[03:25.55]I want to talk until morning comes</div>
 </div>
 
 </div>

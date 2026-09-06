@@ -17,7 +17,7 @@ image: /images/songs/mimi/愛shiterandebuu-feat.-初音miku.jpg
 
 ## 作品概要
 
-MIMIが2025-07-16にリリースしたシングル「愛してランデブー (feat. 初音ミク)」。
+[MIMI](/ja/artists/creators/mimi)が2025-07-16にリリースしたシングル「愛してランデブー (feat. 初音ミク)」。
 
 ## 視聴
 {{media-switcher::愛してランデブー (feat. 初音ミク)}}

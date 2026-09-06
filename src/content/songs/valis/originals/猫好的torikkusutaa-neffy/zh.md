@@ -17,7 +17,7 @@ image: /images/songs/valis/猫好的torikkusutaa-neffy.jpg
 
 ## 作品简介
 
-VALIS于 2023-06-24 发行的单曲《猫好的トリックスター(NEFFY)》。
+[VALIS](/zh/artists/solo/valis)于 2023-06-24 发行的单曲《猫好的トリックスター(NEFFY)》。
 
 ## 试听
 {{media-switcher::猫好的トリックスター(NEFFY)}}

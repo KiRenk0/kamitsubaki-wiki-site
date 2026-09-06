@@ -45,14 +45,18 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 [00:17.30]<ruby>そういう<rt class="roma">souiu</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>これから<rt class="roma">korekara</rt></ruby><ruby>考<rt class="furi">かんが</rt><rt class="roma">kanga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby><ruby>いけ<rt class="roma">ike</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
-<div class="trans-lyric">From now on, I have to think about those things</div>
+<div class="trans-lyric">
+[00:17.30]From now on, I have to think about those things
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:20.30]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
-<div class="trans-lyric">Right?</div>
+<div class="trans-lyric">
+[00:20.30]Right?
+</div>
 </div>
 
 <div class="lyric-line">
@@ -140,7 +144,9 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 [01:06.29]<ruby>やり<rt class="roma">yari</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>すら<rt class="roma">sura</rt></ruby><ruby>でき<rt class="roma">deki</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="trans-lyric">Unable to even do what I want</div>
+<div class="trans-lyric">
+[01:06.29]Unable to even do what I want
+</div>
 </div>
 
 <div class="lyric-line">
@@ -205,7 +211,9 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 [01:48.30]<ruby>でも<rt class="roma">demo</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>、<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？」
 </div>
-<div class="trans-lyric">But surely it's not only that, is it?"</div>
+<div class="trans-lyric">
+[01:48.30]But surely it's not only that, is it?"
+</div>
 </div>
 
 <div class="lyric-line">
@@ -219,7 +227,9 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 [01:54.30]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>じゃあ<rt class="roma">jaa</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>なん<rt class="roma">nan</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>？
 </div>
-<div class="trans-lyric">Then what is this feeling?</div>
+<div class="trans-lyric">
+[01:54.30]Then what is this feeling?
+</div>
 </div>
 
 <div class="lyric-line">
@@ -365,7 +375,9 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 [03:15.30]<ruby>だって<rt class="roma">datte</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
-<div class="trans-lyric">Because isn't that right?</div>
+<div class="trans-lyric">
+[03:15.30]Because isn't that right?
+</div>
 </div>
 
 <div class="lyric-line">
@@ -439,24 +451,28 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 [03:38.30]<ruby>名前<rt class="furi">なまえ</rt><rt class="roma">namae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+<div class="trans-lyric">[03:38.30]Like a nameless flower</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:41.30]<ruby>悠<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>咲き乱<rt class="furi">さきみだ</rt><rt class="roma">sakimida</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>号<rt class="furi">ごう</rt><rt class="roma">gou</rt></ruby>哭<ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+<div class="trans-lyric">[03:41.30]This lament blooming leisurely in profusion</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:44.30]<ruby>やり<rt class="roma">yari</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>すら<rt class="roma">sura</rt></ruby><ruby>でき<rt class="roma">deki</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[03:44.30]Unable to even do what I want</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:46.30]<ruby>身動<rt class="furi">みうご</rt><rt class="roma">miugo</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>すら<rt class="roma">sura</rt></ruby><ruby>取<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>、<ruby>さびれ<rt class="roma">sabire</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>心臓<rt class="furi">しんぞう</rt><rt class="roma">shinzou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="trans-lyric">[03:46.30]Bloomed in a withered heart that cannot even move</div>
 </div>
 
 <div class="lyric-line">
@@ -470,6 +486,7 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 [03:52.30]<ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>表<rt class="furi">あらわ</rt><rt class="roma">arawa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">[03:52.30]Cannot be expressed in words</div>
 </div>
 
 <div class="lyric-line">
@@ -492,19 +509,22 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 [04:04.30]<ruby>お金<rt class="furi">おかね</rt><rt class="roma">okane</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby>、<ruby>ビジネス<rt class="roma">bijinesu</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby>、<ruby>効率<rt class="furi">こうりつ</rt><rt class="roma">kouritsu</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby>
 </div>
+<div class="trans-lyric">[04:04.30]Money, business, efficiency, and such</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:06.30]<ruby>そういう<rt class="roma">souiu</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
-<div class="trans-lyric">It's not about those things, is it?</div>
+
+<div class="trans-lyric">[04:06.30]It's not about those things, is it?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:07.30]<ruby>愛情<rt class="furi">あいじょう</rt><rt class="roma">aijou</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby>、<ruby>友情<rt class="furi">ゆうじょう</rt><rt class="roma">yuujou</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby><ruby>そういう<rt class="roma">souiu</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>計<rt class="furi">はか</rt><rt class="roma">haka</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="trans-lyric">[04:07.30]Love, friendship—something immeasurable by such things</div>
 </div>
 
@@ -512,6 +532,7 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 [04:10.30]<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>打<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>ひしが<rt class="roma">hishiga</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>あの<rt class="roma">ano</rt></ruby><ruby>不確<rt class="furi">ふたし</rt><rt class="roma">futashi</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>情景<rt class="furi">じょうけい</rt><rt class="roma">joukei</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>綺麗<rt class="furi">きれい</rt><rt class="roma">kirei</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+
 <div class="trans-lyric">[04:10.30]Thinking that scene of a crushed heart, that uncertain scenery, is beautiful</div>
 </div>
 
@@ -519,13 +540,15 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 [04:15.30]<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>こそ<rt class="roma">koso</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
-<div class="trans-lyric">Surely that itself is</div>
+
+<div class="trans-lyric">[04:15.30]Surely that itself is</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:16.30]<ruby>人間<rt class="furi">にんげん</rt><rt class="roma">ningen</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>証<rt class="furi">あかし</rt><rt class="roma">akashi</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="trans-lyric">[04:16.30]The proof of being human</div>
 </div>
 

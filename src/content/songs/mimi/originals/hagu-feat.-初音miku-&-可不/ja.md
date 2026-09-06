@@ -17,7 +17,7 @@ image: /images/songs/mimi/hagu-feat.-初音miku-&-可不.jpg
 
 ## 作品概要
 
-MIMIが2023-11-07にリリースしたシングル「はぐ (feat. 初音ミク & [可不](/ja/artists/isotopes/kafu))」。
+[MIMI](/ja/artists/creators/mimi)が2023-11-07にリリースしたシングル「はぐ (feat. 初音ミク & [可不](/ja/artists/isotopes/kafu))」。
 
 ## 視聴
 {{media-switcher::はぐ (feat. 初音ミク & 可不)}}

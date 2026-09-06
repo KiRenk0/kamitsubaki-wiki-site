@@ -127,6 +127,7 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [01:45.49]<ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby> <ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby>
 </div>
+<div class="cn-lyric">[01:45.49]啊 啊</div>
 </div>
 
 <br />
@@ -135,12 +136,14 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [01:53.69]<ruby>優<rt class="furi">やさ</rt><rt class="roma">yasa</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[01:53.69]请别温柔以待</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:57.89]<ruby>間違<rt class="furi">まちが</rt><rt class="roma">machiga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>だらけ<rt class="roma">darake</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ふざけよ<rt class="roma">fuzakeyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[01:57.89]即使错误百出也来嬉戏吧</div>
 </div>
 
 <div class="lyric-line">
@@ -163,6 +166,7 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [02:10.18]<ruby>優<rt class="furi">やさ</rt><rt class="roma">yasa</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[02:10.18]请别温柔以待</div>
 </div>
 
 <div class="lyric-line">
@@ -215,18 +219,21 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [03:02.85]<ruby>優<rt class="furi">やさ</rt><rt class="roma">yasa</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[03:02.85]请别温柔以待</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:07.02]<ruby>間違<rt class="furi">まちが</rt><rt class="roma">machiga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>だらけ<rt class="roma">darake</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ふざけよ<rt class="roma">fuzakeyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:07.02]即使错误百出也来嬉戏吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:11.21]<ruby>身体<rt class="furi">しんたい</rt><rt class="roma">shintai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>覚<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:11.21]身体还记得</div>
 </div>
 
@@ -234,6 +241,7 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [03:15.22]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>水色<rt class="furi">みずいろ</rt><rt class="roma">mizuiro</rt></ruby>、<ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>緑<rt class="furi">みどり</rt><rt class="roma">midori</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:15.22]爱是天蓝 恋是翠绿</div>
 </div>
 
@@ -243,12 +251,14 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [03:19.39]<ruby>優<rt class="furi">やさ</rt><rt class="roma">yasa</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[03:19.39]请别温柔以待</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:23.37]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>弱<rt class="furi">よわ</rt><rt class="roma">yowa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:23.37]虽然并未如你所想那般软弱</div>
 </div>
 
@@ -256,6 +266,7 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [03:27.55]<ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>眠<rt class="furi">ねむ</rt><rt class="roma">nemu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:27.55]因为有点困倦</div>
 </div>
 
@@ -263,6 +274,7 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [03:31.64]<ruby>早起<rt class="furi">はやお</rt><rt class="roma">hayao</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いや<rt class="roma">iya</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:31.64]早起真讨厌呢</div>
 </div>
 

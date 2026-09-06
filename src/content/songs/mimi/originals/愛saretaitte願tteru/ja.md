@@ -17,7 +17,7 @@ image: /images/songs/mimi/愛saretaitte願tteru.jpg
 
 ## 作品概要
 
-MIMIが2025-08-22にリリースしたシングル「愛されたいって願ってる」。
+[MIMI](/ja/artists/creators/mimi)が2025-08-22にリリースしたシングル「愛されたいって願ってる」。
 
 ## 視聴
 {{media-switcher::愛されたいって願ってる}}

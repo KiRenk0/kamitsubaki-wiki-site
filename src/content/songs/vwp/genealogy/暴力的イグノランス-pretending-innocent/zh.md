@@ -327,12 +327,14 @@ image: /images/albums/vwp/witch-plus-2.jpg
 <div class="jp-lyric">
 [02:15.59]<ruby>無関係<rt class="furi">むかんけい</rt><rt class="roma">mukankei</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>ばっか<rt class="roma">bakka</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+<div class="cn-lyric">[02:15.59]尽是些无关的话</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:18.31]<ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>栄養<rt class="furi">えいよう</rt><rt class="roma">eiyou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
 </div>
+<div class="cn-lyric">[02:18.31]今天也成了今日的养分</div>
 </div>
 
 <div class="lyric-line">
@@ -367,18 +369,21 @@ image: /images/albums/vwp/witch-plus-2.jpg
 <div class="jp-lyric">
 [02:31.71]<ruby>考<rt class="furi">かんが</rt><rt class="roma">kanga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>フリ<rt class="roma">furi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:31.71]装作没思考的样子</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:32.95]<ruby>ふさぎ<rt class="roma">fusagi</rt></ruby><ruby>っぱなし<rt class="roma">ppanashi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:32.95]一直闷闷不乐也</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:34.31]<ruby>どっち<rt class="roma">dotchi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>／<ruby>どっち<rt class="roma">dotchi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>退屈<rt class="furi">たいくつ</rt><rt class="roma">taikutsu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>SHOW
 </div>
+
 <div class="cn-lyric">[02:34.31]两者都是／两者都是无聊的 SHOW</div>
 </div>
 
@@ -386,6 +391,7 @@ image: /images/albums/vwp/witch-plus-2.jpg
 <div class="jp-lyric">
 [02:36.89]<ruby>喪<rt class="furi">うしな</rt><rt class="roma">ushina</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>純真<rt class="furi">じゅんしん</rt><rt class="roma">junshin</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:36.89]当作已丧失的纯真</div>
 </div>
 
@@ -393,6 +399,7 @@ image: /images/albums/vwp/witch-plus-2.jpg
 <div class="jp-lyric">
 [02:39.63]<ruby>結局<rt class="furi">けっきょく</rt><rt class="roma">kekkyoku</rt></ruby><ruby>どんな<rt class="roma">donna</rt></ruby><ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby>？
 </div>
+
 <div class="cn-lyric">[02:39.63]到底是为了谁？</div>
 </div>
 
@@ -400,18 +407,21 @@ image: /images/albums/vwp/witch-plus-2.jpg
 <div class="jp-lyric">
 [02:42.19]<ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>嘘<rt class="furi">うそ</rt><rt class="roma">uso</rt></ruby><ruby>つい<rt class="roma">tsui</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[02:42.19]说谎说不知道</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:45.05]<ruby>暴力<rt class="furi">ぼうりょく</rt><rt class="roma">bouryoku</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>イグノランス<rt class="roma">igunoransu</rt></ruby>
 </div>
+<div class="cn-lyric">[02:45.05]暴力的无知</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:47.59]<ruby>また<rt class="roma">mata</rt></ruby><ruby>ひとつ<rt class="roma">hitotsu</rt></ruby>、<ruby>嘘<rt class="furi">うそ</rt><rt class="roma">uso</rt></ruby><ruby>つい<rt class="roma">tsui</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:47.59]又说了一个谎</div>
 </div>
 
@@ -419,6 +429,7 @@ image: /images/albums/vwp/witch-plus-2.jpg
 <div class="jp-lyric">
 [02:50.40]<ruby>暴力<rt class="furi">ぼうりょく</rt><rt class="roma">bouryoku</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>イグノランス<rt class="roma">igunoransu</rt></ruby>
 </div>
+<div class="cn-lyric">[02:50.40]暴力的无知</div>
 </div>
 
 </div>

@@ -16,7 +16,7 @@ image: /images/songs/empty-old-city/astronomy-english-ver.jpg
 
 ## 作品简介
 
-Empty old City于 2024-12-03 发行的单曲《Astronomy (English Ver.)》。
+[Empty old City](/zh/artists/solo/empty-old-city)于 2024-12-03 发行的单曲《Astronomy (English Ver.)》。
 
 ## 试听
 {{media-switcher::Astronomy (English Ver.)}}

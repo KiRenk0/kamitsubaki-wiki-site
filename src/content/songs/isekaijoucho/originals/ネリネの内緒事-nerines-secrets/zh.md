@@ -224,6 +224,7 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 <div class="jp-lyric">
 [02:14.22]<ruby>憂<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby>、<ruby>憂<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby>、<ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>らめく<rt class="roma">rameku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:14.22]忧、忧、摇曳的是</div>
 </div>
 
 <div class="lyric-line">
@@ -364,6 +365,7 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 <div class="jp-lyric">
 [03:24.89]<ruby>俯<rt class="furi">うつむ</rt><rt class="roma">utsumu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>、<ruby>また<rt class="roma">mata</rt></ruby><ruby>逢<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:24.89]不低头 直到重逢之日</div>
 </div>
 

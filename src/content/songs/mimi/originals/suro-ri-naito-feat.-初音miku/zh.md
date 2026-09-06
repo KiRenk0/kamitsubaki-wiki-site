@@ -17,7 +17,7 @@ image: /images/songs/mimi/suro-ri-naito-feat.-初音miku.jpg
 
 ## 作品简介
 
-MIMI于 2024-06-29 发行的单曲《すろーりーないと (feat. 初音ミク)》。
+[MIMI](/zh/artists/creators/mimi)于 2024-06-29 发行的单曲《すろーりーないと (feat. 初音ミク)》。
 
 ## 试听
 {{media-switcher::すろーりーないと (feat. 初音ミク)}}

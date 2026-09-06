@@ -16,7 +16,7 @@ image: /images/songs/empty-old-city/chronicle-a-english-ver.jpg
 
 ## 作品简介
 
-Empty old City于 2024-01-23 发行的单曲《Chronicle A (English Ver.)》。
+[Empty old City](/zh/artists/solo/empty-old-city)于 2024-01-23 发行的单曲《Chronicle A (English Ver.)》。
 
 ## 试听
 {{media-switcher::Chronicle A (English Ver.)}}

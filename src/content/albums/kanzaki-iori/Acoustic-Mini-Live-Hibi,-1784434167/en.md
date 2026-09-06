@@ -53,6 +53,6 @@ tracks:
 1. 少年少女 (「日々、」Acoustic Ver.) [Online Live, 2023] (06:08)
 2. 君の肺には宇宙が広がっている (「日々、」Acoustic Ver.) [Online Live, 2023] (04:00)
 3. 人間じゃない癖に (「日々、」Acoustic Ver.) [Online Live, 2023] (03:39)
-4. 春を発つ (「日々、」Acoustic Ver.) [Online Live, 2023] (08:27)
+4. [春を発つ](/en/songs/kaf/originals/春を発つ-depart-from-spring) (「日々、」Acoustic Ver.) [Online Live, 2023] (08:27)
 5. あんたは死んだ (「日々、」Acoustic Ver.) [Online Live, 2023] (05:12)
 6. 自由に捕らわれる。 (「日々、」Acoustic Ver.) [Online Live, 2023] (05:40)

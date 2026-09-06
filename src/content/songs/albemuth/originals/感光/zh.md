@@ -17,7 +17,7 @@ image: /images/songs/albemuth/感光.jpg
 
 ## 作品简介
 
-Albemuth于 2023-02-15 发行的单曲《感光》。
+[Albemuth](/zh/artists/solo/albemuth)于 2023-02-15 发行的单曲《感光》。
 
 ## 试听
 {{media-switcher::感光}}

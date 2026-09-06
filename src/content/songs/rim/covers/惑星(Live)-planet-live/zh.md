@@ -215,6 +215,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 [02:19.16]<ruby>ゆける<rt class="roma">yukeru</rt></ruby>、<ruby>ゆける<rt class="roma">yukeru</rt></ruby>、<ruby>熱<rt class="furi">あつ</rt><rt class="roma">atsu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:19.16]前行吧、前行吧、带着这份炽热</div>
 </div>
 
 <br />
@@ -237,6 +238,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 [02:34.12]<ruby>友達<rt class="furi">ともだち</rt><rt class="roma">tomodachi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>借<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>金<rt class="furi">きん</rt><rt class="roma">kin</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>返<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>られる<rt class="roma">rareru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
 </div>
+
 <div class="cn-lyric">[02:34.12]向朋友借的钱 就能一直不还吗？</div>
 </div>
 
@@ -246,48 +248,56 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 [02:52.14]<ruby>真<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>っさら<rt class="roma">ssara</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[02:52.14]想要保持纯白无瑕吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:54.93]<ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>わかってる<rt class="roma">wakatteru</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>、<ruby>わかってる<rt class="roma">wakatteru</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:54.93]总说我都知道、我都知道啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:59.18]<ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[02:59.18]也没什么可怕的了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:02.07]<ruby>ゆける<rt class="roma">yukeru</rt></ruby>、<ruby>ゆける<rt class="roma">yukeru</rt></ruby>、<ruby>熱<rt class="furi">あつ</rt><rt class="roma">atsu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:02.07]前行吧、前行吧、带着这份炽热</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:06.10]<ruby>悪<rt class="furi">わる</rt><rt class="roma">waru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[03:06.10]糟糕的未来也没什么不好</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:09.33]<ruby>あたし<rt class="roma">atashi</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>、<ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:09.33]我说我在等着 在等着啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:13.46]<ruby>叶<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>疲<rt class="furi">つか</rt><rt class="roma">tsuka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:13.46]即使为实现目标而疲惫</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:16.51]<ruby>ゆける<rt class="roma">yukeru</rt></ruby>、<ruby>ゆける<rt class="roma">yukeru</rt></ruby>、<ruby>熱<rt class="furi">あつ</rt><rt class="roma">atsu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:16.51]前行吧、前行吧、带着这份炽热</div>
 </div>
 
 </div>

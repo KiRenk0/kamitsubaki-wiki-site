@@ -36,7 +36,7 @@ KAMITSUBAKI STUDIO（神椿スタジオ）は、2019年10月18日に設立され
 - **2023年3月31日**：専属コンポーザー・音楽プロデューサーのカンザキイオリが卒業。
 - **2023年10月18日**：[雄之助](/ja/artists/creators/yunosuke)とWaMiによる音楽ユニット「[Awairo](/ja/artists/solo/awairo)」のデビューを発表。
 - **2024年1月13日〜14日**：スタジオ主催フェス「KAMITSUBAKI FES '24」を開催。
-- **2026年9月5日**：THINKR がスタジオ再編（スタジオ構造の刷新）を発表。KAMITSUBAKI STUDIO はバーチャル領域に特化するスタジオへ移行し、分岐のかたちで [KYOKAI STUDIO](/ja/projects/labels/kyokai-studio)（自らの境界を探し求めるアーティストとの協働）と [UNKNOWN LAB](/ja/projects/labels/unknown-lab)（総括プロデューサー・PIEDPIPER を中心とする R&D 部門）を新設。同日、公式サイトが全面リニューアルされ、スタジオ内レーベルは **PHENOMENON RECORD** に統合され、[深脊界（SINSEKAI RECORD）](/ja/projects/archive/sinsekai-studio)などのレーベル名は使用終了となりました。
+- **2026年9月5日**：THINKR がスタジオ再編（スタジオ構造の刷新）を発表。KAMITSUBAKI STUDIO はバーチャル領域に特化するスタジオへ移行し、分岐のかたちで [KYOKAI STUDIO](/ja/projects/labels/kyokai-studio)（自らの境界を探し求めるアーティストとの協働）と [UNKNOWN LAB](/ja/projects/labels/unknown-lab)（総括プロデューサー・[PIEDPIPER](/ja/artists/creators/piedpiper) を中心とする R&D 部門）を新設。同日、公式サイトが全面リニューアルされ、スタジオ内レーベルは **PHENOMENON RECORD** に統合され、[深脊界（SINSEKAI RECORD）](/ja/projects/archive/sinsekai-studio)などのレーベル名は使用終了となりました。
 
 ## 所属コアメンバー
 
@@ -81,7 +81,7 @@ CeVIO AIやVOICEPEAKとのコラボレーションによる歌声・音声合成
 
 ## 中心となる概念
 
-「魔女」「神椿市」「[観測](/ja/albums/kaf/kansoku)」「バーチャルとリアルの境界」は、スタジオの作品を横断して現れるキーワードである。観測者は単なるファンの呼称ではなく、映像を見て、楽曲を聴き、ライブへ参加し、資料を記録することで作品の継続的な意味づけに関わる存在でもある。
+「[魔女](/ja/songs/kaf/originals/majo)」「神椿市」「[観測](/ja/albums/kaf/kansoku)」「バーチャルとリアルの境界」は、スタジオの作品を横断して現れるキーワードである。観測者は単なるファンの呼称ではなく、映像を見て、楽曲を聴き、ライブへ参加し、資料を記録することで作品の継続的な意味づけに関わる存在でもある。
 
 神椿の制作は音楽から始まり、MV、イラスト、キャラクター、ライブ、ゲーム、小説、舞台、アニメーションへ広がることが多い。そのため一人のアーティストにも、歌手、音楽的同位体、メディア作品のキャラクター、ライブ形態という複数の記録層が存在し得る。本Wikiではこれらを分離し、関連項目として接続する。
 

@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/羊飼ino号令.jpg
 
 ## 作品概要
 
-Empty old Cityが2023-07-04にリリースしたシングル「羊飼いの号令」。
+[Empty old City](/ja/artists/solo/empty-old-city)が2023-07-04にリリースしたシングル「羊飼いの号令」。
 
 ## 視聴
 {{media-switcher::羊飼いの号令}}

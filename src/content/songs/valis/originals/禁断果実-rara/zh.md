@@ -17,7 +17,7 @@ image: /images/songs/valis/禁断果実-rara.jpg
 
 ## 作品简介
 
-VALIS于 2023-06-24 发行的单曲《禁断果実(RARA)》。
+[VALIS](/zh/artists/solo/valis)于 2023-06-24 发行的单曲《禁断果実(RARA)》。
 
 ## 试听
 {{media-switcher::禁断果実(RARA)}}

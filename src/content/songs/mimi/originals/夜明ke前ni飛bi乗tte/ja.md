@@ -17,7 +17,7 @@ image: /images/songs/mimi/夜明ke前ni飛bi乗tte.jpg
 
 ## 作品概要
 
-MIMIが2020-07-03にリリースしたシングル「夜明け前に飛び乗って」。
+[MIMI](/ja/artists/creators/mimi)が2020-07-03にリリースしたシングル「夜明け前に飛び乗って」。
 
 ## 視聴
 {{media-switcher::夜明け前に飛び乗って}}

@@ -59,7 +59,7 @@ The unit achieved notable recognition by placing 8th in the Rookie Rankings at T
 
 Hitogoto's strength lies in their ability to write deeply emotional lyrics and compose melodies that linger in the listener's mind. Their arrangement work demonstrates versatility across multiple genres, while maintaining a consistent emotional core that defines their artistic identity.
 
-Beyond their own releases, Hitogoto has established a track record of song provision for prominent artists and projects, contributing lyrics, composition, and arrangement to works for V.W.P, Tsumitobatsu, and the Muse Dash rhythm game.
+Beyond their own releases, Hitogoto has established a track record of song provision for prominent artists and projects, contributing lyrics, composition, and arrangement to works for [V.W.P](/en/artists/vwp/vwp), Tsumitobatsu, and the Muse Dash rhythm game.
 
 
 ## Activity History

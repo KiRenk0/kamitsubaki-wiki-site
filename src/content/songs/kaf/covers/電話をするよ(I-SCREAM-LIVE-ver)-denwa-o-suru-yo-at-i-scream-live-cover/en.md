@@ -57,7 +57,9 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [00:44.46]<ruby>ちょっと<rt class="roma">chotto</rt></ruby><ruby>ユウウツ<rt class="roma">yuuutsu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
-<div class="trans-lyric">A bit of melancholy</div>
+<div class="trans-lyric">
+[00:44.46]A bit of melancholy
+</div>
 </div>
 
 <div class="lyric-line">
@@ -163,24 +165,28 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [02:07.55]<ruby>また<rt class="roma">mata</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">[02:07.55]I'll call again</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:12.59]<ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">[02:12.59]I'll call you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:17.77]<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">[02:17.77]Surely I'll call</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:23.00]<ruby>たのむ<rt class="roma">tanomu</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:23.00]Please, me</div>
 </div>
 
@@ -190,24 +196,28 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [02:28.46]<ruby>また<rt class="roma">mata</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">[02:28.46]I'll call again</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:33.46]<ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">[02:33.46]I'll call you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:38.53]<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">[02:38.53]Surely I'll call</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:43.81]<ruby>たのむ<rt class="roma">tanomu</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>なぐさめ<rt class="roma">nagusame</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[02:43.81]Please, comfort me</div>
 </div>
 
 </div>

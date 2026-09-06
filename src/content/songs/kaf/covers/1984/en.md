@@ -191,7 +191,9 @@ Wagt ein einziger abzuweichen, versuchst du einst frei zu sein
 <div class="jp-lyric">
 [00:20.92]Orwells 1984, einst ein Schockszenario
 </div>
-<div class="trans-lyric">Orwell's 1984, once a shock scenario</div>
+<div class="trans-lyric">
+[00:20.92]Orwell's 1984, once a shock scenario
+</div>
 </div>
 
 <div class="lyric-line">
@@ -207,48 +209,56 @@ Doch nehmt ihr es nicht als Warnung, sondern Anleitung!
 <div class="jp-lyric">
 Und wie könnt ihr euch noch im Spiegel anschauen
 </div>
+<div class="trans-lyric">And how can you still look at yourselves in the mirror</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Euch wundern, dass euch all die Menschen misstrauen?
 </div>
+<div class="trans-lyric">Wonder that all these people distrust you?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Längst vergessen, dass ihr dem Volke geschworen
 </div>
+<div class="trans-lyric">Long forgotten that you swore to the people</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Von ihm abzuwenden jegliches Grauen?
 </div>
+<div class="trans-lyric">To avert all horrors from them?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Habt ihr kein Gewissen, kein Herz, keine Seele
 </div>
+<div class="trans-lyric">Have you no conscience, no heart, no soul</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Keinen Anstand, nichts, das euch das Gefühl gäbe
 </div>
+<div class="trans-lyric">No decency, nothing that would give you the feeling</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Ein Teil zu sein des Landes eurer Vorväter
 </div>
+<div class="trans-lyric">To be a part of the land of your forefathers</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Dann seid ihr für mich weiter nichts, nichts als Verräter!
 </div>
+<div class="trans-lyric">Then you are nothing more to me, nothing but traitors!</div>
 </div>
 
 <br />
@@ -257,6 +267,7 @@ Dann seid ihr für mich weiter nichts, nichts als Verräter!
 <div class="jp-lyric">
 Verräter! Verräter! Ihr miesen Schreibtischtäter!
 </div>
+
 <div class="trans-lyric">Traitors! Traitors! You lousy desk perpetrators!</div>
 </div>
 
@@ -264,6 +275,7 @@ Verräter! Verräter! Ihr miesen Schreibtischtäter!
 <div class="jp-lyric">
 Es gibt noch deutsche Herzen, pochend im Takt Schlageters!
 </div>
+
 <div class="trans-lyric">There are still German hearts, beating in the rhythm of Schlageter!</div>
 </div>
 
@@ -271,12 +283,15 @@ Es gibt noch deutsche Herzen, pochend im Takt Schlageters!
 <div class="jp-lyric">
 Verräter! Verräter! Ihr miesen Schreibtischtäter!
 </div>
+
+<div class="trans-lyric">Traitors! Traitors! You lousy desk perpetrators!</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Es gibt noch Deutschritter, standhaft und zäh wie Leder!
 </div>
+
 <div class="trans-lyric">There are still German knights, steadfast and tough as leather!</div>
 </div>
 
@@ -284,12 +299,15 @@ Es gibt noch Deutschritter, standhaft und zäh wie Leder!
 <div class="jp-lyric">
 Verräter! Verräter! Ihr miesen Schreibtischtäter!
 </div>
+
+<div class="trans-lyric">Traitors! Traitors! You lousy desk perpetrators!</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Wir wollen nur eines... Freiheit!
 </div>
+
 <div class="trans-lyric">We want only one thing... Freedom!</div>
 </div>
 

@@ -17,7 +17,7 @@ image: /images/songs/mimi/海辺no電話bokkusu-feat.-音街una.jpg
 
 ## 作品概要
 
-MIMIが2025-10-26にリリースしたシングル「海辺の電話ボックス (feat. 音街ウナ)」。
+[MIMI](/ja/artists/creators/mimi)が2025-10-26にリリースしたシングル「海辺の電話ボックス (feat. 音街ウナ)」。
 
 ## 視聴
 {{media-switcher::海辺の電話ボックス (feat. 音街ウナ)}}

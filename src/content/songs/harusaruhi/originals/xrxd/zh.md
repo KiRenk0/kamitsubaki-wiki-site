@@ -56,12 +56,14 @@ image: /images/albums/harusaruhi/rule-the-world.jpg
 <div class="jp-lyric">
 [00:11.67]Log in to my life
 </div>
+<div class="cn-lyric">[00:11.67]登录我的生活</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:13.50]Log in to my life
 </div>
+<div class="cn-lyric">[00:13.50]登录我的生活</div>
 </div>
 
 <div class="lyric-line">
@@ -82,6 +84,7 @@ image: /images/albums/harusaruhi/rule-the-world.jpg
 <div class="jp-lyric">
 [00:20.10]Log in to my life
 </div>
+<div class="cn-lyric">[00:20.10]登录我的生活</div>
 </div>
 
 <div class="lyric-line">
@@ -214,48 +217,56 @@ image: /images/albums/harusaruhi/rule-the-world.jpg
 <div class="jp-lyric">
 [01:00.15]Log in to my life
 </div>
+<div class="cn-lyric">[01:00.15]登录我的生活</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:02.60]<ruby>自由自在<rt class="furi">じゆうじざい</rt><rt class="roma">jiyuujizai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>パレード<rt class="roma">pareedo</rt></ruby>
 </div>
+<div class="cn-lyric">[01:02.60]自由自在的游行</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:04.82]I do whatever I want
 </div>
+<div class="cn-lyric">[01:04.82]I do whatever I want</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:06.83]Log in to my life
 </div>
+<div class="cn-lyric">[01:06.83]登录我的生活</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:08.73]Log in to my life
 </div>
+<div class="cn-lyric">[01:08.73]登录我的生活</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:10.66]<ruby>ほら<rt class="roma">hora</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>揃<rt class="furi">そろ</rt><rt class="roma">soro</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>羽根<rt class="furi">はね</rt><rt class="roma">hane</rt></ruby>
 </div>
+<div class="cn-lyric">[01:10.66]看，成对的羽毛</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:13.27]You can do whatever you want
 </div>
+<div class="cn-lyric">[01:13.27]You can do whatever you want</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:15.33]Log in to my life
 </div>
+<div class="cn-lyric">[01:15.33]登录我的生活</div>
 </div>
 
 <div class="lyric-line">
@@ -297,6 +308,7 @@ image: /images/albums/harusaruhi/rule-the-world.jpg
 <div class="jp-lyric">
 [01:27.55]Shoelace<ruby>は<rt class="roma">wa</rt></ruby><ruby>解<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ご<rt class="roma">go</rt></ruby><ruby>乱心<rt class="furi">らんしん</rt><rt class="roma">ranshin</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:27.55]解开鞋带心乱如麻</div>
 </div>
 
@@ -304,6 +316,7 @@ image: /images/albums/harusaruhi/rule-the-world.jpg
 <div class="jp-lyric">
 [01:29.65]<ruby>救世主<rt class="furi">きゅうせいしゅ</rt><rt class="roma">kyuuseishu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>入<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>magic
 </div>
+
 <div class="cn-lyric">[01:29.65]救世主得到的魔法</div>
 </div>
 
@@ -311,6 +324,7 @@ image: /images/albums/harusaruhi/rule-the-world.jpg
 <div class="jp-lyric">
 [01:31.56]Five senses <ruby>正<rt class="furi">ただ</rt><rt class="roma">tada</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>様変<rt class="furi">さまが</rt><rt class="roma">samaga</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:31.56]五感 正确地改变</div>
 </div>
 
@@ -318,6 +332,7 @@ image: /images/albums/harusaruhi/rule-the-world.jpg
 <div class="jp-lyric">
 [01:34.05]My room my brain the world
 </div>
+
 <div class="cn-lyric">[01:34.05]My room my brain the world</div>
 </div>
 
@@ -325,6 +340,7 @@ image: /images/albums/harusaruhi/rule-the-world.jpg
 <div class="jp-lyric">
 [01:35.64]<ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>がる<rt class="roma">garu</rt></ruby>sphere<ruby>晴れ渡<rt class="furi">はれわた</rt><rt class="roma">harewata</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:35.64]连接的球体晴朗</div>
 </div>
 
@@ -332,6 +348,7 @@ image: /images/albums/harusaruhi/rule-the-world.jpg
 <div class="jp-lyric">
 [01:37.78]<ruby>跳<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>回<rt class="furi">まわ</rt><rt class="roma">mawa</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>未完成<rt class="furi">みかんせい</rt><rt class="roma">mikansei</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>map
 </div>
+
 <div class="cn-lyric">[01:37.78]跳跃的未完成地图</div>
 </div>
 
@@ -339,6 +356,7 @@ image: /images/albums/harusaruhi/rule-the-world.jpg
 <div class="jp-lyric">
 [01:39.76]<ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>向<rt class="furi">む</rt><rt class="roma">mu</rt></ruby><ruby>かう<rt class="roma">kau</rt></ruby>metaverse all set?
 </div>
+
 <div class="cn-lyric">[01:39.76]不要放手前往元宇宙准备好了吗？</div>
 </div>
 
@@ -346,6 +364,7 @@ image: /images/albums/harusaruhi/rule-the-world.jpg
 <div class="jp-lyric">
 [01:42.50]ID<ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>方<rt class="furi">ほう</rt><rt class="roma">hou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>混<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>ざり<rt class="roma">zari</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:42.50]没有ID更能混合</div>
 </div>
 
@@ -353,6 +372,7 @@ image: /images/albums/harusaruhi/rule-the-world.jpg
 <div class="jp-lyric">
 [01:44.57]IP<ruby>は<rt class="roma">wa</rt></ruby><ruby>秘密<rt class="furi">ひみつ</rt><rt class="roma">himitsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>溜まり場<rt class="furi">たまりば</rt><rt class="roma">tamariba</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:44.57]IP是秘密的聚集地</div>
 </div>
 
@@ -360,6 +380,7 @@ image: /images/albums/harusaruhi/rule-the-world.jpg
 <div class="jp-lyric">
 [01:46.64]<ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>都市<rt class="furi">とし</rt><rt class="roma">toshi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>住人<rt class="furi">じゅうにん</rt><rt class="roma">juunin</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:46.64]梦中毁坏的城市的居民</div>
 </div>
 
@@ -367,6 +388,7 @@ image: /images/albums/harusaruhi/rule-the-world.jpg
 <div class="jp-lyric">
 [01:48.75]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>play<ruby>ご<rt class="roma">go</rt></ruby><ruby>自由<rt class="furi">じゆう</rt><rt class="roma">jiyuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:48.75]只属于你的play请随意</div>
 </div>
 

@@ -17,7 +17,7 @@ image: /images/songs/mimi/夜noaironi-feat.-初音miku.jpg
 
 ## 作品简介
 
-MIMI于 2022-12-20 发行的单曲《夜のあいろに (feat. 初音ミク)》。
+[MIMI](/zh/artists/creators/mimi)于 2022-12-20 发行的单曲《夜のあいろに (feat. 初音ミク)》。
 
 ## 试听
 {{media-switcher::夜のあいろに (feat. 初音ミク)}}

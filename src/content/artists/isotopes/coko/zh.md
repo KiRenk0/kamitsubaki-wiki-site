@@ -52,7 +52,7 @@ seo:
 
 ## 概述
 
-{{ruby::狐子::ここ::coko}} 是 KAMITSUBAKI STUDIO 推出的音乐同位体合成歌声库，声源原型为虚拟歌手 **[幸祜 / KOKO](/zh/artists/vwp/koko)**。
+{{ruby::狐子::ここ::coko}} 是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 推出的音乐同位体合成歌声库，声源原型为虚拟歌手 **[幸祜 / KOKO](/zh/artists/vwp/koko)**。
 
 软件于 2023年1月25日基于 CeVIO AI 发售。角色设计由 SWAV 操刀，展现强劲的朋克摇滚风格。
 

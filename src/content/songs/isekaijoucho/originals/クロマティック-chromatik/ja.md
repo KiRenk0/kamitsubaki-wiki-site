@@ -19,7 +19,7 @@ image: /images/songs/isekaijoucho/single-1856150336.jpg
 
 ## 作品概要
 
-「クロマティック (feat. [ヰ世界情緒](/ja/artists/vwp/isekaijoucho))」は『クロマティック』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「クロマティック (feat. [ヰ世界情緒](/ja/artists/vwp/isekaijoucho))」は『[クロマティック](/ja/songs/grp/collaborations/chromatic)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 試聴
 

@@ -23,7 +23,7 @@ tracks:
 
 ## Overview
 
-ANMC's soundtrack “『ムーンレスムーン』BGM Soundtrack”, released on 2024-12-06, featuring 8 tracks.
+[ANMC](/en/artists/solo/anmc)'s soundtrack “『ムーンレスムーン』BGM Soundtrack”, released on 2024-12-06, featuring 8 tracks.
 
 ## Track List
 

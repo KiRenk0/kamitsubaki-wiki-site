@@ -92,6 +92,7 @@ Mothers, fathers dead and gone
 <div class="jp-lyric">
 It's a miracle
 </div>
+<div class="trans-lyric">It's a miracle</div>
 </div>
 
 <br />
@@ -142,24 +143,28 @@ Jimi Hendrix to the Tower of Babel
 <div class="jp-lyric">
 It's a miracle
 </div>
+<div class="trans-lyric">It's a miracle</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It's a miracle
 </div>
+<div class="trans-lyric">It's a miracle</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It's a miracle
 </div>
+<div class="trans-lyric">It's a miracle</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It's a miracle
 </div>
+<div class="trans-lyric">It's a miracle</div>
 </div>
 
 <br />
@@ -226,6 +231,7 @@ Had clothes to wear and food to eat
 <div class="jp-lyric">
 That's a miracle
 </div>
+<div class="trans-lyric">That's a miracle</div>
 </div>
 
 <div class="lyric-line">
@@ -246,6 +252,7 @@ To live in perfect harmony
 <div class="jp-lyric">
 It's a miracle
 </div>
+<div class="trans-lyric">It's a miracle</div>
 </div>
 
 <br />
@@ -254,12 +261,14 @@ It's a miracle
 <div class="jp-lyric">
 We're having a miracle on earth
 </div>
+<div class="trans-lyric">We're having a miracle on earth</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Mother nature does it all for us
 </div>
+<div class="trans-lyric">Mother nature does it all for us</div>
 </div>
 
 <div class="lyric-line">
@@ -294,18 +303,21 @@ But Mona Lisa just keeps on smiling
 <div class="jp-lyric">
 It's a miracle
 </div>
+<div class="trans-lyric">It's a miracle</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It's a miracle
 </div>
+<div class="trans-lyric">It's a miracle</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It's a miracle
 </div>
+<div class="trans-lyric">It's a miracle</div>
 </div>
 
 <br />
@@ -314,6 +326,7 @@ It's a miracle
 <div class="jp-lyric">
 (Wonders of this world go on)
 </div>
+
 <div class="trans-lyric">(Wonders of this world go on)</div>
 </div>
 
@@ -321,24 +334,28 @@ It's a miracle
 <div class="jp-lyric">
 It's a miracle
 </div>
+<div class="trans-lyric">It's a miracle</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It's a miracle
 </div>
+<div class="trans-lyric">It's a miracle</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It's a miracle
 </div>
+<div class="trans-lyric">It's a miracle</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It's a miracle
 </div>
+<div class="trans-lyric">It's a miracle</div>
 </div>
 
 <br />
@@ -347,6 +364,7 @@ It's a miracle
 <div class="jp-lyric">
 The one thing (the one thing)
 </div>
+
 <div class="trans-lyric">The one thing (the one thing)</div>
 </div>
 
@@ -354,6 +372,7 @@ The one thing (the one thing)
 <div class="jp-lyric">
 We're all waiting for (we're all waiting for)
 </div>
+
 <div class="trans-lyric">We're all waiting for (we're all waiting for)</div>
 </div>
 
@@ -361,6 +380,7 @@ We're all waiting for (we're all waiting for)
 <div class="jp-lyric">
 Is peace on earth (peace on earth)
 </div>
+
 <div class="trans-lyric">Is peace on earth (peace on earth)</div>
 </div>
 
@@ -368,6 +388,7 @@ Is peace on earth (peace on earth)
 <div class="jp-lyric">
 And an end to war (an end to war)
 </div>
+
 <div class="trans-lyric">And an end to war (an end to war)</div>
 </div>
 
@@ -375,12 +396,14 @@ And an end to war (an end to war)
 <div class="jp-lyric">
 It's a miracle we need, the miracle
 </div>
+<div class="trans-lyric">It's a miracle we need, the miracle</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The miracle
 </div>
+
 <div class="trans-lyric">The miracle</div>
 </div>
 
@@ -388,6 +411,7 @@ The miracle
 <div class="jp-lyric">
 Peace on earth and end to war today
 </div>
+
 <div class="trans-lyric">Peace on earth and end to war today</div>
 </div>
 
@@ -397,6 +421,7 @@ Peace on earth and end to war today
 <div class="jp-lyric">
 That time will come one day you'll see
 </div>
+
 <div class="trans-lyric">That time will come one day you'll see</div>
 </div>
 
@@ -404,6 +429,7 @@ That time will come one day you'll see
 <div class="jp-lyric">
 When we can all be friends
 </div>
+
 <div class="trans-lyric">When we can all be friends</div>
 </div>
 
@@ -411,36 +437,48 @@ When we can all be friends
 <div class="jp-lyric">
 That time will come one day you'll see
 </div>
+
+<div class="trans-lyric">That time will come one day you'll see</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 When we can all be friends
 </div>
+
+<div class="trans-lyric">When we can all be friends</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 That time will come one day you'll see
 </div>
+
+<div class="trans-lyric">That time will come one day you'll see</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 When we can all be friends
 </div>
+
+<div class="trans-lyric">When we can all be friends</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 That time will come one day you'll see
 </div>
+
+<div class="trans-lyric">That time will come one day you'll see</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 When we can all be friends
 </div>
+
+<div class="trans-lyric">When we can all be friends</div>
 </div>
 
 </div>

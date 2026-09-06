@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/青揺rerufyiria-feat.-dazbee.jpg
 
 ## 作品简介
 
-Empty old City于 2022-05-30 发行的单曲《青揺れるフィリア (feat. Dazbee)》。
+[Empty old City](/zh/artists/solo/empty-old-city)于 2022-05-30 发行的单曲《青揺れるフィリア (feat. Dazbee)》。
 
 ## 试听
 @[apple-music](https://music.apple.com/jp/album/%E9%9D%92%E6%8F%BA%E3%82%8C%E3%82%8B%E3%83%95%E3%82%A3%E3%83%AA%E3%82%A2-feat-dazbee/6790332253?i=6790332537&uo=4 "青揺れるフィリア (feat. Dazbee)")

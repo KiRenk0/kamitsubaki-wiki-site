@@ -17,7 +17,7 @@ image: /images/songs/anmc/moonless-feat.-椎可.jpg
 
 ## 作品简介
 
-ANMC于 2024-12-06 发行的单曲《moonless feat. 椎可》。
+[ANMC](/zh/artists/solo/anmc)于 2024-12-06 发行的单曲《moonless feat. 椎可》。
 
 ## 试听
 {{media-switcher::moonless feat. 椎可}}

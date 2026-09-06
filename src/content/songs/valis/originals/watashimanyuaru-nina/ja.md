@@ -17,7 +17,7 @@ image: /images/songs/valis/watashimanyuaru-nina.jpg
 
 ## 作品概要
 
-VALISが2023-06-24にリリースしたシングル「わたしマニュアル(NINA)」。
+[VALIS](/ja/artists/solo/valis)が2023-06-24にリリースしたシングル「わたしマニュアル(NINA)」。
 
 ## 視聴
 {{media-switcher::わたしマニュアル(NINA)}}

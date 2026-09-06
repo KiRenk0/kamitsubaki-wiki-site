@@ -17,7 +17,7 @@ image: /images/songs/mimi/息wosurudake-feat.-可不.jpg
 
 ## 作品简介
 
-MIMI于 2023-07-22 发行的单曲《息をするだけ (feat. [可不](/zh/artists/isotopes/kafu))》。
+[MIMI](/zh/artists/creators/mimi)于 2023-07-22 发行的单曲《息をするだけ (feat. [可不](/zh/artists/isotopes/kafu))》。
 
 ## 试听
 {{media-switcher::息をするだけ (feat. 可不)}}

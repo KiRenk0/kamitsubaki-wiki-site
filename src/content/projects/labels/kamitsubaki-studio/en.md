@@ -24,7 +24,7 @@ Since September 5, 2026, as part of THINKR's studio reorganization, Kamitsubaki 
 
 ### 2020 - 2021: Witch Assembly and Project Expansion
 - **May 29, 2020**: Announced the core cross-media original IP project "Kamitsubaki City Under Construction" (神椿市建設中。).
-- **August 12, 2020**: RIM's signature song "Carnivorous Plant" (食虫植物) gained massive popularity on TikTok and other platforms, surpassing 10 million views.
+- **August 12, 2020**: RIM's signature song "Carnivorous Plant" ([食虫植物](/en/songs/rim/originals/食虫植物-carnivorous-plant)) gained massive popularity on TikTok and other platforms, surpassing 10 million views.
 - **October 10, 2020**: Held [KAF](/en/artists/vwp/kaf)'s 2nd ONE-MAN LIVE "Fukakai Ni" (不可解弐). The development of the first [musical isotope](/en/artists/solo/musical-isotope) vocal synthesis library, "[KAFU](/en/artists/isotopes/kafu)" (可不), was announced.
 - **October 25, 2020**: Announced the addition of the fifth virtual singer [KOKO](/en/artists/vwp/koko), completing the lineup of the five virtual singers. On the same day, THINKR was disclosed as the parent company of the studio.
 - **March 13, 2021**: The virtual artist group "V.W.P (Virtual Witch Phenomenon)," consisting of KAF, RIM, Harusaruhi, Isekaijoucho, and KOKO, was officially formed during KAF's 2nd ONE-MAN LIVE "Fukakai Ni Q2" (不可解弐Q2).
@@ -36,7 +36,7 @@ Since September 5, 2026, as part of THINKR's studio reorganization, Kamitsubaki 
 - **March 31, 2023**: Resident composer and music producer Kanzaki Iori officially graduated from the studio.
 - **October 18, 2023**: Announced that [Yunosuke](/en/artists/creators/yunosuke) and WaMi would debut as the musical duo "[Awairo](/en/artists/solo/awairo)."
 - **January 13–14, 2024**: Successfully held the studio-hosted festival "KAMITSUBAKI FES '24."
-- **September 5, 2026**: THINKR announced its studio reorganization (refresh of the studio structure). KAMITSUBAKI STUDIO transitioned into a studio dedicated to the virtual domain; [KYOKAI STUDIO](/en/projects/labels/kyokai-studio) (collaborating with artists who explore their own boundaries) and [UNKNOWN LAB](/en/projects/labels/unknown-lab) (an R&D department centered on general producer PIEDPIPER) were newly established as spin-offs. The same day, the official website was fully renewed and the labels inside the studio were consolidated into **PHENOMENON RECORD**, retiring the names of [SINSEKAI RECORD](/en/projects/archive/sinsekai-studio) and other labels.
+- **September 5, 2026**: THINKR announced its studio reorganization (refresh of the studio structure). KAMITSUBAKI STUDIO transitioned into a studio dedicated to the virtual domain; [KYOKAI STUDIO](/en/projects/labels/kyokai-studio) (collaborating with artists who explore their own boundaries) and [UNKNOWN LAB](/en/projects/labels/unknown-lab) (an R&D department centered on general producer [PIEDPIPER](/en/artists/creators/piedpiper)) were newly established as spin-offs. The same day, the official website was fully renewed and the labels inside the studio were consolidated into **PHENOMENON RECORD**, retiring the names of [SINSEKAI RECORD](/en/projects/archive/sinsekai-studio) and other labels.
 
 ## Core Members
 

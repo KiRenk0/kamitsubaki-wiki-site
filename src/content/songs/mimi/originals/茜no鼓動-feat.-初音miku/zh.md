@@ -17,7 +17,7 @@ image: /images/songs/mimi/茜no鼓動-feat.-初音miku.jpg
 
 ## 作品简介
 
-MIMI于 2024-10-08 发行的单曲《茜の鼓動 (feat. 初音ミク)》。
+[MIMI](/zh/artists/creators/mimi)于 2024-10-08 发行的单曲《茜の鼓動 (feat. 初音ミク)》。
 
 ## 试听
 {{media-switcher::茜の鼓動 (feat. 初音ミク)}}

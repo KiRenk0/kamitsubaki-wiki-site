@@ -122,12 +122,14 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [03:56.77]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>どうか<rt class="roma">douka</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:56.77]爱 此刻就 爱 赐予我 爱 恳求你 爱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:20.56]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>...
 </div>
+
 <div class="cn-lyric">[04:20.56]爱...</div>
 </div>
 

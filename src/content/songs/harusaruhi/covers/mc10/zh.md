@@ -192,6 +192,7 @@ Thatcher ronny roger melly on the right
 <div class="jp-lyric">
 Confusion!
 </div>
+<div class="cn-lyric">困惑！</div>
 </div>
 
 <br />
@@ -242,6 +243,7 @@ You understand
 <div class="jp-lyric">
 You run it up
 </div>
+<div class="cn-lyric">你把它跑起来</div>
 </div>
 
 <div class="lyric-line">
@@ -264,6 +266,7 @@ Girl, I gotta tell ya...
 <div class="jp-lyric">
 Confusion!
 </div>
+<div class="cn-lyric">困惑！</div>
 </div>
 
 <br />
@@ -302,6 +305,7 @@ So what?!
 <div class="jp-lyric">
 [00:18.38]Fire on the beach at dawn
 </div>
+
 <div class="cn-lyric">[00:18.38]黎明时海滩上的火焰</div>
 </div>
 
@@ -309,6 +313,7 @@ So what?!
 <div class="jp-lyric">
 With dancer and her sisters
 </div>
+
 <div class="cn-lyric">与舞者和她的姐妹们</div>
 </div>
 
@@ -316,6 +321,7 @@ With dancer and her sisters
 <div class="jp-lyric">
 Clothes are off, the water's warm
 </div>
+
 <div class="cn-lyric">衣服脱掉，水温温暖</div>
 </div>
 
@@ -323,12 +329,14 @@ Clothes are off, the water's warm
 <div class="jp-lyric">
 Come on, come on and find a smile
 </div>
+<div class="cn-lyric">来吧，来吧，找到微笑</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Girl, I gotta tell ya...
 </div>
+<div class="cn-lyric">女孩，我得告诉你...</div>
 </div>
 
 </div>

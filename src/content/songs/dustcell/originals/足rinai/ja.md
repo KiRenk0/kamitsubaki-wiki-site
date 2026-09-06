@@ -17,7 +17,7 @@ image: /images/songs/dustcell/足rinai.jpg
 
 ## 作品概要
 
-DUSTCELLが2022-05-31にリリースしたシングル「足りない」。
+[DUSTCELL](/ja/artists/solo/dustcell)が2022-05-31にリリースしたシングル「足りない」。
 
 ## 視聴
 {{media-switcher::足りない}}

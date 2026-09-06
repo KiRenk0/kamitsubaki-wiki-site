@@ -17,7 +17,7 @@ image: /images/songs/guiano/透過夏-feat.-rim.jpg
 
 ## 作品概要
 
-Guianoが2023-01-17にリリースしたシングル「透過夏 (feat. [RIM](/ja/artists/vwp/rim))」。
+[Guiano](/ja/artists/creators/guiano)が2023-01-17にリリースしたシングル「[透過夏](/ja/songs/rim/covers/透過夏-touka-natsu) (feat. [RIM](/ja/artists/vwp/rim))」。
 
 ## 視聴
 {{media-switcher::透過夏 (feat. RIM)}}

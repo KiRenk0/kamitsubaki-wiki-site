@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/meteusu.jpg
 
 ## 作品简介
 
-tokiwa于 2024-12-24 发行的单曲《メテウス》。
+[tokiwa](/zh/artists/creators/tokiwa)于 2024-12-24 发行的单曲《メテウス》。
 
 ## 试听
 {{media-switcher::メテウス}}

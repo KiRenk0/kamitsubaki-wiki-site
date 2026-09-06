@@ -120,6 +120,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [00:59.30]<ruby>斬<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby> Carry On Carry On Carryalion
 </div>
+<div class="cn-lyric">[00:59.30]斩吧 Carry On Carry On Carryalion</div>
 </div>
 
 <div class="lyric-line">
@@ -209,12 +210,14 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [01:50.14]<ruby>斬<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby> Carry On Carry On Carryalion
 </div>
+<div class="cn-lyric">[01:50.14]斩吧 Carry On Carry On Carryalion</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:53.03]<ruby>斬<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby> Carry On Carry On Carryalion
 </div>
+<div class="cn-lyric">[01:53.03]斩吧 Carry On Carry On Carryalion</div>
 </div>
 
 <div class="lyric-line">
@@ -258,6 +261,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [02:22.83]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>やって<rt class="roma">yatte</rt></ruby><ruby>誤解<rt class="furi">ごかい</rt><rt class="roma">gokai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:22.83]就这样误解着</div>
 </div>
 
@@ -265,6 +269,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [02:25.64]<ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>匂<rt class="furi">にお</rt><rt class="roma">nio</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:25.64]有曾经的熟悉气味</div>
 </div>
 
@@ -272,6 +277,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [02:28.54]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:28.54]似乎已经无法停止</div>
 </div>
 
@@ -281,24 +287,28 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [02:31.32]<ruby>ギャリギャリ<rt class="roma">gyarigyari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>刻<rt class="furi">きざ</rt><rt class="roma">kiza</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[02:31.32]嘎吱嘎吱地刻划</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:34.17]<ruby>知覚<rt class="furi">ちかく</rt><rt class="roma">chikaku</rt></ruby><ruby>能力<rt class="furi">のうりょく</rt><rt class="roma">nouryoku</rt></ruby><ruby>フル<rt class="roma">furu</rt></ruby><ruby>回転<rt class="furi">かいてん</rt><rt class="roma">kaiten</rt></ruby>
 </div>
+<div class="cn-lyric">[02:34.17]知觉能力全速运转</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:36.98]<ruby>快楽<rt class="furi">かいらく</rt><rt class="roma">kairaku</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>包<rt class="furi">つつ</rt><rt class="roma">tsutsu</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>でる<rt class="roma">deru</rt></ruby>
 </div>
+<div class="cn-lyric">[02:36.98]快乐包裹着</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:39.60]<ruby>騙<rt class="furi">だま</rt><rt class="roma">dama</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>衝動<rt class="furi">しょうどう</rt><rt class="roma">shoudou</rt></ruby> <ruby>溶け合<rt class="furi">とけあ</rt><rt class="roma">tokea</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[02:39.60]被欺骗的冲动 融为一体</div>
 </div>
 
 </div>

@@ -19,7 +19,7 @@ image: /images/songs/isekaijoucho/single-1800090314.jpg
 
 ## 作品概要
 
-「とめどなき白情 (Getty Remix) [feat. Isekaijoucho]」は『とめどなき白情 (Getty Remix)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「とめどなき白情 (Getty Remix) [feat. Isekaijoucho]」は『[とめどなき白情](/ja/songs/isekaijoucho/originals/とめどなき白情-tomedonaki-hakujou) (Getty Remix)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 試聴
 

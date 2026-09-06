@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/vivop.jpg
 
 ## 作品概要
 
-Empty old Cityが2026-03-31にリリースしたシングル「Vivop」。
+[Empty old City](/ja/artists/solo/empty-old-city)が2026-03-31にリリースしたシングル「Vivop」。
 
 ## 視聴
 {{media-switcher::Vivop}}

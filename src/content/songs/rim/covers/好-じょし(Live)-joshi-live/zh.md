@@ -185,6 +185,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 [02:05.37]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[02:05.37]即使你已不在</div>
 </div>
 
 <div class="lyric-line">
@@ -214,24 +215,28 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 [02:50.84]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[02:50.84]即使你已不在</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:57.10]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[02:57.10]即使你已不在</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:03.46]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[03:03.46]即使你已不在</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:06.11]<ruby>まだ<rt class="roma">mada</rt></ruby> <ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:06.11]仍然 在做梦</div>
 </div>
 
@@ -241,42 +246,49 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 [03:10.57]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[03:10.57]即使你已不在</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:13.23]<ruby>ご飯<rt class="furi">ごはん</rt><rt class="roma">gohan</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>おいしい<rt class="roma">oishii</rt></ruby> <ruby>ちゃんと<rt class="roma">chanto</rt></ruby><ruby>味<rt class="furi">あじ</rt><rt class="roma">aji</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>
 </div>
+<div class="cn-lyric">[03:13.23]饭依然美味 也尝得出味道</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:16.78]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ロックンロール<rt class="roma">rokkunrouru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>
 </div>
+<div class="cn-lyric">[03:16.78]你说过你喜欢摇滚乐</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:22.91]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[03:22.91]即使你已不在</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:25.84]<ruby>ギター<rt class="roma">gitaa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>弾<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> <ruby>地球<rt class="furi">ちきゅう</rt><rt class="roma">chikyuu</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>回<rt class="furi">まわ</rt><rt class="roma">mawa</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
 </div>
+<div class="cn-lyric">[03:25.84]弹着吉他 地球依然转动</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:29.02]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ロックンロール<rt class="roma">rokkunrouru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby> <ruby>あぁ<rt class="roma">aa</rt></ruby>
 </div>
+<div class="cn-lyric">[03:29.02]你说过你喜欢摇滚乐 啊啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:35.31]<ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby> <ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づけ<rt class="roma">zuke</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>ねぇ<rt class="roma">nee</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:35.31]两人 不经意间牵起了手呢 呐</div>
 </div>
 

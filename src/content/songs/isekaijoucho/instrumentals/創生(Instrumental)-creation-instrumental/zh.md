@@ -19,7 +19,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 
 ## 作品简介
 
-《創生(Instrumental)》收录于《創生》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《創生(Instrumental)》收录于《[創生](/zh/albums/isekaijoucho/sousei)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -189,6 +189,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 <ruby>ありふれ<rt class="roma">arifure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>悲劇<rt class="furi">ひげき</rt><rt class="roma">higeki</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>思考<rt class="furi">しこう</rt><rt class="roma">shikou</rt></ruby>（<ruby>トラジェディー<rt class="roma">torajedeii</rt></ruby>）<ruby>で<rt class="roma">de</rt></ruby><ruby>染め上<rt class="furi">そめあ</rt><rt class="roma">somea</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">不要用常见的悲剧思维染上啊</div>
 </div>
 
 <div class="lyric-line">
@@ -251,6 +252,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 <ruby>遥<rt class="furi">はる</rt><rt class="roma">haru</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>未知数<rt class="furi">みちすう</rt><rt class="roma">michisuu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>穿<rt class="furi">うが</rt><rt class="roma">uga</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby>
 </div>
+<div class="cn-lyric">穿透遥远未知数的这朵花</div>
 </div>
 
 <div class="lyric-line">
@@ -278,18 +280,21 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 <ruby>ただ<rt class="roma">tada</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>出逢<rt class="furi">であ</rt><rt class="roma">dea</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby> <ruby>化<rt class="furi">ば</rt><rt class="roma">ba</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>身体<rt class="furi">しんたい</rt><rt class="roma">shintai</rt></ruby>
 </div>
+<div class="cn-lyric">只是为了遇见你 而化身的这副身体</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>新<rt class="furi">あたら</rt><rt class="roma">atara</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>視<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">想和你一起看新世界</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby>
 </div>
+
 <div class="cn-lyric">传达某人的愿望</div>
 </div>
 
@@ -297,6 +302,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 <ruby>独<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>闇<rt class="furi">やみ</rt><rt class="roma">yami</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="cn-lyric">独自在黑暗中歌唱</div>
 </div>
 

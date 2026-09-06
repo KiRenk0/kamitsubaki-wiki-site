@@ -210,6 +210,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 Bad mind <ruby>は<rt class="roma">wa</rt></ruby> <ruby>おさらば<rt class="roma">osaraba</rt></ruby>
 </div>
+<div class="cn-lyric">Bad mind 再见</div>
 </div>
 
 <div class="lyric-line">
@@ -223,18 +224,21 @@ Bad mind <ruby>は<rt class="roma">wa</rt></ruby> <ruby>おさらば<rt class="r
 <div class="jp-lyric">
 <ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>鼻歌<rt class="furi">はなうた</rt><rt class="roma">hanauta</rt></ruby> <ruby>奏<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>でる<rt class="roma">deru</rt></ruby>
 </div>
+<div class="cn-lyric">哼着欢快的口哨</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>ラプソディ<rt class="roma">rapusodei</rt></ruby>
 </div>
+<div class="cn-lyric">只属于我的 狂想曲</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>胸<rt class="furi">むね</rt><rt class="roma">mune</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>内<rt class="furi">うち</rt><rt class="roma">uchi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>かけ<rt class="roma">kake</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>鍵<rt class="furi">かぎ</rt><rt class="roma">kagi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">将挂在心中的那把钥匙</div>
 </div>
 
 <div class="lyric-line">
@@ -248,6 +252,7 @@ Bad mind <ruby>は<rt class="roma">wa</rt></ruby> <ruby>おさらば<rt class="r
 <div class="jp-lyric">
 <ruby>行く先<rt class="furi">ゆくさき</rt><rt class="roma">yukusaki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>一<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby> <ruby>きらり<rt class="roma">kirari</rt></ruby><ruby>光<rt class="furi">ひか</rt><rt class="roma">hika</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
+<div class="cn-lyric">目的地只有一个 向着闪耀的明天</div>
 </div>
 
 <div class="lyric-line">
@@ -261,6 +266,7 @@ Bad mind <ruby>は<rt class="roma">wa</rt></ruby> <ruby>おさらば<rt class="r
 <div class="jp-lyric">
 [02:34.25]<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>躍<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> (<ruby>どうせ<rt class="roma">douse</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby> <ruby>どうせ<rt class="roma">douse</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby>)
 </div>
+
 <div class="cn-lyric">[02:34.25]让心雀跃的今天 (反正已经 反正已经)</div>
 </div>
 
@@ -268,6 +274,7 @@ Bad mind <ruby>は<rt class="roma">wa</rt></ruby> <ruby>おさらば<rt class="r
 <div class="jp-lyric">
 [02:39.99]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> <ruby>探し出<rt class="furi">さがしだ</rt><rt class="roma">sagashida</rt></ruby><ruby>す<rt class="roma">su</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:39.99]没错 从此刻开始寻找</div>
 </div>
 
@@ -275,6 +282,7 @@ Bad mind <ruby>は<rt class="roma">wa</rt></ruby> <ruby>おさらば<rt class="r
 <div class="jp-lyric">
 [02:42.62]<ruby>迂回<rt class="furi">うかい</rt><rt class="roma">ukai</rt></ruby><ruby>路<rt class="furi">ろ</rt><rt class="roma">ro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:42.62]在迂回道路的前方</div>
 </div>
 
@@ -282,6 +290,7 @@ Bad mind <ruby>は<rt class="roma">wa</rt></ruby> <ruby>おさらば<rt class="r
 <div class="jp-lyric">
 [02:45.24]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ユートピア<rt class="roma">yuutopia</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:45.24]只属于我的乌托邦</div>
 </div>
 
@@ -289,24 +298,28 @@ Bad mind <ruby>は<rt class="roma">wa</rt></ruby> <ruby>おさらば<rt class="r
 <div class="jp-lyric">
 <ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>鼻歌<rt class="furi">はなうた</rt><rt class="roma">hanauta</rt></ruby> <ruby>奏<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>でる<rt class="roma">deru</rt></ruby>
 </div>
+<div class="cn-lyric">哼着欢快的口哨</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>ラプソディ<rt class="roma">rapusodei</rt></ruby>
 </div>
+<div class="cn-lyric">只属于我的 狂想曲</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>胸<rt class="furi">むね</rt><rt class="roma">mune</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>内<rt class="furi">うち</rt><rt class="roma">uchi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>かけ<rt class="roma">kake</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>鍵<rt class="furi">かぎ</rt><rt class="roma">kagi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">将挂在心中的那把钥匙</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:03.03]<ruby>開<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いこ<rt class="roma">iko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>ひらり<rt class="roma">hirari</rt></ruby><ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>吹<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:03.03]去打开吧 随风轻轻飘荡</div>
 </div>
 
@@ -314,6 +327,7 @@ Bad mind <ruby>は<rt class="roma">wa</rt></ruby> <ruby>おさらば<rt class="r
 <div class="jp-lyric">
 <ruby>行く先<rt class="furi">ゆくさき</rt><rt class="roma">yukusaki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>一<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby> <ruby>きらり<rt class="roma">kirari</rt></ruby><ruby>光<rt class="furi">ひか</rt><rt class="roma">hika</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
+<div class="cn-lyric">目的地只有一个 向着闪耀的明天</div>
 </div>
 
 </div>

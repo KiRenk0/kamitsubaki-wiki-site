@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/goosuto警告wo唄u.jpg
 
 ## 作品概要
 
-Empty old Cityが2024-07-02にリリースしたシングル「ゴースト警告を唄う」。
+[Empty old City](/ja/artists/solo/empty-old-city)が2024-07-02にリリースしたシングル「ゴースト警告を唄う」。
 
 ## 視聴
 {{media-switcher::ゴースト警告を唄う}}

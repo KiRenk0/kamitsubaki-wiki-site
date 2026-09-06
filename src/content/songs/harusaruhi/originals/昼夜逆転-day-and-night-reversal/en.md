@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 ## Overview
 
-昼夜逆転 appears on SPICE OF LIFE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+昼夜逆転 appears on [SPICE OF LIFE](/en/albums/harusaruhi/spice-of-life) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -35,58 +35,69 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:04.96]yeah, yeah
 </div>
-<div class="trans-lyric">yeah, yeah</div>
+<div class="trans-lyric">
+[00:04.96]yeah, yeah
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:06.51]<ruby>昼<rt class="furi">ひる</rt><rt class="roma">hiru</rt></ruby>?<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>?<ruby>今<rt class="furi">こん</rt><rt class="roma">kon</rt></ruby>what time?
 </div>
-<div class="trans-lyric">Day? Night? Now what time?</div>
+<div class="trans-lyric">
+[00:06.51]Day? Night? Now what time?
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:09.61]2<ruby>時<rt class="furi">じ</rt><rt class="roma">ji</rt></ruby>〜4<ruby>時<rt class="furi">じ</rt><rt class="roma">ji</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>my time, yeah
 </div>
-<div class="trans-lyric">From 2 to 4 it's my time, yeah</div>
+<div class="trans-lyric">
+[00:09.61]From 2 to 4 it's my time, yeah
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:12.66]<ruby>昼<rt class="furi">ひる</rt><rt class="roma">hiru</rt></ruby>?<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>?<ruby>今<rt class="furi">こん</rt><rt class="roma">kon</rt></ruby>what time?
 </div>
+<div class="trans-lyric">[00:12.66]Day? Night? Now what time?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:15.85]<ruby>おやすみ<rt class="roma">oyasumi</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>sunrise, yeah
 </div>
-<div class="trans-lyric">I'll say goodnight at sunrise, yeah</div>
+<div class="trans-lyric">[00:15.85]I'll say goodnight at sunrise, yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:18.85]<ruby>昼<rt class="furi">ひる</rt><rt class="roma">hiru</rt></ruby>?<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>?<ruby>今<rt class="furi">こん</rt><rt class="roma">kon</rt></ruby>what time?
 </div>
+<div class="trans-lyric">[00:18.85]Day? Night? Now what time?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:21.98]2<ruby>時<rt class="furi">じ</rt><rt class="roma">ji</rt></ruby>〜4<ruby>時<rt class="furi">じ</rt><rt class="roma">ji</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>my time, yeah
 </div>
+<div class="trans-lyric">[00:21.98]From 2 to 4 it's my time, yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:25.12]<ruby>昼<rt class="furi">ひる</rt><rt class="roma">hiru</rt></ruby>?<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>?<ruby>今<rt class="furi">こん</rt><rt class="roma">kon</rt></ruby>what time?
 </div>
+<div class="trans-lyric">[00:25.12]Day? Night? Now what time?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:28.13]<ruby>おやすみ<rt class="roma">oyasumi</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>sunrise, yeah
 </div>
+<div class="trans-lyric">[00:28.13]I'll say goodnight at sunrise, yeah</div>
 </div>
 
 <div class="lyric-line">
@@ -100,14 +111,14 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:32.36]<ruby>昼<rt class="furi">ひる</rt><rt class="roma">hiru</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>reverse
 </div>
-<div class="trans-lyric">Day and night are reversed</div>
+<div class="trans-lyric">[00:32.36]Day and night are reversed</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:34.33]<ruby>みんな<rt class="roma">minna</rt></ruby>sleep now
 </div>
-<div class="trans-lyric">Everyone's sleeping now</div>
+<div class="trans-lyric">[00:34.33]Everyone's sleeping now</div>
 </div>
 
 <div class="lyric-line">
@@ -128,7 +139,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:40.10]<ruby>深夜<rt class="furi">しんや</rt><rt class="roma">shin'ya</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>OHAYO
 </div>
-<div class="trans-lyric">Saying 'Good morning' in the dead of night</div>
+<div class="trans-lyric">[00:40.10]Saying 'Good morning' in the dead of night</div>
 </div>
 
 <div class="lyric-line">
@@ -163,7 +174,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:47.94]<ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>おしゃべり<rt class="roma">oshaberi</rt></ruby>
 </div>
-<div class="trans-lyric">Non-stop chatter</div>
+<div class="trans-lyric">[00:47.94]Non-stop chatter</div>
 </div>
 
 <div class="lyric-line">
@@ -198,48 +209,56 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:56.08]<ruby>昼<rt class="furi">ひる</rt><rt class="roma">hiru</rt></ruby>?<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>?<ruby>今<rt class="furi">こん</rt><rt class="roma">kon</rt></ruby>what time?
 </div>
+<div class="trans-lyric">[00:56.08]Day? Night? Now what time?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:59.19]2<ruby>時<rt class="furi">じ</rt><rt class="roma">ji</rt></ruby>〜4<ruby>時<rt class="furi">じ</rt><rt class="roma">ji</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>my time, yeah
 </div>
+<div class="trans-lyric">[00:59.19]From 2 to 4 it's my time, yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:02.21]<ruby>昼<rt class="furi">ひる</rt><rt class="roma">hiru</rt></ruby>?<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>?<ruby>今<rt class="furi">こん</rt><rt class="roma">kon</rt></ruby>what time?
 </div>
+<div class="trans-lyric">[01:02.21]Day? Night? Now what time?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:05.41]<ruby>おやすみ<rt class="roma">oyasumi</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>sunrise, yeah
 </div>
+<div class="trans-lyric">[01:05.41]I'll say goodnight at sunrise, yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:08.43]<ruby>昼<rt class="furi">ひる</rt><rt class="roma">hiru</rt></ruby>?<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>?<ruby>今<rt class="furi">こん</rt><rt class="roma">kon</rt></ruby>what time?
 </div>
+<div class="trans-lyric">[01:08.43]Day? Night? Now what time?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:11.54]2<ruby>時<rt class="furi">じ</rt><rt class="roma">ji</rt></ruby>〜4<ruby>時<rt class="furi">じ</rt><rt class="roma">ji</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>my time, yeah
 </div>
+<div class="trans-lyric">[01:11.54]From 2 to 4 it's my time, yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:14.65]<ruby>昼<rt class="furi">ひる</rt><rt class="roma">hiru</rt></ruby>?<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>?<ruby>今<rt class="furi">こん</rt><rt class="roma">kon</rt></ruby>what time?
 </div>
+<div class="trans-lyric">[01:14.65]Day? Night? Now what time?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:17.76]<ruby>おやすみ<rt class="roma">oyasumi</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>sunrise, yeah
 </div>
+<div class="trans-lyric">[01:17.76]I'll say goodnight at sunrise, yeah</div>
 </div>
 
 <br />
@@ -248,7 +267,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [01:22.37]Yeah Uh...
 </div>
-<div class="trans-lyric">Yeah Uh...</div>
+<div class="trans-lyric">[01:22.37]Yeah Uh...</div>
 </div>
 
 <br />
@@ -257,7 +276,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [01:25.50]What time? What time?
 </div>
-<div class="trans-lyric">What time? What time?</div>
+<div class="trans-lyric">[01:25.50]What time? What time?</div>
 </div>
 
 <br />
@@ -266,6 +285,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [01:28.67]Yeah Uh...
 </div>
+<div class="trans-lyric">[01:28.67]Yeah Uh...</div>
 </div>
 
 <br />
@@ -274,6 +294,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [01:31.65]What time? What time?
 </div>
+<div class="trans-lyric">[01:31.65]What time? What time?</div>
 </div>
 
 <div class="lyric-line">
@@ -287,6 +308,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [01:36.28]<ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>冴<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>1<ruby>ミリ<rt class="roma">miri</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>眠<rt class="furi">ねむ</rt><rt class="roma">nemu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="trans-lyric">[01:36.28]My eyes are sharp, not a bit sleepy</div>
 </div>
 
@@ -294,20 +316,23 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [01:39.28]<ruby>煌々<rt class="furi">こうこう</rt><rt class="roma">koukou</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>つける<rt class="roma">tsukeru</rt></ruby>light
 </div>
-<div class="trans-lyric">I turn on the bright light</div>
+
+<div class="trans-lyric">[01:39.28]I turn on the bright light</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:40.84]<ruby>昔<rt class="furi">むかし</rt><rt class="roma">mukashi</rt></ruby><ruby>よく<rt class="roma">yoku</rt></ruby><ruby>ママ<rt class="roma">mama</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>fight
 </div>
-<div class="trans-lyric">Long ago, I often fought with mom</div>
+
+<div class="trans-lyric">[01:40.84]Long ago, I often fought with mom</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:42.39]「<ruby>早<rt class="furi">はや</rt><rt class="roma">haya</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>寝<rt class="furi">ね</rt><rt class="roma">ne</rt></ruby><ruby>なさい<rt class="roma">nasai</rt></ruby>」
 </div>
+
 <div class="trans-lyric">[01:42.39]Go to sleep early!</div>
 </div>
 
@@ -315,6 +340,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [01:43.74]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby>
 </div>
+
 <div class="trans-lyric">[01:43.74]Now I realize that was love</div>
 </div>
 
@@ -322,20 +348,23 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [01:45.40]<ruby>深夜<rt class="furi">しんや</rt><rt class="roma">shin'ya</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>返信<rt class="furi">へんしん</rt><rt class="roma">henshin</rt></ruby> I’m sorry
 </div>
-<div class="trans-lyric">I always reply late at night, I'm sorry</div>
+
+<div class="trans-lyric">[01:45.40]I always reply late at night, I'm sorry</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:48.77]<ruby>みんな<rt class="roma">minna</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>かける<rt class="roma">kakeru</rt></ruby><ruby>心配<rt class="furi">しんぱい</rt><rt class="roma">shinpai</rt></ruby> Don’t worry
 </div>
-<div class="trans-lyric">I cause everyone worry, don't worry</div>
+
+<div class="trans-lyric">[01:48.77]I cause everyone worry, don't worry</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:51.74]<ruby>ちゃんと<rt class="roma">chanto</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>でも<rt class="roma">demo</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+
 <div class="trans-lyric">[01:51.74]I want to be proper, but I want to see the rest</div>
 </div>
 
@@ -343,6 +372,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [01:54.50]<ruby>ああ<rt class="roma">aa</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>長<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
+
 <div class="trans-lyric">[01:54.50]Ah, tonight too, the night is long</div>
 </div>
 
@@ -350,48 +380,56 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [01:58.01]<ruby>昼<rt class="furi">ひる</rt><rt class="roma">hiru</rt></ruby>?<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>?<ruby>今<rt class="furi">こん</rt><rt class="roma">kon</rt></ruby>what time?
 </div>
+<div class="trans-lyric">[01:58.01]Day? Night? Now what time?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:01.07]2<ruby>時<rt class="furi">じ</rt><rt class="roma">ji</rt></ruby>〜4<ruby>時<rt class="furi">じ</rt><rt class="roma">ji</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>my time, yeah
 </div>
+<div class="trans-lyric">[02:01.07]From 2 to 4 it's my time, yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:04.18]<ruby>昼<rt class="furi">ひる</rt><rt class="roma">hiru</rt></ruby>?<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>?<ruby>今<rt class="furi">こん</rt><rt class="roma">kon</rt></ruby>what time?
 </div>
+<div class="trans-lyric">[02:04.18]Day? Night? Now what time?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:07.29]<ruby>おやすみ<rt class="roma">oyasumi</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>sunrise, yeah
 </div>
+<div class="trans-lyric">[02:07.29]I'll say goodnight at sunrise, yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:10.36]<ruby>昼<rt class="furi">ひる</rt><rt class="roma">hiru</rt></ruby>?<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>?<ruby>今<rt class="furi">こん</rt><rt class="roma">kon</rt></ruby>what time?
 </div>
+<div class="trans-lyric">[02:10.36]Day? Night? Now what time?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:13.47]2<ruby>時<rt class="furi">じ</rt><rt class="roma">ji</rt></ruby>〜4<ruby>時<rt class="furi">じ</rt><rt class="roma">ji</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>my time, yeah
 </div>
+<div class="trans-lyric">[02:13.47]From 2 to 4 it's my time, yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:16.64]<ruby>昼<rt class="furi">ひる</rt><rt class="roma">hiru</rt></ruby>?<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>?<ruby>今<rt class="furi">こん</rt><rt class="roma">kon</rt></ruby>what time?
 </div>
+<div class="trans-lyric">[02:16.64]Day? Night? Now what time?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:19.69]<ruby>おやすみ<rt class="roma">oyasumi</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>sunrise, yeah
 </div>
+<div class="trans-lyric">[02:19.69]I'll say goodnight at sunrise, yeah</div>
 </div>
 
 <br />
@@ -400,46 +438,56 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [02:24.38]Tick-tack Tick-tack
 </div>
-<div class="trans-lyric">Tick-tack Tick-tack</div>
+
+<div class="trans-lyric">[02:24.38]Tick-tack Tick-tack</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:26.75]It’s 2 in the morning
 </div>
-<div class="trans-lyric">It’s 2 in the morning</div>
+
+<div class="trans-lyric">[02:26.75]It’s 2 in the morning</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:30.32]Tick-tack Tick-tack
 </div>
+
+<div class="trans-lyric">[02:30.32]Tick-tack Tick-tack</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:32.91]It’s 3 in the morning
 </div>
-<div class="trans-lyric">It’s 3 in the morning</div>
+
+<div class="trans-lyric">[02:32.91]It’s 3 in the morning</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:36.72]Tick-tack Tick-tack
 </div>
+
+<div class="trans-lyric">[02:36.72]Tick-tack Tick-tack</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:39.18]It’s 4 in the morning
 </div>
-<div class="trans-lyric">It’s 4 in the morning</div>
+
+<div class="trans-lyric">[02:39.18]It’s 4 in the morning</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:42.94]Tick-tack Tick-tack
 </div>
+
+<div class="trans-lyric">[02:42.94]Tick-tack Tick-tack</div>
 </div>
 
 <br />
@@ -448,6 +496,8 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [02:45.98]Tick-tack Tick-tack
 </div>
+
+<div class="trans-lyric">[02:45.98]Tick-tack Tick-tack</div>
 </div>
 
 <br />
@@ -456,6 +506,8 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [02:52.19]Tick-tack Tick-tack
 </div>
+
+<div class="trans-lyric">[02:52.19]Tick-tack Tick-tack</div>
 </div>
 
 <br />
@@ -464,14 +516,16 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [02:57.63]yeah yeah
 </div>
-<div class="trans-lyric">yeah yeah</div>
+
+<div class="trans-lyric">[02:57.63]yeah yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:59.09]Good night
 </div>
-<div class="trans-lyric">Good night</div>
+
+<div class="trans-lyric">[02:59.09]Good night</div>
 </div>
 
 <br />

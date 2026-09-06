@@ -301,18 +301,21 @@ image: /images/songs/isekaijoucho/single-1781819764.jpg
 <div class="jp-lyric">
 [03:22.52]<ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="cn-lyric">[03:22.52]这鲜明的世界</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:26.17]<ruby>ただ<rt class="roma">tada</rt></ruby> <ruby>ただ<rt class="roma">tada</rt></ruby> <ruby>もがく<rt class="roma">mogaku</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:26.17]仅仅 仅仅 挣扎着</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 ♪
 </div>
+
 <div class="cn-lyric">♪</div>
 </div>
 

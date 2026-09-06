@@ -84,6 +84,7 @@ Ha, ha... uh... ha, ha
 <div class="jp-lyric">
 Ha, ha... uh... ha, ha
 </div>
+<div class="trans-lyric">Ha, ha... uh... ha, ha</div>
 </div>
 
 <br />
@@ -189,6 +190,7 @@ Wow, yeah, yeah
 <div class="jp-lyric">
 <ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>奪<rt class="furi">うば</rt><rt class="roma">uba</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">Ambiguity can't take it away</div>
 </div>
 
 <div class="lyric-line">
@@ -202,6 +204,7 @@ Wow, yeah, yeah
 <div class="jp-lyric">
 <ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>映<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">Ambiguity can't make it shine</div>
 </div>
 
 <div class="lyric-line">
@@ -217,24 +220,28 @@ Wow, yeah, yeah
 <div class="jp-lyric">
 <ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>奪<rt class="furi">うば</rt><rt class="roma">uba</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">Ambiguity can't take it away</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>浮き浮<rt class="furi">うきう</rt><rt class="roma">ukiu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby>（<ruby>浮き浮<rt class="furi">うきう</rt><rt class="roma">ukiu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby>）
 </div>
+<div class="trans-lyric">My heart is light and airy (airy)</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>映<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">Ambiguity can't make it shine</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ブギウギ<rt class="roma">bugiugi</rt></ruby> <ruby>ブギウギ<rt class="roma">bugiugi</rt></ruby>
 </div>
+<div class="trans-lyric">My heart is boogie-woogie, boogie-woogie</div>
 </div>
 
 <br />
@@ -250,6 +257,7 @@ Wow, yeah, yeah
 <div class="jp-lyric">
 <ruby>時計<rt class="furi">とけい</rt><rt class="roma">tokei</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>まだ<rt class="roma">mada</rt></ruby><ruby>足<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>足<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">Stop the clock, still not enough, not enough</div>
 </div>
 
 <div class="lyric-line">
@@ -272,12 +280,14 @@ Wow, yeah, yeah
 <div class="jp-lyric">
 <ruby>この<rt class="roma">kono</rt></ruby><ruby>身<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>晒<rt class="furi">さら</rt><rt class="roma">sara</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>その<rt class="roma">sono</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">Even if I expose this body, I won't let go of that hand</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>まだ<rt class="roma">mada</rt></ruby><ruby>足<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>足<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>ぐ<rt class="roma">gu</rt></ruby><ruby>レール<rt class="roma">reeru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>上<rt class="furi">うえ</rt><rt class="roma">ue</rt></ruby>
 </div>
+<div class="trans-lyric">Still not enough, not enough, on the connecting rails</div>
 </div>
 
 <div class="lyric-line">
@@ -291,6 +301,7 @@ Wow, yeah, yeah
 <div class="jp-lyric">
 <ruby>まだ<rt class="roma">mada</rt></ruby><ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>また<rt class="roma">mata</rt></ruby><ruby>逢<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>逢<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+
 <div class="trans-lyric">Still not parting, not parting, I want to see you again, want to see you</div>
 </div>
 
@@ -298,6 +309,7 @@ Wow, yeah, yeah
 <div class="jp-lyric">
 Hold on me
 </div>
+
 <div class="trans-lyric">Hold on me</div>
 </div>
 
@@ -307,24 +319,28 @@ Hold on me
 <div class="jp-lyric">
 <ruby>この<rt class="roma">kono</rt></ruby><ruby>身<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>晒<rt class="furi">さら</rt><rt class="roma">sara</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>その<rt class="roma">sono</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">Even if I expose this body, I won't let go of that hand</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>まだ<rt class="roma">mada</rt></ruby><ruby>足<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>足<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>ぐ<rt class="roma">gu</rt></ruby><ruby>レール<rt class="roma">reeru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>上<rt class="furi">うえ</rt><rt class="roma">ue</rt></ruby>
 </div>
+<div class="trans-lyric">Still not enough, not enough, on the connecting rails</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Hold on me <ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">Hold on me, even if I draw it, my feelings won't reach</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>まだ<rt class="roma">mada</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>まだ<rt class="roma">mada</rt></ruby><ruby>足<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>足<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="trans-lyric">It's not over yet, not over, still not enough, not enough</div>
 </div>
 
@@ -334,6 +350,7 @@ Hold on me <ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby>
 <div class="jp-lyric">
 <ruby>この<rt class="roma">kono</rt></ruby><ruby>身<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>焦<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>がし<rt class="roma">gashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>その<rt class="roma">sono</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>汚<rt class="furi">よご</rt><rt class="roma">yogo</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="trans-lyric">Even if I burn this body, I won't dirty that hand</div>
 </div>
 
@@ -341,6 +358,7 @@ Hold on me <ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby>
 <div class="jp-lyric">
 <ruby>まだ<rt class="roma">mada</rt></ruby><ruby>負<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>負<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>掴<rt class="furi">つか</rt><rt class="roma">tsuka</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>レース<rt class="roma">reesu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>上<rt class="furi">うえ</rt><rt class="roma">ue</rt></ruby>
 </div>
+
 <div class="trans-lyric">I still won't lose, won't lose, on the race I will grasp</div>
 </div>
 
@@ -348,6 +366,7 @@ Hold on me <ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby>
 <div class="jp-lyric">
 <ruby>どんなに<rt class="roma">donnani</rt></ruby><ruby>眩<rt class="furi">まぶ</rt><rt class="roma">mabu</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>逸<rt class="furi">そ</rt><rt class="roma">so</rt></ruby><ruby>らさ<rt class="roma">rasa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="trans-lyric">No matter how dazzling, I won't look away</div>
 </div>
 
@@ -355,6 +374,7 @@ Hold on me <ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby>
 <div class="jp-lyric">
 <ruby>まだ<rt class="roma">mada</rt></ruby><ruby>わから<rt class="roma">wakara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>わから<rt class="roma">wakara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> ２つ<ruby>あがる<rt class="roma">agaru</rt></ruby><ruby>あがる<rt class="roma">agaru</rt></ruby><ruby>星<rt class="furi">ほし</rt><rt class="roma">hoshi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>眺<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>め<rt class="roma">me</rt></ruby>
 </div>
+
 <div class="trans-lyric">I still don't know, don't know, gazing at two rising, rising stars</div>
 </div>
 
@@ -364,36 +384,42 @@ Hold on me <ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby>
 <div class="jp-lyric">
 <ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>奪<rt class="furi">うば</rt><rt class="roma">uba</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">Ambiguity can't take it away</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>浮き浮<rt class="furi">うきう</rt><rt class="roma">ukiu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby>
 </div>
+<div class="trans-lyric">My heart is light and airy</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>映<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">Ambiguity can't make it shine</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ブギウギ<rt class="roma">bugiugi</rt></ruby> <ruby>ブギウギ<rt class="roma">bugiugi</rt></ruby>
 </div>
+<div class="trans-lyric">My heart is boogie-woogie, boogie-woogie</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>霧<rt class="furi">きり</rt><rt class="roma">kiri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>やっと<rt class="roma">yatto</rt></ruby><ruby>出会<rt class="furi">であ</rt><rt class="roma">dea</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="trans-lyric">In the mist, we finally met</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>面影<rt class="furi">おもかげ</rt><rt class="roma">omokage</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>す<rt class="roma">su</rt></ruby>
 </div>
+<div class="trans-lyric">Searching for that memory again</div>
 </div>
 
 <br />
@@ -402,30 +428,35 @@ Hold on me <ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby>
 <div class="jp-lyric">
 <ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>奪<rt class="furi">うば</rt><rt class="roma">uba</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">Ambiguity can't take it away</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>浮き浮<rt class="furi">うきう</rt><rt class="roma">ukiu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby>（<ruby>浮き浮<rt class="furi">うきう</rt><rt class="roma">ukiu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby>）
 </div>
+<div class="trans-lyric">My heart is light and airy (airy)</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>映<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">Ambiguity can't make it shine</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ブギウギ<rt class="roma">bugiugi</rt></ruby> <ruby>ブギウギ<rt class="roma">bugiugi</rt></ruby>
 </div>
+<div class="trans-lyric">My heart is boogie-woogie, boogie-woogie</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>そっと<rt class="roma">sotto</rt></ruby><ruby>芽生<rt class="furi">めば</rt><rt class="roma">meba</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+
 <div class="trans-lyric">Gently sprouted in the days</div>
 </div>
 
@@ -433,6 +464,7 @@ Hold on me <ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby>
 <div class="jp-lyric">
 <ruby>眼差<rt class="furi">まなざ</rt><rt class="roma">manaza</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>重<rt class="furi">かさ</rt><rt class="roma">kasa</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>
 </div>
+
 <div class="trans-lyric">Our gazes overlap</div>
 </div>
 
@@ -442,12 +474,14 @@ Hold on me <ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby>
 <div class="jp-lyric">
 <ruby>霧<rt class="furi">きり</rt><rt class="roma">kiri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>やっと<rt class="roma">yatto</rt></ruby><ruby>出会<rt class="furi">であ</rt><rt class="roma">dea</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="trans-lyric">In the mist, we finally met</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>面影<rt class="furi">おもかげ</rt><rt class="roma">omokage</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>す<rt class="roma">su</rt></ruby>
 </div>
+<div class="trans-lyric">Searching for that memory again</div>
 </div>
 
 <br />
@@ -456,6 +490,7 @@ Hold on me <ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby>
 <div class="jp-lyric">
 Ha, ha... uh... ha, ha... uh...
 </div>
+
 <div class="trans-lyric">Ha, ha... uh... ha, ha... uh...</div>
 </div>
 

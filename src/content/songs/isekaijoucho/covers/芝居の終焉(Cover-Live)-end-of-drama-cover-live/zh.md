@@ -19,7 +19,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 
 ## 作品简介
 
-《芝居の終焉 (Cover Live)》收录于《CANDY LIVE 3 (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《芝居の終焉 (Cover Live)》收录于《[CANDY LIVE 3](/zh/albums/isekaijoucho/candy-live-3) (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -315,36 +315,42 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 [02:43.43]<ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:43.43]无论笑着还是哭着</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:46.75]<ruby>借り物<rt class="furi">かりもの</rt><rt class="roma">karimono</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>エモ<rt class="roma">emo</rt></ruby> <ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>偽物<rt class="furi">にせもの</rt><rt class="roma">nisemono</rt></ruby><ruby>じゃん<rt class="roma">jan</rt></ruby>
 </div>
+<div class="cn-lyric">[02:46.75]借来的情感 全都是虚假的吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:50.60]<ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>嘘<rt class="furi">うそ</rt><rt class="roma">uso</rt></ruby><ruby>臭<rt class="furi">くさ</rt><rt class="roma">kusa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:50.60]即使呐喊也显得虚假</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:53.82]<ruby>リハーサル<rt class="roma">rihaasaru</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="cn-lyric">[02:53.82]因为以为只是排练</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:57.54]<ruby>バレ<rt class="roma">bare</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby><ruby>本番<rt class="furi">ほんばん</rt><rt class="roma">honban</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:57.54]已经暴露了 已经是正式演出了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:01.30]<ruby>取り返<rt class="furi">とりかえ</rt><rt class="roma">torikae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>つか<rt class="roma">tsuka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:01.30]已经无法挽回</div>
 </div>
 
@@ -352,12 +358,14 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 [03:04.95]<ruby>白<rt class="furi">しら</rt><rt class="roma">shira</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>切<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby><ruby>舞台<rt class="furi">ぶたい</rt><rt class="roma">butai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>立<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[03:04.95]站在冷场的舞台上</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:08.43]<ruby>求<rt class="furi">もと</rt><rt class="roma">moto</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>しか<rt class="roma">shika</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:08.43]一直寻求的答案只在那里</div>
 </div>
 

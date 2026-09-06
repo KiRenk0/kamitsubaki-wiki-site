@@ -65,7 +65,7 @@ CIEL は [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) のバー�
 
 ## 役割と創作上の位置づけ
 
-CIEL のキャラクター設定は「俯いていた少女が空を仰ぐ」という変化の物語を中心に据えている。青い髪は空を象徴すると同時に、閉じた内面から外の世界へ目を向ける心理的転換を暗示する。歌声は澄んで優しく、V.W.P メンバーたちのより劇的な表現とは異なるポジションを占める。
+CIEL のキャラクター設定は「俯いていた少女が空を仰ぐ」という変化の物語を中心に据えている。青い髪は空を象徴すると同時に、閉じた内面から外の世界へ目を向ける心理的転換を暗示する。歌声は澄んで優しく、[V.W.P](/ja/artists/vwp/vwp) メンバーたちのより劇的な表現とは異なるポジションを占める。
 
 「空爽」では Sooda の声との独特の補完関係が生まれ、バーチャルとリアル、映像と音楽の境界線が意図的に曖昧にされている。神椿が追求する「次元横断」の概念を体現する活動の一つと言える。
 
@@ -76,13 +76,13 @@ CIEL のキャラクター設定は「俯いていた少女が空を仰ぐ」と
 - **2023年2月**：「KAMITSUBAKI FES'23」に参加し、大型イベントに初出演。
 - **2024年5月**：1st VIRTUAL LIVE「空想劇-神椿市伍番街-」を開催。
 - **2025年7月**：「KAMITSUBAKI FES ’25 / Singularity Live Vol.4」に参加。
-- **2025年12月**：活動休止から復帰し、単独バーチャルミニライブ「再晴」を開催。
+- **2025年12月**：活動休止から復帰し、単独バーチャルミニライブ「[再晴](/ja/albums/ciel/再晴-1875196168)」を開催。
 - **2026年1月**：[Sooda](/ja/artists/creators/sooda) と跨次元バーチャルユニット「[空爽](/ja/artists/solo/kuusou) / KUUSOU」を結成、デビュー曲「[透明流星ラプソディ](/ja/songs/kuusou/originals/透明流星rapusodei)」をリリース。
 
 ## 代表作品と関連項目
 
 - シングル：「[眼裏の懐疑](/ja/songs/ciel/originals/眼裏no懐疑)」「[窓を開けて](/ja/songs/ciel/originals/窓wo開kete)」
-- 映像作品：[Rim](/ja/artists/vwp/rim) × [ヰ世界情緒](/ja/artists/vwp/isekaijoucho) TWO-MAN LIVE「Singularity Live」（CIEL 出演）
+- 映像作品：[Rim](/ja/artists/vwp/rim) × [ヰ世界情緒](/ja/artists/vwp/isekaijoucho) TWO-MAN LIVE「[Singularity Live](/ja/albums/rim/singularity-live)」（CIEL 出演）
 - ユニットデビュー曲：「透明流星ラプソディ」（空爽名義）
 
 あわせて読むとつながりが見えやすい項目：

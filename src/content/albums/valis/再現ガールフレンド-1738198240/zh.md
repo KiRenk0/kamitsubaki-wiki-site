@@ -62,14 +62,14 @@ tracks:
 
 ## 简介
 
-VALIS于 2024-03-05 发行的Album《再現ガールフレンド》,共收录 10 首歌曲。
+[VALIS](/zh/artists/solo/valis)于 2024-03-05 发行的Album《再現ガールフレンド》,共收录 10 首歌曲。
 
 ## 收录曲
 
 1. 再現ガールフレンド(VALIS)（03:45）
 2. 空想スパイラル(VALIS)（03:54）
 3. 妄想ミッドナイト(VALIS)（03:59）
-4. 乙女的サイコパシー(VALIS)（03:36）
+4. [乙女的サイコパシー(VALIS)](/zh/songs/valis/originals/乙女的saikopashii-valis)（03:36）
 5. 閃光フラグメント(VALIS)（04:36）
 6. 瞬間リスキーガール(VALIS)（03:16）
 7. 奪還シンデレラ(VALIS)（03:32）

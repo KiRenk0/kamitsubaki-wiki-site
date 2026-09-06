@@ -257,24 +257,28 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [03:12.97]<ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby> <ruby>与<rt class="furi">あた</rt><rt class="roma">ata</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[03:12.97]给予痛苦</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:19.97]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby> <ruby>確<rt class="furi">たし</rt><rt class="roma">tashi</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby>
 </div>
+<div class="cn-lyric">[03:19.97]比爱更真实的东西</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:27.95]<ruby>罰<rt class="furi">ばち</rt><rt class="roma">bachi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>与<rt class="furi">あた</rt><rt class="roma">ata</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[03:27.95]给予惩罚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:34.96]<ruby>ずっと<rt class="roma">zutto</rt></ruby> <ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby>
 </div>
+<div class="cn-lyric">[03:34.96]为了永不分离</div>
 </div>
 
 <br />
@@ -283,6 +287,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [03:44.96]Tangled up in you, you, you, you,
 </div>
+<div class="cn-lyric">[03:44.96]Tangled up in you, you, you, you,</div>
 </div>
 
 <div class="lyric-line">
@@ -296,6 +301,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [03:52.66]You know that I'll never leave you
 </div>
+<div class="cn-lyric">[03:52.66]You know that I'll never leave you</div>
 </div>
 
 <div class="lyric-line">
@@ -309,18 +315,21 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [04:00.19]Tumbling down, down, down, down, down,
 </div>
+<div class="cn-lyric">[04:00.19]Tumbling down, down, down, down, down,</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:02.83]down, down, down, down, down, down
 </div>
+<div class="cn-lyric">[04:02.83]down, down, down, down, down, down</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:06.54]<ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>閉<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:06.54]闭上眼睛</div>
 </div>
 
@@ -328,6 +337,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [04:08.18]<ruby>嘘<rt class="furi">うそ</rt><rt class="roma">uso</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>操<rt class="furi">あやつ</rt><rt class="roma">ayatsu</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>楽園<rt class="furi">らくえん</rt><rt class="roma">rakuen</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:08.18]被谎言操控的最后乐园</div>
 </div>
 
@@ -337,18 +347,21 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [04:16.04]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>わから<rt class="roma">wakara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby>
 </div>
+<div class="cn-lyric">[04:16.04]无人知晓的两人之事</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:19.73]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>憎<rt class="furi">にく</rt><rt class="roma">niku</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[04:19.73]你越是憎恨我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:23.74]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>いって<rt class="roma">itte</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>安心<rt class="furi">あんしん</rt><rt class="roma">anshin</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>感覚<rt class="furi">かんかく</rt><rt class="roma">kankaku</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:23.74]无论到哪里都安心的感觉</div>
 </div>
 
@@ -358,6 +371,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [04:31.31]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>望<rt class="furi">のぞ</rt><rt class="roma">nozo</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby> <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:31.31]变成某人所期望的我</div>
 </div>
 
@@ -365,6 +379,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [04:35.08]<ruby>そしたら<rt class="roma">soshitara</rt></ruby> <ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>せる<rt class="roma">seru</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:35.08]那样的话 总有一天能相爱吗</div>
 </div>
 
@@ -372,6 +387,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [04:38.77]<ruby>乾<rt class="furi">かわ</rt><rt class="roma">kawa</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>孤独<rt class="furi">こどく</rt><rt class="roma">kodoku</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>自己<rt class="furi">じこ</rt><rt class="roma">jiko</rt></ruby><ruby>欺瞞<rt class="furi">ぎまん</rt><rt class="roma">giman</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>シンパシー<rt class="roma">shinpashii</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:38.77]干渴与孤独 自我欺骗的共鸣</div>
 </div>
 

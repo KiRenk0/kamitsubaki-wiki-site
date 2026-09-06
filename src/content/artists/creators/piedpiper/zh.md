@@ -78,7 +78,7 @@ PIEDPIPER 是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 的�
 推荐搭配阅读：
 
 - [花譜 / KAF](/zh/artists/vwp/kaf)
-- [V.W.P](/zh/artists/vwp)
+- [V.W.P](/zh/artists/vwp/vwp)
 
 ## 参考资料
 

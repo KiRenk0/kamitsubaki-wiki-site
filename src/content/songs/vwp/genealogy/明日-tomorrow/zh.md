@@ -220,42 +220,49 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [02:31.66]<ruby>ありがとう<rt class="roma">arigatou</rt></ruby>
 </div>
+<div class="cn-lyric">[02:31.66]谢谢你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:33.46]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[02:33.46]你所给予我的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:37.34]<ruby>かじかん<rt class="roma">kajikan</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[02:37.34]冻僵的手</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:38.80]<ruby>暖<rt class="furi">あたた</rt><rt class="roma">atata</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby><ruby>温<rt class="furi">ぬく</rt><rt class="roma">nuku</rt></ruby><ruby>もり<rt class="roma">mori</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:38.80]温暖的体温</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:42.96]<ruby>この<rt class="roma">kono</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>居<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
 </div>
+<div class="cn-lyric">[02:42.96]如果能就这样一直存在</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:46.71]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[02:46.71]仅此而已</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:48.67]<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>透明<rt class="furi">とうめい</rt><rt class="roma">toumei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>
 </div>
+<div class="cn-lyric">[02:48.67]世界就会变得透明</div>
 </div>
 
 <br />
@@ -264,6 +271,7 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [02:54.43]<ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:54.43]我活着哦</div>
 </div>
 
@@ -271,6 +279,7 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [02:56.28]<ruby>さぁ<rt class="roma">saa</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby> <ruby>咲き誇<rt class="furi">さきほこ</rt><rt class="roma">sakihoko</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:56.28]来吧 话语 尽情绽放</div>
 </div>
 
@@ -278,6 +287,7 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [03:00.01]<ruby>不確<rt class="furi">ふたし</rt><rt class="roma">futashi</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>人生<rt class="furi">じんせい</rt><rt class="roma">jinsei</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>真ん中<rt class="furi">まんなか</rt><rt class="roma">mannaka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:00.01]在不确定的人生中央</div>
 </div>
 
@@ -285,6 +295,7 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [03:05.74]<ruby>そのまま<rt class="roma">sonomama</rt></ruby><ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>奥<rt class="furi">おく</rt><rt class="roma">oku</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>駆け出<rt class="furi">かけだ</rt><rt class="roma">kakeda</rt></ruby><ruby>す<rt class="roma">su</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:05.74]就这样奔向明天的深处</div>
 </div>
 
@@ -292,6 +303,7 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [03:11.42]<ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:11.42]牵着手</div>
 </div>
 
@@ -299,6 +311,7 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [03:14.01]<ruby>独<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:14.01]因为不再是一个人</div>
 </div>
 

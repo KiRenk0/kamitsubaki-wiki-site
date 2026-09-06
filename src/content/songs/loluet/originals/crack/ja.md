@@ -17,7 +17,7 @@ image: /images/songs/loluet/crack.jpg
 
 ## 作品概要
 
-LOLUETが2024-11-19にリリースしたシングル「crack」。
+[LOLUET](/ja/artists/solo/loluet)が2024-11-19にリリースしたシングル「crack」。
 
 ## 視聴
 {{media-switcher::crack}}

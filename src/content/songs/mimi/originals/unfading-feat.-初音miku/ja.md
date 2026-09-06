@@ -17,7 +17,7 @@ image: /images/songs/mimi/unfading-feat.-初音miku.jpg
 
 ## 作品概要
 
-MIMIが2024-05-07にリリースしたシングル「UNFADING (feat. 初音ミク)」。
+[MIMI](/ja/artists/creators/mimi)が2024-05-07にリリースしたシングル「UNFADING (feat. 初音ミク)」。
 
 ## 視聴
 {{media-switcher::UNFADING (feat. 初音ミク)}}

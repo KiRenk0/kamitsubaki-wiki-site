@@ -17,7 +17,7 @@ image: /images/songs/mimi/柔ku,hodoite-feat.-初音miku-&-重音teto.jpg
 
 ## 作品概要
 
-MIMIが2026-02-10にリリースしたシングル「柔く、ほどいて (feat. 初音ミク & 重音テト)」。
+[MIMI](/ja/artists/creators/mimi)が2026-02-10にリリースしたシングル「柔く、ほどいて (feat. 初音ミク & 重音テト)」。
 
 ## 視聴
 {{media-switcher::柔く、ほどいて (feat. 初音ミク & 重音テト)}}

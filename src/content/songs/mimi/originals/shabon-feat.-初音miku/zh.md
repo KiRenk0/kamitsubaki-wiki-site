@@ -17,7 +17,7 @@ image: /images/songs/mimi/shabon-feat.-初音miku.jpg
 
 ## 作品简介
 
-MIMI于 2025-06-25 发行的单曲《シャボン (feat. 初音ミク)》。
+[MIMI](/zh/artists/creators/mimi)于 2025-06-25 发行的单曲《シャボン (feat. 初音ミク)》。
 
 ## 试听
 {{media-switcher::シャボン (feat. 初音ミク)}}

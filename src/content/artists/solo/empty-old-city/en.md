@@ -72,10 +72,10 @@ This approach has resonated strongly with listeners, particularly through single
 ## Activity History
 
 - 2021: Debuted with the 1st Single "Urban Cruise."
-- 2024.01: Released the 11th Single "Chronicle A," which surpassed 12 million views on YouTube and became a breakout hit.
-- 2025.09.11: Released the Concept EP *From Noir into Clair*.
+- 2024.01: Released the 11th Single "[Chronicle A](/en/songs/empty-old-city/originals/chronicle-a)," which surpassed 12 million views on YouTube and became a breakout hit.
+- 2025.09.11: Released the Concept EP *[From Noir into Clair](/en/albums/empty-old-city/from-noir-into-clair-1840911030)*.
 - 2025.10.19: Held the 5th Anniversary Live "Quintennial: recall" at Spotify O-EAST, marking a major milestone.
-- 2026.04.22: Released the 2nd Album *Strings in Owl*.
+- 2026.04.22: Released the 2nd Album *[Strings in Owl](/en/albums/empty-old-city/strings-in-owl-1888375903)*.
 - 2026.06.02: Announced the 2nd ONE-MAN LIVE.
 
 - September 2026: Transferred to [KYOKAI STUDIO](/en/projects/labels/kyokai-studio) as part of THINKR's studio reorganization (formerly under the [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) system).
@@ -84,7 +84,7 @@ This approach has resonated strongly with listeners, particularly through single
 
 - Albums: *Strings in Owl* (2nd Album, 2026)
 - Concept EP: *From Noir into Clair* (2025)
-- Key singles: "Chronicle A" (11th), "Daisy Crown" (16th), "Death Designer" (15th), "Astronomy" (14th), "Ghost Keikai wo Utau" (13th), "Buffer" (12th)
+- Key singles: "Chronicle A" (11th), "[Daisy Crown](/en/songs/empty-old-city/originals/daisy-crown)" (16th), "[Death Designer](/en/songs/empty-old-city/originals/death-designer)" (15th), "[Astronomy](/en/songs/empty-old-city/originals/astronomy)" (14th), "Ghost Keikai wo Utau" (13th), "[Buffer](/en/songs/empty-old-city/originals/buffer)" (12th)
 - Debut single: "Urban Cruise" (2021)
 
 

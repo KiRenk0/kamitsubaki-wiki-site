@@ -19,7 +19,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 
 ## Overview
 
-God knows... (Cover Live) appears on CANDY LIVE 3 (Cover Live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+God knows... (Cover Live) appears on [CANDY LIVE 3](/en/albums/isekaijoucho/candy-live-3) (Cover Live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -79,7 +79,9 @@ It's time to leave behind everything we know
 <div class="jp-lyric">
 [01:07.93]On the lonely rail
 </div>
-<div class="trans-lyric">On the lonely rail</div>
+<div class="trans-lyric">
+[01:07.93]On the lonely rail
+</div>
 </div>
 
 <br />
@@ -95,7 +97,9 @@ Whatever happens, I am with you
 <div class="jp-lyric">
 [01:07.93]I won't ever lose you
 </div>
-<div class="trans-lyric">I won't ever lose you</div>
+<div class="trans-lyric">
+[01:07.93]I won't ever lose you
+</div>
 </div>
 
 <div class="lyric-line">
@@ -197,7 +201,9 @@ Inside a fading dream
 <div class="jp-lyric">
 [02:45.43]Praying there's a chance for your lonely heart
 </div>
-<div class="trans-lyric">Praying there's a chance for your lonely heart</div>
+<div class="trans-lyric">
+[02:45.43]Praying there's a chance for your lonely heart
+</div>
 </div>
 
 <br />
@@ -248,7 +254,9 @@ Scars will keep on mending and maybe someday we can change our destiny
 <div class="jp-lyric">
 [03:08.92]It's my wish
 </div>
-<div class="trans-lyric">It's my wish</div>
+<div class="trans-lyric">
+[03:08.92]It's my wish
+</div>
 </div>
 
 <div class="lyric-line">
@@ -262,7 +270,9 @@ We'll always be together
 <div class="jp-lyric">
 [03:14.13]But this, only God knows...
 </div>
-<div class="trans-lyric">But this, only God knows...</div>
+<div class="trans-lyric">
+[03:14.13]But this, only God knows...
+</div>
 </div>
 
 <br />
@@ -315,42 +325,49 @@ I promise whatever happens I am with you
 <div class="jp-lyric">
 I won't ever lose you
 </div>
+<div class="trans-lyric">I won't ever lose you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 All that remains in this world is trapped in pain and darkness
 </div>
+<div class="trans-lyric">All that remains in this world is trapped in pain and darkness</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The light inside your heart will be true
 </div>
+<div class="trans-lyric">The light inside your heart will be true</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Beyond the future, we are searching
 </div>
+<div class="trans-lyric">Beyond the future, we are searching</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Forever, we are praying nothing will ever betray our souls
 </div>
+<div class="trans-lyric">Forever, we are praying nothing will ever betray our souls</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Believe in my way
 </div>
+<div class="trans-lyric">Believe in my way</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 We'll fighting in this moment
 </div>
+
 <div class="trans-lyric">We'll fighting in this moment</div>
 </div>
 
@@ -358,6 +375,7 @@ We'll fighting in this moment
 <div class="jp-lyric">
 Together in God's bless...
 </div>
+<div class="trans-lyric">Together in God's bless...</div>
 </div>
 
 </div>

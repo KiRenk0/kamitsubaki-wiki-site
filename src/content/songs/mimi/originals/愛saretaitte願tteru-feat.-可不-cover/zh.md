@@ -17,7 +17,7 @@ image: /images/songs/mimi/愛saretaitte願tteru-feat.-可不-cover.jpg
 
 ## 作品简介
 
-MIMI于 2025-11-20 发行的单曲《愛されたいって願ってる (feat. [可不](/zh/artists/isotopes/kafu)) [Cover]》。
+[MIMI](/zh/artists/creators/mimi)于 2025-11-20 发行的单曲《[愛されたいって願ってる](/zh/songs/mimi/originals/愛saretaitte願tteru) (feat. [可不](/zh/artists/isotopes/kafu)) [Cover]》。
 
 ## 试听
 {{media-switcher::愛されたいって願ってる (feat. 可不) [Cover]}}

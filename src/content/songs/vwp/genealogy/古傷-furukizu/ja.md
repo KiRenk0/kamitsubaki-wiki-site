@@ -24,7 +24,7 @@ image: /images/albums/vwp/proliferation.jpg
 
 ## 作品概要
 
-「古傷 (feat. [Harusaruhi](/ja/artists/vwp/harusaruhi) & [V.W.P](/ja/artists/vwp/vwp))」は『[繁殖](/ja/albums/vwp/proliferation)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「[古傷](/ja/songs/harusaruhi/collaborations/古傷-furukizu) (feat. [Harusaruhi](/ja/artists/vwp/harusaruhi) & [V.W.P](/ja/artists/vwp/vwp))」は『[繁殖](/ja/albums/vwp/proliferation)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 試聴
 

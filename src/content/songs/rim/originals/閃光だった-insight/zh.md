@@ -217,12 +217,14 @@ image: /images/songs/rim/single-1822319908.jpg
 <div class="jp-lyric">
 <ruby>ためらった<rt class="roma">tameratta</rt></ruby><ruby>あの<rt class="roma">ano</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>計画<rt class="furi">けいかく</rt><rt class="roma">keikaku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>立<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>てよ<rt class="roma">teyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">来制定那日犹豫的后续计划吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:26.45]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:26.45]那就是爱吧</div>
 </div>
 

@@ -16,7 +16,7 @@ image: /images/songs/mimi/音no灯火-feat.-詩no出素.jpg
 
 ## 作品概要
 
-MIMIが2024-08-12にリリースしたシングル「音の灯火 (feat. 詩の出素。)」。
+[MIMI](/ja/artists/creators/mimi)が2024-08-12にリリースしたシングル「音の灯火 (feat. 詩の出素。)」。
 
 ## 視聴
 {{media-switcher::音の灯火 (feat. 詩の出素。)}}

@@ -95,12 +95,14 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>隣<rt class="furi">となり</rt><rt class="roma">tonari</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>景色<rt class="furi">けしき</rt><rt class="roma">keshiki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">在你身边看到的风景</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>永遠<rt class="furi">えいえん</rt><rt class="roma">eien</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>でし<rt class="roma">deshi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">曾是仿佛永无止境的梦</div>
 </div>
 
 <div class="lyric-line">
@@ -222,6 +224,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 <ruby>立ち止<rt class="furi">たちど</rt><rt class="roma">tachido</rt></ruby><ruby>まり<rt class="roma">mari</rt></ruby> <ruby>伸<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>髪<rt class="furi">かみ</rt><rt class="roma">kami</rt></ruby> <ruby>失<rt class="furi">うしな</rt><rt class="roma">ushina</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>時間<rt class="furi">じかん</rt><rt class="roma">jikan</rt></ruby>
 </div>
+
 <div class="cn-lyric">停下脚步 留长的头发 失去的时间</div>
 </div>
 
@@ -229,6 +232,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 <ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby> <ruby>見上<rt class="furi">みあ</rt><rt class="roma">mia</rt></ruby><ruby>げれ<rt class="roma">gere</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby> <ruby>星<rt class="furi">ほし</rt><rt class="roma">hoshi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>こぼれ<rt class="roma">kobore</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+
 <div class="cn-lyric">仰望夜空 星星洒落</div>
 </div>
 
@@ -238,12 +242,14 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 <ruby>馬鹿<rt class="furi">ばか</rt><rt class="roma">baka</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>許<rt class="furi">ゆる</rt><rt class="roma">yuru</rt></ruby><ruby>せる<rt class="roma">seru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">真傻啊 直到能够原谅你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>こんなにも<rt class="roma">konnanimo</rt></ruby> <ruby>こんなにも<rt class="roma">konnanimo</rt></ruby> <ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>流<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">竟然 竟然 流逝了这么多时间</div>
 </div>
 
 </div>

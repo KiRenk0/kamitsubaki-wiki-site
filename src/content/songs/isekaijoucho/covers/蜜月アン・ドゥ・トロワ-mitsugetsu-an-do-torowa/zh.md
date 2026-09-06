@@ -150,6 +150,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [02:08.26]Chasse 'n' Whisk 'n' Natural-Turn
 </div>
+<div class="cn-lyric">[02:08.26]Chasse 'n' Whisk 'n' Natural-Turn</div>
 </div>
 
 <div class="lyric-line">
@@ -163,6 +164,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [02:15.44]Throwaway and Oversway
 </div>
+<div class="cn-lyric">[02:15.44]Throwaway and Oversway</div>
 </div>
 
 <div class="lyric-line">
@@ -178,6 +180,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [02:23.87]<ruby>蜜月<rt class="furi">みつげつ</rt><rt class="roma">mitsugetsu</rt></ruby> Un<ruby>・<rt class="roma">/</rt></ruby>Deux<ruby>・<rt class="roma">/</rt></ruby>Trois
 </div>
+<div class="cn-lyric">[02:23.87]蜜月 Un・Deux・Trois</div>
 </div>
 
 <div class="lyric-line">
@@ -191,6 +194,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [02:31.52]Singin' swingin' sweetest song
 </div>
+<div class="cn-lyric">[02:31.52]Singin' swingin' sweetest song</div>
 </div>
 
 <div class="lyric-line">
@@ -206,6 +210,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [02:39.04]<ruby>月明<rt class="furi">つきあ</rt><rt class="roma">tsukia</rt></ruby><ruby>かり<rt class="roma">kari</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>路地<rt class="furi">ろじ</rt><rt class="roma">roji</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:39.04]月光将小巷</div>
 </div>
 
@@ -213,6 +218,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [02:43.01]<ruby>黄金<rt class="furi">おうごん</rt><rt class="roma">ougon</rt></ruby><ruby>色<rt class="furi">しょく</rt><rt class="roma">shoku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>照<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>らし<rt class="roma">rashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:43.01]照耀成金黄色</div>
 </div>
 
@@ -220,6 +226,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [02:46.95]<ruby>幼<rt class="furi">おさな</rt><rt class="roma">osana</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:46.95]年幼的两人</div>
 </div>
 
@@ -227,6 +234,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [02:50.78]<ruby>躓<rt class="furi">つまず</rt><rt class="roma">tsumazu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>ながら<rt class="roma">nagara</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:50.78]一边跌撞一边跳舞</div>
 </div>
 
@@ -236,24 +244,28 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [02:55.13]<ruby>蜜月<rt class="furi">みつげつ</rt><rt class="roma">mitsugetsu</rt></ruby> Un<ruby>・<rt class="roma">/</rt></ruby>Deux<ruby>・<rt class="roma">/</rt></ruby>Trois
 </div>
+<div class="cn-lyric">[02:55.13]蜜月 Un・Deux・Trois</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:58.36]<ruby>互<rt class="furi">たが</rt><rt class="roma">taga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>指<rt class="furi">ゆび</rt><rt class="roma">yubi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>絡<rt class="furi">から</rt><rt class="roma">kara</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[02:58.36]将彼此的手指缠绕</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:02.75]Singin' swingin' sweetest song
 </div>
+<div class="cn-lyric">[03:02.75]Singin' swingin' sweetest song</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:06.39]<ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>奏<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>でる<rt class="roma">deru</rt></ruby>
 </div>
+<div class="cn-lyric">[03:06.39]演奏两人的梦想</div>
 </div>
 
 <br />
@@ -262,24 +274,28 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [03:10.42]<ruby>蜜月<rt class="furi">みつげつ</rt><rt class="roma">mitsugetsu</rt></ruby> Un<ruby>・<rt class="roma">/</rt></ruby>Deux<ruby>・<rt class="roma">/</rt></ruby>Trois
 </div>
+<div class="cn-lyric">[03:10.42]蜜月 Un・Deux・Trois</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:14.16]<ruby>その<rt class="roma">sono</rt></ruby><ruby>唇<rt class="furi">くちびる</rt><rt class="roma">kuchibiru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>重<rt class="furi">かさ</rt><rt class="roma">kasa</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[03:14.16]将双唇重叠</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:18.17]Singin' swingin' sweetest song
 </div>
+<div class="cn-lyric">[03:18.17]Singin' swingin' sweetest song</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:21.65]<ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>奏<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>でる<rt class="roma">deru</rt></ruby>
 </div>
+<div class="cn-lyric">[03:21.65]演奏两人的爱</div>
 </div>
 
 </div>

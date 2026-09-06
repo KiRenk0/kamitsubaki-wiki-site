@@ -26,13 +26,13 @@ image: /images/albums/vwp/fate.jpg
 
 ## 作品概要
 
-- V.W.Pが2023年5月24日にリリースしたオリジナルシングル「魔女（真）」。本バージョンはアルバム『[運命](/ja/albums/vwp/fate)』に初収録された。
+- [V.W.P](/ja/artists/vwp/vwp)が2023年5月24日にリリースしたオリジナルシングル「[魔女](/ja/songs/kaf/originals/majo)（真）」。本バージョンはアルバム『[運命](/ja/albums/vwp/fate)』に初収録された。
 
 ## 試聴
 
 {{media-switcher::魔女(真) [feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO]}}
 @[youtube](mfM9N7dHNTE "VWP - 魔女（真）")
-@[apple-music](https://music.apple.com/jp/album/%E9%AD%94%E5%A5%B3-%E7%9C%9F-feat-kaf-rim-harusaruhi-isekaijoucho-koko/1700379454?i=1700379531&uo=4 "魔女(真) [feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO]")
+@[apple-music](https://music.apple.com/jp/album/%E9%AD%94%E5%A5%B3-%E7%9C%9F-feat-kaf-rim-harusaruhi-isekaijoucho-koko/1700379454?i=1700379531&uo=4 "魔女(真) [feat. [KAF](/ja/artists/vwp/kaf), [RIM](/ja/artists/vwp/rim), Harusaruhi, Isekaijoucho & [KOKO](/ja/artists/vwp/koko)]")
 {{/media-switcher}}
 
 ## 歌詞

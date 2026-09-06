@@ -17,7 +17,7 @@ image: /images/songs/valis/eyes-on-me-nefyi.jpg
 
 ## 作品概要
 
-VALISが2025-05-30にリリースしたシングル「Eyes On Me(ネフィ)」。
+[VALIS](/ja/artists/solo/valis)が2025-05-30にリリースしたシングル「Eyes On Me(ネフィ)」。
 
 ## 視聴
 {{media-switcher::Eyes On Me(ネフィ)}}

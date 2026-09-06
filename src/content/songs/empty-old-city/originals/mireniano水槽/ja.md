@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/mireniano水槽.jpg
 
 ## 作品概要
 
-Empty old Cityが2023-01-31にリリースしたシングル「ミレニアの水槽」。
+[Empty old City](/ja/artists/solo/empty-old-city)が2023-01-31にリリースしたシングル「ミレニアの水槽」。
 
 ## 視聴
 {{media-switcher::ミレニアの水槽}}

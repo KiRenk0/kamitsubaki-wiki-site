@@ -138,36 +138,36 @@ tracks:
 
 ## 概要
 
-CIELが2023-10-04にリリースしたライブアルバム『STRAWBERRY LIVE 2』。全29曲を収録。
+[CIEL](/ja/artists/solo/ciel)が2023-10-04にリリースしたライブアルバム『STRAWBERRY LIVE 2』。全29曲を収録。
 
 ## 収録曲
 
 1. Vinyl(Live)（04:50）
-2. MC1(Live)（01:34）
+2. [MC1](/ja/songs/harusaruhi/covers/mc1)(Live)（01:34）
 3. ド屑(Live)（02:02）
 4. 従属ふりったー(Live)（03:40）
 5. シカバネーゼ(Live)（04:11）
 6. コールボーイ(Live)（03:29）
-7. MC2(Live)（01:18）
+7. [MC2](/ja/songs/harusaruhi/covers/mc2)(Live)（01:18）
 8. ロミオとシンデレラ(Live)（04:40）
 9. Sunflower(Live)（03:33）
 10. 知りたい(Live)（02:17）
-11. MC3(Live)（01:25）
+11. [MC3](/ja/songs/harusaruhi/covers/mc3)(Live)（01:25）
 12. 人間辞職(Live)（03:28）
-13. MC4(Live)（00:53）
-14. MC5(Live)（00:14）
+13. [MC4](/ja/songs/harusaruhi/covers/mc4)(Live)（00:53）
+14. [MC5](/ja/songs/harusaruhi/covers/mc5)(Live)（00:14）
 15. ドーナツホール(Live)（03:26）
-16. マインドキャッスル(Live)（02:21）
+16. [マインドキャッスル](/ja/songs/ren/originals/maindokyassuru)(Live)（02:21）
 17. 渇愛論II(Live)（02:58）
-18. MC6(Live)（01:00）
+18. [MC6](/ja/songs/harusaruhi/covers/mc6)(Live)（01:00）
 19. 告赤(Live)（02:54）
 20. 風(Live)（03:01）
 21. 過去を喰らう(Live)（04:00）
-22. MC7(Live)（01:32）
+22. [MC7](/ja/songs/harusaruhi/covers/mc7)(Live)（01:32）
 23. 夏祭り(Live)（03:56）
 24. エゴロック(Live)（02:50）
-25. MC8(Live)（01:42）
+25. [MC8](/ja/songs/harusaruhi/covers/mc8)(Live)（01:42）
 26. 君の望み、君の願い(Live)（05:25）
-27. MC9(Live)（01:40）
+27. [MC9](/ja/songs/harusaruhi/covers/mc9)(Live)（01:40）
 28. 朝を呑む(Live)（04:35）
-29. MC10(Live)（00:17）
+29. [MC10](/ja/songs/harusaruhi/covers/mc10)(Live)（00:17）

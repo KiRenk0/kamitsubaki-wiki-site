@@ -17,7 +17,7 @@ image: /images/songs/mimi/glacies.jpg
 
 ## 作品概要
 
-MIMIが2023-03-23にリリースしたシングル「GLACIES」。
+[MIMI](/ja/artists/creators/mimi)が2023-03-23にリリースしたシングル「GLACIES」。
 
 ## 視聴
 {{media-switcher::GLACIES}}

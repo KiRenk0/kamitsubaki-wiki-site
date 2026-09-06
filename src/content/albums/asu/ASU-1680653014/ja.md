@@ -75,14 +75,14 @@ tracks:
 ## 収録曲
 
 1. 太陽(Instrumental)（00:37）
-2. スロウリー（03:13）
-3. インパーフェクト（03:15）
-4. オレンジ（03:01）
-5. ライトイヤーズ（02:57）
-6. アンダーブーケ（03:06）
+2. [スロウリー](/ja/songs/asu/originals/surourii)（03:13）
+3. [インパーフェクト](/ja/songs/asu/originals/inpaafyekuto)（03:15）
+4. [オレンジ](/ja/songs/koko/originals/オレンジ-orange)（03:01）
+5. [ライトイヤーズ](/ja/songs/asu/originals/raitoiyaazu)（02:57）
+6. [アンダーブーケ](/ja/songs/asu/originals/andaabuuke)（03:06）
 7. モノローグ（03:57）
 8. ピアス（03:27）
 9. エンゼルフィッシュ（02:41）
 10. リンカーネイション（03:41）
-11. ソラゴト（03:26）
+11. [ソラゴト](/ja/songs/asu/originals/soragoto)（03:26）
 12. ソラゴト - Piano arr. -（03:35）

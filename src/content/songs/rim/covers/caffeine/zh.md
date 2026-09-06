@@ -236,6 +236,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [02:05.08]Ah
 </div>
+<div class="cn-lyric">[02:05.08]Ah</div>
 </div>
 
 <div class="lyric-line">
@@ -360,30 +361,35 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [03:15.27]Tu-tu-tu-lu-tu, tu-tu-lu-lu-lu
 </div>
+<div class="cn-lyric">[03:15.27]Tu-tu-tu-lu-tu, tu-tu-lu-lu-lu</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:18.55]Tu-tu-tu-lu-tu, tu-tu-lu-lu
 </div>
+<div class="cn-lyric">[03:18.55]Tu-tu-tu-lu-tu, tu-tu-lu-lu</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:22.00]Tu-tu-tu-lu-tu, tu-tu-lu-lu-lu-lu
 </div>
+<div class="cn-lyric">[03:22.00]Tu-tu-tu-lu-tu, tu-tu-lu-lu-lu-lu</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:27.03]<ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
+<div class="cn-lyric">[03:27.03]描绘梦想</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:31.74]<ruby>ありがとう<rt class="roma">arigatou</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:31.74]谢谢</div>
 </div>
 

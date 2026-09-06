@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 ## Overview
 
-“new world (feat. [ヰ世界情緒](/en/artists/vwp/isekaijoucho)) (I SCREAM LIVE4 ver.)” is track 5 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE4 - Cover Live Album -](/en/albums/kaf/i-scream-live-4).
+“[new world](/en/songs/isekaijoucho/originals/new-world) (feat. [ヰ世界情緒](/en/artists/vwp/isekaijoucho)) (I SCREAM LIVE4 ver.)” is track 5 of [KAF](/en/artists/vwp/kaf)’s [I SCREAM LIVE4 - Cover Live Album -](/en/albums/kaf/i-scream-live-4).
 
 ## Listen
 
@@ -77,6 +77,7 @@ We'll unite this world together
 <div class="jp-lyric">
 We are the new world
 </div>
+<div class="trans-lyric">We are the new world</div>
 </div>
 
 <div class="lyric-line">
@@ -92,12 +93,14 @@ We'll put this fire out forever
 <div class="jp-lyric">
 We are the new world
 </div>
+<div class="trans-lyric">We are the new world</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 We'll put this fire out forever
 </div>
+<div class="trans-lyric">We'll put this fire out forever</div>
 </div>
 
 <br />
@@ -113,6 +116,7 @@ We can make our own salvation
 <div class="jp-lyric">
 When there's a battle to be won
 </div>
+
 <div class="trans-lyric">When there's a battle to be won</div>
 </div>
 
@@ -120,6 +124,7 @@ When there's a battle to be won
 <div class="jp-lyric">
 We can end this fight forever
 </div>
+
 <div class="trans-lyric">We can end this fight forever</div>
 </div>
 
@@ -127,6 +132,7 @@ We can end this fight forever
 <div class="jp-lyric">
 Take the bullet from the gun
 </div>
+
 <div class="trans-lyric">Take the bullet from the gun</div>
 </div>
 
@@ -136,24 +142,28 @@ Take the bullet from the gun
 <div class="jp-lyric">
 We are the new world
 </div>
+<div class="trans-lyric">We are the new world</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 We'll unite this world together
 </div>
+<div class="trans-lyric">We'll unite this world together</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 We are the new world
 </div>
+<div class="trans-lyric">We are the new world</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 We'll put this fire out forever
 </div>
+<div class="trans-lyric">We'll put this fire out forever</div>
 </div>
 
 </div>

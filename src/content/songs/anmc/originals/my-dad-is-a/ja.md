@@ -17,7 +17,7 @@ image: /images/songs/anmc/my-dad-is-a.jpg
 
 ## 作品概要
 
-ANMCが2026-06-12にリリースしたシングル「My Dad is A」。
+[ANMC](/ja/artists/solo/anmc)が2026-06-12にリリースしたシングル「My Dad is A」。
 
 ## 視聴
 {{media-switcher::My Dad is A}}

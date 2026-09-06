@@ -66,7 +66,7 @@ tracks:
 
 ## Track List
 
-1. Feel My Heart (feat. Hatsune Miku) (04:42)
+1. [Feel My Heart](/en/songs/yunosuke/originals/feel-my-heart) (feat. Hatsune Miku) (04:42)
 2. Look at Me Now (feat. Hatsune Miku) (04:14)
 3. Catalyst (feat. Hatsune Miku) (04:19)
 4. Alexis (feat. Hatsune Miku) (04:23)

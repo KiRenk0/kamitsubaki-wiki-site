@@ -17,7 +17,7 @@ image: /images/songs/mimi/mashumarii.jpg
 
 ## 作品概要
 
-MIMIが2019-11-02にリリースしたシングル「マシュマリー」。
+[MIMI](/ja/artists/creators/mimi)が2019-11-02にリリースしたシングル「マシュマリー」。
 
 ## 視聴
 {{media-switcher::マシュマリー}}

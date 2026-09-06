@@ -154,6 +154,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 <ruby>過不足<rt class="furi">かふそく</rt><rt class="roma">kafusoku</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby> <ruby>不自由<rt class="furi">ふじゆう</rt><rt class="roma">fujiyuu</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby> <ruby>最近<rt class="furi">さいきん</rt><rt class="roma">saikin</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">过着无过无缺 无拘无束的最近</div>
 </div>
 
 <div class="lyric-line">
@@ -176,18 +177,21 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 <ruby>黒板<rt class="furi">こくばん</rt><rt class="roma">kokuban</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>漢字<rt class="furi">かんじ</rt><rt class="roma">kanji</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>読<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby> <ruby>あの<rt class="roma">ano</rt></ruby><ruby>子<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>心象<rt class="furi">しんしょう</rt><rt class="roma">shinshou</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>読<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="cn-lyric">能看懂黑板上的这个汉字吗 能读懂那个孩子的心象吗</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>その<rt class="roma">sono</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>黒<rt class="furi">くろ</rt><rt class="roma">kuro</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>染<rt class="furi">そ</rt><rt class="roma">so</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>おい<rt class="roma">oi</rt></ruby><ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>おい<rt class="roma">oi</rt></ruby><ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">把那份心灵染黑的是谁啊 喂 是谁啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>そろ<rt class="roma">soro</rt></ruby><ruby>ばん<rt class="roma">ban</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>式<rt class="furi">しき</rt><rt class="roma">shiki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>解<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby> <ruby>あの<rt class="roma">ano</rt></ruby><ruby>子<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>首<rt class="furi">くび</rt><rt class="roma">kubi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>輪<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>解<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="cn-lyric">能用算盘解开这个算式吗 能解开那个孩子脖子上的圈吗</div>
 </div>
 
 <div class="lyric-line">
@@ -203,6 +207,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [02:36.60]<ruby>面積<rt class="furi">めんせき</rt><rt class="roma">menseki</rt></ruby><ruby>比<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>公式<rt class="furi">こうしき</rt><rt class="roma">koushiki</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby> <ruby>子供<rt class="furi">こども</rt><rt class="roma">kodomo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:36.60]能说出面积比的公式吗 能说出儿时的梦想吗</div>
 </div>
 
@@ -210,6 +215,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [02:42.66]<ruby>その<rt class="roma">sono</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>すら<rt class="roma">sura</rt></ruby><ruby>溝<rt class="furi">みぞ</rt><rt class="roma">mizo</rt></ruby>（<ruby>ど<rt class="roma">do</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby>）<ruby>に<rt class="roma">ni</rt></ruby><ruby>捨<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>おい<rt class="roma">oi</rt></ruby><ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:42.66]连那个梦想都丢弃在阴沟里的 喂 是谁啊 你已经知道了吧</div>
 </div>
 
@@ -217,6 +223,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [02:48.47]<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なりゃ<rt class="roma">narya</rt></ruby><ruby>大人<rt class="furi">おとな</rt><rt class="roma">otona</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なれ<rt class="roma">nare</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby> <ruby>そもそも<rt class="roma">somosomo</rt></ruby><ruby>大人<rt class="furi">おとな</rt><rt class="roma">otona</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>一体全体<rt class="furi">いったいぜんたい</rt><rt class="roma">ittaizentai</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:48.47]到底何时才能成为大人 归根结底大人究竟是什么呢</div>
 </div>
 
@@ -224,6 +231,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [02:54.52]<ruby>どなた<rt class="roma">donata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>伺<rt class="furi">うかが</rt><rt class="roma">ukaga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby> <ruby>おい<rt class="roma">oi</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>すん<rt class="roma">sun</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:54.52]应该去问谁才好呢 喂 该怎么办啊 已经怎样都无所谓了</div>
 </div>
 

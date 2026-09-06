@@ -17,7 +17,7 @@ image: /images/songs/mimi/哀no隙間.jpg
 
 ## 作品简介
 
-MIMI于 2019-11-02 发行的单曲《哀の隙間》。
+[MIMI](/zh/artists/creators/mimi)于 2019-11-02 发行的单曲《哀の隙間》。
 
 ## 试听
 {{media-switcher::哀の隙間}}

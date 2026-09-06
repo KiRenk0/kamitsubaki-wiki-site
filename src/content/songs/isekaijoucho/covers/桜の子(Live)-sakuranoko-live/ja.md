@@ -20,7 +20,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 
 ## 作品概要
 
-「桜の子(Live) [feat. KAF]」は『[CANDY LIVE 2](/ja/albums/isekaijoucho/candy-live-2)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「桜の子(Live) [feat. [KAF](/ja/artists/vwp/kaf)]」は『[CANDY LIVE 2](/ja/albums/isekaijoucho/candy-live-2)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 試聴
 

@@ -24,7 +24,7 @@ image: /images/songs/vwp/single-1696880421.jpg
 
 ## 作品简介
 
-《不的 (feat. [ヰ世界情緒](/zh/artists/vwp/isekaijoucho) & [V.W.P](/zh/artists/vwp/vwp))》收录于《不的》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《不的 (feat. [ヰ世界情緒](/zh/artists/vwp/isekaijoucho) & [V.W.P](/zh/artists/vwp/vwp))》收录于《[不的](/zh/songs/rim/collaborations/不的-fearless)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -146,12 +146,14 @@ image: /images/songs/vwp/single-1696880421.jpg
 <div class="jp-lyric">
 [02:33.70]<ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>未知<rt class="furi">みち</rt><rt class="roma">michi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>飽<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[02:33.70]别在意 厌倦了未知</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:38.71]<ruby>噂<rt class="furi">うわさ</rt><rt class="roma">uwasa</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なってる<rt class="roma">natteru</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby>！
 </div>
+<div class="cn-lyric">[02:38.71]我知道你的眼神在说着成为传闻！</div>
 </div>
 
 <div class="lyric-line">
@@ -225,6 +227,7 @@ image: /images/songs/vwp/single-1696880421.jpg
 <div class="jp-lyric">
 [03:58.81]<ruby>ふざけ<rt class="roma">fuzake</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いよ<rt class="roma">iyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>息<rt class="furi">いき</rt><rt class="roma">iki</rt></ruby><ruby>切<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:58.81]继续胡闹吧 直到喘不过气</div>
 </div>
 
@@ -232,6 +235,7 @@ image: /images/songs/vwp/single-1696880421.jpg
 <div class="jp-lyric">
 [04:07.84]<ruby>そう<rt class="roma">sou</rt></ruby> <ruby>適切<rt class="furi">てきせつ</rt><rt class="roma">tekisetsu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>用量<rt class="furi">ようりょう</rt><rt class="roma">youryou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>流行<rt class="furi">はや</rt><rt class="roma">haya</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:07.84]是的 祈愿适当的用量能流行开来</div>
 </div>
 

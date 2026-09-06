@@ -147,6 +147,7 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [01:14.43]Maybe we are choosing to be in a dystopia
 </div>
+<div class="cn-lyric">[01:14.43]也许我们正在选择生活在一个反乌托邦中</div>
 </div>
 
 <div class="lyric-line">
@@ -160,6 +161,7 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [01:27.19]Why do I have such a strong desire to still be alive?
 </div>
+<div class="cn-lyric">[01:27.19]为何我仍有如此强烈的生存渴望？</div>
 </div>
 
 <div class="lyric-line">
@@ -285,12 +287,14 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [02:56.79]Maybe we are choosing to be in a dystopia
 </div>
+<div class="cn-lyric">[02:56.79]也许我们正在选择生活在一个反乌托邦中</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:03.21]<ruby>この<rt class="roma">kono</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:03.21]此后由我亲手改变</div>
 </div>
 
@@ -298,18 +302,21 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [03:09.56]Why do I have such a strong desire to still be alive?
 </div>
+<div class="cn-lyric">[03:09.56]为何我仍有如此强烈的生存渴望？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:16.09]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>核<rt class="furi">かく</rt><rt class="roma">kaku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>成<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>フリージア<rt class="roma">furiijia</rt></ruby>
 </div>
+<div class="cn-lyric">[03:16.09]构成我核心的小苍兰</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:22.53]<ruby>清<rt class="furi">きよ</rt><rt class="roma">kiyo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>清<rt class="furi">きよ</rt><rt class="roma">kiyo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>道<rt class="furi">みち</rt><rt class="roma">michi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>作<rt class="furi">つく</rt><rt class="roma">tsuku</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:22.53]清白地、清白地开辟道路</div>
 </div>
 
@@ -317,12 +324,14 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [03:25.61]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
+<div class="cn-lyric">[03:25.61]仅此就好</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:28.87]<ruby>天<rt class="furi">てん</rt><rt class="roma">ten</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby> <ruby>過去<rt class="furi">かこ</rt><rt class="roma">kako</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>誇<rt class="furi">ほこ</rt><rt class="roma">hoko</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:28.87]天之风，给予过去的荣耀</div>
 </div>
 

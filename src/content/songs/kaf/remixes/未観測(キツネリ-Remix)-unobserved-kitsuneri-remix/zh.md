@@ -238,18 +238,21 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 <div class="jp-lyric">
 <ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>泥<rt class="furi">どろ</rt><rt class="roma">doro</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>
 </div>
+<div class="cn-lyric">总有一天会化作泥土</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>そして<rt class="roma">soshite</rt></ruby><ruby>未<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>観測<rt class="furi">かんそく</rt><rt class="roma">kansoku</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby><ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
+<div class="cn-lyric">然后未观测的花会绽放</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>その<rt class="roma">sono</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どうせ<rt class="roma">douse</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby>
 </div>
+<div class="cn-lyric">到那时反正一切</div>
 </div>
 
 <div class="lyric-line">
@@ -263,6 +266,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 <div class="jp-lyric">
 <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>泥臭<rt class="furi">どろくさ</rt><rt class="roma">dorokusa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>不可解<rt class="furi">ふかかい</rt><rt class="roma">fukakai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">现在就来歌唱土气而难解的意义吧</div>
 </div>
 
 <div class="lyric-line">
@@ -283,6 +287,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 <div class="jp-lyric">
 <ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>泥<rt class="furi">どろ</rt><rt class="roma">doro</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>
 </div>
+<div class="cn-lyric">总有一天会化作泥土</div>
 </div>
 
 <div class="lyric-line">
@@ -296,6 +301,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 <div class="jp-lyric">
 [02:56.35]<ruby>その<rt class="roma">sono</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>歴史<rt class="furi">れきし</rt><rt class="roma">rekishi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>駆け抜<rt class="furi">かけぬ</rt><rt class="roma">kakenu</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby><ruby>奴<rt class="furi">やつ</rt><rt class="roma">yatsu</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:56.35]想为那些跑向未来的家伙歌唱</div>
 </div>
 
@@ -303,6 +309,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 <div class="jp-lyric">
 [03:02.89]<ruby>だから<rt class="roma">dakara</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>きる<rt class="roma">kiru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:02.89]所以现在活着</div>
 </div>
 
@@ -310,6 +317,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 <div class="jp-lyric">
 [03:06.05]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>さえ<rt class="roma">sae</rt></ruby><ruby>出来<rt class="furi">でき</rt><rt class="roma">deki</rt></ruby><ruby>てりゃ<rt class="roma">terya</rt></ruby><ruby>勝者<rt class="furi">しょうしゃ</rt><rt class="roma">shousha</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:06.05]能做到这点就是胜者</div>
 </div>
 
@@ -317,6 +325,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 <div class="jp-lyric">
 [03:09.23]<ruby>我<rt class="furi">われ</rt><rt class="roma">ware</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>不可解<rt class="furi">ふかかい</rt><rt class="roma">fukakai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:09.23]我们难以理解</div>
 </div>
 
@@ -324,6 +333,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 <div class="jp-lyric">
 [03:12.43]<ruby>されど<rt class="roma">saredo</rt></ruby><ruby>むざむざ<rt class="roma">muzamuza</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>はせ<rt class="roma">hase</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:12.43]但也不会白白死去</div>
 </div>
 

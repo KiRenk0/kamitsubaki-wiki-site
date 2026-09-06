@@ -17,7 +17,7 @@ image: /images/songs/dustcell/表情差分.jpg
 
 ## 作品简介
 
-DUSTCELL于 2024-10-08 发行的单曲《表情差分》。
+[DUSTCELL](/zh/artists/solo/dustcell)于 2024-10-08 发行的单曲《表情差分》。
 
 ## 试听
 {{media-switcher::表情差分}}

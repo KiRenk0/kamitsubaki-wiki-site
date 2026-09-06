@@ -82,7 +82,7 @@ V.W.P の一員としてグループの楽曲群に参加しつつ、個人で�
 - **8月12日**：『食虫植物』が TikTok を中心にバイラルヒットし、カバー動画が流行。動画総再生回数が数千万回を超え、YouTubeでの再生回数も300万回を突破。
 - **9月5日**：『食虫植物』の YouTube 再生回数が1,000万回を突破。
 - **10月28日**：オリジナルシングル『[甘美な無法](/ja/songs/rim/originals/甘美な無法-luscious-lawless)』をリリース。
-- **12月20日**：自身初となるカバーストリーミングLIVE『CHOCOLATE LIVE』を開催。
+- **12月20日**：自身初となるカバーストリーミングLIVE『[CHOCOLATE LIVE](/ja/albums/rim/chocolate-live)』を開催。
 
 ### 2021年
 
@@ -94,7 +94,7 @@ V.W.P の一員としてグループの楽曲群に参加しつつ、個人で�
 
 - **4月16日**：V.W.P のメンバーとして、初のグループワンマンライブ『魔女集会』『現象』に出演。
 - **4月27日**：YouTubeチャンネル登録者数が20万人を突破。HALのテレビCMソング『[ピルグリム](/ja/songs/rim/originals/ピルグリム-pilgrim)』をリリースし、新衣装（2nd Metamorphose）「The Cosmic Puppets」を公開。
-- **7月17日**：[ヰ世界情緒](/ja/artists/vwp/isekaijoucho)とのツーマンライブ『Singularity Live』を開催。
+- **7月17日**：[ヰ世界情緒](/ja/artists/vwp/isekaijoucho)とのツーマンライブ『[Singularity Live](/ja/albums/rim/singularity-live)』を開催。
 - **8月17日**：オリジナルシングル『[チクタクボーイ](/ja/songs/rim/originals/チクタクボーイ-tick-tock-boy)』（TVアニメ『5億年ボタン【公式】～菅原壮太の超短篇～』EDテーマ）をリリース。
 - **9月**：英語習得のため、約半年間のアメリカへの語学留学を発表・渡米。
 - **10月5日**：オリジナルシングル『[インナアチャイルド](/ja/songs/rim/originals/インナアチャイルド-inner-child)』（MBSドラマ特区『少年のアビス』オープニング主題歌）をリリース。
@@ -122,7 +122,7 @@ V.W.P の一員としてグループの楽曲群に参加しつつ、個人で�
 
 - **アルバム**：1st『NEW ROMANCER』(2021)、2nd『NEW ROMANCER2』(2023)
 - **代表曲**：『[食虫植物](/ja/songs/rim/originals/食虫植物-carnivorous-plant)』『[甘美な無法](/ja/songs/rim/originals/甘美な無法-luscious-lawless)』『[十九月](/ja/songs/rim/originals/十九月-juuku-gatsu)』『[インナアチャイルド](/ja/songs/rim/originals/インナアチャイルド-inner-child)』『[えろいむ](/ja/songs/rim/originals/えろいむ-eloim)』
-- **重要な協働軸**：笹川真生、Guiano
+- **重要な協働軸**：笹川真生、[Guiano](/ja/artists/creators/guiano)
 - **カバーライブシリーズ**：『CHOCOLATE LIVE』シリーズ
 
 関連して読むとつながりやすい項目：
@@ -141,7 +141,7 @@ V.W.P の一員としてグループの楽曲群に参加しつつ、個人で�
 
 ## 音楽作品・ライブとコラボレーション
 
-「ユーエンミー」「食虫植物」「ピロウトーク」は入口になりやすいが、理芽の活動は「食虫植物」だけに還元できない。アルバム『NEW ROMANCER』『NEW ROMANCER2』、カバーライブ「CHOCOLATE LIVE」、ワンマンライブ「NEUROMANCE」、Singularity Live、V.W.Pの楽曲を通して、抑制された声色がソロ、デュオ、ユニットで異なる表情を見せる。
+「ユーエンミー」「食虫植物」「[ピロウトーク](/ja/songs/rim/originals/ピロウトーク-pillow-talk)」は入口になりやすいが、理芽の活動は「食虫植物」だけに還元できない。アルバム『NEW ROMANCER』『NEW ROMANCER2』、カバーライブ「CHOCOLATE LIVE」、ワンマンライブ「[NEUROMANCE](/ja/songs/rim/originals/neuromance)」、Singularity Live、V.W.Pの楽曲を通して、抑制された声色がソロ、デュオ、ユニットで異なる表情を見せる。
 
 理芽のライブはMVの再現にとどまらず、新衣装、再編曲、ゲスト、空間演出によって楽曲の感情の輪郭を変えてきた。裏命は理芽とは別の音楽的同位体・キャラクターとして記録する。
 

@@ -82,6 +82,7 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 <ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">要是能继续就好了呢</div>
 </div>
 
 <div class="lyric-line">
@@ -193,18 +194,21 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 <ruby>空想<rt class="furi">くうそう</rt><rt class="roma">kuusou</rt></ruby><ruby>めい<rt class="roma">mei</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">如梦似幻的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>気休<rt class="furi">きやす</rt><rt class="roma">kiyasu</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>憩<rt class="furi">いこ</rt><rt class="roma">iko</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+<div class="cn-lyric">安慰的休憩</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>浄化<rt class="furi">じょうか</rt><rt class="roma">jouka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">净化了我们两人</div>
 </div>
 
 <div class="lyric-line">
@@ -218,12 +222,14 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 <ruby>肩<rt class="furi">かた</rt><rt class="roma">kata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>乗<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+<div class="cn-lyric">扛在肩上的梦</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">要是能继续就好了呢</div>
 </div>
 
 <div class="lyric-line">
@@ -335,42 +341,49 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 <ruby>空想<rt class="furi">くうそう</rt><rt class="roma">kuusou</rt></ruby><ruby>めい<rt class="roma">mei</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">如梦似幻的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>気休<rt class="furi">きやす</rt><rt class="roma">kiyasu</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>憩<rt class="furi">いこ</rt><rt class="roma">iko</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+<div class="cn-lyric">安慰的休憩</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>浄化<rt class="furi">じょうか</rt><rt class="roma">jouka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">净化了我们两人</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>くたびれ<rt class="roma">kutabire</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">疲惫的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>肩<rt class="furi">かた</rt><rt class="roma">kata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>乗<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+<div class="cn-lyric">扛在肩上的梦</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">要是能继续就好了呢</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:38.61]<ruby>ふわっと<rt class="roma">fuwatto</rt></ruby><ruby>香<rt class="furi">かお</rt><rt class="roma">kao</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:38.61]轻轻飘香绽放</div>
 </div>
 
@@ -378,6 +391,7 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 [02:41.93]<ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>シフォン<rt class="roma">shifuon</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:41.93]甜甜蜜蜜的戚风蛋糕</div>
 </div>
 
@@ -385,6 +399,7 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 [02:44.87]<ruby>苦味<rt class="furi">にがみ</rt><rt class="roma">nigami</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>浄化<rt class="furi">じょうか</rt><rt class="roma">jouka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:44.87]净化了苦味</div>
 </div>
 
@@ -392,12 +407,14 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 <ruby>くたびれ<rt class="roma">kutabire</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">疲惫的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:48.98]<ruby>眠<rt class="furi">ねむ</rt><rt class="roma">nemu</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:48.98]睡梦中的你的梦</div>
 </div>
 
@@ -405,12 +422,14 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 <ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">要是能继续就好了呢</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 ……
 </div>
+
 <div class="cn-lyric">……</div>
 </div>
 
@@ -418,6 +437,7 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 [03:18.98]<ruby>過不足<rt class="furi">かふそく</rt><rt class="roma">kafusoku</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>織<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>混<ruby>る<rt class="roma">ru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:18.98]毫无多余地交织</div>
 </div>
 
@@ -425,6 +445,7 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 [03:23.97]<ruby>充足<rt class="furi">じゅうそく</rt><rt class="roma">juusoku</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>疲労<rt class="furi">ひろう</rt><rt class="roma">hirou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:23.97]满足与疲惫</div>
 </div>
 
@@ -432,6 +453,7 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 [03:30.67]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ただ<rt class="roma">tada</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:30.67]此刻只是</div>
 </div>
 
@@ -439,12 +461,15 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ただ<rt class="roma">tada</rt></ruby>
 </div>
+
+<div class="cn-lyric">此刻只是</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:30.67]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>おしい<rt class="roma">oshii</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:30.67]令人怜爱</div>
 </div>
 

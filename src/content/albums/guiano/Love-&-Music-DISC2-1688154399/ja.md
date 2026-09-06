@@ -46,11 +46,11 @@ tracks:
 
 ## 概要
 
-Guianoが2019-11-27にリリースしたEP『Love & Music -DISC2-』。全6曲を収録。
+[Guiano](/ja/artists/creators/guiano)が2019-11-27にリリースしたEP『Love & Music -DISC2-』。全6曲を収録。
 
 ## 収録曲
 
-1. 死んでしまったのだろうか(2nd ver.) [feat. KAF]（02:59）
+1. [死んでしまったのだろうか](/ja/songs/harusaruhi/covers/死んでしまったのだろうか-shinde-shimatta-no-darou-ka)(2nd ver.) [feat. [KAF](/ja/artists/vwp/kaf)]（02:59）
 2. 凍るサマー (feat. EMA)（04:04）
 3. ハレルヤ（03:08）
 4. S.O.S（03:16）

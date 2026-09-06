@@ -17,7 +17,7 @@ image: /images/songs/guiano/da-ba-du.jpg
 
 ## 作品简介
 
-Guiano于 2024-05-21 发行的单曲《Da Ba Du》。
+[Guiano](/zh/artists/creators/guiano)于 2024-05-21 发行的单曲《Da Ba Du》。
 
 ## 试听
 {{media-switcher::Da Ba Du}}

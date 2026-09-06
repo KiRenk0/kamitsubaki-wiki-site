@@ -17,7 +17,7 @@ image: /images/songs/mimi/aria-feat.-可不.jpg
 
 ## 作品简介
 
-MIMI于 2024-02-27 发行的单曲《ありあ (feat. [可不](/zh/artists/isotopes/kafu))》。
+[MIMI](/zh/artists/creators/mimi)于 2024-02-27 发行的单曲《ありあ (feat. [可不](/zh/artists/isotopes/kafu))》。
 
 ## 试听
 {{media-switcher::ありあ (feat. 可不)}}

@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 ## Overview
 
-旅行 appears on SPICE OF LIFE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+旅行 appears on [SPICE OF LIFE](/en/albums/harusaruhi/spice-of-life) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -35,7 +35,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:16.26]yeah
 </div>
-<div class="trans-lyric">yeah</div>
+<div class="trans-lyric">
+[00:16.26]yeah
+</div>
 </div>
 
 <br />
@@ -44,7 +46,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:17.75]MAP<ruby>開<rt class="furi">ひら</rt><rt class="roma">hira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="trans-lyric">Open the map, let's go</div>
+<div class="trans-lyric">
+[00:17.75]Open the map, let's go
+</div>
 </div>
 
 <div class="lyric-line">
@@ -79,14 +83,18 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:29.92]<ruby>みどり<rt class="roma">midori</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>きれい<rt class="roma">kirei</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>drive
 </div>
-<div class="trans-lyric">Drive to a place with beautiful greenery</div>
+<div class="trans-lyric">
+[00:29.92]Drive to a place with beautiful greenery
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:34.64]Trip Trip Trip
 </div>
-<div class="trans-lyric">Trip Trip Trip</div>
+<div class="trans-lyric">
+[00:34.64]Trip Trip Trip
+</div>
 </div>
 
 <div class="lyric-line">
@@ -107,6 +115,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:43.44]Trip Trip Trip
 </div>
+<div class="trans-lyric">[00:43.44]Trip Trip Trip</div>
 </div>
 
 <div class="lyric-line">
@@ -120,6 +129,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:48.66]（<ruby>さあ<rt class="roma">saa</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べよ<rt class="roma">beyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>）
 </div>
+
 <div class="trans-lyric">[00:48.66](Now, what should I eat?)</div>
 </div>
 

@@ -123,6 +123,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 Oh oh oh
 </div>
+<div class="cn-lyric">Oh oh oh</div>
 </div>
 
 <br />
@@ -191,6 +192,7 @@ Oh oh oh
 <div class="jp-lyric">
 Huhuhuhu
 </div>
+<div class="cn-lyric">Huhuhuhu</div>
 </div>
 
 <div class="lyric-line">
@@ -213,24 +215,28 @@ Huhuhuhu
 <div class="jp-lyric">
 I'm so into you
 </div>
+<div class="cn-lyric">I'm so into you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Huhuhuhu
 </div>
+<div class="cn-lyric">Huhuhuhu</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ハート<rt class="roma">haato</rt></ruby><ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>
 </div>
+<div class="cn-lyric">心在动摇</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Huhuhuhu
 </div>
+<div class="cn-lyric">Huhuhuhu</div>
 </div>
 
 <div class="lyric-line">
@@ -311,6 +317,7 @@ Huhuhuhu
 <div class="jp-lyric">
 [01:56.95]<ruby>沢山<rt class="furi">たくさん</rt><rt class="roma">takusan</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>傷<rt class="furi">きず</rt><rt class="roma">kizu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>覆<rt class="furi">おお</rt><rt class="roma">oo</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>Love
 </div>
+
 <div class="cn-lyric">[01:56.95]被无数伤痕覆盖的Love</div>
 </div>
 
@@ -318,6 +325,7 @@ Huhuhuhu
 <div class="jp-lyric">
 [02:00.51]<ruby>振り向<rt class="furi">ふりむ</rt><rt class="roma">furimu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>あたし<rt class="roma">atashi</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:00.51]回头之类的话，我不会说的</div>
 </div>
 
@@ -325,6 +333,7 @@ Huhuhuhu
 <div class="jp-lyric">
 [02:04.18]<ruby>ずるく<rt class="roma">zuruku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ゆるい<rt class="roma">yurui</rt></ruby><ruby>女<rt class="furi">おんな</rt><rt class="roma">onna</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> ah ah ah
 </div>
+
 <div class="cn-lyric">[02:04.18]狡猾又随性的女人啊 ah ah ah</div>
 </div>
 
@@ -334,6 +343,7 @@ Huhuhuhu
 <div class="jp-lyric">
 [02:09.33]Oouuu you said I'm the one
 </div>
+
 <div class="cn-lyric">[02:09.33]Oouuu you said I'm the one</div>
 </div>
 
@@ -341,6 +351,7 @@ Huhuhuhu
 <div class="jp-lyric">
 [02:13.17]Ooouu can u promise me you'll never leave
 </div>
+
 <div class="cn-lyric">[02:13.17]Ooouu can u promise me you'll never leave</div>
 </div>
 
@@ -348,6 +359,7 @@ Huhuhuhu
 <div class="jp-lyric">
 [02:17.22]Oouuu cause with you
 </div>
+
 <div class="cn-lyric">[02:17.22]Oouuu cause with you</div>
 </div>
 
@@ -355,6 +367,7 @@ Huhuhuhu
 <div class="jp-lyric">
 Ain't nothing is better <ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>いら<rt class="roma">ira</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">Ain't nothing is better 什么都不需要</div>
 </div>
 
 <br />
@@ -363,6 +376,7 @@ Ain't nothing is better <ruby>何<rt class="furi">なに</rt><rt class="roma">na
 <div class="jp-lyric">
 OH
 </div>
+<div class="cn-lyric">OH</div>
 </div>
 
 <br />
@@ -371,36 +385,42 @@ OH
 <div class="jp-lyric">
 I'm so into you
 </div>
+<div class="cn-lyric">I'm so into you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Huhuhuhu
 </div>
+<div class="cn-lyric">Huhuhuhu</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ハート<rt class="roma">haato</rt></ruby><ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>
 </div>
+<div class="cn-lyric">心在动摇</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Huhuhuhu
 </div>
+<div class="cn-lyric">Huhuhuhu</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>隣<rt class="furi">となり</rt><rt class="roma">tonari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>幸<rt class="furi">しあわ</rt><rt class="roma">shiawa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby>
 </div>
+<div class="cn-lyric">在你身边就很幸福</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>だけど<rt class="roma">dakedo</rt></ruby><ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>、<ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>、<ruby>くれ<rt class="roma">kure</rt></ruby>、<ruby>る<rt class="roma">ru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
 </div>
+<div class="cn-lyric">但是，你能陪我多久呢？</div>
 </div>
 
 <br />
@@ -409,36 +429,42 @@ Huhuhuhu
 <div class="jp-lyric">
 I'm so into you
 </div>
+<div class="cn-lyric">I'm so into you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Huhuhuhu
 </div>
+<div class="cn-lyric">Huhuhuhu</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ハート<rt class="roma">haato</rt></ruby><ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>
 </div>
+<div class="cn-lyric">心在动摇</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Huhuhuhu
 </div>
+<div class="cn-lyric">Huhuhuhu</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>傷<rt class="furi">きず</rt><rt class="roma">kizu</rt></ruby><ruby>つく<rt class="roma">tsuku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+<div class="cn-lyric">只是害怕受伤</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>だから<rt class="roma">dakara</rt></ruby><ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">所以我在远处等待</div>
 </div>
 
 </div>

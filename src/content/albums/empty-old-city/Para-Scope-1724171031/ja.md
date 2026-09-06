@@ -50,14 +50,14 @@ tracks:
 
 ## 概要
 
-Empty old Cityが2021-10-20にリリースしたアルバム『Para-Scope』。全7曲を収録。
+[Empty old City](/ja/artists/solo/empty-old-city)が2021-10-20にリリースしたアルバム『Para-Scope』。全7曲を収録。
 
 ## 収録曲
 
 1. PARA-SCOPE（01:08）
 2. Inside Story（04:05）
-3. Rhapsody（03:57）
+3. [Rhapsody](/ja/songs/empty-old-city/originals/rhapsody)（03:57）
 4. お一人様と侵略者（03:23）
-5. アーバンクルーズ（03:41）
+5. [アーバンクルーズ](/ja/songs/empty-old-city/originals/aabankuruuzu)（03:41）
 6. Model H-3（04:34）
 7. Brand New Plan（03:50）

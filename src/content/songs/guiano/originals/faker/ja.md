@@ -17,7 +17,7 @@ image: /images/songs/guiano/faker.jpg
 
 ## 作品概要
 
-Guianoが2024-04-23にリリースしたシングル「faker」。
+[Guiano](/ja/artists/creators/guiano)が2024-04-23にリリースしたシングル「faker」。
 
 ## 視聴
 {{media-switcher::faker}}

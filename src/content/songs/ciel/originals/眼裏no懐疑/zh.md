@@ -17,7 +17,7 @@ image: /images/songs/ciel/眼裏no懐疑.jpg
 
 ## 作品简介
 
-CIEL于 2024-07-23 发行的单曲《眼裏の懐疑》。
+[CIEL](/zh/artists/solo/ciel)于 2024-07-23 发行的单曲《眼裏の懐疑》。
 
 ## 试听
 {{media-switcher::眼裏の懐疑}}

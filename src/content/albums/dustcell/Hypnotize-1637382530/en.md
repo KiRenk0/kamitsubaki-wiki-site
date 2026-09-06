@@ -54,15 +54,15 @@ tracks:
 
 ## Overview
 
-DUSTCELL's album “Hypnotize”, released on 2022-08-31, featuring 8 tracks.
+[DUSTCELL](/en/artists/solo/dustcell)'s album “Hypnotize”, released on 2022-08-31, featuring 8 tracks.
 
 ## Track List
 
 1. 蜜蜂 (03:15)
 2. 不成者 (01:50)
-3. 足りない (03:02)
+3. [足りない](/en/songs/dustcell/originals/足rinai) (03:02)
 4. どした? (01:31)
 5. ID (02:21)
 6. SANDBAG (02:11)
-7. Void (02:54)
+7. [Void](/en/songs/dustcell/originals/void) (02:54)
 8. 漂泊者 (03:42)

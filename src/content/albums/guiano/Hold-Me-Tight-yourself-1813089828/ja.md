@@ -38,7 +38,7 @@ tracks:
 
 ## 概要
 
-Guianoが2025-05-28にリリースしたEP『Hold Me Tight (yourself)』。全4曲を収録。
+[Guiano](/ja/artists/creators/guiano)が2025-05-28にリリースしたEP『Hold Me Tight (yourself)』。全4曲を収録。
 
 ## 収録曲
 

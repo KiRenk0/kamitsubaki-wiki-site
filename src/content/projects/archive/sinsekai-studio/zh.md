@@ -46,7 +46,7 @@ pulse：致力于构建虚拟世界「INSPIX WORLD」，并不断挑战次世代
 
 ## 旗下艺人
 
-> 以下名单为深脊界运营时期的旗下艺人（历史记录）。2026年9月重组后的成员去向：**明透、琶舞、VALIS、Awairo、とあ、tokiwa** 留在神椿（内部厂牌统合为 PHENOMENON RECORD 后的体制）；**梓川** 移籍 [KYOKAI STUDIO](/zh/projects/labels/kyokai-studio)；**存流、詩道、水野あつ、Sooda、雨宿り** 现收录于 [ALLT STUDIO](/zh/projects/labels/allt-studio) 官网名单；**MIMI、雄之助、Hi-Fi P、他人事** 移籍 KYOKAI STUDIO。
+> 以下名单为深脊界运营时期的旗下艺人（历史记录）。2026年9月重组后的成员去向：**明透、琶舞、VALIS、[Awairo](/zh/artists/solo/awairo)、とあ、[tokiwa](/zh/artists/creators/tokiwa)** 留在神椿（内部厂牌统合为 PHENOMENON RECORD 后的体制）；**梓川** 移籍 [KYOKAI STUDIO](/zh/projects/labels/kyokai-studio)；**存流、詩道、水野あつ、Sooda、雨宿り** 现收录于 [ALLT STUDIO](/zh/projects/labels/allt-studio) 官网名单；**[MIMI](/zh/artists/creators/mimi)、雄之助、Hi-Fi P、[他人事](/zh/artists/creators/hitogoto)** 移籍 KYOKAI STUDIO。
 
 **虚拟歌手**
 

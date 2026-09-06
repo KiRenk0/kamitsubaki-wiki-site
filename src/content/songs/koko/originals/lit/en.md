@@ -19,7 +19,7 @@ image: /images/albums/koko/prayer.jpg
 
 ## Overview
 
-LIT appears on prayer or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+LIT appears on [prayer](/en/albums/koko/prayer) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -139,12 +139,14 @@ LIT appears on prayer or a related official release. Entries are version-specifi
 <div class="jp-lyric">
 [02:05.06]<ruby>期待<rt class="furi">きたい</rt><rt class="roma">kitai</rt></ruby> <ruby>肥大<rt class="furi">ひだい</rt><rt class="roma">hidai</rt></ruby> <ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby> <ruby>オモチャ<rt class="roma">omocha</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>
 </div>
+<div class="trans-lyric">[02:05.06]Expectation, hypertrophy, swaying like a toy as I please</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:08.93]<ruby>受賞<rt class="furi">じゅしょう</rt><rt class="roma">jushou</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>優秀<rt class="furi">ゆうしゅう</rt><rt class="roma">yuushuu</rt></ruby><ruby>賞<rt class="furi">しょう</rt><rt class="roma">shou</rt></ruby> <ruby>でも<rt class="roma">demo</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>出来事<rt class="furi">できごと</rt><rt class="roma">dekigoto</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>実<rt class="furi">じつ</rt><rt class="roma">jitsu</rt></ruby><ruby>は<rt class="roma">ha</rt></ruby><ruby>ウソ<rt class="roma">uso</rt></ruby>
 </div>
+<div class="trans-lyric">[02:08.93]Won the excellent prize, but this event is actually a lie</div>
 </div>
 
 <br />
@@ -183,6 +185,7 @@ LIT appears on prayer or a related official release. Entries are version-specifi
 <div class="jp-lyric">
 [02:54.34]<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>1,2,3 <ruby>ステップ<rt class="roma">suteppu</rt></ruby><ruby>踏<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>呼<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:54.34]Melting into the night, 1,2,3, stepping, calling you</div>
 </div>
 
@@ -190,6 +193,7 @@ LIT appears on prayer or a related official release. Entries are version-specifi
 <div class="jp-lyric">
 [02:57.35]<ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>リキュール<rt class="roma">rikyuuru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>注<rt class="furi">そそ</rt><rt class="roma">soso</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>あげる<rt class="roma">ageru</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:57.35]I'll pour words like sweet liqueur into you</div>
 </div>
 

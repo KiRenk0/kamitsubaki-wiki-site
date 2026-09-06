@@ -76,7 +76,7 @@ The unit name "Awairo" (meaning "pale color") itself embodies their aesthetic di
 ## Representative Works and Related Entries
 
 - Album: "Gradient" (2025.01.15)
-- Singles: "Pale & Deep," "Individuality," "Satellite," "Brand," "Bloonune"
+- Singles: "[Pale](/en/songs/mimi/originals/pale) & Deep," "Individuality," "Satellite," "Brand," "Bloonune"
 
 Useful related entries:
 

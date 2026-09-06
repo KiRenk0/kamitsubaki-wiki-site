@@ -23,7 +23,7 @@ tracks:
 
 ## 概要
 
-ANMCが2025-04-10にリリースしたアルバム『『ガールズメイドプディング』BGM Soundtrack』。全8曲を収録。
+[ANMC](/ja/artists/solo/anmc)が2025-04-10にリリースしたアルバム『『ガールズメイドプディング』BGM Soundtrack』。全8曲を収録。
 
 ## 収録曲
 

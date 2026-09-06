@@ -245,6 +245,7 @@ image: /images/albums/koko/prayer-2.jpg
 <div class="jp-lyric">
 [01:50.54]<ruby>ありがとう<rt class="roma">arigatou</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>お陰様<rt class="furi">おかげさま</rt><rt class="roma">okagesama</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[01:50.54]谢谢你 托你的福</div>
 </div>
 
 <div class="lyric-line">
@@ -288,12 +289,14 @@ image: /images/albums/koko/prayer-2.jpg
 <div class="jp-lyric">
 [02:10.83]<ruby>重<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>傾<rt class="furi">かたむ</rt><rt class="roma">katamu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[02:10.83]变得沉重倾斜的日子里</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:14.98]<ruby>かけがえ<rt class="roma">kakegae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:14.98]向无可替代的日子 说再见</div>
 </div>
 
 <br />
@@ -348,12 +351,14 @@ image: /images/albums/koko/prayer-2.jpg
 <div class="jp-lyric">
 [02:49.52]<ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>は<rt class="roma">ha</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>気付<rt class="furi">きづ</rt><rt class="roma">kizu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[02:49.52]其实啊 我早就察觉</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:52.75]<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>居<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>生活<rt class="furi">せいかつ</rt><rt class="roma">seikatsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>慣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いって<rt class="roma">itte</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:52.75]渐渐习惯视若无睹的生活</div>
 </div>
 
@@ -361,6 +366,7 @@ image: /images/albums/koko/prayer-2.jpg
 <div class="jp-lyric">
 [02:56.05]<ruby>軽<rt class="furi">かる</rt><rt class="roma">karu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>毎日<rt class="furi">まいにち</rt><rt class="roma">mainichi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:56.05]在变得轻松重复的每一天</div>
 </div>
 
@@ -368,6 +374,7 @@ image: /images/albums/koko/prayer-2.jpg
 <div class="jp-lyric">
 [03:00.28]<ruby>欠<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>画<rt class="furi">が</rt><rt class="roma">ga</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>ありがとう<rt class="roma">arigatou</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:00.28]向没有缺失画面的日子 说谢谢</div>
 </div>
 
@@ -377,6 +384,7 @@ image: /images/albums/koko/prayer-2.jpg
 <div class="jp-lyric">
 [03:09.47]<ruby>ありがとう<rt class="roma">arigatou</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:09.47]谢谢你</div>
 </div>
 

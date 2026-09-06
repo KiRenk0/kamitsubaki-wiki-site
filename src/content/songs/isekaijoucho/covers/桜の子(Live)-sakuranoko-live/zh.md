@@ -20,7 +20,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 
 ## 作品简介
 
-《桜の子(Live) [feat. KAF]》收录于《[CANDY LIVE 2](/zh/albums/isekaijoucho/candy-live-2)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《桜の子(Live) [feat. [KAF](/zh/artists/vwp/kaf)]》收录于《[CANDY LIVE 2](/zh/albums/isekaijoucho/candy-live-2)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -140,18 +140,21 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [01:09.57]<ruby>散<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>際<rt class="furi">さい</rt><rt class="roma">sai</rt></ruby>
 </div>
+<div class="cn-lyric">[01:09.57]凋零之际</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:10.72]<ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>まり<rt class="roma">mari</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[01:10.72]知晓了开始</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:13.02]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>透明<rt class="furi">とうめい</rt><rt class="roma">toumei</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>純粋<rt class="furi">じゅんすい</rt><rt class="roma">junsui</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>青<rt class="furi">あお</rt><rt class="roma">ao</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">[01:13.02]我们那透明而纯粹的湛蓝</div>
 </div>
 
 <div class="lyric-line">
@@ -165,6 +168,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [01:20.16]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>桜<rt class="furi">さくら</rt><rt class="roma">sakura</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>子<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby>
 </div>
+<div class="cn-lyric">[01:20.16]你是樱花之子</div>
 </div>
 
 <br />
@@ -233,12 +237,14 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [02:02.40]<ruby>散<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>際<rt class="furi">さい</rt><rt class="roma">sai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:02.40]凋零之际</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:03.66]<ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>まり<rt class="roma">mari</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[02:03.66]知晓了开始</div>
 </div>
 
 <div class="lyric-line">
@@ -291,12 +297,14 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [02:46.77]<ruby>散<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>際<rt class="furi">さい</rt><rt class="roma">sai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:46.77]凋零之际</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:47.66]<ruby>花弁<rt class="furi">はなびら</rt><rt class="roma">hanabira</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:47.66]花瓣知晓了</div>
 </div>
 
@@ -304,12 +312,14 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [02:50.07]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>透明<rt class="furi">とうめい</rt><rt class="roma">toumei</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>純粋<rt class="furi">じゅんすい</rt><rt class="roma">junsui</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>青<rt class="furi">あお</rt><rt class="roma">ao</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:50.07]我们那透明而纯粹的湛蓝</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:54.86]<ruby>大人<rt class="furi">おとな</rt><rt class="roma">otona</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>赤<rt class="furi">あか</rt><rt class="roma">aka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>消<rt class="furi">け</rt><rt class="roma">ke</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:54.86]用世故的红色抹去</div>
 </div>
 
@@ -317,6 +327,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [02:58.12]<ruby>出会<rt class="furi">であ</rt><rt class="roma">dea</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>たび<rt class="roma">tabi</rt></ruby><ruby>巡<rt class="furi">めぐ</rt><rt class="roma">megu</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>さようなら<rt class="roma">sayounara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:58.12]每次相逢都轮回着告别</div>
 </div>
 
@@ -326,6 +337,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [03:01.71]<ruby>春<rt class="furi">はる</rt><rt class="roma">haru</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:01.71]只一味等待春天</div>
 </div>
 
@@ -333,6 +345,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [03:04.25]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>透明<rt class="furi">とうめい</rt><rt class="roma">toumei</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>純粋<rt class="furi">じゅんすい</rt><rt class="roma">junsui</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>青<rt class="furi">あお</rt><rt class="roma">ao</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:04.25]唯独我那份透明纯粹的湛蓝</div>
 </div>
 
@@ -340,6 +353,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [03:08.84]<ruby>受け入<rt class="furi">うけい</rt><rt class="roma">ukei</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:08.84]无法接受啊</div>
 </div>
 
@@ -347,6 +361,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [03:11.38]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>桜<rt class="furi">さくら</rt><rt class="roma">sakura</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>子<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby>
 </div>
+<div class="cn-lyric">[03:11.38]你是樱花之子</div>
 </div>
 
 </div>

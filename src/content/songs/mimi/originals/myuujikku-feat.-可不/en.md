@@ -17,7 +17,7 @@ image: /images/songs/mimi/myuujikku-feat.-可不.jpg
 
 ## Overview
 
-“ミュージック (feat. [可不](/en/artists/isotopes/kafu))” is a single by [MIMI](/en/artists/creators/mimi), released on 2026-06-13.
+“[ミュージック](/en/songs/harusaruhi/covers/ミュージック-myuujikku) (feat. [可不](/en/artists/isotopes/kafu))” is a single by [MIMI](/en/artists/creators/mimi), released on 2026-06-13.
 
 ## Listen
 {{media-switcher::ミュージック (feat. 可不)}}

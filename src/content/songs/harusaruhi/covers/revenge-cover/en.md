@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 
 ## Overview
 
-Revenge at CREAM PUFF LIVE 3(Cover) appears on CREAM PUFF LIVE 3 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+Revenge at CREAM PUFF LIVE 3(Cover) appears on [CREAM PUFF LIVE 3](/en/albums/harusaruhi/cream-puff-live-3) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -42,6 +42,7 @@ Wow wow wow wow wow wow
 <div class="jp-lyric">
 Wow wow wow wow wow wow
 </div>
+<div class="trans-lyric">Wow wow wow wow wow wow</div>
 </div>
 
 <div class="lyric-line">
@@ -55,6 +56,7 @@ Wow wow wow wow
 <div class="jp-lyric">
 Wow wow wow wow
 </div>
+<div class="trans-lyric">Wow wow wow wow</div>
 </div>
 
 <div class="lyric-line">
@@ -446,6 +448,7 @@ Keep on going the dark
 <div class="jp-lyric">
 <ruby>たとえ<rt class="roma">tatoe</rt></ruby><ruby>勝<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>戦<rt class="furi">たたか</rt><rt class="roma">tataka</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="trans-lyric">Even if it's a battle with no chance of winning</div>
 </div>
 
 <div class="lyric-line">
@@ -494,6 +497,7 @@ Keep on going the dark
 <div class="jp-lyric">
 <ruby>作戦<rt class="furi">さくせん</rt><rt class="roma">sakusen</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="trans-lyric">Strategy</div>
 </div>
 
@@ -501,6 +505,7 @@ Keep on going the dark
 <div class="jp-lyric">
 <ruby>団結<rt class="furi">だんけつ</rt><rt class="roma">danketsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="trans-lyric">Unity</div>
 </div>
 
@@ -508,6 +513,7 @@ Keep on going the dark
 <div class="jp-lyric">
 <ruby>続行<rt class="furi">ぞっこう</rt><rt class="roma">zokkou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="trans-lyric">Continuation</div>
 </div>
 
@@ -515,84 +521,98 @@ Keep on going the dark
 <div class="jp-lyric">
 <ruby>失望<rt class="furi">しつぼう</rt><rt class="roma">shitsubou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="trans-lyric">Disappointment</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>屈辱<rt class="furi">くつじょく</rt><rt class="roma">kutsujoku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="trans-lyric">Humiliation</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>失敗<rt class="furi">しっぱい</rt><rt class="roma">shippai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="trans-lyric">Failure</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>後悔<rt class="furi">こうかい</rt><rt class="roma">koukai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="trans-lyric">Regret</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>炎<rt class="furi">ほのお</rt><rt class="roma">honoo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>くべ<rt class="roma">kube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>高<rt class="furi">たか</rt><rt class="roma">taka</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>狼煙<rt class="furi">のろし</rt><rt class="roma">noroshi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="trans-lyric">Throw into the flames, raise high the smoke signal</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>世界中<rt class="furi">せかいじゅう</rt><rt class="roma">sekaijuu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>見放<rt class="furi">みはな</rt><rt class="roma">mihana</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="trans-lyric">Even if the whole world abandons you someday</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>限<rt class="furi">かぎ</rt><rt class="roma">kagi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>挑<rt class="furi">いど</rt><rt class="roma">ido</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="trans-lyric">Let's challenge to the limits of our lives</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>決断<rt class="furi">けつだん</rt><rt class="roma">ketsudan</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="trans-lyric">Decision</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>執念<rt class="furi">しゅうねん</rt><rt class="roma">shuunen</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="trans-lyric">Tenacity</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>挽回<rt class="furi">ばんかい</rt><rt class="roma">bankai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="trans-lyric">Comeback</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>復活<rt class="furi">ふっかつ</rt><rt class="roma">fukkatsu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="trans-lyric">Resurrection</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>遂<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">Achieve</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>眩<rt class="furi">まぶ</rt><rt class="roma">mabu</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>魂<rt class="furi">たましい</rt><rt class="roma">tamashii</rt></ruby>
 </div>
+<div class="trans-lyric">Radiant soul</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>突<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>きつけろ<rt class="roma">kitsukero</rt></ruby>
 </div>
+<div class="trans-lyric">Thrust it out</div>
 </div>
 
 </div>

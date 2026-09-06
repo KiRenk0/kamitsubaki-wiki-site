@@ -19,7 +19,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 
 ## Overview
 
-瞳を閉じて (Live Cover) appears on CHOCOLATE LIVE4 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+瞳を閉じて (Live Cover) appears on [CHOCOLATE LIVE4](/en/albums/rim/chocolate-live-4) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -119,6 +119,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 <ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">Hold me close, hold me close</div>
 </div>
 
 <div class="lyric-line">
@@ -174,18 +175,21 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 <ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">Hold me close, hold me close</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>瞳<rt class="furi">ひとみ</rt><rt class="roma">hitomi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>閉<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">Close your eyes</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="trans-lyric">Your heart</div>
 </div>
 
@@ -193,6 +197,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 <ruby>あたため<rt class="roma">atatame</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+
 <div class="trans-lyric">If I could warm it</div>
 </div>
 

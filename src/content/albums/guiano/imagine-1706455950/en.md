@@ -54,15 +54,15 @@ tracks:
 
 ## Overview
 
-Guiano's album “imagine”, released on 2023-09-20, featuring 8 tracks.
+[Guiano](/en/artists/creators/guiano)'s album “imagine”, released on 2023-09-20, featuring 8 tracks.
 
 ## Track List
 
-1. 空っぽなら、踊ろうぜ (04:50)
-2. 絵画のように美しくいたかった (02:37)
-3. 言っちゃいけないことばっか浮かぶよな (03:21)
-4. 傷は増え続ける、だけどそれでいい (03:47)
-5. 人生は映画じゃない (02:46)
-6. 詞を書く化物 (03:52)
-7. いつもシミュレーション (02:40)
-8. 想像して、創造して (03:02)
+1. [空っぽなら、踊ろうぜ](/en/songs/rim/originals/空っぽなら-踊ろうぜ-lets-dance-if-were-empty) (04:50)
+2. [絵画のように美しくいたかった](/en/songs/rim/originals/絵画のように美しくいたかった-wished-to-be-beautiful-as-a-painting) (02:37)
+3. [言っちゃいけないことばっか浮かぶよな](/en/songs/rim/originals/言っちゃいけないことばっか浮かぶよな-only-the-unspoken-comes-to-mind) (03:21)
+4. [傷は増え続ける、だけどそれでいい](/en/songs/rim/originals/傷は増え続ける-だけどそれでいい-the-wounds-keep-increasing-but-thats-okay) (03:47)
+5. [人生は映画じゃない](/en/songs/rim/originals/人生は映画じゃない-life-isnt-a-movie) (02:46)
+6. [詞を書く化物](/en/songs/rim/originals/詞を書く化物-the-beast-that-writes-lyrics) (03:52)
+7. [いつもシミュレーション](/en/songs/rim/originals/いつもシミュレーション-always-a-simulation-in-my-mind) (02:40)
+8. [想像して、創造して](/en/songs/rim/originals/想像して-創造して-imagine-invent) (03:02)

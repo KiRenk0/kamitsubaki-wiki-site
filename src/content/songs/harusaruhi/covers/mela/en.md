@@ -18,7 +18,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 
 ## Overview
 
-Mela! appears on CREAM PUFF LIVE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+Mela! appears on [CREAM PUFF LIVE](/en/albums/harusaruhi/cream-puff-live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Lyrics
 
@@ -37,12 +37,14 @@ Ere mela mela mela mela mela mela
 <div class="jp-lyric">
 Ere mela mela mela mela mela mela
 </div>
+<div class="trans-lyric">Ere mela mela mela mela mela mela</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Ere mela mela mela mela mela mela
 </div>
+<div class="trans-lyric">Ere mela mela mela mela mela mela</div>
 </div>
 
 <div class="lyric-line">
@@ -84,6 +86,7 @@ Mela mela sewoch hulu mela mela mela belu mela mela sewoch huluu mela mela
 <div class="jp-lyric">
 Chela atbelu mela mela
 </div>
+
 <div class="trans-lyric">Chela atbelu mela mela</div>
 </div>
 
@@ -91,6 +94,7 @@ Chela atbelu mela mela
 <div class="jp-lyric">
 Sewoch hulu mela mela mela belu sewoch hulu mela belugn
 </div>
+
 <div class="trans-lyric">Sewoch hulu mela mela mela belu sewoch hulu mela belugn</div>
 </div>
 

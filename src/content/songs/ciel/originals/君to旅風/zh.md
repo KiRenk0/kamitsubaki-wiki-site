@@ -17,7 +17,7 @@ image: /images/songs/ciel/君to旅風.jpg
 
 ## 作品简介
 
-CIEL于 2026-05-12 发行的单曲《君と旅風》。
+[CIEL](/zh/artists/solo/ciel)于 2026-05-12 发行的单曲《君と旅風》。
 
 ## 试听
 {{media-switcher::君と旅風}}

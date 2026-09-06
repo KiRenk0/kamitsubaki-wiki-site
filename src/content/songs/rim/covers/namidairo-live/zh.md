@@ -143,24 +143,28 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 [02:04.17]<ruby>涙<rt class="furi">なみだ</rt><rt class="roma">namida</rt></ruby><ruby>色<rt class="furi">しょく</rt><rt class="roma">shoku</rt></ruby> <ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>こえ<rt class="roma">koe</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:04.17]泪色 听不见声音的夜晚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:10.49]<ruby>困<rt class="furi">こま</rt><rt class="roma">koma</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby> <ruby>わがまま<rt class="roma">wagamama</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なり<rt class="roma">nari</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:10.49]想变得任性 到让你为难的程度</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:17.73]<ruby>大丈夫<rt class="furi">だいじょうぶ</rt><rt class="roma">daijoubu</rt></ruby> <ruby>そう<rt class="roma">sou</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:17.73]没事的 虽然试着这样说了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:24.03]<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>はず<rt class="roma">hazu</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
 </div>
+<div class="cn-lyric">[02:24.03]不可能是那样的吧</div>
 </div>
 
 <br />
@@ -183,6 +187,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 [02:36.82]<ruby>そんなに<rt class="roma">sonnani</rt></ruby><ruby>強<rt class="furi">つよ</rt><rt class="roma">tsuyo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>わけ<rt class="roma">wake</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>アタシ<rt class="roma">atashi</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:36.82]因为我也没那么坚强啊</div>
 </div>
 
@@ -192,6 +197,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 [02:45.87]<ruby>涙<rt class="furi">なみだ</rt><rt class="roma">namida</rt></ruby><ruby>こぼさ<rt class="roma">kobosa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>決<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:45.87]明明决定了 不让眼泪掉下来</div>
 </div>
 
@@ -199,6 +205,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 [02:51.92]<ruby>困<rt class="furi">こま</rt><rt class="roma">koma</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>？ <ruby>わがまま<rt class="roma">wagamama</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なれ<rt class="roma">nare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:51.92]会给你添麻烦吧？ 无法变得任性</div>
 </div>
 
@@ -206,6 +213,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 [02:59.36]<ruby>大丈夫<rt class="furi">だいじょうぶ</rt><rt class="roma">daijoubu</rt></ruby>？ <ruby>なんて<rt class="roma">nante</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>訊<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:59.36]没事吧？ 虽然又这样问</div>
 </div>
 
@@ -213,6 +221,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 [03:05.70]<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>はず<rt class="roma">hazu</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
 </div>
+<div class="cn-lyric">[03:05.70]不可能是那样的吧</div>
 </div>
 
 </div>

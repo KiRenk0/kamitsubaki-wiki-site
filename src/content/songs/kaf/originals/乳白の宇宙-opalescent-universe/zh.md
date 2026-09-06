@@ -245,6 +245,7 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 <ruby>無垢<rt class="furi">むく</rt><rt class="roma">muku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>輝<rt class="furi">かがや</rt><rt class="roma">kagaya</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby>
 </div>
+<div class="cn-lyric">无垢的光辉</div>
 </div>
 
 </div>

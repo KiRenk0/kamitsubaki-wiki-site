@@ -17,7 +17,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 ## Overview
 
-“この世界は美しい([tokiwa](/en/artists/creators/tokiwa) Remix)” is track 4 of [KAF](/en/artists/vwp/kaf)’s [寓話γ](/en/albums/kaf/guwa-gamma).
+“[この世界は美しい](/en/songs/kaf/originals/この世界は美しい-the-beautiful-world)([tokiwa](/en/artists/creators/tokiwa) Remix)” is track 4 of [KAF](/en/artists/vwp/kaf)’s [寓話γ](/en/albums/kaf/guwa-gamma).
 
 ## Listen
 
@@ -33,7 +33,9 @@ image: /images/albums/kaf/guwa-gamma.jpg
 <div class="jp-lyric">
 [00:00.20]<ruby>まだ<rt class="roma">mada</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
-<div class="trans-lyric">Still, this world</div>
+<div class="trans-lyric">
+[00:00.20]Still, this world
+</div>
 </div>
 
 <div class="lyric-line">

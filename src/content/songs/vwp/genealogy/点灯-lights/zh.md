@@ -299,6 +299,7 @@ image: /images/albums/vwp/inversion.jpg
 <div class="jp-lyric">
 <ruby>走り出<rt class="furi">はしりだ</rt><rt class="roma">hashirida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
+<div class="cn-lyric">奔跑出去</div>
 </div>
 
 <div class="lyric-line">
@@ -319,6 +320,7 @@ image: /images/albums/vwp/inversion.jpg
 <div class="jp-lyric">
 <ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>希望<rt class="furi">きぼう</rt><rt class="roma">kibou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なり<rt class="roma">nari</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+
 <div class="cn-lyric">我想成为希望</div>
 </div>
 
@@ -326,18 +328,21 @@ image: /images/albums/vwp/inversion.jpg
 <div class="jp-lyric">
 <ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じる<rt class="roma">jiru</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby>
 </div>
+<div class="cn-lyric">遵从感受的心</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>走り出<rt class="furi">はしりだ</rt><rt class="roma">hashirida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
+<div class="cn-lyric">奔跑出去</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ああ<rt class="roma">aa</rt></ruby> <ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
+<div class="cn-lyric">啊 向着光芒的前方</div>
 </div>
 
 </div>

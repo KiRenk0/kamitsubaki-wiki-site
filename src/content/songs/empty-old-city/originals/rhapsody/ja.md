@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/rhapsody.jpg
 
 ## 作品概要
 
-Empty old Cityが2021-05-19にリリースしたシングル「Rhapsody」。
+[Empty old City](/ja/artists/solo/empty-old-city)が2021-05-19にリリースしたシングル「Rhapsody」。
 
 ## 視聴
 {{media-switcher::Rhapsody}}

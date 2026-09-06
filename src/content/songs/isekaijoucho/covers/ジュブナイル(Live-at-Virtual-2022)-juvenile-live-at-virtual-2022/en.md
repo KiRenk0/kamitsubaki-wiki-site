@@ -20,7 +20,7 @@ image: /images/albums/rim/singularity-live.jpg
 
 ## Overview
 
-ジュブナイル (Live at Virtual, 2022) appears on Singularity Live or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+ジュブナイル (Live at Virtual, 2022) appears on [Singularity Live](/en/albums/rim/singularity-live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -218,12 +218,14 @@ I love the way you feel turn me on more
 <div class="jp-lyric">
 <ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>ぎ<rt class="roma">gi</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby> <ruby>交差<rt class="furi">こうさ</rt><rt class="roma">kousa</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>目<rt class="furi">もく</rt><rt class="roma">moku</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby> <ruby>信<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby>
 </div>
+<div class="trans-lyric">Hands joining hands, eyes meeting eyes, I wonder if I can believe this feeling</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>捕<rt class="furi">つか</rt><rt class="roma">tsuka</rt></ruby><ruby>まえ<rt class="roma">mae</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>素敵<rt class="furi">すてき</rt><rt class="roma">suteki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>これから<rt class="roma">korekara</rt></ruby><ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>まる<rt class="roma">maru</rt></ruby>
 </div>
+<div class="trans-lyric">Hold onto me, don't look away, the wonderful night is about to begin</div>
 </div>
 
 <br />
@@ -302,6 +304,7 @@ let me be the one <ruby>付き合<rt class="furi">つきあ</rt><rt class="roma"
 <div class="jp-lyric">
 comin' up yo how we wanna know it
 </div>
+
 <div class="trans-lyric">comin' up yo how we wanna know it</div>
 </div>
 
@@ -309,6 +312,7 @@ comin' up yo how we wanna know it
 <div class="jp-lyric">
 Go shawty Go shawty we're gonna do it like this
 </div>
+
 <div class="trans-lyric">Go shawty Go shawty we're gonna do it like this</div>
 </div>
 

@@ -23,7 +23,7 @@ tracks:
 
 ## Overview
 
-ANMC's soundtrack “『ガールズメイドプディング』BGM Soundtrack”, released on 2025-04-10, featuring 8 tracks.
+[ANMC](/en/artists/solo/anmc)'s soundtrack “『ガールズメイドプディング』BGM Soundtrack”, released on 2025-04-10, featuring 8 tracks.
 
 ## Track List
 

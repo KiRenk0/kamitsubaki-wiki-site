@@ -42,12 +42,14 @@ MC5
 <div class="jp-lyric">
 MC5
 </div>
+<div class="cn-lyric">MC5</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 MC5
 </div>
+<div class="cn-lyric">MC5</div>
 </div>
 
 <div class="lyric-line">
@@ -61,24 +63,28 @@ Gotta find time
 <div class="jp-lyric">
 MC5
 </div>
+<div class="cn-lyric">MC5</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 MC5
 </div>
+<div class="cn-lyric">MC5</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 MC5
 </div>
+<div class="cn-lyric">MC5</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Gotta find time
 </div>
+<div class="cn-lyric">得找时间</div>
 </div>
 
 <br />
@@ -145,18 +151,21 @@ And the things that you can do
 <div class="jp-lyric">
 Gotta find time
 </div>
+<div class="cn-lyric">得找时间</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Gotta find time
 </div>
+<div class="cn-lyric">得找时间</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Gotta find time
 </div>
+<div class="cn-lyric">得找时间</div>
 </div>
 
 <br />
@@ -165,6 +174,7 @@ Gotta find time
 <div class="jp-lyric">
 So point me at the summer sun
 </div>
+
 <div class="cn-lyric">那就让我指向夏日的太阳</div>
 </div>
 
@@ -172,6 +182,7 @@ So point me at the summer sun
 <div class="jp-lyric">
 You better pop your bubble gum
 </div>
+
 <div class="cn-lyric">你最好吹破你的泡泡糖</div>
 </div>
 
@@ -179,6 +190,7 @@ You better pop your bubble gum
 <div class="jp-lyric">
 I got some money and a motorbike
 </div>
+
 <div class="cn-lyric">我有一些钱和一辆摩托车</div>
 </div>
 
@@ -186,6 +198,7 @@ I got some money and a motorbike
 <div class="jp-lyric">
 If you love me it's fine
 </div>
+
 <div class="cn-lyric">如果你爱我，那很好</div>
 </div>
 
@@ -193,6 +206,7 @@ If you love me it's fine
 <div class="jp-lyric">
 Swing shot jump
 </div>
+
 <div class="cn-lyric">摇摆 射击 跳跃</div>
 </div>
 
@@ -200,6 +214,7 @@ Swing shot jump
 <div class="jp-lyric">
 We can take a shot at the stars tonight
 </div>
+
 <div class="cn-lyric">今晚我们可以向星星开一枪</div>
 </div>
 
@@ -207,6 +222,7 @@ We can take a shot at the stars tonight
 <div class="jp-lyric">
 It's out of sight
 </div>
+
 <div class="cn-lyric">超乎想象</div>
 </div>
 
@@ -216,6 +232,7 @@ It's out of sight
 <div class="jp-lyric">
 Out of sight
 </div>
+
 <div class="cn-lyric">超乎想象</div>
 </div>
 
@@ -225,6 +242,8 @@ Out of sight
 <div class="jp-lyric">
 Out of sight
 </div>
+
+<div class="cn-lyric">超乎想象</div>
 </div>
 
 <br />
@@ -233,6 +252,7 @@ Out of sight
 <div class="jp-lyric">
 You and me and the MC5
 </div>
+
 <div class="cn-lyric">你和我与MC5</div>
 </div>
 
@@ -240,18 +260,21 @@ You and me and the MC5
 <div class="jp-lyric">
 MC5
 </div>
+<div class="cn-lyric">MC5</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 MC5
 </div>
+<div class="cn-lyric">MC5</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 MC5
 </div>
+<div class="cn-lyric">MC5</div>
 </div>
 
 <br />
@@ -260,6 +283,7 @@ MC5
 <div class="jp-lyric">
 Gotta find time
 </div>
+<div class="cn-lyric">得找时间</div>
 </div>
 
 <br />
@@ -268,48 +292,56 @@ Gotta find time
 <div class="jp-lyric">
 May your days be filled with bags of joy
 </div>
+<div class="cn-lyric">愿你日子装满成袋的欢乐</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And your summer's always hot
 </div>
+<div class="cn-lyric">你的夏日永远火热</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Stay in love with the one you're with
 </div>
+<div class="cn-lyric">始终爱着身边的人</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Don't dwell on what you've lost
 </div>
+<div class="cn-lyric">不要纠结于失去的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 May your guiding angel watch and care
 </div>
+<div class="cn-lyric">愿你的守护天使看顾你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Stay close to you
 </div>
+<div class="cn-lyric">常伴你左右</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Always believe in what you are
 </div>
+<div class="cn-lyric">始终相信你自己</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And the things that you can do
 </div>
+<div class="cn-lyric">以及你能做到的事</div>
 </div>
 
 <br />
@@ -318,18 +350,21 @@ And the things that you can do
 <div class="jp-lyric">
 Gotta find time
 </div>
+<div class="cn-lyric">得找时间</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Gotta find time
 </div>
+<div class="cn-lyric">得找时间</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Gotta find time
 </div>
+<div class="cn-lyric">得找时间</div>
 </div>
 
 <br />
@@ -338,60 +373,80 @@ Gotta find time
 <div class="jp-lyric">
 So point me at the summer sun
 </div>
+
+<div class="cn-lyric">那就让我指向夏日的太阳</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You better pop your bubble gum
 </div>
+
+<div class="cn-lyric">你最好吹破你的泡泡糖</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I got some money and a motorbike
 </div>
+
+<div class="cn-lyric">我有一些钱和一辆摩托车</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 If you love me it's fine
 </div>
+
+<div class="cn-lyric">如果你爱我，那很好</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Swing shot jump
 </div>
+
+<div class="cn-lyric">摇摆 射击 跳跃</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 We can take a shot at the stars tonight
 </div>
+
+<div class="cn-lyric">今晚我们可以向星星开一枪</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It's out of sight
 </div>
+
+<div class="cn-lyric">超乎想象</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Out of sight
 </div>
+
+<div class="cn-lyric">超乎想象</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Out of sight
 </div>
+
+<div class="cn-lyric">超乎想象</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You and me and the MC5
 </div>
+
+<div class="cn-lyric">你和我与MC5</div>
 </div>
 
 <br />
@@ -400,24 +455,28 @@ You and me and the MC5
 <div class="jp-lyric">
 Gotta find time
 </div>
+<div class="cn-lyric">得找时间</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Gotta find time
 </div>
+<div class="cn-lyric">得找时间</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Gotta find time
 </div>
+<div class="cn-lyric">得找时间</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Gotta find time
 </div>
+<div class="cn-lyric">得找时间</div>
 </div>
 
 <br />
@@ -426,6 +485,8 @@ Gotta find time
 <div class="jp-lyric">
 You and me and the MC5
 </div>
+
+<div class="cn-lyric">你和我与MC5</div>
 </div>
 
 <br />
@@ -434,6 +495,8 @@ You and me and the MC5
 <div class="jp-lyric">
 You and me and the MC5
 </div>
+
+<div class="cn-lyric">你和我与MC5</div>
 </div>
 
 <br />
@@ -442,54 +505,72 @@ You and me and the MC5
 <div class="jp-lyric">
 You and me and the MC5
 </div>
+
+<div class="cn-lyric">你和我与MC5</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You and me and the MC5
 </div>
+
+<div class="cn-lyric">你和我与MC5</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You and me and the MC5
 </div>
+
+<div class="cn-lyric">你和我与MC5</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You and me and the MC5
 </div>
+
+<div class="cn-lyric">你和我与MC5</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You and me and the MC5
 </div>
+
+<div class="cn-lyric">你和我与MC5</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You and me and the MC5
 </div>
+
+<div class="cn-lyric">你和我与MC5</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You and me and the MC5
 </div>
+
+<div class="cn-lyric">你和我与MC5</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You and me and the MC5
 </div>
+
+<div class="cn-lyric">你和我与MC5</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You and me and the MC5
 </div>
+
+<div class="cn-lyric">你和我与MC5</div>
 </div>
 
 </div>

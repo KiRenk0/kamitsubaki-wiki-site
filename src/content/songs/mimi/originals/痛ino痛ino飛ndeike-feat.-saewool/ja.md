@@ -17,7 +17,7 @@ image: /images/songs/mimi/痛ino痛ino飛ndeike-feat.-saewool.jpg
 
 ## 作品概要
 
-MIMIが2025-11-05にリリースしたシングル「痛いの痛いの飛んでいけっ (feat. saewool)」。
+[MIMI](/ja/artists/creators/mimi)が2025-11-05にリリースしたシングル「痛いの痛いの飛んでいけっ (feat. saewool)」。
 
 ## 視聴
 {{media-switcher::痛いの痛いの飛んでいけっ (feat. saewool)}}

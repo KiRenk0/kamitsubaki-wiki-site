@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 
 ## 作品简介
 
-《魔女(真) at CREAM PUFF LIVE 3(Cover)》收录于《CREAM PUFF LIVE 3》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《魔女(真) at CREAM PUFF LIVE 3(Cover)》收录于《[CREAM PUFF LIVE 3](/zh/albums/harusaruhi/cream-puff-live-3)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -294,6 +294,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [02:14.37]<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[02:14.37]歌唱吧</div>
 </div>
 
 <div class="lyric-line">
@@ -468,30 +469,35 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [03:45.78]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>産声<rt class="furi">うぶごえ</rt><rt class="roma">ubugoe</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:45.78]你的初啼</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:48.37]<ruby>頭<rt class="furi">あたま</rt><rt class="roma">atama</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>悪<rt class="furi">わる</rt><rt class="roma">waru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>号<rt class="furi">ごう</rt><rt class="roma">gou</rt></ruby>哭<ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:48.37]愚钝的号哭</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:50.84]<ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[03:50.84]回答我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:51.86]<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[03:51.86]歌唱吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:53.05]<ruby>電子<rt class="furi">でんし</rt><rt class="roma">denshi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>海<rt class="furi">うみ</rt><rt class="roma">umi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>舞<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:53.05]在电子之海中起舞</div>
 </div>
 
@@ -499,6 +505,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [03:55.44]<ruby>この<rt class="roma">kono</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:55.44]这个世界是我们的</div>
 </div>
 
@@ -506,6 +513,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [03:59.20]<ruby>証明<rt class="furi">しょうめい</rt><rt class="roma">shoumei</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:59.20]正在寻找证明</div>
 </div>
 

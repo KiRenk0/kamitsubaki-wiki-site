@@ -234,6 +234,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 <ruby>やる<rt class="roma">yaru</rt></ruby><ruby>しか<rt class="roma">shika</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">只能去做</div>
 </div>
 
 <br />
@@ -242,6 +243,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 <ruby>もしも<rt class="roma">moshimo</rt></ruby>
 </div>
+<div class="cn-lyric">如果</div>
 </div>
 
 <div class="lyric-line">
@@ -276,6 +278,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">有我们在</div>
 </div>
 
 <br />
@@ -284,6 +287,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 <ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>あの<rt class="roma">ano</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>もう一度<rt class="furi">もういちど</rt><rt class="roma">mouichido</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+
 <div class="cn-lyric">总有一天 仅此一次回到那些日子</div>
 </div>
 
@@ -291,6 +295,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 <ruby>だから<rt class="roma">dakara</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>向<rt class="furi">む</rt><rt class="roma">mu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby>
 </div>
+
 <div class="cn-lyric">所以现在向前看</div>
 </div>
 

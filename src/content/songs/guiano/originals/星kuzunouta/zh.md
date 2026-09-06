@@ -17,7 +17,7 @@ image: /images/songs/guiano/星kuzunouta.jpg
 
 ## 作品简介
 
-Guiano于 2024-10-29 发行的单曲《星くずのうた》。
+[Guiano](/zh/artists/creators/guiano)于 2024-10-29 发行的单曲《星くずのうた》。
 
 ## 试听
 {{media-switcher::星くずのうた}}

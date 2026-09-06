@@ -17,7 +17,7 @@ image: /images/songs/guiano/suupaahiiroo.jpg
 
 ## 作品概要
 
-Guianoが2019-12-25にリリースしたシングル「スーパーヒーロー」。
+[Guiano](/ja/artists/creators/guiano)が2019-12-25にリリースしたシングル「スーパーヒーロー」。
 
 ## 視聴
 {{media-switcher::スーパーヒーロー}}

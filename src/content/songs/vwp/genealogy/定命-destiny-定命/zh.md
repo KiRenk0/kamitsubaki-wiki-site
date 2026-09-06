@@ -47,18 +47,21 @@ image: /images/songs/vwp/single-1690114244.jpg
 <div class="jp-lyric">
 [00:04.04]V.W.P
 </div>
+<div class="cn-lyric">[00:04.04]V.W.P</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:06.85]V.W.P
 </div>
+<div class="cn-lyric">[00:06.85]V.W.P</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:09.58]V.W.P
 </div>
+<div class="cn-lyric">[00:09.58]V.W.P</div>
 </div>
 
 <br />
@@ -266,6 +269,7 @@ image: /images/songs/vwp/single-1690114244.jpg
 <div class="jp-lyric">
 [01:57.99]<ruby>テステスマイクチェック<rt class="roma">tesutesumaikuchekku</rt></ruby> <ruby>ワンツー<rt class="roma">wantsuu</rt></ruby>？
 </div>
+<div class="cn-lyric">[01:57.99]测试测试麦克风检查 一二？</div>
 </div>
 
 <div class="lyric-line">
@@ -453,6 +457,7 @@ image: /images/songs/vwp/single-1690114244.jpg
 <div class="jp-lyric">
 [03:22.31]<ruby>いら<rt class="roma">ira</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:22.31]已经不需要了啊</div>
 </div>
 
@@ -462,6 +467,7 @@ image: /images/songs/vwp/single-1690114244.jpg
 <div class="jp-lyric">
 [03:25.26]<ruby>反逆<rt class="furi">はんぎゃく</rt><rt class="roma">hangyaku</rt></ruby><ruby>者<rt class="furi">しゃ</rt><rt class="roma">sha</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:25.26]作为反叛者的我们的</div>
 </div>
 
@@ -469,6 +475,7 @@ image: /images/songs/vwp/single-1690114244.jpg
 <div class="jp-lyric">
 [03:27.98]<ruby>生<rt class="furi">なま</rt><rt class="roma">nama</rt></ruby><ruby>恥<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>焼き付<rt class="furi">やきつ</rt><rt class="roma">yakitsu</rt></ruby><ruby>けろ<rt class="roma">kero</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:27.98]将活生生的耻辱烙印在眼中</div>
 </div>
 
@@ -476,6 +483,7 @@ image: /images/songs/vwp/single-1690114244.jpg
 <div class="jp-lyric">
 [03:30.56]<ruby>定<rt class="furi">さだ</rt><rt class="roma">sada</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>争<rt class="furi">あらそ</rt><rt class="roma">araso</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:30.56]不断与命运抗争</div>
 </div>
 
@@ -483,6 +491,7 @@ image: /images/songs/vwp/single-1690114244.jpg
 <div class="jp-lyric">
 [03:32.99]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> V.W.P
 </div>
+<div class="cn-lyric">[03:32.99]我们是 V.W.P</div>
 </div>
 
 </div>

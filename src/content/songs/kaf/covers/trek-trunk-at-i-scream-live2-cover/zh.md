@@ -40,6 +40,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [00:12.55]Tick tick tack
 </div>
+<div class="cn-lyric">[00:12.55]Tick tick tack</div>
 </div>
 
 <div class="lyric-line">
@@ -134,6 +135,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [01:25.15]Tick tick tack
 </div>
+<div class="cn-lyric">[01:25.15]Tick tick tack</div>
 </div>
 
 <br />
@@ -188,6 +190,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [02:04.46]<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>大丈夫<rt class="furi">だいじょうぶ</rt><rt class="roma">daijoubu</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>魔法<rt class="furi">まほう</rt><rt class="roma">mahou</rt></ruby><ruby>かけよ<rt class="roma">kakeyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[02:04.46]施下一定没问题的魔法吧</div>
 </div>
 
 <div class="lyric-line">
@@ -201,12 +204,14 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [02:10.02]<ruby>また<rt class="roma">mata</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>約束<rt class="furi">やくそく</rt><rt class="roma">yakusoku</rt></ruby>
 </div>
+<div class="cn-lyric">[02:10.02]再见 约定</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:11.53]<ruby>旅<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>Good luck!
 </div>
+<div class="cn-lyric">[02:11.53]旅途还远未结束 Good luck!</div>
 </div>
 
 <br />
@@ -215,6 +220,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [02:22.21]Tick tick tack
 </div>
+<div class="cn-lyric">[02:22.21]Tick tick tack</div>
 </div>
 
 <br />
@@ -230,6 +236,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [02:46.82]<ruby>青<rt class="furi">あお</rt><rt class="roma">ao</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いよ<rt class="roma">iyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:46.82]就保持青涩地活下去吧</div>
 </div>
 
@@ -237,6 +244,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [02:50.63]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>物語<rt class="furi">ものがたり</rt><rt class="roma">monogatari</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
+<div class="cn-lyric">[02:50.63]你描绘你的 我描绘我的 故事</div>
 </div>
 
 <br />
@@ -245,6 +253,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [02:59.03]<ruby>たとえ<rt class="roma">tatoe</rt></ruby><ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:59.03]即使相隔遥远</div>
 </div>
 
@@ -252,6 +261,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [03:01.58]<ruby>その<rt class="roma">sono</rt></ruby><ruby>輝<rt class="furi">かがや</rt><rt class="roma">kagaya</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ふっと<rt class="roma">futto</rt></ruby><ruby>孤独<rt class="furi">こどく</rt><rt class="roma">kodoku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:01.58]当那光芒忽然刺痛孤独之时</div>
 </div>
 
@@ -259,6 +269,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [03:06.65]<ruby>そっと<rt class="roma">sotto</rt></ruby><ruby>浮<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>かべ<rt class="roma">kabe</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:06.65]请轻轻浮现吧</div>
 </div>
 
@@ -266,6 +277,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [03:08.59]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>鼓動<rt class="furi">こどう</rt><rt class="roma">kodou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:08.59]思念你的歌 心跳 就在这里</div>
 </div>
 
@@ -275,36 +287,42 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [03:13.74]<ruby>きゅっと<rt class="roma">kyutto</rt></ruby><ruby>指切<rt class="furi">ゆびき</rt><rt class="roma">yubiki</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[03:13.74]用力勾勾小指</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:15.79]<ruby>さめ<rt class="roma">same</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>リズム<rt class="roma">rizumu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[03:15.79]在永不醒来的节奏中</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:17.47]<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>大丈夫<rt class="furi">だいじょうぶ</rt><rt class="roma">daijoubu</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>魔法<rt class="furi">まほう</rt><rt class="roma">mahou</rt></ruby><ruby>かけよ<rt class="roma">kakeyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[03:17.47]施下一定没问题的魔法吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:20.98]TREK TRUNK <ruby>ひとつ<rt class="roma">hitotsu</rt></ruby><ruby>持<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[03:20.98]TREK TRUNK 带上一件</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:22.98]<ruby>また<rt class="roma">mata</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>約束<rt class="furi">やくそく</rt><rt class="roma">yakusoku</rt></ruby>
 </div>
+<div class="cn-lyric">[03:22.98]再见 约定</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:24.30]<ruby>旅<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>Good luck! Good luck!
 </div>
+
 <div class="cn-lyric">[03:24.30]旅途还远未结束 Good luck! Good luck!</div>
 </div>
 
@@ -314,18 +332,21 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [03:42.03]Tick tick tack
 </div>
+<div class="cn-lyric">[03:42.03]Tick tick tack</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:45.67]Tick tick tack
 </div>
+<div class="cn-lyric">[03:45.67]Tick tick tack</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:49.46]Tick tick tack
 </div>
+<div class="cn-lyric">[03:49.46]Tick tick tack</div>
 </div>
 
 </div>

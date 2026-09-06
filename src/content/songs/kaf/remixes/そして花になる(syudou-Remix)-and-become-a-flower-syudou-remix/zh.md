@@ -288,6 +288,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">我之所以歌唱</div>
 </div>
 
 <div class="lyric-line">
@@ -322,6 +323,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 <ruby>だから<rt class="roma">dakara</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">所以我放声歌唱</div>
 </div>
 
 <div class="lyric-line">
@@ -416,6 +418,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">我之所以歌唱</div>
 </div>
 
 <div class="lyric-line">
@@ -429,6 +432,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 <ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">喜欢的事情</div>
 </div>
 
 <div class="lyric-line">
@@ -442,18 +446,21 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 <ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>理由<rt class="furi">りゆう</rt><rt class="roma">riyuu</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いら<rt class="roma">ira</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">坚持喜欢不需要理由</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>だから<rt class="roma">dakara</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">所以我放声歌唱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:59.39]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:59.39]我要成为我自己</div>
 </div>
 
@@ -461,6 +468,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 [03:01.97]<ruby>名前<rt class="furi">なまえ</rt><rt class="roma">namae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:01.97]如无名的花朵一般</div>
 </div>
 
@@ -468,6 +476,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 [03:06.90]<ruby>不可解<rt class="furi">ふかかい</rt><rt class="roma">fukakai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>同<rt class="furi">おな</rt><rt class="roma">ona</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:06.90]不可思议的我们 一定相同</div>
 </div>
 
@@ -475,6 +484,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 [03:13.51]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:13.51]已经没什么好害怕的了</div>
 </div>
 

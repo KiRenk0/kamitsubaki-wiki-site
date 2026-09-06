@@ -16,7 +16,7 @@ image: /images/songs/empty-old-city/death-designer-english-ver.jpg
 
 ## 作品概要
 
-Empty old Cityが2025-02-18にリリースしたシングル「Death Designer (English Ver.)」。
+[Empty old City](/ja/artists/solo/empty-old-city)が2025-02-18にリリースしたシングル「Death Designer (English Ver.)」。
 
 ## 視聴
 {{media-switcher::Death Designer (English Ver.)}}

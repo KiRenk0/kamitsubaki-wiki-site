@@ -164,7 +164,9 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 [02:01.54]<ruby>けど<rt class="roma">kedo</rt></ruby> <ruby>それ<rt class="roma">sore</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
-<div class="trans-lyric">But that's fine too</div>
+<div class="trans-lyric">
+[02:01.54]But that's fine too
+</div>
 </div>
 
 <div class="lyric-line">
@@ -248,24 +250,28 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 [03:27.10]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>コンパス<rt class="roma">konpasu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>サーチライト<rt class="roma">saachiraito</rt></ruby>
 </div>
+<div class="trans-lyric">[03:27.10]You are a compass, you are a searchlight</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:32.61]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>マント<rt class="roma">manto</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>旅人<rt class="furi">たびびと</rt><rt class="roma">tabibito</rt></ruby>
 </div>
+<div class="trans-lyric">[03:32.61]You are a cloak, I am a traveler</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:38.19]<ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>さざ波<rt class="furi">さざなみ</rt><rt class="roma">sazanami</rt></ruby> <ruby>水面<rt class="furi">すいめん</rt><rt class="roma">suimen</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby>
 </div>
+<div class="trans-lyric">[03:38.19]Wind and ripples, water surface and light</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:43.70]<ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:43.70]To the you I fell in love with, everything I showed was love</div>
 </div>
 

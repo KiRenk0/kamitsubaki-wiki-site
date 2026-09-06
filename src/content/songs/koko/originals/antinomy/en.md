@@ -19,7 +19,7 @@ image: /images/albums/koko/prayer-2.jpg
 
 ## Overview
 
-ANTINOMY appears on prayer2 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+ANTINOMY appears on [prayer2](/en/albums/koko/prayer-2) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -154,18 +154,21 @@ The broken night
 <div class="jp-lyric">
 The broken night
 </div>
+<div class="trans-lyric">The broken night</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The broken night
 </div>
+<div class="trans-lyric">The broken night</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The broken night
 </div>
+<div class="trans-lyric">The broken night</div>
 </div>
 
 <div class="lyric-line">
@@ -228,12 +231,14 @@ Of my humanity
 <div class="jp-lyric">
 Discard the meanings and find your will
 </div>
+<div class="trans-lyric">Discard the meanings and find your will</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Survive, survive and catch your breath
 </div>
+<div class="trans-lyric">Survive, survive and catch your breath</div>
 </div>
 
 <div class="lyric-line">
@@ -268,12 +273,14 @@ I get angry to anyone who tramples on my feelings
 <div class="jp-lyric">
 A mechanical device's tears
 </div>
+<div class="trans-lyric">A mechanical device's tears</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Who does this trembling heart belong to?
 </div>
+<div class="trans-lyric">Who does this trembling heart belong to?</div>
 </div>
 
 <br />
@@ -324,6 +331,7 @@ Do we hate each other?
 <div class="jp-lyric">
 Now that I mention it
 </div>
+
 <div class="trans-lyric">Now that I mention it</div>
 </div>
 
@@ -331,6 +339,7 @@ Now that I mention it
 <div class="jp-lyric">
 This hatred is also very similar
 </div>
+
 <div class="trans-lyric">This hatred is also very similar</div>
 </div>
 
@@ -338,6 +347,7 @@ This hatred is also very similar
 <div class="jp-lyric">
 I can't let go of your tearful voice
 </div>
+
 <div class="trans-lyric">I can't let go of your tearful voice</div>
 </div>
 
@@ -345,6 +355,7 @@ I can't let go of your tearful voice
 <div class="jp-lyric">
 Your hand is still warm
 </div>
+
 <div class="trans-lyric">Your hand is still warm</div>
 </div>
 
@@ -352,6 +363,7 @@ Your hand is still warm
 <div class="jp-lyric">
 Born as a corpse
 </div>
+
 <div class="trans-lyric">Born as a corpse</div>
 </div>
 
@@ -359,6 +371,7 @@ Born as a corpse
 <div class="jp-lyric">
 Antinomy, antinomy, the world's bug
 </div>
+
 <div class="trans-lyric">Antinomy, antinomy, the world's bug</div>
 </div>
 
@@ -366,12 +379,14 @@ Antinomy, antinomy, the world's bug
 <div class="jp-lyric">
 Like a human
 </div>
+<div class="trans-lyric">Like a human</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It gets angry to anyone who tramples on its feelings
 </div>
+
 <div class="trans-lyric">It gets angry to anyone who tramples on its feelings</div>
 </div>
 
@@ -379,36 +394,42 @@ It gets angry to anyone who tramples on its feelings
 <div class="jp-lyric">
 A mechanical device's tears
 </div>
+<div class="trans-lyric">A mechanical device's tears</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Who does this trembling heart belong to?
 </div>
+<div class="trans-lyric">Who does this trembling heart belong to?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The broken night
 </div>
+<div class="trans-lyric">The broken night</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The broken night
 </div>
+<div class="trans-lyric">The broken night</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The broken night
 </div>
+<div class="trans-lyric">The broken night</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The broken night
 </div>
+<div class="trans-lyric">The broken night</div>
 </div>
 
 <br />

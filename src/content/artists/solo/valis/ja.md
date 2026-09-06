@@ -78,7 +78,7 @@ VALIS の活動における核となるのは、「バーチャル」と「リ�
 - 2025年2月21日、6th ONE-MAN LIVE『喝采 Curtain Call』を開催。
 - 2025年9月27日、7th ONE-MAN LIVE『咆哮 Forever』を開催予定。
 
-- 2026年9月5日：神椿スタジオのリニューアルに伴い、スタジオ内レーベルが PHENOMENON RECORD に統合され、同レーベル所属となる（旧・SINSEKAI RECORD の名称は使用終了）。
+- 2026年9月5日：神椿スタジオのリニューアルに伴い、スタジオ内レーベルが PHENOMENON RECORD に統合され、同レーベル所属となる（旧・[SINSEKAI RECORD](/ja/projects/archive/sinsekai-studio) の名称は使用終了）。
 
 ## メンバーと形態
 

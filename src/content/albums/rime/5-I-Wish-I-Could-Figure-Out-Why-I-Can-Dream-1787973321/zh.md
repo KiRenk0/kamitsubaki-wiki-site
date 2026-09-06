@@ -69,7 +69,7 @@ tracks:
 1. 最悪（03:35）
 2. 終了（04:09）
 3. Night Walk Vol.11 (feat. IA)（04:25）
-4. 青春（03:18）
+4. [青春](/zh/songs/harusaruhi/originals/青春-youth)（03:18）
 5. 馬鹿（03:56）
 6. 趣味（03:07）
 7. 本心（04:05）

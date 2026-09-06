@@ -75,12 +75,12 @@ Within V.W.P, she frequently occupies the sharper and more explosive edge of the
 ### 2019
 
 - **November 15**: Uploaded her first teaser video, officially beginning her activities.
-- **December 25**: Released her 1st original single "逆転" (Gyakuten).
+- **December 25**: Released her 1st original single "[逆転](/en/songs/harusaruhi/originals/逆転-reversal)" (Gyakuten).
 
 ### 2020
 
 - **March 23**: Made her first 3D model appearance as a guest at Kaf's 1st LIVE "FUKAKAI (Re)".
-- **July 30**: Released her 4th original single "オオゴト" (Oogoto).
+- **July 30**: Released her 4th original single "[オオゴト](/en/songs/harusaruhi/originals/オオゴト-serious-affair)" (Oogoto).
 - **September 28**: Released her 5th original single "告げ口" (Tsugeguchi).
 - **December 5**: Held her 1st Streaming Cover Live "Choucream Live".
 
@@ -89,11 +89,11 @@ Within V.W.P, she frequently occupies the sharper and more explosive edge of the
 - **January 16**: Her YouTube channel reached 100,000 subscribers.
 - **March 14**: Joined the virtual singer group V.W.P (Virtual Witch Phenomenon) during Kaf's 2nd LIVE "FUKAKAI II Q2".
 - **August 27**: Held her 1st ONE-MAN LIVE "Shamanism" at HULIC HALL TOKYO.
-- **October 6**: Released her 1st album *心眼* (Shingan).
+- **October 6**: Released her 1st album *[心眼](/en/albums/harusaruhi/shingan)* (Shingan).
 
 ### 2022
 
-- **January 28**: Released the original single "Oarana", which served as the theme song for the anime *The Orbital Children*.
+- **January 28**: Released the original single "[Oarana](/en/songs/harusaruhi/originals/oarana)", which served as the theme song for the anime *The Orbital Children*.
 - **August 6**: Held her Streaming Cover Live "Choucream Live 2".
 - **November 6**: Co-hosted "Singularity Live 2" with [Koko](/en/artists/vwp/koko) and [CIEL](/en/artists/solo/ciel), releasing the song "[自由までの距離](/en/songs/harusaruhi/originals/自由までの距離-distance-to-freedom)" (Jiyuu made no Kyori) and debuting the 3D model of her [musical isotope](/en/artists/solo/musical-isotope) [HARU](/en/artists/isotopes/haru) (羽累).
 
@@ -108,19 +108,19 @@ Within V.W.P, she frequently occupies the sharper and more explosive edge of the
 
 ### 2025
 
-- **August 27**: Released the original single "(A)letheia" (theme song for the free horror ADV game *Haru to Kaiya*).
+- **August 27**: Released the original single "[(A)letheia](/en/songs/harusaruhi/originals/a-letheia)" (theme song for the free horror ADV game *Haru to Kaiya*).
 - **November 2**: Participated in "KAMITSUBAKI FES '25".
 
 ### 2026
 
-- **June 24**: Released her Remix Album *GLITCH STAGE*.
+- **June 24**: Released her Remix Album *[GLITCH STAGE](/en/albums/harusaruhi/glitch-stage)*.
 - **September 5–6**: Scheduled to perform at "KAMITSUBAKI WARS 2026 Kamitsubaki Yokohama Sensen".
 
 ## Representative Works and Related Entries
 
-- **Solo Singles**: e.g., "Accomplice"
-- **Remix / Mix Projects**: e.g., *GLITCH STAGE*, *SPICE OF LIFE*
-- **V.W.P Paired Songs**: Confrontational duo tracks, such as "LOVEi" and "BREATHE" with Isekaijoucho
+- **Solo Singles**: e.g., "[Accomplice](/en/songs/harusaruhi/originals/accomplice)"
+- **Remix / Mix Projects**: e.g., *GLITCH STAGE*, *[SPICE OF LIFE](/en/albums/harusaruhi/spice-of-life)*
+- **V.W.P Paired Songs**: Confrontational duo tracks, such as "LOVEi" and "[BREATHE](/en/songs/vwp/projects/breathe)" with Isekaijoucho
 - **Live Performances**: Live versions tied to major Kamitsubaki stage productions
 
 Related entry:

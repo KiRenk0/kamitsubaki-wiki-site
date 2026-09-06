@@ -278,30 +278,35 @@ image: /images/albums/vwp/songstress.jpg
 <div class="jp-lyric">
 [02:54.59]<ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:54.59]想要两个人一起生活</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:57.98]<ruby>どんな<rt class="roma">donna</rt></ruby><ruby>ふう<rt class="roma">fuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>ったり<rt class="roma">ttari</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>... <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>せる<rt class="roma">seru</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>？
 </div>
+<div class="cn-lyric">[02:57.98]会怎样笑着呢... 能够相爱吗？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:02.68]<ruby>あこがれ<rt class="roma">akogare</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
+<div class="cn-lyric">[03:02.68]向憧憬的前方</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:05.50]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby><ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>連<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ゆく<rt class="roma">yuku</rt></ruby>！
 </div>
+<div class="cn-lyric">[03:05.50]现在就带你走！</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:10.84]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>！
 </div>
+
 <div class="cn-lyric">[03:10.84]向过去的每一天说再见！</div>
 </div>
 
@@ -309,6 +314,7 @@ image: /images/albums/vwp/songstress.jpg
 <div class="jp-lyric">
 [03:13.63]<ruby>あぁ<rt class="roma">aa</rt></ruby>... <ruby>ときどき<rt class="roma">tokidoki</rt></ruby><ruby>とても<rt class="roma">totemo</rt></ruby><ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:13.63]啊啊... 有时会变得非常害怕</div>
 </div>
 
@@ -316,6 +322,7 @@ image: /images/albums/vwp/songstress.jpg
 <div class="jp-lyric">
 [03:16.54]<ruby>その<rt class="roma">sono</rt></ruby><ruby>とき<rt class="roma">toki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>きつく<rt class="roma">kitsuku</rt></ruby><ruby>首<rt class="furi">くび</rt><rt class="roma">kubi</rt></ruby><ruby>絞<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:16.54]那时就紧紧勒住脖子</div>
 </div>
 
@@ -323,6 +330,7 @@ image: /images/albums/vwp/songstress.jpg
 <div class="jp-lyric">
 [03:19.04]<ruby>地獄<rt class="furi">じごく</rt><rt class="roma">jigoku</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>覚悟<rt class="furi">かくご</rt><rt class="roma">kakugo</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>持<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
+
 <div class="cn-lyric">[03:19.04]做好去地狱的觉悟了吗？</div>
 </div>
 

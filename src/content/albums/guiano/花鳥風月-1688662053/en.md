@@ -70,7 +70,7 @@ tracks:
 
 ## Overview
 
-Guiano's album “花鳥風月”, released on 2023-04-29, featuring 12 tracks.
+[Guiano](/en/artists/creators/guiano)'s album “花鳥風月”, released on 2023-04-29, featuring 12 tracks.
 
 ## Track List
 

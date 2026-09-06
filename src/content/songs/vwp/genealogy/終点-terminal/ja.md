@@ -24,7 +24,7 @@ image: /images/albums/vwp/inversion.jpg
 
 ## 作品概要
 
-「終点 (feat. [花譜](/ja/artists/vwp/kaf), [理芽](/ja/artists/vwp/rim), [春猿火](/ja/artists/vwp/harusaruhi), [ヰ世界情緒](/ja/artists/vwp/isekaijoucho) & [幸祜](/ja/artists/vwp/koko))」は『[反転](/ja/albums/vwp/inversion)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「[終点](/ja/songs/koko/covers/終点-shuuten) (feat. [花譜](/ja/artists/vwp/kaf), [理芽](/ja/artists/vwp/rim), [春猿火](/ja/artists/vwp/harusaruhi), [ヰ世界情緒](/ja/artists/vwp/isekaijoucho) & [幸祜](/ja/artists/vwp/koko))」は『[反転](/ja/albums/vwp/inversion)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 試聴
 

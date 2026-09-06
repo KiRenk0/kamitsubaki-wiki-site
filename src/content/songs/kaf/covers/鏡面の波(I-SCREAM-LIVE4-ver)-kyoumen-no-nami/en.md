@@ -31,37 +31,37 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>眠<rt class="furi">ねむ</rt><rt class="roma">nemu</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby> <ruby>閉じ込<rt class="furi">とじこ</rt><rt class="roma">tojiko</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>熱<rt class="furi">ねつ</rt><rt class="roma">netsu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
+[00:03.02]<ruby>眠<rt class="furi">ねむ</rt><rt class="roma">nemu</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby> <ruby>閉じ込<rt class="furi">とじこ</rt><rt class="roma">tojiko</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>熱<rt class="furi">ねつ</rt><rt class="roma">netsu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
-<div class="trans-lyric">The heat trapped in the hand of sleep</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>水際<rt class="furi">みずぎわ</rt><rt class="roma">mizugiwa</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>漂<rt class="furi">ただよ</rt><rt class="roma">tadayo</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>その<rt class="roma">sono</rt></ruby><ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby>
-</div>
-<div class="trans-lyric">That color drifting at the water's edge</div>
+<div class="trans-lyric">[00:03.02]The heat trapped in the hand of sleep</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>行き先<rt class="furi">ゆきさき</rt><rt class="roma">yukisaki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[00:14.03]<ruby>水際<rt class="furi">みずぎわ</rt><rt class="roma">mizugiwa</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>漂<rt class="furi">ただよ</rt><rt class="roma">tadayo</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>その<rt class="roma">sono</rt></ruby><ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby>
 </div>
-<div class="trans-lyric">Forgetting the destination</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>無数<rt class="furi">むすう</rt><rt class="roma">musuu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>粒<rt class="furi">つぶ</rt><rt class="roma">tsubu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
-</div>
-<div class="trans-lyric">Countless grains melted into the days</div>
+<div class="trans-lyric">[00:14.03]That color drifting at the water's edge</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>夜露<rt class="furi">よつゆ</rt><rt class="roma">yotsuyu</rt></ruby> <ruby>受け止<rt class="furi">うけと</rt><rt class="roma">uketo</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>器<rt class="furi">うつわ</rt><rt class="roma">utsuwa</rt></ruby>
+[00:25.10]<ruby>行き先<rt class="furi">ゆきさき</rt><rt class="roma">yukisaki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="trans-lyric">A vessel that catches the night dew</div>
+<div class="trans-lyric">[00:25.10]Forgetting the destination</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:29.52]<ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>無数<rt class="furi">むすう</rt><rt class="roma">musuu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>粒<rt class="furi">つぶ</rt><rt class="roma">tsubu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
+</div>
+<div class="trans-lyric">[00:29.52]Countless grains melted into the days</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:36.03]<ruby>夜露<rt class="furi">よつゆ</rt><rt class="roma">yotsuyu</rt></ruby> <ruby>受け止<rt class="furi">うけと</rt><rt class="roma">uketo</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>器<rt class="furi">うつわ</rt><rt class="roma">utsuwa</rt></ruby>
+</div>
+<div class="trans-lyric">[00:36.03]A vessel that catches the night dew</div>
 </div>
 
 <div class="lyric-line">
@@ -75,9 +75,9 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>夕立<rt class="furi">ゆうだち</rt><rt class="roma">yuudachi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>名付<rt class="furi">なづ</rt><rt class="roma">nazu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[00:45.96]<ruby>夕立<rt class="furi">ゆうだち</rt><rt class="roma">yuudachi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>名付<rt class="furi">なづ</rt><rt class="roma">nazu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
-<div class="trans-lyric">When the evening shower was named</div>
+<div class="trans-lyric">[00:45.96]When the evening shower was named</div>
 </div>
 
 <div class="lyric-line">
@@ -89,23 +89,23 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それ<rt class="roma">sore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>波<rt class="furi">なみ</rt><rt class="roma">nami</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[00:56.90]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>波<rt class="furi">なみ</rt><rt class="roma">nami</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
-<div class="trans-lyric">Like waves</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>指<rt class="furi">ゆび</rt><rt class="roma">yubi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>隙間<rt class="furi">すきま</rt><rt class="roma">sukima</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>すり抜<rt class="furi">すりぬ</rt><rt class="roma">surinu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
-</div>
-<div class="trans-lyric">Slip through the gaps of my fingers and disappear</div>
+<div class="trans-lyric">[00:56.90]Like waves</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>形<rt class="furi">かたち</rt><rt class="roma">katachi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby> <ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
+[01:03.24]<ruby>指<rt class="furi">ゆび</rt><rt class="roma">yubi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>隙間<rt class="furi">すきま</rt><rt class="roma">sukima</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>すり抜<rt class="furi">すりぬ</rt><rt class="roma">surinu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="trans-lyric">Only the ever-changing, repeating dreams</div>
+<div class="trans-lyric">[01:03.24]Slip through the gaps of my fingers and disappear</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:08.72]<ruby>形<rt class="furi">かたち</rt><rt class="roma">katachi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby> <ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
+</div>
+<div class="trans-lyric">[01:08.72]Only the ever-changing, repeating dreams</div>
 </div>
 
 <div class="lyric-line">
@@ -119,30 +119,30 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>さま<rt class="roma">sama</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>彷徨<rt class="furi">ほうこう</rt><rt class="roma">houkou</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
+[01:26.06]<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>さま<rt class="roma">sama</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>彷徨<rt class="furi">ほうこう</rt><rt class="roma">houkou</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
-<div class="trans-lyric">Wandering through the night</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>移<rt class="furi">うつ</rt><rt class="roma">utsu</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>季節<rt class="furi">きせつ</rt><rt class="roma">kisetsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>忘れ物<rt class="furi">わすれもの</rt><rt class="roma">wasuremono</rt></ruby>
-</div>
-<div class="trans-lyric">The forgotten things of changing seasons</div>
+<div class="trans-lyric">[01:26.06]Wandering through the night</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+[01:31.51]<ruby>移<rt class="furi">うつ</rt><rt class="roma">utsu</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>季節<rt class="furi">きせつ</rt><rt class="roma">kisetsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>忘れ物<rt class="furi">わすれもの</rt><rt class="roma">wasuremono</rt></ruby>
 </div>
-<div class="trans-lyric">Words that think of someone</div>
+<div class="trans-lyric">[01:31.51]The forgotten things of changing seasons</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>気付<rt class="furi">きつ</rt><rt class="roma">kitsu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby>
+[01:36.13]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
-<div class="trans-lyric">Without noticing someone else's feelings</div>
+<div class="trans-lyric">[01:36.13]Words that think of someone</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:41.67]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>気付<rt class="furi">きつ</rt><rt class="roma">kitsu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby>
+</div>
+<div class="trans-lyric">[01:41.67]Without noticing someone else's feelings</div>
 </div>
 
 <br />
@@ -172,84 +172,89 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>らめく<rt class="roma">rameku</rt></ruby>
+[02:06.57]<ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>らめく<rt class="roma">rameku</rt></ruby>
 </div>
-<div class="trans-lyric">Flickering</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>彷徨<rt class="furi">ほうこう</rt><rt class="roma">houkou</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
-</div>
-<div class="trans-lyric">Wandering through the night</div>
+<div class="trans-lyric">[02:06.57]Flickering</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>移<rt class="furi">うつ</rt><rt class="roma">utsu</rt></ruby><ruby>ろい<rt class="roma">roi</rt></ruby><ruby>季節<rt class="furi">きせつ</rt><rt class="roma">kisetsu</rt></ruby> <ruby>忘れ物<rt class="furi">わすれもの</rt><rt class="roma">wasuremono</rt></ruby>
+[02:42.83]<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>彷徨<rt class="furi">ほうこう</rt><rt class="roma">houkou</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
-<div class="trans-lyric">Changing seasons, forgotten things</div>
+<div class="trans-lyric">[02:42.83]Wandering through the night</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>彷徨<rt class="furi">ほうこう</rt><rt class="roma">houkou</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
+[02:47.62]<ruby>移<rt class="furi">うつ</rt><rt class="roma">utsu</rt></ruby><ruby>ろい<rt class="roma">roi</rt></ruby><ruby>季節<rt class="furi">きせつ</rt><rt class="roma">kisetsu</rt></ruby> <ruby>忘れ物<rt class="furi">わすれもの</rt><rt class="roma">wasuremono</rt></ruby>
 </div>
+<div class="trans-lyric">[02:47.62]Changing seasons, forgotten things</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:52.44]<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>彷徨<rt class="furi">ほうこう</rt><rt class="roma">houkou</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
+</div>
+<div class="trans-lyric">[02:52.44]Wandering through the night</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>欠<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
+[02:56.32]<ruby>欠<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
-<div class="trans-lyric">Searching for the missing one</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>舞い上<rt class="furi">まいあ</rt><rt class="roma">maia</rt></ruby><ruby>がる<rt class="roma">garu</rt></ruby><ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>攫<rt class="furi">さら</rt><rt class="roma">sara</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby>
-</div>
-<div class="trans-lyric">When the swirling wind snatched my voice</div>
+<div class="trans-lyric">[02:56.32]Searching for the missing one</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>迷<rt class="furi">まよ</rt><rt class="roma">mayo</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[03:00.66]<ruby>舞い上<rt class="furi">まいあ</rt><rt class="roma">maia</rt></ruby><ruby>がる<rt class="roma">garu</rt></ruby><ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>攫<rt class="furi">さら</rt><rt class="roma">sara</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby>
 </div>
-<div class="trans-lyric">So that I might not lose my way even a little</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
-</div>
-<div class="trans-lyric">I turn it into a song</div>
+<div class="trans-lyric">[03:00.66]When the swirling wind snatched my voice</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>夕立<rt class="furi">ゆうだち</rt><rt class="roma">yuudachi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>名付<rt class="furi">なづ</rt><rt class="roma">nazu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[03:11.58]<ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>迷<rt class="furi">まよ</rt><rt class="roma">mayo</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="trans-lyric">[03:11.58]So that I might not lose my way even a little</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[03:17.79]<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
+</div>
+<div class="trans-lyric">[03:17.79]I turn it into a song</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[03:22.28]<ruby>夕立<rt class="furi">ゆうだち</rt><rt class="roma">yuudachi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>名付<rt class="furi">なづ</rt><rt class="roma">nazu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+</div>
+<div class="trans-lyric">[03:22.28]When the evening shower was named</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>剥<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>がし<rt class="roma">gashi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby>
 </div>
+<div class="trans-lyric">The moment the world was peeled away</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それ<rt class="roma">sore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>波<rt class="furi">なみ</rt><rt class="roma">nami</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[03:33.55]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>波<rt class="furi">なみ</rt><rt class="roma">nami</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="trans-lyric">[03:33.55]Like waves</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>指<rt class="furi">ゆび</rt><rt class="roma">yubi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>隙間<rt class="furi">すきま</rt><rt class="roma">sukima</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>すり抜<rt class="furi">すりぬ</rt><rt class="roma">surinu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまい<rt class="roma">shimai</rt></ruby>
+[03:39.88]<ruby>指<rt class="furi">ゆび</rt><rt class="roma">yubi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>隙間<rt class="furi">すきま</rt><rt class="roma">sukima</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>すり抜<rt class="furi">すりぬ</rt><rt class="roma">surinu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまい<rt class="roma">shimai</rt></ruby>
 </div>
-<div class="trans-lyric">Slip through the gaps of my fingers and vanish</div>
+
+<div class="trans-lyric">[03:39.88]Slip through the gaps of my fingers and vanish</div>
 </div>
 
 </div>

@@ -38,7 +38,9 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 <div class="jp-lyric">
 [00:15.69]<ruby>あれ<rt class="roma">are</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ずいぶん<rt class="roma">zuibun</rt></ruby>经<ruby>った<rt class="roma">tta</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
-<div class="trans-lyric">It's been quite a while since then, I think</div>
+<div class="trans-lyric">
+[00:15.69]It's been quite a while since then, I think
+</div>
 </div>
 
 <div class="lyric-line">
@@ -87,7 +89,9 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 <div class="jp-lyric">
 [01:26.66]<ruby>ハロー<rt class="roma">harou</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>出会<rt class="furi">であ</rt><rt class="roma">dea</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>運<rt class="furi">はこ</rt><rt class="roma">hako</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby>
 </div>
-<div class="trans-lyric">Hello, our encounter carries the wind.</div>
+<div class="trans-lyric">
+[01:26.66]Hello, our encounter carries the wind.
+</div>
 </div>
 
 <div class="lyric-line">
@@ -220,12 +224,14 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 <div class="jp-lyric">
 [04:16.25]<ruby>ハロー<rt class="roma">harou</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>出会<rt class="furi">であ</rt><rt class="roma">dea</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>運<rt class="furi">はこ</rt><rt class="roma">hako</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby>
 </div>
+<div class="trans-lyric">[04:16.25]Hello, our encounter carries the wind.</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:21.42]<ruby>運命<rt class="furi">うんめい</rt><rt class="roma">unmei</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>恥<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>ずかしく<rt class="roma">zukashiku</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="trans-lyric">[04:21.42]Things like fate make me feel embarrassed too.</div>
 </div>
 

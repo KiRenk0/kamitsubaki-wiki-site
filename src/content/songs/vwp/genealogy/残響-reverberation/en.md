@@ -185,24 +185,28 @@ image: /images/albums/vwp/inversion.jpg
 <div class="jp-lyric">
 <ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby> <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>名<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="trans-lyric">Ah, now the name I repeat</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>赤<rt class="furi">あか</rt><rt class="roma">aka</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>華<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>哮<rt class="furi">たけ</rt><rt class="roma">take</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>その<rt class="roma">sono</rt></ruby><ruby>残響<rt class="furi">ざんきょう</rt><rt class="roma">zankyou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="trans-lyric">The roaring echo in the night where red flowers dance</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>さあ<rt class="roma">saa</rt></ruby> <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>語<rt class="furi">かた</rt><rt class="roma">kata</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>名<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="trans-lyric">Come, now the name that is spoken</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>泡沫<rt class="furi">ほうまつ</rt><rt class="roma">houmatsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>名付<rt class="furi">なづ</rt><rt class="roma">nazu</rt></ruby><ruby>けよ<rt class="roma">keyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="trans-lyric">Shall I name it now a fleeting life?</div>
 </div>
 
 </div>

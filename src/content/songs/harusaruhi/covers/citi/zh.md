@@ -177,36 +177,42 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [01:24.48]<ruby>虚<rt class="furi">うつ</rt><rt class="roma">utsu</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> our relationships
 </div>
+<div class="cn-lyric">[01:24.48]空虚的 our relationships</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:27.10]<ruby>灯<rt class="furi">あか</rt><rt class="roma">aka</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>闇<rt class="furi">やみ</rt><rt class="roma">yami</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>走<rt class="furi">はし</rt><rt class="roma">hashi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>だす<rt class="roma">dasu</rt></ruby> <ruby>当<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby> <ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>めど<rt class="roma">medo</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby>
 </div>
+<div class="cn-lyric">[01:27.10]在没有灯光的黑暗中 奔跑 漫无目的 无止无休</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:32.95]<ruby>代わり映<rt class="furi">かわりば</rt><rt class="roma">kawariba</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby> going on
 </div>
+<div class="cn-lyric">[01:32.95]一成不变的日子 going on</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:35.10]<ruby>崩<rt class="furi">くず</rt><rt class="roma">kuzu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> formula, action &amp; replay
 </div>
+<div class="cn-lyric">[01:35.10]崩溃的 formula, action & replay</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:37.91]<ruby>代<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>かし<rt class="roma">kashi</rt></ruby> <ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>急<rt class="furi">いそ</rt><rt class="roma">iso</rt></ruby><ruby>ぐ<rt class="roma">gu</rt></ruby> <ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>急<rt class="furi">いそ</rt><rt class="roma">iso</rt></ruby><ruby>ぐ<rt class="roma">gu</rt></ruby> <ruby>切り刻<rt class="furi">きりきざ</rt><rt class="roma">kirikiza</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby>
 </div>
+<div class="cn-lyric">[01:37.91]将无可替代的生命融化 急于生存 急于死亡 切碎</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:43.64]<ruby>あり<rt class="roma">ari</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>たり<rt class="roma">tari</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> fade out
 </div>
+<div class="cn-lyric">[01:43.64]在老套的歌中消失 fade out</div>
 </div>
 
 <div class="lyric-line">
@@ -346,6 +352,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [02:50.03]<ruby>薄<rt class="furi">うす</rt><rt class="roma">usu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> so far refraction flow
 </div>
+
 <div class="cn-lyric">[02:50.03]淡薄 so far refraction flow</div>
 </div>
 
@@ -353,6 +360,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [02:52.44]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>罪<rt class="furi">つみ</rt><rt class="roma">tsumi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>意識<rt class="furi">いしき</rt><rt class="roma">ishiki</rt></ruby><ruby>投<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:52.44]将罪恶感抛向某人</div>
 </div>
 
@@ -360,6 +368,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [02:55.43]<ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>急<rt class="furi">いそ</rt><rt class="roma">iso</rt></ruby><ruby>ぐ<rt class="roma">gu</rt></ruby> <ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>急<rt class="furi">いそ</rt><rt class="roma">iso</rt></ruby><ruby>ぐ<rt class="roma">gu</rt></ruby> <ruby>切り刻<rt class="furi">きりきざ</rt><rt class="roma">kirikiza</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:55.43]急于生存 急于死亡 切碎</div>
 </div>
 
@@ -367,30 +376,35 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [02:58.43]<ruby>あり<rt class="roma">ari</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>たり<rt class="roma">tari</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> fade out
 </div>
+<div class="cn-lyric">[02:58.43]在老套的歌中消失 fade out</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:00.89]<ruby>虚<rt class="furi">うつ</rt><rt class="roma">utsu</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> our relationships
 </div>
+<div class="cn-lyric">[03:00.89]空虚的 our relationships</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:03.22]<ruby>灯<rt class="furi">あか</rt><rt class="roma">aka</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>闇<rt class="furi">やみ</rt><rt class="roma">yami</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>走<rt class="furi">はし</rt><rt class="roma">hashi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>だす<rt class="roma">dasu</rt></ruby> <ruby>当<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby> <ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>めど<rt class="roma">medo</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby>
 </div>
+<div class="cn-lyric">[03:03.22]在没有灯光的黑暗中 奔跑 漫无目的 无止无休</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:09.04]<ruby>代わり映<rt class="furi">かわりば</rt><rt class="roma">kawariba</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby> going on
 </div>
+<div class="cn-lyric">[03:09.04]一成不变的日子 going on</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:11.73]<ruby>まだ<rt class="roma">mada</rt></ruby><ruby>癒<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>傷<rt class="furi">きず</rt><rt class="roma">kizu</rt></ruby> <ruby>溢<rt class="furi">あふ</rt><rt class="roma">afu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>水<rt class="furi">みず</rt><rt class="roma">mizu</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:11.73]尚未愈合的伤口 不断溢出的水</div>
 </div>
 
@@ -398,6 +412,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [03:14.66]<ruby>どう<rt class="roma">dou</rt></ruby><ruby>しよう<rt class="roma">shiyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby> <ruby>割<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>容器<rt class="furi">ようき</rt><rt class="roma">youki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>注ぎ込<rt class="furi">そそぎこ</rt><rt class="roma">sosogiko</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:14.66]无可奈何地 注入破裂的容器</div>
 </div>
 
@@ -405,6 +420,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [03:17.43]<ruby>枯<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby>?
 </div>
+
 <div class="cn-lyric">[03:17.43]枯萎的花为了谁?</div>
 </div>
 
@@ -412,6 +428,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [03:19.83]&quot;<ruby>まだまだ<rt class="roma">madamada</rt></ruby><ruby>足<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>&quot;
 </div>
+<div class="cn-lyric">[03:19.83]"还远远不够"</div>
 </div>
 
 </div>

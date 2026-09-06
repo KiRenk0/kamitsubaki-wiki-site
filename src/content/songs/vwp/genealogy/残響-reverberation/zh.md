@@ -24,7 +24,7 @@ image: /images/albums/vwp/inversion.jpg
 
 ## 作品简介
 
-《残響 (feat. [花譜](/zh/artists/vwp/kaf), [理芽](/zh/artists/vwp/rim), [春猿火](/zh/artists/vwp/harusaruhi), [ヰ世界情緒](/zh/artists/vwp/isekaijoucho) & [幸祜](/zh/artists/vwp/koko))》收录于《[反転](/zh/albums/vwp/inversion)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《[残響](/zh/songs/koko/covers/残響-zankyou) (feat. [花譜](/zh/artists/vwp/kaf), [理芽](/zh/artists/vwp/rim), [春猿火](/zh/artists/vwp/harusaruhi), [ヰ世界情緒](/zh/artists/vwp/isekaijoucho) & [幸祜](/zh/artists/vwp/koko))》收录于《[反転](/zh/albums/vwp/inversion)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -185,24 +185,28 @@ image: /images/albums/vwp/inversion.jpg
 <div class="jp-lyric">
 <ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby> <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>名<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">啊 此刻反复呼唤之名</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>赤<rt class="furi">あか</rt><rt class="roma">aka</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>華<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>哮<rt class="furi">たけ</rt><rt class="roma">take</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>その<rt class="roma">sono</rt></ruby><ruby>残響<rt class="furi">ざんきょう</rt><rt class="roma">zankyou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">红花亦舞之夜 咆哮的残响</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>さあ<rt class="roma">saa</rt></ruby> <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>語<rt class="furi">かた</rt><rt class="roma">kata</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>名<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">来吧 此刻被讲述之名</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>泡沫<rt class="furi">ほうまつ</rt><rt class="roma">houmatsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>名付<rt class="furi">なづ</rt><rt class="roma">nazu</rt></ruby><ruby>けよ<rt class="roma">keyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="cn-lyric">泡沫之命 此刻命名吧</div>
 </div>
 
 </div>

@@ -54,9 +54,9 @@ seo:
 
 **Guiano**（グイアノ）是日本知名 Vocaloid Producer、EDM / J-Pop 创作者及全能音乐人。
 
-以《{{ruby::死んでしまったのだろうか::しんでしまったのだろうか::shinde shimatta no darou ka}}》等爆款 Vocaloid 单曲闻名。他在神椿工作室期间为 理芽、春猿火、ヰ世界情绪 提供过多首经典曲目。
+以《[{{ruby::死んでしまったのだろうか::しんでしまったのだろうか::shinde shimatta no darou ka}}](/zh/songs/harusaruhi/covers/死んでしまったのだろうか-shinde-shimatta-no-darou-ka)》等爆款 Vocaloid 单曲闻名。他在神椿工作室期间为 理芽、[春猿火](/zh/artists/vwp/harusaruhi)、ヰ世界情绪 提供过多首经典曲目。
 
-- **代表作品**：《死んでしまったのだろうか》《透過夏》《[スーパーヒーロー](/zh/songs/guiano/originals/suupaahiiroo)》《地球の裏》《法螺話 (feat. [理芽](/zh/artists/vwp/rim))》
+- **代表作品**：《死んでしまったのだろうか》《[透過夏](/zh/songs/rim/covers/透過夏-touka-natsu)》《[スーパーヒーロー](/zh/songs/guiano/originals/suupaahiiroo)》《地球の裏》《法螺話 (feat. [理芽](/zh/artists/vwp/rim))》
 - **专辑**：《Love & Pop》《AHOY!!!!!!》
 ## 外部链接
 

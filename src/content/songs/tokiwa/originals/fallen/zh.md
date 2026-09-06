@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/fallen.jpg
 
 ## 作品简介
 
-tokiwa于 2025-09-16 发行的单曲《fallen》。
+[tokiwa](/zh/artists/creators/tokiwa)于 2025-09-16 发行的单曲《fallen》。
 
 ## 试听
 {{media-switcher::fallen}}

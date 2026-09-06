@@ -147,6 +147,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [00:46.50]UFO<ruby>に<rt class="roma">ni</rt></ruby><ruby>のって<rt class="roma">notte</rt></ruby><ruby>異<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>星<rt class="furi">ほし</rt><rt class="roma">hoshi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いこ<rt class="roma">iko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>いこ<rt class="roma">iko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">[00:46.50]乘上UFO去外星吧 去吧</div>
 </div>
 
 <br />
@@ -155,6 +156,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [00:51.19]<ruby>キャトルミューティレーション<rt class="roma">kyatorumyuuteireeshon</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[00:51.19]像牲口肢解般恋爱了</div>
 </div>
 
 <div class="lyric-line">
@@ -175,6 +177,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [00:58.34]<ruby>奏<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>でる<rt class="roma">deru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby>
 </div>
+<div class="cn-lyric">[00:58.34]奏响的是未知的声音</div>
 </div>
 
 <br />
@@ -220,6 +223,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [01:26.74]UFO<ruby>に<rt class="roma">ni</rt></ruby><ruby>のって<rt class="roma">notte</rt></ruby><ruby>異<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>星<rt class="furi">ほし</rt><rt class="roma">hoshi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いこ<rt class="roma">iko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>いこ<rt class="roma">iko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">[01:26.74]乘上UFO去外星吧 去吧</div>
 </div>
 
 <div class="lyric-line">
@@ -272,6 +276,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [02:14.50]<ruby>なんにも<rt class="roma">nannimo</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby> <ruby>連<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いき<rt class="roma">iki</rt></ruby><ruby>ましょ<rt class="roma">masho</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:14.50]为了不忘记任何东西 带走吧</div>
 </div>
 
@@ -279,12 +284,14 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [02:19.22]UFO<ruby>に<rt class="roma">ni</rt></ruby><ruby>のって<rt class="roma">notte</rt></ruby><ruby>異<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>星<rt class="furi">ほし</rt><rt class="roma">hoshi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いこ<rt class="roma">iko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>いこ<rt class="roma">iko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">[02:19.22]乘上UFO去外星吧 去吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:24.36]<ruby>どうして<rt class="roma">doushite</rt></ruby> <ruby>なんで<rt class="roma">nande</rt></ruby><ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>みる<rt class="roma">miru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:24.36]为什么 为何用那样可怕的眼神看我</div>
 </div>
 
@@ -292,6 +299,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [02:29.37]<ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>かって<rt class="roma">katte</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>悲<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:29.37]你不理解我 真悲伤啊</div>
 </div>
 
@@ -299,6 +307,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [02:32.35]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:32.35]我已不想知道了</div>
 </div>
 

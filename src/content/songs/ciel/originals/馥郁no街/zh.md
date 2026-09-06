@@ -17,7 +17,7 @@ image: /images/songs/ciel/馥郁no街.jpg
 
 ## 作品简介
 
-CIEL于 2022-03-29 发行的单曲《馥郁の街》。
+[CIEL](/zh/artists/solo/ciel)于 2022-03-29 发行的单曲《馥郁の街》。
 
 ## 试听
 {{media-switcher::馥郁の街}}

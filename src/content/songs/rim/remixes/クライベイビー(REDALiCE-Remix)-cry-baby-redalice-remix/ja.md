@@ -19,7 +19,7 @@ image: /images/songs/rim/single-1800090256.jpg
 
 ## 作品概要
 
-「クライベイビー (REDALiCE Remix) [feat. RIM]」は『クライベイビー (REDALiCE Remix)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「クライベイビー (REDALiCE Remix) [feat. [RIM](/ja/artists/vwp/rim)]」は『[クライベイビー](/ja/songs/rim/originals/クライベイビー-cry-baby) (REDALiCE Remix)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 試聴
 

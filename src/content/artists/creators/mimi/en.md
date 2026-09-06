@@ -94,7 +94,7 @@ MIMI joined Kamitsubaki in 2022 while retaining an independent creative line. Th
 
 ## Albums and Collaborations
 
-Representative works include “Marshmary”, “Daijoubu da yo.”, and “Himawari no Kioku”. “Daijoubu da yo.” features KAFU and shows how MIMI's intimate piano writing can be translated into a musical-isotope voice. Uploads, album tracks, and animation tie-ins should remain separate catalogue layers.
+Representative works include “Marshmary”, “Daijoubu da yo.”, and “Himawari no Kioku”. “Daijoubu da yo.” features [KAFU](/en/artists/isotopes/kafu) and shows how MIMI's intimate piano writing can be translated into a musical-isotope voice. Uploads, album tracks, and animation tie-ins should remain separate catalogue layers.
 
 
 ## References

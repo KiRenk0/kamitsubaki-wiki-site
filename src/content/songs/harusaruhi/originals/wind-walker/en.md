@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/shinju.jpg
 
 ## Overview
 
-Wind walker appears on 心獣 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+Wind walker appears on [心獣](/en/albums/harusaruhi/shinju) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -350,6 +350,7 @@ Wind walker appears on 心獣 or a related official release. Entries are version
 <div class="jp-lyric">
 [02:11.794]<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>奇跡<rt class="furi">きせき</rt><rt class="roma">kiseki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>起<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>こる<rt class="roma">koru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+<div class="trans-lyric">[02:11.794]If such a miracle occurs</div>
 </div>
 
 <div class="lyric-line">
@@ -447,48 +448,56 @@ Wind walker appears on 心獣 or a related official release. Entries are version
 <div class="jp-lyric">
 [02:34.600]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>信<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>踏み出<rt class="furi">ふみだ</rt><rt class="roma">fumida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="trans-lyric">[02:34.600]I stepped forward, believing in you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:37.803]Wind walker
 </div>
+<div class="trans-lyric">[02:37.803]Wind walker</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:39.096]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> <ruby>ファンファーレ<rt class="roma">fuanfuaare</rt></ruby><ruby>響<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>渡<rt class="furi">わた</rt><rt class="roma">wata</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby>
 </div>
+<div class="trans-lyric">[02:39.096]That's right, let the fanfare resound</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:43.253]<ruby>鍵<rt class="furi">かぎ</rt><rt class="roma">kagi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>錆<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="trans-lyric">[02:43.253]The key was rusted and broken</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:46.075]<ruby>何処<rt class="furi">どこ</rt><rt class="roma">doko</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>
 </div>
+<div class="trans-lyric">[02:46.075]I learned I can go anywhere</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:48.842]Jump over
 </div>
+<div class="trans-lyric">[02:48.842]Jump over</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:50.259]<ruby>どんな<rt class="roma">donna</rt></ruby><ruby>強風<rt class="furi">きょうふう</rt><rt class="roma">kyoufuu</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>厭<rt class="furi">いと</rt><rt class="roma">ito</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">[02:50.259]I don't mind any strong wind</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:54.373]<ruby>不恰好<rt class="furi">ぶかっこう</rt><rt class="roma">bukakkou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>方<rt class="furi">かた</rt><rt class="roma">kata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ピーター<rt class="roma">piitaa</rt></ruby>
 </div>
+<div class="trans-lyric">[02:54.373]Peter with his clumsy way of flying</div>
 </div>
 
 <div class="lyric-line">
@@ -502,6 +511,7 @@ Wind walker appears on 心獣 or a related official release. Entries are version
 <div class="jp-lyric">
 [02:59.978]Wind walker
 </div>
+<div class="trans-lyric">[02:59.978]Wind walker</div>
 </div>
 
 <div class="lyric-line">
@@ -529,6 +539,7 @@ Wind walker appears on 心獣 or a related official release. Entries are version
 <div class="jp-lyric">
 [03:10.996]Jump over
 </div>
+<div class="trans-lyric">[03:10.996]Jump over</div>
 </div>
 
 <div class="lyric-line">
@@ -570,6 +581,7 @@ Wind walker appears on 心獣 or a related official release. Entries are version
 <div class="jp-lyric">
 [03:30.578]<ruby>涙<rt class="furi">なみだ</rt><rt class="roma">namida</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>跡<rt class="furi">あと</rt><rt class="roma">ato</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>気付<rt class="furi">きづ</rt><rt class="roma">kizu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:30.578]Before I knew it, the tear stains had vanished</div>
 </div>
 
@@ -577,6 +589,7 @@ Wind walker appears on 心獣 or a related official release. Entries are version
 <div class="jp-lyric">
 [03:32.903]<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>景色<rt class="furi">けしき</rt><rt class="roma">keshiki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>此処<rt class="furi">ここ</rt><rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>在<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:32.903]Scenes like this existed here</div>
 </div>
 
@@ -584,6 +597,7 @@ Wind walker appears on 心獣 or a related official release. Entries are version
 <div class="jp-lyric">
 [03:34.705]<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>此処<rt class="furi">ここ</rt><rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>在<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:34.705]A future like this existed here</div>
 </div>
 
@@ -591,6 +605,7 @@ Wind walker appears on 心獣 or a related official release. Entries are version
 <div class="jp-lyric">
 [03:36.921]叫<ruby>に<rt class="roma">ni</rt></ruby><ruby>近<rt class="furi">ちか</rt><rt class="roma">chika</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:36.921]A song that is almost a scream, my own song</div>
 </div>
 
@@ -598,6 +613,7 @@ Wind walker appears on 心獣 or a related official release. Entries are version
 <div class="jp-lyric">
 [03:38.651]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>なぞって<rt class="roma">nazotte</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ハーモニー<rt class="roma">haamonii</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:38.651]The harmony you traced for me</div>
 </div>
 
@@ -605,6 +621,7 @@ Wind walker appears on 心獣 or a related official release. Entries are version
 <div class="jp-lyric">
 [03:40.769]<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>何処<rt class="furi">どこ</rt><rt class="roma">doko</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:40.769]Surely you are still somewhere now</div>
 </div>
 
@@ -612,6 +629,7 @@ Wind walker appears on 心獣 or a related official release. Entries are version
 <div class="jp-lyric">
 [03:42.338]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>寄り添<rt class="furi">よりそ</rt><rt class="roma">yoriso</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ハーモニー<rt class="roma">haamonii</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:42.338]Singing a harmony that comforts someone</div>
 </div>
 
@@ -619,6 +637,7 @@ Wind walker appears on 心獣 or a related official release. Entries are version
 <div class="jp-lyric">
 [03:45.221]<ruby>もしも<rt class="roma">moshimo</rt></ruby><ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>嵐<rt class="furi">あらし</rt><rt class="roma">arashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>迷<rt class="furi">まよ</rt><rt class="roma">mayo</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:45.221]If you ever get lost in the storm</div>
 </div>
 
@@ -626,6 +645,7 @@ Wind walker appears on 心獣 or a related official release. Entries are version
 <div class="jp-lyric">
 [03:47.813]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:47.813]I will deliver it too</div>
 </div>
 
@@ -633,6 +653,7 @@ Wind walker appears on 心獣 or a related official release. Entries are version
 <div class="jp-lyric">
 [03:49.076]<ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>、<ruby>希望<rt class="furi">きぼう</rt><rt class="roma">kibou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>、<ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>、
 </div>
+
 <div class="trans-lyric">[03:49.076]Dreams, hope, future,</div>
 </div>
 
@@ -640,6 +661,7 @@ Wind walker appears on 心獣 or a related official release. Entries are version
 <div class="jp-lyric">
 [03:51.424]<ruby>そして<rt class="roma">soshite</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:51.424]And this song</div>
 </div>
 

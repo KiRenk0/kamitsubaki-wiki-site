@@ -45,7 +45,9 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 [00:15.50]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>散<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>マジョリティ<rt class="roma">majoritei</rt></ruby>
 </div>
-<div class="trans-lyric">A majority that can no longer scatter anywhere</div>
+<div class="trans-lyric">
+[00:15.50]A majority that can no longer scatter anywhere
+</div>
 </div>
 
 <div class="lyric-line">
@@ -59,7 +61,9 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 [00:25.49]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
-<div class="trans-lyric">Don't go anywhere anymore</div>
+<div class="trans-lyric">
+[00:25.49]Don't go anywhere anymore
+</div>
 </div>
 
 <br />
@@ -68,7 +72,9 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 [00:31.49]<ruby>まって<rt class="roma">matte</rt></ruby> <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="trans-lyric">Wait, I am here</div>
+<div class="trans-lyric">
+[00:31.49]Wait, I am here
+</div>
 </div>
 
 <div class="lyric-line">
@@ -105,7 +111,9 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 [00:47.09]<ruby>ハローハローハローハロー<rt class="roma">harouharouharouharou</rt></ruby>
 </div>
-<div class="trans-lyric">Hello hello hello hello</div>
+<div class="trans-lyric">
+[00:47.09]Hello hello hello hello
+</div>
 </div>
 
 <div class="lyric-line">
@@ -119,20 +127,25 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 [00:53.09]<ruby>はじめて<rt class="roma">hajimete</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
-<div class="trans-lyric">It's my first time saying it</div>
+<div class="trans-lyric">
+[00:53.09]It's my first time saying it
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:56.09]<ruby>はじめて<rt class="roma">hajimete</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>っちゃう<rt class="roma">tchau</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
-<div class="trans-lyric">I'm saying it for the first time, but</div>
+<div class="trans-lyric">
+[00:56.09]I'm saying it for the first time, but
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ハローハローハローハロー<rt class="roma">harouharouharouharou</rt></ruby>
 </div>
+<div class="trans-lyric">Hello hello hello hello</div>
 </div>
 
 <div class="lyric-line">
@@ -153,7 +166,7 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 [01:06.09]<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="trans-lyric">If that's okay, stay here</div>
+<div class="trans-lyric">[01:06.09]If that's okay, stay here</div>
 </div>
 
 <br />
@@ -169,7 +182,7 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 [01:14.49]<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>マジョリティ<rt class="roma">majoritei</rt></ruby>
 </div>
-<div class="trans-lyric">Yet the majority that won't disappear</div>
+<div class="trans-lyric">[01:14.49]Yet the majority that won't disappear</div>
 </div>
 
 <div class="lyric-line">
@@ -229,6 +242,7 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 <ruby>ハローハローハローハロー<rt class="roma">harouharouharouharou</rt></ruby>
 </div>
+<div class="trans-lyric">Hello hello hello hello</div>
 </div>
 
 <div class="lyric-line">
@@ -242,18 +256,21 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 <ruby>はじめて<rt class="roma">hajimete</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
+<div class="trans-lyric">It's my first time saying it</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>はじめて<rt class="roma">hajimete</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>っちゃう<rt class="roma">tchau</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
+<div class="trans-lyric">I'm saying it for the first time, but</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ハローハローハローハロー<rt class="roma">harouharouharouharou</rt></ruby>
 </div>
+<div class="trans-lyric">Hello hello hello hello</div>
 </div>
 
 <div class="lyric-line">
@@ -267,6 +284,7 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 <ruby>子供<rt class="furi">こども</rt><rt class="roma">kodomo</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>話<rt class="furi">はなし</rt><rt class="roma">hanashi</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+<div class="trans-lyric">Like a childish story</div>
 </div>
 
 <div class="lyric-line">
@@ -303,13 +321,14 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 [02:33.09]<ruby>デスティニー<rt class="roma">desuteinii</rt></ruby>？
 </div>
-<div class="trans-lyric">Destiny?</div>
+<div class="trans-lyric">[02:33.09]Destiny?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>デスティニー<rt class="roma">desuteinii</rt></ruby>？
 </div>
+<div class="trans-lyric">Destiny?</div>
 </div>
 
 <br />
@@ -318,18 +337,21 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 <ruby>ハローハローハローハロー<rt class="roma">harouharouharouharou</rt></ruby>
 </div>
+<div class="trans-lyric">Hello hello hello hello</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>宇宙<rt class="furi">うちゅう</rt><rt class="roma">uchuu</rt></ruby><ruby>人<rt class="furi">じん</rt><rt class="roma">jin</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">I'm an alien, you know</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>魔法瓶<rt class="furi">まほうびん</rt><rt class="roma">mahoubin</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="trans-lyric">I'm a thermos, you know</div>
 </div>
 
@@ -337,6 +359,7 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 <ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="trans-lyric">Even so, laugh at everything</div>
 </div>
 
@@ -344,12 +367,14 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 <ruby>ハローハローハローハロー<rt class="roma">harouharouharouharou</rt></ruby>
 </div>
+<div class="trans-lyric">Hello hello hello hello</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>子供<rt class="furi">こども</rt><rt class="roma">kodomo</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="trans-lyric">Think of me as childish</div>
 </div>
 
@@ -357,6 +382,7 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 <ruby>嘘<rt class="furi">うそ</rt><rt class="roma">uso</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="trans-lyric">Keep thinking it's a lie</div>
 </div>
 
@@ -364,6 +390,7 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 <ruby>だけど<rt class="roma">dakedo</rt></ruby><ruby>宇宙<rt class="furi">うちゅう</rt><rt class="roma">uchuu</rt></ruby><ruby>人<rt class="furi">じん</rt><rt class="roma">jin</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="trans-lyric">But I'm an alien, you know</div>
 </div>
 
@@ -373,13 +400,16 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 [02:53.09]<ruby>ハローハローハローハローハロー<rt class="roma">harouharouharouharouharou</rt></ruby>
 </div>
-<div class="trans-lyric">Hello hello hello hello hello</div>
+
+<div class="trans-lyric">[02:53.09]Hello hello hello hello hello</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ハローハローハローハローハロー<rt class="roma">harouharouharouharouharou</rt></ruby>
 </div>
+
+<div class="trans-lyric">Hello hello hello hello hello</div>
 </div>
 
 </div>

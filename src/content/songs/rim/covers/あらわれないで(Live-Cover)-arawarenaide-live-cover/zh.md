@@ -105,24 +105,28 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 <ruby>どうして<rt class="roma">doushite</rt></ruby><ruby>くれる<rt class="roma">kureru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">你要怎么补偿我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
 </div>
+<div class="cn-lyric">明明拥抱过触碰过</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ときめき<rt class="roma">tokimeki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>返<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">把甜蜜的悸动还给我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>もう一度<rt class="furi">もういちど</rt><rt class="roma">mouichido</rt></ruby>
 </div>
+<div class="cn-lyric">再一次</div>
 </div>
 
 <div class="lyric-line">
@@ -234,6 +238,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 [03:26.96]<ruby>苦<rt class="furi">にが</rt><rt class="roma">niga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>思い出<rt class="furi">おもいで</rt><rt class="roma">omoide</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:26.96]苦涩的回忆也在融化</div>
 </div>
 
@@ -241,12 +246,14 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 <ruby>もう一度<rt class="furi">もういちど</rt><rt class="roma">mouichido</rt></ruby>
 </div>
+<div class="cn-lyric">再一次</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:35.48]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くれる<rt class="roma">kureru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:35.48]你会爱我吗</div>
 </div>
 
@@ -254,6 +261,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 [03:38.96]<ruby>仮初<rt class="furi">かりそめ</rt><rt class="roma">karisome</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>求<rt class="furi">もと</rt><rt class="roma">moto</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:38.96]我不追求虚假的爱情</div>
 </div>
 
@@ -261,6 +269,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 [03:45.99]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>二度<rt class="furi">にど</rt><rt class="roma">nido</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:45.99]再也不要离开我</div>
 </div>
 

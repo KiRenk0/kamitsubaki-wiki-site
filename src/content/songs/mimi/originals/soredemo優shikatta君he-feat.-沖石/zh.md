@@ -17,7 +17,7 @@ image: /images/songs/mimi/soredemo優shikatta君he-feat.-沖石.jpg
 
 ## 作品简介
 
-MIMI于 2026-02-03 发行的单曲《それでも優しかった君へ (feat. 沖石)》。
+[MIMI](/zh/artists/creators/mimi)于 2026-02-03 发行的单曲《それでも優しかった君へ (feat. 沖石)》。
 
 ## 试听
 {{media-switcher::それでも優しかった君へ (feat. 沖石)}}

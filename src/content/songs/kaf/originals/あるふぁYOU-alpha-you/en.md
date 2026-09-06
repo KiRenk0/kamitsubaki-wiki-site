@@ -59,14 +59,18 @@ image: /images/albums/kaf/kyoso.jpg
 <div class="jp-lyric">
 [00:15.91]<ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ゆく<rt class="roma">yuku</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
-<div class="trans-lyric">Only to fade away</div>
+<div class="trans-lyric">
+[00:15.91]Only to fade away
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:19.62]<ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
-<div class="trans-lyric">I walked on and on</div>
+<div class="trans-lyric">
+[00:19.62]I walked on and on
+</div>
 </div>
 
 <div class="lyric-line">
@@ -101,7 +105,9 @@ image: /images/albums/kaf/kyoso.jpg
 <div class="jp-lyric">
 [00:41.45]<ruby>いら<rt class="roma">ira</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>
 </div>
-<div class="trans-lyric">You said we don't need them</div>
+<div class="trans-lyric">
+[00:41.45]You said we don't need them
+</div>
 </div>
 
 <div class="lyric-line">
@@ -150,7 +156,9 @@ image: /images/albums/kaf/kyoso.jpg
 <div class="jp-lyric">
 [01:14.71]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまお<rt class="roma">shimao</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
-<div class="trans-lyric">Should I fall from here?</div>
+<div class="trans-lyric">
+[01:14.71]Should I fall from here?
+</div>
 </div>
 
 <div class="lyric-line">
@@ -234,7 +242,9 @@ image: /images/albums/kaf/kyoso.jpg
 <div class="jp-lyric">
 [02:13.52]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby> (<ruby>アンテナ<rt class="roma">antena</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>)
 </div>
-<div class="trans-lyric">This isn't the place anymore (touching the antenna)</div>
+<div class="trans-lyric">
+[02:13.52]This isn't the place anymore (touching the antenna)
+</div>
 </div>
 
 <div class="lyric-line">
@@ -283,24 +293,28 @@ image: /images/albums/kaf/kyoso.jpg
 <div class="jp-lyric">
 [02:49.59]<ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>悲<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>しみ<rt class="roma">shimi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="trans-lyric">[02:49.59]Goodbyes and sorrows too</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:54.11]<ruby>蝉時雨<rt class="furi">せみしぐれ</rt><rt class="roma">semishigure</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>同<rt class="furi">おな</rt><rt class="roma">ona</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby>
 </div>
+<div class="trans-lyric">[02:54.11]Like the cicada's chorus</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:59.09]<ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>限<rt class="furi">かぎ</rt><rt class="roma">kagi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="trans-lyric">[02:59.09]Crying out with all our might</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:03.90]<ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ゆく<rt class="roma">yuku</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+<div class="trans-lyric">[03:03.90]Only to fade away</div>
 </div>
 
 </div>

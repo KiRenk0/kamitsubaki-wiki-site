@@ -171,6 +171,7 @@ image: /images/songs/isekaijoucho/single-1687474095.jpg
 <div class="jp-lyric">
 [01:32.49]<ruby>この<rt class="roma">kono</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby> <ruby>この<rt class="roma">kono</rt></ruby><ruby>顔<rt class="furi">かお</rt><rt class="roma">kao</rt></ruby>
 </div>
+<div class="cn-lyric">[01:32.49]这声音 这面容</div>
 </div>
 
 <div class="lyric-line">
@@ -223,6 +224,7 @@ image: /images/songs/isekaijoucho/single-1687474095.jpg
 <div class="jp-lyric">
 [02:04.93]<ruby>ありふれ<rt class="roma">arifure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>悲劇<rt class="furi">ひげき</rt><rt class="roma">higeki</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>思考<rt class="furi">しこう</rt><rt class="roma">shikou</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>染め上<rt class="furi">そめあ</rt><rt class="roma">somea</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:04.93]不要用平凡的悲剧思维染透啊</div>
 </div>
 
 <div class="lyric-line">
@@ -289,6 +291,7 @@ image: /images/songs/isekaijoucho/single-1687474095.jpg
 <div class="jp-lyric">
 [03:00.32]<ruby>遥<rt class="furi">はる</rt><rt class="roma">haru</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>未知数<rt class="furi">みちすう</rt><rt class="roma">michisuu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>穿<rt class="furi">うが</rt><rt class="roma">uga</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby>
 </div>
+<div class="cn-lyric">[03:00.32]穿透遥远未知数的这朵花</div>
 </div>
 
 <div class="lyric-line">
@@ -302,6 +305,7 @@ image: /images/songs/isekaijoucho/single-1687474095.jpg
 <div class="jp-lyric">
 [03:11.88]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>思慮<rt class="furi">しりょ</rt><rt class="roma">shiryo</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:11.88]从另一个我歌唱你的思虑</div>
 </div>
 
@@ -311,6 +315,7 @@ image: /images/songs/isekaijoucho/single-1687474095.jpg
 <div class="jp-lyric">
 [03:17.70]<ruby>ありふれ<rt class="roma">arifure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>現実<rt class="furi">げんじつ</rt><rt class="roma">genjitsu</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>思想<rt class="furi">しそう</rt><rt class="roma">shisou</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:17.70]平凡的现实现念这里没有啊</div>
 </div>
 
@@ -318,18 +323,21 @@ image: /images/songs/isekaijoucho/single-1687474095.jpg
 <div class="jp-lyric">
 [03:23.65]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>出逢<rt class="furi">であ</rt><rt class="roma">dea</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby> <ruby>化<rt class="furi">ば</rt><rt class="roma">ba</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>身体<rt class="furi">しんたい</rt><rt class="roma">shintai</rt></ruby>
 </div>
+<div class="cn-lyric">[03:23.65]只是为了与你相遇 而化身的这具身体</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:29.40]<ruby>新<rt class="furi">あたら</rt><rt class="roma">atara</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>視<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:29.40]想和你一起看见新世界</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:35.07]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby> <ruby>独<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>闇<rt class="furi">やみ</rt><rt class="roma">yami</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:35.07]传递某人的愿望 独自在黑暗中歌唱</div>
 </div>
 

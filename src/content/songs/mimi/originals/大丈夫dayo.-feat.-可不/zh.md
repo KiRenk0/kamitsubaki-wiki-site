@@ -17,7 +17,7 @@ image: /images/songs/mimi/大丈夫dayo.-feat.-可不.jpg
 
 ## 作品简介
 
-MIMI于 2025-03-25 发行的单曲《大丈夫だよ。(feat. [可不](/zh/artists/isotopes/kafu))》。
+[MIMI](/zh/artists/creators/mimi)于 2025-03-25 发行的单曲《大丈夫だよ。(feat. [可不](/zh/artists/isotopes/kafu))》。
 
 ## 试听
 {{media-switcher::大丈夫だよ。(feat. 可不)}}

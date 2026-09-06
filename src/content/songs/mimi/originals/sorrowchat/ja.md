@@ -17,7 +17,7 @@ image: /images/songs/mimi/sorrowchat.jpg
 
 ## 作品概要
 
-MIMIが2021-03-19にリリースしたシングル「SorrowChat」。
+[MIMI](/ja/artists/creators/mimi)が2021-03-19にリリースしたシングル「SorrowChat」。
 
 ## 視聴
 {{media-switcher::SorrowChat}}

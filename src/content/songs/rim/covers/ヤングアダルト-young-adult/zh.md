@@ -140,12 +140,14 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [01:02.21]<ruby>ハロー<rt class="roma">harou</rt></ruby> <ruby>絶望<rt class="furi">ぜつぼう</rt><rt class="roma">zetsubou</rt></ruby>
 </div>
+<div class="cn-lyric">[01:02.21]你好 绝望</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:04.33]<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>はず<rt class="roma">hazu</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>？
 </div>
+<div class="cn-lyric">[01:04.33]不应该会是这样的吧？</div>
 </div>
 
 <div class="lyric-line">
@@ -212,6 +214,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [02:00.78]<ruby>ハロー<rt class="roma">harou</rt></ruby> <ruby>絶望<rt class="furi">ぜつぼう</rt><rt class="roma">zetsubou</rt></ruby>
 </div>
+<div class="cn-lyric">[02:00.78]你好 绝望</div>
 </div>
 
 <div class="lyric-line">
@@ -269,6 +272,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [02:53.11]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>美<rt class="furi">うつく</rt><rt class="roma">utsuku</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby>
 </div>
+<div class="cn-lyric">[02:53.11]我们是美丽的</div>
 </div>
 
 <div class="lyric-line">
@@ -291,6 +295,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [03:12.46]<ruby>憂<rt class="furi">うれ</rt><rt class="roma">ure</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>晩<rt class="furi">ばん</rt><rt class="roma">ban</rt></ruby><ruby>杯<rt class="furi">はい</rt><rt class="roma">hai</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby> <ruby>写真<rt class="furi">しゃしん</rt><rt class="roma">shashin</rt></ruby><ruby>機<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>記憶<rt class="furi">きおく</rt><rt class="roma">kioku</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:12.46]忧愁的晚杯和相机的记忆</div>
 </div>
 
@@ -300,12 +305,14 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [03:20.95]<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>越<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>唄<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[03:20.95]为了度过夜晚的歌声不会消逝</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:28.23]<ruby>手首<rt class="furi">てくび</rt><rt class="roma">tekubi</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby><ruby>涙<rt class="furi">なみだ</rt><rt class="roma">namida</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>溢<rt class="furi">あふ</rt><rt class="roma">afu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:28.23]为了不让泪水再从手腕溢出</div>
 </div>
 
@@ -313,6 +320,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [03:35.84]<ruby>無駄<rt class="furi">むだ</rt><rt class="roma">muda</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>話<rt class="furi">はなし</rt><rt class="roma">hanashi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>果<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>呑<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:35.84]来聊些无聊的话吧，喝到尽头为止</div>
 </div>
 
@@ -320,12 +328,14 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [03:40.90]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>美<rt class="furi">うつく</rt><rt class="roma">utsuku</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby>
 </div>
+<div class="cn-lyric">[03:40.90]我们是美丽的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:43.78]<ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ヒト<rt class="roma">hito</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いれる<rt class="roma">ireru</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>集<rt class="furi">あつ</rt><rt class="roma">atsu</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:43.78]为了明天也能作为一名人而在收集爱</div>
 </div>
 

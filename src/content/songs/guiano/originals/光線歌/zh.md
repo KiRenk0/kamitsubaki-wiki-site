@@ -17,7 +17,7 @@ image: /images/songs/guiano/光線歌.jpg
 
 ## 作品简介
 
-Guiano于 2025-06-07 发行的单曲《光線歌》。
+[Guiano](/zh/artists/creators/guiano)于 2025-06-07 发行的单曲《光線歌》。
 
 ## 试听
 {{media-switcher::光線歌}}

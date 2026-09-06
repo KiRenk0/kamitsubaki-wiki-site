@@ -252,12 +252,14 @@ image: /images/songs/rim/single-1700404196.jpg
 <div class="jp-lyric">
 [02:13.11]<ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>おまじない<rt class="roma">omajinai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:13.11]暧昧的咒语</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:15.33]<ruby>どう<rt class="roma">dou</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="cn-lyric">[02:15.33]请</div>
 </div>
 
 <div class="lyric-line">
@@ -334,6 +336,7 @@ image: /images/songs/rim/single-1700404196.jpg
 <div class="jp-lyric">
 [02:47.14]<ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>天使<rt class="furi">てんし</rt><rt class="roma">tenshi</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+<div class="cn-lyric">[02:47.14]若你是天使</div>
 </div>
 
 <div class="lyric-line">
@@ -375,6 +378,7 @@ image: /images/songs/rim/single-1700404196.jpg
 <div class="jp-lyric">
 [03:02.45]<ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>かわいそう<rt class="roma">kawaisou</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:02.45]因为你至今依然如此可怜</div>
 </div>
 
@@ -382,6 +386,7 @@ image: /images/songs/rim/single-1700404196.jpg
 <div class="jp-lyric">
 [03:05.84]<ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:05.84]你仍是那个始终害怕清晨的</div>
 </div>
 
@@ -389,6 +394,7 @@ image: /images/songs/rim/single-1700404196.jpg
 <div class="jp-lyric">
 [03:09.13]<ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>かみ<rt class="roma">kami</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:09.13]只属于我的神明</div>
 </div>
 

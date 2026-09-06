@@ -280,24 +280,28 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 <div class="jp-lyric">
 <ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>悲<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>しみ<rt class="roma">shimi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="cn-lyric">告别也好 悲伤也罢</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>蝉時雨<rt class="furi">せみしぐれ</rt><rt class="roma">semishigure</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>同<rt class="furi">おな</rt><rt class="roma">ona</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby>
 </div>
+<div class="cn-lyric">与蝉鸣声并无二致</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>限<rt class="furi">かぎ</rt><rt class="roma">kagi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">竭尽全力地嘶喊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ゆく<rt class="roma">yuku</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+<div class="cn-lyric">终将消散而去</div>
 </div>
 
 </div>

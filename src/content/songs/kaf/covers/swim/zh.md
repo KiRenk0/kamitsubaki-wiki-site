@@ -101,6 +101,7 @@ Taking the bridge again
 <div class="jp-lyric">
 When all you want to do is swim
 </div>
+<div class="cn-lyric">而你只想游泳</div>
 </div>
 
 <br />
@@ -160,24 +161,28 @@ So you're taking the bridge again
 <div class="jp-lyric">
 When all you want to do is swim
 </div>
+<div class="cn-lyric">而你只想游泳</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You're taking the bridge again
 </div>
+<div class="cn-lyric">你又踏上了那座桥</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Taking the bridge again
 </div>
+<div class="cn-lyric">再次踏上那座桥</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 When all you want to do is swim
 </div>
+<div class="cn-lyric">而你只想游泳</div>
 </div>
 
 <br />
@@ -186,6 +191,7 @@ When all you want to do is swim
 <div class="jp-lyric">
 And let the current take you
 </div>
+
 <div class="cn-lyric">让水流带你走</div>
 </div>
 
@@ -193,6 +199,7 @@ And let the current take you
 <div class="jp-lyric">
 Let the waters break you
 </div>
+
 <div class="cn-lyric">让水浪击碎你</div>
 </div>
 
@@ -200,6 +207,7 @@ Let the waters break you
 <div class="jp-lyric">
 And float out to the sea
 </div>
+
 <div class="cn-lyric">漂流到大海</div>
 </div>
 
@@ -209,6 +217,7 @@ And float out to the sea
 <div class="jp-lyric">
 Are you taking the bridge again?
 </div>
+
 <div class="cn-lyric">你又要踏上那座桥吗？</div>
 </div>
 
@@ -216,30 +225,35 @@ Are you taking the bridge again?
 <div class="jp-lyric">
 When all you want to do is swim
 </div>
+<div class="cn-lyric">而你只想游泳</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You're taking the bridge again
 </div>
+<div class="cn-lyric">你又踏上了那座桥</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Taking the bridge again
 </div>
+<div class="cn-lyric">再次踏上那座桥</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 When all you want to do is swim
 </div>
+<div class="cn-lyric">而你只想游泳</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You're taking the bridge again
 </div>
+<div class="cn-lyric">你又踏上了那座桥</div>
 </div>
 
 </div>

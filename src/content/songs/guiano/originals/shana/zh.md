@@ -17,7 +17,7 @@ image: /images/songs/guiano/shana.jpg
 
 ## 作品简介
 
-Guiano于 2019-12-25 发行的单曲《シャナ》。
+[Guiano](/zh/artists/creators/guiano)于 2019-12-25 发行的单曲《シャナ》。
 
 ## 试听
 {{media-switcher::シャナ}}

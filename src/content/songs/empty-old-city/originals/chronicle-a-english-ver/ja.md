@@ -16,7 +16,7 @@ image: /images/songs/empty-old-city/chronicle-a-english-ver.jpg
 
 ## 作品概要
 
-Empty old Cityが2024-01-23にリリースしたシングル「Chronicle A (English Ver.)」。
+[Empty old City](/ja/artists/solo/empty-old-city)が2024-01-23にリリースしたシングル「Chronicle A (English Ver.)」。
 
 ## 視聴
 {{media-switcher::Chronicle A (English Ver.)}}

@@ -17,7 +17,7 @@ image: /images/songs/mimi/星降rukokoro-feat.-初音miku.jpg
 
 ## 作品简介
 
-MIMI于 2024-07-11 发行的单曲《星降るココロ (feat. 初音ミク)》。
+[MIMI](/zh/artists/creators/mimi)于 2024-07-11 发行的单曲《星降るココロ (feat. 初音ミク)》。
 
 ## 试听
 {{media-switcher::星降るココロ (feat. 初音ミク)}}

@@ -19,7 +19,7 @@ image: /images/albums/rim/imagine.jpg
 
 ## 作品简介
 
-《言っちゃいけないことばっか浮かぶよな》收录于《imagine》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《言っちゃいけないことばっか浮かぶよな》收录于《[imagine](/zh/albums/rim/imagine)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -102,6 +102,7 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>阿呆<rt class="furi">あほう</rt><rt class="roma">ahou</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby> <ruby>阿呆<rt class="furi">あほ</rt><rt class="roma">aho</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby>
 </div>
+<div class="cn-lyric">爱得像傻瓜一样 像傻瓜一样</div>
 </div>
 
 <div class="lyric-line">
@@ -124,18 +125,21 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 <ruby>こんな<rt class="roma">konna</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby>the end
 </div>
+<div class="cn-lyric">说着这样的话 已经是the end</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>嫌<rt class="furi">きら</rt><rt class="roma">kira</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ちまって<rt class="roma">chimatte</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> yeah
 </div>
+<div class="cn-lyric">被讨厌了呀 yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> a hold me tight, a hold me tight
 </div>
+<div class="cn-lyric">爱呀 a hold me tight, a hold me tight</div>
 </div>
 
 <div class="lyric-line">
@@ -209,12 +213,14 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 <ruby>嫌<rt class="furi">きら</rt><rt class="roma">kira</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>嫌<rt class="furi">きら</rt><rt class="roma">kira</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>嫌<rt class="furi">きら</rt><rt class="roma">kira</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>なあ<rt class="roma">naa</rt></ruby>
 </div>
+<div class="cn-lyric">会被讨厌呢 会被讨厌呢 会被讨厌呢啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>やめ<rt class="roma">yame</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby> <ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>やめ<rt class="roma">yame</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby> <ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>やめ<rt class="roma">yame</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>あ<rt class="roma">a</rt></ruby>
 </div>
+
 <div class="cn-lyric">不哭了 不哭了 不哭了啊</div>
 </div>
 
@@ -224,30 +230,35 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>阿呆<rt class="furi">あほう</rt><rt class="roma">ahou</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby> <ruby>阿呆<rt class="furi">あほ</rt><rt class="roma">aho</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby>
 </div>
+<div class="cn-lyric">爱得像傻瓜一样 像傻瓜一样</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>こんな<rt class="roma">konna</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby>the end
 </div>
+<div class="cn-lyric">说着这样的话 已经是the end</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>嫌<rt class="furi">きら</rt><rt class="roma">kira</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ちまって<rt class="roma">chimatte</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> yeah
 </div>
+<div class="cn-lyric">被讨厌了呀 yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>阿呆<rt class="furi">あほう</rt><rt class="roma">ahou</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby> <ruby>阿呆<rt class="furi">あほ</rt><rt class="roma">aho</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby>
 </div>
+<div class="cn-lyric">爱得像傻瓜一样 像傻瓜一样</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>失<rt class="furi">うしな</rt><rt class="roma">ushina</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>初<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>めて<rt class="roma">mete</rt></ruby><ruby>気付<rt class="furi">きづ</rt><rt class="roma">kizu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
+
 <div class="cn-lyric">总是在失去后才意识到</div>
 </div>
 
@@ -257,30 +268,35 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> a hold me tight, a hold me tight
 </div>
+<div class="cn-lyric">爱呀 a hold me tight, a hold me tight</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>こんな<rt class="roma">konna</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby>the end
 </div>
+<div class="cn-lyric">说着这样的话 已经是the end</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>嫌<rt class="furi">きら</rt><rt class="roma">kira</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ちまって<rt class="roma">chimatte</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> yeah
 </div>
+<div class="cn-lyric">被讨厌了呀 yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> a hold me tight, a hold me tight
 </div>
+<div class="cn-lyric">爱呀 a hold me tight, a hold me tight</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:39.52]<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>あたし<rt class="roma">atashi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:39.52]即便如此我也必须做我自己</div>
 </div>
 
@@ -290,6 +306,7 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [03:00.73]<ruby>せ<rt class="roma">se</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> yeah
 </div>
+
 <div class="cn-lyric">[03:00.73]预备 yeah</div>
 </div>
 
@@ -297,6 +314,7 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [03:08.75]<ruby>はい<rt class="roma">hai</rt></ruby> <ruby>せ<rt class="roma">se</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> yeah
 </div>
+
 <div class="cn-lyric">[03:08.75]好 预备 yeah</div>
 </div>
 

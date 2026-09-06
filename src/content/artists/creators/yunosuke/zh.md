@@ -72,18 +72,18 @@ Yunosuke 的制作风格以精致的电子音景与流行乐感的融合为核�
 
 ## 投稿与制作履历
 
-雄之助自 2014年10月开始在网络音乐界活动，第一首原创 VOCALOID 曲《ループメモリー》于 2014年10月17日投稿。他主要使用 EDM、House 等电子音乐语汇，同时也制作纯音乐、游戏音乐和商业合作曲；《Take Me!!》《[Pathos](/zh/albums/yunosuke/Pathos-1103188278)》《PaⅢ.SENSATION》是其早期代表作。
+雄之助自 2014年10月开始在网络音乐界活动，第一首原创 VOCALOID 曲《ループメモリー》于 2014年10月17日投稿。他主要使用 EDM、House 等电子音乐语汇，同时也制作纯音乐、游戏音乐和商业合作曲；《Take Me!!》《[Pathos](/zh/albums/yunosuke/pathos-1103188278)》《PaⅢ.SENSATION》是其早期代表作。
 
 他在 2016年3月7日于 Bilibili 投稿《Take Me!! (2016 Remix)》，是较早进入中文视频平台的日本 VOCALOID 制作人之一。其 Bilibili 受众规模和部分作品播放量长期高于 niconico，构成其海外传播经历的重要部分。
 
-除个人投稿外，雄之助还为 SOUND VOLTEX、Arcaea 等音乐游戏提供乐曲，并与 WaMi 组成音乐组合 Awairo。2023年10月18日公开组合出道，10 月 20 日发布首支单曲《Pale&Deep》。
+除个人投稿外，雄之助还为 SOUND VOLTEX、Arcaea 等音乐游戏提供乐曲，并与 WaMi 组成音乐组合 Awairo。2023年10月18日公开组合出道，10 月 20 日发布首支单曲《[Pale](/zh/songs/mimi/originals/pale)&Deep》。
 
 - 2026年9月：THINKR 工作室重组，移籍至 [KYOKAI STUDIO](/zh/projects/labels/kyokai-studio)（原 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 体系）。
 
 
 ## 作品整理
 
-主要个人专辑包括《[Unique Antique](/zh/albums/yunosuke/Unique-Antique-1011454503)》《[Pathos](/zh/albums/yunosuke/Pathos-1103188278)》《[Black or White](/zh/albums/yunosuke/Black-or-White-1304869904)》《[Fiction](/zh/albums/yunosuke/Fiction-1419403824)》《[Proto](/zh/albums/yunosuke/Proto-1535422307)》《[Tranquilizer](/zh/albums/yunosuke/Tranquilizer-1684861827)》。其创作可以分为 VOCALOID 投稿、纯音乐、游戏供曲与 [Awairo](/zh/artists/solo/awairo) 组合活动四条线索；目录中应保留作词、作曲、编曲、调音和演唱者等不同制作职位。
+主要个人专辑包括《[Unique Antique](/zh/albums/yunosuke/unique-antique-1011454503)》《[Pathos](/zh/albums/yunosuke/pathos-1103188278)》《[Black or White](/zh/albums/yunosuke/black-or-white-1304869904)》《[Fiction](/zh/albums/yunosuke/fiction-1419403824)》《[Proto](/zh/albums/yunosuke/proto-1535422307)》《[Tranquilizer](/zh/albums/yunosuke/tranquilizer-1684861827)》。其创作可以分为 VOCALOID 投稿、纯音乐、游戏供曲与 [Awairo](/zh/artists/solo/awairo) 组合活动四条线索；目录中应保留作词、作曲、编曲、调音和演唱者等不同制作职位。
 
 
 ## 外部链接

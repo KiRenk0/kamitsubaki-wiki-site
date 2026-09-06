@@ -89,12 +89,14 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [00:49.14]<ruby>見境<rt class="furi">みさかい</rt><rt class="roma">misakai</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>惚<rt class="furi">ほ</rt><rt class="roma">ho</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>られる<rt class="roma">rareru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>線<rt class="furi">せん</rt><rt class="roma">sen</rt></ruby>
 </div>
+<div class="cn-lyric">[00:49.14]毫不挑剔被迷恋的世界线</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:52.90]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ナンバーワン<rt class="roma">nanbaawan</rt></ruby>
 </div>
+<div class="cn-lyric">[00:52.90]我是第一名</div>
 </div>
 
 <div class="lyric-line">
@@ -213,72 +215,84 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [01:59.83]<ruby>見境<rt class="furi">みさかい</rt><rt class="roma">misakai</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>惚<rt class="furi">ほ</rt><rt class="roma">ho</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>られる<rt class="roma">rareru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>線<rt class="furi">せん</rt><rt class="roma">sen</rt></ruby>
 </div>
+<div class="cn-lyric">[01:59.83]毫不挑剔被迷恋的世界线</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:03.45]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ナンバーワン<rt class="roma">nanbaawan</rt></ruby>
 </div>
+<div class="cn-lyric">[02:03.45]我是第一名</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:06.76]<ruby>見境<rt class="furi">みさかい</rt><rt class="roma">misakai</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>惚<rt class="furi">ほ</rt><rt class="roma">ho</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>られる<rt class="roma">rareru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>線<rt class="furi">せん</rt><rt class="roma">sen</rt></ruby>
 </div>
+<div class="cn-lyric">[02:06.76]毫不挑剔被迷恋的世界线</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:10.54]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ナンバーワン<rt class="roma">nanbaawan</rt></ruby>
 </div>
+<div class="cn-lyric">[02:10.54]我是第一名</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:14.04]<ruby>不便<rt class="furi">ふべん</rt><rt class="roma">fuben</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>不便<rt class="furi">ふべん</rt><rt class="roma">fuben</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>不便<rt class="furi">ふべん</rt><rt class="roma">fuben</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>不便<rt class="furi">ふべん</rt><rt class="roma">fuben</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:14.04]不方便啊 不方便啊 不方便啊 不方便啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:16.94]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>可愛<rt class="furi">かわい</rt><rt class="roma">kawai</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:16.94]我的可爱之处</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:19.55]<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>のたまう<rt class="roma">notamau</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>一級<rt class="furi">いっきゅう</rt><rt class="roma">ikkyuu</rt></ruby><ruby>品<rt class="furi">ひん</rt><rt class="roma">hin</rt></ruby>
 </div>
+<div class="cn-lyric">[02:19.55]说出这种话的我是一等品</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:24.01]<ruby>敬<rt class="furi">うやま</rt><rt class="roma">uyama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>なさい<rt class="roma">nasai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:24.01]请尊敬我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:28.06]<ruby>寝<rt class="furi">ね</rt><rt class="roma">ne</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>寝<rt class="furi">ね</rt><rt class="roma">ne</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>寝<rt class="furi">ね</rt><rt class="roma">ne</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>午前<rt class="furi">ごぜん</rt><rt class="roma">gozen</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby>
 </div>
+<div class="cn-lyric">[02:28.06]不管怎么睡 怎么睡 怎么睡 也还是上午</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:31.04]<ruby>だったら<rt class="roma">dattara</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+<div class="cn-lyric">[02:31.04]要是那样就好了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:33.74]<ruby>まだまだ<rt class="roma">madamada</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby>、<ruby>楽<rt class="furi">たの</rt><rt class="roma">tano</rt></ruby><ruby>しめる<rt class="roma">shimeru</rt></ruby><ruby>はず<rt class="roma">hazu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>オンリーワン<rt class="roma">onriiwan</rt></ruby>
 </div>
+<div class="cn-lyric">[02:33.74]我还远没有 理应尽情享受的独一无二</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:38.31]Do do
 </div>
+
 <div class="cn-lyric">[02:38.31]Do do</div>
 </div>
 
@@ -286,6 +300,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [02:56.51]<ruby>黒髪<rt class="furi">くろかみ</rt><rt class="roma">kurokami</rt></ruby><ruby>ロング<rt class="roma">rongu</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>黒髪<rt class="furi">くろかみ</rt><rt class="roma">kurokami</rt></ruby><ruby>ボブ<rt class="roma">bobu</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:56.51]比起黑长直和黑短发</div>
 </div>
 
@@ -293,6 +308,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:00.19]<ruby>金髪<rt class="furi">きんぱつ</rt><rt class="roma">kinpatsu</rt></ruby><ruby>ショート<rt class="roma">shouto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>似合<rt class="furi">にあ</rt><rt class="roma">nia</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:00.19]我更想适合金色短发</div>
 </div>
 
@@ -300,6 +316,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:03.51]<ruby>人生<rt class="furi">じんせい</rt><rt class="roma">jinsei</rt></ruby><ruby>残<rt class="furi">のこ</rt><rt class="roma">noko</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>十<rt class="furi">じゅう</rt><rt class="roma">juu</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:03.51]人生剩下的几十年</div>
 </div>
 
@@ -307,6 +324,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:06.70]<ruby>幸<rt class="furi">しあわ</rt><rt class="roma">shiawa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>余韻<rt class="furi">よいん</rt><rt class="roma">yoin</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:06.70]延续幸福的余韵</div>
 </div>
 
@@ -314,6 +332,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:12.40]I know I know I know I know
 </div>
+
 <div class="cn-lyric">[03:12.40]我知道 我知道 我知道 我知道</div>
 </div>
 
@@ -321,6 +340,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:15.21]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>可愛<rt class="furi">かわい</rt><rt class="roma">kawai</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:15.21]我不可爱</div>
 </div>
 
@@ -328,6 +348,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:17.79]<ruby>されど<rt class="roma">saredo</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>度目<rt class="furi">どめ</rt><rt class="roma">dome</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>瞑<rt class="furi">つむ</rt><rt class="roma">tsumu</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:17.79]然而在闭眼的一瞬间之后</div>
 </div>
 
@@ -335,6 +356,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:22.19]<ruby>儚<rt class="furi">はかな</rt><rt class="roma">hakana</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:22.19]虚幻般的女孩</div>
 </div>
 
@@ -342,6 +364,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:26.46]<ruby>便利<rt class="furi">べんり</rt><rt class="roma">benri</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ロンリー<rt class="roma">ronrii</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>不便<rt class="furi">ふべん</rt><rt class="roma">fuben</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>可愛<rt class="furi">かわい</rt><rt class="roma">kawai</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:26.46]比起便利的孤独 更想要不方便的可爱</div>
 </div>
 
@@ -349,6 +372,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:31.55]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>欲<rt class="furi">ほ</rt><rt class="roma">ho</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:31.55]我想要的是</div>
 </div>
 
@@ -356,6 +380,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:33.80]Do do <ruby>オンリー<rt class="roma">onrii</rt></ruby><ruby>ワン<rt class="roma">wan</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:33.80]Do do 独一无二</div>
 </div>
 
@@ -363,12 +388,15 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:37.25]Do do
 </div>
+
+<div class="cn-lyric">[03:37.25]Do do</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:38.10]<ruby>ナンバーワン<rt class="roma">nanbaawan</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:38.10]第一名</div>
 </div>
 

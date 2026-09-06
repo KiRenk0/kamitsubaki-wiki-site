@@ -119,6 +119,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:26.51]<ruby>家<rt class="furi">いえ</rt><rt class="roma">ie</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[00:26.51]回家吧</div>
 </div>
 
 <div class="lyric-line">
@@ -132,12 +133,14 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:31.74]<ruby>家<rt class="furi">いえ</rt><rt class="roma">ie</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[00:31.74]回家吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:33.91]<ruby>お<rt class="roma">o</rt></ruby><ruby>風呂<rt class="furi">ふろ</rt><rt class="roma">furo</rt></ruby><ruby>つかって<rt class="roma">tsukatte</rt></ruby><ruby>疲<rt class="furi">つか</rt><rt class="roma">tsuka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>解放<rt class="furi">かいほう</rt><rt class="roma">kaihou</rt></ruby>
 </div>
+
 <div class="cn-lyric">[00:33.91]泡个澡从疲惫中解放</div>
 </div>
 
@@ -145,12 +148,14 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:37.20]<ruby>家<rt class="furi">いえ</rt><rt class="roma">ie</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[00:37.20]回家吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:38.97]yeah
 </div>
+
 <div class="cn-lyric">[00:38.97]yeah</div>
 </div>
 
@@ -158,6 +163,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:39.82]<ruby>家<rt class="furi">いえ</rt><rt class="roma">ie</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[00:39.82]回家吧</div>
 </div>
 
 <br />

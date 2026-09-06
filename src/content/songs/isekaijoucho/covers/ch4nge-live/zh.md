@@ -139,6 +139,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 <ruby>ワンツースリー<rt class="roma">wantsuusurii</rt></ruby> <ruby>ワンツースリー<rt class="roma">wantsuusurii</rt></ruby> <ruby>ワンツースリー<rt class="roma">wantsuusurii</rt></ruby>
 </div>
+<div class="cn-lyric">一二三 一二三 一二三</div>
 </div>
 
 <br />
@@ -235,12 +236,14 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 <ruby>引<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>否<rt class="furi">いな</rt><rt class="roma">ina</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="cn-lyric">能否抽到</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>次第<rt class="furi">しだい</rt><rt class="roma">shidai</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+<div class="cn-lyric">全看自己了</div>
 </div>
 
 <br />
@@ -249,30 +252,35 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 <ruby>余裕<rt class="furi">よゆう</rt><rt class="roma">yoyuu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>！ <ruby>振り切<rt class="furi">ふりき</rt><rt class="roma">furiki</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>全<rt class="furi">ぜん</rt><rt class="roma">zen</rt></ruby>BET<ruby>だ<rt class="roma">da</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>イェイ<rt class="roma">iei</rt></ruby>
 </div>
+<div class="cn-lyric">轻松！ 甩开全押 耶</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>そこ<rt class="roma">soko</rt></ruby><ruby>どけ<rt class="roma">doke</rt></ruby>！ <ruby>そう<rt class="roma">sou</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>エース<rt class="roma">eesu</rt></ruby><ruby>かっさらう<rt class="roma">kassarau</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>アタシ<rt class="roma">atashi</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">让开！ 没错，抢走这张王牌的是我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Stay <ruby>もう<rt class="roma">mou</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby> <ruby>勝<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>平常<rt class="furi">へいじょう</rt><rt class="roma">heijou</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby>
 </div>
+<div class="cn-lyric">Stay 够了 赢了就要平常心</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ね<rt class="roma">ne</rt></ruby><ruby>プレイボーイ<rt class="roma">pureiboui</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby>
 </div>
+<div class="cn-lyric">喂，playboy 去吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Don't get in my way <ruby>じゃあ<rt class="roma">jaa</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>黙<rt class="furi">だま</rt><rt class="roma">dama</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">Don't get in my way 那么再见 闭嘴</div>
 </div>
 
 <br />
@@ -281,24 +289,28 @@ Don't get in my way <ruby>じゃあ<rt class="roma">jaa</rt></ruby><ruby>ね<rt 
 <div class="jp-lyric">
 <ruby>ワンツースリー<rt class="roma">wantsuusurii</rt></ruby> <ruby>ワンツースリー<rt class="roma">wantsuusurii</rt></ruby> <ruby>ワンツースリー<rt class="roma">wantsuusurii</rt></ruby>
 </div>
+<div class="cn-lyric">一二三 一二三 一二三</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Sit down, Sit down
 </div>
+<div class="cn-lyric">Sit down, Sit down</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ワンツースリー<rt class="roma">wantsuusurii</rt></ruby> <ruby>ワンツースリー<rt class="roma">wantsuusurii</rt></ruby> <ruby>ワンツースリー<rt class="roma">wantsuusurii</rt></ruby>
 </div>
+<div class="cn-lyric">一二三 一二三 一二三</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:02.01]<ruby>まさかの<rt class="roma">masakano</rt></ruby><ruby>倍<rt class="furi">ばい</rt><rt class="roma">bai</rt></ruby><ruby>倍<rt class="furi">ばい</rt><rt class="roma">bai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:02.01]意想不到的双倍</div>
 </div>
 
@@ -308,24 +320,28 @@ Sit down, Sit down
 <div class="jp-lyric">
 <ruby>ワンツースリー<rt class="roma">wantsuusurii</rt></ruby> <ruby>ワンツースリー<rt class="roma">wantsuusurii</rt></ruby> <ruby>ワンツースリー<rt class="roma">wantsuusurii</rt></ruby>
 </div>
+<div class="cn-lyric">一二三 一二三 一二三</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Sit down, Sit down
 </div>
+<div class="cn-lyric">Sit down, Sit down</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ワンツースリー<rt class="roma">wantsuusurii</rt></ruby> <ruby>ワンツースリー<rt class="roma">wantsuusurii</rt></ruby> <ruby>ワンツースリー<rt class="roma">wantsuusurii</rt></ruby>
 </div>
+<div class="cn-lyric">一二三 一二三 一二三</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Sit down, Sit down
 </div>
+<div class="cn-lyric">Sit down, Sit down</div>
 </div>
 
 </div>

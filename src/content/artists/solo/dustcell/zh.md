@@ -81,7 +81,7 @@ Misumi 是 DUSTCELL 的作曲与编曲担当，也是活跃于 Vocaloid 领域�
 
 ### 2019年：成立与早期投稿
 
-- **10月11日**：发布首支原创曲《CULT》，宣布 DUSTCELL 开始活动；该曲于同年 12 月达到百万播放。
+- **10月11日**：发布首支原创曲《[CULT](/zh/songs/harusaruhi/covers/cult)》，宣布 DUSTCELL 开始活动；该曲于同年 12 月达到百万播放。
 - **10月18日**：宣布加入以[花譜](/zh/artists/vwp/kaf)为核心的 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 创作团队。
 - **11月22日**：发布第二首原创曲《STIGMA》，成为早期重要作品。
 
@@ -89,8 +89,8 @@ Misumi 是 DUSTCELL 的作曲与编曲担当，也是活跃于 Vocaloid 领域�
 
 - **1月1日**：开设面向中文观众的 Bilibili 与微博账号。
 - **1月2日**：发布《LAZY》；随后《Heaven and Hell》《DOMINATION》《LILAC》《SOPPY》等作品陆续公开。
-- **4月2日**：公布首张完整专辑《[SUMMIT](/zh/albums/dustcell/SUMMIT-1688155907)》及同名 One-Man Live 计划。
-- **5月20日**：发行 1st FULL ALBUM《SUMMIT》，并发布《アネモネ》。
+- **4月2日**：公布首张完整专辑《[SUMMIT](/zh/albums/dustcell/summit-1688155907)》及同名 One-Man Live 计划。
+- **5月20日**：发行 1st FULL ALBUM《[SUMMIT](/zh/albums/dustcell/summit-1688155907)》，并发布《アネモネ》。
 - **7月3日**：因疫情影响，将原定现场演出调整为无观众线上直播。
 - **7月31日**：举办 1st ONE-MAN LIVE「SUMMIT」，并公布 2nd ONE-MAN LIVE「HOWL」。
 - **11月15日**：举行 2nd ONE-MAN LIVE「HOWL」，线上与线下同步展开。
@@ -106,7 +106,7 @@ Misumi 是 DUSTCELL 的作曲与编曲担当，也是活跃于 Vocaloid 领域�
 
 ### 早期网络投稿
 
-早期作品按照“编号投稿—百万播放节点—现场重新诠释”的方式逐渐建立组合史。核心入口包括《CULT》《STIGMA》《LAZY》《Heaven and Hell》《DOMINATION》《LILAC》《SOPPY》《アネモネ》《ONE》《終点》《[DERO](/zh/songs/dustcell/originals/dero)》《[PAIN](/zh/songs/dustcell/originals/pain)》《[Mad Hatter](/zh/songs/dustcell/originals/mad-hatter)》《[命の行方](/zh/songs/dustcell/originals/命no行方)》《[独白](/zh/songs/dustcell/originals/独白)》。
+早期作品按照“编号投稿—百万播放节点—现场重新诠释”的方式逐渐建立组合史。核心入口包括《CULT》《STIGMA》《LAZY》《Heaven and Hell》《DOMINATION》《LILAC》《SOPPY》《アネモネ》《ONE》《[終点](/zh/songs/koko/covers/終点-shuuten)》《[DERO](/zh/songs/dustcell/originals/dero)》《[PAIN](/zh/songs/dustcell/originals/pain)》《[Mad Hatter](/zh/songs/dustcell/originals/mad-hatter)》《[命の行方](/zh/songs/dustcell/originals/命no行方)》《[独白](/zh/songs/dustcell/originals/独白)》。
 
 | 阶段 | 代表作品 | 作品意义 |
 | --- | --- | --- |

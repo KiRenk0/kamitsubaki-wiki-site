@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 ## Overview
 
-ありがとう appears on SPICE OF LIFE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+ありがとう appears on [SPICE OF LIFE](/en/albums/harusaruhi/spice-of-life) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -35,7 +35,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:07.69]yeah
 </div>
-<div class="trans-lyric">yeah</div>
+<div class="trans-lyric">
+[00:07.69]yeah
+</div>
 </div>
 
 <div class="lyric-line">
@@ -72,7 +74,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:26.80]I don’t know about you
 </div>
-<div class="trans-lyric">I don’t know about you</div>
+<div class="trans-lyric">
+[00:26.80]I don’t know about you
+</div>
 </div>
 
 <div class="lyric-line">
@@ -88,21 +92,27 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:36.09]<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ありがとう<rt class="roma">arigatou</rt></ruby>
 </div>
-<div class="trans-lyric">Thank you for finding me</div>
+<div class="trans-lyric">
+[00:36.09]Thank you for finding me
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:41.09]You know, I sing because of you
 </div>
-<div class="trans-lyric">You know, I sing because of you</div>
+<div class="trans-lyric">
+[00:41.09]You know, I sing because of you
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:47.17]I’m here because of you
 </div>
-<div class="trans-lyric">I’m here because of you</div>
+<div class="trans-lyric">
+[00:47.17]I’m here because of you
+</div>
 </div>
 
 <br />
@@ -118,6 +128,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:57.53]You know, I sing because of you
 </div>
+<div class="trans-lyric">[00:57.53]You know, I sing because of you</div>
 </div>
 
 <div class="lyric-line">
@@ -133,14 +144,15 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [01:09.37]<ruby>ひとり<rt class="roma">hitori</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
-<div class="trans-lyric">Because I'm not alone</div>
+<div class="trans-lyric">[01:09.37]Because I'm not alone</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:12.37]sing because of you
 </div>
-<div class="trans-lyric">sing because of you</div>
+
+<div class="trans-lyric">[01:12.37]sing because of you</div>
 </div>
 
 <br />

@@ -17,7 +17,7 @@ image: /images/songs/valis/境界線makugafyin.jpg
 
 ## 作品简介
 
-VALIS于 2023-04-17 发行的单曲《境界線マクガフィン》。
+[VALIS](/zh/artists/solo/valis)于 2023-04-17 发行的单曲《境界線マクガフィン》。
 
 ## 试听
 {{media-switcher::境界線マクガフィン}}

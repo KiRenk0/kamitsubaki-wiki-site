@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 
 ## Overview
 
-chAngE appears on CREAM PUFF LIVE 2 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+chAngE appears on [CREAM PUFF LIVE 2](/en/albums/harusaruhi/cream-puff-live-2) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -35,7 +35,9 @@ chAngE appears on CREAM PUFF LIVE 2 or a related official release. Entries are v
 <div class="jp-lyric">
 [00:00.60]ChAngE <ruby>なびか<rt class="roma">nabika</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>流<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="trans-lyric">ChAngE I won't sway, I won't be swept away</div>
+<div class="trans-lyric">
+[00:00.60]ChAngE I won't sway, I won't be swept away
+</div>
 </div>
 
 <div class="lyric-line">
@@ -49,7 +51,9 @@ chAngE appears on CREAM PUFF LIVE 2 or a related official release. Entries are v
 <div class="jp-lyric">
 [00:06.86]ChAngE <ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>生まれ変<rt class="furi">うまれか</rt><rt class="roma">umareka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
-<div class="trans-lyric">ChAngE I can be reborn any number of times</div>
+<div class="trans-lyric">
+[00:06.86]ChAngE I can be reborn any number of times
+</div>
 </div>
 
 <div class="lyric-line">
@@ -79,7 +83,9 @@ chAngE appears on CREAM PUFF LIVE 2 or a related official release. Entries are v
 <div class="jp-lyric">
 [00:31.63]<ruby>足<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>尽<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>なん<rt class="roma">nan</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby>
 </div>
-<div class="trans-lyric">Not enough, never-ending, whatever it is</div>
+<div class="trans-lyric">
+[00:31.63]Not enough, never-ending, whatever it is
+</div>
 </div>
 
 <div class="lyric-line">
@@ -132,7 +138,9 @@ chAngE appears on CREAM PUFF LIVE 2 or a related official release. Entries are v
 <div class="jp-lyric">
 [00:54.00]<ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いたって<rt class="roma">itatte</rt></ruby> <ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
-<div class="trans-lyric">Even if I stay there, even if I wait</div>
+<div class="trans-lyric">
+[00:54.00]Even if I stay there, even if I wait
+</div>
 </div>
 
 <div class="lyric-line">
@@ -148,12 +156,14 @@ chAngE appears on CREAM PUFF LIVE 2 or a related official release. Entries are v
 <div class="jp-lyric">
 ChAngE <ruby>なびか<rt class="roma">nabika</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>流<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">ChAngE I won't sway, I won't be swept away</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じる<rt class="roma">jiru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>素直<rt class="furi">すなお</rt><rt class="roma">sunao</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いたい<rt class="roma">itai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="trans-lyric">I want to be honest with what I feel now</div>
 </div>
 
 <div class="lyric-line">
@@ -167,26 +177,28 @@ ChAngE <ruby>なびか<rt class="roma">nabika</rt></ruby><ruby>ない<rt class="
 <div class="jp-lyric">
 ChAngE <ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>生まれ変<rt class="furi">うまれか</rt><rt class="roma">umareka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="trans-lyric">ChAngE I can be reborn any number of times</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>悲<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>しみ<rt class="roma">shimi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>走り出<rt class="furi">はしりだ</rt><rt class="roma">hashirida</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">Embracing even sadness, I'll start running</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:20.65]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>もと<rt class="roma">moto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby><ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
-<div class="trans-lyric">I can no longer return to you</div>
+<div class="trans-lyric">[01:20.65]I can no longer return to you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:26.40]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>らしく<rt class="roma">rashiku</rt></ruby> I wanna chAngE
 </div>
-<div class="trans-lyric">I'll be myself, I wanna chAngE</div>
+<div class="trans-lyric">[01:26.40]I'll be myself, I wanna chAngE</div>
 </div>
 
 <br />
@@ -195,28 +207,28 @@ ChAngE <ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><rub
 <div class="jp-lyric">
 [01:35.42]<ruby>なんで<rt class="roma">nande</rt></ruby><ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>ためらって<rt class="roma">tameratte</rt></ruby>
 </div>
-<div class="trans-lyric">Why are you hesitating so much?</div>
+<div class="trans-lyric">[01:35.42]Why are you hesitating so much?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:38.12]<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
 </div>
-<div class="trans-lyric">Where are you, unfulfilled?</div>
+<div class="trans-lyric">[01:38.12]Where are you, unfulfilled?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:41.45]<ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>錆<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>ふりきって<rt class="roma">furikitte</rt></ruby>
 </div>
-<div class="trans-lyric">Not fading, not rusting, shaking off everything</div>
+<div class="trans-lyric">[01:41.45]Not fading, not rusting, shaking off everything</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:44.02]<ruby>もっと<rt class="roma">motto</rt></ruby><ruby>ハウ<rt class="roma">hau</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="trans-lyric">Let me howl more</div>
+<div class="trans-lyric">[01:44.02]Let me howl more</div>
 </div>
 
 <br />
@@ -278,7 +290,7 @@ ChAngE <ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><rub
 <div class="jp-lyric">
 [03:04.02]ChAngE <ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>振り向<rt class="furi">ふりむ</rt><rt class="roma">furimu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="trans-lyric">ChAngE I won't stop, I won't look back</div>
+<div class="trans-lyric">[03:04.02]ChAngE I won't stop, I won't look back</div>
 </div>
 
 <div class="lyric-line">
@@ -299,7 +311,7 @@ ChAngE <ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><rub
 <div class="jp-lyric">
 [03:04.02]ChAngE <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>失<rt class="furi">しつ</rt><rt class="roma">shitsu</rt></ruby><ruby>くし<rt class="roma">kushi</rt></ruby><ruby>たく<rt class="roma">taku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
-<div class="trans-lyric">ChAngE I won't forget, I don't want to lose</div>
+<div class="trans-lyric">[03:04.02]ChAngE I won't forget, I don't want to lose</div>
 </div>
 
 <div class="lyric-line">
@@ -320,6 +332,7 @@ ChAngE <ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><rub
 <div class="jp-lyric">
 <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>らしく<rt class="roma">rashiku</rt></ruby> I wanna chAngE
 </div>
+<div class="trans-lyric">I'll be myself, I wanna chAngE</div>
 </div>
 
 <br />
@@ -335,6 +348,7 @@ ChAngE <ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><rub
 <div class="jp-lyric">
 <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わった<rt class="roma">watta</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+
 <div class="trans-lyric">If I am at the destination of your change</div>
 </div>
 
@@ -342,19 +356,23 @@ ChAngE <ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><rub
 <div class="jp-lyric">
 [03:04.02]ChAngE
 </div>
-<div class="trans-lyric">ChAngE</div>
+
+<div class="trans-lyric">[03:04.02]ChAngE</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 ChAngE
 </div>
+
+<div class="trans-lyric">ChAngE</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>走り出<rt class="furi">はしりだ</rt><rt class="roma">hashirida</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="trans-lyric">I'll start running</div>
 </div>
 
@@ -364,36 +382,42 @@ ChAngE
 <div class="jp-lyric">
 ChAngE <ruby>なびか<rt class="roma">nabika</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>流<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">ChAngE I won't sway, I won't be swept away</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じる<rt class="roma">jiru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>素直<rt class="furi">すなお</rt><rt class="roma">sunao</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いたい<rt class="roma">itai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="trans-lyric">I want to be honest with what I feel now</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>通<rt class="furi">どお</rt><rt class="roma">doo</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
+<div class="trans-lyric">I won't let anyone have their way with me</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 ChAngE <ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>生まれ変<rt class="furi">うまれか</rt><rt class="roma">umareka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="trans-lyric">ChAngE I can be reborn any number of times</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>悲<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>しみ<rt class="roma">shimi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>走り出<rt class="furi">はしりだ</rt><rt class="roma">hashirida</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">Embracing even sadness, I'll start running</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>同<rt class="furi">おな</rt><rt class="roma">ona</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>景色<rt class="furi">けしき</rt><rt class="roma">keshiki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+
 <div class="trans-lyric">If we can see the same scenery together</div>
 </div>
 
@@ -401,6 +425,7 @@ ChAngE <ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><rub
 <div class="jp-lyric">
 <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>もと<rt class="roma">moto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
+
 <div class="trans-lyric">I want to return to you someday</div>
 </div>
 
@@ -408,6 +433,7 @@ ChAngE <ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><rub
 <div class="jp-lyric">
 <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>らしく<rt class="roma">rashiku</rt></ruby> I wanna chAngE
 </div>
+<div class="trans-lyric">I'll be myself, I wanna chAngE</div>
 </div>
 
 </div>

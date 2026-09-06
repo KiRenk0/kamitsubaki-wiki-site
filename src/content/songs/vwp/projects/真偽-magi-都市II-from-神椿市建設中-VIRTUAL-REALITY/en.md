@@ -299,6 +299,7 @@ won't accept the fate that is set
 <div class="jp-lyric">
 There's no turning back this time
 </div>
+<div class="trans-lyric">There's no turning back this time</div>
 </div>
 
 <div class="lyric-line">
@@ -403,18 +404,21 @@ bringing honor and blessings back
 <div class="jp-lyric">
 won't accept the fate that is set
 </div>
+<div class="trans-lyric">won't accept the fate that is set</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 There's no turning back this time
 </div>
+<div class="trans-lyric">There's no turning back this time</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Will it be true, Will it be true
 </div>
+
 <div class="trans-lyric">Will it be true, Will it be true</div>
 </div>
 
@@ -422,6 +426,7 @@ Will it be true, Will it be true
 <div class="jp-lyric">
 be a closure for this myth book
 </div>
+
 <div class="trans-lyric">be a closure for this myth book</div>
 </div>
 
@@ -429,12 +434,14 @@ be a closure for this myth book
 <div class="jp-lyric">
 one day we shall cheer and dance
 </div>
+<div class="trans-lyric">one day we shall cheer and dance</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 making joy forever last”
 </div>
+<div class="trans-lyric">making joy forever last”</div>
 </div>
 
 </div>

@@ -54,7 +54,9 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 [00:38.40]<ruby>これ<rt class="roma">kore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby>
 </div>
-<div class="trans-lyric">That this is what it means to change</div>
+<div class="trans-lyric">
+[00:38.40]That this is what it means to change
+</div>
 </div>
 
 <div class="lyric-line">
@@ -213,6 +215,7 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 [03:09.06]<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>着飾<rt class="furi">きかざ</rt><rt class="roma">kikaza</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby> <ruby>エリカ<rt class="roma">erika</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
+<div class="trans-lyric">[03:09.06]When I adorn my heart, the Erica blooms</div>
 </div>
 
 <br />
@@ -221,7 +224,8 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 [03:20.20]<ruby>エリカ<rt class="roma">erika</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
-<div class="trans-lyric">Erica blooms</div>
+
+<div class="trans-lyric">[03:20.20]Erica blooms</div>
 </div>
 
 </div>

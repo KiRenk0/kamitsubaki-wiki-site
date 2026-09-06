@@ -104,12 +104,14 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [01:50.22]<ruby>地獄<rt class="furi">じごく</rt><rt class="roma">jigoku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>救<rt class="furi">すく</rt><rt class="roma">suku</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>
 </div>
+<div class="cn-lyric">[01:50.22]坠入地狱便得救</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:54.01]<ruby>天国<rt class="furi">てんごく</rt><rt class="roma">tengoku</rt></ruby><ruby>昇<rt class="furi">のぼ</rt><rt class="roma">nobo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby>
 </div>
+<div class="cn-lyric">[01:54.01]升入天堂便能重逢</div>
 </div>
 
 <div class="lyric-line">
@@ -213,12 +215,14 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:44.72]<ruby>地獄<rt class="furi">じごく</rt><rt class="roma">jigoku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>救<rt class="furi">すく</rt><rt class="roma">suku</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>
 </div>
+<div class="cn-lyric">[03:44.72]坠入地狱便得救</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:48.52]<ruby>天国<rt class="furi">てんごく</rt><rt class="roma">tengoku</rt></ruby><ruby>昇<rt class="furi">のぼ</rt><rt class="roma">nobo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby>
 </div>
+<div class="cn-lyric">[03:48.52]升入天堂便能重逢</div>
 </div>
 
 <div class="lyric-line">
@@ -232,6 +236,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:54.19]<ruby>地獄<rt class="furi">じごく</rt><rt class="roma">jigoku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>与<rt class="furi">あた</rt><rt class="roma">ata</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>おくれ<rt class="roma">okure</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:54.19]请在地狱给予</div>
 </div>
 
@@ -241,6 +246,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:59.36]<ruby>純粋<rt class="furi">じゅんすい</rt><rt class="roma">junsui</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>天<rt class="furi">てん</rt><rt class="roma">ten</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>来<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:59.36]纯洁的你来到天堂</div>
 </div>
 
@@ -248,6 +254,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [04:03.26]<ruby>罪<rt class="furi">つみ</rt><rt class="roma">tsumi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>晴<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>そこで<rt class="roma">sokode</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:03.26]若罪孽消散，就在那里相见</div>
 </div>
 
@@ -255,6 +262,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [04:06.94]<ruby>おいで<rt class="roma">oide</rt></ruby>、<ruby>おいで<rt class="roma">oide</rt></ruby>、<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>幸福<rt class="furi">こうふく</rt><rt class="roma">koufuku</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:06.94]来吧，来吧，也给你幸福之死</div>
 </div>
 

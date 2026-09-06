@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 ## Overview
 
-ゆっくりいこう appears on SPICE OF LIFE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+ゆっくりいこう appears on [SPICE OF LIFE](/en/albums/harusaruhi/spice-of-life) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -91,21 +91,27 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:21.57]Don’t worry
 </div>
-<div class="trans-lyric">Don’t worry</div>
+<div class="trans-lyric">
+[00:21.57]Don’t worry
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:22.74]You’ll be happy
 </div>
-<div class="trans-lyric">You’ll be happy</div>
+<div class="trans-lyric">
+[00:22.74]You’ll be happy
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:24.13]<ruby>生<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>まれ<rt class="roma">mare</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ラッキー<rt class="roma">rakkii</rt></ruby>
 </div>
-<div class="trans-lyric">Just being born is lucky enough</div>
+<div class="trans-lyric">
+[00:24.13]Just being born is lucky enough
+</div>
 </div>
 
 <div class="lyric-line">
@@ -126,12 +132,14 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:32.23]Don’t worry
 </div>
+<div class="trans-lyric">[00:32.23]Don’t worry</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:33.30]You’ll be happy
 </div>
+<div class="trans-lyric">[00:33.30]You’ll be happy</div>
 </div>
 
 <div class="lyric-line">
@@ -145,6 +153,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:37.50]<ruby>たまに<rt class="roma">tamani</rt></ruby><ruby>恥<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>かく<rt class="roma">kaku</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>アリ<rt class="roma">ari</rt></ruby>
 </div>
+
 <div class="trans-lyric">[00:37.50]Even days when you embarrass yourself sometimes are okay</div>
 </div>
 
@@ -152,7 +161,8 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:40.17]<ruby>ゆっくり<rt class="roma">yukkuri</rt></ruby><ruby>いこう<rt class="roma">ikou</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>旅<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby>yeah
 </div>
-<div class="trans-lyric">Let's go slowly on your own journey, yeah</div>
+
+<div class="trans-lyric">[00:40.17]Let's go slowly on your own journey, yeah</div>
 </div>
 
 <br />

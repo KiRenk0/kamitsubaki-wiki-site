@@ -41,7 +41,7 @@ categorySubtitle: "SOLO ARTISTS & UNITS"
 
 ## 代表作品
 
-存流的代表作品包括《さよなら》《まほう》《残響》《かいぶつ》《ギフテッド》。她在 [Albemuth](/zh/artists/solo/albemuth) 组合时期还参与了《[Guilty](/zh/songs/albemuth/originals/guilty)》《[新世界へ](/zh/songs/asu/originals/新世界he)》《tether》《Black Cloth》等作品，并以成员侧专辑《eve》记录了组合创作中的个人视角。
+存流的代表作品包括《さよなら》《まほう》《[残響](/zh/songs/koko/covers/残響-zankyou)》《かいぶつ》《ギフテッド》。她在 [Albemuth](/zh/artists/solo/albemuth) 组合时期还参与了《[Guilty](/zh/songs/albemuth/originals/guilty)》《[新世界へ](/zh/songs/asu/originals/新世界he)》《tether》《Black Cloth》等作品，并以成员侧专辑《eve》记录了组合创作中的个人视角。
 
 
 ## 活动历程

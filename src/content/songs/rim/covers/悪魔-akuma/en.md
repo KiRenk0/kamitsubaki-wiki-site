@@ -18,7 +18,7 @@ image: /images/albums/rim/chocolate-live.jpg
 
 ## Overview
 
-悪魔 appears on CHOCOLATE LIVE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+悪魔 appears on [CHOCOLATE LIVE](/en/albums/rim/chocolate-live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Lyrics
 

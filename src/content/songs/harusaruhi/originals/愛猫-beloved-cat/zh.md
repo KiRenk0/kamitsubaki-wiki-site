@@ -91,6 +91,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:27.17]yeah
 </div>
+<div class="cn-lyric">[00:27.17]yeah</div>
 </div>
 
 <div class="lyric-line">
@@ -125,6 +126,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:37.11]Lucky Happy
 </div>
+<div class="cn-lyric">[00:37.11]Lucky Happy</div>
 </div>
 
 <div class="lyric-line">
@@ -145,6 +147,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:43.55]<ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>ありがとう<rt class="roma">arigatou</rt></ruby>
 </div>
+
 <div class="cn-lyric">[00:43.55]一直以来谢谢你</div>
 </div>
 
@@ -152,6 +155,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:44.66]My sweet kitty
 </div>
+
 <div class="cn-lyric">[00:44.66]My sweet kitty</div>
 </div>
 

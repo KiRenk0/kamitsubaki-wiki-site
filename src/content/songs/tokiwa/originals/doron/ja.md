@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/doron.jpg
 
 ## 作品概要
 
-tokiwaが2025-01-28にリリースしたシングル「ドロン」。
+[tokiwa](/ja/artists/creators/tokiwa)が2025-01-28にリリースしたシングル「ドロン」。
 
 ## 視聴
 {{media-switcher::ドロン}}

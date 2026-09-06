@@ -24,7 +24,7 @@ image: /images/albums/vwp/proliferation.jpg
 
 ## 作品简介
 
-《刻印 (feat. [KOKO](/zh/artists/vwp/koko) & [V.W.P](/zh/artists/vwp/vwp))》收录于《[繁殖](/zh/albums/vwp/proliferation)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《[刻印](/zh/songs/isekaijoucho/collaborations/刻印-kokuin) (feat. [KOKO](/zh/artists/vwp/koko) & [V.W.P](/zh/artists/vwp/vwp))》收录于《[繁殖](/zh/albums/vwp/proliferation)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -190,12 +190,14 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 [01:39.28]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>失<rt class="furi">うしな</rt><rt class="roma">ushina</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[01:39.28]失去爱的世界</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:41.95]<ruby>何処<rt class="furi">どこ</rt><rt class="roma">doko</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
+<div class="cn-lyric">[01:41.95]究竟去了哪里？</div>
 </div>
 
 <br />
@@ -255,12 +257,14 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 [02:08.01]<ruby>拡<rt class="furi">ひろ</rt><rt class="roma">hiro</rt></ruby><ruby>がって<rt class="roma">gatte</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>感覚<rt class="furi">かんかく</rt><rt class="roma">kankaku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[02:08.01]在逐渐扩大的感觉中</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:10.95]<ruby>創<rt class="furi">そう</rt><rt class="roma">sou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>遺<rt class="furi">のこ</rt><rt class="roma">noko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ロッド<rt class="roma">roddo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:10.95]留下创伤的杖</div>
 </div>
 
@@ -268,18 +272,21 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 [02:14.10]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>捨<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>ボク<rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:14.10]丢掉了什么的的我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:17.08]<ruby>密<rt class="furi">ひそ</rt><rt class="roma">hiso</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>魔女<rt class="furi">まじょ</rt><rt class="roma">majo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[02:17.08]如同暗中微笑的魔女</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:19.66]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[02:19.66]只是在那里</div>
 </div>
 
 <br />
@@ -288,6 +295,7 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 [02:23.08]Ah, ah, ah, ah
 </div>
+
 <div class="cn-lyric">[02:23.08]Ah, ah, ah, ah</div>
 </div>
 

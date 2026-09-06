@@ -215,12 +215,14 @@ image: /images/songs/vwp/single-1658950756.jpg
 <div class="jp-lyric">
 [02:00.97]<ruby>一度<rt class="furi">いちど</rt><rt class="roma">ichido</rt></ruby><ruby>捨<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[02:00.97]一度抛弃的所有</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:03.75]<ruby>取り戻<rt class="furi">とりもど</rt><rt class="roma">torimodo</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[02:03.75]我来此是为了夺回</div>
 </div>
 
 <div class="lyric-line">
@@ -287,6 +289,7 @@ image: /images/songs/vwp/single-1658950756.jpg
 <div class="jp-lyric">
 [03:12.70]<ruby>取り戻<rt class="furi">とりもど</rt><rt class="roma">torimodo</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[03:12.70]我来此是为了夺回</div>
 </div>
 
 <div class="lyric-line">
@@ -323,6 +326,7 @@ image: /images/songs/vwp/single-1658950756.jpg
 <div class="jp-lyric">
 [03:38.05]<ruby>輪廻<rt class="furi">りんね</rt><rt class="roma">rinne</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:38.05]若要轮回 多少次都</div>
 </div>
 
@@ -330,6 +334,7 @@ image: /images/songs/vwp/single-1658950756.jpg
 <div class="jp-lyric">
 [03:43.31]<ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:43.31]未来</div>
 </div>
 
@@ -337,6 +342,7 @@ image: /images/songs/vwp/single-1658950756.jpg
 <div class="jp-lyric">
 [03:53.93]<ruby>掴<rt class="furi">つか</rt><rt class="roma">tsuka</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>取<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:53.93]紧握手中</div>
 </div>
 

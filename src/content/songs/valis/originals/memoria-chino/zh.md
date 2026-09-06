@@ -17,7 +17,7 @@ image: /images/songs/valis/memoria-chino.jpg
 
 ## 作品简介
 
-VALIS于 2025-08-26 发行的单曲《Memoria(チノ)》。
+[VALIS](/zh/artists/solo/valis)于 2025-08-26 发行的单曲《Memoria(チノ)》。
 
 ## 试听
 {{media-switcher::Memoria(チノ)}}

@@ -82,10 +82,10 @@ CeVIO AIプラットフォーム上で動作し、名前は「RIM + ECHO（理�
 
 ### 2022年
 
-- **4月16日**：V.W.Pの1st ONE-MAN LIVE「現象」のエンドロールにて、音楽的同位体「裏命（RIME）」のティザー映像が公開され、その存在が初めて発表される。
-- **7月7日**：先行予約受付が開始され、YouTubeにて初のカバー曲『食虫植物』（原曲：[花譜](/ja/artists/vwp/kaf)）のMVが公開される。
+- **4月16日**：[V.W.P](/ja/artists/vwp/vwp)の1st ONE-MAN LIVE「現象」のエンドロールにて、音楽的同位体「裏命（RIME）」のティザー映像が公開され、その存在が初めて発表される。
+- **7月7日**：先行予約受付が開始され、YouTubeにて初のカバー曲『[食虫植物](/ja/songs/rim/originals/食虫植物-carnivorous-plant)』（原曲：[花譜](/ja/artists/vwp/kaf)）のMVが公開される。
 - **7月14日**：R Sound Designによる初のオリジナル曲『マンダリン』が公開される。
-- **9月30日**：理芽と裏命によるデュエット曲『NEUROMANCE feat. 裏命 (from Singularity Live)』が公開される。
+- **9月30日**：理芽と裏命によるデュエット曲『[NEUROMANCE](/ja/songs/rim/originals/neuromance) feat. 裏命 (from Singularity Live)』が公開される。
 - **10月25日**：歌声合成ソフトウェア「CeVIO AI 音楽的同位体 裏命（RIME）」が正式発売。PALOW.による公式キャラクターデザインが公開される。
 - **12月5日**：イラスト・楽曲・MVコンテストが開催される。
 
@@ -114,7 +114,7 @@ CeVIO AIプラットフォーム上で動作し、名前は「RIM + ECHO（理�
 裏命を用いた代表的な楽曲には以下のようなものがあります。
 
 - 『食虫植物』（裏命 カバーバージョン）
-- 『甘美な無法』（裏命 カバーバージョン）
+- 『[甘美な無法](/ja/songs/rim/originals/甘美な無法-luscious-lawless)』（裏命 カバーバージョン）
 - UGCクリエイターによる数多くのオリジナル曲（R Sound Designによる『マンダリン』、ピコンによる『傷心中』など）
 
 おすすめの関連項目：

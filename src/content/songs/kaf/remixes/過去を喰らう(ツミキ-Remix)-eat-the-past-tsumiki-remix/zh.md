@@ -259,6 +259,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 [02:59.77]<ruby>夜空<rt class="furi">よぞら</rt><rt class="roma">yozora</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>舞<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby> <ruby>過去<rt class="furi">かこ</rt><rt class="roma">kako</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>喰<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>らい<rt class="roma">rai</rt></ruby><ruby>尽<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>くし<rt class="roma">kushi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[02:59.77]化作夜空飞舞 将过去蚕食殆尽</div>
 </div>
 
 </div>

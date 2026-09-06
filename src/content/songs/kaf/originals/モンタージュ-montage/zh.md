@@ -315,12 +315,14 @@ image: /images/albums/kaf/maho.jpg
 <div class="jp-lyric">
 [02:21.82]<ruby>モンタージュ<rt class="roma">montaaju</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>かかった<rt class="roma">kakatta</rt></ruby>
 </div>
+<div class="cn-lyric">[02:21.82]蒙太奇般的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:23.17]<ruby>どの<rt class="roma">dono</rt></ruby><ruby>部分<rt class="furi">ぶぶん</rt><rt class="roma">bubun</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="cn-lyric">[02:23.17]你喜欢哪个部分</div>
 </div>
 
 <div class="lyric-line">
@@ -350,12 +352,14 @@ image: /images/albums/kaf/maho.jpg
 <div class="jp-lyric">
 [02:49.91]<ruby>モンタージュ<rt class="roma">montaaju</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>かかった<rt class="roma">kakatta</rt></ruby>
 </div>
+<div class="cn-lyric">[02:49.91]蒙太奇般的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:51.26]<ruby>どの<rt class="roma">dono</rt></ruby><ruby>部分<rt class="furi">ぶぶん</rt><rt class="roma">bubun</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="cn-lyric">[02:51.26]你喜欢哪个部分</div>
 </div>
 
 <div class="lyric-line">
@@ -392,6 +396,7 @@ image: /images/albums/kaf/maho.jpg
 <div class="jp-lyric">
 [03:05.24]<ruby>ねえ<rt class="roma">nee</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:05.24]对吧</div>
 </div>
 
@@ -399,6 +404,7 @@ image: /images/albums/kaf/maho.jpg
 <div class="jp-lyric">
 [03:07.30]<ruby>何者<rt class="furi">なにもの</rt><rt class="roma">nanimono</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:07.30]什么都不是的我们</div>
 </div>
 
@@ -406,6 +412,7 @@ image: /images/albums/kaf/maho.jpg
 <div class="jp-lyric">
 [03:10.58]<ruby>傷<rt class="furi">きず</rt><rt class="roma">kizu</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>あって<rt class="roma">atte</rt></ruby><ruby>混<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>ざり<rt class="roma">zari</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:10.58]互相伤害又彼此交融</div>
 </div>
 
@@ -413,6 +420,7 @@ image: /images/albums/kaf/maho.jpg
 <div class="jp-lyric">
 [03:14.04]<ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なれる<rt class="roma">nareru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:14.04]因为总有一天能成为某个人的什么</div>
 </div>
 

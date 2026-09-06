@@ -17,7 +17,7 @@ image: /images/songs/mimi/海辺no電話bokkusu-feat.-音街una.jpg
 
 ## 作品简介
 
-MIMI于 2025-10-26 发行的单曲《海辺の電話ボックス (feat. 音街ウナ)》。
+[MIMI](/zh/artists/creators/mimi)于 2025-10-26 发行的单曲《海辺の電話ボックス (feat. 音街ウナ)》。
 
 ## 试听
 {{media-switcher::海辺の電話ボックス (feat. 音街ウナ)}}

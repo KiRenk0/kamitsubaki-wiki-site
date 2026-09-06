@@ -24,7 +24,7 @@ image: /images/albums/vwp/proliferation.jpg
 
 ## 作品概要
 
-「泡沫 (feat. [RIM](/ja/artists/vwp/rim) & [V.W.P](/ja/artists/vwp/vwp))」は『[繁殖](/ja/albums/vwp/proliferation)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「[泡沫](/ja/songs/isekaijoucho/collaborations/泡沫-bubble) (feat. [RIM](/ja/artists/vwp/rim) & [V.W.P](/ja/artists/vwp/vwp))」は『[繁殖](/ja/albums/vwp/proliferation)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 試聴
 

@@ -17,7 +17,7 @@ image: /images/songs/dustcell/表情差分.jpg
 
 ## 作品概要
 
-DUSTCELLが2024-10-08にリリースしたシングル「表情差分」。
+[DUSTCELL](/ja/artists/solo/dustcell)が2024-10-08にリリースしたシングル「表情差分」。
 
 ## 視聴
 {{media-switcher::表情差分}}

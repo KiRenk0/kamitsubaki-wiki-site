@@ -248,6 +248,7 @@ image: /images/songs/rim/single-1687464468.jpg
 <div class="jp-lyric">
 [02:08.49]<ruby>こんなに<rt class="roma">konnani</rt></ruby><ruby>楽<rt class="furi">らく</rt><rt class="roma">raku</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+<div class="cn-lyric">[02:08.49]没有比这更轻松的事了</div>
 </div>
 
 <br />
@@ -270,6 +271,7 @@ image: /images/songs/rim/single-1687464468.jpg
 <div class="jp-lyric">
 [02:16.87]<ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>曇<rt class="furi">くも</rt><rt class="roma">kumo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>季節<rt class="furi">きせつ</rt><rt class="roma">kisetsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>あたし<rt class="roma">atashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:16.87]在花云密布的季节里我再次</div>
 </div>
 
 <div class="lyric-line">
@@ -313,6 +315,7 @@ image: /images/songs/rim/single-1687464468.jpg
 <div class="jp-lyric">
 [02:43.90]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:43.90]只是歌唱啊</div>
 </div>
 
 <br />
@@ -335,18 +338,21 @@ image: /images/songs/rim/single-1687464468.jpg
 <div class="jp-lyric">
 [03:07.02]<ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>曇<rt class="furi">くも</rt><rt class="roma">kumo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>季節<rt class="furi">きせつ</rt><rt class="roma">kisetsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>あたし<rt class="roma">atashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[03:07.02]在花云密布的季节里我再次</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:10.80]<ruby>間違<rt class="furi">まちが</rt><rt class="roma">machiga</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>彷徨<rt class="furi">ほうこう</rt><rt class="roma">houkou</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>大人<rt class="furi">おとな</rt><rt class="roma">otona</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>ゆく<rt class="roma">yuku</rt></ruby>
 </div>
+<div class="cn-lyric">[03:10.80]犯错 彷徨 逐渐长大成人</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:15.45]<ruby>優<rt class="furi">やさ</rt><rt class="roma">yasa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[03:15.45]在这个仅凭温柔无法生存的世界里</div>
 </div>
 
 <br />
@@ -399,6 +405,7 @@ image: /images/songs/rim/single-1687464468.jpg
 <div class="jp-lyric">
 [03:44.37]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>口調<rt class="furi">くちょう</rt><rt class="roma">kuchou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>真似<rt class="furi">まね</rt><rt class="roma">mane</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:44.37]模仿着你的语气</div>
 </div>
 
@@ -406,6 +413,7 @@ image: /images/songs/rim/single-1687464468.jpg
 <div class="jp-lyric">
 [03:45.70]<ruby>ボロボロ<rt class="roma">boroboro</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>紡<rt class="furi">つむ</rt><rt class="roma">tsumu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:45.70]即使破破烂烂也要继续编织啊</div>
 </div>
 
@@ -415,6 +423,7 @@ image: /images/songs/rim/single-1687464468.jpg
 <div class="jp-lyric">
 [03:47.13]<ruby>未<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:47.13]向着尚未看见的世界</div>
 </div>
 
@@ -422,6 +431,7 @@ image: /images/songs/rim/single-1687464468.jpg
 <div class="jp-lyric">
 [03:49.31]<ruby>未<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>解<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:49.31]向着尚未解开的答案</div>
 </div>
 
@@ -429,6 +439,7 @@ image: /images/songs/rim/single-1687464468.jpg
 <div class="jp-lyric">
 [03:51.41]<ruby>未<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>果<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>旅路<rt class="furi">たびじ</rt><rt class="roma">tabiji</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:51.41]向着尚未终结的旅途</div>
 </div>
 
@@ -436,6 +447,7 @@ image: /images/songs/rim/single-1687464468.jpg
 <div class="jp-lyric">
 [03:53.58]<ruby>未<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:53.58]直到尚未知晓的你</div>
 </div>
 

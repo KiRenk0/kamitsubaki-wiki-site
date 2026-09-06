@@ -20,7 +20,7 @@ contentStatus: stub
 
 ## Overview
 
-人生は映画じゃない appears on imagine or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+人生は映画じゃない appears on [imagine](/en/albums/rim/imagine) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

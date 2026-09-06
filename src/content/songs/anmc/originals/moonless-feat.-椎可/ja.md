@@ -17,7 +17,7 @@ image: /images/songs/anmc/moonless-feat.-椎可.jpg
 
 ## 作品概要
 
-ANMCが2024-12-06にリリースしたシングル「moonless feat. 椎可」。
+[ANMC](/ja/artists/solo/anmc)が2024-12-06にリリースしたシングル「moonless feat. 椎可」。
 
 ## 視聴
 {{media-switcher::moonless feat. 椎可}}

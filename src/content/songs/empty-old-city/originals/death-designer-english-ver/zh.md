@@ -16,7 +16,7 @@ image: /images/songs/empty-old-city/death-designer-english-ver.jpg
 
 ## 作品简介
 
-Empty old City于 2025-02-18 发行的单曲《Death Designer (English Ver.)》。
+[Empty old City](/zh/artists/solo/empty-old-city)于 2025-02-18 发行的单曲《Death Designer (English Ver.)》。
 
 ## 试听
 {{media-switcher::Death Designer (English Ver.)}}

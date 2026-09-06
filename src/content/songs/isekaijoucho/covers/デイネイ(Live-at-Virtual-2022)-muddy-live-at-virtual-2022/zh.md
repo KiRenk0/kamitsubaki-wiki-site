@@ -246,6 +246,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 <ruby>あの<rt class="roma">ano</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">那片天空</div>
 </div>
 
 <div class="lyric-line">
@@ -357,6 +358,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 <ruby>あー<rt class="roma">aa</rt></ruby>！
 </div>
+<div class="cn-lyric">啊ー！</div>
 </div>
 
 <div class="lyric-line">
@@ -398,6 +400,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [03:19.67]<ruby>あの<rt class="roma">ano</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>羽<rt class="furi">はね</rt><rt class="roma">hane</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>。
 </div>
+
 <div class="cn-lyric">[03:19.67]宛如能觸及那片天空的翅膀。</div>
 </div>
 
@@ -405,6 +408,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [03:24.30]<ruby>泥濘<rt class="furi">でいねい</rt><rt class="roma">deinei</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>発<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>。
 </div>
+
 <div class="cn-lyric">[03:24.30]宛如從泥濘出發。</div>
 </div>
 

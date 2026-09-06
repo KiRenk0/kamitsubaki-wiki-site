@@ -250,6 +250,7 @@ image: /images/songs/kaf/track-1753878885.jpg
 <div class="jp-lyric">
 [02:00.22]<ruby>はい<rt class="roma">hai</rt></ruby>！
 </div>
+<div class="cn-lyric">[02:00.22]是！</div>
 </div>
 
 <br />
@@ -272,18 +273,21 @@ image: /images/songs/kaf/track-1753878885.jpg
 <div class="jp-lyric">
 [02:07.45]<ruby>ゲシュタルト<rt class="roma">geshutaruto</rt></ruby><ruby>ゲシュタルト<rt class="roma">geshutaruto</rt></ruby>
 </div>
+<div class="cn-lyric">[02:07.45]格式塔 格式塔</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:10.54]<ruby>ゲシュタルト<rt class="roma">geshutaruto</rt></ruby><ruby>ゲシュタルト<rt class="roma">geshutaruto</rt></ruby>
 </div>
+<div class="cn-lyric">[02:10.54]格式塔 格式塔</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:19.20]<ruby>どっか<rt class="roma">dokka</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:19.20]轰隆</div>
 </div>
 
@@ -293,12 +297,14 @@ image: /images/songs/kaf/track-1753878885.jpg
 <div class="jp-lyric">
 [02:33.09]<ruby>ゲシュタルト<rt class="roma">geshutaruto</rt></ruby><ruby>ゲシュタルト<rt class="roma">geshutaruto</rt></ruby>
 </div>
+<div class="cn-lyric">[02:33.09]格式塔 格式塔</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:36.22]<ruby>ゲシュタルト<rt class="roma">geshutaruto</rt></ruby><ruby>ゲシュタルト<rt class="roma">geshutaruto</rt></ruby>
 </div>
+<div class="cn-lyric">[02:36.22]格式塔 格式塔</div>
 </div>
 
 <br />
@@ -307,24 +313,28 @@ image: /images/songs/kaf/track-1753878885.jpg
 <div class="jp-lyric">
 [02:40.18]<ruby>不都合<rt class="furi">ふつごう</rt><rt class="roma">futsugou</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>不気味<rt class="furi">ぶきみ</rt><rt class="roma">bukimi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[02:40.18]不便又 令人毛骨悚然</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:42.05]<ruby>ふしだら<rt class="roma">fushidara</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>集合<rt class="furi">しゅうごう</rt><rt class="roma">shuugou</rt></ruby><ruby>体<rt class="furi">たい</rt><rt class="roma">tai</rt></ruby> <ruby>嫌嫌<rt class="furi">いやいや</rt><rt class="roma">iyaiya</rt></ruby><ruby>嫌嫌<rt class="furi">いやいや</rt><rt class="roma">iyaiya</rt></ruby> <ruby>嫌嫌<rt class="furi">いやいや</rt><rt class="roma">iyaiya</rt></ruby><ruby>嫌<rt class="furi">いや</rt><rt class="roma">iya</rt></ruby><ruby>嫌嫌<rt class="furi">いやいや</rt><rt class="roma">iyaiya</rt></ruby>
 </div>
+<div class="cn-lyric">[02:42.05]放荡的 集合体 讨厌讨厌讨厌讨厌 讨厌讨厌讨厌讨厌讨厌</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:46.52]<ruby>こっち<rt class="roma">kotchi</rt></ruby><ruby>来<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>とか<rt class="roma">toka</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[02:46.52]说什么别过来 别看</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:49.11]<ruby>こっから<rt class="roma">kokkara</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>イイ<rt class="roma">ii</rt></ruby><ruby>ところ<rt class="roma">tokoro</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="cn-lyric">[02:49.11]因为从这里开始才是好戏</div>
 </div>
 
 <br />
@@ -333,30 +343,35 @@ image: /images/songs/kaf/track-1753878885.jpg
 <div class="jp-lyric">
 [02:52.92]<ruby>欲張<rt class="furi">よくば</rt><rt class="roma">yokuba</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>拗<rt class="furi">こじ</rt><rt class="roma">koji</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>ひねくれ<rt class="roma">hinekure</rt></ruby>
 </div>
+<div class="cn-lyric">[02:52.92]贪婪 扭曲 别扭</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:55.69]<ruby>でも<rt class="roma">demo</rt></ruby> <ruby>ホーミータイッ<rt class="roma">houmiitai</rt></ruby>！<ruby>嫌嫌<rt class="furi">いやいや</rt><rt class="roma">iyaiya</rt></ruby><ruby>嫌嫌<rt class="furi">いやいや</rt><rt class="roma">iyaiya</rt></ruby> <ruby>嫌嫌<rt class="furi">いやいや</rt><rt class="roma">iyaiya</rt></ruby><ruby>嫌<rt class="furi">いや</rt><rt class="roma">iya</rt></ruby><ruby>嫌嫌<rt class="furi">いやいや</rt><rt class="roma">iyaiya</rt></ruby>
 </div>
+<div class="cn-lyric">[02:55.69]但是 蜜汁开火！讨厌讨厌讨厌讨厌 讨厌讨厌讨厌讨厌讨厌</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:59.47]<ruby>きっちり<rt class="roma">kitchiri</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby> <ruby>とても<rt class="roma">totemo</rt></ruby><ruby>無理<rt class="furi">むり</rt><rt class="roma">muri</rt></ruby><ruby>ゲー<rt class="roma">gee</rt></ruby>
 </div>
+<div class="cn-lyric">[02:59.47]整洁什么的 根本是 impossible game</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:02.05]<ruby>正解<rt class="furi">せいかい</rt><rt class="roma">seikai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>つまり<rt class="roma">tsumari</rt></ruby><ruby>一体<rt class="furi">いったい</rt><rt class="roma">ittai</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
 </div>
+<div class="cn-lyric">[03:02.05]正确答案就是一体感</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:09.04]<ruby>はい<rt class="roma">hai</rt></ruby>！
 </div>
+<div class="cn-lyric">[03:09.04]是！</div>
 </div>
 
 </div>

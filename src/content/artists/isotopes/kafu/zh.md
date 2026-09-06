@@ -54,7 +54,7 @@ seo:
 
 ## 概述
 
-{{ruby::可不::かふ::kafu}} 是 KAMITSUBAKI STUDIO 推出的首款“音乐的同位体”（Musical Isotope）歌声合成软件及虚拟角色，声源原型为虚拟歌手 **[花譜 / KAF](/zh/artists/vwp/kaf)**。
+{{ruby::可不::かふ::kafu}} 是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 推出的首款“音乐的同位体”（[Musical Isotope](/zh/artists/solo/musical-isotope)）歌声合成软件及虚拟角色，声源原型为虚拟歌手 **[花譜 / KAF](/zh/artists/vwp/kaf)**。
 
 软件于 2021年7月7日基于 CeVIO AI 引擎正式发售。可不发售即在 Vocaloid 与同人创作圈引爆现象级狂潮，诞生了如 ツミキ 创作的《{{ruby::フォニイ::ふぉにい::phony}}》（Phony）、きくお 创作的《{{ruby::愛して愛して愛して::あいしてあいしてあいして::aishite aishite aishite}}》Cover 等播放破千万级别的神曲，成为 2020 年代最具代表性的语音合成巨星之一。
 
@@ -76,7 +76,7 @@ seo:
 | 时间 | 节点 | 说明 |
 | --- | --- | --- |
 | 2020-10 | 声线问卷 | 公开三种试作歌唱类型并征集意见，最终以 Type B 为制作基础。 |
-| 2020-11 ～ 12 | 先行 Cover | 《雛鳥》《心臓と絡繰》《過去を喰らう》等先行作品陆续发布。 |
+| 2020-11 ～ 12 | 先行 Cover | 《[雛鳥](/zh/songs/kaf/originals/hinadori)》《[心臓と絡繰](/zh/songs/kaf/originals/shinzou-to-karakuri)》《過去を喰らう》等先行作品陆续发布。 |
 | 2021-05 ～ 07 | 委约曲与发售 | 多位创作者参与启动企划；原定档期调整后，于 7 月 7 日正式发售。 |
 | 后续 | 引擎扩展 | 在 CeVIO AI 版本的基础上，系列进一步提供 Synthesizer V AI 版本。 |
 
@@ -90,7 +90,7 @@ seo:
 | --- | --- | --- |
 | 2020年11月14日 | 《雛鳥》covered by 可不 | [カンザキイオリ](/zh/artists/creators/kanzaki-iori) |
 | 2021年1月9日 | 《ホログラム》 | 一二三 |
-| 2021年2月20日 | 《キュートなカノジョ》 | syudou |
+| 2021年2月20日 | 《[キュートなカノジョ](/zh/songs/harusaruhi/covers/キュートなカノジョ-cute-girlfriend)》 | syudou |
 | 2021年3月7日 | 《アイスクリーム》 | [Guiano](/zh/artists/creators/guiano) |
 | 2021年4月10日 | 《レトロポリス》 | R Sound Design |
 | 2021年5月1日 | 《花となれ》 | 雄之助 |

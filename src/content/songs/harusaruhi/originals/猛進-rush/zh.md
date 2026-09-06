@@ -245,24 +245,28 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [01:24.49]<ruby>世界中<rt class="furi">せかいじゅう</rt><rt class="roma">sekaijuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>振り撒<rt class="furi">ふりま</rt><rt class="roma">furima</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>「<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby>」
 </div>
+<div class="cn-lyric">[01:24.49]向全世界散布「爱」</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:26.45]<ruby>あり<rt class="roma">ari</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>「<ruby>正解<rt class="furi">せいかい</rt><rt class="roma">seikai</rt></ruby>」
 </div>
+<div class="cn-lyric">[01:26.45]不存在「正确答案」</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:28.48]<ruby>取<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>っ<rt class="roma"></rt></ruby><ruby>払<rt class="furi">はら</rt><rt class="roma">hara</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>警戒<rt class="furi">けいかい</rt><rt class="roma">keikai</rt></ruby>
 </div>
+<div class="cn-lyric">[01:28.48]卸下防备</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:29.89]<ruby>上昇<rt class="furi">じょうしょう</rt><rt class="roma">joushou</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby> Stay high!
 </div>
+<div class="cn-lyric">[01:29.89]不断上升 Stay high!</div>
 </div>
 
 <br />
@@ -271,6 +275,7 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [01:32.15]<ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>事<rt class="furi">こと</rt><rt class="roma">koto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>口<rt class="furi">くち</rt><rt class="roma">kuchi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>出<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:32.15]把真心话说出来吧</div>
 </div>
 
@@ -278,6 +283,7 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [01:36.14]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>取<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>連<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:36.14]我会牵起你的手 带你走</div>
 </div>
 
@@ -285,6 +291,7 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [01:39.84]<ruby>頭<rt class="furi">あたま</rt><rt class="roma">atama</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>留<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:39.84]即使留在脑海中</div>
 </div>
 
@@ -292,6 +299,7 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [01:43.54]<ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>流<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>錆<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:43.54]也会随时间流逝 生锈啊</div>
 </div>
 
@@ -301,24 +309,28 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [01:54.94]<ruby>いや<rt class="roma">iya</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>まっちゃ<rt class="roma">matcha</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[01:54.94]不 还尚未开始</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:56.88]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>沈<rt class="furi">しず</rt><rt class="roma">shizu</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>まだ<rt class="roma">mada</rt></ruby><ruby>小<rt class="furi">ちい</rt><rt class="roma">chii</rt></ruby><ruby>さい<rt class="roma">sai</rt></ruby>
 </div>
+<div class="cn-lyric">[01:56.88]别在此沉没 还为时尚早</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:58.24]<ruby>無限<rt class="furi">むげん</rt><rt class="roma">mugen</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>情熱<rt class="furi">じょうねつ</rt><rt class="roma">jounetsu</rt></ruby> <ruby>吐<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">[01:58.24]想释放无限的热情</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:00.91]<ruby>辿<rt class="furi">たど</rt><rt class="roma">tado</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>着<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby> <ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>千<rt class="furi">せん</rt><rt class="roma">sen</rt></ruby><ruby>回<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby>？
 </div>
+<div class="cn-lyric">[02:00.91]抵达之前 要几千次？</div>
 </div>
 
 <br />
@@ -327,24 +339,28 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [02:02.87]<ruby>世界中<rt class="furi">せかいじゅう</rt><rt class="roma">sekaijuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>振り撒<rt class="furi">ふりま</rt><rt class="roma">furima</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>「<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby>」
 </div>
+<div class="cn-lyric">[02:02.87]向全世界散布「爱」</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:04.52]<ruby>あり<rt class="roma">ari</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>「<ruby>正解<rt class="furi">せいかい</rt><rt class="roma">seikai</rt></ruby>」
 </div>
+<div class="cn-lyric">[02:04.52]不存在「正确答案」</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:06.52]<ruby>取<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>っ<rt class="roma"></rt></ruby><ruby>払<rt class="furi">はら</rt><rt class="roma">hara</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>警戒<rt class="furi">けいかい</rt><rt class="roma">keikai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:06.52]卸下防备</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:08.54]<ruby>上昇<rt class="furi">じょうしょう</rt><rt class="roma">joushou</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby> Stay high!
 </div>
+<div class="cn-lyric">[02:08.54]不断上升 Stay high!</div>
 </div>
 
 </div>

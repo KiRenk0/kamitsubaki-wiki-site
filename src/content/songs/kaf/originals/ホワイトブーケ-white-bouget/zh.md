@@ -257,66 +257,77 @@ image: /images/albums/kaf/guwa.jpg
 <div class="jp-lyric">
 [02:21.95]<ruby>ホワイト<rt class="roma">howaito</rt></ruby><ruby>ブーケ<rt class="roma">buuke</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>ラブレター<rt class="roma">raburetaa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:21.95]白色花束与情书</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:26.55]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>居<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
 </div>
+<div class="cn-lyric">[02:26.55]你就在那里</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:29.67]<ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:29.67]肉眼看不见呢</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:32.74]<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ふわ<rt class="roma">fuwa</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>舞<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+<div class="cn-lyric">[02:32.74]心只是轻轻飞舞</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:35.60]<ruby>記憶<rt class="furi">きおく</rt><rt class="roma">kioku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>海<rt class="furi">うみ</rt><rt class="roma">umi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>泳<rt class="furi">およ</rt><rt class="roma">oyo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>だら<rt class="roma">dara</rt></ruby>
 </div>
+<div class="cn-lyric">[02:35.60]若在记忆之海中游弋</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:40.25]<ruby>透明<rt class="furi">とうめい</rt><rt class="roma">toumei</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>魚<rt class="furi">さかな</rt><rt class="roma">sakana</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+<div class="cn-lyric">[02:40.25]透明的鱼儿们</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ベッド<rt class="roma">beddo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>上<rt class="furi">うえ</rt><rt class="roma">ue</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="cn-lyric">从床上</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:46.50]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>ふわ<rt class="roma">fuwa</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>連れ出<rt class="furi">つれだ</rt><rt class="roma">tsureda</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[02:46.50]轻轻地将我带出</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:56.51]<ruby>頬<rt class="furi">ほお</rt><rt class="roma">hoo</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>濡<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>覚<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[02:56.51]脸颊湿润而惊醒</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:59.98]<ruby>刹那<rt class="furi">せつな</rt><rt class="roma">setsuna</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>匂<rt class="furi">にお</rt><rt class="roma">nio</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
+<div class="cn-lyric">[02:59.98]刹那的梦与死亡的气息</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:03.39]<ruby>あれ<rt class="roma">are</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>箱庭<rt class="furi">はこにわ</rt><rt class="roma">hakoniwa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:03.39]那是我的箱庭</div>
 </div>
 
@@ -324,6 +335,7 @@ image: /images/albums/kaf/guwa.jpg
 <div class="jp-lyric">
 [03:06.83]<ruby>また<rt class="roma">mata</rt></ruby><ruby>動<rt class="furi">うご</rt><rt class="roma">ugo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>心臓<rt class="furi">しんぞう</rt><rt class="roma">shinzou</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:06.83]心脏又在跳动</div>
 </div>
 

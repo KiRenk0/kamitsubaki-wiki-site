@@ -20,7 +20,7 @@ contentStatus: stub
 
 ## 作品概要
 
-「季節は次々死んでいく at CREAM PUFF LIVE 3(Cover)」は『CREAM PUFF LIVE 3』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「季節は次々死んでいく at CREAM PUFF LIVE 3(Cover)」は『[CREAM PUFF LIVE 3](/ja/albums/harusaruhi/cream-puff-live-3)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 試聴
 

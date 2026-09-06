@@ -76,7 +76,7 @@ seo:
 ## 代表作品与相关条目
 
 - 专辑：「グラデーション」（2025年1月15日）
-- 单曲：「Pale&Deep」「個性」「Satellite」「烙印」「ブルーンーン」
+- 单曲：「[Pale](/zh/songs/mimi/originals/pale)&Deep」「個性」「Satellite」「烙印」「ブルーンーン」
 
 推荐搭配阅读：
 

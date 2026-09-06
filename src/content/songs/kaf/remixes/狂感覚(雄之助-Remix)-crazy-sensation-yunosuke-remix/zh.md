@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 
 ## 作品简介
 
-《狂感覚([雄之助](/zh/artists/creators/yunosuke) Remix)》是[花譜](/zh/artists/vwp/kaf)收录于《[狂想γ](/zh/albums/kaf/kyoso-gamma)》的第 12 轨。
+《[狂感覚](/zh/songs/kaf/originals/狂感覚-crazy-sensation)([雄之助](/zh/artists/creators/yunosuke) Remix)》是[花譜](/zh/artists/vwp/kaf)收录于《[狂想γ](/zh/albums/kaf/kyoso-gamma)》的第 12 轨。
 
 ## 试听
 
@@ -294,24 +294,28 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 <div class="jp-lyric">
 <ruby>悲<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>しみ<rt class="roma">shimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>なん<rt class="roma">nan</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">悲伤算个什么啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>苦<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>しみ<rt class="roma">shimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>なん<rt class="roma">nan</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">痛苦算个什么啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>時代<rt class="furi">じだい</rt><rt class="roma">jidai</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>鬼<rt class="furi">おに</rt><rt class="roma">oni</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>いぬ<rt class="roma">inu</rt></ruby><ruby>間<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">在我们的时代，每个人都在鬼不在的时候笑着</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:21.07]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>一生<rt class="furi">いっしょう</rt><rt class="roma">isshou</rt></ruby><ruby>馬鹿<rt class="furi">ばか</rt><rt class="roma">baka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:21.07]我们一定一生都在做傻事</div>
 </div>
 
@@ -319,6 +323,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 <div class="jp-lyric">
 [04:29.93]<ruby>もう一度<rt class="furi">もういちど</rt><rt class="roma">mouichido</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:29.93]会再一次爱上</div>
 </div>
 
@@ -326,6 +331,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 <div class="jp-lyric">
 [04:34.90]<ruby>狂<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>あって<rt class="roma">atte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:34.90]想要一起疯狂</div>
 </div>
 

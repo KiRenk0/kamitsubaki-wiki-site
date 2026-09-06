@@ -19,7 +19,7 @@ image: /images/albums/kaf/kansoku.jpg
 
 ## Overview
 
-KAF's ninth original song, written, composed, and arranged by Iori Kanzaki.
+[KAF](/en/artists/vwp/kaf)'s ninth original song, written, composed, and arranged by Iori Kanzaki.
 
 ## Listen
 
@@ -186,7 +186,9 @@ KAF's ninth original song, written, composed, and arranged by Iori Kanzaki.
 <div class="jp-lyric">
 [02:04.09]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>逃<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
-<div class="trans-lyric">I can't run away anymore</div>
+<div class="trans-lyric">
+[02:04.09]I can't run away anymore
+</div>
 </div>
 
 <div class="lyric-line">
@@ -223,7 +225,9 @@ KAF's ninth original song, written, composed, and arranged by Iori Kanzaki.
 <div class="jp-lyric">
 [02:37.49]<ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
-<div class="trans-lyric">I come to know what I already knew</div>
+<div class="trans-lyric">
+[02:37.49]I come to know what I already knew
+</div>
 </div>
 
 <div class="lyric-line">

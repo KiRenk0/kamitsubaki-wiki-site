@@ -26,7 +26,7 @@ image: /images/albums/vwp/fate.jpg
 
 ## Overview
 
-- "Declaration of War," an original single released by V.W.P on August 21, 2023. This version first appeared on the album "Fate."
+- "Declaration of War," an original single released by [V.W.P](/en/artists/vwp/vwp) on August 21, 2023. This version first appeared on the album "Fate."
 
 ## Listen
 
@@ -178,7 +178,9 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [01:04.16]<ruby>でも<rt class="roma">demo</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>、<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="trans-lyric">But you know, I want to sing</div>
+<div class="trans-lyric">
+[01:04.16]But you know, I want to sing
+</div>
 </div>
 
 <div class="lyric-line">
@@ -321,6 +323,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [02:00.57]<ruby>確<rt class="furi">たし</rt><rt class="roma">tashi</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="trans-lyric">[02:00.57]They are certainly here</div>
 </div>
 
 <div class="lyric-line">
@@ -343,6 +346,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [02:08.59]<ruby>人生<rt class="furi">じんせい</rt><rt class="roma">jinsei</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>フィクション<rt class="roma">fyikushon</rt></ruby>
 </div>
+<div class="trans-lyric">[02:08.59]All of life is fiction</div>
 </div>
 
 <div class="lyric-line">
@@ -363,6 +367,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [02:16.47]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>もかも<rt class="roma">mokamo</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>フィクション<rt class="roma">fyikushon</rt></ruby>
 </div>
+<div class="trans-lyric">[02:16.47]Everything is all fiction</div>
 </div>
 
 <br />
@@ -431,6 +436,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [02:40.33]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>己<rt class="furi">おのれ</rt><rt class="roma">onore</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>証明<rt class="furi">しょうめい</rt><rt class="roma">shoumei</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:40.33]Now, words to prove myself</div>
 </div>
 
@@ -438,6 +444,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [02:49.85]「<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>達<rt class="furi">たち</rt><rt class="roma">tachi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>魔女<rt class="furi">まじょ</rt><rt class="roma">majo</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>」
 </div>
+
 <div class="trans-lyric">[02:49.85]"We are witches"</div>
 </div>
 
@@ -445,6 +452,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [02:55.15]「<ruby>これ<rt class="roma">kore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>魔法<rt class="furi">まほう</rt><rt class="roma">mahou</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>」
 </div>
+
 <div class="trans-lyric">[02:55.15]"This is magic"</div>
 </div>
 

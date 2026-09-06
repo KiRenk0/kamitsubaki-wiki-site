@@ -42,7 +42,7 @@ The unit is characterized by “heart-generation music” that crosses the bound
 - **August 2024**: Debuted with the single “[フェイクナイト・シンデレラ](/en/songs/sinseiki/originals/fake-night-cinderella)”.
 - **April 1, 2025**: Performed at KAMITSUBAKI WARS 2025 Kanagawa Front “Girls Revolution Project 1st LIVE / Act 1 『KAIHEN』”.
 - **July 16, 2025**: Released the dual-unit single “[改変](/en/songs/grp/originals/kaihen)” together with [TSUMITOBATSU](/en/artists/girls_revolution_project/tsumitobatsu).
-- **October 29, 2025**: Released their 1st Album “改変 -心-”.
+- **October 29, 2025**: Released their 1st Album “[改変 -心-](/en/albums/sinseiki/kaihen-kokoro)”.
 - **May 2026**: Performed at KAMITSUBAKI WARS 2026 Shibuya Front “Girls Revolution Project 2nd LIVE『Revolutio』”.
 
 ## Selected Works

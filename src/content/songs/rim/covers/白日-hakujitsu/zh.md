@@ -256,12 +256,14 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [01:52.19]<ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>出<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>なきゃ<rt class="roma">nakya</rt></ruby>
 </div>
+<div class="cn-lyric">[01:52.19]也必须向着明天迈步</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:56.70]<ruby>雪<rt class="furi">ゆき</rt><rt class="roma">yuki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>降<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>りしきろ<rt class="roma">rishikiro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>とも<rt class="roma">tomo</rt></ruby>
 </div>
+<div class="cn-lyric">[01:56.70]即使大雪纷飞</div>
 </div>
 
 <div class="lyric-line">
@@ -303,6 +305,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [02:15.99]<ruby>また<rt class="roma">mata</rt></ruby><ruby>出逢<rt class="furi">であ</rt><rt class="roma">dea</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
 </div>
+<div class="cn-lyric">[02:15.99]如果能再次相遇</div>
 </div>
 
 <div class="lyric-line">
@@ -323,24 +326,28 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [02:19.83]<ruby>その<rt class="roma">sono</rt></ruby><ruby>頃<rt class="furi">ころ</rt><rt class="roma">koro</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
+<div class="cn-lyric">[02:19.83]到那时一定</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:23.03]<ruby>春風<rt class="furi">しゅんぷう</rt><rt class="roma">shunpuu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>吹<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[02:23.03]春风会吹拂吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:27.04]<ruby>真<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>っ<rt class="roma"></rt></ruby><ruby>新<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>生まれ変<rt class="furi">うまれか</rt><rt class="roma">umareka</rt></ruby><ruby>わって<rt class="roma">watte</rt></ruby>
 </div>
+<div class="cn-lyric">[02:27.04]焕然一新重新开始</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:29.37]<ruby>人生<rt class="furi">じんせい</rt><rt class="roma">jinsei</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>めよ<rt class="roma">meyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+<div class="cn-lyric">[02:29.37]即使人生从头开始</div>
 </div>
 
 <div class="lyric-line">
@@ -368,12 +375,14 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [02:37.53]<ruby>真っ白<rt class="furi">まっしろ</rt><rt class="roma">masshiro</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>さよなら<rt class="roma">sayonara</rt></ruby>
 </div>
+<div class="cn-lyric">[02:37.53]对一切道别，归于纯白</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:39.87]<ruby>降<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>りしきる<rt class="roma">rishikiru</rt></ruby><ruby>雪<rt class="furi">ゆき</rt><rt class="roma">yuki</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:39.87]纷飞的大雪啊</div>
 </div>
 
 <div class="lyric-line">
@@ -487,6 +496,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [03:41.43]<ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>定<rt class="furi">さだ</rt><rt class="roma">sada</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:41.43]深知这就是生存的宿命</div>
 </div>
 
@@ -494,6 +504,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [03:44.73]<ruby>後悔<rt class="furi">こうかい</rt><rt class="roma">koukai</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>人生<rt class="furi">じんせい</rt><rt class="roma">jinsei</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:44.73]尽是后悔的人生</div>
 </div>
 
@@ -501,6 +512,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [03:46.98]<ruby>取り返<rt class="furi">とりかえ</rt><rt class="roma">torikae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>つか<rt class="roma">tsuka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>過<rt class="furi">あやま</rt><rt class="roma">ayama</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:46.98]无法挽回的错误</div>
 </div>
 
@@ -508,6 +520,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [03:49.66]<ruby>一<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby><ruby>二<rt class="furi">ふた</rt><rt class="roma">futa</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:49.66]一两个</div>
 </div>
 
@@ -515,6 +528,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [03:51.32]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:51.32]谁都会有吧</div>
 </div>
 
@@ -522,6 +536,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [03:53.77]<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>もん<rt class="roma">mon</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:53.77]就是这么回事吧</div>
 </div>
 
@@ -529,6 +544,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [03:55.72]<ruby>うんざり<rt class="roma">unzari</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:55.72]真让人厌烦</div>
 </div>
 
@@ -536,24 +552,28 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [03:57.36]<ruby>真<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>っ<rt class="roma"></rt></ruby><ruby>新<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>生まれ変<rt class="furi">うまれか</rt><rt class="roma">umareka</rt></ruby><ruby>わって<rt class="roma">watte</rt></ruby>
 </div>
+<div class="cn-lyric">[03:57.36]焕然一新重新开始</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:59.60]<ruby>人生<rt class="furi">じんせい</rt><rt class="roma">jinsei</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>めよ<rt class="roma">meyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+<div class="cn-lyric">[03:59.60]即使人生从头开始</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:02.37]<ruby>へばりつい<rt class="roma">hebaritsui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[04:02.37]紧紧依附无法摆脱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:04.63]<ruby>地続<rt class="furi">じつづ</rt><rt class="roma">jitsuzu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:04.63]我正行走在这连绵不断的当下</div>
 </div>
 
@@ -561,6 +581,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [04:07.56]<ruby>真っ白<rt class="furi">まっしろ</rt><rt class="roma">masshiro</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>さようなら<rt class="roma">sayounara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:07.56]对一切道别，归于纯白</div>
 </div>
 
@@ -568,24 +589,28 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [04:10.16]<ruby>降<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>りしきる<rt class="roma">rishikiru</rt></ruby><ruby>雪<rt class="furi">ゆき</rt><rt class="roma">yuki</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[04:10.16]纷飞的大雪啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:11.91]<ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>包み込<rt class="furi">つつみこ</rt><rt class="roma">tsutsumiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby>
 </div>
+<div class="cn-lyric">[04:11.91]请将一切包裹</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:14.29]<ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[04:14.29]仅限今日</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:15.53]<ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>隠<rt class="furi">かく</rt><rt class="roma">kaku</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby>
 </div>
+<div class="cn-lyric">[04:15.53]请将一切隐藏</div>
 </div>
 
 <br />

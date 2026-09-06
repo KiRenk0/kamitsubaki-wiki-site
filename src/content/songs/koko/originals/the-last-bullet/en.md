@@ -35,7 +35,9 @@ the last bullet appears on the last bullet or a related official release. Entrie
 <div class="jp-lyric">
 [00:22.09]<ruby>くだらなかった<rt class="roma">kudaranakatta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
-<div class="trans-lyric">It was all so pointless</div>
+<div class="trans-lyric">
+[00:22.09]It was all so pointless
+</div>
 </div>
 
 <div class="lyric-line">
@@ -65,7 +67,9 @@ the last bullet appears on the last bullet or a related official release. Entrie
 <div class="jp-lyric">
 [00:32.05]<ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あった<rt class="roma">atta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
-<div class="trans-lyric">It was there</div>
+<div class="trans-lyric">
+[00:32.05]It was there
+</div>
 </div>
 
 <div class="lyric-line">
@@ -95,7 +99,9 @@ the last bullet appears on the last bullet or a related official release. Entrie
 <div class="jp-lyric">
 [00:41.74](Hello, hello)
 </div>
-<div class="trans-lyric">(Hello, hello)</div>
+<div class="trans-lyric">
+[00:41.74](Hello, hello)
+</div>
 </div>
 
 <div class="lyric-line">
@@ -109,19 +115,21 @@ the last bullet appears on the last bullet or a related official release. Entrie
 <div class="jp-lyric">
 [00:44.44](Hello, hello)
 </div>
+<div class="trans-lyric">[00:44.44](Hello, hello)</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:45.41]<ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
-<div class="trans-lyric">Like always</div>
+<div class="trans-lyric">[00:45.41]Like always</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:46.77](Hello, hello)
 </div>
+<div class="trans-lyric">[00:46.77](Hello, hello)</div>
 </div>
 
 <div class="lyric-line">
@@ -135,7 +143,7 @@ the last bullet appears on the last bullet or a related official release. Entrie
 <div class="jp-lyric">
 [00:49.32]Hello, hello, hello
 </div>
-<div class="trans-lyric">Hello, hello, hello</div>
+<div class="trans-lyric">[00:49.32]Hello, hello, hello</div>
 </div>
 
 <br />
@@ -218,6 +226,7 @@ the last bullet appears on the last bullet or a related official release. Entrie
 <div class="jp-lyric">
 [01:32.80]<ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あった<rt class="roma">atta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="trans-lyric">[01:32.80]It was there</div>
 </div>
 
 <div class="lyric-line">
@@ -247,19 +256,21 @@ the last bullet appears on the last bullet or a related official release. Entrie
 <div class="jp-lyric">
 [01:42.62](Hello, hello)
 </div>
+<div class="trans-lyric">[01:42.62](Hello, hello)</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:43.95]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>
 </div>
-<div class="trans-lyric">Are you ready?</div>
+<div class="trans-lyric">[01:43.95]Are you ready?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:45.15](Hello, hello)
 </div>
+<div class="trans-lyric">[01:45.15](Hello, hello)</div>
 </div>
 
 <div class="lyric-line">
@@ -273,6 +284,7 @@ the last bullet appears on the last bullet or a related official release. Entrie
 <div class="jp-lyric">
 [01:47.47](Hello, hello)
 </div>
+<div class="trans-lyric">[01:47.47](Hello, hello)</div>
 </div>
 
 <div class="lyric-line">
@@ -286,6 +298,7 @@ the last bullet appears on the last bullet or a related official release. Entrie
 <div class="jp-lyric">
 [01:50.37]Hello, hello, hello
 </div>
+<div class="trans-lyric">[01:50.37]Hello, hello, hello</div>
 </div>
 
 <br />
@@ -308,13 +321,14 @@ the last bullet appears on the last bullet or a related official release. Entrie
 <div class="jp-lyric">
 [02:02.11]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>回<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby>
 </div>
+<div class="trans-lyric">[02:02.11]How many times now</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:03.05]<ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="trans-lyric">Did I pray to live</div>
+<div class="trans-lyric">[02:03.05]Did I pray to live</div>
 </div>
 
 <div class="lyric-line">
@@ -344,7 +358,7 @@ the last bullet appears on the last bullet or a related official release. Entrie
 <div class="jp-lyric">
 [02:42.29]<ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="trans-lyric">Let's put an end to this</div>
+<div class="trans-lyric">[02:42.29]Let's put an end to this</div>
 </div>
 
 <div class="lyric-line">
@@ -365,6 +379,7 @@ the last bullet appears on the last bullet or a related official release. Entrie
 <div class="jp-lyric">
 [02:47.33]<ruby>立ち向<rt class="furi">たちむ</rt><rt class="roma">tachimu</rt></ruby><ruby>かう<rt class="roma">kau</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:47.33]I will stand and fight</div>
 </div>
 
@@ -372,6 +387,7 @@ the last bullet appears on the last bullet or a related official release. Entrie
 <div class="jp-lyric">
 [02:48.68]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>負<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:48.68]The me now will not lose</div>
 </div>
 
@@ -381,6 +397,7 @@ the last bullet appears on the last bullet or a related official release. Entrie
 <div class="jp-lyric">
 [02:52.85]<ruby>進<rt class="furi">すす</rt><rt class="roma">susu</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>だし<rt class="roma">dashi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>時計<rt class="furi">とけい</rt><rt class="roma">tokei</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>針<rt class="furi">はり</rt><rt class="roma">hari</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:52.85]The clock hands that began to move</div>
 </div>
 
@@ -388,6 +405,7 @@ the last bullet appears on the last bullet or a related official release. Entrie
 <div class="jp-lyric">
 [02:57.63]<ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>刻<rt class="furi">きざ</rt><rt class="roma">kiza</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>証<rt class="furi">あかし</rt><rt class="roma">akashi</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:57.63]The evidence carved there</div>
 </div>
 
@@ -395,6 +413,7 @@ the last bullet appears on the last bullet or a related official release. Entrie
 <div class="jp-lyric">
 [03:02.67]<ruby>戦場<rt class="furi">せんじょう</rt><rt class="roma">senjou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>駆<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby><ruby>炎<rt class="furi">ほのお</rt><rt class="roma">honoo</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:02.67]The flame racing across the battlefield</div>
 </div>
 
@@ -402,13 +421,15 @@ the last bullet appears on the last bullet or a related official release. Entrie
 <div class="jp-lyric">
 [03:05.07]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>ひとり<rt class="roma">hitori</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
-<div class="trans-lyric">I'm not alone anymore</div>
+
+<div class="trans-lyric">[03:05.07]I'm not alone anymore</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:07.85]<ruby>約束<rt class="furi">やくそく</rt><rt class="roma">yakusoku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>地<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:07.85]To the promised land</div>
 </div>
 
@@ -416,6 +437,7 @@ the last bullet appears on the last bullet or a related official release. Entrie
 <div class="jp-lyric">
 [03:10.26]<ruby>足<rt class="furi">あし</rt><rt class="roma">ashi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:10.26]Don't stop walking</div>
 </div>
 

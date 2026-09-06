@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 
 ## 作品简介
 
-《ターミナル (Cover Live)》收录于《CREAM PUFF LIVE 4 (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《ターミナル (Cover Live)》收录于《[CREAM PUFF LIVE 4](/zh/albums/harusaruhi/cream-puff-live-4) (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -173,6 +173,7 @@ kimi ga kureta manazashi tomo ni
 <div class="jp-lyric">
 kienai koe ga itsumademo mune ni
 </div>
+<div class="cn-lyric">永不消逝的声音 永远在心中</div>
 </div>
 
 <div class="lyric-line">
@@ -186,12 +187,14 @@ furete matataiteiru
 <div class="jp-lyric">
 kousa shiteku koto no nai sen demo
 </div>
+<div class="cn-lyric">即使是没有交集的航线</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 itsuka, dokoka, tadoritsuku darou
 </div>
+
 <div class="cn-lyric">总有一天 会抵达某处吧</div>
 </div>
 

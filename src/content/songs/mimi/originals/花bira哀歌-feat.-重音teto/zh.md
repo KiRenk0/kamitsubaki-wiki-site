@@ -17,7 +17,7 @@ image: /images/songs/mimi/花bira哀歌-feat.-重音teto.jpg
 
 ## 作品简介
 
-MIMI于 2026-02-21 发行的单曲《花びら哀歌 (feat. 重音テト)》。
+[MIMI](/zh/artists/creators/mimi)于 2026-02-21 发行的单曲《花びら哀歌 (feat. 重音テト)》。
 
 ## 试听
 {{media-switcher::花びら哀歌 (feat. 重音テト)}}

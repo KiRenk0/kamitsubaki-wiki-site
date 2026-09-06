@@ -154,7 +154,9 @@ refrain:
 <div class="jp-lyric">
 [00:07.83]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby> <ruby>裸足<rt class="furi">はだし</rt><rt class="roma">hadashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>走<rt class="furi">はし</rt><rt class="roma">hashi</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
-<div class="trans-lyric">We ran barefoot</div>
+<div class="trans-lyric">
+[00:07.83]We ran barefoot
+</div>
 </div>
 
 <br />
@@ -179,12 +181,14 @@ refrain:
 <div class="jp-lyric">
 <ruby>びしょ濡<rt class="furi">びしょぬ</rt><rt class="roma">bishonu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby> <ruby>さよなら<rt class="roma">sayonara</rt></ruby> <ruby>さよなら<rt class="roma">sayonara</rt></ruby>
 </div>
+<div class="trans-lyric">Soaked through, but goodbye, goodbye</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="trans-lyric">Don't mind it</div>
 </div>
 
 <div class="lyric-line">
@@ -235,6 +239,7 @@ refrain:
 <div class="jp-lyric">
 <ruby>日差<rt class="furi">ひざ</rt><rt class="roma">hiza</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>とけ<rt class="roma">toke</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>五月雨<rt class="furi">さみだれ</rt><rt class="roma">samidare</rt></ruby>
 </div>
+
 <div class="trans-lyric">The early summer rain melted in the sunlight</div>
 </div>
 
@@ -244,6 +249,7 @@ refrain:
 <div class="jp-lyric">
 refrain
 </div>
+
 <div class="trans-lyric">refrain</div>
 </div>
 

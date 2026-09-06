@@ -19,7 +19,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 
 ## Overview
 
-共犯者 (Live Cover) appears on CHOCOLATE LIVE4 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+共犯者 (Live Cover) appears on [CHOCOLATE LIVE4](/en/albums/rim/chocolate-live-4) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -72,12 +72,14 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 <ruby>ラララ<rt class="roma">rarara</rt></ruby> <ruby>ララララ<rt class="roma">rararara</rt></ruby>
 </div>
+<div class="trans-lyric">La la la la la la</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ラララ<rt class="roma">rarara</rt></ruby> <ruby>ララララ<rt class="roma">rararara</rt></ruby>
 </div>
+<div class="trans-lyric">La la la la la la</div>
 </div>
 
 <div class="lyric-line">
@@ -130,7 +132,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 [01:53.37]<ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>
 </div>
-<div class="trans-lyric">Said you wanted to go</div>
+<div class="trans-lyric">[01:53.37]Said you wanted to go</div>
 </div>
 
 <div class="lyric-line">
@@ -176,6 +178,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 <ruby>月<rt class="furi">つき</rt><rt class="roma">tsuki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>果<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>逃げ切<rt class="furi">にげき</rt><rt class="roma">nigeki</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>やる<rt class="roma">yaru</rt></ruby>
 </div>
+<div class="trans-lyric">I'll escape to the edge of the moon</div>
 </div>
 
 <div class="lyric-line">
@@ -205,24 +208,28 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 <ruby>ラララ<rt class="roma">rarara</rt></ruby> <ruby>ララララ<rt class="roma">rararara</rt></ruby>
 </div>
+<div class="trans-lyric">La la la la la la</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ラララ<rt class="roma">rarara</rt></ruby> <ruby>ララララ<rt class="roma">rararara</rt></ruby>
 </div>
+<div class="trans-lyric">La la la la la la</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ラララ<rt class="roma">rarara</rt></ruby> <ruby>ララララ<rt class="roma">rararara</rt></ruby>
 </div>
+<div class="trans-lyric">La la la la la la</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ラララ<rt class="roma">rarara</rt></ruby>
 </div>
+<div class="trans-lyric">La la la</div>
 </div>
 
 <br />
@@ -252,7 +259,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 [03:05.70]<ruby>気配<rt class="furi">けはい</rt><rt class="roma">kehai</rt></ruby><ruby>悟<rt class="furi">さと</rt><rt class="roma">sato</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
-<div class="trans-lyric">So as not to give away my presence</div>
+<div class="trans-lyric">[03:05.70]So as not to give away my presence</div>
 </div>
 
 <br />
@@ -298,6 +305,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 <ruby>暗<rt class="furi">くら</rt><rt class="roma">kura</rt></ruby><ruby>がり<rt class="roma">gari</rt></ruby><ruby>かざし<rt class="roma">kazashi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="trans-lyric">With hands raised in the darkness</div>
 </div>
 
@@ -305,6 +313,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 <ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="trans-lyric">I'll search</div>
 </div>
 
@@ -314,6 +323,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 <ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>神様<rt class="furi">かみさま</rt><rt class="roma">kamisama</rt></ruby>!
 </div>
+
 <div class="trans-lyric">My final wish, God!</div>
 </div>
 
@@ -321,6 +331,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 <ruby>迷<rt class="furi">まよ</rt><rt class="roma">mayo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見逃<rt class="furi">みのが</rt><rt class="roma">minoga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="trans-lyric">Overlook us who have lost our way</div>
 </div>
 
@@ -328,6 +339,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 <ruby>この<rt class="roma">kono</rt></ruby><ruby>雨<rt class="furi">あめ</rt><rt class="roma">ame</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>汚<rt class="furi">よご</rt><rt class="roma">yogo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="trans-lyric">Us two, stained by this rain</div>
 </div>
 
@@ -335,6 +347,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 <ruby>洗い流<rt class="furi">あらいなが</rt><rt class="roma">arainaga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="trans-lyric">Wash us clean</div>
 </div>
 
@@ -342,6 +355,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 <ruby>ねぇ<rt class="roma">nee</rt></ruby> <ruby>サヨナラ<rt class="roma">sayonara</rt></ruby>
 </div>
+
 <div class="trans-lyric">Hey, goodbye</div>
 </div>
 
@@ -351,24 +365,28 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 <ruby>月<rt class="furi">つき</rt><rt class="roma">tsuki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>果<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>逃げ切<rt class="furi">にげき</rt><rt class="roma">nigeki</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>やる<rt class="roma">yaru</rt></ruby>
 </div>
+<div class="trans-lyric">I'll escape to the edge of the moon</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>細<rt class="furi">ほそ</rt><rt class="roma">hoso</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>導<rt class="furi">みちび</rt><rt class="roma">michibi</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">Guiding your slender hand</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>この<rt class="roma">kono</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>やがて<rt class="roma">yagate</rt></ruby><ruby>雨<rt class="furi">あめ</rt><rt class="roma">ame</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>
 </div>
+<div class="trans-lyric">This sky will soon turn to rain</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>流<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">Wash it all away</div>
 </div>
 
 <br />
@@ -377,24 +395,28 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 <ruby>ラララ<rt class="roma">rarara</rt></ruby> <ruby>ララララ<rt class="roma">rararara</rt></ruby>
 </div>
+<div class="trans-lyric">La la la la la la</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ラララ<rt class="roma">rarara</rt></ruby> <ruby>ララララ<rt class="roma">rararara</rt></ruby>
 </div>
+<div class="trans-lyric">La la la la la la</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ラララ<rt class="roma">rarara</rt></ruby> <ruby>ララララ<rt class="roma">rararara</rt></ruby>
 </div>
+<div class="trans-lyric">La la la la la la</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ラララ<rt class="roma">rarara</rt></ruby> <ruby>ララララ<rt class="roma">rararara</rt></ruby>
 </div>
+<div class="trans-lyric">La la la la la la</div>
 </div>
 
 </div>

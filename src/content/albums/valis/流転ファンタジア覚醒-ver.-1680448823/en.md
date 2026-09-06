@@ -70,19 +70,19 @@ tracks:
 
 ## Overview
 
-VALIS's album “流転ファンタジア(覚醒 ver.)”, released on 2023-04-18, featuring 12 tracks.
+[VALIS](/en/artists/solo/valis)'s album “流転ファンタジア(覚醒 ver.)”, released on 2023-04-18, featuring 12 tracks.
 
 ## Track List
 
 1. 「新たな始まり。」 (01:04)
-2. 新世界ピグマリオン(Hideki Ataka Remix) (03:34)
-3. 天命系メルト(Hideki Ataka Remix) (04:30)
-4. 物換星移カタルシス(Hideki Ataka Remix) (03:55)
-5. 境界線マクガフィン(Hideki Ataka Remix) (03:01)
-6. 一陽レガシー(Hideki Ataka Remix) (03:28)
-7. 偶像ナイトメア(Hideki Ataka Remix) (04:02)
-8. 再見ロマネスク(Hideki Ataka Remix) (03:07)
-9. 熱愛フローズン(Hideki Ataka Remix) (02:42)
+2. [新世界ピグマリオン](/en/songs/valis/originals/新世界pigumarion)(Hideki Ataka Remix) (03:34)
+3. [天命系メルト](/en/songs/valis/originals/天命系meruto)(Hideki Ataka Remix) (04:30)
+4. [物換星移カタルシス](/en/songs/valis/originals/物換星移katarushisu)(Hideki Ataka Remix) (03:55)
+5. [境界線マクガフィン](/en/songs/valis/originals/境界線makugafyin)(Hideki Ataka Remix) (03:01)
+6. [一陽レガシー](/en/songs/valis/originals/一陽regashii)(Hideki Ataka Remix) (03:28)
+7. [偶像ナイトメア](/en/songs/valis/originals/偶像naitomea)(Hideki Ataka Remix) (04:02)
+8. [再見ロマネスク](/en/songs/valis/originals/再見romanesuku)(Hideki Ataka Remix) (03:07)
+9. [熱愛フローズン](/en/songs/valis/originals/熱愛furoozun)(Hideki Ataka Remix) (02:42)
 10. 焦燥アンドロイド(Hideki Ataka Remix) (03:01)
 11. 革命バーチャルリアリティ(Hideki Ataka Remix 超覚醒 ver.) (03:33)
 12. 「そして、次の場所へ。」 (00:35)

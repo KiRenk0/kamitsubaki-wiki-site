@@ -17,7 +17,7 @@ image: /images/songs/mimi/shabon-feat.-初音miku.jpg
 
 ## 作品概要
 
-MIMIが2025-06-25にリリースしたシングル「シャボン (feat. 初音ミク)」。
+[MIMI](/ja/artists/creators/mimi)が2025-06-25にリリースしたシングル「シャボン (feat. 初音ミク)」。
 
 ## 視聴
 {{media-switcher::シャボン (feat. 初音ミク)}}

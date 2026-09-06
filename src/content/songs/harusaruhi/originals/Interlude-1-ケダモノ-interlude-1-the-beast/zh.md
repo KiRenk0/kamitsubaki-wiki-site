@@ -42,6 +42,7 @@ image: /images/albums/harusaruhi/shinju.jpg
 <div class="jp-lyric">
 [00:12.181]<ruby>ケダモノ<rt class="roma">kedamono</rt></ruby>
 </div>
+<div class="cn-lyric">[00:12.181]野兽</div>
 </div>
 
 <div class="lyric-line">
@@ -55,12 +56,14 @@ image: /images/albums/harusaruhi/shinju.jpg
 <div class="jp-lyric">
 [00:17.055]<ruby>ケダモノ<rt class="roma">kedamono</rt></ruby>
 </div>
+<div class="cn-lyric">[00:17.055]野兽</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:19.930]<ruby>ケダモノ<rt class="roma">kedamono</rt></ruby>
 </div>
+<div class="cn-lyric">[00:19.930]野兽</div>
 </div>
 
 <div class="lyric-line">
@@ -81,6 +84,7 @@ image: /images/albums/harusaruhi/shinju.jpg
 <div class="jp-lyric">
 [00:30.915]<ruby>この<rt class="roma">kono</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>リード<rt class="roma">riido</rt></ruby><ruby>放<rt class="furi">ほか</rt><rt class="roma">hoka</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby>?
 </div>
+
 <div class="cn-lyric">[00:30.915]这手放开缰绳在何时?</div>
 </div>
 
@@ -88,6 +92,7 @@ image: /images/albums/harusaruhi/shinju.jpg
 <div class="jp-lyric">
 [00:33.321]<ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>喘<ruby>まれ<rt class="roma">mare</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>Feedin'my beast
 </div>
+
 <div class="cn-lyric">[00:33.321]手被喘息着 Feedin' my beast</div>
 </div>
 
@@ -95,6 +100,7 @@ image: /images/albums/harusaruhi/shinju.jpg
 <div class="jp-lyric">
 [00:37.274]<ruby>放<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby>?
 </div>
+
 <div class="cn-lyric">[00:37.274]何时释放?</div>
 </div>
 
@@ -102,30 +108,35 @@ image: /images/albums/harusaruhi/shinju.jpg
 <div class="jp-lyric">
 [00:55.326]<ruby>ケダモノ<rt class="roma">kedamono</rt></ruby>
 </div>
+<div class="cn-lyric">[00:55.326]野兽</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:57.670]<ruby>ケダモノ<rt class="roma">kedamono</rt></ruby>
 </div>
+<div class="cn-lyric">[00:57.670]野兽</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:59.748]<ruby>この<rt class="roma">kono</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">[00:59.748]这颗心的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:02.591]<ruby>ケダモノ<rt class="roma">kedamono</rt></ruby>
 </div>
+<div class="cn-lyric">[01:02.591]野兽</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:05.138]<ruby>ケダモノ<rt class="roma">kedamono</rt></ruby>
 </div>
+<div class="cn-lyric">[01:05.138]野兽</div>
 </div>
 
 </div>

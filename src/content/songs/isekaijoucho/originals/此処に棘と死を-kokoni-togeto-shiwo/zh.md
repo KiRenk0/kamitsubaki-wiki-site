@@ -190,6 +190,7 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 <div class="jp-lyric">
 [01:56.16]Oh, jewelry, jealousy
 </div>
+<div class="cn-lyric">[01:56.16]Oh, jewelry, jealousy</div>
 </div>
 
 <div class="lyric-line">
@@ -270,6 +271,7 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 <div class="jp-lyric">
 [02:41.25]Oh, jewelry, jealousy
 </div>
+<div class="cn-lyric">[02:41.25]Oh, jewelry, jealousy</div>
 </div>
 
 <div class="lyric-line">
@@ -313,12 +315,14 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 <div class="jp-lyric">
 [03:06.36]Oh, jewelry, jealousy
 </div>
+<div class="cn-lyric">[03:06.36]Oh, jewelry, jealousy</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:10.16]<ruby>狂<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>薔薇<rt class="furi">ばら</rt><rt class="roma">bara</rt></ruby><ruby>石英<rt class="furi">せきえい</rt><rt class="roma">sekiei</rt></ruby>(<ruby>おまえ<rt class="roma">omae</rt></ruby>)<ruby>に<rt class="roma">ni</rt></ruby><ruby>見惚<rt class="furi">みほ</rt><rt class="roma">miho</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:10.16]为你（蔷薇石英）着迷到疯狂</div>
 </div>
 
@@ -326,6 +330,7 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 <div class="jp-lyric">
 [03:14.15]<ruby>その<rt class="roma">sono</rt></ruby><ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ロゼ<rt class="roma">roze</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:14.15]那颜色是我没有的玫瑰</div>
 </div>
 

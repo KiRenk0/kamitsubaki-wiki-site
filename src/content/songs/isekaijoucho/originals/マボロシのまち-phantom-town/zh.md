@@ -264,6 +264,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [02:12.20]<ruby>回路<rt class="furi">かいろ</rt><rt class="roma">kairo</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>伝<rt class="furi">つた</rt><rt class="roma">tsuta</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
+<div class="cn-lyric">[02:12.20]沿着回路</div>
 </div>
 
 <div class="lyric-line">
@@ -339,6 +340,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [03:14.13]<ruby>マボロシ<rt class="roma">maboroshi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>息衝<rt class="furi">いきづ</rt><rt class="roma">ikizu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:14.13]虚幻在 呼吸</div>
 </div>
 
@@ -346,18 +348,21 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [03:18.23]<ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>せる<rt class="roma">seru</rt></ruby> <ruby>この<rt class="roma">kono</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[03:18.23]可触碰可破坏 这个世界</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:22.18]<ruby>歪<rt class="furi">いびつ</rt><rt class="roma">ibitsu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>綺麗<rt class="furi">きれい</rt><rt class="roma">kirei</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby>
 </div>
+<div class="cn-lyric">[03:22.18]越是扭曲 却依然美丽</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:26.46]<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+<div class="cn-lyric">[03:26.46]夜晚只会渐渐满溢</div>
 </div>
 
 </div>

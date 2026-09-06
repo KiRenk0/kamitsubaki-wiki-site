@@ -75,7 +75,9 @@ Things I do that I don't plan to change
 <div class="jp-lyric">
 [03:29.25]Going down paths that I shouldn't take
 </div>
-<div class="trans-lyric">Going down paths that I shouldn't take</div>
+<div class="trans-lyric">
+[03:29.25]Going down paths that I shouldn't take
+</div>
 </div>
 
 <div class="lyric-line">
@@ -110,7 +112,9 @@ No, I know that you got a second face, oh no
 <div class="jp-lyric">
 [03:29.25]No, I won't let you kill my high
 </div>
-<div class="trans-lyric">No, I won't let you kill my high</div>
+<div class="trans-lyric">
+[03:29.25]No, I won't let you kill my high
+</div>
 </div>
 
 <div class="lyric-line">
@@ -138,7 +142,9 @@ Come on girl, you make me hot
 <div class="jp-lyric">
 [03:29.25]I don't want it to stop
 </div>
-<div class="trans-lyric">I don't want it to stop</div>
+<div class="trans-lyric">
+[03:29.25]I don't want it to stop
+</div>
 </div>
 
 <div class="lyric-line">
@@ -173,6 +179,7 @@ Pour me up until I drown like
 <div class="jp-lyric">
 Ah, yeah, yeah, yeah
 </div>
+<div class="trans-lyric">Ah, yeah, yeah, yeah</div>
 </div>
 
 <div class="lyric-line">
@@ -235,54 +242,63 @@ People can talk but they don't change
 <div class="jp-lyric">
 'Cause I won't let you break my heart
 </div>
+<div class="trans-lyric">'Cause I won't let you break my heart</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Won't let us drift apart
 </div>
+<div class="trans-lyric">Won't let us drift apart</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 No, I know that you got a second face, oh no
 </div>
+<div class="trans-lyric">No, I know that you got a second face, oh no</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 No, I won't let you kill my high
 </div>
+<div class="trans-lyric">No, I won't let you kill my high</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You're such a Gemini, cigarettes and apple pie
 </div>
+<div class="trans-lyric">You're such a Gemini, cigarettes and apple pie</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Ah, yeah, yeah, yeah
 </div>
+<div class="trans-lyric">Ah, yeah, yeah, yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Come on girl, you make me hot
 </div>
+<div class="trans-lyric">Come on girl, you make me hot</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I don't want it to stop
 </div>
+<div class="trans-lyric">I don't want it to stop</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Come on, make me crave it, girl, I know you know
 </div>
+
 <div class="trans-lyric">Come on, make me crave it, girl, I know you know</div>
 </div>
 
@@ -290,12 +306,14 @@ Come on, make me crave it, girl, I know you know
 <div class="jp-lyric">
 How to build me up to break me down
 </div>
+<div class="trans-lyric">How to build me up to break me down</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You know the run around
 </div>
+
 <div class="trans-lyric">You know the run around</div>
 </div>
 
@@ -303,12 +321,14 @@ You know the run around
 <div class="jp-lyric">
 Pour me up until I drown like
 </div>
+<div class="trans-lyric">Pour me up until I drown like</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Ah, yeah, yeah, yeah
 </div>
+<div class="trans-lyric">Ah, yeah, yeah, yeah</div>
 </div>
 
 </div>

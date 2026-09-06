@@ -140,12 +140,14 @@ Afureru omoi to jiyuuna kono basho
 <div class="jp-lyric">
 Egakidasu kokoro won ni takushite
 </div>
+<div class="trans-lyric">Entrusting the heart that paints to that place</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Todoke ni iku yo kimi ga iru machi ni
 </div>
+<div class="trans-lyric">I'll go deliver it to the town where you are</div>
 </div>
 
 <br />
@@ -154,12 +156,14 @@ Todoke ni iku yo kimi ga iru machi ni
 <div class="jp-lyric">
 Ashita moshi haretara
 </div>
+<div class="trans-lyric">If tomorrow is clear</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Hikoukigumo zenbu atsumete
 </div>
+<div class="trans-lyric">Gather all the contrails</div>
 </div>
 
 <div class="lyric-line">
@@ -173,6 +177,7 @@ Kimi ga sumu kono machi ni
 <div class="jp-lyric">
 Todokeru yo owaranai uta
 </div>
+
 <div class="trans-lyric">I'll deliver an endless song</div>
 </div>
 
@@ -182,12 +187,14 @@ Todokeru yo owaranai uta
 <div class="jp-lyric">
 Bokura o tsunagu yo mugen ni hirogaru
 </div>
+<div class="trans-lyric">It connects us, endlessly expanding</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Afureru omoi o kaki tsudzukeyou
 </div>
+
 <div class="trans-lyric">Let's continue writing the overflowing feelings</div>
 </div>
 
@@ -195,6 +202,7 @@ Afureru omoi o kaki tsudzukeyou
 <div class="jp-lyric">
 Shirokuro no ashita irodzuite yuku
 </div>
+
 <div class="trans-lyric">The black-and-white tomorrow becomes colored</div>
 </div>
 
@@ -202,6 +210,7 @@ Shirokuro no ashita irodzuite yuku
 <div class="jp-lyric">
 Todoke tsudzukeru yakusoku no merodii
 </div>
+
 <div class="trans-lyric">A melody of promise that continues to deliver</div>
 </div>
 

@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 
 ## Overview
 
-食虫植物 at CREAM PUFF LIVE 3(Cover) appears on CREAM PUFF LIVE 3 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+食虫植物 at CREAM PUFF LIVE 3(Cover) appears on [CREAM PUFF LIVE 3](/en/albums/harusaruhi/cream-puff-live-3) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -196,12 +196,14 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [01:42.119]<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>、<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">[01:42.119]Unsatisfied, unsatisfied</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:46.265]<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>、<ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>、<ruby>フィーリング<rt class="roma">fyiiringu</rt></ruby>、
 </div>
+<div class="trans-lyric">[01:46.265]What's unsatisfied is the feeling,</div>
 </div>
 
 <div class="lyric-line">
@@ -229,6 +231,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [02:17.035]<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>、<ruby>から<rt class="roma">kara</rt></ruby>、<ruby>嫌<rt class="furi">きら</rt><rt class="roma">kira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:17.035]Because I'm unsatisfied, I hate</div>
 </div>
 
@@ -236,12 +239,14 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [02:20.970]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>、<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="trans-lyric">[02:20.970]I want to be loved, I want to be loved</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:24.939]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>地球<rt class="furi">ちきゅう</rt><rt class="roma">chikyuu</rt></ruby><ruby>規模<rt class="furi">きぼ</rt><rt class="roma">kibo</rt></ruby>！
 </div>
+
 <div class="trans-lyric">[02:24.939]Wanting to be loved is on a global scale!</div>
 </div>
 

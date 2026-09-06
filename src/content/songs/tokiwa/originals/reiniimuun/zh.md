@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/reiniimuun.jpg
 
 ## 作品简介
 
-tokiwa于 2025-06-28 发行的单曲《レイニームーン》。
+[tokiwa](/zh/artists/creators/tokiwa)于 2025-06-28 发行的单曲《レイニームーン》。
 
 ## 试听
 {{media-switcher::レイニームーン}}

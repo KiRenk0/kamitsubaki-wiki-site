@@ -17,7 +17,7 @@ image: /images/songs/dustcell/scapegoat.jpg
 
 ## 作品简介
 
-DUSTCELL于 2025-02-25 发行的单曲《SCAPEGOAT》。
+[DUSTCELL](/zh/artists/solo/dustcell)于 2025-02-25 发行的单曲《SCAPEGOAT》。
 
 ## 试听
 {{media-switcher::SCAPEGOAT}}

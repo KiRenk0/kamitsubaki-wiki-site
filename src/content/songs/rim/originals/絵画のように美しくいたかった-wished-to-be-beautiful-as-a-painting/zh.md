@@ -19,7 +19,7 @@ image: /images/albums/rim/imagine.jpg
 
 ## 作品简介
 
-《絵画のように美しくいたかった》收录于《imagine》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《絵画のように美しくいたかった》收录于《[imagine](/zh/albums/rim/imagine)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -182,12 +182,14 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [02:13.68]<ruby>笑<rt class="furi">え</rt><rt class="roma">e</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>笑<rt class="furi">え</rt><rt class="roma">e</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:13.68]像笑容一樣 像笑容一樣 想要笑著</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:17.63]<ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:17.63]想要笑著</div>
 </div>
 
@@ -195,6 +197,8 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 <ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+
+<div class="cn-lyric">想要笑著</div>
 </div>
 
 </div>

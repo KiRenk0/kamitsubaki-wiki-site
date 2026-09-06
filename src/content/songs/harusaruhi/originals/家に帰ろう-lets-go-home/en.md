@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 ## Overview
 
-家に帰ろう appears on SPICE OF LIFE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+家に帰ろう appears on [SPICE OF LIFE](/en/albums/harusaruhi/spice-of-life) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -56,7 +56,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:06.97]<ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ミュージック<rt class="roma">myuujikku</rt></ruby><ruby>耳<rt class="furi">みみ</rt><rt class="roma">mimi</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>らし<rt class="roma">rashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>going
 </div>
-<div class="trans-lyric">With my favorite music ringing in my ears, I'm going</div>
+<div class="trans-lyric">
+[00:06.97]With my favorite music ringing in my ears, I'm going
+</div>
 </div>
 
 <div class="lyric-line">
@@ -84,7 +86,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:14.50]<ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>マイキャット<rt class="roma">maikyatto</rt></ruby>
 </div>
-<div class="trans-lyric">I want to see you, my cat</div>
+<div class="trans-lyric">
+[00:14.50]I want to see you, my cat
+</div>
 </div>
 
 <div class="lyric-line">
@@ -119,6 +123,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:26.51]<ruby>家<rt class="furi">いえ</rt><rt class="roma">ie</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="trans-lyric">[00:26.51]Let's go home</div>
 </div>
 
 <div class="lyric-line">
@@ -132,12 +137,14 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:31.74]<ruby>家<rt class="furi">いえ</rt><rt class="roma">ie</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="trans-lyric">[00:31.74]Let's go home</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:33.91]<ruby>お<rt class="roma">o</rt></ruby><ruby>風呂<rt class="furi">ふろ</rt><rt class="roma">furo</rt></ruby><ruby>つかって<rt class="roma">tsukatte</rt></ruby><ruby>疲<rt class="furi">つか</rt><rt class="roma">tsuka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>解放<rt class="furi">かいほう</rt><rt class="roma">kaihou</rt></ruby>
 </div>
+
 <div class="trans-lyric">[00:33.91]Take a bath and be freed from fatigue</div>
 </div>
 
@@ -145,19 +152,22 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:37.20]<ruby>家<rt class="furi">いえ</rt><rt class="roma">ie</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="trans-lyric">[00:37.20]Let's go home</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:38.97]yeah
 </div>
-<div class="trans-lyric">yeah</div>
+
+<div class="trans-lyric">[00:38.97]yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:39.82]<ruby>家<rt class="furi">いえ</rt><rt class="roma">ie</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="trans-lyric">[00:39.82]Let's go home</div>
 </div>
 
 <br />

@@ -17,7 +17,7 @@ image: /images/songs/guiano/法螺話-with-guiano.jpg
 
 ## 作品简介
 
-Guiano于 2023-09-19 发行的单曲《法螺話 (with Guiano)》。
+[Guiano](/zh/artists/creators/guiano)于 2023-09-19 发行的单曲《法螺話 (with Guiano)》。
 
 ## 试听
 {{media-switcher::法螺話 (with Guiano)}}

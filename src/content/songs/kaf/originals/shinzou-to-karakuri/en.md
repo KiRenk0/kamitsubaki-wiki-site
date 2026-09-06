@@ -19,7 +19,7 @@ image: /images/albums/kaf/flower-and-heart.jpg
 
 ## Overview
 
-KAF's second original song, written, composed, and arranged by Iori Kanzaki.
+[KAF](/en/artists/vwp/kaf)'s second original song, written, composed, and arranged by Iori Kanzaki.
 
 ## Listen
 
@@ -102,14 +102,18 @@ KAF's second original song, written, composed, and arranged by Iori Kanzaki.
 <div class="jp-lyric">
 [01:12.95]<ruby>やっと<rt class="roma">yatto</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
-<div class="trans-lyric">I finally noticed</div>
+<div class="trans-lyric">
+[01:12.95]I finally noticed
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:14.37]<ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>決<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>まって<rt class="roma">matte</rt></ruby><ruby>いたん<rt class="roma">itan</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
-<div class="trans-lyric">My feelings were already decided</div>
+<div class="trans-lyric">
+[01:14.37]My feelings were already decided
+</div>
 </div>
 
 <br />

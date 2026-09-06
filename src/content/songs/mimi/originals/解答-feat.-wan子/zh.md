@@ -17,7 +17,7 @@ image: /images/songs/mimi/解答-feat.-wan子.jpg
 
 ## 作品简介
 
-MIMI于 2024-05-13 发行的单曲《解答 (feat. わん子)》。
+[MIMI](/zh/artists/creators/mimi)于 2024-05-13 发行的单曲《解答 (feat. わん子)》。
 
 ## 试听
 {{media-switcher::解答 (feat. わん子)}}

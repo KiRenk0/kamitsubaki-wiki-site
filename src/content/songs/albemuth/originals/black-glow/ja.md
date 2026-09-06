@@ -17,7 +17,7 @@ image: /images/songs/albemuth/black-glow.jpg
 
 ## 作品概要
 
-Albemuthが2023-06-21にリリースしたシングル「Black Glow」。
+[Albemuth](/ja/artists/solo/albemuth)が2023-06-21にリリースしたシングル「Black Glow」。
 
 ## 視聴
 {{media-switcher::Black Glow}}

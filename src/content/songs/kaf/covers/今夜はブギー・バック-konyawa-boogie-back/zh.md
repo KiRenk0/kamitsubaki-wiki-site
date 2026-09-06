@@ -229,24 +229,28 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 <ruby>ダンス<rt class="roma">dansu</rt></ruby><ruby>フロアー<rt class="roma">furoaa</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>華<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>やか<rt class="roma">yaka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby>
 </div>
+<div class="cn-lyric">舞池里璀璨的灯光</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>そっと<rt class="roma">sotto</rt></ruby><ruby>包<rt class="furi">つつ</rt><rt class="roma">tsutsu</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ハーモニー<rt class="roma">haamonii</rt></ruby>
 </div>
+<div class="cn-lyric">轻轻将我包裹的和谐旋律</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ブギー・バック<rt class="roma">bugii/bakku</rt></ruby> <ruby>シェイク<rt class="roma">sheiku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>イット<rt class="roma">itto</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>アップ<rt class="roma">appu</rt></ruby> <ruby>神様<rt class="furi">かみさま</rt><rt class="roma">kamisama</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">Boogie Back Shake It Up 神明赐予的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ミルク<rt class="roma">miruku</rt></ruby>＆<ruby>ハニー<rt class="roma">hanii</rt></ruby>
 </div>
+<div class="cn-lyric">甜甜的牛奶和蜂蜜</div>
 </div>
 
 <div class="lyric-line">
@@ -372,54 +376,63 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 <ruby>ダンス<rt class="roma">dansu</rt></ruby><ruby>フロアー<rt class="roma">furoaa</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>華<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>やか<rt class="roma">yaka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby>
 </div>
+<div class="cn-lyric">舞池里璀璨的灯光</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>そっと<rt class="roma">sotto</rt></ruby><ruby>包<rt class="furi">つつ</rt><rt class="roma">tsutsu</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ハーモニー<rt class="roma">haamonii</rt></ruby>
 </div>
+<div class="cn-lyric">轻轻将我包裹的和谐旋律</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ブギー・バック<rt class="roma">bugii/bakku</rt></ruby> <ruby>シェイク<rt class="roma">sheiku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>イット<rt class="roma">itto</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>アップ<rt class="roma">appu</rt></ruby> <ruby>神様<rt class="furi">かみさま</rt><rt class="roma">kamisama</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">Boogie Back Shake It Up 神明赐予的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ミルク<rt class="roma">miruku</rt></ruby>＆<ruby>ハニー<rt class="roma">hanii</rt></ruby>
 </div>
+<div class="cn-lyric">甜甜的牛奶和蜂蜜</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>クール<rt class="roma">kuuru</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>まるで<rt class="roma">marude</rt></ruby><ruby>ヤング<rt class="roma">yangu</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>アメリカン<rt class="roma">amerikan</rt></ruby>
 </div>
+<div class="cn-lyric">冷酷的我 就像年轻的美国人</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>そう<rt class="roma">sou</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>こそ<rt class="roma">koso</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>オンリー<rt class="roma">onrii</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ワン<rt class="roma">wan</rt></ruby>
 </div>
+<div class="cn-lyric">是啊现在 你才是唯一</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ブギー・バック<rt class="roma">bugii/bakku</rt></ruby> <ruby>シェイク<rt class="roma">sheiku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>イット<rt class="roma">itto</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>アップ<rt class="roma">appu</rt></ruby> <ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>はじまり<rt class="roma">hajimari</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">Boogie Back Shake It Up 夜晚的开始</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 溶<ruby>ろ<rt class="roma">ro</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ファンキー<rt class="roma">fuankii</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ミュージック<rt class="roma">myuujikku</rt></ruby>
 </div>
+<div class="cn-lyric">令人融化的放克音乐</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:49.83]<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>がわり<rt class="roma">gawari</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>相手<rt class="furi">あいて</rt><rt class="roma">aite</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>決<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:49.83]心灵的伴侣就决定是我吧</div>
 </div>
 
@@ -427,6 +440,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [04:58.18]<ruby>ロマンス<rt class="roma">romansu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ビッグ<rt class="roma">biggu</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ヒッター<rt class="roma">hittaa</rt></ruby> <ruby>グレイト・シューター<rt class="roma">gureito/shuutaa</rt></ruby> <ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>つづける<rt class="roma">tsuzukeru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:58.18]浪漫的重磅一击 伟大射手 如果要继续跳舞</div>
 </div>
 
@@ -434,6 +448,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [05:16.21]<ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>こそ<rt class="roma">koso</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ラブ・マシーン<rt class="roma">rabu/mashiin</rt></ruby>
 </div>
+
 <div class="cn-lyric">[05:16.21]最后一定 我才是爱情机器</div>
 </div>
 
@@ -441,6 +456,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [05:22.00]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>捧<rt class="furi">ささ</rt><rt class="roma">sasa</rt></ruby><ruby>げる<rt class="roma">geru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>ファンタジー<rt class="roma">fuantajii</rt></ruby>
 </div>
+
 <div class="cn-lyric">[05:22.00]一直献给你的幻想</div>
 </div>
 
@@ -448,18 +464,21 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 <ruby>ブギー・バック<rt class="roma">bugii/bakku</rt></ruby> <ruby>シェイク<rt class="roma">sheiku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>イット<rt class="roma">itto</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>アップ<rt class="roma">appu</rt></ruby> <ruby>神様<rt class="furi">かみさま</rt><rt class="roma">kamisama</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">Boogie Back Shake It Up 神明赐予的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ミルク<rt class="roma">miruku</rt></ruby>＆<ruby>ハニー<rt class="roma">hanii</rt></ruby>
 </div>
+<div class="cn-lyric">甜甜的牛奶和蜂蜜</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [05:36.74]<ruby>パーティ<rt class="roma">paatei</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby> <ruby>燃え上<rt class="furi">もえあ</rt><rt class="roma">moea</rt></ruby><ruby>がる<rt class="roma">garu</rt></ruby>２<ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby>
 </div>
+
 <div class="cn-lyric">[05:36.74]派对持续 燃烧的二人</div>
 </div>
 
@@ -467,6 +486,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [05:42.61]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ベイビー<rt class="roma">beibii</rt></ruby> <ruby>今宵<rt class="furi">こよい</rt><rt class="roma">koyoi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>リアリティー<rt class="roma">riariteii</rt></ruby>
 </div>
+
 <div class="cn-lyric">[05:42.61]是的宝贝 今晚的现实</div>
 </div>
 
@@ -474,6 +494,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [05:47.81]<ruby>ブギー・バック<rt class="roma">bugii/bakku</rt></ruby> <ruby>シェイク<rt class="roma">sheiku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>イット<rt class="roma">itto</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>アップ<rt class="roma">appu</rt></ruby> <ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>なかば<rt class="roma">nakaba</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[05:47.81]Boogie Back Shake It Up 在夜半时分</div>
 </div>
 
@@ -481,6 +502,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [05:53.31]<ruby>神様<rt class="furi">かみさま</rt><rt class="roma">kamisama</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ありがとう<rt class="roma">arigatou</rt></ruby>
 </div>
+
 <div class="cn-lyric">[05:53.31]感谢神明</div>
 </div>
 
@@ -488,6 +510,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [05:57.47]<ruby>ワイルド<rt class="roma">wairudo</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby> <ruby>うるわし<rt class="roma">uruwashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>フッシー・キャット<rt class="roma">fusshii/kyatto</rt></ruby>
 </div>
+
 <div class="cn-lyric">[05:57.47]狂野的你 美丽的猫咪</div>
 </div>
 
@@ -495,6 +518,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [06:03.29]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>噛<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>みつい<rt class="roma">mitsui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>オール<rt class="roma">ouru</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ナイト<rt class="roma">naito</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ロング<rt class="roma">rongu</rt></ruby>
 </div>
+
 <div class="cn-lyric">[06:03.29]咬住我的手 一整夜</div>
 </div>
 
@@ -502,6 +526,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [06:08.48]<ruby>ブギー・バック<rt class="roma">bugii/bakku</rt></ruby> <ruby>シェイク<rt class="roma">sheiku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>イット<rt class="roma">itto</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>アップ<rt class="roma">appu</rt></ruby> <ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[06:08.48]Boogie Back Shake It Up 在夜晚结束时</div>
 </div>
 
@@ -509,6 +534,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [06:13.96]２<ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>きり<rt class="roma">kiri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ワンダー・ランド<rt class="roma">wandaa/rando</rt></ruby>
 </div>
+
 <div class="cn-lyric">[06:13.96]只有两人的仙境</div>
 </div>
 

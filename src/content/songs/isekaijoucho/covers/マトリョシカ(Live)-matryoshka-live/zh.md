@@ -324,18 +324,21 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [02:14.00]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ランデブー<rt class="roma">randebuu</rt></ruby>？<ruby>ほら<rt class="roma">hora</rt></ruby><ruby>ランデブー<rt class="roma">randebuu</rt></ruby>？
 </div>
+<div class="cn-lyric">[02:14.00]你和我来场约会？你看约会？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:16.42]<ruby>あら<rt class="roma">ara</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>アバンチュール<rt class="roma">abanchuuru</rt></ruby>？
 </div>
+<div class="cn-lyric">[02:16.42]哎呀呀飞走的冒险？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:18.59]<ruby>足取<rt class="furi">あしど</rt><rt class="roma">ashido</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>歪<rt class="furi">いが</rt><rt class="roma">iga</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>1,2,1,2
 </div>
+<div class="cn-lyric">[02:18.59]步伐歪斜 1,2,1,2</div>
 </div>
 
 <br />
@@ -351,6 +354,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [02:28.20]<ruby>継ぎ接<rt class="furi">つぎは</rt><rt class="roma">tsugiha</rt></ruby><ruby>ぎ<rt class="roma">gi</rt></ruby><ruby>狂<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>マトリョシカ<rt class="roma">matoryoshika</rt></ruby>
 </div>
+<div class="cn-lyric">[02:28.20]拼拼凑凑狂乱的俄罗斯套娃</div>
 </div>
 
 <br />
@@ -359,6 +363,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [02:31.73]<ruby>もっと<rt class="roma">motto</rt></ruby><ruby>いっぱい<rt class="roma">ippai</rt></ruby><ruby>舞<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>頂戴<rt class="furi">ちょうだい</rt><rt class="roma">choudai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:31.73]请再跳更多舞吧</div>
 </div>
 
@@ -366,42 +371,49 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [02:34.87]<ruby>カリンカ<rt class="roma">karinka</rt></ruby>？<ruby>マリンカ<rt class="roma">marinka</rt></ruby>？<ruby>弦<rt class="furi">つる</rt><rt class="roma">tsuru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>弾<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[02:34.87]卡林卡？马林卡？弹拨琴弦</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:37.33]<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
+<div class="cn-lyric">[02:37.33]这样的感情怎么办才好？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:39.54]<ruby>ちょっと<rt class="roma">chotto</rt></ruby><ruby>教<rt class="furi">おし</rt><rt class="roma">oshi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
+<div class="cn-lyric">[02:39.54]能稍微告诉我吗？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:42.05]<ruby>感度<rt class="furi">かんど</rt><rt class="roma">kando</rt></ruby><ruby>良好<rt class="furi">りょうこう</rt><rt class="roma">ryoukou</rt></ruby> 524
 </div>
+<div class="cn-lyric">[02:42.05]灵敏度良好 524</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:44.34]<ruby>フロイト<rt class="roma">furoito</rt></ruby>？<ruby>ケロイド<rt class="roma">keroido</rt></ruby>？<ruby>鍵<rt class="furi">かぎ</rt><rt class="roma">kagi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>叩<rt class="furi">たた</rt><rt class="roma">tata</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[02:44.34]弗洛伊德？瘢痕疙瘩？敲击琴键</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:46.70]<ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>っちゃお<rt class="roma">tchao</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby>
 </div>
+<div class="cn-lyric">[02:46.70]全部全部一笑置之吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:48.79]<ruby>さっさと<rt class="roma">sassato</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なれ<rt class="roma">nare</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:48.79]快点跳舞然后消失吧</div>
 </div>
 
@@ -409,6 +421,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [02:51.57]<ruby>チュチュ<rt class="roma">chuchu</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:51.57]啾啾</div>
 </div>
 

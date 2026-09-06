@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/purezento.jpg
 
 ## 作品简介
 
-tokiwa于 2025-06-19 发行的单曲《プレゼント》。
+[tokiwa](/zh/artists/creators/tokiwa)于 2025-06-19 发行的单曲《プレゼント》。
 
 ## 试听
 {{media-switcher::プレゼント}}

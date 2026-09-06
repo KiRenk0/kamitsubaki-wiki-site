@@ -17,7 +17,7 @@ image: /images/songs/mimi/水音tokaaten.jpg
 
 ## 作品简介
 
-MIMI于 2019-11-02 发行的单曲《水音とカーテン》。
+[MIMI](/zh/artists/creators/mimi)于 2019-11-02 发行的单曲《水音とカーテン》。
 
 ## 试听
 {{media-switcher::水音とカーテン}}

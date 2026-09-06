@@ -50,14 +50,18 @@ image: /images/songs/isekaijoucho/single-1678039038.jpg
 <div class="jp-lyric">
 [00:18.11]「<ruby>これ<rt class="roma">kore</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby>」<ruby>だ<rt class="roma">da</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>
 </div>
-<div class="trans-lyric">Saying 'This is the end'</div>
+<div class="trans-lyric">
+[00:18.11]Saying 'This is the end'
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:20.98]<ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>たって<rt class="roma">tatte</rt></ruby> <ruby>いい<rt class="roma">ii</rt></ruby><ruby>よも<rt class="roma">yomo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="trans-lyric">Even without being told, it's fine now</div>
+<div class="trans-lyric">
+[00:20.98]Even without being told, it's fine now
+</div>
 </div>
 
 <div class="lyric-line">
@@ -96,7 +100,9 @@ image: /images/songs/isekaijoucho/single-1678039038.jpg
 <div class="jp-lyric">
 [00:48.37]<ruby>何処<rt class="furi">どこ</rt><rt class="roma">doko</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
-<div class="trans-lyric">Where did it go off to, I wonder?</div>
+<div class="trans-lyric">
+[00:48.37]Where did it go off to, I wonder?
+</div>
 </div>
 
 <br />
@@ -140,7 +146,9 @@ image: /images/songs/isekaijoucho/single-1678039038.jpg
 <div class="jp-lyric">
 [01:08.38]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
-<div class="trans-lyric">I was just there</div>
+<div class="trans-lyric">
+[01:08.38]I was just there
+</div>
 </div>
 
 <br />
@@ -170,7 +178,9 @@ image: /images/songs/isekaijoucho/single-1678039038.jpg
 <div class="jp-lyric">
 [01:32.39]<ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たく<rt class="roma">taku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>、<ruby>もう<rt class="roma">mou</rt></ruby>
 </div>
-<div class="trans-lyric">I don't want you to think that — fine, already</div>
+<div class="trans-lyric">
+[01:32.39]I don't want you to think that — fine, already
+</div>
 </div>
 
 <div class="lyric-line">
@@ -186,12 +196,14 @@ image: /images/songs/isekaijoucho/single-1678039038.jpg
 <div class="jp-lyric">
 [01:39.28]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>失<rt class="furi">うしな</rt><rt class="roma">ushina</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="trans-lyric">[01:39.28]The world that has lost love</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:41.95]<ruby>何処<rt class="furi">どこ</rt><rt class="roma">doko</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
+<div class="trans-lyric">[01:41.95]Where did it go off to, I wonder?</div>
 </div>
 
 <br />
@@ -251,12 +263,14 @@ image: /images/songs/isekaijoucho/single-1678039038.jpg
 <div class="jp-lyric">
 [02:08.01]<ruby>拡<rt class="furi">ひろ</rt><rt class="roma">hiro</rt></ruby><ruby>がって<rt class="roma">gatte</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>感覚<rt class="furi">かんかく</rt><rt class="roma">kankaku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="trans-lyric">[02:08.01]To a feeling that seems to expand</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:10.95]<ruby>創<rt class="furi">そう</rt><rt class="roma">sou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>遺<rt class="furi">のこ</rt><rt class="roma">noko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ロッド<rt class="roma">roddo</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:10.95]The rod that left a wound</div>
 </div>
 
@@ -264,18 +278,21 @@ image: /images/songs/isekaijoucho/single-1678039038.jpg
 <div class="jp-lyric">
 [02:14.10]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>捨<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>ボク<rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="trans-lyric">[02:14.10]I, who have discarded something</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:17.08]<ruby>密<rt class="furi">ひそ</rt><rt class="roma">hiso</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>魔女<rt class="furi">まじょ</rt><rt class="roma">majo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="trans-lyric">[02:17.08]Like a witch who laughs silently</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:19.66]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="trans-lyric">[02:19.66]I was just there</div>
 </div>
 
 <br />
@@ -284,7 +301,8 @@ image: /images/songs/isekaijoucho/single-1678039038.jpg
 <div class="jp-lyric">
 [02:23.08]Ah, ah, ah, ah
 </div>
-<div class="trans-lyric">Ah, ah, ah, ah</div>
+
+<div class="trans-lyric">[02:23.08]Ah, ah, ah, ah</div>
 </div>
 
 </div>

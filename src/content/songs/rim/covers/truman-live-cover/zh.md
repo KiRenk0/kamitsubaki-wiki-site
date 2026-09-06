@@ -148,24 +148,28 @@ That's what we do
 <div class="jp-lyric">
 I hope that feeling comes back
 </div>
+<div class="cn-lyric">我希望那种感觉回来</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Maybe we'll all wake up soon, who knows?
 </div>
+<div class="cn-lyric">也许我们很快就会醒来，谁知道呢？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I live this day again and again
 </div>
+<div class="cn-lyric">我日复一日地过着今天</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Hello if you're watching this, from home
 </div>
+<div class="cn-lyric">你好，如果你正在看这个，在家</div>
 </div>
 
 <br />
@@ -218,12 +222,14 @@ The thoughts take over and you're terrified
 <div class="jp-lyric">
 Yeah it hurts just a little
 </div>
+<div class="cn-lyric">是的，有点痛</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And I'll tell you why
 </div>
+
 <div class="cn-lyric">我会告诉你为什么</div>
 </div>
 
@@ -231,6 +237,7 @@ And I'll tell you why
 <div class="jp-lyric">
 Thought you were on my side
 </div>
+
 <div class="cn-lyric">以为你站在我这边</div>
 </div>
 
@@ -238,6 +245,7 @@ Thought you were on my side
 <div class="jp-lyric">
 Thought we'd coincide
 </div>
+
 <div class="cn-lyric">以为我们会一致</div>
 </div>
 
@@ -247,18 +255,22 @@ Thought we'd coincide
 <div class="jp-lyric">
 Yeah it hurts just a little
 </div>
+<div class="cn-lyric">是的，有点痛</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And I'll tell you why
 </div>
+
+<div class="cn-lyric">我会告诉你为什么</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You should've been on my side
 </div>
+
 <div class="cn-lyric">你本该站在我这边</div>
 </div>
 
@@ -266,6 +278,8 @@ You should've been on my side
 <div class="jp-lyric">
 Thought we'd coincide
 </div>
+
+<div class="cn-lyric">以为我们会一致</div>
 </div>
 
 <br />
@@ -274,42 +288,49 @@ Thought we'd coincide
 <div class="jp-lyric">
 I hope that feeling comes back
 </div>
+<div class="cn-lyric">我希望那种感觉回来</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Maybe we'll all wake up soon, who knows?
 </div>
+<div class="cn-lyric">也许我们很快就会醒来，谁知道呢？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I live this day again and again
 </div>
+<div class="cn-lyric">我日复一日地过着今天</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Hello if you're watching this, from home
 </div>
+<div class="cn-lyric">你好，如果你正在看这个，在家</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Hello if you're watching this, from home
 </div>
+<div class="cn-lyric">你好，如果你正在看这个，在家</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Hello if you're watching this, from home
 </div>
+<div class="cn-lyric">你好，如果你正在看这个，在家</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Hello if you're watching this, from home
 </div>
+<div class="cn-lyric">你好，如果你正在看这个，在家</div>
 </div>
 
 </div>

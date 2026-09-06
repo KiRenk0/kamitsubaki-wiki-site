@@ -17,7 +17,7 @@ image: /images/songs/albemuth/tuberose-feat.-存流-&-明透.jpg
 
 ## 作品概要
 
-Albemuthが2023-08-30にリリースしたシングル「tuberose (feat. 存流 & 明透)」。
+[Albemuth](/ja/artists/solo/albemuth)が2023-08-30にリリースしたシングル「tuberose (feat. 存流 & 明透)」。
 
 ## 視聴
 {{media-switcher::tuberose (feat. 存流 & 明透)}}

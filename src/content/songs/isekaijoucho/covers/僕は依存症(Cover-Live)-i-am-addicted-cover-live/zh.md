@@ -19,7 +19,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 
 ## 作品简介
 
-《僕は依存症 (Cover Live)》收录于《CANDY LIVE 3 (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《僕は依存症 (Cover Live)》收录于《[CANDY LIVE 3](/zh/albums/isekaijoucho/candy-live-3) (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -182,6 +182,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>依存<rt class="furi">いぞん</rt><rt class="roma">izon</rt></ruby><ruby>症<rt class="furi">しょう</rt><rt class="roma">shou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby>
 </div>
+<div class="cn-lyric">我患上了依赖症</div>
 </div>
 
 <div class="lyric-line">
@@ -265,18 +266,21 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 <ruby>現実<rt class="furi">げんじつ</rt><rt class="roma">genjitsu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+<div class="cn-lyric">只是想看清现实</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>楽<rt class="furi">らく</rt><rt class="roma">raku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>欲<rt class="furi">ほ</rt><rt class="roma">ho</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+<div class="cn-lyric">只是想让我解脱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>両<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby><ruby>まぶた<rt class="roma">mabuta</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>バツ<rt class="roma">batsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>印<rt class="furi">しるし</rt><rt class="roma">shirushi</rt></ruby>
 </div>
+<div class="cn-lyric">双瞳上的叉号印记</div>
 </div>
 
 <div class="lyric-line">
@@ -290,12 +294,14 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 “<ruby>悪魔<rt class="furi">あくま</rt><rt class="roma">akuma</rt></ruby>”<ruby>は<rt class="roma">wa</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>?
 </div>
+<div class="cn-lyric">“恶魔”今天也在笑吗？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>確<rt class="furi">たし</rt><rt class="roma">tashi</rt></ruby><ruby>かめる<rt class="roma">kameru</rt></ruby>
 </div>
+<div class="cn-lyric">最后确认那一点</div>
 </div>
 
 <div class="lyric-line">
@@ -309,6 +315,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 [02:27.21]<ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:27.21]只是做梦而已</div>
 </div>
 
@@ -316,48 +323,56 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>依存<rt class="furi">いぞん</rt><rt class="roma">izon</rt></ruby><ruby>症<rt class="furi">しょう</rt><rt class="roma">shou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby>
 </div>
+<div class="cn-lyric">我患上了依赖症</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>という<rt class="roma">toiu</rt></ruby><ruby>名<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>後遺症<rt class="furi">こういしょう</rt><rt class="roma">kouishou</rt></ruby>
 </div>
+<div class="cn-lyric">以你为名的后遗症</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>付け回<rt class="furi">つけまわ</rt><rt class="roma">tsukemawa</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">别再纠缠我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>形<rt class="furi">かたち</rt><rt class="roma">katachi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>温<rt class="furi">ぬく</rt><rt class="roma">nuku</rt></ruby><ruby>もり<rt class="roma">mori</rt></ruby>
 </div>
+<div class="cn-lyric">无形的温暖</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>その<rt class="roma">sono</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>幽霊<rt class="furi">ゆうれい</rt><rt class="roma">yuurei</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="cn-lyric">那双手是幽灵吗</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>それとも<rt class="roma">soretomo</rt></ruby><ruby>冷<rt class="furi">つめ</rt><rt class="roma">tsume</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>火傷<rt class="furi">かしょう</rt><rt class="roma">kashou</rt></ruby>
 </div>
+<div class="cn-lyric">还是冰冷的烫伤</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>罪<rt class="furi">つみ</rt><rt class="roma">tsumi</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
+<div class="cn-lyric">谁都没有罪过啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:58.06]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>映<rt class="furi">うつ</rt><rt class="roma">utsu</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>眼<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>悪<rt class="furi">わる</rt><rt class="roma">waru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby> <ruby>悪<rt class="furi">わる</rt><rt class="roma">waru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:58.06]映出你的这双眼睛是错的 是错的</div>
 </div>
 
@@ -365,6 +380,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 [03:03.96]<ruby>押<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>潰<rt class="furi">つぶ</rt><rt class="roma">tsubu</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>体<rt class="furi">からだ</rt><rt class="roma">karada</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:03.96]被压垮的心灵与身体</div>
 </div>
 
@@ -372,6 +388,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 [03:10.04]<ruby>ドクタ<rt class="roma">dokuta</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>お願<rt class="furi">おねが</rt><rt class="roma">onega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby> <ruby>右目<rt class="furi">みぎめ</rt><rt class="roma">migime</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>還<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:10.04]医生求求你 还我右眼</div>
 </div>
 
@@ -379,6 +396,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 [03:14.99]<ruby>左目<rt class="furi">ひだりめ</rt><rt class="roma">hidarime</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>還<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>あの<rt class="roma">ano</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>還<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:14.99]还我左眼 还我那一天</div>
 </div>
 
@@ -386,6 +404,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 [03:20.35]<ruby>お願<rt class="furi">おねが</rt><rt class="roma">onega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:20.35]求你了</div>
 </div>
 

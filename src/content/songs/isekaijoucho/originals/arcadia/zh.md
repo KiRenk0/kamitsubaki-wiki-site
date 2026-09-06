@@ -335,6 +335,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [06:00.74]<ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[06:00.74]我就在这里哦</div>
 </div>
 
 <div class="lyric-line">
@@ -355,6 +356,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [06:20.68]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>奏<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>でよ<rt class="roma">deyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[06:20.68]在这里演奏吧 延续的未来</div>
 </div>
 

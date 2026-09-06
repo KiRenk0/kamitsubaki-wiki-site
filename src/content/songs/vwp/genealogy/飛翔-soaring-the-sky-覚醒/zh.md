@@ -24,7 +24,7 @@ image: /images/albums/vwp/awakening.jpg
 
 ## 作品简介
 
-《飛翔 (feat. [花譜](/zh/artists/vwp/kaf), [理芽](/zh/artists/vwp/rim), [春猿火](/zh/artists/vwp/harusaruhi), [ヰ世界情緒](/zh/artists/vwp/isekaijoucho) & [幸祜](/zh/artists/vwp/koko))》收录于《[覚醒](/zh/albums/vwp/awakening)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《[飛翔](/zh/songs/kashiimoimi/originals/飛翔) (feat. [花譜](/zh/artists/vwp/kaf), [理芽](/zh/artists/vwp/rim), [春猿火](/zh/artists/vwp/harusaruhi), [ヰ世界情緒](/zh/artists/vwp/isekaijoucho) & [幸祜](/zh/artists/vwp/koko))》收录于《[覚醒](/zh/albums/vwp/awakening)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -248,6 +248,7 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [02:36.84]<ruby>だって<rt class="roma">datte</rt></ruby> <ruby>だって<rt class="roma">datte</rt></ruby>
 </div>
+<div class="cn-lyric">[02:36.84]因为 因为</div>
 </div>
 
 <div class="lyric-line">
@@ -268,6 +269,7 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [02:45.15]<ruby>これ<rt class="roma">kore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>、<ruby>なん<rt class="roma">nan</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>？
 </div>
+
 <div class="cn-lyric">[02:45.15]这，是什么呢？</div>
 </div>
 

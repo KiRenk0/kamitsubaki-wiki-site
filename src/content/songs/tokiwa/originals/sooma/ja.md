@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/sooma.jpg
 
 ## 作品概要
 
-tokiwaが2024-10-29にリリースしたシングル「ソーマ」。
+[tokiwa](/ja/artists/creators/tokiwa)が2024-10-29にリリースしたシングル「ソーマ」。
 
 ## 視聴
 {{media-switcher::ソーマ}}

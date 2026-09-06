@@ -38,11 +38,11 @@ tracks:
 
 ## 简介
 
-Guiano于 2024-12-11 发行的EP《Save Me》,共收录 4 首歌曲。
+[Guiano](/zh/artists/creators/guiano)于 2024-12-11 发行的EP《Save Me》,共收录 4 首歌曲。
 
 ## 收录曲
 
 1. 悪夢（03:34）
-2. ネハン（03:42）
+2. [ネハン](/zh/songs/yunosuke/originals/nehan)（03:42）
 3. 冷たい人間と夏の悪魔（04:08）
-4. 星くずのうた（04:55）
+4. [星くずのうた](/zh/songs/guiano/originals/星kuzunouta)（04:55）

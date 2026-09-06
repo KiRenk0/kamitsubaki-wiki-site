@@ -203,12 +203,14 @@ image: /images/albums/kaf/kyoso.jpg
 <div class="jp-lyric">
 [02:19.55]<ruby>我<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>儘<ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
+<div class="cn-lyric">[02:19.55]任性也可以吧？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:22.07]<ruby>エゴ<rt class="roma">ego</rt></ruby><ruby>ばっかり<rt class="roma">bakkari</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
+<div class="cn-lyric">[02:22.07]全是自我也可以吧？</div>
 </div>
 
 <div class="lyric-line">
@@ -271,6 +273,7 @@ image: /images/albums/kaf/kyoso.jpg
 <div class="jp-lyric">
 [02:45.69]<ruby>信<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:45.69]想要相信</div>
 </div>
 
@@ -278,6 +281,7 @@ image: /images/albums/kaf/kyoso.jpg
 <div class="jp-lyric">
 [02:48.11]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>消<rt class="furi">け</rt><rt class="roma">ke</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:48.11]只有我无法消失</div>
 </div>
 

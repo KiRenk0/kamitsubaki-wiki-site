@@ -17,7 +17,7 @@ image: /images/songs/mimi/始点前夕暮re-feat.-初音miku.jpg
 
 ## 作品概要
 
-MIMIが2023-12-02にリリースしたシングル「始点前夕暮れ (feat. 初音ミク)」。
+[MIMI](/ja/artists/creators/mimi)が2023-12-02にリリースしたシングル「始点前夕暮れ (feat. 初音ミク)」。
 
 ## 視聴
 {{media-switcher::始点前夕暮れ (feat. 初音ミク)}}

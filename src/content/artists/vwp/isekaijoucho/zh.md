@@ -178,7 +178,7 @@ seo:
 
 ## 现场活动与相关人物
 
-ヰ世界情緒的 Live 体系包括「キャンディライブ」及其后续 Cover Live、「Anima」系列个人演出、「parallel canvas」Mini-Live，以及与理芽的「Singularity Live」。这些演出分别突出翻唱、3D 形态、绘画和角色叙事，构成她区别于单纯音乐频道的跨媒体履历。
+ヰ世界情緒的 Live 体系包括「キャンディライブ」及其后续 Cover Live、「Anima」系列个人演出、「parallel canvas」Mini-Live，以及与理芽的「[Singularity Live](/zh/albums/rim/singularity-live)」。这些演出分别突出翻唱、3D 形态、绘画和角色叙事，构成她区别于单纯音乐频道的跨媒体履历。
 
 她的视觉创作和曲绘参与度很高，作品资料中经常同时出现 orie、れおえん、samayuzame、とうかさ、はるまきごはん等名字。关于她喜欢意面、绘画、养鱼或游戏的内容属于节目和访谈轶事，可以作为人物阅读材料，但不应与官方基本资料混为一谈。
 

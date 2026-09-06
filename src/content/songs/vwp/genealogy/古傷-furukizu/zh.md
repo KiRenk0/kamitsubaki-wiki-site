@@ -24,7 +24,7 @@ image: /images/albums/vwp/proliferation.jpg
 
 ## 作品简介
 
-《古傷 (feat. [Harusaruhi](/zh/artists/vwp/harusaruhi) & [V.W.P](/zh/artists/vwp/vwp))》收录于《[繁殖](/zh/albums/vwp/proliferation)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《[古傷](/zh/songs/harusaruhi/collaborations/古傷-furukizu) (feat. [Harusaruhi](/zh/artists/vwp/harusaruhi) & [V.W.P](/zh/artists/vwp/vwp))》收录于《[繁殖](/zh/albums/vwp/proliferation)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -202,12 +202,14 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 [02:17.46]<ruby>窮屈<rt class="furi">きゅうくつ</rt><rt class="roma">kyuukutsu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>憂鬱<rt class="furi">ゆううつ</rt><rt class="roma">yuuutsu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>苦<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="cn-lyric">[02:17.46]压抑忧郁又痛苦</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:23.50]<ruby>けど<rt class="roma">kedo</rt></ruby><ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>堪<rt class="furi">たま</rt><rt class="roma">tama</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>おしい<rt class="roma">oshii</rt></ruby>
 </div>
+<div class="cn-lyric">[02:23.50]但那样的自己却无比令人怜爱</div>
 </div>
 
 <div class="lyric-line">
@@ -251,18 +253,21 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 [02:49.04]<ruby>もしも<rt class="roma">moshimo</rt></ruby><ruby>話<rt class="furi">はなし</rt><rt class="roma">hanashi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>永遠<rt class="furi">えいえん</rt><rt class="roma">eien</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[02:49.04]如果话语能到永远</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:52.24]<ruby>夜道<rt class="furi">よみち</rt><rt class="roma">yomichi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>名演技<rt class="furi">めいえんぎ</rt><rt class="roma">meiengi</rt></ruby>
 </div>
+<div class="cn-lyric">[02:52.24]走在夜路上 精彩的演技</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:55.24]<ruby>星空<rt class="furi">ほしぞら</rt><rt class="roma">hoshizora</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>縋<rt class="furi">すが</rt><rt class="roma">suga</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>零<rt class="furi">こぼ</rt><rt class="roma">kobo</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>流れ星<rt class="furi">ながれぼし</rt><rt class="roma">nagareboshi</rt></ruby>
 </div>
+<div class="cn-lyric">[02:55.24]紧抓星空 散落的流星</div>
 </div>
 
 <br />
@@ -271,6 +276,7 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 [03:02.14]<ruby>交差<rt class="furi">こうさ</rt><rt class="roma">kousa</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>線<rt class="furi">せん</rt><rt class="roma">sen</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:02.14]交错的线与</div>
 </div>
 
@@ -278,6 +284,7 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 [03:05.08]<ruby>老化<rt class="furi">ろうか</rt><rt class="roma">rouka</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>表現<rt class="furi">ひょうげん</rt><rt class="roma">hyougen</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:05.08]老化的表达</div>
 </div>
 
@@ -285,6 +292,7 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 [03:07.94]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:07.94]爱 声音 内心的呐喊</div>
 </div>
 
@@ -292,6 +300,7 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 [03:18.91]<ruby>抱<rt class="furi">いだ</rt><rt class="roma">ida</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>寄<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:18.91]拥入怀中</div>
 </div>
 

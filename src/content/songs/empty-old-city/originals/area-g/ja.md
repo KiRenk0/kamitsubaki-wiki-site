@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/area-g.jpg
 
 ## 作品概要
 
-Empty old Cityが2022-02-08にリリースしたシングル「Area G」。
+[Empty old City](/ja/artists/solo/empty-old-city)が2022-02-08にリリースしたシングル「Area G」。
 
 ## 視聴
 {{media-switcher::Area G}}

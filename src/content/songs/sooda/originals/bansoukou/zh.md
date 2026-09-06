@@ -17,7 +17,7 @@ image: /images/songs/sooda/bansoukou.jpg
 
 ## 作品简介
 
-Sooda于 2024-03-22 发行的单曲《Bansoukou》。
+[Sooda](/zh/artists/creators/sooda)于 2024-03-22 发行的单曲《Bansoukou》。
 
 ## 试听
 {{media-switcher::Bansoukou}}

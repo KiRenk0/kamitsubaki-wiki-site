@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 ## 作品简介
 
-《景色([香椎モイミ](/zh/artists/creators/kashiimoimi) Remix)》是[花譜](/zh/artists/vwp/kaf)收录于《[魔法γ](/zh/albums/kaf/maho-gamma)》的第 11 轨。
+《[景色](/zh/songs/kaf/originals/景色-landscape)([香椎モイミ](/zh/artists/creators/kashiimoimi) Remix)》是[花譜](/zh/artists/vwp/kaf)收录于《[魔法γ](/zh/albums/kaf/maho-gamma)》的第 11 轨。
 
 ## 试听
 
@@ -201,12 +201,14 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [02:42.05]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby>
 </div>
+<div class="cn-lyric">[02:42.05]我们无论何处都能去</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:49.20]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>べる<rt class="roma">beru</rt></ruby>
 </div>
+<div class="cn-lyric">[02:49.20]我们无论何处都能飞</div>
 </div>
 
 <div class="lyric-line">
@@ -220,6 +222,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [03:03.62]<ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>巡<rt class="furi">めぐ</rt><rt class="roma">megu</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:03.62]清晨无论多少次都会循环</div>
 </div>
 
@@ -229,18 +232,21 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [03:09.45]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby>
 </div>
+<div class="cn-lyric">[03:09.45]我们无论何处都能去</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:16.42]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>べる<rt class="roma">beru</rt></ruby>
 </div>
+<div class="cn-lyric">[03:16.42]我们无论何处都能飞</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:24.16]<ruby>その<rt class="roma">sono</rt></ruby><ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>かける<rt class="roma">kakeru</rt></ruby><ruby>価値<rt class="furi">かち</rt><rt class="roma">kachi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:24.16]那一切都有赌上性命的价值</div>
 </div>
 
@@ -248,12 +254,14 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [03:31.20]<ruby>景色<rt class="furi">けしき</rt><rt class="roma">keshiki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[03:31.20]拥抱景色</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:38.39]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>自由<rt class="furi">じゆう</rt><rt class="roma">jiyuu</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">[03:38.39]我是自由的</div>
 </div>
 
 </div>

@@ -19,7 +19,7 @@ image: /images/albums/koko/prayer.jpg
 
 ## Overview
 
-閃光の彼方 appears on prayer or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+閃光の彼方 appears on [prayer](/en/albums/koko/prayer) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -182,6 +182,7 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [02:01.98]<ruby>勝ち取<rt class="furi">かちと</rt><rt class="roma">kachito</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby> <ruby>足掻<rt class="furi">あが</rt><rt class="roma">aga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+<div class="trans-lyric">[02:01.98]Win, if you learned by struggling</div>
 </div>
 
 <div class="lyric-line">
@@ -195,6 +196,7 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [02:07.46]<ruby>超<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[02:07.46]Beyond</div>
 </div>
 
 <div class="lyric-line">
@@ -243,6 +245,7 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [03:04.56]<ruby>超<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[03:04.56]Beyond</div>
 </div>
 
 <div class="lyric-line">
@@ -256,6 +259,7 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [03:14.37]<ruby>重<rt class="furi">かさ</rt><rt class="roma">kasa</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>過<rt class="furi">あやま</rt><rt class="roma">ayama</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>連れ去<rt class="furi">つれさ</rt><rt class="roma">tsuresa</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:14.37]The wind where piled-up mistakes carry you away</div>
 </div>
 
@@ -263,6 +267,7 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [03:18.84]<ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:18.84]Let's go</div>
 </div>
 
@@ -270,6 +275,7 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [03:21.46]<ruby>再<rt class="furi">ふたた</rt><rt class="roma">futata</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>出<rt class="furi">で</rt><rt class="roma">de</rt></ruby><ruby>逢<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> <ruby>歌声<rt class="furi">うたごえ</rt><rt class="roma">utagoe</rt></ruby> <ruby>彼方<rt class="furi">かなた</rt><rt class="roma">kanata</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby> (HA)
 </div>
+
 <div class="trans-lyric">[03:21.46]Because we'll meet again, the singing voice to the beyond (HA)</div>
 </div>
 
@@ -277,12 +283,14 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [03:32.46]<ruby>決<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>回答<rt class="furi">かいとう</rt><rt class="roma">kaitou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>脆弱<rt class="furi">ぜいじゃく</rt><rt class="roma">zeijaku</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>面影<rt class="furi">おもかげ</rt><rt class="roma">omokage</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="trans-lyric">[03:32.46]Both predetermined answers and fragile resemblances</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:37.13]<ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> (HA×4)
 </div>
+<div class="trans-lyric">[03:37.13]Far away (HA×4)</div>
 </div>
 
 </div>

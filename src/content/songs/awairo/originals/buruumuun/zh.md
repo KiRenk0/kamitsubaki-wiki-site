@@ -17,7 +17,7 @@ image: /images/songs/awairo/buruumuun.jpg
 
 ## 作品简介
 
-Awairo于 2025-02-21 发行的单曲《ブルームーン》。
+[Awairo](/zh/artists/solo/awairo)于 2025-02-21 发行的单曲《ブルームーン》。
 
 ## 试听
 {{media-switcher::ブルームーン}}

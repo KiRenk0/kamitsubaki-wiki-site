@@ -17,7 +17,7 @@ image: /images/songs/anmc/nemurusora-feat.-somunia.jpg
 
 ## 作品简介
 
-ANMC于 2026-07-29 发行的单曲《ねむるそら (feat. somunia)》。
+[ANMC](/zh/artists/solo/anmc)于 2026-07-29 发行的单曲《ねむるそら (feat. somunia)》。
 
 ## 试听
 @[apple-music](https://music.apple.com/jp/album/%E3%81%AD%E3%82%80%E3%82%8B%E3%81%9D%E3%82%89-feat-somunia/6789074483?i=6789074484&uo=4 "ねむるそら (feat. somunia)")

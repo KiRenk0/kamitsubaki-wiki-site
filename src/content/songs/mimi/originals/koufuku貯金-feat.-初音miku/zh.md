@@ -17,7 +17,7 @@ image: /images/songs/mimi/koufuku貯金-feat.-初音miku.jpg
 
 ## 作品简介
 
-MIMI于 2023-08-04 发行的单曲《コウフク貯金 (feat. 初音ミク)》。
+[MIMI](/zh/artists/creators/mimi)于 2023-08-04 发行的单曲《コウフク貯金 (feat. 初音ミク)》。
 
 ## 试听
 {{media-switcher::コウフク貯金 (feat. 初音ミク)}}

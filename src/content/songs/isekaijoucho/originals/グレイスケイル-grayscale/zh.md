@@ -176,24 +176,28 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 <div class="jp-lyric">
 [00:51.73]<ruby>簡単<rt class="furi">かんたん</rt><rt class="roma">kantan</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>さえ<rt class="roma">sae</rt></ruby><ruby>見紛<rt class="furi">みまが</rt><rt class="roma">mimaga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[00:51.73]连简单的事都看错</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:54.10]<ruby>この<rt class="roma">kono</rt></ruby><ruby>グレイスケイル<rt class="roma">gureisukeiru</rt></ruby>
 </div>
+<div class="cn-lyric">[00:54.10]这层灰阶</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:56.63]<ruby>凄惨<rt class="furi">せいさん</rt><rt class="roma">seisan</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>レアリティ<rt class="roma">rearitei</rt></ruby>
 </div>
+<div class="cn-lyric">[00:56.63]凄惨的稀有度</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:59.34]<ruby>この<rt class="roma">kono</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[00:59.34]用这声音 触碰</div>
 </div>
 
 <br />
@@ -290,6 +294,7 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 <div class="jp-lyric">
 [01:51.47]<ruby>危険<rt class="furi">きけん</rt><rt class="roma">kiken</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>猛毒<rt class="furi">もうどく</rt><rt class="roma">moudoku</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:51.47]危险的剧毒</div>
 </div>
 
@@ -299,6 +304,7 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 <div class="jp-lyric">
 [02:00.08]<ruby>ヰ<rt class="roma">wi</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>情緒<rt class="furi">じょうちょ</rt><rt class="roma">joucho</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>偏在<rt class="furi">へんざい</rt><rt class="roma">henzai</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:00.08]异世界情绪 无处不在</div>
 </div>
 
@@ -308,18 +314,21 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 <div class="jp-lyric">
 [02:12.42]<ruby>世<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>偲<rt class="furi">しの</rt><rt class="roma">shino</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby><ruby>素人<rt class="furi">しろうと</rt><rt class="roma">shirouto</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>思慮<rt class="furi">しりょ</rt><rt class="roma">shiryo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:12.42]追忆世间的凡人思虑</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:14.98]<ruby>この<rt class="roma">kono</rt></ruby><ruby>惑星<rt class="furi">わくせい</rt><rt class="roma">wakusei</rt></ruby><ruby>これ<rt class="roma">kore</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>しろ<rt class="roma">shiro</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
+<div class="cn-lyric">[02:14.98]这行星 今后该如何是好</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:17.45]<ruby>徒労<rt class="furi">とろう</rt><rt class="roma">torou</rt></ruby><ruby>しも<rt class="roma">shimo</rt></ruby> <ruby>兆<rt class="furi">きざ</rt><rt class="roma">kiza</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>目指<rt class="furi">めざ</rt><rt class="roma">meza</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby> <ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>なし<rt class="roma">nashi</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:17.45]徒劳也好 征兆也罢 瞄准 毫无意义</div>
 </div>
 
@@ -327,6 +336,7 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 <div class="jp-lyric">
 [02:20.12]<ruby>最期<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>皆<rt class="furi">みな</rt><rt class="roma">mina</rt></ruby><ruby>々<rt class="furi">々</rt><rt class="roma">々</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>神頼<rt class="furi">かみだの</rt><rt class="roma">kamidano</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:20.12]最后每个人都 祈求神明</div>
 </div>
 
@@ -336,24 +346,28 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 <div class="jp-lyric">
 [02:22.84]<ruby>簡単<rt class="furi">かんたん</rt><rt class="roma">kantan</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>さえ<rt class="roma">sae</rt></ruby><ruby>見紛<rt class="furi">みまが</rt><rt class="roma">mimaga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[02:22.84]连简单的事都看错</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:25.21]<ruby>この<rt class="roma">kono</rt></ruby><ruby>グレイスケイル<rt class="roma">gureisukeiru</rt></ruby>
 </div>
+<div class="cn-lyric">[02:25.21]这层灰阶</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:28.07]<ruby>凄惨<rt class="furi">せいさん</rt><rt class="roma">seisan</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>レアリティ<rt class="roma">rearitei</rt></ruby>
 </div>
+<div class="cn-lyric">[02:28.07]凄惨的稀有度</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:30.50]<ruby>この<rt class="roma">kono</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[02:30.50]用这声音 触碰</div>
 </div>
 
 <br />
@@ -362,24 +376,28 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 <div class="jp-lyric">
 [02:32.99]<ruby>斜<rt class="furi">はす</rt><rt class="roma">hasu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>構<rt class="furi">かま</rt><rt class="roma">kama</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>態<rt class="furi">たい</rt><rt class="roma">tai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[02:32.99]摆出歪斜的姿态</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:35.69]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>縋<rt class="furi">すが</rt><rt class="roma">suga</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby> <ruby>メーデー<rt class="roma">meedee</rt></ruby>
 </div>
+<div class="cn-lyric">[02:35.69]在依靠着什么 Mayday</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:38.03]<ruby>混線<rt class="furi">こんせん</rt><rt class="roma">konsen</rt></ruby><ruby>足<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>致死<rt class="furi">ちし</rt><rt class="roma">chishi</rt></ruby><ruby>量<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby>
 </div>
+<div class="cn-lyric">[02:38.03]混乱交织的致死量</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:40.74]<ruby>迫<rt class="furi">せま</rt><rt class="roma">sema</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>エンドロール<rt class="roma">endorouru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[02:40.74]在逼近的片尾字幕中</div>
 </div>
 
 </div>

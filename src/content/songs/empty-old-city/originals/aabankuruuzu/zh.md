@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/aabankuruuzu.jpg
 
 ## 作品简介
 
-Empty old City于 2021-01-19 发行的单曲《アーバンクルーズ》。
+[Empty old City](/zh/artists/solo/empty-old-city)于 2021-01-19 发行的单曲《アーバンクルーズ》。
 
 ## 试听
 {{media-switcher::アーバンクルーズ}}

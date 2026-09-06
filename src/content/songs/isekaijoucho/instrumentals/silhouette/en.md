@@ -178,6 +178,7 @@ Addicted to the taste of it
 <div class="jp-lyric">
 Silhouette silhouette
 </div>
+<div class="trans-lyric">Silhouette silhouette</div>
 </div>
 
 <div class="lyric-line">
@@ -198,6 +199,7 @@ Place me where you want me
 <div class="jp-lyric">
 Just act like you know me
 </div>
+<div class="trans-lyric">Just act like you know me</div>
 </div>
 
 <br />
@@ -289,18 +291,21 @@ The difference is you know me
 <div class="jp-lyric">
 Don't act a fool
 </div>
+<div class="trans-lyric">Don't act a fool</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Let me feel and touch you to
 </div>
+<div class="trans-lyric">Let me feel and touch you to</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Don't be so modest
 </div>
+
 <div class="trans-lyric">Don't be so modest</div>
 </div>
 
@@ -308,12 +313,14 @@ Don't be so modest
 <div class="jp-lyric">
 When I know you want it
 </div>
+<div class="trans-lyric">When I know you want it</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 (Want it want it)
 </div>
+
 <div class="trans-lyric">(Want it want it)</div>
 </div>
 
@@ -323,24 +330,28 @@ When I know you want it
 <div class="jp-lyric">
 Silhouette silhouette
 </div>
+<div class="trans-lyric">Silhouette silhouette</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Better get used to me knowing it
 </div>
+<div class="trans-lyric">Better get used to me knowing it</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Treat me like your little cigarette
 </div>
+<div class="trans-lyric">Treat me like your little cigarette</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Addicted to the taste of it
 </div>
+<div class="trans-lyric">Addicted to the taste of it</div>
 </div>
 
 <br />
@@ -349,24 +360,28 @@ Addicted to the taste of it
 <div class="jp-lyric">
 Silhouette silhouette
 </div>
+<div class="trans-lyric">Silhouette silhouette</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Playin in my head in my head
 </div>
+<div class="trans-lyric">Playin in my head in my head</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Place me where you want me
 </div>
+<div class="trans-lyric">Place me where you want me</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Just act like you know me
 </div>
+<div class="trans-lyric">Just act like you know me</div>
 </div>
 
 <br />
@@ -375,42 +390,49 @@ Just act like you know me
 <div class="jp-lyric">
 Silhouette silhouette
 </div>
+<div class="trans-lyric">Silhouette silhouette</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Silhouette silhouette
 </div>
+<div class="trans-lyric">Silhouette silhouette</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Better get used to me knowing it
 </div>
+<div class="trans-lyric">Better get used to me knowing it</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Silhouette silhouette
 </div>
+<div class="trans-lyric">Silhouette silhouette</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Treat me like your little cigarette
 </div>
+<div class="trans-lyric">Treat me like your little cigarette</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Silhouette silhouette
 </div>
+<div class="trans-lyric">Silhouette silhouette</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Better get addicted to the taste of it
 </div>
+
 <div class="trans-lyric">Better get addicted to the taste of it</div>
 </div>
 
@@ -420,12 +442,14 @@ Better get addicted to the taste of it
 <div class="jp-lyric">
 Silhouette silhouette
 </div>
+<div class="trans-lyric">Silhouette silhouette</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You want it
 </div>
+
 <div class="trans-lyric">You want it</div>
 </div>
 
@@ -433,18 +457,22 @@ You want it
 <div class="jp-lyric">
 Just act like you know me
 </div>
+<div class="trans-lyric">Just act like you know me</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Silhouette silhouette
 </div>
+<div class="trans-lyric">Silhouette silhouette</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Better get addicted to the taste of it
 </div>
+
+<div class="trans-lyric">Better get addicted to the taste of it</div>
 </div>
 
 </div>

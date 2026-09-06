@@ -81,7 +81,7 @@ teresaAI的音乐根植于跨太平洋的成长背景，以日语和英语流行
 
 ## 相关企划 / 关联设定
 
-teresaAI在SINSEKAI RECORD生态系统内运作。从te'resa到软件与艺术家双重存在的演变，反映了虚拟歌手领域更广泛的趋势：声音身份正逐渐独立于任何单一表演者或虚拟形象而存在。
+teresaAI在[SINSEKAI RECORD](/zh/projects/archive/sinsekai-studio)生态系统内运作。从te'resa到软件与艺术家双重存在的演变，反映了虚拟歌手领域更广泛的趋势：声音身份正逐渐独立于任何单一表演者或虚拟形象而存在。
 
 ## 参考资料
 

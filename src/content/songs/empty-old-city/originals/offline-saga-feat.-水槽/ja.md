@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/offline-saga-feat.-水槽.jpg
 
 ## 作品概要
 
-Empty old Cityが2024-01-23にリリースしたシングル「Offline Saga (feat. 水槽)」。
+[Empty old City](/ja/artists/solo/empty-old-city)が2024-01-23にリリースしたシングル「Offline Saga (feat. 水槽)」。
 
 ## 視聴
 @[apple-music](https://music.apple.com/jp/album/offline-saga-feat-suisoh/1888375903?i=1888375907&uo=4 "Offline Saga (feat. 水槽)")

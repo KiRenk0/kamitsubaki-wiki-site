@@ -17,7 +17,7 @@ image: /images/songs/valis/偶像naitomea.jpg
 
 ## 作品简介
 
-VALIS于 2023-04-17 发行的单曲《偶像ナイトメア》。
+[VALIS](/zh/artists/solo/valis)于 2023-04-17 发行的单曲《偶像ナイトメア》。
 
 ## 试听
 @[apple-music](https://music.apple.com/jp/album/%E5%81%B6%E5%83%8F%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A1%E3%82%A2/1689358586?i=1689358587&uo=4 "偶像ナイトメア")

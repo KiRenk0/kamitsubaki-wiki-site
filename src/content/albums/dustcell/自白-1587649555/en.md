@@ -78,21 +78,21 @@ tracks:
 
 ## Overview
 
-DUSTCELL's album “自白”, released on 2021-10-20, featuring 14 tracks.
+[DUSTCELL](/en/artists/solo/dustcell)'s album “自白”, released on 2021-10-20, featuring 14 tracks.
 
 ## Track List
 
-1. DERO (03:17)
+1. [DERO](/en/songs/dustcell/originals/dero) (03:17)
 2. 火焔 (02:58)
 3. izqnqi (03:17)
-4. Mad Hatter (02:41)
+4. [Mad Hatter](/en/songs/dustcell/originals/mad-hatter) (02:41)
 5. 堕落生活 (02:52)
 6. INSIDE (02:56)
 7. perfectionist (02:39)
-8. TOUBOU (02:36)
+8. [TOUBOU](/en/songs/dustcell/originals/toubou) (02:36)
 9. 白雨 (01:06)
 10. albino (03:20)
 11. bibouroku (02:52)
 12. ORIGINAL (02:52)
-13. 命の行方 (03:25)
-14. 独白 (03:17)
+13. [命の行方](/en/songs/dustcell/originals/命no行方) (03:25)
+14. [独白](/en/songs/dustcell/originals/独白) (03:17)

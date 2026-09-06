@@ -17,7 +17,7 @@ image: /images/songs/ciel/uwanosora.jpg
 
 ## 作品概要
 
-CIELが2023-12-05にリリースしたシングル「うわのそら」。
+[CIEL](/ja/artists/solo/ciel)が2023-12-05にリリースしたシングル「うわのそら」。
 
 ## 視聴
 {{media-switcher::うわのそら}}

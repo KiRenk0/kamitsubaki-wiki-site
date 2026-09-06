@@ -70,6 +70,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:09.64]yeah, yeah, yeah
 </div>
+<div class="cn-lyric">[00:09.64]yeah, yeah, yeah</div>
 </div>
 
 <div class="lyric-line">
@@ -132,6 +133,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:27.06]Drunk Drunk Drunk Drunk
 </div>
+<div class="cn-lyric">[00:27.06]Drunk Drunk Drunk Drunk</div>
 </div>
 
 <div class="lyric-line">
@@ -180,12 +182,14 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:37.67]Drunk Drunk Drunk Drunk
 </div>
+<div class="cn-lyric">[00:37.67]Drunk Drunk Drunk Drunk</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:39.42]<ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
+
 <div class="cn-lyric">[00:39.42]直到早晨</div>
 </div>
 
@@ -193,6 +197,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:40.36]Chat Chat Chat Chat
 </div>
+
 <div class="cn-lyric">[00:40.36]Chat Chat Chat Chat</div>
 </div>
 
@@ -200,6 +205,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:42.37]yeah
 </div>
+<div class="cn-lyric">[00:42.37]yeah</div>
 </div>
 
 <br />

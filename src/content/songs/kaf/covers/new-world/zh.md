@@ -17,7 +17,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 ## 作品简介
 
-《new world (feat. [ヰ世界情緒](/zh/artists/vwp/isekaijoucho)) (I SCREAM LIVE4 ver.)》是[花譜](/zh/artists/vwp/kaf)收录于《[I SCREAM LIVE4 - Cover Live Album -](/zh/albums/kaf/i-scream-live-4)》的第 5 轨。
+《[new world](/zh/songs/isekaijoucho/originals/new-world) (feat. [ヰ世界情緒](/zh/artists/vwp/isekaijoucho)) (I SCREAM LIVE4 ver.)》是[花譜](/zh/artists/vwp/kaf)收录于《[I SCREAM LIVE4 - Cover Live Album -](/zh/albums/kaf/i-scream-live-4)》的第 5 轨。
 
 ## 试听
 
@@ -77,6 +77,7 @@ We'll unite this world together
 <div class="jp-lyric">
 We are the new world
 </div>
+<div class="cn-lyric">我们是新世界</div>
 </div>
 
 <div class="lyric-line">
@@ -92,12 +93,14 @@ We'll put this fire out forever
 <div class="jp-lyric">
 We are the new world
 </div>
+<div class="cn-lyric">我们是新世界</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 We'll put this fire out forever
 </div>
+<div class="cn-lyric">我们将永远扑灭这火焰</div>
 </div>
 
 <br />
@@ -113,6 +116,7 @@ We can make our own salvation
 <div class="jp-lyric">
 When there's a battle to be won
 </div>
+
 <div class="cn-lyric">当有战役待赢取</div>
 </div>
 
@@ -120,6 +124,7 @@ When there's a battle to be won
 <div class="jp-lyric">
 We can end this fight forever
 </div>
+
 <div class="cn-lyric">我们可以永远结束这场战斗</div>
 </div>
 
@@ -127,6 +132,7 @@ We can end this fight forever
 <div class="jp-lyric">
 Take the bullet from the gun
 </div>
+
 <div class="cn-lyric">将子弹从枪膛取出</div>
 </div>
 
@@ -136,24 +142,28 @@ Take the bullet from the gun
 <div class="jp-lyric">
 We are the new world
 </div>
+<div class="cn-lyric">我们是新世界</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 We'll unite this world together
 </div>
+<div class="cn-lyric">我们将携手团结这世界</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 We are the new world
 </div>
+<div class="cn-lyric">我们是新世界</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 We'll put this fire out forever
 </div>
+<div class="cn-lyric">我们将永远扑灭这火焰</div>
 </div>
 
 </div>

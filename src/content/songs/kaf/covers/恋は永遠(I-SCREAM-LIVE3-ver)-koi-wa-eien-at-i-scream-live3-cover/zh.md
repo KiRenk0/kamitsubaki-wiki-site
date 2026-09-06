@@ -381,6 +381,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby>
 </div>
+<div class="cn-lyric">无法忘记的你的事</div>
 </div>
 
 <div class="lyric-line">
@@ -508,6 +509,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby>
 </div>
+<div class="cn-lyric">无法忘记的你的事</div>
 </div>
 
 <div class="lyric-line">
@@ -571,6 +573,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [00:05.15]<ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>永遠<rt class="furi">えいえん</rt><rt class="roma">eien</rt></ruby>
 </div>
+
 <div class="cn-lyric">[00:05.15]恋爱是永恒的</div>
 </div>
 
@@ -578,6 +581,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 <ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>ときめい<rt class="roma">tokimei</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いこ<rt class="roma">iko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>あり<rt class="roma">ari</rt></ruby><ruby>ませ<rt class="roma">mase</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+
 <div class="cn-lyric">直到死都要保持心动 何不如此呢</div>
 </div>
 

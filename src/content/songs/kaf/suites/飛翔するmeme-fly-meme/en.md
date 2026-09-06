@@ -110,7 +110,9 @@ image: /images/songs/kaf/track-1688514096.jpg
 <div class="jp-lyric">
 [00:44.06]<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
-<div class="trans-lyric">Because we realized it wouldn't be enough</div>
+<div class="trans-lyric">
+[00:44.06]Because we realized it wouldn't be enough
+</div>
 </div>
 
 <div class="lyric-line">
@@ -235,7 +237,9 @@ image: /images/songs/kaf/track-1688514096.jpg
 <div class="jp-lyric">
 [01:55.10]Backwash <ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>ざかる<rt class="roma">zakaru</rt></ruby><ruby>ニルヴァナ<rt class="roma">niruvuana</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
-<div class="trans-lyric">Backwash, to the receding Nirvana</div>
+<div class="trans-lyric">
+[01:55.10]Backwash, to the receding Nirvana
+</div>
 </div>
 
 <div class="lyric-line">
@@ -295,6 +299,7 @@ image: /images/songs/kaf/track-1688514096.jpg
 <div class="jp-lyric">
 [02:20.65]<ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>煙<rt class="furi">けむり</rt><rt class="roma">kemuri</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby> <ruby>生き延<rt class="furi">いきの</rt><rt class="roma">ikino</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[02:20.65]Become ambiguous smoke, survive</div>
 </div>
 
 <div class="lyric-line">
@@ -322,7 +327,7 @@ image: /images/songs/kaf/track-1688514096.jpg
 <div class="jp-lyric">
 [02:34.82]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>羽<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>ばたい<rt class="roma">batai</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>みせ<rt class="roma">mise</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="trans-lyric">Just show me how to flap</div>
+<div class="trans-lyric">[02:34.82]Just show me how to flap</div>
 </div>
 
 <br />
@@ -331,6 +336,7 @@ image: /images/songs/kaf/track-1688514096.jpg
 <div class="jp-lyric">
 [02:38.03]<ruby>飛翔<rt class="furi">ひしょう</rt><rt class="roma">hishou</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>ミーム<rt class="roma">miimu</rt></ruby> <ruby>ミーム<rt class="roma">miimu</rt></ruby> <ruby>ミーム<rt class="roma">miimu</rt></ruby>
 </div>
+<div class="trans-lyric">[02:38.03]Soaring meme, meme, meme</div>
 </div>
 
 <div class="lyric-line">
@@ -344,18 +350,21 @@ image: /images/songs/kaf/track-1688514096.jpg
 <div class="jp-lyric">
 [02:44.23]<ruby>羽<rt class="furi">はね</rt><rt class="roma">hane</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby> <ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>舞<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>脳<rt class="furi">のう</rt><rt class="roma">nou</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
+<div class="trans-lyric">[02:44.23]Become wings, dance in the sky, into your brain</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:49.60]<ruby>回<rt class="furi">まわ</rt><rt class="roma">mawa</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>リール<rt class="roma">riiru</rt></ruby> <ruby>リール<rt class="roma">riiru</rt></ruby> <ruby>リール<rt class="roma">riiru</rt></ruby>
 </div>
+<div class="trans-lyric">[02:49.60]Spinning reel, reel, reel</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:52.62]<ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby> <ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>背<rt class="furi">せ</rt><rt class="roma">se</rt></ruby><ruby>なに<rt class="roma">nani</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="trans-lyric">[02:52.62]I didn't know, on my back</div>
 </div>
 
 <div class="lyric-line">
@@ -450,6 +459,7 @@ image: /images/songs/kaf/track-1688514096.jpg
 <div class="jp-lyric">
 [03:34.30]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>欠片<rt class="furi">かけら</rt><rt class="roma">kakera</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:34.30]Would you laugh? Fragments of words again</div>
 </div>
 
@@ -457,6 +467,7 @@ image: /images/songs/kaf/track-1688514096.jpg
 <div class="jp-lyric">
 [03:37.26]<ruby>窓<rt class="furi">まど</rt><rt class="roma">mado</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>こえ<rt class="roma">koe</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ひらひら<rt class="roma">hirahira</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>舞<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:37.26]Floating and dancing across the window</div>
 </div>
 
@@ -464,6 +475,7 @@ image: /images/songs/kaf/track-1688514096.jpg
 <div class="jp-lyric">
 [03:39.67]<ruby>開<rt class="furi">ひら</rt><rt class="roma">hira</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>ちっぽけ<rt class="roma">chippoke</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ミーム<rt class="roma">miimu</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:39.67]The open sky, a tiny meme</div>
 </div>
 
@@ -471,6 +483,7 @@ image: /images/songs/kaf/track-1688514096.jpg
 <div class="jp-lyric">
 [03:41.71]<ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>景色<rt class="furi">けしき</rt><rt class="roma">keshiki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>たくさん<rt class="roma">takusan</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>おい<rt class="roma">oi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:41.71]Go see many unknown sights</div>
 </div>
 
@@ -478,12 +491,15 @@ image: /images/songs/kaf/track-1688514096.jpg
 <div class="jp-lyric">
 [03:44.08]<ruby>開<rt class="furi">ひら</rt><rt class="roma">hira</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>ちっぽけ<rt class="roma">chippoke</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ミーム<rt class="roma">miimu</rt></ruby>
 </div>
+
+<div class="trans-lyric">[03:44.08]The open sky, a tiny meme</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:46.65]<ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>景色<rt class="furi">けしき</rt><rt class="roma">keshiki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:46.65]Unknown sights</div>
 </div>
 

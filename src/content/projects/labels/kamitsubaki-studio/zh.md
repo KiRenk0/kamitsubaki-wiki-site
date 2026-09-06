@@ -36,7 +36,7 @@ KAMITSUBAKI STUDIO（神椿工作室）成立于 2019年10月18日，是株式�
 - **2023年3月31日**：神椿专属作曲家兼音乐制作人 カンザキイオリ 正式毕业。
 - **2023年10月18日**：宣布[雄之助](/zh/artists/creators/yunosuke)与 WaMi 组成音乐组合「[Awairo](/zh/artists/solo/awairo)」正式出道。
 - **2024年1月13日 - 14日**：成功举办厂牌大型盛典「KAMITSUBAKI FES '24」。
-- **2026年9月5日**：THINKR 公布工作室重组（スタジオ構造の刷新）。KAMITSUBAKI STUDIO 转型为专注虚拟领域的厂牌；以分拆形式新设 [KYOKAI STUDIO](/zh/projects/labels/kyokai-studio)（与探求自身边界的艺术家协作）与 [UNKNOWN LAB](/zh/projects/labels/unknown-lab)（由总括制作人 PIEDPIPER 为中心的 R&D 部门）。同日官方网站全面改版，工作室内部厂牌统一整合为 **PHENOMENON RECORD**，[深脊界（SINSEKAI RECORD）](/zh/projects/archive/sinsekai-studio)等厂牌名称随之停止使用。
+- **2026年9月5日**：THINKR 公布工作室重组（スタジオ構造の刷新）。KAMITSUBAKI STUDIO 转型为专注虚拟领域的厂牌；以分拆形式新设 [KYOKAI STUDIO](/zh/projects/labels/kyokai-studio)（与探求自身边界的艺术家协作）与 [UNKNOWN LAB](/zh/projects/labels/unknown-lab)（由总括制作人 [PIEDPIPER](/zh/artists/creators/piedpiper) 为中心的 R&D 部门）。同日官方网站全面改版，工作室内部厂牌统一整合为 **PHENOMENON RECORD**，[深脊界（SINSEKAI RECORD）](/zh/projects/archive/sinsekai-studio)等厂牌名称随之停止使用。
 
 ## 旗下核心成员
 
@@ -81,7 +81,7 @@ KAMITSUBAKI STUDIO（神椿工作室）成立于 2019年10月18日，是株式�
 
 ## 核心概念
 
-“魔女”“神椿市”“观测”和“虚拟与现实的边界”是贯穿神椿作品的关键词。“观测”不只是粉丝称呼：观测者通过观看视频、聆听歌曲、参与演出和记录资料，成为作品持续被理解和保存的一部分。
+“[魔女](/zh/songs/kaf/originals/majo)”“神椿市”“观测”和“虚拟与现实的边界”是贯穿神椿作品的关键词。“观测”不只是粉丝称呼：观测者通过观看视频、聆听歌曲、参与演出和记录资料，成为作品持续被理解和保存的一部分。
 
 神椿经常从音乐出发，再扩展到 MV、插画、角色、Live、游戏、小说、舞台剧或动画。同一人物可能同时拥有歌手履历、音乐同位体、跨媒体角色和现场形态等不同层次；本站将这些层次分开记录，再通过关联条目连接。
 

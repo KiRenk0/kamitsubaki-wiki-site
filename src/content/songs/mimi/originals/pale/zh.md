@@ -17,7 +17,7 @@ image: /images/songs/mimi/pale.jpg
 
 ## 作品简介
 
-MIMI于 2021-03-19 发行的单曲《Pale》。
+[MIMI](/zh/artists/creators/mimi)于 2021-03-19 发行的单曲《Pale》。
 
 ## 试听
 {{media-switcher::Pale}}

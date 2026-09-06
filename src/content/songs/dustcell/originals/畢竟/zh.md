@@ -17,7 +17,7 @@ image: /images/songs/dustcell/畢竟.jpg
 
 ## 作品简介
 
-DUSTCELL于 2025-01-01 发行的单曲《畢竟》。
+[DUSTCELL](/zh/artists/solo/dustcell)于 2025-01-01 发行的单曲《畢竟》。
 
 ## 试听
 {{media-switcher::畢竟}}

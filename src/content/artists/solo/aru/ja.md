@@ -40,7 +40,7 @@ categorySubtitle: "SOLO ARTISTS & UNITS"
 
 ## 代表作品
 
-「さよなら」「まほう」「残響」「かいぶつ」「ギフテッド」が代表作にあたる。[Albemuth](/ja/artists/solo/albemuth)期には「[Guilty](/ja/songs/albemuth/originals/guilty)」「[新世界へ](/ja/songs/asu/originals/新世界he)」「tether」「Black Cloth」に参加し、メンバーサイド・アルバム『eve』ではユニットの存流側の視点を担った。
+「さよなら」「まほう」「[残響](/ja/songs/koko/covers/残響-zankyou)」「かいぶつ」「ギフテッド」が代表作にあたる。[Albemuth](/ja/artists/solo/albemuth)期には「[Guilty](/ja/songs/albemuth/originals/guilty)」「[新世界へ](/ja/songs/asu/originals/新世界he)」「tether」「Black Cloth」に参加し、メンバーサイド・アルバム『eve』ではユニットの存流側の視点を担った。
 
 
 ## 歩み

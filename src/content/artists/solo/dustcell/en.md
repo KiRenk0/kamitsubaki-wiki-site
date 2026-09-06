@@ -81,7 +81,7 @@ Misumi is DUSTCELL's composer and arranger and is also active as a Vocaloid prod
 
 ### 2019: Formation
 
-- **October 11**: Released the first original song “CULT”.
+- **October 11**: Released the first original song “[CULT](/en/songs/harusaruhi/covers/cult)”.
 - **October 18**: Announced participation in the newly established [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio).
 - **November 22**: Released “STIGMA”, an important early work.
 
@@ -89,7 +89,7 @@ Misumi is DUSTCELL's composer and arranger and is also active as a Vocaloid prod
 
 - **January 1**: Opened Bilibili and Weibo channels for Chinese audiences.
 - Released “LAZY”, “Heaven and Hell”, “DOMINATION”, “LILAC”, and “SOPPY”.
-- **May 20**: Released the 1st full album *SUMMIT*.
+- **May 20**: Released the 1st full album *[SUMMIT](/en/albums/dustcell/summit-1688155907)*.
 - **July 3**: Converted the planned live into an audience-free stream because of the pandemic.
 - **July 31**: Held the 1st ONE-MAN LIVE *SUMMIT*.
 - **November 15**: Held the 2nd ONE-MAN LIVE *HOWL* in both online and in-person formats.

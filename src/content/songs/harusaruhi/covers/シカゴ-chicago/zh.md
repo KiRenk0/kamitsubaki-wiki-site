@@ -126,6 +126,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 <ruby>出<rt class="furi">で</rt><rt class="roma">de</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>遊<rt class="furi">あそ</rt><rt class="roma">aso</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>あげ<rt class="roma">age</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">别出来 我可不会陪你玩</div>
 </div>
 
 <div class="lyric-line">
@@ -153,18 +154,21 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 <ruby>もう<rt class="roma">mou</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>つもり<rt class="roma">tsumori</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>デタラメ<rt class="roma">detarame</rt></ruby><ruby>しゃべり<rt class="roma">shaberi</rt></ruby><ruby>だす<rt class="roma">dasu</rt></ruby>
 </div>
+<div class="cn-lyric">已经什么也说不出 我不是那个意思 开始胡言乱语</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ああ<rt class="roma">aa</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>つもり<rt class="roma">tsumori</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>アレコレ<rt class="roma">arekore</rt></ruby><ruby>しゃべり<rt class="roma">shaberi</rt></ruby><ruby>だす<rt class="roma">dasu</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">啊啊该怎么说才好 我不是那个意思 开始说东道西了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>こっち<rt class="roma">kotchi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ダメ<rt class="roma">dame</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>イタズラ<rt class="roma">itazura</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>もどら<rt class="roma">modora</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+
 <div class="cn-lyric">这边不行哟 就算恶作剧 也回不去了</div>
 </div>
 

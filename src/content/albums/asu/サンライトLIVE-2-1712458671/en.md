@@ -114,7 +114,7 @@ tracks:
 3. W/X/Y - サンライトLIVE 2 (Cover) (04:39)
 4. 死神 - サンライトLIVE 2 (Cover) (03:04)
 4. memory - サンライトLIVE 2 (Cover) (03:05)
-5. DERO - サンライトLIVE 2 (Cover) (03:19)
+5. [DERO](/en/songs/dustcell/originals/dero) - サンライトLIVE 2 (Cover) (03:19)
 5. Vacation - サンライトLIVE 2 (Cover) (03:01)
 6. 威風堂々 - サンライトLIVE 2 (Cover) (03:21)
 6. ラビリンス - サンライトLIVE 2 (Cover) (04:55)

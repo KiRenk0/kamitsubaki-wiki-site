@@ -245,6 +245,7 @@ image: /images/songs/isekaijoucho/single-1860513191.jpg
 <div class="jp-lyric">
 [01:57.02]<ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>遍<rt class="furi">へん</rt><rt class="roma">hen</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>焦<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>がれ<rt class="roma">gare</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[01:57.02]无数次渴望</div>
 </div>
 
 <div class="lyric-line">
@@ -272,6 +273,7 @@ image: /images/songs/isekaijoucho/single-1860513191.jpg
 <div class="jp-lyric">
 [02:06.34]Under the moonlight
 </div>
+<div class="cn-lyric">[02:06.34]Under the moonlight</div>
 </div>
 
 <div class="lyric-line">
@@ -285,6 +287,7 @@ image: /images/songs/isekaijoucho/single-1860513191.jpg
 <div class="jp-lyric">
 [02:12.04]How many chains must I break?
 </div>
+<div class="cn-lyric">[02:12.04]How many chains must I break?</div>
 </div>
 
 <div class="lyric-line">
@@ -368,6 +371,7 @@ image: /images/songs/isekaijoucho/single-1860513191.jpg
 <div class="jp-lyric">
 [02:55.25]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>邪魔<rt class="furi">じゃま</rt><rt class="roma">jama</rt></ruby><ruby>など<rt class="roma">nado</rt></ruby><ruby>でき<rt class="roma">deki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:55.25]这无人能阻碍的</div>
 </div>
 
@@ -375,6 +379,7 @@ image: /images/songs/isekaijoucho/single-1860513191.jpg
 <div class="jp-lyric">
 [02:58.26]<ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>自由<rt class="furi">じゆう</rt><rt class="roma">jiyuu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:58.26]为了这可笑般自由的生命</div>
 </div>
 
@@ -382,6 +387,7 @@ image: /images/songs/isekaijoucho/single-1860513191.jpg
 <div class="jp-lyric">
 [03:02.55]<ruby>何一<rt class="furi">なにひと</rt><rt class="roma">nanihito</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>諦<rt class="furi">あきら</rt><rt class="roma">akira</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:02.55]绝不放弃任何一样</div>
 </div>
 

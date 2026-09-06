@@ -99,7 +99,9 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [00:41.96]<ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>スイッチ<rt class="roma">suitchi</rt></ruby> <ruby>ピンポン<rt class="roma">pinpon</rt></ruby><ruby>ダッシュ<rt class="roma">dasshu</rt></ruby>
 </div>
-<div class="trans-lyric">The stop switch, a ding-dong dash</div>
+<div class="trans-lyric">
+[00:41.96]The stop switch, a ding-dong dash
+</div>
 </div>
 
 <div class="lyric-line">
@@ -113,7 +115,9 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [00:58.16]<ruby>ひっきりなしに<rt class="roma">hikkirinashini</rt></ruby> <ruby>起<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>こる<rt class="roma">koru</rt></ruby>
 </div>
-<div class="trans-lyric">Without letting up, they happen</div>
+<div class="trans-lyric">
+[00:58.16]Without letting up, they happen
+</div>
 </div>
 
 <div class="lyric-line">
@@ -162,30 +166,35 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [01:38.60]<ruby>チクタクボーイ<rt class="roma">chikutakuboui</rt></ruby> <ruby>静<rt class="furi">しず</rt><rt class="roma">shizu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="trans-lyric">[01:38.60]Tick-tock boy, the quiet night</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:41.26]<ruby>チクタクボーイ<rt class="roma">chikutakuboui</rt></ruby> <ruby>乗っ取<rt class="furi">のっと</rt><rt class="roma">notto</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="trans-lyric">[01:41.26]Tick-tock boy, take it over</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:43.99]<ruby>天変地異<rt class="furi">てんぺんちい</rt><rt class="roma">tenpenchii</rt></ruby><ruby>と<rt class="roma">to</rt></ruby> <ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby>
 </div>
+<div class="trans-lyric">[01:43.99]Cataclysms and the end of the world</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:46.66]<ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>スイッチ<rt class="roma">suitchi</rt></ruby> <ruby>ピンポン<rt class="roma">pinpon</rt></ruby><ruby>ダッシュ<rt class="roma">dasshu</rt></ruby>
 </div>
+<div class="trans-lyric">[01:46.66]The stop switch, a ding-dong dash</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:49.40]<ruby>チクタクボーイ<rt class="roma">chikutakuboui</rt></ruby> <ruby>時間<rt class="furi">じかん</rt><rt class="roma">jikan</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="trans-lyric">[01:49.40]Tick-tock boy, there's no time</div>
 </div>
 
@@ -193,13 +202,15 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [01:52.06]<ruby>チクタクボーイ<rt class="roma">chikutakuboui</rt></ruby> <ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
-<div class="trans-lyric">Tick-tock boy, fly away</div>
+
+<div class="trans-lyric">[01:52.06]Tick-tock boy, fly away</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:54.79]<ruby>天上天下<rt class="furi">てんじょうてんげ</rt><rt class="roma">tenjoutenge</rt></ruby> <ruby>まだ<rt class="roma">mada</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
+
 <div class="trans-lyric">[01:54.79]Heaven and earth, with you I haven't met yet</div>
 </div>
 
@@ -207,7 +218,8 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [01:57.47]<ruby>ハッピーエンド<rt class="roma">happiiendo</rt></ruby> <ruby>ヒット<rt class="roma">hitto</rt></ruby>&amp;<ruby>ラン<rt class="roma">ran</rt></ruby>
 </div>
-<div class="trans-lyric">Happy end, hit and run</div>
+
+<div class="trans-lyric">[01:57.47]Happy end, hit and run</div>
 </div>
 
 </div>

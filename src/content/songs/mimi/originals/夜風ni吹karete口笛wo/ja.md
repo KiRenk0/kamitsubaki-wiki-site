@@ -17,7 +17,7 @@ image: /images/songs/mimi/夜風ni吹karete口笛wo.jpg
 
 ## 作品概要
 
-MIMIが2024-09-02にリリースしたシングル「夜風に吹かれて口笛を」。
+[MIMI](/ja/artists/creators/mimi)が2024-09-02にリリースしたシングル「夜風に吹かれて口笛を」。
 
 ## 視聴
 {{media-switcher::夜風に吹かれて口笛を}}

@@ -210,6 +210,7 @@ image: /images/songs/koko/single-1711175741.jpg
 <div class="jp-lyric">
 <ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">呐喊的我</div>
 </div>
 
 <div class="lyric-line">
@@ -265,6 +266,7 @@ image: /images/songs/koko/single-1711175741.jpg
 <div class="jp-lyric">
 [04:38.72]「<ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>われ<rt class="roma">ware</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>」
 </div>
+
 <div class="cn-lyric">[04:38.72]「因为无法终结」</div>
 </div>
 

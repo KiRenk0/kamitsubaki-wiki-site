@@ -17,7 +17,7 @@ image: /images/songs/mimi/触reteitaidake-feat.-月.jpg
 
 ## 作品概要
 
-MIMIが2024-03-10にリリースしたシングル「触れていたいだけ (feat. 月)」。
+[MIMI](/ja/artists/creators/mimi)が2024-03-10にリリースしたシングル「触れていたいだけ (feat. 月)」。
 
 ## 視聴
 {{media-switcher::触れていたいだけ (feat. 月)}}

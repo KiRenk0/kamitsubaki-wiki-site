@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/gemini.jpg
 
 ## 作品简介
 
-Empty old City于 2023-03-28 发行的单曲《Gemini》。
+[Empty old City](/zh/artists/solo/empty-old-city)于 2023-03-28 发行的单曲《Gemini》。
 
 ## 试听
 {{media-switcher::Gemini}}

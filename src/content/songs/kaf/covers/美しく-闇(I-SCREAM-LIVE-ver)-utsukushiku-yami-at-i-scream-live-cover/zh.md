@@ -173,6 +173,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃった<rt class="roma">chatta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">我这是怎么了啊</div>
 </div>
 
 <br />
@@ -216,6 +217,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃった<rt class="roma">chatta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">我这是怎么了啊</div>
 </div>
 
 <div class="lyric-line">
@@ -229,6 +231,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [03:34.39]<ruby>きっと<rt class="roma">kitto</rt></ruby> <ruby>時間<rt class="furi">じかん</rt><rt class="roma">jikan</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>、<ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:34.39]一定 是没有时间了 一定</div>
 </div>
 
@@ -236,6 +239,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [03:39.99]<ruby>もっと<rt class="roma">motto</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>氣<ruby>付<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>、<ruby>気付<rt class="furi">きづ</rt><rt class="roma">kizu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>。
 </div>
+
 <div class="cn-lyric">[03:39.99]更多更多地注意到我 注意到我。</div>
 </div>
 

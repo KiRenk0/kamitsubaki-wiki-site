@@ -214,6 +214,7 @@ image: /images/songs/kaf/track-1688524557.jpg
 <div class="jp-lyric">
 [01:50.18]<ruby>裏表<rt class="furi">うらおもて</rt><rt class="roma">uraomote</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby>
 </div>
+<div class="cn-lyric">[01:50.18]如同表里一体</div>
 </div>
 
 <br />
@@ -229,6 +230,7 @@ image: /images/songs/kaf/track-1688524557.jpg
 <div class="jp-lyric">
 [01:56.84]ChuChuChu... <ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby>
 </div>
+<div class="cn-lyric">[01:56.84]ChuChuChu... 无论多少次</div>
 </div>
 
 <div class="lyric-line">
@@ -242,6 +244,7 @@ image: /images/songs/kaf/track-1688524557.jpg
 <div class="jp-lyric">
 [02:05.44]<ruby>ワンツーステップ<rt class="roma">wantsuusuteppu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[02:05.44]一步两步三步</div>
 </div>
 
 <br />
@@ -280,30 +283,35 @@ image: /images/songs/kaf/track-1688524557.jpg
 <div class="jp-lyric">
 [02:20.63]<ruby>際限<rt class="furi">さいげん</rt><rt class="roma">saigen</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> CAN-VERSE
 </div>
+<div class="cn-lyric">[02:20.63]没有界限的 CAN-VERSE</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:22.84]<ruby>刻<rt class="furi">きざ</rt><rt class="roma">kiza</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>物語<rt class="furi">ものがたり</rt><rt class="roma">monogatari</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:22.84]铭刻故事</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:26.88]<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>つめ<rt class="roma">tsume</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[02:26.88]凝视着</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:28.54]<ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[02:28.54]联系着</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:30.18]<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>ゆく<rt class="roma">yuku</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
+<div class="cn-lyric">[02:30.18]尽情地</div>
 </div>
 
 <br />
@@ -312,6 +320,7 @@ image: /images/songs/kaf/track-1688524557.jpg
 <div class="jp-lyric">
 [02:48.04]<ruby>空想<rt class="furi">くうそう</rt><rt class="roma">kuusou</rt></ruby><ruby>追い越<rt class="furi">おいこ</rt><rt class="roma">oiko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:48.04]超越空想</div>
 </div>
 
@@ -319,6 +328,7 @@ image: /images/songs/kaf/track-1688524557.jpg
 <div class="jp-lyric">
 [02:50.24]<ruby>はずむ<rt class="roma">hazumu</rt></ruby><ruby>胸<rt class="furi">むね</rt><rt class="roma">mune</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>奥<rt class="furi">おく</rt><rt class="roma">oku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:50.24]在雀跃的内心深处</div>
 </div>
 
@@ -326,6 +336,7 @@ image: /images/songs/kaf/track-1688524557.jpg
 <div class="jp-lyric">
 [02:54.39]<ruby>待ち合<rt class="furi">まちあ</rt><rt class="roma">machia</rt></ruby><ruby>わせ<rt class="roma">wase</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:54.39]约定相会</div>
 </div>
 
@@ -333,6 +344,7 @@ image: /images/songs/kaf/track-1688524557.jpg
 <div class="jp-lyric">
 [02:56.09]<ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:56.09]做个梦</div>
 </div>
 
@@ -340,12 +352,14 @@ image: /images/songs/kaf/track-1688524557.jpg
 <div class="jp-lyric">
 [02:57.75]<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>ゆく<rt class="roma">yuku</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
+<div class="cn-lyric">[02:57.75]尽情地</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:00.54]<ruby>ワンツーステップ<rt class="roma">wantsuusuteppu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[03:00.54]一步两步三步</div>
 </div>
 
 <br />
@@ -354,24 +368,28 @@ image: /images/songs/kaf/track-1688524557.jpg
 <div class="jp-lyric">
 [03:01.81]<ruby>境界<rt class="furi">きょうかい</rt><rt class="roma">kyoukai</rt></ruby><ruby>超<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ちゃって<rt class="roma">chatte</rt></ruby>
 </div>
+<div class="cn-lyric">[03:01.81]跨越界限</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:04.03]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby>
 </div>
+<div class="cn-lyric">[03:04.03]无人知晓的未来</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:08.66]<ruby>解像度<rt class="furi">かいぞうど</rt><rt class="roma">kaizoudo</rt></ruby><ruby>あげ<rt class="roma">age</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:08.66]提高分辨率描绘吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:14.05]<ruby>たまん<rt class="roma">taman</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">[03:14.05]受不了呢</div>
 </div>
 
 <br />
@@ -380,30 +398,35 @@ image: /images/songs/kaf/track-1688524557.jpg
 <div class="jp-lyric">
 [03:15.45]<ruby>際限<rt class="furi">さいげん</rt><rt class="roma">saigen</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> CAN-VERSE
 </div>
+<div class="cn-lyric">[03:15.45]没有界限的 CAN-VERSE</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:17.60]<ruby>刻<rt class="furi">きざ</rt><rt class="roma">kiza</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>物語<rt class="furi">ものがたり</rt><rt class="roma">monogatari</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:17.60]铭刻故事</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:21.66]<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>つめ<rt class="roma">tsume</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[03:21.66]凝视着</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:23.40]<ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[03:23.40]联系着</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:25.09]<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>ゆく<rt class="roma">yuku</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
+<div class="cn-lyric">[03:25.09]尽情地</div>
 </div>
 
 </div>

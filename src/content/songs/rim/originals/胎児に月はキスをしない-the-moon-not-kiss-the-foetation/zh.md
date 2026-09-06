@@ -206,6 +206,7 @@ image: /images/songs/rim/single-1687474050.jpg
 <div class="jp-lyric">
 [02:06.47]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>？
 </div>
+<div class="cn-lyric">[02:06.47]对吧？</div>
 </div>
 
 <div class="lyric-line">
@@ -219,6 +220,7 @@ image: /images/songs/rim/single-1687474050.jpg
 <div class="jp-lyric">
 [02:16.67]<ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>抱<rt class="furi">いだ</rt><rt class="roma">ida</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>寄<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>、<ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
 </div>
+
 <div class="cn-lyric">[02:16.67]一直拥抱着，可以吗？</div>
 </div>
 

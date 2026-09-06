@@ -17,7 +17,7 @@ image: /images/songs/dustcell/dero.jpg
 
 ## 作品简介
 
-DUSTCELL于 2021-10-19 发行的单曲《DERO》。
+[DUSTCELL](/zh/artists/solo/dustcell)于 2021-10-19 发行的单曲《DERO》。
 
 ## 试听
 {{media-switcher::DERO}}

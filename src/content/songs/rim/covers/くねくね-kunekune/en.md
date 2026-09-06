@@ -18,7 +18,7 @@ image: /images/albums/rim/chocolate-live.jpg
 
 ## Overview
 
-くねくね appears on CHOCOLATE LIVE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+くねくね appears on [CHOCOLATE LIVE](/en/albums/rim/chocolate-live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Lyrics
 
@@ -79,6 +79,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 <ruby>お<rt class="roma">o</rt></ruby><ruby>兄<rt class="furi">にい</rt><rt class="roma">nii</rt></ruby><ruby>ちゃん<rt class="roma">chan</rt></ruby>!
 </div>
+<div class="trans-lyric">Big brother!</div>
 </div>
 
 <div class="lyric-line">
@@ -148,30 +149,35 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 <ruby>くねくね<rt class="roma">kunekune</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby>
 </div>
+<div class="trans-lyric">It wriggles.</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>また<rt class="roma">mata</rt></ruby> <ruby>くねくね<rt class="roma">kunekune</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby>
 </div>
+<div class="trans-lyric">It wriggles again.</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ただ<rt class="roma">tada</rt></ruby> <ruby>くねくね<rt class="roma">kunekune</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby>
 </div>
+<div class="trans-lyric">It just wriggles.</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>くね<rt class="roma">kune</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> <ruby>ね<rt class="roma">ne</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby>
 </div>
+<div class="trans-lyric">Wriggle, wriggle, it wriggles.</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>弟<rt class="furi">おとうと</rt><rt class="roma">otouto</rt></ruby>!
 </div>
+
 <div class="trans-lyric">Little brother!</div>
 </div>
 
@@ -179,6 +185,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 <ruby>あそこ<rt class="roma">asoko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>”<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>”<ruby>が<rt class="roma">ga</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="trans-lyric">There's 'something' over there.</div>
 </div>
 
@@ -186,6 +193,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 <ruby>お<rt class="roma">o</rt></ruby><ruby>兄<rt class="furi">にい</rt><rt class="roma">nii</rt></ruby><ruby>ちゃん<rt class="roma">chan</rt></ruby>
 </div>
+
 <div class="trans-lyric">Big brother</div>
 </div>
 
@@ -193,12 +201,14 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 ”<ruby>アレ<rt class="roma">are</rt></ruby>”<ruby>は<rt class="roma">wa</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>方<rt class="furi">ほう</rt><rt class="roma">hou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>
 </div>
+<div class="trans-lyric">It's better not to look at 'that'.</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ノー<rt class="roma">nou</rt></ruby>
 </div>
+
 <div class="trans-lyric">No</div>
 </div>
 
@@ -206,24 +216,29 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 <ruby>動<rt class="furi">うご</rt><rt class="roma">ugo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="trans-lyric">It moved</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>くねくね<rt class="roma">kunekune</rt></ruby><ruby>気味が悪<rt class="furi">きみがわる</rt><rt class="roma">kimigawaru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>なあ<rt class="roma">naa</rt></ruby>、
 </div>
+<div class="trans-lyric">That wriggling is creepy, huh.</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>弟<rt class="furi">おとうと</rt><rt class="roma">otouto</rt></ruby>!
 </div>
+
+<div class="trans-lyric">Little brother!</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 。。。<ruby>弟<rt class="furi">おとうと</rt><rt class="roma">otouto</rt></ruby>、?
 </div>
+
 <div class="trans-lyric">...Little brother?</div>
 </div>
 

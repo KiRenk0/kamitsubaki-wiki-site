@@ -79,6 +79,7 @@ image: /images/songs/isekaijoucho/single-1692480468.jpg
 <div class="jp-lyric">
 [00:53.39]Lindo Lindo <ruby>憐<rt class="furi">あわ</rt><rt class="roma">awa</rt></ruby><ruby>れみ<rt class="roma">remi</rt></ruby><ruby>憂<rt class="furi">うれ</rt><rt class="roma">ure</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[00:53.39]Lindo Lindo 怜悯忧伤</div>
 </div>
 
 <div class="lyric-line">
@@ -270,6 +271,7 @@ image: /images/songs/isekaijoucho/single-1692480468.jpg
 <div class="jp-lyric">
 [02:44.18]<ruby>上書<rt class="furi">うわが</rt><rt class="roma">uwaga</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>凜<ruby>と<rt class="roma">to</rt></ruby><ruby>証明<rt class="furi">しょうめい</rt><rt class="roma">shoumei</rt></ruby> <ruby>不明<rt class="furi">ふめい</rt><rt class="roma">fumei</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>線<rt class="furi">せん</rt><rt class="roma">sen</rt></ruby> <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>魔法<rt class="furi">まほう</rt><rt class="roma">mahou</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:44.18]凛然覆盖并证明 未知世界线 这是我唯一的魔法</div>
 </div>
 

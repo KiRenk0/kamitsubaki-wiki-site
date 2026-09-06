@@ -20,7 +20,7 @@ image: /images/albums/rim/singularity-live.jpg
 
 ## Overview
 
-ファンファーレ (Live at Virtual, 2022) appears on Singularity Live or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+ファンファーレ (Live at Virtual, 2022) appears on [Singularity Live](/en/albums/rim/singularity-live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -183,18 +183,21 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 <ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>越<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">Across the night</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>闇<rt class="furi">やみ</rt><rt class="roma">yami</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>抜<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">Through the darkness</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>迎<rt class="furi">むか</rt><rt class="roma">muka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ゆこ<rt class="roma">yuko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="trans-lyric">I'll come for you</div>
 </div>
 
 <div class="lyric-line">
@@ -222,18 +225,21 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 <ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>越<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">Across the night</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>闇<rt class="furi">やみ</rt><rt class="roma">yami</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>抜<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">Through the darkness</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>迎<rt class="furi">むか</rt><rt class="roma">muka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ゆこ<rt class="roma">yuko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="trans-lyric">I'll come for you</div>
 </div>
 
 <div class="lyric-line">
@@ -254,6 +260,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 ♪
 </div>
+<div class="trans-lyric">♪</div>
 </div>
 
 <div class="lyric-line">
@@ -302,6 +309,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 <ruby>俯<rt class="furi">うつむ</rt><rt class="roma">utsumu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
 </div>
+
 <div class="trans-lyric">If I look down</div>
 </div>
 
@@ -309,6 +317,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 <ruby>至高<rt class="furi">しこう</rt><rt class="roma">shikou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>一瞬<rt class="furi">いっしゅん</rt><rt class="roma">isshun</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="trans-lyric">Of the supreme moment</div>
 </div>
 
@@ -316,6 +325,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 <ruby>虹<rt class="furi">にじ</rt><rt class="roma">niji</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>逃<rt class="furi">のが</rt><rt class="roma">noga</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="trans-lyric">I'll miss the rainbow</div>
 </div>
 
@@ -323,36 +333,42 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 <ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>越<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">Across the night</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>闇<rt class="furi">やみ</rt><rt class="roma">yami</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>抜<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">Through the darkness</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>迎<rt class="furi">むか</rt><rt class="roma">muka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ゆこ<rt class="roma">yuko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="trans-lyric">I'll come for you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>傷<rt class="furi">きず</rt><rt class="roma">kizu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>海<rt class="furi">うみ</rt><rt class="roma">umi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>悩<rt class="furi">なや</rt><rt class="roma">naya</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>森<rt class="furi">もり</rt><rt class="roma">mori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="trans-lyric">The sea of wounds, the forest of worries</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>厭<rt class="furi">いと</rt><rt class="roma">ito</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">I won't disdain</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>毒<rt class="furi">どく</rt><rt class="roma">doku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>飲<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="trans-lyric">Drink the poison</div>
 </div>
 
@@ -360,6 +376,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 <ruby>さあ<rt class="roma">saa</rt></ruby>
 </div>
+
 <div class="trans-lyric">Come on</div>
 </div>
 
@@ -367,30 +384,35 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 <ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>越<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">Across the night</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>闇<rt class="furi">やみ</rt><rt class="roma">yami</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>抜<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">Through the darkness</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>迎<rt class="furi">むか</rt><rt class="roma">muka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ゆこ<rt class="roma">yuko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="trans-lyric">I'll come for you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>光<rt class="furi">ひか</rt><rt class="roma">hika</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>背<rt class="furi">そむ</rt><rt class="roma">somu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="trans-lyric">In the shining morning, without averting my eyes</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby> <ruby>瞬<rt class="furi">まばた</rt><rt class="roma">mabata</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="trans-lyric">Now repeating blinking</div>
 </div>
 
@@ -398,6 +420,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 <ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>迎<rt class="furi">むか</rt><rt class="roma">muka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ゆく<rt class="roma">yuku</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="trans-lyric">No matter how many times, I'll come for you</div>
 </div>
 
@@ -405,6 +428,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 ♪
 </div>
+<div class="trans-lyric">♪</div>
 </div>
 
 </div>

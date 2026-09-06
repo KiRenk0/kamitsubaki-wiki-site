@@ -17,7 +17,7 @@ image: /images/songs/ciel/少年漫画.jpg
 
 ## 作品概要
 
-CIELが2024-07-23にリリースしたシングル「少年漫画」。
+[CIEL](/ja/artists/solo/ciel)が2024-07-23にリリースしたシングル「少年漫画」。
 
 ## 視聴
 {{media-switcher::少年漫画}}

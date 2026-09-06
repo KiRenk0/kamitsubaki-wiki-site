@@ -82,6 +82,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 <div class="jp-lyric">
 [00:40.40]<ruby>ダンダラ<rt class="roma">dandara</rt></ruby> <ruby>ダ<rt class="roma">da</rt></ruby> <ruby>ダ<rt class="roma">da</rt></ruby> <ruby>ダンダラ<rt class="roma">dandara</rt></ruby>
 </div>
+<div class="cn-lyric">[00:40.40]丹达拉 哒 哒 丹达拉</div>
 </div>
 
 <div class="lyric-line">
@@ -249,18 +250,21 @@ image: /images/albums/kaf/guwa-gamma.jpg
 <div class="jp-lyric">
 [02:18.48]<ruby>ダンダラ<rt class="roma">dandara</rt></ruby> <ruby>ダ<rt class="roma">da</rt></ruby> <ruby>ダ<rt class="roma">da</rt></ruby> <ruby>ダンダラ<rt class="roma">dandara</rt></ruby>
 </div>
+<div class="cn-lyric">[02:18.48]丹达拉 哒 哒 丹达拉</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:20.93]<ruby>ダンダラ<rt class="roma">dandara</rt></ruby> <ruby>ダ<rt class="roma">da</rt></ruby> <ruby>ダ<rt class="roma">da</rt></ruby> <ruby>ダンダラ<rt class="roma">dandara</rt></ruby>
 </div>
+<div class="cn-lyric">[02:20.93]丹达拉 哒 哒 丹达拉</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:24.16]<ruby>ダンダラ<rt class="roma">dandara</rt></ruby> <ruby>ダ<rt class="roma">da</rt></ruby> <ruby>ダ<rt class="roma">da</rt></ruby> <ruby>ダンダラ<rt class="roma">dandara</rt></ruby>
 </div>
+<div class="cn-lyric">[02:24.16]丹达拉 哒 哒 丹达拉</div>
 </div>
 
 <div class="lyric-line">
@@ -274,6 +278,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 <div class="jp-lyric">
 [02:31.48]<ruby>ダンダラボッチ<rt class="roma">dandarabotchi</rt></ruby><ruby>転<rt class="furi">ころ</rt><rt class="roma">koro</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby> <ruby>どっち<rt class="roma">dotchi</rt></ruby>
 </div>
+<div class="cn-lyric">[02:31.48]丹达拉波奇跌倒 哪边</div>
 </div>
 
 <div class="lyric-line">
@@ -294,12 +299,14 @@ image: /images/albums/kaf/guwa-gamma.jpg
 <div class="jp-lyric">
 [02:40.46]<ruby>なん<rt class="roma">nan</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>ぼっち<rt class="roma">botchi</rt></ruby><ruby>望<rt class="furi">のぞ</rt><rt class="roma">nozo</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby> Dodge
 </div>
+<div class="cn-lyric">[02:40.46]要不然我期望孤独 闪避</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:43.41]<ruby>超<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>みせよ<rt class="roma">miseyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>侘<rt class="furi">わび</rt><rt class="roma">wabi</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>毎秒<rt class="furi">まいびょう</rt><rt class="roma">maibyou</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:43.41]让我超越寂寞的每一秒</div>
 </div>
 
@@ -307,6 +314,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 <div class="jp-lyric">
 [02:47.70]<ruby>うらめし<rt class="roma">urameshi</rt></ruby> <ruby>仲良<rt class="furi">なかよ</rt><rt class="roma">nakayo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:47.70]怨恨 友好</div>
 </div>
 
@@ -314,6 +322,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 <div class="jp-lyric">
 [02:50.94]<ruby>心情<rt class="furi">しんじょう</rt><rt class="roma">shinjou</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>不確<rt class="furi">ふたし</rt><rt class="roma">futashi</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:50.94]情感真是不确定的东西呢</div>
 </div>
 
@@ -321,6 +330,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 <div class="jp-lyric">
 [02:54.22]<ruby>なんだかんだ<rt class="roma">nandakanda</rt></ruby><ruby>と<rt class="roma">to</rt></ruby> <ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby> (<ruby>もう<rt class="roma">mou</rt></ruby><ruby>リタイヤ<rt class="roma">ritaiya</rt></ruby>？)
 </div>
+
 <div class="cn-lyric">[02:54.22]说来说去 好想见你 (已经退出？)</div>
 </div>
 
@@ -328,6 +338,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 <div class="jp-lyric">
 [03:00.08]<ruby>まだ<rt class="roma">mada</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:00.08]还没</div>
 </div>
 

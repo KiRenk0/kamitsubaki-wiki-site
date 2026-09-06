@@ -133,18 +133,21 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [01:01.79]<ruby>ねえ<rt class="roma">nee</rt></ruby> <ruby>ねえ<rt class="roma">nee</rt></ruby> <ruby>話<rt class="furi">はなし</rt><rt class="roma">hanashi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[01:01.79]呐 呐 跟我说说话吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:04.59]<ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby> <ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby>
 </div>
+<div class="cn-lyric">[01:04.59]在梦中 依旧触碰着</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:07.46]make me want to cry
 </div>
+<div class="cn-lyric">[01:07.46]让我想哭</div>
 </div>
 
 <div class="lyric-line">
@@ -333,6 +336,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [03:19.51]<ruby>青<rt class="furi">あお</rt><rt class="roma">ao</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>傘<rt class="furi">かさ</rt><rt class="roma">kasa</rt></ruby> <ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:19.51]蓝色的伞 摇曳的花</div>
 </div>
 
@@ -340,12 +344,14 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 <ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>spece<ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">在只属于两人的空间里</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:24.46]<ruby>虚<rt class="furi">うつ</rt><rt class="roma">utsu</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby> <ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>かってる<rt class="roma">katteru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:24.46]因为知道是空虚的</div>
 </div>
 
@@ -353,6 +359,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [03:27.98]<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>明<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>此処<rt class="furi">ここ</rt><rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>居<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>させ<rt class="roma">sase</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:27.98]让我留在这里直到天亮</div>
 </div>
 

@@ -17,7 +17,7 @@ image: /images/songs/valis/渇愛論-myu.jpg
 
 ## 作品概要
 
-VALISが2023-06-24にリリースしたシングル「渇愛論(MYU)」。
+[VALIS](/ja/artists/solo/valis)が2023-06-24にリリースしたシングル「渇愛論(MYU)」。
 
 ## 視聴
 {{media-switcher::渇愛論(MYU)}}

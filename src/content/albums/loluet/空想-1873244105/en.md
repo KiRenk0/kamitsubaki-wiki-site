@@ -46,11 +46,11 @@ tracks:
 
 ## Overview
 
-LOLUET's ep “空想”, released on 2026-02-25, featuring 6 tracks.
+[LOLUET](/en/artists/solo/loluet)'s ep “空想”, released on 2026-02-25, featuring 6 tracks.
 
 ## Track List
 
-1. crack (03:19)
+1. [crack](/en/songs/loluet/originals/crack) (03:19)
 2. return (03:09)
 3. Vanity (04:09)
 4. この熱が落ちるまで (03:58)

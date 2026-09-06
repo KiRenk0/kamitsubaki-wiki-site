@@ -74,19 +74,19 @@ tracks:
 
 ## 简介
 
-Awairo于 2025-03-14 发行的Album《グラデーション》,共收录 13 首歌曲。
+[Awairo](/zh/artists/solo/awairo)于 2025-03-14 发行的Album《グラデーション》,共收录 13 首歌曲。
 
 ## 收录曲
 
-1. Pale&Deep（04:00）
-2. グラスヒール（03:01）
+1. [Pale](/zh/songs/mimi/originals/pale)&Deep（04:00）
+2. [グラスヒール](/zh/songs/yunosuke/originals/gurasuhiiru)（03:01）
 3. 烙印（03:19）
-4. ブルームーン（03:13）
+4. [ブルームーン](/zh/songs/awairo/originals/buruumuun)（03:13）
 5. Satellite（03:22）
 6. 個性（03:17）
-7. Navy（03:25）
+7. [Navy](/zh/songs/yunosuke/originals/navy)（03:25）
 8. resilience（03:50）
-9. Love or Lie（03:46）
+9. [Love or Lie](/zh/songs/awairo/originals/love-or-lie)（03:46）
 10. Spotlight（04:05）
 11. 宇宙を泳ぐ（03:31）
 12. Loop（04:13）

@@ -297,24 +297,28 @@ Gets to take the funeral ride
 <div class="jp-lyric">
 Ritual ideas relativity
 </div>
+<div class="cn-lyric">仪式观念相对性</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Only buildings, no people prophecy
 </div>
+<div class="cn-lyric">只有建筑，无人预言</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Time slide, place to hide, nudge reality
 </div>
+<div class="cn-lyric">时间滑动，藏身之处，轻推现实</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Foresight, minds wide, magic imagery
 </div>
+<div class="cn-lyric">预见，思想开阔，魔法意象</div>
 </div>
 
 <br />
@@ -413,24 +417,28 @@ Big chiefs in the hall
 <div class="jp-lyric">
 Ritual ideas relativity
 </div>
+<div class="cn-lyric">仪式观念相对性</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Only buildings, no people prophecy
 </div>
+<div class="cn-lyric">只有建筑，无人预言</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Time slide, place to hide, nudge reality
 </div>
+<div class="cn-lyric">时间滑动，藏身之处，轻推现实</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Foresight, minds wide, magic imagery
 </div>
+<div class="cn-lyric">预见，思想开阔，魔法意象</div>
 </div>
 
 <br />
@@ -499,24 +507,28 @@ Betting shop - New owner - A walk in the sun
 <div class="jp-lyric">
 Ritual ideas relativity
 </div>
+<div class="cn-lyric">仪式观念相对性</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Only buildings, no people prophecy
 </div>
+<div class="cn-lyric">只有建筑，无人预言</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Time slide, place to hide, nudge reality
 </div>
+<div class="cn-lyric">时间滑动，藏身之处，轻推现实</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Foresight, minds wide, magic imagery
 </div>
+<div class="cn-lyric">预见，思想开阔，魔法意象</div>
 </div>
 
 <br />
@@ -532,6 +544,7 @@ Spread the news the Maestro's back
 <div class="jp-lyric">
 With a beat-box soundtrack
 </div>
+
 <div class="cn-lyric">带着节拍盒配乐</div>
 </div>
 
@@ -539,6 +552,7 @@ With a beat-box soundtrack
 <div class="jp-lyric">
 The King of brains - Queen of the sack'
 </div>
+
 <div class="cn-lyric">头脑之王 - 麻袋皇后</div>
 </div>
 
@@ -546,6 +560,7 @@ The King of brains - Queen of the sack'
 <div class="jp-lyric">
 Executives have heart attack
 </div>
+
 <div class="cn-lyric">高管们心脏病发作</div>
 </div>
 
@@ -553,6 +568,7 @@ Executives have heart attack
 <div class="jp-lyric">
 It's assault course celluloid
 </div>
+
 <div class="cn-lyric">这是电影胶片上的障碍赛</div>
 </div>
 
@@ -560,6 +576,7 @@ It's assault course celluloid
 <div class="jp-lyric">
 The money makers would avoid
 </div>
+
 <div class="cn-lyric">赚钱者会避开</div>
 </div>
 
@@ -567,6 +584,7 @@ The money makers would avoid
 <div class="jp-lyric">
 Sometimes notions get reversed
 </div>
+
 <div class="cn-lyric">有时观念会被颠倒</div>
 </div>
 
@@ -574,6 +592,7 @@ Sometimes notions get reversed
 <div class="jp-lyric">
 Centre of the universe
 </div>
+
 <div class="cn-lyric">宇宙的中心</div>
 </div>
 
@@ -583,30 +602,35 @@ Centre of the universe
 <div class="jp-lyric">
 Ritual ideas relativity
 </div>
+<div class="cn-lyric">仪式观念相对性</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Only buildings, no people prophecy
 </div>
+<div class="cn-lyric">只有建筑，无人预言</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Time slide, place to hide, nudge reality
 </div>
+<div class="cn-lyric">时间滑动，藏身之处，轻推现实</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Foresight, minds wide, magic imagery
 </div>
+<div class="cn-lyric">预见，思想开阔，魔法意象</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Who do you think you are? The Lone Ranger?
 </div>
+
 <div class="cn-lyric">你以为你是谁？独行侠？</div>
 </div>
 
@@ -614,6 +638,7 @@ Who do you think you are? The Lone Ranger?
 <div class="jp-lyric">
 You're Jack the Lad!
 </div>
+
 <div class="cn-lyric">你是杰克小子！</div>
 </div>
 
@@ -621,6 +646,7 @@ You're Jack the Lad!
 <div class="jp-lyric">
 (More)
 </div>
+
 <div class="cn-lyric">（更多）</div>
 </div>
 
@@ -628,36 +654,42 @@ You're Jack the Lad!
 <div class="jp-lyric">
 Ritual ideas relativity
 </div>
+<div class="cn-lyric">仪式观念相对性</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Only buildings, no people prophecy
 </div>
+<div class="cn-lyric">只有建筑，无人预言</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Time slide, place to hide, nudge reality
 </div>
+<div class="cn-lyric">时间滑动，藏身之处，轻推现实</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Foresight, minds wide, magic imagery
 </div>
+<div class="cn-lyric">预见，思想开阔，魔法意象</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Ritual ideas relativity
 </div>
+<div class="cn-lyric">仪式观念相对性</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 All these buildings, no people prophecy
 </div>
+
 <div class="cn-lyric">所有这些建筑，无人预言</div>
 </div>
 
@@ -665,18 +697,21 @@ All these buildings, no people prophecy
 <div class="jp-lyric">
 Time slide, place to hide, nudge reality
 </div>
+<div class="cn-lyric">时间滑动，藏身之处，轻推现实</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Foresight, minds wide, magic imagery
 </div>
+<div class="cn-lyric">预见，思想开阔，魔法意象</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Oh, ho
 </div>
+
 <div class="cn-lyric">哦，嗬</div>
 </div>
 

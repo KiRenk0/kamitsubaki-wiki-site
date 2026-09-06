@@ -16,7 +16,7 @@ image: /images/songs/mimi/tsukimichishirube-feat.-初音miku-&-可不-vocaloid-v
 
 ## 作品简介
 
-MIMI于 2024-04-21 发行的单曲《ツキミチシルベ (feat. 初音ミク & [可不](/zh/artists/isotopes/kafu)) [vocaloid ver.]》。
+[MIMI](/zh/artists/creators/mimi)于 2024-04-21 发行的单曲《ツキミチシルベ (feat. 初音ミク & [可不](/zh/artists/isotopes/kafu)) [vocaloid ver.]》。
 
 ## 试听
 {{media-switcher::ツキミチシルベ (feat. 初音ミク & 可不) [vocaloid ver.]}}

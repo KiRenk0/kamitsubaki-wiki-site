@@ -150,6 +150,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [02:04.13]<ruby>過ぎ去<rt class="furi">すぎさ</rt><rt class="roma">sugisa</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>作り出<rt class="furi">つくりだ</rt><rt class="roma">tsukurida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>あの<rt class="roma">ano</rt></ruby><ruby>透き通<rt class="furi">すきとお</rt><rt class="roma">sukitoo</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>思い出<rt class="furi">おもいだ</rt><rt class="roma">omoida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[02:04.13]想起了那个由逝去的夏天塑造的 透明的你</div>
 </div>
 
 <div class="lyric-line">
@@ -163,12 +164,14 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [02:13.94]<ruby>過ぎ去<rt class="furi">すぎさ</rt><rt class="roma">sugisa</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>作り出<rt class="furi">つくりだ</rt><rt class="roma">tsukurida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>ぶっきらぼう<rt class="roma">bukkirabou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>恥<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[02:13.94]对逝去夏天塑造的 粗鲁的夜晚感到些许羞耻</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:19.08]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>、<ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby>、<ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby>、<ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>距離<rt class="furi">きょり</rt><rt class="roma">kyori</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>重<rt class="furi">かさ</rt><rt class="roma">kasa</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>重<rt class="furi">かさ</rt><rt class="roma">kasa</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby>
 </div>
+<div class="cn-lyric">[02:19.08]对你的思念、声音、恋情、遥远的距离层层重叠</div>
 </div>
 
 <br />
@@ -193,6 +196,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:13.74]<ruby>過ぎ去<rt class="furi">すぎさ</rt><rt class="roma">sugisa</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>作り出<rt class="furi">つくりだ</rt><rt class="roma">tsukurida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>あの<rt class="roma">ano</rt></ruby><ruby>透き通<rt class="furi">すきとお</rt><rt class="roma">sukitoo</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>肌<rt class="furi">はだ</rt><rt class="roma">hada</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>思い出<rt class="furi">おもいだ</rt><rt class="roma">omoida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:13.74]想起了那个由逝去的夏天塑造的 透明的肌肤</div>
 </div>
 
@@ -200,6 +204,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:18.90]<ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>海岸<rt class="furi">かいがん</rt><rt class="roma">kaigan</rt></ruby><ruby>線<rt class="furi">せん</rt><rt class="roma">sen</rt></ruby>、<ruby>開<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>心臓<rt class="furi">しんぞう</rt><rt class="roma">shinzou</rt></ruby>、<ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>がって<rt class="roma">gatte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>点<rt class="furi">てん</rt><rt class="roma">ten</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>点<rt class="furi">てん</rt><rt class="roma">ten</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:18.90]哭了的海岸线、敞开的心脏、相连的点与点</div>
 </div>
 
@@ -207,12 +212,14 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:23.78]<ruby>過ぎ去<rt class="furi">すぎさ</rt><rt class="roma">sugisa</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>作り出<rt class="furi">つくりだ</rt><rt class="roma">tsukurida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>ぶっきらぼう<rt class="roma">bukkirabou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>恥<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[03:23.78]对逝去夏天塑造的 粗鲁的夜晚感到些许羞耻</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:28.87]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>距離<rt class="furi">きょり</rt><rt class="roma">kyori</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>重<rt class="furi">かさ</rt><rt class="roma">kasa</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>重<rt class="furi">かさ</rt><rt class="roma">kasa</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:28.87]对你遥远的遥远的遥远的遥远的距离层层重叠</div>
 </div>
 

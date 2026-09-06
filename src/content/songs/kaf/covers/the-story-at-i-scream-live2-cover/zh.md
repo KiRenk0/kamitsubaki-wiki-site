@@ -193,36 +193,42 @@ Find him for me, find him for me?
 <div class="jp-lyric">
 I need a gingerbread man, the one I'll feed
 </div>
+<div class="cn-lyric">我需要一个姜饼人，我会喂养的那个</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The gingerbread man, the one I'll eat
 </div>
+<div class="cn-lyric">这个姜饼人，我会吃掉的那个</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 One who's always crazy
 </div>
+<div class="cn-lyric">一个总是疯狂的人</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Never calls me baby
 </div>
+<div class="cn-lyric">从不叫我宝贝</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 That's the one that I want
 </div>
+<div class="cn-lyric">那就是我想要的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 All you boys are not him, him
 </div>
+<div class="cn-lyric">你们这些男孩都不是他，他</div>
 </div>
 
 <br />
@@ -245,6 +251,7 @@ I wanna hold him so close, so tightly
 <div class="jp-lyric">
 Baby how do I say this politely?
 </div>
+
 <div class="cn-lyric">宝贝我该如何礼貌地说？</div>
 </div>
 
@@ -252,6 +259,7 @@ Baby how do I say this politely?
 <div class="jp-lyric">
 Love me hard and don't be nice, please
 </div>
+
 <div class="cn-lyric">狠狠地爱我，不要温柔，拜托</div>
 </div>
 
@@ -259,6 +267,7 @@ Love me hard and don't be nice, please
 <div class="jp-lyric">
 I wanna feel your crumbs on my body
 </div>
+
 <div class="cn-lyric">我想感受你的碎屑落在我身上</div>
 </div>
 
@@ -266,6 +275,7 @@ I wanna feel your crumbs on my body
 <div class="jp-lyric">
 I want to break you in pieces like me
 </div>
+
 <div class="cn-lyric">我想把你碎成片像我一样</div>
 </div>
 
@@ -273,6 +283,7 @@ I want to break you in pieces like me
 <div class="jp-lyric">
 Baby don't be so scared of biting
 </div>
+
 <div class="cn-lyric">宝贝别那么害怕咬人</div>
 </div>
 
@@ -280,6 +291,7 @@ Baby don't be so scared of biting
 <div class="jp-lyric">
 Want to eat each other into nothing
 </div>
+
 <div class="cn-lyric">想互相吃掉直到虚无</div>
 </div>
 
@@ -289,36 +301,42 @@ Want to eat each other into nothing
 <div class="jp-lyric">
 I need a gingerbread man, the one I'll feed
 </div>
+<div class="cn-lyric">我需要一个姜饼人，我会喂养的那个</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The gingerbread man, the one I'll eat
 </div>
+<div class="cn-lyric">这个姜饼人，我会吃掉的那个</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 One who's always crazy
 </div>
+<div class="cn-lyric">一个总是疯狂的人</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Never calls me baby
 </div>
+<div class="cn-lyric">从不叫我宝贝</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 That's the one that I want
 </div>
+<div class="cn-lyric">那就是我想要的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 All you boys are not him, him
 </div>
+<div class="cn-lyric">你们这些男孩都不是他，他</div>
 </div>
 
 </div>

@@ -32,7 +32,7 @@ THINKR の新体制では、KAMITSUBAKI STUDIO が今後バーチャル領域に
 - [**Empty old City**](/ja/artists/solo/empty-old-city)
     <br>- 旧・神椿 ANARCHIC RECORD 所属の音楽ユニット。
 - [**廻花**](/ja/artists/solo/kaika)
-    <br>- 花譜 4th ONE-MAN LIVE「怪歌」（2024年1月14日、国立代々木競技場第一体育館）より始動した「新時代のバーチャルシンガーソングライター」。
+    <br>- [花譜](/ja/artists/vwp/kaf) 4th ONE-MAN LIVE「怪歌」（2024年1月14日、国立代々木競技場第一体育館）より始動した「新時代のバーチャルシンガーソングライター」。
 
 **クリエイター / プロデューサー**
 

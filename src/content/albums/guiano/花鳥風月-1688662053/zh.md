@@ -70,7 +70,7 @@ tracks:
 
 ## 简介
 
-Guiano于 2023-04-29 发行的Album《花鳥風月》,共收录 12 首歌曲。
+[Guiano](/zh/artists/creators/guiano)于 2023-04-29 发行的Album《花鳥風月》,共收录 12 首歌曲。
 
 ## 收录曲
 

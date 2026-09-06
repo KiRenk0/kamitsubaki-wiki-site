@@ -102,7 +102,7 @@ tracks:
 ## 作品概要
 
 [花譜](/ja/artists/vwp/kaf)の1st ALBUM。
-2018年10月から活動を開始した彼女の11ヶ月を総括するような内容となっており、初期の楽曲「糸」、「[忘れてしまえ](/ja/songs/kaf/originals/wasurete-shimae)」、初のミリオン曲「[心臓と絡繰](/ja/songs/kaf/originals/shinzou-to-karakuri)」、高校受験による活動休止を経て、晴れて高校合格後に発表された「[雛鳥](/ja/songs/kaf/originals/hinadori)」、2回目のミリオンを達成した「[過去を喰らう](/ja/songs/kaf/originals/kako-wo-kurau)」、映画『ホットギミック ガールミーツボーイ』主題歌「[夜が降り止む前に](/ja/songs/kaf/originals/yoru-ga-furiyamu-mae-ni)」、更に8月1日に開催された1st ONE-MAN LIVE『不可解』で初披露された多数の新曲を加えた全15曲を収録。
+2018年10月から活動を開始した彼女の11ヶ月を総括するような内容となっており、初期の楽曲「[糸](/ja/songs/kaf/originals/shi)」、「[忘れてしまえ](/ja/songs/kaf/originals/wasurete-shimae)」、初のミリオン曲「[心臓と絡繰](/ja/songs/kaf/originals/shinzou-to-karakuri)」、高校受験による活動休止を経て、晴れて高校合格後に発表された「[雛鳥](/ja/songs/kaf/originals/hinadori)」、2回目のミリオンを達成した「[過去を喰らう](/ja/songs/kaf/originals/kako-wo-kurau)」、映画『ホットギミック ガールミーツボーイ』主題歌「[夜が降り止む前に](/ja/songs/kaf/originals/yoru-ga-furiyamu-mae-ni)」、更に8月1日に開催された1st ONE-MAN LIVE『[不可解](/ja/songs/kaf/originals/不可解-inexplicable)』で初披露された多数の新曲を加えた全15曲を収録。
 既にYouTubeで発表されている初期の楽曲もアレンジ・ミックスを再構築しアップデートされて新録されている。
 全曲の作詞作曲編曲は新世代ボカロPの[カンザキイオリ](https://kamitsubaki.wiki/ja/artists/creators/kanzaki-iori/)が担当。
 

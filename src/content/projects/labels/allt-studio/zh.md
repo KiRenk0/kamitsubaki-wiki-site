@@ -11,7 +11,7 @@ order: 5
 
 「ALLT STUDIO」是 THINKR 旗下的音乐厂牌，以「ALLT STUDIO」与「ALLT RECORD」的名义运营，定位为「管理以网络场景为中心进行活动的艺人的、发源于日本的音乐创作者厂牌」（官网介绍）。官方网站为 alltstudio.jp。
 
-在 2026年9月5日 THINKR 公布的新工作室架构中，ALLT STUDIO 与 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio)、[KYOKAI STUDIO](/zh/projects/labels/kyokai-studio) 同属「MUSIC & EXPERIENCE」板块。原深脊界（SINSEKAI RECORD）体系中的存流、詩道、水野あつ、[Sooda](/zh/artists/creators/sooda)、雨宿り 等艺人，现均收录于 ALLT STUDIO 官网的艺人名单中。
+在 2026年9月5日 THINKR 公布的新工作室架构中，ALLT STUDIO 与 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio)、[KYOKAI STUDIO](/zh/projects/labels/kyokai-studio) 同属「MUSIC & EXPERIENCE」板块。原深脊界（[SINSEKAI RECORD](/zh/projects/archive/sinsekai-studio)）体系中的存流、詩道、水野あつ、[Sooda](/zh/artists/creators/sooda)、雨宿り 等艺人，现均收录于 ALLT STUDIO 官网的艺人名单中。
 
 ## 旗下成员
 

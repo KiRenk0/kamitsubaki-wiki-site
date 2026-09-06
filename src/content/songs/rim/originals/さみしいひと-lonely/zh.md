@@ -287,18 +287,21 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [02:48.98]<ruby>さみしい<rt class="roma">samishii</rt></ruby><ruby>ひと<rt class="roma">hito</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">[02:48.98]寂寞的人呢</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:50.62]<ruby>さみしい<rt class="roma">samishii</rt></ruby><ruby>ひと<rt class="roma">hito</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">[02:50.62]寂寞的人呢</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:53.78]<ruby>ゆめ<rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>みせ<rt class="roma">mise</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:53.78]让我看着梦</div>
 </div>
 
@@ -306,6 +309,7 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [02:57.45]<ruby>あわ<rt class="roma">awa</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:57.45]如泡沫般</div>
 </div>
 

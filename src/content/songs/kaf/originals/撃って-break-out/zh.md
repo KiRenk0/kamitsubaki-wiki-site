@@ -60,6 +60,7 @@ image: /images/songs/kaf/track-1819865325.jpg
 <div class="jp-lyric">
 <ruby>燃<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby>
 </div>
+<div class="cn-lyric">燃烧</div>
 </div>
 
 <div class="lyric-line">
@@ -255,30 +256,35 @@ Right by, vivo, <ruby>限界<rt class="furi">げんかい</rt><rt class="roma">g
 <div class="jp-lyric">
 [02:23.17]<ruby>不完全<rt class="furi">ふかんぜん</rt><rt class="roma">fukanzen</rt></ruby> <ruby>そう<rt class="roma">sou</rt></ruby><ruby>問題<rt class="furi">もんだい</rt><rt class="roma">mondai</rt></ruby><ruby>外<rt class="furi">がい</rt><rt class="roma">gai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:23.17]不完美 没错 不在考虑范围</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:26.89]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>一生<rt class="furi">いっしょう</rt><rt class="roma">isshou</rt></ruby><ruby>どうし<rt class="roma">doushi</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:26.89]已经一生无可救药</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:29.94]<ruby>理想<rt class="furi">りそう</rt><rt class="roma">risou</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>現実<rt class="furi">げんじつ</rt><rt class="roma">genjitsu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[02:29.94]知晓理想与现实</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ぶって<rt class="roma">butte</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> (<ruby>ぶって<rt class="roma">butte</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>) <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> (<ruby>ぶって<rt class="roma">butte</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>) <ruby>ぶって<rt class="roma">butte</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">骗我吧 (骗我吧) 现在也 (骗我吧) 骗我吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ただ<rt class="roma">tada</rt></ruby> <ruby>燻<rt class="furi">いぶ</rt><rt class="roma">ibu</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>狭間<rt class="furi">はざま</rt><rt class="roma">hazama</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">只在 熏烧的夜晚间隙中</div>
 </div>
 
 <div class="lyric-line">
@@ -320,6 +326,7 @@ Right by, vivo, <ruby>限界<rt class="furi">げんかい</rt><rt class="roma">g
 <div class="jp-lyric">
 [02:52.45]<ruby>あて<rt class="roma">ate</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> <ruby>走り抜<rt class="furi">はしりぬ</rt><rt class="roma">hashirinu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:52.45]漫无目的 奔跑穿过</div>
 </div>
 
@@ -327,6 +334,7 @@ Right by, vivo, <ruby>限界<rt class="furi">げんかい</rt><rt class="roma">g
 <div class="jp-lyric">
 [02:52.45]<ruby>果<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>荒野<rt class="furi">あらの</rt><rt class="roma">arano</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:52.45]尽头的荒野</div>
 </div>
 
@@ -334,6 +342,7 @@ Right by, vivo, <ruby>限界<rt class="furi">げんかい</rt><rt class="roma">g
 <div class="jp-lyric">
 [02:56.00]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>散々<rt class="furi">さんざん</rt><rt class="roma">sanzan</rt></ruby><ruby>めく<rt class="roma">meku</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:56.00]无论何处都混乱不堪</div>
 </div>
 
@@ -341,6 +350,7 @@ Right by, vivo, <ruby>限界<rt class="furi">げんかい</rt><rt class="roma">g
 <div class="jp-lyric">
 [02:59.67]Just my light, as with the blood of me
 </div>
+
 <div class="cn-lyric">[02:59.67]Just my light, as with the blood of me</div>
 </div>
 
@@ -348,6 +358,7 @@ Right by, vivo, <ruby>限界<rt class="furi">げんかい</rt><rt class="roma">g
 <div class="jp-lyric">
 Made it to my way
 </div>
+
 <div class="cn-lyric">Made it to my way</div>
 </div>
 
@@ -355,6 +366,7 @@ Made it to my way
 <div class="jp-lyric">
 [03:04.14]Oh, shake, follow my key when I see
 </div>
+
 <div class="cn-lyric">[03:04.14]Oh, shake, follow my key when I see</div>
 </div>
 

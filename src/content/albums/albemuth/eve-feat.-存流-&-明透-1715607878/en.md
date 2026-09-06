@@ -62,17 +62,17 @@ tracks:
 
 ## Overview
 
-ALBEMUTH's album “eve (feat. 存流 & 明透)”, released on 2023-11-22, featuring 10 tracks.
+[ALBEMUTH](/en/artists/solo/albemuth)'s album “eve (feat. 存流 & 明透)”, released on 2023-11-22, featuring 10 tracks.
 
 ## Track List
 
-1. 幽ノ楽園 (feat. 存流 & 明透) (04:01)
-2. 新世界へ (feat. 存流 & 明透) (04:08)
-3. 赤い洗礼 (feat. 存流 & 明透) (03:02)
+1. [幽ノ楽園](/en/songs/albemuth/originals/幽no楽園) (feat. 存流 & 明透) (04:01)
+2. [新世界へ](/en/songs/asu/originals/新世界he) (feat. 存流 & 明透) (04:08)
+3. [赤い洗礼](/en/songs/asu/originals/赤i洗礼) (feat. 存流 & 明透) (03:02)
 4. 清々するんだ (feat. 存流 & 明透) (03:41)
-5. 感光 (feat. 存流 & 明透) (03:01)
+5. [感光](/en/songs/albemuth/originals/感光) (feat. 存流 & 明透) (03:01)
 6. 白夜にて (feat. 存流 & 明透) (02:55)
-7. 星月夜の調べ (feat. 存流 & 明透) (04:11)
+7. [星月夜の調べ (feat. 存流 & 明透)](/en/songs/albemuth/originals/星月夜no調be-feat-存流--明透) (04:11)
 8. 舟 (feat. 存流 & 明透) (03:46)
 9. 饒舌な星 (feat. 存流 & 明透) (03:43)
 10. 箱庭 (feat. 存流 & 明透) (04:45)

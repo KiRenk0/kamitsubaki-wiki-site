@@ -42,7 +42,7 @@ featuredEntries:
 - **2024年8月**：以单曲《[フェイクナイト・シンデレラ](/zh/songs/sinseiki/originals/fake-night-cinderella)》正式出道。
 - **2025年4月1日**：参加 KAMITSUBAKI WARS 2025 神椿川崎戦線「少女革命計画 1st LIVE/第一幕『改変』」。
 - **2025年7月16日**：与[罪十罰](/zh/artists/girls_revolution_project/tsumitobatsu)共同发行双组曲《[改変](/zh/songs/grp/originals/kaihen)》。
-- **2025年10月29日**：发行 1st Album《改変 -心-》。
+- **2025年10月29日**：发行 1st Album《[改変 -心-](/zh/albums/sinseiki/kaihen-kokoro)》。
 - **2026年5月**：参加 KAMITSUBAKI WARS 2026 神椿渋谷戦線「少女革命計画 2nd LIVE『Revolutio』」。
 
 ## 代表作品

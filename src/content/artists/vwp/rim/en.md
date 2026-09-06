@@ -81,20 +81,20 @@ She also stands out for singing across Japanese, English, and Korean material, w
 - **January 3**: Released her second original single "Carnivorous Plant" (Shokuchu Shokubutsu).
 - **August 12**: "Carnivorous Plant" gained massive popularity on TikTok, triggering a viral trend. The video exceeded 10 million plays on TikTok, and its YouTube views surpassed 3 million.
 - **September 5**: "Carnivorous Plant" surpassed 10 million views on YouTube.
-- **October 28**: Released her original single "Luscious Lawless" (甘美な無法).
-- **December 20**: Held her first cover streaming LIVE *CHOCOLATE LIVE* on YouTube.
+- **October 28**: Released her original single "Luscious Lawless" ([甘美な無法](/en/songs/rim/originals/甘美な無法-luscious-lawless)).
+- **December 20**: Held her first cover streaming LIVE *[CHOCOLATE LIVE](/en/albums/rim/chocolate-live)* on YouTube.
 
 ### 2021
 
 - **March 13**: Formally announced the formation of the virtual artist group [V.W.P](/en/artists/vwp/vwp) (Virtual Witch Phenomenon) during [KAF](/en/artists/vwp/kaf)'s 2nd ONE-MAN LIVE *Fukakai-Ni Q2*.
-- **May 15**: Held her 1st ONE-MAN LIVE *NEUROMANCE*.
-- **July 21**: Released her 1st Album *NEW ROMANCER*.
+- **May 15**: Held her 1st ONE-MAN LIVE *[NEUROMANCE](/en/songs/rim/originals/neuromance)*.
+- **July 21**: Released her 1st Album *[NEW ROMANCER](/en/albums/rim/new-romancer)*.
 
 ### 2022
 
 - **April 16**: Performed in V.W.P's 1st LIVE *Majo Shukai* (The Witch Assembly) and *Phenomenon*.
 - **April 27**: Reached 200,000 subscribers on YouTube. Released "Pilgrim" (theme song for HAL College of Technology & Design) and revealed her second outfit "The Cosmic Puppets".
-- **July 17**: Co-hosted the two-man live *Singularity Live* with fellow Kamitsubaki virtual singer Isekaijoucho.
+- **July 17**: Co-hosted the two-man live *[Singularity Live](/en/albums/rim/singularity-live)* with fellow Kamitsubaki virtual singer Isekaijoucho.
 - **August 17**: Released her original single "Tick Tock Boy" (ending theme for the TV anime *The 5-Second Button*).
 - **September**: Travelled to the United States to study English abroad for approximately half a year.
 - **October 5**: Released "Inner Child" (theme song for the TV drama *Shonen no Abyss*).
@@ -102,7 +102,7 @@ She also stands out for singing across Japanese, English, and Korean material, w
 ### 2023
 
 - **April**: Returned to Japan from her study abroad program and resumed activities.
-- **December 6**: Released her 2nd Album *NEW ROMANCER2*.
+- **December 6**: Released her 2nd Album *[NEW ROMANCER2](/en/albums/rim/new-romancer-2)*.
 - **December 16**: Held her 2nd ONE-MAN LIVE *NEUROMANCE II -Kamitsubaki City Ichibangai-*.
 
 ### 2024
@@ -122,7 +122,7 @@ She also stands out for singing across Japanese, English, and Korean material, w
 
 - **Albums**: 1st *New Romancer* (2021), 2nd *New Romancer 2* (2023)
 - **Representative Songs**: "Carnivorous Plant", "Kanbi na Muho", "Jukugatsu", "Inner Child", "Eroim"
-- **Important Collaboration Lines**: Mao Sasagawa, Guiano
+- **Important Collaboration Lines**: Mao Sasagawa, [Guiano](/en/artists/creators/guiano)
 - **Cover Live Series**: *CHOCOLATE LIVE* series
 
 Related entry:

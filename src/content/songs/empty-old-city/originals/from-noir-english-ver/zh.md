@@ -16,7 +16,7 @@ image: /images/songs/empty-old-city/from-noir-english-ver.jpg
 
 ## 作品简介
 
-Empty old City于 2026-03-12 发行的单曲《From Noir (English Ver.)》。
+[Empty old City](/zh/artists/solo/empty-old-city)于 2026-03-12 发行的单曲《From Noir (English Ver.)》。
 
 ## 试听
 {{media-switcher::From Noir (English Ver.)}}

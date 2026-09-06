@@ -201,24 +201,28 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [01:12.36]Yeah, we are V.W.P
 </div>
+<div class="cn-lyric">[01:12.36]Yeah, we are V.W.P</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:15.88]We are the V.W.P
 </div>
+<div class="cn-lyric">[01:15.88]We are the V.W.P</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:18.07]Nobody like us V.W.P
 </div>
+<div class="cn-lyric">[01:18.07]Nobody like us V.W.P</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:21.31]<ruby>この<rt class="roma">kono</rt></ruby>5<ruby>ピース<rt class="roma">piisu</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>MVP
 </div>
+<div class="cn-lyric">[01:21.31]这5人组今天也是MVP</div>
 </div>
 
 <div class="lyric-line">
@@ -246,12 +250,14 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [01:33.20]<ruby>この<rt class="roma">kono</rt></ruby>5<ruby>ピース<rt class="roma">piisu</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>MVP
 </div>
+<div class="cn-lyric">[01:33.20]这5人组今天也是MVP</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:37.10]<ruby>これ<rt class="roma">kore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>sisters
 </div>
+
 <div class="cn-lyric">[01:37.10]这是我的姐妹们</div>
 </div>
 
@@ -259,6 +265,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [01:40.03]<ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>絆<rt class="furi">きずな</rt><rt class="roma">kizuna</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:40.03]不会分离的这份羁绊</div>
 </div>
 
@@ -266,6 +273,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [01:43.05]<ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>ありがとう<rt class="roma">arigatou</rt></ruby><ruby>みんな<rt class="roma">minna</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:43.05]一直以来谢谢大家</div>
 </div>
 
@@ -273,6 +281,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [01:45.21]<ruby>締め括<rt class="furi">しめくく</rt><rt class="roma">shimekuku</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby> That’s my peace out!
 </div>
+
 <div class="cn-lyric">[01:45.21]来总结吧 That’s my peace out!</div>
 </div>
 

@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/moonflower-feat.-achu.jpg
 
 ## 作品概要
 
-tokiwaが2022-05-13にリリースしたシングル「Moonflower (feat. Achu*)」。
+[tokiwa](/ja/artists/creators/tokiwa)が2022-05-13にリリースしたシングル「Moonflower (feat. Achu*)」。
 
 ## 視聴
 {{media-switcher::Moonflower (feat. Achu*)}}

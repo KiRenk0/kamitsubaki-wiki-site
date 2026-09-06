@@ -82,21 +82,21 @@ tracks:
 
 ## 概要
 
-Guianoが2020-03-13にリリースしたアルバム『Love & Music -DISC1-』。全15曲を収録。
+[Guiano](/ja/artists/creators/guiano)が2020-03-13にリリースしたアルバム『Love & Music -DISC1-』。全15曲を収録。
 
 ## 収録曲
 
 1. ブラックゴールド（02:44）
-2. ミュージック（03:05）
+2. [ミュージック](/ja/songs/harusaruhi/covers/ミュージック-myuujikku)（03:05）
 3. レイニー（04:31）
 4. 凍るサマー（04:00）
 5. 凍えそうだ（03:27）
-6. シャナ（03:20）
-7. スーパーヒーロー（02:47）
+6. [シャナ](/ja/songs/guiano/originals/shana)（03:20）
+7. [スーパーヒーロー](/ja/songs/guiano/originals/suupaahiiroo)（02:47）
 8. 無題（02:50）
-9. 死んでしまったのだろうか（03:31）
+9. [死んでしまったのだろうか](/ja/songs/harusaruhi/covers/死んでしまったのだろうか-shinde-shimatta-no-darou-ka)（03:31）
 10. 眠り姫（03:58）
-11. 魔法（02:56）
+11. [魔法](/ja/albums/kaf/maho)（02:56）
 12. 波に飲まれる前に（03:17）
 13. 地球は青い（02:55）
 14. たとえ地球が終わっても（03:29）

@@ -48,7 +48,7 @@ seo:
 
 ## 概要
 
-LOLUETは2021年からYouTubeを中心に活動するバーチャルシンガーである。初期は個人名義で活動し、2023年3月31日に[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio)への所属を発表した。ALLT STUDIOとの関連があり、キャラクターデザインは望月けいが担当している。
+LOLUETは2021年からYouTubeを中心に活動するバーチャルシンガーである。初期は個人名義で活動し、2023年3月31日に[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio)への所属を発表した。[ALLT STUDIO](/ja/projects/labels/allt-studio)との関連があり、キャラクターデザインは望月けいが担当している。
 
 ## 基本資料
 
@@ -98,7 +98,7 @@ LOLUETは2021年からYouTubeを中心に活動するバーチャルシンガー
 | 2023 | 「トワニ」「G4L」「Shadow Shadow」「胎児の夢」 | 神椿所属後の活動拡張 |
 | 2024 | 「NightmaRe」「レコード・レド」「ラブ＆デストロイ」 | コラボ・オリジナル期への移行 |
 
-「ハネムーン feat. 理芽」は理芽とのコラボレーションであり、LOLUETの声を神椿の既存音楽ネットワークへ接続する作品である。『愛狂』への参加は、投稿中心の活動から正式リリースへ広がった段階として記録できる。
+「[ハネムーン feat. 理芽](/ja/songs/loluet/originals/hanemuun-feat-理芽)」は理芽とのコラボレーションであり、LOLUETの声を神椿の既存音楽ネットワークへ接続する作品である。『愛狂』への参加は、投稿中心の活動から正式リリースへ広がった段階として記録できる。
 
 ## 形態・創作者・エピソード
 

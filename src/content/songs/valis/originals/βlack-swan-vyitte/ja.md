@@ -17,7 +17,7 @@ image: /images/songs/valis/βlack-swan-vyitte.jpg
 
 ## 作品概要
 
-VALISが2025-05-30にリリースしたシングル「βlack Swan(ヴィッテ)」。
+[VALIS](/ja/artists/solo/valis)が2025-05-30にリリースしたシングル「βlack Swan(ヴィッテ)」。
 
 ## 視聴
 {{media-switcher::βlack Swan(ヴィッテ)}}

@@ -147,30 +147,35 @@ image: /images/songs/harusaruhi/single-1712294275.jpg
 <div class="jp-lyric">
 你<ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>痛<rt class="furi">つう</rt><rt class="roma">tsuu</rt></ruby>怎<ruby>能<rt class="furi">のう</rt><rt class="roma">nou</rt></ruby><ruby>看<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>不<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby>见
 </div>
+<div class="trans-lyric">How could I not see your pain</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 为什么<ruby>最<rt class="furi">さい</rt><rt class="roma">sai</rt></ruby>迷<ruby>人的<rt class="furi">じんてき</rt><rt class="roma">jinteki</rt></ruby><ruby>最<rt class="furi">さい</rt><rt class="roma">sai</rt></ruby>危险
 </div>
+<div class="trans-lyric">Why are the most charming the most dangerous</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 为什么爱<ruby>会<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby>让<ruby>人<rt class="furi">じん</rt><rt class="roma">jin</rt></ruby>变<ruby>残<rt class="furi">ざん</rt><rt class="roma">zan</rt></ruby>缺
 </div>
+<div class="trans-lyric">Why does love make people incomplete</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 为什么那么<ruby>痛<rt class="furi">つう</rt><rt class="roma">tsuu</rt></ruby>
 </div>
+<div class="trans-lyric">Why does it hurt so much</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 还敢拿<ruby>胸<rt class="furi">むね</rt><rt class="roma">mune</rt></ruby><ruby>口<rt class="furi">ぐち</rt><rt class="roma">guchi</rt></ruby><ruby>再<rt class="furi">さい</rt><rt class="roma">sai</rt></ruby>挡 锐<ruby>利<rt class="furi">とぎ</rt><rt class="roma">togi</rt></ruby>伤悲
 </div>
+<div class="trans-lyric">Still dare to use your chest to block the sharp sorrow</div>
 </div>
 
 <div class="lyric-line">
@@ -205,6 +210,7 @@ image: /images/songs/harusaruhi/single-1712294275.jpg
 <div class="jp-lyric">
 绝<ruby>望地<rt class="furi">もうち</rt><rt class="roma">mouchi</rt></ruby> 盼<ruby>望<rt class="furi">もち</rt><rt class="roma">mochi</rt></ruby><ruby>着<rt class="furi">ぎ</rt><rt class="roma">gi</rt></ruby> <ruby>幸福<rt class="furi">こうふく</rt><rt class="roma">koufuku</rt></ruby><ruby>地<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby> <ruby>孤<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby>单<ruby>着<rt class="furi">ぎ</rt><rt class="roma">gi</rt></ruby>
 </div>
+
 <div class="trans-lyric">Desperately hope, happily lonely</div>
 </div>
 
@@ -212,6 +218,7 @@ image: /images/songs/harusaruhi/single-1712294275.jpg
 <div class="jp-lyric">
 让 <ruby>混乱<rt class="furi">こんらん</rt><rt class="roma">konran</rt></ruby><ruby>心情<rt class="furi">しんじょう</rt><rt class="roma">shinjou</rt></ruby><ruby>翻<rt class="furi">こぼし</rt><rt class="roma">koboshi</rt></ruby>滚<ruby>着<rt class="furi">ぎ</rt><rt class="roma">gi</rt></ruby>
 </div>
+
 <div class="trans-lyric">Let the chaotic feelings churn</div>
 </div>
 
@@ -219,6 +226,7 @@ image: /images/songs/harusaruhi/single-1712294275.jpg
 <div class="jp-lyric">
 继续 贪<ruby>心地<rt class="furi">ごこち</rt><rt class="roma">gokochi</rt></ruby> 担<ruby>心<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>着<rt class="furi">ぎ</rt><rt class="roma">gi</rt></ruby>
 </div>
+
 <div class="trans-lyric">Continue greedily worrying</div>
 </div>
 
@@ -226,6 +234,7 @@ image: /images/songs/harusaruhi/single-1712294275.jpg
 <div class="jp-lyric">
 锥<ruby>心地<rt class="furi">ごこち</rt><rt class="roma">gokochi</rt></ruby> 痴<ruby>心<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>着<rt class="furi">ぎ</rt><rt class="roma">gi</rt></ruby> 做<ruby>不<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby><ruby>抉<rt class="furi">くじ</rt><rt class="roma">kuji</rt></ruby>择
 </div>
+
 <div class="trans-lyric">Heartbreakingly infatuated, unable to choose</div>
 </div>
 
@@ -233,6 +242,7 @@ image: /images/songs/harusaruhi/single-1712294275.jpg
 <div class="jp-lyric">
 <ruby>暗<rt class="furi">くら</rt><rt class="roma">kura</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby>就<ruby>好<rt class="furi">よしみ</rt><rt class="roma">yoshimi</rt></ruby><ruby>像<rt class="furi">ぞう</rt><rt class="roma">zou</rt></ruby> <ruby>越<rt class="furi">えつ</rt><rt class="roma">etsu</rt></ruby><ruby>背<rt class="furi">せ</rt><rt class="roma">se</rt></ruby><ruby>越<rt class="furi">えつ</rt><rt class="roma">etsu</rt></ruby>沉<ruby>重<rt class="furi">じゅう</rt><rt class="roma">juu</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby>壳
 </div>
+
 <div class="trans-lyric">Secret love is like a shell that gets heavier the more you carry</div>
 </div>
 
@@ -240,48 +250,56 @@ image: /images/songs/harusaruhi/single-1712294275.jpg
 <div class="jp-lyric">
 为什么<ruby>最<rt class="furi">さい</rt><rt class="roma">sai</rt></ruby>迷<ruby>人的<rt class="furi">じんてき</rt><rt class="roma">jinteki</rt></ruby><ruby>最<rt class="furi">さい</rt><rt class="roma">sai</rt></ruby>危险
 </div>
+<div class="trans-lyric">Why are the most charming the most dangerous</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 为什么爱<ruby>会<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby>让<ruby>人<rt class="furi">じん</rt><rt class="roma">jin</rt></ruby>变<ruby>残<rt class="furi">ざん</rt><rt class="roma">zan</rt></ruby>缺
 </div>
+<div class="trans-lyric">Why does love make people incomplete</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 为什么那么<ruby>痛<rt class="furi">つう</rt><rt class="roma">tsuu</rt></ruby>
 </div>
+<div class="trans-lyric">Why does it hurt so much</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 还敢拿<ruby>胸<rt class="furi">むね</rt><rt class="roma">mune</rt></ruby><ruby>口<rt class="furi">ぐち</rt><rt class="roma">guchi</rt></ruby><ruby>再<rt class="furi">さい</rt><rt class="roma">sai</rt></ruby>挡 锐<ruby>利<rt class="furi">とぎ</rt><rt class="roma">togi</rt></ruby>伤悲
 </div>
+<div class="trans-lyric">Still dare to use your chest to block the sharp sorrow</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 你<ruby>在<rt class="furi">ざい</rt><rt class="roma">zai</rt></ruby><ruby>我<rt class="furi">わが</rt><rt class="roma">waga</rt></ruby><ruby>眼中<rt class="furi">がんちゅう</rt><rt class="roma">ganchuu</rt></ruby><ruby>真<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby>很<ruby>特<rt class="furi">とく</rt><rt class="roma">toku</rt></ruby>别
 </div>
+<div class="trans-lyric">You are truly special in my eyes</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>可<rt class="furi">か</rt><rt class="roma">ka</rt></ruby>惜却<ruby>不在<rt class="furi">ふざい</rt><rt class="roma">fuzai</rt></ruby><ruby>我<rt class="furi">わが</rt><rt class="roma">waga</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby>梦<ruby>里<rt class="furi">さと</rt><rt class="roma">sato</rt></ruby><ruby>面<rt class="furi">めん</rt><rt class="roma">men</rt></ruby>
 </div>
+<div class="trans-lyric">But unfortunately, you are not in my dreams</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 爱<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>无<ruby>法<rt class="furi">ほう</rt><rt class="roma">hou</rt></ruby><ruby>解<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby>释 <ruby>矛盾<rt class="furi">むじゅん</rt><rt class="roma">mujun</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby>结
 </div>
+<div class="trans-lyric">Love is an inexplicable, contradictory dead knot</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 爱<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>无<ruby>法<rt class="furi">ほう</rt><rt class="roma">hou</rt></ruby><ruby>解<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby>释 <ruby>矛盾<rt class="furi">むじゅん</rt><rt class="roma">mujun</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby>结
 </div>
+<div class="trans-lyric">Love is an inexplicable, contradictory dead knot</div>
 </div>
 
 </div>

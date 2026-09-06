@@ -19,7 +19,7 @@ image: /images/songs/isekaijoucho/single-1800090314.jpg
 
 ## 作品简介
 
-《とめどなき白情 (Getty Remix) [feat. Isekaijoucho]》收录于《とめどなき白情 (Getty Remix)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《とめどなき白情 (Getty Remix) [feat. Isekaijoucho]》收录于《[とめどなき白情](/zh/songs/isekaijoucho/originals/とめどなき白情-tomedonaki-hakujou) (Getty Remix)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -56,6 +56,7 @@ image: /images/songs/isekaijoucho/single-1800090314.jpg
 <div class="jp-lyric">
 <ruby>ただ<rt class="roma">tada</rt></ruby><ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby>
 </div>
+<div class="cn-lyric">只是存在于那里</div>
 </div>
 
 <div class="lyric-line">
@@ -78,6 +79,7 @@ image: /images/songs/isekaijoucho/single-1800090314.jpg
 <div class="jp-lyric">
 <ruby>その<rt class="roma">sono</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>粒<rt class="furi">つぶ</rt><rt class="roma">tsubu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">那一粒</div>
 </div>
 
 <div class="lyric-line">
@@ -282,6 +284,7 @@ image: /images/songs/isekaijoucho/single-1800090314.jpg
 <div class="jp-lyric">
 <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>そうして<rt class="roma">soushite</rt></ruby>
 </div>
+<div class="cn-lyric">你也如此</div>
 </div>
 
 <div class="lyric-line">
@@ -311,24 +314,28 @@ image: /images/songs/isekaijoucho/single-1800090314.jpg
 <div class="jp-lyric">
 <ruby>その<rt class="roma">sono</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>粒<rt class="furi">つぶ</rt><rt class="roma">tsubu</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">那一粒</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>その<rt class="roma">sono</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>粒<rt class="furi">つぶ</rt><rt class="roma">tsubu</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">那一粒</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>その<rt class="roma">sono</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>粒<rt class="furi">つぶ</rt><rt class="roma">tsubu</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">那一粒</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>はず<rt class="roma">hazu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
 </div>
+
 <div class="cn-lyric">明明应当在我心中</div>
 </div>
 
@@ -338,6 +345,7 @@ image: /images/songs/isekaijoucho/single-1800090314.jpg
 <div class="jp-lyric">
 <ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>形<rt class="furi">かたち</rt><rt class="roma">katachi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+
 <div class="cn-lyric">声音与形态</div>
 </div>
 
@@ -345,6 +353,7 @@ image: /images/songs/isekaijoucho/single-1800090314.jpg
 <div class="jp-lyric">
 <ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>けれど<rt class="roma">keredo</rt></ruby>
 </div>
+
 <div class="cn-lyric">虽在此处</div>
 </div>
 
@@ -352,6 +361,7 @@ image: /images/songs/isekaijoucho/single-1800090314.jpg
 <div class="jp-lyric">
 <ruby>それ<rt class="roma">sore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">但那并非全部啊</div>
 </div>
 
@@ -361,18 +371,21 @@ image: /images/songs/isekaijoucho/single-1800090314.jpg
 <div class="jp-lyric">
 <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>そうして<rt class="roma">soushite</rt></ruby>
 </div>
+<div class="cn-lyric">你也如此</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>視<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+<div class="cn-lyric">若你注视我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>白<rt class="furi">しろ</rt><rt class="roma">shiro</rt></ruby><ruby>情<rt class="furi">じょう</rt><rt class="roma">jou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>映<rt class="furi">うつ</rt><rt class="roma">utsu</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+
 <div class="cn-lyric">会映出白情吗</div>
 </div>
 

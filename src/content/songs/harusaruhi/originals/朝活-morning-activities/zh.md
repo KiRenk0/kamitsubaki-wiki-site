@@ -126,6 +126,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:25.43]yeah
 </div>
+<div class="cn-lyric">[00:25.43]耶</div>
 </div>
 
 <div class="lyric-line">
@@ -146,18 +147,21 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:30.65]yeah
 </div>
+<div class="cn-lyric">[00:30.65]耶</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:31.95]Good morning
 </div>
+<div class="cn-lyric">[00:31.95]早上好</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:32.97]<ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>ほら<rt class="roma">hora</rt></ruby><ruby>元通<rt class="furi">もとどお</rt><rt class="roma">motodoo</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>
 </div>
+
 <div class="cn-lyric">[00:32.97]早晨到来你看就恢复原样</div>
 </div>
 
@@ -165,12 +169,14 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:35.83]yeah
 </div>
+<div class="cn-lyric">[00:35.83]耶</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:36.56]<ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>活<rt class="furi">かつ</rt><rt class="roma">katsu</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>超<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
+
 <div class="cn-lyric">[00:36.56]晨间活动超棒的</div>
 </div>
 
@@ -178,6 +184,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:38.12]<ruby>優<rt class="furi">やさ</rt><rt class="roma">yasa</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>Don’t worry
 </div>
+
 <div class="cn-lyric">[00:38.12]温柔的风说别担心</div>
 </div>
 
@@ -185,6 +192,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:40.81]yeah
 </div>
+<div class="cn-lyric">[00:40.81]耶</div>
 </div>
 
 <br />

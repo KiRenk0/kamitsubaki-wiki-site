@@ -17,7 +17,7 @@ image: /images/songs/dustcell/心臓.jpg
 
 ## 作品简介
 
-DUSTCELL于 2025-02-18 发行的单曲《心臓》。
+[DUSTCELL](/zh/artists/solo/dustcell)于 2025-02-18 发行的单曲《心臓》。
 
 ## 试听
 {{media-switcher::心臓}}

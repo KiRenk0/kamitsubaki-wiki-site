@@ -17,7 +17,7 @@ image: /images/songs/mimi/without-knowing-feat.-akarakai.jpg
 
 ## 作品简介
 
-MIMI于 2023-08-18 发行的单曲《Without Knowing (feat. アカラカイ)》。
+[MIMI](/zh/artists/creators/mimi)于 2023-08-18 发行的单曲《Without Knowing (feat. アカラカイ)》。
 
 ## 试听
 {{media-switcher::Without Knowing (feat. アカラカイ)}}

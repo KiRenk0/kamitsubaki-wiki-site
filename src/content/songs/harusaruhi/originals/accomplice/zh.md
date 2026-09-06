@@ -77,6 +77,7 @@ image: /images/songs/harusaruhi/single-1895909161.jpg
 <div class="jp-lyric">
 [01:10.37]I am on your tail
 </div>
+<div class="cn-lyric">[01:10.37]我紧跟在你身后</div>
 </div>
 
 <div class="lyric-line">
@@ -118,6 +119,7 @@ image: /images/songs/harusaruhi/single-1895909161.jpg
 <div class="jp-lyric">
 [01:31.28]You are nothing but an accomplice of death
 </div>
+
 <div class="cn-lyric">[01:31.28]你不过是死亡的帮凶</div>
 </div>
 

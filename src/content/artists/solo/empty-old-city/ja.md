@@ -73,17 +73,17 @@ Empty old City は、コンポーザー兼プロデューサーの Neuron（ニ�
 
 - 2021 年：1st Single「Urban Cruise」でデビュー。
 - 2024年1月：11th Single「[Chronicle A](/ja/songs/empty-old-city/originals/chronicle-a)」をリリース。YouTube での再生回数が 1200 万回を突破し、ブレイクヒットとなる。
-- 2025年9月11日：コンセプト EP『[From Noir into Clair](/ja/albums/empty-old-city/From-Noir-into-Clair-1840911030)』をリリース。
+- 2025年9月11日：コンセプト EP『[From Noir into Clair](/ja/albums/empty-old-city/from-noir-into-clair-1840911030)』をリリース。
 - 2025年10月19日：Spotify O-EAST にて 5th Anniversary Live「Quintennial: recall」を開催。
-- 2026年4月22日：2nd Album『[Strings in Owl](/ja/albums/empty-old-city/Strings-in-Owl-1888375903)』をリリース。
+- 2026年4月22日：2nd Album『[Strings in Owl](/ja/albums/empty-old-city/strings-in-owl-1888375903)』をリリース。
 - 2026年6月2日：2nd ONE-MAN LIVE の開催を発表。
 
 - 2026年9月：THINKRのスタジオ再編に伴い、[KYOKAI STUDIO](/ja/projects/labels/kyokai-studio) へ移籍（旧・[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) 体系）。
 
 ## 代表作品
 
-- アルバム：『Strings in Owl』（2nd Album, 2026）
-- コンセプト EP：『From Noir into Clair』（2025）
+- アルバム：『[Strings in Owl](/ja/albums/empty-old-city/strings-in-owl-1888375903)』（2nd Album, 2026）
+- コンセプト EP：『[From Noir into Clair](/ja/albums/empty-old-city/from-noir-into-clair-1840911030)』（2025）
 - 主要シングル：「[Chronicle A](/ja/songs/empty-old-city/originals/chronicle-a)」（11th）、「[Daisy Crown](/ja/songs/empty-old-city/originals/daisy-crown)」（16th）、「[Death Designer](/ja/songs/empty-old-city/originals/death-designer)」（15th）、「[Astronomy](/ja/songs/empty-old-city/originals/astronomy)」（14th）、「Ghost Keikai wo Utau」（13th）、「[Buffer](/ja/songs/empty-old-city/originals/buffer)」（12th）
 - デビューシングル：「Urban Cruise」（2021）
 

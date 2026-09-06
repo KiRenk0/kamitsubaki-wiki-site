@@ -248,24 +248,28 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 [03:27.10]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>コンパス<rt class="roma">konpasu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>サーチライト<rt class="roma">saachiraito</rt></ruby>
 </div>
+<div class="cn-lyric">[03:27.10]你是指南针 你是探照灯</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:32.61]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>マント<rt class="roma">manto</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>旅人<rt class="furi">たびびと</rt><rt class="roma">tabibito</rt></ruby>
 </div>
+<div class="cn-lyric">[03:32.61]你是披风 我是旅人</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:38.19]<ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>さざ波<rt class="furi">さざなみ</rt><rt class="roma">sazanami</rt></ruby> <ruby>水面<rt class="furi">すいめん</rt><rt class="roma">suimen</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby>
 </div>
+<div class="cn-lyric">[03:38.19]风与涟漪 水面与光</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:43.70]<ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:43.70]给喜欢上的你展现的 全都是爱</div>
 </div>
 

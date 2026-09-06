@@ -65,7 +65,7 @@ CIEL 是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 旗下的�
 
 ## 角色与创作定位
 
-CIEL 的核心设定是一个「总是低着头的少女终于抬起头来」的故事。蓝色头发象征天空，也暗示着她从封闭自我到向外看世界的心理转变。她的歌声风格偏向清新、温柔，与 V.W.P 成员们更具戏剧性的表达形成差异。
+CIEL 的核心设定是一个「总是低着头的少女终于抬起头来」的故事。蓝色头发象征天空，也暗示着她从封闭自我到向外看世界的心理转变。她的歌声风格偏向清新、温柔，与 [V.W.P](/zh/artists/vwp/vwp) 成员们更具戏剧性的表达形成差异。
 
 在「空爽」组合中，CIEL 与 Sooda 的声线形成了独特互补——虚拟与现实、视觉与听觉的边界在两人的合作中被有意模糊，体现了神椿对「次元横断」概念的持续探索。
 
@@ -76,13 +76,13 @@ CIEL 的核心设定是一个「总是低着头的少女终于抬起头来」的
 - **2023年2月**：参加「KAMITSUBAKI FES'23」。
 - **2024年5月**：举办 1st VIRTUAL LIVE「空想劇-神椿市伍番街-」。
 - **2025年7月**：参加「KAMITSUBAKI FES ’25 / Singularity Live Vol.4」。
-- **2025年12月**：从活动休止中回归，举办个人虚拟迷你 live「再晴」。
+- **2025年12月**：从活动休止中回归，举办个人虚拟迷你 live「[再晴](/zh/albums/ciel/再晴-1875196168)」。
 - **2026年1月**：与 [Sooda](/zh/artists/creators/sooda) 组成跨次元虚拟音乐组合「[空爽](/zh/artists/solo/kuusou) / KUUSOU」，发行出道曲「[透明流星ラプソディ](/zh/songs/kuusou/originals/透明流星rapusodei)」。
 
 ## 代表作品与相关条目
 
 - 单曲：「[眼裏の懐疑](/zh/songs/ciel/originals/眼裏no懐疑)」「[窓を開けて](/zh/songs/ciel/originals/窓wo開kete)」
-- 影像作品：[Rim](/zh/artists/vwp/rim) × [ヰ世界情緒](/zh/artists/vwp/isekaijoucho) TWO-MAN LIVE「Singularity Live」（CIEL 参演）
+- 影像作品：[Rim](/zh/artists/vwp/rim) × [ヰ世界情緒](/zh/artists/vwp/isekaijoucho) TWO-MAN LIVE「[Singularity Live](/zh/albums/rim/singularity-live)」（CIEL 参演）
 - 组合出道曲：「透明流星ラプソディ」（空爽名义）
 
 推荐搭配阅读：

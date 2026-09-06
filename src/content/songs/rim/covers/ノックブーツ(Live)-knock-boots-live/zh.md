@@ -56,6 +56,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 [00:25.20]<ruby>いや<rt class="roma">iya</rt></ruby>、<ruby>なんか<rt class="roma">nanka</rt></ruby>違<ruby>く<rt class="roma">ku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
+<div class="cn-lyric">[00:25.20]不，总觉得不太对</div>
 </div>
 
 <div class="lyric-line">
@@ -363,6 +364,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 [02:31.66]「<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>」<ruby>とか<rt class="roma">toka</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[02:31.66]不是「我爱你」那样的</div>
 </div>
 
 <div class="lyric-line">
@@ -390,6 +392,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 [02:44.32]<ruby>またし<rt class="roma">matashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>(<ruby>自主<rt class="furi">じしゅ</rt><rt class="roma">jishu</rt></ruby><ruby>規制<rt class="furi">きせい</rt><rt class="roma">kisei</rt></ruby>)<ruby>な<rt class="roma">na</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:44.32]又是一个(自我审查)的夜晚</div>
 </div>
 
@@ -399,6 +402,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 (<ruby>自主<rt class="furi">じしゅ</rt><rt class="roma">jishu</rt></ruby><ruby>規制<rt class="furi">きせい</rt><rt class="roma">kisei</rt></ruby>)
 </div>
+
 <div class="cn-lyric">(自我审查)</div>
 </div>
 

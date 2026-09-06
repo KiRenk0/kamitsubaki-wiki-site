@@ -273,13 +273,16 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [02:03.03]<ruby>守<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>そこなった<rt class="roma">sokonatta</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
-<div class="trans-lyric">It's all things I failed to protect</div>
+<div class="trans-lyric">
+[02:03.03]It's all things I failed to protect
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:05.86]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>信<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>目指<rt class="furi">めざ</rt><rt class="roma">meza</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[02:05.86]What to believe, what to aim for</div>
 </div>
 
 <div class="lyric-line">
@@ -300,6 +303,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [02:16.76]<ruby>畢生<rt class="furi">ひっせい</rt><rt class="roma">hissei</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">[02:16.76]O lifetime</div>
 </div>
 
 <div class="lyric-line">
@@ -389,6 +393,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [03:08.58]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>べき<rt class="roma">beki</rt></ruby><ruby>者<rt class="furi">もの</rt><rt class="roma">mono</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>べき<rt class="roma">beki</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:08.58]I realized I should love those I should love</div>
 </div>
 
@@ -396,12 +401,14 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [03:11.32]<ruby>畢生<rt class="furi">ひっせい</rt><rt class="roma">hissei</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">[03:11.32]O lifetime</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:12.42]<ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>希望<rt class="furi">きぼう</rt><rt class="roma">kibou</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:12.42]If it ends, become your hope</div>
 </div>
 

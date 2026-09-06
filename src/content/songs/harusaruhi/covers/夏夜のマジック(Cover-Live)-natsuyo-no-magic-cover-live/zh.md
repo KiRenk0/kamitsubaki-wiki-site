@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 
 ## 作品简介
 
-《夏夜のマジック (Cover Live)》收录于《CREAM PUFF LIVE 4 (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《夏夜のマジック (Cover Live)》收录于《[CREAM PUFF LIVE 4](/zh/albums/harusaruhi/cream-puff-live-4) (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -176,42 +176,49 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 [02:27.67]<ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>マジック<rt class="roma">majikku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[02:27.67]仅限今夜 用夏夜的魔法</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:31.55]<ruby>今夜<rt class="furi">こんや</rt><rt class="roma">kon'ya</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>マジック<rt class="roma">majikku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[02:31.55]仅限今晚的魔法</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:34.50]<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[02:34.50]让我歌唱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:36.08]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>わかる<rt class="roma">wakaru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>
 </div>
+<div class="cn-lyric">[02:36.08]现在仿佛能够理解你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:40.33]<ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>限<rt class="furi">かぎ</rt><rt class="roma">kagi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>マジック<rt class="roma">majikku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[02:40.33]用夏夜限定的魔法</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:43.87]<ruby>今夜<rt class="furi">こんや</rt><rt class="roma">kon'ya</rt></ruby><ruby>限<rt class="furi">かぎ</rt><rt class="roma">kagi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>マジック<rt class="roma">majikku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[02:43.87]用今晚限定的魔法</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:46.81]<ruby>身<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>任<rt class="furi">まか</rt><rt class="roma">maka</rt></ruby><ruby>す<rt class="roma">su</rt></ruby>
 </div>
+<div class="cn-lyric">[02:46.81]纵身其中</div>
 </div>
 
 <div class="lyric-line">
@@ -241,6 +248,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 [03:05.38]<ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>思い出<rt class="furi">おもいだ</rt><rt class="roma">omoida</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>別<rt class="furi">わか</rt><rt class="roma">waka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:05.38]每当夏天便会想起的离别之歌</div>
 </div>
 
@@ -248,6 +256,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 [03:11.50]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>救<rt class="furi">すく</rt><rt class="roma">suku</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:11.50]现在仿佛能拯救我</div>
 </div>
 
@@ -257,48 +266,56 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 [03:41.46]<ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>マジック<rt class="roma">majikku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[03:41.46]仅限今夜 用夏夜的魔法</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:45.34]<ruby>今夜<rt class="furi">こんや</rt><rt class="roma">kon'ya</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>マジック<rt class="roma">majikku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[03:45.34]仅限今晚的魔法</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:48.56]<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[03:48.56]让我歌唱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:49.88]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>わかる<rt class="roma">wakaru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>
 </div>
+<div class="cn-lyric">[03:49.88]现在仿佛能够理解你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:54.37]<ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>限<rt class="furi">かぎ</rt><rt class="roma">kagi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>マジック<rt class="roma">majikku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[03:54.37]用夏夜限定的魔法</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:57.75]<ruby>今夜<rt class="furi">こんや</rt><rt class="roma">kon'ya</rt></ruby><ruby>限<rt class="furi">かぎ</rt><rt class="roma">kagi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>マジック<rt class="roma">majikku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[03:57.75]用今晚限定的魔法</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:00.67]<ruby>身<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>任<rt class="furi">まか</rt><rt class="roma">maka</rt></ruby><ruby>す<rt class="roma">su</rt></ruby>
 </div>
+<div class="cn-lyric">[04:00.67]纵身其中</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:02.28]<ruby>夜明<rt class="furi">よあ</rt><rt class="roma">yoa</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>流<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
+<div class="cn-lyric">[04:02.28]直到黎明流淌</div>
 </div>
 
 <br />
@@ -307,6 +324,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 [04:07.19]<ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:07.19]在夏天结束之前</div>
 </div>
 
@@ -314,6 +332,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 [04:10.03]<ruby>この<rt class="roma">kono</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>まって<rt class="roma">matte</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:10.03]这首歌开始了</div>
 </div>
 
@@ -321,6 +340,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 [04:13.73]<ruby>こぼれる<rt class="roma">koboreru</rt></ruby>2<ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見守<rt class="furi">みまも</rt><rt class="roma">mimamo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:13.73]因为会守护着溢出心间的二人</div>
 </div>
 
@@ -328,6 +348,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 [04:18.69](<ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>) <ruby>ラララ<rt class="roma">rarara</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>ラララ<rt class="roma">rarara</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:18.69](夏天啊) 啦啦啦让我歌唱 啦啦啦让我歌唱</div>
 </div>
 
@@ -335,6 +356,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 [04:24.96](<ruby>ナツヨ<rt class="roma">natsuyo</rt></ruby>) <ruby>ラララ<rt class="roma">rarara</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>ラララ<rt class="roma">rarara</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:24.96](夏天啊) 啦啦啦让我歌唱 啦啦啦让我歌唱</div>
 </div>
 

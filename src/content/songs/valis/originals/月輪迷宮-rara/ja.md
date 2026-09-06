@@ -17,7 +17,7 @@ image: /images/songs/valis/月輪迷宮-rara.jpg
 
 ## 作品概要
 
-VALISが2023-10-21にリリースしたシングル「月輪迷宮(RARA)」。
+[VALIS](/ja/artists/solo/valis)が2023-10-21にリリースしたシングル「月輪迷宮(RARA)」。
 
 ## 視聴
 {{media-switcher::月輪迷宮(RARA)}}

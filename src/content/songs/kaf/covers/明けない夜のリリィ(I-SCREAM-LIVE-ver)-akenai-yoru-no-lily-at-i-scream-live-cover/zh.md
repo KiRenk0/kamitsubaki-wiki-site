@@ -145,6 +145,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [02:07.05]<ruby>この<rt class="roma">kono</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>明<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="cn-lyric">[02:07.05]因为这夜永远不会天亮</div>
 </div>
 
 <div class="lyric-line">
@@ -256,6 +257,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [04:20.24]「<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>」<ruby>と<rt class="roma">to</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:20.24]说着‘我不会忘记你’</div>
 </div>
 

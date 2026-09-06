@@ -142,6 +142,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 <ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+<div class="cn-lyric">能看见的只有你</div>
 </div>
 
 <div class="lyric-line">
@@ -351,6 +352,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 <ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>場所<rt class="furi">ばしょ</rt><rt class="roma">basho</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+
 <div class="cn-lyric">能活下去的地方</div>
 </div>
 

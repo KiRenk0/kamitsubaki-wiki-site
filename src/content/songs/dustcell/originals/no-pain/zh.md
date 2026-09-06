@@ -17,7 +17,7 @@ image: /images/songs/dustcell/no-pain.jpg
 
 ## 作品简介
 
-DUSTCELL于 2024-12-10 发行的单曲《NO PAIN》。
+[DUSTCELL](/zh/artists/solo/dustcell)于 2024-12-10 发行的单曲《NO PAIN》。
 
 ## 试听
 {{media-switcher::NO PAIN}}

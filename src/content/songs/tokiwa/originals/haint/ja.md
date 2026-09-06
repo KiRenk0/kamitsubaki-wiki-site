@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/haint.jpg
 
 ## 作品概要
 
-tokiwaが2022-11-11にリリースしたシングル「Haint」。
+[tokiwa](/ja/artists/creators/tokiwa)が2022-11-11にリリースしたシングル「Haint」。
 
 ## 視聴
 {{media-switcher::Haint}}

@@ -52,7 +52,7 @@ seo:
 
 ## Overview
 
-**KAFU** (可不, {{ruby::Kafu::かふ::kafu}}) is the flagship vocal synthesis library of KAMITSUBAKI STUDIO's "Musical Isotope" project, powered by CeVIO AI and Synthesizer V, with voice provider **[KAF](/en/artists/vwp/kaf)**.
+**KAFU** (可不, {{ruby::Kafu::かふ::kafu}}) is the flagship vocal synthesis library of [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio)'s "Musical Isotope" project, powered by CeVIO AI and Synthesizer V, with voice provider **[KAF](/en/artists/vwp/kaf)**.
 
 Released on July 7, 2021, KAFU became a phenomenon in VOCALOID producer culture, featuring in viral hits like Tsumiki's *Phony*.
 

@@ -17,7 +17,7 @@ image: /images/songs/mimi/愛suruyouni-feat.-akarakai-cover.jpg
 
 ## 作品概要
 
-MIMIが2024-12-24にリリースしたシングル「愛するように (feat. アカラカイ) [Cover]」。
+[MIMI](/ja/artists/creators/mimi)が2024-12-24にリリースしたシングル「[愛するように](/ja/songs/mimi/originals/愛suruyouni) (feat. アカラカイ) [Cover]」。
 
 ## 視聴
 {{media-switcher::愛するように (feat. アカラカイ) [Cover]}}

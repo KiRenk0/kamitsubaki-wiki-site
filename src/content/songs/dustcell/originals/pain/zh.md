@@ -17,7 +17,7 @@ image: /images/songs/dustcell/pain.jpg
 
 ## 作品简介
 
-DUSTCELL于 2020-09-15 发行的单曲《PAIN》。
+[DUSTCELL](/zh/artists/solo/dustcell)于 2020-09-15 发行的单曲《PAIN》。
 
 ## 试听
 {{media-switcher::PAIN}}

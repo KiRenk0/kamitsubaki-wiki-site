@@ -308,6 +308,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 <ruby>時代<rt class="furi">じだい</rt><rt class="roma">jidai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>流<rt class="furi">ながれ</rt><rt class="roma">nagare</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>深雪<rt class="furi">みゆき</rt><rt class="roma">miyuki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>密<rt class="furi">みつ</rt><rt class="roma">mitsu</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>比翼<rt class="furi">ひよく</rt><rt class="roma">hiyoku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>芽<rt class="furi">め</rt><rt class="roma">me</rt></ruby>
 </div>
+<div class="cn-lyric">时代中流淌的深雪所藏的比翼之芽</div>
 </div>
 
 <div class="lyric-line">
@@ -335,6 +336,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 「<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よかった<rt class="roma">yokatta</rt></ruby>」 <ruby>と<rt class="roma">to</rt></ruby>
 </div>
+
 <div class="cn-lyric">「能遇见你真好」</div>
 </div>
 

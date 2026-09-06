@@ -17,7 +17,7 @@ image: /images/songs/mimi/poshetto-feat.-可不.jpg
 
 ## 作品简介
 
-MIMI于 2022-11-30 发行的单曲《ポシェット (feat. [可不](/zh/artists/isotopes/kafu))》。
+[MIMI](/zh/artists/creators/mimi)于 2022-11-30 发行的单曲《ポシェット (feat. [可不](/zh/artists/isotopes/kafu))》。
 
 ## 试听
 {{media-switcher::ポシェット (feat. 可不)}}

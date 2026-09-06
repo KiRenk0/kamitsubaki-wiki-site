@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 
 ## Overview
 
-MC6 appears on CREAM PUFF LIVE 2 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+MC6 appears on [CREAM PUFF LIVE 2](/en/albums/harusaruhi/cream-puff-live-2) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

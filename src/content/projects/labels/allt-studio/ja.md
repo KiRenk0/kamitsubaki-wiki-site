@@ -11,7 +11,7 @@ order: 5
 
 「ALLT STUDIO」は、THINKR 傘下の音楽レーベルです。「ALLT STUDIO」と「ALLT RECORD」の名義で運営され、「ネットシーンを中心に活動するアーティスト達をマネジメントする、日本発の音楽クリエイターレーベル」（公式サイトより）をコンセプトとしています。公式サイトは alltstudio.jp。
 
-2026年9月5日に発表された THINKR の新スタジオ体制では、[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio)・[KYOKAI STUDIO](/ja/projects/labels/kyokai-studio) とともに「MUSIC & EXPERIENCE」セクションに属します。旧・深脊界（SINSEKAI RECORD）体系の存流、詩道、水野あつ、[Sooda](/ja/artists/creators/sooda)、雨宿り などのアーティストは、現在 ALLT STUDIO 公式サイトのアーティスト名簿に掲載されています。
+2026年9月5日に発表された THINKR の新スタジオ体制では、[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio)・[KYOKAI STUDIO](/ja/projects/labels/kyokai-studio) とともに「MUSIC & EXPERIENCE」セクションに属します。旧・深脊界（[SINSEKAI RECORD](/ja/projects/archive/sinsekai-studio)）体系の存流、詩道、水野あつ、[Sooda](/ja/artists/creators/sooda)、雨宿り などのアーティストは、現在 ALLT STUDIO 公式サイトのアーティスト名簿に掲載されています。
 
 ## 所属メンバー
 

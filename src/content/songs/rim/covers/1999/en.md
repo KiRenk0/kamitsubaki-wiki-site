@@ -19,7 +19,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 ## Overview
 
-1999 appears on CHOCOLATE LIVE2 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+1999 appears on [CHOCOLATE LIVE2](/en/albums/rim/chocolate-live-2) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -49,6 +49,7 @@ Sha la la la la la la la la la la la la la la la
 <div class="jp-lyric">
 Sha la la la la la la la la la la la la la la la
 </div>
+<div class="trans-lyric">Sha la la la la la la la la la la la la la la la</div>
 </div>
 
 <br />
@@ -136,6 +137,7 @@ You wanna kiss, kiss, kiss, then tonight is fine
 <div class="jp-lyric">
 Oh whoa, oh whoa
 </div>
+<div class="trans-lyric">Oh whoa, oh whoa</div>
 </div>
 
 <br />
@@ -225,24 +227,28 @@ But I am sorry, no can do
 <div class="jp-lyric">
 I only kiss, kiss, kiss when the sun don't shine
 </div>
+<div class="trans-lyric">I only kiss, kiss, kiss when the sun don't shine</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Oh whoa, oh whoa
 </div>
+<div class="trans-lyric">Oh whoa, oh whoa</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You wanna kiss, kiss, kiss, then tonight is fine
 </div>
+<div class="trans-lyric">You wanna kiss, kiss, kiss, then tonight is fine</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Oh whoa, oh whoa
 </div>
+<div class="trans-lyric">Oh whoa, oh whoa</div>
 </div>
 
 <br />
@@ -251,24 +257,28 @@ Oh whoa, oh whoa
 <div class="jp-lyric">
 I only kiss, kiss, kiss when the sun don't shine
 </div>
+<div class="trans-lyric">I only kiss, kiss, kiss when the sun don't shine</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Oh whoa, oh whoa
 </div>
+<div class="trans-lyric">Oh whoa, oh whoa</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You wanna kiss, kiss, kiss, then tonight is fine
 </div>
+<div class="trans-lyric">You wanna kiss, kiss, kiss, then tonight is fine</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Oh whoa, oh whoa
 </div>
+<div class="trans-lyric">Oh whoa, oh whoa</div>
 </div>
 
 <br />
@@ -277,6 +287,7 @@ Oh whoa, oh whoa
 <div class="jp-lyric">
 Kiss me when the sun don't shine
 </div>
+
 <div class="trans-lyric">Kiss me when the sun don't shine</div>
 </div>
 
@@ -286,12 +297,15 @@ Kiss me when the sun don't shine
 <div class="jp-lyric">
 Kiss me when the sun don't shine
 </div>
+
+<div class="trans-lyric">Kiss me when the sun don't shine</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Oh whoa
 </div>
+
 <div class="trans-lyric">Oh whoa</div>
 </div>
 
@@ -299,12 +313,14 @@ Oh whoa
 <div class="jp-lyric">
 Make some noise for the Vengaboys
 </div>
+<div class="trans-lyric">Make some noise for the Vengaboys</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Oh, oh, oh whoa
 </div>
+
 <div class="trans-lyric">Oh, oh, oh whoa</div>
 </div>
 
@@ -312,6 +328,7 @@ Oh, oh, oh whoa
 <div class="jp-lyric">
 Make some noise for the Vengaboys
 </div>
+<div class="trans-lyric">Make some noise for the Vengaboys</div>
 </div>
 
 <br />
@@ -320,12 +337,14 @@ Make some noise for the Vengaboys
 <div class="jp-lyric">
 Sha la la la la la la la la la la la la la la la
 </div>
+<div class="trans-lyric">Sha la la la la la la la la la la la la la la la</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Sha la la la la la la la la la la la la la la la
 </div>
+<div class="trans-lyric">Sha la la la la la la la la la la la la la la la</div>
 </div>
 
 <br />
@@ -334,24 +353,28 @@ Sha la la la la la la la la la la la la la la la
 <div class="jp-lyric">
 I only kiss, kiss, kiss when the sun don't shine
 </div>
+<div class="trans-lyric">I only kiss, kiss, kiss when the sun don't shine</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Oh whoa, oh whoa
 </div>
+<div class="trans-lyric">Oh whoa, oh whoa</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You wanna kiss, kiss, kiss, then tonight is fine
 </div>
+<div class="trans-lyric">You wanna kiss, kiss, kiss, then tonight is fine</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Oh whoa, oh whoa
 </div>
+<div class="trans-lyric">Oh whoa, oh whoa</div>
 </div>
 
 <br />
@@ -360,6 +383,7 @@ Oh whoa, oh whoa
 <div class="jp-lyric">
 I only kiss, kiss, kiss (kiss me)
 </div>
+
 <div class="trans-lyric">I only kiss, kiss, kiss (kiss me)</div>
 </div>
 
@@ -367,6 +391,7 @@ I only kiss, kiss, kiss (kiss me)
 <div class="jp-lyric">
 When the sun don't shine (when the sun)
 </div>
+
 <div class="trans-lyric">When the sun don't shine (when the sun)</div>
 </div>
 
@@ -374,6 +399,7 @@ When the sun don't shine (when the sun)
 <div class="jp-lyric">
 Oh whoa, oh whoa (don't shine)
 </div>
+
 <div class="trans-lyric">Oh whoa, oh whoa (don't shine)</div>
 </div>
 
@@ -381,6 +407,7 @@ Oh whoa, oh whoa (don't shine)
 <div class="jp-lyric">
 You wanna kiss, kiss, kiss (kiss me)
 </div>
+
 <div class="trans-lyric">You wanna kiss, kiss, kiss (kiss me)</div>
 </div>
 
@@ -388,6 +415,7 @@ You wanna kiss, kiss, kiss (kiss me)
 <div class="jp-lyric">
 Then tonight is fine (when the sun)
 </div>
+
 <div class="trans-lyric">Then tonight is fine (when the sun)</div>
 </div>
 
@@ -395,6 +423,8 @@ Then tonight is fine (when the sun)
 <div class="jp-lyric">
 Oh whoa, oh whoa (don't shine)
 </div>
+
+<div class="trans-lyric">Oh whoa, oh whoa (don't shine)</div>
 </div>
 
 </div>

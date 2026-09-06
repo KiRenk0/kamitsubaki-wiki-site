@@ -120,6 +120,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [00:50.57]<ruby>ビターチョコデコレーション<rt class="roma">bitaachokodekoreeshon</rt></ruby>
 </div>
+<div class="cn-lyric">[00:50.57]苦巧克力装饰</div>
 </div>
 
 <div class="lyric-line">
@@ -278,6 +279,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [01:43.60]<ruby>ビターチョコデコレーション<rt class="roma">bitaachokodekoreeshon</rt></ruby>
 </div>
+<div class="cn-lyric">[01:43.60]苦巧克力装饰</div>
 </div>
 
 <div class="lyric-line">
@@ -291,6 +293,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [01:49.23]<ruby>ビターチョコデコレーション<rt class="roma">bitaachokodekoreeshon</rt></ruby>
 </div>
+<div class="cn-lyric">[01:49.23]苦巧克力装饰</div>
 </div>
 
 <div class="lyric-line">
@@ -361,6 +364,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [02:33.61]<ruby>ビターチョコデコレーション<rt class="roma">bitaachokodekoreeshon</rt></ruby>
 </div>
+<div class="cn-lyric">[02:33.61]苦巧克力装饰</div>
 </div>
 
 <div class="lyric-line">
@@ -374,6 +378,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [02:38.99]<ruby>ビターチョコデコレーション<rt class="roma">bitaachokodekoreeshon</rt></ruby>
 </div>
+<div class="cn-lyric">[02:38.99]苦巧克力装饰</div>
 </div>
 
 <div class="lyric-line">
@@ -387,6 +392,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [02:44.87]<ruby>ビターチョコデコレーション<rt class="roma">bitaachokodekoreeshon</rt></ruby>
 </div>
+<div class="cn-lyric">[02:44.87]苦巧克力装饰</div>
 </div>
 
 <div class="lyric-line">
@@ -400,6 +406,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [02:50.24]<ruby>ビターチョコデコレーション<rt class="roma">bitaachokodekoreeshon</rt></ruby>
 </div>
+<div class="cn-lyric">[02:50.24]苦巧克力装饰</div>
 </div>
 
 <div class="lyric-line">
@@ -415,6 +422,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [02:55.31]<ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:55.31]明天也一定 从此以后</div>
 </div>
 
@@ -422,6 +430,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [02:57.98]<ruby>地獄<rt class="furi">じごく</rt><rt class="roma">jigoku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>何処<rt class="furi">どこ</rt><rt class="roma">doko</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:57.98]地狱永无止境</div>
 </div>
 
@@ -429,6 +438,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:00.90]<ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby> <ruby>だから<rt class="roma">dakara</rt></ruby><ruby>どうか<rt class="roma">douka</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:00.90]啊啊 所以至少现在</div>
 </div>
 
@@ -436,6 +446,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:04.05]<ruby>子供<rt class="furi">こども</rt><rt class="roma">kodomo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>頃<rt class="furi">ころ</rt><rt class="roma">koro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:04.05]保持童年的心情</div>
 </div>
 
@@ -443,6 +454,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:06.86]<ruby>一糸<rt class="furi">いっし</rt><rt class="roma">isshi</rt></ruby><ruby>まとわ<rt class="roma">matowa</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>やってこ<rt class="roma">yatteko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:06.86]一丝不挂地去干吧</div>
 </div>
 
@@ -452,6 +464,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:09.25]「<ruby>ああ<rt class="roma">aa</rt></ruby><ruby>思い出<rt class="furi">おもいだ</rt><rt class="roma">omoida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>！<ruby>あん<rt class="roma">an</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>あの<rt class="roma">ano</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:09.25]「啊 想起来了！你就是那时候的</div>
 </div>
 
@@ -459,6 +472,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:12.35]<ruby>生真面目<rt class="furi">きまじめ</rt><rt class="roma">kimajime</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>... <ruby>やっぱ<rt class="roma">yappa</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby>」
 </div>
+
 <div class="cn-lyric">[03:12.35]看起来一本正经的... 还是算了」</div>
 </div>
 

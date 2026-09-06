@@ -178,6 +178,7 @@ image: /images/songs/koko/single-1687479335.jpg
 <div class="jp-lyric">
 [02:09.78]<ruby>単純<rt class="furi">たんじゅん</rt><rt class="roma">tanjun</rt></ruby><ruby>気楽<rt class="furi">きらく</rt><rt class="roma">kiraku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[02:09.78]简单地轻松地活着</div>
 </div>
 
 <div class="lyric-line">
@@ -207,6 +208,7 @@ image: /images/songs/koko/single-1687479335.jpg
 <div class="jp-lyric">
 [02:23.98]<ruby>なんて<rt class="roma">nante</rt></ruby><ruby>綺麗事<rt class="furi">きれいごと</rt><rt class="roma">kireigoto</rt></ruby>
 </div>
+<div class="cn-lyric">[02:23.98]多么漂亮的话</div>
 </div>
 
 <div class="lyric-line">
@@ -220,12 +222,14 @@ image: /images/songs/koko/single-1687479335.jpg
 <div class="jp-lyric">
 [02:34.87]<ruby>女の子<rt class="furi">おんなのこ</rt><rt class="roma">onnanoko</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> <ruby>女の子<rt class="furi">おんなのこ</rt><rt class="roma">onnanoko</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="cn-lyric">[02:34.87]因为是女孩子 因为是女孩子</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:41.47]<ruby>許<rt class="furi">ゆる</rt><rt class="roma">yuru</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="cn-lyric">[02:41.47]能否原谅我呢</div>
 </div>
 
 <br />
@@ -234,6 +238,7 @@ image: /images/songs/koko/single-1687479335.jpg
 <div class="jp-lyric">
 [02:48.03]<ruby>宵闇<rt class="furi">よいやみ</rt><rt class="roma">yoiyami</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>見放<rt class="furi">みはな</rt><rt class="roma">mihana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>白昼<rt class="furi">はくちゅう</rt><rt class="roma">hakuchuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>集<rt class="furi">つど</rt><rt class="roma">tsudo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>孤独<rt class="furi">こどく</rt><rt class="roma">kodoku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:48.03]即使被暮色抛弃 白昼中聚集的孤独</div>
 </div>
 
 <div class="lyric-line">
@@ -254,6 +259,7 @@ image: /images/songs/koko/single-1687479335.jpg
 <div class="jp-lyric">
 [03:08.50]<ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[03:08.50]别含糊 让我听到你想见我</div>
 </div>
 
 <br />
@@ -262,6 +268,7 @@ image: /images/songs/koko/single-1687479335.jpg
 <div class="jp-lyric">
 [03:14.72]<ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:14.72]想知道啊 想知道啊</div>
 </div>
 
@@ -269,6 +276,7 @@ image: /images/songs/koko/single-1687479335.jpg
 <div class="jp-lyric">
 [03:17.83]<ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:17.83]真实的你</div>
 </div>
 
@@ -276,6 +284,7 @@ image: /images/songs/koko/single-1687479335.jpg
 <div class="jp-lyric">
 [03:21.14]<ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:21.14]想听啊 想听啊</div>
 </div>
 
@@ -283,6 +292,7 @@ image: /images/songs/koko/single-1687479335.jpg
 <div class="jp-lyric">
 [03:24.24]<ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>本音<rt class="furi">ほんね</rt><rt class="roma">honne</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:24.24]真实的心声</div>
 </div>
 
@@ -290,6 +300,7 @@ image: /images/songs/koko/single-1687479335.jpg
 <div class="jp-lyric">
 [03:27.31]<ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby> <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:27.31]从喜欢到喜欢 从我到给你</div>
 </div>
 
@@ -299,24 +310,28 @@ image: /images/songs/koko/single-1687479335.jpg
 <div class="jp-lyric">
 [03:39.26]<ruby>宵闇<rt class="furi">よいやみ</rt><rt class="roma">yoiyami</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>見放<rt class="furi">みはな</rt><rt class="roma">mihana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>白昼<rt class="furi">はくちゅう</rt><rt class="roma">hakuchuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>集<rt class="furi">つど</rt><rt class="roma">tsudo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>孤独<rt class="furi">こどく</rt><rt class="roma">kodoku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:39.26]即使被暮色抛弃 白昼中聚集的孤独</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:45.78]<ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめよ<rt class="roma">kishimeyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>飾<rt class="furi">かざ</rt><rt class="roma">kaza</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:45.78]拥抱吧 即使不加修饰</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:52.16]<ruby>花束<rt class="furi">はなたば</rt><rt class="roma">hanataba</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>背<rt class="furi">せ</rt><rt class="roma">se</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>隠<rt class="furi">かく</rt><rt class="roma">kaku</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:52.16]把花束藏在背后 等待你的归来</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:59.79]<ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[03:59.79]别含糊 让我听到你想见我</div>
 </div>
 
 </div>

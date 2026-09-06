@@ -17,7 +17,7 @@ image: /images/songs/mimi/myuujikku-feat.-可不.jpg
 
 ## 作品简介
 
-MIMI于 2026-06-13 发行的单曲《ミュージック (feat. [可不](/zh/artists/isotopes/kafu))》。
+[MIMI](/zh/artists/creators/mimi)于 2026-06-13 发行的单曲《[ミュージック](/zh/songs/harusaruhi/covers/ミュージック-myuujikku) (feat. [可不](/zh/artists/isotopes/kafu))》。
 
 ## 试听
 {{media-switcher::ミュージック (feat. 可不)}}

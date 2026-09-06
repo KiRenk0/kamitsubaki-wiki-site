@@ -17,7 +17,7 @@ image: /images/songs/valis/無窮puratonikku.jpg
 
 ## 作品概要
 
-VALISが2023-04-08にリリースしたシングル「無窮プラトニック」。
+[VALIS](/ja/artists/solo/valis)が2023-04-08にリリースしたシングル「無窮プラトニック」。
 
 ## 視聴
 {{media-switcher::無窮プラトニック}}

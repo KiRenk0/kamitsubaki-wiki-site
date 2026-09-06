@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 
 ## 作品简介
 
-《空想少女 (Cover Live)》收录于《CREAM PUFF LIVE 4 (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《空想少女 (Cover Live)》收录于《[CREAM PUFF LIVE 4](/zh/albums/harusaruhi/cream-puff-live-4) (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -273,6 +273,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 <ruby>こころ<rt class="roma">kokoro</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
+<div class="cn-lyric">这颗心啊</div>
 </div>
 
 <div class="lyric-line">
@@ -293,54 +294,63 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 <ruby>空中<rt class="furi">くうちゅう</rt><rt class="roma">kuuchuu</rt></ruby><ruby>散歩<rt class="furi">さんぽ</rt><rt class="roma">sanpo</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">想在天空中漫步时触碰</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>いとこ<rt class="roma">itoko</rt></ruby>
 </div>
+<div class="cn-lyric">那无色的情感 柔软之处</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>まだ<rt class="roma">mada</rt></ruby><ruby>題名<rt class="furi">だいめい</rt><rt class="roma">daimei</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>人生<rt class="furi">じんせい</rt><rt class="roma">jinsei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">在这尚未命名的生命中</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>吹<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>ゆらゆら<rt class="roma">yurayura</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>
 </div>
+<div class="cn-lyric">随风摇曳 悠悠荡荡</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby><ruby>空中<rt class="furi">くうちゅう</rt><rt class="roma">kuuchuu</rt></ruby><ruby>散歩<rt class="furi">さんぽ</rt><rt class="roma">sanpo</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>させ<rt class="roma">sase</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">啊啊 在云端漫步时让我触碰</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>これから<rt class="roma">korekara</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>時間<rt class="furi">じかん</rt><rt class="roma">jikan</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>煌<rt class="furi">きら</rt><rt class="roma">kira</rt></ruby><ruby>めき<rt class="roma">meki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">今后的时光璀璨</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ほら<rt class="roma">hora</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>千<rt class="furi">せん</rt><rt class="roma">sen</rt></ruby><ruby>回<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby><ruby>来<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby>
 </div>
+<div class="cn-lyric">看吧 哪怕夜晚到来几千次</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>切り取<rt class="furi">きりと</rt><rt class="roma">kirito</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>眠<rt class="furi">ねむ</rt><rt class="roma">nemu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>こう<rt class="roma">kou</rt></ruby><ruby>やって<rt class="roma">yatte</rt></ruby><ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby>
 </div>
+<div class="cn-lyric">也能剪下来入睡 就这样 啊啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>過<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>ぎ<rt class="roma">gi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>過去<rt class="furi">かこ</rt><rt class="roma">kako</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>戻<rt class="furi">もど</rt><rt class="roma">modo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">无法回到逝去的过去</div>
 </div>
 
@@ -348,6 +358,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 <ruby>でも<rt class="roma">demo</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+
 <div class="cn-lyric">但是 即便如此 也稍微</div>
 </div>
 
@@ -355,6 +366,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 [03:02.92]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>みる<rt class="roma">miru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:02.92]试着去爱吧</div>
 </div>
 
@@ -362,6 +374,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 <ruby>優<rt class="furi">やさ</rt><rt class="roma">yasa</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たし<rt class="roma">tashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
+
 <div class="cn-lyric">用温柔之物填满</div>
 </div>
 
@@ -369,6 +382,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 <ruby>それで<rt class="roma">sorede</rt></ruby><ruby>十<rt class="furi">じゅう</rt><rt class="roma">juu</rt></ruby><ruby>分<rt class="furi">ふん</rt><rt class="roma">fun</rt></ruby><ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
+
 <div class="cn-lyric">那样就足够了 最后能笑出来啊</div>
 </div>
 
@@ -376,6 +390,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 <ruby>空中<rt class="furi">くうちゅう</rt><rt class="roma">kuuchuu</rt></ruby><ruby>散歩<rt class="furi">さんぽ</rt><rt class="roma">sanpo</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>させ<rt class="roma">sase</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">在云端漫步时让我触碰</div>
 </div>
 
@@ -383,18 +398,21 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 <ruby>これから<rt class="roma">korekara</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>時間<rt class="furi">じかん</rt><rt class="roma">jikan</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>煌<rt class="furi">きら</rt><rt class="roma">kira</rt></ruby><ruby>めき<rt class="roma">meki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">今后的时光璀璨</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ほら<rt class="roma">hora</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>千<rt class="furi">せん</rt><rt class="roma">sen</rt></ruby><ruby>回<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby><ruby>来<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby>
 </div>
+<div class="cn-lyric">看吧 哪怕夜晚到来几千次</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>切り取<rt class="furi">きりと</rt><rt class="roma">kirito</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>眠<rt class="furi">ねむ</rt><rt class="roma">nemu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>こう<rt class="roma">kou</rt></ruby><ruby>やって<rt class="roma">yatte</rt></ruby><ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby>
 </div>
+<div class="cn-lyric">也能剪下来入睡 就这样 啊啊</div>
 </div>
 
 </div>

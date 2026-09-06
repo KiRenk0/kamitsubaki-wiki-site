@@ -39,33 +39,41 @@ image: /images/songs/kaf/track-1842997817.jpg
 <div class="jp-lyric">
 [00:00.64]Run of the mill ah ah
 </div>
-<div class="trans-lyric">Run of the mill ah ah</div>
+<div class="trans-lyric">
+[00:00.64]Run of the mill ah ah
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:05.14]But I love those things
 </div>
-<div class="trans-lyric">But I love those things</div>
+<div class="trans-lyric">
+[00:05.14]But I love those things
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:07.61]Forever
 </div>
-<div class="trans-lyric">Forever</div>
+<div class="trans-lyric">
+[00:07.61]Forever
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:09.94]Run of the mill ah ah
 </div>
+<div class="trans-lyric">[00:09.94]Run of the mill ah ah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:14.22]But I love those things
 </div>
+<div class="trans-lyric">[00:14.22]But I love those things</div>
 </div>
 
 <div class="lyric-line">
@@ -79,7 +87,7 @@ image: /images/songs/kaf/track-1842997817.jpg
 <div class="jp-lyric">
 [00:23.11]<ruby>でも<rt class="roma">demo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>だけど<rt class="roma">dakedo</rt></ruby> <ruby>わから<rt class="roma">wakara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
-<div class="trans-lyric">But then, still, I don't understand</div>
+<div class="trans-lyric">[00:23.11]But then, still, I don't understand</div>
 </div>
 
 <div class="lyric-line">
@@ -93,7 +101,7 @@ image: /images/songs/kaf/track-1842997817.jpg
 <div class="jp-lyric">
 [00:31.68]<ruby>わから<rt class="roma">wakara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
 </div>
-<div class="trans-lyric">I still don't know</div>
+<div class="trans-lyric">[00:31.68]I still don't know</div>
 </div>
 
 <div class="lyric-line">
@@ -149,7 +157,7 @@ image: /images/songs/kaf/track-1842997817.jpg
 <div class="jp-lyric">
 [01:20.48]<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>ありふれ<rt class="roma">arifure</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
-<div class="trans-lyric">I want to be ordinary with you forever and always</div>
+<div class="trans-lyric">[01:20.48]I want to be ordinary with you forever and always</div>
 </div>
 
 <div class="lyric-line">
@@ -163,6 +171,7 @@ image: /images/songs/kaf/track-1842997817.jpg
 <div class="jp-lyric">
 [01:35.47]<ruby>でも<rt class="roma">demo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>だけど<rt class="roma">dakedo</rt></ruby> <ruby>わから<rt class="roma">wakara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">[01:35.47]But then, still, I don't understand</div>
 </div>
 
 <div class="lyric-line">
@@ -176,42 +185,49 @@ image: /images/songs/kaf/track-1842997817.jpg
 <div class="jp-lyric">
 [01:44.16]<ruby>わから<rt class="roma">wakara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
 </div>
+<div class="trans-lyric">[01:44.16]I still don't know</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:49.14]Run of the mill ah ah
 </div>
+<div class="trans-lyric">[01:49.14]Run of the mill ah ah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:54.12]But I love those things
 </div>
+<div class="trans-lyric">[01:54.12]But I love those things</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:56.08]Forever
 </div>
+<div class="trans-lyric">[01:56.08]Forever</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:58.41]Run of the mill ah ah
 </div>
+<div class="trans-lyric">[01:58.41]Run of the mill ah ah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:02.76]But I love those things
 </div>
+<div class="trans-lyric">[02:02.76]But I love those things</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:05.19]<ruby>あたりまえ<rt class="roma">atarimae</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>毎日<rt class="furi">まいにち</rt><rt class="roma">mainichi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>とても<rt class="roma">totemo</rt></ruby><ruby>素敵<rt class="furi">すてき</rt><rt class="roma">suteki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ので<rt class="roma">node</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:05.19]Because the everyday that goes on as usual is so lovely</div>
 </div>
 
@@ -219,12 +235,14 @@ image: /images/songs/kaf/track-1842997817.jpg
 <div class="jp-lyric">
 [02:14.88]<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>ありふれ<rt class="roma">arifure</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="trans-lyric">[02:14.88]I want to be ordinary with you forever and always</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:25.51]<ruby>晴<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>雨降<rt class="furi">あめふ</rt><rt class="roma">amefu</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:25.51]On sunny days and rainy days</div>
 </div>
 
@@ -232,6 +250,7 @@ image: /images/songs/kaf/track-1842997817.jpg
 <div class="jp-lyric">
 [02:29.27]<ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>憂鬱<rt class="furi">ゆううつ</rt><rt class="roma">yuuutsu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:29.27]Days of laughter and days of melancholy</div>
 </div>
 
@@ -239,14 +258,16 @@ image: /images/songs/kaf/track-1842997817.jpg
 <div class="jp-lyric">
 [02:33.55]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>あり<rt class="roma">ari</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
-<div class="trans-lyric">Days that seem to be anywhere</div>
+
+<div class="trans-lyric">[02:33.55]Days that seem to be anywhere</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:38.27]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>ただ<rt class="roma">tada</rt></ruby><ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
-<div class="trans-lyric">Just forever, just forever</div>
+
+<div class="trans-lyric">[02:38.27]Just forever, just forever</div>
 </div>
 
 </div>

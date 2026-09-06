@@ -17,7 +17,7 @@ image: /images/songs/mimi/劣等哀歌-feat.-初音miku-&-重音teto.jpg
 
 ## 作品概要
 
-MIMIが2024-11-08にリリースしたシングル「劣等哀歌 (feat. 初音ミク & 重音テト)」。
+[MIMI](/ja/artists/creators/mimi)が2024-11-08にリリースしたシングル「劣等哀歌 (feat. 初音ミク & 重音テト)」。
 
 ## 視聴
 {{media-switcher::劣等哀歌 (feat. 初音ミク & 重音テト)}}

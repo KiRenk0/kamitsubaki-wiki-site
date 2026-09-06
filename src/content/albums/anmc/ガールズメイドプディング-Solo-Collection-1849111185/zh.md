@@ -54,7 +54,7 @@ tracks:
 
 ## 简介
 
-ANMC于 2025-05-22 发行的Album《ガールズメイドプディング - Solo Collection -》,共收录 8 首歌曲。
+[ANMC](/zh/artists/solo/anmc)于 2025-05-22 发行的Album《ガールズメイドプディング - Solo Collection -》,共收录 8 首歌曲。
 
 ## 收录曲
 

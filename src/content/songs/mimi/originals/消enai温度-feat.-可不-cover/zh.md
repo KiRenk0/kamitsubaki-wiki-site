@@ -17,7 +17,7 @@ image: /images/songs/mimi/消enai温度-feat.-可不-cover.jpg
 
 ## 作品简介
 
-MIMI于 2024-08-19 发行的单曲《消えない温度 (feat. [可不](/zh/artists/isotopes/kafu)) [Cover]》。
+[MIMI](/zh/artists/creators/mimi)于 2024-08-19 发行的单曲《消えない温度 (feat. [可不](/zh/artists/isotopes/kafu)) [Cover]》。
 
 ## 试听
 {{media-switcher::消えない温度 (feat. 可不) [Cover]}}

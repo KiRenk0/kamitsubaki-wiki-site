@@ -235,12 +235,14 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [01:07.70]Oh ma baby I'll be your prince
 </div>
+<div class="cn-lyric">[01:07.70]Oh ma baby I'll be your prince</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:09.93]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いき<rt class="roma">iki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">[01:09.93]想去你所不知之处</div>
 </div>
 
 <div class="lyric-line">
@@ -393,12 +395,14 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [02:01.41]Anyone will do yeah
 </div>
+<div class="cn-lyric">[02:01.41]Anyone will do yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:04.02]<ruby>あしらって<rt class="roma">ashiratte</rt></ruby>stay
 </div>
+<div class="cn-lyric">[02:04.02]敷衍着stay</div>
 </div>
 
 <div class="lyric-line">
@@ -419,24 +423,28 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [02:10.25]<ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>達<rt class="furi">たち</rt><rt class="roma">tachi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
+<div class="cn-lyric">[02:10.25]言语们定能</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:12.50]<ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ところ<rt class="roma">tokoro</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[02:12.50]去往如梦似幻的地方</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:14.92]<ruby>果<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>旅<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
+<div class="cn-lyric">[02:14.92]无尽的旅程持续</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:17.12]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:17.12]直到你无法触及之处</div>
 </div>
 
@@ -446,48 +454,56 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [02:19.65]Oh ma baby I'll be your prince
 </div>
+<div class="cn-lyric">[02:19.65]Oh ma baby I'll be your prince</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:21.72]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いき<rt class="roma">iki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:21.72]想去你所不知之处</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:24.46]Oh ma baby <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
+<div class="cn-lyric">[02:24.46]Oh ma baby若不被满足</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:26.91]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
 </div>
+<div class="cn-lyric">[02:26.91]会去往何处远方？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:29.09]Oh ma baby I'll be your prince
 </div>
+<div class="cn-lyric">[02:29.09]Oh ma baby I'll be your prince</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:31.35]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いき<rt class="roma">iki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:31.35]想去你所不知之处</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:33.88]Oh ma baby <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
+<div class="cn-lyric">[02:33.88]Oh ma baby若不被满足</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:36.39]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">[02:36.39]你会去往某处</div>
 </div>
 
 <br />
@@ -496,6 +512,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [02:48.45]Can't you feel how much I love you？
 </div>
+
 <div class="cn-lyric">[02:48.45]Can't you feel how much I love you？</div>
 </div>
 
@@ -503,6 +520,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [02:50.64]Someday I will make you love me
 </div>
+
 <div class="cn-lyric">[02:50.64]Someday I will make you love me</div>
 </div>
 
@@ -510,6 +528,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [02:53.14]With my voice！
 </div>
+
 <div class="cn-lyric">[02:53.14]With my voice！</div>
 </div>
 
@@ -517,6 +536,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [02:55.64]You'll see！！
 </div>
+
 <div class="cn-lyric">[02:55.64]You'll see！！</div>
 </div>
 
@@ -526,48 +546,56 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [03:02.84]Oh ma baby I'll be your prince
 </div>
+<div class="cn-lyric">[03:02.84]Oh ma baby I'll be your prince</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:05.28]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いき<rt class="roma">iki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">[03:05.28]想去你所不知之处</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:07.34]Oh ma baby <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
+<div class="cn-lyric">[03:07.34]Oh ma baby若不被满足</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:09.91]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
 </div>
+<div class="cn-lyric">[03:09.91]会去往何处远方？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:12.37]Oh ma baby I'll be your prince
 </div>
+<div class="cn-lyric">[03:12.37]Oh ma baby I'll be your prince</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:14.52]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いき<rt class="roma">iki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">[03:14.52]想去你所不知之处</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:17.12]Oh ma baby <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
+<div class="cn-lyric">[03:17.12]Oh ma baby若不被满足</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:19.64]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">[03:19.64]你会去往某处</div>
 </div>
 
 <br />
@@ -576,18 +604,24 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [03:21.86]Can't you feel how much I love you？
 </div>
+
+<div class="cn-lyric">[03:21.86]Can't you feel how much I love you？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:24.37]Someday I will make you love me
 </div>
+
+<div class="cn-lyric">[03:24.37]Someday I will make you love me</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:26.59]With my voice！
 </div>
+
+<div class="cn-lyric">[03:26.59]With my voice！</div>
 </div>
 
 <br />
@@ -596,12 +630,16 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [03:31.88]Can't you feel how much I love you？
 </div>
+
+<div class="cn-lyric">[03:31.88]Can't you feel how much I love you？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:36.32]Someday I will make you love me
 </div>
+
+<div class="cn-lyric">[03:36.32]Someday I will make you love me</div>
 </div>
 
 </div>

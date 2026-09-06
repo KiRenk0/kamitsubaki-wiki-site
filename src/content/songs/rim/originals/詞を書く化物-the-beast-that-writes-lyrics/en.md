@@ -19,7 +19,7 @@ image: /images/albums/rim/imagine.jpg
 
 ## Overview
 
-詞を書く化物 appears on imagine or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+詞を書く化物 appears on [imagine](/en/albums/rim/imagine) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -65,13 +65,16 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [00:37.95]<ruby>どうか<rt class="roma">douka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby> <ruby>どうか<rt class="roma">douka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
-<div class="trans-lyric">Something's wrong, something's wrong</div>
+<div class="trans-lyric">
+[00:37.95]Something's wrong, something's wrong
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:44.34]<ruby>どうか<rt class="roma">douka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby> <ruby>どうか<rt class="roma">douka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
+<div class="trans-lyric">[00:44.34]Something's wrong, something's wrong</div>
 </div>
 
 <br />
@@ -175,6 +178,7 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [02:29.46]<ruby>詞<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>書<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>悪魔<rt class="furi">あくま</rt><rt class="roma">akuma</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>内<rt class="furi">うち</rt><rt class="roma">uchi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>飼<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>
 </div>
+<div class="trans-lyric">[02:29.46]To write lyrics, I kept a demon inside me</div>
 </div>
 
 <div class="lyric-line">
@@ -202,6 +206,7 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [02:45.82]<ruby>だから<rt class="roma">dakara</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>歌詞<rt class="furi">かし</rt><rt class="roma">kashi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>書<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:45.82]So now, I write lyrics so as not to forget</div>
 </div>
 
@@ -209,6 +214,7 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [02:51.07]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:51.07]So as not to forget you</div>
 </div>
 

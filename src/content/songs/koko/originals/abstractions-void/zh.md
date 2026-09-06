@@ -105,24 +105,28 @@ image: /images/songs/koko/single-1678056895.jpg
 <div class="jp-lyric">
 [00:54.80]Why am I here?
 </div>
+<div class="cn-lyric">[00:54.80]我为何在此？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:56.73]Why did I keep quiet?
 </div>
+<div class="cn-lyric">[00:56.73]我为何保持沉默？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:58.69]What is my point?
 </div>
+<div class="cn-lyric">[00:58.69]我的意义何在？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:00.57]Where is my word?
 </div>
+<div class="cn-lyric">[01:00.57]我的言语何在？</div>
 </div>
 
 <div class="lyric-line">
@@ -192,90 +196,105 @@ image: /images/songs/koko/single-1678056895.jpg
 <div class="jp-lyric">
 [02:10.68]Why am I here?
 </div>
+<div class="cn-lyric">[02:10.68]我为何在此？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:12.76]Why did I keep quiet?
 </div>
+<div class="cn-lyric">[02:12.76]我为何保持沉默？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:14.84]What is my point?
 </div>
+<div class="cn-lyric">[02:14.84]我的意义何在？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:16.72]Where is my word?
 </div>
+<div class="cn-lyric">[02:16.72]我的言语何在？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:18.72]Why am I here?
 </div>
+<div class="cn-lyric">[02:18.72]我为何在此？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:20.61]Why did I keep quiet?
 </div>
+<div class="cn-lyric">[02:20.61]我为何保持沉默？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:22.62]What is my point?
 </div>
+<div class="cn-lyric">[02:22.62]我的意义何在？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:24.49]Where is my word?
 </div>
+<div class="cn-lyric">[02:24.49]我的言语何在？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:33.87]This is what it is abstractions void
 </div>
+<div class="cn-lyric">[02:33.87]这就是抽象的空无</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:37.42]Blankness is what I am.
 </div>
+<div class="cn-lyric">[02:37.42]空白即是我。</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:39.31]There is no actual situation.
 </div>
+<div class="cn-lyric">[02:39.31]没有实际情境。</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:42.08]Not even the definition can catch me
 </div>
+<div class="cn-lyric">[02:42.08]连定义也无法捕捉我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:45.15]Regression is the engraving
 </div>
+<div class="cn-lyric">[02:45.15]回归即是镌刻</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:46.99]There is all reason being negated by the inevitable phenomenon
 </div>
+<div class="cn-lyric">[02:46.99]所有理由都被必然现象否定</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:05.31]<ruby>遠吠<rt class="furi">とおぼ</rt><rt class="roma">toobo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>覚<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>名前<rt class="furi">なまえ</rt><rt class="roma">namae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>呼<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>方<rt class="furi">かた</rt><rt class="roma">kata</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:05.31]从远吠中学到的呼唤名字的方式</div>
 </div>
 
@@ -283,6 +302,7 @@ image: /images/songs/koko/single-1678056895.jpg
 <div class="jp-lyric">
 [03:11.28]<ruby>喉<rt class="furi">のど</rt><rt class="roma">nodo</rt></ruby><ruby>焦<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>がす<rt class="roma">gasu</rt></ruby> <ruby>奇<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>衒(<ruby>てら<rt class="roma">tera</rt></ruby>)<ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:11.28]喉咙焦灼，故作新奇</div>
 </div>
 
@@ -290,6 +310,7 @@ image: /images/songs/koko/single-1678056895.jpg
 <div class="jp-lyric">
 [03:13.30]<ruby>見当<rt class="furi">けんとう</rt><rt class="roma">kentou</rt></ruby><ruby>違<rt class="furi">ちが</rt><rt class="roma">chiga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby><ruby>思い違<rt class="furi">おもいちが</rt><rt class="roma">omoichiga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>所為<rt class="furi">しょい</rt><rt class="roma">shoi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:13.30]由于方向错误或误解</div>
 </div>
 
@@ -297,6 +318,7 @@ image: /images/songs/koko/single-1678056895.jpg
 <div class="jp-lyric">
 [03:16.32]<ruby>決壊<rt class="furi">けっかい</rt><rt class="roma">kekkai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>紲<rt class="furi">きずな</rt><rt class="roma">kizuna</rt></ruby>(<ruby>きずな<rt class="roma">kizuna</rt></ruby>)<ruby>を<rt class="roma">wo</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:16.32]将已决裂的羁绊如今</div>
 </div>
 
@@ -304,6 +326,7 @@ image: /images/songs/koko/single-1678056895.jpg
 <div class="jp-lyric">
 [03:16.32]<ruby>再<rt class="furi">ふたた</rt><rt class="roma">futata</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>呼び戻<rt class="furi">よびもど</rt><rt class="roma">yobimodo</rt></ruby><ruby>す<rt class="roma">su</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:16.32]再次唤回</div>
 </div>
 
@@ -311,6 +334,7 @@ image: /images/songs/koko/single-1678056895.jpg
 <div class="jp-lyric">
 [03:25.38]It’s those words that fill the heart
 </div>
+
 <div class="cn-lyric">[03:25.38]正是那些言语填满心灵</div>
 </div>
 
@@ -318,6 +342,7 @@ image: /images/songs/koko/single-1678056895.jpg
 <div class="jp-lyric">
 [03:27.19]I remember the glimmer you showed to me
 </div>
+
 <div class="cn-lyric">[03:27.19]我记得你向我展现的微光</div>
 </div>
 
@@ -325,6 +350,7 @@ image: /images/songs/koko/single-1678056895.jpg
 <div class="jp-lyric">
 [03:28.94]Only when it is poured out will this void be filled
 </div>
+
 <div class="cn-lyric">[03:28.94]只有当它倾泻而出，这虚空才会被填满</div>
 </div>
 
@@ -332,42 +358,49 @@ image: /images/songs/koko/single-1678056895.jpg
 <div class="jp-lyric">
 [03:32.61]This is what it is abstractions void
 </div>
+<div class="cn-lyric">[03:32.61]这就是抽象的空无</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:35.93]Blankness is what I am.
 </div>
+<div class="cn-lyric">[03:35.93]空白即是我。</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:37.87]There is no actual situation.
 </div>
+<div class="cn-lyric">[03:37.87]没有实际情境。</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:40.63]Not even the definition can catch me
 </div>
+<div class="cn-lyric">[03:40.63]连定义也无法捕捉我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:43.67]Regression is the engraving
 </div>
+<div class="cn-lyric">[03:43.67]回归即是镌刻</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:45.69]There is all reason being negated by the inevitable phenomenon
 </div>
+<div class="cn-lyric">[03:45.69]所有理由都被必然现象否定</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:05.88]Now, I give away again
 </div>
+<div class="cn-lyric">[04:05.88]此刻，我再次放弃</div>
 </div>
 
 </div>

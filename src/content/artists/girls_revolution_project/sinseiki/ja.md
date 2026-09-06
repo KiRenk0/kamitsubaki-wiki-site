@@ -42,7 +42,7 @@ featuredEntries:
 - **2024年8月**：シングル『[フェイクナイト・シンデレラ](/ja/songs/sinseiki/originals/fake-night-cinderella)』でデビュー。
 - **2025年4月1日**：KAMITSUBAKI WARS 2025 神椿川崎戦線「少女革命計画 1st LIVE/第一幕『改変』」に出演。
 - **2025年7月16日**：[罪十罰](/ja/artists/girls_revolution_project/tsumitobatsu)と共に両組曲『[改変](/ja/songs/grp/originals/kaihen)』をリリース。
-- **2025年10月29日**：1stアルバム『改変 -心-』を発売。
+- **2025年10月29日**：1stアルバム『[改変 -心-](/ja/albums/sinseiki/kaihen-kokoro)』を発売。
 - **2026年5月**：KAMITSUBAKI WARS 2026 神椿渋谷戦線「少女革命計画 2nd LIVE『Revolutio』」に出演。
 
 ## 代表作品

@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/kimiha天使.jpg
 
 ## 作品概要
 
-tokiwaが2026-06-11にリリースしたシングル「きみは天使」。
+[tokiwa](/ja/artists/creators/tokiwa)が2026-06-11にリリースしたシングル「きみは天使」。
 
 ## 視聴
 {{media-switcher::きみは天使}}

@@ -17,7 +17,7 @@ image: /images/songs/valis/狂愛rezonansu-vitte.jpg
 
 ## 作品概要
 
-VALISが2023-10-21にリリースしたシングル「狂愛レゾナンス(VITTE)」。
+[VALIS](/ja/artists/solo/valis)が2023-10-21にリリースしたシングル「狂愛レゾナンス(VITTE)」。
 
 ## 視聴
 {{media-switcher::狂愛レゾナンス(VITTE)}}

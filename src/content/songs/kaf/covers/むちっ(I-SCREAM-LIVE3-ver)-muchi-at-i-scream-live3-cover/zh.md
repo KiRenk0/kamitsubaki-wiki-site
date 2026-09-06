@@ -117,12 +117,14 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [00:42.84]<ruby>はみ出<rt class="furi">はみだ</rt><rt class="roma">hamida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby> <ruby>むちっ<rt class="roma">muchi</rt></ruby>
 </div>
+<div class="cn-lyric">[00:42.84]饱满得快要溢出来</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:45.23]<ruby>ああ<rt class="roma">aa</rt></ruby> <ruby>つかみ<rt class="roma">tsukami</rt></ruby><ruby>きれ<rt class="roma">kire</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>むちっ<rt class="roma">muchi</rt></ruby>
 </div>
+<div class="cn-lyric">[00:45.23]啊啊 无法完全掌握的饱满</div>
 </div>
 
 <div class="lyric-line">
@@ -136,30 +138,35 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [00:50.39]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby>
 </div>
+<div class="cn-lyric">[00:50.39]你仍然无知无知无知</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:53.50]<ruby>はみ出<rt class="furi">はみだ</rt><rt class="roma">hamida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby> <ruby>むちっ<rt class="roma">muchi</rt></ruby>
 </div>
+<div class="cn-lyric">[00:53.50]饱满得快要溢出来</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:55.87]<ruby>ああ<rt class="roma">aa</rt></ruby> <ruby>つかみ<rt class="roma">tsukami</rt></ruby><ruby>きれ<rt class="roma">kire</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>むちっ<rt class="roma">muchi</rt></ruby>
 </div>
+<div class="cn-lyric">[00:55.87]啊啊 无法完全掌握的饱满</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:58.77]<ruby>抜け出<rt class="furi">ぬけだ</rt><rt class="roma">nukeda</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>その<rt class="roma">sono</rt></ruby><ruby>うち<rt class="roma">uchi</rt></ruby>
 </div>
+<div class="cn-lyric">[00:58.77]不久就会无法逃脱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:01.14]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby>
 </div>
+<div class="cn-lyric">[01:01.14]你仍然无知无知无知</div>
 </div>
 
 <div class="lyric-line">
@@ -215,18 +222,21 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [01:22.31]<ruby>わがまま<rt class="roma">wagamama</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>むちっ<rt class="roma">muchi</rt></ruby> <ruby>と<rt class="roma">to</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>
 </div>
+<div class="cn-lyric">[01:22.31]任性的 饱满 才更好</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:25.47]<ruby>はみ出<rt class="furi">はみだ</rt><rt class="roma">hamida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby> <ruby>むちっ<rt class="roma">muchi</rt></ruby>
 </div>
+<div class="cn-lyric">[01:25.47]饱满得快要溢出来</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:27.86]<ruby>ああ<rt class="roma">aa</rt></ruby> <ruby>つかみ<rt class="roma">tsukami</rt></ruby><ruby>きれ<rt class="roma">kire</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>むちっ<rt class="roma">muchi</rt></ruby>
 </div>
+<div class="cn-lyric">[01:27.86]啊啊 无法完全掌握的饱满</div>
 </div>
 
 <div class="lyric-line">
@@ -240,12 +250,14 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [01:32.98]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby>
 </div>
+<div class="cn-lyric">[01:32.98]你仍然无知无知无知</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:36.23]<ruby>はみ出<rt class="furi">はみだ</rt><rt class="roma">hamida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby> <ruby>むちっ<rt class="roma">muchi</rt></ruby>
 </div>
+<div class="cn-lyric">[01:36.23]饱满得快要溢出来</div>
 </div>
 
 <div class="lyric-line">
@@ -259,12 +271,14 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [01:41.13]<ruby>抜け出<rt class="furi">ぬけだ</rt><rt class="roma">nukeda</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>その<rt class="roma">sono</rt></ruby><ruby>うち<rt class="roma">uchi</rt></ruby>
 </div>
+<div class="cn-lyric">[01:41.13]不久就会无法逃脱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:43.50]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby>
 </div>
+<div class="cn-lyric">[01:43.50]你仍然无知无知无知</div>
 </div>
 
 <div class="lyric-line">
@@ -278,6 +292,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [01:48.14]<ruby>ポルノ<rt class="roma">poruno</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>展開<rt class="furi">てんかい</rt><rt class="roma">tenkai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:48.14]色情中没有的发展</div>
 </div>
 
@@ -285,6 +300,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [01:48.95]<ruby>狙<rt class="furi">ねら</rt><rt class="roma">nera</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>変態<rt class="furi">へんたい</rt><rt class="roma">hentai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:48.95]目标是个变态</div>
 </div>
 
@@ -292,6 +308,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [01:50.24]Not <ruby>最終<rt class="furi">さいしゅう</rt><rt class="roma">saishuu</rt></ruby><ruby>形態<rt class="furi">けいたい</rt><rt class="roma">keitai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:50.24]Not 最终形态</div>
 </div>
 
@@ -299,6 +316,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [01:51.61]<ruby>詰<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>まる<rt class="roma">maru</rt></ruby><ruby>もん<rt class="roma">mon</rt></ruby><ruby>詰<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>まってる<rt class="roma">matteru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:51.61]该填满的都填满了</div>
 </div>
 
@@ -306,6 +324,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [01:53.26]<ruby>からだ<rt class="roma">karada</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>伝<rt class="furi">つた</rt><rt class="roma">tsuta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:53.26]流淌在身体里</div>
 </div>
 
@@ -313,6 +332,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [01:54.59]<ruby>血<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>涙<rt class="furi">なみだ</rt><rt class="roma">namida</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>汗<rt class="furi">あせ</rt><rt class="roma">ase</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:54.59]血与泪与汗</div>
 </div>
 
@@ -320,6 +340,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [01:57.57]「<ruby>だらし<rt class="roma">darashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>」
 </div>
+
 <div class="cn-lyric">[01:57.57]“邋遢”</div>
 </div>
 
@@ -327,6 +348,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [01:58.09]「<ruby>はしたない<rt class="roma">hashitanai</rt></ruby>」
 </div>
+
 <div class="cn-lyric">[01:58.09]“下贱”</div>
 </div>
 
@@ -334,6 +356,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [01:59.18]「<ruby>大<rt class="furi">たい</rt><rt class="roma">tai</rt></ruby><ruby>した<rt class="roma">shita</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>」
 </div>
+
 <div class="cn-lyric">[01:59.18]“没什么大不了”</div>
 </div>
 
@@ -341,6 +364,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [01:59.95]<ruby>は<rt class="roma">wa</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>わし<rt class="roma">washi</rt></ruby><ruby>とけ<rt class="roma">toke</rt></ruby><ruby>散々<rt class="furi">さんざん</rt><rt class="roma">sanzan</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:59.95]就让它们肆意说去吧</div>
 </div>
 
@@ -348,6 +372,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [02:02.39]<ruby>勝手<rt class="furi">かって</rt><rt class="roma">katte</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>吠<rt class="furi">ほ</rt><rt class="roma">ho</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>とけ<rt class="roma">toke</rt></ruby><ruby>わんわん<rt class="roma">wanwan</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:02.39]随便汪汪叫吧</div>
 </div>
 
@@ -355,6 +380,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [02:04.54]<ruby>これ<rt class="roma">kore</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>にとって<rt class="roma">nitotte</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby>Chapter .1
 </div>
+
 <div class="cn-lyric">[02:04.54]对我来说这只是 Chapter .1</div>
 </div>
 
@@ -362,108 +388,126 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [02:08.22]<ruby>はみ出<rt class="furi">はみだ</rt><rt class="roma">hamida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby> <ruby>むちっ<rt class="roma">muchi</rt></ruby>
 </div>
+<div class="cn-lyric">[02:08.22]饱满得快要溢出来</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:10.32]<ruby>ああ<rt class="roma">aa</rt></ruby> <ruby>つかみ<rt class="roma">tsukami</rt></ruby><ruby>きれ<rt class="roma">kire</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>むちっ<rt class="roma">muchi</rt></ruby>
 </div>
+<div class="cn-lyric">[02:10.32]啊啊 无法完全掌握的饱满</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:13.09]<ruby>抜け出<rt class="furi">ぬけだ</rt><rt class="roma">nukeda</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby> <ruby>その<rt class="roma">sono</rt></ruby><ruby>うち<rt class="roma">uchi</rt></ruby>
 </div>
+<div class="cn-lyric">[02:13.09]不久就会无法逃脱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:15.68]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby>
 </div>
+<div class="cn-lyric">[02:15.68]你仍然无知无知无知</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:19.24]<ruby>はみ出<rt class="furi">はみだ</rt><rt class="roma">hamida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby> <ruby>むちっ<rt class="roma">muchi</rt></ruby>
 </div>
+<div class="cn-lyric">[02:19.24]饱满得快要溢出来</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:21.67]<ruby>ああ<rt class="roma">aa</rt></ruby> <ruby>つかみ<rt class="roma">tsukami</rt></ruby><ruby>きれ<rt class="roma">kire</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>むちっ<rt class="roma">muchi</rt></ruby>
 </div>
+<div class="cn-lyric">[02:21.67]啊啊 无法完全掌握的饱满</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:24.65]<ruby>抜け出<rt class="furi">ぬけだ</rt><rt class="roma">nukeda</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>その<rt class="roma">sono</rt></ruby><ruby>うち<rt class="roma">uchi</rt></ruby>
 </div>
+<div class="cn-lyric">[02:24.65]不久就会无法逃脱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:27.05]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby>
 </div>
+<div class="cn-lyric">[02:27.05]你仍然无知无知无知</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:29.70]<ruby>はみ出<rt class="furi">はみだ</rt><rt class="roma">hamida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby> <ruby>むちっ<rt class="roma">muchi</rt></ruby>
 </div>
+<div class="cn-lyric">[02:29.70]饱满得快要溢出来</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:31.76]<ruby>ああ<rt class="roma">aa</rt></ruby> <ruby>つかみ<rt class="roma">tsukami</rt></ruby><ruby>きれ<rt class="roma">kire</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby> <ruby>むちっ<rt class="roma">muchi</rt></ruby>
 </div>
+<div class="cn-lyric">[02:31.76]啊啊 无法完全掌握的饱满</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:35.22]<ruby>抜け出<rt class="furi">ぬけだ</rt><rt class="roma">nukeda</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>その<rt class="roma">sono</rt></ruby><ruby>うち<rt class="roma">uchi</rt></ruby>
 </div>
+<div class="cn-lyric">[02:35.22]不久就会无法逃脱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:36.97]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby>
 </div>
+<div class="cn-lyric">[02:36.97]你仍然无知无知无知</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:40.23]<ruby>はみ出<rt class="furi">はみだ</rt><rt class="roma">hamida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby> <ruby>むちっ<rt class="roma">muchi</rt></ruby>
 </div>
+<div class="cn-lyric">[02:40.23]饱满得快要溢出来</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:42.39]<ruby>ああ<rt class="roma">aa</rt></ruby> <ruby>つかみ<rt class="roma">tsukami</rt></ruby><ruby>きれ<rt class="roma">kire</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>むちっ<rt class="roma">muchi</rt></ruby>
 </div>
+<div class="cn-lyric">[02:42.39]啊啊 无法完全掌握的饱满</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:45.02]<ruby>抜け出<rt class="furi">ぬけだ</rt><rt class="roma">nukeda</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>その<rt class="roma">sono</rt></ruby><ruby>うち<rt class="roma">uchi</rt></ruby>
 </div>
+<div class="cn-lyric">[02:45.02]不久就会无法逃脱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:47.55]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby>
 </div>
+<div class="cn-lyric">[02:47.55]你仍然无知无知无知</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:53.12]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby>
 </div>
+<div class="cn-lyric">[02:53.12]你仍然无知无知无知</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:56.12]<ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby> <ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby><ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:56.12]无知无知无知 无知无知无知</div>
 </div>
 
@@ -471,12 +515,14 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:01.77]<ruby>はみ出<rt class="furi">はみだ</rt><rt class="roma">hamida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby> <ruby>むちっ<rt class="roma">muchi</rt></ruby>
 </div>
+<div class="cn-lyric">[03:01.77]饱满得快要溢出来</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:03.67]<ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby> <ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby> <ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby> <ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:03.67]无知 无知 无知 无知</div>
 </div>
 
@@ -484,6 +530,8 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:06.96]<ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby> <ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby> <ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby> <ruby>無知<rt class="furi">むち</rt><rt class="roma">muchi</rt></ruby>
 </div>
+
+<div class="cn-lyric">[03:06.96]无知 无知 无知 无知</div>
 </div>
 
 </div>

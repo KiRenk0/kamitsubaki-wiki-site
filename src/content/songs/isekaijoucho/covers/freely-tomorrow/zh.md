@@ -94,12 +94,14 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 <ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>ごと<rt class="roma">goto</rt></ruby><ruby>体<rt class="furi">からだ</rt><rt class="roma">karada</rt></ruby><ruby>ごと<rt class="roma">goto</rt></ruby> <ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>記憶<rt class="furi">きおく</rt><rt class="roma">kioku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>幻<rt class="furi">まぼろし</rt><rt class="roma">maboroshi</rt></ruby>
 </div>
+<div class="cn-lyric">连同心灵与身体 全是记忆中的幻影</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>愛情<rt class="furi">あいじょう</rt><rt class="roma">aijou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>指先<rt class="furi">ゆびさき</rt><rt class="roma">yubisaki</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>流れ出<rt class="furi">ながれだ</rt><rt class="roma">nagareda</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">真正的爱情 从指尖流淌而出</div>
 </div>
 
 <div class="lyric-line">
@@ -205,6 +207,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [02:53.53]<ruby>恐<rt class="furi">おそ</rt><rt class="roma">oso</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>求<rt class="furi">もと</rt><rt class="roma">moto</rt></ruby><ruby>めれ<rt class="roma">mere</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby> <ruby>それ<rt class="roma">sore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby> Revolution
 </div>
+
 <div class="cn-lyric">[02:53.53]若无所畏惧地追寻 那就是改变未来的 Revolution</div>
 </div>
 
@@ -212,18 +215,21 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 <ruby>こころ<rt class="roma">kokoro</rt></ruby> Knock Knock Knock
 </div>
+<div class="cn-lyric">心灵 Knock Knock Knock</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>不思議<rt class="furi">ふしぎ</rt><rt class="roma">fushigi</rt></ruby> Trick Trick Trick
 </div>
+<div class="cn-lyric">奇妙 Trick Trick Trick</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:05.84]<ruby>奇跡<rt class="furi">きせき</rt><rt class="roma">kiseki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>起<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>きる<rt class="roma">kiru</rt></ruby> （Wow Wow）
 </div>
+
 <div class="cn-lyric">[03:05.84]奇迹会发生 (Wow Wow)</div>
 </div>
 
@@ -231,6 +237,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 Freely Tomorrow
 </div>
+<div class="cn-lyric">Freely Tomorrow</div>
 </div>
 
 <br />
@@ -239,42 +246,49 @@ Freely Tomorrow
 <div class="jp-lyric">
 <ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>ごと<rt class="roma">goto</rt></ruby><ruby>体<rt class="furi">からだ</rt><rt class="roma">karada</rt></ruby><ruby>ごと<rt class="roma">goto</rt></ruby> <ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>記憶<rt class="furi">きおく</rt><rt class="roma">kioku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>幻<rt class="furi">まぼろし</rt><rt class="roma">maboroshi</rt></ruby>
 </div>
+<div class="cn-lyric">连同心灵与身体 全是记忆中的幻影</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>愛情<rt class="furi">あいじょう</rt><rt class="roma">aijou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>指先<rt class="furi">ゆびさき</rt><rt class="roma">yubisaki</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>流れ出<rt class="furi">ながれだ</rt><rt class="roma">nagareda</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">真正的爱情 从指尖流淌而出</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>顔<rt class="furi">かお</rt><rt class="roma">kao</rt></ruby><ruby>上<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>微笑<rt class="furi">ほほえ</rt><rt class="roma">hohoe</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby> <ruby>笑顔<rt class="furi">えがお</rt><rt class="roma">egao</rt></ruby><ruby>取り戻<rt class="furi">とりもど</rt><rt class="roma">torimodo</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>魔法<rt class="furi">まほう</rt><rt class="roma">mahou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>
 </div>
+<div class="cn-lyric">抬头微笑 就能成为重拾笑容的魔法</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>こころ<rt class="roma">kokoro</rt></ruby> Knock Knock Knock
 </div>
+<div class="cn-lyric">心灵 Knock Knock Knock</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>不思議<rt class="furi">ふしぎ</rt><rt class="roma">fushigi</rt></ruby> Trick Trick Trick
 </div>
+<div class="cn-lyric">奇妙 Trick Trick Trick</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>生まれ変<rt class="furi">うまれか</rt><rt class="roma">umareka</rt></ruby><ruby>われる<rt class="roma">wareru</rt></ruby> （Wow Wow）
 </div>
+<div class="cn-lyric">能够重生 (Wow Wow)</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Freely Tomorrow
 </div>
+<div class="cn-lyric">Freely Tomorrow</div>
 </div>
 
 </div>

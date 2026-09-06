@@ -73,7 +73,9 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [00:45.65]<ruby>まだ<rt class="roma">mada</rt></ruby> <ruby>まだ<rt class="roma">mada</rt></ruby> <ruby>まだ<rt class="roma">mada</rt></ruby>
 </div>
-<div class="trans-lyric">Still, still, still</div>
+<div class="trans-lyric">
+[00:45.65]Still, still, still
+</div>
 </div>
 
 <br />
@@ -119,7 +121,9 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [01:26.25]<ruby>いま<rt class="roma">ima</rt></ruby> <ruby>から<rt class="roma">kara</rt></ruby> <ruby>から<rt class="roma">kara</rt></ruby>
 </div>
-<div class="trans-lyric">Now, empty, empty</div>
+<div class="trans-lyric">
+[01:26.25]Now, empty, empty
+</div>
 </div>
 
 <br />
@@ -165,6 +169,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [02:18.95]<ruby>遥<rt class="furi">はる</rt><rt class="roma">haru</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>月<rt class="furi">つき</rt><rt class="roma">tsuki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>目指<rt class="furi">めざ</rt><rt class="roma">meza</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> Ah <ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="trans-lyric">[02:18.95]Aimed for the distant moon, Ah, today's sky is</div>
 </div>
 
 <div class="lyric-line">
@@ -178,6 +183,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [02:38.00]Ah <ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:38.00]Ah, it's not a dream</div>
 </div>
 

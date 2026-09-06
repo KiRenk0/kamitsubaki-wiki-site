@@ -95,12 +95,14 @@ My Shangri-la
 <div class="jp-lyric">
 Trance to Trance
 </div>
+<div class="cn-lyric">Trance to Trance</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 My Shangri-la
 </div>
+<div class="cn-lyric">My Shangri-la</div>
 </div>
 
 <div class="lyric-line">
@@ -114,24 +116,28 @@ My Shangri-la
 <div class="jp-lyric">
 Trance to Trance
 </div>
+<div class="cn-lyric">Trance to Trance</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 My Shangri-la
 </div>
+<div class="cn-lyric">My Shangri-la</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Trance to Trance
 </div>
+<div class="cn-lyric">Trance to Trance</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 My Shangri-la
 </div>
+<div class="cn-lyric">My Shangri-la</div>
 </div>
 
 <div class="lyric-line">
@@ -193,30 +199,35 @@ My Shangri-la
 <div class="jp-lyric">
 Trance to Trance
 </div>
+<div class="cn-lyric">Trance to Trance</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 My Shangri-la
 </div>
+<div class="cn-lyric">My Shangri-la</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Trance to Trance
 </div>
+<div class="cn-lyric">Trance to Trance</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 My Shangri-la
 </div>
+<div class="cn-lyric">My Shangri-la</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>カンナ<rt class="roma">kanna</rt></ruby><ruby>ビス<rt class="roma">bisu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>接吻<rt class="furi">せっぷん</rt><rt class="roma">seppun</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">以⼤麻之吻</div>
 </div>
 
@@ -224,30 +235,35 @@ My Shangri-la
 <div class="jp-lyric">
 Trance to Trance
 </div>
+<div class="cn-lyric">Trance to Trance</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 My Shangri-la
 </div>
+<div class="cn-lyric">My Shangri-la</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Trance to Trance
 </div>
+<div class="cn-lyric">Trance to Trance</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 My Shangri-la
 </div>
+<div class="cn-lyric">My Shangri-la</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">从我之中消失</div>
 </div>
 
@@ -257,6 +273,7 @@ My Shangri-la
 <div class="jp-lyric">
 <ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>は<rt class="roma">ha</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>信<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">其实一定在某处相信着啊</div>
 </div>
 
@@ -264,6 +281,7 @@ My Shangri-la
 <div class="jp-lyric">
 <ruby>信<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>じる<rt class="roma">jiru</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>胸<rt class="furi">むね</rt><rt class="roma">mune</rt></ruby> <ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>かって<rt class="roma">katte</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>はず<rt class="roma">hazu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
 </div>
+
 <div class="cn-lyric">越相信越心痛 本该明白的</div>
 </div>
 
@@ -273,60 +291,70 @@ My Shangri-la
 <div class="jp-lyric">
 Trance to Trance
 </div>
+<div class="cn-lyric">Trance to Trance</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 My Shangri-la
 </div>
+<div class="cn-lyric">My Shangri-la</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Trance to Trance
 </div>
+<div class="cn-lyric">Trance to Trance</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 My Shangri-la
 </div>
+<div class="cn-lyric">My Shangri-la</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>排他<rt class="furi">はいた</rt><rt class="roma">haita</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>緩衝<rt class="furi">かんしょう</rt><rt class="roma">kanshou</rt></ruby><ruby>帯<rt class="furi">たい</rt><rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">排他的缓冲带</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Trance to Trance
 </div>
+<div class="cn-lyric">Trance to Trance</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 My Shangri-la
 </div>
+<div class="cn-lyric">My Shangri-la</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Trance to Trance
 </div>
+<div class="cn-lyric">Trance to Trance</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 My Shangri-la
 </div>
+<div class="cn-lyric">My Shangri-la</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">我想要爱你</div>
 </div>
 
 <br />
@@ -335,6 +363,7 @@ My Shangri-la
 <div class="jp-lyric">
 <ruby>叶<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby>
 </div>
+
 <div class="cn-lyric">有想要实现的梦想</div>
 </div>
 
@@ -342,6 +371,7 @@ My Shangri-la
 <div class="jp-lyric">
 <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">与你两人一起</div>
 </div>
 
@@ -351,30 +381,35 @@ My Shangri-la
 <div class="jp-lyric">
 Trance to Trance
 </div>
+<div class="cn-lyric">Trance to Trance</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 My Shangri-la
 </div>
+<div class="cn-lyric">My Shangri-la</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Trance to Trance
 </div>
+<div class="cn-lyric">Trance to Trance</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 My Shangri-la
 </div>
+<div class="cn-lyric">My Shangri-la</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby>
 </div>
+
 <div class="cn-lyric">成为我的光</div>
 </div>
 

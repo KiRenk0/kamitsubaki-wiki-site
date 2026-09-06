@@ -62,7 +62,7 @@ tracks:
 
 ## Overview
 
-HiFi-P's album “Pixels”, released on 2023-05-11, featuring 10 tracks.
+[HiFi-P](/en/artists/creators/hifi-p)'s album “Pixels”, released on 2023-05-11, featuring 10 tracks.
 
 ## Track List
 
@@ -71,8 +71,8 @@ HiFi-P's album “Pixels”, released on 2023-05-11, featuring 10 tracks.
 3. 卒業してやんない (02:36)
 4. モンスターガール (03:28)
 5. リセットシンドローム (03:02)
-6. アンダーブーケ (Cover) (03:05)
+6. [アンダーブーケ](/en/songs/asu/originals/andaabuuke) (Cover) (03:05)
 7. 透明色の今日に (03:35)
 8. 神隠しランデヴ (03:15)
-9. インパーフェクト (Cover) (03:12)
+9. [インパーフェクト](/en/songs/asu/originals/inpaafyekuto) (Cover) (03:12)
 10. あおいゆめ (Cover) (03:15)

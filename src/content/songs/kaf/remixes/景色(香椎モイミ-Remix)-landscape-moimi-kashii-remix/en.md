@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 ## Overview
 
-“景色([香椎モイミ](/en/artists/creators/kashiimoimi) Remix)” is track 11 of [KAF](/en/artists/vwp/kaf)’s [魔法γ](/en/albums/kaf/maho-gamma).
+“[景色](/en/songs/kaf/originals/景色-landscape)([香椎モイミ](/en/artists/creators/kashiimoimi) Remix)” is track 11 of [KAF](/en/artists/vwp/kaf)’s [魔法γ](/en/albums/kaf/maho-gamma).
 
 ## Listen
 
@@ -88,7 +88,9 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [00:51.89]<ruby>なん<rt class="roma">nan</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>できる<rt class="roma">dekiru</rt></ruby>
 </div>
-<div class="trans-lyric">We can do anything.</div>
+<div class="trans-lyric">
+[00:51.89]We can do anything.
+</div>
 </div>
 
 <br />
@@ -201,12 +203,14 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [02:42.05]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby>
 </div>
+<div class="trans-lyric">[02:42.05]We can go anywhere.</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:49.20]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>べる<rt class="roma">beru</rt></ruby>
 </div>
+<div class="trans-lyric">[02:49.20]We can fly anywhere.</div>
 </div>
 
 <div class="lyric-line">
@@ -220,6 +224,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [03:03.62]<ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>巡<rt class="furi">めぐ</rt><rt class="roma">megu</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:03.62]Morning comes around countless times.</div>
 </div>
 
@@ -229,18 +234,21 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [03:09.45]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby>
 </div>
+<div class="trans-lyric">[03:09.45]We can go anywhere.</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:16.42]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>べる<rt class="roma">beru</rt></ruby>
 </div>
+<div class="trans-lyric">[03:16.42]We can fly anywhere.</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:24.16]<ruby>その<rt class="roma">sono</rt></ruby><ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>かける<rt class="roma">kakeru</rt></ruby><ruby>価値<rt class="furi">かち</rt><rt class="roma">kachi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:24.16]All of it is worth betting my life on.</div>
 </div>
 
@@ -248,12 +256,14 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [03:31.20]<ruby>景色<rt class="furi">けしき</rt><rt class="roma">keshiki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[03:31.20]Embrace the scenery.</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:38.39]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>自由<rt class="furi">じゆう</rt><rt class="roma">jiyuu</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="trans-lyric">[03:38.39]I am free.</div>
 </div>
 
 </div>

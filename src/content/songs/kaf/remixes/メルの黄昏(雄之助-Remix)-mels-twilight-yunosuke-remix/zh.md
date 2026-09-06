@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 ## 作品简介
 
-《メルの黄昏([雄之助](/zh/artists/creators/yunosuke) Remix)》是[花譜](/zh/artists/vwp/kaf)收录于《[魔法γ](/zh/albums/kaf/maho-gamma)》的第 8 轨。
+《[メルの黄昏](/zh/songs/kaf/originals/メルの黄昏-mels-twilight)([雄之助](/zh/artists/creators/yunosuke) Remix)》是[花譜](/zh/artists/vwp/kaf)收录于《[魔法γ](/zh/albums/kaf/maho-gamma)》的第 8 轨。
 
 ## 试听
 
@@ -65,12 +65,14 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 <ruby>メル<rt class="roma">meru</rt></ruby>
 </div>
+<div class="cn-lyric">梅尔</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>やって<rt class="roma">yatte</rt></ruby><ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>責<rt class="furi">せ</rt><rt class="roma">se</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">你总是这样一味地责备自己</div>
 </div>
 
 <div class="lyric-line">
@@ -160,6 +162,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 <ruby>メル<rt class="roma">meru</rt></ruby>
 </div>
+<div class="cn-lyric">梅尔</div>
 </div>
 
 <div class="lyric-line">
@@ -189,6 +192,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 <ruby>メル<rt class="roma">meru</rt></ruby>
 </div>
+<div class="cn-lyric">梅尔</div>
 </div>
 
 <div class="lyric-line">
@@ -285,6 +289,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 <ruby>メル<rt class="roma">meru</rt></ruby>
 </div>
+<div class="cn-lyric">梅尔</div>
 </div>
 
 <div class="lyric-line">
@@ -321,12 +326,14 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 <ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>雪<rt class="furi">ゆき</rt><rt class="roma">yuki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">不明白意义地看着雪</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>寂<rt class="furi">さび</rt><rt class="roma">sabi</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>重<rt class="furi">かさ</rt><rt class="roma">kasa</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby>
 </div>
+
 <div class="cn-lyric">只有寂寞在不断重叠</div>
 </div>
 
@@ -334,6 +341,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 <ruby>青<rt class="furi">あお</rt><rt class="roma">ao</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>まみれ<rt class="roma">mamire</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>急<rt class="furi">いそ</rt><rt class="roma">iso</rt></ruby><ruby>ぐ<rt class="roma">gu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+
 <div class="cn-lyric">沾染着青涩 是否在急于求成地活着</div>
 </div>
 
@@ -341,6 +349,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 <ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>後悔<rt class="furi">こうかい</rt><rt class="roma">koukai</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+
 <div class="cn-lyric">即便如此也好 但不要后悔</div>
 </div>
 
@@ -350,6 +359,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 <ruby>信<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>じる<rt class="roma">jiru</rt></ruby><ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>諦<rt class="furi">あきら</rt><rt class="roma">akira</rt></ruby><ruby>め<rt class="roma">me</rt></ruby>
 </div>
+
 <div class="cn-lyric">连相信的人 连深爱的人都全部放弃</div>
 </div>
 
@@ -357,6 +367,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 <ruby>絶<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>不幸<rt class="furi">ふこう</rt><rt class="roma">fukou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+
 <div class="cn-lyric">拥抱着不绝的不幸消逝了</div>
 </div>
 
@@ -364,6 +375,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>正<rt class="furi">ただ</rt><rt class="roma">tada</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+
 <div class="cn-lyric">你是正确的吗</div>
 </div>
 
@@ -371,6 +383,8 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>正<rt class="furi">ただ</rt><rt class="roma">tada</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+
+<div class="cn-lyric">你是正确的吗</div>
 </div>
 
 </div>

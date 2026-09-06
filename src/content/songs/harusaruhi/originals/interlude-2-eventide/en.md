@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/shinju.jpg
 
 ## Overview
 
-Interlude #2 -eventide- appears on 心獣 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+Interlude #2 -eventide- appears on [心獣](/en/albums/harusaruhi/shinju) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

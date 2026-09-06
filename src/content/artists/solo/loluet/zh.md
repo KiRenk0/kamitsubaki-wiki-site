@@ -48,7 +48,7 @@ seo:
 
 ## 概述
 
-LOLUET 是一名以 YouTube 活动为中心的虚拟歌手，2021 年开始公开投稿，早期以个人名义活动，后于 2023年3月31日宣布加入 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio)。其活动基底与 ALLT STUDIO 有关，角色设计由望月けい负责。
+LOLUET 是一名以 YouTube 活动为中心的虚拟歌手，2021 年开始公开投稿，早期以个人名义活动，后于 2023年3月31日宣布加入 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio)。其活动基底与 [ALLT STUDIO](/zh/projects/labels/allt-studio) 有关，角色设计由望月けい负责。
 
 LOLUET 的公开形象和活动方式都带有不稳定、自由和难以预测的特征。她曾用“想变得更擅长歌唱”作为自我表达，主要通过翻唱、短篇影像和少量原创/合作作品积累听众。
 
@@ -116,7 +116,7 @@ LOLUET 的早期目录以翻唱为主，作品选择横跨抒情、电子、摇�
 
 ### 原创与合作
 
-《ハネムーン feat. 理芽》是 LOLUET 与神椿艺人合作的重要作品，由理芽参与演唱，制作上连接了 LOLUET 的个人声线与神椿既有音乐网络。参与《愛狂》mini album 则体现了她在个人投稿之外进入正式发行体系的阶段。
+《[ハネムーン feat. 理芽](/zh/songs/loluet/originals/hanemuun-feat-理芽)》是 LOLUET 与神椿艺人合作的重要作品，由理芽参与演唱，制作上连接了 LOLUET 的个人声线与神椿既有音乐网络。参与《愛狂》mini album 则体现了她在个人投稿之外进入正式发行体系的阶段。
 
 ## 形象、创作者与轶事
 

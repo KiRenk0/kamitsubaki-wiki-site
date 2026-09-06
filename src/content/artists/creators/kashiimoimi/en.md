@@ -72,7 +72,7 @@ Her prolific output and consistent quality have made her a cornerstone of the AN
 - "Tobu" (飞翔)
 - "Shissou Zenya" (失踪前夜)
 - "Bad End Maker" (バッドエンドメーカー)
-- "Human-Like"
+- "[Human-Like](/en/songs/kashiimoimi/originals/human-like)"
 - "Wonderland Underground" (ワンダーランド地下)
 - "Honey Diary" (蜂蜜日記)
 

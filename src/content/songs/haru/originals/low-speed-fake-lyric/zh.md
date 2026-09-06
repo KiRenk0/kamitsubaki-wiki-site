@@ -21,7 +21,7 @@ image: /images/songs/haru/low-speed-fake-lyric.jpg
 
 ## 作品简介
 
-[羽累](/zh/artists/isotopes/haru)演唱、cosMo@暴走P 创作的原创曲，作为主打曲收录于 2024-10-16 发行的专辑《対峙のオーバーラップ》。
+[羽累](/zh/artists/isotopes/haru)演唱、cosMo@暴走P 创作的原创曲，作为主打曲收录于 2024-10-16 发行的专辑《[対峙のオーバーラップ](/zh/albums/haru/対峙のオーバーラップ-1772594213)》。
 
 ## 试听
 {{media-switcher::ロースピードフェイクリリック}}

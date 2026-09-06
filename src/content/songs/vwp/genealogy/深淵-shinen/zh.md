@@ -24,7 +24,7 @@ image: /images/albums/vwp/proliferation.jpg
 
 ## 作品简介
 
-《深淵 (feat. [KAF](/zh/artists/vwp/kaf) & [V.W.P](/zh/artists/vwp/vwp))》收录于《[繁殖](/zh/albums/vwp/proliferation)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《[深淵](/zh/songs/isekaijoucho/collaborations/深淵-shinen) (feat. [KAF](/zh/artists/vwp/kaf) & [V.W.P](/zh/artists/vwp/vwp))》收录于《[繁殖](/zh/albums/vwp/proliferation)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -364,6 +364,7 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 [03:07.47]Revive
 </div>
+<div class="cn-lyric">[03:07.47]复苏</div>
 </div>
 
 </div>

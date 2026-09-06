@@ -17,7 +17,7 @@ image: /images/songs/ciel/常shinae.jpg
 
 ## 作品简介
 
-CIEL于 2025-09-23 发行的单曲《常しなえ》。
+[CIEL](/zh/artists/solo/ciel)于 2025-09-23 发行的单曲《常しなえ》。
 
 ## 试听
 {{media-switcher::常しなえ}}

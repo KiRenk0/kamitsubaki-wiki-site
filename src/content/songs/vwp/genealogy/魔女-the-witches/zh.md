@@ -26,7 +26,7 @@ image: /images/albums/vwp/fate.jpg
 
 ## 作品简介
 
-- V.W.P对花谱的单曲《[魔女](/zh/songs/kaf/originals/majo)》的翻唱版本。该版本首次发行于专辑《[運命](/zh/albums/vwp/fate)》之中。若要寻找[花譜](/zh/artists/vwp/kaf)所演唱的版本，请查阅相关词条（建设完毕后将补全超链接）。
+- [V.W.P](/zh/artists/vwp/vwp)对花谱的单曲《[魔女](/zh/songs/kaf/originals/majo)》的翻唱版本。该版本首次发行于专辑《[運命](/zh/albums/vwp/fate)》之中。若要寻找[花譜](/zh/artists/vwp/kaf)所演唱的版本，请查阅相关词条（建设完毕后将补全超链接）。
 
 ## 试听
 
@@ -293,6 +293,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [02:14.11]<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[02:14.11]歌唱吧</div>
 </div>
 
 <div class="lyric-line">
@@ -348,6 +349,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [02:28.72]<ruby>この<rt class="roma">kono</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">[02:28.72]这个世界是我的</div>
 </div>
 
 <div class="lyric-line">
@@ -444,30 +446,35 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [03:45.49]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>産声<rt class="furi">うぶごえ</rt><rt class="roma">ubugoe</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:45.49]你的初啼</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:47.95]<ruby>頭<rt class="furi">あたま</rt><rt class="roma">atama</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>悪<rt class="furi">わる</rt><rt class="roma">waru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>号<rt class="furi">ごう</rt><rt class="roma">gou</rt></ruby>哭<ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:47.95]愚蠢的嚎哭</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:50.42]<ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[03:50.42]回答我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:51.42]<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[03:51.42]歌唱吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:52.54]<ruby>電子<rt class="furi">でんし</rt><rt class="roma">denshi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>海<rt class="furi">うみ</rt><rt class="roma">umi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>舞<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:52.54]在电子之海中舞动</div>
 </div>
 
@@ -475,6 +482,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [03:55.08]<ruby>この<rt class="roma">kono</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:55.08]这个世界是我们的</div>
 </div>
 
@@ -482,6 +490,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [03:59.04]<ruby>証明<rt class="furi">しょうめい</rt><rt class="roma">shoumei</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:59.04]在寻找着证明</div>
 </div>
 

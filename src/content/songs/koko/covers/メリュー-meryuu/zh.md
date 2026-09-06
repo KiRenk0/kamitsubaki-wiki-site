@@ -127,6 +127,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [01:36.36]<ruby>辛<rt class="furi">つら</rt><rt class="roma">tsura</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+<div class="cn-lyric">[01:36.36]只是觉得煎熬</div>
 </div>
 
 <br />
@@ -257,6 +258,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:25.17]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:25.17]你在远方一直微笑着</div>
 </div>
 

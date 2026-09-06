@@ -37,12 +37,14 @@ Ere mela mela mela mela mela mela
 <div class="jp-lyric">
 Ere mela mela mela mela mela mela
 </div>
+<div class="cn-lyric">埃雷 梅拉 梅拉 梅拉 梅拉 梅拉 梅拉</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Ere mela mela mela mela mela mela
 </div>
+<div class="cn-lyric">埃雷 梅拉 梅拉 梅拉 梅拉 梅拉 梅拉</div>
 </div>
 
 <div class="lyric-line">
@@ -84,6 +86,7 @@ Mela mela sewoch hulu mela mela mela belu mela mela sewoch huluu mela mela
 <div class="jp-lyric">
 Chela atbelu mela mela
 </div>
+
 <div class="cn-lyric">切拉 阿特贝卢 梅拉 梅拉</div>
 </div>
 
@@ -91,6 +94,7 @@ Chela atbelu mela mela
 <div class="jp-lyric">
 Sewoch hulu mela mela mela belu sewoch hulu mela belugn
 </div>
+
 <div class="cn-lyric">塞沃奇 胡卢 梅拉 梅拉 梅拉 贝卢 塞沃奇 胡卢 梅拉 贝卢格恩</div>
 </div>
 

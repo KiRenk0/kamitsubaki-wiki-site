@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/niwl.jpg
 
 ## 作品概要
 
-tokiwaが2023-05-11にリリースしたシングル「niwl」。
+[tokiwa](/ja/artists/creators/tokiwa)が2023-05-11にリリースしたシングル「niwl」。
 
 ## 視聴
 {{media-switcher::niwl}}

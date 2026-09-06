@@ -20,7 +20,7 @@ image: /images/songs/mimi/hanataba.jpg
 
 ## 作品简介
 
-MIMI于 2022-12-02 发行的单曲《ハナタバ》。
+[MIMI](/zh/artists/creators/mimi)于 2022-12-02 发行的单曲《ハナタバ》。
 
 ## 试听
 {{media-switcher::ハナタバ}}

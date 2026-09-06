@@ -120,6 +120,7 @@ image: /images/albums/rim/new-romancer-2.jpg
 <div class="jp-lyric">
 [01:44.32]<ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby>
 </div>
+<div class="cn-lyric">[01:44.32]年年年年年年年年年年年年</div>
 </div>
 
 <div class="lyric-line">
@@ -156,12 +157,14 @@ image: /images/albums/rim/new-romancer-2.jpg
 <div class="jp-lyric">
 [02:09.37]<ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby>／<ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+<div class="cn-lyric">[02:09.37]百年 百年 百年 百年／百年之后的未来 百年之后的未来</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:18.81]<ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>こん<rt class="roma">kon</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>早<rt class="furi">はや</rt><rt class="roma">haya</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[02:18.81]百年之后的未来 以这样的速度</div>
 </div>
 
 <br />
@@ -170,12 +173,14 @@ image: /images/albums/rim/new-romancer-2.jpg
 <div class="jp-lyric">
 [02:26.36]<ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+<div class="cn-lyric">[02:26.36]百年之后的未来 百年之后的未来</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:30.68]<ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>どんどん<rt class="roma">dondon</rt></ruby><ruby>近<rt class="furi">ちか</rt><rt class="roma">chika</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くる<rt class="roma">kuru</rt></ruby>
 </div>
+<div class="cn-lyric">[02:30.68]百年之后的未来 正在不断靠近</div>
 </div>
 
 <div class="lyric-line">
@@ -191,6 +196,7 @@ image: /images/albums/rim/new-romancer-2.jpg
 <div class="jp-lyric">
 [02:40.45]<ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>事件<rt class="furi">じけん</rt><rt class="roma">jiken</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>事件<rt class="furi">じけん</rt><rt class="roma">jiken</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:40.45]百年前的事件 百年前的事件</div>
 </div>
 
@@ -198,6 +204,7 @@ image: /images/albums/rim/new-romancer-2.jpg
 <div class="jp-lyric">
 [03:20.13]<ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>事件<rt class="furi">じけん</rt><rt class="roma">jiken</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>こん<rt class="roma">kon</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>早<rt class="furi">はや</rt><rt class="roma">haya</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:20.13]百年前的事件 以这样的速度</div>
 </div>
 
@@ -207,12 +214,15 @@ image: /images/albums/rim/new-romancer-2.jpg
 <div class="jp-lyric">
 [03:24.74]<ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>事件<rt class="furi">じけん</rt><rt class="roma">jiken</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>事件<rt class="furi">じけん</rt><rt class="roma">jiken</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+
+<div class="cn-lyric">[03:24.74]百年前的事件 百年前的事件</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:28.70]<ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>事件<rt class="furi">じけん</rt><rt class="roma">jiken</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>じくじく<rt class="roma">jikujiku</rt></ruby><ruby>滲<rt class="furi">にじ</rt><rt class="roma">niji</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>出<rt class="furi">で</rt><rt class="roma">de</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くる<rt class="roma">kuru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:28.70]百年前的事件 渐渐渗透出来</div>
 </div>
 
@@ -222,6 +232,7 @@ image: /images/albums/rim/new-romancer-2.jpg
 <div class="jp-lyric">
 [03:33.48]<ruby>じくじく<rt class="roma">jikujiku</rt></ruby><ruby>滲<rt class="furi">にじ</rt><rt class="roma">niji</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>出<rt class="furi">で</rt><rt class="roma">de</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くる<rt class="roma">kuru</rt></ruby> <ruby>じくじく<rt class="roma">jikujiku</rt></ruby><ruby>滲<rt class="furi">にじ</rt><rt class="roma">niji</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>出<rt class="furi">で</rt><rt class="roma">de</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くる<rt class="roma">kuru</rt></ruby> <ruby>じくじく<rt class="roma">jikujiku</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:33.48]渐渐渗透出来 渐渐渗透出来 渐渐</div>
 </div>
 
@@ -231,42 +242,49 @@ image: /images/albums/rim/new-romancer-2.jpg
 <div class="jp-lyric">
 [03:38.34]<ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby>
 </div>
+<div class="cn-lyric">[03:38.34]年年年年年年年年年年年年</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:00.29]<ruby>忍び寄<rt class="furi">しのびよ</rt><rt class="roma">shinobiyo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby> <ruby>足音<rt class="furi">あしおと</rt><rt class="roma">ashioto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>気付<rt class="furi">きづ</rt><rt class="roma">kizu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[04:00.29]悄然逼近 因为没有脚步声所以察觉不到</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:05.43]<ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby>
 </div>
+<div class="cn-lyric">[04:05.43]年年年年年年年年年年年年</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:08.78]<ruby>増<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> <ruby>真<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>っ<rt class="roma"></rt></ruby><ruby>暗闇<rt class="furi">くらやみ</rt><rt class="roma">kurayami</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>気付<rt class="furi">きづ</rt><rt class="roma">kizu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[04:08.78]逐渐增多 在漆黑一片中察觉不到</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:13.81]<ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねん<rt class="roma">nen</rt></ruby>
 </div>
+<div class="cn-lyric">[04:13.81]年年年年年年年年年年年</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:17.06]<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ゆく<rt class="roma">yuku</rt></ruby>／<ruby>不気味<rt class="furi">ぶきみ</rt><rt class="roma">bukimi</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>予感<rt class="furi">よかん</rt><rt class="roma">yokan</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+<div class="cn-lyric">[04:17.06]逐渐充满／只有不祥的预感</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:22.26]<ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby><ruby>ねんねん<rt class="roma">nennen</rt></ruby>...／<ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby> <ruby>振り返<rt class="furi">ふりかえ</rt><rt class="roma">furikae</rt></ruby><ruby>ったら<rt class="roma">ttara</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>おしまい<rt class="roma">oshimai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:22.26]年年年年年年年年年...／百年 一旦回头就结束了</div>
 </div>
 

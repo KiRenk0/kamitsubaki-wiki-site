@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/vivop.jpg
 
 ## 作品简介
 
-Empty old City于 2026-03-31 发行的单曲《Vivop》。
+[Empty old City](/zh/artists/solo/empty-old-city)于 2026-03-31 发行的单曲《Vivop》。
 
 ## 试听
 {{media-switcher::Vivop}}

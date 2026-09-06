@@ -224,18 +224,21 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 <div class="jp-lyric">
 <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">虽然是我却不是我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">即便如此也再不会分离</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>咲き誇<rt class="furi">さきほこ</rt><rt class="roma">sakihoko</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>名<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ハロー<rt class="roma">harou</rt></ruby>
 </div>
+<div class="cn-lyric">向盛开的无名之花说声你好</div>
 </div>
 
 <div class="lyric-line">
@@ -277,6 +280,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 <div class="jp-lyric">
 [03:28.50]<ruby>理由<rt class="furi">りゆう</rt><rt class="roma">riyuu</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>不確<rt class="furi">ふたし</rt><rt class="roma">futashi</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:28.50]理由什么的并不确定</div>
 </div>
 
@@ -284,6 +288,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 <div class="jp-lyric">
 [03:32.01]<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:32.01]即便如此我仍会歌唱</div>
 </div>
 
@@ -291,6 +296,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 <div class="jp-lyric">
 [03:52.92]<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>春<rt class="furi">はる</rt><rt class="roma">haru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>午後<rt class="furi">ごご</rt><rt class="roma">gogo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:52.92]在这样的春日下午 再见吧</div>
 </div>
 

@@ -17,7 +17,7 @@ image: /images/songs/guiano/風.jpg
 
 ## 作品简介
 
-Guiano于 2022-10-20 发行的单曲《風》。
+[Guiano](/zh/artists/creators/guiano)于 2022-10-20 发行的单曲《風》。
 
 ## 试听
 {{media-switcher::風}}

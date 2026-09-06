@@ -103,7 +103,7 @@ tracks:
 
 ## Overview
 
-KAF’s fifth studio album links to the novel Camus no Uta-dori and the concert Shukusei / Shinai, using fifteen tracks to examine human feeling in an AI-shaped future.
+[KAF](/en/artists/vwp/kaf)’s fifth studio album links to the novel Camus no Uta-dori and the concert Shukusei / Shinai, using fifteen tracks to examine human feeling in an AI-shaped future.
 
 ## Release and editions
 

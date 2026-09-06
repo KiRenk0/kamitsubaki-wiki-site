@@ -19,7 +19,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 
 ## Overview
 
-深海のリトルクライ (Cover Live) appears on CANDY LIVE 3 (Cover Live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+深海のリトルクライ (Cover Live) appears on [CANDY LIVE 3](/en/albums/isekaijoucho/candy-live-3) (Cover Live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -155,6 +155,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 <ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>────。
 </div>
+<div class="trans-lyric">World────.</div>
 </div>
 
 <br />
@@ -327,6 +328,7 @@ it's just a small lie...
 <div class="jp-lyric">
 <ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="trans-lyric">I was in love</div>
 </div>
 
 <div class="lyric-line">
@@ -407,6 +409,7 @@ it's just a small lie...
 <div class="jp-lyric">
 <ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>さあ<rt class="roma">saa</rt></ruby> 『<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>』<ruby>ます<rt class="roma">masu</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>!
 </div>
+
 <div class="trans-lyric">Feelings, come on, shout 'I love you'!</div>
 </div>
 
@@ -416,6 +419,7 @@ it's just a small lie...
 <div class="jp-lyric">
 <ruby>魅<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ほしい<rt class="roma">hoshii</rt></ruby>
 </div>
+
 <div class="trans-lyric">I want you to show me</div>
 </div>
 
@@ -423,12 +427,14 @@ it's just a small lie...
 <div class="jp-lyric">
 <ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
+<div class="trans-lyric">To the dream's continuation</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>────。
 </div>
+<div class="trans-lyric">World────.</div>
 </div>
 
 <br />
@@ -437,12 +443,14 @@ it's just a small lie...
 <div class="jp-lyric">
 <ruby>溺<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="trans-lyric">I was drowning</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>海<rt class="furi">うみ</rt><rt class="roma">umi</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>深<rt class="furi">ふか</rt><rt class="roma">fuka</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
+<div class="trans-lyric">Deeper than the sea</div>
 </div>
 
 <br />
@@ -451,6 +459,7 @@ it's just a small lie...
 <div class="jp-lyric">
 <ruby>はじめまして<rt class="roma">hajimemashite</rt></ruby>
 </div>
+<div class="trans-lyric">Nice to meet you</div>
 </div>
 
 </div>

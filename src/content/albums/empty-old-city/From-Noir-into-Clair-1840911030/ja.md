@@ -38,7 +38,7 @@ tracks:
 
 ## 概要
 
-Empty old Cityが2025-10-15にリリースしたEP『From Noir into Clair』。全4曲を収録。
+[Empty old City](/ja/artists/solo/empty-old-city)が2025-10-15にリリースしたEP『From Noir into Clair』。全4曲を収録。
 
 ## 収録曲
 

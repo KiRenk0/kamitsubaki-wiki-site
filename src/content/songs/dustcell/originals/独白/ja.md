@@ -17,7 +17,7 @@ image: /images/songs/dustcell/独白.jpg
 
 ## 作品概要
 
-DUSTCELLが2021-06-22にリリースしたシングル「独白」。
+[DUSTCELL](/ja/artists/solo/dustcell)が2021-06-22にリリースしたシングル「独白」。
 
 ## 視聴
 {{media-switcher::独白}}

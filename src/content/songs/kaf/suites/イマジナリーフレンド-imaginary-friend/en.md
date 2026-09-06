@@ -37,51 +37,60 @@ image: /images/songs/kaf/track-1688348617.jpg
 <div class="jp-lyric">
 [00:10.83]<ruby>イマジナリーフレンド<rt class="roma">imajinariifurendo</rt></ruby>
 </div>
-<div class="trans-lyric">Imaginary Friend</div>
+<div class="trans-lyric">
+[00:10.83]Imaginary Friend
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:15.52]<ruby>ねえ<rt class="roma">nee</rt></ruby><ruby>どうして<rt class="roma">doushite</rt></ruby>？
 </div>
-<div class="trans-lyric">Hey, why?</div>
+<div class="trans-lyric">
+[00:15.52]Hey, why?
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:16.43]<ruby>イマジナリーフレンド<rt class="roma">imajinariifurendo</rt></ruby>
 </div>
+<div class="trans-lyric">[00:16.43]Imaginary Friend</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:21.23]<ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>じゃった<rt class="roma">jatta</rt></ruby>？
 </div>
-<div class="trans-lyric">Did you die?</div>
+<div class="trans-lyric">[00:21.23]Did you die?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:21.99]<ruby>イマジナリーフレンド<rt class="roma">imajinariifurendo</rt></ruby>
 </div>
+<div class="trans-lyric">[00:21.99]Imaginary Friend</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:26.63]<ruby>ねえ<rt class="roma">nee</rt></ruby><ruby>どうして<rt class="roma">doushite</rt></ruby>？
 </div>
+<div class="trans-lyric">[00:26.63]Hey, why?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:27.80]<ruby>イマジナリーフレンド<rt class="roma">imajinariifurendo</rt></ruby>
 </div>
+<div class="trans-lyric">[00:27.80]Imaginary Friend</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:32.59]<ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>じゃった<rt class="roma">jatta</rt></ruby>？
 </div>
+<div class="trans-lyric">[00:32.59]Did you die?</div>
 </div>
 
 <div class="lyric-line">
@@ -130,19 +139,21 @@ image: /images/songs/kaf/track-1688348617.jpg
 <div class="jp-lyric">
 [01:00.96]<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>じゃん<rt class="roma">jan</rt></ruby>
 </div>
-<div class="trans-lyric">That doesn't exist, right?</div>
+<div class="trans-lyric">[01:00.96]That doesn't exist, right?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:01.80]<ruby>イマジナリーフレンド<rt class="roma">imajinariifurendo</rt></ruby>
 </div>
+<div class="trans-lyric">[01:01.80]Imaginary Friend</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:07.37]<ruby>イマジナリーフレンド<rt class="roma">imajinariifurendo</rt></ruby>
 </div>
+<div class="trans-lyric">[01:07.37]Imaginary Friend</div>
 </div>
 
 <div class="lyric-line">
@@ -184,7 +195,7 @@ image: /images/songs/kaf/track-1688348617.jpg
 <div class="jp-lyric">
 [01:28.45]<ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>わけ<rt class="roma">wake</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="trans-lyric">There's no way I can do them, right?</div>
+<div class="trans-lyric">[01:28.45]There's no way I can do them, right?</div>
 </div>
 
 <div class="lyric-line">
@@ -205,7 +216,7 @@ image: /images/songs/kaf/track-1688348617.jpg
 <div class="jp-lyric">
 [01:36.41]<ruby>うさ<rt class="roma">usa</rt></ruby><ruby>うさ<rt class="roma">usa</rt></ruby><ruby>うさ<rt class="roma">usa</rt></ruby><ruby>ちゃん<rt class="roma">chan</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>憂さ晴<rt class="furi">うさば</rt><rt class="roma">usaba</rt></ruby><ruby>らし<rt class="roma">rashi</rt></ruby>
 </div>
-<div class="trans-lyric">Usa Usa Usa-chan's stress relief</div>
+<div class="trans-lyric">[01:36.41]Usa Usa Usa-chan's stress relief</div>
 </div>
 
 <div class="lyric-line">
@@ -233,18 +244,21 @@ image: /images/songs/kaf/track-1688348617.jpg
 <div class="jp-lyric">
 [01:47.69]<ruby>うさ<rt class="roma">usa</rt></ruby><ruby>うさ<rt class="roma">usa</rt></ruby><ruby>うさ<rt class="roma">usa</rt></ruby><ruby>ちゃん<rt class="roma">chan</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>憂さ晴<rt class="furi">うさば</rt><rt class="roma">usaba</rt></ruby><ruby>らし<rt class="roma">rashi</rt></ruby>
 </div>
+<div class="trans-lyric">[01:47.69]Usa Usa Usa-chan's stress relief</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:50.48]<ruby>バラバラ<rt class="roma">barabara</rt></ruby><ruby>バランス<rt class="roma">baransu</rt></ruby> <ruby>持ち直<rt class="furi">もちなお</rt><rt class="roma">mochinao</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[01:50.48]Bara bara balance, pull yourself together</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:53.17]<ruby>もち<rt class="roma">mochi</rt></ruby><ruby>もち<rt class="roma">mochi</rt></ruby><ruby>もちろん<rt class="roma">mochiron</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby> <ruby>関係<rt class="furi">かんけい</rt><rt class="roma">kankei</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby>
 </div>
+<div class="trans-lyric">[01:53.17]Mochi mochi mochiron, no longer relevant</div>
 </div>
 
 <div class="lyric-line">
@@ -258,7 +272,7 @@ image: /images/songs/kaf/track-1688348617.jpg
 <div class="jp-lyric">
 [01:59.41]…<ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="trans-lyric">...Don't disappear</div>
+<div class="trans-lyric">[01:59.41]...Don't disappear</div>
 </div>
 
 <br />
@@ -267,12 +281,14 @@ image: /images/songs/kaf/track-1688348617.jpg
 <div class="jp-lyric">
 [02:12.22]<ruby>イマジナリーフレンド<rt class="roma">imajinariifurendo</rt></ruby>
 </div>
+<div class="trans-lyric">[02:12.22]Imaginary Friend</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:17.75]<ruby>イマジナリーフレンド<rt class="roma">imajinariifurendo</rt></ruby>
 </div>
+<div class="trans-lyric">[02:17.75]Imaginary Friend</div>
 </div>
 
 <div class="lyric-line">
@@ -314,6 +330,7 @@ image: /images/songs/kaf/track-1688348617.jpg
 <div class="jp-lyric">
 [02:37.99]<ruby>そば<rt class="roma">soba</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>居<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くれる<rt class="roma">kureru</rt></ruby><ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:37.99]They are the ones who stay by your side</div>
 </div>
 
@@ -321,6 +338,7 @@ image: /images/songs/kaf/track-1688348617.jpg
 <div class="jp-lyric">
 [02:40.92]<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>暴力<rt class="furi">ぼうりょく</rt><rt class="roma">bouryoku</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ヤダ<rt class="roma">yada</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:40.92]I hate that kind of violence, so</div>
 </div>
 
@@ -328,6 +346,7 @@ image: /images/songs/kaf/track-1688348617.jpg
 <div class="jp-lyric">
 [02:43.66]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>しか<rt class="roma">shika</rt></ruby><ruby>話<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:43.66]I could only talk to you</div>
 </div>
 
@@ -335,36 +354,42 @@ image: /images/songs/kaf/track-1688348617.jpg
 <div class="jp-lyric">
 [02:46.82]<ruby>そう<rt class="roma">sou</rt></ruby>、<ruby>そう<rt class="roma">sou</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby>、<ruby>特別<rt class="furi">とくべつ</rt><rt class="roma">tokubetsu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby>
 </div>
+<div class="trans-lyric">[02:46.82]Yes, yes, yes, about the day I had a special dream</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:52.58]<ruby>そう<rt class="roma">sou</rt></ruby>、<ruby>そう<rt class="roma">sou</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby>、<ruby>早朝<rt class="furi">そうちょう</rt><rt class="roma">souchou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>うまく<rt class="roma">umaku</rt></ruby><ruby>ログイン<rt class="roma">roguin</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="trans-lyric">[02:52.58]Yes, yes, yes, I logged in successfully early in the morning</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:57.36]<ruby>エラー<rt class="roma">eraa</rt></ruby><ruby>ばっか<rt class="roma">bakka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>人生<rt class="furi">じんせい</rt><rt class="roma">jinsei</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="trans-lyric">[02:57.36]In a life full of errors</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:00.20]<ruby>花火<rt class="furi">はなび</rt><rt class="roma">hanabi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>あがる<rt class="roma">agaru</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>城<rt class="furi">しろ</rt><rt class="roma">shiro</rt></ruby>
 </div>
+<div class="trans-lyric">[03:00.20]A castle with fireworks rising</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:03.21]<ruby>ひ<rt class="roma">hi</rt></ruby><ruby>ゅ<rt class="roma">yu</rt></ruby><ruby>ーーー<rt class="roma">---</rt></ruby><ruby>ぅ<rt class="roma">u</rt></ruby>
 </div>
+<div class="trans-lyric">[03:03.21]Hoo—oo—</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:08.92]<ruby>ひ<rt class="roma">hi</rt></ruby><ruby>ゅ<rt class="roma">yu</rt></ruby><ruby>ーーーー<rt class="roma">----</rt></ruby><ruby>ぅ<rt class="roma">u</rt></ruby>
 </div>
+<div class="trans-lyric">[03:08.92]Hoo—oo—oo—</div>
 </div>
 
 <br />
@@ -373,6 +398,7 @@ image: /images/songs/kaf/track-1688348617.jpg
 <div class="jp-lyric">
 [03:15.33]<ruby>うまく<rt class="roma">umaku</rt></ruby><ruby>やれ<rt class="roma">yare</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>瞬間<rt class="furi">しゅんかん</rt><rt class="roma">shunkan</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:15.33]There's never a moment I did well</div>
 </div>
 
@@ -380,13 +406,15 @@ image: /images/songs/kaf/track-1688348617.jpg
 <div class="jp-lyric">
 [03:17.26]<ruby>うまく<rt class="roma">umaku</rt></ruby><ruby>やろ<rt class="roma">yaro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>やめる<rt class="roma">yameru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
-<div class="trans-lyric">Stopping thinking I need to do well</div>
+
+<div class="trans-lyric">[03:17.26]Stopping thinking I need to do well</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:19.09]<ruby>生き方<rt class="furi">いきかた</rt><rt class="roma">ikikata</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>わかっちゃった<rt class="roma">wakatchatta</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:19.09]I've come to understand that's how to live</div>
 </div>
 
@@ -394,6 +422,7 @@ image: /images/songs/kaf/track-1688348617.jpg
 <div class="jp-lyric">
 [03:20.62]<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>必要<rt class="furi">ひつよう</rt><rt class="roma">hitsuyou</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:20.62]Surely I no longer need you</div>
 </div>
 
@@ -401,13 +430,15 @@ image: /images/songs/kaf/track-1688348617.jpg
 <div class="jp-lyric">
 [03:23.13]<ruby>お<rt class="roma">o</rt></ruby><ruby>別<rt class="furi">わか</rt><rt class="roma">waka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>きい<rt class="roma">kii</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="trans-lyric">I didn't hear about a goodbye</div>
+
+<div class="trans-lyric">[03:23.13]I didn't hear about a goodbye</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:24.61]<ruby>ずっと<rt class="roma">zutto</rt></ruby>2<ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:24.61]It was always a world of just the two of us</div>
 </div>
 
@@ -417,36 +448,48 @@ image: /images/songs/kaf/track-1688348617.jpg
 <div class="jp-lyric">
 [03:26.82]<ruby>うまく<rt class="roma">umaku</rt></ruby><ruby>やれ<rt class="roma">yare</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>瞬間<rt class="furi">しゅんかん</rt><rt class="roma">shunkan</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
+<div class="trans-lyric">[03:26.82]There's never a moment I did well</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:28.66]<ruby>うまく<rt class="roma">umaku</rt></ruby><ruby>やろ<rt class="roma">yaro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>やめる<rt class="roma">yameru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+
+<div class="trans-lyric">[03:28.66]Stopping thinking I need to do well</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:30.52]<ruby>生き方<rt class="furi">いきかた</rt><rt class="roma">ikikata</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>わかっちゃった<rt class="roma">wakatchatta</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+
+<div class="trans-lyric">[03:30.52]I've come to understand that's how to live</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:31.96]<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>必要<rt class="furi">ひつよう</rt><rt class="roma">hitsuyou</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+
+<div class="trans-lyric">[03:31.96]Surely I no longer need you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:34.47]<ruby>お<rt class="roma">o</rt></ruby><ruby>別<rt class="furi">わか</rt><rt class="roma">waka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>きい<rt class="roma">kii</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
+<div class="trans-lyric">[03:34.47]I didn't hear about a goodbye</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:35.91]<ruby>ずっと<rt class="roma">zutto</rt></ruby>2<ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby>
 </div>
+
+<div class="trans-lyric">[03:35.91]It was always a world of just the two of us</div>
 </div>
 
 <br />
@@ -455,36 +498,48 @@ image: /images/songs/kaf/track-1688348617.jpg
 <div class="jp-lyric">
 [03:38.28]<ruby>うまく<rt class="roma">umaku</rt></ruby><ruby>やれ<rt class="roma">yare</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>瞬間<rt class="furi">しゅんかん</rt><rt class="roma">shunkan</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
+<div class="trans-lyric">[03:38.28]There's never a moment I did well</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:39.74]<ruby>うまく<rt class="roma">umaku</rt></ruby><ruby>やろ<rt class="roma">yaro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>やめる<rt class="roma">yameru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+
+<div class="trans-lyric">[03:39.74]Stopping thinking I need to do well</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:41.59]<ruby>生き方<rt class="furi">いきかた</rt><rt class="roma">ikikata</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>わかっちゃった<rt class="roma">wakatchatta</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+
+<div class="trans-lyric">[03:41.59]I've come to understand that's how to live</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:43.23]<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>必要<rt class="furi">ひつよう</rt><rt class="roma">hitsuyou</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+
+<div class="trans-lyric">[03:43.23]Surely I no longer need you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:45.88]<ruby>お<rt class="roma">o</rt></ruby><ruby>別<rt class="furi">わか</rt><rt class="roma">waka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>きい<rt class="roma">kii</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
+<div class="trans-lyric">[03:45.88]I didn't hear about a goodbye</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:47.27]<ruby>ずっと<rt class="roma">zutto</rt></ruby>2<ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby>
 </div>
+
+<div class="trans-lyric">[03:47.27]It was always a world of just the two of us</div>
 </div>
 
 <br />
@@ -493,42 +548,49 @@ image: /images/songs/kaf/track-1688348617.jpg
 <div class="jp-lyric">
 [03:54.84]<ruby>うさ<rt class="roma">usa</rt></ruby><ruby>うさ<rt class="roma">usa</rt></ruby><ruby>うさ<rt class="roma">usa</rt></ruby><ruby>ちゃん<rt class="roma">chan</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>憂さ晴<rt class="furi">うさば</rt><rt class="roma">usaba</rt></ruby><ruby>らし<rt class="roma">rashi</rt></ruby>
 </div>
+<div class="trans-lyric">[03:54.84]Usa Usa Usa-chan's stress relief</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:57.44]<ruby>バラバラ<rt class="roma">barabara</rt></ruby><ruby>バランス<rt class="roma">baransu</rt></ruby> <ruby>持ち直<rt class="furi">もちなお</rt><rt class="roma">mochinao</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[03:57.44]Bara bara balance, pull yourself together</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:00.32]<ruby>もち<rt class="roma">mochi</rt></ruby><ruby>もち<rt class="roma">mochi</rt></ruby><ruby>もちろん<rt class="roma">mochiron</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby> <ruby>関係<rt class="furi">かんけい</rt><rt class="roma">kankei</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby>
 </div>
+<div class="trans-lyric">[04:00.32]Mochi mochi mochiron, no longer relevant</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:03.20]<ruby>け<rt class="roma">ke</rt></ruby><ruby>いけい<rt class="roma">ikei</rt></ruby><ruby>経験<rt class="furi">けいけん</rt><rt class="roma">keiken</rt></ruby><ruby>値<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby> <ruby>つみかさね<rt class="roma">tsumikasane</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[04:03.20]Kei kei experience points, stacking up</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:06.03]<ruby>うさ<rt class="roma">usa</rt></ruby><ruby>うさ<rt class="roma">usa</rt></ruby><ruby>うさ<rt class="roma">usa</rt></ruby><ruby>ちゃん<rt class="roma">chan</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>憂さ晴<rt class="furi">うさば</rt><rt class="roma">usaba</rt></ruby><ruby>らし<rt class="roma">rashi</rt></ruby>
 </div>
+<div class="trans-lyric">[04:06.03]Usa Usa Usa-chan's stress relief</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:08.86]<ruby>バラバラ<rt class="roma">barabara</rt></ruby><ruby>バランス<rt class="roma">baransu</rt></ruby> <ruby>持ち直<rt class="furi">もちなお</rt><rt class="roma">mochinao</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[04:08.86]Bara bara balance, pull yourself together</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:11.60]<ruby>もち<rt class="roma">mochi</rt></ruby><ruby>もち<rt class="roma">mochi</rt></ruby><ruby>もちろん<rt class="roma">mochiron</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>関係<rt class="furi">かんけい</rt><rt class="roma">kankei</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby>
 </div>
+
 <div class="trans-lyric">[04:11.60]Mochi mochi mochiron, no longer relevant</div>
 </div>
 
@@ -536,12 +598,14 @@ image: /images/songs/kaf/track-1688348617.jpg
 <div class="jp-lyric">
 [04:14.44]<ruby>あの<rt class="roma">ano</rt></ruby><ruby>子<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>別々<rt class="furi">べつべつ</rt><rt class="roma">betsubetsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>幸<rt class="furi">しあわ</rt><rt class="roma">shiawa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby>
 </div>
+<div class="trans-lyric">[04:14.44]That child and I are happy separately</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:18.29]<ruby>幸<rt class="furi">しあわ</rt><rt class="roma">shiawa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby>
 </div>
+
 <div class="trans-lyric">[04:18.29]Happiness</div>
 </div>
 
@@ -549,6 +613,8 @@ image: /images/songs/kaf/track-1688348617.jpg
 <div class="jp-lyric">
 [04:19.66]<ruby>幸<rt class="furi">しあわ</rt><rt class="roma">shiawa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby>
 </div>
+
+<div class="trans-lyric">[04:19.66]Happiness</div>
 </div>
 
 <br />
@@ -557,6 +623,8 @@ image: /images/songs/kaf/track-1688348617.jpg
 <div class="jp-lyric">
 [04:22.21]<ruby>幸<rt class="furi">しあわ</rt><rt class="roma">shiawa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby>
 </div>
+
+<div class="trans-lyric">[04:22.21]Happiness</div>
 </div>
 
 <br />
@@ -565,7 +633,8 @@ image: /images/songs/kaf/track-1688348617.jpg
 <div class="jp-lyric">
 [04:24.58]<ruby>しあわせ<rt class="roma">shiawase</rt></ruby>
 </div>
-<div class="trans-lyric">Happiness</div>
+
+<div class="trans-lyric">[04:24.58]Happiness</div>
 </div>
 
 <br />
@@ -574,6 +643,7 @@ image: /images/songs/kaf/track-1688348617.jpg
 <div class="jp-lyric">
 [04:27.13]<ruby>イマジナリーフレンド<rt class="roma">imajinariifurendo</rt></ruby>
 </div>
+<div class="trans-lyric">[04:27.13]Imaginary Friend</div>
 </div>
 
 <br />

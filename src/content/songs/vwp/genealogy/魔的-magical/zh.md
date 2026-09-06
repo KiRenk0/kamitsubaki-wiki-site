@@ -190,6 +190,7 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 [01:22.34]<ruby>なんか<rt class="roma">nanka</rt></ruby><ruby>全然<rt class="furi">ぜんぜん</rt><rt class="roma">zenzen</rt></ruby><ruby>ピン<rt class="roma">pin</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[01:22.34]总觉得完全没感觉</div>
 </div>
 
 <div class="lyric-line">
@@ -397,6 +398,7 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 [03:13.77]<ruby>次<rt class="furi">つぎ</rt><rt class="roma">tsugi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>芽吹<rt class="furi">めぶ</rt><rt class="roma">mebu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>出<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>せる<rt class="roma">seru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:13.77]下一次我也能发芽绽放</div>
 </div>
 

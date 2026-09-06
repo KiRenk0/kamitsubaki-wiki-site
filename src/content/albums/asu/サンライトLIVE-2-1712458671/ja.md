@@ -107,14 +107,14 @@ tracks:
 ## 収録曲
 
 1. Overdose - サンライトLIVE 2 (Cover)（03:13）
-1. 二人の答え - サンライトLIVE 2 (Cover) [feat. RIM]（04:19）
+1. 二人の答え - サンライトLIVE 2 (Cover) [feat. [RIM](/ja/artists/vwp/rim)]（04:19）
 2. STAY TUNE - サンライトLIVE 2 (Cover)（04:56）
 2. ヒカリへ - サンライトLIVE 2 (Cover)（04:54）
 3. ここで息をして - サンライトLIVE 2 (Cover)（03:37）
 3. W/X/Y - サンライトLIVE 2 (Cover)（04:39）
 4. 死神 - サンライトLIVE 2 (Cover)（03:04）
 4. memory - サンライトLIVE 2 (Cover)（03:05）
-5. DERO - サンライトLIVE 2 (Cover)（03:19）
+5. [DERO](/ja/songs/dustcell/originals/dero) - サンライトLIVE 2 (Cover)（03:19）
 5. Vacation - サンライトLIVE 2 (Cover)（03:01）
 6. 威風堂々 - サンライトLIVE 2 (Cover)（03:21）
 6. ラビリンス - サンライトLIVE 2 (Cover)（04:55）
@@ -124,5 +124,5 @@ tracks:
 8. First Love - サンライトLIVE 2 (Cover)（04:22）
 9. 堕天 - サンライトLIVE 2 (Cover)（02:52）
 9. Ordinary days - サンライトLIVE 2 (Cover)（04:32）
-10. いんさいどぐるうゔ - サンライトLIVE 2 (Cover) [feat. ARU]（03:58）
+10. いんさいどぐるうゔ - サンライトLIVE 2 (Cover) [feat. [ARU](/ja/artists/solo/aru)]（03:58）
 10. 愛にできることはまだあるかい - サンライトLIVE 2 (Cover)（06:51）

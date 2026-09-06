@@ -63,6 +63,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 [00:44.67]<ruby>割<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>コップ<rt class="roma">koppu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たし<rt class="roma">tashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[00:44.67]往破碎的杯子装满爱</div>
 </div>
 
 <div class="lyric-line">
@@ -244,6 +245,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 [01:59.32]<ruby>溢<rt class="furi">あふ</rt><rt class="roma">afu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> 溢<ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[01:59.32]仿佛要溢出 又不会溢出</div>
 </div>
 
 <div class="lyric-line">
@@ -446,6 +448,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 [03:15.96]<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>明<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>連<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>だす<rt class="roma">dasu</rt></ruby> <ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:15.96]天亮了就带你出发 在今天</div>
 </div>
 
@@ -453,42 +456,49 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 [03:21.02]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>われ<rt class="roma">ware</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+<div class="cn-lyric">[03:21.02]若能触摸到爱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:23.60]<ruby>どんな<rt class="roma">donna</rt></ruby><ruby>かたち<rt class="roma">katachi</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">[03:23.60]会是怎样的形状呢</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:26.85]<ruby>なにげない<rt class="roma">nanigenai</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>集<rt class="furi">あつ</rt><rt class="roma">atsu</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[03:26.85]收集平淡的每一天</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:31.39]<ruby>そっと<rt class="roma">sotto</rt></ruby><ruby>束<rt class="furi">たば</rt><rt class="roma">taba</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+<div class="cn-lyric">[03:31.39]若轻轻捆绑起来</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:33.87]<ruby>透明<rt class="furi">とうめい</rt><rt class="roma">toumei</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いたって<rt class="roma">itatte</rt></ruby> <ruby>あたたかく<rt class="roma">atatakaku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[03:33.87]即使透明 也很温暖</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:37.37]<ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>撫<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>でる<rt class="roma">deru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
+<div class="cn-lyric">[03:37.37]直到抚过你的清晨</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:44.12]<ruby>たり<rt class="roma">tari</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby> <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たし<rt class="roma">tashi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:44.12]与不足的你 和想要填满的每一天</div>
 </div>
 
@@ -496,6 +506,8 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 [03:49.35]<ruby>たり<rt class="roma">tari</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby> <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たし<rt class="roma">tashi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
+<div class="cn-lyric">[03:49.35]与不足的你 和想要填满的每一天</div>
 </div>
 
 </div>

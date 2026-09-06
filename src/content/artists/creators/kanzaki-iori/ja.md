@@ -17,7 +17,7 @@ categorySubtitle: "CREATORS / COMPOSERS / ILLUSTRATORS"
 
 ## 概要
 
-カンザキイオリ（Kanzaki Iori）は、日本のボカロP、作詞家、作曲家、小説家である。[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio)初期の中心的なクリエイターの一人であり、とくに[花譜](/ja/artists/vwp/kaf)との継続的な制作によって神椿初期の音楽的連続性を形づくった。個人名義では「命に嫌われている。」「君の神様になりたい。」「あの夏が飽和する。」などを発表している。
+カンザキイオリ（Kanzaki Iori）は、日本のボカロP、作詞家、作曲家、小説家である。[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio)初期の中心的なクリエイターの一人であり、とくに[花譜](/ja/artists/vwp/kaf)との継続的な制作によって神椿初期の音楽的連続性を形づくった。個人名義では「命に嫌われている。」「[君の神様になりたい。](/ja/songs/harusaruhi/covers/君の神様になりたい-kimi-no-kamisama-ni-naritai)」「あの夏が飽和する。」などを発表している。
 
 ## 経歴
 

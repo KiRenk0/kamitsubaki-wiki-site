@@ -38,13 +38,13 @@ At *SINSEKAI STUDIO*, three companies are collaborating closely under the keywor
 - August 8, 2024: KAMITSUBAKI FES '24 “THE DAY THE EARTH STOOD STILL” was held at the Yokohama International Peace Conference Hall. Artists from SINSEKAI RECORD performed alongside artists from Kamitsubaki Headquarters.
 - April 30, 2025: The new virtual singer [BEMA](/en/artists/solo/bema) officially debuted, uploading her first video, 「琶舞 Op.1 - はじめまして。」(Bema Op.1 - Nice to meet you).
 - May 5, 2025: An official announcement was made confirming that ASU and BEMA would form a new duo centered around the theme of “love”.
-- May 7, 2025: The music video for ASU and BEMA’s original song, “Symbiotic Dominion,” was released.
+- May 7, 2025: The music video for ASU and BEMA’s original song, “[Symbiotic Dominion](/en/songs/bema/originals/symbiotic-dominion),” was released.
 - Late August 2026: The newly established [KYOKAI STUDIO](/en/projects/labels/kyokai-studio) website went live ahead of schedule, with Azusagawa and other former SINSEKAI-system artists appearing on its roster.
 - September 5, 2026: THINKR announced its studio reorganization (THINKR NEW STUDIO ARCHITECTURE). KAMITSUBAKI STUDIO became a studio dedicated to the virtual domain. The same day, the Kamitsubaki website was renewed and the labels inside the studio were consolidated into PHENOMENON RECORD, retiring the SINSEKAI RECORD name; this entry was archived accordingly.
  
 ### Artist under contract
 
-> The roster below records the artists under SINSEKAI during its operation (historical). Destinations after the September 2026 reorganization: **ASU, BEMA, VALIS, Awairo, Toa, and tokiwa** remain with Kamitsubaki (under the new structure with in-studio labels consolidated into PHENOMENON RECORD); **Azusagawa** transferred to [KYOKAI STUDIO](/en/projects/labels/kyokai-studio); **ARU, Shido, Mizuno Atsu, Sooda, and Amayadori** are now listed on the [ALLT STUDIO](/en/projects/labels/allt-studio) website roster; **MIMI, Yunosuke, Hi-Fi P, and Hitogoto** transferred to KYOKAI STUDIO.
+> The roster below records the artists under SINSEKAI during its operation (historical). Destinations after the September 2026 reorganization: **ASU, BEMA, VALIS, [Awairo](/en/artists/solo/awairo), [Toa](/en/artists/creators/toa), and [tokiwa](/en/artists/creators/tokiwa)** remain with Kamitsubaki (under the new structure with in-studio labels consolidated into PHENOMENON RECORD); **Azusagawa** transferred to [KYOKAI STUDIO](/en/projects/labels/kyokai-studio); **ARU, Shido, Mizuno Atsu, Sooda, and Amayadori** are now listed on the [ALLT STUDIO](/en/projects/labels/allt-studio) website roster; **[MIMI](/en/artists/creators/mimi), Yunosuke, Hi-Fi P, and [Hitogoto](/en/artists/creators/hitogoto)** transferred to KYOKAI STUDIO.
 
 **Virtual singer**
 

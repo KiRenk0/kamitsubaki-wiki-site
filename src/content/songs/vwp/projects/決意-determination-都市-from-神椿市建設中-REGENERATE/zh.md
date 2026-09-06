@@ -220,6 +220,7 @@ I'll be for you
 <div class="jp-lyric">
 <ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">让我们谈最后一场恋爱吧</div>
 </div>
 
 <div class="lyric-line">
@@ -302,6 +303,7 @@ I'm here for you
 <div class="jp-lyric">
 <ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">让我们谈最后一场恋爱吧</div>
 </div>
 
 <div class="lyric-line">
@@ -315,6 +317,7 @@ I'm here for you
 <div class="jp-lyric">
 <ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>悪<rt class="furi">わる</rt><rt class="roma">waru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>背負<rt class="furi">せお</rt><rt class="roma">seo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>誓<rt class="furi">ちか</rt><rt class="roma">chika</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">好坏全部承担，我发誓</div>
 </div>
 
@@ -322,12 +325,14 @@ I'm here for you
 <div class="jp-lyric">
 <ruby>出会<rt class="furi">であ</rt><rt class="roma">dea</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>瞬間<rt class="furi">しゅんかん</rt><rt class="roma">shunkan</rt></ruby>、<ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby>
 </div>
+<div class="cn-lyric">相遇的瞬间，坠入爱河的两人</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>たって<rt class="roma">tatte</rt></ruby>
 </div>
+
 <div class="cn-lyric">即使并非那样</div>
 </div>
 
@@ -335,12 +340,14 @@ I'm here for you
 <div class="jp-lyric">
 I'll be for you
 </div>
+<div class="cn-lyric">I'll be for you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>新<rt class="furi">あたら</rt><rt class="roma">atara</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>記念<rt class="furi">きねん</rt><rt class="roma">kinen</rt></ruby><ruby>日<rt class="furi">び</rt><rt class="roma">bi</rt></ruby>
 </div>
+<div class="cn-lyric">今天是属于两人的新的纪念日</div>
 </div>
 
 </div>

@@ -78,17 +78,17 @@ tracks:
 
 ## 概要
 
-VALISが2024-08-28にリリースしたアルバム『青春イマジネーション 瓦利斯飯店ver.』。全14曲を収録。
+[VALIS](/ja/artists/solo/valis)が2024-08-28にリリースしたアルバム『青春イマジネーション 瓦利斯飯店ver.』。全14曲を収録。
 
 ## 収録曲
 
-1. 無窮プラトニック（02:51）
+1. [無窮プラトニック](/ja/songs/valis/originals/無窮puratonikku)（02:51）
 2. I.C.E(CHINO)（03:06）
-3. 渇愛論(MYU)（03:01）
-4. 猫好的トリックスター(NEFFY)（03:23）
-5. わたしマニュアル(NINA)（02:37）
-6. 禁断果実(RARA)（02:30）
-7. ピカピカキャンディラブイズム(VITTE)（03:11）
+3. [渇愛論(MYU)](/ja/songs/valis/originals/渇愛論-myu)（03:01）
+4. [猫好的トリックスター(NEFFY)](/ja/songs/valis/originals/猫好的torikkusutaa-neffy)（03:23）
+5. [わたしマニュアル(NINA)](/ja/songs/valis/originals/watashimanyuaru-nina)（02:37）
+6. [禁断果実(RARA)](/ja/songs/valis/originals/禁断果実-rara)（02:30）
+7. [ピカピカキャンディラブイズム(VITTE)](/ja/songs/valis/originals/pikapikakyandeirabuizumu-vitte)（03:11）
 8. DRESS.（02:25）
 9. 変異体（03:00）
 10. 猫好的ショータイム（03:26）

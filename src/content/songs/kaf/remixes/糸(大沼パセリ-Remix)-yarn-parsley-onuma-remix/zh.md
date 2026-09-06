@@ -225,12 +225,14 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 [02:17.95]<ruby>絡<rt class="furi">から</rt><rt class="roma">kara</rt></ruby><ruby>まる<rt class="roma">maru</rt></ruby><ruby>意図<rt class="furi">いと</rt><rt class="roma">ito</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>濡<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>解<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[02:17.95]纏繞的意圖被濡濕 無法解開</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:22.82]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>逃<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:22.82]無處可逃</div>
 </div>
 
 <div class="lyric-line">
@@ -244,6 +246,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 [02:32.47]<ruby>どうか<rt class="roma">douka</rt></ruby> <ruby>どうか<rt class="roma">douka</rt></ruby> <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:32.47]請 請 將我</div>
 </div>
 
@@ -251,6 +254,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 [02:37.37]<ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>解<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:37.37]察覺 嘲笑 解開</div>
 </div>
 

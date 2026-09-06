@@ -17,7 +17,7 @@ image: /images/songs/mimi/余熱-feat.-初音miku.jpg
 
 ## 作品概要
 
-MIMIが2025-07-07にリリースしたシングル「余熱 (feat. 初音ミク)」。
+[MIMI](/ja/artists/creators/mimi)が2025-07-07にリリースしたシングル「余熱 (feat. 初音ミク)」。
 
 ## 視聴
 {{media-switcher::余熱 (feat. 初音ミク)}}

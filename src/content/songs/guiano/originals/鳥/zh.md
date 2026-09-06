@@ -17,7 +17,7 @@ image: /images/songs/guiano/鳥.jpg
 
 ## 作品简介
 
-Guiano于 2022-09-22 发行的单曲《鳥》。
+[Guiano](/zh/artists/creators/guiano)于 2022-09-22 发行的单曲《鳥》。
 
 ## 试听
 {{media-switcher::鳥}}

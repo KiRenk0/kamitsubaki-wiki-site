@@ -17,7 +17,7 @@ image: /images/songs/ciel/君to旅風.jpg
 
 ## 作品概要
 
-CIELが2026-05-12にリリースしたシングル「君と旅風」。
+[CIEL](/ja/artists/solo/ciel)が2026-05-12にリリースしたシングル「君と旅風」。
 
 ## 視聴
 {{media-switcher::君と旅風}}

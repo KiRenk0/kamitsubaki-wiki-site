@@ -59,7 +59,7 @@ ASU debuted in August 2021. She held her first in-person 1st ONE-MAN LIVE "RAY" 
 
 ASU's defining traits are instinct and unpredictability. Her vocal range is broad, and her natural rhythmic ability allows her to deliver performances that break free from conventional frameworks. Mai Yoneyama's character design gives her a look that balances transparency with vitality, echoing the atmosphere of Shinkai-kai.
 
-Her songwriting emphasizes intuitive emotional expression. The lyrics and melodies overflow with a youthful purity and impulsiveness, bringing a fresh color to the Kamitsubaki ecosystem that differs from the V.W.P lineage.
+Her songwriting emphasizes intuitive emotional expression. The lyrics and melodies overflow with a youthful purity and impulsiveness, bringing a fresh color to the Kamitsubaki ecosystem that differs from the [V.W.P](/en/artists/vwp/vwp) lineage.
 
 
 ## Activity History
@@ -70,11 +70,11 @@ Her songwriting emphasizes intuitive emotional expression. The lyrics and melodi
 - Appeared at KAMITSUBAKI WARS 2025 and KAMITSUBAKI FES '25.
 - Appeared at KAMITSUBAKI WARS 2026 Yokohama.
 
-- September 5, 2026: With the renewal of KAMITSUBAKI STUDIO, the in-studio labels were consolidated into PHENOMENON RECORD, which now represents the artist (the SINSEKAI RECORD name was retired).
+- September 5, 2026: With the renewal of KAMITSUBAKI STUDIO, the in-studio labels were consolidated into PHENOMENON RECORD, which now represents the artist (the [SINSEKAI RECORD](/en/projects/archive/sinsekai-studio) name was retired).
 
 ## Representative Works and Related Entries
 
-- Singles: "Little Bit," "Route Cure," "Bitter Etude," "HOME," "Link"
+- Singles: "[Little Bit](/en/songs/asu/originals/little-bit)," "Route Cure," "Bitter Etude," "HOME," "[Link](/en/songs/asu/originals/link)"
 
 Useful related entries:
 

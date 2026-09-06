@@ -19,7 +19,7 @@ image: /images/songs/harusaruhi/single-1800090598.jpg
 
 ## Overview
 
-オオゴト (DJ Genki Remix) [feat. Harusaruhi] appears on オオゴト (DJ Genki Remix) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+オオゴト (DJ Genki Remix) [feat. Harusaruhi] appears on [オオゴト](/en/songs/harusaruhi/originals/オオゴト-serious-affair) (DJ Genki Remix) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -552,12 +552,14 @@ Ah <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>�
 <div class="jp-lyric">
 <ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>みな<rt class="roma">mina</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>縄張<rt class="furi">なわば</rt><rt class="roma">nawaba</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>
 </div>
+<div class="trans-lyric">Anyone, come into this territory</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>一瞬<rt class="furi">いっしゅん</rt><rt class="roma">isshun</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>くなる<rt class="roma">kunaru</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> <ruby>蟠<rt class="furi">わだかま</rt><rt class="roma">wadakama</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>
 </div>
+<div class="trans-lyric">In an instant, grudges will disappear</div>
 </div>
 
 </div>

@@ -17,7 +17,7 @@ image: /images/songs/mimi/水音tokaaten.jpg
 
 ## 作品概要
 
-MIMIが2019-11-02にリリースしたシングル「水音とカーテン」。
+[MIMI](/ja/artists/creators/mimi)が2019-11-02にリリースしたシングル「水音とカーテン」。
 
 ## 視聴
 {{media-switcher::水音とカーテン}}

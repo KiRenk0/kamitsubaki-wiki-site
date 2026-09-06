@@ -133,12 +133,14 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 几<ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>天来<rt class="furi">てんらい</rt><rt class="roma">tenrai</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby>热<ruby>烈<rt class="furi">れつ</rt><rt class="roma">retsu</rt></ruby> <ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby>个<ruby>寒流<rt class="furi">かんりゅう</rt><rt class="roma">kanryuu</rt></ruby>就<ruby>瓦解<rt class="furi">がかい</rt><rt class="roma">gakai</rt></ruby>
 </div>
+<div class="trans-lyric">Hundreds of days of fervor, a single cold snap dissolves it</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>再<rt class="furi">さい</rt><rt class="roma">sai</rt></ruby><ruby>厚<rt class="furi">あつし</rt><rt class="roma">atsushi</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby>爱<ruby>只<rt class="furi">ただ</rt><rt class="roma">tada</rt></ruby><ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby>叠纸<ruby>片<rt class="furi">へん</rt><rt class="roma">hen</rt></ruby>
 </div>
+<div class="trans-lyric">No matter how thick, love is just a stack of paper</div>
 </div>
 
 <div class="lyric-line">
@@ -152,18 +154,21 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 你<ruby>在<rt class="furi">ざい</rt><rt class="roma">zai</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>机<rt class="furi">つくえ</rt><rt class="roma">tsukue</rt></ruby> 你<ruby>在<rt class="furi">ざい</rt><rt class="roma">zai</rt></ruby>笔电 无<ruby>法<rt class="furi">ほう</rt><rt class="roma">hou</rt></ruby>隔绝
 </div>
+<div class="trans-lyric">You're in my phone, you're in my laptop, inescapable</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 你<ruby>在<rt class="furi">ざい</rt><rt class="roma">zai</rt></ruby><ruby>深夜<rt class="furi">しんや</rt><rt class="roma">shin'ya</rt></ruby> <ruby>像<rt class="furi">ぞう</rt><rt class="roma">zou</rt></ruby>黑咖啡
 </div>
+<div class="trans-lyric">You in the dead of night, like black coffee</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 你<ruby>在<rt class="furi">ざい</rt><rt class="roma">zai</rt></ruby><ruby>我<rt class="furi">わが</rt><rt class="roma">waga</rt></ruby><ruby>心<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>里<rt class="furi">さと</rt><rt class="roma">sato</rt></ruby><ruby>面<rt class="furi">めん</rt><rt class="roma">men</rt></ruby> 陪<ruby>我<rt class="furi">わが</rt><rt class="roma">waga</rt></ruby><ruby>失<rt class="furi">しつ</rt><rt class="roma">shitsu</rt></ruby><ruby>眠<rt class="furi">ねむ</rt><rt class="roma">nemu</rt></ruby>
 </div>
+<div class="trans-lyric">You inside my heart, keeping me awake</div>
 </div>
 
 <div class="lyric-line">
@@ -177,6 +182,7 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 <ruby>我<rt class="furi">わが</rt><rt class="roma">waga</rt></ruby>换<ruby>沙<rt class="furi">いさご</rt><rt class="roma">isago</rt></ruby>发 换窗帘 却换<ruby>不<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby>掉你
 </div>
+
 <div class="trans-lyric">I change the sofa, change the curtains, but can't change you</div>
 </div>
 
@@ -184,6 +190,7 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 <ruby>固<rt class="furi">かた</rt><rt class="roma">kata</rt></ruby>执<ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby>气<ruby>味<rt class="furi">み</rt><rt class="roma">mi</rt></ruby>
 </div>
+
 <div class="trans-lyric">The stubborn smell</div>
 </div>
 
@@ -191,6 +198,7 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 抱<ruby>着<rt class="furi">ぎ</rt><rt class="roma">gi</rt></ruby><ruby>一起<rt class="furi">かずき</rt><rt class="roma">kazuki</rt></ruby>养<ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>小<rt class="furi">しょう</rt><rt class="roma">shou</rt></ruby><ruby>狗<rt class="furi">いぬ</rt><rt class="roma">inu</rt></ruby>
 </div>
+
 <div class="trans-lyric">Holding the puppy we raised together</div>
 </div>
 
@@ -198,6 +206,7 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 倔强假<ruby>装<rt class="furi">そう</rt><rt class="roma">sou</rt></ruby><ruby>克服<rt class="furi">こくふく</rt><rt class="roma">kokufuku</rt></ruby><ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby>伤悲
 </div>
+
 <div class="trans-lyric">Stubbornly pretending to have overcome the sorrow</div>
 </div>
 
@@ -205,6 +214,7 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 它吻<ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby><ruby>我<rt class="furi">わが</rt><rt class="roma">waga</rt></ruby> <ruby>弄<rt class="furi">ろう</rt><rt class="roma">rou</rt></ruby><ruby>乱<rt class="furi">らん</rt><rt class="roma">ran</rt></ruby><ruby>藏<rt class="furi">くら</rt><rt class="roma">kura</rt></ruby><ruby>好<rt class="furi">こう</rt><rt class="roma">kou</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>泪<rt class="furi">なみだ</rt><rt class="roma">namida</rt></ruby>
 </div>
+
 <div class="trans-lyric">It kissed me, messing up the hidden tears</div>
 </div>
 
@@ -212,30 +222,35 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 你<ruby>在房<rt class="furi">ありふさ</rt><rt class="roma">arifusa</rt></ruby>间 <ruby>像<rt class="furi">ぞう</rt><rt class="roma">zou</rt></ruby><ruby>幻灯<rt class="furi">げんとう</rt><rt class="roma">gentou</rt></ruby><ruby>片<rt class="furi">へん</rt><rt class="roma">hen</rt></ruby> 你<ruby>在<rt class="furi">ざい</rt><rt class="roma">zai</rt></ruby><ruby>我<rt class="furi">わが</rt><rt class="roma">waga</rt></ruby><ruby>眼<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>里<rt class="furi">さと</rt><rt class="roma">sato</rt></ruby><ruby>蔓延<rt class="furi">まんえん</rt><rt class="roma">man'en</rt></ruby>
 </div>
+<div class="trans-lyric">You in the room, like a slideshow, you spread in my eyes</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 你<ruby>在<rt class="furi">ざい</rt><rt class="roma">zai</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>机<rt class="furi">つくえ</rt><rt class="roma">tsukue</rt></ruby> 你<ruby>在<rt class="furi">ざい</rt><rt class="roma">zai</rt></ruby>笔电 无<ruby>法<rt class="furi">ほう</rt><rt class="roma">hou</rt></ruby>隔绝
 </div>
+<div class="trans-lyric">You're in my phone, you're in my laptop, inescapable</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 你<ruby>在<rt class="furi">ざい</rt><rt class="roma">zai</rt></ruby><ruby>深夜<rt class="furi">しんや</rt><rt class="roma">shin'ya</rt></ruby> <ruby>像<rt class="furi">ぞう</rt><rt class="roma">zou</rt></ruby>黑咖啡
 </div>
+<div class="trans-lyric">You in the dead of night, like black coffee</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 你<ruby>在<rt class="furi">ざい</rt><rt class="roma">zai</rt></ruby><ruby>我<rt class="furi">わが</rt><rt class="roma">waga</rt></ruby><ruby>心<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>里<rt class="furi">さと</rt><rt class="roma">sato</rt></ruby><ruby>面<rt class="furi">めん</rt><rt class="roma">men</rt></ruby> 陪<ruby>我<rt class="furi">わが</rt><rt class="roma">waga</rt></ruby><ruby>失<rt class="furi">しつ</rt><rt class="roma">shitsu</rt></ruby><ruby>眠<rt class="furi">ねむ</rt><rt class="roma">nemu</rt></ruby>
 </div>
+<div class="trans-lyric">You inside my heart, keeping me awake</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>可<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>却<ruby>不在<rt class="furi">ふざい</rt><rt class="roma">fuzai</rt></ruby> <ruby>我<rt class="furi">わが</rt><rt class="roma">waga</rt></ruby><ruby>身<rt class="furi">み</rt><rt class="roma">mi</rt></ruby>边
 </div>
+<div class="trans-lyric">But you're not by my side</div>
 </div>
 
 </div>

@@ -308,42 +308,49 @@ image: /images/songs/koko/single-1809943180.jpg
 <div class="jp-lyric">
 [02:59.67]<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>導<rt class="furi">みちび</rt><rt class="roma">michibi</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ほう<rt class="roma">hou</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
+<div class="cn-lyric">[02:59.67]朝着内心指引的方向</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:02.49]<ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>自身<rt class="furi">じしん</rt><rt class="roma">jishin</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>追い越<rt class="furi">おいこ</rt><rt class="roma">oiko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たく<rt class="roma">taku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[03:02.49]想要超越自己</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:05.53]<ruby>胸<rt class="furi">むね</rt><rt class="roma">mune</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>張<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ほしく<rt class="roma">hoshiku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[03:05.53]想要能挺起胸膛的事</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:08.86]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>褒<rt class="furi">ほ</rt><rt class="roma">ho</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ほしく<rt class="roma">hoshiku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[03:08.86]想要你夸赞我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:12.17]<ruby>未<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>完成<rt class="furi">かんせい</rt><rt class="roma">kansei</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>甘酸<rt class="furi">あまず</rt><rt class="roma">amazu</rt></ruby><ruby>っぱい<rt class="roma">ppai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+<div class="cn-lyric">[03:12.17]尚未完成 带着酸甜的感觉</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:18.39]<ruby>この<rt class="roma">kono</rt></ruby><ruby>オレンジ<rt class="roma">orenji</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>いたい<rt class="roma">itai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+<div class="cn-lyric">[03:18.39]还想停留在这样的橙色之中</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:24.66]<ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>隣<rt class="furi">となり</rt><rt class="roma">tonari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ほしい<rt class="roma">hoshii</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:24.66]明天希望你能在我身边</div>
 </div>
 

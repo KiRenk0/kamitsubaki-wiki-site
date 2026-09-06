@@ -441,12 +441,14 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [03:22.91]<ruby>追い抜<rt class="furi">おいぬ</rt><rt class="roma">oinu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>老<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>枯<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[03:22.91]超越 老去 枯萎</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:25.13]<ruby>理想<rt class="furi">りそう</rt><rt class="roma">risou</rt></ruby><ruby>像<rt class="furi">ぞう</rt><rt class="roma">zou</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>のい<rt class="roma">noi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>冷<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
+<div class="cn-lyric">[03:25.13]理想形象远去 逐渐冷却</div>
 </div>
 
 <div class="lyric-line">
@@ -460,6 +462,7 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [03:30.87]<ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:30.87]传达不到</div>
 </div>
 
@@ -467,12 +470,14 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [03:32.19]<ruby>さあ<rt class="roma">saa</rt></ruby>、<ruby>初心<rt class="furi">うぶ</rt><rt class="roma">ubu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>響<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>かせ<rt class="roma">kase</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:32.19]来吧 让初心的声音响彻</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:35.49]Stay woke <ruby>迷路<rt class="furi">めいろ</rt><rt class="roma">meiro</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>躓(<ruby>つま<rt class="roma">tsuma</rt></ruby><ruby>づ<rt class="roma">zu</rt></ruby>)<ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>いい<rt class="roma">ii</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:35.49]Stay woke 在迷路中跌倒 没关系的</div>
 </div>
 
@@ -480,18 +485,21 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [03:38.69]Let's go <ruby>鼓動<rt class="furi">こどう</rt><rt class="roma">kodou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>伝<rt class="furi">つた</rt><rt class="roma">tsuta</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="cn-lyric">[03:38.69]Let's go 因为会传达给心跳</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:41.22]<ruby>一度<rt class="furi">いちど</rt><rt class="roma">ichido</rt></ruby><ruby>きり<rt class="roma">kiri</rt></ruby><ruby>自由<rt class="furi">じゆう</rt><rt class="roma">jiyuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
 </div>
+<div class="cn-lyric">[03:41.22]只要一次自由地起舞</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:44.23]<ruby>無邪気<rt class="furi">むじゃき</rt><rt class="roma">mujaki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>隠<rt class="furi">かく</rt><rt class="roma">kaku</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>、<ruby>さあ<rt class="roma">saa</rt></ruby>
 </div>
+<div class="cn-lyric">[03:44.23]不要隐藏天真 来吧</div>
 </div>
 
 </div>

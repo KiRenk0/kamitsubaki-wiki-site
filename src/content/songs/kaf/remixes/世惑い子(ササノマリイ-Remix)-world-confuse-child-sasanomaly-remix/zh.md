@@ -234,6 +234,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 <div class="jp-lyric">
 <ruby>一定<rt class="furi">いってい</rt><rt class="roma">ittei</rt></ruby><ruby>都<rt class="furi">と</rt><rt class="roma">to</rt></ruby>拥<ruby>有<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby> 那<ruby>唯一<rt class="furi">ゆいいつ</rt><rt class="roma">yuiitsu</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby>
 </div>
+<div class="cn-lyric">一定都拥有 那唯一的</div>
 </div>
 
 <div class="lyric-line">
@@ -317,30 +318,35 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 <div class="jp-lyric">
 这<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>上<rt class="furi">じょう</rt><rt class="roma">jou</rt></ruby> <ruby>没<rt class="furi">ぼつ</rt><rt class="roma">botsu</rt></ruby><ruby>有<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby>规则 <ruby>会<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby><ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>绝对<ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby>啊
 </div>
+<div class="cn-lyric">这世界上 没有规则 会是绝对的啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 尽<ruby>管<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>去<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>放肆<rt class="furi">ほうし</rt><rt class="roma">houshi</rt></ruby><ruby>地<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby> 说<ruby>出<rt class="furi">で</rt><rt class="roma">de</rt></ruby>你爱<ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby> <ruby>事情<rt class="furi">じじょう</rt><rt class="roma">jijou</rt></ruby>就<ruby>好<rt class="furi">よしみ</rt><rt class="roma">yoshimi</rt></ruby>
 </div>
+<div class="cn-lyric">尽管去放肆地 说出你爱的 事情就好</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 尽<ruby>管<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>去<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>大胆<rt class="furi">だいたん</rt><rt class="roma">daitan</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby> 做你<ruby>所<rt class="furi">しょ</rt><rt class="roma">sho</rt></ruby>爱<ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby> <ruby>事情<rt class="furi">じじょう</rt><rt class="roma">jijou</rt></ruby>就<ruby>好<rt class="furi">よしみ</rt><rt class="roma">yoshimi</rt></ruby>
 </div>
+<div class="cn-lyric">尽管去大胆的 做你所爱的 事情就好</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>一定<rt class="furi">いってい</rt><rt class="roma">ittei</rt></ruby><ruby>都<rt class="furi">と</rt><rt class="roma">to</rt></ruby>拥<ruby>有<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby> 那<ruby>唯一<rt class="furi">ゆいいつ</rt><rt class="roma">yuiitsu</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby>
 </div>
+<div class="cn-lyric">一定都拥有 那唯一的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 曾经拼<ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby>渴<ruby>望<rt class="furi">もち</rt><rt class="roma">mochi</rt></ruby> 描绘过<ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby> <ruby>某<rt class="furi">ぼう</rt><rt class="roma">bou</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby>个它
 </div>
+
 <div class="cn-lyric">曾经拼命渴望 描绘过的 某一个它</div>
 </div>
 
@@ -348,6 +354,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 <div class="jp-lyric">
 <ruby>在<rt class="furi">ざい</rt><rt class="roma">zai</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby> 终<ruby>有<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby><ruby>一天<rt class="furi">いってん</rt><rt class="roma">itten</rt></ruby> <ruby>必定<rt class="furi">ひつじょう</rt><rt class="roma">hitsujou</rt></ruby><ruby>会<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby> <ruby>完全<rt class="furi">かんぜん</rt><rt class="roma">kanzen</rt></ruby>颠<ruby>覆<rt class="furi">くつがえ</rt><rt class="roma">kutsugae</rt></ruby><ruby>整<rt class="furi">せい</rt><rt class="roma">sei</rt></ruby>个<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
 </div>
+
 <div class="cn-lyric">在未来 终有一天 必定会 完全颠覆整个世界</div>
 </div>
 
@@ -355,6 +362,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 <div class="jp-lyric">
 <ruby>只<rt class="furi">ただ</rt><rt class="roma">tada</rt></ruby><ruby>有<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby>你<ruby>自己<rt class="furi">じこ</rt><rt class="roma">jiko</rt></ruby> <ruby>才知<rt class="furi">さいち</rt><rt class="roma">saichi</rt></ruby><ruby>道<rt class="furi">どう</rt><rt class="roma">dou</rt></ruby>啊
 </div>
+<div class="cn-lyric">只有你自己 才知道啊</div>
 </div>
 
 </div>

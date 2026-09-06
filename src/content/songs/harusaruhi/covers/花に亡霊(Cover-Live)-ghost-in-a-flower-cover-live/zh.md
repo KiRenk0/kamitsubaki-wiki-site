@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 
 ## 作品简介
 
-《花に亡霊 (Cover Live)》收录于《CREAM PUFF LIVE 4 (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《花に亡霊 (Cover Live)》收录于《[CREAM PUFF LIVE 4](/zh/albums/harusaruhi/cream-puff-live-4) (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -213,12 +213,14 @@ Hít thở nông, lau mồ hôi, mùa hè dần hiện rõ
 <div class="jp-lyric">
 <ruby>もう<rt class="roma">mou</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+<div class="cn-lyric">已经忘记了吗？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Có phải đã quên mất rồi không?
 </div>
+<div class="cn-lyric">已经忘记了吗？</div>
 </div>
 
 <div class="lyric-line">
@@ -413,24 +415,28 @@ Hít thở thật nông
 <div class="jp-lyric">
 <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">为了不忘却</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Để không quên đi
 </div>
+<div class="cn-lyric">为了不忘却</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>色褪<rt class="furi">いろあ</rt><rt class="roma">iroa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">为了不褪色</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Để không phai màu
 </div>
+<div class="cn-lyric">为了不褪色</div>
 </div>
 
 <div class="lyric-line">
@@ -516,6 +522,7 @@ Bóng ma trong những đóa hoa nở rộ giữa mùa hè
 <div class="jp-lyric">
 Không phải lời nói, mà là thời gian
 </div>
+
 <div class="cn-lyric">不是言语 而是时间</div>
 </div>
 
@@ -523,6 +530,7 @@ Không phải lời nói, mà là thời gian
 <div class="jp-lyric">
 <ruby>時間<rt class="furi">じかん</rt><rt class="roma">jikan</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">不是时间 而是心灵</div>
 </div>
 
@@ -530,6 +538,7 @@ Không phải lời nói, mà là thời gian
 <div class="jp-lyric">
 Không phải thời gian, mà là trái tim
 </div>
+
 <div class="cn-lyric">不是时间 而是心灵</div>
 </div>
 
@@ -537,12 +546,14 @@ Không phải thời gian, mà là trái tim
 <div class="jp-lyric">
 <ruby>浅<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>呼吸<rt class="furi">こきゅう</rt><rt class="roma">kokyuu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>、<ruby>汗<rt class="furi">あせ</rt><rt class="roma">ase</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>拭<rt class="furi">ぬぐ</rt><rt class="roma">nugu</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>めく<rt class="roma">meku</rt></ruby>
 </div>
+<div class="cn-lyric">浅浅地呼吸 拭去汗水 渐渐入夏</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Hít thở nông, lau mồ hôi, mùa hè dần hiện rõ
 </div>
+<div class="cn-lyric">浅浅地呼吸 擦去汗水 夏天逐渐显现</div>
 </div>
 
 <br />
@@ -551,6 +562,7 @@ Hít thở nông, lau mồ hôi, mùa hè dần hiện rõ
 <div class="jp-lyric">
 <ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>匂<rt class="furi">にお</rt><rt class="roma">nio</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>
 </div>
+
 <div class="cn-lyric">传来的夏天的气息</div>
 </div>
 
@@ -558,6 +570,7 @@ Hít thở nông, lau mồ hôi, mùa hè dần hiện rõ
 <div class="jp-lyric">
 Mùi hương của mùa hè lan tỏa
 </div>
+
 <div class="cn-lyric">夏天的气味弥漫</div>
 </div>
 
@@ -567,24 +580,28 @@ Mùi hương của mùa hè lan tỏa
 <div class="jp-lyric">
 <ruby>もう<rt class="roma">mou</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+<div class="cn-lyric">已经忘记了吗？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Có phải đã quên mất rồi không?
 </div>
+<div class="cn-lyric">已经忘记了吗？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>木陰<rt class="furi">こかげ</rt><rt class="roma">kokage</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>座<rt class="furi">すわ</rt><rt class="roma">suwa</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby>、<ruby>氷菓<rt class="furi">ひょうか</rt><rt class="roma">hyouka</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>口<rt class="furi">くち</rt><rt class="roma">kuchi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>放り込<rt class="furi">ほうりこ</rt><rt class="roma">houriko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">坐在夏日的树荫下 将冰果放入口中 等待着风</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Ngồi dưới bóng cây mùa hè, bỏ viên đá lạnh vào miệng, lặng lẽ chờ gió đến
 </div>
+
 <div class="cn-lyric">坐在夏日的树荫下 将冰块放入口中 静静等待风来</div>
 </div>
 

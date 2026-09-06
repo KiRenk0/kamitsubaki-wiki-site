@@ -151,6 +151,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [01:08.52]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>大丈夫<rt class="furi">だいじょうぶ</rt><rt class="roma">daijoubu</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[01:08.52]已经没关系了</div>
 </div>
 
 <div class="lyric-line">
@@ -180,6 +181,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [01:21.90]<ruby>なに<rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">[01:21.90]请什么都不要说</div>
 </div>
 
 <div class="lyric-line">
@@ -253,24 +255,28 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [02:15.62]<ruby>なに<rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">[02:15.62]请什么都不要说</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:20.64]<ruby>ちゃんと<rt class="roma">chanto</rt></ruby><ruby>わかって<rt class="roma">wakatte</rt></ruby><ruby>あげる<rt class="roma">ageru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:20.64]我会好好理解你的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:25.64]<ruby>今夜<rt class="furi">こんや</rt><rt class="roma">kon'ya</rt></ruby><ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>くる<rt class="roma">kuru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+<div class="cn-lyric">[02:25.64]如果今晚你会回来</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:30.53]<ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>許<rt class="furi">ゆる</rt><rt class="roma">yuru</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>あげる<rt class="roma">ageru</rt></ruby>
 </div>
+<div class="cn-lyric">[02:30.53]我会笑着原谅你</div>
 </div>
 
 <br />
@@ -279,6 +285,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [02:35.59]<ruby>なに<rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:35.59]请什么都不知道</div>
 </div>
 
@@ -286,6 +293,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [02:40.20]<ruby>もっと<rt class="roma">motto</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>おくれよ<rt class="roma">okureyo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:40.20]请更多地爱我吧</div>
 </div>
 
@@ -293,6 +301,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [02:45.29]<ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>黙<rt class="furi">だま</rt><rt class="roma">dama</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:45.29]因为你总是沉默</div>
 </div>
 
@@ -300,6 +309,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [02:49.96]<ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>許<rt class="furi">ゆる</rt><rt class="roma">yuru</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>おくれよ<rt class="roma">okureyo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:49.96]请笑着原谅我</div>
 </div>
 

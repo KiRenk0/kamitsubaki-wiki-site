@@ -460,6 +460,7 @@ image: /images/albums/vwp/witch-plus-2.jpg
 <div class="jp-lyric">
 「<ruby>大好<rt class="furi">だいす</rt><rt class="roma">daisu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>！」
 </div>
+<div class="cn-lyric">「最喜欢了！」</div>
 </div>
 
 <div class="lyric-line">
@@ -494,6 +495,7 @@ image: /images/albums/vwp/witch-plus-2.jpg
 <div class="jp-lyric">
 <ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>！
 </div>
+<div class="cn-lyric">不明白啊！</div>
 </div>
 
 <div class="lyric-line">
@@ -633,6 +635,7 @@ image: /images/albums/vwp/witch-plus-2.jpg
 <div class="jp-lyric">
 Let me see
 </div>
+<div class="cn-lyric">Let me see</div>
 </div>
 
 <div class="lyric-line">
@@ -716,6 +719,7 @@ Let me see
 <div class="jp-lyric">
 [06:01.23]<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>ぼく<rt class="roma">boku</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>治<rt class="furi">なお</rt><rt class="roma">nao</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[06:01.23]如果我能治好你的心</div>
 </div>
 
@@ -723,6 +727,7 @@ Let me see
 <div class="jp-lyric">
 [06:03.56]「<ruby>大丈夫<rt class="furi">だいじょうぶ</rt><rt class="roma">daijoubu</rt></ruby>」<ruby>だ<rt class="roma">da</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[06:03.56]说着「没关系」把你</div>
 </div>
 
@@ -730,6 +735,7 @@ Let me see
 <div class="jp-lyric">
 [06:06.21]<ruby>守<rt class="furi">まも</rt><rt class="roma">mamo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>あげ<rt class="roma">age</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[06:06.21]明明可以保护你</div>
 </div>
 

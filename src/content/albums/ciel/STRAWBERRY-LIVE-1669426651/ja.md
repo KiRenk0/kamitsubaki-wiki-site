@@ -138,36 +138,36 @@ tracks:
 
 ## 概要
 
-CIELが2023-02-15にリリースしたライブアルバム『STRAWBERRY LIVE』。全29曲を収録。
+[CIEL](/ja/artists/solo/ciel)が2023-02-15にリリースしたライブアルバム『STRAWBERRY LIVE』。全29曲を収録。
 
 ## 収録曲
 
 1. リビングデッド・ユース(Live)（04:10）
 2. イミテーション(Live)（02:51）
-3. MC1(Live)（01:11）
+3. [MC1](/ja/songs/harusaruhi/covers/mc1)(Live)（01:11）
 4. DARKHERO(Live)（02:28）
-5. CH4NGE(Live)（02:14）
+5. [CH4NGE(Live)](/ja/songs/isekaijoucho/covers/ch4nge-live)（02:14）
 6. 傷心中(Live)（02:53）
-7. MC2(Live)（01:08）
+7. [MC2](/ja/songs/harusaruhi/covers/mc2)(Live)（01:08）
 8. きっと想(Live)（02:23）
 9. ヴィラン(Live)（03:25）
 10. シルバーワープ(Live)（03:31）
 11. 染まるよ(Live)（03:38）
-12. MC3(Live)（01:28）
-13. MC4(Live)（00:13）
+12. [MC3](/ja/songs/harusaruhi/covers/mc3)(Live)（01:28）
+13. [MC4](/ja/songs/harusaruhi/covers/mc4)(Live)（00:13）
 14. ポップソング(Live)（03:35）
-15. レイヴン・フリージア(Live)（03:55）
+15. [レイヴン・フリージア](/ja/songs/koko/originals/レイヴンフリージア-raven-freesia)(Live)（03:55）
 16. 偏食(Live)（03:40）
-17. MC5(Live)（01:11）
+17. [MC5](/ja/songs/harusaruhi/covers/mc5)(Live)（01:11）
 18. 曖昧さ回避(Live)（03:26）
 19. フロイデ(Live)（03:24）
 20. 夜明けと蛍(Live)（05:14）
-21. MC6(Live)（02:28）
+21. [MC6](/ja/songs/harusaruhi/covers/mc6)(Live)（02:28）
 22. 東京は夜(Live) [feat. Harusaruhi]（03:10）
-23. MC7(Live)（00:43）
-24. 窓を開けて -Acoustic ver.-(Live)（05:01）
+23. [MC7](/ja/songs/harusaruhi/covers/mc7)(Live)（00:43）
+24. [窓を開けて](/ja/songs/ciel/originals/窓wo開kete) -Acoustic ver.-(Live)（05:01）
 25. セカイ(Live)（04:21）
-26. MC8(Live)（02:20）
+26. [MC8](/ja/songs/harusaruhi/covers/mc8)(Live)（02:20）
 27. ガーネット(Live)（05:20）
-28. MC9(Live)（00:25）
+28. [MC9](/ja/songs/harusaruhi/covers/mc9)(Live)（00:25）
 29. Ending(Live)（05:07）

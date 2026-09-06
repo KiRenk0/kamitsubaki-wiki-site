@@ -76,7 +76,7 @@ seo:
 
 V.W.P（Virtual Witch Phenomenon）是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 旗下的核心虚拟艺术家团体，由[花譜](/zh/artists/vwp/kaf)（KAF）、[理芽](/zh/artists/vwp/rim)（Rim）、[春猿火](/zh/artists/vwp/harusaruhi)（HARUSARUHI）、[ヰ世界情緒](/zh/artists/vwp/isekaijoucho)（ISEKAIJOUCHO）、[幸祜](/zh/artists/vwp/koko)（KOKO）五位「数字魔女」组成。
 
-作为神椿体系中最具代表性的团体活动，V.W.P 不仅是一个音乐组合，更是一个围绕「魔女」意象展开的跨媒体叙事框架。五位成员各自拥有独立的个人活动，但在 V.W.P 名义下，她们共同构建了一个关于命运、观测与魔女觉醒的宏大故事。
+作为神椿体系中最具代表性的团体活动，V.W.P 不仅是一个音乐组合，更是一个围绕「[魔女](/zh/songs/kaf/originals/majo)」意象展开的跨媒体叙事框架。五位成员各自拥有独立的个人活动，但在 V.W.P 名义下，她们共同构建了一个关于命运、观测与魔女觉醒的宏大故事。
 
 ## 角色与创作定位
 

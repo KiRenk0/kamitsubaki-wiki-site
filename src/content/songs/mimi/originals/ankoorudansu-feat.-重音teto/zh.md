@@ -17,7 +17,7 @@ image: /images/songs/mimi/ankoorudansu-feat.-重音teto.jpg
 
 ## 作品简介
 
-MIMI于 2025-03-13 发行的单曲《アンコールダンス (feat. 重音テト)》。
+[MIMI](/zh/artists/creators/mimi)于 2025-03-13 发行的单曲《アンコールダンス (feat. 重音テト)》。
 
 ## 试听
 {{media-switcher::アンコールダンス (feat. 重音テト)}}

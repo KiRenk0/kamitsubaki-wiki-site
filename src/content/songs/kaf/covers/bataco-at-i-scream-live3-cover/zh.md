@@ -123,6 +123,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [01:15.80]<ruby>カタルシス<rt class="roma">katarushisu</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby> <ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>移入<rt class="furi">いにゅう</rt><rt class="roma">inyuu</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃい<rt class="roma">chai</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby>
 </div>
+<div class="cn-lyric">[01:15.80]感受到了宣泄，不由自主代入感情</div>
 </div>
 
 <br />
@@ -154,6 +155,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [01:56.67]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[01:56.67]谁都会有梦想啊</div>
 </div>
 
 <div class="lyric-line">
@@ -236,30 +238,35 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [02:52.67]<ruby>バタバタ<rt class="roma">batabata</rt></ruby><ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>バタ<rt class="roma">bata</rt></ruby><ruby>足<rt class="furi">あし</rt><rt class="roma">ashi</rt></ruby><ruby>まじり<rt class="roma">majiri</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[02:52.67]手忙脚乱的我，夹杂着打水</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:55.92]<ruby>ジタバタ<rt class="roma">jitabata</rt></ruby><ruby>泳<rt class="furi">およ</rt><rt class="roma">oyo</rt></ruby><ruby>ぐ<rt class="roma">gu</rt></ruby><ruby>バタフライ<rt class="roma">batafurai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:55.92]挣扎游动的蝶泳</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:58.76]<ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>気取<rt class="furi">きど</rt><rt class="roma">kido</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>溺<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:58.76]总是装腔作势的话会溺水的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:02.70]<ruby>高笑<rt class="furi">たかわら</rt><rt class="roma">takawara</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>むなしい<rt class="roma">munashii</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">[03:02.70]即使放声大笑也只感到空虚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:06.47]<ruby>ダバダバ<rt class="roma">dabadaba</rt></ruby> <ruby>ダバダ<rt class="roma">dabada</rt></ruby> <ruby>ダバダバダバダバ<rt class="roma">dabadabadabadaba</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:06.47]哒吧哒吧 哒吧哒 哒吧哒吧哒吧哒吧</div>
 </div>
 
@@ -267,6 +274,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:09.83]<ruby>ダバダバ<rt class="roma">dabadaba</rt></ruby> <ruby>ダバダ<rt class="roma">dabada</rt></ruby> <ruby>ダバダバダ<rt class="roma">dabadabada</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:09.83]哒吧哒吧 哒吧哒 哒吧哒吧哒</div>
 </div>
 
@@ -274,6 +282,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:12.76]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>アワ<rt class="roma">awa</rt></ruby><ruby>アワ<rt class="roma">awa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:12.76]对啊，起泡沫也没关系吧</div>
 </div>
 
@@ -281,6 +290,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:16.16]<ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>泡<rt class="furi">あわ</rt><rt class="roma">awa</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>定<rt class="furi">さだ</rt><rt class="roma">sada</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>後悔<rt class="furi">こうかい</rt><rt class="roma">koukai</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:16.16]我注定化作泡沫，虽不后悔</div>
 </div>
 
@@ -290,12 +300,14 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:20.11]<ruby>カタルシス<rt class="roma">katarushisu</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby> <ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>移入<rt class="furi">いにゅう</rt><rt class="roma">inyuu</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃい<rt class="roma">chai</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby>
 </div>
+<div class="cn-lyric">[03:20.11]感受到了宣泄，不由自主代入感情</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:26.79]<ruby>カタルシス<rt class="roma">katarushisu</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby> <ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>移入<rt class="furi">いにゅう</rt><rt class="roma">inyuu</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃい<rt class="roma">chai</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby>
 </div>
+<div class="cn-lyric">[03:26.79]感受到了宣泄，不由自主代入感情</div>
 </div>
 
 </div>

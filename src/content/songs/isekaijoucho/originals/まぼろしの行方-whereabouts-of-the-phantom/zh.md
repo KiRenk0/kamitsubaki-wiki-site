@@ -371,42 +371,49 @@ image: /images/songs/isekaijoucho/single-1860778140.jpg
 <div class="jp-lyric">
 <ruby>歪<rt class="furi">ゆが</rt><rt class="roma">yuga</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>だし<rt class="roma">dashi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>残像<rt class="furi">ざんぞう</rt><rt class="roma">zanzou</rt></ruby><ruby>祓<rt class="furi">はら</rt><rt class="roma">hara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">驱散扭曲的残像</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>狂<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>だし<rt class="roma">dashi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>運命<rt class="furi">うんめい</rt><rt class="roma">unmei</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>返<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">归还疯狂的命运</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>嘘<rt class="furi">うそ</rt><rt class="roma">uso</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>真実<rt class="furi">しんじつ</rt><rt class="roma">shinjitsu</rt></ruby>(<ruby>ほんとう<rt class="roma">hontou</rt></ruby>)<ruby>も<rt class="roma">mo</rt></ruby><ruby>関係<rt class="furi">かんけい</rt><rt class="roma">kankei</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">谎言与真实都无关紧要</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>耳鳴<rt class="furi">みみな</rt><rt class="roma">mimina</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>眩暈<rt class="furi">めまい</rt><rt class="roma">memai</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>恐怖<rt class="furi">きょうふ</rt><rt class="roma">kyoufu</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="cn-lyric">耳鸣 眩晕 恐惧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>せい<rt class="roma">sei</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">全都是某个人的过错</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>迷子<rt class="furi">まいご</rt><rt class="roma">maigo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>欲<rt class="furi">ほ</rt><rt class="roma">ho</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby>
 </div>
+<div class="cn-lyric">即使迷路了 也希望你找到我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:31.62]<ruby>ねえ<rt class="roma">nee</rt></ruby> <ruby>ま<rt class="roma">ma</rt></ruby><ruby>ぼろし<rt class="roma">boroshi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>向<rt class="furi">む</rt><rt class="roma">mu</rt></ruby><ruby>かう<rt class="roma">kau</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
 </div>
+
 <div class="cn-lyric">[03:31.62]喂 幻影要去向何方？</div>
 </div>
 
@@ -414,6 +421,7 @@ image: /images/songs/isekaijoucho/single-1860778140.jpg
 <div class="jp-lyric">
 [03:39.65]<ruby>教<rt class="furi">おし</rt><rt class="roma">oshi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:39.65]告诉我</div>
 </div>
 
@@ -421,6 +429,7 @@ image: /images/songs/isekaijoucho/single-1860778140.jpg
 <div class="jp-lyric">
 [03:45.51]<ruby>足跡<rt class="furi">あしあと</rt><rt class="roma">ashiato</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:45.51]在足迹消失之前</div>
 </div>
 

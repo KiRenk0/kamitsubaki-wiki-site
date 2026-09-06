@@ -17,7 +17,7 @@ image: /images/songs/ciel/空yori.jpg
 
 ## 作品简介
 
-CIEL于 2024-07-23 发行的单曲《空より》。
+[CIEL](/zh/artists/solo/ciel)于 2024-07-23 发行的单曲《空より》。
 
 ## 试听
 {{media-switcher::空より}}
