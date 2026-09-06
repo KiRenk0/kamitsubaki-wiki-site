@@ -45,5 +45,5 @@ summary: |
   Kamitsubaki Unofficial Observatory v2.0.0 is officially live.
   Until the next observation.
 order: -3
-pinned: true
+pinned: false
 ---

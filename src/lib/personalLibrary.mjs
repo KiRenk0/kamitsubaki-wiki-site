@@ -85,6 +85,7 @@ export function readLibrary(storage) {
 export function writeLibrary(storage, value) {
   const next = validateLibrary(value);
   storage.setItem(LIBRARY_KEY, JSON.stringify(next));
+  if (typeof window !== 'undefined') window.dispatchEvent(new Event('kamitsubaki-library-change'));
   return next;
 }
 

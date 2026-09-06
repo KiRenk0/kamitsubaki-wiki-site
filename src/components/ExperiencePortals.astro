@@ -1,9 +1,11 @@
 ---
+import ResponsiveImage from './ResponsiveImage.astro';
 import { resolveLocaleCopy } from '../lib/i18n.mjs';
 
-const { locale = 'zh', embedded = false, gameHref, gameHint, gameLabel } = Astro.props as {
+const { locale = 'zh', embedded = false, compact = false, gameHref, gameHint, gameLabel } = Astro.props as {
   locale?: string;
   embedded?: boolean;
+  compact?: boolean;
   gameHref?: string;
   gameHint?: string;
   gameLabel?: string;
@@ -20,13 +22,13 @@ const cards = [
 ];
 ---
 
-<section id={embedded ? undefined : 'experiences'} class:list={['experience-portals', { 'experience-portals--embedded': embedded }]} aria-label={copy.heading}>
+<section id={embedded ? undefined : 'experiences'} class:list={['experience-portals', { 'experience-portals--embedded': embedded, 'experience-portals--compact': compact }]} aria-label={copy.heading}>
   <h2>{copy.heading}</h2>
   <div class="experience-portals__grid">
     {cards.map((card) => (
-      <a class="experience-portal" href={card.href} title={card.key === 'game' ? gameLabel : undefined} data-memory-corridor-link={card.key === 'game' || undefined}>
+      <a class="experience-portal" href={card.href} title={compact ? card.description : card.key === 'game' ? gameLabel : undefined} data-memory-corridor-link={card.key === 'game' || undefined}>
         <span class="experience-portal__image" aria-hidden="true">
-          {card.image ? <img src={card.image} alt="" loading="lazy" width="44" height="44" /> :
+          {card.image ? <ResponsiveImage widths={[96, 192]} sizes="44px" src={card.image} alt="" loading="lazy" width="44" height="44" /> :
             <svg viewBox="0 0 32 32"><path d="m10 10 12 1M10 12l3 10m8-9-6 9" /><circle cx="8" cy="9" r="3" /><circle cx="24" cy="11" r="3" /><circle cx="14" cy="25" r="3" /></svg>}
         </span>
         <span class="experience-portal__copy">
@@ -63,4 +65,14 @@ const cards = [
     .experience-portal__copy strong { font-size: .875rem; }
   }
   @media (prefers-reduced-motion: reduce) { .experience-portal { transition: none; } }
+  .experience-portals.experience-portals--compact { margin:24px 0 0; padding:0; max-width:none; }
+  .experience-portals--compact h2 { margin-bottom:10px; font-size:11px; color:rgb(var(--theme-fg-rgb)/.45); }
+  .experience-portals--compact .experience-portals__grid { display:grid; grid-template-columns:1fr; gap:10px; }
+  .experience-portals--compact .experience-portal { min-height:76px; gap:12px; padding:13px 14px; background:rgb(var(--theme-fg-rgb)/.018); border-color:rgb(var(--theme-fg-rgb)/.1); }
+  .experience-portals--compact .experience-portal:hover { background:var(--ui-hover); border-color:rgb(var(--theme-fg-rgb)/.24); }
+  .experience-portals--compact .experience-portal:focus-visible { outline:2px solid var(--theme-accent-color); outline-offset:3px; }
+  .experience-portals--compact .experience-portal__image { flex-basis:36px; width:36px; height:36px; border-radius:4px; }
+  .experience-portals--compact .experience-portal__image svg { width:19px; height:19px; }
+  .experience-portals--compact .experience-portal__copy strong { font-size:14px; white-space:normal; }
+  .experience-portals--compact .experience-portal__arrow { font-size:11px; }
 </style>

@@ -38,6 +38,7 @@ type Props = {
 const { data, localeLinks, labels, sourceHref, homeHref } = Astro.props as Props;
 const sectionLabel = labels.section ?? labels.artists ?? labels.songs ?? labels.albums;
 const currentLocale = localeLinks.find((item) => item.current);
+const editorHref = sourceHref.replace('/contribute/edit?', '/contribute/editor/?');
 ---
 
 <header class="wiki-article-header">
@@ -64,7 +65,7 @@ const currentLocale = localeLinks.find((item) => item.current);
     </div>
     <div class="wiki-article-actions">
       <Bookmark locale={homeHref.split('/')[1]} title={data.name} />
-      <a href={sourceHref} class="wiki-source-link">{labels.source}</a>
+      <a href={editorHref} class="wiki-source-link">{labels.source}</a>
     </div>
   </div>
   {data.profileTagline && <p class="wiki-article-description">{data.profileTagline}</p>}

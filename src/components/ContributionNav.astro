@@ -1,0 +1,16 @@
+---
+import { editorCopy } from '../lib/visualEditorCopy.mjs';
+const {locale='zh',current='edit'}=Astro.props;
+const copy=editorCopy(locale);
+const items=[['edit',copy.guide],['editor',copy.title],['syntax',copy.syntax],['format',copy.format]];
+---
+<nav class="contribution-nav" aria-label={copy.guide}>
+  {items.map(([path,label])=><a href={`/${locale}/contribute/${path}/`} aria-current={current===path?'page':undefined}>{label}</a>)}
+</nav>
+<style>
+ .contribution-nav { display:flex; flex-wrap:wrap; gap:8px 24px; padding:0 0 16px; margin-bottom:12px; border-bottom:1px solid var(--ui-line); }
+ .contribution-nav a { display:inline-flex; align-items:center; min-height:36px; font-size:12px; line-height:1.5; color:rgb(var(--theme-fg-rgb)/.56); text-decoration:none; }
+ .contribution-nav a[aria-current],.contribution-nav a:hover { color:var(--theme-accent-color); }
+ .contribution-nav a:focus-visible { outline:2px solid var(--theme-accent-color); outline-offset:3px; }
+ @media(max-width:520px){.contribution-nav { gap:4px 16px; }.contribution-nav a{font-size:11px}}
+</style>

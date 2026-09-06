@@ -112,7 +112,7 @@ function initializeTabs(shell) {
       animation = panels.get(section).animate([
         { opacity: .25, transform: `translateX(${offset}px)` },
         { opacity: 1, transform: 'translateX(0)' },
-      ], { duration: 200, easing: 'cubic-bezier(.16, 1, .3, 1)' });
+      ], { duration: 260, easing: 'cubic-bezier(.16, 1, .3, 1)' });
     }
     return true;
   }

@@ -1,3 +1,4 @@
+import { personalToolsCopy } from './personalToolsCopy.mjs';
 import { resolveLocaleCopy } from './i18n.mjs';
 const zh = {
   title: 'LABs · 观测实验室',
@@ -374,7 +375,7 @@ export function labsCopy(locale) {
     },
     locale,
   );
-  return copy;
+  return { ...copy, ...personalToolsCopy(locale) };
 }
 export const labsSections = [
   'explore',

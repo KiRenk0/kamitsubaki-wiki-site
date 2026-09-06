@@ -1,10 +1,10 @@
+import { initializeLibrary } from './personalLibrary.js';
 import { foldCjkSearchText } from '../lib/cjkSearch.mjs';
 import { selectTimeline, neighbors } from '../lib/labsCatalog.mjs';
 import {
   readLibrary,
   writeLibrary,
   toggleItem,
-  mergeLibraries,
 } from '../lib/personalLibrary.mjs';
 import { micromark } from 'micromark';
 
@@ -64,6 +64,7 @@ export function initializeLabsPanel(root, { copy: c, loadCatalog, getURL, setURL
         status(c.storageError);
       }
     });
+    b.dataset.libraryPath = item.path;
     function update() {
       try {
         const saved = readLibrary(localStorage).items.some(
@@ -78,6 +79,16 @@ export function initializeLabsPanel(root, { copy: c, loadCatalog, getURL, setURL
     update();
     return b;
   }
+  window.addEventListener('kamitsubaki-library-change', () => {
+    try {
+      const items = readLibrary(localStorage).items;
+      root.querySelectorAll('[data-library-path]').forEach(b => {
+        const saved = items.some(i => i.path === b.dataset.libraryPath);
+        b.textContent = saved ? c.saved : c.save;
+        b.setAttribute('aria-pressed', String(saved));
+      });
+    } catch { /* Actions report storage errors without discarding visible content. */ }
+  });
   function row(item, dated = false) {
     const e = element('div', undefined, 'labs-row');
     if (dated) {
@@ -392,207 +403,7 @@ export function initializeLabsPanel(root, { copy: c, loadCatalog, getURL, setURL
       }
     });
   }
-  if (section === 'library') {
-    let library;
-    const commit = (next) => {
-      try {
-        library = writeLibrary(localStorage, next);
-        render();
-        return true;
-      } catch {
-        status(c.storageError);
-        return false;
-      }
-    };
-    function render() {
-      const id = $('[data-list]').value;
-      const listSelect = $('[data-list]');
-      listSelect.replaceChildren();
-      const first = element('option', c.allSaved);
-      first.value = '';
-      listSelect.append(first);
-      for (const list of library.lists) {
-        const o = element('option', list.name);
-        o.value = list.id;
-        listSelect.append(o);
-      }
-      listSelect.value = library.lists.some((l) => l.id === id) ? id : '';
-      const list = library.lists.find((l) => l.id === listSelect.value);
-      const q = foldCjkSearchText($('[data-library-search]').value);
-      const items = (
-        list
-          ? list.paths
-              .map((p) => library.items.find((i) => i.path === p))
-              .filter(Boolean)
-          : [...library.items].sort((a, b) => b.savedAt - a.savedAt)
-      ).filter((i) => foldCjkSearchText(i.title).includes(q));
-      const result = $('[data-results]');
-      result.replaceChildren();
-      if (!items.length)
-        result.append(
-          element(
-            'p',
-            library.items.length ? c.empty : c.noSaved,
-            'labs-empty',
-          ),
-        );
-      items.forEach((item) => {
-        const r = element('div', undefined, 'labs-row');
-        const body = element('div', undefined, 'labs-row-body');
-        const h = element('h3');
-        h.append(link(item.title, item.path));
-        body.append(h, element('small', c.entryKinds[item.kind] || item.kind));
-        r.append(body);
-        const actions = element('div', undefined, 'labs-actions');
-        const selection = element('select');
-        selection.setAttribute('aria-label', `${c.list}: ${item.title}`);
-        const none = element('option', c.list);
-        none.value = '';
-        selection.append(none);
-        library.lists.forEach((l) => {
-          const o = element('option', l.name);
-          o.value = l.id;
-          o.disabled = l.paths.includes(item.path);
-          selection.append(o);
-        });
-        if (library.lists.length) {
-          actions.append(
-            selection,
-            button(c.addTo, () => {
-              if (!selection.value) return;
-              commit({
-                ...library,
-                lists: library.lists.map((l) =>
-                  l.id === selection.value
-                    ? { ...l, paths: [...new Set([...l.paths, item.path])] }
-                    : l,
-                ),
-              });
-            }),
-          );
-        }
-        if (list) {
-          for (const [label, delta] of [
-            [c.up, -1],
-            [c.down, 1],
-          ]) {
-            const index = list.paths.indexOf(item.path);
-            const b = button(label, () => {
-              const paths = [...list.paths];
-              [paths[index], paths[index + delta]] = [
-                paths[index + delta],
-                paths[index],
-              ];
-              commit({
-                ...library,
-                lists: library.lists.map((l) =>
-                  l.id === list.id ? { ...l, paths } : l,
-                ),
-              });
-            });
-            b.disabled =
-              index + delta < 0 || index + delta >= list.paths.length;
-            b.setAttribute('aria-label', `${label}: ${item.title}`);
-            actions.append(b);
-          }
-        }
-        actions.append(
-          button(c.remove, () => {
-            const next = list
-              ? {
-                  ...library,
-                  lists: library.lists.map((l) =>
-                    l.id === list.id
-                      ? { ...l, paths: l.paths.filter((p) => p !== item.path) }
-                      : l,
-                  ),
-                }
-              : toggleItem(library, item);
-            commit(next);
-          }),
-        );
-        r.append(actions);
-        result.append(r);
-      });
-      $('[data-rename]').hidden = !list;
-      $('[data-delete-list]').hidden = !list;
-      $('[data-delete-list]').disabled = Boolean(list?.paths.length);
-      status(`${items.length} ${c.results}`);
-    }
-    function reload() {
-      try {
-        library = readLibrary(localStorage);
-        render();
-      } catch {
-        status(c.storageError);
-      }
-    }
-    $('[data-create-list]').addEventListener('submit', (e) => {
-      e.preventDefault();
-      if (!library) return;
-      const input = e.currentTarget.elements.namedItem('name');
-      const name = input.value.trim();
-      if (!name) return;
-      if (
-        commit({
-          ...library,
-          lists: [
-            ...library.lists,
-            { id: crypto.randomUUID(), name, paths: [] },
-          ],
-        })
-      )
-        input.value = '';
-    });
-    $('[data-list]').addEventListener('change', () => {
-      if (library) render();
-    });
-    $('[data-library-search]').addEventListener('input', () => {
-      if (library) render();
-    });
-    $('[data-export]').addEventListener('click', () => {
-      if (library)
-        download(
-          'kamitsubaki-library.json',
-          JSON.stringify(library, null, 2),
-          'application/json',
-        );
-    });
-    $('[data-import-open]').addEventListener('click', () =>
-      $('[data-import]').click(),
-    );
-    $('[data-import]').addEventListener('change', async (e) => {
-      const file = e.target.files?.[0];
-      try {
-        if (!library || !file || file.size > 2 * 1024 * 1024) throw new Error();
-        const next = mergeLibraries(library, JSON.parse(await file.text()));
-        if (commit(next)) status(c.imported);
-      } catch {
-        status(c.importError);
-      }
-      e.target.value = '';
-    });
-    $('[data-rename]').addEventListener('click', () => {
-      const list = library?.lists.find((l) => l.id === $('[data-list]').value);
-      if (!list) return;
-      const name = prompt(c.rename, list.name)?.trim();
-      if (name && name.length <= 80)
-        commit({
-          ...library,
-          lists: library.lists.map((l) =>
-            l.id === list.id ? { ...l, name } : l,
-          ),
-        });
-    });
-    $('[data-delete-list]').addEventListener('click', () => {
-      const id = $('[data-list]').value;
-      if (library?.lists.find((l) => l.id === id)?.paths.length === 0)
-        commit({ ...library, lists: library.lists.filter((l) => l.id !== id) });
-    });
-    window.addEventListener('storage', reload);
-    activate = reload;
-    reload();
-  }
+  if (section === 'library') activate = initializeLibrary(root, c);
   if (section === 'submit') {
     const form = $('[data-submission]');
     const key = 'kamitsubaki-submission-draft-v1';

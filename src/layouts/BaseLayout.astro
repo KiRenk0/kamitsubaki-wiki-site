@@ -14,11 +14,12 @@ import {
 } from '../lib/i18n.mjs';
 import { getLocalizedSite } from '../lib/homeData.mjs';
 import '../styles/global.css';
-import '../../public/ui-tokens.css';
 import '../styles/quietChrome.css';
 import '../styles/interface.css';
 import '../styles/mediaSwitcher.css';
 import '../styles/reader.css';
+import '../styles/readerFormats.css';
+import '../styles/polish.css';
 
 type PageMetadata = {
   title?: string;
@@ -115,6 +116,7 @@ const fontStylesheet = getLocaleFontStylesheet(lang);
         if (!shouldPlayIntro) document.documentElement.classList.add('site-page-transition-enabled');
       })();
     </script>
+    <link rel="stylesheet" href="/ui-tokens.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{pageTitle}</title>
     <link rel="icon" type="image/svg+xml" href="/brand/kamitsubakiwiki-square.svg" />
@@ -148,7 +150,7 @@ const fontStylesheet = getLocaleFontStylesheet(lang);
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href={fontStylesheet} rel="stylesheet" />
   </head>
-  <body class:list={['antialiased font-sans selection:bg-white selection:text-black', { 'wiki-reading-page': reading }]} id="body-wrap">
+  <body class:list={['antialiased font-sans selection:bg-white selection:text-black', { 'wiki-reading-page': reading, 'site-home': isLocalizedHome }]} id="body-wrap">
     {isLocalizedHome && <SiteIntro />}
     <div id="preloader" data-page-transition aria-hidden="true">
       <div class="flex flex-col items-center">
@@ -173,6 +175,7 @@ const fontStylesheet = getLocaleFontStylesheet(lang);
     <script>
       import '../scripts/themeToggle.js';
       import '../scripts/siteInteractions.js';
+      import '../scripts/readerEnhancements.js';
       import '../scripts/mediaSwitcher.js';
     </script>
   </body>

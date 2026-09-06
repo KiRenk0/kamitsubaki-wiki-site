@@ -13,9 +13,6 @@ html[data-theme='light'] body.wiki-reading-page {
   --reader-muted: #70766d;
 }
 .wiki-reading-page > :is(.noise-bg, #cursor) { display: none !important; }
-html body.wiki-reading-page .home-chrome { align-items: center; padding-block: 12px; background: var(--reader-paper); border-bottom: 1px solid var(--reader-line); }
-html body.wiki-reading-page .home-chrome__brand p { font-size: 9px; line-height: 1.4; letter-spacing: .18em; }
-html body.wiki-reading-page .home-chrome__panel { top: calc(100% - 4px); max-height: calc(100dvh - 92px); }
 .wiki-reading-page :is(a, button, summary, [role='button'], input[type='submit'], input[type='button']) { cursor: pointer !important; }
 .wiki-reading-page :is(input, textarea, [contenteditable='true']) { cursor: text; }
 
@@ -182,9 +179,6 @@ html body .reader-end [data-content-license] { border: 0; border-top: 1px solid 
   html body .reader-layout .wiki-mobile-toc { display: none; }
 }
 @media (max-width: 767px) {
-  html body.wiki-reading-page .home-chrome { padding-block: 8px; }
-  html body.wiki-reading-page .home-chrome__brand p { font-size: 8px; letter-spacing: .12em; }
-  html body.wiki-reading-page .home-chrome__panel { max-height: calc(100dvh - 84px); }
   html body .reader-heading-frame { padding-top: 5.5rem; }
   html body .reader-layout { padding-block: 1.25rem; }
   html body .wiki-reader.wiki-prose { font-size: 1rem; line-height: 1.95; letter-spacing: 0; }

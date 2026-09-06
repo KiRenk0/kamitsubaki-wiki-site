@@ -1,5 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
+import LibraryPanel from '../../../components/labs/LibraryPanel.astro';
+import EditorEntry from '../../../components/editor/EditorEntry.astro';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import SiteNav from '../../../components/SiteNav.astro';
 import SiteFooter from '../../../components/SiteFooter.astro';
@@ -54,12 +56,10 @@ const projects = getLocalizedEntries(await getCollection('projects'), locale);
       <h2 style="margin-top:40px">{copy.projects}</h2>{projects.map(p => <div class="labs-row"><div class="labs-row-body"><h3><a href={`/${locale}/projects/${p.id.split('/').slice(0,-1).join('/')}/`}>{p.data.title}</a></h3><p>{p.data.description || copy.projects}</p></div></div>)}
     </section>
     <section class="labs-panel" id="labs-panel-library" data-labs-panel="library" aria-labelledby="labs-tab-library" hidden={section !== 'library'}>
-      <p class="labs-note">{copy.storageNote}</p><div class="labs-toolbar"><label><span>{copy.search}</span><input type="search" data-library-search /></label><label><span>{copy.list}</span><select data-list><option value="">{copy.allSaved}</option></select></label></div>
-      <form data-create-list class="labs-toolbar"><label><span>{copy.listName}</span><input name="name" required maxlength="80" /></label><button type="submit">{copy.create}</button></form>
-      <div class="labs-actions"><button data-export>{copy.export}</button><button data-import-open>{copy.import}</button><input type="file" data-import accept="application/json,.json" hidden /><button data-rename hidden>{copy.rename}</button><button data-delete-list hidden>{copy.deleteList}</button></div>
-      <div class="labs-status" role="status" data-status></div><div class="labs-results" data-results></div>
+      <LibraryPanel copy={copy} locale={locale} />
     </section>
     <section class="labs-panel" id="labs-panel-submit" data-labs-panel="submit" aria-labelledby="labs-tab-submit" hidden={section !== 'submit'}>
+      <EditorEntry locale={locale} />
       <p class="labs-note">{copy.submissionNote}</p>
       <form class="labs-form" data-submission>
         <label><span>{copy.submissionTitle}</span><input name="title" required maxlength="160" /></label>

@@ -35,6 +35,11 @@ function renderItem(template, item) {
   if (subtitle instanceof HTMLElement) subtitle.textContent = item.subtitle;
 
   if (image instanceof HTMLImageElement && item.image) {
+    if (item.imageSizes) image.sizes = item.imageSizes;
+    if (item.imageSrcset) image.srcset = item.imageSrcset;
+    image.decoding = 'async';
+    image.width = 48;
+    image.height = 48;
     image.src = item.image;
     image.hidden = false;
     if (placeholder instanceof HTMLElement) placeholder.hidden = true;

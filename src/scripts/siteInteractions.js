@@ -224,8 +224,8 @@ document.addEventListener('DOMContentLoaded', () => {
     pageTransition
     && document.documentElement.classList.contains('site-page-transition-enabled')
   ) {
-    const transitionDelay = prefersReducedMotion ? 40 : 900;
-    const transitionFadeDuration = prefersReducedMotion ? 20 : 650;
+    const transitionDelay = 0;
+    const transitionFadeDuration = prefersReducedMotion ? 0 : 180;
 
     window.setTimeout(() => {
       pageTransition.classList.add('hidden-preloader');
@@ -369,24 +369,6 @@ document.addEventListener('DOMContentLoaded', () => {
     updateReadingProgress();
     window.addEventListener('scroll', updateReadingProgress, { passive: true });
     window.addEventListener('resize', updateReadingProgress);
-  }
-
-  // Preload artist hover images in the background on idle to prevent latency/flash
-  const preloadArtistImages = () => {
-    const rowsToPreload = document.querySelectorAll('.artist-row');
-    rowsToPreload.forEach((row) => {
-      const imgUrl = row.getAttribute('data-img');
-      if (imgUrl) {
-        const img = new Image();
-        img.src = imgUrl;
-      }
-    });
-  };
-
-  if ('requestIdleCallback' in window) {
-    window.requestIdleCallback(() => preloadArtistImages());
-  } else {
-    window.setTimeout(preloadArtistImages, 1500);
   }
 
   // Sync Lyrics Player State

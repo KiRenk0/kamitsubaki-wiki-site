@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import SiteNav from '../../../components/SiteNav.astro';
 import SiteFooter from '../../../components/SiteFooter.astro';
+import ContributionNav from '../../../components/ContributionNav.astro';
 import TableOfContents from '../../../components/TableOfContents.astro';
 import { getLocalizedSite } from '../../../lib/homeData.mjs';
 import { buildLocaleLinks, defaultLocale, getEditableLocale, resolveLocaleCopy, supportedLocales } from '../../../lib/i18n.mjs';
@@ -141,6 +142,7 @@ const metadata = {
   ></div>
 
   <main class="mx-auto max-w-[92rem] px-4 pb-12 pt-24 sm:px-6 sm:pt-28 lg:pt-28">
+    <ContributionNav locale={localeCode} current="format" />
     <header class="wiki-entry-hero grid gap-8 border-b border-white/10 pb-8 sm:gap-10 sm:pb-10 lg:grid-cols-[minmax(0,1fr)_22rem] reveal-up">
       <div class="min-w-0">
         <a

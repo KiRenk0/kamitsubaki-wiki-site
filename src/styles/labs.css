@@ -6,7 +6,7 @@
   color: var(--theme-fg);
   max-width: 1180px;
   margin: 0 auto;
-  padding: 115px 32px 100px;
+  padding: 100px 32px 80px;
   font-size: 15px;
   line-height: 1.7;
 }
@@ -18,10 +18,10 @@ html[data-theme='light'] .labs-shell {
 }
 .labs-shell h1 {
   font-family: var(--font-serif);
-  font-size: clamp(32px, 5vw, 58px);
+  font-size: clamp(28px, 3.4vw, 38px);
   line-height: 1.2;
   letter-spacing: 0.04em;
-  margin: 12px 0 20px;
+  margin: 12px 0 14px;
 }
 .labs-shell h2 {
   font-size: 24px;
@@ -44,7 +44,7 @@ html[data-theme='light'] .labs-shell {
 }
 .labs-head {
   border-bottom: 1px solid var(--b-line);
-  padding-bottom: 30px;
+  padding-bottom: 16px;
 }
 .labs-head > p {
   max-width: 700px;
@@ -373,76 +373,9 @@ html[data-theme='light'] .labs-shell {
 .labs-bookmark [role='status'] {
   font-size: 11px;
 }
-.labs-practice {
-  border: 1px solid rgb(var(--theme-fg-rgb) / 0.2);
-  padding: 20px;
-  margin: 20px 0;
-  color: var(--theme-fg);
-  border-radius: var(--ui-radius-control);
-}
-.labs-practice h2 {
-  font: inherit;
-  font-size: 18px;
-  margin: 0 0 10px;
-}
-.labs-practice button,
-.labs-practice select,
-.labs-practice input {
-  font: inherit;
-  font-size: 13px;
-  padding: 8px;
-  border: 1px solid rgb(var(--theme-fg-rgb) / 0.2);
-  background: var(--theme-bg);
-  color: var(--theme-fg);
-  border-radius: var(--ui-radius-control);
-}
-.labs-practice label {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 12px;
-}
-.labs-practice input[type='number'] {
-  width: 68px;
-}
-.labs-practice-controls {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin: 15px 0;
-}
-.labs-practice-line {
-  font-size: 20px;
-  line-height: 2.4;
-  min-height: 80px;
-}
-.labs-practice p {
-  font-size: 12px;
-  opacity: 0.7;
-}
-.labs-practice .labs-practice-line p {
-  font-size: inherit;
-  opacity: 1;
-}
-.labs-practice[data-hints='none'] rt {
-  display: none;
-}
-.labs-practice[data-hints='kana'] rt.roma {
-  display: none;
-}
-.labs-practice[data-hints='romaji'] rt.furi {
-  display: none;
-}
-.labs-practice[data-translation='hide'] .cn-lyric {
-  visibility: hidden;
-}
-.labs-practice :focus-visible {
-  outline: 2px solid #168c79;
-  outline-offset: 3px;
-}
 @media (max-width: 760px) {
   .labs-shell {
-    padding: 100px 18px 70px;
+    padding: 90px 18px 70px;
   }
   .labs-nav {
     gap: 22px;

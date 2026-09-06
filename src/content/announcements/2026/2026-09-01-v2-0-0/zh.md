@@ -45,5 +45,5 @@ summary: |
   神椿非公式观测所 v2.0.0，正式上线。
   那么，下一次观测再见。
 order: -3
-pinned: true
+pinned: false
 ---

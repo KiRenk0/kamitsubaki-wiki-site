@@ -2,6 +2,7 @@ import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 import { getLocalizedEntries } from '../../lib/homeData.mjs';
 import { buildHomeMusicCatalog } from '../../lib/homeMusicCatalog.mjs';
+import { thumbnailCatalog } from '../../lib/imageAssets.mjs';
 import { defaultLocale, supportedLocales } from '../../lib/i18n.mjs';
 
 export const prerender = true;
@@ -25,7 +26,7 @@ export const GET: APIRoute = async ({ params }) => {
     locale,
   );
 
-  return new Response(JSON.stringify(catalog), {
+  return new Response(JSON.stringify(thumbnailCatalog(catalog)), {
     headers: {
       'Content-Type': 'application/json; charset=utf-8',
       'Cache-Control': 'public, max-age=300, s-maxage=3600',
