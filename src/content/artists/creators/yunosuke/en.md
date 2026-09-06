@@ -11,7 +11,7 @@ profileTagline: "Sound producer, composer, and arranger who incorporates cutting
 designCredits:
   - "Illustration: Yonebaru (米室)"
 affiliations:
-  - "KAMITSUBAKI STUDIO"
+  - "KYOKAI STUDIO"
 officialLinks:
   - label: "Twitter"
     href: "https://twitter.com/bass_ynk"
@@ -47,11 +47,13 @@ seo:
     - "PaIII.SENSATION"
 ---
 
+
 ## Overview
 
 Yunosuke (雄之助) is a sound producer, composer, and arranger known for incorporating cutting-edge sound design into accessible pop music. As a Vocaloid producer, he gained widespread recognition through "PaIII.SENSATION," which has accumulated over 6.6 million views on YouTube and became a defining track in the modern Vocaloid scene.
 
 His creative reach extends well beyond the Vocaloid community. Yunosuke has provided instrumentals and compositions for voice actresses, virtual singers, game soundtracks, and advertising campaigns, demonstrating a versatile production skillset that bridges commercial and artistic domains. He has also participated in international collaborations, expanding his influence across borders.
+
 
 ## Role and Creative Position
 
@@ -59,11 +61,13 @@ Yunosuke's production style is characterized by polished, forward-looking electr
 
 He is also a co-member of the unit [Awairo](/en/artists/solo/awairo) alongside WaMi, further diversifying his collaborative output within the Kamitsubaki creative ecosystem. His illustrations are credited to Yonebaru (米室).
 
+
 ## Representative Works
 
 - "PaIII.SENSATION" (Vocaloid track, 6.6M+ YouTube views)
 - Instrumental provision for voice actresses, virtual singers, games, and commercials
 - Unit activities as part of Awairo (with WaMi)
+
 
 ## Upload and Production History
 
@@ -71,9 +75,13 @@ Yunosuke has worked in online music since October 2014; his first original VOCAL
 
 He posted “Take Me!! (2016 Remix)” on Bilibili on March 7, 2016, making him one of the earlier Japanese VOCALOID producers to establish a presence on the Chinese video platform. He has also written for SOUND VOLTEX and Arcaea, and formed the duo Awairo with WaMi; the duo was announced on October 18, 2023 and released “Pale&Deep” on October 20.
 
+- September 2026: Transferred to [KYOKAI STUDIO](/en/projects/labels/kyokai-studio) as part of THINKR's studio reorganization (formerly under the [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) system).
+
+
 ## Catalogue Structure
 
 The major solo albums include *Unique Antique*, *Pathos*, *Black or White*, *Fiction*, *Proto*, and *Tranquilizer*. His catalogue should distinguish VOCALOID uploads, instrumental works, game commissions, and Awairo releases, while preserving separate lyric, composition, arrangement, tuning, and vocal credits.
+
 
 ## External Links
 

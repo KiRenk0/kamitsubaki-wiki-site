@@ -10,7 +10,7 @@ debutDate: "2024-01-14"
 profileTagline: "新一代虚拟歌手创作者，KAF 的全新分枝，将冲动的情感直接注入歌声。"
 designCredits: []
 affiliations:
-  - "KAMITSUBAKI STUDIO"
+  - "KYOKAI STUDIO"
 officialLinks:
   - label: "官方网站"
     href: "https://kaika.kamitsubaki.jp/"
@@ -53,15 +53,18 @@ seo:
     - "花谱"
 ---
 
+
 ## 概述
 
-廻花（Kaika）是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 旗下的新一代虚拟歌手创作者，被定位为「[花谱](/zh/artists/vwp/kaf)的全新分枝」。她于 2024年1月14日在花谱第四次 ONE-MAN LIVE「怪歌」（国立代々木競技場第一体育館）中正式出道，以将冲动的、未经修饰的情感直接注入歌曲为特征。她的概念代表着花谱创作血脉中的一次分叉——从同一根系中绽放出的全新花朵，朝自己的方向生长。
+廻花（Kaika）是 [KYOKAI STUDIO](/zh/projects/labels/kyokai-studio)（2026年9月自 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 移籍）旗下的新一代虚拟歌手创作者，被定位为「[花谱](/zh/artists/vwp/kaf)的全新分枝」。她于 2024年1月14日在花谱第四次 ONE-MAN LIVE「怪歌」（国立代々木競技場第一体育館）中正式出道，以将冲动的、未经修饰的情感直接注入歌曲为特征。她的概念代表着花谱创作血脉中的一次分叉——从同一根系中绽放出的全新花朵，朝自己的方向生长。
 
 在神椿体系中，廻花占据着独特的位置：既是歌手创作者，也是角色叙事的一部分。她的作品探索直觉与本能，与 V.W.P 成员们更具文学性或哲学性的表达形成差异。
+
 
 ## 角色与创作定位
 
 廻花的身份建立在「分枝」这一核心意象之上——她被明确设定为花谱创作宇宙中的新分支，继承花谱的艺术 DNA 的同时发展出自己的声音。「廻花」这个名字蕴含着循环生长与回归之意，暗示着即使向外分支，与根源的联系依然存在。她的创作方向强调直接性：在情感被理性化或提炼之前，将其原样捕捉。
+
 
 ## 活动历程
 
@@ -73,6 +76,8 @@ seo:
 - **2025年7月27日**：参加「KAMITSUBAKI FES ’25 / Singularity Live Vol.4」。
 - **其他**：发行单曲「[スタンドバイミー](/zh/songs/kaika/originals/sutandobaimii)」（Stand By Me）、「[ひぐらしのうた](/zh/songs/kaika/originals/higurashinouta)」（蜩之歌）、「[テディベア](/zh/songs/kaika/originals/tedeibea)」（Teddy Bear）、「[かいか](/zh/songs/kaika/originals/kaika)」（廻花）等。
 
+- 2026年9月：THINKR 工作室重组，移籍至 [KYOKAI STUDIO](/zh/projects/labels/kyokai-studio)（原 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 体系）。
+
 ## 代表作品
 
 - 首张专辑：《うまれるまえからきみをしってる》（在你出生前就认识你）
@@ -82,13 +87,16 @@ seo:
 
 - [花谱](/zh/artists/vwp/kaf)
 
+
 ## 相关企划 / 关联设定
 
 廻花的起源与花谱的艺术叙事直接相连——她从花谱的创作宇宙中以分枝身份诞生，是神椿阵容中叙事整合度最高的个人企划之一。个展「KuruKuru」进一步将她的存在拓展到视觉艺术和实体空间，体现了神椿一贯模糊音乐、角色与体验艺术之间界限的倾向。
 
+
 ## 参考资料
 
 - 廻花官方网站：<https://kaika.kamitsubaki.jp/>
+
 
 ## 外部链接
 

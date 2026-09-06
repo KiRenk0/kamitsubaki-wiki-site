@@ -10,8 +10,7 @@ profileTagline: "A two-person music unit producing Vocaloid songs with deeply em
 designCredits:
   - "Illustration: Kanta Yo"
 affiliations:
-  - "KAMITSUBAKI STUDIO"
-  - "CREATOR FARM"
+  - "KYOKAI STUDIO"
 officialLinks:
   - label: "Twitter"
     href: "https://twitter.com/hito_go_to_7"
@@ -48,17 +47,20 @@ seo:
     - "CREATOR FARM"
 ---
 
+
 ## Overview
 
-Hitogoto (他人事) is a two-person music unit composed of "Men" (面) and "Uo Uo" (魚魚), affiliated with [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio)'s CREATOR FARM. Active since 2020, they began by producing Vocaloid originals and self-covers, quickly gaining attention for their emotionally charged songwriting and polished arrangements.
+Hitogoto (他人事) is a two-person music unit composed of "Men" (面) and "Uo Uo" (魚魚), affiliated with [KYOKAI STUDIO](/en/projects/labels/kyokai-studio) (transferred from [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) in September 2026) and formerly a member of KAMITSUBAKI's CREATOR FARM. Active since 2020, they began by producing Vocaloid originals and self-covers, quickly gaining attention for their emotionally charged songwriting and polished arrangements.
 
 The unit achieved notable recognition by placing 8th in the Rookie Rankings at The VOCALOID Collection 2022 Spring, competing against approximately 2,800 submissions. Their illustrations are provided by Kanta Yo (神多洋), whose artwork complements the unit's evocative musical world.
+
 
 ## Role and Creative Position
 
 Hitogoto's strength lies in their ability to write deeply emotional lyrics and compose melodies that linger in the listener's mind. Their arrangement work demonstrates versatility across multiple genres, while maintaining a consistent emotional core that defines their artistic identity.
 
 Beyond their own releases, Hitogoto has established a track record of song provision for prominent artists and projects, contributing lyrics, composition, and arrangement to works for V.W.P, Tsumitobatsu, and the Muse Dash rhythm game.
+
 
 ## Activity History
 
@@ -68,6 +70,8 @@ Beyond their own releases, Hitogoto has established a track record of song provi
 - Provided "真偽" (Shingi) for V.W.P -- lyrics and composition.
 - Provided "信仰と存在" (Shinkou to Sonzai) for the Muse Dash rhythm game, surpassing 3 million streams.
 - Joined KAMITSUBAKI STUDIO's CREATOR FARM.
+
+- September 2026: Transferred to [KYOKAI STUDIO](/en/projects/labels/kyokai-studio) as part of THINKR's studio reorganization (formerly under the [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) system).
 
 ## Representative Works and Related Entries
 
@@ -80,9 +84,11 @@ Useful related entries:
 
 - [tokiwa](/en/artists/creators/tokiwa)
 
+
 ## References
 
 - Hitogoto Twitter: <https://twitter.com/hito_go_to_7>
+
 
 ## External Links
 

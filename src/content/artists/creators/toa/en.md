@@ -11,6 +11,7 @@ profileTagline: "Vocaloid and synth producer active since 2013, known for cute, 
 designCredits: []
 affiliations:
   - "KAMITSUBAKI STUDIO"
+  - "PHENOMENON RECORD"
 officialLinks:
   - label: "Twitter"
     href: "https://twitter.com/o0toa0o"
@@ -46,13 +47,17 @@ seo:
     - "Hatsune Miku"
 ---
 
+
 ## Overview
 
 Toa (とあ) is a Vocaloid and synth vocal producer who has been active since 2013. He is recognized for his distinctive approach of pairing cute, poppy vocal tuning with lyrics steeped in sadness and melancholy — a contrast that gives his music a bittersweet emotional depth. His primary vocal canvases include Hatsune Miku and the CeVIO singer KAFU.
 
+- September 5, 2026: With the renewal of KAMITSUBAKI STUDIO, the in-studio labels were consolidated into PHENOMENON RECORD.
+
 ## Representative Works
 
 Among his most celebrated tracks are "Tsugihagi Staccato" (ツギハギスタッカート) and "Idea Smile" (アイディスマイル), both of which showcase his signature blend of bright, catchy melodies and emotionally resonant, wistful storytelling. These songs have become fan favorites within the Vocaloid community, accumulating significant play counts and covers.
+
 
 ## Role and Creative Position
 
@@ -60,10 +65,12 @@ Toa's production style occupies a unique niche in the Vocaloid landscape. Rather
 
 His long career spanning over a decade speaks to his consistency and evolving artistry within the synth vocal producer community.
 
+
 ## Work Index
 
 - "Tsugihagi Staccato" (ツギハギスタッカート)
 - "Idea Smile" (アイディスマイル)
+
 
 ## External Links
 

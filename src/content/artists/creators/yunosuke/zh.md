@@ -11,7 +11,7 @@ profileTagline: "将前沿音效设计融入流行音乐的音乐制作人 / 作
 designCredits:
   - "插画: 米室"
 affiliations:
-  - "KAMITSUBAKI STUDIO"
+  - "KYOKAI STUDIO"
 officialLinks:
   - label: "Twitter"
     href: "https://twitter.com/bass_ynk"
@@ -48,11 +48,13 @@ seo:
     - "作曲家"
 ---
 
+
 ## 概述
 
 雄之助（Yunosuke）是一位音乐制作人、作曲家兼编曲家，以将前沿音效设计融入流行音乐而著称。作为 Vocaloid 制作人，他凭借「PaIII.SENSATION」一曲获得广泛认可，该曲在 YouTube 上累积播放量超过 660 万次，成为当代 Vocaloid 领域的标志性作品。
 
 他的创作影响力远超 Vocaloid 社群。Yunosuke 曾为声优、虚拟歌手、游戏原声及广告活动提供伴奏与编曲，展现出横跨商业与艺术领域的多元化制作能力。他也积极参与国际合作，影响力延伸至海外。
+
 
 ## 角色与创作定位
 
@@ -60,11 +62,13 @@ Yunosuke 的制作风格以精致的电子音景与流行乐感的融合为核�
 
 他还是与 WaMi 共组的组合 [Awairo](/zh/artists/solo/awairo) 的成员，进一步拓展了在神椿创作生态系统中的合作版图。插画由米室负责。
 
+
 ## 代表作品
 
 - 「PaIII.SENSATION」（Vocaloid 曲目，YouTube 660 万以上播放量）
 - 为声优、虚拟歌手、游戏及广告提供伴奏
 - 作为 Awairo（与 WaMi 组合）的活动
+
 
 ## 投稿与制作履历
 
@@ -74,9 +78,13 @@ Yunosuke 的制作风格以精致的电子音景与流行乐感的融合为核�
 
 除个人投稿外，雄之助还为 SOUND VOLTEX、Arcaea 等音乐游戏提供乐曲，并与 WaMi 组成音乐组合 Awairo。2023年10月18日公开组合出道，10 月 20 日发布首支单曲《Pale&Deep》。
 
+- 2026年9月：THINKR 工作室重组，移籍至 [KYOKAI STUDIO](/zh/projects/labels/kyokai-studio)（原 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 体系）。
+
+
 ## 作品整理
 
 主要个人专辑包括《[Unique Antique](/zh/albums/yunosuke/Unique-Antique-1011454503)》《[Pathos](/zh/albums/yunosuke/Pathos-1103188278)》《[Black or White](/zh/albums/yunosuke/Black-or-White-1304869904)》《[Fiction](/zh/albums/yunosuke/Fiction-1419403824)》《[Proto](/zh/albums/yunosuke/Proto-1535422307)》《[Tranquilizer](/zh/albums/yunosuke/Tranquilizer-1684861827)》。其创作可以分为 VOCALOID 投稿、纯音乐、游戏供曲与 [Awairo](/zh/artists/solo/awairo) 组合活动四条线索；目录中应保留作词、作曲、编曲、调音和演唱者等不同制作职位。
+
 
 ## 外部链接
 

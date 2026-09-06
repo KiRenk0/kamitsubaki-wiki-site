@@ -13,6 +13,8 @@ KAMITSUBAKI STUDIO（神椿スタジオ）は、2019年10月18日に設立され
 
 レーベルのキャッチコピーは **“Everything starts from here.”（すべてはここから始まる）** であり、**「音楽と物語で世界をほんの少し変える」** ことをミッションとしています。
 
+2026年9月5日以降、THINKR のスタジオ再編に伴い、神椿は**バーチャル領域に特化**したスタジオへと移行しました。旧体系のリアルアーティスト・クリエイターは、新設の [KYOKAI STUDIO](/ja/projects/labels/kyokai-studio) などの姉妹スタジオへ移籍しています。
+
 ## 歩み
 
 ### 2018年 - 2019年：前夜とレーベル設立
@@ -34,6 +36,7 @@ KAMITSUBAKI STUDIO（神椿スタジオ）は、2019年10月18日に設立され
 - **2023年3月31日**：専属コンポーザー・音楽プロデューサーのカンザキイオリが卒業。
 - **2023年10月18日**：[雄之助](/ja/artists/creators/yunosuke)とWaMiによる音楽ユニット「[Awairo](/ja/artists/solo/awairo)」のデビューを発表。
 - **2024年1月13日〜14日**：スタジオ主催フェス「KAMITSUBAKI FES '24」を開催。
+- **2026年9月5日**：THINKR がスタジオ再編（スタジオ構造の刷新）を発表。KAMITSUBAKI STUDIO はバーチャル領域に特化するスタジオへ移行し、分岐のかたちで [KYOKAI STUDIO](/ja/projects/labels/kyokai-studio)（自らの境界を探し求めるアーティストとの協働）と [UNKNOWN LAB](/ja/projects/labels/unknown-lab)（総括プロデューサー・PIEDPIPER を中心とする R&D 部門）を新設。同日、公式サイトが全面リニューアルされ、スタジオ内レーベルは **PHENOMENON RECORD** に統合され、[深脊界（SINSEKAI RECORD）](/ja/projects/archive/sinsekai-studio)などのレーベル名は使用終了となりました。
 
 ## 所属コアメンバー
 
@@ -59,7 +62,10 @@ CeVIO AIやVOICEPEAKとのコラボレーションによる歌声・音声合成
 ## 関連プロジェクト
 
 - **[神椿市建設中。](/ja/projects/arg/kamitsubaki-city)**：ゲーム、小説、TVアニメなど、多角的に展開されるレーベルの根幹をなすオリジナルIPプロジェクト。
-- **深脊界 Studio (SINSAEKAI STUDIO)**：神椿の姉妹レーベルであり、よりインディーズ精神に富んだ先鋭的な音楽・ビジュアルの探求を行う。
+- **[深脊界 / SINSEKAI RECORD（アーカイブ済み）](/ja/projects/archive/sinsekai-studio)**：旧・神椿の姉妹レーベル。2026年9月のレーベル統合により名称の使用を終了。
+- **[KYOKAI STUDIO](/ja/projects/labels/kyokai-studio)**：2026年9月5日に神椿から分岐して設立された音楽スタジオ。自らの境界を探し求めるアーティストとの協働を掲げ、旧体系のリアルアーティスト・クリエイターを引き継ぐ。
+- **[ALLT STUDIO](/ja/projects/labels/allt-studio)**：THINKR 傘下のネットシーン系音楽クリエイターレーベル。旧・深脊界体系の存流、詩道、雨宿りなどが現在名簿に掲載されている。
+- **[UNKNOWN LAB](/ja/projects/labels/unknown-lab)**：2026年9月5日に新設された R&D 部門。総括プロデューサー・PIEDPIPER を中心に、新規事業・新プロジェクトを育成する実験の場。
 
 ## レーベル構成と創作部門
 
@@ -67,8 +73,8 @@ CeVIO AIやVOICEPEAKとのコラボレーションによる歌声・音声合成
 
 | 部門 | 役割と関連するライン |
 | --- | --- |
-| PHENOMENON RECORD | 花譜、理芽、春猿火、ヰ世界情緒、幸祜、V.W.Pを中心とするバーチャル魔女の音楽レーベル |
-| SINSEKAI STUDIO / [SINSEKAI RECORD](/ja/projects/labels/sinsekai-studio) | [Albemuth](/ja/artists/solo/albemuth)、存流、[明透](/ja/artists/solo/asu)、[VALIS](/ja/artists/solo/valis)などの異世界・派生企画 |
+| PHENOMENON RECORD | 2026年9月のレーベル統合後における神椿の統一レーベル。花譜、理芽、春猿火、ヰ世界情緒、幸祜、V.W.P などのバーチャルアーティストを中心とする |
+| [SINSEKAI RECORD（アーカイブ済み）](/ja/projects/archive/sinsekai-studio) | 旧・深脊界レーベル（[Albemuth](/ja/artists/solo/albemuth)、存流、[明透](/ja/artists/solo/asu)、[VALIS](/ja/artists/solo/valis) などの異世界・派生企画）。2026年9月に PHENOMENON RECORD へ統合され、名称の使用を終了 |
 | [GIRLS REVOLUTION PROJECT](/ja/projects/labels/girls-revolution-project) | 越境型のガールズグループ、オーディション、新しいバーチャルアーティストの企画線 |
 | KAMITSUBAKI CREATION | 作曲家、イラストレーター、映像監督などの制作ネットワーク |
 | 音楽的同位体 | 歌声データをもとにした CeVIO AI、VOICEPEAK の製品とキャラクター |

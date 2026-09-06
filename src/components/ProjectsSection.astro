@@ -59,7 +59,9 @@ const { projects, section } = Astro.props as {
 
           <div class="mt-8 flex items-center justify-between border-t border-white/10 pt-4 text-[9px] font-mono uppercase tracking-[0.18em] text-white/35">
             <span>{project.id}</span>
-            <span class="transition-colors duration-300 group-hover:text-white/72">Open</span>
+            <span class="transition-colors duration-300 group-hover:text-white/72">
+              {project.categorySlug === 'archive' ? 'Archive' : 'Open'}
+            </span>
           </div>
         </div>
       </a>

@@ -11,7 +11,7 @@ designCredits:
   - "キャラクターデザイン：米山舞"
 affiliations:
   - "KAMITSUBAKI STUDIO"
-  - "深脊界"
+  - "PHENOMENON RECORD"
 officialLinks:
   - label: "X (Twitter)"
     href: "https://twitter.com/ASU_virtual"
@@ -47,17 +47,20 @@ seo:
     - "KAMITSUBAKI STUDIO"
 ---
 
+
 ## 概要
 
 ASU（明透）は [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) の世界観と並行する異世界「深脊界」出身の次世代バーチャルシンガーである。生まれ持ったリズム感と予測不可能な歌声を武器に、本能のままに行動する自由奔放な少女として活動している。キャラクターデザインはアニメーターの米山舞が手がけた。
 
 2021年8月にデビュー。2024年12月28日に初の有観客となる 1st ONE-MAN LIVE「RAY」を開催し、2025年8月30日には 2nd ONE-MAN LIVE「BIRTH」で新たなステージへと進出。神椿本体とは異なる深脊界側の音楽表現を担う存在として、急速に存在感を高めている。
 
+
 ## 役割と創作上の位置づけ
 
 ASU の特徴は「本能」と「予測不能」にある。歌声の表現力は幅広く、生まれ持ったリズム感によってフレームに縛られない自由さを発揮する。米山舞によるビジュアルデザインは透明感と活力を兼ね備え、深脊界の世界観と呼応している。
 
 楽曲制作においては、直感的な感情表現を重視した作風が際立つ。歌詞やメロディには少女らしい純粋さと衝動が溢れ、V.W.P 系とは異なる新しい色彩を神椿体系にもたらしている。
+
 
 ## 活動歴
 
@@ -67,6 +70,8 @@ ASU の特徴は「本能」と「予測不能」にある。歌声の表現力�
 - KAMITSUBAKI WARS 2025、KAMITSUBAKI FES '25 に参加。
 - KAMITSUBAKI WARS 2026 横浜公演に参加。
 
+- 2026年9月5日：神椿スタジオのリニューアルに伴い、スタジオ内レーベルが PHENOMENON RECORD に統合され、同レーベル所属となる（旧・SINSEKAI RECORD の名称は使用終了）。
+
 ## 代表作品と関連項目
 
 - シングル：「[Little Bit](/ja/songs/asu/originals/little-bit)」「[ルートキュア](/ja/songs/asu/originals/ruutokyua)」「[ビターエチュード](/ja/songs/asu/originals/bitaaechuudo)」「[HOME](/ja/songs/asu/originals/home)」「[Link](/ja/songs/asu/originals/link)」
@@ -75,13 +80,16 @@ ASU の特徴は「本能」と「予測不能」にある。歌声の表現力�
 
 - 深脊界関連企画
 
+
 ## 関連企画 / 関連設定
 
 ASU は神椿の世界と並行して存在する「深脊界」の出身である。KAMITSUBAKI WARS や KAMITSUBAKI FES などの大型イベントへの出演を通じて、深脊界と神椿の関係性を理解するための重要な切入点となっている。
 
+
 ## 参考資料
 
 - KAMITSUBAKI STUDIO 公式情報
+
 
 ## 外部リンク
 

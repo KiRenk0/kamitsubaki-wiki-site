@@ -10,7 +10,7 @@ debutDate: "2018-12-01"
 profileTagline: "A female VocaloP known for dark, addictive melodies and a distinctly feminine perspective, blending piano, strings, EDM, and city pop."
 designCredits: []
 affiliations:
-  - "ANARCHIC RECORD"
+  - "KYOKAI STUDIO"
 officialLinks:
   - label: "YouTube"
     href: "https://www.youtube.com/channel/UC9_8AXpxjjNl62HPhF5IAyg"
@@ -47,17 +47,20 @@ seo:
     - "Vocaloid"
 ---
 
+
 ## Overview
 
 Kashii Moimi (香椎モイミ) is a female VocaloP who debuted in December 2018. She quickly distinguished herself through dark, addictive melodies paired with a distinctly feminine lyrical perspective. Her sound defies easy categorization, weaving together piano and string arrangements, EDM production, and city pop sensibilities into a genre-defying style.
 
-Active under the ANARCHIC RECORD label, Kashii Moimi posted approximately 30 songs within her first two years of activity. Her breakout hit "Cat Loving" (キャットラビング) amassed over 24 million views, while "Henshoku" (偏食) surpassed 2 million views, establishing her as one of the most commercially successful producers on the label.
+Active under the ANARCHIC RECORD label (transferred to [KYOKAI STUDIO](/en/projects/labels/kyokai-studio) in September 2026 as part of THINKR's studio reorganization), Kashii Moimi posted approximately 30 songs within her first two years of activity. Her breakout hit "Cat Loving" (キャットラビング) amassed over 24 million views, while "Henshoku" (偏食) surpassed 2 million views, establishing her as one of the most commercially successful producers on the label.
+
 
 ## Role and Creative Position
 
 Kashii Moimi's compositions are characterized by their darkly alluring melodic hooks and emotionally charged narratives. Her ability to blend contrasting genres -- the intimacy of piano ballads with the energy of electronic dance music -- gives her work a distinctive edge. The feminine perspective woven throughout her lyrics adds a layer of vulnerability and raw honesty that resonates deeply with listeners.
 
 Her prolific output and consistent quality have made her a cornerstone of the ANARCHIC RECORD roster.
+
 
 ## Representative Works
 
@@ -73,20 +76,25 @@ Her prolific output and consistent quality have made her a cornerstone of the AN
 - "Wonderland Underground" (ワンダーランド地下)
 - "Honey Diary" (蜂蜜日記)
 
+
 ## Activity History and Upload Statistics
 
 Kashii Moimi posted her first VOCALOID song, “Sokka”, on niconico and YouTube on December 15, 2018. She joined Bilibili on July 8, 2020. “Cat Loving”, released with [KAFU](/en/artists/isotopes/kafu) on July 17, 2021, became her first Legend-level song; its YouTube views passed ten million in July 2022. She joined Kamitsubaki on October 18, 2021.
 
 The organized record counts 53 original VOCALOID/CeVIO uploads as of April 27, 2024, including 15 Hall of Fame works and one Legend work. She is known to be a KAITO fan, has supplied songs for [ISEKAIJOUCHO](/en/artists/vwp/isekaijoucho), and has tuned demonstration covers for [SEKAI](/en/artists/isotopes/sekai). Her public creator interactions also include illustrator Dandan Taikū.
 
+- September 2026: Transferred to [KYOKAI STUDIO](/en/projects/labels/kyokai-studio) as part of THINKR's studio reorganization (formerly under the [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) system).
+
 ## Albums and Collaborations
 
 Representative works include “Cat Loving”, “Henshoku”, “Kanri-yoku”, “Blue Hero”, “Akumu no Hikari”, “Hishō”, “Shissō Zenya”, “Bad End Maker”, “Human-Like”, “Wonderland Underground”, and “Hachimitsu Nikki”. Album references include *Katsua* and *Henai*. VOCALOID/CeVIO uploads, songs supplied to Kamitsubaki artists, demonstration covers, and personal albums should remain separate catalogue layers.
+
 
 ## References
 
 - YouTube: <https://www.youtube.com/channel/UC9_8AXpxjjNl62HPhF5IAyg>
 - Twitter: <https://twitter.com/moi__moimi>
+
 
 ## External Links
 

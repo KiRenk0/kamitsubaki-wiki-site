@@ -10,8 +10,7 @@ profileTagline: "面と魚魚の 2 人で構成される音楽ユニット。ボ
 designCredits:
   - "イラスト：神多洋"
 affiliations:
-  - "KAMITSUBAKI STUDIO"
-  - "CREATOR FARM"
+  - "KYOKAI STUDIO"
 officialLinks:
   - label: "Twitter"
     href: "https://twitter.com/hito_go_to_7"
@@ -49,17 +48,20 @@ seo:
     - "CREATOR FARM"
 ---
 
+
 ## 概要
 
-ヒトゴト（他人事）は「面」と「魚魚」の 2 人で構成される音楽ユニット。[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) の CREATOR FARM に所属し、2020 年からボカロオリジナル楽曲やセルフカバーの制作を通じて活動を開始した。
+ヒトゴト（他人事）は「面」と「魚魚」の 2 人で構成される音楽ユニット。[KYOKAI STUDIO](/ja/projects/labels/kyokai-studio) に所属し（2026年9月に [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) から移籍）、旧・神椿 CREATOR FARM の一員として 2020 年からボカロオリジナル楽曲やセルフカバーの制作を通じて活動を開始した。
 
 2022 年春の The VOCALOID Collection では、約 2,800 曲の応募の中からルーキーランキング 8 位にランクインし、大きな注目を集めた。イラストは神多洋氏が担当し、楽曲の情感を視覚的にも表現している。
+
 
 ## 役割と創作上の位置づけ
 
 ヒトゴトの強みは、心に深く刺さる歌詞と記憶に残るメロディにある。アレンジ面でも複数のジャンルにわたる柔軟さを見せつつ、一貫した emotional な核がユニットのアイデンティティを支えている。
 
 自作品の制作だけでなく、楽曲提供にも実績があり、V.W.P、罪と罰、Muse Dash などのプロジェクトへ作詞・作曲・編曲を提供している。
+
 
 ## 活動歴
 
@@ -69,6 +71,8 @@ seo:
 - V.W.P へ「真偽」を提供（作詞 / 作曲）。
 - Muse Dash へ「信仰と存在」を提供（ストリーミング 300 万回超）。
 - KAMITSUBAKI STUDIO の CREATOR FARM に参加。
+
+- 2026年9月：THINKRのスタジオ再編に伴い、[KYOKAI STUDIO](/ja/projects/labels/kyokai-studio) へ移籍（旧・[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) 体系）。
 
 ## 代表作品と関連項目
 
@@ -81,9 +85,11 @@ seo:
 
 - [tokiwa](/ja/artists/creators/tokiwa)
 
+
 ## 参考資料
 
 - ヒトゴト Twitter：<https://twitter.com/hito_go_to_7>
+
 
 ## 外部リンク
 

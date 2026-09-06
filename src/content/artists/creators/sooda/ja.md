@@ -6,6 +6,9 @@ romanizedName: "Sooda"
 categoryOrder: 3
 itemOrder: 6
 meta: "ROLE: SINGER-SONGWRITER"
+affiliations:
+  - "ALLT STUDIO"
+  - "KAMITSUBAKI STUDIO"
 statusLabel: "ステータス"
 status: "ACTIVE"
 image: "/images/artists/sooda.jpg"
@@ -19,6 +22,9 @@ Sooda は、 ethereal なウィスパーボーカルで知られるシンガー�
 2026 年、Sooda は新たな音楽の章を開く。[CIEL](/ja/artists/solo/ciel) とバーチャルユニット「[空爽](/ja/artists/solo/kuusou)」（Kuusou）を結成し、2026年1月14日にデビュー曲「[透明流星ラプソディ](/ja/songs/kuusou/originals/透明流星rapusodei)」をリリース。個人としての 1st シングル「[甘党](/ja/songs/sooda/originals/甘党)」も、シンガーソングライターとしての多面的な才能を示す作品となっている。
 
 イラストは Narume が担当。
+
+- 2026年9月：[ALLT STUDIO](/ja/projects/labels/allt-studio) 公式サイトのアーティスト名簿に掲載（旧・深脊界体系）。個人名義の活動は ALLT STUDIO がマネジメントし、CIEL とのユニット「空爽」は神椿体系で活動している。
+
 
 ## 外部リンク
 

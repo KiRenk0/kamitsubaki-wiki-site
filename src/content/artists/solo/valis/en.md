@@ -12,7 +12,7 @@ designCredits:
   - "Avatar design: Nekosuke"
 affiliations:
   - "KAMITSUBAKI STUDIO"
-  - "SINSEKAI RECORD"
+  - "PHENOMENON RECORD"
 officialLinks:
   - label: "VALIS official website"
     href: "https://valis.sinsekaistudio.jp/"
@@ -53,17 +53,20 @@ seo:
     - "SINSEKAI RECORD"
 ---
 
+
 ## Overview
 
 VALIS is a six-member virtual girls group under [SINSEKAI RECORD](/en/projects/labels/sinsekai-studio), consisting of CHINO, MYU, NEFFY, NINA, RARA, and VITTE. Built around the concept of traveling between virtual and real worlds, the group distinguishes itself through a dual-format approach: members perform in both avatar form and their "origin" real-person form, creating a layered identity that bridges the two realms.
 
 Character visuals were designed by illustrator Nekosuke, blending a distinctly feminine aesthetic with futuristic sensibilities. As one of the more prominent groups within the SINSEKAI RECORD framework, VALIS maintains a high level of activity across both recorded music and live performance, regularly hosting dedicated ONE-MAN LIVE events.
 
+
 ## Role and Creative Position
 
 The defining element of VALIS is its commitment to duality between the virtual and the real. The six members shift between different performance modes, presenting both the expressive possibilities of avatar-based stage work and the more immediate connection of their real-world "origin" identities. This two-track structure gives VALIS a distinct position within the broader [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) ecosystem.
 
 Musically, VALIS blends a pop-sensibility rooted in the idol and girls-group tradition with more aggressive and psychologically charged expression. Lyrics frequently explore themes of romance, inner psychology, and fairy-tale deconstruction, producing a style that is at once sweet and marked by underlying tension.
+
 
 ## Members and Forms
 
@@ -78,6 +81,7 @@ Musically, VALIS blends a pop-sensibility rooted in the idol and girls-group tra
 
 Each member has both an avatar and an origin presentation. These are not merely costume variants; they are part of VALIS's central virtual–real duality and its circus-world narrative.
 
+
 ## Activity History
 
 - Debuted on May 15, 2020, with the release of their first original song "Zankyo Vandeler" (残響ヴァンデラー).
@@ -89,6 +93,8 @@ Each member has both an avatar and an origin presentation. These are not merely 
 
 The major album line includes the 1st Album *WONDERLAND* (2021) and 2nd Album *SHINSEKAI* (2023).
 
+- September 5, 2026: With the renewal of KAMITSUBAKI STUDIO, the in-studio labels were consolidated into PHENOMENON RECORD, which now represents the artist (the SINSEKAI RECORD name was retired).
+
 ## Representative Works
 
 Approaching VALIS through both their catalog and live activity provides the clearest picture of the group:
@@ -97,14 +103,17 @@ Approaching VALIS through both their catalog and live activity provides the clea
 - Live events: ONE-MAN LIVE series, including "Kassai Curtain Call" and "Houkou Forever"
 - Cross-project participation: Virtual stage play "Otogi-banashi (Some)"
 
+
 ## Related Projects
 
 VALIS has points of contact with other KAMITSUBAKI STUDIO music projects, including collaborations with the KAMITSUBAKI PHILHARMONIC ORCHESTRA and participation in cross-media productions such as virtual stage plays. The group's central concept of duality also gives it a particular narrative function within the broader SINSEKAI RECORD storytelling framework.
+
 
 ## References
 
 - VALIS official website: <https://valis.sinsekaistudio.jp/>
 - KAMITSUBAKI STUDIO official artist page: <https://kamitsubaki.jp/artist/valis/>
+
 
 ## External Links
 

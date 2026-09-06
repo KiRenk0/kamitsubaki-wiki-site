@@ -10,8 +10,7 @@ profileTagline: "由「面」与「鱼鱼」二人组成的音乐组合，以 Vo
 designCredits:
   - "插画：神多洋"
 affiliations:
-  - "KAMITSUBAKI STUDIO"
-  - "CREATOR FARM"
+  - "KYOKAI STUDIO"
 officialLinks:
   - label: "Twitter"
     href: "https://twitter.com/hito_go_to_7"
@@ -49,17 +48,20 @@ seo:
     - "作曲家"
 ---
 
+
 ## 概述
 
-Hitogoto（他人事）是由「面」与「鱼鱼」二人组成的音乐组合，隶属于 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 的 CREATOR FARM。自 2020 年起以 Vocaloid 原创曲和自我翻唱开启活动，凭借情感浓烈的词曲创作与精致的编曲迅速获得关注。
+Hitogoto（他人事）是由「面」与「鱼鱼」二人组成的音乐组合，现隶属于 [KYOKAI STUDIO](/zh/projects/labels/kyokai-studio)（2026年9月自 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 移籍），原为神椿 CREATOR FARM 成员。自 2020 年起以 Vocaloid 原创曲和自我翻唱开启活动，凭借情感浓烈的词曲创作与精致的编曲迅速获得关注。
 
 在 2022 年春季举办的 The VOCALOID Collection 中，该组合在约 2,800 首应募作品中脱颖而出，取得新人排行榜第 8 名的成绩。插画由神多洋负责，其画风与乐曲的情感世界相得益彰。
+
 
 ## 角色与创作定位
 
 Hitogoto 的核心优势在于深入人心的歌词与令人久久难忘的旋律。在编曲上展现出跨越多种曲风的灵活性，同时始终保持情感上的统一内核，构成了组合独特的艺术辨识度。
 
 除个人作品外，Hitogoto 还积累了丰富的乐曲提供经验，为 V.W.P、罪与罚、Muse Dash 等知名项目贡献了作词、作曲及编曲。
+
 
 ## 活动历程
 
@@ -69,6 +71,8 @@ Hitogoto 的核心优势在于深入人心的歌词与令人久久难忘的旋�
 - 为 V.W.P 提供「真伪」（作词 / 作曲）。
 - 为 Muse Dash 提供「信仰与存在」（流媒体播放量超过 300 万次）。
 - 加入 KAMITSUBAKI STUDIO 的 CREATOR FARM。
+
+- 2026年9月：THINKR 工作室重组，移籍至 [KYOKAI STUDIO](/zh/projects/labels/kyokai-studio)（原 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 体系）。
 
 ## 代表作品与相关条目
 
@@ -81,9 +85,11 @@ Hitogoto 的核心优势在于深入人心的歌词与令人久久难忘的旋�
 
 - [tokiwa](/zh/artists/creators/tokiwa)
 
+
 ## 参考资料
 
 - Hitogoto Twitter：<https://twitter.com/hito_go_to_7>
+
 
 ## 外部链接
 

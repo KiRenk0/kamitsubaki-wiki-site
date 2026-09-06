@@ -10,7 +10,7 @@ debutDate: "2020-10-31"
 profileTagline: "A two-member music unit known for narrative storytelling, ethereal melodies, and dense electro crossover soundscapes."
 designCredits: []
 affiliations:
-  - "ANARCHIC RECORD"
+  - "KYOKAI STUDIO"
 officialLinks:
   - label: "YouTube"
     href: "https://www.youtube.com/c/emptyoldCity"
@@ -54,17 +54,20 @@ seo:
     - "ANARCHIC RECORD"
 ---
 
+
 ## Overview
 
 Empty old City is a two-member music unit consisting of composer and producer Neuron and vocalist kahoca. Active since their 2021 debut with the single "Urban Cruise," the group has established a distinctive identity built on narrative storytelling, ethereal vocal delivery, and richly layered electro crossover production.
 
-Operating within the ANARCHIC RECORD ecosystem, Empty old City occupies a unique position in the virtual and internet music landscape. Their work emphasizes cinematic world-building, weaving melancholic atmospheres, dense electronic textures, and evocative lyrics into cohesive sonic narratives that reward repeated listening.
+Operating within the ANARCHIC RECORD ecosystem (transferred to [KYOKAI STUDIO](/en/projects/labels/kyokai-studio) in September 2026 as part of THINKR's studio reorganization), Empty old City occupies a unique position in the virtual and internet music landscape. Their work emphasizes cinematic world-building, weaving melancholic atmospheres, dense electronic textures, and evocative lyrics into cohesive sonic narratives that reward repeated listening.
+
 
 ## Role and Creative Position
 
 The unit's creative dynamic hinges on the complementary relationship between Neuron's intricate production and kahoca's expressive vocal performances. Neuron's compositions draw from a wide palette of electronic and orchestral influences, constructing soundscapes that shift between introspective quiet and explosive intensity. Kahoca's voice serves as the narrative anchor, delivering stories that balance vulnerability and defiance.
 
 This approach has resonated strongly with listeners, particularly through singles that pair polished production with emotionally charged storytelling. The group's music videos often extend these narratives visually, reinforcing the cinematic quality that defines their artistic identity.
+
 
 ## Activity History
 
@@ -75,6 +78,8 @@ This approach has resonated strongly with listeners, particularly through single
 - 2026.04.22: Released the 2nd Album *Strings in Owl*.
 - 2026.06.02: Announced the 2nd ONE-MAN LIVE.
 
+- September 2026: Transferred to [KYOKAI STUDIO](/en/projects/labels/kyokai-studio) as part of THINKR's studio reorganization (formerly under the [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) system).
+
 ## Representative Works
 
 - Albums: *Strings in Owl* (2nd Album, 2026)
@@ -82,14 +87,17 @@ This approach has resonated strongly with listeners, particularly through single
 - Key singles: "Chronicle A" (11th), "Daisy Crown" (16th), "Death Designer" (15th), "Astronomy" (14th), "Ghost Keikai wo Utau" (13th), "Buffer" (12th)
 - Debut single: "Urban Cruise" (2021)
 
+
 ## Related Projects / Setting
 
 Empty old City's body of work forms an expanding narrative tapestry, with individual singles and concept releases contributing to an overarching story. The unit's affiliation with ANARCHIC RECORD places them within an ecosystem that supports artistic independence and creative experimentation, allowing them to develop ambitious multimedia projects that blend music, visuals, and world-building.
+
 
 ## References
 
 - Official YouTube channel: <https://www.youtube.com/c/emptyoldCity>
 - Official streaming page: <https://emptyoldcity.lnk.to/Artist>
+
 
 ## External Links
 

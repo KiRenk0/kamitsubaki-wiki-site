@@ -10,6 +10,7 @@ profileTagline: "A next-generation music unit blending sweet emotional melodies 
 designCredits: []
 affiliations:
   - "KAMITSUBAKI STUDIO"
+  - "PHENOMENON RECORD"
 officialLinks:
   - label: "X (Twitter)"
     href: "https://twitter.com/Awairo_info"
@@ -46,17 +47,20 @@ seo:
     - "WaMi"
 ---
 
+
 ## Overview
 
 Awairo is a next-generation music unit under [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio), composed of producer [Yunosuke](/en/artists/creators/yunosuke) and vocalist WaMi. Their music merges sweet, emotionally charged melodies with EDM elements to express a delicate and wistful emotional world.
 
 The unit released their first album "Gradient" in January 2025 and held a release party to celebrate. In February 2025, they followed up with the single "Bloonune." Through appearances at KAMITSUBAKI WARS 2024 Yokohama, KAMITSUBAKI FES '24, and a 2MAN LIVE with Azusagawa, Awairo has steadily expanded their presence within the Kamitsubaki ecosystem.
 
+
 ## Role and Creative Position
 
 At the core of Awairo's music is the fusion of sensitivity and electronics. Yunosuke excels at building electronic soundscapes that trace the contours of emotional movement, while WaMi brings a soft yet penetrating vocal quality that adds human warmth to each track. The chemistry between the two allows Awairo's music to retain the groove of EDM while preserving the emotional resonance of pop songwriting.
 
 The unit name "Awairo" (meaning "pale color") itself embodies their aesthetic direction -- not intense, not flashy, yet carrying deep layers of feeling beneath a gentle surface.
+
 
 ## Activity History
 
@@ -67,6 +71,8 @@ The unit name "Awairo" (meaning "pale color") itself embodies their aesthetic di
 - February 21, 2025: Released single "Bloonune."
 - Held a 2MAN LIVE with Azusagawa.
 
+- September 5, 2026: With the renewal of KAMITSUBAKI STUDIO, the in-studio labels were consolidated into PHENOMENON RECORD.
+
 ## Representative Works and Related Entries
 
 - Album: "Gradient" (2025.01.15)
@@ -76,13 +82,16 @@ Useful related entries:
 
 - Azusagawa related entries
 
+
 ## Related Projects / Setting
 
 Awairo connects with other Kamitsubaki artists through major events such as KAMITSUBAKI WARS and KAMITSUBAKI FES. Their 2MAN LIVE with Azusagawa is a notable example of collaborative exchange within the Kamitsubaki artist roster.
 
+
 ## References
 
 - KAMITSUBAKI STUDIO official information
+
 
 ## External Links
 

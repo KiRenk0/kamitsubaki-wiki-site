@@ -9,7 +9,7 @@ meta: "ROLE: COMPOSER"
 profileTagline: "以微苦的钢琴曲贴近「觉得生活艰难」的人们，在广泛年龄层中获得支持的作曲家。"
 designCredits: []
 affiliations:
-  - "KAMITSUBAKI STUDIO"
+  - "KYOKAI STUDIO"
 officialLinks:
   - label: "X (Twitter)"
     href: "https://twitter.com/mimi_3mi"
@@ -48,17 +48,20 @@ seo:
     - "钢琴"
 ---
 
+
 ## 概述
 
-MIMI 是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 旗下的作曲家，以微苦而温柔的钢琴曲闻名，作品贴近那些「觉得生活艰难」的人，在广泛的年龄层中收获了支持与共鸣。
+MIMI 是 [KYOKAI STUDIO](/zh/projects/labels/kyokai-studio)（2026年9月自 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 移籍）旗下的作曲家，以微苦而温柔的钢琴曲闻名，作品贴近那些「觉得生活艰难」的人，在广泛的年龄层中收获了支持与共鸣。
 
 以钢琴为核心的亲和编曲与如实映照情感细微之处的歌词世界观为基底，MIMI 的乐曲在神椿创作者阵容中占据了安静却不可或缺的位置。细腻的和弦进行搭配通过直面苦难来传递慰藉的歌词——不是单纯的鼓励，而是以音乐表达「我与你同在」的态度。
+
 
 ## 角色与创作定位
 
 MIMI 创作身份的核心在于苦涩与甘甜交汇的情感地带。钢琴编曲有意排除多余的装饰，将全部重量交给旋律与歌词。由此产生的亲密感——与其说是演奏，不如说更像对话——正是 MIMI 音乐的独特之处。
 
 通过与 CeVIO 合成音声[可不](/zh/artists/isotopes/kafu)（KAFUNE）等虚拟歌手声线的合作，MIMI 将活动范围延伸至虚拟歌手领域，同时始终保持其私密而真诚的告白式基调。
+
 
 ## 活动历程
 
@@ -67,6 +70,8 @@ MIMI 创作身份的核心在于苦涩与甘甜交汇的情感地带。钢琴编
 - 2025年3月26日：发行单曲「大丈夫だよ。(feat.可不)」（没关系的哦，feat. 可不）。
 - 2025年5月21日：发行单曲「向日葵の記憶」（向日葵的记忆），为七大罪游戏合作曲。
 - 作为作曲家在 KAMITSUBAKI STUDIO 生态中持续活跃。
+
+- 2026年9月：THINKR 工作室重组，移籍至 [KYOKAI STUDIO](/zh/projects/labels/kyokai-studio)（原 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 体系）。
 
 ## 代表作品与相关条目
 
@@ -79,20 +84,24 @@ MIMI 创作身份的核心在于苦涩与甘甜交汇的情感地带。钢琴编
 
 - [花譜 / KAF](/zh/artists/vwp/kaf)
 
+
 ## 投稿规模与作品线索
 
 MIMI 于 2016 年以《[ラピスラズリ](/zh/songs/mimi/originals/rapisurazuri)》投稿出道，2017 年的《[モーメント](/zh/songs/mimi/originals/moomento)》首次达到殿堂曲标准。资料整理截至 2025年7月5日记录其共投稿 68 首 VOCALOID / CeVIO 作品，其中 55 首在 niconico 达成殿堂、15 首在 YouTube 达成传说、3 首在 niconico 达成传说。其作品常以一图流影像、可爱的曲绘和钢琴主导的轻快编曲呈现。
 
 2022 年加入神椿后，MIMI 仍保持个人创作路线，同时为虚拟歌手与动画项目提供作品。2023 年为 TV 动画创作片尾曲《ひだまりの彩度》；2023年10月24日发行首张原创专辑，2024年12月20日发行《夜をだきしめる時。》。
 
+
 ## 相关专辑与合作
 
 代表歌曲包括《[マシュマリー](/zh/songs/mimi/originals/mashumarii)》《だいじょうぶだよ。》《向日葵の記憶》等；其中《だいじょうぶだよ。》与[可不](/zh/artists/isotopes/kafu)合作，体现了 MIMI 将私密钢琴叙事转译到音乐同位体声线中的方式。投稿作品、专辑曲目和动画合作曲应分别记录。
+
 
 ## 参考资料
 
 - MIMI 官方 X (Twitter)：<https://twitter.com/mimi_3mi>
 - MIMI 官方 YouTube：<https://www.youtube.com/channel/UCam3IAA-nyfxRL8_wDQ35VA>
+
 
 ## 外部链接
 

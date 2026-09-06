@@ -7,6 +7,10 @@ description: 拓展可能性的未完成的人才。
 order: 2
 ---
 
+> **【归档词条】** 本词条已归档，仅作为历史资料维护，不再随厂牌动态更新。
+>
+> **归档原因**：2026年9月5日，THINKR 公布工作室重组。KAMITSUBAKI STUDIO 转型为专注虚拟领域的厂牌，工作室内部厂牌统一整合为 **PHENOMENON RECORD**；同日公布的新工作室架构中已不再有 SINSEKAI STUDIO / SINSEKAI RECORD，深脊界作为厂牌品牌就此终止运营。原深脊界体系的艺人已分流至 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio)（PHENOMENON RECORD 体制）、新设的 [KYOKAI STUDIO](/zh/projects/labels/kyokai-studio) 与 [ALLT STUDIO](/zh/projects/labels/allt-studio)，详见下文「旗下艺人」。
+
 ## 简介
 
 「SINSEKAI STUDIO」(深脊界工作室)是由「THINKR」、「Bandai Namco Filmworks」以及「pulse」三家公司联合打造的创意厂牌。
@@ -37,8 +41,12 @@ pulse：致力于构建虚拟世界「INSPIX WORLD」，并不断挑战次世代
 - 2025年4月30日：新虚拟歌手琶舞（[BEMA](/zh/artists/solo/bema)）正式出道，上传首个视频「琶舞 Op.1 - はじめまして。」。
 - 2025年5月5日：官方正式公告，明透与琶舞将组成以"爱"为主题的新组合进行活动。
 - 2025年5月7日：[明透](/zh/artists/solo/asu)与[琶舞](/zh/artists/solo/bema)的原创曲MV「[Symbiotic Dominion](/zh/songs/bema/originals/symbiotic-dominion)」公开。
+- 2026年8月下旬：新设的 [KYOKAI STUDIO](/zh/projects/labels/kyokai-studio) 官网先行上线，梓川等原深脊界体系艺人出现在其名单中。
+- 2026年9月5日：THINKR 公布工作室重组（THINKR NEW STUDIO ARCHITECTURE）。KAMITSUBAKI STUDIO 转型为专注虚拟领域的厂牌；同日神椿官网改版，工作室内部厂牌统一整合为 PHENOMENON RECORD，SINSEKAI RECORD 作为厂牌名称停止使用，深脊界词条随之归档。
 
 ## 旗下艺人
+
+> 以下名单为深脊界运营时期的旗下艺人（历史记录）。2026年9月重组后的成员去向：**明透、琶舞、VALIS、Awairo、とあ、tokiwa** 留在神椿（内部厂牌统合为 PHENOMENON RECORD 后的体制）；**梓川** 移籍 [KYOKAI STUDIO](/zh/projects/labels/kyokai-studio)；**存流、詩道、水野あつ、Sooda、雨宿り** 现收录于 [ALLT STUDIO](/zh/projects/labels/allt-studio) 官网名单；**MIMI、雄之助、Hi-Fi P、他人事** 移籍 KYOKAI STUDIO。
 
 **虚拟歌手**
 
@@ -79,3 +87,7 @@ pulse：致力于构建虚拟世界「INSPIX WORLD」，并不断挑战次世代
 - [**深脊界 官方网站**](https://kamitsubaki.jp/)<span class="wiki-spoiler" tabindex="0">（现已重定向至kamitsubaki.jp，[Internet Archive存档](https://web.archive.org/web/20240131034942/https://sinsekaistudio.jp/))</span><br>
 - [**深脊界 官方Youtube页面**](https://www.youtube.com/channel/UCTqFLDr_7lgEaZunMn8gu1Q)<br>
 - [**深脊界 官方X主页**](https://x.com/sinsekai__jp)<br>
+- [**KAMITSUBAKI STUDIO リブランディング公告**（2026年9月5日）](https://kamitsubaki.jp/news/2026/09/05/12092/)<br>
+- [**THINKR 工作室重组新闻稿**（PR TIMES，2026年9月5日）](https://prtimes.jp/main/html/rd/p/000000490.000106737.html)<br>
+- [**KYOKAI STUDIO 官方网站**](https://kyokaistudio.jp/)<br>
+- [**ALLT STUDIO 官方网站**](https://alltstudio.jp/)<br>

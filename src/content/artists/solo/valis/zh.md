@@ -12,7 +12,7 @@ designCredits:
   - "角色设计：ねこ助（Nekosuke）"
 affiliations:
   - "KAMITSUBAKI STUDIO"
-  - "SINSEKAI RECORD"
+  - "PHENOMENON RECORD"
 officialLinks:
   - label: "VALIS 官方网站"
     href: "https://valis.sinsekaistudio.jp/"
@@ -53,17 +53,20 @@ seo:
     - "SINSEKAI RECORD"
 ---
 
+
 ## 概述
 
 VALIS（ヴァリス）是 [SINSEKAI RECORD](/zh/projects/labels/sinsekai-studio) 旗下的六人虚拟少女组合，成员由 CHINO、MYU、NEFFY、NINA、RARA、VITTE 组成。团体以“在虚拟与现实之间旅行”为概念，同时以 avatar（虚拟形象）和 origin（真实形态）两种形态展开活动，形成独特的二元表达方式。
 
 角色视觉设计由插画师ねこ助（Nekosuke）担当，整体风格兼具少女感与未来感。作为 SINSEKAI RECORD 体系中较具代表性的组合之一，VALIS 在音乐作品和现场演出两个层面都保持着较高的活跃度，定期举办 ONE-MAN LIVE 等专场活动。
 
+
 ## 角色与创作定位
 
 VALIS 的核心定位围绕"虚拟"与"真实"的二元关系展开。五位成员在不同演出形态之间切换，既以虚拟形象呈现舞台表演，也以真人"起源"形态与观众建立更直接的连接。这种双轨制使团体在神椿体系中拥有区别于其他艺人的独特位置。
 
 音乐风格上，VALIS 擅长将少女流行感与更具冲击力的表达相结合，歌词常围绕恋爱、心理、童话解构等主题展开，呈现出既甜美又带有暗面张力的创作特征。
+
 
 ## 成员与形态
 
@@ -78,6 +81,7 @@ VALIS 的核心定位围绕"虚拟"与"真实"的二元关系展开。五位成�
 
 六位成员各自拥有 avatar 与 origin 两套表达形态。前者承担虚拟马戏团、角色和舞台视觉，后者对应现实侧的表演者形象；两种形态不是简单的换装，而是 VALIS 世界观中“虚拟—现实”二元结构的组成部分。
 
+
 ## 活动历程
 
 - 2020年5月15日发行出道曲《残响Vandeler》正式出道，随后以 SINSEKAI RECORD 名义展开音乐活动。
@@ -89,6 +93,8 @@ VALIS 的核心定位围绕"虚拟"与"真实"的二元关系展开。五位成�
 
 VALIS 的主要录音作品还包括 1st Album《WONDERLAND》（2021）与 2nd Album《SHINSEKAI》（2023）。
 
+- 2026年9月5日：神椿工作室改版，工作室内部厂牌统一整合为 PHENOMENON RECORD，改隶该厂牌（原 SINSEKAI RECORD 厂牌名称停止使用）。
+
 ## 代表作品与相关条目
 
 了解 VALIS 时，建议从代表曲目与现场演出两条线索入手：
@@ -97,14 +103,17 @@ VALIS 的主要录音作品还包括 1st Album《WONDERLAND》（2021）与 2nd 
 - 现场演出：多次 ONE-MAN LIVE 系列，包括《喝采 Curtain Call》《咆哮 Forever》等
 - 跨媒体参与：虚拟舞台剧《御伽噺（Some）》
 
+
 ## 相关企划
 
 VALIS 与 KAMITSUBAKI PHILHARMONIC ORCHESTRA 等神椿体系内的音乐企划有所交集，通过参与虚拟舞台剧等形式与其他项目产生联动。其"二元性"概念也使她们在 SINSEKAI RECORD 的整体叙事中承担了特殊的角色功能。
+
 
 ## 参考资料
 
 - VALIS 官方网站：<https://valis.sinsekaistudio.jp/>
 - [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 官方艺人页：<https://kamitsubaki.jp/artist/valis/>
+
 
 ## 外部链接
 

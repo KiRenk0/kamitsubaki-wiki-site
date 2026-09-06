@@ -10,7 +10,7 @@ profileTagline: "A Vocaloid producer and all-around creator who self-produces ly
 designCredits: []
 affiliations:
   - "KAMITSUBAKI STUDIO"
-  - "CREATOR FARM"
+  - "PHENOMENON RECORD"
 officialLinks:
   - label: "Twitter"
     href: "https://twitter.com/tokiwa_shion"
@@ -46,11 +46,13 @@ seo:
     - "CREATOR FARM"
 ---
 
+
 ## Overview
 
 tokiwa is a music artist and Vocaloid producer affiliated with KAMITSUBAKI STUDIO's CREATOR FARM. Uniquely among many Vocaloid creators, tokiwa handles the full creative pipeline personally -- lyrics, composition, arrangement, illustration, and video production -- giving every release a cohesive artistic identity.
 
 His style is defined by poignant, emotionally layered lyrics paired with memorable melodies that traverse a wide range of genres including EDM, R&B, and rock. This versatility, combined with his hands-on approach to visual production, sets him apart as a truly self-contained creator within the Kamitsubaki ecosystem.
+
 
 ## Role and Creative Position
 
@@ -58,11 +60,14 @@ tokiwa occupies a distinctive position as a multi-disciplinary creator who bridg
 
 Spanning EDM, R&B, and rock, his genre fluidity reflects the broad creative ambition encouraged by the CREATOR FARM environment, where independent artists develop their craft alongside the wider Kamitsubaki network.
 
+
 ## Activity History
 
 - Active as a Vocaloid producer, developing a catalog of original songs across multiple genres.
 - Joined [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio)'s CREATOR FARM, expanding his reach within the Kamitsubaki creator ecosystem.
 - Consistently self-produces all aspects of his releases, including illustration and video.
+
+- September 5, 2026: With the renewal of KAMITSUBAKI STUDIO, the in-studio labels were consolidated into PHENOMENON RECORD.
 
 ## Representative Works and Related Entries
 
@@ -73,9 +78,11 @@ Useful related entries:
 
 - [Hitogoto](/en/artists/creators/hitogoto)
 
+
 ## References
 
 - tokiwa Twitter: <https://twitter.com/tokiwa_shion>
+
 
 ## External Links
 

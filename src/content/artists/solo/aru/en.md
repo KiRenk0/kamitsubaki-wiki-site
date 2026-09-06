@@ -9,17 +9,21 @@ itemOrder: 2.1
 statusLabel: "STATUS"
 status: "INACTIVE"
 inactive: true
+affiliations:
+  - "ALLT STUDIO"
 image: "/images/artists/aru.png"
 name: "ARU"
 categoryTitle: "Solo Artists & Units"
 categorySubtitle: "SOLO ARTISTS & UNITS"
 ---
 
+
 ## Overview
 
 ARU (存流 / ある) was a virtual singer in the SINSEKAI STUDIO branch of [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) and one half of [Albemuth](/en/artists/solo/albemuth) with [ASU](/en/artists/solo/asu). She began activity on June 20, 2021 and graduated on April 9, 2024.
 
 Her whisper-like, breathy, restrained vocal colour and white gothic-elegant visual identity, designed by Mai Yoneyama, formed one side of Albemuth's contrast with ASU's brighter and more impulsive singing.
+
 
 ## Basic Profile
 
@@ -34,9 +38,11 @@ Her whisper-like, breathy, restrained vocal colour and white gothic-elegant visu
 
 “Whisper-voice demon” and similar expressions are audience descriptions of her vocal performance, not official job titles.
 
+
 ## Representative Works
 
 Her representative works include “Sayonara”, “[Mahou](/en/albums/kaf/maho)”, “Zankyo”, “Kaibutsu”, and “Gifted”. During [Albemuth](/en/artists/solo/albemuth)'s unit period she also participated in “[Guilty](/en/songs/albemuth/originals/guilty)”, “Shinsekai e”, “tether”, and “Black Cloth”. The album *eve* presents the ARU side of the paired *eve / ADAM* project.
+
 
 ## Activity History
 
@@ -45,9 +51,12 @@ Her representative works include “Sayonara”, “[Mahou](/en/albums/kaf/maho)
 - **July 5, 2023**: Released the ARU-side album *eve* alongside ASU's *ADAM*.
 - **April 9, 2024**: Graduated; the original Albemuth duo period ended.
 
+- September 2026: Listed on the [ALLT STUDIO](/en/projects/labels/allt-studio) official website roster (formerly of the SINSEKAI system).
+
 ## Unit Relationship and Record Boundaries
 
 Albemuth was an independent unit with its own name, visual concept, live project, and member-side albums. *eve* should therefore be recorded in both ARU's connected history and the unit's catalogue, while ARU's post-graduation status should not be merged with ASU's continuing solo activity.
+
 
 ## Related Projects / Setting
 

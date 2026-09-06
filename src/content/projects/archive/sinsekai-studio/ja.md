@@ -7,6 +7,10 @@ description: 可能性を広げる未完成な才能達。
 order: 2
 ---
 
+> **【アーカイブ済みの項目】** 本項目はアーカイブされており、過去の資料としてのみ保守されます。レーベルの動向は反映されません。
+>
+> **アーカイブの理由**：2026年9月5日、THINKR がスタジオ再編を発表。KAMITSUBAKI STUDIO はバーチャル領域に特化する体制へと移行し、スタジオ内レーベルは **PHENOMENON RECORD** へ統合されました。同日発表された新スタジオ体制に SINSEKAI STUDIO / SINSEKAI RECORD の名はなく、深脊界はレーベルブランドとしての活動を終了しました。旧・深脊界体系のアーティストは、[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio)（PHENOMENON RECORD 体制）、新設の [KYOKAI STUDIO](/ja/projects/labels/kyokai-studio)、[ALLT STUDIO](/ja/projects/labels/allt-studio) へと分流しています。詳細は下記「所属アーティスト」を参照。
+
 ## 概要
  
 「SINSEKAI STUDIO」（深脊界スタジオ）は、「THINKR」、「バンダイナムコフィルムワークス」、および「pulse」の3社が共同で立ち上げたクリエイティブレーベルです。
@@ -33,8 +37,12 @@ pulse：仮想世界「INSPIX WORLD」の構築に取り組み、次世代のバ
 - 2025年4月30日：新しいバーチャルシンガー・琶舞（[BEMA](/ja/artists/solo/bema)）が正式にデビューし、最初の動画「琶舞 Op.1 - はじめまして。」をアップロードしました。
 - 2025年5月5日：公式発表により、明透と琶舞が「愛」をテーマにした新たなユニットを結成し、活動を開始することが発表されました。
 - 2025年5月7日：[明透](/ja/artists/solo/asu)と[琶舞](/ja/artists/solo/bema)のオリジナル曲MV「[Symbiotic Dominion](/ja/songs/bema/originals/symbiotic-dominion)」が公開されました。
+- 2026年8月下旬：新設の [KYOKAI STUDIO](/ja/projects/labels/kyokai-studio) 公式サイトが先行公開され、梓川ら旧・深脊界体系のアーティストがその名簿に名を連ねました。
+- 2026年9月5日：THINKR がスタジオ再編（THINKR NEW STUDIO ARCHITECTURE）を発表。KAMITSUBAKI STUDIO はバーチャル領域に特化。同日、神椿公式サイトがリニューアルされ、スタジオ内レーベルは PHENOMENON RECORD に統合され、SINSEKAI RECORD の名称は使用終了となりました。本項目もこれに伴いアーカイブされています。
 ### 所属アーティスト
- 
+
+> 以下の名簿は、深脊界の運営時期における所属アーティスト（歴史的記録）です。2026年9月の再編後のメンバーの動向：**明透・琶舞・VALIS・Awairo・とあ・tokiwa** は神椿に残る（スタジオ内レーベルが PHENOMENON RECORD に統合された新体制）；**梓川** は [KYOKAI STUDIO](/ja/projects/labels/kyokai-studio) へ移籍；**存流・詩道・水野あつ・Sooda・雨宿り** は現在 [ALLT STUDIO](/ja/projects/labels/allt-studio) 公式サイトの名簿に掲載；**MIMI・雄之助・Hi-Fi P・他人事** は KYOKAI STUDIO へ移籍。
+
 **バーチャルシンガー**
 
 - [**明透（ASU）**](https://kamitsubaki.wiki/ja/artists/solo/asu/) 
@@ -74,3 +82,7 @@ pulse：仮想世界「INSPIX WORLD」の構築に取り組み、次世代のバ
 - [**深脊界 公式サイト**](https://kamitsubaki.jp/)<span class="wiki-spoiler" tabindex="0">（現在はkamitsubaki.jpにリダイレクト中、[インターネットアーカイブ](https://web.archive.org/web/20240131034942/https://sinsekaistudio.jp/))</span><br>
 - [**深脊界 公式YouTubeチャンネル**](https://www.youtube.com/channel/UCTqFLDr_7lgEaZunMn8gu1Q)<br>
 - [**深脊界 公式Xアカウント**](https://x.com/sinsekai__jp)<br>
+- [**KAMITSUBAKI STUDIO リブランディングのお知らせ**（2026年9月5日）](https://kamitsubaki.jp/news/2026/09/05/12092/)<br>
+- [**THINKR スタジオ再編プレスリリース**（PR TIMES、2026年9月5日）](https://prtimes.jp/main/html/rd/p/000000490.000106737.html)<br>
+- [**KYOKAI STUDIO 公式サイト**](https://kyokaistudio.jp/)<br>
+- [**ALLT STUDIO 公式サイト**](https://alltstudio.jp/)<br>

@@ -12,7 +12,7 @@ designCredits:
   - "キャラクターデザイン：ねこ助"
 affiliations:
   - "KAMITSUBAKI STUDIO"
-  - "SINSEKAI RECORD"
+  - "PHENOMENON RECORD"
 officialLinks:
   - label: "VALIS 公式サイト"
     href: "https://valis.sinsekaistudio.jp/"
@@ -54,17 +54,20 @@ seo:
     - "SINSEKAI RECORD"
 ---
 
+
 ## 概要
 
 VALIS（ヴァリス）は、[SINSEKAI RECORD](/ja/projects/labels/sinsekai-studio) に所属する6人組のバーチャルガールズグループである。メンバーは CHINO（チノ）、MYU（ミュー）、NEFFY（ネフィ）、NINA（ニナ）、RARA（ララ）、VITTE（ヴィッテ）の6名で構成される。
 
 「バーチャルとリアルの世界を旅する」というコンセプトのもと、アバター姿と「オリジン」と呼ばれるリアルな姿の二つの形態で活動を行うことが、VALIS の最大の特徴である。キャラクターデザインはねこ助が担当しており、少女らしさと未来的な要素を融合したビジュアルが特徴的だ。
 
+
 ## 役割と創作上の位置づけ
 
 VALIS の活動における核となるのは、「バーチャル」と「リアル」の二元性である。5人のメンバーは異なるパフォーマンス形態を切り替えながら、アバターとしての舞台表現と、リアルな姿による直接的なコミュニケーションの両方を展開する。この二面性は、神椿の体系において他のアーティストとは異なる独自の立ち位置を生み出している。
 
 楽曲面では、少女的なポップス感覚とより攻撃的な表現を融合させたスタイルを得意とし、歌詞には恋愛、心理、童話の解構などのテーマが織り込まれ、甘さとダークな張力が共存する作風が特徴的である。
+
 
 ## 活動歴
 
@@ -74,6 +77,8 @@ VALIS の活動における核となるのは、「バーチャル」と「リ�
 - KAMITSUBAKI PHILHARMONIC ORCHESTRA 協力によるバーチャル舞台劇『御伽噺（Some）』など、横断的企画にも参加。
 - 2025年2月21日、6th ONE-MAN LIVE『喝采 Curtain Call』を開催。
 - 2025年9月27日、7th ONE-MAN LIVE『咆哮 Forever』を開催予定。
+
+- 2026年9月5日：神椿スタジオのリニューアルに伴い、スタジオ内レーベルが PHENOMENON RECORD に統合され、同レーベル所属となる（旧・SINSEKAI RECORD の名称は使用終了）。
 
 ## メンバーと形態
 
@@ -88,6 +93,7 @@ VALIS の活動における核となるのは、「バーチャル」と「リ�
 
 VALISは6人のメンバーが avatar と origin の2つの形態を使い分ける。これは単なる衣装違いではなく、虚実二元論とサーカス世界を構成する設定上の要素である。
 
+
 ## 代表作品と関連項目
 
 VALIS を知るうえでは、代表楽曲とライブ活動の二つの軸から入るのが効果的である：
@@ -98,14 +104,17 @@ VALIS を知るうえでは、代表楽曲とライブ活動の二つの軸か�
 
 主なアルバムには1st Album『WONDERLAND』（2021）と2nd Album『SHINSEKAI』（2023）がある。
 
+
 ## 関連企画
 
 VALIS は KAMITSUBAKI PHILHARMONIC ORCHESTRA など、神椿体系内の音楽企画との接点を持ち、バーチャル舞台劇への参加などを通じて他プロジェクトとの連動を行っている。「二元性」というコンセプトは、SINSEKAI RECORD の全体的な物語構造においても特別な役割を担っている。
+
 
 ## 参考資料
 
 - VALIS 公式サイト：<https://valis.sinsekaistudio.jp/>
 - [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) 公式アーティストページ：<https://kamitsubaki.jp/artist/valis/>
+
 
 ## 外部リンク
 

@@ -10,7 +10,7 @@ debutDate: "2024-01-14"
 profileTagline: "新生代バーチャルシンガーソングライター。KAF の新たな分枝として、衝動的な感情を歌に閉じ込める。"
 designCredits: []
 affiliations:
-  - "KAMITSUBAKI STUDIO"
+  - "KYOKAI STUDIO"
 officialLinks:
   - label: "公式サイト"
     href: "https://kaika.kamitsubaki.jp/"
@@ -53,15 +53,18 @@ seo:
     - "花譜"
 ---
 
+
 ## 概要
 
-廻花（Kaika）は [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) の新生代バーチャルシンガーソングライターであり、「[花譜](/ja/artists/vwp/kaf)の新たな分枝」として位置づけられている。2024年1月14日、花譜の 4th ONE-MAN LIVE「怪歌」（国立代々木競技場第一体育館）にてデビュー。衝動的で飾らない感情をそのまま歌に閉じ込めるスタイルが特徴で、花譜の創作系譜から分岐した新たな存在として活動を開始した。
+廻花（Kaika）は [KYOKAI STUDIO](/ja/projects/labels/kyokai-studio)（2026年9月に [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) から移籍） の新生代バーチャルシンガーソングライターであり、「[花譜](/ja/artists/vwp/kaf)の新たな分枝」として位置づけられている。2024年1月14日、花譜の 4th ONE-MAN LIVE「怪歌」（国立代々木競技場第一体育館）にてデビュー。衝動的で飾らない感情をそのまま歌に閉じ込めるスタイルが特徴で、花譜の創作系譜から分岐した新たな存在として活動を開始した。
 
 神椿のエコシステムにおいて、廻花は独自のポジションを占める——シンガーソングライターであると同時にキャラクターとしての物語も内包する。その作品は直感と本能を探求し、V.W.P メンバーたちのより文学的・哲学的なアプローチとは異なる方向性を持つ。
+
 
 ## 役割と創作上の位置づけ
 
 廻花のアイデンティティは「分枝」という核となるイメージの上に構築されている。花譜の創作系譜からの新たな分岐として明確に設定され、花譜の芸術的 DNA を受け継ぎながら独自の声を育んでいる。「廻花」という名前には循環する成長と回帰の意味が込められており、外へ分かれたとしても根源との繋がりが失われないことを示唆する。創作の方向性は「直接性」を重視——感情が理性で磨かれる前に、ありのままを捉える。
+
 
 ## 活動歴
 
@@ -73,6 +76,8 @@ seo:
 - **2025年7月27日**：「KAMITSUBAKI FES ’25 / Singularity Live Vol.4」に参加。
 - **その他**：シングル「[スタンドバイミー](/ja/songs/kaika/originals/sutandobaimii)」「[ひぐらしのうた](/ja/songs/kaika/originals/higurashinouta)」「[テディベア](/ja/songs/kaika/originals/tedeibea)」「[かいか](/ja/songs/kaika/originals/kaika)」などをリリース。
 
+- 2026年9月：THINKRのスタジオ再編に伴い、[KYOKAI STUDIO](/ja/projects/labels/kyokai-studio) へ移籍（旧・[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) 体系）。
+
 ## 代表作品
 
 - 1st アルバム：『うまれるまえからきみをしってる』
@@ -82,13 +87,16 @@ seo:
 
 - [花譜](/ja/artists/vwp/kaf)
 
+
 ## 関連企画 / 関連設定
 
 廻花の起源は花譜の芸術的物語と直結しており——花譜の創作宇宙から分枝的存在として誕生した、神椿のロースターの中で最も物語的に統合されたソロアクトの一つである。個展「KuruKuru」はその存在を視覚芸術や物理的な空間にまで拡張し、音楽・キャラクター・体験型アートの境界を曖昧にする神椿の姿勢を体現している。
 
+
 ## 参考資料
 
 - 廻花公式サイト：<https://kaika.kamitsubaki.jp/>
+
 
 ## 外部リンク
 

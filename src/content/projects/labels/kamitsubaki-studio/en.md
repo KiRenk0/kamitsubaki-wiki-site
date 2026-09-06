@@ -13,6 +13,8 @@ KAMITSUBAKI STUDIO is an artistic creation collective, creative label, and artis
 
 The label's slogan is **"Everything starts from here."** and its mission is **"To slightly change the world through music and stories."**
 
+Since September 5, 2026, as part of THINKR's studio reorganization, Kamitsubaki has transitioned into a studio **dedicated to the virtual domain**; the real-life artists and creators from the former system have moved to the newly established [KYOKAI STUDIO](/en/projects/labels/kyokai-studio) and other sibling studios.
+
 ## History
 
 ### 2018 - 2019: Pre-dawn and Foundation
@@ -34,6 +36,7 @@ The label's slogan is **"Everything starts from here."** and its mission is **"T
 - **March 31, 2023**: Resident composer and music producer Kanzaki Iori officially graduated from the studio.
 - **October 18, 2023**: Announced that [Yunosuke](/en/artists/creators/yunosuke) and WaMi would debut as the musical duo "[Awairo](/en/artists/solo/awairo)."
 - **January 13–14, 2024**: Successfully held the studio-hosted festival "KAMITSUBAKI FES '24."
+- **September 5, 2026**: THINKR announced its studio reorganization (refresh of the studio structure). KAMITSUBAKI STUDIO transitioned into a studio dedicated to the virtual domain; [KYOKAI STUDIO](/en/projects/labels/kyokai-studio) (collaborating with artists who explore their own boundaries) and [UNKNOWN LAB](/en/projects/labels/unknown-lab) (an R&D department centered on general producer PIEDPIPER) were newly established as spin-offs. The same day, the official website was fully renewed and the labels inside the studio were consolidated into **PHENOMENON RECORD**, retiring the names of [SINSEKAI RECORD](/en/projects/archive/sinsekai-studio) and other labels.
 
 ## Core Members
 
@@ -59,7 +62,10 @@ Creative vocal synthesis software developed in collaboration with CeVIO AI and V
 ## Related Projects
 
 - **[Kamitsubaki City Under Construction](/en/projects/arg/kamitsubaki-city)**: A core cross-media IP combining ARG games, board games, light novels, and TV anime series.
-- **SINSAEKAI STUDIO**: Kamitsubaki's sister label, focusing more on indie music and avant-garde visual exploration.
+- **[SINSEKAI RECORD (archived)](/en/projects/archive/sinsekai-studio)**: Kamitsubaki's former sister label; retired after the September 2026 label consolidation.
+- **[KYOKAI STUDIO](/en/projects/labels/kyokai-studio)**: A music studio established on September 5, 2026 as a spin-off from Kamitsubaki, carrying over the system's real-life artists and creators.
+- **[ALLT STUDIO](/en/projects/labels/allt-studio)**: THINKR's net-scene music creator label; former SINSEKAI artists such as ARU, Shido, and Amayadori are now listed on its roster.
+- **[UNKNOWN LAB](/en/projects/labels/unknown-lab)**: An R&D department newly established on September 5, 2026, centered on general producer PIEDPIPER as an experimental ground for new businesses and projects.
 
 ## Label Architecture and Creative Divisions
 
@@ -67,8 +73,8 @@ Kamitsubaki is not only an agency for virtual singers. It is a label ecosystem i
 
 | Division | Role and associated lines |
 | --- | --- |
-| PHENOMENON RECORD | Core virtual-witch label for KAF, RIM, Harusaruhi, Isekaijoucho, KOKO, and V.W.P |
-| SINSEKAI STUDIO / [SINSEKAI RECORD](/en/projects/labels/sinsekai-studio) | Other-world and derivative lines including [Albemuth](/en/artists/solo/albemuth), [ARU](/en/artists/solo/aru), [ASU](/en/artists/solo/asu), and [VALIS](/en/artists/solo/valis) |
+| PHENOMENON RECORD | Kamitsubaki's unified label after the September 2026 consolidation, centered on virtual artists such as KAF, RIM, Harusaruhi, Isekaijoucho, KOKO, and V.W.P |
+| [SINSEKAI RECORD (archived)](/en/projects/archive/sinsekai-studio) | Former SINSEKAI label (other-world and derivative lines including [Albemuth](/en/artists/solo/albemuth), [ARU](/en/artists/solo/aru), [ASU](/en/artists/solo/asu), and [VALIS](/en/artists/solo/valis)); consolidated into PHENOMENON RECORD and retired in September 2026 |
 | [GIRLS REVOLUTION PROJECT](/en/projects/labels/girls-revolution-project) | Cross-media girl-group, audition, and new virtual-artist projects |
 | KAMITSUBAKI CREATION | Network of composers, illustrators, directors, and other production creators |
 | Musical Isotopes | CeVIO AI and VOICEPEAK products and characters developed from artists' vocal data |

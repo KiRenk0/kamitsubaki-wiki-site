@@ -11,7 +11,7 @@ designCredits:
   - "Character design: Mai Yoneyama"
 affiliations:
   - "KAMITSUBAKI STUDIO"
-  - "Shinkai-kai"
+  - "PHENOMENON RECORD"
 officialLinks:
   - label: "X (Twitter)"
     href: "https://twitter.com/ASU_virtual"
@@ -47,17 +47,20 @@ seo:
     - "KAMITSUBAKI STUDIO"
 ---
 
+
 ## Overview
 
 ASU is a next-generation virtual singer who appeared in Shinkai-kai, the parallel other world that exists alongside the Kamitsubaki setting. Characterized by innate rhythmic sense and an unpredictable singing voice, she is a carefree, innocent girl who acts on pure instinct. Her character design was created by renowned animator Mai Yoneyama.
 
 ASU debuted in August 2021. She held her first in-person 1st ONE-MAN LIVE "RAY" on December 28, 2024, followed by her 2nd ONE-MAN LIVE "BIRTH" on August 30, 2025, quickly establishing a distinct presence. Her activities are connected to yet independent from the main Kamitsubaki world, representing the musical expression of the Shinkai-kai side.
 
+
 ## Role and Creative Position
 
 ASU's defining traits are instinct and unpredictability. Her vocal range is broad, and her natural rhythmic ability allows her to deliver performances that break free from conventional frameworks. Mai Yoneyama's character design gives her a look that balances transparency with vitality, echoing the atmosphere of Shinkai-kai.
 
 Her songwriting emphasizes intuitive emotional expression. The lyrics and melodies overflow with a youthful purity and impulsiveness, bringing a fresh color to the Kamitsubaki ecosystem that differs from the V.W.P lineage.
+
 
 ## Activity History
 
@@ -67,6 +70,8 @@ Her songwriting emphasizes intuitive emotional expression. The lyrics and melodi
 - Appeared at KAMITSUBAKI WARS 2025 and KAMITSUBAKI FES '25.
 - Appeared at KAMITSUBAKI WARS 2026 Yokohama.
 
+- September 5, 2026: With the renewal of KAMITSUBAKI STUDIO, the in-studio labels were consolidated into PHENOMENON RECORD, which now represents the artist (the SINSEKAI RECORD name was retired).
+
 ## Representative Works and Related Entries
 
 - Singles: "Little Bit," "Route Cure," "Bitter Etude," "HOME," "Link"
@@ -75,13 +80,16 @@ Useful related entries:
 
 - Shinkai-kai related projects
 
+
 ## Related Projects / Setting
 
 ASU originates from Shinkai-kai, a world that exists in parallel with the Kamitsubaki setting. Through her appearances at major events such as KAMITSUBAKI WARS and KAMITSUBAKI FES, she serves as an important entry point for understanding the relationship between Shinkai-kai and Kamitsubaki.
 
+
 ## References
 
 - [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) official information
+
 
 ## External Links
 
