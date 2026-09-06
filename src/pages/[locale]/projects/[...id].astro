@@ -1,4 +1,5 @@
 ---
+import WikiArticleHeader from '../../../components/WikiArticleHeader.astro';
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import SiteNav from '../../../components/SiteNav.astro';
@@ -44,31 +45,25 @@ const sourceHref = `/${localeCode}/contribute/edit?target=${encodeURIComponent(c
 
 const labels = resolveLocaleCopy({
   zh: {
-    back: '返回首页',
+    home: '首页', source: '编辑条目', languages: '切换语言',
     eyebrow: '项目条目',
     contents: '目录',
-    category: '分类',
-    entryId: '条目编号',
     emptyTitle: '资料正在整理',
     emptyBody: '这个项目已经建立观测入口，但可验证的资料仍待补充。欢迎从项目背景、时间线或关联作品开始完善。',
     emptyAction: '补充这个条目',
   },
   ja: {
-    back: 'ホームへ戻る',
+    home: 'ホーム', source: '記事を編集', languages: '言語を切り替える',
     eyebrow: 'プロジェクト記事',
     contents: '目次',
-    category: '分類',
-    entryId: '記事 ID',
     emptyTitle: '資料を整理中です',
     emptyBody: 'このプロジェクトの観測入口は用意されています。検証可能な資料は、背景・年表・関連作品から少しずつ補完できます。',
     emptyAction: 'この項目を補完する',
   },
   en: {
-    back: 'Back to home',
+    home: 'Home', source: 'Edit article', languages: 'Change language',
     eyebrow: 'Project Article',
     contents: 'Contents',
-    category: 'Category',
-    entryId: 'Entry ID',
     emptyTitle: 'Documentation in progress',
     emptyBody: 'This project already has an observation entry. Its verified background, timeline, and related works are ready to be documented.',
     emptyAction: 'Contribute to this entry',
@@ -76,55 +71,33 @@ const labels = resolveLocaleCopy({
 }, localeCode);
 ---
 
-<BaseLayout lang={localeCode} alternates={alternates} title={`${project.title} - Kamitsubaki Studio Fan Wiki`} metadata={metadata}>
+<BaseLayout reading lang={localeCode} alternates={alternates} title={`${project.title} - Kamitsubaki Studio Fan Wiki`} metadata={metadata}>
   <SiteNav navItems={homeContent.navItems} localeLinks={localeLinks} brandLines={homeContent.hero.brandLines} compact homeHref={`/${localeCode}/`} />
 
   <div class="fixed left-0 top-0 z-[60] h-px w-full origin-left bg-white/70" data-reading-progress></div>
 
-  <main class="mx-auto max-w-[92rem] px-4 pb-12 pt-24 sm:px-6 sm:pt-28 lg:pt-28">
-    <div class="wiki-entry-hero grid gap-8 border-b border-white/10 pb-8 sm:gap-10 sm:pb-10 lg:grid-cols-[minmax(0,1fr)_20rem] reveal-up">
-      <div class="min-w-0">
-        <a href={`/${localeCode}/#projects`} class="text-[9px] font-mono uppercase tracking-[0.22em] text-white/38 transition-colors hover:text-white">
-          {labels.back}
-        </a>
-        <p class="mt-5 text-[9px] font-mono uppercase tracking-[0.24em] text-white/32">{labels.eyebrow}</p>
-        <h1 class="wiki-page-title mt-3 max-w-4xl font-serif text-[2rem] font-semibold tracking-[0.06em] text-white sm:text-5xl">
-          {project.title}
-        </h1>
-        <div class="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 text-[10px] tracking-[0.14em] text-white/42 sm:text-[11px]">
-          <span>{project.kind}</span>
-          <span class="hidden h-px w-8 bg-white/15 sm:block"></span>
-          <span>{labels.category}: {project.categoryTitle}</span>
-        </div>
-        {project.description && (
-          <p class="mt-6 max-w-3xl text-sm leading-7 text-white/62 sm:text-[15px] sm:leading-8">
-            {project.description}
-          </p>
-        )}
-        <MemoryCorridorEntryLink locale={localeCode} kind="project" entryId={id!} />
-      </div>
-
-      <aside class="wiki-side-card wiki-entry-meta-card rounded-md border border-white/10 bg-white/[0.03] p-5 sm:p-6">
-        <p class="text-[9px] font-mono uppercase tracking-[0.2em] text-white/35">{project.categoryTitle}</p>
-        <p class="mt-2 text-lg font-medium text-white/84">{project.kind}</p>
-        <p class="mt-5 text-[9px] font-mono uppercase tracking-[0.2em] text-white/32">{labels.entryId}</p>
-        <p class="mt-2 break-all text-[11px] leading-6 text-white/48">{id}</p>
-      </aside>
-    </div>
+  <main class="reader-frame reader-heading-frame mx-auto max-w-[92rem] px-4 pb-12 pt-24 sm:px-6 sm:pt-28 lg:pt-28">
+    <WikiArticleHeader
+      data={{ name: project.title, romanizedName: '', categoryTitle: project.categoryTitle, profileTagline: project.description }}
+      localeLinks={localeLinks}
+      labels={{ ...labels, section: labels.eyebrow }}
+      sourceHref={sourceHref}
+      homeHref={`/${localeCode}/`}
+    />
 
     <div class:list={[
-      'mt-8 grid gap-8 lg:mt-10',
+      'reader-layout reader-layout--essay grid gap-8',
       hasArticleBody ? 'lg:grid-cols-12' : 'lg:grid-cols-1',
     ]}>
       {hasTableOfContents && (
-        <aside class="hidden lg:col-span-2 lg:block">
+        <aside class="reader-toc-column hidden lg:col-span-2 lg:block">
           <TableOfContents headings={headings} title={labels.contents} />
         </aside>
       )}
 
       {hasArticleBody && (
         <article class:list={[
-          'wiki-reader wiki-prose prose prose-invert min-w-0 max-w-none reveal-up',
+          'reader-body wiki-reader wiki-prose prose prose-invert min-w-0 max-w-none',
           hasTableOfContents ? 'lg:col-span-8' : 'lg:col-span-10 lg:col-start-2',
         ]}>
           {hasTableOfContents && (
@@ -143,8 +116,7 @@ const labels = resolveLocaleCopy({
       )}
 
       {!hasArticleBody && (
-        <section class="wiki-empty-state mx-auto w-full max-w-2xl reveal-up" aria-labelledby="project-empty-title">
-          <p class="text-[9px] font-mono uppercase tracking-[0.24em] text-white/36">PROJECT NOTE</p>
+        <section class="wiki-empty-state mx-auto w-full max-w-2xl" aria-labelledby="project-empty-title">
           <h2 id="project-empty-title" class="mt-4 font-serif text-2xl text-white/88 sm:text-3xl">{labels.emptyTitle}</h2>
           <p class="mt-4 max-w-xl text-sm leading-7 text-white/62 sm:text-[15px] sm:leading-8">{labels.emptyBody}</p>
           <a href={sourceHref} class="wiki-empty-state__action mt-7">{labels.emptyAction}</a>
@@ -152,7 +124,8 @@ const labels = resolveLocaleCopy({
       )}
     </div>
 
-    <div class="mx-auto mt-10 max-w-4xl">
+    <div class="reader-end mx-auto mt-10 max-w-4xl">
+      <MemoryCorridorEntryLink locale={localeCode} kind="project" entryId={id!} />
       <ContentLicenseNotice license={entry.data.license} locale={localeCode} />
     </div>
   </main>

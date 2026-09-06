@@ -1,0 +1,9 @@
+:root {
+  --ui-radius-control: 8px;
+  --ui-radius-panel: 12px;
+  --ui-radius-item: 6px;
+  --ui-duration: 180ms;
+  --ui-duration-panel: 260ms;
+  --ui-duration-enter: 480ms;
+  --ui-ease: cubic-bezier(.16, 1, .3, 1);
+}

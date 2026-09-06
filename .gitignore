@@ -9,6 +9,8 @@ dist/
 
 # Astro generated
 .astro/
+.cache/image-thumbnails/
+public/thumbnails/
 
 # Build-generated Traditional Chinese content
 src/content/**/zh-tw.md

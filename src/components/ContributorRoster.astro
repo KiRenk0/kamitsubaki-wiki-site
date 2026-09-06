@@ -18,7 +18,8 @@ const ownerLogin = import.meta.env.PUBLIC_SITE_OWNER_GITHUB || 'LinkTh1rsty';
 const editableCollections = new Set(['artists', 'albums', 'songs', 'projects', 'logs']);
 const editableLocale = getEditableLocale(locale);
 const targetPath = editableCollections.has(collection) && entryId ? `src/content/${collection}/${entryId}/${editableLocale}.md` : '';
-const editHref = targetPath ? `${guideHref}?target=${encodeURIComponent(targetPath)}` : guideHref;
+const editorHref = `/${locale}/contribute/editor/`;
+const editHref = targetPath ? `${editorHref}?target=${encodeURIComponent(targetPath)}` : editorHref;
 const resolvedCopy = resolveLocaleCopy({
   zh: {
     kicker: mode === 'entry' ? 'ENTRY KEEPERS' : 'COMMUNITY ARCHIVE',
@@ -135,6 +136,7 @@ const copy = {
 
 <section
   class:list={['contributor-roster', 'reveal-up', mode === 'summary' ? 'contributor-roster--summary' : 'contributor-roster--entry']}
+  id={mode === 'summary' ? 'contributors' : undefined}
   data-contributor-roster
   data-mode={mode}
   data-api-base={apiBase}
@@ -156,7 +158,7 @@ const copy = {
     <p>{copy.subtitle}</p>
   </header>
 
-  <div class="contributor-roster__state" data-contributor-state>{copy.loading}</div>
+  <div class="contributor-roster__state" role="status" data-contributor-state>{copy.loading}</div>
   <div class="contributor-roster__content" data-contributor-content hidden></div>
   {mode === 'summary' && <ManualContributors locale={locale} />}
 </section>

@@ -1,0 +1,11 @@
+---
+import type { HTMLAttributes } from 'astro/types';
+import { imageAttributes } from '../lib/imageAssets.mjs';
+interface Props extends Omit<HTMLAttributes<'img'>, 'src'> {
+  src: string;
+  widths?: number[];
+}
+const { src, widths, sizes, loading = 'lazy', ...attributes } = Astro.props;
+const image = imageAttributes(src, { widths, sizes });
+---
+<img {...image} decoding="async" loading={loading} {...attributes} />

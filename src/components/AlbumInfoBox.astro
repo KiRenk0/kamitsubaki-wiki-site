@@ -1,4 +1,5 @@
 ---
+import ResponsiveImage from './ResponsiveImage.astro';
 import ExternalLinkCard from './ExternalLinkCard.astro';
 
 type AlbumData = {
@@ -52,7 +53,7 @@ const details = [
 
   {data.image ? (
     <figure class="bg-black/30 p-1">
-      <img src={data.image} alt={data.title} class="aspect-square w-full rounded-sm object-cover sm:rounded-md" />
+      <ResponsiveImage widths={[192, 480, 960]} sizes="(max-width: 640px) calc(100vw - 48px), 360px" loading="eager" src={data.image} alt={data.title} class="aspect-square w-full rounded-sm object-cover sm:rounded-md" />
     </figure>
   ) : (
     <div class="flex aspect-square items-center justify-center bg-black/30 p-6 text-center font-mono text-[10px] uppercase tracking-[0.22em] text-white/20">

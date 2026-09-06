@@ -1,19 +1,19 @@
 ---
 import AboutSection from '../../components/AboutSection.astro';
 import AnnouncementModal from '../../components/AnnouncementModal.astro';
+import { renderAnnouncement, selectFeaturedAnnouncement } from '../../lib/announcements.mjs';
 import AlbumsSection from '../../components/AlbumsSection.astro';
 import ArtistDatabase from '../../components/ArtistDatabase.astro';
 import ContributorRoster from '../../components/ContributorRoster.astro';
 import ExperiencePortals from '../../components/ExperiencePortals.astro';
 import Hero from '../../components/Hero.astro';
 import HomeSiteNav from '../../components/HomeSiteNav.astro';
-import LogSection from '../../components/LogSection.astro';
 import ProjectsSection from '../../components/ProjectsSection.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
 import SongsSection from '../../components/SongsSection.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import { buildDatabaseJumpLinks, buildHomepageArtistCategories, buildLogCards, buildProjectCards, getLocalizedEntries, getLocalizedSite } from '../../lib/homeData.mjs';
+import { buildDatabaseJumpLinks, buildHomepageArtistCategories, buildProjectCards, getLocalizedEntries, getLocalizedSite } from '../../lib/homeData.mjs';
 import { buildHomeMusicCatalog, sampleRandom } from '../../lib/homeMusicCatalog.mjs';
 import { buildLocaleLinks, defaultLocale, resolveLocaleCopy, supportedLocales } from '../../lib/i18n.mjs';
 import { buildHomeMetadata } from '../../lib/metadata.mjs';
@@ -29,7 +29,6 @@ const siteEntries = await getCollection('site');
 const homeContent = getLocalizedSite(siteEntries, locale, defaultLocale);
 const artistEntries = getLocalizedEntries(await getCollection('artists'), locale, defaultLocale);
 const projectEntries = getLocalizedEntries(await getCollection('projects'), locale, defaultLocale);
-const logEntryCollection = getLocalizedEntries(await getCollection('logs'), locale, defaultLocale);
 const announcementEntries = getLocalizedEntries(await getCollection('announcements'), locale, defaultLocale);
 const songEntries = getLocalizedEntries(await getCollection('songs'), locale, defaultLocale);
 const albumEntries = getLocalizedEntries(await getCollection('albums'), locale, defaultLocale);
@@ -40,15 +39,13 @@ const albums = sampleRandom(homeMusicCatalog.albums, 5);
 const artistCategories = buildHomepageArtistCategories(artistEntries, locale);
 const databaseJumpLinks = buildDatabaseJumpLinks(artistCategories);
 const projects = buildProjectCards(projectEntries, locale);
-const logEntries = buildLogCards(logEntryCollection, locale);
-const announcements = [...announcementEntries]
-  .sort((a, b) => Number(Boolean(b.data.pinned)) - Number(Boolean(a.data.pinned)) || a.data.order - b.data.order)
-  .map((entry) => ({ id: entry.id, ...entry.data }));
-const featuredAnnouncement = announcements.find((announcement) => announcement.pinned) ?? announcements[0];
+const featuredAnnouncement = await renderAnnouncement(selectFeaturedAnnouncement(announcementEntries, {
+  includeDrafts: import.meta.env.DEV,
+}));
 const announcementModalLabels = resolveLocaleCopy({
-  zh: { open: '查看重要公告', close: '知道了' },
-  ja: { open: '重要なお知らせを表示', close: '閉じる' },
-  en: { open: 'View important notice', close: 'Close' },
+  zh: { open: '查看重要公告', close: '知道了', heading: '站点公告', draft: '公告预览 · 尚未发布' },
+  ja: { open: '重要なお知らせを表示', close: '閉じる', heading: 'サイトのお知らせ', draft: 'プレビュー · 未公開' },
+  en: { open: 'View important notice', close: 'Close', heading: 'Site announcement', draft: 'Preview · Unpublished' },
 }, locale);
 const localeLinks = buildLocaleLinks(homeContent, locale);
 const alternates = supportedLocales.map((localeCode) => ({
@@ -63,8 +60,9 @@ const metadata = buildHomeMetadata(homeContent, locale);
     <HomeSiteNav navItems={homeContent.navItems} localeLinks={localeLinks} brandLines={homeContent.hero.brandLines} homeHref={`/${locale}/`} />
     <AnnouncementModal announcement={featuredAnnouncement} labels={announcementModalLabels} />
     <Hero hero={homeContent.hero} />
-    <AboutSection content={homeContent.sections.about} />
-    <ExperiencePortals locale={locale} />
+    <AboutSection content={homeContent.sections.about}>
+      <ExperiencePortals slot="explore" locale={locale} compact />
+    </AboutSection>
     <ArtistDatabase
       artistCategories={artistCategories}
       databaseJumpLinks={databaseJumpLinks}
@@ -75,7 +73,6 @@ const metadata = buildHomeMetadata(homeContent, locale);
     <AlbumsSection albums={albums} section={homeContent.sections.albums} locale={locale} />
     <ContributorRoster mode="summary" locale={locale} />
     <ProjectsSection projects={projects} section={homeContent.sections.projects} />
-    <LogSection logEntries={logEntries} section={homeContent.sections.log} />
     <SiteFooter footer={homeContent.footer} />
   </div>
 

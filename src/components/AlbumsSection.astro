@@ -1,4 +1,5 @@
 ---
+import ResponsiveImage from './ResponsiveImage.astro';
 type Album = {
   href: string;
   title: string;
@@ -63,7 +64,7 @@ const { albums, section, locale } = Astro.props as {
                   <div class="flex flex-1 items-center gap-6">
                     <span class="grid h-12 w-12 shrink-0 place-items-center overflow-hidden border border-white/10 bg-white/[0.03]">
                       {album.image ? (
-                        <img src={album.image} alt="" class="h-full w-full object-cover opacity-80 transition duration-500 group-hover:scale-105 group-hover:opacity-100" loading="lazy" />
+                        <ResponsiveImage widths={[96, 192]} sizes="48px" src={album.image} alt="" class="h-full w-full object-cover opacity-80 transition duration-500 group-hover:scale-105 group-hover:opacity-100" loading="lazy" />
                       ) : (
                         <span class="font-serif text-base text-white/25">{Array.from(album.title)[0] ?? '?'}</span>
                       )}

@@ -1,7 +1,8 @@
-document.addEventListener('DOMContentLoaded', () => {
+const initializeSocialContact = () => {
   const widgets = document.querySelectorAll('[data-social-contact]');
 
   widgets.forEach((widget) => {
+    if (widget.dataset.socialReady === 'true') return;
     const toggle = widget.querySelector('[data-social-contact-toggle]');
     const panel = widget.querySelector('[data-social-contact-panel]');
     const close = widget.querySelector('[data-social-contact-close]');
@@ -9,6 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!(toggle instanceof HTMLButtonElement) || !(panel instanceof HTMLElement)) {
       return;
     }
+
+    widget.dataset.socialReady = 'true';
 
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     let closeTimer;
@@ -62,4 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
-});
+};
+
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initializeSocialContact, { once: true });
+else initializeSocialContact();

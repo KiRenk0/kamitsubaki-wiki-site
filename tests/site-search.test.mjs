@@ -217,8 +217,7 @@ test('search UI is mounted globally with open and close motion', async () => {
   assert.match(styles, /@keyframes site-search-backdrop-in/);
   assert.match(styles, /@keyframes site-search-backdrop-out/);
   assert.match(styles, /@media \(prefers-reduced-motion: reduce\)/);
-  assert.match(nav, /data-search-open/);
-  assert.match(nav, /data-search-shortcut/);
+  assert.match(nav, /<HomeSiteNav /);
   assert.match(homeNav, /data-search-open/);
   assert.match(homeNav, /data-search-shortcut/);
   assert.match(component, /data-search-shortcut/);

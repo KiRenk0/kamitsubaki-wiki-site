@@ -1,4 +1,5 @@
 ---
+import ResponsiveImage from './ResponsiveImage.astro';
 import ExternalLinkCard from './ExternalLinkCard.astro';
 
 interface Props {
@@ -53,7 +54,7 @@ const { data, labels } = Astro.props;
   </div>
 
   <figure class="bg-black/30 p-1">
-    <img
+    <ResponsiveImage widths={[192, 480, 960]} sizes="(max-width: 640px) calc(100vw - 48px), 360px" loading="eager"
       src={data.image}
       alt={data.name}
       class="aspect-video w-full rounded-sm object-cover filter grayscale-[15%] contrast-125 sm:aspect-square sm:rounded-md lg:aspect-square"

@@ -108,10 +108,11 @@ function appleMusic(target) {
   url.searchParams.delete('ct');
 
   const kind = url.pathname.match(/\/(song|album|playlist|music-video)\//)?.[1];
+  const isSong = kind === 'song' || (kind === 'album' && /^\d+$/.test(url.searchParams.get('i') ?? ''));
   return {
     src: url.toString(),
     kind: kind === 'music-video' ? 'video' : 'audio',
-    height: kind === 'song' ? 175 : 450,
+    height: isSong ? 175 : 450,
     allow: AUDIO_ALLOW,
     sandbox: 'allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation',
   };

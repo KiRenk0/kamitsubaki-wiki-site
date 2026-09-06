@@ -1,6 +1,6 @@
 import { createContributorClient } from '../lib/contributorClient.mjs';
 let contributorStorage;
-try { contributorStorage = window.sessionStorage; } catch {}
+try { contributorStorage = window.sessionStorage; } catch { /* Optional browser cache. */ }
 const contributorClient = createContributorClient({ storage: contributorStorage });
 import { normalizeContributorData } from '../lib/contributorRosterData.mjs';
 

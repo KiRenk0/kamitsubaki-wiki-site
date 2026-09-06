@@ -67,6 +67,12 @@ test('renders a details alias while preserving Markdown inside the block', async
   assert.match(rendered, /<\/details>/);
 });
 
+test('nested details close at their matching boundary and retain following content', async () => {
+  const rendered = await renderMarkdownFragment('{{details::Outer}}\n\nBefore\n\n{{details::Inner}}\n\n**Inside**\n\n{{/details}}\n\nAfter inner\n\n{{/details}}\n\nOutside');
+  assert.match(rendered, /<details><summary>Outer<\/summary>[\s\S]*<details><summary>Inner<\/summary>[\s\S]*<strong>Inside<\/strong>[\s\S]*<\/details>[\s\S]*After inner[\s\S]*<\/details>[\s\S]*Outside/);
+  assert.doesNotMatch(rendered, /\{\{\/?details/);
+});
+
 test('escapes shortcode arguments and leaves unknown or malformed calls as text', async () => {
   const rendered = await renderMarkdownFragment(`
 {{abbr::A&B::letters & more}}

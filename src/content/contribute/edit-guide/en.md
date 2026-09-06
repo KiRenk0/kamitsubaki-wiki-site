@@ -1,503 +1,252 @@
 ---
 locale: en
 translationKey: edit-guide
-eyebrow: CONTRIBUTOR GUIDE
-title: Your first contribution can be simple.
-intro: |
-  You do not need to know how to code or use Git. Choose the route that matches where you are now, and this guide will take you from **creating a GitHub account** to editing wiki content and **submitting a Pull Request**.
+title: Leave what you know for the next KAMITSUBAKI fan.
+intro: "A corrected word, a reliable source, a more accurate translation: each makes the next visit a little better. Start with one small change to an article you know."
+ui:
+  eyebrow: Written together
+  start: Make your first edit
+  openEditor: Open visual editor
+  back: Back to home
+  choose: Choose one small contribution
+  chooseHint: Pick a direction you know, then follow the six steps. Times are approximate; save a draft and return whenever you need.
+  route: Your starting point
+  journey: Your first contribution, in six steps
+  journeyHint: Open a step and try it. Completion marks are your own checklist; they never submit an edit.
+  progress: Learning progress
+  continue: Continue to the next step
+  complete: I have completed this step
+  completed: Completed · undo
+  reset: Reset progress
+  resetConfirm: Reset this guide’s learning progress? Your editor draft will not change.
+  storage: Progress stays in this browser. Clearing browser data removes it.
+  storageFailed: Progress could not be saved. You can still continue this visit.
+  allDone: All six steps complete. Check your PR for results and reviewer feedback.
+  target: The file you are editing
+  targetHint: The article source path is included. Check its title and language after loading.
+  unsupported: Edit this file on GitHub. The visual editor supports artists, songs, albums, projects and event records.
+  invalidTarget: This file path is not recognized. Return through the article’s Edit source link, or search inside the editor.
+  github: Edit this file on GitHub
+  mapTitle: Find your way around the editor
+  mapHint: These are the controls in the current article editor. Write beside the preview on desktop; switch panels as needed on smaller screens.
+  workshops: Learn more when your edit needs it
+  workshopsHint: New articles, translations and lyrics have different checks. You do not have to learn them all at once.
+  reference: Look up as you work
+  syntax: Syntax and properties
+  syntaxHint: Headings, tables, media, ruby, lyric timing and fields for each article type.
+  format: Content and style
+  formatHint: Sources, neutral writing, names, dates, attribution and language conventions.
+  review: One last check before review
+  pr: A PR description you can fill in
+  prHint: Replace the bracketed prompts with your actual work. Only claim checks you performed.
+  copy: Copy PR template
+  copied: Copied
+  copyFailed: Could not copy automatically. Select and copy the text below.
+  faq: If you get stuck
+  finish: Next time, you can start with the article.
+  finishBody: Bookmark this guide. Make a change you can verify, and describe anything unclear in your PR. Your sources and explanations also help the next editor.
+  issues: Report a problem first
+  issuesHint: Not ready to edit? Open a repository issue with the article URL, the specific error and a supporting source. Search existing issues first.
+  guide: Contribution guide
+  example: Browse the song directory
+  taskAction: See the relevant steps
+tasks:
+  - id: fix
+    title: Correct some text
+    time: About 5–10 min
+    description: Fix a typo, broken link or unclear sentence in an article you know.
+    next: Read the original first and change only what is needed. A factual correction also needs a source.
+  - id: source
+    title: Add a source
+    time: About 10–20 min
+    description: Make a date, credit or event detail verifiable.
+    next: Find the passage on an official release page or announcement that supports the claim, then link it.
+  - id: translate
+    title: Improve a translation
+    time: About 15–30 min
+    description: Refine a name, phrase or meaning without translating a whole article.
+    next: Load the existing language file and compare it with the original. Keep the shared entry key.
+  - id: new-entry
+    title: Develop an article
+    time: Across several sessions
+    description: Bring official sources; expanding an existing article is a good first step too.
+    next: Search for duplicates, then read the new-article workshop. Gather facts before creating sections.
+map:
+  - title: Left · Find your place
+    body: Articles searches titles and paths. Outline jumps to headings. Properties holds article type, language and details.
+  - title: Center · Write
+    body: Edit text directly. Select words for formatting; press / in an empty paragraph or choose Insert content for blocks.
+  - title: Right · Preview and adjust
+    body: Preview shows the result. Select a block and use Properties to adjust images, tables or lyrics.
+  - title: Bottom and top right · Check and export
+    body: Check autosave and Before you export at the bottom. Export Markdown copies the full file or downloads a .md draft.
+lessons:
+  - id: choose
+    title: Choose one change
+    summary: Set a small goal and find evidence for it.
+    body: |-
+      Read the relevant paragraph in an artist, song, album, project or event article. Describe your proposed change in one sentence.
 
-  A mistake will not instantly break the site. A Pull Request is a request for review; maintainers check the change before it is merged.
-primaryAction: Choose my route
-journeyLabel: One contribution, three stages
-journeySteps:
-  - Prepare your account
-  - Edit the content
-  - Submit a PR
-back: Back to home
-targetLabel: Target file
-targetIntro: |
-  When you arrive from an article, this is the real source file you will change. If it is wrong, return to the article and use “Edit source” again.
-invalidTarget: No file was selected. You can still learn here; enter from a specific article when you are ready to edit.
-switchLabel: Where are you starting from?
-switchHint: Choose the statement that matches your situation. You can switch routes at any time, and progress is saved in this browser.
-durationLabel: Estimated time
-outcomeLabel: You will finish with
-progressLabel: Completed
-resetLabel: Reset route progress
-resetConfirm: Clear the saved progress for this route in this browser?
-completeLabel: Mark this step complete
-completedLabel: Step completed
-checkpointLabel: "You are ready when:"
-aiHelpTitle: Ask AI to help with this step
-aiHelpBody: Add what you can currently see, the public error text, or what feels unclear. The guide combines it with this step's goal, target file, and repository constraints.
-aiPrivacyNote: Describe only public interface text and errors. Never enter a password, verification code, cookie, token, email address, or private personal information.
-aiContextLabel: Add your current situation (optional)
-aiContextPlaceholder: "Example: GitHub is open, but I cannot find Propose changes. I only see Commit changes…"
-aiPromptPreviewLabel: Complete prompt to be copied
-aiNoContext: I have not added a specific situation yet. First tell me what I should normally see at this step, then give me only one action at a time.
-aiGuardrails: Never request or process passwords, verification codes, cookies, tokens, or personal information. Do not invent facts, sources, test results, or interface details I did not provide. Give only the smallest action needed for the current step, one action at a time.
-aiCopyLabel: Copy complete prompt
-aiCopiedLabel: Copied — you can ask your AI now
-glossaryTitle: Four words to know
-glossary:
-  - term: Repository
-    definition: The project space containing the website files and their history—like a public project folder.
-  - term: Fork
-    definition: A safe copy under your account. Editing it does not directly change the live wiki.
-  - term: Commit
-    definition: A saved record of one change with a short explanation. It is not the final PR.
-  - term: Pull Request / PR
-    definition: A request asking maintainers to review changes from your copy and merge them into the original project.
-variants:
-  - key: beginner
-    label: I do not have a GitHub account
-    summary: "Start at zero: sign up, verify your email, edit in the browser, and submit your first PR without installing software."
-    audience: Zero-experience route · no coding required
-    duration: About 35–55 minutes
-    outcome: Your first complete PR
-    description: |
-      This is the most complete and reassuring route. You only need an email account and a modern browser. Everything happens on the web—**you do not need Git, a terminal, or a code editor**.
+      A typo, an official link or a sourced date is a good first contribution. A complete rewrite or a synchronized lyric timeline can wait. Replacing “recently released” with a confirmed release date needs the actual announcement; a punctuation fix does not need an unrelated citation.
 
-      Follow it in order the first time. On future contributions, the shorter web-editing route will be enough.
-    sections:
-      - title: Prepare what you need
-        summary: GitHub and contributing are free; all you need is email, a browser, the fact you want to change, and a reliable source.
-        body: |
-          Prepare a long-term email address you can access, a modern browser, the information you want to change, and a reliable source that supports it.
+      If you have no article in mind, browse the song directory. You can also report a specific problem through Issues at the bottom of this page.
+    checkpoint: You can describe the change in one sentence and support any factual change with a source.
+  - id: load
+    title: Load the existing article
+    summary: Keep its original details and content.
+    body: |-
+      1. Select **Edit source** on an article. This guide will show its file path above.
+      2. Choose **Open visual editor** to load supported article types. If there is an existing draft, back it up before agreeing to replace it.
+      3. Alternatively, choose **Edit existing article** in the editor, search by title or path, then **Load original**.
+      4. Check the title, content and language: `zh.md`, `ja.md` and `en.md` mean Simplified Chinese, Japanese and English.
 
-          You do **not** need a payment card, GitHub Pro, Git, a terminal, a code editor, or the GitHub app. Changes are first saved in your own safe copy and then reviewed through a PR.
+      If loading fails, retry or get the complete Raw file from GitHub. **Import source** accepts pasted source or a .md file up to 1 MB. Include the information between both `---` lines.
 
-          > Keep passwords, verification codes, 2FA codes, and recovery codes private. Maintainers and AI assistants never need them.
-        checkpoint: You have access to your email and understand that the complete browser workflow is free.
-        action:
-          label: Read GitHub's official account guide
-          href: https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github
-        aiPrompt: |
-          I am about to make my first contribution to a fan wiki and know nothing about GitHub. Explain Repository, Fork, Commit, and Pull Request in very simple English, and explain why a PR cannot instantly break the live website. Do not assume I can code, and never ask for a password or verification code.
-      - title: Create a free personal GitHub account
-        summary: Follow GitHub's sign-up prompts, choose a public username, then verify your email. GitHub Free is enough.
-        body: |
-          1. Open the GitHub sign-up page below.
-          2. Sign up with email, or use a supported Google or Apple sign-in option shown by GitHub.
-          3. Choose a username you are comfortable displaying publicly beside your contributions.
-          4. Create a strong, unique password and store it safely.
-          5. Complete any verification GitHub requests.
+      Guides, announcements and homepage copy are outside the editor’s five supported collections. Use the GitHub link for those files.
+    checkpoint: The editor contains the correct article and language, not a blank replacement for an existing file.
+  - id: write
+    title: Make the edit visually
+    summary: Use familiar text tools; insert other content when needed.
+    body: |-
+      Click a paragraph and type. Body headings start at level 2; the page title has its own field.
 
-          Choose a free personal account if plans are shown. Then open GitHub's verification email and follow the link. An unverified email prevents important actions such as creating forks and Pull Requests.
+      | Your goal | Control |
+      | --- | --- |
+      | Bold, italic or a link | Select text and use the top or floating toolbar |
+      | Highlight, ruby or a spoiler | Use the corresponding toolbar item and fill any requested details |
+      | Heading, list, image or table | Press `/` in an empty paragraph, or choose Insert content |
+      | Adjust a block | Select it and open its Properties |
+      | Reorder content | Use the block’s move up/down controls or drag handle |
+      | Find text or a chapter | Use Find in document or Outline |
+      | Change title, date or other details | Article details in the left Properties panel |
 
-          If the email does not arrive, check spam, then open avatar → `Settings` → `Emails` → `Resend verification email`. Request a new link if the old one has expired.
-        checkpoint: You can sign in, and your primary email is shown as verified under Settings → Emails.
-        action:
-          label: Open GitHub sign up
-          href: https://github.com/signup
-        aiPrompt: |
-          I am creating a free personal GitHub account. Explain the current sign-up fields one step at a time and tell me which profile information will be public. Do not generate, collect, or ask me to share a password, email verification code, 2FA code, or recovery code. If I describe an error, give only safe troubleshooting steps.
-      - title: Understand the four-part workflow
-        summary: You do not need to learn Git; remember “repository → fork → commit → Pull Request.”
-        body: |
-          Think of contributing as submitting writing to an editorial team:
+      Try adding a source: select the words “official announcement”, choose **Add link**, enter the real URL and apply it. Check the result in Preview.
 
-          - The **repository** is the shared project folder.
-          - A **fork** is your personal working copy.
-          - A **commit** saves one change with a short note.
-          - A **Pull Request** submits that saved change for review.
+      A **Preserved source** block contains complex markup. Keep it unless you need to edit that section. Use Source and the syntax reference for a narrow change; fix any YAML parsing error before returning to Visual. Do not delete unknown details to dismiss an error.
+    checkpoint: Preview shows only the intended change, with the heading structure and complex content intact.
+  - id: sources
+    title: Keep the evidence beside the fact
+    summary: Make it possible for another reader to verify your work.
+    body: |-
+      Use official work pages, announcements, published interviews or publications for dates, credits and event details. Link the specific page supporting the nearby sentence, not just a homepage.
 
-          A PR is not a direct edit to the live site. Review comments are a normal part of collaboration, not a failed contribution.
+      Keep opinions attributed: “I love this song” does not support “critically acclaimed.” Search snippets, AI answers and fan speculation are not substitutes for sources.
 
-          **Checks / CI** are automatic tests. Green means the files passed; red means there is a specific issue to inspect and fix.
-        checkpoint: You can explain that a commit saves the change and a PR sends it to maintainers for review.
-        aiPrompt: |
-          Explain Repository, Fork, Branch, Commit, Pull Request, and Checks/CI using an “article submitted to an editorial team” analogy for a nontechnical reader. End with a plain-text flow from editing to merge, without command-line jargon.
-      - title: Confirm the target file and source
-        summary: Check the path, locale, and evidence before editing so you do not change the wrong article.
-        body: |
-          The target at the top should begin with `src/content/`, for example:
+      - Check names and dates against the source.
+      - Check image sources and permission, and preserve existing license fields. An image URL in the editor **does not upload an image file**.
+      - Preserve the original, translator credits and attribution for quotes, translations and lyrics.
+      - Leave uncertain facts out and explain missing evidence in the PR.
 
-          ```text
-          src/content/artists/vwp/kaf/en.md
-          ```
+      AI may help clarify writing, organize sources you supply or explain an error. You still need to verify each claim; do not ask it to invent credits, interpretations or lyric timings.
+    checkpoint: Every new factual claim has direct support, and attribution and license details remain intact.
+  - id: review
+    title: Preview, check and export
+    summary: A browser draft has not been submitted to the site.
+    body: |-
+      1. Read **Preview** from beginning to end. Check headings, links, captions, tables and disclosures. On smaller screens, use the bottom Preview control.
+      2. Open **Before you export** and complete required fields. Field validation cannot determine factual accuracy.
+      3. Check the autosave status. A draft saved in this browser is not synced to other devices; download important work.
+      4. Choose **Export Markdown → Copy complete Markdown** or **Download .md**. The export includes the article details at the top.
+      5. With a valid path, the same menu provides **Open file location on GitHub**. Paste the complete file into the correct editor, preserving its metadata.
 
-          `zh.md` is Chinese, `ja.md` is Japanese, and `en.md` is English. Common folders are `artists/`, `songs/`, `albums/`, `projects/`, `logs/`, and `site/`.
+      Review **Preview / Changes** or the diff on GitHub. GitHub may not render this site’s ruby, media or lyric syntax; use the site preview for those and let the build checks verify the final file.
 
-          Prepare a traceable source. Prefer official websites and announcements, then official social posts, formal interviews, or reliable publications. Do not treat AI output, rumors, or unverifiable fan discussion as factual evidence.
-        checkpoint: The path points to the right entry and locale, and you know what reliable source supports the new information.
-        aiPrompt: |
-          I am editing KAMITSUBAKI FAN WIKI. My target is: {{TARGET_PATH}}
+      You can download an unfinished draft and return later. Do not invent required information just to clear a warning.
+    checkpoint: You have a backup, the complete metadata, and a diff containing only your intended changes.
+  - id: submit
+    title: Send the change for review
+    summary: A Commit saves work; a Pull Request asks for review.
+    body: |-
+      **New to GitHub?** [Create an account](https://github.com/signup) and verify your email when you are ready to submit. A free account is sufficient for public contributions; you can practice in the editor first.
 
-          Explain what content type and locale this path represents, and whether my proposed change belongs in frontmatter or the Markdown body. Do not invent artist facts. If I lack a source, tell me to find an official source first. Do not suggest changing dist, .astro, node_modules, or unrelated code.
-      - title: Open the GitHub web editor
-        summary: The final button opens the file. GitHub may ask you to sign in and automatically create a fork.
-        body: |
-          Use the edit action at the end of this route. Sign in if necessary. Without write access, GitHub may show **Fork this repository** or create a fork when you propose the change. This is expected and safe.
+      1. Without write access, GitHub guides you to a **Fork**, a copy under your account.
+      2. Paste and inspect the change, then choose **Commit changes… / Propose changes**. Write a short description of the actual edit. A Commit is a saved change, not the PR itself.
+      3. Continue to **Compare & pull request / Create pull request**. The base repository should be `LinkTh1rsty/kamitsubaki-wiki-site`, with base branch `main`; the comparison comes from your edited branch.
+      4. Add a clear title and describe changes, sources and checks with the template below. Create the PR. A numbered Pull Request page confirms it has been submitted.
 
-          Confirm the file path again. Button labels can change slightly, but the flow stays:
+      Checks run automatically. Wait while they run; open the error details if they fail. Passing checks still leaves human review. If a reviewer requests changes, edit the **same branch in your Fork** and Commit again; the existing PR updates automatically.
 
-          ```text
-          File → Edit → Preview → Commit / Propose changes → Pull Request
-          ```
+      Merge adds the change to the main branch; the live site still needs a successful deployment. PRs and commits retain contribution history, while on-site contributor information may update later.
 
-          If the pencil action is unavailable, confirm that you are signed in and your email is verified, then re-enter from the wiki article.
-        checkpoint: You can see the GitHub editor, and its file path exactly matches the target shown here.
-        action:
-          label: Read GitHub's official editing guide
-          href: https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files
-        aiPrompt: |
-          I am editing a file in someone else's public GitHub repository. The target is: {{TARGET_PATH}}
+      Button wording may change. See GitHub’s [web editing guide](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files) and [PRs from a Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
+    checkpoint: You have a numbered PR with a clear explanation and sources, and know where to read feedback.
+workshops:
+  - id: new-entry
+    title: Create a song, album or another article
+    summary: Search first, then prepare the evidence and location.
+    body: |-
+      Search titles and aliases on the site and in the editor. Expand an existing article if possible. For a missing entry, use **New article** at the top of Outline, then select type and language in Properties. Download any draft before replacing it.
 
-          Based on the page text I describe, tell me only the next button to use. An automatic fork is expected. Never ask for my password, verification code, cookie, token, or full account details. If a screenshot is useful, tell me to hide private information first.
-      - title: Edit frontmatter and body safely
-        summary: Most contributions change text. Preserve the structure at the top and do not remove fields you do not understand.
-        body: |
-          A Markdown content file normally has frontmatter and body content:
+      Required fields differ across the five types; use Before you export. Set the title and entry key, gather sources, then add sections with actual content rather than empty headings.
 
-          ```yaml
-          ---
-          locale: en
-          translationKey: kaf
-          name: "KAF"
-          image: "https://example.com/image.jpg"
-          ---
+      - `songs/`: `src/content/songs/<artistId>/<category>/<songId>/<locale>.md`, for example `src/content/songs/kaf/originals/new-song/en.md`.
+      - `albums/`: `src/content/albums/<artistId>/<albumId>/<locale>.md`, for example `src/content/albums/kaf/new-album/en.md`.
+      - Follow an existing article of the same type for other paths. Do not rename existing entry keys or directories casually.
 
-          ## Overview
-          Normal article text starts here.
-          ```
+      These names are examples; replace them with real IDs before submitting. Verify song artist, category and credits; verify album release details, track order and song references. Upload repository images separately and use the corresponding URL.
 
-          Keep both `---` lines, existing keys, quotes, and indentation. `locale` must match the filename, and localized files for one entry share the same `translationKey`. Use spaces, not tabs, in YAML.
+      Expand GitHub file path (optional) in the left Properties panel and enter the full path, including the language filename. The export menu can then open GitHub’s new-file location; entering the path alone does not create a file.
 
-          Make the smallest relevant change; include a source for new facts; never add placeholders, guesses, AI-invented facts, credentials, tokens, or private personal information.
-        checkpoint: The edit is focused, the structure is intact, facts are sourced, and no private data is present.
-        aiPrompt: |
-          Act as a careful Markdown editor. I am editing {{TARGET_PATH}}. I will provide a proposed excerpt and a reliable source. Change only facts directly supported by that source; preserve YAML fields, indentation, and both --- markers; do not invent facts or touch unrelated paragraphs. Return the complete revised excerpt and a short change list. Stop and ask for better evidence if the source is insufficient.
-      - title: Preview the diff and create a commit
-        summary: Review Preview / Changes, then write a short message describing exactly what you changed.
-        body: |
-          In Preview or Changes, green usually means added and red means removed. Check for accidental deletion, damaged `---` markers, the wrong locale, strange indentation, broken links, or incorrect dates and names.
+      Language files share `translationKey`. Prepare `zh.md`, `ja.md` and `en.md` for a new article. If a version needs help, explain that in the PR instead of presenting untranslated text as complete. The syntax reference has the full song and album completion standards.
+  - id: translation
+    title: Translations and Traditional Chinese
+    summary: Keep identity, meaning and attribution aligned.
+    body: |-
+      Load the existing target-language file and compare it with the original. The language selector **does not translate the text**. Do not change only the locale and overwrite another version.
 
-          Click **Commit changes...** and use a clear message such as:
+      Keep the same `translationKey` across versions, with consistent dates, catalog numbers and relationships. Prefer official names and explain uncertain translations in your PR.
 
-          ```text
-          docs: correct KAF debut date
-          docs: add KAF official link
-          docs: fix a typo in KAF entry
-          ```
+      Traditional Chinese is generated from Simplified Chinese. Edit `zh.md`, not generated `zh-tw.md` or `zh-hk.md`. For regional wording, consult the conversion section of the syntax reference or **Chinese variant wording** in the toolbar’s “···” menu.
 
-          For an external contributor, the final action may be **Propose changes**. A commit saves the change to your fork/branch; you still need to create the PR on the next page.
-        checkpoint: The diff contains only your intended edit, and the commit message accurately describes it.
-        aiPrompt: |
-          Review the GitHub diff I paste for {{TARGET_PATH}}. Check accidental deletions, YAML structure, locale consistency, unsupported facts, and private data. Then suggest three concise English commit messages. Do not assume anything outside the pasted diff.
-      - title: Create your first Pull Request
-        summary: Confirm the original repository and main branch, write a clear title and description, then create the PR.
-        body: |
-          On the comparison page, confirm the base repository is `LinkTh1rsty/kamitsubaki-wiki-site`, the base branch is `main`, and the head/compare side is your fork and new branch.
+      Preserve original lyrics, translator credits and license details. Improving one phrase is enough for a first edit.
+  - id: lyrics
+    title: Lyrics, ruby and practice mode
+    summary: Align one line before adding a timeline.
+    body: |-
+      Insert **Bilingual lyrics** and use Properties for the original, kana, romaji and translation. Preview a single line first, then continue. Ruby text can annotate words in ordinary prose.
 
-          A useful PR description includes:
+      For synchronized lyrics, listen to the matching recording and enter the line’s start time, such as `00:03.50`. Add timed units only when you can verify each timestamp. Times must increase and translations must match the original lines. Without accurate timings, leave them blank for untimed lyrics; never divide the duration evenly or ask AI to guess.
 
-          ```markdown
-          ## What changed
-          - Added a 2024 activity entry
+      Reader practice can switch kana, romaji and translations and step through lines. Correct source structure makes those views work. After merge, check the reader and audio synchronization too; an editor preview is not full playback verification.
 
-          ## Source
-          - Official announcement: https://...
+      Complex lyric HTML is preserved. Back it up before a source edit and follow the synchronized lyric reference without removing credits or copyright notes.
+  - id: advanced
+    title: Source, media and local development
+    summary: Go further only when your change needs it.
+    body: |-
+      Source contains a complete Markdown file: YAML information between the two `---` lines, then the body. Keep unknown fields and preserved complex markup intact.
 
-          ## Locale and scope
-          - English; KAF entry only
-          ```
+      Use Media or Media switcher with real links from supported platforms. Adding an image URL does not upload a file. Insert content also offers tables, disclosures, code and equations; consult the reference when needed.
 
-          Click **Create pull request**. You are done when you see a numbered PR page. A normal content fix does not need to be a draft. Allowing maintainer edits is usually helpful for small corrections.
-        checkpoint: A numbered Pull Request page exists and shows your title, description, commits, and changed files.
-        action:
-          label: Read GitHub's official fork PR guide
-          href: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork
-        aiPrompt: |
-          Help me write a KAMITSUBAKI FAN WIKI Pull Request for {{TARGET_PATH}}. I will provide the real change and source. Produce a concise title, a Markdown body with “What changed / Source / Locale and scope,” and a final checklist. Never invent a change, test result, or source.
-      - title: Read checks, comments, and change requests
-        summary: Wait for automated checks. Red is not the end—open Details, fix the specific issue, and keep the same PR.
-        body: |
-          Yellow or gray means checks are still running; green means they passed; red means a check failed. Open **Details** and start with the first concrete error. Common causes are YAML indentation, missing fields, an invalid locale, or broken Markdown.
+      Experienced Git users can Fork, create a branch and edit locally. Follow the repository README for setup, then run `pnpm check`, `pnpm test` and `pnpm build`, and inspect the actual page. Browser contributors do not need these tools; report honestly which checks you performed.
 
-          Edit the same file on the same fork/branch and commit again. New commits automatically appear in the existing PR—do not open a duplicate PR.
+      Edit the guides themselves through their GitHub source link, preserving YAML and updating the relevant language editions.
+checklist:
+  - Correct article, language and scope
+  - Sources and working links; credits and licenses intact
+  - Preview checked; original fields and complex content preserved
+  - Draft backed up and GitHub diff reviewed
+  - PR describes actual checks and unresolved questions
+prTemplate: |-
+  ## Changes
+  [Which article and passage changed, and why]
 
-          Maintainers may comment in Conversation or on a line under Files changed. Make the requested change, then reply briefly. A review request is a normal collaboration step.
-        checkpoint: You understand the PR's current state and have located the exact issue if a check or review needs action.
-        aiPrompt: |
-          My GitHub PR has a failed check or review comment for {{TARGET_PATH}}. I will paste the public error or comment. Explain it in plain language, propose the smallest fix, and remind me to update the same branch and PR. Do not guess at logs I have not shown or ask for private credentials.
-      - title: Finish and follow the result
-        summary: Your contribution is complete once the PR is submitted; follow notifications until it is merged or closed.
-        body: |
-          **Open** means the PR is being reviewed or waiting for changes. **Merged** means the change has entered the project and will appear after deployment. **Closed** means it was closed without merging; read the maintainer's explanation.
+  ## Sources
+  [Direct supporting URLs; explain if this is only a typo fix]
 
-          Reviews may take time. Do not close a PR simply because it is waiting. If you discover a problem, update the same branch or leave a clear comment. Even a sourced date correction or typo fix is a valuable contribution.
-        checkpoint: Your PR is submitted, you know where to follow it, and you have completed one traceable contribution.
-        aiPrompt: |
-          Based on the GitHub PR status I describe, explain whether it is Open, Merged, or Closed and tell me the next necessary action in beginner-friendly English. Never ask for account credentials.
-    finalTitle: Send your contribution to the maintainers
-    finalBody: |
-      Final check: correct file, verifiable content, clear source, no placeholders, guesses, or private information. Then follow **Edit → Preview → Commit / Propose changes → Create pull request**. If you get stuck, use the AI help prompt inside the matching step.
-    finalLinkLabel: Edit the current file on GitHub
-  - key: web
-    label: I have an account and want web editing
-    summary: Use the browser to edit an existing file, commit, create a PR, and make follow-up fixes—no local tools.
-    audience: Web-editing route · no installation required
-    duration: About 15–30 minutes
-    outcome: One browser-based PR
-    description: |
-      For contributors who can sign in to a verified GitHub account and want the shortest safe browser workflow. It skips account setup and focuses on the target, editor, fork, PR, checks, and follow-up edits.
-    sections:
-      - title: Confirm account, target, and scope
-        summary: Sign in, confirm your verified email, and check the target path and locale.
-        body: |
-          The target must begin with `src/content/` and match the intended locale. Keep one PR focused on one subject. New facts need a traceable official or reliable source; AI can check wording but is not a source.
-        checkpoint: The account works, the path and locale are correct, and you can state the PR's single purpose.
-        aiPrompt: |
-          Help me scope a small wiki change for {{TARGET_PATH}}. I will describe the issue and source. Tell me what belongs in this PR and what unrelated cleanup I should avoid. Do not invent facts.
-      - title: Edit and preview in the browser
-        summary: Accept an automatic fork if required, preserve frontmatter, and review the diff.
-        body: |
-          Open the target with the final action. If GitHub requests a fork, continue. Preserve YAML markers, keys, quotes, and indentation. In Preview / Changes, make sure red and green lines show only the intended edit. Never add credentials, tokens, private contact details, placeholders, or unsupported claims.
-        checkpoint: The diff is focused and the YAML/Markdown structure remains valid.
-        action:
-          label: Official GitHub web-editing guide
-          href: https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files
-        aiPrompt: |
-          Review my proposed Markdown diff for {{TARGET_PATH}}. Check YAML, Markdown, accidental deletion, locale consistency, sourcing, and privacy. Suggest only the smallest necessary corrections.
-      - title: Commit and propose the change
-        summary: Use a meaningful commit message; GitHub will save the change to your fork/branch.
-        body: |
-          Click **Commit changes...** and use a concise message such as `docs: correct KAF event date`. External contributors may see **Propose changes** and an automatic fork. Keep the generated topic branch; do not try to write directly to upstream `main`.
-        checkpoint: The commit exists in your fork/branch and GitHub has opened a comparison or PR page.
-        aiPrompt: |
-          Give me five concise `docs: ...` commit messages for the actual edit I describe in {{TARGET_PATH}}. Do not exaggerate scope.
-      - title: Create the Pull Request
-        summary: Base is the original main branch; head is your fork. Describe the change, source, locale, and scope.
-        body: |
-          Confirm upstream `LinkTh1rsty/kamitsubaki-wiki-site:main` as the base. Use your fork/branch as head. Include what changed, the supporting source, and locale/scope, then click **Create pull request**. A numbered PR page confirms success.
-        checkpoint: The numbered PR page shows the expected title, description, commits, and files.
-        action:
-          label: Official fork PR guide
-          href: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork
-        aiPrompt: |
-          Draft a concise PR title and Markdown body for {{TARGET_PATH}} using only the real change and source I provide. Include What changed, Source, and Locale/scope. Do not invent evidence.
-      - title: Handle checks and review
-        summary: Open Details for red checks and push fixes to the same branch and PR.
-        body: |
-          Wait for checks. Open the first concrete error if one fails. Fix the same fork/branch; new commits update the existing PR automatically. Reply to review comments after addressing them, and do not open a replacement PR for CI fixes.
-        checkpoint: Checks pass, or you have located and fixed the specific issue in the same PR.
-        aiPrompt: |
-          Explain this public GitHub Actions error or review comment for {{TARGET_PATH}} and give the smallest fix. Do not guess missing logs; remind me to update the same PR.
-      - title: Update or close an existing PR correctly
-        summary: Further commits join the original PR. Close only when you truly intend to stop.
-        body: |
-          Edit the same branch to add corrections. Leave a short reply explaining what changed. Waiting is not a reason to close a PR. Close only when you no longer intend to continue; the public history will remain.
-        checkpoint: You know how to update the original PR and understand Open, Merged, and Closed.
-        aiPrompt: |
-          I have an open GitHub PR. Based on the page information I describe, help me confirm the same fork and branch so my next commit updates the original PR. Do not suggest a duplicate PR.
-    finalTitle: Review once, then submit
-    finalBody: |
-      Verify the path, diff, sources, and privacy, then follow **Edit → Preview → Propose changes → Create pull request → Checks / review**.
-    finalLinkLabel: Open the GitHub web editor
-  - key: new-entry
-    label: I want to add a complete new entry
-    summary: Choose the content type, create a folder and three locale files, add structure and sources, validate, and submit a reviewable PR.
-    audience: New-entry route · web or local workflow
-    duration: About 35–70 minutes
-    outcome: A three-locale entry PR
-    entryMode: repository
-    description: |
-      Use this route to add a new artist, song, album, project, or timeline record rather than changing an existing file. New entries usually add a folder and several files, so begin by finding an existing entry of the same type to use as a structural reference.
-    sections:
-      - title: Choose the entry type and scope
-        summary: Decide between artists, songs, albums, projects, and logs, and confirm that the subject needs its own entry.
-        body: |
-          `artists/` contains artists, creators, groups, and musical isotopes. `songs/` contains songs grouped by artist and category. `albums/` contains albums, EPs, and other official releases grouped by artist. `projects/` contains projects, settings, exhibitions, and labels. `logs/` contains dated news, events, and observations.
-
-          A new entry needs a clear subject, stable name, and traceable public sources. If you only need to add one date or link, edit the existing entry instead.
-        checkpoint: You can name the collection and explain why this should be an independent entry.
-        aiPrompt: |
-          【Goal】Decide whether my new wiki content belongs in artists, songs, albums, projects, or logs and whether it needs an independent entry.
-          【Content root】{{REPO_CONTENT_ROOT}}
-          【My situation】{{USER_CONTEXT}}
-          【Constraints】Use only the subject, sources, and directory context I provide. Do not invent policy or facts.
-          【Output】Recommended collection, reasoning, existing-entry alternative, and preparation checklist.
-      - title: Choose a folder slug and translationKey
-        summary: Use a stable lowercase slug and one shared translationKey across all locales.
-        body: |
-          Examples include `src/content/artists/vwp/new-artist/`, `src/content/songs/kaf/originals/new-song/`, `src/content/albums/kaf/new-album/`, `src/content/projects/arg/new-project/`, and `src/content/logs/2026/2026-07-12-new-event/`.
-
-          Use lowercase letters, numbers, and hyphens. The slug and `translationKey` should not change with display-language translations. Search the repository for duplicates first.
-        checkpoint: The slug and translationKey are stable, locale-independent, and not duplicated.
-        aiPrompt: |
-          【Goal】Design a folder slug and translationKey for a new wiki entry.
-          【My situation】{{USER_CONTEXT}}
-          【Constraints】Lowercase letters, numbers, and hyphens only; one translationKey for zh/ja/en; do not guess an official English name.
-          【Output】Three candidates, one recommendation, and duplicate checks to run.
-      - title: Create the folder and three locale files
-        summary: Put zh.md, ja.md, and en.md together in the same entry directory.
-        body: |
-          ```text
-          <entry>/zh.md
-          <entry>/ja.md
-          <entry>/en.md
-          ```
-
-          On GitHub, browse to the correct collection and use **Add file → Create new file**. A filename such as `new-artist/zh.md` creates the directory too. An unfinished body may remain empty, but do not add placeholder prose.
-        checkpoint: All three files are in the same correct directory with no accidental extra nesting.
-        action:
-          label: Official GitHub new-file guide
-          href: https://docs.github.com/en/repositories/working-with-files/managing-files/creating-new-files
-        aiPrompt: |
-          【Goal】Create the correct directory and zh.md / ja.md / en.md skeleton for a new entry.
-          【Content root】{{REPO_CONTENT_ROOT}}
-          【My situation】{{USER_CONTEXT}}
-          【Constraints】Follow the existing hierarchy, keep all locales together, and invent no placeholder facts.
-          【Output】Final directory tree, GitHub web steps, and the minimum structure for each file.
-      - title: Add collection-valid frontmatter
-        summary: Follow content.config.ts and an existing entry of the same type; include only fields you understand.
-        body: |
-          Artists, songs, albums, projects, and logs have different required fields. Each file's `locale` must match its filename, while `translationKey` must be identical across all three. Songs require `artist` and `artistId`; album tracks should include `songId` only when the linked song entry exists.
-
-          Do not invent `theme`, `seo`, image, or ordering values merely to make the file look complete. Use `src/content.config.ts` as the source of truth.
-        checkpoint: All locale frontmatter matches the schema, with correct locale values and one translationKey.
-        aiPrompt: |
-          【Goal】Create the minimum valid frontmatter for all three locale files using the content.config.ts and reference entry I provide.
-          【My situation】{{USER_CONTEXT}}
-          【Constraints】List missing facts as questions instead of inventing values; keep translationKey identical.
-          【Output】zh/ja/en frontmatter, field rationale, and unresolved items.
-      - title: Write and translate the body
-        summary: Map facts to sources first, then translate with matching structure and natural language.
-        body: |
-          Build a source-backed fact list, complete the strongest locale, translate the others, then verify names, dates, work titles, and links. AI may help translate or edit, but it is never a source. Keep uncertain official terms in their original form.
-        checkpoint: Locale structures align, with no placeholders or unsupported facts.
-        aiPrompt: |
-          【Goal】Turn reliable sources into a structured three-locale wiki article.
-          【Sources and situation】{{USER_CONTEXT}}
-          【Constraints】Write only directly supported facts; AI is not a source; retain uncertain official terms in the original language.
-          【Output】Fact-to-source map, zh/ja/en Markdown, and unresolved content.
-      - title: Review sources, links, and image rights
-        summary: Make key facts traceable and avoid private, paid, leaked, or unattributed media.
-        body: |
-          Prefer official pages, announcements, posts, and formal interviews. Do not add screenshots of paid content, leaked assets, private photos, personal information, or unattributed reposts. If image usage is uncertain, use a reliable official URL or ask maintainers before adding it.
-        checkpoint: Key facts are sourced, links work, and images have no obvious rights or privacy risk.
-        aiPrompt: |
-          【Goal】Audit sources, links, and image risk for a new entry.
-          【My situation】{{USER_CONTEXT}}
-          【Constraints】AI output is not evidence; reject paid, leaked, private, or unattributed media; flag uncertainty.
-          【Output】Fact-source table, weak links, image risks, and blocking fixes.
-      - title: Validate locales and the build
-        summary: Check locale, translationKey, schema, and links; run the same commands as CI when possible.
-        body: |
-          ```bash
-          pnpm test
-          pnpm check
-          pnpm build
-          ```
-
-          Browser-only contributors can use PR CI and fix failures on the same branch. Never include generated output or private data.
-        checkpoint: Manual review is complete and local checks pass, or you know where to read PR CI.
-        aiPrompt: |
-          【Goal】Audit a new entry's directories, locales, frontmatter, body, and sources before submission.
-          【My situation】{{USER_CONTEXT}}
-          【Constraints】Do not claim tests ran unless I provide their results.
-          【Output】Group findings as Blocking / Recommended / Passed and give the smallest repair order.
-      - title: Submit a reviewable new-entry PR
-        summary: Keep the PR limited to this entry and explain paths, locales, sources, images, and validation.
-        body: |
-          Include entry type and paths, locale completeness, major sources, image source, checks actually run, and open questions. Do not mix unrelated formatting or other entries into this PR. Continue CI and review fixes on the same branch.
-        checkpoint: The PR contains only new-entry files and gives maintainers everything needed to review it.
-        aiPrompt: |
-          【Goal】Draft a commit message and PR description for a new wiki entry.
-          【My situation】{{USER_CONTEXT}}
-          【Constraints】Use only actual files, sources, and validation results; do not invent translation completeness, tests, or image rights.
-          【Output】Commit message, PR title, and Markdown with Summary / Files / Locales / Sources / Image / Validation / Open questions.
-    finalTitle: Start the new entry from the content directory
-    finalBody: |
-      Open `src/content/`, choose the correct collection and category, then create the entry directory and all three locale files. Confirm schema, sources, images, and validation before submitting the PR.
-    finalLinkLabel: Open the GitHub content directory
-  - key: experienced
-    label: I know Git and GitHub
-    summary: A concise reference for the repository model, locale constraints, validation commands, and fork PR strategy.
-    audience: Developer route · repository constraints
-    duration: About 10–20 minutes
-    outcome: A repository-compliant PR
-    description: |
-      For contributors already comfortable with forks, branches, commits, PRs, and CI. Use the web editor, GitHub Desktop, or a local Git workflow; this route focuses on this Astro repository's content model and review expectations.
-    sections:
-      - title: Establish the content model
-        summary: Content Collections are the primary source; routes and homepage sections render from the folder structure.
-        body: |
-          ```text
-          src/content/artists/<category>/<entry>/<locale>.md
-          src/content/songs/<artistId>/<category>/<songId>/<locale>.md
-          src/content/albums/<artistId>/<albumId>/<locale>.md
-          src/content/projects/<category>/<project>/<locale>.md
-          src/content/logs/<year>/<record>/<locale>.md
-          src/content/site/<locale>.json
-          ```
-
-          Do not include `dist/`, `.astro/`, `node_modules/`, or hard-coded article copy in components in a content PR.
-        checkpoint: The change is classified as content or implementation and the target matches its collection path.
-        aiPrompt: |
-          Review whether {{TARGET_PATH}} fits this repository's artists/songs/albums/projects/logs/site content model and explain its likely rendering impact. Avoid assumptions about code I have not supplied.
-      - title: Apply schema and localization constraints
-        summary: content.config.ts validates frontmatter; localized records share translationKey and structure.
-        body: |
-          `locale` is `zh | ja | en`. Localized files share a stable `translationKey`. Artists, songs, albums, projects, and logs have distinct schemas. Prefer `zh.md`, `ja.md`, and `en.md` together for a new entry; incomplete bodies may be empty but must not use placeholder prose.
-
-          Keep `theme.*` color values consistent across locales, localize only palette labels, and use `seo.*` only for deliberate metadata overrides.
-        checkpoint: Frontmatter satisfies its collection schema and locale/translationKey match sibling files.
-        aiPrompt: |
-          Act as an Astro Content Collections reviewer. Against the content.config.ts schema I provide, validate frontmatter for {{TARGET_PATH}} and list type, enum, required-field, and i18n consistency issues without inventing defaults.
-      - title: Choose web, Desktop, or local Git
-        summary: Web is fine for one file; use a topic branch for multi-file entries and structural work.
-        body: |
-          External contributors should target upstream `LinkTh1rsty/kamitsubaki-wiki-site:main` from a personal fork branch.
-
-          ```bash
-          git switch main
-          git pull --ff-only upstream main
-          git switch -c docs/update-kaf
-          # edit content
-          git add src/content/...
-          git commit -m "docs: update KAF entry"
-          git push -u origin docs/update-kaf
-          ```
-
-          Keep generated output, local settings, and unrelated formatting out of the PR. Confirm rights and project media policy before adding images.
-        checkpoint: The topic branch starts from current upstream/main and the staged diff contains only relevant files.
-        aiPrompt: |
-          Review the `git status` and `git diff --stat` I provide for a content PR centered on {{TARGET_PATH}}. Flag unrelated files, but never recommend reset --hard or deleting unconfirmed user work.
-      - title: Run the same validation as CI
-        summary: Run tests, Astro check, and build; fix the first root-cause error.
-        body: |
-          ```bash
-          pnpm test
-          pnpm check
-          pnpm build
-          ```
-
-          `check` catches collection schema and Astro/TypeScript issues; `build` validates static routes and rendering. Start from the first concrete error rather than downstream cascades.
-        checkpoint: All commands pass, or the PR clearly records an objective reason local validation was unavailable.
-        aiPrompt: |
-          I will paste output from pnpm test, pnpm check, or pnpm build. Identify the first root cause, distinguish schema errors from implementation errors, and propose the smallest fix without inventing file contents.
-      - title: Write a reviewable PR
-        summary: Make scope, sources, locale, validation, and risk obvious; target upstream/main.
-        body: |
-          Include a change summary, motivation, sources mapped to the facts they support, locale/file scope, validation commands actually run, and screenshots only for visible implementation changes. Keep the diff single-purpose and reviewable.
-        checkpoint: Base/head are correct and the description lets a reviewer understand scope and evidence before opening every file.
-        aiPrompt: |
-          Using only the real diff, sources, and validation results I provide, draft a concise PR title and Markdown body for {{TARGET_PATH}} with Summary, Sources, Locales/scope, and Validation. Do not invent tests or evidence.
-      - title: Complete review on the same branch
-        summary: Push CI and review fixes to the head branch and preserve the conversation history.
-        body: |
-          New commits update the PR. Prefer small fixes for explicit issues. Avoid duplicate PRs or rewriting a branch under active review unless a maintainer asks. Resolve content conflicts by rechecking facts and sibling locales, not just deleting conflict markers.
-        checkpoint: CI passes, review comments are answered, and the final diff remains focused and free of generated output.
-        aiPrompt: |
-          Classify the PR review comments and diff I provide into required fixes, clarification questions, and optional suggestions. Give a minimal same-branch repair order and avoid destructive Git commands.
-    finalTitle: Submit within the repository rules
-    finalBody: |
-      Final check: collection path and schema are valid, localization strategy is explicit, sources are traceable, the diff is focused, and `pnpm test`, `pnpm check`, and `pnpm build` pass.
-    finalLinkLabel: Open the current file directly
-docs: Read the full contribution guide
-docsPath: docs/contributing.en.md
+  ## Language and checks
+  - Language: [zh / ja / en]
+  - Checked: [Preview, links, or other checks actually performed]
+  - Help needed: [None, or remaining questions and checks not run]
+faqs:
+  - question: What can I do without a GitHub account?
+    answer: Read the guide, edit in the visual editor and download a draft. Create and verify an account when ready to submit. You can also collect article links and concrete problems to report later.
+  - question: My draft is saved. Why has the website not changed?
+    answer: The draft lives only in this browser. Export it, save the change on GitHub and create a PR. The live page changes after review, merge and successful deployment.
+  - question: I cannot find or load the file.
+    answer: Check the language and path, then search Edit existing article. You can import the complete Raw file from GitHub. Guides, announcements and homepage copy must be edited on GitHub. Back up your current draft before retrying.
+  - question: Checks failed or a reviewer requested changes.
+    answer: Read the specific error or comment and address the first issue. Commit changes to the existing PR’s branch. If unclear, describe the public error, file and steps you tried in that PR.
+  - question: Is a tiny edit worth submitting?
+    answer: A small, focused correction with clear evidence is useful. Explain what you do not know instead of guessing. Complete the part you can verify and discuss the rest in the PR.
 ---
-
-<!-- guide content is configured through frontmatter; keep a non-empty body so Astro always indexes this file -->

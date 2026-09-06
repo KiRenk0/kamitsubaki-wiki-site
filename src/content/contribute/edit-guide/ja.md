@@ -1,463 +1,252 @@
 ---
 locale: ja
 translationKey: edit-guide
-eyebrow: CONTRIBUTOR GUIDE
-title: はじめての投稿でも、大丈夫。
-intro: |
-  コードも Git も、先に覚える必要はありません。現在の経験に合うルートを選べば、**GitHub アカウントの作成**から Wiki の編集、そして **Pull Request の送信**まで順番に案内します。
+title: あなたの知っていることを、次の神椿ファンへ。
+intro: 誤字を一つ直す、出典を一つ添える、訳文を少し正確にする。どれも大切な貢献です。よく知っている記事の、小さな修正から始めましょう。
+ui:
+  eyebrow: 一緒につくる神椿の記録
+  start: 最初の編集を始める
+  openEditor: ビジュアルエディターを開く
+  back: ホームへ
+  choose: まず、やってみたいことを一つ
+  chooseHint: よく知っている分野を選んで、6 ステップへ。時間は目安です。下書きを保存して、次回続きを書いても構いません。
+  route: 今回の始め方
+  journey: 初めての貢献を、6 ステップで
+  journeyHint: 今のステップを開いて、読みながら操作しましょう。完了の印は自分用の確認で、投稿は行いません。
+  progress: 学習の進み具合
+  continue: 次のステップへ
+  complete: このステップを完了した
+  completed: 完了済み・取り消す
+  reset: 進捗をリセット
+  resetConfirm: ガイドの学習進捗を消去しますか？ エディターの下書きは変更されません。
+  storage: 進捗はこのブラウザーだけに保存されます。閲覧データを消去すると失われます。
+  storageFailed: 進捗を保存できませんでした。このまま学習は続けられます。
+  allDone: 6 ステップ完了です。PR のチェック結果と返信を確認しましょう。
+  target: 今回編集するファイル
+  targetHint: 記事の原文パスを引き継いでいます。読み込み後にタイトルと言語を確認してください。
+  unsupported: このファイルは GitHub で編集します。ビジュアル編集はアーティスト・楽曲・アルバム・企画・活動記録に対応しています。
+  invalidTarget: ファイルパスを確認できません。記事の「ソースを編集」から入り直すか、エディターで検索してください。
+  github: このファイルを GitHub で編集
+  mapTitle: まずは画面の使い方から
+  mapHint: 現在の記事エディターに対応しています。PC は執筆とプレビューを並べ、狭い画面ではパネルを切り替えて使います。
+  workshops: 最初の修正ができたら、必要なことを
+  workshopsHint: 新規記事、翻訳、歌詞では確認する点が異なります。一度に全部覚える必要はありません。
+  reference: 必要なときに調べる
+  syntax: 構文とプロパティ
+  syntaxHint: 見出し、表、メディア、ルビ、歌詞の時刻、記事ごとの項目。
+  format: 内容とスタイル
+  formatHint: 出典、中立的な表現、名称、日付、クレジット、多言語のルール。
+  review: レビューをお願いする前に
+  pr: 記入して使える PR テンプレート
+  prHint: 角括弧の部分を実際の内容に置き換えます。行っていない確認を「済み」と書かないでください。
+  copy: PR テンプレートをコピー
+  copied: コピーしました
+  copyFailed: 自動コピーできません。下の文章を選択してコピーしてください。
+  faq: つまずいたときは
+  finish: 次は、記事から直接始められます。
+  finishBody: このガイドをブックマークして、確かめられる部分を少しずつ改善しましょう。不明点は PR で説明してください。出典と説明は、次に編集する人の助けにもなります。
+  issues: まず問題を報告する
+  issuesHint: まだ編集しなくても、記事の URL・具体的な誤り・出典を Issues に報告できます。同じ報告がないか先に検索してください。
+  guide: 貢献ガイド
+  example: 楽曲一覧を見る
+  taskAction: 関連する手順へ
+tasks:
+  - id: fix
+    title: 文章を一か所直す
+    time: 約 5〜10 分
+    description: 誤字、リンク切れ、分かりにくい一文から。
+    next: 元の文章を読み、必要な部分だけ直します。事実を変えるなら出典も添えます。
+  - id: source
+    title: 出典を添える
+    time: 約 10〜20 分
+    description: 日付、制作情報、活動記録を確かめられるように。
+    next: 公式作品ページや告知の、該当する記述を見つけてリンクします。
+  - id: translate
+    title: 訳文を改善する
+    time: 約 15〜30 分
+    description: 名称や一文の意味を正確に。記事全体でなくて大丈夫。
+    next: 対象言語の既存ファイルを読み込み、原文と照合します。記事キーは維持します。
+  - id: new-entry
+    title: 記事を補完する
+    time: 数回に分けて
+    description: 公式資料を用意した人向け。既存記事の補筆からでも。
+    next: 重複を検索してから新規記事の解説へ。空の章を作るより、先に資料を集めます。
+map:
+  - title: 左 · 場所を探す
+    body: 「記事」で名前やパスを検索。「アウトライン」で章へ移動。「プロパティ」で種類・言語・記事情報を設定します。
+  - title: 中央 · 本文を書く
+    body: 直接入力し、文字選択で書式ツールを使います。空の段落で /、または「内容を挿入」でブロックを追加します。
+  - title: 右 · 表示と設定を確認
+    body: 「プレビュー」で仕上がりを確認。ブロックを選ぶと「プロパティ」で画像・表・歌詞などを調整できます。
+  - title: 下部と右上 · 確認と出力
+    body: 下部に保存状態と「出力前の確認」。右上の「Markdown を出力」で全文コピーや .md 保存を行います。
+lessons:
+  - id: choose
+    title: 今回の修正を一つ決める
+    summary: 小さな目標と、確認できる根拠から。
+    body: |-
+      アーティスト・楽曲・アルバム・企画・活動記録から、よく知っている記事を開きます。関係する段落を読んで「何を直すか」を一文で言えるようにしましょう。
 
-  間違えても、すぐに公開サイトが壊れることはありません。Pull Request は「変更を確認してください」という依頼で、反映前にメンテナーが確認します。
-primaryAction: 自分に合うルートを選ぶ
-journeyLabel: 1回の投稿は3段階
-journeySteps:
-  - アカウント準備
-  - 内容を編集
-  - PRを送信
-back: ホームへ戻る
-targetLabel: 今回の対象ファイル
-targetIntro: |
-  記事ページから来た場合、ここに実際に変更するファイルが表示されます。違う場合は記事へ戻り、「ソースを編集」から入り直してください。
-invalidTarget: 対象ファイルが指定されていません。学習は続けられますが、実際の編集時は各記事から入ってください。
-switchLabel: いま、どこから始めますか？
-switchHint: 技術に詳しいかを判断する必要はありません。現在の状況に一番近いものを選んでください。ルートはいつでも変更でき、進捗はこのブラウザに保存されます。
-durationLabel: 所要時間の目安
-outcomeLabel: 完了後
-progressLabel: 完了
-resetLabel: このルートの進捗をリセット
-resetConfirm: このブラウザに保存されたルートの進捗を消去しますか？
-completeLabel: このステップを完了にする
-completedLabel: このステップは完了済み
-checkpointLabel: "完了の目安："
-aiHelpTitle: このステップを AI に手伝ってもらう
-aiHelpBody: 現在見えている画面、エラー、迷っている点を補足すると、このステップの目的・対象ファイル・リポジトリ制約と組み合わせた質問を作ります。
-aiPrivacyNote: 画面の公開情報とエラー文だけを書き、パスワード、認証コード、Cookie、トークン、メール、個人情報は入力しないでください。
-aiContextLabel: 現在の状況を補足（任意）
-aiContextPlaceholder: 例：GitHub は開けましたが、Propose changes が見つかりません。Commit changes…だけ表示されています。
-aiPromptPreviewLabel: コピーされる完全な質問
-aiNoContext: 具体的な状況はまだありません。このステップで通常見えるものを説明し、操作を一度に一つだけ案内してください。
-aiGuardrails: パスワード、認証コード、Cookie、トークン、個人情報を要求・処理しないこと。資料、出典、テスト結果、未表示の画面内容を作らないこと。現在のステップに必要な最小操作だけを一度に一つ示すこと。
-aiCopyLabel: 完全な質問をコピー
-aiCopiedLabel: コピーしました
-glossaryTitle: まず覚える4つの言葉
-glossary:
-  - term: Repository / リポジトリ
-    definition: サイトのファイルと変更履歴を保管する公開プロジェクトフォルダです。
-  - term: Fork / フォーク
-    definition: 自分のアカウントに作る安全なコピーです。ここを編集しても公開サイトは直接変わりません。
-  - term: Commit / コミット
-    definition: 1回の変更を説明付きで保存した記録です。これだけでは最終提出になりません。
-  - term: Pull Request / PR
-    definition: 自分のコピーで行った変更をメンテナーに確認・統合してもらう依頼です。
-variants:
-  - key: beginner
-    label: GitHub アカウントを持っていない
-    summary: 登録、メール認証、Web編集、最初のPRまで、ソフトを入れずにゼロから進めます。
-    audience: 完全初心者ルート · コーディング不要
-    duration: 約35〜55分
-    outcome: 最初のPRを自分で送信
-    description: |
-      一番詳しく、安心して進められるルートです。必要なのは受信できるメールとブラウザだけ。すべて Web 上で完結し、**Git、ターミナル、コードエディタのインストールは不要**です。
+      最初は誤字、公式リンク、出典のある日付修正がおすすめです。記事全体の書き直しや歌詞タイムラインは後でも構いません。「最近発売」を具体的な日付にするなら、実際の公式告知を添えます。句読点だけの修正に無関係な出典は不要です。
 
-      最初は順番に進み、次回からは短い「Web編集」ルートを利用できます。
-    sections:
-      - title: 必要なものを準備する
-        summary: GitHub も Wiki 投稿も無料です。メール、ブラウザ、変更したい情報、信頼できる出典を用意します。
-        body: |
-          長く使えるメールアドレス、Chrome / Edge / Safari / Firefox などのブラウザ、変更したい内容とそれを確認できる出典を準備します。
+      記事が決まっていなければ楽曲一覧へ。編集せず、ページ下部の Issues から具体的な問題を報告する方法もあります。
+    checkpoint: 修正範囲を一文で説明でき、事実の変更には根拠がある。
+  - id: load
+    title: 既存の原文を読み込む
+    summary: 記事情報と本文を引き継いで始めます。
+    body: |-
+      1. 記事の **ソースを編集** からこのガイドに来ると、上部にファイルパスが表示されます。
+      2. **ビジュアルエディターを開く** で対応する原文を読み込みます。下書きがある場合は保存してから置き換えを判断してください。
+      3. エディターの **既存の記事を編集** から名前やパスを検索し、**原文を読み込む** こともできます。
+      4. タイトル・本文・言語を確認。`zh.md` は簡体字、`ja.md` は日本語、`en.md` は英語です。
 
-          クレジットカード、有料プラン、Git、ターミナル、開発アプリは不要です。変更はまず自分の安全なコピーに保存し、PR で確認を依頼します。
+      読み込めない場合は再試行するか、GitHub の Raw から全文を取得し「原文を読み込む」で貼り付けます。1 MB までの .md も選べます。二つの `---` の間にある情報も含めてください。
 
-          > パスワード、認証コード、2段階認証コード、復旧コードは本人だけが管理します。メンテナーも AI も必要としません。
-        checkpoint: 受信できるメールがあり、ブラウザだけで無料で完了できると理解できた。
-        action:
-          label: GitHub公式のアカウント作成ガイド
-          href: https://docs.github.com/ja/get-started/start-your-journey/creating-an-account-on-github
-        aiPrompt: |
-          ファン Wiki に初めて投稿します。GitHub はまったく分かりません。Repository、Fork、Commit、Pull Request を非常にやさしい日本語で説明し、PR では公開サイトをすぐ壊せない理由も教えてください。プログラミング経験を前提にせず、パスワードや認証コードを求めないでください。
-      - title: 無料の GitHub 個人アカウントを作る
-        summary: 画面に従って登録し、公開されるユーザー名を決め、メール認証を完了します。
-        body: |
-          1. 下の GitHub 登録ページを開きます。
-          2. メール、または GitHub が表示する Google / Apple ログインで登録します。
-          3. 投稿記録の横に公開されてもよいユーザー名を決めます。
-          4. 他サイトと異なる強いパスワードを作り、安全に保管します。
-          5. GitHub が求める確認を完了します。
+      ガイド・お知らせ・ホーム文言はビジュアル編集の 5 種類の対象外です。これらは GitHub のリンクを使います。
+    checkpoint: 対象の記事と言語が読み込まれ、既存ファイルを空の原稿で置き換えていない。
+  - id: write
+    title: 文章を書く感覚で直す
+    summary: よく使う書式はツールバーにあります。
+    body: |-
+      中央の段落をクリックして入力します。本文の見出しはレベル 2 から。記事タイトルには別の入力欄があります。
 
-          プランを聞かれたら無料の個人アカウントで十分です。登録後、GitHub から届くメールのリンクを開いて認証してください。未認証だと Fork や PR などが制限されます。
+      | やりたいこと | 操作 |
+      | --- | --- |
+      | 太字・斜体・リンク | 文字を選び、上部または選択時のツールバー |
+      | 強調・ルビ・ネタバレ | 対応するツール。必要な説明や読みを入力 |
+      | 見出し・リスト・画像・表 | 空の段落で `/`、または「内容を挿入」 |
+      | ブロックの調整 | 選択して右のプロパティ |
+      | 順番の変更 | 上下移動ボタン、またはドラッグハンドル |
+      | 本文や章を探す | 「本文を検索」またはアウトライン |
+      | タイトル・日付など | 左のプロパティにある記事情報 |
 
-          メールが届かない場合は迷惑メールを確認し、右上のアイコン → `Settings` → `Emails` → `Resend verification email` を使います。
-        checkpoint: GitHub にログインでき、Settings → Emails で主要メールが認証済みになっている。
-        action:
-          label: GitHub登録ページを開く
-          href: https://github.com/signup
-        aiPrompt: |
-          GitHub の無料個人アカウントを作っています。現在の登録画面で一般的に必要な項目を一つずつ説明し、何が公開情報になるか教えてください。パスワードやメール認証コード、2段階認証コード、復旧コードを作成・収集・要求しないでください。
-      - title: 4つの言葉で流れを理解する
-        summary: Gitを学ぶ必要はありません。「リポジトリ → Fork → Commit → PR」だけ覚えます。
-        body: |
-          編集部への原稿投稿にたとえると、リポジトリは共有の原稿庫、Fork は自分用の作業コピー、Commit は1回の保存記録、PR は編集部へ戻して確認を頼む提出です。
+      まず「公式告知」の文字を選択 → **リンクを追加** → 実際の URL を入力 → 適用して、プレビューで確認してみましょう。
 
-          PR は公開サイトへの直接編集ではありません。修正依頼は失敗ではなく、共同編集の普通のやり取りです。
+      「そのまま保持する原文」は複雑な構文を含む部分です。必要なときだけソース表示で小さく修正し、構文リファレンスで確認します。YAML の解析エラーは修正してからビジュアル表示へ戻り、不明な情報を消して解決しないでください。
+    checkpoint: 意図した変更だけがプレビューに現れ、見出しと複雑な原文が保持されている。
+  - id: sources
+    title: 事実と出典を一緒に残す
+    summary: 読む人が根拠までたどれるように。
+    body: |-
+      発売日・クレジット・活動記録は公式作品ページ、告知、正式なインタビューや出版資料で確認します。隣の文章を直接裏付けるページへリンクし、ホームページだけで済ませないようにします。
 
-          **Checks / CI** は自動確認です。緑は通過、赤は具体的な修正点がある状態です。
-        checkpoint: Commit は保存、PR はメンテナーへの確認依頼だと自分の言葉で説明できる。
-        aiPrompt: |
-          Repository、Fork、Branch、Commit、Pull Request、Checks/CI を「編集部への原稿投稿」にたとえて、非技術者向けに説明してください。最後に編集から統合までの文字だけの流れ図を作ってください。
-      - title: 対象ファイルと言語、出典を確認する
-        summary: 間違った記事を編集しないよう、パスとロケール、根拠を先に確認します。
-        body: |
-          上部の対象は `src/content/` で始まる必要があります。
+      「好き」という感想を「高く評価された」という事実に変えないでください。評価を紹介するなら誰の評価かを示します。検索結果の要約、AI の回答、ファンの推測は出典の代わりにはなりません。
 
-          ```text
-          src/content/artists/vwp/kaf/ja.md
-          ```
+      - 名称と日付を原資料と照合する。
+      - 画像の出典と利用条件を確認し、既存ライセンスを保持する。**画像 URL の入力だけではファイルはアップロードされません。**
+      - 引用・訳文・歌詞では原文、訳者、クレジットを残す。
+      - 不明な事実は書かず、足りない資料を PR で説明する。
 
-          `zh.md` は中国語、`ja.md` は日本語、`en.md` は英語です。`artists/` はアーティスト、`songs/` は楽曲、`albums/` はアルバム、`projects/` は企画、`logs/` は記録、`site/` はサイト共通文言です。
+      AI は表現や提供した資料の整理、エラーの説明に使えますが、最終確認は自分で行います。制作情報、解釈、歌詞時刻を推測させないでください。
+    checkpoint: 追加した事実に直接の出典があり、署名とライセンスが保持されている。
+  - id: review
+    title: プレビューして出力する
+    summary: ブラウザーの下書きは、まだ投稿されていません。
+    body: |-
+      1. **プレビュー** を通して読み、見出し・リンク・画像説明・表・折りたたみを確認。狭い画面は下部のプレビュー切替を使います。
+      2. **出力前の確認** で必須項目を補います。項目チェックは事実の正しさを保証しません。
+      3. 保存状態を確認。このブラウザーの下書きは他の端末に同期されません。大切な変更はダウンロードして保存します。
+      4. **Markdown を出力 → Markdown 全体をコピー**、または **.md をダウンロード**。先頭の記事情報も含まれます。
+      5. 有効なパスがあれば同じメニューに **GitHub の保存先を開く** が現れます。正しいファイルの編集欄に全文を貼り付けます。
 
-          新しい事実には追跡可能な出典を用意します。公式サイト・公式告知を優先し、AI 出力、噂、確認できないファン投稿を事実の根拠にはしません。
-        checkpoint: 対象とロケールが正しく、新しい情報を支える信頼できる出典がある。
-        aiPrompt: |
-          KAMITSUBAKI FAN WIKI の {{TARGET_PATH}} を編集します。このパスの内容種別と言語、変更すべき場所が frontmatter か本文かを説明してください。人物情報を作らず、出典が不足なら公式情報を探すよう明示してください。dist、.astro、node_modules や無関係なコードは変更しないでください。
-      - title: GitHub の Web エディタを開く
-        summary: 最後の編集ボタンから進みます。ログインや自動 Fork の確認が出ても正常です。
-        body: |
-          このルート末尾の編集ボタンを使います。書き込み権限がない場合、GitHub は **Fork this repository** を表示するか、変更提案時に自動で Fork を作ります。
+      GitHub の **Preview / Changes** や差分をもう一度確認します。サイト独自のルビ・メディア・歌詞は GitHub で表示できない場合があるため、サイト内プレビューと最終ビルドチェックで確認してください。
 
-          ファイルパスを再確認してください。ボタン表記は変わることがありますが、流れは次の通りです。
+      情報が未完成でも下書きの保存はできます。警告を消すために推測や仮の情報を埋めないでください。
+    checkpoint: バックアップがあり、全文の情報が残り、差分が意図した変更だけになっている。
+  - id: submit
+    title: レビューをお願いする
+    summary: Commit の後に Pull Request を作ります。
+    body: |-
+      **GitHub が初めてなら：** 投稿の準備ができたときに [アカウント登録](https://github.com/signup)とメール確認を行います。公開リポジトリへの貢献は無料アカウントで十分です。エディターの練習は先にできます。
 
-          ```text
-          ファイル → Edit → Preview → Commit / Propose changes → Pull Request
-          ```
+      1. 書き込み権限がなければ、自分のアカウントの副本 **Fork** を作る案内に従います。
+      2. 修正を貼り付けて差分を確認し、**Commit changes… / Propose changes** で保存します。変更内容を短く説明します。**Commit は保存記録で、PR とは別です。**
+      3. **Compare & pull request / Create pull request** へ進みます。対象リポジトリが `LinkTh1rsty/kamitsubaki-wiki-site`、対象ブランチが `main`、比較元が自分の変更ブランチであることを確認。
+      4. タイトルと下のテンプレートで変更・出典・確認内容を説明して PR を作成します。番号付きの Pull Request ページが表示されたら投稿完了です。
 
-          編集ボタンが使えない場合は、ログインとメール認証を確認し、Wiki 記事から入り直します。
-        checkpoint: GitHub の編集欄が見え、そのパスが本ページ上部と完全に一致している。
-        action:
-          label: GitHub公式のWeb編集ガイド
-          href: https://docs.github.com/ja/repositories/working-with-files/managing-files/editing-files
-        aiPrompt: |
-          他の人の公開 GitHub リポジトリで {{TARGET_PATH}} を Web 編集しています。私が説明する画面の文字から、次に押すボタンを一度に一つだけ教えてください。自動 Fork は正常です。パスワード、認証コード、Cookie、トークン、完全なアカウント情報を求めないでください。
-      - title: frontmatter と本文を安全に編集する
-        summary: 多くの投稿は文章修正です。ファイル先頭の構造を保ち、不明な項目は削除しません。
-        body: |
-          Markdown ファイルは、`---` で囲まれた frontmatter と、その後の本文に分かれます。両方の `---`、既存キー、引用符、インデントを維持してください。
+      Checks は自動確認です。実行中は待ち、失敗したら詳細を開きます。通過後も人のレビューがあります。修正依頼を受けたら **同じ Fork の同じブランチ** を直して再度 Commit すると、元の PR に追加されます。
 
-          `locale` はファイル名と一致し、同じ記事の多言語ファイルは同じ `translationKey` を使います。YAML の字下げは Tab ではなく空白です。
+      マージ後、正式サイトにはデプロイ成功後に反映されます。PR と Commit に貢献履歴が残り、サイト内の貢献者情報は後から更新される場合があります。
 
-          必要な箇所だけ変更し、新しい事実には出典を付けます。仮文、推測、AI が作った事実、パスワード、トークン、個人情報は追加しません。
-        checkpoint: 変更範囲が明確で構造が残り、事実には出典があり、秘密情報が含まれていない。
-        aiPrompt: |
-          慎重な Markdown 編集者として、{{TARGET_PATH}} の断片と信頼できる出典を確認してください。出典が直接支える箇所だけ変更し、YAML のキー、インデント、--- を維持し、事実や仮文を作らず、無関係な段落を変えないでください。根拠不足なら編集を止めて不足を説明してください。
-      - title: 差分を確認して Commit する
-        summary: Preview / Changes を見て、変更内容を表す短い説明で保存します。
-        body: |
-          緑は追加、赤は削除を示すことが一般的です。誤削除、壊れた `---`、言語違い、不自然なインデント、リンク・日付・固有名詞を確認します。
+      表記が変わった場合は GitHub の [ファイル編集](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files)と [Fork からの PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork)を参照してください。
+    checkpoint: 番号付き PR があり、変更・出典の説明と、その後の確認方法が分かっている。
+workshops:
+  - id: new-entry
+    title: 楽曲・アルバムなどの記事を作る
+    summary: 重複を探してから、資料と保存先を準備。
+    body: |-
+      サイトとエディターで名称・別名を検索し、既存記事があれば補筆します。なければアウトライン上部の「記事を新規作成」を使い、プロパティで種類と言語を選びます。現在の下書きは事前に保存してください。
 
-          **Commit changes...** を押し、`docs: 花譜記事の活動日を修正` のような説明を書きます。外部投稿者には **Propose changes** と表示されることがあります。
+      必須項目は種類ごとに異なるため「出力前の確認」を使います。タイトル・記事キー・出典を決め、内容のある章を追加します。
 
-          Commit は Fork/ブランチへの保存で、PR はまだ完了していません。次の画面も続けてください。
-        checkpoint: 差分は意図した内容だけで、Commit message が変更を正確に表している。
-        aiPrompt: |
-          {{TARGET_PATH}} の GitHub diff を確認してください。誤削除、YAML、言語、根拠のない事実、個人情報を検査し、短い日本語の Commit message を3案ください。貼っていない内容は推測しないでください。
-      - title: 最初の Pull Request を作る
-        summary: 元リポジトリの main を対象にし、タイトル・変更・出典・言語を書いて送信します。
-        body: |
-          base repository が `LinkTh1rsty/kamitsubaki-wiki-site`、base branch が `main`、head/compare が自分の Fork とブランチであることを確認します。
+      - `songs/`：`src/content/songs/<artistId>/<category>/<songId>/<locale>.md`。例：`src/content/songs/kaf/originals/new-song/ja.md`。
+      - `albums/`：`src/content/albums/<artistId>/<albumId>/<locale>.md`。例：`src/content/albums/kaf/new-album/ja.md`。
+      - その他は同種の既存記事を参考にします。既存 ID やフォルダー名を不用意に変えないでください。
 
-          PR には変更内容、資料出典、言語と範囲を書きます。通常の内容修正は Draft にする必要はありません。**Create pull request** を押し、番号付き PR ページが表示されたら提出完了です。
-        checkpoint: 番号付きの Pull Request ページにタイトル、説明、Commits、変更ファイルが表示されている。
-        action:
-          label: GitHub公式のFork PRガイド
-          href: https://docs.github.com/ja/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork
-        aiPrompt: |
-          {{TARGET_PATH}} の KAMITSUBAKI FAN WIKI Pull Request を作ります。私が実際の変更と出典を渡すので、短いタイトルと「変更内容 / 資料出典 / 言語と範囲」を含む Markdown 説明、提出前チェックを作ってください。変更や出典を作らないでください。
-      - title: Checks とレビューに対応する
-        summary: 自動チェックを待ち、赤なら Details を開き、同じ PR で修正を続けます。
-        body: |
-          黄・灰は実行中、緑は通過、赤は失敗です。**Details** を開き、最初の具体的エラーから確認します。YAML の字下げ、必須項目、locale、Markdown 構造が代表的な原因です。
+      これはパスの例です。実際の ID に置き換え、楽曲のアーティスト・分類・制作情報、アルバムの発売情報・曲順・曲の参照を確認します。画像は別途リポジトリへ追加します。
 
-          同じ Fork / ブランチを編集して Commit すれば、既存 PR に自動追加されます。CI 修正のために新しい PR は作りません。レビューコメントを修正したら、短く返信してください。
-        checkpoint: 現在の状態を理解し、失敗やコメントがあれば具体的な修正箇所を見つけた。
-        aiPrompt: |
-          {{TARGET_PATH}} の PR にチェック失敗またはレビューコメントがあります。公開されているエラー文を貼るので、やさしい日本語で意味と最小修正を説明し、同じブランチと PR を更新するよう案内してください。秘密情報を求めないでください。
-      - title: 投稿を完了し、結果を確認する
-        summary: PR を送れば中核作業は完了です。通知を確認し、Merged または Closed まで追跡します。
-        body: |
-          **Open** は確認中、**Merged** は統合済み、**Closed** は未統合で終了です。レビューには時間がかかることがあります。待っているだけなら PR を閉じる必要はありません。
+      左のプロパティで「GitHub ファイルパス（任意）」を開き、言語ファイル名を含む完全なパスを入力します。出力メニューから GitHub の新規ファイル作成先へ進めます。パスの入力だけではファイルは作成されません。
 
-          修正が必要なら同じブランチを更新します。1か所の誤字や正確な日付、信頼できる出典の追加も大切な貢献です。
-        checkpoint: PR が送信され、状態の見方と次に確認する場所が分かる。
-        aiPrompt: |
-          私が説明する GitHub PR の状態が Open、Merged、Closed のどれかを説明し、必要な次の操作だけを初心者向け日本語で教えてください。認証情報を求めないでください。
-    finalTitle: あなたの投稿をメンテナーへ送る
-    finalBody: |
-      最後に、対象ファイル、検証可能な内容、出典、仮文・推測・個人情報がないことを確認します。その後は **Edit → Preview → Commit / Propose changes → Create pull request** の順です。困った場所では各ステップの AI 用質問を使えます。
-    finalLinkLabel: GitHubで現在のファイルを編集する
-  - key: web
-    label: アカウントがあり、Webだけで編集したい
-    summary: ブラウザで既存ファイルを編集し、Commit、PR、追加修正まで行います。
-    audience: Web編集ルート · インストール不要
-    duration: 約15〜30分
-    outcome: Web方式のPRを1件提出
-    description: |
-      認証済み GitHub アカウントにログインでき、ローカルツールを使わず安全に投稿したい人向けです。対象確認、Web エディタ、Fork、PR、Checks と追加修正に集中します。
-    sections:
-      - title: アカウント・対象・範囲を確認する
-        summary: ログインとメール認証、対象パスとロケールを確認します。
-        body: |
-          対象は `src/content/` から始まり、正しい言語ファイルである必要があります。1つの PR は1つの目的に絞り、新しい事実には追跡可能な公式・信頼できる出典を付けます。AI は校正に使えても出典にはなりません。
-        checkpoint: アカウントと対象が正しく、PRの目的を一文で説明できる。
-        aiPrompt: |
-          {{TARGET_PATH}} の小さな Wiki 修正の範囲を整理してください。問題と出典を説明するので、この PR に含める箇所と、混ぜない方がよい無関係な整理を分けてください。事実を作らないでください。
-      - title: Webで編集し、差分を確認する
-        summary: 必要なら自動 Fork を受け入れ、frontmatter を保って最小変更を行います。
-        body: |
-          最後の入口からファイルを開きます。Fork の確認が出たら続行します。YAML の `---`、キー、引用符、インデントを保ち、Preview / Changes の赤と緑が意図した変更だけか確認してください。
-        checkpoint: 差分が必要な内容だけで、YAML と Markdown の構造が維持されている。
-        action:
-          label: GitHub公式Web編集ガイド
-          href: https://docs.github.com/ja/repositories/working-with-files/managing-files/editing-files
-        aiPrompt: |
-          {{TARGET_PATH}} の Markdown diff を確認し、YAML、誤削除、言語、出典、プライバシーを検査してください。最小限の必要修正だけ提案してください。
-      - title: Commitして変更を提案する
-        summary: 何を変えたか分かる説明で、自分のFork/ブランチに保存します。
-        body: |
-          **Commit changes...** で `docs: 花譜記事の開催日を修正` のような短い説明を書きます。**Propose changes** が表示されても正常です。upstream の `main` へ直接書き込まず、自動作成された Fork / ブランチを利用します。
-        checkpoint: Commit が自分の Fork / ブランチに保存され、比較または PR 画面に進んだ。
-        aiPrompt: |
-          {{TARGET_PATH}} の実際の変更説明から、`docs: ...` 形式の短い Commit message を5案ください。範囲を誇張しないでください。
-      - title: Pull Requestを作成する
-        summary: baseは元のmain、headは自分のFork。変更・出典・言語・範囲を書きます。
-        body: |
-          base を `LinkTh1rsty/kamitsubaki-wiki-site:main`、head を自分の Fork / ブランチにします。変更内容、出典、言語・範囲を書き、**Create pull request** を押します。番号付き PR ページが成功の目印です。
-        checkpoint: 番号付きPRページに想定したタイトル、説明、Commits、Files changedがある。
-        action:
-          label: GitHub公式Fork PRガイド
-          href: https://docs.github.com/ja/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork
-        aiPrompt: |
-          {{TARGET_PATH}} のPRタイトルとMarkdown説明を、私が示す実際の変更・出典だけで作ってください。「変更内容 / 資料出典 / 言語と範囲」を含め、根拠を作らないでください。
-      - title: Checksとレビューを処理する
-        summary: 赤ならDetailsを開き、同じブランチとPRで修正します。
-        body: |
-          自動チェックを待ち、失敗時は最初の具体的エラーから修正します。同じ Fork / ブランチへの追加 Commit は既存 PR に自動反映されます。CI 修正用の重複 PR は不要です。
-        checkpoint: Checksが通過したか、同じPRで具体的な問題を修正できた。
-        aiPrompt: |
-          {{TARGET_PATH}} の公開されたActionsエラーまたはレビューコメントを説明し、最小修正を示してください。不足情報は推測せず、同じPRを更新するよう案内してください。
-      - title: 既存PRを更新または終了する
-        summary: 追加Commitは元PRに入ります。本当に中止する場合だけ閉じます。
-        body: |
-          同じブランチを編集して修正を追加し、対応内容を返信します。待機中という理由だけで閉じる必要はありません。**Open / Merged / Closed** の意味を確認してください。
-        checkpoint: 元PRの更新方法と、Open・Merged・Closedの違いが分かる。
-        aiPrompt: |
-          開いているPRに追加修正します。私が説明する画面から同じForkとブランチを確認し、新しいCommitを元PRへ追加する手順を教えてください。重複PRは勧めないでください。
-    finalTitle: 一度確認してから送信する
-    finalBody: |
-      パス、差分、出典、プライバシーを確認し、**Edit → Preview → Propose changes → Create pull request → Checks / review** と進みます。
-    finalLinkLabel: GitHub Webエディタを開く
-  - key: new-entry
-    label: 完全な新規記事を追加したい
-    summary: 内容種別を決め、ディレクトリと3言語ファイルを作り、構造・出典・検証を揃えてPRを送ります。
-    audience: 新規記事ルート · Web / ローカル対応
-    duration: 約35〜70分
-    outcome: 3言語の新規記事PR
-    entryMode: repository
-    description: |
-      既存ファイルの修正ではなく、アーティスト・楽曲・アルバム・企画・タイムライン記録を新しく追加する人向けです。新規記事はディレクトリと複数ファイルを同時に扱うため、同種の既存記事を参考に進めます。
-    sections:
-      - title: 記事種別と収録範囲を決める
-        summary: artists、songs、albums、projects、logs のどれかを選び、独立記事にする理由を確認します。
-        body: |
-          `artists/` はアーティスト・クリエイター・ユニット、`songs/` はアーティストと曲種ごとの楽曲、`albums/` はアーティストごとのアルバム・EP・公式リリース、`projects/` は企画・世界観・展示、`logs/` は日付のあるニュースや活動記録です。
+      各言語で `translationKey` を共通にして `zh.md`・`ja.md`・`en.md` を準備します。足りない翻訳は PR で協力を依頼し、未翻訳の文章を完成扱いにしないでください。詳細な補筆基準は構文リファレンスにあります。
+  - id: translation
+    title: 翻訳と繁体字中国語
+    summary: 記事の同一性、意味、署名を保ちます。
+    body: |-
+      対象言語の既存原文を読み込み、資料と一文ずつ照合します。言語選択は **自動翻訳ではありません**。言語だけ変更して別の版を上書きしないでください。
 
-          明確な対象名と信頼できる公開出典が必要です。既存記事に1項目を追加するだけなら、新規記事ではなく既存ファイルを編集します。
-        checkpoint: collectionと独立記事にする理由を説明できる。
-        aiPrompt: |
-          【目的】追加したい内容が artists / songs / albums / projects / logs のどれに属し、独立記事にすべきか判断する。
-          【内容ルート】{{REPO_CONTENT_ROOT}}
-          【現在の状況】{{USER_CONTEXT}}
-          【制約】提供された対象と出典だけで判断し、事実や規約を作らない。
-          【出力】推奨collection、理由、既存記事修正との比較、準備資料。
-      - title: ディレクトリ名とtranslationKeyを決める
-        summary: 小文字英数字とハイフンの安定したslugを使い、3言語で同じtranslationKeyを共有します。
-        body: |
-          例：`src/content/artists/vwp/new-artist/`、`src/content/songs/kaf/originals/new-song/`、`src/content/albums/kaf/new-album/`、`src/content/projects/arg/new-project/`、`src/content/logs/2026/2026-07-12-new-event/`。
+      `translationKey` は共通にし、日付・作品番号・関係を一致させます。公式名称を優先し、不確かな訳語は根拠を PR に記載します。
 
-          slugとtranslationKeyは表示言語が変わっても変更しません。既存ディレクトリと重複しないか検索してください。
-        checkpoint: slugとtranslationKeyが安定し、既存項目と重複していない。
-        aiPrompt: |
-          【目的】新規記事のslugとtranslationKeyを設計する。
-          【現在の状況】{{USER_CONTEXT}}
-          【制約】slugは小文字英数字とハイフンのみ。translationKeyはzh/ja/en共通。公式英語名を推測しない。
-          【出力】候補3案、推奨案、重複確認項目。
-      - title: ディレクトリと3言語ファイルを作る
-        summary: 同じ記事ディレクトリにzh.md、ja.md、en.mdを作成します。
-        body: |
-          ```text
-          <entry>/zh.md
-          <entry>/ja.md
-          <entry>/en.md
-          ```
+      繁体字は簡体字から生成されます。`zh-tw.md`・`zh-hk.md` を直接編集せず `zh.md` を直します。地域ごとの表現は構文ガイドの変換の章、またはツールバー「···」の「繁体字表現の指定」を参照してください。
 
-          Webでは正しいcollectionで **Add file → Create new file** を使い、`new-artist/zh.md` のように `/` を含む名前でディレクトリも作れます。本文未完成なら空欄にできますが、仮文は入れません。
-        checkpoint: 3ファイルが同じ正しいディレクトリにあり、余計な階層がない。
-        action:
-          label: GitHub公式の新規ファイル作成ガイド
-          href: https://docs.github.com/ja/repositories/working-with-files/managing-files/creating-new-files
-        aiPrompt: |
-          【目的】新規記事のディレクトリとzh.md / ja.md / en.md骨格を作る。
-          【内容ルート】{{REPO_CONTENT_ROOT}}
-          【現在の状況】{{USER_CONTEXT}}
-          【制約】既存階層に従い、3言語を同一ディレクトリに置き、仮の事実を書かない。
-          【出力】最終ディレクトリツリー、Web操作、各ファイルの最小構造。
-      - title: collectionに合うfrontmatterを書く
-        summary: content.config.tsと同種の既存ファイルを基準に、必要な項目だけ書きます。
-        body: |
-          Artists、Songs、Albums、Projects、Logs は必須項目が異なります。`locale` は各ファイルに合わせ、`translationKey` は3言語で完全一致させます。楽曲には `artist` と `artistId` が必要で、アルバムの `songId` はリンク先の楽曲記事が存在する場合だけ設定します。
+      歌詞の原文・訳者・利用条件を保持します。最初は確かめられる一文だけでも十分です。
+  - id: lyrics
+    title: 歌詞・ルビ・学習モード
+    summary: まず一行を合わせ、時刻はその後に。
+    body: |-
+      「対訳歌詞」を挿入し、プロパティに原文・かな・ローマ字・訳文を入力します。一行をプレビューして対応を確認してから次へ進みます。「ルビ」は通常の本文にも使えます。
 
-          不明な `theme`、`seo`、画像、順序値を見た目のために作らないでください。実際の必須項目は `src/content.config.ts` を確認します。
-        checkpoint: 3言語のfrontmatterがschemaに合い、localeとtranslationKeyが正しい。
-        aiPrompt: |
-          【目的】提供するcontent.config.tsと既存記事に基づき、最小の有効な3言語frontmatterを作る。
-          【現在の状況】{{USER_CONTEXT}}
-          【制約】不足情報は確認事項として残し、値を作らない。translationKeyを統一する。
-          【出力】zh/ja/en frontmatter、項目の根拠、未確認事項。
-      - title: 本文と3言語内容を書く
-        summary: 出典から事実を整理してから翻訳し、構造を揃えます。
-        body: |
-          まず出典ごとの事実を整理し、最も情報の多い言語を完成させてから他言語へ翻訳します。名前、日付、作品名、リンクを再確認してください。
+      同期歌詞は同じバージョンの音源を実際に聴き、行の開始時刻（例 `00:03.50`）を入力します。逐字同期が必要なら単位を分け、すべての時刻を確認します。時刻は昇順にし、原文と訳文を対応させます。正確な時刻がなければ空欄で通常表示にし、均等配分や AI の推測で埋めないでください。
 
-          AIは翻訳・校正に使えますが出典にはなりません。不明な公式用語は原文を維持します。
-        checkpoint: 3言語の構造が近く、仮文や出典のない事実がない。
-        aiPrompt: |
-          【目的】信頼できる出典から新規記事の3言語Markdownを整理する。
-          【資料と状況】{{USER_CONTEXT}}
-          【制約】出典が直接支える事実だけを書く。AIを出典にしない。不明な固有名詞は原文を残す。
-          【出力】事実—出典対応、zh/ja/en本文、未確認内容。
-      - title: 出典・リンク・画像の権利を確認する
-        summary: 重要な事実を追跡可能にし、非公開・有料・出所不明の画像を使いません。
-        body: |
-          公式サイト、公式告知、公式投稿、正式なインタビューを優先します。画像には公開された公式ソースを使い、有料コンテンツのスクリーンショット、流出素材、私的写真、出所不明の転載を追加しません。
-        checkpoint: 主要事実に出典があり、リンクが有効で、画像に明らかな権利・プライバシー問題がない。
-        aiPrompt: |
-          【目的】新規記事の出典、リンク、画像リスクを確認する。
-          【現在の状況】{{USER_CONTEXT}}
-          【制約】AI出力を出典にせず、有料・流出・私的・不明転載画像を認めない。
-          【出力】事実—出典表、弱い出典、画像リスク、必須修正。
-      - title: 多言語とビルドを検証する
-        summary: locale、translationKey、schema、リンクを確認し、可能ならCIと同じコマンドを実行します。
-        body: |
-          ```bash
-          pnpm test
-          pnpm check
-          pnpm build
-          ```
+      リーダーの学習機能では、かな・ローマ字・訳文を切り替えて行ごとに練習できます。正しい構造がその表示を支えます。マージ後もリーダーで音源と同期を確認し、エディターのプレビューだけで再生確認済みとしないでください。
 
-          Webだけで投稿する場合はPR後のCIを確認し、同じブランチで修正します。生成物や秘密情報を含めないでください。
-        checkpoint: 手動確認済みで、ローカル検証が通るかCIの確認方法が分かる。
-        aiPrompt: |
-          【目的】新規記事のディレクトリ、3言語、frontmatter、本文、出典を提出前に監査する。
-          【現在の状況】{{USER_CONTEXT}}
-          【制約】未実行のテストを通過したと言わない。
-          【出力】提出阻止 / 推奨修正 / 通過に分けた結果と最小修正順。
-      - title: 新規記事PRを送る
-        summary: この1記事だけを含め、言語・出典・画像・検証を説明します。
-        body: |
-          PRには記事種別とパス、3言語の完成度、出典、画像ソース、実行した検証、未確認事項を書きます。無関係な整形や他記事の変更を混ぜません。CI/review修正は同じブランチで続けます。
-        checkpoint: PRが新規記事関連ファイルだけを含み、メンテナーが直接レビューできる。
-        aiPrompt: |
-          【目的】新規Wiki記事のCommit messageとPR説明を作る。
-          【現在の状況】{{USER_CONTEXT}}
-          【制約】実際のファイル、出典、検証結果だけを使い、翻訳・テスト・画像権利を作らない。
-          【出力】Commit、PRタイトル、Summary / Files / Locales / Sources / Image / Validation / Open questions本文。
-    finalTitle: 内容ディレクトリから新規記事を始める
-    finalBody: |
-      `src/content/` で正しいcollectionと分類を選び、記事ディレクトリと3言語ファイルを作成します。schema、出典、画像、検証を確認してからPRを送ってください。
-    finalLinkLabel: GitHubの内容ディレクトリを開く
-  - key: experienced
-    label: Git / GitHub に慣れている
-    summary: リポジトリ構造、多言語制約、検証コマンド、Fork PR 戦略だけを確認します。
-    audience: 開発者ルート · リポジトリ制約
-    duration: 約10〜20分
-    outcome: 規約に沿ったPR
-    description: |
-      fork / branch / commit / PR / CI に慣れている人向けです。Web、GitHub Desktop、ローカル Git のいずれでも構いません。Astro の内容モデルとレビュー要件に絞ります。
-    sections:
-      - title: 内容モデルを確認する
-        summary: Content Collections が一次データで、ページはディレクトリ構造から生成されます。
-        body: |
-          ```text
-          src/content/artists/<category>/<entry>/<locale>.md
-          src/content/songs/<artistId>/<category>/<songId>/<locale>.md
-          src/content/albums/<artistId>/<albumId>/<locale>.md
-          src/content/projects/<category>/<project>/<locale>.md
-          src/content/logs/<year>/<record>/<locale>.md
-          src/content/site/<locale>.json
-          ```
+      複雑な歌詞 HTML は保持されます。原文をバックアップし、同期歌詞の構文解説に沿って修正してください。
+  - id: advanced
+    title: ソース・メディア・ローカル編集
+    summary: 必要になったときに進みましょう。
+    body: |-
+      ソースは完全な Markdown です。二つの `---` の間が YAML 情報、その後が本文。不明な項目や複雑な原文は保持します。
 
-          内容 PR に `dist/`、`.astro/`、`node_modules/`、コンポーネントへの記事本文ハードコードを含めません。
-        checkpoint: 内容変更か実装変更かを分類し、対象が対応collectionのパスに合っている。
-        aiPrompt: |
-          {{TARGET_PATH}} が artists/songs/albums/projects/logs/site の内容モデルに合うか確認し、想定される表示影響を説明してください。未提供コードを推測しないでください。
-      - title: schemaと多言語制約を守る
-        summary: content.config.tsがfrontmatterを検証し、多言語記事はtranslationKeyと構造を共有します。
-        body: |
-          `locale` は `zh | ja | en`。同一記事は安定した `translationKey` を共有します。Artists、Songs、Albums、Projects、Logs はそれぞれ異なる schema を使います。新規記事は `zh.md`、`ja.md`、`en.md` を優先し、本文未完成なら空欄にできますが仮文は入れません。
+      「メディア」「メディア切替」で対応する配信元の実在リンクを使います。画像 URL を入れてもファイルはアップロードされません。表・折りたたみ・コード・数式も挿入できます。
 
-          `theme.*` の色値は言語間で揃え、palette label のみ翻訳します。`seo.*` は自動 metadata を明示上書きするときだけ使います。
-        checkpoint: frontmatterがcollection schemaを満たし、locale/translationKeyが他言語ファイルと一致する。
-        aiPrompt: |
-          Astro Content Collections のレビュー担当として、提供する content.config.ts に基づき {{TARGET_PATH}} の frontmatter を検証し、必須・型・enum・i18nの問題を列挙してください。既定値を作らないでください。
-      - title: Web、Desktop、ローカルGitを選ぶ
-        summary: 単一ファイルはWebでもよく、複数ファイルや新規記事はtopic branchを推奨します。
-        body: |
-          外部投稿者は upstream `LinkTh1rsty/kamitsubaki-wiki-site:main` を、個人 fork の topic branch から対象にします。
+      Git に慣れていれば Fork とブランチを作り、README に従って環境を準備します。`pnpm check`・`pnpm test`・`pnpm build` と実際のページ表示を確認してください。ウェブ編集だけならインストールは不要です。実行したチェックを PR に正確に記載します。
 
-          ```bash
-          git switch main
-          git pull --ff-only upstream main
-          git switch -c docs/update-kaf
-          # edit content
-          git add src/content/...
-          git commit -m "docs: update KAF entry"
-          git push -u origin docs/update-kaf
-          ```
+      ガイド自体は GitHub の原文から修正し、YAML を保ちながら該当する言語版も更新します。
+checklist:
+  - 記事・言語・修正範囲が正しい
+  - 出典とリンクを確認し、署名とライセンスを保持
+  - プレビューを確認し、既存情報と複雑な原文を保持
+  - 下書きのバックアップと GitHub の差分確認が済んだ
+  - 実施した確認と残る疑問を PR に記載
+prTemplate: |-
+  ## 変更内容
+  [どの記事の何を、なぜ変更したか]
 
-          生成物、ローカル設定、無関係な整形を混ぜません。画像追加前に権利・公開出典・media方針を確認します。
-        checkpoint: branchが最新upstream/mainを基にし、staged diffが関連ファイルだけになっている。
-        aiPrompt: |
-          {{TARGET_PATH}} を中心とする内容PRの git status と git diff --stat を確認し、無関係ファイルを指摘してください。reset --hard や未確認の作業削除は勧めないでください。
-      - title: CIと同じ検証を実行する
-        summary: test、Astro check、buildを実行し、最初の根本エラーから修正します。
-        body: |
-          ```bash
-          pnpm test
-          pnpm check
-          pnpm build
-          ```
+  ## 出典
+  [直接裏付ける URL。誤字のみならその旨を記載]
 
-          `check` はcollection schemaとAstro/TypeScript、`build` は静的ルートと描画を検証します。
-        checkpoint: 3コマンドが通過、またはローカル検証できない客観的理由をPRに明記した。
-        aiPrompt: |
-          pnpm test/check/build の出力を貼ります。最初の根本原因を特定し、schemaエラーと実装エラーを分け、最小修正を提案してください。未表示ファイルを作らないでください。
-      - title: レビューしやすいPRを書く
-        summary: 範囲、出典、言語、実行した検証、リスクを明確にします。
-        body: |
-          変更概要、動機、事実に対応する出典、言語・ファイル範囲、実際に実行した検証、視覚変更時のみスクリーンショットを含めます。単一目的で確認しやすい diff にします。
-        checkpoint: base/headが正しく、全ファイルを開かなくても説明から範囲と根拠が分かる。
-        aiPrompt: |
-          実際のdiff、出典、検証結果だけを使い、{{TARGET_PATH}} の短いPRタイトルとSummary / Sources / Locales・Scope / Validationを含むMarkdownを作ってください。テストや出典を作らないでください。
-      - title: 同じブランチでレビューを完了する
-        summary: CI・レビュー修正をhead branchへ追加し、会話の履歴を保ちます。
-        body: |
-          新しい Commit は PR を自動更新します。レビュー中の重複 PR や履歴書き換えは、メンテナーから指示がない限り避けます。内容競合はマーカー削除だけでなく事実と他言語も再確認します。
-        checkpoint: CIが通り、コメントに対応し、最終diffが単一目的で生成物を含まない。
-        aiPrompt: |
-          PRレビューコメントとdiffを、必須修正・確認質問・任意提案に分類し、同じブランチでの最小対応順を示してください。破壊的Gitコマンドは避けてください。
-    finalTitle: 現在のリポジトリ規約で提出する
-    finalBody: |
-      collection pathとschema、多言語方針、追跡可能な出典、単一目的のdiff、`pnpm test`・`pnpm check`・`pnpm build` を最終確認します。
-    finalLinkLabel: 現在のファイルを直接開く
-docs: 完全な貢献ガイドを見る
-docsPath: docs/contributing.ja.md
+  ## 言語と確認
+  - 言語：[zh / ja / en]
+  - 確認済み：[実施したプレビュー・リンク確認など]
+  - 協力が必要なこと：[なければなし。未実施のチェックも明記]
+faqs:
+  - question: GitHub アカウントなしでできることは？
+    answer: ガイドを読み、エディターで編集して下書きを保存できます。投稿するときに登録とメール確認を行います。先に記事リンクと具体的な問題を整理しても構いません。
+  - question: 保存したのにサイトが変わりません。
+    answer: 下書きはこのブラウザー内の保存です。出力して GitHub に保存し、PR を作り、レビュー・マージ・デプロイが成功した後に反映されます。
+  - question: ファイルが見つからない、読み込めません。
+    answer: 言語とパスを確認し、既存記事の検索を試してください。GitHub の Raw 全文をインポートする方法もあります。ガイド・お知らせ・ホーム文言は GitHub で編集します。再試行前に下書きを保存してください。
+  - question: チェック失敗や修正依頼が来ました。
+    answer: 具体的なエラーやコメントを読み、最初の問題から修正します。元の PR のブランチに再度 Commit してください。不明なら公開エラー文・対象ファイル・試した操作をその PR に書きます。
+  - question: ほんの少ししか直せなくても大丈夫？
+    answer: 範囲が明確で根拠のある小さな修正は役立ちます。分からないことは説明し、確かめられる部分から進めましょう。残りは PR で相談できます。
 ---
-
-<!-- guide content is configured through frontmatter; keep a non-empty body so Astro always indexes this file -->

@@ -1,4 +1,5 @@
 ---
+import { thumbnailUrl } from '../lib/imageAssets.mjs';
 import { resolveLocaleCopy } from '../lib/i18n.mjs';
 
 type DatabaseJumpLink = {
@@ -86,7 +87,7 @@ const ITEMS_PER_CATEGORY = 6;
                 <a
                   href={`/${locale}/artists/${artist.id}`}
                   class="artist-row group block list-row py-6 reveal-up"
-                  data-img={artist.image}
+                  data-img={thumbnailUrl(artist.image, 960)}
                 >
                   <div class="flex flex-col md:flex-row md:items-center justify-between px-4 gap-4">
                     <div class="flex items-center gap-6">
@@ -127,7 +128,7 @@ const ITEMS_PER_CATEGORY = 6;
                       <a
                         href={`/${locale}/artists/${artist.id}`}
                         class="artist-row artist-row-collapsed group block list-row py-6"
-                        data-img={artist.image}
+                        data-img={thumbnailUrl(artist.image, 960)}
                         style={`--artist-row-order: ${index}`}
                       >
                         <div class="flex flex-col md:flex-row md:items-center justify-between px-4 gap-4">

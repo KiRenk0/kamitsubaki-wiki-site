@@ -57,10 +57,6 @@
     {
       "label": "GAME",
       "href": "/zh/games/memory-corridor"
-    },
-    {
-      "label": "LOG",
-      "href": "#log"
     }
   ],
   "hero": {
@@ -69,7 +65,7 @@
       "Studio",
       "Fan Wiki"
     ],
-    "systemVersion": "SYS.VER_2.4.1",
+    "systemVersion": "SYS.VER_2.1.0",
     "coordinates": "COORD: 35.6620° N, 139.7038° E",
     "status": "STATUS: OBSERVING",
     "leftVertical": "以音乐与故事，让世界稍稍改变。",

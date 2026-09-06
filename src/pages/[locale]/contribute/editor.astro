@@ -1,0 +1,77 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { supportedLocales, getEditableLocale } from '../../../lib/i18n.mjs';
+import { editorCopy } from '../../../lib/visualEditorCopy.mjs';
+import { entryTypes, blockTypes } from '../../../lib/visualEditor.mjs';
+import '../../../styles/visualEditor.css';
+import '../../../styles/editorWorkbench.css';
+export function getStaticPaths() { return supportedLocales.map(locale => ({params:{locale}})); }
+const {locale = 'zh'} = Astro.params;
+const copy = editorCopy(locale);
+const locales: Record<string,string> = {'zh':'简体中文','zh-tw':'繁體中文（臺灣）','zh-hk':'繁體中文（香港）','ja':'日本語','en':'English'};
+const icons = {
+  outline: 'M5 5h14M5 10h14M5 15h9M5 20h9',
+  files: 'M6 3h8l4 4v14H6zM14 3v5h4M9 12h6M9 16h6',
+  properties: 'M4 7h16M4 17h16M8 4v6M16 14v6',
+  insert: 'M12 4v16M4 12h16',
+};
+---
+<BaseLayout lang={locale} reading title={copy.workbench} metadata={{noindex:true}}>
+  <main class="visual-editor ve-workbench" data-visual-editor data-locale={locale} data-content-locale={getEditableLocale(locale)} data-layout="split" data-mode="visual" data-side="outline">
+    <header class="ve-topbar">
+      <a class="ve-home" href={`/${locale}/`}>← Wiki</a><h1>{copy.workbench}</h1>
+      <button class="ve-command-trigger" data-command-open><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 5 5"/></svg><span>{copy.commands}</span><kbd>⌘ K</kbd></button>
+      <div class="ve-top-actions"><button data-existing-open>{copy.editExisting}</button><button data-import-open>{copy.import}</button>
+        <details class="ve-export-menu"><summary class="ve-primary">{copy.exportMenu}</summary><div><button data-copy>{copy.copy}</button><button data-download>{copy.download}</button><p>{copy.exportHint}</p><a data-github target="_blank" rel="noopener noreferrer" hidden>{copy.github} ↗</a></div></details>
+      </div>
+    </header>
+    <div class="ve-workspace">
+      <nav class="ve-activity" aria-label={copy.workbench}>
+        {(['outline','files','properties'] as const).map(side => <button data-side-button={side} aria-label={copy[side]} title={copy[side]} aria-pressed={side === 'outline' ? 'true' : 'false'}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={icons[side]}/></svg><span>{copy[side]}</span></button>)}
+        <button data-insert-open aria-label={copy.insert} title={copy.insert}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d={icons.insert}/></svg><span>{copy.insert}</span></button>
+        <button data-find-open aria-label={copy.searchText} title={copy.searchText}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 5 5"/></svg><span>{copy.searchText}</span></button>
+        <button class="ve-rail-bottom" data-sidebar-toggle aria-label={copy.toggleSidebar} title={`${copy.toggleSidebar} · ⌘ B`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16"/></svg></button>
+      </nav>
+      <aside class="ve-sidebar">
+        <section data-side-panel="outline"><div class="ve-panel-heading"><h2>{copy.outline}</h2><button data-new-entry title={copy.newEntry}>＋</button></div><p class="ve-document-name" data-document-name>{copy.emptyTitle}</p><nav data-outline aria-label={copy.outline}></nav><p class="ve-hint ve-sidebar-hint">{copy.toolsHint}</p></section>
+        <section data-side-panel="files" hidden><div class="ve-panel-heading"><h2>{copy.files}</h2></div><div data-existing-picker><label>{copy.findEntry}<input type="search" data-entry-search placeholder={copy.findEntry}/></label><div data-entry-results></div></div><p data-load-status role="status"></p></section>
+        <section class="ve-settings" data-side-panel="properties" hidden>
+          <div class="ve-panel-heading"><h2>{copy.metadata}</h2></div>
+          <label>{copy.kind}<select data-kind>{entryTypes.map(k => <option value={k}>{copy.kinds[k as keyof typeof copy.kinds]}</option>)}</select></label>
+          <label>{copy.locale}<select data-locale-select><option value="zh">简体中文</option><option value="ja">日本語</option><option value="en">English</option></select></label>
+          <div data-fields></div>
+          <details class="ve-path"><summary>{copy.path}</summary><label>{copy.path}<input data-path placeholder="src/content/…/zh.md" /></label><p>{copy.pathHint}</p></details>
+          <details class="ve-advanced"><summary>{copy.advanced}</summary><div data-advanced-fields></div><select data-advanced-type aria-label={copy.addProperty}></select><button data-add-property>{copy.addProperty}</button></details>
+          <p class="ve-hint">{copy.rule}</p><nav class="ve-guide-links"><a href={`/${locale}/contribute/edit`}>{copy.guide}</a><a href={`/${locale}/contribute/syntax`}>{copy.syntax}</a></nav>
+        </section>
+      </aside>
+      <section class="ve-compose" aria-label={copy.content}>
+        <div class="ve-editor-tabs" role="tablist" aria-label={copy.content}><button data-mode="visual" role="tab" aria-selected="true" aria-controls="ve-canvas">{copy.visual}</button><button data-mode="source" role="tab" aria-selected="false" aria-controls="ve-source" tabindex="-1">{copy.codeView}</button><span class="ve-file-label" data-file-label>zh.md</span><button data-layout="write" title={copy.writeOnly} aria-label={copy.writeOnly}>↔</button></div>
+        <div class="ve-toolbar" role="toolbar" aria-label={copy.specialFormat}>
+          <button data-undo aria-label={copy.undo} title={`${copy.undo} · ⌘ Z`}>↶</button><button data-redo aria-label={copy.redo} title={`${copy.redo} · ⌘ ⇧ Z`}>↷</button><span class="ve-toolbar-separator"></span>
+          <button data-format="bold" aria-label={copy.bold} title={`${copy.bold} · ⌘ B`}><b>B</b></button><button data-format="italic" aria-label={copy.italic} title={`${copy.italic} · ⌘ I`}><i>I</i></button><button data-format="strikeThrough" aria-label={copy.strike} title={copy.strike}><s>S</s></button><button data-format="link" title={copy.link}>{copy.link}</button><button data-inline-preset="mark" class="ve-highlight-tool" title={copy.inline.mark}>{copy.inline.mark}</button><button data-inline-preset="ruby" title={copy.inline.ruby}><ruby>字<rt>あ</rt></ruby><span>{copy.inline.ruby}</span></button><button data-inline-preset="spoiler" title={copy.inline.spoiler}>{copy.inline.spoiler}</button><details class="ve-format-more"><summary title={copy.specialFormat}>···</summary><div>{(['abbr','kbd','time','small','sub','sup','zh-variant'] as const).map(kind=><button data-inline-preset={kind}>{copy.inline[kind]}</button>)}</div></details><button data-insert-open class="ve-insert-button">＋ {copy.insert}</button>
+        </div>
+        <div id="ve-canvas" class="ve-canvas" role="tabpanel"><input data-document-title class="ve-title-input" placeholder={copy.emptyTitle} aria-label={copy.emptyTitle}/><div data-blocks class="ve-blocks"></div><button class="ve-add-line" data-insert-open>＋ {copy.insert}<kbd>/</kbd></button></div>
+        <div id="ve-source" class="ve-source-editor" role="tabpanel" hidden><div class="ve-source-lines" data-source-lines aria-hidden="true">1</div><textarea data-source aria-label={copy.codeView} spellcheck="false" wrap="off"></textarea></div>
+        <p data-source-error role="alert" class="ve-source-error" hidden></p>
+        <div class="ve-add" hidden><select data-block-type aria-label={copy.add}>{blockTypes.map(t => <option value={t}>{copy.blocks[t as keyof typeof copy.blocks]}</option>)}</select><button data-add>＋ {copy.add}</button></div>
+      </section>
+      <aside class="ve-output">
+        <div class="ve-tabs" role="tablist" aria-label={copy.preview}><button id="ve-preview-tab" data-view="preview" role="tab" aria-selected="true" aria-controls="ve-preview">{copy.preview}</button><button id="ve-properties-tab" data-view="properties" role="tab" aria-selected="false" aria-controls="ve-properties" tabindex="-1">{copy.properties}</button><button data-layout="split" title={copy.split} aria-label={copy.split}>⇄</button></div>
+        <div id="ve-preview" data-preview role="tabpanel" aria-labelledby="ve-preview-tab" class="ve-paper wiki-reader wiki-prose prose max-w-none"></div>
+        <div id="ve-properties" data-inspector role="tabpanel" aria-labelledby="ve-properties-tab" hidden></div>
+      </aside>
+    </div>
+    <section class="ve-problems" data-problems hidden><div class="ve-panel-heading"><h2>{copy.review}</h2><button data-problems-close aria-label={copy.cancel}>×</button></div><p>{copy.exportHint}</p><div data-validation role="status"></div><p class="ve-hint">{copy.note}</p></section>
+    <footer class="ve-statusbar"><span data-save-status role="status"></span><button data-problems-toggle><span data-problem-count>0</span> · {copy.review}</button><span data-block-count></span><span data-action-status role="status"></span><div class="ve-status-right"><select data-ui-locale aria-label={copy.locale}>{supportedLocales.map(l=><option value={l} selected={l===locale}>{locales[l]}</option>)}</select><details class="ve-theme-menu"><summary>{copy.theme}</summary><div>{(['light','dark','system'] as const).map(theme=><button data-theme-toggle data-theme-value={theme}>{copy[theme]}</button>)}</div></details><button data-layout="preview" title={copy.previewOnly}>{copy.preview}</button></div></footer>
+    <div class="ve-selection-toolbar" data-selection-toolbar role="toolbar" aria-label={copy.specialFormat} hidden><button data-format="bold" aria-label={copy.bold}><b>B</b></button><button data-format="italic" aria-label={copy.italic}><i>I</i></button><button data-format="link">{copy.link}</button><button data-inline-preset="mark" class="ve-highlight-tool">{copy.inline.mark}</button><button data-inline-preset="ruby">{copy.inline.ruby}</button><button data-inline-preset="spoiler">{copy.inline.spoiler}</button></div>
+    <dialog class="ve-command-dialog" data-command-dialog aria-label={copy.commands}><div class="ve-command-input"><input data-command-search type="search" placeholder={copy.commands} aria-label={copy.commands} autocomplete="off" role="combobox" aria-controls="ve-command-results" aria-expanded="true"/><kbd>Esc</kbd></div><div id="ve-command-results" data-command-results role="listbox"></div></dialog>
+    <dialog data-find-dialog aria-labelledby="ve-find-title"><form method="dialog"><div class="ve-section-heading"><h2 id="ve-find-title">{copy.searchText}</h2><button>{copy.cancel}</button></div></form><input type="search" data-find-text aria-label={copy.searchText}/><button data-find-next>{copy.nextMatch}</button><p data-find-status role="status"></p></dialog>
+    <dialog data-link-dialog aria-labelledby="ve-link-title"><form method="dialog"><div class="ve-section-heading"><h2 id="ve-link-title">{copy.link}</h2><button>{copy.cancel}</button></div></form><label>{copy.text}<input data-link-text/></label><label>{copy.url}<input data-link-url placeholder="https://"/></label><p data-link-error role="alert"></p><button data-link-apply class="ve-primary">{copy.apply}</button></dialog>
+    <dialog data-import-dialog aria-labelledby="ve-import-title"><form method="dialog"><div class="ve-section-heading"><h2 id="ve-import-title">{copy.import}</h2><button>{copy.cancel}</button></div></form><p>{copy.importHint}</p><input type="file" data-import-file accept=".md,text/markdown,text/plain" aria-label={copy.import}/><textarea data-import-text aria-label={copy.original} rows="12" spellcheck="false"></textarea><p data-import-error role="alert"></p><button data-import-apply class="ve-primary">{copy.applyImport}</button></dialog>
+    <dialog data-inline-dialog aria-labelledby="ve-inline-title"><form method="dialog"><div class="ve-section-heading"><h2 id="ve-inline-title">{copy.specialFormat}</h2><button>{copy.cancel}</button></div></form><label>{copy.specialFormat}<select data-inline-kind>{Object.entries(copy.inline).map(([value,label])=><option value={value}>{label}</option>)}</select></label><div data-inline-args></div><div data-inline-preview class="wiki-reader wiki-prose"></div><p data-inline-error role="alert"></p><button data-inline-apply class="ve-primary">{copy.apply}</button></dialog>
+    <script is:inline type="application/json" data-editor-copy set:html={JSON.stringify(copy).replace(/</g,'\\u003c')}/>
+    <noscript>JavaScript is required to use the visual editor.</noscript>
+  </main>
+  <script>import '../../../scripts/visualEditor.js';</script>
+</BaseLayout>

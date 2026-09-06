@@ -1,4 +1,5 @@
 ---
+import ResponsiveImage from '../../../../components/ResponsiveImage.astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
 import MusicSubnav from '../../../../components/MusicSubnav.astro';
 import SiteFooter from '../../../../components/SiteFooter.astro';
@@ -48,7 +49,7 @@ const pageStyle = `--catalog-accent:${accentColor};--catalog-surface:${group.the
   <div class="min-h-screen" style={pageStyle}>
     <SiteNav navItems={homeContent.navItems} localeLinks={localeLinks} brandLines={homeContent.hero.brandLines} compact homeHref={`/${localeCode}/`} />
 
-    <main class="mx-auto max-w-7xl px-5 py-24 sm:px-6">
+    <main class="catalog-page mx-auto max-w-7xl px-5 py-24 sm:px-6">
       <a href={`/${localeCode}/albums`} class="font-mono text-[9px] uppercase tracking-[0.18em] text-white/40 transition-colors hover:text-white">← {copy.back}</a>
 
       <header class="mt-7 border-y border-white/10 py-8 sm:py-10">
@@ -75,7 +76,7 @@ const pageStyle = `--catalog-accent:${accentColor};--catalog-surface:${group.the
           return (
             <a href={`/${localeCode}/albums/${albumPath}`} class="album-card group overflow-hidden border border-white/10 bg-white/[0.02] transition-colors hover:border-white/30">
               {album.data.image ? (
-                <img src={album.data.image} alt="" class="aspect-square w-full object-cover opacity-80 transition duration-700 group-hover:scale-[1.015] group-hover:opacity-100" loading="lazy" />
+                <ResponsiveImage widths={[192, 480, 960]} sizes="(max-width: 640px) calc(100vw - 40px), (max-width: 1024px) 45vw, 400px" src={album.data.image} alt="" class="aspect-square w-full object-cover opacity-80 transition duration-700 group-hover:scale-[1.015] group-hover:opacity-100" loading="lazy" />
               ) : (
                 <span class="grid aspect-square w-full place-items-center bg-white/[0.03] font-serif text-6xl text-white/10">{album.data.title.slice(0, 1)}</span>
               )}
