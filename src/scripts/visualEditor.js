@@ -460,6 +460,7 @@ const initialize = () => {
   $('[data-command-search]').addEventListener('keydown',event=>{if(event.isComposing)return;if(['ArrowDown','ArrowUp'].includes(event.key)){event.preventDefault();commandIndex=(commandIndex+(event.key==='ArrowDown'?1:-1)+commandItems.length)%Math.max(1,commandItems.length);updateCommandSelection();}if(event.key==='Enter'){event.preventDefault();runCommand(commandIndex);}});
   function openFind() {$('[data-find-dialog]').showModal();$('[data-find-text]').focus();}
   $('[data-find-open]').addEventListener('click',openFind);
+  for (const dialog of [$('[data-command-dialog]'),$('[data-find-dialog]')]) dialog.addEventListener('click',event=>{if(event.target!==dialog)return;const rect=dialog.getBoundingClientRect();if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)dialog.close();});
   let findOffset=0,lastFind='';
   function findNext() {
     const query=$('[data-find-text]').value.toLocaleLowerCase();if(!query)return;

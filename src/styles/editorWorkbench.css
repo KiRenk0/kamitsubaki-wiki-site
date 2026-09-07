@@ -1,6 +1,6 @@
 body:has(.ve-workbench) { overflow:hidden; }
 body:has(.ve-workbench) > :is(.noise-bg,#cursor,#preloader,.tools-dock,.ai-chat,.ai-chat-launcher,.ai-chat__launcher,.site-search) { display:none !important; }
-html body .ve-workbench { --ve-paper:var(--theme-bg); --ve-surface:var(--theme-panel-solid); --ve-muted:rgb(var(--theme-fg-rgb)/.55); position:relative; z-index:20; display:flex; flex-direction:column; width:100%; height:100dvh; max-width:none; margin:0; padding:0; background:var(--ve-paper); font:13px/1.65 var(--font-sans); }
+html body .ve-workbench { --ve-paper:var(--theme-bg); --ve-surface:var(--theme-panel-solid); --ve-muted:rgb(var(--theme-fg-rgb)/.55); --ve-select-bg:color-mix(in srgb, var(--theme-panel-solid) 97%, var(--theme-fg)); position:relative; z-index:20; display:flex; flex-direction:column; width:100%; height:100dvh; max-width:none; margin:0; padding:0; background:var(--ve-paper); font:13px/1.65 var(--font-sans); }
 html[data-theme='light'] .ve-workbench { --ve-paper:#fff; --ve-surface:#f8f9fa; }
 html body .ve-workbench :is(button,input,select,textarea) { font-family:var(--font-sans); letter-spacing:0; }
 html body .ve-workbench :is(button,summary,a) { cursor:pointer !important; }
@@ -98,6 +98,11 @@ html body .ve-statusbar button,html body .ve-statusbar select { border:0; backgr
 .ve-status-right { display:flex; align-items:center; gap:12px; margin-left:auto; flex-shrink:0; white-space:nowrap; }
 .ve-status-right select { max-width:125px; }
 .ve-theme-menu > div { top:auto; bottom:calc(100% + 8px); width:150px; }
+/* Chromium paints the native select dropdown with the control's computed background over a white popup canvas, so dark mode needs an opaque dark select surface and explicit option colors. */
+html body .ve-workbench select,html body .ve-workbench .ve-statusbar select { color-scheme:dark; background-color:var(--ve-select-bg); }
+html body .ve-workbench select option { color-scheme:dark; background-color:var(--ve-select-bg); color:rgb(var(--theme-fg-rgb)/.75); }
+html[data-theme='light'] .ve-workbench select,html[data-theme='light'] .ve-workbench .ve-statusbar select { color-scheme:light; background-color:transparent; }
+html[data-theme='light'] .ve-workbench select option { color-scheme:light; background-color:transparent; color:inherit; }
 .ve-theme-menu button { display:block; width:100%; text-align:left; }
 .ve-problems { border-top:1px solid var(--ui-line); padding:0 24px 12px; max-height:230px; overflow:auto; background:var(--ve-surface); font-size:12px; }
 .ve-problems .ve-panel-heading { margin-bottom:6px; min-height:32px; }
