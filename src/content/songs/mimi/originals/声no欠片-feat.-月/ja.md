@@ -17,7 +17,7 @@ image: /images/songs/mimi/声no欠片-feat.-月.jpg
 
 ## 作品概要
 
-MIMIが2025-12-26にリリースしたシングル「声の欠片 (feat. 月)」。
+[MIMI](/ja/artists/creators/mimi)が2025-12-26にリリースしたシングル「声の欠片 (feat. 月)」。
 
 ## 視聴
 {{media-switcher::声の欠片 (feat. 月)}}

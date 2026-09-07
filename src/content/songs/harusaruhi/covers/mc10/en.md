@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 
 ## Overview
 
-MC10 appears on CREAM PUFF LIVE 2 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+MC10 appears on [CREAM PUFF LIVE 2](/en/albums/harusaruhi/cream-puff-live-2) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -125,7 +125,9 @@ You lick it nice
 <div class="jp-lyric">
 [00:15.03]You shootin' star
 </div>
-<div class="trans-lyric">You shootin' star</div>
+<div class="trans-lyric">
+[00:15.03]You shootin' star
+</div>
 </div>
 
 <div class="lyric-line">
@@ -192,6 +194,7 @@ Thatcher ronny roger melly on the right
 <div class="jp-lyric">
 Confusion!
 </div>
+<div class="trans-lyric">Confusion!</div>
 </div>
 
 <br />
@@ -242,6 +245,7 @@ You understand
 <div class="jp-lyric">
 You run it up
 </div>
+<div class="trans-lyric">You run it up</div>
 </div>
 
 <div class="lyric-line">
@@ -264,6 +268,7 @@ Girl, I gotta tell ya...
 <div class="jp-lyric">
 Confusion!
 </div>
+<div class="trans-lyric">Confusion!</div>
 </div>
 
 <br />
@@ -302,13 +307,15 @@ So what?!
 <div class="jp-lyric">
 [00:18.38]Fire on the beach at dawn
 </div>
-<div class="trans-lyric">Fire on the beach at dawn</div>
+
+<div class="trans-lyric">[00:18.38]Fire on the beach at dawn</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 With dancer and her sisters
 </div>
+
 <div class="trans-lyric">With dancer and her sisters</div>
 </div>
 
@@ -316,6 +323,7 @@ With dancer and her sisters
 <div class="jp-lyric">
 Clothes are off, the water's warm
 </div>
+
 <div class="trans-lyric">Clothes are off, the water's warm</div>
 </div>
 
@@ -323,12 +331,14 @@ Clothes are off, the water's warm
 <div class="jp-lyric">
 Come on, come on and find a smile
 </div>
+<div class="trans-lyric">Come on, come on and find a smile</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Girl, I gotta tell ya...
 </div>
+<div class="trans-lyric">Girl, I gotta tell ya...</div>
 </div>
 
 </div>

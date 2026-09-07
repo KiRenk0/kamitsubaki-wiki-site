@@ -17,7 +17,7 @@ image: /images/songs/dustcell/畢竟.jpg
 
 ## 作品概要
 
-DUSTCELLが2025-01-01にリリースしたシングル「畢竟」。
+[DUSTCELL](/ja/artists/solo/dustcell)が2025-01-01にリリースしたシングル「畢竟」。
 
 ## 視聴
 {{media-switcher::畢竟}}

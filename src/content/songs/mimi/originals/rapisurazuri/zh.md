@@ -17,7 +17,7 @@ image: /images/songs/mimi/rapisurazuri.jpg
 
 ## 作品简介
 
-MIMI于 2020-08-24 发行的单曲《ラピスラズリ》。
+[MIMI](/zh/artists/creators/mimi)于 2020-08-24 发行的单曲《ラピスラズリ》。
 
 ## 试听
 {{media-switcher::ラピスラズリ}}

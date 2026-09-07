@@ -70,7 +70,7 @@ tracks:
 
 ## 概要
 
-DUSTCELLが2020-05-20にリリースしたアルバム『SUMMIT』。全12曲を収録。
+[DUSTCELL](/ja/artists/solo/dustcell)が2020-05-20にリリースしたアルバム『SUMMIT』。全12曲を収録。
 
 ## 収録曲
 

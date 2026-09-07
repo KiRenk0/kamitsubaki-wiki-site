@@ -17,7 +17,7 @@ image: /images/songs/sooda/甘党.jpg
 
 ## 作品简介
 
-Sooda于 2023-11-09 发行的单曲《甘党》。
+[Sooda](/zh/artists/creators/sooda)于 2023-11-09 发行的单曲《甘党》。
 
 ## 试听
 {{media-switcher::甘党}}

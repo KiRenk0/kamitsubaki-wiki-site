@@ -10,7 +10,7 @@ debutDate: "2020-10-31"
 profileTagline: "物語的な語り口、幻想的なメロディ、そして密度の高いエレクトロクロスオーバーのサウンドスケープで知られる2人組音楽ユニット。"
 designCredits: []
 affiliations:
-  - "ANARCHIC RECORD"
+  - "KYOKAI STUDIO"
 officialLinks:
   - label: "YouTube"
     href: "https://www.youtube.com/c/emptyoldCity"
@@ -54,11 +54,13 @@ seo:
     - "ANARCHIC RECORD"
 ---
 
+
 ## 概要
 
 Empty old City は、コンポーザー兼プロデューサーの Neuron（ニューロン）とボーカリストの kahoca（カホカ）からなる2人組音楽ユニットである。2021年に1st Single「Urban Cruise」でデビュー以来、物語的な語り口、幻想的なボーカル、そして密度の高いエレクトロクロスオーバーサウンドで独自の存在感を確立してきた。
 
-ANARCHIC RECORD のエコシステムに所属しながら、バーチャルおよびインターネット音楽シーンにおいて独自のポジションを築いている。作品は映画的な世界構築を重視し、憂鬱な感情と激しさが交差するサウンドスケープの中に、示唆に富む歌詞を織り込み、繰り返し聴くほど深みが増す音楽体験を提供している。
+旧・ANARCHIC RECORD のエコシステムに所属し（2026年9月の THINKR スタジオ再編に伴い [KYOKAI STUDIO](/ja/projects/labels/kyokai-studio) へ移籍）、バーチャルおよびインターネット音楽シーンにおいて独自のポジションを築いている。作品は映画的な世界構築を重視し、憂鬱な感情と激しさが交差するサウンドスケープの中に、示唆に富む歌詞を織り込み、繰り返し聴くほど深みが増す音楽体験を提供している。
+
 
 ## 役割と創作上の位置づけ
 
@@ -66,30 +68,36 @@ ANARCHIC RECORD のエコシステムに所属しながら、バーチャルお�
 
 このアプローチはリスナーに強く響いており、特に完成度の高いプロダクションと感情的な語りが融合したシングル群が高い評価を得ている。MV ではそのナラティブが視覚的にも拡張され、ユニットの芸術的アイデンティティをさらに強固なものにしている。
 
+
 ## 活動歴
 
 - 2021 年：1st Single「Urban Cruise」でデビュー。
 - 2024年1月：11th Single「[Chronicle A](/ja/songs/empty-old-city/originals/chronicle-a)」をリリース。YouTube での再生回数が 1200 万回を突破し、ブレイクヒットとなる。
-- 2025年9月11日：コンセプト EP『[From Noir into Clair](/ja/albums/empty-old-city/From-Noir-into-Clair-1840911030)』をリリース。
+- 2025年9月11日：コンセプト EP『[From Noir into Clair](/ja/albums/empty-old-city/from-noir-into-clair-1840911030)』をリリース。
 - 2025年10月19日：Spotify O-EAST にて 5th Anniversary Live「Quintennial: recall」を開催。
-- 2026年4月22日：2nd Album『[Strings in Owl](/ja/albums/empty-old-city/Strings-in-Owl-1888375903)』をリリース。
+- 2026年4月22日：2nd Album『[Strings in Owl](/ja/albums/empty-old-city/strings-in-owl-1888375903)』をリリース。
 - 2026年6月2日：2nd ONE-MAN LIVE の開催を発表。
+
+- 2026年9月：THINKRのスタジオ再編に伴い、[KYOKAI STUDIO](/ja/projects/labels/kyokai-studio) へ移籍（旧・[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) 体系）。
 
 ## 代表作品
 
-- アルバム：『Strings in Owl』（2nd Album, 2026）
-- コンセプト EP：『From Noir into Clair』（2025）
+- アルバム：『[Strings in Owl](/ja/albums/empty-old-city/strings-in-owl-1888375903)』（2nd Album, 2026）
+- コンセプト EP：『[From Noir into Clair](/ja/albums/empty-old-city/from-noir-into-clair-1840911030)』（2025）
 - 主要シングル：「[Chronicle A](/ja/songs/empty-old-city/originals/chronicle-a)」（11th）、「[Daisy Crown](/ja/songs/empty-old-city/originals/daisy-crown)」（16th）、「[Death Designer](/ja/songs/empty-old-city/originals/death-designer)」（15th）、「[Astronomy](/ja/songs/empty-old-city/originals/astronomy)」（14th）、「Ghost Keikai wo Utau」（13th）、「[Buffer](/ja/songs/empty-old-city/originals/buffer)」（12th）
 - デビューシングル：「Urban Cruise」（2021）
+
 
 ## 関連企画 / 関連設定
 
 Empty old City の作品群は、個々のシングルやコンセプトリリースが全体の物語に接続される拡張的なナラティブテープストリーを形成している。ANARCHIC RECORD への所属は、アーティストとしての独立性と創造的な実験を支援するエコシステムの中で、音楽・映像・世界構築を融合させた野心的なマルチメディアプロジェクトを展開する土台となっている。
 
+
 ## 参考資料
 
 - 公式 YouTube チャンネル：<https://www.youtube.com/c/emptyoldCity>
 - 公式ストリーミングページ：<https://emptyoldcity.lnk.to/Artist>
+
 
 ## 外部リンク
 

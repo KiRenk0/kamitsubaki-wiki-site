@@ -71,7 +71,7 @@ seo:
 
 V.W.P（Virtual Witch Phenomenon）は [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) の中核をなすバーチャルアーティストグループ。[花譜](/ja/artists/vwp/kaf)（KAF）、[理芽](/ja/artists/vwp/rim)（Rim）、[春猿火](/ja/artists/vwp/harusaruhi)（HARUSARUHI）、[ヰ世界情緒](/ja/artists/vwp/isekaijoucho)（ISEKAIJOUCHO）、[幸祜](/ja/artists/vwp/koko)（KOKO）の五人の「デジタル魔女」で構成される。
 
-神椿において最も象徴的なグループ活動であり、単なる音楽ユニットではなく「魔女」のモチーフを中心に据えた跨メディアの叙事的枠組みを持つ。五人のメンバーはそれぞれ独立した個人活動を展開しつつ、V.W.P 名義では運命、観測、魔女の覚醒を巡る壮大な物語を共同構築している。
+神椿において最も象徴的なグループ活動であり、単なる音楽ユニットではなく「[魔女](/ja/songs/kaf/originals/majo)」のモチーフを中心に据えた跨メディアの叙事的枠組みを持つ。五人のメンバーはそれぞれ独立した個人活動を展開しつつ、V.W.P 名義では運命、観測、魔女の覚醒を巡る壮大な物語を共同構築している。
 
 ## 役割と創作上の位置づけ
 
@@ -88,8 +88,8 @@ V.W.P の楽曲体系は三つのタイプで構成される：
 - **2021年3月13日**：花譜 2nd ONE-MAN LIVE「不可解弐Q2」にて電撃結成。
 - **2021年**：V.W.P 正式結成、系譜曲シリーズを発表。
 - **2023年3月**：1st ONE-MAN LIVE「現象」開催。
-- **2024年1月**：2nd ONE-MAN LIVE「現象Ⅱ」を代々木第一体育館で開催（神椿代々木決戦二〇二四）。同年、1st Album『運命』をリリース。
-- **2024年3月27日**：2nd Album『覚醒』をリリース。
+- **2024年1月**：2nd ONE-MAN LIVE「現象Ⅱ」を代々木第一体育館で開催（神椿代々木決戦二〇二四）。同年、1st Album『[運命](/ja/albums/vwp/fate)』をリリース。
+- **2024年3月27日**：2nd Album『[覚醒](/ja/albums/vwp/awakening)』をリリース。
 - **2024年11月**：KAMITSUBAKI WARS 2024の集大成として「神椿幕張戦線：V.W.P 2nd ONE-MAN LIVE 現象II（再）-魔女拡成-」を開催。
 - **2025年1月**：SINKA LIVE SERIES EP.Ⅵ V.W.P 3rd ONE-MAN LIVE「現象III-神椿市探訪中-」を開催。
 - **2026年1月**：3rd Album『[反転](/ja/albums/vwp/inversion)』をリリース。

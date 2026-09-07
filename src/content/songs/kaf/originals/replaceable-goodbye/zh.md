@@ -155,6 +155,7 @@ image: /images/albums/kaf/guwa.jpg
 <div class="jp-lyric">
 <ruby>激<rt class="furi">げき</rt><rt class="roma">geki</rt></ruby><ruby>鉄<rt class="furi">てつ</rt><rt class="roma">tetsu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>起<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>こせ<rt class="roma">kose</rt></ruby>
 </div>
+<div class="cn-lyric">激起钢铁</div>
 </div>
 
 <div class="lyric-line">
@@ -210,12 +211,14 @@ image: /images/albums/kaf/guwa.jpg
 <div class="jp-lyric">
 [03:57.24]<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+<div class="cn-lyric">[03:57.24]像世界末日一样</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:02.92]<ruby>これ<rt class="roma">kore</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>別<rt class="furi">わか</rt><rt class="roma">waka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+<div class="cn-lyric">[04:02.92]像就此永别一样</div>
 </div>
 
 <div class="lyric-line">
@@ -229,6 +232,7 @@ image: /images/albums/kaf/guwa.jpg
 <div class="jp-lyric">
 <ruby>昨日<rt class="furi">きのう</rt><rt class="roma">kinou</rt></ruby> <ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby>
 </div>
+
 <div class="cn-lyric">昨天 吃了什么之类的</div>
 </div>
 
@@ -236,6 +240,7 @@ image: /images/albums/kaf/guwa.jpg
 <div class="jp-lyric">
 [04:23.94]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:23.94]喜欢过谁之类的</div>
 </div>
 
@@ -243,6 +248,7 @@ image: /images/albums/kaf/guwa.jpg
 <div class="jp-lyric">
 [04:32.13]<ruby>ぜんぶ<rt class="roma">zenbu</rt></ruby> <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:32.13]全部 都会忘记吗</div>
 </div>
 

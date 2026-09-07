@@ -17,7 +17,7 @@ image: /images/songs/mimi/glacies.jpg
 
 ## 作品简介
 
-MIMI于 2023-03-23 发行的单曲《GLACIES》。
+[MIMI](/zh/artists/creators/mimi)于 2023-03-23 发行的单曲《GLACIES》。
 
 ## 试听
 {{media-switcher::GLACIES}}

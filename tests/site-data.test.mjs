@@ -23,7 +23,7 @@ const artistFolders = new Map([
 
 const projectFolders = new Map([
   ['kamitsubaki-city', 'arg'],
-  ['sinsekai-studio', 'labels'],
+  ['sinsekai-studio', 'archive'],
   ['witch-exhibition', 'exhibitions'],
 ]);
 
@@ -295,11 +295,11 @@ test('projects and log entries preserve the static page content', async () => {
         categoryTitle: 'ARG',
       },
       {
-        id: 'labels/sinsekai-studio',
-        href: '/zh/projects/labels/sinsekai-studio',
+        id: 'archive/sinsekai-studio',
+        href: '/zh/projects/archive/sinsekai-studio',
         kind: 'PROJECT_LABEL',
-        categorySlug: 'labels',
-        categoryTitle: 'Labels',
+        categorySlug: 'archive',
+        categoryTitle: 'Archive',
       },
       {
         id: 'exhibitions/witch-exhibition',

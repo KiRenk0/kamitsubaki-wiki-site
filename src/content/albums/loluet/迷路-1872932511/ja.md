@@ -46,13 +46,13 @@ tracks:
 
 ## 概要
 
-LOLUETが2026-02-25にリリースしたEP『迷路』。全6曲を収録。
+[LOLUET](/ja/artists/solo/loluet)が2026-02-25にリリースしたEP『迷路』。全6曲を収録。
 
 ## 収録曲
 
 1. めめめ（03:47）
 2. tegami（02:23）
-3. ドレス（02:53）
+3. [ドレス](/ja/songs/loluet/originals/doresu)（02:53）
 4. 58（03:14）
-5. スプートニク（03:48）
-6. アイ（04:28）
+5. [スプートニク](/ja/songs/loluet/originals/supuutoniku)（03:48）
+6. [アイ](/ja/songs/loluet/originals/ai)（04:28）

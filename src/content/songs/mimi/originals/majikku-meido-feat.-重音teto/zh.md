@@ -17,7 +17,7 @@ image: /images/songs/mimi/majikku-meido-feat.-重音teto.jpg
 
 ## 作品简介
 
-MIMI于 2025-08-24 发行的单曲《マジック・メイド (feat. 重音テト)》。
+[MIMI](/zh/artists/creators/mimi)于 2025-08-24 发行的单曲《マジック・メイド (feat. 重音テト)》。
 
 ## 试听
 {{media-switcher::マジック・メイド (feat. 重音テト)}}

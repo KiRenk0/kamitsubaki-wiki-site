@@ -177,6 +177,7 @@ image: /images/songs/rim/single-1687461820.jpg
 <div class="jp-lyric">
 [01:53.04]<ruby>安心<rt class="furi">あんしん</rt><rt class="roma">anshin</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>切<rt class="furi">せつ</rt><rt class="roma">setsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>合間<rt class="furi">あいま</rt><rt class="roma">aima</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[01:53.04]在安心与痛苦的间隙中</div>
 </div>
 
 <div class="lyric-line">
@@ -227,6 +228,7 @@ image: /images/songs/rim/single-1687461820.jpg
 <div class="jp-lyric">
 [02:35.49]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:35.49]也没有人会看你</div>
 </div>
 
@@ -234,54 +236,63 @@ image: /images/songs/rim/single-1687461820.jpg
 <div class="jp-lyric">
 [02:38.38]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby>、<ruby>そう<rt class="roma">sou</rt></ruby>、<ruby>ちょうど<rt class="roma">choudo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">[02:38.38]那种程度，没错，刚刚好</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:41.81]<ruby>踏み台<rt class="furi">ふみだい</rt><rt class="roma">fumidai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[02:41.81]当作垫脚石</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:46.50]<ruby>めちゃくちゃ<rt class="roma">mechakucha</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なれ<rt class="roma">nare</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:46.50]变得一塌糊涂就好</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:49.47]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>戻<rt class="furi">もど</rt><rt class="roma">modo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なったって<rt class="roma">nattatte</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:49.47]再也回不去也没关系</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:53.13]<ruby>わざと<rt class="roma">wazato</rt></ruby><ruby>傷<rt class="furi">きず</rt><rt class="roma">kizu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>がる<rt class="roma">garu</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+<div class="cn-lyric">[02:53.13]若你故意伤害自己想要哭泣的话</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:56.96]<ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>しまえ<rt class="roma">shimae</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
 </div>
+<div class="cn-lyric">[02:56.96]干脆死掉就好了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:59.82]<ruby>ぐちゃぐちゃ<rt class="roma">guchagucha</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たく<rt class="roma">taku</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">[02:59.82]想要搞得一团糟</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:02.75]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>せい<rt class="roma">sei</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:02.75]那也是你的错哦</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:06.45]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>いか<rt class="roma">ika</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="cn-lyric">[03:06.45]因为不让你去任何地方</div>
 </div>
 
 </div>

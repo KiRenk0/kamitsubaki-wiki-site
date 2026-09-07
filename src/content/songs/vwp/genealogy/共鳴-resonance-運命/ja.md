@@ -26,7 +26,7 @@ image: /images/albums/vwp/fate.jpg
 
 ## 作品概要
 
-- V.W.Pが2022年7月27日にリリースしたオリジナルシングル「共鳴」。本バージョンはアルバム「[運命](/ja/albums/vwp/fate)」に初収録された。
+- [V.W.P](/ja/artists/vwp/vwp)が2022年7月27日にリリースしたオリジナルシングル「共鳴」。本バージョンはアルバム「[運命](/ja/albums/vwp/fate)」に初収録された。
 
 ## 試聴
 

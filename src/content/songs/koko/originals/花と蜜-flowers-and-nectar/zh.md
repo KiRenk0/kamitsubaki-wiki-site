@@ -252,42 +252,49 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [03:01.89]<ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>蜜<rt class="furi">みつ</rt><rt class="roma">mitsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[03:01.89]如花与蜜一般</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:08.00]<ruby>色褪<rt class="furi">いろあ</rt><rt class="roma">iroa</rt></ruby><ruby>せる<rt class="roma">seru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby>
 </div>
+<div class="cn-lyric">[03:08.00]永不褪色</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:14.12]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>側<rt class="furi">がわ</rt><rt class="roma">gawa</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+<div class="cn-lyric">[03:14.12]想要在你身旁绽放啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:17.15]<ruby>芽吹<rt class="furi">めぶ</rt><rt class="roma">mebu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>季節<rt class="furi">きせつ</rt><rt class="roma">kisetsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ましょ<rt class="roma">masho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">[03:17.15]在萌芽的季节再相见吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:22.05]<ruby>相<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[03:22.05]相见</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:25.89]<ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>蜜<rt class="furi">みつ</rt><rt class="roma">mitsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[03:25.89]如花与蜜一般</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:37.99]<ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>蜜<rt class="furi">みつ</rt><rt class="roma">mitsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[03:37.99]如花与蜜一般</div>
 </div>
 
 </div>

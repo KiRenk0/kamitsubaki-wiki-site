@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/thaw.jpg
 
 ## 作品简介
 
-tokiwa于 2022-12-21 发行的单曲《thaw》。
+[tokiwa](/zh/artists/creators/tokiwa)于 2022-12-21 发行的单曲《thaw》。
 
 ## 试听
 {{media-switcher::thaw}}

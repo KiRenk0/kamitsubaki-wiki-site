@@ -17,7 +17,7 @@ image: /images/songs/loluet/supuutoniku.jpg
 
 ## 作品简介
 
-LOLUET于 2026-02-24 发行的单曲《スプートニク》。
+[LOLUET](/zh/artists/solo/loluet)于 2026-02-24 发行的单曲《スプートニク》。
 
 ## 试听
 {{media-switcher::スプートニク}}

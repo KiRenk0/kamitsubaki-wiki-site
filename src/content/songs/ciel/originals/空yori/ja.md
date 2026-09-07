@@ -17,7 +17,7 @@ image: /images/songs/ciel/空yori.jpg
 
 ## 作品概要
 
-CIELが2024-07-23にリリースしたシングル「空より」。
+[CIEL](/ja/artists/solo/ciel)が2024-07-23にリリースしたシングル「空より」。
 
 ## 視聴
 {{media-switcher::空より}}

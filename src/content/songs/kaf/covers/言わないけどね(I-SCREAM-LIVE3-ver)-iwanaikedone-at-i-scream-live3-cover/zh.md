@@ -146,18 +146,21 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 <ruby>勘違<rt class="furi">かんちが</rt><rt class="roma">kanchiga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ちゃったって<rt class="roma">chattatte</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">被误会了也没关系</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>
 </div>
+<div class="cn-lyric">如果是和你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ったって<rt class="roma">ttatte</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">虽然这么想但不会说</div>
 </div>
 
 <div class="lyric-line">
@@ -277,6 +280,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 <ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ったって<rt class="roma">ttatte</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">虽然这么想但不会说</div>
 </div>
 
 <div class="lyric-line">
@@ -359,6 +363,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:49.11]<ruby>勘違<rt class="furi">かんちが</rt><rt class="roma">kanchiga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ちゃって<rt class="roma">chatte</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:49.11]即使被误会了也没关系</div>
 </div>
 
@@ -366,18 +371,21 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>
 </div>
+<div class="cn-lyric">如果是和你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ったって<rt class="roma">ttatte</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">虽然这么想但不会说</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:58.22]<ruby>机<rt class="furi">つくえ</rt><rt class="roma">tsukue</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>距離<rt class="furi">きょり</rt><rt class="roma">kyori</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>もっと<rt class="roma">motto</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:58.22]比课桌的距离更</div>
 </div>
 
@@ -385,6 +393,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [04:02.57]<ruby>近<rt class="furi">ちか</rt><rt class="roma">chika</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:02.57]想要感觉更近</div>
 </div>
 
@@ -392,6 +401,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [04:09.62]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:09.62]你呀</div>
 </div>
 

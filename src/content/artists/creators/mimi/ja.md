@@ -9,7 +9,7 @@ meta: "ROLE: COMPOSER"
 profileTagline: "「生きづらい」に寄り添うピアノ・ソングで幅広い世代から支持を集める作曲家。"
 designCredits: []
 affiliations:
-  - "KAMITSUBAKI STUDIO"
+  - "KYOKAI STUDIO"
 officialLinks:
   - label: "X (Twitter)"
     href: "https://twitter.com/mimi_3mi"
@@ -48,17 +48,20 @@ seo:
     - "ピアノ"
 ---
 
+
 ## 概要
 
-MIMI は [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) 所属の作曲家。「生きづらい」と感じる人々に寄り添う、ほろ苦いピアノ・ソングで知られ、幅広い年齢層から支持を集めている。
+MIMI は [KYOKAI STUDIO](/ja/projects/labels/kyokai-studio)（2026年9月に [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) から移籍） 所属の作曲家。「生きづらい」と感じる人々に寄り添う、ほろ苦いピアノ・ソングで知られ、幅広い年齢層から支持を集めている。
 
 ピアノを軸とした親しみやすいアレンジと、感情の機微をそのまま映し出す詞世界を基盤に、MIMI の楽曲は神椿クリエイター陣の中でも静かでありながら欠くことのできない位置を占める。繊細なコード進行と、苦しみを直視することで安らぎを届ける歌詞が特徴で、励ますのではなく「共にいる」ことを音楽で表現する作風。
+
 
 ## 役割と創作上の位置づけ
 
 MIMI の創作アイデンティティの核は、苦さと甘さが交差する感情の領域にある。ピアノ・アレンジは意図的に余計な装飾を排し、メロディと歌詞に全重量を託す。この抑制が生み出す親密さ——演奏というより、語りかけのような音楽——が MIMI の独自性となっている。
 
 CeVIO 合成音声である[可不](/ja/artists/isotopes/kafu)（KAFUNE）をはじめとするボーカロイド声との楽曲制作により、バーチャルシンガー領域にも活動を広げつつ、個人的な告白のトーンを一貫して維持している。
+
 
 ## 活動歴
 
@@ -67,6 +70,8 @@ CeVIO 合成音声である[可不](/ja/artists/isotopes/kafu)（KAFUNE）をは
 - 2025年3月26日：シングル「大丈夫だよ。(feat.可不)」をリリース。
 - 2025年5月21日：シングル「向日葵の記憶」をリリース（七つの大罪 ゲームタイアップ）。
 - KAMITSUBAKI STUDIO エコシステム内で作曲家として継続的に活動中。
+
+- 2026年9月：THINKRのスタジオ再編に伴い、[KYOKAI STUDIO](/ja/projects/labels/kyokai-studio) へ移籍（旧・[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) 体系）。
 
 ## 代表作品と関連項目
 
@@ -79,20 +84,24 @@ CeVIO 合成音声である[可不](/ja/artists/isotopes/kafu)（KAFUNE）をは
 
 - [花譜 / KAF](/ja/artists/vwp/kaf)
 
+
 ## 投稿規模と作品の整理
 
 MIMIは2016年に「[ラピスラズリ](/ja/songs/mimi/originals/rapisurazuri)」で投稿デビューし、2017年の「[モーメント](/ja/songs/mimi/originals/moomento)」で初めて殿堂入りを達成した。2025年7月5日時点の整理では、VOCALOID / CeVIO作品を68曲投稿し、ニコニコで55曲が殿堂入り、YouTubeで15曲が伝説入り、ニコニコで3曲が伝説入りしている。ピアノを中心とする編曲、一枚絵の映像、柔らかな曲調が特徴である。
 
 2022年に神椿へ加入した後も個人の創作路線を保ち、2023年10月24日に1stオリジナルアルバム、2024年12月20日に『夜をだきしめる時。』を発売した。
 
+
 ## アルバムとコラボレーション
 
 代表作には「[マシュマリー](/ja/songs/mimi/originals/mashumarii)」「だいじょうぶだよ。」「向日葵の記憶」などがある。「だいじょうぶだよ。」は[可不](/ja/artists/isotopes/kafu)とのコラボレーションで、MIMIの親密なピアノ表現を[音楽的同位体](/ja/artists/solo/musical-isotope)の声へ移した作品として読める。投稿曲、アルバム収録曲、タイアップ曲は別の層として記録する。
+
 
 ## 参考資料
 
 - MIMI 公式 X (Twitter)：<https://twitter.com/mimi_3mi>
 - MIMI 公式 YouTube：<https://www.youtube.com/channel/UCam3IAA-nyfxRL8_wDQ35VA>
+
 
 ## 外部リンク
 

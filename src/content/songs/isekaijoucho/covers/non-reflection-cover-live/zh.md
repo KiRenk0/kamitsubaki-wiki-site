@@ -19,7 +19,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 
 ## 作品简介
 
-《non-reflection (Cover Live)》收录于《CANDY LIVE 3 (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《non-reflection (Cover Live)》收录于《[CANDY LIVE 3](/zh/albums/isekaijoucho/candy-live-3) (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -172,6 +172,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 [01:35.99]I am a glass of water
 </div>
+<div class="cn-lyric">[01:35.99]I am a glass of water</div>
 </div>
 
 <br />
@@ -296,12 +297,14 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 [02:50.08]<ruby>神話<rt class="furi">しんわ</rt><rt class="roma">shinwa</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>代<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[02:50.08]代替神话</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:00.76]<ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:00.76]如同了解天空</div>
 </div>
 

@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/pulse-in-flora.jpg
 
 ## 作品概要
 
-Empty old Cityが2025-09-05にリリースしたシングル「Pulse in Flora」。
+[Empty old City](/ja/artists/solo/empty-old-city)が2025-09-05にリリースしたシングル「Pulse in Flora」。
 
 ## 視聴
 {{media-switcher::Pulse in Flora}}

@@ -17,7 +17,7 @@ image: /images/songs/mimi/soredemo優shikatta君he-feat.-沖石.jpg
 
 ## 作品概要
 
-MIMIが2026-02-03にリリースしたシングル「それでも優しかった君へ (feat. 沖石)」。
+[MIMI](/ja/artists/creators/mimi)が2026-02-03にリリースしたシングル「それでも優しかった君へ (feat. 沖石)」。
 
 ## 視聴
 {{media-switcher::それでも優しかった君へ (feat. 沖石)}}

@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 ## Overview
 
-アルコール appears on SPICE OF LIFE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+アルコール appears on [SPICE OF LIFE](/en/albums/harusaruhi/spice-of-life) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -49,7 +49,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:04.31]yeah, yeah, yeah
 </div>
-<div class="trans-lyric">yeah, yeah, yeah</div>
+<div class="trans-lyric">
+[00:04.31]yeah, yeah, yeah
+</div>
 </div>
 
 <div class="lyric-line">
@@ -70,6 +72,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:09.64]yeah, yeah, yeah
 </div>
+<div class="trans-lyric">[00:09.64]yeah, yeah, yeah</div>
 </div>
 
 <div class="lyric-line">
@@ -104,7 +107,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:21.68]Drunk Drunk Drunk Drunk
 </div>
-<div class="trans-lyric">Drunk Drunk Drunk Drunk</div>
+<div class="trans-lyric">[00:21.68]Drunk Drunk Drunk Drunk</div>
 </div>
 
 <div class="lyric-line">
@@ -118,20 +121,21 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:24.22]<ruby>クラクラクラクラ<rt class="roma">kurakurakurakura</rt></ruby>
 </div>
-<div class="trans-lyric">Dizzy dizzy dizzy dizzy</div>
+<div class="trans-lyric">[00:24.22]Dizzy dizzy dizzy dizzy</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:26.02]<ruby>みんな<rt class="roma">minna</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
-<div class="trans-lyric">Everyone together</div>
+<div class="trans-lyric">[00:26.02]Everyone together</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:27.06]Drunk Drunk Drunk Drunk
 </div>
+<div class="trans-lyric">[00:27.06]Drunk Drunk Drunk Drunk</div>
 </div>
 
 <div class="lyric-line">
@@ -145,7 +149,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:31.79]yeah
 </div>
-<div class="trans-lyric">yeah</div>
+<div class="trans-lyric">[00:31.79]yeah</div>
 </div>
 
 <div class="lyric-line">
@@ -166,26 +170,28 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:34.82]<ruby>たま<rt class="roma">tama</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>
 </div>
-<div class="trans-lyric">Once in a while it's good</div>
+<div class="trans-lyric">[00:34.82]Once in a while it's good</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:36.07]<ruby>けど<rt class="roma">kedo</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
-<div class="trans-lyric">But keep it moderate</div>
+<div class="trans-lyric">[00:36.07]But keep it moderate</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:37.67]Drunk Drunk Drunk Drunk
 </div>
+<div class="trans-lyric">[00:37.67]Drunk Drunk Drunk Drunk</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:39.42]<ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
+
 <div class="trans-lyric">[00:39.42]Until morning</div>
 </div>
 
@@ -193,13 +199,15 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:40.36]Chat Chat Chat Chat
 </div>
-<div class="trans-lyric">Chat Chat Chat Chat</div>
+
+<div class="trans-lyric">[00:40.36]Chat Chat Chat Chat</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:42.37]yeah
 </div>
+<div class="trans-lyric">[00:42.37]yeah</div>
 </div>
 
 <br />

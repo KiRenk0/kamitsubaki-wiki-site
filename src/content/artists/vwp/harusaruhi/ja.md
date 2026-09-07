@@ -79,7 +79,7 @@ V.W.P の中では、より直接的な熱量を持ち込むポジションと�
 
 ### 2020年
 
-- **3月23日**：[花譜](/ja/artists/vwp/kaf) 1st LIVE「不可解（再）」にゲスト出演し、3Dモデルを初披露。
+- **3月23日**：[花譜](/ja/artists/vwp/kaf) 1st LIVE「[不可解](/ja/songs/kaf/originals/不可解-inexplicable)（再）」にゲスト出演し、3Dモデルを初披露。
 - **7月30日**：4thオリジナルシングル『[オオゴト](/ja/songs/harusaruhi/originals/オオゴト-serious-affair)』をリリース。
 - **9月28日**：5thオリジナルシングル『告げ口』をリリース。
 - **12月5日**：初の配信カバーライブ「シュークリームライブ」を開催。
@@ -120,7 +120,7 @@ V.W.P の中では、より直接的な熱量を持ち込むポジションと�
 
 - 個人名義のシングル群（『[Accomplice](/ja/songs/harusaruhi/originals/accomplice)』など）
 - Remix / Mix 企画（『[GLITCH STAGE](/ja/albums/harusaruhi/glitch-stage)』『[SPICE OF LIFE](/ja/albums/harusaruhi/spice-of-life)』など）
-- [V.W.P](/ja/artists/vwp/vwp) における派生曲・対歌曲（[ヰ世界情緒](/ja/artists/vwp/isekaijoucho)とのデュエット『[LOVEぃ](/ja/songs/harusaruhi/collaborations/LOVEぃ-lovi)』『[BREATHE](/ja/songs/vwp/projects/breathe)』など）
+- [V.W.P](/ja/artists/vwp/vwp) における派生曲・対歌曲（[ヰ世界情緒](/ja/artists/vwp/isekaijoucho)とのデュエット『[LOVEぃ](/ja/songs/harusaruhi/collaborations/loveぃ-lovi)』『[BREATHE](/ja/songs/vwp/projects/breathe)』など）
 - 大型ライブでのパフォーマンス音源や映像
 
 関連項目：

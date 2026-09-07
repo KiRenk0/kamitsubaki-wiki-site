@@ -19,7 +19,7 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 
 ## Overview
 
-息吹-instrumental- appears on 色彩 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+息吹-instrumental- appears on [色彩](/en/albums/isekaijoucho/shikisai) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -154,12 +154,14 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 <div class="jp-lyric">
 <ruby>さぁ<rt class="roma">saa</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>取<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>幻想<rt class="furi">げんそう</rt><rt class="roma">gensou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>え<rt class="roma">e</rt></ruby>
 </div>
+<div class="trans-lyric">Come, take hands and sing in the fantasy</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>何者<rt class="furi">なにもの</rt><rt class="roma">nanimono</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>构<ruby>わ<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby> <ruby>今宵<rt class="furi">こよい</rt><rt class="roma">koyoi</rt></ruby>无
 </div>
+<div class="trans-lyric">I don't care who you are, tonight is boundless</div>
 </div>
 
 </div>

@@ -70,7 +70,7 @@ tracks:
 
 ## 概要
 
-LOLUETが2025-03-19にリリースしたアルバム『stream』。全12曲を収録。
+[LOLUET](/ja/artists/solo/loluet)が2025-03-19にリリースしたアルバム『stream』。全12曲を収録。
 
 ## 収録曲
 

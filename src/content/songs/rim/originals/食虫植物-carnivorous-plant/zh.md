@@ -164,6 +164,7 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [01:41.65]<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[01:41.65]无法满足 无法满足</div>
 </div>
 
 <div class="lyric-line">
@@ -207,12 +208,14 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [02:20.94]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:20.94]想要被爱 想要被爱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:24.68]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>地球<rt class="furi">ちきゅう</rt><rt class="roma">chikyuu</rt></ruby><ruby>規模<rt class="furi">きぼ</rt><rt class="roma">kibo</rt></ruby>！
 </div>
+
 <div class="cn-lyric">[02:24.68]想要被爱的是 全球规模！</div>
 </div>
 

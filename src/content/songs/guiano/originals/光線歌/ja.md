@@ -17,7 +17,7 @@ image: /images/songs/guiano/光線歌.jpg
 
 ## 作品概要
 
-Guianoが2025-06-07にリリースしたシングル「光線歌」。
+[Guiano](/ja/artists/creators/guiano)が2025-06-07にリリースしたシングル「光線歌」。
 
 ## 視聴
 {{media-switcher::光線歌}}

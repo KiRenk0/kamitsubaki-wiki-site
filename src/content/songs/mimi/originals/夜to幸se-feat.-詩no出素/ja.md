@@ -16,7 +16,7 @@ image: /images/songs/mimi/夜to幸se-feat.-詩no出素.jpg
 
 ## 作品概要
 
-MIMIが2025-04-09にリリースしたシングル「夜と幸せ (feat. 詩の出素。)」。
+[MIMI](/ja/artists/creators/mimi)が2025-04-09にリリースしたシングル「夜と幸せ (feat. 詩の出素。)」。
 
 ## 視聴
 {{media-switcher::夜と幸せ (feat. 詩の出素。)}}

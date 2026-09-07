@@ -17,7 +17,7 @@ image: /images/songs/ciel/窓wo開kete.jpg
 
 ## 作品概要
 
-CIELが2024-07-23にリリースしたシングル「窓を開けて」。
+[CIEL](/ja/artists/solo/ciel)が2024-07-23にリリースしたシングル「窓を開けて」。
 
 ## 視聴
 {{media-switcher::窓を開けて}}

@@ -110,16 +110,16 @@ tracks:
 
 ## Overview
 
-MIMI's album “MIMI 10th Anniversary Album”, released on 2026-06-10, featuring 22 tracks.
+[MIMI](/en/artists/creators/mimi)'s album “MIMI 10th Anniversary Album”, released on 2026-06-10, featuring 22 tracks.
 
 ## Track List
 
 1. ラピスラズリ (03:45)
-2. 水音とカーテン (02:49)
-3. モーメント (03:34)
-4. 哀の隙間 (03:40)
-5. マシュマリー (03:33)
-6. LIFE TIME (02:43)
+2. [水音とカーテン](/en/songs/mimi/originals/水音tokaaten) (02:49)
+3. [モーメント](/en/songs/mimi/originals/moomento) (03:34)
+4. [哀の隙間](/en/songs/mimi/originals/哀no隙間) (03:40)
+5. [マシュマリー](/en/songs/mimi/originals/mashumarii) (03:33)
+6. LIFE [TIME](/en/songs/koko/originals/time) (02:43)
 7. いっせーのーで (02:33)
 8. くうになる (02:35)
 9. ヒミツ (02:31)

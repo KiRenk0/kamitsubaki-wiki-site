@@ -138,7 +138,7 @@ tracks:
 
 ## 概要
 
-CIELが2023-02-15にリリースしたライブアルバム『STRAWBERRY LIVE』。全29曲を収録。
+[CIEL](/ja/artists/solo/ciel)が2023-02-15にリリースしたライブアルバム『STRAWBERRY LIVE』。全29曲を収録。
 
 ## 収録曲
 
@@ -165,7 +165,7 @@ CIELが2023-02-15にリリースしたライブアルバム『STRAWBERRY LIVE』
 21. MC6(Live)（02:28）
 22. 東京は夜(Live) [feat. Harusaruhi]（03:10）
 23. MC7(Live)（00:43）
-24. 窓を開けて -Acoustic ver.-(Live)（05:01）
+24. [窓を開けて](/ja/songs/ciel/originals/窓wo開kete) -Acoustic ver.-(Live)（05:01）
 25. セカイ(Live)（04:21）
 26. MC8(Live)（02:20）
 27. ガーネット(Live)（05:20）

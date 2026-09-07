@@ -10,7 +10,7 @@ debutDate: "2021-10-18"
 profileTagline: "ジャズ、ヒップホップ、ロックを融合した「トーキョーサウンド」を追求する音楽アーティスト兼映像作家。映画的な物語性が特徴。"
 designCredits: []
 affiliations:
-  - "ANARCHIC RECORD"
+  - "KYOKAI STUDIO"
 officialLinks:
   - label: "YouTube"
     href: "https://www.youtube.com/channel/UCv9b9KtcBkM1_VEZZpK8bVQ"
@@ -45,17 +45,21 @@ seo:
     - "劇薬"
 ---
 
+
 ## 概要
 
 平田義久は、2021年10月18日から ANARCHIC RECORD に所属する音楽アーティスト兼映像作家である。ジャズ、ヒップホップ、ロックを融合させた独自の「トーキョーサウンド」を標榜し、都市東京の質感とエネルギーを映画音楽的なアプローチで表現している。自らを映画好きと称するほどシネフィルであり、音楽作品にも映像作品にも物語性と視覚的な語り口を持ち込む点が特徴。
 
 また、UTAU 音源「劇薬」（Gekiyaku）を楽曲に取り入れることでも知られ、合成歌声と人間の表現を融合させた独自のサウンドアイデンティティを構築している。
 
+- 2026年9月：THINKRのスタジオ再編に伴い、[KYOKAI STUDIO](/ja/projects/labels/kyokai-studio) へ移籍（旧・ANARCHIC RECORD 体系）。
+
 ## 役割と創作上の位置づけ
 
 平田義久は、音楽家であり映像作家でもあるという ANARCHIC RECORD 内で独特の位置を占めている。ジャズの影響を受けた和声語法にヒップホップのリズムとロックのエネルギーを組み合わせることで、都市的な響きを持つサウンドを生み出している。映画への深い造詣に裏打ちされた映画音楽的な作曲スタイルは、各楽曲に物語の起伏と臨場感のある空間描写を与えている。
 
 UTAU 音源「劇薬」の活用は、ボカロ / UTAU クリエイターとの接点を生みつつ、マルチジャンルアーティストとしての独自性を保つための重要な要素となっている。
+
 
 ## 代表作品
 
@@ -65,6 +69,7 @@ UTAU 音源「劇薬」の活用は、ボカロ / UTAU クリエイターとの�
 - 「[トーキョー・コーリング](/ja/songs/hiratayoshihisa/originals/tookyoo-kooringu)」
 - 「[夏至下る](/ja/songs/hiratayoshihisa/originals/夏至下ru)」
 - 「[飛燕](/ja/songs/hiratayoshihisa/originals/飛燕)」
+
 
 ## 外部リンク
 

@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 
 ## 作品简介
 
-《絶蝶 (Cover Live)》收录于《CREAM PUFF LIVE 4 (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《絶蝶 (Cover Live)》收录于《[CREAM PUFF LIVE 4](/zh/albums/harusaruhi/cream-puff-live-4) (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -213,6 +213,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 [02:15.13]<ruby>フラフラ<rt class="roma">furafura</rt></ruby><ruby>漂<rt class="furi">ただよ</rt><rt class="roma">tadayo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[02:15.13]搖搖晃晃地漂流</div>
 </div>
 
 <div class="lyric-line">
@@ -233,18 +234,21 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 [02:26.76]<ruby>中毒<rt class="furi">ちゅうどく</rt><rt class="roma">chuudoku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby>
 </div>
+<div class="cn-lyric">[02:26.76]中了毒</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:29.10]<ruby>また<rt class="roma">mata</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>夢中<rt class="furi">むちゅう</rt><rt class="roma">muchuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
+<div class="cn-lyric">[02:29.10]我又再次沉迷其中</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:32.84]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いら<rt class="roma">ira</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>頂戴<rt class="furi">ちょうだい</rt><rt class="roma">choudai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:32.84]不需要愛 把你給我</div>
 </div>
 
 <br />
@@ -253,6 +257,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 [02:50.04]<ruby>いっそ<rt class="roma">isso</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>吸<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>尽<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>くし<rt class="roma">kushi</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>謳<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:50.04]索性將你的全部吸盡 歌頌愛</div>
 </div>
 
@@ -260,6 +265,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 [03:01.36]<ruby>一<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>重<rt class="furi">かさ</rt><rt class="roma">kasa</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>高<rt class="furi">たか</rt><rt class="roma">taka</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> <ruby>高<rt class="furi">たか</rt><rt class="roma">taka</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>舞<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:01.36]重合為一的夜晚層層疊加 高高飛舞</div>
 </div>
 
@@ -269,18 +275,21 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 [03:12.32]<ruby>フラフラ<rt class="roma">furafura</rt></ruby><ruby>漂<rt class="furi">ただよ</rt><rt class="roma">tadayo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[03:12.32]搖搖晃晃地漂流</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:14.86]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>匂<rt class="furi">にお</rt><rt class="roma">nio</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>酔<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
+<div class="cn-lyric">[03:14.86]沉醉於你的氣息</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:18.62]<ruby>アルコール<rt class="roma">arukouru</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby> <ruby>比<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:18.62]酒精什麼的根本無法相比啊</div>
 </div>
 
@@ -288,18 +297,21 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 [03:23.88]<ruby>中毒<rt class="furi">ちゅうどく</rt><rt class="roma">chuudoku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby>
 </div>
+<div class="cn-lyric">[03:23.88]中了毒</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:26.29]<ruby>また<rt class="roma">mata</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>夢中<rt class="furi">むちゅう</rt><rt class="roma">muchuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
+<div class="cn-lyric">[03:26.29]我又再次沉迷其中</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:29.95]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いら<rt class="roma">ira</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>頂戴<rt class="furi">ちょうだい</rt><rt class="roma">choudai</rt></ruby>
 </div>
+<div class="cn-lyric">[03:29.95]不需要愛 把你給我</div>
 </div>
 
 </div>

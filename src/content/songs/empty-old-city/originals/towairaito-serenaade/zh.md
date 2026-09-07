@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/towairaito-serenaade.jpg
 
 ## 作品简介
 
-Empty old City于 2022-08-02 发行的单曲《トワイライト・セレナーデ》。
+[Empty old City](/zh/artists/solo/empty-old-city)于 2022-08-02 发行的单曲《トワイライト・セレナーデ》。
 
 ## 试听
 {{media-switcher::トワイライト・セレナーデ}}

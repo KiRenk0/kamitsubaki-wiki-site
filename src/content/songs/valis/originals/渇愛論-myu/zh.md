@@ -17,7 +17,7 @@ image: /images/songs/valis/渇愛論-myu.jpg
 
 ## 作品简介
 
-VALIS于 2023-06-24 发行的单曲《渇愛論(MYU)》。
+[VALIS](/zh/artists/solo/valis)于 2023-06-24 发行的单曲《渇愛論(MYU)》。
 
 ## 试听
 {{media-switcher::渇愛論(MYU)}}

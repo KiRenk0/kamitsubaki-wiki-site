@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 
 ## 作品简介
 
-《今さらサレンダー at CREAM PUFF LIVE 3(Cover)》收录于《CREAM PUFF LIVE 3》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《今さらサレンダー at CREAM PUFF LIVE 3(Cover)》收录于《[CREAM PUFF LIVE 3](/zh/albums/harusaruhi/cream-puff-live-3)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -35,11 +35,17 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [00:00.00]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>かん<rt class="roma">kan</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>脱落<rt class="furi">だつらく</rt><rt class="roma">datsuraku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby>
 </div>
+<div class="cn-lyric">
+[00:00.00]什么都没搞懂就以脱落告终
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:04.99]<ruby>ちょっと<rt class="roma">chotto</rt></ruby><ruby>刺激<rt class="furi">しげき</rt><rt class="roma">shigeki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>強<rt class="furi">つよ</rt><rt class="roma">tsuyo</rt></ruby><ruby>すぎ<rt class="roma">sugi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>閉<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+</div>
+<div class="cn-lyric">
+[00:04.99]刺激有点太强 闭上了眼睛
 </div>
 </div>
 
@@ -47,11 +53,17 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [00:09.15]<ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby> <ruby>退屈<rt class="furi">たいくつ</rt><rt class="roma">taikutsu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby>
 </div>
+<div class="cn-lyric">
+[00:09.15]啊啊 无聊的日子
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:22.43]<ruby>薄暗<rt class="furi">うすぐら</rt><rt class="roma">usugura</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>通<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+</div>
+<div class="cn-lyric">
+[00:22.43]在昏暗的街道之中
 </div>
 </div>
 
@@ -59,11 +71,17 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [00:25.02]<ruby>見慣<rt class="furi">みな</rt><rt class="roma">mina</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>窓辺<rt class="furi">まどべ</rt><rt class="roma">madobe</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>映し出<rt class="furi">うつしだ</rt><rt class="roma">utsushida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">
+[00:25.02]陌生的光映照在窗边
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:29.32]<ruby>響<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>足<rt class="furi">あし</rt><rt class="roma">ashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>進<rt class="furi">すす</rt><rt class="roma">susu</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby>
+</div>
+<div class="cn-lyric">
+[00:29.32]脚步随回响的声音向前
 </div>
 </div>
 
@@ -71,11 +89,17 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [00:33.72]<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>匂<rt class="furi">にお</rt><rt class="roma">nio</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>過<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>ぎ<rt class="roma">gi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>途端<rt class="furi">とたん</rt><rt class="roma">totan</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">
+[00:33.72]夜的气息掠过的瞬间
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:36.76]<ruby>瞳<rt class="furi">ひとみ</rt><rt class="roma">hitomi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>映<rt class="furi">うつ</rt><rt class="roma">utsu</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>宙<rt class="furi">ちゅう</rt><rt class="roma">chuu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>舞<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>音色<rt class="furi">ねいろ</rt><rt class="roma">neiro</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
+</div>
+<div class="cn-lyric">
+[00:36.76]眼中映出的你 与飞舞在空中的音色
 </div>
 </div>
 
@@ -83,11 +107,17 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [00:41.20]<ruby>ビル<rt class="roma">biru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>抜<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>街<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>
 </div>
+<div class="cn-lyric">
+[00:41.20]穿过大楼 街道摇曳
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:45.65]<ruby>都会<rt class="furi">とかい</rt><rt class="roma">tokai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>喧騒<rt class="furi">けんそう</rt><rt class="roma">kensou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>疲<rt class="furi">つか</rt><rt class="roma">tsuka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ボク<rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>元<rt class="furi">もと</rt><rt class="roma">moto</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+</div>
+<div class="cn-lyric">
+[00:45.65]来到对都市喧嚣有些疲惫的我身边
 </div>
 </div>
 
@@ -95,11 +125,17 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [00:52.56]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>彷徨<rt class="furi">ほうこう</rt><rt class="roma">houkou</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">
+[00:52.56]觉得有什么会改变 徘徊着
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:55.43]<ruby>独<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>きり<rt class="roma">kiri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+</div>
+<div class="cn-lyric">
+[00:55.43]在孤身一人的夜里
 </div>
 </div>
 
@@ -107,11 +143,17 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [00:57.40]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>さら<rt class="roma">sara</rt></ruby><ruby>サレンダー<rt class="roma">sarendaa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby>
 </div>
+<div class="cn-lyric">
+[00:57.40]事到如今投降也没有意义啊
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:01.16]<ruby>柄<rt class="furi">え</rt><rt class="roma">e</rt></ruby> <ruby>パラメイタ<rt class="roma">parameita</rt></ruby> <ruby>振り切<rt class="furi">ふりき</rt><rt class="roma">furiki</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>戻<rt class="furi">もど</rt><rt class="roma">modo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+</div>
+<div class="cn-lyric">
+[01:01.16]摆出那副样子 偏执狂 甩开一切又折返
 </div>
 </div>
 
@@ -119,11 +161,17 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [01:04.32]<ruby>頭<rt class="furi">あたま</rt><rt class="roma">atama</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>空回<rt class="furi">からまわ</rt><rt class="roma">karamawa</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby> <ruby>さあ<rt class="roma">saa</rt></ruby><ruby>おいで<rt class="roma">oide</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">
+[01:04.32]若只是在脑中空转 那就来吧
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:09.40]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>かん<rt class="roma">kan</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>哲学<rt class="furi">てつがく</rt><rt class="roma">tetsugaku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>パロディ<rt class="roma">parodei</rt></ruby>
+</div>
+<div class="cn-lyric">
+[01:09.40]什么都不懂 只好戏仿哲学
 </div>
 </div>
 
@@ -131,11 +179,17 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [01:13.01]<ruby>ちょっと<rt class="roma">chotto</rt></ruby><ruby>効き目<rt class="furi">ききめ</rt><rt class="roma">kikime</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>強<rt class="furi">つよ</rt><rt class="roma">tsuyo</rt></ruby><ruby>すぎ<rt class="roma">sugi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>様子見<rt class="furi">ようすみ</rt><rt class="roma">yousumi</rt></ruby>
 </div>
+<div class="cn-lyric">
+[01:13.01]药效有点太强 先观望一下
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:16.28]<ruby>真似事<rt class="furi">まねごと</rt><rt class="roma">manegoto</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>ひとり<rt class="roma">hitori</rt></ruby><ruby>不安<rt class="furi">ふあん</rt><rt class="roma">fuan</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>
+</div>
+<div class="cn-lyric">
+[01:16.28]净是模仿着别人 一个人变得不安
 </div>
 </div>
 
@@ -143,11 +197,17 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [01:19.29]<ruby>間違<rt class="furi">まちが</rt><rt class="roma">machiga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>アーバン<rt class="roma">aaban</rt></ruby> Ah
 </div>
+<div class="cn-lyric">
+[01:19.29]寻找错误的 都市 Ah
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:32.08]<ruby>憂鬱<rt class="furi">ゆううつ</rt><rt class="roma">yuuutsu</rt></ruby><ruby>過<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>ぎ<rt class="roma">gi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+</div>
+<div class="cn-lyric">
+[01:32.08]似乎是太忧郁了
 </div>
 </div>
 
@@ -155,11 +215,17 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [01:36.08]<ruby>開け放<rt class="furi">あけはな</rt><rt class="roma">akehana</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>窓<rt class="furi">まど</rt><rt class="roma">mado</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>吹き込<rt class="furi">ふきこ</rt><rt class="roma">fukiko</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby>
 </div>
+<div class="cn-lyric">
+[01:36.08]吹进敞开的窗户的风
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:40.27]<ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> <ruby>どこ<rt class="roma">doko</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>向<rt class="furi">む</rt><rt class="roma">mu</rt></ruby><ruby>かう<rt class="roma">kau</rt></ruby>？
+</div>
+<div class="cn-lyric">
+[01:40.27]声音在远方 要去向何方？
 </div>
 </div>
 
@@ -167,11 +233,17 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [01:44.82]<ruby>後悔<rt class="furi">こうかい</rt><rt class="roma">koukai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>連続<rt class="furi">れんぞく</rt><rt class="roma">renzoku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>疲<rt class="furi">つか</rt><rt class="roma">tsuka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ボク<rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>元<rt class="furi">もと</rt><rt class="roma">moto</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
+<div class="cn-lyric">
+[01:44.82]来到对接连不断的后悔有些疲惫的我身边
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:51.76]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>彷徨<rt class="furi">ほうこう</rt><rt class="roma">houkou</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+</div>
+<div class="cn-lyric">
+[01:51.76]什么都会改变的日子来临 徘徊着
 </div>
 </div>
 
@@ -179,11 +251,17 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [01:54.61]<ruby>独<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>きり<rt class="roma">kiri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">
+[01:54.61]在孤身一人的夜里
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:56.60]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>散々<rt class="furi">さんざん</rt><rt class="roma">sanzan</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づけ<rt class="roma">zuke</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+</div>
+<div class="cn-lyric">
+[01:56.60]事到如今才发觉 早已一塌糊涂
 </div>
 </div>
 
@@ -191,11 +269,17 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [02:00.34]<ruby>ああ<rt class="roma">aa</rt></ruby> <ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>転<rt class="furi">ころ</rt><rt class="roma">koro</rt></ruby><ruby>がし<rt class="roma">gashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">
+[02:00.34]啊啊 就这样一直让我翻滚下去吧
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:03.52]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>勝手<rt class="furi">かって</rt><rt class="roma">katte</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>そう<rt class="roma">sou</rt></ruby><ruby>身勝手<rt class="furi">みがって</rt><rt class="roma">migatte</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+</div>
+<div class="cn-lyric">
+[02:03.52]随心所欲 就那样任性妄为
 </div>
 </div>
 
@@ -203,11 +287,17 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [02:05.97]<ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>だから<rt class="roma">dakara</rt></ruby> <ruby>さあ<rt class="roma">saa</rt></ruby>
 </div>
+<div class="cn-lyric">
+[02:05.97]想活下去 所以 来吧
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:08.71]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>さら<rt class="roma">sara</rt></ruby><ruby>サレンダー<rt class="roma">sarendaa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby>
+</div>
+<div class="cn-lyric">
+[02:08.71]事到如今投降也没有意义啊
 </div>
 </div>
 
@@ -215,11 +305,17 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [02:12.13]<ruby>柄<rt class="furi">え</rt><rt class="roma">e</rt></ruby> <ruby>パラメイタ<rt class="roma">parameita</rt></ruby> <ruby>振り切<rt class="furi">ふりき</rt><rt class="roma">furiki</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>戻<rt class="furi">もど</rt><rt class="roma">modo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">
+[02:12.13]摆出那副样子 偏执狂 甩开一切又折返
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:15.24]<ruby>頭<rt class="furi">あたま</rt><rt class="roma">atama</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>空回<rt class="furi">からまわ</rt><rt class="roma">karamawa</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby> <ruby>さあ<rt class="roma">saa</rt></ruby><ruby>おいで<rt class="roma">oide</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+</div>
+<div class="cn-lyric">
+[02:15.24]若只是在脑中空转 那就来吧
 </div>
 </div>
 
@@ -227,11 +323,17 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [02:20.54]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>かん<rt class="roma">kan</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>哲学<rt class="furi">てつがく</rt><rt class="roma">tetsugaku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>パロディ<rt class="roma">parodei</rt></ruby>
 </div>
+<div class="cn-lyric">
+[02:20.54]什么都不懂 只好戏仿哲学
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:24.31]<ruby>ちょっと<rt class="roma">chotto</rt></ruby><ruby>効き目<rt class="furi">ききめ</rt><rt class="roma">kikime</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>強<rt class="furi">つよ</rt><rt class="roma">tsuyo</rt></ruby><ruby>すぎ<rt class="roma">sugi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>様子見<rt class="furi">ようすみ</rt><rt class="roma">yousumi</rt></ruby>
+</div>
+<div class="cn-lyric">
+[02:24.31]药效有点太强 先观望一下
 </div>
 </div>
 
@@ -239,17 +341,26 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [02:27.51]<ruby>真似事<rt class="furi">まねごと</rt><rt class="roma">manegoto</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>ひとり<rt class="roma">hitori</rt></ruby><ruby>不安<rt class="furi">ふあん</rt><rt class="roma">fuan</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>
 </div>
+<div class="cn-lyric">
+[02:27.51]净是模仿着别人 一个人变得不安
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:30.33]<ruby>間違<rt class="furi">まちが</rt><rt class="roma">machiga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>アーバン<rt class="roma">aaban</rt></ruby> Ah
 </div>
+<div class="cn-lyric">
+[02:30.33]寻找错误的 都市 Ah
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:36.19]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づか<rt class="roma">zuka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+</div>
+<div class="cn-lyric">
+[02:36.19]在无人的夜里 不要察觉
 </div>
 </div>
 

@@ -26,7 +26,7 @@ image: /images/albums/vwp/fate.jpg
 
 ## 作品简介
 
-- V.W.P于2022年12月21日发行的原创单曲《再会》。该版本首次发行于专辑《[運命](/zh/albums/vwp/fate)》之中。muv-luv alternative 的ED曲。
+- [V.W.P](/zh/artists/vwp/vwp)于2022年12月21日发行的原创单曲《再会》。该版本首次发行于专辑《[運命](/zh/albums/vwp/fate)》之中。muv-luv alternative 的ED曲。
 
 ## 试听
 

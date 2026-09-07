@@ -190,18 +190,21 @@ image: /images/songs/kaf/track-1688348280.jpg
 <div class="jp-lyric">
 [02:37.40]<ruby>鏡<rt class="furi">かがみ</rt><rt class="roma">kagami</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>鏡<rt class="furi">かがみ</rt><rt class="roma">kagami</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>色<rt class="furi">しょく</rt><rt class="roma">shoku</rt></ruby>？
 </div>
+<div class="cn-lyric">[02:37.40]镜子啊镜子 在你眼中我是什么颜色？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:43.66]<ruby>色褪<rt class="furi">いろあ</rt><rt class="roma">iroa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>様<rt class="furi">よう</rt><rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>塗<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>替<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="cn-lyric">[02:43.66]为了不褪色而反复涂改</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:49.31]<ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>決<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>付<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[02:49.31]不要妄下定论</div>
 </div>
 
 <br />
@@ -210,6 +213,7 @@ image: /images/songs/kaf/track-1688348280.jpg
 <div class="jp-lyric">
 [02:52.17]<ruby>鏡<rt class="furi">かがみ</rt><rt class="roma">kagami</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>鏡<rt class="furi">かがみ</rt><rt class="roma">kagami</rt></ruby> <ruby>君<rt class="furi">くん</rt><rt class="roma">kun</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>映<rt class="furi">うつ</rt><rt class="roma">utsu</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>色<rt class="furi">しょく</rt><rt class="roma">shoku</rt></ruby>？
 </div>
+
 <div class="cn-lyric">[02:52.17]镜子啊镜子 你映出的我是什么颜色？</div>
 </div>
 
@@ -217,6 +221,7 @@ image: /images/songs/kaf/track-1688348280.jpg
 <div class="jp-lyric">
 [02:58.53]<ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby><ruby>鮮<rt class="furi">あざ</rt><rt class="roma">aza</rt></ruby><ruby>やか<rt class="roma">yaka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>塗<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:58.53]色彩鲜明地不断改变</div>
 </div>
 
@@ -224,12 +229,14 @@ image: /images/songs/kaf/track-1688348280.jpg
 <div class="jp-lyric">
 [03:04.08]<ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>決<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>付<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[03:04.08]不要妄定未来</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:10.01]<ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>決<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>付<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:10.01]不要妄定自己</div>
 </div>
 

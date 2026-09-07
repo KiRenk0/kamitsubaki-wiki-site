@@ -17,7 +17,7 @@ image: /images/songs/mimi/karabakoniai.jpg
 
 ## 作品概要
 
-MIMIが2020-04-26にリリースしたシングル「カラバコにアイ」。
+[MIMI](/ja/artists/creators/mimi)が2020-04-26にリリースしたシングル「カラバコにアイ」。
 
 ## 視聴
 {{media-switcher::カラバコにアイ}}

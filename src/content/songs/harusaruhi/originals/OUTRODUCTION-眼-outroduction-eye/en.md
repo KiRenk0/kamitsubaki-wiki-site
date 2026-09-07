@@ -20,7 +20,7 @@ contentStatus: stub
 
 ## Overview
 
-OUTRODUCTION -眼- appears on 心眼 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+OUTRODUCTION -眼- appears on [心眼](/en/albums/harusaruhi/shingan) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

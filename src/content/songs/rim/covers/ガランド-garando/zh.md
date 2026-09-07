@@ -37,12 +37,14 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [00:04.20](All my love, said it don't)
 </div>
+<div class="cn-lyric">[00:04.20](All my love, said it don't)</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:06.88](All my love, said it don't)
 </div>
+<div class="cn-lyric">[00:06.88](All my love, said it don't)</div>
 </div>
 
 <div class="lyric-line">
@@ -199,6 +201,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [01:44.08]Ha-ha-ha-ha-ha-ha
 </div>
+<div class="cn-lyric">[01:44.08]Ha-ha-ha-ha-ha-ha</div>
 </div>
 
 <br />
@@ -214,18 +217,21 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [01:49.86]<ruby>洗剤<rt class="furi">せんざい</rt><rt class="roma">senzai</rt></ruby><ruby>食<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>らって<rt class="roma">ratte</rt></ruby><ruby>睫毛<rt class="furi">まつげ</rt><rt class="roma">matsuge</rt></ruby><ruby>乾<rt class="furi">かわ</rt><rt class="roma">kawa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>？ No<ruby>で<rt class="roma">de</rt></ruby>no<ruby>で<rt class="roma">de</rt></ruby>no
 </div>
+<div class="cn-lyric">[01:49.86]吃了洗涤剂睫毛干？No and no and no</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:54.33]Oh-oh-oh-oh
 </div>
+<div class="cn-lyric">[01:54.33]Oh-oh-oh-oh</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:55.83]<ruby>くだらない<rt class="roma">kudaranai</rt></ruby><ruby>毎日<rt class="furi">まいにち</rt><rt class="roma">mainichi</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby> 「<ruby>寝<rt class="furi">ね</rt><rt class="roma">ne</rt></ruby><ruby>てん<rt class="roma">ten</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>等<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby>」<ruby>なんて<rt class="roma">nante</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:55.83]曾是无聊的每天 现在说什么‘和睡觉一样’</div>
 </div>
 
@@ -233,6 +239,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [02:01.44]<ruby>それで<rt class="roma">sorede</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>!<ruby>なんて<rt class="roma">nante</rt></ruby><ruby>浪々<rt class="furi">ろうろう</rt><rt class="roma">rourou</rt></ruby><ruby>々<rt class="furi">々</rt><rt class="roma">々</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:01.44]那样就好！什么的浪浪浪</div>
 </div>
 
@@ -242,24 +249,28 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [02:05.67]Lonely? <ruby>浪人<rt class="furi">ろうにん</rt><rt class="roma">rounin</rt></ruby>？ Morning? Sorry? <ruby>苦労人<rt class="furi">くろうにん</rt><rt class="roma">kurounin</rt></ruby>？ <ruby>病人<rt class="furi">びょうにん</rt><rt class="roma">byounin</rt></ruby>？ <ruby>考<rt class="furi">かんが</rt><rt class="roma">kanga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:05.67]Lonely? 浪人？ Morning? Sorry? 苦劳人？ 病人？ 即使思考现在也</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:11.35]A-a-alalala-ta, tu-ru, la-a-a-a-alalala-ta
 </div>
+<div class="cn-lyric">[02:11.35]A-a-alalala-ta, tu-ru, la-a-a-a-alalala-ta</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:15.69]Oh <ruby>思い出<rt class="furi">おもいだ</rt><rt class="roma">omoida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>魚<rt class="furi">さかな</rt><rt class="roma">sakana</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>眼<rt class="furi">め</rt><rt class="roma">me</rt></ruby> oh <ruby>それとなく<rt class="roma">soretonaku</rt></ruby><ruby>キルミー<rt class="roma">kirumii</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>！
 </div>
+<div class="cn-lyric">[02:15.69]Oh 想起来鱼的眼睛 oh 不经意地 kill me！</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:20.88]Oh, dancing in the room number 10884 <ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:20.88]Oh, dancing in the room number 10884 即使在夜里</div>
 </div>
 
@@ -269,6 +280,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [02:46.03]<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:46.03]即使在夜里</div>
 </div>
 

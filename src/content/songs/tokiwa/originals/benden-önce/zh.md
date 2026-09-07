@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/benden-önce.jpg
 
 ## 作品简介
 
-tokiwa于 2026-05-21 发行的单曲《Benden Önce》。
+[tokiwa](/zh/artists/creators/tokiwa)于 2026-05-21 发行的单曲《Benden Önce》。
 
 ## 试听
 @[apple-music](https://music.apple.com/jp/album/benden-%C3%B6nce/1856680616?i=1856680618&uo=4 "Benden Önce")

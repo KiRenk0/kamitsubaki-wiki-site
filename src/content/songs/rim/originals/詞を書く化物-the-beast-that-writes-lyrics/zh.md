@@ -19,7 +19,7 @@ image: /images/albums/rim/imagine.jpg
 
 ## 作品简介
 
-《詞を書く化物》收录于《imagine》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《詞を書く化物》收录于《[imagine](/zh/albums/rim/imagine)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -72,6 +72,7 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [00:44.34]<ruby>どうか<rt class="roma">douka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby> <ruby>どうか<rt class="roma">douka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
+<div class="cn-lyric">[00:44.34]不对劲 不对劲</div>
 </div>
 
 <br />
@@ -175,6 +176,7 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [02:29.46]<ruby>詞<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>書<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>悪魔<rt class="furi">あくま</rt><rt class="roma">akuma</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>内<rt class="furi">うち</rt><rt class="roma">uchi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>飼<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>
 </div>
+<div class="cn-lyric">[02:29.46]为了写词 将恶魔养在体内</div>
 </div>
 
 <div class="lyric-line">
@@ -202,6 +204,7 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [02:45.82]<ruby>だから<rt class="roma">dakara</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>歌詞<rt class="furi">かし</rt><rt class="roma">kashi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>書<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:45.82]所以现在 为了不忘却而写下歌词</div>
 </div>
 
@@ -209,6 +212,7 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [02:51.07]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:51.07]为了不忘却你</div>
 </div>
 

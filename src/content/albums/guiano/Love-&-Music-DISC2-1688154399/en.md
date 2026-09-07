@@ -46,7 +46,7 @@ tracks:
 
 ## Overview
 
-Guiano's ep “Love & Music -DISC2-”, released on 2019-11-27, featuring 6 tracks.
+[Guiano](/en/artists/creators/guiano)'s ep “Love & Music -DISC2-”, released on 2019-11-27, featuring 6 tracks.
 
 ## Track List
 

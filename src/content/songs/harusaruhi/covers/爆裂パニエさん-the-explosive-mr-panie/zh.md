@@ -42,18 +42,21 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [00:49.70]<ruby>プランクトン<rt class="roma">purankuton</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>おかさ<rt class="roma">okasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>おぼれ<rt class="roma">obore</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[00:49.70]被浮游生物侵蚀的情感，溺毙消失。</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:58.38]<ruby>プランクトン<rt class="roma">purankuton</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>おかさ<rt class="roma">okasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>おぼれ<rt class="roma">obore</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[00:58.38]被浮游生物侵蚀的情感，溺毙消失。</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:07.03]<ruby>プランクトン<rt class="roma">purankuton</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>おかさ<rt class="roma">okasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>おぼれ<rt class="roma">obore</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[01:07.03]被浮游生物侵蚀的情感，溺毙消失。</div>
 </div>
 
 <br />
@@ -106,12 +109,14 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [01:57.38]「<ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>きる<rt class="roma">kiru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>きる<rt class="roma">kiru</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>」
 </div>
+<div class="cn-lyric">[01:57.38]「像活着一样活着」</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:03.43]「<ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>きる<rt class="roma">kiru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>きる<rt class="roma">kiru</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>」
 </div>
+<div class="cn-lyric">[02:03.43]「像活着一样活着」</div>
 </div>
 
 <br />
@@ -155,6 +160,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [02:41.99]<ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>すべて<rt class="roma">subete</rt></ruby><ruby>話<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>馬鹿<rt class="furi">ばか</rt><rt class="roma">baka</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:41.99]也没蠢到把真话全说出来。</div>
 </div>
 
@@ -162,6 +168,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [02:45.97]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>うそ<rt class="roma">uso</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>真実<rt class="furi">しんじつ</rt><rt class="roma">shinjitsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ライン<rt class="roma">rain</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>消<rt class="furi">け</rt><rt class="roma">ke</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ただ<rt class="roma">tada</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:45.97]那只是为了抹消谎言与真实的界线而持续舞蹈的。</div>
 </div>
 
@@ -169,6 +176,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [02:51.87]<ruby>馬鹿<rt class="furi">ばか</rt><rt class="roma">baka</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby><ruby>ろう<rt class="roma">rou</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:51.87]你说我是个混蛋。</div>
 </div>
 
@@ -176,18 +184,21 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [02:55.43]<ruby>嫌<rt class="furi">きら</rt><rt class="roma">kira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>白<rt class="furi">しろ</rt><rt class="roma">shiro</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>肌<rt class="furi">はだ</rt><rt class="roma">hada</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>生<rt class="furi">なま</rt><rt class="roma">nama</rt></ruby><ruby>ぬる<rt class="roma">nuru</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:55.43]讨厌白色肌肤的微温。</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:00.44]<ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ちょうど<rt class="roma">choudo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
+<div class="cn-lyric">[03:00.44]疼痛的程度对我来说刚刚好。</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:05.65]<ruby>以来<rt class="furi">いらい</rt><rt class="roma">irai</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>感覚<rt class="furi">かんかく</rt><rt class="roma">kankaku</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:05.65]从那以后，那只是你的感觉。</div>
 </div>
 
@@ -195,6 +206,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [03:10.62]<ruby>違<rt class="furi">ちが</rt><rt class="roma">chiga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>違<rt class="furi">ちが</rt><rt class="roma">chiga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>もっと<rt class="roma">motto</rt></ruby><ruby>仕様<rt class="furi">しよう</rt><rt class="roma">shiyou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:10.62]不对不对，只是更想说无可奈何而已。</div>
 </div>
 

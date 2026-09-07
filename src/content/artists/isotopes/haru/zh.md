@@ -52,7 +52,7 @@ seo:
 
 ## 概述
 
-{{ruby::羽累::はる::haru}} 是 KAMITSUBAKI STUDIO 推出的音乐同位体合成歌声库，声源原型为虚拟歌手 **[春猿火 / HARUSARUHI](/zh/artists/vwp/harusaruhi)**。
+{{ruby::羽累::はる::haru}} 是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 推出的音乐同位体合成歌声库，声源原型为虚拟歌手 **[春猿火 / HARUSARUHI](/zh/artists/vwp/harusaruhi)**。
 
 软件于 2023年11月13日基于 CeVIO AI 发售。角色设计由一色操刀，定位强调清晰咬字、快速说唱与强张力演唱。
 

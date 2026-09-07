@@ -133,12 +133,14 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 <ruby>オウベイベイベイ<rt class="roma">oubeibeibei</rt></ruby> <ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby>(<ruby>あす<rt class="roma">asu</rt></ruby>)<ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="cn-lyric">欧贝贝贝 今天也是明天也是</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>踏み出<rt class="furi">ふみだ</rt><rt class="roma">fumida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ラスト<rt class="roma">rasuto</rt></ruby><ruby>シンデレラ<rt class="roma">shinderera</rt></ruby>
 </div>
+<div class="cn-lyric">迈出脚步的最后的灰姑娘</div>
 </div>
 
 <div class="lyric-line">
@@ -166,6 +168,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 <ruby>スターラブレイション<rt class="roma">sutaarabureishon</rt></ruby>
 </div>
+<div class="cn-lyric">星恋关系</div>
 </div>
 
 <div class="lyric-line">
@@ -207,18 +210,21 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 <ruby>オウベイベイベイ<rt class="roma">oubeibeibei</rt></ruby> <ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby>(<ruby>あす<rt class="roma">asu</rt></ruby>)<ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="cn-lyric">欧贝贝贝 今天也是明天也是</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>踏み出<rt class="furi">ふみだ</rt><rt class="roma">fumida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ラスト<rt class="roma">rasuto</rt></ruby><ruby>シンデレラ<rt class="roma">shinderera</rt></ruby>
 </div>
+<div class="cn-lyric">迈出脚步的最后的灰姑娘</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:43.73]<ruby>鏡<rt class="furi">かがみ</rt><rt class="roma">kagami</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>立<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>最高<rt class="furi">さいこう</rt><rt class="roma">saikou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>美<rt class="furi">うつく</rt><rt class="roma">utsuku</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:43.73]站在镜子前的我 是最美的</div>
 </div>
 
@@ -226,6 +232,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 [02:50.26]<ruby>オウベイベイベイ<rt class="roma">oubeibeibei</rt></ruby> <ruby>胸<rt class="furi">むね</rt><rt class="roma">mune</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>迷<rt class="furi">まよ</rt><rt class="roma">mayo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>舞<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>散<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby><ruby>らし<rt class="roma">rashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:50.26]欧贝贝贝 心中的迷茫的心啊飘散吧</div>
 </div>
 
@@ -233,6 +240,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 [02:57.08]<ruby>弱<rt class="furi">よわ</rt><rt class="roma">yowa</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>超<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>笑顔<rt class="furi">えがお</rt><rt class="roma">egao</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>光<rt class="furi">ひか</rt><rt class="roma">hika</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>太陽<rt class="furi">たいよう</rt><rt class="roma">taiyou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:57.08]超越软弱的这个笑容 是闪耀的风中的太阳</div>
 </div>
 
@@ -240,12 +248,14 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 <ruby>スターラブレイション<rt class="roma">sutaarabureishon</rt></ruby>
 </div>
+<div class="cn-lyric">星恋关系</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:31.24]<ruby>雲<rt class="furi">くも</rt><rt class="roma">kumo</rt></ruby><ruby>一<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>両<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>いっぱい<rt class="roma">ippai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:31.24]在万里无云的天空 满满双手的爱</div>
 </div>
 
@@ -253,6 +263,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 [03:37.91]<ruby>真っ直<rt class="furi">まっす</rt><rt class="roma">massu</rt></ruby><ruby>ぐ<rt class="roma">gu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>(<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>)
 </div>
+
 <div class="cn-lyric">[03:37.91]笔直地传达到你那里（无论多远）</div>
 </div>
 
@@ -260,36 +271,42 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 <ruby>オウベイベイベイ<rt class="roma">oubeibeibei</rt></ruby> <ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby>(<ruby>あす<rt class="roma">asu</rt></ruby>)<ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="cn-lyric">欧贝贝贝 今天也是明天也是</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>踏み出<rt class="furi">ふみだ</rt><rt class="roma">fumida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ラスト<rt class="roma">rasuto</rt></ruby><ruby>シンデレラ<rt class="roma">shinderera</rt></ruby>
 </div>
+<div class="cn-lyric">迈出脚步的最后的灰姑娘</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>泣き笑<rt class="furi">なきわら</rt><rt class="roma">nakiwara</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ながら<rt class="roma">nagara</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>最高<rt class="furi">さいこう</rt><rt class="roma">saikou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>美<rt class="furi">うつく</rt><rt class="roma">utsuku</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">又哭又笑仰望的天空 是最美的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>オウベイベイベイ<rt class="roma">oubeibeibei</rt></ruby> <ruby>胸<rt class="furi">むね</rt><rt class="roma">mune</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>高<rt class="furi">たか</rt><rt class="roma">taka</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>舞い上<rt class="furi">まいあ</rt><rt class="roma">maia</rt></ruby><ruby>がれ<rt class="roma">gare</rt></ruby>
 </div>
+<div class="cn-lyric">欧贝贝贝 心中的思念啊高高飞舞吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>不器用<rt class="furi">ぶきよう</rt><rt class="roma">bukiyou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>掲<rt class="furi">かか</rt><rt class="roma">kaka</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>ながら<rt class="roma">nagara</rt></ruby> <ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>駆け抜<rt class="furi">かけぬ</rt><rt class="roma">kakenu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>強<rt class="furi">つよ</rt><rt class="roma">tsuyo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>強<rt class="furi">つよ</rt><rt class="roma">tsuyo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
+<div class="cn-lyric">高举着笨拙的爱 一直奔跑下去 坚强地坚强地</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>スターラブレイション<rt class="roma">sutaarabureishon</rt></ruby>
 </div>
+<div class="cn-lyric">星恋关系</div>
 </div>
 
 </div>

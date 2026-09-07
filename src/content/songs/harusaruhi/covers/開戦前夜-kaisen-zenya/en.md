@@ -18,7 +18,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 
 ## Overview
 
-開戦前夜 appears on CREAM PUFF LIVE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+開戦前夜 appears on [CREAM PUFF LIVE](/en/albums/harusaruhi/cream-puff-live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Lyrics
 
@@ -194,6 +194,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 <ruby>勝<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>負<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>猿芝居<rt class="furi">さるしばい</rt><rt class="roma">sarushibai</rt></ruby> <ruby>行方<rt class="furi">ゆくえ</rt><rt class="roma">yukue</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>俺<rt class="furi">おれ</rt><rt class="roma">ore</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>貴様<rt class="furi">きさま</rt><rt class="roma">kisama</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>違<rt class="furi">ちが</rt><rt class="roma">chiga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
+<div class="trans-lyric">Monkey show of win or lose, the outcome drives both you and me mad</div>
 </div>
 
 <br />
@@ -216,7 +217,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [00:47.45]<ruby>冷静<rt class="furi">れいせい</rt><rt class="roma">reisei</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>燃<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
-<div class="trans-lyric">Calm but continuously burning something</div>
+<div class="trans-lyric">[00:47.45]Calm but continuously burning something</div>
 </div>
 
 <div class="lyric-line">
@@ -230,7 +231,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [00:47.45]<ruby>興奮<rt class="furi">こうふん</rt><rt class="roma">koufun</rt></ruby><ruby>電気<rt class="furi">でんき</rt><rt class="roma">denki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>欲<rt class="furi">ほっ</rt><rt class="roma">ho</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
-<div class="trans-lyric">Desiring the electricity of excitement</div>
+<div class="trans-lyric">[00:47.45]Desiring the electricity of excitement</div>
 </div>
 
 <br />
@@ -239,6 +240,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 <ruby>勝<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>負<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>己<rt class="furi">おのれ</rt><rt class="roma">onore</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>勝負<rt class="furi">しょうぶ</rt><rt class="roma">shoubu</rt></ruby>
 </div>
+
 <div class="trans-lyric">Win or lose, it's my own battle</div>
 </div>
 
@@ -246,18 +248,24 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 <ruby>勝<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>負<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>己<rt class="furi">おのれ</rt><rt class="roma">onore</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>勝負<rt class="furi">しょうぶ</rt><rt class="roma">shoubu</rt></ruby>
 </div>
+
+<div class="trans-lyric">Win or lose, it's my own battle</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>勝<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>負<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>己<rt class="furi">おのれ</rt><rt class="roma">onore</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>勝負<rt class="furi">しょうぶ</rt><rt class="roma">shoubu</rt></ruby>
 </div>
+
+<div class="trans-lyric">Win or lose, it's my own battle</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>勝<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>負<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>己<rt class="furi">おのれ</rt><rt class="roma">onore</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>勝負<rt class="furi">しょうぶ</rt><rt class="roma">shoubu</rt></ruby>
 </div>
+
+<div class="trans-lyric">Win or lose, it's my own battle</div>
 </div>
 
 </div>

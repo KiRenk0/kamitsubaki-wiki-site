@@ -86,6 +86,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [01:11.05]<ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby> <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>月<rt class="furi">つき</rt><rt class="roma">tsuki</rt></ruby>
 </div>
+<div class="cn-lyric">[01:11.05]在那里 我是月亮</div>
 </div>
 
 <br />
@@ -122,6 +123,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [01:40.33]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>月<rt class="furi">つき</rt><rt class="roma">tsuki</rt></ruby>
 </div>
+<div class="cn-lyric">[01:40.33]我是月亮</div>
 </div>
 
 <br />
@@ -167,18 +169,21 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [02:23.58]<ruby>他人<rt class="furi">たにん</rt><rt class="roma">tanin</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> night light <ruby>大体<rt class="furi">だいたい</rt><rt class="roma">daitai</rt></ruby> <ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:23.58]他人不知 night light 大抵毫不在意</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:29.96]<ruby>瞬<rt class="furi">まばた</rt><rt class="roma">mabata</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>ただ<rt class="roma">tada</rt></ruby><ruby>叩<rt class="furi">たた</rt><rt class="roma">tata</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>やつ<rt class="roma">yatsu</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>置<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いこ<rt class="roma">iko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby>
 </div>
+<div class="cn-lyric">[02:29.96]闪烁吧 把只是敲打的人抛在身后</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:35.73]<ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby> ever ever <ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:35.73]若某天死去 ever ever 便会结束</div>
 </div>
 
 <br />
@@ -201,6 +206,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [02:54.45]<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:54.45]直到世界终结 歌唱吧</div>
 </div>
 
@@ -208,6 +214,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [03:00.15]<ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:00.15]即使呐喊 世界也不会改变呢</div>
 </div>
 
@@ -217,6 +224,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [03:06.47]<ruby>それで<rt class="roma">sorede</rt></ruby><ruby>結構<rt class="furi">けっこう</rt><rt class="roma">kekkou</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:06.47]这样就很好</div>
 </div>
 
@@ -224,6 +232,8 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [03:12.12]<ruby>それで<rt class="roma">sorede</rt></ruby><ruby>結構<rt class="furi">けっこう</rt><rt class="roma">kekkou</rt></ruby>
 </div>
+
+<div class="cn-lyric">[03:12.12]这样就很好</div>
 </div>
 
 <br />
@@ -232,6 +242,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [03:18.31]<ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby> <ruby>ただ<rt class="roma">tada</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:18.31]在那里 只是</div>
 </div>
 
@@ -239,6 +250,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [03:24.41]<ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:24.41]在那里</div>
 </div>
 
@@ -246,6 +258,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [03:27.84]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>月<rt class="furi">つき</rt><rt class="roma">tsuki</rt></ruby>
 </div>
+<div class="cn-lyric">[03:27.84]我是月亮</div>
 </div>
 
 </div>

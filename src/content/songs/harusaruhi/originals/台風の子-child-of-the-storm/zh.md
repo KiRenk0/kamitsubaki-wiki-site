@@ -191,6 +191,7 @@ image: /images/songs/harusaruhi/single-1692480353.jpg
 <div class="jp-lyric">
 [01:11.96]<ruby>どうか<rt class="roma">douka</rt></ruby><ruby>コンクリート<rt class="roma">konkuriito</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>あり<rt class="roma">ari</rt></ruby><ruby>ませ<rt class="roma">mase</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[01:11.96]但愿不是混凝土</div>
 </div>
 
 <br />
@@ -215,36 +216,42 @@ image: /images/songs/harusaruhi/single-1692480353.jpg
 <div class="jp-lyric">
 [01:24.06]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>返<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>返<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>返<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[01:24.06]把你还给我还给我还给我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:26.50]<ruby>この<rt class="roma">kono</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>ちぎれ<rt class="roma">chigire</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>絶対<rt class="furi">ぜったい</rt><rt class="roma">zettai</rt></ruby><ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[01:26.50]即使这双手撕裂也绝不放开你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:29.99]<ruby>大丈夫<rt class="furi">だいじょうぶ</rt><rt class="roma">daijoubu</rt></ruby> <ruby>下見<rt class="furi">したみ</rt><rt class="roma">shitami</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[01:29.99]没关系 别看下面 只看着我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:34.46]<ruby>初<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>まして<rt class="roma">mashite</rt></ruby> <ruby>ほら<rt class="roma">hora</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[01:34.46]初次见面 来 笑一个</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:36.98]<ruby>涙<rt class="furi">なみだ</rt><rt class="roma">namida</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>後<rt class="furi">のち</rt><rt class="roma">nochi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>必<rt class="furi">かなら</rt><rt class="roma">kanara</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>晴<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="cn-lyric">[01:36.98]因为眼泪过后必定会放晴</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:40.47]<ruby>そば<rt class="roma">soba</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:40.47]我在你身边</div>
 </div>
 
@@ -254,6 +261,7 @@ image: /images/songs/harusaruhi/single-1692480353.jpg
 <div class="jp-lyric">
 [01:54.82]Breathing, We'll gonna be alright
 </div>
+
 <div class="cn-lyric">[01:54.82]Breathing, We'll gonna be alright</div>
 </div>
 
@@ -263,6 +271,7 @@ image: /images/songs/harusaruhi/single-1692480353.jpg
 <div class="jp-lyric">
 [02:07.92]<ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>止<rt class="furi">や</rt><rt class="roma">ya</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:07.92]风停了</div>
 </div>
 
@@ -270,6 +279,7 @@ image: /images/songs/harusaruhi/single-1692480353.jpg
 <div class="jp-lyric">
 [02:10.07]<ruby>静寂<rt class="furi">せいじゃく</rt><rt class="roma">seijaku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>包<rt class="furi">つつ</rt><rt class="roma">tsutsu</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:10.07]被寂静包围</div>
 </div>
 
@@ -277,6 +287,7 @@ image: /images/songs/harusaruhi/single-1692480353.jpg
 <div class="jp-lyric">
 [02:12.76]<ruby>こっち<rt class="roma">kotchi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>座<rt class="furi">すわ</rt><rt class="roma">suwa</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:12.76]坐到这里来</div>
 </div>
 
@@ -284,6 +295,7 @@ image: /images/songs/harusaruhi/single-1692480353.jpg
 <div class="jp-lyric">
 [02:15.14]<ruby>ほら<rt class="roma">hora</rt></ruby><ruby>綺麗<rt class="furi">きれい</rt><rt class="roma">kirei</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:15.14]你看 多美啊</div>
 </div>
 
@@ -293,12 +305,14 @@ image: /images/songs/harusaruhi/single-1692480353.jpg
 <div class="jp-lyric">
 [02:17.96]<ruby>その<rt class="roma">sono</rt></ruby><ruby>雫<rt class="furi">しずく</rt><rt class="roma">shizuku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>宝石<rt class="furi">ほうせき</rt><rt class="roma">houseki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby>
 </div>
+<div class="cn-lyric">[02:17.96]那水滴如同宝石</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:23.01]<ruby>愚者<rt class="furi">ぐしゃ</rt><rt class="roma">gusha</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>奪<rt class="furi">うば</rt><rt class="roma">uba</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[02:23.01]不要被愚者夺走</div>
 </div>
 
 <br />
@@ -307,42 +321,49 @@ image: /images/songs/harusaruhi/single-1692480353.jpg
 <div class="jp-lyric">
 [02:26.76]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>返<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>返<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>返<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[02:26.76]把你还给我还给我还给我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:29.08]<ruby>この<rt class="roma">kono</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>ちぎれ<rt class="roma">chigire</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>絶対<rt class="furi">ぜったい</rt><rt class="roma">zettai</rt></ruby><ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:29.08]即使这双手撕裂也绝不放开你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:32.56]<ruby>大丈夫<rt class="furi">だいじょうぶ</rt><rt class="roma">daijoubu</rt></ruby> <ruby>下見<rt class="furi">したみ</rt><rt class="roma">shitami</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[02:32.56]没关系 别看下面 只看着我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:37.16]<ruby>初<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>まして<rt class="roma">mashite</rt></ruby> <ruby>ほら<rt class="roma">hora</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[02:37.16]初次见面 来 笑一个</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:39.63]<ruby>涙<rt class="furi">なみだ</rt><rt class="roma">namida</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>後<rt class="furi">のち</rt><rt class="roma">nochi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>必<rt class="furi">かなら</rt><rt class="roma">kanara</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>晴<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="cn-lyric">[02:39.63]因为眼泪过后必定会放晴</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:43.04]<ruby>そば<rt class="roma">soba</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby> <ruby>台風<rt class="furi">たいふう</rt><rt class="roma">taifuu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>子<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby>
 </div>
+<div class="cn-lyric">[02:43.04]我在你身边 台风之子</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:52.50]<ruby>台風<rt class="furi">たいふう</rt><rt class="roma">taifuu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>子<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby>
 </div>
+<div class="cn-lyric">[02:52.50]台风之子</div>
 </div>
 
 </div>

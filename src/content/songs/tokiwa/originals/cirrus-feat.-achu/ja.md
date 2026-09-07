@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/cirrus-feat.-achu.jpg
 
 ## 作品概要
 
-tokiwaが2022-03-31にリリースしたシングル「Cirrus (feat. Achu*)」。
+[tokiwa](/ja/artists/creators/tokiwa)が2022-03-31にリリースしたシングル「Cirrus (feat. Achu*)」。
 
 ## 視聴
 {{media-switcher::Cirrus (feat. Achu*)}}

@@ -181,6 +181,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [02:23.86]<ruby>フシギ<rt class="roma">fushigi</rt></ruby> <ruby>ココロ<rt class="roma">kokoro</rt></ruby> <ruby>ココロ<rt class="roma">kokoro</rt></ruby> <ruby>フシギ<rt class="roma">fushigi</rt></ruby>
 </div>
+<div class="cn-lyric">[02:23.86]不可思议 心 心 不可思议</div>
 </div>
 
 <div class="lyric-line">
@@ -289,6 +290,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [03:34.05]<ruby>アリガトウ<rt class="roma">arigatou</rt></ruby>･･･
 </div>
+<div class="cn-lyric">[03:34.05]谢谢你...</div>
 </div>
 
 <div class="lyric-line">
@@ -302,12 +304,14 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [03:41.07]<ruby>アリガトウ<rt class="roma">arigatou</rt></ruby>･･･
 </div>
+<div class="cn-lyric">[03:41.07]谢谢你...</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:44.42]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:44.42]你所给予我的一切</div>
 </div>
 
@@ -315,12 +319,14 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [03:47.79]<ruby>アリガトウ<rt class="roma">arigatou</rt></ruby>･･･
 </div>
+<div class="cn-lyric">[03:47.79]谢谢你...</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:51.33]<ruby>永遠<rt class="furi">えいえん</rt><rt class="roma">eien</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:51.33]永远歌唱</div>
 </div>
 
@@ -328,6 +334,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [03:54.82]<ruby>アリガトウ<rt class="roma">arigatou</rt></ruby>･･･
 </div>
+<div class="cn-lyric">[03:54.82]谢谢你...</div>
 </div>
 
 </div>

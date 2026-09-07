@@ -159,18 +159,21 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 I'm Falling down...
 </div>
+<div class="cn-lyric">我正在坠落...</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I'm Falling down...
 </div>
+<div class="cn-lyric">我正在坠落...</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I'm Falling down...
 </div>
+<div class="cn-lyric">我正在坠落...</div>
 </div>
 
 <div class="lyric-line">
@@ -247,6 +250,7 @@ I'm Falling down...
 <div class="jp-lyric">
 [03:42.30]<ruby>星<rt class="furi">ほし</rt><rt class="roma">hoshi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby><ruby>そこ<rt class="roma">soko</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:42.30]星星已经近在咫尺</div>
 </div>
 
@@ -254,6 +258,7 @@ I'm Falling down...
 <div class="jp-lyric">
 [03:46.39]<ruby>神様<rt class="furi">かみさま</rt><rt class="roma">kamisama</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:46.39]神的训诫</div>
 </div>
 
@@ -261,6 +266,7 @@ I'm Falling down...
 <div class="jp-lyric">
 [03:46.39]<ruby>ぜん<rt class="roma">zen</rt></ruby><ruby>っっっぜん<rt class="roma">zzen</rt></ruby><ruby>なっさ<rt class="roma">nassa</rt></ruby><ruby>ゃいない<rt class="roma">yainai</rt></ruby>!
 </div>
+
 <div class="cn-lyric">[03:46.39]全·然·不·窝·囊</div>
 </div>
 

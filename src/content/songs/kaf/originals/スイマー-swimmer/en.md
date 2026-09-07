@@ -135,7 +135,9 @@ image: /images/albums/kaf/gsa.jpg
 <div class="jp-lyric">
 [01:23.95]<ruby>もっと<rt class="roma">motto</rt></ruby><ruby>泳<rt class="furi">およ</rt><rt class="roma">oyo</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby>
 </div>
-<div class="trans-lyric">Swim more</div>
+<div class="trans-lyric">
+[01:23.95]Swim more
+</div>
 </div>
 
 <br />
@@ -167,12 +169,14 @@ image: /images/albums/kaf/gsa.jpg
 <div class="jp-lyric">
 <ruby>体<rt class="furi">からだ</rt><rt class="roma">karada</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>流<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
+<div class="trans-lyric">Flowing through my body</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>真新<rt class="furi">まあたら</rt><rt class="roma">maatara</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>涙<rt class="furi">なみだ</rt><rt class="roma">namida</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>隠<rt class="furi">かく</rt><rt class="roma">kaku</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>様<rt class="furi">よう</rt><rt class="roma">you</rt></ruby>
 </div>
+<div class="trans-lyric">So that tears won't hide the brand-new future</div>
 </div>
 
 <div class="lyric-line">
@@ -186,6 +190,7 @@ image: /images/albums/kaf/gsa.jpg
 <div class="jp-lyric">
 <ruby>これから<rt class="roma">korekara</rt></ruby> <ruby>ぼく<rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
+
 <div class="trans-lyric">From now on, we will repeat</div>
 </div>
 
@@ -193,7 +198,8 @@ image: /images/albums/kaf/gsa.jpg
 <div class="jp-lyric">
 [01:23.95]<ruby>定<rt class="furi">さだ</rt><rt class="roma">sada</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>姿勢<rt class="furi">しせい</rt><rt class="roma">shisei</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>立ち向<rt class="furi">たちむ</rt><rt class="roma">tachimu</rt></ruby><ruby>かう<rt class="roma">kau</rt></ruby><ruby>様<rt class="furi">よう</rt><rt class="roma">you</rt></ruby><ruby>一層<rt class="furi">いっそう</rt><rt class="roma">issou</rt></ruby><ruby>泳<rt class="furi">およ</rt><rt class="roma">oyo</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby>
 </div>
-<div class="trans-lyric">With an unsettled stance, swim even more as if facing something</div>
+
+<div class="trans-lyric">[01:23.95]With an unsettled stance, swim even more as if facing something</div>
 </div>
 
 </div>

@@ -17,7 +17,7 @@ image: /images/songs/dustcell/灯火.jpg
 
 ## 作品概要
 
-DUSTCELLが2025-07-15にリリースしたシングル「灯火」。
+[DUSTCELL](/ja/artists/solo/dustcell)が2025-07-15にリリースしたシングル「灯火」。
 
 ## 視聴
 {{media-switcher::灯火}}

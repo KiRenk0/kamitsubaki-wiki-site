@@ -243,12 +243,14 @@ We'll have found our own way back home
 <div class="jp-lyric">
 Watch the day
 </div>
+<div class="cn-lyric">看着白天</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Kiss the night
 </div>
+<div class="cn-lyric">亲吻夜晚</div>
 </div>
 
 <div class="lyric-line">
@@ -269,12 +271,14 @@ Feel the fire
 <div class="jp-lyric">
 Behind my eyes
 </div>
+<div class="cn-lyric">在眼底</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Now the world changed forever and we won't hide
 </div>
+
 <div class="cn-lyric">如今世界永远改变，我们不会躲藏</div>
 </div>
 
@@ -282,30 +286,35 @@ Now the world changed forever and we won't hide
 <div class="jp-lyric">
 Can not escape everything that's just erased
 </div>
+<div class="cn-lyric">无法逃避一切被抹去的事物</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Chase the day
 </div>
+<div class="cn-lyric">追逐白昼</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Go save the night
 </div>
+<div class="cn-lyric">去拯救夜晚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Still I'll be here forever right by your side
 </div>
+<div class="cn-lyric">而我仍会永远在你身边</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>例<rt class="furi">たと</rt><rt class="roma">tato</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>これ<rt class="roma">kore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>すべて<rt class="roma">subete</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby><ruby>として<rt class="roma">toshite</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+
 <div class="cn-lyric">即使这一切都只是梦</div>
 </div>
 
@@ -313,12 +322,14 @@ Still I'll be here forever right by your side
 <div class="jp-lyric">
 Chase the day
 </div>
+<div class="cn-lyric">追逐白昼</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Save the night
 </div>
+
 <div class="cn-lyric">拯救夜晚</div>
 </div>
 
@@ -326,12 +337,14 @@ Save the night
 <div class="jp-lyric">
 Still I'll be here forever right by your side
 </div>
+<div class="cn-lyric">而我仍会永远在你身边</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I'll be right by your side
 </div>
+<div class="cn-lyric">我会在你身边</div>
 </div>
 
 </div>

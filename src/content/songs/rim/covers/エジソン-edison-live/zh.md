@@ -65,24 +65,28 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [00:15.65]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>暇<rt class="furi">ひま</rt><rt class="roma">hima</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>あったら<rt class="roma">attara</rt></ruby><ruby>発明<rt class="furi">はつめい</rt><rt class="roma">hatsumei</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>え<rt class="roma">e</rt></ruby>
 </div>
+<div class="cn-lyric">[00:15.65]要是跳舞有空不如去发明啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:19.30]<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>暇<rt class="furi">ひま</rt><rt class="roma">hima</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>あったら<rt class="roma">attara</rt></ruby><ruby>発明<rt class="furi">はつめい</rt><rt class="roma">hatsumei</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>え<rt class="roma">e</rt></ruby>
 </div>
+<div class="cn-lyric">[00:19.30]要是唱歌有空不如去发明啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:22.82]<ruby>ライブ<rt class="roma">raibu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ブッキング<rt class="roma">bukkingu</rt></ruby><ruby>蹴<rt class="furi">け</rt><rt class="roma">ke</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>発明<rt class="furi">はつめい</rt><rt class="roma">hatsumei</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>え<rt class="roma">e</rt></ruby>
 </div>
+<div class="cn-lyric">[00:22.82]踢掉演出的预约去发明啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:26.45]<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>発明<rt class="furi">はつめい</rt><rt class="roma">hatsumei</rt></ruby><ruby>王<rt class="furi">おう</rt><rt class="roma">ou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>オレ<rt class="roma">ore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>
 </div>
+<div class="cn-lyric">[00:26.45]我要成为那样的发明王</div>
 </div>
 
 <br />
@@ -105,12 +109,14 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [00:37.44]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>エジソン<rt class="roma">ejison</rt></ruby> <ruby>自尊心<rt class="furi">じそんしん</rt><rt class="roma">jisonshin</rt></ruby>
 </div>
+<div class="cn-lyric">[00:37.44]跳舞的爱迪生 自尊心</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:40.74]<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>エジソン<rt class="roma">ejison</rt></ruby> <ruby>ジソン<rt class="roma">jison</rt></ruby><ruby>心<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby>
 </div>
+<div class="cn-lyric">[00:40.74]唱歌的爱迪生 自负心</div>
 </div>
 
 <br />
@@ -179,24 +185,28 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [01:14.26]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>エジソン<rt class="roma">ejison</rt></ruby> <ruby>自尊心<rt class="furi">じそんしん</rt><rt class="roma">jisonshin</rt></ruby>
 </div>
+<div class="cn-lyric">[01:14.26]跳舞的爱迪生 自尊心</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:17.53]<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>エジソン<rt class="roma">ejison</rt></ruby> <ruby>ジソン<rt class="roma">jison</rt></ruby><ruby>心<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby>
 </div>
+<div class="cn-lyric">[01:17.53]唱歌的爱迪生 自负心</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:21.42]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>エジソン<rt class="roma">ejison</rt></ruby> <ruby>自尊心<rt class="furi">じそんしん</rt><rt class="roma">jisonshin</rt></ruby>
 </div>
+<div class="cn-lyric">[01:21.42]跳舞的爱迪生 自尊心</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:25.24]<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>エジソン<rt class="roma">ejison</rt></ruby> <ruby>ジソン<rt class="roma">jison</rt></ruby><ruby>心<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby>
 </div>
+<div class="cn-lyric">[01:25.24]唱歌的爱迪生 自负心</div>
 </div>
 
 <br />
@@ -205,6 +215,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [01:44.01]YouTube <ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>得<rt class="furi">え</rt><rt class="roma">e</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby> 1% <ruby>の<rt class="roma">no</rt></ruby><ruby>ひらめき<rt class="roma">hirameki</rt></ruby><ruby>インスピレーション<rt class="roma">insupireeshon</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:44.01]从YouTube获得1%的灵感闪现</div>
 </div>
 
@@ -212,6 +223,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [01:47.58]SNS <ruby>通<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>がる<rt class="roma">garu</rt></ruby><ruby>発明<rt class="furi">はつめい</rt><rt class="roma">hatsumei</rt></ruby><ruby>家<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>コミュニケーション<rt class="roma">komyunikeeshon</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:47.58]通过SNS连结发明家的交流</div>
 </div>
 
@@ -219,6 +231,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [01:51.43]<ruby>インスタ<rt class="roma">insuta</rt></ruby><ruby>映<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>狙<rt class="furi">ねら</rt><rt class="roma">nera</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>投稿<rt class="furi">とうこう</rt><rt class="roma">toukou</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:51.43]瞄准Instagram爆款的投稿</div>
 </div>
 
@@ -226,6 +239,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [01:52.84]Web <ruby>ニュース<rt class="roma">nyuusu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>情報<rt class="furi">じょうほう</rt><rt class="roma">jouhou</rt></ruby><ruby>収集<rt class="furi">しゅうしゅう</rt><rt class="roma">shuushuu</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:52.84]通过网络新闻收集信息</div>
 </div>
 
@@ -233,6 +247,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [01:55.03]<ruby>間違<rt class="furi">まちが</rt><rt class="roma">machiga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>これから<rt class="roma">korekara</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>時代<rt class="furi">じだい</rt><rt class="roma">jidai</rt></ruby><ruby>来<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>活動<rt class="furi">かつどう</rt><rt class="roma">katsudou</rt></ruby><ruby>写真<rt class="furi">しゃしん</rt><rt class="roma">shashin</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:55.03]毫无疑问接下来时代到来的是活动影像</div>
 </div>
 
@@ -240,6 +255,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [02:00.69]<ruby>イヤー<rt class="roma">iyaa</rt></ruby><ruby>絶対<rt class="furi">ぜったい</rt><rt class="roma">zettai</rt></ruby><ruby>来<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby><ruby>なあ<rt class="roma">naa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:00.69]唉 绝对会来的吧我觉得</div>
 </div>
 
@@ -249,24 +265,28 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [02:05.55]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>暇<rt class="furi">ひま</rt><rt class="roma">hima</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>あったら<rt class="roma">attara</rt></ruby><ruby>発明<rt class="furi">はつめい</rt><rt class="roma">hatsumei</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>え<rt class="roma">e</rt></ruby>
 </div>
+<div class="cn-lyric">[02:05.55]要是跳舞有空不如去发明啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:10.09]<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>暇<rt class="furi">ひま</rt><rt class="roma">hima</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>あったら<rt class="roma">attara</rt></ruby><ruby>発明<rt class="furi">はつめい</rt><rt class="roma">hatsumei</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>え<rt class="roma">e</rt></ruby>
 </div>
+<div class="cn-lyric">[02:10.09]要是唱歌有空不如去发明啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:13.55]<ruby>ライブ<rt class="roma">raibu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ブッキング<rt class="roma">bukkingu</rt></ruby><ruby>蹴<rt class="furi">け</rt><rt class="roma">ke</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>発明<rt class="furi">はつめい</rt><rt class="roma">hatsumei</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>え<rt class="roma">e</rt></ruby>
 </div>
+<div class="cn-lyric">[02:13.55]踢掉演出的预约去发明啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:17.19]<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>発明<rt class="furi">はつめい</rt><rt class="roma">hatsumei</rt></ruby><ruby>王<rt class="furi">おう</rt><rt class="roma">ou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>オレ<rt class="roma">ore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>
 </div>
+<div class="cn-lyric">[02:17.19]我要成为那样的发明王</div>
 </div>
 
 <br />
@@ -275,24 +295,28 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [02:20.68]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>エジソン<rt class="roma">ejison</rt></ruby> <ruby>自尊心<rt class="furi">じそんしん</rt><rt class="roma">jisonshin</rt></ruby>
 </div>
+<div class="cn-lyric">[02:20.68]跳舞的爱迪生 自尊心</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:24.59]<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>エジソン<rt class="roma">ejison</rt></ruby> <ruby>ジソン<rt class="roma">jison</rt></ruby><ruby>心<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby>
 </div>
+<div class="cn-lyric">[02:24.59]唱歌的爱迪生 自负心</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:28.18]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>エジソン<rt class="roma">ejison</rt></ruby> <ruby>自尊心<rt class="furi">じそんしん</rt><rt class="roma">jisonshin</rt></ruby>
 </div>
+<div class="cn-lyric">[02:28.18]跳舞的爱迪生 自尊心</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:31.71]<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>エジソン<rt class="roma">ejison</rt></ruby> <ruby>ジソン<rt class="roma">jison</rt></ruby><ruby>心<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby>
 </div>
+<div class="cn-lyric">[02:31.71]唱歌的爱迪生 自负心</div>
 </div>
 
 </div>

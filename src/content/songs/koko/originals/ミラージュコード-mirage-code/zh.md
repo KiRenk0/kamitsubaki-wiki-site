@@ -185,6 +185,7 @@ image: /images/songs/koko/single-1667765116.jpg
 <div class="jp-lyric">
 [02:37.65]<ruby>歪<rt class="furi">いが</rt><rt class="roma">iga</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>普遍<rt class="furi">ふへん</rt><rt class="roma">fuhen</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>飴<rt class="furi">あめ</rt><rt class="roma">ame</rt></ruby> <ruby>惰性<rt class="furi">だせい</rt><rt class="roma">dasei</rt></ruby><ruby>式<rt class="furi">しき</rt><rt class="roma">shiki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>故<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>意義<rt class="furi">いぎ</rt><rt class="roma">igi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>成<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[02:37.65]扭曲的普遍糖果 在惯性式连意义都无法成就的世界</div>
 </div>
 
 <div class="lyric-line">
@@ -205,6 +206,7 @@ image: /images/songs/koko/single-1667765116.jpg
 <div class="jp-lyric">
 [02:52.29]<ruby>例<rt class="furi">たと</rt><rt class="roma">tato</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>否定<rt class="furi">ひてい</rt><rt class="roma">hitei</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>構<rt class="furi">かま</rt><rt class="roma">kama</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:52.29]即便世界否定也无所谓</div>
 </div>
 

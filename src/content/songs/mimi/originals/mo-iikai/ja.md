@@ -17,7 +17,7 @@ image: /images/songs/mimi/mo-iikai.jpg
 
 ## 作品概要
 
-MIMIが2021-12-18にリリースしたシングル「もーいいかい」。
+[MIMI](/ja/artists/creators/mimi)が2021-12-18にリリースしたシングル「もーいいかい」。
 
 ## 視聴
 {{media-switcher::もーいいかい}}

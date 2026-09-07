@@ -36,16 +36,16 @@ order: 1
 | 第4話  |              悪意 -Malice-               | 小川ひとみ  |               距離。                |   7月31日    |
 | 第5話  |            ファミリア -Familiar-            | 小川ひとみ  |             シャングリラ              |    8月7日    |
 | 第6話  |         記憶の卵 -Piece of memory-         | 後藤みどり  |            ひとえに壊れて             |   8月14日    |
-| 第7話  |            現象 -Phenomenon-             | 小川ひとみ  |    閃光だった (Rearranged Ver.)     |   8月21日    |
+| 第7話  |            現象 -Phenomenon-             | 小川ひとみ  |    [閃光だった (Rearranged Ver.)](/ja/songs/vwp/remixes/閃光だったrearranged-ver-insight-rearranged-ver)     |   8月21日    |
 | 第8話  | ブラックアウト -Beginning of the end-       | 後藤みどり  |     BREATHE (Rearranged Ver.)      |   8月28日    |
 | 第9話  |              欲望 -Desire-               | 窪山阿佐子  |                欲望                |    9月4日    |
 | 第10話 |        仮想と現実 -Artificial real-         | 後藤みどり  |          電脳 sinka ver.           |   9月11日    |
 | 第11話 |            再生 -Regenerate-             | 窪山阿佐子  |                -                 |   9月18日    |
-| 第12話 |      神椿市建設中 -Under construction-      | 後藤みどり  |         魔女(真) sinka ver.         |   9月25日    |
+| 第12話 |      神椿市建設中 -Under construction-      | 後藤みどり  |         [魔女](/ja/songs/kaf/originals/majo)(真) sinka ver.         |   9月25日    |
 
 ### スタッフ
 
-- 原作・企画プロデュース：KAMITSUBAKI STUDIO、PIEDPIPER
+- 原作・企画プロデュース：KAMITSUBAKI STUDIO、[PIEDPIPER](/ja/artists/creators/piedpiper)
 - 世界観設定・監修・原作シナリオ：月島総記
 - 原作企画：針谷建二郎（THINKR）、秋山広行（THINKR）
 - 監督・シリーズ構成・音響監督：柿本広大

@@ -17,7 +17,7 @@ image: /images/songs/mimi/愛suruyouni.jpg
 
 ## 作品简介
 
-MIMI于 2023-01-24 发行的单曲《愛するように》。
+[MIMI](/zh/artists/creators/mimi)于 2023-01-24 发行的单曲《愛するように》。
 
 ## 试听
 {{media-switcher::愛するように}}

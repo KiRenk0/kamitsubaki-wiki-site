@@ -19,7 +19,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 
 ## 作品简介
 
-《鏡面の波 (Cover Live)》收录于《CANDY LIVE 3 (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《鏡面の波 (Cover Live)》收录于《[CANDY LIVE 3](/zh/albums/isekaijoucho/candy-live-3) (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -197,6 +197,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 [02:56.88]<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>彷徨<rt class="furi">ほうこう</rt><rt class="roma">houkou</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
+<div class="cn-lyric">[02:56.88]夜の中を彷徨っている</div>
 </div>
 
 <br />
@@ -233,24 +234,28 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 [03:26.77]<ruby>夕立<rt class="furi">ゆうだち</rt><rt class="roma">yuudachi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>名付<rt class="furi">なづ</rt><rt class="roma">nazu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[03:26.77]夕立が名付けられた</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:34.58]<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>剥<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>がし<rt class="roma">gashi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby>
 </div>
+<div class="cn-lyric">[03:34.58]世界を剥がした時</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:37.88]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>波<rt class="furi">なみ</rt><rt class="roma">nami</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[03:37.88]それは波のように</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:44.30]<ruby>指<rt class="furi">ゆび</rt><rt class="roma">yubi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>隙間<rt class="furi">すきま</rt><rt class="roma">sukima</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>すり抜<rt class="furi">すりぬ</rt><rt class="roma">surinu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまい<rt class="roma">shimai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:44.30]指の隙間をすり抜けて 消えてしまい</div>
 </div>
 

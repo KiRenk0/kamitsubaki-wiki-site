@@ -85,7 +85,9 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [00:48.47]<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
-<div class="trans-lyric">Even on a night like this, it's okay, isn't it?</div>
+<div class="trans-lyric">
+[00:48.47]Even on a night like this, it's okay, isn't it?
+</div>
 </div>
 
 <div class="lyric-line">
@@ -99,6 +101,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [00:55.36]<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="trans-lyric">[00:55.36]Even on a night like this, it's okay, isn't it?</div>
 </div>
 
 <div class="lyric-line">
@@ -126,7 +129,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [01:05.80]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>楽<rt class="furi">らく</rt><rt class="roma">raku</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="trans-lyric">If I said that, it would have been easier, I guess</div>
+<div class="trans-lyric">[01:05.80]If I said that, it would have been easier, I guess</div>
 </div>
 
 <div class="lyric-line">
@@ -140,7 +143,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [01:10.88]「<ruby>なんか<rt class="roma">nanka</rt></ruby><ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>」
 </div>
-<div class="trans-lyric">"I had a feeling something like that"</div>
+<div class="trans-lyric">[01:10.88]"I had a feeling something like that"</div>
 </div>
 
 <div class="lyric-line">
@@ -154,7 +157,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [01:29.49]1:3<ruby>で<rt class="roma">de</rt></ruby><ruby>割<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>カルーア<rt class="roma">karuua</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
 </div>
-<div class="trans-lyric">Kahlua mixed 1:3, before I knew it</div>
+<div class="trans-lyric">[01:29.49]Kahlua mixed 1:3, before I knew it</div>
 </div>
 
 <div class="lyric-line">
@@ -196,6 +199,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [01:57.03]<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="trans-lyric">[01:57.03]Even on a night like this, it's okay, isn't it?</div>
 </div>
 
 <div class="lyric-line">
@@ -209,6 +213,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [02:03.90]<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="trans-lyric">[02:03.90]Even on a night like this, it's okay, isn't it?</div>
 </div>
 
 <div class="lyric-line">
@@ -243,7 +248,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [02:34.56]<ruby>塩<rt class="furi">しお</rt><rt class="roma">shio</rt></ruby><ruby>っぽい<rt class="roma">ppoi</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>かっ<rt class="roma">ka</rt></ruby><ruby>食<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>らい<rt class="roma">rai</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
-<div class="trans-lyric">I want to gobble down something salty</div>
+<div class="trans-lyric">[02:34.56]I want to gobble down something salty</div>
 </div>
 
 <div class="lyric-line">
@@ -264,7 +269,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [02:44.96]<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
-<div class="trans-lyric">Even someone like me is fine, isn't it?</div>
+<div class="trans-lyric">[02:44.96]Even someone like me is fine, isn't it?</div>
 </div>
 
 <div class="lyric-line">
@@ -278,24 +283,28 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [02:51.87]<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="trans-lyric">[02:51.87]Even on a night like this, it's okay, isn't it?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:55.15]<ruby>強<rt class="furi">つよ</rt><rt class="roma">tsuyo</rt></ruby><ruby>がって<rt class="roma">gatte</rt></ruby><ruby>ばっか<rt class="roma">bakka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>吐<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>溜<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>まり<rt class="roma">mari</rt></ruby>
 </div>
+<div class="trans-lyric">[02:55.15]A cesspool of nothing but bravado</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:58.76]<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="trans-lyric">[02:58.76]Even on a night like this, it's okay, isn't it?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:03.64]<ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ありのまま<rt class="roma">arinomama</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>？
 </div>
+
 <div class="trans-lyric">[03:03.64]At least today, is a raw song okay?</div>
 </div>
 
@@ -303,31 +312,36 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [03:05.80]「<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>人生<rt class="furi">じんせい</rt><rt class="roma">jinsei</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>
 </div>
+<div class="trans-lyric">[03:05.80]"A life without you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:07.57]<ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>」
 </div>
+<div class="trans-lyric">[03:07.57]"Really, I don't care anymore"</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:09.26]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="trans-lyric">Saying 'I love you' won't fix anything</div>
+
+<div class="trans-lyric">[03:09.26]Saying 'I love you' won't fix anything</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:12.69]「<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>人生<rt class="furi">じんせい</rt><rt class="roma">jinsei</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>
 </div>
+<div class="trans-lyric">[03:12.69]"A life without you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:14.41]<ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>」
 </div>
+
 <div class="trans-lyric">[03:14.41]"Really, I don't care anymore"</div>
 </div>
 
@@ -335,7 +349,8 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [03:15.91]<ruby>どう<rt class="roma">dou</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>溺<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
-<div class="trans-lyric">I don't care anymore, so I want to drown</div>
+
+<div class="trans-lyric">[03:15.91]I don't care anymore, so I want to drown</div>
 </div>
 
 </div>

@@ -200,6 +200,7 @@ image: /images/albums/kaf/maho.jpg
 <div class="jp-lyric">
 [02:00.00]<ruby>まあ<rt class="roma">maa</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby>
 </div>
+<div class="cn-lyric">[02:00.00]算了，无所谓</div>
 </div>
 
 <div class="lyric-line">
@@ -310,6 +311,7 @@ image: /images/albums/kaf/maho.jpg
 <div class="jp-lyric">
 [03:20.00]<ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>かも<rt class="roma">kamo</rt></ruby><ruby>しれ<rt class="roma">shire</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[03:20.00]或许不是真正的我</div>
 </div>
 
 <div class="lyric-line">
@@ -323,6 +325,7 @@ image: /images/albums/kaf/maho.jpg
 <div class="jp-lyric">
 [03:30.50]<ruby>ワクワク<rt class="roma">wakuwaku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>にやにや<rt class="roma">niyaniya</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:30.50]兴奋不已的傻笑也是</div>
 </div>
 
@@ -330,6 +333,7 @@ image: /images/albums/kaf/maho.jpg
 <div class="jp-lyric">
 [03:36.00]<ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>観測<rt class="furi">かんそく</rt><rt class="roma">kansoku</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:36.00]真正的你的观测也是</div>
 </div>
 

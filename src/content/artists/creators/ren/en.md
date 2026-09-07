@@ -10,7 +10,7 @@ debutDate: ""
 profileTagline: "Vocaloid producer since March 2020, crafting dark, atmospheric lyrics and soundscapes with diverse melodic development."
 designCredits: []
 affiliations:
-  - "KAMITSUBAKI STUDIO"
+  - "KYOKAI STUDIO"
 officialLinks:
   - label: "YouTube"
     href: "https://www.youtube.com/channel/UCqETmB5g96_4uPgHozWm_4Q"
@@ -45,21 +45,28 @@ seo:
     - "Vocaloid"
 ---
 
+
 ## Overview
 
 Ren (廉) is a Vocaloid producer who began releasing music in March 2020. His work is defined by dark, cold atmospheric lyrics and soundscapes that create an immersive, almost cinematic listening experience. Despite the somber tonal palette, his compositions feature diverse and inventive melodic development, keeping listeners engaged through unexpected harmonic turns and structural shifts.
+
 
 ## Representative Works
 
 Ren's notable discography includes "Yomei Nikki" (余命日記), "Utsuzuki ga Kirei Desu ne" (嘘月が綺麗ですね), "Regulus Rebellion" (レグルスリベリオン), "Eme no Torikago" (エメの鳥籠), "Bullet Shark" (バレットシャーク), and "Bakeneko Yokochou" (化猫横丁). Each track demonstrates his ability to weave narrative depth into atmospheric electronic production.
 
+
 ## Collaborations and Recent Activity
 
 A significant milestone in Ren's career was the music video for "Shizuki Akari ni Kofuku wo" (詩月灯りに幸福を), a collaboration with fellow creators Shido and Koyuku, released on November 5, 2025. This cross-creator project highlighted Ren's collaborative spirit and his ability to blend his dark aesthetic with other creative voices.
 
+- September 2026: Transferred to [KYOKAI STUDIO](/en/projects/labels/kyokai-studio) as part of THINKR's studio reorganization (formerly under the [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) system).
+
+
 ## Role and Creative Position
 
 Ren's production occupies a darker corner of the Vocaloid landscape, characterized by cold, atmospheric textures and emotionally charged narratives. His diverse melodic approach ensures that even within his signature somber framework, each song offers a distinct emotional journey. His growing body of work since 2020 has established him as a notable voice in the contemporary Vocaloid producer scene.
+
 
 ## Work Index
 
@@ -70,6 +77,7 @@ Ren's production occupies a darker corner of the Vocaloid landscape, characteriz
 - "Bullet Shark" (バレットシャーク)
 - "Bakeneko Yokochou" (化猫横丁)
 - "Shizuki Akari ni Kofuku wo" (詩月灯りに幸福を) — with Shido and Koyuku
+
 
 ## External Links
 

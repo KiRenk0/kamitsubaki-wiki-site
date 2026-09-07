@@ -62,7 +62,7 @@ tracks:
 
 ## Overview
 
-HiFi-P's album “Pixels”, released on 2023-05-11, featuring 10 tracks.
+[HiFi-P](/en/artists/creators/hifi-p)'s album “Pixels”, released on 2023-05-11, featuring 10 tracks.
 
 ## Track List
 

@@ -103,7 +103,7 @@ seo:
   - **8月12日**：《[食虫植物](/zh/songs/rim/originals/食虫植物-carnivorous-plant)》在 TikTok 上爆发式走红并掀起全网翻唱热潮，短视频播放量迅速突破千万，YouTube MV 播放量跃升至 300 万。
   - **9月5日**：《食虫植物》在 YouTube 上的播放量正式突破 1000 万，成为神椿工作室最早突破千万播放的标志性单曲之一。
   - **10月28日**：发布单曲《{{ruby::甘美な無法::かんびなむほう::kanbi na muhou}}》。
-  - **12月20日**：举办首次个人翻唱 Live 演唱会「CHOCOLATE LIVE」。
+  - **12月20日**：举办首次个人翻唱 Live 演唱会「[CHOCOLATE LIVE](/zh/albums/rim/chocolate-live)」。
 - **2021年**
   - **3月13日**：在[花谱](/zh/artists/vwp/kaf) 2nd LIVE「不可解弐Q2」现场，与花谱、[春猿火](/zh/artists/vwp/harusaruhi)、[ヰ世界情绪](/zh/artists/vwp/isekaijoucho)、[幸祜](/zh/artists/vwp/koko)共同结成 [V.W.P](/zh/artists/vwp/vwp)。
   - **5月15日**：举办首场个人 ONE-MAN LIVE「{{ruby::ニューロマンス::にゅーろまんす::neuromance}}」。
@@ -113,9 +113,9 @@ seo:
 
 - **2022年**
   - **4月16日**：与 V.W.P 成员共同出演首场团体现场演唱会「魔女集会」和「现象」。
-  - **4月27日**：YouTube 频道订阅数突破 20 万。发布 HAL 专门学校广告主题曲《{{ruby::ピルグリム::ぴるぐりむ::pilgrim}}》，并公开第二代视觉形态「The Cosmic Puppets」。
-  - **7月17日**：与 [ヰ世界情緒](/zh/artists/vwp/isekaijoucho) 共同举办双人联决演唱会「Singularity Live」。
-  - **8月17日**：发布单曲《{{ruby::チクタクボーイ::ちくたくぼーい::tick tock boy}}》（TV 动画《5亿年按钮》片尾曲）。
+  - **4月27日**：YouTube 频道订阅数突破 20 万。发布 HAL 专门学校广告主题曲《[{{ruby::ピルグリム::ぴるぐりむ::pilgrim}}](/zh/songs/rim/originals/ピルグリム-pilgrim)》，并公开第二代视觉形态「The Cosmic Puppets」。
+  - **7月17日**：与 [ヰ世界情緒](/zh/artists/vwp/isekaijoucho) 共同举办双人联决演唱会「[Singularity Live](/zh/albums/rim/singularity-live)」。
+  - **8月17日**：发布单曲《[{{ruby::チクタクボーイ::ちくたくぼーい::tick tock boy}}](/zh/songs/rim/originals/チクタクボーイ-tick-tock-boy)》（TV 动画《5亿年按钮》片尾曲）。
   - **9月**：为了提升多语言创作与国际视野，前往美国展开为期约半年的语学留学，期间保持线上音乐作品发布。
   - **10月5日**：发布日剧《少年的深渊》片头主题曲《{{ruby::インナアチャイルド::いんなあちゃいるど::inner child}}》。
 - **2023年**
@@ -144,7 +144,7 @@ seo:
 {{details::点击展开「NEUROMANCE」与演唱会全历程}}
 
 1. **2020年12月20日 翻唱 LIVE「CHOCOLATE LIVE」** (线上 Live)
-2. **2021年5月15日 1st ONE-MAN LIVE「NEUROMANCE」** (线上 Live)
+2. **2021年5月15日 1st ONE-MAN LIVE「[NEUROMANCE](/zh/songs/rim/originals/neuromance)」** (线上 Live)
 3. **2022年7月17日 联决 LIVE「Singularity Live」** (与 ヰ世界情緒)
 4. **2023年12月16日 2nd ONE-MAN LIVE「NEUROMANCE II」** (丰洲 PIT)
 5. **2024年9月14日 联决 LIVE「Singularity Live Vol.3」** (与 花譜)

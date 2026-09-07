@@ -62,17 +62,17 @@ tracks:
 
 ## 简介
 
-VALIS于 2023-04-18 发行的Album《流転ファンタジア(深脊界 ver.)》,共收录 10 首歌曲。
+[VALIS](/zh/artists/solo/valis)于 2023-04-18 发行的Album《流転ファンタジア(深脊界 ver.)》,共收录 10 首歌曲。
 
 ## 收录曲
 
-1. 新世界ピグマリオン（03:35）
-2. 天命系メルト（04:30）
-3. 物換星移カタルシス（03:52）
-4. 境界線マクガフィン（02:56）
-5. 一陽レガシー（03:29）
-6. 偶像ナイトメア（04:00）
-7. 再見ロマネスク（03:04）
-8. 熱愛フローズン（02:42）
+1. [新世界ピグマリオン](/zh/songs/valis/originals/新世界pigumarion)（03:35）
+2. [天命系メルト](/zh/songs/valis/originals/天命系meruto)（04:30）
+3. [物換星移カタルシス](/zh/songs/valis/originals/物換星移katarushisu)（03:52）
+4. [境界線マクガフィン](/zh/songs/valis/originals/境界線makugafyin)（02:56）
+5. [一陽レガシー](/zh/songs/valis/originals/一陽regashii)（03:29）
+6. [偶像ナイトメア](/zh/songs/valis/originals/偶像naitomea)（04:00）
+7. [再見ロマネスク](/zh/songs/valis/originals/再見romanesuku)（03:04）
+8. [熱愛フローズン](/zh/songs/valis/originals/熱愛furoozun)（02:42）
 9. 焦燥アンドロイド（02:57）
 10. 神聖革命バーチャルリアリティ（03:18）

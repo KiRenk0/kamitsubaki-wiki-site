@@ -17,7 +17,7 @@ image: /images/songs/valis/共振haatobiito.jpg
 
 ## 作品概要
 
-VALISが2025-05-20にリリースしたシングル「共振ハートビート」。
+[VALIS](/ja/artists/solo/valis)が2025-05-20にリリースしたシングル「共振ハートビート」。
 
 ## 視聴
 {{media-switcher::共振ハートビート}}

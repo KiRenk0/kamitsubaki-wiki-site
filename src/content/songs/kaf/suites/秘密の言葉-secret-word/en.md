@@ -64,7 +64,9 @@ image: /images/songs/kaf/track-1678454359.jpg
 <div class="jp-lyric">
 [00:22.52]Hey!
 </div>
-<div class="trans-lyric">Hey!</div>
+<div class="trans-lyric">
+[00:22.52]Hey!
+</div>
 </div>
 
 <br />
@@ -133,12 +135,14 @@ image: /images/songs/kaf/track-1678454359.jpg
 <div class="jp-lyric">
 [01:11.66]<ruby>秘密<rt class="furi">ひみつ</rt><rt class="roma">himitsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="trans-lyric">[01:11.66]With secret words</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:13.96]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
+<div class="trans-lyric">[01:13.96]I feel like the world is about to change</div>
 </div>
 
 <div class="lyric-line">
@@ -152,7 +156,7 @@ image: /images/songs/kaf/track-1678454359.jpg
 <div class="jp-lyric">
 [01:22.06]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
-<div class="trans-lyric">It won't stop, can't be stopped</div>
+<div class="trans-lyric">[01:22.06]It won't stop, can't be stopped</div>
 </div>
 
 <br />
@@ -168,7 +172,7 @@ image: /images/songs/kaf/track-1678454359.jpg
 <div class="jp-lyric">
 [01:31.69]<ruby>お似合<rt class="furi">おにあ</rt><rt class="roma">onia</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>はず<rt class="roma">hazu</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
 </div>
-<div class="trans-lyric">Should have suited us, but</div>
+<div class="trans-lyric">[01:31.69]Should have suited us, but</div>
 </div>
 
 <div class="lyric-line">
@@ -242,6 +246,7 @@ image: /images/songs/kaf/track-1678454359.jpg
 <div class="jp-lyric">
 [02:11.67]<ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>塗り替<rt class="furi">ぬりか</rt><rt class="roma">nurika</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:11.67]Repaint this morning</div>
 </div>
 
@@ -251,24 +256,28 @@ image: /images/songs/kaf/track-1678454359.jpg
 <div class="jp-lyric">
 [02:18.22]<ruby>秘密<rt class="furi">ひみつ</rt><rt class="roma">himitsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="trans-lyric">[02:18.22]With secret words</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:20.63]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
+<div class="trans-lyric">[02:20.63]I feel like the world is about to change</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:26.32]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">[02:26.32]I can't tell anyone</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:28.61]<ruby>胸<rt class="furi">むね</rt><rt class="roma">mune</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>高鳴<rt class="furi">たかな</rt><rt class="roma">takana</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby><ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:28.61]This pounding in my chest, I won't let it go</div>
 </div>
 
@@ -278,24 +287,28 @@ image: /images/songs/kaf/track-1678454359.jpg
 <div class="jp-lyric">
 [02:34.50]<ruby>秘密<rt class="furi">ひみつ</rt><rt class="roma">himitsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="trans-lyric">[02:34.50]With secret words</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:36.72]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
+<div class="trans-lyric">[02:36.72]I feel like the world is about to change</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:42.33]<ruby>動き出<rt class="furi">うごきだ</rt><rt class="roma">ugokida</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>ほら<rt class="roma">hora</rt></ruby>
 </div>
+<div class="trans-lyric">[02:42.33]If I start moving, see</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:44.77]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">[02:44.77]It won't stop, can't be stopped</div>
 </div>
 
 </div>

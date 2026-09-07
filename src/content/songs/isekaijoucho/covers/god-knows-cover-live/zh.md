@@ -19,7 +19,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 
 ## 作品简介
 
-《God knows... (Cover Live)》收录于《CANDY LIVE 3 (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《God knows... (Cover Live)》收录于《[CANDY LIVE 3](/zh/albums/isekaijoucho/candy-live-3) (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -315,42 +315,49 @@ I promise whatever happens I am with you
 <div class="jp-lyric">
 I won't ever lose you
 </div>
+<div class="cn-lyric">我永远不会失去你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 All that remains in this world is trapped in pain and darkness
 </div>
+<div class="cn-lyric">这世上残余的一切，被困于痛苦与黑暗</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The light inside your heart will be true
 </div>
+<div class="cn-lyric">你心中的光芒会真实不虚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Beyond the future, we are searching
 </div>
+<div class="cn-lyric">在未来之外，我们探寻着</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Forever, we are praying nothing will ever betray our souls
 </div>
+<div class="cn-lyric">永远，我们祈祷没有什么会背叛我们的灵魂</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Believe in my way
 </div>
+<div class="cn-lyric">相信我的道路</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 We'll fighting in this moment
 </div>
+
 <div class="cn-lyric">我们会在这一刻战斗</div>
 </div>
 
@@ -358,6 +365,7 @@ We'll fighting in this moment
 <div class="jp-lyric">
 Together in God's bless...
 </div>
+<div class="cn-lyric">一同沐浴在神的祝福中...</div>
 </div>
 
 </div>

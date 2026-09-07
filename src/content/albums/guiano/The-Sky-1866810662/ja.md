@@ -82,7 +82,7 @@ tracks:
 
 ## 概要
 
-Guianoが2026-01-28にリリースしたアルバム『The Sky』。全15曲を収録。
+[Guiano](/ja/artists/creators/guiano)が2026-01-28にリリースしたアルバム『The Sky』。全15曲を収録。
 
 ## 収録曲
 

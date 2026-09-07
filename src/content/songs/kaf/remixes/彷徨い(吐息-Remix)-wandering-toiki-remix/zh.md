@@ -188,6 +188,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [02:03.52]「<ruby>もう<rt class="roma">mou</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>守<rt class="furi">まも</rt><rt class="roma">mamo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>けれど<rt class="roma">keredo</rt></ruby>」
 </div>
+<div class="cn-lyric">[02:03.52]「虽然已经没有什么能保护我了」</div>
 </div>
 
 <div class="lyric-line">
@@ -203,6 +204,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [02:12.00]<ruby>どうしても<rt class="roma">doushitemo</rt></ruby><ruby>別<rt class="furi">わか</rt><rt class="roma">waka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby>
 </div>
+<div class="cn-lyric">[02:12.00]无论如何也无法说出告别</div>
 </div>
 
 <div class="lyric-line">
@@ -364,6 +366,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [03:52.64]<ruby>どうしても<rt class="roma">doushitemo</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たかった<rt class="roma">takatta</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:52.64]无论如何都想目睹世界</div>
 </div>
 
@@ -371,6 +374,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [03:58.72]<ruby>どうしても<rt class="roma">doushitemo</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>たかった<rt class="roma">takatta</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:58.72]无论如何都想知晓世界</div>
 </div>
 

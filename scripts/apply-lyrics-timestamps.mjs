@@ -139,7 +139,9 @@ export function applyTimestampsToContent(content, lrcRows, duration = 0) {
     return { content, modified: false, modifiedLines: 0, alignment, anchorsCompatible: false, timelineCompatible: true };
   }
 
-  const lineBlockPattern = /<div class="lyric-line">\r?\n[\s\S]*?<\/div>\r?\n<\/div>/gu;
+  // The tail must tolerate inline (single-line) trans/cn containers, whose
+  // closing tag is not on its own line.
+  const lineBlockPattern = /<div class="lyric-line">[\s\S]*?<\/div>\s*<\/div>/gu;
   let localLineIndex = 0;
   let modifiedLines = 0;
   const updated = content.replace(lineBlockPattern, (block) => {

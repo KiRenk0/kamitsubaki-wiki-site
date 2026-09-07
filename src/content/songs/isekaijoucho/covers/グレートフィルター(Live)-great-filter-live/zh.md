@@ -238,12 +238,14 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [02:53.146]<ruby>無<rt class="furi">む</rt><rt class="roma">mu</rt></ruby><ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby> <ruby>不安定<rt class="furi">ふあんてい</rt><rt class="roma">fuantei</rt></ruby> <ruby>反応<rt class="furi">はんのう</rt><rt class="roma">hannou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>遭<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:53.146]无感情 不安定 渴望遭遇反应</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:58.419]<ruby>最初<rt class="furi">さいしょ</rt><rt class="roma">saisho</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>メーデー<rt class="roma">meedee</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>、<ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>居場所<rt class="furi">いばしょ</rt><rt class="roma">ibasho</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>謳<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[02:58.419]最初的求救信号 讴歌梦中见到的归宿</div>
 </div>
 
 <div class="lyric-line">
@@ -292,6 +294,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [03:33.250]<ruby>最初<rt class="furi">さいしょ</rt><rt class="roma">saisho</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>こそ<rt class="roma">koso</rt></ruby> <ruby>合図<rt class="furi">あいず</rt><rt class="roma">aizu</rt></ruby><ruby>出<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>送り先<rt class="furi">おくりさき</rt><rt class="roma">okurisaki</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:33.250]最初的思念 现在正是 向发出信号的收信方</div>
 </div>
 
@@ -299,6 +302,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [03:38.946]「<ruby>何処<rt class="furi">どこ</rt><rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>居<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>」
 </div>
+
 <div class="cn-lyric">[03:38.946]「无论身在何处都要歌唱」</div>
 </div>
 

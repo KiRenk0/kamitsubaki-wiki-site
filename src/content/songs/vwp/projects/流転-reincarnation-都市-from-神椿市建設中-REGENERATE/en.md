@@ -124,6 +124,7 @@ Lives We struggle on in depths of pride Tangled up in single minds '
 <div class="jp-lyric">
 Cause I don't wanna lose What we had last time,
 </div>
+<div class="trans-lyric">Cause I don't wanna lose What we had last time,</div>
 </div>
 
 <div class="lyric-line">
@@ -137,6 +138,7 @@ Your leaving this life ain't fair You don't get
 <div class="jp-lyric">
 Something for nothing, turn now Gotta try a little harder '
 </div>
+
 <div class="trans-lyric">Something for nothing, turn now Gotta try a little harder '</div>
 </div>
 
@@ -144,18 +146,21 @@ Something for nothing, turn now Gotta try a little harder '
 <div class="jp-lyric">
 Cause I don't wanna lose What we had last time,
 </div>
+<div class="trans-lyric">Cause I don't wanna lose What we had last time,</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Your leaving this life ain't fair You don't get something for
 </div>
+<div class="trans-lyric">Your leaving this life ain't fair You don't get something for</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Nothing, turn now Gotta try a little harder It could be sweet
 </div>
+<div class="trans-lyric">Nothing, turn now Gotta try a little harder It could be sweet</div>
 </div>
 
 </div>

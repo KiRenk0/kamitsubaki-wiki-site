@@ -70,7 +70,9 @@ image: /images/songs/vwp/single-1714414164.jpg
 <div class="jp-lyric">
 [00:46.44]<ruby>上手<rt class="furi">うま</rt><rt class="roma">uma</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>いか<rt class="roma">ika</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
-<div class="trans-lyric">Even if it won't go well,</div>
+<div class="trans-lyric">
+[00:46.44]Even if it won't go well,
+</div>
 </div>
 
 <div class="lyric-line">
@@ -84,7 +86,9 @@ image: /images/songs/vwp/single-1714414164.jpg
 <div class="jp-lyric">
 [00:55.19]<ruby>ある<rt class="roma">aru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby>
 </div>
-<div class="trans-lyric">As it is,</div>
+<div class="trans-lyric">
+[00:55.19]As it is,
+</div>
 </div>
 
 <br />
@@ -107,7 +111,9 @@ image: /images/songs/vwp/single-1714414164.jpg
 <div class="jp-lyric">
 [01:02.49]<ruby>お前<rt class="furi">おまえ</rt><rt class="roma">omae</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>しょぼく<rt class="roma">shoboku</rt></ruby><ruby>なんか<rt class="roma">nanka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
-<div class="trans-lyric">You are not pathetic,</div>
+<div class="trans-lyric">
+[01:02.49]You are not pathetic,
+</div>
 </div>
 
 <div class="lyric-line">
@@ -218,7 +224,9 @@ image: /images/songs/vwp/single-1714414164.jpg
 <div class="jp-lyric">
 [01:43.61]<ruby>意<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>染<rt class="furi">そ</rt><rt class="roma">so</rt></ruby><ruby>めよ<rt class="roma">meyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="trans-lyric">Let's dye it to our will,</div>
+<div class="trans-lyric">
+[01:43.61]Let's dye it to our will,
+</div>
 </div>
 
 <div class="lyric-line">
@@ -313,7 +321,9 @@ image: /images/songs/vwp/single-1714414164.jpg
 <div class="jp-lyric">
 [02:55.75]<ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
-<div class="trans-lyric">Because I can say that,</div>
+<div class="trans-lyric">
+[02:55.75]Because I can say that,
+</div>
 </div>
 
 <br />
@@ -322,30 +332,35 @@ image: /images/songs/vwp/single-1714414164.jpg
 <div class="jp-lyric">
 [02:57.08]<ruby>火<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>付<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>爪弾<rt class="furi">つまび</rt><rt class="roma">tsumabi</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="trans-lyric">[02:57.08]To the sound of the plucked string that ignited a fire,</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:00.39]<ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>捧<rt class="furi">ささ</rt><rt class="roma">sasa</rt></ruby><ruby>げよ<rt class="roma">geyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="trans-lyric">[03:00.39]I'll dedicate everything,</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:03.05]<ruby>お前<rt class="furi">おまえ</rt><rt class="roma">omae</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>しょぼく<rt class="roma">shoboku</rt></ruby><ruby>なんか<rt class="roma">nanka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">[03:03.05]You are not pathetic,</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:05.54]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> <ruby>熱<rt class="furi">あつ</rt><rt class="roma">atsu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>大<rt class="furi">おお</rt><rt class="roma">oo</rt></ruby><ruby>きく<rt class="roma">kiku</rt></ruby><ruby>なれ<rt class="roma">nare</rt></ruby>
 </div>
+<div class="trans-lyric">[03:05.54]That's right, become hot and big,</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:08.34]<ruby>舞<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>火の粉<rt class="furi">ひのこ</rt><rt class="roma">hinoko</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>化<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:08.34]Become dancing sparks,</div>
 </div>
 
@@ -353,6 +368,7 @@ image: /images/songs/vwp/single-1714414164.jpg
 <div class="jp-lyric">
 [03:11.34]<ruby>散<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby><ruby>らす<rt class="roma">rasu</rt></ruby><ruby>火花<rt class="furi">ひばな</rt><rt class="roma">hibana</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>なれ<rt class="roma">nare</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:11.34]Become sparks that scatter,</div>
 </div>
 
@@ -360,6 +376,7 @@ image: /images/songs/vwp/single-1714414164.jpg
 <div class="jp-lyric">
 [03:13.84]<ruby>小<rt class="furi">ちい</rt><rt class="roma">chii</rt></ruby><ruby>さな<rt class="roma">sana</rt></ruby> <ruby>小<rt class="furi">ちい</rt><rt class="roma">chii</rt></ruby><ruby>さな<rt class="roma">sana</rt></ruby> <ruby>小<rt class="furi">ちい</rt><rt class="roma">chii</rt></ruby><ruby>さな<rt class="roma">sana</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:13.84]Small, small, small,</div>
 </div>
 
@@ -367,6 +384,7 @@ image: /images/songs/vwp/single-1714414164.jpg
 <div class="jp-lyric">
 [03:22.48]<ruby>残火<rt class="furi">ざんか</rt><rt class="roma">zanka</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> <ruby>無限<rt class="furi">むげん</rt><rt class="roma">mugen</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:22.48]From embers, infinitely</div>
 </div>
 

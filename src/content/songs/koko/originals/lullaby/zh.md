@@ -49,6 +49,7 @@ image: /images/albums/koko/prayer-2.jpg
 <div class="jp-lyric">
 <ruby>ララバイラーラバイ<rt class="roma">rarabairaarabai</rt></ruby>
 </div>
+<div class="cn-lyric">摇篮曲 摇篮曲</div>
 </div>
 
 <div class="lyric-line">
@@ -69,24 +70,28 @@ image: /images/albums/koko/prayer-2.jpg
 <div class="jp-lyric">
 (Get on it)
 </div>
+<div class="cn-lyric">(Get on it)</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 (Get on it)
 </div>
+<div class="cn-lyric">(Get on it)</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 (Get on it)
 </div>
+<div class="cn-lyric">(Get on it)</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 (yeah!)
 </div>
+
 <div class="cn-lyric">(yeah!)</div>
 </div>
 
@@ -94,18 +99,21 @@ image: /images/albums/koko/prayer-2.jpg
 <div class="jp-lyric">
 (Get on it)
 </div>
+<div class="cn-lyric">(Get on it)</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 (Get on it)
 </div>
+<div class="cn-lyric">(Get on it)</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 (Get on it)
 </div>
+<div class="cn-lyric">(Get on it)</div>
 </div>
 
 <br />
@@ -114,24 +122,28 @@ image: /images/albums/koko/prayer-2.jpg
 <div class="jp-lyric">
 <ruby>ララバイラーラバイ<rt class="roma">rarabairaarabai</rt></ruby>
 </div>
+<div class="cn-lyric">摇篮曲 摇篮曲</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>お<rt class="roma">o</rt></ruby><ruby>休<rt class="furi">やす</rt><rt class="roma">yasu</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>ラーラバイ<rt class="roma">raarabai</rt></ruby>
 </div>
+<div class="cn-lyric">晚安 摇篮曲</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ララバイラーラバイ<rt class="roma">rarabairaarabai</rt></ruby>
 </div>
+<div class="cn-lyric">摇篮曲 摇篮曲</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>グッナイ<rt class="roma">gunai</rt></ruby> <ruby>ラララ<rt class="roma">rarara</rt></ruby> Yeah!
 </div>
+
 <div class="cn-lyric">晚安 啦啦啦 Yeah!</div>
 </div>
 
@@ -141,6 +153,8 @@ image: /images/albums/koko/prayer-2.jpg
 <div class="jp-lyric">
 (yeah!)
 </div>
+
+<div class="cn-lyric">(yeah!)</div>
 </div>
 
 <br />
@@ -149,6 +163,8 @@ image: /images/albums/koko/prayer-2.jpg
 <div class="jp-lyric">
 (yeah!)
 </div>
+
+<div class="cn-lyric">(yeah!)</div>
 </div>
 
 <br />
@@ -157,6 +173,7 @@ image: /images/albums/koko/prayer-2.jpg
 <div class="jp-lyric">
 <ruby>おやすみなさい<rt class="roma">oyasuminasai</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+
 <div class="cn-lyric">道一声晚安</div>
 </div>
 

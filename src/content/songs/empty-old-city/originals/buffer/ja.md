@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/buffer.jpg
 
 ## 作品概要
 
-Empty old Cityが2024-04-02にリリースしたシングル「Buffer」。
+[Empty old City](/ja/artists/solo/empty-old-city)が2024-04-02にリリースしたシングル「Buffer」。
 
 ## 視聴
 {{media-switcher::Buffer}}

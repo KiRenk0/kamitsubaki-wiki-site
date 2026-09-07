@@ -17,7 +17,7 @@ image: /images/songs/guiano/black-gold-feat.-ia.jpg
 
 ## 作品简介
 
-Guiano于 2021-04-29 发行的单曲《Black Gold (feat. IA)》。
+[Guiano](/zh/artists/creators/guiano)于 2021-04-29 发行的单曲《Black Gold (feat. IA)》。
 
 ## 试听
 @[apple-music](https://music.apple.com/jp/album/black-gold-feat-ia/1378687886?i=1378687891&uo=4 "Black Gold (feat. IA)")

@@ -236,36 +236,42 @@ YouTube <ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>�
 <div class="jp-lyric">
 [01:55.32]<ruby>缶<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>ビール<rt class="roma">biiru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>買<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[01:55.32]买罐装啤酒</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:57.44]<ruby>ねぇ<rt class="roma">nee</rt></ruby>、<ruby>缶<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>ビール<rt class="roma">biiru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>買<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[01:57.44]喂，买罐装啤酒</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:59.28]<ruby>おまけ<rt class="roma">omake</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>アイス<rt class="roma">aisu</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>買<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>バニラ<rt class="roma">banira</rt></ruby>
 </div>
+<div class="cn-lyric">[01:59.28]顺便再买个冰淇淋 香草味</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:04.04]<ruby>無料<rt class="furi">むりょう</rt><rt class="roma">muryou</rt></ruby><ruby>交換<rt class="furi">こうかん</rt><rt class="roma">koukan</rt></ruby><ruby>チケット<rt class="roma">chiketto</rt></ruby>
 </div>
+<div class="cn-lyric">[02:04.04]免费兑换券</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:06.28]<ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>入<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>チョコレート<rt class="roma">chokoreeto</rt></ruby>
 </div>
+<div class="cn-lyric">[02:06.28]到手的是巧克力</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:08.35]<ruby>でも<rt class="roma">demo</rt></ruby><ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べる<rt class="roma">beru</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:08.35]但是没打算吃</div>
 </div>
 
@@ -273,6 +279,7 @@ YouTube <ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>�
 <div class="jp-lyric">
 [02:10.84]<ruby>ポケット<rt class="roma">poketto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>入<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[02:10.84]放进了口袋</div>
 </div>
 
 <br />
@@ -281,12 +288,14 @@ YouTube <ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>�
 <div class="jp-lyric">
 [02:17.59]<ruby>缶<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>ビール<rt class="roma">biiru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>買<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>缶<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>ビール<rt class="roma">biiru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>買<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[02:17.59]买罐装啤酒 买罐装啤酒</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:26.59]<ruby>缶<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>ビール<rt class="roma">biiru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>買<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[02:26.59]买罐装啤酒</div>
 </div>
 
 </div>

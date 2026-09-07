@@ -64,7 +64,7 @@ Guiano の作風はメロディの親しみやすさと歌詞の感情温度を�
 
 - 2014年：13歳の時にボカロPとしてデビュー。
 - 2019年10月18日：KAMITSUBAKI STUDIO の発足と同時に初期メンバーとして所属。
-- 2023年2月20日：シングル「[私は、私達は](/ja/songs/guiano/originals/私ha,私達ha)」リリース。
+- 2023年2月20日：シングル「[私は、私達は](/ja/songs/guiano/originals/私ha私達ha)」リリース。
 - 2023年5月24日：EP「[花鳥風月](/ja/albums/guiano/花鳥風月-1688662053)」リリース。
 - 2023年9月20日：理芽（Rim）とコラボレーションアルバム『imagine』をリリース。
 - 2023 年 KAMITSUBAKI FES'23 に参加（DAY2 メインアクト）。
@@ -74,7 +74,7 @@ Guiano の作風はメロディの親しみやすさと歌詞の感情温度を�
 
 ## 代表作品と関連項目
 
-- シングル：「[花](/ja/songs/guiano/originals/花)」「[私は、私達は](/ja/songs/guiano/originals/私ha,私達ha)」「[Good Style](/ja/songs/guiano/originals/good-style)」
+- シングル：「[花](/ja/songs/guiano/originals/花)」「[私は、私達は](/ja/songs/guiano/originals/私ha私達ha)」「[Good Style](/ja/songs/guiano/originals/good-style)」
 - EP：「花鳥風月」
 - コラボアルバム：『imagine』（Rim と）
 - 楽曲提供：Myuk「愛の唄」「Arcana」

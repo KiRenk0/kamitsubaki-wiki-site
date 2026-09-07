@@ -17,7 +17,7 @@ image: /images/songs/valis/pikapikakyandeirabuizumu-vitte.jpg
 
 ## 作品概要
 
-VALISが2023-06-24にリリースしたシングル「ピカピカキャンディラブイズム(VITTE)」。
+[VALIS](/ja/artists/solo/valis)が2023-06-24にリリースしたシングル「ピカピカキャンディラブイズム(VITTE)」。
 
 ## 視聴
 {{media-switcher::ピカピカキャンディラブイズム(VITTE)}}

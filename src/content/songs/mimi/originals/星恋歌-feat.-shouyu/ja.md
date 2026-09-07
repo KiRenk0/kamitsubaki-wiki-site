@@ -17,7 +17,7 @@ image: /images/songs/mimi/星恋歌-feat.-shouyu.jpg
 
 ## 作品概要
 
-MIMIが2024-11-26にリリースしたシングル「星恋歌 (feat. しょうゆ)」。
+[MIMI](/ja/artists/creators/mimi)が2024-11-26にリリースしたシングル「星恋歌 (feat. しょうゆ)」。
 
 ## 視聴
 {{media-switcher::星恋歌 (feat. しょうゆ)}}

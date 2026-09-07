@@ -159,6 +159,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どんな<rt class="roma">donna</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どんな<rt class="roma">donna</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">爱的日子是怎样的？爱的意义是怎样的？</div>
 </div>
 
 <div class="lyric-line">
@@ -181,6 +182,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 <ruby>すべる<rt class="roma">suberu</rt></ruby><ruby>すべる<rt class="roma">suberu</rt></ruby> <ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby><ruby>とりどり<rt class="roma">toridori</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>バッチリ<rt class="roma">batchiri</rt></ruby>
 </div>
+
 <div class="cn-lyric">滑行滑行，五彩缤纷恰到好处</div>
 </div>
 

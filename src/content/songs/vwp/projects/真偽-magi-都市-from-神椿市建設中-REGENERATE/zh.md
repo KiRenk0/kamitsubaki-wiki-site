@@ -299,6 +299,7 @@ won't accept the fate that is set
 <div class="jp-lyric">
 There's no turning back this time
 </div>
+<div class="cn-lyric">这次再无退路</div>
 </div>
 
 <div class="lyric-line">
@@ -403,18 +404,21 @@ bringing honor and blessings back
 <div class="jp-lyric">
 won't accept the fate that is set
 </div>
+<div class="cn-lyric">不接受被注定的命运</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 There's no turning back this time
 </div>
+<div class="cn-lyric">这次再无退路</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Will it be true, Will it be true
 </div>
+
 <div class="cn-lyric">会成为现实吗，会成为现实吗</div>
 </div>
 
@@ -422,6 +426,7 @@ Will it be true, Will it be true
 <div class="jp-lyric">
 be a closure for this myth book
 </div>
+
 <div class="cn-lyric">成为这本神话书的结局</div>
 </div>
 
@@ -429,12 +434,14 @@ be a closure for this myth book
 <div class="jp-lyric">
 one day we shall cheer and dance
 </div>
+<div class="cn-lyric">终有一天我们将欢呼起舞</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 making joy forever last”
 </div>
+<div class="cn-lyric">让快乐永存”</div>
 </div>
 
 </div>

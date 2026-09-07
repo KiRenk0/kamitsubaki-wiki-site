@@ -266,18 +266,21 @@ image: /images/albums/kaf/kansoku.jpg
 <div class="jp-lyric">
 [03:03.64]<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>街<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[03:03.64]我曾在那样的街道</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:08.51]<ruby>この<rt class="roma">kono</rt></ruby><ruby>街<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[03:08.51]在这条街道上活着</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:14.20]<ruby>この<rt class="roma">kono</rt></ruby><ruby>街<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:14.20]我曾在这条街道</div>
 </div>
 

@@ -163,12 +163,14 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [01:22.29]Good night
 </div>
+<div class="cn-lyric">[01:22.29]晚安</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:27.26]Good night, good night, good night, good night
 </div>
+<div class="cn-lyric">[01:27.26]晚安 晚安 晚安 晚安</div>
 </div>
 
 <br />
@@ -235,30 +237,35 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [01:52.21]Good night
 </div>
+<div class="cn-lyric">[01:52.21]晚安</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:57.26]Good night, good night, good night, good night
 </div>
+<div class="cn-lyric">[01:57.26]晚安 晚安 晚安 晚安</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:02.18]Good night
 </div>
+<div class="cn-lyric">[02:02.18]晚安</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:07.26]Good night, good night, good night, good night
 </div>
+<div class="cn-lyric">[02:07.26]晚安 晚安 晚安 晚安</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:12.25]Good night
 </div>
+<div class="cn-lyric">[02:12.25]晚安</div>
 </div>
 
 <br />
@@ -332,6 +339,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [03:15.46]<ruby>友情<rt class="furi">ゆうじょう</rt><rt class="roma">yuujou</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby> <ruby>愛情<rt class="furi">あいじょう</rt><rt class="roma">aijou</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby> <ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>事情<rt class="furi">じじょう</rt><rt class="roma">jijou</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:15.46]友情啊 爱情啊 每天的事情</div>
 </div>
 
@@ -339,6 +347,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [03:17.85]<ruby>優柔不断<rt class="furi">ゆうじゅうふだん</rt><rt class="roma">yuujuufudan</rt></ruby> <ruby>迫<rt class="furi">せま</rt><rt class="roma">sema</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>決断<rt class="furi">けつだん</rt><rt class="roma">ketsudan</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:17.85]优柔寡断 被迫做出的决定</div>
 </div>
 
@@ -346,6 +355,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [03:20.46]<ruby>勇敢<rt class="furi">ゆうかん</rt><rt class="roma">yuukan</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>勇者<rt class="furi">ゆうしゃ</rt><rt class="roma">yuusha</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>恋人<rt class="furi">こいびと</rt><rt class="roma">koibito</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>勝<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:20.46]勇敢的勇者 也赢不了恋人</div>
 </div>
 
@@ -353,6 +363,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [03:22.82]<ruby>テロ<rt class="roma">tero</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>起<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>こった<rt class="roma">kotta</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby> <ruby>飲<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>過<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>ぎ<rt class="roma">gi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ゲロ<rt class="roma">gero</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:22.82]发生恐怖袭击的那天 喝太多吐了</div>
 </div>
 
@@ -360,6 +371,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [03:25.35]<ruby>新聞<rt class="furi">しんぶん</rt><rt class="roma">shinbun</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>包<rt class="furi">つつ</rt><rt class="roma">tsutsu</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby> <ruby>眠<rt class="furi">ねむ</rt><rt class="roma">nemu</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>子猫<rt class="furi">こねこ</rt><rt class="roma">koneko</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:25.35]裹在报纸里 睡着的小猫</div>
 </div>
 
@@ -367,6 +379,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [03:27.83]<ruby>眠<rt class="furi">ねむ</rt><rt class="roma">nemu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby> <ruby>なに<rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>わから<rt class="roma">wakara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:27.83]只要睡着 就什么都不知道</div>
 </div>
 
@@ -374,6 +387,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [03:30.32]<ruby>なに<rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:30.32]什么都 感觉不到</div>
 </div>
 
@@ -383,42 +397,49 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [03:32.24]Good night
 </div>
+<div class="cn-lyric">[03:32.24]晚安</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:37.10]Good night, good night, good night, good night
 </div>
+<div class="cn-lyric">[03:37.10]晚安 晚安 晚安 晚安</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:42.10]Good night
 </div>
+<div class="cn-lyric">[03:42.10]晚安</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:47.21]Good night, good night, good night, good night
 </div>
+<div class="cn-lyric">[03:47.21]晚安 晚安 晚安 晚安</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:52.12]Good night
 </div>
+<div class="cn-lyric">[03:52.12]晚安</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:57.13]Good night, good night, good night, good night
 </div>
+<div class="cn-lyric">[03:57.13]晚安 晚安 晚安 晚安</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:02.29]Good night
 </div>
+<div class="cn-lyric">[04:02.29]晚安</div>
 </div>
 
 </div>

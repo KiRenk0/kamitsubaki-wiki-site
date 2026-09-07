@@ -17,7 +17,7 @@ image: /images/songs/dustcell/toubou.jpg
 
 ## 作品简介
 
-DUSTCELL于 2021-07-27 发行的单曲《TOUBOU》。
+[DUSTCELL](/zh/artists/solo/dustcell)于 2021-07-27 发行的单曲《TOUBOU》。
 
 ## 试听
 {{media-switcher::TOUBOU}}

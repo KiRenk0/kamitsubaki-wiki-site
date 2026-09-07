@@ -124,6 +124,7 @@ Lives We struggle on in depths of pride Tangled up in single minds '
 <div class="jp-lyric">
 Cause I don't wanna lose What we had last time,
 </div>
+<div class="cn-lyric">因为我不想失去 我们上次拥有的一切</div>
 </div>
 
 <div class="lyric-line">
@@ -137,6 +138,7 @@ Your leaving this life ain't fair You don't get
 <div class="jp-lyric">
 Something for nothing, turn now Gotta try a little harder '
 </div>
+
 <div class="cn-lyric">不劳而获，现在转身 必须再努力一点'</div>
 </div>
 
@@ -144,18 +146,21 @@ Something for nothing, turn now Gotta try a little harder '
 <div class="jp-lyric">
 Cause I don't wanna lose What we had last time,
 </div>
+<div class="cn-lyric">因为我不想失去 我们上次拥有的一切</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Your leaving this life ain't fair You don't get something for
 </div>
+<div class="cn-lyric">你离开这种生活并不公平 你无法不劳而获</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Nothing, turn now Gotta try a little harder It could be sweet
 </div>
+<div class="cn-lyric">一无所有，现在转身 必须再努力一点 它可能甜蜜</div>
 </div>
 
 </div>

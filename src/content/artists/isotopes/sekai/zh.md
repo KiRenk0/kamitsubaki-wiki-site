@@ -52,7 +52,7 @@ seo:
 
 ## 概述
 
-{{ruby::星界::せかい::sekai}} 是 KAMITSUBAKI STUDIO 推出的音乐同位体合成歌声库，声源原型为虚拟歌手 **[ヰ世界情緒 / ISEKAIJOUCHO](/zh/artists/vwp/isekaijoucho)**。
+{{ruby::星界::せかい::sekai}} 是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 推出的音乐同位体合成歌声库，声源原型为虚拟歌手 **[ヰ世界情緒 / ISEKAIJOUCHO](/zh/artists/vwp/isekaijoucho)**。
 
 软件于 2022年4月29日基于 CeVIO AI 引擎发售。角色视觉由 れおえん 设计，声线以清澈、柔和与叙事感为重要特征。
 
@@ -85,7 +85,7 @@ seo:
 | 日期 | 曲名 | 创作者 |
 | --- | --- | --- |
 | 2022年4月15日 | 《ステラの座》 | 雄之助 |
-| 2022年4月23日 | 《グレートフィルター》 | 伊根 |
+| 2022年4月23日 | 《[グレートフィルター](/zh/songs/harusaruhi/covers/グレートフィルター-great-filter)》 | 伊根 |
 | 2022年4月27日 | 《わたしいまめまいしたわ》 | ユリイ・カノン |
 | 2022年4月29日 | 《異星にいこうね》 | いよわ |
 | 2022年5月4日 | 《遠心力》 | ナナホシ管弦楽団 |

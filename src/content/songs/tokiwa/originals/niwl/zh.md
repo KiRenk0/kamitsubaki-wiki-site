@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/niwl.jpg
 
 ## 作品简介
 
-tokiwa于 2023-05-11 发行的单曲《niwl》。
+[tokiwa](/zh/artists/creators/tokiwa)于 2023-05-11 发行的单曲《niwl》。
 
 ## 试听
 {{media-switcher::niwl}}

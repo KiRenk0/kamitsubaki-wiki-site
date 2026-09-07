@@ -38,7 +38,7 @@ tracks:
 
 ## Overview
 
-tokiwa's ep “勿忘”, released on 2020-12-04, featuring 4 tracks.
+[tokiwa](/en/artists/creators/tokiwa)'s ep “勿忘”, released on 2020-12-04, featuring 4 tracks.
 
 ## Track List
 

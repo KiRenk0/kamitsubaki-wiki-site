@@ -9,17 +9,21 @@ itemOrder: 2.1
 statusLabel: "STATUS"
 status: "INACTIVE"
 inactive: true
+affiliations:
+  - "ALLT STUDIO"
 image: "/images/artists/aru.png"
 name: "存流 / ARU"
 categoryTitle: "Solo / 组合"
 categorySubtitle: "SOLO ARTISTS & UNITS"
 ---
 
+
 ## 概述
 
 存流（ARU / ある）是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio)、SINSEKAI STUDIO 体系中的虚拟歌手，曾与[明透](/zh/artists/solo/asu)（ASU）组成双人组合 [Albemuth](/zh/artists/solo/albemuth)。她于 2021年6月20日开始活动，并于 2024年4月9日毕业。
 
 存流的声音以低语感、气声和克制的情绪推进为主要特征。她的白色系视觉形象由米山舞设计，服装带有哥特优雅和异世界感；与明透明亮、跃动的歌唱形成对照，是 Albemuth 双轨构成的重要一半。
+
 
 ## 基本资料与人物设定
 
@@ -34,9 +38,11 @@ categorySubtitle: "SOLO ARTISTS & UNITS"
 
 “耳语系之鬼”等称呼属于观众对其声音表现的概括，不是官方身份分类。记录存流时，应把公开作品、正式演出和官方公告与粉丝印象区分开。
 
+
 ## 代表作品
 
 存流的代表作品包括《さよなら》《まほう》《残響》《かいぶつ》《ギフテッド》。她在 [Albemuth](/zh/artists/solo/albemuth) 组合时期还参与了《[Guilty](/zh/songs/albemuth/originals/guilty)》《[新世界へ](/zh/songs/asu/originals/新世界he)》《tether》《Black Cloth》等作品，并以成员侧专辑《eve》记录了组合创作中的个人视角。
+
 
 ## 活动历程
 
@@ -45,9 +51,12 @@ categorySubtitle: "SOLO ARTISTS & UNITS"
 - **2023年7月5日**：发行 Albemuth 成员侧专辑《eve》；同日发行明透侧《ADAM》。
 - **2024年4月9日**：正式毕业，Albemuth 的双人活动阶段结束。
 
+- 2026年9月：收录于 [ALLT STUDIO](/zh/projects/labels/allt-studio) 官方网站公开的艺人名单（原深脊界体系）。
+
 ## 组合关系与记录边界
 
 存流与 Albemuth 的关系不是简单的个人艺人和临时合作对象关系。Albemuth 拥有独立的组合名称、视觉概念、现场项目和成员侧专辑；因此《eve》等作品应同时标记组合项目与存流侧创作语境。毕业后的个人活动记录也不应与组合时期混写。
+
 
 ## 相关企划 / 关联设定
 

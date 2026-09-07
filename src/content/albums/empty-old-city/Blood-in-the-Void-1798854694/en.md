@@ -62,17 +62,17 @@ tracks:
 
 ## Overview
 
-Empty old City's album “Blood in the Void”, released on 2025-03-12, featuring 10 tracks.
+[Empty old City](/en/artists/solo/empty-old-city)'s album “Blood in the Void”, released on 2025-03-12, featuring 10 tracks.
 
 ## Track List
 
 1. BitV (00:57)
 2. アニマリズムと25人の子どもたち (03:02)
-3. Buffer (03:18)
+3. [Buffer](/en/songs/empty-old-city/originals/buffer) (03:18)
 4. Moonian (03:50)
-5. ゴースト警告を唄う (03:50)
+5. [ゴースト警告を唄う](/en/songs/empty-old-city/originals/goosuto警告wo唄u) (03:50)
 6. Lazy and Loose (03:25)
-7. Death Designer (03:02)
+7. [Death Designer](/en/songs/empty-old-city/originals/death-designer) (03:02)
 8. ノスタグラム (04:22)
-9. Astronomy (03:24)
+9. [Astronomy](/en/songs/empty-old-city/originals/astronomy) (03:24)
 10. Cipher (03:20)

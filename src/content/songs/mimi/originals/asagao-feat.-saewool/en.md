@@ -98,6 +98,7 @@ image: /images/songs/mimi/asagao-feat.-saewool.jpg
 <div class="jp-lyric">
 [00:44.986]<ruby>教<rt class="furi">おし</rt><rt class="roma">oshi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="trans-lyric">[00:44.986]That's what you taught me.</div>
 </div>
 
 <div class="lyric-line">

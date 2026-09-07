@@ -17,7 +17,7 @@ image: /images/songs/guiano/good-style.jpg
 
 ## 作品简介
 
-Guiano于 2024-03-26 发行的单曲《Good Style》。
+[Guiano](/zh/artists/creators/guiano)于 2024-03-26 发行的单曲《Good Style》。
 
 ## 试听
 {{media-switcher::Good Style}}

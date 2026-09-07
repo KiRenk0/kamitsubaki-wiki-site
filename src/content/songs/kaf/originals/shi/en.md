@@ -107,14 +107,18 @@ The very first original song of [KAF](/en/artists/vwp/kaf).
 <div class="jp-lyric">
 [01:14.49]<ruby>どうして<rt class="roma">doushite</rt></ruby> <ruby>どうして<rt class="roma">doushite</rt></ruby> <ruby>でき<rt class="roma">deki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="trans-lyric">Why, why can't I do it?</div>
+<div class="trans-lyric">
+[01:14.49]Why, why can't I do it?
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:19.49]<ruby>どうして<rt class="roma">doushite</rt></ruby><ruby>どうして<rt class="roma">doushite</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="trans-lyric">Why, why is it so?</div>
+<div class="trans-lyric">
+[01:19.49]Why, why is it so?
+</div>
 </div>
 
 <br />
@@ -151,7 +155,9 @@ The very first original song of [KAF](/en/artists/vwp/kaf).
 <div class="jp-lyric">
 [01:53.98]<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>でき<rt class="roma">deki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
-<div class="trans-lyric">Because I can't do such a thing</div>
+<div class="trans-lyric">
+[01:53.98]Because I can't do such a thing
+</div>
 </div>
 
 <div class="lyric-line">
@@ -211,14 +217,18 @@ The very first original song of [KAF](/en/artists/vwp/kaf).
 <div class="jp-lyric">
 [02:47.23]<ruby>振<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>りほどい<rt class="roma">rihodoi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまえ<rt class="roma">shimae</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
 </div>
-<div class="trans-lyric">If I shook them off, they would disappear, but</div>
+<div class="trans-lyric">
+[02:47.23]If I shook them off, they would disappear, but
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:52.22]<ruby>どうして<rt class="roma">doushite</rt></ruby> <ruby>どうして<rt class="roma">doushite</rt></ruby><ruby>でき<rt class="roma">deki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="trans-lyric">Why, why can't I do it?</div>
+<div class="trans-lyric">
+[02:52.22]Why, why can't I do it?
+</div>
 </div>
 
 <br />
@@ -227,12 +237,14 @@ The very first original song of [KAF](/en/artists/vwp/kaf).
 <div class="jp-lyric">
 [02:57.23]<ruby>絡<rt class="furi">から</rt><rt class="roma">kara</rt></ruby><ruby>まる<rt class="roma">maru</rt></ruby><ruby>意図<rt class="furi">いと</rt><rt class="roma">ito</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>濡<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>解<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[02:57.23]The entangled intentions get wet and won't come undone</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:02.13]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>逃<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">[03:02.13]I can't escape anywhere</div>
 </div>
 
 <div class="lyric-line">
@@ -246,6 +258,7 @@ The very first original song of [KAF](/en/artists/vwp/kaf).
 <div class="jp-lyric">
 [03:12.03]<ruby>どうか<rt class="roma">douka</rt></ruby> <ruby>どうか<rt class="roma">douka</rt></ruby> <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:12.03]Please, please, me</div>
 </div>
 
@@ -253,6 +266,7 @@ The very first original song of [KAF](/en/artists/vwp/kaf).
 <div class="jp-lyric">
 [03:16.90]<ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>解<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:16.90]Notice me, laugh, untie</div>
 </div>
 

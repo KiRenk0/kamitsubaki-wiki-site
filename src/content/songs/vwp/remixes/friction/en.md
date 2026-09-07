@@ -121,6 +121,7 @@ When you've made it (when you've made it), won't you tell me what to do?
 <div class="jp-lyric">
 'Cause I'm playin' it all wrong
 </div>
+<div class="trans-lyric">'Cause I'm playin' it all wrong</div>
 </div>
 
 <br />
@@ -150,6 +151,7 @@ Don't tell me to be strong, ease it off
 <div class="jp-lyric">
 You can't fight the friction, so, ease it off
 </div>
+<div class="trans-lyric">You can't fight the friction, so, ease it off</div>
 </div>
 
 <br />
@@ -188,24 +190,28 @@ It's taking over you
 <div class="jp-lyric">
 And your heart is beating
 </div>
+<div class="trans-lyric">And your heart is beating</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 'Cause you know that you gotta
 </div>
+<div class="trans-lyric">'Cause you know that you gotta</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Get out of the middle
 </div>
+<div class="trans-lyric">Get out of the middle</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And rise to the top now
 </div>
+<div class="trans-lyric">And rise to the top now</div>
 </div>
 
 <br />
@@ -214,24 +220,28 @@ And rise to the top now
 <div class="jp-lyric">
 When you've made it, won't you tell me what to do?
 </div>
+<div class="trans-lyric">When you've made it, won't you tell me what to do?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 'Cause I'm playin' it all wrong
 </div>
+<div class="trans-lyric">'Cause I'm playin' it all wrong</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 When you've made it (when you've made it), won't you tell me what to do?
 </div>
+<div class="trans-lyric">When you've made it (when you've made it), won't you tell me what to do?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 'Cause I'm playin' it all wrong
 </div>
+<div class="trans-lyric">'Cause I'm playin' it all wrong</div>
 </div>
 
 <br />
@@ -240,24 +250,28 @@ When you've made it (when you've made it), won't you tell me what to do?
 <div class="jp-lyric">
 You can't fight the friction, so, ease it off
 </div>
+<div class="trans-lyric">You can't fight the friction, so, ease it off</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You can't take the pressure, so, ease it off
 </div>
+<div class="trans-lyric">You can't take the pressure, so, ease it off</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Don't tell me to be strong, ease it off
 </div>
+<div class="trans-lyric">Don't tell me to be strong, ease it off</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You can't fight the friction, so, ease it off
 </div>
+<div class="trans-lyric">You can't fight the friction, so, ease it off</div>
 </div>
 
 <br />
@@ -266,6 +280,7 @@ You can't fight the friction, so, ease it off
 <div class="jp-lyric">
 Oh, why can't you let it go?
 </div>
+
 <div class="trans-lyric">Oh, why can't you let it go?</div>
 </div>
 
@@ -273,6 +288,7 @@ Oh, why can't you let it go?
 <div class="jp-lyric">
 Like a bird in the snow
 </div>
+
 <div class="trans-lyric">Like a bird in the snow</div>
 </div>
 
@@ -280,6 +296,7 @@ Like a bird in the snow
 <div class="jp-lyric">
 This is no place to build your home
 </div>
+
 <div class="trans-lyric">This is no place to build your home</div>
 </div>
 
@@ -289,24 +306,28 @@ This is no place to build your home
 <div class="jp-lyric">
 You can't fight the friction, so, ease it off
 </div>
+<div class="trans-lyric">You can't fight the friction, so, ease it off</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You can't take the pressure, so, ease it off
 </div>
+<div class="trans-lyric">You can't take the pressure, so, ease it off</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Don't tell me to be strong, ease it off
 </div>
+<div class="trans-lyric">Don't tell me to be strong, ease it off</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You can't fight the friction, so
 </div>
+
 <div class="trans-lyric">You can't fight the friction, so</div>
 </div>
 
@@ -316,6 +337,7 @@ You can't fight the friction, so
 <div class="jp-lyric">
 Yeah
 </div>
+
 <div class="trans-lyric">Yeah</div>
 </div>
 
@@ -323,18 +345,24 @@ Yeah
 <div class="jp-lyric">
 Yeah
 </div>
+
+<div class="trans-lyric">Yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Yeah
 </div>
+
+<div class="trans-lyric">Yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Yeah
 </div>
+
+<div class="trans-lyric">Yeah</div>
 </div>
 
 </div>

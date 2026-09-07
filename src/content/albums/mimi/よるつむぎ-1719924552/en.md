@@ -78,21 +78,21 @@ tracks:
 
 ## Overview
 
-MIMI's album “よるつむぎ”, released on 2023-12-20, featuring 14 tracks.
+[MIMI](/en/artists/creators/mimi)'s album “よるつむぎ”, released on 2023-12-20, featuring 14 tracks.
 
 ## Track List
 
 1. よるつむぎ (03:13)
 2. 淡さと微睡む (02:39)
-3. ハナタバ (02:29)
-4. マシュマリー (03:34)
+3. [ハナタバ](/en/songs/mimi/originals/hanataba) (02:29)
+4. [マシュマリー](/en/songs/mimi/originals/mashumarii) (03:34)
 5. れじぇろ (02:19)
 6. くうになる (02:33)
 7. 星涙哀歌 (02:58)
 8. アンダー (02:28)
-9. ルルージュ (03:09)
-10. Pale (02:33)
+9. [ルルージュ](/en/songs/mimi/originals/ruruuju) (03:09)
+10. [Pale](/en/songs/mimi/originals/pale) (02:33)
 11. 水流音楽 (02:22)
 12. いいじゃない (02:22)
-13. ゆめまぼろし (03:27)
+13. [ゆめまぼろし](/en/songs/mimi/originals/yumemaboroshi) (03:27)
 14. 遠く夢の奥 (02:58)

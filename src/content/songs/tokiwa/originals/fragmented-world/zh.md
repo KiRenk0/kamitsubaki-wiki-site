@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/fragmented-world.jpg
 
 ## 作品简介
 
-tokiwa于 2023-10-30 发行的单曲《Fragmented World》。
+[tokiwa](/zh/artists/creators/tokiwa)于 2023-10-30 发行的单曲《Fragmented World》。
 
 ## 试听
 {{media-switcher::Fragmented World}}

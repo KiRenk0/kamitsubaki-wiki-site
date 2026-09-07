@@ -17,7 +17,7 @@ image: /images/songs/valis/無窮puratonikku.jpg
 
 ## 作品简介
 
-VALIS于 2023-04-08 发行的单曲《無窮プラトニック》。
+[VALIS](/zh/artists/solo/valis)于 2023-04-08 发行的单曲《無窮プラトニック》。
 
 ## 试听
 {{media-switcher::無窮プラトニック}}

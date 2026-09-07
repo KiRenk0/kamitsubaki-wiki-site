@@ -19,7 +19,7 @@ image: /images/albums/kaf/kansoku.jpg
 
 ## Overview
 
-KAF's fourth original song, written, composed, and arranged by Iori Kanzaki.
+[KAF](/en/artists/vwp/kaf)'s fourth original song, written, composed, and arranged by Iori Kanzaki.
 
 ## Listen
 
@@ -102,7 +102,9 @@ KAF's fourth original song, written, composed, and arranged by Iori Kanzaki.
 <div class="jp-lyric">
 [00:46.13]notice notice
 </div>
-<div class="trans-lyric">notice notice</div>
+<div class="trans-lyric">
+[00:46.13]notice notice
+</div>
 </div>
 
 <div class="lyric-line">
@@ -116,14 +118,18 @@ KAF's fourth original song, written, composed, and arranged by Iori Kanzaki.
 <div class="jp-lyric">
 [00:51.41]<ruby>散<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>タバコ<rt class="roma">tabako</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>明<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>かり<rt class="roma">kari</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>サイン<rt class="roma">sain</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
-<div class="trans-lyric">The light of the scattering cigarette was the sign</div>
+<div class="trans-lyric">
+[00:51.41]The light of the scattering cigarette was the sign
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:56.74]forget forget
 </div>
-<div class="trans-lyric">forget forget</div>
+<div class="trans-lyric">
+[00:56.74]forget forget
+</div>
 </div>
 
 <div class="lyric-line">
@@ -144,7 +150,9 @@ KAF's fourth original song, written, composed, and arranged by Iori Kanzaki.
 <div class="jp-lyric">
 [01:05.96]<ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づけ<rt class="roma">zuke</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
-<div class="trans-lyric">Because I cannot notice</div>
+<div class="trans-lyric">
+[01:05.96]Because I cannot notice
+</div>
 </div>
 
 <br />
@@ -208,7 +216,9 @@ KAF's fourth original song, written, composed, and arranged by Iori Kanzaki.
 <div class="jp-lyric">
 [01:50.07]I believe I believe
 </div>
-<div class="trans-lyric">I believe I believe</div>
+<div class="trans-lyric">
+[01:50.07]I believe I believe
+</div>
 </div>
 
 <div class="lyric-line">
@@ -229,6 +239,7 @@ KAF's fourth original song, written, composed, and arranged by Iori Kanzaki.
 <div class="jp-lyric">
 [02:00.74]forget forget
 </div>
+<div class="trans-lyric">[02:00.74]forget forget</div>
 </div>
 
 <div class="lyric-line">
@@ -272,7 +283,7 @@ KAF's fourth original song, written, composed, and arranged by Iori Kanzaki.
 <div class="jp-lyric">
 [02:35.40]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>わから<rt class="roma">wakara</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
-<div class="trans-lyric">So that only you do not understand</div>
+<div class="trans-lyric">[02:35.40]So that only you do not understand</div>
 </div>
 
 <div class="lyric-line">
@@ -288,12 +299,14 @@ KAF's fourth original song, written, composed, and arranged by Iori Kanzaki.
 <div class="jp-lyric">
 [02:46.21]notice notice
 </div>
+<div class="trans-lyric">[02:46.21]notice notice</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:48.48]<ruby>愛<rt class="furi">いと</rt><rt class="roma">ito</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>？<ruby>別<rt class="furi">わか</rt><rt class="roma">waka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="trans-lyric">[02:48.48]Is parting dear?</div>
 </div>
 
 <div class="lyric-line">
@@ -307,6 +320,7 @@ KAF's fourth original song, written, composed, and arranged by Iori Kanzaki.
 <div class="jp-lyric">
 [02:56.84]forget forget
 </div>
+<div class="trans-lyric">[02:56.84]forget forget</div>
 </div>
 
 <div class="lyric-line">
@@ -350,6 +364,7 @@ KAF's fourth original song, written, composed, and arranged by Iori Kanzaki.
 <div class="jp-lyric">
 [03:17.65]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:17.65]The summer days when I laugh with you</div>
 </div>
 
@@ -357,6 +372,7 @@ KAF's fourth original song, written, composed, and arranged by Iori Kanzaki.
 <div class="jp-lyric">
 [03:20.36]<ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>十<rt class="furi">じゅう</rt><rt class="roma">juu</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>思い出<rt class="furi">おもいだ</rt><rt class="roma">omoida</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:20.36]Even decades later, I'll remember</div>
 </div>
 
@@ -366,6 +382,7 @@ KAF's fourth original song, written, composed, and arranged by Iori Kanzaki.
 <div class="jp-lyric">
 [03:25.79]<ruby>真実<rt class="furi">しんじつ</rt><rt class="roma">shinjitsu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>まやかし<rt class="roma">mayakashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:25.79]Deceiving the truth</div>
 </div>
 
@@ -373,7 +390,8 @@ KAF's fourth original song, written, composed, and arranged by Iori Kanzaki.
 <div class="jp-lyric">
 [03:32.53]<ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
-<div class="trans-lyric">Because I will notice</div>
+
+<div class="trans-lyric">[03:32.53]Because I will notice</div>
 </div>
 
 </div>

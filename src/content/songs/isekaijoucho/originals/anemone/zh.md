@@ -192,6 +192,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [02:09.02]<ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:09.02]对于我 啊</div>
 </div>
 
 <div class="lyric-line">
@@ -214,24 +215,28 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [02:25.98]<ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[02:25.98]绽放了 花已绽放</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:28.86]<ruby>未<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby><ruby>開<rt class="furi">ひら</rt><rt class="roma">hira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[02:28.86]仍暧昧的 颜色盛开</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:33.39]<ruby>弾<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby> <ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+<div class="cn-lyric">[02:33.39]若迸裂 想要歌唱啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:36.24]<ruby>未<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>尊<rt class="furi">とうと</rt><rt class="roma">touto</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>蜜月<rt class="furi">みつげつ</rt><rt class="roma">mitsugetsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:36.24]仍珍贵啊 在蜜月</div>
 </div>
 
 <br />
@@ -240,6 +245,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [02:40.67]<ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby> <ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:40.67]绽放吧 生命呼喊</div>
 </div>
 
@@ -247,6 +253,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [02:43.66]<ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>最大<rt class="furi">さいだい</rt><rt class="roma">saidai</rt></ruby><ruby>火力<rt class="furi">かりょく</rt><rt class="roma">karyoku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>機械<rt class="furi">きかい</rt><rt class="roma">kikai</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:43.66]向着未来 最大火力的机械</div>
 </div>
 
@@ -254,6 +261,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [02:48.05]<ruby>欺<rt class="furi">あざむ</rt><rt class="roma">azamu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby> <ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:48.05]若欺骗 便无法歌唱啊</div>
 </div>
 
@@ -261,6 +269,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [02:51.64]<ruby>彼岸<rt class="furi">ひがん</rt><rt class="roma">higan</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>尊<rt class="furi">とうと</rt><rt class="roma">touto</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:51.64]彼岸珍贵啊 对活着来说</div>
 </div>
 

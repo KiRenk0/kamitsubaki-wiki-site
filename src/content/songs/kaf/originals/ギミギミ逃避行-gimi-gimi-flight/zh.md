@@ -336,6 +336,7 @@ image: /images/songs/kaf/track-1732389947.jpg
 <div class="jp-lyric">
 [01:43.65]we go we go we go we go
 </div>
+<div class="cn-lyric">[01:43.65]we go we go we go we go</div>
 </div>
 
 <div class="lyric-line">
@@ -447,18 +448,21 @@ image: /images/songs/kaf/track-1732389947.jpg
 <div class="jp-lyric">
 [02:21.91]I wanna feel <ruby>ギルティ<rt class="roma">girutei</rt></ruby>
 </div>
+<div class="cn-lyric">[02:21.91]I wanna feel 罪恶</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:23.62]gimme gimme <ruby>逃避行<rt class="furi">とうひこう</rt><rt class="roma">touhikou</rt></ruby>
 </div>
+<div class="cn-lyric">[02:23.62]gimme gimme 逃避之旅</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:25.75]mom and teacher <ruby>バレ<rt class="roma">bare</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>oh no no no！
 </div>
+
 <div class="cn-lyric">[02:25.75]mom and teacher 暴露的话oh no no no！</div>
 </div>
 
@@ -466,12 +470,14 @@ image: /images/songs/kaf/track-1732389947.jpg
 <div class="jp-lyric">
 [02:29.56]<ruby>ビート<rt class="roma">biito</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>乗<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby> <ruby>天使<rt class="furi">てんし</rt><rt class="roma">tenshi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>悪魔<rt class="furi">あくま</rt><rt class="roma">akuma</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>包囲<rt class="furi">ほうい</rt><rt class="roma">houi</rt></ruby><ruby>網<rt class="furi">もう</rt><rt class="roma">mou</rt></ruby>
 </div>
+<div class="cn-lyric">[02:29.56]乘着节拍 天使与恶魔的包围网</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:33.34]<ruby>だけど<rt class="roma">dakedo</rt></ruby><ruby>時計<rt class="furi">とけい</rt><rt class="roma">tokei</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>針<rt class="furi">はり</rt><rt class="roma">hari</rt></ruby>（<ruby>針<rt class="furi">はり</rt><rt class="roma">hari</rt></ruby>）<ruby>てっぺん<rt class="roma">teppen</rt></ruby><ruby>過<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>ぎ<rt class="roma">gi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>magic（magic）
 </div>
+
 <div class="cn-lyric">[02:33.34]但时钟的指针（指针）过了顶点持续的magic（magic）</div>
 </div>
 
@@ -479,42 +485,49 @@ image: /images/songs/kaf/track-1732389947.jpg
 <div class="jp-lyric">
 [02:37.71]<ruby>確<rt class="furi">たし</rt><rt class="roma">tashi</rt></ruby><ruby>かめ<rt class="roma">kame</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[02:37.71]去确认吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:39.20]we go we go we go we go
 </div>
+<div class="cn-lyric">[02:39.20]we go we go we go we go</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:43.67]<ruby>何気<rt class="furi">なにげ</rt><rt class="roma">nanige</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>day to day <ruby>色付<rt class="furi">いろづ</rt><rt class="roma">irozu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>special day
 </div>
+<div class="cn-lyric">[02:43.67]平凡无奇的day to day 染上色彩的special day</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:45.39]<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">[02:45.39]想要找到</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:47.03]we go we go we go we go
 </div>
+<div class="cn-lyric">[02:47.03]we go we go we go we go</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:49.27]<ruby>デタラメ<rt class="roma">detarame</rt></ruby>one night
 </div>
+<div class="cn-lyric">[02:49.27]荒唐的one night</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:50.91]<ruby>まだまだ<rt class="roma">madamada</rt></ruby><ruby>遊<rt class="furi">あそ</rt><rt class="roma">aso</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:50.91]还想继续玩</div>
 </div>
 
 </div>

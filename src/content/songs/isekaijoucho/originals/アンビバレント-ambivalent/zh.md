@@ -199,6 +199,7 @@ image: /images/songs/isekaijoucho/single-1772840925.jpg
 <div class="jp-lyric">
 [01:49.78]<ruby>素敵<rt class="furi">すてき</rt><rt class="roma">suteki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>あり<rt class="roma">ari</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[01:49.78]能充满美好的事物</div>
 </div>
 
 <br />
@@ -341,12 +342,14 @@ image: /images/songs/isekaijoucho/single-1772840925.jpg
 <div class="jp-lyric">
 [03:02.13]<ruby>また<rt class="roma">mata</rt></ruby> <ruby>は<rt class="roma">wa</rt></ruby> <ruby>破裂<rt class="furi">はれつ</rt><rt class="roma">haretsu</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ときめき<rt class="roma">tokimeki</rt></ruby>
 </div>
+<div class="cn-lyric">[03:02.13]又 是 快要破裂的心动</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:07.89]1000<ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:07.89]即使在千年之后</div>
 </div>
 
 <br />
@@ -362,6 +365,7 @@ image: /images/songs/isekaijoucho/single-1772840925.jpg
 <div class="jp-lyric">
 [03:13.09]<ruby>吐<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ちゃった<rt class="roma">chatta</rt></ruby><ruby>もん<rt class="roma">mon</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>しょうが<rt class="roma">shouga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:13.09]吐出来的东西也没办法</div>
 </div>
 
@@ -369,12 +373,14 @@ image: /images/songs/isekaijoucho/single-1772840925.jpg
 <div class="jp-lyric">
 [03:16.66]<ruby>不幸<rt class="furi">ふしあわ</rt><rt class="roma">fushiawa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
 </div>
+<div class="cn-lyric">[03:16.66]并不是不幸福</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:19.96]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[03:19.96]一无所有的是</div>
 </div>
 
 <br />
@@ -383,6 +389,7 @@ image: /images/songs/isekaijoucho/single-1772840925.jpg
 <div class="jp-lyric">
 [03:25.63]<ruby>間違<rt class="furi">まちが</rt><rt class="roma">machiga</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>その<rt class="roma">sono</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>もち<rt class="roma">mochi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:25.63]对那错误的心情</div>
 </div>
 
@@ -390,6 +397,7 @@ image: /images/songs/isekaijoucho/single-1772840925.jpg
 <div class="jp-lyric">
 [03:29.04]<ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:29.04]说再见吧</div>
 </div>
 

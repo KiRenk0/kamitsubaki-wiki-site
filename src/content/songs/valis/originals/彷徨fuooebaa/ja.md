@@ -17,7 +17,7 @@ image: /images/songs/valis/彷徨fuooebaa.jpg
 
 ## 作品概要
 
-VALISが2025-12-16にリリースしたシングル「彷徨フォーエバー」。
+[VALIS](/ja/artists/solo/valis)が2025-12-16にリリースしたシングル「彷徨フォーエバー」。
 
 ## 視聴
 {{media-switcher::彷徨フォーエバー}}

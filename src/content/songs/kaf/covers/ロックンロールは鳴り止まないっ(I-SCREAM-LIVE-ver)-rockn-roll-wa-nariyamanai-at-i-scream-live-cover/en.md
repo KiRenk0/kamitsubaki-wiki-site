@@ -36,7 +36,9 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [00:16.16]<ruby>昨日<rt class="furi">きのう</rt><rt class="roma">kinou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>、<ruby>駅前<rt class="furi">えきまえ</rt><rt class="roma">ekimae</rt></ruby>TSUTAYA<ruby>さん<rt class="roma">san</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
-<div class="trans-lyric">Last night, at TSUTAYA in front of the station</div>
+<div class="trans-lyric">
+[00:16.16]Last night, at TSUTAYA in front of the station
+</div>
 </div>
 
 <div class="lyric-line">
@@ -50,21 +52,27 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [00:24.30]<ruby>セックスピストルズ<rt class="roma">sekkusupisutoruzu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>借<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
-<div class="trans-lyric">I rented The Sex Pistols</div>
+<div class="trans-lyric">
+[00:24.30]I rented The Sex Pistols
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:26.17]「<ruby>ロックンロール<rt class="roma">rokkunrouru</rt></ruby>」<ruby>という<rt class="roma">toiu</rt></ruby><ruby>やつ<rt class="roma">yatsu</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
-<div class="trans-lyric">That thing called 'rock and roll'</div>
+<div class="trans-lyric">
+[00:26.17]That thing called 'rock and roll'
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:28.19]<ruby>しかし<rt class="roma">shikashi</rt></ruby>、
 </div>
-<div class="trans-lyric">However,</div>
+<div class="trans-lyric">
+[00:28.19]However,
+</div>
 </div>
 
 <div class="lyric-line">
@@ -78,21 +86,27 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [00:33.85]do da
 </div>
-<div class="trans-lyric">do da</div>
+<div class="trans-lyric">
+[00:33.85]do da
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:38.74]turatura
 </div>
-<div class="trans-lyric">turatura</div>
+<div class="trans-lyric">
+[00:38.74]turatura
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:41.10]oh yeah! yeah! yeah!
 </div>
-<div class="trans-lyric">oh yeah! yeah! yeah!</div>
+<div class="trans-lyric">
+[00:41.10]oh yeah! yeah! yeah!
+</div>
 </div>
 
 <div class="lyric-line">
@@ -113,7 +127,9 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [00:52.58]<ruby>セックスピストルズ<rt class="roma">sekkusupisutoruzu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
-<div class="trans-lyric">I listened to The Sex Pistols</div>
+<div class="trans-lyric">
+[00:52.58]I listened to The Sex Pistols
+</div>
 </div>
 
 <div class="lyric-line">
@@ -127,7 +143,9 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [00:56.16]MD<ruby>取<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、<ruby>イヤ<rt class="roma">iya</rt></ruby><ruby>ホン<rt class="roma">hon</rt></ruby><ruby>取<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
-<div class="trans-lyric">Even taking off the MD, even taking off the earphones</div>
+<div class="trans-lyric">
+[00:56.16]Even taking off the MD, even taking off the earphones
+</div>
 </div>
 
 <div class="lyric-line">
@@ -141,28 +159,36 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [01:02.14]do da doda
 </div>
-<div class="trans-lyric">do da doda</div>
+<div class="trans-lyric">
+[01:02.14]do da doda
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:06.93]tura tura
 </div>
-<div class="trans-lyric">tura tura</div>
+<div class="trans-lyric">
+[01:06.93]tura tura
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:09.21]oh yeah! yeah!
 </div>
-<div class="trans-lyric">oh yeah! yeah!</div>
+<div class="trans-lyric">
+[01:09.21]oh yeah! yeah!
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:11.63]yeah!
 </div>
-<div class="trans-lyric">yeah!</div>
+<div class="trans-lyric">
+[01:11.63]yeah!
+</div>
 </div>
 
 <br />
@@ -213,14 +239,18 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [02:04.52]<ruby>もっと<rt class="roma">motto</rt></ruby>、<ruby>もっと<rt class="roma">motto</rt></ruby>、<ruby>もっと<rt class="roma">motto</rt></ruby>、<ruby>もっと<rt class="roma">motto</rt></ruby>、
 </div>
-<div class="trans-lyric">More, more, more, more,</div>
+<div class="trans-lyric">
+[02:04.52]More, more, more, more,
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:08.01]<ruby>くれよ<rt class="roma">kureyo</rt></ruby>!
 </div>
-<div class="trans-lyric">Give it to me!</div>
+<div class="trans-lyric">
+[02:08.01]Give it to me!
+</div>
 </div>
 
 <div class="lyric-line">
@@ -255,7 +285,9 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [02:36.86]<ruby>だから<rt class="roma">dakara</rt></ruby>
 </div>
-<div class="trans-lyric">So,</div>
+<div class="trans-lyric">
+[02:36.86]So,
+</div>
 </div>
 
 <div class="lyric-line">
@@ -290,7 +322,9 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [03:02.69]<ruby>ロックンロール<rt class="roma">rokkunrouru</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>止<rt class="furi">や</rt><rt class="roma">ya</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>いっ<rt class="roma">i</rt></ruby>
 </div>
-<div class="trans-lyric">Rock and roll never stops!</div>
+<div class="trans-lyric">
+[03:02.69]Rock and roll never stops!
+</div>
 </div>
 
 </div>

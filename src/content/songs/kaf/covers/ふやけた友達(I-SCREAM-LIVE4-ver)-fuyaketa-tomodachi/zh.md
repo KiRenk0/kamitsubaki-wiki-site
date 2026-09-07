@@ -93,6 +93,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 <ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="cn-lyric">纵使入梦</div>
 </div>
 
 <br />
@@ -108,6 +109,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 [02:12.82]<ruby>はにかむ<rt class="roma">hanikamu</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby> <ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby> <ruby>いつの<rt class="roma">itsuno</rt></ruby><ruby>日<rt class="furi">び</rt><rt class="roma">bi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:12.82]唯有那羞怯的言辞 始终如一 无论何日</div>
 </div>
 

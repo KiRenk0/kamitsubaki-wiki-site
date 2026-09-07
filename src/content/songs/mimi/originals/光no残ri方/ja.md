@@ -17,7 +17,7 @@ image: /images/songs/mimi/光no残ri方.jpg
 
 ## 作品概要
 
-MIMIが2026-03-22にリリースしたシングル「光の残り方」。
+[MIMI](/ja/artists/creators/mimi)が2026-03-22にリリースしたシングル「光の残り方」。
 
 ## 視聴
 {{media-switcher::光の残り方}}

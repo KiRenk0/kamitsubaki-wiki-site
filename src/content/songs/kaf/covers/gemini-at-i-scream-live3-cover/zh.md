@@ -173,6 +173,7 @@ Pour me up until I drown like
 <div class="jp-lyric">
 Ah, yeah, yeah, yeah
 </div>
+<div class="cn-lyric">啊 耶 耶 耶</div>
 </div>
 
 <div class="lyric-line">
@@ -235,54 +236,63 @@ People can talk but they don't change
 <div class="jp-lyric">
 'Cause I won't let you break my heart
 </div>
+<div class="cn-lyric">因为我不会让你伤我心</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Won't let us drift apart
 </div>
+<div class="cn-lyric">不会让我们疏远</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 No, I know that you got a second face, oh no
 </div>
+<div class="cn-lyric">不 我知道你有另一面 哦不</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 No, I won't let you kill my high
 </div>
+<div class="cn-lyric">不 我不会让你毁了我的兴奋</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You're such a Gemini, cigarettes and apple pie
 </div>
+<div class="cn-lyric">你真是个双子座 香烟和苹果派</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Ah, yeah, yeah, yeah
 </div>
+<div class="cn-lyric">啊 耶 耶 耶</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Come on girl, you make me hot
 </div>
+<div class="cn-lyric">来吧女孩 你让我火热</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I don't want it to stop
 </div>
+<div class="cn-lyric">我不想停下</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Come on, make me crave it, girl, I know you know
 </div>
+
 <div class="cn-lyric">来吧 让我渴望它 女孩 我知道你懂</div>
 </div>
 
@@ -290,12 +300,14 @@ Come on, make me crave it, girl, I know you know
 <div class="jp-lyric">
 How to build me up to break me down
 </div>
+<div class="cn-lyric">如何建立我再摧毁我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You know the run around
 </div>
+
 <div class="cn-lyric">你知道那绕圈的把戏</div>
 </div>
 
@@ -303,12 +315,14 @@ You know the run around
 <div class="jp-lyric">
 Pour me up until I drown like
 </div>
+<div class="cn-lyric">把我灌满直到我溺毙像</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Ah, yeah, yeah, yeah
 </div>
+<div class="cn-lyric">啊 耶 耶 耶</div>
 </div>
 
 </div>

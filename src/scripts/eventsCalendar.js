@@ -6,6 +6,7 @@ import {
   getEventDateKey,
   getJapanDateKey,
   normalizeEventsPayload,
+  resolveEventStatus,
 } from '../lib/liveEventsClient.js';
 
 const pad = (value) => String(value).padStart(2, '0');
@@ -102,8 +103,9 @@ function mountCalendar(calendar) {
       time.dateTime = event.startAt;
       time.textContent = formatEventTime(event, languageTag, copy.allDayLabel);
       const badge = document.createElement('span');
-      badge.className = `events-calendar__badge events-calendar__badge--${event.status}`;
-      badge.textContent = statusLabels[event.status] || copy.statusUpcoming;
+      const status = resolveEventStatus(event);
+      badge.className = `events-calendar__badge events-calendar__badge--${status}`;
+      badge.textContent = statusLabels[status] || copy.statusUpcoming;
       rail.append(time, badge);
 
       const body = document.createElement('div');

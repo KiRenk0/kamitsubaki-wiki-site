@@ -232,18 +232,21 @@ image: /images/songs/kaf/track-1674703343.jpg
 <div class="jp-lyric">
 [02:00.39]<ruby>きらい<rt class="roma">kirai</rt></ruby> <ruby>らい<rt class="roma">rai</rt></ruby> <ruby>らい<rt class="roma">rai</rt></ruby>
 </div>
+<div class="trans-lyric">[02:00.39]Hate, rai, rai</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:01.86]<ruby>毒<rt class="furi">どく</rt><rt class="roma">doku</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>アク<rt class="roma">aku</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>まるまる<rt class="roma">marumaru</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">[02:01.86]I want to love the poison and astringency completely</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:07.41]More <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby>
 </div>
+<div class="trans-lyric">[02:07.41]More love love love</div>
 </div>
 
 <div class="lyric-line">
@@ -257,18 +260,21 @@ image: /images/songs/kaf/track-1674703343.jpg
 <div class="jp-lyric">
 [02:16.07]<ruby>おこ<rt class="roma">oko</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> <ruby>マサラ<rt class="roma">masara</rt></ruby> <ruby>さよなら<rt class="roma">sayonara</rt></ruby>
 </div>
+<div class="trans-lyric">[02:16.07]Okosa masala, goodbye</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:19.82]<ruby>おとな<rt class="roma">otona</rt></ruby><ruby>さま<rt class="roma">sama</rt></ruby> <ruby>は<rt class="roma">wa</rt></ruby> <ruby>まだまだ<rt class="roma">madamada</rt></ruby>
 </div>
+<div class="trans-lyric">[02:19.82]Adults are still far off</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:23.53]<ruby>ハラハラ<rt class="roma">harahara</rt></ruby><ruby>辛<rt class="furi">つら</rt><rt class="roma">tsura</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>メイド<rt class="roma">meido</rt></ruby><ruby>イン<rt class="roma">in</rt></ruby><ruby>あたし<rt class="roma">atashi</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:23.53]Even if thrilling and spicy, made in me</div>
 </div>
 
@@ -276,36 +282,42 @@ image: /images/songs/kaf/track-1674703343.jpg
 <div class="jp-lyric">
 [02:32.04]1 2 <ruby>ステップ<rt class="roma">suteppu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>唱<rt class="furi">とな</rt><rt class="roma">tona</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="trans-lyric">[02:32.04]I want to chant in 1 2 steps</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:33.75]<ruby>まじない<rt class="roma">majinai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>マン<rt class="roma">man</rt></ruby><ruby>トラ<rt class="roma">tora</rt></ruby>
 </div>
+<div class="trans-lyric">[02:33.75]The spell is a mantra</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:37.30]3&amp;4<ruby>で<rt class="roma">de</rt></ruby><ruby>転<rt class="furi">ころ</rt><rt class="roma">koro</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>スーリヤナマスカーラ<rt class="roma">suuriyanamasukaara</rt></ruby>
 </div>
+<div class="trans-lyric">[02:37.30]Even if I fall at 3&4, Surya Namaskara</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:39.23]<ruby>語録<rt class="furi">ごろく</rt><rt class="roma">goroku</rt></ruby> <ruby>どう<rt class="roma">dou</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>ええ<rt class="roma">ee</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
+<div class="trans-lyric">[02:39.23]Words, I don't care</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:41.04]<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>マハーラージャ<rt class="roma">mahaaraaja</rt></ruby>
 </div>
+<div class="trans-lyric">[02:41.04]Heart-dancing Maharaja</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:42.86]7.8<ruby>で<rt class="roma">de</rt></ruby> <ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:42.86]At 7.8, I want to see you</div>
 </div>
 
@@ -313,36 +325,42 @@ image: /images/songs/kaf/track-1674703343.jpg
 <div class="jp-lyric">
 [02:46.63]1 2 <ruby>ステップ<rt class="roma">suteppu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>唱<rt class="furi">とな</rt><rt class="roma">tona</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="trans-lyric">[02:46.63]I want to chant in 1 2 steps</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:48.49]<ruby>まじない<rt class="roma">majinai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>マン<rt class="roma">man</rt></ruby><ruby>トラ<rt class="roma">tora</rt></ruby>
 </div>
+<div class="trans-lyric">[02:48.49]The spell is a mantra</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:52.01]3&amp;4<ruby>で<rt class="roma">de</rt></ruby><ruby>転<rt class="furi">ころ</rt><rt class="roma">koro</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>スーリヤナマスカーラ<rt class="roma">suuriyanamasukaara</rt></ruby>
 </div>
+<div class="trans-lyric">[02:52.01]Even if I fall at 3&4, Surya Namaskara</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:53.97]<ruby>語録<rt class="furi">ごろく</rt><rt class="roma">goroku</rt></ruby> <ruby>どう<rt class="roma">dou</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>ええ<rt class="roma">ee</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
+<div class="trans-lyric">[02:53.97]Words, I don't care</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:55.80]<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>マハーラージャ<rt class="roma">mahaaraaja</rt></ruby>
 </div>
+<div class="trans-lyric">[02:55.80]Heart-dancing Maharaja</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:57.59]7.8<ruby>で<rt class="roma">de</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ヒマラヤ<rt class="roma">himaraya</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:57.59]If I sing at 7.8, my feelings are Himalayas</div>
 </div>
 

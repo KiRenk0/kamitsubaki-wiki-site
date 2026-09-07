@@ -19,7 +19,7 @@ image: /images/albums/rim/new-romancer.jpg
 
 ## Overview
 
-やさしくしないで appears on NEW ROMANCER or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+やさしくしないで appears on [NEW ROMANCER](/en/albums/rim/new-romancer) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -58,7 +58,9 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [00:40.56]<ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby> <ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby>
 </div>
-<div class="trans-lyric">Ah, ah</div>
+<div class="trans-lyric">
+[00:40.56]Ah, ah
+</div>
 </div>
 
 <br />
@@ -88,14 +90,18 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [01:00.95]<ruby>しずか<rt class="roma">shizuka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>うみ<rt class="roma">umi</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
-<div class="trans-lyric">To the quiet sea</div>
+<div class="trans-lyric">
+[01:00.95]To the quiet sea
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:03.11]<ruby>とおく<rt class="roma">tooku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>くに<rt class="roma">kuni</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="trans-lyric">Let's go to a distant country</div>
+<div class="trans-lyric">
+[01:03.11]Let's go to a distant country
+</div>
 </div>
 
 <br />
@@ -127,6 +133,7 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [01:45.49]<ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby> <ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby>
 </div>
+<div class="trans-lyric">[01:45.49]Ah, ah</div>
 </div>
 
 <br />
@@ -135,12 +142,14 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [01:53.69]<ruby>優<rt class="furi">やさ</rt><rt class="roma">yasa</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="trans-lyric">[01:53.69]Don't be kind to me</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:57.89]<ruby>間違<rt class="furi">まちが</rt><rt class="roma">machiga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>だらけ<rt class="roma">darake</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ふざけよ<rt class="roma">fuzakeyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">[01:57.89]Even if it's full of mistakes, let's joke around</div>
 </div>
 
 <div class="lyric-line">
@@ -163,6 +172,7 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [02:10.18]<ruby>優<rt class="furi">やさ</rt><rt class="roma">yasa</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="trans-lyric">[02:10.18]Don't be kind to me</div>
 </div>
 
 <div class="lyric-line">
@@ -215,18 +225,21 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [03:02.85]<ruby>優<rt class="furi">やさ</rt><rt class="roma">yasa</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="trans-lyric">[03:02.85]Don't be kind to me</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:07.02]<ruby>間違<rt class="furi">まちが</rt><rt class="roma">machiga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>だらけ<rt class="roma">darake</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ふざけよ<rt class="roma">fuzakeyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">[03:07.02]Even if it's full of mistakes, let's joke around</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:11.21]<ruby>身体<rt class="furi">しんたい</rt><rt class="roma">shintai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>覚<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:11.21]My body remembers</div>
 </div>
 
@@ -234,6 +247,7 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [03:15.22]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>水色<rt class="furi">みずいろ</rt><rt class="roma">mizuiro</rt></ruby>、<ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>緑<rt class="furi">みどり</rt><rt class="roma">midori</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:15.22]Love is light blue, the green of being in love</div>
 </div>
 
@@ -243,12 +257,14 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [03:19.39]<ruby>優<rt class="furi">やさ</rt><rt class="roma">yasa</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="trans-lyric">[03:19.39]Don't be kind to me</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:23.37]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>弱<rt class="furi">よわ</rt><rt class="roma">yowa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:23.37]But I'm not as weak as you think</div>
 </div>
 
@@ -256,6 +272,7 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [03:27.55]<ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>眠<rt class="furi">ねむ</rt><rt class="roma">nemu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:27.55]Because I'm a little sleepy</div>
 </div>
 
@@ -263,6 +280,7 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [03:31.64]<ruby>早起<rt class="furi">はやお</rt><rt class="roma">hayao</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いや<rt class="roma">iya</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:31.64]I don't like waking up early</div>
 </div>
 

@@ -19,7 +19,7 @@ image: /images/albums/koko/prayer.jpg
 
 ## Overview
 
-此処へ appears on prayer or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+此処へ appears on [prayer](/en/albums/koko/prayer) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -197,7 +197,9 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [01:44.13]<ruby>下北<rt class="furi">しもきた</rt><rt class="roma">shimokita</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>Cafe<ruby>で<rt class="roma">de</rt></ruby>Chillout
 </div>
-<div class="trans-lyric">Chillout at a cafe in Shimokitazawa</div>
+<div class="trans-lyric">
+[01:44.13]Chillout at a cafe in Shimokitazawa
+</div>
 </div>
 
 <div class="lyric-line">
@@ -271,6 +273,7 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [02:16.13]<ruby>わから<rt class="roma">wakara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>この<rt class="roma">kono</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="trans-lyric">[02:16.13]I don't know, even from now on</div>
 </div>
 
 <div class="lyric-line">
@@ -300,18 +303,21 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [02:31.99]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ましょ<rt class="roma">masho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="trans-lyric">[02:31.99]Let's start from here</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:34.09]<ruby>霧<rt class="furi">きり</rt><rt class="roma">kiri</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>抜け出<rt class="furi">ぬけだ</rt><rt class="roma">nukeda</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>やっと<rt class="roma">yatto</rt></ruby>
 </div>
+<div class="trans-lyric">[02:34.09]Finally escaping the fog</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:36.12]<ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>入<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>思想<rt class="furi">しそう</rt><rt class="roma">shisou</rt></ruby><ruby>概念<rt class="furi">がいねん</rt><rt class="roma">gainen</rt></ruby>
 </div>
+<div class="trans-lyric">[02:36.12]The ideology I obtained</div>
 </div>
 
 <div class="lyric-line">
@@ -325,6 +331,7 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [02:40.39]<ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>閉<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ざさ<rt class="roma">zasa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="trans-lyric">[02:40.39]Don't forget, don't close off</div>
 </div>
 
 <div class="lyric-line">
@@ -338,24 +345,28 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [02:48.54]<ruby>平行<rt class="furi">へいこう</rt><rt class="roma">heikou</rt></ruby><ruby>線<rt class="furi">せん</rt><rt class="roma">sen</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[02:48.54]Look at me laughing on parallel lines</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:54.40]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby>
 </div>
+<div class="trans-lyric">[02:54.40]Finding you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:56.39]<ruby>交<rt class="furi">まじ</rt><rt class="roma">maji</rt></ruby><ruby>わった<rt class="roma">watta</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>乗<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>せる<rt class="roma">seru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">[02:56.39]I'll put the intersecting light into sound</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:00.22]<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>あの<rt class="roma">ano</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>メモリー<rt class="roma">memorii</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:00.22]The memory of that day that touched my heart</div>
 </div>
 
@@ -365,6 +376,7 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [03:19.68]<ruby>これ<rt class="roma">kore</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>経験<rt class="furi">けいけん</rt><rt class="roma">keiken</rt></ruby><ruby>値<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:19.68]The experience points up to now</div>
 </div>
 
@@ -372,6 +384,7 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [03:23.45]<ruby>優<rt class="furi">やさ</rt><rt class="roma">yasa</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby> <ruby>温<rt class="furi">あたた</rt><rt class="roma">atata</rt></ruby><ruby>かく<rt class="roma">kaku</rt></ruby> <ruby>解<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:23.45]Are gently and warmly melting</div>
 </div>
 
@@ -379,6 +392,7 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [03:27.82]<ruby>これから<rt class="roma">korekara</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ステージ<rt class="roma">suteeji</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:27.82]On the stage from now on</div>
 </div>
 
@@ -386,6 +400,7 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [03:32.11]<ruby>歩<rt class="furi">あゆ</rt><rt class="roma">ayu</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:32.11]Walk, and smile</div>
 </div>
 
@@ -395,48 +410,56 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [03:36.02]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ましょ<rt class="roma">masho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="trans-lyric">[03:36.02]Let's start from here</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:40.09]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ましょ<rt class="roma">masho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="trans-lyric">[03:40.09]Let's start from here</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:44.17]<ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>閉<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ざさ<rt class="roma">zasa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="trans-lyric">[03:44.17]Don't forget, don't close off</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:47.55]<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>拠り所<rt class="furi">よりどころ</rt><rt class="roma">yoridokoro</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>此処<rt class="furi">ここ</rt><rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="trans-lyric">[03:47.55]Because the anchor of my heart is here</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:52.54]<ruby>平行<rt class="furi">へいこう</rt><rt class="roma">heikou</rt></ruby><ruby>線<rt class="furi">せん</rt><rt class="roma">sen</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[03:52.54]Look at me laughing on parallel lines</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:58.31]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby>
 </div>
+<div class="trans-lyric">[03:58.31]Finding you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:00.15]<ruby>交<rt class="furi">まじ</rt><rt class="roma">maji</rt></ruby><ruby>わった<rt class="roma">watta</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>乗<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>せる<rt class="roma">seru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">[04:00.15]I'll put the intersecting light into sound</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:04.00]<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>風<rt class="furi">ふう</rt><rt class="roma">fuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>あの<rt class="roma">ano</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>メモリー<rt class="roma">memorii</rt></ruby>
 </div>
+<div class="trans-lyric">[04:04.00]The memory of that day touched by the night wind</div>
 </div>
 
 </div>

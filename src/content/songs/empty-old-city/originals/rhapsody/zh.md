@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/rhapsody.jpg
 
 ## 作品简介
 
-Empty old City于 2021-05-19 发行的单曲《Rhapsody》。
+[Empty old City](/zh/artists/solo/empty-old-city)于 2021-05-19 发行的单曲《Rhapsody》。
 
 ## 试听
 {{media-switcher::Rhapsody}}

@@ -179,6 +179,7 @@ And softly you say goodbye
 <div class="jp-lyric">
 Come again
 </div>
+<div class="cn-lyric">再来吧</div>
 </div>
 
 </div>

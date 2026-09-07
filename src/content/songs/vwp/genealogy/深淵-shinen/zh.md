@@ -364,6 +364,7 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 [03:07.47]Revive
 </div>
+<div class="cn-lyric">[03:07.47]复苏</div>
 </div>
 
 </div>

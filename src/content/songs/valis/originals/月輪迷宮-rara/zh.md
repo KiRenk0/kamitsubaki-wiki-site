@@ -17,7 +17,7 @@ image: /images/songs/valis/月輪迷宮-rara.jpg
 
 ## 作品简介
 
-VALIS于 2023-10-21 发行的单曲《月輪迷宮(RARA)》。
+[VALIS](/zh/artists/solo/valis)于 2023-10-21 发行的单曲《月輪迷宮(RARA)》。
 
 ## 试听
 {{media-switcher::月輪迷宮(RARA)}}

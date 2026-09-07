@@ -19,7 +19,7 @@ image: /images/albums/rim/imagine.jpg
 
 ## Overview
 
-空っぽなら、踊ろうぜ appears on imagine or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+空っぽなら、踊ろうぜ appears on [imagine](/en/albums/rim/imagine) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -146,6 +146,7 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [01:47.78]<ruby>馬鹿<rt class="furi">ばか</rt><rt class="roma">baka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なれ<rt class="roma">nare</rt></ruby> <ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="trans-lyric">[01:47.78]Be a fool, at least for today.</div>
 </div>
 
 <div class="lyric-line">
@@ -159,6 +160,7 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [01:52.83]<ruby>空<rt class="furi">から</rt><rt class="roma">kara</rt></ruby><ruby>っぽ<rt class="roma">ppo</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>結構<rt class="furi">けっこう</rt><rt class="roma">kekkou</rt></ruby>
 </div>
+<div class="trans-lyric">[01:52.83]Even empty is just fine.</div>
 </div>
 
 <div class="lyric-line">
@@ -195,14 +197,14 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [02:45.52]<ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby> <ruby>ここ<rt class="roma">koko</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby>
 </div>
-<div class="trans-lyric">Ah, I've lived this far after all.</div>
+<div class="trans-lyric">[02:45.52]Ah, I've lived this far after all.</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:49.76]<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>どっか<rt class="roma">dokka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
-<div class="trans-lyric">And yet, somewhere.</div>
+<div class="trans-lyric">[02:49.76]And yet, somewhere.</div>
 </div>
 
 <div class="lyric-line">
@@ -218,6 +220,7 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [02:57.27]<ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>空<rt class="furi">から</rt><rt class="roma">kara</rt></ruby><ruby>っぽ<rt class="roma">ppo</rt></ruby><ruby>バレ<rt class="roma">bare</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="trans-lyric">[02:57.27]What will I do from tomorrow? What if they find out I'm empty?</div>
 </div>
 
 <div class="lyric-line">
@@ -247,12 +250,14 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [03:14.11]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby> <ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="trans-lyric">[03:14.11]Let's dance, before we die.</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:17.39]<ruby>馬鹿<rt class="furi">ばか</rt><rt class="roma">baka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なれ<rt class="roma">nare</rt></ruby> <ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="trans-lyric">[03:17.39]Be a fool, at least for today.</div>
 </div>
 
 <div class="lyric-line">
@@ -266,18 +271,21 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [03:22.42]<ruby>空<rt class="furi">から</rt><rt class="roma">kara</rt></ruby><ruby>っぽ<rt class="roma">ppo</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>結構<rt class="furi">けっこう</rt><rt class="roma">kekkou</rt></ruby>
 </div>
+<div class="trans-lyric">[03:22.42]Even empty is just fine.</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:25.97]<ruby>軽<rt class="furi">かる</rt><rt class="roma">karu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>方<rt class="furi">ほう</rt><rt class="roma">hou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>高<rt class="furi">たか</rt><rt class="roma">taka</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>舞<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby>
 </div>
+<div class="trans-lyric">[03:25.97]The lighter one can dance higher.</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:28.02]<ruby>お前<rt class="furi">おまえ</rt><rt class="roma">omae</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>自由<rt class="furi">じゆう</rt><rt class="roma">jiyuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>舞<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby>
 </div>
+<div class="trans-lyric">[03:28.02]You can dance freely.</div>
 </div>
 
 <br />
@@ -286,18 +294,21 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [03:30.93]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby> <ruby>俯<rt class="furi">うつむ</rt><rt class="roma">utsumu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="trans-lyric">[03:30.93]Let's dance, before we look down.</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:34.24]<ruby>馬鹿<rt class="furi">ばか</rt><rt class="roma">baka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なれ<rt class="roma">nare</rt></ruby> <ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="trans-lyric">[03:34.24]Be a fool, at least for today.</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:36.23]<ruby>暗<rt class="furi">くら</rt><rt class="roma">kura</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>音楽<rt class="furi">おんがく</rt><rt class="roma">ongaku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いら<rt class="roma">ira</rt></ruby><ruby>ねぇ<rt class="roma">nee</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:36.23]I don't need dark music.</div>
 </div>
 
@@ -305,12 +316,14 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [03:39.39]<ruby>空<rt class="furi">から</rt><rt class="roma">kara</rt></ruby><ruby>っぽ<rt class="roma">ppo</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>結構<rt class="furi">けっこう</rt><rt class="roma">kekkou</rt></ruby>
 </div>
+<div class="trans-lyric">[03:39.39]Even empty is just fine.</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:42.59]<ruby>美<rt class="furi">うつく</rt><rt class="roma">utsuku</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>空<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>もん<rt class="roma">mon</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:42.59]It's beautifully empty.</div>
 </div>
 
@@ -318,12 +331,14 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [03:44.69]<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby> <ruby>お前<rt class="furi">おまえ</rt><rt class="roma">omae</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>もっと<rt class="roma">motto</rt></ruby>
 </div>
+<div class="trans-lyric">[03:44.69]Show me, more of you.</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:47.66]<ruby>お前<rt class="furi">おまえ</rt><rt class="roma">omae</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>綺麗<rt class="furi">きれい</rt><rt class="roma">kirei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>舞<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:47.66]Because you can dance beautifully.</div>
 </div>
 
@@ -333,12 +348,14 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [04:23.06]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby> <ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="trans-lyric">[04:23.06]Let's dance, before we die.</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:27.43]<ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>？<ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>音楽<rt class="furi">おんがく</rt><rt class="roma">ongaku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>掻<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>消<rt class="furi">け</rt><rt class="roma">ke</rt></ruby><ruby>そ<rt class="roma">so</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby>
 </div>
+
 <div class="trans-lyric">[04:27.43]Are you scared? Then let's drown it out with music.</div>
 </div>
 
@@ -346,12 +363,14 @@ image: /images/albums/rim/imagine.jpg
 <div class="jp-lyric">
 [04:31.44]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby> <ruby>俯<rt class="furi">うつむ</rt><rt class="roma">utsumu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="trans-lyric">[04:31.44]Let's dance, before we look down.</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:35.85]<ruby>お前<rt class="furi">おまえ</rt><rt class="roma">omae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ステップ<rt class="roma">suteppu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>えよ<rt class="roma">eyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby>
 </div>
+
 <div class="trans-lyric">[04:35.85]Let's change the world with your steps.</div>
 </div>
 

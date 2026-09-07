@@ -18,7 +18,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 
 ## Overview
 
-あなただけ appears on CANDY LIVE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+あなただけ appears on [CANDY LIVE](/en/albums/isekaijoucho/candy-live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Lyrics
 
@@ -58,7 +58,9 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [00:02.64]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
-<div class="trans-lyric">Only you</div>
+<div class="trans-lyric">
+[00:02.64]Only you
+</div>
 </div>
 
 <div class="lyric-line">
@@ -142,6 +144,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 <ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+<div class="trans-lyric">Only you can see them</div>
 </div>
 
 <div class="lyric-line">
@@ -253,7 +256,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [02:25.72]<ruby>ら<rt class="roma">ra</rt></ruby>
 </div>
-<div class="trans-lyric">Then</div>
+<div class="trans-lyric">[02:25.72]Then</div>
 </div>
 
 <div class="lyric-line">
@@ -309,7 +312,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [03:38.35]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
-<div class="trans-lyric">I love you</div>
+<div class="trans-lyric">[03:38.35]I love you</div>
 </div>
 
 <div class="lyric-line">
@@ -351,6 +354,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 <ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>場所<rt class="furi">ばしょ</rt><rt class="roma">basho</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+
 <div class="trans-lyric">The place where I can live</div>
 </div>
 

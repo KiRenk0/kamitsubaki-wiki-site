@@ -17,7 +17,7 @@ image: /images/songs/guiano/suupaahiiroo-in-2025.jpg
 
 ## 作品简介
 
-Guiano于 2025-04-29 发行的单曲《スーパーヒーロー (in 2025)》。
+[Guiano](/zh/artists/creators/guiano)于 2025-04-29 发行的单曲《スーパーヒーロー (in 2025)》。
 
 ## 试听
 {{media-switcher::スーパーヒーロー (in 2025)}}

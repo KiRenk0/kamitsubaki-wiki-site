@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/butterscotch.jpg
 
 ## 作品概要
 
-tokiwaが2023-02-09にリリースしたシングル「butterscotch」。
+[tokiwa](/ja/artists/creators/tokiwa)が2023-02-09にリリースしたシングル「butterscotch」。
 
 ## 視聴
 {{media-switcher::butterscotch}}

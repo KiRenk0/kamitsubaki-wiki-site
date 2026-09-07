@@ -152,6 +152,7 @@ Holiday's midnight
 <div class="jp-lyric">
 Holiday's midnight
 </div>
+<div class="cn-lyric">Holiday's midnight</div>
 </div>
 
 <div class="lyric-line">
@@ -183,12 +184,14 @@ Holiday's midnight
 <div class="jp-lyric">
 <ruby>ゆらゆら<rt class="roma">yurayura</rt></ruby><ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">摇摇晃晃 如梦一般</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ゆらゆら<rt class="roma">yurayura</rt></ruby><ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>どうか<rt class="roma">douka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
+<div class="cn-lyric">摇摇晃晃 有点奇怪</div>
 </div>
 
 <br />
@@ -204,6 +207,7 @@ Holiday's midnight
 <div class="jp-lyric">
 BPM 83<ruby>に<rt class="roma">ni</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>わせ<rt class="roma">wase</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">配合着BPM 83</div>
 </div>
 
@@ -211,12 +215,14 @@ BPM 83<ruby>に<rt class="roma">ni</rt></ruby><ruby>合<rt class="furi">あ</rt>
 <div class="jp-lyric">
 <ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>散歩<rt class="furi">さんぽ</rt><rt class="roma">sanpo</rt></ruby>
 </div>
+<div class="cn-lyric">和你夜晚散步</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>それ<rt class="roma">sore</rt></ruby><ruby>以上<rt class="furi">いじょう</rt><rt class="roma">ijou</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">别再说什么了</div>
 </div>
 
@@ -226,24 +232,28 @@ BPM 83<ruby>に<rt class="roma">ni</rt></ruby><ruby>合<rt class="furi">あ</rt>
 <div class="jp-lyric">
 &quot;<ruby>クロノスタシス<rt class="roma">kuronosutashisu</rt></ruby>&quot;<ruby>って<rt class="roma">tte</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby>？
 </div>
+<div class="cn-lyric">你知道"クロノスタシス"吗？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">你说你不知道</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>時計<rt class="furi">とけい</rt><rt class="roma">tokei</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>針<rt class="furi">はり</rt><rt class="roma">hari</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まって<rt class="roma">matte</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby>
 </div>
+<div class="cn-lyric">时钟的指针看起来停住了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>現象<rt class="furi">げんしょう</rt><rt class="roma">genshou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>らしい<rt class="roma">rashii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">好像是这种现象哦</div>
 </div>
 
@@ -253,12 +263,14 @@ BPM 83<ruby>に<rt class="roma">ni</rt></ruby><ruby>合<rt class="furi">あ</rt>
 <div class="jp-lyric">
 <ruby>ゆらゆら<rt class="roma">yurayura</rt></ruby><ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">摇摇晃晃 如梦一般</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ゆらゆら<rt class="roma">yurayura</rt></ruby><ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>どうか<rt class="roma">douka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
+<div class="cn-lyric">摇摇晃晃 有点奇怪</div>
 </div>
 
 <br />
@@ -267,24 +279,28 @@ BPM 83<ruby>に<rt class="roma">ni</rt></ruby><ruby>合<rt class="furi">あ</rt>
 <div class="jp-lyric">
 <ruby>コンビニエンスストア<rt class="roma">konbiniensusutoa</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">在便利店</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 350ml<ruby>の<rt class="roma">no</rt></ruby><ruby>缶<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>ビール<rt class="roma">biiru</rt></ruby><ruby>買<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">买了350毫升的罐装啤酒</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>散歩<rt class="furi">さんぽ</rt><rt class="roma">sanpo</rt></ruby>
 </div>
+<div class="cn-lyric">和你夜晚散步</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>時計<rt class="furi">とけい</rt><rt class="roma">tokei</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>針<rt class="furi">はり</rt><rt class="roma">hari</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>0<ruby>時<rt class="furi">じ</rt><rt class="roma">ji</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>差<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
+<div class="cn-lyric">时钟的指针正指向零点</div>
 </div>
 
 <br />
@@ -293,24 +309,28 @@ BPM 83<ruby>に<rt class="roma">ni</rt></ruby><ruby>合<rt class="furi">あ</rt>
 <div class="jp-lyric">
 &quot;<ruby>クロノスタシス<rt class="roma">kuronosutashisu</rt></ruby>&quot;<ruby>って<rt class="roma">tte</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby>？
 </div>
+<div class="cn-lyric">你知道"クロノスタシス"吗？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">你说你不知道</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>時計<rt class="furi">とけい</rt><rt class="roma">tokei</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>針<rt class="furi">はり</rt><rt class="roma">hari</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まって<rt class="roma">matte</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby>
 </div>
+<div class="cn-lyric">时钟的指针看起来停住了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>現象<rt class="furi">げんしょう</rt><rt class="roma">genshou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">说的是这种现象哦</div>
 </div>
 
 </div>

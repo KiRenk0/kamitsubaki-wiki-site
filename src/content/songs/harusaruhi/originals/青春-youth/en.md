@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/shingan.jpg
 
 ## Overview
 
-青春 appears on 心眼 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+青春 appears on [心眼](/en/albums/harusaruhi/shingan) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -86,7 +86,9 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [00:36.23]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>にとって<rt class="roma">nitotte</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>オブジェクト<rt class="roma">obujekuto</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
-<div class="trans-lyric">To you, I'm just an object</div>
+<div class="trans-lyric">
+[00:36.23]To you, I'm just an object
+</div>
 </div>
 
 <br />
@@ -102,7 +104,9 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [00:43.90]La-la-la-la-la-la-la
 </div>
-<div class="trans-lyric">La-la-la-la-la-la-la</div>
+<div class="trans-lyric">
+[00:43.90]La-la-la-la-la-la-la
+</div>
 </div>
 
 <div class="lyric-line">
@@ -116,6 +120,7 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [00:50.48]La-la-la-la-la-la-la
 </div>
+<div class="trans-lyric">[00:50.48]La-la-la-la-la-la-la</div>
 </div>
 
 <br />
@@ -191,7 +196,7 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [01:24.47]<ruby>背中<rt class="furi">せなか</rt><rt class="roma">senaka</rt></ruby><ruby>押<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby> Alcohol
 </div>
-<div class="trans-lyric">Just alcohol pushing my back</div>
+<div class="trans-lyric">[01:24.47]Just alcohol pushing my back</div>
 </div>
 
 <div class="lyric-line">
@@ -274,7 +279,7 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [01:43.60]<ruby>どうして<rt class="roma">doushite</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby>？
 </div>
-<div class="trans-lyric">Why are you waiting?</div>
+<div class="trans-lyric">[01:43.60]Why are you waiting?</div>
 </div>
 
 <div class="lyric-line">
@@ -334,7 +339,7 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [02:02.72]<ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わって<rt class="roma">watte</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いよ<rt class="roma">iyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>って<rt class="roma">tte</rt></ruby><ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>駄目<rt class="furi">だめ</rt><rt class="roma">dame</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="trans-lyric">Even after it ends, let's smile — that's no good</div>
+<div class="trans-lyric">[02:02.72]Even after it ends, let's smile — that's no good</div>
 </div>
 
 <div class="lyric-line">
@@ -350,6 +355,7 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [02:09.12]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>所為<rt class="furi">しょい</rt><rt class="roma">shoi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby>
 </div>
+<div class="trans-lyric">[02:09.12]An unseen tomorrow because of someone else</div>
 </div>
 
 <div class="lyric-line">
@@ -400,6 +406,7 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [02:42.16]<ruby>何時<rt class="furi">いつ</rt><rt class="roma">itsu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>青春<rt class="furi">せいしゅん</rt><rt class="roma">seishun</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:42.16]The youth of someday</div>
 </div>
 
@@ -409,30 +416,35 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [02:47.76]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>所為<rt class="furi">しょい</rt><rt class="roma">shoi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby>
 </div>
+<div class="trans-lyric">[02:47.76]An unseen tomorrow because of someone else</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:53.13]<ruby>無邪気<rt class="furi">むじゃき</rt><rt class="roma">mujaki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>さえ<rt class="roma">sae</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>吐<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="trans-lyric">[02:53.13]I was even spouting innocent words</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:00.44]<ruby>釘<rt class="furi">くぎ</rt><rt class="roma">kugi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>生<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>上<rt class="furi">のぼ</rt><rt class="roma">nobo</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>坂<rt class="furi">ざか</rt><rt class="roma">zaka</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="trans-lyric">[03:00.44]On an uphill road with nails growing</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:06.14]<ruby>ゴール<rt class="roma">gouru</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>「<ruby>あなた<rt class="roma">anata</rt></ruby>」<ruby>伝<rt class="furi">つた</rt><rt class="roma">tsuta</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">[03:06.14]The goal is 'you', but it doesn't reach</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:11.62]<ruby>悲<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="trans-lyric">[03:11.62]It's sad</div>
 </div>
 
 <br />
@@ -441,12 +453,14 @@ image: /images/albums/harusaruhi/shingan.jpg
 <div class="jp-lyric">
 [03:18.07]<ruby>悲<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="trans-lyric">[03:18.07]It's sad</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:22.08]<ruby>伝<rt class="furi">つた</rt><rt class="roma">tsuta</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>悲<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:22.08]It doesn't reach, it's sad</div>
 </div>
 

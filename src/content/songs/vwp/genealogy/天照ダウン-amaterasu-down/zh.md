@@ -271,6 +271,7 @@ image: /images/albums/vwp/witch-plus-2.jpg
 <div class="jp-lyric">
 [02:09.68]Down Down Down
 </div>
+<div class="cn-lyric">[02:09.68]Down Down Down</div>
 </div>
 
 <div class="lyric-line">
@@ -340,6 +341,7 @@ image: /images/albums/vwp/witch-plus-2.jpg
 <div class="jp-lyric">
 Down Down Down
 </div>
+<div class="cn-lyric">Down Down Down</div>
 </div>
 
 <div class="lyric-line">
@@ -360,18 +362,21 @@ Down Down Down
 <div class="jp-lyric">
 lalala~
 </div>
+<div class="cn-lyric">lalala~</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Down Down Down
 </div>
+<div class="cn-lyric">Down Down Down</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:46.60]<ruby>鈍<rt class="furi">にぶ</rt><rt class="roma">nibu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>鈍<rt class="furi">にぶ</rt><rt class="roma">nibu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>晴<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:46.60]迟钝呢 迟钝呢 晴天</div>
 </div>
 
@@ -379,6 +384,7 @@ Down Down Down
 <div class="jp-lyric">
 [02:48.68]<ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>所<rt class="furi">ところ</rt><rt class="roma">tokoro</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:48.68]去往触及不到之处</div>
 </div>
 

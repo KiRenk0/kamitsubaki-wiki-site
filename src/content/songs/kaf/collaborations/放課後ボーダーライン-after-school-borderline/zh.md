@@ -161,6 +161,7 @@ image: /images/songs/kaf/track-1889815863.jpg
 <div class="jp-lyric">
 <ruby>たぶん<rt class="roma">tabun</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby>
 </div>
+<div class="cn-lyric">大概今天也不会那样哭泣</div>
 </div>
 
 <div class="lyric-line">
@@ -174,48 +175,56 @@ image: /images/songs/kaf/track-1889815863.jpg
 <div class="jp-lyric">
 <ruby>赤<rt class="furi">あか</rt><rt class="roma">aka</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>腕<rt class="furi">うで</rt><rt class="roma">ude</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>掴<rt class="furi">つか</rt><rt class="roma">tsuka</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>放課後<rt class="furi">ほうかご</rt><rt class="roma">houkago</rt></ruby><ruby>少女<rt class="furi">しょうじょ</rt><rt class="roma">shoujo</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>神<rt class="furi">かみ</rt><rt class="roma">kami</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>悪魔<rt class="furi">あくま</rt><rt class="roma">akuma</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby>
 </div>
+<div class="cn-lyric">如果抓住红色的手臂 放学后的少女也会变成神或恶魔</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 「<ruby>変<rt class="furi">へん</rt><rt class="roma">hen</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>天気<rt class="furi">てんき</rt><rt class="roma">tenki</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>、」 <ruby>なん<rt class="roma">nan</rt></ruby><ruby>つって<rt class="roma">tsutte</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="cn-lyric">「奇怪的天气呢」 这么说着今天也</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>曇<rt class="furi">くも</rt><rt class="roma">kumo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>焦<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>がし<rt class="roma">gashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
+<div class="cn-lyric">焦躁着阴沉的天空 继续叫喊着</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>哀愁<rt class="furi">あいしゅう</rt><rt class="roma">aishuu</rt></ruby><ruby>じゃん<rt class="roma">jan</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>傘<rt class="furi">かさ</rt><rt class="roma">kasa</rt></ruby><ruby>開<rt class="furi">ひら</rt><rt class="roma">hira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">那不就是哀愁吗 那就撑开伞吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>憂鬱<rt class="furi">ゆううつ</rt><rt class="roma">yuuutsu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>夕方<rt class="furi">ゆうがた</rt><rt class="roma">yuugata</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
+<div class="cn-lyric">喜欢忧郁的傍晚啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どー<rt class="roma">dou</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>バイト<rt class="roma">baito</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>嫌<rt class="furi">いや</rt><rt class="roma">iya</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
+<div class="cn-lyric">世界为什么在打工的地方充满了讨厌的情绪</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>お<rt class="roma">o</rt></ruby><ruby>天気<rt class="furi">てんき</rt><rt class="roma">tenki</rt></ruby><ruby>雨<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>降<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>らし<rt class="roma">rashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>もっかい<rt class="roma">mokkai</rt></ruby>
 </div>
+<div class="cn-lyric">再下一场太阳雨吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>放課後<rt class="furi">ほうかご</rt><rt class="roma">houkago</rt></ruby><ruby>ボーダーライン<rt class="roma">boudaarain</rt></ruby>
 </div>
+<div class="cn-lyric">放学后的边界线</div>
 </div>
 
 <div class="lyric-line">
@@ -257,6 +266,7 @@ image: /images/songs/kaf/track-1889815863.jpg
 <div class="jp-lyric">
 [03:05.92]<ruby>不思議<rt class="furi">ふしぎ</rt><rt class="roma">fushigi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>国<rt class="furi">くに</rt><rt class="roma">kuni</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>アリス<rt class="roma">arisu</rt></ruby><ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>ラビリンス<rt class="roma">rabirinsu</rt></ruby>彷<ruby>迷<rt class="furi">まよ</rt><rt class="roma">mayo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:05.92]爱丽丝梦游仙境 重复的迷宫彷徨</div>
 </div>
 
@@ -264,6 +274,7 @@ image: /images/songs/kaf/track-1889815863.jpg
 <div class="jp-lyric">
 [03:10.84]<ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>救<rt class="furi">すく</rt><rt class="roma">suku</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> <ruby>こりゃ<rt class="roma">korya</rt></ruby><ruby>まあ<rt class="roma">maa</rt></ruby><ruby>可愛<rt class="furi">かわい</rt><rt class="roma">kawai</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:10.84]因为只有死亡才是救赎 这可真是想保持可爱呢</div>
 </div>
 
@@ -271,6 +282,7 @@ image: /images/songs/kaf/track-1889815863.jpg
 <div class="jp-lyric">
 [03:15.56]<ruby>不思議<rt class="furi">ふしぎ</rt><rt class="roma">fushigi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>国<rt class="furi">くに</rt><rt class="roma">kuni</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>アリス<rt class="roma">arisu</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:15.56]如果是爱丽丝梦游仙境的梦的话</div>
 </div>
 
@@ -278,6 +290,7 @@ image: /images/songs/kaf/track-1889815863.jpg
 <div class="jp-lyric">
 [03:18.18]<ruby>嫌<rt class="furi">いや</rt><rt class="roma">iya</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>んじゃ<rt class="roma">nja</rt></ruby><ruby>ねー<rt class="roma">nee</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:18.18]不是说了讨厌吗</div>
 </div>
 
@@ -285,6 +298,7 @@ image: /images/songs/kaf/track-1889815863.jpg
 <div class="jp-lyric">
 [03:20.43]<ruby>凄<rt class="furi">すご</rt><rt class="roma">sugo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>イライラ<rt class="roma">iraira</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>あっ<rt class="roma">a</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:20.43]非常烦躁啊</div>
 </div>
 
@@ -292,6 +306,7 @@ image: /images/songs/kaf/track-1889815863.jpg
 <div class="jp-lyric">
 [03:24.74]<ruby>ゴミ<rt class="roma">gomi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>イカ<rt class="roma">ika</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>あたし<rt class="roma">atashi</rt></ruby><ruby>境界<rt class="furi">きょうかい</rt><rt class="roma">kyoukai</rt></ruby><ruby>ボーダーライン<rt class="roma">boudaarain</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:24.74]像垃圾一样发疯的我 境界边界线</div>
 </div>
 
@@ -299,6 +314,7 @@ image: /images/songs/kaf/track-1889815863.jpg
 <div class="jp-lyric">
 [03:29.52]<ruby>線路<rt class="furi">せんろ</rt><rt class="roma">senro</rt></ruby><ruby>沿<rt class="furi">ぞ</rt><rt class="roma">zo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>薬局<rt class="furi">やっきょく</rt><rt class="roma">yakkyoku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>寄<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>心配<rt class="furi">しんぱい</rt><rt class="roma">shinpai</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:29.52]顺路去铁路边的药店 说不用担心啊</div>
 </div>
 
@@ -306,6 +322,7 @@ image: /images/songs/kaf/track-1889815863.jpg
 <div class="jp-lyric">
 [03:34.12]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>足<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>自由<rt class="furi">じゆう</rt><rt class="roma">jiyuu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>場所<rt class="furi">ばしょ</rt><rt class="roma">basho</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:34.12]被爱不足的痛苦的自己和自由的地方</div>
 </div>
 
@@ -313,6 +330,7 @@ image: /images/songs/kaf/track-1889815863.jpg
 <div class="jp-lyric">
 [03:38.99]<ruby>ぶっ<rt class="roma">bu</rt></ruby><ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>虚<rt class="furi">むな</rt><rt class="roma">muna</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>依存<rt class="furi">いぞん</rt><rt class="roma">izon</rt></ruby><ruby>症<rt class="furi">しょう</rt><rt class="roma">shou</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:38.99]逐渐崩坏的空虚的依赖症</div>
 </div>
 
@@ -320,54 +338,67 @@ image: /images/songs/kaf/track-1889815863.jpg
 <div class="jp-lyric">
 <ruby>幸<rt class="furi">しあわ</rt><rt class="roma">shiawa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>イタズラ<rt class="roma">itazura</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>、<ruby>神様<rt class="furi">かみさま</rt><rt class="roma">kamisama</rt></ruby><ruby>ホット<rt class="roma">hotto</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">幸福是恶作剧呢 神啊别管我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>レゾンデートル<rt class="roma">rezondeetoru</rt></ruby> <ruby>イカ<rt class="roma">ika</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>電線<rt class="furi">でんせん</rt><rt class="roma">densen</rt></ruby>
 </div>
+<div class="cn-lyric">存在的意义 发疯的电线</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ざわめく<rt class="roma">zawameku</rt></ruby><ruby>精神<rt class="furi">せいしん</rt><rt class="roma">seishin</rt></ruby><ruby>弱者<rt class="furi">じゃくしゃ</rt><rt class="roma">jakusha</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>飛び散<rt class="furi">とびち</rt><rt class="roma">tobichi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>ノイズ<rt class="roma">noizu</rt></ruby>
 </div>
+<div class="cn-lyric">嘈杂的精神弱者飞散的噪音</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ごめん<rt class="roma">gomen</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>呟<rt class="furi">つぶや</rt><rt class="roma">tsubuya</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">嘟囔着活着的对不起</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>タイム<rt class="roma">taimu</rt></ruby><ruby>ライン<rt class="roma">rain</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>遺言<rt class="furi">ゆいごん</rt><rt class="roma">yuigon</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>並<rt class="furi">なら</rt><rt class="roma">nara</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
+<div class="cn-lyric">在时间线上排列遗言</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ゴミ<rt class="roma">gomi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>イカ<rt class="roma">ika</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>あたし<rt class="roma">atashi</rt></ruby><ruby>境界<rt class="furi">きょうかい</rt><rt class="roma">kyoukai</rt></ruby><ruby>ボーダーライン<rt class="roma">boudaarain</rt></ruby>
 </div>
+
+<div class="cn-lyric">像垃圾一样发疯的我 境界边界线</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>線路<rt class="furi">せんろ</rt><rt class="roma">senro</rt></ruby><ruby>沿<rt class="furi">ぞ</rt><rt class="roma">zo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>薬局<rt class="furi">やっきょく</rt><rt class="roma">yakkyoku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>寄<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>心配<rt class="furi">しんぱい</rt><rt class="roma">shinpai</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+
+<div class="cn-lyric">顺路去铁路边的药店 说不用担心啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>足<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>自由<rt class="furi">じゆう</rt><rt class="roma">jiyuu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>場所<rt class="furi">ばしょ</rt><rt class="roma">basho</rt></ruby>
 </div>
+
+<div class="cn-lyric">被爱不足的痛苦的自己和自由的地方</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ぶっ<rt class="roma">bu</rt></ruby><ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>虚<rt class="furi">むな</rt><rt class="roma">muna</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>依存<rt class="furi">いぞん</rt><rt class="roma">izon</rt></ruby><ruby>症<rt class="furi">しょう</rt><rt class="roma">shou</rt></ruby>
 </div>
+
+<div class="cn-lyric">逐渐崩坏的空虚的依赖症</div>
 </div>
 
 </div>

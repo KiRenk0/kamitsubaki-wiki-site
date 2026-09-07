@@ -169,6 +169,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 <ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>日本<rt class="furi">にっぽん</rt><rt class="roma">nippon</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby>
 </div>
+<div class="cn-lyric">夏天啊夏天 日本的夏天</div>
 </div>
 
 <div class="lyric-line">
@@ -288,6 +289,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 『<ruby>兄<rt class="furi">にい</rt><rt class="roma">nii</rt></ruby><ruby>さん<rt class="roma">san</rt></ruby>、<ruby>種<rt class="furi">たね</rt><rt class="roma">tane</rt></ruby><ruby>出<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>。』
 </div>
+
 <div class="cn-lyric">『大哥，把籽吐出来哦。』</div>
 </div>
 

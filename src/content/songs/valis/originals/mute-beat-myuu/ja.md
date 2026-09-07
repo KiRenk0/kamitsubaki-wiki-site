@@ -17,7 +17,7 @@ image: /images/songs/valis/mute-beat-myuu.jpg
 
 ## 作品概要
 
-VALISが2025-05-30にリリースしたシングル「Mute Beat(ミュー)」。
+[VALIS](/ja/artists/solo/valis)が2025-05-30にリリースしたシングル「Mute Beat(ミュー)」。
 
 ## 視聴
 {{media-switcher::Mute Beat(ミュー)}}

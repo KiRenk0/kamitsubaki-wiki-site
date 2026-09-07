@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 
 ## 作品简介
 
-《当事者 (Cover Live)》收录于《CREAM PUFF LIVE 4 (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《当事者 (Cover Live)》收录于《[CREAM PUFF LIVE 4](/zh/albums/harusaruhi/cream-puff-live-4) (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -252,12 +252,14 @@ Oh-oh
 <div class="jp-lyric">
 <ruby>弱<rt class="furi">よわ</rt><rt class="roma">yowa</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>罪<rt class="furi">つみ</rt><rt class="roma">tsumi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">如果软弱是罪的话 请回答我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>犠牲<rt class="furi">ぎせい</rt><rt class="roma">gisei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>?
 </div>
+<div class="cn-lyric">我可以牺牲谁而活下去？</div>
 </div>
 
 <div class="lyric-line">
@@ -278,18 +280,21 @@ Oh-oh
 <div class="jp-lyric">
 <ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>こえる<rt class="roma">koeru</rt></ruby><ruby>罵声<rt class="furi">ばせい</rt><rt class="roma">basei</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>絶叫<rt class="furi">ぜっきょう</rt><rt class="roma">zekkyou</rt></ruby>
 </div>
+<div class="cn-lyric">远处传来的谩骂与惨叫</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>正義<rt class="furi">せいぎ</rt><rt class="roma">seigi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>問<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>いかける<rt class="roma">ikakeru</rt></ruby>
 </div>
+<div class="cn-lyric">质问正义</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:43.20]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>きる<rt class="roma">kiru</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>犠牲<rt class="furi">ぎせい</rt><rt class="roma">gisei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:43.20]我活下去 牺牲你</div>
 </div>
 
@@ -297,6 +302,7 @@ Oh-oh
 <div class="jp-lyric">
 [03:48.69]<ruby>自<rt class="furi">みずか</rt><rt class="roma">mizuka</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>汚<rt class="furi">けが</rt><rt class="roma">kega</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>事<rt class="furi">こと</rt><rt class="roma">koto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>選<rt class="furi">えら</rt><rt class="roma">era</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:48.69]选择弄脏自己的手</div>
 </div>
 
@@ -304,6 +310,7 @@ Oh-oh
 <div class="jp-lyric">
 [03:56.26]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>当事者<rt class="furi">とうじしゃ</rt><rt class="roma">toujisha</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby> <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:56.26]我成为当事人 此刻</div>
 </div>
 

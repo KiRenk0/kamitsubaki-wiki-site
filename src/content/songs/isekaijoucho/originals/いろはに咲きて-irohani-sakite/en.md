@@ -72,6 +72,7 @@ image: /images/songs/isekaijoucho/single-1687474422.jpg
 <div class="jp-lyric">
 [00:24.55]<ruby>ぱぱぱ<rt class="roma">papapa</rt></ruby>
 </div>
+<div class="trans-lyric">[00:24.55]pa pa pa</div>
 </div>
 
 <br />
@@ -276,12 +277,14 @@ image: /images/songs/isekaijoucho/single-1687474422.jpg
 <div class="jp-lyric">
 [02:49.81]<ruby>ひらり<rt class="roma">hirari</rt></ruby>、<ruby>ありふれ<rt class="roma">arifure</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>純情<rt class="furi">じゅんじょう</rt><rt class="roma">junjou</rt></ruby>
 </div>
+<div class="trans-lyric">[02:49.81]Fluttering, commonplace, innocent</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:53.20]屹<ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby> <ruby>晴<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>れやか<rt class="roma">reyaka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="trans-lyric">[02:53.20]Surely, cheerfully</div>
 </div>
 
 <div class="lyric-line">
@@ -297,24 +300,28 @@ image: /images/songs/isekaijoucho/single-1687474422.jpg
 <div class="jp-lyric">
 [03:03.59]<ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby> <ruby>浴<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>ながら<rt class="roma">nagara</rt></ruby><ruby>煌<rt class="furi">きら</rt><rt class="roma">kira</rt></ruby><ruby>めけ<rt class="roma">meke</rt></ruby>
 </div>
+<div class="trans-lyric">[03:03.59]Shine while bathing in light</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:06.96]<ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>雨上<rt class="furi">あめあ</rt><rt class="roma">amea</rt></ruby><ruby>がり<rt class="roma">gari</rt></ruby>
 </div>
+<div class="trans-lyric">[03:06.96]Someday after the rain</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:11.82]<ruby>末代<rt class="furi">まつだい</rt><rt class="roma">matsudai</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
+<div class="trans-lyric">[03:11.82]Until the end of time</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:13.53]<ruby>呪<rt class="furi">まじな</rt><rt class="roma">majina</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>かけ<rt class="roma">kake</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>祭<rt class="furi">まつ</rt><rt class="roma">matsu</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>騒<rt class="furi">さわ</rt><rt class="roma">sawa</rt></ruby><ruby>ぎ<rt class="roma">gi</rt></ruby>
 </div>
+<div class="trans-lyric">[03:13.53]Casting a curse, festival frenzy</div>
 </div>
 
 <br />
@@ -323,6 +330,7 @@ image: /images/songs/isekaijoucho/single-1687474422.jpg
 <div class="jp-lyric">
 [03:21.15]<ruby>真<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>っ<rt class="roma"></rt></ruby><ruby>新<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>画<rt class="furi">が</rt><rt class="roma">ga</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:21.15]Drawing a brand new picture</div>
 </div>
 
@@ -330,6 +338,7 @@ image: /images/songs/isekaijoucho/single-1687474422.jpg
 <div class="jp-lyric">
 [03:24.20]<ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>時<rt class="furi">じ</rt><rt class="roma">ji</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>時<rt class="furi">じ</rt><rt class="roma">ji</rt></ruby><ruby>迄<rt class="furi">まで</rt><rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>視<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:24.20]I was dreaming forever and ever</div>
 </div>
 
@@ -337,6 +346,7 @@ image: /images/songs/isekaijoucho/single-1687474422.jpg
 <div class="jp-lyric">
 [03:27.81]<ruby>また<rt class="roma">mata</rt></ruby><ruby>独<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>眠<rt class="furi">ねむ</rt><rt class="roma">nemu</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:27.81]Sleeping alone again</div>
 </div>
 

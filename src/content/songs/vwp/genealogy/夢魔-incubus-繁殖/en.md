@@ -24,7 +24,7 @@ image: /images/albums/vwp/proliferation.jpg
 
 ## Overview
 
-夢魔 (feat. Harusaruhi & V.W.P) appears on 繁殖 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+夢魔 (feat. Harusaruhi & V.W.P) appears on [繁殖](/en/albums/vwp/proliferation) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

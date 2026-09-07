@@ -301,6 +301,7 @@ image: /images/songs/rim/single-1840911230.jpg
 <div class="jp-lyric">
 <ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="cn-lyric">因为</div>
 </div>
 
 <div class="lyric-line">
@@ -314,6 +315,7 @@ image: /images/songs/rim/single-1840911230.jpg
 <div class="jp-lyric">
 [02:20.39]But I glow in your dawn
 </div>
+
 <div class="cn-lyric">[02:20.39]但我在你的曙光中闪耀</div>
 </div>
 

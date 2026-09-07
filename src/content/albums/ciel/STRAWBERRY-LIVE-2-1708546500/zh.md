@@ -138,7 +138,7 @@ tracks:
 
 ## 简介
 
-CIEL于 2023-10-04 发行的Live Album《STRAWBERRY LIVE 2》,共收录 29 首歌曲。
+[CIEL](/zh/artists/solo/ciel)于 2023-10-04 发行的Live Album《STRAWBERRY LIVE 2》,共收录 29 首歌曲。
 
 ## 收录曲
 

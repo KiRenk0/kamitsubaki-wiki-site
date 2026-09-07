@@ -17,7 +17,7 @@ image: /images/songs/anmc/二人dakeno物語-feat.-kahoca,-一no瀬陽鞠.jpg
 
 ## 作品简介
 
-ANMC于 2025-04-23 发行的单曲《二人だけの物語 feat. kahoca, 一ノ瀬陽鞠》。
+[ANMC](/zh/artists/solo/anmc)于 2025-04-23 发行的单曲《二人だけの物語 feat. kahoca, 一ノ瀬陽鞠》。
 
 ## 试听
 {{media-switcher::二人だけの物語 feat. kahoca, 一ノ瀬陽鞠}}

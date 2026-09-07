@@ -338,18 +338,21 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">让我听见你的声音</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>澱<rt class="furi">よど</rt><rt class="roma">yodo</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>祓<rt class="furi">はら</rt><rt class="roma">hara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">驱散淤积的心情</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>偽<rt class="furi">いつわ</rt><rt class="roma">itsuwa</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>キャンバス<rt class="roma">kyanbasu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">将虚假的画布</div>
 </div>
 
 <div class="lyric-line">
@@ -370,6 +373,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:22.54]<ruby>残<rt class="furi">のこ</rt><rt class="roma">noko</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>術<rt class="furi">じゅつ</rt><rt class="roma">jutsu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:22.54]若无留下方法</div>
 </div>
 
@@ -377,6 +381,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:28.70]<ruby>温<rt class="furi">ぬく</rt><rt class="roma">nuku</rt></ruby><ruby>もり<rt class="roma">mori</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>焼き付<rt class="furi">やきつ</rt><rt class="roma">yakitsu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:28.70]将温暖烙印</div>
 </div>
 
@@ -384,6 +389,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:28.70]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>殺<rt class="furi">ころ</rt><rt class="roma">koro</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:28.70]杀了我</div>
 </div>
 
@@ -391,6 +397,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 Leia...
 </div>
+<div class="cn-lyric">Leia...</div>
 </div>
 
 <br />
@@ -399,6 +406,7 @@ Leia...
 <div class="jp-lyric">
 Leia...
 </div>
+<div class="cn-lyric">Leia...</div>
 </div>
 
 </div>

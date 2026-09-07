@@ -17,7 +17,7 @@ image: /images/songs/mimi/頂戴na-feat.-沖石.jpg
 
 ## 作品简介
 
-MIMI于 2024-01-24 发行的单曲《頂戴な (feat. 沖石)》。
+[MIMI](/zh/artists/creators/mimi)于 2024-01-24 发行的单曲《頂戴な (feat. 沖石)》。
 
 ## 试听
 {{media-switcher::頂戴な (feat. 沖石)}}

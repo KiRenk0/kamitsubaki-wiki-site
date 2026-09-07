@@ -143,14 +143,18 @@ image: /images/albums/kaf/kyoso.jpg
 <div class="jp-lyric">
 [01:48.15]<ruby>もったいない<rt class="roma">mottainai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>じゃう<rt class="roma">jau</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
-<div class="trans-lyric">What a waste, if I'm going to die tomorrow</div>
+<div class="trans-lyric">
+[01:48.15]What a waste, if I'm going to die tomorrow
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:52.45]<ruby>どう<rt class="roma">dou</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="trans-lyric">I don't care anymore</div>
+<div class="trans-lyric">
+[01:52.45]I don't care anymore
+</div>
 </div>
 
 <div class="lyric-line">

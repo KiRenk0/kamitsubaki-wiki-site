@@ -207,48 +207,56 @@ Doch nehmt ihr es nicht als Warnung, sondern Anleitung!
 <div class="jp-lyric">
 Und wie könnt ihr euch noch im Spiegel anschauen
 </div>
+<div class="cn-lyric">而你们又如何还能面对镜子中的自己</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Euch wundern, dass euch all die Menschen misstrauen?
 </div>
+<div class="cn-lyric">奇怪为何所有人都不信任你们？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Längst vergessen, dass ihr dem Volke geschworen
 </div>
+<div class="cn-lyric">早已忘记你们曾向人民宣誓</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Von ihm abzuwenden jegliches Grauen?
 </div>
+<div class="cn-lyric">要为他们祛除一切恐怖？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Habt ihr kein Gewissen, kein Herz, keine Seele
 </div>
+<div class="cn-lyric">你们没有良知，没有心，没有灵魂</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Keinen Anstand, nichts, das euch das Gefühl gäbe
 </div>
+<div class="cn-lyric">没有体面，没有任何东西能让你们感觉</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Ein Teil zu sein des Landes eurer Vorväter
 </div>
+<div class="cn-lyric">自己是祖先土地的一部分</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Dann seid ihr für mich weiter nichts, nichts als Verräter!
 </div>
+<div class="cn-lyric">那么对我来说你们什么都不是，只是叛徒！</div>
 </div>
 
 <br />
@@ -257,6 +265,7 @@ Dann seid ihr für mich weiter nichts, nichts als Verräter!
 <div class="jp-lyric">
 Verräter! Verräter! Ihr miesen Schreibtischtäter!
 </div>
+
 <div class="cn-lyric">叛徒！叛徒！你们这些卑劣的桌边罪犯！</div>
 </div>
 
@@ -264,6 +273,7 @@ Verräter! Verräter! Ihr miesen Schreibtischtäter!
 <div class="jp-lyric">
 Es gibt noch deutsche Herzen, pochend im Takt Schlageters!
 </div>
+
 <div class="cn-lyric">还有德意志的心，按施拉格特的节拍跳动！</div>
 </div>
 
@@ -271,12 +281,15 @@ Es gibt noch deutsche Herzen, pochend im Takt Schlageters!
 <div class="jp-lyric">
 Verräter! Verräter! Ihr miesen Schreibtischtäter!
 </div>
+
+<div class="cn-lyric">叛徒！叛徒！你们这些卑劣的桌边罪犯！</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Es gibt noch Deutschritter, standhaft und zäh wie Leder!
 </div>
+
 <div class="cn-lyric">还有德意志骑士，坚毅如皮革！</div>
 </div>
 
@@ -284,12 +297,15 @@ Es gibt noch Deutschritter, standhaft und zäh wie Leder!
 <div class="jp-lyric">
 Verräter! Verräter! Ihr miesen Schreibtischtäter!
 </div>
+
+<div class="cn-lyric">叛徒！叛徒！你们这些卑劣的桌边罪犯！</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Wir wollen nur eines... Freiheit!
 </div>
+
 <div class="cn-lyric">我们只想要一件事……自由！</div>
 </div>
 

@@ -159,6 +159,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [01:15.83]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>嫌<rt class="furi">きら</rt><rt class="roma">kira</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
+<div class="cn-lyric">[01:15.83]我们被生命厌恶着</div>
 </div>
 
 <div class="lyric-line">
@@ -313,6 +314,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [02:51.75]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>嫌<rt class="furi">きら</rt><rt class="roma">kira</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
+<div class="cn-lyric">[02:51.75]我们被生命厌恶着</div>
 </div>
 
 <div class="lyric-line">
@@ -340,6 +342,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [03:02.48]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>嫌<rt class="furi">きら</rt><rt class="roma">kira</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
+<div class="cn-lyric">[03:02.48]我们被生命厌恶着</div>
 </div>
 
 <div class="lyric-line">
@@ -455,6 +458,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [04:14.40]<ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>必死<rt class="furi">ひっし</rt><rt class="roma">hisshi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>抱<rt class="furi">かか</rt><rt class="roma">kaka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:14.40]拼命地怀抱生命活着</div>
 </div>
 
@@ -462,6 +466,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [04:17.28]<ruby>殺<rt class="furi">ころ</rt><rt class="roma">koro</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>足掻<rt class="furi">あが</rt><rt class="roma">aga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>抱<rt class="furi">かか</rt><rt class="roma">kaka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:17.28]杀害 挣扎 欢笑 拥抱</div>
 </div>
 
@@ -469,6 +474,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [04:20.08]<ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>きろ<rt class="roma">kiro</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:20.08]活着 活着 活着 活着 活下去</div>
 </div>
 

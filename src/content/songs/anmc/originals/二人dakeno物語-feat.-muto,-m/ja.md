@@ -17,7 +17,7 @@ image: /images/songs/anmc/二人dakeno物語-feat.-muto,-m.jpg
 
 ## 作品概要
 
-ANMCが2025-04-09にリリースしたシングル「二人だけの物語 feat. むト, m」。
+[ANMC](/ja/artists/solo/anmc)が2025-04-09にリリースしたシングル「二人だけの物語 feat. むト, m」。
 
 ## 視聴
 {{media-switcher::二人だけの物語 feat. むト, m}}

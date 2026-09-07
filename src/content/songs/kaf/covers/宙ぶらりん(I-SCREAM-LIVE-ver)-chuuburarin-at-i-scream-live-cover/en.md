@@ -124,6 +124,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>宙<rt class="furi">ちゅう</rt><rt class="roma">chuu</rt></ruby><ruby>ぶらりん<rt class="roma">burarin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>なんて<rt class="roma">nante</rt></ruby><ruby>簡単<rt class="furi">かんたん</rt><rt class="roma">kantan</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ガッツポーズ<rt class="roma">gattsupouzu</rt></ruby><ruby>決<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>させ<rt class="roma">sase</rt></ruby>
 </div>
+<div class="trans-lyric">How easily you made me, hanging in midair, strike a victory pose</div>
 </div>
 
 <div class="lyric-line">
@@ -144,6 +145,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby><ruby>主役<rt class="furi">しゅやく</rt><rt class="roma">shuyaku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>なり<rt class="roma">nari</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>がってる<rt class="roma">gatteru</rt></ruby>
 </div>
+
 <div class="trans-lyric">Right now, I want to become the lead role with you</div>
 </div>
 

@@ -81,10 +81,10 @@ As a member of the Musical Isotope series, she is positioned as a "creative part
 
 ### 2022
 
-- **April 16**: RIME's existence was first revealed in a teaser video during the end credits of V.W.P's 1st ONE-MAN LIVE "Phenomenon" (現象).
-- **July 7**: Pre-orders for CeVIO AI RIME officially began, and the music video for her first cover song, "Carnivorous Plant" (食虫植物) (originally by Kaf), was released on YouTube.
+- **April 16**: RIME's existence was first revealed in a teaser video during the end credits of [V.W.P](/en/artists/vwp/vwp)'s 1st ONE-MAN LIVE "Phenomenon" (現象).
+- **July 7**: Pre-orders for CeVIO AI RIME officially began, and the music video for her first cover song, "Carnivorous Plant" ([食虫植物](/en/songs/rim/originals/食虫植物-carnivorous-plant)) (originally by Kaf), was released on YouTube.
 - **July 14**: The first original song "Mandarin" (マンダリン), composed by R Sound Design, was released.
-- **September 30**: RIM released the duet version of her song, "NEUROMANCE feat. RIME (from Singularity Live)".
+- **September 30**: RIM released the duet version of her song, "[NEUROMANCE](/en/songs/rim/originals/neuromance) feat. RIME (from Singularity Live)".
 - **October 25**: "CeVIO AI Musical Isotope RIME" was officially released, and character designer PALOW. revealed the official character illustration.
 - **December 5**: The RIME Illustration, Song, and MV Contest was launched.
 
@@ -113,7 +113,7 @@ As a member of the Musical Isotope series, she is positioned as a "creative part
 RIME has maintained high activity within the creator community, with notable works including:
 
 - "Carnivorous Plant" (Covered by RIME)
-- "Sweetness and Anarchy" / "甘美な無法" (Covered by RIME)
+- "Sweetness and Anarchy" / "[甘美な無法](/en/songs/rim/originals/甘美な無法-luscious-lawless)" (Covered by RIME)
 - Countless UGC-created original songs (such as "Mandarin" / "マンダリン" composed by R Sound Design, and "In Grief" / "傷心中" composed by Picon).
 
 Recommended related entries:

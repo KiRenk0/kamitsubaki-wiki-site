@@ -254,18 +254,21 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 <ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>沈<rt class="furi">しず</rt><rt class="roma">shizu</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby><ruby>あと<rt class="roma">ato</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>藍<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+<div class="cn-lyric">日落之后那一片靛蓝</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>大好<rt class="furi">だいす</rt><rt class="roma">daisu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">我之所以如此喜欢</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:37.02]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>瞳<rt class="furi">ひとみ</rt><rt class="roma">hitomi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:37.02]是因为你的眼睛看不见</div>
 </div>
 
@@ -273,6 +276,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [03:42.41]<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:42.41]我哭泣的地方也没关系</div>
 </div>
 

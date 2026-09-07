@@ -17,7 +17,7 @@ image: /images/songs/mimi/yumemaboroshi.jpg
 
 ## 作品概要
 
-MIMIが2023-12-19にリリースしたシングル「ゆめまぼろし」。
+[MIMI](/ja/artists/creators/mimi)が2023-12-19にリリースしたシングル「ゆめまぼろし」。
 
 ## 視聴
 {{media-switcher::ゆめまぼろし}}

@@ -17,7 +17,7 @@ image: /images/songs/albemuth/guilty.jpg
 
 ## 作品概要
 
-Albemuthが2023-04-26にリリースしたシングル「guilty」。
+[Albemuth](/ja/artists/solo/albemuth)が2023-04-26にリリースしたシングル「guilty」。
 
 ## 視聴
 {{media-switcher::guilty}}

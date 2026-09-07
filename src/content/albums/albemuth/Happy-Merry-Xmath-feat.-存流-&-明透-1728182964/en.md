@@ -78,7 +78,7 @@ tracks:
 
 ## Overview
 
-ALBEMUTH's album “Happy Merry Xmath (feat. 存流 & 明透)”, released on 2024-02-14, featuring 14 tracks.
+[ALBEMUTH](/en/artists/solo/albemuth)'s album “Happy Merry Xmath (feat. 存流 & 明透)”, released on 2024-02-14, featuring 14 tracks.
 
 ## Track List
 

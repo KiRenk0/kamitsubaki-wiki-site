@@ -220,6 +220,7 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 [03:17.58]<ruby>可能<rt class="furi">かのう</rt><rt class="roma">kanou</rt></ruby><ruby>性<rt class="furi">せい</rt><rt class="roma">sei</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>拡張<rt class="furi">かくちょう</rt><rt class="roma">kakuchou</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">[03:17.58]可能性在不断扩张</div>
 </div>
 
 <div class="lyric-line">
@@ -268,6 +269,7 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 [04:13.05]<ruby>メロディ<rt class="roma">merodei</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>ひらく<rt class="roma">hiraku</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[04:13.05]如旋律让花朵绽放般</div>
 </div>
 
 <div class="lyric-line">
@@ -281,6 +283,7 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 [04:22.77]<ruby>可能<rt class="furi">かのう</rt><rt class="roma">kanou</rt></ruby><ruby>性<rt class="furi">せい</rt><rt class="roma">sei</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>拡張<rt class="furi">かくちょう</rt><rt class="roma">kakuchou</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>！
 </div>
+
 <div class="cn-lyric">[04:22.77]可能性在不断扩张！</div>
 </div>
 
@@ -288,6 +291,7 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 [04:26.89]<ruby>重<rt class="furi">かさ</rt><rt class="roma">kasa</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>起<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>こす<rt class="roma">kosu</rt></ruby><ruby>奇跡<rt class="furi">きせき</rt><rt class="roma">kiseki</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:26.89]以交叠的心引发的奇迹</div>
 </div>
 
@@ -295,24 +299,28 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 [04:30.93]<ruby>これ<rt class="roma">kore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>、<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>、<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>、<ruby>存在<rt class="furi">そんざい</rt><rt class="roma">sonzai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>、<ruby>証明<rt class="furi">しょうめい</rt><rt class="roma">shoumei</rt></ruby>
 </div>
+<div class="cn-lyric">[04:30.93]这便是，我们的，爱的，存在的，证明</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:36.70]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby>、<ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>まって<rt class="roma">matte</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby>
 </div>
+<div class="cn-lyric">[04:36.70]此刻，已然开始</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:40.83]<ruby>空目<rt class="furi">そらめ</rt><rt class="roma">sorame</rt></ruby><ruby>指<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>鳥<rt class="furi">とり</rt><rt class="roma">tori</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>、<ruby>緑<rt class="furi">みどり</rt><rt class="roma">midori</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>きつく<rt class="roma">kitsuku</rt></ruby><ruby>場所<rt class="furi">ばしょ</rt><rt class="roma">basho</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[04:40.83]如飞向天空的鸟儿，不知绿色抵达何方</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:47.84]<ruby>拡散<rt class="furi">かくさん</rt><rt class="roma">kakusan</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ゆく<rt class="roma">yuku</rt></ruby>
 </div>
+<div class="cn-lyric">[04:47.84]不断扩散</div>
 </div>
 
 </div>

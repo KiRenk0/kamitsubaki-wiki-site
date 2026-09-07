@@ -17,7 +17,7 @@ image: /images/songs/mimi/saiensu-feat.-重音teto.jpg
 
 ## 作品概要
 
-MIMIが2024-12-14にリリースしたシングル「サイエンス (feat. 重音テト)」。
+[MIMI](/ja/artists/creators/mimi)が2024-12-14にリリースしたシングル「サイエンス (feat. 重音テト)」。
 
 ## 視聴
 {{media-switcher::サイエンス (feat. 重音テト)}}

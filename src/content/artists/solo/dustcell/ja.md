@@ -80,15 +80,15 @@ DUSTCELLのボーカル。低い語り、強い叫び、かすれた境界、長
 
 ### 2019年
 
-- **10月11日**：「CULT」を発表し活動開始。
+- **10月11日**：「[CULT](/ja/songs/harusaruhi/covers/cult)」を発表し活動開始。
 - **10月18日**：[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio)への参加を発表。
 - **11月22日**：「STIGMA」を発表。
 
 ### 2020年
 
 - 「LAZY」「Heaven and Hell」「DOMINATION」「LILAC」「SOPPY」などを発表。
-- **5月20日**：1st Full Album『[SUMMIT](/ja/albums/dustcell/SUMMIT-1688155907)』を発売。
-- **7月31日**：1st ONE-MAN LIVE『SUMMIT』を無観客配信として開催。
+- **5月20日**：1st Full Album『[SUMMIT](/ja/albums/dustcell/summit-1688155907)』を発売。
+- **7月31日**：1st ONE-MAN LIVE『[SUMMIT](/ja/albums/dustcell/summit-1688155907)』を無観客配信として開催。
 - **11月15日**：2nd ONE-MAN LIVE『HOWL』をオンライン・会場の両形式で開催。
 - **12月23日**：「[Mad Hatter](/ja/songs/dustcell/originals/mad-hatter)」を発表。
 
@@ -98,7 +98,7 @@ DUSTCELLのボーカル。低い語り、強い叫び、かすれた境界、長
 
 ## 音楽作品とライブ
 
-入口となる作品は「CULT」「STIGMA」「LAZY」「Heaven and Hell」「DOMINATION」「LILAC」「SOPPY」「アネモネ」「ONE」「終点」「[DERO](/ja/songs/dustcell/originals/dero)」「[PAIN](/ja/songs/dustcell/originals/pain)」「[Mad Hatter](/ja/songs/dustcell/originals/mad-hatter)」「[命の行方](/ja/songs/dustcell/originals/命no行方)」「[独白](/ja/songs/dustcell/originals/独白)」などである。
+入口となる作品は「CULT」「STIGMA」「LAZY」「Heaven and Hell」「DOMINATION」「LILAC」「SOPPY」「アネモネ」「ONE」「[終点](/ja/songs/koko/covers/終点-shuuten)」「[DERO](/ja/songs/dustcell/originals/dero)」「[PAIN](/ja/songs/dustcell/originals/pain)」「[Mad Hatter](/ja/songs/dustcell/originals/mad-hatter)」「[命の行方](/ja/songs/dustcell/originals/命no行方)」「[独白](/ja/songs/dustcell/originals/独白)」などである。
 
 | 時期 | 主な作品 | 位置づけ |
 | --- | --- | --- |

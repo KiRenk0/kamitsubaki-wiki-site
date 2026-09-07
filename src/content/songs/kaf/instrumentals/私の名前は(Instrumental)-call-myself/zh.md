@@ -75,6 +75,7 @@ repeat after me
 <div class="jp-lyric">
 <ruby>アポー<rt class="roma">apou</rt></ruby>、<ruby>バナナ<rt class="roma">banana</rt></ruby>
 </div>
+<div class="cn-lyric">阿波，香蕉</div>
 </div>
 
 <div class="lyric-line">
@@ -151,6 +152,7 @@ today's lunch Happo-sai
 <div class="jp-lyric">
 <ruby>アポー<rt class="roma">apou</rt></ruby>
 </div>
+<div class="cn-lyric">阿波</div>
 </div>
 
 <div class="lyric-line">
@@ -164,6 +166,7 @@ today's lunch Happo-sai
 <div class="jp-lyric">
 <ruby>りんご<rt class="roma">ringo</rt></ruby>
 </div>
+<div class="cn-lyric">苹果</div>
 </div>
 
 <div class="lyric-line">
@@ -177,6 +180,7 @@ today's lunch Happo-sai
 <div class="jp-lyric">
 <ruby>おいしい<rt class="roma">oishii</rt></ruby>
 </div>
+<div class="cn-lyric">好吃</div>
 </div>
 
 <div class="lyric-line">
@@ -281,6 +285,7 @@ why don't you come here too?
 <div class="jp-lyric">
 <ruby>英語<rt class="furi">えいご</rt><rt class="roma">eigo</rt></ruby><ruby>でき<rt class="roma">deki</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
 </div>
+<div class="cn-lyric">如果能说英语</div>
 </div>
 
 <div class="lyric-line">
@@ -294,6 +299,7 @@ why don't you come here too?
 <div class="jp-lyric">
 <ruby>英語<rt class="furi">えいご</rt><rt class="roma">eigo</rt></ruby><ruby>でき<rt class="roma">deki</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
 </div>
+<div class="cn-lyric">如果能说英语</div>
 </div>
 
 <div class="lyric-line">
@@ -482,6 +488,7 @@ who is that
 <div class="jp-lyric">
 <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>英語<rt class="furi">えいご</rt><rt class="roma">eigo</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>教<rt class="furi">おし</rt><rt class="roma">oshi</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>ティーチャー<rt class="roma">teiichaa</rt></ruby>
 </div>
+<div class="cn-lyric">教你英语的老师</div>
 </div>
 
 <div class="lyric-line">
@@ -537,6 +544,7 @@ Don't worry,I'm here
 <div class="jp-lyric">
 <ruby>お茶<rt class="furi">おちゃ</rt><rt class="roma">ocha</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>なー<rt class="roma">naa</rt></ruby><ruby>言<rt class="furi">げん</rt><rt class="roma">gen</rt></ruby><ruby>教<rt class="furi">おし</rt><rt class="roma">oshi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ください<rt class="roma">kudasai</rt></ruby>
 </div>
+
 <div class="cn-lyric">请告诉我一句俏皮话</div>
 </div>
 
@@ -544,6 +552,7 @@ Don't worry,I'm here
 <div class="jp-lyric">
 Anytime,I love you
 </div>
+
 <div class="cn-lyric">任何时候，我爱你</div>
 </div>
 
@@ -551,12 +560,14 @@ Anytime,I love you
 <div class="jp-lyric">
 <ruby>英語<rt class="furi">えいご</rt><rt class="roma">eigo</rt></ruby><ruby>でき<rt class="roma">deki</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
 </div>
+<div class="cn-lyric">如果能说英语</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>なんか<rt class="roma">nanka</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>じゃん<rt class="roma">jan</rt></ruby>
 </div>
+
 <div class="cn-lyric">感觉挺好的不是吗</div>
 </div>
 
@@ -564,6 +575,7 @@ Anytime,I love you
 <div class="jp-lyric">
 <ruby>違<rt class="furi">ちが</rt><rt class="roma">chiga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>文化<rt class="furi">ぶんか</rt><rt class="roma">bunka</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>身近<rt class="furi">みぢか</rt><rt class="roma">mijika</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">不同的文化也近在眼前</div>
 </div>
 
@@ -571,12 +583,14 @@ Anytime,I love you
 <div class="jp-lyric">
 <ruby>英語<rt class="furi">えいご</rt><rt class="roma">eigo</rt></ruby><ruby>でき<rt class="roma">deki</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
 </div>
+<div class="cn-lyric">如果能说英语</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>なんか<rt class="roma">nanka</rt></ruby><ruby>楽<rt class="furi">たの</rt><rt class="roma">tano</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby>
 </div>
+
 <div class="cn-lyric">感觉很开心</div>
 </div>
 
@@ -584,6 +598,7 @@ Anytime,I love you
 <div class="jp-lyric">
 <ruby>ついで<rt class="roma">tsuide</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ついで<rt class="roma">tsuide</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">顺便顺便</div>
 </div>
 
@@ -591,6 +606,7 @@ Anytime,I love you
 <div class="jp-lyric">
 <ruby>多分<rt class="furi">たぶん</rt><rt class="roma">tabun</rt></ruby><ruby>モテ<rt class="roma">mote</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>はず<rt class="roma">hazu</rt></ruby>
 </div>
+
 <div class="cn-lyric">大概会受欢迎吧</div>
 </div>
 

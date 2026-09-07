@@ -17,7 +17,7 @@ image: /images/songs/mimi/rabendaa-feat.-saewool.jpg
 
 ## 作品概要
 
-MIMIが2025-06-22にリリースしたシングル「ラベンダー (feat. saewool)」。
+[MIMI](/ja/artists/creators/mimi)が2025-06-22にリリースしたシングル「ラベンダー (feat. saewool)」。
 
 ## 視聴
 {{media-switcher::ラベンダー (feat. saewool)}}

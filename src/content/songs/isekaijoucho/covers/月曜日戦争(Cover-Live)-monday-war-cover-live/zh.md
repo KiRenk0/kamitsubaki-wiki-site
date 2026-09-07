@@ -19,7 +19,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 
 ## 作品简介
 
-《月曜日戦争 (Cover Live)》收录于《CANDY LIVE 3 (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《月曜日戦争 (Cover Live)》收录于《[CANDY LIVE 3](/zh/albums/isekaijoucho/candy-live-3) (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -158,12 +158,14 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 <ruby>ああ<rt class="roma">aa</rt></ruby> <ruby>憧<rt class="furi">あこが</rt><rt class="roma">akoga</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby> <ruby>どう<rt class="roma">dou</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="cn-lyric">啊 若是所憧憬的您 会怎么做呢</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:28.80]<ruby>月<rt class="furi">つき</rt><rt class="roma">tsuki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ひかり<rt class="roma">hikari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>照<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>らさ<rt class="roma">rasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:28.80]被月光 照亮</div>
 </div>
 
@@ -171,6 +173,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 <div class="jp-lyric">
 <ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>っけ<rt class="roma">kke</rt></ruby>
 </div>
+<div class="cn-lyric">我 是谁来着</div>
 </div>
 
 </div>

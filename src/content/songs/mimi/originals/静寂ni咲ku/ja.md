@@ -17,7 +17,7 @@ image: /images/songs/mimi/静寂ni咲ku.jpg
 
 ## 作品概要
 
-MIMIが2019-11-02にリリースしたシングル「静寂に咲く」。
+[MIMI](/ja/artists/creators/mimi)が2019-11-02にリリースしたシングル「静寂に咲く」。
 
 ## 視聴
 {{media-switcher::静寂に咲く}}

@@ -17,7 +17,7 @@ image: /images/songs/guiano/花.jpg
 
 ## 作品概要
 
-Guianoが2022-05-21にリリースしたシングル「花」。
+[Guiano](/ja/artists/creators/guiano)が2022-05-21にリリースしたシングル「花」。
 
 ## 視聴
 {{media-switcher::花}}

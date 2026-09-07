@@ -24,7 +24,7 @@ image: /images/albums/vwp/witch-plus.jpg
 
 ## 作品简介
 
-《絵画のように美しくいたかった (feat. [理芽](/zh/artists/vwp/rim) & [Guiano](/zh/artists/creators/guiano))》收录于《[魔女ぷらす](/zh/albums/vwp/witch-plus)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《[絵画のように美しくいたかった](/zh/songs/rim/originals/絵画のように美しくいたかった-wished-to-be-beautiful-as-a-painting) (feat. [理芽](/zh/artists/vwp/rim) & [Guiano](/zh/artists/creators/guiano))》收录于《[魔女ぷらす](/zh/albums/vwp/witch-plus)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -187,12 +187,14 @@ image: /images/albums/vwp/witch-plus.jpg
 <div class="jp-lyric">
 [02:13.61]<ruby>笑<rt class="furi">え</rt><rt class="roma">e</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>笑<rt class="furi">え</rt><rt class="roma">e</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:13.61]如笑一般 如笑一般 想要笑</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:17.62]<ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:17.62]想要笑</div>
 </div>
 
@@ -200,6 +202,8 @@ image: /images/albums/vwp/witch-plus.jpg
 <div class="jp-lyric">
 <ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+
+<div class="cn-lyric">想要笑</div>
 </div>
 
 </div>

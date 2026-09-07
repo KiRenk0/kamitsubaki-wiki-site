@@ -17,7 +17,7 @@ image: /images/songs/awairo/love-or-lie.jpg
 
 ## 作品简介
 
-Awairo于 2024-12-05 发行的单曲《Love or Lie》。
+[Awairo](/zh/artists/solo/awairo)于 2024-12-05 发行的单曲《Love or Lie》。
 
 ## 试听
 {{media-switcher::Love or Lie}}

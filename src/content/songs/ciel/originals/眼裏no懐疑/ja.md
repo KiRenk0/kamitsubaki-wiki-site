@@ -17,7 +17,7 @@ image: /images/songs/ciel/眼裏no懐疑.jpg
 
 ## 作品概要
 
-CIELが2024-07-23にリリースしたシングル「眼裏の懐疑」。
+[CIEL](/ja/artists/solo/ciel)が2024-07-23にリリースしたシングル「眼裏の懐疑」。
 
 ## 視聴
 {{media-switcher::眼裏の懐疑}}

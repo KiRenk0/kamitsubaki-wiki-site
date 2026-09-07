@@ -250,6 +250,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 <ruby>全<rt class="furi">ぜん</rt><rt class="roma">zen</rt></ruby><ruby>都<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>假<ruby>想<rt class="furi">そう</rt><rt class="roma">sou</rt></ruby>
 </div>
+<div class="trans-lyric">It's all illusions</div>
 </div>
 
 <div class="lyric-line">
@@ -417,6 +418,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 <ruby>请<rt class="furi">请</rt><rt class="roma">请</rt></ruby><ruby>别<rt class="furi">别</rt><rt class="roma">别</rt></ruby><ruby>难<rt class="furi">难</rt><rt class="roma">难</rt></ruby><ruby>过<rt class="furi">过</rt><rt class="roma">过</rt></ruby>
 </div>
+
 <div class="trans-lyric">Please don't be sad</div>
 </div>
 

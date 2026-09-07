@@ -19,7 +19,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 
 ## Overview
 
-ORION (Live Cover) appears on CHOCOLATE LIVE4 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+ORION (Live Cover) appears on [CHOCOLATE LIVE4](/en/albums/rim/chocolate-live-4) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -130,24 +130,28 @@ Scuffs his toes on old fag packets lying in the street
 <div class="jp-lyric">
 Orion, won't you give me your star sign
 </div>
+<div class="trans-lyric">Orion, won't you give me your star sign</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Orion, get up on the sky-line
 </div>
+<div class="trans-lyric">Orion, get up on the sky-line</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I'm high on my hill and I feel fine
 </div>
+<div class="trans-lyric">I'm high on my hill and I feel fine</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Orion, let's sip the heavens' heady wine
 </div>
+<div class="trans-lyric">Orion, let's sip the heavens' heady wine</div>
 </div>
 
 <br />
@@ -193,6 +197,7 @@ Orion, won't you make me a star sign
 <div class="jp-lyric">
 Orion, get up on the sky-line
 </div>
+<div class="trans-lyric">Orion, get up on the sky-line</div>
 </div>
 
 <div class="lyric-line">
@@ -206,6 +211,7 @@ I'm high on your love and I feel fine
 <div class="jp-lyric">
 Orion, let's sip the heavens' heady wine
 </div>
+<div class="trans-lyric">Orion, let's sip the heavens' heady wine</div>
 </div>
 
 <br />
@@ -214,6 +220,7 @@ Orion, let's sip the heavens' heady wine
 <div class="jp-lyric">
 And young girls shiver as they wait by lonely bus-stops
 </div>
+
 <div class="trans-lyric">And young girls shiver as they wait by lonely bus-stops</div>
 </div>
 
@@ -221,6 +228,7 @@ And young girls shiver as they wait by lonely bus-stops
 <div class="jp-lyric">
 After sad parties: no-one to take them home
 </div>
+
 <div class="trans-lyric">After sad parties: no-one to take them home</div>
 </div>
 
@@ -228,6 +236,7 @@ After sad parties: no-one to take them home
 <div class="jp-lyric">
 To greasy bed-sitters and make a late-night play
 </div>
+
 <div class="trans-lyric">To greasy bed-sitters and make a late-night play</div>
 </div>
 
@@ -235,6 +244,7 @@ To greasy bed-sitters and make a late-night play
 <div class="jp-lyric">
 For lost virginity a thousand miles away.
 </div>
+
 <div class="trans-lyric">For lost virginity a thousand miles away.</div>
 </div>
 
@@ -244,24 +254,28 @@ For lost virginity a thousand miles away.
 <div class="jp-lyric">
 Orion, won't you make me a star sign
 </div>
+<div class="trans-lyric">Orion, won't you make me a star sign</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Orion, get up on the sky-line
 </div>
+<div class="trans-lyric">Orion, get up on the sky-line</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I'm high on your love and I feel fine
 </div>
+<div class="trans-lyric">I'm high on your love and I feel fine</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Orion, let's sip the heavens' heady wine
 </div>
+<div class="trans-lyric">Orion, let's sip the heavens' heady wine</div>
 </div>
 
 <br />
@@ -270,6 +284,7 @@ Orion, let's sip the heavens' heady wine
 <div class="jp-lyric">
 On the sky-line
 </div>
+
 <div class="trans-lyric">On the sky-line</div>
 </div>
 
@@ -277,6 +292,7 @@ On the sky-line
 <div class="jp-lyric">
 Orion
 </div>
+
 <div class="trans-lyric">Orion</div>
 </div>
 

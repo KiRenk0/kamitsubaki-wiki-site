@@ -113,7 +113,7 @@ seo:
 
 ### 2024年
 
-- **6月**：发布数字单曲《开始的枪声》（始まりの銃声）；同月因体调不良宣布暂停活动以专注疗养。
+- **6月**：发布数字单曲《开始的枪声》（[始まりの銃声](/zh/songs/koko/originals/始まりの銃声-signal-of-the-beginning)）；同月因体调不良宣布暂停活动以专注疗养。
 
 ### 2025年
 
@@ -141,7 +141,7 @@ seo:
 
 ## 个人音乐目录与合作
 
-幸祜的个人原创曲目录以《[harmony](/zh/songs/koko/originals/harmony)》《[白昼夢](/zh/songs/koko/originals/白昼夢-daydream)》《[この世界に口づけを](/zh/songs/koko/originals/この世界に口づけを-kiss-this-world)》《ASH》《[瞑目](/zh/songs/koko/originals/瞑目-closing-ones-eyes)》《[夜光を呼ぶ](/zh/songs/koko/originals/夜光を呼ぶ-recall-me)》《[the last bullet](/zh/songs/koko/originals/the-last-bullet)》《[LIT](/zh/songs/koko/originals/lit)》《[閃光の彼方](/zh/songs/koko/originals/閃光の彼方-beyond-the-flash)》《[TIME](/zh/songs/koko/originals/time)》等为核心。相关资料还将《[prayer](/zh/albums/koko/prayer)》中的《[花と蜜](/zh/songs/koko/originals/花と蜜-flowers-and-nectar)》《[此処へ](/zh/songs/koko/originals/此処へ-koko-e)》《[レイヴン・フリージア](/zh/songs/koko/originals/レイヴン・フリージア-raven-freesia)》《[Bliss](/zh/songs/koko/originals/bliss)》以及《Monark》相关《Dear》《強欲》一并列为个人音乐谱系。
+幸祜的个人原创曲目录以《[harmony](/zh/songs/koko/originals/harmony)》《[白昼夢](/zh/songs/koko/originals/白昼夢-daydream)》《[この世界に口づけを](/zh/songs/koko/originals/この世界に口づけを-kiss-this-world)》《ASH》《[瞑目](/zh/songs/koko/originals/瞑目-closing-ones-eyes)》《[夜光を呼ぶ](/zh/songs/koko/originals/夜光を呼ぶ-recall-me)》《[the last bullet](/zh/songs/koko/originals/the-last-bullet)》《[LIT](/zh/songs/koko/originals/lit)》《[閃光の彼方](/zh/songs/koko/originals/閃光の彼方-beyond-the-flash)》《[TIME](/zh/songs/koko/originals/time)》等为核心。相关资料还将《[prayer](/zh/albums/koko/prayer)》中的《[花と蜜](/zh/songs/koko/originals/花と蜜-flowers-and-nectar)》《[此処へ](/zh/songs/koko/originals/此処へ-koko-e)》《[レイヴン・フリージア](/zh/songs/koko/originals/レイヴンフリージア-raven-freesia)》《[Bliss](/zh/songs/koko/originals/bliss)》以及《Monark》相关《Dear》《強欲》一并列为个人音乐谱系。
 
 | 作品阶段 | 主要内容 | 说明 |
 | --- | --- | --- |

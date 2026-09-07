@@ -87,17 +87,17 @@ tracks:
 ## 収録曲
 
 1. 転校生（03:39）
-2. ひぐらしのうた（04:05）
+2. [ひぐらしのうた](/ja/songs/kaika/originals/higurashinouta)（04:05）
 3. 初恋（04:28）
 4. ターミナル（04:37）
 5. はかいのうた（03:36）
 6. マイディア（04:44）
 7. リメンバー（04:50）
-8. テディベア（01:37）
+8. [テディベア](/ja/songs/kaika/originals/tedeibea)（01:37）
 9. ランドマーク（02:35）
 10. Trance（03:25）
 11. 白夜、揺れる命（06:28）
 12. ほしひとつ（03:49）
-13. スタンドバイミー（04:12）
-14. 東京、ぼくらは大丈夫かな（03:02）
-15. かいか（05:02）
+13. [スタンドバイミー](/ja/songs/kaika/originals/sutandobaimii)（04:12）
+14. [東京、ぼくらは大丈夫かな](/ja/songs/kaika/originals/東京bokuraha大丈夫kana)（03:02）
+15. [かいか](/ja/songs/kaika/originals/kaika)（05:02）

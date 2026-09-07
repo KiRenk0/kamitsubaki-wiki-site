@@ -19,7 +19,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 
 ## Overview
 
-Chronicle A (Live) appears on CHOCOLATE LIVE3 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+Chronicle A (Live) appears on [CHOCOLATE LIVE3](/en/albums/rim/chocolate-live-3) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -160,6 +160,7 @@ Chronicle A (Live) appears on CHOCOLATE LIVE3 or a related official release. Ent
 <div class="jp-lyric">
 <ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby>
 </div>
+<div class="trans-lyric">Came to love the world</div>
 </div>
 
 <br />
@@ -198,14 +199,14 @@ Chronicle A (Live) appears on CHOCOLATE LIVE3 or a related official release. Ent
 <div class="jp-lyric">
 [01:31.93]A fairy tale about the dystopia
 </div>
-<div class="trans-lyric">A fairy tale about the dystopia</div>
+<div class="trans-lyric">[01:31.93]A fairy tale about the dystopia</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:35.08]Has come true like the mother's kindness
 </div>
-<div class="trans-lyric">Has come true like the mother's kindness</div>
+<div class="trans-lyric">[01:35.08]Has come true like the mother's kindness</div>
 </div>
 
 <div class="lyric-line">
@@ -228,14 +229,14 @@ Chronicle A (Live) appears on CHOCOLATE LIVE3 or a related official release. Ent
 <div class="jp-lyric">
 [01:44.77]In 2099, we realized
 </div>
-<div class="trans-lyric">In 2099, we realized</div>
+<div class="trans-lyric">[01:44.77]In 2099, we realized</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:48.02]We were not the first to reach the end
 </div>
-<div class="trans-lyric">We were not the first to reach the end</div>
+<div class="trans-lyric">[01:48.02]We were not the first to reach the end</div>
 </div>
 
 <div class="lyric-line">
@@ -286,12 +287,14 @@ Chronicle A (Live) appears on CHOCOLATE LIVE3 or a related official release. Ent
 <div class="jp-lyric">
 <ruby>ワタ<rt class="roma">wata</rt></ruby><ruby>シ<rt class="roma">shi</rt></ruby><ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby> <ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+<div class="trans-lyric">I, just a little, just a little</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby>
 </div>
+<div class="trans-lyric">Came to love the world</div>
 </div>
 
 <br />
@@ -300,24 +303,28 @@ Chronicle A (Live) appears on CHOCOLATE LIVE3 or a related official release. Ent
 <div class="jp-lyric">
 <ruby>残酷<rt class="furi">ざんこく</rt><rt class="roma">zankoku</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>解<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="trans-lyric">A cruel solution, your love</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>拭<rt class="furi">ぬぐ</rt><rt class="roma">nugu</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>拭<rt class="furi">ぬぐ</rt><rt class="roma">nugu</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>血<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="trans-lyric">With an unerasable, unerasable blood color</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>惨<rt class="furi">みじ</rt><rt class="roma">miji</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>朽ち果<rt class="furi">くちは</rt><rt class="roma">kuchiha</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
+<div class="trans-lyric">Miserably decays</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby>
 </div>
+<div class="trans-lyric">Came to love the world</div>
 </div>
 
 <br />
@@ -326,6 +333,7 @@ Chronicle A (Live) appears on CHOCOLATE LIVE3 or a related official release. Ent
 <div class="jp-lyric">
 <ruby>歪<rt class="furi">いが</rt><rt class="roma">iga</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>形<rt class="furi">かたち</rt><rt class="roma">katachi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>持<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>
 </div>
+
 <div class="trans-lyric">Distorted love took shape</div>
 </div>
 
@@ -333,6 +341,7 @@ Chronicle A (Live) appears on CHOCOLATE LIVE3 or a related official release. Ent
 <div class="jp-lyric">
 <ruby>姿<rt class="furi">すがた</rt><rt class="roma">sugata</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>報<rt class="furi">むく</rt><rt class="roma">muku</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="trans-lyric">May it be rewarded in that form</div>
 </div>
 
@@ -340,12 +349,14 @@ Chronicle A (Live) appears on CHOCOLATE LIVE3 or a related official release. Ent
 <div class="jp-lyric">
 <ruby>タイトル<rt class="roma">taitoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>こう<rt class="roma">kou</rt></ruby><ruby>名付<rt class="furi">なづ</rt><rt class="roma">nazu</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby>
 </div>
+<div class="trans-lyric">I title it like this</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="trans-lyric">I came to love the world</div>
 </div>
 
 </div>

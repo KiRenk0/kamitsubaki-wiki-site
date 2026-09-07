@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/thaw.jpg
 
 ## 作品概要
 
-tokiwaが2022-12-21にリリースしたシングル「thaw」。
+[tokiwa](/ja/artists/creators/tokiwa)が2022-12-21にリリースしたシングル「thaw」。
 
 ## 視聴
 {{media-switcher::thaw}}

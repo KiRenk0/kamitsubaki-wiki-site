@@ -36,7 +36,9 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [00:27.01]PLACEBO - <ruby>米津<rt class="furi">よねつ</rt><rt class="roma">yonetsu</rt></ruby><ruby>玄<rt class="furi">げん</rt><rt class="roma">gen</rt></ruby><ruby>師<rt class="furi">し</rt><rt class="roma">shi</rt></ruby> (<ruby>よ<rt class="roma">yo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>づ<rt class="roma">zu</rt></ruby> <ruby>けんし<rt class="roma">kenshi</rt></ruby>)/<ruby>野田<rt class="furi">のだ</rt><rt class="roma">noda</rt></ruby><ruby>洋次郎<rt class="furi">ようじろう</rt><rt class="roma">youjirou</rt></ruby>
 </div>
-<div class="trans-lyric">PLACEBO - Kenshi Yonezu / Yojiro Noda</div>
+<div class="trans-lyric">
+[00:27.01]PLACEBO - Kenshi Yonezu / Yojiro Noda
+</div>
 </div>
 
 <div class="lyric-line">
@@ -351,12 +353,14 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 <ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="trans-lyric">I want to touch, I want to sway</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>いけ<rt class="roma">ike</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>この<rt class="roma">kono</rt></ruby><ruby>惑<rt class="furi">まど</rt><rt class="roma">mado</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
+<div class="trans-lyric">This confusion must be you</div>
 </div>
 
 <div class="lyric-line">
@@ -398,12 +402,14 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 <ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>罠<rt class="furi">わな</rt><rt class="roma">wana</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>やら<rt class="roma">yara</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
+<div class="trans-lyric">Getting caught in a sweet trap</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
+<div class="trans-lyric">Falling</div>
 </div>
 
 <div class="lyric-line">
@@ -431,30 +437,35 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 <ruby>嘘<rt class="furi">うそ</rt><rt class="roma">uso</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby> (<ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>)
 </div>
+<div class="trans-lyric">A feeling that's not a lie (feeling)</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>迷<rt class="furi">まよ</rt><rt class="roma">mayo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> (<ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>)
 </div>
+<div class="trans-lyric">It's not a whim (not)</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>嘘<rt class="furi">うそ</rt><rt class="roma">uso</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby> (<ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>)
 </div>
+<div class="trans-lyric">A feeling that's not a lie (feeling)</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>思い込<rt class="furi">おもいこ</rt><rt class="roma">omoiko</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> (<ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>)
 </div>
+<div class="trans-lyric">It's not an assumption (not)</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>嘘<rt class="furi">うそ</rt><rt class="roma">uso</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
+
 <div class="trans-lyric">A feeling that's not a lie</div>
 </div>
 
@@ -462,6 +473,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 <ruby>だんだん<rt class="roma">dandan</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
+
 <div class="trans-lyric">Gradually becoming love</div>
 </div>
 
@@ -469,6 +481,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 (<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>)
 </div>
+
 <div class="trans-lyric">(Becoming love)</div>
 </div>
 
@@ -476,12 +489,14 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 <ruby>ときめい<rt class="roma">tokimei</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
+<div class="trans-lyric">Heart fluttering</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 (<ruby>ときめい<rt class="roma">tokimei</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>)
 </div>
+
 <div class="trans-lyric">(Heart fluttering)</div>
 </div>
 
@@ -489,12 +504,14 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 <ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>いがけ<rt class="roma">igake</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>とんだ<rt class="roma">tonda</rt></ruby><ruby>ランデブー<rt class="roma">randebuu</rt></ruby>
 </div>
+<div class="trans-lyric">An unexpected, crazy rendezvous</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 (<ruby>とんだ<rt class="roma">tonda</rt></ruby><ruby>ランデブー<rt class="roma">randebuu</rt></ruby>)
 </div>
+
 <div class="trans-lyric">(Crazy rendezvous)</div>
 </div>
 
@@ -502,12 +519,14 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 <ruby>どんどん<rt class="roma">dondon</rt></ruby><ruby>ハイ<rt class="roma">hai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
+<div class="trans-lyric">Getting higher and higher</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 (<ruby>ハイ<rt class="roma">hai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>)
 </div>
+
 <div class="trans-lyric">(Getting higher)</div>
 </div>
 
@@ -515,12 +534,14 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 <ruby>洒落<rt class="furi">しゃらく</rt><rt class="roma">sharaku</rt></ruby><ruby>込<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
+<div class="trans-lyric">Getting stylish</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 (<ruby>洒落<rt class="furi">しゃらく</rt><rt class="roma">sharaku</rt></ruby><ruby>込<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>)
 </div>
+
 <div class="trans-lyric">(Getting stylish)</div>
 </div>
 
@@ -528,18 +549,21 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 <ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>罠<rt class="furi">わな</rt><rt class="roma">wana</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>やら<rt class="roma">yara</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
+<div class="trans-lyric">Getting caught in a sweet trap</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby> <ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
+<div class="trans-lyric">Falling, falling</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
+<div class="trans-lyric">Falling</div>
 </div>
 
 </div>

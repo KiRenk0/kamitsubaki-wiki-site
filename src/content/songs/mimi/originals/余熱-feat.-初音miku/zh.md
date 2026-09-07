@@ -17,7 +17,7 @@ image: /images/songs/mimi/余熱-feat.-初音miku.jpg
 
 ## 作品简介
 
-MIMI于 2025-07-07 发行的单曲《余熱 (feat. 初音ミク)》。
+[MIMI](/zh/artists/creators/mimi)于 2025-07-07 发行的单曲《余熱 (feat. 初音ミク)》。
 
 ## 试听
 {{media-switcher::余熱 (feat. 初音ミク)}}

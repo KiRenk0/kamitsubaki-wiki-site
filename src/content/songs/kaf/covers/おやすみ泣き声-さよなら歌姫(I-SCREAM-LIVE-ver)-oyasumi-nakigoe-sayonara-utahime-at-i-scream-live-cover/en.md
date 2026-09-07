@@ -36,7 +36,9 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [02:51.67]<ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>歌姫<rt class="furi">うたひめ</rt><rt class="roma">utahime</rt></ruby> <ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>曲<rt class="furi">きょく</rt><rt class="roma">kyoku</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
-<div class="trans-lyric">Farewell, diva, this is the last song. I truly love your singing.</div>
+<div class="trans-lyric">
+[02:51.67]Farewell, diva, this is the last song. I truly love your singing.
+</div>
 </div>
 
 <div class="lyric-line">
@@ -52,7 +54,9 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [02:51.67]<ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>歌姫<rt class="furi">うたひめ</rt><rt class="roma">utahime</rt></ruby> <ruby>アンコール<rt class="roma">ankouru</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>事<rt class="furi">こと</rt><rt class="roma">koto</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
-<div class="trans-lyric">Farewell, diva, what about an encore? Knowing you, there won't be one.</div>
+<div class="trans-lyric">
+[02:51.67]Farewell, diva, what about an encore? Knowing you, there won't be one.
+</div>
 </div>
 
 <div class="lyric-line">
@@ -107,12 +111,14 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>歌声<rt class="furi">うたごえ</rt><rt class="roma">utagoe</rt></ruby> <ruby>歌声<rt class="furi">うたごえ</rt><rt class="roma">utagoe</rt></ruby> <ruby>でも<rt class="roma">demo</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="trans-lyric">Singing voice, singing voice, but you were crying, weren't you?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>泣き声<rt class="furi">なきごえ</rt><rt class="roma">nakigoe</rt></ruby> <ruby>泣き声<rt class="furi">なきごえ</rt><rt class="roma">nakigoe</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づけ<rt class="roma">zuke</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby>
 </div>
+<div class="trans-lyric">Crying voice, crying voice, I didn't notice.</div>
 </div>
 
 <br />
@@ -128,6 +134,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>4<ruby>小節<rt class="furi">しょうせつ</rt><rt class="roma">shousetsu</rt></ruby><ruby>君<rt class="furi">くん</rt><rt class="roma">kun</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="trans-lyric">In the final four bars, you sing.</div>
 </div>
 
@@ -135,7 +142,8 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [02:51.67]<ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>4<ruby>小節<rt class="furi">しょうせつ</rt><rt class="roma">shousetsu</rt></ruby><ruby>君<rt class="furi">くん</rt><rt class="roma">kun</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>動<rt class="furi">うご</rt><rt class="roma">ugo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> <ruby>さよなら<rt class="roma">sayonara</rt></ruby>
 </div>
-<div class="trans-lyric">In the final four bars, your feelings stir. Farewell.</div>
+
+<div class="trans-lyric">[02:51.67]In the final four bars, your feelings stir. Farewell.</div>
 </div>
 
 <br />
@@ -144,12 +152,14 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>歌声<rt class="furi">うたごえ</rt><rt class="roma">utagoe</rt></ruby> <ruby>歌声<rt class="furi">うたごえ</rt><rt class="roma">utagoe</rt></ruby> <ruby>でも<rt class="roma">demo</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="trans-lyric">Singing voice, singing voice, but you were crying, weren't you?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>泣き声<rt class="furi">なきごえ</rt><rt class="roma">nakigoe</rt></ruby> <ruby>泣き声<rt class="furi">なきごえ</rt><rt class="roma">nakigoe</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づけ<rt class="roma">zuke</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby>
 </div>
+<div class="trans-lyric">Crying voice, crying voice, I didn't notice.</div>
 </div>
 
 </div>

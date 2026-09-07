@@ -128,6 +128,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>巡<rt class="furi">めぐ</rt><rt class="roma">megu</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>逢<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>記憶<rt class="furi">きおく</rt><rt class="roma">kioku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>優<rt class="furi">やさ</rt><rt class="roma">yasa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">Turning the memories of love we encountered into kindness</div>
 </div>
 
 <div class="lyric-line">
@@ -196,6 +197,7 @@ I just wanna be with you <ruby>この<rt class="roma">kono</rt></ruby><ruby>道<
 <div class="jp-lyric">
 <ruby>優<rt class="furi">やさ</rt><rt class="roma">yasa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>プレゼント<rt class="roma">purezento</rt></ruby> <ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> <ruby>ありがとう<rt class="roma">arigatou</rt></ruby>
 </div>
+
 <div class="trans-lyric">Kindness is a gift; from the bottom of my heart, thank you</div>
 </div>
 

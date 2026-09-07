@@ -164,6 +164,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [04:17.72]<ruby>狂<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>おしい<rt class="roma">oshii</rt></ruby><ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby>
 </div>
+<div class="cn-lyric">[04:17.72]那是狂乱的夏天</div>
 </div>
 
 <div class="lyric-line">
@@ -200,6 +201,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [05:08.54]<ruby>途方<rt class="furi">とほう</rt><rt class="roma">tohou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>暮<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby> <ruby>真夏<rt class="furi">まなつ</rt><rt class="roma">manatsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>楽園<rt class="furi">らくえん</rt><rt class="roma">rakuen</rt></ruby>
 </div>
+
 <div class="cn-lyric">[05:08.54]令人迷失的盛夏乐园</div>
 </div>
 

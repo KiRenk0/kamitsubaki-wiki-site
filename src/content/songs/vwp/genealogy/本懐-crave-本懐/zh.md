@@ -179,6 +179,7 @@ image: /images/songs/vwp/single-1781819683.jpg
 <div class="jp-lyric">
 [01:06.44]Go knock, knock, knock
 </div>
+<div class="cn-lyric">[01:06.44]去敲敲敲</div>
 </div>
 
 <div class="lyric-line">
@@ -307,24 +308,28 @@ image: /images/songs/vwp/single-1781819683.jpg
 <div class="jp-lyric">
 [02:15.91]<ruby>ねぇ<rt class="roma">nee</rt></ruby> <ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby>
 </div>
+<div class="cn-lyric">[02:15.91]喂，如果是你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:17.19]<ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>息<rt class="furi">いき</rt><rt class="roma">iki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>追<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>いつけ<rt class="roma">itsuke</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:17.19]感情让呼吸跟不上</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:21.63]<ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>だって<rt class="roma">datte</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby><ruby>我慢<rt class="furi">がまん</rt><rt class="roma">gaman</rt></ruby><ruby>でき<rt class="roma">deki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:21.63]等不及了 因为已经无法忍耐</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:27.13]<ruby>報<rt class="furi">むく</rt><rt class="roma">muku</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby> <ruby>大嫌<rt class="furi">だいきら</rt><rt class="roma">daikira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
+<div class="cn-lyric">[02:27.13]没有回报的恋爱 我最讨厌</div>
 </div>
 
 <div class="lyric-line">
@@ -368,6 +373,7 @@ image: /images/songs/vwp/single-1781819683.jpg
 <div class="jp-lyric">
 [02:50.19]<ruby>この<rt class="roma">kono</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>虚像<rt class="furi">きょぞう</rt><rt class="roma">kyozou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>夢中<rt class="furi">むちゅう</rt><rt class="roma">muchuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:50.19]就这样沉溺于虚像吧</div>
 </div>
 
@@ -375,6 +381,7 @@ image: /images/songs/vwp/single-1781819683.jpg
 <div class="jp-lyric">
 [02:52.69]<ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>進<rt class="furi">すす</rt><rt class="roma">susu</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>そ<rt class="roma">so</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>でも<rt class="roma">demo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:52.69]无法前进 想要放手 但是</div>
 </div>
 
@@ -382,6 +389,7 @@ image: /images/songs/vwp/single-1781819683.jpg
 <div class="jp-lyric">
 [02:55.29]<ruby>よく<rt class="roma">yoku</rt></ruby><ruby>似<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>ろ<rt class="roma">ro</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:55.29]很相似呢 那些糟糕的地方</div>
 </div>
 
@@ -389,6 +397,7 @@ image: /images/songs/vwp/single-1781819683.jpg
 <div class="jp-lyric">
 [02:57.96]Until I achieve honesty
 </div>
+
 <div class="cn-lyric">[02:57.96]直到我达到诚实</div>
 </div>
 
@@ -396,6 +405,7 @@ image: /images/songs/vwp/single-1781819683.jpg
 <div class="jp-lyric">
 [03:00.46]Sprint
 </div>
+
 <div class="cn-lyric">[03:00.46]冲刺</div>
 </div>
 

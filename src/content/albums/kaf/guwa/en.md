@@ -101,7 +101,7 @@ tracks:
 
 ## Overview
 
-KAF’s fourth studio album and her first full multi-composer record after Iori Kanzaki’s departure from KAMITSUBAKI, presenting fifteen tracks around loss and acquisition.
+[KAF](/en/artists/vwp/kaf)’s fourth studio album and her first full multi-composer record after Iori Kanzaki’s departure from KAMITSUBAKI, presenting fifteen tracks around loss and acquisition.
 
 ## Release and editions
 

@@ -17,7 +17,7 @@ image: /images/songs/mimi/rokoko-feat.-初音miku.jpg
 
 ## 作品简介
 
-MIMI于 2023-01-19 发行的单曲《ロココ (feat. 初音ミク)》。
+[MIMI](/zh/artists/creators/mimi)于 2023-01-19 发行的单曲《ロココ (feat. 初音ミク)》。
 
 ## 试听
 {{media-switcher::ロココ (feat. 初音ミク)}}

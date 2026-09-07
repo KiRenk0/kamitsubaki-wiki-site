@@ -38,7 +38,7 @@ tracks:
 
 ## 简介
 
-Empty old City于 2025-10-15 发行的EP《From Noir into Clair》,共收录 4 首歌曲。
+[Empty old City](/zh/artists/solo/empty-old-city)于 2025-10-15 发行的EP《From Noir into Clair》,共收录 4 首歌曲。
 
 ## 收录曲
 

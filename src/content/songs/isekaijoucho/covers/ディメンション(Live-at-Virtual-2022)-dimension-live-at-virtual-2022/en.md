@@ -20,7 +20,7 @@ image: /images/albums/rim/singularity-live.jpg
 
 ## Overview
 
-ディメンション (Live at Virtual, 2022) appears on Singularity Live or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+ディメンション (Live at Virtual, 2022) appears on [Singularity Live](/en/albums/rim/singularity-live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -64,7 +64,9 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [00:48.18]「<ruby>あと<rt class="roma">ato</rt></ruby><ruby>どれ<rt class="roma">dore</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？」
 </div>
-<div class="trans-lyric">"How much longer, I wonder?"</div>
+<div class="trans-lyric">
+[00:48.18]"How much longer, I wonder?"
+</div>
 </div>
 
 <div class="lyric-line">
@@ -131,7 +133,9 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [01:32.38]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>今更<rt class="furi">いまさら</rt><rt class="roma">imasara</rt></ruby>... <ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby> Ah
 </div>
-<div class="trans-lyric">Even if I search for something now... Ah, Ah</div>
+<div class="trans-lyric">
+[01:32.38]Even if I search for something now... Ah, Ah
+</div>
 </div>
 
 <br />
@@ -249,7 +253,9 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [01:32.38]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>... <ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby> Ah
 </div>
-<div class="trans-lyric">Now I've found something... Ah, Ah</div>
+<div class="trans-lyric">
+[01:32.38]Now I've found something... Ah, Ah
+</div>
 </div>
 
 <br />
@@ -258,12 +264,14 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 <ruby>運命<rt class="furi">うんめい</rt><rt class="roma">unmei</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>取り戻<rt class="furi">とりもど</rt><rt class="roma">torimodo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>々<rt class="furi">々</rt><rt class="roma">々</rt></ruby>！
 </div>
+<div class="trans-lyric">Retake destiny, right now!</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>壁<rt class="furi">かべ</rt><rt class="roma">kabe</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>取り払<rt class="furi">とりはら</rt><rt class="roma">torihara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>ディメンション<rt class="roma">deimenshon</rt></ruby>
 </div>
+<div class="trans-lyric">Tear down the walls, dimension</div>
 </div>
 
 <div class="lyric-line">
@@ -291,18 +299,21 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 <ruby>喰<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>らい<rt class="roma">rai</rt></ruby><ruby>尽<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>くせ<rt class="roma">kuse</rt></ruby> <ruby>絶対<rt class="furi">ぜったい</rt><rt class="roma">zettai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="trans-lyric">Devour everything, never let go</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 「<ruby>もう<rt class="roma">mou</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>いら<rt class="roma">ira</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>」
 </div>
+<div class="trans-lyric">"I don't need anything anymore"</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>呟<rt class="furi">つぶや</rt><rt class="roma">tsubuya</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+
 <div class="trans-lyric">Whispered in a voice that fades away</div>
 </div>
 
@@ -310,6 +321,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="trans-lyric">So I won't forget</div>
 </div>
 

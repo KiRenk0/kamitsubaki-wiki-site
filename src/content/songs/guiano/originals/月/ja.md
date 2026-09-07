@@ -17,7 +17,7 @@ image: /images/songs/guiano/月.jpg
 
 ## 作品概要
 
-Guianoが2022-11-22にリリースしたシングル「月」。
+[Guiano](/ja/artists/creators/guiano)が2022-11-22にリリースしたシングル「月」。
 
 ## 視聴
 {{media-switcher::月}}

@@ -126,42 +126,49 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 [00:47.91]Oh Lady,Oh Baby
 </div>
+<div class="cn-lyric">[00:47.91]Oh Lady,Oh Baby</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:50.06]「<ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>」<ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[00:50.06]「请不要离开」说着</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:52.34]<ruby>飲み込<rt class="furi">のみこ</rt><rt class="roma">nomiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+<div class="cn-lyric">[00:52.34]如果咽下的话语也不会消失的话</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:56.15]Lady,Oh Baby
 </div>
+<div class="cn-lyric">[00:56.15]Lady,Oh Baby</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:57.88]<ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby>
 </div>
+<div class="cn-lyric">[00:57.88]答案核对</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:00.08]<ruby>掌<rt class="furi">てのひら</rt><rt class="roma">tenohira</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>わせ<rt class="roma">wase</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
+<div class="cn-lyric">[01:00.08]合起手掌</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:02.25]<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>明<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>かそ<rt class="roma">kaso</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[01:02.25]彻夜到天明</div>
 </div>
 
 <div class="lyric-line">
@@ -196,6 +203,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 [01:30.96]<ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>さえ<rt class="roma">sae</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>かせ<rt class="roma">kase</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:30.96]如果连梦境也无法融化一切的话</div>
 </div>
 
@@ -203,6 +211,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 [01:35.62]<ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>眠<rt class="furi">ねむ</rt><rt class="roma">nemu</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いよ<rt class="roma">iyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:35.62]今天就不睡了吧</div>
 </div>
 
@@ -210,48 +219,56 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 [01:39.18]Oh Lady,Oh Baby
 </div>
+<div class="cn-lyric">[01:39.18]Oh Lady,Oh Baby</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:41.12]「<ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>」<ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[01:41.12]「请不要离开」说着</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:43.26]<ruby>飲み込<rt class="furi">のみこ</rt><rt class="roma">nomiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+<div class="cn-lyric">[01:43.26]如果咽下的话语也不会消失的话</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:47.21]Lady,Oh Baby
 </div>
+<div class="cn-lyric">[01:47.21]Lady,Oh Baby</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:48.97]<ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby>
 </div>
+<div class="cn-lyric">[01:48.97]答案核对</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:51.13]<ruby>掌<rt class="furi">てのひら</rt><rt class="roma">tenohira</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>わせ<rt class="roma">wase</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
+<div class="cn-lyric">[01:51.13]合起手掌</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:53.56]<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>明<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>かそ<rt class="roma">kaso</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[01:53.56]彻夜到天明</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:55.46]<ruby>四<rt class="furi">よっ</rt><rt class="roma">yo</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>打<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>身<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>任<rt class="furi">まか</rt><rt class="roma">maka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:55.46]将身体交给四拍节奏的我们</div>
 </div>
 
@@ -259,6 +276,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 [01:59.31]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:59.31]虽然不知道会有什么在等待</div>
 </div>
 
@@ -266,6 +284,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 [02:03.30]<ruby>落ち着<rt class="furi">おちつ</rt><rt class="roma">ochitsu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まれ<rt class="roma">mare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>You and I
 </div>
+
 <div class="cn-lyric">[02:03.30]不安定无法停下的你和我</div>
 </div>
 
@@ -273,6 +292,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 [02:07.14]<ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>体<rt class="furi">てい</rt><rt class="roma">tei</rt></ruby><ruby>たらく<rt class="roma">taraku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いよ<rt class="roma">iyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:07.14]明天就懒散度日吧</div>
 </div>
 
@@ -280,42 +300,49 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 [02:10.43]Oh Lady,Oh Baby
 </div>
+<div class="cn-lyric">[02:10.43]Oh Lady,Oh Baby</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:12.57]「<ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>」<ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[02:12.57]「请不要离开」说着</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:14.82]<ruby>飲み込<rt class="furi">のみこ</rt><rt class="roma">nomiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+<div class="cn-lyric">[02:14.82]如果咽下的话语也不会消失的话</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:18.74]Lady,Oh Baby
 </div>
+<div class="cn-lyric">[02:18.74]Lady,Oh Baby</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:20.45]<ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby>
 </div>
+<div class="cn-lyric">[02:20.45]答案核对</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:22.54]<ruby>掌<rt class="furi">てのひら</rt><rt class="roma">tenohira</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>わせ<rt class="roma">wase</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:22.54]合起手掌</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:24.99]<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>明<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>かそ<rt class="roma">kaso</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>&quot;
 </div>
+
 <div class="cn-lyric">[02:24.99]彻夜到天明</div>
 </div>
 

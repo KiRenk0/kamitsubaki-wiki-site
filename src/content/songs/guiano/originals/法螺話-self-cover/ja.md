@@ -17,7 +17,7 @@ image: /images/songs/guiano/法螺話-self-cover.jpg
 
 ## 作品概要
 
-Guianoが2021-03-23にリリースしたシングル「法螺話(self cover)」。
+[Guiano](/ja/artists/creators/guiano)が2021-03-23にリリースしたシングル「法螺話(self cover)」。
 
 ## 視聴
 {{media-switcher::法螺話(self cover)}}

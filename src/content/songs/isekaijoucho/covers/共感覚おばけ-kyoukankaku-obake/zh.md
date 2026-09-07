@@ -205,12 +205,14 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [01:44.69]<ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[01:44.69]如同哭泣 如同欢笑</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:47.09]<ruby>態度<rt class="furi">たいど</rt><rt class="roma">taido</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>示<rt class="furi">しめ</rt><rt class="roma">shime</rt></ruby><ruby>す<rt class="roma">su</rt></ruby> <ruby>言の葉<rt class="furi">ことのは</rt><rt class="roma">kotonoha</rt></ruby><ruby>達<rt class="furi">たち</rt><rt class="roma">tachi</rt></ruby>
 </div>
+<div class="cn-lyric">[01:47.09]用态度展示的 言语之叶</div>
 </div>
 
 <div class="lyric-line">
@@ -249,24 +251,28 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [02:24.94]<ruby>間違<rt class="furi">まちが</rt><rt class="roma">machiga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:24.94]将错误</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:26.25]<ruby>消<rt class="furi">け</rt><rt class="roma">ke</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[02:26.25]如同抹去 如同摧毁</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:28.62]<ruby>ないし<rt class="roma">naishi</rt></ruby><ruby>ょないしょで<rt class="roma">yonaishode</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>底<rt class="furi">そこ</rt><rt class="roma">soko</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
+<div class="cn-lyric">[02:28.62]悄悄悄悄地 沉入你的深处</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:31.47]「<ruby>愛情<rt class="furi">あいじょう</rt><rt class="roma">aijou</rt></ruby><ruby>表現<rt class="furi">ひょうげん</rt><rt class="roma">hyougen</rt></ruby>」<ruby>て<rt class="roma">te</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>いま<rt class="roma">ima</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:31.47]说着「爱情的表现」 至今也</div>
 </div>
 
@@ -276,12 +282,14 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [02:36.78]<ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[02:36.78]如同哭泣 如同欢笑</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:39.10]<ruby>止<rt class="furi">や</rt><rt class="roma">ya</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>事<rt class="furi">こと</rt><rt class="roma">koto</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby> <ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>葉<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>達<rt class="furi">たち</rt><rt class="roma">tachi</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:39.10]永不停歇的 声音之叶</div>
 </div>
 
@@ -289,6 +297,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [02:41.84]「<ruby>悪<rt class="furi">わる</rt><rt class="roma">waru</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？」
 </div>
+
 <div class="cn-lyric">[02:41.84]「不坏吧？」</div>
 </div>
 
@@ -296,6 +305,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [02:45.50]<ruby>だ<rt class="roma">da</rt></ruby><ruby>と<rt class="roma">to</rt></ruby> <ruby>いい<rt class="roma">ii</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">[02:45.50]如果是这样 就好了</div>
 </div>
 
 </div>

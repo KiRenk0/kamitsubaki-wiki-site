@@ -98,6 +98,8 @@ GET /v1/events?from=2026-08-01&to=2026-08-31&locale=ja
 | `endAt` | 否 | ISO 8601 string | 必须包含明确时区 |
 | `allDay` | 否 | boolean | 全天活动设为 `true` |
 | `status` | 否 | string | `live`、`upcoming`、`ended`、`cancelled`；其他值按 `upcoming` 展示 |
+
+前端徽章状态并不直接信任该字段：浏览器会按当前时间与 `startAt`/`endAt` 实时推导 `upcoming`（未开始）、`live`（进行中）、`ended`（已结束），每 30 秒随轮询自动刷新。`cancelled` 视为与时间无关的事实，保留 API 原值；`allDay` 活动按日本时间当天是否进行判断。未提供 `endAt` 时，活动从 `startAt` 起最多视为 `live` 6 小时（`LIVE_STATUS_DEFAULT_DURATION_MS`）。因此后端只需保证 `cancelled` 准确，时间类状态即使写错也会被前端纠正。
 | `url` | 否 | string | 官方详情页，仅接受 `http` 或 `https` |
 
 无活动时返回 `200` 和空数组，不要返回 `404`：

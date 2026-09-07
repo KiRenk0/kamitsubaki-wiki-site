@@ -140,12 +140,14 @@ Afureru omoi to jiyuuna kono basho
 <div class="jp-lyric">
 Egakidasu kokoro won ni takushite
 </div>
+<div class="cn-lyric">描绘出的心灵 寄托于音符</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Todoke ni iku yo kimi ga iru machi ni
 </div>
+<div class="cn-lyric">前往送达 到你所在的城市</div>
 </div>
 
 <br />
@@ -154,12 +156,14 @@ Todoke ni iku yo kimi ga iru machi ni
 <div class="jp-lyric">
 Ashita moshi haretara
 </div>
+<div class="cn-lyric">明天如果放晴了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Hikoukigumo zenbu atsumete
 </div>
+<div class="cn-lyric">收集所有的航迹云</div>
 </div>
 
 <div class="lyric-line">
@@ -173,6 +177,7 @@ Kimi ga sumu kono machi ni
 <div class="jp-lyric">
 Todokeru yo owaranai uta
 </div>
+
 <div class="cn-lyric">将永不终结的歌送达</div>
 </div>
 
@@ -182,12 +187,14 @@ Todokeru yo owaranai uta
 <div class="jp-lyric">
 Bokura o tsunagu yo mugen ni hirogaru
 </div>
+<div class="cn-lyric">将我们相连 无限延伸</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Afureru omoi o kaki tsudzukeyou
 </div>
+
 <div class="cn-lyric">让我们继续书写满溢的思念</div>
 </div>
 
@@ -195,6 +202,7 @@ Afureru omoi o kaki tsudzukeyou
 <div class="jp-lyric">
 Shirokuro no ashita irodzuite yuku
 </div>
+
 <div class="cn-lyric">黑白交织的明天 渐渐染上色彩</div>
 </div>
 
@@ -202,6 +210,7 @@ Shirokuro no ashita irodzuite yuku
 <div class="jp-lyric">
 Todoke tsudzukeru yakusoku no merodii
 </div>
+
 <div class="cn-lyric">持续送达的 约定的旋律</div>
 </div>
 

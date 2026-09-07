@@ -151,6 +151,7 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [02:00.70]If you have wings, please come back to me
 </div>
+<div class="cn-lyric">[02:00.70]你若拥有翅膀，请回到我身边</div>
 </div>
 
 <div class="lyric-line">
@@ -201,6 +202,7 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [02:33.89]Just looking at the lunar eclipse
 </div>
+<div class="cn-lyric">[02:33.89]只是看着月食</div>
 </div>
 
 <br />
@@ -209,6 +211,7 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [02:56.98]I want to change the world with this song
 </div>
+
 <div class="cn-lyric">[02:56.98]我想用这首歌改变世界</div>
 </div>
 
@@ -216,6 +219,7 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [03:01.56]Even if wishing for happiness is a sin
 </div>
+
 <div class="cn-lyric">[03:01.56]即便祈求幸福是一种罪</div>
 </div>
 
@@ -223,24 +227,28 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [03:06.54]To me, this world looks cruel and beautiful
 </div>
+<div class="cn-lyric">[03:06.54]于我而言，这世界既残酷又美丽</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:12.31]Atonement aria echoes in the cathedral
 </div>
+<div class="cn-lyric">[03:12.31]赎罪咏叹调在大教堂回荡</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:17.66]The crescent moon turned off the light
 </div>
+<div class="cn-lyric">[03:17.66]新月熄灭了光</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:22.00]Just looking at the lunar eclipse
 </div>
+<div class="cn-lyric">[03:22.00]只是看着月食</div>
 </div>
 
 </div>

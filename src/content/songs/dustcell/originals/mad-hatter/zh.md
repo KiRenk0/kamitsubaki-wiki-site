@@ -17,7 +17,7 @@ image: /images/songs/dustcell/mad-hatter.jpg
 
 ## 作品简介
 
-DUSTCELL于 2021-10-19 发行的单曲《Mad Hatter》。
+[DUSTCELL](/zh/artists/solo/dustcell)于 2021-10-19 发行的单曲《Mad Hatter》。
 
 ## 试听
 {{media-switcher::Mad Hatter}}

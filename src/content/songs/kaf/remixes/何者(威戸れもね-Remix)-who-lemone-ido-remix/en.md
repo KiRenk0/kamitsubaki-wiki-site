@@ -191,7 +191,9 @@ image: /images/albums/kaf/guwa-gamma.jpg
 <div class="jp-lyric">
 [00:41.44]<ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="trans-lyric">Keep smiling</div>
+<div class="trans-lyric">
+[00:41.44]Keep smiling
+</div>
 </div>
 
 <div class="lyric-line">
@@ -242,7 +244,9 @@ image: /images/albums/kaf/guwa-gamma.jpg
 <div class="jp-lyric">
 [01:47.59]<ruby>ねえ<rt class="roma">nee</rt></ruby>、<ruby>どんな<rt class="roma">donna</rt></ruby><ruby>顔<rt class="furi">かお</rt><rt class="roma">kao</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="trans-lyric">Hey, with what kind of face?</div>
+<div class="trans-lyric">
+[01:47.59]Hey, with what kind of face?
+</div>
 </div>
 
 <div class="lyric-line">

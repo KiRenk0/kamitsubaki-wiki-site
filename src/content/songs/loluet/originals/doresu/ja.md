@@ -17,7 +17,7 @@ image: /images/songs/loluet/doresu.jpg
 
 ## 作品概要
 
-LOLUETが2025-09-09にリリースしたシングル「ドレス」。
+[LOLUET](/ja/artists/solo/loluet)が2025-09-09にリリースしたシングル「ドレス」。
 
 ## 視聴
 {{media-switcher::ドレス}}

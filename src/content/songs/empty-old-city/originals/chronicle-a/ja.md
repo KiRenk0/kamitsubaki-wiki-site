@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/chronicle-a.jpg
 
 ## 作品概要
 
-Empty old Cityが2023-10-24にリリースしたシングル「Chronicle A」。
+[Empty old City](/ja/artists/solo/empty-old-city)が2023-10-24にリリースしたシングル「Chronicle A」。
 
 ## 視聴
 {{media-switcher::Chronicle A}}

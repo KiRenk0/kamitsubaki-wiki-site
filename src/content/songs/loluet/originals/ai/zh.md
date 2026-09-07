@@ -17,7 +17,7 @@ image: /images/songs/loluet/ai.jpg
 
 ## 作品简介
 
-LOLUET于 2025-01-21 发行的单曲《アイ》。
+[LOLUET](/zh/artists/solo/loluet)于 2025-01-21 发行的单曲《アイ》。
 
 ## 试听
 {{media-switcher::アイ}}

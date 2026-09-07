@@ -132,6 +132,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 <ruby>パソコン<rt class="roma">pasokon</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>画面<rt class="furi">がめん</rt><rt class="roma">gamen</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>頭痛<rt class="furi">ずつう</rt><rt class="roma">zutsuu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>便<rt class="furi">たよ</rt><rt class="roma">tayo</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>
 </div>
+<div class="cn-lyric">从电脑屏幕传来头痛的消息</div>
 </div>
 
 <div class="lyric-line">
@@ -147,6 +148,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 <ruby>学校<rt class="furi">がっこう</rt><rt class="roma">gakkou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>たく<rt class="roma">taku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">不想去学校啊</div>
 </div>
 
 <div class="lyric-line">
@@ -167,12 +169,14 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 <ruby>だから<rt class="roma">dakara</rt></ruby> <ruby>これ<rt class="roma">kore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ズル<rt class="roma">zuru</rt></ruby><ruby>休<rt class="furi">やす</rt><rt class="roma">yasu</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">所以 这不算装病请假吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ズル<rt class="roma">zuru</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>休<rt class="furi">やす</rt><rt class="roma">yasu</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby>
 </div>
+<div class="cn-lyric">这不是偷懒的休假</div>
 </div>
 
 <br />
@@ -181,12 +185,14 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 <ruby>学校<rt class="furi">がっこう</rt><rt class="roma">gakkou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>たく<rt class="roma">taku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">不想去学校啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:14.22]<ruby>学校<rt class="furi">がっこう</rt><rt class="roma">gakkou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>たく<rt class="roma">taku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よー<rt class="roma">you</rt></ruby>!!
 </div>
+
 <div class="cn-lyric">[03:14.22]不想去学校啊ー!!</div>
 </div>
 
@@ -196,12 +202,14 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 <ruby>学校<rt class="furi">がっこう</rt><rt class="roma">gakkou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>たく<rt class="roma">taku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">不想去学校啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:43.27]<ruby>考<rt class="furi">かんが</rt><rt class="roma">kanga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>うち<rt class="roma">uchi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>具合<rt class="furi">ぐあい</rt><rt class="roma">guai</rt></ruby><ruby>悪<rt class="furi">わる</rt><rt class="roma">waru</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>なっちゃ<rt class="roma">natcha</rt></ruby><ruby>うん<rt class="roma">un</rt></ruby><ruby>だから<rt class="roma">dakara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:43.27]想着想着就变得不舒服了</div>
 </div>
 
@@ -209,12 +217,14 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 <ruby>だから<rt class="roma">dakara</rt></ruby> <ruby>これ<rt class="roma">kore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ズル<rt class="roma">zuru</rt></ruby><ruby>休<rt class="furi">やす</rt><rt class="roma">yasu</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">所以 这不算装病请假吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ズル<rt class="roma">zuru</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>休<rt class="furi">やす</rt><rt class="roma">yasu</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby>
 </div>
+<div class="cn-lyric">这不是偷懒的休假</div>
 </div>
 
 </div>

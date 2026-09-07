@@ -24,7 +24,7 @@ image: /images/albums/vwp/proliferation.jpg
 
 ## Overview
 
-愛憎 (feat. Isekaijoucho & V.W.P) appears on 繁殖 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+愛憎 (feat. Isekaijoucho & V.W.P) appears on [繁殖](/en/albums/vwp/proliferation) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -130,18 +130,21 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 <ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>黙<rt class="furi">だま</rt><rt class="roma">dama</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>抜<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="trans-lyric">Wait, silently I can love you through and through</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>代<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="trans-lyric">Because I know I'm just a substitute for someone else</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>黙<rt class="furi">だま</rt><rt class="roma">dama</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>、<ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby>
 </div>
+<div class="trans-lyric">Silently, I cried. You said nothing</div>
 </div>
 
 <div class="lyric-line">
@@ -312,6 +315,7 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 <ruby>あわよくば<rt class="roma">awayokuba</rt></ruby>、<ruby>それ<rt class="roma">sore</rt></ruby><ruby>以上<rt class="furi">いじょう</rt><rt class="roma">ijou</rt></ruby>
 </div>
+
 <div class="trans-lyric">If possible, even more</div>
 </div>
 
@@ -319,6 +323,7 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 <ruby>現実<rt class="furi">げんじつ</rt><rt class="roma">genjitsu</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>非情<rt class="furi">ひじょう</rt><rt class="roma">hijou</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby> <ruby>報<rt class="furi">むく</rt><rt class="roma">muku</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+
 <div class="trans-lyric">Reality is cruel, unrequited</div>
 </div>
 
@@ -328,6 +333,7 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 <ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>、<ruby>黙<rt class="furi">だま</rt><rt class="roma">dama</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>抜<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+
 <div class="trans-lyric">Wait, silently I can love you through and through</div>
 </div>
 
@@ -335,24 +341,28 @@ image: /images/albums/vwp/proliferation.jpg
 <div class="jp-lyric">
 <ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>代<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="trans-lyric">Because I know I'm just a substitute for someone else</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>黙<rt class="furi">だま</rt><rt class="roma">dama</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>、<ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby>
 </div>
+<div class="trans-lyric">Silently, I cried. You said nothing</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>迎<rt class="furi">むか</rt><rt class="roma">muka</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>度目<rt class="furi">どめ</rt><rt class="roma">dome</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby>
 </div>
+<div class="trans-lyric">Greeting this second today</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>迎<rt class="furi">むか</rt><rt class="roma">muka</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>同<rt class="furi">おな</rt><rt class="roma">ona</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="trans-lyric">Greeting the same night again</div>
 </div>
 
 </div>

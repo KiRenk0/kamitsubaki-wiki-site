@@ -18,7 +18,7 @@ image: /images/albums/rim/chocolate-live.jpg
 
 ## Overview
 
-Youthful Strangers appears on CHOCOLATE LIVE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+Youthful Strangers appears on [CHOCOLATE LIVE](/en/albums/rim/chocolate-live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Lyrics
 
@@ -93,6 +93,7 @@ Pass the dutchie 'pon the left hand side
 <div class="jp-lyric">
 Pass the dutchie 'pon the left hand side
 </div>
+<div class="trans-lyric">Pass the dutchie 'pon the left hand side</div>
 </div>
 
 <div class="lyric-line">
@@ -113,6 +114,7 @@ Give me the music make me jump and prance
 <div class="jp-lyric">
 It a go done
 </div>
+<div class="trans-lyric">It a go done</div>
 </div>
 
 <div class="lyric-line">
@@ -147,6 +149,7 @@ You could feel it 'cause it was the month of June
 <div class="jp-lyric">
 How does it feel when you got no food
 </div>
+<div class="trans-lyric">How does it feel when you got no food</div>
 </div>
 
 <div class="lyric-line">
@@ -160,6 +163,7 @@ So I left my gate and went out for a walk
 <div class="jp-lyric">
 How does it feel when you got no food
 </div>
+<div class="trans-lyric">How does it feel when you got no food</div>
 </div>
 
 <div class="lyric-line">
@@ -173,48 +177,56 @@ As I pass the dreadlocks' camp I heard them say
 <div class="jp-lyric">
 How does it feel when you got no food
 </div>
+<div class="trans-lyric">How does it feel when you got no food</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Pass the dutchie 'pon the left hand side
 </div>
+<div class="trans-lyric">Pass the dutchie 'pon the left hand side</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I say
 </div>
+<div class="trans-lyric">I say</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Pass the dutchie 'pon the left hand side
 </div>
+<div class="trans-lyric">Pass the dutchie 'pon the left hand side</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It a go done
 </div>
+<div class="trans-lyric">It a go done</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Give me the music make me jump and prance
 </div>
+<div class="trans-lyric">Give me the music make me jump and prance</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It a go done
 </div>
+<div class="trans-lyric">It a go done</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Give me the music make me rock in and the dance
 </div>
+<div class="trans-lyric">Give me the music make me rock in and the dance</div>
 </div>
 
 <div class="lyric-line">
@@ -249,6 +261,7 @@ So I stopped to find out what was going on
 <div class="jp-lyric">
 How does it feel when you got no food
 </div>
+<div class="trans-lyric">How does it feel when you got no food</div>
 </div>
 
 <div class="lyric-line">
@@ -262,6 +275,7 @@ How does it feel when you got no food
 <div class="jp-lyric">
 How does it feel when you got no food
 </div>
+<div class="trans-lyric">How does it feel when you got no food</div>
 </div>
 
 <div class="lyric-line">
@@ -282,6 +296,7 @@ A session was there in swing
 <div class="jp-lyric">
 How does it feel when you got no food
 </div>
+<div class="trans-lyric">How does it feel when you got no food</div>
 </div>
 
 <div class="lyric-line">
@@ -302,54 +317,63 @@ I seen and heard them say
 <div class="jp-lyric">
 How does it feel when you got no food
 </div>
+<div class="trans-lyric">How does it feel when you got no food</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Pass the dutchie 'pon the left hand side
 </div>
+<div class="trans-lyric">Pass the dutchie 'pon the left hand side</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I say
 </div>
+<div class="trans-lyric">I say</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Pass the dutchie 'pon the left hand side
 </div>
+<div class="trans-lyric">Pass the dutchie 'pon the left hand side</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It a go done
 </div>
+<div class="trans-lyric">It a go done</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Give me the music make me jump and prance
 </div>
+<div class="trans-lyric">Give me the music make me jump and prance</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It a go done
 </div>
+<div class="trans-lyric">It a go done</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Give me the music make me rock in and the dance
 </div>
+<div class="trans-lyric">Give me the music make me rock in and the dance</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 'Cause me say listen to the drummer
 </div>
+
 <div class="trans-lyric">'Cause me say listen to the drummer</div>
 </div>
 
@@ -357,6 +381,7 @@ Give me the music make me rock in and the dance
 <div class="jp-lyric">
 Me say listen to the bass
 </div>
+
 <div class="trans-lyric">Me say listen to the bass</div>
 </div>
 
@@ -364,6 +389,7 @@ Me say listen to the bass
 <div class="jp-lyric">
 Give me little music
 </div>
+
 <div class="trans-lyric">Give me little music</div>
 </div>
 
@@ -371,6 +397,7 @@ Give me little music
 <div class="jp-lyric">
 Make me wind up me waist
 </div>
+
 <div class="trans-lyric">Make me wind up me waist</div>
 </div>
 
@@ -378,6 +405,7 @@ Make me wind up me waist
 <div class="jp-lyric">
 Me say listen to the drummer
 </div>
+
 <div class="trans-lyric">Me say listen to the drummer</div>
 </div>
 
@@ -385,72 +413,87 @@ Me say listen to the drummer
 <div class="jp-lyric">
 Me say listen to the bass
 </div>
+
+<div class="trans-lyric">Me say listen to the bass</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Give me little music
 </div>
+
+<div class="trans-lyric">Give me little music</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Make me wind up me waist
 </div>
+
+<div class="trans-lyric">Make me wind up me waist</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I say
 </div>
+<div class="trans-lyric">I say</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Pass the dutchie 'pon the left hand side
 </div>
+<div class="trans-lyric">Pass the dutchie 'pon the left hand side</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I say
 </div>
+<div class="trans-lyric">I say</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Pass the dutchie 'pon the left hand side
 </div>
+<div class="trans-lyric">Pass the dutchie 'pon the left hand side</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It a go done
 </div>
+<div class="trans-lyric">It a go done</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Give me the music make me jump and prance
 </div>
+<div class="trans-lyric">Give me the music make me jump and prance</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It a go done
 </div>
+<div class="trans-lyric">It a go done</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Give me the music make me rock in and the dance
 </div>
+<div class="trans-lyric">Give me the music make me rock in and the dance</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You play it on the radio
 </div>
+
 <div class="trans-lyric">You play it on the radio</div>
 </div>
 
@@ -458,6 +501,7 @@ You play it on the radio
 <div class="jp-lyric">
 A so me say
 </div>
+
 <div class="trans-lyric">A so me say</div>
 </div>
 
@@ -465,6 +509,7 @@ A so me say
 <div class="jp-lyric">
 We a go hear it on the stereo
 </div>
+
 <div class="trans-lyric">We a go hear it on the stereo</div>
 </div>
 
@@ -472,6 +517,7 @@ We a go hear it on the stereo
 <div class="jp-lyric">
 A so me know
 </div>
+
 <div class="trans-lyric">A so me know</div>
 </div>
 
@@ -479,6 +525,7 @@ A so me know
 <div class="jp-lyric">
 We a go play it on the disco
 </div>
+
 <div class="trans-lyric">We a go play it on the disco</div>
 </div>
 
@@ -486,18 +533,23 @@ We a go play it on the disco
 <div class="jp-lyric">
 A so me say
 </div>
+
+<div class="trans-lyric">A so me say</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 We a go hear it on the stereo
 </div>
+
+<div class="trans-lyric">We a go hear it on the stereo</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Oh
 </div>
+
 <div class="trans-lyric">Oh</div>
 </div>
 
@@ -505,48 +557,56 @@ Oh
 <div class="jp-lyric">
 Pass the dutchie 'pon the left hand side
 </div>
+<div class="trans-lyric">Pass the dutchie 'pon the left hand side</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I say
 </div>
+<div class="trans-lyric">I say</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Pass the dutchie 'pon the left hand side
 </div>
+<div class="trans-lyric">Pass the dutchie 'pon the left hand side</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It a go done
 </div>
+<div class="trans-lyric">It a go done</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Give me the music make me jump and prance
 </div>
+<div class="trans-lyric">Give me the music make me jump and prance</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It a go done
 </div>
+<div class="trans-lyric">It a go done</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Give me the music make me rock in and the dance
 </div>
+<div class="trans-lyric">Give me the music make me rock in and the dance</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 On the left hand side
 </div>
+
 <div class="trans-lyric">On the left hand side</div>
 </div>
 
@@ -554,42 +614,53 @@ On the left hand side
 <div class="jp-lyric">
 I say
 </div>
+<div class="trans-lyric">I say</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 On the left hand side
 </div>
+
+<div class="trans-lyric">On the left hand side</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I say
 </div>
+<div class="trans-lyric">I say</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 On the left hand side
 </div>
+
+<div class="trans-lyric">On the left hand side</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 On the left hand side
 </div>
+
+<div class="trans-lyric">On the left hand side</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 On the left hand side
 </div>
+
+<div class="trans-lyric">On the left hand side</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Well me say East say West
 </div>
+
 <div class="trans-lyric">Well me say East say West</div>
 </div>
 
@@ -597,6 +668,7 @@ Well me say East say West
 <div class="jp-lyric">
 Say North and South
 </div>
+
 <div class="trans-lyric">Say North and South</div>
 </div>
 
@@ -604,6 +676,7 @@ Say North and South
 <div class="jp-lyric">
 This is gonna really make us
 </div>
+
 <div class="trans-lyric">This is gonna really make us</div>
 </div>
 
@@ -611,6 +684,7 @@ This is gonna really make us
 <div class="jp-lyric">
 Jump and shout
 </div>
+
 <div class="trans-lyric">Jump and shout</div>
 </div>
 
@@ -618,18 +692,23 @@ Jump and shout
 <div class="jp-lyric">
 Well me say East say West
 </div>
+
+<div class="trans-lyric">Well me say East say West</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Say North and South
 </div>
+
+<div class="trans-lyric">Say North and South</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 This is gonna really make us jump and shout
 </div>
+
 <div class="trans-lyric">This is gonna really make us jump and shout</div>
 </div>
 
@@ -637,6 +716,7 @@ This is gonna really make us jump and shout
 <div class="jp-lyric">
 Pass the dutchie 'pon the left hand side
 </div>
+<div class="trans-lyric">Pass the dutchie 'pon the left hand side</div>
 </div>
 
 </div>

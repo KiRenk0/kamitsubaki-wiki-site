@@ -16,7 +16,7 @@ image: /images/songs/empty-old-city/astronomy-english-ver.jpg
 
 ## 作品概要
 
-Empty old Cityが2024-12-03にリリースしたシングル「Astronomy (English Ver.)」。
+[Empty old City](/ja/artists/solo/empty-old-city)が2024-12-03にリリースしたシングル「Astronomy (English Ver.)」。
 
 ## 視聴
 {{media-switcher::Astronomy (English Ver.)}}

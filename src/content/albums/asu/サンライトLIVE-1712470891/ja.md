@@ -99,9 +99,9 @@ tracks:
 2. flos - サンライトLIVE (Cover)（04:37）
 2. ねぇママ - サンライトLIVE (Cover)（04:39）
 3. カタオモイ - サンライトLIVE (Cover)（03:40）
-3. Sunshine Girl - サンライトLIVE (Cover) [feat. RIM]（03:57）
+3. Sunshine Girl - サンライトLIVE (Cover) [feat. [RIM](/ja/artists/vwp/rim)]（03:57）
 4. 白日 - サンライトLIVE (Cover)（04:44）
-4. 打上花火 - サンライトLIVE (Cover) [feat. ARU]（04:56）
+4. 打上花火 - サンライトLIVE (Cover) [feat. [ARU](/ja/artists/solo/aru)]（04:56）
 5. CH4NGE - サンライトLIVE (Cover)（02:19）
 5. 君に夢中 - サンライトLIVE (Cover)（04:21）
 6. MAGIC - サンライトLIVE (Cover)（04:23）

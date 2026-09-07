@@ -62,7 +62,7 @@ tracks:
 
 ## 简介
 
-HiFi-P于 2023-05-11 发行的Album《Pixels》,共收录 10 首歌曲。
+[HiFi-P](/zh/artists/creators/hifi-p)于 2023-05-11 发行的Album《Pixels》,共收录 10 首歌曲。
 
 ## 收录曲
 

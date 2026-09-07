@@ -108,6 +108,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 <ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
 </div>
+<div class="trans-lyric">You can't possibly know about others, can you?</div>
 </div>
 
 <div class="lyric-line">
@@ -156,30 +157,35 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 <ruby>世の中<rt class="furi">よのなか</rt><rt class="roma">yononaka</rt></ruby><ruby>推敲<rt class="furi">すいこう</rt><rt class="roma">suikou</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>嘘<rt class="furi">うそ</rt><rt class="roma">uso</rt></ruby><ruby>ばっか<rt class="roma">bakka</rt></ruby>
 </div>
+<div class="trans-lyric">The world is nothing but polished lies</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
 </div>
+<div class="trans-lyric">You can't possibly know about others, can you?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>奥<rt class="furi">おく</rt><rt class="roma">oku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="trans-lyric">Without even knowing the self deep in your heart</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
 </div>
+<div class="trans-lyric">You can't possibly know about others, can you?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>おばけ<rt class="roma">obake</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>人前<rt class="furi">ひとまえ</rt><rt class="roma">hitomae</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>しか<rt class="roma">shika</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="trans-lyric">Ghosts only come when people are present</div>
 </div>
 
@@ -187,6 +193,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 <ruby>月<rt class="furi">つき</rt><rt class="roma">tsuki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>存在<rt class="furi">そんざい</rt><rt class="roma">sonzai</rt></ruby>
 </div>
+
 <div class="trans-lyric">The moon exists only when you're looking at it</div>
 </div>
 
@@ -194,6 +201,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 <ruby>それ<rt class="roma">sore</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>信<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>じる<rt class="roma">jiru</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>問題<rt class="furi">もんだい</rt><rt class="roma">mondai</rt></ruby>
 </div>
+
 <div class="trans-lyric">It's a question of whether you believe that</div>
 </div>
 
@@ -201,24 +209,28 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 <ruby>世の中<rt class="furi">よのなか</rt><rt class="roma">yononaka</rt></ruby><ruby>推敲<rt class="furi">すいこう</rt><rt class="roma">suikou</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>嘘<rt class="furi">うそ</rt><rt class="roma">uso</rt></ruby><ruby>ばっか<rt class="roma">bakka</rt></ruby>
 </div>
+<div class="trans-lyric">The world is nothing but polished lies</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
 </div>
+<div class="trans-lyric">You can't possibly know about others, can you?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>奥<rt class="furi">おく</rt><rt class="roma">oku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="trans-lyric">Without even knowing the self deep in your heart</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
 </div>
+<div class="trans-lyric">You can't possibly know about others, can you?</div>
 </div>
 
 </div>

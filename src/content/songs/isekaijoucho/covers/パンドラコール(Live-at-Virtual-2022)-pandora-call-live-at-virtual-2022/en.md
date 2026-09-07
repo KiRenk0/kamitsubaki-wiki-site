@@ -20,7 +20,7 @@ image: /images/albums/rim/singularity-live.jpg
 
 ## Overview
 
-パンドラコール (Live at Virtual, 2022) appears on Singularity Live or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+パンドラコール (Live at Virtual, 2022) appears on [Singularity Live](/en/albums/rim/singularity-live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -36,28 +36,36 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [00:14.40]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby> mistake? <ruby>偏愛<rt class="furi">へんあい</rt><rt class="roma">hen'ai</rt></ruby> <ruby>不<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>可知<rt class="furi">かち</rt><rt class="roma">kachi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
 </div>
-<div class="trans-lyric">Love mistake? Favoritism, unknowable world</div>
+<div class="trans-lyric">
+[00:14.40]Love mistake? Favoritism, unknowable world
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:18.83]<ruby>理解<rt class="furi">りかい</rt><rt class="roma">rikai</rt></ruby> <ruby>旋律<rt class="furi">せんりつ</rt><rt class="roma">senritsu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
-<div class="trans-lyric">Understanding, before the melody</div>
+<div class="trans-lyric">
+[00:18.83]Understanding, before the melody
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:22.04]<ruby>廃<rt class="furi">はい</rt><rt class="roma">hai</rt></ruby> escape? 迷<ruby>言<rt class="furi">げん</rt><rt class="roma">gen</rt></ruby> <ruby>無<rt class="furi">む</rt><rt class="roma">mu</rt></ruby><ruby>価値<rt class="furi">かち</rt><rt class="roma">kachi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby>
 </div>
-<div class="trans-lyric">Waste escape? Rambling words in worthlessness</div>
+<div class="trans-lyric">
+[00:22.04]Waste escape? Rambling words in worthlessness
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:26.16]<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby> <ruby>旋律<rt class="furi">せんりつ</rt><rt class="roma">senritsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>糧<rt class="furi">かて</rt><rt class="roma">kate</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>なれ<rt class="roma">nare</rt></ruby>
 </div>
-<div class="trans-lyric">World, become the sustenance of melody</div>
+<div class="trans-lyric">
+[00:26.16]World, become the sustenance of melody
+</div>
 </div>
 
 <br />
@@ -66,28 +74,36 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [00:43.99]<ruby>廃<rt class="furi">はい</rt><rt class="roma">hai</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby> <ruby>閑散<rt class="furi">かんさん</rt><rt class="roma">kansan</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
-<div class="trans-lyric">Desolate world, a quiet night</div>
+<div class="trans-lyric">
+[00:43.99]Desolate world, a quiet night
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:47.48]<ruby>可笑<rt class="furi">おか</rt><rt class="roma">oka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>旋律<rt class="furi">せんりつ</rt><rt class="roma">senritsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>
 </div>
-<div class="trans-lyric">Touches the strange melody</div>
+<div class="trans-lyric">
+[00:47.48]Touches the strange melody
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:51.31]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby> <ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby> <ruby>精巧<rt class="furi">せいこう</rt><rt class="roma">seikou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>罠<rt class="furi">わな</rt><rt class="roma">wana</rt></ruby>
 </div>
-<div class="trans-lyric">Love, world, an intricate trap of sound</div>
+<div class="trans-lyric">
+[00:51.31]Love, world, an intricate trap of sound
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:55.59]<ruby>まだ<rt class="roma">mada</rt></ruby> <ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>気付<rt class="furi">きづ</rt><rt class="roma">kizu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
-<div class="trans-lyric">You still do not notice</div>
+<div class="trans-lyric">
+[00:55.59]You still do not notice
+</div>
 </div>
 
 <br />
@@ -96,28 +112,36 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [00:59.16]<ruby>散々<rt class="furi">さんざん</rt><rt class="roma">sanzan</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ましょ<rt class="roma">masho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="trans-lyric">Let us dance wildly</div>
+<div class="trans-lyric">
+[00:59.16]Let us dance wildly
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:01.75]<ruby>影<rt class="furi">かげ</rt><rt class="roma">kage</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>甘美<rt class="furi">かんび</rt><rt class="roma">kanbi</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>
 </div>
-<div class="trans-lyric">A sweet night when shadows sway</div>
+<div class="trans-lyric">
+[01:01.75]A sweet night when shadows sway
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:06.50]<ruby>さあ<rt class="roma">saa</rt></ruby> <ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ましょ<rt class="roma">masho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="trans-lyric">Come, let us forget everything</div>
+<div class="trans-lyric">
+[01:06.50]Come, let us forget everything
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:09.39]<ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby> <ruby>災厄<rt class="furi">さいやく</rt><rt class="roma">saiyaku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>どうぞ<rt class="roma">douzo</rt></ruby>
 </div>
-<div class="trans-lyric">You touch it— please, take the calamity</div>
+<div class="trans-lyric">
+[01:09.39]You touch it— please, take the calamity
+</div>
 </div>
 
 <br />
@@ -126,33 +150,44 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [01:15.43]<ruby>飾<rt class="furi">かざ</rt><rt class="roma">kaza</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>見抜<rt class="furi">みぬ</rt><rt class="roma">minu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby>
 </div>
-<div class="trans-lyric">Cannot see through even the adorned words</div>
+<div class="trans-lyric">
+[01:15.43]Cannot see through even the adorned words
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:19.10]<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>愚<rt class="furi">おろ</rt><rt class="roma">oro</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>愛<rt class="furi">いと</rt><rt class="roma">ito</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby>
 </div>
-<div class="trans-lyric">Even the world is foolish and dear</div>
+<div class="trans-lyric">
+[01:19.10]Even the world is foolish and dear
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:22.76]<ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>送<rt class="furi">おく</rt><rt class="roma">oku</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
-<div class="trans-lyric">I send it from me to you</div>
+<div class="trans-lyric">
+[01:22.76]I send it from me to you
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:27.99]<ruby>生<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>まれ<rt class="roma">mare</rt></ruby><ruby>ゆく<rt class="roma">yuku</rt></ruby><ruby>災厄<rt class="furi">さいやく</rt><rt class="roma">saiyaku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
-<div class="trans-lyric">The calamity that is being born</div>
+<div class="trans-lyric">
+[01:27.99]The calamity that is being born
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:30.67]<ruby>散々<rt class="furi">さんざん</rt><rt class="roma">sanzan</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ましょ<rt class="roma">masho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+</div>
+<div class="trans-lyric">
+[01:30.67]Let us dance wildly
 </div>
 </div>
 
@@ -160,12 +195,17 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [01:33.49]<ruby>偏愛<rt class="furi">へんあい</rt><rt class="roma">hen'ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby> <ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
 </div>
-<div class="trans-lyric">Your world breaks from favoritism</div>
+<div class="trans-lyric">
+[01:33.49]Your world breaks from favoritism
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:37.84]<ruby>さあ<rt class="roma">saa</rt></ruby> <ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ましょ<rt class="roma">masho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+</div>
+<div class="trans-lyric">
+[01:37.84]Come, let us forget everything
 </div>
 </div>
 
@@ -173,7 +213,9 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [01:40.70]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>邪魔<rt class="furi">じゃま</rt><rt class="roma">jama</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
 </div>
-<div class="trans-lyric">I won't let anyone disturb it, a world that is only mine</div>
+<div class="trans-lyric">
+[01:40.70]I won't let anyone disturb it, a world that is only mine
+</div>
 </div>
 
 <br />
@@ -182,32 +224,45 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [01:46.71]Misty, calling, dreaming, violet
 </div>
-<div class="trans-lyric">Misty, calling, dreaming, violet</div>
+<div class="trans-lyric">
+[01:46.71]Misty, calling, dreaming, violet
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:48.79]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby> <ruby>罠<rt class="furi">わな</rt><rt class="roma">wana</rt></ruby> deep inside
 </div>
-<div class="trans-lyric">Love trap deep inside</div>
+<div class="trans-lyric">
+[01:48.79]Love trap deep inside
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:50.51]Mistake, calling, killing, parade
 </div>
-<div class="trans-lyric">Mistake, calling, killing, parade</div>
+
+<div class="trans-lyric">
+[01:50.51]Mistake, calling, killing, parade
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:52.52]<ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> dreaming night
 </div>
-<div class="trans-lyric">Ambiguous dreaming night</div>
+
+<div class="trans-lyric">
+[01:52.52]Ambiguous dreaming night
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
+[01:54.11]Misty, calling, dreaming, violet
+</div>
+<div class="trans-lyric">
 [01:54.11]Misty, calling, dreaming, violet
 </div>
 </div>
@@ -216,10 +271,17 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [01:56.33]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby> <ruby>罠<rt class="furi">わな</rt><rt class="roma">wana</rt></ruby> deep inside
 </div>
+<div class="trans-lyric">
+[01:56.33]Love trap deep inside
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
+[01:57.86]Mistake, calling, killing, parade
+</div>
+
+<div class="trans-lyric">
 [01:57.86]Mistake, calling, killing, parade
 </div>
 </div>
@@ -227,6 +289,10 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:59.81]<ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> dreaming night
+</div>
+
+<div class="trans-lyric">
+[01:59.81]Ambiguous dreaming night
 </div>
 </div>
 
@@ -236,11 +302,17 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [02:01.53]<ruby>廃<rt class="furi">はい</rt><rt class="roma">hai</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby> <ruby>閑散<rt class="furi">かんさん</rt><rt class="roma">kansan</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+<div class="trans-lyric">
+[02:01.53]Desolate world, a quiet night
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:05.12]<ruby>可笑<rt class="furi">おか</rt><rt class="roma">oka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>旋律<rt class="furi">せんりつ</rt><rt class="roma">senritsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>
+</div>
+<div class="trans-lyric">
+[02:05.12]Touches the strange melody
 </div>
 </div>
 
@@ -248,11 +320,17 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [02:09.05]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby> <ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby> <ruby>精巧<rt class="furi">せいこう</rt><rt class="roma">seikou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>罠<rt class="furi">わな</rt><rt class="roma">wana</rt></ruby>
 </div>
+<div class="trans-lyric">
+[02:09.05]Love, world, an intricate trap of sound
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:13.23]<ruby>まだ<rt class="roma">mada</rt></ruby> <ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>気付<rt class="furi">きづ</rt><rt class="roma">kizu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+</div>
+<div class="trans-lyric">
+[02:13.23]You still do not notice
 </div>
 </div>
 
@@ -262,11 +340,17 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [02:32.96]<ruby>飾<rt class="furi">かざ</rt><rt class="roma">kaza</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>見抜<rt class="furi">みぬ</rt><rt class="roma">minu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby>
 </div>
+<div class="trans-lyric">
+[02:32.96]Cannot see through even the adorned words
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:36.70]<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>愚<rt class="furi">おろ</rt><rt class="roma">oro</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>愛<rt class="furi">いと</rt><rt class="roma">ito</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby>
+</div>
+<div class="trans-lyric">
+[02:36.70]Even the world is foolish and dear
 </div>
 </div>
 
@@ -274,11 +358,17 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [02:40.39]<ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>送<rt class="furi">おく</rt><rt class="roma">oku</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="trans-lyric">
+[02:40.39]I send it from me to you
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:45.15]<ruby>生<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>まれ<rt class="roma">mare</rt></ruby><ruby>ゆく<rt class="roma">yuku</rt></ruby><ruby>災厄<rt class="furi">さいやく</rt><rt class="roma">saiyaku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+</div>
+<div class="trans-lyric">
+[02:45.15]The calamity that is being born
 </div>
 </div>
 
@@ -286,11 +376,17 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [02:48.08]<ruby>散々<rt class="furi">さんざん</rt><rt class="roma">sanzan</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ましょ<rt class="roma">masho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="trans-lyric">
+[02:48.08]Let us dance wildly
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:51.09]<ruby>偏愛<rt class="furi">へんあい</rt><rt class="roma">hen'ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby> <ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
+</div>
+<div class="trans-lyric">
+[02:51.09]Your world breaks from favoritism
 </div>
 </div>
 
@@ -298,11 +394,17 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [02:55.35]<ruby>さあ<rt class="roma">saa</rt></ruby> <ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ましょ<rt class="roma">masho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="trans-lyric">
+[02:55.35]Come, let us forget everything
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:58.34]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>邪魔<rt class="furi">じゃま</rt><rt class="roma">jama</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
+</div>
+<div class="trans-lyric">
+[02:58.34]I won't let anyone disturb it, a world that is only mine
 </div>
 </div>
 
@@ -312,16 +414,26 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [03:04.44]Misty, calling, dreaming, violet
 </div>
+<div class="trans-lyric">
+[03:04.44]Misty, calling, dreaming, violet
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:06.44]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby> <ruby>罠<rt class="furi">わな</rt><rt class="roma">wana</rt></ruby> deep inside
 </div>
+<div class="trans-lyric">
+[03:06.44]Love trap deep inside
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
+[03:08.04]Mistake, calling, killing, parade
+</div>
+
+<div class="trans-lyric">
 [03:08.04]Mistake, calling, killing, parade
 </div>
 </div>
@@ -330,10 +442,17 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [03:10.18]<ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> dreaming night
 </div>
+
+<div class="trans-lyric">
+[03:10.18]Ambiguous dreaming night
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
+[03:11.65]Misty, calling, dreaming, violet
+</div>
+<div class="trans-lyric">
 [03:11.65]Misty, calling, dreaming, violet
 </div>
 </div>
@@ -342,10 +461,17 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [03:13.61]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby> <ruby>罠<rt class="furi">わな</rt><rt class="roma">wana</rt></ruby> deep inside
 </div>
+<div class="trans-lyric">
+[03:13.61]Love trap deep inside
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
+[03:15.48]Mistake, calling, killing, parade
+</div>
+
+<div class="trans-lyric">
 [03:15.48]Mistake, calling, killing, parade
 </div>
 </div>
@@ -353,6 +479,10 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:17.52]<ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> dreaming night
+</div>
+
+<div class="trans-lyric">
+[03:17.52]Ambiguous dreaming night
 </div>
 </div>
 
@@ -362,11 +492,17 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [03:19.12]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby> mistake? <ruby>偏愛<rt class="furi">へんあい</rt><rt class="roma">hen'ai</rt></ruby> <ruby>不<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>可知<rt class="furi">かち</rt><rt class="roma">kachi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
 </div>
+<div class="trans-lyric">
+[03:19.12]Love mistake? Favoritism, unknowable world
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:23.34]<ruby>理解<rt class="furi">りかい</rt><rt class="roma">rikai</rt></ruby> <ruby>旋律<rt class="furi">せんりつ</rt><rt class="roma">senritsu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+</div>
+<div class="trans-lyric">
+[03:23.34]Understanding, before the melody
 </div>
 </div>
 
@@ -374,11 +510,17 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [03:26.56]<ruby>廃<rt class="furi">はい</rt><rt class="roma">hai</rt></ruby> escape? 迷<ruby>言<rt class="furi">げん</rt><rt class="roma">gen</rt></ruby> <ruby>無<rt class="furi">む</rt><rt class="roma">mu</rt></ruby><ruby>価値<rt class="furi">かち</rt><rt class="roma">kachi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby>
 </div>
+<div class="trans-lyric">
+[03:26.56]Waste escape? Rambling words in worthlessness
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:30.78]<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby> <ruby>旋律<rt class="furi">せんりつ</rt><rt class="roma">senritsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>糧<rt class="furi">かて</rt><rt class="roma">kate</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>なれ<rt class="roma">nare</rt></ruby>
+</div>
+<div class="trans-lyric">
+[03:30.78]World, become the sustenance of melody
 </div>
 </div>
 

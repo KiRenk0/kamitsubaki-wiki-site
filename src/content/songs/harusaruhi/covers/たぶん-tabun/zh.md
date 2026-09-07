@@ -164,6 +164,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [01:14.57]⼀⼈<ruby>で<rt class="roma">de</rt></ruby><ruby>迎<rt class="furi">むか</rt><rt class="roma">muka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[01:14.57]在独自迎来的清晨</div>
 </div>
 
 <div class="lyric-line">
@@ -214,6 +215,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [01:34.28]<ruby>たぶん<rt class="roma">tabun</rt></ruby>
 </div>
+<div class="cn-lyric">[01:34.28]大概</div>
 </div>
 
 <br />
@@ -266,12 +268,14 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [01:56.03]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>回<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
+<div class="cn-lyric">[01:56.03]我们无论多少次一定</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:59.70]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
+<div class="cn-lyric">[01:59.70]对 无论多少年一定</div>
 </div>
 
 <div class="lyric-line">
@@ -285,12 +289,14 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [02:07.69]<ruby>仕<rt class="furi">つかまつ</rt><rt class="roma">tsukamatsu</rt></ruby>⽅<ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
+<div class="cn-lyric">[02:07.69]没办法啊 一定</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:10.17]「<ruby>おかえり<rt class="roma">okaeri</rt></ruby>」
 </div>
+<div class="cn-lyric">[02:10.17]「欢迎回来」</div>
 </div>
 
 <div class="lyric-line">
@@ -357,6 +363,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [02:57.93]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>回<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
+<div class="cn-lyric">[02:57.93]我们无论多少次一定</div>
 </div>
 
 <br />
@@ -365,42 +372,49 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [03:00.55]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>回<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
+<div class="cn-lyric">[03:00.55]我们无论多少次一定</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:03.50]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
+<div class="cn-lyric">[03:03.50]对 无论多少年一定</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:06.22]<ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>と共<rt class="furi">ととも</rt><rt class="roma">totomo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">[03:06.22]只会在再见中结束</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:11.52]<ruby>仕<rt class="furi">つかまつ</rt><rt class="roma">tsukamatsu</rt></ruby>⽅<ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
+<div class="cn-lyric">[03:11.52]没办法啊 一定</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:14.15]「<ruby>おかえり<rt class="roma">okaeri</rt></ruby>」
 </div>
+<div class="cn-lyric">[03:14.15]「欢迎回来」</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:14.92]<ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>わず<rt class="roma">wazu</rt></ruby><ruby>零<rt class="furi">こぼ</rt><rt class="roma">kobo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>⾔<ruby>葉<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[03:14.92]不经意间溢出的话语</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:19.06]<ruby>違<rt class="furi">ちが</rt><rt class="roma">chiga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+<div class="cn-lyric">[03:19.06]不对啊</div>
 </div>
 
 <br />
@@ -409,6 +423,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [03:21.00]<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>回<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:21.00]即便如此 无论多少次一定</div>
 </div>
 
@@ -416,12 +431,14 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [03:24.89]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
+<div class="cn-lyric">[03:24.89]对 无论多少年一定</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:27.55]<ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>まり<rt class="roma">mari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>戻<rt class="furi">もど</rt><rt class="roma">modo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>出来<rt class="furi">でき</rt><rt class="roma">deki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:27.55]如果能够回到起点</div>
 </div>
 
@@ -429,6 +446,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [03:32.98]<ruby>なんて<rt class="roma">nante</rt></ruby> <ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:32.98]不禁 会这样想啊</div>
 </div>
 
@@ -436,12 +454,14 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [03:35.59]「<ruby>おかえり<rt class="roma">okaeri</rt></ruby>」
 </div>
+<div class="cn-lyric">[03:35.59]「欢迎回来」</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:36.55]<ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>零<rt class="furi">こぼ</rt><rt class="roma">kobo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>⾔<ruby>葉<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:36.55]对着没能传达而溢出的话语</div>
 </div>
 
@@ -449,6 +469,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [03:40.54]<ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:40.54]笑了</div>
 </div>
 
@@ -458,6 +479,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [03:42.54]<ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>冷<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:42.54]有些寒冷的清晨</div>
 </div>
 

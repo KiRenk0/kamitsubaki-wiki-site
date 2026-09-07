@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 
 ## 作品简介
 
-《STAY TUNE at CREAM PUFF LIVE 3(Cover)》收录于《CREAM PUFF LIVE 3》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《STAY TUNE at CREAM PUFF LIVE 3(Cover)》收录于《[CREAM PUFF LIVE 3](/zh/albums/harusaruhi/cream-puff-live-3)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -98,6 +98,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [01:16.65]<ruby>うんざり<rt class="roma">unzari</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby>
 </div>
+<div class="cn-lyric">[01:16.65]已经厌烦了</div>
 </div>
 
 <div class="lyric-line">
@@ -167,6 +168,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [02:19.21]<ruby>うんざり<rt class="roma">unzari</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby>
 </div>
+<div class="cn-lyric">[02:19.21]已经厌烦了</div>
 </div>
 
 <div class="lyric-line">
@@ -187,6 +189,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [02:29.02]Cool <ruby>な<rt class="roma">na</rt></ruby><ruby>視線<rt class="furi">しせん</rt><rt class="roma">shisen</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>つめ<rt class="roma">tsume</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:29.02]用Cool的视线凝视我</div>
 </div>
 
@@ -194,6 +197,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [02:32.72]<ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>俺<rt class="furi">おれ</rt><rt class="roma">ore</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>試<rt class="furi">ため</rt><rt class="roma">tame</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:32.72]仅此一次试试我</div>
 </div>
 
@@ -201,48 +205,56 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 [02:36.61]<ruby>ブランド<rt class="roma">burando</rt></ruby><ruby>着<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>やつ<rt class="roma">yatsu</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby> Good night
 </div>
+<div class="cn-lyric">[02:36.61]穿着名牌的家伙 已经 Good night</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:40.57]M<ruby>で<rt class="roma">de</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby><ruby>やつ<rt class="roma">yatsu</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby> Good night
 </div>
+<div class="cn-lyric">[02:40.57]在M等待的家伙 已经 Good night</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:44.38]<ruby>頭<rt class="furi">あたま</rt><rt class="roma">atama</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>やつ<rt class="roma">yatsu</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby> Good night
 </div>
+<div class="cn-lyric">[02:44.38]只有头脑好的家伙 已经 Good night</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:48.24]<ruby>広<rt class="furi">ひろ</rt><rt class="roma">hiro</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>浅<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>やつ<rt class="roma">yatsu</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby> Good night
 </div>
+<div class="cn-lyric">[02:48.24]广而浅的家伙 已经 Good night</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:52.96]Stay tune in <ruby>東京<rt class="furi">とうきょう</rt><rt class="roma">toukyou</rt></ruby> Friday night
 </div>
+<div class="cn-lyric">[02:52.96]Stay tune in 东京 Friday night</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:02.97]Oh Good time <ruby>癒<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> like The “Dead rising” soon
 </div>
+<div class="cn-lyric">[03:02.97]Oh Good time 挥之不去 like The “Dead rising” soon</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:08.57]23 Haunted now the time
 </div>
+<div class="cn-lyric">[03:08.57]23 Haunted now the time</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:16.28]“SAT” Scramble comin'
 </div>
+<div class="cn-lyric">[03:16.28]“SAT” Scramble comin'</div>
 </div>
 
 </div>

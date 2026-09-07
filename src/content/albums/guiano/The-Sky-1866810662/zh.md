@@ -82,7 +82,7 @@ tracks:
 
 ## 简介
 
-Guiano于 2026-01-28 发行的Album《The Sky》,共收录 15 首歌曲。
+[Guiano](/zh/artists/creators/guiano)于 2026-01-28 发行的Album《The Sky》,共收录 15 首歌曲。
 
 ## 收录曲
 

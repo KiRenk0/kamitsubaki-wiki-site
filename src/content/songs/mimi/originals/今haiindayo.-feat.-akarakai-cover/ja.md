@@ -17,7 +17,7 @@ image: /images/songs/mimi/今haiindayo.-feat.-akarakai-cover.jpg
 
 ## 作品概要
 
-MIMIが2024-05-21にリリースしたシングル「今はいいんだよ。 (feat. アカラカイ) [Cover]」。
+[MIMI](/ja/artists/creators/mimi)が2024-05-21にリリースしたシングル「今はいいんだよ。 (feat. アカラカイ) [Cover]」。
 
 ## 視聴
 {{media-switcher::今はいいんだよ。 (feat. アカラカイ) [Cover]}}

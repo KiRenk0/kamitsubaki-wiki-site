@@ -21,7 +21,7 @@ order: 3
 
 ## 制作阵容
 
-- Producer：PIEDPIPER
+- Producer：[PIEDPIPER](/zh/artists/creators/piedpiper)
 - Original Story：KAMITSUBAKI STUDIO
 - Art Direction：PHASE STUDIO
 - Character Design：PALOW.
@@ -53,59 +53,59 @@ order: 3
 
 |                        标题                         |     公开日     |                      作词・作曲・编曲                       |       演唱        |
 | :-----------------------------------------------: | :---------: | :-------------------------------------------------: | :-------------: |
-| <ruby>フェイクナイト・シンデレラ<rt>Fake Night Cinderella</rt></ruby> |  2024年8月9日  |                        矢野達也                         |       心世纪       |
-|                        弔花                         | 2024年8月14日  |                         [他人事](/zh/artists/creators/hitogoto)                         |       [罪十罚](/zh/artists/girls_revolution_project/tsumitobatsu)       |
-|         <ruby>パーフェクション<rt>Perfection</rt></ruby>         | 2024年9月18日  |         水野あつ（作词）<br>HIDEYA KOJIMA（作编曲）<br>          |       心世纪       |
-|                      DIGGER                       | 2024年9月25日  |            biz（作词）<br>biz、ZERA（作编曲）<br>             |       罪十罚       |
-|                       well                        | 2024年10月9日  |            祭日ハネダ（作词）<br>[HiFi-P](/zh/artists/creators/hifi-p)（作编曲）<br>             |       [硝子宫](/zh/artists/girls_revolution_project/garasumiya)       |
-|             <ruby>アライブ<rt>Alive</rt></ruby>              | 2024年10月16日 |                        夢魅たぴ                         |       [氷夏至](/zh/artists/girls_revolution_project/hinageshi)       |
-|                    夢の揺籠（梦之摇篮）                     | 2024年10月23日 |                      Wiz_nicc                       |       佳镜院       |
-|             <ruby>アバウト<rt>About</rt></ruby>              | 2024年10月30日 |                      ポリスピカデリー                       |       夕凪机       |
-|                     シンユウ（挚友）                      | 2024年11月6日  |                       wotaku                        |       御莉姬       |
-|           <ruby>セルフィッシュ<rt>Selfish</rt></ruby>           | 2024年11月13日 |                      Shun Ueno                      |       [美古途](/zh/artists/girls_revolution_project/mikoto)       |
-|                    現世回帰（现世回归）                     | 2024年11月20日 |             真崎エリカ（作词）<br>水野谷怜（作编曲）<br>              |     心世纪×罪十罚     |
+| <ruby>[フェイクナイト・シンデレラ](/zh/songs/sinseiki/originals/fake-night-cinderella)<rt>Fake Night Cinderella</rt></ruby> |  2024年8月9日  |                        矢野達也                         |       心世纪       |
+|                        [弔花](/zh/songs/tsumitobatsu/originals/chouka)                         | 2024年8月14日  |                         [他人事](/zh/artists/creators/hitogoto)                         |       [罪十罚](/zh/artists/girls_revolution_project/tsumitobatsu)       |
+|         <ruby>[パーフェクション](/zh/songs/sinseiki/originals/perfection)<rt>Perfection</rt></ruby>         | 2024年9月18日  |         水野あつ（作词）<br>HIDEYA KOJIMA（作编曲）<br>          |       心世纪       |
+|                      [DIGGER](/zh/songs/tsumitobatsu/originals/digger)                       | 2024年9月25日  |            biz（作词）<br>biz、ZERA（作编曲）<br>             |       罪十罚       |
+|                       [well](/zh/songs/garasumiya/originals/well)                        | 2024年10月9日  |            祭日ハネダ（作词）<br>[HiFi-P](/zh/artists/creators/hifi-p)（作编曲）<br>             |       [硝子宫](/zh/artists/girls_revolution_project/garasumiya)       |
+|             <ruby>[アライブ](/zh/songs/hinageshi/originals/alive)<rt>Alive</rt></ruby>              | 2024年10月16日 |                        夢魅たぴ                         |       [氷夏至](/zh/artists/girls_revolution_project/hinageshi)       |
+|                    [夢の揺籠](/zh/songs/kakyoin/originals/yume-no-yurikago)（梦之摇篮）                     | 2024年10月23日 |                      Wiz_nicc                       |       佳镜院       |
+|             <ruby>[アバウト](/zh/songs/yunagi/originals/about)<rt>About</rt></ruby>              | 2024年10月30日 |                      ポリスピカデリー                       |       夕凪机       |
+|                     [シンユウ](/zh/songs/orihime/originals/shin-yuu)（挚友）                      | 2024年11月6日  |                       wotaku                        |       御莉姬       |
+|           <ruby>[セルフィッシュ](/zh/songs/mikoto/originals/selfish)<rt>Selfish</rt></ruby>           | 2024年11月13日 |                      Shun Ueno                      |       [美古途](/zh/artists/girls_revolution_project/mikoto)       |
+|                    [現世回帰](/zh/songs/grp/originals/gense-kaiki)（现世回归）                     | 2024年11月20日 |             真崎エリカ（作词）<br>水野谷怜（作编曲）<br>              |     心世纪×罪十罚     |
 |                       アイ（爱）                       | 2024年11月27日 |                        higma                        |       硝子宫       |
-|              <ruby>ジャンク<rt>Junk</rt></ruby>              | 2024年12月4日  |                       内緒のピアス                        |       氷夏至       |
-|                       宇宙逃避行                       | 2024年12月11日 |                        [MIMI](/zh/artists/creators/mimi)                         |       [佳镜院](/zh/artists/girls_revolution_project/kakyoin)       |
-|         <ruby>プレイヤーわたし<rt>Player Me</rt></ruby>          | 2024年12月18日 |                        harha                        |       夕凪机       |
-|                   Talking Doll                    | 2024年12月25日 |                         他人事                         |       御莉姬       |
-|                   アワセカガミ（镜中世界）                    |  2025年1月8日  |                        木下龍平                         |       美古途       |
-|                     Ephemeral                     | 2025年1月22日  |                       100回嘔吐                        |       心世纪       |
-|                      Synapse                      | 2025年1月29日  |          小野仁誠、蓮実えれな（作词）<br>Zexnum（作编曲）<br>          |       罪十罚       |
-|                   ガラスのパズル（玻璃拼图）                   |  2025年2月5日  |        ボンジュール鈴木（作词作曲）<br>鈴木Daichi秀行（编曲）<br>         |     硝子宫×美古途     |
-|          <ruby>シネマティック<rt>Cinematic</rt></ruby>          | 2025年2月12日  |                        樱井健太郎                        |     佳镜院×氷夏至     |
-|                      瞬き（眨眼）                       | 2025年2月19日  |                        木下龍平                         |     御莉姬×夕凪机     |
-|                     ココロト（心与）                      | 2025年2月26日  |                         とあ                          |       心世纪       |
-|                     blindness                     |  2025年3月5日  |                      ⌘Hainomi                       |       罪十罚       |
-|                       ANGER                       | 2025年3月12日  |      Mahiro（作词）<br>Kazuto Okawa:⁠LLLL（作编曲）<br>      |       御莉姬       |
-|                   キリガサガリキ（伞笠笠木）                   | 2025年3月19日  |                      Purukichi                      |       佳镜院       |
-|                      unknown                      | 2025年3月26日  |                         歩く人                         |       硝子宫       |
-|                     うそ鳴き（虚鸣）                      |  2025年4月2日  |          ぽん（作词）<br>HIDEYA KOJIMA（作编曲）<br>           |       心世纪       |
-|     <ruby>ホンキートンキーラブ<rt>Honky Tonky Love</rt></ruby>     | 2025年4月16日  | キタノコウヤ、なるおさやか（作词）<br>キタノコウヤ（作曲）<br>POP ART TOWN（编曲） |       氷夏至       |
-|                    回想の層（回想之层）                     | 2025年4月23日  |                       Mizore                        |       美古途       |
-|                   Yellow Yellow                   | 2025年4月30日  |                        フジムラ                         |       夕凪机       |
-|                       SHOCK                       |  2025年5月7日  |                         梅とら                         |       罪十罚       |
-|  <ruby>ミリオン・コンプレクシティ<rt>Million Complexity</rt></ruby>   | 2025年5月21日  |                        矢野達也                         |       心世纪       |
-|                     SURVIVAL                      |  2025年6月4日  |                        矢野達也                         |       罪十罚       |
-|                    鈍色幻灯（钝色幻灯）                     |  2025年7月2日  |               真崎エリカ（作词）<br>水野谷怜（作编曲）                |     心世纪×罪十罚     |
-|                       主人行路                        | 2025年8月27日  |                        矢野達也                         |     心世纪×罪十罚     |
-|         <ruby>ロストオービット<rt>Lost Orbit</rt></ruby>         | 2025年10月29日 |                      shikisai                       |       心世纪       |
-|                いずれ僕は溶けて（终有一日我将融化）                 | 2025年10月29日 |                      Purukichi                      |       心世纪       |
-|           <ruby>コントラスト<rt>Contrast</rt></ruby>           | 2025年10月29日 |                        矢野達也                         |       心世纪       |
-|                     FantastiQ                     | 2025年10月29日 |            ぽん（作词）<br>HIDEYA KOJIMA（作编曲）             |       心世纪       |
-|                       RAVEN                       | 2025年10月29日 |                         梓川                          |       罪十罚       |
-|                    アウフヘーベン（扬弃）                    | 2025年10月29日 |                        椎乃味醂                         |       罪十罚       |
-|                   Brrrrrreak It                   | 2025年10月29日 |                        [平田義久](/zh/artists/creators/hiratayoshihisa)                         |       [罪十罚](/zh/artists/girls_revolution_project/tsumitobatsu)       |
-|                       Envy                        | 2025年10月29日 |              [tokiwa](/zh/artists/creators/tokiwa)（作词作曲）<br>朝比奈健人（编曲）              |       [罪十罚](/zh/artists/girls_revolution_project/tsumitobatsu)       |
-|                        改変                         | 2025年10月29日 |         たなか（作词作曲）<br>Kazuto Okawa:LLLL（编曲）          |     心世纪×罪十罚     |
-|                    月へゆく（前往月亮）                     | 2025年11月12日 |                        tama                         |       佳镜院       |
-|                  Masquerade Kill                  | 2025年11月26日 |                          廉                          |       御莉姬       |
-|                 化け物でいさせて（让我做个怪物吧）                 | 2025年12月17日 |               樱井健太郎（作词作曲）<br>永野大辅（编曲）               |       夕凪机       |
-|    <ruby>クロマティック<rt>Chromatic</rt></ruby> feat.ヰ世界情绪     | 2025年12月24日 |                        矢野達也                         | 心世纪×罪十罚 / ヰ世界情绪 |
-|                    sweet/sour                     |  2026年1月7日  |                         水槽                          |       氷夏至       |
-|                        大罪                         | 2026年1月23日  |             他人事（作词）<br>他人事、Zexnum（作编曲）              |       罪十罚       |
-|                       侵蝕の記録                       | 2026年2月18日  |                       Neuron                        |       美古途       |
-|                        雑几帖                        | 2026年2月20日  |                        矢野達也                         |       心世纪       |
+|              <ruby>[ジャンク](/zh/songs/hinageshi/originals/junk)<rt>Junk</rt></ruby>              | 2024年12月4日  |                       内緒のピアス                        |       氷夏至       |
+|                       [宇宙逃避行](/zh/songs/kakyoin/originals/uchu-touhikou)                       | 2024年12月11日 |                        [MIMI](/zh/artists/creators/mimi)                         |       [佳镜院](/zh/artists/girls_revolution_project/kakyoin)       |
+|         <ruby>[プレイヤーわたし](/zh/songs/yunagi/originals/player-watashi)<rt>Player Me</rt></ruby>          | 2024年12月18日 |                        harha                        |       夕凪机       |
+|                   [Talking Doll](/zh/songs/orihime/originals/talking-doll)                    | 2024年12月25日 |                         他人事                         |       御莉姬       |
+|                   [アワセカガミ](/zh/songs/mikoto/originals/awase-kagami)（镜中世界）                    |  2025年1月8日  |                        木下龍平                         |       美古途       |
+|                     [Ephemeral](/zh/songs/sinseiki/originals/ephemeral)                     | 2025年1月22日  |                       100回嘔吐                        |       心世纪       |
+|                      [Synapse](/zh/songs/tsumitobatsu/originals/synapse)                      | 2025年1月29日  |          小野仁誠、蓮実えれな（作词）<br>Zexnum（作编曲）<br>          |       罪十罚       |
+|                   [ガラスのパズル](/zh/songs/garasumiya/originals/glass-no-puzzle)（玻璃拼图）                   |  2025年2月5日  |        ボンジュール鈴木（作词作曲）<br>鈴木Daichi秀行（编曲）<br>         |     硝子宫×美古途     |
+|          <ruby>[シネマティック](/zh/songs/kakyoin/originals/cinematic)<rt>Cinematic</rt></ruby>          | 2025年2月12日  |                        樱井健太郎                        |     佳镜院×氷夏至     |
+|                      [瞬き](/zh/songs/orihime/originals/mabataki)（眨眼）                       | 2025年2月19日  |                        木下龍平                         |     御莉姬×夕凪机     |
+|                     [ココロト](/zh/songs/sinseiki/originals/kokoroto)（心与）                      | 2025年2月26日  |                         とあ                          |       心世纪       |
+|                     [blindness](/zh/songs/tsumitobatsu/originals/blindness)                     |  2025年3月5日  |                      ⌘Hainomi                       |       罪十罚       |
+|                       [ANGER](/zh/songs/orihime/originals/anger)                       | 2025年3月12日  |      Mahiro（作词）<br>Kazuto Okawa:⁠LLLL（作编曲）<br>      |       御莉姬       |
+|                   [キリガサガリキ](/zh/songs/kakyoin/originals/kirigasa-gariki)（伞笠笠木）                   | 2025年3月19日  |                      Purukichi                      |       佳镜院       |
+|                      [unknown](/zh/songs/garasumiya/originals/unknown)                      | 2025年3月26日  |                         歩く人                         |       硝子宫       |
+|                     [うそ鳴き](/zh/songs/sinseiki/originals/usonaki)（虚鸣）                      |  2025年4月2日  |          ぽん（作词）<br>HIDEYA KOJIMA（作编曲）<br>           |       心世纪       |
+|     <ruby>[ホンキートンキーラブ](/zh/songs/hinageshi/originals/honky-tonky-love)<rt>Honky Tonky Love</rt></ruby>     | 2025年4月16日  | キタノコウヤ、なるおさやか（作词）<br>キタノコウヤ（作曲）<br>POP ART TOWN（编曲） |       氷夏至       |
+|                    [回想の層](/zh/songs/mikoto/originals/kaisou-no-sou)（回想之层）                     | 2025年4月23日  |                       Mizore                        |       美古途       |
+|                   [Yellow Yellow](/zh/songs/yunagi/originals/yellow-yellow)                   | 2025年4月30日  |                        フジムラ                         |       夕凪机       |
+|                       [SHOCK](/zh/songs/tsumitobatsu/originals/shock)                       |  2025年5月7日  |                         梅とら                         |       罪十罚       |
+|  <ruby>[ミリオン・コンプレクシティ](/zh/songs/sinseiki/originals/million-complexity)<rt>Million Complexity</rt></ruby>   | 2025年5月21日  |                        矢野達也                         |       心世纪       |
+|                     [SURVIVAL](/zh/songs/tsumitobatsu/originals/survival)                      |  2025年6月4日  |                        矢野達也                         |       罪十罚       |
+|                    [鈍色幻灯](/zh/songs/grp/originals/nibiiro-gentou)（钝色幻灯）                     |  2025年7月2日  |               真崎エリカ（作词）<br>水野谷怜（作编曲）                |     心世纪×罪十罚     |
+|                       [主人行路](/zh/songs/grp/originals/shujin-kouro)                        | 2025年8月27日  |                        矢野達也                         |     心世纪×罪十罚     |
+|         <ruby>[ロストオービット](/zh/songs/sinseiki/originals/lost-orbit)<rt>Lost Orbit</rt></ruby>         | 2025年10月29日 |                      shikisai                       |       心世纪       |
+|                [いずれ僕は溶けて](/zh/songs/sinseiki/originals/izure-boku-wa-tokete)（终有一日我将融化）                 | 2025年10月29日 |                      Purukichi                      |       心世纪       |
+|           <ruby>[コントラスト](/zh/songs/sinseiki/originals/contrast)<rt>Contrast</rt></ruby>           | 2025年10月29日 |                        矢野達也                         |       心世纪       |
+|                     [FantastiQ](/zh/songs/sinseiki/originals/fantasti-q)                     | 2025年10月29日 |            ぽん（作词）<br>HIDEYA KOJIMA（作编曲）             |       心世纪       |
+|                       [RAVEN](/zh/songs/tsumitobatsu/originals/raven)                       | 2025年10月29日 |                         梓川                          |       罪十罚       |
+|                    [アウフヘーベン](/zh/songs/tsumitobatsu/originals/aufheben)（扬弃）                    | 2025年10月29日 |                        椎乃味醂                         |       罪十罚       |
+|                   [Brrrrrreak It](/zh/songs/tsumitobatsu/originals/brrrrrreak-it)                   | 2025年10月29日 |                        [平田義久](/zh/artists/creators/hiratayoshihisa)                         |       [罪十罚](/zh/artists/girls_revolution_project/tsumitobatsu)       |
+|                       [Envy](/zh/songs/tsumitobatsu/originals/envy)                        | 2025年10月29日 |              [tokiwa](/zh/artists/creators/tokiwa)（作词作曲）<br>朝比奈健人（编曲）              |       [罪十罚](/zh/artists/girls_revolution_project/tsumitobatsu)       |
+|                        [改変](/zh/songs/grp/originals/kaihen)                         | 2025年10月29日 |         たなか（作词作曲）<br>Kazuto Okawa:LLLL（编曲）          |     心世纪×罪十罚     |
+|                    [月へゆく](/zh/songs/kakyoin/originals/tsuki-e-yuku)（前往月亮）                     | 2025年11月12日 |                        tama                         |       佳镜院       |
+|                  [Masquerade Kill](/zh/songs/orihime/originals/masquerade-kill)                  | 2025年11月26日 |                          廉                          |       御莉姬       |
+|                 [化け物でいさせて](/zh/songs/yunagi/originals/bakemono-de-isasete)（让我做个怪物吧）                 | 2025年12月17日 |               樱井健太郎（作词作曲）<br>永野大辅（编曲）               |       夕凪机       |
+|    <ruby>[クロマティック](/zh/songs/grp/collaborations/chromatic)<rt>Chromatic</rt></ruby> feat.ヰ世界情绪     | 2025年12月24日 |                        矢野達也                         | 心世纪×罪十罚 / ヰ世界情绪 |
+|                    [sweet/sour](/zh/songs/hinageshi/originals/sweet-sour)                     |  2026年1月7日  |                         水槽                          |       氷夏至       |
+|                        [大罪](/zh/songs/tsumitobatsu/originals/taizai)                         | 2026年1月23日  |             他人事（作词）<br>他人事、Zexnum（作编曲）              |       罪十罚       |
+|                       [侵蝕の記録](/zh/songs/mikoto/originals/shinshoku-no-kiroku)                       | 2026年2月18日  |                       Neuron                        |       美古途       |
+|                        [雑几帖](/zh/songs/sinseiki/originals/zatsukichou)                        | 2026年2月20日  |                        矢野達也                         |       心世纪       |
 
 ### 发行专辑
 
@@ -120,7 +120,7 @@ order: 3
 
 - **KAMITSUBAKI FES '24 THE DAY THE EARTH STOOD STILL**
     - 出演：[佳鏡院](/zh/artists/girls_revolution_project/kakyoin)、[御莉姫](/zh/artists/girls_revolution_project/orihime)、[硝子宮](/zh/artists/girls_revolution_project/garasumiya)、[美古途](/zh/artists/girls_revolution_project/mikoto)、[夕凪機](/zh/artists/girls_revolution_project/yunagi)、[氷夏至](/zh/artists/girls_revolution_project/hinageshi)
-- **KAMITSUBAKI WARS 2024 神椿幕張戦線 V.W.P 2nd ONE-MAN LIVE「現象II（再）」**
+- **KAMITSUBAKI WARS 2024 神椿幕張戦線 [V.W.P](/zh/artists/vwp/vwp) 2nd ONE-MAN LIVE「現象II（再）」**
     - 出演：御莉姫、美古途、夕凪機、氷夏至
 - **KAMITSUBAKI WARS 2025 神椿川崎戦線 少女革命計画 1st LIVE/第一幕『改変』**
     - 出演：佳鏡院、御莉姫、硝子宮、美古途、夕凪機、氷夏至

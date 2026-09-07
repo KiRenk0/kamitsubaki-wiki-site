@@ -17,7 +17,7 @@ image: /images/songs/mimi/what-call-this-day-feat.-ninjin.jpg
 
 ## 作品简介
 
-MIMI于 2023-07-11 发行的单曲《What Call This Day ? (feat. にんじん)》。
+[MIMI](/zh/artists/creators/mimi)于 2023-07-11 发行的单曲《What Call This Day ? (feat. にんじん)》。
 
 ## 试听
 {{media-switcher::What Call This Day ? (feat. にんじん)}}

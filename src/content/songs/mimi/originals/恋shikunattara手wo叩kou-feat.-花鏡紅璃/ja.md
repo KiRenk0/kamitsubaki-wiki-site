@@ -17,7 +17,7 @@ image: /images/songs/mimi/恋shikunattara手wo叩kou-feat.-花鏡紅璃.jpg
 
 ## 作品概要
 
-MIMIが2025-06-04にリリースしたシングル「恋しくなったら手を叩こう (feat. 花鏡紅璃)」。
+[MIMI](/ja/artists/creators/mimi)が2025-06-04にリリースしたシングル「恋しくなったら手を叩こう (feat. 花鏡紅璃)」。
 
 ## 視聴
 {{media-switcher::恋しくなったら手を叩こう (feat. 花鏡紅璃)}}

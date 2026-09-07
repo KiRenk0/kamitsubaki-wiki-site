@@ -118,18 +118,21 @@ Hold your love before it's gone
 <div class="jp-lyric">
 Your phantom sits with me
 </div>
+<div class="trans-lyric">Your phantom sits with me</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 When I'm all alone
 </div>
+<div class="trans-lyric">When I'm all alone</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I love you still
 </div>
+<div class="trans-lyric">I love you still</div>
 </div>
 
 </div>

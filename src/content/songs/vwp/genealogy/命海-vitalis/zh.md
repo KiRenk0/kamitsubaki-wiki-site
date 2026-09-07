@@ -257,6 +257,7 @@ image: /images/albums/vwp/inversion.jpg
 <div class="jp-lyric">
 [02:02.96]<ruby>刻<rt class="furi">きざ</rt><rt class="roma">kiza</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>傷<rt class="furi">きず</rt><rt class="roma">kizu</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>運命<rt class="furi">うんめい</rt><rt class="roma">unmei</rt></ruby>
 </div>
+<div class="cn-lyric">[02:02.96]刻下的伤痕与这命运</div>
 </div>
 
 <div class="lyric-line">
@@ -277,18 +278,21 @@ image: /images/albums/vwp/inversion.jpg
 <div class="jp-lyric">
 [02:11.10]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>逃げ出<rt class="furi">にげだ</rt><rt class="roma">nigeda</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">[02:11.10]已经无法逃脱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:13.71]<ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">[02:13.71]无法停止</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:15.36]<ruby>溺<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>宿命<rt class="furi">しゅくめい</rt><rt class="roma">shukumei</rt></ruby>
 </div>
+<div class="cn-lyric">[02:15.36]几近溺毙的命运</div>
 </div>
 
 <div class="lyric-line">
@@ -302,6 +306,7 @@ image: /images/albums/vwp/inversion.jpg
 <div class="jp-lyric">
 [02:20.31]<ruby>縋<rt class="furi">すが</rt><rt class="roma">suga</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>迷<rt class="furi">まよ</rt><rt class="roma">mayo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby> <ruby>求<rt class="furi">もと</rt><rt class="roma">moto</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>メーデー<rt class="roma">meedee</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:20.31]依赖迷茫 寻求的 Mayday</div>
 </div>
 
@@ -309,6 +314,7 @@ image: /images/albums/vwp/inversion.jpg
 <div class="jp-lyric">
 [02:30.33]<ruby>だって<rt class="roma">datte</rt></ruby> <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たせ<rt class="roma">tase</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:30.33]因为 无法填满</div>
 </div>
 
@@ -316,6 +322,7 @@ image: /images/albums/vwp/inversion.jpg
 <div class="jp-lyric">
 [02:32.76]<ruby>ねえ<rt class="roma">nee</rt></ruby> <ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby> <ruby>その<rt class="roma">sono</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>導<rt class="furi">みちび</rt><rt class="roma">michibi</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:32.76]呐 想要呐喊 那声音指引着我</div>
 </div>
 
@@ -323,60 +330,70 @@ image: /images/albums/vwp/inversion.jpg
 <div class="jp-lyric">
 [02:40.99]<ruby>幻想<rt class="furi">げんそう</rt><rt class="roma">gensou</rt></ruby> <ruby>現実<rt class="furi">げんじつ</rt><rt class="roma">genjitsu</rt></ruby><ruby>さえ<rt class="roma">sae</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby><ruby>関係<rt class="furi">かんけい</rt><rt class="roma">kankei</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">[02:40.99]幻想 甚至现实 都已无关紧要</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:45.83]<ruby>刻<rt class="furi">きざ</rt><rt class="roma">kiza</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>傷<rt class="furi">きず</rt><rt class="roma">kizu</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>運命<rt class="furi">うんめい</rt><rt class="roma">unmei</rt></ruby>
 </div>
+<div class="cn-lyric">[02:45.83]刻下的伤痕与这命运</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:49.22]<ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>なき<rt class="roma">naki</rt></ruby> <ruby>その<rt class="roma">sono</rt></ruby><ruby>誓<rt class="furi">ちか</rt><rt class="roma">chika</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[02:49.22]在那无尽的誓言中</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:51.86]<ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>ざけ<rt class="roma">zake</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>過去<rt class="furi">かこ</rt><rt class="roma">kako</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>記憶<rt class="furi">きおく</rt><rt class="roma">kioku</rt></ruby>
 </div>
+<div class="cn-lyric">[02:51.86]远去的过往记忆</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:53.93]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>逃げ出<rt class="furi">にげだ</rt><rt class="roma">nigeda</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">[02:53.93]已经无法逃脱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:56.43]<ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">[02:56.43]无法停止</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:58.00]<ruby>溺<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>宿命<rt class="furi">しゅくめい</rt><rt class="roma">shukumei</rt></ruby>
 </div>
+<div class="cn-lyric">[02:58.00]几近溺毙的命运</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:01.51]<ruby>あ<rt class="roma">a</rt></ruby><ruby>がく<rt class="roma">gaku</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
+<div class="cn-lyric">[03:01.51]越是挣扎越是痛</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:03.02]<ruby>縋<rt class="furi">すが</rt><rt class="roma">suga</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>迷<rt class="furi">まよ</rt><rt class="roma">mayo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby> <ruby>求<rt class="furi">もと</rt><rt class="roma">moto</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>界<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby>
 </div>
+<div class="cn-lyric">[03:03.02]依赖迷茫 寻求的生命界限</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:07.02]<ruby>さあ<rt class="roma">saa</rt></ruby> <ruby>魔法<rt class="furi">まほう</rt><rt class="roma">mahou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>かけ<rt class="roma">kake</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:07.02]来吧 施下魔法</div>
 </div>
 

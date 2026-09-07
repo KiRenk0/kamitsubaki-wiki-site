@@ -38,7 +38,7 @@ tracks:
 
 ## Overview
 
-Guiano's ep “Hold Me Tight (yourself)”, released on 2025-05-28, featuring 4 tracks.
+[Guiano](/en/artists/creators/guiano)'s ep “Hold Me Tight (yourself)”, released on 2025-05-28, featuring 4 tracks.
 
 ## Track List
 

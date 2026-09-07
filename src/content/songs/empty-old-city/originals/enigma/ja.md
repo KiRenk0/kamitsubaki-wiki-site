@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/enigma.jpg
 
 ## 作品概要
 
-Empty old Cityが2022-11-08にリリースしたシングル「Enigma」。
+[Empty old City](/ja/artists/solo/empty-old-city)が2022-11-08にリリースしたシングル「Enigma」。
 
 ## 視聴
 {{media-switcher::Enigma}}

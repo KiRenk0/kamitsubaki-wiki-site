@@ -17,7 +17,7 @@ image: /images/songs/valis/再見romanesuku.jpg
 
 ## 作品概要
 
-VALISが2022-11-15にリリースしたシングル「再見ロマネスク」。
+[VALIS](/ja/artists/solo/valis)が2022-11-15にリリースしたシングル「再見ロマネスク」。
 
 ## 視聴
 {{media-switcher::再見ロマネスク}}

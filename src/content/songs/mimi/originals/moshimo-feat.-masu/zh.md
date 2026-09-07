@@ -17,7 +17,7 @@ image: /images/songs/mimi/moshimo-feat.-masu.jpg
 
 ## 作品简介
 
-MIMI于 2025-07-06 发行的单曲《もしも (feat. マス)》。
+[MIMI](/zh/artists/creators/mimi)于 2025-07-06 发行的单曲《もしも (feat. マス)》。
 
 ## 试听
 {{media-switcher::もしも (feat. マス)}}

@@ -38,7 +38,7 @@ tracks:
 
 ## 简介
 
-tokiwa于 2020-12-04 发行的EP《勿忘》,共收录 4 首歌曲。
+[tokiwa](/zh/artists/creators/tokiwa)于 2020-12-04 发行的EP《勿忘》,共收录 4 首歌曲。
 
 ## 收录曲
 

@@ -17,7 +17,7 @@ image: /images/songs/dustcell/命no行方.jpg
 
 ## 作品概要
 
-DUSTCELLが2021-04-09にリリースしたシングル「命の行方」。
+[DUSTCELL](/ja/artists/solo/dustcell)が2021-04-09にリリースしたシングル「命の行方」。
 
 ## 視聴
 {{media-switcher::命の行方}}

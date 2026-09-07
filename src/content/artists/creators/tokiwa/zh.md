@@ -10,7 +10,7 @@ profileTagline: "身兼作词、作曲、编曲、插画、视频制作的全方
 designCredits: []
 affiliations:
   - "KAMITSUBAKI STUDIO"
-  - "CREATOR FARM"
+  - "PHENOMENON RECORD"
 officialLinks:
   - label: "Twitter"
     href: "https://twitter.com/tokiwa_shion"
@@ -47,11 +47,13 @@ seo:
     - "作曲家"
 ---
 
+
 ## 概述
 
 tokiwa 是隶属于 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) CREATOR FARM 的音乐人兼 Vocaloid 制作人。他一人包揽作词、作曲、编曲、插画及视频制作，是一位极为少见的全流程自制型创作者。
 
 他的音乐风格跨越 EDM、R&B、摇滚等多种流派，以令人印象深刻的旋律和富有情感张力的歌词见长。由于连视觉层面也由本人亲自制作，每首作品都呈现出高度统一的世界观。在神椿创作者生态中，tokiwa 以全能型创作者的定位独树一帜。
+
 
 ## 角色与创作定位
 
@@ -59,11 +61,14 @@ tokiwa 作为横跨音乐与视觉艺术的多面手创作者，拥有独特的�
 
 他的曲风在 EDM、R&B 与摇滚之间自如切换，这种多元性正体现了 CREATOR FARM 鼓励独立创作者自主成长的理念。
 
+
 ## 活动历程
 
 - 以 Vocaloid 制作人身份开始活动，发表了涵盖多种曲风的原创作品。
 - 加入 KAMITSUBAKI STUDIO 的 CREATOR FARM，在神椿创作者生态中进一步扩展活动范围。
 - 持续以自制方式完成包括插画与视频在内的全部创作流程。
+
+- 2026年9月5日：神椿工作室改版，工作室内部厂牌统一整合为 PHENOMENON RECORD。
 
 ## 代表作品与相关条目
 
@@ -74,9 +79,11 @@ tokiwa 作为横跨音乐与视觉艺术的多面手创作者，拥有独特的�
 
 - [Hitogoto / 他人事](/zh/artists/creators/hitogoto)
 
+
 ## 参考资料
 
 - tokiwa Twitter：<https://twitter.com/tokiwa_shion>
+
 
 ## 外部链接
 

@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 
 ## Overview
 
-バレリーコ at CREAM PUFF LIVE 3(Cover) appears on CREAM PUFF LIVE 3 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+バレリーコ at CREAM PUFF LIVE 3(Cover) appears on [CREAM PUFF LIVE 3](/en/albums/harusaruhi/cream-puff-live-3) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -140,12 +140,14 @@ I'll be there
 <div class="jp-lyric">
 I'll be there
 </div>
+<div class="trans-lyric">I'll be there</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I'll be there
 </div>
+<div class="trans-lyric">I'll be there</div>
 </div>
 
 <div class="lyric-line">
@@ -285,18 +287,21 @@ Like a Spinning Wheel<ruby>交錯<rt class="furi">こうさく</rt><rt class="ro
 <div class="jp-lyric">
 I'll be there
 </div>
+<div class="trans-lyric">I'll be there</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I'll be there
 </div>
+<div class="trans-lyric">I'll be there</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I'll be there
 </div>
+<div class="trans-lyric">I'll be there</div>
 </div>
 
 <div class="lyric-line">
@@ -352,6 +357,7 @@ So you are the one<ruby>それぞれ<rt class="roma">sorezore</rt></ruby><ruby>�
 <div class="jp-lyric">
 <ruby>目指<rt class="furi">めざ</rt><rt class="roma">meza</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>場所<rt class="furi">ばしょ</rt><rt class="roma">basho</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>…<ruby>トップ<rt class="roma">toppu</rt></ruby><ruby>ギア<rt class="roma">gia</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="trans-lyric">To the place we aim for... in top gear</div>
 </div>
 
 <div class="lyric-line">
@@ -365,36 +371,42 @@ There's no way back
 <div class="jp-lyric">
 Like a Spinning Wheel<ruby>回<rt class="furi">まわ</rt><rt class="roma">mawa</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>出<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>運命<rt class="furi">うんめい</rt><rt class="roma">unmei</rt></ruby>For Real
 </div>
+<div class="trans-lyric">Like a Spinning Wheel, fate begins to turn, For Real</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>アスファルト<rt class="roma">asufuaruto</rt></ruby><ruby>蹴<rt class="furi">け</rt><rt class="roma">ke</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>走<rt class="furi">はし</rt><rt class="roma">hashi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
 </div>
+<div class="trans-lyric">Kick the asphalt and run</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I'll be there
 </div>
+<div class="trans-lyric">I'll be there</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I'll be there
 </div>
+<div class="trans-lyric">I'll be there</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I'll be there
 </div>
+<div class="trans-lyric">I'll be there</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>その<rt class="roma">sono</rt></ruby><ruby>涙<rt class="furi">なみだ</rt><rt class="roma">namida</rt></ruby><ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ちる<rt class="roma">chiru</rt></ruby> <ruby>手前<rt class="furi">てまえ</rt><rt class="roma">temae</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
+
 <div class="trans-lyric">That tear falls, just before it hits the ground</div>
 </div>
 
@@ -402,6 +414,7 @@ I'll be there
 <div class="jp-lyric">
 So you are the one
 </div>
+
 <div class="trans-lyric">So you are the one</div>
 </div>
 
@@ -409,6 +422,7 @@ So you are the one
 <div class="jp-lyric">
 <ruby>どこ<rt class="roma">doko</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>走<rt class="furi">はし</rt><rt class="roma">hashi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby>
 </div>
+
 <div class="trans-lyric">Running endlessly</div>
 </div>
 
@@ -416,6 +430,7 @@ So you are the one
 <div class="jp-lyric">
 <ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>明<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>道<rt class="furi">みち</rt><rt class="roma">michi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="trans-lyric">On a road where dawn never breaks</div>
 </div>
 
@@ -423,6 +438,7 @@ So you are the one
 <div class="jp-lyric">
 <ruby>もう<rt class="roma">mou</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="trans-lyric">Can't stop anymore</div>
 </div>
 
@@ -430,6 +446,7 @@ So you are the one
 <div class="jp-lyric">
 <ruby>この<rt class="roma">kono</rt></ruby><ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby> <ruby>弾<rt class="furi">たま</rt><rt class="roma">tama</rt></ruby>(<ruby>はじ<rt class="roma">haji</rt></ruby>)<ruby>かれ<rt class="roma">kare</rt></ruby>
 </div>
+
 <div class="trans-lyric">This feeling, sparked</div>
 </div>
 
@@ -437,6 +454,7 @@ So you are the one
 <div class="jp-lyric">
 Like a Spinning Wheel
 </div>
+
 <div class="trans-lyric">Like a Spinning Wheel</div>
 </div>
 
@@ -444,42 +462,50 @@ Like a Spinning Wheel
 <div class="jp-lyric">
 So you are the one
 </div>
+
+<div class="trans-lyric">So you are the one</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+<div class="trans-lyric">Who</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>一番<rt class="furi">いちばん</rt><rt class="roma">ichiban</rt></ruby>
 </div>
+<div class="trans-lyric">is the fastest</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>速<rt class="furi">はや</rt><rt class="roma">haya</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
+<div class="trans-lyric">to</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>たどり着<rt class="furi">たどりつ</rt><rt class="roma">tadoritsu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>Drive
 </div>
+<div class="trans-lyric">reach? Drive</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 For DEAR
 </div>
+<div class="trans-lyric">For DEAR</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 For REAL
 </div>
+<div class="trans-lyric">For REAL</div>
 </div>
 
 </div>

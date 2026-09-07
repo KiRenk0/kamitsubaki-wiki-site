@@ -107,12 +107,14 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 I don't wanna dance, dance
 </div>
+<div class="cn-lyric">I don't wanna dance, dance</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>さざめく<rt class="roma">sazameku</rt></ruby><ruby>滑走<rt class="furi">かっそう</rt><rt class="roma">kassou</rt></ruby><ruby>路<rt class="furi">ろ</rt><rt class="roma">ro</rt></ruby>
 </div>
+<div class="cn-lyric">喧嚣的跑道</div>
 </div>
 
 <div class="lyric-line">
@@ -135,18 +137,21 @@ I don't wanna dance, dance
 <div class="jp-lyric">
 Want to know your name
 </div>
+<div class="cn-lyric">想要知道你的名字</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Want to know your name
 </div>
+<div class="cn-lyric">想要知道你的名字</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Want to know your name
 </div>
+<div class="cn-lyric">想要知道你的名字</div>
 </div>
 
 <div class="lyric-line">
@@ -192,6 +197,7 @@ Want to know your name
 <div class="jp-lyric">
 I don't wanna dance, dance
 </div>
+<div class="cn-lyric">I don't wanna dance, dance</div>
 </div>
 
 <div class="lyric-line">
@@ -205,24 +211,28 @@ I don't wanna dance, dance
 <div class="jp-lyric">
 <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>話<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">我想和你说话</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I don't wanna turn, turn
 </div>
+<div class="cn-lyric">I don't wanna turn, turn</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>らめく<rt class="roma">rameku</rt></ruby><ruby>ダンスホール<rt class="roma">dansuhouru</rt></ruby>
 </div>
+<div class="cn-lyric">摇曳的舞厅</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>呼応<rt class="furi">こおう</rt><rt class="roma">koou</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">我想与你呼应</div>
 </div>
 
 <br />
@@ -231,12 +241,14 @@ I don't wanna turn, turn
 <div class="jp-lyric">
 I don't wanna dance, dance
 </div>
+<div class="cn-lyric">I don't wanna dance, dance</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:15.18]<ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>らめく<rt class="roma">rameku</rt></ruby><ruby>構想<rt class="furi">こうそう</rt><rt class="roma">kousou</rt></ruby><ruby>路<rt class="furi">ろ</rt><rt class="roma">ro</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:15.18]摇曳的构想路</div>
 </div>
 
@@ -244,6 +256,7 @@ I don't wanna dance, dance
 <div class="jp-lyric">
 <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>話<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">我想和你说话呢</div>
 </div>
 
 <br />
@@ -252,30 +265,35 @@ I don't wanna dance, dance
 <div class="jp-lyric">
 Want to know your name
 </div>
+<div class="cn-lyric">想要知道你的名字</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Want to know your name
 </div>
+<div class="cn-lyric">想要知道你的名字</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Want to know your name
 </div>
+<div class="cn-lyric">想要知道你的名字</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Want to know your name
 </div>
+<div class="cn-lyric">想要知道你的名字</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>スコール<rt class="roma">sukouru</rt></ruby>
 </div>
+<div class="cn-lyric">骤雨</div>
 </div>
 
 <br />
@@ -284,6 +302,7 @@ Want to know your name
 <div class="jp-lyric">
 [02:43.23]<ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>余<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>光景<rt class="furi">こうけい</rt><rt class="roma">koukei</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:43.23]目不暇接的景象</div>
 </div>
 
@@ -291,6 +310,7 @@ Want to know your name
 <div class="jp-lyric">
 [02:50.45]<ruby>サウンド<rt class="roma">saundo</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby><ruby>汗<rt class="furi">あせ</rt><rt class="roma">ase</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>更新<rt class="furi">こうしん</rt><rt class="roma">koushin</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:50.45]被声音和汗水不断更新</div>
 </div>
 
@@ -300,6 +320,7 @@ Want to know your name
 <div class="jp-lyric">
 [02:57.14]<ruby>どう<rt class="roma">dou</rt></ruby><ruby>したって<rt class="roma">shitatte</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:57.14]无论如何也什么都没有</div>
 </div>
 
@@ -307,6 +328,7 @@ Want to know your name
 <div class="jp-lyric">
 [03:00.98]<ruby>歪<rt class="furi">ゆが</rt><rt class="roma">yuga</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>疑<rt class="furi">うたが</rt><rt class="roma">utaga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:00.98]没有扭曲 没有怀疑</div>
 </div>
 
@@ -314,6 +336,7 @@ Want to know your name
 <div class="jp-lyric">
 [03:04.38]<ruby>申<rt class="furi">もう</rt><rt class="roma">mou</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たって<rt class="roma">tatte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:04.38]没有诉说 谁都不在</div>
 </div>
 
@@ -321,6 +344,8 @@ Want to know your name
 <div class="jp-lyric">
 <ruby>歪<rt class="furi">ゆが</rt><rt class="roma">yuga</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>疑<rt class="furi">うたが</rt><rt class="roma">utaga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
+<div class="cn-lyric">没有扭曲 没有怀疑</div>
 </div>
 
 <br />
@@ -329,18 +354,23 @@ Want to know your name
 <div class="jp-lyric">
 <ruby>どう<rt class="roma">dou</rt></ruby><ruby>したって<rt class="roma">shitatte</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
+<div class="cn-lyric">无论如何也什么都没有</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>歪<rt class="furi">ゆが</rt><rt class="roma">yuga</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>疑<rt class="furi">うたが</rt><rt class="roma">utaga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
+<div class="cn-lyric">没有扭曲 没有怀疑</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>スコール<rt class="roma">sukouru</rt></ruby>
 </div>
+<div class="cn-lyric">骤雨</div>
 </div>
 
 <br />
@@ -349,30 +379,35 @@ Want to know your name
 <div class="jp-lyric">
 Want to know your name
 </div>
+<div class="cn-lyric">想要知道你的名字</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Want to know your name
 </div>
+<div class="cn-lyric">想要知道你的名字</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Want to know your name
 </div>
+<div class="cn-lyric">想要知道你的名字</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Want to know your name
 </div>
+<div class="cn-lyric">想要知道你的名字</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>スコール<rt class="roma">sukouru</rt></ruby>
 </div>
+<div class="cn-lyric">骤雨</div>
 </div>
 
 </div>

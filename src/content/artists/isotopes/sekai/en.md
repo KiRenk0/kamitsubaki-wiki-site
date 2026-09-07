@@ -73,7 +73,7 @@ Joining the series after [KAFU](/en/artists/isotopes/kafu), SEKAI further enrich
 
 ## Role and Creative Position
 
-SEKAI's voice source derives from ISEKAIJOUCHO — the V.W.P member known for "world-system" narrative and emotional expression. As a result, SEKAI is frequently used in the UGC ecosystem for songs that require transparency, lyricism, and narrative depth.
+SEKAI's voice source derives from ISEKAIJOUCHO — the [V.W.P](/en/artists/vwp/vwp) member known for "world-system" narrative and emotional expression. As a result, SEKAI is frequently used in the UGC ecosystem for songs that require transparency, lyricism, and narrative depth.
 
 Like KAFU, SEKAI is not merely a tool but is positioned as a "voice character" within the creator community — with its own visual identity and settings, connected to yet independent from the original singer ISEKAIJOUCHO.
 

@@ -60,8 +60,8 @@ tracks:
 
 1. ウール・テレパシー (feat. 初音ミク) (03:05)
 2. リフラワーリフレイン (feat. 初音ミク) (02:41)
-3. アイディスマイルCovered by ユジー (feat. とあ & 初音ミク) (03:05)
-4. トワイライトライト (feat. 初音ミク & 鏡音レン) (03:12)
+3. [アイディスマイル](/en/songs/toa/originals/aideisumairu)Covered by ユジー (feat. とあ & 初音ミク) (03:05)
+4. [トワイライトライト](/en/songs/toa/originals/towairaitoraito) (feat. 初音ミク & 鏡音レン) (03:12)
 5. カフス (feat. ナースロボ_タイプT) (02:35)
 6. ミルククラウン・オン・ソーネチカCovered by とあ (feat. 初音ミク & 鏡音リン) (03:31)
 7. あなたの空が泣くのなら (feat. 初音ミク) (04:15)

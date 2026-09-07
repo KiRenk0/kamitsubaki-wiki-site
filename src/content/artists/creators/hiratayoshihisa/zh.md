@@ -10,7 +10,7 @@ debutDate: "2021-10-18"
 profileTagline: "融合爵士、嘻哈与摇滚的音乐艺术家兼影像作家，以「东京之声」风格与电影般的叙事深度著称。"
 designCredits: []
 affiliations:
-  - "ANARCHIC RECORD"
+  - "KYOKAI STUDIO"
 officialLinks:
   - label: "YouTube"
     href: "https://www.youtube.com/channel/UCv9b9KtcBkM1_VEZZpK8bVQ"
@@ -45,17 +45,21 @@ seo:
     - "剧药"
 ---
 
+
 ## 概述
 
 平田義久（Yoshihisa Hirata）是一位音乐艺术家兼影像作家，于 2021年10月18日正式加入 ANARCHIC RECORD。他将爵士、嘻哈与摇滚融为一体，形成了自称的「东京之声」（Tokyo Sound）-- 一种充满电影感、跨越类型界限的音乐风格，捕捉着都市日本的质感与活力。作为一名资深影迷，平田義久将叙事深度与视觉叙事的感性贯穿于音乐创作和影像制作之中。
 
 他也因使用 UTAU 音源「劇薬」（Gekiyaku）而为人所知，将合成歌声融入作品，构建出融合人声与虚拟表达的独特声音身份。
 
+- 2026年9月：THINKR 工作室重组，移籍至 [KYOKAI STUDIO](/zh/projects/labels/kyokai-studio)（原 ANARCHIC RECORD 体系）。
+
 ## 角色与创作定位
 
 平田義久在 ANARCHIC RECORD 中以音乐人与视觉创作者的双重身份占据着独特的位置。他以爵士乐影响下的和声语言为基底，叠加嘻哈的节奏律动与摇滚的能量爆发，创造出充满都市感的声响景观。深受电影文化浸润的创作手法，使他的每首作品都具备叙事弧线与临场感十足的空间描绘。
 
 他对 UTAU 音源「劇薬」的运用，在与 Vocaloid / UTAU 创作者社群建立联系的同时，也保持了他作为跨类型艺术家的独立性。
+
 
 ## 代表作品
 
@@ -65,6 +69,7 @@ seo:
 - 「[トーキョー・コーリング](/zh/songs/hiratayoshihisa/originals/tookyoo-kooringu)」（Tokyo Calling）
 - 「[夏至下る](/zh/songs/hiratayoshihisa/originals/夏至下ru)」
 - 「[飛燕](/zh/songs/hiratayoshihisa/originals/飛燕)」
+
 
 ## 外部链接
 

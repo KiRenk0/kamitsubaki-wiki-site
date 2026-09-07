@@ -196,6 +196,7 @@ image: /images/songs/kaf/track-1760084307.jpg
 <div class="jp-lyric">
 [01:00.650]<ruby>チューイン・ミュージック<rt class="roma">chuuin/myuujikku</rt></ruby>
 </div>
+<div class="cn-lyric">[01:00.650]咀嚼音乐</div>
 </div>
 
 <div class="lyric-line">
@@ -223,6 +224,7 @@ image: /images/songs/kaf/track-1760084307.jpg
 <div class="jp-lyric">
 [01:13.910]<ruby>秘密<rt class="furi">ひみつ</rt><rt class="roma">himitsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ディスコ<rt class="roma">deisuko</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[01:13.910]在秘密的迪斯科里</div>
 </div>
 
 <div class="lyric-line">
@@ -285,6 +287,7 @@ image: /images/songs/kaf/track-1760084307.jpg
 <div class="jp-lyric">
 [01:37.710]<ruby>キャンディ<rt class="roma">kyandei</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ナイト<rt class="roma">naito</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:37.710]糖果之夜</div>
 </div>
 
@@ -292,18 +295,21 @@ image: /images/songs/kaf/track-1760084307.jpg
 <div class="jp-lyric">
 [01:53.810]<ruby>チューイン・ミュージック<rt class="roma">chuuin/myuujikku</rt></ruby>
 </div>
+<div class="cn-lyric">[01:53.810]咀嚼音乐</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:55.260]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>夢中<rt class="furi">むちゅう</rt><rt class="roma">muchuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ダンス<rt class="roma">dansu</rt></ruby>
 </div>
+<div class="cn-lyric">[01:55.260]只是忘情地舞蹈</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:56.930]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>解<rt class="furi">わか</rt><rt class="roma">waka</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>苦<rt class="furi">にが</rt><rt class="roma">niga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>味<rt class="furi">あじ</rt><rt class="roma">aji</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:56.930]谁都不懂的苦涩味道</div>
 </div>
 
@@ -311,108 +317,126 @@ image: /images/songs/kaf/track-1760084307.jpg
 <div class="jp-lyric">
 [02:01.010]<ruby>チューイン・ミュージック<rt class="roma">chuuin/myuujikku</rt></ruby>
 </div>
+<div class="cn-lyric">[02:01.010]咀嚼音乐</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:02.580]<ruby>今<rt class="furi">こん</rt><rt class="roma">kon</rt></ruby><ruby>宇宙<rt class="furi">うちゅう</rt><rt class="roma">uchuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ダイヴ<rt class="roma">daivu</rt></ruby>
 </div>
+<div class="cn-lyric">[02:02.580]现在向宇宙潜水</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:04.260]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby>
 </div>
+<div class="cn-lyric">[02:04.260]已经全部忘记 来跳舞吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:08.740]<ruby>この世<rt class="furi">このよ</rt><rt class="roma">konoyo</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>ああ<rt class="roma">aa</rt></ruby><ruby>クレイジー<rt class="roma">kureijii</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:08.740]这个世界 啊啊 就是疯狂</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:11.710]Ready？1 2 3
 </div>
+<div class="cn-lyric">[02:11.710]Ready？1 2 3</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:13.540]<ruby>皆<rt class="furi">みな</rt><rt class="roma">mina</rt></ruby><ruby>味<rt class="furi">あじ</rt><rt class="roma">aji</rt></ruby><ruby>わって<rt class="roma">watte</rt></ruby><ruby>騒<rt class="furi">さわ</rt><rt class="roma">sawa</rt></ruby><ruby>げよ<rt class="roma">geyo</rt></ruby><ruby>ディスコ<rt class="roma">deisuko</rt></ruby>
 </div>
+<div class="cn-lyric">[02:13.540]大家尽情品味 喧闹吧迪斯科</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:17.060]<ruby>さあ<rt class="roma">saa</rt></ruby><ruby>クラップ<rt class="roma">kurappu</rt></ruby><ruby>刻<rt class="furi">きざ</rt><rt class="roma">kiza</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>大胆<rt class="furi">だいたん</rt><rt class="roma">daitan</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[02:17.060]来吧 大胆地拍手打拍子</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:21.010]<ruby>他<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>主役<rt class="furi">しゅやく</rt><rt class="roma">shuyaku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
+<div class="cn-lyric">[02:21.010]毫无疑问主角就是你吧？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:25.250]<ruby>チューイン・ミュージック<rt class="roma">chuuin/myuujikku</rt></ruby>
 </div>
+<div class="cn-lyric">[02:25.250]咀嚼音乐</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:27.240]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>夢中<rt class="furi">むちゅう</rt><rt class="roma">muchuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ダンス<rt class="roma">dansu</rt></ruby>
 </div>
+<div class="cn-lyric">[02:27.240]只是忘情地舞蹈</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:29.030]<ruby>どんどん<rt class="roma">dondon</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>鼓動<rt class="furi">こどう</rt><rt class="roma">kodou</rt></ruby><ruby>高鳴<rt class="furi">たかな</rt><rt class="roma">takana</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[02:29.030]心跳越来越激烈</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:30.000]<ruby>どうか<rt class="roma">douka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃって<rt class="roma">chatte</rt></ruby>
 </div>
+<div class="cn-lyric">[02:30.000]变得不对劲</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:30.100]<ruby>へんてこりん<rt class="roma">hentekorin</rt></ruby><ruby>ぱらりん<rt class="roma">pararin</rt></ruby>
 </div>
+<div class="cn-lyric">[02:30.100]奇奇怪怪啪啦嘣</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:32.470]<ruby>チューイン・ミュージック<rt class="roma">chuuin/myuujikku</rt></ruby>
 </div>
+<div class="cn-lyric">[02:32.470]咀嚼音乐</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:34.390]<ruby>今<rt class="furi">こん</rt><rt class="roma">kon</rt></ruby><ruby>宇宙<rt class="furi">うちゅう</rt><rt class="roma">uchuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ダイヴ<rt class="roma">daivu</rt></ruby>
 </div>
+<div class="cn-lyric">[02:34.390]现在向宇宙潜水</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:36.100]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby>
 </div>
+<div class="cn-lyric">[02:36.100]已经全部忘记 来跳舞吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:38.250]<ruby>秘密<rt class="furi">ひみつ</rt><rt class="roma">himitsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ディスコ<rt class="roma">deisuko</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[02:38.250]在秘密的迪斯科里</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:40.880]<ruby>秘密<rt class="furi">ひみつ</rt><rt class="roma">himitsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ディスコ<rt class="roma">deisuko</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[02:40.880]在秘密的迪斯科里</div>
 </div>
 
 </div>

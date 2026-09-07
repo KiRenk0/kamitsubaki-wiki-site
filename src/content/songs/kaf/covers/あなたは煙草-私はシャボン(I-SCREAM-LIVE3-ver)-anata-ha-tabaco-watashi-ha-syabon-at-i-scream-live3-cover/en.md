@@ -101,14 +101,18 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [01:10.22]「<ruby>ふっ<rt class="roma">fu</rt></ruby>」<ruby>と<rt class="roma">to</rt></ruby><ruby>消え去<rt class="furi">きえさ</rt><rt class="roma">kiesa</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
-<div class="trans-lyric">With a "puff," vanish</div>
+<div class="trans-lyric">
+[01:10.22]With a "puff," vanish
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:13.66]<ruby>灰<rt class="furi">はい</rt><rt class="roma">hai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="trans-lyric">They turn to ash, don't they?</div>
+<div class="trans-lyric">
+[01:13.66]They turn to ash, don't they?
+</div>
 </div>
 
 <br />
@@ -191,7 +195,9 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [02:37.28]<ruby>センチメンタル<rt class="roma">senchimentaru</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
-<div class="trans-lyric">Even if I become sentimental</div>
+<div class="trans-lyric">
+[02:37.28]Even if I become sentimental
+</div>
 </div>
 
 <div class="lyric-line">
@@ -214,14 +220,18 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [02:54.04]<ruby>カレンダー<rt class="roma">karendaa</rt></ruby><ruby>痩<rt class="furi">や</rt><rt class="roma">ya</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
-<div class="trans-lyric">The calendar just grows thinner</div>
+<div class="trans-lyric">
+[02:54.04]The calendar just grows thinner
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:01.09]<ruby>だから<rt class="roma">dakara</rt></ruby><ruby>さようなら<rt class="roma">sayounara</rt></ruby>
 </div>
-<div class="trans-lyric">So goodbye</div>
+<div class="trans-lyric">
+[03:01.09]So goodbye
+</div>
 </div>
 
 <div class="lyric-line">
@@ -265,12 +275,14 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:31.41]<ruby>大人<rt class="furi">おとな</rt><rt class="roma">otona</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>煙草<rt class="furi">たばこ</rt><rt class="roma">tabako</rt></ruby>
 </div>
+<div class="trans-lyric">[03:31.41]Adult you are smoke</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:35.79]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>シャボン<rt class="roma">shabon</rt></ruby><ruby>玉<rt class="furi">だま</rt><rt class="roma">dama</rt></ruby>
 </div>
+<div class="trans-lyric">[03:35.79]I am a soap bubble</div>
 </div>
 
 </div>

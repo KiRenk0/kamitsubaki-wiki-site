@@ -17,7 +17,7 @@ image: /images/songs/valis/物換星移katarushisu.jpg
 
 ## 作品概要
 
-VALISが2023-04-17にリリースしたシングル「物換星移カタルシス」。
+[VALIS](/ja/artists/solo/valis)が2023-04-17にリリースしたシングル「物換星移カタルシス」。
 
 ## 視聴
 {{media-switcher::物換星移カタルシス}}

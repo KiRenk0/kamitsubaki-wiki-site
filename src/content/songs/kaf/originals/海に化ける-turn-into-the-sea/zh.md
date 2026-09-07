@@ -241,6 +241,7 @@ image: /images/songs/kaf/track-1687477846.jpg
 <div class="jp-lyric">
 <ruby>海<rt class="furi">うみ</rt><rt class="roma">umi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
+<div class="cn-lyric">最终变成了大海啊</div>
 </div>
 
 <div class="lyric-line">
@@ -310,6 +311,7 @@ image: /images/songs/kaf/track-1687477846.jpg
 <div class="jp-lyric">
 <ruby>海<rt class="furi">うみ</rt><rt class="roma">umi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
+<div class="cn-lyric">最终变成了大海啊</div>
 </div>
 
 <div class="lyric-line">
@@ -393,6 +395,7 @@ image: /images/songs/kaf/track-1687477846.jpg
 <div class="jp-lyric">
 [03:47.05]<ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>なんか<rt class="roma">nanka</rt></ruby><ruby>してやる<rt class="roma">shiteyaru</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:47.05]谁会跟你说再见啊</div>
 </div>
 
@@ -400,6 +403,7 @@ image: /images/songs/kaf/track-1687477846.jpg
 <div class="jp-lyric">
 [03:49.76]<ruby>海<rt class="furi">うみ</rt><rt class="roma">umi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:49.76]变成大海，等着你</div>
 </div>
 

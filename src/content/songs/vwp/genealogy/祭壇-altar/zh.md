@@ -26,7 +26,7 @@ image: /images/songs/vwp/single-1700373014.jpg
 
 ## 作品简介
 
-- V.W.P于2023年8月23日发行的原创单曲《祭壇》。该版本首次发行于专辑《[運命](/zh/albums/vwp/fate)》之中。
+- [V.W.P](/zh/artists/vwp/vwp)于2023年8月23日发行的原创单曲《祭壇》。该版本首次发行于专辑《[運命](/zh/albums/vwp/fate)》之中。
 
 ## 试听
 
@@ -227,6 +227,7 @@ image: /images/songs/vwp/single-1700373014.jpg
 <div class="jp-lyric">
 [02:57.36]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
+<div class="cn-lyric">[02:57.36]我们就在这里</div>
 </div>
 
 <div class="lyric-line">
@@ -247,6 +248,7 @@ image: /images/songs/vwp/single-1700373014.jpg
 <div class="jp-lyric">
 [03:15.33]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>がる<rt class="roma">garu</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:15.33]与我们相连</div>
 </div>
 

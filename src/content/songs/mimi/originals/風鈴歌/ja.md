@@ -17,7 +17,7 @@ image: /images/songs/mimi/風鈴歌.jpg
 
 ## 作品概要
 
-MIMIが2022-08-12にリリースしたシングル「風鈴歌」。
+[MIMI](/ja/artists/creators/mimi)が2022-08-12にリリースしたシングル「風鈴歌」。
 
 ## 視聴
 {{media-switcher::風鈴歌}}

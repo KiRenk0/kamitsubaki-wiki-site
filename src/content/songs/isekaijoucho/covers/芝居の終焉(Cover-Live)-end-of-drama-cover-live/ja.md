@@ -19,7 +19,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 
 ## 作品概要
 
-「芝居の終焉 (Cover Live)」は『CANDY LIVE 3 (Cover Live)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「芝居の終焉 (Cover Live)」は『[CANDY LIVE 3](/ja/albums/isekaijoucho/candy-live-3) (Cover Live)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 試聴
 

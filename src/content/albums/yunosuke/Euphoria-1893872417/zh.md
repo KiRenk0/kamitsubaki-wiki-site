@@ -50,9 +50,9 @@ tracks:
 
 ## 收录曲
 
-1. ネハン（03:33）
-2. さよならお月様（03:16）
-3. 自律向き愛（03:13）
+1. [ネハン](/zh/songs/yunosuke/originals/nehan)（03:33）
+2. [さよならお月様](/zh/songs/yunosuke/originals/sayonarao月様)（03:16）
+3. [自律向き愛](/zh/songs/yunosuke/originals/自律向ki愛)（03:13）
 4. ワープループ（02:54）
-5. Intergalactic Bound (Remix)（03:48）
-6. Awake Now (Remix)（04:17）
+5. [Intergalactic Bound](/zh/songs/yunosuke/originals/intergalactic-bound) (Remix)（03:48）
+6. [Awake Now](/zh/songs/yunosuke/originals/awake-now) (Remix)（04:17）

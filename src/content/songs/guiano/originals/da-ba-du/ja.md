@@ -17,7 +17,7 @@ image: /images/songs/guiano/da-ba-du.jpg
 
 ## 作品概要
 
-Guianoが2024-05-21にリリースしたシングル「Da Ba Du」。
+[Guiano](/ja/artists/creators/guiano)が2024-05-21にリリースしたシングル「Da Ba Du」。
 
 ## 視聴
 {{media-switcher::Da Ba Du}}

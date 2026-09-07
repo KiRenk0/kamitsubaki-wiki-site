@@ -41,7 +41,7 @@ featuredEntries:
 
 - **2025年1月**：シングル『[弔花](/ja/songs/tsumitobatsu/originals/chouka)』でデビュー。
 - **2025年7月16日**：[心世紀](/ja/artists/girls_revolution_project/sinseiki)と共に両組曲『[改変](/ja/songs/grp/originals/kaihen)』をリリース。
-- **2025年10月29日**：1stアルバム『改変 -罪-』を発売。
+- **2025年10月29日**：1stアルバム『[改変 -罪-](/ja/albums/tsumitobatsu/kaihen-tsumi)』を発売。
 - **2026年5月**：KAMITSUBAKI WARS 2026 神椿渋谷戦線「少女革命計画 2nd LIVE『Revolutio』」に出演。
 
 ## 代表作品

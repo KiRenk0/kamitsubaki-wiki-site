@@ -17,7 +17,7 @@ image: /images/songs/mimi/soruteimerou.jpg
 
 ## 作品概要
 
-MIMIが2025-02-22にリリースしたシングル「ソルティメロウ」。
+[MIMI](/ja/artists/creators/mimi)が2025-02-22にリリースしたシングル「ソルティメロウ」。
 
 ## 視聴
 {{media-switcher::ソルティメロウ}}

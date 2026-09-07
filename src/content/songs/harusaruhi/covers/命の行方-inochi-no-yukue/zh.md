@@ -220,12 +220,14 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [01:31.89]<ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>がってる<rt class="roma">gatteru</rt></ruby>
 </div>
+<div class="cn-lyric">[01:31.89]生命仍在渴望呐喊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:34.86]<ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
+<div class="cn-lyric">[01:34.86]等待着明天</div>
 </div>
 
 <div class="lyric-line">
@@ -392,6 +394,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [03:08.71]<ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>回<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby><ruby>歌<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>唄<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:08.71]还能唱多少次歌呢</div>
 </div>
 
@@ -399,6 +402,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [03:11.26]<ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>回<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby><ruby>光<rt class="furi">こう</rt><rt class="roma">kou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>られる<rt class="roma">rareru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:11.26]还能看见多少次光呢</div>
 </div>
 

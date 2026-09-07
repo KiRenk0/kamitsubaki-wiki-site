@@ -6,7 +6,9 @@ import {
   buildLiveEventsCacheKey,
   formatEventDateTime,
   formatUtcOffset,
+  LIVE_STATUS_DEFAULT_DURATION_MS,
   readLiveEventsCache,
+  resolveEventStatus,
   writeLiveEventsCache,
 } from '../src/lib/liveEventsClient.js';
 
@@ -54,6 +56,51 @@ test('live-event times can be rendered in the visitor time zone and JST', () => 
   assert.notEqual(local, jst);
 });
 
+test('event status is derived from the current time, not the static API field', () => {
+  const stream = {
+    title: 'Stream',
+    startAt: '2026-09-07T20:00:00+09:00',
+    endAt: '2026-09-07T21:30:00+09:00',
+    status: 'upcoming',
+  };
+  const at = (time) => new Date(time);
+
+  assert.equal(resolveEventStatus(stream, at('2026-09-07T19:59:59+09:00')), 'upcoming');
+  assert.equal(resolveEventStatus(stream, at('2026-09-07T20:00:00+09:00')), 'live');
+  assert.equal(resolveEventStatus(stream, at('2026-09-07T21:29:59+09:00')), 'live');
+  assert.equal(resolveEventStatus(stream, at('2026-09-07T21:30:00+09:00')), 'ended');
+  assert.equal(resolveEventStatus(stream, at('2026-09-08T12:00:00+09:00')), 'ended');
+  // API 返回的 ended/upcoming 只是静态字段，时间未到仍应显示 upcoming
+  assert.equal(resolveEventStatus({ ...stream, status: 'ended' }, at('2026-09-07T10:00:00+09:00')), 'upcoming');
+});
+
+test('events without endAt stay live for a bounded default duration', () => {
+  const stream = { title: 'Stream', startAt: '2026-09-07T20:00:00+09:00', status: 'upcoming' };
+  const at = (time) => new Date(time);
+  const expectedEnd = Date.parse(stream.startAt) + LIVE_STATUS_DEFAULT_DURATION_MS;
+
+  assert.equal(resolveEventStatus(stream, at('2026-09-07T20:30:00+09:00')), 'live');
+  assert.equal(resolveEventStatus(stream, new Date(expectedEnd - 1)), 'live');
+  assert.equal(resolveEventStatus(stream, new Date(expectedEnd)), 'ended');
+});
+
+test('all-day events follow the JST calendar day and cancelled is preserved', () => {
+  const festival = { title: 'Festival', startAt: '2026-09-07T00:00:00+09:00', allDay: true, status: 'upcoming' };
+  const at = (time) => new Date(time);
+
+  assert.equal(resolveEventStatus(festival, at('2026-09-06T23:00:00+09:00')), 'upcoming');
+  assert.equal(resolveEventStatus(festival, at('2026-09-07T12:00:00+09:00')), 'live');
+  assert.equal(resolveEventStatus(festival, at('2026-09-08T00:00:00+09:00')), 'ended');
+  assert.equal(
+    resolveEventStatus({ ...festival, status: 'cancelled' }, at('2026-09-07T12:00:00+09:00')),
+    'cancelled',
+  );
+  assert.equal(
+    resolveEventStatus({ title: 'Stream', startAt: 'not-a-date', status: 'live' }, at('2026-09-07T12:00:00+09:00')),
+    'upcoming',
+  );
+});
+
 test('the observation clock formats whole-hour and fractional GMT offsets', () => {
   assert.equal(formatUtcOffset({ getTimezoneOffset: () => -480 }), 'GMT+08:00');
   assert.equal(formatUtcOffset({ getTimezoneOffset: () => -345 }), 'GMT+05:45');
@@ -92,9 +139,10 @@ test('live-event cache is scoped, normalized, and resilient to malformed data', 
 });
 
 test('the observation widget exposes dual-time and cached fallback UI', async () => {
-  const [script, styles] = await Promise.all([
+  const [script, styles, calendarScript] = await Promise.all([
     readFile(new URL('../src/scripts/liveEvents.js', import.meta.url), 'utf8'),
     readFile(new URL('../src/styles/global.css', import.meta.url), 'utf8'),
+    readFile(new URL('../src/scripts/eventsCalendar.js', import.meta.url), 'utf8'),
   ]);
 
   assert.match(script, /copy\.localTimeLabel/);
@@ -106,6 +154,11 @@ test('the observation widget exposes dual-time and cached fallback UI', async ()
   assert.match(script, /copy\.cachedFallback/);
   assert.match(styles, /\.live-events__time-row/);
   assert.match(styles, /data-live-events-state='cached'/);
+  // 徽章状态必须按当前时间实时推导，而不是照搬 API 静态字段
+  assert.match(script, /resolveEventStatus\(event\)/);
+  assert.match(calendarScript, /resolveEventStatus\(event\)/);
+  assert.doesNotMatch(script, /badge--\$\{event\.status\}/);
+  assert.doesNotMatch(calendarScript, /badge--\$\{event\.status\}/);
 });
 
 test('calendar month changes cannot be delayed by an aborted request cleanup', async () => {

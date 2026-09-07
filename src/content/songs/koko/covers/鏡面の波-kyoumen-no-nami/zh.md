@@ -178,6 +178,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [02:40.80]<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>彷徨<rt class="furi">ほうこう</rt><rt class="roma">houkou</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
+<div class="cn-lyric">[02:40.80]在黑夜中彷徨</div>
 </div>
 
 <div class="lyric-line">
@@ -191,6 +192,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [02:50.42]<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>彷徨<rt class="furi">ほうこう</rt><rt class="roma">houkou</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
+<div class="cn-lyric">[02:50.42]在黑夜中彷徨</div>
 </div>
 
 <div class="lyric-line">
@@ -232,24 +234,28 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:20.23]<ruby>夕立<rt class="furi">ゆうだ</rt><rt class="roma">yuuda</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+<div class="cn-lyric">[03:20.23]骤雨</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:29.49]<ruby>名付<rt class="furi">なづ</rt><rt class="roma">nazu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>剥<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>がし<rt class="roma">gashi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>とき<rt class="roma">toki</rt></ruby>
 </div>
+<div class="cn-lyric">[03:29.49]当它剥去被命名的世界之时</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:31.51]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>波<rt class="furi">なみ</rt><rt class="roma">nami</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>様<rt class="furi">よう</rt><rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[03:31.51]它如同波浪一般</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:37.94]<ruby>指<rt class="furi">ゆび</rt><rt class="roma">yubi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>隙間<rt class="furi">すきま</rt><rt class="roma">sukima</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>すり抜<rt class="furi">すりぬ</rt><rt class="roma">surinu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:37.94]从指缝间滑落</div>
 </div>
 
@@ -257,6 +263,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:41.81]<ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:41.81]消失殆尽</div>
 </div>
 

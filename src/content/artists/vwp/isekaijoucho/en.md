@@ -76,22 +76,22 @@ That makes her an important hybrid figure inside Kamitsubaki: not only a singer,
 
 ### 2020
 
-- **February 23**: Released her first original single, "Story's Waltz" (物語りのワルツ), composed by samayuzame.
-- **April 27**: Released her second original single, "Diorama Drama" (ジオラマドラマ), composed by samayuzame.
-- **July 16**: Released her third original single, "Hydrangea" (ハイドレンジア), composed by toucasa.
-- **September 26**: Released her fifth original single, "Endless White Feeling" (とめどなき白情), composed by harumakigohan.
+- **February 23**: Released her first original single, "Story's Waltz" ([物語りのワルツ](/en/songs/isekaijoucho/originals/物語りのワルツ-waltz-of-storyteller)), composed by samayuzame.
+- **April 27**: Released her second original single, "Diorama Drama" ([ジオラマドラマ](/en/songs/isekaijoucho/originals/ジオラマドラマ-georama-drama)), composed by samayuzame.
+- **July 16**: Released her third original single, "Hydrangea" ([ハイドレンジア](/en/songs/isekaijoucho/originals/ハイドレンジア-hydrangea)), composed by toucasa.
+- **September 26**: Released her fifth original single, "Endless White Feeling" ([とめどなき白情](/en/songs/isekaijoucho/originals/とめどなき白情-tomedonaki-hakujou)), composed by harumakigohan.
 - **December 26**: Held her first cover live "Candy Live" (キャンディライブ). Following the live, she released her seventh original single, "Heart of Sirius" (シリウスの心臓), composed by Tota Kasamura, which became one of her signature songs.
 
 ### 2021
 
 - **March 13**: Officially debuted as a member of the virtual artist group [V.W.P](/en/artists/vwp/vwp) (Virtual Witch Phenomenon) during [KAF](/en/artists/vwp/kaf)'s 2nd ONE-MAN LIVE "Fukakai Ni Q2", announcing the group's formation.
-- **October 23**: Held her first 3D virtual solo concert (1st ONE-MAN LIVE) "Anima". On the same day, she announced the production of her 1st album *Sousei* (創生) and the development of her musical isotope "CeVIO AI SEKAI".
+- **October 23**: Held her first 3D virtual solo concert (1st ONE-MAN LIVE) "Anima". On the same day, she announced the production of her 1st album *Sousei* ([創生](/en/albums/isekaijoucho/sousei)) and the development of her musical isotope "CeVIO AI SEKAI".
 - **December 8**: Released her 1st album, *Sousei* (創生).
 
 ### 2022
 
 - **April 29**: The musical isotope "CeVIO AI SEKAI" (星界), developed based on her singing voice database, was officially released.
-- **July 17**: Jointly held the virtual concert "Singularity Live Vol. 1" with Rim, and revealed their collaboration single "Pandora Call" (パンドラコール).
+- **July 17**: Jointly held the virtual concert "Singularity Live Vol. 1" with Rim, and revealed their collaboration single "Pandora Call" ([パンドラコール](/en/songs/isekaijoucho/originals/パンドラコール-pandora-call)).
 - **September 10 – October 10**: Held her first solo art exhibition, "ISEKAIJOUCHO Exhibition" (ヰ世界情緒展), in Tokyo.
 
 ### 2023

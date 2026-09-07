@@ -224,6 +224,7 @@ image: /images/albums/harusaruhi/rule-the-world.jpg
 <div class="jp-lyric">
 Echoes of rain
 </div>
+<div class="cn-lyric">雨的迴響</div>
 </div>
 
 <div class="lyric-line">
@@ -272,6 +273,7 @@ Echoes of rain
 <div class="jp-lyric">
 And still, playing like I'm unaware
 </div>
+<div class="cn-lyric">依然，假裝毫不知情</div>
 </div>
 
 <div class="lyric-line">
@@ -285,6 +287,7 @@ And still, playing like I'm unaware
 <div class="jp-lyric">
 Echoes of rain
 </div>
+<div class="cn-lyric">雨的迴響</div>
 </div>
 
 <div class="lyric-line">
@@ -347,6 +350,7 @@ Echoes of rain
 <div class="jp-lyric">
 [03:59.63]<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>運<rt class="furi">はこ</rt><rt class="roma">hako</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>灯火<rt class="furi">ともしび</rt><rt class="roma">tomoshibi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>喚<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:59.63]呼喚被歌聲承載的燈火</div>
 </div>
 
@@ -354,12 +358,14 @@ Echoes of rain
 <div class="jp-lyric">
 <ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
+<div class="cn-lyric">說著『在這裡』</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:06.25]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:06.25]『我在這裡』</div>
 </div>
 
@@ -367,6 +373,7 @@ Echoes of rain
 <div class="jp-lyric">
 [04:09.90]<ruby>応<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:09.90]直至回應為止</div>
 </div>
 

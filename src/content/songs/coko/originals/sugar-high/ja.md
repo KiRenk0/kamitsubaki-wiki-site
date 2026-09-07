@@ -25,7 +25,7 @@ image: /images/songs/coko/sugar-high.jpg
 
 ## 作品概要
 
-A-ASTROによるオリジナル楽曲。音楽的同位体5名（[可不](/ja/artists/isotopes/kafu)・[星界](/ja/artists/isotopes/sekai)・[裏命](/ja/artists/isotopes/rime)・[羽累](/ja/artists/isotopes/haru)・[狐子](/ja/artists/isotopes/coko)）が歌唱し、2026年1月28日にシングルとしてリリースされた。
+A-ASTROによるオリジナル楽曲。[音楽的同位体](/ja/artists/solo/musical-isotope)5名（[可不](/ja/artists/isotopes/kafu)・[星界](/ja/artists/isotopes/sekai)・[裏命](/ja/artists/isotopes/rime)・[羽累](/ja/artists/isotopes/haru)・[狐子](/ja/artists/isotopes/coko)）が歌唱し、2026年1月28日にシングルとしてリリースされた。
 
 ## 視聴
 {{media-switcher::Sugar-High}}

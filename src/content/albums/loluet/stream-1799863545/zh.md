@@ -70,7 +70,7 @@ tracks:
 
 ## 简介
 
-LOLUET于 2025-03-19 发行的Album《stream》,共收录 12 首歌曲。
+[LOLUET](/zh/artists/solo/loluet)于 2025-03-19 发行的Album《stream》,共收录 12 首歌曲。
 
 ## 收录曲
 

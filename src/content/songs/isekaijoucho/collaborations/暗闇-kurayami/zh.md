@@ -223,12 +223,14 @@ image: /images/songs/isekaijoucho/single-1678038599.jpg
 <div class="jp-lyric">
 [02:05.98]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>いいよって<rt class="roma">iiyotte</rt></ruby><ruby>怒<rt class="furi">いか</rt><rt class="roma">ika</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>湧<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[02:05.98]够了 这样想着怒火涌起</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:08.77]<ruby>孤独<rt class="furi">こどく</rt><rt class="roma">kodoku</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>刃<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わって<rt class="roma">watte</rt></ruby>
 </div>
+<div class="cn-lyric">[02:08.77]孤独化为利刃</div>
 </div>
 
 <div class="lyric-line">
@@ -265,6 +267,7 @@ image: /images/songs/isekaijoucho/single-1678038599.jpg
 <div class="jp-lyric">
 [02:22.26]<ruby>明暗<rt class="furi">めいあん</rt><rt class="roma">meian</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>境<rt class="furi">さかい</rt><rt class="roma">sakai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>潜<rt class="furi">もぐ</rt><rt class="roma">mogu</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[02:22.26]潜入明暗的边界</div>
 </div>
 
 <div class="lyric-line">
@@ -278,18 +281,21 @@ image: /images/songs/isekaijoucho/single-1678038599.jpg
 <div class="jp-lyric">
 [02:28.68]<ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:28.68]在意的结局</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:30.10]<ruby>バッドエンド<rt class="roma">baddoendo</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ハッピーエンド<rt class="roma">happiiendo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:30.10]从坏结局到好结局</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:36.20]<ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
+<div class="cn-lyric">[02:36.20]迈向未来</div>
 </div>
 
 <br />
@@ -298,6 +304,7 @@ image: /images/songs/isekaijoucho/single-1678038599.jpg
 <div class="jp-lyric">
 [03:01.76]<ruby>苦<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:01.76]痛苦的夜也有明天</div>
 </div>
 
@@ -305,6 +312,7 @@ image: /images/songs/isekaijoucho/single-1678038599.jpg
 <div class="jp-lyric">
 [03:07.64]<ruby>淀<rt class="furi">よど</rt><rt class="roma">yodo</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>走<rt class="furi">はし</rt><rt class="roma">hashi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby> <ruby>倒<rt class="furi">たお</rt><rt class="roma">tao</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:07.64]毫不迟疑奔跑于此刻 直到倒下</div>
 </div>
 
@@ -314,18 +322,21 @@ image: /images/songs/isekaijoucho/single-1678038599.jpg
 <div class="jp-lyric">
 [03:13.19]<ruby>闇夜<rt class="furi">やみよ</rt><rt class="roma">yamiyo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>染<rt class="furi">そ</rt><rt class="roma">so</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[03:13.19]染上黑夜活下去</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:15.99]<ruby>背後<rt class="furi">はいご</rt><rt class="roma">haigo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>怯<rt class="furi">おび</rt><rt class="roma">obi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[03:15.99]小心背后 恐惧着</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:18.93]<ruby>明暗<rt class="furi">めいあん</rt><rt class="roma">meian</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>潜<rt class="furi">もぐ</rt><rt class="roma">mogu</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:18.93]潜入明暗的世界</div>
 </div>
 
@@ -333,24 +344,28 @@ image: /images/songs/isekaijoucho/single-1678038599.jpg
 <div class="jp-lyric">
 [03:21.80]<ruby>信<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>隠し持<rt class="furi">かくしも</rt><rt class="roma">kakushimo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[03:21.80]藏着想要相信的光芒</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:25.06]<ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:25.06]在意的结局</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:26.79]<ruby>バッドエンド<rt class="roma">baddoendo</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ハッピーエンド<rt class="roma">happiiendo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:26.79]从坏结局到好结局</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:32.47]<ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
+<div class="cn-lyric">[03:32.47]迈向未来</div>
 </div>
 
 </div>

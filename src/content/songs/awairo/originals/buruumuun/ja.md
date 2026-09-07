@@ -17,7 +17,7 @@ image: /images/songs/awairo/buruumuun.jpg
 
 ## 作品概要
 
-Awairoが2025-02-21にリリースしたシングル「ブルームーン」。
+[Awairo](/ja/artists/solo/awairo)が2025-02-21にリリースしたシングル「ブルームーン」。
 
 ## 視聴
 {{media-switcher::ブルームーン}}

@@ -81,6 +81,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 [00:57.97]<ruby>マスカラ<rt class="roma">masukara</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>まつげ<rt class="roma">matsuge</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>ぽろり<rt class="roma">porori</rt></ruby><ruby>グレー<rt class="roma">guree</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>涙<rt class="furi">なみだ</rt><rt class="roma">namida</rt></ruby>
 </div>
+<div class="cn-lyric">[00:57.97]睫毛膏的睫毛上 啪嗒落下灰色的泪</div>
 </div>
 
 <div class="lyric-line">
@@ -156,12 +157,14 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 [02:01.93]<ruby>マスカラ<rt class="roma">masukara</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>まつげ<rt class="roma">matsuge</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>ぽろり<rt class="roma">porori</rt></ruby><ruby>グレー<rt class="roma">guree</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>涙<rt class="furi">なみだ</rt><rt class="roma">namida</rt></ruby>
 </div>
+<div class="cn-lyric">[02:01.93]睫毛膏的睫毛上 啪嗒落下灰色的泪</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:06.84]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>記憶<rt class="furi">きおく</rt><rt class="roma">kioku</rt></ruby> <ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>みごと<rt class="roma">migoto</rt></ruby><ruby>パンダ<rt class="roma">panda</rt></ruby><ruby>顔<rt class="furi">がお</rt><rt class="roma">gao</rt></ruby>
 </div>
+<div class="cn-lyric">[02:06.84]你的记忆里 最后的我 俨然一副熊猫脸</div>
 </div>
 
 <div class="lyric-line">
@@ -184,12 +187,14 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 [02:27.69]<ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>いちばん<rt class="roma">ichiban</rt></ruby><ruby>かわいい<rt class="roma">kawaii</rt></ruby><ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby>
 </div>
+<div class="cn-lyric">[02:27.69]变成了靠自己能做到的最可爱的自己</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:33.49]<ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>力<rt class="furi">りょく</rt><rt class="roma">ryoku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>込<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>もう一度<rt class="furi">もういちど</rt><rt class="roma">mouichido</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[02:33.49]将心愿注入眼神 希望思念能再次传达</div>
 </div>
 
 <br />
@@ -212,6 +217,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 [03:05.03]<ruby>ねぇ<rt class="roma">nee</rt></ruby> <ruby>絡<rt class="furi">から</rt><rt class="roma">kara</rt></ruby><ruby>まる<rt class="roma">maru</rt></ruby><ruby>糸<rt class="furi">いと</rt><rt class="roma">ito</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ほどけ<rt class="roma">hodoke</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>?
 </div>
+
 <div class="cn-lyric">[03:05.03]呐 缠绕的线 我解不开吗？</div>
 </div>
 
@@ -221,6 +227,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 [03:13.34]<ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>がんばった<rt class="roma">ganbatta</rt></ruby> <ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>力<rt class="furi">りょく</rt><rt class="roma">ryoku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:13.34]从早上就开始努力 向眼神许愿</div>
 </div>
 
@@ -228,6 +235,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 [03:20.74]<ruby>マスカラ<rt class="roma">masukara</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>滲<rt class="furi">にじ</rt><rt class="roma">niji</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby> <ruby>涙<rt class="furi">なみだ</rt><rt class="roma">namida</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>かす<rt class="roma">kasu</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:20.74]睫毛膏晕开了 因为眼泪溶解了它</div>
 </div>
 
@@ -235,6 +243,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 [03:25.82]<ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ひとり<rt class="roma">hitori</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>ただ<rt class="roma">tada</rt></ruby><ruby>空<rt class="furi">から</rt><rt class="roma">kara</rt></ruby><ruby>っぽ<rt class="roma">ppo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こころ<rt class="roma">kokoro</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:25.82]从明天起独自一人 在空荡荡的心里</div>
 </div>
 
@@ -242,6 +251,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 [03:31.37]<ruby>増<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:31.37]唯一增加的 是对你的思念</div>
 </div>
 

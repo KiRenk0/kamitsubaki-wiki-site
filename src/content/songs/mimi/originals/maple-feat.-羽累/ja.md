@@ -17,7 +17,7 @@ image: /images/songs/mimi/maple-feat.-羽累.jpg
 
 ## 作品概要
 
-MIMIが2023-10-14にリリースしたシングル「Maple (feat. [羽累](/ja/artists/isotopes/haru))」。
+[MIMI](/ja/artists/creators/mimi)が2023-10-14にリリースしたシングル「Maple (feat. [羽累](/ja/artists/isotopes/haru))」。
 
 ## 視聴
 {{media-switcher::Maple (feat. 羽累)}}

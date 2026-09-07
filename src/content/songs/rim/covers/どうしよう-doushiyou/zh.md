@@ -51,6 +51,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 <ruby>ね<rt class="roma">ne</rt></ruby> <ruby>どう<rt class="roma">dou</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>どう<rt class="roma">dou</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">喂 怎么办 怎么办</div>
 </div>
 
 <br />
@@ -89,6 +90,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 <ruby>ね<rt class="roma">ne</rt></ruby> <ruby>どう<rt class="roma">dou</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>どう<rt class="roma">dou</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">喂 怎么办 怎么办</div>
 </div>
 
 <div class="lyric-line">
@@ -102,6 +104,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 <ruby>ね<rt class="roma">ne</rt></ruby> <ruby>どう<rt class="roma">dou</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>どう<rt class="roma">dou</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">喂 怎么办 怎么办</div>
 </div>
 
 <br />
@@ -207,6 +210,7 @@ I LOVE YOU
 <div class="jp-lyric">
 <ruby>ね<rt class="roma">ne</rt></ruby> <ruby>どう<rt class="roma">dou</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>どう<rt class="roma">dou</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">喂 怎么办 怎么办</div>
 </div>
 
 <div class="lyric-line">
@@ -220,6 +224,7 @@ I LOVE YOU
 <div class="jp-lyric">
 <ruby>ね<rt class="roma">ne</rt></ruby> <ruby>どう<rt class="roma">dou</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>どう<rt class="roma">dou</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">喂 怎么办 怎么办</div>
 </div>
 
 <br />
@@ -302,6 +307,7 @@ I LOVE YOU
 <div class="jp-lyric">
 <ruby>希望<rt class="furi">きぼう</rt><rt class="roma">kibou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>就職<rt class="furi">しゅうしょく</rt><rt class="roma">shuushoku</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+
 <div class="cn-lyric">理想的工作</div>
 </div>
 
@@ -309,6 +315,7 @@ I LOVE YOU
 <div class="jp-lyric">
 <ruby>出来<rt class="furi">でき</rt><rt class="roma">deki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>せい<rt class="roma">sei</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">并不是因为得不到</div>
 </div>
 
@@ -318,6 +325,7 @@ I LOVE YOU
 <div class="jp-lyric">
 <ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
+
 <div class="cn-lyric">电话响了</div>
 </div>
 
@@ -325,6 +333,7 @@ I LOVE YOU
 <div class="jp-lyric">
 <ruby>彼<rt class="furi">かれ</rt><rt class="roma">kare</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>サイン<rt class="roma">sain</rt></ruby>
 </div>
+
 <div class="cn-lyric">是他的信号</div>
 </div>
 
@@ -332,6 +341,7 @@ I LOVE YOU
 <div class="jp-lyric">
 <ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>起<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>こる<rt class="roma">koru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>? <ruby>素直<rt class="furi">すなお</rt><rt class="roma">sunao</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なり<rt class="roma">nari</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+
 <div class="cn-lyric">会发生什么？我想变得坦率</div>
 </div>
 
@@ -341,24 +351,28 @@ I LOVE YOU
 <div class="jp-lyric">
 <ruby>卒業<rt class="furi">そつぎょう</rt><rt class="roma">sotsugyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>近<rt class="furi">ちか</rt><rt class="roma">chika</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>けれど<rt class="roma">keredo</rt></ruby>
 </div>
+<div class="cn-lyric">虽然毕业临近</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>現実<rt class="furi">げんじつ</rt><rt class="roma">genjitsu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>避<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby>
 </div>
+<div class="cn-lyric">似乎一直在逃避现实</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>あんな<rt class="roma">anna</rt></ruby><ruby>事<rt class="furi">こと</rt><rt class="roma">koto</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
+<div class="cn-lyric">因为那样的事 至今</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ケンカ<rt class="roma">kenka</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>なん<rt class="roma">nan</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>もん<rt class="roma">mon</rt></ruby>
 </div>
+<div class="cn-lyric">我们从来都没吵过架啊</div>
 </div>
 
 <br />
@@ -367,24 +381,28 @@ I LOVE YOU
 <div class="jp-lyric">
 <ruby>社会<rt class="furi">しゃかい</rt><rt class="roma">shakai</rt></ruby><ruby>人<rt class="furi">じん</rt><rt class="roma">jin</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+<div class="cn-lyric">如果成了社会人</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">我们又会变成怎样</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>こんな<rt class="roma">konna</rt></ruby><ruby>中途半端<rt class="furi">ちゅうとはんぱ</rt><rt class="roma">chuutohanpa</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">这样半途而废</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>寂<rt class="furi">さび</rt><rt class="roma">sabi</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">结局太寂寞了</div>
 </div>
 
 </div>

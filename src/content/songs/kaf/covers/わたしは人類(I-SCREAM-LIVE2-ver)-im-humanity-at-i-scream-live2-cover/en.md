@@ -135,6 +135,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>せい<rt class="roma">sei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="trans-lyric">I want to blame it on love</div>
 </div>
 
 <br />
@@ -157,6 +158,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 <ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">Stop it, stop it, stop it, stop it</div>
 </div>
 
 <div class="lyric-line">
@@ -241,6 +243,7 @@ A<ruby>と<rt class="roma">to</rt></ruby>G<ruby>と<rt class="roma">to</rt></rub
 <div class="jp-lyric">
 <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>せい<rt class="roma">sei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>（<ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>進化<rt class="furi">しんか</rt><rt class="roma">shinka</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>）
 </div>
+<div class="trans-lyric">I want to blame it on love (Stop it, stop it, stop evolution)</div>
 </div>
 
 <div class="lyric-line">
@@ -256,6 +259,7 @@ A<ruby>と<rt class="roma">to</rt></ruby>G<ruby>と<rt class="roma">to</rt></rub
 <div class="jp-lyric">
 <ruby>いっぱい<rt class="roma">ippai</rt></ruby><ruby>あった<rt class="roma">atta</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>幸福<rt class="furi">こうふく</rt><rt class="roma">koufuku</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+
 <div class="trans-lyric">So much happiness there was</div>
 </div>
 
@@ -263,18 +267,21 @@ A<ruby>と<rt class="roma">to</rt></ruby>G<ruby>と<rt class="roma">to</rt></rub
 <div class="jp-lyric">
 <ruby>誓<rt class="furi">ちか</rt><rt class="roma">chika</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>あった<rt class="roma">atta</rt></ruby><ruby>恋人<rt class="furi">こいびと</rt><rt class="roma">koibito</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="trans-lyric">The lovers who swore vows</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>いったい<rt class="roma">ittai</rt></ruby><ruby>なん<rt class="roma">nan</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>こう<rt class="roma">kou</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="trans-lyric">What on earth happened like this?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>人類<rt class="furi">じんるい</rt><rt class="roma">jinrui</rt></ruby> <ruby>はじめまして<rt class="roma">hajimemashite</rt></ruby>
 </div>
+
 <div class="trans-lyric">I am humanity, nice to meet you</div>
 </div>
 
@@ -282,6 +289,7 @@ A<ruby>と<rt class="roma">to</rt></ruby>G<ruby>と<rt class="roma">to</rt></rub
 <div class="jp-lyric">
 <ruby>ハロー<rt class="roma">harou</rt></ruby>
 </div>
+
 <div class="trans-lyric">Hello</div>
 </div>
 

@@ -19,7 +19,7 @@ image: /images/albums/rim/new-romancer.jpg
 
 ## Overview
 
-さみしいひと appears on NEW ROMANCER or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+さみしいひと appears on [NEW ROMANCER](/en/albums/rim/new-romancer) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -56,7 +56,9 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [00:39.73]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby> <ruby>ゆとり<rt class="roma">yutori</rt></ruby><ruby>すら<rt class="roma">sura</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
 </div>
-<div class="trans-lyric">now there's not even room left for that</div>
+<div class="trans-lyric">
+[00:39.73]now there's not even room left for that
+</div>
 </div>
 
 <br />
@@ -86,14 +88,18 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [00:54.71]<ruby>無為<rt class="furi">むい</rt><rt class="roma">mui</rt></ruby><ruby>無策<rt class="furi">むさく</rt><rt class="roma">musaku</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> good night
 </div>
-<div class="trans-lyric">with no plan or policy, good night</div>
+<div class="trans-lyric">
+[00:54.71]with no plan or policy, good night
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:57.45]Wi-Fi <ruby>外<rt class="furi">はず</rt><rt class="roma">hazu</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="trans-lyric">turn off the Wi-Fi</div>
+<div class="trans-lyric">
+[00:57.45]turn off the Wi-Fi
+</div>
 </div>
 
 <br />
@@ -139,7 +145,9 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [01:36.22]<ruby>くらくら<rt class="roma">kurakura</rt></ruby> 9ra<ruby>九<rt class="furi">きゅう</rt><rt class="roma">kyuu</rt></ruby><ruby>ラ<rt class="roma">ra</rt></ruby>
 </div>
-<div class="trans-lyric">dizzy, 9ra九ra</div>
+<div class="trans-lyric">
+[01:36.22]dizzy, 9ra九ra
+</div>
 </div>
 
 <div class="lyric-line">
@@ -176,7 +184,9 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [01:53.93]<ruby>あさましい<rt class="roma">asamashii</rt></ruby><ruby>クリーチャー<rt class="roma">kuriichaa</rt></ruby>
 </div>
-<div class="trans-lyric">a contemptible creature</div>
+<div class="trans-lyric">
+[01:53.93]a contemptible creature
+</div>
 </div>
 
 <br />
@@ -250,7 +260,9 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [02:36.44]<ruby>あり<rt class="roma">ari</rt></ruby><ruby>おり<rt class="roma">ori</rt></ruby><ruby>はべり<rt class="roma">haberi</rt></ruby>
 </div>
-<div class="trans-lyric">being present, existing, sitting, serving</div>
+<div class="trans-lyric">
+[02:36.44]being present, existing, sitting, serving
+</div>
 </div>
 
 <div class="lyric-line">
@@ -264,7 +276,9 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [02:40.24]<ruby>口<rt class="furi">くち</rt><rt class="roma">kuchi</rt></ruby><ruby>澱<rt class="furi">よど</rt><rt class="roma">yodo</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> good night
 </div>
-<div class="trans-lyric">because my mouth stagnates, good night</div>
+<div class="trans-lyric">
+[02:40.24]because my mouth stagnates, good night
+</div>
 </div>
 
 <div class="lyric-line">
@@ -280,33 +294,39 @@ image: /images/albums/rim/new-romancer.jpg
 <div class="jp-lyric">
 [02:46.86]<ruby>さみしい<rt class="roma">samishii</rt></ruby><ruby>ひと<rt class="roma">hito</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
-<div class="trans-lyric">what a lonely person</div>
+<div class="trans-lyric">
+[02:46.86]what a lonely person
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:48.98]<ruby>さみしい<rt class="roma">samishii</rt></ruby><ruby>ひと<rt class="roma">hito</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="trans-lyric">[02:48.98]what a lonely person</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:50.62]<ruby>さみしい<rt class="roma">samishii</rt></ruby><ruby>ひと<rt class="roma">hito</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="trans-lyric">[02:50.62]what a lonely person</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:53.78]<ruby>ゆめ<rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>みせ<rt class="roma">mise</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="trans-lyric">keep showing me dreams</div>
+
+<div class="trans-lyric">[02:53.78]keep showing me dreams</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:57.45]<ruby>あわ<rt class="roma">awa</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
-<div class="trans-lyric">like bubbles</div>
+
+<div class="trans-lyric">[02:57.45]like bubbles</div>
 </div>
 
 </div>

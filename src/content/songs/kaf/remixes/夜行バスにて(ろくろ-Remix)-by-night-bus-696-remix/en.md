@@ -211,7 +211,9 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 [02:54.41]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
-<div class="trans-lyric">Can no longer be seen from here</div>
+<div class="trans-lyric">
+[02:54.41]Can no longer be seen from here
+</div>
 </div>
 
 <br />
@@ -220,7 +222,9 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 [02:59.99]<ruby>ハエ<rt class="roma">hae</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>まとわりつい<rt class="roma">matowaritsui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="trans-lyric">Flies are swarming around</div>
+<div class="trans-lyric">
+[02:59.99]Flies are swarming around
+</div>
 </div>
 
 <div class="lyric-line">
@@ -264,18 +268,21 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 [03:14.78]<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>街<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="trans-lyric">[03:14.78]I was in such a town</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:19.25]<ruby>この<rt class="roma">kono</rt></ruby><ruby>街<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="trans-lyric">[03:19.25]I lived in this town</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:24.70]<ruby>この<rt class="roma">kono</rt></ruby><ruby>街<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:24.70]I was in this town</div>
 </div>
 

@@ -30,37 +30,37 @@ order: 1
 |  Ep. 3  |            Rebellion            |         Seiji Kagami         |       夢の揺籠 (Yume no Yurago)        | October 23, 2024  |
 |  Ep. 4  |           Tower Song            |          Sui Utane           |            アバウト (About)            | October 30, 2024  |
 |  Ep. 5  |        The Secret Garden        |          Sui Utane           |           シンユウ (Shinyu)            | November 6, 2024  |
-|  Ep. 6  |          Undersea Fish          |              -               |         セルフィッシュ (Selfish)          | November 13, 2024 |
+|  Ep. 6  |          Undersea Fish          |              -               |         [セルフィッシュ](/en/songs/mikoto/originals/selfish) (Selfish)          | November 13, 2024 |
 |  Ep. 7  |          The Beginning          |          Sui Utane           |        現世回帰 (Gensei Kaiki)         | November 20, 2024 |
-|  Ep. 8  |          Doppelganger           |              -               |              アイ (Ai)               | November 27, 2024 |
+|  Ep. 8  |          Doppelganger           |              -               |              [アイ](/en/songs/loluet/originals/ai) (Ai)               | November 27, 2024 |
 |  Ep. 9  |          Hide and Seek          |              -               |            ジャンク (Junk)             | December 4, 2024  |
 | Ep. 10  |  The Prime Number Loved by God  |              -               |       宇宙逃避行 (Uchu Touhikou)        | December 11, 2024 |
-| Ep. 11  |         The Cursed Game         |         Tomo Takaba          |     プレイヤーわたし (Player Watashi)      | December 18, 2024 |
+| Ep. 11  |         The Cursed Game         |         Tomo Takaba          |     [プレイヤーわたし](/en/songs/yunagi/originals/player-watashi) (Player Watashi)      | December 18, 2024 |
 | Ep. 12  |            Telephone            |              -               |            Talking Doll            | December 25, 2024 |
 | Ep. 13  |          Mirror House           |          Sui Utane           |       アワセカガミ (Awase Kagami)        |  January 8, 2025  |
 | Ep. 14  | The Forest Where the Dead Sleep |          Sui Utane           |   ガラス of パズル (Garasu of Puzzle)    | February 5, 2025  |
-| Ep. 15  |        The Hero's Sword         |  Hiroyuki Akiyama (THINKR)   |        シネマティック (Cinematic)         | February 12, 2025 |
-| Ep. 16  |            Peter Pan            |              -               |           瞬き (Mabataki)            | February 19, 2025 |
-| Ep. 17  |        The Mary Celeste         |              -               |               ANGER                |  March 12, 2025   |
-| Ep. 18  |        Kisaragi Station         |              -               |     キリガサガリキ (Kirigasa Gariki)      |  March 19, 2025   |
-| Ep. 19  |             Nessie              |              -               |              unknown               |  March 26, 2025   |
+| Ep. 15  |        The Hero's Sword         |  Hiroyuki Akiyama (THINKR)   |        [シネマティック](/en/songs/kakyoin/originals/cinematic) (Cinematic)         | February 12, 2025 |
+| Ep. 16  |            Peter Pan            |              -               |           [瞬き](/en/songs/orihime/originals/mabataki) (Mabataki)            | February 19, 2025 |
+| Ep. 17  |        The Mary Celeste         |              -               |               [ANGER](/en/songs/orihime/originals/anger)                |  March 12, 2025   |
+| Ep. 18  |        Kisaragi Station         |              -               |     [キリガサガリキ](/en/songs/kakyoin/originals/kirigasa-gariki) (Kirigasa Gariki)      |  March 19, 2025   |
+| Ep. 19  |             Nessie              |              -               |              [unknown](/en/songs/garasumiya/originals/unknown)               |  March 26, 2025   |
 | Ep. 20  |        Sugisawa Village         |              -               |           うそ鳴き (Usonaki)           |   April 2, 2025   |
-| Ep. 21  |             Mayoiga             |          Sui Utane           |   ホンキートンキーラブ (Honky Tonky Love)    |  April 16, 2025   |
-| Ep. 22  |            Elevator             |  Hiroyuki Akiyama (THINKR)   |        回想の層 (Kaisou no Sou)        |  April 23, 2025   |
-| Ep. 23  |     Forgotten Liminal Space     |  Hiroyuki Akiyama (THINKR)   |           Yellow Yellow            |  April 30, 2025   |
+| Ep. 21  |             Mayoiga             |          Sui Utane           |   [ホンキートンキーラブ](/en/songs/hinageshi/originals/honky-tonky-love) (Honky Tonky Love)    |  April 16, 2025   |
+| Ep. 22  |            Elevator             |  Hiroyuki Akiyama (THINKR)   |        [回想の層](/en/songs/mikoto/originals/kaisou-no-sou) (Kaisou no Sou)        |  April 23, 2025   |
+| Ep. 23  |     Forgotten Liminal Space     |  Hiroyuki Akiyama (THINKR)   |           [Yellow Yellow](/en/songs/yunagi/originals/yellow-yellow)            |  April 30, 2025   |
 | Ep. 24  |  Liminal Space of Reminiscence  | Ayumu Nakada (Europe Kikaku) |               SHOCK                |    May 7, 2025    |
-| Ep. 25  |      Red Cloak, Blue Cloak      | Ayumu Nakada (Europe Kikaku) | ミリオン・コンプレクシティ (Million Complexity) |   May 21, 2025    |
-| Ep. 26  |        Omohi no Katachi         | Ayumu Nakada (Europe Kikaku) |              SURVIVAL              |   June 4, 2025    |
+| Ep. 25  |      Red Cloak, Blue Cloak      | Ayumu Nakada (Europe Kikaku) | [ミリオン・コンプレクシティ](/en/songs/sinseiki/originals/million-complexity) (Million Complexity) |   May 21, 2025    |
+| Ep. 26  |        Omohi no Katachi         | Ayumu Nakada (Europe Kikaku) |              [SURVIVAL](/en/songs/tsumitobatsu/originals/survival)              |   June 4, 2025    |
 | Ep. 27  |    Girls' Revolution Project    | Ayumu Nakada (Europe Kikaku) |                 -                  |   June 18, 2025   |
 
 ## Staff
 
 - **Production**: THINKR
-- **Planning**: KAMITSUBAKI STUDIO
+- **Planning**: [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio)
 - **Animation Production**: MANAA ANIMATION
 - **Series Composition**: Ichiro Ko
 - **Music**: Kento Asahina
 - **Animation Director**: Saori Hosoda
 - **Original Character Design**: [PALOW.](/en/artists/creators/palow)
 - **Character Design**: Chirori directed by PHASE STUDIO
-- **Producer**: PIEDPIPER
+- **Producer**: [PIEDPIPER](/en/artists/creators/piedpiper)

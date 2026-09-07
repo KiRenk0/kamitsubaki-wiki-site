@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/chronicle-a.jpg
 
 ## 作品简介
 
-Empty old City于 2023-10-24 发行的单曲《Chronicle A》。
+[Empty old City](/zh/artists/solo/empty-old-city)于 2023-10-24 发行的单曲《Chronicle A》。
 
 ## 试听
 {{media-switcher::Chronicle A}}

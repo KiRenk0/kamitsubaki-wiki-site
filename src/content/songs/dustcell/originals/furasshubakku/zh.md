@@ -17,7 +17,7 @@ image: /images/songs/dustcell/furasshubakku.jpg
 
 ## 作品简介
 
-DUSTCELL于 2023-10-03 发行的单曲《フラッシュバック》。
+[DUSTCELL](/zh/artists/solo/dustcell)于 2023-10-03 发行的单曲《フラッシュバック》。
 
 ## 试听
 {{media-switcher::フラッシュバック}}

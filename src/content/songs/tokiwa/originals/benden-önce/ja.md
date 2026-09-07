@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/benden-önce.jpg
 
 ## 作品概要
 
-tokiwaが2026-05-21にリリースしたシングル「Benden Önce」。
+[tokiwa](/ja/artists/creators/tokiwa)が2026-05-21にリリースしたシングル「Benden Önce」。
 
 ## 視聴
 @[apple-music](https://music.apple.com/jp/album/benden-%C3%B6nce/1856680616?i=1856680618&uo=4 "Benden Önce")

@@ -156,6 +156,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [01:22.10]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">[01:22.10]你说着</div>
 </div>
 
 <div class="lyric-line">
@@ -176,12 +177,14 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [01:33.49]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">[01:33.49]这样说着</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:37.43]<ruby>放<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>おい<rt class="roma">oi</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
 </div>
+<div class="cn-lyric">[01:37.43]如果放任不管的话</div>
 </div>
 
 <div class="lyric-line">
@@ -195,6 +198,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [01:44.97]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>活<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>かす<rt class="roma">kasu</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[01:44.97]只是为了让你活下去</div>
 </div>
 
 <div class="lyric-line">
@@ -215,12 +219,14 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [01:56.56]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>心臓<rt class="furi">しんぞう</rt><rt class="roma">shinzou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>戻<rt class="furi">もど</rt><rt class="roma">modo</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="cn-lyric">[01:56.56]因为要让它回到你的心脏</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:01.34]<ruby>星<rt class="furi">ほし</rt><rt class="roma">hoshi</rt></ruby><ruby>々<rt class="furi">々</rt><rt class="roma">々</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>間<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>器用<rt class="furi">きよう</rt><rt class="roma">kiyou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>縫<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[02:01.34]灵巧地穿梭在群星之间</div>
 </div>
 
 <div class="lyric-line">
@@ -311,6 +317,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [03:05.49]<ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>びら<rt class="roma">bira</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>隙間<rt class="furi">すきま</rt><rt class="roma">sukima</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:05.49]穿过花瓣的缝隙</div>
 </div>
 
@@ -318,6 +325,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [03:09.31]<ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:09.31]两人一同坠落</div>
 </div>
 
@@ -325,6 +333,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [03:13.21]<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>崩<rt class="furi">くず</rt><rt class="roma">kuzu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:13.21]心无数次崩塌</div>
 </div>
 
@@ -332,6 +341,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [03:20.89]<ruby>やっと<rt class="roma">yatto</rt></ruby><ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:20.89]如果只是松开终于牵起的手</div>
 </div>
 
@@ -339,6 +349,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [03:28.80]<ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>叶<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>構<rt class="furi">かま</rt><rt class="roma">kama</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:28.80]愿望无法实现也无所谓</div>
 </div>
 
@@ -346,6 +357,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [03:36.15]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>居<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>、<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>...
 </div>
+
 <div class="cn-lyric">[03:36.15]只要你还在那里，我们就...</div>
 </div>
 

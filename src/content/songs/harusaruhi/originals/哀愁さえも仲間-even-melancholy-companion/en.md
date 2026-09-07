@@ -79,14 +79,18 @@ image: /images/songs/harusaruhi/single-1688524702.jpg
 <div class="jp-lyric">
 [00:57.25]<ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>おいで<rt class="roma">oide</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
-<div class="trans-lyric">Come again on days you want to cry</div>
+<div class="trans-lyric">
+[00:57.25]Come again on days you want to cry
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:03.36]<ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> Uh-huh
 </div>
-<div class="trans-lyric">I can walk until tomorrow, uh-huh</div>
+<div class="trans-lyric">
+[01:03.36]I can walk until tomorrow, uh-huh
+</div>
 </div>
 
 <br />
@@ -176,7 +180,9 @@ image: /images/songs/harusaruhi/single-1688524702.jpg
 <div class="jp-lyric">
 [01:48.21]<ruby>だから<rt class="roma">dakara</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="trans-lyric">So that's fine as it is</div>
+<div class="trans-lyric">
+[01:48.21]So that's fine as it is
+</div>
 </div>
 
 <div class="lyric-line">
@@ -250,18 +256,21 @@ image: /images/songs/harusaruhi/single-1688524702.jpg
 <div class="jp-lyric">
 [02:25.20]<ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>ぐ<rt class="roma">gu</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>居<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="trans-lyric">[02:25.20]Because you hold my hand</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:30.55]<ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>おいで<rt class="roma">oide</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="trans-lyric">[02:30.55]Come again on days you want to cry</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:37.05]<ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> Uh-huh
 </div>
+<div class="trans-lyric">[02:37.05]I can walk until tomorrow, uh-huh</div>
 </div>
 
 <br />
@@ -321,7 +330,7 @@ image: /images/songs/harusaruhi/single-1688524702.jpg
 <div class="jp-lyric">
 [03:27.83]<ruby>楽<rt class="furi">たの</rt><rt class="roma">tano</rt></ruby><ruby>しん<rt class="roma">shin</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> One life
 </div>
-<div class="trans-lyric">Have fun, one life</div>
+<div class="trans-lyric">[03:27.83]Have fun, one life</div>
 </div>
 
 <br />
@@ -367,6 +376,7 @@ image: /images/songs/harusaruhi/single-1688524702.jpg
 <div class="jp-lyric">
 [03:58.75]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:58.75]You embraced me</div>
 </div>
 
@@ -374,6 +384,7 @@ image: /images/songs/harusaruhi/single-1688524702.jpg
 <div class="jp-lyric">
 [04:04.09]<ruby>だから<rt class="roma">dakara</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="trans-lyric">[04:04.09]So I'll sing today and tomorrow</div>
 </div>
 
@@ -381,6 +392,7 @@ image: /images/songs/harusaruhi/single-1688524702.jpg
 <div class="jp-lyric">
 [04:10.83]<ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>為<rt class="furi">ため</rt><rt class="roma">tame</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+
 <div class="trans-lyric">[04:10.83]For you</div>
 </div>
 

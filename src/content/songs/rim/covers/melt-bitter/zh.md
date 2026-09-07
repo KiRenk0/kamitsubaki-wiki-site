@@ -185,6 +185,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [01:38.92]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby> <ruby>愛<rt class="furi">いと</rt><rt class="roma">ito</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>
 </div>
+<div class="cn-lyric">[01:38.92]说爱你 说爱你这种话</div>
 </div>
 
 <div class="lyric-line">
@@ -450,6 +451,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [04:29.36]<ruby>運命<rt class="furi">うんめい</rt><rt class="roma">unmei</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>信<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>さようなら<rt class="roma">sayounara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:29.36]曾相信是命运的那些日子 再见了</div>
 </div>
 

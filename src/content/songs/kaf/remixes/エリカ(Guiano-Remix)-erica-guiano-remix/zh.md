@@ -213,6 +213,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 <ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>着飾<rt class="furi">きかざ</rt><rt class="roma">kikaza</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby> <ruby>エリカ<rt class="roma">erika</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
+<div class="cn-lyric">在裝飾心靈之時 石楠花盛開</div>
 </div>
 
 <br />
@@ -221,6 +222,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 [03:16.14]<ruby>エリカ<rt class="roma">erika</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:16.14]石楠花盛開</div>
 </div>
 

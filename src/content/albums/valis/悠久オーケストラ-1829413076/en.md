@@ -82,7 +82,7 @@ tracks:
 
 ## Overview
 
-VALIS's album “悠久オーケストラ”, released on 2025-08-27, featuring 15 tracks.
+[VALIS](/en/artists/solo/valis)'s album “悠久オーケストラ”, released on 2025-08-27, featuring 15 tracks.
 
 ## Track List
 

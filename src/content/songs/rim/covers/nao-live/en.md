@@ -19,7 +19,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 
 ## Overview
 
-NAO (Live) appears on CHOCOLATE LIVE3 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+NAO (Live) appears on [CHOCOLATE LIVE3](/en/albums/rim/chocolate-live-3) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

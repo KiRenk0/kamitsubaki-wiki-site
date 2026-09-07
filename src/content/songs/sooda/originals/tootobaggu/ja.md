@@ -17,7 +17,7 @@ image: /images/songs/sooda/tootobaggu.jpg
 
 ## 作品概要
 
-Soodaが2025-11-18にリリースしたシングル「トートバッグ」。
+[Sooda](/ja/artists/creators/sooda)が2025-11-18にリリースしたシングル「トートバッグ」。
 
 ## 視聴
 {{media-switcher::トートバッグ}}

@@ -17,7 +17,7 @@ image: /images/songs/anmc/sad-sad-hot-latte-feat.-muto.jpg
 
 ## 作品概要
 
-ANMCが2024-08-07にリリースしたシングル「Sad Sad Hot Latte feat. むト」。
+[ANMC](/ja/artists/solo/anmc)が2024-08-07にリリースしたシングル「Sad Sad Hot Latte feat. むト」。
 
 ## 視聴
 {{media-switcher::Sad Sad Hot Latte feat. むト}}

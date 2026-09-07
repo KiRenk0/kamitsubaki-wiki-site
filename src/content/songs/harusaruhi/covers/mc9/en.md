@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 
 ## Overview
 
-MC9 appears on CREAM PUFF LIVE 2 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+MC9 appears on [CREAM PUFF LIVE 2](/en/albums/harusaruhi/cream-puff-live-2) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -63,72 +63,84 @@ I ah ah ah
 <div class="jp-lyric">
 Shi sha uh
 </div>
+<div class="trans-lyric">Shi sha uh</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I ah ah ah
 </div>
+<div class="trans-lyric">I ah ah ah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Shi sha uh
 </div>
+<div class="trans-lyric">Shi sha uh</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I ah ah ah
 </div>
+<div class="trans-lyric">I ah ah ah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Shi sha uh
 </div>
+<div class="trans-lyric">Shi sha uh</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I ah ah ah
 </div>
+<div class="trans-lyric">I ah ah ah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Shi sha uh
 </div>
+<div class="trans-lyric">Shi sha uh</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I ah ah ah
 </div>
+<div class="trans-lyric">I ah ah ah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Shi sha uh
 </div>
+<div class="trans-lyric">Shi sha uh</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I ah ah ah
 </div>
+<div class="trans-lyric">I ah ah ah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Shi sha uh
 </div>
+<div class="trans-lyric">Shi sha uh</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I ah ah ah
 </div>
+<div class="trans-lyric">I ah ah ah</div>
 </div>
 
 </div>

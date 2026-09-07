@@ -17,7 +17,7 @@ image: /images/songs/mimi/lilly.jpg
 
 ## 作品简介
 
-MIMI于 2023-12-08 发行的单曲《Lilly》。
+[MIMI](/zh/artists/creators/mimi)于 2023-12-08 发行的单曲《Lilly》。
 
 ## 试听
 {{media-switcher::Lilly}}

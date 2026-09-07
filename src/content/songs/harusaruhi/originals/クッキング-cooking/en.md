@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 ## Overview
 
-クッキング appears on SPICE OF LIFE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+クッキング appears on [SPICE OF LIFE](/en/albums/harusaruhi/spice-of-life) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -56,14 +56,18 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:20.87]<ruby>あと<rt class="roma">ato</rt></ruby><ruby>ゲット<rt class="roma">getto</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>かわいい<rt class="roma">kawaii</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>皿<rt class="furi">さら</rt><rt class="roma">sara</rt></ruby>yeah
 </div>
-<div class="trans-lyric">And I'll get a cute plate, yeah</div>
+<div class="trans-lyric">
+[00:20.87]And I'll get a cute plate, yeah
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:24.77]<ruby>匂<rt class="furi">にお</rt><rt class="roma">nio</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>good
 </div>
-<div class="trans-lyric">The smell is good</div>
+<div class="trans-lyric">
+[00:24.77]The smell is good
+</div>
 </div>
 
 <div class="lyric-line">
@@ -77,7 +81,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:27.73]<ruby>スパイス<rt class="roma">supaisu</rt></ruby><ruby>振<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
 </div>
-<div class="trans-lyric">I sprinkle spices</div>
+<div class="trans-lyric">
+[00:27.73]I sprinkle spices
+</div>
 </div>
 
 <div class="lyric-line">
@@ -105,6 +111,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:36.09]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>作<rt class="furi">つく</rt><rt class="roma">tsuku</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>?
 </div>
+<div class="trans-lyric">[00:36.09]What should I make?</div>
 </div>
 
 <br />
@@ -113,14 +120,15 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:41.09]yeah <ruby>うん<rt class="roma">un</rt></ruby>
 </div>
-<div class="trans-lyric">yeah, uh-huh</div>
+<div class="trans-lyric">[00:41.09]yeah, uh-huh</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:42.79]<ruby>ああ<rt class="roma">aa</rt></ruby> <ruby>ごちそうさま<rt class="roma">gochisousama</rt></ruby>
 </div>
-<div class="trans-lyric">Ah, thank you for the meal</div>
+
+<div class="trans-lyric">[00:42.79]Ah, thank you for the meal</div>
 </div>
 
 <br />

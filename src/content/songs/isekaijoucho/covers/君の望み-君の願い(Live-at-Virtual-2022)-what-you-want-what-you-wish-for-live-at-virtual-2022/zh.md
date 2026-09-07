@@ -148,6 +148,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [01:28.39]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>助<rt class="furi">たす</rt><rt class="roma">tasu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[01:28.39]我会去帮助你</div>
 </div>
 
 <div class="lyric-line">
@@ -231,12 +232,14 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [02:40.65]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>決<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>まってる<rt class="roma">matteru</rt></ruby>
 </div>
+<div class="cn-lyric">[02:40.65]我的心意已定</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:44.16]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>助<rt class="furi">たす</rt><rt class="roma">tasu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:44.16]我会去帮助你</div>
 </div>
 
 <div class="lyric-line">
@@ -264,6 +267,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [02:56.82]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>助<rt class="furi">たす</rt><rt class="roma">tasu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:56.82]我会去帮助你</div>
 </div>
 
 <div class="lyric-line">
@@ -312,6 +316,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [03:35.91]<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>幻<rt class="furi">まぼろし</rt><rt class="roma">maboroshi</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:35.91]那样的幻影</div>
 </div>
 
@@ -319,6 +324,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [04:09.17]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>望<rt class="furi">のぞ</rt><rt class="roma">nozo</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:09.17]你还在期望吗</div>
 </div>
 
@@ -326,6 +332,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [04:12.25]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:12.25]你还在祈愿吗</div>
 </div>
 
@@ -333,6 +340,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [04:15.43]<ruby>いい<rt class="roma">ii</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby>、<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>どんな<rt class="roma">donna</rt></ruby><ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>用意<rt class="furi">ようい</rt><rt class="roma">youi</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>として<rt class="roma">toshite</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:15.43]不，无论你准备了怎样的答案</div>
 </div>
 
@@ -340,48 +348,56 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [04:21.73]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>もし<rt class="roma">moshi</rt></ruby><ruby>望<rt class="furi">のぞ</rt><rt class="roma">nozo</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
 </div>
+<div class="cn-lyric">[04:21.73]如果你有所期望</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:24.85]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>もし<rt class="roma">moshi</rt></ruby><ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
 </div>
+<div class="cn-lyric">[04:24.85]如果你有所祈愿</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:28.03]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>決<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>まってる<rt class="roma">matteru</rt></ruby>
 </div>
+<div class="cn-lyric">[04:28.03]我的心意已定</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:31.63]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>助<rt class="furi">たす</rt><rt class="roma">tasu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[04:31.63]我会去帮助你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:34.33]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>もし<rt class="roma">moshi</rt></ruby><ruby>望<rt class="furi">のぞ</rt><rt class="roma">nozo</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby>
 </div>
+<div class="cn-lyric">[04:34.33]如果你不期望</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:37.44]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>もし<rt class="roma">moshi</rt></ruby><ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby>
 </div>
+<div class="cn-lyric">[04:37.44]如果你不祈愿</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:40.61]<ruby>でも<rt class="roma">demo</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>決<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
+<div class="cn-lyric">[04:40.61]但我早已下定决心</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:44.06]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>助<rt class="furi">たす</rt><rt class="roma">tasu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[04:44.06]我会去帮助你</div>
 </div>
 
 </div>

@@ -17,7 +17,7 @@ image: /images/songs/sooda/tootobaggu.jpg
 
 ## 作品简介
 
-Sooda于 2025-11-18 发行的单曲《トートバッグ》。
+[Sooda](/zh/artists/creators/sooda)于 2025-11-18 发行的单曲《トートバッグ》。
 
 ## 试听
 {{media-switcher::トートバッグ}}
