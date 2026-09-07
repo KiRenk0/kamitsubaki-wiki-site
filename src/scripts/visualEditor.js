@@ -4,6 +4,7 @@ import { metadataDefaults, metadataOptions, metadataLabel, metadataChoices, newM
 import { previewBlock as renderPreviewBlock, previewMedia, loadPreviewMedia } from '../lib/editorPreview.mjs';
 import { enhanceReader } from '../lib/readerEnhancements.mjs';
 import 'katex/dist/katex.min.css';
+import { isApplePlatform, formatShortcut } from '../lib/searchShortcut.mjs';
 import { fields, blockTypes, entryTypes, newDraft, newBlock, parseVisualBlocks, importMarkdown, exportMarkdown, validateDraft, safeUrl, validPath, escapeHtml } from '../lib/visualEditor.mjs';
 
 const initialize = () => {
@@ -12,6 +13,14 @@ const initialize = () => {
   root.dataset.ready = 'true';
   const $ = selector => root.querySelector(selector);
   const copy = JSON.parse($('[data-editor-copy]').textContent);
+  const kbdLabel = text => formatShortcut(text, { platform: navigator.platform ?? '', userAgent: navigator.userAgent });
+  if (!isApplePlatform({ platform: navigator.platform ?? '', userAgent: navigator.userAgent })) {
+    root.querySelectorAll('kbd').forEach(el => { el.textContent = kbdLabel(el.textContent); });
+    root.querySelectorAll('[title],[aria-label]').forEach(el => {
+      if (el.getAttribute('title')?.includes('⌘')) el.setAttribute('title', kbdLabel(el.getAttribute('title')));
+      if (el.getAttribute('aria-label')?.includes('⌘')) el.setAttribute('aria-label', kbdLabel(el.getAttribute('aria-label')));
+    });
+  }
   const uiLocale = root.dataset.locale.startsWith('zh') ? 'zh' : root.dataset.locale;
   const key = `kamitsubaki-visual-editor-v1:${root.dataset.contentLocale}`;
   const md = renderRich;
@@ -448,7 +457,7 @@ const initialize = () => {
     {label:copy.metadata,run:()=>changeSide('properties')},
     ...blockTypes.map(type=>({label:copy.blocks[type],shortcut:copy.insert,keywords:type,run:()=>insertBlock(type)})),
   ];
-  function renderCommands() {const query=$('[data-command-search]').value.toLocaleLowerCase().replace(/^\//,'').trim();commandItems=commandActions().filter(item=>(!insertOnly||item.shortcut===copy.insert)&&`${item.label} ${item.keywords||''}`.toLocaleLowerCase().includes(query));commandIndex=0;$('[data-command-results]').innerHTML=commandItems.length?commandItems.map((item,i)=>`<button id="ve-command-${i}" data-command-index="${i}" role="option" aria-selected="${i===0}"><span>${escapeHtml(item.label)}</span><small>${escapeHtml(item.shortcut||'')}</small></button>`).join(''):`<p class="ve-hint">${copy.noCommands}</p>`;updateCommandSelection();}
+  function renderCommands() {const query=$('[data-command-search]').value.toLocaleLowerCase().replace(/^\//,'').trim();commandItems=commandActions().filter(item=>(!insertOnly||item.shortcut===copy.insert)&&`${item.label} ${item.keywords||''}`.toLocaleLowerCase().includes(query));commandIndex=0;$('[data-command-results]').innerHTML=commandItems.length?commandItems.map((item,i)=>`<button id="ve-command-${i}" data-command-index="${i}" role="option" aria-selected="${i===0}"><span>${escapeHtml(item.label)}</span><small>${escapeHtml(kbdLabel(item.shortcut||''))}</small></button>`).join(''):`<p class="ve-hint">${copy.noCommands}</p>`;updateCommandSelection();}
   function updateCommandSelection() {const buttons=[...root.querySelectorAll('[data-command-index]')];buttons.forEach((b,i)=>b.setAttribute('aria-selected',String(i===commandIndex)));const current=buttons[commandIndex];if(current){$('[data-command-search]').setAttribute('aria-activedescendant',current.id);current.scrollIntoView({block:'nearest'});}else $('[data-command-search]').removeAttribute('aria-activedescendant');}
   function openCommands(onlyInsert=false) {insertOnly=onlyInsert;$('[data-command-search]').value='';renderCommands();$('[data-command-dialog]').showModal();$('[data-command-search]').focus();}
   function runCommand(index) {const command=commandItems[index];if(!command)return;$('[data-command-dialog]').close();command.run();}
@@ -460,7 +469,8 @@ const initialize = () => {
   $('[data-command-search]').addEventListener('keydown',event=>{if(event.isComposing)return;if(['ArrowDown','ArrowUp'].includes(event.key)){event.preventDefault();commandIndex=(commandIndex+(event.key==='ArrowDown'?1:-1)+commandItems.length)%Math.max(1,commandItems.length);updateCommandSelection();}if(event.key==='Enter'){event.preventDefault();runCommand(commandIndex);}});
   function openFind() {$('[data-find-dialog]').showModal();$('[data-find-text]').focus();}
   $('[data-find-open]').addEventListener('click',openFind);
-  for (const dialog of [$('[data-command-dialog]'),$('[data-find-dialog]')]) dialog.addEventListener('click',event=>{if(event.target!==dialog)return;const rect=dialog.getBoundingClientRect();if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)dialog.close();});
+  for (const dialog of root.querySelectorAll('dialog')) dialog.addEventListener('click',event=>{if(event.target!==dialog)return;const rect=dialog.getBoundingClientRect();if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)dialog.close();});
+  document.addEventListener('click',event=>{for(const details of root.querySelectorAll('.ve-export-menu,.ve-theme-menu,.ve-format-more'))if(details.hasAttribute('open')&&!details.contains(event.target))details.removeAttribute('open');});
   let findOffset=0,lastFind='';
   function findNext() {
     const query=$('[data-find-text]').value.toLocaleLowerCase();if(!query)return;
@@ -473,7 +483,7 @@ const initialize = () => {
   $('[data-find-next]').addEventListener('click',findNext);$('[data-find-text]').addEventListener('keydown',event=>{if(event.key==='Enter'){event.preventDefault();findNext();}});
   $('[data-problems-toggle]').addEventListener('click',()=>{$('[data-problems]').hidden=!$('[data-problems]').hidden;});
   $('[data-problems-close]').addEventListener('click',()=>{$('[data-problems]').hidden=true;});
-  $('[data-ui-locale]').addEventListener('change',event=>{const url=new URL(location.href);url.pathname=`/${event.target.value}/contribute/editor/`;location.href=url.href;});
+  $('[data-ui-locale]').addEventListener('change',event=>{const url=new URL(location.href);url.pathname=`/${event.target.value}/contribute/editor/`;const target=url.searchParams.get('target');if(target&&/\.md$/.test(target))url.searchParams.set('target',target.replace(/[^/]+\.md$/,`${event.target.value}.md`));location.href=url.href;});
   root.addEventListener('keydown',event=>{
     if(event.isComposing||event.target.closest('dialog'))return;
     const mod=event.metaKey||event.ctrlKey;

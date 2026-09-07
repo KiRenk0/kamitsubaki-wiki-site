@@ -16,7 +16,7 @@ import {
   flattenIndexMetadata,
 } from '../src/lib/searchIndex.mjs';
 import { foldCjkSearchText } from '../src/lib/cjkSearch.mjs';
-import { getSearchShortcut } from '../src/lib/searchShortcut.mjs';
+import { formatShortcut, getSearchShortcut } from '../src/lib/searchShortcut.mjs';
 
 const entries = [
   {
@@ -47,6 +47,15 @@ test('search shortcut labels follow the visitor operating system', () => {
   assert.equal(getSearchShortcut({ platform: 'iPhone' }), '⌘K');
   assert.equal(getSearchShortcut({ platform: 'Win32' }), 'Ctrl+K');
   assert.equal(getSearchShortcut({ platform: 'Linux x86_64' }), 'Ctrl+K');
+});
+
+test('editor shortcut labels keep Mac glyphs and spell modifiers out elsewhere', () => {
+  assert.equal(formatShortcut('⌘ ⇧ Z', { platform: 'MacIntel' }), '⌘ ⇧ Z');
+  assert.equal(formatShortcut('⌘ F', { platform: 'iPhone' }), '⌘ F');
+  assert.equal(formatShortcut('⌘ P', { platform: 'Win32' }), 'Ctrl P');
+  assert.equal(formatShortcut('⌘ ⇧ Z', { platform: 'Win32' }), 'Ctrl Shift Z');
+  assert.equal(formatShortcut('⌘ ⇧ Z', { userAgent: 'Mozilla/5.0 (X11; Linux x86_64)' }), 'Ctrl Shift Z');
+  assert.equal(formatShortcut('/', { platform: 'Win32' }), '/');
 });
 
 test('search normalization handles width, case, and repeated whitespace', () => {
