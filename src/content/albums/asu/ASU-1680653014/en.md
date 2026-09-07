@@ -77,7 +77,7 @@ tracks:
 1. 太陽(Instrumental) (00:37)
 2. [スロウリー](/en/songs/asu/originals/surourii) (03:13)
 3. [インパーフェクト](/en/songs/asu/originals/inpaafyekuto) (03:15)
-4. [オレンジ](/en/songs/koko/originals/オレンジ-orange) (03:01)
+4. オレンジ (03:01)
 5. [ライトイヤーズ](/en/songs/asu/originals/raitoiyaazu) (02:57)
 6. [アンダーブーケ](/en/songs/asu/originals/andaabuuke) (03:06)
 7. モノローグ (03:57)

@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 ## Overview
 
-“[景色](/en/songs/kaf/originals/景色-landscape)([香椎モイミ](/en/artists/creators/kashiimoimi) Remix)” is track 11 of [KAF](/en/artists/vwp/kaf)’s [魔法γ](/en/albums/kaf/maho-gamma).
+“景色([香椎モイミ](/en/artists/creators/kashiimoimi) Remix)” is track 11 of [KAF](/en/artists/vwp/kaf)’s [魔法γ](/en/albums/kaf/maho-gamma).
 
 ## Listen
 

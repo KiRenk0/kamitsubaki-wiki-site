@@ -19,7 +19,7 @@ image: /images/songs/koko/single-1800089804.jpg
 
 ## 作品简介
 
-《白昼夢 (Massive New Krew Remix) [feat. [KOKO](/zh/artists/vwp/koko)]》收录于《[白昼夢](/zh/songs/koko/originals/白昼夢-daydream) (Massive New Krew Remix)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《白昼夢 (Massive New Krew Remix) [feat. [KOKO](/zh/artists/vwp/koko)]》收录于《白昼夢 (Massive New Krew Remix)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 

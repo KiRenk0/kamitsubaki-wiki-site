@@ -50,7 +50,7 @@ tracks:
 
 ## Track List
 
-1. [死んでしまったのだろうか](/en/songs/harusaruhi/covers/死んでしまったのだろうか-shinde-shimatta-no-darou-ka)(2nd ver.) [feat. KAF] (02:59)
+1. 死んでしまったのだろうか(2nd ver.) [feat. KAF] (02:59)
 2. 凍るサマー (feat. EMA) (04:04)
 3. ハレルヤ (03:08)
 4. S.O.S (03:16)

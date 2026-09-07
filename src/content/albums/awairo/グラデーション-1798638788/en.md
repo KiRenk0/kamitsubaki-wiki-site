@@ -78,8 +78,8 @@ tracks:
 
 ## Track List
 
-1. [Pale](/en/songs/mimi/originals/pale)&Deep (04:00)
-2. [グラスヒール](/en/songs/yunosuke/originals/gurasuhiiru) (03:01)
+1. Pale&Deep (04:00)
+2. グラスヒール (03:01)
 3. 烙印 (03:19)
 4. [ブルームーン](/en/songs/awairo/originals/buruumuun) (03:13)
 5. Satellite (03:22)

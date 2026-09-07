@@ -46,8 +46,8 @@ tracks:
 
 ## 収録曲
 
-1. [死んでしまったのだろうか](/ja/songs/harusaruhi/covers/死んでしまったのだろうか-shinde-shimatta-no-darou-ka)(self cover)（03:31）
+1. 死んでしまったのだろうか(self cover)（03:31）
 2. I Don't Wanna Know（03:53）
 3. 夜、眠るため（03:37）
-4. [透過夏](/ja/songs/rim/covers/透過夏-touka-natsu) (feat. [RIM](/ja/artists/vwp/rim))（03:15）
+4. [透過夏](/ja/songs/guiano/originals/透過夏-feat.-rim) (feat. [RIM](/ja/artists/vwp/rim))（03:15）
 5. あの夏の記憶だけ（03:14）

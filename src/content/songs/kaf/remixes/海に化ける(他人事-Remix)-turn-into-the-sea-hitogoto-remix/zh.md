@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 
 ## 作品简介
 
-《[海に化ける](/zh/songs/kaf/originals/海に化ける-turn-into-the-sea)([他人事](/zh/artists/creators/hitogoto) Remix)》是[花譜](/zh/artists/vwp/kaf)收录于《[狂想γ](/zh/albums/kaf/kyoso-gamma)》的第 1 轨。
+《海に化ける([他人事](/zh/artists/creators/hitogoto) Remix)》是[花譜](/zh/artists/vwp/kaf)收录于《[狂想γ](/zh/albums/kaf/kyoso-gamma)》的第 1 轨。
 
 ## 试听
 

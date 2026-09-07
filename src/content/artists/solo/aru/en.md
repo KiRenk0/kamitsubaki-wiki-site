@@ -41,7 +41,7 @@ Her whisper-like, breathy, restrained vocal colour and white gothic-elegant visu
 
 ## Representative Works
 
-Her representative works include “Sayonara”, “[Mahou](/en/albums/kaf/maho)”, “Zankyo”, “Kaibutsu”, and “Gifted”. During [Albemuth](/en/artists/solo/albemuth)'s unit period she also participated in “[Guilty](/en/songs/albemuth/originals/guilty)”, “Shinsekai e”, “tether”, and “Black Cloth”. The album *eve* presents the ARU side of the paired *eve / ADAM* project.
+Her representative works include “Sayonara”, “Mahou”, “Zankyo”, “Kaibutsu”, and “Gifted”. During [Albemuth](/en/artists/solo/albemuth)'s unit period she also participated in “[Guilty](/en/songs/albemuth/originals/guilty)”, “Shinsekai e”, “tether”, and “Black Cloth”. The album *eve* presents the ARU side of the paired *eve / ADAM* project.
 
 
 ## Activity History

@@ -92,7 +92,7 @@ tracks:
 4. あの夏が飽和する (feat. [KAF](/en/artists/vwp/kaf)) (05:58)
 5. 桜の子 (04:02)
 6. 成長痛 (04:25)
-7. [畢生よ](/en/songs/kaf/originals/畢生よ-lifetime) (03:58)
+7. 畢生よ (03:58)
 8. [大人](/en/songs/kanzaki-iori/originals/大人) (04:32)
 9. ダイヤモンド (05:10)
 10. 地獄に落ちる (04:12)

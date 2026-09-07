@@ -19,7 +19,7 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 
 ## Overview
 
-“[狂感覚](/en/songs/kaf/originals/狂感覚-crazy-sensation)([雄之助](/en/artists/creators/yunosuke) Remix)” is track 12 of [KAF](/en/artists/vwp/kaf)’s [狂想γ](/en/albums/kaf/kyoso-gamma).
+“狂感覚([雄之助](/en/artists/creators/yunosuke) Remix)” is track 12 of [KAF](/en/artists/vwp/kaf)’s [狂想γ](/en/albums/kaf/kyoso-gamma).
 
 ## Listen
 

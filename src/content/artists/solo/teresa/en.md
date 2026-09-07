@@ -81,7 +81,7 @@ The 2023 split positioned teresaAI not just as a historical artist project but a
 
 ## Related Projects / Setting
 
-teresaAI operates within the [SINSEKAI RECORD](/en/projects/labels/sinsekai-studio) ecosystem, a label that houses multiple virtual and semi-virtual artists. The project's evolution from te'resa into a software-and-artist pair mirrors a wider trend in the virtual singer space, where voice identity increasingly exists independently of any single performer or avatar.
+teresaAI operates within the [SINSEKAI RECORD](/en/projects/archive/sinsekai-studio) ecosystem, a label that houses multiple virtual and semi-virtual artists. The project's evolution from te'resa into a software-and-artist pair mirrors a wider trend in the virtual singer space, where voice identity increasingly exists independently of any single performer or avatar.
 
 ## References
 

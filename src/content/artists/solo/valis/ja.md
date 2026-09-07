@@ -57,7 +57,7 @@ seo:
 
 ## 概要
 
-VALIS（ヴァリス）は、[SINSEKAI RECORD](/ja/projects/labels/sinsekai-studio) に所属する6人組のバーチャルガールズグループである。メンバーは CHINO（チノ）、MYU（ミュー）、NEFFY（ネフィ）、NINA（ニナ）、RARA（ララ）、VITTE（ヴィッテ）の6名で構成される。
+VALIS（ヴァリス）は、[SINSEKAI RECORD](/ja/projects/archive/sinsekai-studio) に所属する6人組のバーチャルガールズグループである。メンバーは CHINO（チノ）、MYU（ミュー）、NEFFY（ネフィ）、NINA（ニナ）、RARA（ララ）、VITTE（ヴィッテ）の6名で構成される。
 
 「バーチャルとリアルの世界を旅する」というコンセプトのもと、アバター姿と「オリジン」と呼ばれるリアルな姿の二つの形態で活動を行うことが、VALIS の最大の特徴である。キャラクターデザインはねこ助が担当しており、少女らしさと未来的な要素を融合したビジュアルが特徴的だ。
 

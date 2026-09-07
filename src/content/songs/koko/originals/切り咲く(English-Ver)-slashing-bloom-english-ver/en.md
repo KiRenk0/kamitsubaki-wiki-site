@@ -19,7 +19,7 @@ image: /images/songs/koko/single-1857604518.jpg
 
 ## Overview
 
-切り咲く (English Ver.) appears on [切り咲く](/en/songs/koko/originals/切り咲く-slashing-bloom) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+切り咲く (English Ver.) appears on 切り咲く or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

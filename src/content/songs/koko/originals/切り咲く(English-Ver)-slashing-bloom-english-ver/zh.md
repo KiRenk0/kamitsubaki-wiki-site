@@ -19,7 +19,7 @@ image: /images/songs/koko/single-1857604518.jpg
 
 ## 作品简介
 
-《切り咲く (English Ver.)》收录于《[切り咲く](/zh/songs/koko/originals/切り咲く-slashing-bloom)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《切り咲く (English Ver.)》收录于《切り咲く》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 

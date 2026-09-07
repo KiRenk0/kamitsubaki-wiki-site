@@ -89,5 +89,5 @@ tracks:
 9. 夜考（04:22）
 10. 風の吹くまま（04:18）
 11. 帰ってくるよ（03:49）
-12. [透過夏](/zh/songs/rim/covers/透過夏-touka-natsu) (feat. [RIM](/zh/artists/vwp/rim))（03:14）
+12. [透過夏](/zh/songs/guiano/originals/透過夏-feat.-rim) (feat. [RIM](/zh/artists/vwp/rim))（03:14）
 13. 優しい大人になりたい（03:59）

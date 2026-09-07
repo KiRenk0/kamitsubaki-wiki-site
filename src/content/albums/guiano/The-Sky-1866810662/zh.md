@@ -93,7 +93,7 @@ tracks:
 5. the rainy day（00:54）
 6. You Think So?（01:56）
 7. 踊るのが人生!（02:57）
-8. [ネハン](/zh/songs/yunosuke/originals/nehan)（03:41）
+8. ネハン（03:41）
 9. 藍空、ミラー（03:56）
 10. the twilight（00:59）
 11. 刹那Blue（03:40）

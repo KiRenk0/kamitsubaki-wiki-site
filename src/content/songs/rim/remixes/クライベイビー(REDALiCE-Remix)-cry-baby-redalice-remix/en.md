@@ -19,7 +19,7 @@ image: /images/songs/rim/single-1800090256.jpg
 
 ## Overview
 
-クライベイビー (REDALiCE Remix) [feat. [RIM](/en/artists/vwp/rim)] appears on [クライベイビー](/en/songs/rim/originals/クライベイビー-cry-baby) (REDALiCE Remix) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+クライベイビー (REDALiCE Remix) [feat. [RIM](/en/artists/vwp/rim)] appears on クライベイビー (REDALiCE Remix) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

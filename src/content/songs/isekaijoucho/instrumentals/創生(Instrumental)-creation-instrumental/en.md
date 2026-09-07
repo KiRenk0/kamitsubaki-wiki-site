@@ -19,7 +19,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 
 ## Overview
 
-創生(Instrumental) appears on [創生](/en/albums/isekaijoucho/sousei) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+創生(Instrumental) appears on 創生 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

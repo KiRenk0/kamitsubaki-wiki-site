@@ -24,7 +24,7 @@ image: /images/songs/vwp/single-1687247705.jpg
 
 ## 作品简介
 
-《魔女(真) [feat. [KAF](/zh/artists/vwp/kaf), [RIM](/zh/artists/vwp/rim), Isekaijoucho, Harusaruhi & [KOKO](/zh/artists/vwp/koko)]》收录于《[魔女](/zh/songs/kaf/originals/majo)(真)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《魔女(真) [feat. [KAF](/zh/artists/vwp/kaf), [RIM](/zh/artists/vwp/rim), Isekaijoucho, Harusaruhi & [KOKO](/zh/artists/vwp/koko)]》收录于《魔女(真)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 

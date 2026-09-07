@@ -43,6 +43,6 @@ tracks:
 ## Track List
 
 1. 悪夢 (03:34)
-2. [ネハン](/en/songs/yunosuke/originals/nehan) (03:42)
+2. ネハン (03:42)
 3. 冷たい人間と夏の悪魔 (04:08)
 4. [星くずのうた](/en/songs/guiano/originals/星kuzunouta) (04:55)

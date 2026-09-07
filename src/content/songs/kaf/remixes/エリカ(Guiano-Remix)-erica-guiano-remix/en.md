@@ -19,7 +19,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 ## Overview
 
-“[エリカ](/en/songs/kaf/originals/エリカ-erica)([Guiano](/en/artists/creators/guiano) Remix)” is track 9 of [KAF](/en/artists/vwp/kaf)’s [観測γ](/en/albums/kaf/kansoku-gamma).
+“エリカ([Guiano](/en/artists/creators/guiano) Remix)” is track 9 of [KAF](/en/artists/vwp/kaf)’s [観測γ](/en/albums/kaf/kansoku-gamma).
 
 ## Listen
 

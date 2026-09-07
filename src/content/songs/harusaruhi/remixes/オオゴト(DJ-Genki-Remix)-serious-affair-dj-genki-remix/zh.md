@@ -19,7 +19,7 @@ image: /images/songs/harusaruhi/single-1800090598.jpg
 
 ## 作品简介
 
-《オオゴト (DJ Genki Remix) [feat. Harusaruhi]》收录于《[オオゴト](/zh/songs/harusaruhi/originals/オオゴト-serious-affair) (DJ Genki Remix)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《オオゴト (DJ Genki Remix) [feat. Harusaruhi]》收录于《オオゴト (DJ Genki Remix)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 

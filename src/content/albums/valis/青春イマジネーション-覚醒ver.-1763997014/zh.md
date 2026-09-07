@@ -94,7 +94,7 @@ tracks:
 2. [無窮プラトニック](/zh/songs/valis/originals/無窮puratonikku)（02:50）
 3. I.C.E(覚醒 ver.)（03:05）
 4. 渇愛論(覚醒 ver.)（03:02）
-5. [猫好的トリックスター](/zh/songs/ren/originals/猫好的torikkusutaa)(覚醒 ver.)（03:23）
+5. 猫好的トリックスター(覚醒 ver.)（03:23）
 6. わたしマニュアル(覚醒 ver.)（02:39）
 7. 禁断果実(覚醒 ver.)（02:29）
 8. ピカピカキャンディラブイズム(覚醒 ver.)（03:12）

@@ -19,7 +19,7 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 
 ## Overview
 
-色彩-instrumental- appears on [色彩](/en/albums/isekaijoucho/shikisai) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+色彩-instrumental- appears on 色彩 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

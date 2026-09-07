@@ -2,9 +2,16 @@ https://kamitsubaki.wiki/ https://kamitsubaki.wiki/zh/ 302!
 https://zh.kamitsubaki.wiki/* https://kamitsubaki.wiki/zh/:splat 302!
 https://en.kamitsubaki.wiki/* https://kamitsubaki.wiki/en/:splat 302!
 https://ja.kamitsubaki.wiki/* https://kamitsubaki.wiki/ja/:splat 302!
-/zh/projects/labels/sinsaekai-studio /zh/projects/labels/sinsekai-studio 301
-/ja/projects/labels/sinsaekai-studio /ja/projects/labels/sinsekai-studio 301
-/en/projects/labels/sinsaekai-studio /en/projects/labels/sinsekai-studio 301
+/zh/projects/labels/sinsaekai-studio /zh/projects/archive/sinsekai-studio 301
+/ja/projects/labels/sinsaekai-studio /ja/projects/archive/sinsekai-studio 301
+/en/projects/labels/sinsaekai-studio /en/projects/archive/sinsekai-studio 301
+# SINSEKAI label entry archived: old labels path moved under projects/archive
+/zh/projects/labels/sinsekai-studio /zh/projects/archive/sinsekai-studio 301
+/zh-tw/projects/labels/sinsekai-studio /zh-tw/projects/archive/sinsekai-studio 301
+/zh-hk/projects/labels/sinsekai-studio /zh-hk/projects/archive/sinsekai-studio 301
+/ja/projects/labels/sinsekai-studio /ja/projects/archive/sinsekai-studio 301
+/en/projects/labels/sinsekai-studio /en/projects/archive/sinsekai-studio 301
+
 /zh/songs/kaf-originals/shi /zh/songs/kaf/originals/shi 301
 /ja/songs/kaf-originals/shi /ja/songs/kaf/originals/shi 301
 /en/songs/kaf-originals/shi /en/songs/kaf/originals/shi 301

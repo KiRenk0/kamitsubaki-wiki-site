@@ -19,7 +19,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 ## Overview
 
-“[メルの黄昏](/en/songs/kaf/originals/メルの黄昏-mels-twilight)([雄之助](/en/artists/creators/yunosuke) Remix)” is track 8 of [KAF](/en/artists/vwp/kaf)’s [魔法γ](/en/albums/kaf/maho-gamma).
+“メルの黄昏([雄之助](/en/artists/creators/yunosuke) Remix)” is track 8 of [KAF](/en/artists/vwp/kaf)’s [魔法γ](/en/albums/kaf/maho-gamma).
 
 ## Listen
 
