@@ -156,13 +156,11 @@ title: Example Entry
 
 Place the file in `public/images/`, but use a public URL beginning with `/images/`; do not include `public` in the URL. Describe informative images clearly. Decorative images may use an empty description: `![](...)`.
 
-## About Markdown editors
+## Use the built-in visual editor
 
-Markdown does not require a specialized editor. You can even create a Markdown file using a basic text editor such as Notepad, as long as you save the file with the `.md` extension.
+Follow the [contribution guide](/en/contribute/edit/) for your first small change, then load the original in the [visual editor](/en/contribute/editor/). Select text for bold, links, ruby or spoilers. Press `/` in an empty paragraph or use Insert content for tables, images, media and bilingual lyrics.
 
-For users who are unfamiliar with Markdown, an editor with real-time preview may provide a more convenient workflow.
-
-Obsidian is recommended because it offers a comprehensive feature set and is available on multiple platforms.
+Use the left Properties panel for article details and the right Preview and block properties to inspect the result. Export the complete Markdown file, review its diff on GitHub and create a PR. Drafts stay in this browser; upload image files separately. Complex content is preserved, and Source is available for changes that need this reference.
 
 ## Wiki shortcodes and controlled media
 

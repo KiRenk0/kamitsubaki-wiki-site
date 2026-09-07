@@ -1,0 +1,9 @@
+---
+import LabsRedirect from '../../../components/LabsRedirect.astro';
+import { supportedLocales } from '../../../lib/i18n.mjs';
+import { labsSections } from '../../../lib/labsCopy.mjs';
+export function getStaticPaths() {
+  return supportedLocales.flatMap(locale => labsSections.map(section => ({ params: { locale, section } })));
+}
+---
+<LabsRedirect target={`/${Astro.params.locale}/labs/${Astro.params.section}/`} />

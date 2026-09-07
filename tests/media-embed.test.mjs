@@ -26,6 +26,23 @@ test('rejects unknown providers and malformed targets', () => {
   assert.equal(resolveMediaEmbed('qq-music', 'https://example.com/song/001ABCDEF'), null);
 });
 
+test('Apple Music album links with a selected song use the compact player', async () => {
+  const album = 'https://music.apple.com/jp/album/inexplicable/1688351143';
+  const song = `${album}?i=1688351157&uo=4`;
+  const media = resolveMediaEmbed('apple-music', song);
+  assert.equal(media.height, 175);
+  assert.equal(new URL(media.src).searchParams.get('i'), '1688351157');
+  assert.equal(resolveMediaEmbed('apple-music', song.replace('music.apple.com', 'embed.music.apple.com')).height, 175);
+  assert.equal(resolveMediaEmbed('apple-music', 'https://music.apple.com/jp/song/1688351157').height, 175);
+  for (const target of [album, `${album}?i=`, `${album}?i=invalid`, 'https://music.apple.com/jp/playlist/example/pl.123']) {
+    assert.equal(resolveMediaEmbed('apple-music', target).height, 450);
+  }
+  assert.match(renderMediaEmbed('apple-music', song), /--wiki-embed-height:175px/);
+  const rendered = await renderMarkdownFragment(`{{media-switcher::不可解}}\n@[apple-music](${song})\n@[netease](1399849876)\n{{/media-switcher}}`);
+  assert.match(rendered, /--wiki-embed-height:175px/);
+  assert.doesNotMatch(rendered, /--wiki-embed-height:450px/);
+});
+
 test('renders the unified accessible iframe shell', () => {
   const html = renderMediaEmbed('youtube', '3Wtx6k2vInU', 'KAF - Ito');
   assert.match(html, /class="wiki-embed wiki-embed--video wiki-embed--youtube"/);

@@ -1,0 +1,34 @@
+---
+import { resolveLocaleCopy } from '../../lib/i18n.mjs';
+import '../../styles/personalTools.css';
+import { personalToolsCopy } from '../../lib/personalToolsCopy.mjs';
+const { locale = 'zh', sourceLinks = [] } = Astro.props as { locale?: string; sourceLinks?: { label: string; href: string }[] };
+const c = resolveLocaleCopy({
+  zh: { title:'逐句练习 · LABs', note:'按自己的节奏练习；自动轮换仅控制句子，不控制外部播放器。进度保存在本机。', previous:'上一句', next:'下一句', play:'开始轮换', pause:'暂停', from:'起始句', to:'结束句', interval:'每句秒数', hints:'注音', kana:'假名', romaji:'罗马音', none:'隐藏注音', translation:'显示译文', mastered:'标记已掌握', reset:'重置练习进度', source:'歌词与媒体来源', sourceNote:'以下为本词条提供的来源，尚需逐项核对歌词授权与版本。未提供可靠来源时请补充，不能把自动注音当作人工校对。', missing:'当前词条尚未提供可核对的来源链接。', contribute:'补充或纠正来源', storage:'练习进度无法保存，请检查浏览器存储权限。', progress:'已掌握', empty:'此歌曲暂未提供可练习的逐句歌词。' },
+  en: { title:'Line-by-line practice · LABs', note:'Practice at your own pace. Auto-advance changes lines, not the external player. Progress stays on this device.',previous:'Previous line',next:'Next line',play:'Auto-advance',pause:'Pause',from:'First line',to:'Last line',interval:'Seconds per line',hints:'Reading aid',kana:'Kana',romaji:'Romaji',none:'No reading aid',translation:'Show translation',mastered:'Mark as learned',reset:'Reset practice progress',source:'Lyrics & media sources',sourceNote:'These links come from this entry; permissions and lyric versions still need checking. Automatic readings are not editorial verification.',missing:'No source link is available in this entry yet.',contribute:'Add or correct a source',storage:'Could not save progress in this browser.',progress:'Learned',empty:'No line-by-line lyrics are available for this song yet.' },
+  ja: { title:'一行ずつ練習 · LABs',note:'自分のペースで練習。自動送りは外部プレイヤーと同期しません。進捗は端末に保存されます。',previous:'前の行',next:'次の行',play:'自動送り',pause:'一時停止',from:'開始行',to:'終了行',interval:'一行の秒数',hints:'読み方',kana:'ふりがな',romaji:'ローマ字',none:'読みを隠す',translation:'訳を表示',mastered:'習得済みにする',reset:'練習進捗をリセット',source:'歌詞・メディアの出典',sourceNote:'記事内の出典です。許諾と歌詞の版は別途確認が必要です。自動ふりがなは校正の代わりではありません。',missing:'確認できる出典リンクがまだありません。',contribute:'出典を追加・修正',storage:'練習進捗を保存できませんでした。',progress:'習得済み',empty:'この曲には一行ずつの歌詞がまだありません。' },
+},locale);
+const copy = { ...c, ...personalToolsCopy(locale) };
+---
+<details class="labs-practice personal-tools" data-practice data-hints="kana" data-translation="show">
+  <summary class="practice-summary"><span>{copy.practiceTitle}</span><span class="practice-summary-progress" data-practice-summary></span></summary>
+  <div class="practice-body">
+    <p class="personal-note">{c.note}</p>
+    <div data-practice-tools hidden>
+      <div class="practice-display"><div class="personal-segment" role="group" aria-label={c.hints}>{[['kana',c.kana],['romaji',c.romaji],['none',c.none]].map(([value,label])=><button type="button" data-hint={value} aria-pressed={value === 'kana' ? 'true' : 'false'}>{label}</button>)}</div><button type="button" data-translation-toggle aria-pressed="true">{c.translation}</button></div>
+      <div class="practice-stage" tabindex="0" role="group" aria-label={copy.practiceTitle} aria-describedby="practice-keyboard-tip" data-practice-stage>
+        <div class="personal-eyebrow"><span>{copy.lineLabel}</span><span data-line-status aria-live="polite"></span></div>
+        <div class="labs-practice-line" data-practice-line></div>
+        <button type="button" class="personal-quiet practice-answer" data-answer hidden>{copy.showAnswer}</button>
+      </div>
+      <div class="practice-transport"><button type="button" data-previous aria-label={c.previous}>← <span>{c.previous}</span></button><button type="button" class="personal-primary" data-play aria-pressed="false">{c.play}</button><button type="button" data-next aria-label={c.next}><span>{c.next}</span> →</button></div>
+      <div class="practice-learning"><div><span data-progress-text></span><progress data-practice-progress value="0" max="1" aria-label={copy.progressLabel}></progress></div><button type="button" data-mastered aria-pressed="false">{c.mastered}</button></div>
+      <details class="personal-disclosure practice-settings"><summary>{copy.options}</summary><label class="practice-jump"><span>{copy.jump}</span><select data-jump></select></label><div class="practice-range"><label><span>{c.from}</span><input type="number" data-start min="1" value="1" /></label><label><span>{c.to}</span><input type="number" data-end min="1" value="1" /></label><label><span>{c.interval}</span><input type="number" data-interval min="1" max="30" value="5" /></label></div><p id="practice-keyboard-tip" class="personal-note">{copy.tips}</p><button type="button" class="personal-quiet" data-practice-reset>{copy.resetLabel}</button></details>
+    </div>
+    <p class="personal-note" data-practice-empty>{c.empty}</p>
+    <div class="personal-feedback" role="status"><span data-practice-status></span><button type="button" data-practice-undo hidden>{copy.undo}</button></div>
+    <details class="personal-disclosure practice-sources"><summary>{c.source}</summary><p class="personal-note">{c.sourceNote}</p>{sourceLinks.length ? <ul>{sourceLinks.map(s=><li><a href={s.href} target="_blank" rel="noopener noreferrer">{s.label} ↗</a></li>)}</ul> : <p class="personal-note">{c.missing}</p>}<a href={`/${locale}/labs/submit/`}>{c.contribute} →</a></details>
+  </div>
+  <script is:inline type="application/json" data-practice-copy set:html={JSON.stringify(copy).replace(/</g,'\\u003c')} />
+</details>
+<script>import '../../scripts/lyricsPractice.js';</script>

@@ -1,4 +1,5 @@
 ---
+import WikiArticleHeader from '../../../components/WikiArticleHeader.astro';
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import SiteNav from '../../../components/SiteNav.astro';
@@ -6,7 +7,7 @@ import SiteFooter from '../../../components/SiteFooter.astro';
 import TableOfContents from '../../../components/TableOfContents.astro';
 import ContentLicenseNotice from '../../../components/ContentLicenseNotice.astro';
 import { buildLogDisplayData, getLocalizedSite } from '../../../lib/homeData.mjs';
-import { buildLocaleLinks, defaultLocale, resolveLocaleCopy, supportedLocales } from '../../../lib/i18n.mjs';
+import { buildLocaleLinks, defaultLocale, getEditableLocale, resolveLocaleCopy, supportedLocales } from '../../../lib/i18n.mjs';
 import { buildLogMetadata } from '../../../lib/metadata.mjs';
 import { renderContentEntry } from '../../../lib/contentSource.mjs';
 import { buildLocalizedStaticPaths } from '../../../lib/staticPaths.mjs';
@@ -36,79 +37,56 @@ const metadata = buildLogMetadata({
   locale: localeCode,
   id,
 });
+const sourceHref = `/${localeCode}/contribute/edit?target=${encodeURIComponent(`src/content/logs/${id}/${getEditableLocale(localeCode)}.md`)}`;
 const hasArticleBody = Boolean(articleBody);
 const hasTableOfContents = headings.some((heading) => heading.depth === 2 || heading.depth === 3);
 
 const labels = resolveLocaleCopy({
   zh: {
-    back: '返回首页',
+    home: '首页', source: '编辑条目', languages: '切换语言',
     eyebrow: '观测记录',
     contents: '目录',
-    entryId: '记录编号',
   },
   ja: {
-    back: 'ホームへ戻る',
+    home: 'ホーム', source: '記事を編集', languages: '言語を切り替える',
     eyebrow: '観測記録',
     contents: '目次',
-    entryId: '記録 ID',
   },
   en: {
-    back: 'Back to home',
+    home: 'Home', source: 'Edit article', languages: 'Change language',
     eyebrow: 'Observation log',
     contents: 'Contents',
-    entryId: 'Record ID',
   },
 }, localeCode);
 ---
 
-<BaseLayout lang={localeCode} alternates={alternates} title={`${logEntry.title} - Kamitsubaki Studio Fan Wiki`} metadata={metadata}>
+<BaseLayout reading lang={localeCode} alternates={alternates} title={`${logEntry.title} - Kamitsubaki Studio Fan Wiki`} metadata={metadata}>
   <SiteNav navItems={homeContent.navItems} localeLinks={localeLinks} brandLines={homeContent.hero.brandLines} compact homeHref={`/${localeCode}/`} />
 
   <div class="fixed left-0 top-0 z-[60] h-px w-full origin-left bg-white/70" data-reading-progress></div>
 
-  <main class="mx-auto max-w-[92rem] px-4 pb-12 pt-24 sm:px-6 sm:pt-28 lg:pt-28">
-    <div class="wiki-entry-hero grid gap-8 border-b border-white/10 pb-8 sm:gap-10 sm:pb-10 lg:grid-cols-[minmax(0,1fr)_18rem] reveal-up">
-      <div class="min-w-0">
-        <a href={`/${localeCode}/#log`} class="text-[9px] font-mono uppercase tracking-[0.22em] text-white/38 transition-colors hover:text-white">
-          {labels.back}
-        </a>
-        <p class="mt-5 text-[9px] font-mono uppercase tracking-[0.24em] text-white/32">{labels.eyebrow}</p>
-        <h1 class="wiki-page-title mt-3 max-w-4xl font-serif text-[2rem] font-semibold tracking-[0.06em] text-white sm:text-5xl">
-          {logEntry.title}
-        </h1>
-        <div class="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 text-[10px] tracking-[0.14em] text-white/42 sm:text-[11px]">
-          <span>{logEntry.date}</span>
-          <span class="hidden h-px w-8 bg-white/15 sm:block"></span>
-          <span>{logEntry.type}</span>
-        </div>
-        {logEntry.summary && (
-          <p class="mt-6 max-w-3xl text-sm leading-7 text-white/62 sm:text-[15px] sm:leading-8">
-            {logEntry.summary}
-          </p>
-        )}
-      </div>
-
-      <aside class="wiki-side-card wiki-entry-meta-card rounded-md border border-white/10 bg-white/[0.03] p-5 sm:p-6">
-        <p class="text-[9px] font-mono uppercase tracking-[0.2em] text-white/35">{logEntry.type}</p>
-        <p class="mt-2 text-lg font-medium text-white/84">{logEntry.date}</p>
-        <p class="mt-5 text-[9px] font-mono uppercase tracking-[0.2em] text-white/32">{labels.entryId}</p>
-        <p class="mt-2 break-all text-[11px] leading-6 text-white/48">{id}</p>
-      </aside>
-    </div>
+  <main class="reader-frame reader-heading-frame mx-auto max-w-[92rem] px-4 pb-12 pt-24 sm:px-6 sm:pt-28 lg:pt-28">
+    <WikiArticleHeader
+      data={{ name: logEntry.title, romanizedName: logEntry.date, categoryTitle: logEntry.type, profileTagline: logEntry.summary }}
+      localeLinks={localeLinks}
+      labels={{ ...labels, section: labels.eyebrow }}
+      sourceHref={sourceHref}
+      homeHref={`/${localeCode}/`}
+    />
 
     <div class:list={[
-      'mt-8 grid gap-8 lg:mt-10',
+      'reader-layout reader-layout--essay grid gap-8',
       hasArticleBody ? 'lg:grid-cols-12' : 'lg:grid-cols-1',
     ]}>
       {hasTableOfContents && (
-        <aside class="hidden lg:col-span-2 lg:block">
+        <aside class="reader-toc-column hidden lg:col-span-2 lg:block">
           <TableOfContents headings={headings} title={labels.contents} />
         </aside>
       )}
 
       {hasArticleBody && (
         <article class:list={[
-          'wiki-reader wiki-prose prose prose-invert min-w-0 max-w-none reveal-up',
+          'reader-body wiki-reader wiki-prose prose prose-invert min-w-0 max-w-none',
           hasTableOfContents ? 'lg:col-span-8' : 'lg:col-span-10 lg:col-start-2',
         ]}>
           {hasTableOfContents && (
@@ -127,7 +105,7 @@ const labels = resolveLocaleCopy({
       )}
     </div>
 
-    <div class="mx-auto mt-10 max-w-4xl">
+    <div class="reader-end mx-auto mt-10 max-w-4xl">
       <ContentLicenseNotice license={entry.data.license} locale={localeCode} />
     </div>
   </main>

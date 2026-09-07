@@ -10,7 +10,7 @@ interface Props {
 }
 
 const { mode, locale = 'zh', collection = '', entryId = '' } = Astro.props as Props;
-const apiBase = import.meta.env.PUBLIC_AI_OBSERVER_API_BASE || 'https://kamitsubaki-ai-observer.linkth1rstyg.workers.dev';
+const apiBase = import.meta.env.PUBLIC_AI_OBSERVER_API_BASE || 'https://api.kamitsubaki.wiki';
 const guideHref = `/${locale}/contribute/edit`;
 const syntaxHref = `/${locale}/contribute/syntax`;
 const formatHref = `/${locale}/contribute/format`;
@@ -18,7 +18,8 @@ const ownerLogin = import.meta.env.PUBLIC_SITE_OWNER_GITHUB || 'LinkTh1rsty';
 const editableCollections = new Set(['artists', 'albums', 'songs', 'projects', 'logs']);
 const editableLocale = getEditableLocale(locale);
 const targetPath = editableCollections.has(collection) && entryId ? `src/content/${collection}/${entryId}/${editableLocale}.md` : '';
-const editHref = targetPath ? `${guideHref}?target=${encodeURIComponent(targetPath)}` : guideHref;
+const editorHref = `/${locale}/contribute/editor/`;
+const editHref = targetPath ? `${editorHref}?target=${encodeURIComponent(targetPath)}` : editorHref;
 const resolvedCopy = resolveLocaleCopy({
   zh: {
     kicker: mode === 'entry' ? 'ENTRY KEEPERS' : 'COMMUNITY ARCHIVE',
@@ -28,6 +29,8 @@ const resolvedCopy = resolveLocaleCopy({
     empty: '这里还没有公开维护记录。你可以成为第一位贡献者。',
     error: '贡献记录暂时无法读取，请稍后重试。',
     retry: '重新读取',
+    cached: '暂时显示已保存的贡献记录，可稍后重新读取。',
+    recentUnavailable: '最近贡献记录暂时无法更新。',
     ownerKicker: 'SITE STEWARD',
     ownerTitle: '站长与主理人',
     ownerRole: '负责产品方向、功能开发、基础设施与社区维护。',
@@ -60,6 +63,8 @@ const resolvedCopy = resolveLocaleCopy({
     empty: '公開メンテナンス記録はまだありません。最初の貢献者になれます。',
     error: '貢献記録を読み込めませんでした。もう一度お試しください。',
     retry: '再読み込み',
+    cached: '保存済みの貢献記録を表示しています。後でもう一度読み込めます。',
+    recentUnavailable: '最近の貢献記録は一時的に更新できません。',
     ownerKicker: 'SITE STEWARD',
     ownerTitle: 'サイトオーナー',
     ownerRole: 'プロダクト方針、機能開発、基盤、コミュニティ運営を担当。',
@@ -92,6 +97,8 @@ const resolvedCopy = resolveLocaleCopy({
     empty: 'No public maintenance record yet. You can be the first contributor.',
     error: 'Contribution records are temporarily unavailable. Please try again.',
     retry: 'Try again',
+    cached: 'Showing saved contribution records while updates are unavailable.',
+    recentUnavailable: 'Recent contribution activity is temporarily unavailable.',
     ownerKicker: 'SITE STEWARD',
     ownerTitle: 'Site owner and steward',
     ownerRole: 'Leads product direction, feature development, infrastructure, and community maintenance.',
@@ -129,6 +136,7 @@ const copy = {
 
 <section
   class:list={['contributor-roster', 'reveal-up', mode === 'summary' ? 'contributor-roster--summary' : 'contributor-roster--entry']}
+  id={mode === 'summary' ? 'contributors' : undefined}
   data-contributor-roster
   data-mode={mode}
   data-api-base={apiBase}
@@ -150,7 +158,7 @@ const copy = {
     <p>{copy.subtitle}</p>
   </header>
 
-  <div class="contributor-roster__state" data-contributor-state>{copy.loading}</div>
+  <div class="contributor-roster__state" role="status" data-contributor-state>{copy.loading}</div>
   <div class="contributor-roster__content" data-contributor-content hidden></div>
   {mode === 'summary' && <ManualContributors locale={locale} />}
 </section>

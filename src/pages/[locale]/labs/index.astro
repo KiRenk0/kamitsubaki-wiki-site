@@ -1,0 +1,6 @@
+---
+import LabsRedirect from '../../../components/LabsRedirect.astro';
+import { supportedLocales } from '../../../lib/i18n.mjs';
+export function getStaticPaths() { return supportedLocales.map(locale => ({ params: { locale } })); }
+---
+<LabsRedirect target={`/${Astro.params.locale}/labs/explore/`} />

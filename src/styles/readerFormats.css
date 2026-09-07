@@ -1,0 +1,32 @@
+/* Shared article and editor-preview typography for Wiki formats. */
+html body .wiki-reader :where(ruby) { ruby-align: center; ruby-position: over; }
+html body .wiki-reader :where(rt) { font-size: .56em; color: var(--reader-muted, var(--theme-body)); font-weight: 400; letter-spacing: .025em; }
+html body .wiki-reader ruby rt.roma { display: none; }
+html body .wiki-reader :where(p):has(ruby) { line-height: 2.25; }
+html body .wiki-reader :where(mark) { color: inherit; background: rgb(var(--theme-accent-rgb) / .2); padding: .07em .2em; border-radius: 3px; box-decoration-break: clone; }
+html body .wiki-reader :where(kbd) { display: inline-block; padding: .08em .4em; border: 1px solid var(--reader-line, var(--ui-line)); border-bottom-width: 2px; border-radius: 4px; font: .8em/1.5 var(--font-mono); color: var(--theme-fg); background: rgb(var(--theme-fg-rgb) / .045); box-shadow: none; white-space: nowrap; }
+html body .wiki-reader :where(sub, sup) { font-size: .72em; line-height: 0; }
+html body .wiki-reader :where(small) { font-size: .84em; color: var(--reader-muted, var(--theme-body)); }
+html body .wiki-reader abbr[title] { position: relative; text-decoration: underline dotted; text-underline-offset: .25em; cursor: help; }
+html body .wiki-reader abbr[title]:is(:hover,:focus-visible,.is-expanded)::after { content: attr(title); position: absolute; z-index: 12; left: 0; bottom: calc(100% + .5rem); width: max-content; max-width: min(22rem,70vw); padding: .6rem .8rem; border: 1px solid var(--ui-line); border-radius: 6px; background: var(--theme-panel-solid); box-shadow: 0 4px 20px #0002; font: 400 .8rem/1.65 var(--font-sans); color: var(--theme-fg); white-space: normal; }
+html body .wiki-reader .wiki-spoiler { filter: none; color: transparent; background: rgb(var(--theme-fg-rgb) / .75); border-radius: 3px; padding-inline: .15em; cursor: pointer; text-shadow: none; box-decoration-break: clone; transition: background .16s,color .16s; }
+html body .wiki-reader .wiki-spoiler:is(:hover,:focus-visible):not(.is-revealed) { color: transparent; outline: 2px solid var(--theme-accent-color); outline-offset: 2px; }
+html body .wiki-reader .wiki-spoiler.is-revealed { color: var(--theme-fg); background: rgb(var(--theme-fg-rgb) / .07); }
+html body .wiki-reader details { margin: 1.4em 0; padding: 0 1rem; border: 1px solid var(--reader-line,var(--ui-line)); border-radius: 7px; background: rgb(var(--theme-fg-rgb) / .015); }
+html body .wiki-reader details > summary { padding: .8rem 0; cursor: pointer; font: 500 .95em/1.7 var(--font-sans); color: var(--theme-fg); }
+html body .wiki-reader details[open] > summary { margin-bottom: .8rem; border-bottom: 1px solid var(--reader-line,var(--ui-line)); }
+html body .wiki-reader details > :last-child:not(summary) { margin-bottom: 1rem; }
+html body .wiki-reader .reader-table-scroll { overflow: auto; max-width: 100%; margin: 1.5rem 0; border-block: 1px solid var(--reader-line,var(--ui-line)); overscroll-behavior-x: contain; }
+html body .wiki-reader .reader-table-scroll table { display: table; width: 100%; margin: 0; font-variant-numeric: tabular-nums; }
+html body .wiki-reader .reader-table-scroll :where(th) { position: sticky; top: 0; z-index: 1; background: var(--theme-panel-solid); }
+html body .wiki-reader .reader-table-scroll :where(td,th) { min-width: 6rem; padding: .7rem .85rem; }
+html body .wiki-reader .reader-table-scroll tr:last-child td { border-bottom: 0; }
+html body .wiki-reader .reader-table-scroll tbody tr:nth-child(even) { background: rgb(var(--theme-fg-rgb) / .018); }
+html body .wiki-reader .reader-code { margin-block: 1.5rem; border: 1px solid var(--reader-line,var(--ui-line)); border-radius: 7px; overflow: hidden; }
+html body .wiki-reader .reader-code__toolbar { display:flex; align-items:center; justify-content:space-between; gap:1rem; padding:.45rem .8rem; font:.72rem/1.5 var(--font-mono); background:rgb(var(--theme-fg-rgb)/.035); color:var(--theme-body); }
+html body .wiki-reader .reader-code__toolbar button { padding:.2rem .5rem; border:1px solid var(--ui-line); border-radius:4px; background:transparent; color:inherit; cursor:pointer; font:inherit; }
+html body .wiki-reader .reader-code pre { margin:0; border:0; border-radius:0; padding:1rem; overflow:auto; line-height:1.8; }
+html body .wiki-reader .katex-display { overflow-x:auto; overflow-y:hidden; padding:.6em .2em; }
+html body .wiki-reader :where([data-footnotes]) { margin-top:2.5rem; padding-top:1.25rem; border-top:1px solid var(--reader-line,var(--ui-line)); font-size:.86em; }
+html body .wiki-reader :where(:focus-visible) { outline:2px solid var(--theme-accent-color); outline-offset:3px; }
+@media(prefers-reduced-motion:reduce) { html body .wiki-reader .wiki-spoiler { transition:none; } }

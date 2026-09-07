@@ -43,10 +43,10 @@ const visibleHeadings = headings.filter((heading) => heading.depth === 2 || head
   };
 
   const getAnchorOffset = () => {
-    const fixedNav = document.querySelector<HTMLElement>('nav.fixed');
-    const navHeight = fixedNav?.getBoundingClientRect().height ?? 72;
+    const fixedNav = document.querySelector<HTMLElement>('.home-chrome, nav.fixed');
+    const navBottom = fixedNav?.getBoundingClientRect().bottom ?? 72;
 
-    return Math.ceil(navHeight + 32);
+    return Math.ceil(navBottom + 20);
   };
 
   function setupToCTracking() {
@@ -68,6 +68,8 @@ const visibleHeadings = headings.filter((heading) => heading.depth === 2 || head
       links.forEach((link) => {
         const isActive = link.dataset.slug === slug;
         link.dataset.active = isActive ? 'true' : 'false';
+        if (isActive) link.setAttribute('aria-current', 'location');
+        else link.removeAttribute('aria-current');
       });
     };
 
@@ -89,6 +91,7 @@ const visibleHeadings = headings.filter((heading) => heading.depth === 2 || head
     };
 
     const scrollToHeading = (event: MouseEvent) => {
+      if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
       const link = event.currentTarget;
 
       if (!(link instanceof HTMLAnchorElement)) {
@@ -104,6 +107,9 @@ const visibleHeadings = headings.filter((heading) => heading.depth === 2 || head
 
       event.preventDefault();
 
+      const mobileContents = link.closest<HTMLDetailsElement>('.wiki-mobile-toc');
+      if (mobileContents) mobileContents.open = false;
+
       const top = Math.max(target.getBoundingClientRect().top + window.scrollY - getAnchorOffset(), 0);
       const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -113,6 +119,9 @@ const visibleHeadings = headings.filter((heading) => heading.depth === 2 || head
         top,
         behavior: prefersReducedMotion ? 'auto' : 'smooth',
       });
+      // Keep keyboard navigation at the selected section after the menu closes.
+      target.setAttribute('tabindex', '-1');
+      target.focus({ preventScroll: true });
     };
 
     let ticking = false;

@@ -15,6 +15,7 @@ const { content } = Astro.props as { content: AboutContent };
       <h3 class="text-[10px] tracking-kamidest-lg font-light text-white mb-2">{content.heading}</h3>
       <p class="font-serif text-[10px] text-white/50 tracking-widest mb-8">{content.subheading}</p>
       <div class="w-8 h-[1px] bg-white/30"></div>
+      <slot name="explore" />
     </div>
     <div class="md:col-span-8 reveal-up" style="transition-delay: 0.2s;">
       <div class="max-w-3xl space-y-8 sm:space-y-10">

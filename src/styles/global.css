@@ -131,12 +131,6 @@ body {
   transition: background-color 240ms ease, color 240ms ease;
 }
 
-html.site-page-transition-enabled,
-html.site-page-transition-enabled body {
-  overflow: hidden;
-  overscroll-behavior: none;
-}
-
 #preloader {
   position: fixed;
   top: 0;
@@ -151,13 +145,15 @@ html.site-page-transition-enabled body {
   opacity: 1;
   visibility: visible;
   transition:
-    opacity 0.65s cubic-bezier(0.16, 1, 0.3, 1),
-    visibility 0.65s;
+    opacity 180ms ease-out,
+    visibility 180ms;
 }
 
 html.site-page-transition-enabled #preloader {
   display: flex;
 }
+
+#preloader > div { display: none; }
 
 #preloader.hidden-preloader {
   pointer-events: none;
@@ -574,16 +570,17 @@ html[data-theme='light'] .cursor-dot.hovering {
 
 html.has-js .reveal-up {
   opacity: 0;
-  transform: translate3d(0, 1.65rem, 0);
+  transform: translate3d(0, 12px, 0);
   transition:
-    opacity 0.72s cubic-bezier(0.16, 1, 0.3, 1),
-    transform 0.72s cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 0.48s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.48s cubic-bezier(0.16, 1, 0.3, 1),
     background-color 0.4s ease,
     padding-left 0.4s ease;
   will-change: opacity, transform;
 }
 
 html.has-js .reveal-up.active {
+  will-change: auto;
   opacity: 1;
   transform: translate3d(0, 0, 0);
 }

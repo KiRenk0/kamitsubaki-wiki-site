@@ -51,12 +51,10 @@ const copy = {
   metadata={{ title: copy.title, description: copy.description, canonicalPath: `/${locale}${currentPath}` }}
 >
   <div class="memory-page">
-    <SiteNav navItems={homeContent.navItems} localeLinks={localeLinks} brandLines={homeContent.hero.brandLines} compact homeHref={`/${locale}/`} />
+    <header class="memory-page__header">
+      <SiteNav navItems={homeContent.navItems} localeLinks={localeLinks} brandLines={homeContent.hero.brandLines} compact homeHref={`/${locale}/`} />
+    </header>
     <main>
-      <div class="memory-page__rail" aria-hidden="true">
-        <span>{copy.label}</span>
-        <span>ARCHIVE / 01</span>
-      </div>
       <iframe
         id="memory-corridor-frame"
         title={copy.title}
@@ -80,61 +78,36 @@ const copy = {
 
 <style>
   .memory-page {
-    min-height: 100dvh;
-    background: #030303;
-    color: #e8ece8;
+    height: 100dvh;
+    background: var(--theme-bg);
+    color: var(--theme-fg);
+  }
+
+  .memory-page__header {
+    position: absolute;
+    z-index: 60;
   }
 
   .memory-page main {
     position: relative;
-    min-height: 100dvh;
-    padding-top: 3.8rem;
-  }
-
-  .memory-page__rail {
-    position: absolute;
-    top: 3.8rem;
-    right: 0;
-    left: 0;
-    z-index: 2;
-    display: flex;
-    justify-content: space-between;
-    padding: 0.42rem 1.25rem;
-    border-bottom: 1px solid #182723;
-    background: #030303;
-    color: #60736d;
-    font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
-    font-size: 0.52rem;
-    letter-spacing: 0.18em;
-    pointer-events: none;
+    z-index: 0;
+    height: 100%;
   }
 
   .memory-page iframe {
     display: block;
     width: 100%;
-    height: calc(100dvh - 3.8rem);
+    height: 100%;
+    min-height: 0;
     border: 0;
-    background: #030303;
+    background: var(--theme-bg);
   }
 
   :global([data-social-contact]),
+  :global([data-tools-dock]),
   :global([data-ai-launcher]),
   :global([data-ai-chat]) {
     display: none !important;
   }
 
-  @media (max-width: 640px) {
-    .memory-page main {
-      padding-top: 3.35rem;
-    }
-
-    .memory-page__rail {
-      top: 3.35rem;
-      padding-inline: 0.75rem;
-    }
-
-    .memory-page iframe {
-      height: calc(100dvh - 3.35rem);
-    }
-  }
 </style>

@@ -83,6 +83,7 @@ const modeTitle = document.querySelector('#modeTitle');
 const areaName = document.querySelector('#areaName');
 const gemCount = document.querySelector('#gemCount');
 const fragmentCount = document.querySelector('#fragmentCount');
+const fragmentLabel = document.querySelector('#fragmentLabel');
 const healthCount = document.querySelector('#healthCount');
 const openMenuButton = document.querySelector('#openMenuButton');
 const runnerLayer = document.querySelector('#runnerLayer');
@@ -363,6 +364,7 @@ function showMenu() {
 function startMode(mode) {
   if (mode === 'runner') {
     game.screen = 'runner';
+    shell.dataset.screen = 'runner';
     game.playing = false;
     modeMenu.hidden = true;
     hud.hidden = true;
@@ -390,6 +392,7 @@ function updateHud() {
   areaName.textContent = game.mode === 'portal' ? copy.areaPortal : copy.areaMemory;
   gemCount.textContent = String(game.gems).padStart(2, '0');
   fragmentCount.textContent = game.mode === 'portal' ? `${game.portalsVisited.size}/4` : `${game.fragments}/3`;
+  fragmentLabel.textContent = game.mode === 'portal' ? '传送' : '碎片';
   healthCount.textContent = String(game.health);
   updateObjective();
 }
@@ -1084,6 +1087,10 @@ openMenuButton.addEventListener('click', showMenu);
 runnerBackButton.addEventListener('click', () => {
   runnerFrame.src = 'about:blank';
   showMenu();
+});
+window.addEventListener('message', (event) => {
+  if (event.origin !== window.location.origin || event.source !== runnerFrame.contentWindow) return;
+  if (event.data?.type === 'wiki-game:return-to-modes') runnerBackButton.click();
 });
 dialogCloseButton.addEventListener('click', closeDialog);
 archiveDialog.addEventListener('close', () => { game.dialogOpen = false; });

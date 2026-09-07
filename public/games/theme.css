@@ -1,0 +1,225 @@
+/* UI surfaces follow the Wiki theme; the original pixel artwork keeps its palette. */
+html[data-theme] {
+  --game-bg-rgb: 2 9 8;
+  --game-fg-rgb: 242 245 239;
+  --game-muted-rgb: 154 184 174;
+  --game-accent-rgb: 81 210 184;
+  --bg: #020908;
+  --panel: #0c1714;
+  --ink: #f2f5ef;
+  --fg: var(--ink);
+  --muted: #9ab8ae;
+  --cyan: #51d2b8;
+  --accent: var(--cyan);
+  --accent-rgb: 81, 210, 184;
+  --line: rgb(var(--game-accent-rgb) / .3);
+  --game-error: #f29aab;
+  color-scheme: dark;
+}
+html[data-theme='light'] {
+  --game-bg-rgb: 247 248 244;
+  --game-fg-rgb: 29 49 42;
+  --game-muted-rgb: 79 105 94;
+  --game-accent-rgb: 27 113 90;
+  --bg: #f7f8f4;
+  --panel: #eef2ec;
+  --ink: #1d312a;
+  --muted: #4f695e;
+  --cyan: #1b715a;
+  --accent-rgb: 27, 113, 90;
+  --game-error: #a5354d;
+  color-scheme: light;
+}
+html body .game-shell { min-height:0; }
+html body .mode-menu {
+  background: linear-gradient(90deg, rgb(var(--game-bg-rgb) / .98) 0 34%, rgb(var(--game-bg-rgb) / .88) 62%, rgb(var(--game-bg-rgb) / .94)), url('/games/kamitsubaki-explorer/assets/background-far-v2.png') center / cover;
+}
+html body .mode-menu__controls { color:var(--muted); }
+html body .mode-menu__intro h1 { text-wrap:balance; }
+/* Keep the shared transparent navigation above the scene, with controls below it. */
+html[data-wiki-embedded] { --wiki-header-space:112px; }
+html[data-wiki-embedded] body .hud { top:calc(var(--wiki-header-space) + 16px); }
+html[data-wiki-embedded] body .runner-layer { top:var(--wiki-header-space); }
+html[data-wiki-embedded] body .mode-menu { padding-top:calc(var(--wiki-header-space) + 24px); }
+html[data-wiki-embedded] body .game-shell::before {
+  content:''; position:absolute; inset:0 0 auto; height:var(--wiki-header-space);
+  z-index:3; pointer-events:none; opacity:1; border:0;
+  background:linear-gradient(var(--bg),rgb(var(--game-bg-rgb) / .88) 65%,transparent);
+}
+@media(max-width:640px) { html[data-wiki-embedded] { --wiki-header-space:88px; } }
+html body :is(.hud__menu, .runner-layer__back, .touch-controls button, .interaction-prompt) { background:rgb(var(--game-bg-rgb) / .96); }
+html body .mode-option { background:rgb(var(--game-bg-rgb) / .45); }
+html body .mode-option:is(:hover,:focus-visible) { background:rgb(var(--game-accent-rgb) / .1); }
+html body :is(.quest-tracker,.toast,.archive-dialog) { background:var(--panel); }
+html body .archive-dialog { box-shadow:0 12px 48px rgb(0 0 0 / .2); border-color:var(--line); }
+html body .archive-dialog::backdrop { background:rgb(0 12 8 / .5); }
+html body .archive-dialog__lead { color:var(--muted); }
+html body :is(.archive-answer,.archive-link) { border-color:var(--line); background:rgb(var(--game-accent-rgb) / .04); }
+html body :is(.archive-answer,.archive-link):is(:hover,:focus-visible), html body .archive-answer.is-correct { border-color:var(--cyan); background:rgb(var(--game-accent-rgb) / .12); }
+html body .archive-answer.is-wrong { color:var(--game-error); border-color:var(--game-error); }
+html body .hud__health i { color:var(--cyan); text-shadow:none; }
+html body .hud { padding:10px 12px; border:1px solid var(--line); border-radius:var(--ui-radius-control); background:rgb(var(--game-bg-rgb) / .94); }
+html body .hud::after { display:none; }
+html body .runner-layer { display:flex; flex-direction:column; }
+html body .runner-layer iframe { flex:1; min-height:0; height:0; }
+html body .runner-layer__back { position:static; order:-1; align-self:flex-start; margin:8px 16px; min-height:36px; padding:8px 12px; flex-shrink:0; }
+html body :is(.overlay-panel,.route-decision__panel,.route-choice,.action-button,.tool-button,.event-banner,.wiki-context) { background:var(--bg); color:var(--fg); border-color:var(--line); }
+html body :is(.action-button,.tool-button):is(:hover,:focus-visible),html body .tool-button[aria-pressed='true'] { background:var(--panel); color:var(--accent); }
+html body .clue-panel { background:rgb(var(--game-bg-rgb) / .96); }
+html body .route-decision { background:rgb(var(--game-bg-rgb) / .82); overflow:auto; }
+html body .clue-panel li.is-locked { color:var(--muted); }
+html body .memory-path a[data-correct='false'] { color:var(--game-error); }
+html body :is(.overlay-subtitle,.overlay-note,.metric-label,.bottom-status,.control-hint) { color:var(--muted); }
+html body .bottom-status { padding:8px 10px; border-radius:var(--ui-radius-control); background:rgb(var(--game-bg-rgb) / .94); }
+html body .memory-count { color:var(--accent); }
+html body .overlay-panel { max-height:100%; overflow-y:auto; overscroll-behavior:contain; }
+html[data-game='runner'] body .overlay { padding:100px 16px 72px; }
+html[data-game='runner'] body .wiki-context { top:calc(var(--safe-top) + 82px); }
+html[data-game='runner'] body .clue-panel { top:calc(var(--safe-top) + 126px); }
+@media(max-width:660px) {
+  html[data-game='runner'] body .wiki-context { top:calc(var(--safe-top) + 110px); }
+  html[data-game='runner'] body .game-tools { top:calc(var(--safe-top) + 148px); }
+  html[data-game='runner'] body .clue-panel { top:calc(var(--safe-top) + 188px); }
+}
+@media(max-width:820px) {
+  html body .mode-menu { background:linear-gradient(180deg,rgb(var(--game-bg-rgb) / .92),var(--bg) 48%),url('/games/kamitsubaki-explorer/assets/background-far-v2.png') center / cover; padding-top:32px; }
+  html body .mode-menu__intro h1 { font-size:clamp(28px,8vw,46px); line-height:1.2; }
+  html body .mode-menu__controls { position:static; margin:24px 0 0; line-height:1.8; }
+  html body .mode-menu { padding-bottom:28px; }
+}
+
+/* The explorer readout sits in the free space between the Wiki navigation groups. */
+html[data-game='explorer'] body .hud {
+  display:flex; justify-content:center; align-items:center; gap:18px;
+  height:44px; padding:0; margin:0; max-width:none;
+  border:0; border-radius:0; background:transparent;
+  box-shadow:none; backdrop-filter:none; -webkit-backdrop-filter:none;
+}
+html[data-game='explorer'][data-wiki-embedded] body .hud {
+  top:32px; left:160px; right:280px;
+}
+html[data-game='explorer'] body .hud__identity { flex:none; }
+html[data-game='explorer'] body :is(.hud__signal,.hud small) { display:none; }
+html[data-game='explorer'] body .hud strong { font-size:12px; letter-spacing:.05em; line-height:1.4; }
+html[data-game='explorer'] body .hud__metrics { gap:14px; }
+html[data-game='explorer'] body .hud__metrics > span { display:flex; align-items:center; gap:5px; white-space:nowrap; }
+html[data-game='explorer'] body .hud__metrics > span > i { width:16px; height:16px; text-align:center; }
+html[data-game='explorer'] body .hud__metric-label { font-size:10px; color:var(--muted); }
+html[data-game='explorer'] body .hud__metrics b { min-width:2ch; font-size:13px; line-height:1.2; letter-spacing:0; font-variant-numeric:tabular-nums; }
+html[data-game='explorer'] body .hud__menu {
+  position:static; flex:none; min-height:44px; padding:0 8px;
+  background:transparent; border:0; border-radius:4px; letter-spacing:.04em;
+}
+html[data-game='explorer'] body .hud__menu:is(:hover,:focus-visible) { background:rgb(var(--game-fg-rgb) / .08); color:var(--ink); }
+@media(max-width:1100px) {
+  html[data-game='explorer'] body .hud { gap:12px; }
+  html[data-game='explorer'] body .hud__metric-label {
+    position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%);
+  }
+  html[data-game='explorer'] body .hud__metrics { gap:10px; }
+}
+@media(max-width:720px) {
+  html[data-game='explorer'][data-wiki-embedded] body .hud {
+    top:76px; left:16px; right:16px; height:36px; gap:12px;
+    --ink:#f2f5ef; --cyan:#51d2b8; --game-fg-rgb:242 245 239;
+    color:var(--ink); text-shadow:0 1px 3px #020908;
+  }
+  html[data-game='explorer'] body .hud__menu { min-height:36px; }
+}
+@media(max-height:500px) {
+  html body .mode-menu { padding:20px; }
+  html body .mode-menu__intro p { margin:8px 0 16px; }
+  html body .mode-option { padding-block:12px; }
+  html[data-game='runner'] body .overlay { padding:12px; z-index:10; }
+  html[data-game='runner'] body .game-shell .overlay-panel { max-height:calc(100dvh - 24px); padding:16px; transform:none; }
+  html[data-game='runner'] body .overlay-title { font-size:28px; }
+  html[data-game='runner'] body .overlay-subtitle { margin-top:10px; padding-top:8px; }
+  html[data-game='runner'] body .overlay-note { margin-top:8px; }
+  html[data-game='runner'] body .action-button { margin-top:12px; padding:9px 20px; }
+  html[data-game='runner'] body .route-decision { padding:12px; }
+}
+
+/* All three modes share the same compact, transparent status and controls. */
+html[data-game='explorer'] body .runner-layer { display:block; inset:0; }
+html[data-game='explorer'][data-wiki-embedded] body .runner-layer { top:0; }
+html[data-game='explorer'] body .runner-layer iframe { height:100%; }
+html[data-game='explorer'] body .runner-layer__back { display:none; }
+html[data-game='runner'] body .hud {
+  display:flex; justify-content:center; align-items:center; gap:14px;
+  height:44px; margin:0; padding:0; border:0; border-radius:0;
+  background:transparent; box-shadow:none; text-shadow:none;
+  font-family:Inter,'Noto Sans SC','PingFang SC',system-ui,sans-serif;
+}
+html[data-game='runner'][data-wiki-embedded] body .hud { top:32px; left:160px; right:280px; }
+html[data-game='runner'] body :is(.brand-mark,.hud-rule) { display:none; }
+html[data-game='runner'] body .brand { flex:none; grid-column:auto; }
+html[data-game='runner'] body .brand-name { font-size:12px; letter-spacing:.05em; }
+html[data-game='runner'] body .metric { display:flex; align-items:center; min-width:0; gap:5px; white-space:nowrap; }
+html[data-game='runner'] body .metric-label { font-size:10px; letter-spacing:0; font-weight:400; }
+html[data-game='runner'] body .metric-value { font-size:13px; letter-spacing:0; font-weight:500; }
+html[data-game='runner'] body .game-tools { position:static; display:flex; align-items:center; flex:none; gap:2px; }
+html[data-game='runner'] body .tool-button {
+  min-width:44px; min-height:44px; height:auto; padding:0 6px;
+  border:0; border-radius:4px; background:transparent; box-shadow:none;
+  color:var(--fg); font-size:10px; letter-spacing:0;
+}
+html[data-game='runner'] body .tool-button:is(:hover,:focus-visible) { background:rgb(var(--game-fg-rgb) / .08); color:var(--fg); box-shadow:none; }
+html[data-game='runner'] body .tool-button[aria-pressed='true'] { background:transparent; color:var(--accent); box-shadow:none; }
+html[data-game='runner'] body .tool-button:disabled { opacity:.4; }
+html[data-game='runner'] body .game-modes-button { display:none; }
+html[data-game='runner'][data-runner-embedded] body .game-modes-button { display:block; }
+html[data-game='runner'] body .resonance-line { top:70px; opacity:.6; }
+html[data-game='runner'][data-wiki-embedded] body .resonance-line { top:108px; }
+html[data-game='runner'] body .wiki-context { top:78px; max-width:min(360px,calc(100vw - 32px)); }
+html[data-game='runner'] body .clue-panel { top:118px; width:min(300px,calc(100vw - 32px)); max-height:calc(100dvh - 190px); overflow:auto; }
+html[data-game='runner'] body .clue-panel { padding:12px; font-size:11px; line-height:1.65; }
+html[data-game='runner'][data-wiki-embedded] body .wiki-context { top:120px; }
+html[data-game='runner'][data-wiki-embedded] body .clue-panel { top:160px; max-height:calc(100dvh - 220px); }
+html body :is(.quest-tracker,.toast,.clue-panel,.wiki-context,.archive-dialog,.overlay-panel,.route-decision__panel) {
+  border:1px solid var(--line); border-radius:6px;
+  background:rgb(var(--game-bg-rgb) / .94); box-shadow:none;
+}
+html body :is(.quest-tracker,.toast) { padding:12px 14px; width:min(280px,calc(100vw - 32px)); }
+html body .toast strong { font-size:14px; }
+html[data-game='runner'] body .overlay-title { font-family:Inter,'Noto Sans SC','PingFang SC',system-ui,sans-serif; font-weight:600; letter-spacing:.08em; }
+html[data-game='runner'] body .action-button { border:1px solid var(--line); border-radius:4px; box-shadow:none; font-weight:500; }
+html[data-game='runner'] body .action-button:is(:hover,:focus-visible) { box-shadow:none; background:var(--accent); color:var(--bg); }
+html[data-game='runner'] body .bottom-status {
+  background:transparent; padding:0; color:#b7ccc4; text-shadow:0 1px 3px #020908;
+  --accent:#51d2b8; --muted:#b7ccc4; --fg:#f2f5ef;
+}
+@media(max-width:1100px) {
+  html[data-game='runner'] body .hud { gap:8px; }
+  html[data-game='runner'] body .tool-button { padding-inline:4px; }
+}
+@media(max-width:800px) { html[data-game='runner'] body .brand { display:none; } }
+@media(max-width:720px) {
+  html[data-game='runner'][data-wiki-embedded] body .hud {
+    top:76px; left:12px; right:12px; height:36px; gap:8px;
+    --fg:#f2f5ef; --muted:#b7ccc4; --accent:#51d2b8; --game-fg-rgb:242 245 239;
+    color:var(--fg); text-shadow:0 1px 3px #020908;
+  }
+  html[data-game='runner'] body .tool-button { min-height:36px; min-width:40px; }
+  html[data-game='runner'] body .metric-value { font-size:12px; }
+  html[data-game='runner'] body .metric-label { font-size:9px; }
+  html[data-game='runner'] body .clue-panel { right:auto; }
+  html body .quest-tracker { width:auto; right:16px; left:16px; bottom:82px; padding:10px 12px; }
+  html body .quest-tracker__bar { margin-top:8px; }
+  html body .interaction-prompt { bottom:170px; max-width:calc(100vw - 32px); white-space:normal; }
+  html body .toast { bottom:170px; right:16px; }
+  html body .interaction-prompt:not([hidden]) ~ .toast { bottom:218px; }
+  html body .touch-controls button { width:44px; height:44px; border-radius:4px; }
+  html body .touch-controls__move { gap:6px; }
+  html body :is(.touch-controls__dash,.touch-controls__interact) { margin-left:6px; }
+}
+@media(max-height:500px) and (min-width:721px) {
+  html body .quest-tracker { bottom:16px; left:16px; right:auto; width:240px; padding:8px 12px; }
+  html body .toast { bottom:16px; right:16px; width:240px; padding:8px 12px; }
+  html body :is(.quest-tracker small,.toast small) { display:none; }
+}
+/* Standalone games have no Wiki header surface behind their status text. */
+html[data-game]:not([data-wiki-embedded]) body .hud {
+  --ink:#f2f5ef; --fg:#f2f5ef; --muted:#b7ccc4; --cyan:#51d2b8; --accent:#51d2b8;
+  --game-fg-rgb:242 245 239;
+  color:var(--fg); text-shadow:0 1px 3px #020908;
+}

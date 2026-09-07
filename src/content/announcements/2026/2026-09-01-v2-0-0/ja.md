@@ -45,5 +45,5 @@ summary: |
   神椿非公式観測所 v2.0.0、正式リリース。
   それでは、次の観測でお会いしましょう。
 order: -3
-pinned: true
+pinned: false
 ---
