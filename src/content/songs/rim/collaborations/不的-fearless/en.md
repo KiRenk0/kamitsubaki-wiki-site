@@ -20,7 +20,7 @@ image: /images/albums/rim/new-romancer-2.jpg
 
 ## Overview
 
-不的 appears on NEW ROMANCER2 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+不的 appears on [NEW ROMANCER2](/en/albums/rim/new-romancer-2) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -135,26 +135,30 @@ image: /images/albums/rim/new-romancer-2.jpg
 <div class="jp-lyric">
 [02:31.26]<ruby>いやらしい<rt class="roma">iyarashii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>、<ruby>どうして<rt class="roma">doushite</rt></ruby><ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
-<div class="trans-lyric">It's unpleasant, what should I do?</div>
+<div class="trans-lyric">
+[02:31.26]It's unpleasant, what should I do?
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:33.70]<ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>未知<rt class="furi">みち</rt><rt class="roma">michi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>飽<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[02:33.70]Don't mind it, tired of the unknown</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:38.71]<ruby>噂<rt class="furi">うわさ</rt><rt class="roma">uwasa</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なってる<rt class="roma">natteru</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby>！
 </div>
+<div class="trans-lyric">[02:38.71]I know those eyes that say we're the talk of the town!</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:41.34]<ruby>キル<rt class="roma">kiru</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>、<ruby>リスポーン<rt class="roma">risupoun</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
-<div class="trans-lyric">Don't kill me, wait for respawn</div>
+<div class="trans-lyric">[02:41.34]Don't kill me, wait for respawn</div>
 </div>
 
 <div class="lyric-line">
@@ -170,7 +174,7 @@ image: /images/albums/rim/new-romancer-2.jpg
 <div class="jp-lyric">
 [02:53.34]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>らしく<rt class="roma">rashiku</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>、<ruby>どう<rt class="roma">dou</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>？
 </div>
-<div class="trans-lyric">If I could live as myself, what would I do?</div>
+<div class="trans-lyric">[02:53.34]If I could live as myself, what would I do?</div>
 </div>
 
 <div class="lyric-line">
@@ -221,6 +225,7 @@ image: /images/albums/rim/new-romancer-2.jpg
 <div class="jp-lyric">
 [03:58.81]<ruby>ふざけ<rt class="roma">fuzake</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いよ<rt class="roma">iyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>息<rt class="furi">いき</rt><rt class="roma">iki</rt></ruby><ruby>切<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:58.81]Let's fool around until we're out of breath</div>
 </div>
 
@@ -228,6 +233,7 @@ image: /images/albums/rim/new-romancer-2.jpg
 <div class="jp-lyric">
 [04:07.84]<ruby>そう<rt class="roma">sou</rt></ruby> <ruby>適切<rt class="furi">てきせつ</rt><rt class="roma">tekisetsu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>用量<rt class="furi">ようりょう</rt><rt class="roma">youryou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>流行<rt class="furi">はや</rt><rt class="roma">haya</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
+
 <div class="trans-lyric">[04:07.84]Yes, I wish for the proper dosage to become popular</div>
 </div>
 

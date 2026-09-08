@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 
 ## Overview
 
-MC4 appears on CREAM PUFF LIVE 2 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+MC4 appears on [CREAM PUFF LIVE 2](/en/albums/harusaruhi/cream-puff-live-2) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -245,24 +245,28 @@ OH NO <ruby>加<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>班
 <div class="jp-lyric">
 梦<ruby>想<rt class="furi">そう</rt><rt class="roma">sou</rt></ruby>应该<ruby>去<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby>怎么<ruby>追<rt class="furi">つい</rt><rt class="roma">tsui</rt></ruby>
 </div>
+<div class="trans-lyric">How should one chase a dream?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>理想<rt class="furi">りそう</rt><rt class="roma">risou</rt></ruby><ruby>到底<rt class="furi">とうてい</rt><rt class="roma">toutei</rt></ruby><ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>为<ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby>谁
 </div>
+<div class="trans-lyric">Who is the ideal really for?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>一切<rt class="furi">いっさい</rt><rt class="roma">issai</rt></ruby>如<ruby>果<rt class="furi">はて</rt><rt class="roma">hate</rt></ruby><ruby>能<rt class="furi">のう</rt><rt class="roma">nou</rt></ruby><ruby>看<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>淡<rt class="furi">あわ</rt><rt class="roma">awa</rt></ruby><ruby>点<rt class="furi">てん</rt><rt class="roma">ten</rt></ruby>
 </div>
+<div class="trans-lyric">If you can take everything lightly</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>快<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby>乐也许就<ruby>多<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>点<rt class="furi">てん</rt><rt class="roma">ten</rt></ruby>
 </div>
+<div class="trans-lyric">Happiness might be a bit more</div>
 </div>
 
 <div class="lyric-line">
@@ -416,6 +420,7 @@ OH NO <ruby>加<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>班
 <div class="jp-lyric">
 继续吧假<ruby>期<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>日子<rt class="furi">にっし</rt><rt class="roma">nisshi</rt></ruby>还<ruby>没<rt class="furi">ぼつ</rt><rt class="roma">botsu</rt></ruby><ruby>到<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby>
 </div>
+
 <div class="trans-lyric">Keep going, holiday days haven't arrived</div>
 </div>
 
@@ -423,6 +428,7 @@ OH NO <ruby>加<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>班
 <div class="jp-lyric">
 继续吧<ruby>明天<rt class="furi">めいてん</rt><rt class="roma">meiten</rt></ruby>还<ruby>要<rt class="furi">よう</rt><rt class="roma">you</rt></ruby><ruby>起<rt class="furi">おこし</rt><rt class="roma">okoshi</rt></ruby>个<ruby>早<rt class="furi">はや</rt><rt class="roma">haya</rt></ruby>
 </div>
+
 <div class="trans-lyric">Keep going, tomorrow still need to wake up early</div>
 </div>
 
@@ -430,6 +436,7 @@ OH NO <ruby>加<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>班
 <div class="jp-lyric">
 继续吧其实<ruby>幸福<rt class="furi">こうふく</rt><rt class="roma">koufuku</rt></ruby><ruby>滋味<rt class="furi">じみ</rt><rt class="roma">jimi</rt></ruby><ruby>我<rt class="furi">わが</rt><rt class="roma">waga</rt></ruby>也<ruby>不知<rt class="furi">ふち</rt><rt class="roma">fuchi</rt></ruby><ruby>道<rt class="furi">どう</rt><rt class="roma">dou</rt></ruby>
 </div>
+
 <div class="trans-lyric">Keep going, actually I don't know the taste of happiness either</div>
 </div>
 
@@ -437,6 +444,7 @@ OH NO <ruby>加<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>班
 <div class="jp-lyric">
 NA NA NA NA...
 </div>
+
 <div class="trans-lyric">NA NA NA NA...</div>
 </div>
 
@@ -444,48 +452,56 @@ NA NA NA NA...
 <div class="jp-lyric">
 梦<ruby>想<rt class="furi">そう</rt><rt class="roma">sou</rt></ruby>应该<ruby>去<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby>怎么<ruby>追<rt class="furi">つい</rt><rt class="roma">tsui</rt></ruby>
 </div>
+<div class="trans-lyric">How should one chase a dream?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>理想<rt class="furi">りそう</rt><rt class="roma">risou</rt></ruby><ruby>到底<rt class="furi">とうてい</rt><rt class="roma">toutei</rt></ruby><ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>为<ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby>谁
 </div>
+<div class="trans-lyric">Who is the ideal really for?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>一切<rt class="furi">いっさい</rt><rt class="roma">issai</rt></ruby>如<ruby>果<rt class="furi">はて</rt><rt class="roma">hate</rt></ruby><ruby>能<rt class="furi">のう</rt><rt class="roma">nou</rt></ruby><ruby>看<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>淡<rt class="furi">あわ</rt><rt class="roma">awa</rt></ruby><ruby>点<rt class="furi">てん</rt><rt class="roma">ten</rt></ruby>
 </div>
+<div class="trans-lyric">If you can take everything lightly</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>快<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby>乐也许就<ruby>多<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>点<rt class="furi">てん</rt><rt class="roma">ten</rt></ruby>
 </div>
+<div class="trans-lyric">Happiness might be a bit more</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 梦<ruby>想<rt class="furi">そう</rt><rt class="roma">sou</rt></ruby>应该<ruby>去<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby>怎么<ruby>追<rt class="furi">つい</rt><rt class="roma">tsui</rt></ruby>
 </div>
+<div class="trans-lyric">How should one chase a dream?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>理想<rt class="furi">りそう</rt><rt class="roma">risou</rt></ruby><ruby>到底<rt class="furi">とうてい</rt><rt class="roma">toutei</rt></ruby><ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>为<ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby>谁
 </div>
+<div class="trans-lyric">Who is the ideal really for?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>一切<rt class="furi">いっさい</rt><rt class="roma">issai</rt></ruby>如<ruby>果<rt class="furi">はて</rt><rt class="roma">hate</rt></ruby><ruby>能<rt class="furi">のう</rt><rt class="roma">nou</rt></ruby><ruby>看<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>淡<rt class="furi">あわ</rt><rt class="roma">awa</rt></ruby><ruby>点<rt class="furi">てん</rt><rt class="roma">ten</rt></ruby>
 </div>
+<div class="trans-lyric">If you can take everything lightly</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>快<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby>乐也许就<ruby>多<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>点<rt class="furi">てん</rt><rt class="roma">ten</rt></ruby>
 </div>
+<div class="trans-lyric">Happiness might be a bit more</div>
 </div>
 
 </div>

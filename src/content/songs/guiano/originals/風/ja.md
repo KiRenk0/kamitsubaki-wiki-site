@@ -17,7 +17,7 @@ image: /images/songs/guiano/風.jpg
 
 ## 作品概要
 
-Guianoが2022-10-20にリリースしたシングル「風」。
+[Guiano](/ja/artists/creators/guiano)が2022-10-20にリリースしたシングル「風」。
 
 ## 視聴
 {{media-switcher::風}}

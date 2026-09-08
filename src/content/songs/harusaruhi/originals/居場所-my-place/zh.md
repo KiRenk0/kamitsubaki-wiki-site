@@ -317,6 +317,7 @@ image: /images/songs/harusaruhi/single-1687474398.jpg
 <div class="jp-lyric">
 [02:38.58]<ruby>未<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>独<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> <ruby>だけど<rt class="roma">dakedo</rt></ruby><ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:38.58]依然独自一人 但多少</div>
 </div>
 
 <div class="lyric-line">
@@ -330,18 +331,21 @@ image: /images/songs/harusaruhi/single-1687474398.jpg
 <div class="jp-lyric">
 [02:47.19]<ruby>何処<rt class="furi">どこ</rt><rt class="roma">doko</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>がってる<rt class="roma">gatteru</rt></ruby>
 </div>
+<div class="cn-lyric">[02:47.19]此刻在何处相连</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:49.15]<ruby>暖<rt class="furi">あたた</rt><rt class="roma">atata</rt></ruby><ruby>かく<rt class="roma">kaku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">[02:49.15]如此温暖 一直没哭呢</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:51.56]<ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>あった<rt class="roma">atta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">[02:51.56]曾有声音的</div>
 </div>
 
 <br />
@@ -364,18 +368,21 @@ image: /images/songs/harusaruhi/single-1687474398.jpg
 <div class="jp-lyric">
 [03:04.17]<ruby>せめて<rt class="roma">semete</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>居<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
+<div class="cn-lyric">[03:04.17]至少在我消失之前</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:06.69]<ruby>絶対<rt class="furi">ぜったい</rt><rt class="roma">zettai</rt></ruby><ruby>バイバイ<rt class="roma">baibai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> yeah
 </div>
+<div class="cn-lyric">[03:06.69]绝对不要说再见 yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:10.21]<ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>、<ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby> yeah-yeah-yeah
 </div>
+<div class="cn-lyric">[03:10.21]走吧 向前 yeah-yeah-yeah</div>
 </div>
 
 <br />
@@ -384,6 +391,7 @@ image: /images/songs/harusaruhi/single-1687474398.jpg
 <div class="jp-lyric">
 [03:14.90]<ruby>大丈夫<rt class="furi">だいじょうぶ</rt><rt class="roma">daijoubu</rt></ruby> hu-uu
 </div>
+
 <div class="cn-lyric">[03:14.90]没关系 hu-uu</div>
 </div>
 
@@ -391,6 +399,7 @@ image: /images/songs/harusaruhi/single-1687474398.jpg
 <div class="jp-lyric">
 [03:23.12]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby> hu-uh
 </div>
+
 <div class="cn-lyric">[03:23.12]我在歌唱 hu-uh</div>
 </div>
 
@@ -400,30 +409,35 @@ image: /images/songs/harusaruhi/single-1687474398.jpg
 <div class="jp-lyric">
 [03:30.89]<ruby>未<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>独<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> <ruby>だけど<rt class="roma">dakedo</rt></ruby><ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[03:30.89]依然独自一人 但多少</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:35.16]<ruby>視線<rt class="furi">しせん</rt><rt class="roma">shisen</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>くれる<rt class="roma">kureru</rt></ruby><ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="cn-lyric">[03:35.16]因为有赐予我视线的你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:39.22]<ruby>何処<rt class="furi">どこ</rt><rt class="roma">doko</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>がってる<rt class="roma">gatteru</rt></ruby>
 </div>
+<div class="cn-lyric">[03:39.22]此刻在何处相连</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:41.43]<ruby>暖<rt class="furi">あたた</rt><rt class="roma">atata</rt></ruby><ruby>かく<rt class="roma">kaku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">[03:41.43]如此温暖 一直没哭呢</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:43.55]<ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>あった<rt class="roma">atta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">[03:43.55]曾有声音的</div>
 </div>
 
 <br />
@@ -432,30 +446,35 @@ image: /images/songs/harusaruhi/single-1687474398.jpg
 <div class="jp-lyric">
 [03:46.20]<ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>くなる<rt class="roma">kunaru</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>これ<rt class="roma">kore</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>自慢<rt class="furi">じまん</rt><rt class="roma">jiman</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="cn-lyric">[03:46.20]消失之时 这能成为骄傲啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:52.31]<ruby>優<rt class="furi">やさ</rt><rt class="roma">yasa</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>魂<rt class="furi">たましい</rt><rt class="roma">tamashii</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="cn-lyric">[03:52.31]因为温柔的灵魂一直存在</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:56.84]<ruby>せめて<rt class="roma">semete</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>居<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
+<div class="cn-lyric">[03:56.84]至少在我消失之前</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:58.50]<ruby>絶対<rt class="furi">ぜったい</rt><rt class="roma">zettai</rt></ruby><ruby>バイバイ<rt class="roma">baibai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> yeah
 </div>
+<div class="cn-lyric">[03:58.50]绝对不要说再见 yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:02.54]<ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>、<ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby> yeah-yeah-yeah
 </div>
+<div class="cn-lyric">[04:02.54]走吧 向前 yeah-yeah-yeah</div>
 </div>
 
 <br />
@@ -464,6 +483,7 @@ image: /images/songs/harusaruhi/single-1687474398.jpg
 <div class="jp-lyric">
 [04:07.22]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> whoa-whoa
 </div>
+
 <div class="cn-lyric">[04:07.22]什么也不可怕哦 whoa-whoa</div>
 </div>
 
@@ -471,6 +491,7 @@ image: /images/songs/harusaruhi/single-1687474398.jpg
 <div class="jp-lyric">
 [04:15.87]<ruby>ほら<rt class="roma">hora</rt></ruby>、<ruby>一緒<rt class="furi">いっしょ</rt><rt class="roma">issho</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> oh
 </div>
+
 <div class="cn-lyric">[04:15.87]看吧 一起走吧 oh</div>
 </div>
 

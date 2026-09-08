@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 ## Overview
 
-チーム appears on SPICE OF LIFE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+チーム appears on [SPICE OF LIFE](/en/albums/harusaruhi/spice-of-life) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -35,7 +35,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:10.71]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>guide me
 </div>
-<div class="trans-lyric">Guide me this far</div>
+<div class="trans-lyric">
+[00:10.71]Guide me this far
+</div>
 </div>
 
 <div class="lyric-line">
@@ -70,14 +72,18 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:20.76]Everyday <ruby>連絡<rt class="furi">れんらく</rt><rt class="roma">renraku</rt></ruby><ruby>取り合<rt class="furi">とりあ</rt><rt class="roma">toria</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
-<div class="trans-lyric">Everyday we keep in touch</div>
+<div class="trans-lyric">
+[00:20.76]Everyday we keep in touch
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:23.14]<ruby>いい<rt class="roma">ii</rt></ruby><ruby>バランス<rt class="roma">baransu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>取り合<rt class="furi">とりあ</rt><rt class="roma">toria</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
-<div class="trans-lyric">Holding hands with good balance</div>
+<div class="trans-lyric">
+[00:23.14]Holding hands with good balance
+</div>
 </div>
 
 <div class="lyric-line">
@@ -116,7 +122,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:41.44]<ruby>これから<rt class="roma">korekara</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>言い合<rt class="furi">いいあ</rt><rt class="roma">iia</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="trans-lyric">Let's keep saying it from now on too</div>
+<div class="trans-lyric">
+[00:41.44]Let's keep saying it from now on too
+</div>
 </div>
 
 <br />
@@ -132,7 +140,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:49.41]ah yeah
 </div>
-<div class="trans-lyric">ah yeah</div>
+<div class="trans-lyric">
+[00:49.41]ah yeah
+</div>
 </div>
 
 <br />

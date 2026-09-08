@@ -163,12 +163,14 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [01:18.56]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[01:18.56]我对于你 对于你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:21.86]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+<div class="cn-lyric">[01:21.86]只是想要见你</div>
 </div>
 
 <br />
@@ -225,12 +227,14 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [02:07.48]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[02:07.48]我对于你 对于你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:10.63]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+<div class="cn-lyric">[02:10.63]只是想要见你</div>
 </div>
 
 <br />
@@ -255,12 +259,14 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [02:19.31]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">[02:19.31]我对于你的 你的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:22.68]<ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="cn-lyric">[02:22.68]因为想知道真实</div>
 </div>
 
 <br />
@@ -285,12 +291,14 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [02:31.53]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[02:31.53]我对于你 对于你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:34.82]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+<div class="cn-lyric">[02:34.82]只是想要见你</div>
 </div>
 
 <br />
@@ -315,12 +323,14 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [03:10.31]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[03:10.31]我对于你 对于你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:13.43]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+<div class="cn-lyric">[03:13.43]只是想要见你</div>
 </div>
 
 <br />
@@ -329,6 +339,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [03:16.97]<ruby>人生<rt class="furi">じんせい</rt><rt class="roma">jinsei</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>恨<rt class="furi">うら</rt><rt class="roma">ura</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
+
 <div class="cn-lyric">[03:16.97]你憎恨人生吗？</div>
 </div>
 
@@ -336,6 +347,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [03:19.45]<ruby>悲<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>しみ<rt class="roma">shimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>嫌<rt class="furi">きら</rt><rt class="roma">kira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
+
 <div class="cn-lyric">[03:19.45]你讨厌悲伤吗？</div>
 </div>
 
@@ -345,12 +357,14 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [03:22.32]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">[03:22.32]我对于你的 你的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:25.62]<ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="cn-lyric">[03:25.62]因为想知道真实</div>
 </div>
 
 <br />
@@ -359,6 +373,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [03:29.08]<ruby>秘密<rt class="furi">ひみつ</rt><rt class="roma">himitsu</rt></ruby><ruby>なみ<rt class="roma">nami</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ひとり<rt class="roma">hitori</rt></ruby><ruby>雨<rt class="furi">う</rt><rt class="roma">u</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:29.08]秘密眼泪 独自的雨</div>
 </div>
 
@@ -366,6 +381,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [03:31.59]<ruby>目覚<rt class="furi">めざ</rt><rt class="roma">meza</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>襲<rt class="furi">おそ</rt><rt class="roma">oso</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>不安<rt class="furi">ふあん</rt><rt class="roma">fuan</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:31.59]醒来时袭来的不安</div>
 </div>
 
@@ -375,12 +391,14 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [03:34.50]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[03:34.50]我对于你 对于你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:37.83]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+<div class="cn-lyric">[03:37.83]只是想要见你</div>
 </div>
 
 <br />
@@ -389,6 +407,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [03:41.36]<ruby>信<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>嘘<rt class="furi">うそ</rt><rt class="roma">uso</rt></ruby> <ruby>効<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>薬<rt class="furi">くすり</rt><rt class="roma">kusuri</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:41.36]想相信的谎言 无效的药</div>
 </div>
 
@@ -396,6 +415,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [03:44.06]<ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>さよなら<rt class="roma">sayonara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:44.06]无法回头的再见</div>
 </div>
 
@@ -405,6 +425,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [03:46.69]<ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby> <ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby> <ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:46.69]呐喊吧 呐喊吧 呐喊吧</div>
 </div>
 
@@ -412,6 +433,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [03:49.22]<ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:49.22]只是想要见你</div>
 </div>
 

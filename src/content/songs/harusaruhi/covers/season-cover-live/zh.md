@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 
 ## 作品简介
 
-《Season (Cover Live)》收录于《CREAM PUFF LIVE 4 (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《Season (Cover Live)》收录于《[CREAM PUFF LIVE 4](/zh/albums/harusaruhi/cream-puff-live-4) (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -105,12 +105,14 @@ Cause I think that 35 years is long enough to keep it for you here
 <div class="jp-lyric">
 And now oh-oh you know
 </div>
+<div class="cn-lyric">而现在哦哦你知道</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Whoa those years are gone
 </div>
+<div class="cn-lyric">哇，那些年已逝去</div>
 </div>
 
 <div class="lyric-line">
@@ -145,6 +147,7 @@ Didn't I see what was lost or just who was paying your cost?
 <div class="jp-lyric">
 So let's lay this on the line
 </div>
+
 <div class="cn-lyric">所以让我们把话说清楚</div>
 </div>
 
@@ -152,6 +155,7 @@ So let's lay this on the line
 <div class="jp-lyric">
 What you have taken was mine
 </div>
+
 <div class="cn-lyric">你夺走的是我的东西</div>
 </div>
 
@@ -159,12 +163,14 @@ What you have taken was mine
 <div class="jp-lyric">
 You say you weren't thinking, just doing your drinking
 </div>
+<div class="cn-lyric">你说你当时没多想，只是喝酒</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You ripped up the book of my childhood
 </div>
+<div class="cn-lyric">你撕碎了我童年的书</div>
 </div>
 
 </div>

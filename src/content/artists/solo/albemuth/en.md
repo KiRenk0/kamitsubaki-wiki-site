@@ -30,7 +30,7 @@ Albemuth is a two-member virtual singer unit in the SINSEKAI STUDIO branch of [K
 
 ## Members and Creative Roles
 
-[ARU](/en/artists/solo/aru) began activity on June 20, 2021 and graduated on April 9, 2024. Her white, gothic-elegant design and whisper-oriented vocal colour create an intimate, dark listening space. Her representative works include “Sayonara”, “[Mahou](/en/albums/kaf/maho)”, “Zankyo”, “Kaibutsu”, and “Gifted”.
+[ARU](/en/artists/solo/aru) began activity on June 20, 2021 and graduated on April 9, 2024. Her white, gothic-elegant design and whisper-oriented vocal colour create an intimate, dark listening space. Her representative works include “Sayonara”, “Mahou”, “Zankyo”, “Kaibutsu”, and “Gifted”.
 
 ASU began activity on August 28, 2021 and continues as a solo artist. Her clear high register, rock-pop projection, and instinctive rhythmic sense provide the brighter counterpoint. Her representative songs include “Snow Noise”, “Taiyo”, “Kyoka”, “Kaikakai”, and “Monochrome”.
 

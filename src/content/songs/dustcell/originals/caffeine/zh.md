@@ -17,7 +17,7 @@ image: /images/songs/dustcell/caffeine.jpg
 
 ## 作品简介
 
-DUSTCELL于 2023-05-16 发行的单曲《Caffeine》。
+[DUSTCELL](/zh/artists/solo/dustcell)于 2023-05-16 发行的单曲《Caffeine》。
 
 ## 试听
 {{media-switcher::Caffeine}}

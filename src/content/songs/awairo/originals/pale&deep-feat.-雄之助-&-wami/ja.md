@@ -17,7 +17,7 @@ image: /images/songs/awairo/pale&deep-feat.-雄之助-&-wami.jpg
 
 ## 作品概要
 
-Awairoが2023-10-20にリリースしたシングル「Pale&Deep (feat. 雄之助 & WaMi)」。
+[Awairo](/ja/artists/solo/awairo)が2023-10-20にリリースしたシングル「Pale&Deep (feat. 雄之助 & WaMi)」。
 
 ## 視聴
 {{media-switcher::Pale&Deep (feat. 雄之助 & WaMi)}}

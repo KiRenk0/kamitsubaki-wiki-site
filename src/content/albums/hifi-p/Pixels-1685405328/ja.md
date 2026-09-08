@@ -62,7 +62,7 @@ tracks:
 
 ## 概要
 
-HiFi-Pが2023-05-11にリリースしたアルバム『Pixels』。全10曲を収録。
+[HiFi-P](/ja/artists/creators/hifi-p)が2023-05-11にリリースしたアルバム『Pixels』。全10曲を収録。
 
 ## 収録曲
 

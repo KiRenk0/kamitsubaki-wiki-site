@@ -109,6 +109,7 @@ image: /images/songs/harusaruhi/single-1785776179.jpg
 <div class="jp-lyric">
 [00:57.61]<ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby>
 </div>
+<div class="cn-lyric">[00:57.61]是是是</div>
 </div>
 
 <div class="lyric-line">
@@ -122,6 +123,7 @@ image: /images/songs/harusaruhi/single-1785776179.jpg
 <div class="jp-lyric">
 [01:00.85]<ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby>
 </div>
+<div class="cn-lyric">[01:00.85]是是是</div>
 </div>
 
 <div class="lyric-line">
@@ -236,12 +238,14 @@ image: /images/songs/harusaruhi/single-1785776179.jpg
 <div class="jp-lyric">
 [02:00.19]<ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:00.19]是是是</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:01.24]<ruby>お茶<rt class="furi">おちゃ</rt><rt class="roma">ocha</rt></ruby><ruby>だし<rt class="roma">dashi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>上手<rt class="furi">じょうず</rt><rt class="roma">jouzu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:01.24]很会倒茶</div>
 </div>
 
@@ -249,12 +253,14 @@ image: /images/songs/harusaruhi/single-1785776179.jpg
 <div class="jp-lyric">
 [02:03.58]<ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:03.58]是是是</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:04.47]<ruby>控<rt class="furi">ひか</rt><rt class="roma">hika</rt></ruby><ruby>えめ<rt class="roma">eme</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>リップ<rt class="roma">rippu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:04.47]用低调的唇彩</div>
 </div>
 
@@ -262,12 +268,14 @@ image: /images/songs/harusaruhi/single-1785776179.jpg
 <div class="jp-lyric">
 [02:06.55]<ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:06.55]是是是</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:07.74]<ruby>でしゃばり<rt class="roma">deshabari</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>やめ<rt class="roma">yame</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:07.74]别多管闲事</div>
 </div>
 
@@ -275,6 +283,7 @@ image: /images/songs/harusaruhi/single-1785776179.jpg
 <div class="jp-lyric">
 [02:09.66]<ruby>バイバイバイバイバイ<rt class="roma">baibaibaibaibai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:09.66]拜拜拜拜拜</div>
 </div>
 
 <br />
@@ -283,18 +292,21 @@ image: /images/songs/harusaruhi/single-1785776179.jpg
 <div class="jp-lyric">
 [02:12.85]<ruby>ああ<rt class="roma">aa</rt></ruby><ruby>くだらない<rt class="roma">kudaranai</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby> <ruby>まだ<rt class="roma">mada</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>?
 </div>
+<div class="cn-lyric">[02:12.85]啊真无聊 还在说吗？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:17.81]<ruby>スワイプ<rt class="roma">suwaipu</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">[02:17.81]滑屏吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:19.37]<ruby>さあ<rt class="roma">saa</rt></ruby><ruby>息苦<rt class="furi">いきぐる</rt><rt class="roma">ikiguru</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>ぶった斬<rt class="furi">ぶったぎ</rt><rt class="roma">buttagi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">[02:19.37]来吧 将这窒息的世界斩断</div>
 </div>
 
 <br />
@@ -303,6 +315,7 @@ image: /images/songs/harusaruhi/single-1785776179.jpg
 <div class="jp-lyric">
 [02:26.08]Na-Na-Na-
 </div>
+<div class="cn-lyric">[02:26.08]Na-Na-Na-</div>
 </div>
 
 </div>

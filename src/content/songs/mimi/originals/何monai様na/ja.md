@@ -17,7 +17,7 @@ image: /images/songs/mimi/何monai様na.jpg
 
 ## 作品概要
 
-MIMIが2019-11-02にリリースしたシングル「何もない様な」。
+[MIMI](/ja/artists/creators/mimi)が2019-11-02にリリースしたシングル「何もない様な」。
 
 ## 視聴
 {{media-switcher::何もない様な}}

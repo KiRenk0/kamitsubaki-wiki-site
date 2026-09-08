@@ -43,12 +43,14 @@ image: /images/albums/kaf/love-and-flower.jpg
 <div class="jp-lyric">
 [00:05.72]<ruby>ラブラブラブ<rt class="roma">raburaburabu</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby> <ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby>
 </div>
+<div class="cn-lyric">[00:05.72]爱意缠绵 啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:09.21]<ruby>ラブラブラブ<rt class="roma">raburaburabu</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby> <ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby>
 </div>
+<div class="cn-lyric">[00:09.21]爱意缠绵 啊</div>
 </div>
 
 <br />
@@ -108,18 +110,21 @@ image: /images/albums/kaf/love-and-flower.jpg
 <div class="jp-lyric">
 [00:58.76]<ruby>ラブラブラブ<rt class="roma">raburaburabu</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby> <ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby>
 </div>
+<div class="cn-lyric">[00:58.76]爱意缠绵 啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:02.10]<ruby>ラブラブラブ<rt class="roma">raburaburabu</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby> <ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby>
 </div>
+<div class="cn-lyric">[01:02.10]爱意缠绵 啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:05.79]<ruby>ラブラブラブ<rt class="roma">raburaburabu</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby> <ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby>
 </div>
+<div class="cn-lyric">[01:05.79]爱意缠绵 啊</div>
 </div>
 
 <div class="lyric-line">
@@ -175,6 +180,7 @@ image: /images/albums/kaf/love-and-flower.jpg
 <div class="jp-lyric">
 [01:38.04]<ruby>共鳴<rt class="furi">きょうめい</rt><rt class="roma">kyoumei</rt></ruby><ruby>中心<rt class="furi">ちゅうしん</rt><rt class="roma">chuushin</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>線<rt class="furi">せん</rt><rt class="roma">sen</rt></ruby>
 </div>
+<div class="cn-lyric">[01:38.04]共鸣中心世界线</div>
 </div>
 
 <br />
@@ -213,6 +219,7 @@ image: /images/albums/kaf/love-and-flower.jpg
 <div class="jp-lyric">
 [01:56.32]<ruby>ラブラブラブ<rt class="roma">raburaburabu</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby> <ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby>
 </div>
+<div class="cn-lyric">[01:56.32]爱意缠绵 啊</div>
 </div>
 
 <div class="lyric-line">
@@ -228,48 +235,56 @@ image: /images/albums/kaf/love-and-flower.jpg
 <div class="jp-lyric">
 [02:02.84]<ruby>まだ<rt class="roma">mada</rt></ruby><ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>幻<rt class="furi">まぼろし</rt><rt class="roma">maboroshi</rt></ruby>
 </div>
+<div class="cn-lyric">[02:02.84]请不要放开这幻影</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:06.86]<ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>逃避行<rt class="furi">とうひこう</rt><rt class="roma">touhikou</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby>
 </div>
+<div class="cn-lyric">[02:06.86]重复的并非逃亡之旅</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:10.37]<ruby>夜間<rt class="furi">やかん</rt><rt class="roma">yakan</rt></ruby><ruby>飛行<rt class="furi">ひこう</rt><rt class="roma">hikou</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby>
 </div>
+<div class="cn-lyric">[02:10.37]夜间飞行中我们</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:14.09]<ruby>共鳴<rt class="furi">きょうめい</rt><rt class="roma">kyoumei</rt></ruby><ruby>中心<rt class="furi">ちゅうしん</rt><rt class="roma">chuushin</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>線<rt class="furi">せん</rt><rt class="roma">sen</rt></ruby>
 </div>
+<div class="cn-lyric">[02:14.09]共鸣中心世界线</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:17.48]<ruby>眩<rt class="furi">まぶ</rt><rt class="roma">mabu</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>方<rt class="furi">ほう</rt><rt class="roma">hou</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>走<rt class="furi">はし</rt><rt class="roma">hashi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:17.48]跑向耀眼的方向</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:20.93]<ruby>悲<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:20.93]不会说悲伤什么的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:23.82]<ruby>だから<rt class="roma">dakara</rt></ruby><ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>幻<rt class="furi">まぼろし</rt><rt class="roma">maboroshi</rt></ruby>
 </div>
+<div class="cn-lyric">[02:23.82]所以请不要放开这幻影</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:28.18]<ruby>共鳴<rt class="furi">きょうめい</rt><rt class="roma">kyoumei</rt></ruby><ruby>中心<rt class="furi">ちゅうしん</rt><rt class="roma">chuushin</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>線<rt class="furi">せん</rt><rt class="roma">sen</rt></ruby>
 </div>
+<div class="cn-lyric">[02:28.18]共鸣中心世界线</div>
 </div>
 
 <br />
@@ -278,6 +293,7 @@ image: /images/albums/kaf/love-and-flower.jpg
 <div class="jp-lyric">
 [02:45.68]<ruby>ラブ<rt class="roma">rabu</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>幻<rt class="furi">まぼろし</rt><rt class="roma">maboroshi</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:45.68]爱恋今日的幻影</div>
 </div>
 
@@ -285,6 +301,7 @@ image: /images/albums/kaf/love-and-flower.jpg
 <div class="jp-lyric">
 [02:49.20]<ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>嫌<rt class="furi">いや</rt><rt class="roma">iya</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:49.20]因思念而厌烦</div>
 </div>
 
@@ -292,6 +309,7 @@ image: /images/albums/kaf/love-and-flower.jpg
 <div class="jp-lyric">
 [02:52.00]<ruby>あの<rt class="roma">ano</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>、<ruby>夜間<rt class="furi">やかん</rt><rt class="roma">yakan</rt></ruby><ruby>飛行<rt class="furi">ひこう</rt><rt class="roma">hikou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>グレー<rt class="roma">guree</rt></ruby><ruby>ゾーン<rt class="roma">zoun</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:52.00]那个啊，在夜间飞行的灰色地带</div>
 </div>
 
@@ -299,6 +317,7 @@ image: /images/albums/kaf/love-and-flower.jpg
 <div class="jp-lyric">
 [02:56.46]<ruby>共鳴<rt class="furi">きょうめい</rt><rt class="roma">kyoumei</rt></ruby><ruby>中心<rt class="furi">ちゅうしん</rt><rt class="roma">chuushin</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>線<rt class="furi">せん</rt><rt class="roma">sen</rt></ruby>
 </div>
+<div class="cn-lyric">[02:56.46]共鸣中心世界线</div>
 </div>
 
 <br />
@@ -307,6 +326,7 @@ image: /images/albums/kaf/love-and-flower.jpg
 <div class="jp-lyric">
 [02:59.73]<ruby>永遠<rt class="furi">えいえん</rt><rt class="roma">eien</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>走<rt class="furi">はし</rt><rt class="roma">hashi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>べく<rt class="roma">beku</rt></ruby><ruby>祈<rt class="furi">いの</rt><rt class="roma">ino</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:59.73]祈祷永远奔跑</div>
 </div>
 
@@ -314,6 +334,7 @@ image: /images/albums/kaf/love-and-flower.jpg
 <div class="jp-lyric">
 [03:02.66]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby>、<ruby>ありのまま<rt class="roma">arinomama</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いれる<rt class="roma">ireru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:02.66]愿我能保持真实的自己</div>
 </div>
 
@@ -321,6 +342,7 @@ image: /images/albums/kaf/love-and-flower.jpg
 <div class="jp-lyric">
 [03:06.52]<ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>後<rt class="furi">のち</rt><rt class="roma">nochi</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>え<rt class="roma">e</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:06.52]即使在得到之后也要歌唱</div>
 </div>
 
@@ -328,6 +350,7 @@ image: /images/albums/kaf/love-and-flower.jpg
 <div class="jp-lyric">
 [03:09.55]<ruby>休<rt class="furi">やす</rt><rt class="roma">yasu</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>間<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>なきゃ<rt class="roma">nakya</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:09.55]我们不得不不停地回答</div>
 </div>
 
@@ -335,6 +358,7 @@ image: /images/albums/kaf/love-and-flower.jpg
 <div class="jp-lyric">
 [03:13.65]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>影<rt class="furi">かげ</rt><rt class="roma">kage</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>照<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>らし<rt class="roma">rashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:13.65]照亮你的影子</div>
 </div>
 
@@ -342,6 +366,7 @@ image: /images/albums/kaf/love-and-flower.jpg
 <div class="jp-lyric">
 [03:16.78]<ruby>間違<rt class="furi">まちが</rt><rt class="roma">machiga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>共<rt class="furi">とも</rt><rt class="roma">tomo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>あげる<rt class="roma">ageru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:16.78]如果是错误，就一起寻找</div>
 </div>
 
@@ -349,6 +374,7 @@ image: /images/albums/kaf/love-and-flower.jpg
 <div class="jp-lyric">
 [03:20.77]<ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>勇気<rt class="furi">ゆうき</rt><rt class="roma">yuuki</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:20.77]以恋爱般的勇气</div>
 </div>
 
@@ -356,6 +382,7 @@ image: /images/albums/kaf/love-and-flower.jpg
 <div class="jp-lyric">
 [03:23.76]<ruby>幻<rt class="furi">まぼろし</rt><rt class="roma">maboroshi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>約束<rt class="furi">やくそく</rt><rt class="roma">yakusoku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>果<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>たそ<rt class="roma">taso</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:23.76]实现幻影的约定吧</div>
 </div>
 
@@ -365,18 +392,21 @@ image: /images/albums/kaf/love-and-flower.jpg
 <div class="jp-lyric">
 [03:27.87]<ruby>ラブラブラブ<rt class="roma">raburaburabu</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby> <ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby>
 </div>
+<div class="cn-lyric">[03:27.87]爱意缠绵 啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:31.26]<ruby>ラブラブラブ<rt class="roma">raburaburabu</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby> <ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby>
 </div>
+<div class="cn-lyric">[03:31.26]爱意缠绵 啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:34.82]<ruby>ラブラブラブ<rt class="roma">raburaburabu</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby> <ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby>
 </div>
+<div class="cn-lyric">[03:34.82]爱意缠绵 啊</div>
 </div>
 
 </div>

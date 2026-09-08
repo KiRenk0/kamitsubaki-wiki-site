@@ -118,24 +118,28 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [00:51.84]KISS<ruby>の<rt class="roma">no</rt></ruby><ruby>たび<rt class="roma">tabi</rt></ruby><ruby>ギュッと<rt class="roma">gyutto</rt></ruby><ruby>ぐっと<rt class="roma">gutto</rt></ruby>
 </div>
+<div class="cn-lyric">[00:51.84]每次亲吻都紧紧相拥</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:54.94]<ruby>幸<rt class="furi">しあわ</rt><rt class="roma">shiawa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>よって<rt class="roma">yotte</rt></ruby><ruby>たかった<rt class="roma">takatta</rt></ruby>
 </div>
+<div class="cn-lyric">[00:54.94]幸福曾想聚拢而来</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:57.82]<ruby>気付<rt class="furi">きづ</rt><rt class="roma">kizu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>内<rt class="furi">うち</rt><rt class="roma">uchi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+<div class="cn-lyric">[00:57.82]不知不觉中的光芒</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:00.98]<ruby>近<rt class="furi">ちか</rt><rt class="roma">chika</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="cn-lyric">[01:00.98]因靠近而不再分离</div>
 </div>
 
 <div class="lyric-line">
@@ -207,12 +211,14 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [02:02.91]KISS<ruby>の<rt class="roma">no</rt></ruby><ruby>たび<rt class="roma">tabi</rt></ruby><ruby>ギュッと<rt class="roma">gyutto</rt></ruby><ruby>ぐっと<rt class="roma">gutto</rt></ruby>
 </div>
+<div class="cn-lyric">[02:02.91]每次亲吻都紧紧相拥</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:05.54]<ruby>幸<rt class="furi">しあわ</rt><rt class="roma">shiawa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>やる<rt class="roma">yaru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:05.54]我要将幸福紧拥入怀</div>
 </div>
 
@@ -222,6 +228,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [02:09.91]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まり<rt class="roma">mari</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:09.91]即使你又要停下脚步时</div>
 </div>
 
@@ -229,6 +236,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [02:14.02]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>はず<rt class="roma">hazu</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:14.02]因为一定有人在看着</div>
 </div>
 
@@ -236,6 +244,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [02:16.74]<ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:16.74]一点点 一点点</div>
 </div>
 
@@ -243,6 +252,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [02:19.84]<ruby>楽<rt class="furi">らく</rt><rt class="roma">raku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:19.84]变得轻松些了吧</div>
 </div>
 
@@ -252,12 +262,14 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [02:27.84]KISS<ruby>の<rt class="roma">no</rt></ruby><ruby>たび<rt class="roma">tabi</rt></ruby><ruby>ギュッと<rt class="roma">gyutto</rt></ruby><ruby>ぐっと<rt class="roma">gutto</rt></ruby>
 </div>
+<div class="cn-lyric">[02:27.84]每次亲吻都紧紧相拥</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:34.51]<ruby>幸<rt class="furi">しあわ</rt><rt class="roma">shiawa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>よって<rt class="roma">yotte</rt></ruby><ruby>たかった<rt class="roma">takatta</rt></ruby>
 </div>
+<div class="cn-lyric">[02:34.51]幸福曾想聚拢而来</div>
 </div>
 
 </div>

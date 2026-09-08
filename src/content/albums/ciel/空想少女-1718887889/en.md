@@ -38,11 +38,11 @@ tracks:
 
 ## Overview
 
-CIEL's ep “空想少女”, released on 2023-12-13, featuring 4 tracks.
+[CIEL](/en/artists/solo/ciel)'s ep “空想少女”, released on 2023-12-13, featuring 4 tracks.
 
 ## Track List
 
-1. うわのそら (02:40)
+1. [うわのそら](/en/songs/ciel/originals/uwanosora) (02:40)
 2. 空中散歩 (02:42)
 3. 僕たちの群青 (03:21)
 4. 空想少女 (03:29)

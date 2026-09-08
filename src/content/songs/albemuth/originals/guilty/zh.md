@@ -17,7 +17,7 @@ image: /images/songs/albemuth/guilty.jpg
 
 ## 作品简介
 
-Albemuth于 2023-04-26 发行的单曲《guilty》。
+[Albemuth](/zh/artists/solo/albemuth)于 2023-04-26 发行的单曲《guilty》。
 
 ## 试听
 {{media-switcher::guilty}}

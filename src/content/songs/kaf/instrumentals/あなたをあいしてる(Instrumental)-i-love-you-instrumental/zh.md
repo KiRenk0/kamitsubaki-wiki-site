@@ -163,12 +163,14 @@ Face Washing Brush My teeth
 <div class="jp-lyric">
 Ｉwant more more sleep
 </div>
+<div class="cn-lyric">我想要更多更多睡眠</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>あいし<rt class="roma">aishi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby> <ruby>いま<rt class="roma">ima</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby><ruby>あい<rt class="roma">ai</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">我爱你 现在就想见到你</div>
 </div>
 
 <div class="lyric-line">
@@ -224,6 +226,7 @@ Today is End now Go to sleep
 <div class="jp-lyric">
 <ruby>それで<rt class="roma">sorede</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>？
 </div>
+
 <div class="cn-lyric">这样不是很好吗</div>
 </div>
 
@@ -231,24 +234,28 @@ Today is End now Go to sleep
 <div class="jp-lyric">
 <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>あいし<rt class="roma">aishi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby> <ruby>いま<rt class="roma">ima</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby><ruby>あい<rt class="roma">ai</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">我爱你 现在就想见到你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>あいし<rt class="roma">aishi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby> <ruby>いま<rt class="roma">ima</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby><ruby>あい<rt class="roma">ai</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">我爱你 现在就想见到你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>あいし<rt class="roma">aishi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby> <ruby>いま<rt class="roma">ima</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby><ruby>あい<rt class="roma">ai</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">我爱你 现在就想见到你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>作詞<rt class="furi">さくし</rt><rt class="roma">sakushi</rt></ruby> <ruby>作曲<rt class="furi">さっきょく</rt><rt class="roma">sakkyoku</rt></ruby> <ruby>編曲<rt class="furi">へんきょく</rt><rt class="roma">henkyoku</rt></ruby>: <ruby>浅岡<rt class="furi">あさおか</rt><rt class="roma">asaoka</rt></ruby><ruby>雄也<rt class="furi">ゆうや</rt><rt class="roma">yuuya</rt></ruby>
 </div>
+
 <div class="cn-lyric">作词 作曲 编曲: 浅冈雄也</div>
 </div>
 

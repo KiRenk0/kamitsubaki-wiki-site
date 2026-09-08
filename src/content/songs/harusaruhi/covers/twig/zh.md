@@ -180,6 +180,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [01:54.79]A twig in the wind, a twig in the wind, ah hoo
 </div>
+<div class="cn-lyric">[01:54.79]一根风中细枝，一根风中细枝，啊呼</div>
 </div>
 
 <div class="lyric-line">
@@ -209,6 +210,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [02:29.33]A twig in the wind, a twig in the wind, well, alright
 </div>
+
 <div class="cn-lyric">[02:29.33]一根风中树枝，一根风中树枝，好吧，没事</div>
 </div>
 

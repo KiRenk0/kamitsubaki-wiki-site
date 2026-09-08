@@ -142,6 +142,7 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 <div class="jp-lyric">
 [02:22.87]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:22.87]爱啊 爱啊</div>
 </div>
 
 <div class="lyric-line">
@@ -183,6 +184,7 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 <div class="jp-lyric">
 [03:04.09]La la la
 </div>
+<div class="cn-lyric">[03:04.09]La la la</div>
 </div>
 
 <div class="lyric-line">
@@ -259,18 +261,21 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 <div class="jp-lyric">
 [04:24.78]La la la
 </div>
+<div class="cn-lyric">[04:24.78]La la la</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:27.93]La la la
 </div>
+<div class="cn-lyric">[04:27.93]La la la</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:35.24]La
 </div>
+
 <div class="cn-lyric">[04:35.24]La</div>
 </div>
 
@@ -278,6 +283,7 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 <div class="jp-lyric">
 [04:41.48]Huh
 </div>
+
 <div class="cn-lyric">[04:41.48]Huh</div>
 </div>
 

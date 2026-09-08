@@ -138,7 +138,7 @@ tracks:
 
 ## Overview
 
-CIEL's live album “STRAWBERRY LIVE 2”, released on 2023-10-04, featuring 29 tracks.
+[CIEL](/en/artists/solo/ciel)'s live album “STRAWBERRY LIVE 2”, released on 2023-10-04, featuring 29 tracks.
 
 ## Track List
 

@@ -17,7 +17,7 @@ image: /images/songs/dustcell/gimme-that.jpg
 
 ## 作品概要
 
-DUSTCELLが2026-07-14にリリースしたシングル「Gimme That!」。
+[DUSTCELL](/ja/artists/solo/dustcell)が2026-07-14にリリースしたシングル「Gimme That!」。
 
 ## 視聴
 {{media-switcher::Gimme That!}}

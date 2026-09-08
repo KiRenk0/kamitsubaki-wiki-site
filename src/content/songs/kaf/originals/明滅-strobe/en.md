@@ -59,7 +59,9 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 [00:49.06]<ruby>明滅<rt class="furi">めいめつ</rt><rt class="roma">meimetsu</rt></ruby>
 </div>
-<div class="trans-lyric">Flickering</div>
+<div class="trans-lyric">
+[00:49.06]Flickering
+</div>
 </div>
 
 <div class="lyric-line">
@@ -136,12 +138,14 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 [01:50.39]<ruby>なんで<rt class="roma">nande</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>自分勝手<rt class="furi">じぶんがって</rt><rt class="roma">jibungatte</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+<div class="trans-lyric">[01:50.39]Why do we, selfish as we are,</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:55.58]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>振<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>りかざし<rt class="roma">rikazashi</rt></ruby><ruby>傷<rt class="furi">きず</rt><rt class="roma">kizu</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
 </div>
+<div class="trans-lyric">[01:55.58]Brandish love and hurt each other?</div>
 </div>
 
 <div class="lyric-line">
@@ -176,6 +180,7 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 [02:31.51]<ruby>明滅<rt class="furi">めいめつ</rt><rt class="roma">meimetsu</rt></ruby>
 </div>
+<div class="trans-lyric">[02:31.51]Flickering</div>
 </div>
 
 <div class="lyric-line">
@@ -189,43 +194,50 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 [02:40.89]<ruby>どうか<rt class="roma">douka</rt></ruby><ruby>いか<rt class="roma">ika</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
-<div class="trans-lyric">Please don't go</div>
+
+<div class="trans-lyric">[02:40.89]Please don't go</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:45.99]<ruby>なんで<rt class="roma">nande</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>自分勝手<rt class="furi">じぶんがって</rt><rt class="roma">jibungatte</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+<div class="trans-lyric">[02:45.99]Why do we, selfish as we are,</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:50.89]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>振<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>りかざし<rt class="roma">rikazashi</rt></ruby><ruby>傷<rt class="furi">きず</rt><rt class="roma">kizu</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
 </div>
+<div class="trans-lyric">[02:50.89]Brandish love and hurt each other?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:56.39]<ruby>また<rt class="roma">mata</rt></ruby><ruby>一<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby> <ruby>また<rt class="roma">mata</rt></ruby><ruby>一<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby> <ruby>灯<rt class="furi">あかり</rt><rt class="roma">akari</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="trans-lyric">[02:56.39]One by one, the lights go out</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:01.11]<ruby>なんて<rt class="roma">nante</rt></ruby><ruby>愛<rt class="furi">いと</rt><rt class="roma">ito</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>愚<rt class="furi">おろ</rt><rt class="roma">oro</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="trans-lyric">[03:01.11]How precious and foolish</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:06.89]<ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[03:06.89]Let me hear your voiceless voice</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:13.51]<ruby>此処<rt class="furi">ここ</rt><rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:13.51]Because I am here</div>
 </div>
 
@@ -233,6 +245,7 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 [03:16.29]<ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby>、<ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>響<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:16.29]Ah, voiceless voice, resonate</div>
 </div>
 

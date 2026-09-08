@@ -17,7 +17,7 @@ image: /images/songs/dustcell/antihero.jpg
 
 ## 作品简介
 
-DUSTCELL于 2023-01-26 发行的单曲《ANTIHERO》。
+[DUSTCELL](/zh/artists/solo/dustcell)于 2023-01-26 发行的单曲《ANTIHERO》。
 
 ## 试听
 {{media-switcher::ANTIHERO}}

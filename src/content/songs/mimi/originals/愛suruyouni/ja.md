@@ -17,7 +17,7 @@ image: /images/songs/mimi/愛suruyouni.jpg
 
 ## 作品概要
 
-MIMIが2023-01-24にリリースしたシングル「愛するように」。
+[MIMI](/ja/artists/creators/mimi)が2023-01-24にリリースしたシングル「愛するように」。
 
 ## 視聴
 {{media-switcher::愛するように}}

@@ -17,7 +17,7 @@ image: /images/songs/dustcell/nighthawk-feat.-tanaka.jpg
 
 ## 作品概要
 
-DUSTCELLが2024-06-25にリリースしたシングル「Nighthawk (feat. たなか)」。
+[DUSTCELL](/ja/artists/solo/dustcell)が2024-06-25にリリースしたシングル「Nighthawk (feat. たなか)」。
 
 ## 視聴
 {{media-switcher::Nighthawk (feat. たなか)}}

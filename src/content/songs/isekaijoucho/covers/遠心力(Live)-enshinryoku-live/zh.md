@@ -178,24 +178,28 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [01:20.92]<ruby>感動<rt class="furi">かんどう</rt><rt class="roma">kandou</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>対<rt class="furi">たい</rt><rt class="roma">tai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
+<div class="cn-lyric">[01:20.92]感动成对而来</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:23.82]<ruby>遠心<rt class="furi">えんしん</rt><rt class="roma">enshin</rt></ruby><ruby>力<rt class="furi">りょく</rt><rt class="roma">ryoku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>動<rt class="furi">うご</rt><rt class="roma">ugo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> <ruby>ふしぎ<rt class="roma">fushigi</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">[01:23.82]因离心力而动 真奇妙呢</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:26.80]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>相反<rt class="furi">そうはん</rt><rt class="roma">souhan</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>感覚<rt class="furi">かんかく</rt><rt class="roma">kankaku</rt></ruby>
 </div>
+<div class="cn-lyric">[01:26.80]与爱相反的感觉</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:29.89]<ruby>ひとりでに<rt class="roma">hitorideni</rt></ruby><ruby>完成<rt class="furi">かんせい</rt><rt class="roma">kansei</rt></ruby><ruby>系<rt class="furi">けい</rt><rt class="roma">kei</rt></ruby>
 </div>
+<div class="cn-lyric">[01:29.89]自然而然的完成体</div>
 </div>
 
 <div class="lyric-line">
@@ -218,6 +222,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [01:37.44]<ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>それぞれ<rt class="roma">sorezore</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>きる<rt class="roma">kiru</rt></ruby> <ruby>ふしぎ<rt class="roma">fushigi</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:37.44]人各有所活 真奇妙呢</div>
 </div>
 
@@ -225,6 +230,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [01:40.41]<ruby>困難<rt class="furi">こんなん</rt><rt class="roma">konnan</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>不安<rt class="furi">ふあん</rt><rt class="roma">fuan</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:40.41]如果既无困难也无不安</div>
 </div>
 
@@ -232,6 +238,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [01:43.48]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>幸<rt class="furi">しあわ</rt><rt class="roma">shiawa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:43.48]仅此就是幸福</div>
 </div>
 
@@ -239,6 +246,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 <div class="jp-lyric">
 [01:46.22]<ruby>そして<rt class="roma">soshite</rt></ruby><ruby>感動<rt class="furi">かんどう</rt><rt class="roma">kandou</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:46.22]然后令人感动呢</div>
 </div>
 

@@ -143,12 +143,14 @@ image: /images/songs/kaf/track-1882181555.jpg
 <div class="jp-lyric">
 <ruby>また<rt class="roma">mata</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">还想见你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ねえ<rt class="roma">nee</rt></ruby><ruby>だから<rt class="roma">dakara</rt></ruby><ruby>彼方<rt class="furi">かなた</rt><rt class="roma">kanata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">呐 所以我要向远方为你歌唱</div>
 </div>
 
 <div class="lyric-line">
@@ -162,12 +164,14 @@ image: /images/songs/kaf/track-1882181555.jpg
 <div class="jp-lyric">
 <ruby>ねえ<rt class="roma">nee</rt></ruby><ruby>教<rt class="furi">おし</rt><rt class="roma">oshi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>どうして<rt class="roma">doushite</rt></ruby> <ruby>どうして<rt class="roma">doushite</rt></ruby>
 </div>
+<div class="cn-lyric">呐 告诉我 为什么 为什么</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>どうして<rt class="roma">doushite</rt></ruby>
 </div>
+<div class="cn-lyric">为什么</div>
 </div>
 
 <div class="lyric-line">
@@ -181,6 +185,7 @@ image: /images/songs/kaf/track-1882181555.jpg
 <div class="jp-lyric">
 <ruby>どうして<rt class="roma">doushite</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">为什么会这样</div>
 </div>
 
 <div class="lyric-line">
@@ -201,6 +206,7 @@ image: /images/songs/kaf/track-1882181555.jpg
 <div class="jp-lyric">
 [02:06.63]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>響<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>かせる<rt class="roma">kaseru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:06.63]只能让声音远远回响</div>
 </div>
 
@@ -208,6 +214,7 @@ image: /images/songs/kaf/track-1882181555.jpg
 <div class="jp-lyric">
 [02:11.69]<ruby>こうして<rt class="roma">koushite</rt></ruby> <ruby>こうして<rt class="roma">koushite</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:11.69]就这样 就这样</div>
 </div>
 
@@ -215,6 +222,7 @@ image: /images/songs/kaf/track-1882181555.jpg
 <div class="jp-lyric">
 [02:14.58]<ruby>わから<rt class="roma">wakara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:14.58]一直不明所以</div>
 </div>
 
@@ -222,24 +230,28 @@ image: /images/songs/kaf/track-1882181555.jpg
 <div class="jp-lyric">
 <ruby>ぼく<rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+<div class="cn-lyric">我坏掉了 是坏掉了吗</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>また<rt class="roma">mata</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">还想见你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ねえ<rt class="roma">nee</rt></ruby><ruby>だから<rt class="roma">dakara</rt></ruby><ruby>彼方<rt class="furi">かなた</rt><rt class="roma">kanata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">呐 所以我要向远方为你歌唱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:32.20]<ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>いら<rt class="roma">ira</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>星<rt class="furi">ほし</rt><rt class="roma">hoshi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>出会<rt class="furi">であ</rt><rt class="roma">dea</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:32.20]若是在某颗无谓的陌生星球上相遇</div>
 </div>
 
@@ -247,6 +259,7 @@ image: /images/songs/kaf/track-1882181555.jpg
 <div class="jp-lyric">
 [02:37.18]<ruby>ねえ<rt class="roma">nee</rt></ruby><ruby>そのまま<rt class="roma">sonomama</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:37.18]呐 你似乎就要这样消失在某处</div>
 </div>
 
@@ -254,24 +267,28 @@ image: /images/songs/kaf/track-1882181555.jpg
 <div class="jp-lyric">
 <ruby>ねえ<rt class="roma">nee</rt></ruby><ruby>教<rt class="furi">おし</rt><rt class="roma">oshi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>どうして<rt class="roma">doushite</rt></ruby> <ruby>どうして<rt class="roma">doushite</rt></ruby>
 </div>
+<div class="cn-lyric">呐 告诉我 为什么 为什么</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>どうして<rt class="roma">doushite</rt></ruby>
 </div>
+<div class="cn-lyric">为什么</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>どうして<rt class="roma">doushite</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">为什么会这样</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>どうして<rt class="roma">doushite</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">为什么会这样</div>
 </div>
 
 </div>

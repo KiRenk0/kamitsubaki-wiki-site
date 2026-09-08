@@ -17,7 +17,7 @@ image: /images/songs/dustcell/caffeine.jpg
 
 ## 作品概要
 
-DUSTCELLが2023-05-16にリリースしたシングル「Caffeine」。
+[DUSTCELL](/ja/artists/solo/dustcell)が2023-05-16にリリースしたシングル「Caffeine」。
 
 ## 視聴
 {{media-switcher::Caffeine}}

@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 ## Overview
 
-アソビタイ appears on SPICE OF LIFE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+アソビタイ appears on [SPICE OF LIFE](/en/albums/harusaruhi/spice-of-life) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -49,7 +49,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:04.60]<ruby>連れ出<rt class="furi">つれだ</rt><rt class="roma">tsureda</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>LINE
 </div>
-<div class="trans-lyric">Take me out, my LINE doesn't ring</div>
+<div class="trans-lyric">
+[00:04.60]Take me out, my LINE doesn't ring
+</div>
 </div>
 
 <div class="lyric-line">
@@ -63,7 +65,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:09.24]<ruby>かわいい<rt class="roma">kawaii</rt></ruby><ruby>リップ<rt class="roma">rippu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
-<div class="trans-lyric">With a cute lipstick</div>
+<div class="trans-lyric">
+[00:09.24]With a cute lipstick
+</div>
 </div>
 
 <div class="lyric-line">
@@ -77,7 +81,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:11.87]<ruby>スキップスキップ<rt class="roma">sukippusukippu</rt></ruby>
 </div>
-<div class="trans-lyric">Skip skip</div>
+<div class="trans-lyric">
+[00:11.87]Skip skip
+</div>
 </div>
 
 <div class="lyric-line">
@@ -98,7 +104,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:17.50]<ruby>あー<rt class="roma">aa</rt></ruby><ruby>あー<rt class="roma">aa</rt></ruby>
 </div>
-<div class="trans-lyric">Ahh ahh</div>
+<div class="trans-lyric">
+[00:17.50]Ahh ahh
+</div>
 </div>
 
 <div class="lyric-line">
@@ -119,7 +127,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:21.91]<ruby>なんか<rt class="roma">nanka</rt></ruby>
 </div>
-<div class="trans-lyric">Something</div>
+<div class="trans-lyric">
+[00:21.91]Something
+</div>
 </div>
 
 <div class="lyric-line">

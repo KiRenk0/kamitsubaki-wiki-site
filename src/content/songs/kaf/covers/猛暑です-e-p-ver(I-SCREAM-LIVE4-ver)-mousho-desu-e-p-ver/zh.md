@@ -246,12 +246,14 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 [03:53.54]30<ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>超<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>猛暑<rt class="furi">もうしょ</rt><rt class="roma">mousho</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby> <ruby>猛暑<rt class="furi">もうしょ</rt><rt class="roma">mousho</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
 </div>
+<div class="cn-lyric">[03:53.54]超过30度就是酷暑了 酷暑了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:01.41]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby> <ruby>猛暑<rt class="furi">もうしょ</rt><rt class="roma">mousho</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby> <ruby>猛暑<rt class="furi">もうしょ</rt><rt class="roma">mousho</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:01.41]见不到你 一直酷暑 酷暑</div>
 </div>
 
@@ -259,6 +261,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 [04:09.39]<ruby>ハッピーエンド<rt class="roma">happiiendo</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ドラマ<rt class="roma">dorama</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby> <ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+<div class="cn-lyric">[04:09.39]Happy ending只在电视剧里 只在里面</div>
 </div>
 
 </div>

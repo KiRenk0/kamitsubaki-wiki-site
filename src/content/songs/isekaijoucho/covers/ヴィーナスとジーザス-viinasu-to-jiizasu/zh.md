@@ -142,12 +142,14 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [02:19.43]<ruby>ヴィーナス<rt class="roma">vyiinasu</rt></ruby><ruby>お隣<rt class="furi">おとなり</rt><rt class="roma">otonari</rt></ruby><ruby>さん<rt class="roma">san</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>どうして<rt class="roma">doushite</rt></ruby>? <ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>間<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[02:19.43]维纳斯是邻座呢 为什么？不知不觉间</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:25.85]<ruby>ジーザス<rt class="roma">jiizasu</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>向<rt class="furi">む</rt><rt class="roma">mu</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby><ruby>さん<rt class="roma">san</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>やばい<rt class="roma">yabai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">[02:25.85]耶稣在对面呢 听我说 糟了</div>
 </div>
 
 <div class="lyric-line">
@@ -161,6 +163,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [02:37.88]<ruby>ジーザス<rt class="roma">jiizasu</rt></ruby><ruby>引き返<rt class="furi">ひきかえ</rt><rt class="roma">hikikae</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>早<rt class="furi">はや</rt><rt class="roma">haya</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>気付<rt class="furi">きづ</rt><rt class="roma">kizu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:37.88]耶稣 无法回头了 快察觉</div>
 </div>
 
@@ -168,24 +171,28 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [02:44.33]<ruby>大胆<rt class="furi">だいたん</rt><rt class="roma">daitan</rt></ruby><ruby>あいつ<rt class="roma">aitsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>攻撃<rt class="furi">こうげき</rt><rt class="roma">kougeki</rt></ruby> <ruby>バイバイ<rt class="roma">baibai</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>振<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>
 </div>
+<div class="cn-lyric">[02:44.33]那家伙大胆的攻击 拜拜 假装没发现</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:47.22]<ruby>大胆<rt class="furi">だいたん</rt><rt class="roma">daitan</rt></ruby><ruby>あいつ<rt class="roma">aitsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>衝撃<rt class="furi">しょうげき</rt><rt class="roma">shougeki</rt></ruby> <ruby>まさに<rt class="roma">masani</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>地獄<rt class="furi">じごく</rt><rt class="roma">jigoku</rt></ruby>
 </div>
+<div class="cn-lyric">[02:47.22]那家伙大胆的冲击 简直是活地狱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:50.94]<ruby>目覚<rt class="furi">めざ</rt><rt class="roma">meza</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>キッス<rt class="roma">kissu</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まどろむ<rt class="roma">madoromu</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>あやかし<rt class="roma">ayakashi</rt></ruby><ruby>リップ<rt class="roma">rippu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>お姫様<rt class="furi">おひめさま</rt><rt class="roma">ohimesama</rt></ruby>
 </div>
+<div class="cn-lyric">[02:50.94]醒来的吻给朦胧的你 妖艳唇妆的公主殿下</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:56.80]<ruby>出会<rt class="furi">であ</rt><rt class="roma">dea</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>切符<rt class="furi">きっぷ</rt><rt class="roma">kippu</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>夢見<rt class="furi">ゆめみ</rt><rt class="roma">yumemi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>夜明<rt class="furi">よあ</rt><rt class="roma">yoa</rt></ruby><ruby>かし<rt class="roma">kashi</rt></ruby><ruby>今夜<rt class="furi">こんや</rt><rt class="roma">kon'ya</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>フライデー<rt class="roma">furaidee</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ナイト<rt class="roma">naito</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:56.80]相遇的票券给做梦的你 彻夜今夜是周五之夜</div>
 </div>
 

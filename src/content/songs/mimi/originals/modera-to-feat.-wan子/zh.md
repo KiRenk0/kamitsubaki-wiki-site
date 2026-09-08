@@ -17,7 +17,7 @@ image: /images/songs/mimi/modera-to-feat.-wan子.jpg
 
 ## 作品简介
 
-MIMI于 2021-08-13 发行的单曲《もでらーと (feat. わん子)》。
+[MIMI](/zh/artists/creators/mimi)于 2021-08-13 发行的单曲《もでらーと (feat. わん子)》。
 
 ## 试听
 {{media-switcher::もでらーと (feat. わん子)}}

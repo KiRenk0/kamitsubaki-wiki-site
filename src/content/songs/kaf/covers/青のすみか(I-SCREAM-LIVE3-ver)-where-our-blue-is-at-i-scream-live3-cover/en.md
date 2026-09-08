@@ -193,6 +193,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 (La-la-la-la, la-la-la-la)
 </div>
+<div class="trans-lyric">(La-la-la-la, la-la-la-la)</div>
 </div>
 
 <div class="lyric-line">
@@ -213,6 +214,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 (La-la-la-la, la-la-la-la)
 </div>
+<div class="trans-lyric">(La-la-la-la, la-la-la-la)</div>
 </div>
 
 <div class="lyric-line">
@@ -226,7 +228,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [02:34.44]<ruby>さよなら<rt class="roma">sayonara</rt></ruby>
 </div>
-<div class="trans-lyric">Goodbye</div>
+<div class="trans-lyric">[02:34.44]Goodbye</div>
 </div>
 
 <br />
@@ -235,24 +237,28 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [02:37.73]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>青<rt class="furi">あお</rt><rt class="roma">ao</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>棲<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
+<div class="trans-lyric">[02:37.73]Even now, the blue dwells</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:40.81]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>青<rt class="furi">あお</rt><rt class="roma">ao</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>澄<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
+<div class="trans-lyric">[02:40.81]Even now, the blue is clear</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:43.96]<ruby>どんな<rt class="roma">donna</rt></ruby><ruby>祈<rt class="furi">いの</rt><rt class="roma">ino</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="trans-lyric">[02:43.96]Any prayer, any word</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:47.10]<ruby>近<rt class="furi">ちか</rt><rt class="roma">chika</rt></ruby><ruby>づける<rt class="roma">zukeru</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby> <ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby>
 </div>
+<div class="trans-lyric">[02:47.10]Though I could draw near, they never reached</div>
 </div>
 
 <br />
@@ -261,24 +267,28 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [02:50.40]<ruby>まるで<rt class="roma">marude</rt></ruby> <ruby>静<rt class="furi">しず</rt><rt class="roma">shizu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+<div class="trans-lyric">[02:50.40]Like a quiet love</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:53.34]<ruby>頬<rt class="furi">ほお</rt><rt class="roma">hoo</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>伝<rt class="furi">つた</rt><rt class="roma">tsuta</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>なか<rt class="roma">naka</rt></ruby>
 </div>
+<div class="trans-lyric">[02:53.34]In a color like summer tracing down my cheek</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:57.37]<ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>呪<rt class="furi">のろ</rt><rt class="roma">noro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>喉<rt class="furi">のど</rt><rt class="roma">nodo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>奥<rt class="furi">おく</rt><rt class="roma">oku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>つかえ<rt class="roma">tsukae</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
+<div class="trans-lyric">[02:57.37]Cursing words for you are stuck deep in my throat</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:02.82]「<ruby>また<rt class="roma">mata</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>」<ruby>って<rt class="roma">tte</rt></ruby> <ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby>
 </div>
+<div class="trans-lyric">[03:02.82]"We'll meet again, right?" a voice that never becomes sound</div>
 </div>
 
 <br />
@@ -287,6 +297,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:28.78]<ruby>無限<rt class="furi">むげん</rt><rt class="roma">mugen</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>膨張<rt class="furi">ぼうちょう</rt><rt class="roma">bouchou</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>銀河<rt class="furi">ぎんが</rt><rt class="roma">ginga</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>星<rt class="furi">ほし</rt><rt class="roma">hoshi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>粒<rt class="furi">つぶ</rt><rt class="roma">tsubu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:28.78]Like grains of stars in an infinitely expanding galaxy</div>
 </div>
 
@@ -294,6 +305,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:33.19]<ruby>指<rt class="furi">ゆび</rt><rt class="roma">yubi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>隙間<rt class="furi">すきま</rt><rt class="roma">sukima</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>零<rt class="furi">こぼ</rt><rt class="roma">kobo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:33.19]Spilled through the gaps between my fingers</div>
 </div>
 

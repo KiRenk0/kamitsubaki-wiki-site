@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/wraith.jpg
 
 ## 作品概要
 
-tokiwaが2022-09-23にリリースしたシングル「Wraith」。
+[tokiwa](/ja/artists/creators/tokiwa)が2022-09-23にリリースしたシングル「Wraith」。
 
 ## 視聴
 {{media-switcher::Wraith}}

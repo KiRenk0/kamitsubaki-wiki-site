@@ -17,7 +17,7 @@ image: /images/songs/anmc/mata旅hanekomimito-feat.-muto,-m.jpg
 
 ## 作品概要
 
-ANMCが2025-04-30にリリースしたシングル「また旅はネコミミと feat. むト, m」。
+[ANMC](/ja/artists/solo/anmc)が2025-04-30にリリースしたシングル「また旅はネコミミと feat. むト, m」。
 
 ## 視聴
 {{media-switcher::また旅はネコミミと feat. むト, m}}

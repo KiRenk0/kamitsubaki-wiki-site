@@ -118,6 +118,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:57.53]You know, I sing because of you
 </div>
+<div class="cn-lyric">[00:57.53]你知道，我因你而歌唱</div>
 </div>
 
 <div class="lyric-line">
@@ -140,6 +141,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [01:12.37]sing because of you
 </div>
+
 <div class="cn-lyric">[01:12.37]因你而歌唱</div>
 </div>
 

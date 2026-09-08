@@ -146,6 +146,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 stay with me <ruby>真夜中<rt class="furi">まよなか</rt><rt class="roma">mayonaka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ドア<rt class="roma">doa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>たたき<rt class="roma">tataki</rt></ruby>
 </div>
+<div class="cn-lyric">stay with me 敲响深夜的门</div>
 </div>
 
 <div class="lyric-line">
@@ -175,24 +176,28 @@ stay with me <ruby>真夜中<rt class="furi">まよなか</rt><rt class="roma">m
 <div class="jp-lyric">
 stay with me <ruby>真夜中<rt class="furi">まよなか</rt><rt class="roma">mayonaka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ドア<rt class="roma">doa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>たたき<rt class="roma">tataki</rt></ruby>
 </div>
+<div class="cn-lyric">stay with me 敲响深夜的门</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>あの<rt class="roma">ano</rt></ruby><ruby>季節<rt class="furi">きせつ</rt><rt class="roma">kisetsu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby> <ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby>
 </div>
+<div class="cn-lyric">哭着说不要回去的那个季节 如今就在眼前</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 stay with me <ruby>口<rt class="furi">くち</rt><rt class="roma">kuchi</rt></ruby><ruby>ぐせ<rt class="roma">guse</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ながら<rt class="roma">nagara</rt></ruby>
 </div>
+<div class="cn-lyric">stay with me 一边说着口头禅</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:53.49]<ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>瞬間<rt class="furi">しゅんかん</rt><rt class="roma">shunkan</rt></ruby>(<ruby>とき<rt class="roma">toki</rt></ruby>)<ruby>を<rt class="roma">wo</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby> <ruby>暖<rt class="furi">あたた</rt><rt class="roma">atata</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:53.49]抱着两人的瞬间 依然不曾忘记 温暖着</div>
 </div>
 
@@ -202,6 +207,7 @@ stay with me <ruby>口<rt class="furi">くち</rt><rt class="roma">kuchi</rt></r
 <div class="jp-lyric">
 [03:57.80]stay with me
 </div>
+
 <div class="cn-lyric">[03:57.80]stay with me</div>
 </div>
 

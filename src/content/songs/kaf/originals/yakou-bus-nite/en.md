@@ -19,7 +19,7 @@ image: /images/albums/kaf/kansoku.jpg
 
 ## Overview
 
-KAF's tenth original song, written, composed, and arranged by Iori Kanzaki.
+[KAF](/en/artists/vwp/kaf)'s tenth original song, written, composed, and arranged by Iori Kanzaki.
 
 ## Listen
 
@@ -213,7 +213,9 @@ KAF's tenth original song, written, composed, and arranged by Iori Kanzaki.
 <div class="jp-lyric">
 [02:40.40]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
-<div class="trans-lyric">Can no longer be seen from here</div>
+<div class="trans-lyric">
+[02:40.40]Can no longer be seen from here
+</div>
 </div>
 
 <br />
@@ -222,7 +224,9 @@ KAF's tenth original song, written, composed, and arranged by Iori Kanzaki.
 <div class="jp-lyric">
 [02:47.09]<ruby>ハエ<rt class="roma">hae</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>まとわりつい<rt class="roma">matowaritsui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="trans-lyric">Flies swarm around</div>
+<div class="trans-lyric">
+[02:47.09]Flies swarm around
+</div>
 </div>
 
 <div class="lyric-line">
@@ -266,18 +270,21 @@ KAF's tenth original song, written, composed, and arranged by Iori Kanzaki.
 <div class="jp-lyric">
 [03:03.64]<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>街<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="trans-lyric">[03:03.64]I was in that kind of town</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:08.51]<ruby>この<rt class="roma">kono</rt></ruby><ruby>街<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="trans-lyric">[03:08.51]I lived in this town</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:14.20]<ruby>この<rt class="roma">kono</rt></ruby><ruby>街<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:14.20]I was in this town</div>
 </div>
 

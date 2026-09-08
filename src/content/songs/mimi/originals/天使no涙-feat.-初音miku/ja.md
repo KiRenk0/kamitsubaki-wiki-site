@@ -17,7 +17,7 @@ image: /images/songs/mimi/天使no涙-feat.-初音miku.jpg
 
 ## 作品概要
 
-MIMIが2025-03-01にリリースしたシングル「天使の涙 (feat. 初音ミク)」。
+[MIMI](/ja/artists/creators/mimi)が2025-03-01にリリースしたシングル「天使の涙 (feat. 初音ミク)」。
 
 ## 視聴
 {{media-switcher::天使の涙 (feat. 初音ミク)}}

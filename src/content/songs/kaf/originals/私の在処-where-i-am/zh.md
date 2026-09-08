@@ -322,6 +322,7 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 [04:01.58]<ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>殺<rt class="furi">ころ</rt><rt class="roma">koro</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[04:01.58]把全部感情杀掉啊</div>
 </div>
 
 <div class="lyric-line">
@@ -377,18 +378,21 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 [04:45.74]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="cn-lyric">[04:45.74]不是我 正因为是我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:51.39]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="cn-lyric">[04:51.39]不是我 正因为是我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:59.76]<ruby>窓<rt class="furi">まど</rt><rt class="roma">mado</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>映<rt class="furi">うつ</rt><rt class="roma">utsu</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>顔<rt class="furi">かお</rt><rt class="roma">kao</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ちゃんと<rt class="roma">chanto</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:59.76]映在窗上的自己的脸好好地在笑</div>
 </div>
 
@@ -396,6 +400,7 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 [05:03.96]「<ruby>そっか<rt class="roma">sokka</rt></ruby>、<ruby>そっち<rt class="roma">sotchi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>」
 </div>
+
 <div class="cn-lyric">[05:03.96]「是吗，你去了那边啊」</div>
 </div>
 
@@ -403,6 +408,7 @@ image: /images/albums/kaf/shinai.jpg
 <div class="jp-lyric">
 [05:07.01]<ruby>この<rt class="roma">kono</rt></ruby><ruby>物語<rt class="furi">ものがたり</rt><rt class="roma">monogatari</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>これ<rt class="roma">kore</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>終<rt class="furi">おわり</rt><rt class="roma">owari</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
+
 <div class="cn-lyric">[05:07.01]这个故事到此结束</div>
 </div>
 

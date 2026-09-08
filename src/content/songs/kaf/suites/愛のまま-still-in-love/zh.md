@@ -176,6 +176,7 @@ image: /images/songs/kaf/track-1721090584.jpg
 <div class="jp-lyric">
 I’m missing you
 </div>
+<div class="cn-lyric">我想念你</div>
 </div>
 
 <div class="lyric-line">
@@ -203,12 +204,14 @@ I’m missing you
 <div class="jp-lyric">
 Baby I love you
 </div>
+<div class="cn-lyric">宝贝我爱你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:03.59]<ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:03.59]无论重复多少次</div>
 </div>
 
@@ -216,6 +219,7 @@ Baby I love you
 <div class="jp-lyric">
 [03:09.50]<ruby>さよなら<rt class="roma">sayonara</rt></ruby> <ruby>これ<rt class="roma">kore</rt></ruby><ruby>っぽ<rt class="roma">ppo</rt></ruby><ruby>っち<rt class="roma">tchi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>慣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:09.50]再见 我一点也不习惯</div>
 </div>
 

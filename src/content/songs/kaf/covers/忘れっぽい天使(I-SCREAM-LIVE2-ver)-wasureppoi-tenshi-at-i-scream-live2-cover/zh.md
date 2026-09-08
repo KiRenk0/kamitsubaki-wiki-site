@@ -137,6 +137,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [01:51.23]<ruby>それなら<rt class="roma">sorenara</rt></ruby> <ruby>それなら<rt class="roma">sorenara</rt></ruby><ruby>どうして<rt class="roma">doushite</rt></ruby>
 </div>
+<div class="cn-lyric">[01:51.23]既然如此 既然如此為什麼</div>
 </div>
 
 <div class="lyric-line">
@@ -212,24 +213,28 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 [03:01.98]Shooting a shower, scary invisible shadow
 </div>
+<div class="cn-lyric">[03:01.98]Shooting a shower, scary invisible shadow</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:10.45]<ruby>天使<rt class="furi">てんし</rt><rt class="roma">tenshi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>寂<rt class="furi">さび</rt><rt class="roma">sabi</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">[03:10.45]天使看起來好寂寞呢</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:14.65]Smile over kind in my story
 </div>
+<div class="cn-lyric">[03:14.65]Smile over kind in my story</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:20.97]<ruby>上手<rt class="furi">うま</rt><rt class="roma">uma</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>慰<rt class="furi">なぐさ</rt><rt class="roma">nagusa</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:20.97]要是能好好安慰你就好了</div>
 </div>
 

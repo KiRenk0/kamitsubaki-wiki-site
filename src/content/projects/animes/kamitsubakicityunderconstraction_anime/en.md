@@ -45,7 +45,7 @@ order: 1
 
 ## Staff
 
-- **Original Work and Project Production**: KAMITSUBAKI STUDIO, PIEDPIPER
+- **Original Work and Project Production**: KAMITSUBAKI STUDIO, [PIEDPIPER](/en/artists/creators/piedpiper)
 - **World Setting, Supervision, and Original Scenario**: Sōki Tsukishima
 - **Original Planning**: Kenjirō Hariya (THINKR), Hiroyuki Akiyama (THINKR)
 - **Director, Series Composition, and Sound Director**: Kōdai Kakimoto

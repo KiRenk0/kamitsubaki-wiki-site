@@ -50,7 +50,9 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 [00:23.64]「<ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>」「<ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、<ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>」
 </div>
-<div class="trans-lyric">「I want to see you.」「Me too, I want to see you.」</div>
+<div class="trans-lyric">
+[00:23.64]「I want to see you.」「Me too, I want to see you.」
+</div>
 </div>
 
 <div class="lyric-line">
@@ -64,7 +66,9 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 [00:39.93]<ruby>エレベーター<rt class="roma">erebeetaa</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>こっそり<rt class="roma">kossori</rt></ruby><ruby>キス<rt class="roma">kisu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>
 </div>
-<div class="trans-lyric">Sneaking a kiss in the elevator.</div>
+<div class="trans-lyric">
+[00:39.93]Sneaking a kiss in the elevator.
+</div>
 </div>
 
 <div class="lyric-line">
@@ -85,7 +89,9 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 [00:51.17]<ruby>しゃべり<rt class="roma">shaberi</rt></ruby><ruby>たり<rt class="roma">tari</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>ランラン<rt class="roma">ranran</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
-<div class="trans-lyric">Not enough talking, we were bright in love.</div>
+<div class="trans-lyric">
+[00:51.17]Not enough talking, we were bright in love.
+</div>
 </div>
 
 <div class="lyric-line">
@@ -232,7 +238,9 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 [03:38.69]<ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>なん<rt class="roma">nan</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>とりあえず<rt class="roma">toriaezu</rt></ruby><ruby>話<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="trans-lyric">If I can meet you, anything's fine. For now, I want to talk.</div>
+<div class="trans-lyric">
+[03:38.69]If I can meet you, anything's fine. For now, I want to talk.
+</div>
 </div>
 
 <div class="lyric-line">
@@ -246,12 +254,14 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 [03:53.54]30<ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>超<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>猛暑<rt class="furi">もうしょ</rt><rt class="roma">mousho</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby> <ruby>猛暑<rt class="furi">もうしょ</rt><rt class="roma">mousho</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
 </div>
+<div class="trans-lyric">[03:53.54]If it exceeds 30 degrees, it's already extreme heat, extreme heat.</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:01.41]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby> <ruby>猛暑<rt class="furi">もうしょ</rt><rt class="roma">mousho</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby> <ruby>猛暑<rt class="furi">もうしょ</rt><rt class="roma">mousho</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
 </div>
+
 <div class="trans-lyric">[04:01.41]Without being able to meet you, it's extreme heat, extreme heat.</div>
 </div>
 
@@ -259,6 +269,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 [04:09.39]<ruby>ハッピーエンド<rt class="roma">happiiendo</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ドラマ<rt class="roma">dorama</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby> <ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+<div class="trans-lyric">[04:09.39]Happy endings are only in dramas, only in.</div>
 </div>
 
 </div>

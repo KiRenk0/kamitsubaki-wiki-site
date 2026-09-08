@@ -250,18 +250,21 @@ image: /images/songs/harusaruhi/single-1688524702.jpg
 <div class="jp-lyric">
 [02:25.20]<ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>ぐ<rt class="roma">gu</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>居<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="cn-lyric">[02:25.20]因为有你紧握我的手</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:30.55]<ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>おいで<rt class="roma">oide</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">[02:30.55]想哭的日子就再来吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:37.05]<ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> Uh-huh
 </div>
+<div class="cn-lyric">[02:37.05]能走到明天哦 Uh-huh</div>
 </div>
 
 <br />
@@ -367,6 +370,7 @@ image: /images/songs/harusaruhi/single-1688524702.jpg
 <div class="jp-lyric">
 [03:58.75]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:58.75]你也曾紧紧拥抱我</div>
 </div>
 
@@ -374,6 +378,7 @@ image: /images/songs/harusaruhi/single-1688524702.jpg
 <div class="jp-lyric">
 [04:04.09]<ruby>だから<rt class="roma">dakara</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:04.09]所以今天明天我都会歌唱</div>
 </div>
 
@@ -381,6 +386,7 @@ image: /images/songs/harusaruhi/single-1688524702.jpg
 <div class="jp-lyric">
 [04:10.83]<ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>為<rt class="furi">ため</rt><rt class="roma">tame</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:10.83]只为你而唱</div>
 </div>
 

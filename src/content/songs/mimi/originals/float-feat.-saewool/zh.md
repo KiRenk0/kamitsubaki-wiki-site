@@ -17,7 +17,7 @@ image: /images/songs/mimi/float-feat.-saewool.jpg
 
 ## 作品简介
 
-MIMI于 2026-05-11 发行的单曲《FLOAT (feat. saewool)》。
+[MIMI](/zh/artists/creators/mimi)于 2026-05-11 发行的单曲《FLOAT (feat. saewool)》。
 
 ## 试听
 {{media-switcher::FLOAT (feat. saewool)}}

@@ -20,7 +20,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 ## Overview
 
-V.W.P appears on SPICE OF LIFE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+V.W.P appears on [SPICE OF LIFE](/en/albums/harusaruhi/spice-of-life) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -43,7 +43,9 @@ V.W.P appears on SPICE OF LIFE or a related official release. Entries are versio
 <div class="jp-lyric">
 [00:03.33]Nobody like us <ruby>最高<rt class="furi">さいこう</rt><rt class="roma">saikou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>5<ruby>ピース<rt class="roma">piisu</rt></ruby>
 </div>
-<div class="trans-lyric">Nobody like us, the best five-piece</div>
+<div class="trans-lyric">
+[00:03.33]Nobody like us, the best five-piece
+</div>
 </div>
 
 <div class="lyric-line">
@@ -57,7 +59,9 @@ V.W.P appears on SPICE OF LIFE or a related official release. Entries are versio
 <div class="jp-lyric">
 [00:09.18]Virtual music
 </div>
-<div class="trans-lyric">Virtual music</div>
+<div class="trans-lyric">
+[00:09.18]Virtual music
+</div>
 </div>
 
 <div class="lyric-line">
@@ -99,28 +103,36 @@ V.W.P appears on SPICE OF LIFE or a related official release. Entries are versio
 <div class="jp-lyric">
 [00:24.36]Yeah, we are V.W.P
 </div>
-<div class="trans-lyric">Yeah, we are V.W.P</div>
+<div class="trans-lyric">
+[00:24.36]Yeah, we are V.W.P
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:27.89]We are the V.W.P
 </div>
-<div class="trans-lyric">We are the V.W.P</div>
+<div class="trans-lyric">
+[00:27.89]We are the V.W.P
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:30.40]Nobody like us V.W.P
 </div>
-<div class="trans-lyric">Nobody like us V.W.P</div>
+<div class="trans-lyric">
+[00:30.40]Nobody like us V.W.P
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:33.23]<ruby>この<rt class="roma">kono</rt></ruby>5<ruby>ピース<rt class="roma">piisu</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>MVP
 </div>
-<div class="trans-lyric">These five pieces are MVP again today</div>
+<div class="trans-lyric">
+[00:33.23]These five pieces are MVP again today
+</div>
 </div>
 
 <br />
@@ -129,7 +141,9 @@ V.W.P appears on SPICE OF LIFE or a related official release. Entries are versio
 <div class="jp-lyric">
 [00:38.72]Yeah, we are the V.W.P
 </div>
-<div class="trans-lyric">Yeah, we are the V.W.P</div>
+<div class="trans-lyric">
+[00:38.72]Yeah, we are the V.W.P
+</div>
 </div>
 
 <br />
@@ -187,78 +201,89 @@ V.W.P appears on SPICE OF LIFE or a related official release. Entries are versio
 <div class="jp-lyric">
 [01:08.96]<ruby>それぞれ<rt class="roma">sorezore</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>カラー<rt class="roma">karaa</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>shine like a
 </div>
-<div class="trans-lyric">Each of our colors shine like a</div>
+<div class="trans-lyric">
+[01:08.96]Each of our colors shine like a
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:11.28]<ruby>ダイヤ<rt class="roma">daiya</rt></ruby>
 </div>
-<div class="trans-lyric">Diamond</div>
+<div class="trans-lyric">
+[01:11.28]Diamond
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:12.36]Yeah, we are V.W.P
 </div>
+<div class="trans-lyric">[01:12.36]Yeah, we are V.W.P</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:15.88]We are the V.W.P
 </div>
+<div class="trans-lyric">[01:15.88]We are the V.W.P</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:18.07]Nobody like us V.W.P
 </div>
+<div class="trans-lyric">[01:18.07]Nobody like us V.W.P</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:21.31]<ruby>この<rt class="roma">kono</rt></ruby>5<ruby>ピース<rt class="roma">piisu</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>MVP
 </div>
+<div class="trans-lyric">[01:21.31]These five pieces are MVP again today</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:24.24]Pink, Blue and V.W.P
 </div>
-<div class="trans-lyric">Pink, Blue and V.W.P</div>
+<div class="trans-lyric">[01:24.24]Pink, Blue and V.W.P</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:27.30]Red, White, Purple V.W.P
 </div>
-<div class="trans-lyric">Red, White, Purple V.W.P</div>
+<div class="trans-lyric">[01:27.30]Red, White, Purple V.W.P</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:30.27]It’s my family V.W.P
 </div>
-<div class="trans-lyric">It's my family V.W.P</div>
+<div class="trans-lyric">[01:30.27]It's my family V.W.P</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:33.20]<ruby>この<rt class="roma">kono</rt></ruby>5<ruby>ピース<rt class="roma">piisu</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>MVP
 </div>
+<div class="trans-lyric">[01:33.20]These five pieces are MVP again today</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:37.10]<ruby>これ<rt class="roma">kore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>sisters
 </div>
-<div class="trans-lyric">These are my sisters</div>
+
+<div class="trans-lyric">[01:37.10]These are my sisters</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:40.03]<ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>絆<rt class="furi">きずな</rt><rt class="roma">kizuna</rt></ruby>
 </div>
+
 <div class="trans-lyric">[01:40.03]This bond that never separates</div>
 </div>
 
@@ -266,14 +291,16 @@ V.W.P appears on SPICE OF LIFE or a related official release. Entries are versio
 <div class="jp-lyric">
 [01:43.05]<ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>ありがとう<rt class="roma">arigatou</rt></ruby><ruby>みんな<rt class="roma">minna</rt></ruby>
 </div>
-<div class="trans-lyric">Thank you always, everyone</div>
+
+<div class="trans-lyric">[01:43.05]Thank you always, everyone</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:45.21]<ruby>締め括<rt class="furi">しめくく</rt><rt class="roma">shimekuku</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby> That’s my peace out!
 </div>
-<div class="trans-lyric">I'll wrap it up. That's my peace out!</div>
+
+<div class="trans-lyric">[01:45.21]I'll wrap it up. That's my peace out!</div>
 </div>
 
 <br />

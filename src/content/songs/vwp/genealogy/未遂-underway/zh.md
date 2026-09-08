@@ -271,24 +271,28 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 <ruby>あたし<rt class="roma">atashi</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>盗<rt class="furi">ぬす</rt><rt class="roma">nusu</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">我们偷不到的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>もの<rt class="roma">mono</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">东西根本不存在</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>画面<rt class="furi">がめん</rt><rt class="roma">gamen</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">屏幕前的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>お前<rt class="furi">おまえ</rt><rt class="roma">omae</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">你也是一样哦</div>
 </div>
 
 <div class="lyric-line">
@@ -351,6 +355,7 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 <ruby>未遂<rt class="furi">みすい</rt><rt class="roma">misui</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">可不是未遂哦</div>
 </div>
 
 <div class="lyric-line">
@@ -455,6 +460,7 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [02:40.71]<ruby>さっと<rt class="roma">satto</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>暇<rt class="furi">ひま</rt><rt class="roma">hima</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:40.71]迅速告辞</div>
 </div>
 
@@ -462,6 +468,7 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [03:04.35]<ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>仲間<rt class="furi">なかま</rt><rt class="roma">nakama</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>顔<rt class="furi">かお</rt><rt class="roma">kao</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:04.35]消失的同伴们的脸</div>
 </div>
 
@@ -469,6 +476,7 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [03:05.76]<ruby>思い出<rt class="furi">おもいだ</rt><rt class="roma">omoida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いくら<rt class="roma">ikura</rt></ruby><ruby>儲<rt class="furi">もう</rt><rt class="roma">mou</rt></ruby><ruby>かる<rt class="roma">karu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
 </div>
+
 <div class="cn-lyric">[03:05.76]回忆起来能赚多少钱？</div>
 </div>
 
@@ -476,6 +484,7 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [03:08.87]<ruby>不惑<rt class="furi">ふわく</rt><rt class="roma">fuwaku</rt></ruby> <ruby>不惑<rt class="furi">ふわく</rt><rt class="roma">fuwaku</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:08.87]不惑 不惑</div>
 </div>
 
@@ -483,6 +492,7 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [03:08.87]<ruby>年齢<rt class="furi">ねんれい</rt><rt class="roma">nenrei</rt></ruby><ruby>不詳<rt class="furi">ふしょう</rt><rt class="roma">fushou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>♥
 </div>
+
 <div class="cn-lyric">[03:08.87]年龄不详呢♥</div>
 </div>
 
@@ -490,78 +500,91 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 <ruby>あたし<rt class="roma">atashi</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>盗<rt class="furi">ぬす</rt><rt class="roma">nusu</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">我们偷不到的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>もの<rt class="roma">mono</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">东西根本不存在</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>画面<rt class="furi">がめん</rt><rt class="roma">gamen</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">屏幕前的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>お前<rt class="furi">おまえ</rt><rt class="roma">omae</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">你也是一样哦</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>フル<rt class="roma">furu</rt></ruby><ruby>スロットル<rt class="roma">surottoru</rt></ruby>
 </div>
+<div class="cn-lyric">全速前进</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>冗談<rt class="furi">じょうだん</rt><rt class="roma">joudan</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>、<ruby>泥<rt class="furi">どろ</rt><rt class="roma">doro</rt></ruby><ruby>団子<rt class="furi">だんご</rt><rt class="roma">dango</rt></ruby>
 </div>
+<div class="cn-lyric">开玩笑啦，泥团子</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>もん<rt class="roma">mon</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
 </div>
+<div class="cn-lyric">也就那样吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>フィクション<rt class="roma">fyikushon</rt></ruby> <ruby>ノンフィクション<rt class="roma">nonfyikushon</rt></ruby>
 </div>
+<div class="cn-lyric">虚构 非虚构</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>あくび<rt class="roma">akubi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>出<rt class="furi">で</rt><rt class="roma">de</rt></ruby><ruby>ちゃい<rt class="roma">chai</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby>
 </div>
+<div class="cn-lyric">快要打哈欠了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>あたし<rt class="roma">atashi</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>盗<rt class="furi">ぬす</rt><rt class="roma">nusu</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">我们偷不到的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>もの<rt class="roma">mono</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">东西根本不存在</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>画面<rt class="furi">がめん</rt><rt class="roma">gamen</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">屏幕前的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>お前<rt class="furi">おまえ</rt><rt class="roma">omae</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">你也是一样哦</div>
 </div>
 
 </div>

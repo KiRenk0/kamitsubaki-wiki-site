@@ -51,6 +51,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 <ruby>あ<rt class="roma">a</rt></ruby><ruby>やや<rt class="roma">yaya</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>やや<rt class="roma">yaya</rt></ruby><ruby>先生<rt class="furi">せんせい</rt><rt class="roma">sensei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>ったろ<rt class="roma">ttaro</rt></ruby>
 </div>
+<div class="cn-lyric">阿呀呀科呀呀，告诉老师了</div>
 </div>
 
 <div class="lyric-line">
@@ -71,6 +72,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 <ruby>あ<rt class="roma">a</rt></ruby><ruby>やや<rt class="roma">yaya</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>やや<rt class="roma">yaya</rt></ruby><ruby>先生<rt class="furi">せんせい</rt><rt class="roma">sensei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>ったろ<rt class="roma">ttaro</rt></ruby>
 </div>
+<div class="cn-lyric">阿呀呀科呀呀，告诉老师了</div>
 </div>
 
 <div class="lyric-line">
@@ -130,12 +132,14 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 <ruby>あ<rt class="roma">a</rt></ruby><ruby>やや<rt class="roma">yaya</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>やや<rt class="roma">yaya</rt></ruby><ruby>先生<rt class="furi">せんせい</rt><rt class="roma">sensei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>ったろ<rt class="roma">ttaro</rt></ruby>
 </div>
+<div class="cn-lyric">阿呀呀科呀呀，告诉老师了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>あ<rt class="roma">a</rt></ruby><ruby>やや<rt class="roma">yaya</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>やや<rt class="roma">yaya</rt></ruby><ruby>先生<rt class="furi">せんせい</rt><rt class="roma">sensei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>ったろ<rt class="roma">ttaro</rt></ruby>
 </div>
+<div class="cn-lyric">阿呀呀科呀呀，告诉老师了</div>
 </div>
 
 <div class="lyric-line">
@@ -228,6 +232,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 <ruby>先生<rt class="furi">せんせい</rt><rt class="roma">sensei</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>んで<rt class="roma">nde</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
 </div>
+<div class="cn-lyric">老师你为什么在哭？</div>
 </div>
 
 <br />
@@ -336,6 +341,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 <ruby>少女<rt class="furi">しょうじょ</rt><rt class="roma">shoujo</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>もはや<rt class="roma">mohaya</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>女<rt class="furi">おんな</rt><rt class="roma">onna</rt></ruby>
 </div>
+
 <div class="cn-lyric">少女已经是一个女人</div>
 </div>
 
@@ -343,6 +349,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 <ruby>なあ<rt class="roma">naa</rt></ruby><ruby>なんか<rt class="roma">nanka</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>みろ<rt class="roma">miro</rt></ruby>
 </div>
+
 <div class="cn-lyric">喂，说点什么啊</div>
 </div>
 
@@ -350,6 +357,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 <ruby>おい<rt class="roma">oi</rt></ruby>
 </div>
+
 <div class="cn-lyric">喂</div>
 </div>
 
@@ -357,6 +365,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 <ruby>な<rt class="roma">na</rt></ruby><ruby>なんか<rt class="roma">nanka</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>みろ<rt class="roma">miro</rt></ruby>
 </div>
+
 <div class="cn-lyric">说点什么啊</div>
 </div>
 
@@ -366,18 +375,21 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 <ruby>寂<rt class="furi">さび</rt><rt class="roma">sabi</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>なあ<rt class="roma">naa</rt></ruby>
 </div>
+<div class="cn-lyric">好寂寞啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>なあ<rt class="roma">naa</rt></ruby>
 </div>
+<div class="cn-lyric">好害怕啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>信<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>なあ<rt class="roma">naa</rt></ruby>
 </div>
+
 <div class="cn-lyric">该相信什么才好呢</div>
 </div>
 
@@ -385,12 +397,14 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 <ruby>あ<rt class="roma">a</rt></ruby><ruby>やや<rt class="roma">yaya</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>やや<rt class="roma">yaya</rt></ruby>
 </div>
+<div class="cn-lyric">阿呀呀科呀呀</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>先生<rt class="furi">せんせい</rt><rt class="roma">sensei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>ったろ<rt class="roma">ttaro</rt></ruby>
 </div>
+<div class="cn-lyric">告诉老师了</div>
 </div>
 
 </div>

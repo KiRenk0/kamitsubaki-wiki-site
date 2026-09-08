@@ -17,7 +17,7 @@ image: /images/songs/mimi/透明夏.jpg
 
 ## 作品概要
 
-MIMIが2022-10-24にリリースしたシングル「透明夏」。
+[MIMI](/ja/artists/creators/mimi)が2022-10-24にリリースしたシングル「透明夏」。
 
 ## 視聴
 {{media-switcher::透明夏}}

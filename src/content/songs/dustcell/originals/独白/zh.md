@@ -17,7 +17,7 @@ image: /images/songs/dustcell/独白.jpg
 
 ## 作品简介
 
-DUSTCELL于 2021-06-22 发行的单曲《独白》。
+[DUSTCELL](/zh/artists/solo/dustcell)于 2021-06-22 发行的单曲《独白》。
 
 ## 试听
 {{media-switcher::独白}}

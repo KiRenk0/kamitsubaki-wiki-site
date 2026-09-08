@@ -17,7 +17,7 @@ image: /images/songs/mimi/pale.jpg
 
 ## 作品概要
 
-MIMIが2021-03-19にリリースしたシングル「Pale」。
+[MIMI](/ja/artists/creators/mimi)が2021-03-19にリリースしたシングル「Pale」。
 
 ## 視聴
 {{media-switcher::Pale}}

@@ -17,7 +17,7 @@ image: /images/songs/mimi/頂戴na-feat.-沖石.jpg
 
 ## 作品概要
 
-MIMIが2024-01-24にリリースしたシングル「頂戴な (feat. 沖石)」。
+[MIMI](/ja/artists/creators/mimi)が2024-01-24にリリースしたシングル「頂戴な (feat. 沖石)」。
 
 ## 視聴
 {{media-switcher::頂戴な (feat. 沖石)}}

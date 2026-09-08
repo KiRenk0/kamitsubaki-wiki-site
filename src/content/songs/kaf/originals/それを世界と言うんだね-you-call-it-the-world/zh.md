@@ -161,6 +161,7 @@ image: /images/albums/kaf/kyoso.jpg
 <div class="jp-lyric">
 [01:29.47]<ruby>もしも<rt class="roma">moshimo</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>主人公<rt class="furi">しゅじんこう</rt><rt class="roma">shujinkou</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+<div class="cn-lyric">[01:29.47]如果我是主角的话</div>
 </div>
 
 <div class="lyric-line">
@@ -188,6 +189,7 @@ image: /images/albums/kaf/kyoso.jpg
 <div class="jp-lyric">
 [01:44.09]<ruby>もしも<rt class="roma">moshimo</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>主人公<rt class="furi">しゅじんこう</rt><rt class="roma">shujinkou</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+<div class="cn-lyric">[01:44.09]如果我是主角的话</div>
 </div>
 
 <div class="lyric-line">
@@ -257,6 +259,7 @@ image: /images/albums/kaf/kyoso.jpg
 <div class="jp-lyric">
 [02:20.20]<ruby>ようやく<rt class="roma">youyaku</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">[02:20.20]终于察觉到了</div>
 </div>
 
 <div class="lyric-line">
@@ -312,18 +315,21 @@ image: /images/albums/kaf/kyoso.jpg
 <div class="jp-lyric">
 [03:30.55]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">[03:30.55]那便称之为世界吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:42.19]<ruby>もしも<rt class="roma">moshimo</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>主人公<rt class="furi">しゅじんこう</rt><rt class="roma">shujinkou</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+<div class="cn-lyric">[03:42.19]如果我是主角的话</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:45.87]<ruby>ヒーロー<rt class="roma">hiirou</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>なれ<rt class="roma">nare</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:45.87]做不了英雄也没关系</div>
 </div>
 
@@ -331,6 +337,7 @@ image: /images/albums/kaf/kyoso.jpg
 <div class="jp-lyric">
 [03:49.49]<ruby>感謝<rt class="furi">かんしゃ</rt><rt class="roma">kansha</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:49.49]不被感谢也没关系</div>
 </div>
 
@@ -338,6 +345,7 @@ image: /images/albums/kaf/kyoso.jpg
 <div class="jp-lyric">
 [03:53.20]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>笑顔<rt class="furi">えがお</rt><rt class="roma">egao</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なれ<rt class="roma">nare</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:53.20]只要你能绽放笑容就好</div>
 </div>
 

@@ -70,7 +70,7 @@ tracks:
 
 ## Overview
 
-LOLUET's album “stream”, released on 2025-03-19, featuring 12 tracks.
+[LOLUET](/en/artists/solo/loluet)'s album “stream”, released on 2025-03-19, featuring 12 tracks.
 
 ## Track List
 

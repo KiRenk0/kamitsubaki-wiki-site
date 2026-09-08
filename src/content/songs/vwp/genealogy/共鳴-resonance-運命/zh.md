@@ -26,7 +26,7 @@ image: /images/albums/vwp/fate.jpg
 
 ## 作品简介
 
-- V.W.P于2022年7月27日发行的原创单曲《共鳴》。该版本首次发行于专辑《[運命](/zh/albums/vwp/fate)》之中。
+- [V.W.P](/zh/artists/vwp/vwp)于2022年7月27日发行的原创单曲《共鳴》。该版本首次发行于专辑《[運命](/zh/albums/vwp/fate)》之中。
 
 ## 试听
 
@@ -392,12 +392,14 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [02:45.63]<ruby>レッツシングアウトボーイ<rt class="roma">rettsushinguautoboui</rt></ruby>
 </div>
+<div class="cn-lyric">[02:45.63]Let's sing out, boy</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:47.23]<ruby>レッツシングアウトガール<rt class="roma">rettsushinguautogaaru</rt></ruby>
 </div>
+<div class="cn-lyric">[02:47.23]Let's sing out, girl</div>
 </div>
 
 <div class="lyric-line">
@@ -411,12 +413,14 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [02:52.48]<ruby>ベイビーアイラービュー<rt class="roma">beibiiairaabyuu</rt></ruby>
 </div>
+<div class="cn-lyric">[02:52.48]Baby I love you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:54.04]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>どうも<rt class="roma">doumo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:54.04]爱总觉得</div>
 </div>
 
 <div class="lyric-line">
@@ -534,12 +538,14 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [04:04.59]<ruby>レッツシングアウトボーイ<rt class="roma">rettsushinguautoboui</rt></ruby>
 </div>
+<div class="cn-lyric">[04:04.59]Let's sing out, boy</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:06.16]<ruby>レッツシングアウトガール<rt class="roma">rettsushinguautogaaru</rt></ruby>
 </div>
+<div class="cn-lyric">[04:06.16]Let's sing out, girl</div>
 </div>
 
 <div class="lyric-line">
@@ -553,6 +559,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [04:11.47]<ruby>ベイビーアイラービュー<rt class="roma">beibiiairaabyuu</rt></ruby>
 </div>
+<div class="cn-lyric">[04:11.47]Baby I love you</div>
 </div>
 
 <div class="lyric-line">
@@ -619,30 +626,35 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [04:28.59]<ruby>レッツシングアウトボーイ<rt class="roma">rettsushinguautoboui</rt></ruby>
 </div>
+<div class="cn-lyric">[04:28.59]Let's sing out, boy</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:30.17]<ruby>レッツシングアウトガール<rt class="roma">rettsushinguautogaaru</rt></ruby>
 </div>
+<div class="cn-lyric">[04:30.17]Let's sing out, girl</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:31.75]<ruby>とりあえず<rt class="roma">toriaezu</rt></ruby><ruby>みんな<rt class="roma">minna</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>みよ<rt class="roma">miyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>（<ruby>せ<rt class="roma">se</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>）
 </div>
+<div class="cn-lyric">[04:31.75]暂且大家一起说出来吧（预备——）</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:35.44]<ruby>ベイビーアイラービュー<rt class="roma">beibiiairaabyuu</rt></ruby>
 </div>
+<div class="cn-lyric">[04:35.44]Baby I love you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:37.04]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>あれ<rt class="roma">are</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:37.04]只要有爱</div>
 </div>
 
@@ -650,6 +662,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [04:38.60]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>最強<rt class="furi">さいきょう</rt><rt class="roma">saikyou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:38.60]我们就是最强的</div>
 </div>
 
@@ -659,6 +672,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [04:42.09]<ruby>この<rt class="roma">kono</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:42.09]今后也</div>
 </div>
 
@@ -666,6 +680,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [04:43.44]<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:43.44]为了能歌唱</div>
 </div>
 
@@ -673,6 +688,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [04:45.39]<ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:45.39]为了能欢笑</div>
 </div>
 
@@ -680,6 +696,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [04:46.94]<ruby>救<rt class="furi">すく</rt><rt class="roma">suku</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:46.94]为了能拯救</div>
 </div>
 
@@ -687,6 +704,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [04:48.79]<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>ところ<rt class="roma">tokoro</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:48.79]就这样</div>
 </div>
 
@@ -694,6 +712,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [04:51.41]<ruby>本日<rt class="furi">ほんじつ</rt><rt class="roma">honjitsu</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>あと<rt class="roma">ato</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>よろしい<rt class="roma">yoroshii</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> yeah
 </div>
+
 <div class="cn-lyric">[04:51.41]今天看来余兴不错啊 yeah</div>
 </div>
 

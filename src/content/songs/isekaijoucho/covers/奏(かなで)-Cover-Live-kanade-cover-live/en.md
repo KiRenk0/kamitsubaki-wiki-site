@@ -19,7 +19,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 
 ## Overview
 
-奏(かなで) [Cover Live] appears on CANDY LIVE 3 (Cover Live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+奏(かなで) [Cover Live] appears on [CANDY LIVE 3](/en/albums/isekaijoucho/candy-live-3) (Cover Live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

@@ -17,7 +17,7 @@ image: /images/songs/mimi/asagao-feat.-saewool.jpg
 
 ## 作品简介
 
-MIMI于 2026-07-03 发行的单曲《アサガオ (feat. saewool)》。
+[MIMI](/zh/artists/creators/mimi)于 2026-07-03 发行的单曲《アサガオ (feat. saewool)》。
 
 ## 试听
 {{media-switcher::アサガオ (feat. saewool)}}

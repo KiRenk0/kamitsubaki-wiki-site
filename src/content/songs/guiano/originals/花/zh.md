@@ -17,7 +17,7 @@ image: /images/songs/guiano/花.jpg
 
 ## 作品简介
 
-Guiano于 2022-05-21 发行的单曲《花》。
+[Guiano](/zh/artists/creators/guiano)于 2022-05-21 发行的单曲《花》。
 
 ## 试听
 {{media-switcher::花}}

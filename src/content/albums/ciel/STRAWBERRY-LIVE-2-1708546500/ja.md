@@ -138,7 +138,7 @@ tracks:
 
 ## 概要
 
-CIELが2023-10-04にリリースしたライブアルバム『STRAWBERRY LIVE 2』。全29曲を収録。
+[CIEL](/ja/artists/solo/ciel)が2023-10-04にリリースしたライブアルバム『STRAWBERRY LIVE 2』。全29曲を収録。
 
 ## 収録曲
 

@@ -245,12 +245,14 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [03:04.44]<ruby>そう<rt class="roma">sou</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>友達<rt class="furi">ともだち</rt><rt class="roma">tomodachi</rt></ruby>
 </div>
+<div class="cn-lyric">[03:04.44]是啊 你是朋友</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:07.44]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>掴<rt class="furi">つか</rt><rt class="roma">tsuka</rt></ruby><ruby>めよ<rt class="roma">meyo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:07.44]抓住我的手吧</div>
 </div>
 
 <div class="lyric-line">
@@ -271,6 +273,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [03:17.25]<ruby>透き通<rt class="furi">すきとお</rt><rt class="roma">sukitoo</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>愛し合<rt class="furi">あいしあ</rt><rt class="roma">aishia</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>―。
 </div>
+
 <div class="cn-lyric">[03:17.25]在透明的世界里 若能相爱—</div>
 </div>
 
@@ -278,42 +281,49 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [03:25.53]<ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>す<rt class="roma">su</rt></ruby> <ruby>フラッシュ<rt class="roma">furasshu</rt></ruby><ruby>バック<rt class="roma">bakku</rt></ruby>
 </div>
+<div class="cn-lyric">[03:25.53]不断重复 闪回</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:28.45]<ruby>蝉<rt class="furi">せみ</rt><rt class="roma">semi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>二度<rt class="furi">にど</rt><rt class="roma">nido</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby>
 </div>
+<div class="cn-lyric">[03:28.45]蝉鸣声中 你一去不返</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:33.64]<ruby>永遠<rt class="furi">えいえん</rt><rt class="roma">eien</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>千<rt class="furi">せん</rt><rt class="roma">sen</rt></ruby><ruby>切<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
+<div class="cn-lyric">[03:33.64]永远地碎裂</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:36.63]<ruby>お<rt class="roma">o</rt></ruby><ruby>揃<rt class="furi">そろ</rt><rt class="roma">soro</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>キーホルダー<rt class="roma">kiihorudaa</rt></ruby>
 </div>
+<div class="cn-lyric">[03:36.63]配套的钥匙扣</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:40.06]<ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>消<rt class="furi">け</rt><rt class="roma">ke</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>去<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby> <ruby>白<rt class="furi">しろ</rt><rt class="roma">shiro</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>肌<rt class="furi">はだ</rt><rt class="roma">hada</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>少女<rt class="furi">しょうじょ</rt><rt class="roma">shoujo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[03:40.06]夏天抹去了 那个肌肤白皙的少女</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:46.23]<ruby>哀<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>程<rt class="furi">ほど</rt><rt class="roma">hodo</rt></ruby> <ruby>とり<rt class="roma">tori</rt></ruby><ruby>憑<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>かれ<rt class="roma">kare</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>仕舞<rt class="furi">しま</rt><rt class="roma">shima</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">[03:46.23]哀伤到想要被附身</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:52.84]<ruby>透明<rt class="furi">とうめい</rt><rt class="roma">toumei</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>指<rt class="furi">ゆび</rt><rt class="roma">yubi</rt></ruby><ruby>差<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>―。
 </div>
+
 <div class="cn-lyric">[03:52.84]透明的你 曾指向我—</div>
 </div>
 

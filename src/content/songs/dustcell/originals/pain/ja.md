@@ -17,7 +17,7 @@ image: /images/songs/dustcell/pain.jpg
 
 ## 作品概要
 
-DUSTCELLが2020-09-15にリリースしたシングル「PAIN」。
+[DUSTCELL](/ja/artists/solo/dustcell)が2020-09-15にリリースしたシングル「PAIN」。
 
 ## 視聴
 {{media-switcher::PAIN}}

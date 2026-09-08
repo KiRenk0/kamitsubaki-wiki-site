@@ -56,6 +56,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [00:40.17]<ruby>ねぇ<rt class="roma">nee</rt></ruby> <ruby>ねぇ<rt class="roma">nee</rt></ruby>
 </div>
+<div class="cn-lyric">[00:40.17]呐 呐</div>
 </div>
 
 <div class="lyric-line">
@@ -173,6 +174,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [02:00.19]<ruby>ねぇ<rt class="roma">nee</rt></ruby> <ruby>ねぇ<rt class="roma">nee</rt></ruby>
 </div>
+<div class="cn-lyric">[02:00.19]呐 呐</div>
 </div>
 
 <div class="lyric-line">
@@ -297,6 +299,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:14.87]<ruby>だ<rt class="roma">da</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>憶<ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[03:14.87]如此想着</div>
 </div>
 
 <div class="lyric-line">
@@ -312,6 +315,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [03:52.14]<ruby>ねぇ<rt class="roma">nee</rt></ruby> <ruby>ねぇ<rt class="roma">nee</rt></ruby>
 </div>
+<div class="cn-lyric">[03:52.14]呐 呐</div>
 </div>
 
 <div class="lyric-line">
@@ -334,6 +338,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [04:11.00]<ruby>夕<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby><ruby>暮<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby> <ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[04:11.00]暮色 飞向天空</div>
 </div>
 
 <div class="lyric-line">
@@ -347,6 +352,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [04:18.96]<ruby>真下<rt class="furi">ましも</rt><rt class="roma">mashimo</rt></ruby>、<ruby>次第<rt class="furi">しだい</rt><rt class="roma">shidai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>小<rt class="furi">ちい</rt><rt class="roma">chii</rt></ruby><ruby>さく<rt class="roma">saku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:18.96]正下方 逐渐变小</div>
 </div>
 
@@ -354,6 +360,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [04:22.28]<ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>居<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>街<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:22.28]消失的是你曾居住的街道</div>
 </div>
 
@@ -361,6 +368,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [04:26.94]<ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:26.94]夏日的天空中花开了</div>
 </div>
 
@@ -368,12 +376,14 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [04:30.98]<ruby>大<rt class="furi">おお</rt><rt class="roma">oo</rt></ruby><ruby>きな<rt class="roma">kina</rt></ruby><ruby>火<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[04:30.98]巨大的火花绽放了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:34.82]<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:34.82]无论到何时都想哭泣</div>
 </div>
 
@@ -381,12 +391,14 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [04:38.85]<ruby>だ<rt class="roma">da</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>憶<ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[04:38.85]如此想着</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:41.36]<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:41.36]那样的夏天消失了</div>
 </div>
 

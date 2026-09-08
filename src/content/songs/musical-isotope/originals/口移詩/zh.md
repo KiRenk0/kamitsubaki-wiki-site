@@ -26,7 +26,7 @@ image: /images/songs/musical-isotope/口移詩.jpg
 
 ## 作品简介
 
-由「音楽的同位体」五人组 [V.I.P]（[可不](/zh/artists/isotopes/kafu)・[星界](/zh/artists/isotopes/sekai)・[裏命](/zh/artists/isotopes/rime)・[羽累](/zh/artists/isotopes/haru)・[狐子](/zh/artists/isotopes/coko)）演唱的原创曲，halyosy 作词、33Guma 作曲，2026-05-20 发行。
+由「[音楽的同位体](/zh/artists/solo/musical-isotope)」五人组 [V.I.P]（[可不](/zh/artists/isotopes/kafu)・[星界](/zh/artists/isotopes/sekai)・[裏命](/zh/artists/isotopes/rime)・[羽累](/zh/artists/isotopes/haru)・[狐子](/zh/artists/isotopes/coko)）演唱的原创曲，halyosy 作词、33Guma 作曲，2026-05-20 发行。
 
 ## 试听
 {{media-switcher::口移詩}}

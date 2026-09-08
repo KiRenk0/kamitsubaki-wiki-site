@@ -81,12 +81,14 @@ image: /images/songs/koko/single-1687477733.jpg
 <div class="jp-lyric">
 [00:35.54]<ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>絡<rt class="furi">から</rt><rt class="roma">kara</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[00:35.54]Entwining wishes into every word</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:41.34]<ruby>争<rt class="furi">あらそ</rt><rt class="roma">araso</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>息<rt class="furi">いき</rt><rt class="roma">iki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="trans-lyric">[00:41.34]I held my breath for a world without conflict</div>
 </div>
 
 <div class="lyric-line">
@@ -116,7 +118,7 @@ image: /images/songs/koko/single-1687477733.jpg
 <div class="jp-lyric">
 [01:08.50]<ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
-<div class="trans-lyric">Endless</div>
+<div class="trans-lyric">[01:08.50]Endless</div>
 </div>
 
 <div class="lyric-line">
@@ -160,18 +162,21 @@ image: /images/songs/koko/single-1687477733.jpg
 <div class="jp-lyric">
 [01:41.37]<ruby>情<rt class="furi">なさ</rt><rt class="roma">nasa</rt></ruby><ruby>けない<rt class="roma">kenai</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>涙<rt class="furi">なみだ</rt><rt class="roma">namida</rt></ruby><ruby>流<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[01:41.37]Shedding tears so pathetic</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:46.63]<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>傷<rt class="furi">きず</rt><rt class="roma">kizu</rt></ruby><ruby>つか<rt class="roma">tsuka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
+<div class="trans-lyric">[01:46.63]Still, unbreakable feelings</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:50.80]<ruby>響<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>かせる<rt class="roma">kaseru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="trans-lyric">[01:50.80]Because I'll make them resonate</div>
 </div>
 
 <br />
@@ -180,6 +185,7 @@ image: /images/songs/koko/single-1687477733.jpg
 <div class="jp-lyric">
 [02:02.73]<ruby>世界中<rt class="furi">せかいじゅう</rt><rt class="roma">sekaijuu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>絶望<rt class="furi">ぜつぼう</rt><rt class="roma">zetsubou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>飲<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:02.73]Even if the whole world is swallowed by despair</div>
 </div>
 
@@ -187,6 +193,7 @@ image: /images/songs/koko/single-1687477733.jpg
 <div class="jp-lyric">
 [02:13.41]<ruby>この<rt class="roma">kono</rt></ruby><ruby>祈<rt class="furi">いの</rt><rt class="roma">ino</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:13.41]This prayer becomes light that connects feelings</div>
 </div>
 
@@ -194,6 +201,7 @@ image: /images/songs/koko/single-1687477733.jpg
 <div class="jp-lyric">
 [02:26.62]<ruby>息<rt class="furi">いき</rt><rt class="roma">iki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:26.62]Hold my breath</div>
 </div>
 
@@ -203,30 +211,35 @@ image: /images/songs/koko/single-1687477733.jpg
 <div class="jp-lyric">
 [02:30.13]<ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>絡<rt class="furi">から</rt><rt class="roma">kara</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[02:30.13]Entwining wishes into every word</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:35.84]<ruby>争<rt class="furi">あらそ</rt><rt class="roma">araso</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>息<rt class="furi">いき</rt><rt class="roma">iki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="trans-lyric">[02:35.84]I held my breath for a world without conflict</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:41.15]<ruby>情<rt class="furi">なさ</rt><rt class="roma">nasa</rt></ruby><ruby>けない<rt class="roma">kenai</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>涙<rt class="furi">なみだ</rt><rt class="roma">namida</rt></ruby><ruby>流<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[02:41.15]Shedding tears so pathetic</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:46.51]<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>傷<rt class="furi">きず</rt><rt class="roma">kizu</rt></ruby><ruby>つか<rt class="roma">tsuka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
+<div class="trans-lyric">[02:46.51]Still, unbreakable feelings</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:50.76]<ruby>響<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>かせる<rt class="roma">kaseru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="trans-lyric">[02:50.76]Because I'll make them resonate</div>
 </div>
 
 </div>

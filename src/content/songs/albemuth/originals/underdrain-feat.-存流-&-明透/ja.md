@@ -17,7 +17,7 @@ image: /images/songs/albemuth/underdrain-feat.-存流-&-明透.jpg
 
 ## 作品概要
 
-Albemuthが2023-08-16にリリースしたシングル「Underdrain (feat. 存流 & 明透)」。
+[Albemuth](/ja/artists/solo/albemuth)が2023-08-16にリリースしたシングル「Underdrain (feat. 存流 & 明透)」。
 
 ## 視聴
 {{media-switcher::Underdrain (feat. 存流 & 明透)}}

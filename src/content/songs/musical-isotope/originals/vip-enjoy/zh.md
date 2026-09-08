@@ -26,7 +26,7 @@ image: /images/songs/musical-isotope/vip-enjoy.jpg
 
 ## 作品简介
 
-「音楽的同位体」五人组 V.I.P 与 Atena（アテナ）合作的原创曲，2026-03-18 发行。
+「[音楽的同位体](/zh/artists/solo/musical-isotope)」五人组 V.I.P 与 Atena（アテナ）合作的原创曲，2026-03-18 发行。
 
 ## 试听
 {{media-switcher::VIPエンジョイ (feat. アテナ)}}

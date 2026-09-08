@@ -127,6 +127,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [01:41.51]Heb heb mem giggel ibbän zou
 </div>
+<div class="cn-lyric">[01:41.51]快快举起你的小鸡闭上嘴</div>
 </div>
 
 <br />
@@ -135,18 +136,21 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [01:53.36]Un wenn de do dei do uze don do dost
 </div>
+<div class="cn-lyric">[01:53.36]而如果你在那里做你的取笑</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:54.98]Do däi disch dabbes dabbe dabbe däi disch dabbes
 </div>
+<div class="cn-lyric">[01:54.98]那你这个笨蛋就会笨手笨脚地做笨蛋的样子</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:56.09]Dumm dabbe digge bobbes dabba dabba digge bobbes
 </div>
+
 <div class="cn-lyric">[01:56.09]傻笨蛋大波波哒吧哒吧大波波</div>
 </div>
 
@@ -154,6 +158,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [02:05.07]Shake dan digge bobbes baby
 </div>
+
 <div class="cn-lyric">[02:05.07]摇吧大波波宝贝</div>
 </div>
 
@@ -163,6 +168,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [02:08.30]Heb heb mem giggel ibbän zou
 </div>
+<div class="cn-lyric">[02:08.30]快快举起你的小鸡闭上嘴</div>
 </div>
 
 <br />
@@ -171,6 +177,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:07.23]Uz misch ned
 </div>
+<div class="cn-lyric">[03:07.23]别取笑我</div>
 </div>
 
 </div>

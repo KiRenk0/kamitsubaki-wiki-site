@@ -70,7 +70,7 @@ tracks:
 
 ## Overview
 
-DUSTCELL's album “SUMMIT”, released on 2020-05-20, featuring 12 tracks.
+[DUSTCELL](/en/artists/solo/dustcell)'s album “SUMMIT”, released on 2020-05-20, featuring 12 tracks.
 
 ## Track List
 

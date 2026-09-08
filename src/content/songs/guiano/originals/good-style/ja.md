@@ -17,7 +17,7 @@ image: /images/songs/guiano/good-style.jpg
 
 ## 作品概要
 
-Guianoが2024-03-26にリリースしたシングル「Good Style」。
+[Guiano](/ja/artists/creators/guiano)が2024-03-26にリリースしたシングル「Good Style」。
 
 ## 視聴
 {{media-switcher::Good Style}}

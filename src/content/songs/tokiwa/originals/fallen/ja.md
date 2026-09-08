@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/fallen.jpg
 
 ## 作品概要
 
-tokiwaが2025-09-16にリリースしたシングル「fallen」。
+[tokiwa](/ja/artists/creators/tokiwa)が2025-09-16にリリースしたシングル「fallen」。
 
 ## 視聴
 {{media-switcher::fallen}}

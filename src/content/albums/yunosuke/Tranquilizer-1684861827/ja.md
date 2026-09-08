@@ -75,14 +75,14 @@ tracks:
 ## 収録曲
 
 1. ラグタイムレコード（03:56）
-2. Awake Now（03:16）
-3. Mum（03:26）
-4. 君を見たい（03:12）
+2. [Awake Now](/ja/songs/yunosuke/originals/awake-now)（03:16）
+3. [Mum](/ja/songs/yunosuke/originals/mum)（03:26）
+4. [君を見たい](/ja/songs/yunosuke/originals/君wo見tai)（03:12）
 5. UnderDogDance（04:12）
-6. Navy（03:24）
+6. [Navy](/ja/songs/yunosuke/originals/navy)（03:24）
 7. パラレルガール（03:59）
 8. Yakumo（04:31）
 9. Dusty End（03:28）
 10. PaIII.AGITATION（03:35）
-11. カレイド（03:36）
+11. [カレイド](/ja/songs/yunosuke/originals/kareido)（03:36）
 12. Opinion（03:15）

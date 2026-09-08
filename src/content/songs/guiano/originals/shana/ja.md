@@ -17,7 +17,7 @@ image: /images/songs/guiano/shana.jpg
 
 ## 作品概要
 
-Guianoが2019-12-25にリリースしたシングル「シャナ」。
+[Guiano](/ja/artists/creators/guiano)が2019-12-25にリリースしたシングル「シャナ」。
 
 ## 視聴
 {{media-switcher::シャナ}}

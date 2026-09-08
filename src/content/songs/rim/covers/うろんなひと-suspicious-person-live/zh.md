@@ -320,6 +320,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [02:41.79]<ruby>つまらない<rt class="roma">tsumaranai</rt></ruby><ruby>つまらない<rt class="roma">tsumaranai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:41.79]无聊无聊</div>
 </div>
 
 <div class="lyric-line">
@@ -413,18 +414,21 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [03:50.45]<ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">[03:50.45]想做不能说出口的事</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:52.34]<ruby>いけ<rt class="roma">ike</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">[03:52.34]想做不该做的事</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:54.00]<ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>は<rt class="roma">ha</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:54.00]其实好像全都喜欢</div>
 </div>
 
@@ -434,6 +438,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [03:57.29]<ruby>浅<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>はか<rt class="roma">haka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>奇跡<rt class="furi">きせき</rt><rt class="roma">kiseki</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:57.29]即使是肤浅的奇迹</div>
 </div>
 
@@ -441,6 +446,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [04:02.92]<ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:02.92]也可以吧</div>
 </div>
 

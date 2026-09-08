@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/la-rose-jaune-feat.-sennzai.jpg
 
 ## 作品简介
 
-tokiwa于 2021-04-09 发行的单曲《La rose jaune (feat. Sennzai)》。
+[tokiwa](/zh/artists/creators/tokiwa)于 2021-04-09 发行的单曲《La rose jaune (feat. Sennzai)》。
 
 ## 试听
 {{media-switcher::La rose jaune (feat. Sennzai)}}

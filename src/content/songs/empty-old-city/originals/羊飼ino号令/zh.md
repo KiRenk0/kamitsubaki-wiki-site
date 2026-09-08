@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/羊飼ino号令.jpg
 
 ## 作品简介
 
-Empty old City于 2023-07-04 发行的单曲《羊飼いの号令》。
+[Empty old City](/zh/artists/solo/empty-old-city)于 2023-07-04 发行的单曲《羊飼いの号令》。
 
 ## 试听
 {{media-switcher::羊飼いの号令}}

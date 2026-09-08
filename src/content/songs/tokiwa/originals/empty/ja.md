@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/empty.jpg
 
 ## 作品概要
 
-tokiwaが2023-10-03にリリースしたシングル「empty」。
+[tokiwa](/ja/artists/creators/tokiwa)が2023-10-03にリリースしたシングル「empty」。
 
 ## 視聴
 {{media-switcher::empty}}

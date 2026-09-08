@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 
 ## 作品简介
 
-《Drop (Cover Live)》收录于《CREAM PUFF LIVE 4 (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《Drop (Cover Live)》收录于《[CREAM PUFF LIVE 4](/zh/albums/harusaruhi/cream-puff-live-4) (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -141,24 +141,28 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 [01:07.20]Ich hab noch immer keinen Job, Job, Job
 </div>
+<div class="cn-lyric">[01:07.20]我依然没有工作，工作，工作</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:09.71]Bin bankrott-krott-krott und saufe trotzdem
 </div>
+<div class="cn-lyric">[01:09.71]破产破产破产，但我依然狂饮</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:12.67]Auf das ganze Lernen hab ich immer noch kein'n Bock, Bock, Bock
 </div>
+<div class="cn-lyric">[01:12.67]对于学习我仍然毫无兴趣，兴趣，兴趣</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:16.04]Kippe Shots und hab am nächsten Morgen Kopfweh
 </div>
+<div class="cn-lyric">[01:16.04]干掉 shots，第二天早上头疼</div>
 </div>
 
 <br />
@@ -167,12 +171,14 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 [01:20.27]Und wenn sie nicht gestorben sind, feiern sie immer noch, noch, noch
 </div>
+<div class="cn-lyric">[01:20.27]如果他们没死，他们还在庆祝，还在，还在，还在</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:23.82]Zu diesem Drop, Drop, Drop bis die Wände beben
 </div>
+
 <div class="cn-lyric">[01:23.82]跟着这节拍，节拍，节拍直到墙壁颤抖</div>
 </div>
 
@@ -180,12 +186,14 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 [01:26.75]Glaub mir, Babe, ich bleib so lange, bis das nicht mehr schockt, schockt, schockt
 </div>
+<div class="cn-lyric">[01:26.75]相信我，宝贝，我会待到这不再惊悚，惊悚，惊悚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:30.45]Lieber Gott, oh, lass das nie zu Ende geh'n (Ende geh'n)
 </div>
+
 <div class="cn-lyric">[01:30.45]亲爱的上帝，哦，让这一切永不完结（完结）</div>
 </div>
 
@@ -195,24 +203,28 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 [01:47.09]Ich hab noch immer keinen Job, Job, Job
 </div>
+<div class="cn-lyric">[01:47.09]我依然没有工作，工作，工作</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:49.67]Bin bankrott-krott-krott und saufe trotzdem
 </div>
+<div class="cn-lyric">[01:49.67]破产破产破产，但我依然狂饮</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:52.36]Auf das ganze Lernen hab ich immer noch kein'n Bock, Bock, Bock
 </div>
+<div class="cn-lyric">[01:52.36]对于学习我仍然毫无兴趣，兴趣，兴趣</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:56.07]Kippe Shots und hab am nächsten Morgen Kopfweh
 </div>
+<div class="cn-lyric">[01:56.07]干掉 shots，第二天早上头疼</div>
 </div>
 
 </div>

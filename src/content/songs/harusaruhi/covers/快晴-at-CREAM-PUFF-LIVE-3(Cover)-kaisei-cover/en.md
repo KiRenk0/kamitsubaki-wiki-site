@@ -20,7 +20,7 @@ contentStatus: stub
 
 ## Overview
 
-快晴 at CREAM PUFF LIVE 3(Cover) appears on CREAM PUFF LIVE 3 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+快晴 at CREAM PUFF LIVE 3(Cover) appears on [CREAM PUFF LIVE 3](/en/albums/harusaruhi/cream-puff-live-3) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

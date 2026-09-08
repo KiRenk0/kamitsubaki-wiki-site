@@ -238,6 +238,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [02:33.49]<ruby>正解<rt class="furi">せいかい</rt><rt class="roma">seikai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>旅<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[02:33.49]来一场没有正确答案的旅行吧</div>
 </div>
 
 <div class="lyric-line">
@@ -274,6 +275,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [03:04.00]<ruby>涙<rt class="furi">なみだ</rt><rt class="roma">namida</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>涙<rt class="furi">なみだ</rt><rt class="roma">namida</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:04.00]不要用眼泪填满眼泪</div>
 </div>
 
@@ -281,12 +283,14 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [03:10.18]<ruby>確信<rt class="furi">かくしん</rt><rt class="roma">kakushin</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>その<rt class="roma">sono</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>でる<rt class="roma">deru</rt></ruby>
 </div>
+<div class="cn-lyric">[03:10.18]那颗确信的心在呐喊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:17.54]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[03:17.54]在这里就不再是一个人</div>
 </div>
 
 </div>

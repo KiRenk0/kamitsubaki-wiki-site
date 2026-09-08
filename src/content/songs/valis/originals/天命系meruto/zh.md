@@ -17,7 +17,7 @@ image: /images/songs/valis/天命系meruto.jpg
 
 ## 作品简介
 
-VALIS于 2021-07-29 发行的单曲《天命系メルト》。
+[VALIS](/zh/artists/solo/valis)于 2021-07-29 发行的单曲《天命系メルト》。
 
 ## 试听
 {{media-switcher::天命系メルト}}

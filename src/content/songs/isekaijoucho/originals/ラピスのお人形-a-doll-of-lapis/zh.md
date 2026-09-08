@@ -104,6 +104,7 @@ image: /images/songs/isekaijoucho/single-1706063153.jpg
 <div class="jp-lyric">
 [00:51.00]<ruby>こわれる<rt class="roma">kowareru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>だきしめ<rt class="roma">dakishime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[00:51.00]抱紧我直到破碎</div>
 </div>
 
 <div class="lyric-line">
@@ -290,6 +291,7 @@ image: /images/songs/isekaijoucho/single-1706063153.jpg
 <div class="jp-lyric">
 [02:53.30]<ruby>ラピス<rt class="roma">rapisu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>人形<rt class="furi">にんぎょう</rt><rt class="roma">ningyou</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:53.30]拉碧斯的人偶</div>
 </div>
 

@@ -195,6 +195,7 @@ And now we're lazy, we're lazy
 <div class="jp-lyric">
 Ooh, lazy, lazy
 </div>
+<div class="cn-lyric">哦，懒散，懒散</div>
 </div>
 
 <br />
@@ -217,12 +218,14 @@ Can we grow out? Whoa
 <div class="jp-lyric">
 Can we grow, can we grow
 </div>
+<div class="cn-lyric">我们能成长吗，能成长吗</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Can we grow out? Whoa
 </div>
+<div class="cn-lyric">我们能超越吗？哇</div>
 </div>
 
 <br />
@@ -231,18 +234,21 @@ Can we grow out? Whoa
 <div class="jp-lyric">
 Can we grow, can we grow
 </div>
+<div class="cn-lyric">我们能成长吗，能成长吗</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Can we grow out? Whoa
 </div>
+<div class="cn-lyric">我们能超越吗？哇</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Whoa, whoa, whoa
 </div>
+
 <div class="cn-lyric">哇，哇，哇</div>
 </div>
 
@@ -250,6 +256,8 @@ Whoa, whoa, whoa
 <div class="jp-lyric">
 Whoa, whoa, whoa
 </div>
+
+<div class="cn-lyric">哇，哇，哇</div>
 </div>
 
 <br />
@@ -258,24 +266,28 @@ Whoa, whoa, whoa
 <div class="jp-lyric">
 And he's mean talking
 </div>
+<div class="cn-lyric">他说话刻薄</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Bean stalking icy man
 </div>
+<div class="cn-lyric">冷酷的豆茎男人</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 My feet are walking over him
 </div>
+<div class="cn-lyric">我的脚踩过他</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Sneakers in his hand
 </div>
+
 <div class="cn-lyric">运动鞋在他手中</div>
 </div>
 
@@ -285,24 +297,28 @@ Sneakers in his hand
 <div class="jp-lyric">
 And with a picket for a knife
 </div>
+<div class="cn-lyric">以木桩为刀</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And a rocket to depart in
 </div>
+<div class="cn-lyric">乘火箭离开</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 My life had barely started
 </div>
+<div class="cn-lyric">我的生命才刚开始</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 When you jumped all on my h-h-h-heart
 </div>
+
 <div class="cn-lyric">当你纵身跃入我的 心-心-心</div>
 </div>
 

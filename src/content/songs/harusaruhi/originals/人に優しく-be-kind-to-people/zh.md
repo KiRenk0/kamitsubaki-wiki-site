@@ -240,48 +240,56 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [01:27.66]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>1<ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[01:27.66]谁都无法独自生存</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:30.81]<ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>みんな<rt class="roma">minna</rt></ruby><ruby>支<rt class="furi">ささ</rt><rt class="roma">sasa</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
+<div class="cn-lyric">[01:30.81]人们都是互相扶持</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:33.92]<ruby>いがみ合<rt class="furi">いがみあ</rt><rt class="roma">igamia</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>も<rt class="roma">mo</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[01:33.92]互相仇视也没有意义</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:36.98]<ruby>お金<rt class="furi">おかね</rt><rt class="roma">okane</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>でかい<rt class="roma">dekai</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby>yeah
 </div>
+<div class="cn-lyric">[01:36.98]比金钱更伟大的爱 yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:39.93]<ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>大人<rt class="furi">おとな</rt><rt class="roma">otona</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>気遣<rt class="furi">きづか</rt><rt class="roma">kizuka</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>yeah
 </div>
+<div class="cn-lyric">[01:39.93]成熟大人的体贴 yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:43.21]<ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ありがとう<rt class="roma">arigatou</rt></ruby><ruby>ごめんなさい<rt class="roma">gomennasai</rt></ruby>yeah
 </div>
+<div class="cn-lyric">[01:43.21]说声谢谢对不起 yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:46.32]<ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>1<ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[01:46.32]哭泣的你也不是一个人</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:49.30]<ruby>あげる<rt class="roma">ageru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby>
 </div>
+<div class="cn-lyric">[01:49.30]因为我会给你我的爱</div>
 </div>
 
 <br />
@@ -290,6 +298,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [01:57.32]My love for you
 </div>
+
 <div class="cn-lyric">[01:57.32]My love for you</div>
 </div>
 

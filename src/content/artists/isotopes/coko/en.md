@@ -89,7 +89,7 @@ Vocally, COKO preserves KOKO's strong long notes while featuring realistic breat
 
 COKO has been widely adopted by UGC (User Generated Content) creators. Notable works include:
 
-- "the last bullet" (Covered by COKO)
+- "[the last bullet](/en/songs/koko/originals/the-last-bullet)" (Covered by COKO)
 - High-energy derivative tracks created by the UGC community.
 
 Recommended related entries:

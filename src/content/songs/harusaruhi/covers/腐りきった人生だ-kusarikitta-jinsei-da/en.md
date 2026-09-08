@@ -18,7 +18,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 
 ## Overview
 
-腐りきった人生だ。 appears on CREAM PUFF LIVE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+腐りきった人生だ。 appears on [CREAM PUFF LIVE](/en/albums/harusaruhi/cream-puff-live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Lyrics
 
@@ -205,12 +205,14 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 <ruby>まぁ<rt class="roma">maa</rt></ruby><ruby>これ<rt class="roma">kore</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
+<div class="trans-lyric">Well, this isn't so bad, is it?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>実感<rt class="furi">じっかん</rt><rt class="roma">jikkan</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>身<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>染<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
+<div class="trans-lyric">I feel the reality of being alive soaking into me</div>
 </div>
 
 <div class="lyric-line">
@@ -224,6 +226,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 <ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby> <ruby>ある<rt class="roma">aru</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>自由<rt class="furi">じゆう</rt><rt class="roma">jiyuu</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby>
 </div>
+<div class="trans-lyric">Disappeared. In a way, that was freedom.</div>
 </div>
 
 <div class="lyric-line">
@@ -286,18 +289,21 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 <ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>！
 </div>
+<div class="trans-lyric">That's fine, isn't it!</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>実感<rt class="furi">じっかん</rt><rt class="roma">jikkan</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>身<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>染<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>！
 </div>
+<div class="trans-lyric">I feel the reality of being alive soaking into me!</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>陽気<rt class="furi">ようき</rt><rt class="roma">youki</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>時間<rt class="furi">じかん</rt><rt class="roma">jikan</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>流<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>！
 </div>
+
 <div class="trans-lyric">Even the cheerful me, with the flow of time, disappeared!</div>
 </div>
 
@@ -305,6 +311,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 <ruby>ある<rt class="roma">aru</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>自由<rt class="furi">じゆう</rt><rt class="roma">jiyuu</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby>。
 </div>
+
 <div class="trans-lyric">In a way, that was freedom.</div>
 </div>
 
@@ -312,6 +319,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 <ruby>だけど<rt class="roma">dakedo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>さまよい<rt class="roma">samayoi</rt></ruby><ruby>つづける<rt class="roma">tsuzukeru</rt></ruby>
 </div>
+
 <div class="trans-lyric">But you know, I keep on wandering</div>
 </div>
 

@@ -38,7 +38,7 @@ tracks:
 
 ## Overview
 
-Empty old City's ep “From Noir into Clair”, released on 2025-10-15, featuring 4 tracks.
+[Empty old City](/en/artists/solo/empty-old-city)'s ep “From Noir into Clair”, released on 2025-10-15, featuring 4 tracks.
 
 ## Track List
 

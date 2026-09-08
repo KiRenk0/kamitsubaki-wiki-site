@@ -46,13 +46,13 @@ tracks:
 
 ## Overview
 
-LOLUET's ep “迷路”, released on 2026-02-25, featuring 6 tracks.
+[LOLUET](/en/artists/solo/loluet)'s ep “迷路”, released on 2026-02-25, featuring 6 tracks.
 
 ## Track List
 
 1. めめめ (03:47)
 2. tegami (02:23)
-3. ドレス (02:53)
+3. [ドレス](/en/songs/loluet/originals/doresu) (02:53)
 4. 58 (03:14)
-5. スプートニク (03:48)
-6. アイ (04:28)
+5. [スプートニク](/en/songs/loluet/originals/supuutoniku) (03:48)
+6. [アイ](/en/songs/loluet/originals/ai) (04:28)

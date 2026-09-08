@@ -17,7 +17,7 @@ image: /images/songs/mimi/ruruuju.jpg
 
 ## 作品简介
 
-MIMI于 2020-09-08 发行的单曲《ルルージュ》。
+[MIMI](/zh/artists/creators/mimi)于 2020-09-08 发行的单曲《ルルージュ》。
 
 ## 试听
 {{media-switcher::ルルージュ}}

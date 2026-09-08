@@ -17,7 +17,7 @@ image: /images/songs/valis/watashitoraberaa-nina.jpg
 
 ## 作品简介
 
-VALIS于 2023-10-21 发行的单曲《わたしトラベラー(NINA)》。
+[VALIS](/zh/artists/solo/valis)于 2023-10-21 发行的单曲《わたしトラベラー(NINA)》。
 
 ## 试听
 {{media-switcher::わたしトラベラー(NINA)}}

@@ -17,7 +17,7 @@ image: /images/songs/sooda/甘党.jpg
 
 ## 作品概要
 
-Soodaが2023-11-09にリリースしたシングル「甘党」。
+[Sooda](/ja/artists/creators/sooda)が2023-11-09にリリースしたシングル「甘党」。
 
 ## 視聴
 {{media-switcher::甘党}}

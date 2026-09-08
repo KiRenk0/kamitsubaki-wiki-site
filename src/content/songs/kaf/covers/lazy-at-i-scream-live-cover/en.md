@@ -195,6 +195,7 @@ And now we're lazy, we're lazy
 <div class="jp-lyric">
 Ooh, lazy, lazy
 </div>
+<div class="trans-lyric">Ooh, lazy, lazy</div>
 </div>
 
 <br />
@@ -217,12 +218,14 @@ Can we grow out? Whoa
 <div class="jp-lyric">
 Can we grow, can we grow
 </div>
+<div class="trans-lyric">Can we grow, can we grow</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Can we grow out? Whoa
 </div>
+<div class="trans-lyric">Can we grow out? Whoa</div>
 </div>
 
 <br />
@@ -231,18 +234,21 @@ Can we grow out? Whoa
 <div class="jp-lyric">
 Can we grow, can we grow
 </div>
+<div class="trans-lyric">Can we grow, can we grow</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Can we grow out? Whoa
 </div>
+<div class="trans-lyric">Can we grow out? Whoa</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Whoa, whoa, whoa
 </div>
+
 <div class="trans-lyric">Whoa, whoa, whoa</div>
 </div>
 
@@ -250,6 +256,8 @@ Whoa, whoa, whoa
 <div class="jp-lyric">
 Whoa, whoa, whoa
 </div>
+
+<div class="trans-lyric">Whoa, whoa, whoa</div>
 </div>
 
 <br />
@@ -258,24 +266,28 @@ Whoa, whoa, whoa
 <div class="jp-lyric">
 And he's mean talking
 </div>
+<div class="trans-lyric">And he's mean talking</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Bean stalking icy man
 </div>
+<div class="trans-lyric">Bean stalking icy man</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 My feet are walking over him
 </div>
+<div class="trans-lyric">My feet are walking over him</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Sneakers in his hand
 </div>
+
 <div class="trans-lyric">Sneakers in his hand</div>
 </div>
 
@@ -285,24 +297,28 @@ Sneakers in his hand
 <div class="jp-lyric">
 And with a picket for a knife
 </div>
+<div class="trans-lyric">And with a picket for a knife</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And a rocket to depart in
 </div>
+<div class="trans-lyric">And a rocket to depart in</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 My life had barely started
 </div>
+<div class="trans-lyric">My life had barely started</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 When you jumped all on my h-h-h-heart
 </div>
+
 <div class="trans-lyric">When you jumped all on my h-h-h-heart</div>
 </div>
 

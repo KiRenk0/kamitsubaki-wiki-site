@@ -17,7 +17,7 @@ image: /images/songs/mimi/yorutsumugi.jpg
 
 ## 作品概要
 
-MIMIが2021-10-15にリリースしたシングル「よるつむぎ」。
+[MIMI](/ja/artists/creators/mimi)が2021-10-15にリリースしたシングル「よるつむぎ」。
 
 ## 視聴
 {{media-switcher::よるつむぎ}}

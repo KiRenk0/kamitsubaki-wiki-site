@@ -192,6 +192,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [01:41.03]<ruby>さあ<rt class="roma">saa</rt></ruby><ruby>何処<rt class="furi">どこ</rt><rt class="roma">doko</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="cn-lyric">[01:41.03]来吧 无论去哪里都行吧</div>
 </div>
 
 <div class="lyric-line">
@@ -307,6 +308,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:02.37]<ruby>綺麗<rt class="furi">きれい</rt><rt class="roma">kirei</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:02.37]那是美丽的一天</div>
 </div>
 

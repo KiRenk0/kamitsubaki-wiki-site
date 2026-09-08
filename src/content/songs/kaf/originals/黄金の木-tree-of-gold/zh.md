@@ -201,12 +201,14 @@ image: /images/albums/kaf/guwa.jpg
 <div class="jp-lyric">
 [02:22.45]<ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>すべて<rt class="roma">subete</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:22.45]再见了 一切都消融于爱中</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:29.50]<ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>旅<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまったら<rt class="roma">shimattara</rt></ruby>
 </div>
+<div class="cn-lyric">[02:29.50]若结束了最后的旅程</div>
 </div>
 
 <div class="lyric-line">
@@ -276,18 +278,21 @@ image: /images/albums/kaf/guwa.jpg
 <div class="jp-lyric">
 [03:13.14]<ruby>ねえ<rt class="roma">nee</rt></ruby><ruby>どうして<rt class="roma">doushite</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>?
 </div>
+<div class="cn-lyric">[03:13.14]呐 为何我在这里？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:16.86]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>黄金<rt class="furi">おうごん</rt><rt class="roma">ougon</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>木<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>問<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>いかける<rt class="roma">ikakeru</rt></ruby>
 </div>
+<div class="cn-lyric">[03:16.86]我问那金色的树木</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:23.44]<ruby>問<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>いかける<rt class="roma">ikakeru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:23.44]询问</div>
 </div>
 
@@ -295,6 +300,7 @@ image: /images/albums/kaf/guwa.jpg
 <div class="jp-lyric">
 [03:36.19]<ruby>幼<rt class="furi">おさな</rt><rt class="roma">osana</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>過去<rt class="furi">かこ</rt><rt class="roma">kako</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>呪縛<rt class="furi">じゅばく</rt><rt class="roma">jubaku</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:36.19]成为幼时过去的咒缚</div>
 </div>
 
@@ -302,6 +308,7 @@ image: /images/albums/kaf/guwa.jpg
 <div class="jp-lyric">
 [03:42.56]<ruby>まだ<rt class="roma">mada</rt></ruby><ruby>取<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>憑<ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:42.56]依然附身缠绕</div>
 </div>
 
@@ -309,54 +316,64 @@ image: /images/albums/kaf/guwa.jpg
 <div class="jp-lyric">
 [03:48.96]<ruby>心中<rt class="furi">しんじゅう</rt><rt class="roma">shinjuu</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
+<div class="cn-lyric">[03:48.96]若要殉情 就与某时的我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:52.80]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>追憶<rt class="furi">ついおく</rt><rt class="roma">tsuioku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>あと<rt class="roma">ato</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[03:52.80]在你回忆之后进行吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:56.50]<ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>口<rt class="furi">くち</rt><rt class="roma">kuchi</rt></ruby><ruby>ずつ<rt class="roma">zutsu</rt></ruby><ruby>分け合<rt class="furi">わけあ</rt><rt class="roma">wakea</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[03:56.50]一口一口地分享</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:00.07]<ruby>青<rt class="furi">あお</rt><rt class="roma">ao</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>果実<rt class="furi">かじつ</rt><rt class="roma">kajitsu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby><ruby>ながら<rt class="roma">nagara</rt></ruby>
 </div>
+<div class="cn-lyric">[04:00.07]一边吃着青涩的果实</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:03.96]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>眺<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
 </div>
+<div class="cn-lyric">[04:03.96]若眺望你所见的世界</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:07.24]<ruby>毎秒<rt class="furi">まいびょう</rt><rt class="roma">maibyou</rt></ruby><ruby>色付<rt class="furi">いろづ</rt><rt class="roma">irozu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>華<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>やい<rt class="roma">yai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[04:07.24]每秒都染上色彩 变得华丽</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:10.76]<ruby>ねえ<rt class="roma">nee</rt></ruby><ruby>どうして<rt class="roma">doushite</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>?
 </div>
+<div class="cn-lyric">[04:10.76]呐 为何我在这里？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:14.73]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>黄金<rt class="furi">おうごん</rt><rt class="roma">ougon</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>木<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>問<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>いかける<rt class="roma">ikakeru</rt></ruby>
 </div>
+<div class="cn-lyric">[04:14.73]我问那金色的树木</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:21.17]<ruby>問<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>いかける<rt class="roma">ikakeru</rt></ruby>
 </div>
+
+<div class="cn-lyric">[04:21.17]询问</div>
 </div>
 
 </div>

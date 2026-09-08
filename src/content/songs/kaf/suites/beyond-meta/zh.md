@@ -43,6 +43,7 @@ image: /images/songs/kaf/track-1687478190.jpg
 <div class="jp-lyric">
 [00:15.15]Beyond meta, meta
 </div>
+<div class="cn-lyric">[00:15.15]超越元，元</div>
 </div>
 
 <br />
@@ -160,12 +161,14 @@ image: /images/songs/kaf/track-1687478190.jpg
 <div class="jp-lyric">
 [01:12.35]Let's go beyond, yeah
 </div>
+<div class="cn-lyric">[01:12.35]Let's go beyond, yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:14.39]Let's go beyond meta
 </div>
+<div class="cn-lyric">[01:14.39]Let's go beyond meta</div>
 </div>
 
 <br />
@@ -174,12 +177,14 @@ image: /images/songs/kaf/track-1687478190.jpg
 <div class="jp-lyric">
 [01:21.64]Beyond meta, meta
 </div>
+<div class="cn-lyric">[01:21.64]超越元，元</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:28.99]Beyond meta, meta
 </div>
+<div class="cn-lyric">[01:28.99]超越元，元</div>
 </div>
 
 <br />
@@ -248,30 +253,35 @@ image: /images/songs/kaf/track-1687478190.jpg
 <div class="jp-lyric">
 [02:11.71]<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby> I gotta be with ya, ya, ya, ya
 </div>
+<div class="cn-lyric">[02:11.71]无论何时 I gotta be with ya, ya, ya, ya</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:15.24]<ruby>画面<rt class="furi">がめん</rt><rt class="roma">gamen</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>超<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>次<rt class="furi">つぎ</rt><rt class="roma">tsugi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ステップ<rt class="roma">suteppu</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
+<div class="cn-lyric">[02:15.24]超越屏幕 迈向下一步</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:18.92]Let's go beyond, yeah
 </div>
+<div class="cn-lyric">[02:18.92]Let's go beyond, yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:20.87]Let's go beyond meta
 </div>
+<div class="cn-lyric">[02:20.87]Let's go beyond meta</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:22.71]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>着<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> You feel me, ya, ya, ya, ya
 </div>
+
 <div class="cn-lyric">[02:22.71]无论穿什么 You feel me, ya, ya, ya, ya</div>
 </div>
 
@@ -279,6 +289,7 @@ image: /images/songs/kaf/track-1687478190.jpg
 <div class="jp-lyric">
 [02:26.46]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>近<rt class="furi">ちか</rt><rt class="roma">chika</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> ya, ya, ya, ya
 </div>
+
 <div class="cn-lyric">[02:26.46]比谁都 更靠近 ya, ya, ya, ya</div>
 </div>
 
@@ -286,6 +297,7 @@ image: /images/songs/kaf/track-1687478190.jpg
 <div class="jp-lyric">
 [02:30.08]<ruby>そのまま<rt class="roma">sonomama</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>？
 </div>
+
 <div class="cn-lyric">[02:30.08]能拥抱真实的我吗？</div>
 </div>
 
@@ -293,12 +305,14 @@ image: /images/songs/kaf/track-1687478190.jpg
 <div class="jp-lyric">
 [02:33.53]Let's go beyond, yeah
 </div>
+<div class="cn-lyric">[02:33.53]Let's go beyond, yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:35.49]Let's go beyond meta
 </div>
+<div class="cn-lyric">[02:35.49]Let's go beyond meta</div>
 </div>
 
 <br />
@@ -307,6 +321,7 @@ image: /images/songs/kaf/track-1687478190.jpg
 <div class="jp-lyric">
 [02:38.16]<ruby>禁<rt class="furi">きん</rt><rt class="roma">kin</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>かも<rt class="roma">kamo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:38.16]也许是禁忌之恋</div>
 </div>
 
@@ -314,6 +329,7 @@ image: /images/songs/kaf/track-1687478190.jpg
 <div class="jp-lyric">
 [02:41.97]<ruby>でも<rt class="roma">demo</rt></ruby> <ruby>その<rt class="roma">sono</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>度<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:41.97]但是每次听到那声音</div>
 </div>
 
@@ -321,6 +337,7 @@ image: /images/songs/kaf/track-1687478190.jpg
 <div class="jp-lyric">
 [02:45.61]<ruby>深<rt class="furi">ふか</rt><rt class="roma">fuka</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> <ruby>深<rt class="furi">ふか</rt><rt class="roma">fuka</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> <ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ちる<rt class="roma">chiru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:45.61]深深 深深地坠落</div>
 </div>
 
@@ -328,6 +345,7 @@ image: /images/songs/kaf/track-1687478190.jpg
 <div class="jp-lyric">
 [02:48.38]I'm falling down, down
 </div>
+
 <div class="cn-lyric">[02:48.38]I'm falling down, down</div>
 </div>
 
@@ -335,6 +353,7 @@ image: /images/songs/kaf/track-1687478190.jpg
 <div class="jp-lyric">
 [02:50.37]I'm falling down
 </div>
+
 <div class="cn-lyric">[02:50.37]I'm falling down</div>
 </div>
 
@@ -342,6 +361,7 @@ image: /images/songs/kaf/track-1687478190.jpg
 <div class="jp-lyric">
 [02:52.19]Down in love with you
 </div>
+
 <div class="cn-lyric">[02:52.19]Down in love with you</div>
 </div>
 
@@ -351,30 +371,35 @@ image: /images/songs/kaf/track-1687478190.jpg
 <div class="jp-lyric">
 [03:03.21]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby> I wanna see ya, ya, ya, ya
 </div>
+<div class="cn-lyric">[03:03.21]无论何处 I wanna see ya, ya, ya, ya</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:07.10]<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby> I gotta be with ya, ya, ya, ya
 </div>
+<div class="cn-lyric">[03:07.10]无论何时 I gotta be with ya, ya, ya, ya</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:10.62]<ruby>画面<rt class="furi">がめん</rt><rt class="roma">gamen</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>超<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>次<rt class="furi">つぎ</rt><rt class="roma">tsugi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ステップ<rt class="roma">suteppu</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
+<div class="cn-lyric">[03:10.62]超越屏幕 迈向下一步</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:14.19]Let's go beyond, yeah
 </div>
+<div class="cn-lyric">[03:14.19]Let's go beyond, yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:16.06]Let's go beyond meta
 </div>
+<div class="cn-lyric">[03:16.06]Let's go beyond meta</div>
 </div>
 
 <br />
@@ -383,12 +408,14 @@ image: /images/songs/kaf/track-1687478190.jpg
 <div class="jp-lyric">
 [03:23.52]Beyond meta, meta
 </div>
+<div class="cn-lyric">[03:23.52]超越元，元</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:30.93]Beyond meta, meta
 </div>
+<div class="cn-lyric">[03:30.93]超越元，元</div>
 </div>
 
 </div>

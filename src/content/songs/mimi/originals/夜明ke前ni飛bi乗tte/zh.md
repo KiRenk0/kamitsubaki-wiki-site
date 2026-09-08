@@ -17,7 +17,7 @@ image: /images/songs/mimi/夜明ke前ni飛bi乗tte.jpg
 
 ## 作品简介
 
-MIMI于 2020-07-03 发行的单曲《夜明け前に飛び乗って》。
+[MIMI](/zh/artists/creators/mimi)于 2020-07-03 发行的单曲《夜明け前に飛び乗って》。
 
 ## 试听
 {{media-switcher::夜明け前に飛び乗って}}

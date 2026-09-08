@@ -1,6 +1,8 @@
 export const LIVE_EVENTS_POLL_INTERVAL = 30_000;
 export const LIVE_EVENTS_TIME_ZONE = 'Asia/Tokyo';
 export const LIVE_EVENTS_CACHE_PREFIX = 'kamitsubaki-live-events:v1';
+// 未公布 endAt 的活动按此时长视为“进行中”，超时后展示“已结束”
+export const LIVE_STATUS_DEFAULT_DURATION_MS = 6 * 60 * 60 * 1000;
 
 const dateParts = (date) => new Intl.DateTimeFormat('en-CA', {
   timeZone: LIVE_EVENTS_TIME_ZONE,
@@ -19,6 +21,26 @@ export function getJapanDateKey(date = new Date()) {
 
 export function getEventDateKey(event) {
   return getJapanDateKey(new Date(event.startAt));
+}
+
+export function resolveEventStatus(event, now = new Date()) {
+  if (event.status === 'cancelled') return 'cancelled';
+  const start = Date.parse(event.startAt);
+  if (!Number.isFinite(start)) return 'upcoming';
+
+  if (event.allDay) {
+    const eventDay = getJapanDateKey(new Date(start));
+    const today = getJapanDateKey(now);
+    if (eventDay < today) return 'ended';
+    if (eventDay > today) return 'upcoming';
+    return 'live';
+  }
+
+  const at = now.getTime();
+  if (at < start) return 'upcoming';
+  const end = event.endAt ? Date.parse(event.endAt) : Number.NaN;
+  const liveUntil = Number.isFinite(end) ? end : start + LIVE_STATUS_DEFAULT_DURATION_MS;
+  return at < liveUntil ? 'live' : 'ended';
 }
 
 export function buildEventsUrl(apiBase, params = {}) {

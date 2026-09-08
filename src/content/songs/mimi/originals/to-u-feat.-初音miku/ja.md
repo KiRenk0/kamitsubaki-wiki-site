@@ -17,7 +17,7 @@ image: /images/songs/mimi/to-u-feat.-初音miku.jpg
 
 ## 作品概要
 
-MIMIが2024-10-08にリリースしたシングル「To U (feat. 初音ミク)」。
+[MIMI](/ja/artists/creators/mimi)が2024-10-08にリリースしたシングル「To U (feat. 初音ミク)」。
 
 ## 視聴
 {{media-switcher::To U (feat. 初音ミク)}}

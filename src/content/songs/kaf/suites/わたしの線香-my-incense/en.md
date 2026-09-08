@@ -110,14 +110,18 @@ image: /images/songs/kaf/track-1688670244.jpg
 <div class="jp-lyric">
 [00:40.82]<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ごめん<rt class="roma">gomen</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
-<div class="trans-lyric">Sorry for being like this</div>
+<div class="trans-lyric">
+[00:40.82]Sorry for being like this
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:43.03]<ruby>お通夜<rt class="furi">おつや</rt><rt class="roma">otsuya</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>なぁ<rt class="roma">naa</rt></ruby>
 </div>
-<div class="trans-lyric">I hope we can meet at the wake</div>
+<div class="trans-lyric">
+[00:43.03]I hope we can meet at the wake
+</div>
 </div>
 
 <div class="lyric-line">
@@ -140,6 +144,7 @@ image: /images/songs/kaf/track-1688670244.jpg
 <div class="jp-lyric">
 [01:07.59]<ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby>
 </div>
+<div class="trans-lyric">[01:07.59]Eyes eyes eyes eyes</div>
 </div>
 
 <div class="lyric-line">
@@ -160,6 +165,7 @@ image: /images/songs/kaf/track-1688670244.jpg
 <div class="jp-lyric">
 [01:14.62]<ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>手<rt class="furi">しゅ</rt><rt class="roma">shu</rt></ruby><ruby>手<rt class="furi">しゅ</rt><rt class="roma">shu</rt></ruby><ruby>手<rt class="furi">しゅ</rt><rt class="roma">shu</rt></ruby>
 </div>
+<div class="trans-lyric">[01:14.62]Hands hands hands hands</div>
 </div>
 
 <div class="lyric-line">
@@ -182,6 +188,7 @@ image: /images/songs/kaf/track-1688670244.jpg
 <div class="jp-lyric">
 [01:22.05]<ruby>達磨<rt class="furi">だるま</rt><rt class="roma">daruma</rt></ruby><ruby>さん<rt class="roma">san</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="trans-lyric">[01:22.05]I loved you, Daruma-san</div>
 </div>
 
 <div class="lyric-line">
@@ -197,19 +204,22 @@ image: /images/songs/kaf/track-1688670244.jpg
 <div class="jp-lyric">
 [01:33.30]<ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>線香<rt class="furi">せんこう</rt><rt class="roma">senkou</rt></ruby><ruby>あげ<rt class="roma">age</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>ねぇ<rt class="roma">nee</rt></ruby><ruby>あげ<rt class="roma">age</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[01:33.30]Offer my incense, hey, offer it</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:38.29]<ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
-<div class="trans-lyric">It's not goodbye, you know</div>
+
+<div class="trans-lyric">[01:38.29]It's not goodbye, you know</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:40.42]偶<ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>参<rt class="furi">まい</rt><rt class="roma">mai</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+
 <div class="trans-lyric">[01:40.42]Come visit sometimes, okay?</div>
 </div>
 
@@ -217,6 +227,7 @@ image: /images/songs/kaf/track-1688670244.jpg
 <div class="jp-lyric">
 [01:43.58]<ruby>また<rt class="roma">mata</rt></ruby><ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby> <ruby>息<rt class="furi">いき</rt><rt class="roma">iki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>吐<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="trans-lyric">[01:43.58]Tomorrow again, I exhale</div>
 </div>
 
@@ -226,6 +237,7 @@ image: /images/songs/kaf/track-1688670244.jpg
 <div class="jp-lyric">
 [02:00.85]<ruby>息<rt class="furi">いき</rt><rt class="roma">iki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>吐<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:00.85]I exhale</div>
 </div>
 

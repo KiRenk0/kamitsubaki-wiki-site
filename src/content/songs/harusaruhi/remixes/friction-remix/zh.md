@@ -182,6 +182,7 @@ image: /images/songs/harusaruhi/single-1719580869.jpg
 <div class="jp-lyric">
 <ruby>焦燥<rt class="furi">しょうそう</rt><rt class="roma">shousou</rt></ruby> <ruby>なんで<rt class="roma">nande</rt></ruby>？
 </div>
+<div class="cn-lyric">焦躁 为什么？</div>
 </div>
 
 <div class="lyric-line">
@@ -237,72 +238,84 @@ image: /images/songs/harusaruhi/single-1719580869.jpg
 <div class="jp-lyric">
 <ruby>偽証<rt class="furi">ぎしょう</rt><rt class="roma">gishou</rt></ruby> <ruby>正解<rt class="furi">せいかい</rt><rt class="roma">seikai</rt></ruby> <ruby>生涯<rt class="furi">しょうがい</rt><rt class="roma">shougai</rt></ruby> fiction？
 </div>
+<div class="cn-lyric">伪证 正确答案 生涯 fiction？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>眠<rt class="furi">ねむ</rt><rt class="roma">nemu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>劣等<rt class="furi">れっとう</rt><rt class="roma">rettou</rt></ruby><ruby>さえ<rt class="roma">sae</rt></ruby>
 </div>
+<div class="cn-lyric">无法入睡 连自卑都</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>虚<rt class="furi">うつ</rt><rt class="roma">utsu</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>い<rt class="roma">i</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby> <ruby>期待<rt class="furi">きたい</rt><rt class="roma">kitai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> 哀 <ruby>ほっとい<rt class="roma">hottoi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">空虚 爱 对期待 悲哀 别管我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>理想<rt class="furi">りそう</rt><rt class="roma">risou</rt></ruby><ruby>肥大<rt class="furi">ひだい</rt><rt class="roma">hidai</rt></ruby>
 </div>
+<div class="cn-lyric">理想肥大</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>模倣<rt class="furi">もほう</rt><rt class="roma">mohou</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby> <ruby>解<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby> <ruby>障害<rt class="furi">しょうがい</rt><rt class="roma">shougai</rt></ruby> <ruby>メランコリー<rt class="roma">merankorii</rt></ruby>
 </div>
+<div class="cn-lyric">模仿的 解答 障碍 忧郁</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>エゴ<rt class="roma">ego</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>才<rt class="furi">さい</rt><rt class="roma">sai</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>プライド<rt class="roma">puraido</rt></ruby>
 </div>
+<div class="cn-lyric">自我也好 才能也好 看不见的自尊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>やり<rt class="roma">yari</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby> <ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">想做的事什么的 不知道</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ねえ<rt class="roma">nee</rt></ruby> <ruby>教<rt class="furi">おし</rt><rt class="roma">oshi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">呐 告诉我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>窮屈<rt class="furi">きゅうくつ</rt><rt class="roma">kyuukutsu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby> <ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">拘束的今天已经 破坏掉</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>掛<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>違<rt class="furi">ちが</rt><rt class="roma">chiga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> friction
 </div>
+<div class="cn-lyric">错位的 friction</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>焦燥<rt class="furi">しょうそう</rt><rt class="roma">shousou</rt></ruby> <ruby>なんで<rt class="roma">nande</rt></ruby>？
 </div>
+<div class="cn-lyric">焦躁 为什么？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:44.70]<ruby>退屈<rt class="furi">たいくつ</rt><rt class="roma">taikutsu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>想像<rt class="furi">そうぞう</rt><rt class="roma">souzou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>憂鬱<rt class="furi">ゆううつ</rt><rt class="roma">yuuutsu</rt></ruby><ruby>さえ<rt class="roma">sae</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:44.70]无聊的想象也好 忧郁也好</div>
 </div>
 
@@ -310,6 +323,7 @@ image: /images/songs/harusaruhi/single-1719580869.jpg
 <div class="jp-lyric">
 [01:49.87]<ruby>いっそ<rt class="roma">isso</rt></ruby> <ruby>いま<rt class="roma">ima</rt></ruby> <ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:49.87]不如 现在 破坏掉</div>
 </div>
 
@@ -317,12 +331,14 @@ image: /images/songs/harusaruhi/single-1719580869.jpg
 <div class="jp-lyric">
 <ruby>偽証<rt class="furi">ぎしょう</rt><rt class="roma">gishou</rt></ruby> <ruby>正解<rt class="furi">せいかい</rt><rt class="roma">seikai</rt></ruby> <ruby>生涯<rt class="furi">しょうがい</rt><rt class="roma">shougai</rt></ruby> fiction？
 </div>
+<div class="cn-lyric">伪证 正确答案 生涯 fiction？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:57.66]<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>せかけ<rt class="roma">sekake</rt></ruby><ruby>じゃん<rt class="roma">jan</rt></ruby> <ruby>脳<rt class="furi">のう</rt><rt class="roma">nou</rt></ruby><ruby>内<rt class="furi">ない</rt><rt class="roma">nai</rt></ruby> friction
 </div>
+
 <div class="cn-lyric">[01:57.66]不就是表面功夫吗 脑内 friction</div>
 </div>
 
@@ -330,6 +346,7 @@ image: /images/songs/harusaruhi/single-1719580869.jpg
 <div class="jp-lyric">
 [02:00.21]<ruby>破壊<rt class="furi">はかい</rt><rt class="roma">hakai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>完全<rt class="furi">かんぜん</rt><rt class="roma">kanzen</rt></ruby> show
 </div>
+
 <div class="cn-lyric">[02:00.21]破坏掉 完全的 show</div>
 </div>
 
@@ -337,6 +354,7 @@ image: /images/songs/harusaruhi/single-1719580869.jpg
 <div class="jp-lyric">
 [02:04.02]哀 <ruby>障害<rt class="furi">しょうがい</rt><rt class="roma">shougai</rt></ruby> 躁 <ruby>幻想<rt class="furi">げんそう</rt><rt class="roma">gensou</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:04.02]悲哀 障碍 躁动 幻想</div>
 </div>
 
@@ -344,6 +362,7 @@ image: /images/songs/harusaruhi/single-1719580869.jpg
 <div class="jp-lyric">
 [02:06.08]<ruby>眠<rt class="furi">ねむ</rt><rt class="roma">nemu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> no fiction
 </div>
+
 <div class="cn-lyric">[02:06.08]无法入睡 no fiction</div>
 </div>
 
@@ -351,54 +370,63 @@ image: /images/songs/harusaruhi/single-1719580869.jpg
 <div class="jp-lyric">
 <ruby>虚<rt class="furi">うつ</rt><rt class="roma">utsu</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>い<rt class="roma">i</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby> <ruby>期待<rt class="furi">きたい</rt><rt class="roma">kitai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> 哀 <ruby>ほっとい<rt class="roma">hottoi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">空虚 爱 对期待 悲哀 别管我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>理想<rt class="furi">りそう</rt><rt class="roma">risou</rt></ruby><ruby>肥大<rt class="furi">ひだい</rt><rt class="roma">hidai</rt></ruby>
 </div>
+<div class="cn-lyric">理想肥大</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>模倣<rt class="furi">もほう</rt><rt class="roma">mohou</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby> <ruby>解<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby> <ruby>障害<rt class="furi">しょうがい</rt><rt class="roma">shougai</rt></ruby> <ruby>メランコリー<rt class="roma">merankorii</rt></ruby>
 </div>
+<div class="cn-lyric">模仿的 解答 障碍 忧郁</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>エゴ<rt class="roma">ego</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>才<rt class="furi">さい</rt><rt class="roma">sai</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>プライド<rt class="roma">puraido</rt></ruby>
 </div>
+<div class="cn-lyric">自我也好 才能也好 看不见的自尊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>やり<rt class="roma">yari</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby> <ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">想做的事什么的 不知道</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ねえ<rt class="roma">nee</rt></ruby> <ruby>教<rt class="furi">おし</rt><rt class="roma">oshi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">呐 告诉我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>窮屈<rt class="furi">きゅうくつ</rt><rt class="roma">kyuukutsu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby> <ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">拘束的今天已经 破坏掉</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>掛<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>違<rt class="furi">ちが</rt><rt class="roma">chiga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> friction
 </div>
+<div class="cn-lyric">错位的 friction</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:24.57]<ruby>焦燥<rt class="furi">しょうそう</rt><rt class="roma">shousou</rt></ruby> <ruby>なんで<rt class="roma">nande</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:24.57]焦躁 为什么</div>
 </div>
 

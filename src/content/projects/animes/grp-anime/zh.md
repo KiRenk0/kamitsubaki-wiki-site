@@ -25,32 +25,32 @@ order: 1
 
 |  话数  |                   副标题                    |      编剧       |     对应歌曲      |    播出日期    |
 | :--: | :--------------------------------------: | :-----------: | :-----------: | :--------: |
-| 第1话  |       <ruby>井戸の底<rt>井底</rt></ruby>       |      鏡征爾      |     well      | 2024年10月9日 |
-| 第2话  |      <ruby>人形流し<rt>人偶漂流</rt></ruby>      |      鏡征爾      |     アライブ      |   10月16日   |
-| 第3话  |        <ruby>叛乱<rt>叛乱</rt></ruby>        |      鏡征爾      |     夢の揺籠      |   10月23日   |
-| 第4话  |       <ruby>塔唄<rt>塔之歌</rt></ruby>        |     唄胤すい      |     アバウト      |   10月30日   |
-| 第5话  |     <ruby>秘密の花園<rt>秘密花园</rt></ruby>      |     唄胤すい      |     シンユウ      |   11月6日    |
-| 第6话  |      <ruby>海底の魚<rt>海底之鱼</rt></ruby>      |       -       |    セルフィッシュ    |   11月13日   |
-| 第7话  |       <ruby>はじまり<rt>开始</rt></ruby>       |     唄胤すい      |     現世回帰      |   11月20日   |
+| 第1话  |       <ruby>井戸の底<rt>井底</rt></ruby>       |      鏡征爾      |     [well](/zh/songs/garasumiya/originals/well)      | 2024年10月9日 |
+| 第2话  |      <ruby>人形流し<rt>人偶漂流</rt></ruby>      |      鏡征爾      |     [アライブ](/zh/songs/hinageshi/originals/alive)      |   10月16日   |
+| 第3话  |        <ruby>叛乱<rt>叛乱</rt></ruby>        |      鏡征爾      |     [夢の揺籠](/zh/songs/kakyoin/originals/yume-no-yurikago)      |   10月23日   |
+| 第4话  |       <ruby>塔唄<rt>塔之歌</rt></ruby>        |     唄胤すい      |     [アバウト](/zh/songs/yunagi/originals/about)      |   10月30日   |
+| 第5话  |     <ruby>秘密の花園<rt>秘密花园</rt></ruby>      |     唄胤すい      |     [シンユウ](/zh/songs/orihime/originals/shin-yuu)      |   11月6日    |
+| 第6话  |      <ruby>海底の魚<rt>海底之鱼</rt></ruby>      |       -       |    [セルフィッシュ](/zh/songs/mikoto/originals/selfish)    |   11月13日   |
+| 第7话  |       <ruby>はじまり<rt>开始</rt></ruby>       |     唄胤すい      |     [現世回帰](/zh/songs/grp/originals/gense-kaiki)      |   11月20日   |
 | 第8话  |     <ruby>ドッペルゲンガー<rt>分身</rt></ruby>     |       -       |      アイ       |   11月27日   |
-| 第9话  |      <ruby>かくれんぼ<rt>捉迷藏</rt></ruby>      |       -       |     ジャンク      |   12月4日    |
-| 第10话 |  <ruby>神様が愛した素数<rt>神明所爱的素数</rt></ruby>   |       -       |     宇宙逃避行     |   12月11日   |
-| 第11话 |    <ruby>呪いのゲーム<rt>诅咒的游戏</rt></ruby>     |      鷹羽知      |   プレイヤーわたし    |   12月18日   |
-| 第12话 |        <ruby>電話<rt>电话</rt></ruby>        |       -       | Talking Doll  |   12月25日   |
-| 第13话 |     <ruby>ミラーハウス<rt>镜子屋</rt></ruby>      |     唄胤すい      |    アワセカガミ     | 2025年1月8日  |
-| 第14话 |    <ruby>死者の眠る森<rt>死者沉睡之森</rt></ruby>    |     唄胤すい      |    ガラスのパズル    |    2月5日    |
-| 第15话 |      <ruby>勇者の剣<rt>勇者之剑</rt></ruby>      | 秋山広行（THINKR）  |    シネマティック    |   2月12日    |
-| 第16话 |     <ruby>ピーターパン<rt>彼得潘</rt></ruby>      |       -       |      瞬き       |   2月19日    |
-| 第17话 | <ruby>メアリー・セレスト号<rt>玛丽·赛勒斯特号</rt></ruby> |       -       |     ANGER     |   3月12日    |
-| 第18话 |     <ruby>きさらぎ駅<rt>如月车站</rt></ruby>      |       -       |    キリガサガリキ    |   3月19日    |
-| 第19话 |     <ruby>ネッシー<rt>尼斯湖水怪</rt></ruby>      |       -       |    unknown    |   3月26日    |
-| 第20话 |       <ruby>杉沢村<rt>杉泽村</rt></ruby>       |       -       |     うそ鳴き      |    4月2日    |
-| 第21话 |       <ruby>マヨイガ<rt>迷家</rt></ruby>       |     唄胤すい      |  ホンキートンキーラブ   |   4月16日    |
-| 第22话 |      <ruby>エレベーター<rt>电梯</rt></ruby>      | 秋山広行（THINKR）  |     回想の層      |   4月23日    |
-| 第23话 | <ruby>忘却のリミナルスペース<rt>忘却的阈限空间</rt></ruby> | 秋山広行（THINKR）  | Yellow Yellow |   4月30日    |
-| 第24话 | <ruby>追憶のリミナルスペース<rt>追忆的阈限空间</rt></ruby> | 中田歩 (ヨーロッパ企画) |     SHOCK     |    5月7日    |
-| 第25话 |  <ruby>赤マント・青マント<rt>红斗篷与蓝斗篷</rt></ruby>  | 中田歩 (ヨーロッパ企画) | ミリオン・コンプレクシティ |   5月21日    |
-| 第26话 |    <ruby>ヲモヒノカタチ<rt>思念之形</rt></ruby>     | 中田歩 (ヨーロッパ企画) |   SURVIVAL    |    6月4日    |
+| 第9话  |      <ruby>かくれんぼ<rt>捉迷藏</rt></ruby>      |       -       |     [ジャンク](/zh/songs/hinageshi/originals/junk)      |   12月4日    |
+| 第10话 |  <ruby>神様が愛した素数<rt>神明所爱的素数</rt></ruby>   |       -       |     [宇宙逃避行](/zh/songs/kakyoin/originals/uchu-touhikou)     |   12月11日   |
+| 第11话 |    <ruby>呪いのゲーム<rt>诅咒的游戏</rt></ruby>     |      鷹羽知      |   [プレイヤーわたし](/zh/songs/yunagi/originals/player-watashi)    |   12月18日   |
+| 第12话 |        <ruby>電話<rt>电话</rt></ruby>        |       -       | [Talking Doll](/zh/songs/orihime/originals/talking-doll)  |   12月25日   |
+| 第13话 |     <ruby>ミラーハウス<rt>镜子屋</rt></ruby>      |     唄胤すい      |    [アワセカガミ](/zh/songs/mikoto/originals/awase-kagami)     | 2025年1月8日  |
+| 第14话 |    <ruby>死者の眠る森<rt>死者沉睡之森</rt></ruby>    |     唄胤すい      |    [ガラスのパズル](/zh/songs/garasumiya/originals/glass-no-puzzle)    |    2月5日    |
+| 第15话 |      <ruby>勇者の剣<rt>勇者之剑</rt></ruby>      | 秋山広行（THINKR）  |    [シネマティック](/zh/songs/kakyoin/originals/cinematic)    |   2月12日    |
+| 第16话 |     <ruby>ピーターパン<rt>彼得潘</rt></ruby>      |       -       |      [瞬き](/zh/songs/orihime/originals/mabataki)       |   2月19日    |
+| 第17话 | <ruby>メアリー・セレスト号<rt>玛丽·赛勒斯特号</rt></ruby> |       -       |     [ANGER](/zh/songs/orihime/originals/anger)     |   3月12日    |
+| 第18话 |     <ruby>きさらぎ駅<rt>如月车站</rt></ruby>      |       -       |    [キリガサガリキ](/zh/songs/kakyoin/originals/kirigasa-gariki)    |   3月19日    |
+| 第19话 |     <ruby>ネッシー<rt>尼斯湖水怪</rt></ruby>      |       -       |    [unknown](/zh/songs/garasumiya/originals/unknown)    |   3月26日    |
+| 第20话 |       <ruby>杉沢村<rt>杉泽村</rt></ruby>       |       -       |     [うそ鳴き](/zh/songs/sinseiki/originals/usonaki)      |    4月2日    |
+| 第21话 |       <ruby>マヨイガ<rt>迷家</rt></ruby>       |     唄胤すい      |  [ホンキートンキーラブ](/zh/songs/hinageshi/originals/honky-tonky-love)   |   4月16日    |
+| 第22话 |      <ruby>エレベーター<rt>电梯</rt></ruby>      | 秋山広行（THINKR）  |     [回想の層](/zh/songs/mikoto/originals/kaisou-no-sou)      |   4月23日    |
+| 第23话 | <ruby>忘却のリミナルスペース<rt>忘却的阈限空间</rt></ruby> | 秋山広行（THINKR）  | [Yellow Yellow](/zh/songs/yunagi/originals/yellow-yellow) |   4月30日    |
+| 第24话 | <ruby>追憶のリミナルスペース<rt>追忆的阈限空间</rt></ruby> | 中田歩 (ヨーロッパ企画) |     [SHOCK](/zh/songs/tsumitobatsu/originals/shock)     |    5月7日    |
+| 第25话 |  <ruby>赤マント・青マント<rt>红斗篷与蓝斗篷</rt></ruby>  | 中田歩 (ヨーロッパ企画) | [ミリオン・コンプレクシティ](/zh/songs/sinseiki/originals/million-complexity) |   5月21日    |
+| 第26话 |    <ruby>ヲモヒノカタチ<rt>思念之形</rt></ruby>     | 中田歩 (ヨーロッパ企画) |   [SURVIVAL](/zh/songs/tsumitobatsu/originals/survival)    |    6月4日    |
 | 第27话 |    <ruby>[少女革命計画](/zh/projects/labels/girls-revolution-project)<rt>少女革命计划</rt></ruby>    | 中田歩 (ヨーロッパ企画) |       -       |   6月18日    |
 
 ## 制作人员
@@ -63,4 +63,4 @@ order: 1
 - 作画监督：细田沙织 
 - 角色设计原案：[PALOW.](/zh/artists/creators/palow)
 - 角色设计：ちろり directed by PHASE STUDIO 
-- 制作人：PIEDPIPER
+- 制作人：[PIEDPIPER](/zh/artists/creators/piedpiper)

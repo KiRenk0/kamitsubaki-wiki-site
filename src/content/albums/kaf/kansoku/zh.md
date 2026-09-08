@@ -103,7 +103,7 @@ tracks:
 
 虚拟歌手花谱的首张个人专辑。
 
-这张专辑收录了15首歌曲，宛如对她自2018年10月出道以来11个月活动历程的一次深情回顾。其中不仅包含了《糸》《[忘れてしまえ](/zh/songs/kaf/originals/wasurete-shimae)》等早期作品、首支播放量破百万的《[心臓と絡繰](/zh/songs/kaf/originals/shinzou-to-karakuri)》，还有她在因高中入学考试暂停活动、顺利升学后发布的《[雛鳥](/zh/songs/kaf/originals/hinadori)》，以及达成第二次百万播放的《[過去を喰らう](/zh/songs/kaf/originals/kako-wo-kurau)》和电影《Hot Gimmick 女孩遇上男孩》的主题曲《[夜が降り止む前に](/zh/songs/kaf/originals/yoru-ga-furiyamu-mae-ni)》。此外，专辑还特别收录了她在8月1日首场个人演唱会“不可解”上首次公开演唱的多首新歌。
+这张专辑收录了15首歌曲，宛如对她自2018年10月出道以来11个月活动历程的一次深情回顾。其中不仅包含了《[糸](/zh/songs/kaf/originals/shi)》《[忘れてしまえ](/zh/songs/kaf/originals/wasurete-shimae)》等早期作品、首支播放量破百万的《[心臓と絡繰](/zh/songs/kaf/originals/shinzou-to-karakuri)》，还有她在因高中入学考试暂停活动、顺利升学后发布的《[雛鳥](/zh/songs/kaf/originals/hinadori)》，以及达成第二次百万播放的《[過去を喰らう](/zh/songs/kaf/originals/kako-wo-kurau)》和电影《Hot Gimmick 女孩遇上男孩》的主题曲《[夜が降り止む前に](/zh/songs/kaf/originals/yoru-ga-furiyamu-mae-ni)》。此外，专辑还特别收录了她在8月1日首场个人演唱会“[不可解](/zh/songs/kaf/originals/不可解-inexplicable)”上首次公开演唱的多首新歌。
 
 值得一提的是，那些早已在YouTube上发布过的早期曲目，也都经过了重新编曲、混音和录制，以焕然一新的面貌呈现。
 

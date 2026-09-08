@@ -67,6 +67,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [00:46.82]<ruby>わかってる<rt class="roma">wakatteru</rt></ruby>
 </div>
+<div class="cn-lyric">[00:46.82]我明白</div>
 </div>
 
 <br />
@@ -151,6 +152,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [01:34.05]<ruby>わかってる<rt class="roma">wakatteru</rt></ruby>
 </div>
+<div class="cn-lyric">[01:34.05]我明白</div>
 </div>
 
 <div class="lyric-line">
@@ -166,18 +168,21 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [01:55.89]<ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>簡単<rt class="furi">かんたん</rt><rt class="roma">kantan</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>詰<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>まる<rt class="roma">maru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>なぜ<rt class="roma">naze</rt></ruby>
 </div>
+<div class="cn-lyric">[01:55.89]为何在说再见这种简单的词时却卡住了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:02.96]<ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:02.96]就算让它结束也可以</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:06.52]<ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>せる<rt class="roma">seru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:06.52]如果要结束的话就是现在</div>
 </div>
 
 <br />
@@ -193,6 +198,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [02:14.05]<ruby>永久<rt class="furi">えいきゅう</rt><rt class="roma">eikyuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>たゆたう<rt class="roma">tayutau</rt></ruby><ruby>天上天下<rt class="furi">てんじょうてんげ</rt><rt class="roma">tenjoutenge</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:14.05]永远漂浮的天地之间</div>
 </div>
 
@@ -200,6 +206,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [02:17.69]<ruby>だけど<rt class="roma">dakedo</rt></ruby><ruby>いけ<rt class="roma">ike</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>い<rt class="roma">i</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby><ruby>いけ<rt class="roma">ike</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:17.69]但是不行 不能在此</div>
 </div>
 
@@ -207,6 +214,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [02:21.35]<ruby>引き止<rt class="furi">ひきと</rt><rt class="roma">hikito</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>様<rt class="furi">よう</rt><rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:21.35]像是挽留我的什么没有消失</div>
 </div>
 
@@ -216,18 +224,21 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [02:24.89]<ruby>沈<rt class="furi">しず</rt><rt class="roma">shizu</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>タイ<rt class="roma">tai</rt></ruby><ruby>タン<rt class="roma">tan</rt></ruby><ruby>号<rt class="furi">ごう</rt><rt class="roma">gou</rt></ruby> <ruby>燃<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>人形<rt class="furi">にんぎょう</rt><rt class="roma">ningyou</rt></ruby><ruby>町<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby>
 </div>
+<div class="cn-lyric">[02:24.89]沉没的泰坦号 燃烧的人形町</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:28.65]<ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>荒<rt class="furi">あら</rt><rt class="roma">ara</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>水<rt class="furi">みず</rt><rt class="roma">mizu</rt></ruby><ruby>金地<rt class="furi">きんじ</rt><rt class="roma">kinji</rt></ruby><ruby>火<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>木<rt class="furi">き</rt><rt class="roma">ki</rt></ruby>
 </div>
+<div class="cn-lyric">[02:28.65]声嘶力竭的水金地火木</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:32.05]<ruby>なのに<rt class="roma">nanoni</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:32.05]然而却不会消失 看似要消失却不会消失</div>
 </div>
 
@@ -235,6 +246,7 @@ image: /images/albums/rim/chocolate-live.jpg
 <div class="jp-lyric">
 [02:35.80]<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>ところ<rt class="roma">tokoro</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>消<rt class="furi">け</rt><rt class="roma">ke</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:35.80]在这样的地方不会消失 也不消去</div>
 </div>
 

@@ -9,6 +9,7 @@ import {
   getVisitorTimeZone,
   normalizeEventsPayload,
   readLiveEventsCache,
+  resolveEventStatus,
   writeLiveEventsCache,
 } from '../lib/liveEventsClient.js';
 
@@ -154,8 +155,9 @@ function mountLiveEvents(widget) {
       }
 
       const badge = document.createElement('span');
-      badge.className = `live-events__badge live-events__badge--${event.status}`;
-      badge.textContent = statusLabels[event.status] || copy.statusUpcoming;
+      const status = resolveEventStatus(event);
+      badge.className = `live-events__badge live-events__badge--${status}`;
+      badge.textContent = statusLabels[status] || copy.statusUpcoming;
 
       item.append(time, content, badge);
       if (event.url) {

@@ -159,13 +159,14 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どんな<rt class="roma">donna</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どんな<rt class="roma">donna</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="trans-lyric">What are days of love like? What is the meaning of love?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:28.95]<ruby>平和<rt class="furi">へいわ</rt><rt class="roma">heiwa</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>色<rt class="furi">しょく</rt><rt class="roma">shoku</rt></ruby> <ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>かも<rt class="roma">kamo</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>かも<rt class="roma">kamo</rt></ruby>
 </div>
-<div class="trans-lyric">What color is the sky of peace? Maybe tomorrow, maybe the distant future.</div>
+<div class="trans-lyric">[04:28.95]What color is the sky of peace? Maybe tomorrow, maybe the distant future.</div>
 </div>
 
 <br />
@@ -181,6 +182,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 <ruby>すべる<rt class="roma">suberu</rt></ruby><ruby>すべる<rt class="roma">suberu</rt></ruby> <ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby><ruby>とりどり<rt class="roma">toridori</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>バッチリ<rt class="roma">batchiri</rt></ruby>
 </div>
+
 <div class="trans-lyric">Gliding, gliding, colorful and perfect.</div>
 </div>
 

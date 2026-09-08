@@ -165,48 +165,56 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 [00:52.44]<ruby>お気に入<rt class="furi">おきにい</rt><rt class="roma">okinii</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby> COCO No.5
 </div>
+<div class="cn-lyric">[00:52.44]喷着我最爱的可可小姐5号</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:55.48]<ruby>鏡<rt class="furi">かがみ</rt><rt class="roma">kagami</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>鏡<rt class="furi">かがみ</rt><rt class="roma">kagami</rt></ruby> <ruby>ねぇ<rt class="roma">nee</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby>？Tell me why?
 </div>
+<div class="cn-lyric">[00:55.48]魔镜魔镜 告诉我 你在哪里？Tell me why?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:58.83]<ruby>お金<rt class="furi">おかね</rt><rt class="roma">okane</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>買<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>足<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[00:58.83]用钱能买到的东西还不够</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:02.11]<ruby>星<rt class="furi">ほし</rt><rt class="roma">hoshi</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>輝<rt class="furi">かがや</rt><rt class="roma">kagaya</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>ください<rt class="roma">kudasai</rt></ruby>
 </div>
+<div class="cn-lyric">[01:02.11]请给我比星辰更闪耀的东西</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:05.32]<ruby>お気に入<rt class="furi">おきにい</rt><rt class="roma">okinii</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby> COCO No.5
 </div>
+<div class="cn-lyric">[01:05.32]喷着我最爱的可可小姐5号</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:08.67]<ruby>鏡<rt class="furi">かがみ</rt><rt class="roma">kagami</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>鏡<rt class="furi">かがみ</rt><rt class="roma">kagami</rt></ruby> <ruby>ねぇ<rt class="roma">nee</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby>？Tell me why?
 </div>
+<div class="cn-lyric">[01:08.67]魔镜魔镜 告诉我 你在哪里？Tell me why?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:11.99]<ruby>お金<rt class="furi">おかね</rt><rt class="roma">okane</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>買<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>足<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[01:11.99]用钱能买到的东西还不够</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:15.34]<ruby>星<rt class="furi">ほし</rt><rt class="roma">hoshi</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>輝<rt class="furi">かがや</rt><rt class="roma">kagaya</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>ください<rt class="roma">kudasai</rt></ruby>
 </div>
+<div class="cn-lyric">[01:15.34]请给我比星辰更闪耀的东西</div>
 </div>
 
 <br />
@@ -271,6 +279,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 <div class="jp-lyric">
 Who's the finest of them all?
 </div>
+
 <div class="cn-lyric">Who's the finest of them all?</div>
 </div>
 
@@ -278,6 +287,7 @@ Who's the finest of them all?
 <div class="jp-lyric">
 [01:42.69]LANA, LANA on the wave, yeah
 </div>
+
 <div class="cn-lyric">[01:42.69]LANA, LANA on the wave, yeah</div>
 </div>
 
@@ -287,48 +297,56 @@ Who's the finest of them all?
 <div class="jp-lyric">
 [01:45.02]<ruby>お気に入<rt class="furi">おきにい</rt><rt class="roma">okinii</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby> COCO No.5
 </div>
+<div class="cn-lyric">[01:45.02]喷着我最爱的可可小姐5号</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:48.52]<ruby>鏡<rt class="furi">かがみ</rt><rt class="roma">kagami</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>鏡<rt class="furi">かがみ</rt><rt class="roma">kagami</rt></ruby> <ruby>ねぇ<rt class="roma">nee</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby>？Tell me why?
 </div>
+<div class="cn-lyric">[01:48.52]魔镜魔镜 告诉我 你在哪里？Tell me why?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:51.77]<ruby>お金<rt class="furi">おかね</rt><rt class="roma">okane</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>買<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>足<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[01:51.77]用钱能买到的东西还不够</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:55.05]<ruby>星<rt class="furi">ほし</rt><rt class="roma">hoshi</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>輝<rt class="furi">かがや</rt><rt class="roma">kagaya</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>ください<rt class="roma">kudasai</rt></ruby>
 </div>
+<div class="cn-lyric">[01:55.05]请给我比星辰更闪耀的东西</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:58.24]<ruby>お気に入<rt class="furi">おきにい</rt><rt class="roma">okinii</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby> COCO No.5
 </div>
+<div class="cn-lyric">[01:58.24]喷着我最爱的可可小姐5号</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:01.68]<ruby>鏡<rt class="furi">かがみ</rt><rt class="roma">kagami</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>鏡<rt class="furi">かがみ</rt><rt class="roma">kagami</rt></ruby> <ruby>ねぇ<rt class="roma">nee</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby>？Tell me why?
 </div>
+<div class="cn-lyric">[02:01.68]魔镜魔镜 告诉我 你在哪里？Tell me why?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:05.02]<ruby>お金<rt class="furi">おかね</rt><rt class="roma">okane</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>買<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>足<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:05.02]用钱能买到的东西还不够</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:08.28]<ruby>星<rt class="furi">ほし</rt><rt class="roma">hoshi</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>輝<rt class="furi">かがや</rt><rt class="roma">kagaya</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>ください<rt class="roma">kudasai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:08.28]请给我比星辰更闪耀的东西</div>
 </div>
 
 <br />
@@ -337,6 +355,7 @@ Who's the finest of them all?
 <div class="jp-lyric">
 [02:11.54]<ruby>止<rt class="furi">や</rt><rt class="roma">ya</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> rain
 </div>
+
 <div class="cn-lyric">[02:11.54]不停歇的 rain</div>
 </div>
 
@@ -344,6 +363,7 @@ Who's the finest of them all?
 <div class="jp-lyric">
 <ruby>超<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> pain
 </div>
+
 <div class="cn-lyric">跨越 pain</div>
 </div>
 
@@ -351,6 +371,7 @@ Who's the finest of them all?
 <div class="jp-lyric">
 [02:15.00]<ruby>各駅<rt class="furi">かくえき</rt><rt class="roma">kakueki</rt></ruby><ruby>無視<rt class="furi">むし</rt><rt class="roma">mushi</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>かっ飛<rt class="furi">かっと</rt><rt class="roma">katto</rt></ruby><ruby>ばす<rt class="roma">basu</rt></ruby> train
 </div>
+
 <div class="cn-lyric">[02:15.00]无视各站飞驰而过的 train</div>
 </div>
 
@@ -358,6 +379,7 @@ Who's the finest of them all?
 <div class="jp-lyric">
 [02:18.06]<ruby>燃え尽<rt class="furi">もえつ</rt><rt class="roma">moetsu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> good shit
 </div>
+
 <div class="cn-lyric">[02:18.06]不会燃尽的 good shit</div>
 </div>
 
@@ -365,6 +387,7 @@ Who's the finest of them all?
 <div class="jp-lyric">
 Studio <ruby>で<rt class="roma">de</rt></ruby><ruby>書<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>詩<rt class="furi">し</rt><rt class="roma">shi</rt></ruby>
 </div>
+
 <div class="cn-lyric">在录音室写的诗</div>
 </div>
 
@@ -372,6 +395,7 @@ Studio <ruby>で<rt class="roma">de</rt></ruby><ruby>書<rt class="furi">か</rt
 <div class="jp-lyric">
 [02:21.58]10<ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby><ruby>後<rt class="furi">ご</rt><rt class="roma">go</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>持<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>確信<rt class="furi">かくしん</rt><rt class="roma">kakushin</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:21.58]十年后也坚信不变</div>
 </div>
 
@@ -381,48 +405,56 @@ Studio <ruby>で<rt class="roma">de</rt></ruby><ruby>書<rt class="furi">か</rt
 <div class="jp-lyric">
 [02:24.73]<ruby>お気に入<rt class="furi">おきにい</rt><rt class="roma">okinii</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby> COCO No.5
 </div>
+<div class="cn-lyric">[02:24.73]喷着我最爱的可可小姐5号</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:28.20]<ruby>鏡<rt class="furi">かがみ</rt><rt class="roma">kagami</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>鏡<rt class="furi">かがみ</rt><rt class="roma">kagami</rt></ruby> <ruby>ねぇ<rt class="roma">nee</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby>？Tell me why?
 </div>
+<div class="cn-lyric">[02:28.20]魔镜魔镜 告诉我 你在哪里？Tell me why?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:31.50]<ruby>お金<rt class="furi">おかね</rt><rt class="roma">okane</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>買<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>足<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:31.50]用钱能买到的东西还不够</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:34.78]<ruby>星<rt class="furi">ほし</rt><rt class="roma">hoshi</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>輝<rt class="furi">かがや</rt><rt class="roma">kagaya</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>ください<rt class="roma">kudasai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:34.78]请给我比星辰更闪耀的东西</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:37.94]<ruby>お気に入<rt class="furi">おきにい</rt><rt class="roma">okinii</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby> COCO No.5
 </div>
+<div class="cn-lyric">[02:37.94]喷着我最爱的可可小姐5号</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:41.40]<ruby>鏡<rt class="furi">かがみ</rt><rt class="roma">kagami</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>鏡<rt class="furi">かがみ</rt><rt class="roma">kagami</rt></ruby> <ruby>ねぇ<rt class="roma">nee</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby>？Tell me why?
 </div>
+<div class="cn-lyric">[02:41.40]魔镜魔镜 告诉我 你在哪里？Tell me why?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:44.74]<ruby>お金<rt class="furi">おかね</rt><rt class="roma">okane</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>買<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>足<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:44.74]用钱能买到的东西还不够</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:47.98]<ruby>星<rt class="furi">ほし</rt><rt class="roma">hoshi</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>輝<rt class="furi">かがや</rt><rt class="roma">kagaya</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>ください<rt class="roma">kudasai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:47.98]请给我比星辰更闪耀的东西</div>
 </div>
 
 </div>

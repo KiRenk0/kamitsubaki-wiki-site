@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/area-g.jpg
 
 ## 作品简介
 
-Empty old City于 2022-02-08 发行的单曲《Area G》。
+[Empty old City](/zh/artists/solo/empty-old-city)于 2022-02-08 发行的单曲《Area G》。
 
 ## 试听
 {{media-switcher::Area G}}

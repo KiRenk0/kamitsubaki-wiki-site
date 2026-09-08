@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 
 ## Overview
 
-Season (Cover Live) appears on CREAM PUFF LIVE 4 (Cover Live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+Season (Cover Live) appears on [CREAM PUFF LIVE 4](/en/albums/harusaruhi/cream-puff-live-4) (Cover Live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -105,12 +105,14 @@ Cause I think that 35 years is long enough to keep it for you here
 <div class="jp-lyric">
 And now oh-oh you know
 </div>
+<div class="trans-lyric">And now oh-oh you know</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Whoa those years are gone
 </div>
+<div class="trans-lyric">Whoa those years are gone</div>
 </div>
 
 <div class="lyric-line">
@@ -145,6 +147,7 @@ Didn't I see what was lost or just who was paying your cost?
 <div class="jp-lyric">
 So let's lay this on the line
 </div>
+
 <div class="trans-lyric">So let's lay this on the line</div>
 </div>
 
@@ -152,6 +155,7 @@ So let's lay this on the line
 <div class="jp-lyric">
 What you have taken was mine
 </div>
+
 <div class="trans-lyric">What you have taken was mine</div>
 </div>
 
@@ -159,12 +163,14 @@ What you have taken was mine
 <div class="jp-lyric">
 You say you weren't thinking, just doing your drinking
 </div>
+<div class="trans-lyric">You say you weren't thinking, just doing your drinking</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You ripped up the book of my childhood
 </div>
+<div class="trans-lyric">You ripped up the book of my childhood</div>
 </div>
 
 </div>

@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/charm-feat.-achu.jpg
 
 ## 作品概要
 
-tokiwaが2021-08-26にリリースしたシングル「Charm (feat. Achu*)」。
+[tokiwa](/ja/artists/creators/tokiwa)が2021-08-26にリリースしたシングル「Charm (feat. Achu*)」。
 
 ## 視聴
 {{media-switcher::Charm (feat. Achu*)}}

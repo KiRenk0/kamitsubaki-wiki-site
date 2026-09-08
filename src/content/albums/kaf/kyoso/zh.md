@@ -101,7 +101,7 @@ tracks:
 
 ## 作品简介
 
-这是虚拟歌手[花谱](/zh/artists/vwp/kaf)的第三张专辑。收录曲目包括：电影《酷爱电影的庞波小姐》的插曲《[例えば](/zh/songs/kaf/originals/例えば-for-example)》、新·学园RPG游戏《Monark》的主题曲《[ニヒル](/zh/songs/kaf/originals/ニヒル-nihil)》、娱乐文库《キミノベル》创刊企划第二弹《[それを世界と言うんだね](/zh/songs/kaf/originals/それを世界と言うんだね-you-call-it-the-world)》。此外，还收录了《過去を喰らう》三部曲中的《[海に化ける](/zh/songs/kaf/originals/海に化ける-turn-into-the-sea)》、《[人を気取る](/zh/songs/kaf/originals/人を気取る-human-snob)》，以及《[不可解](/zh/songs/kaf/originals/不可解-inexplicable)》三部曲中的《[未観測](/zh/songs/kaf/originals/未観測-unobserved)》、《[狂感覚](/zh/songs/kaf/originals/狂感覚-crazy-sensation)》；为纪念花谱高中毕业而全新创作的《[裏表ガール](/zh/songs/kaf/originals/裏表ガール-two-faced-girl)》、《[邂逅](/zh/songs/kaf/originals/邂逅-chance-meeting)》，以及一首尚未公开歌名的新曲，共计15首。
+这是虚拟歌手[花谱](/zh/artists/vwp/kaf)的第三张专辑。收录曲目包括：电影《酷爱电影的庞波小姐》的插曲《[例えば](/zh/songs/kaf/originals/例えば-for-example)》、新·学园RPG游戏《Monark》的主题曲《[ニヒル](/zh/songs/kaf/originals/ニヒル-nihil)》、娱乐文库《キミノベル》创刊企划第二弹《[それを世界と言うんだね](/zh/songs/kaf/originals/それを世界と言うんだね-you-call-it-the-world)》。此外，还收录了《[過去を喰らう](/zh/songs/kaf/originals/kako-wo-kurau)》三部曲中的《[海に化ける](/zh/songs/kaf/originals/海に化ける-turn-into-the-sea)》、《[人を気取る](/zh/songs/kaf/originals/人を気取る-human-snob)》，以及《[不可解](/zh/songs/kaf/originals/不可解-inexplicable)》三部曲中的《[未観測](/zh/songs/kaf/originals/未観測-unobserved)》、《[狂感覚](/zh/songs/kaf/originals/狂感覚-crazy-sensation)》；为纪念花谱高中毕业而全新创作的《[裏表ガール](/zh/songs/kaf/originals/裏表ガール-two-faced-girl)》、《[邂逅](/zh/songs/kaf/originals/邂逅-chance-meeting)》，以及一首尚未公开歌名的新曲，共计15首。
 
 全碟词、曲及编曲均由神崎伊织包揽。专辑封面的插画由 PALOW 老师全新绘制，分别以专辑名《狂想》中的“狂”与“想”为主题。
 实体专辑分为两种包装，除了共通的CD《狂想》外，还分别附赠了α版和β版不同的周边礼盒（注：两个版本的CD曲目完全相同）。

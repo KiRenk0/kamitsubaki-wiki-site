@@ -261,24 +261,28 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 <div class="jp-lyric">
 [02:18.26]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>伸<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>ばす<rt class="roma">basu</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+<div class="cn-lyric">[02:18.26]只是伸出手</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:20.75]<ruby>終世<rt class="furi">しゅうせい</rt><rt class="roma">shuusei</rt></ruby> <ruby>終末<rt class="furi">しゅうまつ</rt><rt class="roma">shuumatsu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>臨<rt class="furi">のぞ</rt><rt class="roma">nozo</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby> <ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby> <ruby>游<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>像<rt class="furi">ぞう</rt><rt class="roma">zou</rt></ruby>
 </div>
+<div class="cn-lyric">[02:20.75]永世 末日降临的此时 今日 游移的未来景象</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:24.42]<ruby>傾<rt class="furi">かたむ</rt><rt class="roma">katamu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>次元<rt class="furi">じげん</rt><rt class="roma">jigen</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>視界<rt class="furi">しかい</rt><rt class="roma">shikai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>パレード<rt class="roma">pareedo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:24.42]倾斜的维度与视野的游行</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:27.18]<ruby>ベル<rt class="roma">beru</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>未<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>止<rt class="furi">や</rt><rt class="roma">ya</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:27.18]钟声仍未停止</div>
 </div>
 
 <br />
@@ -287,6 +291,7 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 <div class="jp-lyric">
 [02:30.83]<ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby> <ruby>終末<rt class="furi">しゅうまつ</rt><rt class="roma">shuumatsu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>襲<rt class="furi">おそ</rt><rt class="roma">oso</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby> <ruby>狂騒<rt class="furi">きょうそう</rt><rt class="roma">kyousou</rt></ruby> <ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>像<rt class="furi">ぞう</rt><rt class="roma">zou</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:30.83]啊啊 末日侵袭的此时 狂乱 未来景象</div>
 </div>
 
@@ -294,6 +299,7 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 <div class="jp-lyric">
 [02:34.11]<ruby>傾<rt class="furi">かたむ</rt><rt class="roma">katamu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>取り戻<rt class="furi">とりもど</rt><rt class="roma">torimodo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:34.11]夺回倾斜的世界</div>
 </div>
 
@@ -301,6 +307,7 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 <div class="jp-lyric">
 [02:37.19]<ruby>ベル<rt class="roma">beru</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ずつ<rt class="roma">zutsu</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まって<rt class="roma">matte</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:37.19]钟声渐渐停止</div>
 </div>
 
@@ -310,12 +317,14 @@ image: /images/albums/isekaijoucho/shikisai.jpg
 <div class="jp-lyric">
 [02:40.90]<ruby>暮<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[02:40.90]不要黄昏</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:45.85]<ruby>正<rt class="furi">ただ</rt><rt class="roma">tada</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>場所<rt class="furi">ばしょ</rt><rt class="roma">basho</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>戻<rt class="furi">もど</rt><rt class="roma">modo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ゆく<rt class="roma">yuku</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:45.85]回到正确的地方</div>
 </div>
 

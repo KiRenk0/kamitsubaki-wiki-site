@@ -187,12 +187,14 @@ image: /images/songs/vwp/single-1859927431.jpg
 <div class="jp-lyric">
 [01:36.46]<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>飲<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>みこん<rt class="roma">mikon</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>首<rt class="furi">くび</rt><rt class="roma">kubi</rt></ruby><ruby>絞<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>まって<rt class="roma">matte</rt></ruby>
 </div>
+<div class="cn-lyric">[01:36.46]这样吞咽 勒紧脖颈</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:39.09]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
+<div class="cn-lyric">[01:39.09]你也很痛吧？</div>
 </div>
 
 <div class="lyric-line">
@@ -206,6 +208,7 @@ image: /images/songs/vwp/single-1859927431.jpg
 <div class="jp-lyric">
 [01:44.93]Crazy! Crazy!
 </div>
+<div class="cn-lyric">[01:44.93]Crazy! Crazy!</div>
 </div>
 
 <div class="lyric-line">
@@ -261,6 +264,7 @@ image: /images/songs/vwp/single-1859927431.jpg
 <div class="jp-lyric">
 [02:25.65]<ruby>ほら<rt class="roma">hora</rt></ruby><ruby>罪<rt class="furi">つみ</rt><rt class="roma">tsumi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:25.65]看 在变成罪孽之前</div>
 </div>
 
@@ -268,6 +272,7 @@ image: /images/songs/vwp/single-1859927431.jpg
 <div class="jp-lyric">
 [02:29.69]「<ruby>ねえ<rt class="roma">nee</rt></ruby>？」
 </div>
+
 <div class="cn-lyric">[02:29.69]「呐？」</div>
 </div>
 
@@ -275,48 +280,56 @@ image: /images/songs/vwp/single-1859927431.jpg
 <div class="jp-lyric">
 [02:31.28]<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>飲<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>みこん<rt class="roma">mikon</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>首<rt class="furi">くび</rt><rt class="roma">kubi</rt></ruby><ruby>絞<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>まって<rt class="roma">matte</rt></ruby>
 </div>
+<div class="cn-lyric">[02:31.28]这样吞咽 勒紧脖颈</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:33.84]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
+<div class="cn-lyric">[02:33.84]你也很痛吧？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:36.44]<ruby>確<rt class="furi">たし</rt><rt class="roma">tashi</rt></ruby><ruby>かめ<rt class="roma">kame</rt></ruby><ruby>させ<rt class="roma">sase</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>
 </div>
+<div class="cn-lyric">[02:36.44]让我确认 只有我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:39.70]Crazy! Crazy!
 </div>
+<div class="cn-lyric">[02:39.70]Crazy! Crazy!</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:41.63]Take it out <ruby>信<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:41.63]Take it out 我相信着</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:46.86]<ruby>さあ<rt class="roma">saa</rt></ruby>、<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby><ruby>楽<rt class="furi">らく</rt><rt class="roma">raku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[02:46.86]来吧 现在就让我解脱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:50.44]<ruby>ほんと<rt class="roma">honto</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ふたり<rt class="roma">futari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なろ<rt class="roma">naro</rt></ruby>？
 </div>
+<div class="cn-lyric">[02:50.44]让我们成为真正的我们吧？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:53.08]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:53.08]再也不要放开</div>
 </div>
 

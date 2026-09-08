@@ -35,28 +35,36 @@ Tempest (feat. [幸祜](/en/artists/vwp/koko)) appears on Tempest or a related o
 <div class="jp-lyric">
 [00:19.50]Bruised but forgiven
 </div>
-<div class="trans-lyric">Bruised but forgiven</div>
+<div class="trans-lyric">
+[00:19.50]Bruised but forgiven
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:22.85]You talk like the world is against you
 </div>
-<div class="trans-lyric">You talk like the world is against you</div>
+<div class="trans-lyric">
+[00:22.85]You talk like the world is against you
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:27.75]You pull yourself to pieces
 </div>
-<div class="trans-lyric">You pull yourself to pieces</div>
+<div class="trans-lyric">
+[00:27.75]You pull yourself to pieces
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:32.36]But I'm never getting over you
 </div>
-<div class="trans-lyric">But I'm never getting over you</div>
+<div class="trans-lyric">
+[00:32.36]But I'm never getting over you
+</div>
 </div>
 
 <br />
@@ -65,11 +73,16 @@ Tempest (feat. [幸祜](/en/artists/vwp/koko)) appears on Tempest or a related o
 <div class="jp-lyric">
 [00:42.55]Give it some thought before you fall
 </div>
-<div class="trans-lyric">Give it some thought before you fall</div>
+<div class="trans-lyric">
+[00:42.55]Give it some thought before you fall
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
+[00:52.28]Give it some thought before you fall
+</div>
+<div class="trans-lyric">
 [00:52.28]Give it some thought before you fall
 </div>
 </div>
@@ -80,28 +93,36 @@ Tempest (feat. [幸祜](/en/artists/vwp/koko)) appears on Tempest or a related o
 <div class="jp-lyric">
 [00:59.92]I was fading out
 </div>
-<div class="trans-lyric">I was fading out</div>
+<div class="trans-lyric">
+[00:59.92]I was fading out
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:02.42]Like a whisper in the wind
 </div>
-<div class="trans-lyric">Like a whisper in the wind</div>
+<div class="trans-lyric">
+[01:02.42]Like a whisper in the wind
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:06.83]Wishing I was someone else, somewhere new
 </div>
-<div class="trans-lyric">Wishing I was someone else, somewhere new</div>
+<div class="trans-lyric">
+[01:06.83]Wishing I was someone else, somewhere new
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:11.58]Sailing away with you
 </div>
-<div class="trans-lyric">Sailing away with you</div>
+<div class="trans-lyric">
+[01:11.58]Sailing away with you
+</div>
 </div>
 
 <br />
@@ -110,28 +131,37 @@ Tempest (feat. [幸祜](/en/artists/vwp/koko)) appears on Tempest or a related o
 <div class="jp-lyric">
 [01:16.73]I won't turn away
 </div>
-<div class="trans-lyric">I won't turn away</div>
+<div class="trans-lyric">
+[01:16.73]I won't turn away
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:21.80]As you sail away from the shore
 </div>
-<div class="trans-lyric">As you sail away from the shore</div>
+<div class="trans-lyric">
+[01:21.80]As you sail away from the shore
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:26.72]I'm a castaway
 </div>
-<div class="trans-lyric">I'm a castaway</div>
+<div class="trans-lyric">
+[01:26.72]I'm a castaway
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:31.43]But I was dead and buried long before
 </div>
-<div class="trans-lyric">But I was dead and buried long before</div>
+
+<div class="trans-lyric">
+[01:31.43]But I was dead and buried long before
+</div>
 </div>
 
 <br />
@@ -140,10 +170,16 @@ Tempest (feat. [幸祜](/en/artists/vwp/koko)) appears on Tempest or a related o
 <div class="jp-lyric">
 [02:22.28]Give it some thought before you fall
 </div>
+<div class="trans-lyric">
+[02:22.28]Give it some thought before you fall
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
+[02:31.98]Give it some thought before you fall
+</div>
+<div class="trans-lyric">
 [02:31.98]Give it some thought before you fall
 </div>
 </div>
@@ -154,10 +190,16 @@ Tempest (feat. [幸祜](/en/artists/vwp/koko)) appears on Tempest or a related o
 <div class="jp-lyric">
 [02:37.25]I won't turn away
 </div>
+<div class="trans-lyric">
+[02:37.25]I won't turn away
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
+[02:42.19]As you sail away from the shore
+</div>
+<div class="trans-lyric">
 [02:42.19]As you sail away from the shore
 </div>
 </div>
@@ -166,10 +208,17 @@ Tempest (feat. [幸祜](/en/artists/vwp/koko)) appears on Tempest or a related o
 <div class="jp-lyric">
 [02:47.03]I'm a castaway
 </div>
+<div class="trans-lyric">
+[02:47.03]I'm a castaway
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
+[02:51.67]But I was dead and buried long before
+</div>
+
+<div class="trans-lyric">
 [02:51.67]But I was dead and buried long before
 </div>
 </div>

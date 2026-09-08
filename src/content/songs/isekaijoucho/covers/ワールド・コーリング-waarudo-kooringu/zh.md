@@ -220,6 +220,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [02:49.003]「Hello.Hello.<ruby>こっち<rt class="roma">kotchi</rt></ruby><ruby>向<rt class="furi">む</rt><rt class="roma">mu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>?」
 </div>
+<div class="cn-lyric">[02:49.003]「Hello.Hello.看向这边？」</div>
 </div>
 
 <div class="lyric-line">
@@ -268,6 +269,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [03:21.200]<ruby>なって<rt class="roma">natte</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:21.200]逐渐变成</div>
 </div>
 

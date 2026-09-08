@@ -36,7 +36,9 @@ image: /images/songs/kaf/track-1689187557.jpg
 <div class="jp-lyric">
 [00:00.17](Five, six)
 </div>
-<div class="trans-lyric">(Five, six)</div>
+<div class="trans-lyric">
+[00:00.17](Five, six)
+</div>
 </div>
 
 <br />
@@ -84,7 +86,9 @@ image: /images/songs/kaf/track-1689187557.jpg
 <div class="jp-lyric">
 [00:49.60]<ruby>髪<rt class="furi">かみ</rt><rt class="roma">kami</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> <ruby>な<rt class="roma">na</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>憑<ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>とき<rt class="roma">toki</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
-<div class="trans-lyric">From the hair, since the name possessed me</div>
+<div class="trans-lyric">
+[00:49.60]From the hair, since the name possessed me
+</div>
 </div>
 
 <div class="lyric-line">
@@ -165,6 +169,7 @@ image: /images/songs/kaf/track-1689187557.jpg
 <div class="jp-lyric">
 [01:58.49](Five, six)
 </div>
+<div class="trans-lyric">[01:58.49](Five, six)</div>
 </div>
 
 <br />
@@ -173,7 +178,7 @@ image: /images/songs/kaf/track-1689187557.jpg
 <div class="jp-lyric">
 [01:58.97](<ruby>木<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> <ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>)
 </div>
-<div class="trans-lyric">(Because it's not just for trees, we are)</div>
+<div class="trans-lyric">[01:58.97](Because it's not just for trees, we are)</div>
 </div>
 
 <div class="lyric-line">
@@ -217,6 +222,7 @@ image: /images/songs/kaf/track-1689187557.jpg
 <div class="jp-lyric">
 [03:02.90]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby> <ruby>筈<rt class="furi">はず</rt><rt class="roma">hazu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="trans-lyric">[03:02.90]I am supposed to be in love</div>
 </div>
 
 <br />
@@ -232,6 +238,7 @@ image: /images/songs/kaf/track-1689187557.jpg
 <div class="jp-lyric">
 [03:10.35]<ruby>爪<rt class="furi">つめ</rt><rt class="roma">tsume</rt></ruby><ruby>達<rt class="furi">たち</rt><rt class="roma">tachi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>騒ぎ出<rt class="furi">さわぎだ</rt><rt class="roma">sawagida</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>筈<rt class="furi">はず</rt><rt class="roma">hazu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:10.35]My nails are supposed to not start making any commotion at all</div>
 </div>
 
@@ -239,6 +246,7 @@ image: /images/songs/kaf/track-1689187557.jpg
 <div class="jp-lyric">
 [03:13.55]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>薄<rt class="furi">うす</rt><rt class="roma">usu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>暗闇<rt class="furi">くらやみ</rt><rt class="roma">kurayami</rt></ruby><ruby>しか<rt class="roma">shika</rt></ruby><ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>筈<rt class="furi">はず</rt><rt class="roma">hazu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:13.55]I am supposed to know only the thin darkness</div>
 </div>
 
@@ -248,6 +256,7 @@ image: /images/songs/kaf/track-1689187557.jpg
 <div class="jp-lyric">
 [03:40.35](Five, six)
 </div>
+<div class="trans-lyric">[03:40.35](Five, six)</div>
 </div>
 
 </div>

@@ -161,30 +161,35 @@ image: /images/songs/rim/single-1689357731.jpg
 <div class="jp-lyric">
 [01:49.32]<ruby>チクタクボーイ<rt class="roma">chikutakuboui</rt></ruby> <ruby>静<rt class="furi">しず</rt><rt class="roma">shizu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">[01:49.32]滴答男孩 静谧之夜</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:51.85]<ruby>チクタクボーイ<rt class="roma">chikutakuboui</rt></ruby> <ruby>乗っ取<rt class="furi">のっと</rt><rt class="roma">notto</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">[01:51.85]滴答男孩 夺走深夜</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:54.48]<ruby>天変地異<rt class="furi">てんぺんちい</rt><rt class="roma">tenpenchii</rt></ruby><ruby>と<rt class="roma">to</rt></ruby> <ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby>
 </div>
+<div class="cn-lyric">[01:54.48]天灾地变 世界末日</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:57.26]<ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>スイッチ<rt class="roma">suitchi</rt></ruby> <ruby>ピンポン<rt class="roma">pinpon</rt></ruby><ruby>ダッシュ<rt class="roma">dasshu</rt></ruby>
 </div>
+<div class="cn-lyric">[01:57.26]停止开关 按门铃逃</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:59.94]<ruby>チクタクボーイ<rt class="roma">chikutakuboui</rt></ruby> <ruby>時間<rt class="furi">じかん</rt><rt class="roma">jikan</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:59.94]滴答男孩 时间无多</div>
 </div>
 
@@ -192,6 +197,7 @@ image: /images/songs/rim/single-1689357731.jpg
 <div class="jp-lyric">
 [02:02.66]<ruby>チクタクボーイ<rt class="roma">chikutakuboui</rt></ruby> <ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:02.66]滴答男孩 疾飞而逝</div>
 </div>
 
@@ -199,6 +205,7 @@ image: /images/songs/rim/single-1689357731.jpg
 <div class="jp-lyric">
 [02:05.24]<ruby>天上天下<rt class="furi">てんじょうてんげ</rt><rt class="roma">tenjoutenge</rt></ruby> <ruby>まだ<rt class="roma">mada</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:05.24]天上天下 未曾逢你</div>
 </div>
 
@@ -206,6 +213,7 @@ image: /images/songs/rim/single-1689357731.jpg
 <div class="jp-lyric">
 [02:07.97]<ruby>ハッピーエンド<rt class="roma">happiiendo</rt></ruby> <ruby>ヒット<rt class="roma">hitto</rt></ruby>&amp;<ruby>ラン<rt class="roma">ran</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:07.97]幸福结局 打完就跑</div>
 </div>
 

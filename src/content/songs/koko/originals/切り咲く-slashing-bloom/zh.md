@@ -231,6 +231,7 @@ image: /images/songs/koko/single-1857604518.jpg
 <div class="jp-lyric">
 [02:32.00]<ruby>涙<rt class="furi">なみだ</rt><rt class="roma">namida</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>裂<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[02:32.00]撕裂泪水 生命绽放</div>
 </div>
 
 <div class="lyric-line">
@@ -244,6 +245,7 @@ image: /images/songs/koko/single-1857604518.jpg
 <div class="jp-lyric">
 [02:41.71]<ruby>途切<rt class="furi">とぎ</rt><rt class="roma">togi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>鼓動<rt class="furi">こどう</rt><rt class="roma">kodou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>結<rt class="furi">むす</rt><rt class="roma">musu</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[02:41.71]连接起断续的心跳</div>
 </div>
 
 <div class="lyric-line">
@@ -257,6 +259,7 @@ image: /images/songs/koko/single-1857604518.jpg
 <div class="jp-lyric">
 [02:51.55]<ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby> <ruby>癒<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>症状<rt class="furi">しょうじょう</rt><rt class="roma">shoujou</rt></ruby>
 </div>
+<div class="cn-lyric">[02:51.55]未知的情感 无法治愈的症状</div>
 </div>
 
 <div class="lyric-line">
@@ -270,6 +273,7 @@ image: /images/songs/koko/single-1857604518.jpg
 <div class="jp-lyric">
 [03:01.40]<ruby>灰色<rt class="furi">はいいろ</rt><rt class="roma">haiiro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>優<rt class="furi">やさ</rt><rt class="roma">yasa</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>刃<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:01.40]用温柔的刀刃将灰色世界</div>
 </div>
 
@@ -277,6 +281,7 @@ image: /images/songs/koko/single-1857604518.jpg
 <div class="jp-lyric">
 [03:07.26]<ruby>照<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>らし<rt class="roma">rashi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:07.26]照亮的前方</div>
 </div>
 
@@ -284,6 +289,7 @@ image: /images/songs/koko/single-1857604518.jpg
 <div class="jp-lyric">
 [03:07.26]<ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:07.26]光芒绽放</div>
 </div>
 

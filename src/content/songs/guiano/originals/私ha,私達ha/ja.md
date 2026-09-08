@@ -17,7 +17,7 @@ image: /images/songs/guiano/私ha,私達ha.jpg
 
 ## 作品概要
 
-Guianoが2023-03-21にリリースしたシングル「私は、私達は」。
+[Guiano](/ja/artists/creators/guiano)が2023-03-21にリリースしたシングル「私は、私達は」。
 
 ## 視聴
 {{media-switcher::私は、私達は}}

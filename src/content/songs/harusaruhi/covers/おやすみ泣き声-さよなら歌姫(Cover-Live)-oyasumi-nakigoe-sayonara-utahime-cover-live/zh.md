@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 
 ## 作品简介
 
-《おやすみ泣き声、さよなら歌姫 (Cover Live)》收录于《CREAM PUFF LIVE 4 (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《おやすみ泣き声、さよなら歌姫 (Cover Live)》收录于《[CREAM PUFF LIVE 4](/zh/albums/harusaruhi/cream-puff-live-4) (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -106,12 +106,14 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 [02:10.03]<ruby>歌声<rt class="furi">うたごえ</rt><rt class="roma">utagoe</rt></ruby> <ruby>歌声<rt class="furi">うたごえ</rt><rt class="roma">utagoe</rt></ruby> <ruby>でも<rt class="roma">demo</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">[02:10.03]歌声，歌声，可是你却在哭泣呢。</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:20.04]<ruby>泣き声<rt class="furi">なきごえ</rt><rt class="roma">nakigoe</rt></ruby> <ruby>泣き声<rt class="furi">なきごえ</rt><rt class="roma">nakigoe</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づけ<rt class="roma">zuke</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby>
 </div>
+<div class="cn-lyric">[02:20.04]哭声，哭声，我却没有察觉。</div>
 </div>
 
 <br />
@@ -127,6 +129,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 [02:37.09]<ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>4<ruby>小節<rt class="furi">しょうせつ</rt><rt class="roma">shousetsu</rt></ruby><ruby>君<rt class="furi">くん</rt><rt class="roma">kun</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:37.09]最后的四小节，你在歌唱。</div>
 </div>
 
@@ -134,6 +137,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 [02:41.08]<ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>4<ruby>小節<rt class="furi">しょうせつ</rt><rt class="roma">shousetsu</rt></ruby><ruby>君<rt class="furi">くん</rt><rt class="roma">kun</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>動<rt class="furi">うご</rt><rt class="roma">ugo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> <ruby>さよなら<rt class="roma">sayonara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:41.08]最后的四小节，你的心意在流动。再见。</div>
 </div>
 
@@ -143,12 +147,14 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 [03:11.00]<ruby>歌声<rt class="furi">うたごえ</rt><rt class="roma">utagoe</rt></ruby> <ruby>歌声<rt class="furi">うたごえ</rt><rt class="roma">utagoe</rt></ruby> <ruby>でも<rt class="roma">demo</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">[03:11.00]歌声，歌声，可是你却在哭泣呢。</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:21.09]<ruby>泣き声<rt class="furi">なきごえ</rt><rt class="roma">nakigoe</rt></ruby> <ruby>泣き声<rt class="furi">なきごえ</rt><rt class="roma">nakigoe</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づけ<rt class="roma">zuke</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby>
 </div>
+<div class="cn-lyric">[03:21.09]哭声，哭声，我却没有察觉。</div>
 </div>
 
 </div>

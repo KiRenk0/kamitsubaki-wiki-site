@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/villain.jpg
 
 ## 作品概要
 
-Empty old Cityが2022-03-22にリリースしたシングル「Villain」。
+[Empty old City](/ja/artists/solo/empty-old-city)が2022-03-22にリリースしたシングル「Villain」。
 
 ## 視聴
 {{media-switcher::Villain}}

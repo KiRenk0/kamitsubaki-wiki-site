@@ -16,7 +16,7 @@ image: /images/songs/empty-old-city/goosuto警告wo唄u-english-ver.jpg
 
 ## 作品简介
 
-Empty old City于 2024-07-30 发行的单曲《ゴースト警告を唄う (English Ver.)》。
+[Empty old City](/zh/artists/solo/empty-old-city)于 2024-07-30 发行的单曲《ゴースト警告を唄う (English Ver.)》。
 
 ## 试听
 {{media-switcher::ゴースト警告を唄う (English Ver.)}}

@@ -17,7 +17,7 @@ image: /images/songs/mimi/触reteitaidake-feat.-月.jpg
 
 ## 作品简介
 
-MIMI于 2024-03-10 发行的单曲《触れていたいだけ (feat. 月)》。
+[MIMI](/zh/artists/creators/mimi)于 2024-03-10 发行的单曲《触れていたいだけ (feat. 月)》。
 
 ## 试听
 {{media-switcher::触れていたいだけ (feat. 月)}}

@@ -261,36 +261,42 @@ image: /images/songs/kaf/track-1783267960.jpg
 <div class="jp-lyric">
 <ruby>ちょい<rt class="roma">choi</rt></ruby><ruby>マシ<rt class="roma">mashi</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>最悪<rt class="furi">さいあく</rt><rt class="roma">saiaku</rt></ruby> <ruby>どこ<rt class="roma">doko</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>駆け抜<rt class="furi">かけぬ</rt><rt class="roma">kakenu</rt></ruby><ruby>けよ<rt class="roma">keyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">稍有改善的最糟状况 要奔向何方</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 “<ruby>あの<rt class="roma">ano</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby>”<ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> “<ruby>いつか<rt class="roma">itsuka</rt></ruby>”<ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">不是那一天 也不是某一天</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>歴史<rt class="furi">れきし</rt><rt class="roma">rekishi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>“<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby>”<ruby>に<rt class="roma">ni</rt></ruby><ruby>未練<rt class="furi">みれん</rt><rt class="roma">miren</rt></ruby><ruby>なんか<rt class="roma">nanka</rt></ruby> <ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+<div class="cn-lyric">对既非历史亦非梦想的'现在' 并无留恋 对吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ちょい<rt class="roma">choi</rt></ruby><ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>かも<rt class="roma">kamo</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby> <ruby>傷<rt class="furi">きず</rt><rt class="roma">kizu</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>デカ<rt class="roma">deka</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
+<div class="cn-lyric">虽然可能有点痛 伤口也很大</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>貼<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>絆創膏<rt class="furi">ばんそうこう</rt><rt class="roma">bansoukou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>キャラ<rt class="roma">kyara</rt></ruby>
 </div>
+<div class="cn-lyric">贴了也没意义 创可贴的角色</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:03.00]<ruby>大丈夫<rt class="furi">だいじょうぶ</rt><rt class="roma">daijoubu</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby> <ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>せい<rt class="roma">sei</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>笑<rt class="furi">えみ</rt><rt class="roma">emi</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:03.00]说着没关系 是错觉吧 笑</div>
 </div>
 
@@ -300,12 +306,14 @@ image: /images/songs/kaf/track-1783267960.jpg
 <div class="jp-lyric">
 <ruby>代替<rt class="furi">だいたい</rt><rt class="roma">daitai</rt></ruby><ruby>代替<rt class="furi">だいたい</rt><rt class="roma">daitai</rt></ruby><ruby>代替<rt class="furi">だいたい</rt><rt class="roma">daitai</rt></ruby><ruby>嬉々<rt class="furi">きき</rt><rt class="roma">kiki</rt></ruby>
 </div>
+<div class="cn-lyric">替代替代替代欢喜</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>だいたい<rt class="roma">daitai</rt></ruby><ruby>だいたい<rt class="roma">daitai</rt></ruby><ruby>だいたい<rt class="roma">daitai</rt></ruby><ruby>危機<rt class="furi">きき</rt><rt class="roma">kiki</rt></ruby>
 </div>
+<div class="cn-lyric">大概大概大概危机</div>
 </div>
 
 <br />

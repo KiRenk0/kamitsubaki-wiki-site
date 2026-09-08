@@ -105,6 +105,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:36.09]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>作<rt class="furi">つく</rt><rt class="roma">tsuku</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>?
 </div>
+<div class="cn-lyric">[00:36.09]做什么好呢？</div>
 </div>
 
 <br />
@@ -120,6 +121,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:42.79]<ruby>ああ<rt class="roma">aa</rt></ruby> <ruby>ごちそうさま<rt class="roma">gochisousama</rt></ruby>
 </div>
+
 <div class="cn-lyric">[00:42.79]啊 多谢款待</div>
 </div>
 

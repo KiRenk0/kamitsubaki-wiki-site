@@ -10,7 +10,7 @@ debutDate: ""
 profileTagline: "2020年3月から活動するボカロP。暗く冷たい雰囲気の歌詞とサウンドスケープ、多彩なメロディ展開が特徴。"
 designCredits: []
 affiliations:
-  - "KAMITSUBAKI STUDIO"
+  - "KYOKAI STUDIO"
 officialLinks:
   - label: "YouTube"
     href: "https://www.youtube.com/channel/UCqETmB5g96_4uPgHozWm_4Q"
@@ -45,21 +45,28 @@ seo:
     - "ボカロP"
 ---
 
+
 ## 概要
 
 廉（Ren）は 2020年3月から楽曲を発表し始めたボカロPである。暗く冷たい雰囲気の歌詞とサウンドスケープで、没入感のある映画的なリスニング体験を生み出すことが特徴。陰鬱なトーンパレットの中にも、多彩で創造的なメロディ展開を織り交ぜ、予想外のハーモニーや構成の変化でリスナーを引き続ける。
+
 
 ## 代表作品
 
 「[余命日記](/ja/songs/ren/originals/余命日記)」「[嘘月が綺麗ですね](/ja/songs/ren/originals/嘘月ga綺麗desune)」「[レグルスリベリオン](/ja/songs/ren/originals/regurusuriberion)」「[エメの鳥籠](/ja/songs/ren/originals/emeno鳥籠)」「[バレットシャーク](/ja/songs/ren/originals/barettoshaaku)」「[化猫横丁](/ja/songs/ren/originals/化猫横丁)」など、物語の深みをアトモスフェリックなエレクトロニックプロダクションに織り込む能力を示す作品を多数発表している。
 
+
 ## コラボレーションと最近の活動
 
 Ren のキャリアにおける重要なマイルストーンとして、Shido、Koyuku とのコラボレーション楽曲「詩月灯りに幸福を」のミュージックビデオが 2025年11月5日に公開された。このクロスクリエイター企画は、Ren のコラボレーション精神と、ダークな美学を他のクリエイターの声と融合させる能力を示すものとなった。
 
+- 2026年9月：THINKRのスタジオ再編に伴い、[KYOKAI STUDIO](/ja/projects/labels/kyokai-studio) へ移籍（旧・[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) 体系）。
+
+
 ## 役割と創作上の位置づけ
 
 Ren のプロダクションは、冷たいアトモスフェリックな質感と感情的な物語性に特徴付けられる、ボカロシーンのより暗い領域を占めている。多彩なメロディアプローチにより、特徴的な陰鬱なフレームワークの中でも、各楽曲が独自の感情の旅を提供している。2020 年以降の作品群は、現代ボカロプロデューサーシーンにおける注目すべき声としての地位を確立しつつある。
+
 
 ## 作品リスト
 
@@ -70,6 +77,7 @@ Ren のプロダクションは、冷たいアトモスフェリックな質感�
 - 「バレットシャーク」
 - 「化猫横丁」
 - 「詩月灯りに幸福を」（Shido、Koyuku との共作）
+
 
 ## 外部リンク
 

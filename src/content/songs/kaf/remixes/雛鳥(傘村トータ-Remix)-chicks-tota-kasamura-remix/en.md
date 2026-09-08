@@ -121,7 +121,9 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 [01:11.58]<ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>追<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>おい<rt class="roma">oi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="trans-lyric">You said you'd chase your dreams</div>
+<div class="trans-lyric">
+[01:11.58]You said you'd chase your dreams
+</div>
 </div>
 
 <div class="lyric-line">
@@ -195,6 +197,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 [02:32.99]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
+<div class="trans-lyric">[02:32.99]To the sky without you</div>
 </div>
 
 <br />
@@ -245,14 +248,14 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 [03:00.75]「<ruby>ばか<rt class="roma">baka</rt></ruby>」<ruby>って<rt class="roma">tte</rt></ruby>
 </div>
-<div class="trans-lyric">Saying 'idiot'</div>
+<div class="trans-lyric">[03:00.75]Saying 'idiot'</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:02.44]<ruby>それで<rt class="roma">sorede</rt></ruby><ruby>おしまい<rt class="roma">oshimai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="trans-lyric">Let's end it with that</div>
+<div class="trans-lyric">[03:02.44]Let's end it with that</div>
 </div>
 
 <br />
@@ -282,13 +285,14 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 [03:23.82]<ruby>置<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
-<div class="trans-lyric">I'll leave you behind</div>
+<div class="trans-lyric">[03:23.82]I'll leave you behind</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:29.58]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:29.58]To the sky without you</div>
 </div>
 

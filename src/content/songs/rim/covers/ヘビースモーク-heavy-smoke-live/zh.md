@@ -116,6 +116,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [01:24.85]<ruby>ヘビースモーク<rt class="roma">hebiisumouku</rt></ruby>
 </div>
+<div class="cn-lyric">[01:24.85]重度吸烟</div>
 </div>
 
 <div class="lyric-line">
@@ -168,6 +169,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [02:20.29]<ruby>ヘビースモーク<rt class="roma">hebiisumouku</rt></ruby>
 </div>
+<div class="cn-lyric">[02:20.29]重度吸烟</div>
 </div>
 
 <div class="lyric-line">
@@ -188,18 +190,21 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [02:34.32]<ruby>ヘビースモーク<rt class="roma">hebiisumouku</rt></ruby>
 </div>
+<div class="cn-lyric">[02:34.32]重度吸烟</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:36.23]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>深<rt class="furi">ふか</rt><rt class="roma">fuka</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>吸い込<rt class="furi">すいこ</rt><rt class="roma">suiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[02:36.23]或者深深吸一口</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:40.39]<ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>以上<rt class="furi">いじょう</rt><rt class="roma">ijou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>身体<rt class="furi">しんたい</rt><rt class="roma">shintai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>蝕<rt class="furi">むしば</rt><rt class="roma">mushiba</rt></ruby><ruby>め<rt class="roma">me</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:40.39]比你还深地侵蚀身体</div>
 </div>
 
@@ -209,6 +214,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [02:49.27]<ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>は<rt class="roma">ha</rt></ruby><ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>かってる<rt class="roma">katteru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:49.27]其实我都明白</div>
 </div>
 
@@ -216,6 +222,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [02:55.25]<ruby>掴<rt class="furi">つか</rt><rt class="roma">tsuka</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:55.25]就像想抓住就会消失的</div>
 </div>
 
@@ -223,6 +230,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [03:03.29]<ruby>煙<rt class="furi">けむ</rt><rt class="roma">kemu</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>女<rt class="furi">おんな</rt><rt class="roma">onna</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>依存<rt class="furi">いぞん</rt><rt class="roma">izon</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:03.29]你依赖着像烟雾一样的女人</div>
 </div>
 
@@ -232,36 +240,42 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [03:16.33]<ruby>ヘビースモーク<rt class="roma">hebiisumouku</rt></ruby>
 </div>
+<div class="cn-lyric">[03:16.33]重度吸烟</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:18.27]<ruby>手持ち無沙汰<rt class="furi">てもちぶさた</rt><rt class="roma">temochibusata</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
 </div>
+<div class="cn-lyric">[03:18.27]如果手头无聊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:22.66]<ruby>両<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>握<rt class="furi">にぎ</rt><rt class="roma">nigi</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>拘束<rt class="furi">こうそく</rt><rt class="roma">kousoku</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>
 </div>
+<div class="cn-lyric">[03:22.66]我会握住你的双手 约束你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:30.05]<ruby>ヘビースモーク<rt class="roma">hebiisumouku</rt></ruby>
 </div>
+<div class="cn-lyric">[03:30.05]重度吸烟</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:31.93]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>深<rt class="furi">ふか</rt><rt class="roma">fuka</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>吸い込<rt class="furi">すいこ</rt><rt class="roma">suiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[03:31.93]或者深深吸一口</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:35.95]<ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>色<rt class="furi">しょく</rt><rt class="roma">shoku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>なり<rt class="roma">nari</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">[03:35.95]我也想染上你的颜色</div>
 </div>
 
 <br />
@@ -270,42 +284,51 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [03:44.34]<ruby>ヘビースモーク<rt class="roma">hebiisumouku</rt></ruby>
 </div>
+<div class="cn-lyric">[03:44.34]重度吸烟</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:45.90]<ruby>口<rt class="furi">くち</rt><rt class="roma">kuchi</rt></ruby><ruby>寂<rt class="furi">さび</rt><rt class="roma">sabi</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
 </div>
+<div class="cn-lyric">[03:45.90]如果口中寂寞</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:50.96]<ruby>その<rt class="roma">sono</rt></ruby><ruby>口<rt class="furi">くち</rt><rt class="roma">kuchi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>がち<rt class="roma">gachi</rt></ruby><ruby>ゅってして<rt class="roma">yutteshite</rt></ruby><ruby>拘束<rt class="furi">こうそく</rt><rt class="roma">kousoku</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>
 </div>
+<div class="cn-lyric">[03:50.96]我会用亲吻封住你的嘴 约束你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:57.97]<ruby>ヘビースモーク<rt class="roma">hebiisumouku</rt></ruby>
 </div>
+<div class="cn-lyric">[03:57.97]重度吸烟</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:59.71]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>深<rt class="furi">ふか</rt><rt class="roma">fuka</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>吸い込<rt class="furi">すいこ</rt><rt class="roma">suiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[03:59.71]或者深深吸一口</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:03.68]<ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>以上<rt class="furi">いじょう</rt><rt class="roma">ijou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>身体<rt class="furi">しんたい</rt><rt class="roma">shintai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>蝕<rt class="furi">むしば</rt><rt class="roma">mushiba</rt></ruby><ruby>め<rt class="roma">me</rt></ruby>
 </div>
+
+<div class="cn-lyric">[04:03.68]比你还深地侵蚀身体</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:12.05]<ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>以上<rt class="furi">いじょう</rt><rt class="roma">ijou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>身体<rt class="furi">しんたい</rt><rt class="roma">shintai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>蝕<rt class="furi">むしば</rt><rt class="roma">mushiba</rt></ruby><ruby>め<rt class="roma">me</rt></ruby>
 </div>
+
+<div class="cn-lyric">[04:12.05]比你还深地侵蚀身体</div>
 </div>
 
 </div>

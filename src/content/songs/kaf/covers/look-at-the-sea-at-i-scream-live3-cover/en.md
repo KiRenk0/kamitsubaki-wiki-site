@@ -66,42 +66,54 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [00:31.27]Look at the sea look at the flow
 </div>
-<div class="trans-lyric">Look at the sea look at the flow</div>
+<div class="trans-lyric">
+[00:31.27]Look at the sea look at the flow
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:36.03]Look at the bird
 </div>
-<div class="trans-lyric">Look at the bird</div>
+<div class="trans-lyric">
+[00:36.03]Look at the bird
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:38.09]<ruby>醒<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
-<div class="trans-lyric">Please don't wake up</div>
+<div class="trans-lyric">
+[00:38.09]Please don't wake up
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:41.44]Look at the sea look at the sky
 </div>
-<div class="trans-lyric">Look at the sea look at the sky</div>
+<div class="trans-lyric">
+[00:41.44]Look at the sea look at the sky
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:46.10]Look at the moon
 </div>
-<div class="trans-lyric">Look at the moon</div>
+<div class="trans-lyric">
+[00:46.10]Look at the moon
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:48.29]<ruby>醒<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>ねえ<rt class="roma">nee</rt></ruby>
 </div>
-<div class="trans-lyric">Please don't wake up, hey</div>
+<div class="trans-lyric">
+[00:48.29]Please don't wake up, hey
+</div>
 </div>
 
 <br />
@@ -140,36 +152,42 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [01:20.48]Look at the sea look at the flow
 </div>
+<div class="trans-lyric">[01:20.48]Look at the sea look at the flow</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:25.35]Look at the bird
 </div>
+<div class="trans-lyric">[01:25.35]Look at the bird</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:27.36]<ruby>醒<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="trans-lyric">[01:27.36]Please don't wake up</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:30.78]Look at the sea look at the sky
 </div>
+<div class="trans-lyric">[01:30.78]Look at the sea look at the sky</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:35.26]Look at the moon
 </div>
+<div class="trans-lyric">[01:35.26]Look at the moon</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:37.49]<ruby>醒<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="trans-lyric">[01:37.49]Please don't wake up</div>
 </div>
 
 <br />
@@ -199,20 +217,22 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [01:56.53]<ruby>気付<rt class="furi">きづ</rt><rt class="roma">kizu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ふり<rt class="roma">furi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="trans-lyric">It's okay even if you pretend not to notice</div>
+<div class="trans-lyric">[01:56.53]It's okay even if you pretend not to notice</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:59.06]<ruby>おそれ<rt class="roma">osore</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
-<div class="trans-lyric">Don't be afraid, don't change</div>
+
+<div class="trans-lyric">[01:59.06]Don't be afraid, don't change</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:01.63]<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:01.63]Just the two of us in the world is fine</div>
 </div>
 
@@ -220,6 +240,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [02:04.23]<ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:04.23]Hold hands, don't let go</div>
 </div>
 
@@ -227,6 +248,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [02:06.61]<ruby>醒<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="trans-lyric">[02:06.61]Please don't wake up</div>
 </div>
 
 <br />
@@ -235,6 +257,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [02:10.49]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>髪<rt class="furi">かみ</rt><rt class="roma">kami</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>数<rt class="furi">かぞ</rt><rt class="roma">kazo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:10.49]I want to count your hair</div>
 </div>
 
@@ -242,6 +265,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [02:15.34]<ruby>綺麗<rt class="furi">きれい</rt><rt class="roma">kirei</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>髪<rt class="furi">かみ</rt><rt class="roma">kami</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>数<rt class="furi">かぞ</rt><rt class="roma">kazo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:15.34]I want to count your beautiful hair</div>
 </div>
 
@@ -249,12 +273,15 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [02:20.57]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>髪<rt class="furi">かみ</rt><rt class="roma">kami</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>数<rt class="furi">かぞ</rt><rt class="roma">kazo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+
+<div class="trans-lyric">[02:20.57]I want to count your hair</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:25.56]<ruby>髪<rt class="furi">かみ</rt><rt class="roma">kami</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>数<rt class="furi">かぞ</rt><rt class="roma">kazo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:25.56]I just want to count your hair</div>
 </div>
 
@@ -264,36 +291,42 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [02:29.90]Look at the sea look at the flow
 </div>
+<div class="trans-lyric">[02:29.90]Look at the sea look at the flow</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:34.79]Look at the bird
 </div>
+<div class="trans-lyric">[02:34.79]Look at the bird</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:36.87]<ruby>醒<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="trans-lyric">[02:36.87]Please don't wake up</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:40.16]Look at the sea look at the sky
 </div>
+<div class="trans-lyric">[02:40.16]Look at the sea look at the sky</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:44.97]Look at the moon
 </div>
+<div class="trans-lyric">[02:44.97]Look at the moon</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:47.00]<ruby>醒<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="trans-lyric">[02:47.00]Please don't wake up</div>
 </div>
 
 <br />
@@ -302,6 +335,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [02:49.74]<ruby>醒<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="trans-lyric">[02:49.74]Please don't wake up</div>
 </div>
 
 </div>

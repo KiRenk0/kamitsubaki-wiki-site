@@ -19,7 +19,7 @@ image: /images/albums/koko/prayer.jpg
 
 ## Overview
 
-錘 appears on prayer or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+錘 appears on [prayer](/en/albums/koko/prayer) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -63,7 +63,9 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [00:54.16]<ruby>ログアウト<rt class="roma">roguauto</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>
 </div>
-<div class="trans-lyric">Log out</div>
+<div class="trans-lyric">
+[00:54.16]Log out
+</div>
 </div>
 
 <br />
@@ -204,19 +206,21 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [02:14.87]<ruby>浪費<rt class="furi">ろうひ</rt><rt class="roma">rouhi</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>酸素<rt class="furi">さんそ</rt><rt class="roma">sanso</rt></ruby> <ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>救難<rt class="furi">きゅうなん</rt><rt class="roma">kyuunan</rt></ruby><ruby>信号<rt class="furi">しんごう</rt><rt class="roma">shingou</rt></ruby>
 </div>
+<div class="trans-lyric">[02:14.87]Wasting oxygen, a distress signal in my heart</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:21.07]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>気付<rt class="furi">きづ</rt><rt class="roma">kizu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>日常<rt class="furi">にちじょう</rt><rt class="roma">nichijou</rt></ruby>
 </div>
+<div class="trans-lyric">[02:21.07]An everyday life no one notices</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:23.84]<ruby>ログイン<rt class="roma">roguin</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="trans-lyric">Let's log in</div>
+<div class="trans-lyric">[02:23.84]Let's log in</div>
 </div>
 
 <br />
@@ -253,12 +257,14 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [03:08.73]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>憎悪<rt class="furi">ぞうお</rt><rt class="roma">zouo</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>撃ち抜<rt class="furi">うちぬ</rt><rt class="roma">uchinu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">[03:08.73]Shoot through love and hatred, please</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:11.98]<ruby>内向<rt class="furi">ないこう</rt><rt class="roma">naikou</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>主張<rt class="furi">しゅちょう</rt><rt class="roma">shuchou</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:11.98]Assert my introverted feelings</div>
 </div>
 
@@ -266,12 +272,14 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [03:15.06]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[03:15.06]Someone, find me</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:18.22]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>存在<rt class="furi">そんざい</rt><rt class="roma">sonzai</rt></ruby><ruby>意義<rt class="furi">いぎ</rt><rt class="roma">igi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:18.22]My reason for existence</div>
 </div>
 
@@ -281,12 +289,14 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [03:21.67]<ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>生活<rt class="furi">せいかつ</rt><rt class="roma">seikatsu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[03:21.67]Walking through an ambiguous life</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:27.92]<ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby> <ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby> <ruby>灯<rt class="furi">とも</rt><rt class="roma">tomo</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:27.92]Changing you, the world to return to, the future I illuminate</div>
 </div>
 
@@ -294,12 +304,14 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [03:34.26]<ruby>灰<rt class="furi">はい</rt><rt class="roma">hai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>街<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="trans-lyric">[03:34.26]This city turning to ashes, someday</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:41.00]<ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>紡<rt class="furi">つむ</rt><rt class="roma">tsumu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="trans-lyric">[03:41.00]Connect, weave</div>
 </div>
 
 <br />
@@ -308,30 +320,35 @@ image: /images/albums/koko/prayer.jpg
 <div class="jp-lyric">
 [03:47.37]<ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>生活<rt class="furi">せいかつ</rt><rt class="roma">seikatsu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[03:47.37]Walking through an ambiguous life</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:53.63]<ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby> <ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby> <ruby>灯<rt class="furi">とも</rt><rt class="roma">tomo</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>明<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>かり<rt class="roma">kari</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="trans-lyric">[03:53.63]Changing you, the world to return to, the light I illuminate</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:59.96]<ruby>灰<rt class="furi">はい</rt><rt class="roma">hai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>街<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="trans-lyric">[03:59.96]This city turning to ashes, someday</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:06.56]<ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>紡<rt class="furi">つむ</rt><rt class="roma">tsumu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="trans-lyric">[04:06.56]Connect, weave</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:09.61]<ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>笑<rt class="furi">え</rt><rt class="roma">e</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby> <ruby>浮<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>かば<rt class="roma">kaba</rt></ruby><ruby>せよ<rt class="roma">seyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="trans-lyric">[04:09.61]Let's make a smile float in the sky</div>
 </div>
 
 </div>

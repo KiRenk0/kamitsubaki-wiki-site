@@ -42,12 +42,12 @@ tracks:
 
 ## 简介
 
-Guiano于 2020-08-12 发行的EP《あの夏の記憶だけ》,共收录 5 首歌曲。
+[Guiano](/zh/artists/creators/guiano)于 2020-08-12 发行的EP《あの夏の記憶だけ》,共收录 5 首歌曲。
 
 ## 收录曲
 
 1. 死んでしまったのだろうか(self cover)（03:31）
 2. I Don't Wanna Know（03:53）
 3. 夜、眠るため（03:37）
-4. 透過夏 (feat. [RIM](/zh/artists/vwp/rim))（03:15）
+4. [透過夏](/zh/songs/guiano/originals/透過夏-feat.-rim) (feat. [RIM](/zh/artists/vwp/rim))（03:15）
 5. あの夏の記憶だけ（03:14）

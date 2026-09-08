@@ -205,12 +205,14 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 <ruby>まぁ<rt class="roma">maa</rt></ruby><ruby>これ<rt class="roma">kore</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
+<div class="cn-lyric">嘛 这样不也挺好吗？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>実感<rt class="furi">じっかん</rt><rt class="roma">jikkan</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>身<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>染<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
+<div class="cn-lyric">生存的实感 深深浸透在身体里感受着</div>
 </div>
 
 <div class="lyric-line">
@@ -224,6 +226,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 <ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby> <ruby>ある<rt class="roma">aru</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>自由<rt class="furi">じゆう</rt><rt class="roma">jiyuu</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby>
 </div>
+<div class="cn-lyric">消失了 在某种意义上算是自由了</div>
 </div>
 
 <div class="lyric-line">
@@ -286,18 +289,21 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 <ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>！
 </div>
+<div class="cn-lyric">不也挺好吗！</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>実感<rt class="furi">じっかん</rt><rt class="roma">jikkan</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>身<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>染<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>！
 </div>
+<div class="cn-lyric">生存的实感 深深浸透在身体里感受着！</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>陽気<rt class="furi">ようき</rt><rt class="roma">youki</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>時間<rt class="furi">じかん</rt><rt class="roma">jikan</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>流<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>！
 </div>
+
 <div class="cn-lyric">曾经开朗的我 也随着时间流逝 消失了！</div>
 </div>
 
@@ -305,6 +311,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 <ruby>ある<rt class="roma">aru</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>自由<rt class="furi">じゆう</rt><rt class="roma">jiyuu</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby>。
 </div>
+
 <div class="cn-lyric">在某种意义上算是自由了。</div>
 </div>
 
@@ -312,6 +319,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 <ruby>だけど<rt class="roma">dakedo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>さまよい<rt class="roma">samayoi</rt></ruby><ruby>つづける<rt class="roma">tsuzukeru</rt></ruby>
 </div>
+
 <div class="cn-lyric">但是呢 仍在不断彷徨</div>
 </div>
 

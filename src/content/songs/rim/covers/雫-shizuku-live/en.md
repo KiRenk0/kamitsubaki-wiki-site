@@ -19,7 +19,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 ## Overview
 
-雫 appears on CHOCOLATE LIVE2 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+雫 appears on [CHOCOLATE LIVE2](/en/albums/rim/chocolate-live-2) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -301,13 +301,16 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 [03:09.18]<ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>影<rt class="furi">かげ</rt><rt class="roma">kage</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>消<rt class="furi">け</rt><rt class="roma">ke</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
-<div class="trans-lyric">Fading away our two shadows</div>
+<div class="trans-lyric">
+[03:09.18]Fading away our two shadows
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>時代<rt class="furi">じだい</rt><rt class="roma">jidai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>流<rt class="furi">ながれ</rt><rt class="roma">nagare</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>深雪<rt class="furi">みゆき</rt><rt class="roma">miyuki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>密<rt class="furi">みつ</rt><rt class="roma">mitsu</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>比翼<rt class="furi">ひよく</rt><rt class="roma">hiyoku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>芽<rt class="furi">め</rt><rt class="roma">me</rt></ruby>
 </div>
+<div class="trans-lyric">The deep snow of the times conceals the sprout of paired wings</div>
 </div>
 
 <div class="lyric-line">
@@ -335,6 +338,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 <div class="jp-lyric">
 「<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よかった<rt class="roma">yokatta</rt></ruby>」 <ruby>と<rt class="roma">to</rt></ruby>
 </div>
+
 <div class="trans-lyric">“I'm glad I met you”</div>
 </div>
 

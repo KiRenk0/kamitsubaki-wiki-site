@@ -17,7 +17,7 @@ image: /images/songs/albemuth/幽no楽園.jpg
 
 ## 作品概要
 
-Albemuthが2022-11-23にリリースしたシングル「幽ノ楽園」。
+[Albemuth](/ja/artists/solo/albemuth)が2022-11-23にリリースしたシングル「幽ノ楽園」。
 
 ## 視聴
 {{media-switcher::幽ノ楽園}}

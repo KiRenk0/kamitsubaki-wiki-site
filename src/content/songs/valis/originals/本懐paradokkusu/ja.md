@@ -17,7 +17,7 @@ image: /images/songs/valis/本懐paradokkusu.jpg
 
 ## 作品概要
 
-VALISが2025-12-31にリリースしたシングル「本懐パラドックス」。
+[VALIS](/ja/artists/solo/valis)が2025-12-31にリリースしたシングル「本懐パラドックス」。
 
 ## 視聴
 {{media-switcher::本懐パラドックス}}

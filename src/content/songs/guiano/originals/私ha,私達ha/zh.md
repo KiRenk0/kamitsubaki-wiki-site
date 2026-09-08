@@ -17,7 +17,7 @@ image: /images/songs/guiano/私ha,私達ha.jpg
 
 ## 作品简介
 
-Guiano于 2023-03-21 发行的单曲《私は、私達は》。
+[Guiano](/zh/artists/creators/guiano)于 2023-03-21 发行的单曲《私は、私達は》。
 
 ## 试听
 {{media-switcher::私は、私達は}}

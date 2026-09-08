@@ -241,24 +241,28 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [01:53.25]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>しも<rt class="roma">shimo</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>歳<rt class="furi">とし</rt><rt class="roma">toshi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>追<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
+<div class="cn-lyric">[01:53.25]每个人都在追逐岁月</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:56.68]<ruby>碧<rt class="furi">へき</rt><rt class="roma">heki</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>燃<ruby>ゆる<rt class="roma">yuru</rt></ruby><ruby>惑星<rt class="furi">わくせい</rt><rt class="roma">wakusei</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">[01:56.68]那颗碧蓝燃烧的行星又如何</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:00.29]<ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>嫌<rt class="furi">きら</rt><rt class="roma">kira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby>
 </div>
+<div class="cn-lyric">[02:00.29]喜欢的东西 讨厌的东西</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:03.85]<ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わって<rt class="roma">watte</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:03.85]总有一天会改变</div>
 </div>
 
 <br />
@@ -341,6 +345,7 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [02:51.54]<ruby>暁光<rt class="furi">ぎょうこう</rt><rt class="roma">gyoukou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>包<rt class="furi">つつ</rt><rt class="roma">tsutsu</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:51.54]拂晓之光将我包裹</div>
 </div>
 
@@ -348,6 +353,7 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [02:55.76]<ruby>紅<rt class="furi">あか</rt><rt class="roma">aka</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>燃<ruby>ゆる<rt class="roma">yuru</rt></ruby><ruby>恒星<rt class="furi">こうせい</rt><rt class="roma">kousei</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:55.76]如一颗赤红燃烧的恒星</div>
 </div>
 
@@ -355,6 +361,7 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [02:59.27]<ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ながら<rt class="roma">nagara</rt></ruby><ruby>いれ<rt class="roma">ire</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:59.27]若能摇曳着存在</div>
 </div>
 
@@ -362,6 +369,7 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [03:02.69]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わって<rt class="roma">watte</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:02.69]因为我们终将改变</div>
 </div>
 
@@ -371,30 +379,35 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [03:07.58]<ruby>衰<rt class="furi">おとろ</rt><rt class="roma">otoro</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>救世主<rt class="furi">きゅうせいしゅ</rt><rt class="roma">kyuuseishu</rt></ruby>
 </div>
+<div class="cn-lyric">[03:07.58]衰落的救世主</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:09.12]<ruby>側溝<rt class="furi">そっこう</rt><rt class="roma">sokkou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>汚<rt class="furi">よご</rt><rt class="roma">yogo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>メダル<rt class="roma">medaru</rt></ruby>
 </div>
+<div class="cn-lyric">[03:09.12]污在排水沟里的奖牌</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:10.72]<ruby>僅<rt class="furi">わず</rt><rt class="roma">wazu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>光<rt class="furi">ひか</rt><rt class="roma">hika</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見逃<rt class="furi">みのが</rt><rt class="roma">minoga</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">[03:10.72]不愿错过那微弱的闪光</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:14.58]<ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>止<rt class="furi">や</rt><rt class="roma">ya</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>
 </div>
+<div class="cn-lyric">[03:14.58]有不绝于耳的声音</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:18.48]<ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[03:18.48]稍微走走吧</div>
 </div>
 
 </div>

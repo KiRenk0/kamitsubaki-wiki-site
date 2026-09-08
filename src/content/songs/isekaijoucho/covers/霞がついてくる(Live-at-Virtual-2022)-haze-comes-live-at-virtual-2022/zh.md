@@ -306,6 +306,7 @@ image: /images/albums/rim/singularity-live.jpg
 <div class="jp-lyric">
 [03:21.67]<ruby>霞<rt class="furi">かすみ</rt><rt class="roma">kasumi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>つい<rt class="roma">tsui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くる<rt class="roma">kuru</rt></ruby>
 </div>
+<div class="cn-lyric">[03:21.67]薄雾随之而来</div>
 </div>
 
 </div>

@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/shinju.jpg
 
 ## Overview
 
-フリーフォール appears on 心獣 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+フリーフォール appears on [心獣](/en/albums/harusaruhi/shinju) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -120,6 +120,7 @@ That I'm crashing right into you
 <div class="jp-lyric">
 (Wanna come to life!)
 </div>
+<div class="trans-lyric">(Wanna come to life!)</div>
 </div>
 
 </div>

@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/月詠.jpg
 
 ## 作品简介
 
-tokiwa于 2025-02-27 发行的单曲《月詠》。
+[tokiwa](/zh/artists/creators/tokiwa)于 2025-02-27 发行的单曲《月詠》。
 
 ## 试听
 {{media-switcher::月詠}}

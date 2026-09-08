@@ -40,91 +40,17 @@ image: /images/albums/vwp/city-regenerate.jpg
 <div class="jp-lyric">
 <ruby>神<rt class="furi">かみ</rt><rt class="roma">kami</rt></ruby>话
 </div>
+<div class="trans-lyric">
+Myth
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>曲<rt class="furi">きょく</rt><rt class="roma">kyoku</rt></ruby>: <ruby>古月<rt class="furi">ふるつき</rt><rt class="roma">furutsuki</rt></ruby> 词: 琼<ruby>瑶<rt class="furi">よう</rt><rt class="roma">you</rt></ruby>
 </div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>他<rt class="furi">た</rt><rt class="roma">ta</rt></ruby>们说<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>上<rt class="furi">じょう</rt><rt class="roma">jou</rt></ruby><ruby>没<rt class="furi">ぼつ</rt><rt class="roma">botsu</rt></ruby><ruby>有<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby><ruby>神<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby>话
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>他<rt class="furi">た</rt><rt class="roma">ta</rt></ruby>们说<ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>都<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby><ruby>虚<rt class="furi">うろ</rt><rt class="roma">uro</rt></ruby>假
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>他<rt class="furi">た</rt><rt class="roma">ta</rt></ruby>们说<ruby>不要<rt class="furi">ふよう</rt><rt class="roma">fuyou</rt></ruby>做梦
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>不要<rt class="furi">ふよう</rt><rt class="roma">fuyou</rt></ruby><ruby>写<rt class="furi">うつし</rt><rt class="roma">utsushi</rt></ruby>诗
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>他<rt class="furi">た</rt><rt class="roma">ta</rt></ruby>们说<ruby>我<rt class="furi">わが</rt><rt class="roma">waga</rt></ruby>们<ruby>都<rt class="furi">と</rt><rt class="roma">to</rt></ruby>已经长<ruby>大<rt class="furi">だい</rt><rt class="roma">dai</rt></ruby>
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>谁<rt class="furi">谁</rt><rt class="roma">谁</rt></ruby><ruby>听<rt class="furi">听</rt><rt class="roma">听</rt></ruby><ruby>说<rt class="furi">说</rt><rt class="roma">说</rt></ruby>
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>成人<rt class="furi">せいじん</rt><rt class="roma">seijin</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>里<rt class="furi">さと</rt><rt class="roma">sato</rt></ruby>
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-还<ruby>有<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby><ruby>童<rt class="furi">わらべ</rt><rt class="roma">warabe</rt></ruby>话
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>但<rt class="furi">ただし</rt><rt class="roma">tadashi</rt></ruby><ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby><ruby>我<rt class="furi">わが</rt><rt class="roma">waga</rt></ruby><ruby>遇<rt class="furi">ぐう</rt><rt class="roma">guu</rt></ruby>见<ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby>你呀你
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>遇<rt class="furi">ぐう</rt><rt class="roma">guu</rt></ruby>见<ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby>你
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>东<ruby>方<rt class="furi">かた</rt><rt class="roma">kata</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>谭
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-啊<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby><ruby>童<rt class="furi">わらべ</rt><rt class="roma">warabe</rt></ruby>话<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby><ruby>神<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby>话
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>梦<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>诗还<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby><ruby>画<rt class="furi">が</rt><rt class="roma">ga</rt></ruby>
+<div class="trans-lyric">
+Music: Gu Yue / Lyrics: Qiong Yao
 </div>
 </div>
 
@@ -134,11 +60,17 @@ image: /images/albums/vwp/city-regenerate.jpg
 <div class="jp-lyric">
 <ruby>他<rt class="furi">た</rt><rt class="roma">ta</rt></ruby>们说<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>上<rt class="furi">じょう</rt><rt class="roma">jou</rt></ruby><ruby>没<rt class="furi">ぼつ</rt><rt class="roma">botsu</rt></ruby><ruby>有<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby><ruby>神<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby>话
 </div>
+<div class="trans-lyric">
+They say there are no myths in this world
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>他<rt class="furi">た</rt><rt class="roma">ta</rt></ruby>们说<ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>都<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby><ruby>虚<rt class="furi">うろ</rt><rt class="roma">uro</rt></ruby>假
+</div>
+<div class="trans-lyric">
+They say all feelings are false
 </div>
 </div>
 
@@ -146,11 +78,17 @@ image: /images/albums/vwp/city-regenerate.jpg
 <div class="jp-lyric">
 <ruby>他<rt class="furi">た</rt><rt class="roma">ta</rt></ruby>们说<ruby>不要<rt class="furi">ふよう</rt><rt class="roma">fuyou</rt></ruby>做梦
 </div>
+<div class="trans-lyric">
+They say: don't dream
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>不要<rt class="furi">ふよう</rt><rt class="roma">fuyou</rt></ruby><ruby>写<rt class="furi">うつし</rt><rt class="roma">utsushi</rt></ruby>诗
+</div>
+<div class="trans-lyric">
+Don't write poems
 </div>
 </div>
 
@@ -158,53 +96,8 @@ image: /images/albums/vwp/city-regenerate.jpg
 <div class="jp-lyric">
 <ruby>他<rt class="furi">た</rt><rt class="roma">ta</rt></ruby>们说<ruby>我<rt class="furi">わが</rt><rt class="roma">waga</rt></ruby>们<ruby>都<rt class="furi">と</rt><rt class="roma">to</rt></ruby>已经长<ruby>大<rt class="furi">だい</rt><rt class="roma">dai</rt></ruby>
 </div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>谁<rt class="furi">谁</rt><rt class="roma">谁</rt></ruby><ruby>听<rt class="furi">听</rt><rt class="roma">听</rt></ruby><ruby>说<rt class="furi">说</rt><rt class="roma">说</rt></ruby>
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>成人<rt class="furi">せいじん</rt><rt class="roma">seijin</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>里<rt class="furi">さと</rt><rt class="roma">sato</rt></ruby>
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-还<ruby>有<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby><ruby>童<rt class="furi">わらべ</rt><rt class="roma">warabe</rt></ruby>话
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>但<rt class="furi">ただし</rt><rt class="roma">tadashi</rt></ruby><ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby><ruby>我<rt class="furi">わが</rt><rt class="roma">waga</rt></ruby><ruby>遇<rt class="furi">ぐう</rt><rt class="roma">guu</rt></ruby>见<ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby>你呀你
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>遇<rt class="furi">ぐう</rt><rt class="roma">guu</rt></ruby>见<ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby>你
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>东<ruby>方<rt class="furi">かた</rt><rt class="roma">kata</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>谭
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-啊<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby><ruby>童<rt class="furi">わらべ</rt><rt class="roma">warabe</rt></ruby>话<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby><ruby>神<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby>话
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>梦<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>诗还<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby><ruby>画<rt class="furi">が</rt><rt class="roma">ga</rt></ruby>
+<div class="trans-lyric">
+They say we've all grown up
 </div>
 </div>
 
@@ -212,11 +105,17 @@ image: /images/albums/vwp/city-regenerate.jpg
 <div class="jp-lyric">
 <ruby>谁<rt class="furi">谁</rt><rt class="roma">谁</rt></ruby><ruby>听<rt class="furi">听</rt><rt class="roma">听</rt></ruby><ruby>说<rt class="furi">说</rt><rt class="roma">说</rt></ruby>
 </div>
+<div class="trans-lyric">
+Who has ever heard
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>成人<rt class="furi">せいじん</rt><rt class="roma">seijin</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>里<rt class="furi">さと</rt><rt class="roma">sato</rt></ruby>
+</div>
+<div class="trans-lyric">
+That in the world of adults
 </div>
 </div>
 
@@ -224,11 +123,17 @@ image: /images/albums/vwp/city-regenerate.jpg
 <div class="jp-lyric">
 还<ruby>有<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby><ruby>童<rt class="furi">わらべ</rt><rt class="roma">warabe</rt></ruby>话
 </div>
+<div class="trans-lyric">
+There are still fairy tales?
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>但<rt class="furi">ただし</rt><rt class="roma">tadashi</rt></ruby><ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby><ruby>我<rt class="furi">わが</rt><rt class="roma">waga</rt></ruby><ruby>遇<rt class="furi">ぐう</rt><rt class="roma">guu</rt></ruby>见<ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby>你呀你
+</div>
+<div class="trans-lyric">
+But then I met you — ah, you
 </div>
 </div>
 
@@ -236,11 +141,17 @@ image: /images/albums/vwp/city-regenerate.jpg
 <div class="jp-lyric">
 <ruby>遇<rt class="furi">ぐう</rt><rt class="roma">guu</rt></ruby>见<ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby>你
 </div>
+<div class="trans-lyric">
+I met you
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>东<ruby>方<rt class="furi">かた</rt><rt class="roma">kata</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>谭
+</div>
+<div class="trans-lyric">
+It's an oriental wonderland
 </div>
 </div>
 
@@ -248,11 +159,208 @@ image: /images/albums/vwp/city-regenerate.jpg
 <div class="jp-lyric">
 啊<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby><ruby>童<rt class="furi">わらべ</rt><rt class="roma">warabe</rt></ruby>话<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby><ruby>神<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby>话
 </div>
+<div class="trans-lyric">
+Ah — a fairy tale, a myth
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>梦<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>诗还<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby><ruby>画<rt class="furi">が</rt><rt class="roma">ga</rt></ruby>
+</div>
+<div class="trans-lyric">
+A dream, a poem, or a painting
+</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>他<rt class="furi">た</rt><rt class="roma">ta</rt></ruby>们说<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>上<rt class="furi">じょう</rt><rt class="roma">jou</rt></ruby><ruby>没<rt class="furi">ぼつ</rt><rt class="roma">botsu</rt></ruby><ruby>有<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby><ruby>神<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby>话
+</div>
+<div class="trans-lyric">
+They say there are no myths in this world
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>他<rt class="furi">た</rt><rt class="roma">ta</rt></ruby>们说<ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>都<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby><ruby>虚<rt class="furi">うろ</rt><rt class="roma">uro</rt></ruby>假
+</div>
+<div class="trans-lyric">
+They say all feelings are false
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>他<rt class="furi">た</rt><rt class="roma">ta</rt></ruby>们说<ruby>不要<rt class="furi">ふよう</rt><rt class="roma">fuyou</rt></ruby>做梦
+</div>
+<div class="trans-lyric">
+They say: don't dream
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>不要<rt class="furi">ふよう</rt><rt class="roma">fuyou</rt></ruby><ruby>写<rt class="furi">うつし</rt><rt class="roma">utsushi</rt></ruby>诗
+</div>
+<div class="trans-lyric">
+Don't write poems
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>他<rt class="furi">た</rt><rt class="roma">ta</rt></ruby>们说<ruby>我<rt class="furi">わが</rt><rt class="roma">waga</rt></ruby>们<ruby>都<rt class="furi">と</rt><rt class="roma">to</rt></ruby>已经长<ruby>大<rt class="furi">だい</rt><rt class="roma">dai</rt></ruby>
+</div>
+<div class="trans-lyric">
+They say we've all grown up
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>谁<rt class="furi">谁</rt><rt class="roma">谁</rt></ruby><ruby>听<rt class="furi">听</rt><rt class="roma">听</rt></ruby><ruby>说<rt class="furi">说</rt><rt class="roma">说</rt></ruby>
+</div>
+<div class="trans-lyric">
+Who has ever heard
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>成人<rt class="furi">せいじん</rt><rt class="roma">seijin</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>里<rt class="furi">さと</rt><rt class="roma">sato</rt></ruby>
+</div>
+<div class="trans-lyric">
+That in the world of adults
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+还<ruby>有<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby><ruby>童<rt class="furi">わらべ</rt><rt class="roma">warabe</rt></ruby>话
+</div>
+<div class="trans-lyric">
+There are still fairy tales?
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>但<rt class="furi">ただし</rt><rt class="roma">tadashi</rt></ruby><ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby><ruby>我<rt class="furi">わが</rt><rt class="roma">waga</rt></ruby><ruby>遇<rt class="furi">ぐう</rt><rt class="roma">guu</rt></ruby>见<ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby>你呀你
+</div>
+<div class="trans-lyric">
+But then I met you — ah, you
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>遇<rt class="furi">ぐう</rt><rt class="roma">guu</rt></ruby>见<ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby>你
+</div>
+<div class="trans-lyric">
+I met you
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>东<ruby>方<rt class="furi">かた</rt><rt class="roma">kata</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>谭
+</div>
+<div class="trans-lyric">
+It's an oriental wonderland
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+啊<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby><ruby>童<rt class="furi">わらべ</rt><rt class="roma">warabe</rt></ruby>话<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby><ruby>神<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby>话
+</div>
+<div class="trans-lyric">
+Ah — a fairy tale, a myth
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>梦<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>诗还<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby><ruby>画<rt class="furi">が</rt><rt class="roma">ga</rt></ruby>
+</div>
+<div class="trans-lyric">
+A dream, a poem, or a painting
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>谁<rt class="furi">谁</rt><rt class="roma">谁</rt></ruby><ruby>听<rt class="furi">听</rt><rt class="roma">听</rt></ruby><ruby>说<rt class="furi">说</rt><rt class="roma">说</rt></ruby>
+</div>
+<div class="trans-lyric">
+Who has ever heard
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>成人<rt class="furi">せいじん</rt><rt class="roma">seijin</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>里<rt class="furi">さと</rt><rt class="roma">sato</rt></ruby>
+</div>
+<div class="trans-lyric">
+That in the world of adults
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+还<ruby>有<rt class="furi">ゆう</rt><rt class="roma">yuu</rt></ruby><ruby>童<rt class="furi">わらべ</rt><rt class="roma">warabe</rt></ruby>话
+</div>
+<div class="trans-lyric">
+There are still fairy tales?
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>但<rt class="furi">ただし</rt><rt class="roma">tadashi</rt></ruby><ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby><ruby>我<rt class="furi">わが</rt><rt class="roma">waga</rt></ruby><ruby>遇<rt class="furi">ぐう</rt><rt class="roma">guu</rt></ruby>见<ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby>你呀你
+</div>
+<div class="trans-lyric">
+But then I met you — ah, you
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>遇<rt class="furi">ぐう</rt><rt class="roma">guu</rt></ruby>见<ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby>你
+</div>
+<div class="trans-lyric">
+I met you
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>东<ruby>方<rt class="furi">かた</rt><rt class="roma">kata</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>谭
+</div>
+<div class="trans-lyric">
+It's an oriental wonderland
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+啊<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby><ruby>童<rt class="furi">わらべ</rt><rt class="roma">warabe</rt></ruby>话<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby><ruby>神<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby>话
+</div>
+<div class="trans-lyric">
+Ah — a fairy tale, a myth
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>梦<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>诗还<ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby><ruby>画<rt class="furi">が</rt><rt class="roma">ga</rt></ruby>
+</div>
+<div class="trans-lyric">
+A dream, a poem, or a painting
 </div>
 </div>
 

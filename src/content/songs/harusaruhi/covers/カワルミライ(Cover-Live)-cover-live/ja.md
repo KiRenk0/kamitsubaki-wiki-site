@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 
 ## 作品概要
 
-「カワルミライ (Cover Live)」は『CREAM PUFF LIVE 4 (Cover Live)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「カワルミライ (Cover Live)」は『[CREAM PUFF LIVE 4](/ja/albums/harusaruhi/cream-puff-live-4) (Cover Live)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
 
 ## 試聴
 

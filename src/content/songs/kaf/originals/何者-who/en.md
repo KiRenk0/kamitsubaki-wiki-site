@@ -218,7 +218,9 @@ image: /images/albums/kaf/guwa.jpg
 <div class="jp-lyric">
 [00:25.78]<ruby>テレビ<rt class="roma">terebi</rt></ruby><ruby>消<rt class="furi">け</rt><rt class="roma">ke</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="trans-lyric">Turn off the TV</div>
+<div class="trans-lyric">
+[00:25.78]Turn off the TV
+</div>
 </div>
 
 <div class="lyric-line">

@@ -17,7 +17,7 @@ image: /images/songs/dustcell/可笑shina生ki物.jpg
 
 ## 作品简介
 
-DUSTCELL于 2024-04-23 发行的单曲《可笑しな生き物》。
+[DUSTCELL](/zh/artists/solo/dustcell)于 2024-04-23 发行的单曲《可笑しな生き物》。
 
 ## 试听
 {{media-switcher::可笑しな生き物}}

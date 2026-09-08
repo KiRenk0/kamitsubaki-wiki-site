@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 
 ## Overview
 
-ターミナル (Cover Live) appears on CREAM PUFF LIVE 4 (Cover Live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+ターミナル (Cover Live) appears on [CREAM PUFF LIVE 4](/en/albums/harusaruhi/cream-puff-live-4) (Cover Live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -173,6 +173,7 @@ kimi ga kureta manazashi tomo ni
 <div class="jp-lyric">
 kienai koe ga itsumademo mune ni
 </div>
+<div class="trans-lyric">A voice that won't vanish, forever in my heart</div>
 </div>
 
 <div class="lyric-line">
@@ -186,12 +187,14 @@ furete matataiteiru
 <div class="jp-lyric">
 kousa shiteku koto no nai sen demo
 </div>
+<div class="trans-lyric">Even on lines that will never intersect</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 itsuka, dokoka, tadoritsuku darou
 </div>
+
 <div class="trans-lyric">Someday, somewhere, I will reach</div>
 </div>
 

@@ -66,18 +66,18 @@ tracks:
 
 ## Overview
 
-DUSTCELL's album “碧い海”, released on 2025-12-10, featuring 11 tracks.
+[DUSTCELL](/en/artists/solo/dustcell)'s album “碧い海”, released on 2025-12-10, featuring 11 tracks.
 
 ## Track List
 
 1. 青 (02:53)
-2. 畢竟 (03:12)
+2. [畢竟](/en/songs/dustcell/originals/畢竟) (03:12)
 3. 音楽 (02:59)
 4. 憂いの化け物 (02:52)
-5. SCAPEGOAT (02:38)
-6. 灯火 (03:31)
+5. [SCAPEGOAT](/en/songs/dustcell/originals/scapegoat) (02:38)
+6. [灯火](/en/songs/dustcell/originals/灯火) (03:31)
 7. いちばんぼし (03:20)
 8. ブルーマーブル (03:12)
-9. 表情差分 (03:27)
+9. [表情差分](/en/songs/dustcell/originals/表情差分) (03:27)
 10. 後書き (03:39)
-11. 心臓 (03:42)
+11. [心臓](/en/songs/dustcell/originals/心臓) (03:42)

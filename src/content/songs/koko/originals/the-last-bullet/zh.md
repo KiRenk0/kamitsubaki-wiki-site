@@ -109,6 +109,7 @@ image: /images/songs/koko/single-1687478763.jpg
 <div class="jp-lyric">
 [00:44.44](Hello, hello)
 </div>
+<div class="cn-lyric">[00:44.44](Hello, hello)</div>
 </div>
 
 <div class="lyric-line">
@@ -122,6 +123,7 @@ image: /images/songs/koko/single-1687478763.jpg
 <div class="jp-lyric">
 [00:46.77](Hello, hello)
 </div>
+<div class="cn-lyric">[00:46.77](Hello, hello)</div>
 </div>
 
 <div class="lyric-line">
@@ -218,6 +220,7 @@ image: /images/songs/koko/single-1687478763.jpg
 <div class="jp-lyric">
 [01:32.80]<ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あった<rt class="roma">atta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">[01:32.80]那裡曾有過</div>
 </div>
 
 <div class="lyric-line">
@@ -247,6 +250,7 @@ image: /images/songs/koko/single-1687478763.jpg
 <div class="jp-lyric">
 [01:42.62](Hello, hello)
 </div>
+<div class="cn-lyric">[01:42.62](Hello, hello)</div>
 </div>
 
 <div class="lyric-line">
@@ -260,6 +264,7 @@ image: /images/songs/koko/single-1687478763.jpg
 <div class="jp-lyric">
 [01:45.15](Hello, hello)
 </div>
+<div class="cn-lyric">[01:45.15](Hello, hello)</div>
 </div>
 
 <div class="lyric-line">
@@ -273,6 +278,7 @@ image: /images/songs/koko/single-1687478763.jpg
 <div class="jp-lyric">
 [01:47.47](Hello, hello)
 </div>
+<div class="cn-lyric">[01:47.47](Hello, hello)</div>
 </div>
 
 <div class="lyric-line">
@@ -286,6 +292,7 @@ image: /images/songs/koko/single-1687478763.jpg
 <div class="jp-lyric">
 [01:50.37]Hello, hello, hello
 </div>
+<div class="cn-lyric">[01:50.37]Hello, hello, hello</div>
 </div>
 
 <br />
@@ -308,6 +315,7 @@ image: /images/songs/koko/single-1687478763.jpg
 <div class="jp-lyric">
 [02:02.11]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>回<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:02.11]已經多少次</div>
 </div>
 
 <div class="lyric-line">
@@ -365,6 +373,7 @@ image: /images/songs/koko/single-1687478763.jpg
 <div class="jp-lyric">
 [02:47.33]<ruby>立ち向<rt class="furi">たちむ</rt><rt class="roma">tachimu</rt></ruby><ruby>かう<rt class="roma">kau</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:47.33]勇敢面對</div>
 </div>
 
@@ -372,6 +381,7 @@ image: /images/songs/koko/single-1687478763.jpg
 <div class="jp-lyric">
 [02:48.68]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>負<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:48.68]現在的我 不會輸</div>
 </div>
 
@@ -381,6 +391,7 @@ image: /images/songs/koko/single-1687478763.jpg
 <div class="jp-lyric">
 [02:52.85]<ruby>進<rt class="furi">すす</rt><rt class="roma">susu</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>だし<rt class="roma">dashi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>時計<rt class="furi">とけい</rt><rt class="roma">tokei</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>針<rt class="furi">はり</rt><rt class="roma">hari</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:52.85]開始轉動的時針</div>
 </div>
 
@@ -388,6 +399,7 @@ image: /images/songs/koko/single-1687478763.jpg
 <div class="jp-lyric">
 [02:57.63]<ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>刻<rt class="furi">きざ</rt><rt class="roma">kiza</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>証<rt class="furi">あかし</rt><rt class="roma">akashi</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:57.63]刻劃於那裡的證明</div>
 </div>
 
@@ -395,6 +407,7 @@ image: /images/songs/koko/single-1687478763.jpg
 <div class="jp-lyric">
 [03:02.67]<ruby>戦場<rt class="furi">せんじょう</rt><rt class="roma">senjou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>駆<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby><ruby>炎<rt class="furi">ほのお</rt><rt class="roma">honoo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:02.67]奔騰於戰場的火焰</div>
 </div>
 
@@ -402,6 +415,7 @@ image: /images/songs/koko/single-1687478763.jpg
 <div class="jp-lyric">
 [03:05.07]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>ひとり<rt class="roma">hitori</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:05.07]已經不再孤獨一人</div>
 </div>
 
@@ -409,6 +423,7 @@ image: /images/songs/koko/single-1687478763.jpg
 <div class="jp-lyric">
 [03:07.85]<ruby>約束<rt class="furi">やくそく</rt><rt class="roma">yakusoku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>地<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:07.85]前往約定之地</div>
 </div>
 
@@ -416,6 +431,7 @@ image: /images/songs/koko/single-1687478763.jpg
 <div class="jp-lyric">
 [03:10.26]<ruby>足<rt class="furi">あし</rt><rt class="roma">ashi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:10.26]不要停下腳步</div>
 </div>
 

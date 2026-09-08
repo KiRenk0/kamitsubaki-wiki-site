@@ -86,23 +86,23 @@ tracks:
 
 ## 概要
 
-DUSTCELLが2024-07-24にリリースしたアルバム『光』。全16曲を収録。
+[DUSTCELL](/ja/artists/solo/dustcell)が2024-07-24にリリースしたアルバム『光』。全16曲を収録。
 
 ## 収録曲
 
 1. GAUZE（03:25）
-2. Nighthawk (feat. たなか)（03:54）
+2. [Nighthawk (feat. たなか)](/ja/songs/dustcell/originals/nighthawk-feat-tanaka)（03:54）
 3. FRAGILE（02:58）
 4. 蜜蜂（03:16）
-5. PAIN - New Mix（03:11）
-6. 可笑しな生き物（03:36）
+5. [PAIN](/ja/songs/dustcell/originals/pain) - New Mix（03:11）
+6. [可笑しな生き物](/ja/songs/dustcell/originals/可笑shina生ki物)（03:36）
 7. 無垢（04:19）
 8. 雨の植物園（02:59）
 9. 帰りの会（03:30）
-10. Caffeine（03:07）
+10. [Caffeine](/ja/songs/dustcell/originals/caffeine)（03:07）
 11. 透明度（02:56）
-12. Void（02:53）
-13. 足りない（03:02）
-14. フラッシュバック（03:31）
+12. [Void](/ja/songs/dustcell/originals/void)（02:53）
+13. [足りない](/ja/songs/dustcell/originals/足rinai)（03:02）
+14. [フラッシュバック](/ja/songs/dustcell/originals/furasshubakku)（03:31）
 15. 優しい人でありたい（03:46）
 16. 光（04:37）

@@ -69,8 +69,8 @@ tracks:
 1. Need You（04:04）
 2. In My Mind (Remaster)（04:25）
 3. Heartless（03:35）
-4. Sazanka（04:26）
-5. Unlock（02:59）
+4. [Sazanka](/ja/songs/yunosuke/originals/sazanka)（04:26）
+5. [Unlock](/ja/songs/yunosuke/originals/unlock)（02:59）
 6. Blue Splash（03:12）
 7. Ultramarine（05:08）
 8. End of The Day（04:06）

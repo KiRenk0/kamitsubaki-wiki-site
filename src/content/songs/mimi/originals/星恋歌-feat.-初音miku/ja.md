@@ -17,7 +17,7 @@ image: /images/songs/mimi/星恋歌-feat.-初音miku.jpg
 
 ## 作品概要
 
-MIMIが2024-11-22にリリースしたシングル「星恋歌 (feat. 初音ミク)」。
+[MIMI](/ja/artists/creators/mimi)が2024-11-22にリリースしたシングル「星恋歌 (feat. 初音ミク)」。
 
 ## 視聴
 {{media-switcher::星恋歌 (feat. 初音ミク)}}

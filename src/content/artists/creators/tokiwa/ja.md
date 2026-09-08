@@ -10,7 +10,7 @@ profileTagline: "作詞・作曲・編曲・イラスト・動画を手掛ける
 designCredits: []
 affiliations:
   - "KAMITSUBAKI STUDIO"
-  - "CREATOR FARM"
+  - "PHENOMENON RECORD"
 officialLinks:
   - label: "Twitter"
     href: "https://twitter.com/tokiwa_shion"
@@ -46,11 +46,13 @@ seo:
     - "CREATOR FARM"
 ---
 
+
 ## 概要
 
 tokiwa は [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) の CREATOR FARM に所属するミュージシャン / ボカロP。作詞・作曲・編曲に加え、イラストレーションや動画制作まで自ら手掛けるセルフプロデュース型のクリエイターとして知られる。
 
 EDM、R&B、ロックなどジャンルを横断する印象的なメロディと、情緒豊かな歌詞が特徴。楽曲だけでなくビジュアル面も一貫して自ら制作することで、作品ごとに統一された世界観を構築している。神椿のクリエイターエコシステムにおいて、マルチクリエイターとして独自のポジションを確立している。
+
 
 ## 役割と創作上の位置づけ
 
@@ -58,11 +60,14 @@ tokiwa は音楽とビジュアルアートを横断する多面的なクリエ�
 
 EDM、R&B、ロックと柔軟にジャンルを渡り歩くその作風は、CREATOR FARM が推進する独立したクリエイターの自立的成長という理念を体現している。
 
+
 ## 活動歴
 
 - ボカロPとして活動を開始し、複数ジャンルにわたるオリジナル楽曲を発表。
 - KAMITSUBAKI STUDIO の CREATOR FARM に参加し、神椿クリエイターエコシステムでの活動を拡大。
 - イラスト・動画を含む全工程を一貫してセルフプロデュース。
+
+- 2026年9月5日：神椿スタジオのリニューアルに伴い、スタジオ内レーベルが PHENOMENON RECORD に統合される。
 
 ## 代表作品と関連項目
 
@@ -73,9 +78,11 @@ EDM、R&B、ロックと柔軟にジャンルを渡り歩くその作風は、CR
 
 - [ヒトゴト / Hitogoto](/ja/artists/creators/hitogoto)
 
+
 ## 参考資料
 
 - tokiwa Twitter：<https://twitter.com/tokiwa_shion>
+
 
 ## 外部リンク
 

@@ -17,7 +17,7 @@ image: /images/songs/ciel/生活ni落chiru.jpg
 
 ## 作品概要
 
-CIELが2023-04-11にリリースしたシングル「生活に落ちる」。
+[CIEL](/ja/artists/solo/ciel)が2023-04-11にリリースしたシングル「生活に落ちる」。
 
 ## 視聴
 {{media-switcher::生活に落ちる}}

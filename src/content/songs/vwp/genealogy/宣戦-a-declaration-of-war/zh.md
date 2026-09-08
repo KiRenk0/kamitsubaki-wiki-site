@@ -26,7 +26,7 @@ image: /images/albums/vwp/fate.jpg
 
 ## 作品简介
 
-- V.W.P于2023年8月21日发行的原创单曲《宣戦》。该版本首次发行于专辑《[運命](/zh/albums/vwp/fate)》之中。
+- [V.W.P](/zh/artists/vwp/vwp)于2023年8月21日发行的原创单曲《宣戦》。该版本首次发行于专辑《[運命](/zh/albums/vwp/fate)》之中。
 
 ## 试听
 
@@ -324,6 +324,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [02:00.57]<ruby>確<rt class="furi">たし</rt><rt class="roma">tashi</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">[02:00.57]确实就在这里</div>
 </div>
 
 <div class="lyric-line">
@@ -346,6 +347,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [02:08.59]<ruby>人生<rt class="furi">じんせい</rt><rt class="roma">jinsei</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>フィクション<rt class="roma">fyikushon</rt></ruby>
 </div>
+<div class="cn-lyric">[02:08.59]人生全部是虚构</div>
 </div>
 
 <div class="lyric-line">
@@ -366,6 +368,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [02:16.47]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>もかも<rt class="roma">mokamo</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>フィクション<rt class="roma">fyikushon</rt></ruby>
 </div>
+<div class="cn-lyric">[02:16.47]一切的一切全是虚构</div>
 </div>
 
 <br />
@@ -434,6 +437,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [02:40.33]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>己<rt class="furi">おのれ</rt><rt class="roma">onore</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>証明<rt class="furi">しょうめい</rt><rt class="roma">shoumei</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:40.33]此刻证明自我的话语</div>
 </div>
 
@@ -441,6 +445,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [02:49.85]「<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>達<rt class="furi">たち</rt><rt class="roma">tachi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>魔女<rt class="furi">まじょ</rt><rt class="roma">majo</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>」
 </div>
+
 <div class="cn-lyric">[02:49.85]「我们是魔女」</div>
 </div>
 
@@ -448,6 +453,7 @@ image: /images/albums/vwp/fate.jpg
 <div class="jp-lyric">
 [02:55.15]「<ruby>これ<rt class="roma">kore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>魔法<rt class="furi">まほう</rt><rt class="roma">mahou</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>」
 </div>
+
 <div class="cn-lyric">[02:55.15]「这是魔法」</div>
 </div>
 

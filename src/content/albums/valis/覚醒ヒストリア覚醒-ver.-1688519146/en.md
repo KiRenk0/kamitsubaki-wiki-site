@@ -74,7 +74,7 @@ tracks:
 
 ## Overview
 
-VALIS's album “覚醒ヒストリア(覚醒 ver.)”, released on 2022-04-23, featuring 13 tracks.
+[VALIS](/en/artists/solo/valis)'s album “覚醒ヒストリア(覚醒 ver.)”, released on 2022-04-23, featuring 13 tracks.
 
 ## Track List
 

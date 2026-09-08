@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/empty.jpg
 
 ## 作品简介
 
-tokiwa于 2023-10-03 发行的单曲《empty》。
+[tokiwa](/zh/artists/creators/tokiwa)于 2023-10-03 发行的单曲《empty》。
 
 ## 试听
 {{media-switcher::empty}}

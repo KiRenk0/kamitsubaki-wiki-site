@@ -17,7 +17,7 @@ image: /images/songs/mimi/今haiindayo.-feat.-可不.jpg
 
 ## 作品简介
 
-MIMI于 2022-12-22 发行的单曲《今はいいんだよ。 (feat. [可不](/zh/artists/isotopes/kafu))》。
+[MIMI](/zh/artists/creators/mimi)于 2022-12-22 发行的单曲《今はいいんだよ。 (feat. [可不](/zh/artists/isotopes/kafu))》。
 
 ## 试听
 {{media-switcher::今はいいんだよ。 (feat. 可不)}}

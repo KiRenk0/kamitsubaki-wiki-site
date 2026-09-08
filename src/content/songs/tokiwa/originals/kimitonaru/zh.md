@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/kimitonaru.jpg
 
 ## 作品简介
 
-tokiwa于 2026-03-17 发行的单曲《きみとなる》。
+[tokiwa](/zh/artists/creators/tokiwa)于 2026-03-17 发行的单曲《きみとなる》。
 
 ## 试听
 {{media-switcher::きみとなる}}

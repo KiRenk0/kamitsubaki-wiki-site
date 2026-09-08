@@ -24,7 +24,7 @@ image: /images/albums/vwp/virtual-city-record.jpg
 
 ## Overview
 
-BREATHE appears on 仮想都市録 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+BREATHE appears on [仮想都市録](/en/albums/vwp/virtual-city-record) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 

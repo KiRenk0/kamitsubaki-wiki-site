@@ -17,7 +17,7 @@ image: /images/songs/valis/変異体-myu.jpg
 
 ## 作品简介
 
-VALIS于 2023-10-21 发行的单曲《変異体(MYU)》。
+[VALIS](/zh/artists/solo/valis)于 2023-10-21 发行的单曲《変異体(MYU)》。
 
 ## 试听
 {{media-switcher::変異体(MYU)}}

@@ -107,7 +107,7 @@ tracks:
 ## 收录曲
 
 1. Overdose - サンライトLIVE 2 (Cover)（03:13）
-1. 二人の答え - サンライトLIVE 2 (Cover) [feat. RIM]（04:19）
+1. 二人の答え - サンライトLIVE 2 (Cover) [feat. [RIM](/zh/artists/vwp/rim)]（04:19）
 2. STAY TUNE - サンライトLIVE 2 (Cover)（04:56）
 2. ヒカリへ - サンライトLIVE 2 (Cover)（04:54）
 3. ここで息をして - サンライトLIVE 2 (Cover)（03:37）
@@ -124,5 +124,5 @@ tracks:
 8. First Love - サンライトLIVE 2 (Cover)（04:22）
 9. 堕天 - サンライトLIVE 2 (Cover)（02:52）
 9. Ordinary days - サンライトLIVE 2 (Cover)（04:32）
-10. いんさいどぐるうゔ - サンライトLIVE 2 (Cover) [feat. ARU]（03:58）
+10. いんさいどぐるうゔ - サンライトLIVE 2 (Cover) [feat. [ARU](/zh/artists/solo/aru)]（03:58）
 10. 愛にできることはまだあるかい - サンライトLIVE 2 (Cover)（06:51）

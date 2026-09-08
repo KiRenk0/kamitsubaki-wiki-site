@@ -130,7 +130,9 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 <div class="jp-lyric">
 [01:02.20]<ruby>欠<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby>
 </div>
-<div class="trans-lyric">Remaining unchipped</div>
+<div class="trans-lyric">
+[01:02.20]Remaining unchipped
+</div>
 </div>
 
 <div class="lyric-line">
@@ -153,18 +155,21 @@ Oh, oh, oh, ah <ruby>もう一度<rt class="furi">もういちど</rt><rt class=
 <div class="jp-lyric">
 Oh, oh, oh, ah <ruby>もう一度<rt class="furi">もういちど</rt><rt class="roma">mouichido</rt></ruby>
 </div>
+<div class="trans-lyric">Oh, oh, oh, ah one more time</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Oh, oh, oh, ah <ruby>もう一度<rt class="furi">もういちど</rt><rt class="roma">mouichido</rt></ruby>
 </div>
+<div class="trans-lyric">Oh, oh, oh, ah one more time</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Oh, oh, oh, ah <ruby>もう一度<rt class="furi">もういちど</rt><rt class="roma">mouichido</rt></ruby>
 </div>
+<div class="trans-lyric">Oh, oh, oh, ah one more time</div>
 </div>
 
 </div>

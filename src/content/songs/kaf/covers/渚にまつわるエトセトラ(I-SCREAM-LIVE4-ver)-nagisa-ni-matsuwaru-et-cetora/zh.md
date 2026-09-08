@@ -237,6 +237,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 [02:14.88]<ruby>カニ<rt class="roma">kani</rt></ruby><ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[02:14.88]去吃螃蟹吧</div>
 </div>
 
 <div class="lyric-line">
@@ -287,24 +288,28 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 [02:46.45]<ruby>カニ<rt class="roma">kani</rt></ruby><ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[02:46.45]去吃螃蟹吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:50.26]<ruby>はにかん<rt class="roma">hanikan</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[02:50.26]害羞地去</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:53.72]<ruby>あまりに<rt class="roma">amarini</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>絵<rt class="furi">え</rt><rt class="roma">e</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なり<rt class="roma">nari</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+<div class="cn-lyric">[02:53.72]太过于像画一样</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:57.25]<ruby>魅力<rt class="furi">みりょく</rt><rt class="roma">miryoku</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>白<rt class="furi">しろ</rt><rt class="roma">shiro</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ハッピー<rt class="roma">happii</rt></ruby><ruby>ビーチ<rt class="roma">biichi</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:57.25]迷人的白色欢乐海滩</div>
 </div>
 
@@ -312,18 +317,21 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 [03:01.53]<ruby>渚<rt class="furi">なぎさ</rt><rt class="roma">nagisa</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[03:01.53]去海边吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:05.22]<ruby>乗り込<rt class="furi">のりこ</rt><rt class="roma">noriko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[03:05.22]上车出发吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:08.94]<ruby>リズム<rt class="roma">rizumu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>わせ<rt class="roma">wase</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>誘<rt class="furi">さそ</rt><rt class="roma">saso</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:08.94]合着节奏仿佛被邀请</div>
 </div>
 
@@ -331,6 +339,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 [03:16.20]<ruby>リズム<rt class="roma">rizumu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>はじけ<rt class="roma">hajike</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>モード<rt class="roma">moudo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:16.20]节奏迸发恋爱的模式</div>
 </div>
 
 </div>

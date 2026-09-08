@@ -17,7 +17,7 @@ image: /images/songs/anmc/mata旅hanekomimito-feat.-kahoca,-一no瀬陽鞠.jpg
 
 ## 作品概要
 
-ANMCが2025-04-16にリリースしたシングル「また旅はネコミミと feat. kahoca, 一ノ瀬陽鞠」。
+[ANMC](/ja/artists/solo/anmc)が2025-04-16にリリースしたシングル「また旅はネコミミと feat. kahoca, 一ノ瀬陽鞠」。
 
 ## 視聴
 {{media-switcher::また旅はネコミミと feat. kahoca, 一ノ瀬陽鞠}}

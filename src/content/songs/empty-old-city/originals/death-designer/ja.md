@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/death-designer.jpg
 
 ## 作品概要
 
-Empty old Cityが2025-02-04にリリースしたシングル「Death Designer」。
+[Empty old City](/ja/artists/solo/empty-old-city)が2025-02-04にリリースしたシングル「Death Designer」。
 
 ## 視聴
 {{media-switcher::Death Designer}}

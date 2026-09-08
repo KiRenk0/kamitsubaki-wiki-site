@@ -233,6 +233,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:45.16]<ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まれ<rt class="roma">mare</rt></ruby> <ruby>知覚<rt class="furi">ちかく</rt><rt class="roma">chikaku</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>早<rt class="furi">はや</rt><rt class="roma">haya</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
+<div class="cn-lyric">[03:45.16]时间啊停下 比感知更快</div>
 </div>
 
 <br />
@@ -248,6 +249,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [04:01.95]<ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まれ<rt class="roma">mare</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:01.95]时间啊停下</div>
 </div>
 
@@ -257,24 +259,28 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [04:10.53]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>振り返<rt class="furi">ふりかえ</rt><rt class="roma">furikae</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="cn-lyric">[04:10.53]能否有人回头看我一眼</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:17.00]<ruby>砂上<rt class="furi">さじょう</rt><rt class="roma">sajou</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
+<div class="cn-lyric">[04:17.00]向沙上</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:18.93]<ruby>魔法<rt class="furi">まほう</rt><rt class="roma">mahou</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>使い果<rt class="furi">つかいは</rt><rt class="roma">tsukaiha</rt></ruby><ruby>たそ<rt class="roma">taso</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="cn-lyric">[04:18.93]魔法是否已经用尽</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:24.82]<ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
+<div class="cn-lyric">[04:24.82]尽情地</div>
 </div>
 
 </div>

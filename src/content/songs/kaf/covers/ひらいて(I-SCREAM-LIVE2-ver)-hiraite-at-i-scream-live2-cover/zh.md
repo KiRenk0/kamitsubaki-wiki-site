@@ -40,12 +40,14 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 <ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">想要恋爱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">想要恋爱</div>
 </div>
 
 <div class="lyric-line">
@@ -157,6 +159,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 <ruby>ひらい<rt class="roma">hirai</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">打开</div>
 </div>
 
 <div class="lyric-line">
@@ -184,6 +187,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 <ruby>ひらい<rt class="roma">hirai</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">打开</div>
 </div>
 
 <div class="lyric-line">
@@ -204,6 +208,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 <ruby>ひらい<rt class="roma">hirai</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">打开</div>
 </div>
 
 <div class="lyric-line">
@@ -238,18 +243,21 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 <ruby>ひらい<rt class="roma">hirai</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>つまんない<rt class="roma">tsumannai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> (<ruby>ひらい<rt class="roma">hirai</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>)
 </div>
+<div class="cn-lyric">打开 好无聊啊 (打开吧)</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ひらい<rt class="roma">hirai</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">打开</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>もっと<rt class="roma">motto</rt></ruby><ruby>ひらい<rt class="roma">hirai</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">再打开更多</div>
 </div>
 
@@ -257,6 +265,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 <ruby>最初<rt class="furi">さいしょ</rt><rt class="roma">saisho</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>すこし<rt class="roma">sukoshi</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>でし<rt class="roma">deshi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>その<rt class="roma">sono</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby>
 </div>
+
 <div class="cn-lyric">最初的那点自我 在那之后</div>
 </div>
 
@@ -264,24 +273,28 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 <ruby>ひらい<rt class="roma">hirai</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">打开</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>この<rt class="roma">kono</rt></ruby><ruby>トキメキ<rt class="roma">tokimeki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">这份悸动</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>日常<rt class="furi">にちじょう</rt><rt class="roma">nichijou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>噛み締<rt class="furi">かみし</rt><rt class="roma">kamishi</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">想在明天的日常中细细品味</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>普通<rt class="furi">ふつう</rt><rt class="roma">futsuu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>顔<rt class="furi">かお</rt><rt class="roma">kao</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">普通的表情</div>
 </div>
 
@@ -289,6 +302,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 <ruby>でき<rt class="roma">deki</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">让它做不出来吧</div>
 </div>
 
@@ -296,6 +310,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 <ruby>つまんない<rt class="roma">tsumannai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+
 <div class="cn-lyric">好无聊啊</div>
 </div>
 
@@ -303,24 +318,28 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 <div class="jp-lyric">
 <ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">想要恋爱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">想要恋爱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+<div class="cn-lyric">想要恋爱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>さい<rt class="roma">sai</rt></ruby><ruby>あく<rt class="roma">aku</rt></ruby>
 </div>
+<div class="cn-lyric">最糟糕</div>
 </div>
 
 </div>

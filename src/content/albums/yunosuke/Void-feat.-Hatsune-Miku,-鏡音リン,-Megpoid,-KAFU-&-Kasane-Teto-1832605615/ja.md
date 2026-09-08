@@ -70,16 +70,16 @@ tracks:
 
 ## 概要
 
-[雄之助](/ja/artists/creators/yunosuke)が2025-08-31にリリースしたアルバム『Void (feat. Hatsune Miku, 鏡音リン, Megpoid, [KAFU](/ja/artists/isotopes/kafu) & Kasane Teto)』。全12曲を収録。
+[雄之助](/ja/artists/creators/yunosuke)が2025-08-31にリリースしたアルバム『[Void](/ja/songs/dustcell/originals/void) (feat. Hatsune Miku, 鏡音リン, Megpoid, [KAFU](/ja/artists/isotopes/kafu) & Kasane Teto)』。全12曲を収録。
 
 ## 収録曲
 
-1. ギャンビット (feat. 初音ミク)（03:32）
+1. [ギャンビット](/ja/songs/yunosuke/originals/gyanbitto) (feat. 初音ミク)（03:32）
 2. アンダースタディ (feat. 初音ミク)（03:36）
 3. ディレクテッド (feat. 初音ミク)（03:13）
-4. Supernova (feat. Hatsune Miku)（02:53）
-5. プライオリティ (feat. 初音ミク)（03:26）
-6. PaIII.PREDICTION (feat. Hatsune Miku, 鏡音リン & Megpoid)（03:46）
+4. [Supernova](/ja/songs/yunosuke/originals/supernova) (feat. Hatsune Miku)（02:53）
+5. [プライオリティ](/ja/songs/yunosuke/originals/puraioritei) (feat. 初音ミク)（03:26）
+6. [PaIII.PREDICTION](/ja/songs/yunosuke/originals/paiiiprediction) (feat. Hatsune Miku, 鏡音リン & Megpoid)（03:46）
 7. モンキーチャート (feat. 初音ミク)（03:06）
 8. Void (feat. Hatsune Miku)（03:48）
 9. ロウカラット (feat. 初音ミク, (feat. 可不) & 重音テト) & 重音テト)（04:03）

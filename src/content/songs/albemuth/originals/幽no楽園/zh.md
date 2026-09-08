@@ -17,7 +17,7 @@ image: /images/songs/albemuth/幽no楽園.jpg
 
 ## 作品简介
 
-Albemuth于 2022-11-23 发行的单曲《幽ノ楽園》。
+[Albemuth](/zh/artists/solo/albemuth)于 2022-11-23 发行的单曲《幽ノ楽園》。
 
 ## 试听
 {{media-switcher::幽ノ楽園}}

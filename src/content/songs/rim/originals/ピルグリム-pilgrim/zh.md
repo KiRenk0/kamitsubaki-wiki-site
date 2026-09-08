@@ -109,6 +109,7 @@ image: /images/songs/rim/single-1619104177.jpg
 <div class="jp-lyric">
 [00:48.48]<ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>せい<rt class="roma">sei</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[00:48.48]都是你的错</div>
 </div>
 
 <div class="lyric-line">
@@ -122,6 +123,7 @@ image: /images/songs/rim/single-1619104177.jpg
 <div class="jp-lyric">
 [00:55.32]<ruby>錯覚<rt class="furi">さっかく</rt><rt class="roma">sakkaku</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="cn-lyric">[00:55.32]是错觉吗</div>
 </div>
 
 <br />
@@ -190,18 +192,21 @@ image: /images/songs/rim/single-1619104177.jpg
 <div class="jp-lyric">
 [01:30.86]<ruby>性格<rt class="furi">せいかく</rt><rt class="roma">seikaku</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="cn-lyric">[01:30.86]是性格吗</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:36.21]<ruby>錯覚<rt class="furi">さっかく</rt><rt class="roma">sakkaku</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="cn-lyric">[01:36.21]是错觉吗</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:37.97]<ruby>錯覚<rt class="furi">さっかく</rt><rt class="roma">sakkaku</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="cn-lyric">[01:37.97]是错觉吗</div>
 </div>
 
 <br />
@@ -261,12 +266,14 @@ image: /images/songs/rim/single-1619104177.jpg
 <div class="jp-lyric">
 [02:27.97]<ruby>完全<rt class="furi">かんぜん</rt><rt class="roma">kanzen</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:27.97]完美的天空</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:29.85]<ruby>特別<rt class="furi">とくべつ</rt><rt class="roma">tokubetsu</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>もん<rt class="roma">mon</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
+<div class="cn-lyric">[02:29.85]因为你很特别嘛</div>
 </div>
 
 <br />
@@ -326,6 +333,7 @@ image: /images/songs/rim/single-1619104177.jpg
 <div class="jp-lyric">
 [02:55.39]<ruby>きらめい<rt class="roma">kiramei</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby> <ruby>星<rt class="furi">ほし</rt><rt class="roma">hoshi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:55.39]如闪烁的星辰</div>
 </div>
 
@@ -335,6 +343,7 @@ image: /images/songs/rim/single-1619104177.jpg
 <div class="jp-lyric">
 [02:59.00]<ruby>あれ<rt class="roma">are</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>随分<rt class="furi">ずいぶん</rt><rt class="roma">zuibun</rt></ruby> <ruby>窓<rt class="furi">まど</rt><rt class="roma">mado</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>外<rt class="furi">そと</rt><rt class="roma">soto</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:59.00]从那以后 窗外也变了很多</div>
 </div>
 
@@ -342,6 +351,7 @@ image: /images/songs/rim/single-1619104177.jpg
 <div class="jp-lyric">
 [03:03.11]<ruby>つまらない<rt class="roma">tsumaranai</rt></ruby><ruby>嘘<rt class="furi">うそ</rt><rt class="roma">uso</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:03.11]为无聊的谎言哭不出来</div>
 </div>
 
@@ -349,6 +359,7 @@ image: /images/songs/rim/single-1619104177.jpg
 <div class="jp-lyric">
 [03:06.32]<ruby>太陽<rt class="furi">たいよう</rt><rt class="roma">taiyou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>伸<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>ばし<rt class="roma">bashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>けれど<rt class="roma">keredo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:06.32]试着向太阳伸出手</div>
 </div>
 
@@ -356,6 +367,7 @@ image: /images/songs/rim/single-1619104177.jpg
 <div class="jp-lyric">
 [03:11.32]<ruby>だめ<rt class="roma">dame</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:11.32]好像不行</div>
 </div>
 
@@ -365,6 +377,7 @@ image: /images/songs/rim/single-1619104177.jpg
 <div class="jp-lyric">
 [03:13.40]<ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>びら<rt class="roma">bira</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>前髪<rt class="furi">まえがみ</rt><rt class="roma">maegami</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>上<rt class="furi">うえ</rt><rt class="roma">ue</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:13.40]花瓣落在刘海上</div>
 </div>
 
@@ -372,6 +385,7 @@ image: /images/songs/rim/single-1619104177.jpg
 <div class="jp-lyric">
 [03:17.99]<ruby>うん<rt class="roma">un</rt></ruby> <ruby>それだけ<rt class="roma">soredake</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:17.99]嗯 就这样</div>
 </div>
 

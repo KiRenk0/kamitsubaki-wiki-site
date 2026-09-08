@@ -133,6 +133,7 @@ image: /images/songs/isekaijoucho/single-1856150336.jpg
 <div class="jp-lyric">
 [00:48.152]<ruby>クロマティック<rt class="roma">kuromateikku</rt></ruby>
 </div>
+<div class="trans-lyric">[00:48.152]Chromatic</div>
 </div>
 
 <div class="lyric-line">
@@ -272,6 +273,7 @@ image: /images/songs/isekaijoucho/single-1856150336.jpg
 <div class="jp-lyric">
 [01:39.301]<ruby>クロマティック<rt class="roma">kuromateikku</rt></ruby>
 </div>
+<div class="trans-lyric">[01:39.301]Chromatic</div>
 </div>
 
 <div class="lyric-line">
@@ -306,6 +308,7 @@ image: /images/songs/isekaijoucho/single-1856150336.jpg
 <div class="jp-lyric">
 [01:55.002]<ruby>クロマティック<rt class="roma">kuromateikku</rt></ruby>
 </div>
+<div class="trans-lyric">[01:55.002]Chromatic</div>
 </div>
 
 <div class="lyric-line">
@@ -473,6 +476,7 @@ image: /images/songs/isekaijoucho/single-1856150336.jpg
 <div class="jp-lyric">
 [03:55.636]<ruby>ありのまま<rt class="roma">arinomama</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>えれ<rt class="roma">ere</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>、
 </div>
+
 <div class="trans-lyric">[03:55.636]If I can sing as I am,</div>
 </div>
 
@@ -480,6 +484,7 @@ image: /images/songs/isekaijoucho/single-1856150336.jpg
 <div class="jp-lyric">
 [03:58.701]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:58.701]That's enough</div>
 </div>
 
@@ -487,6 +492,7 @@ image: /images/songs/isekaijoucho/single-1856150336.jpg
 <div class="jp-lyric">
 [03:59.970]<ruby>そうして<rt class="roma">soushite</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>幾重<rt class="furi">いくえ</rt><rt class="roma">ikue</rt></ruby><ruby>にも<rt class="roma">nimo</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:59.970]And so the world, in layers</div>
 </div>
 
@@ -494,126 +500,147 @@ image: /images/songs/isekaijoucho/single-1856150336.jpg
 <div class="jp-lyric">
 [04:02.686]<ruby>千変万化<rt class="furi">せんぺんばんか</rt><rt class="roma">senpenbanka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>躍<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
 </div>
+<div class="trans-lyric">[04:02.686]Light dances in a thousand transformations</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:08.751]<ruby>クロマティック<rt class="roma">kuromateikku</rt></ruby>
 </div>
+<div class="trans-lyric">[04:08.751]Chromatic</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:10.018]<ruby>景色<rt class="furi">けしき</rt><rt class="roma">keshiki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>遷<ruby>ろ<rt class="roma">ro</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
+<div class="trans-lyric">[04:10.018]The change of scenery</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:12.234]<ruby>髪<rt class="furi">かみ</rt><rt class="roma">kami</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>なでる<rt class="roma">naderu</rt></ruby><ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>運<rt class="furi">はこ</rt><rt class="roma">hako</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby><ruby>土<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>匂<rt class="furi">にお</rt><rt class="roma">nio</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
+<div class="trans-lyric">[04:12.234]The scent of earth carried by the wind stroking your hair</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:18.169]<ruby>雨<rt class="furi">あめ</rt><rt class="roma">ame</rt></ruby><ruby>模様<rt class="furi">もよう</rt><rt class="roma">moyou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>大切<rt class="furi">たいせつ</rt><rt class="roma">taisetsu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>うるおい<rt class="roma">uruoi</rt></ruby>
 </div>
+<div class="trans-lyric">[04:18.169]Even a rainy heart is precious moisture</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:24.269]<ruby>クロマティック<rt class="roma">kuromateikku</rt></ruby>
 </div>
+<div class="trans-lyric">[04:24.269]Chromatic</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:25.819]<ruby>奏<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ゆく<rt class="roma">yuku</rt></ruby>
 </div>
+<div class="trans-lyric">[04:25.819]We play on</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:28.036]<ruby>ふたつ<rt class="roma">futatsu</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>一瞬<rt class="furi">いっしゅん</rt><rt class="roma">isshun</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>奇跡<rt class="furi">きせき</rt><rt class="roma">kiseki</rt></ruby>
 </div>
+<div class="trans-lyric">[04:28.036]The unique moment is a miracle</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:31.968]<ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>がってる<rt class="roma">gatteru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>、<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="trans-lyric">[04:31.968]We are connected, both you and I</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:35.851]<ruby>一緒<rt class="furi">いっしょ</rt><rt class="roma">issho</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>図<rt class="furi">ず</rt><rt class="roma">zu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>！
 </div>
+<div class="trans-lyric">[04:35.851]The future picture we paint together!</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:40.685]<ruby>海<rt class="furi">うみ</rt><rt class="roma">umi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>朱<rt class="furi">しゅ</rt><rt class="roma">shu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>加<rt class="furi">くわ</rt><rt class="roma">kuwa</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ましょ<rt class="roma">masho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="trans-lyric">[04:40.685]Let's add vermilion to the color of the sea</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:44.469]<ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>マゼンタ<rt class="roma">mazenta</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="trans-lyric">[04:44.469]Magenta to the sky as well</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:48.718]<ruby>幸<rt class="furi">しあわ</rt><rt class="roma">shiawa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="trans-lyric">[04:48.718]Happiness, they say</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:50.634]<ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>おしまい<rt class="roma">oshimai</rt></ruby>、<ruby>だけ<rt class="roma">dake</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby>
 </div>
+<div class="trans-lyric">[04:50.634]If it's just sweet and then it's over</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:53.002]<ruby>味気<rt class="furi">あじけ</rt><rt class="roma">ajike</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
+<div class="trans-lyric">[04:53.002]That would be bland, wouldn't it?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:56.684]<ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>誤魔化<rt class="furi">ごまか</rt><rt class="roma">gomaka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>切<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby><ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="trans-lyric">[04:56.684]Smiling, yet those feelings you couldn't deceive yourself about</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [05:00.936]<ruby>塗<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>重<rt class="furi">かさ</rt><rt class="roma">kasa</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[05:00.936]Layer them on</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [05:03.669]<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="trans-lyric">[05:03.669]The world</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [05:05.667]<ruby>幾重<rt class="furi">いくえ</rt><rt class="roma">ikue</rt></ruby><ruby>にも<rt class="roma">nimo</rt></ruby>
 </div>
+<div class="trans-lyric">[05:05.667]In layers upon layers</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [05:07.635]<ruby>千変万化<rt class="furi">せんぺんばんか</rt><rt class="roma">senpenbanka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>躍<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
 </div>
+<div class="trans-lyric">[05:07.635]Light dances in a thousand transformations</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [05:17.469]<ruby>クロマティック<rt class="roma">kuromateikku</rt></ruby>
 </div>
+<div class="trans-lyric">[05:17.469]Chromatic</div>
 </div>
 
 </div>

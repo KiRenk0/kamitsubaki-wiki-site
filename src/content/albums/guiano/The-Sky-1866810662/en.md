@@ -82,7 +82,7 @@ tracks:
 
 ## Overview
 
-Guiano's album “The Sky”, released on 2026-01-28, featuring 15 tracks.
+[Guiano](/en/artists/creators/guiano)'s album “The Sky”, released on 2026-01-28, featuring 15 tracks.
 
 ## Track List
 

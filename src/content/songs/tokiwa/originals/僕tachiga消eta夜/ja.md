@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/僕tachiga消eta夜.jpg
 
 ## 作品概要
 
-tokiwaが2026-02-26にリリースしたシングル「僕たちが消えた夜」。
+[tokiwa](/ja/artists/creators/tokiwa)が2026-02-26にリリースしたシングル「僕たちが消えた夜」。
 
 ## 視聴
 {{media-switcher::僕たちが消えた夜}}

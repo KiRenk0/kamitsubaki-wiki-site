@@ -82,7 +82,7 @@ tracks:
 
 ## 简介
 
-Guiano于 2020-03-13 发行的Album《Love & Music -DISC1-》,共收录 15 首歌曲。
+[Guiano](/zh/artists/creators/guiano)于 2020-03-13 发行的Album《Love & Music -DISC1-》,共收录 15 首歌曲。
 
 ## 收录曲
 
@@ -91,8 +91,8 @@ Guiano于 2020-03-13 发行的Album《Love & Music -DISC1-》,共收录 15 首�
 3. レイニー（04:31）
 4. 凍るサマー（04:00）
 5. 凍えそうだ（03:27）
-6. シャナ（03:20）
-7. スーパーヒーロー（02:47）
+6. [シャナ](/zh/songs/guiano/originals/shana)（03:20）
+7. [スーパーヒーロー](/zh/songs/guiano/originals/suupaahiiroo)（02:47）
 8. 無題（02:50）
 9. 死んでしまったのだろうか（03:31）
 10. 眠り姫（03:58）

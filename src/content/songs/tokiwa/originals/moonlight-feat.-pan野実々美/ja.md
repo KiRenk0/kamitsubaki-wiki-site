@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/moonlight-feat.-pan野実々美.jpg
 
 ## 作品概要
 
-tokiwaが2023-04-20にリリースしたシングル「Moonlight (feat. パン野実々美)」。
+[tokiwa](/ja/artists/creators/tokiwa)が2023-04-20にリリースしたシングル「Moonlight (feat. パン野実々美)」。
 
 ## 視聴
 {{media-switcher::Moonlight (feat. パン野実々美)}}

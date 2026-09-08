@@ -17,7 +17,7 @@ image: /images/songs/mimi/今haiindayo.-feat.-saewool-cover.jpg
 
 ## 作品简介
 
-MIMI于 2025-09-21 发行的单曲《今はいいんだよ。 (feat. saewool) [Cover]》。
+[MIMI](/zh/artists/creators/mimi)于 2025-09-21 发行的单曲《今はいいんだよ。 (feat. saewool) [Cover]》。
 
 ## 试听
 {{media-switcher::今はいいんだよ。 (feat. saewool) [Cover]}}

@@ -17,7 +17,7 @@ image: /images/songs/awairo/replay-feat.-梓川.jpg
 
 ## 作品简介
 
-Awairo于 2024-07-13 发行的单曲《Replay feat. 梓川》。
+[Awairo](/zh/artists/solo/awairo)于 2024-07-13 发行的单曲《Replay feat. 梓川》。
 
 ## 试听
 {{media-switcher::Replay feat. 梓川}}

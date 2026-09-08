@@ -56,7 +56,9 @@ SWIPE! appears on SWIPE! or a related official release. Entries are version-spec
 <div class="jp-lyric">
 [00:38.99]<ruby>提唱<rt class="furi">ていしょう</rt><rt class="roma">teishou</rt></ruby> <ruby>今<rt class="furi">こん</rt><rt class="roma">kon</rt></ruby>game on
 </div>
-<div class="trans-lyric">Advocating, now game on</div>
+<div class="trans-lyric">
+[00:38.99]Advocating, now game on
+</div>
 </div>
 
 <br />
@@ -95,7 +97,9 @@ SWIPE! appears on SWIPE! or a related official release. Entries are version-spec
 <div class="jp-lyric">
 [00:54.62]<ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby>
 </div>
-<div class="trans-lyric">Yeah yeah yeah</div>
+<div class="trans-lyric">
+[00:54.62]Yeah yeah yeah
+</div>
 </div>
 
 <div class="lyric-line">
@@ -109,6 +113,7 @@ SWIPE! appears on SWIPE! or a related official release. Entries are version-spec
 <div class="jp-lyric">
 [00:57.61]<ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby>
 </div>
+<div class="trans-lyric">[00:57.61]Yeah yeah yeah</div>
 </div>
 
 <div class="lyric-line">
@@ -122,6 +127,7 @@ SWIPE! appears on SWIPE! or a related official release. Entries are version-spec
 <div class="jp-lyric">
 [01:00.85]<ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby>
 </div>
+<div class="trans-lyric">[01:00.85]Yeah yeah yeah</div>
 </div>
 
 <div class="lyric-line">
@@ -167,7 +173,7 @@ SWIPE! appears on SWIPE! or a related official release. Entries are version-spec
 <div class="jp-lyric">
 [01:20.54]Na-Na-Na-
 </div>
-<div class="trans-lyric">Na-Na-Na-</div>
+<div class="trans-lyric">[01:20.54]Na-Na-Na-</div>
 </div>
 
 <br />
@@ -183,7 +189,7 @@ SWIPE! appears on SWIPE! or a related official release. Entries are version-spec
 <div class="jp-lyric">
 [01:38.54]<ruby>広告<rt class="furi">こうこく</rt><rt class="roma">koukoku</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>I hate it
 </div>
-<div class="trans-lyric">Advertisements too, I hate it</div>
+<div class="trans-lyric">[01:38.54]Advertisements too, I hate it</div>
 </div>
 
 <div class="lyric-line">
@@ -227,7 +233,7 @@ SWIPE! appears on SWIPE! or a related official release. Entries are version-spec
 <div class="jp-lyric">
 [01:56.86]<ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>メイクオフ<rt class="roma">meikuofu</rt></ruby> No Perfection
 </div>
-<div class="trans-lyric">Makeup off as you like, No Perfection</div>
+<div class="trans-lyric">[01:56.86]Makeup off as you like, No Perfection</div>
 </div>
 
 <br />
@@ -236,12 +242,14 @@ SWIPE! appears on SWIPE! or a related official release. Entries are version-spec
 <div class="jp-lyric">
 [02:00.19]<ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby>
 </div>
+<div class="trans-lyric">[02:00.19]Yeah yeah yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:01.24]<ruby>お茶<rt class="furi">おちゃ</rt><rt class="roma">ocha</rt></ruby><ruby>だし<rt class="roma">dashi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>上手<rt class="furi">じょうず</rt><rt class="roma">jouzu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:01.24]Good at serving tea</div>
 </div>
 
@@ -249,12 +257,14 @@ SWIPE! appears on SWIPE! or a related official release. Entries are version-spec
 <div class="jp-lyric">
 [02:03.58]<ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby>
 </div>
+<div class="trans-lyric">[02:03.58]Yeah yeah yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:04.47]<ruby>控<rt class="furi">ひか</rt><rt class="roma">hika</rt></ruby><ruby>えめ<rt class="roma">eme</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>リップ<rt class="roma">rippu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:04.47]With subtle lips</div>
 </div>
 
@@ -262,12 +272,14 @@ SWIPE! appears on SWIPE! or a related official release. Entries are version-spec
 <div class="jp-lyric">
 [02:06.55]<ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby>
 </div>
+<div class="trans-lyric">[02:06.55]Yeah yeah yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:07.74]<ruby>でしゃばり<rt class="roma">deshabari</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>やめ<rt class="roma">yame</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:07.74]Stop being meddlesome</div>
 </div>
 
@@ -275,6 +287,7 @@ SWIPE! appears on SWIPE! or a related official release. Entries are version-spec
 <div class="jp-lyric">
 [02:09.66]<ruby>バイバイバイバイバイ<rt class="roma">baibaibaibaibai</rt></ruby>
 </div>
+<div class="trans-lyric">[02:09.66]Bye bye bye bye bye</div>
 </div>
 
 <br />
@@ -283,18 +296,21 @@ SWIPE! appears on SWIPE! or a related official release. Entries are version-spec
 <div class="jp-lyric">
 [02:12.85]<ruby>ああ<rt class="roma">aa</rt></ruby><ruby>くだらない<rt class="roma">kudaranai</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby> <ruby>まだ<rt class="roma">mada</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>?
 </div>
+<div class="trans-lyric">[02:12.85]Ah, how boring, are you still saying that?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:17.81]<ruby>スワイプ<rt class="roma">suwaipu</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="trans-lyric">[02:17.81]I'll swipe away</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:19.37]<ruby>さあ<rt class="roma">saa</rt></ruby><ruby>息苦<rt class="furi">いきぐる</rt><rt class="roma">ikiguru</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>ぶった斬<rt class="furi">ぶったぎ</rt><rt class="roma">buttagi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="trans-lyric">[02:19.37]Come on, I'll slash through this suffocating world</div>
 </div>
 
 <br />
@@ -303,6 +319,7 @@ SWIPE! appears on SWIPE! or a related official release. Entries are version-spec
 <div class="jp-lyric">
 [02:26.08]Na-Na-Na-
 </div>
+<div class="trans-lyric">[02:26.08]Na-Na-Na-</div>
 </div>
 
 </div>

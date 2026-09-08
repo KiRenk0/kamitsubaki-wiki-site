@@ -17,7 +17,7 @@ image: /images/songs/valis/乙女的saikopashii-valis.jpg
 
 ## 作品简介
 
-VALIS于 2024-04-03 发行的单曲《乙女的サイコパシー(VALIS)》。
+[VALIS](/zh/artists/solo/valis)于 2024-04-03 发行的单曲《乙女的サイコパシー(VALIS)》。
 
 ## 试听
 {{media-switcher::乙女的サイコパシー(VALIS)}}

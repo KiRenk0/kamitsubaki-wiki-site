@@ -26,7 +26,7 @@ image: /images/songs/vwp/single-1708852625.jpg
 
 ## 作品简介
 
-- V.W.P于2023年10月11日发行的原创单曲《秘密》。该版本首次发行于专辑《[運命](/zh/albums/vwp/fate)》之中。
+- [V.W.P](/zh/artists/vwp/vwp)于2023年10月11日发行的原创单曲《秘密》。该版本首次发行于专辑《[運命](/zh/albums/vwp/fate)》之中。
 
 ## 试听
 

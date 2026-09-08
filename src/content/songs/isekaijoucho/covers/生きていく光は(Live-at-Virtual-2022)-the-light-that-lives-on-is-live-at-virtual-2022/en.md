@@ -20,7 +20,7 @@ image: /images/albums/rim/singularity-live.jpg
 
 ## Overview
 
-生きていく光は (Live at Virtual, 2022) appears on Singularity Live or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+生きていく光は (Live at Virtual, 2022) appears on [Singularity Live](/en/albums/rim/singularity-live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -169,6 +169,7 @@ Cup Cup Cup Cup <ruby>カップ<rt class="roma">kappu</rt></ruby><ruby>麺<rt cl
 <div class="jp-lyric">
 「<ruby>エビ<rt class="roma">ebi</rt></ruby><ruby>フライ<rt class="roma">furai</rt></ruby>」
 </div>
+<div class="trans-lyric">「Fried shrimp」</div>
 </div>
 
 <div class="lyric-line">
@@ -224,6 +225,7 @@ Cup Cup Cup Cup <ruby>カップ<rt class="roma">kappu</rt></ruby><ruby>麺<rt cl
 <div class="jp-lyric">
 「Tick Tack Tick Tack」
 </div>
+<div class="trans-lyric">「Tick Tack Tick Tack」</div>
 </div>
 
 <div class="lyric-line">
@@ -244,12 +246,14 @@ Cup Cup Cup Cup <ruby>カップ<rt class="roma">kappu</rt></ruby><ruby>麺<rt cl
 <div class="jp-lyric">
 「Tick Tack Tick Tack」
 </div>
+<div class="trans-lyric">「Tick Tack Tick Tack」</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 「<ruby>テクテクテクテク<rt class="roma">tekutekutekuteku</rt></ruby>」
 </div>
+<div class="trans-lyric">「Teku teku teku teku」</div>
 </div>
 
 <div class="lyric-line">
@@ -270,18 +274,21 @@ Cup Cup Cup Cup <ruby>カップ<rt class="roma">kappu</rt></ruby><ruby>麺<rt cl
 <div class="jp-lyric">
 「Tick Tack Tick Tack」
 </div>
+<div class="trans-lyric">「Tick Tack Tick Tack」</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 「<ruby>テクテクテクテク<rt class="roma">tekutekutekuteku</rt></ruby>」
 </div>
+<div class="trans-lyric">「Teku teku teku teku」</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 「<ruby>トクトクトクトク<rt class="roma">tokutokutokutoku</rt></ruby>」
 </div>
+<div class="trans-lyric">「Tok tok tok tok」</div>
 </div>
 
 <div class="lyric-line">
@@ -295,24 +302,28 @@ Cup Cup Cup Cup <ruby>カップ<rt class="roma">kappu</rt></ruby><ruby>麺<rt cl
 <div class="jp-lyric">
 「Tick Tack Tick Tack」
 </div>
+<div class="trans-lyric">「Tick Tack Tick Tack」</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 「<ruby>テクテクテクテク<rt class="roma">tekutekutekuteku</rt></ruby>」
 </div>
+<div class="trans-lyric">「Teku teku teku teku」</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 「<ruby>トクトクトクトク<rt class="roma">tokutokutokutoku</rt></ruby>」
 </div>
+<div class="trans-lyric">「Tok tok tok tok」</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 「<ruby>トク<rt class="roma">toku</rt></ruby><ruby>トク<rt class="roma">toku</rt></ruby>」
 </div>
+<div class="trans-lyric">「Tok tok」</div>
 </div>
 
 <div class="lyric-line">
@@ -347,6 +358,7 @@ Cup Cup Cup Cup <ruby>カップ<rt class="roma">kappu</rt></ruby><ruby>麺<rt cl
 <div class="jp-lyric">
 「<ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>秒<rt class="furi">びょう</rt><rt class="roma">byou</rt></ruby> <ruby>跳<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>ねる<rt class="roma">neru</rt></ruby><ruby>エビ<rt class="roma">ebi</rt></ruby><ruby>フライ<rt class="roma">furai</rt></ruby>」
 </div>
+<div class="trans-lyric">「One second, jumping fried shrimp」</div>
 </div>
 
 <div class="lyric-line">
@@ -514,6 +526,7 @@ Cup Cup Cup Cup <ruby>カップ<rt class="roma">kappu</rt></ruby><ruby>麺<rt cl
 <div class="jp-lyric">
 「<ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>秒<rt class="furi">びょう</rt><rt class="roma">byou</rt></ruby> <ruby>目覚<rt class="furi">めざ</rt><rt class="roma">meza</rt></ruby><ruby>まし<rt class="roma">mashi</rt></ruby><ruby>時計<rt class="furi">とけい</rt><rt class="roma">tokei</rt></ruby>」
 </div>
+<div class="trans-lyric">「One second, the alarm clock」</div>
 </div>
 
 <div class="lyric-line">
@@ -702,6 +715,7 @@ Cup Cup Cup Cup <ruby>カップ<rt class="roma">kappu</rt></ruby><ruby>麺<rt cl
 <div class="jp-lyric">
 <ruby>おやすみ<rt class="roma">oyasumi</rt></ruby>
 </div>
+<div class="trans-lyric">Good night</div>
 </div>
 
 <div class="lyric-line">
@@ -715,6 +729,7 @@ Cup Cup Cup Cup <ruby>カップ<rt class="roma">kappu</rt></ruby><ruby>麺<rt cl
 <div class="jp-lyric">
 <ruby>おやすみ<rt class="roma">oyasumi</rt></ruby>
 </div>
+<div class="trans-lyric">Good night</div>
 </div>
 
 <div class="lyric-line">
@@ -959,6 +974,7 @@ Cup Cup Cup Cup <ruby>カップ<rt class="roma">kappu</rt></ruby><ruby>麺<rt cl
 <div class="jp-lyric">
 「<ruby>布団<rt class="furi">ふとん</rt><rt class="roma">futon</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>感謝<rt class="furi">かんしゃ</rt><rt class="roma">kansha</rt></ruby>～～」
 </div>
+<div class="trans-lyric">「Gratitude to the futon~~」</div>
 </div>
 
 <div class="lyric-line">
@@ -1189,6 +1205,7 @@ Cup Cup Cup Cup <ruby>カップ<rt class="roma">kappu</rt></ruby><ruby>麺<rt cl
 <div class="jp-lyric">
 <ruby>ドキドキ<rt class="roma">dokidoki</rt></ruby><ruby>ドキドキ<rt class="roma">dokidoki</rt></ruby> <ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づく<rt class="roma">zuku</rt></ruby>
 </div>
+
 <div class="trans-lyric">Doki doki doki doki, I notice the sound of my heart</div>
 </div>
 
@@ -1196,6 +1213,7 @@ Cup Cup Cup Cup <ruby>カップ<rt class="roma">kappu</rt></ruby><ruby>麺<rt cl
 <div class="jp-lyric">
 <ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
+
 <div class="trans-lyric">Today I'm going to meet you, the current me goes to meet you</div>
 </div>
 
@@ -1203,6 +1221,7 @@ Cup Cup Cup Cup <ruby>カップ<rt class="roma">kappu</rt></ruby><ruby>麺<rt cl
 <div class="jp-lyric">
 <ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>」
 </div>
+
 <div class="trans-lyric">Today I'm going to meet you, the current me goes to meet you」</div>
 </div>
 
@@ -1210,6 +1229,7 @@ Cup Cup Cup Cup <ruby>カップ<rt class="roma">kappu</rt></ruby><ruby>麺<rt cl
 <div class="jp-lyric">
 「<ruby>ガタンゴトン<rt class="roma">gatangoton</rt></ruby> <ruby>ガタンゴトン<rt class="roma">gatangoton</rt></ruby>」
 </div>
+
 <div class="trans-lyric">「Gatan goton, gatan goton」</div>
 </div>
 
@@ -1217,6 +1237,7 @@ Cup Cup Cup Cup <ruby>カップ<rt class="roma">kappu</rt></ruby><ruby>麺<rt cl
 <div class="jp-lyric">
 「<ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>」
 </div>
+
 <div class="trans-lyric">「Today I'm going to meet you, the current me goes to meet you」</div>
 </div>
 
@@ -1224,6 +1245,7 @@ Cup Cup Cup Cup <ruby>カップ<rt class="roma">kappu</rt></ruby><ruby>麺<rt cl
 <div class="jp-lyric">
 「<ruby>月<rt class="furi">つき</rt><rt class="roma">tsuki</rt></ruby><ruby>花水木<rt class="furi">はなみずき</rt><rt class="roma">hanamizuki</rt></ruby><ruby>金<rt class="furi">きん</rt><rt class="roma">kin</rt></ruby><ruby>土日<rt class="furi">どにち</rt><rt class="roma">donichi</rt></ruby>」
 </div>
+
 <div class="trans-lyric">「Monday Tuesday Wednesday Thursday Friday Saturday Sunday」</div>
 </div>
 
@@ -1231,6 +1253,7 @@ Cup Cup Cup Cup <ruby>カップ<rt class="roma">kappu</rt></ruby><ruby>麺<rt cl
 <div class="jp-lyric">
 「<ruby>月<rt class="furi">つき</rt><rt class="roma">tsuki</rt></ruby><ruby>花水木<rt class="furi">はなみずき</rt><rt class="roma">hanamizuki</rt></ruby><ruby>金曜日<rt class="furi">きんようび</rt><rt class="roma">kin'youbi</rt></ruby> <ruby>毎日<rt class="furi">まいにち</rt><rt class="roma">mainichi</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>」
 </div>
+
 <div class="trans-lyric">「Monday Tuesday Wednesday Thursday Friday, I wish we could meet every day」</div>
 </div>
 
@@ -1238,6 +1261,7 @@ Cup Cup Cup Cup <ruby>カップ<rt class="roma">kappu</rt></ruby><ruby>麺<rt cl
 <div class="jp-lyric">
 「<ruby>ずーっと<rt class="roma">zuutto</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby> <ruby>なんて<rt class="roma">nante</rt></ruby> <ruby>永遠<rt class="furi">えいえん</rt><rt class="roma">eien</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>…」
 </div>
+
 <div class="trans-lyric">「I wish it could be today forever, like eternity...」</div>
 </div>
 
@@ -1245,36 +1269,45 @@ Cup Cup Cup Cup <ruby>カップ<rt class="roma">kappu</rt></ruby><ruby>麺<rt cl
 <div class="jp-lyric">
 「<ruby>月<rt class="furi">つき</rt><rt class="roma">tsuki</rt></ruby><ruby>花水木<rt class="furi">はなみずき</rt><rt class="roma">hanamizuki</rt></ruby><ruby>金<rt class="furi">きん</rt><rt class="roma">kin</rt></ruby><ruby>土日<rt class="furi">どにち</rt><rt class="roma">donichi</rt></ruby>」
 </div>
+
+<div class="trans-lyric">「Monday Tuesday Wednesday Thursday Friday Saturday Sunday」</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 「<ruby>月<rt class="furi">つき</rt><rt class="roma">tsuki</rt></ruby><ruby>花水木<rt class="furi">はなみずき</rt><rt class="roma">hanamizuki</rt></ruby><ruby>金曜日<rt class="furi">きんようび</rt><rt class="roma">kin'youbi</rt></ruby> <ruby>毎日<rt class="furi">まいにち</rt><rt class="roma">mainichi</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>」
 </div>
+
+<div class="trans-lyric">「Monday Tuesday Wednesday Thursday Friday, I wish we could meet every day」</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 「<ruby>ずーっと<rt class="roma">zuutto</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby> <ruby>なんて<rt class="roma">nante</rt></ruby> <ruby>永遠<rt class="furi">えいえん</rt><rt class="roma">eien</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>…」
 </div>
+
+<div class="trans-lyric">「I wish it could be today forever, like eternity...」</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 「<ruby>今夜<rt class="furi">こんや</rt><rt class="roma">kon'ya</rt></ruby>」
 </div>
+<div class="trans-lyric">「Tonight」</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 「<ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>秒<rt class="furi">びょう</rt><rt class="roma">byou</rt></ruby>」
 </div>
+<div class="trans-lyric">「One second」</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 「<ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>秒<rt class="furi">びょう</rt><rt class="roma">byou</rt></ruby><ruby>なんか<rt class="roma">nanka</rt></ruby><ruby>あっという間<rt class="furi">あっというま</rt><rt class="roma">attoiuma</rt></ruby> <ruby>一生<rt class="furi">いっしょう</rt><rt class="roma">isshou</rt></ruby><ruby>なんか<rt class="roma">nanka</rt></ruby><ruby>あっという間<rt class="furi">あっというま</rt><rt class="roma">attoiuma</rt></ruby>」
 </div>
+
 <div class="trans-lyric">「One second goes by in a flash, a lifetime goes by in a flash」</div>
 </div>
 
@@ -1282,18 +1315,21 @@ Cup Cup Cup Cup <ruby>カップ<rt class="roma">kappu</rt></ruby><ruby>麺<rt cl
 <div class="jp-lyric">
 <ruby>おやすみ<rt class="roma">oyasumi</rt></ruby> <ruby>まだ<rt class="roma">mada</rt></ruby><ruby>名前<rt class="furi">なまえ</rt><rt class="roma">namae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>無数<rt class="furi">むすう</rt><rt class="roma">musuu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
+<div class="trans-lyric">Good night, countless unnamed feelings</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>おやすみ<rt class="roma">oyasumi</rt></ruby> <ruby>また<rt class="roma">mata</rt></ruby><ruby>こんな<rt class="roma">konna</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
+<div class="trans-lyric">Good night, until a day they become a song on a night like this again</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 「<ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>秒<rt class="furi">びょう</rt><rt class="roma">byou</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>九<rt class="furi">きゅう</rt><rt class="roma">kyuu</rt></ruby><ruby>拾<rt class="furi">じつ</rt><rt class="roma">jitsu</rt></ruby>弐<ruby>萬<rt class="furi">よろず</rt><rt class="roma">yorozu</rt></ruby><ruby>円<rt class="furi">えん</rt><rt class="roma">en</rt></ruby><ruby>日本<rt class="furi">にっぽん</rt><rt class="roma">nippon</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>借金<rt class="furi">しゃっきん</rt><rt class="roma">shakkin</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>増<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby>。
 </div>
+
 <div class="trans-lyric">「In one second, Japan's debt increases by 920,000 yen.</div>
 </div>
 
@@ -1301,6 +1337,7 @@ Cup Cup Cup Cup <ruby>カップ<rt class="roma">kappu</rt></ruby><ruby>麺<rt cl
 <div class="jp-lyric">
 <ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>年間<rt class="furi">ねんかん</rt><rt class="roma">nenkan</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>弐<ruby>拾<rt class="furi">じつ</rt><rt class="roma">jitsu</rt></ruby><ruby>九<rt class="furi">きゅう</rt><rt class="roma">kyuu</rt></ruby><ruby>兆<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>円<rt class="furi">えん</rt><rt class="roma">en</rt></ruby> <ruby>現在<rt class="furi">げんざい</rt><rt class="roma">genzai</rt></ruby><ruby>総額<rt class="furi">そうがく</rt><rt class="roma">sougaku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>六<rt class="furi">ろく</rt><rt class="roma">roku</rt></ruby><ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>八<rt class="furi">はち</rt><rt class="roma">hachi</rt></ruby><ruby>拾<rt class="furi">じつ</rt><rt class="roma">jitsu</rt></ruby><ruby>六<rt class="furi">ろく</rt><rt class="roma">roku</rt></ruby><ruby>兆<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>円<rt class="furi">えん</rt><rt class="roma">en</rt></ruby>」
 </div>
+
 <div class="trans-lyric">29 trillion yen per year, currently total 686 trillion yen」</div>
 </div>
 
@@ -1308,6 +1345,7 @@ Cup Cup Cup Cup <ruby>カップ<rt class="roma">kappu</rt></ruby><ruby>麺<rt cl
 <div class="jp-lyric">
 「<ruby>まさか<rt class="roma">masaka</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>タイミング<rt class="roma">taimingu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ラップ<rt class="roma">rappu</rt></ruby><ruby>作<rt class="furi">つく</rt><rt class="roma">tsuku</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>。
 </div>
+
 <div class="trans-lyric">「Never thought I'd be making a rap at this timing.</div>
 </div>
 
@@ -1315,6 +1353,7 @@ Cup Cup Cup Cup <ruby>カップ<rt class="roma">kappu</rt></ruby><ruby>麺<rt cl
 <div class="jp-lyric">
 「<ruby>国民<rt class="furi">こくみん</rt><rt class="roma">kokumin</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>あたり<rt class="roma">atari</rt></ruby><ruby>約<rt class="furi">やく</rt><rt class="roma">yaku</rt></ruby><ruby>五<rt class="furi">ご</rt><rt class="roma">go</rt></ruby><ruby>百<rt class="furi">ひゃく</rt><rt class="roma">hyaku</rt></ruby><ruby>七<rt class="furi">なな</rt><rt class="roma">nana</rt></ruby><ruby>拾六<rt class="furi">じゅうろく</rt><rt class="roma">juuroku</rt></ruby><ruby>萬<rt class="furi">よろず</rt><rt class="roma">yorozu</rt></ruby><ruby>円<rt class="furi">えん</rt><rt class="roma">en</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>借金<rt class="furi">しゃっきん</rt><rt class="roma">shakkin</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>」
 </div>
+
 <div class="trans-lyric">「That means each citizen has a debt of about 5.76 million yen」</div>
 </div>
 
@@ -1322,6 +1361,7 @@ Cup Cup Cup Cup <ruby>カップ<rt class="roma">kappu</rt></ruby><ruby>麺<rt cl
 <div class="jp-lyric">
 <ruby>みんな<rt class="roma">minna</rt></ruby> <ruby>難<rt class="furi">むずか</rt><rt class="roma">muzuka</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>やって<rt class="roma">yatte</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>」
 </div>
+
 <div class="trans-lyric">Everyone was doing difficult things, huh」</div>
 </div>
 
@@ -1329,6 +1369,7 @@ Cup Cup Cup Cup <ruby>カップ<rt class="roma">kappu</rt></ruby><ruby>麺<rt cl
 <div class="jp-lyric">
 「<ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>秒<rt class="furi">びょう</rt><rt class="roma">byou</rt></ruby> <ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>秒<rt class="furi">びょう</rt><rt class="roma">byou</rt></ruby><ruby>ごと<rt class="roma">goto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>減<rt class="furi">へ</rt><rt class="roma">he</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby> <ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>電気<rt class="furi">でんき</rt><rt class="roma">denki</rt></ruby> <ruby>電気<rt class="furi">でんき</rt><rt class="roma">denki</rt></ruby><ruby>静<rt class="furi">しず</rt><rt class="roma">shizu</rt></ruby><ruby>まり<rt class="roma">mari</rt></ruby> <ruby>みんな<rt class="roma">minna</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まって<rt class="roma">matte</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>明<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby>」
 </div>
+
 <div class="trans-lyric">「One second, with each second, people decrease, lights disappear, lights quiet down, everyone stops, and dawn breaks」</div>
 </div>
 
@@ -1336,12 +1377,14 @@ Cup Cup Cup Cup <ruby>カップ<rt class="roma">kappu</rt></ruby><ruby>麺<rt cl
 <div class="jp-lyric">
 <ruby>今夜<rt class="furi">こんや</rt><rt class="roma">kon'ya</rt></ruby> <ruby>どうか<rt class="roma">douka</rt></ruby> <ruby>どう<rt class="roma">dou</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+<div class="trans-lyric">Tonight, please, please</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 「<ruby>差し込<rt class="furi">さしこ</rt><rt class="roma">sashiko</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>戻<rt class="furi">もど</rt><rt class="roma">modo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>」
 </div>
+
 <div class="trans-lyric">「Awakened from a dream by the light streaming in」</div>
 </div>
 

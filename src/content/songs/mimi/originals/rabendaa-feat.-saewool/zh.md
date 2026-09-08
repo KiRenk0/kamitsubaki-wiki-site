@@ -17,7 +17,7 @@ image: /images/songs/mimi/rabendaa-feat.-saewool.jpg
 
 ## 作品简介
 
-MIMI于 2025-06-22 发行的单曲《ラベンダー (feat. saewool)》。
+[MIMI](/zh/artists/creators/mimi)于 2025-06-22 发行的单曲《ラベンダー (feat. saewool)》。
 
 ## 试听
 {{media-switcher::ラベンダー (feat. saewool)}}

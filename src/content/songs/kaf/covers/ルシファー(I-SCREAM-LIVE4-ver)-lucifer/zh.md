@@ -273,12 +273,14 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 [01:46.42]<ruby>ルシファー<rt class="roma">rushifuaa</rt></ruby>
 </div>
+<div class="cn-lyric">[01:46.42]路西法</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:47.45]<ruby>ル<rt class="roma">ru</rt></ruby> <ruby>ルシファー<rt class="roma">rushifuaa</rt></ruby>
 </div>
+<div class="cn-lyric">[01:47.45]路 路西法</div>
 </div>
 
 <div class="lyric-line">
@@ -331,6 +333,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 [02:26.00]<ruby>ルシファー<rt class="roma">rushifuaa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:26.00]路西法</div>
 </div>
 
 <div class="lyric-line">
@@ -367,12 +370,14 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 [02:36.15]<ruby>ルシファー<rt class="roma">rushifuaa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:36.15]路西法</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:37.28]<ruby>ル<rt class="roma">ru</rt></ruby> <ruby>ルシファー<rt class="roma">rushifuaa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:37.28]路 路西法</div>
 </div>
 
 <div class="lyric-line">
@@ -395,12 +400,14 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 [02:45.67]<ruby>友<rt class="furi">とも</rt><rt class="roma">tomo</rt></ruby><ruby>だち<rt class="roma">dachi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">[02:45.67]朋友的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:48.32]<ruby>彼女<rt class="furi">かのじょ</rt><rt class="roma">kanojo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>出<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:48.32]想对她的女朋友出手</div>
 </div>
 
@@ -408,12 +415,14 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 [02:50.92]<ruby>親<rt class="furi">おや</rt><rt class="roma">oya</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby>
 </div>
+<div class="cn-lyric">[02:50.92]关于父母</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:53.54]<ruby>裏切<rt class="furi">うらぎ</rt><rt class="roma">uragi</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>しまい<rt class="roma">shimai</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:53.54]想要背叛</div>
 </div>
 
@@ -423,6 +432,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 [02:56.16]<ruby>殺<rt class="furi">ころ</rt><rt class="roma">koro</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>ぐらい<rt class="roma">gurai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:56.16]甚至想杀死</div>
 </div>
 
@@ -430,6 +440,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 [02:58.37]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:58.37]想要试着爱某人</div>
 </div>
 
@@ -437,12 +448,14 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 <div class="jp-lyric">
 [03:01.09]<ruby>修羅場<rt class="furi">しゅらば</rt><rt class="roma">shuraba</rt></ruby><ruby>こそ<rt class="roma">koso</rt></ruby>
 </div>
+<div class="cn-lyric">[03:01.09]修罗场正是</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:03.58]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>現世<rt class="furi">げんせい</rt><rt class="roma">gensei</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>場所<rt class="furi">ばしょ</rt><rt class="roma">basho</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:03.58]我现世的所在</div>
 </div>
 

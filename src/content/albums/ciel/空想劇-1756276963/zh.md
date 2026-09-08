@@ -74,20 +74,20 @@ tracks:
 
 ## 简介
 
-CIEL于 2024-07-24 发行的Album《空想劇》,共收录 13 首歌曲。
+[CIEL](/zh/artists/solo/ciel)于 2024-07-24 发行的Album《空想劇》,共收录 13 首歌曲。
 
 ## 收录曲
 
 1. introduction（01:18）
-2. 窓を開けて（03:38）
+2. [窓を開けて](/zh/songs/ciel/originals/窓wo開kete)（03:38）
 3. 君の望み、君の願い（05:23）
-4. 眼裏の懐疑（02:59）
-5. 馥郁の街（02:31）
-6. 少年漫画（03:08）
-7. 空より（03:09）
-8. 生活に落ちる（02:59）
-9. うわのそら（02:41）
+4. [眼裏の懐疑](/zh/songs/ciel/originals/眼裏no懐疑)（02:59）
+5. [馥郁の街](/zh/songs/ciel/originals/馥郁no街)（02:31）
+6. [少年漫画](/zh/songs/ciel/originals/少年漫画)（03:08）
+7. [空より](/zh/songs/ciel/originals/空yori)（03:09）
+8. [生活に落ちる](/zh/songs/ciel/originals/生活ni落chiru)（02:59）
+9. [うわのそら](/zh/songs/ciel/originals/uwanosora)（02:41）
 10. 空中散歩（02:42）
 11. 僕たちの群青（03:20）
-12. 空想少女（03:31）
+12. [空想少女](/zh/albums/ciel/空想少女-1718887889)（03:31）
 13. outroduction（01:38）

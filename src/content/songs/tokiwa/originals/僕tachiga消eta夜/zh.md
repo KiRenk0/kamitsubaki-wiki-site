@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/僕tachiga消eta夜.jpg
 
 ## 作品简介
 
-tokiwa于 2026-02-26 发行的单曲《僕たちが消えた夜》。
+[tokiwa](/zh/artists/creators/tokiwa)于 2026-02-26 发行的单曲《僕たちが消えた夜》。
 
 ## 试听
 {{media-switcher::僕たちが消えた夜}}

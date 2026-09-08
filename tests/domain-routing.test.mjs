@@ -17,7 +17,18 @@ test('legacy SINSAEKAI project routes redirect to the corrected slug', async () 
   for (const locale of ['zh', 'ja', 'en']) {
     assert.match(
       redirects,
-      new RegExp(`^/${locale}/projects/labels/sinsaekai-studio\\s+/${locale}/projects/labels/sinsekai-studio\\s+301$`, 'm'),
+      new RegExp(`^/${locale}/projects/labels/sinsaekai-studio\\s+/${locale}/projects/archive/sinsekai-studio\\s+301$`, 'm'),
+    );
+  }
+});
+
+test('legacy SINSEKAI label routes redirect to the archived entry', async () => {
+  const redirects = await readFile(new URL('../public/_redirects', import.meta.url), 'utf8');
+
+  for (const locale of ['zh', 'zh-tw', 'zh-hk', 'ja', 'en']) {
+    assert.match(
+      redirects,
+      new RegExp(`^/${locale}/projects/labels/sinsekai-studio\\s+/${locale}/projects/archive/sinsekai-studio\\s+301$`, 'm'),
     );
   }
 });

@@ -133,6 +133,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>
 </div>
+<div class="cn-lyric">爱还能做些什么呢</div>
 </div>
 
 <div class="lyric-line">
@@ -178,12 +179,14 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>
 </div>
+<div class="cn-lyric">爱还能做些什么呢</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>
 </div>
+<div class="cn-lyric">我还能做些什么呢</div>
 </div>
 
 <br />
@@ -250,12 +253,14 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>
 </div>
+<div class="cn-lyric">爱还能做些什么呢</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>
 </div>
+<div class="cn-lyric">我还能做些什么呢</div>
 </div>
 
 <br />
@@ -264,12 +269,14 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>勇気<rt class="furi">ゆうき</rt><rt class="roma">yuuki</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="cn-lyric">因为是你给我的勇气</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>使<rt class="furi">つか</rt><rt class="roma">tsuka</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">想要为你而使用</div>
 </div>
 
 <div class="lyric-line">
@@ -283,6 +290,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>なきゃ<rt class="roma">nakya</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">如果不是你就没有意义</div>
 </div>
 
 <br />
@@ -291,12 +299,14 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>
 </div>
+<div class="cn-lyric">爱还能做些什么呢</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>
 </div>
+<div class="cn-lyric">我还能做些什么呢</div>
 </div>
 
 <br />
@@ -319,6 +329,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>なぜ<rt class="roma">naze</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>すり抜<rt class="furi">すりぬ</rt><rt class="roma">surinu</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby><ruby>物<rt class="furi">もの</rt><rt class="roma">mono</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>与<rt class="furi">あた</rt><rt class="roma">ata</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
+
 <div class="cn-lyric">为什么只给予从手中溜走的东西</div>
 </div>
 
@@ -326,6 +337,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>なお<rt class="roma">nao</rt></ruby><ruby>しがみつく<rt class="roma">shigamitsuku</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>醜<rt class="furi">みにく</rt><rt class="roma">miniku</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>
 </div>
+
 <div class="cn-lyric">即便如此仍紧抓不放的我们，是丑陋的吗</div>
 </div>
 
@@ -333,6 +345,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [05:32.99]<ruby>それとも<rt class="roma">soretomo</rt></ruby><ruby>綺麗<rt class="furi">きれい</rt><rt class="roma">kirei</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[05:32.99]还是美丽的呢</div>
 </div>
 
@@ -340,6 +353,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">回答我吧</div>
 </div>
 
@@ -349,6 +363,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>尽<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>くし<rt class="roma">kushi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+
 <div class="cn-lyric">爱的歌已被唱尽</div>
 </div>
 
@@ -356,6 +371,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>数多<rt class="furi">すうた</rt><rt class="roma">suuta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>映画<rt class="furi">えいが</rt><rt class="roma">eiga</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>語<rt class="furi">かた</rt><rt class="roma">kata</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>尽<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>くし<rt class="roma">kushi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+
 <div class="cn-lyric">在无数电影中已被道尽</div>
 </div>
 
@@ -363,6 +379,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>荒野<rt class="furi">あらの</rt><rt class="roma">arano</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>生まれ落<rt class="furi">うまれお</rt><rt class="roma">umareo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby>、<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby>
 </div>
+
 <div class="cn-lyric">降生于如此荒野的我，你</div>
 </div>
 
@@ -370,6 +387,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>それでも<rt class="roma">soredemo</rt></ruby>
 </div>
+
 <div class="cn-lyric">即便如此</div>
 </div>
 
@@ -379,6 +397,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">爱还能做些什么啊</div>
 </div>
 
@@ -386,6 +405,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">我还能做些什么啊</div>
 </div>
 

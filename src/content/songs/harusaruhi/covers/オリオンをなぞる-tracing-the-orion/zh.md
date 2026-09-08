@@ -126,6 +126,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 Perfecty, Euphoria！
 </div>
+<div class="cn-lyric">完美，欣快！</div>
 </div>
 
 <div class="lyric-line">
@@ -223,18 +224,21 @@ Perfecty, Euphoria！
 <div class="jp-lyric">
 <ruby>新<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>空前絶後<rt class="furi">くうぜんぜつご</rt><rt class="roma">kuuzenzetsugo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">祈愿新未来 空前绝后的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>もし<rt class="roma">moshi</rt></ruby>、<ruby>もし<rt class="roma">moshi</rt></ruby><ruby>紡<rt class="furi">つむ</rt><rt class="roma">tsumu</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby> <ruby>時間<rt class="furi">じかん</rt><rt class="roma">jikan</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まる<rt class="roma">maru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">如果话语能够编织 时间就会停止</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:30.41]<ruby>オリオン<rt class="roma">orion</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>なぞる<rt class="roma">nazoru</rt></ruby> <ruby>こんな<rt class="roma">konna</rt></ruby><ruby>深<rt class="furi">ふか</rt><rt class="roma">fuka</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>それ<rt class="roma">sore</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>十分<rt class="furi">じゅうぶん</rt><rt class="roma">juubun</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:30.41]描摹猎户座 在如此深的夜里 有我在 有你在 仅此而已 就足够了吧</div>
 </div>
 
@@ -242,12 +246,14 @@ Perfecty, Euphoria！
 <div class="jp-lyric">
 <ruby>新<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>空前絶後<rt class="furi">くうぜんぜつご</rt><rt class="roma">kuuzenzetsugo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">祈愿新未来 空前绝后的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:45.60]<ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>もし<rt class="roma">moshi</rt></ruby>、<ruby>もし<rt class="roma">moshi</rt></ruby><ruby>紡<rt class="furi">つむ</rt><rt class="roma">tsumu</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby> <ruby>一緒<rt class="furi">いっしょ</rt><rt class="roma">issho</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ばそ<rt class="roma">baso</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:45.60]如果话语能够编织 一起放飞吧</div>
 </div>
 
@@ -255,6 +261,7 @@ Perfecty, Euphoria！
 <div class="jp-lyric">
 [03:53.18]<ruby>昨日<rt class="furi">きのう</rt><rt class="roma">kinou</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>ちゃんと<rt class="roma">chanto</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>景色<rt class="furi">けしき</rt><rt class="roma">keshiki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:53.18]好好爱着直到昨天 去看从未见过的风景</div>
 </div>
 
@@ -262,6 +269,7 @@ Perfecty, Euphoria！
 <div class="jp-lyric">
 「<ruby>ココデオワルハズガナイノニ<rt class="roma">kokodeowaruhazuganainoni</rt></ruby>」
 </div>
+<div class="cn-lyric">「明明不应该在此结束」</div>
 </div>
 
 </div>

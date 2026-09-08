@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/blackrose-feat.-星界.jpg
 
 ## 作品简介
 
-tokiwa于 2024-04-26 发行的单曲《Blackrose (feat. [星界](/zh/artists/isotopes/sekai))》。
+[tokiwa](/zh/artists/creators/tokiwa)于 2024-04-26 发行的单曲《Blackrose (feat. [星界](/zh/artists/isotopes/sekai))》。
 
 ## 试听
 {{media-switcher::Blackrose (feat. 星界)}}

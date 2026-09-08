@@ -17,7 +17,7 @@ image: /images/songs/valis/変異体-myu.jpg
 
 ## 作品概要
 
-VALISが2023-10-21にリリースしたシングル「変異体(MYU)」。
+[VALIS](/ja/artists/solo/valis)が2023-10-21にリリースしたシングル「変異体(MYU)」。
 
 ## 視聴
 {{media-switcher::変異体(MYU)}}

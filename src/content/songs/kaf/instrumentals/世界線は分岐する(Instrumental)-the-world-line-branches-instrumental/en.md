@@ -219,6 +219,7 @@ Feels like I'm walking on a tightrope high
 <div class="jp-lyric">
 Butterflies dance in the sky
 </div>
+<div class="trans-lyric">Butterflies dance in the sky</div>
 </div>
 
 <div class="lyric-line">
@@ -232,12 +233,14 @@ Butterflies dance in the sky
 <div class="jp-lyric">
 Play back But I won't replay the scheme
 </div>
+<div class="trans-lyric">Play back But I won't replay the scheme</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Play back Never be the same as dreamed
 </div>
+<div class="trans-lyric">Play back Never be the same as dreamed</div>
 </div>
 
 <div class="lyric-line">
@@ -265,12 +268,14 @@ Play back <ruby>真理<rt class="furi">しんり</rt><rt class="roma">shinri</rt
 <div class="jp-lyric">
 Play back <ruby>ここ<rt class="roma">koko</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="trans-lyric">Play back From here on</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 No risk, No gain
 </div>
+
 <div class="trans-lyric">No risk, No gain</div>
 </div>
 
@@ -278,6 +283,7 @@ No risk, No gain
 <div class="jp-lyric">
 <ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>操<rt class="furi">あやつ</rt><rt class="roma">ayatsu</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby> <ruby>階層<rt class="furi">かいそう</rt><rt class="roma">kaisou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>パラレル<rt class="roma">parareru</rt></ruby>
 </div>
+
 <div class="trans-lyric">Who controls the parallel of layers</div>
 </div>
 
@@ -285,6 +291,7 @@ No risk, No gain
 <div class="jp-lyric">
 Only God knows the way
 </div>
+
 <div class="trans-lyric">Only God knows the way</div>
 </div>
 
@@ -292,54 +299,63 @@ Only God knows the way
 <div class="jp-lyric">
 Play back But I won't replay the scheme
 </div>
+<div class="trans-lyric">Play back But I won't replay the scheme</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Play back Never be the same as dreamed
 </div>
+<div class="trans-lyric">Play back Never be the same as dreamed</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Play back But I won't replay the scheme
 </div>
+<div class="trans-lyric">Play back But I won't replay the scheme</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Play back Never be the same as dreamed
 </div>
+<div class="trans-lyric">Play back Never be the same as dreamed</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Play back <ruby>虚構<rt class="furi">きょこう</rt><rt class="roma">kyokou</rt></ruby> Matrix
 </div>
+<div class="trans-lyric">Play back Fictional Matrix</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>潜在<rt class="furi">せんざい</rt><rt class="roma">senzai</rt></ruby><ruby>意識<rt class="furi">いしき</rt><rt class="roma">ishiki</rt></ruby> <ruby>リライト<rt class="roma">riraito</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">Rewrite the subconscious</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>深層<rt class="furi">しんそう</rt><rt class="roma">shinsou</rt></ruby><ruby>シャドウ<rt class="roma">shadou</rt></ruby> <ruby>キャンセル<rt class="roma">kyanseru</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">Cancel the deep shadow</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Play back <ruby>ここ<rt class="roma">koko</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="trans-lyric">Play back From here on</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Close to the edge
 </div>
+<div class="trans-lyric">Close to the edge</div>
 </div>
 
 </div>

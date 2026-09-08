@@ -17,7 +17,7 @@ image: /images/songs/valis/物換星移katarushisu.jpg
 
 ## 作品简介
 
-VALIS于 2023-04-17 发行的单曲《物換星移カタルシス》。
+[VALIS](/zh/artists/solo/valis)于 2023-04-17 发行的单曲《物換星移カタルシス》。
 
 ## 试听
 {{media-switcher::物換星移カタルシス}}

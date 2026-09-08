@@ -16,7 +16,7 @@ image: /images/songs/empty-old-city/looma-english-ver.jpg
 
 ## 作品概要
 
-Empty old Cityが2026-06-30にリリースしたシングル「Looma (English Ver.)」。
+[Empty old City](/ja/artists/solo/empty-old-city)が2026-06-30にリリースしたシングル「Looma (English Ver.)」。
 
 ## 視聴
 {{media-switcher::Looma (English Ver.)}}

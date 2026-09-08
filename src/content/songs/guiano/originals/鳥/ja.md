@@ -17,7 +17,7 @@ image: /images/songs/guiano/鳥.jpg
 
 ## 作品概要
 
-Guianoが2022-09-22にリリースしたシングル「鳥」。
+[Guiano](/ja/artists/creators/guiano)が2022-09-22にリリースしたシングル「鳥」。
 
 ## 視聴
 {{media-switcher::鳥}}

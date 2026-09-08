@@ -82,7 +82,9 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [00:37.51]<ruby>ぐち<rt class="roma">guchi</rt></ruby><ruby>ゃぐちゃのどろどろのこれってなんなの<rt class="roma">yaguchanodorodoronokorettenannano</rt></ruby>？
 </div>
-<div class="trans-lyric">This messy, gooey thing—what is it?</div>
+<div class="trans-lyric">
+[00:37.51]This messy, gooey thing—what is it?
+</div>
 </div>
 
 <div class="lyric-line">
@@ -128,6 +130,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>これ<rt class="roma">kore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>魔法<rt class="furi">まほう</rt><rt class="roma">mahou</rt></ruby>？
 </div>
+<div class="trans-lyric">Is this magic?</div>
 </div>
 
 <br />
@@ -150,6 +153,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby> <ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby>
 </div>
+<div class="trans-lyric">la la la la la la la la</div>
 </div>
 
 <br />
@@ -165,7 +169,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [01:44.72]<ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>っちゃった<rt class="roma">tchatta</rt></ruby>
 </div>
-<div class="trans-lyric">Now I know</div>
+<div class="trans-lyric">[01:44.72]Now I know</div>
 </div>
 
 <div class="lyric-line">
@@ -250,7 +254,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [02:34.52]<ruby>馬鹿<rt class="furi">ばか</rt><rt class="roma">baka</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby> <ruby>ようこそ<rt class="roma">youkoso</rt></ruby>
 </div>
-<div class="trans-lyric">If it's okay to be a fool, then welcome</div>
+<div class="trans-lyric">[02:34.52]If it's okay to be a fool, then welcome</div>
 </div>
 
 <div class="lyric-line">
@@ -278,6 +282,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby> <ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby> <ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby>
 </div>
+
 <div class="trans-lyric">la la la, la la la la, la la la</div>
 </div>
 
@@ -287,6 +292,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 <ruby>音楽<rt class="furi">おんがく</rt><rt class="roma">ongaku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>魔法<rt class="furi">まほう</rt><rt class="roma">mahou</rt></ruby>
 </div>
+
 <div class="trans-lyric">Music is magic</div>
 </div>
 

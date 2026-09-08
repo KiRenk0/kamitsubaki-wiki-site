@@ -131,6 +131,7 @@ image: /images/songs/vwp/single-1864120511.jpg
 <div class="jp-lyric">
 [00:47.60]（Shake it like a fate）
 </div>
+<div class="cn-lyric">[00:47.60]（Shake it like a fate）</div>
 </div>
 
 <div class="lyric-line">
@@ -158,6 +159,7 @@ image: /images/songs/vwp/single-1864120511.jpg
 <div class="jp-lyric">
 [00:54.34]（Shake it like a fate）
 </div>
+<div class="cn-lyric">[00:54.34]（Shake it like a fate）</div>
 </div>
 
 <div class="lyric-line">
@@ -269,6 +271,7 @@ image: /images/songs/vwp/single-1864120511.jpg
 <div class="jp-lyric">
 [01:57.94]<ruby>正真正銘<rt class="furi">しょうしんしょうめい</rt><rt class="roma">shoushinshoumei</rt></ruby> <ruby>これ<rt class="roma">kore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby> <ruby>さあ<rt class="roma">saa</rt></ruby><ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>めよ<rt class="roma">meyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[01:57.94]千真万确 这是最后 那么开始吧</div>
 </div>
 
 <div class="lyric-line">
@@ -296,24 +299,28 @@ image: /images/songs/vwp/single-1864120511.jpg
 <div class="jp-lyric">
 [02:20.80]（Shake it like a fate）
 </div>
+<div class="cn-lyric">[02:20.80]（Shake it like a fate）</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:21.95]<ruby>狂<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>躁<ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby> Always Trouble
 </div>
+<div class="cn-lyric">[02:21.95]疯狂又躁动 Always Trouble</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:24.55]（Fight it Fight it）
 </div>
+<div class="cn-lyric">[02:24.55]（Fight it Fight it）</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:25.44]<ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>立ち上<rt class="furi">たちあ</rt><rt class="roma">tachia</rt></ruby><ruby>がれ<rt class="roma">gare</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:25.44]无论多少次都要站起来</div>
 </div>
 
@@ -321,12 +328,14 @@ image: /images/songs/vwp/single-1864120511.jpg
 <div class="jp-lyric">
 [02:27.44]（Shake it like a fate）
 </div>
+<div class="cn-lyric">[02:27.44]（Shake it like a fate）</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:28.64]<ruby>グラッと<rt class="roma">guratto</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby> Clean Clean Hit
 </div>
+
 <div class="cn-lyric">[02:28.64]一阵眩晕 那是 Clean Clean Hit</div>
 </div>
 
@@ -334,6 +343,7 @@ image: /images/songs/vwp/single-1864120511.jpg
 <div class="jp-lyric">
 [02:31.79]Endless hout <ruby>絶望<rt class="furi">ぜつぼう</rt><rt class="roma">zetsubou</rt></ruby> <ruby>切り裂<rt class="furi">きりさ</rt><rt class="roma">kirisa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>撃<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:31.79]Endless hout 撕裂绝望 射击明天</div>
 </div>
 
@@ -341,30 +351,35 @@ image: /images/songs/vwp/single-1864120511.jpg
 <div class="jp-lyric">
 [02:38.75]All our sins grieve well
 </div>
+<div class="cn-lyric">[02:38.75]All our sins grieve well</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:42.13]Everything alt
 </div>
+<div class="cn-lyric">[02:42.13]Everything alt</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:45.56]We shoot for reason
 </div>
+<div class="cn-lyric">[02:45.56]We shoot for reason</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:48.87]We can’t plaster fight, you
 </div>
+<div class="cn-lyric">[02:48.87]We can’t plaster fight, you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:06.42]<ruby>燃<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby> <ruby>鼓動<rt class="furi">こどう</rt><rt class="roma">kodou</rt></ruby> <ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby> <ruby>祈<rt class="furi">いの</rt><rt class="roma">ino</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>
 </div>
+<div class="cn-lyric">[03:06.42]燃烧的 心跳 呐喊 祈祷</div>
 </div>
 
 </div>

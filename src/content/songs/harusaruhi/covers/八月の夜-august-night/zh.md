@@ -183,6 +183,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ところ<rt class="roma">tokoro</rt></ruby>
 </div>
+<div class="cn-lyric">你喜欢的地方</div>
 </div>
 
 <div class="lyric-line">
@@ -235,6 +236,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 <ruby>さら<rt class="roma">sara</rt></ruby> <ruby>さら<rt class="roma">sara</rt></ruby> <ruby>さら<rt class="roma">sara</rt></ruby> <ruby>さら<rt class="roma">sara</rt></ruby> <ruby>なびく<rt class="roma">nabiku</rt></ruby><ruby>ふたり<rt class="roma">futari</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">沙 沙 沙 沙 飘动的两人的</div>
 </div>
 
 <div class="lyric-line">
@@ -248,18 +250,21 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 <ruby>ゆら<rt class="roma">yura</rt></ruby> <ruby>ゆら<rt class="roma">yura</rt></ruby> <ruby>ゆら<rt class="roma">yura</rt></ruby> <ruby>ゆら<rt class="roma">yura</rt></ruby> <ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="cn-lyric">摇 摇 摇 摇 摇曳的心情也</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>微<rt class="furi">かす</rt><rt class="roma">kasu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>指先<rt class="furi">ゆびさき</rt><rt class="roma">yubisaki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">微微地指尖向着你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>振<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby> <ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby> <ruby>溢<rt class="furi">あふ</rt><rt class="roma">afu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>重<rt class="furi">かさ</rt><rt class="roma">kasa</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>
 </div>
+<div class="cn-lyric">摆动 触碰 满溢重叠</div>
 </div>
 
 <br />
@@ -268,6 +273,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 <ruby>八月<rt class="furi">はちがつ</rt><rt class="roma">hachigatsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby> <ruby>募<rt class="furi">つの</rt><rt class="roma">tsuno</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby> I love you
 </div>
+<div class="cn-lyric">八月的夜晚 愈发强烈的 I love you</div>
 </div>
 
 <div class="lyric-line">
@@ -295,6 +301,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 <ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ずつ<rt class="roma">zutsu</rt></ruby><ruby>酔<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>ゆらり<rt class="roma">yurari</rt></ruby><ruby>漂<rt class="furi">ただよ</rt><rt class="roma">tadayo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">一点点沉醉 轻轻漂浮</div>
 </div>
 
 <div class="lyric-line">
@@ -308,12 +315,14 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 （<ruby>また<rt class="roma">mata</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>）<ruby>また<rt class="roma">mata</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">（再次对你）再次对你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>理由<rt class="furi">りゆう</rt><rt class="roma">riyuu</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">一直在寻找能见面的理由</div>
 </div>
 
 <br />
@@ -336,6 +345,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [02:45.50]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:45.50]和你的世界</div>
 </div>
 
@@ -345,12 +355,14 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 <ruby>さら<rt class="roma">sara</rt></ruby> <ruby>さら<rt class="roma">sara</rt></ruby> <ruby>さら<rt class="roma">sara</rt></ruby> <ruby>さら<rt class="roma">sara</rt></ruby> <ruby>なびく<rt class="roma">nabiku</rt></ruby><ruby>ふたり<rt class="roma">futari</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">沙 沙 沙 沙 飘动的两人的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:10.56]（<ruby>さら<rt class="roma">sara</rt></ruby> <ruby>さら<rt class="roma">sara</rt></ruby> <ruby>さら<rt class="roma">sara</rt></ruby> <ruby>さら<rt class="roma">sara</rt></ruby> <ruby>なびく<rt class="roma">nabiku</rt></ruby><ruby>ふたり<rt class="roma">futari</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>）
 </div>
+
 <div class="cn-lyric">[03:10.56]（沙 沙 沙 沙 飘动的两人的）</div>
 </div>
 
@@ -358,12 +370,14 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 <ruby>まだ<rt class="roma">mada</rt></ruby> <ruby>まだ<rt class="roma">mada</rt></ruby> <ruby>まだ<rt class="roma">mada</rt></ruby> <ruby>まだ<rt class="roma">mada</rt></ruby> <ruby>微妙<rt class="furi">びみょう</rt><rt class="roma">bimyou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>距離<rt class="furi">きょり</rt><rt class="roma">kyori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="cn-lyric">还 还 还 还 微妙的距离也</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:20.77]（<ruby>まだ<rt class="roma">mada</rt></ruby> <ruby>まだ<rt class="roma">mada</rt></ruby> <ruby>まだ<rt class="roma">mada</rt></ruby> <ruby>まだ<rt class="roma">mada</rt></ruby> <ruby>微妙<rt class="furi">びみょう</rt><rt class="roma">bimyou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>距離<rt class="furi">きょり</rt><rt class="roma">kyori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>）
 </div>
+
 <div class="cn-lyric">[03:20.77]（还 还 还 还 微妙的距离也）</div>
 </div>
 
@@ -371,12 +385,14 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 <ruby>ゆら<rt class="roma">yura</rt></ruby> <ruby>ゆら<rt class="roma">yura</rt></ruby> <ruby>ゆら<rt class="roma">yura</rt></ruby> <ruby>ゆら<rt class="roma">yura</rt></ruby> <ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+<div class="cn-lyric">摇 摇 摇 摇 摇曳的心情也</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:33.81]<ruby>微<rt class="furi">かす</rt><rt class="roma">kasu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>唇<rt class="furi">くちびる</rt><rt class="roma">kuchibiru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:33.81]微微地嘴唇向着你</div>
 </div>
 
@@ -384,6 +400,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 <ruby>振<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby> <ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby> <ruby>溢<rt class="furi">あふ</rt><rt class="roma">afu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>重<rt class="furi">かさ</rt><rt class="roma">kasa</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>
 </div>
+<div class="cn-lyric">摆动 触碰 满溢重叠</div>
 </div>
 
 <br />
@@ -392,12 +409,14 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 <ruby>八月<rt class="furi">はちがつ</rt><rt class="roma">hachigatsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby> <ruby>募<rt class="furi">つの</rt><rt class="roma">tsuno</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby> I love you
 </div>
+<div class="cn-lyric">八月的夜晚 愈发强烈的 I love you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:41.71]<ruby>帰り道<rt class="furi">かえりみち</rt><rt class="roma">kaerimichi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>買<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby> <ruby>アイス<rt class="roma">aisu</rt></ruby><ruby>残<rt class="furi">のこ</rt><rt class="roma">noko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:41.71]留下回家路上买的冰淇淋</div>
 </div>
 
@@ -405,24 +424,28 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 （<ruby>また<rt class="roma">mata</rt></ruby><ruby>次<rt class="furi">つぎ</rt><rt class="roma">tsugi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>）<ruby>また<rt class="roma">mata</rt></ruby><ruby>次<rt class="furi">つぎ</rt><rt class="roma">tsugi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">（还有下次）还有下次</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>どうにか<rt class="roma">dounika</rt></ruby><ruby>作<rt class="furi">つく</rt><rt class="roma">tsuku</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いたん<rt class="roma">itan</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">总是想办法创造着</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ずつ<rt class="roma">zutsu</rt></ruby><ruby>酔<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>ゆらり<rt class="roma">yurari</rt></ruby><ruby>漂<rt class="furi">ただよ</rt><rt class="roma">tadayo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">一点点沉醉 轻轻漂浮</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:52.91]<ruby>冷凍<rt class="furi">れいとう</rt><rt class="roma">reitou</rt></ruby><ruby>保存<rt class="furi">ほぞん</rt><rt class="roma">hozon</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>かし<rt class="roma">kashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:52.91]将冷冻保存的爱融化</div>
 </div>
 
@@ -430,12 +453,14 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 （<ruby>また<rt class="roma">mata</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>）<ruby>また<rt class="roma">mata</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">（再次对你）再次对你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:57.03]<ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>理由<rt class="furi">りゆう</rt><rt class="roma">riyuu</rt></ruby><ruby>やっと<rt class="roma">yatto</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>つかった<rt class="roma">tsukatta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:57.03]终于找到了能见面的理由</div>
 </div>
 
@@ -445,18 +470,23 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 （<ruby>さら<rt class="roma">sara</rt></ruby> <ruby>さら<rt class="roma">sara</rt></ruby> <ruby>さら<rt class="roma">sara</rt></ruby> <ruby>さら<rt class="roma">sara</rt></ruby> <ruby>なびく<rt class="roma">nabiku</rt></ruby><ruby>ふたり<rt class="roma">futari</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>）
 </div>
+
+<div class="cn-lyric">（沙 沙 沙 沙 飘动的两人的）</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 （<ruby>まだ<rt class="roma">mada</rt></ruby> <ruby>まだ<rt class="roma">mada</rt></ruby> <ruby>まだ<rt class="roma">mada</rt></ruby> <ruby>まだ<rt class="roma">mada</rt></ruby> <ruby>微妙<rt class="furi">びみょう</rt><rt class="roma">bimyou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>距離<rt class="furi">きょり</rt><rt class="roma">kyori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>）
 </div>
+
+<div class="cn-lyric">（还 还 还 还 微妙的距离也）</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:11.63]（<ruby>ゆら<rt class="roma">yura</rt></ruby> <ruby>ゆら<rt class="roma">yura</rt></ruby> <ruby>ゆら<rt class="roma">yura</rt></ruby> <ruby>ゆら<rt class="roma">yura</rt></ruby> <ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>）
 </div>
+
 <div class="cn-lyric">[04:11.63]（摇 摇 摇 摇 摇曳的心情也）</div>
 </div>
 
@@ -464,6 +494,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 [04:14.67]<ruby>八月<rt class="furi">はちがつ</rt><rt class="roma">hachigatsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ふたり<rt class="roma">futari</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:14.67]八月的夜晚 两人</div>
 </div>
 
@@ -471,6 +502,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 <div class="jp-lyric">
 <ruby>振<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby> <ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby> <ruby>溢<rt class="furi">あふ</rt><rt class="roma">afu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>重<rt class="furi">かさ</rt><rt class="roma">kasa</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>
 </div>
+<div class="cn-lyric">摆动 触碰 满溢重叠</div>
 </div>
 
 </div>

@@ -193,36 +193,42 @@ Find him for me, find him for me?
 <div class="jp-lyric">
 I need a gingerbread man, the one I'll feed
 </div>
+<div class="trans-lyric">I need a gingerbread man, the one I'll feed</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The gingerbread man, the one I'll eat
 </div>
+<div class="trans-lyric">The gingerbread man, the one I'll eat</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 One who's always crazy
 </div>
+<div class="trans-lyric">One who's always crazy</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Never calls me baby
 </div>
+<div class="trans-lyric">Never calls me baby</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 That's the one that I want
 </div>
+<div class="trans-lyric">That's the one that I want</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 All you boys are not him, him
 </div>
+<div class="trans-lyric">All you boys are not him, him</div>
 </div>
 
 <br />
@@ -245,6 +251,7 @@ I wanna hold him so close, so tightly
 <div class="jp-lyric">
 Baby how do I say this politely?
 </div>
+
 <div class="trans-lyric">Baby how do I say this politely?</div>
 </div>
 
@@ -252,6 +259,7 @@ Baby how do I say this politely?
 <div class="jp-lyric">
 Love me hard and don't be nice, please
 </div>
+
 <div class="trans-lyric">Love me hard and don't be nice, please</div>
 </div>
 
@@ -259,6 +267,7 @@ Love me hard and don't be nice, please
 <div class="jp-lyric">
 I wanna feel your crumbs on my body
 </div>
+
 <div class="trans-lyric">I wanna feel your crumbs on my body</div>
 </div>
 
@@ -266,6 +275,7 @@ I wanna feel your crumbs on my body
 <div class="jp-lyric">
 I want to break you in pieces like me
 </div>
+
 <div class="trans-lyric">I want to break you in pieces like me</div>
 </div>
 
@@ -273,6 +283,7 @@ I want to break you in pieces like me
 <div class="jp-lyric">
 Baby don't be so scared of biting
 </div>
+
 <div class="trans-lyric">Baby don't be so scared of biting</div>
 </div>
 
@@ -280,6 +291,7 @@ Baby don't be so scared of biting
 <div class="jp-lyric">
 Want to eat each other into nothing
 </div>
+
 <div class="trans-lyric">Want to eat each other into nothing</div>
 </div>
 
@@ -289,36 +301,42 @@ Want to eat each other into nothing
 <div class="jp-lyric">
 I need a gingerbread man, the one I'll feed
 </div>
+<div class="trans-lyric">I need a gingerbread man, the one I'll feed</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The gingerbread man, the one I'll eat
 </div>
+<div class="trans-lyric">The gingerbread man, the one I'll eat</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 One who's always crazy
 </div>
+<div class="trans-lyric">One who's always crazy</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Never calls me baby
 </div>
+<div class="trans-lyric">Never calls me baby</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 That's the one that I want
 </div>
+<div class="trans-lyric">That's the one that I want</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 All you boys are not him, him
 </div>
+<div class="trans-lyric">All you boys are not him, him</div>
 </div>
 
 </div>

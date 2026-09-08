@@ -6,6 +6,8 @@ romanizedName: "HiFi-P"
 categoryOrder: 3
 itemOrder: 7
 meta: "ROLE: COMPOSER"
+affiliations:
+  - "KYOKAI STUDIO"
 statusLabel: "ステータス"
 status: "ACTIVE"
 image: "/images/artists/hifi-p.jpg"
@@ -16,9 +18,10 @@ HiFi-P は、YouTube や TikTok で活動するサウンドクリエイター。
 
 「[Musical Isotope](/ja/artists/solo/musical-isotope)」ブランドのもとで楽曲制作・リリースを行い、多数のアーティストへ楽曲提供を行っている。代表作には、[KAF](/ja/artists/vwp/kaf) x [KAFU](/ja/artists/isotopes/kafu) への提供曲「流水線メーデー」（Ryuusenkei Mayday）や、[ASU](/ja/artists/solo/asu) への提供曲「Imperfect」が挙げられる。これらの作品は、幅広いスタイルを自在に操る彼の創作力を示している。
 
-HiFi-P は [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) CREATOR FARM に所属し、同レーベルの音楽クリエイターチームの重要な一員として活動している。
+HiFi-P は [KYOKAI STUDIO](/ja/projects/labels/kyokai-studio) に所属し（2026年9月に [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) から移籍）、旧・神椿 CREATOR FARM の一員として同スタジオの音楽クリエイターチームを支えている。
 
 イラストは Ritsao（りたお）が担当。
+
 
 ## 外部リンク
 

@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/月詠.jpg
 
 ## 作品概要
 
-tokiwaが2025-02-27にリリースしたシングル「月詠」。
+[tokiwa](/ja/artists/creators/tokiwa)が2025-02-27にリリースしたシングル「月詠」。
 
 ## 視聴
 {{media-switcher::月詠}}

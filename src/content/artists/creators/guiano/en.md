@@ -70,7 +70,7 @@ As a member of KAMITSUBAKI CREATION, Guiano's activities extend beyond the virtu
 - May 24, 2023: Released the EP "Kachou Fuugetsu."
 - September 20, 2023: Released the collaborative album *imagine* with Rim.
 - 2023: Appeared at KAMITSUBAKI FES'23 (DAY2 main act alongside [Kanzaki Iori](/en/artists/creators/kanzaki-iori), [DUSTCELL](/en/artists/solo/dustcell), Onuma Paseli).
-- March 27, 2024: Released the single "Good Style."
+- March 27, 2024: Released the single "[Good Style](/en/songs/guiano/originals/good-style)."
 - Provided songs for Myuk including "Ai no Uta" (2023) and "Arcana" (2024).
 - Held at least 2 solo one-man live concerts.
 

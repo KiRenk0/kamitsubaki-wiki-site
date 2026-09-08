@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 
 ## 作品简介
 
-《ソラニン (Cover Live)》收录于《CREAM PUFF LIVE 4 (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《ソラニン (Cover Live)》收录于《[CREAM PUFF LIVE 4](/zh/albums/harusaruhi/cream-puff-live-4) (Cover Live)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -157,18 +157,21 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 [03:01.14]<ruby>たとえば<rt class="roma">tatoeba</rt></ruby><ruby>ゆるい<rt class="roma">yurui</rt></ruby><ruby>幸<rt class="furi">しあわ</rt><rt class="roma">shiawa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>だら<rt class="roma">dara</rt></ruby><ruby>っと<rt class="roma">tto</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>
 </div>
+<div class="cn-lyric">[03:01.14]假如松散的幸福懒洋洋地持续</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:12.09]<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>悪<rt class="furi">わる</rt><rt class="roma">waru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>種<rt class="furi">たね</rt><rt class="roma">tane</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>芽<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>出<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[03:12.09]坏种子一定会发芽</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:18.92]<ruby>もう<rt class="roma">mou</rt></ruby> <ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>なん<rt class="roma">nan</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">[03:18.92]已经 是再见了</div>
 </div>
 
 <br />
@@ -177,6 +180,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 [03:44.44]<ruby>さよなら<rt class="roma">sayonara</rt></ruby> <ruby>それ<rt class="roma">sore</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:44.44]再见 那也不错</div>
 </div>
 
@@ -184,6 +188,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 [03:50.58]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>元気<rt class="furi">げんき</rt><rt class="roma">genki</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>やれ<rt class="roma">yare</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:50.58]在某个地方要好好的</div>
 </div>
 
@@ -191,6 +196,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 <div class="jp-lyric">
 [03:56.85]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>どー<rt class="roma">dou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>やる<rt class="roma">yaru</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:56.85]我也会想办法活下去 大概是那样</div>
 </div>
 

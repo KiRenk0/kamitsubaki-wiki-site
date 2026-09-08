@@ -199,12 +199,14 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [01:44.57]<ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>理論<rt class="furi">りろん</rt><rt class="roma">riron</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>偽<rt class="furi">いつわ</rt><rt class="roma">itsuwa</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>だらけ<rt class="roma">darake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>物語<rt class="furi">ものがたり</rt><rt class="roma">monogatari</rt></ruby>
 </div>
+<div class="cn-lyric">[01:44.57]情感的理论是充满谎言的故事</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:51.06]<ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>居<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby>
 </div>
+<div class="cn-lyric">[01:51.06]那里没有我的存在</div>
 </div>
 
 <div class="lyric-line">
@@ -363,18 +365,21 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [03:07.96]<ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>理論<rt class="furi">りろん</rt><rt class="roma">riron</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>偽<rt class="furi">いつわ</rt><rt class="roma">itsuwa</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>だらけ<rt class="roma">darake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>物語<rt class="furi">ものがたり</rt><rt class="roma">monogatari</rt></ruby>
 </div>
+<div class="cn-lyric">[03:07.96]情感的理论是充满谎言的故事</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:14.42]<ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>居<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby>
 </div>
+<div class="cn-lyric">[03:14.42]那里没有我的存在</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:18.13]<ruby>深層<rt class="furi">しんそう</rt><rt class="roma">shinsou</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>溢<rt class="furi">あふ</rt><rt class="roma">afu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>気付<rt class="furi">きづ</rt><rt class="roma">kizu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
+<div class="cn-lyric">[03:18.13]献给注意到从深处溢出的声音的你</div>
 </div>
 
 <br />
@@ -383,6 +388,7 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [03:28.05]<ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>自<rt class="furi">じ</rt><rt class="roma">ji</rt></ruby><ruby>論<rt class="furi">ろん</rt><rt class="roma">ron</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>伝<rt class="furi">つた</rt><rt class="roma">tsuta</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>たく<rt class="roma">taku</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:28.05]想要传达情感的自论的全部</div>
 </div>
 
@@ -390,6 +396,7 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [03:33.40]<ruby>並<rt class="furi">なら</rt><rt class="roma">nara</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>嘘<rt class="furi">うそ</rt><rt class="roma">uso</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:33.40]排列的话语也不再是谎言</div>
 </div>
 
@@ -397,6 +404,7 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [03:38.41]<ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>赦<rt class="furi">ゆる</rt><rt class="roma">yuru</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>その<rt class="roma">sono</rt></ruby><ruby>魔女<rt class="furi">まじょ</rt><rt class="roma">majo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:38.41]用你所赦免的那魔女的声音</div>
 </div>
 
@@ -404,6 +412,7 @@ image: /images/albums/vwp/awakening.jpg
 <div class="jp-lyric">
 [03:47.64]Praise song
 </div>
+
 <div class="cn-lyric">[03:47.64]Praise song</div>
 </div>
 

@@ -101,6 +101,7 @@ Taking the bridge again
 <div class="jp-lyric">
 When all you want to do is swim
 </div>
+<div class="trans-lyric">When all you want to do is swim</div>
 </div>
 
 <br />
@@ -160,24 +161,28 @@ So you're taking the bridge again
 <div class="jp-lyric">
 When all you want to do is swim
 </div>
+<div class="trans-lyric">When all you want to do is swim</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You're taking the bridge again
 </div>
+<div class="trans-lyric">You're taking the bridge again</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Taking the bridge again
 </div>
+<div class="trans-lyric">Taking the bridge again</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 When all you want to do is swim
 </div>
+<div class="trans-lyric">When all you want to do is swim</div>
 </div>
 
 <br />
@@ -186,6 +191,7 @@ When all you want to do is swim
 <div class="jp-lyric">
 And let the current take you
 </div>
+
 <div class="trans-lyric">And let the current take you</div>
 </div>
 
@@ -193,6 +199,7 @@ And let the current take you
 <div class="jp-lyric">
 Let the waters break you
 </div>
+
 <div class="trans-lyric">Let the waters break you</div>
 </div>
 
@@ -200,6 +207,7 @@ Let the waters break you
 <div class="jp-lyric">
 And float out to the sea
 </div>
+
 <div class="trans-lyric">And float out to the sea</div>
 </div>
 
@@ -209,6 +217,7 @@ And float out to the sea
 <div class="jp-lyric">
 Are you taking the bridge again?
 </div>
+
 <div class="trans-lyric">Are you taking the bridge again?</div>
 </div>
 
@@ -216,30 +225,35 @@ Are you taking the bridge again?
 <div class="jp-lyric">
 When all you want to do is swim
 </div>
+<div class="trans-lyric">When all you want to do is swim</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You're taking the bridge again
 </div>
+<div class="trans-lyric">You're taking the bridge again</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Taking the bridge again
 </div>
+<div class="trans-lyric">Taking the bridge again</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 When all you want to do is swim
 </div>
+<div class="trans-lyric">When all you want to do is swim</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You're taking the bridge again
 </div>
+<div class="trans-lyric">You're taking the bridge again</div>
 </div>
 
 </div>

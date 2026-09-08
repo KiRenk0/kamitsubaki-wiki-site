@@ -17,7 +17,7 @@ image: /images/songs/dustcell/心臓.jpg
 
 ## 作品概要
 
-DUSTCELLが2025-02-18にリリースしたシングル「心臓」。
+[DUSTCELL](/ja/artists/solo/dustcell)が2025-02-18にリリースしたシングル「心臓」。
 
 ## 視聴
 {{media-switcher::心臓}}

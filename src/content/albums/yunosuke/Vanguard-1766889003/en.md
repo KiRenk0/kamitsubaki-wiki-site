@@ -46,8 +46,8 @@ tracks:
 
 ## Track List
 
-1. ギャンビット (03:32)
-2. プライオリティ (03:26)
+1. [ギャンビット](/en/songs/yunosuke/originals/gyanbitto) (03:32)
+2. [プライオリティ](/en/songs/yunosuke/originals/puraioritei) (03:26)
 3. モンキーチャート (03:07)
 4. Cake (03:03)
 5. アンダースタディ (03:38)

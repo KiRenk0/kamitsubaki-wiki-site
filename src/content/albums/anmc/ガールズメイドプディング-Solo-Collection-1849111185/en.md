@@ -54,7 +54,7 @@ tracks:
 
 ## Overview
 
-ANMC's album “ガールズメイドプディング - Solo Collection -”, released on 2025-05-22, featuring 8 tracks.
+[ANMC](/en/artists/solo/anmc)'s album “ガールズメイドプディング - Solo Collection -”, released on 2025-05-22, featuring 8 tracks.
 
 ## Track List
 

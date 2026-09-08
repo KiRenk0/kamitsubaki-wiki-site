@@ -46,11 +46,11 @@ tracks:
 
 ## 概要
 
-LOLUETが2026-02-25にリリースしたEP『空想』。全6曲を収録。
+[LOLUET](/ja/artists/solo/loluet)が2026-02-25にリリースしたEP『空想』。全6曲を収録。
 
 ## 収録曲
 
-1. crack（03:19）
+1. [crack](/ja/songs/loluet/originals/crack)（03:19）
 2. return（03:09）
 3. Vanity（04:09）
 4. この熱が落ちるまで（03:58）

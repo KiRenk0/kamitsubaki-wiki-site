@@ -21,7 +21,7 @@ image: /images/songs/haru/low-speed-fake-lyric.jpg
 
 ## Overview
 
-An original song by cosMo@Bousou-P sung by [HARU](/en/artists/isotopes/haru), serving as the lead track of the album 対峙のオーバーラップ released on 2024-10-16.
+An original song by cosMo@Bousou-P sung by [HARU](/en/artists/isotopes/haru), serving as the lead track of the album [対峙のオーバーラップ](/en/albums/haru/対峙のオーバーラップ-1772594213) released on 2024-10-16.
 
 ## Listen
 {{media-switcher::ロースピードフェイクリリック}}

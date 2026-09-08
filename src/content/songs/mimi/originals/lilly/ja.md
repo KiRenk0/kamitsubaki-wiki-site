@@ -17,7 +17,7 @@ image: /images/songs/mimi/lilly.jpg
 
 ## 作品概要
 
-MIMIが2023-12-08にリリースしたシングル「Lilly」。
+[MIMI](/ja/artists/creators/mimi)が2023-12-08にリリースしたシングル「Lilly」。
 
 ## 視聴
 {{media-switcher::Lilly}}

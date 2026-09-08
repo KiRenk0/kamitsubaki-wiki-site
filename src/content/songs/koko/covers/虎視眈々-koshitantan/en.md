@@ -18,7 +18,7 @@ image: /images/albums/koko/arare-live.jpg
 
 ## Overview
 
-虎視眈々 appears on ARARE LIVE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+虎視眈々 appears on [ARARE LIVE](/en/albums/koko/arare-live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Lyrics
 
@@ -37,7 +37,9 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [00:39.71]<ruby>脳<rt class="furi">のう</rt><rt class="roma">nou</rt></ruby><ruby>内<rt class="furi">ない</rt><rt class="roma">nai</rt></ruby><ruby>暗示<rt class="furi">あんじ</rt><rt class="roma">anji</rt></ruby> like a sweet candy
 </div>
-<div class="trans-lyric">A suggestion in my mind, like a sweet candy</div>
+<div class="trans-lyric">
+[00:39.71]A suggestion in my mind, like a sweet candy
+</div>
 </div>
 
 <div class="lyric-line">
@@ -51,7 +53,9 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [00:46.84]<ruby>生命<rt class="furi">せいめい</rt><rt class="roma">seimei</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>猛威<rt class="furi">もうい</rt><rt class="roma">moui</rt></ruby> gimme your candy
 </div>
-<div class="trans-lyric">The fury of life, gimme your candy</div>
+<div class="trans-lyric">
+[00:46.84]The fury of life, gimme your candy
+</div>
 </div>
 
 <div class="lyric-line">
@@ -65,7 +69,9 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [00:50.16]What do you wanna do, <ruby>重<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>live
 </div>
-<div class="trans-lyric">What do you wanna do, overlapping live</div>
+<div class="trans-lyric">
+[00:50.16]What do you wanna do, overlapping live
+</div>
 </div>
 
 <div class="lyric-line">
@@ -109,7 +115,9 @@ There's no lies <ruby>裸<rt class="furi">はだか</rt><rt class="roma">hadaka<
 <div class="jp-lyric">
 [01:11.46]Can you feel <ruby>もっと<rt class="roma">motto</rt></ruby><ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
-<div class="trans-lyric">Can you feel, more to the emotions</div>
+<div class="trans-lyric">
+[01:11.46]Can you feel, more to the emotions
+</div>
 </div>
 
 <div class="lyric-line">
@@ -123,7 +131,9 @@ There's no lies <ruby>裸<rt class="furi">はだか</rt><rt class="roma">hadaka<
 <div class="jp-lyric">
 [01:18.09]<ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>1, 2, 3, <ruby>ずっと<rt class="roma">zutto</rt></ruby>eyes on me
 </div>
-<div class="trans-lyric">With you 1, 2, 3, always eyes on me</div>
+<div class="trans-lyric">
+[01:18.09]With you 1, 2, 3, always eyes on me
+</div>
 </div>
 
 <div class="lyric-line">
@@ -167,7 +177,9 @@ Close to me <ruby>もっと<rt class="roma">motto</rt></ruby><ruby>深<rt class=
 <div class="jp-lyric">
 [01:44.17]<ruby>全身<rt class="furi">ぜんしん</rt><rt class="roma">zenshin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>歓喜<rt class="furi">かんき</rt><rt class="roma">kanki</rt></ruby> let's start! You and me
 </div>
-<div class="trans-lyric">Joy throughout the body, let's start! You and me</div>
+<div class="trans-lyric">
+[01:44.17]Joy throughout the body, let's start! You and me
+</div>
 </div>
 
 <div class="lyric-line">
@@ -197,7 +209,9 @@ Close to me <ruby>もっと<rt class="roma">motto</rt></ruby><ruby>深<rt class=
 <div class="jp-lyric">
 [01:58.01]You could be mine
 </div>
-<div class="trans-lyric">You could be mine</div>
+<div class="trans-lyric">
+[01:58.01]You could be mine
+</div>
 </div>
 
 <br />
@@ -220,7 +234,9 @@ Close to me <ruby>もっと<rt class="roma">motto</rt></ruby><ruby>深<rt class=
 <div class="jp-lyric">
 [02:06.82]Ride on me <ruby>さぁ<rt class="roma">saa</rt></ruby> you're going to be
 </div>
-<div class="trans-lyric">Ride on me, come on, you're going to be</div>
+<div class="trans-lyric">
+[02:06.82]Ride on me, come on, you're going to be
+</div>
 </div>
 
 <div class="lyric-line">
@@ -250,7 +266,9 @@ Close to me <ruby>もっと<rt class="roma">motto</rt></ruby><ruby>深<rt class=
 <div class="jp-lyric">
 [02:21.60]<ruby>震<rt class="furi">ふる</rt><rt class="roma">furu</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>生命<rt class="furi">せいめい</rt><rt class="roma">seimei</rt></ruby> and daybreak we stay <ruby>永遠<rt class="furi">えいえん</rt><rt class="roma">eien</rt></ruby> game
 </div>
-<div class="trans-lyric">Trembling life, and daybreak we stay, eternal game</div>
+<div class="trans-lyric">
+[02:21.60]Trembling life, and daybreak we stay, eternal game
+</div>
 </div>
 
 <br />
@@ -303,42 +321,49 @@ Close to me <ruby>もっと<rt class="roma">motto</rt></ruby><ruby>深<rt class=
 <div class="jp-lyric">
 <ruby>魅惑<rt class="furi">みわく</rt><rt class="roma">miwaku</rt></ruby> 1, 2, 3, <ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>単純<rt class="furi">たんじゅん</rt><rt class="roma">tanjun</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="trans-lyric">Enchantment 1, 2, 3, simply you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>奪<rt class="furi">うば</rt><rt class="roma">uba</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>去<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>衝動<rt class="furi">しょうどう</rt><rt class="roma">shoudou</rt></ruby> <ruby>理性<rt class="furi">りせい</rt><rt class="roma">risei</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>共謀<rt class="furi">きょうぼう</rt><rt class="roma">kyoubou</rt></ruby>
 </div>
+<div class="trans-lyric">The impulse to snatch you away, conspiracy with reason</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Can you feel <ruby>もっと<rt class="roma">motto</rt></ruby><ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="trans-lyric">Can you feel, more to the emotions</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>強<rt class="furi">つよ</rt><rt class="roma">tsuyo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>触<rt class="furi">さわ</rt><rt class="roma">sawa</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>乱<rt class="furi">らん</rt><rt class="roma">ran</rt></ruby> run <ruby>乱<rt class="furi">らん</rt><rt class="roma">ran</rt></ruby>
 </div>
+<div class="trans-lyric">Touch hard, break it, turmoil run turmoil</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>1, 2, 3, <ruby>ずっと<rt class="roma">zutto</rt></ruby>eyes on me
 </div>
+<div class="trans-lyric">With you 1, 2, 3, always eyes on me</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Speed up <ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>鼓動<rt class="furi">こどう</rt><rt class="roma">kodou</rt></ruby> <ruby>キセキ<rt class="roma">kiseki</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>共存<rt class="furi">きょうぞん</rt><rt class="roma">kyouzon</rt></ruby>
 </div>
+<div class="trans-lyric">Speed up, unstoppable heartbeat, coexistence with a miracle</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Close to me <ruby>もっと<rt class="roma">motto</rt></ruby><ruby>深<rt class="furi">ふか</rt><rt class="roma">fuka</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>堕<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>down
 </div>
+<div class="trans-lyric">Close to me, fall deeper down</div>
 </div>
 
 </div>

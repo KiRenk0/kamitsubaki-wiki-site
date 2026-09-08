@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 
 ## Overview
 
-MC2 appears on CREAM PUFF LIVE 2 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+MC2 appears on [CREAM PUFF LIVE 2](/en/albums/harusaruhi/cream-puff-live-2) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -297,24 +297,28 @@ Gets to take the funeral ride
 <div class="jp-lyric">
 Ritual ideas relativity
 </div>
+<div class="trans-lyric">Ritual ideas relativity</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Only buildings, no people prophecy
 </div>
+<div class="trans-lyric">Only buildings, no people prophecy</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Time slide, place to hide, nudge reality
 </div>
+<div class="trans-lyric">Time slide, place to hide, nudge reality</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Foresight, minds wide, magic imagery
 </div>
+<div class="trans-lyric">Foresight, minds wide, magic imagery</div>
 </div>
 
 <br />
@@ -413,24 +417,28 @@ Big chiefs in the hall
 <div class="jp-lyric">
 Ritual ideas relativity
 </div>
+<div class="trans-lyric">Ritual ideas relativity</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Only buildings, no people prophecy
 </div>
+<div class="trans-lyric">Only buildings, no people prophecy</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Time slide, place to hide, nudge reality
 </div>
+<div class="trans-lyric">Time slide, place to hide, nudge reality</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Foresight, minds wide, magic imagery
 </div>
+<div class="trans-lyric">Foresight, minds wide, magic imagery</div>
 </div>
 
 <br />
@@ -499,24 +507,28 @@ Betting shop - New owner - A walk in the sun
 <div class="jp-lyric">
 Ritual ideas relativity
 </div>
+<div class="trans-lyric">Ritual ideas relativity</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Only buildings, no people prophecy
 </div>
+<div class="trans-lyric">Only buildings, no people prophecy</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Time slide, place to hide, nudge reality
 </div>
+<div class="trans-lyric">Time slide, place to hide, nudge reality</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Foresight, minds wide, magic imagery
 </div>
+<div class="trans-lyric">Foresight, minds wide, magic imagery</div>
 </div>
 
 <br />
@@ -532,6 +544,7 @@ Spread the news the Maestro's back
 <div class="jp-lyric">
 With a beat-box soundtrack
 </div>
+
 <div class="trans-lyric">With a beat-box soundtrack</div>
 </div>
 
@@ -539,6 +552,7 @@ With a beat-box soundtrack
 <div class="jp-lyric">
 The King of brains - Queen of the sack'
 </div>
+
 <div class="trans-lyric">The King of brains - Queen of the sack'</div>
 </div>
 
@@ -546,6 +560,7 @@ The King of brains - Queen of the sack'
 <div class="jp-lyric">
 Executives have heart attack
 </div>
+
 <div class="trans-lyric">Executives have heart attack</div>
 </div>
 
@@ -553,6 +568,7 @@ Executives have heart attack
 <div class="jp-lyric">
 It's assault course celluloid
 </div>
+
 <div class="trans-lyric">It's assault course celluloid</div>
 </div>
 
@@ -560,6 +576,7 @@ It's assault course celluloid
 <div class="jp-lyric">
 The money makers would avoid
 </div>
+
 <div class="trans-lyric">The money makers would avoid</div>
 </div>
 
@@ -567,6 +584,7 @@ The money makers would avoid
 <div class="jp-lyric">
 Sometimes notions get reversed
 </div>
+
 <div class="trans-lyric">Sometimes notions get reversed</div>
 </div>
 
@@ -574,6 +592,7 @@ Sometimes notions get reversed
 <div class="jp-lyric">
 Centre of the universe
 </div>
+
 <div class="trans-lyric">Centre of the universe</div>
 </div>
 
@@ -583,30 +602,35 @@ Centre of the universe
 <div class="jp-lyric">
 Ritual ideas relativity
 </div>
+<div class="trans-lyric">Ritual ideas relativity</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Only buildings, no people prophecy
 </div>
+<div class="trans-lyric">Only buildings, no people prophecy</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Time slide, place to hide, nudge reality
 </div>
+<div class="trans-lyric">Time slide, place to hide, nudge reality</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Foresight, minds wide, magic imagery
 </div>
+<div class="trans-lyric">Foresight, minds wide, magic imagery</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Who do you think you are? The Lone Ranger?
 </div>
+
 <div class="trans-lyric">Who do you think you are? The Lone Ranger?</div>
 </div>
 
@@ -614,6 +638,7 @@ Who do you think you are? The Lone Ranger?
 <div class="jp-lyric">
 You're Jack the Lad!
 </div>
+
 <div class="trans-lyric">You're Jack the Lad!</div>
 </div>
 
@@ -621,6 +646,7 @@ You're Jack the Lad!
 <div class="jp-lyric">
 (More)
 </div>
+
 <div class="trans-lyric">(More)</div>
 </div>
 
@@ -628,36 +654,42 @@ You're Jack the Lad!
 <div class="jp-lyric">
 Ritual ideas relativity
 </div>
+<div class="trans-lyric">Ritual ideas relativity</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Only buildings, no people prophecy
 </div>
+<div class="trans-lyric">Only buildings, no people prophecy</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Time slide, place to hide, nudge reality
 </div>
+<div class="trans-lyric">Time slide, place to hide, nudge reality</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Foresight, minds wide, magic imagery
 </div>
+<div class="trans-lyric">Foresight, minds wide, magic imagery</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Ritual ideas relativity
 </div>
+<div class="trans-lyric">Ritual ideas relativity</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 All these buildings, no people prophecy
 </div>
+
 <div class="trans-lyric">All these buildings, no people prophecy</div>
 </div>
 
@@ -665,18 +697,21 @@ All these buildings, no people prophecy
 <div class="jp-lyric">
 Time slide, place to hide, nudge reality
 </div>
+<div class="trans-lyric">Time slide, place to hide, nudge reality</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Foresight, minds wide, magic imagery
 </div>
+<div class="trans-lyric">Foresight, minds wide, magic imagery</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Oh, ho
 </div>
+
 <div class="trans-lyric">Oh, ho</div>
 </div>
 

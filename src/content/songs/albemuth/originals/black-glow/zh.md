@@ -17,7 +17,7 @@ image: /images/songs/albemuth/black-glow.jpg
 
 ## 作品简介
 
-Albemuth于 2023-06-21 发行的单曲《Black Glow》。
+[Albemuth](/zh/artists/solo/albemuth)于 2023-06-21 发行的单曲《Black Glow》。
 
 ## 试听
 {{media-switcher::Black Glow}}

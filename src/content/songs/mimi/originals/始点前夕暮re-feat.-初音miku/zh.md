@@ -17,7 +17,7 @@ image: /images/songs/mimi/始点前夕暮re-feat.-初音miku.jpg
 
 ## 作品简介
 
-MIMI于 2023-12-02 发行的单曲《始点前夕暮れ (feat. 初音ミク)》。
+[MIMI](/zh/artists/creators/mimi)于 2023-12-02 发行的单曲《始点前夕暮れ (feat. 初音ミク)》。
 
 ## 试听
 {{media-switcher::始点前夕暮れ (feat. 初音ミク)}}

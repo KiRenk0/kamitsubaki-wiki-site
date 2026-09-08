@@ -169,6 +169,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [01:25.95]No no no no no no no no
 </div>
+<div class="cn-lyric">[01:25.95]不 不 不 不 不 不 不 不</div>
 </div>
 
 <div class="lyric-line">
@@ -217,12 +218,14 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [02:28.75]<ruby>多分<rt class="furi">たぶん</rt><rt class="roma">tabun</rt></ruby> <ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>は<rt class="roma">ha</rt></ruby> <ruby>どっち<rt class="roma">dotchi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:28.75]也许 实际上 哪个都不是</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:31.91]<ruby>そう<rt class="roma">sou</rt></ruby> <ruby>ずばり<rt class="roma">zubari</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:31.91]对 直截了当</div>
 </div>
 
@@ -230,18 +233,21 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [02:33.01]<ruby>イェイ<rt class="roma">iei</rt></ruby> <ruby>イェイ<rt class="roma">iei</rt></ruby> <ruby>イェイ<rt class="roma">iei</rt></ruby>
 </div>
+<div class="cn-lyric">[02:33.01]耶 耶 耶</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:34.71]<ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> <ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
+<div class="cn-lyric">[02:34.71]从很久以前 一定</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:37.79]Make love<ruby>に<rt class="roma">ni</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>っ<rt class="roma"></rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:37.79]对Make love 坠入情网</div>
 </div>
 
@@ -249,42 +255,49 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [02:41.09]<ruby>ドキドキ<rt class="roma">dokidoki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>時間<rt class="furi">じかん</rt><rt class="roma">jikan</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:41.09]心跳加速的时间</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:43.75]<ruby>ちょっと<rt class="roma">chotto</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">[02:43.75]想要稍微感受一下</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:47.27]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>かん<rt class="roma">kan</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">[02:47.27]爱什么的 不明白</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:50.27]<ruby>ぼく<rt class="roma">boku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>早<rt class="furi">はや</rt><rt class="roma">haya</rt></ruby><ruby>すぎる<rt class="roma">sugiru</rt></ruby>
 </div>
+<div class="cn-lyric">[02:50.27]对我来说还太早</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:53.52]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ただ<rt class="roma">tada</rt></ruby>
 </div>
+<div class="cn-lyric">[02:53.52]现在只是</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:54.88]<ruby>ハタチ<rt class="roma">hatachi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>イケナイ<rt class="roma">ikenai</rt></ruby><ruby>男の子<rt class="furi">おとこのこ</rt><rt class="roma">otokonoko</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">[02:54.88]二十岁的坏坏的男孩子</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:12.39]No no no no no no no no
 </div>
+<div class="cn-lyric">[03:12.39]不 不 不 不 不 不 不 不</div>
 </div>
 
 </div>

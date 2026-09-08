@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/kamitsureto愛nobuuke.jpg
 
 ## 作品简介
 
-Empty old City于 2022-05-17 发行的单曲《カミツレと愛のブーケ》。
+[Empty old City](/zh/artists/solo/empty-old-city)于 2022-05-17 发行的单曲《カミツレと愛のブーケ》。
 
 ## 试听
 {{media-switcher::カミツレと愛のブーケ}}

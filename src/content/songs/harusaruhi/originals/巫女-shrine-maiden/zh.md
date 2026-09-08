@@ -259,6 +259,7 @@ image: /images/songs/harusaruhi/single-1738147192.jpg
 <div class="jp-lyric">
 [03:24.80]<ruby>散<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>際<rt class="furi">さい</rt><rt class="roma">sai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>美<rt class="furi">うつく</rt><rt class="roma">utsuku</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby>
 </div>
+<div class="cn-lyric">[03:24.80]凋零时的花朵是美丽的</div>
 </div>
 
 <div class="lyric-line">
@@ -272,6 +273,7 @@ image: /images/songs/harusaruhi/single-1738147192.jpg
 <div class="jp-lyric">
 [03:32.34]<ruby>儚<rt class="furi">はかな</rt><rt class="roma">hakana</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>気付<rt class="furi">きづ</rt><rt class="roma">kizu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[03:32.34]因为知道是虚幻的梦才察觉</div>
 </div>
 
 <div class="lyric-line">
@@ -306,12 +308,14 @@ image: /images/songs/harusaruhi/single-1738147192.jpg
 <div class="jp-lyric">
 [03:54.32]<ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>響<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>别<ruby>れ<rt class="roma">re</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby>
 </div>
+<div class="cn-lyric">[03:54.32]触碰而响起的离别之歌</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:02.41]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:02.41]我已经不再是一个人</div>
 </div>
 
@@ -319,6 +323,7 @@ image: /images/songs/harusaruhi/single-1738147192.jpg
 <div class="jp-lyric">
 [04:10.02]<ruby>大丈夫<rt class="furi">だいじょうぶ</rt><rt class="roma">daijoubu</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>確<rt class="furi">たし</rt><rt class="roma">tashi</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:10.02]没关系的 用确切的愛</div>
 </div>
 
@@ -326,6 +331,7 @@ image: /images/songs/harusaruhi/single-1738147192.jpg
 <div class="jp-lyric">
 [04:17.47]<ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>振<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:17.47]直到传达给挥手的你</div>
 </div>
 

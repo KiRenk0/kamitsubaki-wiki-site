@@ -17,7 +17,7 @@ image: /images/songs/mimi/gyutte.jpg
 
 ## 作品简介
 
-MIMI于 2022-04-29 发行的单曲《ぎゅって》。
+[MIMI](/zh/artists/creators/mimi)于 2022-04-29 发行的单曲《ぎゅって》。
 
 ## 试听
 {{media-switcher::ぎゅって}}

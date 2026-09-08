@@ -301,6 +301,7 @@ image: /images/albums/rim/new-romancer-2.jpg
 <div class="jp-lyric">
 [02:46.29]<ruby>素敵<rt class="furi">すてき</rt><rt class="roma">suteki</rt></ruby><ruby>すぎる<rt class="roma">sugiru</rt></ruby><ruby>ディナー<rt class="roma">deinaa</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby>
 </div>
+<div class="cn-lyric">[02:46.29]太过美妙的晚餐已经结束</div>
 </div>
 
 <div class="lyric-line">
@@ -391,6 +392,7 @@ image: /images/albums/rim/new-romancer-2.jpg
 <div class="jp-lyric">
 [03:26.97]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>盗<rt class="furi">ぬす</rt><rt class="roma">nusu</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:26.97]瞒着你的眼睛</div>
 </div>
 

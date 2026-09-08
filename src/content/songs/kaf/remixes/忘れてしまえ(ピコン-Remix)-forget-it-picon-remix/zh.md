@@ -227,6 +227,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 [01:54.05]forget forget
 </div>
+<div class="cn-lyric">[01:54.05]forget forget</div>
 </div>
 
 <div class="lyric-line">
@@ -286,12 +287,14 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 [02:40.01]notice notice
 </div>
+<div class="cn-lyric">[02:40.01]notice notice</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:42.14]<ruby>愛<rt class="furi">いと</rt><rt class="roma">ito</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>？<ruby>別<rt class="furi">わか</rt><rt class="roma">waka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:42.14]可爱吗？离别</div>
 </div>
 
 <div class="lyric-line">
@@ -305,6 +308,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 [02:50.06]forget forget
 </div>
+<div class="cn-lyric">[02:50.06]forget forget</div>
 </div>
 
 <div class="lyric-line">
@@ -348,6 +352,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 [03:10.20]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:10.20]与你欢笑的夏日时光</div>
 </div>
 
@@ -355,6 +360,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 [03:12.86]<ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>十<rt class="furi">じゅう</rt><rt class="roma">juu</rt></ruby><ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>思い出<rt class="furi">おもいだ</rt><rt class="roma">omoida</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:12.86]无论多少年都会回忆起来哦</div>
 </div>
 
@@ -364,6 +370,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 [03:18.61]<ruby>真実<rt class="furi">しんじつ</rt><rt class="roma">shinjitsu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>まやかし<rt class="roma">mayakashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:18.61]用虚假掩盖真实</div>
 </div>
 
@@ -371,6 +378,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 <div class="jp-lyric">
 [03:24.45]<ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:24.45]因为终会察觉</div>
 </div>
 

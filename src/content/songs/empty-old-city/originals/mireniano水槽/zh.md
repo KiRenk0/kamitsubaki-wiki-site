@@ -17,7 +17,7 @@ image: /images/songs/empty-old-city/mireniano水槽.jpg
 
 ## 作品简介
 
-Empty old City于 2023-01-31 发行的单曲《ミレニアの水槽》。
+[Empty old City](/zh/artists/solo/empty-old-city)于 2023-01-31 发行的单曲《ミレニアの水槽》。
 
 ## 试听
 {{media-switcher::ミレニアの水槽}}

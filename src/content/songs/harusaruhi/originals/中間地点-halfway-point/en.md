@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/shinju.jpg
 
 ## Overview
 
-中間地点 appears on 心獣 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+中間地点 appears on [心獣](/en/albums/harusaruhi/shinju) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -294,6 +294,7 @@ image: /images/albums/harusaruhi/shinju.jpg
 <div class="jp-lyric">
 [02:46.216]<ruby>拝啓<rt class="furi">はいけい</rt><rt class="roma">haikei</rt></ruby>、<ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
+<div class="trans-lyric">[02:46.216]Dear you,</div>
 </div>
 
 <div class="lyric-line">
@@ -335,36 +336,42 @@ image: /images/albums/harusaruhi/shinju.jpg
 <div class="jp-lyric">
 [03:06.189]<ruby>拝啓<rt class="furi">はいけい</rt><rt class="roma">haikei</rt></ruby>、<ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
+<div class="trans-lyric">[03:06.189]Dear you,</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:08.176]<ruby>どうか<rt class="roma">douka</rt></ruby><ruby>その<rt class="roma">sono</rt></ruby><ruby>眩<rt class="furi">まぶ</rt><rt class="roma">mabu</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby>
 </div>
+<div class="trans-lyric">[03:08.176]Please, that dazzling</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:11.252]<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>灯<rt class="furi">あかり</rt><rt class="roma">akari</rt></ruby> <ruby>冷<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>まさ<rt class="roma">masa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="trans-lyric">[03:11.252]Don't let the light of your heart grow cold</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:15.427]<ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="trans-lyric">[03:15.427]Link up and sing</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:18.016]<ruby>別<rt class="furi">わか</rt><rt class="roma">waka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>道<rt class="furi">みち</rt><rt class="roma">michi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>走<rt class="furi">はし</rt><rt class="roma">hashi</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="trans-lyric">[03:18.016]Run upon separate paths</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:21.485]<ruby>終点<rt class="furi">しゅうてん</rt><rt class="roma">shuuten</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>逢<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>。
 </div>
+<div class="trans-lyric">[03:21.485]Until the day we meet at the terminus</div>
 </div>
 
 <div class="lyric-line">
@@ -378,6 +385,7 @@ image: /images/albums/harusaruhi/shinju.jpg
 <div class="jp-lyric">
 [03:26.900]&quot;<ruby>哀愁<rt class="furi">あいしゅう</rt><rt class="roma">aishuu</rt></ruby><ruby>さえ<rt class="roma">sae</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>仲間<rt class="furi">なかま</rt><rt class="roma">nakama</rt></ruby>&quot;
 </div>
+
 <div class="trans-lyric">[03:26.900]"Even melancholy is a friend"</div>
 </div>
 
@@ -385,6 +393,7 @@ image: /images/albums/harusaruhi/shinju.jpg
 <div class="jp-lyric">
 <ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>&quot;<ruby>青春<rt class="furi">せいしゅん</rt><rt class="roma">seishun</rt></ruby>&quot;<ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="trans-lyric">This unending "youth"</div>
 </div>
 
@@ -392,6 +401,7 @@ image: /images/albums/harusaruhi/shinju.jpg
 <div class="jp-lyric">
 [03:31.586]<ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>噛み締<rt class="furi">かみし</rt><rt class="roma">kamishi</rt></ruby><ruby>めよ<rt class="roma">meyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:31.586]Let's continue to savor it</div>
 </div>
 
@@ -399,6 +409,7 @@ image: /images/albums/harusaruhi/shinju.jpg
 <div class="jp-lyric">
 <ruby>周囲<rt class="furi">しゅうい</rt><rt class="roma">shuui</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>&quot;<ruby>百花繚乱<rt class="furi">ひゃっかりょうらん</rt><rt class="roma">hyakkaryouran</rt></ruby>&quot;
 </div>
+
 <div class="trans-lyric">The surroundings are "a riot of flowers"</div>
 </div>
 
@@ -406,6 +417,7 @@ image: /images/albums/harusaruhi/shinju.jpg
 <div class="jp-lyric">
 &quot;<ruby>テラ<rt class="roma">tera</rt></ruby>&quot;<ruby>を<rt class="roma">wo</rt></ruby><ruby>巻き込<rt class="furi">まきこ</rt><rt class="roma">makiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="trans-lyric">Involving "Terra"</div>
 </div>
 
@@ -413,6 +425,7 @@ image: /images/albums/harusaruhi/shinju.jpg
 <div class="jp-lyric">
 [03:37.518]<ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>、<ruby>さあ<rt class="roma">saa</rt></ruby>！
 </div>
+
 <div class="trans-lyric">[03:37.518]Let's go, come on!</div>
 </div>
 
@@ -420,6 +433,7 @@ image: /images/albums/harusaruhi/shinju.jpg
 <div class="jp-lyric">
 [03:38.838]&quot;<ruby>自由<rt class="furi">じゆう</rt><rt class="roma">jiyuu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>距離<rt class="furi">きょり</rt><rt class="roma">kyori</rt></ruby>&quot;<ruby>超<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>。
 </div>
+
 <div class="trans-lyric">[03:38.838]Beyond the "distance to freedom".</div>
 </div>
 

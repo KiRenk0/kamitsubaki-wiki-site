@@ -19,7 +19,7 @@ image: /images/albums/koko/prayer-2.jpg
 
 ## Overview
 
-Revy appears on prayer2 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+Revy appears on [prayer2](/en/albums/koko/prayer-2) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -63,24 +63,28 @@ Say goodnight cause im bout to hit the last swing
 <div class="jp-lyric">
 Slash slash till the mothafuccin wig split
 </div>
+<div class="trans-lyric">Slash slash till the mothafuccin wig split</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Head gone by the time i finna dip dip
 </div>
+<div class="trans-lyric">Head gone by the time i finna dip dip</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Say bye bye when the devil make his round trip
 </div>
+<div class="trans-lyric">Say bye bye when the devil make his round trip</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Say goodnight cause im bout to hit the last swing
 </div>
+<div class="trans-lyric">Say goodnight cause im bout to hit the last swing</div>
 </div>
 
 <br />
@@ -175,6 +179,7 @@ Keeper of the damned bitch
 <div class="jp-lyric">
 My gang aint worth your time
 </div>
+
 <div class="trans-lyric">My gang aint worth your time</div>
 </div>
 
@@ -182,6 +187,7 @@ My gang aint worth your time
 <div class="jp-lyric">
 So im only giving you, a little sixteen liner
 </div>
+
 <div class="trans-lyric">So im only giving you, a little sixteen liner</div>
 </div>
 
@@ -189,6 +195,7 @@ So im only giving you, a little sixteen liner
 <div class="jp-lyric">
 You will only be a waste of bullets
 </div>
+
 <div class="trans-lyric">You will only be a waste of bullets</div>
 </div>
 
@@ -196,6 +203,7 @@ You will only be a waste of bullets
 <div class="jp-lyric">
 Cause you were never once a fighter
 </div>
+
 <div class="trans-lyric">Cause you were never once a fighter</div>
 </div>
 
@@ -205,48 +213,56 @@ Cause you were never once a fighter
 <div class="jp-lyric">
 Slash slash till the mothafuccin wig split
 </div>
+<div class="trans-lyric">Slash slash till the mothafuccin wig split</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Head gone by the time i finna dip dip
 </div>
+<div class="trans-lyric">Head gone by the time i finna dip dip</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Say bye bye when the devil make his round trip
 </div>
+<div class="trans-lyric">Say bye bye when the devil make his round trip</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Say goodnight cause im bout to hit the last swing
 </div>
+<div class="trans-lyric">Say goodnight cause im bout to hit the last swing</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Slash slash till the mothafuccin wig split
 </div>
+<div class="trans-lyric">Slash slash till the mothafuccin wig split</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Head gone by the time i finna dip dip
 </div>
+<div class="trans-lyric">Head gone by the time i finna dip dip</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Say bye bye when the devil make his round trip
 </div>
+<div class="trans-lyric">Say bye bye when the devil make his round trip</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Say goodnight cause im bout to hit the last swing
 </div>
+<div class="trans-lyric">Say goodnight cause im bout to hit the last swing</div>
 </div>
 
 </div>

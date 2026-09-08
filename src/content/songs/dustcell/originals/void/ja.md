@@ -17,7 +17,7 @@ image: /images/songs/dustcell/void.jpg
 
 ## 作品概要
 
-DUSTCELLが2022-07-19にリリースしたシングル「Void」。
+[DUSTCELL](/ja/artists/solo/dustcell)が2022-07-19にリリースしたシングル「Void」。
 
 ## 視聴
 {{media-switcher::Void}}

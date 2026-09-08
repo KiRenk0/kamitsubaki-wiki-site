@@ -49,7 +49,9 @@ image: /images/songs/rim/single-1687461820.jpg
 <div class="jp-lyric">
 [00:28.63]<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>つもり<rt class="roma">tsumori</rt></ruby>？
 </div>
-<div class="trans-lyric">How long do you plan to stay there?</div>
+<div class="trans-lyric">
+[00:28.63]How long do you plan to stay there?
+</div>
 </div>
 
 <div class="lyric-line">
@@ -91,7 +93,9 @@ image: /images/songs/rim/single-1687461820.jpg
 <div class="jp-lyric">
 [00:54.20]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby>、<ruby>そう<rt class="roma">sou</rt></ruby>、<ruby>ちょうど<rt class="roma">choudo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
-<div class="trans-lyric">That's about right, yes, just perfect</div>
+<div class="trans-lyric">
+[00:54.20]That's about right, yes, just perfect
+</div>
 </div>
 
 <div class="lyric-line">
@@ -105,14 +109,18 @@ image: /images/songs/rim/single-1687461820.jpg
 <div class="jp-lyric">
 [01:02.34]<ruby>めちゃくちゃ<rt class="roma">mechakucha</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なれ<rt class="roma">nare</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="trans-lyric">Let it become a mess</div>
+<div class="trans-lyric">
+[01:02.34]Let it become a mess
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:05.25]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>戻<rt class="furi">もど</rt><rt class="roma">modo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なったって<rt class="roma">nattatte</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="trans-lyric">It's okay if we can never go back</div>
+<div class="trans-lyric">
+[01:05.25]It's okay if we can never go back
+</div>
 </div>
 
 <div class="lyric-line">
@@ -126,14 +134,18 @@ image: /images/songs/rim/single-1687461820.jpg
 <div class="jp-lyric">
 [01:12.65]<ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>しまえ<rt class="roma">shimae</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
 </div>
-<div class="trans-lyric">You should just die</div>
+<div class="trans-lyric">
+[01:12.65]You should just die
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:15.69]<ruby>ぐちゃぐちゃ<rt class="roma">guchagucha</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たく<rt class="roma">taku</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
-<div class="trans-lyric">I want to make it all messy</div>
+<div class="trans-lyric">
+[01:15.69]I want to make it all messy
+</div>
 </div>
 
 <div class="lyric-line">
@@ -147,7 +159,9 @@ image: /images/songs/rim/single-1687461820.jpg
 <div class="jp-lyric">
 [01:22.22]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>いか<rt class="roma">ika</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
-<div class="trans-lyric">Because I won't let you go anywhere</div>
+<div class="trans-lyric">
+[01:22.22]Because I won't let you go anywhere
+</div>
 </div>
 
 <br />
@@ -177,6 +191,7 @@ image: /images/songs/rim/single-1687461820.jpg
 <div class="jp-lyric">
 [01:53.04]<ruby>安心<rt class="furi">あんしん</rt><rt class="roma">anshin</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>切<rt class="furi">せつ</rt><rt class="roma">setsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>合間<rt class="furi">あいま</rt><rt class="roma">aima</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="trans-lyric">[01:53.04]In the gap between peace and cutting</div>
 </div>
 
 <div class="lyric-line">
@@ -227,6 +242,7 @@ image: /images/songs/rim/single-1687461820.jpg
 <div class="jp-lyric">
 [02:35.49]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="trans-lyric">[02:35.49]No one is watching</div>
 </div>
 
@@ -234,54 +250,63 @@ image: /images/songs/rim/single-1687461820.jpg
 <div class="jp-lyric">
 [02:38.38]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby>、<ruby>そう<rt class="roma">sou</rt></ruby>、<ruby>ちょうど<rt class="roma">choudo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="trans-lyric">[02:38.38]That's about right, yes, just perfect</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:41.81]<ruby>踏み台<rt class="furi">ふみだい</rt><rt class="roma">fumidai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[02:41.81]Make it a stepping stone</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:46.50]<ruby>めちゃくちゃ<rt class="roma">mechakucha</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なれ<rt class="roma">nare</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">[02:46.50]Let it become a mess</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:49.47]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>戻<rt class="furi">もど</rt><rt class="roma">modo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なったって<rt class="roma">nattatte</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">[02:49.47]It's okay if we can never go back</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:53.13]<ruby>わざと<rt class="roma">wazato</rt></ruby><ruby>傷<rt class="furi">きず</rt><rt class="roma">kizu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>がる<rt class="roma">garu</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+<div class="trans-lyric">[02:53.13]If you want to deliberately hurt yourself and cry</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:56.96]<ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>しまえ<rt class="roma">shimae</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
 </div>
+<div class="trans-lyric">[02:56.96]You should just die</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:59.82]<ruby>ぐちゃぐちゃ<rt class="roma">guchagucha</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たく<rt class="roma">taku</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="trans-lyric">[02:59.82]I want to make it all messy</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:02.75]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>せい<rt class="roma">sei</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">[03:02.75]That's also your fault</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:06.45]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>いか<rt class="roma">ika</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
+<div class="trans-lyric">[03:06.45]Because I won't let you go anywhere</div>
 </div>
 
 </div>

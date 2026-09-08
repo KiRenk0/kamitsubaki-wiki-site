@@ -182,6 +182,7 @@ The best of my chronic rage
 <div class="jp-lyric">
 Distortion
 </div>
+<div class="cn-lyric">失真</div>
 </div>
 
 <div class="lyric-line">
@@ -216,36 +217,42 @@ Strike on the hour
 <div class="jp-lyric">
 Distortion
 </div>
+<div class="cn-lyric">失真</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Everybody wants some
 </div>
+<div class="cn-lyric">人人都想要一些</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 But only few believe
 </div>
+<div class="cn-lyric">但只有少数人相信</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I won't be the first to overdose
 </div>
+<div class="cn-lyric">我不会是第一个过量</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 On what I want, not what I need
 </div>
+<div class="cn-lyric">在我想要的，不是我需要的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Turn me up and play me loud
 </div>
+<div class="cn-lyric">调高音量，大声播放我</div>
 </div>
 
 <div class="lyric-line">
@@ -266,6 +273,7 @@ Will be proud to say
 <div class="jp-lyric">
 Gimme what I want now
 </div>
+<div class="cn-lyric">现在给我我想要的</div>
 </div>
 
 <div class="lyric-line">
@@ -328,6 +336,7 @@ Add a little bright
 <div class="jp-lyric">
 He has put his finger
 </div>
+
 <div class="cn-lyric">他已将手指</div>
 </div>
 
@@ -335,6 +344,7 @@ He has put his finger
 <div class="jp-lyric">
 On the blessed stack
 </div>
+
 <div class="cn-lyric">放在祝福的音堆上</div>
 </div>
 
@@ -342,6 +352,7 @@ On the blessed stack
 <div class="jp-lyric">
 And beckons you to linger,
 </div>
+
 <div class="cn-lyric">并引你逗留，</div>
 </div>
 
@@ -349,6 +360,7 @@ And beckons you to linger,
 <div class="jp-lyric">
 Before you attack
 </div>
+
 <div class="cn-lyric">在你攻击之前</div>
 </div>
 
@@ -356,6 +368,7 @@ Before you attack
 <div class="jp-lyric">
 Play what you feel, devil in the deal
 </div>
+
 <div class="cn-lyric">演奏你的感受，交易中的魔鬼</div>
 </div>
 
@@ -363,6 +376,7 @@ Play what you feel, devil in the deal
 <div class="jp-lyric">
 A heart of stone and a soul of steel
 </div>
+
 <div class="cn-lyric">一颗石头心和钢铁灵魂</div>
 </div>
 
@@ -370,66 +384,79 @@ A heart of stone and a soul of steel
 <div class="jp-lyric">
 Play what you feel, devil in the deal
 </div>
+
+<div class="cn-lyric">演奏你的感受，交易中的魔鬼</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 A heart of stone and a soul of steel
 </div>
+
+<div class="cn-lyric">一颗石头心和钢铁灵魂</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Distortion
 </div>
+<div class="cn-lyric">失真</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Everybody wants some
 </div>
+<div class="cn-lyric">人人都想要一些</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 But only few believe
 </div>
+<div class="cn-lyric">但只有少数人相信</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I won't be the first to overdose
 </div>
+<div class="cn-lyric">我不会是第一个过量</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 On what I want, not what I need
 </div>
+<div class="cn-lyric">在我想要的，不是我需要的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Turn me up and play me loud
 </div>
+<div class="cn-lyric">调高音量，大声播放我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I won't back down and
 </div>
+<div class="cn-lyric">我不会退缩并</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Will be proud to say
 </div>
+<div class="cn-lyric">会自豪地说</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Gimme what I want, gimme what I want
 </div>
+
 <div class="cn-lyric">给我我想要的，给我我想要的</div>
 </div>
 
@@ -437,30 +464,35 @@ Gimme what I want, gimme what I want
 <div class="jp-lyric">
 Distortion
 </div>
+<div class="cn-lyric">失真</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Everybody wants some
 </div>
+<div class="cn-lyric">人人都想要一些</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Distortion
 </div>
+<div class="cn-lyric">失真</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Distortion
 </div>
+<div class="cn-lyric">失真</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Everybody needs some
 </div>
+
 <div class="cn-lyric">人人都需要一些</div>
 </div>
 
@@ -468,12 +500,14 @@ Everybody needs some
 <div class="jp-lyric">
 Distortion
 </div>
+<div class="cn-lyric">失真</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Distortion
 </div>
+<div class="cn-lyric">失真</div>
 </div>
 
 </div>

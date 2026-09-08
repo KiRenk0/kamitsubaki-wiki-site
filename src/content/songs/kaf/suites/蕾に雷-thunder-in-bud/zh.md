@@ -165,6 +165,7 @@ image: /images/songs/kaf/track-1689187557.jpg
 <div class="jp-lyric">
 [01:58.49](Five, six)
 </div>
+<div class="cn-lyric">[01:58.49](Five, six)</div>
 </div>
 
 <br />
@@ -217,6 +218,7 @@ image: /images/songs/kaf/track-1689187557.jpg
 <div class="jp-lyric">
 [03:02.90]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby> <ruby>筈<rt class="furi">はず</rt><rt class="roma">hazu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[03:02.90]我本应是在恋爱</div>
 </div>
 
 <br />
@@ -232,6 +234,7 @@ image: /images/songs/kaf/track-1689187557.jpg
 <div class="jp-lyric">
 [03:10.35]<ruby>爪<rt class="furi">つめ</rt><rt class="roma">tsume</rt></ruby><ruby>達<rt class="furi">たち</rt><rt class="roma">tachi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>騒ぎ出<rt class="furi">さわぎだ</rt><rt class="roma">sawagida</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>筈<rt class="furi">はず</rt><rt class="roma">hazu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:10.35]指尖们丝毫不会骚动 本应如此</div>
 </div>
 
@@ -239,6 +242,7 @@ image: /images/songs/kaf/track-1689187557.jpg
 <div class="jp-lyric">
 [03:13.55]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>薄<rt class="furi">うす</rt><rt class="roma">usu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>暗闇<rt class="furi">くらやみ</rt><rt class="roma">kurayami</rt></ruby><ruby>しか<rt class="roma">shika</rt></ruby><ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>筈<rt class="furi">はず</rt><rt class="roma">hazu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:13.55]我只懂得浅薄的黑暗 本应如此</div>
 </div>
 
@@ -248,6 +252,7 @@ image: /images/songs/kaf/track-1689187557.jpg
 <div class="jp-lyric">
 [03:40.35](Five, six)
 </div>
+<div class="cn-lyric">[03:40.35](Five, six)</div>
 </div>
 
 </div>

@@ -19,7 +19,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 
 ## Overview
 
-TRUMAN (Live Cover) appears on CHOCOLATE LIVE4 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+TRUMAN (Live Cover) appears on [CHOCOLATE LIVE4](/en/albums/rim/chocolate-live-4) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -148,24 +148,28 @@ That's what we do
 <div class="jp-lyric">
 I hope that feeling comes back
 </div>
+<div class="trans-lyric">I hope that feeling comes back</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Maybe we'll all wake up soon, who knows?
 </div>
+<div class="trans-lyric">Maybe we'll all wake up soon, who knows?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I live this day again and again
 </div>
+<div class="trans-lyric">I live this day again and again</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Hello if you're watching this, from home
 </div>
+<div class="trans-lyric">Hello if you're watching this, from home</div>
 </div>
 
 <br />
@@ -218,12 +222,14 @@ The thoughts take over and you're terrified
 <div class="jp-lyric">
 Yeah it hurts just a little
 </div>
+<div class="trans-lyric">Yeah it hurts just a little</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And I'll tell you why
 </div>
+
 <div class="trans-lyric">And I'll tell you why</div>
 </div>
 
@@ -231,6 +237,7 @@ And I'll tell you why
 <div class="jp-lyric">
 Thought you were on my side
 </div>
+
 <div class="trans-lyric">Thought you were on my side</div>
 </div>
 
@@ -238,6 +245,7 @@ Thought you were on my side
 <div class="jp-lyric">
 Thought we'd coincide
 </div>
+
 <div class="trans-lyric">Thought we'd coincide</div>
 </div>
 
@@ -247,18 +255,22 @@ Thought we'd coincide
 <div class="jp-lyric">
 Yeah it hurts just a little
 </div>
+<div class="trans-lyric">Yeah it hurts just a little</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 And I'll tell you why
 </div>
+
+<div class="trans-lyric">And I'll tell you why</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 You should've been on my side
 </div>
+
 <div class="trans-lyric">You should've been on my side</div>
 </div>
 
@@ -266,6 +278,8 @@ You should've been on my side
 <div class="jp-lyric">
 Thought we'd coincide
 </div>
+
+<div class="trans-lyric">Thought we'd coincide</div>
 </div>
 
 <br />
@@ -274,42 +288,49 @@ Thought we'd coincide
 <div class="jp-lyric">
 I hope that feeling comes back
 </div>
+<div class="trans-lyric">I hope that feeling comes back</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Maybe we'll all wake up soon, who knows?
 </div>
+<div class="trans-lyric">Maybe we'll all wake up soon, who knows?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 I live this day again and again
 </div>
+<div class="trans-lyric">I live this day again and again</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Hello if you're watching this, from home
 </div>
+<div class="trans-lyric">Hello if you're watching this, from home</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Hello if you're watching this, from home
 </div>
+<div class="trans-lyric">Hello if you're watching this, from home</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Hello if you're watching this, from home
 </div>
+<div class="trans-lyric">Hello if you're watching this, from home</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Hello if you're watching this, from home
 </div>
+<div class="trans-lyric">Hello if you're watching this, from home</div>
 </div>
 
 </div>

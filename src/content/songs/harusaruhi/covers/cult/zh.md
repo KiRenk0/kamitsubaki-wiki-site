@@ -72,12 +72,14 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [01:00.31]Just a total brainwash like they're in a cult
 </div>
+<div class="cn-lyric">[01:00.31]完全就是洗脑，像被邪教控制</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:04.83]And I'm so scared of what will be the end result
 </div>
+<div class="cn-lyric">[01:04.83]我如此害怕最终的结局会是什么</div>
 </div>
 
 <div class="lyric-line">
@@ -133,6 +135,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [01:34.45]And they'll slap your hand if you ask for more
 </div>
+
 <div class="cn-lyric">[01:34.45]若你索要更多，他们会打掉你的手</div>
 </div>
 
@@ -142,24 +145,28 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 [01:48.07]Just a total brainwash like they're in a cult
 </div>
+<div class="cn-lyric">[01:48.07]完全就是洗脑，像被邪教控制</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:54.39]And I'm so scared of what will be the end result
 </div>
+<div class="cn-lyric">[01:54.39]我如此害怕最终的结局会是什么</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:59.49]Tell you you've got a chance then they kill all your dreams
 </div>
+<div class="cn-lyric">[01:59.49]告诉你有一丝机会，然后他们扼杀你所有梦想</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:03.01]It's like we're living in a fucked up ponzi scheme
 </div>
+
 <div class="cn-lyric">[02:03.01]就像我们活在一个糟糕透顶的庞氏骗局里</div>
 </div>
 

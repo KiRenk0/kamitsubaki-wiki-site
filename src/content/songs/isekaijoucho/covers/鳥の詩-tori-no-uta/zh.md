@@ -182,6 +182,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [03:47.88]<ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>飛行機雲<rt class="furi">ひこうきぐも</rt><rt class="roma">hikoukigumo</rt></ruby> <ruby>追<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>いかけ<rt class="roma">ikake</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>追<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>いかけ<rt class="roma">ikake</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[03:47.88]消失的航迹云 追赶着 追赶着</div>
 </div>
 
 <div class="lyric-line">
@@ -202,6 +203,7 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [04:11.33]<ruby>汗<rt class="furi">あせ</rt><rt class="roma">ase</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>滲<rt class="furi">にじ</rt><rt class="roma">niji</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby>
 </div>
+
 <div class="cn-lyric">[04:11.33]即使汗水渗出 也绝不松开手 永远</div>
 </div>
 
@@ -211,24 +213,28 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 <div class="jp-lyric">
 [04:23.24]<ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>飛行機雲<rt class="furi">ひこうきぐも</rt><rt class="roma">hikoukigumo</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>見送<rt class="furi">みおく</rt><rt class="roma">mioku</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>
 </div>
+<div class="cn-lyric">[04:23.24]消失的航迹云 我们目送着它</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:30.94]<ruby>眩<rt class="furi">まぶ</rt><rt class="roma">mabu</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>逃<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>弱<rt class="furi">よわ</rt><rt class="roma">yowa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[04:30.94]太过刺眼而逃避 总是那么软弱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:37.87]<ruby>あの<rt class="roma">ano</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> <ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby> <ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[04:37.87]从那天起 不曾改变 永远不变地</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [04:46.85]<ruby>い<rt class="roma">i</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby> <ruby>悔<rt class="furi">くや</rt><rt class="roma">kuya</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>指<rt class="furi">ゆび</rt><rt class="roma">yubi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>す<rt class="roma">su</rt></ruby>
 </div>
+<div class="cn-lyric">[04:46.85]未能保持如初 悔恨中松开手指</div>
 </div>
 
 </div>

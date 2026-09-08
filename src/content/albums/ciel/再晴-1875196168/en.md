@@ -38,11 +38,11 @@ tracks:
 
 ## Overview
 
-CIEL's ep “再晴”, released on 2026-03-04, featuring 4 tracks.
+[CIEL](/en/artists/solo/ciel)'s ep “再晴”, released on 2026-03-04, featuring 4 tracks.
 
 ## Track List
 
-1. 常しなえ (04:43)
+1. [常しなえ](/en/songs/ciel/originals/常shinae) (04:43)
 2. 空白の暈 (03:22)
 3. 此処で咲かせて (CIEL Solo ver.) (03:41)
 4. ろうそく (03:46)

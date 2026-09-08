@@ -52,7 +52,9 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [00:10.15]<ruby>ありがとう<rt class="roma">arigatou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>うまく<rt class="roma">umaku</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
-<div class="trans-lyric">So that I can sing 'thank you' well</div>
+<div class="trans-lyric">
+[00:10.15]So that I can sing 'thank you' well
+</div>
 </div>
 
 <div class="lyric-line">
@@ -89,7 +91,9 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [00:35.59]<ruby>まあ<rt class="roma">maa</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby>
 </div>
-<div class="trans-lyric">Well, whatever</div>
+<div class="trans-lyric">
+[00:35.59]Well, whatever
+</div>
 </div>
 
 <div class="lyric-line">
@@ -200,6 +204,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [02:02.27]<ruby>まあ<rt class="roma">maa</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby>
 </div>
+<div class="trans-lyric">[02:02.27]Well, whatever</div>
 </div>
 
 <div class="lyric-line">
@@ -310,6 +315,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [03:22.28]<ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>かも<rt class="roma">kamo</rt></ruby><ruby>しれ<rt class="roma">shire</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">[03:22.28]Might not be the real me</div>
 </div>
 
 <div class="lyric-line">
@@ -323,13 +329,15 @@ image: /images/albums/kaf/maho-gamma.jpg
 <div class="jp-lyric">
 [03:32.89]<ruby>ワクワク<rt class="roma">wakuwaku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>にやにや<rt class="roma">niyaniya</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
-<div class="trans-lyric">The excitement that won't stop and the grin</div>
+
+<div class="trans-lyric">[03:32.89]The excitement that won't stop and the grin</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:38.13]<ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>観測<rt class="furi">かんそく</rt><rt class="roma">kansoku</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:38.13]And the true observation of you</div>
 </div>
 

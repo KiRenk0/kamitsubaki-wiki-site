@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 ## Overview
 
-人に優しく appears on SPICE OF LIFE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+人に優しく appears on [SPICE OF LIFE](/en/albums/harusaruhi/spice-of-life) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -84,7 +84,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:21.82]Don’t cry babe <ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
-<div class="trans-lyric">Don't cry babe, I'm here</div>
+<div class="trans-lyric">
+[00:21.82]Don't cry babe, I'm here
+</div>
 </div>
 
 <div class="lyric-line">
@@ -112,21 +114,27 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:35.03]<ruby>お金<rt class="furi">おかね</rt><rt class="roma">okane</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>でかい<rt class="roma">dekai</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby>yeah
 </div>
-<div class="trans-lyric">A love bigger than money, yeah</div>
+<div class="trans-lyric">
+[00:35.03]A love bigger than money, yeah
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:38.17]<ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>大人<rt class="furi">おとな</rt><rt class="roma">otona</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>気遣<rt class="furi">きづか</rt><rt class="roma">kizuka</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>yeah
 </div>
-<div class="trans-lyric">A capable adult's care, yeah</div>
+<div class="trans-lyric">
+[00:38.17]A capable adult's care, yeah
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:41.24]<ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ありがとう<rt class="roma">arigatou</rt></ruby><ruby>ごめんなさい<rt class="roma">gomennasai</rt></ruby>yeah
 </div>
-<div class="trans-lyric">Saying thank you and sorry, yeah</div>
+<div class="trans-lyric">
+[00:41.24]Saying thank you and sorry, yeah
+</div>
 </div>
 
 <div class="lyric-line">
@@ -149,7 +157,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [01:00.73]yeah, yeah
 </div>
-<div class="trans-lyric">yeah, yeah</div>
+<div class="trans-lyric">
+[01:00.73]yeah, yeah
+</div>
 </div>
 
 <div class="lyric-line">
@@ -205,7 +215,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [01:12.72]<ruby>ねえ<rt class="roma">nee</rt></ruby><ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="trans-lyric">Hey, you can depend on me</div>
+<div class="trans-lyric">
+[01:12.72]Hey, you can depend on me
+</div>
 </div>
 
 <div class="lyric-line">
@@ -240,48 +252,56 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [01:27.66]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>1<ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">[01:27.66]No one can live alone</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:30.81]<ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>みんな<rt class="roma">minna</rt></ruby><ruby>支<rt class="furi">ささ</rt><rt class="roma">sasa</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
+<div class="trans-lyric">[01:30.81]Everyone supports each other</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:33.92]<ruby>いがみ合<rt class="furi">いがみあ</rt><rt class="roma">igamia</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>も<rt class="roma">mo</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">[01:33.92]Fighting has no meaning</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:36.98]<ruby>お金<rt class="furi">おかね</rt><rt class="roma">okane</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>でかい<rt class="roma">dekai</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby>yeah
 </div>
+<div class="trans-lyric">[01:36.98]A love bigger than money, yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:39.93]<ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>大人<rt class="furi">おとな</rt><rt class="roma">otona</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>気遣<rt class="furi">きづか</rt><rt class="roma">kizuka</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>yeah
 </div>
+<div class="trans-lyric">[01:39.93]A capable adult's care, yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:43.21]<ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ありがとう<rt class="roma">arigatou</rt></ruby><ruby>ごめんなさい<rt class="roma">gomennasai</rt></ruby>yeah
 </div>
+<div class="trans-lyric">[01:43.21]Saying thank you and sorry, yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:46.32]<ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>1<ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="trans-lyric">[01:46.32]You who cry are not alone</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:49.30]<ruby>あげる<rt class="roma">ageru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby>
 </div>
+<div class="trans-lyric">[01:49.30]I'll give you my love</div>
 </div>
 
 <br />
@@ -290,7 +310,8 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [01:57.32]My love for you
 </div>
-<div class="trans-lyric">My love for you</div>
+
+<div class="trans-lyric">[01:57.32]My love for you</div>
 </div>
 
 <br />

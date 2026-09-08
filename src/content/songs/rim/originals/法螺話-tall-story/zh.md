@@ -116,6 +116,7 @@ image: /images/songs/rim/single-1687473629.jpg
 <div class="jp-lyric">
 [01:04.52]<ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
 </div>
+<div class="cn-lyric">[01:04.52]根本不可能了解别人吧</div>
 </div>
 
 <br />
@@ -168,24 +169,28 @@ image: /images/songs/rim/single-1687473629.jpg
 <div class="jp-lyric">
 [01:52.88]<ruby>世の中<rt class="furi">よのなか</rt><rt class="roma">yononaka</rt></ruby><ruby>推敲<rt class="furi">すいこう</rt><rt class="roma">suikou</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>嘘<rt class="furi">うそ</rt><rt class="roma">uso</rt></ruby><ruby>ばっか<rt class="roma">bakka</rt></ruby>
 </div>
+<div class="cn-lyric">[01:52.88]世间尽是精心推敲的谎言</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:59.45]<ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
 </div>
+<div class="cn-lyric">[01:59.45]根本不可能了解别人吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:06.29]<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>奥<rt class="furi">おく</rt><rt class="roma">oku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[02:06.29]连内心深处的自己都不了解</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:13.15]<ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
 </div>
+<div class="cn-lyric">[02:13.15]根本不可能了解别人吧</div>
 </div>
 
 <br />
@@ -194,6 +199,7 @@ image: /images/songs/rim/single-1687473629.jpg
 <div class="jp-lyric">
 [02:34.50]<ruby>おばけ<rt class="roma">obake</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>人前<rt class="furi">ひとまえ</rt><rt class="roma">hitomae</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>しか<rt class="roma">shika</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:34.50]幽灵只在人前出现</div>
 </div>
 
@@ -201,6 +207,7 @@ image: /images/songs/rim/single-1687473629.jpg
 <div class="jp-lyric">
 [02:37.97]<ruby>月<rt class="furi">つき</rt><rt class="roma">tsuki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>存在<rt class="furi">そんざい</rt><rt class="roma">sonzai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:37.97]月亮只在被看时才存在</div>
 </div>
 
@@ -208,6 +215,7 @@ image: /images/songs/rim/single-1687473629.jpg
 <div class="jp-lyric">
 [02:41.18]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>信<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>じる<rt class="roma">jiru</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>問題<rt class="furi">もんだい</rt><rt class="roma">mondai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:41.18]那是信与不信的问题</div>
 </div>
 
@@ -217,24 +225,28 @@ image: /images/songs/rim/single-1687473629.jpg
 <div class="jp-lyric">
 [02:47.58]<ruby>世の中<rt class="furi">よのなか</rt><rt class="roma">yononaka</rt></ruby><ruby>推敲<rt class="furi">すいこう</rt><rt class="roma">suikou</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>嘘<rt class="furi">うそ</rt><rt class="roma">uso</rt></ruby><ruby>ばっか<rt class="roma">bakka</rt></ruby>
 </div>
+<div class="cn-lyric">[02:47.58]世间尽是精心推敲的谎言</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:54.30]<ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
 </div>
+<div class="cn-lyric">[02:54.30]根本不可能了解别人吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:01.23]<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>奥<rt class="furi">おく</rt><rt class="roma">oku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="cn-lyric">[03:01.23]连内心深处的自己都不了解</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:08.07]<ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
 </div>
+<div class="cn-lyric">[03:08.07]根本不可能了解别人吧</div>
 </div>
 
 </div>

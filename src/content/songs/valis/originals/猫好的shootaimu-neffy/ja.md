@@ -17,7 +17,7 @@ image: /images/songs/valis/猫好的shootaimu-neffy.jpg
 
 ## 作品概要
 
-VALISが2023-10-21にリリースしたシングル「猫好的ショータイム(NEFFY)」。
+[VALIS](/ja/artists/solo/valis)が2023-10-21にリリースしたシングル「猫好的ショータイム(NEFFY)」。
 
 ## 視聴
 {{media-switcher::猫好的ショータイム(NEFFY)}}

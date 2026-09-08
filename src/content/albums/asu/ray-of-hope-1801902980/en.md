@@ -66,13 +66,13 @@ tracks:
 
 ## Track List
 
-1. Spiral (02:46)
+1. [Spiral](/en/songs/asu/originals/spiral) (02:46)
 2. 0g (03:46)
-3. ブルーナイトダーリン (02:54)
-4. アンメルト・アンブレラ (03:18)
-5. HEAVEN IS GONE (02:56)
+3. [ブルーナイトダーリン](/en/songs/asu/originals/buruunaitodaarin) (02:54)
+4. [アンメルト・アンブレラ](/en/songs/asu/originals/anmeruto-anburera) (03:18)
+5. [HEAVEN IS GONE](/en/songs/asu/originals/heaven-is-gone) (02:56)
 6. illumina (02:53)
-7. Shiny (03:28)
-8. Dazzling (03:22)
-9. Winter Sparkler (03:35)
-10. Aster (04:12)
+7. [Shiny](/en/songs/asu/originals/shiny) (03:28)
+8. [Dazzling](/en/songs/asu/originals/dazzling) (03:22)
+9. [Winter Sparkler](/en/songs/asu/originals/winter-sparkler) (03:35)
+10. [Aster](/en/songs/asu/originals/aster) (04:12)

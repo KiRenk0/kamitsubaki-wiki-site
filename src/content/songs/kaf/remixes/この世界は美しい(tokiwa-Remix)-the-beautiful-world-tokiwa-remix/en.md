@@ -33,7 +33,9 @@ image: /images/albums/kaf/guwa-gamma.jpg
 <div class="jp-lyric">
 [00:00.20]<ruby>まだ<rt class="roma">mada</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
-<div class="trans-lyric">Still, this world</div>
+<div class="trans-lyric">
+[00:00.20]Still, this world
+</div>
 </div>
 
 <div class="lyric-line">

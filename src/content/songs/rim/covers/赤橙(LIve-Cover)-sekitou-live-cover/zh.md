@@ -156,6 +156,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 [02:14.12]<ruby>赤<rt class="furi">あか</rt><rt class="roma">aka</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>煉瓦<rt class="furi">れんが</rt><rt class="roma">renga</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>そっと<rt class="roma">sotto</rt></ruby><ruby>積み上<rt class="furi">つみあ</rt><rt class="roma">tsumia</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[02:14.12]轻轻堆起红色砖块</div>
 </div>
 
 <div class="lyric-line">
@@ -176,18 +177,21 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 [02:28.53]<ruby>そして<rt class="roma">soshite</rt></ruby><ruby>少年<rt class="furi">しょうねん</rt><rt class="roma">shounen</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>握<rt class="furi">にぎ</rt><rt class="roma">nigi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">[02:28.53]然后少年将一撮</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:31.82]<ruby>オレンジ<rt class="roma">orenji</rt></ruby><ruby>色<rt class="furi">しょく</rt><rt class="roma">shoku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>砂<rt class="furi">すな</rt><rt class="roma">suna</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>蒔<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[02:31.82]橙色的砂粒撒下</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:35.33]<ruby>黄金<rt class="furi">おうごん</rt><rt class="roma">ougon</rt></ruby><ruby>色<rt class="furi">しょく</rt><rt class="roma">shoku</rt></ruby><ruby>光<rt class="furi">ひか</rt><rt class="roma">hika</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>夕暮<rt class="furi">ゆうぐ</rt><rt class="roma">yuugu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>重<rt class="furi">かさ</rt><rt class="roma">kasa</rt></ruby><ruby>ねよ<rt class="roma">neyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:35.33]在金色闪耀的黄昏里 让声音重叠吧</div>
 </div>
 
@@ -197,60 +201,70 @@ image: /images/albums/rim/chocolate-live-4.jpg
 <div class="jp-lyric">
 [02:58.01]<ruby>眠<rt class="furi">ねむ</rt><rt class="roma">nemu</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>浅<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>回路<rt class="furi">かいろ</rt><rt class="roma">kairo</rt></ruby> <ruby>埃<rt class="furi">ほこり</rt><rt class="roma">hokori</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>まみれ<rt class="roma">mamire</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>カイト<rt class="roma">kaito</rt></ruby>
 </div>
+<div class="cn-lyric">[02:58.01]浅眠清晨的回路 沾满尘埃的风筝</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:04.54]<ruby>フワフワ<rt class="roma">fuwafuwa</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>眠<rt class="furi">ねむ</rt><rt class="roma">nemu</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby> <ruby>そこはかとなく<rt class="roma">sokohakatonaku</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby>
 </div>
+<div class="cn-lyric">[03:04.54]飘飘的声音沉睡着 不知不觉日子延续</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:15.18]<ruby>左利<rt class="furi">ひだりき</rt><rt class="roma">hidariki</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>犬<rt class="furi">いぬ</rt><rt class="roma">inu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>まさに<rt class="roma">masani</rt></ruby> <ruby>片足<rt class="furi">かたあし</rt><rt class="roma">kataashi</rt></ruby><ruby>引<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>きずり<rt class="roma">kizuri</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby>
 </div>
+<div class="cn-lyric">[03:15.18]左撇子的狗正拖着一条腿在笑</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:28.30]<ruby>赤<rt class="furi">あか</rt><rt class="roma">aka</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>煉瓦<rt class="furi">れんが</rt><rt class="roma">renga</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>そっと<rt class="roma">sotto</rt></ruby><ruby>積み上<rt class="furi">つみあ</rt><rt class="roma">tsumia</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[03:28.30]轻轻堆起红色砖块</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:32.08]<ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>魔法<rt class="furi">まほう</rt><rt class="roma">mahou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>かけ<rt class="roma">kake</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>みる<rt class="roma">miru</rt></ruby>
 </div>
+<div class="cn-lyric">[03:32.08]试着施下遥远日子的魔法</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:35.48]<ruby>丸<rt class="furi">まる</rt><rt class="roma">maru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>地球<rt class="furi">ちきゅう</rt><rt class="roma">chikyuu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>裏側<rt class="furi">うらがわ</rt><rt class="roma">uragawa</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby> <ruby>これ<rt class="roma">kore</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby>
 </div>
+<div class="cn-lyric">[03:35.48]若是圆地球的另一侧 这样就能到达</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:42.75]<ruby>そして<rt class="roma">soshite</rt></ruby><ruby>少年<rt class="furi">しょうねん</rt><rt class="roma">shounen</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>握<rt class="furi">にぎ</rt><rt class="roma">nigi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
+<div class="cn-lyric">[03:42.75]然后少年将一撮</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:46.34]<ruby>オレンジ<rt class="roma">orenji</rt></ruby><ruby>色<rt class="furi">しょく</rt><rt class="roma">shoku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>砂<rt class="furi">すな</rt><rt class="roma">suna</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>蒔<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
+<div class="cn-lyric">[03:46.34]橙色的砂粒撒下</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:49.69]<ruby>黄金<rt class="furi">おうごん</rt><rt class="roma">ougon</rt></ruby><ruby>色<rt class="furi">しょく</rt><rt class="roma">shoku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>輝<rt class="furi">かがや</rt><rt class="roma">kagaya</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>奏<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>でよ<rt class="roma">deyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+<div class="cn-lyric">[03:49.69]总有一天奏响那金色光辉的音色吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:57.54]La la la la...
 </div>
+
 <div class="cn-lyric">[03:57.54]La la la la...</div>
 </div>
 

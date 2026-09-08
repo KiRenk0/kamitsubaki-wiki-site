@@ -19,7 +19,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 
 ## Overview
 
-Sesame (Live Cover) appears on CHOCOLATE LIVE4 or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+Sesame (Live Cover) appears on [CHOCOLATE LIVE4](/en/albums/rim/chocolate-live-4) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -91,6 +91,7 @@ Qui sèche tes larmes
 <div class="jp-lyric">
 Quel est le sésame de ton âme?
 </div>
+<div class="trans-lyric">What is the sesame of your soul?</div>
 </div>
 
 <div class="lyric-line">
@@ -164,12 +165,14 @@ Qui veille sur tes charmes
 <div class="jp-lyric">
 Quel est le sésame de ton âme?
 </div>
+<div class="trans-lyric">What is the sesame of your soul?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Le rêve qui t'enflamme
 </div>
+<div class="trans-lyric">The dream that ignites you</div>
 </div>
 
 <br />
@@ -229,6 +232,7 @@ Qui brillerait sans rivale
 <div class="jp-lyric">
 Pour toi
 </div>
+<div class="trans-lyric">For you</div>
 </div>
 
 <div class="lyric-line">
@@ -295,12 +299,14 @@ Je pourrais même sauter la sieste
 <div class="jp-lyric">
 Pour toi
 </div>
+<div class="trans-lyric">For you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Je f'rais n'importe quoi
 </div>
+<div class="trans-lyric">I'd do anything</div>
 </div>
 
 <br />
@@ -353,6 +359,7 @@ Qui se damne
 <div class="jp-lyric">
 Je veux trouver dans ce dédale
 </div>
+
 <div class="trans-lyric">I want to find in this maze</div>
 </div>
 
@@ -360,6 +367,7 @@ Je veux trouver dans ce dédale
 <div class="jp-lyric">
 La clef de ton âme
 </div>
+
 <div class="trans-lyric">The key to your soul</div>
 </div>
 
@@ -367,6 +375,7 @@ La clef de ton âme
 <div class="jp-lyric">
 Est-ce que tu vois au fond de moi
 </div>
+
 <div class="trans-lyric">Do you see deep inside me</div>
 </div>
 
@@ -374,6 +383,7 @@ Est-ce que tu vois au fond de moi
 <div class="jp-lyric">
 Le bonheur?
 </div>
+
 <div class="trans-lyric">Happiness?</div>
 </div>
 
@@ -381,6 +391,7 @@ Le bonheur?
 <div class="jp-lyric">
 Quel est le sésame de ton âme
 </div>
+
 <div class="trans-lyric">What is the sesame of your soul</div>
 </div>
 
@@ -388,6 +399,7 @@ Quel est le sésame de ton âme
 <div class="jp-lyric">
 Le rêve qui t'enflamme?
 </div>
+
 <div class="trans-lyric">The dream that ignites you?</div>
 </div>
 

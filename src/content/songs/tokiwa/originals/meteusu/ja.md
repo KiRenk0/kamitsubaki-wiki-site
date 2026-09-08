@@ -17,7 +17,7 @@ image: /images/songs/tokiwa/meteusu.jpg
 
 ## 作品概要
 
-tokiwaが2024-12-24にリリースしたシングル「メテウス」。
+[tokiwa](/ja/artists/creators/tokiwa)が2024-12-24にリリースしたシングル「メテウス」。
 
 ## 視聴
 {{media-switcher::メテウス}}

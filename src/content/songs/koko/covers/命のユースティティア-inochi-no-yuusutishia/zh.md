@@ -237,48 +237,56 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 <ruby>叶<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>祈<rt class="furi">いの</rt><rt class="roma">ino</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>救<rt class="furi">すく</rt><rt class="roma">suku</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>両手<rt class="furi">りょうて</rt><rt class="roma">ryoute</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+<div class="cn-lyric">向无法实现的祈祷 伸出救援的双手</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>生まれ変<rt class="furi">うまれか</rt><rt class="roma">umareka</rt></ruby><ruby>われ<rt class="roma">ware</rt></ruby> <ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ユースティティア<rt class="roma">yuusuteiteia</rt></ruby>
 </div>
+<div class="cn-lyric">重生吧 生命的尤斯蒂蒂亚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>どんな<rt class="roma">donna</rt></ruby><ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby> <ruby>吹<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+<div class="cn-lyric">无论怎样的风吹拂</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>この<rt class="roma">kono</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>消<rt class="furi">け</rt><rt class="roma">ke</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">这声音 不会消失</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby>（<ruby>あした<rt class="roma">ashita</rt></ruby>）<ruby>の<rt class="roma">no</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>残<rt class="furi">のこ</rt><rt class="roma">noko</rt></ruby><ruby>せる<rt class="roma">seru</rt></ruby><ruby>物<rt class="furi">もの</rt><rt class="roma">mono</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby>？
 </div>
+<div class="cn-lyric">能给未来的我们 留下什么？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>宙<rt class="furi">ちゅう</rt><rt class="roma">chuu</rt></ruby>（<ruby>そら<rt class="roma">sora</rt></ruby>）<ruby>を<rt class="roma">wo</rt></ruby><ruby>照<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>らせ<rt class="roma">rase</rt></ruby> <ruby>一縷<rt class="furi">いちる</rt><rt class="roma">ichiru</rt></ruby>（<ruby>い<rt class="roma">i</rt></ruby><ruby>ちる<rt class="roma">chiru</rt></ruby>）<ruby>の<rt class="roma">no</rt></ruby><ruby>ユースティティア<rt class="roma">yuusuteiteia</rt></ruby>
 </div>
+<div class="cn-lyric">照亮天空吧 一丝的尤斯蒂蒂亚</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>秒<rt class="furi">びょう</rt><rt class="roma">byou</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby> <ruby>狂<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>わせ<rt class="roma">wase</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
+<div class="cn-lyric">连一秒都不会错乱</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>奪<rt class="furi">うば</rt><rt class="roma">uba</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>さぁ<rt class="roma">saa</rt></ruby> <ruby>取り戻<rt class="furi">とりもど</rt><rt class="roma">torimodo</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby>
 </div>
+<div class="cn-lyric">被夺走的世界 来吧 夺回来</div>
 </div>
 
 <br />
@@ -287,6 +295,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:33.30]<ruby>偽<rt class="furi">いつわ</rt><rt class="roma">itsuwa</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>騙<rt class="furi">だま</rt><rt class="roma">dama</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:33.30]即使互相欺骗 即使被骗</div>
 </div>
 
@@ -294,6 +303,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:36.29]<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>そっと<rt class="roma">sotto</rt></ruby> <ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>降<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:36.29]即便如此 光芒仍轻轻降临</div>
 </div>
 
@@ -301,6 +311,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:39.35]<ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby> <ruby>必<rt class="furi">かなら</rt><rt class="roma">kanara</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:39.35]总有一天一定 必定一定</div>
 </div>
 
@@ -308,6 +319,7 @@ image: /images/albums/koko/arare-live.jpg
 <div class="jp-lyric">
 [03:42.58]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby> 燈（<ruby>とも<rt class="roma">tomo</rt></ruby>）<ruby>すから<rt class="roma">sukara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:42.58]因为我会点亮你的心</div>
 </div>
 

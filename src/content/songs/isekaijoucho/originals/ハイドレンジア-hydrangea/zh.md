@@ -72,24 +72,28 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [00:29.56]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>空白<rt class="furi">くうはく</rt><rt class="roma">kuuhaku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>埋<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>度<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby>
 </div>
+<div class="cn-lyric">[00:29.56]每当你填补空白时</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:33.27]<ruby>推測<rt class="furi">すいそく</rt><rt class="roma">suisoku</rt></ruby><ruby>断<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>教<rt class="furi">おし</rt><rt class="roma">oshi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[00:33.27]请告诉我断绝推测的意义</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:36.69]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>空白<rt class="furi">くうはく</rt><rt class="roma">kuuhaku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>埋<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>度<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby>
 </div>
+<div class="cn-lyric">[00:36.69]每当我填补空白时</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:39.98]<ruby>痛覚<rt class="furi">つうかく</rt><rt class="roma">tsuukaku</rt></ruby><ruby>立<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>教<rt class="furi">おし</rt><rt class="roma">oshi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[00:39.98]请告诉我痛觉升起的意义</div>
 </div>
 
 <br />
@@ -301,12 +305,14 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [02:54.08]<ruby>楽<rt class="furi">たの</rt><rt class="roma">tano</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>、<ruby>正<rt class="furi">ただ</rt><rt class="roma">tada</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+<div class="cn-lyric">[02:54.08]不快乐啊 不正确啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:57.05]<ruby>愛憎<rt class="furi">あいぞう</rt><rt class="roma">aizou</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>覚<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+<div class="cn-lyric">[02:57.05]爱憎什么的记不得了</div>
 </div>
 
 <div class="lyric-line">
@@ -343,6 +349,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [03:15.36]<ruby>欲望<rt class="furi">よくぼう</rt><rt class="roma">yokubou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>終始<rt class="furi">しゅうし</rt><rt class="roma">shuushi</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>真ん中<rt class="furi">まんなか</rt><rt class="roma">mannaka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:15.36]在始终被欲望占据的心中</div>
 </div>
 
@@ -350,6 +357,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [03:20.96]<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:20.96]来看夜晚吧</div>
 </div>
 
@@ -359,6 +367,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [03:37.55]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>行先<rt class="furi">ゆくさき</rt><rt class="roma">yukusaki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>憂<rt class="furi">うれ</rt><rt class="roma">ure</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>度<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:37.55]每当你忧虑去路时</div>
 </div>
 
@@ -366,6 +375,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [03:40.86]<ruby>悲<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>教<rt class="furi">おし</rt><rt class="roma">oshi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:40.86]请告诉我变得悲伤的意义</div>
 </div>
 
@@ -373,6 +383,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [03:43.82]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>幸福<rt class="furi">こうふく</rt><rt class="roma">koufuku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>度<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:43.82]每当我触碰到幸福时</div>
 </div>
 
@@ -380,6 +391,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [03:48.29]騒<ruby>めき<rt class="roma">meki</rt></ruby><ruby>出<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:48.29]察觉到骚动而起的声音</div>
 </div>
 
@@ -387,6 +399,7 @@ image: /images/albums/isekaijoucho/sousei.jpg
 <div class="jp-lyric">
 [03:51.23]<ruby>いい<rt class="roma">ii</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
+<div class="cn-lyric">[03:51.23]可以吗？</div>
 </div>
 
 </div>

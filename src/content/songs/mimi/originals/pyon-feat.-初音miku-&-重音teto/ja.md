@@ -17,7 +17,7 @@ image: /images/songs/mimi/pyon-feat.-初音miku-&-重音teto.jpg
 
 ## 作品概要
 
-MIMIが2026-04-26にリリースしたシングル「ぴょん (feat. 初音ミク & 重音テト)」。
+[MIMI](/ja/artists/creators/mimi)が2026-04-26にリリースしたシングル「ぴょん (feat. 初音ミク & 重音テト)」。
 
 ## 視聴
 {{media-switcher::ぴょん (feat. 初音ミク & 重音テト)}}

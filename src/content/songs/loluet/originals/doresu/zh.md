@@ -17,7 +17,7 @@ image: /images/songs/loluet/doresu.jpg
 
 ## 作品简介
 
-LOLUET于 2025-09-09 发行的单曲《ドレス》。
+[LOLUET](/zh/artists/solo/loluet)于 2025-09-09 发行的单曲《ドレス》。
 
 ## 试听
 {{media-switcher::ドレス}}

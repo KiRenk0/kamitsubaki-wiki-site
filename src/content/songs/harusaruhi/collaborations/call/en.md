@@ -57,7 +57,9 @@ CALL appears on CALL or a related official release. Entries are version-specific
 <div class="jp-lyric">
 [00:24.05]<ruby>歩き<rt class="furi">あるき</rt><rt class="roma">aruki</rt></ruby><ruby>だす<rt class="roma">dasu</rt></ruby> <ruby>歩き<rt class="furi">あるき</rt><rt class="roma">aruki</rt></ruby><ruby>だす<rt class="roma">dasu</rt></ruby> midnight
 </div>
-<div class="trans-lyric">Starting to walk, starting to walk, midnight</div>
+<div class="trans-lyric">
+[00:24.05]Starting to walk, starting to walk, midnight
+</div>
 </div>
 
 <br />
@@ -96,14 +98,18 @@ CALL appears on CALL or a related official release. Entries are version-specific
 <div class="jp-lyric">
 [00:41.66]Call me <ruby>聞か<rt class="furi">きか</rt><rt class="roma">kika</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="trans-lyric">Call me, let me hear it</div>
+<div class="trans-lyric">
+[00:41.66]Call me, let me hear it
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:45.17]Call me <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
-<div class="trans-lyric">Call me, to love</div>
+<div class="trans-lyric">
+[00:45.17]Call me, to love
+</div>
 </div>
 
 <div class="lyric-line">
@@ -133,21 +139,27 @@ CALL appears on CALL or a related official release. Entries are version-specific
 <div class="jp-lyric">
 [00:58.01]<ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> love <ruby>に<rt class="roma">ni</rt></ruby><ruby>変わる<rt class="furi">かわる</rt><rt class="roma">kawaru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
-<div class="trans-lyric">Until words turn into love</div>
+<div class="trans-lyric">
+[00:58.01]Until words turn into love
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:01.73]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> goal <ruby>を<rt class="roma">wo</rt></ruby><ruby>見つけ<rt class="furi">みつけ</rt><rt class="roma">mitsuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="trans-lyric">Please find the goal that is only yours</div>
+<div class="trans-lyric">
+[01:01.73]Please find the goal that is only yours
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:05.21]1<ruby>・<rt class="roma">/</rt></ruby>2<ruby>・<rt class="roma">/</rt></ruby>3 <ruby>の<rt class="roma">no</rt></ruby> step <ruby>で<rt class="roma">de</rt></ruby><ruby>決め<rt class="furi">きめ</rt><rt class="roma">kime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="trans-lyric">Decide with a 1, 2, 3 step</div>
+<div class="trans-lyric">
+[01:05.21]Decide with a 1, 2, 3 step
+</div>
 </div>
 
 <div class="lyric-line">
@@ -161,7 +173,9 @@ CALL appears on CALL or a related official release. Entries are version-specific
 <div class="jp-lyric">
 [01:12.40]<ruby>テンション<rt class="roma">tenshon</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>上げ下げ<rt class="furi">あげさげ</rt><rt class="roma">agesage</rt></ruby> <ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>じゃん<rt class="roma">jan</rt></ruby>
 </div>
-<div class="trans-lyric">The ups and downs of tension, isn't that fine?</div>
+<div class="trans-lyric">
+[01:12.40]The ups and downs of tension, isn't that fine?
+</div>
 </div>
 
 <div class="lyric-line">
@@ -175,7 +189,9 @@ CALL appears on CALL or a related official release. Entries are version-specific
 <div class="jp-lyric">
 [01:19.39]<ruby>始め<rt class="furi">はじめ</rt><rt class="roma">hajime</rt></ruby><ruby>ましょ<rt class="roma">masho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> call me, call me
 </div>
-<div class="trans-lyric">Let's begin, call me, call me</div>
+<div class="trans-lyric">
+[01:19.39]Let's begin, call me, call me
+</div>
 </div>
 
 <br />
@@ -191,7 +207,9 @@ CALL appears on CALL or a related official release. Entries are version-specific
 <div class="jp-lyric">
 [01:39.33]<ruby>愛せ<rt class="furi">あいせ</rt><rt class="roma">aise</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby> sing along
 </div>
-<div class="trans-lyric">And the me who cannot love, sing along</div>
+<div class="trans-lyric">
+[01:39.33]And the me who cannot love, sing along
+</div>
 </div>
 
 <div class="lyric-line">
@@ -214,24 +232,28 @@ CALL appears on CALL or a related official release. Entries are version-specific
 <div class="jp-lyric">
 [01:50.14]<ruby>炭酸<rt class="furi">たんさん</rt><rt class="roma">tansan</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>弾け<rt class="furi">ひけ</rt><rt class="roma">hike</rt></ruby> <ruby>消え<rt class="furi">きえ</rt><rt class="roma">kie</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+<div class="trans-lyric">[01:50.14]Like carbonation popping and fading away</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:53.50]<ruby>散々<rt class="furi">さんざん</rt><rt class="roma">sanzan</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>判断<rt class="furi">はんだん</rt><rt class="roma">handan</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>忘れ<rt class="furi">わすれ</rt><rt class="roma">wasure</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
+<div class="trans-lyric">[01:53.50]Like forgetting in the midst of disastrous decisions</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:57.19]<ruby>一瞬<rt class="furi">いっしゅん</rt><rt class="roma">isshun</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>変わる<rt class="furi">かわる</rt><rt class="roma">kawaru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
 </div>
+<div class="trans-lyric">[01:57.19]A world that changes in an instant</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:59.92]<ruby>未知<rt class="furi">みち</rt><rt class="roma">michi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>変え<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ほしい<rt class="roma">hoshii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="trans-lyric">[01:59.92]I want you to change it with unknown words</div>
 </div>
 
@@ -241,24 +263,28 @@ CALL appears on CALL or a related official release. Entries are version-specific
 <div class="jp-lyric">
 [02:03.98]Call me <ruby>聞か<rt class="furi">きか</rt><rt class="roma">kika</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">[02:03.98]Call me, let me hear it</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:07.45]Call me <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="trans-lyric">[02:07.45]Call me, to love</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:10.62]<ruby>お便り<rt class="furi">おたより</rt><rt class="roma">otayori</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>頼り<rt class="furi">たより</rt><rt class="roma">tayori</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+<div class="trans-lyric">[02:10.62]Relying on your letters</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:13.71]<ruby>すれ違い<rt class="furi">すれちがい</rt><rt class="roma">surechigai</rt></ruby><ruby>通信<rt class="furi">つうしん</rt><rt class="roma">tsuushin</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
+<div class="trans-lyric">[02:13.71]Even if it's just passing communication, surely...</div>
 </div>
 
 <br />
@@ -267,48 +293,56 @@ CALL appears on CALL or a related official release. Entries are version-specific
 <div class="jp-lyric">
 [02:17.12]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> call <ruby>を<rt class="roma">wo</rt></ruby><ruby>届け<rt class="furi">とどけ</rt><rt class="roma">todoke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">[02:17.12]Please deliver the call that is only yours</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:20.39]<ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> love <ruby>に<rt class="roma">ni</rt></ruby><ruby>変わる<rt class="furi">かわる</rt><rt class="roma">kawaru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
+<div class="trans-lyric">[02:20.39]Until words turn into love</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:24.07]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> goal <ruby>を<rt class="roma">wo</rt></ruby><ruby>見つけ<rt class="furi">みつけ</rt><rt class="roma">mitsuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="trans-lyric">[02:24.07]Please find the goal that is only yours</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:27.65]1<ruby>・<rt class="roma">/</rt></ruby>2<ruby>・<rt class="roma">/</rt></ruby>3 <ruby>の<rt class="roma">no</rt></ruby> step <ruby>で<rt class="roma">de</rt></ruby><ruby>決め<rt class="furi">きめ</rt><rt class="roma">kime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[02:27.65]Decide with a 1, 2, 3 step</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:31.25]<ruby>揺れ<rt class="furi">ゆれ</rt><rt class="roma">yure</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>揺らい<rt class="furi">ゆらい</rt><rt class="roma">yurai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>迷い<rt class="furi">まよい</rt><rt class="roma">mayoi</rt></ruby><ruby>迷わ<rt class="furi">まよわ</rt><rt class="roma">mayowa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby>
 </div>
+<div class="trans-lyric">[02:31.25]Swaying and wavering, losing my way and being led astray</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:34.51]<ruby>テンション<rt class="roma">tenshon</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>上げ下げ<rt class="furi">あげさげ</rt><rt class="roma">agesage</rt></ruby> <ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>じゃん<rt class="roma">jan</rt></ruby>
 </div>
+<div class="trans-lyric">[02:34.51]The ups and downs of tension, isn't that fine?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:38.15]<ruby>春<rt class="furi">はる</rt><rt class="roma">haru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>居る<rt class="furi">いる</rt><rt class="roma">iru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
 </div>
+<div class="trans-lyric">[02:38.15]Spring has come, the world where you are</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:41.50]<ruby>始め<rt class="furi">はじめ</rt><rt class="roma">hajime</rt></ruby><ruby>ましょ<rt class="roma">masho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> call me, call me
 </div>
+<div class="trans-lyric">[02:41.50]Let's begin, call me, call me</div>
 </div>
 
 </div>

@@ -16,7 +16,7 @@ image: /images/songs/mimi/夜to幸se-feat.-詩no出素.jpg
 
 ## 作品简介
 
-MIMI于 2025-04-09 发行的单曲《夜と幸せ (feat. 詩の出素。)》。
+[MIMI](/zh/artists/creators/mimi)于 2025-04-09 发行的单曲《夜と幸せ (feat. 詩の出素。)》。
 
 ## 试听
 {{media-switcher::夜と幸せ (feat. 詩の出素。)}}

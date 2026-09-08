@@ -178,18 +178,21 @@ image: /images/songs/koko/single-1687477944.jpg
 <div class="jp-lyric">
 [02:00.15]<ruby>神様<rt class="furi">かみさま</rt><rt class="roma">kamisama</rt></ruby> <ruby>どうして<rt class="roma">doushite</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
+<div class="cn-lyric">[02:00.15]神明啊 为什么我们</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:02.97]<ruby>絶え間<rt class="furi">たえま</rt><rt class="roma">taema</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>争<rt class="furi">あらそ</rt><rt class="roma">araso</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>?
 </div>
+<div class="cn-lyric">[02:02.97]永不停歇地争斗不止？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:10.02]<ruby>どう<rt class="roma">dou</rt></ruby><ruby>しよう<rt class="roma">shiyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="cn-lyric">[02:10.02]在这个无可奈何的世界</div>
 </div>
 
 <div class="lyric-line">
@@ -205,30 +208,35 @@ image: /images/songs/koko/single-1687477944.jpg
 <div class="jp-lyric">
 [02:20.81]<ruby>灰色<rt class="furi">はいいろ</rt><rt class="roma">haiiro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>悲<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>しみ<rt class="roma">shimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>包<rt class="furi">つつ</rt><rt class="roma">tsutsu</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[02:20.81]被灰色的悲伤所包围</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:26.04]<ruby>何一<rt class="furi">なにひと</rt><rt class="roma">nanihito</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>救<rt class="furi">すく</rt><rt class="roma">suku</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
+<div class="cn-lyric">[02:26.04]什么也未能拯救</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:31.96]<ruby>零<rt class="furi">こぼ</rt><rt class="roma">kobo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>涙<rt class="furi">なみだ</rt><rt class="roma">namida</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>拾<rt class="furi">ひろ</rt><rt class="roma">hiro</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>集<rt class="furi">あつ</rt><rt class="roma">atsu</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[02:31.96]拾起散落的泪滴</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:37.32]<ruby>抗<rt class="furi">あらが</rt><rt class="roma">araga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:37.32]我会继续抗争</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:41.72]Until the end
 </div>
+<div class="cn-lyric">[02:41.72]直到尽头</div>
 </div>
 
 <br />
@@ -237,6 +245,7 @@ image: /images/songs/koko/single-1687477944.jpg
 <div class="jp-lyric">
 [02:53.33]<ruby>歪<rt class="furi">いが</rt><rt class="roma">iga</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>街<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>ひとり<rt class="roma">hitori</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:53.33]在扭曲的街道中独自一人</div>
 </div>
 
@@ -244,6 +253,7 @@ image: /images/songs/koko/single-1687477944.jpg
 <div class="jp-lyric">
 [02:58.21]<ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>当<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>儚<rt class="furi">はかな</rt><rt class="roma">hakana</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:58.21]无处可去 虚幻地</div>
 </div>
 
@@ -251,6 +261,7 @@ image: /images/songs/koko/single-1687477944.jpg
 <div class="jp-lyric">
 [03:03.97]<ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:03.97]如果这首歌终能传递</div>
 </div>
 
@@ -258,6 +269,7 @@ image: /images/songs/koko/single-1687477944.jpg
 <div class="jp-lyric">
 [03:09.42]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>護<rt class="furi">まも</rt><rt class="roma">mamo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:09.42]愿它能守护你</div>
 </div>
 
@@ -267,24 +279,28 @@ image: /images/songs/koko/single-1687477944.jpg
 <div class="jp-lyric">
 [03:16.83]<ruby>灰色<rt class="furi">はいいろ</rt><rt class="roma">haiiro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>悲<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>しみ<rt class="roma">shimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>包<rt class="furi">つつ</rt><rt class="roma">tsutsu</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[03:16.83]被灰色的悲伤所包围</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:22.33]<ruby>抗<rt class="furi">あらが</rt><rt class="roma">araga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[03:22.33]我会继续抗争</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:26.88]Until the end
 </div>
+<div class="cn-lyric">[03:26.88]直到尽头</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:33.45]<ruby>希望<rt class="furi">きぼう</rt><rt class="roma">kibou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>灯<rt class="furi">あか</rt><rt class="roma">aka</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>えよ<rt class="roma">eyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>として<rt class="roma">toshite</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:33.45]即使希望之光即将熄灭</div>
 </div>
 

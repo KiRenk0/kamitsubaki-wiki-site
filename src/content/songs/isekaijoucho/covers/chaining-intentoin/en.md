@@ -19,7 +19,7 @@ contentStatus: stub
 
 ## Overview
 
-Chaining Intentoin appears on CANDY LIVE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+Chaining Intentoin appears on [CANDY LIVE](/en/albums/isekaijoucho/candy-live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Lyrics
 

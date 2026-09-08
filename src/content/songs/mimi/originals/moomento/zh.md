@@ -17,7 +17,7 @@ image: /images/songs/mimi/moomento.jpg
 
 ## 作品简介
 
-MIMI于 2018-06-04 发行的单曲《モーメント》。
+[MIMI](/zh/artists/creators/mimi)于 2018-06-04 发行的单曲《モーメント》。
 
 ## 试听
 {{media-switcher::モーメント}}

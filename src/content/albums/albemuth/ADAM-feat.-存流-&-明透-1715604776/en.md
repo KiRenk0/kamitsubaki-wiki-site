@@ -62,17 +62,17 @@ tracks:
 
 ## Overview
 
-ALBEMUTH's album “ADAM (feat. 存流 & 明透)”, released on 2023-11-22, featuring 10 tracks.
+[ALBEMUTH](/en/artists/solo/albemuth)'s album “ADAM (feat. 存流 & 明透)”, released on 2023-11-22, featuring 10 tracks.
 
 ## Track List
 
-1. guilty (feat. 存流 & 明透) (02:50)
-2. Black Glow (feat. 存流 & 明透) (03:29)
+1. [guilty](/en/songs/albemuth/originals/guilty) (feat. 存流 & 明透) (02:50)
+2. [Black Glow](/en/songs/albemuth/originals/black-glow) (feat. 存流 & 明透) (03:29)
 3. HALF (feat. 存流 & 明透) (02:59)
 4. Do You Wanna Die ? (feat. 存流 & 明透) (03:08)
-5. Underdrain (feat. 存流 & 明透) (03:29)
+5. [Underdrain (feat. 存流 & 明透)](/en/songs/albemuth/originals/underdrain-feat-存流--明透) (03:29)
 6. Laziness (feat. 存流 & 明透) (03:05)
-7. tuberose (feat. 存流 & 明透) (02:35)
+7. [tuberose (feat. 存流 & 明透)](/en/songs/albemuth/originals/tuberose-feat-存流--明透) (02:35)
 8. jealousy (feat. 存流 & 明透) (02:57)
 9. Replica (feat. 存流 & 明透) (03:07)
 10. cage (feat. 存流 & 明透) (03:50)

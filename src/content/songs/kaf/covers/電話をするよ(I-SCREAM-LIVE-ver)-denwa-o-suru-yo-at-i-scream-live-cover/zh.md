@@ -163,24 +163,28 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [02:07.55]<ruby>また<rt class="roma">mata</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:07.55]我会再打电话</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:12.59]<ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:12.59]给你打电话</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:17.77]<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:17.77]一定会打电话</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:23.00]<ruby>たのむ<rt class="roma">tanomu</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:23.00]拜托了请将我</div>
 </div>
 
@@ -190,24 +194,28 @@ image: /images/albums/kaf/i-scream-live.jpg
 <div class="jp-lyric">
 [02:28.46]<ruby>また<rt class="roma">mata</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:28.46]我会再打电话</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:33.46]<ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:33.46]给你打电话</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:38.53]<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>電話<rt class="furi">でんわ</rt><rt class="roma">denwa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+<div class="cn-lyric">[02:38.53]一定会打电话</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:43.81]<ruby>たのむ<rt class="roma">tanomu</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>なぐさめ<rt class="roma">nagusame</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="cn-lyric">[02:43.81]拜托了请安慰我</div>
 </div>
 
 </div>

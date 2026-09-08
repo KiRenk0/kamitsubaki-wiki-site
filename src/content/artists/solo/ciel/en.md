@@ -64,7 +64,7 @@ Beyond solo activities, CIEL formed the cross-dimensional virtual music unit [KU
 
 ## Role and Creative Position
 
-CIEL's character concept revolves around transformation — a girl who spent her life looking down, now lifting her eyes to the sky. The blue hair serves as both a visual signature and a metaphor for this psychological shift from isolation to openness. Her vocal style tends toward clarity and gentleness, occupying a different register from the more dramatic expressions of the V.W.P members.
+CIEL's character concept revolves around transformation — a girl who spent her life looking down, now lifting her eyes to the sky. The blue hair serves as both a visual signature and a metaphor for this psychological shift from isolation to openness. Her vocal style tends toward clarity and gentleness, occupying a different register from the more dramatic expressions of the [V.W.P](/en/artists/vwp/vwp) members.
 
 Within KUUSOU, CIEL's voice forms a distinctive complementary relationship with Sooda's. The unit deliberately blurs the boundaries between virtual and real, visual and auditory — embodying Kamitsubaki's ongoing exploration of "cross-dimensional" expression.
 
@@ -81,7 +81,7 @@ Within KUUSOU, CIEL's voice forms a distinctive complementary relationship with 
 ## Representative Works and Related Entries
 
 - Singles: "Uranai no Kaigi," "Mado wo Akete"
-- Video release: Rim × Isekai Joucho TWO-MAN LIVE "Singularity Live" (featuring CIEL)
+- Video release: Rim × Isekai Joucho TWO-MAN LIVE "[Singularity Live](/en/albums/rim/singularity-live)" (featuring CIEL)
 - Unit debut single: "Toumei Ryusei Rhapsody" (as KUUSOU)
 
 Useful related entries:

@@ -124,6 +124,7 @@ image: /images/albums/vwp/witch-plus-2.jpg
 <div class="jp-lyric">
 <ruby>ダダダ<rt class="roma">dadada</rt></ruby>
 </div>
+<div class="cn-lyric">哒哒哒</div>
 </div>
 
 <div class="lyric-line">
@@ -193,6 +194,7 @@ image: /images/albums/vwp/witch-plus-2.jpg
 <div class="jp-lyric">
 ＆<ruby>グッバイ<rt class="roma">gubbai</rt></ruby>
 </div>
+<div class="cn-lyric">＆再见</div>
 </div>
 
 <div class="lyric-line">
@@ -220,18 +222,21 @@ image: /images/albums/vwp/witch-plus-2.jpg
 <div class="jp-lyric">
 <ruby>我儘<rt class="furi">わがまま</rt><rt class="roma">wagamama</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>多分<rt class="furi">たぶん</rt><rt class="roma">tabun</rt></ruby><ruby>ほんと<rt class="roma">honto</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ちょうど<rt class="roma">choudo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
+<div class="cn-lyric">任性一点 大概才是恰到好处</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 ＆<ruby>グッバイ<rt class="roma">gubbai</rt></ruby>
 </div>
+<div class="cn-lyric">＆再见</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [02:52.94]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:52.94]并非为谁 为自己而活吧</div>
 </div>
 
@@ -239,6 +244,7 @@ image: /images/albums/vwp/witch-plus-2.jpg
 <div class="jp-lyric">
 [02:58.24]<ruby>まだ<rt class="roma">mada</rt></ruby><ruby>ムチャ<rt class="roma">mucha</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>この<rt class="roma">kono</rt></ruby><ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>期限<rt class="furi">きげん</rt><rt class="roma">kigen</rt></ruby><ruby>付<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>だし<rt class="roma">dashi</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
+
 <div class="cn-lyric">[02:58.24]我还想任性胡来 这条命也有期限</div>
 </div>
 
@@ -246,6 +252,7 @@ image: /images/albums/vwp/witch-plus-2.jpg
 <div class="jp-lyric">
 [03:04.76]<ruby>迷<rt class="furi">まよ</rt><rt class="roma">mayo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>暇<rt class="furi">ひま</rt><rt class="roma">hima</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>本気<rt class="furi">ほんき</rt><rt class="roma">honki</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby>
 </div>
+
 <div class="cn-lyric">[03:04.76]没空迷茫 我始终想认真以待</div>
 </div>
 
@@ -253,12 +260,14 @@ image: /images/albums/vwp/witch-plus-2.jpg
 <div class="jp-lyric">
 <ruby>我儘<rt class="furi">わがまま</rt><rt class="roma">wagamama</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>多分<rt class="furi">たぶん</rt><rt class="roma">tabun</rt></ruby><ruby>ほんと<rt class="roma">honto</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ちょうど<rt class="roma">choudo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
+<div class="cn-lyric">任性一点 大概才是恰到好处</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>ダダダ<rt class="roma">dadada</rt></ruby>
 </div>
+<div class="cn-lyric">哒哒哒</div>
 </div>
 
 </div>

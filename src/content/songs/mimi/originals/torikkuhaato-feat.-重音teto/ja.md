@@ -17,7 +17,7 @@ image: /images/songs/mimi/torikkuhaato-feat.-重音teto.jpg
 
 ## 作品概要
 
-MIMIが2026-01-03にリリースしたシングル「トリックハート (feat. 重音テト)」。
+[MIMI](/ja/artists/creators/mimi)が2026-01-03にリリースしたシングル「トリックハート (feat. 重音テト)」。
 
 ## 視聴
 {{media-switcher::トリックハート (feat. 重音テト)}}

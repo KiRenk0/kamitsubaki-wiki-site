@@ -92,6 +92,7 @@ Mothers, fathers dead and gone
 <div class="jp-lyric">
 It's a miracle
 </div>
+<div class="cn-lyric">这是个奇迹</div>
 </div>
 
 <br />
@@ -142,24 +143,28 @@ Jimi Hendrix to the Tower of Babel
 <div class="jp-lyric">
 It's a miracle
 </div>
+<div class="cn-lyric">这是个奇迹</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It's a miracle
 </div>
+<div class="cn-lyric">这是个奇迹</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It's a miracle
 </div>
+<div class="cn-lyric">这是个奇迹</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It's a miracle
 </div>
+<div class="cn-lyric">这是个奇迹</div>
 </div>
 
 <br />
@@ -226,6 +231,7 @@ Had clothes to wear and food to eat
 <div class="jp-lyric">
 That's a miracle
 </div>
+<div class="cn-lyric">那是个奇迹</div>
 </div>
 
 <div class="lyric-line">
@@ -246,6 +252,7 @@ To live in perfect harmony
 <div class="jp-lyric">
 It's a miracle
 </div>
+<div class="cn-lyric">这是个奇迹</div>
 </div>
 
 <br />
@@ -254,12 +261,14 @@ It's a miracle
 <div class="jp-lyric">
 We're having a miracle on earth
 </div>
+<div class="cn-lyric">我们正拥有世上的奇迹</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Mother nature does it all for us
 </div>
+<div class="cn-lyric">大自然为我们做了一切</div>
 </div>
 
 <div class="lyric-line">
@@ -294,18 +303,21 @@ But Mona Lisa just keeps on smiling
 <div class="jp-lyric">
 It's a miracle
 </div>
+<div class="cn-lyric">这是个奇迹</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It's a miracle
 </div>
+<div class="cn-lyric">这是个奇迹</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It's a miracle
 </div>
+<div class="cn-lyric">这是个奇迹</div>
 </div>
 
 <br />
@@ -314,6 +326,7 @@ It's a miracle
 <div class="jp-lyric">
 (Wonders of this world go on)
 </div>
+
 <div class="cn-lyric">（这个世界的奇迹永续）</div>
 </div>
 
@@ -321,24 +334,28 @@ It's a miracle
 <div class="jp-lyric">
 It's a miracle
 </div>
+<div class="cn-lyric">这是个奇迹</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It's a miracle
 </div>
+<div class="cn-lyric">这是个奇迹</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It's a miracle
 </div>
+<div class="cn-lyric">这是个奇迹</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 It's a miracle
 </div>
+<div class="cn-lyric">这是个奇迹</div>
 </div>
 
 <br />
@@ -347,6 +364,7 @@ It's a miracle
 <div class="jp-lyric">
 The one thing (the one thing)
 </div>
+
 <div class="cn-lyric">那件事（那件事）</div>
 </div>
 
@@ -354,6 +372,7 @@ The one thing (the one thing)
 <div class="jp-lyric">
 We're all waiting for (we're all waiting for)
 </div>
+
 <div class="cn-lyric">我们都在等待（我们都在等待）</div>
 </div>
 
@@ -361,6 +380,7 @@ We're all waiting for (we're all waiting for)
 <div class="jp-lyric">
 Is peace on earth (peace on earth)
 </div>
+
 <div class="cn-lyric">是世间和平（世间和平）</div>
 </div>
 
@@ -368,6 +388,7 @@ Is peace on earth (peace on earth)
 <div class="jp-lyric">
 And an end to war (an end to war)
 </div>
+
 <div class="cn-lyric">与战争终结（战争终结）</div>
 </div>
 
@@ -375,12 +396,14 @@ And an end to war (an end to war)
 <div class="jp-lyric">
 It's a miracle we need, the miracle
 </div>
+<div class="cn-lyric">那是我们需要的奇迹，那个奇迹</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 The miracle
 </div>
+
 <div class="cn-lyric">那个奇迹</div>
 </div>
 
@@ -388,6 +411,7 @@ The miracle
 <div class="jp-lyric">
 Peace on earth and end to war today
 </div>
+
 <div class="cn-lyric">今日世间和平与战争终结</div>
 </div>
 
@@ -397,6 +421,7 @@ Peace on earth and end to war today
 <div class="jp-lyric">
 That time will come one day you'll see
 </div>
+
 <div class="cn-lyric">那一天终会到来，你会看到</div>
 </div>
 
@@ -404,6 +429,7 @@ That time will come one day you'll see
 <div class="jp-lyric">
 When we can all be friends
 </div>
+
 <div class="cn-lyric">当我们都能成为朋友</div>
 </div>
 
@@ -411,36 +437,48 @@ When we can all be friends
 <div class="jp-lyric">
 That time will come one day you'll see
 </div>
+
+<div class="cn-lyric">那一天终会到来，你会看到</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 When we can all be friends
 </div>
+
+<div class="cn-lyric">当我们都能成为朋友</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 That time will come one day you'll see
 </div>
+
+<div class="cn-lyric">那一天终会到来，你会看到</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 When we can all be friends
 </div>
+
+<div class="cn-lyric">当我们都能成为朋友</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 That time will come one day you'll see
 </div>
+
+<div class="cn-lyric">那一天终会到来，你会看到</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 When we can all be friends
 </div>
+
+<div class="cn-lyric">当我们都能成为朋友</div>
 </div>
 
 </div>

@@ -65,7 +65,9 @@ image: /images/songs/rim/single-1688512932.jpg
 <div class="jp-lyric">
 [00:45.81]<ruby>癒<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>癒<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
-<div class="trans-lyric">Saying it won't heal, won't heal</div>
+<div class="trans-lyric">
+[00:45.81]Saying it won't heal, won't heal
+</div>
 </div>
 
 <div class="lyric-line">
@@ -109,7 +111,9 @@ image: /images/songs/rim/single-1688512932.jpg
 <div class="jp-lyric">
 [01:12.41]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
-<div class="trans-lyric">If you say that's good or something</div>
+<div class="trans-lyric">
+[01:12.41]If you say that's good or something
+</div>
 </div>
 
 <div class="lyric-line">
@@ -229,12 +233,14 @@ image: /images/songs/rim/single-1688512932.jpg
 <div class="jp-lyric">
 [03:00.25]<ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
+<div class="trans-lyric">[03:00.25]Don't fall in love with love</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:03.72]<ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>覚<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>ませ<rt class="roma">mase</rt></ruby>
 </div>
+<div class="trans-lyric">[03:03.72]Wake up</div>
 </div>
 
 <div class="lyric-line">
@@ -257,12 +263,14 @@ image: /images/songs/rim/single-1688512932.jpg
 <div class="jp-lyric">
 [03:14.28]<ruby>ユーエンミー<rt class="roma">yuuenmii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>正体<rt class="furi">しょうたい</rt><rt class="roma">shoutai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>暴<rt class="furi">あば</rt><rt class="roma">aba</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
+<div class="trans-lyric">[03:14.28]Unmask the true identity of 'you and me'</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [03:18.34]<ruby>生まれ変<rt class="furi">うまれか</rt><rt class="roma">umareka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>あと<rt class="roma">ato</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>マイル<rt class="roma">mairu</rt></ruby>？
 </div>
+
 <div class="trans-lyric">[03:18.34]How many miles until we are reborn?</div>
 </div>
 
@@ -270,6 +278,7 @@ image: /images/songs/rim/single-1688512932.jpg
 <div class="jp-lyric">
 [03:23.48]<ruby>あぁ<rt class="roma">aa</rt></ruby>、<ruby>もう<rt class="roma">mou</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>たく<rt class="roma">taku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:23.48]Ah, I don't want to know anything anymore</div>
 </div>
 
@@ -277,6 +286,7 @@ image: /images/songs/rim/single-1688512932.jpg
 <div class="jp-lyric">
 [03:27.44]<ruby>名前<rt class="furi">なまえ</rt><rt class="roma">namae</rt></ruby><ruby>すら<rt class="roma">sura</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>与<rt class="furi">あた</rt><rt class="roma">ata</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
+
 <div class="trans-lyric">[03:27.44]If not even a name is given to us</div>
 </div>
 

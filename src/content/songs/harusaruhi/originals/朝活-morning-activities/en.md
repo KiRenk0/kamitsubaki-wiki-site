@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 ## Overview
 
-朝活 appears on SPICE OF LIFE or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+朝活 appears on [SPICE OF LIFE](/en/albums/harusaruhi/spice-of-life) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -35,7 +35,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:00.31]I woke up in the morning
 </div>
-<div class="trans-lyric">I woke up in the morning</div>
+<div class="trans-lyric">
+[00:00.31]I woke up in the morning
+</div>
 </div>
 
 <div class="lyric-line">
@@ -49,7 +51,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:03.38]<ruby>アラーム<rt class="roma">araamu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
-<div class="trans-lyric">Like an alarm</div>
+<div class="trans-lyric">
+[00:03.38]Like an alarm
+</div>
 </div>
 
 <div class="lyric-line">
@@ -105,14 +109,18 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:20.92]yeah
 </div>
-<div class="trans-lyric">yeah</div>
+<div class="trans-lyric">
+[00:20.92]yeah
+</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:21.59]Good morning
 </div>
-<div class="trans-lyric">Good morning</div>
+<div class="trans-lyric">
+[00:21.59]Good morning
+</div>
 </div>
 
 <div class="lyric-line">
@@ -126,6 +134,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:25.43]yeah
 </div>
+<div class="trans-lyric">[00:25.43]yeah</div>
 </div>
 
 <div class="lyric-line">
@@ -139,25 +148,28 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:27.60]<ruby>優<rt class="furi">やさ</rt><rt class="roma">yasa</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>Don’t worry
 </div>
-<div class="trans-lyric">The gentle light says Don’t worry</div>
+<div class="trans-lyric">[00:27.60]The gentle light says Don’t worry</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:30.65]yeah
 </div>
+<div class="trans-lyric">[00:30.65]yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:31.95]Good morning
 </div>
+<div class="trans-lyric">[00:31.95]Good morning</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:32.97]<ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>ほら<rt class="roma">hora</rt></ruby><ruby>元通<rt class="furi">もとどお</rt><rt class="roma">motodoo</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>
 </div>
+
 <div class="trans-lyric">[00:32.97]When morning comes, see, back to normal</div>
 </div>
 
@@ -165,12 +177,14 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:35.83]yeah
 </div>
+<div class="trans-lyric">[00:35.83]yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:36.56]<ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>活<rt class="furi">かつ</rt><rt class="roma">katsu</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>超<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
+
 <div class="trans-lyric">[00:36.56]Morning activities are super great</div>
 </div>
 
@@ -178,13 +192,15 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 <div class="jp-lyric">
 [00:38.12]<ruby>優<rt class="furi">やさ</rt><rt class="roma">yasa</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>Don’t worry
 </div>
-<div class="trans-lyric">The gentle breeze says Don’t worry</div>
+
+<div class="trans-lyric">[00:38.12]The gentle breeze says Don’t worry</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:40.81]yeah
 </div>
+<div class="trans-lyric">[00:40.81]yeah</div>
 </div>
 
 <br />

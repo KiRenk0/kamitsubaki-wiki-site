@@ -17,7 +17,7 @@ image: /images/songs/loluet/crack.jpg
 
 ## 作品简介
 
-LOLUET于 2024-11-19 发行的单曲《crack》。
+[LOLUET](/zh/artists/solo/loluet)于 2024-11-19 发行的单曲《crack》。
 
 ## 试听
 {{media-switcher::crack}}

@@ -17,7 +17,7 @@ image: /images/songs/valis/禁断果実-rara.jpg
 
 ## 作品概要
 
-VALISが2023-06-24にリリースしたシングル「禁断果実(RARA)」。
+[VALIS](/ja/artists/solo/valis)が2023-06-24にリリースしたシングル「禁断果実(RARA)」。
 
 ## 視聴
 {{media-switcher::禁断果実(RARA)}}

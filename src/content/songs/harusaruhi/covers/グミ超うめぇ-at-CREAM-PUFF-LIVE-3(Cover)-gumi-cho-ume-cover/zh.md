@@ -19,7 +19,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 
 ## 作品简介
 
-《グミ超うめぇ at CREAM PUFF LIVE 3(Cover)》收录于《CREAM PUFF LIVE 3》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《グミ超うめぇ at CREAM PUFF LIVE 3(Cover)》收录于《[CREAM PUFF LIVE 3](/zh/albums/harusaruhi/cream-puff-live-3)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
 
 ## 试听
 
@@ -56,54 +56,63 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 <div class="jp-lyric">
 <ruby>グミ<rt class="roma">gumi</rt></ruby><ruby>超<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>うめ<rt class="roma">ume</rt></ruby><ruby>ぇ<rt class="roma">e</rt></ruby>
 </div>
+<div class="cn-lyric">软糖超级好吃</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>グミ<rt class="roma">gumi</rt></ruby> <ruby>グミ<rt class="roma">gumi</rt></ruby>
 </div>
+<div class="cn-lyric">软糖 软糖</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>マジ<rt class="roma">maji</rt></ruby><ruby>超<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>うめ<rt class="roma">ume</rt></ruby><ruby>ぇ<rt class="roma">e</rt></ruby>
 </div>
+<div class="cn-lyric">真的超级好吃</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>グミ<rt class="roma">gumi</rt></ruby><ruby>超<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>うめ<rt class="roma">ume</rt></ruby><ruby>ぇ<rt class="roma">e</rt></ruby>
 </div>
+<div class="cn-lyric">软糖超级好吃</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>グミ<rt class="roma">gumi</rt></ruby> <ruby>グミ<rt class="roma">gumi</rt></ruby>
 </div>
+<div class="cn-lyric">软糖 软糖</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>マジ<rt class="roma">maji</rt></ruby><ruby>超<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>うめ<rt class="roma">ume</rt></ruby><ruby>ぇ<rt class="roma">e</rt></ruby>
 </div>
+<div class="cn-lyric">真的超级好吃</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>グミ<rt class="roma">gumi</rt></ruby><ruby>超<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>うめ<rt class="roma">ume</rt></ruby><ruby>ぇ<rt class="roma">e</rt></ruby>
 </div>
+<div class="cn-lyric">软糖超级好吃</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>グミ<rt class="roma">gumi</rt></ruby> <ruby>グミ<rt class="roma">gumi</rt></ruby>
 </div>
+<div class="cn-lyric">软糖 软糖</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>マジ<rt class="roma">maji</rt></ruby><ruby>超<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>うめ<rt class="roma">ume</rt></ruby><ruby>ぇ<rt class="roma">e</rt></ruby>
 </div>
+<div class="cn-lyric">真的超级好吃</div>
 </div>
 
 <div class="lyric-line">
@@ -264,6 +273,7 @@ Straight neck<ruby>なる<rt class="roma">naru</rt></ruby><ruby>よ<rt class="ro
 <div class="jp-lyric">
 <ruby>グミ<rt class="roma">gumi</rt></ruby>
 </div>
+<div class="cn-lyric">软糖</div>
 </div>
 
 <div class="lyric-line">
@@ -333,6 +343,7 @@ B***h
 <div class="jp-lyric">
 [01:11.68]<ruby>アラブ<rt class="roma">arabu</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>高級<rt class="furi">こうきゅう</rt><rt class="roma">koukyuu</rt></ruby><ruby>食材<rt class="furi">しょくざい</rt><rt class="roma">shokuzai</rt></ruby><ruby>グミ<rt class="roma">gumi</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:11.68]在阿拉伯是高级食材软糖</div>
 </div>
 
@@ -340,6 +351,7 @@ B***h
 <div class="jp-lyric">
 [01:13.28]<ruby>フカ<rt class="roma">fuka</rt></ruby><ruby>ヒレ<rt class="roma">hire</rt></ruby> <ruby>キャビア<rt class="roma">kyabia</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>グミ<rt class="roma">gumi</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:13.28]鱼翅 鱼子酱和软糖</div>
 </div>
 
@@ -347,6 +359,7 @@ B***h
 <div class="jp-lyric">
 [01:14.52]<ruby>ぐる<rt class="roma">guru</rt></ruby><ruby>ナイ<rt class="roma">nai</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>出<rt class="furi">で</rt><rt class="roma">de</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くる<rt class="roma">kuru</rt></ruby><ruby>べき<rt class="roma">beki</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:14.52]也应该出现在综艺节目里吧</div>
 </div>
 
@@ -354,12 +367,14 @@ B***h
 <div class="jp-lyric">
 <ruby>グミ<rt class="roma">gumi</rt></ruby>
 </div>
+<div class="cn-lyric">软糖</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [01:18.18]<ruby>グミ<rt class="roma">gumi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>裏切<rt class="furi">うらぎ</rt><rt class="roma">uragi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:18.18]软糖不会背叛你哦</div>
 </div>
 
@@ -367,6 +382,7 @@ B***h
 <div class="jp-lyric">
 [01:20.22]<ruby>封<rt class="furi">ふう</rt><rt class="roma">fuu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>切<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>香<rt class="furi">かお</rt><rt class="roma">kao</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>Favor
 </div>
+
 <div class="cn-lyric">[01:20.22]打开包装就香气四溢</div>
 </div>
 
@@ -374,6 +390,7 @@ B***h
 <div class="jp-lyric">
 [01:20.22]<ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:20.22]改变的世界</div>
 </div>
 
@@ -381,6 +398,7 @@ B***h
 <div class="jp-lyric">
 [01:23.41]<ruby>口<rt class="furi">くち</rt><rt class="roma">kuchi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby>Bounce<ruby>グミ<rt class="roma">gumi</rt></ruby>
 </div>
+
 <div class="cn-lyric">[01:23.41]口中弹跳的软糖</div>
 </div>
 
@@ -388,6 +406,7 @@ B***h
 <div class="jp-lyric">
 [01:25.41](<ruby>とびきり<rt class="roma">tobikiri</rt></ruby><ruby>ジューシー<rt class="roma">juushii</rt></ruby>)
 </div>
+
 <div class="cn-lyric">[01:25.41](格外多汁)</div>
 </div>
 
@@ -395,6 +414,7 @@ B***h
 <div class="jp-lyric">
 [01:26.64]Don’t steal my GUMI
 </div>
+
 <div class="cn-lyric">[01:26.64]Don't steal my GUMI</div>
 </div>
 
@@ -402,6 +422,7 @@ B***h
 <div class="jp-lyric">
 [01:28.49](<ruby>神<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>恵<rt class="furi">めぐ</rt><rt class="roma">megu</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby>)
 </div>
+
 <div class="cn-lyric">[01:28.49](神的恩赐)</div>
 </div>
 
@@ -409,108 +430,126 @@ B***h
 <div class="jp-lyric">
 <ruby>グミ<rt class="roma">gumi</rt></ruby><ruby>超<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>うめ<rt class="roma">ume</rt></ruby><ruby>ぇ<rt class="roma">e</rt></ruby>
 </div>
+<div class="cn-lyric">软糖超级好吃</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>グミ<rt class="roma">gumi</rt></ruby> <ruby>グミ<rt class="roma">gumi</rt></ruby>
 </div>
+<div class="cn-lyric">软糖 软糖</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>マジ<rt class="roma">maji</rt></ruby><ruby>超<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>うめ<rt class="roma">ume</rt></ruby><ruby>ぇ<rt class="roma">e</rt></ruby>
 </div>
+<div class="cn-lyric">真的超级好吃</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>グミ<rt class="roma">gumi</rt></ruby><ruby>超<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>うめ<rt class="roma">ume</rt></ruby><ruby>ぇ<rt class="roma">e</rt></ruby>
 </div>
+<div class="cn-lyric">软糖超级好吃</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>グミ<rt class="roma">gumi</rt></ruby> <ruby>グミ<rt class="roma">gumi</rt></ruby>
 </div>
+<div class="cn-lyric">软糖 软糖</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>マジ<rt class="roma">maji</rt></ruby><ruby>超<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>うめ<rt class="roma">ume</rt></ruby><ruby>ぇ<rt class="roma">e</rt></ruby>
 </div>
+<div class="cn-lyric">真的超级好吃</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>グミ<rt class="roma">gumi</rt></ruby><ruby>超<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>うめ<rt class="roma">ume</rt></ruby><ruby>ぇ<rt class="roma">e</rt></ruby>
 </div>
+<div class="cn-lyric">软糖超级好吃</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>グミ<rt class="roma">gumi</rt></ruby> <ruby>グミ<rt class="roma">gumi</rt></ruby>
 </div>
+<div class="cn-lyric">软糖 软糖</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>マジ<rt class="roma">maji</rt></ruby><ruby>超<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>うめ<rt class="roma">ume</rt></ruby><ruby>ぇ<rt class="roma">e</rt></ruby>
 </div>
+<div class="cn-lyric">真的超级好吃</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>グミ<rt class="roma">gumi</rt></ruby><ruby>超<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>うめ<rt class="roma">ume</rt></ruby><ruby>ぇ<rt class="roma">e</rt></ruby>
 </div>
+<div class="cn-lyric">软糖超级好吃</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>グミ<rt class="roma">gumi</rt></ruby> <ruby>グミ<rt class="roma">gumi</rt></ruby>
 </div>
+<div class="cn-lyric">软糖 软糖</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>マジ<rt class="roma">maji</rt></ruby><ruby>超<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>うめ<rt class="roma">ume</rt></ruby><ruby>ぇ<rt class="roma">e</rt></ruby>
 </div>
+<div class="cn-lyric">真的超级好吃</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 This is my favorite<ruby>な<rt class="roma">na</rt></ruby><ruby>アイドル<rt class="roma">aidoru</rt></ruby>
 </div>
+<div class="cn-lyric">This is my favorite 的偶像</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Colorful<ruby>に<rt class="roma">ni</rt></ruby><ruby>染<rt class="furi">そ</rt><rt class="roma">so</rt></ruby><ruby>まって<rt class="roma">matte</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>最高<rt class="furi">さいこう</rt><rt class="roma">saikou</rt></ruby>
 </div>
+<div class="cn-lyric">染上色彩 太棒了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Pocket<ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>****in’<ruby>相棒<rt class="furi">あいぼう</rt><rt class="roma">aibou</rt></ruby>
 </div>
+<div class="cn-lyric">口袋里的****in’伙伴</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>グミ<rt class="roma">gumi</rt></ruby>
 </div>
+<div class="cn-lyric">软糖</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 ****in’
 </div>
+<div class="cn-lyric">****in’</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>超<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>うめ<rt class="roma">ume</rt></ruby><ruby>ぇ<rt class="roma">e</rt></ruby>
 </div>
+<div class="cn-lyric">超级好吃</div>
 </div>
 
 </div>
