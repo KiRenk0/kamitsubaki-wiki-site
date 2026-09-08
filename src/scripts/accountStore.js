@@ -16,6 +16,7 @@ export async function api(path, {method='GET',body,owner=state.viewer?.userId}={
   if(!(response.headers.get('content-type')||'').includes('application/json')) throw new Error('service_unavailable');
   const data=await response.json();
   if(path.startsWith('/api/account') && owner && state.viewer?.userId!==owner)throw new Error('account_changed');
+  if(!response.ok && path.startsWith('/api/account') && response.status===401)queueMicrotask(()=>void refreshAuth(true));
   if(!response.ok) throw Object.assign(new Error(data.error?.code || 'request_failed'),{status:response.status,data});
   return data;
 }
@@ -42,7 +43,7 @@ export async function refreshAuth(force=false) {
   })();
   return authPromise;
 }
-export async function syncLibrary({discard=false}={}) {
+export async function syncLibrary({discard=false,keepLocal=false}={}) {
   if(!state.viewer || state.auth!=='user') return;
   if(syncPromise) return syncPromise;
   const owner=state.viewer.userId, epoch=generation;
@@ -54,7 +55,7 @@ export async function syncLibrary({discard=false}={}) {
         if(epoch!==generation) return;
         const local=readLibraryRecord(localStorage);
         let rebased;
-        try { rebased=discard?remote.library:applyLibraryChanges(remote.library,libraryChanges(local.base,local.library)); }
+        try { rebased=discard?remote.library:keepLocal?local.library:applyLibraryChanges(remote.library,libraryChanges(local.base,local.library)); }
         catch { state.sync='conflict';return; }
         saveLibraryRecord(localStorage,{library:rebased,base:remote.library,revision:remote.revision});
         const operations=libraryChanges(remote.library,rebased);
@@ -127,6 +128,8 @@ function renderChrome() {
     el.textContent=state.auth==='checking'?copy.checking:state.auth==='unavailable'?copy.unavailable:copy[state.sync]||copy.guest;
   });
   document.querySelectorAll('[data-account-retry]').forEach(el=>{el.hidden=!['unavailable'].includes(state.auth)&&!['offline','conflict'].includes(state.sync);});
+  document.querySelectorAll('[data-account-local]').forEach(el=>{el.hidden=state.sync!=='conflict';});
+  document.querySelectorAll('[data-account-sync-now]').forEach(el=>{el.hidden=state.auth!=='user';el.disabled=state.sync==='saving';});
   document.querySelectorAll('[data-account-cloud]').forEach(el=>{el.hidden=state.sync!=='conflict';});
   document.querySelectorAll('[data-account-backup]').forEach(el=>{el.hidden=state.sync!=='conflict';});
   document.querySelectorAll('[data-account-login]').forEach(el=>{el.hidden=!!state.viewer;});
@@ -135,7 +138,7 @@ function renderChrome() {
 }
 window.addEventListener('kamitsubaki-account-state',renderChrome);
 document.addEventListener('click',async event=>{
-  const trigger=event.target.closest('[data-account-nav],[data-account-login],[data-account-retry],[data-account-cloud],[data-account-backup],[data-account-logout],[data-account-close]');
+  const trigger=event.target.closest('[data-account-nav],[data-account-login],[data-account-retry],[data-account-cloud],[data-account-backup],[data-account-local],[data-account-sync-now],[data-account-logout],[data-account-close]');
   if(!trigger)return;
   const dialog=document.querySelector('[data-account-dialog]');
   if(trigger.matches('[data-account-nav]') && state.viewer)return;
@@ -144,6 +147,8 @@ document.addEventListener('click',async event=>{
     if(trigger.matches('[data-account-nav],[data-account-login]'))dialog?.showModal();
     if(trigger.matches('[data-account-close]'))dialog?.close();
     if(trigger.matches('[data-account-retry]')){await refreshAuth(true);await syncLibrary();}
+    if(trigger.matches('[data-account-sync-now]')){await refreshAuth(true);await syncLibrary();}
+    if(trigger.matches('[data-account-local]') && confirm(copy.confirmLocal))await syncLibrary({keepLocal:true});
     if(trigger.matches('[data-account-cloud]') && confirm(copy.confirmCloud))await syncLibrary({discard:true});
     if(trigger.matches('[data-account-backup]'))backupLibrary();
     if(trigger.matches('[data-account-logout]'))await logout();
