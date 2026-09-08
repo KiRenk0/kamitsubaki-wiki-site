@@ -62,7 +62,7 @@ test('contributor sync script derives safe identities from git history', async (
   assert.match(history, /users\\\.noreply\\\.github\\\.com/);
   assert.match(history, /https:\/\/github\.com\/\$\{githubLogin\}\.png\?size=96/);
   assert.match(history, /emailHash/);
-  assert.match(syncClient, /api\/admin\/contributors\/sync/);
+  assert.match(syncClient, /api\/contributors\/sync/);
   assert.match(script, /spawn\('git'/);
   assert.match(script, /consumeGitLogRecords/);
   assert.doesNotMatch(script, /execFileSync|maxBuffer/);
