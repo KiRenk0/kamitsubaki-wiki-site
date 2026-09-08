@@ -6,7 +6,7 @@ type: "SITE UPDATE"
 title: "V2.1.0：リーダーを改装、記事のビジュアル編集もできるように！"
 summary: "今回も Wiki をあちこち手直し。リーダーの改装、ビジュアルエディター、BETA から LABs への整理に、お知らせ欄の更新も。"
 order: -4
-pinned: true
+pinned: false
 draft: false
 ---
 観測者の皆さん、こんにちは。

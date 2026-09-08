@@ -6,7 +6,7 @@ type: "SITE UPDATE"
 title: "V2.1.0: A refreshed reader, and visual editing for articles!"
 summary: "Another round of work on the Wiki: a refreshed reader, a visual editor, BETA moving into LABs, and a few changes to this notice board too."
 order: -4
-pinned: true
+pinned: false
 draft: false
 ---
 Hello, observers.
