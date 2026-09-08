@@ -1,0 +1,148 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SiteNav from '../../components/SiteNav.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import SupportChannelCard from '../../components/SupportChannelCard.astro';
+import { getLocalizedSite } from '../../lib/homeData.mjs';
+import { buildLocaleLinks, defaultLocale, resolveLocaleCopy, supportedLocales } from '../../lib/i18n.mjs';
+import { getSupportCopy } from '../../data/supportCopy';
+import { formatSupportAmount, getSupportData, supportAnnualBalance, supportExternalUrl } from '../../lib/support';
+import '../../styles/support.css';
+
+export function getStaticPaths() {
+  return supportedLocales.map((locale) => ({ params: { locale } }));
+}
+
+const locale = Astro.params.locale ?? defaultLocale;
+const homeContent = getLocalizedSite(await getCollection('site'), locale, defaultLocale);
+const copy = getSupportCopy(locale);
+const data = getSupportData();
+const reports = [...data.annualReports].sort((a, b) => b.year - a.year);
+const sponsors = data.sponsors.filter((sponsor) => sponsor.public);
+const currentPath = '/support/';
+const metadata = { title: `${copy.title} - Kamitsubaki Studio Fan Wiki`, description: copy.intro, canonicalPath: `/${locale}${currentPath}` };
+const amount = (value: number | null, currency = data.currency) => formatSupportAmount(value, currency, locale, copy.pending);
+const apiBase = import.meta.env.PUBLIC_SUPPORT_API_BASE || import.meta.env.PUBLIC_AI_OBSERVER_API_BASE || 'https://api.kamitsubaki.wiki';
+---
+
+<BaseLayout lang={locale} metadata={metadata} alternates={supportedLocales.map((code) => ({ locale: code, href: `/${code}${currentPath}` }))}>
+  <SiteNav navItems={homeContent.navItems} localeLinks={buildLocaleLinks(homeContent, locale, currentPath)} brandLines={homeContent.hero.brandLines} homeHref={`/${locale}/`} />
+
+  <main class="support-shell" data-support-page data-api-base={apiBase} data-locale={locale}>
+    <script is:inline type="application/json" data-support-copy set:html={JSON.stringify(copy).replace(/</g, '\\u003c')} />
+    <header class="support-hero">
+      <p class="support-eyebrow">SUPPORT / {copy.title}</p>
+      <h1>{copy.heroTitle}</h1>
+      <p class="support-intro">{copy.intro}</p>
+      <div class="support-actions">
+        <a class="support-button support-button--primary" href="#ways-to-support">{copy.choose}<span aria-hidden="true">↓</span></a>
+        <a class="support-text-link" href="#transparency">{copy.seeReports}<span aria-hidden="true">↗</span></a>
+      </div>
+      <p class="support-hero__note"><span aria-hidden="true">＋</span>{copy.freeNote}</p>
+      <div class="support-live-status"><p class="support-note" data-support-status role="status"></p><button type="button" class="support-text-link" data-support-retry>{copy.retry}<span aria-hidden="true">↻</span></button></div>
+    </header>
+
+    <section class="support-section" id="ways-to-support" aria-labelledby="support-ways-title">
+      <div class="support-heading">
+        <p class="support-eyebrow">01 / SUPPORT CHANNELS</p>
+        <h2 id="support-ways-title">{copy.channelsTitle}</h2>
+        <p>{copy.channelsIntro}</p>
+      </div>
+      <div class="support-channels" data-support-channels>
+        {data.channels.map((channel, index) => <SupportChannelCard channel={channel} locale={locale} index={index} />)}
+      </div>
+      <aside class="support-community">
+        <div><h3>{copy.communityTitle}</h3><p>{copy.communityBody}</p></div>
+        <a class="support-text-link" href={`/${locale}/contribute/edit/`}>{copy.contribute}<span aria-hidden="true">↗</span></a>
+      </aside>
+    </section>
+
+    <section class="support-section support-costs" id="running-costs" aria-labelledby="support-costs-title">
+      <div class="support-heading">
+        <p class="support-eyebrow">02 / PROJECT UPKEEP</p>
+        <h2 id="support-costs-title">{copy.costsTitle}</h2>
+        <p>{copy.costsIntro}</p>
+      </div>
+      <div data-support-costs>
+        <dl class="support-cost-list">
+          {data.costs.map((cost) => (
+            <div>
+              <dt>{resolveLocaleCopy(cost.name, locale)}</dt>
+              <dd class="support-cost-description">{resolveLocaleCopy(cost.description, locale)}</dd>
+              <dd class="support-cost-amount"><span>{copy.estimate}</span><strong>{amount(cost.annualEstimate)}</strong></dd>
+            </div>
+          ))}
+        </dl>
+        {data.costs.some((cost) => cost.annualEstimate === null) && <p class="support-note support-cost-note">{copy.costsPending}</p>}
+      </div>
+    </section>
+
+    <section class="support-section" id="transparency" aria-labelledby="support-transparency-title">
+      <div class="support-heading">
+        <p class="support-eyebrow">03 / TRANSPARENCY</p>
+        <h2 id="support-transparency-title">{copy.reportsTitle}</h2>
+        <p>{copy.reportsIntro}</p>
+      </div>
+      <div class="support-reports" data-support-reports>
+        {reports.map((report, index) => {
+          const pending = report.received === null && report.spent === null;
+          const reportHref = supportExternalUrl(report.reportUrl);
+          return (
+            <details class="support-report" open={index === 0}>
+              <summary>
+                <span class="support-report__year">{report.year}</span>
+                <span>{copy.reportLabel}</span>
+                <span class="support-report__status">{pending ? copy.reportPending : copy.reportRecorded}</span>
+                <span class="support-report__toggle" aria-hidden="true"></span>
+              </summary>
+              <div class="support-report__body">
+                <dl class="support-totals">
+                  {[{ label: copy.received, value: report.received }, { label: copy.spent, value: report.spent }, { label: copy.balance, value: supportAnnualBalance(report.received, report.spent) }].map((item) => (
+                    <div><dt>{item.label}</dt><dd class:list={{ 'is-pending': item.value === null }}>{amount(item.value, report.currency)}</dd></div>
+                  ))}
+                </dl>
+                {pending && <p class="support-note">{copy.reportEmpty}</p>}
+                {report.note && <p class="support-report__note">{resolveLocaleCopy(report.note, locale)}</p>}
+                <div class="support-report__meta">
+                  {report.asOf && <p class="support-note">{copy.asOf} <time datetime={report.asOf}>{report.asOf}</time></p>}
+                  {reportHref && <a class="support-text-link" href={reportHref} target="_blank" rel="noopener noreferrer" aria-label={`${report.year} · ${copy.reportLink} (${copy.external})`}>{copy.reportLink}<span aria-hidden="true">↗</span></a>}
+                </div>
+              </div>
+            </details>
+          );
+        })}
+        {!reports.length && <p class="support-empty">{copy.noReports}</p>}
+      </div>
+      <p class="support-note support-accounting">{copy.accountingNote}</p>
+    </section>
+
+    <section class="support-section" id="sponsor-wall" aria-labelledby="support-wall-title">
+      <div class="support-heading">
+        <p class="support-eyebrow">04 / SPONSOR WALL</p>
+        <h2 id="support-wall-title">{copy.wallTitle}</h2>
+        <p>{copy.wallIntro}</p>
+      </div>
+      <div data-support-wall>{sponsors.length ? (
+        <ul class="support-wall" role="list">
+          {sponsors.map((sponsor) => {
+            const href = supportExternalUrl(sponsor.url);
+            return <li data-pinned={String(sponsor.pinned === true)}>{href ? <a href={href} target="_blank" rel="noopener noreferrer" aria-label={`${sponsor.name} (${copy.external})`}>{sponsor.name}<span aria-hidden="true">↗</span></a> : <span>{sponsor.name}</span>}</li>;
+          })}
+        </ul>
+      ) : (
+        <div class="support-empty"><span class="support-empty__mark" aria-hidden="true">＋</span><h3>{copy.wallEmpty}</h3><p>{copy.wallEmptyBody}</p></div>
+      )}</div>
+      <p class="support-note support-wall-note">{copy.wallPrivacy}</p>
+    </section>
+
+    <aside class="support-disclaimer" aria-labelledby="support-disclaimer-title">
+      <h2 id="support-disclaimer-title">{copy.disclaimerTitle}</h2>
+      {copy.disclaimer.map((paragraph) => <p>{paragraph}</p>)}
+    </aside>
+  </main>
+  <SiteFooter footer={homeContent.footer} />
+  <script>
+    import '../../scripts/supportPage.js';
+  </script>
+</BaseLayout>

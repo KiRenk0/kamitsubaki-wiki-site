@@ -287,7 +287,7 @@ test('manual collaborators use an independent local data file and summary-only s
   assert.match(component, /contacts\.map/);
   assert.equal(Array.isArray(data), true);
   assert.equal(data[0].enabled, true);
-  assert.deepEqual(Object.keys(data[0]).sort(), ['avatar', 'collaboration', 'contacts', 'enabled', 'id', 'introduction', 'name', 'quote']);
+  assert.deepEqual(Object.keys(data[0]).sort(), ['avatar', 'collaboration', 'contacts', 'enabled', 'id', 'introduction', 'name', 'pinned', 'quote']);
   assert.equal(typeof data[0].collaboration.zh, 'string');
   assert.equal(typeof data[0].avatar, 'string');
   assert.equal(Array.isArray(data[0].contacts), true);
@@ -295,7 +295,7 @@ test('manual collaborators use an independent local data file and summary-only s
   assert.equal(typeof data[0].contacts[0].label, 'string');
   assert.equal(typeof data[0].introduction.zh, 'string');
   assert.equal(typeof data[0].quote.zh, 'string');
-  assert.match(component, /Math\.random\(\)/);
+  assert.match(component, /orderSupporters\(cards\.map/);
   assert.match(component, /aspect-ratio: 1 \/ 1/);
   assert.match(component, /object-fit: cover/);
 

@@ -1,5 +1,6 @@
 ---
-import { getLocalizedSiteName } from '../lib/i18n.mjs';
+import { defaultLocale, getLocalizedSiteName } from '../lib/i18n.mjs';
+import { getSupportCopy } from '../data/supportCopy';
 
 type FooterLink = {
   label: string;
@@ -23,6 +24,12 @@ type FooterContent = {
 
 const { footer } = Astro.props as { footer: FooterContent };
 const footerLogoAlt = getLocalizedSiteName(Astro.params.locale);
+const locale = Astro.params.locale ?? defaultLocale;
+const supportHref = `/${locale}/support/`;
+const footerLinks = [
+  ...footer.links.filter((link) => link.href.replace(/\/$/, '') !== supportHref.replace(/\/$/, '')),
+  { label: getSupportCopy(locale).title, href: supportHref },
+];
 ---
 
 <footer class="relative mt-14 overflow-hidden border-t border-white/10 py-14 text-center ui-crosshair tl tr sm:mt-20 sm:py-20">
@@ -32,7 +39,7 @@ const footerLogoAlt = getLocalizedSiteName(Astro.params.locale);
     </p>
 
     <div class="mb-10 flex flex-wrap justify-center gap-x-7 gap-y-4 text-[9px] font-light tracking-kamidest text-white/40 sm:mb-16 sm:gap-12">
-      {footer.links.map((link) => (
+      {footerLinks.map((link) => (
         <a href={link.href} class="hover:text-white transition-colors relative after:content-[''] after:absolute after:-bottom-2 after:left-0 after:w-0 after:h-[1px] after:bg-white hover:after:w-full after:transition-all">
           {link.label}
         </a>

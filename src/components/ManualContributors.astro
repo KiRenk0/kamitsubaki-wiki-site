@@ -8,6 +8,7 @@ type ContributorLocale = 'zh' | 'ja' | 'en';
 type LocalizedContributorText = string | Partial<Record<ContributorLocale, string>>;
 
 interface ManualContributor {
+  pinned?: boolean;
   id: string;
   collaboration: LocalizedContributorText;
   name: string;
@@ -26,7 +27,7 @@ const { locale = 'zh' } = Astro.props as Props;
 const activeLocale: ContributorLocale = locale === 'ja' || locale === 'en' ? locale : 'zh';
 const contributors = (manualContributorData as ManualContributor[])
   .filter((contributor) => contributor.enabled !== false)
-  .sort((a, b) => Number(b.id === 'xiaochi') - Number(a.id === 'xiaochi'));
+  .sort((a, b) => Number(b.pinned === true) - Number(a.pinned === true));
 
 const copy = resolveLocaleCopy({
   zh: {
@@ -42,7 +43,8 @@ const copy = resolveLocaleCopy({
     result: '{count} 位协力者 · {page} / {pages}',
     noResults: '没有找到匹配的协力者，试试其他关键词。',
     showLess: '收起名单',
-    empty: '手动协力者名单尚未添加。可在本地数据文件中补充。',
+    empty: '特别协力者名单将在整理后公布。',
+    offline: '暂时无法更新，已保留现有名单。', retry: '重试',
   },
   ja: {
     title: 'スペシャルサポーター',
@@ -57,7 +59,8 @@ const copy = resolveLocaleCopy({
     result: '{count} 人 · {page} / {pages}',
     noResults: '該当するサポーターが見つかりません。',
     showLess: '折りたたむ',
-    empty: '手動サポーターはまだ登録されていません。ローカルデータファイルから追加できます。',
+    empty: 'サポーター一覧は準備中です。',
+    offline: '更新できません。現在の一覧を表示しています。', retry: '再試行',
   },
   en: {
     title: 'Special collaborators',
@@ -72,7 +75,8 @@ const copy = resolveLocaleCopy({
     result: '{count} collaborators · {page} / {pages}',
     noResults: 'No matching collaborators. Try another search.',
     showLess: 'Show less',
-    empty: 'No manual collaborators have been added yet. Add them in the local data file.',
+    empty: 'The collaborators list will be published when ready.',
+    offline: 'Unable to update. The existing list is still available.', retry: 'Retry',
   },
 }, locale);
 
@@ -116,11 +120,15 @@ function initials(name: string) {
   class="manual-contributors"
   aria-labelledby="manual-contributors-title"
   data-manual-contributors
+  data-locale={locale}
+  data-collaborators-api={import.meta.env.PUBLIC_COLLABORATORS_API_BASE || import.meta.env.PUBLIC_SUPPORT_API_BASE || import.meta.env.PUBLIC_AI_OBSERVER_API_BASE || 'https://api.kamitsubaki.wiki'}
   id="collaborators"
   data-list-expanded="false"
   data-detail-open="false"
   data-has-overflow="false"
 >
+  <script is:inline type="application/json" data-collaborators-copy set:html={JSON.stringify(copy).replaceAll('<', '\\u003c')} />
+  <p data-collaborators-status hidden role="status">{copy.offline} <button type="button" data-collaborators-retry>{copy.retry}</button></p>
   <header class="manual-contributors__header">
     <div>
       <h3 id="manual-contributors-title">{copy.title}</h3>
@@ -149,6 +157,7 @@ function initials(name: string) {
                 aria-controls={detailId}
                 aria-label={`${copy.open}：${contributor.name}`}
                 data-contributor-card={contributor.id}
+                data-pinned={String(contributor.pinned === true)}
                 data-search={`${contributor.name} ${localized(contributor.collaboration)}`}
               >
                 <span class="manual-contributors__avatar">
@@ -247,6 +256,8 @@ function initials(name: string) {
 </section>
 
 <script>
+  import { orderSupporters } from '../lib/supporterOrder.mjs';
+  import { loadCollaborators } from '../scripts/collaborators.js';
   import { directoryPage } from '../lib/collaboratorDirectory.mjs';
   function initializeManualContributors() {
     document.querySelectorAll<HTMLElement>('[data-manual-contributors]').forEach((root) => {
@@ -270,13 +281,7 @@ function initials(name: string) {
       let selectedId = '';
       let activeCard: HTMLButtonElement | undefined;
 
-      const pinnedCard = cards.find((card) => card.dataset.contributorCard === 'xiaochi');
-      const shuffledCards = cards.filter((card) => card !== pinnedCard);
-      for (let index = shuffledCards.length - 1; index > 0; index -= 1) {
-        const randomIndex = Math.floor(Math.random() * (index + 1));
-        [shuffledCards[index], shuffledCards[randomIndex]] = [shuffledCards[randomIndex], shuffledCards[index]];
-      }
-      if (pinnedCard) shuffledCards.unshift(pinnedCard);
+      const shuffledCards = orderSupporters(cards.map(card => ({ card, pinned: card.dataset.pinned === 'true' }))).map(item => item.card);
       shuffledCards.forEach((card) => grid?.append(card));
 
       const closeDetail = (restoreFocus = true) => {
@@ -354,8 +359,10 @@ function initials(name: string) {
       next?.addEventListener('click', () => { closeDetail(false); page += 1; updateDirectory(); });
       const resizeObserver = new ResizeObserver(positionDetail);
       if (grid) resizeObserver.observe(grid);
+      root.addEventListener('collaborators:dispose', () => resizeObserver.disconnect(), { once: true });
       document.addEventListener('astro:before-swap', () => resizeObserver.disconnect(), { once: true });
       updateDirectory();
+      loadCollaborators(root, initializeManualContributors);
 
     });
   }
