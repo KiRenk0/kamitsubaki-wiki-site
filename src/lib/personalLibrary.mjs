@@ -1,4 +1,20 @@
 export const LIBRARY_KEY = 'kamitsubaki-library-v1';
+let owner = null;
+export const libraryStorageKey = () => owner ? `${LIBRARY_KEY}:account:${owner}` : LIBRARY_KEY;
+export const libraryOwner = () => owner;
+export function setLibraryOwner(value) { owner = value || null; if(typeof window !== 'undefined') window.dispatchEvent(new Event('kamitsubaki-library-change')); }
+export function readLibraryRecord(storage) {
+  const raw = storage.getItem(libraryStorageKey());
+  if (!raw) return {library:emptyLibrary(),base:emptyLibrary(),revision:0};
+  const record=JSON.parse(raw);
+  return owner ? {...record,library:validateLibrary(record.library),base:validateLibrary(record.base)} : {library:validateLibrary(record),base:emptyLibrary(),revision:0};
+}
+export function saveLibraryRecord(storage, record) {
+  if(!owner) throw new Error('Account required');
+  storage.setItem(libraryStorageKey(),JSON.stringify(record));
+  if(typeof window !== 'undefined') window.dispatchEvent(new Event('kamitsubaki-library-change'));
+}
+
 export const emptyLibrary = () => ({ version: 1, items: [], lists: [] });
 
 export function safeLibraryPath(value) {
@@ -77,15 +93,17 @@ export function validateLibrary(value) {
   return { version: 1, items: [...items.values()], lists };
 }
 
-export function readLibrary(storage) {
-  const raw = storage.getItem(LIBRARY_KEY);
-  return raw ? validateLibrary(JSON.parse(raw)) : emptyLibrary();
-}
+export function readLibrary(storage) { return readLibraryRecord(storage).library; }
 
 export function writeLibrary(storage, value) {
   const next = validateLibrary(value);
-  storage.setItem(LIBRARY_KEY, JSON.stringify(next));
-  if (typeof window !== 'undefined') window.dispatchEvent(new Event('kamitsubaki-library-change'));
+  if (owner) {
+    const record=readLibraryRecord(storage);
+    saveLibraryRecord(storage,{...record,library:next});
+  } else {
+    storage.setItem(LIBRARY_KEY, JSON.stringify(next));
+    if (typeof window !== 'undefined') window.dispatchEvent(new Event('kamitsubaki-library-change'));
+  }
   return next;
 }
 

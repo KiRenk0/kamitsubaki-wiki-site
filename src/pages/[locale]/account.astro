@@ -1,0 +1,31 @@
+---
+import {getCollection} from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SiteNav from '../../components/SiteNav.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import LibraryPanel from '../../components/labs/LibraryPanel.astro';
+import {getLocalizedSite} from '../../lib/homeData.mjs';
+import {buildLocaleLinks,supportedLocales} from '../../lib/i18n.mjs';
+import {accountCopy} from '../../lib/accountCopy.mjs';
+import {labsCopy} from '../../lib/labsCopy.mjs';
+import '../../styles/account.css';
+import '../../styles/labs.css';
+export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
+const locale=Astro.params.locale||'zh', c=accountCopy(locale), site=getLocalizedSite(await getCollection('site'),locale);
+const libraryCopy={...labsCopy(locale),savedLocal:c.library,storageNote:c.privacy};
+---
+<BaseLayout lang={locale} title={`${c.title} · KAMITSUBAKI Wiki`} metadata={{noindex:true}}>
+  <SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site,locale,'/account/')} brandLines={site.hero.brandLines} homeHref={`/${locale}/`}/>
+  <main class="account-shell" data-account-page>
+    <header class="account-hero"><p class="account-eyebrow">MY OBSERVATORY</p><h1>{c.title}</h1><p>{c.intro}</p><div class="account-actions"><a class="account-button" href={`https://chat.kamitsubaki.wiki/${['ja','en'].includes(locale)?locale:'zh'}/`}>{c.ai} ↗</a><a class="account-button" href={`/${locale}/labs/explore/`}>{c.browse} →</a><button class="account-button" data-account-logout hidden>{c.logout}</button></div><p data-account-action-status role="status"></p></header>
+    <noscript>{c.javascript}</noscript>
+    <nav class="account-sections" aria-label={c.title}><a href="#library">{c.library}</a><a href="#profile">{c.profile}</a><a href="#devices">{c.devices}</a><a href="#data">{c.data}</a></nav>
+    <section id="library" class="account-section"><h2>{c.library}</h2><p class="account-note">{c.privacy}</p><div data-account-library data-copy={JSON.stringify(libraryCopy)}><LibraryPanel copy={libraryCopy} locale={locale}/></div></section>
+    <section class="account-section" data-account-member hidden><details><summary>{c.importTitle}</summary><p>{c.importNote}</p><button class="account-button" data-guest-preview>{c.preview}</button><div data-guest-preview-result hidden><p data-guest-count></p><ul class="account-import-items" data-guest-items></ul><div class="account-actions"><button class="account-button" data-guest-merge>{c.merge}</button><button class="account-button" data-guest-cancel>{c.importCancel}</button></div></div></details></section>
+    <section id="profile" class="account-section" data-account-member hidden><h2>{c.profile}</h2><form data-profile-form class="account-form"><label>{c.name}<input name="displayName" maxlength="60" required autocomplete="nickname"/></label><label>{c.language}<select name="locale">{supportedLocales.map(l=><option value={l}>{({'zh':'简体中文','zh-tw':'繁體中文（台灣）','zh-hk':'繁體中文（香港）','ja':'日本語','en':'English'})[l]}</option>)}</select></label><label>{c.avatar}<select name="avatar"><option value="upload">{c.uploadAvatar}</option><option value="keep">{c.keepAvatar}</option><option value="initial">{c.initialAvatar}</option>{[1,2,3,4,5].map(n=><option value={`preset-${n}`}>{c.preset} {n}</option>)}</select></label><label class="account-upload">{c.uploadAvatar}<input data-avatar-file type="file" accept="image/jpeg,image/png,image/webp"/><small>{c.uploadNote}</small></label><div class="account-avatar-preview" data-avatar-preview aria-hidden="true"></div><button class="account-button account-primary" type="submit">{c.save}</button><p data-profile-status role="status"></p></form><h3>{c.linked}</h3><p>{c.linkNote}</p><div data-account-identities class="account-actions"></div></section>
+    <section id="devices" class="account-section" data-account-member hidden><h2>{c.devices}</h2><button class="account-button" data-sessions-load>{c.retry}</button><ul data-account-sessions class="account-session-list"></ul><button class="account-button" data-sessions-revoke-others>{c.revokeOthers}</button><p data-sessions-status role="status"></p></section>
+    <section id="data" class="account-section" data-account-member hidden><h2>{c.data}</h2><p>{c.exportNote}</p><div class="account-actions"><button class="account-button" data-account-export>{c.export}</button><button class="account-button" data-ai-export>{c.exportAI}</button></div><details class="account-delete"><summary>{c.requestDelete}</summary><p>{c.deleteNote}</p><form data-deletion-form><label>{c.deleteConfirm}<input name="confirmation" required pattern="DELETE" autocomplete="off"/></label><button class="account-button" type="submit">{c.requestDelete}</button></form></details><p data-deletion-status role="status"></p><button class="account-button" data-deletion-cancel hidden>{c.cancelDelete}</button><p data-data-status role="status"></p></section>
+  </main>
+  <SiteFooter footer={site.footer}/>
+</BaseLayout>
+<script>import '../../scripts/accountPage.js';</script>

@@ -1,0 +1,19 @@
+---
+import { accountCopy } from '../lib/accountCopy.mjs';
+const {locale='zh'}=Astro.props;
+const c=accountCopy(locale);
+const apiBase=import.meta.env.PUBLIC_AI_OBSERVER_API_BASE || 'https://api.kamitsubaki.wiki';
+---
+<div data-account-config data-api-base={apiBase} data-locale={locale} data-copy={JSON.stringify(c)}></div>
+<dialog class="account-dialog" data-account-dialog aria-labelledby="account-login-title">
+  <button class="account-close" type="button" data-account-close aria-label={c.close}>×</button>
+  <p class="account-eyebrow">KAMITSUBAKI WIKI</p><h2 id="account-login-title">{c.loginTitle}</h2><p>{c.loginNote}</p>
+  <div class="account-actions"><a class="account-button account-primary" data-account-login-provider="github">{c.github}</a><a class="account-button" data-account-login-provider="google">{c.google}</a></div>
+  <a class="account-link" href={`/${locale}/account/`}>{c.title} →</a>
+</dialog>
+<script>import '../scripts/accountStore.js';</script>
+<style is:global>
+  .account-button[hidden],.account-sync [hidden]{display:none!important}
+  .account-dialog{width:min(460px,calc(100vw - 32px));margin:auto;padding:2rem;border:1px solid color-mix(in srgb,var(--theme-fg) 20%,transparent);border-radius:8px;background:var(--theme-bg);color:var(--theme-fg)}
+  .account-dialog::backdrop{background:#0008}.account-dialog h2{font-size:1.6rem;margin:1rem 0}.account-dialog p{line-height:1.8}.account-close{float:right;font-size:1.5rem;min-width:36px;min-height:36px}.account-eyebrow{font:11px monospace;letter-spacing:.15em;opacity:.65}.account-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin:1rem 0}.account-button{display:inline-flex;align-items:center;justify-content:center;padding:.65rem 1rem;border:1px solid color-mix(in srgb,var(--theme-fg) 25%,transparent);border-radius:5px;font-size:.85rem;min-height:42px;background:transparent;color:inherit;cursor:pointer}.account-primary{background:var(--theme-fg);color:var(--theme-bg)}.account-link{text-decoration:underline;text-underline-offset:4px}.account-nav{display:inline-flex;align-items:center;max-width:8rem;font-size:11px;white-space:nowrap;padding:.5rem}.account-button:disabled{opacity:.5;cursor:wait}.account-button:focus-visible,.account-nav:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+</style>
