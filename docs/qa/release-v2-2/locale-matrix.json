@@ -1,0 +1,26 @@
+[
+  {
+    "heading": "My space",
+    "overflow": false,
+    "path": "/en/account/",
+    "section": "Sign-in methods"
+  },
+  {
+    "heading": "マイスペース",
+    "overflow": false,
+    "path": "/ja/account/",
+    "section": "ログイン方法"
+  },
+  {
+    "heading": "我的空間",
+    "overflow": false,
+    "path": "/zh-tw/account/",
+    "section": "登入與關聯"
+  },
+  {
+    "heading": "我的空間",
+    "overflow": false,
+    "path": "/zh-hk/account/",
+    "section": "登入與關聯"
+  }
+]

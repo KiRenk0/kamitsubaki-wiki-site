@@ -6,7 +6,7 @@ type: "SITE UPDATE"
 title: "V2.1.0：阅读器翻新，词条也能可视化编辑了！"
 summary: "这次又给 Wiki 收拾了一遍：阅读器翻新、可视化编辑器登场，BETA 搬进 LABs，公告板也顺手改了改。"
 order: -4
-pinned: true
+pinned: false
 draft: false
 ---
 各位观测者，大家好。

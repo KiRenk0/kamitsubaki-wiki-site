@@ -28,6 +28,12 @@ const { navItems, localeLinks, brandLines, homeHref = '/', compact = false } = A
 
 const labsLabel = 'LABs';
 const currentLocale = localeLinks.find((item) => item.current)?.code ?? 'en';
+const menuCopy = resolveLocaleCopy({
+  zh:{menu:'菜单',title:'探索与设置',about:'关于本站',experiences:'互动体验',database:'艺人资料',songs:'歌曲',albums:'专辑',projects:'企划',game:'游戏'},
+  ja:{menu:'メニュー',title:'探索と設定',about:'サイトについて',experiences:'体験',database:'アーティスト',songs:'楽曲',albums:'アルバム',projects:'プロジェクト',game:'ゲーム'},
+  en:{menu:'Menu',title:'Explore & settings',about:'About',experiences:'Experiences',database:'Artists',songs:'Songs',albums:'Albums',projects:'Projects',game:'Games'},
+},currentLocale);
+const itemLabel=(item:NavItem)=>menuCopy[item.href.split('#')[1] as keyof typeof menuCopy] || (item.href.includes('/games/')?menuCopy.game:item.label);
 const searchLabel = resolveLocaleCopy({
   zh: '打开站内搜索',
   ja: 'サイト内検索を開く',
@@ -75,11 +81,12 @@ const themeCopy = resolveLocaleCopy({
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6" /><path d="m15 15 4.5 4.5" /></svg>
     </button>
     <details class="home-chrome__menu" data-chrome-menu>
-      <summary><span>MENU</span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 6h14M3 14h14" /></svg></summary>
+      <summary><span>{menuCopy.menu}</span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 6h14M3 14h14" /></svg></summary>
       <div class="home-chrome__panel">
-        <p class="home-chrome__eyebrow">EXPLORE THE ARCHIVE <kbd data-search-shortcut>Ctrl+K</kbd></p>
+        <p class="home-chrome__eyebrow">{menuCopy.title} <kbd data-search-shortcut>Ctrl+K</kbd></p>
         <div class="home-chrome__links">
-          {navItems.map((item, index) => <a href={item.href}><small aria-hidden="true">{String(index + 1).padStart(2, '0')}</small>{item.label}<span aria-hidden="true">↗</span></a>)}
+          <a href={`/${currentLocale}/account/`} data-account-nav>{accountCopy(currentLocale).title}</a>
+          {navItems.map((item, index) => <a href={item.href}><small aria-hidden="true">{String(index + 1).padStart(2, '0')}</small>{itemLabel(item)}<span aria-hidden="true">↗</span></a>)}
         </div>
         <div class="site-nav__controls-origin" data-home-nav-controls-origin>
           <div class="site-nav__portable-controls" data-home-nav-portable-controls>

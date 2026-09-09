@@ -2,5 +2,5 @@
 import {accountCopy} from '../lib/accountCopy.mjs';
 const {locale='zh'}=Astro.props;const c=accountCopy(locale);
 ---
-<div class="account-sync"><p data-account-status role="status" aria-live="polite">{c.checking}</p><div class="account-actions"><button class="account-button" data-account-login>{c.login}</button><button class="account-button" data-account-retry hidden>{c.retry}</button><button class="account-button" data-account-backup hidden>{c.backup}</button><button class="account-button" data-account-cloud hidden>{c.useCloud}</button></div></div>
+<div class="account-sync"><p data-account-status role="status" aria-live="polite">{c.checking}</p><div class="account-actions"><button class="account-button" data-account-login>{c.login}</button><button class="account-button" data-account-retry hidden>{c.retry}</button><button class="account-button" data-account-backup hidden>{c.backup}</button><button class="account-button" data-account-sync-now hidden>{c.syncNow}</button><button class="account-button" data-account-local hidden>{c.useLocal}</button><button class="account-button" data-account-cloud hidden>{c.useCloud}</button></div></div>
 <style>.account-sync{padding:1rem 0;font-size:.85rem;line-height:1.7}.account-sync .account-actions:has(>button:not([hidden])){margin:.5rem 0}.account-sync .account-actions{margin:0}</style>

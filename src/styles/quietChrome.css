@@ -193,3 +193,8 @@ body:has(.tools-dock[open]) .ai-chat__bubble { display: none; }
 
 .home-chrome__eyebrow { display: flex; justify-content: space-between; gap: 8px; }
 .home-chrome__eyebrow kbd { font: inherit; letter-spacing: 0; }
+
+/* Readable destinations and a persistent current-page signal. */
+.home-chrome__links a{font-family:inherit;font-size:14px;letter-spacing:0;min-height:46px;padding:10px 12px;color:var(--theme-fg)}
+.home-chrome__links a.account-nav{max-width:none;font-size:14px}.home-chrome__links a[aria-current=page]{background:rgb(var(--theme-fg-rgb) / .08);font-weight:650;box-shadow:inset 3px 0 var(--theme-accent-color)}
+.home-chrome__eyebrow{font-size:11px;letter-spacing:.08em;color:rgb(var(--theme-fg-rgb) / .72)}.home-chrome__links small{color:rgb(var(--theme-fg-rgb) / .56)}

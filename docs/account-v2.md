@@ -1,0 +1,35 @@
+# 账号核心功能第二波
+
+范围：完善账号核心功能。阅读进度、偏好云同步和全量日志不在本波范围。
+
+- 登录方式解绑：必须用要保留的方式登录；不能解绑当前登录方式，无法确认来源的旧会话须先重新登录。删除身份与撤销该方式旧会话在同一事务中完成，保留其他账号会话；并发操作不能移除最后一种登录方式。
+- 收藏同步：新增手动同步；冲突时可导出本机备份，再明确选择云端版本或本机版本。本机优先会替换云端收藏和清单，执行前提示覆盖影响；写入继续使用版本校验。
+- 加载恢复：账号加载失败有重试入口；账号 API 会话失效后重新确认登录状态。
+- 资料草稿：未保存时离开页面提醒；解绑不清空草稿；远端更新造成版本冲突时保留草稿，重新加载前确认放弃；切换账号清空前一个账号的草稿。
+- 中文、繁体中文、日文和英文界面保持同步。沿用第一波的资料/头像、导出、设备撤销、账号删除申请及管理员处理能力。
+
+## 发布
+
+前后端均在 `codex/account-v2` 分支开发。本波不需要数据库迁移或 Gateway 变更。先发布 Worker，再发布前端；旧前端可继续使用新 Worker。此文件描述开发版本，不代表已生产发布。
+
+## 验证
+
+后端新增真实 SQLite 迁移测试覆盖解绑、账号隔离、来源会话撤销、最后身份保护和事务回滚。浏览器使用合成账号，真实第三方 OAuth 授权回跳仍需要真实账号验收。
+
+本波验证结果：前端 326 项、Worker 200 项测试通过；Astro 检查 0 错误、0 警告（15 项提示）。真实 Chrome 合成账号实测通过：加载失败恢复、安全解绑、解绑时保留资料草稿、资料版本冲突与重新加载、真实 API 收藏冲突及本机版本写回、切换账号清空旧草稿、五语 390px 布局；未发现页面脚本错误。已绑定方式重新验证的 OAuth 回调测试通过，身份不重复创建。
+
+## 版本与公告
+
+第二波随全站版本 V2.2.0「我的空间」发布。公告为 `2026-09-09-v2-2-0`，提供简中、繁中（台/港）、英文和日文。开发分支已同步 package、页脚版本和新旧公告置顶状态；尚未合并或部署，不代表正式站点已发布第二波。
+
+### UI follow-up — 2026-09-09
+
+Account settings now have separate library, profile, login identities, devices and data sections. A single site account may connect one identity per provider; connecting never merges two existing site accounts. Provider cards show connected/current status, readable removal conditions and provider-specific confirmation. Menu, modal focus and theme forwarding were refined. The Worker shares main-site visual tokens across console and verification and preserves allowlisted console return destinations.
+
+See [UI QA and screenshots](qa/account-ui/README.md). This work remains local, not deployed; real OAuth/Cloudflare and production console acceptance remain pending.
+
+Final local validation: Astro built 9,313 pages successfully; frontend tests 326/326 and Worker tests 204/204 passed. Final small navigation/theme refinements were also checked in the live dev preview. Source commits: site `07eef5d5`, Worker `5ce3996`. No production rollout performed.
+
+### Release candidate acceptance — 2026-09-09
+
+See [the current acceptance and rollout report](qa/release-v2-2/README.md). This pass adds explicit account load failure state, consistent cancellable confirmations, and a real-database fix for the production admin homepage SQL failure. Frontend 326 tests, Worker 206 tests, 9,313-page build and Pages asset audit passed. The separate production-baseline hotfix is `e6437d2` on `fix/admin-home-query`. Neither it nor V2.2.0 has been deployed in this pass; real OAuth/Access and post-release smoke checks remain pending.
