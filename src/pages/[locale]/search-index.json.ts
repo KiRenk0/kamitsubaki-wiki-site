@@ -9,7 +9,6 @@ import {
   buildIndexStats,
   cleanIndexText,
   extractIndexHeadings,
-  flattenIndexMetadata,
 } from '../../lib/searchIndex.mjs';
 
 export const prerender = true;
@@ -31,11 +30,7 @@ function titleFor(entry: { data: Record<string, unknown> }) {
   );
 }
 
-// Full-text body searchKey helper (1100-character window); full-text body search is loaded via search-body.json
-export function buildSearchKey(metadata: string, body: string) {
-  return foldCjkSearchText(cleanIndexText(`${metadata} ${body}`, 1100));
-}
-
+// Body full-text keys live in search-body.json; this index stays lightweight.
 export const GET: APIRoute = async ({ params }) => {
   const locale = params.locale || 'zh';
   const groups = await Promise.all([

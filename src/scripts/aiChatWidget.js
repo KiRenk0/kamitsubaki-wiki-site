@@ -1276,8 +1276,9 @@ function initWidget(root) {
   }
   consumeAuthResult();
   updateAuthState(root, copy, { kind: 'anonymous' });
-  bootstrap(root).catch(() => {});
-  window.addEventListener('kamitsubaki-auth-changed', () => bootstrap(root).catch(() => {}));
+  window.addEventListener('kamitsubaki-auth-changed', () => {
+    if (isReady) bootstrap(root).catch(() => {});
+  });
 
   toggle.addEventListener('click', () => {
     openPanel();
