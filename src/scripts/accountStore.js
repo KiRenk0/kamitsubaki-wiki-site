@@ -94,6 +94,7 @@ export async function logout() {
 export function loginUrl(provider,link=false) {
   const url=new URL(`${apiBase}/api/auth/oauth/${provider}/start`);
   const back=new URL(window.location.href);back.searchParams.delete('aiAuth');back.searchParams.delete('aiAuthProvider');back.searchParams.delete('aiAuthCode');
+  url.searchParams.set('theme',document.documentElement.dataset.theme==='dark'?'dark':'light');
   url.searchParams.set('returnTo',back.toString());if(link)url.searchParams.set('intent','link');return url.toString();
 }
 export function guestLibrary() { const raw=localStorage.getItem(LIBRARY_KEY);return raw?validateLibrary(JSON.parse(raw)):{version:1,items:[],lists:[]}; }
@@ -134,15 +135,18 @@ function renderChrome() {
   document.querySelectorAll('[data-account-backup]').forEach(el=>{el.hidden=state.sync!=='conflict';});
   document.querySelectorAll('[data-account-login]').forEach(el=>{el.hidden=!!state.viewer;});
   document.querySelectorAll('[data-account-logout]').forEach(el=>{el.hidden=!state.viewer;});
-  document.querySelectorAll('[data-account-login-provider]').forEach(a=>{a.href=loginUrl(a.dataset.accountLoginProvider);});
+  document.querySelectorAll('[data-account-login-provider]').forEach(a=>{a.href=loginUrl(a.dataset.accountLoginProvider,a.dataset.accountLoginIntent==='link');});
 }
 // A modal dialog paints above every ordinary z-index. Keep the decorative
 // cursor inside its top layer while open, then restore its original position.
 const accountDialog=document.querySelector('[data-account-dialog]');
-let cursorHome=null;
-function openAccountDialog(){
+let cursorHome=null,dialogTrigger=null,backdropPress=false;
+function openAccountDialog(trigger){
   if(!accountDialog)return;
+  renderChrome();
+  dialogTrigger=trigger;document.documentElement.classList.add('account-modal-open');
   accountDialog.showModal();
+  accountDialog.querySelector('[data-account-login-provider]')?.focus();
   const cursor=document.getElementById('cursor');
   if(cursor && !cursorHome){
     const marker=document.createComment('account-cursor-home');
@@ -150,10 +154,15 @@ function openAccountDialog(){
   }
 }
 accountDialog?.addEventListener('close',()=>{
-  if(accountDialog.open || !cursorHome)return;
-  const {cursor,marker}=cursorHome;cursorHome=null;marker.replaceWith(cursor);
-  cursor.classList.remove('hovering','text-entry');
+  if(accountDialog.open)return;
+  document.documentElement.classList.remove('account-modal-open');
+  if(cursorHome){const {cursor,marker}=cursorHome;cursorHome=null;marker.replaceWith(cursor);cursor.classList.remove('hovering','text-entry');}
+  const target=dialogTrigger?.getClientRects().length?dialogTrigger:document.querySelector('.home-chrome__actions > [data-account-nav]');target?.focus();dialogTrigger=null;
 });
+const outsideDialog=event=>{const r=accountDialog.getBoundingClientRect();return event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom;};
+accountDialog?.addEventListener('pointerdown',event=>{backdropPress=event.target===accountDialog && outsideDialog(event);});
+accountDialog?.addEventListener('click',event=>{if(backdropPress && event.target===accountDialog && outsideDialog(event))accountDialog.close();backdropPress=false;});
+new MutationObserver(renderChrome).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
 window.addEventListener('kamitsubaki-account-state',renderChrome);
 document.addEventListener('click',async event=>{
   const trigger=event.target.closest('[data-account-nav],[data-account-login],[data-account-retry],[data-account-cloud],[data-account-backup],[data-account-local],[data-account-sync-now],[data-account-logout],[data-account-close]');
@@ -162,7 +171,7 @@ document.addEventListener('click',async event=>{
   if(trigger.matches('[data-account-nav]') && state.viewer)return;
   event.preventDefault();
   try {
-    if(trigger.matches('[data-account-nav],[data-account-login]'))openAccountDialog();
+    if(trigger.matches('[data-account-nav],[data-account-login]'))openAccountDialog(trigger);
     if(trigger.matches('[data-account-close]'))dialog?.close();
     if(trigger.matches('[data-account-retry]')){await refreshAuth(true);await syncLibrary();}
     if(trigger.matches('[data-account-sync-now]')){await refreshAuth(true);await syncLibrary();}

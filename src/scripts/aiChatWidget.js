@@ -657,6 +657,7 @@ async function startOAuth(root, provider, trigger, copy) {
   const returnTo = window.location.href;
   const url = new URL(apiBase + '/api/auth/oauth/' + provider + '/start');
   url.searchParams.set('returnTo', returnTo);
+  url.searchParams.set('theme',document.documentElement.dataset.theme==='dark'?'dark':'light');
   const response = await fetch(url.toString(), {
     method: 'POST',
     credentials: 'include',

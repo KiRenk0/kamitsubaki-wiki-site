@@ -21,3 +21,9 @@
 ## 版本与公告
 
 第二波随全站版本 V2.2.0「我的空间」发布。公告为 `2026-09-09-v2-2-0`，提供简中、繁中（台/港）、英文和日文。开发分支已同步 package、页脚版本和新旧公告置顶状态；尚未合并或部署，不代表正式站点已发布第二波。
+
+### UI follow-up — 2026-09-09
+
+Account settings now have separate library, profile, login identities, devices and data sections. A single site account may connect one identity per provider; connecting never merges two existing site accounts. Provider cards show connected/current status, readable removal conditions and provider-specific confirmation. Menu, modal focus and theme forwarding were refined. The Worker shares main-site visual tokens across console and verification and preserves allowlisted console return destinations.
+
+See [UI QA and screenshots](qa/account-ui/README.md). This work remains local, not deployed; real OAuth/Cloudflare and production console acceptance remain pending.

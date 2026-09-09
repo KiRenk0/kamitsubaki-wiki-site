@@ -41,6 +41,12 @@ const initialize = () => {
     window.setTimeout(openContactHash, 0);
   }
 
+  const markCurrentPage=()=>document.querySelectorAll('.home-chrome__links a[href]').forEach(link=>{
+    const url=new URL(link.href,location.href);
+    if(url.origin===location.origin && url.pathname===location.pathname && (!url.hash || url.hash===location.hash))link.setAttribute('aria-current','page');
+    else link.removeAttribute('aria-current');
+  });
+  markCurrentPage();window.addEventListener('hashchange',markCurrentPage);window.addEventListener('popstate',markCurrentPage);
   const menus = [...document.querySelectorAll('[data-chrome-menu]')];
   for (const menu of menus) {
     if (!(menu instanceof HTMLDetailsElement) || menu.dataset.menuReady) continue;

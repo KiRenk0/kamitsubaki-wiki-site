@@ -30,17 +30,26 @@ function render() {
     const identities=$('[data-account-identities]');identities.replaceChildren();
     for(const provider of ['github','google']){
       const linked=state.account.identities.find(i=>i.provider===provider),label=provider==='github'?'GitHub':'Google';
-      const el=element(linked?'span':'a',linked?`${label} · ${linked.provider_username || '✓'}`:`${c.link} ${label}`);el.className='account-button';if(!linked)el.href=loginUrl(provider,true);identities.append(el);
+      const row=element('article');row.className='account-identity';
+      const heading=element('h3',label),status=element('p',linked?c.identityLinked:c.identityUnlinked);
+      row.append(heading,status);
       if(linked){
-        if(state.account.currentProvider!==provider){const verify=element('a',`${c.verifyWith} ${label}`);verify.className='account-button';verify.href=loginUrl(provider,true);identities.append(verify);}
+        if(linked.provider_username)row.append(element('p',linked.provider_username));
+        const current=state.account.currentProvider===provider;
+        if(current)row.append(element('strong',c.identityCurrent));
+        if(!current){const verify=element('a',`${c.verifyWith} ${label}`);verify.className='account-button';verify.href=loginUrl(provider,true);verify.dataset.accountLoginProvider=provider;verify.dataset.accountLoginIntent='link';row.append(verify);}
         const button=element('button',`${c.unlink} ${label}`);button.className='account-button';button.dataset.unlinkProvider=provider;
-        button.disabled=state.account.identities.length<2 || !state.account.currentProvider || state.account.currentProvider===provider;
-        if(button.disabled)button.title=c.loginWithOther;
+        button.disabled=state.account.identities.length<2 || !state.account.currentProvider || current;
+        const note=element('p',state.account.identities.length<2?c.identityKeep:current||!state.account.currentProvider?c.identitySwitch:c.identityRemoveNote);
+        note.id=`identity-note-${provider}`;button.setAttribute('aria-describedby',note.id);row.append(note,button);
         const owner=state.viewer.userId;
-        button.addEventListener('click',()=>{if(confirm(c.confirmUnlink))void action(button,'[data-identities-status]',async()=>{
+        button.addEventListener('click',()=>{if(confirm(c.identityConfirm.replace('{provider}',label)))void action(button,'[data-identities-status]',async()=>{
           await api('/api/account/identities/unlink',{method:'POST',body:{provider},owner});await loadAccount();$('[data-identities-status]').textContent=c.unlinked;
-        });});identities.append(button);
+        });});
+      }else{
+        const link=element('a',`${c.identityAdd} · ${label}`);link.className='account-button';link.href=loginUrl(provider,true);link.dataset.accountLoginProvider=provider;link.dataset.accountLoginIntent='link';row.append(link);
       }
+      identities.append(row);
     }
     const deletion=state.account.requests.find(r=>r.kind==='delete');
     $('[data-deletion-status]').textContent=deletion?c[deletion.status]||c.pending:'';
