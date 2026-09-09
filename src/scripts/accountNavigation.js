@@ -10,7 +10,7 @@ if(root){
     panels.forEach(panel=>{panel.hidden=panel.dataset.accountPanel!==id || (panel.hasAttribute('data-account-member') && (!state.viewer || !state.account));});
     gate.hidden=id==='library' || !!state.account;
     gate.querySelector('button').hidden=!!state.viewer;
-    gate.querySelector('p').textContent=state.viewer?copy.loading:copy.loginNote;
+    gate.querySelector('p').textContent=state.viewer?(state.accountLoad==='error'?copy.loadFailed:copy.loading):copy.loginNote;
     if(!gate.hidden)gate.querySelector('h2').textContent=links.find(link=>link.hash==='#'+id)?.textContent || copy.loginTitle;
     root.querySelectorAll('[data-account-login-provider]').forEach(a=>{a.href=loginUrl(a.dataset.accountLoginProvider,a.dataset.accountLoginIntent==='link');});
     if(focus){const heading=(gate.hidden?panels.find(panel=>!panel.hidden):gate)?.querySelector('h2');if(heading){heading.tabIndex=-1;heading.focus({preventScroll:true});}}

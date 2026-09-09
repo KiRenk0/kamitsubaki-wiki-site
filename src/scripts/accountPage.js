@@ -1,3 +1,4 @@
+import {confirmAccount} from './accountConfirm.js';
 import {state,copy as c,locale,api,refreshAuth,loadAccount,loginUrl,guestLibrary,mergeGuest,download} from './accountStore.js';
 import {initializeLibrary} from './personalLibrary.js';
 const root=document.querySelector('[data-account-page]');
@@ -19,7 +20,7 @@ function render() {
   if(profileOwner!==(state.viewer?.userId||null)){profileOwner=state.viewer?.userId||null;profileDirty=false;uploadedAvatar=null;rendered=null;$('[data-profile-form]').reset();$('[data-avatar-file]').value='';$('[data-account-identities]').replaceChildren();}
   root.querySelectorAll('[data-account-member]').forEach(el=>{el.hidden=!state.viewer || !state.account;});
   if(!state.viewer){profileDirty=false;uploadedAvatar=null;$('[data-avatar-file]').value='';loadedOwner=null;rendered=null;$('[data-account-sessions]').replaceChildren();$('[data-profile-form]').reset();return;}
-  if(loadedOwner!==state.viewer.userId && !loading){
+  if(loadedOwner!==state.viewer.userId && !loading && state.accountLoad!=='loading' && state.accountLoad!=='error'){
     loading=true;const owner=state.viewer.userId;
     loadAccount().then(()=>{if(state.viewer?.userId===owner){loadedOwner=owner;void sessions().catch(e=>message('[data-sessions-status]',e));}}).catch(()=>{$('[data-account-action-status]').textContent=c.loadFailed;$('[data-account-reload]').hidden=false;}).finally(()=>{loading=false;if(state.viewer?.userId && state.viewer.userId!==owner)render();});
   }
@@ -43,7 +44,7 @@ function render() {
         const note=element('p',state.account.identities.length<2?c.identityKeep:current||!state.account.currentProvider?c.identitySwitch:c.identityRemoveNote);
         note.id=`identity-note-${provider}`;button.setAttribute('aria-describedby',note.id);row.append(note,button);
         const owner=state.viewer.userId;
-        button.addEventListener('click',()=>{if(confirm(c.identityConfirm.replace('{provider}',label)))void action(button,'[data-identities-status]',async()=>{
+        button.addEventListener('click',async()=>{if(await confirmAccount(c.identityConfirm.replace('{provider}',label),c))void action(button,'[data-identities-status]',async()=>{
           await api('/api/account/identities/unlink',{method:'POST',body:{provider},owner});await loadAccount();$('[data-identities-status]').textContent=c.unlinked;
         });});
       }else{
@@ -65,7 +66,7 @@ async function sessions(){
     const row=element('li'),body=element('div');
     // User agent is display-only; it never grants trust or proves device identity.
     body.append(element('p',`${session.current?c.currentDevice+' · ':''}${session.user_agent||c.unknownDevice}`),element('small',`${c.lastSeen}: ${date(session.last_seen_at)}${session.country?' · '+session.country:''}`));
-    const revoke=element('button',c.revoke);revoke.className='account-button';revoke.addEventListener('click',()=>{if(confirm(c.confirmRevoke))void action(revoke,'[data-sessions-status]',async()=>{await api('/api/account/sessions/revoke',{method:'POST',body:{id:session.id},owner});if(session.current)await refreshAuth(true);else await sessions();$('[data-sessions-status]').textContent=c.revoked;});});row.append(body,revoke);list.append(row);
+    const revoke=element('button',c.revoke);revoke.className='account-button';revoke.addEventListener('click',async()=>{if(await confirmAccount(c.confirmRevoke,c))void action(revoke,'[data-sessions-status]',async()=>{await api('/api/account/sessions/revoke',{method:'POST',body:{id:session.id},owner});if(session.current)await refreshAuth(true);else await sessions();$('[data-sessions-status]').textContent=c.revoked;});});row.append(body,revoke);list.append(row);
   }
   if(!data.sessions.length)list.append(element('li',c.noSessions));
 }
@@ -75,7 +76,7 @@ if(root){
   initializeLibrary($('[data-account-library]'),JSON.parse($('[data-account-library]').dataset.copy));
   window.addEventListener('kamitsubaki-account-state',render);render();
   window.addEventListener('beforeunload',event=>{if(profileDirty){event.preventDefault();event.returnValue='';}});
-  $('[data-account-reload]').addEventListener('click',event=>void action(event.currentTarget,'[data-account-action-status]',async()=>{if(profileDirty && !confirm(c.confirmDiscard))return;profileDirty=false;await loadAccount();loadedOwner=state.viewer?.userId;await sessions();$('[data-account-action-status]').textContent='';$('[data-profile-status]').textContent='';}));
+  $('[data-account-reload]').addEventListener('click',event=>void action(event.currentTarget,'[data-account-action-status]',async()=>{if(profileDirty && !await confirmAccount(c.confirmDiscard,c))return;profileDirty=false;await loadAccount();loadedOwner=state.viewer?.userId;await sessions();$('[data-account-action-status]').textContent='';$('[data-profile-status]').textContent='';}));
   $('[data-avatar-file]').addEventListener('change',async event=>{
     const file=event.target.files[0],owner=state.viewer?.userId;if(!file)return;
     try{
@@ -99,7 +100,7 @@ if(root){
     });
   });
   $('[data-sessions-load]').addEventListener('click',event=>void action(event.currentTarget,'[data-sessions-status]',sessions));
-  $('[data-sessions-revoke-others]').addEventListener('click',event=>{if(confirm(c.confirmOthers))void action(event.currentTarget,'[data-sessions-status]',async()=>{await api('/api/account/sessions/revoke',{method:'POST',body:{others:true}});await sessions();$('[data-sessions-status]').textContent=c.revoked;});});
+  $('[data-sessions-revoke-others]').addEventListener('click',async event=>{const button=event.currentTarget,owner=state.viewer?.userId;if(await confirmAccount(c.confirmOthers,c))void action(button,'[data-sessions-status]',async()=>{await api('/api/account/sessions/revoke',{method:'POST',body:{others:true},owner});await sessions();$('[data-sessions-status]').textContent=c.revoked;});});
   $('[data-guest-preview]').addEventListener('click',event=>void action(event.currentTarget,'[data-account-action-status]',async()=>{
     const guest=guestLibrary();$('[data-guest-count]').textContent=guest.items.length?`${guest.items.length} ${c.items} · ${guest.lists.length} ${c.lists}`:c.noGuest;
     const list=$('[data-guest-items]');list.replaceChildren();for(const item of guest.items){const li=element('li'),a=element('a',item.title);a.href=item.path;li.append(a);list.append(li);}

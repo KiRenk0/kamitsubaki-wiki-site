@@ -1,0 +1,154 @@
+[
+  {
+    "heading": "访问与审计",
+    "overflow": false,
+    "theme": "light",
+    "url": "http://127.0.0.1:8801/admin",
+    "width": 390
+  },
+  {
+    "heading": "访问与审计",
+    "overflow": false,
+    "theme": "dark",
+    "url": "http://127.0.0.1:8801/admin",
+    "width": 390
+  },
+  {
+    "heading": "全站账号",
+    "overflow": false,
+    "theme": "light",
+    "url": "http://127.0.0.1:8801/admin/accounts",
+    "width": 390
+  },
+  {
+    "heading": "全站账号",
+    "overflow": false,
+    "theme": "dark",
+    "url": "http://127.0.0.1:8801/admin/accounts",
+    "width": 390
+  },
+  {
+    "heading": "项目支持",
+    "overflow": false,
+    "theme": "light",
+    "url": "http://127.0.0.1:8801/admin/support",
+    "width": 390
+  },
+  {
+    "heading": "项目支持",
+    "overflow": false,
+    "theme": "dark",
+    "url": "http://127.0.0.1:8801/admin/support",
+    "width": 390
+  },
+  {
+    "heading": "特别协力者",
+    "overflow": false,
+    "theme": "light",
+    "url": "http://127.0.0.1:8801/admin/collaborators",
+    "width": 390
+  },
+  {
+    "heading": "特别协力者",
+    "overflow": false,
+    "theme": "dark",
+    "url": "http://127.0.0.1:8801/admin/collaborators",
+    "width": 390
+  },
+  {
+    "overflow": false,
+    "theme": "light",
+    "url": "http://127.0.0.1:8802/admin/ai-core",
+    "width": 390
+  },
+  {
+    "overflow": false,
+    "theme": "dark",
+    "url": "http://127.0.0.1:8802/admin/ai-core",
+    "width": 390
+  },
+  {
+    "overflow": false,
+    "theme": "light",
+    "url": "http://127.0.0.1:8802/admin/operations",
+    "width": 390
+  },
+  {
+    "overflow": false,
+    "theme": "dark",
+    "url": "http://127.0.0.1:8802/admin/operations",
+    "width": 390
+  },
+  {
+    "overflow": false,
+    "theme": "light",
+    "url": "http://127.0.0.1:8801/admin",
+    "width": 1280
+  },
+  {
+    "overflow": false,
+    "theme": "dark",
+    "url": "http://127.0.0.1:8801/admin",
+    "width": 1280
+  },
+  {
+    "overflow": false,
+    "theme": "light",
+    "url": "http://127.0.0.1:8801/admin/accounts",
+    "width": 1280
+  },
+  {
+    "overflow": false,
+    "theme": "dark",
+    "url": "http://127.0.0.1:8801/admin/accounts",
+    "width": 1280
+  },
+  {
+    "overflow": false,
+    "theme": "light",
+    "url": "http://127.0.0.1:8801/admin/support",
+    "width": 1280
+  },
+  {
+    "overflow": false,
+    "theme": "dark",
+    "url": "http://127.0.0.1:8801/admin/support",
+    "width": 1280
+  },
+  {
+    "overflow": false,
+    "theme": "light",
+    "url": "http://127.0.0.1:8801/admin/collaborators",
+    "width": 1280
+  },
+  {
+    "overflow": false,
+    "theme": "dark",
+    "url": "http://127.0.0.1:8801/admin/collaborators",
+    "width": 1280
+  },
+  {
+    "overflow": false,
+    "theme": "light",
+    "url": "http://127.0.0.1:8802/admin/ai-core",
+    "width": 1280
+  },
+  {
+    "overflow": false,
+    "theme": "dark",
+    "url": "http://127.0.0.1:8802/admin/ai-core",
+    "width": 1280
+  },
+  {
+    "overflow": false,
+    "theme": "light",
+    "url": "http://127.0.0.1:8802/admin/operations",
+    "width": 1280
+  },
+  {
+    "overflow": false,
+    "theme": "dark",
+    "url": "http://127.0.0.1:8802/admin/operations",
+    "width": 1280
+  }
+]

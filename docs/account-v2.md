@@ -29,3 +29,7 @@ Account settings now have separate library, profile, login identities, devices a
 See [UI QA and screenshots](qa/account-ui/README.md). This work remains local, not deployed; real OAuth/Cloudflare and production console acceptance remain pending.
 
 Final local validation: Astro built 9,313 pages successfully; frontend tests 326/326 and Worker tests 204/204 passed. Final small navigation/theme refinements were also checked in the live dev preview. Source commits: site `07eef5d5`, Worker `5ce3996`. No production rollout performed.
+
+### Release candidate acceptance — 2026-09-09
+
+See [the current acceptance and rollout report](qa/release-v2-2/README.md). This pass adds explicit account load failure state, consistent cancellable confirmations, and a real-database fix for the production admin homepage SQL failure. Frontend 326 tests, Worker 206 tests, 9,313-page build and Pages asset audit passed. The separate production-baseline hotfix is `e6437d2` on `fix/admin-home-query`. Neither it nor V2.2.0 has been deployed in this pass; real OAuth/Access and post-release smoke checks remain pending.

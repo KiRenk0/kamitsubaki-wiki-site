@@ -1,3 +1,4 @@
+import {confirmAccount} from './accountConfirm.js';
 import { LIBRARY_KEY, libraryOwner, setLibraryOwner, readLibrary, readLibraryRecord, saveLibraryRecord, writeLibrary, mergeLibraries, validateLibrary } from '../lib/personalLibrary.mjs';
 import { libraryChanges, applyLibraryChanges } from '../lib/accountLibrary.mjs';
 
@@ -5,7 +6,7 @@ const config = document.querySelector('[data-account-config]');
 export const locale = config?.dataset.locale || 'zh';
 export const copy = JSON.parse(config?.dataset.copy || '{}');
 export const apiBase = (config?.dataset.apiBase || 'https://api.kamitsubaki.wiki').replace(/\/$/,'');
-export const state = {viewer:null,auth:'checking',sync:'guest',account:null};
+export const state = {viewer:null,auth:'checking',sync:'guest',account:null,accountLoad:'idle'};
 let authPromise, lastChecked=0, syncPromise, timer, generation=0;
 const channel = typeof BroadcastChannel !== 'undefined' ? new BroadcastChannel('kamitsubaki-account') : null;
 const notify = () => window.dispatchEvent(new CustomEvent('kamitsubaki-account-state',{detail:state}));
@@ -32,7 +33,7 @@ export async function refreshAuth(force=false) {
       const changed=viewer?.userId!==state.viewer?.userId;
       state.viewer=viewer;state.auth=viewer?'user':'guest';lastChecked=Date.now();
       if(changed || libraryOwner()!==(viewer?.userId||null)) {
-        generation++;state.account=null;state.sync=viewer?'saving':'guest';
+        generation++;state.account=null;state.accountLoad='idle';state.sync=viewer?'saving':'guest';
         setLibraryOwner(viewer?.userId);
       }
       notify();
@@ -81,13 +82,19 @@ export async function syncLibrary({discard=false,keepLocal=false}={}) {
 }
 export async function loadAccount() {
   const owner=state.viewer?.userId;if(!owner)return;
-  const account=await api('/api/account',{owner});
-  if(state.viewer?.userId!==owner)return;
-  state.account=account;notify();return account;
+  state.accountLoad='loading';notify();
+  try {
+    const account=await api('/api/account',{owner});
+    if(state.viewer?.userId!==owner)return;
+    state.account=account;state.accountLoad='ready';notify();return account;
+  } catch(error) {
+    if(state.viewer?.userId===owner){state.accountLoad='error';notify();}
+    throw error;
+  }
 }
 export async function logout() {
   await api('/api/auth/logout',{method:'POST',body:{}});
-  generation++;state.viewer=null;state.account=null;state.auth='guest';state.sync='guest';
+  generation++;state.viewer=null;state.account=null;state.accountLoad='idle';state.auth='guest';state.sync='guest';
   setLibraryOwner(null);notify();channel?.postMessage('auth-changed');
   window.dispatchEvent(new Event('kamitsubaki-auth-changed'));
 }
@@ -170,13 +177,14 @@ document.addEventListener('click',async event=>{
   const dialog=document.querySelector('[data-account-dialog]');
   if(trigger.matches('[data-account-nav]') && state.viewer)return;
   event.preventDefault();
+  const actionOwner=state.viewer?.userId;
   try {
     if(trigger.matches('[data-account-nav],[data-account-login]'))openAccountDialog(trigger);
     if(trigger.matches('[data-account-close]'))dialog?.close();
     if(trigger.matches('[data-account-retry]')){await refreshAuth(true);await syncLibrary();}
     if(trigger.matches('[data-account-sync-now]')){await refreshAuth(true);await syncLibrary();}
-    if(trigger.matches('[data-account-local]') && confirm(copy.confirmLocal))await syncLibrary({keepLocal:true});
-    if(trigger.matches('[data-account-cloud]') && confirm(copy.confirmCloud))await syncLibrary({discard:true});
+    if(trigger.matches('[data-account-local]') && await confirmAccount(copy.confirmLocal,copy) && state.viewer?.userId===actionOwner)await syncLibrary({keepLocal:true});
+    if(trigger.matches('[data-account-cloud]') && await confirmAccount(copy.confirmCloud,copy) && state.viewer?.userId===actionOwner)await syncLibrary({discard:true});
     if(trigger.matches('[data-account-backup]'))backupLibrary();
     if(trigger.matches('[data-account-logout]'))await logout();
   } catch {document.querySelector('[data-account-action-status]')?.replaceChildren(document.createTextNode(copy.error));}
