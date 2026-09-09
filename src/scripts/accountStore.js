@@ -136,6 +136,24 @@ function renderChrome() {
   document.querySelectorAll('[data-account-logout]').forEach(el=>{el.hidden=!state.viewer;});
   document.querySelectorAll('[data-account-login-provider]').forEach(a=>{a.href=loginUrl(a.dataset.accountLoginProvider);});
 }
+// A modal dialog paints above every ordinary z-index. Keep the decorative
+// cursor inside its top layer while open, then restore its original position.
+const accountDialog=document.querySelector('[data-account-dialog]');
+let cursorHome=null;
+function openAccountDialog(){
+  if(!accountDialog)return;
+  accountDialog.showModal();
+  const cursor=document.getElementById('cursor');
+  if(cursor && !cursorHome){
+    const marker=document.createComment('account-cursor-home');
+    cursor.before(marker);cursorHome={cursor,marker};accountDialog.append(cursor);
+  }
+}
+accountDialog?.addEventListener('close',()=>{
+  if(accountDialog.open || !cursorHome)return;
+  const {cursor,marker}=cursorHome;cursorHome=null;marker.replaceWith(cursor);
+  cursor.classList.remove('hovering','text-entry');
+});
 window.addEventListener('kamitsubaki-account-state',renderChrome);
 document.addEventListener('click',async event=>{
   const trigger=event.target.closest('[data-account-nav],[data-account-login],[data-account-retry],[data-account-cloud],[data-account-backup],[data-account-local],[data-account-sync-now],[data-account-logout],[data-account-close]');
@@ -144,7 +162,7 @@ document.addEventListener('click',async event=>{
   if(trigger.matches('[data-account-nav]') && state.viewer)return;
   event.preventDefault();
   try {
-    if(trigger.matches('[data-account-nav],[data-account-login]'))dialog?.showModal();
+    if(trigger.matches('[data-account-nav],[data-account-login]'))openAccountDialog();
     if(trigger.matches('[data-account-close]'))dialog?.close();
     if(trigger.matches('[data-account-retry]')){await refreshAuth(true);await syncLibrary();}
     if(trigger.matches('[data-account-sync-now]')){await refreshAuth(true);await syncLibrary();}
