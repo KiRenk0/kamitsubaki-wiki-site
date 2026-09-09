@@ -134,6 +134,27 @@ function renderChrome() {
   document.querySelectorAll('[data-account-login-provider]').forEach(a=>{a.href=loginUrl(a.dataset.accountLoginProvider);});
 }
 window.addEventListener('kamitsubaki-account-state',renderChrome);
+
+function openAccountDialog(dialog) {
+  if(!dialog || !dialog.hasAttribute('hidden'))return;
+  dialog.hidden=false;
+  document.documentElement.style.overflow='hidden';
+  const focusTarget=dialog.querySelector('[data-account-close]');
+  focusTarget?.focus({preventScroll:true});
+}
+
+function closeAccountDialog(dialog) {
+  if(!dialog || dialog.hasAttribute('hidden'))return;
+  dialog.hidden=true;
+  document.documentElement.style.overflow='';
+}
+
+document.addEventListener('keydown',event=>{
+  if(event.key!=='Escape')return;
+  const dialog=document.querySelector('[data-account-dialog]');
+  closeAccountDialog(dialog);
+});
+
 document.addEventListener('click',async event=>{
   const trigger=event.target.closest('[data-account-nav],[data-account-login],[data-account-retry],[data-account-cloud],[data-account-backup],[data-account-logout],[data-account-close]');
   if(!trigger)return;
@@ -141,8 +162,8 @@ document.addEventListener('click',async event=>{
   if(trigger.matches('[data-account-nav]') && state.viewer)return;
   event.preventDefault();
   try {
-    if(trigger.matches('[data-account-nav],[data-account-login]'))dialog?.showModal();
-    if(trigger.matches('[data-account-close]'))dialog?.close();
+    if(trigger.matches('[data-account-nav],[data-account-login]'))openAccountDialog(dialog);
+    if(trigger.matches('[data-account-close]'))closeAccountDialog(dialog);
     if(trigger.matches('[data-account-retry]')){await refreshAuth(true);await syncLibrary();}
     if(trigger.matches('[data-account-cloud]') && confirm(copy.confirmCloud))await syncLibrary({discard:true});
     if(trigger.matches('[data-account-backup]'))backupLibrary();
