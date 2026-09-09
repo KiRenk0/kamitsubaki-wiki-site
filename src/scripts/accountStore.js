@@ -172,26 +172,6 @@ accountDialog?.addEventListener('click',event=>{if(backdropPress && event.target
 new MutationObserver(renderChrome).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
 window.addEventListener('kamitsubaki-account-state',renderChrome);
 
-function openAccountDialog(dialog) {
-  if(!dialog || !dialog.hasAttribute('hidden'))return;
-  dialog.hidden=false;
-  document.documentElement.style.overflow='hidden';
-  const focusTarget=dialog.querySelector('[data-account-close]');
-  focusTarget?.focus({preventScroll:true});
-}
-
-function closeAccountDialog(dialog) {
-  if(!dialog || dialog.hasAttribute('hidden'))return;
-  dialog.hidden=true;
-  document.documentElement.style.overflow='';
-}
-
-document.addEventListener('keydown',event=>{
-  if(event.key!=='Escape')return;
-  const dialog=document.querySelector('[data-account-dialog]');
-  closeAccountDialog(dialog);
-});
-
 document.addEventListener('click',async event=>{
   const trigger=event.target.closest('[data-account-nav],[data-account-login],[data-account-retry],[data-account-cloud],[data-account-backup],[data-account-local],[data-account-sync-now],[data-account-logout],[data-account-close]');
   if(!trigger)return;
