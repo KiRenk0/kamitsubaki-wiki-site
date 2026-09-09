@@ -27,3 +27,5 @@
 Account settings now have separate library, profile, login identities, devices and data sections. A single site account may connect one identity per provider; connecting never merges two existing site accounts. Provider cards show connected/current status, readable removal conditions and provider-specific confirmation. Menu, modal focus and theme forwarding were refined. The Worker shares main-site visual tokens across console and verification and preserves allowlisted console return destinations.
 
 See [UI QA and screenshots](qa/account-ui/README.md). This work remains local, not deployed; real OAuth/Cloudflare and production console acceptance remain pending.
+
+Final local validation: Astro built 9,313 pages successfully; frontend tests 326/326 and Worker tests 204/204 passed. Final small navigation/theme refinements were also checked in the live dev preview. Source commits: site `07eef5d5`, Worker `5ce3996`. No production rollout performed.
