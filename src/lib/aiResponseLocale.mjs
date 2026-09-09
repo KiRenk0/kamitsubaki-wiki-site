@@ -12,6 +12,19 @@ export async function loadTraditionalConverters() {
   return traditionalConverters;
 }
 
+if (typeof process !== 'undefined' && process.versions?.node && typeof window === 'undefined') {
+  try {
+    const nodeModuleName = 'node:module';
+    const { createRequire } = await import(/* @vite-ignore */ nodeModuleName);
+    const require = createRequire(import.meta.url);
+    const OpenCC = require('opencc-js');
+    traditionalConverters = Object.freeze({
+      'zh-tw': OpenCC.Converter({ from: 'cn', to: 'twp' }),
+      'zh-hk': OpenCC.Converter({ from: 'cn', to: 'hkp' }),
+    });
+  } catch {}
+}
+
 const responseLocaleProfiles = Object.freeze({
   zh: Object.freeze({
     locale: 'zh',
