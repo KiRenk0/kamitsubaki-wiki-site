@@ -13,7 +13,7 @@ const path = Astro.url.pathname.replace(/\/$/,'') + '/';
   import { readLibrary, writeLibrary, toggleItem } from '../../lib/personalLibrary.mjs';
   document.querySelectorAll<HTMLElement>('[data-bookmark]').forEach(root => {
     const button = root.querySelector<HTMLButtonElement>('[data-bookmark-toggle]')!;
-    function update() { try { const saved = readLibrary(localStorage).items.some(item => item.path === root.dataset.path); button.textContent = saved ? root.dataset.savedLabel! : root.dataset.saveLabel!; button.setAttribute('aria-pressed',String(saved)); root.querySelector('[role=status]')!.textContent = '';  } catch { root.querySelector('[role=status]')!.textContent = root.dataset.errorLabel!; } }
+    function update() { try { const saved = readLibrary(localStorage).items.some((item: {path: string}) => item.path === root.dataset.path); button.textContent = saved ? root.dataset.savedLabel! : root.dataset.saveLabel!; button.setAttribute('aria-pressed',String(saved)); root.querySelector('[role=status]')!.textContent = '';  } catch { root.querySelector('[role=status]')!.textContent = root.dataset.errorLabel!; } }
     button.addEventListener('click',()=> { try { writeLibrary(localStorage,toggleItem(readLibrary(localStorage),{path:root.dataset.path!, title:root.dataset.title!})); update(); } catch { root.querySelector('[role=status]')!.textContent = root.dataset.errorLabel!; } });
     window.addEventListener('storage',update);window.addEventListener('kamitsubaki-library-change',update);update();
   });

@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import ToolsDock from '../components/ToolsDock.astro';
+import AccountChrome from '../components/AccountChrome.astro';
 import AiChatWidget from '../components/AiChatWidget.astro';
 import LiveEventsWidget from '../components/LiveEventsWidget.astro';
 import SiteSearch from '../components/SiteSearch.astro';
@@ -165,6 +166,7 @@ const fontStylesheet = getLocaleFontStylesheet(lang);
     <div class="cursor-dot hidden md:block" id="cursor"></div>
 
     <slot />
+    <AccountChrome locale={lang} />
     <SiteSearch lang={lang} />
     <ToolsDock lang={lang}>
       {isLocalizedHome && liveEventsCopy && <LiveEventsWidget lang={lang} copy={liveEventsCopy} />}

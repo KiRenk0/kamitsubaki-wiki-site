@@ -719,12 +719,15 @@ async function logout(root, copy) {
   }
 
   try {
-    await fetch(`${apiBase}/api/auth/logout`, {
+    const logoutResponse = await fetch(`${apiBase}/api/auth/logout`, {
       method: 'POST',
       credentials: 'include',
       headers: { Accept: 'application/json' },
     });
-  } finally {
+    if (!logoutResponse.ok) throw new Error('logout_failed');
+    window.dispatchEvent(new Event('kamitsubaki-auth-changed'));
+  } catch { return; }
+  {
     root.dataset.currentThreadId = '';
     updateAuthState(root, copy, { kind: 'anonymous' });
   }
@@ -1273,6 +1276,8 @@ function initWidget(root) {
   }
   consumeAuthResult();
   updateAuthState(root, copy, { kind: 'anonymous' });
+  bootstrap(root).catch(() => {});
+  window.addEventListener('kamitsubaki-auth-changed', () => bootstrap(root).catch(() => {}));
 
   toggle.addEventListener('click', () => {
     openPanel();

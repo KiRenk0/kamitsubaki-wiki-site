@@ -22,7 +22,7 @@ export async function syncContributionEvents({
 
   let accepted = 0;
   for (const [index, batch] of batches.entries()) {
-    const response = await fetchImpl(new URL('/api/admin/contributors/sync', apiBase), {
+    const response = await fetchImpl(new URL('/api/contributors/sync', apiBase), {
       method: 'POST',
       headers: {
         Authorization: `Bearer ${syncToken}`,

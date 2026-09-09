@@ -1,10 +1,11 @@
-import { readLibrary, writeLibrary, mergeLibraries, LIBRARY_KEY } from '../lib/personalLibrary.mjs';
+import { readLibrary, writeLibrary, mergeLibraries, LIBRARY_KEY, libraryOwner } from '../lib/personalLibrary.mjs';
 import { foldCjkSearchText } from '../lib/cjkSearch.mjs';
 
 const el = (tag, text, cls) => { const node = document.createElement(tag); if (text !== undefined) node.textContent = text; if (cls) node.className = cls; return node; };
 const action = (label, callback, cls) => { const node = el('button', label, cls); node.type = 'button'; node.addEventListener('click', callback); return node; };
 export function initializeLibrary(root, c) {
   const $ = selector => root.querySelector(selector);
+  let activeOwner=libraryOwner();
   let library, selected = '', limit = 40, undo, editing;
   const feedback = message => { $('[data-library-feedback]').textContent = message; };
   const dialog = $('[data-list-dialog]');
@@ -130,8 +131,11 @@ export function initializeLibrary(root, c) {
     }
   }
   function reload() {
-    try { library = readLibrary(localStorage); render(); }
-    catch { feedback(c.storageError); }
+    try {
+      if(activeOwner!==libraryOwner()){activeOwner=libraryOwner();undo=null;editing=null;selected='';dialog.close();form.reset();feedback('');}
+      library = readLibrary(localStorage); render();
+    }
+    catch { library={version:1,items:[],lists:[]};render();feedback(c.storageError); }
   }
   $('[data-create-open]').addEventListener('click', () => openDialog());
   $('[data-rename]').addEventListener('click', () => openDialog(selected));
@@ -161,17 +165,18 @@ export function initializeLibrary(root, c) {
   });
   $('[data-import-open]').addEventListener('click', () => $('[data-import]').click());
   $('[data-import]').addEventListener('change', async event => {
-    const file = event.target.files?.[0]; if (!file) return;
+    const file = event.target.files?.[0],importOwner=libraryOwner(); if (!file) return;
     try {
       if (file.size > 2*1024*1024) throw new Error();
       const imported = JSON.parse(await file.text());
+      if(importOwner!==libraryOwner())return;
       // Validate separately so malformed files get the import-specific message.
       mergeLibraries({ version:1, items:[], lists:[] }, imported);
       commit(current => mergeLibraries(current, imported), c.imported);
     } catch { feedback(c.importError); }
     event.target.value = '';
   });
-  window.addEventListener('storage', event => { if (!event.key || event.key === LIBRARY_KEY) reload(); });
+  window.addEventListener('storage', event => { if (!event.key || event.key.startsWith(LIBRARY_KEY)) reload(); });
   window.addEventListener('kamitsubaki-library-change', reload);
   reload();
   return reload;
