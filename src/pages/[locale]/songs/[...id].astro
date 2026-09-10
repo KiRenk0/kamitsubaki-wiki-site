@@ -235,7 +235,7 @@ const themeStyle = [
 
       {hasArticleBody && (
         <main class:list={[
-          'reader-body order-last w-full min-w-0 lg:order-none',
+          'reader-body w-full min-w-0',
           hasTableOfContents ? 'lg:col-span-7' : 'lg:col-span-8 lg:col-start-2',
         ]}>
           {hasTableOfContents && (
@@ -263,7 +263,7 @@ const themeStyle = [
         <WikiInfoBox data={articleData} labels={articleLabels} />
         <ContributorRoster mode="entry" locale={localeCode} collection="songs" entryId={id} />
       </aside>
-      
+
     </div>
 
     <div class="reader-frame reader-end mx-auto max-w-[92rem] px-4 pb-6 sm:px-6">

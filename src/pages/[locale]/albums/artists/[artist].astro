@@ -1,10 +1,13 @@
 ---
 import ResponsiveImage from '../../../../components/ResponsiveImage.astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
+import AlbumCatalogFilter from '../../../../components/AlbumCatalogFilter.astro';
 import MusicSubnav from '../../../../components/MusicSubnav.astro';
 import SiteFooter from '../../../../components/SiteFooter.astro';
 import SiteNav from '../../../../components/SiteNav.astro';
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { foldCjkSearchText } from '../../../../lib/cjkSearch.mjs';
+import { collectFilterTypes, collectFilterYears, extractYearFromDate } from '../../../../lib/catalogFilter.mjs';
 import { getLocalizedEntries, getLocalizedSite } from '../../../../lib/homeData.mjs';
 import { buildLocaleLinks, defaultLocale, resolveLocaleCopy, supportedLocales } from '../../../../lib/i18n.mjs';
 import { buildArtistAlbumCatalog } from '../../../../lib/musicCatalog.mjs';
@@ -43,6 +46,11 @@ const copy = resolveLocaleCopy({
 }, localeCode);
 const accentColor = group.theme?.accentColor ?? '#d9dbe8';
 const pageStyle = `--catalog-accent:${accentColor};--catalog-surface:${group.theme?.surfaceColor ?? '#101117'}`;
+
+const filterTypes = collectFilterTypes(albums.map((album) => ({ type: album.data.type })));
+const { years: filterYears, hasUnknown: hasUnknownYear } = collectFilterYears(
+  albums.map((album) => ({ releaseDate: album.data.releaseDate })),
+);
 ---
 
 <BaseLayout lang={localeCode} alternates={alternates} title={`${artistName} ${copy.catalog} - Kamitsubaki Studio Fan Wiki`}>
@@ -70,11 +78,45 @@ const pageStyle = `--catalog-accent:${accentColor};--catalog-surface:${group.the
 
       <div class="mt-8"><MusicSubnav locale={localeCode} current="albums" /></div>
 
-      <div class="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {albums.map((album) => {
+      <AlbumCatalogFilter
+        locale={localeCode}
+        types={filterTypes}
+        years={filterYears}
+        hasUnknownYear={hasUnknownYear}
+        totalCount={albums.length}
+      />
+
+      <p class="album-catalog-filter__empty mt-10 font-mono text-xs tracking-wide text-white/45" data-album-filter-empty hidden>
+        {resolveLocaleCopy({
+          zh: { empty: '没有符合当前筛选条件的专辑。' },
+          ja: { empty: '条件に一致するアルバムがありません。' },
+          en: { empty: 'No albums match the current filters.' },
+        }, localeCode).empty}
+      </p>
+
+      <div class="album-catalog-grid mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3" data-album-row-grid>
+        {albums.map((album, albumIndex) => {
           const albumPath = album.id.split('/').slice(0, -1).join('/');
+          const titleFolded = foldCjkSearchText(album.data.title);
+          const romanizedFolded = foldCjkSearchText(album.data.romanizedTitle ?? '');
+          const typeFolded = foldCjkSearchText(album.data.type ?? '');
+          const labelFolded = foldCjkSearchText(album.data.label ?? '');
+          const searchText = [titleFolded, romanizedFolded, typeFolded, labelFolded]
+            .filter(Boolean)
+            .join(' ');
+          const albumYear = extractYearFromDate(album.data.releaseDate);
           return (
-            <a href={`/${localeCode}/albums/${albumPath}`} class="album-card group overflow-hidden border border-white/10 bg-white/[0.02] transition-colors hover:border-white/30">
+            <a
+              href={`/${localeCode}/albums/${albumPath}`}
+              class="album-card group overflow-hidden border border-white/10 bg-white/[0.02] transition-colors hover:border-white/30"
+              data-album-row
+              data-title={album.data.title}
+              data-search-text={searchText}
+              data-category={album.data.type ?? ''}
+              data-release-date={album.data.releaseDate ?? ''}
+              data-year={albumYear ?? ''}
+              data-default-index={albumIndex}
+            >
               {album.data.image ? (
                 <ResponsiveImage widths={[192, 480, 960]} sizes="(max-width: 640px) calc(100vw - 40px), (max-width: 1024px) 45vw, 400px" src={album.data.image} alt="" class="aspect-square w-full object-cover opacity-80 transition duration-700 group-hover:scale-[1.015] group-hover:opacity-100" loading="lazy" />
               ) : (

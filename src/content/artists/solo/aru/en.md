@@ -24,7 +24,6 @@ ARU (存流 / ある) was a virtual singer in the SINSEKAI STUDIO branch of [KAM
 
 Her whisper-like, breathy, restrained vocal colour and white gothic-elegant visual identity, designed by Mai Yoneyama, formed one side of Albemuth's contrast with ASU's brighter and more impulsive singing.
 
-
 ## Basic Profile
 
 | Item | Detail |
@@ -38,11 +37,19 @@ Her whisper-like, breathy, restrained vocal colour and white gothic-elegant visu
 
 “Whisper-voice demon” and similar expressions are audience descriptions of her vocal performance, not official job titles.
 
-
 ## Representative Works
 
-Her representative works include “Sayonara”, “Mahou”, “Zankyo”, “Kaibutsu”, and “Gifted”. During [Albemuth](/en/artists/solo/albemuth)'s unit period she also participated in “[Guilty](/en/songs/albemuth/originals/guilty)”, “Shinsekai e”, “tether”, and “Black Cloth”. The album *eve* presents the ARU side of the paired *eve / ADAM* project.
+{{details::Expand full singles list}}
 
+**Singles**
+
+| Release date | Title |
+| --- | --- |
+| 2018-04-19 | [Call Me Anytime (feat. Demxntia)](</en/songs/aru/originals/call-me-anytime-feat.-demxntia>) |
+| 2026-03-02 | [三日月の街](</en/songs/aru/originals/三日月no街>) |
+| 2026-04-24 | [ピンクリボン～願い～](</en/songs/aru/originals/pinkuribon～願i～>) |
+
+{{/details}}
 
 ## Activity History
 
@@ -56,7 +63,6 @@ Her representative works include “Sayonara”, “Mahou”, “Zankyo”, “K
 ## Unit Relationship and Record Boundaries
 
 Albemuth was an independent unit with its own name, visual concept, live project, and member-side albums. *eve* should therefore be recorded in both ARU's connected history and the unit's catalogue, while ARU's post-graduation status should not be merged with ASU's continuing solo activity.
-
 
 ## Related Projects / Setting
 
