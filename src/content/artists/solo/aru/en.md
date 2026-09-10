@@ -1,7 +1,6 @@
 ---
 locale: "en"
 translationKey: "aru"
-contentStatus: stub
 code: "18"
 romanizedName: "ARU"
 categoryOrder: 2
@@ -9,8 +8,24 @@ itemOrder: 2.1
 statusLabel: "STATUS"
 status: "INACTIVE"
 inactive: true
+debutDate: "2021-06-20"
+meta: "DEBUT: 2021.06.20 / GRADUATED: 2024.04.09"
+profileTagline: "A virtual singer defined by whisper-like vocals, breathiness, and restrained emotional pacing."
+designCredits:
+  - "Character design: Mai Yoneyama"
 affiliations:
   - "ALLT STUDIO"
+  - "Albemuth"
+officialLinks:
+  - label: "ALLT STUDIO Official Site"
+    href: "https://alltstudio.jp/"
+featuredEntries:
+  - label: "Albemuth"
+    href: "/en/artists/solo/albemuth"
+    kind: "artist"
+  - label: "ASU"
+    href: "/en/artists/solo/asu"
+    kind: "artist"
 image: "/images/artists/aru.png"
 name: "ARU"
 categoryTitle: "Solo Artists & Units"

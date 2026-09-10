@@ -1,7 +1,6 @@
 ---
 locale: "zh"
 translationKey: "aru"
-contentStatus: stub
 code: "18"
 romanizedName: "ARU"
 categoryOrder: 2
@@ -9,8 +8,24 @@ itemOrder: 2.1
 statusLabel: "STATUS"
 status: "INACTIVE"
 inactive: true
+debutDate: "2021-06-20"
+meta: "DEBUT: 2021.06.20 / GRADUATED: 2024.04.09"
+profileTagline: "以低语感、气声与克制情绪推进为特征的虚拟歌手。"
+designCredits:
+  - "角色原案：米山舞"
 affiliations:
   - "ALLT STUDIO"
+  - "Albemuth"
+officialLinks:
+  - label: "ALLT STUDIO 官方网站"
+    href: "https://alltstudio.jp/"
+featuredEntries:
+  - label: "Albemuth"
+    href: "/zh/artists/solo/albemuth"
+    kind: "artist"
+  - label: "明透 / ASU"
+    href: "/zh/artists/solo/asu"
+    kind: "artist"
 image: "/images/artists/aru.png"
 name: "存流 / ARU"
 categoryTitle: "Solo / 组合"

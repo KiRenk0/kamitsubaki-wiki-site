@@ -8,8 +8,24 @@ itemOrder: 2.1
 statusLabel: "STATUS"
 status: "INACTIVE"
 inactive: true
+debutDate: "2021-06-20"
+meta: "DEBUT: 2021.06.20 / GRADUATED: 2024.04.09"
+profileTagline: "ささやき声、息遣い、抑制された感情の進行が特徴のバーチャルシンガー。"
+designCredits:
+  - "キャラクター原案：米山舞"
 affiliations:
   - "ALLT STUDIO"
+  - "Albemuth"
+officialLinks:
+  - label: "ALLT STUDIO 公式サイト"
+    href: "https://alltstudio.jp/"
+featuredEntries:
+  - label: "Albemuth"
+    href: "/ja/artists/solo/albemuth"
+    kind: "artist"
+  - label: "明透 / ASU"
+    href: "/ja/artists/solo/asu"
+    kind: "artist"
 image: "/images/artists/aru.png"
 name: "存流 / ARU"
 categoryTitle: "ソロ・ユニット"

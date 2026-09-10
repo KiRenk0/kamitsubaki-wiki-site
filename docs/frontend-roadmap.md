@@ -64,6 +64,7 @@ Phase 6  歌词工具          1–2 周  35/36/40/33/34/31/32（37–39 视内�
 
 | 项 | 内容 |
 |----|------|
+| 详规 | 已有 [entry-completeness-prompt.md](./entry-completeness-prompt.md) |
 | 规则 | `src/lib/entryCompleteness.mjs`（Phase 0） |
 | UI | 条目页 info box 或列表角标：`Component` / `WikiInfoBox.astro` / 列表卡片 |
 | 展示 | 分数 + 缺失字段摘要；深色浅色跟随全局 token |
@@ -72,6 +73,7 @@ Phase 6  歌词工具          1–2 周  35/36/40/33/34/31/32（37–39 视内�
 
 | 项 | 内容 |
 |----|------|
+| 详规 | 已有 [missing-data-detection-prompt.md](./missing-data-detection-prompt.md) |
 | 规则源 | 同上 completeness；额外「跨语言一致性」检查（translationKey、三语齐套可后置） |
 | 消费者 | 条目页提示条；Phase 5 任务大厅 |
 | 落点 | `src/lib/entryCompleteness.mjs` + 页面内嵌 script 或 `src/scripts/completenessBadge.js` |

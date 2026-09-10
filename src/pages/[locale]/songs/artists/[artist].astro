@@ -11,6 +11,7 @@ import { collectFilterAlbums, collectFilterYears, extractYearFromDate } from '..
 import { getLocalizedEntries, getLocalizedSite } from '../../../../lib/homeData.mjs';
 import { buildLocaleLinks, defaultLocale, resolveLocaleCopy, supportedLocales } from '../../../../lib/i18n.mjs';
 import { buildArtistSongCatalog } from '../../../../lib/musicCatalog.mjs';
+import { completenessTier, computeCompleteness } from '../../../../lib/entryCompleteness.mjs';
 
 export async function getStaticPaths() {
   const [allSongs, allArtists] = await Promise.all([
@@ -77,6 +78,11 @@ const filterSongs = categories.flatMap((category) =>
 );
 const { years: filterYears, hasUnknown: hasUnknownYear } = collectFilterYears(filterSongs);
 const filterAlbums = collectFilterAlbums(filterSongs);
+const completenessTierNames = resolveLocaleCopy({
+  zh: { complete: '完整', good: '良好', brief: '简要', stub: '草稿' },
+  ja: { complete: '完備', good: '良好', brief: '概要', stub: '草稿' },
+  en: { complete: 'Complete', good: 'Good', brief: 'Brief', stub: 'Stub' },
+}, localeCode);
 ---
 
 <BaseLayout lang={localeCode} alternates={alternates} title={`${artistName} - Kamitsubaki Studio Fan Wiki`}>
@@ -195,6 +201,18 @@ const filterAlbums = collectFilterAlbums(filterSongs);
                         {song.data.album ? `${copy.album}: ${song.data.album}` : song.data.releaseDate ? `${copy.released} ${song.data.releaseDate}` : artistName}
                       </span>
                     </span>
+                    {(() => {
+                      const completeness = computeCompleteness('songs', song.data);
+                      const tier = completenessTier(completeness.score);
+                      const badgeTitle = `${completeness.score} · ${completenessTierNames[tier]}`;
+                      return (
+                        <span
+                          class:list={['completeness-dot', `completeness-dot--${tier}`]}
+                          title={badgeTitle}
+                          aria-label={badgeTitle}
+                        ></span>
+                      );
+                    })()}
                     <span class="shrink-0 font-mono text-xs text-white/20 transition-transform group-hover:translate-x-1 group-hover:text-white/60" aria-hidden="true">→</span>
                   </a>
                 );
@@ -238,6 +256,19 @@ const filterAlbums = collectFilterAlbums(filterSongs);
     outline: 1px solid color-mix(in srgb, var(--catalog-accent) 72%, var(--theme-fg));
     outline-offset: 3px;
   }
+
+  .completeness-dot {
+    width: 0.45rem;
+    height: 0.45rem;
+    flex-shrink: 0;
+    border-radius: 9999px;
+    background: rgb(var(--theme-fg-rgb) / 0.28);
+  }
+
+  .completeness-dot--complete { background: rgb(74 222 128 / 0.75); }
+  .completeness-dot--good { background: rgb(125 211 252 / 0.7); }
+  .completeness-dot--brief { background: rgb(253 224 71 / 0.65); }
+  .completeness-dot--stub { background: rgb(252 165 165 / 0.65); }
 
   @media (min-width: 640px) {
     .catalog-hero {
