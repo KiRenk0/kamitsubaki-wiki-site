@@ -2480,6 +2480,8 @@ html.site-search-open body {
 
 .my-lyric-box ruby {
   ruby-align: center;
+  /* 阻止 Chrome 128+ 的可换行 ruby 启发式在长注音 unit 内部断行 */
+  white-space: nowrap;
 }
 
 .my-lyric-box rt {
