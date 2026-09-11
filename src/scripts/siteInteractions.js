@@ -5,6 +5,7 @@ import {
   getKaraokeProgress,
   resolveKaraokeEndTime,
 } from '../lib/lyricsTimeline.mjs';
+import { initRubyJustifyCenter } from './rubyJustifyCenter.js';
 
 const externalLinksHeadingPattern = /^(外部链接|外部連結|外部リンク|external\s+links?)$/i;
 
@@ -693,4 +694,6 @@ document.addEventListener('DOMContentLoaded', () => {
       );
     });
   }
+
+  initRubyJustifyCenter();
 });
