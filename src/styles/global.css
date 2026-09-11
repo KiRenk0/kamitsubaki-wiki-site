@@ -2564,16 +2564,26 @@ html[data-theme='light'] .my-lyric-box.sync-enabled {
   }
 
   /* WebKit text fill is inherited by ruby annotations, while the parent's
-     clipped background does not reliably paint into the separate rt box. */
+     clipped background does not reliably paint into the separate rt box.
+     Apply the same progressive fill on rt itself using the inherited
+     --karaoke-progress from .lrc-word. */
   .my-lyric-box.sync-enabled .lrc-word rt {
-    background: none;
-    color: rgb(var(--theme-fg-rgb) / 0.68);
-    -webkit-text-fill-color: currentColor;
+    background-image: linear-gradient(
+      90deg,
+      var(--wiki-accent-color) 0%,
+      var(--wiki-accent-color) var(--karaoke-progress, 0%),
+      rgb(var(--theme-fg-rgb) / 0.68) var(--karaoke-progress, 0%),
+      rgb(var(--theme-fg-rgb) / 0.68) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
     filter: none;
   }
 
   .my-lyric-box.sync-enabled .lrc-word:is(.is-active, .is-complete) rt {
-    color: var(--wiki-accent-color);
+    color: transparent;
   }
 }
 
@@ -2591,6 +2601,17 @@ html[data-theme='light'] .my-lyric-box.sync-enabled {
   }
 
   .my-lyric-box.sync-enabled .lrc-word:is(.is-active, .is-complete) {
+    color: var(--wiki-accent-color);
+  }
+
+  .my-lyric-box.sync-enabled .lrc-word rt {
+    background-image: none;
+    color: rgb(var(--theme-fg-rgb) / 0.68);
+    -webkit-text-fill-color: currentColor;
+  }
+
+  /* Sequential ruby fill from SyncLyricsPlayer: only completed units light up. */
+  .my-lyric-box.sync-enabled .lrc-word ruby.is-complete rt {
     color: var(--wiki-accent-color);
   }
 }
