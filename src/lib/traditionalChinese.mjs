@@ -56,8 +56,7 @@ function createPlaceholderFactory(restorations) {
   };
 }
 
-function protectJapaneseSpans(text) {
-  const restorations = [];
+function protectJapaneseSpans(text, restorations) {
   const placeholder = createPlaceholderFactory(restorations);
   let protectedText = '';
   let index = 0;
@@ -91,7 +90,7 @@ function protectJapaneseSpans(text) {
     index += 1;
   }
 
-  return { protectedText, restorations };
+  return protectedText;
 }
 
 function escapeRegExp(value) {
@@ -131,8 +130,8 @@ const protectedTokens = Object.freeze({
   'zh-hk': buildProtectedTokens('zh-hk'),
 });
 
-function protectTerms(text, locale) {
-  const restorations = [];
+function protectTerms(text, locale, restorations) {
+  const placeholder = createPlaceholderFactory(restorations);
   let protectedText = text;
 
   for (const token of protectedTokens[locale]) {
@@ -141,14 +140,10 @@ function protectTerms(text, locale) {
       token.caseSensitive ? 'gu' : 'giu',
     );
 
-    protectedText = protectedText.replace(pattern, () => {
-      const placeholder = `${placeholderPrefix}${String(restorations.length).padStart(8, '0')}${placeholderSuffix}`;
-      restorations.push({ placeholder, value: token.target });
-      return placeholder;
-    });
+    protectedText = protectedText.replace(pattern, () => placeholder(token.target));
   }
 
-  return { protectedText, restorations };
+  return protectedText;
 }
 
 function applyUiOverrides(text, locale) {
@@ -193,10 +188,10 @@ export function convertChineseText(text, locale, options = {}) {
   if (!isChineseContentLocale(locale) || typeof text !== 'string' || !text) return text;
 
   const normalized = text.normalize('NFC');
-  const japanese = protectJapaneseSpans(normalized);
-  const terms = protectTerms(japanese.protectedText, locale);
-  const restorations = [...japanese.restorations, ...terms.restorations];
-  const simplified = normalizeToSimplified(terms.protectedText);
+  const restorations = [];
+  const afterJapanese = protectJapaneseSpans(normalized, restorations);
+  const afterTerms = protectTerms(afterJapanese, locale, restorations);
+  const simplified = normalizeToSimplified(afterTerms);
   const converted = regionalConverters[locale]?.(simplified) ?? simplified;
   const localized = options.ui ? applyUiOverrides(converted, locale) : converted;
   return restoreTerms(localized, restorations);

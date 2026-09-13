@@ -257,6 +257,43 @@ test('Japanese exclusive shinjitai are not rewritten to Chinese traditional form
   assert.equal(convertChineseText('软件与网络', 'zh-tw'), '軟體與網路');
 });
 
+test('Japanese spans and protected terms can share one string without colliding placeholders', () => {
+  for (const locale of ['zh', 'zh-tw', 'zh-hk']) {
+    assert.equal(
+      convertChineseText('花譜 / ヰ世界情緒', locale),
+      '花譜 / ヰ世界情緒',
+    );
+    assert.equal(
+      convertChineseText('花譜 × たなか', locale),
+      '花譜 × たなか',
+    );
+    assert.equal(
+      convertChineseText('花譜 × 羽生まゐご', locale),
+      '花譜 × 羽生まゐご',
+    );
+    assert.equal(
+      convertChineseText('花譜的别名不是サンパチスター', locale),
+      '花譜的别名不是サンパチスター',
+    );
+  }
+});
+
+test('generated suite album keeps artist credits when Japanese collaborators are present', async () => {
+  const [twSource, hkSource] = await Promise.all([
+    readSource('../src/content/albums/kaf/suite/zh-tw.md'),
+    readSource('../src/content/albums/kaf/suite/zh-hk.md'),
+  ]);
+
+  for (const source of [twSource, hkSource]) {
+    assert.doesNotMatch(source, /たなか × たなか/);
+    assert.doesNotMatch(source, /羽生まゐご × 羽生まゐご/);
+    assert.match(source, /花譜 × たなか/);
+    assert.match(source, /花譜 × 羽生まゐご/);
+    assert.match(source, /彙總花譜/);
+    assert.doesNotMatch(source, /KAMITSUBAKIWIKIPROTECTEDTERM/);
+  }
+});
+
 test('syntax and format guides document the conversion workflow in every maintained source', async () => {
   const guides = await Promise.all([
     readSource('../src/content/contribute/syntax-guide/zh.md'),
