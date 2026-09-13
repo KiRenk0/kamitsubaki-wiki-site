@@ -6,7 +6,7 @@ type: "SITE UPDATE"
 title: "V2.2.0：我的空间，把喜欢的内容带着走"
 summary: "全站账号与「我的空间」登场：沿用 GitHub / Google 登录，自定义头像昵称，跨设备同步收藏与清单，还能管理登录设备、导出数据和申请注销。阅读 Wiki 依然无需登录。"
 order: -5
-pinned: true
+pinned: false
 draft: false
 ---
 各位观测者，大家好。

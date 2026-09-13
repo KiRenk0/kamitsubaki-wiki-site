@@ -1,13 +1,17 @@
 ---
+import {submissionCopy} from '../../../lib/editorSubmissionCopy.mjs';
+import {localEditor} from '../../../lib/editorConfig.mjs';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { supportedLocales, getEditableLocale } from '../../../lib/i18n.mjs';
 import { editorCopy } from '../../../lib/visualEditorCopy.mjs';
 import { entryTypes, blockTypes } from '../../../lib/visualEditor.mjs';
 import '../../../styles/visualEditor.css';
 import '../../../styles/editorWorkbench.css';
+import EditorPrDemo from '../../../components/editor/EditorPrDemo.astro';
+import '../../../styles/editorPrDemo.css';
 export function getStaticPaths() { return supportedLocales.map(locale => ({params:{locale}})); }
 const {locale = 'zh'} = Astro.params;
-const copy = editorCopy(locale);
+const copy = editorCopy(locale);const submissionLabels=submissionCopy(locale);const st=(text: string)=>submissionLabels[text]||text;
 const locales: Record<string,string> = {'zh':'简体中文','zh-tw':'繁體中文（臺灣）','zh-hk':'繁體中文（香港）','ja':'日本語','en':'English'};
 const icons = {
   outline: 'M5 5h14M5 10h14M5 15h9M5 20h9',
@@ -22,9 +26,12 @@ const icons = {
       <a class="ve-home" href={`/${locale}/`}>← Wiki</a><h1>{copy.workbench}</h1>
       <button class="ve-command-trigger" data-command-open><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 5 5"/></svg><span>{copy.commands}</span><kbd>⌘ K</kbd></button>
       <div class="ve-top-actions"><button data-existing-open>{copy.editExisting}</button><button data-import-open>{copy.import}</button>
+        <button data-pr-open class="ve-primary" hidden>提交审核 · Demo</button>
         <details class="ve-export-menu"><summary class="ve-primary">{copy.exportMenu}</summary><div><button data-copy>{copy.copy}</button><button data-download>{copy.download}</button><p>{copy.exportHint}</p><a data-github target="_blank" rel="noopener noreferrer" hidden>{copy.github} ↗</a></div></details>
       </div>
     </header>
+    <div class="ve-pr-banner" data-pr-banner hidden><strong>{localEditor?st('投稿 · 本地联调'):st('投稿审核')}</strong><span>{localEditor?st('编辑、保存和审核均在本地运行。'):st('修改会提交给维护者审核，通过后发布。')}</span><button data-pr-history>{st('投稿与评论')} <span data-pr-count>0</span></button></div>
+<p class="ve-pr-banner" data-pr-draft-notice hidden><span data-pr-draft-description></span><button data-pr-recover>{st('查看服务端草稿')}</button></p>
     <div class="ve-workspace">
       <nav class="ve-activity" aria-label={copy.workbench}>
         {(['outline','files','properties'] as const).map(side => <button data-side-button={side} aria-label={copy[side]} title={copy[side]} aria-pressed={side === 'outline' ? 'true' : 'false'}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={icons[side]}/></svg><span>{copy[side]}</span></button>)}
@@ -71,6 +78,7 @@ const icons = {
     <dialog data-import-dialog aria-labelledby="ve-import-title"><form method="dialog"><div class="ve-section-heading"><h2 id="ve-import-title">{copy.import}</h2><button>{copy.cancel}</button></div></form><p>{copy.importHint}</p><input type="file" data-import-file accept=".md,text/markdown,text/plain" aria-label={copy.import}/><textarea data-import-text aria-label={copy.original} rows="12" spellcheck="false"></textarea><p data-import-error role="alert"></p><button data-import-apply class="ve-primary">{copy.applyImport}</button></dialog>
     <dialog data-inline-dialog aria-labelledby="ve-inline-title"><form method="dialog"><div class="ve-section-heading"><h2 id="ve-inline-title">{copy.specialFormat}</h2><button>{copy.cancel}</button></div></form><label>{copy.specialFormat}<select data-inline-kind>{Object.entries(copy.inline).map(([value,label])=><option value={value}>{label}</option>)}</select></label><div data-inline-args></div><div data-inline-preview class="wiki-reader wiki-prose"></div><p data-inline-error role="alert"></p><button data-inline-apply class="ve-primary">{copy.apply}</button></dialog>
     <script is:inline type="application/json" data-editor-copy set:html={JSON.stringify(copy).replace(/</g,'\\u003c')}/>
+    <EditorPrDemo locale={locale} />
     <noscript>JavaScript is required to use the visual editor.</noscript>
   </main>
   <script>import '../../../scripts/visualEditor.js';</script>
