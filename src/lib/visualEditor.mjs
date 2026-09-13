@@ -80,8 +80,15 @@ export function exportMarkdown(draft) {
   for (const [key, value] of Object.entries(outputMeta)) {
     if (JSON.stringify(old?.[key]) !== JSON.stringify(value)) doc.set(key, value);
   }
-  const body = draft.blocks.map(b => blockMarkdown(b, draft.meta.locale)).join('\n\n');
-  return `---\n${doc.toString().trimEnd()}\n---\n\n${body}\n`;
+  const metaSame = JSON.stringify(old) === JSON.stringify(outputMeta);
+  if (draft.originalDocument && metaSame && JSON.stringify(draft.blocks) === draft.originalBlocks) return draft.originalDocument;
+  let body = draft.blocks.map(b => blockMarkdown(b, draft.meta.locale)).join('\n\n');
+  if (draft.originalBody !== undefined && draft.blockRanges?.length === draft.blocks.length && draft.blocks.every((b,i)=>b.id===draft.blockRanges[i].id)) {
+    body = draft.originalBody;
+    for (let i=draft.blocks.length-1;i>=0;i--) {const range=draft.blockRanges[i];body=body.slice(0,range.start)+blockMarkdown(draft.blocks[i],draft.meta.locale)+body.slice(range.end);}
+    return `${draft.originalDocument.startsWith('\uFEFF')?'\uFEFF':''}---\n${metaSame?draft.originalMeta:doc.toString({lineWidth:0}).trimEnd()}\n---\n${body}`;
+  }
+  return `---\n${metaSame?draft.originalMeta:doc.toString({lineWidth:0}).trimEnd()}\n---\n\n${body}\n`;
 }
 export function importMarkdown(source, kind, path = '') {
   if (source.length > 1_000_000) throw new Error('fileSize');
@@ -95,7 +102,10 @@ export function importMarkdown(source, kind, path = '') {
   const trimLines = value => value.replace(/^\s*\n|\n\s*$/g, '');
   const body = trimLines(match[2]);
   const blocks = parseVisualBlocks(body);
-  return { version: 1, kind, meta, originalMeta: match[1], path, blocks: blocks.length ? blocks : [newBlock('paragraph')] };
+  const finalBlocks=blocks.length?blocks:[newBlock('paragraph')];
+  const originalBody=match[2];let cursor=0;const blockRanges=[];
+  for(const block of finalBlocks){const snippet=block.originalSource;const start=typeof snippet==='string'?originalBody.indexOf(snippet,cursor):-1;if(start<0){blockRanges.length=0;break;}blockRanges.push({id:block.id,start,end:start+snippet.length});cursor=start+snippet.length;}
+  return { version: 1, kind, meta, originalMeta: match[1], path, blocks:finalBlocks, originalDocument:source, originalBody, originalBlocks:JSON.stringify(finalBlocks),blockRanges };
 }
 export function validateDraft(draft) {
   const errors = [];

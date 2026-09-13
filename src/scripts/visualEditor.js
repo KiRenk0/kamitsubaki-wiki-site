@@ -1,4 +1,6 @@
+import {editorEnabled,editorApiBase,localEditor} from '../lib/editorConfig.mjs';
 import { sourceRequest } from '../lib/editorSource.mjs';
+import { initializeEditorPrDemo } from './editorPrDemo.js';
 import { renderRich, richMarkdown, inlineKinds, inlineSource, inlineParts, shortcodeChip } from '../lib/editorRichText.mjs';
 import { metadataDefaults, metadataOptions, metadataLabel, metadataChoices, newMetadataItem, advancedErrors } from '../lib/editorMetadata.mjs';
 import { previewBlock as renderPreviewBlock, previewMedia, loadPreviewMedia } from '../lib/editorPreview.mjs';
@@ -22,7 +24,8 @@ const initialize = () => {
     });
   }
   const uiLocale = root.dataset.locale.startsWith('zh') ? 'zh' : root.dataset.locale;
-  const key = `kamitsubaki-visual-editor-v1:${root.dataset.contentLocale}`;
+  const prDemo = editorEnabled;
+  const key = `${prDemo ? 'kamitsubaki-visual-editor-pr-demo-v1' : 'kamitsubaki-visual-editor-v1'}:${root.dataset.contentLocale}`;
   const md = renderRich;
   let draft = newDraft('projects', root.dataset.contentLocale);
   let saving = true;
@@ -301,7 +304,9 @@ const initialize = () => {
     $('.ve-workspace').inert = true;
     for (const selector of ['[data-copy]','[data-download]','[data-import-open]','[data-new-entry]']) $(selector).disabled = true;
     try {
-      let files = originalCache.get(request);
+      let backendSource=null;
+      if(prDemo){const response=await fetch(editorApiBase+'/api/editor/source?path='+encodeURIComponent(path),{credentials:'include'});if(response.ok)backendSource=await response.json();else if(response.status!==401)throw new Error('source');}
+      let files = backendSource?{[path]:backendSource.content}:originalCache.get(request);
       if (!files) {
         const response = await fetch(request);
         if (!response.ok) throw new Error('source');
@@ -312,9 +317,11 @@ const initialize = () => {
       const actualPath = Object.keys(files).find(key => key.normalize('NFC') === path.normalize('NFC'));
       if (!actualPath || typeof files[actualPath] !== 'string') throw new Error('source');
       const imported = importMarkdown(files[actualPath], path.split('/')[2], actualPath);
+      if(backendSource){imported.baseSha=backendSource.sha;imported.baseContent=backendSource.content;}
       if (token !== loadRequest) return;
       checkpoint(); clearPendingSource(); draft = imported;
       renderFields(); renderBlocks(); changed(true);
+      root.dispatchEvent(new CustomEvent('editor-source-loaded'));
       $('[data-existing-picker]').hidden = false; changeSide('outline');
       $('[data-load-status]').textContent = copy.loaded + ' ' + actualPath;
       const url = new URL(location.href); url.searchParams.set('target',actualPath); window.history.replaceState(null,'',url);
@@ -430,7 +437,7 @@ const initialize = () => {
   }
   function applySource() {
     if(sourcePending===null)return true;
-    try {const next=importMarkdown(sourcePending,draft.kind,draft.path);checkpoint();draft=next;clearPendingSource();renderFields();renderBlocks();changed(true);return true;}
+    try {const next=importMarkdown(sourcePending,draft.kind,draft.path);next.baseSha=draft.baseSha;next.baseContent=draft.baseContent;checkpoint();draft=next;clearPendingSource();renderFields();renderBlocks();changed(true);return true;}
     catch {$('[data-source-error]').textContent=copy.sourceError;$('[data-source-error]').hidden=false;$('[data-copy]').disabled=true;return false;}
   }
   $('[data-source]').addEventListener('keydown',event=>{if(event.key==='Tab'){event.preventDefault();const area=event.target;area.setRangeText('  ',area.selectionStart,area.selectionEnd,'end');queueSource();}});
@@ -506,6 +513,25 @@ const initialize = () => {
   renderFields(); renderBlocks(); output();
   $('[data-save-status]').textContent = saving ? copy.saved : copy.unsaved;
   try { const recovered=localStorage.getItem(sourceKey);if(recovered!==null){sourcePending=recovered;changeMode('source');$('[data-source-error]').hidden=false;$('[data-source-error]').textContent=copy.sourceRecovered;} } catch { /* Optional draft recovery. */ }
+  if (prDemo) initializeEditorPrDemo(root, {
+    snapshot() {
+      if (root.hasAttribute('aria-busy')) throw new Error('词条还在加载，请稍后再试。');
+      if (!applySource()) throw new Error('源码存在格式错误，请先修正后再提交。');
+      if (!draft.path || !sourceRequest(draft.path) || draft.needsOriginal) throw new Error('请先通过“编辑已有词条”载入一个词条。');
+      const errors = [...validateDraft(draft), ...advancedErrors(draft.meta)];
+      if (errors.length) throw new Error(`请先修正词条属性：${errors.map(label).join('、')}`);
+      return { path: draft.path, kind: draft.kind, title: draft.meta.name || draft.meta.title, baseSha:draft.baseSha, baseContent:draft.baseContent, content: exportMarkdown(draft) };
+    },
+    restore(submission) {
+      if (hasWork() && !window.confirm(copy.replace)) return false;
+      const imported = importMarkdown(submission.content, submission.kind, submission.path);
+      imported.baseSha=submission.baseSha;imported.baseContent=submission.baseContent??null;
+      checkpoint(); clearPendingSource(); draft = imported; renderFields(); renderBlocks(); changed(true);
+      const url = new URL(location.href); url.searchParams.set('target', draft.path);
+      window.history.replaceState(null, '', url);
+      return true;
+    },
+  });
   if (target && sourceRequest(target) && !(draft.path === target && draft.originalMeta)) loadOriginal(target, hasWork());
 };
 if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initialize, {once:true});

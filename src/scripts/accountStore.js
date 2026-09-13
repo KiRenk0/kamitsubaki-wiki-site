@@ -1,3 +1,4 @@
+import {isLocalEditorMode} from '../lib/localEditorMode.mjs';
 import {confirmAccount} from './accountConfirm.js';
 import { LIBRARY_KEY, libraryOwner, setLibraryOwner, readLibrary, readLibraryRecord, saveLibraryRecord, writeLibrary, mergeLibraries, validateLibrary } from '../lib/personalLibrary.mjs';
 import { libraryChanges, applyLibraryChanges } from '../lib/accountLibrary.mjs';
@@ -22,6 +23,7 @@ export async function api(path, {method='GET',body,owner=state.viewer?.userId}={
   return data;
 }
 export async function refreshAuth(force=false) {
+  if(isLocalEditorMode()){state.auth='guest';return null;}
   if(authPromise) return authPromise;
   if(!force && Date.now()-lastChecked<30000) return state.viewer;
   const authEpoch=generation;
