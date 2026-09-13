@@ -78,15 +78,16 @@ test('drafts are excluded from production selection and visible only when reques
   assert.deepEqual(entries, [published, draft]);
 });
 
-test('V2.2.0 is the production announcement and matches the site version in all five locales', async () => {
+test('V2.3.0 is the production announcement and matches the site version in all five locales', async () => {
   const pkg = JSON.parse(await readFile(new URL('../package.json', import.meta.url), 'utf8'));
-  assert.equal(pkg.version, '2.2.0');
+  assert.equal(pkg.version, '2.3.0');
   for (const locale of [...locales, 'zh-tw', 'zh-hk']) {
-    const current = await entryFor('2026-09-09-v2-2-0', locale);
-    const previous = await entryFor('2026-09-06-reading-and-contributing', locale);
+    const current = await entryFor('2026-09-13-v2-3-0', locale);
+    const previous = await entryFor('2026-09-09-v2-2-0', locale);
     const site = await readFile(new URL(`../src/content/site/${locale}.json`, import.meta.url), 'utf8');
     assert.equal(current.data.draft, false);
     assert.equal(current.data.pinned, true);
+    assert.equal(previous.data.pinned, false);
     assert.equal(selectFeaturedAnnouncement([previous, current]), current);
     assert.ok(current.data.title.includes(`V${pkg.version}`));
     assert.ok(site.includes(`SYS.VER_${pkg.version}`));

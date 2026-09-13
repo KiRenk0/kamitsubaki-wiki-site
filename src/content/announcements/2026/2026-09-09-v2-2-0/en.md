@@ -6,7 +6,7 @@ type: "SITE UPDATE"
 title: "V2.2.0: My space — keep your favorites with you"
 summary: "Site-wide accounts and My space: sign in with GitHub or Google, customize your name and avatar, sync bookmarks and lists, manage sessions, export data, and request account deletion. Reading the Wiki still requires no login."
 order: -5
-pinned: true
+pinned: false
 draft: false
 ---
 Hello, observers.
