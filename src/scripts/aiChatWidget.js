@@ -1,3 +1,4 @@
+import {isLocalEditorMode} from '../lib/localEditorMode.mjs';
 import katex from 'katex';
 import { micromark } from 'micromark';
 import { gfm, gfmHtml } from 'micromark-extension-gfm';
@@ -493,6 +494,7 @@ function showAuthNote(root, message) {
 }
 
 async function bootstrap(root) {
+  if(isLocalEditorMode())return;
   const apiBase = root.dataset.apiBase || '';
   if (!apiBase) {
     return;

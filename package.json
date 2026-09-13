@@ -20,7 +20,8 @@
     "pages:assets:audit": "node scripts/audit-pages-assets.mjs dist",
     "lyrics:content:repair": "node scripts/repair-lyrics-content.mjs",
     "contributors:sync": "node scripts/sync-contributors.mjs",
-    "images:generate": "node scripts/generate-thumbnails.mjs"
+    "images:generate": "node scripts/generate-thumbnails.mjs",
+    "dev:editor": "PUBLIC_EDITOR_ENABLED=true PUBLIC_EDITOR_LOCAL=true CHOKIDAR_USEPOLLING=true CHOKIDAR_INTERVAL=750 astro dev --config astro.editor.config.mjs --host 127.0.0.1 --port 4358"
   },
   "dependencies": {
     "@vitalets/google-translate-api": "^9.2.1",
