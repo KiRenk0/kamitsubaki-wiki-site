@@ -6,7 +6,7 @@ type: "SITE UPDATE"
 title: "V2.2.0：マイスペース、お気に入りをほかの端末でも"
 summary: "サイト共通アカウントと「マイスペース」が登場。GitHub / Google ログイン、名前とアイコンの変更、ブックマークとリストの同期、ログイン端末の管理、データ出力、アカウント削除申請に対応します。Wiki の閲覧にログインは不要です。"
 order: -5
-pinned: true
+pinned: false
 draft: false
 ---
 観測者の皆さん、こんにちは。
