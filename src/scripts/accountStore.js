@@ -1,3 +1,4 @@
+import {lockModalScroll} from '../lib/modalScroll.mjs';
 import {isLocalEditorMode} from '../lib/localEditorMode.mjs';
 import {confirmAccount} from './accountConfirm.js';
 import { LIBRARY_KEY, libraryOwner, setLibraryOwner, readLibrary, readLibraryRecord, saveLibraryRecord, writeLibrary, mergeLibraries, validateLibrary } from '../lib/personalLibrary.mjs';
@@ -149,25 +150,21 @@ function renderChrome() {
 // A modal dialog paints above every ordinary z-index. Keep the decorative
 // cursor inside its top layer while open, then restore its original position.
 const accountDialog=document.querySelector('[data-account-dialog]');
-let cursorHome=null,dialogTrigger=null,backdropPress=false;
+let dialogTrigger=null,backdropPress=false,releaseModalScroll=null;
 function openAccountDialog(trigger){
-  if(!accountDialog)return;
+  if(!accountDialog || accountDialog.open)return;
   renderChrome();
-  dialogTrigger=trigger;document.documentElement.classList.add('account-modal-open');
-  accountDialog.showModal();
-  accountDialog.querySelector('[data-account-login-provider]')?.focus();
-  const cursor=document.getElementById('cursor');
-  if(cursor && !cursorHome){
-    const marker=document.createComment('account-cursor-home');
-    cursor.before(marker);cursorHome={cursor,marker};accountDialog.append(cursor);
-  }
+  dialogTrigger=trigger;releaseModalScroll=lockModalScroll();
+  try{accountDialog.showModal();}catch(error){releaseModalScroll?.();releaseModalScroll=null;throw error;}
+  accountDialog.querySelector('[data-account-login-provider]')?.focus({preventScroll:true});
+
 }
 accountDialog?.addEventListener('close',()=>{
   if(accountDialog.open)return;
-  document.documentElement.classList.remove('account-modal-open');
-  if(cursorHome){const {cursor,marker}=cursorHome;cursorHome=null;marker.replaceWith(cursor);cursor.classList.remove('hovering','text-entry');}
-  const target=dialogTrigger?.getClientRects().length?dialogTrigger:document.querySelector('.home-chrome__actions > [data-account-nav]');target?.focus();dialogTrigger=null;
+  releaseModalScroll?.();releaseModalScroll=null;
+  const target=dialogTrigger?.getClientRects().length?dialogTrigger:document.querySelector('.home-chrome__actions > [data-account-nav]');target?.focus({preventScroll:true});dialogTrigger=null;
 });
+window.addEventListener('pagehide',()=>{if(accountDialog?.open)accountDialog.close();releaseModalScroll?.();releaseModalScroll=null;});
 const outsideDialog=event=>{const r=accountDialog.getBoundingClientRect();return event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom;};
 accountDialog?.addEventListener('pointerdown',event=>{backdropPress=event.target===accountDialog && outsideDialog(event);});
 accountDialog?.addEventListener('click',event=>{if(backdropPress && event.target===accountDialog && outsideDialog(event))accountDialog.close();backdropPress=false;});

@@ -1,5 +1,7 @@
 # 贡献指南
 
+[图片上传、路径与文件分类](files-and-images.md) · [Wiki](https://kamitsubaki.wiki/zh/contribute/files/)
+
 [English](contributing.en.md) / [中文](contributing.md) / [日本語](contributing.ja.md)
 
 这份文档是编辑百科和提交 Pull Request 的主要参考。
@@ -28,7 +30,7 @@ src/content/contribute/ GitHub 编辑教程页文案 (.md)
 
 ## 三语文件
 
-站点支持三个语言路由：
+站点有三个源语言，另有自动生成的 zh-tw、zh-hk 繁体路由：
 
 ```text
 /zh/  中文，默认语言
@@ -36,7 +38,7 @@ src/content/contribute/ GitHub 编辑教程页文案 (.md)
 /en/  英文
 ```
 
-每个可翻译记录都应该有三份语言文件。新增条目时请同时创建 `zh.md`、`ja.md`、`en.md`，并保持相同的 `translationKey`。
+源语言为 `zh.md`、`ja.md`、`en.md`，同一词条保持相同的 `translationKey`。先提交有实际内容的语言，其余翻译后续补齐，不放占位文本。繁体由简体生成。
 
 ## Markdown 结构
 
@@ -152,7 +154,7 @@ src/content/artists/vwp/kaf/zh.md
                     ^^^ 首页分类
 ```
 
-新增分类时，只需要新建第一层文件夹并放入三语条目。`categoryTitle`、`categorySubtitle`、`categoryOrder`、`itemOrder` 和 `code` 都是可选覆盖字段；不填时会使用文件夹名、条目名和默认排序。
+新增分类时，只需要新建第一层文件夹并放入实际完成的语言条目。`categoryTitle`、`categorySubtitle`、`categoryOrder`、`itemOrder` 和 `code` 都是可选覆盖字段；不填时会使用文件夹名、条目名和默认排序。
 
 ## 元数据
 
@@ -167,8 +169,8 @@ src/content/artists/vwp/kaf/zh.md
 ## 新增条目
 
 1. 在正确的内容分类下创建文件夹。
-2. 添加 `zh.md`、`ja.md`、`en.md`。
-3. 三个文件使用相同的 `translationKey`。
+2. 添加已完成的 `zh.md`、`ja.md` 或 `en.md`；后续补充其余翻译。
+3. 各语言文件使用相同的 `translationKey`。
 4. 填写必要 frontmatter。
 5. 正文未准备好时可以留空。
 6. 运行本地验证。

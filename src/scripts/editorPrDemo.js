@@ -157,6 +157,7 @@ export function initializeEditorPrDemo(root, editor) {
       ? `PR #${entry.number || t("待创建")} · ${f("第 {0} 次提交", entry.revision)} · ${entry.sync === "conflict" ? t("原文或分支冲突") : entry.sync === "pending" ? f("正在提交（已重试 {0} 次）", entry.attempts) : t(submissionLabels[entry.status])}`
       : t("尚未提交");
     $("[data-pr-path]").textContent = snapshot?.path || entry?.path || "";
+    $('[data-pr-assets]').replaceChildren(...(snapshot?.assets || entry?.assets || []).map(a=>el('p',`${a.path} · ${Math.ceil(a.size/1024)} KB · ${a.source}`)));
     $("[data-pr-more-comments]").hidden = selected?.nextPage == null;
     $("[data-pr-more-submissions]").hidden = nextBefore == null;
     $("[data-pr-withdraw]").hidden = !entry || !isOpen(entry);
@@ -193,7 +194,7 @@ export function initializeEditorPrDemo(root, editor) {
       busy ||
       !snapshot ||
       !base ||
-      !lines.length ||
+      (!lines.length && JSON.stringify(snapshot.assets || []) === JSON.stringify(entry?.assets || [])) ||
       (!!entry && (!isOpen(entry) || entry.sync !== "synced"));
     $("[data-pr-submit]").textContent = entry ? t("更新此 PR") : t("提交审核");
     $("[data-pr-save-draft]").disabled = busy || !snapshot || !base || !account;
@@ -281,7 +282,7 @@ export function initializeEditorPrDemo(root, editor) {
       }
       snapshot = editor.snapshot();
       base = await api(
-        "/api/editor/source?path=" + encodeURIComponent(snapshot.path),
+        "/api/editor/source?path=" + encodeURIComponent(snapshot.path) + (snapshot.create ? "&create=1" : ""),
       );
       selected =
         entries.find((e) => e.path === snapshot.path && isOpen(e)) || null;
@@ -301,7 +302,7 @@ export function initializeEditorPrDemo(root, editor) {
           t("原文已更新。请保留草稿并重新加载原文核对，不能直接覆盖新版本。"),
         );
       }
-      if (!snapshot.baseSha && !selected) {
+      if (!snapshot.create && !snapshot.baseSha && !selected) {
         const response = await fetch(sourceRequest(snapshot.path));
         if (!response.ok) throw Error(t("无法核对旧草稿原文"));
         const files = (await response.json()).files;
@@ -372,7 +373,10 @@ export function initializeEditorPrDemo(root, editor) {
       if (fresh.path !== snapshot.path)
         throw Error(t("词条已变化，请重新打开面板。"));
       operation ||= crypto.randomUUID();
+      message(t("正在上传附件并提交…"));
+      const assetIds = await editor.uploadAttachments(api,account.id,fresh);
       const result = await api("/api/editor/submissions", "POST", {
+        assetIds,
         ...fresh,
         id: selected?.id,
         version: editingVersion,
@@ -441,6 +445,7 @@ export function initializeEditorPrDemo(root, editor) {
   $("[data-pr-save-draft]").onclick = () =>
     action(async () => {
       const fresh = editor.snapshot();
+      if(fresh.assets?.length)throw Error(t("含图片的草稿请保存在本机；提交审核时才会上传附件。"));
       const result = await api("/api/editor/draft", "PUT", {
         ...fresh,
         accountId: account.id,
@@ -498,7 +503,7 @@ export function initializeEditorPrDemo(root, editor) {
     } else if (!conflict) {
       const fresh = editor.snapshot(),
         current = await api(
-          "/api/editor/source?path=" + encodeURIComponent(fresh.path),
+          "/api/editor/source?path=" + encodeURIComponent(fresh.path) + (fresh.create ? "&create=1" : ""),
         );
       conflict = {
         path: fresh.path,
@@ -529,6 +534,8 @@ export function initializeEditorPrDemo(root, editor) {
       if (!conflict || !$("[data-pr-resolution-confirm]").checked)
         throw Error(t("请先核对最新原文和分支内容并勾选确认。"));
       const result = await api("/api/editor/submissions", "POST", {
+        create: selected?.create || snapshot?.create || false,
+        assetIds: (selected?.assets || snapshot?.assets || []).map(a=>a.id),
         id: conflict.id,
         version: conflict.version,
         path: conflict.path,

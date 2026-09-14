@@ -1,9 +1,9 @@
 const labels = {
-  zh: {copy:'复制代码', copied:'已复制', failed:'复制失败，请选中代码复制', table:'表格，可横向滚动', spoiler:'点击显示或隐藏剧透'},
-  'zh-tw': {copy:'複製程式碼', copied:'已複製', failed:'複製失敗，請選取程式碼複製', table:'表格，可橫向捲動', spoiler:'點擊顯示或隱藏劇透'},
-  'zh-hk': {copy:'複製代碼', copied:'已複製', failed:'複製失敗，請選取代碼複製', table:'表格，可橫向捲動', spoiler:'點擊顯示或隱藏劇透'},
-  en: {copy:'Copy code', copied:'Copied', failed:'Select the code to copy it', table:'Table, scroll horizontally', spoiler:'Reveal or hide spoiler'},
-  ja: {copy:'コードをコピー', copied:'コピーしました', failed:'コードを選択してコピーしてください', table:'横にスクロールできる表', spoiler:'ネタバレの表示切替'},
+  zh: {copy:'复制代码', copied:'已复制', failed:'复制失败，请选中代码复制', table:'表格，可横向滚动', spoiler:'悬停预览，点击揭示；再次点击链接才会跳转'},
+  'zh-tw': {copy:'複製程式碼', copied:'已複製', failed:'複製失敗，請選取程式碼複製', table:'表格，可橫向捲動', spoiler:'懸停預覽，點擊揭示；再次點擊連結才會跳轉'},
+  'zh-hk': {copy:'複製代碼', copied:'已複製', failed:'複製失敗，請選取代碼複製', table:'表格，可橫向捲動', spoiler:'懸停預覽，點擊揭示；再次點擊連結才會跳轉'},
+  en: {copy:'Copy code', copied:'Copied', failed:'Select the code to copy it', table:'Table, scroll horizontally', spoiler:'Hover to preview; click to reveal, then click a link to open it'},
+  ja: {copy:'コードをコピー', copied:'コピーしました', failed:'コードを選択してコピーしてください', table:'横にスクロールできる表', spoiler:'ホバーでプレビュー、クリックで表示。リンクはもう一度クリックすると開きます'},
 };
 /** Enhance already-sanitized reader DOM; never operates on editable document text. */
 export function enhanceReader(root, locale = document.documentElement.lang) {

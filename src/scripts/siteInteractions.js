@@ -1,3 +1,5 @@
+import {installCursorLayer} from '../lib/cursorLayer.mjs';
+import {handleSpoilerActivation} from '../lib/spoilerInteraction.mjs';
 import { detectExternalPlatform } from '../lib/externalPlatforms.mjs';
 import {
   DEFAULT_KARAOKE_TAIL_DURATION,
@@ -187,6 +189,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let animationComplete = false;
     let pageLoaded = document.readyState === 'complete';
     let leaving = false;
+    let skipped = false;
     let loadFallbackTimer = null;
 
     const finishAnimation = () => {
@@ -201,6 +204,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (leaving || !animationComplete || !pageLoaded) return;
       leaving = true;
       siteIntro.dataset.state = 'leaving';
+      document.removeEventListener('keydown', skipByKey);
 
       window.requestAnimationFrame(() => {
         siteIntro.classList.add('is-leaving');
@@ -211,7 +215,7 @@ document.addEventListener('DOMContentLoaded', () => {
         siteIntro.dataset.state = 'complete';
         document.documentElement.classList.remove('site-intro-enabled');
         startReveals();
-      }, prefersReducedMotion ? 180 : 720);
+      }, skipped || prefersReducedMotion ? 180 : 720);
     };
 
     const markPageLoaded = (usedFallback = false) => {
@@ -222,6 +226,20 @@ document.addEventListener('DOMContentLoaded', () => {
       if (animationComplete) siteIntro.dataset.state = 'ready';
       revealSite();
     };
+
+    const skipIntro = (event) => {
+      if(leaving)return;
+      event.preventDefault();event.stopPropagation();
+      skipped=true;siteIntro.classList.add('is-skipped');
+      if(introVideo instanceof HTMLVideoElement)introVideo.pause();
+      // DOM is ready: optional image/video loads must not hold a skip request.
+      pageLoaded=true;
+      if(loadFallbackTimer!==null)window.clearTimeout(loadFallbackTimer);
+      finishAnimation();revealSite();
+    };
+    const skipByKey = event => {if(['Escape','Enter',' '].includes(event.key))skipIntro(event);};
+    siteIntro.addEventListener('click',skipIntro);
+    document.addEventListener('keydown',skipByKey);
 
     if (introVideo instanceof HTMLVideoElement && !prefersReducedMotion) {
       const handleVideoError = () => {
@@ -271,34 +289,7 @@ document.addEventListener('DOMContentLoaded', () => {
     startReveals();
   }
 
-  const cursor = document.getElementById('cursor');
-
-  if (cursor && window.matchMedia('(pointer: fine)').matches) {
-    document.addEventListener('mousemove', (event) => {
-      cursor.style.left = `${event.clientX}px`;
-      cursor.style.top = `${event.clientY}px`;
-    });
-
-    // Use event delegation to handle dynamically loaded elements (like AI Chat)
-    document.addEventListener('mouseover', (event) => {
-      const target = event.target instanceof Element ? event.target : null;
-      const textEntry = target?.closest('input:not([type="button"]):not([type="submit"]):not([type="reset"]), textarea, [contenteditable="true"]');
-      const hoverable = target?.closest('a, button, summary, [data-hoverable], [role="button"], input[type="button"], input[type="submit"]');
-      cursor.classList.toggle('text-entry', Boolean(textEntry));
-      if (hoverable) {
-        cursor.classList.add('hovering');
-      } else {
-        cursor.classList.remove('hovering');
-      }
-    });
-
-    document.addEventListener('mouseleave', () => {
-      cursor.classList.remove('hovering');
-      cursor.classList.remove('text-entry');
-    });
-  } else if (cursor) {
-    cursor.style.display = 'none';
-  }
+  installCursorLayer(document.getElementById('cursor'));
 
   const bgContainer = document.getElementById('artist-bg-container');
   const bgImg = document.getElementById('artist-bg-img');
@@ -674,23 +665,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  const toggleSpoiler = (spoiler) => {
-    const revealed = spoiler.classList.toggle('is-revealed');
-    spoiler.setAttribute('aria-expanded', String(revealed));
-  };
-
-  document.addEventListener('click', (event) => {
-    const spoiler = event.target instanceof Element && event.target.closest('.wiki-spoiler');
-    if (spoiler instanceof HTMLElement) toggleSpoiler(spoiler);
-  });
-
-  document.addEventListener('keydown', (event) => {
-    if (event.key !== 'Enter' && event.key !== ' ') return;
-    const spoiler = event.target instanceof Element && event.target.closest('.wiki-spoiler');
-    if (!(spoiler instanceof HTMLElement)) return;
-    event.preventDefault();
-    toggleSpoiler(spoiler);
-  });
+  // Capture before links and delegated card navigation can handle the same click.
+  ['click','auxclick','keydown'].forEach(type=>document.addEventListener(type,handleSpoilerActivation,true));
 
   // ── Artist category expand/collapse ──
   if (artistList instanceof HTMLElement) {

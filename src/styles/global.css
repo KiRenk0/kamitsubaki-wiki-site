@@ -19,7 +19,6 @@
 }
 
 :root {
-  --cursor-size: 8px;
   color-scheme: dark;
   --theme-bg: #030303;
   --theme-bg-rgb: 3 3 3;
@@ -127,7 +126,7 @@ body {
   color: var(--theme-body);
   font-weight: 400;
   overflow-x: hidden;
-  cursor: none;
+  cursor: auto;
   transition: background-color 240ms ease, color 240ms ease;
 }
 
@@ -470,7 +469,7 @@ summary,
 input[type="button"],
 input[type="submit"],
 input[type="reset"] {
-  cursor: none !important;
+  cursor: pointer;
 }
 
 .noise-bg {
@@ -499,47 +498,6 @@ input[type="reset"] {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #666;
-}
-
-.cursor-dot {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: var(--cursor-size);
-  height: var(--cursor-size);
-  background-color: var(--theme-fg);
-  border-radius: 50%;
-  pointer-events: none;
-  z-index: 10000;
-  transform: translate(-50%, -50%);
-  transition: width 0.2s ease, height 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
-  mix-blend-mode: difference;
-  will-change: transform, width, height;
-}
-
-.cursor-dot.hovering {
-  width: 40px;
-  height: 40px;
-  background-color: transparent;
-  border: 1px solid white;
-}
-
-.cursor-dot.text-entry {
-  width: 2px;
-  height: 1.35rem;
-  border: 0;
-  border-radius: 0;
-  background-color: var(--theme-fg);
-}
-
-html[data-theme='light'] .cursor-dot {
-  background-color: #000000;
-  mix-blend-mode: normal;
-}
-
-html[data-theme='light'] .cursor-dot.hovering {
-  background-color: transparent;
-  border-color: #000000;
 }
 
 .t-vertical {
@@ -2619,13 +2577,17 @@ html[data-theme='light'] .my-lyric-box.sync-enabled {
 .wiki-spoiler {
   filter: blur(0.32rem);
   cursor: pointer;
-  transition: filter 180ms ease;
+  transition: filter 240ms var(--motion-ease-glide, ease);
 }
 
-.wiki-spoiler:hover,
-.wiki-spoiler:focus-visible,
-.wiki-spoiler.is-revealed {
-  filter: none;
+.wiki-spoiler:focus-within,
+.wiki-spoiler.is-revealed { filter: none; }
+@media (hover: hover) and (pointer: fine) {
+  .wiki-spoiler:hover { filter: none; }
+}
+.wiki-spoiler:focus-visible { outline:2px solid var(--theme-accent-color); outline-offset:3px; }
+@media (prefers-reduced-motion: reduce) {
+  .wiki-spoiler { transition:none; }
 }
 
 @media (max-width: 600px) {
@@ -7092,3 +7054,13 @@ html[data-theme='light'] .ai-chat__submit-btn:focus-visible {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Enable hiding the OS pointer only once the custom pointer is actually visible. */
+html[data-custom-cursor][data-custom-cursor] body,
+html[data-custom-cursor][data-custom-cursor] body * {cursor:none!important}
+#cursor{display:none;pointer-events:none}
+#cursor[popover]:popover-open{display:block;position:fixed;inset:auto;left:0;top:0;margin:0;padding:0;width:8px;height:8px;border:0;border-radius:50%;background:#fff;color:#fff;overflow:visible;pointer-events:none;transform:translate(-50%,-50%);mix-blend-mode:difference;transition:width 180ms var(--motion-ease-glide),height 180ms var(--motion-ease-glide),border-radius 180ms var(--motion-ease-glide);z-index:2147483647}
+#cursor[popover].hovering{width:36px;height:36px;background:transparent;border:1px solid #fff}
+#cursor[popover].text-entry{width:2px;height:1.35rem;border-radius:1px}
+#cursor[popover]::backdrop{display:none}
+@media(prefers-reduced-motion:reduce){#cursor[popover]:popover-open{transition:none}}

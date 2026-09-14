@@ -1,3 +1,6 @@
+import {revealPanel,enhanceTabRail} from '../lib/uiMotion.mjs';
+import {newEntryPath,prepareImage,attachmentFile,imageBase64} from '../lib/editorAttachments.mjs';
+import { markdownTrigger, upgradeListBlock } from '../lib/editorWriting.mjs';
 import {editorEnabled,editorApiBase,localEditor} from '../lib/editorConfig.mjs';
 import { sourceRequest } from '../lib/editorSource.mjs';
 import { initializeEditorPrDemo } from './editorPrDemo.js';
@@ -7,7 +10,7 @@ import { previewBlock as renderPreviewBlock, previewMedia, loadPreviewMedia } fr
 import { enhanceReader } from '../lib/readerEnhancements.mjs';
 import 'katex/dist/katex.min.css';
 import { isApplePlatform, formatShortcut } from '../lib/searchShortcut.mjs';
-import { fields, blockTypes, entryTypes, newDraft, newBlock, parseVisualBlocks, importMarkdown, exportMarkdown, validateDraft, safeUrl, validPath, escapeHtml } from '../lib/visualEditor.mjs';
+import { fields, blockTypes, entryTypes, newDraft, newBlock, blockMarkdown, parseVisualBlocks, importMarkdown, exportMarkdown, validateDraft, safeUrl, validPath, escapeHtml } from '../lib/visualEditor.mjs';
 
 const initialize = () => {
   const root = document.querySelector('[data-visual-editor]');
@@ -15,6 +18,28 @@ const initialize = () => {
   root.dataset.ready = 'true';
   const $ = selector => root.querySelector(selector);
   const copy = JSON.parse($('[data-editor-copy]').textContent);
+  const toolbarScroll = $('.ve-toolbar-scroll');
+  const toolbarArrows = [...root.querySelectorAll('[data-toolbar-scroll]')];
+  function updateToolbarScroll() {
+    const max = toolbarScroll.scrollWidth - toolbarScroll.clientWidth;
+    toolbarArrows.forEach(button => { button.disabled = Number(button.dataset.toolbarScroll) < 0 ? toolbarScroll.scrollLeft <= 1 : toolbarScroll.scrollLeft >= max - 1; });
+  }
+  toolbarArrows.forEach(button => button.addEventListener('click', () => {
+    toolbarScroll.scrollBy({left: Number(button.dataset.toolbarScroll) * Math.max(120, toolbarScroll.clientWidth * .65), behavior: 'instant'});
+    updateToolbarScroll();
+  }));
+  toolbarScroll.addEventListener('scroll', updateToolbarScroll, {passive:true});
+  toolbarScroll.addEventListener('wheel', event => {
+    const delta = Math.abs(event.deltaX) > Math.abs(event.deltaY) ? event.deltaX : event.deltaY;
+    const max = toolbarScroll.scrollWidth - toolbarScroll.clientWidth;
+    if ((delta > 0 && toolbarScroll.scrollLeft < max - 1) || (delta < 0 && toolbarScroll.scrollLeft > 1)) {
+      event.preventDefault();
+      toolbarScroll.scrollLeft += delta * (event.deltaMode === 1 ? 16 : event.deltaMode === 2 ? toolbarScroll.clientWidth : 1);
+    }
+  }, {passive:false});
+  new ResizeObserver(updateToolbarScroll).observe(toolbarScroll);
+  document.fonts.ready.then(updateToolbarScroll);
+  updateToolbarScroll();
   const kbdLabel = text => formatShortcut(text, { platform: navigator.platform ?? '', userAgent: navigator.userAgent });
   if (!isApplePlatform({ platform: navigator.platform ?? '', userAgent: navigator.userAgent })) {
     root.querySelectorAll('kbd').forEach(el => { el.textContent = kbdLabel(el.textContent); });
@@ -23,6 +48,8 @@ const initialize = () => {
       if (el.getAttribute('aria-label')?.includes('⌘')) el.setAttribute('aria-label', kbdLabel(el.getAttribute('aria-label')));
     });
   }
+  const creationDictionary=JSON.parse(root.dataset.creationCopy || '{}');
+  const tc = text => creationDictionary[text] || text;
   const uiLocale = root.dataset.locale.startsWith('zh') ? 'zh' : root.dataset.locale;
   const prDemo = editorEnabled;
   const key = `${prDemo ? 'kamitsubaki-visual-editor-pr-demo-v1' : 'kamitsubaki-visual-editor-v1'}:${root.dataset.contentLocale}`;
@@ -38,7 +65,7 @@ const initialize = () => {
       exportMarkdown(saved); draft = saved;
     }
   } catch { saving = false; }
-  draft.blocks = draft.blocks.flatMap(block => block.type === 'preserved' ? parseVisualBlocks(block.text) : [block]);
+  draft.blocks = draft.blocks.flatMap(block => block.type === 'preserved' ? parseVisualBlocks(block.text) : [block]).map(upgradeListBlock);
   const target = new URLSearchParams(location.search).get('target');
   let history = [JSON.stringify(draft)], cursor = 0, historyTimer;
   function save() {
@@ -53,8 +80,9 @@ const initialize = () => {
     if (history.length > 40) history.shift();
     cursor = history.length - 1;
     updateHistory();
+    refreshAttachmentPreviews();
   }
-  function updateHistory() { $('[data-undo]').disabled = cursor === 0; $('[data-redo]').disabled = cursor === history.length - 1; }
+  function updateHistory() { const pending=JSON.stringify(draft)!==history[cursor]; $('[data-undo]').disabled = cursor === 0 && !pending; $('[data-redo]').disabled = pending || cursor === history.length - 1; }
   function changed(structural = false) { save(); output(); clearTimeout(historyTimer); if (structural) checkpoint(); else historyTimer = setTimeout(checkpoint, 350); }
   const label = key => fields[draft.kind].find(f => f.key === key)?.labels[uiLocale] || copy.blocks[key] || copy[key] || metadataLabel(key,uiLocale);
   function renderFields() {
@@ -85,14 +113,14 @@ const initialize = () => {
     $('[data-add-property]').disabled=!available.length;
   }
   function metaParent(path) { if(path.some(key=>protectedKeys.has(String(key))))throw new Error('path');return path.slice(0,-1).reduce((obj,key)=>obj[key],draft.meta); }
-  function richControls(b) { return `<div class="ve-rich" contenteditable="true" role="textbox" aria-multiline="true" aria-label="${copy.blocks[b.type]}" data-rich data-placeholder="${copy.emptyParagraph}">${md(b.text)}</div>`; }
+  function richControls(b) { return `<div class="ve-rich" contenteditable="true" role="textbox" aria-multiline="true" aria-label="${copy.blocks[b.type]}" data-rich data-placeholder="${copy.emptyParagraph}">${md(b.type==='list'?blockMarkdown(b):b.text)}</div>`; }
   const inlineLabels = kind => kind==='ruby' ? [copy.text,copy.kana,copy.romaji] : kind==='zh-variant' ? [copy.text,copy.taiwan,copy.hongkong] : ['abbr','time'].includes(kind) ? [copy.text,copy.explanation] : [copy.text];
   function unitControls(unit,attr) { return ['original','kana','romaji','time'].map(p=>control(p==='time'?copy.timestamp:copy[p],`${attr}="${p}"`,unit[p]||'')).join(''); }
   function control(labelText, attr, value = '', multiline = false) {
     return `<label>${escapeHtml(labelText)}${multiline ? `<textarea ${attr} rows="3">${escapeHtml(value)}</textarea>` : `<input ${attr} value="${escapeHtml(value)}" />`}</label>`;
   }
   function blockControls(b) {
-    if (b.type === 'paragraph') return richControls(b);
+    if (b.type === 'paragraph' || b.type === 'list') return richControls(b);
     if (b.type === 'heading') return `<select data-prop="level" aria-label="${copy.blocks.heading}">${[2,3,4,5,6].map(level=>`<option value="${level}" ${b.level===String(level)?'selected':''}>H${level}</option>`).join('')}</select>${control(copy.text,'data-prop="text"',b.text)}`;
     if (b.type === 'list') return `<label class="ve-check"><input type="checkbox" data-prop="ordered" ${b.ordered ? 'checked' : ''} />${copy.ordered}</label>${control(copy.lines,'data-prop="text"',b.text,true)}`;
     if (b.type === 'quote') return control(copy.text,'data-prop="text"',b.text,true);
@@ -111,7 +139,7 @@ const initialize = () => {
   }
   function previewBlock(b) { return renderPreviewBlock(b,copy); }
   function canvasBlock(b) {
-    if (b.type === 'paragraph') return richControls(b);
+    if (b.type === 'paragraph' || b.type === 'list') return richControls(b);
     if (b.type === 'heading') return `<input class="ve-heading-input" data-prop="text" value="${escapeHtml(b.text)}" placeholder="${copy.blocks.heading}" aria-label="${copy.blocks.heading}"/>`;
     if (b.type === 'table') return blockControls(b);
     if (b.type === 'quote' || b.type === 'list') return `<textarea data-prop="text" rows="${Math.max(2,b.text.split('\n').length)}" aria-label="${copy.blocks[b.type]}" placeholder="${copy.blocks[b.type]}">${escapeHtml(b.text)}</textarea>`;
@@ -195,7 +223,7 @@ const initialize = () => {
     else {
       const block = draft.blocks.find(b => b.id === el.closest('[data-block]')?.dataset.block);
       if (!block) return;
-      if (el.closest('[data-rich]')) block.text = richMarkdown(el.closest('[data-rich]'));
+      if (el.closest('[data-rich]')) { block.text = richMarkdown(el.closest('[data-rich]')); if(block.type==='list')block.type='paragraph'; }
       else if(el.hasAttribute('data-inline-style')) {block.kind=el.value;block.args=inlineLabels(block.kind).map((_,i)=>block.args[i]||'');renderBlocks();}
       else if(el.hasAttribute('data-inline-arg')) block.args[Number(el.dataset.inlineArg)]=el.value;
       else if(el.hasAttribute('data-media')) {const [i,p]=el.dataset.media.split(':');block.items[Number(i)][p]=el.value;}
@@ -210,11 +238,11 @@ const initialize = () => {
     changed();
   });
   root.addEventListener('paste', event => {
-    if (!event.target.closest('[data-rich]')) return;
-    event.preventDefault(); document.execCommand('insertText', false, event.clipboardData.getData('text/plain'));
+    if (!event.target.closest('[data-rich]') || event.clipboardData.files.length) return;
+    checkpoint(); event.preventDefault(); document.execCommand('insertText', false, event.clipboardData.getData('text/plain'));
   });
   root.addEventListener('drop', event => { if (event.target.closest('[data-rich]')) event.preventDefault(); });
-  root.addEventListener('pointerdown', event => { if (event.target.closest('[data-format],[data-special],[data-inline-preset]')) event.preventDefault(); });
+  root.addEventListener('pointerdown', event => { if (event.target.closest('[data-format],[data-special],[data-inline-preset],[data-toolbar-scroll]')) event.preventDefault(); });
   root.addEventListener('click', event => {
     const button = event.target.closest('button');
     if (!button) return;
@@ -233,7 +261,7 @@ const initialize = () => {
       if(!rich){$('[data-action-status]').textContent=copy.paragraphHint;return;}
       restoreSelection(rich);
       if(button.dataset.format==='link') {openLink(rich);return;}
-      document.execCommand(button.dataset.format,false); block.text=richMarkdown(rich);changed();return;
+      checkpoint(); document.execCommand(button.dataset.format,false); syncRich(rich); return;
     }
     if(button.hasAttribute('data-duplicate')&&block) {checkpoint();const next=structuredClone(block);next.id=crypto.randomUUID();draft.blocks.splice(draft.blocks.indexOf(block)+1,0,next);renderBlocks(next.id);changed(true);}
     if (button.hasAttribute('data-remove')) { checkpoint(); draft.blocks = draft.blocks.filter(b => b !== block); if(!draft.blocks.length)draft.blocks.push(newBlock('paragraph')); renderBlocks(); changed(true); }
@@ -241,6 +269,43 @@ const initialize = () => {
     if (button.hasAttribute('data-row')) { checkpoint(); block.rows.push(block.type === 'table' ? block.rows[0].map(() => '') : {original:'',kana:'',romaji:'',translation:''}); renderBlocks(block.id); changed(true); }
     if (button.hasAttribute('data-column')) { checkpoint(); block.rows.forEach(row => row.push('')); renderBlocks(block.id); changed(true); }
     if (button.hasAttribute('data-remove-row')) { checkpoint(); block.rows.splice(Number(button.dataset.removeRow),1); renderBlocks(block.id); changed(true); }
+  });
+  function syncRich(rich, structural=false) {
+    const block=draft.blocks.find(b=>b.id===rich.closest('[data-block]')?.dataset.block);
+    if(!block)return;
+    block.text=richMarkdown(rich);if(block.type==='list')block.type='paragraph';
+    changed(structural);
+  }
+  root.addEventListener('keydown',event=>{
+    const rich=event.target.closest('[data-rich]');
+    if(!rich||event.isComposing||event.defaultPrevented)return;
+    const selection=window.getSelection();
+    if(!selection?.rangeCount||!rich.contains(selection.focusNode))return;
+    const range=selection.getRangeAt(0), parent=selection.anchorNode.nodeType===Node.ELEMENT_NODE?selection.anchorNode:selection.anchorNode.parentElement;
+    const li=parent.closest('li');
+    if(event.key==='Tab'&&li&&rich.contains(li)) {
+      event.preventDefault();if(!event.shiftKey&&!li.previousElementSibling)return;checkpoint();document.execCommand(event.shiftKey?'outdent':'indent',false);syncRich(rich,true);return;
+    }
+    if(event.key===' '&&selection.isCollapsed&&!li) {
+      const line=parent.closest('p,div');
+      const prefix=range.cloneRange();prefix.selectNodeContents(line&&rich.contains(line)?line:rich);prefix.setEnd(range.startContainer,range.startOffset);
+      const trigger=markdownTrigger(prefix.toString());
+      if(trigger){event.preventDefault();checkpoint();prefix.deleteContents();selection.removeAllRanges();selection.addRange(prefix);document.execCommand(trigger.command,false,trigger.value);syncRich(rich,true);return;}
+    }
+    if(event.key==='Enter'&&!event.shiftKey&&!event.ctrlKey&&!event.metaKey&&!li) {
+      // Split at the caret, preserving inline markup and both sides of a selection.
+      event.preventDefault();checkpoint();range.deleteContents();
+      const tail=range.cloneRange();tail.setEnd(rich,rich.childNodes.length);
+      const rest=document.createElement('div');rest.append(tail.extractContents());
+      const block=draft.blocks.find(b=>b.id===rich.closest('[data-block]').dataset.block);
+      block.text=richMarkdown(rich);if(block.type==='list')block.type='paragraph';
+      const next={...newBlock('paragraph'),text:richMarkdown(rest)};
+      draft.blocks.splice(draft.blocks.indexOf(block)+1,0,next);renderBlocks(next.id);changed(true);return;
+    }
+    if(event.key==='Backspace'&&selection.isCollapsed&&!rich.textContent.trim()&&!rich.querySelector('img,[data-ve-source]')&&!li) {
+      const index=draft.blocks.findIndex(b=>b.id===rich.closest('[data-block]').dataset.block);
+      if(index>0){event.preventDefault();checkpoint();draft.blocks.splice(index,1);const previous=draft.blocks[index-1];renderBlocks(previous.id);const editable=blockElement(previous.id)?.querySelector('[data-rich]');if(editable){const end=document.createRange();end.selectNodeContents(editable);end.collapse(false);selection.removeAllRanges();selection.addRange(end);}changed(true);}
+    }
   });
   let inlineContext=null;
   function inlineFields(args=[]) {const kind=$('[data-inline-kind]').value;$('[data-inline-args]').innerHTML=inlineLabels(kind).map((label,i)=>control(label,`data-dialog-arg="${i}"`,args[i]||'')).join('');inlinePreview();}
@@ -270,11 +335,13 @@ const initialize = () => {
   });
   $('[data-locale-select]').addEventListener('change', event => { checkpoint(); draft.meta.locale = event.target.value; renderFields(); changed(true); });
    $('[data-add]').addEventListener('click',()=>insertBlock($('[data-block-type]').value));
-  $('[data-undo]').addEventListener('click', () => { checkpoint(); if (!cursor) return; clearPendingSource(); draft = JSON.parse(history[--cursor]); renderFields(); renderBlocks(); save(); output(); });
-  $('[data-redo]').addEventListener('click', () => { if (cursor >= history.length - 1) return; clearPendingSource(); draft = JSON.parse(history[++cursor]); renderFields(); renderBlocks(); save(); output(); });
+  $('[data-undo]').addEventListener('click', () => { checkpoint(); if (!cursor) return; clearPendingSource(); draft = JSON.parse(history[--cursor]); savedRange=null; renderFields(); renderBlocks(activeBlockId); save(); output(); });
+  $('[data-redo]').addEventListener('click', () => { if (cursor >= history.length - 1) return; clearPendingSource(); draft = JSON.parse(history[++cursor]); savedRange=null; renderFields(); renderBlocks(activeBlockId); save(); output(); });
   function changeView(view) {
+    const previous=root.querySelector('[data-view][aria-selected="true"]')?.dataset.view;
     root.querySelectorAll('[data-view]').forEach(button=>{const active=button.dataset.view===view;button.setAttribute('aria-selected',String(active));button.tabIndex=active?0:-1;});
     $('#ve-preview').hidden=view!=='preview'; $('#ve-properties').hidden=view!=='properties';
+    if(previous!==view)revealPanel(view==='preview'?$('#ve-preview'):$('#ve-properties'));
   }
   root.querySelectorAll('[data-view]').forEach(button=>button.addEventListener('click',()=>changeView(button.dataset.view)));
   $('[data-copy]').addEventListener('click', async () => { try { await navigator.clipboard.writeText(exportMarkdown(draft)); $('[data-action-status]').textContent = copy.copied; } catch { changeMode('source'); $('[data-source]').select(); $('[data-action-status]').textContent = copy.copyFailed; } });
@@ -341,36 +408,44 @@ const initialize = () => {
   let entries = [], catalogLocale = '';
   function renderMatches() {
     const query = $('[data-entry-search]').value.trim().toLocaleLowerCase();
-    const matches = entries.filter(entry => `${entry.title} ${entry.path}`.toLocaleLowerCase().includes(query)).slice(0,12);
-    $('[data-entry-results]').innerHTML = matches.length ? matches.map(entry => `<button data-load-path="${escapeHtml(entry.path)}"><strong>${escapeHtml(entry.title)}</strong><small>${escapeHtml(copy.kinds[entry.kind])} · ${escapeHtml(entry.path)}</small></button>`).join('') : `<p>${copy.notFound}</p>`;
+    const kind=$('[data-entry-kind]').value;
+    const filtered=entries.filter(entry => (!kind||entry.kind===kind) && query.split(/\s+/).every(term=>`${entry.title} ${entry.path}`.toLocaleLowerCase().includes(term)));
+    const matches=filtered.slice(0,50);
+    $('[data-entry-count]').textContent=`${filtered.length} ${copy.results}${filtered.length>50?' · '+copy.moreResults:''}`;
+    $('[data-entry-results]').innerHTML = matches.length ? matches.map(entry => `<button class="ve-entry-result" title="${escapeHtml(entry.title)}" data-load-path="${escapeHtml(entry.path)}"><strong>${escapeHtml(entry.title)}</strong><span class="ve-entry-kind">${escapeHtml(copy.kinds[entry.kind])}</span><small>${escapeHtml(entry.path.replace('src/content/',''))}</small></button>`).join('') : `<p>${copy.notFound}</p>`;
   }
   $('[data-existing-open]').addEventListener('click', async () => {
     changeSide('files');
     $('[data-existing-picker]').hidden = false; $('[data-entry-search]').focus();
     const locale = draft.meta.locale;
     if (catalogLocale !== locale) {
-      $('[data-entry-results]').textContent = copy.loading;
+      $('[data-entry-results]').textContent = copy.loading; $('[data-entry-retry]').hidden=true;
       try {
         const response = await fetch(`/${locale}/editor-catalog.json`);
         if (!response.ok) throw new Error('catalog');
         const data = await response.json();
         if (!Array.isArray(data)) throw new Error('catalog');
         entries = data; catalogLocale = locale;
-      } catch { $('[data-entry-results]').textContent = copy.loadFailed; return; }
+      } catch { $('[data-entry-results]').textContent = copy.loadFailed; $('[data-entry-retry]').hidden=false; return; }
     }
     renderMatches();
   });
   $('[data-entry-search]').addEventListener('input', renderMatches);
+  $('[data-entry-kind]').addEventListener('change',renderMatches);
+  $('[data-entry-retry]').addEventListener('click',()=>$('[data-existing-open]').click());
+  $('[data-existing-picker]').addEventListener('keydown',event=>{
+    if(event.isComposing)return;
+    const buttons=[...root.querySelectorAll('[data-load-path]')],index=buttons.indexOf(event.target);
+    if(event.key==='ArrowDown'||event.key==='ArrowUp'){event.preventDefault();buttons[Math.max(0,Math.min(buttons.length-1,index+(event.key==='ArrowDown'?1:-1)))]?.focus();}
+    if(event.key==='Enter'&&event.target.matches('[data-entry-search]')){event.preventDefault();buttons[0]?.click();}
+    if(event.key==='Escape'){root.setAttribute('data-sidebar-hidden','');$('[data-existing-open]').focus();}
+  });
   $('[data-entry-results]').addEventListener('click', event => {
     const path = event.target.closest('[data-load-path]')?.dataset.loadPath;
     if (path) loadOriginal(path);
   });
-  $('[data-new-entry]').addEventListener('click', () => {
-    if (hasWork() && !window.confirm(copy.replace)) return;
-    checkpoint(); clearPendingSource(); draft = newDraft(draft.kind,draft.meta.locale); renderFields(); renderBlocks(); changed(true);
-    $('[data-load-status]').textContent = ''; $('[data-existing-picker]').hidden = true;
-    const url = new URL(location.href); url.searchParams.delete('target'); window.history.replaceState(null,'',url);
-  });
+  $('[data-new-entry]').addEventListener('click', () => openNewEntry());
+
   function applyInlineSelection(rich,kind) {
     const selection=window.getSelection();if(!selection?.rangeCount)return;
     checkpoint();const range=selection.getRangeAt(0),template=document.createElement('template');template.innerHTML=shortcodeChip(inlineSource(kind,[selection.toString()]));const token=template.content.firstChild;
@@ -384,6 +459,9 @@ const initialize = () => {
     const rich=selection.anchorNode?.parentElement?.closest('[data-rich]');
     if(!rich||!root.contains(rich)||!rich.contains(selection.focusNode)){toolbar.hidden=true;return;}
     savedRange=selection.getRangeAt(0).cloneRange();
+    for(const button of root.querySelectorAll('[data-format]')) if(['bold','italic','strikeThrough','insertOrderedList','insertUnorderedList'].includes(button.dataset.format)) {
+      button.setAttribute('aria-pressed',String(document.queryCommandState(button.dataset.format)));
+    }
     if(selection.isCollapsed||root.querySelector('dialog[open]')){toolbar.hidden=true;return;}
     const rect=savedRange.getBoundingClientRect();toolbar.hidden=false;
     const width=toolbar.getBoundingClientRect().width;
@@ -405,16 +483,21 @@ const initialize = () => {
   });
   function inlinePreview() {const kind=$('[data-inline-kind]').value,args=[...root.querySelectorAll('[data-dialog-arg]')].map(el=>el.value).filter((value,i)=>kind!=='ruby'||i<2||value);$('[data-inline-preview]').innerHTML=shortcodeChip(inlineSource(kind,args));}
   $('[data-inline-args]').addEventListener('input',inlinePreview);
-  function changeSide(side) {root.dataset.side=side;root.removeAttribute('data-sidebar-hidden');root.querySelectorAll('[data-side-panel]').forEach(panel=>panel.hidden=panel.dataset.sidePanel!==side);root.querySelectorAll('[data-side-button]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.sideButton===side)));}
+  function changeSide(side) {const previous=root.dataset.side;root.dataset.side=side;root.removeAttribute('data-sidebar-hidden');root.querySelectorAll('[data-side-panel]').forEach(panel=>panel.hidden=panel.dataset.sidePanel!==side);root.querySelectorAll('[data-side-button]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.sideButton===side)));if(previous!==side)revealPanel(root.querySelector(`[data-side-panel="${side}"]`));}
   function setLayout(layout) {root.dataset.layout=layout; if(layout==='preview')changeView('preview');}
   function changeMode(mode) {
+    const previous=root.dataset.mode;
     if(mode==='visual'&&sourcePending!==null&&!applySource())return false;
     root.dataset.mode=mode;$('#ve-canvas').hidden=mode!=='visual';$('#ve-source').hidden=mode!=='source';
     root.querySelectorAll('button[data-mode]').forEach(button=>{const active=button.dataset.mode===mode;button.setAttribute('aria-selected',String(active));button.tabIndex=active?0:-1;});
     if(mode==='source'){$('[data-source]').value=sourcePending??exportMarkdown(draft);updateSourceLines();$('[data-source]').focus();}
+    if(previous!==mode)revealPanel(mode==='visual'?$('#ve-canvas'):$('#ve-source'));
     return true;
   }
+  const motionCleanups=[...root.querySelectorAll('[role="tablist"]')].map(enhanceTabRail);
+  document.addEventListener('astro:before-swap',()=>motionCleanups.forEach(cleanup=>cleanup?.()),{once:true});
   root.querySelectorAll('[data-side-button]').forEach(button=>button.addEventListener('click',()=>{changeSide(button.dataset.sideButton);if(button.dataset.sideButton==='files')$('[data-existing-open]').click();}));
+  root.querySelectorAll('[data-sidebar-close]').forEach(button=>button.addEventListener('click',()=>{root.setAttribute('data-sidebar-hidden','');$('[data-existing-open]').focus();}));
   $('[data-sidebar-toggle]').addEventListener('click',()=>root.toggleAttribute('data-sidebar-hidden'));
   root.querySelectorAll('button[data-layout]').forEach(button=>button.addEventListener('click',()=>setLayout(root.dataset.layout===button.dataset.layout?'split':button.dataset.layout)));
   root.querySelectorAll('button[data-mode]').forEach(button=>button.addEventListener('click',()=>changeMode(button.dataset.mode)));
@@ -437,15 +520,16 @@ const initialize = () => {
   }
   function applySource() {
     if(sourcePending===null)return true;
-    try {const next=importMarkdown(sourcePending,draft.kind,draft.path);next.baseSha=draft.baseSha;next.baseContent=draft.baseContent;checkpoint();draft=next;clearPendingSource();renderFields();renderBlocks();changed(true);return true;}
+    try {const next=importMarkdown(sourcePending,draft.kind,draft.path);next.baseSha=draft.baseSha;next.baseContent=draft.baseContent;next.create=draft.create;next.assets=draft.assets;checkpoint();draft=next;clearPendingSource();renderFields();renderBlocks();changed(true);return true;}
     catch {$('[data-source-error]').textContent=copy.sourceError;$('[data-source-error]').hidden=false;$('[data-copy]').disabled=true;return false;}
   }
   $('[data-source]').addEventListener('keydown',event=>{if(event.key==='Tab'){event.preventDefault();const area=event.target;area.setRangeText('  ',area.selectionStart,area.selectionEnd,'end');queueSource();}});
-  function insertBlock(type) {
+  function insertBlock(type, ordered=false) {
     if(!blockTypes.includes(type))return;
     if(sourcePending!==null&&!applySource())return;
-    checkpoint();const block=newBlock(type),index=draft.blocks.findIndex(b=>b.id===activeBlockId);
-    draft.blocks.splice(index<0?draft.blocks.length:index+1,0,block);changeMode('visual');setLayout('split');renderBlocks(block.id);changed(true);blockElement(block.id)?.scrollIntoView({block:'center'});
+    checkpoint();const block=type==='list'?{...newBlock('paragraph'),text:ordered?'1. ':'- '}:newBlock(type),index=draft.blocks.findIndex(b=>b.id===activeBlockId);
+    const replace=insertOnly&&draft.blocks[index]?.type==='paragraph'&&!draft.blocks[index].text.trim();
+    draft.blocks.splice(index<0?draft.blocks.length:replace?index:index+1,replace?1:0,block);changeMode('visual');setLayout('split');renderBlocks(block.id);changed(true);blockElement(block.id)?.scrollIntoView({block:'center'});
     if(!['paragraph','heading','table','list','quote','divider'].includes(type)){changeView('properties');if(innerWidth<=900)root.dataset.layout='preview';}
   }
   let commandItems=[],commandIndex=0,insertOnly=false;
@@ -462,7 +546,8 @@ const initialize = () => {
     {label:copy.writeOnly,run:()=>setLayout('write')},
     {label:copy.split,run:()=>setLayout('split')},
     {label:copy.metadata,run:()=>changeSide('properties')},
-    ...blockTypes.map(type=>({label:copy.blocks[type],shortcut:copy.insert,keywords:type,run:()=>insertBlock(type)})),
+    {label:copy.numberList,shortcut:copy.insert,keywords:'ordered numbered list 有序 编号',run:()=>insertBlock('list',true)},
+    ...blockTypes.map(type=>({label:type==='list'?copy.bulletList:copy.blocks[type],shortcut:copy.insert,keywords:type,run:()=>insertBlock(type)})),
   ];
   function renderCommands() {const query=$('[data-command-search]').value.toLocaleLowerCase().replace(/^\//,'').trim();commandItems=commandActions().filter(item=>(!insertOnly||item.shortcut===copy.insert)&&`${item.label} ${item.keywords||''}`.toLocaleLowerCase().includes(query));commandIndex=0;$('[data-command-results]').innerHTML=commandItems.length?commandItems.map((item,i)=>`<button id="ve-command-${i}" data-command-index="${i}" role="option" aria-selected="${i===0}"><span>${escapeHtml(item.label)}</span><small>${escapeHtml(kbdLabel(item.shortcut||''))}</small></button>`).join(''):`<p class="ve-hint">${copy.noCommands}</p>`;updateCommandSelection();}
   function updateCommandSelection() {const buttons=[...root.querySelectorAll('[data-command-index]')];buttons.forEach((b,i)=>b.setAttribute('aria-selected',String(i===commandIndex)));const current=buttons[commandIndex];if(current){$('[data-command-search]').setAttribute('aria-activedescendant',current.id);current.scrollIntoView({block:'nearest'});}else $('[data-command-search]').removeAttribute('aria-activedescendant');}
@@ -510,6 +595,88 @@ const initialize = () => {
   root.addEventListener('dragend',()=>{draggedBlock=null;root.querySelectorAll('.is-dragover').forEach(el=>el.classList.remove('is-dragover'));});
   window.addEventListener('beforeunload',event=>{if(!saving){event.preventDefault();event.returnValue='';}});
 
+  const imageURLs = new Map();
+  let selectedImageFiles = [], preparingImages = false;
+  async function localImageURL(asset) {
+    if(imageURLs.has(asset.id))return imageURLs.get(asset.id);
+    const blob=await attachmentFile(asset.id);
+    if(!blob)return asset.previewUrl || asset.url;
+    const url=URL.createObjectURL(blob);imageURLs.set(asset.id,url);return url;
+  }
+  async function refreshAttachmentPreviews() {
+    for(const asset of draft.assets || []) {
+      try {const url=await localImageURL(asset);root.querySelectorAll('.ve-canvas img,[data-preview] img').forEach(img=>{if(img.getAttribute('src')===asset.url)img.src=url;});} catch { /* Missing local files remain recoverable through the attachment panel. */ }
+    }
+  }
+  async function renderAttachments() {
+    const list=$('[data-image-list]');list.replaceChildren();
+    for(const asset of draft.assets || []) {
+      const row=document.createElement('div');row.className='ve-attachment-row';
+      row.innerHTML=`<img alt=""/><div><p>${escapeHtml(asset.name || asset.path.split('/').pop())} · ${Math.ceil(asset.size/1024)} KB</p><p class="ve-hint">${escapeHtml(asset.source)}</p><div class="ve-row-tools"><button data-image-insert="${asset.id}">${tc('插入正文')}</button><button data-image-cover="${asset.id}">${tc('设为封面')}</button><button data-image-remove="${asset.id}">${tc('移除附件')}</button></div></div>`;
+      list.append(row);try {row.querySelector('img').src=await localImageURL(asset);}catch{}
+    }
+  }
+  function openImages(files=[]) {
+    selectedImageFiles=files;$('[data-image-files]').value='';$('[data-image-selection]').textContent=files.map(f=>f.name).join('、');
+    $('[data-image-feedback]').textContent='';renderAttachments();$('[data-attachments-dialog]').showModal();
+  }
+  $('[data-attachments-open]').addEventListener('click',()=>openImages());
+  $('[data-image-files]').addEventListener('change',event=>{selectedImageFiles=[...event.target.files];$('[data-image-selection]').textContent=selectedImageFiles.map(f=>f.name).join('、');});
+  $('[data-image-add]').addEventListener('click',async()=>{
+    if(preparingImages)return;
+    const targetDraft=draft,button=$('[data-image-add]'),feedback=$('[data-image-feedback]');
+    try {
+      if(!selectedImageFiles.length)throw Error(tc('请先选择、拖入或粘贴图片。'));
+      if((draft.assets?.length || 0)+selectedImageFiles.length>8)throw Error(tc('最多添加 8 张图片。'));
+      preparingImages=true;button.disabled=true;feedback.textContent=tc('正在保存原图…');
+      const next=[];
+      for(const file of selectedImageFiles)next.push(await prepareImage(file,$('[data-image-source]').value,$('[data-image-alt]').value));
+      if(draft!==targetDraft)throw Error('词条已变化，请重新选择图片。');
+      const assets=[...new Map([...(draft.assets || []),...next].map(a=>[a.id,a])).values()];
+      if(assets.reduce((n,a)=>n+a.size,0)>4000000)throw Error(tc('附件合计不能超过 4 MB。'));
+      checkpoint();draft.assets=assets;changed(true);await renderAttachments();selectedImageFiles=[];$('[data-image-files]').value='';$('[data-image-selection]').textContent='';feedback.textContent=tc('已保存在本机，提交审核时上传。');
+    }catch(error){feedback.textContent=tc(error.message);}finally{preparingImages=false;button.disabled=false;}
+  });
+  $('[data-image-list]').addEventListener('click',event=>{
+    const button=event.target.closest('button');if(!button)return;
+    const id=button.dataset.imageInsert || button.dataset.imageCover || button.dataset.imageRemove;
+    if(!applySource()){$('[data-image-feedback]').textContent=tc('请先修正源码，再操作附件。');return;}
+    const asset=draft.assets?.find(a=>a.id===id);if(!asset)return;
+    if(button.hasAttribute('data-image-remove') && exportMarkdown(draft).includes(asset.url)){$('[data-image-feedback]').textContent=tc('请先移除正文或封面中的图片引用，再移除附件。');return;}
+    checkpoint();
+    if(button.hasAttribute('data-image-insert')) {const block={...newBlock('image'),url:asset.url,text:asset.alt || asset.name || '',caption:asset.source};draft.blocks.push(block);renderBlocks(block.id);$('[data-attachments-dialog]').close();}
+    if(button.hasAttribute('data-image-cover')) {draft.meta.image=asset.url;renderFields();$('[data-attachments-dialog]').close();changeSide('properties');}
+    if(button.hasAttribute('data-image-remove')){draft.assets=draft.assets.filter(a=>a.id!==id);renderAttachments();}
+    changed(true);
+  });
+  root.addEventListener('paste',event=>{const files=[...(event.clipboardData?.files || [])];if(files.length){event.preventDefault();openImages(files);}},true);
+  root.addEventListener('dragover',event=>{if(event.dataTransfer?.types.includes('Files'))event.preventDefault();});
+  root.addEventListener('drop',event=>{const files=[...(event.dataTransfer?.files || [])];if(files.length){event.preventDefault();openImages(files);}},true);
+  root.querySelectorAll('[data-dialog-close]').forEach(button=>button.addEventListener('click',()=>button.closest('dialog').close()));
+  function openNewEntry() {$('[data-new-feedback]').textContent='';$('[data-new-form]').elements.kind.value=draft.kind;$('[data-new-form]').elements.locale.value=draft.meta.locale;$('[data-new-dialog]').showModal();}
+  $('[data-new-open]').addEventListener('click',openNewEntry);
+  $('[data-previous-draft]').addEventListener('click',()=>{
+    try {
+      const previous=JSON.parse(localStorage.getItem(key+':previous') || 'null');
+      if(!previous)throw Error(tc('没有上一份本地草稿。'));
+      if(sourcePending!==null&&!applySource())throw Error(tc('请先修正源码，再创建新条目。'));
+      localStorage.setItem(key+':previous',JSON.stringify(draft));
+      checkpoint();clearPendingSource();draft=previous;renderFields();renderBlocks();changed(true);$('[data-new-dialog]').close();
+    }catch(error){$('[data-new-feedback]').textContent=tc(error.message);}
+  });
+  $('[data-new-form]').addEventListener('submit',event=>{
+    event.preventDefault();const form=event.target;
+    try {
+      const kind=form.elements.kind.value,locale=form.elements.locale.value,folder=form.elements.folder.value.trim();
+      const path=newEntryPath(kind,locale,folder);
+      if(sourcePending!==null&&!applySource())throw Error(tc('请先修正源码，再创建新条目。'));
+      localStorage.setItem(key+':previous',JSON.stringify(draft));
+      checkpoint();clearPendingSource();draft=newDraft(kind,locale);draft.create=true;draft.path=path;draft.baseSha=null;draft.baseContent='';draft.assets=[];
+      draft.meta[kind==='artists'?'name':'title']=form.elements.title.value.trim();draft.meta.translationKey=folder.replaceAll('/','-');
+      renderFields();renderBlocks();changed(true);changeSide('properties');$('[data-new-dialog]').close();
+      const url=new URL(location.href);url.searchParams.delete('target');window.history.replaceState(null,'',url);
+    }catch(error){$('[data-new-feedback]').textContent=tc(error.message);}
+  });
   renderFields(); renderBlocks(); output();
   $('[data-save-status]').textContent = saving ? copy.saved : copy.unsaved;
   try { const recovered=localStorage.getItem(sourceKey);if(recovered!==null){sourcePending=recovered;changeMode('source');$('[data-source-error]').hidden=false;$('[data-source-error]').textContent=copy.sourceRecovered;} } catch { /* Optional draft recovery. */ }
@@ -517,15 +684,24 @@ const initialize = () => {
     snapshot() {
       if (root.hasAttribute('aria-busy')) throw new Error('词条还在加载，请稍后再试。');
       if (!applySource()) throw new Error('源码存在格式错误，请先修正后再提交。');
-      if (!draft.path || !sourceRequest(draft.path) || draft.needsOriginal) throw new Error('请先通过“编辑已有词条”载入一个词条。');
+      if (!draft.path || !sourceRequest(draft.path) || (draft.needsOriginal && !draft.create)) throw new Error('请先通过“编辑已有词条”载入一个词条。');
       const errors = [...validateDraft(draft), ...advancedErrors(draft.meta)];
       if (errors.length) throw new Error(`请先修正词条属性：${errors.map(label).join('、')}`);
-      return { path: draft.path, kind: draft.kind, title: draft.meta.name || draft.meta.title, baseSha:draft.baseSha, baseContent:draft.baseContent, content: exportMarkdown(draft) };
+      return { path: draft.path, kind: draft.kind, title: draft.meta.name || draft.meta.title, baseSha:draft.baseSha, baseContent:draft.baseContent, create:draft.create === true, assets:draft.assets || [], content: exportMarkdown(draft) };
+    },
+    async uploadAttachments(api, accountId, snapshot) {
+      const ids=[];
+      for(const asset of snapshot.assets || []) {
+        const blob=await attachmentFile(asset.id);
+        if(blob){const receipt=await api('/api/editor/assets','POST',{accountId,content:await imageBase64(blob),source:asset.source});if(receipt.id!==asset.id)throw Error('图片校验失败，请重新选择。');}
+        ids.push(asset.id);
+      }
+      return ids;
     },
     restore(submission) {
       if (hasWork() && !window.confirm(copy.replace)) return false;
       const imported = importMarkdown(submission.content, submission.kind, submission.path);
-      imported.baseSha=submission.baseSha;imported.baseContent=submission.baseContent??null;
+      imported.baseSha=submission.baseSha;imported.baseContent=submission.baseContent??null;imported.create=submission.create === true;imported.assets=submission.assets || [];
       checkpoint(); clearPendingSource(); draft = imported; renderFields(); renderBlocks(); changed(true);
       const url = new URL(location.href); url.searchParams.set('target', draft.path);
       window.history.replaceState(null, '', url);

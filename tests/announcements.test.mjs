@@ -78,12 +78,12 @@ test('drafts are excluded from production selection and visible only when reques
   assert.deepEqual(entries, [published, draft]);
 });
 
-test('V2.3.0 is the production announcement and matches the site version in all five locales', async () => {
+test('V2.4.0 is the prepared release announcement and matches the site version in all five locales', async () => {
   const pkg = JSON.parse(await readFile(new URL('../package.json', import.meta.url), 'utf8'));
-  assert.equal(pkg.version, '2.3.0');
+  assert.equal(pkg.version, '2.4.0');
   for (const locale of [...locales, 'zh-tw', 'zh-hk']) {
-    const current = await entryFor('2026-09-13-v2-3-0', locale);
-    const previous = await entryFor('2026-09-09-v2-2-0', locale);
+    const current = await entryFor('2026-09-14-v2-4-0', locale);
+    const previous = await entryFor('2026-09-13-v2-3-0', locale);
     const site = await readFile(new URL(`../src/content/site/${locale}.json`, import.meta.url), 'utf8');
     assert.equal(current.data.draft, false);
     assert.equal(current.data.pinned, true);
@@ -146,4 +146,14 @@ $E=mc^2$
   const { html } = await renderAnnouncement({ filePath, id: 'fixture', data: { locale: 'zh', summary: 'Fallback should not appear' } });
   for (const pattern of [/<h2\b/, /<ul>/, /<table>/, /<ruby>/, /wiki-spoiler/, /class="katex"/]) assert.match(html, pattern);
   assert.doesNotMatch(html, /<script|onerror=|javascript:|Fallback should not appear/);
+});
+
+
+test('V2.4.0 renders its navigation and account links in every locale',async()=>{
+  for(const locale of [...locales,'zh-tw','zh-hk']){
+    const rendered=await renderAnnouncement(await entryFor('2026-09-14-v2-4-0',locale));
+    assert.match(rendered.html,/<h2\b/);
+    for(const route of ['contribute/','contribute/editor/','account/','#social-contact'])assert.ok(rendered.html.includes(`href="/${locale}/${route}"`));
+    assert.doesNotMatch(rendered.html,/href="[^"]*\/contact\//);
+  }
 });

@@ -6,7 +6,7 @@ type: "SITE UPDATE"
 title: "V2.3.0：在 Wiki 里编辑，一起完善词条"
 summary: "站内编辑投稿上线：登录后可保存云端草稿、提交修改，并在站内查看 GitHub PR 的审核评论与进度。继续修改会更新同一份投稿，内容仍由维护者审核后发布。"
 order: -6
-pinned: true
+pinned: false
 draft: false
 ---
 各位观测者，大家好。

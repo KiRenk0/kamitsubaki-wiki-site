@@ -28,6 +28,11 @@ const { navItems, localeLinks, brandLines, homeHref = '/', compact = false } = A
 
 const labsLabel = 'LABs';
 const currentLocale = localeLinks.find((item) => item.current)?.code ?? 'en';
+const preferencesCopy = resolveLocaleCopy({
+  zh: {language: '语言', theme: '外观', hint: '中文简繁可展开'},
+  ja: {language: '言語', theme: '外観', hint: '中国語の字体を選択'},
+  en: {language: 'Language', theme: 'Theme', hint: 'Chinese variants ▾'},
+}, currentLocale);
 const menuCopy = resolveLocaleCopy({
   zh:{menu:'菜单',title:'探索与设置',about:'关于本站',experiences:'互动体验',database:'艺人资料',songs:'歌曲',albums:'专辑',projects:'企划',game:'游戏'},
   ja:{menu:'メニュー',title:'探索と設定',about:'サイトについて',experiences:'体験',database:'アーティスト',songs:'楽曲',albums:'アルバム',projects:'プロジェクト',game:'ゲーム'},
@@ -85,17 +90,23 @@ const themeCopy = resolveLocaleCopy({
       <div class="home-chrome__panel">
         <p class="home-chrome__eyebrow">{menuCopy.title} <kbd data-search-shortcut>Ctrl+K</kbd></p>
         <div class="home-chrome__links">
-          <a href={`/${currentLocale}/account/`} data-account-nav>{accountCopy(currentLocale).title}</a>
-          {navItems.map((item, index) => <a href={item.href}><small aria-hidden="true">{String(index + 1).padStart(2, '0')}</small>{itemLabel(item)}<span aria-hidden="true">↗</span></a>)}
+          <a href={`/${currentLocale}/account/`} data-account-nav style="--menu-step:0">{accountCopy(currentLocale).title}</a>
+          {navItems.map((item, index) => <a href={item.href} style={`--menu-step:${index + 1}`}><small aria-hidden="true">{String(index + 1).padStart(2, '0')}</small>{itemLabel(item)}<span aria-hidden="true">↗</span></a>)}
         </div>
         <div class="site-nav__controls-origin" data-home-nav-controls-origin>
           <div class="site-nav__portable-controls" data-home-nav-portable-controls>
-            <div class="home-chrome__preferences">
-              <CompactLanguageSwitcher localeLinks={localeLinks} />
+            <div class="home-chrome__preferences" style={`--menu-step:${navItems.length + 1}`}>
+              <div class="home-chrome__preference-row home-chrome__preference-row--language">
+                <span class="home-chrome__preference-label">{preferencesCopy.language}<small class="home-chrome__preference-hint">{preferencesCopy.hint}</small></span>
+                <CompactLanguageSwitcher localeLinks={localeLinks} />
+              </div>
+              <div class="home-chrome__preference-row">
+                <span class="home-chrome__preference-label">{preferencesCopy.theme}</span>
               <div class="site-nav__theme-switcher" data-theme-switcher role="radiogroup" aria-label={themeCopy.groupLabel}>
                 {themeCopy.options.map((option: { value: string; shortLabel: string; label: string }) => (
                   <button type="button" class="site-nav__theme-option" data-theme-toggle data-theme-value={option.value} role="radio" aria-checked="false" aria-label={option.label} title={option.label}>{option.shortLabel}</button>
                 ))}
+              </div>
               </div>
             </div>
           </div>

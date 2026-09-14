@@ -22,6 +22,8 @@ import '../styles/mediaSwitcher.css';
 import '../styles/reader.css';
 import '../styles/readerFormats.css';
 import '../styles/polish.css';
+import '../styles/experienceMotion.css';
+import '../styles/navigationMotion.css';
 
 type PageMetadata = {
   title?: string;
@@ -42,6 +44,7 @@ const {
   alternates = [],
   metadata = {},
   reading = false,
+  fontDisplay = 'optional',
 } = Astro.props as {
   title?: string;
   lang?: string;
@@ -51,6 +54,7 @@ const {
   }[];
   metadata?: PageMetadata;
   reading?: boolean;
+  fontDisplay?: 'optional' | 'swap';
 };
 
 const localizedSiteName = getLocalizedSiteName(lang);
@@ -84,13 +88,30 @@ const siteContent = getLocalizedSite(siteEntries, lang);
 const aiChatCopy = siteContent?.aiChat;
 const socialContactCopy = siteContent?.socialContact;
 const liveEventsCopy = siteContent?.liveEvents;
-const fontStylesheet = getLocaleFontStylesheet(lang);
+const fontStylesheet = getLocaleFontStylesheet(lang).replace('display=optional', `display=${fontDisplay}`);
 ---
 
 <!doctype html>
 <html lang={languageTag} class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
+    <script is:inline>
+      if ('onpagereveal' in window) {
+        document.documentElement.dataset.nativePageMotion = 'true';
+        window.addEventListener('pagereveal', event => {
+          if (!event.viewTransition) return;
+          if (matchMedia('(prefers-reduced-motion: reduce)').matches || document.documentElement.classList.contains('site-intro-enabled')) {
+            event.viewTransition.skipTransition(); return;
+          }
+          const activation = window.navigation?.activation;
+          document.documentElement.dataset.pageDirection = activation?.navigationType === 'traverse' && activation.entry?.index < activation.from?.index ? 'back' : 'forward';
+          document.querySelectorAll('.reveal-up').forEach(element => {
+            const bounds = element.getBoundingClientRect();
+            if (bounds.bottom > 0 && bounds.top < innerHeight) element.classList.add('active');
+          });
+        });
+      }
+    </script>
     <script is:inline define:vars={{ isLocalizedHome }}>
       (() => {
         const storageKey = 'kamitsubaki-theme';
@@ -172,7 +193,7 @@ const fontStylesheet = getLocaleFontStylesheet(lang);
     <link href={fontStylesheet} rel="stylesheet" />
   </head>
   <body class:list={['antialiased font-sans selection:bg-white selection:text-black', { 'wiki-reading-page': reading, 'site-home': isLocalizedHome }]} id="body-wrap">
-    {isLocalizedHome && <SiteIntro />}
+    {isLocalizedHome && <SiteIntro locale={lang} />}
     <div id="preloader" data-page-transition aria-hidden="true">
       <div class="flex flex-col items-center">
         <div class="preloader-line mb-4"></div>
@@ -183,10 +204,10 @@ const fontStylesheet = getLocaleFontStylesheet(lang);
     </div>
 
     <div class="noise-bg"></div>
-    <div class="cursor-dot hidden md:block" id="cursor" aria-hidden="true"></div>
 
     <slot />
     <AccountChrome locale={lang} />
+    <div id="cursor" class="cursor-dot" aria-hidden="true"></div>
     <SiteSearch lang={lang} />
     <ToolsDock lang={lang}>
       {isLocalizedHome && liveEventsCopy && <LiveEventsWidget lang={lang} copy={liveEventsCopy} />}
@@ -195,6 +216,7 @@ const fontStylesheet = getLocaleFontStylesheet(lang);
     {aiChatCopy && <AiChatWidget lang={lang} copy={aiChatCopy} />}
 
     <script>
+      import '../scripts/navigationMotion.js';
       import '../scripts/themeToggle.js';
       import '../scripts/siteInteractions.js';
       import '../scripts/readerEnhancements.js';

@@ -65,7 +65,7 @@
       "Studio",
       "Fan Wiki"
     ],
-    "systemVersion": "SYS.VER_2.3.0",
+    "systemVersion": "SYS.VER_2.4.0",
     "coordinates": "COORD: 35.6620° N, 139.7038° E",
     "status": "STATUS: OBSERVING",
     "leftVertical": "音楽と物語で、世界を少しだけ変える。",
@@ -125,7 +125,7 @@
       },
       {
         "label": "CONTRIBUTE",
-        "href": "/ja/contribute/edit"
+        "href": "/ja/contribute/"
       },
       {
         "label": "CONTACT",
@@ -195,7 +195,7 @@
       },
       {
         "label": "Contribute",
-        "href": "/ja/contribute/edit",
+        "href": "/ja/contribute/",
         "handle": "Wiki を一緒に更新する",
         "icon": "link"
       }

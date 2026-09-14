@@ -1,0 +1,70 @@
+---
+import TableOfContents from './TableOfContents.astro';
+import ResponsiveImage from './ResponsiveImage.astro';
+
+interface Props {
+  headings?: {depth: number; slug: string; text: string}[];
+  contentsTitle?: string;
+  /** entry: article + optional info card; essay: continuous prose; guide: compact tabbed document. */
+  variant?: 'entry' | 'essay' | 'guide';
+  hasContent?: boolean;
+  class?: string;
+  proseClass?: string;
+  /** Existing entry cover; omit for documents without a header image. */
+  backgroundImage?: string;
+}
+const {headings = [], contentsTitle = 'Contents', variant = 'essay', hasContent = true, class: className, proseClass = '', backgroundImage} = Astro.props;
+const hasToc = hasContent && headings.some(h => h.depth === 2 || h.depth === 3);
+const guide = variant === 'guide';
+---
+{backgroundImage && <div class="reader-artwork" aria-hidden="true" style="position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none"><ResponsiveImage src={backgroundImage} widths={[480,960]} sizes="100vw" alt="" loading="eager" style="width:100%;height:100%;object-fit:cover;object-position:center 30%;filter:blur(40px) saturate(.85);transform:scale(1.14)" /></div>}
+<div data-reader data-reader-variant={variant} class:list={[
+  guide ? 'hub-reading-layout' : 'reader-layout grid items-start gap-8',
+  variant === 'essay' && 'reader-layout--essay',
+  variant === 'entry' && 'reader-frame mx-auto px-4 sm:px-6',
+  className,
+]}>
+  {hasToc && (guide ? (
+    <aside class="hub-toc">
+      <details class="hub-contents wiki-mobile-toc" open>
+        <summary>{contentsTitle}</summary>
+        <TableOfContents headings={headings} title={contentsTitle} />
+      </details>
+    </aside>
+  ) : (
+    <aside class="reader-toc-column">
+      <TableOfContents headings={headings} title={contentsTitle} />
+    </aside>
+  ))}
+  {hasContent && (
+    <div class:list={[guide ? 'hub-prose' : 'reader-body', 'min-w-0']}>
+      {hasToc && !guide && (
+        <details class="wiki-mobile-toc mb-8">
+          <summary>{contentsTitle}</summary>
+          <TableOfContents headings={headings} title={contentsTitle} />
+        </details>
+      )}
+      {variant === 'entry' ? <slot /> : (
+        <article class:list={['wiki-reader wiki-prose prose prose-invert max-w-none', proseClass]}><slot /></article>
+      )}
+    </div>
+  )}
+  {!hasContent && <slot name="empty" />}
+  {Astro.slots.has('sidebar') && <aside class="reader-sidebar w-full mx-auto"><slot name="sidebar" /></aside>}
+</div>
+
+<style>
+  :global(body:has([data-reader])) {overflow-x:clip}
+  .hub-reading-layout{display:grid;grid-template-columns:210px minmax(0,1fr);gap:38px;align-items:start}
+  .hub-toc{position:sticky;top:var(--reader-sticky-top,100px);min-width:0;align-self:start}
+  .hub-contents > summary{display:none;font:500 .85rem/1.5 var(--font-sans);color:var(--b-muted);cursor:pointer;padding:10px 0}
+  .hub-prose{min-width:0;overflow-wrap:anywhere}
+  @media(max-width:760px){
+    .hub-reading-layout{grid-template-columns:1fr;gap:24px}
+    .hub-toc{z-index:20}
+    .hub-contents{border-block:1px solid var(--b-line);background:var(--theme-bg)}
+    .hub-contents > summary{display:list-item}
+    .hub-contents :global(.wiki-toc){max-height:min(35dvh,calc(100dvh - var(--reader-sticky-top,100px) - 80px))}
+    .hub-contents :global(.wiki-toc > div:first-child){display:none}
+  }
+</style>

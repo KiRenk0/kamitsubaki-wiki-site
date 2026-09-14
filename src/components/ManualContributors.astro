@@ -256,6 +256,7 @@ function initials(name: string) {
 </section>
 
 <script>
+  import {createDisclosureMotion} from '../lib/disclosureMotion.mjs';
   import { orderSupporters } from '../lib/supporterOrder.mjs';
   import { loadCollaborators } from '../scripts/collaborators.js';
   import { directoryPage } from '../lib/collaboratorDirectory.mjs';
@@ -277,6 +278,8 @@ function initials(name: string) {
       const pagination = root.querySelector<HTMLElement>('[data-directory-pagination]');
       const previous = root.querySelector<HTMLButtonElement>('[data-directory-previous]');
       const next = root.querySelector<HTMLButtonElement>('[data-directory-next]');
+      const drawerMotion=drawer?createDisclosureMotion(drawer):null;
+      let detailIntent=0;
       let page = 0;
       let selectedId = '';
       let activeCard: HTMLButtonElement | undefined;
@@ -285,14 +288,12 @@ function initials(name: string) {
       shuffledCards.forEach((card) => grid?.append(card));
 
       const closeDetail = (restoreFocus = true) => {
+        detailIntent++;
         root.dataset.detailOpen = 'false';
-        cards.forEach((card) => card.setAttribute('aria-expanded', 'false'));
-        selectedId = '';
-        if (drawer) {
-          drawer.inert = true;
-          window.setTimeout(() => { if (!selectedId) drawer.hidden = true; }, 360);
-        }
-        if (restoreFocus) activeCard?.focus({ preventScroll: true });
+        cards.forEach(card=>card.setAttribute('aria-expanded','false'));
+        selectedId='';
+        if(drawer){drawer.inert=true;void drawerMotion?.setOpen(false,{immediate:!restoreFocus});}
+        if(restoreFocus)activeCard?.focus({preventScroll:true});
       };
 
       const positionDetail = () => {
@@ -301,7 +302,7 @@ function initials(name: string) {
         const columns = getComputedStyle(grid).gridTemplateColumns.split(' ').length;
         const index = visible.indexOf(activeCard);
         const end = Math.min(visible.length - 1, Math.floor(index / columns) * columns + columns - 1);
-        visible[end]?.after(drawer);
+        if(visible[end] && visible[end].nextElementSibling!==drawer)visible[end].after(drawer);
       };
 
       const updateDirectory = () => {
@@ -322,22 +323,25 @@ function initials(name: string) {
       };
 
       cards.forEach((card) => {
-        card.addEventListener('click', () => {
+        card.addEventListener('click', async () => {
           const id = card.dataset.contributorCard || '';
           if (selectedId === id && root.dataset.detailOpen === 'true') {
             closeDetail();
             return;
           }
 
-          details.forEach((detail) => {
-            detail.hidden = detail.dataset.contributorDetail !== id;
-          });
-          cards.forEach((item) => item.setAttribute('aria-expanded', String(item === card)));
-          selectedId = id;
-          activeCard = card;
-          if (drawer) { drawer.hidden = false; drawer.inert = false; }
+          const intent=++detailIntent;
+          const switching=Boolean(selectedId && activeCard!==card);
+          // Close before moving between rows; do not teleport an expanded panel.
+          if(switching&&drawer){drawer.inert=true;await drawerMotion?.setOpen(false);if(intent!==detailIntent)return;}
+          details.forEach(detail=>detail.hidden=detail.dataset.contributorDetail!==id);
+          cards.forEach(item=>item.setAttribute('aria-expanded',String(item===card)));
+          selectedId=id;activeCard=card;
           positionDetail();
-          requestAnimationFrame(() => { if (selectedId === id) root.dataset.detailOpen = 'true'; });
+          if(drawer)drawer.inert=false;
+          root.dataset.detailOpen='true';
+          await drawerMotion?.setOpen(true);
+
         });
       });
 
@@ -359,8 +363,8 @@ function initials(name: string) {
       next?.addEventListener('click', () => { closeDetail(false); page += 1; updateDirectory(); });
       const resizeObserver = new ResizeObserver(positionDetail);
       if (grid) resizeObserver.observe(grid);
-      root.addEventListener('collaborators:dispose', () => resizeObserver.disconnect(), { once: true });
-      document.addEventListener('astro:before-swap', () => resizeObserver.disconnect(), { once: true });
+      root.addEventListener('collaborators:dispose', () => {resizeObserver.disconnect();drawerMotion?.dispose();}, { once: true });
+      document.addEventListener('astro:before-swap', () => {resizeObserver.disconnect();drawerMotion?.dispose();}, { once: true });
       updateDirectory();
       loadCollaborators(root, initializeManualContributors);
 
@@ -417,13 +421,13 @@ function initials(name: string) {
   .manual-contributors__toggle i { font-style:normal; transition:transform 240ms ease; }
   .manual-contributors[data-list-expanded='true'] .manual-contributors__toggle i { transform:rotate(180deg); }
   .manual-contributors [hidden] { display:none !important; }
-  .manual-contributors__drawer { grid-column:1/-1; display:grid; grid-template-rows: 0fr; opacity:0; transition:grid-template-rows 360ms var(--ui-ease),opacity 240ms ease; }
-  .manual-contributors[data-detail-open='true'] .manual-contributors__drawer { grid-template-rows:1fr; opacity:1; }
+  .manual-contributors__drawer { grid-column:1/-1; display:block;overflow:hidden;opacity:1;overflow-anchor:none; }
+
   .manual-contributors__drawer-clip { min-height:0; overflow:hidden; }
   .manual-contributors__drawer-surface { position:relative; margin-top:0; padding:28px; border:1px solid rgb(var(--theme-accent-rgb)/.24); border-radius:12px; background:rgb(var(--theme-fg-rgb)/.025); }
   .manual-contributors__drawer-close { position:absolute; top:12px; right:12px; width:36px; height:36px; border:1px solid var(--ui-line); border-radius:8px; background:transparent; color:rgb(var(--theme-fg-rgb)/.55); font:22px/1 var(--font-sans); cursor:pointer; }
   .manual-contributors__drawer-close:hover { background:var(--ui-hover); color:var(--theme-fg); }
-  .manual-contributors__detail { display:grid; grid-template-columns:minmax(220px,.8fr) minmax(0,1.2fr); gap:24px 40px; padding-right:24px; align-items:start; animation:collaborator-enter 240ms ease; }
+  .manual-contributors__detail { display:grid; grid-template-columns:minmax(220px,.8fr) minmax(0,1.2fr); gap:24px 40px; padding-right:24px; align-items:start; }
   .manual-contributors__detail[hidden] { display:none; }
   .manual-contributors__identity { display:grid; grid-template-columns:64px minmax(0,1fr); gap:16px; align-items:center; }
   .manual-contributors__detail-avatar { width:64px; height:64px; }

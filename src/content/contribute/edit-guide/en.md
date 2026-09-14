@@ -240,9 +240,9 @@ prTemplate: |-
   - Help needed: [None, or remaining questions and checks not run]
 faqs:
   - question: What can I do without a GitHub account?
-    answer: Read the guide, edit in the visual editor and download a draft. Create and verify an account when ready to submit. You can also collect article links and concrete problems to report later.
+    answer: You can sign in to the Wiki with Google and submit existing-article edits in-site. A GitHub account is needed only for the direct GitHub workflow. You can also edit and download a local draft without signing in.
   - question: My draft is saved. Why has the website not changed?
-    answer: The draft lives only in this browser. Export it, save the change on GitHub and create a PR. The live page changes after review, merge and successful deployment.
+    answer: Saving a draft does not publish it. Submit for review in-site, or create a PR through GitHub. Both require review, merge and deployment. Browser drafts stay on this device; cloud drafts are saved manually in the submission panel.
   - question: I cannot find or load the file.
     answer: Check the language and path, then search Edit existing article. You can import the complete Raw file from GitHub. Guides, announcements and homepage copy must be edited on GitHub. Back up your current draft before retrying.
   - question: Checks failed or a reviewer requested changes.

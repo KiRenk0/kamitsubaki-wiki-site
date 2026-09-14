@@ -29,7 +29,7 @@
   pointer-events: auto;
   box-shadow: 0 4px 20px rgb(0 0 0 / .06);
 }
-.home-chrome__labs, .home-chrome__search, .home-chrome__menu > summary {
+.home-chrome__actions > .account-nav, .home-chrome__labs, .home-chrome__search, .home-chrome__menu > summary {
   display: flex;
   min-height: 44px;
   align-items: center;
@@ -88,17 +88,53 @@
 .home-chrome__links span { margin-left: auto; opacity: .4; }
 .home-chrome .site-nav__portable-controls { width: 100%; }
 .home-chrome__preferences {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 12px;
+  display: grid;
+  gap: 10px;
   width: 100%;
   margin-top: 16px;
   padding-top: 12px;
   border-top: 1px solid rgb(var(--theme-fg-rgb) / .1);
 }
-.home-chrome__preferences :is(.site-nav__language-switcher, .site-nav__theme-switcher) { grid-template-columns: repeat(3, 36px); }
-.home-chrome__preferences :is(button, a) { min-height: 44px; font-size: 10px; }
+.home-chrome__preference-row { display:flex; align-items:center; justify-content:space-between; gap:12px; min-width:0; }
+.home-chrome__preference-label { font:12px/1.5 var(--font-sans); color:rgb(var(--theme-fg-rgb)/.65); }
+.home-chrome__preferences :is(.site-nav__language-switcher, .site-nav__theme-switcher) {
+  grid-template-columns:repeat(3,44px); gap:4px; padding:4px; flex-shrink:0;
+  border:1px solid var(--ui-line); border-radius:var(--ui-radius-panel);
+  background:rgb(var(--theme-fg-rgb)/.025);
+}
+.home-chrome__preference-hint { display:block; margin-top:4px; font:10px/1.5 var(--font-sans); }
+.home-chrome__preferences .site-nav__language-family { width:44px; height:44px; }
+html body .home-chrome__preferences .site-nav__language-trigger { position:relative; }
+/* Keep the label centered in the same 44px cell as the other languages.
+   The disclosure arrow must not create a second grid row or shift the label. */
+html body .home-chrome__preferences .site-nav__language-trigger > .site-nav__language-chevron {
+  position:absolute; right:3px; top:50%; width:8px; height:8px;
+  margin-top:-4px; pointer-events:none;
+  transition:rotate 240ms cubic-bezier(.22,1,.36,1);
+}
+.site-nav__language-trigger[aria-expanded='true'] .site-nav__language-chevron { rotate:180deg; }
+@media(prefers-reduced-motion:reduce) {
+  html body .home-chrome__preferences .site-nav__language-trigger > .site-nav__language-chevron { transition:none; }
+}
+html body .home-chrome__preferences :is(.site-nav__language-switcher > a,.site-nav__language-trigger,.site-nav__theme-option) {
+  display:grid; place-items:center; box-sizing:border-box; width:44px; height:44px; min-height:44px;
+  padding:0; border:1px solid transparent; border-radius:var(--ui-radius-control);
+  font:11px/1 var(--font-mono); letter-spacing:0; color:rgb(var(--theme-fg-rgb)/.65);
+  background:transparent; transition:background-color 180ms,color 180ms,box-shadow 180ms,scale 280ms cubic-bezier(.22,1,.36,1);
+}
+html body .home-chrome__preferences :is(.site-nav__language-switcher > a,.site-nav__language-trigger,.site-nav__theme-option):hover {
+  background:var(--ui-hover); color:var(--theme-fg);
+}
+html body .home-chrome__preferences .site-nav__language-switcher > a { width:100%; }
+html body .home-chrome__preferences :is(a[aria-current='page'],[data-current-language='true'],.site-nav__theme-option[aria-checked='true']) {
+  background:var(--theme-panel-solid); color:var(--theme-accent-color); border-color:var(--ui-line);
+  box-shadow:0 2px 5px rgb(0 0 0/.08);
+}
+.home-chrome__preferences .site-nav__language-menu { background:var(--theme-panel-solid); }
+.home-chrome__preferences .site-nav__language-menu a { display:grid; place-items:center; min-height:44px; font-size:12px; }
+@media(prefers-reduced-motion:reduce) {
+  html body .home-chrome__preferences :is(a,button) { transition:none; }
+}
 .home-chrome__preferences .site-nav__language-menu { z-index: 2; top: auto; bottom: calc(100% + 6px); left: 0; transform: none; }
 .home-chrome__preferences .site-nav__language-family.is-open .site-nav__language-menu { transform: none; }
 .home-chrome__preferences .site-nav__language-menu::before { top: 100%; bottom: auto; }
