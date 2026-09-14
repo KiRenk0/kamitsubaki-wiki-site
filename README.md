@@ -1,5 +1,7 @@
 # KAMITSUBAKI Wiki Site
 
+[图片上传、路径与文件分类](docs/files-and-images.md) · [Wiki](https://kamitsubaki.wiki/zh/contribute/files/)
+
 非官方 KAMITSUBAKI STUDIO 粉丝百科，使用 Astro 构建为静态站点。
 
 这个仓库面向 GitHub Pull Request 工作流：贡献者编辑内容文件，在本地运行同一套检查，提交 PR，由 CI 验证后再合并和部署。
@@ -109,7 +111,7 @@ src/content/artists/vwp/kaf/zh.md
                     ^^^ 首页分类
 ```
 
-新增分类时，只需要新建第一层文件夹并放入三语条目。`categoryTitle`、`categorySubtitle`、`categoryOrder`、`itemOrder` 和 `code` 都是可选覆盖字段；不填写时，站点会从文件夹名、条目名和排序规则自动生成展示。
+新增分类时，只需要新建第一层文件夹并放入实际完成的语言条目。`categoryTitle`、`categorySubtitle`、`categoryOrder`、`itemOrder` 和 `code` 都是可选覆盖字段；不填写时，站点会从文件夹名、条目名和排序规则自动生成展示。
 
 ## 元数据与分享卡片
 
@@ -127,8 +129,8 @@ src/content/artists/vwp/kaf/zh.md
 
 1. 在 `src/content/artists/`、`src/content/albums/`、`src/content/songs/` 或 `src/content/projects/` 下选择正确分类。
 2. 为条目创建一个文件夹，例如 `src/content/artists/vwp/new-artist/`。
-3. 添加 `zh.md`、`ja.md`、`en.md`。
-4. 三个文件使用相同的 `translationKey`。
+3. 添加已完成的 `zh.md`、`ja.md` 或 `en.md`；后续补充其余翻译。
+4. 各语言文件使用相同的 `translationKey`。
 5. 艺人分类会从文件夹自动生成；需要自定义显示时再设置 `categoryTitle`、`categorySubtitle`、`categoryOrder`、`itemOrder` 或 `code`。
 6. 运行下面的验证命令。
 7. 发起 Pull Request。
@@ -204,6 +206,7 @@ CI 工作流位于 `.github/workflows/ci.yml`。
 
 - [贡献指南](docs/contributing.md)
 - [架构说明](docs/architecture.md)
+- [可复用阅读器组件](docs/reader-component.md)
 - [统一 AI 小组件](docs/ai-terminal.md)
 - [内容授权与来源标注](docs/licensing.md)
 - [外部链接品牌卡片](docs/external-links.md)

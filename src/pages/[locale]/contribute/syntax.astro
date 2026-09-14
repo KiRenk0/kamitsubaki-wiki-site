@@ -1,4 +1,5 @@
 ---
+import ContributionHubRedirect from '../../../components/ContributionHubRedirect.astro';
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import SiteNav from '../../../components/SiteNav.astro';
@@ -124,6 +125,7 @@ const metadata = {
   title={pageTitle}
   metadata={metadata}
 >
+  <ContributionHubRedirect locale={localeCode} document="syntax" />
   <SiteNav
     navItems={homeContent.navItems}
     localeLinks={localeLinks}

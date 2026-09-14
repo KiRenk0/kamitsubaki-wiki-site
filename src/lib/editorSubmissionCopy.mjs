@@ -1,6 +1,8 @@
 import { resolveLocaleCopy } from "./i18n.mjs";
 // Keys are the source-language UI text; article content is never passed through this map.
 const phrases = [
+  ['正在上传附件并提交…','Uploading images and submitting…','画像をアップロードして送信中…'],
+  ['含图片的草稿请保存在本机；提交审核时才会上传附件。','Keep image drafts on this device; images upload when you submit.','画像付きの下書きは端末に保存してください。添付は審査への送信時にアップロードします。'],
   ["恢复草稿", "Restore draft", "下書きを復元"],
   ["当前编辑内容", "Current edits", "現在の編集内容"],
   ["服务端草稿", "Server draft", "サーバーの下書き"],

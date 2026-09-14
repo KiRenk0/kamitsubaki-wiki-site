@@ -51,13 +51,12 @@ test('artist infobox and header render optional structured fields', async () => 
   assert.match(artistPage, /accentColor/);
 });
 
-test('artist detail sidebar scrolls with the main content from the beginning', async () => {
+test('artist detail delegates its information card to the shared reader', async () => {
   const artistPage = await readSource('../src/pages/[locale]/artists/[...id].astro');
-  const sidebar = artistPage.match(/<aside class:list=\{\[[\s\S]*?<WikiInfoBox/)?.[0] ?? '';
-
-  assert.notEqual(sidebar, '');
-  assert.doesNotMatch(sidebar, /\blg:sticky\b/);
-  assert.doesNotMatch(sidebar, /\blg:top-32\b/);
+  const reader = await readSource('../src/components/Reader.astro');
+  assert.match(artistPage, /<Reader\b[^>]*\bvariant="entry"/);
+  assert.match(artistPage, /<Fragment slot="sidebar">[\s\S]*?<WikiInfoBox/);
+  assert.match(reader, /reader-sidebar/);
 });
 
 test('artist display data preserves extended metadata from content files', async () => {

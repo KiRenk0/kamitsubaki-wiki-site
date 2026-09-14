@@ -1,5 +1,15 @@
 import { resolveLocaleCopy } from './i18n.mjs';
 const text = {
+  bulletList: ['无序列表','Bulleted list','箇条書き'],
+  numberList: ['有序列表','Numbered list','番号付きリスト'],
+  indent: ['增加缩进 · Tab','Indent · Tab','インデント · Tab'],
+  outdent: ['减少缩进 · Shift Tab','Outdent · Shift Tab','インデント解除 · Shift Tab'],
+  allKinds: ['全部类型','All types','すべての種類'],
+  results: ['个匹配词条','matching articles','件の記事'],
+  moreResults: ['显示前 50 条，请缩小搜索范围。','Showing the first 50. Refine your search.','先頭50件を表示中。検索を絞り込んでください。'],
+  retry: ['重新加载','Retry','再読み込み'],
+  writingHint: ['空行输入 / 插入；- 空格或 1. 空格创建列表。Enter 继续，空项目 Enter 退出，Tab 调整层级。','Use / on an empty block to insert; - space or 1. space starts a list. Enter continues; Enter on an empty item exits; Tab changes nesting.','空ブロックで / を入力して挿入。- または 1. の後にスペースでリスト。Enter で続行、空項目で Enter で終了、Tab で階層を変更。'],
+
   strike: ['删除线','Strikethrough','取り消し線'],
   workbench: ['词条编辑器','Article editor','記事エディター'],
   commands: ['搜索命令或插入内容…','Search commands or insert content…','コマンド検索・内容の挿入…'],
@@ -72,6 +82,12 @@ const text = {
   syntax: ['语法参考', 'Syntax reference', '構文リファレンス'],
   format: ['格式指南', 'Style guide', 'スタイルガイド'],
   metadata: ['词条资料', 'Article details', '記事情報'],
+  attachments: ['图片附件', 'Images', '画像添付'],
+  toolbarLeft: ['向左移动工具栏', 'Scroll toolbar left', 'ツールバーを左にスクロール'],
+  toolbarRight: ['向右移动工具栏', 'Scroll toolbar right', 'ツールバーを右にスクロール'],
+  blockProperties: ['内容块属性', 'Block properties', 'ブロックのプロパティ'],
+  entryProperties: ['词条属性', 'Article properties', '記事のプロパティ'],
+  propertiesHint: ['摘要、分类、排序等资料，提交前记得检查。', 'Review the summary, category and order before submitting.', '送信前に概要・分類・表示順などを確認してください。'],
   kind: ['词条类型', 'Article type', '記事の種類'],
   locale: ['内容语言', 'Content language', '本文の言語'],
   path: ['GitHub 文件路径（可选）', 'GitHub file path (optional)', 'GitHub ファイルパス（任意）'],

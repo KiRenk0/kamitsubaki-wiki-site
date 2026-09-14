@@ -1,3 +1,4 @@
+import {revealPanel} from '../lib/uiMotion.mjs';
 import { initializeLabsPanel } from './labsApp.js';
 import { createLabsCatalogLoader, labsSectionFromURL } from '../lib/labsNavigation.mjs';
 
@@ -11,7 +12,6 @@ function initializeTabs(shell) {
   const tabs = [...nav.querySelectorAll('[data-labs-tab]')];
   const sections = tabs.map(tab => tab.dataset.labsTab);
   const panels = new Map([...shell.querySelectorAll('[data-labs-panel]')].map(panel => [panel.dataset.labsPanel, panel]));
-  const indicator = nav.querySelector('[data-labs-indicator]');
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
   const routeOptions = { origin: location.origin, locale, sections };
   const urls = new Map(tabs.map(tab => [tab.dataset.labsTab, tab.href]));
@@ -19,20 +19,9 @@ function initializeTabs(shell) {
   const loadCatalog = createLabsCatalogLoader(locale);
   let active = shell.dataset.labsSection;
   let animation;
-  let resizeFrame;
 
   const historyState = () => ({ ...history.state, labs: true });
   const remember = () => urls.set(active, location.href);
-  function positionIndicator() {
-    const tab = tabs.find(tab => tab.dataset.labsTab === active);
-    indicator.style.width = `${tab.offsetWidth}px`;
-    indicator.style.height = `${tab.offsetHeight}px`;
-    indicator.style.transform = `translate3d(${tab.offsetLeft}px, ${tab.offsetTop}px, 0)`;
-  }
-  function positionSoon() {
-    cancelAnimationFrame(resizeFrame);
-    resizeFrame = requestAnimationFrame(positionIndicator);
-  }
   function updateDocument(section) {
     document.title = `${copy.tabs[sections.indexOf(section)]} · ${copy.title}`;
     const canonical = new URL(`/${locale}/labs/${section}/`, location.origin);
@@ -98,21 +87,11 @@ function initializeTabs(shell) {
       tab.tabIndex = selected ? 0 : -1;
     });
     updateDocument(section);
-    positionIndicator();
     initializePanel(section).activate();
     const tab = tabs[index];
-    // Scroll only the horizontal tab rail. The page itself stays in place.
-    if (tab.offsetLeft < nav.scrollLeft) nav.scrollTo({ left: tab.offsetLeft - 5, behavior: reducedMotion.matches ? 'instant' : 'smooth' });
-    else if (tab.offsetLeft + tab.offsetWidth > nav.scrollLeft + nav.clientWidth) {
-      nav.scrollTo({ left: tab.offsetLeft + tab.offsetWidth - nav.clientWidth + 5, behavior: reducedMotion.matches ? 'instant' : 'smooth' });
-    }
     if (focusWasInPanel && previous !== section) tab.focus({ preventScroll: true });
     if (animate && previous !== section && !reducedMotion.matches) {
-      const offset = index > sections.indexOf(previous) ? 20 : -20;
-      animation = panels.get(section).animate([
-        { opacity: .25, transform: `translateX(${offset}px)` },
-        { opacity: 1, transform: 'translateX(0)' },
-      ], { duration: 260, easing: 'cubic-bezier(.16, 1, .3, 1)' });
+      animation = revealPanel(panels.get(section), {direction: index > sections.indexOf(previous) ? 1 : -1});
     }
     return true;
   }
@@ -154,14 +133,9 @@ function initializeTabs(shell) {
     show(urls.get(target.dataset.labsTab), { push: true });
   });
   window.addEventListener('popstate', () => { show(location.href); });
-  window.addEventListener('resize', positionSoon, { passive: true });
-  new ResizeObserver(positionSoon).observe(nav);
-  document.fonts.ready.then(positionSoon);
   remember();
   history.replaceState(historyState(), '', location.href);
   show(location.href, { animate: false });
-  nav.classList.add('is-enhanced');
-  requestAnimationFrame(() => { nav.dataset.sliderReady = 'true'; });
   // Warm the shared metadata while the user reads the introduction.
   void loadCatalog().catch(() => {});
 }

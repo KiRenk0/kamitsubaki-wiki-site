@@ -1,0 +1,21 @@
+---
+const {locale,document:doc} = Astro.props as {locale:string;document:string};
+---
+<script is:inline define:vars={{hubLocale:locale,hubDocument:doc}}>
+ // Preserve bookmarks and source-file context while consolidating guide routes.
+ {
+  const url=new URL(location.href);
+  let doc=hubDocument;
+  if(doc==='editor'){
+   const old=url.hash.slice(1);
+   if(url.searchParams.get('workflow')==='github'||url.searchParams.has('task')||url.searchParams.has('mode')||(old&&old!=='editor-workflow'&&old!=='workflow-choice'))doc='github';
+  }
+  const oldHash=url.hash.slice(1);
+  url.pathname=`/${hubLocale}/contribute/`;
+  url.hash=doc;
+  // Section hashes in Markdown guides retain their namespaced destination.
+  if(oldHash&&['files','syntax','format'].includes(doc))url.hash=doc+'--'+oldHash;
+  if(doc==='github'&&/^(lesson|workshop)-/.test(oldHash))url.hash='github--'+oldHash;
+  location.replace(url.href);
+ }
+</script>

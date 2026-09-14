@@ -1,0 +1,82 @@
+---
+import WorkspaceHeader from '../../../components/WorkspaceHeader.astro';
+import WorkspaceNavigation from '../../../components/WorkspaceNavigation.astro';
+import {getCollection} from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import SiteNav from '../../../components/SiteNav.astro';
+import Reader from '../../../components/Reader.astro';
+import SiteFooter from '../../../components/SiteFooter.astro';
+import {getLocalizedSite} from '../../../lib/homeData.mjs';
+import {supportedLocales,buildLocaleLinks,resolveLocaleCopy} from '../../../lib/i18n.mjs';
+import {contributionHub,hubDocuments,hubOverview} from '../../../lib/contributionHub.mjs';
+import {editorGuide} from '../../../lib/editorGuide.mjs';
+import {renderMarkdownDocument} from '../../../lib/markdown.mjs';
+import {renderContentEntry} from '../../../lib/contentSource.mjs';
+import filesZh from '../../../../docs/files-and-images.md?raw';
+import filesEn from '../../../../docs/files-and-images.en.md?raw';
+import filesJa from '../../../../docs/files-and-images.ja.md?raw';
+import licenseZh from '../../../../docs/licensing.md?raw';
+import licenseEn from '../../../../docs/licensing.en.md?raw';
+import licenseJa from '../../../../docs/licensing.ja.md?raw';
+import '../../../styles/labs.css';
+import '../../../styles/contributionGuide.css';
+export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
+const {locale='zh'}=Astro.params;
+const copy=contributionHub(locale);
+const flow=editorGuide(locale);
+const [sites,editing,syntaxes,formats]=await Promise.all([getCollection('site'),getCollection('editGuide'),getCollection('syntaxGuide'),getCollection('formatGuide')]);
+const site=getLocalizedSite(sites,locale);
+const localized=(entries:any[])=>entries.find(e=>e.data.locale===locale)||entries.find(e=>e.data.locale==='zh');
+const guide=localized(editing).data;
+const steps=(items:string[][])=>items.map(([title,body])=>`## ${title}\n\n${body}`).join('\n\n');
+const editorMarkdown=`${flow.subtitle}\n\n${flow.scope}\n\n${steps(flow.steps)}\n\n## ${guide.ui.mapTitle}\n\n${steps(guide.map.map((item:any)=>[item.title,item.body]))}`;
+const githubMarkdown=`${flow.githubIntro}\n\n${steps(flow.githubSteps)}\n\n${guide.lessons.map((lesson:any)=>`<span id="lesson-${lesson.id}"></span>\n\n## ${lesson.title}\n\n${lesson.body}\n\n${lesson.checkpoint}`).join('\n\n')}\n\n${guide.workshops.map((item:any)=>`<span id="workshop-${item.id}"></span>\n\n## ${item.title}\n\n${item.body}`).join('\n\n')}\n\n## ${guide.ui.review}\n\n${guide.checklist.map((text:string)=>'- '+text).join('\n')}\n\n## ${guide.ui.pr}\n\n${guide.ui.prHint}\n\n\`\`\`text\n${guide.prTemplate}\n\`\`\`\n\n## ${guide.ui.faq}\n\n${guide.faqs.map((item:any)=>`### ${item.question}\n\n${item.answer}`).join('\n\n')}`;
+const licenseMarkdown=resolveLocaleCopy({zh:licenseZh,en:licenseEn,ja:licenseJa},locale).replace(/^# .+\n/,'').replace(/^\[English\].+$/m,'');
+const fileMarkdown=resolveLocaleCopy({zh:filesZh,en:filesEn,ja:filesJa},locale).replace(/^# .+\n/,'');
+const rendered=await Promise.all([renderMarkdownDocument(hubOverview(locale)),renderMarkdownDocument(editorMarkdown),renderMarkdownDocument(githubMarkdown),renderMarkdownDocument(fileMarkdown),renderContentEntry(localized(syntaxes)),renderContentEntry(localized(formats)),renderMarkdownDocument(licenseMarkdown)]);
+// Namespace headings/footnotes so six complete documents can coexist without duplicate IDs.
+const documents=rendered.map((document,index)=>{
+ const id=hubDocuments[index];
+ let html=document.html;
+ html=html.replace(/\bid="([^"]+)"/g,(_match:string,value:string)=>`id="${id}--${value}"`).replace(/href="#([^"]+)"/g,(_match:string,value:string)=>`href="#${hubDocuments.includes(value)?value:id+'--'+value}"`);
+ html=html.replace(/href="(?:https:\/\/kamitsubaki\.wiki)?\/([^/]+)\/contribute\/(edit|syntax|format|files)(?=\/|[?#"])\/?([^"#]*)(?:#([^"]*))?"/g,(_match:string,lang:string,path:string,query:string,anchor:string)=>{
+  const doc=path==='edit'?(query.includes('github')?'github':'editor'):path;
+  return `href="/${lang}/contribute/${query}#${doc}${anchor?'--'+anchor:''}"`;
+ });
+ html=html.replace(/aria-(labelledby|describedby)="([^"]+)"/g,(_match:string,attribute:string,values:string)=>`aria-${attribute}="${values.split(/\s+/).map(value=>id+'--'+value).join(' ')}"`);
+ html=html.replace(/href="(licensing(?:\.(?:en|ja))?\.md)"/g,'href="#licensing"');
+ html=html.replace(/href="(?!https?:|\/|#)([^"]+\.md(?:#[^"]*)?)"/g,(_match:string,path:string)=>`href="https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/main/docs/${path}"`);
+ return {id,html,headings:document.headings.filter((h:any)=>h.depth===2).map((h:any)=>({...h,slug:`${id}--${h.slug}`}))};
+});
+---
+<BaseLayout lang={locale} title={copy.title} metadata={{title:copy.title,description:copy.intro,canonicalPath:`/${locale}/contribute/`}} alternates={supportedLocales.map(locale=>({locale,href:`/${locale}/contribute/`}))}>
+ <SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site,locale,'/contribute/')} brandLines={site.hero.brandLines} homeHref={`/${locale}/`} />
+ <main class="labs-shell contribution-hub" data-contribution-hub data-locale={locale}>
+  <WorkspaceHeader title={copy.title} intro={copy.intro}>
+   <a href={`/${locale}/`}>{copy.home}</a><a data-hub-editor href={`/${locale}/contribute/editor/`}>{copy.editor} <span aria-hidden="true">↗</span></a>
+  </WorkspaceHeader>
+  <p class="hub-target" hidden data-hub-target></p>
+  <WorkspaceNavigation label={copy.title} kind="hub">
+   {hubDocuments.map((doc,i)=><a href={`#${doc}`} data-hub-tab={doc}>{copy.tabs[i]}</a>)}
+  </WorkspaceNavigation>
+  {documents.map((doc,i)=><section id={doc.id} class="hub-document" data-hub-panel={doc.id} aria-labelledby={`hub-heading-${doc.id}`}>
+   <header class="hub-document-heading"><span>{String(i+1).padStart(2,'0')} / {String(hubDocuments.length).padStart(2,'0')}</span><h2 id={`hub-heading-${doc.id}`}>{copy.tabs[i]}</h2></header>
+   <Reader variant="guide" headings={doc.headings} contentsTitle={copy.contents} proseClass="cg-prose">
+    <Fragment set:html={doc.html}/>{doc.id==='github' && <p><a href="https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/issues">GitHub Issues ↗</a> · <a href="https://github.com/LinkTh1rsty/kamitsubaki-wiki-site">GitHub ↗</a></p>}
+   </Reader>
+  </section>)}
+ </main>
+ <SiteFooter footer={site.footer}/>
+ <script>import '../../../scripts/contributionHub.js';</script>
+</BaseLayout>
+<style>
+ /* Keep the viewport as the sticky scroll container; hidden would create a body scroll container. */
+ :global(body:has(.contribution-hub)){overflow-x:clip}
+ .contribution-hub{padding-top:92px;--reader-sticky-top:164px}
+ .hub-target{font-size:12px;overflow-wrap:anywhere;color:var(--b-muted);margin:0 0 12px}
+ .hub-document{padding-top:0}.hub-document[hidden]{display:none}
+ .hub-document-heading{display:flex;align-items:baseline;gap:12px;margin:0 0 16px}.hub-document-heading h2{font-size:22px;margin:0}.hub-document-heading>span{font-size:11px;color:var(--b-muted)}
+ :global(.hub-prose h2),:global(.hub-prose h3){scroll-margin-top:100px}
+ :global(.hub-prose pre){max-width:100%;overflow:auto}:global(.hub-prose table){max-width:100%}
+ @media(max-width:760px){.contribution-hub{padding-top:84px}:global(.hub-prose h2){font-size:23px}}
+</style>

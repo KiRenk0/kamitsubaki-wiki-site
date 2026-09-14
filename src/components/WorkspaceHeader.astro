@@ -1,0 +1,25 @@
+---
+interface Props {title:string;intro:string;eyebrow?:string;}
+const {title,intro,eyebrow}=Astro.props;
+---
+<header class="workspace-header">
+  <div class="workspace-heading">{eyebrow&&<p class="workspace-eyebrow">{eyebrow}</p>}<h1>{title}</h1><p>{intro}</p></div>
+  <div class="workspace-actions"><slot/></div>
+  <div class="workspace-header-status"><slot name="status"/></div>
+</header>
+<style is:global>
+body:has([data-workspace-navigation]){overflow-x:clip}
+html body .workspace-header{display:flex;align-items:center;justify-content:space-between;gap:16px 24px;flex-wrap:wrap;margin-bottom:20px;padding-bottom:18px;border-bottom:1px solid rgb(var(--theme-fg-rgb)/.14)}
+html body .workspace-heading{flex:1 1 280px;min-width:0}
+html body .workspace-heading h1{font-family:var(--font-serif);font-size:30px;font-weight:500;line-height:1.3;letter-spacing:.025em;margin:0 0 6px}
+html body .workspace-heading>p{font-size:13px;color:rgb(var(--theme-fg-rgb)/.65);line-height:1.7;margin:0;max-width:65ch}
+html body .workspace-heading>.workspace-eyebrow{font-family:var(--font-mono);font-size:10px;letter-spacing:.12em;color:var(--theme-accent-color);margin-bottom:6px}
+html body .workspace-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+html body .workspace-actions>:is(a,button){display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:38px;padding:8px 14px;border:1px solid rgb(var(--theme-fg-rgb)/.16);border-radius:var(--ui-radius-control);background:rgb(var(--theme-fg-rgb)/.025);font-size:13px;line-height:1.5;color:var(--theme-fg);text-decoration:none;transition:transform var(--motion-glass) var(--motion-ease-spring),background var(--motion-fast),color var(--motion-fast)}
+html body .workspace-actions>:is(a,button):hover{color:var(--theme-accent-color);background:rgb(var(--theme-fg-rgb)/.05)}
+html body .workspace-actions>:is(a,button):active{transform:scale(.95)}
+html body .workspace-actions>:focus-visible{outline:2px solid var(--theme-accent-color);outline-offset:3px}
+.workspace-header-status{width:100%}.workspace-header-status:empty,.workspace-header-status:not(:has(:not([hidden]):not(:empty))){display:none}
+@media(max-width:760px){html body .workspace-heading h1{font-size:26px}html body .workspace-heading>p{font-size:12px}html body .workspace-header{gap:12px;margin-bottom:16px}}
+@media(prefers-reduced-motion:reduce){html body .workspace-actions>:is(a,button){transition:none;transform:none}}
+</style>

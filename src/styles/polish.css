@@ -1,7 +1,7 @@
 /* Shared proportions and motion for the archive's existing page families. */
 html { overflow-x: clip; }
 body:not(.site-home) { cursor: auto; }
-body:not(.site-home) > :is(.noise-bg, #cursor) { display: none !important; }
+body:not(.site-home) > :is(.noise-bg) { display: none !important; }
 body:not(.site-home) :is(a, button, summary, [role='button']) { cursor: pointer !important; }
 body:not(.site-home) :is(input, textarea) { cursor: text; }
 html body .catalog-page { padding-top: 100px; }

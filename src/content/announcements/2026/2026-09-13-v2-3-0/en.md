@@ -6,7 +6,7 @@ type: "SITE UPDATE"
 title: "V2.3.0: Edit and contribute from the Wiki"
 summary: "Submit article edits from the site, save cloud drafts, and follow GitHub PR reviews and progress. Further edits update the same submission; maintainers still review changes before publication."
 order: -6
-pinned: true
+pinned: false
 draft: false
 ---
 Hello, observers.

@@ -11,7 +11,7 @@ import {localEditor} from '../../lib/editorConfig.mjs';
   <nav class="ve-pr-tabs" aria-label={t('投稿面板')}><button data-pr-tab="submit" aria-pressed="true">{t('提交修改')}</button><button data-pr-tab="discussion" aria-pressed="false">{t('审核讨论')}</button><button data-pr-tab="history" aria-pressed="false">{t('我的投稿')}</button><button hidden={!localEditor} data-pr-tab="simulate" aria-pressed="false">{t('模拟 GitHub')}</button></nav>
   <div class="ve-pr-context"><strong data-pr-entry></strong><span data-pr-state></span></div>
   <section data-pr-panel="submit">
-    <p class="ve-pr-muted" data-pr-path></p>
+    <p class="ve-pr-muted" data-pr-path></p><div data-pr-assets class="ve-pr-muted"></div>
     <details open><summary>{t('本次修改')}<span data-pr-diff-count></span></summary><div class="ve-pr-diff" data-pr-diff></div></details>
     <p class="ve-pr-muted">{t('服务器草稿保留 90 天；本机草稿可随时导出。')}</p><div class="ve-pr-actions"><button data-pr-save-draft>{t('保存服务端草稿')}</button><button data-pr-load-draft>{t('读取服务端草稿')}</button></div>
     <label>{t('修改说明')}<input data-pr-summary maxlength="200" placeholder={t('说明改动的内容与原因')}/></label>

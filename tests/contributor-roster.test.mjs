@@ -282,7 +282,6 @@ test('manual collaborators use an independent local data file and summary-only s
   assert.match(component, /data-contributor-card/);
   assert.match(component, /data-contributor-drawer/);
   assert.match(component, /data-list-expanded/);
-  assert.match(component, /grid-template-rows: 0fr/);
   assert.doesNotMatch(component, /manual-contributor-hint/);
   assert.match(component, /contacts\.map/);
   assert.equal(Array.isArray(data), true);
@@ -353,10 +352,10 @@ test('contributor renderer builds honor wall cards, readable activity, and retry
   assert.match(script, /contributor-roster__breakdown/);
   assert.match(script, /topLimit', '24/);
   assert.match(script, /contributor-roster__actions/);
-  assert.match(script, /dataset\.syntaxHref/);
-  assert.match(script, /dataset\.formatHref/);
-  assert.match(script, /copy\.syntaxAction/);
-  assert.match(script, /copy\.formatAction/);
+  assert.doesNotMatch(script, /dataset\.syntaxHref/);
+  assert.doesNotMatch(script, /dataset\.formatHref/);
+  assert.match(script, /copy\.guideAction/);
+  assert.match(script, /copy\.joinAction/);
   assert.match(script, /contributor-roster__locale/);
   assert.match(script, /contributor-roster__activity/);
   assert.match(script, /recentLimit:\s*mode === 'entry' \? 3 : 10/);

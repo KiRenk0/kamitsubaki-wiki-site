@@ -1,5 +1,7 @@
 # KAMITSUBAKI Wiki Site
 
+[画像アップロード・パス・ファイル分類](docs/files-and-images.ja.md) · [Wiki](https://kamitsubaki.wiki/ja/contribute/files/)
+
 Astro で構築された、非公式 KAMITSUBAKI STUDIO ファン Wiki の静的サイトです。
 
 このリポジトリは GitHub Pull Request ワークフローを前提にしています。コントリビューターはコンテンツファイルを編集し、ローカルで同じ検証を実行し、PR を作成し、CI で確認してからマージとデプロイへ進みます。
@@ -109,7 +111,7 @@ src/content/artists/vwp/kaf/zh.md
                     ^^^ トップページ分類
 ```
 
-新しい分類を追加するときは、第一階層フォルダを作り、三言語の記事を入れてください。`categoryTitle`、`categorySubtitle`、`categoryOrder`、`itemOrder`、`code` は任意の表示上書きです。未設定の場合、フォルダ名、記事名、デフォルトの並び順を使います。
+新しい分類を追加するときは、第一階層フォルダを作り、完成した言語の記事を入れてください。`categoryTitle`、`categorySubtitle`、`categoryOrder`、`itemOrder`、`code` は任意の表示上書きです。未設定の場合、フォルダ名、記事名、デフォルトの並び順を使います。
 
 ## メタデータとリンクプレビュー
 
@@ -127,7 +129,7 @@ src/content/artists/vwp/kaf/zh.md
 
 1. `src/content/artists/`、`src/content/albums/`、`src/content/songs/`、または `src/content/projects/` で正しい分類を選びます。
 2. 例として `src/content/artists/vwp/new-artist/` のように記事用フォルダを作ります。
-3. `zh.md`、`ja.md`、`en.md` を追加します。
+3. 完成した `zh.md`、`ja.md`、`en.md` を追加し、未訳は後で補います。
 4. 3 ファイルで同じ `translationKey` を使います。
 5. アーティスト分類はフォルダから自動生成されます。表示を調整したい場合だけ `categoryTitle`、`categorySubtitle`、`categoryOrder`、`itemOrder`、`code` を設定します。
 6. 下の検証コマンドを実行します。

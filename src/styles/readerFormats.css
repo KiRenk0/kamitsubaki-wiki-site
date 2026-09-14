@@ -9,9 +9,6 @@ html body .wiki-reader :where(sub, sup) { font-size: .72em; line-height: 0; }
 html body .wiki-reader :where(small) { font-size: .84em; color: var(--reader-muted, var(--theme-body)); }
 html body .wiki-reader abbr[title] { position: relative; text-decoration: underline dotted; text-underline-offset: .25em; cursor: help; }
 html body .wiki-reader abbr[title]:is(:hover,:focus-visible,.is-expanded)::after { content: attr(title); position: absolute; z-index: 12; left: 0; bottom: calc(100% + .5rem); width: max-content; max-width: min(22rem,70vw); padding: .6rem .8rem; border: 1px solid var(--ui-line); border-radius: 6px; background: var(--theme-panel-solid); box-shadow: 0 4px 20px #0002; font: 400 .8rem/1.65 var(--font-sans); color: var(--theme-fg); white-space: normal; }
-html body .wiki-reader .wiki-spoiler { filter: none; color: transparent; background: rgb(var(--theme-fg-rgb) / .75); border-radius: 3px; padding-inline: .15em; cursor: pointer; text-shadow: none; box-decoration-break: clone; transition: background .16s,color .16s; }
-html body .wiki-reader .wiki-spoiler:is(:hover,:focus-visible):not(.is-revealed) { color: transparent; outline: 2px solid var(--theme-accent-color); outline-offset: 2px; }
-html body .wiki-reader .wiki-spoiler.is-revealed { color: var(--theme-fg); background: rgb(var(--theme-fg-rgb) / .07); }
 html body .wiki-reader details { margin: 1.4em 0; padding: 0 1rem; border: 1px solid var(--reader-line,var(--ui-line)); border-radius: 7px; background: rgb(var(--theme-fg-rgb) / .015); }
 html body .wiki-reader details > summary { padding: .8rem 0; cursor: pointer; font: 500 .95em/1.7 var(--font-sans); color: var(--theme-fg); }
 html body .wiki-reader details[open] > summary { margin-bottom: .8rem; border-bottom: 1px solid var(--reader-line,var(--ui-line)); }

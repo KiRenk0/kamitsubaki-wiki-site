@@ -189,7 +189,7 @@ html body :is(.ai-message__sources, .ai-message__avatar, .ai-chat__input-shell,
   .ai-chat__composer, .ai-chat__bubble) { border-radius: var(--ui-radius-control); }
 html body .ai-chat__panel { overflow: hidden; }
 html body :is(.home-chrome__actions, .tools-dock > summary, .ai-chat__orb) { border-radius: var(--ui-radius-control); }
-html body :is(.home-chrome__labs, .home-chrome__search, .home-chrome__menu > summary,
+html body :is(.home-chrome__actions > .account-nav, .home-chrome__labs, .home-chrome__search, .home-chrome__menu > summary,
   .tools-dock :is(.social-contact__toggle, .live-events__toggle, .announcement-launcher)) { border-radius: var(--ui-radius-item); }
 
 @media (max-width: 767px) {

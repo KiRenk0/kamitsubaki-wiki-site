@@ -1,5 +1,7 @@
 # KAMITSUBAKI Wiki Site
 
+[Image uploads, paths and file organization](docs/files-and-images.en.md) · [Wiki](https://kamitsubaki.wiki/en/contribute/files/)
+
 Unofficial KAMITSUBAKI STUDIO fan wiki built as a static Astro site.
 
 This repository is designed for a GitHub pull request workflow: contributors edit content files, run the same checks locally, open a PR, and let CI verify the wiki before it is merged and deployed.
@@ -109,7 +111,7 @@ src/content/artists/vwp/kaf/zh.md
                     ^^^ homepage category
 ```
 
-To add a new category, create a new first-level folder and add three-language entries. `categoryTitle`, `categorySubtitle`, `categoryOrder`, `itemOrder`, and `code` are optional display overrides. When they are missing, the site uses the folder name, entry name, and default sorting.
+To add a new category, create a new first-level folder and add completed language entries. `categoryTitle`, `categorySubtitle`, `categoryOrder`, `itemOrder`, and `code` are optional display overrides. When they are missing, the site uses the folder name, entry name, and default sorting.
 
 ## Metadata And Link Previews
 
@@ -127,7 +129,7 @@ Set `PUBLIC_SITE_URL` during deployment, for example `https://example.com`. Cano
 
 1. Pick the correct folder under `src/content/artists/`, `src/content/albums/`, `src/content/songs/`, or `src/content/projects/`.
 2. Create one folder for the entry, for example `src/content/artists/vwp/new-artist/`.
-3. Add `zh.md`, `ja.md`, and `en.md`.
+3. Add the completed `zh.md`, `ja.md`, or `en.md` files; add other translations later.
 4. Use the same `translationKey` in all three files.
 5. Artist categories come from folders automatically. Add `categoryTitle`, `categorySubtitle`, `categoryOrder`, `itemOrder`, or `code` only when custom display is needed.
 6. Run the verification commands below.
