@@ -1,0 +1,36 @@
+---
+import zh from '../../../../docs/files-and-images.md?raw';
+import en from '../../../../docs/files-and-images.en.md?raw';
+import ja from '../../../../docs/files-and-images.ja.md?raw';
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import SiteNav from '../../../components/SiteNav.astro';
+import SiteFooter from '../../../components/SiteFooter.astro';
+import ContributionNav from '../../../components/ContributionNav.astro';
+import { getLocalizedSite } from '../../../lib/homeData.mjs';
+import { buildLocaleLinks, defaultLocale, supportedLocales, resolveLocaleCopy } from '../../../lib/i18n.mjs';
+import { renderMarkdownFragment } from '../../../lib/markdown.mjs';
+import '../../../styles/contributionGuide.css';
+export function getStaticPaths() { return supportedLocales.map(locale => ({params:{locale}})); }
+const locale = Astro.params.locale || 'zh';
+const content = resolveLocaleCopy({zh,en,ja},locale);
+const title = content.split('\n')[0].replace(/^# /,'');
+const html = await renderMarkdownFragment(content.split('\n').slice(1).join('\n'));
+const home = getLocalizedSite(await getCollection('site'),locale,defaultLocale);
+const alternates = supportedLocales.map(locale=>({locale,href:`/${locale}/contribute/files/`}));
+---
+<BaseLayout reading lang={locale} title={title} alternates={alternates} metadata={{title,canonicalPath:`/${locale}/contribute/files/`}}>
+  <SiteNav navItems={home.navItems} localeLinks={buildLocaleLinks(home,locale,'/contribute/files')} brandLines={home.hero.brandLines} compact homeHref={`/${locale}/`} />
+  <main class="cg-shell">
+    <ContributionNav locale={locale} current="files" />
+    <header class="cg-hero"><h1>{title}</h1></header>
+    <article class="cg-prose wiki-reader wiki-prose prose max-w-none file-guide"><Fragment set:html={html}/></article>
+  </main>
+  <SiteFooter footer={home.footer} />
+</BaseLayout>
+<style>
+  .file-guide { min-width:0; overflow-wrap:anywhere; }
+  .file-guide :global(table) { display:block; max-width:100%; overflow-x:auto; }
+  .file-guide :global(td), .file-guide :global(th) { min-width:9rem; padding:12px; }
+  .file-guide :global(h2) { scroll-margin-top:90px; }
+</style>

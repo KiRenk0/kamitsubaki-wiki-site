@@ -42,6 +42,7 @@ const {
   alternates = [],
   metadata = {},
   reading = false,
+  fontDisplay = 'optional',
 } = Astro.props as {
   title?: string;
   lang?: string;
@@ -51,6 +52,7 @@ const {
   }[];
   metadata?: PageMetadata;
   reading?: boolean;
+  fontDisplay?: 'optional' | 'swap';
 };
 
 const localizedSiteName = getLocalizedSiteName(lang);
@@ -84,7 +86,7 @@ const siteContent = getLocalizedSite(siteEntries, lang);
 const aiChatCopy = siteContent?.aiChat;
 const socialContactCopy = siteContent?.socialContact;
 const liveEventsCopy = siteContent?.liveEvents;
-const fontStylesheet = getLocaleFontStylesheet(lang);
+const fontStylesheet = getLocaleFontStylesheet(lang).replace('display=optional', `display=${fontDisplay}`);
 ---
 
 <!doctype html>

@@ -183,3 +183,72 @@ html body .ve-workbench [data-format][aria-pressed='true'] { color:var(--theme-a
 .ve-workbench .ve-inline-token { outline:none; border-radius:2px; border-bottom:1px dotted rgb(var(--theme-accent-rgb)/.45); }
 .ve-workbench .ve-inline-token rt.roma { display:none; }
 .ve-workbench .ve-inline-token:hover { outline:1px solid rgb(var(--theme-accent-rgb)/.3); }
+
+/* Constrain every grid item and picker row, including unbroken source paths. */
+.ve-workspace > *, .ve-topbar > *, .ve-toolbar > *, .ve-pr-banner > * { min-width:0; }
+.ve-sidebar [data-existing-picker] { min-width:0; }
+.ve-entry-count { margin:0 0 12px; color:var(--ve-muted); font-size:11px; overflow-wrap:anywhere; }
+.ve-sidebar [data-entry-results] { display:grid; gap:6px; min-width:0; }
+html body .ve-workbench .ve-entry-result { display:block; width:100%; max-width:100%; min-width:0; padding:10px; text-align:left; background:var(--ve-paper); border-radius:8px; white-space:normal; overflow-wrap:anywhere; }
+.ve-entry-result strong { display:block; font-size:13px; line-height:1.6; font-weight:600; }
+.ve-entry-result small { display:block; font:10px/1.65 var(--font-mono); color:var(--ve-muted); overflow-wrap:anywhere; }
+.ve-entry-kind { display:inline-block; margin:5px 0; color:var(--theme-accent-color); font-size:10px; }
+.ve-help-link { display:inline-block; padding:8px 0; color:var(--theme-accent-color); font-size:12px; }
+.ve-workbench .ve-rich :is(ul,ol) { margin:6px 0; padding-inline-start:26px; }
+.ve-workbench .ve-rich li { padding-inline-start:3px; margin:3px 0; }
+.ve-workbench .ve-rich li::marker { color:var(--ve-muted); font-variant-numeric:tabular-nums; }
+.ve-workbench .ve-rich ul ul { list-style-type:circle; }
+.ve-workbench .ve-rich ul ul ul { list-style-type:square; }
+.ve-workbench .ve-rich blockquote { margin:8px 0; padding-inline-start:16px; border-inline-start:3px solid var(--ui-line); }
+html body .ve-workbench .ve-rich :is(h2,h3,h4,h5,h6) { margin:12px 0 8px; line-height:1.5; font-weight:600; }
+html body .ve-workbench .ve-rich h2 { font-size:24px; }
+html body .ve-workbench .ve-rich h3 { font-size:20px; }
+html body .ve-workbench .ve-rich :is(h4,h5,h6) { font-size:17px; }
+html body .ve-workbench .ve-block { border-radius:6px; }
+html body .ve-workbench .ve-block:focus-within { border-color:rgb(var(--theme-fg-rgb)/.12); border-left-color:var(--theme-accent-color); }
+.ve-top-actions { flex-wrap:wrap; }
+.ve-topbar { height:auto; min-height:56px; padding-block:8px; }
+.ve-selection-toolbar { flex-wrap:wrap; }
+html body .ve-workbench .ve-activity button { border-radius:6px; }
+.ve-pr-banner { flex-wrap:wrap; overflow-wrap:anywhere; }
+@media (max-width:900px) {
+ .ve-workspace { position:relative; }
+ .ve-sidebar { top:0; bottom:0; width:min(300px,calc(100vw - 62px)); }
+}
+@media (max-width:540px) {
+ .ve-topbar { flex-wrap:wrap; }
+ .ve-top-actions { flex:1 1 auto; justify-content:flex-end; }
+ .ve-toolbar { max-height:120px; overflow-y:auto; }
+ .ve-format-more > div { position:fixed; top:180px; left:auto; right:16px; }
+ html body .ve-workbench .ve-toolbar button { min-height:32px; }
+ html body .ve-workbench .ve-entry-result { padding:12px; }
+}
+
+/* Keep writing controls on one stable row; menus stay outside the scroll area. */
+html body .ve-workbench .ve-toolbar { flex-wrap:nowrap; flex-shrink:0; height:44px; min-height:44px; max-height:none; overflow:visible; }
+.ve-toolbar-scroll { display:flex; align-items:center; gap:4px; flex:1; min-width:0; overflow-x:auto; scrollbar-width:none; }
+.ve-toolbar-scroll::-webkit-scrollbar { display:none; }
+.ve-toolbar-scroll > *, .ve-toolbar > .ve-format-more, .ve-toolbar > .ve-insert-button { flex-shrink:0; }
+html body .ve-workbench .ve-toolbar button, .ve-toolbar > .ve-format-more > summary { display:inline-flex; align-items:center; justify-content:center; height:30px; min-height:30px; line-height:1; white-space:nowrap; }
+.ve-toolbar > .ve-format-more > div { left:auto; right:0; }
+/* Rebuilding blocks must not animate the caret or surrounding text. */
+html body .ve-workbench .ve-block { animation:none; }
+
+html body .ve-workbench .ve-properties-entry { border-color:rgb(var(--theme-accent-rgb)/.35); color:var(--theme-accent-color); background:rgb(var(--theme-accent-rgb)/.07); }
+html body .ve-workbench .ve-document-properties { display:flex; flex-wrap:wrap; align-items:center; gap:4px 16px; width:100%; padding:12px 14px; margin:0 0 24px; text-align:left; border:1px solid var(--ui-line); border-radius:6px; background:var(--ve-surface); }
+.ve-document-properties-title { color:var(--theme-accent-color); font-weight:600; white-space:nowrap; }
+.ve-document-properties-hint { color:var(--ve-muted); font-size:12px; line-height:1.6; }
+html body .ve-workbench :is(.ve-properties-entry,.ve-document-properties)[aria-pressed='true'] { border-color:var(--theme-accent-color); }
+
+html body .ve-workbench .ve-toolbar-arrow { flex:0 0 24px; width:24px; padding:0; font-size:20px; border-color:transparent; color:var(--theme-accent-color); }
+html body .ve-workbench .ve-toolbar-arrow:disabled { opacity:.25; cursor:default !important; }
+
+.ve-entry-dialog { width:min(580px,calc(100vw - 32px)); padding:24px; overflow:auto; }
+.ve-entry-dialog label { display:grid; gap:6px; margin:12px 0; }
+.ve-entry-dialog input,.ve-entry-dialog select { width:100%; }
+.ve-attachment-row { display:grid; grid-template-columns:64px minmax(0,1fr); gap:12px; padding:12px 0; border-top:1px solid var(--ui-line); }
+.ve-attachment-row img { width:64px; height:64px; object-fit:contain; }
+.ve-attachment-row p { overflow-wrap:anywhere; margin:0 0 6px; }
+
+.ve-entry-dialog h2 { margin:0 0 16px; font:600 20px/1.5 var(--font-sans); }
+.ve-entry-dialog [data-previous-draft] { margin-bottom:16px; }

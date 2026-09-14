@@ -1,4 +1,5 @@
 ---
+import { editorGuide } from '../../../lib/editorGuide.mjs';
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import SiteNav from '../../../components/SiteNav.astro';
@@ -16,6 +17,7 @@ const homeContent = getLocalizedSite(sites,localeCode,defaultLocale);
 const copy = entries.find(entry=>entry.data.locale===localeCode)?.data ?? entries.find(entry=>entry.data.locale===defaultLocale)?.data;
 if (!copy) throw new Error('Missing contribution guide: '+localeCode);
 const ui = copy.ui;
+const flow = editorGuide(localeCode);
 const lessons = await Promise.all(copy.lessons.map(async lesson=>({...lesson,html:await renderMarkdownFragment(lesson.body)})));
 const workshops = await Promise.all(copy.workshops.map(async workshop=>({...workshop,html:await renderMarkdownFragment(workshop.body)})));
 const localeLinks = buildLocaleLinks(homeContent,localeCode,'/contribute/edit');
@@ -27,8 +29,25 @@ const metadata = {title:copy.title,description:copy.intro,canonicalPath:'/'+loca
   <SiteNav navItems={homeContent.navItems} localeLinks={localeLinks} brandLines={homeContent.hero.brandLines} compact homeHref={'/'+localeCode+'/'} />
   <main class="cg-shell" data-contribution-guide>
     <ContributionNav locale={localeCode} current="edit" />
-    <header class="cg-hero"><p class="cg-eyebrow">{ui.eyebrow}</p><h1>{copy.title}</h1><p>{copy.intro}</p><div class="cg-actions"><a class="cg-button cg-button--primary" href="#choose-guide">{ui.start}<span aria-hidden="true">↓</span></a><a class="cg-link" href={editorHref} data-editor-link>{ui.openEditor} →</a></div></header>
+    <header class="cg-hero"><p class="cg-eyebrow">{ui.eyebrow}</p><h1>{copy.title}</h1><p>{copy.intro}</p><div class="cg-actions"><a class="cg-button cg-button--primary" href="#workflow-choice">{ui.start}<span aria-hidden="true">↓</span></a><a class="cg-link" href={editorHref} data-editor-link>{ui.openEditor} →</a></div></header>
     <aside class="cg-target" data-target hidden><h2>{ui.target}</h2><code data-target-path></code><p data-target-hint></p><a class="cg-link" data-github-edit-link hidden>{ui.github} ↗</a></aside>
+    <section class="cg-section" id="workflow-choice" aria-labelledby="workflow-title">
+      <header class="cg-section-heading"><h2 id="workflow-title">{flow.choose}</h2><p>{flow.intro}</p></header>
+      <nav class="cg-workflow-tabs" aria-label={flow.choose}>
+        <a href="#editor-workflow" data-workflow="editor">{flow.editor}</a>
+        <a href="#github-workflow" data-workflow="github">{flow.github}</a>
+      </nav>
+    </section>
+    <section id="editor-workflow" class="cg-section cg-workflow" data-workflow-panel="editor" aria-labelledby="editor-workflow-title">
+      <header class="cg-section-heading"><h2 id="editor-workflow-title">{flow.title}</h2><p>{flow.subtitle}</p></header>
+      <p class="cg-scope">{flow.scope}</p>
+      <ol class="cg-flow-steps">{flow.steps.map(([title,body]: string[],index: number)=><li><span aria-hidden="true">{String(index+1).padStart(2,'0')}</span><div><h3>{title}</h3><p>{body}</p></div></li>)}</ol>
+      <div class="cg-actions"><a class="cg-button cg-button--primary" href={editorHref} data-editor-link>{flow.open} →</a><a class="cg-link" href={editorHref+'?view=submissions'}>{flow.submissions} →</a></div>
+      <p class="cg-scope">{flow.reference}</p>
+      <div class="cg-reference"><a href={'/'+localeCode+'/contribute/syntax/'}><strong>{ui.syntax} ↗</strong><p>{ui.syntaxHint}</p></a><a href={'/'+localeCode+'/contribute/format/'}><strong>{ui.format} ↗</strong><p>{ui.formatHint}</p></a></div>
+    </section>
+    <div id="github-workflow" data-workflow-panel="github">
+      <section class="cg-section" aria-labelledby="github-workflow-title"><header class="cg-section-heading"><h2 id="github-workflow-title">{flow.githubTitle}</h2><p>{flow.githubIntro}</p></header><ol class="cg-flow-steps">{flow.githubSteps.map(([title,body]: string[],index: number)=><li><span aria-hidden="true">{String(index+1).padStart(2,'0')}</span><div><h3>{title}</h3><p>{body}</p></div></li>)}</ol></section>
     <section id="choose-guide" class="cg-section" aria-labelledby="cg-choose-title">
       <header class="cg-section-heading"><h2 id="cg-choose-title">{ui.choose}</h2><p>{ui.chooseHint}</p></header>
       <div class="cg-task-grid" role="group" aria-label={ui.choose}>{copy.tasks.map((task,index)=><button class="cg-task" data-guide-task={task.id} data-next={task.next} aria-pressed={index===0?'true':'false'} aria-controls="cg-task-hint"><small>{task.time}</small><strong>{task.title}</strong><span>{task.description}</span></button>)}</div>
@@ -64,6 +83,7 @@ const metadata = {title:copy.title,description:copy.intro,canonicalPath:'/'+loca
         <section class="cg-section cg-faq" aria-labelledby="cg-faq-title"><header class="cg-section-heading"><h2 id="cg-faq-title">{ui.faq}</h2></header>{copy.faqs.map(faq=><details><summary>{faq.question}</summary><p>{faq.answer}</p></details>)}</section>
         <section class="cg-section cg-finish" id="guide-finish"><header class="cg-section-heading"><h2>{ui.finish}</h2><p>{ui.finishBody}</p></header><a class="cg-button cg-button--primary" href={editorHref} data-editor-link>{ui.openEditor} →</a><header class="cg-section-heading cg-section"><a class="cg-link" href="https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/issues">{ui.issues} ↗</a><p>{ui.issuesHint}</p></header></section>
       </div>
+    </div>
     </div>
     <script is:inline type="application/json" data-guide-copy set:html={JSON.stringify(ui).replace(/</g,'\\u003c')} />
   </main>

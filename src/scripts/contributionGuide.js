@@ -7,6 +7,22 @@ if (root) {
   const copy = JSON.parse($('[data-guide-copy]').textContent);
   const params = new URLSearchParams(location.search);
   const target = normalizeGuideTarget(params.get('target'));
+  function selectWorkflow(workflow, updateUrl=false) {
+    const selected=workflow==='github'?'github':'editor';
+    $$('[data-workflow-panel]').forEach(panel=>panel.hidden=panel.dataset.workflowPanel!==selected);
+    $$('[data-workflow]').forEach(link=>{if(link.dataset.workflow===selected)link.setAttribute('aria-current','true');else link.removeAttribute('aria-current');});
+    if(updateUrl){const url=new URL(location.href);url.searchParams.set('workflow',selected);url.hash=selected+'-workflow';history.pushState(history.state,'',url);}
+    syncLocaleLinks();
+  }
+  const workflowFromUrl=()=>{
+    const hash=location.hash;
+    // Keep all previously shared lesson/workshop anchors reachable.
+    if(hash&&hash!=='#editor-workflow'&&hash!=='#workflow-choice')return 'github';
+    const query=new URLSearchParams(location.search);
+    if(['experienced','new-entry'].includes(query.get('mode'))||query.get('task')==='new-entry')return 'github';
+    return query.get('workflow')||'editor';
+  };
+  $$('[data-workflow]').forEach(link=>link.addEventListener('click',event=>{event.preventDefault();selectWorkflow(link.dataset.workflow,true);}));
   let completed = [];
   let storageWorks = true;
   try { completed = readGuideProgress(localStorage.getItem(guideStorageKey)); } catch { storageWorks = false; }
@@ -66,6 +82,7 @@ if (root) {
     renderProgress();
   }
   function revealHash() {
+    selectWorkflow(workflowFromUrl());
     let hash;
     try { hash = decodeURIComponent(location.hash.slice(1)); } catch { return; }
     // Existing shared links still arrive at the corresponding new learning stage.

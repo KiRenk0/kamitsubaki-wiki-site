@@ -1,5 +1,7 @@
 # Contributing Guide
 
+[Image uploads, paths and file organization](files-and-images.en.md) · [Wiki](https://kamitsubaki.wiki/en/contribute/files/)
+
 [English](contributing.en.md) / [中文](contributing.md) / [日本語](contributing.ja.md)
 
 This guide is the main reference for editing the wiki and opening a Pull Request.
@@ -28,7 +30,7 @@ Do not edit `dist/`, `.astro/`, or `node_modules/`.
 
 ## Three-Language Files
 
-The site supports three locale routes:
+The site has three source languages plus generated zh-tw and zh-hk routes:
 
 ```text
 /zh/  Chinese, default
@@ -36,7 +38,7 @@ The site supports three locale routes:
 /en/  English
 ```
 
-Every translatable record should have all three language files. When adding a page, create `zh.md`, `ja.md`, and `en.md`, and keep the same `translationKey`.
+Source files are `zh.md`, `ja.md`, and `en.md`, sharing the same `translationKey`. Submit completed languages first and add missing translations later, without placeholders. Traditional Chinese is generated from Simplified Chinese.
 
 ## Markdown Shape
 
@@ -150,7 +152,7 @@ src/content/artists/vwp/kaf/zh.md
                     ^^^ homepage category
 ```
 
-To add a new category, create a new first-level folder and add three-language entries. `categoryTitle`, `categorySubtitle`, `categoryOrder`, `itemOrder`, and `code` are optional display overrides. When they are missing, the site uses the folder name, entry name, and default sorting.
+To add a new category, create a new first-level folder and add completed language entries. `categoryTitle`, `categorySubtitle`, `categoryOrder`, `itemOrder`, and `code` are optional display overrides. When they are missing, the site uses the folder name, entry name, and default sorting.
 
 ## Metadata
 
@@ -165,8 +167,8 @@ Use `seo.title`, `seo.description`, `seo.image`, `seo.keywords`, or `seo.noindex
 ## Add A New Entry
 
 1. Create a folder under the right content category.
-2. Add `zh.md`, `ja.md`, and `en.md`.
-3. Keep `translationKey` identical across the three files.
+2. Add the completed `zh.md`, `ja.md`, or `en.md` files; add other translations later.
+3. Keep `translationKey` identical across language files.
 4. Fill the required frontmatter fields.
 5. Leave the body empty if real content is not ready.
 6. Run local verification.

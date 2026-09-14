@@ -1,5 +1,7 @@
 # コントリビューションガイド
 
+[画像アップロード・パス・ファイル分類](files-and-images.ja.md) · [Wiki](https://kamitsubaki.wiki/ja/contribute/files/)
+
 [English](contributing.en.md) / [中文](contributing.md) / [日本語](contributing.ja.md)
 
 この文書は、Wiki を編集して Pull Request を作成するための主要なガイドです。
@@ -28,7 +30,7 @@ src/content/contribute/ GitHub 編集ガイドの文言 (.md)
 
 ## 三言語ファイル
 
-サイトは次の三つの言語ルートを持ちます。
+元言語は次の三つです。zh-tw・zh-hkの繁体字ルートは自動生成します。
 
 ```text
 /zh/  中国語、デフォルト
@@ -36,7 +38,7 @@ src/content/contribute/ GitHub 編集ガイドの文言 (.md)
 /en/  英語
 ```
 
-翻訳可能なレコードには三言語のファイルを用意します。新しいページを追加するときは `zh.md`、`ja.md`、`en.md` を作り、同じ `translationKey` を使ってください。
+元言語は `zh.md`、`ja.md`、`en.md` です。同じ記事は共通の `translationKey` を使い、完成した言語から提出します。未訳は後で補い、仮本文は置きません。繁体字は簡体字から生成します。
 
 ## Markdown の形
 
@@ -150,7 +152,7 @@ src/content/artists/vwp/kaf/zh.md
                     ^^^ トップページ分類
 ```
 
-新しい分類を追加するときは、第一階層フォルダを作り、三言語の記事を入れてください。`categoryTitle`、`categorySubtitle`、`categoryOrder`、`itemOrder`、`code` は任意の表示上書きです。未設定の場合、フォルダ名、記事名、デフォルトの並び順を使います。
+新しい分類を追加するときは、第一階層フォルダを作り、完成した言語の記事を入れてください。`categoryTitle`、`categorySubtitle`、`categoryOrder`、`itemOrder`、`code` は任意の表示上書きです。未設定の場合、フォルダ名、記事名、デフォルトの並び順を使います。
 
 ## メタデータ
 
@@ -165,8 +167,8 @@ src/content/artists/vwp/kaf/zh.md
 ## 新しい項目を追加する
 
 1. 適切なコンテンツカテゴリにフォルダを作成します。
-2. `zh.md`、`ja.md`、`en.md` を追加します。
-3. 三つのファイルで同じ `translationKey` を使います。
+2. 完成した `zh.md`、`ja.md`、`en.md` を追加し、未訳は後で補います。
+3. 各言語ファイルで同じ `translationKey` を使います。
 4. 必須 frontmatter を入力します。
 5. 本文がまだない場合は空のままで構いません。
 6. ローカル検証を実行します。

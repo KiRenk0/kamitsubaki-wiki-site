@@ -1,8 +1,9 @@
 ---
+import {resolveLocaleCopy} from '../lib/i18n.mjs';
 import { editorCopy } from '../lib/visualEditorCopy.mjs';
 const {locale='zh',current='edit'}=Astro.props;
 const copy=editorCopy(locale);
-const items=[['edit',copy.guide],['editor',copy.title],['syntax',copy.syntax],['format',copy.format]];
+const items=[['edit',copy.guide],['editor',copy.title],['syntax',copy.syntax],['format',copy.format],['files',resolveLocaleCopy({zh:'图片与文件',en:'Images and files',ja:'画像とファイル'},locale)]];
 ---
 <nav class="contribution-nav" aria-label={copy.guide}>
   {items.map(([path,label])=><a href={`/${locale}/contribute/${path}/`} aria-current={current===path?'page':undefined}>{label}</a>)}

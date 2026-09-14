@@ -94,3 +94,12 @@
 @media(max-width:520px) {
  .cg-shell{padding-inline:20px}.cg-hero h1{font-size:28px}.cg-hero{padding-bottom:20px}.cg-section{margin-top:36px}.cg-section-heading h2{font-size:22px}.cg-task{padding:18px 14px;gap:8px}.cg-task strong{font-size:15px}.cg-task span{font-size:12px}.cg-learning{margin-top:36px}.cg-lesson-body{padding-left:0}.cg-lesson>summary{gap:12px}.cg-lesson h3{font-size:16px}.cg-map,.cg-reference{grid-template-columns:1fr}.cg-map>div{padding-right:0}.cg-review{padding:20px}.cg-rail nav a{font-size:11px;gap:8px}
 }
+.cg-workflow-tabs { display:flex; flex-wrap:wrap; gap:8px; padding:5px; width:fit-content; max-width:100%; border:1px solid var(--ui-line); border-radius:var(--ui-radius-panel); }
+.cg-workflow-tabs a { padding:10px 20px; border-radius:var(--ui-radius-control); font-size:14px; }
+.cg-workflow-tabs a[aria-current] { color:var(--theme-bg); background:var(--theme-fg); }
+.cg-flow-steps { list-style:none; margin:24px 0; padding:0; max-width:850px; }
+.cg-flow-steps li { display:grid; grid-template-columns:36px minmax(0,1fr); gap:18px; padding:22px 0; border-bottom:1px solid var(--ui-line); }
+.cg-flow-steps li > span { padding-top:3px; color:var(--theme-accent-color); font:13px/1.8 var(--font-mono); }
+.cg-flow-steps h3 { margin:0 0 8px; font-size:17px; font-weight:600; }
+.cg-flow-steps p,.cg-scope { font-size:14px; line-height:1.95; color:rgb(var(--theme-fg-rgb)/.7); overflow-wrap:anywhere; }
+.cg-scope { max-width:850px; margin:20px 0; padding:14px 18px; border-inline-start:2px solid var(--theme-accent-color); background:rgb(var(--theme-fg-rgb)/.025); }

@@ -31,6 +31,7 @@ export function sanitizeEditorHTML(html) {
     const el = document.createElement(node.tagName.toLowerCase());
     if (node.tagName === 'IMG') { if (!safeUrl(node.getAttribute('src'))) return; el.setAttribute('src',node.getAttribute('src')); el.setAttribute('alt',node.getAttribute('alt') || ''); el.setAttribute('loading','lazy'); }
     if (node.tagName === 'A' && safeUrl(node.getAttribute('href'))) el.setAttribute('href',node.getAttribute('href'));
+    if (node.tagName === 'OL' && /^[1-9]\d{0,8}$/.test(node.getAttribute('start') || '')) el.setAttribute('start',node.getAttribute('start'));
     if (node.tagName === 'ABBR' && node.hasAttribute('title')) el.title = node.getAttribute('title');
     if (node.tagName === 'TIME' && node.hasAttribute('datetime')) el.setAttribute('datetime',node.getAttribute('datetime'));
     if (node.tagName === 'RT' && ['furi','roma'].includes(node.className)) el.className = node.className;
@@ -63,12 +64,25 @@ export function richMarkdown(element) {
     if (node.tagName === 'BR') return '  \n';
     if (node.tagName === 'CODE') { const fence = '`'.repeat(Math.max(1,...(node.textContent.match(/`+/g)||[]).map(s=>s.length+1))); return `${fence} ${node.textContent} ${fence}`; }
     if (['IMG','RUBY','ABBR','MARK','KBD','TIME','SMALL','SUB','SUP','U','TABLE','DETAILS'].includes(node.tagName) || node.classList.contains('wiki-spoiler')) return sanitizeEditorHTML(node.outerHTML);
-    if (['UL','OL'].includes(node.tagName)) return [...node.children].map((li,i)=>{
-      const prefix=node.tagName==='OL'?`${i+1}. `:'- ', indent=' '.repeat(prefix.length);
-      const own=[...li.childNodes].filter(child=>!(child instanceof Element&&['UL','OL'].includes(child.tagName))).map(walk).join('').trim();
-      const nested=[...li.children].filter(child=>['UL','OL'].includes(child.tagName)).map(child=>walk(child).trimEnd().split('\n').map(line=>indent+line).join('\n')).join('\n');
-      return prefix+own.replaceAll('\n','\n'+indent)+(nested?'\n'+nested:'');
-    }).join('\n')+'\n\n';
+    if (['UL','OL'].includes(node.tagName)) {
+      const lines=[];let number=Number(node.getAttribute('start'))||1,indent='  ';
+      for(const child of node.children) {
+        // Chromium's indent command may place a nested list directly under a list.
+        // Attach it to the preceding item instead of inventing an empty bullet.
+        if(['UL','OL'].includes(child.tagName)) {
+          const nested=walk(child).trimEnd().split('\n').map(line=>indent+line).join('\n');
+          if(lines.length)lines[lines.length-1]+='\n'+nested;
+          else lines.push(walk(child).trimEnd());
+          continue;
+        }
+        if(child.tagName!=='LI')continue;
+        const prefix=node.tagName==='OL'?`${number++}. `:'- ';indent=' '.repeat(prefix.length);
+        const own=[...child.childNodes].filter(part=>!(part instanceof Element&&['UL','OL'].includes(part.tagName))).map(walk).join('').trim();
+        const nested=[...child.children].filter(part=>['UL','OL'].includes(part.tagName)).map(part=>walk(part).trimEnd().split('\n').map(line=>indent+line).join('\n')).join('\n');
+        lines.push(prefix+own.replaceAll('\n','\n'+indent)+(nested?'\n'+nested:''));
+      }
+      return lines.join('\n')+'\n\n';
+    }
     if (node.tagName === 'LI') { const ordered = node.parentElement?.tagName === 'OL'; const i = [...node.parentElement.children].indexOf(node) + 1; return `${ordered ? `${i}.` : '-'} ${inner.trim()}\n`; }
     if (node.tagName === 'BLOCKQUOTE') return inner.trim().split('\n').map(line=>'> '+line).join('\n')+'\n\n';
     if (/^H[1-6]$/.test(node.tagName)) return '#'.repeat(Number(node.tagName[1]))+' '+inner+'\n\n';
