@@ -6,7 +6,7 @@ type: "SITE UPDATE"
 title: "V2.3.0：Wiki の中で編集して、記事をよりよく"
 summary: "サイト内エディターから変更を投稿できるようになりました。クラウド下書きの保存、GitHub PR のレビューコメントと進捗の確認に対応。追記は同じ投稿に反映され、公開前には引き続き管理者が確認します。"
 order: -6
-pinned: true
+pinned: false
 draft: false
 ---
 観測者の皆さん、こんにちは。

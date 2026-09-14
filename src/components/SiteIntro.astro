@@ -1,12 +1,16 @@
+---
+import {resolveLocaleCopy} from '../lib/i18n.mjs';
+const {locale='zh'}=Astro.props;
+const skipLabel=resolveLocaleCopy({zh:'点击任意位置跳过 · Esc',en:'Click anywhere to skip · Esc',ja:'クリックしてスキップ · Esc'},locale);
+---
 <div
   id="site-intro"
   class="site-intro"
   data-site-intro
   data-animation-duration="5845"
   data-state="animating"
-  aria-hidden="true"
 >
-  <div class="site-intro__stage">
+  <div class="site-intro__stage" aria-hidden="true">
     <video
       class="site-intro__video"
       data-site-intro-video
@@ -43,9 +47,14 @@
       </div>
     </div>
   </div>
+  <button class="site-intro__skip" type="button">{skipLabel}</button>
 </div>
 
 <style>
+  .site-intro{cursor:pointer}
+  .site-intro__skip{position:absolute;z-index:2;bottom:max(24px,env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);padding:10px 16px;border:1px solid currentColor;border-radius:24px;background:transparent;color:var(--theme-fg);font:12px/1.5 var(--font-sans);white-space:nowrap;cursor:pointer}
+  .site-intro__skip:focus-visible{outline:2px solid currentColor;outline-offset:4px}
+  .site-intro.is-skipped.is-leaving{transition-duration:160ms}
   .site-intro {
     --site-intro-duration: 5845ms;
     position: fixed;

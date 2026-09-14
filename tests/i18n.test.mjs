@@ -153,7 +153,7 @@ test('Traditional Chinese site chrome is derived at runtime without falling back
   assert.equal(hk.aiChat.historyLabel, '對話記錄');
   assert.equal(
     tw.socialContact.items.find((item) => item.icon === 'link' && item.href.startsWith('/'))?.href,
-    '/zh-tw/contribute/edit',
+    '/zh-tw/contribute/',
   );
   assert.equal(
     hk.footer.links.find((item) => item.label === 'CONTACT')?.href,

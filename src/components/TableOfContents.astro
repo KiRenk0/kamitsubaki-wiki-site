@@ -8,13 +8,14 @@ interface Heading {
 interface Props {
   headings: Heading[];
   title?: string;
+  animated?: boolean;
 }
 
-const { headings, title = 'Contents' } = Astro.props as Props;
+const { headings, title = 'Contents', animated = true } = Astro.props as Props;
 const visibleHeadings = headings.filter((heading) => heading.depth === 2 || heading.depth === 3);
 ---
 
-<nav class="wiki-toc w-full max-h-[calc(100vh-10rem)] overflow-y-auto pr-2 custom-scrollbar" aria-label={title}>
+<nav class="wiki-toc w-full max-h-[calc(100vh-10rem)] overflow-y-auto pr-2 custom-scrollbar" aria-label={title} data-animated={animated || undefined}>
   <div class="mb-4 flex items-center justify-between gap-3">
     <h3 class="text-xs font-mono tracking-widest text-white/40 uppercase">{title}</h3>
     <span class="text-[10px] font-mono text-white/25">{visibleHeadings.length}</span>
@@ -37,17 +38,13 @@ const visibleHeadings = headings.filter((heading) => heading.depth === 2 || head
 </nav>
 
 <script>
+  import {getReadingAnchorOffset} from '../lib/readingNavigation.mjs';
   type TocWindow = Window & typeof globalThis & {
     __wikiTocCleanup?: (() => void) | null;
     __wikiTocTrackingBound?: boolean;
   };
 
-  const getAnchorOffset = () => {
-    const fixedNav = document.querySelector<HTMLElement>('.home-chrome, nav.fixed');
-    const navBottom = fixedNav?.getBoundingClientRect().bottom ?? 72;
-
-    return Math.ceil(navBottom + 20);
-  };
+  const getAnchorOffset = getReadingAnchorOffset;
 
   function setupToCTracking() {
     const tocWindow = window as TocWindow;
@@ -64,21 +61,49 @@ const visibleHeadings = headings.filter((heading) => heading.depth === 2 || head
       return;
     }
 
-    const setActiveSlug = (slug: string | null) => {
-      links.forEach((link) => {
+    const animatedTocs = Array.from(document.querySelectorAll<HTMLElement>('.wiki-toc[data-animated]'));
+    animatedTocs.forEach(toc => {
+      if (!toc.querySelector('.toc-slider')) {
+        const slider = document.createElement('li');
+        slider.className = 'toc-slider';
+        slider.setAttribute('aria-hidden', 'true');
+        slider.setAttribute('role', 'presentation');
+        toc.querySelector('.toc-list')?.append(slider);
+      }
+    });
+
+    const setActiveSlug = (slug: string | null, scope: ParentNode = document) => {
+      links.filter(link => scope.contains(link)).forEach((link) => {
         const isActive = link.dataset.slug === slug;
         link.dataset.active = isActive ? 'true' : 'false';
         if (isActive) link.setAttribute('aria-current', 'location');
         else link.removeAttribute('aria-current');
       });
+      animatedTocs.filter(toc => scope.contains(toc)).forEach(toc => {
+        const current = toc.querySelector<HTMLElement>('a[data-active="true"]');
+        const slider = toc.querySelector<HTMLElement>('.toc-slider');
+        if (!current || !slider || !toc.offsetHeight) return;
+        slider.style.height = `${current.offsetHeight}px`;
+        slider.style.transform = `translateY(${current.offsetTop}px)`;
+        if (toc.dataset.activeSlug !== slug) {
+          const bounds = toc.getBoundingClientRect(), item = current.getBoundingClientRect();
+          if (item.top < bounds.top + 12) toc.scrollTop += item.top - bounds.top - 12;
+          else if (item.bottom > bounds.bottom - 12) toc.scrollTop += item.bottom - bounds.bottom + 12;
+          toc.dataset.activeSlug = slug || '';
+        }
+      });
     };
 
     const syncActiveHeading = () => {
       const offset = getAnchorOffset();
-      let activeSlug = headings[0].getAttribute('id');
+      const readers = Array.from(document.querySelectorAll<HTMLElement>('[data-reader]'));
+      const scopes: ParentNode[] = readers.length ? readers : [document];
+      for (const scope of scopes) {
+      const visibleHeadings = headings.filter(heading => scope.contains(heading)).filter(heading => heading.getClientRects().length && links.some(link => link.dataset.slug === heading.id));
+      let activeSlug = visibleHeadings[0]?.getAttribute('id');
 
-      for (const heading of headings) {
-        if (heading.getBoundingClientRect().top - offset <= 0) {
+      for (const heading of visibleHeadings) {
+        if (heading.getBoundingClientRect().top - offset <= 2) {
           activeSlug = heading.getAttribute('id');
         } else {
           break;
@@ -86,7 +111,8 @@ const visibleHeadings = headings.filter((heading) => heading.depth === 2 || head
       }
 
       if (activeSlug) {
-        setActiveSlug(activeSlug);
+        setActiveSlug(activeSlug, scope);
+      }
       }
     };
 
@@ -108,13 +134,13 @@ const visibleHeadings = headings.filter((heading) => heading.depth === 2 || head
       event.preventDefault();
 
       const mobileContents = link.closest<HTMLDetailsElement>('.wiki-mobile-toc');
-      if (mobileContents) mobileContents.open = false;
+      if (mobileContents && getComputedStyle(mobileContents.querySelector('summary')!).display !== 'none') mobileContents.open = false;
 
-      const top = Math.max(target.getBoundingClientRect().top + window.scrollY - getAnchorOffset(), 0);
+      const top = Math.max(target.getBoundingClientRect().top + window.scrollY - getAnchorOffset(target), 0);
       const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-      setActiveSlug(slug);
-      window.history.pushState(null, '', `${window.location.pathname}${window.location.search}#${slug}`);
+      setActiveSlug(slug, link.closest('[data-reader]') || document);
+      window.history.pushState(window.history.state, '', `${window.location.pathname}${window.location.search}#${slug}`);
       window.scrollTo({
         top,
         behavior: prefersReducedMotion ? 'auto' : 'smooth',
@@ -137,17 +163,26 @@ const visibleHeadings = headings.filter((heading) => heading.depth === 2 || head
       });
     };
 
+    const disclosures = Array.from(document.querySelectorAll<HTMLDetailsElement>('.wiki-mobile-toc'));
+    disclosures.forEach(details => details.addEventListener('toggle', requestSync));
+    const resizeObserver = new ResizeObserver(requestSync);
+    animatedTocs.forEach(toc => resizeObserver.observe(toc));
     requestSync();
     links.forEach((link) => link.addEventListener('click', scrollToHeading));
     window.addEventListener('scroll', requestSync, { passive: true });
     window.addEventListener('resize', requestSync);
     window.addEventListener('hashchange', requestSync);
+    document.addEventListener('wiki:toc-refresh', requestSync);
+    document.fonts?.ready.then(requestSync);
 
     tocWindow.__wikiTocCleanup = () => {
+      resizeObserver.disconnect();
+      disclosures.forEach(details => details.removeEventListener('toggle', requestSync));
       links.forEach((link) => link.removeEventListener('click', scrollToHeading));
       tocWindow.removeEventListener('scroll', requestSync);
       tocWindow.removeEventListener('resize', requestSync);
       tocWindow.removeEventListener('hashchange', requestSync);
+      document.removeEventListener('wiki:toc-refresh', requestSync);
     };
   }
 
@@ -162,6 +197,16 @@ const visibleHeadings = headings.filter((heading) => heading.depth === 2 || head
 </script>
 
 <style>
+  .wiki-toc[data-animated] { max-height:calc(100dvh - var(--reader-sticky-top, 100px) - 20px); overscroll-behavior:contain; color:var(--theme-fg); }
+  .wiki-toc[data-animated] h3 { color:var(--reader-muted, var(--b-muted, var(--theme-fg)));font:500 .8rem/1.5 var(--font-sans);letter-spacing:.02em; }
+  .wiki-toc[data-animated] > div > span { color:var(--reader-muted, var(--b-muted, var(--theme-fg))); }
+  .wiki-toc[data-animated] .toc-list { position:relative;list-style:none;padding-left:.9rem;border-color:var(--reader-line, var(--b-line, currentColor));font-size:.8rem;line-height:1.65; }
+  .wiki-toc[data-animated] a { position:relative;z-index:1;padding:.4rem .5rem;color:var(--reader-muted, var(--b-muted, var(--theme-fg)));transform:none;background:none;transition:color 150ms; }
+  .wiki-toc[data-animated] a[data-active='true'] {color:var(--theme-accent-color);font-weight:500;}
+  .wiki-toc[data-animated] a:hover {color:var(--theme-accent-color);}
+  .wiki-toc[data-animated] :global(.toc-slider) { position:absolute;margin:0!important;left:0;top:0;width:2px;background:var(--theme-accent-color);border-radius:2px;pointer-events:none;transition:transform 260ms ease,height 260ms ease; }
+  @media(prefers-reduced-motion:reduce){.wiki-toc[data-animated] :global(.toc-slider){transition:none}}
+
   .heading-level-3 {
     margin-left: 1rem;
     font-size: 0.85em;

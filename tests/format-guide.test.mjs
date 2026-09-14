@@ -34,20 +34,16 @@ test('the localized unified format guide has a content collection and standalone
   assert.match(page, /href=\{syntaxHref\}/);
 });
 
-test('contributor roster links to the style guide after the syntax guide in both render paths', async () => {
-  const component = await readSource('../src/components/ContributorRoster.astro');
-  const script = await readSource('../src/scripts/contributorRoster.js');
-
-  assert.match(component, /const syntaxHref = `\/\$\{locale\}\/contribute\/syntax`;/);
-  assert.match(component, /const formatHref = `\/\$\{locale\}\/contribute\/format`;/);
-  assert.match(component, /data-syntax-href=\{syntaxHref\}[\s\S]*data-format-href=\{formatHref\}/);
-  assert.match(component, /syntaxAction: '语法属性指南',\s*formatAction: '统一格式指南'/);
-  assert.match(component, /syntaxAction: '構文属性ガイド',\s*formatAction: '統一スタイルガイド'/);
-  assert.match(component, /syntaxAction: 'Read the syntax guide',\s*formatAction: 'Unified style guide'/);
-  assert.match(
-    script,
-    /dataset\.syntaxHref[\s\S]*copy\.syntaxAction[\s\S]*dataset\.formatHref[\s\S]*copy\.formatAction/,
-  );
+test('contribution hub keeps syntax and style guides discoverable from the consolidated entry', async () => {
+  const {contributionHub,hubDocuments}=await import('../src/lib/contributionHub.mjs');
+  for(const locale of ['zh','en','ja','zh-tw','zh-hk']){
+    assert.equal(contributionHub(locale).tabs.length,hubDocuments.length);
+    for(const doc of ['syntax','format','files'])assert.ok(hubDocuments.includes(doc));
+  }
+  const script=await readSource('../src/scripts/contributorRoster.js');
+  assert.match(script,/dataset\.guideHref/);
+  assert.match(script,/dataset\.editHref/);
+  assert.doesNotMatch(script,/dataset\.syntaxHref|dataset\.formatHref/);
 });
 
 test('every locale provides a substantial, cross-linked style guide', async () => {

@@ -6,7 +6,7 @@ import SiteNav from '../../../components/SiteNav.astro';
 import SiteFooter from '../../../components/SiteFooter.astro';
 import WikiInfoBox from '../../../components/WikiInfoBox.astro';
 import WikiArticleHeader from '../../../components/WikiArticleHeader.astro';
-import TableOfContents from '../../../components/TableOfContents.astro';
+import Reader from '../../../components/Reader.astro';
 import ContributorRoster from '../../../components/ContributorRoster.astro';
 import MusicSubnav from '../../../components/MusicSubnav.astro';
 import ContentLicenseNotice from '../../../components/ContentLicenseNotice.astro';
@@ -28,7 +28,6 @@ const { entry } = Astro.props;
 const { html: contentHtml, headings, body: articleBody } = await renderContentEntry(entry);
 const localeCode = locale as 'zh' | 'zh-tw' | 'zh-hk' | 'ja' | 'en';
 const hasArticleBody = Boolean(articleBody);
-const hasTableOfContents = headings.some((heading) => heading.depth === 2 || heading.depth === 3);
 
 const siteEntries = await getCollection('site');
 const homeContent = getLocalizedSite(siteEntries, localeCode, defaultLocale);
@@ -223,48 +222,16 @@ const themeStyle = [
       </WikiArticleHeader>
     </div>
 
-    <div class:list={[
-      'reader-frame reader-layout mx-auto grid max-w-[92rem] items-start gap-5 px-4 py-4 sm:gap-8 sm:px-6 sm:py-5 lg:gap-8',
-      hasArticleBody ? 'lg:grid-cols-12' : 'lg:grid-cols-[minmax(0,1fr)_22rem]',
-    ]}>
-      {hasTableOfContents && (
-        <aside class="reader-toc-column hidden lg:block lg:col-span-2 sticky top-32">
-          <TableOfContents headings={headings} title={articleLabels.contents} />
-        </aside>
-      )}
-
-      {hasArticleBody && (
-        <main class:list={[
-          'reader-body order-last w-full min-w-0 lg:order-none',
-          hasTableOfContents ? 'lg:col-span-7' : 'lg:col-span-8 lg:col-start-2',
-        ]}>
-          {hasTableOfContents && (
-            <details class="wiki-mobile-toc mb-8 rounded-lg border border-white/10 bg-white/[0.03] p-4 lg:hidden">
-              <summary class="cursor-pointer text-[11px] font-mono uppercase tracking-[0.24em] text-white/65">
-                {articleLabels.contents}
-              </summary>
-              <div class="mt-4 border-t border-white/10 pt-4">
-                <TableOfContents headings={headings} title={articleLabels.contents} />
-              </div>
-            </details>
-          )}
-
-          <LyricsPractice locale={localeCode} sourceLinks={sourceLinks} />
+    <Reader backgroundImage={entry.data.image ?? artistEntry?.data.image} variant="entry" headings={headings} contentsTitle={articleLabels.contents} hasContent={hasArticleBody}>
+      <LyricsPractice locale={localeCode} sourceLinks={sourceLinks} />
           <article class="wiki-reader wiki-prose prose prose-invert max-w-none">
             <Fragment set:html={contentHtml} />
           </article>
-        </main>
-      )}
-
-      <aside class:list={[
-        'reader-sidebar w-full max-w-sm mx-auto lg:sticky lg:top-32 lg:max-w-none reveal-up',
-        hasArticleBody ? 'lg:col-span-3' : 'lg:col-start-2',
-      ]}>
+      <Fragment slot="sidebar">
         <WikiInfoBox data={articleData} labels={articleLabels} />
         <ContributorRoster mode="entry" locale={localeCode} collection="songs" entryId={id} />
-      </aside>
-      
-    </div>
+      </Fragment>
+    </Reader>
 
     <div class="reader-frame reader-end mx-auto max-w-[92rem] px-4 pb-6 sm:px-6">
       <MemoryCorridorEntryLink locale={localeCode} kind="song" entryId={id!} />

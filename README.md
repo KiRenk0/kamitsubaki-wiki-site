@@ -206,6 +206,7 @@ CI 工作流位于 `.github/workflows/ci.yml`。
 
 - [贡献指南](docs/contributing.md)
 - [架构说明](docs/architecture.md)
+- [可复用阅读器组件](docs/reader-component.md)
 - [统一 AI 小组件](docs/ai-terminal.md)
 - [内容授权与来源标注](docs/licensing.md)
 - [外部链接品牌卡片](docs/external-links.md)

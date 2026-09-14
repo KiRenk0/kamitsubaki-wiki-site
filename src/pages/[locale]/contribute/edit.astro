@@ -1,4 +1,5 @@
 ---
+import ContributionHubRedirect from '../../../components/ContributionHubRedirect.astro';
 import { editorGuide } from '../../../lib/editorGuide.mjs';
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
@@ -26,6 +27,7 @@ const editorHref = '/'+localeCode+'/contribute/editor/';
 const metadata = {title:copy.title,description:copy.intro,canonicalPath:'/'+localeCode+'/contribute/edit',type:'website' as const};
 ---
 <BaseLayout reading lang={localeCode} title={copy.title} alternates={alternates} metadata={metadata}>
+  <ContributionHubRedirect locale={localeCode} document="editor" />
   <SiteNav navItems={homeContent.navItems} localeLinks={localeLinks} brandLines={homeContent.hero.brandLines} compact homeHref={'/'+localeCode+'/'} />
   <main class="cg-shell" data-contribution-guide>
     <ContributionNav locale={localeCode} current="edit" />

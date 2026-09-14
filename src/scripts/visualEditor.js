@@ -1,3 +1,4 @@
+import {revealPanel,enhanceTabRail} from '../lib/uiMotion.mjs';
 import {newEntryPath,prepareImage,attachmentFile,imageBase64} from '../lib/editorAttachments.mjs';
 import { markdownTrigger, upgradeListBlock } from '../lib/editorWriting.mjs';
 import {editorEnabled,editorApiBase,localEditor} from '../lib/editorConfig.mjs';
@@ -337,8 +338,10 @@ const initialize = () => {
   $('[data-undo]').addEventListener('click', () => { checkpoint(); if (!cursor) return; clearPendingSource(); draft = JSON.parse(history[--cursor]); savedRange=null; renderFields(); renderBlocks(activeBlockId); save(); output(); });
   $('[data-redo]').addEventListener('click', () => { if (cursor >= history.length - 1) return; clearPendingSource(); draft = JSON.parse(history[++cursor]); savedRange=null; renderFields(); renderBlocks(activeBlockId); save(); output(); });
   function changeView(view) {
+    const previous=root.querySelector('[data-view][aria-selected="true"]')?.dataset.view;
     root.querySelectorAll('[data-view]').forEach(button=>{const active=button.dataset.view===view;button.setAttribute('aria-selected',String(active));button.tabIndex=active?0:-1;});
     $('#ve-preview').hidden=view!=='preview'; $('#ve-properties').hidden=view!=='properties';
+    if(previous!==view)revealPanel(view==='preview'?$('#ve-preview'):$('#ve-properties'));
   }
   root.querySelectorAll('[data-view]').forEach(button=>button.addEventListener('click',()=>changeView(button.dataset.view)));
   $('[data-copy]').addEventListener('click', async () => { try { await navigator.clipboard.writeText(exportMarkdown(draft)); $('[data-action-status]').textContent = copy.copied; } catch { changeMode('source'); $('[data-source]').select(); $('[data-action-status]').textContent = copy.copyFailed; } });
@@ -480,15 +483,19 @@ const initialize = () => {
   });
   function inlinePreview() {const kind=$('[data-inline-kind]').value,args=[...root.querySelectorAll('[data-dialog-arg]')].map(el=>el.value).filter((value,i)=>kind!=='ruby'||i<2||value);$('[data-inline-preview]').innerHTML=shortcodeChip(inlineSource(kind,args));}
   $('[data-inline-args]').addEventListener('input',inlinePreview);
-  function changeSide(side) {root.dataset.side=side;root.removeAttribute('data-sidebar-hidden');root.querySelectorAll('[data-side-panel]').forEach(panel=>panel.hidden=panel.dataset.sidePanel!==side);root.querySelectorAll('[data-side-button]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.sideButton===side)));}
+  function changeSide(side) {const previous=root.dataset.side;root.dataset.side=side;root.removeAttribute('data-sidebar-hidden');root.querySelectorAll('[data-side-panel]').forEach(panel=>panel.hidden=panel.dataset.sidePanel!==side);root.querySelectorAll('[data-side-button]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.sideButton===side)));if(previous!==side)revealPanel(root.querySelector(`[data-side-panel="${side}"]`));}
   function setLayout(layout) {root.dataset.layout=layout; if(layout==='preview')changeView('preview');}
   function changeMode(mode) {
+    const previous=root.dataset.mode;
     if(mode==='visual'&&sourcePending!==null&&!applySource())return false;
     root.dataset.mode=mode;$('#ve-canvas').hidden=mode!=='visual';$('#ve-source').hidden=mode!=='source';
     root.querySelectorAll('button[data-mode]').forEach(button=>{const active=button.dataset.mode===mode;button.setAttribute('aria-selected',String(active));button.tabIndex=active?0:-1;});
     if(mode==='source'){$('[data-source]').value=sourcePending??exportMarkdown(draft);updateSourceLines();$('[data-source]').focus();}
+    if(previous!==mode)revealPanel(mode==='visual'?$('#ve-canvas'):$('#ve-source'));
     return true;
   }
+  const motionCleanups=[...root.querySelectorAll('[role="tablist"]')].map(enhanceTabRail);
+  document.addEventListener('astro:before-swap',()=>motionCleanups.forEach(cleanup=>cleanup?.()),{once:true});
   root.querySelectorAll('[data-side-button]').forEach(button=>button.addEventListener('click',()=>{changeSide(button.dataset.sideButton);if(button.dataset.sideButton==='files')$('[data-existing-open]').click();}));
   root.querySelectorAll('[data-sidebar-close]').forEach(button=>button.addEventListener('click',()=>{root.setAttribute('data-sidebar-hidden','');$('[data-existing-open]').focus();}));
   $('[data-sidebar-toggle]').addEventListener('click',()=>root.toggleAttribute('data-sidebar-hidden'));

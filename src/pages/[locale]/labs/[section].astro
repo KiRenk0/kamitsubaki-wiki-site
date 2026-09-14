@@ -1,4 +1,6 @@
 ---
+import WorkspaceHeader from '../../../components/WorkspaceHeader.astro';
+import WorkspaceNavigation from '../../../components/WorkspaceNavigation.astro';
 import { getCollection } from 'astro:content';
 import LibraryPanel from '../../../components/labs/LibraryPanel.astro';
 import EditorEntry from '../../../components/editor/EditorEntry.astro';
@@ -21,15 +23,10 @@ const projects = getLocalizedEntries(await getCollection('projects'), locale);
 <BaseLayout lang={locale} title={`${copy.tabs[current]} · ${copy.title}`} metadata={{ noindex: true }}>
   <SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site, locale, route)} brandLines={site.hero.brandLines} homeHref={`/${locale}/`} />
   <main class="labs-shell" data-labs-section={section} data-locale={locale}>
-    <header class="labs-head">
-      <a href={`/${locale}/`}>{copy.home}</a><span class="labs-tag">LABs</span>
-      <h1>{copy.title}</h1>
-      <p>{copy.intro}</p>
-    </header>
-    <nav class="labs-nav" aria-label={copy.title} data-labs-nav>
-      <span class="labs-nav__indicator" data-labs-indicator aria-hidden="true"></span>
+    <WorkspaceHeader title={copy.title} intro={copy.intro} eyebrow="LABs"><a href={`/${locale}/`}>{copy.home}</a></WorkspaceHeader>
+    <WorkspaceNavigation label={copy.title} kind="labs">
       {labsSections.map((s, i) => <a id={`labs-tab-${s}`} data-labs-tab={s} href={`/${locale}/labs/${s}/`} aria-current={section === s ? 'page' : undefined}>{copy.tabs[i]}</a>)}
-    </nav>
+    </WorkspaceNavigation>
     <div class="labs-panels" data-labs-panels>
     <section class="labs-panel" id="labs-panel-explore" data-labs-panel="explore" aria-labelledby="labs-tab-explore" hidden={section !== 'explore'}>
       <div class="labs-banner"><h2>{copy.explore}</h2><p>{copy.descriptions[0]}</p><div class="labs-actions"><button data-search-open>{copy.fullSearch}</button><button data-random-discovery>{copy.random}</button><a class="labs-button" href={`/${locale}/labs/timeline/`}>{copy.tabs[1]} →</a></div></div>
