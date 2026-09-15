@@ -11,6 +11,7 @@ if(page) {
   const api=page.dataset.apiBase.replace(/\/$/,'')+'/api/support';
   const status=page.querySelector('[data-support-status]');
   const retry=page.querySelector('[data-support-retry]');
+  retry.hidden=false;
   const key='wiki-support:v1:'+api;
   let busy=false;
   function show(payload) {

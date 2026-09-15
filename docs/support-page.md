@@ -10,8 +10,8 @@ Edit `src/data/support.ts`. It exports the typed `SupportData` structure:
 
 - `channels`: add a channel with a stable `id`, localized `name` and
   `description`, and the project's verified HTTPS `url`. `null` shows a
-  “coming soon” label without a clickable link. The Afdian and GitHub Sponsors
-  entries are intentionally awaiting real account URLs. Additional channels
+  “coming soon” label without a clickable link. Afdian has a configured URL;
+  GitHub Sponsors is awaiting an account URL. Additional channels
   render through the same component; no platform-specific SDK is needed.
 - `currency`: ISO currency code for operating cost estimates (initially CNY).
 - `costs`: annual estimates in major currency units, not cents. Use `null` for
@@ -44,8 +44,17 @@ Traditional Chinese conversion. Channel and cost descriptions live beside their
 data in `support.ts`, with the same three source languages.
 
 The page uses `BaseLayout`, `SiteNav`, `SiteFooter`, and the existing language and
-theme controls. `src/styles/support.css` uses the shared theme/color/radius tokens.
-Year records use native `<details>` and require no page-specific JavaScript.
+theme controls. `WorkspaceHeader` and `WorkspaceNavigation` provide the same compact
+header, sliding indicator, sticky navigation, and keyboard controls as the
+contribution hub, account page, and LABs. `src/styles/support.css` uses shared theme,
+color, and radius tokens.
+
+The four panels use the original anchors: `#ways-to-support`, `#running-costs`,
+`#transparency`, and `#sponsor-wall`. `supportNavigation.js` initializes the controller
+in `supportNavigation.mjs`; switching keeps the existing DOM and annual disclosure
+state, supports browser history and nested heading links, and preserves the hash
+when changing languages. Without JavaScript all four sections remain readable and
+the navigation works as ordinary anchors. Year records still use native `<details>`.
 
 ## Live API integration
 
