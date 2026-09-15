@@ -1,6 +1,5 @@
 ---
 import { defaultLocale, getLocalizedSiteName } from '../lib/i18n.mjs';
-import { getSupportCopy } from '../data/supportCopy';
 
 type FooterLink = {
   label: string;
@@ -28,7 +27,7 @@ const locale = Astro.params.locale ?? defaultLocale;
 const supportHref = `/${locale}/support/`;
 const footerLinks = [
   ...footer.links.filter((link) => link.href.replace(/\/$/, '') !== supportHref.replace(/\/$/, '')),
-  { label: getSupportCopy(locale).title, href: supportHref },
+  { label: 'SUPPORT', href: supportHref },
 ];
 ---
 

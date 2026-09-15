@@ -1,5 +1,5 @@
 ---
-interface Props { label: string; kind: 'hub' | 'labs' | 'account'; }
+interface Props { label: string; kind: 'hub' | 'labs' | 'account' | 'support'; }
 const {label,kind}=Astro.props;
 const attributes=kind==='hub'?{'data-hub-nav':''}:kind==='labs'?{'data-labs-nav':''}:{};
 ---
