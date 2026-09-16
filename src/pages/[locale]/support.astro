@@ -4,6 +4,8 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import SiteNav from '../../components/SiteNav.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
 import SupportChannelCard from '../../components/SupportChannelCard.astro';
+import WorkspaceHeader from '../../components/WorkspaceHeader.astro';
+import WorkspaceNavigation from '../../components/WorkspaceNavigation.astro';
 import { getLocalizedSite } from '../../lib/homeData.mjs';
 import { buildLocaleLinks, defaultLocale, resolveLocaleCopy, supportedLocales } from '../../lib/i18n.mjs';
 import { getSupportCopy } from '../../data/supportCopy';
@@ -31,19 +33,23 @@ const apiBase = import.meta.env.PUBLIC_SUPPORT_API_BASE || import.meta.env.PUBLI
 
   <main class="support-shell" data-support-page data-api-base={apiBase} data-locale={locale}>
     <script is:inline type="application/json" data-support-copy set:html={JSON.stringify(copy).replace(/</g, '\\u003c')} />
-    <header class="support-hero">
-      <p class="support-eyebrow">SUPPORT / {copy.title}</p>
-      <h1>{copy.heroTitle}</h1>
-      <p class="support-intro">{copy.intro}</p>
-      <div class="support-actions">
-        <a class="support-button support-button--primary" href="#ways-to-support">{copy.choose}<span aria-hidden="true">↓</span></a>
-        <a class="support-text-link" href="#transparency">{copy.seeReports}<span aria-hidden="true">↗</span></a>
-      </div>
-      <p class="support-hero__note"><span aria-hidden="true">＋</span>{copy.freeNote}</p>
-      <div class="support-live-status"><p class="support-note" data-support-status role="status"></p><button type="button" class="support-text-link" data-support-retry>{copy.retry}<span aria-hidden="true">↻</span></button></div>
-    </header>
+    <WorkspaceHeader title={copy.title} intro={copy.intro} eyebrow="SUPPORT">
+      <a href={`/${locale}/`}>{copy.home}</a>
+      <a href={`/${locale}/contribute/`}>{copy.contribute}<span aria-hidden="true">↗</span></a>
+    </WorkspaceHeader>
 
-    <section class="support-section" id="ways-to-support" aria-labelledby="support-ways-title">
+    <WorkspaceNavigation label={copy.pageNav} kind="support">
+      {[
+        { id: 'ways-to-support', label: copy.navChannels },
+        { id: 'running-costs', label: copy.navCosts },
+        { id: 'transparency', label: copy.navReports },
+        { id: 'sponsor-wall', label: copy.navWall },
+      ].map(item => <a id={`support-tab-${item.id}`} href={`#${item.id}`} data-support-tab={item.id}>{item.label}</a>)}
+    </WorkspaceNavigation>
+    <div class="support-live-status"><p class="support-note" data-support-status role="status"></p><button type="button" class="support-text-link" data-support-retry hidden>{copy.retry}<span aria-hidden="true">↻</span></button></div>
+
+    <div class="support-panels">
+    <section class="support-section support-ways" id="ways-to-support" data-support-panel aria-labelledby="support-ways-title">
       <div class="support-heading">
         <p class="support-eyebrow">01 / SUPPORT CHANNELS</p>
         <h2 id="support-ways-title">{copy.channelsTitle}</h2>
@@ -53,12 +59,14 @@ const apiBase = import.meta.env.PUBLIC_SUPPORT_API_BASE || import.meta.env.PUBLI
         {data.channels.map((channel, index) => <SupportChannelCard channel={channel} locale={locale} index={index} />)}
       </div>
       <aside class="support-community">
+        <span class="support-community__mark" aria-hidden="true">＋</span>
         <div><h3>{copy.communityTitle}</h3><p>{copy.communityBody}</p></div>
-        <a class="support-text-link" href={`/${locale}/contribute/edit/`}>{copy.contribute}<span aria-hidden="true">↗</span></a>
+        <a class="support-text-link" href={`/${locale}/contribute/`}>{copy.contribute}<span aria-hidden="true">↗</span></a>
       </aside>
+      <p class="support-free-note">{copy.freeNote}</p>
     </section>
 
-    <section class="support-section support-costs" id="running-costs" aria-labelledby="support-costs-title">
+    <section class="support-section support-costs" id="running-costs" data-support-panel aria-labelledby="support-costs-title">
       <div class="support-heading">
         <p class="support-eyebrow">02 / PROJECT UPKEEP</p>
         <h2 id="support-costs-title">{copy.costsTitle}</h2>
@@ -78,12 +86,13 @@ const apiBase = import.meta.env.PUBLIC_SUPPORT_API_BASE || import.meta.env.PUBLI
       </div>
     </section>
 
-    <section class="support-section" id="transparency" aria-labelledby="support-transparency-title">
+    <section class="support-section support-transparency" id="transparency" data-support-panel aria-labelledby="support-transparency-title">
       <div class="support-heading">
         <p class="support-eyebrow">03 / TRANSPARENCY</p>
         <h2 id="support-transparency-title">{copy.reportsTitle}</h2>
         <p>{copy.reportsIntro}</p>
       </div>
+      <div class="support-records">
       <div class="support-reports" data-support-reports>
         {reports.map((report, index) => {
           const pending = report.received === null && report.spent === null;
@@ -115,9 +124,10 @@ const apiBase = import.meta.env.PUBLIC_SUPPORT_API_BASE || import.meta.env.PUBLI
         {!reports.length && <p class="support-empty">{copy.noReports}</p>}
       </div>
       <p class="support-note support-accounting">{copy.accountingNote}</p>
+      </div>
     </section>
 
-    <section class="support-section" id="sponsor-wall" aria-labelledby="support-wall-title">
+    <section class="support-section support-thanks" id="sponsor-wall" data-support-panel aria-labelledby="support-wall-title">
       <div class="support-heading">
         <p class="support-eyebrow">04 / SPONSOR WALL</p>
         <h2 id="support-wall-title">{copy.wallTitle}</h2>
@@ -136,13 +146,18 @@ const apiBase = import.meta.env.PUBLIC_SUPPORT_API_BASE || import.meta.env.PUBLI
       <p class="support-note support-wall-note">{copy.wallPrivacy}</p>
     </section>
 
+    </div>
+
     <aside class="support-disclaimer" aria-labelledby="support-disclaimer-title">
       <h2 id="support-disclaimer-title">{copy.disclaimerTitle}</h2>
+      <div>
       {copy.disclaimer.map((paragraph) => <p>{paragraph}</p>)}
+      </div>
     </aside>
   </main>
   <SiteFooter footer={homeContent.footer} />
   <script>
+    import '../../scripts/supportNavigation.js';
     import '../../scripts/supportPage.js';
   </script>
 </BaseLayout>

@@ -2,6 +2,12 @@ import { resolveLocaleCopy } from '../lib/i18n.mjs';
 
 const zh = {
   title: '支持项目',
+  bannerTitle: '一起，让观测站继续亮着。',
+  bannerBody: '每一份支持，都帮助我们维护与更新这份共同的记录。',
+  bannerAction: '支持观测站',
+  pageNav: '支持页面目录', home: '返回首页',
+  navChannels: '支持方式', navCosts: '费用用途', navReports: '收支记录', navWall: '感谢名单',
+  available: '已开放',
   updated: '支持信息更新于',
   offline: '暂时无法读取最新支持信息，当前展示的是先前保存或预设的内容。',
   retry: '刷新支持信息',
@@ -57,6 +63,12 @@ const copy: Record<'zh' | 'ja' | 'en', SupportCopy> = {
   zh,
   ja: {
     title: 'プロジェクトを支援',
+    bannerTitle: 'この観測所を、これからも。',
+    bannerBody: '皆さまの支援が、ともにつくる記録の維持と更新につながります。',
+    bannerAction: '観測所を支援',
+    pageNav: '支援ページの目次', home: 'ホームへ',
+    navChannels: '支援方法', navCosts: '使い道', navReports: '収支記録', navWall: '支援者一覧',
+    available: '受付中',
     updated: '支援情報の更新日', offline: '最新の支援情報を取得できません。保存済み、または初期の内容を表示しています。', retry: '支援情報を更新',
     entryDate: '日付', entryDescription: '公開の説明', entryAmount: '金額', income: '収入', expense: '支出',
     heroTitle: 'この記録を、これからも。',
@@ -84,6 +96,12 @@ const copy: Record<'zh' | 'ja' | 'en', SupportCopy> = {
   },
   en: {
     title: 'Support the project', heroTitle: 'Keep the shared archive growing.',
+    bannerTitle: 'Together, keep the lights on.',
+    bannerBody: 'Every contribution helps us maintain and update this shared archive.',
+    bannerAction: 'Support the observatory',
+    pageNav: 'On this page', home: 'Back home',
+    navChannels: 'Ways to support', navCosts: 'Running costs', navReports: 'Annual records', navWall: 'Our supporters',
+    available: 'Available',
     updated: 'Support information updated', offline: 'The latest support information is unavailable. Previously saved or default content is shown.', retry: 'Refresh support information',
     entryDate: 'Date', entryDescription: 'Public description', entryAmount: 'Amount', income: 'Income', expense: 'Expense',
     intro: 'KAMITSUBAKI Fan Wiki is maintained by fans, together. If these pages have helped you, you are welcome to support their upkeep in whatever way feels right for you.',

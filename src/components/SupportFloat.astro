@@ -1,0 +1,60 @@
+---
+import { getSupportCopy } from '../data/supportCopy';
+const { locale = 'en' } = Astro.props;
+const copy = getSupportCopy(locale);
+---
+
+<aside class="support-float" data-support-float aria-label={copy.title}>
+  <button class="support-float__toggle" type="button" aria-label={copy.title} aria-expanded="false" aria-controls="support-float-content">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.4 5.6a5.1 5.1 0 0 0-7.2 0L12 6.8l-1.2-1.2a5.1 5.1 0 0 0-7.2 7.2L12 21l8.4-8.2a5.1 5.1 0 0 0 0-7.2Z" /></svg>
+    <span class="support-float__close" aria-hidden="true">×</span>
+  </button>
+  <div class="support-float__content" id="support-float-content" inert>
+    <p class="support-float__eyebrow">SUPPORT THE OBSERVATORY</p>
+    <h2>{copy.bannerTitle}</h2>
+    <p class="support-float__body">{copy.bannerBody}</p>
+    <a href={`/${locale}/support/`}>{copy.bannerAction}<span aria-hidden="true">↗</span></a>
+  </div>
+</aside>
+
+<style>
+  .support-float { position:fixed; right:calc(var(--floating-action-edge) + 2 * (var(--floating-action-size) + 10px)); bottom:max(var(--floating-action-edge), env(safe-area-inset-bottom)); z-index:42; width:var(--floating-action-size); height:var(--floating-action-size); color:var(--theme-fg); }
+  .support-float__toggle { position:absolute; right:0; bottom:0; display:grid; place-items:center; width:var(--floating-action-size); height:var(--floating-action-size); color:var(--theme-accent-color); cursor:pointer; background:var(--theme-panel-solid); border:1px solid rgb(var(--theme-accent-rgb) / .45); border-radius:var(--ui-radius-control); box-shadow:0 4px 16px rgb(0 0 0 / .1); }
+  .support-float__toggle svg { width:21px; height:21px; transition:transform 320ms,opacity 180ms; }
+  .support-float__close { position:absolute; font:26px/1 var(--font-sans); opacity:0; transform:rotate(-45deg); transition:opacity 180ms,transform 320ms; }
+  [data-pinned] .support-float__toggle svg { opacity:0; transform:scale(.6); }
+  [data-pinned] .support-float__close { opacity:1; transform:rotate(0); }
+  .support-float__content { position:absolute; right:calc(-2 * (var(--floating-action-size) + 10px)); bottom:calc(100% + 12px); width:min(320px, calc(100vw - 2 * var(--floating-action-edge))); padding:24px; max-height:calc(100dvh - 120px); overflow:auto; border:1px solid rgb(var(--theme-accent-rgb) / .35); border-radius:var(--ui-radius-panel); background:var(--theme-panel-solid); box-shadow:0 14px 48px rgb(0 0 0 / .15); opacity:0; visibility:hidden; transform:translateY(18px) scale(.72,.6); transform-origin:calc(100% - 2 * (var(--floating-action-size) + 10px) - var(--floating-action-size) / 2) bottom; transition:transform 400ms cubic-bezier(.4,0,.2,1),opacity 200ms ease,visibility 400ms; }
+  [data-open] .support-float__content { opacity:1; visibility:visible; transform:translateY(0) scale(1); transition:transform 620ms cubic-bezier(.18,.9,.25,1.12),opacity 240ms ease,visibility 0ms; }
+  .support-float__eyebrow { font:9px/1.8 var(--font-mono); letter-spacing:.1em; color:var(--theme-accent-color); }
+  .support-float h2 { margin:12px 0; font:500 23px/1.45 var(--font-serif); text-wrap:balance; }
+  .support-float__body { font:13px/1.8 var(--font-sans); color:rgb(var(--theme-fg-rgb) / .68); }
+  .support-float__content a { display:flex; align-items:center; justify-content:space-between; gap:16px; margin-top:22px; min-height:48px; padding:12px 16px; border:1px solid var(--theme-accent-color); border-radius:var(--ui-radius-control); background:var(--theme-accent-color); color:var(--theme-bg); font:600 14px/1.6 var(--font-sans); box-shadow:0 4px 14px rgb(var(--theme-accent-rgb) / .2); transition:filter 200ms ease,translate 380ms cubic-bezier(.18,.9,.25,1.12); }
+  .support-float__content a:hover { filter:brightness(1.1); translate:0 -2px; }
+  .support-float__content a:active { translate:0 0; }
+  .support-float__content a:focus-visible { outline:2px solid var(--theme-fg); outline-offset:3px; }
+  .support-float :is(a,button):focus-visible { outline:2px solid var(--theme-accent-color); outline-offset:-3px; }
+  :global(body:has(.ve-workbench)) .support-float { display:none; }
+  @media(prefers-reduced-motion:reduce) { .support-float, .support-float * { transition:none !important; } }
+</style>
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-support-float]').forEach((root) => {
+    const toggle = root.querySelector<HTMLButtonElement>('button')!;
+    const content = root.querySelector<HTMLElement>('.support-float__content')!;
+    let pinned = false;
+    let closeTimer: ReturnType<typeof setTimeout>;
+    const setOpen = (open: boolean) => {
+      root.toggleAttribute('data-open', open);
+      root.toggleAttribute('data-pinned', open && pinned);
+      toggle.setAttribute('aria-expanded', String(open));
+      content.inert = !open;
+    };
+    root.addEventListener('pointerenter', (event) => { clearTimeout(closeTimer); if (event.pointerType === 'mouse') setOpen(true); });
+    root.addEventListener('pointerleave', () => { closeTimer = setTimeout(() => { if (!pinned && !root.contains(document.activeElement)) setOpen(false); }, 160); });
+    toggle.addEventListener('click', () => { pinned = !pinned; setOpen(pinned); });
+    root.addEventListener('focusout', (event) => { if (!root.contains(event.relatedTarget as Node)) { pinned = false; setOpen(false); } });
+    root.addEventListener('keydown', (event) => { if (event.key === 'Escape') { toggle.focus(); pinned = false; setOpen(false); } });
+    document.addEventListener('pointerdown', (event) => { if (!root.contains(event.target as Node)) { pinned = false; setOpen(false); } });
+  });
+</script>

@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import ToolsDock from '../components/ToolsDock.astro';
+import SupportFloat from '../components/SupportFloat.astro';
 import AccountChrome from '../components/AccountChrome.astro';
 import AiChatWidget from '../components/AiChatWidget.astro';
 import LiveEventsWidget from '../components/LiveEventsWidget.astro';
@@ -24,6 +25,7 @@ import '../styles/readerFormats.css';
 import '../styles/polish.css';
 import '../styles/experienceMotion.css';
 import '../styles/navigationMotion.css';
+import '../styles/floatingActions.css';
 
 type PageMetadata = {
   title?: string;
@@ -209,6 +211,7 @@ const fontStylesheet = getLocaleFontStylesheet(lang).replace('display=optional',
     <AccountChrome locale={lang} />
     <div id="cursor" class="cursor-dot" aria-hidden="true"></div>
     <SiteSearch lang={lang} />
+    <SupportFloat locale={lang} />
     <ToolsDock lang={lang}>
       {isLocalizedHome && liveEventsCopy && <LiveEventsWidget lang={lang} copy={liveEventsCopy} />}
       {socialContactCopy && <SocialContactWidget lang={lang} copy={socialContactCopy} />}
