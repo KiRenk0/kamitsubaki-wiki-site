@@ -96,4 +96,4 @@ pulse：致力于构建虚拟世界「INSPIX WORLD」，并不断挑战次世代
 - [**THINKR 工作室重组新闻稿**（PR TIMES，2026年9月5日）](https://prtimes.jp/main/html/rd/p/000000490.000106737.html)<br>
 - [**KYOKAI STUDIO 官方网站**](https://kyokaistudio.jp/)<br>
 - [**ALLT STUDIO 官方网站**](https://alltstudio.jp/)<br>
-- [**PNDR STUDIO 官方网站**](https://pndr.thinkr.jp//)<br>
+- [**PNDR STUDIO 官方网站**](https://pndr.thinkr.jp/)<br>
