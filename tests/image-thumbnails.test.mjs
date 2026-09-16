@@ -7,9 +7,27 @@ import sharp from 'sharp';
 import { generateThumbnails } from '../scripts/generate-thumbnails.mjs';
 import { selectImageAttributes } from '../src/lib/imageAttributes.mjs';
 
+sharp.cache(false);
+
+async function removePath(path) {
+  for (let attempt = 0; attempt < 10; attempt += 1) {
+    try {
+      await rm(path, { recursive: true, force: true });
+      return;
+    } catch (error) {
+      if (error?.code !== 'EBUSY' || attempt === 9) throw error;
+      await new Promise((resolve) => setTimeout(resolve, 50 * (attempt + 1)));
+    }
+  }
+}
+
+async function removeDirectory(path) {
+  await removePath(path);
+}
+
 test('thumbnail generation preserves sources, dimensions, transparency, cache and replacement URLs', async t => {
   const root = await mkdtemp(join(tmpdir(), 'wiki-thumbnails-'));
-  t.after(() => rm(root, { recursive: true, force: true }));
+  t.after(() => removeDirectory(root));
   const images = join(root, 'public/images');
   await mkdir(images, { recursive: true });
   const original = await sharp({ create: { width: 1200, height: 800, channels: 3, background: '#148080' } }).jpeg().toBuffer();
@@ -36,7 +54,7 @@ test('thumbnail generation preserves sources, dimensions, transparency, cache an
   const oldTime = (await stat(thumb)).mtimeMs;
   assert.equal((await run()).generated, 0);
   assert.equal((await stat(thumb)).mtimeMs, oldTime);
-  await rm(thumb);
+  await removePath(thumb);
   assert.ok((await run()).generated >= 1);
   await sharp(original).negate().jpeg().toFile(join(images, '花 譜.jpg'));
   await run();
@@ -45,7 +63,7 @@ test('thumbnail generation preserves sources, dimensions, transparency, cache an
 
 test('EXIF rotation is applied before responsive dimensions are recorded', async t => {
   const root = await mkdtemp(join(tmpdir(), 'wiki-image-orientation-'));
-  t.after(() => rm(root, { recursive: true, force: true }));
+  t.after(() => removeDirectory(root));
   await mkdir(join(root, 'public/images'), { recursive: true });
   await sharp({ create: { width: 300, height: 600, channels: 3, background: 'red' } }).withMetadata({ orientation: 6 }).jpeg().toFile(join(root, 'public/images/rotate.jpg'));
   await generateThumbnails({ root, log: () => {} });

@@ -51,11 +51,12 @@ test('artist infobox and header render optional structured fields', async () => 
   assert.match(artistPage, /accentColor/);
 });
 
-test('artist detail delegates its information card to the shared reader', async () => {
+test('artist detail places the information card in the entry sidebar grid', async () => {
   const artistPage = await readSource('../src/pages/[locale]/artists/[...id].astro');
   const reader = await readSource('../src/components/Reader.astro');
-  assert.match(artistPage, /<Reader\b[^>]*\bvariant="entry"/);
-  assert.match(artistPage, /<Fragment slot="sidebar">[\s\S]*?<WikiInfoBox/);
+  assert.match(artistPage, /reader-frame reader-layout/);
+  assert.match(artistPage, /reader-sidebar[\s\S]*?<WikiInfoBox/);
+  assert.match(artistPage, /ContributorRoster mode="entry"/);
   assert.match(reader, /reader-sidebar/);
 });
 

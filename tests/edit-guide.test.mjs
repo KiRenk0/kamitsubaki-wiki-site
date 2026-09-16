@@ -21,7 +21,9 @@ test('the learning guide keeps editable localized lessons connected to the curre
   const { guideSteps, guideTasks } = await import('../src/lib/contributionGuide.mjs');
   for (const locale of ['zh', 'ja', 'en']) {
     const source = await readSource(`../src/content/contribute/edit-guide/${locale}.md`);
-    const copy = parse(source.match(/^---\n([\s\S]*?)\n---/)[1]);
+    const frontmatter = source.match(/^---\r?\n([\s\S]*?)\r?\n---/);
+    assert.ok(frontmatter, `${locale}: edit-guide frontmatter is missing`);
+    const copy = parse(frontmatter[1]);
     assert.deepEqual(copy.lessons.map(lesson => lesson.id), guideSteps);
     assert.deepEqual(copy.tasks.map(task => task.id), guideTasks);
     assert.equal(new Set(copy.workshops.map(item => item.id)).size, copy.workshops.length);
