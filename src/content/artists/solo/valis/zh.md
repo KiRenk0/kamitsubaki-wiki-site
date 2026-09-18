@@ -68,31 +68,61 @@ VALIS 的核心定位围绕"虚拟"与"真实"的二元关系展开。五位成�
 
 ## 成员与形态
 
-| 成员 | 代表色 / 舞台定位 |
-| --- | --- |
-| CHINO | 红色，主唱 |
-| MYU | 黄色，舞蹈成员 |
-| NEFFY | 绿色，舞蹈成员 |
-| NINA | 蓝色，主唱 |
-| RARA | 紫色，舞蹈成员 |
-| VITTE | 白色，舞蹈成员 |
+<table>
+<thead>
+<tr>
+<th>成员</th>
+<th>代表色&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CHINO</td>
+<td>白色【队长】</td>
+</tr>
+<tr>
+<td>MYU</td>
+<td>红色</td>
+</tr>
+<tr>
+<td>NEFFY</td>
+<td>紫色</td>
+</tr>
+<tr>
+<td>NINA</td>
+<td>黄色</td>
+</tr>
+<tr>
+<td>RARA</td>
+<td>绿色</td>
+</tr>
+<tr>
+<td>VITTE</td>
+<td>蓝色</td>
+</tr>
+</tbody>
+</table>
 
 六位成员各自拥有 avatar 与 origin 两套表达形态。前者承担虚拟马戏团、角色和舞台视觉，后者对应现实侧的表演者形象；两种形态不是简单的换装，而是 VALIS 世界观中“虚拟—现实”二元结构的组成部分。
 
 ## 活动历程
 
 - 2020年5月15日发行出道曲《残响Vandeler》正式出道，随后以 SINSEKAI RECORD 名义展开音乐活动。
-- 持续推出原创音乐作品，包括《[無窮プラトニック](/zh/songs/valis/originals/無窮puratonikku)》《[熱愛フローズン](/zh/songs/valis/originals/熱愛furoozun)》《乙女的サイコパシー》《[再見ロマネスク](/zh/songs/valis/originals/再見romanesuku)》《[偶像ナイトメア](/zh/songs/valis/originals/偶像naitomea)》等代表性曲目。
+- 持续推出原创音乐作品，包括《[無窮プラトニック](/zh/songs/valis/originals/%E7%84%A1%E7%AA%AEpuratonikku)》《[熱愛フローズン](/zh/songs/valis/originals/%E7%86%B1%E6%84%9Bfuroozun)》《乙女的サイコパシー》《[再見ロマネスク](/zh/songs/valis/originals/%E5%86%8D%E8%A6%8Bromanesuku)》《[偶像ナイトメア](/zh/songs/valis/originals/%E5%81%B6%E5%83%8Fnaitomea)》等代表性曲目。
 - 多次举办 ONE-MAN LIVE 专场演出，积累了稳定的现场观众基础。
 - 参与 KAMITSUBAKI PHILHARMONIC ORCHESTRA 协力的虚拟舞台剧《御伽噺（Some）》等跨媒体企划。
-- 2025年2月21日举办第 6 回 ONE-MAN LIVE《喝采 Curtain Call》。
-- 2025年9月27日举办第 7 回 ONE-MAN LIVE《咆哮 Forever》。
+- 2025年5月17日举办第 6 回 ONE-MAN LIVE《喝采 Curtain Call》。
+- 2025年12月21日举办第 7 回 ONE-MAN LIVE《彷徨 Forever》。
 
-VALIS 的主要录音作品还包括 1st Album《WONDERLAND》（2021）与 2nd Album《SHINSEKAI》（2023）。
+VALIS 的主要录音作品还包括 1st Album《覚醒ヒストリア》（2021）与 2nd Album《流転ファンタジア》（2023）。
 
 - 2026年9月5日：神椿工作室改版，工作室内部厂牌统一整合为 PHENOMENON RECORD，改隶该厂牌（原 SINSEKAI RECORD 厂牌名称停止使用）。
 
 ## 代表作品与相关条目
+
+- 代表曲：《無窮プラトニック》《熱愛フローズン》《乙女的サイコパシー》《再見ロマネスク》《偶像ナイトメア》
+- 现场演出：多次 ONE-MAN LIVE 系列，包括《喝采 Curtain Call》《彷徨 Forever》等
+- 跨媒体参与：虚拟舞台剧《御伽噺（Some）》
 
 {{details::展开完整专辑与 EP 目录}}
 
