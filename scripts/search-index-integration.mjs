@@ -54,7 +54,7 @@ export async function generateSearchIndex(directory, origin = productionOrigin) 
   // Limit simultaneous reads: the site contains thousands of rendered articles.
   for (let offset = 0; offset < files.length; offset += 16) {
     const batch = await Promise.all(files.slice(offset, offset + 16).map(async path => {
-      const route = '/' + relative(directory, path).replace(/(^|\/)index\.html$/, '$1').replace(/\.html$/, '');
+      const route = '/' + relative(directory, path).replaceAll('\\', '/').replace(/(^|\/)index\.html$/, '$1').replace(/\.html$/, '');
       return readSearchPage(await readFile(path, 'utf8'), absoluteUrl(route, origin), origin);
     }));
     for (const page of batch) if (page) byUrl.set(page.url, page);

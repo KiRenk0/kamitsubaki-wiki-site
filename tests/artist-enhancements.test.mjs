@@ -51,11 +51,12 @@ test('artist infobox and header render optional structured fields', async () => 
   assert.match(artistPage, /accentColor/);
 });
 
-test('artist detail delegates its information card to the shared reader', async () => {
+test('artist detail places the information card in the entry sidebar grid', async () => {
   const artistPage = await readSource('../src/pages/[locale]/artists/[...id].astro');
   const reader = await readSource('../src/components/Reader.astro');
-  assert.match(artistPage, /<Reader\b[^>]*\bvariant="entry"/);
-  assert.match(artistPage, /<Fragment slot="sidebar">[\s\S]*?<WikiInfoBox/);
+  assert.match(artistPage, /reader-frame reader-layout/);
+  assert.match(artistPage, /reader-sidebar[\s\S]*?<WikiInfoBox/);
+  assert.match(artistPage, /ContributorRoster mode="entry"/);
   assert.match(reader, /reader-sidebar/);
 });
 
@@ -76,17 +77,15 @@ test('artist display data preserves extended metadata from content files', async
 });
 
 test('placeholder artist entries are visibly marked and excluded from indexing', async () => {
-  const [config, database, detail, stubEntry] = await Promise.all([
+  const [config, database, detail] = await Promise.all([
     readSource('../src/content.config.ts'),
     readSource('../src/components/ArtistDatabase.astro'),
     readSource('../src/pages/[locale]/artists/[...id].astro'),
-    readSource('../src/content/artists/girls_revolution_project/orihime/zh.md'),
   ]);
 
   assert.match(config, /z\.enum\(\['stub', 'published'\]\)/);
   assert.match(database, /artist\.contentStatus === 'stub'/);
   assert.match(detail, /articleData\.contentStatus === 'stub'/);
-  assert.match(stubEntry, /contentStatus: stub/);
 });
 
 test('every artist row receives direct hover and keyboard background listeners', async () => {

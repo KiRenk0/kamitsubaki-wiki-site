@@ -6,8 +6,8 @@ import vm from 'node:vm';
 test('skipping the intro stops playback and reveals the page before optional resources load',async()=>{
   const source=await readFile(new URL('../src/scripts/siteInteractions.js',import.meta.url),'utf8');
   const start=source.indexOf('  if (siteIntro &&');
-  const end=source.indexOf(' else if (\n    pageTransition',start);
-  const code=source.slice(start,end);
+  const end=source.indexOf('} else if (',start);
+  const code=source.slice(start,end+1);
   const clicks={},keys={},timers=[];let paused=false,revealed=false;
   class Video{pause(){paused=true;}play(){return Promise.resolve();}addEventListener(){}}
   const classes=new Set(['site-intro-enabled']);
