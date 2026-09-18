@@ -184,8 +184,17 @@ function normalizeToSimplified(text) {
   return simplifiedNormalizer(text);
 }
 
+// SSG pages re-convert the same UI strings thousands of times.
+const chineseTextCache = new Map();
+const CHINESE_TEXT_CACHE_LIMIT = 50000;
+
 export function convertChineseText(text, locale, options = {}) {
   if (!isChineseContentLocale(locale) || typeof text !== 'string' || !text) return text;
+
+  const uiFlag = options.ui ? '1' : '0';
+  const cacheKey = locale + '|' + uiFlag + '|' + text;
+  const cached = chineseTextCache.get(cacheKey);
+  if (cached !== undefined) return cached;
 
   const normalized = text.normalize('NFC');
   const restorations = [];
@@ -194,7 +203,10 @@ export function convertChineseText(text, locale, options = {}) {
   const simplified = normalizeToSimplified(afterTerms);
   const converted = regionalConverters[locale]?.(simplified) ?? simplified;
   const localized = options.ui ? applyUiOverrides(converted, locale) : converted;
-  return restoreTerms(localized, restorations);
+  const result = restoreTerms(localized, restorations);
+  if (chineseTextCache.size >= CHINESE_TEXT_CACHE_LIMIT) chineseTextCache.clear();
+  chineseTextCache.set(cacheKey, result);
+  return result;
 }
 
 export function convertTraditionalChinese(text, locale, options = {}) {

@@ -216,7 +216,7 @@ test('generator emits schema-ready derivative content without committing generat
 test('generator validates every maintained zh.md before replacing derivative files', async () => {
   const generator = await readSource('../scripts/generate-traditional-chinese.mjs');
   const validation = generator.lastIndexOf('await validateSourceMarkdownFiles(sourceMarkdownFiles)');
-  const replacement = generator.lastIndexOf('await removeStaleGeneratedFiles(allFiles)');
+  const replacement = generator.lastIndexOf('await removeStaleGeneratedFiles(allFiles');
 
   assert.notEqual(validation, -1);
   assert.notEqual(replacement, -1);

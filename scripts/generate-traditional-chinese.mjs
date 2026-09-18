@@ -62,8 +62,9 @@ async function walk(directory) {
   return files;
 }
 
-async function removeStaleGeneratedFiles(files) {
+async function removeStaleGeneratedFiles(files, keepPaths = new Set()) {
   for (const filePath of files) {
+    if (keepPaths.has(filePath)) continue;
     const fileName = basename(filePath);
     const isGeneratedMarkdown = targetLocales.some((locale) => fileName === `${locale}.md`);
     const isGeneratedSite = targetLocales.some(
@@ -148,16 +149,49 @@ function restoreJapaneseWorkTitles(source, converted, japaneseTitles) {
   );
 }
 
+function localizedLanguageOptions() {
+  return Object.values(localeProfiles).map((profile) => ({
+    code: profile.code,
+    label: profile.label,
+    shortLabel: profile.shortLabel,
+  }));
+}
+
+async function fileHash(filePath) {
+  const { createHash } = await import('node:crypto');
+  return createHash('sha256').update(await readFile(filePath, 'utf8')).digest('hex').slice(0, 20);
+}
+
+async function isUpToDate(targetPath, type, sourceHash) {
+  if (!(await pathExists(targetPath))) return false;
+  try {
+    const source = await readFile(targetPath, 'utf8');
+    const data = type === 'json' ? JSON.parse(source) : parseMarkdownDocument(source, targetPath).data;
+    return data.generated === true
+      && data.generatedFrom === 'zh'
+      && data.generatedFromHash === sourceHash
+      && (await canReplaceGeneratedFile(targetPath, type));
+  } catch {
+    return false;
+  }
+}
+
 async function generateMarkdownFiles(sourceFiles) {
   let generatedCount = 0;
+  let skippedCount = 0;
 
   for (const sourcePath of sourceFiles) {
     const source = await readFile(sourcePath, 'utf8');
     const { data, body } = parseMarkdownDocument(source, sourcePath);
+    const sourceHash = await fileHash(sourcePath);
     const japaneseTitles = await loadJapaneseWorkTitles(sourcePath);
 
     for (const locale of targetLocales) {
       const targetPath = join(sourcePath.slice(0, -'zh.md'.length), `${locale}.md`);
+      if (await isUpToDate(targetPath, 'markdown', sourceHash)) {
+        skippedCount += 1;
+        continue;
+      }
       if (!(await canReplaceGeneratedFile(targetPath, 'markdown'))) {
         console.warn(`Skipped manual Traditional Chinese file: ${relative(workspaceRoot, targetPath)}`);
         continue;
@@ -170,30 +204,33 @@ async function generateMarkdownFiles(sourceFiles) {
       );
       await writeFile(
         targetPath,
-        serializeGeneratedMarkdown(convertedData, body, locale),
+        serializeGeneratedMarkdown(
+          { ...convertedData, generatedFromHash: sourceHash },
+          body,
+          locale,
+        ),
         'utf8',
       );
       generatedCount += 1;
     }
   }
 
-  return generatedCount;
-}
-
-function localizedLanguageOptions() {
-  return Object.values(localeProfiles).map((profile) => ({
-    code: profile.code,
-    label: profile.label,
-    shortLabel: profile.shortLabel,
-  }));
+  return { generatedCount, skippedCount };
 }
 
 async function generateSiteFiles() {
   const sourcePath = join(siteRoot, 'zh.json');
   const source = JSON.parse(await readFile(sourcePath, 'utf8'));
+  const sourceHash = await fileHash(sourcePath);
+  let generatedCount = 0;
+  let skippedCount = 0;
 
   for (const locale of targetLocales) {
     const targetPath = join(siteRoot, `${locale}.json`);
+    if (await isUpToDate(targetPath, 'json', sourceHash)) {
+      skippedCount += 1;
+      continue;
+    }
     if (!(await canReplaceGeneratedFile(targetPath, 'json'))) {
       console.warn(`Skipped manual Traditional Chinese site config: ${relative(workspaceRoot, targetPath)}`);
       continue;
@@ -204,8 +241,12 @@ async function generateSiteFiles() {
     converted.supportedLocales = localizedLanguageOptions();
     converted.generated = true;
     converted.generatedFrom = 'zh';
+    converted.generatedFromHash = sourceHash;
     await writeFile(targetPath, `${JSON.stringify(converted, null, 2)}\n`, 'utf8');
+    generatedCount += 1;
   }
+
+  return { generatedCount, skippedCount };
 }
 
 const allFiles = await walk(contentRoot);
@@ -213,9 +254,22 @@ const sourceMarkdownFiles = allFiles.filter(
   (filePath) => filePath.endsWith(`${join('', 'zh.md')}`),
 );
 await validateSourceMarkdownFiles(sourceMarkdownFiles);
-await removeStaleGeneratedFiles(allFiles);
 
-const generatedCount = await generateMarkdownFiles(sourceMarkdownFiles);
-await generateSiteFiles();
+// Only prune orphans; never rewrite up-to-date generated files (keeps Cloudflare builds fast).
+const generatedTargets = new Set();
+for (const sourcePath of sourceMarkdownFiles) {
+  for (const locale of targetLocales) {
+    generatedTargets.add(join(sourcePath.slice(0, -'zh.md'.length), `${locale}.md`));
+  }
+}
+generatedTargets.add(join(siteRoot, 'zh-tw.json'));
+generatedTargets.add(join(siteRoot, 'zh-hk.json'));
+await removeStaleGeneratedFiles(allFiles, generatedTargets);
 
-console.log(`Generated ${generatedCount} Traditional Chinese Markdown files and 2 site configs.`);
+const markdownResult = await generateMarkdownFiles(sourceMarkdownFiles);
+const siteResult = await generateSiteFiles();
+
+console.log(
+  `Generated ${markdownResult.generatedCount} Traditional Chinese Markdown files and ${siteResult.generatedCount} site configs `
+  + `(${markdownResult.skippedCount + siteResult.skippedCount} unchanged).`,
+);

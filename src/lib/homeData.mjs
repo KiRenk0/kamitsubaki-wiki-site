@@ -55,14 +55,20 @@ export function getLocalizedEntries(entries, locale, fallbackLocale = 'zh') {
   );
 }
 
+const localizedSiteCache = new Map();
+
 export function getLocalizedSite(siteEntries, locale, fallbackLocale = 'zh') {
+  const cacheKey = String(locale) + '|' + String(fallbackLocale);
+  const cached = localizedSiteCache.get(cacheKey);
+  if (cached) return cached;
+
   const fallback = siteEntries.find((entry) => entry.data.locale === fallbackLocale)?.data;
+  const result = isChineseContentLocale(locale) && fallback
+    ? deriveChineseSite(fallback, locale)
+    : siteEntries.find((entry) => entry.data.locale === locale)?.data ?? fallback;
 
-  if (isChineseContentLocale(locale) && fallback) {
-    return deriveChineseSite(fallback, locale);
-  }
-
-  return siteEntries.find((entry) => entry.data.locale === locale)?.data ?? fallback;
+  localizedSiteCache.set(cacheKey, result);
+  return result;
 }
 
 export function humanizeSlug(slug) {
