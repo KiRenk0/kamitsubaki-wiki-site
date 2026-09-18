@@ -55,6 +55,7 @@ test('thumbnail generation preserves sources, dimensions, transparency, cache an
   assert.equal((await run()).generated, 0);
   assert.equal((await stat(thumb)).mtimeMs, oldTime);
   await removePath(thumb);
+  await removePath(join(root, 'node_modules/.cache/kamitsubaki-thumbs'));
   assert.ok((await run()).generated >= 1);
   await sharp(original).negate().jpeg().toFile(join(images, '花 譜.jpg'));
   await run();

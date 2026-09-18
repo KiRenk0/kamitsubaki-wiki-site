@@ -11,28 +11,55 @@ import { wikiHtmlSchema } from './htmlPolicy.mjs';
 import rehypeRawHtmlMarkdownLinks from './rawHtmlMarkdownLinks.mjs';
 import remarkWikiShortcodes from './wikiShortcodes.mjs';
 
+const externalLinksOptions = { target: '_blank', rel: ['noopener', 'noreferrer'] };
+const baseRehypePlugins = [
+  rehypeRawHtmlMarkdownLinks,
+  rehypeRaw,
+  [rehypeSanitize, wikiHtmlSchema],
+  rehypeMaterializeMediaEmbeds,
+];
+
 export const siteMarkdownOptions = {
   syntaxHighlight: false,
   remarkPlugins: [remarkMath, remarkWikiShortcodes, remarkMediaEmbed],
   rehypePlugins: [
-    rehypeRawHtmlMarkdownLinks,
-    rehypeRaw,
-    [rehypeSanitize, wikiHtmlSchema],
-    rehypeMaterializeMediaEmbeds,
+    ...baseRehypePlugins,
     rehypeKatex,
     [rehypeShiki, { theme: 'github-dark' }],
-    [rehypeExternalLinks, { target: '_blank', rel: ['noopener', 'noreferrer'] }],
+    [rehypeExternalLinks, externalLinksOptions],
   ],
 };
 
-let markdownRendererPromise;
+// Song/album lyrics almost never need KaTeX or Shiki; skip those engines when unused.
+const fencePattern = /```|~~~|(?:^|\n)(?: {4}|\t)\S/u;
+const mathPattern = /\$\$[\s\S]+\$\$|\$[^$\n]+\$|\\[([]|\\begin\{/u;
 
-async function getMarkdownRenderer() {
-  if (!markdownRendererPromise) {
-    markdownRendererPromise = createMarkdownProcessor(siteMarkdownOptions);
+function needsFullMarkdownPipeline(source) {
+  return fencePattern.test(source) || mathPattern.test(source);
+}
+
+let lightMarkdownRendererPromise;
+let fullMarkdownRendererPromise;
+
+async function getLightMarkdownRenderer() {
+  if (!lightMarkdownRendererPromise) {
+    lightMarkdownRendererPromise = createMarkdownProcessor({
+      syntaxHighlight: false,
+      remarkPlugins: [remarkWikiShortcodes, remarkMediaEmbed],
+      rehypePlugins: [
+        ...baseRehypePlugins,
+        [rehypeExternalLinks, externalLinksOptions],
+      ],
+    });
   }
+  return lightMarkdownRendererPromise;
+}
 
-  return markdownRendererPromise;
+async function getFullMarkdownRenderer() {
+  if (!fullMarkdownRendererPromise) {
+    fullMarkdownRendererPromise = createMarkdownProcessor(siteMarkdownOptions);
+  }
+  return fullMarkdownRendererPromise;
 }
 
 export async function renderMarkdownFragment(markdown) {
@@ -47,7 +74,9 @@ export async function renderMarkdownDocument(markdown, options = {}) {
     return { html: '', headings: [], metadata: {} };
   }
 
-  const renderer = await getMarkdownRenderer();
+  const renderer = needsFullMarkdownPipeline(source)
+    ? await getFullMarkdownRenderer()
+    : await getLightMarkdownRenderer();
   const { code, metadata = {} } = await renderer.render(source, options);
   return {
     html: code,

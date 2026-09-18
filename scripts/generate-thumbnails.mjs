@@ -1,6 +1,6 @@
 import { createHash } from 'node:crypto';
-import { mkdir, readdir, readFile, rename, stat, writeFile } from 'node:fs/promises';
-import { resolve, relative, extname } from 'node:path';
+import { copyFile, mkdir, readdir, readFile, rename, rm, stat, writeFile } from 'node:fs/promises';
+import { dirname, resolve, relative, extname } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import sharp from 'sharp';
 
@@ -23,21 +23,53 @@ async function exists(path) { try { return (await stat(path)).isFile(); } catch 
 async function atomicWrite(path, data) {
   const temporary = `${path}.${process.pid}.${Math.random().toString(36).slice(2)}.tmp`;
   await writeFile(temporary, data);
-  await rename(temporary, path);
+  try {
+    await rename(temporary, path);
+  } catch (error) {
+    // Identical sources can race on the same hash-named output (Windows EPERM).
+    if (error?.code === 'EPERM' || error?.code === 'EEXIST') {
+      await rm(temporary, { force: true }).catch(() => {});
+      if (await exists(path)) return;
+    }
+    throw error;
+  }
 }
 
 /** Generates only local image derivatives. Source files are never modified. */
-export async function generateThumbnails({ root = projectRoot, concurrency = 2, log = console.log } = {}) {
+export async function generateThumbnails({ root = projectRoot, concurrency = 4, log = console.log } = {}) {
   const publicDir = resolve(root, 'public');
   const outputDir = resolve(publicDir, 'thumbnails');
-  const manifestPath = resolve(root, '.cache/image-thumbnails/manifest.json');
+  // Cloudflare Pages restores node_modules cache between builds; keep derivatives there too.
+  const localCacheDir = resolve(root, '.cache/image-thumbnails');
+  const durableCacheDir = resolve(root, 'node_modules/.cache/kamitsubaki-thumbs');
+  const manifestPath = resolve(localCacheDir, 'manifest.json');
+  const durableManifestPath = resolve(durableCacheDir, 'manifest.json');
   await mkdir(outputDir, { recursive: true });
-  await mkdir(resolve(root, '.cache/image-thumbnails'), { recursive: true });
+  await mkdir(localCacheDir, { recursive: true });
+  await mkdir(durableCacheDir, { recursive: true });
   const files = await filesIn(resolve(publicDir, 'images'));
   let previous = {};
   try { previous = JSON.parse(await readFile(manifestPath, 'utf8')); } catch { /* First build. */ }
+  if (!Object.keys(previous).length) {
+    try { previous = JSON.parse(await readFile(durableManifestPath, 'utf8')); } catch { /* Cold cache. */ }
+  }
+  // Restore derivative files from the durable cache when public/thumbnails was wiped.
+  if (previous.recipe === RECIPE && previous.images) {
+    for (const info of Object.values(previous.images)) {
+      for (const variant of info.variants || []) {
+        const publicPath = resolve(publicDir, variant.src.slice(1));
+        const cachePath = resolve(durableCacheDir, 'files', variant.src.replace(/^\//, ''));
+        if (!(await exists(publicPath)) && await exists(cachePath)) {
+          await mkdir(dirname(publicPath), { recursive: true });
+          await copyFile(cachePath, publicPath);
+        }
+      }
+    }
+  }
   const manifest = { recipe: RECIPE, images: {} };
   const report = { sources: files.length, generated: 0, cached: 0, sourceBytes: 0, thumbnailBytes: 0, skipped: [] };
+  /** @type {Map<string, {hash: string, width: number, height: number, bytes: number, variants: Array<{src: string, width: number, height: number, bytes: number}>}>} */
+  const generatedByHash = new Map();
   let index = 0;
   const work = async () => {
     while (index < files.length) {
@@ -50,6 +82,13 @@ export async function generateThumbnails({ root = projectRoot, concurrency = 2, 
         manifest.images[source] = cached;
         report.cached += 1; report.sourceBytes += cached.bytes;
         report.thumbnailBytes += cached.variants[0].bytes;
+        continue;
+      }
+      const alreadyGenerated = generatedByHash.get(hash);
+      if (alreadyGenerated) {
+        manifest.images[source] = { ...alreadyGenerated, bytes: input.length };
+        report.cached += 1; report.sourceBytes += input.length;
+        report.thumbnailBytes += alreadyGenerated.variants[0].bytes;
         continue;
       }
       let metadata;
@@ -76,7 +115,9 @@ export async function generateThumbnails({ root = projectRoot, concurrency = 2, 
           variants.push({ src, width: target, height: Math.round(height * target / width), bytes: (await stat(output)).size });
         }
       }
-      manifest.images[source] = { hash, width, height, bytes: input.length, variants };
+      const entry = { hash, width, height, bytes: input.length, variants };
+      generatedByHash.set(hash, entry);
+      manifest.images[source] = entry;
       report.sourceBytes += input.length; report.thumbnailBytes += variants[0].bytes;
     }
   };
@@ -85,6 +126,17 @@ export async function generateThumbnails({ root = projectRoot, concurrency = 2, 
   manifest.images = Object.fromEntries(Object.entries(manifest.images).sort(([a], [b]) => a.localeCompare(b)));
   const serialized = JSON.stringify(manifest);
   if (serialized !== JSON.stringify(previous)) await atomicWrite(manifestPath, serialized);
+  await atomicWrite(durableManifestPath, serialized);
+  for (const info of Object.values(manifest.images)) {
+    for (const variant of info.variants || []) {
+      const publicPath = resolve(publicDir, variant.src.slice(1));
+      const cachePath = resolve(durableCacheDir, 'files', variant.src.replace(/^\//, ''));
+      if (await exists(publicPath) && !(await exists(cachePath))) {
+        await mkdir(dirname(cachePath), { recursive: true });
+        await copyFile(publicPath, cachePath);
+      }
+    }
+  }
   log(`[thumbnails] ${report.sources} sources; ${report.generated} generated; ${report.cached} unchanged; ${report.skipped.length} skipped`);
   if (report.skipped.length) log(`[thumbnails] Preserved originals: ${JSON.stringify(report.skipped)}`);
   return report;

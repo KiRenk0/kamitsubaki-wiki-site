@@ -19,7 +19,9 @@ export async function readContentEntryBody(entry) {
   const source = await readFile(filePath, 'utf8');
   const sourceBody = source.replace(frontmatterPattern, '').trim();
   const locale = entry?.data?.locale ?? entry?.id?.split('/').at(-1);
-  const body = isChineseContentLocale(locale)
+  // Generated zh-tw / zh-hk files are already converted at prebuild time.
+  const alreadyConverted = entry?.data?.generated === true && entry?.data?.generatedFrom === 'zh';
+  const body = (!alreadyConverted && isChineseContentLocale(locale))
     ? convertChineseMarkdown(sourceBody, locale)
     : sourceBody;
 
