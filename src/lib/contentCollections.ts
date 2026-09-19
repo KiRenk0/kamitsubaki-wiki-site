@@ -1,10 +1,14 @@
-import { getCollection, type CollectionEntry, type CollectionKey } from 'astro:content';
-import { createCollectionCache } from './collectionCache.mjs';
+import type { CollectionEntry, CollectionKey } from 'astro:content';
+import { getBuildCollection } from './contentAuditContext';
 
-// Astro materializes and deep-clones every entry on each getCollection() call.
-// The article routes share these read-only snapshots for this build process.
-const readCollection = createCollectionCache(getCollection, { enabled: import.meta.env.PROD });
-
-export function getBuildCollection<C extends CollectionKey>(collection: C): Promise<CollectionEntry<C>[]> {
-  return readCollection(collection);
+/**
+ * Thin re-export. Collection loading and the content-audit index share one
+ * globalThis-backed cache (see contentAuditContext.ts).
+ */
+export function getBuildCollectionCached<C extends CollectionKey>(
+  collection: C,
+): Promise<CollectionEntry<C>[]> {
+  return getBuildCollection(collection);
 }
+
+export { getBuildCollection };
