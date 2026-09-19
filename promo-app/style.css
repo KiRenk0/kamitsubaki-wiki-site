@@ -1,0 +1,676 @@
+@charset "UTF-8";
+
+:root {
+  --font-sans: 'Montserrat', "Noto Sans JP", sans-serif;
+  --font-serif: "Shippori Mincho", "Noto Serif SC", serif;
+  --font-mono: "Share Tech Mono", "Courier New", monospace;
+  --bg-color: #030303;
+  --k-red: #E60012;
+  --k-white: #FFFFFF;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0; padding: 0;
+  background-color: var(--bg-color);
+  color: var(--k-white);
+  font-family: var(--font-sans);
+  overflow: hidden; 
+  cursor: none;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Background elements */
+.noise-bg {
+  position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+  pointer-events: none; z-index: 9999; opacity: 0.08; mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Code waterfall simulator */
+.code-waterfall {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 0;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.07);
+  line-height: 1.4;
+  overflow: hidden;
+  padding: 40px;
+  white-space: pre;
+}
+
+.bg-mega-text {
+  position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  font-size: 20vw; font-weight: 900; color: rgba(255, 255, 255, 0.03);
+  font-family: var(--font-sans); white-space: nowrap; pointer-events: none;
+  z-index: 0;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+}
+
+/* Camera HUD Layer (High-End Aesthetics) */
+.hud-layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 90;
+  pointer-events: none;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.hud-element {
+  position: absolute;
+}
+.hud-element.top-left { top: 35px; left: 60px; }
+.hud-element.top-right { top: 35px; right: 60px; }
+.hud-element.bottom-left { bottom: 35px; left: 60px; }
+.hud-element.bottom-right { bottom: 35px; right: 60px; }
+
+/* HUD Viewfinder Crop Borders */
+.hud-borders {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.hud-corner {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--k-white);
+  opacity: 0.3;
+}
+.tl-c { top: 30px; left: 30px; border-right: none; border-bottom: none; }
+.tr-c { top: 30px; right: 30px; border-left: none; border-bottom: none; }
+.bl-c { bottom: 30px; left: 30px; border-right: none; border-top: none; }
+.br-c { bottom: 30px; right: 30px; border-left: none; border-top: none; }
+
+/* Red Grid Lines */
+.red-lines { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 1; pointer-events: none; }
+.hline { position: absolute; height: 1px; background: var(--k-red); width: 100%; opacity: 0.25; }
+.vline { position: absolute; width: 1px; background: var(--k-red); height: 100%; opacity: 0.25; }
+.hline.top { top: 12%; } .hline.bottom { bottom: 12%; }
+.vline.left { left: 12%; } .vline.right { right: 12%; }
+
+/* Crosshairs */
+.crosshairs { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 2; pointer-events: none; }
+.crosshairs div { position: absolute; width: 24px; height: 24px; }
+.crosshairs div::before, .crosshairs div::after { content: ''; position: absolute; background: var(--k-white); opacity: 0.3; }
+.crosshairs div::before { width: 100%; height: 1px; top: 50%; left: 0; }
+.crosshairs div::after { width: 1px; height: 100%; left: 50%; top: 0; }
+.tl { top: 12%; left: 12%; transform: translate(-50%, -50%); }
+.tr { top: 12%; right: 12%; transform: translate(50%, -50%); }
+.bl { bottom: 12%; left: 12%; transform: translate(-50%, 50%); }
+.br { bottom: 12%; right: 12%; transform: translate(50%, 50%); }
+
+/* Vertical Decor Text */
+.vert-text {
+  position: fixed; writing-mode: vertical-rl; text-orientation: mixed;
+  font-family: var(--font-serif); font-size: 0.85rem; font-weight: 500;
+  letter-spacing: 0.25em; color: rgba(255, 255, 255, 0.45); z-index: 2;
+  transition: opacity 0.5s;
+}
+.left-txt { top: 20%; left: 4%; }
+.right-txt { bottom: 20%; right: 4%; transform: rotate(180deg); }
+
+/* Main Container & Blend Mode */
+.app-container {
+  position: relative; width: 100vw; height: 100vh; z-index: 10;
+  mix-blend-mode: difference; /* Critical for Kamitsubaki inverse flash aesthetic */
+}
+
+.scene {
+  position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+  display: none; /* Controlled via JS */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15vw;
+}
+
+.scene.active {
+  display: flex;
+}
+
+/* Typography Classes */
+.k-text { margin: 0; padding: 0; line-height: 1.1; }
+.k-text span { display: inline-block; }
+.red-text { color: var(--k-red); }
+.mono-text { font-family: var(--font-mono); }
+.glow-red { text-shadow: 0 0 10px rgba(230, 0, 18, 0.8); }
+
+/* Scene 1: Initializing / System Boot */
+.boot-container {
+  position: absolute;
+  top: 18%;
+  left: 15%;
+  font-family: var(--font-mono);
+  font-size: 1.1vw;
+  line-height: 1.6;
+  text-align: left;
+  letter-spacing: 0.05em;
+  opacity: 0.8;
+}
+
+.blinking {
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { color: transparent }
+  50% { color: var(--k-white) }
+}
+
+.intro-huge {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.title-line-accent {
+  width: 150px;
+  height: 3px;
+  background: var(--k-red);
+  margin: 1rem auto;
+  box-shadow: 0 0 8px rgba(230, 0, 18, 0.6);
+}
+
+.serif-title {
+  font-family: var(--font-serif);
+  font-size: 7.5vw;
+  font-weight: 700;
+  letter-spacing: 0.4em;
+  margin-right: -0.4em;
+  color: var(--k-white);
+}
+
+.huge-title {
+  font-family: var(--font-sans);
+  font-weight: 900;
+  font-size: 11vw;
+  letter-spacing: 0.1em;
+  margin-right: -0.1em;
+}
+
+/* Scene 2: Database Indexing */
+.db-title-bar {
+  position: absolute;
+  top: 16%;
+  left: 15%;
+  right: 15%;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  border-bottom: 2px solid var(--k-white);
+  padding-bottom: 0.8rem;
+}
+
+.db-badge {
+  background: var(--k-red);
+  color: var(--k-white);
+  font-family: var(--font-mono);
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.2rem 0.8rem;
+  letter-spacing: 0.1em;
+}
+
+.db-title-bar h2 {
+  font-family: var(--font-sans);
+  font-weight: 900;
+  font-size: 2.2vw;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
+.db-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr;
+  gap: 3vw;
+  width: 70vw;
+  margin-top: 2vh;
+  text-align: left;
+}
+
+.db-col {
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  padding-left: 1.5vw;
+}
+
+.hdr-tag {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--k-white);
+  font-family: var(--font-mono);
+  font-size: 0.8vw;
+  padding: 0.1rem 0.4rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-right: 0.8vw;
+  vertical-align: middle;
+  border-radius: 2px;
+}
+
+.db-col h3 {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 1.1vw;
+  color: var(--k-red);
+  letter-spacing: 0.05em;
+  margin-bottom: 2.5vh;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.db-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2vh;
+}
+
+.db-item {
+  font-family: var(--font-serif);
+  font-size: 1.25vw;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.db-item .num {
+  font-family: var(--font-mono);
+  font-size: 0.9vw;
+  color: var(--k-red);
+  border: 1px solid var(--k-red);
+  padding: 0.05rem 0.3rem;
+}
+
+.db-item .name {
+  color: var(--k-white);
+}
+
+.db-item.info-gray {
+  font-family: var(--font-mono);
+  font-size: 0.85vw;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.db-footer {
+  position: absolute;
+  bottom: 16%;
+  left: 15%;
+  right: 15%;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding-top: 1.5vh;
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-mono);
+  font-size: 0.9vw;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.db-stat .mono-val {
+  color: var(--k-red);
+  font-weight: 700;
+}
+
+/* Scene 3: The Spark / The Echoes */
+.echo-lyrics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5vh;
+  text-align: center;
+  width: 80vw;
+}
+
+.mono-date {
+  font-family: var(--font-mono);
+  font-size: 1.8vw;
+  letter-spacing: 0.3em;
+  color: var(--k-red);
+  margin-bottom: 2vh;
+}
+
+.lyric-line-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.font-bold-serif .serif-lyric {
+  font-weight: 700;
+}
+
+.serif-lyric {
+  font-family: var(--font-serif);
+  font-size: 2.8vw;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.english-sub {
+  font-family: var(--font-mono);
+  font-size: 0.9vw;
+  letter-spacing: 0.25em;
+  color: rgba(255, 255, 255, 0.35);
+  text-transform: uppercase;
+  margin-top: 0.4vh;
+}
+
+.english-sub.red-sub {
+  color: rgba(230, 0, 18, 0.6);
+}
+
+.english-sub.white-sub {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.serif-lyric.highlight-red {
+  color: var(--k-red);
+  font-weight: 700;
+  font-size: 3.5vw;
+}
+
+.serif-lyric.highlight-white {
+  color: var(--k-white);
+  font-weight: 700;
+  font-size: 3vw;
+}
+
+.serif-huge-lyric {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 6vw;
+  letter-spacing: 0.2em;
+  margin-top: 1.5vh;
+}
+
+.english-huge-sub {
+  font-family: var(--font-sans);
+  font-size: 1vw;
+  font-weight: 700;
+  letter-spacing: 0.4em;
+  color: rgba(230, 0, 18, 0.7);
+  text-transform: uppercase;
+  margin-top: 0.8vh;
+  margin-right: -0.4em;
+}
+
+/* Scene 4: Open Collaboration */
+.collab-container {
+  width: 70vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4vh;
+}
+
+.section-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 1.3vw;
+  letter-spacing: 0.4em;
+  color: var(--k-white);
+  opacity: 0.8;
+}
+
+.lang-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2.5vw;
+  margin: 2vh 0;
+}
+
+.lang-card {
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 1vw 2.5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.02);
+  min-width: 12vw;
+}
+
+.tl-cr {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  width: 6px;
+  height: 6px;
+}
+.tl-cr::before, .tl-cr::after {
+  content: '';
+  position: absolute;
+  background: rgba(255, 255, 255, 0.3);
+}
+.tl-cr::before { width: 100%; height: 1px; top: 50%; left: 0; }
+.tl-cr::after { width: 1px; height: 100%; left: 50%; top: 0; }
+
+.lang-card .code {
+  font-family: var(--font-mono);
+  font-size: 2.2vw;
+  font-weight: 900;
+  color: var(--k-red);
+  line-height: 1;
+}
+
+.lang-card .label {
+  font-family: var(--font-sans);
+  font-size: 0.9vw;
+  margin-top: 0.5vh;
+  letter-spacing: 0.1em;
+}
+
+.card-desc {
+  font-family: var(--font-mono);
+  font-size: 0.7vw;
+  color: rgba(255, 255, 255, 0.25);
+  margin-top: 0.6vh;
+  letter-spacing: 0.05em;
+}
+
+.collab-statements {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vh;
+}
+
+.collab-statements .stmt {
+  font-family: var(--font-serif);
+  font-size: 2.2vw;
+  letter-spacing: 0.15em;
+}
+
+.callout-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5vh;
+  width: 100%;
+}
+
+.warning-stripe {
+  width: 280px;
+  height: 4px;
+  background: repeating-linear-gradient(
+    -45deg,
+    var(--k-red),
+    var(--k-red) 8px,
+    transparent 8px,
+    transparent 16px
+  );
+  opacity: 0.6;
+}
+.warning-stripe.top { margin-bottom: 1.5vh; }
+.warning-stripe.bottom { margin-top: 1.5vh; }
+
+.huge-callout {
+  font-family: var(--font-sans);
+  font-weight: 900;
+  font-size: 5.5vw;
+  letter-spacing: 0.15em;
+  margin: 0;
+}
+
+/* Scene 5: Climax Outro */
+.outro-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 55vh;
+  width: 70vw;
+}
+
+.logo-area {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vh;
+  align-items: center;
+}
+
+.brand-name {
+  font-family: var(--font-sans);
+  font-weight: 900;
+  font-size: 4.8vw;
+  letter-spacing: 0.15em;
+  color: var(--k-white);
+}
+
+.logo-border-box {
+  position: relative;
+  padding: 1.5vh 3vw;
+  margin: 1.5vh 0;
+  display: inline-block;
+}
+
+.corner-bracket {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border: 3px solid var(--k-red);
+}
+.tl-b { top: 0; left: 0; border-right: none; border-bottom: none; }
+.tr-b { top: 0; right: 0; border-left: none; border-bottom: none; }
+.bl-b { bottom: 0; left: 0; border-right: none; border-top: none; }
+.br-b { bottom: 0; right: 0; border-left: none; border-top: none; }
+
+.site-title {
+  font-family: var(--font-sans);
+  font-weight: 900;
+  font-size: 8vw;
+  letter-spacing: 0.25em;
+  color: var(--k-red);
+  margin-right: -0.25em;
+  line-height: 1;
+}
+
+.site-subtitle {
+  font-family: var(--font-serif);
+  font-size: 2vw;
+  letter-spacing: 0.6em;
+  margin-right: -0.6em;
+  color: var(--k-white);
+  opacity: 0.9;
+}
+
+.final-tagline {
+  font-family: var(--font-serif);
+  font-size: 4vw;
+  font-weight: 700;
+  letter-spacing: 0.4em;
+  margin-right: -0.4em;
+  color: var(--k-white);
+}
+
+.outro-footer {
+  font-family: var(--font-mono);
+  font-size: 0.85vw;
+  line-height: 1.6;
+  opacity: 0.6;
+}
+
+.outro-footer .text-mute {
+  font-size: 0.7vw;
+  margin-top: 0.5vh;
+}
+
+.recording-badge {
+  position: absolute;
+  bottom: 15%;
+  right: 15%;
+  font-family: var(--font-mono);
+  font-size: 1.1vw;
+  letter-spacing: 0.1em;
+  color: var(--k-red);
+  font-weight: bold;
+  opacity: 0;
+}
+
+/* Controls overlay styles */
+#controls {
+  position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100000;
+}
+
+#play-btn {
+  padding: 24px 48px; background: transparent; border: 2px solid var(--k-white);
+  color: var(--k-white); font-family: var(--font-mono); font-weight: bold;
+  font-size: 1.25rem; cursor: pointer; letter-spacing: 0.15em; transition: 0.3s;
+  position: relative;
+}
+
+#play-btn::before {
+  content: ''; position: absolute; top: -8px; left: -8px; width: 16px; height: 16px;
+  border-top: 2px solid var(--k-red); border-left: 2px solid var(--k-red);
+}
+
+#play-btn::after {
+  content: ''; position: absolute; bottom: -8px; right: -8px; width: 16px; height: 16px;
+  border-bottom: 2px solid var(--k-red); border-right: 2px solid var(--k-red);
+}
+
+#play-btn:hover { background: var(--k-white); color: #000; }
+
+/* Invert Flashbang */
+.invert-flash {
+  position: fixed; top:0; left:0; width: 100vw; height: 100vh;
+  background: #fff; z-index: 50; visibility: hidden; pointer-events: none;
+}
+
+/* Global Glitch Class for Body */
+.glitch-active {
+  animation: bg-glitch 0.2s steps(2) infinite;
+}
+
+@keyframes bg-glitch {
+  0% { filter: invert(0); }
+  50% { filter: invert(1); transform: translate(4px, -4px); }
+  100% { filter: invert(0); }
+}

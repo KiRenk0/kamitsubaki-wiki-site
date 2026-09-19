@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kamitsubaki Wiki Fan Promo</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Noto+Sans+JP:wght@300;700;900&family=Noto+Serif+SC:wght@300;500;700;900&family=Shippori+Mincho:wght@400;700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Background Overlay Effects -->
+    <div class="noise-bg"></div>
+    <div class="code-waterfall" id="code-waterfall"></div>
+    
+    <!-- Heavy Background Text that moves slowly -->
+    <div class="bg-mega-text" id="bg-text">OBSERVING</div>
+    
+    <!-- Camera Viewfinder HUD Layer (High-End Aesthetics) -->
+    <div class="hud-layer">
+      <div class="hud-element top-left">OBS_LOG_REC // VOL_001</div>
+      <div class="hud-element top-right">ISO: 1600 &nbsp; F/4.0 &nbsp; 24 FPS &nbsp; [ RAW ]</div>
+      <div class="hud-element bottom-left">LAT: 35.6620° N &nbsp; LNG: 139.7038° E</div>
+      <div class="hud-element bottom-right">RUNNING: 60s_OBS_SEQ</div>
+      
+      <!-- Frame lines & crop marks -->
+      <div class="hud-borders">
+        <div class="hud-corner tl-c"></div>
+        <div class="hud-corner tr-c"></div>
+        <div class="hud-corner bl-c"></div>
+        <div class="hud-corner br-c"></div>
+      </div>
+    </div>
+    
+    <!-- Red Thin Lines Grid -->
+    <div class="red-lines">
+      <div class="hline top"></div>
+      <div class="hline bottom"></div>
+      <div class="vline left"></div>
+      <div class="vline right"></div>
+    </div>
+
+    <!-- Center screen crosshairs -->
+    <div class="crosshairs">
+      <div class="tl"></div><div class="tr"></div>
+      <div class="bl"></div><div class="br"></div>
+    </div>
+    
+    <!-- Vertical Decor Text -->
+    <div class="vert-text left-txt" id="sidebar-left">以音乐与故事，让世界稍稍改变。</div>
+    <div class="vert-text right-txt" id="sidebar-right">神椿非公式観測所</div>
+
+    <div class="app-container" id="main-container">
+
+      <!-- Scene 1: Initializing / System Boot (0s - 9.5s) -->
+      <section class="scene active" id="scene-1">
+        <div class="boot-container">
+          <div class="k-text mono-text glow-red" id="boot-title">INITIALIZING OBSERVATION SYSTEM...</div>
+          <div class="k-text mono-text" id="boot-ver">SYS.VER_2.4.1</div>
+          <div class="k-text mono-text blinking" id="boot-status">[ STATUS: OBSERVING ]</div>
+          <div class="k-text mono-text coord-display" id="boot-coord">COORD: 35.0000° N, 139.0000° E</div>
+        </div>
+        <div class="intro-huge">
+          <div class="k-text split-chars serif-title" id="s1-t1">観測者</div>
+          <div class="title-line-accent"></div>
+          <div class="k-text split-chars huge-title red-text" id="s1-t2">OBSERVER</div>
+        </div>
+      </section>
+
+      <!-- Scene 2: Database Indexing (9.5s - 24.5s) -->
+      <section class="scene" id="scene-2">
+        <div class="db-title-bar">
+          <span class="db-badge">SECURE</span>
+          <h2 class="k-text split-chars" id="s2-title">INDEXING FAN WIKI DATABASE</h2>
+        </div>
+        
+        <div class="db-grid">
+          <!-- Col 1: Witches -->
+          <div class="db-col" id="db-col-witches">
+            <h3 class="col-header split-chars"><span class="hdr-tag">COL.01</span>VIRTUAL WITCHES // 魔女们</h3>
+            <ul class="db-list">
+              <li class="db-item"><span class="num">01</span><span class="name">花谱 KAF</span></li>
+              <li class="db-item"><span class="num">02</span><span class="name">理芽 RIM</span></li>
+              <li class="db-item"><span class="num">03</span><span class="name">春猿火 HARUSARUHI</span></li>
+              <li class="db-item"><span class="num">04</span><span class="name">异世界情绪 ISEKAI JOUCHO</span></li>
+              <li class="db-item"><span class="num">05</span><span class="name">幸祜 KOKO</span></li>
+            </ul>
+          </div>
+          
+          <!-- Col 2: Isotopes -->
+          <div class="db-col" id="db-col-isotopes">
+            <h3 class="col-header split-chars"><span class="hdr-tag">COL.02</span>CELESTIAL ISOTOPES // 歌姬AI</h3>
+            <ul class="db-list">
+              <li class="db-item"><span class="num">01</span><span class="name">可不 KAFU</span></li>
+              <li class="db-item"><span class="num">02</span><span class="name">星界 SEKAI</span></li>
+              <li class="db-item info-gray">// EXTRA REPLICAS DETECTED</li>
+            </ul>
+          </div>
+          
+          <!-- Col 3: Protocols -->
+          <div class="db-col" id="db-col-protocols">
+            <h3 class="col-header split-chars"><span class="hdr-tag">COL.03</span>PROTOCOLS // 派生企划</h3>
+            <ul class="db-list">
+              <li class="db-item"><span class="num">ARG</span><span class="name">神椿市建设中。</span></li>
+              <li class="db-item"><span class="num">LBL</span><span class="name">深脊界 STUDIO</span></li>
+              <li class="db-item"><span class="num">EXH</span><span class="name">魔女展 WITCH EXHIBITION</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="db-footer">
+          <div class="db-stat">QUERY_TIME: <span class="mono-val">12.04ms</span></div>
+          <div class="db-stat">TOTAL_RECORDS: <span class="mono-val">10</span></div>
+          <div class="db-stat">INDEX: <span class="mono-val">ACTIVE_PHENOMENON</span></div>
+        </div>
+      </section>
+
+      <!-- Scene 3: The Spark / The Echoes (25s - 42s) -->
+      <section class="scene" id="scene-3">
+        <div class="echo-lyrics">
+          <div class="k-text split-chars mono-date" id="s3-t1">[ RECORDED_EVENT: 2026.05.30 ]</div>
+          
+          <div class="lyric-line-wrapper">
+            <div class="k-text split-chars serif-lyric" id="s3-t2">花谱「宿声」演唱会结束</div>
+            <div class="k-text split-chars english-sub" id="s3-sub2">KAF CONCERT "YADOSUKE" CONCLUDED</div>
+          </div>
+          
+          <div class="lyric-line-wrapper">
+            <div class="k-text split-chars serif-lyric highlight-red" id="s3-t3">被花谱的声音击中</div>
+            <div class="k-text split-chars english-sub red-sub" id="s3-sub3">STRUCK BY KAF'S VOICE, UNEXPECTEDLY</div>
+          </div>
+          
+          <div class="lyric-line-wrapper">
+            <div class="k-text split-chars serif-lyric" id="s3-t4">当初翻遍资料，只为看清这个世界</div>
+            <div class="k-text split-chars english-sub" id="s3-sub4">SEARCHING ENDLESSLY JUST TO COMPREHEND THIS WORLD</div>
+          </div>
+          
+          <div class="lyric-line-wrapper font-bold-serif">
+            <div class="k-text split-chars serif-lyric highlight-white" id="s3-t5">为了让下一个观测者，快一点被神椿击中</div>
+            <div class="k-text split-chars english-sub white-sub" id="s3-sub5">SO THE NEXT OBSERVER CAN BE STRUCK BY KAMITSUBAKI FASTER</div>
+          </div>
+          
+          <div class="lyric-line-wrapper">
+            <div class="k-text split-chars serif-huge-lyric red-text" id="s3-t6">我们建造了这里</div>
+            <div class="k-text split-chars english-huge-sub" id="s3-sub6">WE BUILT THIS PORTAL FOR CO-OBSERVATION</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Scene 4: Open Collaboration (42s - 52s) -->
+      <section class="scene" id="scene-4">
+        <div class="collab-container">
+          <div class="k-text split-chars section-eyebrow" id="s4-eyebrow">CO-OBSERVATION SYSTEM</div>
+          
+          <div class="lang-grid" id="s4-langs">
+            <div class="lang-card">
+              <div class="card-crosshair tl-cr"></div>
+              <span class="code">ZH</span><span class="label">中文</span>
+              <span class="card-desc">SYS_LANG_01</span>
+            </div>
+            <div class="lang-card">
+              <div class="card-crosshair tl-cr"></div>
+              <span class="code">JA</span><span class="label">日本語</span>
+              <span class="card-desc">SYS_LANG_02</span>
+            </div>
+            <div class="lang-card">
+              <div class="card-crosshair tl-cr"></div>
+              <span class="code">EN</span><span class="label">ENGLISH</span>
+              <span class="card-desc">SYS_LANG_03</span>
+            </div>
+          </div>
+          
+          <div class="collab-statements">
+            <div class="k-text split-chars stmt" id="s4-stmt1">任何人都可以是观测者</div>
+            <div class="k-text split-chars stmt" id="s4-stmt2">任何人都能书写和编织记录</div>
+          </div>
+          
+          <div class="callout-wrapper">
+            <div class="warning-stripe top"></div>
+            <div class="k-text split-chars huge-callout red-text" id="s4-callout">共同观测 CO-OBSERVE</div>
+            <div class="warning-stripe bottom"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Scene 5: Climax Outro (52s - 60s) -->
+      <section class="scene" id="scene-5">
+        <div class="invert-flash" id="invert-flash"></div>
+        <div class="outro-wrapper">
+          <div class="logo-area">
+            <div class="k-text split-chars brand-name" id="s5-brand">KAMITSUBAKI STUDIO</div>
+            
+            <div class="logo-border-box">
+              <div class="corner-bracket tl-b"></div>
+              <div class="corner-bracket tr-b"></div>
+              <div class="k-text split-chars site-title" id="s5-title">FAN WIKI</div>
+              <div class="corner-bracket bl-b"></div>
+              <div class="corner-bracket br-b"></div>
+            </div>
+            
+            <div class="k-text split-chars site-subtitle" id="s5-sub">非官方粉丝百科</div>
+          </div>
+          
+          <div class="k-text split-chars final-tagline" id="s5-tagline">观测神椿。</div>
+          
+          <div class="outro-footer">
+            <div class="k-text mono-text" id="s5-copy">© 2026 LinkTh1rsty. ALL RIGHTS RESERVED.</div>
+            <div class="k-text mono-text text-mute" id="s5-disclaimer">UNOFFICIAL FAN PORTAL. NOT AFFILIATED WITH KAMITSUBAKI STUDIO OR THINKR.</div>
+          </div>
+        </div>
+        <div class="k-text recording-badge" id="recording-badge">[ REC ]</div>
+      </section>
+
+    </div>
+
+    <!-- Start Button overlay -->
+    <div id="controls">
+      <button id="play-btn">START OBSERVATION SEQUENCE</button>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
