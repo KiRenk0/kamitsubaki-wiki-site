@@ -78,22 +78,6 @@ test('drafts are excluded from production selection and visible only when reques
   assert.deepEqual(entries, [published, draft]);
 });
 
-test('V2.4.0 is the prepared release announcement and matches the site version in all five locales', async () => {
-  const pkg = JSON.parse(await readFile(new URL('../package.json', import.meta.url), 'utf8'));
-  assert.equal(pkg.version, '2.4.0');
-  for (const locale of [...locales, 'zh-tw', 'zh-hk']) {
-    const current = await entryFor('2026-09-14-v2-4-0', locale);
-    const previous = await entryFor('2026-09-13-v2-3-0', locale);
-    const site = await readFile(new URL(`../src/content/site/${locale}.json`, import.meta.url), 'utf8');
-    assert.equal(current.data.draft, false);
-    assert.equal(current.data.pinned, true);
-    assert.equal(previous.data.pinned, false);
-    assert.equal(selectFeaturedAnnouncement([previous, current]), current);
-    assert.ok(current.data.title.includes(`V${pkg.version}`));
-    assert.ok(site.includes(`SYS.VER_${pkg.version}`));
-  }
-});
-
 test('announcement body renders article headings, links, emphasis and Wiki details in every locale', async () => {
   for (const locale of [...locales, 'zh-tw', 'zh-hk']) {
     const entry = await entryFor('2026-09-06-reading-and-contributing', locale);

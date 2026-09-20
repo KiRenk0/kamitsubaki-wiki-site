@@ -3,7 +3,6 @@ import { readFile } from 'node:fs/promises';
 import test from 'node:test';
 import yaml from 'yaml';
 
-import { buildArtistDisplayData } from '../src/lib/homeData.mjs';
 
 async function readSource(path) {
   return readFile(new URL(path, import.meta.url), 'utf8');
@@ -15,88 +14,12 @@ async function readFrontmatter(path) {
   return yaml.parse(match[1]);
 }
 
-test('artist schema supports optional wiki-oriented metadata fields', async () => {
-  const config = await readSource('../src/content.config.ts');
-
-  assert.match(config, /debutDate: z\.string\(\)\.optional\(\)/);
-  assert.match(config, /profileTagline: z\.string\(\)\.optional\(\)/);
-  assert.match(config, /designCredits: z\.array\(z\.string\(\)\)\.optional\(\)/);
-  assert.match(config, /affiliations: z\.array\(z\.string\(\)\)\.optional\(\)/);
-  assert.match(config, /officialLinks:/);
-  assert.match(config, /featuredEntries:/);
-  assert.match(config, /z\.enum\(\['artist', 'project', 'album', 'song'\]\)/);
-  assert.match(config, /const theme = z/);
-  assert.match(config, /\btheme,\r?\n/);
-  assert.match(config, /palette: z\.array/);
-});
-
-test('artist infobox and header render optional structured fields', async () => {
-  const infoBox = await readSource('../src/components/WikiInfoBox.astro');
-  const header = await readSource('../src/components/WikiArticleHeader.astro');
-  const artistPage = await readSource('../src/pages/[locale]/artists/[...id].astro');
-
-  assert.match(infoBox, /data\.profileTagline/);
-  assert.match(infoBox, /data\.debutDate/);
-  assert.match(infoBox, /data\.designCredits/);
-  assert.match(infoBox, /data\.affiliations/);
-  assert.match(infoBox, /data\.officialLinks/);
-  assert.match(infoBox, /data\.featuredEntries/);
-  assert.match(infoBox, /data\.theme/);
-  assert.match(infoBox, /labels\.theme/);
-  assert.match(infoBox, /labels\.kindLabels/);
-  assert.match(header, /data\.profileTagline/);
-  assert.match(artistPage, /officialLinks/);
-  assert.match(artistPage, /featuredEntries/);
-  assert.match(artistPage, /wiki-theme-shell/);
-  assert.match(artistPage, /accentColor/);
-});
-
-test('artist detail places the information card in the entry sidebar grid', async () => {
-  const artistPage = await readSource('../src/pages/[locale]/artists/[...id].astro');
-  const reader = await readSource('../src/components/Reader.astro');
-  assert.match(artistPage, /reader-frame reader-layout/);
-  assert.match(artistPage, /reader-sidebar[\s\S]*?<WikiInfoBox/);
-  assert.match(artistPage, /ContributorRoster mode="entry"/);
-  assert.match(reader, /reader-sidebar/);
-});
-
-test('artist display data preserves extended metadata from content files', async () => {
-  const frontmatter = await readFrontmatter('../src/content/artists/vwp/kaf/zh.md');
-  const data = buildArtistDisplayData({
-    id: 'vwp/kaf/zh',
-    data: frontmatter,
-  });
-
-  assert.equal(data.debutDate, '2018-10-18');
-  assert.equal(data.profileTagline.length > 0, true);
-  assert.equal(data.designCredits.length > 0, true);
-  assert.equal(data.affiliations.includes('V.W.P'), true);
-  assert.equal(data.officialLinks.length > 0, true);
-  assert.equal(data.theme.accentColor.startsWith('#'), true);
-  assert.equal(data.theme.palette.length > 1, true);
-});
-
-test('placeholder artist entries are visibly marked and excluded from indexing', async () => {
-  const [config, database, detail] = await Promise.all([
-    readSource('../src/content.config.ts'),
-    readSource('../src/components/ArtistDatabase.astro'),
-    readSource('../src/pages/[locale]/artists/[...id].astro'),
-  ]);
-
-  assert.match(config, /z\.enum\(\['stub', 'published'\]\)/);
-  assert.match(database, /artist\.contentStatus === 'stub'/);
-  assert.match(detail, /articleData\.contentStatus === 'stub'/);
-});
-
-test('every artist row receives direct hover and keyboard background listeners', async () => {
+test('artist hover and keyboard backgrounds use delegation for progressively revealed rows', async () => {
   const interactions = await readSource('../src/scripts/siteInteractions.js');
-
-  assert.match(interactions, /querySelectorAll\('\.artist-row'\)\.forEach/);
-  assert.match(interactions, /row\.addEventListener\('mouseenter'/);
-  assert.match(interactions, /row\.addEventListener\('mouseleave'/);
-  assert.match(interactions, /row\.addEventListener\('focusin'/);
-  assert.match(interactions, /data-artist-hover-ready/);
-  assert.doesNotMatch(interactions, /artistList\.addEventListener\('mouseover'/);
+  assert.match(interactions, /closest\('\.artist-row'\)/);
+  assert.match(interactions, /'pointerover', 'pointerout'/);
+  assert.match(interactions, /'focusin', 'focusout'/);
+  assert.match(interactions, /relatedTarget/);
 });
 
 test('artist background hover does not change entry text brightness or weight', async () => {

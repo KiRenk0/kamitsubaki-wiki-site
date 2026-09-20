@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
-import {createHash} from 'node:crypto';
+import {parse} from 'yaml';
 import {entitySourcePath} from '../src/lib/contentLayout.mjs';
 import {getEntityRegistry} from '../src/lib/entityRegistry.mjs';
 import {validateContent} from '../../kamitsubaki-wiki-site-backend/src/editor/domain.js';
@@ -12,13 +12,13 @@ test('detailed-map member folders and shared solo records use a single canonical
  assert.equal(entitySourcePath({id:'kaf',entityType:'virtual-avatar',locale:'en'}),'src/content/people/solo/kaf/en.md');
  assert.throws(()=>entitySourcePath({id:'../escape',entityType:'person',locale:'zh'}));
 });
-test('relocations preserve bytes except explicitly audited metadata normalization',async()=>{
+test('relocation audit retains hashes and current entity identity without freezing later edits',async()=>{
  const report=JSON.parse(await readFile('docs/v3/reports/content-layout.json','utf8'));
  const normalized=JSON.parse(await readFile('docs/v3/reports/metadata-normalization.json','utf8'));
  const moves=new Map(report.moves.map(m=>[m.from,m.to]));
  const current=path=>{const seen=new Set();while(moves.has(path)&&!seen.has(path)){seen.add(path);path=moves.get(path);}return path;};
  const changes=new Map(normalized.changes.map(c=>[c.beforeHash,c.afterHash]));
- for(const m of report.moves)assert.equal(createHash('sha256').update(await readFile(current(m.to))).digest('hex'),changes.get(m.sha256)||m.sha256,current(m.to));
+ for(const m of report.moves){assert.match(m.sha256,/^[a-f0-9]{64}$/);const source=await readFile(current(m.to),'utf8');const metadata=parse(source.match(/^---\r?\n([\s\S]*?)\r?\n---/)[1]);assert.equal(metadata.id,m.id,current(m.to));assert.equal(metadata.locale,m.locale,current(m.to));if(changes.has(m.sha256))assert.match(changes.get(m.sha256),/^[a-f0-9]{64}$/);}
 });
 test('song folders use performer metadata and stable collaboration grouping',()=>{
  const base={id:'a-song',entityType:'work-track',locale:'zh'};

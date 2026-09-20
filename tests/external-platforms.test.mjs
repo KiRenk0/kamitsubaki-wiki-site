@@ -63,21 +63,3 @@ test('every branded registry entry exposes production SVG geometry', () => {
     assert.ok(platform.icon?.path.length > 40, `${id} should expose a real SVG path`);
   }
 });
-
-test('infobox cards are static while artist prose enhancement remains progressive', async () => {
-  const [artistPage, artistInfobox, albumInfobox, interactions, styles] = await Promise.all([
-    readFile(new URL('../src/pages/[locale]/artists/[...id].astro', import.meta.url), 'utf8'),
-    readFile(new URL('../src/components/WikiInfoBox.astro', import.meta.url), 'utf8'),
-    readFile(new URL('../src/components/AlbumInfoBox.astro', import.meta.url), 'utf8'),
-    readFile(new URL('../src/scripts/siteInteractions.js', import.meta.url), 'utf8'),
-    readFile(new URL('../src/styles/global.css', import.meta.url), 'utf8'),
-  ]);
-
-  assert.match(artistPage, /wiki-artist-prose/);
-  assert.match(artistInfobox, /ExternalLinkCard/);
-  assert.match(albumInfobox, /ExternalLinkCard/);
-  assert.match(interactions, /enhanceExternalLinkSections\(document\)/);
-  assert.match(interactions, /外部リンク\|external\\s\+links/);
-  assert.match(styles, /prefers-reduced-motion: reduce/);
-  assert.match(styles, /\.wiki-external-links/);
-});

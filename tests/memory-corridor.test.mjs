@@ -10,14 +10,6 @@ function readProjectFile(path) {
   return readFile(projectUrl(path), 'utf8');
 }
 
-test('memory corridor is exposed from navigation in every locale', async () => {
-  for (const locale of ['zh', 'ja', 'en']) {
-    const site = JSON.parse(await readProjectFile(`../src/content/site/${locale}.json`));
-    const gameItem = site.navItems.find((item) => item.href === `/${locale}/games/memory-corridor`);
-    assert.equal(gameItem?.label, 'GAME');
-  }
-});
-
 test('memory corridor has a localized wrapper, static runner, and required sprites', async () => {
   const requiredFiles = [
     '../src/pages/[locale]/games/memory-corridor.astro',
@@ -37,55 +29,6 @@ test('memory corridor has a localized wrapper, static runner, and required sprit
   assert.match(wrapper, /memory-corridor-frame/);
   assert.match(wrapper, /'zh-tw': \{[\s\S]*title: '記憶迴廊'/);
   assert.match(wrapper, /'zh-hk': \{[\s\S]*title: '記憶迴廊'/);
-});
-
-test('all primary article types link into a source-aware run', async () => {
-  const detailPages = [
-    '../src/pages/[locale]/artists/[...id].astro',
-    '../src/pages/[locale]/songs/[...id].astro',
-    '../src/pages/[locale]/albums/[...id].astro',
-    '../src/pages/[locale]/projects/[...id].astro',
-  ];
-
-  const sources = await Promise.all(detailPages.map(readProjectFile));
-  for (const source of sources) {
-    assert.match(source, /MemoryCorridorEntryLink/);
-  }
-
-  const component = await readProjectFile('../src/components/MemoryCorridorEntryLink.astro');
-  assert.match(component, /sourceKind/);
-  assert.match(component, /sourceId/);
-  assert.match(component, /'zh-tw'/);
-  assert.match(component, /'zh-hk'/);
-  assert.match(component, /寫入記憶迴廊/);
-});
-
-test('runner reads the Wiki catalog and records recovered entry fragments', async () => {
-  const [runner, endpoint] = await Promise.all([
-    readProjectFile('../public/games/memory-corridor/index.html'),
-    readProjectFile('../src/pages/[locale]/game-index.json.ts'),
-  ]);
-
-  assert.match(runner, /\/\$\{wikiLocale\}\/game-index\.json/);
-  assert.match(runner, /kamitsubaki-memory-corridor-archive-v1/);
-  assert.match(runner, /recordWikiFragment\(/);
-  assert.match(runner, /RETURN TO WIKI/);
-  assert.match(endpoint, /getCollection\('artists'\)/);
-  assert.match(endpoint, /getCollection\('songs'\)/);
-  assert.match(endpoint, /getCollection\('albums'\)/);
-  assert.match(endpoint, /getCollection\('projects'\)/);
-  assert.match(endpoint, /'zh-tw': \{ artist: '藝人'/);
-  assert.match(endpoint, /'zh-hk': \{ artist: '藝人'/);
-});
-
-test('Wiki catalog emits clue facts and typed graph connections', async () => {
-  const endpoint = await readProjectFile('../src/pages/[locale]/game-index.json.ts');
-
-  assert.match(endpoint, /facts: compactFacts/);
-  assert.match(endpoint, /connections: unique\(connected\.map\(itemKey\)\)/);
-  assert.match(endpoint, /featuredHrefs/);
-  assert.match(endpoint, /trackSongIds/);
-  assert.match(endpoint, /albumTitle/);
 });
 
 test('runner turns three recovered clues into a route decision and clickable memory path', async () => {

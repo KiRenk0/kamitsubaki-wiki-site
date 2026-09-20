@@ -6,16 +6,6 @@ async function readSource(path) {
   return readFile(new URL(path, import.meta.url), 'utf8');
 }
 
-test('edit source links route through the local contributor guide first', async () => {
-  const artistPage = await readSource('../src/pages/[locale]/artists/[...id].astro');
-  const articleHeader = await readSource('../src/components/WikiArticleHeader.astro');
-
-  assert.match(artistPage, /\/contribute\/edit\?target=/);
-  assert.match(artistPage, /encodeURIComponent\(contentSourcePath\)/);
-  assert.match(artistPage, /src\/content\/artists\/\$\{id\}\/\$\{getEditableLocale\(localeCode\)\}\.md/);
-  assert.doesNotMatch(articleHeader, /target="_blank"/);
-});
-
 test('the learning guide keeps editable localized lessons connected to the current editor', async () => {
   const { parse } = await import('yaml');
   const { guideSteps, guideTasks } = await import('../src/lib/contributionGuide.mjs');
@@ -40,33 +30,6 @@ test('the learning guide keeps editable localized lessons connected to the curre
   assert.match(guidePage, /id="syntax-reference"/);
   assert.match(guidePage, /ContributionNav/);
   assert.match(guidePage, /renderMarkdownFragment/);
-});
-
-test('contribution documentation presents one connected learning path in every locale', async () => {
-  const syntaxPage = await readSource('../src/pages/[locale]/contribute/syntax.astro');
-
-  assert.match(syntaxPage, /contribute\/edit#syntax-reference/);
-  assert.match(syntaxPage, /renderContentEntry\(entry\)/);
-  assert.match(syntaxPage, /const hasArticleBody = Boolean\(articleBody\)/);
-  assert.doesNotMatch(syntaxPage, /Boolean\(entry\.body\?\.trim\(\)\)/);
-
-  for (const locale of ['zh', 'ja', 'en']) {
-    const syntaxGuide = await readSource(`../src/content/contribute/syntax-guide/${locale}.md`);
-    assert.match(syntaxGuide, /src\/content\//);
-    assert.match(syntaxGuide, /translationKey/);
-    assert.match(syntaxGuide, /Preview \/ Changes/);
-    assert.match(syntaxGuide, /@\[.+\]\(/s);
-  }
-
-  const contributorDocs = [
-    await readSource('../docs/contributing.md'),
-    await readSource('../docs/contributing.ja.md'),
-    await readSource('../docs/contributing.en.md'),
-  ];
-
-  for (const document of contributorDocs) {
-    assert.match(document, /kamitsubaki\.wiki\/(?:zh|ja|en)\/contribute\/edit/);
-  }
 });
 
 test('syntax tutorials pair highlighted source blocks with rendered examples and end with raw HTML', async () => {

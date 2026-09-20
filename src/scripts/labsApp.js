@@ -215,7 +215,7 @@ export function initializeLabsPanel(root, { copy: c, loadCatalog, getURL, setURL
   }
   if (section === 'relations') {
     let selected,
-      limit = 30;
+      limit = 12;
     const svgNS = 'http://www.w3.org/2000/svg';
     function svg(tag, attrs) {
       const e = document.createElementNS(svgNS, tag);
@@ -249,7 +249,7 @@ export function initializeLabsPanel(root, { copy: c, loadCatalog, getURL, setURL
         g.append(title);
         const pick = () => {
           selected = node.id;
-          limit = 30;
+          limit = 12;
           draw();
         };
         g.addEventListener('click', pick);
@@ -308,7 +308,7 @@ export function initializeLabsPanel(root, { copy: c, loadCatalog, getURL, setURL
         r.querySelector('.labs-actions').append(
           button(c.choose, () => {
             selected = n.id;
-            limit = 30;
+            limit = 12;
             draw();
           }),
         );
@@ -327,6 +327,7 @@ export function initializeLabsPanel(root, { copy: c, loadCatalog, getURL, setURL
       const q = foldCjkSearchText($('[data-query]').value);
       const options = catalog.nodes
         .filter((n) => (q ? n.search.includes(q) : ['person','virtual-avatar','unit','software-voice'].includes(n.kind)))
+        .sort((a,b)=>{const score=n=>{const title=foldCjkSearchText(n.title),subtitle=foldCjkSearchText(n.subtitle||'');return title===q||subtitle===q?0:title.startsWith(q)||subtitle.startsWith(q)?1:2;};return q?score(a)-score(b):0;})
         .slice(0, 8);
       const target = $('[data-picks]');
       target.replaceChildren();
@@ -334,7 +335,7 @@ export function initializeLabsPanel(root, { copy: c, loadCatalog, getURL, setURL
         target.append(
           button(n.title, () => {
             selected = n.id;
-            limit = 30;
+            limit = 12;
             draw();
           }),
         ),
@@ -347,7 +348,7 @@ export function initializeLabsPanel(root, { copy: c, loadCatalog, getURL, setURL
       const next = catalog.nodes.find(n => n.id === requested)?.id
         || catalog.nodes.find(n => ['person','virtual-avatar','unit','software-voice'].includes(n.kind) && n.key === 'kaf')?.id
         || catalog.nodes[0]?.id;
-      if (selected !== next) limit = 30;
+      if (selected !== next) limit = 12;
       selected = next;
       picks();
       draw();
@@ -367,7 +368,7 @@ export function initializeLabsPanel(root, { copy: c, loadCatalog, getURL, setURL
       if (catalog) picks();
     });
     $('[data-more]').addEventListener('click', () => {
-      limit += 30;
+      limit += 12;
       draw();
     });
     init();

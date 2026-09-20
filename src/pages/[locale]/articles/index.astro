@@ -1,15 +1,16 @@
 ---
+import {articleCopy} from '../../../lib/articleCopy.mjs';
 import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
 import WorkspaceFilters from '../../../components/WorkspaceFilters.astro';
 import WorkspaceButton from '../../../components/WorkspaceButton.astro';
 import {entityLocales} from '../../../lib/entityRegistry.mjs';
 import '../../../styles/articleWorkspace.css';
 export function getStaticPaths(){return entityLocales.map(locale=>({params:{locale}}));}
-const locale=Astro.params.locale!;const api=import.meta.env.PUBLIC_ARTICLE_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
+const locale=Astro.params.locale!;const copy=articleCopy(locale);const api=import.meta.env.PUBLIC_ARTICLE_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
 ---
-<WorkspaceLayout locale={locale} title="文章" intro="记录、观点与研究。登录后可投稿或提出修改，由站长审核发布。" path="/articles/" eyebrow="LABs / EDITORIAL" width="wide" backHref={`/${locale}/labs/explore/`} backLabel="LABs" mainAttributes={{'data-article-api':api,'data-locale':locale,'data-article-page':'list'}}>
- <WorkspaceButton slot="actions" href={`/${locale}/articles/submit/`} tone="primary">投稿与我的文章</WorkspaceButton>
- <WorkspaceFilters role="search"><label><span>搜索文章、作者</span><input name="q" type="search"/></label><label><span>分类</span><select name="category"><option value="">全部分类</option value="archival">史料与考据</option><option value="profile">人物专访</option><option value="business">商业与组织</option><option value="art-philosophy">艺术与观点</option><option value="infrastructure">技术与基础设施</option></select></label><WorkspaceButton type="submit">搜索</WorkspaceButton><WorkspaceButton type="reset" tone="quiet">清除</WorkspaceButton></WorkspaceFilters>
- <p role="status" data-article-status>正在读取文章…</p><div class="article-list-grid" data-article-grid></div><WorkspaceButton data-article-more hidden>继续显示 24 篇</WorkspaceButton>
+<WorkspaceLayout locale={locale} title={copy.title} intro={copy.intro} path="/articles/" eyebrow="LABs / EDITORIAL" width="wide" backHref={`/${locale}/labs/explore/`} backLabel="LABs" mainAttributes={{'data-article-api':api,'data-locale':locale,'data-article-page':'list'}}>
+ <WorkspaceButton slot="actions" href={`/${locale}/articles/submit/`} tone="primary">{copy.submit}</WorkspaceButton>
+ <WorkspaceFilters role="search"><label><span>{copy.searchLabel}</span><input name="q" type="search"/></label><label><span>{copy.category}</span><select name="category"><option value="">{copy.all}</option>{Object.entries(copy.categories).map(([value,label])=><option value={value}>{label}</option>)}</select></label><WorkspaceButton type="submit">{copy.search}</WorkspaceButton><WorkspaceButton type="reset" tone="quiet">{copy.clear}</WorkspaceButton></WorkspaceFilters>
+ <p role="status" data-article-status>{copy.loading}</p><div class="article-list-grid" data-article-grid></div><WorkspaceButton data-article-more hidden>{copy.more}</WorkspaceButton>
 </WorkspaceLayout>
 <script>import {initArticleBrowser} from '../../../lib/articleClient';initArticleBrowser(document.querySelector<HTMLElement>('[data-article-page]')!);</script>

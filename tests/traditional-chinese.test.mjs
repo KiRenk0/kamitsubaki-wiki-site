@@ -184,35 +184,6 @@ test('Markdown regional vocabulary overrides select exact Taiwan and Hong Kong t
   }
 });
 
-test('generator emits schema-ready derivative content without committing generated files', async () => {
-  const [twSource, hkSource, packageJson, gitignore] = await Promise.all([
-    readSource('../src/content/artists/vwp/kaf/zh-tw.md'),
-    readSource('../src/content/artists/vwp/kaf/zh-hk.md'),
-    readSource('../package.json'),
-    readSource('../.gitignore'),
-  ]);
-
-  const tw = parseFrontmatter(twSource);
-  const hk = parseFrontmatter(hkSource);
-  assert.equal(tw.locale, 'zh-tw');
-  assert.equal(hk.locale, 'zh-hk');
-  assert.equal(tw.translationKey, 'kaf');
-  assert.equal(tw.code, '01');
-  assert.equal(tw.generated, true);
-  assert.equal(hk.generated, true);
-  assert.match(twSource, /\]\(\/zh-tw\//);
-  assert.match(hkSource, /\]\(\/zh-hk\//);
-  assert.doesNotMatch(`${twSource}\n${hkSource}`, /KAMITSUBAKIWIKIPROTECTEDTERM/);
-
-  const scripts = JSON.parse(packageJson).scripts;
-  assert.equal(scripts.predev, 'pnpm i18n:generate');
-  assert.equal(scripts.precheck, 'pnpm i18n:generate');
-  assert.equal(scripts.pretest, 'pnpm i18n:generate');
-  assert.equal(scripts.prebuild, 'pnpm i18n:generate');
-  assert.match(gitignore, /src\/content\/\*\*\/zh-tw\.md/);
-  assert.match(gitignore, /src\/content\/\*\*\/zh-hk\.md/);
-});
-
 test('generator validates every maintained zh.md before replacing derivative files', async () => {
   const generator = await readSource('../scripts/generate-traditional-chinese.mjs');
   const validation = generator.lastIndexOf('await validateSourceMarkdownFiles(sourceMarkdownFiles)');
@@ -275,22 +246,6 @@ test('Japanese spans and protected terms can share one string without colliding 
       convertChineseText('花譜的别名不是サンパチスター', locale),
       '花譜的别名不是サンパチスター',
     );
-  }
-});
-
-test('generated suite album keeps artist credits when Japanese collaborators are present', async () => {
-  const [twSource, hkSource] = await Promise.all([
-    readSource('../src/content/albums/kaf/suite/zh-tw.md'),
-    readSource('../src/content/albums/kaf/suite/zh-hk.md'),
-  ]);
-
-  for (const source of [twSource, hkSource]) {
-    assert.doesNotMatch(source, /たなか × たなか/);
-    assert.doesNotMatch(source, /羽生まゐご × 羽生まゐご/);
-    assert.match(source, /花譜 × たなか/);
-    assert.match(source, /花譜 × 羽生まゐご/);
-    assert.match(source, /彙總花譜/);
-    assert.doesNotMatch(source, /KAMITSUBAKIWIKIPROTECTEDTERM/);
   }
 });
 

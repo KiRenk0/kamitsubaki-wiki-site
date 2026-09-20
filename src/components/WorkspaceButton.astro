@@ -1,6 +1,6 @@
 ---
 import type {HTMLAttributes} from 'astro/types';
-interface Props extends HTMLAttributes<'button'> {href?:string;tone?:'primary'|'secondary'|'quiet';}
+interface Props extends HTMLAttributes<'button'> {href?:string;target?:HTMLAttributes<'a'>['target'];rel?:string;download?:HTMLAttributes<'a'>['download'];tone?:'primary'|'secondary'|'quiet';}
 const {href,tone='secondary',type='button',disabled=false,class:className,...attributes}=Astro.props;
 const Tag=href?'a':'button';
 ---

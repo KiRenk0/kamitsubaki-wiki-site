@@ -30,7 +30,10 @@ export function initTimeline(){
    if(!group.some(e=>e.id===event.id))group=[event];
    get('[data-group-title]').textContent=`${group.length} ${ui.events}`;
    const list=get('[data-event-list]');list.replaceChildren();
-   group.forEach(e=>{const b=el('button',`${dateLabel(e)} · ${e.title}`) as HTMLButtonElement;b.type='button';b.setAttribute('aria-pressed',String(e.id===event.id));b.addEventListener('click',()=>select(e,true,true));list.append(b);});
+   let shown=0;const more=el('button',ui.more) as HTMLButtonElement;more.type='button';more.className='timeline-events-more';
+   const reveal=()=>{const batch=group.slice(shown,shown+12);shown+=batch.length;
+   batch.forEach(e=>{const b=el('button',`${dateLabel(e)} · ${e.title}`) as HTMLButtonElement;b.type='button';b.setAttribute('aria-pressed',String(e.id===event.id));b.addEventListener('click',()=>select(e,true,true));list.insertBefore(b,more.isConnected?more:null);});more.hidden=shown>=group.length;};
+   list.append(more);more.addEventListener('click',()=>{reveal();});do{reveal();}while(shown<=group.findIndex(e=>e.id===event.id));
    const detail=get('[data-detail]');detail.replaceChildren();
    const time=el('time',dateLabel(event));time.setAttribute('datetime',event.date.start);
    const eraIndex=eras.findIndex(e=>e.id===event.era);
@@ -66,13 +69,14 @@ export function initTimeline(){
        b.addEventListener('click',()=>{group=cluster.events;select(group.find(e=>e.id===selected?.id)||first);});lane.append(b);
      }
      // These marks show actual date precision/duration independently of label width.
-     visible.forEach(event=>{const bounds=eventBounds(event),bar=el('span',undefined,'timeline-date-span');bar.style.left=pos(bounds.start)+'px';bar.style.width=Math.max(2,(bounds.end-bounds.start)/duration*width)+'px';bar.title=dateLabel(event);lane.append(bar);});
+     visible.forEach(event=>{const bounds=eventBounds(event),bar=el('span',undefined,'timeline-date-span');bar.style.left=pos(bounds.start)+'px';bar.style.width=Math.max(2,(bounds.end-bounds.start)/duration*width)+'px';bar.title=dateLabel(event);bar.setAttribute('aria-hidden','true');lane.append(bar);});
    });
    if(selected)get<HTMLElement>('[data-playhead]').style.left=pos(eventBounds(selected).start)+'px';
    viewportState();
  };
+ const saveEra=(id='')=>{activeEra=id;const url=new URL(location.href);id?url.searchParams.set('era',id):url.searchParams.delete('era');history.replaceState(null,'',url);};
  const fitRange=(start:number,end:number)=>{
-   activeEra='';const range=Math.max(86400000,Math.min(domain.end,end)-Math.max(domain.start,start));zoom.value=String(Math.max(1,Math.min(40,duration/range)));draw();viewport.scrollTo({left:pos(Math.max(domain.start,start)),behavior:reduced.matches?'instant':'smooth'});
+   const range=Math.max(86400000,Math.min(domain.end,end)-Math.max(domain.start,start));zoom.value=String(Math.max(1,Math.min(40,duration/range)));draw();viewport.scrollTo({left:pos(Math.max(domain.start,start)),behavior:reduced.matches?'instant':'smooth'});
  };
  const apply=(save=false)=>{
    const values=Object.fromEntries(new FormData(form)),on=enabled();
@@ -83,20 +87,20 @@ export function initTimeline(){
    if(selected&&!filtered.some(e=>e.id===selected!.id)){selected=undefined;group=[];get('[data-event-list]').replaceChildren();get('[data-detail]').replaceChildren(el('p',ui.select));get('[data-group-title]').textContent=ui.select;get<HTMLElement>('[data-playhead]').hidden=true;}
    if(selected){group=group.filter(e=>filtered.some(f=>f.id===e.id));select(selected,false);}
    draw();
-   if(values.year)fitRange(Date.UTC(Number(values.year),0,1),Date.UTC(Number(values.year)+1,0,1));
+   if(values.year){activeEra='';fitRange(Date.UTC(Number(values.year),0,1),Date.UTC(Number(values.year)+1,0,1));if(save)saveEra();}
    if(save){const url=new URL(location.href);for(const [key,value]of Object.entries(values))value?url.searchParams.set(key,String(value)):url.searchParams.delete(key);on.length===checks.length?url.searchParams.delete('tracks'):url.searchParams.set('tracks',on.join(','));if(!selected)url.hash='';history.replaceState(null,'',url);}
  };
  const restore=()=>{
    const params=new URLSearchParams(location.search);
    form.querySelectorAll<HTMLInputElement|HTMLSelectElement>('[name]').forEach(c=>c.value=params.get(c.name)||'');checks.forEach(c=>c.checked=!params.has('tracks')||(params.get('tracks')||'').split(',').includes(c.value));apply();
-   const era=eras.find(e=>e.id===params.get('era'));if(era)fitRange(dateBounds(era.start).start,dateBounds(era.end).end);
+   const era=eras.find(e=>e.id===params.get('era'));activeEra=era?.id||'';if(era)fitRange(dateBounds(era.start).start,dateBounds(era.end).end);
    let id='';try{id=decodeURIComponent(location.hash.slice(1));}catch{}
    const event=filtered.find(e=>e.id===id);if(event){group=[event];select(event,false);focusEvent(event,false);}
  };
  eras.forEach((era,i)=>{const start=Math.max(domain.start,dateBounds(era.start).start),end=Math.min(domain.end,dateBounds(era.end).end);const span=el('span',`0${i+1}`);span.style.position='absolute';span.style.left=(start-domain.start)/duration*100+'%';span.style.width=Math.max(0,(end-start)/duration*100)+'%';get('[data-overview-eras]').append(span);});
- root.querySelectorAll<HTMLButtonElement>('[data-era]').forEach(b=>b.addEventListener('click',()=>{const year=form.querySelector<HTMLSelectElement>('[name=year]')!;if(year.value){year.value='';apply(true);}const era=eras.find(e=>e.id===b.dataset.era)!;fitRange(dateBounds(era.start).start,dateBounds(era.end).end);activeEra=era.id;}));
- get('[data-fit]').addEventListener('click',()=>fitRange(domain.start,domain.end));
- zoom.addEventListener('input',()=>{const anchor=(viewport.scrollLeft+viewport.clientWidth/2)/width;draw();viewport.scrollLeft=anchor*width-viewport.clientWidth/2;activeEra='';viewportState();});
+ root.querySelectorAll<HTMLButtonElement>('[data-era]').forEach(b=>b.addEventListener('click',()=>{const year=form.querySelector<HTMLSelectElement>('[name=year]')!;if(year.value){year.value='';apply(true);}const era=eras.find(e=>e.id===b.dataset.era)!;fitRange(dateBounds(era.start).start,dateBounds(era.end).end);saveEra(era.id);}));
+ get('[data-fit]').addEventListener('click',()=>{saveEra();fitRange(domain.start,domain.end);});
+ zoom.addEventListener('input',()=>{const anchor=(viewport.scrollLeft+viewport.clientWidth/2)/width;draw();viewport.scrollLeft=anchor*width-viewport.clientWidth/2;saveEra();viewportState();});
  pan.addEventListener('input',()=>{viewport.scrollLeft=Number(pan.value)/1000*(width-viewport.clientWidth);viewportState();});
  viewport.addEventListener('scroll',viewportState,{passive:true});
  get('[data-ruler]').addEventListener('click',e=>{if(!filtered.length)return;const x=(e as MouseEvent).clientX-canvas.getBoundingClientRect().left;const time=domain.start+x/width*duration;const nearest=filtered.reduce((a,b)=>Math.abs(eventBounds(a).start-time)<Math.abs(eventBounds(b).start-time)?a:b);group=[nearest];select(nearest);});

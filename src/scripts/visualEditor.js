@@ -55,7 +55,7 @@ const initialize = () => {
   const uiLocale = root.dataset.locale.startsWith('zh') ? 'zh' : root.dataset.locale;
   const articleMode=root.dataset.articleMode==='true';
   const prDemo = !articleMode && editorEnabled;
-  const key = `${articleMode ? 'kamitsubaki-article-workbench-v1:'+new URLSearchParams(location.search).get('id') : prDemo ? 'kamitsubaki-visual-editor-pr-demo-v1' : 'kamitsubaki-visual-editor-v1'}:${root.dataset.contentLocale}`;
+  const key = `${articleMode ? 'kamitsubaki-article-workbench-v1:'+(new URLSearchParams(location.search).get('draft')||new URLSearchParams(location.search).get('id')) : prDemo ? 'kamitsubaki-visual-editor-pr-demo-v1' : 'kamitsubaki-visual-editor-v1'}:${root.dataset.contentLocale}`;
   const md = renderRich;
   let draft = newDraft(articleMode?'articles':'projects', root.dataset.contentLocale);
   let saving = true;
@@ -590,14 +590,14 @@ const initialize = () => {
   $('[data-find-next]').addEventListener('click',findNext);$('[data-find-text]').addEventListener('keydown',event=>{if(event.key==='Enter'){event.preventDefault();findNext();}});
   $('[data-problems-toggle]').addEventListener('click',()=>{$('[data-problems]').hidden=!$('[data-problems]').hidden;});
   $('[data-problems-close]').addEventListener('click',()=>{$('[data-problems]').hidden=true;});
-  $('[data-ui-locale]').addEventListener('change',event=>{const url=new URL(location.href);url.pathname=`/${event.target.value}/contribute/editor/`;const target=url.searchParams.get('target');if(target&&/\.md$/.test(target))url.searchParams.set('target',target.replace(/[^/]+\.md$/,`${event.target.value}.md`));location.href=url.href;});
+  $('[data-ui-locale]').addEventListener('change',event=>{const url=new URL(location.href);url.pathname=`/${event.target.value}/${articleMode?'articles/submit':'contribute/editor'}/`;const target=url.searchParams.get('target');if(target&&/\.md$/.test(target))url.searchParams.set('target',target.replace(/[^/]+\.md$/,`${event.target.value}.md`));location.href=url.href;});
   root.addEventListener('keydown',event=>{
     if(event.isComposing||event.target.closest('dialog'))return;
     const mod=event.metaKey||event.ctrlKey;
     if(mod&&((event.key.toLowerCase()==='k')||(event.shiftKey&&event.key.toLowerCase()==='p'))){event.preventDefault();openCommands();return;}
-    if(mod&&event.key.toLowerCase()==='p'){event.preventDefault();$('[data-existing-open]').click();return;}
+    if(mod&&event.key.toLowerCase()==='p'){event.preventDefault();$(articleMode?'[data-article-mine]':'[data-existing-open]').click();return;}
     if(mod&&event.key.toLowerCase()==='f'){event.preventDefault();openFind();return;}
-    if(mod&&event.key.toLowerCase()==='s'){event.preventDefault();if(sourcePending!==null)applySource();save();return;}
+    if(mod&&event.key.toLowerCase()==='s'){event.preventDefault();if(sourcePending!==null)applySource();if(articleMode)$('[data-article-save]').click();else save();return;}
     if(mod&&event.key.toLowerCase()==='b'&&!event.target.closest('[data-rich]')){event.preventDefault();root.toggleAttribute('data-sidebar-hidden');return;}
     if(mod&&event.key.toLowerCase()==='z'&&!event.target.matches('[data-source]')){event.preventDefault();(event.shiftKey?$('[data-redo]'):$('[data-undo]')).click();return;}
     if(event.key==='/'&&event.target.closest('[data-rich]')&&!event.target.closest('[data-rich]').textContent.trim()){event.preventDefault();openCommands(true);}
@@ -725,6 +725,7 @@ const initialize = () => {
     },
   });
   if(articleMode)initializeArticleSubmission(root,{
+    prepareNavigation(){saving=true;},
     snapshot(){if(!applySource())throw Error(copy.sourceError);return {locale:draft.meta.locale,content:{title:draft.meta.title||'',summary:draft.meta.summary||'',category:draft.meta.articleCategory||'archival',relatedEntities:draft.meta.relatedEntities||[],body:serializeDraft()}};},
     restore(content,locale){clearPendingSource();draft=newDraft('articles',locale);Object.assign(draft.meta,{title:content.title||'',summary:content.summary||'',articleCategory:content.category||'archival',relatedEntities:content.relatedEntities||[]});draft.blocks=parseVisualBlocks(content.body||'');if(!draft.blocks.length)draft.blocks=[newBlock('paragraph')];draft.articleOriginalBody=content.body||'';draft.articleBodySnapshot=JSON.stringify(draft.blocks);history=[JSON.stringify(draft)];cursor=0;renderFields();renderBlocks();changed(true);},
     hasLocalWork(){return Boolean(draft.meta.title||serializeDraft().trim());},

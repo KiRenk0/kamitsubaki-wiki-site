@@ -19,7 +19,11 @@ test('Cloudflare Pages asset audit reports only files above the 25 MiB limit', a
     writeFile(join(root, 'small.json'), '123'),
   ]);
 
-  const result = await auditPagesAssets(root, { maxBytes: 5 });
+  const result = await auditPagesAssets(root, { maxBytes: 5, maxFiles: 2 });
+  assert.equal(result.tooManyFiles, true);
+  assert.equal(result.maxFiles, 2);
+  assert.equal((await auditPagesAssets(root, {maxFiles: 3})).tooManyFiles, false);
+  await assert.rejects(auditPagesAssets(root, {maxFiles: NaN}));
 
   assert.equal(CLOUDFLARE_PAGES_MAX_ASSET_BYTES, 25 * 1024 * 1024);
   assert.equal(result.filesScanned, 3);
