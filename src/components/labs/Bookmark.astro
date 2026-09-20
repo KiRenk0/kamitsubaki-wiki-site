@@ -7,7 +7,7 @@ const copy = labsCopy(locale);
 const path = Astro.url.pathname.replace(/\/$/,'') + '/';
 ---
 <div class="labs-bookmark" data-bookmark data-path={path} data-title={title} data-save-label={copy.save} data-saved-label={copy.saved} data-error-label={copy.storageError}>
-  <button type="button" aria-pressed="false" data-bookmark-toggle>{copy.save}</button><a href={`/${locale}/labs/library/`}>{copy.library}</a><span role="status"></span>
+  <button type="button" aria-pressed="false" data-bookmark-toggle>{copy.save}</button><a href={`/${locale}/account/#library`}>{copy.library}</a><span role="status"></span>
 </div>
 <script>
   import { readLibrary, writeLibrary, toggleItem } from '../../lib/personalLibrary.mjs';

@@ -1,0 +1,423 @@
+schemaVersion: 1
+year: 2026
+events:
+  - id: "event-d43d8f8f3093f7c2"
+    date:
+      start: "2026-01-14"
+      precision: "day"
+    text:
+      zh:
+        title: "【空爽】CIEL&Soodaによる新バーチャルユニット・空爽 デビュー曲「透明流星ラプソディ」リリース"
+        summary: "【空爽】CIEL&Soodaによる新バーチャルユニット・空爽 デビュー曲「透明流星ラプソディ」リリース"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "sooda"
+        role: "subject"
+      - entity: "ciel"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-1e040ab6c498982b"
+    date:
+      start: "2026-01-17"
+      precision: "day"
+    text:
+      zh:
+        title: "【少女革命計画】少女革命計画  × 岡田美術館  「少女革命計画×岡田美術館 ー絢爛革命 心・罪ー」 開催決定"
+        summary: "【少女革命計画】少女革命計画  × 岡田美術館  「少女革命計画×岡田美術館 ー絢爛革命 心・罪ー」 開催決定"
+    tracks:
+      - "project-verse"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related: []
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-d2015129ae0bb5e9"
+    date:
+      start: "2026-02-12"
+      precision: "day"
+    text:
+      zh:
+        title: "神椿ゲームタイトルを無料で遊べるイベントを2月14日(土)・15日(日) 新宿で開催"
+        summary: "神椿ゲームタイトルを無料で遊べるイベントを2月14日(土)・15日(日) 新宿で開催"
+    tracks:
+      - "project-verse"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related: []
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-7969d6b96dbded9c"
+    date:
+      start: "2026-02-17"
+      precision: "day"
+    text:
+      zh:
+        title: "【理芽】理芽展 開催決定"
+        summary: "【理芽】理芽展 開催決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "rim"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-bce7428ae6804e30"
+    date:
+      start: "2026-02-21"
+      precision: "day"
+    text:
+      zh:
+        title: "【花譜】展示イベント「奇跡は地続き、ぼくらの現在地〜花譜展5〜」開催決定"
+        summary: "【花譜】展示イベント「奇跡は地続き、ぼくらの現在地〜花譜展5〜」開催決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "kaf"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-bb1e66dbcdafb000"
+    date:
+      start: "2026-03-13"
+      precision: "day"
+    text:
+      zh:
+        title: "【ゲーム】新作ボードゲーム 『KAMITSUBAKI FES Star Reach WARS』 2026年10月 発売決定"
+        summary: "【ゲーム】新作ボードゲーム 『KAMITSUBAKI FES Star Reach WARS』 2026年10月 発売決定"
+    tracks:
+      - "project-verse"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related: []
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-68e537b5c4f2198c"
+    date:
+      start: "2026-03-20"
+      precision: "day"
+    text:
+      zh:
+        title: "【ANMC】少女バイク旅ADV『ガールズメイドプディング』 1周年記念セール&コラボカフェ開催決定"
+        summary: "【ANMC】少女バイク旅ADV『ガールズメイドプディング』 1周年記念セール&コラボカフェ開催決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "anmc"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-f3817c815ab68057"
+    date:
+      start: "2026-03-29"
+      precision: "day"
+    text:
+      zh:
+        title: "【Empty old City】Empty old City 2nd ALBUM「Strings in Owl」 4月22日(水)にリリース決定"
+        summary: "【Empty old City】Empty old City 2nd ALBUM「Strings in Owl」 4月22日(水)にリリース決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "empty-old-city"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-92cf1adff2e610a7"
+    date:
+      start: "2026-04-08"
+      precision: "day"
+    text:
+      zh:
+        title: "【梓川】梓川、トイズファクトリーからのメジャー1stデジタルシングル「Navy」をリリース&MV公開"
+        summary: "【梓川】梓川、トイズファクトリーからのメジャー1stデジタルシングル「Navy」をリリース&MV公開"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related: []
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-9581e5625e60dbe3"
+    date:
+      start: "2026-04-09"
+      precision: "day"
+    text:
+      zh:
+        title: "【少女革命計画】少女革命計画、セルフフォトブース「Photomatic」とのコラボレーション決定"
+        summary: "【少女革命計画】少女革命計画、セルフフォトブース「Photomatic」とのコラボレーション決定"
+    tracks:
+      - "project-verse"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related: []
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-43cf56f197c389e4"
+    date:
+      start: "2026-04-10"
+      precision: "day"
+    text:
+      zh:
+        title: "【春猿火】春猿火 Remix Album「GLITCH STAGE」 6月24日(水)発売決定"
+        summary: "【春猿火】春猿火 Remix Album「GLITCH STAGE」 6月24日(水)発売決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "harusaruhi"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-fe8e903997e6d5c9"
+    date:
+      start: "2026-04-22"
+      precision: "day"
+    text:
+      zh:
+        title: "【Empty old City】Empty old City 2nd Album 『Strings in Owl』リリース"
+        summary: "【Empty old City】Empty old City 2nd Album 『Strings in Owl』リリース"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "empty-old-city"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-ddc08935362b55a7"
+    date:
+      start: "2026-05-03"
+      precision: "day"
+    text:
+      zh:
+        title: "【少女革命計画】神椿渋谷戦線2026 少女革命計画 2nd LIVE 『Revolutio』8月8日(土)開催決定！"
+        summary: "【少女革命計画】神椿渋谷戦線2026 少女革命計画 2nd LIVE 『Revolutio』8月8日(土)開催決定！"
+    tracks:
+      - "project-verse"
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related: []
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-1621c4c8ab22f179"
+    date:
+      start: "2026-05-03"
+      precision: "day"
+    text:
+      zh:
+        title: "【少女革命計画】「少女革命計画」アニメイトフェアが 6月5日(金)より開催決定"
+        summary: "【少女革命計画】「少女革命計画」アニメイトフェアが 6月5日(金)より開催決定"
+    tracks:
+      - "project-verse"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related: []
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-c193055da8ba57f0"
+    date:
+      start: "2026-05-08"
+      precision: "day"
+    text:
+      zh:
+        title: "【Empty old City】Empty old City 2nd ONE-MAN LIVE 追加公演「Strings in Owl //:echo://」開催決定"
+        summary: "【Empty old City】Empty old City 2nd ONE-MAN LIVE 追加公演「Strings in Owl //:echo://」開催決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "empty-old-city"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-91f9444b281f4deb"
+    date:
+      start: "2026-05-12"
+      precision: "day"
+    text:
+      zh:
+        title: "KAMITSUBAKI WARS 2026 神椿横浜戦線 at パシフィコ横浜 9月5日(土)・6日(日)開催決定！"
+        summary: "KAMITSUBAKI WARS 2026 神椿横浜戦線 at パシフィコ横浜 9月5日(土)・6日(日)開催決定！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related: []
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-8dbf5cec32a67824"
+    date:
+      start: "2026-06-10"
+      precision: "day"
+    text:
+      zh:
+        title: "【空爽】KUUSOU VIRTUAL MINI LIVE『空爽パレット』開催決定"
+        summary: "【空爽】KUUSOU VIRTUAL MINI LIVE『空爽パレット』開催決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "kuusou"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-6be21f0331b3bde1"
+    date:
+      start: "2026-06-17"
+      precision: "day"
+    text:
+      zh:
+        title: "【空爽】1st EP 『CYAN』リリース"
+        summary: "【空爽】1st EP 『CYAN』リリース"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related: []
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-1c33aa69450e19ae"
+    date:
+      start: "2026-06-19"
+      precision: "day"
+    text:
+      zh:
+        title: "【少女革命計画】カラオケ館コラボキャンペーン開催"
+        summary: "【少女革命計画】カラオケ館コラボキャンペーン開催"
+    tracks:
+      - "project-verse"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related: []
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-2d3b4d953f1e4d8e"
+    date:
+      start: "2026-06-19"
+      precision: "day"
+    text:
+      zh:
+        title: "米国チャリティーイベント「VTuber Summer Slam 2026」に参加決定"
+        summary: "米国チャリティーイベント「VTuber Summer Slam 2026」に参加決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related: []
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-ec8030c1c4eac5dd"
+    date:
+      start: "2026-09-08"
+      precision: "day"
+    text:
+      zh:
+        title: "KAMITSUBAKI Fan Wiki 全站统一账号系统与 AI 观测终端生态正式发布上线"
+        summary: "KAMITSUBAKI Fan Wiki 全站统一账号系统与 AI 观测终端生态正式发布上线"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "release"
+    importance: "regular"
+    related: []
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "系统发布"

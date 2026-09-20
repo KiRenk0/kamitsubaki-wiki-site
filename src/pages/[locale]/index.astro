@@ -1,21 +1,23 @@
 ---
 import AboutSection from '../../components/AboutSection.astro';
+import AnnouncementLauncher from '../../components/AnnouncementLauncher.astro';
 import AnnouncementModal from '../../components/AnnouncementModal.astro';
 import { renderAnnouncement, selectFeaturedAnnouncement } from '../../lib/announcements.mjs';
 import AlbumsSection from '../../components/AlbumsSection.astro';
-import ArtistDatabase from '../../components/ArtistDatabase.astro';
+import HomeDirectory from '../../components/HomeDirectory.astro';
+import {getEntityRegistry} from '../../lib/entityRegistry.mjs';
+import {buildEntityMusicCatalog} from '../../lib/entityViews.mjs';
 import ContributorRoster from '../../components/ContributorRoster.astro';
 import ExperiencePortals from '../../components/ExperiencePortals.astro';
 import Hero from '../../components/Hero.astro';
 import HomeSiteNav from '../../components/HomeSiteNav.astro';
-import ProjectsSection from '../../components/ProjectsSection.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
 import SupportBanner from '../../components/SupportBanner.astro';
 import SongsSection from '../../components/SongsSection.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import { buildDatabaseJumpLinks, buildHomepageArtistCategories, buildProjectCards, getLocalizedEntries, getLocalizedSite } from '../../lib/homeData.mjs';
-import { buildHomeMusicCatalog, sampleRandom } from '../../lib/homeMusicCatalog.mjs';
+import { getLocalizedEntries, getLocalizedSite } from '../../lib/homeData.mjs';
+import { sampleRandom } from '../../lib/homeMusicCatalog.mjs';
 import { buildLocaleLinks, defaultLocale, resolveLocaleCopy, supportedLocales } from '../../lib/i18n.mjs';
 import { buildHomeMetadata } from '../../lib/metadata.mjs';
 
@@ -28,18 +30,12 @@ export function getStaticPaths() {
 const { locale } = Astro.params;
 const siteEntries = await getCollection('site');
 const homeContent = getLocalizedSite(siteEntries, locale, defaultLocale);
-const artistEntries = getLocalizedEntries(await getCollection('artists'), locale, defaultLocale);
-const projectEntries = getLocalizedEntries(await getCollection('projects'), locale, defaultLocale);
 const announcementEntries = getLocalizedEntries(await getCollection('announcements'), locale, defaultLocale);
-const songEntries = getLocalizedEntries(await getCollection('songs'), locale, defaultLocale);
-const albumEntries = getLocalizedEntries(await getCollection('albums'), locale, defaultLocale);
-const homeMusicCatalog = buildHomeMusicCatalog(songEntries, albumEntries, artistEntries, locale);
+const registry=await getEntityRegistry();
+const homeMusicCatalog = buildEntityMusicCatalog(registry, locale);
 const songs = sampleRandom(homeMusicCatalog.songs, 5);
 const albums = sampleRandom(homeMusicCatalog.albums, 5);
 
-const artistCategories = buildHomepageArtistCategories(artistEntries, locale);
-const databaseJumpLinks = buildDatabaseJumpLinks(artistCategories);
-const projects = buildProjectCards(projectEntries, locale);
 const featuredAnnouncement = await renderAnnouncement(selectFeaturedAnnouncement(announcementEntries, {
   includeDrafts: import.meta.env.DEV,
 }));
@@ -57,23 +53,18 @@ const metadata = buildHomeMetadata(homeContent, locale);
 ---
 
 <BaseLayout lang={locale} alternates={alternates} metadata={metadata}>
+  <Fragment slot="tools">{featuredAnnouncement && <AnnouncementLauncher labels={announcementModalLabels} />}</Fragment>
   <div data-page-context-root>
     <HomeSiteNav navItems={homeContent.navItems} localeLinks={localeLinks} brandLines={homeContent.hero.brandLines} homeHref={`/${locale}/`} />
     <AnnouncementModal announcement={featuredAnnouncement} labels={announcementModalLabels} />
     <Hero hero={homeContent.hero} />
-    <AboutSection content={homeContent.sections.about}>
-      <ExperiencePortals slot="explore" locale={locale} compact />
-    </AboutSection>
-    <ArtistDatabase
-      artistCategories={artistCategories}
-      databaseJumpLinks={databaseJumpLinks}
-      section={homeContent.sections.database}
-      locale={locale}
-    />
+    <HomeDirectory locale={locale} section={homeContent.sections.database}/>
     <SongsSection songs={songs} section={homeContent.sections.songs} locale={locale} />
     <AlbumsSection albums={albums} section={homeContent.sections.albums} locale={locale} />
     <ContributorRoster mode="summary" locale={locale} />
-    <ProjectsSection projects={projects} section={homeContent.sections.projects} />
+    <AboutSection content={homeContent.sections.about}>
+      <ExperiencePortals slot="explore" locale={locale} compact />
+    </AboutSection>
     <SupportBanner locale={locale ?? defaultLocale} />
     <SiteFooter footer={homeContent.footer} />
   </div>

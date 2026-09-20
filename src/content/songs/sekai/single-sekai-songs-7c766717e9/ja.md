@@ -1,0 +1,35 @@
+---
+locale: "ja"
+title: "星追"
+duration: "04:13"
+releaseDate: "2025-04-06"
+schemaVersion: 2
+id: "single-sekai-songs-7c766717e9"
+aliases: []
+presentation:
+  image: "/images/songs/sekai/星追.jpg"
+  badge: "single-星追"
+  sortOrder: 1
+relations: []
+entityType: "work-track"
+romanizedTitle: "星追"
+performers:
+  - entity: "sekai"
+    role: "lead-vocal"
+credits: []
+---
+
+
+## 作品概要
+
+[星界](/ja/artists/isotopes/sekai)が2025-04-06にリリースしたシングル「星追」。
+
+## 視聴
+{{media-switcher::星追}}
+@[apple-music](https://music.apple.com/jp/album/%E6%98%9F%E8%BF%BD/1807008081?i=1807008082&uo=4 "星追")
+@[netease](https://music.163.com/song?id=2691733255 "星追")
+{{/media-switcher}}
+
+## 歌詞
+
+

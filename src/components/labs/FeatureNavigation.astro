@@ -1,0 +1,16 @@
+---
+import {resolveLocaleCopy} from '../../lib/i18n.mjs';
+const {locale,current}=Astro.props;
+const labels=resolveLocaleCopy({zh:['功能导航','文章','纪元时间轴','设定图库','关联网络'],ja:['機能一覧','記事','年代記','設定資料','関係図'],en:['Discover','Articles','Chronicle','Gallery','Connections']},locale);
+const paths=['labs/explore','articles','chronicle','gallery','labs/relations'];
+---
+<nav class="feature-destinations" aria-label="LABs">{paths.map((path,i)=><a href={`/${locale}/${path}/`} aria-current={current===path?'page':undefined}>{labels[i]}</a>)}</nav>
+
+<style>
+.feature-destinations{display:flex;gap:28px;overflow:auto;margin:0 0 28px;border-bottom:1px solid rgb(var(--theme-fg-rgb)/.12);scrollbar-width:none}
+.feature-destinations a{background:none!important;border-radius:0!important;position:relative;flex-shrink:0;padding:12px 0 16px;font:12px/1.5 var(--font-sans);color:rgb(var(--theme-fg-rgb)/.5);text-decoration:none;transition:color .25s}
+.feature-destinations a::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:var(--theme-accent-color);transform:scaleX(0);transform-origin:left;transition:transform .3s}
+.feature-destinations a:hover,.feature-destinations a[aria-current]{color:var(--theme-accent-color)}
+.feature-destinations a[aria-current]::after,.feature-destinations a:hover::after{transform:scaleX(1)}
+@media(prefers-reduced-motion:reduce){.feature-destinations a,.feature-destinations a::after{transition:none}}
+</style>

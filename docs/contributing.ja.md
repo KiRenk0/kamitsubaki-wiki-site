@@ -1,218 +1,42 @@
-# コントリビューションガイド
+# V3 貢献ガイド
 
-[画像アップロード・パス・ファイル分類](files-and-images.ja.md) · [Wiki](https://kamitsubaki.wiki/ja/contribute/files/)
+[中文](contributing.md) · [English](contributing.en.md) · [保守文書一覧](README.md)
 
-[English](contributing.en.md) / [中文](contributing.md) / [日本語](contributing.ja.md)
+## 作業を選ぶ
 
-この文書は、Wiki を編集して Pull Request を作成するための主要なガイドです。
+既存記事は閲覧画面の編集リンクから開きます。実際のファイルパスが引き継がれます。新しい項目や記事は貢献センターのエディターで作成します。設定画像の投稿・資料の修正は [ギャラリー投稿画面](/ja/gallery/manage/) を使います。
 
-## どこから始めるか
+記事は GitHub の変更提案、ギャラリーは Worker・R2・D1 を利用します。ギャラリーのために GitHub のファイルを変更する必要はありません。ログインした利用者は他の人が登録した公開資料にも修正を提案できます。公開前にサイト管理者が審査します。
 
-- 初めての貢献、または GitHub のブラウザー編集だけを使う場合は、サイト内の [コントリビューション学習センター](https://kamitsubaki.wiki/ja/contribute/edit) を開いてください。経験に合うルートを選び、同じページで Markdown・属性リファレンスを確認できます。
-- リポジトリに慣れていて、フィールドやコマンドを調べたい場合は、この文書を続けて読んでください。
-- 特定の記事を編集する場合は、記事ページの「ソースを編集」から入り、正しい対象パスを学習センターへ引き継いでください。
+## 記事を作成する
 
-おすすめの順序：**ルートを選ぶ → 対象を確認 → 編集中に構文を参照 → 差分を確認 → PR を作成 → CI とレビューを追う**。Markdown をすべて学んでから始める必要はありません。
+1. 同じ人物・作品が別表記ですでに存在しないか検索します。
+2. 種類と言語を選び、小文字英数字とハイフンで安定した ID を決めます。各言語は同じ ID を使います。
+3. テンプレートの必須項目、本文、出典を記入します。未完成なら `contentStatus: stub` を指定します。ID・種類・名称などの基本項目は省略できません。
+4. 関係は `relations`、歌唱者は `performers`、制作クレジットは `credits`、所属は `affiliations` に登録します。参照先は実在する項目の ID を使います。
+5. プレビューと差分を確認して審査へ送信します。修正依頼には同じ提案を更新して対応します。
+6. 記事は承認・マージ・デプロイ後に公開されます。送信成功は公開完了ではありません。
 
-## 編集する場所
+## メタデータと分類
 
-ほとんどの編集は `src/content/` で行います。
+`schemaVersion: 2` はメタデータ仕様の版で、サイトの V3 とは別の番号です。画像・背景・配色は `presentation`、形態切替は `presentation.morphing`、出典は `sources`、許諾は `license`、活動・保存状態は `lifecycle` で管理します。
 
-```text
-src/content/site/       ナビゲーション、セクション名、フッター文言 (.json)
-src/content/artists/    アーティスト、クリエイター、ユニット、音楽的同位体の記事 (.md)
-src/content/projects/   プロジェクトページとカード (.md)
-src/content/logs/       タイムライン/更新記録 (.md)
-src/content/contribute/ GitHub 編集ガイドの文言 (.md)
-```
+人物、グループのメンバー、指定企画の分類は `src/data/classification-map.json` に従います。ファイルを追加するだけで全ホーム分類に自動掲載されるわけではありません。管理者が承認済みの分類へ ID を登録します。
 
-`dist/`、`.astro/`、`node_modules/` は編集しないでください。
+保存先は `src/lib/contentLayout.mjs` で決まり、バックエンドと同期します。楽曲は `performers` を使用し、主要歌唱者が一人ならその人物のフォルダー、複数なら `collaborations`、不明なら `unassigned` になります。音楽リリースは `releaseType`、記事は `articleCategory` で分類します。ページ URL とファイルパスを混同しないでください。
 
-## 三言語ファイル
+## 翻訳・年表・ギャラリー
 
-元言語は次の三つです。zh-tw・zh-hkの繁体字ルートは自動生成します。
+簡体中国語・日本語・英語は `zh.md`・`ja.md`・`en.md` を編集します。ID と構造項目は言語間で統一します。繁体中国語は自動生成されるため直接編集しません。未翻訳の本文を翻訳済みとして扱わないでください。
 
-```text
-/zh/  中国語、デフォルト
-/ja/  日本語
-/en/  英語
-```
+年表は `src/data/chronicle/` に独立したイベントを登録し、項目 ID と関連付けます。時代区分は設定された日付範囲で決まります。本文の日付からイベントを自動作成しません。
 
-元言語は `zh.md`、`ja.md`、`en.md` です。同じ記事は共通の `translationKey` を使い、完成した言語から提出します。未訳は後で補い、仮本文は置きません。繁体字は簡体字から生成します。
+ギャラリーはキャラクターの選択が必須です。タイトル・形態・日付・タグ・出典・備考は任意で、後から追加できます。画像は非公開領域に一時保存され、審査後に公開されます。
 
-## Markdown の形
+## 提案と確認
 
-Markdown ファイルは YAML frontmatter で構造化データを持ちます。
+指定された開発ブランチを基点に作業ブランチを作り、変更理由と出典を PR に記入します。公開ブランチへ直接書き込みません。画像は実ファイルをアップロードし、ローカルパスを公開 URL として使わないでください。
 
-```yaml
----
-locale: zh
-translationKey: kaf
-name: "花譜"
-romanizedName: "KAF"
-categoryTitle: "虚拟世代的魔女们"
-categorySubtitle: "VIRTUAL WITCH PHENOMENON"
-categoryOrder: 1
-itemOrder: 1
-statusLabel: "STATUS"
-status: "ACTIVE"
-image: "https://placehold.co/1200x800/111/333?text=KAF"
-theme:
-  name: "KAF Bloom"
-  accentColor: "#F29AC2"
-  mutedColor: "#E63145"
-  surfaceColor: "#111321"
-  highlightColor: "#FFF6FA"
-  palette:
-    - label: "花譜ピンク"
-      value: "#F29AC2"
-    - label: "赤い花"
-      value: "#E63145"
-    - label: "観測の濃紺"
-      value: "#111321"
-    - label: "柔光"
-      value: "#FFF6FA"
-seo:
-  title: "花譜 - KAMITSUBAKI WIKI"
-  description: "検索結果とリンクプレビュー用のカスタム説明。"
-  image: "https://example.com/share-card.jpg"
-  keywords:
-    - "花譜"
-    - "KAF"
----
-```
+保守担当者は内容検証、前後の仕様同期、文書ミラーの確認、ビルドを行い、影響する操作をブラウザーで確認します。ビルド成功だけでは実際の投稿・添付アップロード・本番公開を検証したことにはなりません。
 
-本文は二つ目の `---` の後に書きます。本文は空でも構いませんが、仮の紹介文は入れないでください。
-
-### ライセンスと出典
-
-投稿前に、文章が本サイトのオリジナル、第三者のオープンライセンス、権利留保、または個別許諾のどれに当たるか確認してください。本サイトが許諾できるオリジナル文章は既定で CC BY-NC-SA 4.0 です。別のライセンスで提供される第三者の文章や翻案には元のライセンスと版を維持し、`license` frontmatter に原ページ、表示、変更内容を記録します。
-
-画像、ジャケット、歌詞、音声・映像、商標は本文の CC ライセンスに自動的に含まれません。表示だけで許諾の代わりにはならないため、適法な利用根拠のない第三者素材は投稿しないでください。4種類のマーカーと例は[コンテンツのライセンスと出典表示](licensing.ja.md)を参照してください。
-
-### コンテンツの安全性
-
-記事 HTML は明示的なホワイトリスト方式です。一般的な文字装飾、表、`ruby`、`details`、画像は保持されますが、`script`、`style`、生の `iframe`、フォーム、インラインイベント属性、危険な URL はビルド時に削除されます。音声・動画には管理された `@[provider](ID-or-share-URL "任意のキャプション")` 短縮構文だけを使用してください。YouTube、bilibili、Apple Music、Spotify、NetEase Music、QQ Music に対応しています。同じ作品の公式プラットフォームを切り替える場合は、2–6件の従来メディア構文を `{{media-switcher::タイトル}}` と `{{/media-switcher}}` で囲みます。
-
-投稿者は生成後の HTML を直接書かず、`{{ruby::本文::読み}}`、`{{spoiler::隠す文字}}`、`{{mark::重要}}`、楽曲ページの `{{lyrics-controls::ja}}`、対になる `{{details::見出し}}` / `{{/details}}` などの Wiki 短縮構文を優先します。複数行コードは言語名付きの Markdown フェンスを使って構文を色分けします。HTML ホワイトリストは互換性と安全性の最終境界であり、通常の執筆インターフェースではありません。
-
-正確な境界、移行時の挙動、拡張手順は [コンテンツ描画セキュリティポリシー](content-security.md) を参照してください。コピー可能な例はサイト内の [Markdown・項目属性ガイド](https://kamitsubaki.wiki/ja/contribute/syntax) でも確認できます。
-
-`theme` も任意です。設定すると、記事ページに配色パネルが表示され、目次の強調、リンク、情報欄の枠色がそのキャラクター向けの色味になります。
-
-テーマ色は、単に「きれいな色」で選ばないでください。次の順で決めるのがおすすめです。
-
-1. 公式アーティストページ、公式キービジュアル、公式アルバムアート、公式キャラクター資料を確認します。
-2. 髪色、衣装の主色、よく使われる背景色、象徴的なモチーフ色など、安定した識別色を探します。
-3. `accentColor` には一番そのキャラクターらしい色を入れます。
-4. `mutedColor` には補助色または対比色を入れます。
-5. `surfaceColor` は濃い色にして、読み物としての見やすさを守ります。
-6. `highlightColor` は明るい高光として使います。
-7. `palette` には 3〜4 個以上の色を入れ、現在の言語で由来が分かる名前を付けます。
-
-V.W.P の5人は、参考用のテーマ色サンプルとして使えます。
-
-```text
-花譜: KAF Bloom
-理芽: RIM Neuromance
-春猿火: Harusaruhi Impact
-ヰ世界情緒: Isekaijoucho Dark Canvas
-幸祜: KOKO Lightning Rock
-```
-
-色に確信が持てない場合は、仮の配色を入れるより、いったん `theme` を省略してください。
-
-## アーティスト記事テンプレート
-
-`src/content/artists/` 配下の人物・アーティスト記事は、できるだけ次のウィキ型構成にそろえてください。
-
-```md
-## 概要
-## 役割と創作上の位置づけ
-## 活動歴
-## 代表作品と関連項目
-## 関連企画 / 関連設定
-## 参考資料
-## 外部リンク
-```
-
-ポイント：
-
-- `概要` では「誰か」「どこに属するか」「なぜ重要か」を 1〜2 段落で整理する
-- `活動歴` は重要な節目だけに絞る
-- `参考資料` は公式アーティストページ、公式ニュース、公式リリース、主要メディアを優先する
-- `外部リンク` は少数で十分
-
-## トップページ表示
-
-トップページの DATABASE は `src/content/artists/` の第一階層フォルダを分類として自動取得します。
-
-```text
-src/content/artists/vwp/kaf/zh.md
-                    ^^^ トップページ分類
-```
-
-新しい分類を追加するときは、第一階層フォルダを作り、完成した言語の記事を入れてください。`categoryTitle`、`categorySubtitle`、`categoryOrder`、`itemOrder`、`code` は任意の表示上書きです。未設定の場合、フォルダ名、記事名、デフォルトの並び順を使います。
-
-## メタデータ
-
-`seo` ブロックは任意です。未設定の場合、サイトは記事から自動で取得します。
-
-- `name`、`romanizedName`、カテゴリ、ステータスをフォールバックのメタデータに使います。
-- Markdown 本文の最初の段落をページ説明に使います。
-- `image` を Open Graph と Twitter のプレビュー画像に使います。
-
-検索結果や共有カードを手動で制御したい場合だけ、`seo.title`、`seo.description`、`seo.image`、`seo.keywords`、`seo.noindex` を設定してください。デプロイ時に `PUBLIC_SITE_URL` を設定すると、canonical URL とローカル画像が絶対 URL になります。
-
-## 新しい項目を追加する
-
-1. 適切なコンテンツカテゴリにフォルダを作成します。
-2. 完成した `zh.md`、`ja.md`、`en.md` を追加し、未訳は後で補います。
-3. 各言語ファイルで同じ `translationKey` を使います。
-4. 必須 frontmatter を入力します。
-5. 本文がまだない場合は空のままで構いません。
-6. ローカル検証を実行します。
-7. Pull Request を作成します。
-
-### V.W.P のサンプル記事
-
-`src/content/artists/vwp/` には、5 人の初期サンプル記事が入っています。初めて編集する人は、まずそれらを見本にしてください。
-
-- frontmatter の書き方
-- 本文セクションの並び
-- `参考資料` と `外部リンク` の閉じ方
-
-既存の良い記事をまねるのが、最も安全で分かりやすい進め方です。
-
-## ローカル検証
-
-CI とローカル開発では同じコマンドを使います。
-
-```bash
-pnpm test
-pnpm check
-pnpm build
-```
-
-`pnpm check` が content schema エラーを出した場合は、該当ファイルを `src/content.config.ts` と見比べてください。
-
-## Pull Request の流れ
-
-1. `main` からブランチを作成します。
-2. コンテンツまたは実装を編集します。
-3. ローカル検証を実行します。
-4. ブランチにコミットして push します。
-5. `main` への Pull Request を作成します。
-6. GitHub Actions CI を待ちます。
-7. CI やレビューの指摘は同じブランチで修正します。
-
-CI ワークフローは `.github/workflows/ci.yml` にあります。
-
-## マージ前チェック
-
-- 仮の本文がない。
-- 第三者コンテンツの出典、ライセンス版、変更内容が記録され、メディア権利と文章ライセンスが混同されていない。
-- 必要な言語ファイルがすべて存在する。
-- `pnpm test`、`pnpm check`、`pnpm build` が通る。
-- PR が関連ファイルだけを変更している。
-- `dist/` などの生成ディレクトリをコミットしていない。
+[画像とファイル](files-and-images.ja.md) · [メタデータ仕様](category-optimization/metadata-schema-v2.md) · [ギャラリー保守](v3/gallery-r2.md)

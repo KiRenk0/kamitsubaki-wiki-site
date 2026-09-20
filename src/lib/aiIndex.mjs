@@ -1,3 +1,5 @@
+import {buildEntityIndex} from './entityIndex.mjs';
+import {entityRoute} from './entityModel.mjs';
 import { readContentEntryBody } from './contentSource.mjs';
 import {
   buildIndexAliases,
@@ -7,7 +9,7 @@ import {
   flattenIndexMetadata,
 } from './searchIndex.mjs';
 
-export const aiIndexCollections = Object.freeze(['artists', 'albums', 'songs', 'projects', 'logs']);
+export const aiIndexCollections = Object.freeze(['entities','logs']);
 
 const textLimits = Object.freeze({
   artist: 8000,
@@ -42,6 +44,7 @@ function titleFor(entry) {
 }
 
 export async function buildAiIndexEntries(group, { collection, locale, origin }) {
+  if(collection==='entities')return buildEntityIndex(locale,origin);
   const kind = collection.replace(/s$/u, '');
   const localizedEntries = group.filter((entry) => entry.data.locale === locale);
   const entries = new Array(localizedEntries.length);
@@ -53,7 +56,7 @@ export async function buildAiIndexEntries(group, { collection, locale, origin })
       nextIndex += 1;
       const entry = localizedEntries[index];
 
-      const path = articleRoute(collection, entry.id);
+      const path = entry.data.schemaVersion===2?`/${locale}${entityRoute(entry.data)}`:articleRoute(collection, entry.id);
       const { body } = await readContentEntryBody(entry);
       const data = entry.data;
       const title = titleFor(entry);

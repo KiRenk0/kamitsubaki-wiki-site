@@ -4,7 +4,7 @@ const phrases=[
  ['请先修正源码，再操作附件。','Fix the source before changing attachments.','添付を操作する前にソースを修正してください。'],
  ['恢复上一份本地草稿','Restore previous local draft','前のローカル下書きを復元'],
  ['条目目录','Entry folder','記事フォルダー'],
- ['使用小写英文、数字和连字符，可用 / 分组。提交时会检查重名，繁体中文由简体生成。','Use lowercase letters, digits and hyphens; / separates groups. Existing paths are checked on submission. Traditional Chinese is generated.','英小文字・数字・ハイフンを使用し、/ で分類できます。送信時に重複を確認します。繁体字は自動生成されます。'],
+ ['填写永久 ID，只使用小写英文、数字和连字符。提交时检查重名，繁体中文由简体生成。','Use lowercase letters, digits and hyphens; / separates groups. Existing paths are checked on submission. Traditional Chinese is generated.','英小文字・数字・ハイフンを使用し、/ で分類できます。送信時に重複を確認します。繁体字は自動生成されます。'],
  ['原图不压缩、不缩放、不转格式。站内附件每张最多 750 KB、最多 8 张、合计 4 MB；更大的原图请按教程直接上传 GitHub。','Original files are kept without compression, resizing or conversion. In-site attachments: 750 KB each, up to 8 images, 4 MB total. Upload larger originals through GitHub using the guide.','原本は圧縮・縮小・形式変換しません。サイト内添付は1枚750 KB、最大8枚、合計4 MB。大きい原本はガイドに従ってGitHubへ直接アップロードしてください。'],
  ['选择图片','Select images','画像を選択'],['图片说明','Alt text','代替テキスト'],['来源或授权说明','Source or permission','出典・使用許可'],
  ['官方页面链接，或原创 / 授权说明','Official source URL, or authorship / permission details','公式URL、または自作・使用許可の説明'],

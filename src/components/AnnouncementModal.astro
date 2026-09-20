@@ -19,18 +19,6 @@ if (!announcement) return;
 
 ---
 
-<button
-  class="announcement-launcher"
-  type="button"
-  data-announcement-open
-  aria-label={labels.open}
-  aria-controls="announcement-modal-panel"
->
-  <span aria-hidden="true">//</span>
-  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-    <path d="M6.5 4.5h11v15h-11zM9 8h6M9 11.5h6M9 15h4" />
-  </svg>
-</button>
 
 <div class="announcement-modal" data-announcement-modal data-announcement-id={announcement.id} data-announcement-draft={announcement.draft ? "true" : undefined} hidden>
   <button class="announcement-modal__scrim" type="button" data-announcement-close aria-label={labels.close}></button>

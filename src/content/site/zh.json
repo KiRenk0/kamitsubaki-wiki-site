@@ -31,32 +31,20 @@
   ],
   "navItems": [
     {
-      "label": "ABOUT",
-      "href": "#about"
+      "label": "百科资料库",
+      "href": "/zh/database/"
     },
     {
-      "label": "EXPERIENCES",
-      "href": "#experiences"
+      "label": "LABs",
+      "href": "/zh/labs/explore/"
     },
     {
-      "label": "DATABASE",
-      "href": "#database"
+      "label": "关于本站",
+      "href": "/zh/#about"
     },
     {
-      "label": "RHYTHM",
-      "href": "#songs"
-    },
-    {
-      "label": "ALBUMS",
-      "href": "#albums"
-    },
-    {
-      "label": "PROJECTS",
-      "href": "#projects"
-    },
-    {
-      "label": "GAME",
-      "href": "/zh/games/memory-corridor"
+      "label": "贡献中心",
+      "href": "/zh/contribute/"
     }
   ],
   "hero": {
@@ -65,7 +53,7 @@
       "Studio",
       "Fan Wiki"
     ],
-    "systemVersion": "SYS.VER_2.4.0",
+    "systemVersion": "SYS.VER_3.0.0",
     "coordinates": "COORD: 35.6620° N, 139.7038° E",
     "status": "STATUS: OBSERVING",
     "leftVertical": "以音乐与故事，让世界稍稍改变。",
@@ -76,7 +64,7 @@
   },
   "sections": {
     "about": {
-      "heading": "00. PREFACE",
+      "heading": "04. PREFACE",
       "subheading": "致观测者",
       "body": [
         "这是一个非官方的 KAMITSUBAKI STUDIO 粉丝百科站点。旨在为「观测者」们整理和记录神椿旗下的艺人、音乐、企划与世界线。所有内容由粉丝编写和维护，与 KAMITSUBAKI STUDIO 及 THINKR 无关联。"
@@ -105,11 +93,6 @@
       "subheading": "专辑作品",
       "viewAllLabel": "VIEW ALL ALBUMS >>",
       "emptyLabel": "专辑词条正在整理中，欢迎参与补充。"
-    },
-    "projects": {
-      "heading": "04. PROTOCOLS",
-      "subheading": "派生计划・项目",
-      "viewAllLabel": "VIEW ALL PROTOCOLS >>"
     },
     "log": {
       "heading": "05. LOG",
@@ -235,7 +218,15 @@
     "emptyDay": "该日期暂无已收录活动。",
     "eventCountLabel": "项活动",
     "backHomeLabel": "返回首页",
-    "weekdays": ["日", "一", "二", "三", "四", "五", "六"]
+    "weekdays": [
+      "日",
+      "一",
+      "二",
+      "三",
+      "四",
+      "五",
+      "六"
+    ]
   },
   "aiChat": {
     "title": "AI 观测端",

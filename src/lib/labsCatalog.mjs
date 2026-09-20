@@ -155,3 +155,11 @@ export function neighbors(catalog, id) {
     .filter((n) => linked.has(n.id))
     .map((node) => ({ ...node, edges: linked.get(node.id) }));
 }
+
+/** Labs reads the same v2 registry and relationship ownership as the encyclopedia. */
+export function buildEntityLabsCatalog(registry,feature,locale){
+ const nodes=registry.list(locale).map(e=>{const d=e.data;return {id:d.id,key:d.id,path:e.url,collection:d.entityType,kind:d.entityType,title:d.name||d.title,subtitle:d.romanizedName||d.romanizedTitle||'',description:d.summary||'',date:normalizeDate(d.releaseDate||d.lifecycle?.startedAt||d.dateRange?.start||d.publishDate),image:d.presentation?.image||'',search:foldCjkSearchText([d.name,d.title,d.romanizedName,d.romanizedTitle,d.summary].filter(Boolean).join(' ')),artists:(d.performers||[]).map(p=>p.entity),links:(d.officialLinks||[]).map(l=>({label:l.label||l.platform||'Source',href:l.url}))};});
+ const edges=registry.list(locale).flatMap(e=>registry.getOutgoingRelations(e.data.id).map(edge=>({...edge,evidence:e.url})));
+ for(const event of feature.events){const text=event.text[locale]||event.text.zh;nodes.push({id:event.id,key:event.id,path:`/${locale}/chronicle/#${event.id}`,collection:'chronicle',kind:'events',title:text.title,subtitle:'',description:text.summary||'',date:normalizeDate(event.date.start),image:'',search:foldCjkSearchText(`${text.title} ${text.summary||''}`),artists:[],links:(event.sources||[]).filter(s=>s.url).map(s=>({label:s.title,href:s.url}))});for(const ref of event.related||[])edges.push({source:event.id,target:ref.entity,type:'chronicle-footprint',evidence:`/${locale}/chronicle/#${event.id}`});}
+ return {version:2,nodes,edges};
+}

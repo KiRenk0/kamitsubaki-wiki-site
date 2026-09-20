@@ -1,0 +1,11 @@
+schemaVersion: 1
+values:
+  - kaf-default-v1
+  - kaf-combat-v2
+  - kaf-vwp-form
+  - kaf-kaika
+  - rim-default-v1
+  - rim-vwp-form
+  - kafu-default
+  - morisaki-kaho-default
+  - sinka-special

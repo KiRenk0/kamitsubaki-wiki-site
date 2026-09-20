@@ -1,0 +1,70 @@
+---
+locale: "en"
+romanizedName: "Kawasaki"
+affiliations: []
+officialLinks:
+  - label: "Twitter"
+    url: "https://twitter.com/Knji__k"
+  - label: "YouTube"
+    url: "https://www.youtube.com/user/kawa6kawa6kawa"
+name: "Kawasaki"
+seo:
+  keywords:
+    - "Kawasaki"
+    - "川サキ"
+    - "KAMITSUBAKI STUDIO"
+    - "video director"
+    - "music video"
+schemaVersion: 2
+id: "kawasaki"
+aliases: []
+presentation:
+  image: "/images/artists/kawasaki.jpg"
+  theme:
+    name: "Kawasaki Azure"
+    accentColor: "#4a90d9"
+    mutedColor: "#3568a8"
+    surfaceColor: "#0f1520"
+    highlightColor: "#e0ecf8"
+    palette:
+      - label: "Azure"
+        value: "#4A90D9"
+      - label: "Deep Blue"
+        value: "#3568A8"
+      - label: "Dark Navy"
+        value: "#0F1520"
+      - label: "Ice"
+        value: "#E0ECF8"
+  badge: "C16"
+  sortOrder: 16
+relations: []
+entityType: "person"
+roles:
+  - "visual-director"
+lifecycle:
+  activity: "active"
+summary: "Video director at Eallin Japan in business partnership with KAMITSUBAKI STUDIO, blending 3DCG, cell animation, and live action into emotionally expressive visual narratives."
+---
+
+## Overview
+
+Kawasaki (川サキ) is a video director at Eallin Japan who holds a business partnership (業務提携) with [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio). As an external collaborator rather than a studio member, he brings a distinctive visual language to the Kamitsubaki ecosystem — one that seamlessly merges 3DCG, cel-style animation, and live action into cohesive emotional narratives.
+
+His directing style is defined by delicate emotional expression and a strong narrative sensibility. Whether through the weight of a single frame or the rhythm of an edited sequence, Kawasaki's work consistently prioritizes feeling over spectacle, crafting music videos that function as short films in their own right.
+
+## Role and Creative Position
+
+Kawasaki occupies a unique position as a visual storyteller within a primarily music-oriented roster. His ongoing collaboration with [KAF](/en/artists/vwp/kaf) — producing music videos and visual content for Kamitsubaki's flagship virtual artist — represents one of the most visible intersections of his craft with the studio's identity.
+
+His portfolio extends well beyond the Kamitsubaki sphere. He has directed music videos for major artists including [Kanzaki Iori](/en/artists/creators/kanzaki-iori)'s "Ongaku Nante Wakaranai" (音楽なんてわからない) and Yorushika's "Kokoro ni Ana ga Aita" (心に穴が空いた), both of which showcase his ability to translate complex emotional textures into arresting visual form.
+
+## Representative Works
+
+- Kanzaki Iori — "Ongaku Nante Wakaranai" (音楽なんてわからない) music video
+- Yorushika — "Kokoro ni Ana ga Aita" (心に穴が空いた) music video
+- Ongoing music videos and visual direction for KAF
+
+## External Links
+
+- [Twitter](https://twitter.com/Knji__k)
+- [YouTube](https://www.youtube.com/user/kawa6kawa6kawa)

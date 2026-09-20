@@ -1,0 +1,128 @@
+---
+locale: "en"
+title: "フリーフォール"
+duration: "03:04"
+releaseDate: "2024-01-24"
+schemaVersion: 2
+id: "harusaruhi-song-track-1725056446"
+aliases: []
+presentation:
+  image: "/images/albums/harusaruhi/shinju.jpg"
+  badge: "apple-1725056446"
+  sortOrder: 364
+relations: []
+entityType: "work-track"
+romanizedTitle: "フリーフォール"
+performers:
+  - entity: "harusaruhi"
+    role: "lead-vocal"
+credits: []
+---
+
+## Overview
+
+フリーフォール appears on [心獣](/en/albums/harusaruhi/shinju) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+
+## Listen
+
+@[apple-music](https://music.apple.com/jp/album/%E3%83%95%E3%83%AA%E3%83%BC%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB/1725056438?i=1725056446&uo=4 "フリーフォール")
+
+## Lyrics
+
+{{lyrics-controls::en}}
+
+<div class="my-lyric-box">
+
+<div class="lyric-line">
+<div class="jp-lyric">
+I've never felt so alive in my life
+</div>
+<div class="trans-lyric">I've never felt so alive in my life</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+'Cause you make me come to life every time
+</div>
+<div class="trans-lyric">'Cause you make me come to life every time</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+(I'm free)
+</div>
+<div class="trans-lyric">(I'm free)</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+Can you hear me calling, calling in for you?
+</div>
+<div class="trans-lyric">Can you hear me calling, calling in for you?</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+Yeah, I'm free falling
+</div>
+<div class="trans-lyric">Yeah, I'm free falling</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+I'ma keep on falling, falling in for you
+</div>
+<div class="trans-lyric">I'ma keep on falling, falling in for you</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+(Wanna come to life!)
+</div>
+<div class="trans-lyric">(Wanna come to life!)</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+I'm free
+</div>
+<div class="trans-lyric">I'm free</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+Oh, and I'm loving all that you do
+</div>
+<div class="trans-lyric">Oh, and I'm loving all that you do</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+Can't you see?
+</div>
+<div class="trans-lyric">Can't you see?</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+That I'm crashing right into you
+</div>
+<div class="trans-lyric">That I'm crashing right into you</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+(Wanna come to life!)
+</div>
+<div class="trans-lyric">(Wanna come to life!)</div>
+</div>
+
+</div>

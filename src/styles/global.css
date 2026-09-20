@@ -2422,6 +2422,9 @@ html.site-search-open body {
 .my-lyric-box .jp-lyric,
 .my-lyric-box .cn-lyric,
 .my-lyric-box .trans-lyric {
+  min-width:0;
+  max-width:100%;
+  overflow-wrap:anywhere;
   flex: 1;
 }
 
@@ -7064,3 +7067,6 @@ html[data-custom-cursor][data-custom-cursor] body * {cursor:none!important}
 #cursor[popover].text-entry{width:2px;height:1.35rem;border-radius:1px}
 #cursor[popover]::backdrop{display:none}
 @media(prefers-reduced-motion:reduce){#cursor[popover]:popover-open{transition:none}}
+
+/* Reserve the viewport gutter before content arrives and across overlay locks. */
+html { scrollbar-gutter: stable; }

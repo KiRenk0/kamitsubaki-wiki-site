@@ -31,7 +31,7 @@ export const hubOverview=locale=>resolveLocaleCopy({
 ## 提交前记住这三件事
 
 - **写自己能核实的内容。** 不确定的资料先说明，不用占位文字或猜测填满词条。
-- **把来源和授权一起留下。** 上传图片不会自动获得使用许可；原图不压缩，大图按图片文档直接上传 GitHub。
+- **把来源和授权一起留下。** 上传图片不会自动获得使用许可；词条附件按图片文档提交；设定图库从图库管理页上传，经站长审核后公开，不走 GitHub。
 - **草稿、投稿、上线是三步。** 保存草稿不等于提交；创建 PR 不等于已经上线。收到意见后继续更新原投稿。
 
 ## 这页怎么用
@@ -61,7 +61,7 @@ export const hubOverview=locale=>resolveLocaleCopy({
 ## Three things to remember
 
 - **Verify your facts.** Explain uncertainty instead of filling gaps with guesses or placeholder text.
-- **Keep sources and permissions.** Uploading an image does not grant permission. Originals are not compressed; use GitHub for larger images.
+- **Keep sources and permissions.** Uploading an image does not grant permission. Article attachments follow the file guide. Reference gallery images use the gallery manager and owner review, without GitHub.
 - **Saving, submitting and publishing are separate.** A draft is not a submission, and a PR is not publication. Update the same submission after feedback.
 
 ## Using this page
@@ -91,7 +91,7 @@ The tabs progress from quick start through editing, GitHub, files, syntax, style
 ## 提出前の三つのポイント
 
 - **確認できる内容を書く。** 不明点は説明し、推測や仮本文で埋めません。
-- **出典と許諾を残す。** 画像のアップロード自体は使用許可ではありません。原本は圧縮せず、大きい画像はGitHubから追加します。
+- **出典と許諾を残す。** 画像のアップロード自体は使用許可ではありません。記事添付はファイルガイドに従います。設定資料はギャラリー管理画面から送信し、管理者の承認後に公開します。GitHub は使用しません。
 - **保存・提出・公開は別です。** 下書き保存やPR作成だけでは公開されません。意見を受けたら同じ投稿を更新します。
 
 ## このページの使い方

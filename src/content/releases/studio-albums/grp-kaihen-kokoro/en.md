@@ -1,0 +1,87 @@
+---
+locale: "en"
+title: "改変 -心-"
+romanizedTitle: "KAIHEN -Kokoro-"
+releaseDate: "2025-10-29"
+label: "kamitsubaki-studio"
+duration: "40:18"
+officialLinks:
+  - label: "Apple Music"
+    url: "https://music.apple.com/jp/album/1842289616?uo=4"
+  - label: "Official discography"
+    url: "https://girlsrevolutionproject.jp/discography/583/"
+tracks:
+  - number: "1"
+    title: "フェイクナイト・シンデレラ"
+    duration: "04:33"
+    songId: "grp-sinseiki-originals-fake-night-cinderella"
+  - number: "2"
+    title: "Ephemeral"
+    duration: "03:10"
+    songId: "grp-sinseiki-originals-ephemeral"
+  - number: "3"
+    title: "ロストオービット"
+    duration: "04:00"
+    songId: "grp-sinseiki-originals-lost-orbit"
+  - number: "4"
+    title: "パーフェクション"
+    duration: "03:42"
+    songId: "grp-sinseiki-originals-perfection"
+  - number: "5"
+    title: "ココロト"
+    duration: "04:17"
+    songId: "grp-sinseiki-originals-kokoroto"
+  - number: "6"
+    title: "いずれ僕は溶けて"
+    duration: "02:40"
+    songId: "grp-sinseiki-originals-izure-boku-wa-tokete"
+  - number: "7"
+    title: "コントラスト"
+    duration: "03:52"
+    songId: "grp-sinseiki-originals-contrast"
+  - number: "8"
+    title: "うそ鳴き"
+    duration: "03:16"
+    songId: "grp-sinseiki-originals-usonaki"
+  - number: "9"
+    title: "FantastiQ"
+    duration: "03:17"
+    songId: "grp-sinseiki-originals-fantasti-q"
+  - number: "10"
+    title: "ミリオン・コンプレクシティ"
+    duration: "03:42"
+    songId: "grp-sinseiki-originals-million-complexity"
+  - number: "11"
+    title: "改変 -心-"
+    duration: "03:49"
+    songId: "grp-sinseiki-originals-kaihen-kokoro"
+schemaVersion: 2
+id: "grp-kaihen-kokoro"
+aliases: []
+presentation:
+  image: "/images/albums/grp/kaihen-kokoro.jpg"
+  sortOrder: 1
+relations: []
+entityType: "work-release"
+releaseType: "album"
+primaryArtist: "sinseiki"
+summary: "SINSEIKI's debut album “改変 -心-” featuring 11 tracks, released on 2025-10-29."
+---
+
+## Overview
+
+[SINSEIKI](/en/artists/girls_revolution_project/sinseiki)'s debut album “改変 -心-” featuring 11 tracks, released on 2025-10-29.
+
+## Track List
+
+1. [フェイクナイト・シンデレラ](/en/songs/sinseiki/originals/fake-night-cinderella)
+2. [Ephemeral](/en/songs/sinseiki/originals/ephemeral)
+3. [ロストオービット](/en/songs/sinseiki/originals/lost-orbit)
+4. [パーフェクション](/en/songs/sinseiki/originals/perfection)
+5. [ココロト](/en/songs/sinseiki/originals/kokoroto)
+6. [いずれ僕は溶けて](/en/songs/sinseiki/originals/izure-boku-wa-tokete)
+7. [コントラスト](/en/songs/sinseiki/originals/contrast)
+8. [うそ鳴き](/en/songs/sinseiki/originals/usonaki)
+9. [FantastiQ](/en/songs/sinseiki/originals/fantasti-q)
+10. [ミリオン・コンプレクシティ](/en/songs/sinseiki/originals/million-complexity)
+11. [改変 -心-](/en/songs/sinseiki/originals/kaihen-kokoro)

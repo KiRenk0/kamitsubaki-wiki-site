@@ -1,0 +1,22 @@
+---
+import SelectionGroup from './SelectionGroup.astro';
+import ClassificationBranch from './ClassificationBranch.astro';
+import {getEntityRegistry} from '../lib/entityRegistry.mjs';
+import {classificationTree,classificationEntries,classificationLabel} from '../lib/classificationTree.mjs';
+import '../styles/classificationDirectory.css';
+const {locale='zh',initial='people',home=false}=Astro.props;const registry=await getEntityRegistry();
+---
+<div class:list={["classification-directory",home&&"classification-directory--home"]} data-classification data-initial={initial}>
+ <div class="classification-layout">
+  <aside class="classification-sidebar">{home?<slot name="heading"/>:<p class="classification-eyebrow">DATABASE / INDEX</p>}<SelectionGroup as="nav" class="classification-roots" aria-label={locale==='en'?'Database categories':locale==='ja'?'データベース分類':'百科分类目录'}>{classificationTree.map(node=><button type="button" data-root-choice={node.id} aria-pressed={node.id==='people'} aria-controls={`root-${node.id}`}><span>{node.code}</span><strong>{classificationLabel(node,locale)}</strong><small>{classificationEntries(registry,node,locale).length}</small></button>)}</SelectionGroup><p class="classification-guide">{locale==='en'?'Choose a category, then follow its branches.':locale==='ja'?'分類を選び、下位の項目へ進みます。':'选择分类，再从子目录进入条目。'}</p></aside>
+  <div class="classification-content" id="artist-list">{classificationTree.map((node,i)=><section id={`root-${node.id}`} data-root-panel={node.id} hidden={i!==0}><header class="classification-heading"><div>{!home&&<p class="classification-eyebrow">{node.code} / COLLECTION</p>}<h3>{classificationLabel(node,locale)}</h3></div>{home&&<a href={`/${locale}/database/?section=${node.id}`}>{locale==='en'?'Full index':locale==='ja'?'一覧へ':'完整索引'} ↗</a>}</header><ClassificationBranch node={node} registry={registry} locale={locale}/></section>)}</div>
+ </div>
+</div>
+<script>
+function init(){document.querySelectorAll<HTMLElement>('[data-classification]').forEach(root=>{if(root.dataset.ready)return;root.dataset.ready='true';
+ const choose=(button:HTMLButtonElement)=>{const top=button.hasAttribute('data-root-choice');const owner=top?root:button.closest<HTMLElement>('[data-branch]')!;const value=top?button.dataset.rootChoice:button.dataset.choose;const buttons=top?[...root.querySelectorAll<HTMLButtonElement>('[data-root-choice]')]:[...owner.querySelectorAll<HTMLButtonElement>(':scope > .classification-children > [data-choose]')];buttons.forEach(b=>{b.setAttribute(top?'aria-pressed':'aria-selected',String(b===button));if(!top)b.tabIndex=b===button?0:-1});const panels=top?[...root.querySelectorAll<HTMLElement>('[data-root-panel]')]:[...owner.querySelectorAll<HTMLElement>(':scope > [data-branch-panel]')];panels.forEach(p=>{p.hidden=(top?p.dataset.rootPanel:p.dataset.branchPanel)!==value;});};
+ root.addEventListener('click',e=>{const b=(e.target as Element).closest<HTMLButtonElement>('[data-root-choice],[data-choose]');if(b){choose(b);const url=new URL(location.href);url.searchParams.set('section',b.dataset.choose||b.dataset.rootChoice!);history.replaceState(null,'',url);}});
+ root.addEventListener('keydown',e=>{if(!['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','Home','End'].includes(e.key))return;const b=(e.target as Element).closest<HTMLButtonElement>('[data-choose],[data-root-choice]');if(!b)return;const buttons=[...b.parentElement!.querySelectorAll<HTMLButtonElement>(':scope > button')];const i=buttons.indexOf(b);const next=e.key==='Home'?0:e.key==='End'?buttons.length-1:(i+(['ArrowLeft','ArrowUp'].includes(e.key)?-1:1)+buttons.length)%buttons.length;e.preventDefault();buttons[next].click();buttons[next].focus();});
+ const initial=new URL(location.href).searchParams.get('section')||root.dataset.initial;const target=[...root.querySelectorAll<HTMLButtonElement>('[data-root-choice],[data-choose]')].find(b=>(b.dataset.choose||b.dataset.rootChoice)===initial);if(target){let current:HTMLElement|null=target;const chain:HTMLButtonElement[]=[];while(current){const panel:HTMLElement|null=current.closest<HTMLElement>('[data-branch-panel],[data-root-panel]');if(!panel)break;const id:string|undefined=panel.dataset.branchPanel||panel.dataset.rootPanel;const parent:HTMLButtonElement=[...root.querySelectorAll<HTMLButtonElement>('[data-root-choice],[data-choose]')].find(b=>(b.dataset.choose||b.dataset.rootChoice)===id)!;chain.unshift(parent);current=parent;}chain.forEach(choose);choose(target);}
+ });}init();document.addEventListener('astro:page-load',init);
+</script>

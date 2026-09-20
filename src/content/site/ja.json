@@ -31,32 +31,20 @@
   ],
   "navItems": [
     {
-      "label": "ABOUT",
-      "href": "#about"
+      "label": "データベース",
+      "href": "/ja/database/"
     },
     {
-      "label": "EXPERIENCES",
-      "href": "#experiences"
+      "label": "LABs",
+      "href": "/ja/labs/explore/"
     },
     {
-      "label": "DATABASE",
-      "href": "#database"
+      "label": "このサイトについて",
+      "href": "/ja/#about"
     },
     {
-      "label": "RHYTHM",
-      "href": "#songs"
-    },
-    {
-      "label": "ALBUMS",
-      "href": "#albums"
-    },
-    {
-      "label": "PROJECTS",
-      "href": "#projects"
-    },
-    {
-      "label": "GAME",
-      "href": "/ja/games/memory-corridor"
+      "label": "投稿ガイド",
+      "href": "/ja/contribute/"
     }
   ],
   "hero": {
@@ -65,7 +53,7 @@
       "Studio",
       "Fan Wiki"
     ],
-    "systemVersion": "SYS.VER_2.4.0",
+    "systemVersion": "SYS.VER_3.0.0",
     "coordinates": "COORD: 35.6620° N, 139.7038° E",
     "status": "STATUS: OBSERVING",
     "leftVertical": "音楽と物語で、世界を少しだけ変える。",
@@ -76,7 +64,7 @@
   },
   "sections": {
     "about": {
-      "heading": "00. PREFACE",
+      "heading": "04. PREFACE",
       "subheading": "観測者へ告ぐ",
       "body": [
         "これはKAMITSUBAKI STUDIOの非公式ファン百科事典サイトです。神椿所属のアーティスト・音楽・プロジェクト・世界線を「観測者」たちのために整理・記録することを目的としています。すべての内容はファンによって作成・管理されており、KAMITSUBAKI STUDIOおよびTHINKRとは無関係です。"
@@ -105,11 +93,6 @@
       "subheading": "アルバム作品",
       "viewAllLabel": "VIEW ALL ALBUMS >>",
       "emptyLabel": "アルバム記事を準備中です。編集への参加を歓迎します。"
-    },
-    "projects": {
-      "heading": "04. PROTOCOLS",
-      "subheading": "派生計画・プロジェクト",
-      "viewAllLabel": "VIEW ALL PROTOCOLS >>"
     },
     "log": {
       "heading": "05. LOG",
@@ -235,7 +218,15 @@
     "emptyDay": "この日に登録されているイベントはありません。",
     "eventCountLabel": "件",
     "backHomeLabel": "ホームに戻る",
-    "weekdays": ["日", "月", "火", "水", "木", "金", "土"]
+    "weekdays": [
+      "日",
+      "月",
+      "火",
+      "水",
+      "木",
+      "金",
+      "土"
+    ]
   },
   "aiChat": {
     "title": "AI 観測端末",

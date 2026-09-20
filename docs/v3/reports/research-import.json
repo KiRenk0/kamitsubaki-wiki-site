@@ -1,0 +1,338 @@
+[
+  {
+    "id": "harusaruhi",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/01_ENTITIES_ARTISTS/01_CORE_VWP/HARUSARUHI_春猿火.md",
+    "target": "src/content/people/solo/harusaruhi/zh.md",
+    "bodyHashBefore": "d7174c0a3d59c50e41add7f686dafba4878f3e07fffc03cc6d116cf2d9ba7576",
+    "supplementHash": "9ef4165d8df5c423d2bfc29cdeb34184709e27e6d7b1bb5db3a307dfc2ed5ecf"
+  },
+  {
+    "id": "isekaijoucho",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/01_ENTITIES_ARTISTS/01_CORE_VWP/ISEKAIJOUCHO_ヰ世界情绪.md",
+    "target": "src/content/people/solo/isekaijoucho/zh.md",
+    "bodyHashBefore": "da57858aafb45954ae6206c679ce7e254851e9df4da1603ec70d482dc0c0c7c2",
+    "supplementHash": "7cfb31f76c45ad6c0563107633bac32113704f0154235ec16413dd9358872550"
+  },
+  {
+    "id": "kaf",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/01_ENTITIES_ARTISTS/01_CORE_VWP/KAF_花谱.md",
+    "target": "src/content/people/solo/kaf/zh.md",
+    "bodyHashBefore": "b8a45fa4aecd35f57caeabce41b38283eac5d2b0ca8304c340c5ac7f0f447075",
+    "supplementHash": "0a6b5dd39e8cf452f42c4e0048a75163210f4c53b90e70ee449d8d5a8118c0f2"
+  },
+  {
+    "id": "koko",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/01_ENTITIES_ARTISTS/01_CORE_VWP/KOKO_幸祜.md",
+    "target": "src/content/people/solo/koko/zh.md",
+    "bodyHashBefore": "09ca2ab137a4db6d81cd335758993008861487b7047d22bed158df93833a5696",
+    "supplementHash": "79562ae61b4164b3485c5c675879eb35990a27f11ab48de2c9700542e9af5a1f"
+  },
+  {
+    "id": "rim",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/01_ENTITIES_ARTISTS/01_CORE_VWP/RIM_理芽.md",
+    "target": "src/content/people/solo/rim/zh.md",
+    "bodyHashBefore": "aff21f996de1119fad2482241bd9264c8d1c0d0aeda46aaf2df0b3f3043cef84",
+    "supplementHash": "a388be3ed1678b1e3c392ec807a50ed09899ba92091bbb8cdc9c862cb88e7558"
+  },
+  {
+    "id": "coko",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/01_ENTITIES_ARTISTS/02_MUSICAL_ISOTOPES/COKO_狐子.md",
+    "target": "src/content/isotopes/coko/zh.md",
+    "bodyHashBefore": "c4256edb2abe06a827cb4045b4a684add588797ef6b42d17865963fc08a15c76",
+    "supplementHash": "08f78e6b481fd80ca8f7ed0a51ba9bcef52116b73744bf2400cb3908f6739dc9"
+  },
+  {
+    "id": "haru",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/01_ENTITIES_ARTISTS/02_MUSICAL_ISOTOPES/HARU_羽累.md",
+    "target": "src/content/isotopes/haru/zh.md",
+    "bodyHashBefore": "4f68d7ba2db1bd1aa872375503c2e778e05bb97888fea5d36e196efd033cc9f0",
+    "supplementHash": "254a9ff2b5ed43bbccdd6aaf7373ee46da8c9dea7277fdc523b58b6ffec78f99"
+  },
+  {
+    "id": "kafu",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/01_ENTITIES_ARTISTS/02_MUSICAL_ISOTOPES/KAFU_可不.md",
+    "target": "src/content/isotopes/kafu/zh.md",
+    "bodyHashBefore": "28fcef111219baee2479c429b7b70dd4fe65e7b9ffeda9bd728027b5b5424aa3",
+    "supplementHash": "65c48f306705f16c2b96cb6856ea072af1ba5d2ce2a7605f07fe0831a3b6c307"
+  },
+  {
+    "id": "rime",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/01_ENTITIES_ARTISTS/02_MUSICAL_ISOTOPES/RIME_裏命.md",
+    "target": "src/content/isotopes/rime/zh.md",
+    "bodyHashBefore": "8eab3de0ee61507c73cb1b01357894dc9957475745f9716547b9c969e3ab8c93",
+    "supplementHash": "cf1a8e6af65446faa23df86ba565805428cae87eca5b7142f2feb72e57b77e13"
+  },
+  {
+    "id": "sekai",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/01_ENTITIES_ARTISTS/02_MUSICAL_ISOTOPES/SEKAI_星界.md",
+    "target": "src/content/isotopes/sekai/zh.md",
+    "bodyHashBefore": "206cc7ae5d9b50ed29ef21a5b1a6ae57154c87e35176bc77c0dbbd0fcc77525c",
+    "supplementHash": "ce66d1c9cc00afeefeeb5f664946dd02e83b8bedb6afe1226301013c7bedffd0"
+  },
+  {
+    "id": "aru",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/01_ENTITIES_ARTISTS/03_SOLO_AND_DERIVED/ARU_存流.md",
+    "target": "src/content/people/solo/aru/zh.md",
+    "bodyHashBefore": "a8c6c20d5fc684b008555da3298ab166acdbcb262bdea753076418dbeed89057",
+    "supplementHash": "50375fb5ff0e97f6e0dd0c19a75a4b1bf1d7573f749f7e5d948986c2d147d328"
+  },
+  {
+    "id": "asu",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/01_ENTITIES_ARTISTS/03_SOLO_AND_DERIVED/ASU_明透.md",
+    "target": "src/content/people/solo/asu/zh.md",
+    "bodyHashBefore": "e4802f8e4fa2521f7a93e95bfd2bdcec1d25d6c242184461308abba3f089c7d1",
+    "supplementHash": "77926699043debb3863663138e5a68fc25df017482651bb1bf4f221fc4d4f935"
+  },
+  {
+    "id": "azsagawa",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/01_ENTITIES_ARTISTS/03_SOLO_AND_DERIVED/AZSAGAWA_梓川.md",
+    "target": "src/content/people/solo/azsagawa/zh.md",
+    "bodyHashBefore": null,
+    "supplementHash": "359658879067a09bdb8aba53ef0558d6008ba716539551e1cedba0f86d983503"
+  },
+  {
+    "id": "ciel",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/01_ENTITIES_ARTISTS/03_SOLO_AND_DERIVED/CIEL.md",
+    "target": "src/content/people/solo/ciel/zh.md",
+    "bodyHashBefore": "e9e06cacaf102de75a16130c136796bd1521f30c54e224f576551d0a6c937c0c",
+    "supplementHash": "a02f9d2293926edd9f7de930f26ae5dfcc43dc60a35edc430b780343f0168e03"
+  },
+  {
+    "id": "kaika",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/01_ENTITIES_ARTISTS/03_SOLO_AND_DERIVED/KAIKA_廻花.md",
+    "target": "src/content/people/solo/kaika/zh.md",
+    "bodyHashBefore": "8de88d4efa316d0ecebc3197a0186438618ea467c7356618852e90ccdafeb604",
+    "supplementHash": "fb6c24ebbb52e1a2a5ce6dabe4a6ae6248b9e800ce6162978ae1359e999862aa"
+  },
+  {
+    "id": "sooda",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/01_ENTITIES_ARTISTS/03_SOLO_AND_DERIVED/SOODA_雨宿り.md",
+    "target": "src/content/units/sooda/zh.md",
+    "bodyHashBefore": "8edcdab155161970aadccf1c610d404c78ee727ab8a611824dd6adf74aedac4c",
+    "supplementHash": "c96f5ada9a8f1a7eb1c13747de39ea133b36c5dba1b04dc4686dd9f3916c2fbb"
+  },
+  {
+    "id": "teresa",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/01_ENTITIES_ARTISTS/03_SOLO_AND_DERIVED/TERESA.md",
+    "target": "src/content/people/solo/teresa/zh.md",
+    "bodyHashBefore": "cdfdf240dd3372ab84f06d459b4b6a4d31929614edced8e8d09e412fb897288f",
+    "supplementHash": "d8e05804910541e56cee00ccad5e7c46cc9b8d7ea9a8c1b15b0a967a8df082e0"
+  },
+  {
+    "id": "albemuth",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/02_UNITS_AND_PROJECTS/01_UNITS/ALBEMUTH.md",
+    "target": "src/content/units/albemuth/zh.md",
+    "bodyHashBefore": "7791209d3a81a02c3d2fe1c2242b486b198ede58bd2621307f59bfe7a97f3974",
+    "supplementHash": "d8c863bfbd5de2816c60ae3d1dc6d126caa0971387e1eee1e7fdcf0df4a58e46"
+  },
+  {
+    "id": "dustcell",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/02_UNITS_AND_PROJECTS/01_UNITS/DUSTCELL.md",
+    "target": "src/content/units/dustcell/zh.md",
+    "bodyHashBefore": "a857ed376fc9ea43b738775420ddda9b5e4cd11dd27befe3595a96a5d898c480",
+    "supplementHash": "a8451ec5babf491e49184b9d7b7d581e7c759ec1dedc1c4771d2c16a77b7fa80"
+  },
+  {
+    "id": "sinseiki",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/02_UNITS_AND_PROJECTS/01_UNITS/SHINSEIKI_心世纪.md",
+    "target": "src/content/units/sinseiki/zh.md",
+    "bodyHashBefore": "11a55a5293d7937cece4ee0b9e650922d96eea933c63e9c245afdd245c409a96",
+    "supplementHash": "1a14fe1192b1fb322c4ca84ad0b174e4eeaacf05bdf4fdae70319a6a1573c120"
+  },
+  {
+    "id": "tsumitobatsu",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/02_UNITS_AND_PROJECTS/01_UNITS/TSUMITOBATSU_罪十罚.md",
+    "target": "src/content/units/tsumitobatsu/zh.md",
+    "bodyHashBefore": "1f3b449aee51ad14641a76fac880a60da055708f4eaaa8ca41d6858f3538a00e",
+    "supplementHash": "c3c1e59f87f2d3ad77baa5dc2fcbb4fc6d956c6d2552135e1922c8fc701a2c05"
+  },
+  {
+    "id": "valis",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/02_UNITS_AND_PROJECTS/01_UNITS/VALIS.md",
+    "target": "src/content/units/valis/zh.md",
+    "bodyHashBefore": "6aa2fb87da73616ca1ef85d6c3aa78663f6237582da1c74239a2e09125136d87",
+    "supplementHash": "3abb5649b3ef01a9d9c4fae8e298cb855d353da8b3fae15797fb226bf8b0ba48"
+  },
+  {
+    "id": "vwp",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/02_UNITS_AND_PROJECTS/01_UNITS/VWP_Virtual_Witch_Phenomenon.md",
+    "target": "src/content/units/vwp/zh.md",
+    "bodyHashBefore": "9c4f0265809d63723a7632ae07b2e0cf4e4f79a8a35ca56dbc88f2f91929ed07",
+    "supplementHash": "0a1f8f5b7d2544bd9911bb475a907d4f606fae8811a13557ed90306d7bbd1e7a"
+  },
+  {
+    "id": "thinkr",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/02_UNITS_AND_PROJECTS/02_LABELS/00_CORPORATE_THINKR_CAPITAL_ANATOMY.md",
+    "target": "src/content/organizations/parent-companies/thinkr/zh.md",
+    "bodyHashBefore": "5e29bfe2a86724e4c9f9dbb36c34466396633d7ac2115874598f236e8bb2f521",
+    "supplementHash": "5213b0c685756e5be5ea11b4e0f5b89607eafbe118a44cd4296a542e4ccfe7ec"
+  },
+  {
+    "id": "anarchic-record",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/02_UNITS_AND_PROJECTS/02_LABELS/ANARCHIC_RECORD.md",
+    "target": "src/content/organizations/record-network/anarchic-record/zh.md",
+    "bodyHashBefore": "9df907e903c5b63c08e00ffd0969c27f074fa4492f3b659416178b8ba643700c",
+    "supplementHash": "6c783f132086777dd005afe6c007f15bcecf169fbfef73c661c0d52ef472a2f9"
+  },
+  {
+    "id": "girls-revolution",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/02_UNITS_AND_PROJECTS/02_LABELS/GIRLS_REVOLUTION_PROJECT.md",
+    "target": "src/content/organizations/girls-revolution/zh.md",
+    "bodyHashBefore": null,
+    "supplementHash": "2bdda8eff309f703bbed67f2d81a7f3da638e2fa401c80458d53f8099329b042"
+  },
+  {
+    "id": "kamitsubaki-creation",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/02_UNITS_AND_PROJECTS/02_LABELS/KAMITSUBAKI_CREATION.md",
+    "target": "src/content/organizations/kamitsubaki-creation/zh.md",
+    "bodyHashBefore": "149d3486038a2e10c092ce36f30b42d5b931a6cce27e73d3ab7c10a550b90388",
+    "supplementHash": "7a58cde1844e10b97258d9131cde01e1b23f3fb675166f17e431dbf1e58ff236"
+  },
+  {
+    "id": "phenomenon-record",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/02_UNITS_AND_PROJECTS/02_LABELS/PHENOMENON_RECORD.md",
+    "target": "src/content/organizations/record-network/phenomenon-record/zh.md",
+    "bodyHashBefore": "bc5471a1ee1218530d39770c2481429612932dc32ac0df3be7196475f2f30076",
+    "supplementHash": "3d47803fe4f216bc98af804f8d054e84c6d48757944ac94d82f8031edd642f6d"
+  },
+  {
+    "id": "pndr",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/02_UNITS_AND_PROJECTS/02_LABELS/PNDR_MUSIC_DISTRIBUTION.md",
+    "target": "src/content/organizations/record-network/pndr/zh.md",
+    "bodyHashBefore": null,
+    "supplementHash": "31f97c08f76d2a4971b4eb15d65c49a64067cbd4e85cc3dbfa8010c43c531ecc"
+  },
+  {
+    "id": "sinsekai-record",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/02_UNITS_AND_PROJECTS/02_LABELS/SINSEKAI_RECORD.md",
+    "target": "src/content/organizations/record-network/sinsekai-record/zh.md",
+    "bodyHashBefore": "87e36f4364b468ddf17a5ff6228635171610e243dc6ac532effddbd19c66479b",
+    "supplementHash": "2bedeb44e0277d4fae5722e7259b931ffc5bec948b224420fa0d8962bbd278ef"
+  },
+  {
+    "id": "kamitsubaki-city",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/02_UNITS_AND_PROJECTS/03_MULTIMEDIA_PROJECTS/KAMITSUBAKI_CITY_UNDER_CONSTRUCTION_神椿市建设中.md",
+    "target": "src/content/projects/city-project/kamitsubaki-city/zh.md",
+    "bodyHashBefore": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "supplementHash": "8083c9a0347e8bf01049ed9c95e881930c9e0998e43fcac73247888ff2d66396"
+  },
+  {
+    "id": "kamitsubaki-verse",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/02_UNITS_AND_PROJECTS/03_MULTIMEDIA_PROJECTS/KAMITSUBAKI_VERSE_全景宇宙.md",
+    "target": "src/content/projects/kamitsubaki-verse/zh.md",
+    "bodyHashBefore": null,
+    "supplementHash": "781978c4990728f5cb679948bfaf6cd5c3d70aefaaeaa74ae109d11226dcc006"
+  },
+  {
+    "id": "sinka-live",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/02_UNITS_AND_PROJECTS/03_MULTIMEDIA_PROJECTS/SINKA_LIVE_深化企划.md",
+    "target": "src/content/projects/sinka-live/zh.md",
+    "bodyHashBefore": null,
+    "supplementHash": "952b02d33950422ac054b5ac64077d7d9fb9cb90af697a6e20111f0de48db185"
+  },
+  {
+    "id": "piedpiper",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/05_CREATORS_AND_STAFF/EXECUTIVE_STAFF_PIEDPIPER.md",
+    "target": "src/content/people/staff/piedpiper/zh.md",
+    "bodyHashBefore": "3431d881e2960a1afbe2feb0da50df32edfa81f2c5e36e33f6fb4862cb2760b6",
+    "supplementHash": "76faa80bb690071239dd0bca0b964b5dad16ecf2b668217a5413287a5a0f60ed"
+  },
+  {
+    "id": "guiano",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/05_CREATORS_AND_STAFF/GUIANO.md",
+    "target": "src/content/people/creators/guiano/zh.md",
+    "bodyHashBefore": "380a3e44c17b3ec72e8fbe82f9896b082d507e7691f6024bb6e7d81273f99e59",
+    "supplementHash": "eb83cfb8a9adbaa59259da7d8f5dfd0d2e5579296155d4b638c25d118f21959f"
+  },
+  {
+    "id": "kanzaki-iori",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/05_CREATORS_AND_STAFF/KANZAKI_IORI_カンザキイオリ.md",
+    "target": "src/content/people/creators/kanzaki-iori/zh.md",
+    "bodyHashBefore": "ffe4ef68efdfd723b0216dbd1115af5e99c6d9a528c96dcfbdda92d71d72b193",
+    "supplementHash": "800e6173799f151ca9a991bbdeaa431adbe22c05e61d6418a186acc3c620aed5"
+  },
+  {
+    "id": "kashiimoimi",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/05_CREATORS_AND_STAFF/KASHII_MOIMI_香椎モイミ.md",
+    "target": "src/content/people/creators/kashiimoimi/zh.md",
+    "bodyHashBefore": "ed569ac33dcb373b0e92c525a86e3cfc3b9b42d12a99ec6f483578bd48ad06c9",
+    "supplementHash": "66f8f76dbf3c6833815a8a575a5a536b92b2a2148f560e02cdd60a3dfe39bc23"
+  },
+  {
+    "id": "mimi",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/05_CREATORS_AND_STAFF/MIMI.md",
+    "target": "src/content/people/creators/mimi/zh.md",
+    "bodyHashBefore": "5f0ecfaf23076bee5d4bfe072e6aa938137c72b08f55d4e501c5b9da67c9172c",
+    "supplementHash": "6e4cb9669b746a7ce3f3432bbe88b94c8f6b4b3cbace77daec63aae4ddecdad7"
+  },
+  {
+    "id": "onuma-parsley",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/05_CREATORS_AND_STAFF/ONUMA_PARSLEY_大沼パセリ.md",
+    "target": "src/content/people/creators/onuma-parsley/zh.md",
+    "bodyHashBefore": null,
+    "supplementHash": "e840541e17c486e7ac9721e0b92093b56b998cd4a534d71e6fc1aef31a6118e4"
+  },
+  {
+    "id": "palow",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/05_CREATORS_AND_STAFF/VISUAL_CREATORS_PALOW_KAWASAKI.md",
+    "target": "src/content/people/staff/palow/zh.md",
+    "bodyHashBefore": "ed4f508e748039f8bd76435a7fa26aa5db51f117168d25eabcacd75a62e5c90e",
+    "supplementHash": "407bac58bfba1242a860f8859a83151327fa60a3e851c31f466a8a8f0101cd3a"
+  },
+  {
+    "id": "tsukisimasouki",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/05_CREATORS_AND_STAFF/WORLD_BUILDERS_TSUKISHIMA.md",
+    "target": "src/content/people/staff/tsukisimasouki/zh.md",
+    "bodyHashBefore": "dbb2082ec2309e513ca5f5b9f50297394127c4f6a8f41e50d84280b6d7095018",
+    "supplementHash": "3e25ec21ecba0e2b4ef40b24a253d30fe8cf83826560142137226c3e5e3a885c"
+  },
+  {
+    "id": "yunosuke",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/05_CREATORS_AND_STAFF/YUNOSUKE_雄之助.md",
+    "target": "src/content/people/creators/yunosuke/zh.md",
+    "bodyHashBefore": "404ada63921742b4b74048a16d486cbf4ee3b172b7f30b77a84fac67010d75bc",
+    "supplementHash": "e1f89cfb6e92946ad68de867d8f33aa5f3541e92c7cbf2f3232492a604223be7"
+  },
+  {
+    "id": "thinkr-capital-and-mbo-study",
+    "source": "../citiao_consolidated/SUBJECTIVE_RESEARCH_AND_ARTICLES/01_THINKR_CORPORATE_AND_PROJECT_ANATOMY.md",
+    "target": "src/content/articles/business/thinkr-capital-and-mbo-study/zh.md",
+    "bodyHashBefore": null,
+    "supplementHash": "8a2c2e008ec418b303b9140bcc7d4a37b34bc3a06f03f5353670a8097114c519"
+  },
+  {
+    "id": "cross-source-comparison",
+    "source": "../citiao_consolidated/SUBJECTIVE_RESEARCH_AND_ARTICLES/02_CROSS_SOURCE_COMPARISON.md",
+    "target": "src/content/articles/archival/cross-source-comparison/zh.md",
+    "bodyHashBefore": null,
+    "supplementHash": "23800c8627e2001fd66872dd5fb4da81ca31deb7ee82a2ee369443c8c43e20b5"
+  },
+  {
+    "id": "conflict-resolutions",
+    "source": "../citiao_consolidated/SUBJECTIVE_RESEARCH_AND_ARTICLES/03_CONFLICT_RESOLUTIONS.md",
+    "target": "src/content/articles/archival/conflict-resolutions/zh.md",
+    "bodyHashBefore": null,
+    "supplementHash": "eb9189ddc1ad2a7506686e502396cb0658c739cda34ea30cdc80e83f7f738014"
+  },
+  {
+    "id": "data-cleaning-log",
+    "source": "../citiao_consolidated/SUBJECTIVE_RESEARCH_AND_ARTICLES/04_DATA_CLEANING_LOG.md",
+    "target": "src/content/articles/data-cleaning-log/zh.md",
+    "bodyHashBefore": null,
+    "supplementHash": "9622ae4cae288256e1c90ebf278ba3d949d6f01618d700f1941a18e230edfa4b"
+  },
+  {
+    "id": "kaika-artistic-evolution",
+    "source": "../citiao_consolidated/SUBJECTIVE_RESEARCH_AND_ARTICLES/05_DUAL_EXISTENCE_PHILOSOPHY_KAF_AND_KAIKA.md",
+    "target": "src/content/articles/art-philosophy/kaika-artistic-evolution/zh.md",
+    "bodyHashBefore": null,
+    "supplementHash": "8ac169116648104132cfbb1a8597e6e94a7c135154f7aa50c9e20a0a4ffcb7b7"
+  },
+  {
+    "id": "pndr-business-model",
+    "source": "../citiao_consolidated/SUBJECTIVE_RESEARCH_AND_ARTICLES/06_PNDR_BUSINESS_MODEL_ANALYSIS.md",
+    "target": "src/content/articles/infrastructure/pndr-business-model/zh.md",
+    "bodyHashBefore": null,
+    "supplementHash": "0b5cc46b2d7d99e4de2ea17520547ff07a3242265eb75105598fb47f481ee380"
+  }
+]

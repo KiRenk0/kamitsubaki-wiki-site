@@ -5,7 +5,8 @@ export function lockModalScroll() {
   const x=window.scrollX,y=window.scrollY;
   const properties=['position','top','left','width','overflow','padding-right'];
   const saved=properties.map(name=>[name,body.style.getPropertyValue(name),body.style.getPropertyPriority(name)]);
-  const gap=Math.max(0,window.innerWidth-root.clientWidth);
+  const reservedGutter=(getComputedStyle(root).scrollbarGutter || '').includes('stable');
+  const gap=reservedGutter?0:Math.max(0,window.innerWidth-root.clientWidth);
   const padding=Number.parseFloat(getComputedStyle(body).paddingRight)||0;
   root.classList.add('account-modal-open');
   body.style.setProperty('position','fixed');

@@ -1,0 +1,66 @@
+---
+interface Props { title: string; count?: number; id?: string; }
+const {title,count,id}=Astro.props;
+---
+<details class="reader-disclosure" id={id}>
+ <summary><span class="reader-disclosure-title">{title}</span>{count!==undefined&&<span class="reader-disclosure-count">{String(count).padStart(2,'0')}</span>}<span class="reader-disclosure-toggle" aria-hidden="true"></span></summary>
+ <div class="reader-disclosure-body"><slot/></div>
+</details>
+<style>
+.reader-disclosure{border-top:1px solid var(--reader-line);margin:0;color:var(--reader-text,var(--theme-fg))}.reader-disclosure:last-child{border-bottom:1px solid var(--reader-line)}
+summary{list-style:none;display:flex;align-items:center;gap:16px;padding:21px 0;cursor:pointer;user-select:none}summary::-webkit-details-marker{display:none}summary:focus-visible{outline:2px solid var(--theme-accent-color);outline-offset:5px}
+.reader-disclosure-title{font:400 17px/1.7 var(--font-serif);letter-spacing:.06em}.reader-disclosure-count{font:10px var(--font-mono);color:var(--reader-muted)}.reader-disclosure-toggle{margin-left:auto;position:relative;width:12px;height:12px;color:var(--reader-muted)}.reader-disclosure-toggle::before,.reader-disclosure-toggle::after{content:'';position:absolute;top:5px;left:0;width:12px;height:1px;background:currentColor;transition:transform .25s}.reader-disclosure-toggle::after{transform:rotate(90deg)}details[open] .reader-disclosure-toggle::after{transform:rotate(0)}details[open] summary{color:var(--theme-accent-color)}.reader-disclosure-body{padding:0 0 26px;animation:reader-details-in .25s ease-out}@keyframes reader-details-in{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}@media(prefers-reduced-motion:reduce){.reader-disclosure-body{animation:none}.reader-disclosure-toggle::before,.reader-disclosure-toggle::after{transition:none}}
+</style>
+<script>
+// Keep native details semantics while allowing both opening and closing to settle.
+const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
+document.querySelectorAll<HTMLDetailsElement>('.reader-disclosure').forEach(details => {
+ const summary = details.querySelector('summary')!;
+ const body = details.querySelector<HTMLElement>('.reader-disclosure-body')!;
+ let animation: Animation | undefined;
+ let expanded = details.open;
+ const settle = () => {
+  animation?.cancel(); animation = undefined;
+  details.open = expanded;
+  details.style.removeProperty('height');
+  details.style.removeProperty('overflow');
+  details.dataset.expanded = String(expanded);
+ };
+ details.dataset.expanded = String(expanded);
+ summary.addEventListener('click', event => {
+  if (reduceMotion.matches) return;
+  event.preventDefault();
+  const start = details.getBoundingClientRect().height;
+  animation?.cancel();
+  expanded = !expanded;
+  details.dataset.expanded = String(expanded);
+  details.open = true;
+  details.style.height = 'auto';
+  const end = expanded ? details.getBoundingClientRect().height : summary.getBoundingClientRect().height + 1;
+  details.style.overflow = 'hidden';
+  animation = details.animate([{height:`${start}px`},{height:`${end}px`}], {duration:360,easing:'cubic-bezier(.22,1,.36,1)'});
+  animation.onfinish = settle;
+  if (expanded) {
+   body.getAnimations({subtree:true}).forEach(item => item.cancel());
+   [...body.querySelectorAll<HTMLElement>('.related-list > li,.footprint,.reader-sources > li')].slice(0,20).forEach((item,index) => {
+    item.animate([{opacity:0,translate:'0 8px'},{opacity:1,translate:'0 0'}], {duration:420,delay:Math.min(index,7)*28,easing:'cubic-bezier(.22,1,.36,1)',fill:'backwards'});
+   });
+  }
+ });
+ details.addEventListener('toggle', () => {
+  if (!animation) {expanded = details.open; details.dataset.expanded = String(expanded);}
+ });
+ reduceMotion.addEventListener('change', () => {
+  if (reduceMotion.matches) {settle(); body.getAnimations({subtree:true}).forEach(item => item.cancel());}
+ });
+});
+</script>
+<style>
+summary{transition:color 180ms ease,background-color 180ms ease}
+.reader-disclosure-title,.reader-disclosure-count{transition:translate 360ms cubic-bezier(.22,1,.36,1)}
+.reader-disclosure[data-expanded='false'] summary{color:var(--reader-text,var(--theme-fg))}
+.reader-disclosure[data-expanded='false'] .reader-disclosure-toggle::after{transform:rotate(90deg)}
+.reader-disclosure-body{animation:none}
+@media(hover:hover) and (pointer:fine){summary:hover{color:var(--theme-accent-color);background:rgb(var(--theme-fg-rgb)/.025)}summary:hover :is(.reader-disclosure-title,.reader-disclosure-count){translate:4px 0}}
+@media(prefers-reduced-motion:reduce){summary,.reader-disclosure-title,.reader-disclosure-count{transition:none}summary:hover :is(.reader-disclosure-title,.reader-disclosure-count){translate:none}}
+</style>

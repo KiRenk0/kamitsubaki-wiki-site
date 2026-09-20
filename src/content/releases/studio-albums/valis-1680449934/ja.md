@@ -1,0 +1,78 @@
+---
+locale: "ja"
+title: "流転ファンタジア(深脊界 ver.)"
+releaseDate: "2023-04-18"
+label: "kamitsubaki-studio"
+duration: "34:24"
+officialLinks:
+  - label: "Apple Music"
+    url: "https://music.apple.com/jp/album/1680449934?uo=4"
+tracks:
+  - number: "1"
+    title: "新世界ピグマリオン"
+    duration: "03:35"
+    songId: "single-valis-pigumarion"
+  - number: "2"
+    title: "天命系メルト"
+    duration: "04:30"
+    songId: "single-valis-meruto"
+  - number: "3"
+    title: "物換星移カタルシス"
+    duration: "03:52"
+    songId: "single-valis-katarushisu"
+  - number: "4"
+    title: "境界線マクガフィン"
+    duration: "02:56"
+    songId: "single-valis-makugafyin"
+  - number: "5"
+    title: "一陽レガシー"
+    duration: "03:29"
+    songId: "single-valis-regashii"
+  - number: "6"
+    title: "偶像ナイトメア"
+    duration: "04:00"
+    songId: "single-valis-naitomea"
+  - number: "7"
+    title: "再見ロマネスク"
+    duration: "03:04"
+    songId: "single-valis-romanesuku"
+  - number: "8"
+    title: "熱愛フローズン"
+    duration: "02:42"
+    songId: "single-valis-furoozun"
+  - number: "9"
+    title: "焦燥アンドロイド"
+    duration: "02:57"
+  - number: "10"
+    title: "神聖革命バーチャルリアリティ"
+    duration: "03:18"
+schemaVersion: 2
+id: "valis-1680449934"
+aliases: []
+presentation:
+  image: "/images/albums/valis/流転ファンタジア深脊界-ver.-1680449934.jpg"
+  sortOrder: 48
+relations: []
+entityType: "work-release"
+romanizedTitle: "流転ファンタジア(深脊界 ver.)"
+releaseType: "album"
+primaryArtist: "valis"
+summary: "VALISが2023-04-18にリリースしたアルバム『流転ファンタジア(深脊界 ver.)』。全10曲を収録。"
+---
+
+## 概要
+
+[VALIS](/ja/artists/solo/valis)が2023-04-18にリリースしたアルバム『流転ファンタジア(深脊界 ver.)』。全10曲を収録。
+
+## 収録曲
+
+1. [新世界ピグマリオン](/ja/songs/valis/originals/新世界pigumarion)（03:35）
+2. [天命系メルト](/ja/songs/valis/originals/天命系meruto)（04:30）
+3. [物換星移カタルシス](/ja/songs/valis/originals/物換星移katarushisu)（03:52）
+4. [境界線マクガフィン](/ja/songs/valis/originals/境界線makugafyin)（02:56）
+5. [一陽レガシー](/ja/songs/valis/originals/一陽regashii)（03:29）
+6. [偶像ナイトメア](/ja/songs/valis/originals/偶像naitomea)（04:00）
+7. [再見ロマネスク](/ja/songs/valis/originals/再見romanesuku)（03:04）
+8. [熱愛フローズン](/ja/songs/valis/originals/熱愛furoozun)（02:42）
+9. 焦燥アンドロイド（02:57）
+10. 神聖革命バーチャルリアリティ（03:18）

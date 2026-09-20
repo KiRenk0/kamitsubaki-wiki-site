@@ -1,0 +1,24 @@
+---
+import type {EntityRegistry,ResolvedEntity} from '../lib/entityRegistry.mjs';
+interface BranchNode {id:string;ids?:string[];overviewIds?:string[];children?:BranchNode[];[key:string]:unknown}
+interface Props {node:BranchNode;registry:EntityRegistry;locale:string;ancestors?:string[]}
+import SelectionGroup from './SelectionGroup.astro';
+import ClassificationRecord from './ClassificationRecord.astro';
+import {classificationEntries,classificationLabel,classificationCopy} from '../lib/classificationTree.mjs';
+const {node,registry,locale,ancestors=[]}=Astro.props;const copy=classificationCopy(locale);const label=classificationLabel(node,locale);const path=[...ancestors,label];const entries=(classificationEntries(registry,node,locale) as ResolvedEntity[]).filter(e=>!node.overviewIds?.includes(e.data.id));const own=(node.overviewIds||node.ids||[]).map(id=>registry.resolveEntity(id,locale)).filter((e):e is ResolvedEntity=>Boolean(e));const pending=entries.filter(e=>e.data.contentStatus==='stub').length;
+---
+<div class="classification-branch" data-branch={node.id}>
+ {own.length>0&&(node.children||node.overviewIds)&&<div class="classification-overview">{own.map(e=><a href={e.url}><span>{e.data.name||e.data.title}</span><small>{locale==='en'?'Open entry':locale==='ja'?'記事を開く':'阅读条目'} ↗</small></a>)}</div>}
+ {node.children?<>
+ <SelectionGroup class="classification-children" role="tablist" aria-label={label} style={`--classification-columns:${node.children.length>5?3:node.children.length}`}>
+ {node.children.map((child,i)=><button type="button" role="tab" id={`choose-${child.id}`} aria-controls={`branch-${child.id}`} aria-selected={i===0} tabindex={i===0?0:-1} data-choose={child.id}><strong>{classificationLabel(child,locale)}</strong><small>{child.id==='groups'?child.children?.length||0:child.overviewIds?child.ids?.length||0:classificationEntries(registry,child,locale).length}</small></button>)}
+ </SelectionGroup>
+ {node.children.map((child,i)=><section id={`branch-${child.id}`} role="tabpanel" aria-labelledby={`choose-${child.id}`} data-branch-panel={child.id} hidden={i!==0}><Astro.self node={child} registry={registry} locale={locale} ancestors={path}/></section>)}
+ </>:<>
+ <div class="classification-breadcrumb" aria-label={copy.path}>{path.map(part=><span>{part}</span>)}</div>
+  <div class="classification-results"><span>{entries.length} {copy.records}</span><span>{pending>0?`${copy.pending} ${pending}`:copy.included}</span></div>
+  <div class="directory-records">{entries.slice(0,12).map((entry,index)=><ClassificationRecord entry={entry} index={index} locale={locale}/>)}</div>
+  {entries.length>12&&<><div id={`directory-more-${node.id}`} class="artist-collapsible" data-artist-collapsible data-page-size="12" data-total={entries.length-12} data-expanded="false" aria-hidden="true" inert><div class="artist-collapsible__inner"></div><template data-directory-overflow>{entries.slice(12).map((entry,index)=><ClassificationRecord entry={entry} index={index+12} locale={locale} overflow/>)}</template></div><button type="button" class="artist-expand-btn" aria-expanded="false" aria-controls={`directory-more-${node.id}`} data-expand-label={copy.more} data-collapse-label={copy.collapse}><span class="artist-expand-divider"><span class="artist-expand-line artist-expand-line--left"></span><span class="artist-expand-copy"><span data-artist-expand-copy>{copy.more}</span><span data-artist-expand-count>＋{Math.min(12,entries.length-12)}</span></span><span class="artist-expand-chevron" aria-hidden="true">⌄</span><span class="artist-expand-line artist-expand-line--right"></span></span></button><button type="button" class="directory-collapse-btn" data-artist-collapse aria-controls={`directory-more-${node.id}`} hidden>{copy.collapse}</button></>}
+  {!entries.length&&<p class="classification-empty">{copy.empty}</p>}
+ </>}
+</div>

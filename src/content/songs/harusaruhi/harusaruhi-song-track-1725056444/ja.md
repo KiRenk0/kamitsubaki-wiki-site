@@ -1,0 +1,126 @@
+---
+locale: "ja"
+title: "Interlude #1 -ケダモノ-"
+duration: "01:10"
+releaseDate: "2024-01-24"
+schemaVersion: 2
+id: "harusaruhi-song-track-1725056444"
+aliases: []
+presentation:
+  image: "/images/albums/harusaruhi/shinju.jpg"
+  badge: "apple-1725056444"
+  sortOrder: 360
+relations: []
+entityType: "work-track"
+romanizedTitle: "Interlude #1 -ケダモノ-"
+performers:
+  - entity: "harusaruhi"
+    role: "lead-vocal"
+credits: []
+---
+
+## 作品概要
+
+「Interlude #1 -ケダモノ-」は『[心獣](/ja/albums/harusaruhi/shinju)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+
+## 試聴
+
+@[apple-music](https://music.apple.com/jp/album/interlude-1-%E3%82%B1%E3%83%80%E3%83%A2%E3%83%8E/1725056438?i=1725056444&uo=4 "Interlude #1 -ケダモノ-")
+
+## 歌詞
+
+{{lyrics-controls::ja}}
+
+<div class="my-lyric-box">
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:09.649]<ruby>ケダモノ<rt class="roma">kedamono</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:12.181]<ruby>ケダモノ<rt class="roma">kedamono</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:14.169]<ruby>この<rt class="roma">kono</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:17.055]<ruby>ケダモノ<rt class="roma">kedamono</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:19.930]<ruby>ケダモノ<rt class="roma">kedamono</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:26.087]Weak <ruby>飼育<rt class="furi">しいく</rt><rt class="roma">shiiku</rt></ruby> Hide &amp; Seek
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:28.509]<ruby>飼い慣<rt class="furi">かいな</rt><rt class="roma">kaina</rt></ruby><ruby>らし<rt class="roma">rashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> Between the sheets...
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:30.915]<ruby>この<rt class="roma">kono</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>リード<rt class="roma">riido</rt></ruby><ruby>放<rt class="furi">ほか</rt><rt class="roma">hoka</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby>?
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:33.321]<ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>喘<ruby>まれ<rt class="roma">mare</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>Feedin'my beast
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:37.274]<ruby>放<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby>?
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:55.326]<ruby>ケダモノ<rt class="roma">kedamono</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:57.670]<ruby>ケダモノ<rt class="roma">kedamono</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:59.748]<ruby>この<rt class="roma">kono</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:02.591]<ruby>ケダモノ<rt class="roma">kedamono</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:05.138]<ruby>ケダモノ<rt class="roma">kedamono</rt></ruby>
+</div>
+</div>
+
+</div>

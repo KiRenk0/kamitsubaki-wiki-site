@@ -1,220 +1,71 @@
-# 贡献指南
+# V3 贡献指南
 
-[图片上传、路径与文件分类](files-and-images.md) · [Wiki](https://kamitsubaki.wiki/zh/contribute/files/)
+[English](contributing.en.md) · [日本語](contributing.ja.md) · [维护文档目录](README.md)
 
-[English](contributing.en.md) / [中文](contributing.md) / [日本語](contributing.ja.md)
+## 选择要做的事
 
-这份文档是编辑百科和提交 Pull Request 的主要参考。
+- 修改百科词条：从阅读器的“编辑词条”进入，系统带入真实文件路径。
+- 新建词条或文章：打开贡献中心的编辑器，选择类型与源语言，建立新稿。
+- 上传设定图或补充图片资料：进入 [图库投稿与维护](/zh/gallery/manage/)。图片和资料走 Worker、R2、D1，不走 GitHub。
+- 提交功能、样式或维护规则修改：在对应仓库的开发分支提交 PR。
 
-## 从哪里开始
+词条和文章使用 GitHub 投稿提案；图库使用站内提案。两者均由站长审核后公开。登录用户可以建议修改其他人创建的公开资料；不会直接覆盖公开版本。
 
-- 第一次贡献，或只想用 GitHub 网页修改内容：打开站内的 [贡献学习中心](https://kamitsubaki.wiki/zh/contribute/edit)。它会按经验选择路线，并在同一页直接显示 Markdown 与属性参考。
-- 已经熟悉仓库、需要查字段或命令：继续阅读本文档。
-- 正在编辑具体词条：优先从词条页的“编辑源文件”进入，学习中心会自动显示目标路径。
+## 新建与编辑条目
 
-推荐顺序是：**选择路线 → 确认目标文件 → 修改时按需查语法 → 预览差异 → 提交 PR → 查看 CI 与 review**。不需要先学完所有 Markdown 才开始。
+1. 先搜索是否已经存在对应实体，避免因译名不同重复创建。
+2. 选择实体类型，填写稳定 ID、语言、名称及模板中的必填字段。ID 使用小写英文、数字和连字符，跨语言共用；既有 ID 不随显示名称改变。
+3. 填写正文和资料来源。保留原文与历史信息，避免将不确定日期、人物关系或推测写成事实。未完成的记录设置 `contentStatus: stub`。
+4. 使用关联选择器填写实体 ID。署名用 `credits`，演唱者用 `performers`，所属用 `affiliations`，一般关系用 `relations`。
+5. 预览正文、目录、图片与关联，检查变更差异，再提交审核。审核要求修改时继续更新同一提案。
+6. 只有审核、合并和部署完成后，词条网页才更新。提交成功不等于已上线。
 
-## 编辑内容
+## 元数据如何影响页面
 
-大多数修改都在 `src/content/`。
+`schemaVersion: 2` 是当前元数据协议版本。网站版本为 V3，两者编号不同。
 
-```text
-src/content/site/       站点导航、分区标题、页脚文案 (.json)
-src/content/artists/    艺人、创作者、组合、音乐同位体条目 (.md)
-src/content/projects/   企划页面和卡片内容 (.md)
-src/content/logs/       时间线/更新记录 (.md)
-src/content/contribute/ GitHub 编辑教程页文案 (.md)
-```
+| 字段 | 用途 |
+| --- | --- |
+| `id` / `locale` / `entityType` | 稳定身份、语言和实体类型 |
+| `name` 或 `title` | 页面标题 |
+| `presentation.image` / `presentation.theme` | 图片、阅读器背景与配色 |
+| `presentation.morphing` | 同一谱系中的形态切换 |
+| `relations` / `performers` / `credits` | 关联档案、作品署名和反向关联 |
+| `sources` / `license` | 来源与许可说明 |
+| `lifecycle` | 活动状态与永久归档 |
 
-不要编辑 `dist/`、`.astro/` 或 `node_modules/`。
+按所选类型显示必填项；占位状态不会免除稳定 ID、实体类型、名称等基础要求。完整字段约束见 [元数据规范](category-optimization/metadata-schema-v2.md)，实际校验由 `src/lib/entitySchema.mjs` 执行。
 
-## 三语文件
+## 分类与本地文件
 
-站点有三个源语言，另有自动生成的 zh-tw、zh-hk 繁体路由：
+分类地图 `src/data/classification-map.json` 是人物、组合成员和指定企划的编目来源。新增文件不会自动加入所有首页分组；需要维护者把新 ID 放入审核过的分类节点。不要仅凭艺人身份推断其主页层级。
 
-```text
-/zh/  中文，默认语言
-/ja/  日文
-/en/  英文
-```
+目录由 `src/lib/contentLayout.mjs` 统一推导，前后端同步。人物按分类地图，唱片按 `releaseType`，文章按 `articleCategory`。歌曲使用 `performers`：唯一主要演唱者归其目录，多位主要演唱者归 `collaborations`，没有可用演唱者才归 `unassigned`。
 
-源语言为 `zh.md`、`ja.md`、`en.md`，同一词条保持相同的 `translationKey`。先提交有实际内容的语言，其余翻译后续补齐，不放占位文本。繁体由简体生成。
+不要手工把网站 URL 当文件路径。网页根据元数据生成路由，编辑器使用真实 sourcePath。详细目录见 [内容目录指南](../src/content/README.md)。
 
-## Markdown 结构
+## 翻译
 
-Markdown 文件使用 YAML frontmatter 存放结构化数据。
+简中、日文、英文分别维护 `zh.md`、`ja.md`、`en.md`，同一实体使用相同 ID 和一致的结构字段。繁体台湾、香港版本自动生成，不直接编辑派生文件。新增译文保留出处，不用中文冒充已完成翻译。当前资料补全与日英翻译任务由站长另行提供资料和安排。
 
-```yaml
----
-locale: zh
-translationKey: kaf
-name: "花譜"
-romanizedName: "KAF"
-categoryTitle: "虚拟世代的魔女们"
-categorySubtitle: "VIRTUAL WITCH PHENOMENON"
-categoryOrder: 1
-itemOrder: 1
-statusLabel: "STATUS"
-status: "ACTIVE"
-image: "https://placehold.co/1200x800/111/333?text=KAF"
-theme:
-  name: "KAF Bloom"
-  accentColor: "#F29AC2"
-  mutedColor: "#E63145"
-  surfaceColor: "#111321"
-  highlightColor: "#FFF6FA"
-  palette:
-    - label: "花譜粉"
-      value: "#F29AC2"
-    - label: "红花"
-      value: "#E63145"
-    - label: "观测深蓝"
-      value: "#111321"
-    - label: "柔光白"
-      value: "#FFF6FA"
-seo:
-  title: "花譜 - KAMITSUBAKI WIKI"
-  description: "用于搜索结果和链接预览的自定义描述。"
-  image: "https://example.com/share-card.jpg"
-  keywords:
-    - "花譜"
-    - "KAF"
----
-```
+## 时间轴与图库
 
-正文写在第二个 `---` 后面。正文可以留空，但不要写占位介绍。
+时间轴事件保存在 `src/data/chronicle/`，通过实体 ID 与条目关联；纪元根据 `src/data/taxonomy/eras.yml` 中的日期区间计算。增加正文日期不会自动创建事件。维护方法见 [事件与联动](v3/feature-maintenance.md)。
 
-### 许可与来源
+图库选择角色并上传图片即可提交，标题、形态、日期、标签、来源与备注可选，日后可以补全。上传和修改均保留提案与审核记录。详情见 [图库使用与维护](v3/gallery-r2.md)。
 
-提交前先判断文字是本站原创、第三方开放许可、原作者保留权利，还是已取得特定授权。本站有权许可的原创文字默认采用 CC BY-NC-SA 4.0；采用其他协议的第三方文字必须保留原许可及版本，并在 `license` frontmatter 中填写原页面、署名和修改说明。
+## GitHub 提交与检查
 
-图片、封面、歌词、音视频和商标不随正文自动进入 CC 协议。许可标记不能代替授权：没有合法使用依据的第三方材料不要提交。完整字段、四种许可标记和可复制示例见[内容授权与来源标注](licensing.md)。
+从仓库当前指定的开发分支建立工作分支，不直接写发布分支。提交前查看差异，说明修改内容和来源。图片附件通过编辑器实际上传或加入正确文件目录；本地磁盘路径不能作为公共图片地址。
 
-### 内容安全
+维护者按变更范围执行：
 
-正文 HTML 采用显式白名单。常用排版标签、表格、`ruby`、`details`、图片等会保留；`script`、`style`、原始 `iframe`、表单、内联事件属性和危险 URL 会在构建时移除。音视频只能使用 `@[来源](ID 或分享链接 "可选标题")` 受控短语法，当前支持 YouTube、bilibili、Apple Music、Spotify、网易云音乐和 QQ 音乐；同一作品的多个平台可用 `{{media-switcher::标题}}` 与 `{{/media-switcher}}` 包裹 2–6 条原有媒体短语法，以按钮切换。
-
-作者优先调用 Wiki 短语法，不直接编写生成后的 HTML，例如 `{{ruby::正文::注音}}`、`{{spoiler::隐藏文字}}`、`{{mark::重点}}`、歌曲页的 `{{lyrics-controls::zh}}`，以及成对的 `{{details::标题}}` / `{{/details}}`。多行代码继续使用带语言名称的 Markdown 围栏以获得语法高亮。HTML 白名单是最后一道兼容与安全边界，不是推荐的日常写作接口。
-
-完整标签、属性边界、媒体迁移规则和扩展方法见 [内容渲染安全策略](content-security.md)。作者可直接在站内 [Markdown 与词条属性完整指南](https://kamitsubaki.wiki/zh/contribute/syntax) 查看可复制示例。
-
-`theme` 也是可选字段。填写后，条目页会显示配色面板，并把目录、高亮链接、资料卡边框切到对应角色主题色。
-
-主题色不要随便挑“好看的颜色”。推荐按这个顺序决定：
-
-1. 先看官方艺人页、官方主视觉、官方专辑封面或官方设定图。
-2. 找出最稳定的角色识别色，比如发色、服装主色、背景常用色、代表意象色。
-3. `accentColor` 放最能代表角色的一眼识别色。
-4. `mutedColor` 放辅助色或视觉反差色。
-5. `surfaceColor` 用深色背景，避免阅读器变成高饱和色块。
-6. `highlightColor` 用浅色，只负责高光和轻量强调。
-7. `palette` 至少写 3 到 4 个色块，并用当前语言写清每个色块来自哪里。
-
-V.W.P 五位成员已经提供了可参考的主题色样板：
-
-```text
-花譜: KAF Bloom
-理芽: RIM Neuromance
-春猿火: Harusaruhi Impact
-ヰ世界情緒: Isekaijoucho Dark Canvas
-幸祜: KOKO Lightning Rock
-```
-
-如果你不确定某个角色该用什么颜色，宁可先不写 `theme`，也不要用随意的临时配色。
-
-## 人物页模板
-
-`src/content/artists/` 下的人物页，推荐统一采用维基式结构：
-
-```md
-## 概述
-## 角色与创作定位
-## 活动历程
-## 代表作品与相关条目
-## 相关企划 / 关联设定
-## 参考资料
-## 外部链接
-```
-
-其中：
-
-- `概述` 用 1 到 2 段说清“她是谁、属于哪里、为什么重要”。
-- `活动历程` 只保留高价值节点，不写流水账。
-- `参考资料` 优先使用官方艺人页、官方新闻、官方发布、主流媒体采访。
-- `外部链接` 放官方主页、团体主页、可靠百科入口即可，不要堆太多。
-
-如果你要补的是艺人页，优先按这个结构补齐，再考虑继续扩写。
-
-## 首页展示
-
-首页 DATABASE 会自动扫描 `src/content/artists/` 的第一层文件夹作为分类。
-
-```text
-src/content/artists/vwp/kaf/zh.md
-                    ^^^ 首页分类
-```
-
-新增分类时，只需要新建第一层文件夹并放入实际完成的语言条目。`categoryTitle`、`categorySubtitle`、`categoryOrder`、`itemOrder` 和 `code` 都是可选覆盖字段；不填时会使用文件夹名、条目名和默认排序。
-
-## 元数据
-
-`seo` 是可选字段。不填写时，站点会自动扫描：
-
-- `name`、`romanizedName`、分类和状态作为兜底元数据。
-- Markdown 正文第一段作为页面描述。
-- `image` 作为 Open Graph 和 Twitter 分享图。
-
-只有需要精确控制搜索结果或分享卡片时，才填写 `seo.title`、`seo.description`、`seo.image`、`seo.keywords` 或 `seo.noindex`。部署时设置 `PUBLIC_SITE_URL` 可以让 canonical URL 和站内图片变成绝对地址。
-
-## 新增条目
-
-1. 在正确的内容分类下创建文件夹。
-2. 添加已完成的 `zh.md`、`ja.md` 或 `en.md`；后续补充其余翻译。
-3. 各语言文件使用相同的 `translationKey`。
-4. 填写必要 frontmatter。
-5. 正文未准备好时可以留空。
-6. 运行本地验证。
-7. 发起 Pull Request。
-
-### V.W.P 首发样板
-
-`src/content/artists/vwp/` 现在已经提供了五位成员的首发样板写法。新手最稳的方式，是先照着这些文件学习：
-
-- 看 frontmatter 怎么写
-- 看正文分节怎么组织
-- 看 `参考资料` 和 `外部链接` 怎么收尾
-
-先模仿，再扩展，通常最不容易把结构写乱。
-
-## 本地验证
-
-CI 和本地使用同一套命令：
-
-```bash
-pnpm test
-pnpm check
+```sh
+pnpm validate:content
+node scripts/v3/sync-editor-schema.mjs --check
+node scripts/v3/sync-gallery-contract.mjs --check
+node scripts/sync-docs.mjs --check
 pnpm build
 ```
 
-如果 `pnpm check` 报内容 schema 错误，请对照 `src/content.config.ts` 检查对应文件。
-
-## Pull Request 流程
-
-1. 从 `main` 创建分支。
-2. 修改内容或实现。
-3. 运行本地验证。
-4. 提交并推送分支。
-5. 向 `main` 发起 Pull Request。
-6. 等待 GitHub Actions CI。
-7. 在同一分支修复 CI 或 review 问题。
-
-CI 工作流在 `.github/workflows/ci.yml`。
-
-## 合并前检查
-
-- 没有占位正文。
-- 第三方内容已标明来源、许可版本和修改说明，媒体权利没有与文字许可混淆。
-- 所有必要语言文件都存在。
-- `pnpm test`、`pnpm check`、`pnpm build` 通过。
-- PR 只包含相关文件。
-- 不提交 `dist/` 等生成目录。
+涉及页面操作时，再人工检查相关流程。不要以构建成功代替真实投稿、附件上传或云端发布验收。不会修改代码也可以通过 Issue 说明问题、来源和预期效果。

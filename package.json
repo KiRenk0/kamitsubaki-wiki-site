@@ -1,13 +1,13 @@
 {
   "name": "kamitsubaki-wiki-site",
-  "version": "2.4.0",
+  "version": "3.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "i18n:generate": "node scripts/generate-traditional-chinese.mjs",
     "predev": "pnpm i18n:generate",
     "dev": "astro dev",
-    "prebuild": "pnpm i18n:generate",
+    "prebuild": "pnpm validate:content && pnpm i18n:generate",
     "build": "astro build",
     "preview": "astro preview",
     "precheck": "pnpm i18n:generate",
@@ -21,7 +21,9 @@
     "lyrics:content:repair": "node scripts/repair-lyrics-content.mjs",
     "contributors:sync": "node scripts/sync-contributors.mjs",
     "images:generate": "node scripts/generate-thumbnails.mjs",
-    "dev:editor": "PUBLIC_EDITOR_ENABLED=true PUBLIC_EDITOR_LOCAL=true CHOKIDAR_USEPOLLING=true CHOKIDAR_INTERVAL=750 astro dev --config astro.editor.config.mjs --host 127.0.0.1 --port 4358"
+    "dev:editor": "PUBLIC_EDITOR_ENABLED=true PUBLIC_EDITOR_LOCAL=true CHOKIDAR_USEPOLLING=true CHOKIDAR_INTERVAL=750 astro dev --config astro.editor.config.mjs --host 127.0.0.1 --port 4358",
+    "validate:content": "node scripts/validate-content.mjs",
+    "migrate:v3": "node scripts/v3/migrate.mjs"
   },
   "dependencies": {
     "@vitalets/google-translate-api": "^9.2.1",

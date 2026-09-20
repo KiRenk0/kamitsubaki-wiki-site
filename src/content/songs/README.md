@@ -1,30 +1,9 @@
-# 歌曲目录结构
+# 曲目总库
 
-歌曲列表按文件夹自动生成，统一使用：
+本地路径为 `songs/{primaryArtist}/{id}/{locale}.md`。所有语言放在同一实体目录；合作曲只保存一份，以主要艺人归档，通过 performers / credits 表达其他参与者。
 
-```text
-songs/
-└── <artistId>/
-    └── <category>/
-        └── <songId>/
-            ├── zh.md
-            ├── ja.md
-            └── en.md
-```
+曲目类别与专辑关系由元数据提供，不再从旧的 originals / covers / collaborations 文件夹推断。未填写主要艺人的新建草稿暂用 `unassigned`，编辑器填写后会更新新建目标路径。
 
-例如花譜原创曲《糸》位于 `kaf/originals/shi/`。每个 Markdown 文件中的 `artistId` 必须与第一层目录一致；一级歌曲页会用这个 ID 关联 `artists` 集合，并直接采用艺人词条的 `image` 作为艺人封面。
+例如：`kaf/kaf-originals-track-1688351157/zh.md`。路径变化不改变实体 ID、现有阅读器 URL 或旧地址重定向。
 
-## 推荐分类目录
-
-| 目录 | 中文 | 日本語 | English |
-| --- | --- | --- | --- |
-| `originals` | 原创曲 | オリジナル曲 | Original Songs |
-| `covers` | 翻唱曲 | カバー曲 | Covers |
-| `genealogy` | 系谱曲 | 系譜曲 | Genealogy Songs |
-| `suites` | 组曲 | 組曲 | Suite Songs |
-| `collaborations` | 合作曲 | コラボ楽曲 | Collaborations |
-| `projects` | 企划曲 | プロジェクト楽曲 | Project Songs |
-
-分类不是固定枚举：新增其他目录也会自动显示为新的歌曲分类。推荐优先使用上表命名，以获得稳定排序和完整的三语标题。
-
-旧式的 `<artistId>-<category>/<songId>/` 目录仍可被页面解析，但新增和迁移内容应使用新的三级目录结构。
+完整规则见 [本地词条目录](../README.md)。

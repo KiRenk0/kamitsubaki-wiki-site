@@ -1,0 +1,163 @@
+---
+locale: "ja"
+title: "Uz"
+releaseDate: "2021-07-14"
+schemaVersion: 2
+id: "koko-song-archive-arare-live-04"
+aliases: []
+presentation:
+  image: "/images/albums/koko/arare-live.jpg"
+  badge: "archive-arare-live-04"
+  sortOrder: 82
+relations: []
+entityType: "work-track"
+romanizedTitle: "Uz"
+performers:
+  - entity: "koko"
+    role: "lead-vocal"
+credits: []
+---
+
+## 作品概要
+
+「Uz」は『[ARARE LIVE](/ja/albums/koko/arare-live)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+
+## 歌詞
+
+{{lyrics-controls::ja}}
+
+<div class="my-lyric-box">
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:44.05]Uz misch ned
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:45.56]Babbisch guzje uz misch net
+</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:46.60]Isch ho dä nix gedo äbbä isch dab disch
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:47.97]Wenn de misch uze dost dab isch disch sischälisch
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:49.53]Uz emo den do der do sezd do
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:51.00]Den schlabbekigger do
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:52.77]Gug dä den ämo o
+</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:54.65]Heb heb mem giggel ibbän zou
+</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:31.92]Dou dabbes do denge mo net do
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:34.10]Dasde misch uze konsd - net? - noa!
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:35.65]Weil isch noch dä schnabbe do
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:37.51]Un wenn de do dei do uze don do dost
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:39.67]Do däi disch dabbes dabbe dabbe däi disch dabbes
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:41.51]Heb heb mem giggel ibbän zou
+</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:53.36]Un wenn de do dei do uze don do dost
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:54.98]Do däi disch dabbes dabbe dabbe däi disch dabbes
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:56.09]Dumm dabbe digge bobbes dabba dabba digge bobbes
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:05.07]Shake dan digge bobbes baby
+</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:08.30]Heb heb mem giggel ibbän zou
+</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[03:07.23]Uz misch ned
+</div>
+</div>
+
+</div>

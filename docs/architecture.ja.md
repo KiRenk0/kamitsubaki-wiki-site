@@ -1,109 +1,20 @@
-# アーキテクチャ
+# V3 Architecture
 
-[English](architecture.en.md) / [中文](architecture.md) / [日本語](architecture.ja.md)
+V3 は Schema v2 のエンティティと独立した機能データを使用します。ホームの分類はレビュー済み classification-map.json に従い、フォルダー名や本文から推測しません。登録簿が言語、固定 ID、ルート、逆方向の関連を解決します。配置は contentLayout.mjs が決定し、編集用バックエンドへ同期します。
 
-このサイトは Astro の静的 Wiki です。URL ベースの国際化を使い、コンテンツと実装を分離しています。
+| Source | Responsibility |
+| --- | --- |
+| `src/content/` | Schema v2 entities and source languages |
+| `src/data/classification-map.json` | Reviewed classification and hierarchy |
+| `src/lib/entitySchema.mjs` | Validated metadata fields |
+| `src/lib/entityRegistry.mjs` | IDs, routes, language resolution and relationships |
+| `src/lib/contentLayout.mjs` | Physical content directories |
+| `src/data/chronicle/`, `src/data/taxonomy/eras.yml` | Events and era boundaries |
+| Worker + D1 + R2 | Gallery proposals, review and published assets |
+| Editor Worker + GitHub | Article proposals and attachments |
 
-## 実行形態
+[Contribution guide](contributing.ja.md) · [Content layout](v3/content-layout.md) · [Gallery](v3/gallery-r2.md) · [Maintenance index](README.md)
 
-```text
-/      -> /zh/ にリダイレクト
-/zh/   -> 中国語サイト
-/ja/   -> 日本語サイト
-/en/   -> 英語サイト
-```
+The gallery uses private staging and owner approval. Logged-in users can submit uploads and metadata changes; role is required and other metadata is optional. Public gallery data does not pass through GitHub. Article publication still requires review, merge and deployment.
 
-本番ビルドは静的 HTML、CSS、ブラウザ JavaScript です。Wiki の閲覧自体にアプリケーションサーバーは不要ですが、統合 AI ウィジェットは実行時に独立した Worker API を呼び出します。
-
-## コンテンツの流れ
-
-```text
-src/content/**/*.json or .md
-  -> src/content.config.ts が schema を検証
-  -> Astro Content Collections がレコードを読み込む
-  -> src/lib/homeData.mjs がローカライズ、グループ化、ソートを行う
-  -> src/lib/metadata.mjs がページメタデータを生成
-  -> src/pages/[locale]/index.astro がトップページを描画
-  -> src/pages/[locale]/artists/[...id].astro が記事ページを描画
-  -> src/components/*.astro が UI を描画
-```
-
-実装ファイルは props 経由でコンテンツを受け取ります。公開コンテンツの大きな配列をコンポーネントやページに直接書かないでください。
-
-## 主なディレクトリ
-
-```text
-src/content.config.ts   Content Collections schema
-src/content/            編集可能な Wiki コンテンツ
-src/lib/                データ整形、i18n、metadata ヘルパー
-src/pages/              静的ルート
-src/components/         表示コンポーネント
-src/layouts/            共通 HTML レイアウト
-src/styles/global.css   Tailwind 入口とグローバル視覚システム
-src/scripts/            ブラウザ操作
-tests/                  Node テスト
-```
-
-## Content Collections
-
-- `site`: JSON のサイト外枠とページラベル
-- `artists`: アーティスト、クリエイター、ユニット、音楽的同位体の Markdown 記事
-- `projects`: プロジェクトの Markdown レコード
-- `logs`: タイムラインの Markdown レコード
-- `songs`: 楽曲の Markdown 記事
-- `albums`: 構造化された収録曲一覧を持つアルバムの Markdown 記事
-- `announcements`: トップページのお知らせ Markdown
-- `syntaxGuide`、`editGuide`: サイト内のコントリビューション文書
-
-schema は `src/content.config.ts` にあり、`pnpm check` で検証されます。
-
-トップページ DATABASE のアーティスト分類は `src/content/artists/<category>/<entry>/<locale>.md` の第一階層フォルダから自動生成されます。`categoryTitle`、`categorySubtitle`、`categoryOrder`、`itemOrder`、`code` は任意の表示上書きです。
-
-## 現在の機能マップ
-
-- 外部リンクのブランドアイコン：`src/lib/externalPlatforms.mjs` を共通レジストリとし、`ExternalLinkCard.astro`、`PlatformIcon.astro`、記事拡張スクリプトから利用します。
-- 特別協力者：データは `src/data/manualContributors.json` に置き、`ManualContributors.astro` がランダム順で表示します。自己紹介とメッセージは投稿された原文のまま保存します。
-- サイトブランド：横長・正方形ロゴは `public/brand/kamitsubakiwiki-long.svg` と `public/brand/kamitsubakiwiki-square.svg`、三言語のサイト名は `src/lib/i18n.mjs` が一元管理します。
-- お知らせボード：トップページが `announcements` collection から固定または最新の記事を選び、`AnnouncementModal.astro` で表示します。
-- アルバムのアーティスト分類：`src/lib/musicCatalog.mjs` がディレクトリ内のアーティスト ID でアルバムを分類し、`src/pages/[locale]/albums/artists/[artist].astro` が分類ページを描画します。カバーには対応する `artists` 記事の `image` を優先します。
-- 階層型コンテンツライセンス：`src/content.config.ts` が4種類の `license` 表示を検証し、`ContentLicenseNotice.astro` が詳細ページで記事ライセンスとメディア除外を表示します。`src/pages/[locale]/license.astro` は3言語の著作権情報ページを生成します。編集規則は[コンテンツのライセンスと出典表示](licensing.ja.md)を参照してください。
-- 統合 AI エントリー：`AiChatWidget.astro` と `src/scripts/aiChatWidget.js` が `/api/ai/v2/*` を利用し、既定で Observer を選択し、完全な会話管理は独立端末へ引き継ぎます。詳細は[統合 AI ウィジェット](ai-terminal.ja.md)を参照してください。
-- 体験ポータル：`ExperiencePortals.astro` がゲームと AI 端末の入口を統合し、三言語の文言と共通のライト／ダークデザイントークンを利用します。
-
-公開データはコンテンツまたはデータファイルに置き、コンポーネントは表示のみを担当します。翻訳対象の記事には `zh`、`ja`、`en` をすべて用意し、`translationKey` とルート構造を一致させてください。
-
-## メタデータ
-
-ページメタデータは `src/lib/metadata.mjs` で生成します。コンテンツファイルは任意の `seo` frontmatter で上書きできます。未設定の場合、Markdown の最初の段落を説明として自動取得し、`image` をリンクプレビューに使います。
-
-`BaseLayout.astro` は description、canonical、Open Graph、Twitter card、robots を出力します。デプロイ時に `PUBLIC_SITE_URL` を設定すると、絶対 canonical URL を生成できます。
-
-## リーダー UI
-
-アーティスト詳細ページは安定した Wiki レイアウトを保ちます。
-
-- コンパクトなナビゲーションバー。
-- 言語切り替えと編集入口を持つ記事ヘッダー。
-- 見出しがある場合の目次。
-- 本文がある場合の Markdown 記事。
-- メタデータ情報パネル。
-
-空の本文は有効で、仮テキストは表示しません。
-
-## スタイルとアセット
-
-Tailwind CSS v4 は `@tailwindcss/vite` でコンパイルします。実行時 Tailwind CDN は追加しないでください。
-
-グローバルスタイルは `src/styles/global.css` にあり、フォント、色、レスポンシブなリーダー組版、情報パネル、目次、プリローダー、カーソル、reveal、noise、リスト演出を含みます。
-
-## 検証
-
-CI とローカル開発では同じコマンドを使います。
-
-```bash
-pnpm test
-pnpm check
-pnpm build
-```
-
-GitHub Actions ワークフローは `.github/workflows/ci.yml` にあります。
+Deployment and real workflow acceptance are recorded separately from implementation and local tests. Historical architecture is retained in `archive/`.

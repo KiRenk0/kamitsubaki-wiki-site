@@ -1,0 +1,21 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import SiteNav from '../../../components/SiteNav.astro';
+import SiteFooter from '../../../components/SiteFooter.astro';
+import {getCollection} from 'astro:content';
+import {getLocalizedSite} from '../../../lib/homeData.mjs';
+import {supportedLocales,buildLocaleLinks} from '../../../lib/i18n.mjs';
+import {galleryManagerMarkup,galleryManagerStyles} from '../../../lib/galleryManager.js';
+export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
+const locale=Astro.params.locale!,site=getLocalizedSite(await getCollection('site'),locale);
+const api=import.meta.env.PUBLIC_GALLERY_API_URL||import.meta.env.PUBLIC_AI_OBSERVER_API_BASE||'https://api.kamitsubaki.wiki';
+---
+<BaseLayout lang={locale} title="图库投稿与维护" metadata={{noindex:true}}>
+<SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site,locale,'/gallery/manage/')} brandLines={site.hero.brandLines} homeHref={`/${locale}/`}/>
+<style is:global set:html={galleryManagerStyles}/>
+<main class="gallery-manage-shell" data-gallery-api={api} data-gallery-login={`/${locale}/account/`}>
+<a class="back" href={`/${locale}/gallery/`}>← 返回图库</a><div set:html={galleryManagerMarkup}/>
+</main><SiteFooter footer={site.footer}/>
+</BaseLayout>
+<style>.gallery-manage-shell{padding:100px 32px 80px;max-width:1280px;margin:auto}.back{display:inline-block;margin-bottom:22px;font-size:12px}@media(max-width:760px){.gallery-manage-shell{padding:88px 22px 60px}}</style>
+<script>import {initGalleryManager} from '../../../lib/galleryManager.js';const root=document.querySelector<HTMLElement>('[data-gallery-api]');if(root)initGalleryManager(root,{api:root.dataset.galleryApi,login:root.dataset.galleryLogin});</script>

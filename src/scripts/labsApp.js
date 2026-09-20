@@ -1,4 +1,3 @@
-import { initializeLibrary } from './personalLibrary.js';
 import { foldCjkSearchText } from '../lib/cjkSearch.mjs';
 import { selectTimeline, neighbors } from '../lib/labsCatalog.mjs';
 import {
@@ -6,7 +5,6 @@ import {
   writeLibrary,
   toggleItem,
 } from '../lib/personalLibrary.mjs';
-import { micromark } from 'micromark';
 
 function element(tag, text, cls) {
   const e = document.createElement(tag);
@@ -24,15 +22,6 @@ function button(text, action) {
   e.type = 'button';
   e.addEventListener('click', action);
   return e;
-}
-function download(name, data, type) {
-  const url = URL.createObjectURL(new Blob([data], { type }));
-  const a = link('', url);
-  a.download = name;
-  document.body.append(a);
-  a.click();
-  a.remove();
-  setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
 export function initializeLabsPanel(root, { copy: c, loadCatalog, getURL, setURL }) {
   const section = root.dataset.labsPanel;
@@ -337,7 +326,7 @@ export function initializeLabsPanel(root, { copy: c, loadCatalog, getURL, setURL
     function picks() {
       const q = foldCjkSearchText($('[data-query]').value);
       const options = catalog.nodes
-        .filter((n) => (q ? n.search.includes(q) : n.kind === 'artists'))
+        .filter((n) => (q ? n.search.includes(q) : ['person','virtual-avatar','unit','software-voice'].includes(n.kind)))
         .slice(0, 8);
       const target = $('[data-picks]');
       target.replaceChildren();
@@ -356,7 +345,7 @@ export function initializeLabsPanel(root, { copy: c, loadCatalog, getURL, setURL
       if (!catalog) return;
       const requested = getURL().searchParams.get('entry');
       const next = catalog.nodes.find(n => n.id === requested)?.id
-        || catalog.nodes.find(n => n.kind === 'artists' && n.key === 'kaf')?.id
+        || catalog.nodes.find(n => ['person','virtual-avatar','unit','software-voice'].includes(n.kind) && n.key === 'kaf')?.id
         || catalog.nodes[0]?.id;
       if (selected !== next) limit = 30;
       selected = next;
@@ -390,7 +379,7 @@ export function initializeLabsPanel(root, { copy: c, loadCatalog, getURL, setURL
       try {
         const data = await load();
         const entries = data.nodes.filter(
-          (n) => n.kind === 'artists' || n.kind === 'songs',
+          (n) => ['person','virtual-avatar','unit','software-voice'].includes(n.kind) || n.kind === 'work-track',
         );
         if (entries.length)
           location.assign(
@@ -401,118 +390,6 @@ export function initializeLabsPanel(root, { copy: c, loadCatalog, getURL, setURL
       } finally {
         b.disabled = false;
       }
-    });
-  }
-  if (section === 'library') activate = initializeLibrary(root, c);
-  if (section === 'submit') {
-    const form = $('[data-submission]');
-    const key = 'kamitsubaki-submission-draft-v1';
-    let draftReadable = true;
-    function draft() {
-      const d = Object.fromEntries(new FormData(form));
-      return {
-        title: String(d.title || ''),
-        category: String(d.category || ''),
-        source: String(d.source || ''),
-        body: String(d.body || ''),
-      };
-    }
-    function text(d) {
-      return `# ${d.title}\n\n- Type: ${d.category}\n- Source: ${d.source}\n\n${d.body}\n`;
-    }
-    function persist() {
-      if (!draftReadable) {
-        status(c.draftError);
-        return;
-      }
-      try {
-        localStorage.setItem(key, JSON.stringify(draft()));
-        status(c.draftSaved);
-      } catch {
-        status(c.draftError);
-      }
-    }
-    function preview() {
-      const d = draft();
-      $('[data-preview]').innerHTML = micromark(text(d), {
-        allowDangerousHtml: false,
-        allowDangerousProtocol: false,
-      });
-      $('[data-preview]')
-        .querySelectorAll('a')
-        .forEach((a) => {
-          a.rel = 'noopener noreferrer';
-        });
-    }
-    try {
-      const raw = localStorage.getItem(key);
-      if (raw) {
-        const d = JSON.parse(raw);
-        for (const name of ['title', 'category', 'source', 'body'])
-          if (typeof d[name] === 'string')
-            form.elements.namedItem(name).value = d[name];
-      }
-    } catch {
-      draftReadable = false;
-      status(c.draftError);
-    }
-    form.addEventListener('input', persist);
-    form.addEventListener('submit', (e) => {
-      e.preventDefault();
-      preview();
-      persist();
-    });
-    $('[data-text-file]').addEventListener('change', async (e) => {
-      const file = e.target.files?.[0];
-      if (!file) return;
-      if (file.size > 1024 * 1024 || !/\.(md|txt)$/i.test(file.name)) {
-        status(c.fileError);
-        return;
-      }
-      try {
-        const body = await file.text();
-        if (body.length > 20000) {
-          status(c.fileError);
-          return;
-        }
-        form.elements.namedItem('body').value = body;
-        persist();
-        preview();
-      } catch {
-        status(c.fileError);
-      }
-    });
-    $('[data-draft-clear]').addEventListener('click', () => {
-      form.reset();
-      persist();
-      $('[data-preview]').textContent = c.previewHint;
-    });
-    $('[data-draft-download]').addEventListener('click', () => {
-      download(
-        'kamitsubaki-contribution.md',
-        text(draft()),
-        'text/markdown;charset=utf-8',
-      );
-    });
-    $('[data-github]').addEventListener('click', () => {
-      if (!form.reportValidity()) return;
-      preview();
-      const d = draft();
-      let body = text(d);
-      if (body.length > 4000) {
-        download(
-          'kamitsubaki-contribution.md',
-          body,
-          'text/markdown;charset=utf-8',
-        );
-        body = `Source: ${d.source}\n\nPlease attach the downloaded Markdown draft here.`;
-      }
-      const url = new URL(
-        'https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/issues/new',
-      );
-      url.searchParams.set('title', `[Content] ${d.title}`);
-      url.searchParams.set('body', body);
-      window.open(url.href, '_blank', 'noopener,noreferrer');
     });
   }
   return { activate: () => activate() };

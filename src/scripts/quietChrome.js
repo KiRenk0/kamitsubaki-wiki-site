@@ -4,21 +4,6 @@ const initialize = () => {
   const dock = document.querySelector('[data-tools-dock]');
   if (dock instanceof HTMLDetailsElement && !dock.dataset.ready) {
     dock.dataset.ready = 'true';
-    const copy = JSON.parse(dock.dataset.copy || '{}');
-    const menu = dock.querySelector('.tools-dock__menu');
-    const announcement = document.querySelector('[data-announcement-open]');
-    if (announcement) menu.append(announcement);
-    for (const [selector, label] of [
-      ['[data-live-events-toggle]', copy.events],
-      ['[data-social-contact-toggle]', copy.social],
-      ['[data-announcement-open]', copy.announcement],
-    ]) {
-      const button = dock.querySelector(selector);
-      if (!button) continue;
-      const text = document.createElement('strong');
-      text.textContent = label;
-      button.append(text);
-    }
     // Footer contact links still reach the existing contact widget in its drawer.
     document.addEventListener('click', (event) => {
       const link = event.target instanceof Element ? event.target.closest('a[href]') : null;

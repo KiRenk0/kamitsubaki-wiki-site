@@ -1,0 +1,156 @@
+---
+locale: "ja"
+title: "new world (feat. ヰ世界情緒) (I SCREAM LIVE4 ver.)"
+duration: "05:14"
+releaseDate: "2026-01-14"
+schemaVersion: 2
+id: "kaf-covers-track-1864122664"
+aliases: []
+presentation:
+  image: "/images/albums/kaf/i-scream-live-4.jpg"
+  badge: "apple-1864122664"
+  sortOrder: 233
+relations: []
+entityType: "work-track"
+romanizedTitle: "new world (feat. ヰ世界情緒) (I SCREAM LIVE4 ver.)"
+performers:
+  - entity: "kaf"
+    role: "lead-vocal"
+credits: []
+---
+
+## 作品概要
+
+「new world (feat. [ヰ世界情緒](/ja/artists/vwp/isekaijoucho)) (I SCREAM LIVE4 ver.)」は[花譜](/ja/artists/vwp/kaf)の『[I SCREAM LIVE4 - Cover Live Album -](/ja/albums/kaf/i-scream-live-4)』に収録された5曲目です。
+
+## 視聴
+
+@[apple-music](https://music.apple.com/jp/album/new-world-feat-%E3%83%B0%E4%B8%96%E7%95%8C%E6%83%85%E7%B7%92/1864122479?i=1864122664&uo=4 "new world (feat. ヰ世界情緒) (I SCREAM LIVE4 ver.)")
+
+## 歌詞
+
+{{lyrics-controls::ja}}
+
+<div class="my-lyric-box">
+
+<div class="lyric-line">
+<div class="jp-lyric">
+There's a raging storm around us
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+Trying to tear us from the ground
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+We can ride this wave together
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+Until the thunder makes no sound
+</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+We are the new world
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+We'll unite this world together
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+We are the new world
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+We'll put this fire out forever
+</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+We are the new world
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+We'll put this fire out forever
+</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+We can make our own salvation
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+When there's a battle to be won
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+We can end this fight forever
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+Take the bullet from the gun
+</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+We are the new world
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+We'll unite this world together
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+We are the new world
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+We'll put this fire out forever
+</div>
+</div>
+
+</div>
+
+## 出典
+
+- [Apple Music](https://music.apple.com/jp/album/new-world-feat-%E3%83%B0%E4%B8%96%E7%95%8C%E6%83%85%E7%B7%92/1864122479?i=1864122664&uo=4)

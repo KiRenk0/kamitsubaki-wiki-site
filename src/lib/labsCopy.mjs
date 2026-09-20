@@ -1,3 +1,5 @@
+import {entityTypes} from './entityModel.mjs';
+import {entityLabel} from './entityLabels.mjs';
 import { personalToolsCopy } from './personalToolsCopy.mjs';
 import { resolveLocaleCopy } from './i18n.mjs';
 const zh = {
@@ -375,6 +377,8 @@ export function labsCopy(locale) {
     },
     locale,
   );
+  Object.assign(copy.entryKinds,Object.fromEntries(entityTypes.map(type=>[type,entityLabel(type,locale)])),{database:entityLabel('person',locale),articles:entityLabel('editorial-article',locale)});
+  Object.assign(copy.kinds,copy.entryKinds);
   return { ...copy, ...personalToolsCopy(locale) };
 }
 export const labsSections = [
@@ -382,6 +386,4 @@ export const labsSections = [
   'timeline',
   'relations',
   'world',
-  'library',
-  'submit',
 ];

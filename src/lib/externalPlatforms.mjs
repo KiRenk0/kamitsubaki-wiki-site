@@ -13,7 +13,7 @@ import {
   siWikipedia,
   siX,
   siYoutube,
-} from 'simple-icons';
+} from './platformIcons.mjs';
 
 const platformDefinitions = [
   { id: 'bilibili', name: 'Bilibili', color: '#00AEEC', icon: siBilibili, domains: ['bilibili.com', 'b23.tv'], labels: [/bilibili/i, /\bb站\b/i, /哔哩哔哩/i] },

@@ -99,12 +99,12 @@ const fontStylesheet = getLocaleFontStylesheet(lang).replace('display=optional',
     <meta charset="UTF-8" />
     <script is:inline>
       if ('onpagereveal' in window) {
-        document.documentElement.dataset.nativePageMotion = 'true';
         window.addEventListener('pagereveal', event => {
           if (!event.viewTransition) return;
           if (matchMedia('(prefers-reduced-motion: reduce)').matches || document.documentElement.classList.contains('site-intro-enabled')) {
             event.viewTransition.skipTransition(); return;
           }
+          document.documentElement.dataset.nativePageMotion = 'true';
           const activation = window.navigation?.activation;
           document.documentElement.dataset.pageDirection = activation?.navigationType === 'traverse' && activation.entry?.index < activation.from?.index ? 'back' : 'forward';
           document.querySelectorAll('.reveal-up').forEach(element => {
@@ -149,6 +149,7 @@ const fontStylesheet = getLocaleFontStylesheet(lang).replace('display=optional',
         }
 
         if (!shouldPlayIntro) document.documentElement.classList.add('site-page-transition-enabled');
+        document.documentElement.classList.add('has-js');
       })();
     </script>
     <link rel="stylesheet" href="/ui-tokens.css" />
@@ -207,16 +208,19 @@ const fontStylesheet = getLocaleFontStylesheet(lang).replace('display=optional',
 
     <div class="noise-bg"></div>
 
-    <slot />
-    <AccountChrome locale={lang} />
-    <div id="cursor" class="cursor-dot" aria-hidden="true"></div>
-    <SiteSearch lang={lang} />
     <SupportFloat locale={lang} />
     <ToolsDock lang={lang}>
+      <slot name="tools" />
       {isLocalizedHome && liveEventsCopy && <LiveEventsWidget lang={lang} copy={liveEventsCopy} />}
       {socialContactCopy && <SocialContactWidget lang={lang} copy={socialContactCopy} />}
     </ToolsDock>
     {aiChatCopy && <AiChatWidget lang={lang} copy={aiChatCopy} />}
+
+    <slot />
+    <AccountChrome locale={lang} />
+    <div id="cursor" class="cursor-dot" aria-hidden="true"></div>
+    <SiteSearch lang={lang} />
+
 
     <script>
       import '../scripts/navigationMotion.js';

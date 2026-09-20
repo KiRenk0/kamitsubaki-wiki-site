@@ -1,3 +1,4 @@
+import {initializeSelectionIndicator,selectionActiveSelector} from './selectionIndicator.mjs';
 // Shared geometry and motion; page controllers retain routing and panel state.
 export function initializeWorkspaceNavigation(nav) {
   if(nav.dataset.workspaceReady)return;
@@ -5,16 +6,14 @@ export function initializeWorkspaceNavigation(nav) {
   const shell=nav.closest('[data-workspace-nav-shell]');
   const sentinel=shell.previousElementSibling;
   const root=shell.closest('main');
-  const marker=nav.querySelector('[data-workspace-indicator]');
+  const positionIndicator=initializeSelectionIndicator(nav);
   const tabs=[...nav.querySelectorAll('a')];
   const reduced=matchMedia('(prefers-reduced-motion: reduce)');
   let frame,expandedHeight=nav.offsetHeight,previous;
   const position=()=>{
-    const tab=nav.querySelector('a[aria-current],a[aria-selected="true"]');
+    const tab=nav.querySelector(selectionActiveSelector);
     if(tab){
-      marker.style.width=`${tab.offsetWidth}px`;
-      marker.style.height=`${tab.offsetHeight}px`;
-      marker.style.transform=`translate3d(${tab.offsetLeft}px,${tab.offsetTop}px,0)`;
+      positionIndicator();
       if(previous!==tab){
         if(tab.offsetLeft<nav.scrollLeft)nav.scrollTo({left:tab.offsetLeft-5,behavior:reduced.matches?'instant':'smooth'});
         else if(tab.offsetLeft+tab.offsetWidth>nav.scrollLeft+nav.clientWidth)nav.scrollTo({left:tab.offsetLeft+tab.offsetWidth-nav.clientWidth+5,behavior:reduced.matches?'instant':'smooth'});
@@ -31,11 +30,11 @@ export function initializeWorkspaceNavigation(nav) {
     position();
   };
   const schedule=()=>{cancelAnimationFrame(frame);frame=requestAnimationFrame(sync);};
-  const resize=new ResizeObserver(position);resize.observe(nav);tabs.forEach(tab=>resize.observe(tab));
+  const resize=new ResizeObserver(position);resize.observe(nav);
   const selected=new MutationObserver(position);selected.observe(nav,{subtree:true,attributes:true,attributeFilter:['aria-current','aria-selected']});
   const keyboard=event=>{
     // LABs owns tab activation plus remembered query parameters.
-    if(nav.getAttribute('role')==='tablist'||event.defaultPrevented||event.altKey||event.ctrlKey||event.metaKey)return;
+    if(nav.hasAttribute('data-labs-nav')||nav.getAttribute('role')==='tablist'||event.defaultPrevented||event.altKey||event.ctrlKey||event.metaKey)return;
     const index=tabs.indexOf(event.target);if(index<0)return;
     const next=event.key==='ArrowRight'?(index+1)%tabs.length:event.key==='ArrowLeft'?(index+tabs.length-1)%tabs.length:event.key==='Home'?0:event.key==='End'?tabs.length-1:-1;
     if(next<0)return;event.preventDefault();tabs[next].focus({preventScroll:true});tabs[next].click();

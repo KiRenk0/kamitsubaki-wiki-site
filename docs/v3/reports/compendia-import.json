@@ -1,0 +1,80 @@
+[
+  {
+    "id": "artist-index-c8e1217095ae",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/01_ENTITIES_ARTISTS/04_ARTISTS_INDEX_MULTILINGUAL.md",
+    "target": "src/content/articles/artist-index-c8e1217095ae/zh.md",
+    "sha256": "272874db944c8797564d072aaa434a17121ff48f8b38b9c1294dd7ac218395d3"
+  },
+  {
+    "id": "catalog-d4b9b207dfd0",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/03_DISCOGRAPHY_CATALOG/01_DISCOGRAPHY_SUMMARY_BY_ARTIST.md",
+    "target": "src/content/articles/catalog-d4b9b207dfd0/zh.md",
+    "sha256": "053ba4ca6816e480362c62479db49882bf89e9695055afe2244942ddee98ea63"
+  },
+  {
+    "id": "catalog-b3ef87cb8232",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/03_DISCOGRAPHY_CATALOG/02_VWP_AND_SOLO_DISCOGRAPHY.md",
+    "target": "src/content/articles/catalog-b3ef87cb8232/zh.md",
+    "sha256": "ac2bfdbf42f5bcf8ebef3021c9e7a07873e3897a1af591707e86c0489aa66f72"
+  },
+  {
+    "id": "catalog-45d8bb50fdea",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/03_DISCOGRAPHY_CATALOG/03_SINSEKAI_AND_UNITS_DISCOGRAPHY.md",
+    "target": "src/content/articles/catalog-45d8bb50fdea/zh.md",
+    "sha256": "fd2a36a19988203d0b26bb2c63099884524b2d259382f3469333bb64f0ab94f6"
+  },
+  {
+    "id": "catalog-9680d284e892",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/03_DISCOGRAPHY_CATALOG/04_PRODUCERS_DISCOGRAPHY.md",
+    "target": "src/content/articles/catalog-9680d284e892/zh.md",
+    "sha256": "b76579ee1b49bdc973ec7aeff90e27763a803f418f454b532bc21e7d40b12e11"
+  },
+  {
+    "id": "catalog-0f98789e7f5c",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/03_DISCOGRAPHY_CATALOG/05_MUSICAL_ISOTOPE_DISCOGRAPHY.md",
+    "target": "src/content/articles/catalog-0f98789e7f5c/zh.md",
+    "sha256": "f9f8e95ddf61a589aa9a5ce5bbbcc96e2ba89956916479f89b79150518edf9f6"
+  },
+  {
+    "id": "chronology-d32f93b8b3a7",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/01_CHRONOLOGY_2018_2020_黎明期.md",
+    "target": "src/content/articles/chronology-d32f93b8b3a7/zh.md",
+    "sha256": "48f33271bf8a9f993ee1a5e1a74218bad4c30af2cc44709d6c7e30bde9919b3d"
+  },
+  {
+    "id": "chronology-1224521cf22d",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/02_CHRONOLOGY_2021_2022_VWP结成与同位体.md",
+    "target": "src/content/articles/chronology-1224521cf22d/zh.md",
+    "sha256": "305e620b75f0a1204e451f1018abb94b229da5fe60f4f37ca613d4660aea319a"
+  },
+  {
+    "id": "chronology-823828df9972",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/03_CHRONOLOGY_2023_2024_深脊界重组与代代木.md",
+    "target": "src/content/articles/chronology-823828df9972/zh.md",
+    "sha256": "d5198687e30ec3aa4d1b86748944525ef5ec747560a62f568c6450886c1e2891"
+  },
+  {
+    "id": "chronology-c44dc716169a",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/04_CHRONOLOGY_2025_2026_全景爆发与新纪元.md",
+    "target": "src/content/articles/chronology-c44dc716169a/zh.md",
+    "sha256": "10c547073ea4cdd64a2db4a3bf9ca97fab76dcc687f465555f7780087a4187f2"
+  },
+  {
+    "id": "creator-overview-77c2aa302b19",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/05_CREATORS_AND_STAFF/01_COMPOSERS_AND_P_PRODUCERS.md",
+    "target": "src/content/articles/creator-overview-77c2aa302b19/zh.md",
+    "sha256": "08db9d83de23899129a5c58b39176cc0caab857d5f685fecd50727b4e2a5cd34"
+  },
+  {
+    "id": "lore-study-a0ae3391267a",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/06_TERMINOLOGY_LORE/02_LORE_AND_CONCEPTS.md",
+    "target": "src/content/articles/lore-study-a0ae3391267a/zh.md",
+    "sha256": "9360726c1a4ace17dab99cd231b7992fd18d433dd19af2674b2660eca937afd9"
+  },
+  {
+    "id": "lore-study-4e0ae48fd200",
+    "source": "../citiao_consolidated/OBJECTIVE_WIKI_DATABASE/06_TERMINOLOGY_LORE/03_SYNTHETIC_VOICE_TECH_STACK.md",
+    "target": "src/content/articles/lore-study-4e0ae48fd200/zh.md",
+    "sha256": "8ef107ee86276975995a98ffc8a573ff9b0180a2b8f679da04a7de9173a739f9"
+  }
+]

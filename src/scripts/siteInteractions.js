@@ -187,7 +187,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const animationDuration = prefersReducedMotion ? 900 : (configuredDuration || 5845);
     const introVideo = siteIntro.querySelector('[data-site-intro-video]');
     let animationComplete = false;
-    let pageLoaded = document.readyState === 'complete';
+    // DOMContentLoaded has fired. Optional media must not block the intro exit.
+    let pageLoaded = true;
     let leaving = false;
     let skipped = false;
     let loadFallbackTimer = null;
@@ -339,13 +340,16 @@ document.addEventListener('DOMContentLoaded', () => {
       activeBgLayer?.classList.remove('is-active');
     };
 
-    document.querySelectorAll('.artist-row').forEach((row) => {
-      row.addEventListener('mouseenter', () => showArtistBackground(row));
-      row.addEventListener('mouseleave', hideArtistBackground);
-      row.addEventListener('focusin', () => showArtistBackground(row));
-      row.addEventListener('focusout', hideArtistBackground);
-      row.setAttribute('data-artist-hover-ready', 'true');
-    });
+    const rowAt = target => target instanceof Element ? target.closest('.artist-row') : null;
+    for (const [enter, leave] of [['pointerover', 'pointerout'], ['focusin', 'focusout']]) {
+      artistList?.addEventListener(enter, event => {
+        const row = rowAt(event.target);
+        if (row && row !== rowAt(event.relatedTarget)) showArtistBackground(row);
+      });
+      artistList?.addEventListener(leave, event => {
+        if (rowAt(event.target) !== rowAt(event.relatedTarget)) hideArtistBackground();
+      });
+    }
   }
 
   const heroParallaxElements = document.querySelectorAll('[data-hero-parallax]');
@@ -671,7 +675,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // ── Artist category expand/collapse ──
   if (artistList instanceof HTMLElement) {
     artistList.addEventListener('click', (event) => {
-      const button = event.target instanceof Element && event.target.closest('.artist-expand-btn');
+      const button = event.target instanceof Element && event.target.closest('.artist-expand-btn, [data-artist-collapse]');
       if (!button) return;
 
       const collapsibleId = button.getAttribute('aria-controls');
@@ -679,6 +683,56 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const collapsible = document.getElementById(collapsibleId);
       if (!(collapsible instanceof HTMLElement)) return;
+
+      if (collapsible.dataset.pageSize) {
+        const panel = collapsible.parentElement;
+        const more = panel.querySelector('.artist-expand-btn');
+        const collapse = panel.querySelector('[data-artist-collapse]');
+        const inner = collapsible.querySelector('.artist-collapsible__inner');
+        const pending = collapsible.querySelector('template[data-directory-overflow]');
+        const total = Number(collapsible.dataset.total);
+        const closing = button.hasAttribute('data-artist-collapse');
+        const shown = Number(collapsible.dataset.shown || 0);
+        const next = closing ? 0 : Math.min(total, shown + Number(collapsible.dataset.pageSize));
+        // Materialize only the requested batch; untouched records stay inert.
+        while (inner.children.length < next && pending?.content.firstElementChild) {
+          inner.append(pending.content.firstElementChild);
+        }
+        const rows = [...inner.children];
+        clearTimeout(collapsible._collapseTimer);
+        collapsible.dataset.shown = String(next);
+        if (closing) {
+          rows.forEach(row => row.removeAttribute('data-revealed'));
+          collapsible.dataset.expanded = 'false';
+          collapsible.inert = true;
+          collapsible.setAttribute('aria-hidden', 'true');
+          // Keep the original height transition before removing rows from layout.
+          collapsible._collapseTimer = setTimeout(() => rows.forEach(row => { row.hidden = true; }), 600);
+        } else {
+          rows.forEach((row, index) => {
+            row.hidden = index >= next;
+            if (index >= shown && index < next) {
+              row.style.setProperty('--artist-row-order', String(index - shown));
+              row.removeAttribute('data-revealed');
+            }
+          });
+          collapsible.style.setProperty('--artist-collapsible-height', `${inner.scrollHeight}px`);
+          collapsible.dataset.expanded = 'true';
+          collapsible.inert = false;
+          collapsible.setAttribute('aria-hidden', 'false');
+          requestAnimationFrame(() => requestAnimationFrame(() => {
+            if (collapsible.dataset.shown !== String(next)) return;
+            rows.slice(0, next).forEach(row => row.setAttribute('data-revealed', ''));
+          }));
+        }
+        more.hidden = next === total;
+        more.setAttribute('aria-expanded', String(next > 0));
+        more.querySelector('[data-artist-expand-count]').textContent = `＋${Math.min(Number(collapsible.dataset.pageSize), total - next)}`;
+        collapse.hidden = next === 0;
+        if (closing) more.focus({preventScroll: false});
+        else if (more.hidden) collapse.focus({preventScroll: true});
+        return;
+      }
 
       const copy = button.querySelector('[data-artist-expand-copy]');
       const inner = collapsible.querySelector('.artist-collapsible__inner');

@@ -12,6 +12,9 @@ import {contributionHub,hubDocuments,hubOverview} from '../../../lib/contributio
 import {editorGuide} from '../../../lib/editorGuide.mjs';
 import {renderMarkdownDocument} from '../../../lib/markdown.mjs';
 import {renderContentEntry} from '../../../lib/contentSource.mjs';
+import contributingZh from '../../../../docs/contributing.md?raw';
+import contributingEn from '../../../../docs/contributing.en.md?raw';
+import contributingJa from '../../../../docs/contributing.ja.md?raw';
 import filesZh from '../../../../docs/files-and-images.md?raw';
 import filesEn from '../../../../docs/files-and-images.en.md?raw';
 import filesJa from '../../../../docs/files-and-images.ja.md?raw';
@@ -24,13 +27,13 @@ export function getStaticPaths(){return supportedLocales.map(locale=>({params:{l
 const {locale='zh'}=Astro.params;
 const copy=contributionHub(locale);
 const flow=editorGuide(locale);
-const [sites,editing,syntaxes,formats]=await Promise.all([getCollection('site'),getCollection('editGuide'),getCollection('syntaxGuide'),getCollection('formatGuide')]);
+const [sites,syntaxes,formats]=await Promise.all([getCollection('site'),getCollection('syntaxGuide'),getCollection('formatGuide')]);
 const site=getLocalizedSite(sites,locale);
 const localized=(entries:any[])=>entries.find(e=>e.data.locale===locale)||entries.find(e=>e.data.locale==='zh');
-const guide=localized(editing).data;
+
 const steps=(items:string[][])=>items.map(([title,body])=>`## ${title}\n\n${body}`).join('\n\n');
-const editorMarkdown=`${flow.subtitle}\n\n${flow.scope}\n\n${steps(flow.steps)}\n\n## ${guide.ui.mapTitle}\n\n${steps(guide.map.map((item:any)=>[item.title,item.body]))}`;
-const githubMarkdown=`${flow.githubIntro}\n\n${steps(flow.githubSteps)}\n\n${guide.lessons.map((lesson:any)=>`<span id="lesson-${lesson.id}"></span>\n\n## ${lesson.title}\n\n${lesson.body}\n\n${lesson.checkpoint}`).join('\n\n')}\n\n${guide.workshops.map((item:any)=>`<span id="workshop-${item.id}"></span>\n\n## ${item.title}\n\n${item.body}`).join('\n\n')}\n\n## ${guide.ui.review}\n\n${guide.checklist.map((text:string)=>'- '+text).join('\n')}\n\n## ${guide.ui.pr}\n\n${guide.ui.prHint}\n\n\`\`\`text\n${guide.prTemplate}\n\`\`\`\n\n## ${guide.ui.faq}\n\n${guide.faqs.map((item:any)=>`### ${item.question}\n\n${item.answer}`).join('\n\n')}`;
+const editorMarkdown=`${flow.subtitle}\n\n${flow.scope}\n\n${steps(flow.steps)}`;
+const githubMarkdown=resolveLocaleCopy({zh:contributingZh,en:contributingEn,ja:contributingJa},locale).replace(/^# .+\n/,'');
 const licenseMarkdown=resolveLocaleCopy({zh:licenseZh,en:licenseEn,ja:licenseJa},locale).replace(/^# .+\n/,'').replace(/^\[English\].+$/m,'');
 const fileMarkdown=resolveLocaleCopy({zh:filesZh,en:filesEn,ja:filesJa},locale).replace(/^# .+\n/,'');
 const rendered=await Promise.all([renderMarkdownDocument(hubOverview(locale)),renderMarkdownDocument(editorMarkdown),renderMarkdownDocument(githubMarkdown),renderMarkdownDocument(fileMarkdown),renderContentEntry(localized(syntaxes)),renderContentEntry(localized(formats)),renderMarkdownDocument(licenseMarkdown)]);

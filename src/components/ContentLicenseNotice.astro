@@ -142,7 +142,7 @@ const licenseUrl = licenseUrls[resolvedLicense.code];
           <dt class="font-mono text-[8px] uppercase tracking-[0.16em] text-white/28">{copy.source}</dt>
           <dd class="mt-1">
             <a href={resolvedLicense.sourceUrl} class="break-words text-cyan-50/65 transition-colors hover:text-cyan-50">
-              {resolvedLicense.sourceTitle ?? resolvedLicense.sourceUrl}
+              {resolvedLicense.sourceTitle && !/^https?:\/\//i.test(resolvedLicense.sourceTitle) ? resolvedLicense.sourceTitle : copy.source}
             </a>
           </dd>
         </div>

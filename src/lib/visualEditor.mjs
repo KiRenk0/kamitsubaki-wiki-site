@@ -1,8 +1,13 @@
+import {entitySourcePath} from './contentLayout.mjs';
+import {z} from 'astro/zod';
+import {createEntitySchema} from './entitySchema.mjs';
+const entitySchema=createEntitySchema(z);
+import {entityTypes,stableIdPattern} from './entityContract.mjs';
 import { parseDocument } from 'yaml';
 import { splitShortcodeArguments } from './shortcodeArguments.mjs';
 import { resolveMediaEmbed } from './mediaEmbed.mjs';
 
-export const entryTypes = ['artists', 'songs', 'albums', 'projects', 'logs'];
+export const entryTypes = ['songs', 'projects', 'logs', 'people', 'units', 'isotopes', 'releases', 'lives', 'organizations', 'lore', 'articles'];
 export const blockTypes = ['paragraph', 'heading', 'list', 'quote', 'image', 'table', 'media', 'ruby', 'details', 'lyrics', 'divider', 'inline', 'media-switcher', 'code', 'math'];
 const field = (key, zh, en, ja, required = false, type = 'text') => ({ key, labels: { zh, en, ja }, required, type });
 const common = [field('translationKey', '条目标识（各语言一致）', 'Entry key (shared across languages)', '記事キー（言語共通）', true), field('image', '封面图片地址', 'Cover image URL', 'カバー画像 URL')];
@@ -16,10 +21,16 @@ export const fields = {
   projects: [title, ...common.filter(f => f.key !== 'image'), field('description', '简短介绍', 'Description', '短い紹介', true), field('kind', '企划类型', 'Project kind', '企画種別', true), field('order', '排序编号', 'Sort order', '表示順', true, 'number'), date],
   logs: [title, ...common.filter(f => f.key !== 'image'), field('date', '记录日期', 'Record date', '記録日', true), field('type', '记录类型', 'Record type', '記録種別', true), field('order', '排序编号', 'Sort order', '表示順', true, 'number'), field('summary', '摘要', 'Summary', '概要'), field('eventDate', '活动日期', 'Event date', '開催日'), field('eventSource', '官方来源链接', 'Official source URL', '公式出典 URL')],
 };
+export function fieldsFor(draft) {
+  if(draft.meta.schemaVersion!==2)return fields[draft.kind]||[];
+  return [field('id','永久实体 ID','Permanent entity ID','永続エンティティ ID',true),field('entityType','实体类型','Entity type','種類',true),
+    draft.meta.name!==undefined?field('name','名称','Name','名前',true):title,
+    field('summary','摘要','Summary','概要'),...(draft.meta.romanizedName!==undefined?[field('romanizedName','罗马字名称','Romanized name','ローマ字表記')]:[field('romanizedTitle','罗马字标题','Romanized title','ローマ字タイトル')])];
+}
 export const escapeText = value => String(value ?? '').replace(/[\\`*_{}\[\]<>#|~]/g, '\\$&');
 export const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[ch]);
 export function safeUrl(value) { return /^(?:https?:\/\/[^\s<>"']+|\/(?!\/)[^\s<>"']*)$/i.test(String(value)); }
-export function validPath(path) { return /^src\/content\/(artists|songs|albums|projects|logs)\/(?:[^./\\\s][^/\\\s]*\/)+(zh|ja|en)\.md$/.test(path) && !path.split('/').some(p => p === '..' || p === '.'); }
+export function validPath(path) { return /^src\/content\/(artists|songs|albums|projects|logs|people|units|isotopes|releases|lives|organizations|lore|articles)\/(?:[^./\\\s][^/\\\s]*\/)+(zh|ja|en)\.md$/.test(path) && !path.split('/').some(p => p === '..' || p === '.'); }
 export function newBlock(type) {
   const b = { id: globalThis.crypto.randomUUID(), type, text: '' };
   if (type === 'heading') b.level = '2';
@@ -37,11 +48,22 @@ export function newBlock(type) {
   return b;
 }
 export function newDraft(kind = 'projects', locale = 'zh') {
-  const meta = { locale, translationKey: '' };
-  if (kind === 'artists') Object.assign(meta, { name: '', romanizedName: '', statusLabel: 'STATUS', status: 'ACTIVE', image: '' });
-  else meta.title = '';
-  if (kind === 'projects') Object.assign(meta, { description: '', kind: 'PROJECT', order: 0 });
-  if (kind === 'logs') Object.assign(meta, { date: '', type: 'EVENT', order: 0 });
+  let meta;
+  if(kind==='logs')meta={locale,translationKey:'',title:'',date:'',type:'EVENT',order:0};
+  else {
+    const type={artists:'virtual-avatar',people:'person',units:'unit',isotopes:'software-voice',songs:'work-track',albums:'work-release',releases:'work-release',projects:'project',lives:'live-event',organizations:'organization',lore:'lore-concept',articles:'editorial-article'}[kind];
+    meta={schemaVersion:2,id:'',locale,entityType:type,relations:[],presentation:{}};
+    if(['person','virtual-avatar','unit','software-voice','organization','lore-concept'].includes(type))Object.assign(meta,{name:'',romanizedName:''});else meta.title='';
+    if(['person','virtual-avatar','unit'].includes(type))Object.assign(meta,{roles:[],lifecycle:{activity:'unknown'},affiliations:[]});
+    if(type==='software-voice')Object.assign(meta,{voiceEngines:[],relations:[{type:'based-on-voice',target:''}]});
+    if(type==='work-track')Object.assign(meta,{romanizedTitle:'',performers:[],credits:[],genres:[]});
+    if(type==='work-release')Object.assign(meta,{releaseType:'album',releaseDate:'',tracks:[]});
+    if(type==='project')meta.status='active';
+    if(type==='organization')meta.orgType='creative-studio';
+    if(type==='lore-concept')meta.loreCategory='glossary-term';
+    if(type==='live-event')Object.assign(meta,{eventType:'oneman-live',dateRange:{start:''},headliners:[]});
+    if(type==='editorial-article')Object.assign(meta,{articleCategory:'archival',author:'',publishDate:'',relatedEntities:[]});
+  }
   return { version: 1, kind, meta, originalMeta: '', path: '', blocks: [newBlock('paragraph')] };
 }
 const shortcodeArg = s => String(s || '').replaceAll('\\', '\\\\').replaceAll('::', '\\:\\:');
@@ -68,12 +90,18 @@ export function blockMarkdown(b, locale = 'zh') {
     default: throw new Error('Unknown block');
   }
 }
+function outputMetadata(draft){
+ const meta=structuredClone(draft.meta);
+ if(meta.license?.sourceUrl==='')delete meta.license.sourceUrl;
+ if(meta.duration==='')delete meta.duration;
+ return meta;
+}
 export function exportMarkdown(draft) {
   const doc = parseDocument(draft.originalMeta || '{}');
   if (doc.errors.length) throw new Error('Invalid frontmatter');
   if (!draft.originalMeta) doc.contents.flow = false;
   const old = doc.toJS({ maxAliasCount: 100 });
-  const outputMeta = structuredClone(draft.meta);
+  const outputMeta = outputMetadata(draft);
   if (outputMeta.license?.sourceUrl === '' && old?.license?.sourceUrl !== '') delete outputMeta.license.sourceUrl;
   if (outputMeta.duration === '' && old?.duration !== '') delete outputMeta.duration;
   for (const key of Object.keys(old || {})) if (!(key in outputMeta)) doc.delete(key);
@@ -98,7 +126,7 @@ export function importMarkdown(source, kind, path = '') {
   if (doc.errors.length || !doc.contents || !doc.contents.items) throw new Error('frontmatter');
   const meta = doc.toJS({ maxAliasCount: 100 });
   if (!meta || Array.isArray(meta) || !['zh','ja','en'].includes(meta.locale)) throw new Error('localeError');
-  kind = meta.name !== undefined ? 'artists' : meta.artistId !== undefined ? 'songs' : meta.artist !== undefined ? 'albums' : meta.kind !== undefined ? 'projects' : meta.date !== undefined && meta.type !== undefined ? 'logs' : kind;
+  kind = meta.schemaVersion===2 ? (path.split('/')[2] || ({person:'people','virtual-avatar':'people',unit:'units','software-voice':'isotopes','work-track':'songs','work-release':'releases',project:'projects',organization:'organizations','live-event':'lives','lore-concept':'lore','editorial-article':'articles'}[meta.entityType])) : meta.name !== undefined ? 'artists' : meta.artistId !== undefined ? 'songs' : meta.artist !== undefined ? 'albums' : meta.kind !== undefined ? 'projects' : meta.date !== undefined && meta.type !== undefined ? 'logs' : kind;
   const trimLines = value => value.replace(/^\s*\n|\n\s*$/g, '');
   const body = trimLines(match[2]);
   const blocks = parseVisualBlocks(body);
@@ -109,7 +137,8 @@ export function importMarkdown(source, kind, path = '') {
 }
 export function validateDraft(draft) {
   const errors = [];
-  for (const f of fields[draft.kind] || []) {
+  if(draft.meta.schemaVersion===2){const result=entitySchema.safeParse(outputMetadata(draft));if(!result.success)errors.push(...result.error.issues.map(issue=>issue.path.join('.')));if(!stableIdPattern.test(draft.meta.id||''))errors.push('id');if(!entityTypes.includes(draft.meta.entityType))errors.push('entityType');if(draft.originalMeta){const original=parseDocument(draft.originalMeta).toJS();if(original.id&&original.id!==draft.meta.id)errors.push('id');if(original.entityType!==draft.meta.entityType)errors.push('entityType');}}
+  for (const f of fieldsFor(draft)) {
     const v = draft.meta[f.key];
     if (f.required && (v === undefined || v === null || String(v).trim() === '')) errors.push(f.key);
     if (f.type === 'number' && v !== undefined && (!Number.isFinite(Number(v)) || (f.key === 'trackCount' && (!Number.isInteger(Number(v)) || Number(v) < 0)))) errors.push(f.key);
@@ -117,6 +146,8 @@ export function validateDraft(draft) {
   for (const key of ['releaseDate', 'eventDate']) if (draft.meta[key] && !/^\d{4}(?:-\d{2}(?:-\d{2})?)?$/.test(draft.meta[key])) errors.push(key);
   if (draft.meta.artistId && !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(draft.meta.artistId)) errors.push('artistId');
   if (draft.meta.duration && !/^\d{1,2}:\d{2}(?::\d{2})?$/.test(draft.meta.duration)) errors.push('duration');
+  if(draft.meta.schemaVersion===2&&({person:'people','virtual-avatar':'people',unit:'units','software-voice':'isotopes','work-track':'songs','work-release':'releases',project:'projects',organization:'organizations','live-event':'lives','lore-concept':'lore','editorial-article':'articles'}[draft.meta.entityType])!==draft.kind)errors.push('entityType');
+  if(draft.meta.schemaVersion===2&&draft.path){try{if(draft.path!==entitySourcePath(draft.meta))errors.push('path');}catch{errors.push('path');}}
   if (draft.path && (!validPath(draft.path) || !draft.path.startsWith(`src/content/${draft.kind}/`) || !draft.path.endsWith(`/${draft.meta.locale}.md`))) errors.push('path');
   for (const b of draft.blocks) {
     if (b.type === 'image' && !safeUrl(b.url)) errors.push('url');
@@ -192,7 +223,7 @@ export function parseVisualBlocks(body) {
       do {const current=lines[i++];depth+=(current.match(/<div\b/g)||[]).length-(current.match(/<\/div>/g)||[]).length;if(current.includes('my-lyric-box'))opened=true;} while(i<lines.length&&(!opened||depth>0));
       const source=lines.slice(start,i).join('\n');block=lyricBlock(source)||{...newBlock('preserved'),text:source};
     }
-    else if(/^#{2,6} /.test(line)) {const match=line.match(/^(#{2,6}) (.*)$/);block={...newBlock('heading'),level:String(match[1].length),text:match[2]};i++;}
+    else if(/^#{2,6} /.test(line)) {const match=line.match(/^(#{2,6}) ([\s\S]*)$/);block={...newBlock('heading'),level:String(match[1].length),text:match[2]};i++;}
     else if(mediaBlock(line)){block=mediaBlock(line);i++;}
     else if(/^!\[[^\]]*\]\([^\n]+\)$/.test(line)){const match=line.match(/^!\[([^\]]*)\]\((.+)\)$/);block={...newBlock('image'),text:match[1],url:match[2]};i++;}
     else if(/^---+$/.test(line)){block=newBlock('divider');i++;}

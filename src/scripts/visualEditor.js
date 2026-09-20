@@ -1,3 +1,4 @@
+import {entitySourcePath} from '../lib/contentLayout.mjs';
 import {revealPanel,enhanceTabRail} from '../lib/uiMotion.mjs';
 import {newEntryPath,prepareImage,attachmentFile,imageBase64} from '../lib/editorAttachments.mjs';
 import { markdownTrigger, upgradeListBlock } from '../lib/editorWriting.mjs';
@@ -5,12 +6,12 @@ import {editorEnabled,editorApiBase,localEditor} from '../lib/editorConfig.mjs';
 import { sourceRequest } from '../lib/editorSource.mjs';
 import { initializeEditorPrDemo } from './editorPrDemo.js';
 import { renderRich, richMarkdown, inlineKinds, inlineSource, inlineParts, shortcodeChip } from '../lib/editorRichText.mjs';
-import { metadataDefaults, metadataOptions, metadataLabel, metadataChoices, newMetadataItem, advancedErrors } from '../lib/editorMetadata.mjs';
+import { nestedMetadataOptions, nestedMetadataDefault, metadataDefault, metadataOptions, metadataLabel, metadataChoices, newMetadataItem, advancedErrors } from '../lib/editorMetadata.mjs';
 import { previewBlock as renderPreviewBlock, previewMedia, loadPreviewMedia } from '../lib/editorPreview.mjs';
 import { enhanceReader } from '../lib/readerEnhancements.mjs';
 import 'katex/dist/katex.min.css';
 import { isApplePlatform, formatShortcut } from '../lib/searchShortcut.mjs';
-import { fields, blockTypes, entryTypes, newDraft, newBlock, blockMarkdown, parseVisualBlocks, importMarkdown, exportMarkdown, validateDraft, safeUrl, validPath, escapeHtml } from '../lib/visualEditor.mjs';
+import { fields, fieldsFor, blockTypes, entryTypes, newDraft, newBlock, blockMarkdown, parseVisualBlocks, importMarkdown, exportMarkdown, validateDraft, safeUrl, validPath, escapeHtml } from '../lib/visualEditor.mjs';
 
 const initialize = () => {
   const root = document.querySelector('[data-visual-editor]');
@@ -84,14 +85,14 @@ const initialize = () => {
   }
   function updateHistory() { const pending=JSON.stringify(draft)!==history[cursor]; $('[data-undo]').disabled = cursor === 0 && !pending; $('[data-redo]').disabled = pending || cursor === history.length - 1; }
   function changed(structural = false) { save(); output(); clearTimeout(historyTimer); if (structural) checkpoint(); else historyTimer = setTimeout(checkpoint, 350); }
-  const label = key => fields[draft.kind].find(f => f.key === key)?.labels[uiLocale] || copy.blocks[key] || copy[key] || metadataLabel(key,uiLocale);
+  const label = key => key.includes('.')?key.split('.').map(k=>/^\d+$/.test(k)?String(Number(k)+1):metadataLabel(k,uiLocale)).join(' / '):fieldsFor(draft).find(f => f.key === key)?.labels[uiLocale] || copy.blocks[key] || copy[key] || metadataLabel(key,uiLocale);
   function renderFields() {
     $('[data-kind]').value = draft.kind;
     $('[data-locale-select]').value = draft.meta.locale;
     $('[data-path]').value = draft.path;
     $('[data-document-title]').value = draft.meta.name || draft.meta.title || '';
     renderAdvanced();
-    $('[data-fields]').innerHTML = fields[draft.kind].map(f => `<label>${escapeHtml(f.labels[uiLocale])}${f.required ? ' <span aria-hidden="true">*</span>' : ''}<input data-field="${f.key}" type="${f.type}" ${f.required ? 'required' : ''} value="${escapeHtml(draft.meta[f.key] ?? '')}" ${f.key === 'releaseDate' ? 'placeholder="YYYY-MM-DD"' : ''} /></label>`).join('');
+    $('[data-fields]').innerHTML = fieldsFor(draft).map(f => f.key==='entityType'&&draft.kind==='people'&&!draft.originalMeta?`<label>${escapeHtml(f.labels[uiLocale])}<select data-field="entityType">${['person','virtual-avatar'].map(t=>`<option value="${t}" ${draft.meta.entityType===t?'selected':''}>${t}</option>`).join('')}</select></label>`:`<label>${escapeHtml(f.labels[uiLocale])}${f.required ? ' <span aria-hidden="true">*</span>' : ''}<input data-field="${f.key}" type="${f.type}" ${f.required ? 'required' : ''} ${(draft.originalMeta&&f.key==='id')||f.key==='entityType'&&draft.kind!=='people'?'readonly':''} value="${escapeHtml(draft.meta[f.key] ?? '')}" ${f.key === 'releaseDate' ? 'placeholder="YYYY-MM-DD"' : ''} /></label>`).join('');
   }
   const protectedKeys = new Set(['__proto__','prototype','constructor']);
   const fieldPath = path => encodeURIComponent(JSON.stringify(path));
@@ -99,16 +100,20 @@ const initialize = () => {
   function metadataTree(value,path) {
     const key=String(path.at(-1)), name=metadataLabel(key,uiLocale), attr=fieldPath(path);
     if(Array.isArray(value)) return `<fieldset><legend>${escapeHtml(name)}</legend>${value.map((item,i)=>`<div class="ve-meta-item">${metadataTree(item,[...path,i])}<button data-meta-remove="${fieldPath([...path,i])}" aria-label="${copy.remove}">×</button></div>`).join('')}<button data-meta-add="${attr}">＋ ${copy.row}</button></fieldset>`;
-    if(value && typeof value==='object') return `<fieldset><legend>${escapeHtml(name)}</legend>${Object.entries(value).filter(([key])=>!protectedKeys.has(key)).map(([key,val])=>metadataTree(val,[...path,key])).join('')}</fieldset>`;
-    const choices=metadataChoices[path.join('.')]||metadataChoices[key];
+    if(value && typeof value==='object') return `<fieldset><legend>${escapeHtml(name)}</legend>${Object.entries(value).filter(([key])=>!protectedKeys.has(key)).map(([key,val])=>`<div class="ve-meta-item">${metadataTree(val,[...path,key])}<button data-meta-remove="${fieldPath([...path,key])}" aria-label="${copy.remove}">×</button></div>`).join('')}${nestedMetadataOptions(path,value).map(key=>`<button data-meta-property="${attr}" data-property="${key}">＋ ${escapeHtml(metadataLabel(key,uiLocale))}</button>`).join('')}</fieldset>`;
+    const choices=metadataChoices[path.filter(k=>typeof k!=='number').join('.')]||metadataChoices[key]||(typeof path.at(-1)==='number'?metadataChoices[path.at(-2)]:undefined);
     if(choices) return `<label>${escapeHtml(name)}<select data-meta-value="${attr}">${[...new Set([...choices,String(value ?? '')])].map(choice=>`<option value="${escapeHtml(choice)}" ${choice===value?'selected':''}>${escapeHtml(choice)}</option>`).join('')}</select></label>`;
     if(typeof value==='boolean')return `<label class="ve-check"><input data-meta-value="${attr}" type="checkbox" ${value?'checked':''} />${escapeHtml(name)}</label>`;
-    return `<label>${escapeHtml(name)}<input data-meta-value="${attr}" type="${typeof value==='number'?'number':/Color$|^value$/.test(key)&&/^#[0-9a-f]{6}$/i.test(value)?'color':'text'}" value="${escapeHtml(value ?? '')}" /></label>`;
+    return `<label>${escapeHtml(name)}<input ${referenceFields.has(key)||typeof path.at(-1)==='number'&&referenceFields.has(path.at(-2))?'list="entity-reference-options"':''} data-meta-value="${attr}" type="${typeof value==='number'?'number':/Color$|^value$/.test(key)&&/^#[0-9a-f]{6}$/i.test(value)?'color':'text'}" value="${escapeHtml(value ?? '')}" /></label>`;
+  }
+  const referenceFields=new Set(['entity','target','organization','songId','primaryArtist','parentOrg','organizer','belongToUniverse','headliners','guestPerformers','relatedEntities']);
+  async function loadReferenceOptions(){
+    try{const response=await fetch(`/${draft.meta.locale}/editor-catalog.json`);if(!response.ok)return;const records=await response.json();let list=root.querySelector('#entity-reference-options');if(!list){list=document.createElement('datalist');list.id='entity-reference-options';root.append(list);}list.innerHTML=records.filter(e=>e.id).map(e=>`<option value="${escapeHtml(e.id)}">${escapeHtml(e.title)} · ${escapeHtml(e.kind)}</option>`).join('');}catch{/* Free ID input remains available offline. */}
   }
   function renderAdvanced() {
-    const basic=new Set(['locale',...fields[draft.kind].map(f=>f.key)]);
-    $('[data-advanced-fields]').innerHTML=Object.entries(draft.meta).filter(([key])=>!basic.has(key)&&!protectedKeys.has(key)).map(([key,value])=>`<details><summary>${escapeHtml(metadataLabel(key,uiLocale))}</summary>${metadataTree(value,[key])}<button data-meta-remove="${fieldPath([key])}">× ${escapeHtml(metadataLabel(key,uiLocale))}</button></details>`).join('');
-    const available=metadataOptions(draft.kind).filter(key=>!(key in draft.meta));
+    const basic=new Set(['locale',...fieldsFor(draft).map(f=>f.key)]);
+    $('[data-advanced-fields]').innerHTML=Object.entries(draft.meta).filter(([key])=>!basic.has(key)&&!protectedKeys.has(key)&&!['legacy','schemaVersion','researchImport','translation'].includes(key)).map(([key,value])=>`<details><summary>${escapeHtml(metadataLabel(key,uiLocale))}</summary>${metadataTree(value,[key])}<button data-meta-remove="${fieldPath([key])}">× ${escapeHtml(metadataLabel(key,uiLocale))}</button></details>`).join('');
+    const available=metadataOptions(draft.kind,draft.meta).filter(key=>!(key in draft.meta));
     $('[data-advanced-type]').innerHTML=available.map(key=>`<option value="${key}">${escapeHtml(metadataLabel(key,uiLocale))}</option>`).join('');
     $('[data-add-property]').disabled=!available.length;
   }
@@ -176,6 +181,7 @@ const initialize = () => {
     if(inspect) {if(window.innerWidth<=900)setLayout('preview'); changeView('properties');}
   }
   function output() {
+    if(draft.create&&draft.meta.schemaVersion===2){try{draft.path=entitySourcePath(draft.meta);}catch{/* Incomplete metadata is reported by validation. */}}
     const errors = [...validateDraft(draft), ...advancedErrors(draft.meta)];
     if (draft.needsOriginal) errors.push('loadOriginal');
     if(sourcePending===null && document.activeElement!==$('[data-source]')) $('[data-source]').value=exportMarkdown(draft);
@@ -213,10 +219,10 @@ const initialize = () => {
     const el = event.target;
     if (!(el instanceof HTMLElement)) return;
     if(el.matches('[data-source]')) {queueSource();return;}
-    if(el.matches('[data-document-title]')) {draft.meta[draft.kind==='artists'?'name':'title']=el.value;const field=$(`[data-field="${draft.kind==='artists'?'name':'title'}"]`);if(field)field.value=el.value;changed();return;}
+    if(el.matches('[data-document-title]')) {draft.meta['name' in draft.meta?'name':'title']=el.value;const field=$(`[data-field="${'name' in draft.meta?'name':'title'}"]`);if(field)field.value=el.value;changed();return;}
     if (el.matches('[data-meta-value]')) { const path=parsePath(el.dataset.metaValue); metaParent(path)[path.at(-1)]=el.type==='checkbox'?el.checked:el.type==='number'?Number(el.value):el.value; changed(); return; }
     if (el.matches('[data-field]')) {
-      const spec = fields[draft.kind].find(f => f.key === el.dataset.field);
+      const spec = fieldsFor(draft).find(f => f.key === el.dataset.field);
       if (!el.value && !spec.required) delete draft.meta[spec.key];
       else draft.meta[spec.key] = spec.type === 'number' && el.value !== '' ? Number(el.value) : el.value;
     } else if (el.matches('[data-path]')) draft.path = el.value.trim();
@@ -247,8 +253,9 @@ const initialize = () => {
     const button = event.target.closest('button');
     if (!button) return;
     const block = draft.blocks.find(b => b.id === (button.closest('[data-block]')?.dataset.block || activeBlockId));
-    if(button.hasAttribute('data-add-property')) {checkpoint();const key=$('[data-advanced-type]').value;if(!metadataOptions(draft.kind).includes(key))return;draft.meta[key]=structuredClone(metadataDefaults[key]);renderAdvanced();changed(true);}
-    if(button.hasAttribute('data-meta-add')) {checkpoint();const path=parsePath(button.dataset.metaAdd);const array=path.reduce((obj,key)=>obj[key],draft.meta);array.push(newMetadataItem(path.join('.'),array));renderAdvanced();changed(true);}
+    if(button.hasAttribute('data-add-property')) {checkpoint();const key=$('[data-advanced-type]').value;if(!metadataOptions(draft.kind,draft.meta).includes(key))return;draft.meta[key]=metadataDefault(key,draft.meta);renderAdvanced();changed(true);}
+    if(button.hasAttribute('data-meta-property')){checkpoint();const path=parsePath(button.dataset.metaProperty),obj=path.reduce((o,k)=>o[k],draft.meta),key=button.dataset.property;if(nestedMetadataOptions(path,obj).includes(key))obj[key]=nestedMetadataDefault(path,key);renderAdvanced();changed(true);}
+    if(button.hasAttribute('data-meta-add')) {checkpoint();const path=parsePath(button.dataset.metaAdd);const array=path.reduce((obj,key)=>obj[key],draft.meta);array.push(newMetadataItem(path.join('.'),array,draft.meta));renderAdvanced();changed(true);}
     if(button.hasAttribute('data-meta-remove')) {checkpoint();const path=parsePath(button.dataset.metaRemove),parent=metaParent(path);if(Array.isArray(parent))parent.splice(Number(path.at(-1)),1);else delete parent[path.at(-1)];renderAdvanced();changed(true);}
     if(button.hasAttribute('data-preview-provider')) {const [id,index]=button.dataset.previewProvider.split(':');const b=draft.blocks.find(b=>b.id===id);if(b){const item=b.items[Number(index)];$(`[data-preview-media="${id}"]`).innerHTML=previewMedia(item.provider,item.url);}}
     if(block && button.hasAttribute('data-media-add')){checkpoint();if(block.items.length<6)block.items.push({provider:'youtube',url:''});renderBlocks(block.id);changed(true);}
@@ -645,7 +652,7 @@ const initialize = () => {
     if(button.hasAttribute('data-image-remove') && exportMarkdown(draft).includes(asset.url)){$('[data-image-feedback]').textContent=tc('请先移除正文或封面中的图片引用，再移除附件。');return;}
     checkpoint();
     if(button.hasAttribute('data-image-insert')) {const block={...newBlock('image'),url:asset.url,text:asset.alt || asset.name || '',caption:asset.source};draft.blocks.push(block);renderBlocks(block.id);$('[data-attachments-dialog]').close();}
-    if(button.hasAttribute('data-image-cover')) {draft.meta.image=asset.url;renderFields();$('[data-attachments-dialog]').close();changeSide('properties');}
+    if(button.hasAttribute('data-image-cover')) {if(draft.meta.schemaVersion===2)(draft.meta.presentation ||= {}).image=asset.url;else draft.meta.image=asset.url;renderFields();$('[data-attachments-dialog]').close();changeSide('properties');}
     if(button.hasAttribute('data-image-remove')){draft.assets=draft.assets.filter(a=>a.id!==id);renderAttachments();}
     changed(true);
   });
@@ -653,7 +660,7 @@ const initialize = () => {
   root.addEventListener('dragover',event=>{if(event.dataTransfer?.types.includes('Files'))event.preventDefault();});
   root.addEventListener('drop',event=>{const files=[...(event.dataTransfer?.files || [])];if(files.length){event.preventDefault();openImages(files);}},true);
   root.querySelectorAll('[data-dialog-close]').forEach(button=>button.addEventListener('click',()=>button.closest('dialog').close()));
-  function openNewEntry() {$('[data-new-feedback]').textContent='';$('[data-new-form]').elements.kind.value=draft.kind;$('[data-new-form]').elements.locale.value=draft.meta.locale;$('[data-new-dialog]').showModal();}
+  function openNewEntry(kind=draft.kind) {$('[data-new-feedback]').textContent='';$('[data-new-form]').elements.kind.value=typeof kind==='string'?kind:draft.kind;$('[data-new-form]').elements.locale.value=draft.meta.locale;$('[data-new-dialog]').showModal();}
   $('[data-new-open]').addEventListener('click',openNewEntry);
   $('[data-previous-draft]').addEventListener('click',()=>{
     try {
@@ -672,12 +679,12 @@ const initialize = () => {
       if(sourcePending!==null&&!applySource())throw Error(tc('请先修正源码，再创建新条目。'));
       localStorage.setItem(key+':previous',JSON.stringify(draft));
       checkpoint();clearPendingSource();draft=newDraft(kind,locale);draft.create=true;draft.path=path;draft.baseSha=null;draft.baseContent='';draft.assets=[];
-      draft.meta[kind==='artists'?'name':'title']=form.elements.title.value.trim();draft.meta.translationKey=folder.replaceAll('/','-');
+      draft.meta['name' in draft.meta?'name':'title']=form.elements.title.value.trim();if(draft.meta.schemaVersion===2)draft.meta.id=folder;else draft.meta.translationKey=folder.replaceAll('/','-');
       renderFields();renderBlocks();changed(true);changeSide('properties');$('[data-new-dialog]').close();
-      const url=new URL(location.href);url.searchParams.delete('target');window.history.replaceState(null,'',url);
+      const url=new URL(location.href);url.searchParams.delete('target');url.searchParams.delete('new');window.history.replaceState(null,'',url);
     }catch(error){$('[data-new-feedback]').textContent=tc(error.message);}
   });
-  renderFields(); renderBlocks(); output();
+  renderFields(); renderBlocks(); output(); loadReferenceOptions();
   $('[data-save-status]').textContent = saving ? copy.saved : copy.unsaved;
   try { const recovered=localStorage.getItem(sourceKey);if(recovered!==null){sourcePending=recovered;changeMode('source');$('[data-source-error]').hidden=false;$('[data-source-error]').textContent=copy.sourceRecovered;} } catch { /* Optional draft recovery. */ }
   if (prDemo) initializeEditorPrDemo(root, {
@@ -708,6 +715,7 @@ const initialize = () => {
       return true;
     },
   });
+  if (!target && new URLSearchParams(location.search).get('new')==='articles') openNewEntry('articles');
   if (target && sourceRequest(target) && !(draft.path === target && draft.originalMeta)) loadOriginal(target, hasWork());
 };
 if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initialize, {once:true});

@@ -1,3 +1,4 @@
+import { createEntitySchema } from './lib/entitySchema.mjs';
 import { glob } from 'astro/loaders';
 import { defineCollection } from 'astro:content';
 import { z } from 'astro/zod';
@@ -118,11 +119,6 @@ const site = defineCollection({
         heading: z.string(),
         subheading: z.string(),
         expandLabel: z.string().optional(),
-      }),
-      projects: z.object({
-        heading: z.string(),
-        subheading: z.string(),
-        viewAllLabel: z.string(),
       }),
       log: z.object({
         heading: z.string(),
@@ -264,173 +260,10 @@ const site = defineCollection({
   }),
 });
 
-const artists = defineCollection({
-  loader: metadataOnlyGlob({ pattern: '**/{zh,zh-tw,zh-hk,ja,en}.md', base: './src/content/artists', retainBody: false }),
-  schema: z.object({
-    locale,
-    translationKey: z.string(),
-    contentStatus,
-    code: z.string().optional(),
-    name: z.string(),
-    romanizedName: z.string(),
-    categoryTitle: z.string().optional(),
-    categorySubtitle: z.string().optional(),
-    categoryOrder: z.number().optional(),
-    itemOrder: z.number().optional(),
-    meta: z.string().optional(),
-    debutDate: z.string().optional(),
-    profileTagline: z.string().optional(),
-    designCredits: z.array(z.string()).optional(),
-    affiliations: z.array(z.string()).optional(),
-    officialLinks: z
-      .array(
-        z.object({
-          label: z.string(),
-          href: siteRelativeOrHttpUrl,
-        }),
-      )
-      .optional(),
-    featuredEntries: z
-      .array(
-        z.object({
-          label: z.string(),
-          href: siteRelativeOrHttpUrl,
-          kind: z.enum(['artist', 'project', 'album', 'song']),
-        }),
-      )
-      .optional(),
-    theme,
-    statusLabel: z.string(),
-    status: z.string(),
-    inactive: z.boolean().optional(),
-    image: z.string(),
-    license: contentLicense.optional(),
-    seo,
-  }),
-});
-
-const projects = defineCollection({
-  loader: metadataOnlyGlob({ pattern: '**/{zh,zh-tw,zh-hk,ja,en}.md', base: './src/content/projects', retainBody: false }),
-  schema: z.object({
-    locale,
-    translationKey: z.string(),
-    kind: z.string(),
-    title: z.string(),
-    description: z.string(),
-    order: z.number(),
-    releaseDate: dateString.optional(),
-    officialLinks: z.array(z.object({ label: z.string(), href: siteRelativeOrHttpUrl })).optional(),
-    license: contentLicense.optional(),
-    seo,
-  }),
-});
-
-const logs = defineCollection({
-  loader: metadataOnlyGlob({ pattern: '**/{zh,zh-tw,zh-hk,ja,en}.md', base: './src/content/logs', retainBody: false }),
-  schema: z.object({
-    locale,
-    translationKey: z.string(),
-    date: z.string(),
-    eventDate: dateString.optional(),
-    eventSource: siteRelativeOrHttpUrl.optional(),
-    type: z.string(),
-    title: z.string(),
-    summary: z.string().optional(),
-    order: z.number(),
-    license: contentLicense.optional(),
-    seo,
-  }),
-});
-
-const workBaseSchema = z.object({
-    locale,
-    translationKey: z.string(),
-    title: z.string(),
-    artist: z.string(),
-    releaseDate: dateString.optional(),
-    code: z.string().optional(),
-    categoryTitle: z.string().optional(),
-    categorySubtitle: z.string().optional(),
-    categoryOrder: z.number().optional(),
-    itemOrder: z.number().optional(),
-    image: z.string().optional(),
-    theme,
-    license: contentLicense.optional(),
-    seo,
-});
-
-const artistSlug = z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, 'Expected a lowercase URL slug');
-
-const songSchema = workBaseSchema.extend({
-  lyricsSources: z.array(z.object({
-    label: z.string(),
-    href: siteRelativeOrHttpUrl.refine(value => value.startsWith('https://'), 'Use an HTTPS lyrics source'),
-    provider: z.enum(['official', 'publisher', 'lyrics-service']),
-    checkedAt: dateString,
-  })).optional(),
-  artistId: artistSlug,
-  artistIds: z.array(artistSlug).min(1).optional(),
-  composer: z.string().optional(),
-  lyricist: z.string().optional(),
-  album: z.string().optional(),
-  duration: durationString.optional(),
-}).superRefine((song, context) => {
-  if (!song.artistIds) return;
-
-  if (!song.artistIds.includes(song.artistId)) {
-    context.addIssue({
-      code: 'custom',
-      message: 'artistIds must include the canonical artistId',
-      path: ['artistIds'],
-    });
-  }
-
-  if (new Set(song.artistIds).size !== song.artistIds.length) {
-    context.addIssue({
-      code: 'custom',
-      message: 'artistIds must not contain duplicates',
-      path: ['artistIds'],
-    });
-  }
-});
-
-const songs = defineCollection({
-  loader: metadataOnlyGlob({ pattern: '**/{zh,zh-tw,zh-hk,ja,en}.md', base: './src/content/songs', retainBody: false }),
-  schema: songSchema,
-});
-
-const albums = defineCollection({
-  loader: metadataOnlyGlob({ pattern: '**/{zh,zh-tw,zh-hk,ja,en}.md', base: './src/content/albums', retainBody: false }),
-  schema: workBaseSchema.extend({
-    romanizedTitle: z.string().optional(),
-    type: z.string().optional(),
-    description: z.string().optional(),
-    label: z.string().optional(),
-    catalogNumber: z.string().optional(),
-    trackCount: z.number().int().nonnegative().optional(),
-    duration: durationString.optional(),
-    officialLinks: z
-      .array(
-        z.object({
-          label: z.string(),
-          href: siteRelativeOrHttpUrl,
-        }),
-      )
-      .optional(),
-    tracks: z
-      .array(
-        z.object({
-          disc: z.number().int().positive().optional(),
-          number: z.string().optional(),
-          title: z.string(),
-          artist: z.string().optional(),
-          duration: durationString.optional(),
-          songId: z.string().optional(),
-        }),
-      )
-      .optional(),
-  }),
-});
+const entitySchema = createEntitySchema(z);
+const projects = defineCollection({loader:metadataOnlyGlob({pattern:'**/{zh,zh-tw,zh-hk,ja,en}.md',base:'./src/content/projects'}),schema:entitySchema});
+const songs = defineCollection({loader:metadataOnlyGlob({pattern:'**/{zh,zh-tw,zh-hk,ja,en}.md',base:'./src/content/songs'}),schema:entitySchema});
+const logs = defineCollection({loader:metadataOnlyGlob({pattern:'**/{zh,zh-tw,zh-hk,ja,en}.md',base:'./src/content/logs'}),schema:z.object({locale,translationKey:z.string(),date:z.string(),eventDate:dateString.optional(),eventSource:siteRelativeOrHttpUrl.optional(),type:z.string(),title:z.string(),summary:z.string().optional(),order:z.number(),license:contentLicense.optional(),seo})});
 
 const announcements = defineCollection({
   loader: metadataOnlyGlob({ pattern: '**/{zh,zh-tw,zh-hk,ja,en}.md', base: './src/content/announcements', retainBody: false }),
@@ -502,15 +335,23 @@ const editGuide = defineCollection({
   }),
 });
 
+const people = defineCollection({loader: metadataOnlyGlob({pattern: '**/{zh,zh-tw,zh-hk,ja,en}.md', base: './src/content/people'}),schema:entitySchema});
+const units = defineCollection({loader: metadataOnlyGlob({pattern: '**/{zh,zh-tw,zh-hk,ja,en}.md', base: './src/content/units'}),schema:entitySchema});
+const isotopes = defineCollection({loader: metadataOnlyGlob({pattern: '**/{zh,zh-tw,zh-hk,ja,en}.md', base: './src/content/isotopes'}),schema:entitySchema});
+const releases = defineCollection({loader: metadataOnlyGlob({pattern: '**/{zh,zh-tw,zh-hk,ja,en}.md', base: './src/content/releases'}),schema:entitySchema});
+const lives = defineCollection({loader: metadataOnlyGlob({pattern: '**/{zh,zh-tw,zh-hk,ja,en}.md', base: './src/content/lives'}),schema:entitySchema});
+const organizations = defineCollection({loader: metadataOnlyGlob({pattern: '**/{zh,zh-tw,zh-hk,ja,en}.md', base: './src/content/organizations'}),schema:entitySchema});
+const lore = defineCollection({loader: metadataOnlyGlob({pattern: '**/{zh,zh-tw,zh-hk,ja,en}.md', base: './src/content/lore'}),schema:entitySchema});
+const articles = defineCollection({loader: metadataOnlyGlob({pattern: '**/{zh,zh-tw,zh-hk,ja,en}.md', base: './src/content/articles'}),schema:entitySchema});
+
 export const collections = {
+  people, units, isotopes, releases, lives, organizations, lore, articles,
   site,
-  artists,
   projects,
   logs,
   announcements,
   editGuide,
   songs,
-  albums,
   syntaxGuide,
   formatGuide,
 };

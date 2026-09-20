@@ -1,0 +1,15 @@
+---
+import {navigationCategories} from '../../../lib/entityNavigation.mjs';
+import EntityArticle from '../../../components/EntityArticle.astro';
+import EntityCatalog from '../../../components/EntityCatalog.astro';
+import {getEntityRegistry,entityLocales} from '../../../lib/entityRegistry.mjs';
+export async function getStaticPaths(){
+ const r=await getEntityRegistry();
+ const categories=navigationCategories.map(category=>category.path);
+ return entityLocales.flatMap(locale=>[
+  ...r.list(locale).filter(e=>e.data.entityType!=='editorial-article').map(e=>({params:{locale,path:e.url.split('/database/')[1].replace(/\/$/,'')},props:{entityId:e.data.id,category:''}})),
+  ...categories.map(category=>({params:{locale,path:category},props:{entityId:'',category}}))
+ ]);
+}
+---
+{Astro.props.category?<EntityCatalog locale={Astro.params.locale} category={Astro.props.category}/>:<EntityArticle entityId={Astro.props.entityId} locale={Astro.params.locale}/>}
