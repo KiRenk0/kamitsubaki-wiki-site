@@ -12,6 +12,8 @@ categoryOrder: 1
 itemOrder: 1
 code: "single-winter-sparkler"
 image: /images/songs/asu/winter-sparkler.jpg
+composer: "堀江晶太"
+lyricist: "ルシュカ"
 ---
 
 

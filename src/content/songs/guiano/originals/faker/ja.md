@@ -12,6 +12,7 @@ categoryOrder: 1
 itemOrder: 1
 code: "single-faker"
 image: /images/songs/guiano/faker.jpg
+composer: "Guiano"
 ---
 
 

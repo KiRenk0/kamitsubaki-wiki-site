@@ -12,6 +12,7 @@ categoryOrder: 1
 itemOrder: 1
 code: "single-link"
 image: /images/songs/asu/link.jpg
+lyricist: "祭日ハネダ"
 ---
 
 

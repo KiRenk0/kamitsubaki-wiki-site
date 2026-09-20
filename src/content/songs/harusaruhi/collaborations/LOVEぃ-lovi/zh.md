@@ -16,6 +16,8 @@ categoryOrder: 50
 itemOrder: 599
 code: "apple-1858811043"
 image: /images/songs/harusaruhi/single-1858811042.jpg
+composer: "大沼パセリ"
+lyricist: "大沼パセリ"
 ---
 
 ## 作品简介

@@ -15,6 +15,7 @@ categoryOrder: 70
 itemOrder: 662
 code: "apple-6772089273"
 image: /images/albums/harusaruhi/glitch-stage.jpg
+lyricist: "弥之助(AFRO PARKER)"
 ---
 
 ## Overview

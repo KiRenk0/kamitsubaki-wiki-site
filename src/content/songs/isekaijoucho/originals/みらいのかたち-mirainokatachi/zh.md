@@ -15,6 +15,7 @@ categoryOrder: 10
 itemOrder: 461
 code: "apple-1801903757"
 image: /images/songs/isekaijoucho/single-1801903755.jpg
+lyricist: "ヰ世界情緒"
 ---
 
 ## 作品简介

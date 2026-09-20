@@ -15,6 +15,8 @@ categoryOrder: 10
 itemOrder: 257
 code: "apple-1667765102"
 image: /images/songs/harusaruhi/single-1667765099.jpg
+composer: "安宅秀紀、たかやん"
+lyricist: "たかやん"
 ---
 
 ## 作品概要

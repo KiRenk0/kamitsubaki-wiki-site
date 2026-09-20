@@ -15,6 +15,8 @@ categoryOrder: 10
 itemOrder: 414
 code: "apple-1749026779"
 image: /images/songs/koko/single-1749026657.jpg
+composer: "コヤマヒデカズ"
+lyricist: "コヤマヒデカズ"
 ---
 
 ## Overview

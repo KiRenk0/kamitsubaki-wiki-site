@@ -15,6 +15,8 @@ categoryOrder: 10
 itemOrder: 151
 code: "apple-1688671803"
 image: /images/songs/harusaruhi/single-1688671802.jpg
+composer: "たかやん、一二三"
+lyricist: "たかやん 作曲：たかやん、一二三"
 ---
 
 ## 作品简介

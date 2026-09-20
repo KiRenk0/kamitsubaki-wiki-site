@@ -15,6 +15,7 @@ categoryOrder: 10
 itemOrder: 660
 code: "apple-6764769508"
 image: /images/songs/harusaruhi/single-1895909161.jpg
+composer: "Yuzuru Kusugo"
 ---
 
 ## Overview

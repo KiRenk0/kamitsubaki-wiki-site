@@ -15,6 +15,8 @@ categoryOrder: 10
 itemOrder: 423
 code: "apple-1772840926"
 image: /images/songs/isekaijoucho/single-1772840925.jpg
+composer: "笹川真生"
+lyricist: "笹川真生"
 ---
 
 ## 作品概要

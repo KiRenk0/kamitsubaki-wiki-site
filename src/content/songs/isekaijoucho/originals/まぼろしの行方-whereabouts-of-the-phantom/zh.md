@@ -15,6 +15,8 @@ categoryOrder: 10
 itemOrder: 604
 code: "apple-1860778141"
 image: /images/songs/isekaijoucho/single-1860778140.jpg
+composer: "Aira(Dream Monster)"
+lyricist: "Aira(Dream Monster)"
 ---
 
 ## 作品简介

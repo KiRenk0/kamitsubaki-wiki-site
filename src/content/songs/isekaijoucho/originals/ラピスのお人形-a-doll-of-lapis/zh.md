@@ -15,6 +15,8 @@ categoryOrder: 10
 itemOrder: 311
 code: "apple-1706063154"
 image: /images/songs/isekaijoucho/single-1706063153.jpg
+composer: "はるまきごはん"
+lyricist: "はるまきごはん"
 ---
 
 ## 作品简介

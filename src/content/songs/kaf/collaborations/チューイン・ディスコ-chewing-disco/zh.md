@@ -12,6 +12,8 @@ categoryOrder: 50
 itemOrder: 173
 code: "apple-1760084307"
 image: /images/songs/kaf/track-1760084307.jpg
+composer: "ツミキ"
+lyricist: "ツミキ"
 ---
 
 ## 作品简介

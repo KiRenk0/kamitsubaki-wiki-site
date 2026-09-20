@@ -13,6 +13,7 @@ categoryOrder: 40
 itemOrder: 108
 code: "apple-1689187750"
 image: /images/songs/kaf/track-1689187750.jpg
+lyricist: "祭日ハネダ"
 ---
 
 ## Overview

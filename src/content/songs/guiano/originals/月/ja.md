@@ -5,7 +5,7 @@ title: "月"
 artist: "Guiano"
 artistId: guiano
 duration: "03:32"
-releaseDate: "2022-11-22"
+releaseDate: "2022-11-23"
 categoryTitle: "オリジナル曲"
 categorySubtitle: "ORIGINALS"
 categoryOrder: 1

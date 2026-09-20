@@ -15,6 +15,8 @@ categoryOrder: 10
 itemOrder: 518
 code: "apple-1817325630"
 image: /images/songs/isekaijoucho/single-1817325629.jpg
+composer: "香椎モイミ"
+lyricist: "香椎モイミ"
 ---
 
 ## 作品概要

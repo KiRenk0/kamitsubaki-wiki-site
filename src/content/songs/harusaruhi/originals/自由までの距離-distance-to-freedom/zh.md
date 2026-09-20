@@ -15,6 +15,8 @@ categoryOrder: 10
 itemOrder: 200
 code: "apple-1687457203"
 image: /images/songs/harusaruhi/single-1687457200.jpg
+composer: "たかやん、橘井健一"
+lyricist: "たかやん"
 ---
 
 ## 作品简介

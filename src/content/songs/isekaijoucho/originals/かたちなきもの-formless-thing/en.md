@@ -15,6 +15,7 @@ categoryOrder: 10
 itemOrder: 199
 code: "apple-1687456452"
 image: /images/songs/isekaijoucho/single-1687456451.jpg
+lyricist: "ヰ世界情緒・香椎モイミ"
 ---
 
 ## Overview

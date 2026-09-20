@@ -12,6 +12,8 @@ categoryOrder: 30
 itemOrder: 172
 code: "apple-1753878885"
 image: /images/songs/kaf/track-1753878885.jpg
+composer: "Kanata Okajima、久保田真悟（Jazzin’park）"
+lyricist: "Kanata Okajima、栗原暁（Jazzin’park）"
 ---
 
 ## 作品概要

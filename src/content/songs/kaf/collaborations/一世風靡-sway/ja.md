@@ -12,6 +12,7 @@ categoryOrder: 50
 itemOrder: 196
 code: "apple-1779199800"
 image: /images/songs/kaf/track-1779199800.jpg
+composer: "真部脩一"
 ---
 
 ## 作品概要

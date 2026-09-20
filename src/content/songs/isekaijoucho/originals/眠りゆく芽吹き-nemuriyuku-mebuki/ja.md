@@ -15,6 +15,7 @@ categoryOrder: 10
 itemOrder: 419
 code: "apple-1765250906"
 image: /images/songs/isekaijoucho/single-1765250905.jpg
+lyricist: "mopi"
 ---
 
 ## 作品概要

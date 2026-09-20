@@ -12,6 +12,7 @@ categoryOrder: 1
 itemOrder: 1
 code: "single-甘党"
 image: /images/songs/sooda/甘党.jpg
+lyricist: "Sooda"
 ---
 
 

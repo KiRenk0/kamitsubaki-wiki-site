@@ -12,6 +12,8 @@ categoryOrder: 1
 itemOrder: 1
 code: "single-home"
 image: /images/songs/asu/home.jpg
+composer: "Sabio"
+lyricist: "Sabio"
 ---
 
 

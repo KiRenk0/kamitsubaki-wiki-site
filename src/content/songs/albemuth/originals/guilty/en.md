@@ -12,6 +12,7 @@ categoryOrder: 1
 itemOrder: 1
 code: "single-guilty"
 image: /images/songs/albemuth/guilty.jpg
+lyricist: "祭日ハネダ"
 ---
 
 

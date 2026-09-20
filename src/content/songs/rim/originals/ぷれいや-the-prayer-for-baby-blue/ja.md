@@ -15,6 +15,8 @@ categoryOrder: 10
 itemOrder: 632
 code: "apple-1875862394"
 image: /images/songs/rim/single-1875862093.jpg
+composer: "笹川真生"
+lyricist: "笹川真生"
 ---
 
 ## 作品概要

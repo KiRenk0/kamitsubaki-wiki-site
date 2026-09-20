@@ -5,7 +5,7 @@ title: "風"
 artist: "Guiano"
 artistId: guiano
 duration: "02:59"
-releaseDate: "2022-10-20"
+releaseDate: "2022-10-21"
 categoryTitle: "原创曲"
 categorySubtitle: "ORIGINALS"
 categoryOrder: 1

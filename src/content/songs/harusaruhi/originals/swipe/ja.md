@@ -15,6 +15,7 @@ categoryOrder: 10
 itemOrder: 445
 code: "apple-1785776180"
 image: /images/songs/harusaruhi/single-1785776179.jpg
+lyricist: "ASOBOiSM"
 ---
 
 ## 作品概要

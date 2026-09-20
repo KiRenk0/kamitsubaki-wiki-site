@@ -15,6 +15,8 @@ categoryOrder: 10
 itemOrder: 141
 code: "apple-1688514660"
 image: /images/songs/harusaruhi/single-1688514658.jpg
+composer: "Vincent Diamante"
+lyricist: "Vincent Diamante"
 ---
 
 ## Overview

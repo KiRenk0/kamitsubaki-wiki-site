@@ -15,6 +15,8 @@ categoryOrder: 10
 itemOrder: 290
 code: "apple-1692480354"
 image: /images/songs/harusaruhi/single-1692480353.jpg
+composer: "uno blaqlo"
+lyricist: "uno blaqlo"
 ---
 
 ## 作品概要

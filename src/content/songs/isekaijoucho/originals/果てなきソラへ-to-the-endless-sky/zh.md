@@ -15,6 +15,8 @@ categoryOrder: 10
 itemOrder: 443
 code: "apple-1781819766"
 image: /images/songs/isekaijoucho/single-1781819764.jpg
+composer: "大川茂伸"
+lyricist: "小原琉生"
 ---
 
 ## 作品简介

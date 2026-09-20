@@ -15,6 +15,8 @@ categoryOrder: 10
 itemOrder: 291
 code: "apple-1692480469"
 image: /images/songs/isekaijoucho/single-1692480468.jpg
+composer: "廉"
+lyricist: "廉"
 ---
 
 ## 作品概要

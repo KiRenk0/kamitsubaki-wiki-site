@@ -12,6 +12,7 @@ categoryOrder: 50
 itemOrder: 171
 code: "apple-1749003639"
 image: /images/songs/kaf/track-1749003639.jpg
+composer: "崎山蒼志"
 ---
 
 ## 作品简介
