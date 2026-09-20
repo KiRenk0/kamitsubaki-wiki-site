@@ -1,9 +1,6 @@
 .support-shell {
   --support-muted: rgb(var(--theme-fg-rgb) / .65);
   --support-soft: rgb(var(--theme-fg-rgb) / .025);
-  max-width: 1180px;
-  margin: auto;
-  padding: 100px 32px 40px;
   color: var(--theme-fg);
   overflow-wrap: anywhere;
 }
@@ -110,7 +107,6 @@
 .support-disclaimer p { font-size: 11px; line-height: 1.95; color: var(--support-muted); }
 .support-disclaimer p + p { margin-top: 10px; }
 @media (max-width: 1000px) {
-  .support-shell { padding-inline: 28px; }
   .support-costs, .support-transparency, .support-disclaimer { grid-template-columns: minmax(0, .85fr) minmax(0, 1.65fr); gap: 32px; }
   .support-totals { grid-template-columns: 1fr; gap: 14px; padding-block: 20px; }
   .support-totals > div { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; }
@@ -118,7 +114,6 @@
   .support-totals dt { margin: 0; }
 }
 @media (max-width: 760px) {
-  .support-shell { padding: 92px 22px 28px; }
   .support-channels { grid-template-columns: 1fr; }
   .support-ways .support-heading h2 { font-size: 23px; }
   .support-community { margin-top: 24px; padding: 20px; gap: 14px; flex-wrap: wrap; }

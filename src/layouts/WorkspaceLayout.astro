@@ -1,0 +1,27 @@
+---
+import type {HTMLAttributes} from 'astro/types';
+import {getCollection} from 'astro:content';
+import BaseLayout from './BaseLayout.astro';
+import SiteNav from '../components/SiteNav.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import WorkspaceShell from '../components/WorkspaceShell.astro';
+import WorkspaceHeader from '../components/WorkspaceHeader.astro';
+import {getLocalizedSite} from '../lib/homeData.mjs';
+import {buildLocaleLinks,supportedLocales} from '../lib/i18n.mjs';
+interface Props {
+  locale:string; title:string; intro:string; path:string; eyebrow?:string; backHref?:string; backLabel?:string;
+  width?:'standard'|'wide'|'reading'; noindex?:boolean;
+  mainAttributes?:HTMLAttributes<'main'>;
+}
+const {locale,title,intro,path,eyebrow,backHref,backLabel,width='standard',noindex=false,mainAttributes={}}=Astro.props;
+const site=getLocalizedSite(await getCollection('site'),locale);
+---
+<BaseLayout lang={locale} title={title} metadata={{title,description:intro,canonicalPath:`/${locale}${path}`,noindex}} alternates={supportedLocales.map(code=>({locale:code,href:`/${code}${path}`}))}>
+  <SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site,locale,path)} brandLines={site.hero.brandLines} homeHref={`/${locale}/`}/>
+  <WorkspaceShell {...mainAttributes} width={width}>
+    <WorkspaceHeader title={title} intro={intro} eyebrow={eyebrow} backHref={backHref} backLabel={backLabel}><slot name="actions"/><Fragment slot="status"><slot name="status"/></Fragment></WorkspaceHeader>
+    <slot name="navigation"/>
+    <slot/>
+  </WorkspaceShell>
+  <SiteFooter footer={site.footer}/>
+</BaseLayout>

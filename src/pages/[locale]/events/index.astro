@@ -1,4 +1,6 @@
 ---
+import WorkspaceHeader from '../../../components/WorkspaceHeader.astro';
+import WorkspaceShell from '../../../components/WorkspaceShell.astro';
 import { getCollection } from 'astro:content';
 import EventsCalendar from '../../../components/EventsCalendar.astro';
 import SiteFooter from '../../../components/SiteFooter.astro';
@@ -36,15 +38,10 @@ const metadata = {
       homeHref={`/${localeCode}/`}
     />
 
-    <main class="events-page__main">
-      <header class="events-page__hero">
-        <p>{copy.eyebrow}</p>
-        <h1>{copy.pageTitle}</h1>
-        <span>{copy.pageDescription}</span>
-        <a href={`/${localeCode}/`}>← {copy.backHomeLabel}</a>
-      </header>
+    <WorkspaceShell width="wide" class="events-page__main">
+      <WorkspaceHeader title={copy.pageTitle} intro={copy.pageDescription} eyebrow={copy.eyebrow} backHref={`/${localeCode}/`} backLabel={copy.backHomeLabel}></WorkspaceHeader>
       <EventsCalendar lang={localeCode} copy={copy} />
-    </main>
+    </WorkspaceShell>
 
     <SiteFooter footer={homeContent.footer} />
   </div>

@@ -1,8 +1,9 @@
 ---
+import WorkspaceFilters from '../../../components/WorkspaceFilters.astro';
+import WorkspaceShell from '../../../components/WorkspaceShell.astro';
 import '../../../styles/chronicleTimeline.css';
 import {entityLabel} from '../../../lib/entityLabels.mjs';
 import WorkspaceHeader from '../../../components/WorkspaceHeader.astro';
-import FeatureNavigation from '../../../components/labs/FeatureNavigation.astro';
 import '../../../styles/labsFeatures.css';
 import {getCollection} from 'astro:content';import BaseLayout from '../../../layouts/BaseLayout.astro';import SiteNav from '../../../components/SiteNav.astro';import SiteFooter from '../../../components/SiteFooter.astro';import {getLocalizedSite} from '../../../lib/homeData.mjs';import {buildLocaleLinks,resolveLocaleCopy} from '../../../lib/i18n.mjs';import {getEntityRegistry,entityLocales} from '../../../lib/entityRegistry.mjs';import {loadFeatureData,featureText,loadTaxonomy} from '../../../lib/featureData.mjs';import '../../../styles/encyclopedia.css';import '../../../styles/observatoryWorkspaces.css';
 export function getStaticPaths(){return entityLocales.map(locale=>({params:{locale}}));}
@@ -14,12 +15,12 @@ const events=data.events.map(event=>({...event,...featureText(event.text,locale)
 ---
 <BaseLayout title={`${copy.title} · Kamitsubaki Studio Fan Wiki`} lang={locale}>
 <SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site,locale,'/chronicle/')} brandLines={site.hero.brandLines} homeHref={`/${locale}/`}/>
-<main class="wiki-v3 feature-workspace chronicle-editor" data-timeline>
-<WorkspaceHeader title={copy.title} intro={copy.intro} eyebrow="LABs / CHRONICLE"><a href={`/${locale}/labs/explore/`}>← LABs</a></WorkspaceHeader>
-<FeatureNavigation locale={locale} current="chronicle"/>
+<WorkspaceShell width="wide" class="wiki-v3 feature-workspace chronicle-editor" data-timeline>
+<WorkspaceHeader title={copy.title} intro={copy.intro} eyebrow="LABs / CHRONICLE" backHref={`/${locale}/labs/explore/`} backLabel="LABs"></WorkspaceHeader>
+
 <div class="timeline-era-index" aria-label={copy.era}>{data.eras.map((era,i)=><button type="button" data-era={era.id}><span>0{i+1} / {era.start.slice(0,4)}{i<3?'—'+era.end.slice(0,4):'—'}</span><strong>{copy.eras[i]}</strong><small>{events.filter(e=>e.era===era.id).length} {ui.events}</small></button>)}</div>
 <details class="timeline-filter-panel"><summary>{ui.filter} <span data-filter-count></span></summary>
-<form class="toolbar feature-filters"><label><span>{copy.search}</span><input name="q" type="search" placeholder={copy.search}/></label><label><span>{copy.entity}</span><select name="entity"><option value="">{copy.all}</option>{people.map(e=><option value={e.data.id}>{e.data.name||e.data.title}</option>)}</select></label><label><span>{copy.type}</span><select name="type"><option value="">{copy.all}</option>{types.map(type=><option value={type}>{entityLabel(type,locale)}</option>)}</select></label><label><span>{copy.year}</span><select name="year"><option value="">{copy.all}</option>{[...new Set(events.map(e=>e.date.start.slice(0,4)))].map(year=><option>{year}</option>)}</select></label><button type="reset" class="filter-reset">{ui.reset}</button></form></details>
+<WorkspaceFilters class="toolbar feature-filters"><label><span>{copy.search}</span><input name="q" type="search" placeholder={copy.search}/></label><label><span>{copy.entity}</span><select name="entity"><option value="">{copy.all}</option>{people.map(e=><option value={e.data.id}>{e.data.name||e.data.title}</option>)}</select></label><label><span>{copy.type}</span><select name="type"><option value="">{copy.all}</option>{types.map(type=><option value={type}>{entityLabel(type,locale)}</option>)}</select></label><label><span>{copy.year}</span><select name="year"><option value="">{copy.all}</option>{[...new Set(events.map(e=>e.date.start.slice(0,4)))].map(year=><option>{year}</option>)}</select></label><button type="reset" class="filter-reset">{ui.reset}</button></WorkspaceFilters></details>
 <section class="timeline-console" aria-label={copy.title}>
 <div class="timeline-transport"><button type="button" data-fit>{ui.fit}</button><label>{ui.zoom}<input data-time-zoom type="range" min="1" max="40" step=".1" value="4"/><output data-scale>4×</output></label><output data-window aria-label={ui.range}></output></div>
 <div class="timeline-editor-body"><div class="timeline-track-labels"><div class="timeline-ruler-label">CHRONICLE</div>{tracks.map((track,i)=><div class="timeline-track-label"><span>0{i+1}</span><label><input type="checkbox" checked data-track value={track}/>{copy.tracks[i]}</label><button type="button" data-solo={track}>{copy.solo}</button></div>)}</div><div class="timeline-scroll" data-time-scroll tabindex="0" aria-label={ui.position}><div class="timeline-canvas" data-time-canvas><div class="timeline-ruler" data-ruler></div>{tracks.map((track,i)=><div class="timeline-track" data-lane={track} style={`--track-index:${i}`} aria-label={copy.tracks[i]}></div>)}<div class="timeline-playhead" data-playhead hidden></div></div></div></div>
@@ -30,5 +31,5 @@ const events=data.events.map(event=>({...event,...featureText(event.text,locale)
 <section class="timeline-inspector" aria-label={ui.select}><div class="timeline-inspector-list"><span class="timeline-kicker" data-group-title>{ui.select}</span><div data-event-list></div></div><article class="timeline-detail" data-detail><p>{ui.select}</p></article></section>
 <noscript><p>{locale==='en'?'Enable JavaScript to explore the interactive timeline.':locale==='ja'?'時間軸の操作には JavaScript が必要です。':'交互时间轴需要启用 JavaScript。'}</p></noscript>
 <script type="application/json" data-timeline-data set:html={JSON.stringify({events,eras:data.eras,tracks,trackLabels:copy.tracks,eraLabels:copy.eras,ui,locale}).replaceAll('<','\\u003c')}/>
-</main><SiteFooter footer={site.footer}/></BaseLayout>
+</WorkspaceShell><SiteFooter footer={site.footer}/></BaseLayout>
 <script>import {initTimeline} from '../../../lib/chronicleTimeline.ts';initTimeline();</script>

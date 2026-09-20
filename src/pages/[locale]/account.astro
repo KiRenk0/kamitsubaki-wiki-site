@@ -1,4 +1,5 @@
 ---
+import WorkspaceShell from '../../components/WorkspaceShell.astro';
 import WorkspaceHeader from '../../components/WorkspaceHeader.astro';
 import WorkspaceNavigation from '../../components/WorkspaceNavigation.astro';
 import {getCollection} from 'astro:content';
@@ -19,8 +20,8 @@ const libraryCopy={...labsCopy(locale),savedLocal:c.library,storageNote:c.privac
 ---
 <BaseLayout lang={locale} title={`${c.title} · KAMITSUBAKI Wiki`} metadata={{noindex:true}}>
   <SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site,locale,'/account/')} brandLines={site.hero.brandLines} homeHref={`/${locale}/`}/>
-  <main class="account-shell" data-account-page>
-    <WorkspaceHeader title={c.title} intro={c.intro} eyebrow="MY OBSERVATORY"><a class="account-button" href={`https://chat.kamitsubaki.wiki/${['ja','en'].includes(locale)?locale:'zh'}/`}>{c.ai} ↗</a><a class="account-button" href={`/${locale}/labs/explore/`}>{c.browse} →</a>{editorEnabled&&<a class="account-button" href={`/${locale}/contribute/editor/?view=submissions`}>{locale==='ja'?'自分の投稿':locale==='en'?'My submissions':'我的投稿'} →</a>}<button class="account-button" data-account-logout hidden>{c.logout}</button><Fragment slot="status"><p data-account-action-status role="status"></p><button class="account-button" data-account-reload hidden>{c.reloadAccount}</button></Fragment></WorkspaceHeader>
+  <WorkspaceShell width="standard" class="account-shell" data-account-page>
+    <WorkspaceHeader title={c.title} intro={c.intro} eyebrow="MY OBSERVATORY" backHref={`/${locale}/`} backLabel={locale==='en'?'Home':locale==='ja'?'ホーム':'首页'}><a class="account-button" href={`https://chat.kamitsubaki.wiki/${['ja','en'].includes(locale)?locale:'zh'}/`}>{c.ai} ↗</a><a class="account-button" href={`/${locale}/labs/explore/`}>{c.browse} →</a>{editorEnabled&&<a class="account-button" href={`/${locale}/contribute/editor/?view=submissions`}>{locale==='ja'?'自分の投稿':locale==='en'?'My submissions':'我的投稿'} →</a>}<button class="account-button" data-account-logout hidden>{c.logout}</button><Fragment slot="status"><p data-account-action-status role="status"></p><button class="account-button" data-account-reload hidden>{c.reloadAccount}</button></Fragment></WorkspaceHeader>
     <noscript>{c.javascript}</noscript>
     <div class="account-workspace"><WorkspaceNavigation label={c.title} kind="account"><a href="#library">{c.library}</a><a href="#profile">{c.profile}</a><a href="#identities">{c.linked}</a><a href="#devices">{c.devices}</a><a href="#data">{c.data}</a></WorkspaceNavigation><div class="account-panels">
     <section class="account-gate" data-account-gate hidden><h2 data-account-gate-title>{c.loginTitle}</h2><p>{c.loginNote}</p><button class="account-button account-primary" data-account-login>{c.login}</button></section>
@@ -30,7 +31,7 @@ const libraryCopy={...labsCopy(locale),savedLocal:c.library,storageNote:c.privac
     <section id="devices" data-account-panel="devices" class="account-section" data-account-member hidden><h2>{c.devices}</h2><button class="account-button" data-sessions-load>{c.retry}</button><ul data-account-sessions class="account-session-list"></ul><button class="account-button" data-sessions-revoke-others>{c.revokeOthers}</button><p data-sessions-status role="status"></p></section>
     <section id="data" data-account-panel="data" class="account-section" data-account-member hidden><h2>{c.data}</h2><p>{c.exportNote}</p><div class="account-actions"><button class="account-button" data-account-export>{c.export}</button><button class="account-button" data-ai-export>{c.exportAI}</button></div><details class="account-delete"><summary>{c.requestDelete}</summary><p>{c.deleteNote}</p><form data-deletion-form><label>{c.deleteConfirm}<input name="confirmation" required pattern="DELETE" autocomplete="off"/></label><button class="account-button" type="submit">{c.requestDelete}</button></form></details><p data-deletion-status role="status"></p><button class="account-button" data-deletion-cancel hidden>{c.cancelDelete}</button><p data-data-status role="status"></p></section>
     </div></div>
-  </main>
+  </WorkspaceShell>
   <SiteFooter footer={site.footer}/>
 </BaseLayout>
 <script>import '../../scripts/accountPage.js';import '../../scripts/accountNavigation.js';</script>

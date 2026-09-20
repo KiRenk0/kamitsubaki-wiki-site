@@ -1,0 +1,9 @@
+---
+import type {HTMLAttributes} from 'astro/types';
+interface Props extends Omit<HTMLAttributes<'section'>,'title'> {title:string;description?:string;}
+const {title,description,class:className,...attributes}=Astro.props;
+---
+<section {...attributes} class:list={['workspace-section',className]}>
+  <header class="workspace-section-heading"><div><h2>{title}</h2>{description&&<p>{description}</p>}</div>{Astro.slots.has('actions')&&<div class="workspace-section-actions"><slot name="actions"/></div>}</header>
+  <slot/>
+</section>

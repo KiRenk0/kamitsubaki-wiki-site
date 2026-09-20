@@ -2,6 +2,10 @@
 
 本目录为主站维护文档的权威来源。工作区根目录 `docs/` 是镜像，请在主站编辑后运行 `node scripts/sync-docs.mjs`，不要两处独立修改。
 
+## 页面设计与复用
+
+- [二级页面显示规范、组件 API 与新页面模板](design/page-system.md)
+
 ## 贡献与日常维护
 
 - [贡献指南](contributing.md) · [English](contributing.en.md) · [日本語](contributing.ja.md)

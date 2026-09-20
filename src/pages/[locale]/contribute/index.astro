@@ -1,4 +1,5 @@
 ---
+import WorkspaceShell from '../../../components/WorkspaceShell.astro';
 import WorkspaceHeader from '../../../components/WorkspaceHeader.astro';
 import WorkspaceNavigation from '../../../components/WorkspaceNavigation.astro';
 import {getCollection} from 'astro:content';
@@ -54,9 +55,9 @@ const documents=rendered.map((document,index)=>{
 ---
 <BaseLayout lang={locale} title={copy.title} metadata={{title:copy.title,description:copy.intro,canonicalPath:`/${locale}/contribute/`}} alternates={supportedLocales.map(locale=>({locale,href:`/${locale}/contribute/`}))}>
  <SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site,locale,'/contribute/')} brandLines={site.hero.brandLines} homeHref={`/${locale}/`} />
- <main class="labs-shell contribution-hub" data-contribution-hub data-locale={locale}>
-  <WorkspaceHeader title={copy.title} intro={copy.intro}>
-   <a href={`/${locale}/`}>{copy.home}</a><a data-hub-editor href={`/${locale}/contribute/editor/`}>{copy.editor} <span aria-hidden="true">↗</span></a>
+ <WorkspaceShell width="wide" class="labs-shell contribution-hub" data-contribution-hub data-locale={locale}>
+  <WorkspaceHeader title={copy.title} intro={copy.intro} backHref={`/${locale}/`} backLabel={copy.home}>
+   <a data-hub-editor href={`/${locale}/contribute/editor/`}>{copy.editor} <span aria-hidden="true">↗</span></a>
   </WorkspaceHeader>
   <p class="hub-target" hidden data-hub-target></p>
   <WorkspaceNavigation label={copy.title} kind="hub">
@@ -68,18 +69,18 @@ const documents=rendered.map((document,index)=>{
     <Fragment set:html={doc.html}/>{doc.id==='github' && <p><a href="https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/issues">GitHub Issues ↗</a> · <a href="https://github.com/LinkTh1rsty/kamitsubaki-wiki-site">GitHub ↗</a></p>}
    </Reader>
   </section>)}
- </main>
+ </WorkspaceShell>
  <SiteFooter footer={site.footer}/>
  <script>import '../../../scripts/contributionHub.js';</script>
 </BaseLayout>
 <style>
  /* Keep the viewport as the sticky scroll container; hidden would create a body scroll container. */
  :global(body:has(.contribution-hub)){overflow-x:clip}
- .contribution-hub{padding-top:92px;--reader-sticky-top:164px}
+ .contribution-hub{--reader-sticky-top:164px}
  .hub-target{font-size:12px;overflow-wrap:anywhere;color:var(--b-muted);margin:0 0 12px}
  .hub-document{padding-top:0}.hub-document[hidden]{display:none}
  .hub-document-heading{display:flex;align-items:baseline;gap:12px;margin:0 0 16px}.hub-document-heading h2{font-size:22px;margin:0}.hub-document-heading>span{font-size:11px;color:var(--b-muted)}
  :global(.hub-prose h2),:global(.hub-prose h3){scroll-margin-top:100px}
  :global(.hub-prose pre){max-width:100%;overflow:auto}:global(.hub-prose table){max-width:100%}
- @media(max-width:760px){.contribution-hub{padding-top:84px}:global(.hub-prose h2){font-size:23px}}
+ @media(max-width:760px){:global(.hub-prose h2){font-size:23px}}
 </style>

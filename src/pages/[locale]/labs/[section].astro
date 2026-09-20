@@ -1,4 +1,9 @@
 ---
+import WorkspaceGroup from '../../../components/WorkspaceGroup.astro';
+import WorkspaceButton from '../../../components/WorkspaceButton.astro';
+import WorkspaceSection from '../../../components/WorkspaceSection.astro';
+import WorkspaceLinkCard from '../../../components/WorkspaceLinkCard.astro';
+import WorkspaceShell from '../../../components/WorkspaceShell.astro';
 import WorkspaceHeader from '../../../components/WorkspaceHeader.astro';
 import {getEntityRegistry} from '../../../lib/entityRegistry.mjs';
 import { getCollection } from 'astro:content';
@@ -27,34 +32,33 @@ const projects = (await getEntityRegistry()).list(locale).filter(e=>e.data.entit
 ---
 <BaseLayout lang={locale} title={`${copy.tabs[current]} · ${copy.title}`} metadata={{ noindex: true }}>
   <SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site, locale, route)} brandLines={site.hero.brandLines} homeHref={`/${locale}/`} />
-  <main class="labs-shell" data-labs-section={section} data-locale={locale}>
-    <WorkspaceHeader title={copy.title} intro={copy.intro} eyebrow="LABs"><a href={`/${locale}/`}>{copy.home}</a></WorkspaceHeader>
-    <div class="labs-tool-context" data-labs-tool-context hidden={!['timeline','relations','world'].includes(section)}><a href={`/${locale}/labs/explore/`}>← {directoryCopy.back}</a><h2 data-labs-tool-title tabindex="-1">{copy.tabs[current]}</h2></div>
+  <WorkspaceShell width="wide" class="labs-shell" data-labs-section={section} data-locale={locale}>
+    <WorkspaceHeader title={section==='explore'?copy.title:copy.tabs[current]} intro={section==='explore'?copy.intro:section==='relations'?copy.graphNote:section==='timeline'?copy.dateNote:copy.worldNote} eyebrow="LABs" backHref={section==='explore'?`/${locale}/`:`/${locale}/labs/explore/`} backLabel={section==='explore'?copy.home:directoryCopy.back}/>
     <div class="labs-panels" data-labs-panels>
-    <section class="labs-panel" id="labs-panel-explore" data-labs-panel="explore" aria-label={directoryCopy.nav} tabindex="-1" hidden={section !== 'explore'}>
-      <div class="labs-discover-heading"><h2>{directoryCopy.title}</h2><div class="labs-actions"><button data-search-open>{copy.fullSearch}</button><button data-random-discovery>{copy.random} ↗</button></div></div>
-      <div class="labs-feature-groups">{featureGroups.map((items,i)=><section class="labs-feature-group"><header><span>0{i+1}</span><h3>{directoryCopy.groups[i]}</h3><p>{directoryCopy.notes[i]}</p></header><div>{items.map(item=><a class="labs-feature-link" href={`/${locale}/${item.path}/`}><span><strong>{item.title}</strong><small>{item.description}</small></span><span aria-hidden="true">↗</span></a>)}</div></section>)}</div>
-    </section>
+    <WorkspaceSection title={directoryCopy.title} class="labs-panel" id="labs-panel-explore" data-labs-panel="explore" aria-label={directoryCopy.nav} tabindex="-1" hidden={section !== 'explore'}>
+      <div slot="actions" class="labs-actions"><WorkspaceButton data-search-open tone="primary">{copy.fullSearch}</WorkspaceButton><WorkspaceButton data-random-discovery>{copy.random} ↗</WorkspaceButton></div>
+      <div class="workspace-group-grid">{featureGroups.map((items,i)=><WorkspaceGroup index={String(i+1).padStart(2,'0')} title={directoryCopy.groups[i]} description={directoryCopy.notes[i]}>{items.map(item=><WorkspaceLinkCard href={`/${locale}/${item.path}/`} title={item.title} description={item.description}/>)}</WorkspaceGroup>)}</div>
+    </WorkspaceSection>
     <section class="labs-panel" id="labs-panel-timeline" data-labs-panel="timeline" aria-label={copy.tabs[1]} hidden={section !== 'timeline'}>
-      <p class="labs-note">{copy.dateNote}</p>
+
       <div class="labs-toolbar"><label><span>{copy.search}</span><input type="search" data-query placeholder="花谱 / KAF / V.W.P" /></label><label><span>{copy.kind}</span><select data-kind><option value="">{copy.all}</option>{['events','person','virtual-avatar','unit','software-voice','work-track','work-release','project','organization','live-event','lore-concept','editorial-article'].map(k => <option value={k}>{copy.kinds[k]}</option>)}</select></label><label><span>{copy.year}</span><select data-year><option value="">{copy.all}</option></select></label><label><span>{copy.order}</span><select data-order><option value="desc">{copy.newest}</option><option value="asc">{copy.oldest}</option></select></label><button data-reset>{copy.reset}</button></div>
       <div class="labs-status" role="status" data-status>{copy.loading}</div><div class="labs-results" data-results></div><button data-more hidden>{copy.more}</button>
     </section>
     <section class="labs-panel" id="labs-panel-relations" data-labs-panel="relations" aria-label={copy.tabs[2]} hidden={section !== 'relations'}>
-      <p class="labs-note">{copy.graphNote}</p><label><span>{copy.choose}</span><input data-query type="search" placeholder="花谱 / KAF / V.W.P" /></label>
+      <label><span>{copy.choose}</span><input data-query type="search" placeholder="花谱 / KAF / V.W.P" /></label>
       <div class="labs-status" role="status" data-status>{copy.loading}</div><div class="labs-pick-list" data-picks></div>
       <div class="labs-graph-layout"><svg class="labs-graph" viewBox="0 0 700 460" role="group" aria-label={copy.tabs[2]} data-graph></svg><aside class="labs-graph-detail" data-detail></aside></div>
       <h2 style="margin-top:32px">{copy.related}</h2><div class="labs-results" data-results></div><button data-more hidden>{copy.more}</button>
     </section>
     <section class="labs-panel" id="labs-panel-world" data-labs-panel="world" aria-label={copy.tabs[3]} hidden={section !== 'world'}>
-      <p class="labs-note">{copy.worldNote}</p>
+
       {labsWorlds.map((world, i) => <section class="labs-world-route"><small>{String(i+1).padStart(2,'0')} / {world.kind} · {world.date}</small><h2>{world.title}</h2><p>{resolveLocaleCopy(world.copy, locale)}</p><details><summary>{copy.spoiler}</summary><p>{resolveLocaleCopy(world.spoiler, locale)}</p></details><div class="labs-actions"><a class="labs-button" href={world.source} target="_blank" rel="noopener noreferrer">{copy.source} ↗</a>{world.path && <a class="labs-button" href={`/${locale}/projects/${world.path}/`}>{copy.open}</a>}</div></section>)}
       <h2 style="margin-top:40px">{copy.projects}</h2>{projects.map(p => <div class="labs-row"><div class="labs-row-body"><h3><a href={p.url}>{p.data.title}</a></h3><p>{p.data.summary || copy.projects}</p></div></div>)}
     </section>
     </div>
     <noscript><p>{copy.failure} JavaScript is required for the interactive Labs tools.</p></noscript>
     <script is:inline type="application/json" data-labs-copy set:html={JSON.stringify(copy).replace(/</g,'\\u003c')} />
-  </main>
+  </WorkspaceShell>
   <SiteFooter footer={site.footer} />
   <script>import '../../../scripts/labsTabs.js';</script>
 </BaseLayout>

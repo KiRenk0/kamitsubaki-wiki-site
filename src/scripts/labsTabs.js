@@ -79,10 +79,14 @@ function initializeTabs(shell) {
     }
     updateDocument(section);
     initializePanel(section).activate();
-    const context=shell.querySelector('[data-labs-tool-context]');
-    context.hidden=!['timeline','relations','world'].includes(section);
-    context.querySelector('[data-labs-tool-title]').textContent=copy.tabs[index];
-    if (focusWasInPanel && previous !== section) (section==='explore'?panels.get(section):context.querySelector('[data-labs-tool-title]')).focus({preventScroll:true});
+    const heading = shell.querySelector('.workspace-heading h1');
+    heading.textContent = section === 'explore' ? copy.title : copy.tabs[index];
+    heading.tabIndex = -1;
+    shell.querySelector('.workspace-heading>p:not(.workspace-eyebrow)').textContent = section === 'explore' ? copy.intro : section === 'relations' ? copy.graphNote : section === 'timeline' ? copy.dateNote : copy.worldNote;
+    const back = shell.querySelector('.workspace-back');
+    back.href = section === 'explore' ? `/${locale}/` : `/${locale}/labs/explore/`;
+    back.lastElementChild.textContent = section === 'explore' ? copy.home : copy.tabs[0];
+    if (focusWasInPanel && previous !== section) heading.focus({preventScroll:true});
     if (animate && previous !== section && !reducedMotion.matches) {
       animation = revealPanel(panels.get(section), {direction: index > sections.indexOf(previous) ? 1 : -1});
     }

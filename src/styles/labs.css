@@ -4,9 +4,6 @@
   --b-muted: rgb(var(--theme-fg-rgb)/0.62);
   --b-accent: #6bd7c3;
   color: var(--theme-fg);
-  max-width: 1180px;
-  margin: 0 auto;
-  padding: 100px 32px 80px;
   font-size: 15px;
   line-height: 1.7;
 }
@@ -444,3 +441,16 @@ html[data-theme='light'] .labs-shell {
   border-radius: var(--ui-radius-control);
   margin-bottom: 18px;
 }
+
+/* Tool contents use the same compact materials as the navigation directory. */
+html body main.workspace-page .labs-graph-layout{gap:20px;align-items:start}
+html body main.workspace-page :is(.labs-graph,.labs-graph-detail,.labs-world-route){border:1px solid var(--workspace-line);border-radius:var(--workspace-radius);background:var(--workspace-surface)}
+html body main.workspace-page :is(.labs-graph-detail,.labs-world-route){padding:20px}
+html body main.workspace-page .labs-world-route{margin-bottom:16px}
+html body main.workspace-page .labs-world-route h2{font:400 22px/1.6 var(--font-serif);margin:10px 0}
+html body main.workspace-page .labs-world-route p{font-size:13px;line-height:1.9}
+html body main.workspace-page .labs-toolbar{gap:16px;padding:20px;border:1px solid var(--workspace-line);border-radius:var(--workspace-radius);background:var(--workspace-surface)}
+html body main.workspace-page .labs-row{transition:background var(--workspace-motion),border-color var(--workspace-motion);border-radius:8px;padding:16px}
+html body main.workspace-page .labs-row:hover{background:rgb(var(--theme-fg-rgb)/.025);border-color:var(--theme-accent-color)}
+html body main.workspace-page .labs-panel>label:has([data-query]){display:grid;gap:8px;max-width:560px;margin:0 0 16px;font-size:12px}
+html body main.workspace-page .labs-panel :is(input[type=search],select){min-height:44px;border-radius:8px}

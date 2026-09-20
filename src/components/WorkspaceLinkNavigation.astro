@@ -1,0 +1,15 @@
+---
+interface Props {label:string;items:{label:string;href:string;current?:boolean}[];}
+const {label,items}=Astro.props;
+---
+<nav class="workspace-link-navigation" aria-label={label}>{items.map(item=><a href={item.href} aria-current={item.current?'page':undefined}>{item.label}</a>)}</nav>
+<style>
+.workspace-link-navigation{display:flex;gap:28px;max-width:100%;overflow-x:auto;margin:0 0 var(--workspace-gap,28px);border-bottom:1px solid rgb(var(--theme-fg-rgb)/.15);scrollbar-width:thin}
+.workspace-link-navigation a{position:relative;flex-shrink:0;display:inline-flex;align-items:center;min-height:44px;padding:10px 0 14px;font:12px/1.5 var(--font-sans);color:rgb(var(--theme-fg-rgb)/.62);text-decoration:none;transition:color 220ms}
+.workspace-link-navigation a::after{content:'';position:absolute;bottom:0;inset-inline:0;height:2px;background:var(--theme-accent-color);transform:scaleX(0);transform-origin:left;transition:transform 220ms}
+.workspace-link-navigation a:hover,.workspace-link-navigation a[aria-current]{color:var(--theme-accent-color)}
+.workspace-link-navigation a[aria-current]::after,.workspace-link-navigation a:hover::after{transform:scaleX(1)}
+.workspace-link-navigation a:focus-visible{outline:2px solid var(--theme-accent-color);outline-offset:-3px}
+@media(max-width:760px){.workspace-link-navigation{gap:22px}}
+@media(prefers-reduced-motion:reduce){.workspace-link-navigation a,.workspace-link-navigation a::after{transition:none}}
+</style>

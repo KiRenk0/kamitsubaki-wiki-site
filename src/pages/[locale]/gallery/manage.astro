@@ -1,21 +1,19 @@
 ---
-import BaseLayout from '../../../layouts/BaseLayout.astro';
-import SiteNav from '../../../components/SiteNav.astro';
-import SiteFooter from '../../../components/SiteFooter.astro';
-import {getCollection} from 'astro:content';
-import {getLocalizedSite} from '../../../lib/homeData.mjs';
-import {supportedLocales,buildLocaleLinks} from '../../../lib/i18n.mjs';
+import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
+import {supportedLocales,resolveLocaleCopy} from '../../../lib/i18n.mjs';
 import {galleryManagerMarkup,galleryManagerStyles} from '../../../lib/galleryManager.js';
 export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
-const locale=Astro.params.locale!,site=getLocalizedSite(await getCollection('site'),locale);
+const locale=Astro.params.locale!;
 const api=import.meta.env.PUBLIC_GALLERY_API_URL||import.meta.env.PUBLIC_AI_OBSERVER_API_BASE||'https://api.kamitsubaki.wiki';
+const copy=resolveLocaleCopy({
+ zh:{title:'上传与完善设定资料',intro:'选择角色并上传图片，其他资料可稍后补充。每次修改经审核后公开。',back:'返回图库',login:'登录后参与'},
+ ja:{title:'設定資料の投稿・編集',intro:'キャラクターと画像を選び、補足情報は後から追加できます。変更は審査後に公開されます。',back:'ギャラリーへ',login:'ログインして参加'},
+ en:{title:'Contribute reference material',intro:'Choose a character and image. Add other details now or later; changes are published after review.',back:'Back to gallery',login:'Sign in to contribute'}
+},locale);
 ---
-<BaseLayout lang={locale} title="图库投稿与维护" metadata={{noindex:true}}>
-<SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site,locale,'/gallery/manage/')} brandLines={site.hero.brandLines} homeHref={`/${locale}/`}/>
-<style is:global set:html={galleryManagerStyles}/>
-<main class="gallery-manage-shell" data-gallery-api={api} data-gallery-login={`/${locale}/account/`}>
-<a class="back" href={`/${locale}/gallery/`}>← 返回图库</a><div set:html={galleryManagerMarkup}/>
-</main><SiteFooter footer={site.footer}/>
-</BaseLayout>
-<style>.gallery-manage-shell{padding:100px 32px 80px;max-width:1280px;margin:auto}.back{display:inline-block;margin-bottom:22px;font-size:12px}@media(max-width:760px){.gallery-manage-shell{padding:88px 22px 60px}}</style>
+<WorkspaceLayout locale={locale} title={copy.title} intro={copy.intro} path="/gallery/manage/" eyebrow="LABs / VISUAL ARCHIVE" backHref={`/${locale}/gallery/`} backLabel={copy.back} noindex mainAttributes={{class:'gallery-manage-shell','data-gallery-api':api,'data-gallery-login':`/${locale}/account/`}}>
+  <Fragment slot="actions"><a data-gallery-login hidden>{copy.login}</a></Fragment>
+  <style is:global set:html={galleryManagerStyles}/>
+  <div set:html={galleryManagerMarkup.replace(/<header>[\s\S]*?<\/header>/,'')}/>
+</WorkspaceLayout>
 <script>import {initGalleryManager} from '../../../lib/galleryManager.js';const root=document.querySelector<HTMLElement>('[data-gallery-api]');if(root)initGalleryManager(root,{api:root.dataset.galleryApi,login:root.dataset.galleryLogin});</script>

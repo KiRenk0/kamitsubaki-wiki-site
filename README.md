@@ -218,3 +218,7 @@ CI 工作流位于 `.github/workflows/ci.yml`。
 - Astro Content Collections
 - Tailwind CSS v4 through Vite
 - Markdown 与 KaTeX 数学公式支持
+
+## 页面开发规范
+
+二级页面统一使用 [页面显示规范与组件 API](docs/design/page-system.md)。新页面优先调用 `WorkspaceLayout`，已有复杂页面使用 `WorkspaceShell` + `WorkspaceHeader`；标题、留白与通用控件由公共样式管理。
