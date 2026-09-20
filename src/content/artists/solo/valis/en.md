@@ -6,7 +6,7 @@ romanizedName: "VALIS"
 categoryOrder: 2
 itemOrder: 2
 meta: "DEBUT: 2020"
-debutDate: "2020-05-15"
+debutDate: "2020-05-01"
 profileTagline: "A five-member virtual girls group that travels between virtual and real worlds through both avatar and origin performance forms."
 designCredits:
   - "Avatar design: Nekosuke"

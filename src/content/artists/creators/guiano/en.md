@@ -6,7 +6,7 @@ romanizedName: "Guiano"
 categoryOrder: 4
 itemOrder: 2
 meta: "ROLE: COMPOSER"
-debutDate: "2014"
+debutDate: "2019-10-18"
 profileTagline: "A Vocaloid producer and singer-songwriter under KAMITSUBAKI STUDIO who has provided songs for Rim, KAF, Myuk, and others."
 designCredits: []
 affiliations:

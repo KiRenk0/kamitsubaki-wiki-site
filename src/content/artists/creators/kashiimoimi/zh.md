@@ -6,7 +6,7 @@ romanizedName: "Moimi Kashii"
 categoryOrder: 3
 itemOrder: 13
 meta: "ROLE: COMPOSER"
-debutDate: "2018-12-01"
+debutDate: "2020-01-01"
 profileTagline: "以黑暗上瘾旋律与女性视角著称的女性 VocaloP，融合钢琴、弦乐、EDM 与城市流行。"
 designCredits: []
 affiliations:

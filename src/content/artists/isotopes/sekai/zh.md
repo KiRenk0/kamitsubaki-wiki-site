@@ -6,7 +6,7 @@ romanizedName: "SEKAI"
 categoryOrder: 3
 itemOrder: 2
 meta: "RELEASE: 2022.04.29"
-debutDate: "2022-04-29"
+debutDate: "2022-05-20"
 profileTagline: "基于ヰ世界情绪歌声打造的 CeVIO AI 音乐同位体声库，兼具高冷透彻感与哥特幻想色彩。"
 designCredits:
   - "角色设计：れおえん"

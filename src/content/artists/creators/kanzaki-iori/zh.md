@@ -6,7 +6,7 @@ romanizedName: "Kanzaki Iori"
 categoryOrder: 4
 itemOrder: 1
 meta: "CREATOR / VOCALOID PRODUCER"
-debutDate: "2014-01-01"
+debutDate: "2018-10-18"
 profileTagline: "以《被生命所厌恶。》为代表作，用极具穿透力的歌词与抒情旋律打动无数同好的音乐家兼小说家。"
 designCredits:
   - "视觉及概念协作：KAMITSUBAKI STUDIO"

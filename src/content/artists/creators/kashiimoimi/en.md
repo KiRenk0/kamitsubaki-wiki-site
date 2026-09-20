@@ -6,7 +6,7 @@ romanizedName: "Moimi Kashii"
 categoryOrder: 3
 itemOrder: 13
 meta: "ROLE: COMPOSER"
-debutDate: "2018-12-01"
+debutDate: "2020-01-01"
 profileTagline: "A female VocaloP known for dark, addictive melodies and a distinctly feminine perspective, blending piano, strings, EDM, and city pop."
 designCredits: []
 affiliations:

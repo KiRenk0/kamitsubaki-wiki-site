@@ -6,7 +6,7 @@ romanizedName: "Guiano"
 categoryOrder: 4
 itemOrder: 2
 meta: "ROLE: COMPOSER"
-debutDate: "2014"
+debutDate: "2019-10-18"
 profileTagline: "神椿所属のボカロP / シンガーソングライター。理芽、花譜、Myuk など複数のアーティストへ楽曲提供。"
 designCredits: []
 affiliations:

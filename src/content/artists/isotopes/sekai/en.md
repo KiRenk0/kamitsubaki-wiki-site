@@ -6,7 +6,7 @@ romanizedName: "SEKAI"
 categoryOrder: 3
 itemOrder: 2
 meta: "ORIGIN: ISEKAIJOUCHO"
-debutDate: "2022-04-29"
+debutDate: "2022-05-20"
 profileTagline: "A CeVIO AI musical isotope built from ISEKAIJOUCHO's vocal data, inheriting the transparency and narrative quality of the original voice."
 designCredits:
   - "Character Design: Leoen"

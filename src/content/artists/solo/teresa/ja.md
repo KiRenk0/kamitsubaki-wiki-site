@@ -6,7 +6,7 @@ romanizedName: "teresaAI"
 categoryOrder: 2
 itemOrder: 4
 meta: "分裂: 2023.03"
-debutDate: "2020-05-29"
+debutDate: "2020-05-15"
 profileTagline: "東京生まれ・ロサンゼルス育ちの3DCGバーチャルシンガー。バイリンガルפופと、音声合成ソフトウェアとアーティストへの分裂で知られる。"
 designCredits:
   - "3DCGキャラクター制作: 非公開"

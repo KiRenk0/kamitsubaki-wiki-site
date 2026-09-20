@@ -6,7 +6,7 @@ romanizedName: "teresaAI"
 categoryOrder: 2
 itemOrder: 4
 meta: "分裂: 2023.03"
-debutDate: "2020-05-29"
+debutDate: "2020-05-15"
 profileTagline: "东京出生、洛杉矶长大的3DCG虚拟歌手，以双语流行音乐及分裂为音声合成软件与真人艺术家两个实体而闻名。"
 designCredits:
   - "3DCG角色制作: 未公开"

@@ -6,7 +6,7 @@ romanizedName: "Guiano"
 categoryOrder: 4
 itemOrder: 2
 meta: "CREATOR / VOCALOID PRODUCER"
-debutDate: "2014-01-01"
+debutDate: "2019-10-18"
 profileTagline: "融合 EDM、J-Pop 与诗意叙事的全能 Vocaloid Producer 与音乐人。"
 designCredits:
   - "视觉及概念协作：KAMITSUBAKI STUDIO"

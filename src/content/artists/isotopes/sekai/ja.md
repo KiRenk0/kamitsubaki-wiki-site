@@ -6,7 +6,7 @@ romanizedName: "SEKAI"
 categoryOrder: 3
 itemOrder: 2
 meta: "ORIGIN: ISEKAIJOUCHO"
-debutDate: "2022-04-29"
+debutDate: "2022-05-20"
 profileTagline: "ヰ世界情緒の歌声データをベースに生成された CeVIO AI 音楽的同位体。原歌声の透明感と物物語性を継承。"
 designCredits:
   - "キャラクターデザイン：れおえん"

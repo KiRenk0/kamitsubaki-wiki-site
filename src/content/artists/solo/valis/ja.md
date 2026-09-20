@@ -6,7 +6,7 @@ romanizedName: "VALIS"
 categoryOrder: 2
 itemOrder: 2
 meta: "DEBUT: 2020"
-debutDate: "2020-05-15"
+debutDate: "2020-05-01"
 profileTagline: 'アバターと"オリジン"の姿を行き来しながら、バーチャルとリアルの世界を旅する5人組バーチャルガールズグループ。'
 designCredits:
   - "キャラクターデザイン：ねこ助"

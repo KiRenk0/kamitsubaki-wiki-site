@@ -6,7 +6,7 @@ romanizedName: "VALIS"
 categoryOrder: 2
 itemOrder: 2
 meta: "DEBUT: 2020"
-debutDate: "2020-05-15"
+debutDate: "2020-05-01"
 profileTagline: '在虚拟形象与"起源"真实形态之间穿梭往来的五人虚拟少女团体，以二元性为核心持续展开活动。'
 designCredits:
   - "角色设计：ねこ助（Nekosuke）"

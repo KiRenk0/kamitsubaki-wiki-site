@@ -6,7 +6,7 @@ romanizedName: "teresaAI"
 categoryOrder: 2
 itemOrder: 4
 meta: "SPLIT: 2023.03"
-debutDate: "2020-05-29"
+debutDate: "2020-05-15"
 profileTagline: "A 3DCG virtual singer born in Tokyo and raised in Los Angeles, known for bilingual pop and a landmark split into voice-synthesis software and a human artist identity."
 designCredits:
   - "3DCG character production: undisclosed"

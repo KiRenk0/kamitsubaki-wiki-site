@@ -6,7 +6,7 @@ romanizedName: "Kanzaki Iori"
 categoryOrder: 4
 itemOrder: 1
 meta: "ROLE: COMPOSER"
-debutDate: "2014-01"
+debutDate: "2018-10-18"
 statusLabel: "STATUS"
 status: "INDEPENDENT"
 image: "https://placehold.co/1200x800/0a0a12/a0a0b0?text=KANZAKI-IORI"
