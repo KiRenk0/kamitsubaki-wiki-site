@@ -16,7 +16,7 @@
 
 1. 填写标题、语言、分类和正文；摘要与关联词条 ID 可选。
 2. 保存草稿后内容存入 D1，可从“我的文章提案”继续编辑。草稿允许内容未填完，提交必须有标题与正文。
-3. 正文使用 Markdown，提供标题、粗体、链接、图片网址工具及安全预览。当前图片通过网址插入，文章页尚不提供独立文件上传控件。
+3. 文章与词条复用 `EditorWorkbench.astro` 和 `visualEditor.js`：可视化内容块、完整工具栏、大纲、撤销/重做、源码与并排预览为同一实现。文章源码只显示正文，标题、摘要、分类和关联词条在属性中维护。当前图片通过网址插入，文章页尚不提供独立文件上传控件。
 4. 提交后进入待审，公开文章继续显示此前批准版本。退回意见可在个人提案中查看，并复制修改后重新投稿。
 5. 管理员批准后公开。任何登录用户均可对公开文章提出修改，但不能直接覆盖文章或审核自己的权限之外的提案。
 
@@ -48,6 +48,6 @@
 
 ## 维护与检查
 
-后端 `src/articles/manager.js` 是投稿/审核共享界面的源文件；主站执行 `node scripts/v3/sync-article-manager.mjs` 同步，`--check` 验证镜像一致。页面框架使用 WorkspaceLayout，阅读器使用 Reader。
+词条和文章投稿入口均调用 `src/components/editor/EditorWorkbench.astro`，共用 `src/scripts/visualEditor.js`。文章专用 `src/scripts/articleSubmission.js` 只负责 D1 保存、提案状态和审核提交，不实现正文编辑器。文章和词条的本地草稿存储键相互隔离；未修改正文时保留原始文本。后端 `src/articles/manager.js` 仅用于后台审稿界面。文章公开正文与编辑预览共用 `editorPreview.mjs` 内容块渲染器，阅读框架使用 Reader。
 
 后端检查：`node --test tests/articles.test.mjs`。主站检查：`pnpm exec astro check`。改动涉及数据库事务或审核权限时，应覆盖草稿隐私、普通用户不能审核、重复审批与基准版本冲突。真实发布验收仍必须用实际账号和 D1。

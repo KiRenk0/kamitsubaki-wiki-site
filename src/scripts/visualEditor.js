@@ -1,3 +1,4 @@
+import {initializeArticleSubmission} from './articleSubmission.js';
 import {entitySourcePath} from '../lib/contentLayout.mjs';
 import {revealPanel,enhanceTabRail} from '../lib/uiMotion.mjs';
 import {newEntryPath,prepareImage,attachmentFile,imageBase64} from '../lib/editorAttachments.mjs';
@@ -52,22 +53,26 @@ const initialize = () => {
   const creationDictionary=JSON.parse(root.dataset.creationCopy || '{}');
   const tc = text => creationDictionary[text] || text;
   const uiLocale = root.dataset.locale.startsWith('zh') ? 'zh' : root.dataset.locale;
-  const prDemo = editorEnabled;
-  const key = `${prDemo ? 'kamitsubaki-visual-editor-pr-demo-v1' : 'kamitsubaki-visual-editor-v1'}:${root.dataset.contentLocale}`;
+  const articleMode=root.dataset.articleMode==='true';
+  const prDemo = !articleMode && editorEnabled;
+  const key = `${articleMode ? 'kamitsubaki-article-workbench-v1:'+new URLSearchParams(location.search).get('id') : prDemo ? 'kamitsubaki-visual-editor-pr-demo-v1' : 'kamitsubaki-visual-editor-v1'}:${root.dataset.contentLocale}`;
   const md = renderRich;
-  let draft = newDraft('projects', root.dataset.contentLocale);
+  let draft = newDraft(articleMode?'articles':'projects', root.dataset.contentLocale);
   let saving = true;
   let activeBlockId = draft.blocks[0]?.id, sourcePending = null, sourceTimer;
   const sourceKey = key + ':source';
   if (window.innerWidth <= 900) root.setAttribute('data-sidebar-hidden','');
   try {
     const saved = JSON.parse(localStorage.getItem(key) || 'null');
-    if (saved?.version === 1 && entryTypes.includes(saved.kind) && Array.isArray(saved.blocks) && saved.blocks.length < 1000 && saved.meta) {
+    if (saved?.version === 1 && entryTypes.includes(saved.kind) && (!articleMode||saved.kind==='articles') && Array.isArray(saved.blocks) && saved.blocks.length < 1000 && saved.meta) {
       exportMarkdown(saved); draft = saved;
     }
   } catch { saving = false; }
+  const unchangedArticle=articleMode&&draft.articleBodySnapshot===JSON.stringify(draft.blocks);
   draft.blocks = draft.blocks.flatMap(block => block.type === 'preserved' ? parseVisualBlocks(block.text) : [block]).map(upgradeListBlock);
-  const target = new URLSearchParams(location.search).get('target');
+  if(unchangedArticle)draft.articleBodySnapshot=JSON.stringify(draft.blocks);
+  const target = articleMode?null:new URLSearchParams(location.search).get('target');
+  const serializeDraft=()=>articleMode?(draft.articleBodySnapshot===JSON.stringify(draft.blocks)?draft.articleOriginalBody:draft.blocks.map(b=>blockMarkdown(b,draft.meta.locale)).join('\n\n')):exportMarkdown(draft);
   let history = [JSON.stringify(draft)], cursor = 0, historyTimer;
   function save() {
     try { localStorage.setItem(key, JSON.stringify(draft)); saving = true; } catch { saving = false; }
@@ -91,6 +96,7 @@ const initialize = () => {
     $('[data-locale-select]').value = draft.meta.locale;
     $('[data-path]').value = draft.path;
     $('[data-document-title]').value = draft.meta.name || draft.meta.title || '';
+    if(articleMode){const labels={zh:['摘要','分类','关联词条 ID（逗号分隔）'],ja:['概要','分類','関連項目 ID（カンマ区切り）'],en:['Summary','Category','Related entry IDs (comma-separated)']}[uiLocale];$('[data-fields]').innerHTML=`<label>${labels[0]}<textarea data-article-property="summary">${escapeHtml(draft.meta.summary||'')}</textarea></label><label>${labels[1]}<select data-article-property="articleCategory">${['archival','profile','business','art-philosophy','infrastructure'].map(value=>`<option value="${value}" ${draft.meta.articleCategory===value?'selected':''}>${value}</option>`).join('')}</select></label><label>${labels[2]}<input data-article-property="relatedEntities" value="${escapeHtml((draft.meta.relatedEntities||[]).join(', '))}"/></label>`;return;}
     renderAdvanced();
     $('[data-fields]').innerHTML = fieldsFor(draft).map(f => f.key==='entityType'&&draft.kind==='people'&&!draft.originalMeta?`<label>${escapeHtml(f.labels[uiLocale])}<select data-field="entityType">${['person','virtual-avatar'].map(t=>`<option value="${t}" ${draft.meta.entityType===t?'selected':''}>${t}</option>`).join('')}</select></label>`:`<label>${escapeHtml(f.labels[uiLocale])}${f.required ? ' <span aria-hidden="true">*</span>' : ''}<input data-field="${f.key}" type="${f.type}" ${f.required ? 'required' : ''} ${(draft.originalMeta&&f.key==='id')||f.key==='entityType'&&draft.kind!=='people'?'readonly':''} value="${escapeHtml(draft.meta[f.key] ?? '')}" ${f.key === 'releaseDate' ? 'placeholder="YYYY-MM-DD"' : ''} /></label>`).join('');
   }
@@ -160,7 +166,7 @@ const initialize = () => {
   const blockElement = id => [...$('[data-blocks]').children].find(el=>el.dataset.block===id);
   function renderOutline() {
     $('[data-document-name]').textContent=draft.meta.name||draft.meta.title||copy.emptyTitle;
-    $('[data-file-label]').textContent=draft.path ? draft.path.split('/').slice(-2).join('/') : `${draft.meta.locale}.md`;
+    $('[data-file-label]').textContent=articleMode?`${draft.meta.locale} · ${uiLocale==='en'?'Article':uiLocale==='ja'?'文章':'文章'}`:draft.path ? draft.path.split('/').slice(-2).join('/') : `${draft.meta.locale}.md`;
     $('[data-block-count]').textContent=`${draft.blocks.length} ${copy.blockCount}`;
     $('[data-outline]').innerHTML=draft.blocks.map((b,i)=>`<button data-outline-block="${escapeHtml(b.id)}" class="${b.id===activeBlockId?'is-active':''}" title="${escapeHtml(b.text?.slice(0,100)||copy.blocks[b.type]||copy.preserved)}"><small>${b.type==='heading'?'H'+b.level:String(i+1).padStart(2,'0')}</small><span>${escapeHtml((b.title||b.text||'').replace(/\{\{[a-z-]+::([^:}]+)(?:::[^}]*)?\}\}/g,'$1').replace(/<[^>]+>/g,'').replace(/[*#|_`>]/g,'').slice(0,45)||copy.blocks[b.type]||copy.preserved)}</span></button>`).join('')||`<p class="ve-hint">${copy.emptyOutline}</p>`;
   }
@@ -182,9 +188,9 @@ const initialize = () => {
   }
   function output() {
     if(draft.create&&draft.meta.schemaVersion===2){try{draft.path=entitySourcePath(draft.meta);}catch{/* Incomplete metadata is reported by validation. */}}
-    const errors = [...validateDraft(draft), ...advancedErrors(draft.meta)];
+    const errors = articleMode?[]:[...validateDraft(draft), ...advancedErrors(draft.meta)];
     if (draft.needsOriginal) errors.push('loadOriginal');
-    if(sourcePending===null && document.activeElement!==$('[data-source]')) $('[data-source]').value=exportMarkdown(draft);
+    if(sourcePending===null && document.activeElement!==$('[data-source]')) $('[data-source]').value=serializeDraft();
     updateSourceLines(); renderOutline();
     const preview=$('[data-preview]');
     let heading=preview.querySelector('[data-preview-heading]');
@@ -207,7 +213,7 @@ const initialize = () => {
     $('[data-copy]').disabled=sourcePending!==null;
     $('[data-download]').disabled=false;
     const github = $('[data-github]');
-    github.hidden = !validPath(draft.path);
+    github.hidden = articleMode || !validPath(draft.path);
     if (!github.hidden) {
       const parts = draft.path.split('/').map(encodeURIComponent);
       const filename = parts.pop();
@@ -218,6 +224,7 @@ const initialize = () => {
   root.addEventListener('input', event => {
     const el = event.target;
     if (!(el instanceof HTMLElement)) return;
+    if(el.matches('[data-article-property]')){const key=el.dataset.articleProperty;draft.meta[key]=key==='relatedEntities'?el.value.split(/[,，]/).map(x=>x.trim()).filter(Boolean):el.value;changed();return;}
     if(el.matches('[data-source]')) {queueSource();return;}
     if(el.matches('[data-document-title]')) {draft.meta['name' in draft.meta?'name':'title']=el.value;const field=$(`[data-field="${'name' in draft.meta?'name':'title'}"]`);if(field)field.value=el.value;changed();return;}
     if (el.matches('[data-meta-value]')) { const path=parsePath(el.dataset.metaValue); metaParent(path)[path.at(-1)]=el.type==='checkbox'?el.checked:el.type==='number'?Number(el.value):el.value; changed(); return; }
@@ -351,9 +358,9 @@ const initialize = () => {
     if(previous!==view)revealPanel(view==='preview'?$('#ve-preview'):$('#ve-properties'));
   }
   root.querySelectorAll('[data-view]').forEach(button=>button.addEventListener('click',()=>changeView(button.dataset.view)));
-  $('[data-copy]').addEventListener('click', async () => { try { await navigator.clipboard.writeText(exportMarkdown(draft)); $('[data-action-status]').textContent = copy.copied; } catch { changeMode('source'); $('[data-source]').select(); $('[data-action-status]').textContent = copy.copyFailed; } });
+  $('[data-copy]').addEventListener('click', async () => { try { await navigator.clipboard.writeText(serializeDraft()); $('[data-action-status]').textContent = copy.copied; } catch { changeMode('source'); $('[data-source]').select(); $('[data-action-status]').textContent = copy.copyFailed; } });
   $('[data-download]').addEventListener('click', () => {
-    const url = URL.createObjectURL(new Blob([sourcePending ?? exportMarkdown(draft)], {type:'text/markdown;charset=utf-8'}));
+    const url = URL.createObjectURL(new Blob([sourcePending ?? serializeDraft()], {type:'text/markdown;charset=utf-8'}));
     const link = document.createElement('a'); link.href = url; link.download = `${draft.meta.locale}.md`; link.click(); setTimeout(() => URL.revokeObjectURL(url), 1000);
   });
   $('[data-import-open]').addEventListener('click', () => { $('[data-import-error]').textContent = ''; $('[data-import-dialog]').showModal(); });
@@ -497,7 +504,7 @@ const initialize = () => {
     if(mode==='visual'&&sourcePending!==null&&!applySource())return false;
     root.dataset.mode=mode;$('#ve-canvas').hidden=mode!=='visual';$('#ve-source').hidden=mode!=='source';
     root.querySelectorAll('button[data-mode]').forEach(button=>{const active=button.dataset.mode===mode;button.setAttribute('aria-selected',String(active));button.tabIndex=active?0:-1;});
-    if(mode==='source'){$('[data-source]').value=sourcePending??exportMarkdown(draft);updateSourceLines();$('[data-source]').focus();}
+    if(mode==='source'){$('[data-source]').value=sourcePending??serializeDraft();updateSourceLines();$('[data-source]').focus();}
     if(previous!==mode)revealPanel(mode==='visual'?$('#ve-canvas'):$('#ve-source'));
     return true;
   }
@@ -527,6 +534,7 @@ const initialize = () => {
   }
   function applySource() {
     if(sourcePending===null)return true;
+    if(articleMode){checkpoint();draft.blocks=parseVisualBlocks(sourcePending);draft.articleOriginalBody=sourcePending;draft.articleBodySnapshot=JSON.stringify(draft.blocks);clearPendingSource();renderBlocks();changed(true);return true;}
     try {const next=importMarkdown(sourcePending,draft.kind,draft.path);next.baseSha=draft.baseSha;next.baseContent=draft.baseContent;next.create=draft.create;next.assets=draft.assets;checkpoint();draft=next;clearPendingSource();renderFields();renderBlocks();changed(true);return true;}
     catch {$('[data-source-error]').textContent=copy.sourceError;$('[data-source-error]').hidden=false;$('[data-copy]').disabled=true;return false;}
   }
@@ -624,6 +632,7 @@ const initialize = () => {
     }
   }
   function openImages(files=[]) {
+    if(articleMode){$('[data-article-status]').textContent='文章图片请使用插入菜单中的图片网址。';return;}
     selectedImageFiles=files;$('[data-image-files]').value='';$('[data-image-selection]').textContent=files.map(f=>f.name).join('、');
     $('[data-image-feedback]').textContent='';renderAttachments();$('[data-attachments-dialog]').showModal();
   }
@@ -649,7 +658,7 @@ const initialize = () => {
     const id=button.dataset.imageInsert || button.dataset.imageCover || button.dataset.imageRemove;
     if(!applySource()){$('[data-image-feedback]').textContent=tc('请先修正源码，再操作附件。');return;}
     const asset=draft.assets?.find(a=>a.id===id);if(!asset)return;
-    if(button.hasAttribute('data-image-remove') && exportMarkdown(draft).includes(asset.url)){$('[data-image-feedback]').textContent=tc('请先移除正文或封面中的图片引用，再移除附件。');return;}
+    if(button.hasAttribute('data-image-remove') && serializeDraft().includes(asset.url)){$('[data-image-feedback]').textContent=tc('请先移除正文或封面中的图片引用，再移除附件。');return;}
     checkpoint();
     if(button.hasAttribute('data-image-insert')) {const block={...newBlock('image'),url:asset.url,text:asset.alt || asset.name || '',caption:asset.source};draft.blocks.push(block);renderBlocks(block.id);$('[data-attachments-dialog]').close();}
     if(button.hasAttribute('data-image-cover')) {if(draft.meta.schemaVersion===2)(draft.meta.presentation ||= {}).image=asset.url;else draft.meta.image=asset.url;renderFields();$('[data-attachments-dialog]').close();changeSide('properties');}
@@ -694,7 +703,7 @@ const initialize = () => {
       if (!draft.path || !sourceRequest(draft.path) || (draft.needsOriginal && !draft.create)) throw new Error('请先通过“编辑已有词条”载入一个词条。');
       const errors = [...validateDraft(draft), ...advancedErrors(draft.meta)];
       if (errors.length) throw new Error(`请先修正词条属性：${errors.map(label).join('、')}`);
-      return { path: draft.path, kind: draft.kind, title: draft.meta.name || draft.meta.title, baseSha:draft.baseSha, baseContent:draft.baseContent, create:draft.create === true, assets:draft.assets || [], content: exportMarkdown(draft) };
+      return { path: draft.path, kind: draft.kind, title: draft.meta.name || draft.meta.title, baseSha:draft.baseSha, baseContent:draft.baseContent, create:draft.create === true, assets:draft.assets || [], content: serializeDraft() };
     },
     async uploadAttachments(api, accountId, snapshot) {
       const ids=[];
@@ -715,7 +724,12 @@ const initialize = () => {
       return true;
     },
   });
-  if (!target && new URLSearchParams(location.search).get('new')==='articles') openNewEntry('articles');
+  if(articleMode)initializeArticleSubmission(root,{
+    snapshot(){if(!applySource())throw Error(copy.sourceError);return {locale:draft.meta.locale,content:{title:draft.meta.title||'',summary:draft.meta.summary||'',category:draft.meta.articleCategory||'archival',relatedEntities:draft.meta.relatedEntities||[],body:serializeDraft()}};},
+    restore(content,locale){clearPendingSource();draft=newDraft('articles',locale);Object.assign(draft.meta,{title:content.title||'',summary:content.summary||'',articleCategory:content.category||'archival',relatedEntities:content.relatedEntities||[]});draft.blocks=parseVisualBlocks(content.body||'');if(!draft.blocks.length)draft.blocks=[newBlock('paragraph')];draft.articleOriginalBody=content.body||'';draft.articleBodySnapshot=JSON.stringify(draft.blocks);history=[JSON.stringify(draft)];cursor=0;renderFields();renderBlocks();changed(true);},
+    hasLocalWork(){return Boolean(draft.meta.title||serializeDraft().trim());},
+  });
+  if (!articleMode && !target && new URLSearchParams(location.search).get('new')==='articles') openNewEntry('articles');
   if (target && sourceRequest(target) && !(draft.path === target && draft.originalMeta)) loadOriginal(target, hasWork());
 };
 if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initialize, {once:true});

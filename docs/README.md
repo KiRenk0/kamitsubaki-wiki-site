@@ -29,7 +29,7 @@
 
 修改功能时同时更新相应维护指南，保留旧决策的时间和替代说明。站内贡献中心直接读取贡献及附件文档；语法和格式教程源位于 `src/content/contribute/`。简中、日文、英文维护源文件，繁体由生成流程更新。
 
-前后端字段与路径规则通过 `scripts/v3/sync-editor-schema.mjs` 同步；图库角色目录和管理界面通过 `scripts/v3/sync-gallery-contract.mjs` 同步。文章投稿/审核界面通过 `scripts/v3/sync-article-manager.mjs` 同步。以上脚本均支持 `--check`。文档镜像使用 `scripts/sync-docs.mjs --check`，只核对清单内文件，不删除工作区特有资料。
+前后端字段与路径规则通过 `scripts/v3/sync-editor-schema.mjs` 同步；图库角色目录和管理界面通过 `scripts/v3/sync-gallery-contract.mjs` 同步。两者均支持 `--check`。文章与词条直接复用 `EditorWorkbench.astro` 和 `visualEditor.js`，文章存储由独立适配器处理，无需复制编辑器。文档镜像使用 `scripts/sync-docs.mjs --check`，只核对清单内文件，不删除工作区特有资料。
 
 验收记录必须区分本地模拟、真实预览和正式发布。没有实际执行的检查标为待验收，禁止把实现或构建成功写成已上线。
 

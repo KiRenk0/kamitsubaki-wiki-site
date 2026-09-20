@@ -76,7 +76,7 @@ test('media validates with the same providers as the published reader', () => {
 
 test('existing artist and song sources round-trip without edits, including all advanced markup', async () => {
   const {readFile} = await import('node:fs/promises');
-  for(const path of ['src/content/people/solo/kaf/zh.md','src/content/songs/unassigned/kaf-originals-track-1688351157/zh.md']) {
+  for(const path of ['src/content/people/solo/kaf/zh.md','src/content/songs/kaf/kaf-originals-track-1688351157/zh.md']) {
     const source=await readFile(new URL('../'+path,import.meta.url),'utf8');
     const draft=importMarkdown(source,'projects',path);
     assert.equal(exportMarkdown(draft),source);
@@ -129,7 +129,7 @@ test('optional empty metadata is omitted and imported lyric controls follow cont
   const meta=metadata(exportMarkdown(draft));
   assert.equal(meta.duration,undefined); assert.equal(meta.license.sourceUrl,undefined);
   const {readFile}=await import('node:fs/promises');
-  const source=await readFile(new URL('../src/content/songs/unassigned/kaf-originals-track-1688351157/zh.md',import.meta.url),'utf8');
+  const source=await readFile(new URL('../src/content/songs/kaf/kaf-originals-track-1688351157/zh.md',import.meta.url),'utf8');
   const imported=importMarkdown(source,'songs'); imported.meta.locale='en';
   assert.match(exportMarkdown(imported),/\{\{lyrics-controls::en\}\}/);
 });
