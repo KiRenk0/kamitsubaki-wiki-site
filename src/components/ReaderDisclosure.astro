@@ -42,7 +42,7 @@ document.querySelectorAll<HTMLDetailsElement>('.reader-disclosure').forEach(deta
   animation.onfinish = settle;
   if (expanded) {
    body.getAnimations({subtree:true}).forEach(item => item.cancel());
-   [...body.querySelectorAll<HTMLElement>('.related-list > li,.footprint,.reader-sources > li')].slice(0,20).forEach((item,index) => {
+   [...body.querySelectorAll<HTMLElement>('.reader-record:not([hidden]),.reader-sources > li')].slice(0,12).forEach((item,index) => {
     item.animate([{opacity:0,translate:'0 8px'},{opacity:1,translate:'0 0'}], {duration:420,delay:Math.min(index,7)*28,easing:'cubic-bezier(.22,1,.36,1)',fill:'backwards'});
    });
   }

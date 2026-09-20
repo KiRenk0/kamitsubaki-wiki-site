@@ -189,3 +189,9 @@ const copy=resolveLocaleCopy({
 实现位置由 WorkspaceHeader / WorkspaceLayout 和 workspaceSystem.css 集中维护，不通过脚本搬移按钮。桌面返回控件至少 32px 高，手机至少 44px；手机动作自动换行，不能横向溢出。
 
 本轮检查包含 localhost:4321 的时间轴纪元选择、LABs 标题与返回目标切换，以及各功能页导航移除。图库真实上传/审核验收仍单独记录，不以视觉检查代替。
+
+## 阅读器关联条目
+
+关联档案、参与作品、文章、编年史足迹和收录曲目使用 `ReaderRecordList`，传入稳定的区块 id、locale 和 records（title / href / detail）。首批 12 项，每次追加 12 项，其余条目保存在 template，点击才进入文档；收起回到首批。与主页分类共用 `recordExpansion.mjs` 和 artist 展开分隔线、渐进高度动画，不再全量铺开关联列表。
+
+列表桌面两列、手机单列；序号、衬线标题、次级关系/日期与方向箭头保持固定层次，整行可点击，悬停不改变尺寸。没有链接的收录曲目保留纯文本行。外层 ReaderDisclosure 保持原生 details 语义和双向开合动画，新增批次只动画本次新增条目，遵守减少动态效果设置。此样式仅作用于 entity-related，正文、阅读背景和目录不受影响。
