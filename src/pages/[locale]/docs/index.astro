@@ -47,6 +47,30 @@ const copy=docsCenterCopy(locale);
  <script>
   // @ts-nocheck -- DOM nodes are constrained by this page's static template.
   const root=document.querySelector('[data-docs-center]');
-  if(root){const input=root.querySelector('[data-docs-search]');const filters=[...root.querySelectorAll('[data-docs-filter]')];const cards=[...root.querySelectorAll('[data-docs-card]')];const sections=[...root.querySelectorAll('[data-docs-category]')];const empty=root.querySelector('[data-docs-empty]');let category='all';const update=()=>{const query=input.value.trim().toLocaleLowerCase();let visible=0;cards.forEach(card=>{const match=(category==='all'||card.closest('[data-docs-category]')?.dataset.docsCategory===category)&&(!query||card.dataset.search.toLocaleLowerCase().includes(query));card.hidden=!match;if(match)visible+=1});sections.forEach(section=>section.hidden=![...section.querySelectorAll('[data-docs-card]')].some(card=>!card.hidden));empty.hidden=visible!==0};filters.forEach(filter=>filter.addEventListener('click',event=>{event.preventDefault();category=filter.dataset.docsFilter;filters.forEach(item=>item.toggleAttribute('aria-current',item===filter));update()}));input.addEventListener('input',update)}
+  if(root){
+   const input=root.querySelector('[data-docs-search]');
+   const filters=[...root.querySelectorAll('[data-docs-filter]')];
+   const cards=[...root.querySelectorAll('[data-docs-card]')];
+   const sections=[...root.querySelectorAll('[data-docs-category]')];
+   const empty=root.querySelector('[data-docs-empty]');
+   const valid=new Set(filters.map(filter=>filter.dataset.docsFilter));
+   let category='all';
+   const update=()=>{
+    const query=input.value.trim().toLocaleLowerCase();let visible=0;
+    cards.forEach(card=>{const match=(category==='all'||card.closest('[data-docs-category]')?.dataset.docsCategory===category)&&(!query||card.dataset.search.toLocaleLowerCase().includes(query));card.hidden=!match;if(match)visible+=1});
+    sections.forEach(section=>section.hidden=![...section.querySelectorAll('[data-docs-card]')].some(card=>!card.hidden));
+    empty.hidden=visible!==0;
+   };
+   const select=(next,{history=false}={})=>{
+    category=valid.has(next)?next:'all';
+    filters.forEach(item=>{if(item.dataset.docsFilter===category)item.setAttribute('aria-current','page');else item.removeAttribute('aria-current')});
+    if(history){const url=new URL(location.href);url.hash=category;window.history.pushState(window.history.state,'',url)}
+    update();
+   };
+   filters.forEach(filter=>filter.addEventListener('click',event=>{event.preventDefault();select(filter.dataset.docsFilter,{history:true})}));
+   input.addEventListener('input',update);
+   window.addEventListener('popstate',()=>select(location.hash.slice(1)));
+   select(location.hash.slice(1));
+  }
  </script>
 </BaseLayout>
