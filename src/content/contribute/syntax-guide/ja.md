@@ -595,26 +595,26 @@ contentStatus: stub
 relatedEntities: []
 ```
 
-| entityType | Fields |
+| エンティティ型 | 主なフィールドと規則 |
 | --- | --- |
-| person / virtual-avatar / unit | name, romanizedName, roles, lifecycle |
-| software-voice | name, romanizedName, voiceEngines, relations (based-on-voice) |
-| work-track | title, romanizedTitle, performers, credits |
-| work-release | title, releaseType, tracks; releaseDate when published |
-| project | name or title; status when published |
-| organization | name or title, orgType |
-| live-event | name or title, eventType, headliners; dateRange when published |
-| lore-concept | name or title, loreCategory |
-| editorial-article | title, articleCategory; author and publishDate when published |
+| `person` / `virtual-avatar` / `unit` | `name`、`romanizedName`、`roles`、`lifecycle` |
+| `software-voice` | `name`、`romanizedName`、`voiceEngines`、および `relations` 内の `based-on-voice` 関係 |
+| `work-track` | `title`、`romanizedTitle`、`performers`、`credits` |
+| `work-release` | `title`、`releaseType`、`tracks`。公開後は `releaseDate` も必須 |
+| `project` | `name` または `title`。公開後は `status` も必須 |
+| `organization` | `name` または `title`、`orgType` |
+| `live-event` | `name` または `title`、`eventType`、`headliners`。公開後は `dateRange` も必須 |
+| `lore-concept` | `name` または `title`、`loreCategory` |
+| `editorial-article` | `title`、`articleCategory`。公開後は `author` と `publishDate` も必須 |
 
-`presentation.image` / `presentation.theme` / `presentation.morphing` control visual presentation. Use nested YAML, for example:
+`presentation.image` / `presentation.theme` / `presentation.morphing` は記事の表示を制御します。次のようにネストした YAML を使用してください。
 
 ```yaml
 presentation:
   image: /images/artists/kaf/cover.jpg
 ```
 
-`relations` links entities by stable ID. `performers` determines song folders; multiple primary performers use `collaborations`. Folder rules are shared by the editor and backend in `contentLayout.mjs`. Refer to [V3 contribution guide](/ja/contribute/#github) and [metadata specification](https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/V3.0.0/docs/category-optimization/metadata-schema-v2.md).
+`relations` は安定 ID でエンティティを関連付けます。`performers` は楽曲フォルダーを決定し、主な出演者が複数いる場合は `collaborations` を使用します。フォルダー規則はエディターとバックエンドが `contentLayout.mjs` で共有します。詳しくは [V3 貢献ガイド](/ja/contribute/#github)と[メタデータ仕様](https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/V3.0.0/docs/category-optimization/metadata-schema-v2.md)を参照してください。
 
 ## 簡体字・繁体字の混在変換と生成ファイル
 

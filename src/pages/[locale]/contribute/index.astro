@@ -57,6 +57,7 @@ const documents=rendered.map((document,index)=>{
  <SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site,locale,'/contribute/')} brandLines={site.hero.brandLines} homeHref={`/${locale}/`} />
  <WorkspaceShell width="wide" class="labs-shell contribution-hub" data-contribution-hub data-locale={locale}>
   <WorkspaceHeader title={copy.title} intro={copy.intro} backHref={`/${locale}/`} backLabel={copy.home}>
+   <a href={`/${locale}/docs/`}>{locale==='ja'?'文書一覧':locale==='en'?'Documentation':'文档中心'}</a>
    <a data-hub-editor href={`/${locale}/contribute/editor/`}>{copy.editor} <span aria-hidden="true">↗</span></a>
   </WorkspaceHeader>
   <p class="hub-target" hidden data-hub-target></p>

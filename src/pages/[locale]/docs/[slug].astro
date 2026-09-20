@@ -1,0 +1,37 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import SiteNav from '../../../components/SiteNav.astro';
+import SiteFooter from '../../../components/SiteFooter.astro';
+import WorkspaceShell from '../../../components/WorkspaceShell.astro';
+import WorkspaceHeader from '../../../components/WorkspaceHeader.astro';
+import Reader from '../../../components/Reader.astro';
+import {buildLocaleLinks,supportedLocales} from '../../../lib/i18n.mjs';
+import {getLocalizedSite} from '../../../lib/homeData.mjs';
+import {getCollection} from 'astro:content';
+import {docsCatalog,docsCenterCopy,getDocsCategory,getDocsDocument,localizeDoc,rewriteDocsCenterLinks} from '../../../lib/docsCenter.mjs';
+import {renderMarkdownDocument} from '../../../lib/markdown.mjs';
+import '../../../styles/contributionGuide.css';
+import '../../../styles/docsCenter.css';
+export function getStaticPaths(){return supportedLocales.flatMap(locale=>docsCatalog.map(doc=>({params:{locale,slug:doc.slug}})));}
+const {locale='zh',slug=''}=Astro.params;
+const doc=getDocsDocument(slug);
+if(!doc) return Astro.redirect(`/${locale}/docs/`);
+const site=getLocalizedSite(await getCollection('site'),locale);
+const copy=docsCenterCopy(locale);
+const title=localizeDoc(doc.title,locale);
+const category=getDocsCategory(doc.category) ?? {number:'00',label:{zh:'文档',en:'Documentation',ja:'文書'}};
+const markdown=localizeDoc(doc.markdown,locale).replace(/^# .+\n/,'');
+const rendered=await renderMarkdownDocument(markdown);
+rendered.html=rewriteDocsCenterLinks(rendered.html,doc,locale);
+---
+<BaseLayout lang={locale} title={title} metadata={{title,description:localizeDoc(doc.summary,locale),canonicalPath:`/${locale}/docs/${doc.slug}/`}} alternates={supportedLocales.map(code=>({locale:code,href:`/${code}/docs/${doc.slug}/`}))}>
+ <SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site,locale,`/docs/${doc.slug}/`)} brandLines={site.hero.brandLines} homeHref={`/${locale}/`}/>
+ <WorkspaceShell width="reading" class="docs-reader">
+  <WorkspaceHeader title={title} intro={localizeDoc(doc.summary,locale)} eyebrow={`${category.number} / ${localizeDoc(category.label,locale)}`} backHref={`/${locale}/docs/`} backLabel={copy.back}>
+   <a href={`https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/V3.0.0/${doc.source}`}>{copy.source} <span aria-hidden="true">↗</span></a>
+  </WorkspaceHeader>
+  <div class="docs-reader-meta"><span>{doc.status==='current'?copy.current:copy.guide}</span><span>{copy.language}: {doc.language==='localized'?(locale.startsWith('zh')?'中文':locale.toUpperCase()):'中文'}</span></div>
+  <Reader variant="guide" headings={rendered.headings} contentsTitle={copy.contents} proseClass="cg-prose"><Fragment set:html={rendered.html}/></Reader>
+ </WorkspaceShell>
+ <SiteFooter footer={site.footer}/>
+</BaseLayout>

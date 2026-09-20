@@ -593,26 +593,26 @@ contentStatus: stub
 relatedEntities: []
 ```
 
-| entityType | Fields |
+| 实体类型 | 主要字段与规则 |
 | --- | --- |
-| person / virtual-avatar / unit | name, romanizedName, roles, lifecycle |
-| software-voice | name, romanizedName, voiceEngines, relations (based-on-voice) |
-| work-track | title, romanizedTitle, performers, credits |
-| work-release | title, releaseType, tracks; releaseDate when published |
-| project | name or title; status when published |
-| organization | name or title, orgType |
-| live-event | name or title, eventType, headliners; dateRange when published |
-| lore-concept | name or title, loreCategory |
-| editorial-article | title, articleCategory; author and publishDate when published |
+| `person` / `virtual-avatar` / `unit` | `name`、`romanizedName`、`roles`、`lifecycle` |
+| `software-voice` | `name`、`romanizedName`、`voiceEngines`，以及 `relations` 中的 `based-on-voice` 关系 |
+| `work-track` | `title`、`romanizedTitle`、`performers`、`credits` |
+| `work-release` | `title`、`releaseType`、`tracks`；发布后还需 `releaseDate` |
+| `project` | `name` 或 `title`；发布后还需 `status` |
+| `organization` | `name` 或 `title`、`orgType` |
+| `live-event` | `name` 或 `title`、`eventType`、`headliners`；发布后还需 `dateRange` |
+| `lore-concept` | `name` 或 `title`、`loreCategory` |
+| `editorial-article` | `title`、`articleCategory`；发布后还需 `author` 和 `publishDate` |
 
-`presentation.image` / `presentation.theme` / `presentation.morphing` control visual presentation. Use nested YAML, for example:
+`presentation.image` / `presentation.theme` / `presentation.morphing` 控制词条的视觉呈现。请使用嵌套 YAML，例如：
 
 ```yaml
 presentation:
   image: /images/artists/kaf/cover.jpg
 ```
 
-`relations` links entities by stable ID. `performers` determines song folders; multiple primary performers use `collaborations`. Folder rules are shared by the editor and backend in `contentLayout.mjs`. Refer to [V3 contribution guide](/zh/contribute/#github) and [metadata specification](https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/V3.0.0/docs/category-optimization/metadata-schema-v2.md).
+`relations` 使用稳定 ID 关联实体。`performers` 决定歌曲目录；多个主要表演者使用 `collaborations`。编辑器与后端通过 `contentLayout.mjs` 共用目录规则。详情参见 [V3 贡献指南](/zh/contribute/#github)和[元数据规范](https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/V3.0.0/docs/category-optimization/metadata-schema-v2.md)。
 
 ## 混合简繁转换与生成文件
 
