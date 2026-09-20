@@ -1,9 +1,0 @@
----
-import {getEntityRegistry,entityLocales} from '../../../lib/entityRegistry.mjs';
-export async function getStaticPaths(){
- const registry=await getEntityRegistry();
- return entityLocales.flatMap(locale=>[...registry.legacyRoutes].filter(([route])=>route.startsWith('/projects/')).map(([route,entityId])=>({params:{locale,id:route.slice('/projects/'.length).replace(/\/$/,'')},props:{entityId}})));
-}
-const registry=await getEntityRegistry();
-return Astro.redirect(registry.resolveEntityUrl(Astro.props.entityId,Astro.params.locale),301);
----

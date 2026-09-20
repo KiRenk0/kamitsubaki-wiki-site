@@ -1,5 +1,0 @@
----
-import {entityLocales} from '../../../lib/entityRegistry.mjs';
-export function getStaticPaths(){return entityLocales.map(locale=>({params:{locale}}));}
-return Astro.redirect(`/${Astro.params.locale}/database/music/songs/`,301);
----

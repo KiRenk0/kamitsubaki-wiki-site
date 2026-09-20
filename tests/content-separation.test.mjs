@@ -74,12 +74,12 @@ test('content source normalizes one mixed zh.md file for each Chinese reading lo
 
   assert.match(tw.html, /<h1 id="混合標題與簡體內容">混合標題與簡體內容<\/h1>/);
   assert.match(tw.html, /這款軟體連線網路並管理檔案。/);
-  assert.match(tw.html, /href="\/zh-tw\/artists\/vwp\/kaf"/);
+  assert.match(tw.html, /href="\/zh-tw\/database\/artists\/solo\/kaf\/"/);
   assert.match(tw.html, /<code>原樣代码<\/code>/);
 
   assert.match(hk.html, /<h1 id="混合標題與簡體內容">混合標題與簡體內容<\/h1>/);
   assert.match(hk.html, /這款軟體連接網絡並管理檔案。/);
-  assert.match(hk.html, /href="\/zh-hk\/artists\/vwp\/kaf"/);
+  assert.match(hk.html, /href="\/zh-hk\/database\/artists\/solo\/kaf\/"/);
   assert.match(hk.html, /<code>原樣代码<\/code>/);
 });
 

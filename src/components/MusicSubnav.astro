@@ -16,7 +16,7 @@ const copy = resolveLocaleCopy({
 <nav aria-label={copy.label} class="music-subnav border-y border-white/10 bg-white/[0.02]">
   <div class="flex flex-wrap items-center gap-1 p-1.5">
     <a
-      href={`/${locale}/songs`}
+      href={`/${locale}/database/music/songs/`}
       aria-current={current === 'songs' ? 'page' : undefined}
       class:list={[
         'rounded-full px-5 py-2 font-mono text-[10px] uppercase tracking-[0.18em] transition-colors',
@@ -26,7 +26,7 @@ const copy = resolveLocaleCopy({
       {copy.songs}
     </a>
     <a
-      href={`/${locale}/albums`}
+      href={`/${locale}/database/music/albums/`}
       aria-current={current === 'albums' ? 'page' : undefined}
       class:list={[
         'rounded-full px-5 py-2 font-mono text-[10px] uppercase tracking-[0.18em] transition-colors',

@@ -26,9 +26,10 @@ const directoryCopy=resolveLocaleCopy({zh:{nav:'功能导航',groups:['查阅资
 const featureGroups=[
  [{path:'articles',title:locale==='en'?'Articles':locale==='ja'?'記事':'文章',description:locale==='en'?'Perspectives, research and community articles.':locale==='ja'?'視点・研究・みんなの記事。':'阅读观点、考据与社区文章。'},{path:'chronicle',title:locale==='en'?'Chronicle':locale==='ja'?'年代記':'纪元时间轴',description:locale==='en'?'Explore history across four connected tracks.':locale==='ja'?'四つの軌跡から歴史を読む。':'沿四条轨道阅读历史事件与纪元。'},{path:'gallery',title:locale==='en'?'Reference gallery':locale==='ja'?'設定資料':'设定图库',description:locale==='en'?'Character forms and visual sources.':locale==='ja'?'キャラクターの姿と視覚資料。':'按角色、形态查阅视觉资料与出处。'}],
  [1,2,3].map(i=>({path:`labs/${labsSections[i]}`,title:copy.tabs[i],description:copy.descriptions[i]})),
- [{path:'songs',title:copy.practice,description:copy.practiceIntro},{path:'games/memory-corridor',title:copy.game,description:copy.gameIntro}]
+ [{path:'database/music/songs',title:copy.practice,description:copy.practiceIntro},{path:'games/memory-corridor',title:copy.game,description:copy.gameIntro}]
 ];
-const projects = (await getEntityRegistry()).list(locale).filter(e=>e.data.entityType==='project');
+const registry=await getEntityRegistry();
+const projects = registry.list(locale).filter(e=>e.data.entityType==='project');
 ---
 <BaseLayout lang={locale} title={`${copy.tabs[current]} · ${copy.title}`} metadata={{ noindex: true }}>
   <SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site, locale, route)} brandLines={site.hero.brandLines} homeHref={`/${locale}/`} />
@@ -52,7 +53,7 @@ const projects = (await getEntityRegistry()).list(locale).filter(e=>e.data.entit
     </section>
     <section class="labs-panel" id="labs-panel-world" data-labs-panel="world" aria-label={copy.tabs[3]} hidden={section !== 'world'}>
 
-      {labsWorlds.map((world, i) => <section class="labs-world-route"><small>{String(i+1).padStart(2,'0')} / {world.kind} · {world.date}</small><h2>{world.title}</h2><p>{resolveLocaleCopy(world.copy, locale)}</p><details><summary>{copy.spoiler}</summary><p>{resolveLocaleCopy(world.spoiler, locale)}</p></details><div class="labs-actions"><a class="labs-button" href={world.source} target="_blank" rel="noopener noreferrer">{copy.source} ↗</a>{world.path && <a class="labs-button" href={`/${locale}/projects/${world.path}/`}>{copy.open}</a>}</div></section>)}
+      {labsWorlds.map((world, i) => <section class="labs-world-route"><small>{String(i+1).padStart(2,'0')} / {world.kind} · {world.date}</small><h2>{world.title}</h2><p>{resolveLocaleCopy(world.copy, locale)}</p><details><summary>{copy.spoiler}</summary><p>{resolveLocaleCopy(world.spoiler, locale)}</p></details><div class="labs-actions"><a class="labs-button" href={world.source} target="_blank" rel="noopener noreferrer">{copy.source} ↗</a>{world.entity && registry.resolveEntity(world.entity,locale) && <a class="labs-button" href={registry.resolveEntityUrl(world.entity,locale)}>{copy.open}</a>}</div></section>)}
       <h2 style="margin-top:40px">{copy.projects}</h2>{projects.map(p => <div class="labs-row"><div class="labs-row-body"><h3><a href={p.url}>{p.data.title}</a></h3><p>{p.data.summary || copy.projects}</p></div></div>)}
     </section>
     </div>

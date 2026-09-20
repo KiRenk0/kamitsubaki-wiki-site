@@ -36,8 +36,8 @@ test('homepage music uses entry artwork first, then performer artwork, with cano
  const registry={list:()=>[{data:{id:'song',entityType:'work-track',title:'Song',performers:[{entity:'kaf'}]},url:'/zh/database/music/songs/song/'},{data:{id:'album',entityType:'work-release',title:'Album',primaryArtist:'kaf',presentation:{image:'/own.webp'}},url:'/zh/database/music/albums/album/'}],resolveEntity:()=>({data:{name:'花譜',presentation:{image:'/artist.webp'}}})};
  const music=buildEntityMusicCatalog(registry,'zh');assert.equal(music.songs[0].image,'/artist.webp');assert.equal(music.albums[0].image,'/own.webp');assert.equal(music.songs[0].subtitle,'花譜');assert.equal(music.albums[0].href,'/zh/database/music/albums/album/');
 });
-test('legacy music catalogs redirect into the unified metadata-driven database',async()=>{
- for(const [oldPath,newPath]of [['songs','songs'],['albums','albums']]){const page=await source(`src/pages/[locale]/${oldPath}/index.astro`);assert.match(page,/Astro.redirect/);assert.ok(page.includes('/database/music/'+newPath+'/'));}
+test('retired music catalog pages are removed and homepage links to canonical catalogs',async()=>{
+ for(const [oldPath,component]of [['songs','SongsSection'],['albums','AlbumsSection']]){await assert.rejects(access(new URL(`../src/pages/[locale]/${oldPath}/index.astro`,import.meta.url)),{code:'ENOENT'});assert.ok((await source(`src/components/${component}.astro`)).includes(`/database/music/${oldPath}/`));}
  const catalog=await source('src/components/EntityCatalog.astro');assert.match(catalog,/getEntityRegistry/);assert.match(catalog,/<ClassificationDirectory/);assert.match(catalog,/Workspace/);
 });
 test('all release tracks resolve to canonical trilingual recordings without duplicate IDs',()=>{

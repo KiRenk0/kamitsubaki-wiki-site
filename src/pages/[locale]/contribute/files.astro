@@ -16,7 +16,7 @@ export function getStaticPaths() { return supportedLocales.map(locale => ({param
 const locale = Astro.params.locale || 'zh';
 const content = resolveLocaleCopy({zh,en,ja},locale);
 const title = content.split('\n')[0].replace(/^# /,'');
-const html = await renderMarkdownFragment(content.split('\n').slice(1).join('\n'));
+const html = (await renderMarkdownFragment(content.split('\n').slice(1).join('\n'))).replace(/href="(?!https?:|\/|#)([^"]+\.md(?:#[^"]*)?)"/g,(_match: string,path: string)=>`href="${new URL(path,'https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/main/docs/').href}"`);
 const home = getLocalizedSite(await getCollection('site'),locale,defaultLocale);
 const alternates = supportedLocales.map(locale=>({locale,href:`/${locale}/contribute/files/`}));
 ---

@@ -1,5 +1,0 @@
----
-import {getEntityRegistry,entityLocales} from '../../../../lib/entityRegistry.mjs';
-export async function getStaticPaths(){const r=await getEntityRegistry();return entityLocales.flatMap(locale=>r.list(locale).filter(e=>['person','virtual-avatar','unit','software-voice'].includes(e.data.entityType)).map(e=>({params:{locale,artist:e.data.id}})));}
-return Astro.redirect(`/${Astro.params.locale}/database/music/songs/?person=${Astro.params.artist}`,301);
----

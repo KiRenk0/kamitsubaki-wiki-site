@@ -33,6 +33,8 @@ export async function auditPagesAssets(outputDirectory, options = {}) {
     root,
     maxBytes,
     filesScanned: files.length,
+    nearFileLimit: files.length >= Math.min(18000, Math.floor(maxFiles * .9)),
+    byDirectory: Object.fromEntries([...files.reduce((counts,{path})=>{const key=relative(root,path).split(/[\\/]/)[0];const group=relative(root,path).includes('/')?key:'(root)';counts.set(group,(counts.get(group)||0)+1);return counts;},new Map())].sort(([a],[b])=>a.localeCompare(b))),
     maxFiles,
     tooManyFiles: files.length > maxFiles,
     largest: bySizeDescending[0] ? toAsset(bySizeDescending[0]) : null,
@@ -52,6 +54,9 @@ async function main() {
     console.error(`[pages-assets] ${result.filesScanned} files exceed the configured ${result.maxFiles} file limit. Confirm the Pages plan before setting PAGES_MAX_FILES; paid plans also require Wrangler 4.`);
     process.exitCode = 1;
   }
+
+  if (result.nearFileLimit && !result.tooManyFiles) console.warn(`[pages-assets] Warning: ${result.filesScanned} files are approaching the ${result.maxFiles} file limit.`);
+  console.log('[pages-assets] Files by directory: '+JSON.stringify(result.byDirectory));
 
   if (result.oversized.length > 0) {
     console.error(

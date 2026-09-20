@@ -67,7 +67,7 @@ const metadata = {title:copy.title,description:copy.intro,canonicalPath:'/'+loca
             <summary><span class="cg-number" aria-hidden="true">{String(index+1).padStart(2,'0')}</span><div><h3>{lesson.title}</h3><p>{lesson.summary}</p></div></summary>
             <div class="cg-lesson-body"><div class="cg-prose wiki-reader wiki-prose prose max-w-none"><Fragment set:html={lesson.html}/></div><p class="cg-checkpoint">{lesson.checkpoint}</p>
               <div class="cg-lesson-actions"><button class="cg-button" data-step-complete={lesson.id} aria-pressed="false">{ui.complete}</button>
-                {lesson.id==='choose' && <a class="cg-link" href={'/'+localeCode+'/songs/'}>{ui.example} →</a>}
+                {lesson.id==='choose' && <a class="cg-link" href={'/'+localeCode+'/database/music/songs/'}>{ui.example} →</a>}
                 {lesson.id==='load' && <a class="cg-link" href={editorHref} data-editor-link>{ui.openEditor} →</a>}
                 {index < lessons.length - 1 && <a class="cg-link" href={'#lesson-'+lessons[index+1].id}>{ui.continue} →</a>}
                 {lesson.id==='submit' && <a class="cg-link" href="#pr-template">{ui.pr} ↓</a>}
