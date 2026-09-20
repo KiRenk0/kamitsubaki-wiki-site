@@ -570,7 +570,7 @@ officialLinks:
 
 ## 提交前自检
 
-- 文件路径和 `locale` 对应，三语文件共享同一个 `translationKey`。
+- 文件路径和 `locale` 对应，三语文件共享同一个稳定 `id`、`entityType` 和关系身份。
 - frontmatter 的两个 `---`、YAML 缩进和字段类型没有被破坏。
 - 日期使用 `YYYY-MM-DD`，时长使用 `MM:SS` 或 `HH:MM:SS`。
 - 新事实有可靠来源，链接能打开，信息图片有合适的替代文本。
@@ -626,7 +626,7 @@ presentation:
 
 转换器先把混合输入通过 OpenCC 统一为简体中间形，再按当前页面转换为 `cn`、`twp` 或 `hkp` 地区输出；即使同一段中交替出现 `软件`、`軟體` 和 `軟件`，也不需要额外标记。Frontmatter 会先解析再按字段处理，以下内容保持不变：
 
-- `translationKey`、`code`、`id`、`artistId`、`songId` 和罗马字字段；
+- `id`、兼容期 `translationKey`、`code` 和罗马字字段；
 - 日期、时长、色值、目录编号、图片路径和外部 URL；
 - Markdown 代码块、行内代码、数学公式、HTML 标签与属性、链接目标；
 - 官方专名保护表中要求保留的词汇。

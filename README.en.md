@@ -1,204 +1,31 @@
 # KAMITSUBAKI Wiki Site
 
-[Image uploads, paths and file organization](docs/files-and-images.en.md) · [Wiki](https://kamitsubaki.wiki/en/contribute/files/)
+[中文](README.md) · [日本語](README.ja.md) · [Documentation](docs/README.md) · [Contribution center](https://kamitsubaki.wiki/en/contribute/)
 
-Unofficial KAMITSUBAKI STUDIO fan wiki built as a static Astro site.
+An unofficial multilingual KAMITSUBAKI STUDIO fan encyclopedia. Astro generates the public site statically. Encyclopedia entries live in GitHub, independent articles in D1, and gallery metadata/images in D1 and R2. Publication always requires review.
 
-This repository is designed for a GitHub pull request workflow: contributors edit content files, run the same checks locally, open a PR, and let CI verify the wiki before it is merged and deployed.
+## Contribution paths
 
-## Languages
+- Encyclopedia entries: use the reader's edit action or create an entry in the contribution center, then submit a GitHub change proposal.
+- Research articles: save a D1 draft at `/{locale}/articles/submit/` and send it for review.
+- Gallery: upload at `/{locale}/gallery/manage/`; files remain in private R2 staging until approval.
+- Images, sources and rights: see [files and images](docs/files-and-images.en.md) and [licensing](docs/licensing.en.md).
 
-- [English](README.en.md)
-- [中文](README.md)
-- [日本語](README.ja.md)
+Follow the [V3 contribution guide](docs/contributing.en.md). Do not reuse retired `artists/` or `albums/` directories or legacy frontmatter examples.
 
-## What To Edit
+## Content model
 
-Most contributors only need `src/content/`.
+`src/content/` contains `people`, `units`, `isotopes`, `songs`, `releases`, `projects`, `lives`, `organizations`, `lore`, archived article sources, and localized site copy. Each entity keeps `zh.md`, `ja.md`, and `en.md` together and shares one stable `id`; Traditional Chinese is generated.
 
-```text
-src/content/site/       Site navigation, section labels, footer text (.json)
-src/content/artists/    Artist, creator, unit, and isotope wiki pages (.md)
-src/content/albums/     Album entries and structured track lists (.md)
-src/content/songs/      Song entries (.md)
-src/content/projects/   Project cards and project wiki content (.md)
-src/content/logs/       Timeline/update rows (.md)
-src/content/contribute/ GitHub edit-guide copy (.md)
-```
+Metadata, `classification-map.json`, and `contentLayout.mjs` determine classification and source paths. The entity registry generates public URLs. See the [content directory guide](src/content/README.md) and [Metadata Schema v2](docs/category-optimization/metadata-schema-v2.md).
 
-Implementation lives outside `src/content/`:
+## Local development
 
-```text
-src/components/         Astro UI components
-src/pages/              Routes and page composition
-src/layouts/            Shared document layout
-src/styles/             Global CSS and Tailwind styles
-src/scripts/            Browser interactions
-tests/                  Node test runner checks
-```
-
-## Quick Start
-
-Use `pnpm`.
-
-```bash
-pnpm install
+```sh
+pnpm install --frozen-lockfile
 pnpm dev
 ```
 
-Astro will print a local URL such as:
+For a release candidate, run content validation, `astro check`, the full Node test suite, production build, generated-link audit, Pages asset audit, documentation check and mirror check. Use [the documentation index](docs/README.md) for exact commands and [V3 acceptance status](docs/v3/acceptance/README.md) for remaining blockers.
 
-```text
-http://127.0.0.1:4321/
-```
-
-Open `/zh/`, `/ja/`, or `/en/` to preview a language version.
-
-## Editing Wiki Pages
-
-Artist pages are Markdown files with YAML frontmatter.
-
-```text
-src/content/artists/vwp/kaf/zh.md
-src/content/artists/vwp/kaf/ja.md
-src/content/artists/vwp/kaf/en.md
-```
-
-Project pages use the same language-file pattern:
-
-```text
-src/content/projects/arg/kamitsubaki-city/zh.md
-src/content/projects/arg/kamitsubaki-city/ja.md
-src/content/projects/arg/kamitsubaki-city/en.md
-```
-
-Keep the same `translationKey` across all translations of the same page.
-
-```yaml
----
-locale: zh
-translationKey: kaf
-code: "01"
-name: "花谱"
-romanizedName: "KAF"
-categoryTitle: "虚拟世代的魔女们"
-categorySubtitle: "VIRTUAL WITCH PHENOMENON"
-categoryOrder: 1
-itemOrder: 1
-statusLabel: "STATUS"
-status: "ACTIVE"
-image: "https://placehold.co/1200x800/111/333?text=KAF"
-seo:
-  title: "花谱 - KAMITSUBAKI WIKI"
-  description: "Custom text for search results and link previews."
-  image: "https://example.com/share-card.jpg"
-  keywords:
-    - "花谱"
-    - "KAF"
----
-```
-
-Write article content after the second `---`. Empty article bodies are allowed, so you can add structured metadata first and fill the article later.
-
-Markdown supports headings, lists, tables, links, code blocks, and LaTeX math through KaTeX.
-
-## Homepage Display And Folders
-
-The homepage DATABASE scans the first folder level under `src/content/artists/` as the category.
-
-```text
-src/content/artists/vwp/kaf/zh.md
-                    ^^^ homepage category
-```
-
-To add a new category, create a new first-level folder and add completed language entries. `categoryTitle`, `categorySubtitle`, `categoryOrder`, `itemOrder`, and `code` are optional display overrides. When they are missing, the site uses the folder name, entry name, and default sorting.
-
-## Metadata And Link Previews
-
-The `seo` block is optional. When it is missing, the site scans:
-
-- `name`, `romanizedName`, category, and status for fallback metadata.
-- The first Markdown paragraph for the page `description`.
-- `image` for Open Graph and Twitter preview cards.
-
-Use `seo.title`, `seo.description`, `seo.image`, `seo.keywords`, or `seo.noindex` only when you need exact control over search results or social previews.
-
-Set `PUBLIC_SITE_URL` during deployment, for example `https://example.com`. Canonical URLs and local image paths will become absolute URLs automatically.
-
-## Adding A New Page
-
-1. Pick the correct folder under `src/content/artists/`, `src/content/albums/`, `src/content/songs/`, or `src/content/projects/`.
-2. Create one folder for the entry, for example `src/content/artists/vwp/new-artist/`.
-3. Add the completed `zh.md`, `ja.md`, or `en.md` files; add other translations later.
-4. Use the same `translationKey` in all three files.
-5. Artist categories come from folders automatically. Add `categoryTitle`, `categorySubtitle`, `categoryOrder`, `itemOrder`, or `code` only when custom display is needed.
-6. Run the verification commands below.
-7. Open a pull request.
-
-## Local Verification
-
-Run these before opening a PR:
-
-```bash
-pnpm test
-pnpm check
-pnpm build
-```
-
-What they do:
-
-- `pnpm test`: verifies content separation, i18n assumptions, and important content records.
-- `pnpm check`: runs Astro diagnostics and validates Content Collections schemas.
-- `pnpm build`: generates the static site and confirms all routes build.
-
-## Unified AI Entry
-
-The in-Wiki assistant and the standalone KAMITSUBAKI AI Terminal share the same AI v2 control plane. This public repository contains only the Astro widget, streaming UI, and localized copy. Authentication, Agents, retrieval, history, memory, model policy, and abuse controls remain in private services.
-
-Set `PUBLIC_AI_OBSERVER_API_BASE` to the Worker origin. The widget defaults to the `observer` knowledge Agent and links to `https://chat.kamitsubaki.wiki/<locale>/` for the complete six-Agent terminal. See [Unified AI widget](docs/ai-terminal.en.md).
-
-## GitHub PR And CI Flow
-
-1. Create or sync your branch from `main`.
-2. Edit content in `src/content/`.
-3. Run local verification.
-4. Commit your changes.
-5. Push your branch.
-6. Open a pull request into `main`.
-7. GitHub Actions runs CI with the same verification commands.
-8. Fix any CI errors in the same branch.
-9. After review and merge, the static site can be deployed from the `dist/` output generated by `pnpm build`.
-
-The CI workflow is defined in `.github/workflows/ci.yml`.
-
-## Rules For Contributors
-
-- Do edit wiki content in `src/content/`.
-- Do keep all three locales in sync when adding a translatable entry.
-- Do keep `translationKey` stable across languages.
-- Do run `pnpm test`, `pnpm check`, and `pnpm build` before PR.
-- Do not edit `dist/`, `.astro/`, or `node_modules/`.
-- Do not move content into components or pages.
-- Do not add filler article text. Empty content is better than fake content.
-
-## Content Licensing
-
-Original text that the site has authority to license defaults to CC BY-NC-SA 4.0. Images, cover art, lyrics, audio, video, character designs, logos, trademarks, and other third-party material are excluded. Third-party text under another license retains its original terms together with its source, attribution, and change notice.
-
-Entry `license` frontmatter supports `CC-BY-NC-SA-4.0`, `CC-BY-NC-SA-3.0-CN`, `rights-reserved`, and `authorized-use`. See [Content licensing and attribution](docs/licensing.en.md) for fields, examples, and review rules. The content CC license does not cover the site's program source code.
-
-## Documentation
-
-- [Contributing guide](docs/contributing.en.md)
-- [Architecture notes](docs/architecture.en.md)
-- [Unified AI widget](docs/ai-terminal.en.md)
-- [Content licensing and attribution](docs/licensing.en.md)
-- [Branded external-link cards](docs/external-links.en.md)
-
-## Tech Stack
-
-- Astro static output
-- pnpm package manager
-- Astro Content Collections
-- Tailwind CSS v4 through Vite
-- Markdown with KaTeX math support
+A successful build does not prove real OAuth, GitHub submission, D1/R2 moderation, or production deployment. Remote migrations and releases are separately authorized operations. The active development branch is `V3.0.0`.

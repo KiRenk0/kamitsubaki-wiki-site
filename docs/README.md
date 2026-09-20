@@ -1,36 +1,54 @@
-# 维护文档入口
+# KAMITSUBAKI Wiki 文档中心
 
-本目录为主站维护文档的权威来源。工作区根目录 `docs/` 是镜像，请在主站编辑后运行 `node scripts/sync-docs.mjs`，不要两处独立修改。
+这里是主站维护文档的权威来源。工作区根目录 `docs/` 是自动镜像；只在主站仓库修改文档，然后运行 `node scripts/sync-docs.mjs`。文档按用途分层，避免把历史验收记录当成现行规则。
 
-## 页面设计与复用
+## 我应该看哪一份
 
-- [二级页面显示规范、组件 API 与新页面模板](design/page-system.md)
+| 任务 | 首要文档 | 补充文档 |
+| --- | --- | --- |
+| 投稿或修改百科词条 | [贡献指南](contributing.md) | [内容目录](../src/content/README.md) · [元数据规范](category-optimization/metadata-schema-v2.md) |
+| 上传词条图片或附件 | [图片与附件](files-and-images.md) | [许可与署名](licensing.md) |
+| 投稿独立文章 | [文章投稿与审核](v3/article-publishing.md) | [贡献指南](contributing.md) |
+| 上传或维护设定图 | [图库投稿与审核](v3/gallery-r2.md) | [后端图库运维](../../kamitsubaki-wiki-site-backend/docs/gallery.md) |
+| 新建实体、调整分类或形态 | [实体分类维护](maintenance/entity-classification.md) | [详细分类地图](category-optimization/classification-detailed-map.md) |
+| 维护时间轴、关联和功能数据 | [功能数据维护](v3/feature-maintenance.md) | [功能数据规范](category-optimization/feature-data-architecture.md) |
+| 新建或统一二级页面 | [页面系统规范](design/page-system.md) | [设计文档索引](design/README.md) |
+| 发布 V3 | [发布手册](operations/release-runbook.md) | [当前验收状态](v3/acceptance/README.md) · [静态产物优化](v3/static-output-optimization.md) |
 
-## 贡献与日常维护
+## 文档分区
 
-- [贡献指南](contributing.md) · [English](contributing.en.md) · [日本語](contributing.ja.md)
-- [图片与附件](files-and-images.md)
-- [许可与署名](licensing.md)
-- [V3 目录与元数据](v3/content-layout.md)
-- [时间轴、关联与功能维护](v3/feature-maintenance.md)
-- [图库上传、资料修改与审核](v3/gallery-r2.md)
-- [文章投稿与审核](v3/article-publishing.md)
+- [贡献与站内指南](guides/README.md)：贡献、图片、来源许可，以及站内教程与维护规则。
+- [内容与功能维护](maintenance/README.md)：实体、分类、元数据、时间轴、图库、文章和联动。
+- [界面与组件设计](design/README.md)：二级页面、阅读器、共享组件和交互规范。
+- [系统架构](architecture/README.md)：前端、后端、账户、AI 与安全边界。
+- [运维与集成](operations/README.md)：发布前检查、外部服务、缩略图和集成配置。
+- [V3 开发与验收](v3/README.md)：V3 当前状态、现行指南、验收证据和迁移报告。
+- [历史归档](archive/README.md)：旧版本设计、阶段性评审和已被替代的计划。
 
-## 规范与开发记录
+## 状态标签
 
-- [V3 开发与验收](v3/README.md)：当前范围与验收记录。
-- [详细分类地图](category-optimization/classification-detailed-map.md)：按指定层级编目。
-- [元数据协议](category-optimization/metadata-schema-v2.md)：当前协议为 2，网站版本为 3。
-- [功能数据设计](category-optimization/feature-data-architecture.md)：初始设计；图库上传以现行图库维护说明为准。
-- `v3/reports/`：保留迁移、字段归一化及验证证据，不手工美化或删除审计记录。
-- `superpowers/` 与日期化方案：历史设计和实施计划，不能作为当前功能已完成的证明。
+- **现行规范**：新增和修改必须遵守。
+- **操作指南**：描述当前可执行流程。
+- **验收记录**：只证明记录日期和环境下完成过的检查。
+- **历史归档**：保留决策背景，不用于指导当前实现。
+- **待验收**：实现或本地模拟存在，但真实预览/生产流程尚未完成。
 
-## 更新规则
+## 维护规则
 
-修改功能时同时更新相应维护指南，保留旧决策的时间和替代说明。站内贡献中心直接读取贡献及附件文档；语法和格式教程源位于 `src/content/contribute/`。简中、日文、英文维护源文件，繁体由生成流程更新。
+1. 功能、字段、路径或审核流程变化时，同一提交更新对应现行指南。
+2. 日期化结果放入验收或归档目录；不要把测试数字写进长期规范。
+3. 被替代的说明应移动到 `archive/` 并在开头写明替代文档；没有审计价值且会误导的内容直接删除。
+4. 站内贡献中心直接读取 `contributing.*.md`、`files-and-images.*.md` 与 `licensing.*.md`，这些稳定路径不能随意移动。
+5. 简中、日文、英文是维护源；繁体页面由生成流程产生。
+6. `v3/reports/` 是脚本生成的迁移和校验证据，不能手工改成“好看”的结果。
+7. 本地模拟、云端预览和正式发布必须分别记录。构建通过不等于投稿、R2、D1、OAuth 或生产部署已经验收。
 
-前后端字段与路径规则通过 `scripts/v3/sync-editor-schema.mjs` 同步；图库角色目录和管理界面通过 `scripts/v3/sync-gallery-contract.mjs` 同步。两者均支持 `--check`。文章与词条直接复用 `EditorWorkbench.astro` 和 `visualEditor.js`，文章存储由独立适配器处理，无需复制编辑器。文档镜像使用 `scripts/sync-docs.mjs --check`，只核对清单内文件，不删除工作区特有资料。
+## 文档检查
 
-验收记录必须区分本地模拟、真实预览和正式发布。没有实际执行的检查标为待验收，禁止把实现或构建成功写成已上线。
+```sh
+node scripts/check-docs.mjs
+node scripts/sync-docs.mjs
+node scripts/sync-docs.mjs --check
+```
 
-- [条目分类、团体与观测形态维护](maintenance/entity-classification.md)：多分类单档案、自动团体分组、形态选择器与编辑器字段。
+前后端共享契约另外执行 `node scripts/v3/sync-editor-schema.mjs --check` 与 `node scripts/v3/sync-gallery-contract.mjs --check`。

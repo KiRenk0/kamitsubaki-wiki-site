@@ -90,4 +90,4 @@ webhooks. Support never unlocks KAMITSUBAKI content or changes reading access.
 
 名单分别通过 `/admin/collaborators` 和 `/admin/support` 的感谢名单编辑。后端种子位于 `content/collaboratorDefaults.json`、`content/supportDefaults.json`，已建立草稿后以后台数据为准。API 故障时可能保留旧缓存或构建时的兜底名单；需要彻底撤下署名时，应同时更新静态兜底并重建。
 
-后台新增历史恢复、JSON 导入/导出和快捷保存；完整迁移、发布与回滚步骤见后端 `docs/support-release.md`。本轮未部署生产。
+后台提供历史恢复、JSON 导入/导出和快捷保存。当前操作以后端 [部署指南](../../kamitsubaki-wiki-site-backend/DEPLOYMENT.md) 为准；过去的支持功能上线证据保存在后端 `docs/archive/releases/support-release.md`，不能代替当前候选验收。

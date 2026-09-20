@@ -2,7 +2,7 @@
 
 # 架构说明
 
-[English](architecture.en.md) / [中文](architecture.md) / [日本語](architecture.ja.md)
+[English](../architecture.en.md) / [中文](../architecture.md) / [日本語](../architecture.ja.md)
 
 这是一个静态 Astro Wiki，使用 URL 级国际化，并把内容和实现分离。
 
@@ -68,8 +68,8 @@ schema 位于 `src/content.config.ts`，由 `pnpm check` 校验。
 - 站点品牌：长版与方形 Logo 分别位于 `public/brand/kamitsubakiwiki-long.svg` 和 `public/brand/kamitsubakiwiki-square.svg`；三语站名由 `src/lib/i18n.mjs` 统一提供。
 - 公告板：首页从 `announcements` collection 选择置顶或最新记录，并由 `AnnouncementModal.astro` 展示。
 - 专辑艺人分类：`src/lib/musicCatalog.mjs` 按专辑目录中的艺人 ID 分组；`src/pages/[locale]/albums/artists/[artist].astro` 渲染分类页，艺人封面优先取对应 `artists` 条目的 `image`。
-- 分层内容授权：`src/content.config.ts` 校验四种 `license` 标记，`ContentLicenseNotice.astro` 在详情页展示条目许可与媒体排除说明，`src/pages/[locale]/license.astro` 提供三语著作权信息页；编辑规则见[内容授权与来源标注](licensing.md)。
-- 统一 AI 入口：`AiChatWidget.astro` 与 `src/scripts/aiChatWidget.js` 调用 `/api/ai/v2/*`，默认使用 Observer，并把完整会话入口交给独立终端；详见[统一 AI 小组件](ai-terminal.md)。
+- 分层内容授权：`src/content.config.ts` 校验四种 `license` 标记，`ContentLicenseNotice.astro` 在详情页展示条目许可与媒体排除说明，`src/pages/[locale]/license.astro` 提供三语著作权信息页；编辑规则见[内容授权与来源标注](../licensing.md)。
+- 统一 AI 入口：`AiChatWidget.astro` 与 `src/scripts/aiChatWidget.js` 调用 `/api/ai/v2/*`，默认使用 Observer，并把完整会话入口交给独立终端；详见[统一 AI 小组件](../ai-terminal.md)。
 - 体验入口：`ExperiencePortals.astro` 在主站整合游戏与 AI 终端入口，文案跟随页面语言，深浅色模式使用全局设计 token。
 
 这些功能的公开资料必须放在内容或数据文件中，组件只负责渲染。新增可翻译词条时，必须同时提供 `zh`、`ja`、`en`，并保持 `translationKey` 和路由结构一致。

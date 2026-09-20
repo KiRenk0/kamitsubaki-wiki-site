@@ -164,7 +164,7 @@ lessons:
 
       1. 没有仓库写入权限时，GitHub 会引导你创建 **Fork**（你账号下的副本）。按页面提示继续。
       2. 粘贴修改并核对差异，点 **Commit changes… / Propose changes** 保存。说明写清实际变化，例如“修正词条中的重复文字”。**Commit 只是保存记录。**
-      3. 继续进入 **Compare & pull request / Create pull request**。确认目标仓库为 `LinkTh1rsty/kamitsubaki-wiki-site`、目标分支为 `main`，来源是你的修改分支。
+      3. 继续进入 **Compare & pull request / Create pull request**。确认目标仓库为 `LinkTh1rsty/kamitsubaki-wiki-site`、目标分支为维护者当前指定的开发分支，来源是你的修改分支。
       4. 写一句清晰标题，用下方模板说明改动、来源和检查结果，然后创建 PR。出现带编号的 Pull Request 页面，才算已交给维护者。
 
       **接下来会发生什么？** Checks 是自动检查：运行中就稍等，失败就看具体错误；通过后仍需维护者审阅。收到补来源或改格式的意见很正常。回到**同一个 Fork 的同一分支**修改并再次 Commit，新提交会加入原 PR，不必重复开一个。
@@ -182,22 +182,22 @@ workshops:
 
       艺人、歌曲、专辑、企划、活动记录的必填字段不同，以“导出前检查”为准。标题、条目标识和来源先确定，再添加有内容的章节；不要造空章节来凑完整度。
 
-      - 歌曲目录 `songs/`：`src/content/songs/<artistId>/<category>/<songId>/<locale>.md`，例如 `src/content/songs/kaf/originals/new-song/zh.md`。
-      - 专辑目录 `albums/`：`src/content/albums/<artistId>/<albumId>/<locale>.md`，例如 `src/content/albums/kaf/new-album/zh.md`。
-      - 其他类型沿用同类现有词条的目录。不要自行更改已有条目的文件夹名或标识。
+      - 歌曲位于 `src/content/songs/<主要表演者或 collaborations>/<id>/<locale>.md`，由 `performers` 自动推导。
+      - 唱片位于 `src/content/releases/<releaseType 对应类别>/<id>/<locale>.md`。
+      - 人物、团体、企划等路径由分类地图和实体类型推导。不要复制旧版 `artists/`、`albums/` 模板，也不要猜测文件夹。
 
       以上 `new-song`、`new-album` 只是目录示意。提交前用实际标识替换；先核对歌曲的艺人、曲种、制作信息，专辑的发行信息、曲序和曲目关联。图片另行上传到仓库，页面填对应地址。
 
       在左侧“属性”展开“GitHub 文件路径（可选）”，填写包含语言文件名的完整路径。导出菜单会据此打开 GitHub 的新建文件位置；填写路径本身不会创建文件。
 
-      同一词条的语言文件共用 `translationKey`。新条目应准备 `zh.md`、`ja.md`、`en.md`，暂时无法完成某种语言时，在 PR 明确说明，请维护者协助；不要把未翻译内容伪装成完成的版本。更多字段与歌曲、专辑补写标准见语法参考。
+      同一词条的语言文件共用稳定 `id`，并保持实体类型与关系字段一致。新条目应准备 `zh.md`、`ja.md`、`en.md`；暂时无法完成某种语言时，在 PR 明确说明，不要把未翻译内容伪装成完成版本。路径不确定时让编辑器根据元数据生成，或查阅内容目录指南。
   - id: translation
     title: 翻译与繁体中文
     summary: 保持同一个词条，不丢原文、标识和署名。
     body: |-
       修改已有翻译时，载入目标语言原文，再对照来源逐句核对。语言选择器只设置内容语言，**不会自动翻译正文**；不要在旧文件中只改语言就覆盖另一个版本。
 
-      各版本保留相同的 `translationKey`，日期、作品编号、人员关系保持一致。姓名和作品名优先采用官方写法；未确定的译名在 PR 中说明依据。
+      各版本保留相同的稳定 `id`、`entityType` 和关系身份，日期、作品编号与人员关系保持一致。姓名和作品名优先采用官方写法；未确定的译名在 PR 中说明依据。
 
       繁体中文由简体中文自动生成，修改原稿 `zh.md`，不要编辑生成的 `zh-tw.md`、`zh-hk.md`。局部需要台湾或香港用词时，可查语法参考的“混合简繁转换与生成文件”，编辑器工具栏“···”也有“繁体用词覆写”。
 

@@ -578,7 +578,7 @@ Use the exact standalone level-two heading `## External Links`, followed immedia
 
 ## Pre-PR checklist
 
-- The path matches `locale`, and localized siblings share one `translationKey`.
+- The path matches `locale`, and localized siblings share one stable `id`, `entityType`, and relationship identity.
 - Both `---` markers, YAML indentation, and field types are intact.
 - Dates use `YYYY-MM-DD`; durations use `MM:SS` or `HH:MM:SS`.
 - New facts have reliable sources, links open, and informative images have useful alternative text.
@@ -634,7 +634,7 @@ Generated: src/content/people/solo/kaf/zh-hk.md
 
 The converter first canonicalizes mixed input through a Simplified Chinese intermediate form, then emits the current page as OpenCC `cn`, `twp`, or `hkp` regional output. No annotation is needed when `软件`, `軟體`, and `軟件` appear in the same paragraph. Frontmatter is parsed and converted field by field. The following remain unchanged:
 
-- `translationKey`, `code`, `id`, `artistId`, `songId`, and romanized fields;
+- `id`, compatibility-only `translationKey`, `code`, and romanized fields;
 - dates, durations, colors, catalog numbers, image paths, and external URLs;
 - Markdown code blocks, inline code, mathematics, HTML tags and attributes, and link destinations;
 - official terms listed in the protected-term table.

@@ -51,4 +51,4 @@ articles/{articleCategory}/{id}/
 
 迁移清单：`docs/v3/reports/content-layout.json`，记录每个文件的原路径、目标路径与完整文件 SHA-256。原始正文审计表保留原样，校验程序通过迁移清单解析现路径。
 
-17 个既有唱片存在各语言 releaseType 不一致，目录暂按中文主记录统一，记录在 `src/data/content-folder-overrides.json`；本次未改写任何语言的元数据。后续核实事实后再统一分类。旧 `artists/`、`albums/` 已无正式词条，其遗留目录说明归档至 `docs/v3/legacy-directory-notes/`。
+17 个既有唱片存在各语言 `releaseType` 不一致，目录暂按中文主记录统一，记录在 `src/data/content-folder-overrides.json`；后续核实事实后再统一分类。旧 `artists/`、`albums/` 已无正式词条，也不得再按旧目录模板新建内容。旧模板已经删除，需要追溯时查看 Git 历史。

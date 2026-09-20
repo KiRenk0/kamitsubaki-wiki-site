@@ -65,7 +65,7 @@ An article title should be recognizable, precise, concise, and consistent with r
 - Choose one clear short form afterward. Do not continually alternate between romanization, Japanese, and translation within the same passage. When both a reading and romanization are needed, prefer a `ruby` reading with the romanization in parentheses; follow the [syntax and properties guide](/en/contribute/syntax) for the exact markup.
 - Add disambiguation only when names collide, and use only enough detail to distinguish the entries.
 - Do not invent abbreviations or translations. If a helpful unofficial translation is necessary, label it as provisional and retain the official name.
-- URL directories, `translationKey`, and frontmatter follow the [syntax and properties guide](/en/contribute/syntax). Do not rename stable identifiers merely because display text changes.
+- Stable `id`, public URLs, and frontmatter follow the [syntax and properties guide](/en/contribute/syntax). Do not change entity identity when display text or local directories change.
 
 ## Leads and section structure
 
@@ -168,7 +168,7 @@ Build a log around one clear date and event. State what happened, then explain i
 - Field names, types, date formats, and allowed values must follow the [syntax and properties guide](/en/contribute/syntax) and content schema. Do not invent an unrecognized field.
 - Put only stable facts worth checking at a glance in an infobox. Do not include personal opinions, promotional copy, fan discussion, or unconfirmed speculation.
 - Prefer official material for names, images, and affiliations. If reliable unofficial compilation has genuine value, first describe its source and nature in the prose. An “unofficial” label does not make unverified information suitable for an infobox.
-- The artist frontmatter `code` field follows the label numbering systems already established on the site: `P` plus a number for Phenomenon Record, `S` plus a number for SINSEKAI RECORD, and `G` plus a number for Girls Revolution Project. Record only a number confirmed by an existing entry or maintenance material; never infer one from display order.
+- Legacy entries may retain a verified `code` as a display number. New classification and order come from the classification map and structured fields. Never infer a code from display order or use it as the stable entity ID.
 
 ## Prose and paragraphs
 

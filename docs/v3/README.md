@@ -28,17 +28,16 @@
 开发进行中。原始版本基线：主站 `7c63fb0a`、后端 `6b36fb4`。
 旧正文不得覆盖；新资料作为可追溯增补。保留旧语言正文；新增未译内容明确展示回退语言。
 
-## 体验与接口联动验收
+## 现行指南
 
-详见 [本轮修复与验收记录](experience-and-integration-acceptance.md)。先完成体验、结构与元数据联动，再继续资料库正文完善。日英新增内容的翻译按用户决定另行交接。
-
-- [文章区与投稿审核](article-publishing.md)
-
-## 当前维护入口
-
-- [静态产物优化与旧网址移除](static-output-optimization.md)
 - [目录与元数据修正](content-layout.md)
+- [时间轴、关系与功能数据](feature-maintenance.md)
 - [图库投稿与审核](gallery-r2.md)
-- [功能数据维护](feature-maintenance.md)
-- [2026-09-20 发布前检查与未完成项](release-check-2026-09-20.md)
-- [统一文档目录](../README.md)
+- [文章投稿与审核](article-publishing.md)
+- [静态产物优化与旧网址移除](static-output-optimization.md)
+
+## 验收与发布
+
+统一入口为 [V3 验收与发布状态](acceptance/README.md)。日期化记录只能证明特定候选和环境下的结果；真实云端投稿、D1/R2、OAuth 与生产部署没有完成时，不得标记为上线。
+
+迁移和归一化脚本输出位于 [机器生成报告](reports/README.md)。早期脑暴仅记录设计意图，字段和维护方式以现行规范为准。完整文档导航见 [文档中心](../README.md)。

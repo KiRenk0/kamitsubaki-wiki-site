@@ -161,7 +161,7 @@ lessons:
 
       1. Without write access, GitHub guides you to a **Fork**, a copy under your account.
       2. Paste and inspect the change, then choose **Commit changes… / Propose changes**. Write a short description of the actual edit. A Commit is a saved change, not the PR itself.
-      3. Continue to **Compare & pull request / Create pull request**. The base repository should be `LinkTh1rsty/kamitsubaki-wiki-site`, with base branch `main`; the comparison comes from your edited branch.
+      3. Continue to **Compare & pull request / Create pull request**. The base repository should be `LinkTh1rsty/kamitsubaki-wiki-site`, using the development branch currently designated by the maintainers; the comparison comes from your edited branch.
       4. Add a clear title and describe changes, sources and checks with the template below. Create the PR. A numbered Pull Request page confirms it has been submitted.
 
       Checks run automatically. Wait while they run; open the error details if they fail. Passing checks still leaves human review. If a reviewer requests changes, edit the **same branch in your Fork** and Commit again; the existing PR updates automatically.
@@ -179,22 +179,22 @@ workshops:
 
       Required fields differ across the five types; use Before you export. Set the title and entry key, gather sources, then add sections with actual content rather than empty headings.
 
-      - `songs/`: `src/content/songs/<artistId>/<category>/<songId>/<locale>.md`, for example `src/content/songs/kaf/originals/new-song/en.md`.
-      - `albums/`: `src/content/albums/<artistId>/<albumId>/<locale>.md`, for example `src/content/albums/kaf/new-album/en.md`.
-      - Follow an existing article of the same type for other paths. Do not rename existing entry keys or directories casually.
+      - Songs use `src/content/songs/<primary performer or collaborations>/<id>/<locale>.md`, derived from `performers`.
+      - Releases use `src/content/releases/<releaseType category>/<id>/<locale>.md`.
+      - People, units and projects derive their paths from entity type and the approved classification map. Do not copy retired `artists/` or `albums/` templates or guess a directory.
 
       These names are examples; replace them with real IDs before submitting. Verify song artist, category and credits; verify album release details, track order and song references. Upload repository images separately and use the corresponding URL.
 
       Expand GitHub file path (optional) in the left Properties panel and enter the full path, including the language filename. The export menu can then open GitHub’s new-file location; entering the path alone does not create a file.
 
-      Language files share `translationKey`. Prepare `zh.md`, `ja.md` and `en.md` for a new article. If a version needs help, explain that in the PR instead of presenting untranslated text as complete. The syntax reference has the full song and album completion standards.
+      Language files share one stable `id` and consistent entity/relationship fields. Prepare `zh.md`, `ja.md` and `en.md`; if a version needs help, explain that in the PR instead of presenting untranslated text as complete. Let the editor derive an uncertain path from metadata or consult the content directory guide.
   - id: translation
     title: Translations and Traditional Chinese
     summary: Keep identity, meaning and attribution aligned.
     body: |-
       Load the existing target-language file and compare it with the original. The language selector **does not translate the text**. Do not change only the locale and overwrite another version.
 
-      Keep the same `translationKey` across versions, with consistent dates, catalog numbers and relationships. Prefer official names and explain uncertain translations in your PR.
+      Keep the same stable `id`, `entityType` and relationship identities across versions, with consistent dates and catalog numbers. Prefer official names and explain uncertain translations in your PR.
 
       Traditional Chinese is generated from Simplified Chinese. Edit `zh.md`, not generated `zh-tw.md` or `zh-hk.md`. For regional wording, consult the conversion section of the syntax reference or **Chinese variant wording** in the toolbar’s “···” menu.
 

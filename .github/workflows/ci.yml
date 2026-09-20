@@ -35,6 +35,9 @@ jobs:
       - name: Run Astro check
         run: pnpm check
 
+      - name: Check documentation links
+        run: pnpm docs:check
+
       - name: Audit synchronized lyrics
         run: pnpm lyrics:timestamps:audit -- --strict
 
