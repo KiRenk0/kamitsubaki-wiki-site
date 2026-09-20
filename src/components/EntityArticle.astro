@@ -1,4 +1,5 @@
 ---
+import DatabaseArticleLinks from './DatabaseArticleLinks.astro';
 import ReaderRecordList from './ReaderRecordList.astro';
 import ReaderDisclosure from './ReaderDisclosure.astro';
 import ReaderSources from './ReaderSources.astro';
@@ -68,7 +69,7 @@ const permanent=d.lifecycle?.archive?.mode==='permanent';
   <div class="entity-related">{isArticle&&<p class="article-review-note">{locale==='en'?'Anyone can suggest an edit. Changes are published after review by the site owner.':locale==='ja'?'誰でも修正を提案できます。管理者の審査後に公開されます。':'人人可参与编辑。提交的修改经站长审核后发布。'}</p>}<p class="entity-related-kicker">{locale==='en'?'ABOUT THIS ENTRY':locale==='ja'?'この記事について':'关于本条目'}</p>
   {other.length>0&&<ReaderDisclosure title={copy.relations} count={other.length}><ReaderRecordList locale={locale} id="reader-related-more" records={other.map(r=>({href:r.entry.url,title:r.entry.data.name||r.entry.data.title||r.entry.data.id,detail:[entityLabel(r.role||r.type,locale),r.current===false?entityLabel('historical',locale):'',r.startDate,r.endDate].filter(Boolean).join(' · ')}))}/></ReaderDisclosure>}
   {works.length>0&&<ReaderDisclosure title={copy.works} count={works.length}><ReaderRecordList locale={locale} id="reader-works-more" records={works.map(r=>({href:r.entry.url,title:r.entry.data.title||r.entry.data.name||r.entry.data.id,detail:[entityLabel(r.role||r.type,locale),r.entry.data.releaseDate].filter(Boolean).join(' · ')}))}/></ReaderDisclosure>}
-  {articles.length>0&&<ReaderDisclosure title={copy.articles} count={articles.length}><ReaderRecordList locale={locale} id="reader-articles-more" records={articles.map(r=>({href:r.entry.url,title:r.entry.data.title||r.entry.data.name||r.entry.data.id}))}/></ReaderDisclosure>}
+  <DatabaseArticleLinks id={d.id} locale={locale} title={copy.articles}/>
   {footprints.length>0&&<ReaderDisclosure title={copy.footprints} count={footprints.length}><ReaderRecordList locale={locale} id="reader-footprints-more" records={footprints.map(e=>({href:`/${locale}/chronicle/?entity=${d.id}#${e.id}`,title:featureText(e.text,locale).title,detail:e.date.start}))}/><p><a href={`/${locale}/chronicle/?entity=${d.id}`}>{copy.all} ({footprints.length}) →</a></p></ReaderDisclosure>}
   {(d.sources||[]).length>0&&<ReaderDisclosure title={copy.sources} count={d.sources?.length} id="entry-sources"><ReaderSources sources={d.sources||[]} locale={locale}/></ReaderDisclosure>}
   {(d.tracks||[]).length>0&&<ReaderDisclosure title={locale==='en'?'Track list':locale==='ja'?'収録曲':'收录曲目'} count={d.tracks?.length}><ReaderRecordList locale={locale} id="reader-tracks-more" records={d.tracks!.map(track=>{const song=track.songId?registry.resolveEntity(track.songId,locale):undefined;return {href:song?.url,title:track.title||song?.data.title||String(track.number),detail:`${track.disc||1} · ${track.number}`};})}/></ReaderDisclosure>}

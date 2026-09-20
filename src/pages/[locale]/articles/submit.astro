@@ -1,0 +1,17 @@
+---
+import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
+import {entityLocales} from '../../../lib/entityRegistry.mjs';
+import {articleManagerMarkup,articleManagerStyles} from '../../../lib/articleManager.js';
+export function getStaticPaths(){return entityLocales.map(locale=>({params:{locale}}));}
+const locale=Astro.params.locale!;const api=import.meta.env.PUBLIC_ARTICLE_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
+---
+<WorkspaceLayout locale={locale} title="文章投稿" intro="先保存草稿，随时继续。投稿或修改经审核后公开。" path="/articles/submit/" eyebrow="EDITORIAL / WRITE" width="wide" backHref={`/${locale}/articles/`} backLabel="文章" noindex mainAttributes={{'data-article-api':api,'data-locale':locale}}>
+ <style is:global set:html={articleManagerStyles}/><div set:html={articleManagerMarkup}/>
+</WorkspaceLayout>
+<script>
+import {initArticleManager} from '../../../lib/articleManager.js';
+const shell=document.querySelector<HTMLElement>('[data-article-api]')!,root=shell.querySelector<HTMLElement>('.article-manager')!;
+let previewTimer:ReturnType<typeof setTimeout>;
+root.addEventListener('article-preview',event=>{clearTimeout(previewTimer);const source=(event as CustomEvent<string>).detail;previewTimer=setTimeout(()=>{void import('../../../lib/articleMarkdown').then(({articleHTML})=>{if(root.querySelector<HTMLTextAreaElement>('[name=body]')!.value===source)root.querySelector('[data-preview]')!.innerHTML=articleHTML(source);}).catch(()=>{root.querySelector('[data-preview]')!.textContent=source;});},150);});
+initArticleManager(root,{api:shell.dataset.articleApi,locale:shell.dataset.locale,login:`/${shell.dataset.locale}/account/`});
+</script>

@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';import SiteNav from '../../../components/SiteNav.astro';import SiteFooter from '../../../components/SiteFooter.astro';import Reader from '../../../components/Reader.astro';
+import {getCollection} from 'astro:content';import {getLocalizedSite} from '../../../lib/homeData.mjs';import {buildLocaleLinks} from '../../../lib/i18n.mjs';import {entityLocales} from '../../../lib/entityRegistry.mjs';import '../../../styles/articleWorkspace.css';
+export function getStaticPaths(){return entityLocales.map(locale=>({params:{locale}}));}
+const locale=Astro.params.locale!,site=getLocalizedSite(await getCollection('site'),locale),api=import.meta.env.PUBLIC_ARTICLE_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
+---
+<BaseLayout title="文章 · Kamitsubaki Wiki" lang={locale} reading>
+<SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site,locale,'/articles/')} brandLines={site.hero.brandLines} homeHref={`/${locale}/`}/>
+<main class="article-reader" data-article-page="read" data-article-api={api} data-locale={locale}>
+ <header class="article-reader-header reader-frame"><a href={`/${locale}/articles/`}>← 文章</a><h1 data-article-title>正在读取文章</h1><p data-article-meta></p><a data-article-edit hidden>提交修改 ↗</a><p role="status" data-article-status></p></header>
+ <Reader headings={[]} contentsTitle="目录" variant="entry"><article class="wiki-reader wiki-prose prose max-w-none" data-article-body></article><Fragment slot="sidebar"><nav class="article-toc" aria-label="文章目录" data-article-toc><h2>目录</h2></nav><div class="article-related" data-article-related><h2>关联词条</h2></div></Fragment></Reader>
+</main><SiteFooter footer={site.footer}/></BaseLayout>
+<script>import {initArticleBrowser} from '../../../lib/articleClient';initArticleBrowser(document.querySelector<HTMLElement>('[data-article-page]')!);</script>

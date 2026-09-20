@@ -4,9 +4,9 @@
 
 ## Choose a workflow
 
-Edit an existing entry from its reader's edit action, which supplies the actual source path. Create entries and articles in the contribution editor. Upload reference images or improve their metadata in [Gallery contributions](/en/gallery/manage/).
+Edit an existing entry from its reader's edit action, which supplies the actual source path. Create encyclopedia entries in the contribution editor. Articles have a [separate submission page](/en/articles/submit/): save a database draft, submit it, and wait for the site owner’s review. Upload reference images or improve their metadata in [Gallery contributions](/en/gallery/manage/).
 
-Entries and articles use GitHub proposals. Gallery submissions use the Worker, private R2 staging and D1 records; no GitHub file change is needed. Signed-in users may suggest improvements to anyone's published gallery records. The site owner reviews changes before publication.
+Encyclopedia entries use GitHub proposals. Article drafts, revisions and published versions use separate D1 tables, with moderation at `/admin/articles`; they do not create GitHub PRs. Gallery submissions use the Worker, private R2 staging and D1 records; no GitHub file change is needed. Signed-in users may suggest improvements to anyone's published gallery records. The site owner reviews changes before publication.
 
 ## Write an entry
 
