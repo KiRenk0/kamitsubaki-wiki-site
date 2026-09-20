@@ -1,0 +1,153 @@
+[
+  {
+    "id": "solo",
+    "path": "artists/solo",
+    "labels": [
+      "个人歌手与独立艺人",
+      "Solo artists",
+      "ソロアーティスト"
+    ],
+    "types": [
+      "person",
+      "virtual-avatar"
+    ],
+    "roles": [
+      "virtual-singer",
+      "singer-songwriter",
+      "vocalist"
+    ]
+  },
+  {
+    "id": "groups",
+    "path": "artists/groups",
+    "labels": [
+      "演艺组合",
+      "Units & groups",
+      "ユニット・グループ"
+    ],
+    "types": [
+      "unit"
+    ]
+  },
+  {
+    "id": "creators",
+    "path": "creators",
+    "labels": [
+      "核心词曲创作者",
+      "Creators",
+      "作詞・作曲家"
+    ],
+    "types": [
+      "person",
+      "virtual-avatar"
+    ],
+    "roles": [
+      "composer",
+      "lyricist",
+      "arranger"
+    ]
+  },
+  {
+    "id": "staff",
+    "path": "staff",
+    "labels": [
+      "策划与监督团队",
+      "Staff & directors",
+      "企画・監督チーム"
+    ],
+    "types": [
+      "person"
+    ],
+    "roles": [
+      "producer",
+      "illustrator",
+      "visual-director",
+      "scenario-writer"
+    ]
+  },
+  {
+    "id": "isotopes",
+    "path": "isotopes",
+    "labels": [
+      "官方音乐同位体",
+      "Musical isotopes",
+      "音楽的同位体"
+    ],
+    "types": [
+      "software-voice"
+    ]
+  },
+  {
+    "id": "songs",
+    "path": "music/songs",
+    "labels": [
+      "曲目总库",
+      "Songs",
+      "楽曲"
+    ],
+    "types": [
+      "work-track"
+    ],
+    "discover": true
+  },
+  {
+    "id": "releases",
+    "path": "music/albums",
+    "labels": [
+      "唱片编目",
+      "Releases",
+      "音楽作品"
+    ],
+    "types": [
+      "work-release"
+    ]
+  },
+  {
+    "id": "projects",
+    "path": "projects",
+    "labels": [
+      "企划宇宙与多媒体 IP",
+      "Projects & IP",
+      "企画・IP"
+    ],
+    "types": [
+      "project"
+    ]
+  },
+  {
+    "id": "lives",
+    "path": "lives",
+    "labels": [
+      "现场演出与大型活动",
+      "Lives & events",
+      "公演・イベント"
+    ],
+    "types": [
+      "live-event"
+    ]
+  },
+  {
+    "id": "organizations",
+    "path": "studios",
+    "labels": [
+      "组织、工作室与厂牌",
+      "Organizations & studios",
+      "組織・スタジオ"
+    ],
+    "types": [
+      "organization"
+    ]
+  },
+  {
+    "id": "lore",
+    "path": "lore",
+    "labels": [
+      "世界观、术语与设定",
+      "Lore & universe",
+      "世界観・用語"
+    ],
+    "types": [
+      "lore-concept"
+    ]
+  }
+]

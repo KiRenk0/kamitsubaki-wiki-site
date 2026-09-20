@@ -1,3 +1,5 @@
+import {navigationCategories,classificationNodeIds} from './classificationRules.mjs';
+import morphSlots from '../data/morph-slots.json' with {type:'json'};
 import {authorableRelations} from './entityContract.mjs';
 export const metadataDefaults = {
   seo:{titleOverride:'',description:'',image:'',keywords:[],noindex:false},
@@ -64,7 +66,7 @@ Object.assign(metadataDefaults,{
   voiceEngines:[{engine:''}],dateRange:{start:''},headliners:[],setlist:[{number:'1',songId:''}],
 });
 const domainOptions={person:['roles','lifecycle','affiliations'], 'virtual-avatar':['roles','lifecycle','affiliations'],unit:['roles','lifecycle','affiliations'],'software-voice':['voiceEngines','commercialLicense','roles','lifecycle','affiliations'],'work-track':['releaseDate','duration','performers','credits','genres','media','lyricsSources'],'work-release':['releaseType','releaseDate','primaryArtist','label','catalogNumber','tracks','editions'],project:['status','subProjects','releaseDate'],organization:['orgType','parentOrg'],'live-event':['eventType','dateRange','venue','headliners','guestPerformers','organizer','setlist'],'lore-concept':['loreCategory','belongToUniverse'],'editorial-article':['articleCategory','author','publishDate','relatedEntities']};
-export const metadataOptions=(kind,meta={})=>meta.schemaVersion===2?['aliases','summary','relations','tags','presentation','sources','officialLinks','seo','license','contentStatus',...(domainOptions[meta.entityType]||[])]:legacyMetadataOptions(kind);
+export const metadataOptions=(kind,meta={})=>meta.schemaVersion===2?['aliases','summary','classification','relations','tags','presentation','sources','officialLinks','seo','license','contentStatus',...(domainOptions[meta.entityType]||[])]:legacyMetadataOptions(kind);
 
 Object.assign(metadataChoices,{activity:['active','hiatus','ended','unknown'],mode:['none','permanent'],releaseType:['album','ep','single','soundtrack','live-album'],endReason:['independent','completed','transferred']});
 
@@ -76,6 +78,8 @@ Object.assign(names,{relations:['实体关系','Relations','関連'],performers:
 
 // Nested optional fields remain addable after importing a minimal entity.
 export const nestedMetadataDefaults = {
+ classification:{primary:'solo',additional:[],group:''},
+ 'presentation.morphing':{group:'',slot:'virtual-artist',label:'',order:0},
  presentation:{image:'',sortOrder:0,badge:'',theme:{accentColor:'#8eaaa8'},morphing:{group:'',slot:'virtual-artist',order:0}},
  'presentation.theme':metadataDefaults.theme,
  lifecycle:{activity:'unknown',startedAt:'',endedAt:'',archive:{mode:'none'}},
@@ -92,4 +96,8 @@ export const nestedMetadataDefaults = {
 };
 export function nestedMetadataOptions(path,value){const template=nestedMetadataDefaults[path.filter(k=>typeof k!=='number').join('.')];return Object.keys(template||{}).filter(k=>!(k in value));}
 export function nestedMetadataDefault(path,key){return structuredClone(nestedMetadataDefaults[path.filter(k=>typeof k!=='number').join('.')][key]);}
-Object.assign(metadataChoices,{'presentation.morphing.slot':['virtual-artist','real-artist','isotope','fictional-resident']});
+Object.assign(metadataChoices,{'presentation.morphing.slot':Object.keys(morphSlots)});
+
+Object.assign(metadataDefaults,{classification:{additional:[]}});
+Object.assign(metadataChoices,{'classification.primary':navigationCategories.map(c=>c.id),'classification.additional':classificationNodeIds});
+Object.assign(names,{classification:['分类与归档','Classification & filing','分類と配置'],primary:['主分类（唯一地址）','Primary category (canonical URL)','主分類（正規URL）'],additional:['附加分类入口','Additional categories','追加分類'],group:['分组 ID','Group ID','グループ ID'],morphing:['观测形态分组','Observation family','観測形態グループ'],slot:['形态类型','Form type','形態種別'],order:['显示顺序','Display order','表示順'],label:['显示名称','Display label','表示名']});

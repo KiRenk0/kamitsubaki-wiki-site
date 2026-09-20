@@ -32,3 +32,5 @@
 前后端字段与路径规则通过 `scripts/v3/sync-editor-schema.mjs` 同步；图库角色目录和管理界面通过 `scripts/v3/sync-gallery-contract.mjs` 同步。两者均支持 `--check`。文档镜像使用 `scripts/sync-docs.mjs --check`，只核对清单内文件，不删除工作区特有资料。
 
 验收记录必须区分本地模拟、真实预览和正式发布。没有实际执行的检查标为待验收，禁止把实现或构建成功写成已上线。
+
+- [条目分类、团体与观测形态维护](maintenance/entity-classification.md)：多分类单档案、自动团体分组、形态选择器与编辑器字段。

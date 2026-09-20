@@ -2,9 +2,9 @@
 import SelectionGroup from './SelectionGroup.astro';
 import ClassificationBranch from './ClassificationBranch.astro';
 import {getEntityRegistry} from '../lib/entityRegistry.mjs';
-import {classificationTree,classificationEntries,classificationLabel} from '../lib/classificationTree.mjs';
+import {buildClassificationTree,classificationEntries,classificationLabel} from '../lib/classificationTree.mjs';
 import '../styles/classificationDirectory.css';
-const {locale='zh',initial='people',home=false}=Astro.props;const registry=await getEntityRegistry();
+const {locale='zh',initial='people',home=false}=Astro.props;const registry=await getEntityRegistry();const classificationTree=buildClassificationTree(registry,locale);
 ---
 <div class:list={["classification-directory",home&&"classification-directory--home"]} data-classification data-initial={initial}>
  <div class="classification-layout">

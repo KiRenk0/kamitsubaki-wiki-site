@@ -1,4 +1,5 @@
 import {authorableRelations} from './entityContract.mjs';
+import {navigationCategories,classificationNodeIds} from './classificationRules.mjs';
 /** Schema v2 is the only authored encyclopedia model; no legacy transforms. */
 export function createEntitySchema(z){
  const id=z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/);
@@ -12,11 +13,12 @@ export function createEntitySchema(z){
  const track=z.object({songId:id.optional(),title:z.string().optional(),disc:z.number().int().positive().optional(),number:z.string().optional(),artist:z.string().optional(),duration:z.string().optional(),legacySongId:z.string().optional()});
  const base={generated:z.boolean().optional(),generatedFrom:z.string().optional(),generatedFromHash:z.string().optional(),schemaVersion:z.literal(2),id,locale:z.enum(['zh','ja','en','zh-tw','zh-hk']),
   name:text.optional(),title:text.optional(),romanizedName:text.optional(),romanizedTitle:text.optional(),ruby:z.string().optional(),summary:z.string().optional(),aliases:z.array(z.string()).optional(),relations:relations.optional(),sources:z.array(z.object({id:z.string().optional(),title:text,url:url.optional(),type:z.string().optional(),publisher:z.string().optional(),page:z.string().optional(),publishedAt:date.optional()}).strict()).optional(),
-  presentation:z.object({image:url.optional(),sortOrder:z.number().optional(),badge:z.string().optional(),theme:z.object({name:z.string().optional(),accentColor:z.string(),mutedColor:z.string().optional(),surfaceColor:z.string().optional(),highlightColor:z.string().optional(),palette:z.array(z.object({label:z.string(),value:z.string()})).optional()}).optional(),morphing:z.object({group:id,slot:z.string(),order:z.number()}).optional()}).optional(),
+  presentation:z.object({image:url.optional(),sortOrder:z.number().optional(),badge:z.string().optional(),theme:z.object({name:z.string().optional(),accentColor:z.string(),mutedColor:z.string().optional(),surfaceColor:z.string().optional(),highlightColor:z.string().optional(),palette:z.array(z.object({label:z.string(),value:z.string()})).optional()}).optional(),morphing:z.object({group:id,slot:z.string(),label:text.optional(),order:z.number().optional()}).optional()}).optional(),
   officialLinks:z.array(z.object({url,label:z.string().optional(),platform:z.string().optional()})).optional(),
   seo:z.object({titleOverride:z.string().optional(),description:z.string().optional(),image:z.string().optional(),keywords:z.array(z.string()).optional(),noindex:z.boolean().optional()}).optional(),
   license:z.object({code:z.enum(['CC-BY-NC-SA-4.0','CC-BY-NC-SA-3.0-CN','rights-reserved','authorized-use']),attribution:z.string().optional(),sourceTitle:z.string().optional(),sourceUrl:url.optional(),modifications:z.string().optional(),note:z.string().optional()}).optional(),
   contentStatus:z.enum(['stub','published']).optional(),researchImport:z.object({source:z.string(),sha256:z.string(),importedAt:date}).optional(),
+  classification:z.object({primary:id.optional(),additional:z.array(id).optional(),group:id.optional()}).strict().optional(),
   tags:z.array(z.string()).optional(),
  };
  const entity=(type,fields)=>z.object({...base,entityType:z.literal(type),...fields}).strict();
@@ -34,6 +36,13 @@ export function createEntitySchema(z){
  ]).superRefine((d,c)=>{
   if(d.contentStatus!=='stub'){
    for(const key of ({'work-release':['releaseDate'],'project':['status'],'live-event':['dateRange'],'editorial-article':['author','publishDate']}[d.entityType]||[]))if(d[key]===undefined)c.addIssue({code:'custom',path:[key],message:'Required for published entries'});
+  }
+  const placement=d.classification;
+  if(placement?.primary){const category=navigationCategories.find(c=>c.id===placement.primary);if(!category||!category.types.includes(d.entityType)&&!(category.id==='groups'&&placement.group&&['person','virtual-avatar'].includes(d.entityType)))c.addIssue({code:'custom',path:['classification','primary'],message:'Unknown or incompatible primary category'});}
+  for(const category of placement?.additional||[])if(!classificationNodeIds.includes(category)&&!/^group-[a-z0-9]+(?:-[a-z0-9]+)*$/.test(category))c.addIssue({code:'custom',path:['classification','additional'],message:'Unknown classification node: '+category});
+  if(placement?.group){
+   if(!['person','virtual-avatar'].includes(d.entityType)||placement.primary&&placement.primary!=='groups')c.addIssue({code:'custom',path:['classification','group'],message:'A member folder requires a person/avatar and groups primary category'});
+   if(!d.relations?.some(r=>r.type==='member-of'&&r.target===placement.group))c.addIssue({code:'custom',path:['classification','group'],message:'Primary group requires an explicit member-of relation'});
   }
   if(!d.name&&!d.title)c.addIssue({code:'custom',path:['name'],message:'An entity requires a name or title'});
   if(d.entityType==='software-voice'&&!d.relations.some(r=>r.type==='based-on-voice'))c.addIssue({code:'custom',path:['relations'],message:'Voice source required'});

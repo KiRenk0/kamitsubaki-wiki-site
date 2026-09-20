@@ -23,7 +23,7 @@ export function createEntityRegistry(entries,redirects={}){
   getIncomingRelations:id=>incoming.get(id)||[],getOutgoingRelations:id=>outgoing.get(id)||[],
   getRelations(id){return [...(outgoing.get(id)||[]),...(incoming.get(id)||[]).map(e=>({...e,source:id,target:e.source,type:authorableRelations[e.type]||e.type,inverse:true}))];},
   list:(locale='zh')=>[...entities.keys()].map(id=>resolveEntity(id,locale)),
-  morphs:(id,locale='zh')=>{const group=resolveEntity(id,locale)?.data.presentation?.morphing?.group;return group?[...entities.keys()].map(key=>resolveEntity(key,locale)).filter(e=>e.data.presentation?.morphing?.group===group).sort((a,b)=>a.data.presentation.morphing.order-b.data.presentation.morphing.order):[];},
+  morphs:(id,locale='zh')=>{const group=resolveEntity(id,locale)?.data.presentation?.morphing?.group;return group?[...entities.keys()].map(key=>resolveEntity(key,locale)).filter(e=>e.data.presentation?.morphing?.group===group).sort((a,b)=>(a.data.presentation.morphing.order??999)-(b.data.presentation.morphing.order??999)||a.data.id.localeCompare(b.data.id)):[];},
  };
 }
 async function walk(dir){const paths=[];for(const e of await readdir(dir,{withFileTypes:true})){const p=join(dir,e.name);if(e.isDirectory())paths.push(...await walk(p));else paths.push(p);}return paths;}

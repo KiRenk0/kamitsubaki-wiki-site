@@ -1,3 +1,4 @@
+import {primaryNavigationCategory,memberNavigationGroup} from './classificationRules.mjs';
 import map from '../data/classification-map.json' with {type:'json'};
 export const collectionByType={person:'people','virtual-avatar':'people',unit:'units','software-voice':'isotopes','work-track':'songs','work-release':'releases',project:'projects',organization:'organizations','live-event':'lives','lore-concept':'lore','editorial-article':'articles'};
 const people=map.tree.find(n=>n.id==='people');
@@ -19,7 +20,8 @@ export function entityFolder(data){
  if(collection==='people'){
    const solo=people.children.find(n=>n.id==='solo');
    const member=groupNodes.find(n=>n.ids.includes(data.id));
-   if(solo.ids.includes(data.id))branch=['solo'];
+   if(data.classification?.primary||data.classification?.group){const group=memberNavigationGroup(data);const category=primaryNavigationCategory(data);branch=group?['groups',group,'members']:[category?.id||'unlisted'];}
+   else if(solo.ids.includes(data.id))branch=['solo'];
    else if(member)branch=['groups',member.overviewIds[0],'members'];
    else if(people.children.find(n=>n.id==='creators').ids.includes(data.id))branch=['creators'];
    else if(people.children.find(n=>n.id==='staff').ids.includes(data.id))branch=['staff'];

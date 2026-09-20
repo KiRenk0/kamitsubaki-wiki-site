@@ -1,9 +1,13 @@
+import {buildClassificationTree,flattenClassification} from '../src/lib/classificationTree.mjs';
 import {GALLERY_PUBLIC_ORIGIN} from '../src/lib/galleryConfig.mjs';
 import {readFile,access,writeFile,mkdir} from 'node:fs/promises';import {z} from 'astro/zod';
 import {getEntityRegistry} from '../src/lib/entityRegistry.mjs';import {createEntitySchema} from '../src/lib/entitySchema.mjs';import {entityEdges,stableIdPattern} from '../src/lib/entityModel.mjs';import {loadFeatureData,loadTaxonomy} from '../src/lib/featureData.mjs';import {hash,parseDocument} from './v3/io.mjs';
 const r=await getEntityRegistry(),schema=createEntitySchema(z),errors=[],warnings=[];const check=(ok,message)=>{if(!ok)errors.push(message);};
+const nodeIds=new Set(flattenClassification(buildClassificationTree(r)).map(n=>n.id));
 const dictionaries=Object.fromEntries(await Promise.all(['genres','roles','tracks','event-types','gallery-tags','forms'].map(async name=>[name,new Set((await loadTaxonomy(name)).values)])));
-for(const [id,group]of r.entities){check(group.has('zh'),`${id}: missing zh source`);for(const [locale,e]of group){const parsed=schema.safeParse(e.data);if(!parsed.success)for(const issue of parsed.error.issues)errors.push(`${id}/${locale}: ${issue.path.join('.')} ${issue.message}`);for(const role of e.data.roles||[])check(dictionaries.roles.has(role),`${id}: unknown role ${role}`);for(const genre of e.data.genres||[])check(dictionaries.genres.has(genre),`${id}: unknown genre ${genre}`);for(const edge of entityEdges(e.data))check(r.entities.has(edge.target),`${id}: missing target ${edge.target}`);
+for(const [id,group]of r.entities){check(group.has('zh'),`${id}: missing zh source`);for(const [locale,e]of group){check(JSON.stringify(e.data.classification||{})===JSON.stringify(group.get('zh')?.data.classification||{}),`${id}/${locale}: classification must match zh canonical metadata`);const parsed=schema.safeParse(e.data);if(!parsed.success)for(const issue of parsed.error.issues)errors.push(`${id}/${locale}: ${issue.path.join('.')} ${issue.message}`);for(const role of e.data.roles||[])check(dictionaries.roles.has(role),`${id}: unknown role ${role}`);for(const genre of e.data.genres||[])check(dictionaries.genres.has(genre),`${id}: unknown genre ${genre}`);for(const edge of entityEdges(e.data))check(r.entities.has(edge.target),`${id}: missing target ${edge.target}`);
+ for(const category of e.data.classification?.additional||[])check(nodeIds.has(category),`${id}: missing classification node ${category}`);
+ if(e.data.classification?.group)check(r.resolveEntity(e.data.classification.group)?.data.entityType==='unit',`${id}: primary group must resolve to a unit`);
  for(const match of e.body.matchAll(/\[\[([a-z0-9-]+)(?:\|[^\]]+)?\]\]/g))check(r.entities.has(match[1]),`${id}: broken WikiLink ${match[1]}`);
  }
 }

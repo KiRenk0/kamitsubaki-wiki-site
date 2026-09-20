@@ -5,7 +5,8 @@ interface Props {node:BranchNode;registry:EntityRegistry;locale:string;ancestors
 import SelectionGroup from './SelectionGroup.astro';
 import ClassificationRecord from './ClassificationRecord.astro';
 import {classificationEntries,classificationLabel,classificationCopy} from '../lib/classificationTree.mjs';
-const {node,registry,locale,ancestors=[]}=Astro.props;const copy=classificationCopy(locale);const label=classificationLabel(node,locale);const path=[...ancestors,label];const entries=(classificationEntries(registry,node,locale) as ResolvedEntity[]).filter(e=>!node.overviewIds?.includes(e.data.id));const own=(node.overviewIds||node.ids||[]).map(id=>registry.resolveEntity(id,locale)).filter((e):e is ResolvedEntity=>Boolean(e));const pending=entries.filter(e=>e.data.contentStatus==='stub').length;
+const {node,registry,locale,ancestors=[]}=Astro.props;const copy=classificationCopy(locale);const label=classificationLabel(node,locale);const path=[...ancestors,label];const entries=(classificationEntries(registry,node,locale) as ResolvedEntity[]).filter(e=>!node.overviewIds?.includes(e.data.id));const own=(node.overviewIds||node.ids||[]).map(id=>registry.resolveEntity(id,locale)).filter((e):e is ResolvedEntity=>Boolean(e));if(node.children){const nested=new Set(node.children.flatMap(child=>classificationEntries(registry,child,locale).map((e:ResolvedEntity)=>e.data.id)));for(const entry of entries)if(!nested.has(entry.data.id)&&!own.some(e=>e.data.id===entry.data.id))own.push(entry);}
+const pending=entries.filter(e=>e.data.contentStatus==='stub').length;
 ---
 <div class="classification-branch" data-branch={node.id}>
  {own.length>0&&(node.children||node.overviewIds)&&<div class="classification-overview">{own.map(e=><a href={e.url}><span>{e.data.name||e.data.title}</span><small>{locale==='en'?'Open entry':locale==='ja'?'記事を開く':'阅读条目'} ↗</small></a>)}</div>}
