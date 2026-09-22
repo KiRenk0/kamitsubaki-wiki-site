@@ -243,3 +243,80 @@ HARUSARUHI is connected to V.W.P, to Kamitsubaki's larger live series, and to th
 - [X (Twitter)](https://twitter.com/harusaruhi)
 - [TikTok](https://www.tiktok.com/@harusaruhi)
 - [bilibili](https://space.bilibili.com/488976992)
+
+
+<!-- V3 RESEARCH SUPPLEMENT harusaruhi -->
+
+## Visual Design Archive
+
+HARUSARUHI's character design is by the illustrator **Hotake Fujimaru**, oriented around a "streetwise youth × high-temperature combustion" aesthetic.
+
+| Element | Setting |
+| :--- | :--- |
+| Hair | Waist-length black hair with red and blue streaks |
+| Eyes | Yellow |
+| Accessories | Headphones with a chain and a yellow braided-knot ornament |
+| Upper | White sleeveless top, red fingerless gloves, blue off-shoulder jacket |
+| Lower | Black shorts and high-cut boots |
+| Socks | **Torn long sock on the left leg, strapped mesh tights on the right** — the asymmetric detail is her signature |
+
+> The asymmetrical socks and the "fracture–binding" motif echo the themes of **defiance, wounds and self-liberation** that recur throughout her music, making her the most aggressive visual composition in V.W.P.
+
+## The "HARUSARUHI Jiyuuritsu" Series
+
+**"HARUSARUHI Jiyuuritsu"** is a short-form rap series she posted on Twitter from 2020 onward. Different producers supplied the tracks while HARUSARUHI and **Takayan** co-wrote lyrics, recording everyday moods and the temper of the times in something close to an improvised diary.
+
+| No. | Date | Track | Prod. | Lyrics |
+| :--- | :--- | :--- | :--- | :--- |
+| #01 | 2020-06-13 | "Shokunin-san Rap" | Kiyoto | Takayan / HARUSARUHI |
+| #02 | 2020-07-04 | "Ouchi Komori Rap" | RIKIYA | Takayan / HARUSARUHI |
+| #03 | 2020-08-05 | "Heiwa Inoru Rap" | Sinato | Takayan / HARUSARUHI |
+| #04 | 2020-10-14 | "Love Letter" | Piper Beats | Takayan / HARUSARUHI |
+| #05 | 2020-12-17 | "i no Answer" | pink | Takayan / HARUSARUHI |
+
+> **Significance**: a rare serialised creative project within KAMITSUBAKI, and the main path by which HARUSARUHI established her identity as a rapper — {{spoiler::she only began seriously taking on rap after joining the studio}}. The 2026 album *[Jiyuuritsu](/en/database/music/albums/harusaruhi-jiyuritsu)* takes its title from this series.
+
+## Voice Acting Roles
+
+| Year | Work | Role | Type |
+| :--- | :--- | :--- | :--- |
+| 2025 | *[KAMITSUBAKI CITY UNDER CONSTRUCTION](/en/projects/arg/kamitsubaki-city)* | **Asanushi Haru** | TV anime |
+| 2025 | *[KAMITSUBAKI CITY REGENERATE](/en/database/projects/kamitsubaki-city-regenerate)* | **Asanushi Haru** | Game |
+
+> **Asanushi Haru** is HARUSARUHI's corresponding character in the *KAMITSUBAKI CITY* setting; her decisiveness and preference for close-quarters action match HARUSARUHI's own stage temperament.
+
+## Commercial Tie-ups and Theme Songs
+
+| Track | Tie-up | Period |
+| :--- | :--- | :--- |
+| "Oarana" | Theme song for the anime *Extraterrestrial Boys and Girls* | 2022 |
+
+> Beyond anime themes, HARUSARUHI has supplied theme songs and inserts for projects including the TV anime *[KAMITSUBAKI CITY UNDER CONSTRUCTION](/en/projects/arg/kamitsubaki-city)*, making her one of the members most closely bound to filmed works.
+
+## Live Performance Archive
+
+### HARUSARUHI STREAMING COVER LIVE "Choux Cream Live"
+
+- A cover-driven online streaming series that served as her primary outlet when physical shows were difficult.
+- The set lists ranged across anime songs, Vocaloid tracks and J-rock, foregrounding her forceful rap delivery and explosive energy.
+- A sequel, "Choux Cream Live 2", followed, establishing the series as a fixture.
+
+### HARUSARUHI 1st ONE-MAN LIVE "Shamanism"
+
+- **Date**: 27 August 2021.
+- **Structure**: opened with "Juju" as a "prelude", then ran through core songs including "[Gyakuten](/en/songs/harusaruhi/originals/逆転-reversal)", "Moushin", "Life Up" and "[Oogoto](/en/songs/harusaruhi/originals/オオゴト-serious-affair)".
+- **Naming logic**: "shamanism" resonates with the witch's function of summoning and dispelling through voice.
+- **Series continuation**: followed by "Shamanism II" and "Shamanism III", making it one of the most continuous solo concert series in KAMITSUBAKI.
+
+## Personality and Anecdotes
+
+- **Rap origins**: {{spoiler::she only started seriously taking on rap after joining KAMITSUBAKI}} and had not previously worked as a rapper.
+- **Name origin**: the reason behind the name HARUSARUHI is "a secret".
+- **Favourite animals**: cats {{spoiler::because she cannot read what they are thinking}} and hamsters {{spoiler::because she can}}.
+- **How she likes to be addressed**: she dislikes being called "big sister" or "boss" and is mostly called "Haru-chan".
+- **Current obsession**: choux cream.
+- **Favourite artists**: supercell, EGOIST, and the rapper Tsubaki.
+- **Where she wants to go after coming of age**: the aquarium. {{spoiler::She later went with ISEKAIJOUCHO.}}
+- **Sport she is good at**: swimming — {{spoiler::though she has not swum in so long that she has forgotten when the last time was.}}
+- **On her colleagues**: she says she is a fan of every KAMITSUBAKI member. {{spoiler::She wants to pat KAF on the head, sing a lullaby with RIM, and ask ISEKAIJOUCHO for singing tips.}}
+- **On her voice**: {{spoiler::because the range of her timbre and technique is so wide, she has been teased about having multiple personalities.}}

@@ -96,3 +96,29 @@ summary: "面と魚魚の 2 人で構成される音楽ユニット。ボカロ�
 
 - [Twitter](https://twitter.com/hito_go_to_7)
 - [YouTube](https://www.youtube.com/@hitogoto)
+
+
+<!-- V3 RESEARCH SUPPLEMENT hitogoto -->
+
+## 創作上の位置づけと所属体系
+
+**他人事（Hitogoto）** は [SINSEKAI RECORD](/ja/database/studios/sinsekai-record) 傘下の **CREATOR FARM** 体系に属する音楽プロデューサーであり、少女革命計画の体系においてもっとも中核的な作曲家の一人である。
+
+| 項目 | 内容 |
+| :--- | :--- |
+| **職能** | 作詞 / 作曲 / 編曲 |
+| **所属** | [SINSEKAI RECORD](/ja/database/studios/sinsekai-record) CREATOR FARM |
+| **中核的な関連** | [罪十罰](/ja/database/artists/groups/tsumitobatsu)（専任の楽曲提供の中核） |
+
+> **名前の意味**：「他人事」は日本語で「他人の事柄」を意味する——この命名は、作品にたびたび現れる疎外感、傍観者の視点、自己否定の主題と高度に呼応している。
+
+## 主な楽曲提供とコラボレーション
+
+| 作品 | 関連対象 | 職能 |
+| :--- | :--- | :--- |
+| 《弔花》 | [罪十罰](/ja/database/artists/groups/tsumitobatsu) | 作詞作曲編曲 |
+| 《大罪》 | [罪十罰](/ja/database/artists/groups/tsumitobatsu) | 作詞（Zexnum と共同で作編曲） |
+| 《Talking Doll》 | [御莉姫](/ja/database/artists/groups/sinseiki/members/orihime) | 作詞作曲編曲 |
+| 《REPLICA》 | [罪十罰](/ja/database/artists/groups/tsumitobatsu) | 楽曲提供 |
+
+> **所見**：他人事 の作品は《改変 -罪-》アルバムで冒頭と大トリの位置を占めている（第 1 曲《弔花》、および組のアルバムにおける看板曲の位置）。これは罪十罰 の音楽体系における中核的地位を示している。その創作語彙は重量級ロックとドラマチックな感情の爆発に傾き、《心》側の都市型エレクトロニックとは明確に役割を分けている。

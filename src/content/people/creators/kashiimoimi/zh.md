@@ -125,3 +125,40 @@ summary: "以黑暗上瘾旋律与女性视角著称的女性 VocaloP，融合�
 - [YouTube](https://www.youtube.com/channel/UC9_8AXpxjjNl62HPhF5IAyg)
 - [Twitter](https://twitter.com/moi__moimi)
 - [Bilibili](https://space.bilibili.com/627704742)
+
+
+<!-- V3 RESEARCH SUPPLEMENT kashiimoimi -->
+
+## 艺术定位与创作谱系
+
+**香椎モイミ（Kashii Moimi）** 是 [ANARCHIC RECORD](/zh/database/studios/anarchic-record) 旗下的女性作曲家，其创作谱系可概括为「**暗色流行 × 哥特抒情舞曲 × 极富张力的弦乐**」。
+
+| 维度 | 特征 |
+| :--- | :--- |
+| **器乐底色** | 以弦乐与钢琴构建华丽的哥特式框架，配合舞曲节拍形成「可跳舞的悲剧」 |
+| **情绪取向** | 暗色、偏执、占有欲与爱的极端形态是其反复书写的主题 |
+| **代表作品** | 《偏愛》《キャットラビング》 |
+| **文本强度** | 歌词叙事密度极高，常以第一人称凝视与支配关系构成戏剧张力 |
+
+> **在神椿中的位置**：香椎モイミ 是神椿「暗色美学」的代表性创作者，其为 [春猿火](/zh/database/artists/solo/harusaruhi) 与 [ヰ世界情绪](/zh/database/artists/solo/isekaijoucho) 提供的大量曲目，构成了两位魔女最锋利的作品序列。
+
+## 与神椿艺人的伴生关系
+
+- **与 [春猿火（HARUSARUHI）](/zh/database/artists/solo/harusaruhi)**：香椎モイミ为春猿火提供了多首核心代表作，其高张力的弦乐与编曲与春猿火爆发式的说唱与嘶吼形成完美咬合；
+- **与 [ヰ世界情绪（ISEKAIJOUCHO）](/zh/database/artists/solo/isekaijoucho)**：情绪的古典艺术气质与香椎モイミ的哥特抒情语汇高度契合，双方合作产出了情绪最具戏剧张力的曲目（如《物語があるなら》）；
+- **与 V.W.P 派生曲**：ヰ世界情绪 × 花譜 的《深淵》即由香椎モイミ包办词曲编，是「魔女双人组合」实验的重要一环；
+- **与 [ANARCHIC RECORD](/zh/database/studios/anarchic-record)**：作为该厂牌成员，与 Guiano、大沼パセリ 等共同构成神椿现实派创作者圈层。
+
+> **「伴生制」的实践**：香椎モイミ 属于典型的「双艺人伴生」型创作者——同时深度参与两位魔女的音乐构筑，并在其中保持高度统一的暗色美学，这在神椿创作群中较为罕见。
+
+## 代表作品索引
+
+| 作品 | 关联对象 | 说明 |
+| :--- | :--- | :--- |
+| 《偏愛》 | 个人 / 供曲 | 暗色流行代表作 |
+| 《キャットラビング》 | 个人 / 供曲 | 哥特抒情舞曲代表作 |
+| 《物語があるなら》 | [ヰ世界情绪](/zh/database/artists/solo/isekaijoucho) | 古典巴洛克幻想风格名作 |
+| 《深淵》 | ヰ世界情绪 × [花譜](/zh/database/artists/solo/kaf) | V.W.P 派生曲，词曲编一手包办 |
+| 春猿火多首原创曲 | [春猿火](/zh/database/artists/solo/harusaruhi) | 构成其核心曲库 |
+
+> **风格小结**：香椎モイミ 的音乐始终把「欲望」与「毁灭」放在同一个句子里——华丽的外壳包裹着不安的内核，这正是其在神椿暗色谱系中的独特坐标。

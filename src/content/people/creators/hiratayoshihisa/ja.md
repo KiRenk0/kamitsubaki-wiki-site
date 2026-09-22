@@ -97,3 +97,19 @@ UTAU 音源「劇薬」の活用は、ボカロ / UTAU クリエイターとの�
 
 - [YouTube](https://www.youtube.com/channel/UCv9b9KtcBkM1_VEZZpK8bVQ)
 - [Twitter](https://twitter.com/yoshihisahirata)
+
+
+<!-- V3 RESEARCH SUPPLEMENT hiratayoshihisa -->
+
+## 対外提供曲・編曲の記録
+
+平田義久が神椿体系内で手がけた対外提供曲の記録は以下のとおり（作詞・作曲・編曲の大半を本人が担っている）：
+
+| 公開 / 発売日 | 楽曲 | 歌唱対象 | 担当 |
+| :--- | :--- | :--- | :--- |
+| 2022-07-02 | 《赤い洗礼》 | [Albemuth](/ja/database/artists/groups/albemuth) | 作詞 / 作曲 / 編曲 |
+| 2023-02-15 | 《感光》 | [Albemuth](/ja/database/artists/groups/albemuth) | 作詞 / 作曲 / 編曲 |
+| 2025-10-29 | 《Brrrrrreak It》 | [罪十罰](/ja/database/artists/groups/tsumitobatsu) | 作詞 / 作曲 / 編曲 |
+| 2026-04-08 | 《桜心中》 | [御莉姫](/ja/database/artists/groups/sinseiki/members/orihime) | 作詞 / 作曲 / 編曲 |
+
+> **提供曲の系譜に関する所見**：平田義久の対外提供曲は2022年から2026年にわたり、そのすべてが「[Albemuth](/ja/database/artists/groups/albemuth) → [罪十罰](/ja/database/artists/groups/tsumitobatsu) → [御莉姫](/ja/database/artists/groups/sinseiki/members/orihime)」という深脊界／少女革命計画の系譜上に集中している。うち2026年の《桜心中》は和風抒情を基調とし、《Brrrrrreak It》の重厚な志向とは鮮やかな対照をなしており、その創作が「静」と「烈」の両極を自在に操りうることを示している。

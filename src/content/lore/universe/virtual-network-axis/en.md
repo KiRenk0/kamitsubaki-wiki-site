@@ -2,15 +2,14 @@
 schemaVersion: 2
 id: virtual-network-axis
 entityType: lore-concept
-name: 虚拟网络轴
+name: Virtual Network Axis
 loreCategory: concept
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: The digital realm where 3D avatars, cyberspace communities, and
+  synthetic voice algorithms interact.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Overview
+
+The sprawling digital plane facilitating global connection through music videos, virtual avatars, and UGC musical isotopes.

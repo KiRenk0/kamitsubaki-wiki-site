@@ -2,16 +2,18 @@
 schemaVersion: 2
 id: vwp-phenomenon
 entityType: live-event
-name: 現象
+name: V.W.P 1st ONE-MAN LIVE Phenomenon
 eventType: joint-live
-headliners: []
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+headliners:
+  - vwp
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: First full-length in-person one-man concert by the Five Witches of
+  V.W.P at Toyosu PIT.
+dateRange:
+  start: "2022-04-16"
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Overview
+
+Held April 16, 2022 at Toyosu PIT, uniting all five witches on a physical stage for the first time in their canonical combat attire.

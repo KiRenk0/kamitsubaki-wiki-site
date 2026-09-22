@@ -103,3 +103,18 @@ Toa のプロデューススタイルはボカロシーンの中で独自のポ�
 
 - [Twitter](https://twitter.com/o0toa0o)
 - [YouTube](https://www.youtube.com/user/0toa0oto0)
+
+
+<!-- V3 RESEARCH SUPPLEMENT toa -->
+
+## 対外提供曲の記録
+
+とあが神椿体系内で手がけた対外提供曲の記録は以下のとおり（詞・曲・編の大半を本人が担っている）：
+
+| 公開 / 発売日 | 楽曲 | 歌唱対象 | 担当 |
+| :--- | :--- | :--- | :--- |
+| 2022-12-28 | 《そんなファンタジー》 | [狐子（COKO）](/ja/database/isotopes/coko) | 作詞 / 作曲 / 編曲 |
+| 2023-06-25 | 《ケムニマク》 | [羽累（HARU）](/ja/database/isotopes/haru) | 作詞 / 作曲 / 編曲 |
+| 2025-02-26 | 《ココロト》 | [心世紀](/ja/database/artists/groups/sinseiki) | 作詞 / 作曲 / 編曲 |
+
+> **提供曲の系譜に関する所見**：とあの3本の提供曲は、それぞれ[音楽的同位体](/ja/database/isotopes/kafu)（狐子、羽累）と[少女革命計画](/ja/database/projects/girls-revolution-project)（心世紀）という異なる2つのプロダクトラインに位置しており、同氏が神椿エコシステムにおいて**企画横断型の汎用ソングライター**の役割を担っていることを示している——AI歌声ライブラリ向けにも書ければ、3人組に合唱曲を提供することもできる。

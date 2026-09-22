@@ -2,15 +2,14 @@
 schemaVersion: 2
 id: yogawa-sekai
 entityType: lore-concept
-name: 夜河世界
+name: Yogawa Sekai
 loreCategory: fictional-resident
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Key character in Kamitsubaki City corresponding to ISEKAIJOUCHO, an
+  artistic soul attuned to surreal illusions.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Character Profile
+
+Corresponding to ISEKAIJOUCHO. Gentle, melancholic, and deeply connected to baroque art and magical codices. Voiced by ISEKAIJOUCHO.

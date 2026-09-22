@@ -2,16 +2,18 @@
 schemaVersion: 2
 id: fukakai
 entityType: live-event
-name: 不可解
+name: KAF 1st ONE-MAN LIVE Fukakai
 eventType: oneman-live
-headliners: []
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+headliners:
+  - kaf
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: "KAF’s debut solo concert, backed by over 40M JPY in crowdfunding and
+  trending #1 worldwide on Twitter."
+dateRange:
+  start: "2019-08-01"
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Overview
+
+Held August 1, 2019 at LIQUIDROOM Ebisu, laying the foundational mythology for KAMITSUBAKI STUDIO.

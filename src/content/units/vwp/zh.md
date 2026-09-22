@@ -273,3 +273,76 @@ V.W.P 与神椿体系中的「魔女」世界观直接相关。五位成员各�
 - [X (Twitter)](https://twitter.com/VWP_virtual)
 - [Bilibili](https://space.bilibili.com/1636327445)
 - [Weibo](https://weibo.com/u/7573179727)
+
+
+<!-- V3 RESEARCH SUPPLEMENT vwp -->
+
+## 系谱曲与扩声曲全档案
+
+V.W.P 演唱的五人合唱曲按创作谱系分为「**系谱曲**」与「**扩声曲**」两类，序号连续编排；另有成员之间的双人合唱归入「**派生曲**」。
+
+### 系谱曲
+
+| 序号 | 公开时间 | 曲目 | 作词 | 作曲 | 编曲 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | 2021-03-21 | 《魔女(真)》 | IORI KANZAKI & Takayan | IORI KANZAKI | rionos |
+| 1 | 2021-06-20 | 《電脳》 | IORI KANZAKI | IORI KANZAKI | IORI KANZAKI |
+| 2 | 2021-11-03 | 《輪廻》 | IORI KANZAKI | IORI KANZAKI | IORI KANZAKI |
+| 3 | 2021-11-18 | 《変身 (The Metamorphosis)》 | IORI KANZAKI | IORI KANZAKI | HIDEKI ATAKA |
+| 4 | 2022-01-21 | 《言霊》 | IORI KANZAKI | IORI KANZAKI | IORI KANZAKI |
+| 5 | 2022-07-27 | 《共鳴》 | IORI KANZAKI | IORI KANZAKI | IORI KANZAKI |
+| 7 | 2022-12-21 | 《再会》 | IORI KANZAKI | IORI KANZAKI | Sosuke Oikawa |
+| 8 | 2023-05-25 | 《魔女(真)》（Original MV） | IORI KANZAKI & Takayan | IORI KANZAKI | rionos |
+| 9 | 2023-06-17 | 《定命》 | IORI KANZAKI | IORI KANZAKI | Takumi Masanori |
+| 10 | 2023-07-12 | 《玩具》 | IORI KANZAKI | IORI KANZAKI | IORI KANZAKI |
+| 12 | 2023-08-23 | 《祭壇》 | IORI KANZAKI | IORI KANZAKI | IORI KANZAKI |
+| 13 | 2023-11-08 | 《秘密》 | IORI KANZAKI | IORI KANZAKI | Masanori Takumi |
+
+> **创作阵特征**：系谱曲几乎全部由 [カンザキイオリ](/zh/database/creators/kanzaki-iori) 主导词曲，編曲则由其本人与 rionos、HIDEKI ATAKA、Takumi Masanori 等交替担任。这一"核心作者 + 外部编曲"的结构，使 V.W.P 的合唱曲在叙事上高度统一，同时在声音质感上保持变化。
+
+### 扩声曲
+
+| 序号 | 公开时间 | 曲目 | 作词 | 作曲 | 编曲 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 11 | 2023-08-02 | 《飛翔》 | 笹川真生 | 笹川真生 | 笹川真生 |
+| 14 | 2024-01-06 | 《感情》 | AMAMOGU | 松田純一, MILKEY | 朝比奈健人 |
+| 15 | 2024-01-16 | 《切札》 | 廉 | 廉, MILKEY | 朝比奈健人 |
+| 16 | 2024-03-06 | 《同盟》 | Kanata Okajima, Hayato Yamamoto | Kanata Okajima, Hayato Yamamoto, MEG (MEGMETAL) | MEG (MEGMETAL) |
+
+> **扩声曲的意义**：与系谱曲相比，扩声曲引入了**神椿体系外的创作者**（笹川真生、朝比奈健人、Kanata Okajima、MEG 等），是 V.W.P 从"世界观内部的叙事物语"走向"更广阔流行声场"的接口。
+
+## 派生曲（成员间合唱）档案
+
+除五人全员的合唱曲外，V.W.P 成员之间还产出了多首**双人合唱曲**，这些作品构成了组合内部关系网的声音证据：
+
+| 公开时间 | 组合 | 曲目 | 作词 / 作曲 / 编曲 |
+| :--- | :--- | :--- | :--- |
+| 2020-11-24 | 花譜 feat. 理芽 | 《まほう》（「不可解弐Q1」Live Ver.） | カンザキイオリ |
+| 2021-06-18 | ヰ世界情绪 × 花譜 | 《深淵》 | 香椎モイミ |
+| 2021-10-23 | 春猿火 × ヰ世界情绪 | 《牢狱》 | 大沼パセリ |
+| 2021-10-23 | ヰ世界情绪 × 幸祜 | 《刻印》 | 柊マグネタイト |
+| 2021-10-23 | 理芽 × ヰ世界情绪 | 《泡沫》 | 廉 |
+| 2022-10-16 | 春猿火 × 幸祜 | 《古傷》 | 大沼パセリ（编曲：安宅秀紀） |
+
+> **观察**：2021 年 10 月 23 日集中公开的三首双人曲（《牢狱》《刻印》《泡沫》）均出自不同创作者之手，且都在同一天上线，可视作神椿对"魔女两两组合"可能性的一次系统性实验。
+
+## V.G.P. 愚人节企划与粉丝文化
+
+V.W.P 在官方企划中留下了一段广为流传的"骗局"历史：
+
+- **2021 年 4 月 1 日**：官方宣布将 V.W.P. 改名为 **V.G.P.**，当晚成员们进行了游戏《斯普拉遁》（Splatoon）的联合直播；直播结束后即宣布 V.G.P. 解散，恢复为 V.W.P.；
+- **2022 年 5 月 2 日**：V.G.P. "复仇而来"，成员们一同游玩《PICO PARK》，直播后 V.G.P. 再次解散。
+
+> **文化意义**：这一系列企划把"魔女集会"的庄严叙事与轻喜剧式的成员互动并置，成为神椿粉丝文化中最受欢迎的固定梗之一；同时也让组合形象在"神圣合唱体"之外，多了一层日常性的人味。
+
+## 商业 Tie-up 与动画主题曲
+
+V.W.P 以五人合唱形式承接了多部动画的主题曲，是其进入主流影像作品的重要通道：
+
+| 时间 | 作品 | 曲目 | 类型 |
+| :--- | :--- | :--- | :--- |
+| 2021-08-25 宣布 / 2021-11-03 发行 | 《Muv-Luv Alternative》 | 《輪廻》 | 原创 OP |
+| 2021-09-25 宣布 / 2021-11-17 发行 | 《機動戦姫》 | 《変身》 | 原创曲 |
+| 2022-09-29 宣布 / 2022-12-21 发行 | 《Muv-Luv Alternative》第二季 | 《再会》 | 原创 ED |
+
+> 值得注意的是，这三首 Tie-up 曲目全部由 [カンザキイオリ](/zh/database/creators/kanzaki-iori) 负责词曲，并被直接纳入"系谱曲"序列（序号 2/3/7），说明官方有意将商业合作曲目编入世界观正史，而非作为独立的商业单曲处理。

@@ -1,20 +1,103 @@
 ---
 schemaVersion: 2
-id: onuma-parsley
-entityType: person
-name: 大沼パセリ
-romanizedName: onuma-parsley
+id: "onuma-parsley"
+entityType: "person"
+name: "大沼パセリ"
+romanizedName: "Onuma Parsley"
 roles:
-  - composer
+  - "composer"
+  - "producer"
+  - "vocalist"
 lifecycle:
-  activity: unknown
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
-locale: zh
-summary: 条目待补全。
+  activity: "active"
+  startedAt: "2017-06-29"
+affiliations:
+  - organization: "anarchic-record"
+    current: true
+  - organization: "kamitsubaki-studio"
+    current: true
+contentStatus: published
+locale: "zh"
+summary: "KAMITSUBAKI STUDIO 创立元老级词曲作家与唱作人，所属 ANARCHIC RECORD，以极具中毒性的电子切片、City Pop 与前卫流行风格著称。"
 ---
 
-此条目按分类详细图建立占位，内容将在资料核对后补全。
+## 概述
+
+**大沼パセリ**（Onuma Parsley / 大沼欧芹）是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 与 [ANARCHIC RECORD](/zh/database/studios/anarchic-record) 旗下的元老级音乐制作人、词曲作家与创作型歌手。
+
+大沼パセリ 自 2017 年起活跃于 niconico 与 YouTube 平台。其作品以变幻莫测的抓耳旋律、充满中毒感的电子合成器音色切片以及深入现代青年心理的叙事歌词为显著标识。自 2019 年 10 月神椿厂牌创立首日即宣布加入，是神椿音乐骨架的重要奠基者之一。
+
+---
+
+## 音乐风格与创作轨迹
+
+| 演进阶段 | 时间跨度 | 创作特征与代表事件 |
+| :--- | :--- | :--- |
+| **初露锋芒与 VOCALOID 摸索** | 2017 - 2018 | 2017年6月29日以初投稿《夜明け前》启航；早期曲风偏向柔和治愈，后经删稿重构走向高密度电子与毒性节奏 |
+| **现象级名作爆发** | 2018 - 2019 | 2018年先后发表代表作《Corruption》与《エゴイスト》（YouTube 播放量突破千万），确立圈内极高知名度 |
+| **加入神椿与转型唱作人** | 2019 - 2020 | 2019年10月18日作为元老成员正式加入神椿；2020年发行首张完整个人专辑《ave》后宣布暂停纯 P 主活动，以单曲《Latency》转型为自作自唱的 Singer-Songwriter |
+| **同位体与神椿全域联动** | 2021 至今 | 先后起用音乐同位体可不演唱《水面下》、狐子演唱《ボニー&クライド》；频繁为 [幸祜](/zh/artists/vwp/koko) 等神椿魔女提供原创单曲 |
+
+---
+
+## 艺术特色与个人轶事
+
+- **乐器与乐队底色**：自幼喜爱唱歌与卡拉 OK，初中二年级开始系统练习乐器，高中时期曾加入摇滚乐队并登上 Livehouse 表演原创曲目，具备扎实的实体器乐功底；
+- **视觉伙伴联动**：早期插画多取自 Piapro 开源社区，后期标志性 MV 曲绘长期与插画家 **ホンダソウイチ** 深度绑定；
+- **同位体声库起用**：除初音未来与 v flower 外，在神椿体系内深度调校 [可不](/zh/artists/isotopes/kafu) 与 [狐子](/zh/artists/isotopes/coko)，为其赋予独特的气声与滑音切片质感；
+- **神椿内部核心供曲**：大沼パセリ 与幸祜的声线特质高度契合，为其打造过多首极具力量感与都市感的摇滚电音代表作。
+
+---
+
+## 代表作品
+
+- 《**エゴイスト**》（YouTube 千万级播放现象级代表作）
+- 《**Corruption**》（声名鹊起的重要突破作）
+- 《**Billy**》（2019 年标志性单曲）
+- 《**水面下**》（音乐同位体 可不 演唱经典曲目）
+- 《**ボニー&クライド**》（音乐同位体 狐子 演唱代表作）
+- 个人创作专辑《**ave**》
+
+
+<!-- V3 RESEARCH SUPPLEMENT onuma-parsley -->
+
+## 投稿统计与创作规模
+
+| 指标 | 数据 |
+| :--- | :--- |
+| **VOCALOID 原创曲投稿数** | 截至记录时共投稿 **26 首** 至 niconico 动画 |
+| **殿堂曲** | **6 首** 达成殿堂（10 万播放） |
+| **传说曲** | **1 首** 达成传说（100 万播放） |
+| **使用过的歌声库** | 初音ミク、v flower、[可不](/zh/database/isotopes/kafu)、[狐子](/zh/database/isotopes/coko) |
+| **平台特征** | YouTube 上的播放数经常比 niconico 高出许多；最具知名度的《エゴイスト》在 YouTube 拥有千万级播放 |
+
+> **创作规模的意义**：在投稿总数不算庞大的前提下达成 6 首殿堂与 1 首传说，说明其作品的「命中率」极高——这也是大沼パセリ 在神椿创立时即被列为元老成员的重要原因。
+
+## 详细活动年表与个人偏好
+
+**年表（细化）**
+
+| 时间 | 事件 |
+| :--- | :--- |
+| 2017-06-29 | 投稿初作《夜明け前》 |
+| 2018-02-20 | 投稿《Corruption》，自此开始获得广泛关注 |
+| 2018-03-07 | 投稿由另一位 P 主雨のち雨演唱的《アフタースクール》，后发布由初音ミク演唱的 VOCALOID 版本 |
+| 2018-04-24 | 开始投稿对自己曲子的翻唱视频 |
+| 2018-09-12 | 投稿《エゴイスト》，一举获得巨大反响 |
+| 2019-06-20 | 投稿《Billy》后停止在 niconico 的投稿，此后作品全部仅投稿于 YouTube |
+| 2019-10-18 | 随着神椿创立发推宣布加入 |
+| 2020-02 | 随着个人专辑《ave》发行，暂停作为 P 主的活动 |
+| 2020-09 | 发行单曲《Latency》，以创作型歌手身份重新出现在大众视野 |
+| 2021-05-08 | 投稿由虚拟歌姬[可不](/zh/database/isotopes/kafu)演唱的《水面下》 |
+| 2023-05-10 | 投稿由虚拟歌姬[狐子](/zh/database/isotopes/coko)演唱的《ボニー&クライド》 |
+
+**个人偏好与圈内杂谈**
+
+- **与绘师的长期合作**：早期的歌曲曲绘大多取自 Piapro 上不同画师的公开画作，后来的曲绘则多由 **ホンダソウイチ** 负责；两人关系很好，会亲切地称呼对方昵称；
+- **与同代 P 主的往来**：和 P 主**案山子**关系很好，互相 Remix 过对方的曲子，在推特上也有许多互动；
+- **个人小号**：拥有一个名为 **ぬまみたいな**（意为「像沼一样的」）的推特小号用来更新日常琐事，还以该名义在 YouTube 上投稿过两首翻唱；
+- **神椿内部供曲**：在神椿中经常为 [幸祜](/zh/database/artists/solo/koko) 供曲；
+- **公开偏好**：曾发推表示自己喜欢 BL，{{spoiler::自称腐男}}；喜欢的唱见是 WaMi、れい 和宮下遊；
+- **音乐履历**：从小就很喜欢唱歌、经常去卡拉 OK；初中二年级时正式开始学习乐器；高中时参与过乐队，并在 Livehouse 演出过乐队的原创曲。
+
+> **风格小结**：大沼パセリ 的路径在神椿创作者中相当特殊——他从「Piapro 画作 + 柔和曲风」的早期阶段，经历大规模删稿与风格重构，最终定格为「电子感强烈的毒曲」，再在暂停 P 主活动后转向自作自唱的创作型歌手。这条曲线本身就是神椿「创作者可以持续变形」的样本。

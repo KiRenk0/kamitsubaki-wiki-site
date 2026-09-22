@@ -4,13 +4,11 @@ id: morisaki-kaho
 entityType: lore-concept
 name: 森先化歩
 loreCategory: fictional-resident
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: 『神椿市建設中。』の主人公のひとり。花譜に対応する、歌の魔法を秘めた少女。
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## キャラクター設定
+
+花譜に対応。青とピンクを基調とした装いで、都市の崩壊を止める特異点の核となる少女。TVアニメ版では花譜本人が声優を務める。

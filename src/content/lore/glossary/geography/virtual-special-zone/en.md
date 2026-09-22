@@ -2,15 +2,14 @@
 schemaVersion: 2
 id: virtual-special-zone
 entityType: lore-concept
-name: 虚拟特区
+name: Virtual Special Zone
 loreCategory: geography
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: A designated territory within the city where physical matter and
+  digital data overlap completely.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Overview
+
+A district where physical infrastructure seamlessly meshes with digital information fields, enabling holographic projections and sonic phenomena.

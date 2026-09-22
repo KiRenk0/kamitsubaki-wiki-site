@@ -4,13 +4,11 @@ id: sinka
 entityType: lore-concept
 name: 深化
 loreCategory: glossary-term
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: 表現と技術の深層へ潜行する神椿の哲学、および自社開発XRバーチャルライブシリーズ。
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## 概念定義
+
+「SINKA（深化）」は、重力反転や空間破壊を伴うXRライブシリーズであり、最先端のリアルタイムレンダリングによって観客を深層意識へ誘います。

@@ -2,15 +2,14 @@
 schemaVersion: 2
 id: universal-form
 entityType: lore-concept
-name: 普遍体
+name: Universal Form
 loreCategory: glossary-term
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: The grounded, casual everyday manifestation of Virtual Witches walking
+  through modern Tokyo streets.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Definition
+
+Depicts the performers in hoodies, school uniforms, and casual wear, representing their grounded reality as young girls navigating adolescent fragility.

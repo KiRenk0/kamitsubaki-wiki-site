@@ -2,15 +2,13 @@
 schemaVersion: 2
 id: scales-tower
 entityType: lore-concept
-name: 天秤之塔
+name: 天秤の塔
 loreCategory: geography
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: 神椿市中央に屹立する巨大モニュメント。都市の仮想と現実のエネルギー均衡を司るキーストーン。
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## 概要
+
+街の中央に聳え立つ謎の巨塔。都市の存続に関わる重大な情報コアが眠っているとされています。

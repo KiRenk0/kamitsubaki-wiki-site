@@ -143,3 +143,39 @@ The major solo albums include *[Unique Antique](/en/albums/yunosuke/unique-antiq
 
 - [Twitter](https://twitter.com/bass_ynk)
 - [YouTube](https://www.youtube.com/user/yunosuke23)
+
+
+<!-- V3 RESEARCH SUPPLEMENT yunosuke -->
+
+## Artistic Position and Creative Lineage
+
+**Yunosuke (雄之助)** is a composer, arranger and sound producer affiliated with [SINSEKAI RECORD](/en/database/studios/sinsekai-record). His creative lineage can be summed up as “**top-tier Future Bass and Electro dance arrangements × an international sound palette**”.
+
+| Dimension | Characteristics |
+| :--- | :--- |
+| **Arrangement foundation** | Benchmarked against world-class club music (Future Bass / House / Electro), with extremely precise low-frequency architecture and synthesizer design |
+| **Sound orientation** | Bright, sharp, international timbral choices, emphasising “danceability on the dance floor” and “the physical impact of sound” |
+| **Representative works** | 《PaⅢ.SENSATION》《螺旋》, plus a large number of core electronic dance tracks supplied to VALIS and KAFU |
+| **Technical identity** | Both composer and sound engineer, with works often treated as reference models for electronic production |
+
+> **Historical standing**: Yunosuke is one of the pioneers who brought “world-standard club sound” into the Japanese VOCALOID and virtual singer scene, and his works have long been regarded as a technical benchmark for electronic dance production.
+
+## Symbiotic Relationships with KAMITSUBAKI Artists
+
+- **With [VALIS](/en/database/artists/groups/valis)**: Yunosuke has supplied VALIS with several core tracks; his high-density electronic arrangements fit the demanding choreography of the six-member formation extremely well;
+- **With the music isotopes**: he provides core electronic dance tracks to voice libraries such as [KAFU](/en/database/isotopes/kafu), demonstrating the possibilities of AI singing voices beneath high-speed electronic arrangement;
+- **With spin-off projects such as [Awairo](/en/database/artists/groups/awairo)**: Yunosuke also involves himself in various KAMITSUBAKI spin-off projects in a personal capacity, taking on composition and production duties;
+- **Collaboration with other creators**: his arrangements are often connected with the works of singers such as [Azsagawa](/en/database/artists/solo/azsagawa) (for example the arrangement of 《パラノイア》).
+
+> **Mode of collaboration**: Yunosuke's typical way of working is “lyrics by someone else, music and arrangement by himself” — a division of labour that recurs across many VALIS works and constitutes the stable form of his songwriting contributions.
+
+## Index of Representative Works
+
+| Work | Associated with | Notes |
+| :--- | :--- | :--- |
+| 《PaⅢ.SENSATION》 | Solo / VOCALOID | A timeless signature track that established his standing as a top-tier Japanese EDM producer |
+| 《Void》 | Solo | A pioneering electronic work exploring deep low-frequency architecture and spatial acoustic design |
+| Several VALIS original songs | [VALIS](/en/database/artists/groups/valis) | Responsible for music and arrangement |
+| 《花となれ》 | Solo | Covered by VALIS members in an online performance |
+
+> **Style summary**: almost every one of Yunosuke's works carries a physicality that “can stand on a dance floor” — he does not pursue narrative obscurity, but acts directly on the listener's body through precise low frequencies and timbral design.

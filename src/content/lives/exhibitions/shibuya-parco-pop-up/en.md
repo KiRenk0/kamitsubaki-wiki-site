@@ -2,16 +2,20 @@
 schemaVersion: 2
 id: shibuya-parco-pop-up
 entityType: live-event
-name: 涉谷 PARCO 快闪空间
+name: Shibuya PARCO Pop-Up Exhibition
 eventType: exhibition
-headliners: []
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+headliners:
+  - kaf
+  - vwp
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Special visual and merchandise exhibition held during Shibuya PARCO’s
+  grand renewal reopening.
+dateRange:
+  start: "2019-11-22"
+  end: "2019-12-08"
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Overview
+
+Physical gallery popup at Shibuya PARCO featuring original character concepts by PALOW. and storyboard archives.

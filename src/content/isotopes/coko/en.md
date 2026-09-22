@@ -131,3 +131,51 @@ COKO is a key software product of the "Musical Isotope Project". The project dig
 - [Musical Isotope official website](https://musical-isotope.kamitsubaki.jp/)
 - [Musical Isotope official X (Twitter)](https://twitter.com/musicalisotope)
 - [Musical Isotope official YouTube channel](https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA)
+
+
+<!-- V3 RESEARCH SUPPLEMENT coko -->
+
+## Official Compilations and Naming System
+
+Built from KOKO's voice and inheriting her piercing rock delivery, it represents the "high-tension rock" strand.
+
+| Item | Detail |
+| :--- | :--- |
+| **First compilation** | *KOKO+YOU COKO COMPILATION ALBUM Ecstasy* (2023-08-30) |
+| **Naming** | Follows the formula "source-witch code + YOU", meaning "KOKO and you" |
+| **Voice template** | KOKO |
+| **Release system** | [KAMITSUBAKI STUDIO](/en/database/studios/thinkr) Musical Isotope series |
+
+> **What the naming means**: titling the official compilations "X+YOU" redefines the Isotope from a "tool" into "a partner who creates alongside the listener". Every track on the compilations comes from an invited or selected creator, making them a direct intersection of the official and community creative ecosystems.
+
+## Acoustic Engines and Library Specifications
+
+The Musical Isotope project is built on a **dual-engine** acoustic architecture, each engine serving a different purpose.
+
+| Engine | Developer | Technical character |
+| :--- | :--- | :--- |
+| **CeVIO AI** | Techno-Speech | Evolved from a hybrid of HMM and deep neural networks (DNN), it captures vibrato, breath and vocal-fold micro-noise — the "imperfect but alive" detail of a real singer — to an extreme degree |
+| **Synthesizer V AI** | Dreamtonics (5th generation) | A fully autoregressive acoustic model with cross-lingual singing (natural Japanese/English/Chinese transitions), seamless morphing of emotion parameters (Power / Soft / Clear), and very high render speed and editability |
+
+> **Why both**: CeVIO AI preserves human imperfection; Synthesizer V AI handles cross-lingual work and deep editability. Together they cover everything from reproducing a live vocal texture to giving global creators full creative latitude.
+
+## Open Licensing and the Derivative-Work Ecosystem
+
+For the Musical Isotope project KAMITSUBAKI abandoned the closed restrictions of conventional artist management and built an **open, self-reinforcing licensing loop**.
+
+1. **A commercial-use threshold instead of a ban**: doujin musicians may freely use the voice libraries within a defined revenue ceiling and release the resulting originals straight to streaming platforms.
+2. **Official compilations that absorb the scene**: through open calls for official compilation albums, outstanding community creators and works are brought onto major releases, creating a cycle of "community creation → official validation → wider reach".
+3. **Results**: this mechanism produced phenomenon-level UGC hits such as "{{ruby::キュートなカノジョ::きゅーとなかのじょ::cute na kanojo}}" and "{{ruby::フォニイ::ふぉにい::phony}}", carrying AI singing into the centre of mainstream pop culture.
+
+> **Industry significance**: where the traditional record system restricts derivative works, KAMITSUBAKI treats a voice library as a gateway into an ecosystem rather than a closed asset — the fundamental reason the Isotope family accumulated such a vast body of UGC within a few years.
+
+## Relationship to the Source Witch
+
+| Item | Detail |
+| :--- | :--- |
+| **Voice template** | [KOKO](/en/artists/vwp/koko) |
+| **System** | One node of the five-witch isotope matrix of [V.W.P](/en/artists/vwp/vwp) |
+| **First release** | CeVIO AI (a Synthesizer V AI edition followed) |
+| **Position in the lore** | The digital-side counterpart of KAMITSUBAKI's "song singularity", sharing one source of "singing voice" with KOKO |
+
+> **Naming rule**: each Isotope's official name is drawn directly from its source witch (KAFU←KAF, RIME←RIM, SEKAI←ISEKAIJOUCHO, COKO←KOKO, HARU←HARUSARUHI). The convention itself declares the core idea: different forms of one existence.

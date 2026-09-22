@@ -2,15 +2,14 @@
 schemaVersion: 2
 id: reality-axis
 entityType: lore-concept
-name: 现实轴
+name: Reality Axis
 loreCategory: concept
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: The physical dimension of the KAMITSUBAKI multiverse where real-world
+  creators and bodily existence reside.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Overview
+
+The baseline physical dimension governed by linear time, where human songwriters, artists, and live concert attendees gather.

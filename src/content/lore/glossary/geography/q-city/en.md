@@ -2,15 +2,14 @@
 schemaVersion: 2
 id: q-city
 entityType: lore-concept
-name: Q市
+name: Q-City
 loreCategory: geography
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: The codename for the anomalous, Shibuya-like virtual metropolis at the
+  heart of Kamitsubaki City lore.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Overview
+
+A surreal, fractured urban environment mirroring Tokyo’s Shibuya district while operating under volatile quantum physical laws.

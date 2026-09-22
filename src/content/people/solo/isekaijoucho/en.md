@@ -231,3 +231,86 @@ ISEKAIJOUCHO connects V.W.P, the musical isotope SEKAI, and the Kamitsubaki City
 - [TikTok](https://www.tiktok.com/@isekaijoucho)
 - [piapro](https://piapro.jp/isekaijoucho)
 - [bilibili](https://space.bilibili.com/488978908)
+
+
+<!-- V3 RESEARCH SUPPLEMENT isekaijoucho -->
+
+## Complete Singing Form Archive
+
+ISEKAIJOUCHO's visual system is the most elaborate in V.W.P. It takes **flowers** as its core motif and is led by the illustrator **orie**.
+
+> **How the forms are used**: across her channels, avatars, backgrounds and collaboration key visuals are **all in the universal form**, and most song illustrations use it too; the mutant forms can be roughly described as **live-show only**. Costumes from the stage play "Otogibanashi (Some)" belong to a separate lineage and are excluded here.
+
+### Universal Form · "Anemone"
+
+- **Anemone I / Anemone II** are both designed by the illustrator **orie**.
+- "Anemone" means the **anemone flower**, and the two anemones beside her are, by variety, "five-leaf anemones" — also called European anemones.
+- The flower{{spoiler::-familiar?}}'s name is **{{ruby::anemos::アネモス}}**, from the Greek word for "**wind**".
+
+| Form | Class | Debut / notes |
+| :--- | :--- | :--- |
+| **Anemone I** | Universal | The baseline everyday form and the most widely used key visual |
+| **Anemone II** | Universal | An evolved everyday form by orie |
+| **{{ruby::花魁鳥::おいらどり::oiradori}}** | Witch special singing form | Revealed 13 March 2021 at "Fukakai Two Q2" alongside the other four members of V.W.P. Broadly similar to Anemone I, with the witches' shared hennin, flower ornamentation on the hat, and rust-red lines added to the dress |
+| **{{ruby::八咫烏::やたがらす::yatagarasu}}** | Witch special singing form | Revealed 13 January 2024 at 2nd ONE-MAN LIVE "Phenomenon 2" |
+| **Heliotrope** | Mutant | A live-only altered form |
+| **Nemophila I / II** | Universal | A two-stage form themed on the nemophila |
+| **Calla lily** | Mutant | An altered form themed on the calla lily |
+| **Margaret Sol** | Mutant | An altered form themed on the marguerite (sun) |
+| **Margaret Luna** | Mutant | An altered form themed on the marguerite (moon) |
+| **Sunflower** | Universal | A form themed on the sunflower |
+| **Edelweiss** | Mutant | An altered form themed on the edelweiss |
+| **{{ruby::Seventh Heaven::セブンスヘブン}}** | **Thought-form** | Debuted in the MV for her original song "Mirai no Katachi" on 25 March 2025. **The design is by ISEKAIJOUCHO herself, and she wrote the lyrics too** — the first time she authored the art direction of one of her own forms |
+
+> **What the lineage means**: the three tiers of "universal form (flower) → mutant (altered flower) → thought-form (sublimated)" are not mere costume changes but a complete **morphological fable**, mapping precisely onto the themes of growth, mutation and transcendence that run through her work.
+
+## Companion: the Anemones "anemos"
+
+The two anemones beside ISEKAIJOUCHO are named **anemos**, from the Greek word for "**wind**".
+
+- **Why the name**: Greek ἄνεμος means "wind", and the anemone's genus name *Anemone* shares the same root; folklore holds that anemones open only in the wind.
+- **Where it sits**: like [KAF](/en/artists/vwp/kaf)'s Laplace and [RIM](/en/artists/vwp/rim)'s Hastur it belongs to the witches' "companion" system, though its form is a pair of flowers rather than a single creature.
+- **Echo in the world**: the image of wind runs through her singing as well — her breath control is often described as "wind passing through a flowerbed".
+
+## Voice Acting Roles
+
+| Year | Work | Role | Type |
+| :--- | :--- | :--- | :--- |
+| 2025 | *[KAMITSUBAKI CITY UNDER CONSTRUCTION](/en/projects/arg/kamitsubaki-city)* | **Yogawa Sekai** | TV anime |
+| 2025 | *[KAMITSUBAKI CITY REGENERATE](/en/database/projects/kamitsubaki-city-regenerate)* | **Yogawa Sekai** | Game |
+
+> **Yogawa Sekai** is ISEKAIJOUCHO's corresponding character within the *KAMITSUBAKI CITY* setting, and the most classical and serene of the five witches.
+
+## Exhibitions and Art Projects
+
+- **ISEKAIJOUCHO Exhibition**: a solo exhibition centred on illustrations, song art and world-building visuals — a rare "visual-archive-first" physical exhibition in the KAMITSUBAKI system that lays out the orie design lineage and the evolution of her own aesthetic.
+- **Stage play "Otogibanashi (Some)"**: a theatrical adaptation of the audio-drama world; because its costume system is separate from her everyday singing forms it is excluded from the form lineage.
+- **Artistic position**: ISEKAIJOUCHO is the member most closely tied to painting, literature and classical art, and her projects regularly push past music into exhibition and theatre.
+
+## Musical Isotope "SEKAI"
+
+**Musical Isotope {{ruby::星界::せかい::SEKAI}}** is the AI singing synthesizer developed from ISEKAIJOUCHO's voice, and a core member of KAMITSUBAKI's Musical Isotope series.
+
+| Item | Detail |
+| :--- | :--- |
+| **Voice source** | ISEKAIJOUCHO |
+| **Engines** | CeVIO AI / Synthesizer V AI (dual-engine strategy) |
+| **Vocal character** | Inherits her wide range, operatic resonance and transparent highs; excels in grand narrative and fantasy arrangements |
+| **Signature compilation** | *ISE+YOU SEKAI COMPILATION ALBUM Metamorphose* (24 May 2023) |
+| **UGC ecosystem** | Licensed to global creators on near-royalty-free commercial terms, producing a large body of fantasy, Japanese-style and symphonic-rock work |
+
+> **Relationship to the template**: SEKAI is not merely a "voice bank and its performer". The studio positions it as the **digital-side isotope** of the same singing voice, sharing the identity of a "song singularity" within the lore.
+
+## Live Performance Archive
+
+- **ISEKAIJOUCHO STREAMING COVER LIVE "Candy Live" series**: cover-driven online streaming shows, followed by "Candy Live 2" — her most continuous outlet outside solo concerts.
+- **ISEKAIJOUCHO 1st ONE-MAN LIVE "Anima"**: a two-day structure (Day 1 / Day 2) themed on the soul (*anima*), fully integrating her classical world-view with 3D stage production.
+- **ISEKAIJOUCHO Mini-Live "parallel canvas"**: a small experimental show exploring painting and music running in parallel.
+- **ISEKAIJOUCHO 2nd ONE-MAN LIVE "Anima II -Kamitsubaki City Sanban-gai-"**: continues the "Anima" series while naming itself after a district of *KAMITSUBAKI CITY*, tying directly into that project's district system.
+
+## Anecdotes and Community Culture
+
+- **Form as narrative**: ISEKAIJOUCHO has the largest and most systematically named form catalogue in V.W.P (all flowers); the three tiers of universal, mutant and thought-form interlock with the themes of her work.
+- **Taking up the pen**: the 2025 thought-form "Seventh Heaven" was the first time she designed one of her own forms and wrote its lyrics, marking a further expansion of her creative authorship.
+- **Interaction**: she is close to [HARUSARUHI](/en/artists/vwp/harusaruhi) — {{spoiler::the aquarium HARUSARUHI said she wanted to visit after coming of age is the one she later visited together with ISEKAIJOUCHO.}}
+- **Vocal label**: her voice is often described as "baroque splendour wrapping a girl's fragility", and she carries the most "otherworldly / fantasy" arrangements in V.W.P.

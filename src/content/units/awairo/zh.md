@@ -112,3 +112,33 @@ summary: "将甜美感性旋律与 EDM 融合，表达纤细而惆怅情感的�
 
 - [X (Twitter)](https://twitter.com/Awairo_info)
 - [YouTube](https://www.youtube.com/@yunosuke23)
+
+
+<!-- V3 RESEARCH SUPPLEMENT awairo -->
+
+## 成员构成与企划定位
+
+**[Awairo](/zh/database/artists/groups/awairo)** 是 [SINSEKAI RECORD](/zh/database/studios/sinsekai-record) 于 2023 年 10 月宣布出道的音乐组合，其成员包括**雄之助（Yunosuke）** 与 **WaMi**。
+
+| 成员 | 职能 |
+| :--- | :--- |
+| [雄之助（Yunosuke）](/zh/database/creators/yunosuke) | 作曲 / 编曲 / 声音制作 |
+| WaMi | 歌唱 / 演唱 |
+
+> **企划定位**：Awairo 是深脊界在企划扩展期推出的重要音乐团体，其定位是「以电子舞曲制作为核心、由创作者与歌手直接组队」的组合形态——与神椿多数「先有角色、后有音乐」的企划相反，Awairo 更接近制作人与歌手的直接协作体。
+
+## 代表曲目与协作网络
+
+| 曲目 | 协作 | 说明 |
+| :--- | :--- | :--- |
+| 《Satellite》 | feat. Yunosuke & WaMi | 组合代表作之一，展示 Future Bass 与流行旋律的结合 |
+| 《Pale&Deep》 | feat. 雄之助 & WaMi | 高密度电子编曲 |
+| 《個性》 | feat. WaMi & 雄之助 | 以「个性」为主题的电子流行曲 |
+| 《烙印》 | feat. 雄之助 & WaMi | 深色取向的电子作品 |
+| 《気魄》 | feat. | 组合作品 |
+| 《ブルームーン》 | — | 组合单曲 |
+| 《Love or Lie》 | — | 组合单曲 |
+| 《Replay》 | feat. [梓川](/zh/database/artists/solo/azsagawa) | 与深脊界歌手的跨组合协作 |
+| 专辑《グラデーション》 | — | 组合的正式发行作品 |
+
+> **协作网络**：Awairo 通过成员 雄之助 的作曲家身份与神椿体系广泛连接——既为 [VALIS](/zh/database/artists/groups/valis) 等组合供曲，也与 [梓川](/zh/database/artists/solo/azsagawa)、[音乐同位体](/zh/database/isotopes/kafu) 等产生跨企划合作，是深脊界「创作者主导型组合」的代表样本。

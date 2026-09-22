@@ -2,15 +2,13 @@
 schemaVersion: 2
 id: combat-form
 entityType: lore-concept
-name: 战斗形态
+name: 戦闘形態
 loreCategory: glossary-term
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: アリーナライブや世界の危機に際して魔女たちが身に纏う高次武装覚醒フォーム。
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## 概念定義
+
+PALOW.によるデザイン。幾何学的な浮遊構造や光子エフェクト、機能的な装甲を伴い、アリーナ規模の音波結界を展開する際の高次形態です。

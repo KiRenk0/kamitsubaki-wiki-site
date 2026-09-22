@@ -4,13 +4,11 @@ id: yagyu-rime
 entityType: lore-concept
 name: 谷置狸眼
 loreCategory: fictional-resident
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: 『神椿市建設中。』の主要キャラクター。理芽に対応する、鋭い洞察力を持つクールな少女。
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## キャラクター設定
+
+理芽に対応。クールで自立心が強く、都市の影の真実に素早く気づく。TVアニメ版では理芽本人が担当。

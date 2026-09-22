@@ -6,15 +6,14 @@ name: 梓川
 romanizedName: Azsagawa
 roles:
   - vocalist
+  - singer-songwriter
 lifecycle:
   activity: unknown
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: 深脊界発のバーチャル×リアルハイブリッドシンガー。深みのある低音ボイスを武器にTOYS FACTORYよりメジャーデビュー。
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## 概要
+
+**梓川**は、2022年11月に深脊界よりデビューした実力派シンガー。1stアルバム『Shifter』のリリースを経て、2025年8月にTOY'S FACTORYよりメジャーデビューを発表しました。

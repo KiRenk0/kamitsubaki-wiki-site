@@ -2,15 +2,13 @@
 schemaVersion: 2
 id: virtual-special-zone
 entityType: lore-concept
-name: 虚拟特区
+name: 仮想特区
 loreCategory: geography
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: 現実の物質世界とデジタル情報が高度に重畳し、魔女の歌声が目に見える光となって満ちる空間。
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## 概要
+
+物理的肉体とバーチャルコードが直接作用し合う特殊空域。SINKA LIVEの空間モデルの基盤となっています。

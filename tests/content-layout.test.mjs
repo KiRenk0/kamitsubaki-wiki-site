@@ -7,8 +7,8 @@ import {getEntityRegistry} from '../src/lib/entityRegistry.mjs';
 import {validateContent} from '../../kamitsubaki-wiki-site-backend/src/editor/domain.js';
 import {importMarkdown,validateDraft} from '../src/lib/visualEditor.mjs';
 test('detailed-map member folders and shared solo records use a single canonical home',()=>{
- assert.equal(entitySourcePath({id:'mikoto',entityType:'person',locale:'zh'}),'src/content/people/groups/sinseiki/members/mikoto/zh.md');
- assert.equal(entitySourcePath({id:'kakyoin',entityType:'person',locale:'ja'}),'src/content/people/groups/tsumitobatsu/members/kakyoin/ja.md');
+ assert.equal(entitySourcePath({id:'mikoto',entityType:'person',locale:'zh'}),'src/content/people/groups/tsumitobatsu/members/mikoto/zh.md');
+ assert.equal(entitySourcePath({id:'kakyoin',entityType:'person',locale:'ja'}),'src/content/people/groups/sinseiki/members/kakyoin/ja.md');
  assert.equal(entitySourcePath({id:'kaf',entityType:'virtual-avatar',locale:'en'}),'src/content/people/solo/kaf/en.md');
  assert.throws(()=>entitySourcePath({id:'../escape',entityType:'person',locale:'zh'}));
 });

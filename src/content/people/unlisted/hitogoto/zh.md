@@ -96,3 +96,29 @@ Hitogoto 的核心优势在于深入人心的歌词与令人久久难忘的旋�
 
 - [Twitter](https://twitter.com/hito_go_to_7)
 - [YouTube](https://www.youtube.com/@hitogoto)
+
+
+<!-- V3 RESEARCH SUPPLEMENT hitogoto -->
+
+## 创作定位与所属体系
+
+**他人事（Hitogoto）** 是 [SINSEKAI RECORD](/zh/database/studios/sinsekai-record) 旗下 **CREATOR FARM** 体系的音乐制作人，也是少女革命計画体系中最核心的作曲家之一。
+
+| 维度 | 内容 |
+| :--- | :--- |
+| **职能** | 作词 / 作曲 / 编曲 |
+| **所属** | [SINSEKAI RECORD](/zh/database/studios/sinsekai-record) CREATOR FARM |
+| **核心关联** | [罪十罰](/zh/database/artists/groups/tsumitobatsu)（专任供曲核心） |
+
+> **名字的意味**：「他人事」在日语中意为「别人的事」——这一命名与其作品中常出现的疏离感、旁观者视角与自我否定主题高度呼应。
+
+## 主要供曲与协作
+
+| 作品 | 关联对象 | 职能 |
+| :--- | :--- | :--- |
+| 《弔花》 | [罪十罰](/zh/database/artists/groups/tsumitobatsu) | 作词作曲编曲 |
+| 《大罪》 | [罪十罰](/zh/database/artists/groups/tsumitobatsu) | 作词（与 Zexnum 共同作编曲） |
+| 《Talking Doll》 | [御莉姬](/zh/database/artists/groups/sinseiki/members/orihime) | 作词作曲编曲 |
+| 《REPLICA》 | [罪十罰](/zh/database/artists/groups/tsumitobatsu) | 供曲 |
+
+> **观察**：他人事 的作品在《改変 -罪-》专辑中占据开篇与压轴位置（第 1 曲《弔花》、以及组合专辑的主打位置），显示其在罪十罰 音乐体系中的核心地位。其创作语汇偏向重型摇滚与戏剧化的情绪爆发，与《心》侧的都市电子形成明确分工。

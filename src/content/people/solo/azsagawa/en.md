@@ -2,19 +2,19 @@
 schemaVersion: 2
 id: azsagawa
 entityType: person
-name: 梓川
+name: Azsagawa
 romanizedName: Azsagawa
 roles:
   - vocalist
+  - singer-songwriter
 lifecycle:
   activity: unknown
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Hybrid singer hailing from SINSEKAI, recognized for his deep, resonant
+  baritone and major-label debut with TOYS FACTORY.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Overview
+
+**Azsagawa** is a versatile hybrid singer who debuted under SINSEKAI in November 2022. Following his acclaimed studio album *Shifter*, he made his major-label debut with TOY'S FACTORY in August 2025.

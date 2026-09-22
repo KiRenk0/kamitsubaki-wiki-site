@@ -11,13 +11,11 @@ lifecycle:
 relations:
   - type: member-of
     target: valis
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: VALISの妹的存在にしてコアシンガー。浮遊感のある甘い歌声とダークな芸術的感性をあわせ持つ。
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## プロフィール
+
+VALISの歌姫。魚座、身長159cm。お菓子と歌とお絵描きが好き。浮遊感あふれる可憐な歌声の持ち主であり、独自のダークな世界観のイラストも手掛ける。

@@ -2,16 +2,17 @@
 schemaVersion: 2
 id: fukakai-4-kaika
 entityType: live-event
-name: 怪歌
+name: 花譜 4th ONE-MAN LIVE「怪歌」
 eventType: oneman-live
-headliners: []
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+headliners:
+  - kaf
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: 代々木第一体育館で開催された花譜の単独公演。シンガーソングライター「廻花」を電撃解禁。
+dateRange:
+  start: "2024-01-14"
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## 概要
+
+1.5万人を動員した花譜の4thワンマン。中盤に木製アコースティックギターを抱えて登場し、生身のシンガーソングライター名義「廻花」を披露。

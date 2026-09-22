@@ -124,3 +124,40 @@ Representative works include “Cat Loving”, “Henshoku”, “Kanri-yoku”,
 - [YouTube](https://www.youtube.com/channel/UC9_8AXpxjjNl62HPhF5IAyg)
 - [Twitter](https://twitter.com/moi__moimi)
 - [Bilibili](https://space.bilibili.com/627704742)
+
+
+<!-- V3 RESEARCH SUPPLEMENT kashiimoimi -->
+
+## Artistic Position and Creative Lineage
+
+**Kashii Moimi (香椎モイミ)** is a female composer affiliated with [ANARCHIC RECORD](/en/database/studios/anarchic-record). Her creative lineage can be summed up as “**dark pop × gothic lyrical dance music × strings of extreme tension**”.
+
+| Dimension | Characteristics |
+| :--- | :--- |
+| **Instrumental foundation** | Strings and piano build a gorgeous gothic framework, paired with dance beats to form a “tragedy you can dance to” |
+| **Emotional orientation** | Darkness, obsession, possessiveness and extreme forms of love are the themes she writes about again and again |
+| **Representative works** | 《偏愛》《キャットラビング》 |
+| **Textual intensity** | The lyrics carry an extremely high narrative density, often creating dramatic tension through first-person gazing and relations of domination |
+
+> **Her place within KAMITSUBAKI**: Kashii Moimi is the representative creator of KAMITSUBAKI's “dark aesthetic”; the large body of tracks she has supplied to [HARUSARUHI](/en/database/artists/solo/harusaruhi) and [ISEKAIJOUCHO](/en/database/artists/solo/isekaijoucho) forms the sharpest sequence of works by the two witches.
+
+## Symbiotic Relationships with KAMITSUBAKI Artists
+
+- **With [HARUSARUHI (春猿火)](/en/database/artists/solo/harusaruhi)**: Kashii Moimi has supplied HARUSARUHI with several core representative works; her high-tension strings and arrangements interlock perfectly with HARUSARUHI's explosive rap and screaming;
+- **With [ISEKAIJOUCHO (ヰ世界情緒)](/en/database/artists/solo/isekaijoucho)**: ISEKAIJOUCHO's classical artistic temperament fits Kashii Moimi's gothic lyrical vocabulary extremely well, and their collaboration produced the tracks with ISEKAIJOUCHO's greatest dramatic tension (such as 《物語があるなら》);
+- **With V.W.P spin-off songs**: 《深淵》 by ISEKAIJOUCHO × KAF was written, composed and arranged entirely by Kashii Moimi, an important part of the “witch duo” experiment;
+- **With [ANARCHIC RECORD](/en/database/studios/anarchic-record)**: as a member of that label, she forms KAMITSUBAKI's circle of realist creators together with Guiano, Onuma Parsley and others.
+
+> **The practice of the “symbiosis system”**: Kashii Moimi is a typical “dual-artist symbiosis” creator — deeply involved in building the music of two witches at once while maintaining a highly unified dark aesthetic throughout, which is relatively rare among KAMITSUBAKI's creative circle.
+
+## Index of Representative Works
+
+| Work | Associated with | Notes |
+| :--- | :--- | :--- |
+| 《偏愛》 | Solo / songwriting | A representative dark pop work |
+| 《キャットラビング》 | Solo / songwriting | A representative gothic lyrical dance track |
+| 《物語があるなら》 | [ISEKAIJOUCHO](/en/database/artists/solo/isekaijoucho) | A famous work in a classical Baroque fantasy style |
+| 《深淵》 | ISEKAIJOUCHO × [KAF](/en/database/artists/solo/kaf) | A V.W.P spin-off song; lyrics, music and arrangement all handled by her alone |
+| Several HARUSARUHI original songs | [HARUSARUHI](/en/database/artists/solo/harusaruhi) | Form the core of her catalogue |
+
+> **Style summary**: Kashii Moimi's music always places “desire” and “destruction” in the same sentence — a gorgeous shell wrapping an anxious core, which is precisely her distinctive coordinate within KAMITSUBAKI's dark lineage.

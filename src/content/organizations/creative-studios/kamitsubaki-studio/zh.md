@@ -95,3 +95,49 @@ KAMITSUBAKI STUDIO（神椿工作室）成立于 2019年10月18日，是株式�
 除五位魔女外，神椿早期历史还与 [CIEL](/zh/artists/solo/ciel)、[DUSTCELL](/zh/artists/solo/dustcell)、特蕾莎以及大量作曲家、画师和影像导演有关。[カンザキイオリ](/zh/artists/creators/kanzaki-iori)曾长期负责[花譜](/zh/artists/vwp/kaf)及 [V.W.P](/zh/artists/vwp/vwp) 的重要作品；[Guiano](/zh/artists/creators/guiano)、大沼パセリ、Misumi、samayuzame、[PALOW.](/zh/artists/creators/palow)、orie、れおえん、SWAV、川サキ等创作者则分别参与歌曲、角色、曲绘、MV和现场视觉制作。
 
 这些人员不是单纯的幕后名单：他们的创作方法直接影响艺人的声音形象、视觉语言和世界观推进，是理解神椿作品如何生成的重要资料层。
+
+
+<!-- V3 RESEARCH SUPPLEMENT kamitsubaki-studio -->
+
+## 运营体制与商业模式
+
+神椿自我定位为「**发源于 YouTube 的创意厂牌**」，其运营体制与传统艺人事务所存在结构性差异：
+
+| 维度 | 神椿的做法 |
+| :--- | :--- |
+| **主阵地** | 以 YouTube 为主要发布场域，从而**自己掌握媒介传播力**，不依赖既有媒体渠道 |
+| **组织形态** | 把「制作音乐的厂牌功能」与「管理艺人的经纪功能」**整合内制化**，使艺人之间的创作能够联动、提升产出速度 |
+| **收益结构** | 以艺人为主体、**从粉丝社群获取收益**；这与「从客户获取广告费」的网红型商业模式根本不同 |
+| **销售渠道** | 采用 **D2C（直接面向消费者）**模式，不经既有流通环节以最大化利润率 |
+| **再投资** | 由 D2C 带来的利润被用于音乐制作、影像与 MV 制作、宣传，以及对艺人的回报 |
+| **技术自研** | 为整合 AR／VR／MR 等技术、实现多种形态的 XR 直播表现，**扩充技术班底并在内部完成制作** |
+
+> **与初期 VTuber 的区别**：神椿明确把自己与「角色扮演性强、以扮演虚构角色为核心的早期虚拟 YouTuber」区分开来——其旗下艺人的特色是**以音乐为主轴、纪录片属性强烈的活动方式**。
+
+> **创立构想**：PIEDPIPER 之所以设立并主导神椿，源于他发掘了 [カンザキイオリ](/zh/database/creators/kanzaki-iori) 与 [花譜](/zh/database/artists/solo/kaf) 这两位的才能；整体构想是**在日本做出一家类似 88rising 那样以 YouTube 为基础的创意厂牌**，而随着与多位创作者、艺人的相遇，这一构想最终成形。
+
+## 组织重组与厂牌体系演进
+
+| 时间 | 组织事件 |
+| :--- | :--- |
+| 2019-10-18 | 于花譜活动一周年当日设立 KAMITSUBAKI STUDIO |
+| 2023-07 | 宣布**整合 SINSEKAI STUDIO**，并重组为新的四个厂牌体系 |
+| 2024-05-08 | **新设「ALLT STUDIO」与「PHASE STUDIO」**，并随之公布部分艺人的移籍 |
+| 2024-08-01 | 母体 THINKR 完成约 50 亿日元 Series A 融资，实现完全独立经营（详见 [THINKR](/zh/database/studios/thinkr)） |
+| 2026-09-05 | THINKR 公布工作室重组（THINKR NEW STUDIO ARCHITECTURE）：神椿**转型为专注虚拟领域**的厂牌，工作室内部厂牌统一整合为 [PHENOMENON RECORD](/zh/database/studios/phenomenon-record)；原体系中的真人艺人与创作者分流至新设的 [KYOKAI STUDIO](/zh/database/studios/kyokai-studio) 等兄弟工作室 |
+
+> **「厂牌内厂牌」的反复重组**：从 2023 年的四厂牌再编、2024 年的新工作室设立，到 2026 年的虚拟专注化转型，神椿的组织史呈现出**每隔一至两年进行一次结构性调整**的节奏。这一节奏与其「音乐 × 物语」的长周期 IP 策略相配套——组织形态随企划阶段变化，而非固定不变。
+
+## 关联品牌与设施
+
+除核心厂牌外，神椿体系还包含若干承载不同职能的品牌与设施：
+
+| 品牌 / 设施 | 职能 |
+| :--- | :--- |
+| **KAMITSUBAKI RECORD** | 神椿的**前身音乐厂牌** |
+| **FINDME STORE** | 官方周边的**通信贩售商店** |
+| **TPNN** | **时尚品牌** |
+| **KAMITSUBAKI CREATION** | 视觉创作者、MV 导演与世界观作家的经纪公会（详见 [KAMITSUBAKI CREATION](/zh/database/studios/thinkr-creative-guild)） |
+| **[PNDR](/zh/database/studios/pndr)** | 2024 年设立的自研数字音乐分发平台与独立厂牌 |
+
+> **结构性观察**：从「前身厂牌 → 创意厂牌 → 周边商店 → 时尚品牌 → 创作者公会 → 分发平台」，神椿的关联品牌矩阵覆盖了**作品生产、商品贩售、时尚表达与产业基建**四个层面。这种「自我闭环」的品牌结构，与其 D2C 的收益模型互为支撑——厂牌既是内容方，也是自己的渠道方。

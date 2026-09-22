@@ -53,3 +53,29 @@ Sooda 是一位以空灵低语般嗓音著称的创作歌手，凭借 TikTok 上
 - [TikTok](https://www.tiktok.com/@sooda_oda)
 - [Twitter](https://twitter.com/sooda_oda)
 - [YouTube](https://www.youtube.com/channel/UCRYh9eOSnwcT6aftSf8hYUw)
+
+
+<!-- V3 RESEARCH SUPPLEMENT sooda -->
+
+## 组合构成与命名内涵
+
+**雨宿り（Ama-yadori）** 是 [SINSEKAI RECORD](/zh/database/studios/sinsekai-record) 旗下的音乐组合，由**水野あつ**与 **[Sooda](/zh/database/artists/solo/sooda)** 两位创作歌手于 **2022 年 11 月**结成，并于同月宣布加入 SINSEKAI STUDIO。
+
+| 维度 | 内容 |
+| :--- | :--- |
+| **成员** | 水野あつ、Sooda |
+| **结成时间** | 2022 年 11 月 |
+| **所属体系** | [SINSEKAI RECORD](/zh/database/studios/sinsekai-record) / SINSEKAI CITY |
+| **组合定位** | 由两位创作歌手组成的双人音乐组合 |
+
+> **命名内涵**：组合名称「雨宿り」寓意着「**在日常生活痛苦中悄悄避雨的心情**」，旨在为听众献上音乐——不是要求听众坚强，而是提供一个可以暂时躲避的地方。
+
+## 世界观中的少女「アメ」
+
+在雨宿り 的音乐世界观中，还存在一位**从两位成员的空想中诞生的少女「アメ（ame）」**。
+
+- **设定定位**：她并非现实中的成员，而是由水野あつ与 Sooda 的想象共同创造出的存在；
+- **叙事功能**：作为**贴近听众内心的温柔存在**，她承担着把「避雨」这一抽象情绪人格化的角色；
+- **企划意义**：这一设定让雨宿り 的作品在「两位真实歌手」之外多了一层虚构的中介，使听众能够通过「アメ」这一形象进入作品的情绪空间。
+
+> **在深脊界谱系中的位置**：雨宿り 体现了深脊界对「虚拟与真实混合形态（Virtual / Real Hybrid）」的持续探索——不依靠 3D 化身，而是用「真实歌手的创作 + 虚构角色的中介」构建跨次元的情感通路。

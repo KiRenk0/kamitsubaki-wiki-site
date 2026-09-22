@@ -97,3 +97,19 @@ His use of the Gekiyaku UTAU voicebank adds a virtual singer dimension to his wo
 
 - [YouTube](https://www.youtube.com/channel/UCv9b9KtcBkM1_VEZZpK8bVQ)
 - [Twitter](https://twitter.com/yoshihisahirata)
+
+
+<!-- V3 RESEARCH SUPPLEMENT hiratayoshihisa -->
+
+## External Songwriting and Arrangement Record
+
+Hirata Yoshihisa's record of songs supplied externally within the KAMITSUBAKI system is as follows (he handled most of the lyrics, composition and arrangement himself):
+
+| Release date | Song | Performer | Role |
+| :--- | :--- | :--- | :--- |
+| 2022-07-02 | 《赤い洗礼》 | [Albemuth](/en/database/artists/groups/albemuth) | Lyrics / Composition / Arrangement |
+| 2023-02-15 | 《感光》 | [Albemuth](/en/database/artists/groups/albemuth) | Lyrics / Composition / Arrangement |
+| 2025-10-29 | 《Brrrrrreak It》 | [TSUMITOBATSU](/en/database/artists/groups/tsumitobatsu) | Lyrics / Composition / Arrangement |
+| 2026-04-08 | 《桜心中》 | [Orihime](/en/database/artists/groups/sinseiki/members/orihime) | Lyrics / Composition / Arrangement |
+
+> **Observation on the lineage of his supplied songs**: Hirata Yoshihisa's external songs span 2022 to 2026, and all of them cluster along the SINSEKAI / Girls Revolution Project lineage of “[Albemuth](/en/database/artists/groups/albemuth) → [TSUMITOBATSU](/en/database/artists/groups/tsumitobatsu) → [Orihime](/en/database/artists/groups/sinseiki/members/orihime)”. Among them, 《桜心中》 from 2026 is built on a Japanese-style lyrical mode and forms a sharp contrast with the heavy orientation of 《Brrrrrreak It》, showing that his writing can move freely between the “quiet” and the “fierce” extremes.

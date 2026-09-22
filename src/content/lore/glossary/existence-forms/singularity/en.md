@@ -2,15 +2,14 @@
 schemaVersion: 2
 id: singularity
 entityType: lore-concept
-name: 特异点
+name: Singularity
 loreCategory: glossary-term
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Anomalous spacetime junctures where digital codes and physical reality
+  intersect, also designating core witch performers.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Concept Definition
+
+A **Singularity** represents both the anomalous spatial fractures within Kamitsubaki City and the singular vocalists whose songs stabilize or alter convergent timelines.

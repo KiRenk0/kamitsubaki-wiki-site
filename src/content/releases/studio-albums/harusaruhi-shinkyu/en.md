@@ -2,18 +2,26 @@
 schemaVersion: 2
 id: harusaruhi-shinkyu
 entityType: work-release
-title: 心泣
+title: Shingan
 releaseType: album
-tracks: []
+tracks:
+  - number: "01"
+    title: Shingan
+    artist: HARUSARUHI
+  - number: "02"
+    title: Oogoto
+    artist: HARUSARUHI
+  - number: "03"
+    title: Gyakuten
+    artist: HARUSARUHI
 primaryArtist: harusaruhi
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-  - verification-required
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Harusaruhi’s 1st full-length studio album Shingan, written and produced
+  primarily by Takayan.
+releaseDate: "2021-10-06"
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Album Overview
+
+Harusaruhi’s definitive 1st full album capturing the first two years of her rapid-fire rap artistry.

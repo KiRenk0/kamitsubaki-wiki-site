@@ -2,15 +2,14 @@
 schemaVersion: 2
 id: regenerate
 entityType: lore-concept
-name: 复兴
+name: Regenerate
 loreCategory: glossary-term
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: The central overarching objective of rebuilding and restoring
+  Kamitsubaki City through observer intervention.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Definition
+
+The transmedia narrative mechanism wherein observers and witches piece together shattered memories to reconstruct a doomed metropolis.

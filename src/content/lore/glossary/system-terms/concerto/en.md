@@ -2,15 +2,14 @@
 schemaVersion: 2
 id: concerto
 entityType: lore-concept
-name: 协奏
+name: Concerto / Ensemble
 loreCategory: glossary-term
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: The harmonious acoustic convergence of multiple witches, also titling
+  the rhythm game KAMITSUBAKI CITY ENSEMBLE.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Definition
+
+Describes the amplified quantum resonance produced when multiple witches sing in concert to restore Kamitsubaki City's fractured systems.

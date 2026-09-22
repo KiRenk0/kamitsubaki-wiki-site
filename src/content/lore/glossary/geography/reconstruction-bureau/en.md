@@ -2,15 +2,14 @@
 schemaVersion: 2
 id: reconstruction-bureau
 entityType: lore-concept
-name: 复兴局
+name: Reconstruction Bureau
 loreCategory: geography
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: The administrative governing authority coordinating crisis response and
+  worldline restoration in Kamitsubaki City.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Overview
+
+The central entity issuing investigative directives to observers and deploying resources to restore system equilibrium.

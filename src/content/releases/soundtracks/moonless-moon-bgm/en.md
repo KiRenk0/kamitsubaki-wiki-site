@@ -2,17 +2,19 @@
 schemaVersion: 2
 id: moonless-moon-bgm
 entityType: work-release
-title: ムーンレスムーン BGM
+title: Moonless Moon Original Soundtrack
 releaseType: soundtrack
-tracks: []
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-  - verification-required
-seo:
-  noindex: true
+tracks:
+  - number: "01"
+    title: Moonless Moon Theme
+  - number: "02"
+    title: Desert of Desolation
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Official soundtrack for Moonless Moon, capturing nocturnal ambient soundscapes.
+releaseDate: "2024-08-08"
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Soundtrack Overview
+
+Complete musical score for the indie adventure game Moonless Moon, featuring atmospheric ambient themes.

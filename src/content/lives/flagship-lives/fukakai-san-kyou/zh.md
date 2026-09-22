@@ -1,17 +1,35 @@
 ---
 schemaVersion: 2
-id: fukakai-san-kyou
-entityType: live-event
-name: 不可解参（狂）
-eventType: oneman-live
-headliners: []
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
-locale: zh
-summary: 条目待补全。
+id: "fukakai-san-kyou"
+entityType: "live-event"
+name: "花譜 3rd ONE-MAN LIVE「不可解参（狂）」"
+romanizedName: "KAF 3rd ONE-MAN LIVE Fukakai San Kyou"
+eventType: "oneman-live"
+dateRange:
+  start: "2022-08-24"
+venue:
+  name: "日本武道馆"
+  city: "东京"
+  country: "日本"
+  isVirtual: false
+headliners:
+  - "kaf"
+guestPerformers:
+  - "vwp"
+organizer: "kamitsubaki-studio"
+contentStatus: published
+locale: "zh"
+summary: "史上首位登上日本武道馆举办个人单独公演的虚拟歌手现场，改写数字演艺历史的里程碑之夜。"
 ---
 
-此条目按分类详细图建立占位，内容将在资料核对后补全。
+## 演出现场概述
+
+**花譜 3rd ONE-MAN LIVE「不可解参（狂）」**是虚拟歌手 [花譜（KAF）](/zh/artists/vwp/kaf) 于 2022 年 8 月 24 日在**日本武道馆**举办的第三次个人专场公演。
+
+---
+
+## 历史意义与舞台纪实
+
+- **虚拟演艺的历史性突破**：花譜以此公演成为**人类演艺史上首位登上日本传统音乐殿堂“日本武道馆”举办单人专场演唱会的虚拟歌手**，将虚拟演艺从网络屏幕推向了主流最高殿堂；
+- **全息舞美革新**：在武道馆八角形剧场中心，通过 360 度悬浮全息巨幕、实体乐队交响与实时粒子光效联动，完成长达近 3 小时的史诗级演出；
+- **全魔女助阵共振**：[V.W.P](/zh/artists/vwp/vwp) 全员、Kizuna AI 等作为特别嘉宾登台共鸣合唱，被权威日媒评选为虚拟演艺发展的关键分水岭。

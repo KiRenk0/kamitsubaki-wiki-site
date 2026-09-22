@@ -2,16 +2,18 @@
 schemaVersion: 2
 id: release-presentations
 entityType: live-event
-name: 新作品发布会
+name: Release Presentations
 eventType: event
-headliners: []
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+headliners:
+  - kaf
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Official broadcast showcases held to commemorate album milestones and
+  major project announcements.
+dateRange:
+  start: "2019-09-11"
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Overview
+
+Special streaming presentations detailing creative backstories, track-by-track commentaries, and MV world premieres.

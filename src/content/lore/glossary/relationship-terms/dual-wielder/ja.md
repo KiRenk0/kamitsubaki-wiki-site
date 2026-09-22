@@ -4,13 +4,11 @@ id: dual-wielder
 entityType: lore-concept
 name: 二刀流
 loreCategory: glossary-term
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: バーチャルアバターと生身の身体表現を両立させ、異なる芸術的領域を往来するハイブリッド表現形態。
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## 概念定義
+
+花譜×廻花、CIEL、VALISのように、バーチャルの物語世界とリアルの身体的音楽表現を融合・並走させる次世代のアーティストスタイルです。

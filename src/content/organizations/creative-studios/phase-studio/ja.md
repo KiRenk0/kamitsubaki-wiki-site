@@ -4,14 +4,11 @@ id: phase-studio
 entityType: organization
 name: PHASE STUDIO
 orgType: creative-studio
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-  - verification-required
-seo:
-  noindex: true
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: リアルタイム3DCG、XRバーチャルライブ演出、先端映像研究開発を行う技術中台スタジオ。
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## 概要
+
+**PHASE STUDIO**は、SINKA LIVEをはじめとする神椿のバーチャルライブにおけるリアルタイムレンダリングおよびXR技術開発を統括しています。

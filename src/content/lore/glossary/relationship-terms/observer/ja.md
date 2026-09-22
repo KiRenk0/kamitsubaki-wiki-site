@@ -2,15 +2,13 @@
 schemaVersion: 2
 id: observer
 entityType: lore-concept
-name: 观测者
+name: 観測者
 loreCategory: glossary-term
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: 神椿のファンおよび世界観においてバーチャルの存在を確定させる量子力学的目撃者の総称。
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## 概念定義
+
+「観測されなければ物語は存在しない」という思想のもと、歌声を聴き、スクリーンを見つめることで魔女たちに命を与えるファンの尊称です。

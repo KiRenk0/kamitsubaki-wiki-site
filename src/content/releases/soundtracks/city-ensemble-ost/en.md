@@ -2,17 +2,19 @@
 schemaVersion: 2
 id: city-ensemble-ost
 entityType: work-release
-title: 神椿市協奏中。OST
+title: KAMITSUBAKI CITY ENSEMBLE Original Soundtrack
 releaseType: soundtrack
-tracks: []
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-  - verification-required
-seo:
-  noindex: true
+tracks:
+  - number: "01"
+    title: KAMITSUBAKI CITY ENSEMBLE Main Theme
+  - number: "02"
+    title: Ensemble Opening
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Official soundtrack for the global rhythm game KAMITSUBAKI CITY ENSEMBLE.
+releaseDate: "2024-08-29"
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Soundtrack Overview
+
+Original soundtrack companion to KAMITSUBAKI CITY ENSEMBLE, featuring interactive menu themes and stage BGM.

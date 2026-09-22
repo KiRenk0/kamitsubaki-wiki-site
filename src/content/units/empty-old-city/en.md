@@ -145,3 +145,95 @@ Empty old City's body of work forms an expanding narrative tapestry, with indivi
 - [Instagram](https://www.instagram.com/empty_old_city/)
 - [TikTok](https://www.tiktok.com/@emptyoldcity)
 - [Streaming](https://emptyoldcity.lnk.to/Artist)
+
+
+<!-- V3 RESEARCH SUPPLEMENT empty-old-city -->
+
+## Project Positioning and Musical Worldview
+
+**Empty old City** is an urban-style music unit under [ANARCHIC RECORD](/en/database/studios/anarchic-record), formed by the composer **Neuron** and the vocalist **kahoca**. The unit was formed on **October 31, 2020**, and made its official debut on **January 20, 2021** with the first single 《アーバンクルーズ》.
+
+| Aspect | Details |
+| :--- | :--- |
+| **Line-up** | Neuron (composition / lyrics / arrangement) ＋ kahoca (vocals / English translation of lyrics) |
+| **Affiliation** | [ANARCHIC RECORD](/en/database/studios/anarchic-record) |
+| **Formation / Debut** | 2020-10-31 / 2021-01-20 |
+| **Musical foundation** | Dance genres such as drum and bass, trap, and synthwave, blended with orchestral music, jazz, and folk music |
+| **Thematic focus** | A world in which society after the collapse of civilisation, the natural environment, and technology merge; fantastical utopian and dystopian tales; and the solitude and freedom of the individuals placed within them |
+| **Visual system** | The unit works through illustrated personas and does not perform with faces revealed at this stage; artwork across its releases has been drawn by illustrators including LOWRISE, 紺屋鴉江, and ネア, generally built on cool, pale blue tones |
+
+**The 「works first」 policy**
+
+The unit upholds the principle of 「works first」 advocated by Neuron:
+
+1. It does not disclose the members' personal backgrounds;
+2. It does not perform with faces revealed;
+3. It keeps its use of social platforms to a minimum and concentrates expression in the works themselves.
+
+> **The division between narrative and voice**: Neuron writes pieces that unfold like stories, with illusory yet beautiful melodies and dense electronic sound; kahoca, as the 「**narrator**」, carries those stories to listeners through her singing. This division — the composer writing the world and the singer telling it — is the core trait that sets Empty old City apart from an ordinary duo.
+
+## Members and Division of Roles
+
+### Neuron
+
+**Neuron** (ニューロン) is the unit's composer and music producer. He **handles the lyrics, composition, and arrangement of every song** and also directs kahoca's singing.
+
+- **Founding idea**: To output the conceptions in his head as music 「without lowering the resolution」, unbound by the persona of the artist himself — he considered kahoca the singer with the most striking voice he knew, and extended the invitation;
+- **Outside songwriting**:
+
+| Recipient | Works |
+| :--- | :--- |
+| [KAF](/en/database/artists/solo/kaf) | 《アポカリプスより》《ホワイトブーケ》《黄金の木》 |
+| [ASU](/en/database/artists/solo/asu) | 《illumina》 |
+| [Albemuth](/en/database/artists/groups/albemuth) | 《Replica》 |
+
+- **Solo activity**: He takes part in events such as ボカコレ under his own name, and has released works including 《地球最後のブルーチーズ (feat. 裏命)》 and 《破綻するシャドウ ft. 星界》.
+
+### kahoca
+
+**kahoca** (カホカ) is the unit's vocalist. With an ethereal, translucent voice she takes on the role of 「**narrator**」, conveying to listeners the stories and worldviews Neuron has written, and she also **handles the English translation of the unit's works herself** (a practice that became standard from 《Chronicle A (English Ver.)》 onward).
+
+- **Participation in other projects**: Under her own name she joined the game × music project jointly launched by KAMITSUBAKI STUDIO and the game creator [Kazuhide Oka](/en/database/creators/kazuhide-oka), namely [ANMC](/en/database/artists/groups/anmc); she sang its opening theme 《アウトライン・シーサイド》 (a collaboration with harha) for the game 《ムーンレスムーン》.
+
+> **How the two roles complement each other**: When writing for outside artists, Neuron serves the personas of others (KAF, ASU, Albemuth), whereas inside the unit he starts entirely from his own worldview; kahoca, meanwhile, moves in both directions between 「the unit's works」 and 「cross-project work such as ANMC」 — together, the two members' external activities have widened Empty old City's creative radius.
+
+## Career History and Joining KAMITSUBAKI
+
+| Date | Event |
+| :--- | :--- |
+| 2020-10-31 | The unit is formed. The project grew out of a music unit plan Neuron had long envisioned, and kahoca agreed to join on the spot after hearing the demo of 《アーバンクルーズ》 |
+| 2021-01-20 | 1st Single 《アーバンクルーズ》 is released, marking the official debut; thereafter the unit continues to release singles chiefly via the internet |
+| 2024-01-24 | 《Chronicle A (English Ver.)》 is released; afterwards, putting out an English Ver. alongside each major single gradually becomes standard practice |
+| 2024-03-26 | On the KAMITSUBAKI programme 《花達と椿と君。》 the unit announces that it has joined [KAMITSUBAKI STUDIO](/en/database/studios/thinkr), under its label [ANARCHIC RECORD](/en/database/studios/anarchic-record) |
+| 2024-04-03 | The first single after joining KAMITSUBAKI, 《Buffer》, is released |
+
+> **What the English Ver. convention means**: Since 2024, kahoca has personally completed the English translation and sung the English Ver. of every major single the unit has released. This is not merely the addition of another version, but an extension of the narrator's function into **narration across languages** — and through it the unit's listenership has expanded markedly overseas.
+
+## Albums, Live Performances, and Cross-Border Collaborations
+
+**Albums and concept EPs**
+
+| Release date | Type | Title |
+| :--- | :--- | :--- |
+| 2025-03-12 | 1st Full Album | **Blood in the Void** |
+| 2025-10-15 | Concept EP | **From Noir into Clair** (four songs linked into a single complete story) |
+| 2026-04-22 | 2nd Full Album | **Strings in Owl** (10 tracks, including 《Daisy Crown》, 《Pulse in Flora》, and the unit's first feat. song with 水槽, 《Offline Saga feat. 水槽》) |
+
+**Game and cross-media collaborations**
+
+| Date | Details |
+| :--- | :--- |
+| 2025-02-22 | Release of 《Daisy Crown》, the official character song for the new **フィービー** character of 《鳴潮》 — the unit's first game collaboration song, **released simultaneously in Japanese, English, Chinese, and Korean versions** |
+| 2025-09-06 | Release of 《Pulse in Flora》, an image song for the new **シード** character of 《ゼンレスゾーンゼロ》, in a joint release with HoYoFair; the song's lyrics are entirely in English |
+| 2025-06-25 | Release of 《Offline Saga (feat. 水槽)》, the unit's first feat. collaboration song |
+
+**Live performances**
+
+| Date | Performance |
+| :--- | :--- |
+| 2025-03-29 | First solo concert, 「Empty old City 1st ONE-MAN LIVE『Blood in the Void』」, held at Shibuya WWW |
+| 2025-10-19 | Fifth-anniversary concert 「Empty old City 5th Anniversary Live "Quintennial: recall"」 held at Shibuya WOMB LIVE, with guests Such and はしメロ, performing 15 songs in total and announcing the second solo concert during the show |
+| 2025-11-02 | Appeared at 「KAMITSUBAKI FES '25 OUR ONE-DAY WAR」 (KAMITSUBAKI WARS 2025 神椿後楽園戦線 DAY-1), the all-hands joint concert of KAMITSUBAKI held at Kanadevia Hall; {{spoiler::kahoca also took the stage under the name ANMC.}} |
+| 2026-05-08 | The largest solo concert in the unit's history, 「Empty old City 2nd ONE-MAN LIVE」, held at Spotify O-EAST |
+
+> **Visibility in Chinese-speaking regions**: The unit sang 《Daisy Crown》, the official character song for 《鳴潮》, and 《Pulse in Flora》, the character image song for 《ゼンレスゾーンゼロ》; these two game collaboration songs have earned it a degree of recognition among Chinese-speaking players far beyond that of KAMITSUBAKI-affiliated creators in general.

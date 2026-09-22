@@ -2,17 +2,19 @@
 schemaVersion: 2
 id: city-ensemble-ost
 entityType: work-release
-title: 神椿市協奏中。OST
+title: 神椿市協奏中。Original Soundtrack
 releaseType: soundtrack
-tracks: []
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-  - verification-required
-seo:
-  noindex: true
+tracks:
+  - number: "01"
+    title: 神椿市協奏中。Main Theme
+  - number: "02"
+    title: Ensemble Opening
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: リズムゲーム『神椿市協奏中。』の公式オリジナルサウンドトラック。
+releaseDate: "2024-08-29"
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## サウンドトラック紹介
+
+リズムゲーム『神椿市協奏中。』のゲーム内オリジナル劇伴やテーマソングを収録。

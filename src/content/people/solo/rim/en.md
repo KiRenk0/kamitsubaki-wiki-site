@@ -231,3 +231,92 @@ RIM is active both as a V.W.P member and as the voice provider behind the musica
 - [Twitter (RIM)](https://twitter.com/RIM_virtual)
 - [Instagram](https://www.instagram.com/rim_virtual/?hl=ja)
 - [TikTok](https://www.tiktok.com/@virtual_rim)
+
+
+<!-- V3 RESEARCH SUPPLEMENT rim -->
+
+## Visual Design Archive
+
+| Element | Setting |
+| :--- | :--- |
+| Hair | Short blue hair with red inner streaks; one lock at the front left tied into a braid |
+| Eyes | **Concentric rings of yellow, red and blue** — a visual motif shared with KAF |
+| Accessories | Green diamond earrings on both ears |
+| Outfit | A deep-red hoodie with purple stripes whose hood is shaped like a fish; the fish's eye is a navy diamond. Navy hem and sleeves, a purple dress beneath with three pale-purple diamonds on the chest |
+| Lower and shoes | Black tights, black short boots with red soles |
+
+- **High-school uniform look**: partially revealed on 24 February 2020 and fully unveiled on 27 February — a light-grey blazer uniform with pleated skirt, short black socks, school shoes, and hair tied in a ponytail. The same day she performed her fourth original "[Flowering (with Misumi)](/en/songs/rim/originals/flowering)" in that uniform. On 2 March 2020, "[RIM #12 Sotsugyou](https://www.youtube.com/watch?v=rq7_3yk1Vtg)" marked her formal graduation from her JK (high-school girl) persona.
+
+## Companion: Hastur
+
+The mysterious fish-shaped creature that accompanies RIM is named **Hastur**.
+
+It forms a pair with KAF's companion Laplace: each of the five witches of KAMITSUBAKI has a companion rooted in her own visual design, and Hastur is the origin of RIM's fish-shaped hood.
+
+## Voice Acting Roles
+
+| Year | Work | Role | Type |
+| :--- | :--- | :--- | :--- |
+| 2025 | *[KAMITSUBAKI CITY UNDER CONSTRUCTION](/en/projects/arg/kamitsubaki-city)* | **Yagoki Rime** | TV anime |
+| 2025 | *[KAMITSUBAKI CITY REGENERATE](/en/database/projects/kamitsubaki-city-regenerate)* | **Yagoki Rime** | Game |
+
+> **Yagoki Rime** is RIM's corresponding character within the *KAMITSUBAKI CITY* setting.
+
+## Musical Style and Production
+
+RIM's music is built consistently on the vocabulary of **urban indie pop**.
+
+- **Core production**: the musician **Sasagawa Mao** oversees all of her songs, shaping a delicate, humid, faintly detached urban texture;
+- **Bilingual hybridity**: her work moves freely between Japanese and English, forming the most distinctive "Anglo-Japanese urban indie pop" voice in KAMITSUBAKI;
+- **Keywords**: night-city imagery, alienation, ambiguous emotion, light electronic textures set against live-band arrangements.
+
+{{details::Open the arc of RIM's representative originals}}
+
+- 2019-10-18 — debut and first original;
+- 2020-01-03 — "[Carnivorous Plant](/en/songs/rim/originals/食虫植物-carnivorous-plant)", her most widely heard song;
+- 2020-02-04 — "Pillow Talk";
+- 2020-02-27 — "Flowering (with Misumi)";
+- 2020-03-02 — "Sotsugyou";
+- 2020-07-01 — "Cry Baby";
+- 2020-10-28 — "Luscious Lawless".
+
+{{/details}}
+
+## Live Performance Archive
+
+### RIM STREAMING COVER LIVE "CHOCOLATE LIVE"
+
+- **Date**: 20 December 2020, streamed free on YouTube (OPEN 19:30 / START 20:00 JST).
+- **Nature**: RIM's first large-scale cover live, spanning Nanao Tavito, Tempalay, Kinoko Teikoku, Neru, RADWIMPS and King Gnu.
+- **Key guest**: **KAF** appeared as a guest and the two performed "[Carnivorous Plant](/en/songs/rim/originals/食虫植物-carnivorous-plant)" (feat. KAF) — one of the earliest prototypes of a "witch duet".
+- **Closing song**: "Flowering".
+
+{{details::Open the main set list of "CHOCOLATE LIVE"}}
+
+{{small::サーカスナイト / どうしよう / クロノスタシス / ガランド / ロストワンの号哭 / melt bitter / 消えない / ゴールドフィンガーガール / 官能と飽食 (Sasagawa Mao) / 悪魔 (Sasagawa Mao) / me me she / 白日 / KISSのたびギュッとグッと / Youthful Strange (te'resa) / 告げ口 (HARUSARUHI) / 過去を喰らう (KAF) / くねくね (Onuma Parsley) / 透過夏 (Guiano) / 食虫植物 (feat. KAF) / Rollin' Rollin' / Flowering}}
+
+{{/details}}
+
+### RIM 1st ONE-MAN LIVE "NEUROMANCE"
+
+- **Date**: 15 May 2021.
+- **Significance**: RIM's first solo one-man live, marking her transition from online uploader to arena-calibre performer.
+- **Highlights**: opened with "You and Me da" and "Pillow Talk", performed "Flowering (with Misumi)" alongside **Misumi** mid-set, and premiered the new song "Samishii Hito".
+
+## Signature Song Milestones
+
+| Date | Milestone |
+| :--- | :--- |
+| 2020-08-12 | "Carnivorous Plant" drew large attention on TikTok, surpassing ten million plays there and three million on YouTube |
+| 2020-09-05 | "Carnivorous Plant" passed **10 million** YouTube views |
+| 2020-10-24 | The same song passed **20 million** views |
+| 2020-10-18 | KAMITSUBAKI's special programme "Hanatachi to Tsubaki to Kimi." aired, celebrating KAF's second anniversary and RIM's first simultaneously |
+| 2020-07-03 | Opened a TikTok account together with other KAMITSUBAKI members |
+
+> RIM was among the first in KAMITSUBAKI to achieve cross-community reach on short-video platforms; the explosive spread of "Carnivorous Plant" became a key model for later overseas expansion.
+
+## Anecdotes and Community Culture
+
+- **Companion lore**: the fish-shaped creature beside RIM is named Hastur, an essential part of her visual iconography.
+- **Study and activity in parallel**: on 2 March 2020 she formally "graduated" from her JK persona with "Sotsugyou". Her real-world timeline running in step with her character's growth embodies KAMITSUBAKI's strategy of growing alongside its observers.
+- **Community**: RIM's fans have their own grouping name, paired with KAF's "Observer Hanagumi" to make up V.W.P's five observer cultures.

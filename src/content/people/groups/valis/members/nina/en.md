@@ -11,13 +11,12 @@ lifecycle:
 relations:
   - type: member-of
     target: valis
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Tallest member of VALIS (165 cm), an avid gamer and illustrator
+  recognized for her effortless falsetto highs.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Profile
+
+Member of VALIS. Gemini, 165 cm (tallest). A stylish gamer and talented artist with a bright, crystalline falsetto range.

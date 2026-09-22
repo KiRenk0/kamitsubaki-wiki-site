@@ -4,13 +4,12 @@ id: pndr
 entityType: organization
 name: PNDR
 orgType: platform
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Proprietary digital music distribution SaaS and independent record
+  label founded by THINKR in 2024.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Overview
+
+**PNDR** comprises PNDR DISTRIBUTION SERVICE (direct-to-DSP music distribution SaaS) and PNDR RECORD (a cutting-edge indie imprint), bridging creators directly to global listeners.

@@ -2,15 +2,13 @@
 schemaVersion: 2
 id: virtual-network-axis
 entityType: lore-concept
-name: 虚拟网络轴
+name: 仮想ネットワーク軸
 loreCategory: concept
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: YouTubeやストリーミング、AI音声合成などデジタル意識が交差するサイバー次元。
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## 概要
+
+3Dアバターとしての魔女たちや音楽的同位体（可不など）が活動する電脳空間です。

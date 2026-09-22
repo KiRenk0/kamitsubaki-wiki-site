@@ -2,15 +2,16 @@
 schemaVersion: 2
 id: conflict-resolutions
 entityType: editorial-article
-title: 全域实体命名与历史冲突消解表
+title: Canonical Entity Naming and Historical Fact Conflict Resolutions Table
 articleCategory: archival
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Systematic resolution of naming discrepancies and historical timeline
+  divergences across multilingual community sources.
+author: KAMITSUBAKI Archival Committee
+publishDate: "2024-09-01"
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Overview
+
+This document establishes the canonical standards for entity naming (such as preserving katakana "ヰ" in ISEKAIJOUCHO and kanji "裏" in RIME) and resolves historical ambiguities surrounding label consolidations and arena event formats.

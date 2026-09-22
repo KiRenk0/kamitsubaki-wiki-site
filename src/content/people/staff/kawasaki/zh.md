@@ -67,3 +67,27 @@ summary: "Eallin Japan 所属影像导演，与 KAMITSUBAKI STUDIO 业务合作�
 
 - [Twitter](https://twitter.com/Knji__k)
 - [YouTube](https://www.youtube.com/user/kawa6kawa6kawa)
+
+
+<!-- V3 RESEARCH SUPPLEMENT kawasaki -->
+
+## 映像监督的艺术语言
+
+**川サキ（川サキケンジ / Kawasaki Kenji）** 是神椿的核心映像监督与艺术指导，长期主导花譜等艺人的音乐录影带制作。
+
+| 维度 | 特征 |
+| :--- | :--- |
+| **镜头语言** | 以现实街景与虚拟形象交叠的标志性电影感构图，强调「少女置于真实的城市之中」 |
+| **美术取向** | 高对比色温、雨夜与霓虹、空旷的高架与地下通道等都市孤独意象 |
+| **工作范围** | MV 监督、分镜设计、舞台影像与视觉企划的整体美术统筹 |
+
+> **代表作关联**：川サキ 主导了《[糸](/zh/songs/kaf/originals/shi)》《[過去を喰らう](/zh/songs/kaf/originals/kako-wo-kurau)》等花譜现象级 MV 的影像制作，并参与了涉谷 PARCO 快闪展等线下视觉企划。
+
+## 在神椿视觉体系中的位置
+
+川サキ 与 [PALOW.](/zh/database/staff/palow) 构成神椿视觉输出的两组支柱：
+
+- **PALOW.** 负责「角色是什么样子」——静态原案与形态设定；
+- **川サキ** 负责「角色如何被看见」——动态影像、镜头调度与空间叙事。
+
+> **协同效果**：这一分工使神椿的 MV 不仅是「会动的立绘」，而是具备独立电影语言的视觉作品；也正是这套影像方法论，让虚拟歌手得以自然地出现在现实街景中，从而支撑起 [SINKA LIVE](/zh/database/lives/sinka-live) 等虚实交融的演出形态。

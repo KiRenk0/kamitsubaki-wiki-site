@@ -2,16 +2,17 @@
 schemaVersion: 2
 id: release-presentations
 entityType: live-event
-name: 新作品发布会
+name: リリース記念発表会
 eventType: event
-headliners: []
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+headliners:
+  - kaf
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: アルバム発売や重大告知の際に配信される公式記念番組。
+dateRange:
+  start: "2019-09-11"
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## 概要
+
+フルアルバムのリリース時に制作陣とアーティストが出演し、全曲解説やMV解禁を行う特別配信。

@@ -78,3 +78,27 @@ Albemuth was an independent unit with its own name, visual concept, live project
 ## Related Projects / Setting
 
 ARU is a key entry point into SINSEKAI STUDIO's early other-world line and the first phase of Albemuth.
+
+
+<!-- V3 RESEARCH SUPPLEMENT aru -->
+
+## Project Position and Performance History
+
+**ARU** is one of the core virtual singers of the SINSEKAI system and a member of the duo [Albemuth](/en/database/artists/groups/albemuth).
+
+| Dimension | Content |
+| :--- | :--- |
+| **Debut** | 20 June 2021 (official debut with a first upload to YouTube) |
+| **Affiliation** | [SINSEKAI RECORD](/en/database/studios/sinsekai-record) |
+| **Unit** | Albemuth with ASU (formally formed 2022-11-19) |
+| **End of activity** | Formal graduation at Albemuth 1st ONE-MAN LIVE “罪と楽園” on 9 April 2024 |
+
+> **Where the project began**: on 20 June 2021, KAMITSUBAKI Studio announced the spin-off project “SINSEKAI CITY PROJECT” and released material relating to ARU, who also made an official debut the same day with a first upload to YouTube — ARU’s arrival is itself the beginning of the SINSEKAI worldview.
+
+## Graduation and Permanent Archiving
+
+- **5 February 2024**: an official notice announced that ARU would end activity after the solo concert on 9 April, and that [Albemuth](/en/database/artists/groups/albemuth) would disband accordingly.
+- **9 April 2024**: Albemuth 1st ONE-MAN LIVE “罪と楽園” was held; ARU formally graduated and the unit disbanded; the final original song, 《舟》, was released the same day.
+- **Archival handling**: KAMITSUBAKI fully preserved all of his historical singles and released the duo album with ASU in physical form as a permanent archive of memory.
+
+> **Industry significance**: ARU’s exit is regarded as a benchmark case of a virtual artist “exiting with dignity” — the unit does not erase its history because a member graduated, and the body of work continues to exist in the label’s catalogue as an **archive**. This also provided KAMITSUBAKI with a reusable paradigm for handling later member graduations.

@@ -128,3 +128,28 @@ Spanning EDM, R&B, and rock, his genre fluidity reflects the broad creative ambi
 
 - [Twitter](https://twitter.com/tokiwa_shion)
 - [YouTube](https://youtube.com/@tokiwa_shion)
+
+
+<!-- V3 RESEARCH SUPPLEMENT tokiwa -->
+
+## Creative Position and Affiliation
+
+**tokiwa** is a music producer and arranger in the **CREATOR FARM** system under [SINSEKAI RECORD](/en/database/studios/sinsekai-record).
+
+| Dimension | Content |
+| :--- | :--- |
+| **Role** | Music producer / arranger |
+| **Affiliation** | [SINSEKAI RECORD](/en/database/studios/sinsekai-record) CREATOR FARM |
+| **Traits** | Combines songwriting with arrangement, and works spanning several KAMITSUBAKI projects |
+
+> **Position in the system**: tokiwa belongs to CREATOR FARM alongside [Hi-Fi P](/en/database/creators/hifi-p) and [Hitogoto](/en/database/creators/hitogoto) — the existence of this system allows SINSEKAI to maintain stable output even under an operating model of “few artists, high project density.”
+
+## Major Works and Collaborations
+
+| Work | Related entity | Role |
+| :--- | :--- | :--- |
+| 《Envy》 | [TSUMITOBATSU](/en/database/artists/groups/tsumitobatsu) | Lyrics and music (arrangement: Asahina Kento) |
+| Track on Azsagawa's 《Shifter》 | [Azsagawa](/en/database/artists/solo/azsagawa) | Part of the album's production team |
+| Album-related tracks such as 《NEW ROMANCER》 | [RIM](/en/database/artists/solo/rim) | Arrangement / production collaboration |
+
+> **Collaborative traits**: tokiwa's works are often produced in a division of labour with other arrangers (such as Asahina Kento); this “songwriter ＋ external arranger” combination recurs across KAMITSUBAKI's heavier tracks, and it also allows tokiwa's writing to fit sound worlds ranging from city pop to hard rock.

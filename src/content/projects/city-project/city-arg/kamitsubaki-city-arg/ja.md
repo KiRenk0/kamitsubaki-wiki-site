@@ -2,14 +2,13 @@
 schemaVersion: 2
 id: kamitsubaki-city-arg
 entityType: project
-name: 神椿市早期 ARG 记录
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+name: 神椿市早期ARG記録
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: 2019〜2021年にSNS上で展開された代替現実ゲーム。観測者の選択が物語を動かした原点。
+status: active
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## 概要
+
+Twitterや特設サイトの暗号を世界中のファンが協力して解き明かし、魔女たちを救出した参加型ARGの記録です。

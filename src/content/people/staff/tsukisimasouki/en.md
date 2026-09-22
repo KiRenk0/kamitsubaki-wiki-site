@@ -66,3 +66,28 @@ His involvement in high-profile franchises demonstrates his capacity to work wit
 ## External Links
 
 - [Twitter](https://twitter.com/tsukisimasouki)
+
+
+<!-- V3 RESEARCH SUPPLEMENT tsukisimasouki -->
+
+## Worldview Architecture and Narrative Engineering
+
+**Tsukishima Souki** is KAMITSUBAKI’s chief worldview architect, novelist and screenwriter, and the original author of the flagship cross-media IP 《[神椿市建设中。](/en/database/projects/kamitsubaki-city)》.
+
+| Dimension | Content |
+| :--- | :--- |
+| **Role** | Novelist / worldview architect / anime series composition and scripts |
+| **Core work** | The original 《神椿市建设中。》 novel and the entire chronicle narrative |
+| **Narrative method** | Takes the “cycle of collapse and reconstruction” as its skeleton, weaving musical works, ARG puzzles and character settings into a single timeline |
+| **Cross-media duties** | Series composition and scripts for the orthodox TV anime, and every story branch of 《[神椿市建設中。REGENERATE](/en/database/projects/kamitsubaki-city-regenerate)》 |
+
+> **His place in the project**: Tsukishima Souki is the actual builder of the fictional city of KAMITSUBAKI City — KAF and the other singers supply the voice and the image, while he supplies the city’s history, geography and fate.
+
+## Narrative Structure and Work Index
+
+- **The original 《神椿市建设中。》 novel and chronicle**: built the core settings of the city’s “singularity,” the witches’ avatars and the mechanism of “restoration.”
+- **The orthodox TV anime 《神椿市建设中。》**: served as **series composer / screenwriter**, working with director Kakimoto Hiromu and the animation studio SMDE to adapt the novel’s worldview into a nationwide golden-time anime.
+- **《神椿市建设中。REGENERATE》**: personally handled every story branch, with multi-run world-line reconstruction (Regenerate) as the core gameplay.
+- **The chronicle method**: using more than 500 events spanning 2018–2026 as its skeleton, it integrates the milestones of music releases, live performances, games and anime into a single traceable timeline.
+
+> **Methodological trait**: Tsukishima Souki’s narrative is not “writing a story for the characters” but “writing a history for the world” — the characters are the concrete projections of this city at particular points in time.

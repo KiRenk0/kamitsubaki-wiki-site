@@ -97,3 +97,19 @@ summary: "融合爵士、嘻哈与摇滚的音乐艺术家兼影像作家，以�
 
 - [YouTube](https://www.youtube.com/channel/UCv9b9KtcBkM1_VEZZpK8bVQ)
 - [Twitter](https://twitter.com/yoshihisahirata)
+
+
+<!-- V3 RESEARCH SUPPLEMENT hiratayoshihisa -->
+
+## 对外供曲与编曲档案
+
+平田義久 在神椿体系内的对外供曲记录如下（作词、作曲、编曲多由本人包办）：
+
+| 公开 / 发行时间 | 曲目 | 演唱对象 | 职能 |
+| :--- | :--- | :--- | :--- |
+| 2022-07-02 | 《赤い洗礼》 | [Albemuth](/zh/database/artists/groups/albemuth) | 作词 / 作曲 / 编曲 |
+| 2023-02-15 | 《感光》 | [Albemuth](/zh/database/artists/groups/albemuth) | 作词 / 作曲 / 编曲 |
+| 2025-10-29 | 《Brrrrrreak It》 | [罪十罰](/zh/database/artists/groups/tsumitobatsu) | 作词 / 作曲 / 编曲 |
+| 2026-04-08 | 《桜心中》 | [御莉姫](/zh/database/artists/groups/sinseiki/members/orihime) | 作词 / 作曲 / 编曲 |
+
+> **供曲脉络的观察**：平田義久 的对外供曲横跨 2022 至 2026 年，且全部集中在「[Albemuth](/zh/database/artists/groups/albemuth) → [罪十罰](/zh/database/artists/groups/tsumitobatsu) → [御莉姫](/zh/database/artists/groups/sinseiki/members/orihime)」这条深脊界／少女革命计划的谱系上。其中 2026 年的《桜心中》以和风抒情为基底，与《Brrrrrreak It》的重型取向形成鲜明对照，说明其创作能够在「静」与「烈」两端自由调度。

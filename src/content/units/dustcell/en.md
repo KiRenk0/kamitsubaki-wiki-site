@@ -177,3 +177,60 @@ DUSTCELL's place in KAMITSUBAKI cannot be reduced to a management label. It conn
 - [X (Twitter)](https://twitter.com/dust_cell)
 - [Bilibili](https://space.bilibili.com/488979186)
 - [Weibo](https://www.weibo.com/u/7360051745)
+
+
+<!-- V3 RESEARCH SUPPLEMENT dustcell -->
+
+## Early Upload Sequence and Million-View Milestones
+
+Since October 2019 DUSTCELL has built its catalogue around YouTube uploads. The pace at which the early songs reached milestones is key to understanding how they spread.
+
+| No. | Track | Released | Milestones |
+| :--- | :--- | :--- | :--- |
+| 1 | "CULT" | 2019-10-11 | Debut song; 1M views on 2019-12-02, 5M on 2021-04-27 |
+| 2 | "STIGMA" | 2019-11-22 | {{spoiler::a song the members called "very important"}}; 1M views on 2020-02-07 |
+| 3 | "LAZY" | 2020-01-02 | Themed on "the lazy person"; 1M views on 2020-07-17 |
+| 4 | "Heaven and Hell" | 2020-02-01 | A defining "beauty and madness" work, carrying a photosensitivity warning |
+| 5 | "DOMINATION" | 2020-03-05 | An early high-density electronic piece |
+| 6 | "LILAC" | 2020-03-17 | A suddenly released new song; 1M views on 2021-04-17 |
+| 7 | "SOPPY" | 2020-04-04 | 1M views on 2020-08-18 |
+| 8 | "Anemone" | 2020-05-20 | Released the same day as the 1st album *SUMMIT*; 1M views on 2020-06-16 |
+| 9 | "ONE" | 2020-06-19 | 1M views on 2021-02-25 |
+| 10 | "Shūten" | 2020-06-30 | — |
+| 11 | "DERO" | 2020-08-05 | 1M views on 2020-09-02 |
+| 12 | "PAIN" | 2020-09-16 | Released as a formal single |
+| 13 | "Mad Hatter" | 2020-12-23 | Teased at the end of 2nd ONE-MAN LIVE "HOWL" before release |
+| 14 | "Inochi no Yukue" | 2021-04-21 | Theme for HAL vocational school's 2021 TV commercial; 5M views on 2021-06-09 |
+| 15 | "Dokuhaku" | 2021-06-23 | — |
+
+> **How they spread**: most early songs crossed one million views within four to ten months of release, with "CULT" and "Inochi no Yukue" both passing five million — the two pillars of their early play counts.
+
+## Channel Scale and Subscriber Milestones
+
+| Date | Milestone |
+| :--- | :--- |
+| 2020-01-01 | Opened a Weibo account and a bilibili channel alongside KAMITSUBAKI's entry into China |
+| 2020-01-25 | Posted a Chinese New Year greeting video to bilibili and Weibo with other KAMITSUBAKI members |
+| 2020-03-13 | The YouTube channel reached the silver award (100,000 subscribers) — {{spoiler::the same day as vocalist EMA's birthday}} |
+| 2020-07-05 | Reached 150,000 subscribers |
+| 2020-09-02 | Reached 200,000 subscribers |
+
+> **Significance**: DUSTCELL was among the first KAMITSUBAKI acts to run Chinese and Japanese platforms in parallel, opening bilibili and Weibo accounts as early as January 2020 — a precedent for the studio's later expansion across the Chinese-speaking world.
+
+## Commercial Tie-ups and Theme Songs
+
+| Track | Tie-up | Period |
+| :--- | :--- | :--- |
+| "Inochi no Yukue" | Theme for HAL vocational school's annual TV commercial (Tokyo, Osaka, Nagoya) | 2021 |
+| "Tōka" | Ending theme for the TV anime *Gachiakuta* | 2025 |
+
+> From a vocational-school commercial to a TV anime ending in 2025, DUSTCELL's commercial trajectory moves from institutional advertising toward animated film, tracking the continued growth of both audience and production scale.
+
+## Solo Activities and External Archives
+
+Both members maintain independent public activity and accounts outside the duo.
+
+- **EMA**: personal YouTube channel, Twitter (@eumza1) and Instagram (@301ye); her voice also carries solo passages in anime and commercial themes.
+- **Misumi**: personal YouTube channel, Twitter (@zeitms) and Instagram (@zeitms); a long-standing Vocaloid producer who also supplies songs for KAMITSUBAKI acts such as VALIS (e.g. "Nibiiro Regret").
+
+> **A dual structure of unit and individual**: the two run "independent creator" and "member of a duo" in parallel, and each serves as the other's production resource. This differs fundamentally from other KAMITSUBAKI groups: DUSTCELL is closer to the intersection of two independent creators than to a top-down idol project.

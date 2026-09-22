@@ -2,15 +2,14 @@
 schemaVersion: 2
 id: yagyu-rime
 entityType: lore-concept
-name: 谷置狸眼
+name: Yagoki Rime
 loreCategory: fictional-resident
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Key character in Kamitsubaki City corresponding to RIM, a sharp and
+  perceptive investigator.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Character Profile
+
+Corresponding to RIM. Independent and observant, she navigates the city’s underground corridors with calm precision. Voiced by RIM.

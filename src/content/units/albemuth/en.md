@@ -95,3 +95,56 @@ Albemuth connects SINSEKAI STUDIO's other-worldly line with KAMITSUBAKI's virtua
 
 {{/details}}
 
+
+
+<!-- V3 RESEARCH SUPPLEMENT albemuth -->
+
+## Complete Upload Chronology
+
+Since 2022 Albemuth has produced work continuously in the form of two-person uploads. Below is the full chronology of official releases (excluding covers).
+
+| Date | Track |
+| :--- | :--- |
+| 2022-07-02 | "Shinsekai e / To the new world" |
+| 2022-07-02 | "Akai Senrei" |
+| 2022-11-21 | "[Announcement] LIVE & Unit 'Albemuth' Launches! -ASU ver.-" |
+| 2022-11-23 | "Yū no Rakuen" |
+| 2023-02-15 | "Kankō" |
+| 2023-04-26 | "guilty" |
+| 2023-06-21 | "Black Glow" |
+| 2023-08-16 | "Hoshizukiyo no Shirabe" |
+| 2023-08-16 | "Underdrain" |
+| 2023-08-30 | "tuberose" |
+| 2023-11-19 | 1st album *ADAM* track XFD |
+| 2023-11-22 | "Hakoniwa" |
+| 2023-11-22 | "cage" |
+| 2023-12-25 | "Kyōzetsu na Hoshi" |
+| 2024-01-08 | "Happy Merry Xmas" trailer |
+| 2024-03-31 | "Do You Wanna Die?" |
+| 2024-04-09 | "Fune" |
+| 2024-04-22 | "Replica" (Live ver.) [from Albemuth 1st ONE-MAN LIVE] |
+
+> **Observation**: "Shinsekai e" and "Akai Senrei", both released on 2 July 2022, were precursor tracks before the unit's formation, while "Hakoniwa" and "cage", both released on 22 November 2023, line up with the release of the 1st album *ADAM*. The chronology shows a clear three-stage shape: precursor songs → album → final song.
+
+## The Streaming Programme "Aras Communication"
+
+Albemuth ran a two-person streaming programme titled **"Aras Communication"**, its name taken from the two members (ARU + ASU). It was the duo's main channel for direct contact with listeners outside the music itself.
+
+| Episode | Date |
+| :--- | :--- |
+| vol.1 | 2022-09-03 |
+| vol.2 | 2022-10-22 |
+| vol.3 | 2023-11-20 |
+| vol.4 (first half) | 2022-12-26 |
+
+> **What the programme is**: light two-person conversation covering recent news, behind-the-scenes detail and fan interaction. It is the most direct audio record of the contrast between the two members' temperaments — ARU's quietness and ASU's ingenuousness.
+
+## The Final Chapter and Permanent Archive
+
+- **5 February 2024**: the studio announced that **ARU would end her activities after her solo concert on 9 April**, with Albemuth to disband afterwards.
+- **9 April 2024**: Albemuth 1st ONE-MAN LIVE "Tsumi to Rakuen" was held; ARU formally graduated and Albemuth disbanded. The duo's **final original song "Fune" was released the same day**.
+- **22 April 2024**: "Replica" (Live ver.) [from Albemuth 1st ONE-MAN LIVE] was released, closing the live record.
+
+> **What the archive means**: KAMITSUBAKI handled ARU's departure with exceptional dignity — not only preserving every past single but pressing the duo album with ASU as a physical release, kept as a permanent record. It is regarded as an industry benchmark for a virtual artist's dignified exit:
+> - a group's history is not erased when a member graduates; the catalogue persists in the label's listings as an **archive**;
+> - ASU continued to work under her own name and in 2025 formed a new "love"-themed duo with newcomer [BEMA](/en/database/artists/solo/bema), producing a generational structure of "old duo archived → new duo launched".

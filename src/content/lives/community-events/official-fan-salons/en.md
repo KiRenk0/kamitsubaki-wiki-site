@@ -2,16 +2,18 @@
 schemaVersion: 2
 id: official-fan-salons
 entityType: live-event
-name: 官方粉丝沙龙
+name: Official Fan Salons
 eventType: event
-headliners: []
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+headliners:
+  - kaf
+  - vwp
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Exclusive interactive salon sessions curated for official fan club members.
+dateRange:
+  start: "2020-05-15"
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Overview
+
+Special closed-door fan sessions offering unreleased demo previews and intimate Q&A segments for fan club members.

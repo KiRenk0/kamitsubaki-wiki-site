@@ -95,3 +95,29 @@ Beyond their own releases, Hitogoto has established a track record of song provi
 
 - [Twitter](https://twitter.com/hito_go_to_7)
 - [YouTube](https://www.youtube.com/@hitogoto)
+
+
+<!-- V3 RESEARCH SUPPLEMENT hitogoto -->
+
+## Creative Position and Affiliation
+
+**Hitogoto (他人事)** is a music producer in the **CREATOR FARM** system under [SINSEKAI RECORD](/en/database/studios/sinsekai-record), and one of the most central composers in the Girls Revolution Project system.
+
+| Dimension | Content |
+| :--- | :--- |
+| **Role** | Lyrics / composition / arrangement |
+| **Affiliation** | [SINSEKAI RECORD](/en/database/studios/sinsekai-record) CREATOR FARM |
+| **Core association** | [TSUMITOBATSU](/en/database/artists/groups/tsumitobatsu) (the core of its dedicated songwriting) |
+
+> **The meaning of the name**: 「他人事」 means “someone else's affair” in Japanese — a name that resonates strongly with the alienation, the bystander's perspective and the self-negation that recur throughout their works.
+
+## Major Songwriting Credits and Collaborations
+
+| Work | Related entity | Role |
+| :--- | :--- | :--- |
+| 《弔花》 | [TSUMITOBATSU](/en/database/artists/groups/tsumitobatsu) | Lyrics, music and arrangement |
+| 《大罪》 | [TSUMITOBATSU](/en/database/artists/groups/tsumitobatsu) | Lyrics (composition and arrangement jointly with Zexnum) |
+| 《Talking Doll》 | [Orihime](/en/database/artists/groups/sinseiki/members/orihime) | Lyrics, music and arrangement |
+| 《REPLICA》 | [TSUMITOBATSU](/en/database/artists/groups/tsumitobatsu) | Songwriting |
+
+> **Observation**: Hitogoto's works occupy the opening and the finale of the 《改変 -罪-》 album (track 1, 《弔花》, and the lead position on the group's album), indicating their central place in TSUMITOBATSU's musical system. Their creative vocabulary leans toward heavyweight rock and dramatic emotional outbursts, in a clear division of labour with the urban electronics of the 《心》 side.

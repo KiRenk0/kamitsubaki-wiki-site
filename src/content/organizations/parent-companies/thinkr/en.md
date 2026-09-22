@@ -2,15 +2,14 @@
 schemaVersion: 2
 id: thinkr
 entityType: organization
-name: THINKR
+name: THINKR inc.
 orgType: parent-company
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Creative parent firm behind KAMITSUBAKI STUDIO, SINSEKAI RECORD, PNDR,
+  and Kamitsubaki City transmedia IP.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Overview
+
+**THINKR inc.** is the parent company behind KAMITSUBAKI STUDIO, led by CEO Kenjiro Hariya and Executive Producer PIEDPIPER. Following its 2024 management buyout, THINKR operates as an independent transmedia enterprise spanning virtual artists, music SaaS, and anime/game production.

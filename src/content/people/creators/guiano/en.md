@@ -123,3 +123,38 @@ As a member of KAMITSUBAKI CREATION, Guiano's activities extend beyond the virtu
 ## External Links
 
 - [KAMITSUBAKI STUDIO Guiano page](https://kamitsubaki.jp/artist/guiano/)
+
+
+<!-- V3 RESEARCH SUPPLEMENT guiano -->
+
+## Artistic Position and Creative Lineage
+
+**Guiano** is a composer and a self-accompanied singer-songwriter affiliated with [ANARCHIC RECORD](/en/database/studios/anarchic-record). His creative lineage can be summed up as “**EDM arrangements × delicate, literary lyrical rock**”.
+
+| Dimension | Characteristics |
+| :--- | :--- |
+| **Arrangement foundation** | A fusion of Future Bass, EDM and piano balladry; he excels at preserving the narrative clarity of the piano within a vast synthesizer sound field |
+| **Textual orientation** | Distinctly literary lyrics, whose themes mostly revolve around life and death, nihilism, a transparent world, and self-affirmation |
+| **Dual identity** | He both supplies songs to others and releases his own works in a self-accompanied form |
+| **Representative works** | 《死んでしまったのだろうか》《透過夏》《透き通る世界》 |
+
+> **His place within KAMITSUBAKI**: Guiano is one of the veteran members from KAMITSUBAKI's founding period in October 2019, and his solo works have grown in step with the worldview of the KAMITSUBAKI label.
+
+## Symbiotic Relationships with RIM and Other Artists
+
+- **With [RIM (理芽)](/en/database/artists/solo/rim)**: Guiano is one of the most important songwriters of RIM's early period, having provided several of her core flagship tracks and establishing one of the acoustic foundations of RIM's “urban indie pop”;
+- **With the music isotopes**: his works are frequently sung by AI voice libraries such as [SEKAI (星界)](/en/database/isotopes/sekai), making him one of the active creators in the “isotope co-creation network” — 《ナユタ》, for instance, uses SEKAI as its singing voice library, fusing grand strings with EDM to display SEKAI's operatic vocal range;
+- **With [ANARCHIC RECORD](/en/database/studios/anarchic-record)**: as a member of that label, Guiano forms the core of KAMITSUBAKI's “realist creators” together with Kashii Moimi, Onuma Parsley and others.
+
+> **A contrast with the “artist symbiosis system”**: unlike [Kanzaki Iori](/en/database/creators/kanzaki-iori), who is bound to a single artist (KAF) in depth, Guiano belongs to the “multi-point supplier” type of creator — he serves specific artists while also participating widely in isotope and compilation projects, which represents another way of connecting within KAMITSUBAKI's creative network.
+
+## Index of Representative Works
+
+| Date | Work | Notes |
+| :--- | :--- | :--- |
+| 2018-09-22 | 《死んでしまったのだろうか》 | An early, widely transmitted masterpiece that established his poetic style fusing acoustic piano with electronic dance music |
+| 2019-10-18 | 《透き通る世界》 | A representative work released during KAMITSUBAKI's founding period, with a clear, ethereal worldview |
+| — | 《透過夏》 | A collaboration with RIM, included in the body of works related to RIM |
+| — | 《ナユタ》 | A work created using the music isotope SEKAI as the prototype for its voice |
+
+> **Style summary**: Guiano's music always strikes a balance between “the grandeur of the electronic sound field” and “the intimacy of piano narration”; this unity of opposites is precisely what gives him an irreplaceable position among KAMITSUBAKI's creative circle.

@@ -11,13 +11,11 @@ lifecycle:
 relations:
   - type: member-of
     target: valis
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: VALISのダンスディレクター。凛とした歌声とストイックな性格、圧倒的なダンス技術でセンターを務める。
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## プロフィール
+
+VALISのダンス指導役。獅子座、身長156cm。ストイックで真っ直ぐな性格を持ち、フォーメーションダンスの要としてセンターに立つことが多い。

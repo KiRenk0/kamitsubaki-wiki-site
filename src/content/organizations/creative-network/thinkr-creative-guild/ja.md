@@ -2,15 +2,13 @@
 schemaVersion: 2
 id: thinkr-creative-guild
 entityType: organization
-name: THINKR CREATIVE GUILD
+name: KAMITSUBAKI CREATION
 orgType: creative-network
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: PALOW.や川サキ、月島総記らイラストレーター、映像作家、世界観作家が所属するクリエイターギルド。
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## 概要
+
+**KAMITSUBAKI CREATION**は、キャラクター原案、MV監督、グラフィックデザイン、世界観小説の執筆を担う一流クリエイターが集う専門ギルドです。

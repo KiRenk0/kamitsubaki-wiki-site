@@ -2,15 +2,13 @@
 schemaVersion: 2
 id: reconstruction-bureau
 entityType: lore-concept
-name: 复兴局
+name: 復興局
 loreCategory: geography
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: 神椿市内の秩序維持と特異点観測、世界線修復プロジェクトを統括する中央組織。
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## 概要
+
+崩壊を食い止めるため、観測者へ指令を下し、少女たちをサポートする統治機関です。

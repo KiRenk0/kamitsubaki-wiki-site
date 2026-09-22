@@ -11,13 +11,12 @@ lifecycle:
 relations:
   - type: member-of
     target: valis
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Youngest-spirited singer of VALIS, blending a gentle, floating vocal
+  timbre with a profound dark-surreal aesthetic.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Profile
+
+Core vocalist of VALIS. Pisces, 159 cm. Beloved for her sweet, airy vocal delivery and unique artistic sensibilities leaning toward surreal dark fantasy.

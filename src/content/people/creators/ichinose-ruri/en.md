@@ -2,20 +2,18 @@
 schemaVersion: 2
 id: ichinose-ruri
 entityType: person
-name: 市濑留莉
+name: Ichinose Ruri
 romanizedName: ichinose-ruri
 roles:
   - composer
 lifecycle:
   activity: unknown
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-  - verification-required
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Composer and orchestrator collaborating on instrumental scoring and
+  arrangements within the KAMITSUBAKI ecosystem.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Overview
+
+**Ichinose Ruri** is an orchestrator and composer contributing delicate string arrangements and background scoring to KAMITSUBAKI transmedia projects.

@@ -11,13 +11,11 @@ lifecycle:
 relations:
   - type: member-of
     target: dustcell
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: DUSTCELLのコンポーザー・プロデューサー。ボカロPとしても数々の殿堂入り曲を輩出するサウンドアーキテクト。
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## プロフィール
+
+DUSTCELLの楽曲制作・サウンドプロデュース全般を担当。2015年よりボカロPとして活動し、『反重力の街』など11曲以上の殿堂入りを達成。「美と狂気」をテーマに先鋭的なエレクトロロックを構築。

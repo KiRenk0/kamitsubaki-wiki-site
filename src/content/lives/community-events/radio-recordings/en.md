@@ -2,16 +2,18 @@
 schemaVersion: 2
 id: radio-recordings
 entityType: live-event
-name: 广播节目录制
+name: Radio Recordings
 eventType: event
-headliners: []
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+headliners:
+  - kaf
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Broadcast recordings and public events for regular radio shows such as
+  Panpaka-KAFi (R).
+dateRange:
+  start: "2022-04-02"
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Overview
+
+Recording sessions and special event tapings for regular on-air radio programs hosted by KAF on InterFM.

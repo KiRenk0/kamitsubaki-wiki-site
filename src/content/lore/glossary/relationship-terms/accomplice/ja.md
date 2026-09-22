@@ -4,13 +4,11 @@ id: accomplice
 entityType: lore-concept
 name: 共犯者
 loreCategory: glossary-term
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: 花譜の1stライブクラウドファンディングにおいて、既存の常識を覆す実験を共に背負った熱狂的初期支援者。
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## 概念定義
+
+2019年の花譜1stワンマンライブ「不可解」のCampfire支援者に贈られた特別な呼称。「消費者」ではなく「共犯者」として文化を切り拓く意志を共有します。

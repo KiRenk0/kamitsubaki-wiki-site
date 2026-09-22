@@ -2,16 +2,21 @@
 schemaVersion: 2
 id: sinka-live
 entityType: live-event
-name: SINKA LIVE
+name: SINKA LIVE シリーズ
 eventType: xr-sinka-live
-headliners: []
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+headliners:
+  - kaf
+  - rim
+  - harusaruhi
+  - isekaijoucho
+  - koko
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: 神椿独自のXRバーチャルライブシリーズ。重力反転や空間解構を伴う圧倒的視覚体験。
+dateRange:
+  start: "2023-01-14"
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## 概要
+
+リアルタイム3DCGと空間トラッキングを融合した神椿の次世代バーチャルライブ基幹ブランド。

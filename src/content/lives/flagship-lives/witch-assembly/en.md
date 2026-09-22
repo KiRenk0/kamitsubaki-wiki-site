@@ -2,16 +2,18 @@
 schemaVersion: 2
 id: witch-assembly
 entityType: live-event
-name: 魔女集会
+name: Witch Assembly Series
 eventType: joint-live
-headliners: []
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+headliners:
+  - vwp
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Joint concert brand bringing together all five virtual witches for
+  choral resonance and narrative spectacles.
+dateRange:
+  start: "2021-03-13"
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Overview
+
+The dedicated live performance brand uniting V.W.P to deliver complex polyphonic harmonies and lore-centric concert events.

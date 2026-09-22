@@ -112,3 +112,33 @@ Awairo connects with other Kamitsubaki artists through major events such as KAMI
 
 - [X (Twitter)](https://twitter.com/Awairo_info)
 - [YouTube](https://www.youtube.com/@yunosuke23)
+
+
+<!-- V3 RESEARCH SUPPLEMENT awairo -->
+
+## Membership and Project Position
+
+**[Awairo](/en/database/artists/groups/awairo)** is a musical unit whose debut was announced by [SINSEKAI RECORD](/en/database/studios/sinsekai-record) in October 2023, with members **Yunosuke** and **WaMi**.
+
+| Member | Role |
+| :--- | :--- |
+| [Yunosuke](/en/database/creators/yunosuke) | Composition / arrangement / sound production |
+| WaMi | Singing / vocals |
+
+> **Project position**: Awairo is an important musical group launched by SINSEKAI during its expansion period, positioned as a unit format that is “centred on electronic dance music production, with a creator and a singer teaming up directly” — in contrast to most KAMITSUBAKI projects, where “the character comes first and the music follows,” Awairo is closer to a direct collaborative body of producer and singer.
+
+## Representative Songs and Collaboration Network
+
+| Song | Collaboration | Notes |
+| :--- | :--- | :--- |
+| 《Satellite》 | feat. Yunosuke & WaMi | One of the unit’s representative works, showing the fusion of Future Bass and pop melody |
+| 《Pale&Deep》 | feat. Yunosuke & WaMi | High-density electronic arrangement |
+| 《個性》 | feat. WaMi & Yunosuke | An electropop song themed on “individuality” |
+| 《烙印》 | feat. Yunosuke & WaMi | A darker-leaning electronic work |
+| 《気魄》 | feat. | A unit work |
+| 《ブルームーン》 | — | A unit single |
+| 《Love or Lie》 | — | A unit single |
+| 《Replay》 | feat. [Azsagawa](/en/database/artists/solo/azsagawa) | A cross-unit collaboration with a SINSEKAI singer |
+| Album 《グラデーション》 | — | The unit’s formal release |
+
+> **Collaboration network**: Awairo connects broadly with the KAMITSUBAKI system through member Yunosuke’s identity as a composer — supplying songs to units such as [VALIS](/en/database/artists/groups/valis) while also producing cross-project collaborations with [Azsagawa](/en/database/artists/solo/azsagawa) and the [musical isotopes](/en/database/isotopes/kafu), making it a representative sample of SINSEKAI’s “creator-led unit.”

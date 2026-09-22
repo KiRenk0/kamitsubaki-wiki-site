@@ -11,13 +11,12 @@ lifecycle:
 relations:
   - type: member-of
     target: valis
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Leader of virtual circus troupe VALIS, known for impeccable
+  choreography and clear, boyish vocals.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Profile
+
+Leader of VALIS. Aquarius, 162 cm. Loves dark chocolate, sleeping, and quiet time. Known for her mechanical mouse companion and boyish, crisp vocal delivery.

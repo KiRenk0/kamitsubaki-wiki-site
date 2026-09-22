@@ -130,3 +130,28 @@ ASU originates from Shinkai-kai, a world that exists in parallel with the Kamits
 
 - [X (Twitter)](https://twitter.com/ASU_virtual)
 - [YouTube](https://www.youtube.com/channel/UCBLGjbYv6-xxju1i44RjnnA)
+
+
+<!-- V3 RESEARCH SUPPLEMENT asu -->
+
+## Project Position and Character Design
+
+**[ASU](/en/database/artists/solo/asu)** is a next-generation virtual singer within the SINSEKAI system, and her character design was handled by the renowned illustrator **Yoneyama Mai**.
+
+| Dimension | Content |
+| :--- | :--- |
+| **Debut** | August 2021 (official debut with a first upload to YouTube) |
+| **Affiliation** | [SINSEKAI RECORD](/en/database/studios/sinsekai-record) |
+| **Character traits** | An innate sense of rhythm and an unpredictable singing voice; an innocent, carefree personality who acts on instinct rather than deliberation |
+| **Styling theme** | A visual system taking “light” as its core image |
+
+> **A mirror within the same house**: ASU and the later-debuting newcomer [BEMA](/en/database/artists/solo/bema) form a clear mirror pair — if ASU symbolises “light,” BEMA is positioned as the embodiment of “darkness,” and both designs come from the hand of Yoneyama Mai.
+
+## Unit History and Later Developments
+
+- **2 July 2022**: together with ARU, released the first original song 《新世界へ / To the new world》 under the name [Albemuth](/en/database/artists/groups/albemuth), and on 19 November of the same year the duo’s formation was formally announced.
+- **9 April 2024**: Albemuth 1st ONE-MAN LIVE “罪と楽園” was held; ARU formally graduated and the unit disbanded; the unit’s final original song, 《舟》, was released the same day.
+- **5 May 2025**: an official announcement stated that ASU and BEMA would form a new unit themed on “love.”
+- **7 May 2025**: the MV for ASU and BEMA’s original song 《Symbiotic Dominion》 was released.
+
+> **Generational structure**: The archiving of [Albemuth](/en/database/artists/groups/albemuth) and the launch of the ASU–BEMA unit form a typical sample of generational succession at KAMITSUBAKI: “the old unit permanently archived → the new unit takes up the baton.”

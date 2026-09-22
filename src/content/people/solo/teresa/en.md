@@ -94,3 +94,26 @@ teresaAI operates within the [SINSEKAI RECORD](/en/projects/archive/sinsekai-stu
 - [YouTube](https://www.youtube.com/channel/UCqG0skCM-dky7KGazl9bLqA/)
 - [Twitter](https://twitter.com/virtual_teresa)
 - [Instagram](https://www.instagram.com/virtual_teresa/)
+
+
+<!-- V3 RESEARCH SUPPLEMENT teresa -->
+
+## Project Position and Technical Approach
+
+**te'resa (teresaAI)** is a **3DCG singer** under [PHENOMENON RECORD](/en/database/studios/phenomenon-record), active since May 2020.
+
+| Dimension | Content |
+| :--- | :--- |
+| **Form of existence** | A 3DCG virtual singer, emphasising “the intermediate state between AI and the real” |
+| **Affiliation** | [PHENOMENON RECORD](/en/database/studios/phenomenon-record) |
+| **Start of activity** | 15 May 2020 |
+| **Technical approach** | Distinguished by the combination of real-time 3DCG rendering and virtual-avatar performance |
+
+> **The meaning of the name**: te'resa’s name points at both “teresa” and “AI”; her positioning is not that of a traditional virtual idol but of an experimental being exploring the proposition “how does an artificial consciousness sing?”
+
+## Links to Other Projects
+
+- **Early collaboration with RIM**: te'resa’s work 《Youthful Strange》 was performed by [RIM](/en/database/artists/solo/rim) at her cover concert “CHOCOLATE LIVE,” showing her visibility within KAMITSUBAKI’s creative circle.
+- **With the PHENOMENON RECORD system**: together with [CIEL](/en/database/artists/solo/ciel), she belongs to the “experimental / technical demonstration” side of KAMITSUBAKI’s virtual-singer matrix, complementing the grand narrative route of the five witches.
+
+> **Observation**: te'resa represents KAMITSUBAKI’s continuing probing of the boundaries of the “virtual singer” medium — not pursuing the most mass-appealing cute image, but treating 3DCG and the AI name itself as an artistic concept.

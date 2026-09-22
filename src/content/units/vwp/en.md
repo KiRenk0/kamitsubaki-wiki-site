@@ -267,3 +267,76 @@ The "INTERVAL" charging period that began on March 31, 2026 marks the end of V.W
 - [X (Twitter)](https://twitter.com/VWP_virtual)
 - [Bilibili](https://space.bilibili.com/1636327445)
 - [Weibo](https://weibo.com/u/7573179727)
+
+
+<!-- V3 RESEARCH SUPPLEMENT vwp -->
+
+## Genealogy and Expansion Song Archive
+
+V.W.P's five-member songs are divided by creative lineage into **genealogy songs** and **expansion songs**, with continuous numbering; member duets are filed separately as **derivative songs**.
+
+### Genealogy songs
+
+| No. | Release | Track | Lyrics | Music | Arrangement |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | 2021-03-21 | "Majo (Shin)" | IORI KANZAKI & Takayan | IORI KANZAKI | rionos |
+| 1 | 2021-06-20 | "Den'nō" | IORI KANZAKI | IORI KANZAKI | IORI KANZAKI |
+| 2 | 2021-11-03 | "Rinne" | IORI KANZAKI | IORI KANZAKI | IORI KANZAKI |
+| 3 | 2021-11-18 | "Henshin (The Metamorphosis)" | IORI KANZAKI | IORI KANZAKI | HIDEKI ATAKA |
+| 4 | 2022-01-21 | "Kotodama" | IORI KANZAKI | IORI KANZAKI | IORI KANZAKI |
+| 5 | 2022-07-27 | "Kyōmei" | IORI KANZAKI | IORI KANZAKI | IORI KANZAKI |
+| 7 | 2022-12-21 | "Saikai" | IORI KANZAKI | IORI KANZAKI | Sosuke Oikawa |
+| 8 | 2023-05-25 | "Majo (Shin)" (Original MV) | IORI KANZAKI & Takayan | IORI KANZAKI | rionos |
+| 9 | 2023-06-17 | "Jōmyō" | IORI KANZAKI | IORI KANZAKI | Takumi Masanori |
+| 10 | 2023-07-12 | "Gangu" | IORI KANZAKI | IORI KANZAKI | IORI KANZAKI |
+| 12 | 2023-08-23 | "Saidan" | IORI KANZAKI | IORI KANZAKI | IORI KANZAKI |
+| 13 | 2023-11-08 | "Himitsu" | IORI KANZAKI | IORI KANZAKI | Masanori Takumi |
+
+> **Production structure**: almost every genealogy song is written and composed under the lead of [Kanzaki Iori](/en/database/creators/kanzaki-iori), with arrangements alternating between him and rionos, HIDEKI ATAKA and Takumi Masanori. This "central author plus external arrangers" model keeps the narrative unified while varying the sonic texture.
+
+### Expansion songs
+
+| No. | Release | Track | Lyrics | Music | Arrangement |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 11 | 2023-08-02 | "Hishō" | Sasagawa Mao | Sasagawa Mao | Sasagawa Mao |
+| 14 | 2024-01-06 | "Kanjō" | AMAMOGU | Matsuda Junichi, MILKEY | Asahina Kento |
+| 15 | 2024-01-16 | "Kirifuda" | Ren | Ren, MILKEY | Asahina Kento |
+| 16 | 2024-03-06 | "Dōmei" | Kanata Okajima, Hayato Yamamoto | Kanata Okajima, Hayato Yamamoto, MEG (MEGMETAL) | MEG (MEGMETAL) |
+
+> **What the expansion songs mean**: unlike the genealogy songs, they invite **creators from outside the KAMITSUBAKI system** (Sasagawa Mao, Asahina Kento, Kanata Okajima, MEG). They are the interface through which V.W.P opens out from an internal narrative mythos into a broader pop soundscape.
+
+## Derivative Songs (Member Duets)
+
+Beyond the five-member songs, the members of V.W.P have produced several **duets**, which stand as sonic evidence of the internal web of relationships.
+
+| Release | Pairing | Track | Lyrics / Music / Arrangement |
+| :--- | :--- | :--- | :--- |
+| 2020-11-24 | KAF feat. RIM | "Mahou" ("Fukakai Two Q1" Live Ver.) | Kanzaki Iori |
+| 2021-06-18 | ISEKAIJOUCHO × KAF | "Shin'en" | Kashii Moimi |
+| 2021-10-23 | HARUSARUHI × ISEKAIJOUCHO | "Rougoku" | Onuma Parsley |
+| 2021-10-23 | ISEKAIJOUCHO × KOKO | "Kokuin" | Hiiragi Magnetite |
+| 2021-10-23 | RIM × ISEKAIJOUCHO | "Utakata" | Ren |
+| 2022-10-16 | HARUSARUHI × KOKO | "Furukizu" | Onuma Parsley (arr. Ataka Hideki) |
+
+> **Observation**: the three duets released together on 23 October 2021 ("Rougoku", "Kokuin", "Utakata") each came from a different creator yet arrived on the same day — readable as a systematic experiment by KAMITSUBAKI in pairing witches two at a time.
+
+## The V.G.P. April Fools Project and Fan Culture
+
+V.W.P's official history includes a widely retold "hoax" episode.
+
+- **1 April 2021**: the studio announced that V.W.P. would be renamed **V.G.P.**, and that evening the members streamed *Splatoon* together; after the stream V.G.P. was disbanded and the name reverted to V.W.P.
+- **2 May 2022**: V.G.P. returned "for revenge", the members played *PICO PARK* together, and V.G.P. was disbanded again afterwards.
+
+> **Cultural meaning**: this sequence sets the solemn narrative of the "witch assembly" beside light-hearted member interaction, becoming one of the most beloved running jokes in the fandom and adding an everyday, human layer to the group's image beyond that of a sacred chorus.
+
+## Commercial Tie-ups and Anime Themes
+
+V.W.P has taken on several anime themes as a five-member chorus, an important channel into mainstream filmed works.
+
+| Timing | Work | Track | Type |
+| :--- | :--- | :--- | :--- |
+| announced 2021-08-25 / released 2021-11-03 | *Muv-Luv Alternative* | "Rinne" | Original OP |
+| announced 2021-09-25 / released 2021-11-17 | *Kikou Senki* | "Henshin" | Original song |
+| announced 2022-09-29 / released 2022-12-21 | *Muv-Luv Alternative* Season 2 | "Saikai" | Original ED |
+
+> Notably all three were written and composed by [Kanzaki Iori](/en/database/creators/kanzaki-iori) and were slotted directly into the genealogy-song numbering (2/3/7), showing a deliberate stance: commercial tie-up songs are folded into the canonical lore rather than treated as standalone singles.

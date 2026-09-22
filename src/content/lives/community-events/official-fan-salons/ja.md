@@ -2,16 +2,18 @@
 schemaVersion: 2
 id: official-fan-salons
 entityType: live-event
-name: 官方粉丝沙龙
+name: 公式ファンサロン
 eventType: event
-headliners: []
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+headliners:
+  - kaf
+  - vwp
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: ファンクラブ会員限定のプレミアム生配信・交流企画イベント。
+dateRange:
+  start: "2020-05-15"
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## 概要
+
+「未確認少女観測部」などの会員向けに定期開催される限定配信や未公開デモ試聴会。

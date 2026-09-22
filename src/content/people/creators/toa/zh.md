@@ -103,3 +103,18 @@ Toa 的制作风格在 Vocaloid 领域占据独特的位置。他不偏向纯粹
 
 - [Twitter](https://twitter.com/o0toa0o)
 - [YouTube](https://www.youtube.com/user/0toa0oto0)
+
+
+<!-- V3 RESEARCH SUPPLEMENT toa -->
+
+## 对外供曲档案
+
+とあ 在神椿体系内的对外供曲记录如下（词曲编多由本人包办）：
+
+| 公开 / 发行时间 | 曲目 | 演唱对象 | 职能 |
+| :--- | :--- | :--- | :--- |
+| 2022-12-28 | 《そんなファンタジー》 | [狐子（COKO）](/zh/database/isotopes/coko) | 作词 / 作曲 / 编曲 |
+| 2023-06-25 | 《ケムニマク》 | [羽累（HARU）](/zh/database/isotopes/haru) | 作词 / 作曲 / 编曲 |
+| 2025-02-26 | 《ココロト》 | [心世紀](/zh/database/artists/groups/sinseiki) | 作词 / 作曲 / 编曲 |
+
+> **供曲脉络的观察**：とあ 的三笔供曲分别落在[音乐同位体](/zh/database/isotopes/kafu)（狐子、羽累）与[少女革命計画](/zh/database/projects/girls-revolution-project)（心世紀）两条不同的产品线上，说明其在神椿生态中扮演的是**跨企划的通用型词曲作者**——既能为 AI 歌声库写作，也能为三人组合提供合唱曲。

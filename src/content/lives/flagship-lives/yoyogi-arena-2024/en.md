@@ -2,16 +2,20 @@
 schemaVersion: 2
 id: yoyogi-arena-2024
 entityType: live-event
-name: 代代木第一体育馆二日演出
+name: Kamitsubaki Yoyogi Arena 2024
 eventType: joint-live
-headliners: []
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+headliners:
+  - vwp
+  - kaf
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Historic two-day arena concert at Yoyogi National Gymnasium drawing
+  15,000 attendees and unveiling KAIKA.
+dateRange:
+  start: "2024-01-13"
+  end: "2024-01-14"
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Overview
+
+Held January 13–14, 2024. Featured V.W.P's 2nd ONE-MAN "Phenomenon II" on Day 1 and KAF's 4th ONE-MAN "Kaika" on Day 2, where her physical persona KAIKA debuted.

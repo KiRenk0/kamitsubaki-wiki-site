@@ -113,3 +113,41 @@ Ren's production occupies a darker corner of the Vocaloid landscape, characteriz
 
 - [YouTube](https://www.youtube.com/channel/UCqETmB5g96_4uPgHozWm_4Q)
 - [Twitter](https://twitter.com/ren_suimin)
+
+
+<!-- V3 RESEARCH SUPPLEMENT ren -->
+
+## Creative Positioning and Songwriting Network
+
+**Ren** is a singer-songwriter, lyricist-composer, and music producer under [ANARCHIC RECORD](/en/database/studios/anarchic-record), active since 2020.
+
+| Aspect | Details |
+| :--- | :--- |
+| **Role** | Singer-songwriter / lyricist-composer and producer / VOCALOID producer |
+| **Affiliation** | [ANARCHIC RECORD](/en/database/studios/anarchic-record) |
+| **Debut** | First upload, 《レーヴの落日》, on March 19, 2020 |
+| **Artwork collaboration** | All current artwork is handled by **ヒトこもる** |
+| **Upload scale** | 22 works uploaded in total, one of which has reached 殿堂入り |
+
+**Outside songwriting network**
+
+| Recipient | Work | Role |
+| :--- | :--- | :--- |
+| NEFFY of [VALIS](/en/database/artists/groups/valis) | 《猫好的トリックスター》 | Songwriting |
+| [ISEKAIJOUCHO](/en/database/artists/solo/isekaijoucho) | 《パンドラコール》 | Songwriting |
+| [Orihime](/en/database/artists/groups/sinseiki/members/orihime) | 《Masquerade Kill》 | Lyrics and composition |
+| [V.W.P](/en/database/artists/groups/vwp) | 《切札》 (拡声曲 #15) | Lyrics (composition jointly with MILKEY, arrangement by 朝比奈健人) |
+| 理芽 × ISEKAIJOUCHO | 《泡沫》 (a derivative song) | Lyrics, composition, and arrangement |
+
+> **His place among KAMITSUBAKI's creators**: Ren's works span four tiers — 「solo VOCALOID uploads」, 「songwriting for KAMITSUBAKI artists」, 「a five-voice V.W.P song」, and 「a derivative song for the two witches」. Such range is uncommon among KAMITSUBAKI creators, and it shows that his writing moves freely among three kinds of vocal space: solo singing, duets, and group singing.
+
+## Notable Uploads and Use of the Isotope
+
+| Upload date | Work | Vocals | Notes |
+| :--- | :--- | :--- | :--- |
+| 2020-03-19 | 《レーヴの落日》 | — | First uploaded work |
+| 2022-03-13 | 《幸福排除システム》 | Hatsune Miku | Lyrics and composition by Ren, artwork by ヒトこもる |
+| 2022-05-20 | 《ドールジアビス》 | [SEKAI](/en/database/isotopes/sekai) | **The first work to use SEKAI** |
+| 2022-10-21 | 《完結型マイルーム》 | Hatsune Miku | Lyrics and composition by Ren |
+
+> **His relationship with the musical isotope**: As early as May 2022, with 《ドールジアビス》, Ren became **one of the earliest creators to make use of SEKAI's voice library**, placing him among the early participants in KAMITSUBAKI's 「[isotope co-creation network](/en/database/isotopes/sekai)」. His two-track activity — solo uploads and songwriting for KAMITSUBAKI artists — also makes him a representative node connecting the VOCALOID scene with the KAMITSUBAKI label system.

@@ -95,3 +95,26 @@ teresaAI在[SINSEKAI RECORD](/zh/projects/archive/sinsekai-studio)生态系统�
 - [YouTube](https://www.youtube.com/channel/UCqG0skCM-dky7KGazl9bLqA/)
 - [Twitter](https://twitter.com/virtual_teresa)
 - [Instagram](https://www.instagram.com/virtual_teresa/)
+
+
+<!-- V3 RESEARCH SUPPLEMENT teresa -->
+
+## 企划定位与技术路线
+
+**te'resa（teresaAI）** 是 [PHENOMENON RECORD](/zh/database/studios/phenomenon-record) 旗下的**3DCG 歌手**，自 2020 年 5 月起展开活动。
+
+| 维度 | 内容 |
+| :--- | :--- |
+| **存在形态** | 3DCG 虚拟歌手，强调「AI 与真实之间的中间态」 |
+| **所属体系** | [PHENOMENON RECORD](/zh/database/studios/phenomenon-record) |
+| **活动起点** | 2020 年 5 月 15 日 |
+| **技术取向** | 以实时 3DCG 渲染与虚拟化身演出的结合为特色 |
+
+> **命名含义**：te'resa 的名义同时指向「teresa」与「AI」，其定位并非传统的虚拟偶像，而是探索「人造意识体如何歌唱」这一命题的实验性存在。
+
+## 与其他企划的关联
+
+- **与理芽的早期合作**：te'resa 的作品《Youthful Strange》曾被 [理芽](/zh/database/artists/solo/rim) 在其翻唱演唱会「CHOCOLATE LIVE」中演唱，显示其在神椿创作圈内的可见度；
+- **与 PHENOMENON RECORD 体系**：与 [CIEL](/zh/database/artists/solo/ciel) 同属神椿虚拟歌手矩阵中偏「实验／技术演示」的一侧，与五大魔女的宏大叙事路线形成互补。
+
+> **观察**：te'resa 代表了神椿在「虚拟歌手」这一媒介边界上的持续试探——不追求最大众的可爱形象，而是把 3DCG 与 AI 名义本身作为艺术概念来处理。

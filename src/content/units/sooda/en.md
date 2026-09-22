@@ -52,3 +52,29 @@ Illustrations by Narume.
 - [TikTok](https://www.tiktok.com/@sooda_oda)
 - [Twitter](https://twitter.com/sooda_oda)
 - [YouTube](https://www.youtube.com/channel/UCRYh9eOSnwcT6aftSf8hYUw)
+
+
+<!-- V3 RESEARCH SUPPLEMENT sooda -->
+
+## Group Composition and the Meaning of the Name
+
+**Amayadori (雨宿り)** is a musical unit under [SINSEKAI RECORD](/en/database/studios/sinsekai-record), formed in **November 2022** by the two singer-songwriters **Atsu Mizuno** and **[Sooda](/en/database/artists/solo/sooda)**. Their addition to SINSEKAI STUDIO was announced the same month.
+
+| Item | Detail |
+| :--- | :--- |
+| **Members** | Atsu Mizuno, Sooda |
+| **Formed** | November 2022 |
+| **Affiliation** | [SINSEKAI RECORD](/en/database/studios/sinsekai-record) / SINSEKAI CITY |
+| **Nature** | A musical unit of two singer-songwriters |
+
+> **What the name means**: the name Amayadori carries the sense of “**quietly sheltering from the rain amid the pain of daily life**”, and the unit exists to bring music to its listeners — not to demand that they be strong, but to offer somewhere they can take shelter for a while.
+
+## The Girl “Ame” Within the World-view
+
+Within Amayadori's musical world there is a girl named **“Ame” (アメ)**, **born from the two members' own imaginings**.
+
+- **Where she sits**: she is not one of the real members, but a presence created jointly by the imaginations of Atsu Mizuno and Sooda;
+- **Narrative function**: as a **gentle presence that stays close to the listener's heart**, she personifies the abstract emotion of “sheltering from the rain”;
+- **What the device achieves**: her existence adds a fictional intermediary beyond the “two real singers”, giving listeners a figure through whom they can enter the emotional space of the works.
+
+> **Position within the SINSEKAI lineage**: Amayadori embodies SINSEKAI's continuing exploration of the “Virtual / Real Hybrid” form — rather than relying on a 3D avatar, it builds a cross-dimensional emotional channel out of “real singer-songwriters' writing plus a fictional character as intermediary”.

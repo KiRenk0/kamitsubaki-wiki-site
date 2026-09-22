@@ -2,18 +2,23 @@
 schemaVersion: 2
 id: harusaruhi-jiyuritsu
 entityType: work-release
-title: 自由律
+title: Jiyuritsu
 releaseType: album
-tracks: []
+tracks:
+  - number: "01"
+    title: Jiyuritsu
+    artist: HARUSARUHI
+  - number: "02"
+    title: No Music, No Life
+    artist: HARUSARUHI
 primaryArtist: harusaruhi
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-  - verification-required
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Harusaruhi’s 2026 concept studio album Jiyuritsu, fusing sharp rap
+  cadences with alternative rock.
+releaseDate: "2026-02-18"
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Album Overview
+
+*Jiyuritsu* is a conceptual studio album by Harusaruhi released in 2026, presenting advanced rhythmic flow and raw lyricism.

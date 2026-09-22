@@ -4,13 +4,11 @@ id: q-city
 entityType: lore-concept
 name: Q市
 loreCategory: geography
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: 『神椿市建設中。』の舞台となる、現実の渋谷に酷似しながらも因果が乱れた架空都市のコードネーム。
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## 概要
+
+現実の東京・渋谷の街並みと重なり合いながら、独自の量子空間と特異点を内包する謎の実験都市です。

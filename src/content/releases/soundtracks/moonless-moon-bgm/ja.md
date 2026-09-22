@@ -2,17 +2,19 @@
 schemaVersion: 2
 id: moonless-moon-bgm
 entityType: work-release
-title: ムーンレスムーン BGM
+title: Moonless Moon Original Soundtrack
 releaseType: soundtrack
-tracks: []
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-  - verification-required
-seo:
-  noindex: true
+tracks:
+  - number: "01"
+    title: Moonless Moon Theme
+  - number: "02"
+    title: Desert of Desolation
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: テキストアドベンチャーゲーム『Moonless Moon』の公式オリジナルサウンドトラック。
+releaseDate: "2024-08-08"
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## サウンドトラック紹介
+
+ゲーム『Moonless Moon』の静謐で美しいアンビエントBGMを全曲収録。

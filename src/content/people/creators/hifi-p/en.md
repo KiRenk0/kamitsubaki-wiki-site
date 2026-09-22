@@ -42,3 +42,26 @@ Illustrations by Ritsao (りたお).
 
 - [Twitter](https://twitter.com/HiFiP3)
 - [YouTube](https://www.youtube.com/channel/UCi9gXaRxOf2-EsVW5Zc3paQ)
+
+
+<!-- V3 RESEARCH SUPPLEMENT hifi-p -->
+
+## Creative Position and Affiliation
+
+**Hi-Fi P** is a music producer in the **CREATOR FARM** system under [SINSEKAI RECORD](/en/database/studios/sinsekai-record), primarily responsible for arrangement and music production.
+
+| Dimension | Content |
+| :--- | :--- |
+| **Role** | Music producer / arranger |
+| **Affiliation** | [SINSEKAI RECORD](/en/database/studios/sinsekai-record) CREATOR FARM |
+| **Projects** | Songwriting and arrangement for KAMITSUBAKI spin-off projects such as Girls Revolution Project |
+
+> **The meaning of CREATOR FARM**: unlike the label system through which KAMITSUBAKI signs artists directly, CREATOR FARM is a collective for **behind-the-scenes creators** — it brings creators working in composition, arrangement and lyric writing under unified label management, allowing KAMITSUBAKI to maintain a stable pool of production resources while preserving the independence of its artists.
+
+## Major Songwriting Credits and Collaborations
+
+- **《well》 / [Garasumiya](/en/database/artists/groups/sinseiki/members/garasumiya)** (2024-10-09): lyrics by Saijitsu Haneda, with Hi-Fi P handling composition and arrangement;
+- **The Girls Revolution Project system**: as one of the project's key arrangement resources, he has taken part in track production for several of its members;
+- **CREATOR FARM collaboration**: together with creators in the same system such as [tokiwa](/en/database/creators/tokiwa) and [Hitogoto](/en/database/creators/hitogoto), he underpins SINSEKAI's production capacity.
+
+> **Observation**: Hi-Fi P's public output is not large, but in a high-density project like Girls Revolution Project — “six members debuting at once, with songs supplied every week” — CREATOR FARM's arrangers are indispensable infrastructure: their way of working is closer to that of a “professional production team” than to that of an “individual P.”

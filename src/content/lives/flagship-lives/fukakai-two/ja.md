@@ -2,16 +2,18 @@
 schemaVersion: 2
 id: fukakai-two
 entityType: live-event
-name: 不可解弐
+name: 花譜 2nd ONE-MAN LIVE「不可解弐」
 eventType: oneman-live
-headliners: []
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+headliners:
+  - kaf
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: Q1・Q2・REBUILDINGからなる不可解第二幕。音楽的同位体「可不」の発表とV.W.P結成。
+dateRange:
+  start: "2020-10-10"
+  end: "2021-06-12"
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## 概要
+
+Q1での可不発表、Q2でのV.W.P結成発表、そして豊洲PITでのREBUILDING 3公演と、神椿の拡大期を象徴するシリーズ公演。

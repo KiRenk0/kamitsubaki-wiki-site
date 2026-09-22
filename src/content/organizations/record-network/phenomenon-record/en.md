@@ -4,13 +4,12 @@ id: phenomenon-record
 entityType: organization
 name: PHENOMENON RECORD
 orgType: record-label
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Flagship virtual artist music label of KAMITSUBAKI STUDIO, home to
+  V.W.P, KAF, KAIKA, and CIEL.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Overview
+
+**PHENOMENON RECORD** is the flagship label of KAMITSUBAKI STUDIO, responsible for all primary musical releases by the Five Witches of V.W.P, KAIKA, and CIEL.

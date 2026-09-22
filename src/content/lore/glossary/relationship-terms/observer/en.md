@@ -2,15 +2,14 @@
 schemaVersion: 2
 id: observer
 entityType: lore-concept
-name: 观测者
+name: Observer
 loreCategory: glossary-term
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: The official canonical title for KAMITSUBAKI’s audience whose active
+  attention collapses digital potentials into reality.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Definition
+
+Rooted in the observer effect: unobserved digital signals hold no reality. By listening and feeling, the audience actively manifests the performers into existence.

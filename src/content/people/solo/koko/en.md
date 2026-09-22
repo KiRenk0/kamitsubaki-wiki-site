@@ -206,3 +206,89 @@ KOKO is tied to V.W.P, to the musical isotope COKO, and to Kamitsubaki City rela
 - [X (Twitter)](https://twitter.com/KOKO__virtual)
 - [TikTok](https://www.tiktok.com/@koko_virtual)
 - [piapro](https://piapro.jp/virtual_koko)
+
+
+<!-- V3 RESEARCH SUPPLEMENT koko -->
+
+## Visual Design Archive
+
+KOKO's design is by **SWAV** and is the most tactical, integrated look in V.W.P.
+
+| Part | Detail |
+| :--- | :--- |
+| Hair | Waist-length two-tone hair, grey/black at the top and purple/blue at the tips, with a metallic sheen |
+| Eyes and face | Purple eyes, **two tear moles at the outer corner of the right eye** |
+| Accessories | Round metal earrings; a choker with a round metal ornament at its centre |
+| Upper | Black cropped jacket over a grey-black midriff top, leather vest, purple/white tie |
+| Lower | Grey-black fitted shorts with tactical straps at the waist and groin and utility pouches at the hips |
+| Socks and shoes | Glossy black leather-look tights, open on the inner side and at the right boot's knee; high-top sneakers |
+| Other | A glove on the left hand |
+
+**Design evolution**
+
+- **13 March 2021**: her 3D model and the "{{ruby::花魁鳥::おいらどり::oiradori}}" attire were shown for the first time at KAF's "Fukakai Two Q2", the dress originally designed by [PALOW.](/en/artists/creators/palow).
+- **29 December 2021**: at her 1st ONE-MAN LIVE "PLAYER" she unveiled the SWAV-designed **"Type-real Alnair"**, with hair in a high ponytail, the outfit reworked into a jacket and skirt, and new sneakers.
+
+## Voice Acting Roles
+
+| Year | Work | Role | Type |
+| :--- | :--- | :--- | :--- |
+| 2025 | *[KAMITSUBAKI CITY UNDER CONSTRUCTION](/en/projects/arg/kamitsubaki-city)* | **Rinne Koko** | TV anime |
+| 2025 | *[KAMITSUBAKI CITY REGENERATE](/en/database/projects/kamitsubaki-city-regenerate)* | **Rinne Koko** | Game |
+
+> **Rinne Koko** is KOKO's corresponding character within the *KAMITSUBAKI CITY* setting.
+
+## Commercial Tie-ups and Theme Songs
+
+| Track | Tie-up | Period |
+| :--- | :--- | :--- |
+| "ASH" | Insert song for the school RPG *Monark* | 2021 |
+| "TIME" | Opening theme for the TV anime *The 500 Million Year Button* | 2022 |
+| "Watashi wo Matou" | Opening theme for the game *Seifuku Kanojo* | 2023 |
+
+> KOKO's songs are frequently licensed for games and anime; her piercing rock vocal sits especially well with contexts of struggle and defiance.
+
+## Live Performance Archive
+
+- **KOKO STREAMING COVER LIVE "Arare / ARARE" series**: cover-focused online streaming shows, followed by "Arare Live 2 / ARARE2" — her most continuous outlet outside solo concerts.
+- **KOKO 1st ONE-MAN LIVE "PLAYER"** (29 December 2021): premiered the SWAV-designed "Type-real Alnair". {{spoiler::Just before the show she performed her original "harmony" on piano.}}
+- **KOKO 2nd ONE-MAN LIVE "PLAYERII -Kamitsubaki City Yonban-gai-"**: directly links her solo concert to the district-naming system of *KAMITSUBAKI CITY*.
+- **SINGULARITY LIVE vol.2**: a two-man live with [HARUSARUHI](/en/artists/vwp/harusaruhi), pitting two utterly different vocal approaches — piercing rock against dense rap — against each other.
+
+## Anecdotes and Community Culture
+
+- **Upload format**: her covers are numbered "No.xxx" and the description always reads "歌ってみました。No.xxx TO BE CONTINUE."
+- **The glasses trait**: she owns four pairs of prescription glasses (red frames, blue frames, round frames, and a black pair that slips off whenever she lowers her head). When she does not need them or is not wearing contacts she hangs them from her collar and walks around with blurred vision, {{spoiler::and then loses them.}}
+- **The talker**: she tweets extremely often and at great length, sharing daily incidents and whims — {{spoiler::her chattiness is reputed to be the greatest in KAMITSUBAKI.}}
+- **Shy introvert**: in early KAMITSUBAKI streams she would often stay silent when appearing with others, a stark contrast to her online persona, and she trips over her words very easily. {{spoiler::The shyness improved later, but the verbal stumbles persist.}}
+- **The artist**: her drawing ability is "very strong" in the abstract sense. Her cat drawing "**Nekoko**" (a pun on *neko*) is one of the most beloved images in KAMITSUBAKI, and its merchandise sold out fastest at the studio's exhibitions; she later drew Nekoko in many situations, even using it as a members-only wallpaper. {{spoiler::On the eve of the "Phenomenon" live she drew a different Nekoko for each of the other four V.W.P members and produced an alternative "Witch Assembly · Phenomenon" promo image titled "Gen Warai · Nekoko Assembly".}}
+- **Scatterbrained**: reminded at a recording session that she still had her mask on; left her headphones in the fridge; drove out to buy discounted groceries and, in her excitement, left the car at the supermarket.
+- **Offbeat streak**: she occasionally posts entirely unexplained musings on Twitter.
+- **Stage contrast**: despite the shyness she has superb stage presence and her solo YouTube streams work well too — and she is a workhorse of streaming hours. Cute and cool at once, she switches modes between everyday and singing.
+- **Outlook on life**: easygoing, gentle, and appreciative of ordinary life. The dream she wrote down as a child was to "**live ordinarily and happily**."
+- **Anime fan**: her cover selections are almost all anime songs and Vocaloid tracks.
+- **Gamer**: fond of shooters, has played PUBG and tried APEX, and plays Mahjong Soul. {{spoiler::She once went on a rampage in the first V.G.P event (Splatoon) and idled for a long stretch over *Legends: Arceus*. She opens her mouth to cool down while gaming.}}
+- **Singing habit**: she keeps time with her right foot while singing; because the tapping got into a recording she took her shoes off to record. {{spoiler::You can see the right leg bouncing during lives too.}}
+- **Meme royalty**: her YouTube streams yield a huge volume of reaction faces and GIFs.
+- **Overseas experience**: she once studied abroad, which is why her English pronunciation is good.
+- **Would-be chef**: {{spoiler::her first attempt at baking bread burned it and she sent the photo to Haru-chan; the second attempt finally produced something edible.}}
+- **Piano**: she can play, {{spoiler::and performed her original "harmony" on piano just before "PLAYER".}}
+- **A fan who made it**: before joining V.W.P she was herself an observer.
+- **The other path**: {{spoiler::had she not become KOKO of V.W.P, she would have become a drum instructor at a music school — she was once the drummer in an indie band.}}
+- **Character**: persevering, earnest, awkwardly pure and unstoppable, while quietly looking out for others in her own way. {{spoiler::Yet precisely this gentle inflexibility has cost her dearly, and she has been hurt by people she trusted.}}
+
+## Interactions with V.W.P Members
+
+Since her debut KOKO has continually posted photos of her interactions with other KAMITSUBAKI members on Twitter, earning her the fan nickname "the studio's number-one harem king". The following are documented milestones.
+
+| Date | Interaction |
+| :--- | :--- |
+| 2020-11-07 | Posted a group photo with the other four members |
+| 2020-11-11 | Posted a photo with [RIM](/en/artists/vwp/rim) on Pocky Day |
+| 2020-11-24 | Posted a photo shopping in Shibuya with [HARUSARUHI](/en/artists/vwp/harusaruhi) |
+| 2020-12-01 | Posted a winter-outfit photo with [ISEKAIJOUCHO](/en/artists/vwp/isekaijoucho) |
+| 2020-12-08 | Posted a short video of a "date in the snow (?)" with [KAF](/en/artists/vwp/kaf) |
+| 2021-01-07 | Posted a photo of meeting up with HARUSARUHI |
+| 2021-02-09 | Posted a photo choosing chocolates together with RIM |
+
+> These records are important grassroots material for understanding the web of relationships behind V.W.P's "witch assemblies", and they testify to how much the five actually interacted around the time the group was formally formed.

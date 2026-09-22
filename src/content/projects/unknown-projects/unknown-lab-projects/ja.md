@@ -2,14 +2,13 @@
 schemaVersion: 2
 id: unknown-lab-projects
 entityType: project
-name: UNKNOWN LAB Projects
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+name: UNKNOWN LAB プロジェクト群
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: 先端技術や実験的メディアアート、新規IPプロトタイプを研究開発するラボプロジェクト。
+status: active
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## 概要
+
+**UNKNOWN LAB**は、THINKRおよび神椿傘下で未公開の先端テクノロジーや先鋭的なメディアアートのプロトタイプを開発する研究部門です。

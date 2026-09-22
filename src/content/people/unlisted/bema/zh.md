@@ -84,3 +84,26 @@ summary: "以澄澈歌声描绘阴影世界，与电子音色交融的虚拟歌�
 - [YouTube 主频道](https://www.youtube.com/@virtual_BEMA)
 - [YouTube 附属频道](https://youtube.com/@BEMA_sub)
 - [X (Twitter)](https://x.com/BEMA_virtual)
+
+
+<!-- V3 RESEARCH SUPPLEMENT bema -->
+
+## 企划定位与角色设计
+
+**琶舞（BEMA）** 是 [SINSEKAI RECORD](/zh/database/studios/sinsekai-record) 体系中的新晋虚拟歌手，于 **2025 年 4 月 30 日**正式出道。
+
+| 维度 | 内容 |
+| :--- | :--- |
+| **出道时间** | 2025 年 4 月 30 日（上传首个视频《琶舞 Op.1 - はじめまして。》） |
+| **角色设计** | **米山舞**（与明透同一画师） |
+| **视觉主题** | 十字架与黑百合 |
+| **声音取向** | 以清澈的嗓音描绘黑暗世界 |
+
+> **镜像设定**：如果说明透象征着「光明」，琶舞则被明确定位为「**黑暗**」的化身——两人的人设同出米山舞之手，构成一组刻意对置的视觉与叙事镜像。
+
+## 与明透的新组合
+
+- **2025 年 5 月 5 日**：官方正式公告，明透与琶舞将组成以「**爱**」为主题的新组合进行活动；
+- **2025 年 5 月 7 日**：两人的原创曲 MV《[Symbiotic Dominion](/zh/songs/bema/originals/symbiotic-dominion)》公开。
+
+> **在深脊界谱系中的位置**：琶舞 的登场时间点紧接 [Albemuth](/zh/database/artists/groups/albemuth) 的解散与归档，构成了深脊界「旧组合归档 → 新组合开启」的代际接力；其「黑暗」定位也与明透的「光明」形成情感互补，延续了深脊界以「双人对照」为核心的组合设计传统。

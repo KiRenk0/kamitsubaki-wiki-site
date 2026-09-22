@@ -2,16 +2,22 @@
 schemaVersion: 2
 id: sinka-live
 entityType: live-event
-name: SINKA LIVE
+name: SINKA LIVE Series
 eventType: xr-sinka-live
-headliners: []
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+headliners:
+  - kaf
+  - rim
+  - harusaruhi
+  - isekaijoucho
+  - koko
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Groundbreaking immersive XR live concert series shattering physical
+  stage limitations through realtime spatial rendering.
+dateRange:
+  start: "2023-01-14"
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Overview
+
+KAMITSUBAKI’s proprietary XR virtual concert brand blending realtime physics, spatial deformation, and worldline lore.

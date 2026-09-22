@@ -113,3 +113,41 @@ Ren 的制作风格占据着 Vocaloid 领域中更为黑暗的一隅，以冰冷
 
 - [YouTube](https://www.youtube.com/channel/UCqETmB5g96_4uPgHozWm_4Q)
 - [Twitter](https://twitter.com/ren_suimin)
+
+
+<!-- V3 RESEARCH SUPPLEMENT ren -->
+
+## 创作定位与供曲网络
+
+**廉（Ren）** 是 [ANARCHIC RECORD](/zh/database/studios/anarchic-record) 旗下的创作歌手与词曲制作人，自 2020 年起展开活动。
+
+| 维度 | 内容 |
+| :--- | :--- |
+| **身份** | 创作歌手 / 词曲制作人 / VOCALOID P |
+| **所属** | [ANARCHIC RECORD](/zh/database/studios/anarchic-record) |
+| **出道** | 2020 年 3 月 19 日初投稿《レーヴの落日》 |
+| **曲绘合作** | 目前的曲绘皆由 **ヒトこもる** 负责 |
+| **投稿规模** | 共投稿 22 首作品，其中 1 首达成殿堂曲 |
+
+**对外供曲网络**
+
+| 对象 | 曲目 | 职能 |
+| :--- | :--- | :--- |
+| [VALIS](/zh/database/artists/groups/valis) 的 NEFFY | 《猫好的トリックスター》 | 供曲 |
+| [ヰ世界情绪](/zh/database/artists/solo/isekaijoucho) | 《パンドラコール》 | 供曲 |
+| [御莉姬](/zh/database/artists/groups/sinseiki/members/orihime) | 《Masquerade Kill》 | 作词作曲 |
+| [V.W.P](/zh/database/artists/groups/vwp) | 《切札》（扩声曲 #15） | 作词（与 MILKEY 共同作曲，朝比奈健人编曲） |
+| 理芽 × ヰ世界情绪 | 《泡沫》（派生曲） | 作词作曲编曲 |
+
+> **在神椿创作群中的位置**：廉 的作品横跨「个人 VOCALOID 投稿」「神椿艺人供曲」「V.W.P 五人合唱曲」「魔女双人派生曲」四个层级——这种跨度在神椿创作者中并不常见，说明其创作能够在独唱、对唱与群唱三类声场之间自由迁移。
+
+## 代表投稿作品与同位体起用
+
+| 投稿日期 | 曲目 | 演唱 | 说明 |
+| :--- | :--- | :--- | :--- |
+| 2020-03-19 | 《レーヴの落日》 | — | 初投稿作品 |
+| 2022-03-13 | 《幸福排除システム》 | 初音未来 | 廉 自作词曲，ヒトこもる 绘图 |
+| 2022-05-20 | 《ドールジアビス》 | [星界（SEKAI）](/zh/database/isotopes/sekai) | **首个使用星界的作品** |
+| 2022-10-21 | 《完結型マイルーム》 | 初音未来 | 廉 自作词曲 |
+
+> **与音乐同位体的关系**：廉 早在 2022 年 5 月便以《ドールジアビス》成为**最早起用星界声库的创作者之一**，属于神椿「[同位体共创网络](/zh/database/isotopes/sekai)」中的早期参与者；其个人投稿与为神椿艺人供曲的双轨活动，也使他成为连接 VOCALOID 圈层与神椿厂牌体系的典型节点。

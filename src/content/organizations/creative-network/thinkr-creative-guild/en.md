@@ -2,15 +2,14 @@
 schemaVersion: 2
 id: thinkr-creative-guild
 entityType: organization
-name: THINKR CREATIVE GUILD
+name: KAMITSUBAKI CREATION
 orgType: creative-network
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Creative guild representing character designers, visual directors, and
+  world architects like PALOW. and Kawasaki.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Overview
+
+**KAMITSUBAKI CREATION** is the artist and director management wing of THINKR, overseeing character designs by PALOW., music videos by Kenji Kawasaki, and storytelling by Souki Tsukishima.

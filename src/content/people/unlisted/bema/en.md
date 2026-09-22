@@ -84,3 +84,26 @@ Official descriptions note that she depicts shadowed musical worlds with a cryst
 - [YouTube Main Channel](https://www.youtube.com/@virtual_BEMA)
 - [YouTube Sub Channel](https://youtube.com/@BEMA_sub)
 - [X (Twitter)](https://x.com/BEMA_virtual)
+
+
+<!-- V3 RESEARCH SUPPLEMENT bema -->
+
+## Project Position and Character Design
+
+**BEMA** is a newly arrived virtual singer in the [SINSEKAI RECORD](/en/database/studios/sinsekai-record) system, who formally debuted on **30 April 2025**.
+
+| Dimension | Content |
+| :--- | :--- |
+| **Debut** | 30 April 2025 (uploading the first video 《琶舞 Op.1 - はじめまして。》) |
+| **Character design** | **Yoneyama Mai** (the same illustrator as ASU) |
+| **Visual theme** | Crosses and black lilies |
+| **Vocal approach** | Depicting a dark world with a clear, limpid voice |
+
+> **Mirror-concept setting**: if ASU symbolises “light,” BEMA is explicitly positioned as the embodiment of “**darkness**” — both designs come from the same hand, Yoneyama Mai, forming a deliberately opposed visual and narrative mirror pair.
+
+## The New Unit with ASU
+
+- **5 May 2025**: an official announcement stated that ASU and BEMA would form a new unit themed on “**love**.”
+- **7 May 2025**: the MV for the two’s original song 《[Symbiotic Dominion](/en/songs/bema/originals/symbiotic-dominion)》 was released.
+
+> **Her place in the SINSEKAI lineage**: BEMA’s arrival follows immediately on the disbanding and archiving of [Albemuth](/en/database/artists/groups/albemuth), forming SINSEKAI’s generational relay of “old unit archived → new unit launched”; her “darkness” positioning also complements ASU’s “light” emotionally, carrying on SINSEKAI’s tradition of unit design centred on “the pairing of opposites.”

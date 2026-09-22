@@ -118,3 +118,30 @@ Kaika's origin is directly tied to KAF's artistic narrative — she emerged from
 - [X (Twitter)](https://x.com/qurux2_flower)
 - [YouTube](https://www.youtube.com/@curling_flower_)
 - [TikTok](https://www.tiktok.com/@virtual_kaika)
+
+
+<!-- V3 RESEARCH SUPPLEMENT kaika -->
+
+## Project Position and Creative Authorship
+
+**[KAIKA](/en/database/artists/solo/kaika)** is the real-world singer-songwriter parallel identity that [KAF](/en/database/artists/solo/kaf) unveiled at the “怪歌” concert held at Yoyogi National Gymnasium No. 1 on 14 January 2024.
+
+| Dimension | Content |
+| :--- | :--- |
+| **Form of existence** | A singer-songwriter with a genuine sketched texture, not a 3D virtual avatar |
+| **Creative mode** | **Lyrics and music 100% written by herself**, centred on acoustic-guitar self-accompaniment and acoustic arrangements |
+| **Narrative core** | Directly confronting the loneliness and confusion of a twenty-year-old’s life and the question of where life comes from |
+| **Stage character** | Minimal lighting, unplugged instrumentation, unadorned emotional breath |
+
+> **Significance of the project**: KAIKA is not “KAF under a smaller name” but a seizure of artistic subjectivity — when the character must lead observers through a grand tale, she is KAF; when she must confide the tiny, unspeakable truths within, she is KAIKA. This “[dual-wielder](/en/database/lore/dual-wielder)” paradigm breaks the “fate of the torn inner self” that has long plagued the virtual-artist industry.
+
+## Debut Album 《うまれるまえからきみをしってる》
+
+- **Release date**: 26 March 2025.
+- **Production team**: created together with the top-tier Japanese music production company **agehasprings**.
+- **Track list**: a full-length album including 《かいか》, 《白昼夢》, 《テディベア》, 《エデン》 and other works.
+- **Musical style**: a return to folk, indie rock and acoustic unplugged, recording the pangs of youth with the most genuine everyday voice.
+
+> **First single**: on 24 April 2024, KAIKA released her first single 《かいか》 and a live-footage MV, formally beginning musical activity under her own name.
+
+> **Closing observation**: from the solo acoustic-guitar performance at the Yoyogi show to completing a whole album of her own writing together with agehasprings, KAIKA’s two-year trajectory fully demonstrates how “an actor no longer given lines” becomes a true author.

@@ -2,15 +2,16 @@
 schemaVersion: 2
 id: cross-source-comparison
 entityType: editorial-article
-title: 神椿多源数据矩阵比对报告
+title: Comprehensive Cross-Source Comparative Analysis of KAMITSUBAKI Databases
 articleCategory: archival
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Comparative assessment of community archives versus official Fanwiki
+  exports, establishing integration methodologies.
+author: KAMITSUBAKI Archival Committee
+publishDate: "2024-09-10"
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Overview
+
+A systematic evaluation of the Chinese community encyclopedias and official multilingual Fanwiki packages, demonstrating how official metadata was synthesized with rich fan documentation.

@@ -129,3 +129,28 @@ tokiwa 作为横跨音乐与视觉艺术的多面手创作者，拥有独特的�
 
 - [Twitter](https://twitter.com/tokiwa_shion)
 - [YouTube](https://youtube.com/@tokiwa_shion)
+
+
+<!-- V3 RESEARCH SUPPLEMENT tokiwa -->
+
+## 创作定位与所属体系
+
+**tokiwa** 是 [SINSEKAI RECORD](/zh/database/studios/sinsekai-record) 旗下 **CREATOR FARM** 体系的音乐制作人与编曲家。
+
+| 维度 | 内容 |
+| :--- | :--- |
+| **职能** | 音乐制作人 / 编曲 |
+| **所属** | [SINSEKAI RECORD](/zh/database/studios/sinsekai-record) CREATOR FARM |
+| **活动特征** | 兼具词曲创作与编曲能力，作品横跨神椿多个企划 |
+
+> **体系定位**：tokiwa 与 [Hi-Fi P](/zh/database/creators/hifi-p)、[他人事](/zh/database/creators/hitogoto) 同属 CREATOR FARM——这一体系的存在，使深脊界在「艺人数量少、企划密度高」的运营模式下仍能维持稳定的作品产出。
+
+## 主要作品与协作
+
+| 作品 | 关联对象 | 职能 |
+| :--- | :--- | :--- |
+| 《Envy》 | [罪十罰](/zh/database/artists/groups/tsumitobatsu) | 作词作曲（编曲：朝比奈健人） |
+| 梓川《Shifter》收录曲 | [梓川](/zh/database/artists/solo/azsagawa) | 参与专辑创作阵 |
+| 《NEW ROMANCER》等专辑相关曲目 | [理芽](/zh/database/artists/solo/rim) | 编曲 / 制作协作 |
+
+> **协作特征**：tokiwa 的作品常与其他编曲者（如朝比奈健人）分工协作，这种「词曲作者 + 外部编曲」的组合模式在神椿旗下的重型曲目中反复出现，也让 tokiwa 的创作能够适配从都市流行到硬核摇滚的多种声场。

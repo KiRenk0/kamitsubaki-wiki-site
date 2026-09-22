@@ -4,13 +4,11 @@ id: witch
 entityType: lore-concept
 name: 魔女
 loreCategory: glossary-term
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: 電子頭脳と生身の心拍を併せ持ち、歌声によって世界の物理法則を再構築するバーチャルシンガーの総称。
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## 概念定義
+
+『神椿市建設中。』およびKAMITSUBAKI STUDIOにおける**魔女**（Virtual Witch）とは、歌声によって量子共鳴を引き起こし、世界の因果律を書き換える特異点的存在です。普遍体、戦闘形態、そして怪歌（廻花）形態への変容を遂げます。

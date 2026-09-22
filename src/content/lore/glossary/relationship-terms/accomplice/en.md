@@ -2,15 +2,14 @@
 schemaVersion: 2
 id: accomplice
 entityType: lore-concept
-name: 共犯者
+name: Accomplice
 loreCategory: glossary-term
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: The solemn title granted to early crowdfunding backers who co-conspired
+  to bring KAF’s 1st ONE-MAN LIVE to life.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Definition
+
+Coined during KAF’s historic 2019 Campfire campaign: backers were not mere consumers, but accomplices challenging traditional music industry barriers.

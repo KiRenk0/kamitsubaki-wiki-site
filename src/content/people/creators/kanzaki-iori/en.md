@@ -84,3 +84,47 @@ His role was broader than supplying isolated tracks: lyrics, music, live themes,
 
 - [KAF](/en/artists/vwp/kaf)
 - [V.W.P](/en/artists/vwp/vwp)
+
+
+<!-- V3 RESEARCH SUPPLEMENT kanzaki-iori -->
+
+## Artistic Position and Creative Lineage
+
+**Kanzaki Iori** (Kurogaki / クロガキ) is KAMITSUBAKI's **founding auteur** — a composer, but also a novelist and a singer-songwriter. His creative lineage can be summed up as “**driving piano rock ＋ the literary narration of a young person's existential pain**”.
+
+| Dimension | Characteristics |
+| :--- | :--- |
+| **Instrumental foundation** | Piano-driven, high-density rock arrangements; the chorus often builds an emotional cliff through sudden acceleration and stacked harmonies |
+| **Narrative motifs** | The pain of living, the feeling of being loathed by the world, adolescent self-denial and rebellion |
+| **Textual identity** | Simultaneously an author: lyrics and novels share a single narrative vocabulary, and the works rewrite one another |
+| **Boundaries of activity** | Composer / VOCALOID producer / self-accompanied singer / novelist — four identities running in parallel |
+
+> **Aliases and origins**: Common aliases include **Kurogaki / クロガキ / 黒柿子** and かんざきいおり; his real name is given as 神崎伊織 (Kanzaki Iori), and he comes from **Iwate Prefecture**, Japan.
+
+## The Symbiotic Relationship with KAF and the Founding of KAMITSUBAKI
+
+The collaboration between Kanzaki Iori and [KAF](/en/database/artists/solo/kaf) is the model case of KAMITSUBAKI's “artist symbiosis system”:
+
+- **From October 2018**: he handled the lyrics, music and arrangement of **every original song** by the virtual singer KAF — from 《[糸](/en/songs/kaf/originals/shi)》 and 《[心臓と絡繰](/en/songs/kaf/originals/shinzou-to-karakuri)》 through 《[過去を喰らう](/en/songs/kaf/originals/kako-wo-kurau)》, 《[不可解](/en/songs/kaf/originals/不可解-inexplicable)》 and 《[魔女](/en/songs/kaf/originals/majo)》, constructing the complete aesthetic skeleton of KAF's early period;
+- **October 2019**: he took part in founding [KAMITSUBAKI STUDIO](/en/database/studios/thinkr) as one of its charter members;
+- **V.W.P lineage songs**: he led the lyrics and music for almost all of the five-member choral pieces 《魔女(真)》《電脳》《輪廻》《言霊》《共鳴》《定命》《玩具》《祭壇》《秘密》, giving V.W.P's choral narrative a highly unified worldview;
+- **March 4, 2023**: at KAF's “不可解参（想）” live performance he announced his **graduation from KAMITSUBAKI STUDIO**; since then he has worked as an independent creator while continuing to supply songs to KAMITSUBAKI as a special collaborator.
+
+> **The meaning of the “symbiosis system”**: the producer does not merely supply singles — he also leads the conception of the chapter narrative for the artist's solo concerts (the “不可解” series). This model made KAF's music and live performances share a single narrative logic, and made the “composer” one of the actual authors of the worldview.
+
+## Index of Major Works and the Evolution of His Identity
+
+**VOCALOID / self-sung works**
+
+| Date | Event |
+| :--- | :--- |
+| 2014-01 | Posted 《反抗期》 as a VOCALOID producer — his first upload |
+| 2017-08-06 | Released 《命に嫌われている。》 — by 2021 it had around **16 million** views, becoming his best-known signature work |
+| 2018-08-18 | Released 《あの夏が飽和する。》 |
+| 2019-04 | Released his 1st album 《白紙》, containing reconstructed versions of several popular songs |
+| 2020-02 | Released a special set pairing the novel 《獣》 with the EP 《人生はコメディ》 |
+| 2020-09 | The novel 《あの夏が飽和する。》, heavily adapted from 《獣》, was published nationwide by Kawade Shobo |
+| 2021-06 | Announced the new self-cover 《不器用な男》 and decided to hold his first solo concert |
+| 2023-03-04 | Graduated from KAMITSUBAKI STUDIO and moved to independent activity |
+
+> **Cross-media character**: Kanzaki Iori's works circulate between “song — novel — re-adapted song”. 《あの夏が飽和する。》 began as a song, later became a novel, and was then substantially adapted and published — the original specimen for understanding KAMITSUBAKI's “music × story” methodology.

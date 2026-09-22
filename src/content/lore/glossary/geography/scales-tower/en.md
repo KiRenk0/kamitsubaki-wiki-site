@@ -2,15 +2,14 @@
 schemaVersion: 2
 id: scales-tower
 entityType: lore-concept
-name: 天秤之塔
+name: Scales Tower
 loreCategory: geography
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: A colossal monolith standing at the center of Kamitsubaki City that
+  balances virtual and physical energy flows.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Overview
+
+The central monument anchoring Kamitsubaki City’s dimensional stability, housing the city’s deepest computational core.

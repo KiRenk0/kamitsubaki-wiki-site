@@ -2,15 +2,14 @@
 schemaVersion: 2
 id: collapse
 entityType: lore-concept
-name: 崩落
+name: Collapse
 loreCategory: glossary-term
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: The existential crisis threatening Kamitsubaki City, involving
+  catastrophic spatial fractures and memory deletion.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Definition
+
+The entropic breakdown of both physical architecture and recorded history within the enclosed simulation of Kamitsubaki City.

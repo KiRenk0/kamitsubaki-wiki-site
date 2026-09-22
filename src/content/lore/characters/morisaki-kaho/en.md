@@ -2,15 +2,14 @@
 schemaVersion: 2
 id: morisaki-kaho
 entityType: lore-concept
-name: 森先化歩
+name: Morisaki Kaho
 loreCategory: fictional-resident
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Protagonist of Kamitsubaki City corresponding to KAF, harboring the
+  foundational magic of song.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Character Profile
+
+Corresponding to KAF. A quiet high school girl whose inner melodies hold the key to averting Kamitsubaki City’s destruction. Voiced by KAF in the TV anime.

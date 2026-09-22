@@ -1,16 +1,81 @@
 ---
 schemaVersion: 2
-id: conflict-resolutions
-entityType: editorial-article
-title: 全域实体命名与历史冲突消解表
-articleCategory: archival
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
-locale: zh
-summary: 条目待补全。
+id: "conflict-resolutions"
+entityType: "editorial-article"
+title: "全域实体命名与历史冲突消解表"
+articleCategory: "archival"
+author: "KAMITSUBAKI 资料整理委员会"
+publishDate: "2024-09-01"
+relatedEntities:
+  - "kaf"
+  - "rim"
+  - "harusaruhi"
+  - "isekaijoucho"
+  - "koko"
+  - "vwp"
+  - "kaika"
+contentStatus: published
+locale: "zh"
+summary: "系统梳理并消解在整合萌娘百科、日文维基百科、官方 Fanwiki 及各期官方开示过程中发现的实体命名分歧、事实矛盾与组织演进历史争议。"
 ---
 
-此条目按分类详细图建立占位，内容将在资料核对后补全。
+## 概述与消解原则
+
+在系统性构建 KAMITSUBAKI Wiki 全景资料库的过程中，面对中文萌娘百科、日文维基百科（Wikipedia JP）、英文与日文官方 Fanwiki 以及历年官方动态中存在的海量异构数据，不可避免地遇到了诸如艺名翻译歧义、历史演出性质争议、组织重组归属混乱等事实冲突。
+
+为了维护本百科数据库的客观性、严肃性与最高学术权威，资料整理委员会制定了统一的冲突消解原则：
+1. **官方商标与企划源文件为最高基准**：一切以 KAMITSUBAKI STUDIO 与 THINKR 正式发布的日文商业注册名、官方艺人主页与原作者署名为第一准则；
+2. **多语言精准映射，杜绝汉字泛滥替换**：尊重日文专名原貌，严禁在无官方依据的情况下对生僻汉字、片假名进行无端简化或不当改写；
+3. **严谨记录历史演进过程**：对于因企业并购、重组整合而产生的组织归属变化，按照时间轴如实记录全貌，而非简单粗暴地判定某一方为“错误”。
+
+---
+
+## 核心实体多语言权威定名规范
+
+| 实体代号 (Slug) | 官方日文标准 (Canonical JP) | 官方英文标准 (Canonical EN) | 中文标准推荐名 (Canonical ZH) | 常见网络/同人分歧 (Aliases) | 权威裁定与事实依据 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **kaf** | 花譜 | KAF | **花譜** / **花谱** | 土JK、花谱太郎、かふ | 词条标题与正式文案统一为“花譜”。正文尊重日文原制汉字“譜”，以彰显其世界观艺术特异性。 |
+| **rim** | 理芽 | RIM | **理芽** | チョコ、りめ | 三语命名完全对齐一致。 |
+| **harusaruhi** | 春猿火 | HARUSARUHI | **春猿火** | 春ちゃん、はるさるひ | 三语命名完全对齐一致。 |
+| **isekaijoucho** | ヰ世界情緒 | ISEKAIJOUCHO | **ヰ世界情绪** | 异世界情绪、情绪、じょちょ | **权威裁定**：萌娘百科普遍使用简体汉字“异世界情绪”，但神椿全系官方企划、商标注册及官方推特严格使用片假名“{{ruby::ヰ::wi}}”。交付与收录标准统一定名为 `ヰ世界情绪（ヰ世界情緒）`，严禁矮化为普通“异”字。 |
+| **koko** | 幸祜 | KOKO | **幸祜** | ここ、さっちゃん | “祜”为生僻汉字（音 gù / koko），代表福祉与神佑之意。 |
+| **v-w-p** | V.W.P | V.W.P | **V.W.P** | 虚拟魔女现象、Virtual Witch Phenomenon | 全称为 Virtual Witch Phenomenon，通用官方简写为 V.W.P。 |
+| **kaika** | 廻花 | KAIKA | **廻花** | 回花 | 花譜真实系创作名义，严格采用官方汉字“廻”。 |
+| **rime** | 音楽的同位体 裏命 | Musical Isotope RIME | **裏命** | 里命 | **权威裁定**：中文社区曾有使用普通简体字“里命”，但官方日文严格采用“裏命”（取自表里相对之“裏”）。中文全站统一确立为“裏命”。 |
+| **kanzakiiori** | カンザキイオリ | Kanzaki Iori | **カンザキイオリ** | 神崎一织、神崎一织 | **权威裁定**：国内常音译为“神崎一织”，但创作者本人未公开对应汉字本名，官方所有作品署名均为全片假名。标准条目以 `カンザキイオリ（神崎一织）` 呈现。 |
+| **albemuth** | Albemuth | Albemuth | **Albemuth** | 存流 & 明透 | 存流（ARU）与明透（ASU）的双人组合；存流毕业退役后企划转入永久纪念归档。 |
+| **valis** | VALIS | VALIS | **VALIS（瓦利斯）** | ヴァリス | 深脊界所属 6 人虚拟舞台与高难度编舞组合。 |
+
+---
+
+## 厂牌组织架构演进与归属冲突裁定
+
+在历史材料中，关于“深脊界究竟是独立工作室还是神椿内部子厂牌”存在普遍混淆。本表裁定其真实的演进阶段：
+
+```text
+【阶段一：双核平行期 (2019.10 - 2023.06)】
+THINKR 旗下分别设立 KAMITSUBAKI STUDIO 与 SINSEKAI STUDIO（深脊界）。
+两者共享部分底层技术与视觉资源，但品牌与艺人签约各自独立运作（深脊界由 THINKR、万代南梦宫与 pulse 共同出资）。
+
+【阶段二：厂牌一体化与子厂牌矩阵确立 (2023.07 - 2024.05)】
+官方宣布重大组织重组，SINSEKAI STUDIO 全面并入 KAMITSUBAKI 体系，正式确立四大子厂牌（Label-in-Label）：
+- PHENOMENON RECORD: 虚拟歌手旗舰 (V.W.P、CIEL、te'resa、廻花)
+- SINSEKAI RECORD: 深脊界整合艺人 (VALIS、Albemuth、跳亚、雨宿り、Sooda)
+- ANARCHIC RECORD: 独立现实音乐人与 P 主 (香椎モイミ、廉、平田义久、Empty old City)
+- KAMITSUBAKI CREATION: 创作者经纪公会 (PALOW.、川サキ、月岛总记、Kazuhide Oka)
+
+【阶段三：全域独立与新星 IP 扩展 (2024.06 - 至今)】
+完成 50 亿日元 MBO 后，确立 PNDR 音乐分发平台与独立厂牌 PNDR RECORD，并联合深化（SHINKA inc.）设立跨次元企划 GIRLS REVOLUTION PROJECT（少女革命计划：心世纪、罪十罚）。
+```
+
+---
+
+## 重大历史演出与事实争议裁定
+
+| 历史事件 | 争议与出入点 | 最终裁定事实依据 |
+| :--- | :--- | :--- |
+| **不可解 (再)** | 举办形式争议（是否为线下演） | 原定于 2020 年 3 月 23 日在 Zepp DiverCity 举行，受新型冠状病毒疫情影响紧急调整为**无观众线上付费直播**，演出当日 `#花譜不可解再` 斩获日本 Twitter 趋势第一。 |
+| **不可解参(狂)** | 规模与历史地位判定 | 2022 年 8 月 24 日于**日本武道馆**举办，官方裁定为**虚拟歌手史上首位登上武道馆举办单人专场的里程碑突破**。 |
+| **怪歌 (KAIKA)** | 廻花登场具体节点与形式 | 2024 年 1 月 14 日代代木第一体育馆花譜 4th ONE-MAN LIVE「怪歌」中途，花譜以真实肉身质感抱木吉他登台，首次官宣并演唱首支单曲《かいか》。 |
+| **代代木决战二日划分** | 两日演出性质混淆 | 2024 年 1 月 13 日为 V.W.P 2nd ONE-MAN LIVE「現象II-魔女復活-」；1 月 14 日为花譜 4th ONE-MAN LIVE「怪歌」。两日为独立票务与完全不同主题的旗舰级演出。 |
+| **幕张魔女扩成狐子代演** | 演出人员变更原因 | 2024 年 11 月 2 日幕张「現象II（再）」，成员幸祜因颈椎身体健康遵医嘱休养缺席，官方首次启用同位体设定代演：音乐同位体「狐子（COKO）」登台共鸣合体。 |

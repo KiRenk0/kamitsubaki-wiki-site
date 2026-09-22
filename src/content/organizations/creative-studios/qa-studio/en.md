@@ -4,14 +4,12 @@ id: qa-studio
 entityType: organization
 name: QA STUDIO
 orgType: creative-studio
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-  - verification-required
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Commercial design studio focused on high-end branding, spatial visual
+  arts, and 3D installations.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Overview
+
+**QA STUDIO** (Quantum Arts) leads high-concept commercial advertising, luxury brand visual identity, and spatial 3D art installations.

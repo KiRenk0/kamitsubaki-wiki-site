@@ -11,13 +11,12 @@ lifecycle:
 relations:
   - type: member-of
     target: valis
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Lead dancer of VALIS, acclaimed for sensual choreography, rich
+  expressive vocals, and culinary flair.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Profile
+
+Member of VALIS. Cancer, 163 cm. Characterized by fluid, alluring dance performances and warm, mature vocals. Passionate about cooking and deeply fond of VITTE.

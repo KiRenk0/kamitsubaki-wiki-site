@@ -2,16 +2,17 @@
 schemaVersion: 2
 id: vwp-phenomenon
 entityType: live-event
-name: 現象
+name: V.W.P 1st ONE-MAN LIVE「現象」
 eventType: joint-live
-headliners: []
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+headliners:
+  - vwp
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: V.W.P初の有観客単独公演。豊洲PITにて魔女5人の合体共鳴を初披露。
+dateRange:
+  start: "2022-04-16"
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## 概要
+
+2022年4月16日、豊洲PITにて開催。PALOW.デザインの戦闘形態衣装を纏い、『魔女(真)』『電脳』など数々のアンセムを熱唱。

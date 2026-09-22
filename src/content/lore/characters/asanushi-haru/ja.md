@@ -4,13 +4,11 @@ id: asanushi-haru
 entityType: lore-concept
 name: 朝主派流
 loreCategory: fictional-resident
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: 『神椿市建设中。』の行動派ヒロイン。春猿火に対応する、情熱的で疾風の如き少女。
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## キャラクター設定
+
+春猿火に対応。情に厚く曲がったことが大嫌いな切り込み隊長。TVアニメ版では春猿火本人が担当。

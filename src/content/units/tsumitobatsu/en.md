@@ -75,3 +75,66 @@ The unit is known for aggressive dance tunes that carve the brand of sin with vo
 - [Girls Revolution Project official site](https://girlsrevolutionproject.jp/)
 - [Official X (Twitter)](https://x.com/girls_rev_pj)
 - [Official YouTube](https://www.youtube.com/@girls_rev_pj)
+
+
+<!-- V3 RESEARCH SUPPLEMENT tsumitobatsu -->
+
+## 1st Album "Kaihen -Tsumi-" Track Archive
+
+TSUMITOBATSU's first full album *Kaihen -Tsumi-* was released on **29 October 2025**. Its eleven tracks are the culmination of the "sin" side of the world-view.
+
+| # | Track | Production |
+| :--- | :--- | :--- |
+| 1 | Chouka | feat. Hitogoto |
+| 2 | Synapse | feat. Zexnum |
+| 3 | RAVEN | — |
+| 4 | SHOCK | feat. Umetora |
+| 5 | blindness | feat. ⌘Hainomi |
+| 6 | Aufheben | feat. Shiino Mirin |
+| 7 | Brrrrrreak It | feat. Hirata Yoshihisa |
+| 8 | Envy | feat. tokiwa |
+| 9 | DIGGER | feat. biz / ZERA |
+| 10 | SURVIVAL | feat. Yano Tatsuya |
+| 11 | Kaihen | feat. Tanaka / LLLL |
+
+> **Album structure**: a mirror to SINSEIKI's *Kaihen -Shin-*. The shared title track "Kaihen" closes the "heart" and "sin" themes on their respective discs. TSUMITOBATSU's production line-up (Hitogoto, Umetora, Shiino Mirin, Hirata Yoshihisa, tokiwa, biz and others) skews decisively toward aggressive rock and heavy electronics.
+
+## Production Line-up and Musical Style
+
+TSUMITOBATSU's songs come from creators known for heavyweight arrangement and rebellious storytelling.
+
+| Composer | Tracks |
+| :--- | :--- |
+| **Hitogoto** | "Chouka", "Taizai" and others — one of the duo's core writers |
+| **biz / ZERA** | "DIGGER" |
+| **Zexnum** | "Synapse" |
+| **Umetora** | "SHOCK" |
+| **⌘Hainomi** | "blindness" |
+| **Shiino Mirin** | "Aufheben" |
+| **[Hirata Yoshihisa](/en/database/creators/hiratayoshihisa)** | "Brrrrrreak It" |
+| **[tokiwa](/en/database/creators/tokiwa)** | "Envy" (words and music; arrangement by Asahina Kento) |
+| **Yano Tatsuya** | "SURVIVAL" |
+| **[Azsagawa](/en/database/artists/solo/azsagawa)** | "RAVEN" (words and music) |
+
+> **Stylistic position**: the studio describes TSUMITOBATSU as "aggressive dance music that brands the mark of sin with a voice ringing through the virtual world". Its sound world centres on heavyweight drums, walls of distortion and dense diction, contrasting sharply with the urban electronics of the *Shin* side.
+
+## Live and Collaboration Archive
+
+**Major performances**
+
+| Performance | Members |
+| :--- | :--- |
+| KAMITSUBAKI WARS 2024 Makuhari Front, "Phenomenon II (Again)" | Orihime, Mikoto, Yunagi, Hinageshi |
+| KAMITSUBAKI WARS 2025 Kawasaki Front, "Girls Revolution Project 1st LIVE / Act One 'Kaihen'" | All |
+| Girls Revolution Project Virtual mini Live "Petalstride -Seiran-" | Mikoto, Yunagi, Hinageshi |
+| GOLD DISC | Mikoto, Yunagi, Hinageshi |
+| KAMITSUBAKI WARS 2026 Shibuya Front, "Girls Revolution Project 2nd LIVE 'Revolutio'" | All |
+
+> {{spoiler::The scheduled "RAYSCALE -CYAN-" performance was cancelled after a bomb threat; Mikoto, Yunagi and Hinageshi had been set to appear.}}
+
+**Collaboration campaigns**
+
+- **IMAGINARY BASE AKIHABARA × Girls Revolution Project**: round 2 "TSUMITOBATSU" (1–29 April 2025).
+- **Girls Revolution Project × Okada Museum of Art — Gorgeous Revolution: Heart and Sin —** (31 January – 31 March 2026).
+
+> **Position within the project**: together with SINSEIKI, TSUMITOBATSU forms the "heart–sin" two-axis structure of the Girls Revolution Project. Each has a self-contained world-view while intersecting through joint songs such as "Kaihen", "Gense Kaiki", "Nibiiro Gentou", "Shujin Kouro" and "Chromatic" — a systematic experiment by KAMITSUBAKI in running multiple groups in parallel.

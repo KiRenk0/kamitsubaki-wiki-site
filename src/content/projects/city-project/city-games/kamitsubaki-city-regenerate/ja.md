@@ -3,13 +3,12 @@ schemaVersion: 2
 id: kamitsubaki-city-regenerate
 entityType: project
 name: 神椿市建設中。REGENERATE
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: 月島総記がシナリオを全執筆し、G-MODEと共同パブリッシングするSFミステリーADV。V.W.Pフルボイス。
+status: active
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## 概要
+
+記憶を失った観察者となり、魔女たちとともに神椿市の崩壊の謎に迫る正統派テキストアドベンチャーゲーム。

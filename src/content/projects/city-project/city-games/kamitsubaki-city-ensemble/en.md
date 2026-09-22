@@ -2,14 +2,14 @@
 schemaVersion: 2
 id: kamitsubaki-city-ensemble
 entityType: project
-name: 神椿市協奏中。
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+name: KAMITSUBAKI CITY ENSEMBLE
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Global rhythm game released August 29, 2024 across PC, mobile, Switch,
+  and PS5 with 100+ tracks.
+status: active
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Overview
+
+Rhythm action title co-developed with Studio Lalala, featuring the definitive catalog of KAMITSUBAKI and Musical Isotope classics.

@@ -2,15 +2,14 @@
 schemaVersion: 2
 id: asanushi-haru
 entityType: lore-concept
-name: 朝主派流
+name: Asanushi Haru
 loreCategory: fictional-resident
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Key character in Kamitsubaki City corresponding to HARUSARUHI, fiercely
+  protective with explosive speed.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Character Profile
+
+Corresponding to HARUSARUHI. Fiery, loyal, and direct, she charges to the frontlines to defend her companions. Voiced by HARUSARUHI.

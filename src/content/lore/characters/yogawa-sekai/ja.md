@@ -4,13 +4,11 @@ id: yogawa-sekai
 entityType: lore-concept
 name: 夜河世界
 loreCategory: fictional-resident
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: 『神椿市建設中。』の神秘的少女。ヰ世界情緒に対応する、芸術と幻想を愛する文学少女。
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## キャラクター設定
+
+ヰ世界情緒に対応。読書と絵画を愛し、オペラティックな調べで闇を払う。TVアニメ版ではヰ世界情緒本人が担当。

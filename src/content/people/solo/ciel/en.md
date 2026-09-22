@@ -121,3 +121,53 @@ CIEL is directly tied to the KUUSOU unit within the Kamitsubaki ecosystem, and h
 - [YouTube](https://www.youtube.com/channel/UCRvkXFtB70ZADg4L6A8L3wQ)
 - [X (Twitter)](https://twitter.com/CIEL_VanillaSky)
 - [TikTok](https://www.tiktok.com/@ciel_vanillasky)
+
+
+<!-- V3 RESEARCH SUPPLEMENT ciel -->
+
+## Project Position and the Dual-Wielder Form
+
+**[CIEL](/en/database/artists/solo/ciel)** is a **hybrid singer** under [PHENOMENON RECORD](/en/database/studios/phenomenon-record) who began activity on **4 June 2021**.
+
+| Item | Detail |
+| :--- | :--- |
+| **Form of existence** | A “real-voice” singer crossing both physical and virtual forms |
+| **Affiliation** | [PHENOMENON RECORD](/en/database/studios/phenomenon-record) |
+| **Debut** | 4 June 2021 |
+| **Vocal character** | A female voice with transparent clarity and the weight of an unprocessed live tone |
+| **Performance form** | Virtual avatar and physical stage in parallel ([dual-wielder](/en/database/lore/dual-wielder)) |
+
+> **Where the “dual-wielder” label fits**: CIEL belongs to KAMITSUBAKI's [dual-wielder](/en/database/lore/dual-wielder) lineage alongside [KAF / KAIKA](/en/database/artists/solo/kaika) and [VALIS](/en/database/artists/groups/valis), but her route differs from both. KAF's parallel name carries a strong contrast between “virtual mythos and real singer-songwriter”, and VALIS emphasises a double stage form of avatar and origin. CIEL, by contrast, has treated seamless switching between an everyday real presence and a 3D avatar as her normal mode since debut — closer to **two tracks running in parallel from the very beginning**.
+
+> **Name and texture**: CIEL means “sky” in French, and her songs return often to natural imagery of sky, streets and seasons (“Sora yori”, “Fukuiku no Machi”, “Mado wo Akete”), echoing the clarity of her live vocal.
+
+## Releases and Song Archive
+
+**Studio albums and EPs**
+
+| Release | Type | Title |
+| :--- | :--- | :--- |
+| 2023-12-13 | EP | Kuusō Shōjo |
+| 2024-07-24 | Album | Kuusōgeki |
+| 2026-03-04 | EP | Saihare |
+
+**Live albums**
+
+| Release | Title |
+| :--- | :--- |
+| 2023-02-15 | STRAWBERRY LIVE |
+| 2023-10-04 | STRAWBERRY LIVE 2 |
+
+**Principal singles**
+
+| Release | Title |
+| :--- | :--- |
+| 2021-10-20 | [Mijikayo no Hoshi](/en/database/music/songs/ciel-mijikayo-no-hoshi) |
+| 2022-03-29 | Fukuiku no Machi |
+| 2023-04-11 | Seikatsu ni Chiru |
+| 2023-12-05 | Uwanosora |
+| 2024-07-23 | Shōnen Manga / Gauri no Kaigi / Mado wo Akete / Sora yori |
+| 2025-09-23 | Tsune Shinanae |
+| 2026-05-12 | Kimi to Tabikaze |
+
+> **Musical character**: CIEL's work is built on clear live vocals with acoustic instrumentation, taking everyday life, the turning of the seasons and slight shifts of feeling as its themes. The “STRAWBERRY LIVE” live albums record her physical-stage singing and are key documents for understanding her “real” side.

@@ -11,13 +11,11 @@ lifecycle:
 relations:
   - type: member-of
     target: valis
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: VALISのダンスリード。しなやかで妖艶なダンスと艶やかな歌声、料理上手で天然な一面が魅力。
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## プロフィール
+
+VALISのメンバー。蟹座、身長163cm。妖艶なダンスステップと大人の色香漂う歌声が持ち味。料理が得意で、VITTEに対して格別の愛情を注ぐ。

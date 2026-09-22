@@ -2,15 +2,14 @@
 schemaVersion: 2
 id: isotope
 entityType: lore-concept
-name: 同位体
+name: Musical Isotope
 loreCategory: glossary-term
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: AI synthetic singing voices derived from the human vocal data of the
+  Five Witches, accessible to creators worldwide.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Definition
+
+A ground-breaking technological project providing AI singing voice libraries based on the Five Witches (such as KAFU from KAF), empowering global creators.

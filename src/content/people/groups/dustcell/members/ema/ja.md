@@ -11,13 +11,11 @@ lifecycle:
 relations:
   - type: member-of
     target: dustcell
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: DUSTCELLのボーカル・作詞。透明感と狂気を併せ持つ歌声と、赤裸々な感情を紡ぐリリックが支持を集める。
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## プロフィール
+
+DUSTCELLの歌唱・作詞担当。「音楽を通じて誰かの細胞の一部になりたい」という思いからユニット名に共鳴。HALのTVCMソング『命の行方』等で全国的な注目を集める。

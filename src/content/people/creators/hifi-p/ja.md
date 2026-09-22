@@ -43,3 +43,26 @@ HiFi-P は [KYOKAI STUDIO](/ja/projects/labels/kyokai-studio) に所属し（202
 
 {{/details}}
 
+
+
+<!-- V3 RESEARCH SUPPLEMENT hifi-p -->
+
+## 創作上の位置づけと所属体系
+
+**Hi-Fi P** は [SINSEKAI RECORD](/ja/database/studios/sinsekai-record) 傘下の **CREATOR FARM** 体系に属する音楽プロデューサーで、主に編曲と楽曲制作を担っている。
+
+| 項目 | 内容 |
+| :--- | :--- |
+| **職能** | 音楽プロデューサー / 編曲 |
+| **所属** | [SINSEKAI RECORD](/ja/database/studios/sinsekai-record) CREATOR FARM |
+| **参加企画** | 少女革命計画など神椿派生企画への楽曲提供と編曲 |
+
+> **CREATOR FARM の意義**：アーティストと直接契約する神椿のレーベル体系とは異なり、CREATOR FARM は**裏方のクリエイター**に向けた集合体である——作曲・編曲・作詞などの職能のクリエイターを一元的にレーベル管理の下に置くことで、神椿はアーティストの独立性を保ちながら、安定した制作リソースのプールを確保している。
+
+## 主な楽曲提供とコラボレーション
+
+- **《well》／[硝子宮](/ja/database/artists/groups/sinseiki/members/garasumiya)**（2024-10-09）：作詞は祭日ハネダ、Hi-Fi P が作編曲を担当；
+- **少女革命計画の体系**：同企画における重要な編曲リソースの一つとして、複数メンバーの楽曲制作に参加；
+- **CREATOR FARM の連携**：[tokiwa](/ja/database/creators/tokiwa)、[他人事](/ja/database/creators/hitogoto) など同一体系のクリエイターとともに、深脊界の制作能力を支えている。
+
+> **所見**：Hi-Fi P の公開作品は多くないが、少女革命計画という「六人同時デビュー、毎週楽曲提供」の高密度な企画において、CREATOR FARM の編曲者は不可欠なインフラである——その仕事の進め方は「個人 P 主」よりも「プロの制作チーム」に近い。

@@ -2,14 +2,14 @@
 schemaVersion: 2
 id: kamitsubaki-city-arg
 entityType: project
-name: 神椿市早期 ARG 记录
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+name: Kamitsubaki City Early ARG
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: The initial alternate reality game (2019–2021) on Twitter where
+  observers solved real-world ciphers to shape the lore.
+status: active
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Overview
+
+The groundbreaking Alternate Reality Game campaign that launched the project, inviting fans worldwide to decode clues and rescue the protagonists.

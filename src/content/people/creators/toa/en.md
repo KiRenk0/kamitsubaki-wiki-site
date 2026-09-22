@@ -103,3 +103,18 @@ His long career spanning over a decade speaks to his consistency and evolving ar
 
 - [Twitter](https://twitter.com/o0toa0o)
 - [YouTube](https://www.youtube.com/user/0toa0oto0)
+
+
+<!-- V3 RESEARCH SUPPLEMENT toa -->
+
+## External Songwriting Record
+
+Toa's record of songs supplied externally within the KAMITSUBAKI system is as follows (he handled most of the lyrics, music and arrangement himself):
+
+| Release date | Song | Performer | Role |
+| :--- | :--- | :--- | :--- |
+| 2022-12-28 | 《そんなファンタジー》 | [COKO](/en/database/isotopes/coko) | Lyrics / Composition / Arrangement |
+| 2023-06-25 | 《ケムニマク》 | [HARU](/en/database/isotopes/haru) | Lyrics / Composition / Arrangement |
+| 2025-02-26 | 《ココロト》 | [SINSEIKI](/en/database/artists/groups/sinseiki) | Lyrics / Composition / Arrangement |
+
+> **Observation on the lineage of his supplied songs**: Toa's three supplied songs sit on two different product lines respectively — [Musical Isotopes](/en/database/isotopes/kafu) (COKO, HARU) and [Girls Revolution Project](/en/database/projects/girls-revolution-project) (SINSEIKI) — showing that within the KAMITSUBAKI ecosystem he plays the role of a **cross-project generalist songwriter**: able to write for AI singing libraries as well as to provide choral pieces for a three-member unit.

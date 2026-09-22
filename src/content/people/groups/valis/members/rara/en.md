@@ -11,13 +11,12 @@ lifecycle:
 relations:
   - type: member-of
     target: valis
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Dance director and center of VALIS, revered for her razor-sharp
+  technique, disciplined craft, and resolute vocals.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Profile
+
+Dance director and center of VALIS. Leo, 156 cm. Highly disciplined with unmatched precision on stage and a resonant, dignified vocal character.

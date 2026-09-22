@@ -4,13 +4,12 @@ id: anarchic-record
 entityType: organization
 name: ANARCHIC RECORD
 orgType: record-label
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Record label focused on real-world songwriters, producers, and Vocaloid
+  creators within KAMITSUBAKI.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Overview
+
+**ANARCHIC RECORD** is home to independent songwriters, producers, and real-world performers including Kashii Moimi, Guiano, and Onuma Parsley.

@@ -2,16 +2,17 @@
 schemaVersion: 2
 id: witch-assembly
 entityType: live-event
-name: 魔女集会
+name: 魔女集会シリーズ
 eventType: joint-live
-headliners: []
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+headliners:
+  - vwp
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: V.W.Pの5人が集結し、神椿の世界観と歌声を共鳴させる合同ライブシリーズ。
+dateRange:
+  start: "2021-03-13"
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## 概要
+
+V.W.Pのメンバーが揃い、神椿市に眠る魔力を歌声で呼び覚ます象徴的な合同公演ブランドです。

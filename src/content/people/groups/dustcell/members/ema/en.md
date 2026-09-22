@@ -11,13 +11,12 @@ lifecycle:
 relations:
   - type: member-of
     target: dustcell
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Vocalist and lyricist of DUSTCELL, commanding raw emotional power
+  spanning delicate whispers to fierce screams.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Profile
+
+Vocalist and lyricist of DUSTCELL. Her distinctive voice anchors the duo’s sound, moving fluidly between cool introspection and electrifying catharsis.

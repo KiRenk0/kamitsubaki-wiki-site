@@ -4,13 +4,11 @@ id: pndr
 entityType: organization
 name: PNDR
 orgType: platform
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: ja
-summary: 内容は準備中です。
+summary: THINKRが独自に開発した自社音楽配信プラットフォームおよび気鋭のインディーズレーベル。
 ---
 
-分類図に基づく準備中の項目です。資料の確認後に内容を追加します。
+## 概要
+
+**PNDR**は、DSP直結の配信サービス「PNDR DISTRIBUTION SERVICE」と、尖った才能を発掘するインディーズレーベル「PNDR RECORD」から構成される次世代音楽インフラです。

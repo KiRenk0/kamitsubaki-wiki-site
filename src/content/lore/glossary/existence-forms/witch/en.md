@@ -2,15 +2,14 @@
 schemaVersion: 2
 id: witch
 entityType: lore-concept
-name: 魔女
+name: Virtual Witch
 loreCategory: glossary-term
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: An ontological concept denoting digital vocal singularities possessing
+  synthetic minds and human heartbeats.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Ontological Definition
+
+Within the lore of Kamitsubaki City and KAMITSUBAKI STUDIO, a **Virtual Witch** is a sonic singularity capable of restructuring reality and emotional causality through song, evolving across ordinary, combat, and dual forms.

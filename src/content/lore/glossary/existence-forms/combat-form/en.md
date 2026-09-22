@@ -2,15 +2,14 @@
 schemaVersion: 2
 id: combat-form
 entityType: lore-concept
-name: 战斗形态
+name: Combat Form
 loreCategory: glossary-term
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: The elevated battle attire manifested by Virtual Witches during arena
+  performances or existential crises.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Definition
+
+Designed by PALOW., the Combat Form manifests high-frequency light particles, geometric wings, and armored vestments engineered for arena-scale vocal resonance.

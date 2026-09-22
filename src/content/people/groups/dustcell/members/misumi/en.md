@@ -11,13 +11,12 @@ lifecycle:
 relations:
   - type: member-of
     target: dustcell
-contentStatus: stub
-tags:
-  - classification-map-placeholder
-seo:
-  noindex: true
+contentStatus: published
 locale: en
-summary: Entry to be completed.
+summary: Composer and sound architect of DUSTCELL, renowned for electrifying
+  beats, edgy synthesizers, and hit Vocaloid tracks.
 ---
 
-This entry is reserved according to the classification map. Content will be added after source review.
+## Profile
+
+Producer and composer behind DUSTCELL. Active in the Vocaloid scene since 2015 with over 11 Hall of Fame tracks, crafting the signature "Beauty and Madness" sonic identity.
