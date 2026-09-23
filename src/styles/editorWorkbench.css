@@ -98,13 +98,13 @@ html body .ve-statusbar button,html body .ve-statusbar select { border:0; backgr
 .ve-status-right { display:flex; align-items:center; gap:12px; margin-left:auto; flex-shrink:0; white-space:nowrap; }
 .ve-status-right > * { flex-shrink:0; }
 .ve-status-right select { max-width:125px; width:auto; }
-.ve-theme-menu > div { top:auto; bottom:calc(100% + 8px); width:150px; }
+.ve-theme-menu > div { top:auto; bottom:calc(100% + 8px); width:280px; }
 /* Chromium paints the native select dropdown with the control's computed background over a white popup canvas, so dark mode needs an opaque dark select surface and explicit option colors. */
 html body .ve-workbench select,html body .ve-workbench .ve-statusbar select { color-scheme:dark; background-color:var(--ve-select-bg); }
 html body .ve-workbench select option { color-scheme:dark; background-color:var(--ve-select-bg); color:rgb(var(--theme-fg-rgb)/.75); }
 html[data-theme='light'] .ve-workbench select,html[data-theme='light'] .ve-workbench .ve-statusbar select { color-scheme:light; background-color:transparent; }
 html[data-theme='light'] .ve-workbench select option { color-scheme:light; background-color:transparent; color:inherit; }
-.ve-theme-menu button { display:block; width:100%; text-align:left; }
+.ve-theme-menu button { text-align:left; }
 .ve-problems { border-top:1px solid var(--ui-line); padding:0 24px 12px; max-height:230px; overflow:auto; background:var(--ve-surface); font-size:12px; }
 .ve-problems .ve-panel-heading { margin-bottom:6px; min-height:32px; }
 html body [data-validation] button { margin:3px 5px 3px 0; color:var(--theme-accent-color); }
@@ -172,7 +172,7 @@ html body .ve-toolbar [data-inline-preset] { display:inline-flex; align-items:ce
 html body .ve-workbench .ve-highlight-tool { text-decoration:underline; text-decoration-color:var(--theme-accent-color); text-decoration-thickness:3px; text-underline-offset:3px; }
 .ve-format-more { position:relative; }
 .ve-format-more > summary { padding:0 9px; font-size:18px; list-style:none; line-height:26px; }
-.ve-format-more > div { position:absolute; top:100%; left:0; z-index:25; min-width:150px; padding:6px; background:var(--ve-paper); border:1px solid var(--ui-line); border-radius:6px; box-shadow:0 6px 24px #0002; }
+.ve-format-more > div { position:absolute; top:100%; left:0; z-index:25; min-width:280px; padding:6px; background:var(--ve-paper); border:1px solid var(--ui-line); border-radius:6px; box-shadow:0 6px 24px #0002; }
 html body .ve-format-more > div button { width:100%; display:block; text-align:left; border:0; }
 .ve-selection-toolbar { position:fixed; z-index:45; display:flex; align-items:center; gap:2px; padding:5px; background:var(--ve-paper); border:1px solid var(--ui-line); border-radius:7px; box-shadow:0 5px 22px #0002; max-width:calc(100vw - 16px); }
 html body .ve-selection-toolbar button { background:transparent; border:0; padding:4px 8px; white-space:nowrap; }

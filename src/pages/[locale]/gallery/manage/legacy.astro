@@ -1,7 +1,7 @@
 ---
-import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
-import {supportedLocales,resolveLocaleCopy} from '../../../lib/i18n.mjs';
-import CreationWorkbench from '../../../components/CreationWorkbench.astro';
+import WorkspaceLayout from '../../../../layouts/WorkspaceLayout.astro';
+import {supportedLocales,resolveLocaleCopy} from '../../../../lib/i18n.mjs';
+import {galleryManagerMarkup,galleryManagerStyles} from '../../../../lib/galleryManager.js';
 export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
 const locale=Astro.params.locale!;
 const api=import.meta.env.PUBLIC_GALLERY_API_URL||import.meta.env.PUBLIC_AI_OBSERVER_API_BASE||'https://api.kamitsubaki.wiki';
@@ -11,8 +11,9 @@ const copy=resolveLocaleCopy({
  en:{title:'Contribute reference material',intro:'Choose a character and image. Add other details now or later; changes are published after review.',back:'Back to gallery',login:'Sign in to contribute'}
 },locale);
 ---
-<WorkspaceLayout locale={locale} title={copy.title} intro={copy.intro} path="/gallery/manage/" eyebrow="EXPLORE / VISUAL ARCHIVE" backHref={`/${locale}/gallery/`} backLabel={copy.back} noindex mainAttributes={{class:'gallery-manage-shell creation-preview-page','data-gallery-api':api,'data-gallery-login':`/${locale}/account/`}}>
+<WorkspaceLayout locale={locale} title={copy.title} intro={copy.intro} path="/gallery/manage/" eyebrow="EXPLORE / VISUAL ARCHIVE" backHref={`/${locale}/gallery/`} backLabel={copy.back} noindex mainAttributes={{class:'gallery-manage-shell','data-gallery-api':api,'data-gallery-login':`/${locale}/account/`}}>
   <Fragment slot="actions"><a data-gallery-login hidden>{copy.login}</a></Fragment>
-  <CreationWorkbench live/>
+  <style is:global set:html={galleryManagerStyles}/>
+  <div set:html={galleryManagerMarkup.replace(/<header>[\s\S]*?<\/header>/,'')}/>
 </WorkspaceLayout>
-<script>import '../../../scripts/galleryUploader.js';</script>
+<script>import {initGalleryManager} from '../../../../lib/galleryManager.js';const root=document.querySelector<HTMLElement>('[data-gallery-api]');if(root)initGalleryManager(root,{api:root.dataset.galleryApi,login:root.dataset.galleryLogin});</script>

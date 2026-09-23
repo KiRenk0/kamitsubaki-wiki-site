@@ -1,6 +1,7 @@
+import {imageViewer} from './imageViewer.mjs';
 import type {Source, ResolvedEntity} from './entityRegistry.mjs';
 interface GalleryViewItem {
-  id: string; title?:string; src: string; entities: ResolvedEntity[]; tags: string[];
+  id: string; setId?:string; title?:string; src: string; entities: ResolvedEntity[]; tags: string[];
   form?: string; formLabel?: string; tagLabels?:string[]; date?: string; notes?: string; source: Source;
   uploader: string; uploadedAt: string;
 }
@@ -64,45 +65,8 @@ export async function initGallery() {
     }catch(error){if(current.signal.aborted)return;if(status)status.textContent=payload.viewCopy.listError;if(retry){retry.hidden=false;retry.onclick=()=>void load(append);}}
     finally{if(controller===current){root.removeAttribute('aria-busy');if(more)more.disabled=false;}}
   };
-  let trigger: HTMLElement | null = null;
-  let currentId='';
-  const imageStatus=dialog.querySelector<HTMLElement>('[data-image-status]');
-  image.addEventListener('load',()=>{stage.dataset.loading='false';if(imageStatus)imageStatus.hidden=true;});
-  image.addEventListener('error',()=>{stage.dataset.loading='true';if(imageStatus){imageStatus.textContent=payload.viewCopy.error;imageStatus.hidden=false;}});
-  let x = 0, y = 0;
-  let drag: {x:number; y:number} | null = null;
-  const setText = (selector:string, text:string) => { const el=dialog.querySelector(selector); if(el) el.textContent=text; };
-  const transform = () => { setText('[data-zoom-value]',`${Math.round(Number(zoom.value)*100)}%`); image.style.transform = `translate(${x}px,${y}px) scale(${zoom.value})`; };
-  const reset = () => { x=y=0; zoom.value='1'; transform(); };
-  const open = (id:string, save=true) => {
-    const item=payload.items.find(i=>i.id===id);
-    if(!item?.src) return;
-    trigger=cards.find(c=>c.dataset.item===id)||null;
-    currentId=id;stage.dataset.loading='true';if(imageStatus){imageStatus.hidden=false;imageStatus.textContent=payload.viewCopy.loading;}
-    image.src=item.src;
-    const visible=cards.filter(c=>!c.hidden),index=visible.findIndex(c=>c.dataset.item===id);
-    const prev=dialog.querySelector<HTMLButtonElement>('[data-previous]'),next=dialog.querySelector<HTMLButtonElement>('[data-next]');
-    if(prev)prev.disabled=index<=0;if(next)next.disabled=index<0||index===visible.length-1;
-    image.alt=item.title||item.entities.map(e=>e.data.name||e.data.title).join(' / ')||item.id;
-    setText('[data-image-title]', image.alt);
-    const links=dialog.querySelector('[data-entity-links]');
-    links?.replaceChildren();
-    item.entities.forEach(e=>{const a=document.createElement('a');a.href=e.url;a.textContent=e.data.name||e.data.title||e.data.id;a.className='chip';links?.append(a);});
-    setText('[data-image-meta]',[item.formLabel||item.form,item.date,...(item.tagLabels||item.tags)].filter(Boolean).join(' · '));
-    setText('[data-image-notes]',item.notes||'');
-    const source=dialog.querySelector('[data-source]');
-    source?.replaceChildren();
-    const sourceHeading=dialog.querySelector<HTMLElement>('[data-source-heading]');if(sourceHeading)sourceHeading.hidden=!item.source.title&&!item.source.publisher&&!item.source.url;
-    const label=[item.source.title,item.source.publisher,item.source.page,item.source.publishedAt].filter(Boolean).join(' · ');
-    if(item.source.url){const a=document.createElement('a');a.href=item.source.url;a.textContent=label||item.source.url;a.target='_blank';a.rel='noopener noreferrer';source?.append(a);}else setText('[data-source]',label);
-    setText('[data-uploader]',`${payload.uploaderLabel}: ${item.uploader} · ${item.uploadedAt}`);
-    const original=dialog.querySelector<HTMLAnchorElement>('[data-original]');
-    if(original) original.href=item.src;
-    const edit=dialog.querySelector<HTMLAnchorElement>('[data-edit-image]');if(edit)edit.href=`/${root.dataset.locale||'zh'}/gallery/manage/?edit=${encodeURIComponent(item.id)}`;
-    reset();
-    if(!dialog.open) dialog.showModal();
-    if(save){const url=new URL(location.href);url.hash=item.id;history.pushState(null,'',url);}
-  };
+  const viewer=imageViewer();
+  const open=async(id:string,save=true)=>{let items=payload.items;const selected=items.find(i=>i.id===id);if(selected?.setId){try{const data=await request('/sets/'+encodeURIComponent(selected.setId));items=data.set.images.map(resolve);}catch{}}const index=items.findIndex(i=>i.id===id);if(index<0)return;viewer.open(items.map(item=>({id:item.id,src:item.src,title:item.title||item.entities.map(e=>e.data.name||e.data.title).join(' / '),notes:[item.form,item.date,item.notes].filter(Boolean).join(' · '),links:[...item.entities.map(e=>({href:e.url,label:e.data.name||e.data.title||e.data.id})),...(item.source.url?[{href:item.source.url,label:item.source.title||'来源'}]:[]),{href:`/${locale}/gallery/manage/?edit=${encodeURIComponent(item.id)}`,label:locale==='zh'?'完善资料':'Edit'},{href:item.src,label:locale==='zh'?'原图':'Original'}]})),index,document.activeElement,{onChange:(item:any)=>{if(save){const url=new URL(location.href);url.hash=item.id;history.replaceState(null,'',url);}},onClose:()=>{const url=new URL(location.href);url.hash='';history.replaceState(null,'',url);}});};
   const filter=()=>{
     const url=new URL(location.href);selects.forEach(s=>s.value?url.searchParams.set(s.name,s.value):url.searchParams.delete(s.name));history.replaceState(null,'',url);void load();
   };
@@ -110,25 +74,12 @@ export async function initGallery() {
     const params=new URLSearchParams(location.search);selects.forEach(s=>s.value=params.get(s.name)||'');
     await load();
     if(location.hash){try{const id=decodeURIComponent(location.hash.slice(1));if(!payload.items.some(i=>i.id===id)){const {item}=await request('/items/'+encodeURIComponent(id));payload.items.push(resolve(item));}if(decodeURIComponent(location.hash.slice(1))===id)open(id,false);}catch{if(status)status.textContent=payload.viewCopy.listError;}}
-    else if(dialog.open)dialog.close();
+    else if(viewer.isOpen)viewer.close();
   };
   selects.forEach(s=>s.addEventListener('change',filter));
   root.querySelector('form')?.addEventListener('reset',()=>requestAnimationFrame(filter));
   more?.addEventListener('click',()=>void load(true));
   root.querySelector('form')?.addEventListener('submit',e=>e.preventDefault());
-  dialog.querySelector('[data-close]')?.addEventListener('click',()=>dialog.close());
-  dialog.addEventListener('close',()=>{if(location.hash){const url=new URL(location.href);url.hash='';history.replaceState(null,'',url);}trigger?.focus();});
-  dialog.querySelector('[data-reset]')?.addEventListener('click',reset);
-  zoom.addEventListener('input',()=>{if(Number(zoom.value)===1)x=y=0;transform();});
-  const move=(delta:number)=>{const visible=cards.filter(c=>!c.hidden),index=visible.findIndex(c=>c.dataset.item===currentId);const id=visible[index+delta]?.dataset.item;if(id)open(id);};
-  dialog.querySelector('[data-previous]')?.addEventListener('click',()=>move(-1));
-  dialog.querySelector('[data-next]')?.addEventListener('click',()=>move(1));
-  dialog.addEventListener('keydown',e=>{if(e.target instanceof HTMLInputElement)return;if(e.key==='ArrowLeft'){e.preventDefault();move(-1);}if(e.key==='ArrowRight'){e.preventDefault();move(1);}});
-  stage.addEventListener('dblclick',()=>{zoom.value=Number(zoom.value)===1?'2':'1';x=y=0;transform();});
-  stage.addEventListener('pointerdown',e=>{drag={x:e.clientX-x,y:e.clientY-y};stage.setPointerCapture(e.pointerId);});
-  stage.addEventListener('pointermove',e=>{if(drag){x=e.clientX-drag.x;y=e.clientY-drag.y;transform();}});
-  stage.addEventListener('pointerup',()=>drag=null);
-  stage.addEventListener('pointercancel',()=>drag=null);
   const initialize=async()=>{
     try{
       const [catalog,options]=await Promise.all([request('/characters'),request('/facets')]);characters=catalog.characters;

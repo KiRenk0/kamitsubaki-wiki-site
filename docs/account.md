@@ -23,3 +23,11 @@
 前端环境使用正式 `PUBLIC_ACCOUNT_API_BASE`（未设置时为生产 API）；本地预览只连接隔离的测试数据。账户变更需验证两种 OAuth 回跳、身份绑定/解绑、设备撤销、头像、收藏冲突、账号切换、导出与注销，以及五语言、窄屏和明暗主题。
 
 真实第三方 OAuth、Cloudflare Cookie/CORS 与生产数据库只能在匹配版本预览环境验收。历史设计和 V2.2.0 检查记录位于 `archive/features/account-v1.md`、`archive/features/account-v2.md` 与 `qa/`；其中的提交、测试数量和上线状态不是 V3 当前结论。后端规则见 [安全](../../kamitsubaki-wiki-site-backend/docs/security.md)、[数据归属](../../kamitsubaki-wiki-site-backend/docs/data.md) 与 [部署](../../kamitsubaki-wiki-site-backend/DEPLOYMENT.md)。
+
+## V3 创作者中心与外观
+
+我的空间采用固定栏目导航：概览、创作者中心、收藏、个人资料、登录与安全、外观设置。窄屏使用栏目目录，不再用滑动条承载跨区域导航。
+
+创作者中心位于 `/{语言}/account/creator/`。词条继续使用 GitHub 投稿记录，文章使用数据库修订，图库使用集合审核与私有暂存批次。列表分页加载完整历史；本机草稿单独显示。审核通过不等于已公开：图库逐图显示公开结果，词条仍区分审核、合并及部署。
+
+默认公共界面为黑白灰，可选冷蓝、灰紫、琥珀。明暗模式与强调色分别保存于当前浏览器，首页词条背景和词条自身主题色保持独立，不需要新增账号设置接口。

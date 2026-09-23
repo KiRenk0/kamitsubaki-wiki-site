@@ -4,6 +4,7 @@ const root=new URL('../../',import.meta.url);
 const registry=await getEntityRegistry();
 const characters=registry.list('zh').filter(({data})=>['person','virtual-avatar','software-voice'].includes(data.entityType)||data.entityType==='lore-concept'&&data.loreCategory==='fictional-resident').map(entry=>({id:entry.data.id,name:entry.data.name||entry.data.title,url:entry.url,labels:Object.fromEntries(['zh','ja','en'].map(locale=>{const data=registry.resolveEntity(entry.data.id,locale).data;return [locale,data.name||data.title];}))})).sort((a,b)=>a.id.localeCompare(b.id));
 const outputs=[
+ [new URL('../kamitsubaki-wiki-site-backend/src/creationStyles.js',root),'// Mirrored from frontend src/styles/creationWorkbench.css.\nexport const creationStyles='+JSON.stringify(await readFile(new URL('src/styles/creationWorkbench.css',root),'utf8'))+';\n'],
  [new URL('../kamitsubaki-wiki-site-backend/src/gallery/characters.json',root),JSON.stringify(characters,null,2)+'\n'],
  [new URL('src/lib/galleryManager.js',root),await readFile(new URL('../kamitsubaki-wiki-site-backend/src/gallery/manager.js',root),'utf8')]
 ];

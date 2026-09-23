@@ -277,6 +277,8 @@ export function initializeEditorPrDemo(root, editor) {
         snapshot = null;
         base = null;
         selected = null;
+        const requested=new URLSearchParams(location.search).get("submission");
+        if(requested){selected=await api("/api/editor/submissions/"+encodeURIComponent(requested));tab("discussion");}
         message(t("已加载当前账号的投稿记录。"));
         return;
       }
