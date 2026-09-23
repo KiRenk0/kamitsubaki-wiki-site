@@ -10,8 +10,8 @@ document.querySelectorAll('[data-selection-group]').forEach(group=>initializeSel
 </script>
 <style is:global>
 .selection-group{position:relative;isolation:isolate}
-.selection-group>[data-workspace-indicator]{position:absolute;top:0;left:0;z-index:-1;pointer-events:none;opacity:0;border:1px solid color-mix(in srgb,var(--theme-accent-color) 20%,transparent);border-radius:var(--ui-radius-control);background:color-mix(in srgb,var(--theme-accent-color) 7%,transparent)}
-.selection-group[data-slider-ready]>[data-workspace-indicator]{opacity:1;transition:transform var(--motion-glass) var(--motion-ease-glide),width var(--motion-glass) var(--motion-ease-glide),height var(--motion-glass) var(--motion-ease-glide)}
-.selection-group>button:focus-visible{outline:2px solid var(--theme-accent-color);outline-offset:-2px}
+.selection-group>[data-workspace-indicator]{position:absolute;top:0;left:0;z-index:-1;pointer-events:none;opacity:0;border:1px solid rgb(var(--theme-fg-rgb)/.12);border-radius:var(--ui-radius-control);background:rgb(var(--theme-fg-rgb)/.055)}
+.selection-group[data-slider-ready]>[data-workspace-indicator]{opacity:1;transition:transform 200ms var(--motion-ease-glide),width 200ms var(--motion-ease-glide),height 200ms var(--motion-ease-glide)}
+.selection-group>button:focus-visible{outline:2px solid var(--ui-accent-color);outline-offset:-2px}
 @media(prefers-reduced-motion:reduce){.selection-group>[data-workspace-indicator]{transition:none!important}}
 </style>

@@ -4,14 +4,14 @@
   --ui-hover: rgb(var(--theme-fg-rgb) / .055);
   --ui-shadow: 0 14px 42px rgb(0 0 0 / .16);
 }
-html[data-theme='light'] { --ui-shadow: 0 12px 36px rgb(24 40 36 / .08); }
+html[data-theme='light'] { --ui-shadow: 0 12px 36px rgb(18 20 26 / .08); }
 
 html body :is(button, [role='button'], select, textarea, summary,
   input:not([type='checkbox'], [type='radio'], [type='range'], [type='color'])) {
   border-radius: var(--ui-radius-control);
 }
 html body :is(a, button, summary, select, input, textarea):focus-visible {
-  outline: 2px solid var(--theme-accent-color);
+  outline: 2px solid var(--ui-accent-color);
   outline-offset: 3px;
 }
 html body :is(button, select, textarea, input):disabled { cursor: not-allowed; }

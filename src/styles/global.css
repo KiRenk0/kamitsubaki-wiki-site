@@ -22,18 +22,20 @@
   color-scheme: dark;
   --theme-bg: #030303;
   --theme-bg-rgb: 3 3 3;
-  --theme-panel-solid: #080a0c;
-  --theme-panel-rgb: 8 10 12;
+  --theme-panel-solid: #101113;
+  --theme-panel-rgb: 16 17 19;
   --theme-fg: #ffffff;
   --theme-fg-rgb: 255 255 255;
   --theme-body: #d1d1d1;
-  --theme-accent-rgb: 137 245 223;
-  --theme-accent-color: var(--wiki-accent-color);
+  --theme-accent-rgb: 145 175 255;
+  --ui-accent-color: #91afff;
+  --ui-accent-rgb: 145 175 255;
+  --theme-accent-color: var(--ui-accent-color);
   --color-white: var(--theme-fg);
   --color-black: var(--theme-bg);
-  --wiki-accent-color: #89f5df;
-  --wiki-muted-color: #8fb0c2;
-  --wiki-surface-color: #0f1419;
+  --wiki-accent-color: var(--ui-accent-color);
+  --wiki-muted-color: #9b9da5;
+  --wiki-surface-color: #111214;
   --wiki-highlight-color: #f6f7fb;
   --floating-action-edge: 2rem;
   --floating-action-size: 3.2rem;
@@ -44,19 +46,21 @@ html[data-theme='light'] {
   color-scheme: light;
   --theme-bg: #ffffff;
   --theme-bg-rgb: 255 255 255;
-  --theme-panel-solid: #f7f8f8;
-  --theme-panel-rgb: 247 248 248;
+  --theme-panel-solid: #f7f7f8;
+  --theme-panel-rgb: 247 247 248;
   --theme-fg: #171b1e;
   --theme-fg-rgb: 0 0 0;
   --theme-body: #343a3e;
-  --theme-accent-rgb: 8 125 112;
-  --theme-accent-color: #087d70;
-  --wiki-muted-color: #496b78;
-  --wiki-surface-color: #edf3f1;
+  --theme-accent-rgb: 49 95 203;
+  --ui-accent-color: #315fcb;
+  --ui-accent-rgb: 49 95 203;
+  --theme-accent-color: var(--ui-accent-color);
+  --wiki-muted-color: #62656d;
+  --wiki-surface-color: #f2f2f4;
   --wiki-highlight-color: #15191c;
-  --color-cyan-50: #075f58;
-  --color-cyan-100: #08736a;
-  --color-cyan-200: #087d70;
+  --color-cyan-50: #284a96;
+  --color-cyan-100: #2b55b4;
+  --color-cyan-200: #315fcb;
   --color-amber-50: #704000;
   --color-amber-100: #805000;
   --color-amber-200: #946200;
@@ -69,7 +73,7 @@ html[data-theme='light'] {
 }
 
 html[data-theme='light'] .wiki-theme-shell {
-  --theme-accent-color: color-mix(in oklab, var(--wiki-accent-color) 38%, #005e53);
+  --theme-accent-color: color-mix(in oklab, var(--wiki-accent-color) 60%, #17191e);
 }
 
 html[data-theme='light'] [class~='text-white'] {
@@ -81,7 +85,7 @@ html[data-theme='light'] [class*='text-white/'] {
 }
 
 html[data-theme='light'] [class*='text-cyan-'] {
-  color: #075f58;
+  color: var(--ui-accent-color);
 }
 
 html[data-theme='light'] [class*='text-amber-'] {
@@ -2611,8 +2615,8 @@ html[data-theme='light'] .my-lyric-box.sync-enabled {
 
 /* --- Contributor learning journey --- */
 .guide-shell {
-  --guide-accent: #75f5e2;
-  --guide-accent-rgb: 117 245 226;
+  --guide-accent: var(--ui-accent-color);
+  --guide-accent-rgb: var(--ui-accent-rgb);
   --guide-accent-soft: rgb(var(--guide-accent-rgb) / 0.1);
   --guide-border: rgb(var(--theme-fg-rgb) / 0.11);
   --guide-surface: rgb(var(--theme-fg-rgb) / 0.022);
@@ -2620,8 +2624,8 @@ html[data-theme='light'] .my-lyric-box.sync-enabled {
 }
 
 html[data-theme='light'] .guide-shell {
-  --guide-accent: #087d70;
-  --guide-accent-rgb: 8 125 112;
+  --guide-accent: var(--ui-accent-color);
+  --guide-accent-rgb: var(--ui-accent-rgb);
 }
 
 .guide-shell [hidden] {

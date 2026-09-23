@@ -5,8 +5,22 @@ import {supportedLocales} from '../../../lib/i18n.mjs';
 import {featuresFor} from '../../../lib/siteFeatures.mjs';
 export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
 const {locale='zh'}=Astro.params;
+const groups=locale==='en'?[['archive','Time & images','Browse events and visual records.'],['connections','People & worlds','Follow connections into the stories.']]:locale==='ja'?[['archive','時間とビジュアル','出来事とビジュアル資料をたどる。'],['connections','関係と世界','つながりから物語を読む。']]:[['archive','时间与影像','从发生的时刻，到被记录的形态。'],['connections','关联与世界','循着人物、作品与故事，继续阅读。']];
 const section=featuresFor(locale,'main').find(item=>item.id==='explore')!;
 ---
 <WorkspaceLayout locale={locale} title={section.title} intro={section.summary} path="/explore/" eyebrow="EXPLORE" backHref={`/${locale}/`} backLabel={locale==='en'?'Home':locale==='ja'?'ホーム':'首页'}>
- <div class="feature-directory">{featuresFor(locale,'explore').map((item,index)=><WorkspaceLinkCard href={item.href} title={item.title} description={item.summary} index={String(index+1).padStart(2,'0')}/>)}</div>
+ <div class="explore-directory">{groups.map(([id,title,description],groupIndex)=><section class="explore-directory-group" aria-labelledby={`explore-${id}`}>
+  <header><span class="explore-directory-number" aria-hidden="true">0{groupIndex+1}</span><div><h2 id={`explore-${id}`}>{title}</h2><p>{description}</p></div></header>
+  <div>{featuresFor(locale,'explore').filter(item=>item.section===id).map(item=><WorkspaceLinkCard href={item.href} title={item.title} description={item.summary}/>)}</div>
+ </section>)}</div>
 </WorkspaceLayout>
+
+<style>
+.explore-directory{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px;padding-top:8px}
+.explore-directory-group{min-width:0}
+.explore-directory-group>header{display:flex;align-items:start;gap:16px;padding:0 0 24px;border-bottom:1px solid var(--workspace-line)}
+.explore-directory-number{font:12px/1.8 var(--font-mono);padding-top:4px;color:var(--workspace-muted)}
+.explore-directory-group h2{font:400 22px/1.5 var(--font-serif);margin:0 0 6px;letter-spacing:.025em}
+.explore-directory-group header p{font:13px/1.8 var(--font-sans);margin:0;color:var(--workspace-muted)}
+@media(max-width:760px){.explore-directory{grid-template-columns:1fr;gap:32px}.explore-directory-group>header{padding-bottom:16px}}
+</style>

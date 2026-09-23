@@ -1,7 +1,7 @@
 :root {
-  --ui-radius-control: 8px;
-  --ui-radius-panel: 12px;
-  --ui-radius-item: 6px;
+  --ui-radius-control: 4px;
+  --ui-radius-panel: 8px;
+  --ui-radius-item: 4px;
   --ui-duration: var(--motion-fast, 160ms);
   --ui-duration-panel: var(--motion-standard, 280ms);
   --ui-duration-enter: var(--motion-surface, 460ms);

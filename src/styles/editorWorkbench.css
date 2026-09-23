@@ -1,13 +1,13 @@
 body:has(.ve-workbench) { overflow:hidden; }
 body:has(.ve-workbench) > :is(.noise-bg,#preloader,.tools-dock,.ai-chat,.ai-chat-launcher,.ai-chat__launcher,.site-search) { display:none !important; }
-html body .ve-workbench { --ve-paper:var(--theme-bg); --ve-surface:var(--theme-panel-solid); --ve-muted:rgb(var(--theme-fg-rgb)/.55); --ve-select-bg:color-mix(in srgb, var(--theme-panel-solid) 97%, var(--theme-fg)); position:relative; z-index:20; display:flex; flex-direction:column; width:100%; height:100dvh; max-width:none; margin:0; padding:0; background:var(--ve-paper); font:13px/1.65 var(--font-sans); }
+html body .ve-workbench { --ve-paper:var(--theme-bg); --ve-surface:var(--theme-panel-solid); --ve-muted:rgb(var(--theme-fg-rgb)/.62); --theme-accent-color:var(--ui-accent-color); --theme-accent-rgb:var(--ui-accent-rgb); --ve-select-bg:color-mix(in srgb, var(--theme-panel-solid) 97%, var(--theme-fg)); position:relative; z-index:20; display:flex; flex-direction:column; width:100%; height:100dvh; max-width:none; margin:0; padding:0; background:var(--ve-paper); font:13px/1.65 var(--font-sans); }
 html[data-theme='light'] .ve-workbench { --ve-paper:#fff; --ve-surface:#f8f9fa; }
 html body .ve-workbench :is(button,input,select,textarea) { font-family:var(--font-sans); letter-spacing:0; }
 html body .ve-workbench :is(button,summary,a) { cursor:pointer !important; }
 html body .ve-workbench :is(button,input,select,textarea):focus-visible { outline:2px solid var(--theme-accent-color); outline-offset:-2px; }
-html body .ve-workbench button { min-height:30px; padding:4px 9px; font-size:12px; border-radius:5px; }
-.ve-topbar { flex-shrink:0; display:flex; height:56px; align-items:center; gap:18px; padding:0 18px; border-bottom:1px solid var(--ui-line); }
-.ve-home { font-size:15px; white-space:nowrap; color:var(--theme-accent-color); }
+html body .ve-workbench button { min-height:30px; padding:4px 9px; font-size:12px; border-radius:var(--ui-radius-control); }
+.ve-topbar { flex-shrink:0; display:flex; min-height:60px; align-items:center; gap:18px; padding:0 18px; border-bottom:1px solid var(--ui-line); }
+.ve-home { font-size:13px; white-space:nowrap; color:var(--theme-fg); display:inline-flex;align-items:center;min-height:38px; }
 .ve-topbar h1 { font:600 15px var(--font-sans); margin:0; white-space:nowrap; border-left:1px solid var(--ui-line); padding-left:18px; }
 html body .ve-command-trigger { display:flex; align-items:center; gap:9px; width:min(32vw,390px); margin-inline:auto; color:var(--ve-muted); background:var(--ve-surface); text-align:left; }
 .ve-command-trigger svg { width:16px; height:16px; flex-shrink:0; }
@@ -16,7 +16,7 @@ html body .ve-command-trigger { display:flex; align-items:center; gap:9px; width
 .ve-command-trigger kbd { margin-left:auto; }
 .ve-top-actions { display:flex; align-items:center; gap:8px; white-space:nowrap; }
 .ve-export-menu,.ve-theme-menu { position:relative; }
-.ve-export-menu > summary { padding:7px 14px; border-radius:5px; list-style:none; background:var(--theme-accent-color); color:var(--theme-bg); font-size:12px; font-weight:600; }
+.ve-export-menu > summary { padding:7px 14px; border-radius:var(--ui-radius-control); list-style:none; background:var(--theme-accent-color); color:var(--theme-bg); font-size:12px; font-weight:600; }
 .ve-export-menu > div,.ve-theme-menu > div { position:absolute; z-index:70; right:0; top:calc(100% + 8px); width:250px; padding:8px; background:var(--ve-paper); border:1px solid var(--ui-line); border-radius:7px; box-shadow:0 8px 28px #0002; white-space:normal; }
 .ve-export-menu > div :is(button,a) { display:block; width:100%; margin-bottom:4px; text-align:left; }
 .ve-export-menu p { font-size:11px; line-height:1.6; margin:10px 4px 4px; color:var(--ve-muted); }
@@ -24,7 +24,7 @@ html body .ve-workbench .ve-workspace { flex:1; min-height:0; display:grid; grid
 .ve-activity { display:flex; flex-direction:column; align-items:stretch; border-right:1px solid var(--ui-line); background:var(--ve-surface); padding:8px 3px; gap:8px; }
 html body .ve-activity button { display:flex; flex-direction:column; align-items:center; gap:4px; min-height:52px; border:0; border-radius:0; background:transparent; padding:6px 2px; color:var(--ve-muted); font-size:9px; line-height:1.3; }
 .ve-activity svg { width:22px; height:22px; }
-html body .ve-activity button[aria-pressed='true'] { color:var(--theme-accent-color); box-shadow:-3px 0 var(--theme-accent-color); background:rgb(var(--theme-accent-rgb)/.045); }
+html body .ve-activity button[aria-pressed='true'] { color:var(--theme-fg); box-shadow:inset 2px 0 var(--theme-fg); background:rgb(var(--theme-fg-rgb)/.055); }
 .ve-rail-bottom { margin-top:auto; }
 .ve-sidebar { overflow:auto; border-right:1px solid var(--ui-line); background:var(--ve-surface); min-width:0; }
 .ve-sidebar > section { padding:0 15px 18px; }
@@ -39,7 +39,7 @@ html body [data-outline] button.is-active { color:var(--theme-accent-color); bac
 .ve-sidebar-hint { margin-top:28px; }
 html body .ve-workbench .ve-settings { border:0; padding:0 15px 18px; }
 html body .ve-workbench label { font-size:11px; gap:5px; margin-bottom:12px; }
-html body .ve-workbench label > span { display:inline; color:var(--theme-accent-color); }
+html body .ve-workbench label > span { display:inline; color:var(--ve-muted); }
 html body .ve-workbench input,html body .ve-workbench select { min-height:32px; padding:5px 8px; font-size:12px; }
 html body .ve-workbench .ve-compose { display:flex; flex-direction:column; min-width:0; overflow:hidden; border-right:1px solid var(--ui-line); }
 .ve-editor-tabs { display:flex; align-items:center; gap:0; height:44px; min-height:44px; border-bottom:1px solid var(--ui-line); padding:0 12px; }
@@ -53,7 +53,7 @@ html body .ve-toolbar button { background:transparent; min-height:28px; padding:
 .ve-canvas { overflow:auto; padding:32px clamp(20px,3vw,46px) 100px; flex:1; min-height:0; }
 html body .ve-workbench .ve-title-input { padding:0; border:0; border-radius:0; background:transparent; font:500 32px/1.5 var(--font-serif); margin-bottom:24px; }
 html body .ve-workbench .ve-block { position:relative; border:1px solid transparent; border-left:2px solid transparent; border-radius:2px; padding:6px 10px; margin:0 -10px 14px; background:transparent; }
-html body .ve-workbench .ve-block.is-active { border-color:var(--ui-line); border-left-color:var(--theme-accent-color); }
+html body .ve-workbench .ve-block.is-active { border-color:transparent; border-left-color:var(--theme-accent-color); }
 html body .ve-workbench .ve-block > header { position:absolute; z-index:3; left:0; top:-27px; right:0; display:none; gap:4px; margin:0; justify-content:flex-end; pointer-events:none; }
 html body .ve-workbench .ve-block:is(.is-active,:focus-within) > header { display:flex; }
 html body .ve-block > header button { pointer-events:auto; background:var(--ve-paper); border:1px solid var(--ui-line); padding:1px 6px; min-height:24px; font-size:11px; }
@@ -205,9 +205,9 @@ html body .ve-workbench .ve-rich h2 { font-size:24px; }
 html body .ve-workbench .ve-rich h3 { font-size:20px; }
 html body .ve-workbench .ve-rich :is(h4,h5,h6) { font-size:17px; }
 html body .ve-workbench .ve-block { border-radius:6px; }
-html body .ve-workbench .ve-block:focus-within { border-color:rgb(var(--theme-fg-rgb)/.12); border-left-color:var(--theme-accent-color); }
+html body .ve-workbench .ve-block:focus-within { border-color:transparent; border-left-color:var(--theme-accent-color); }
 .ve-top-actions { flex-wrap:wrap; }
-.ve-topbar { height:auto; min-height:56px; padding-block:8px; }
+.ve-topbar { height:auto; min-min-height:60px; padding-block:8px; }
 .ve-selection-toolbar { flex-wrap:wrap; }
 html body .ve-workbench .ve-activity button { border-radius:6px; }
 .ve-pr-banner { flex-wrap:wrap; overflow-wrap:anywhere; }
@@ -234,13 +234,13 @@ html body .ve-workbench .ve-toolbar button, .ve-toolbar > .ve-format-more > summ
 /* Rebuilding blocks must not animate the caret or surrounding text. */
 html body .ve-workbench .ve-block { animation:none; }
 
-html body .ve-workbench .ve-properties-entry { border-color:rgb(var(--theme-accent-rgb)/.35); color:var(--theme-accent-color); background:rgb(var(--theme-accent-rgb)/.07); }
+html body .ve-workbench .ve-properties-entry { border-color:var(--ui-line); color:var(--theme-fg); background:transparent; }
 html body .ve-workbench .ve-document-properties { display:flex; flex-wrap:wrap; align-items:center; gap:4px 16px; width:100%; padding:12px 14px; margin:0 0 24px; text-align:left; border:1px solid var(--ui-line); border-radius:6px; background:var(--ve-surface); }
-.ve-document-properties-title { color:var(--theme-accent-color); font-weight:600; white-space:nowrap; }
+.ve-document-properties-title { color:var(--theme-fg); font-weight:600; white-space:nowrap; }
 .ve-document-properties-hint { color:var(--ve-muted); font-size:12px; line-height:1.6; }
 html body .ve-workbench :is(.ve-properties-entry,.ve-document-properties)[aria-pressed='true'] { border-color:var(--theme-accent-color); }
 
-html body .ve-workbench .ve-toolbar-arrow { flex:0 0 24px; width:24px; padding:0; font-size:20px; border-color:transparent; color:var(--theme-accent-color); }
+html body .ve-workbench .ve-toolbar-arrow { flex:0 0 28px; width:28px; padding:0; font-size:20px; border-color:transparent; color:var(--ve-muted); }
 html body .ve-workbench .ve-toolbar-arrow:disabled { opacity:.25; cursor:default !important; }
 
 .ve-entry-dialog { width:min(580px,calc(100vw - 32px)); padding:24px; overflow:auto; }
@@ -259,8 +259,20 @@ html body .ve-workbench .ve-toolbar-arrow:disabled { opacity:.25; cursor:default
 html body .ve-workbench[data-layout='write'] .ve-canvas{max-width:860px;width:100%;margin-inline:auto}
 @media(prefers-reduced-motion:no-preference){.ve-tools-menu[open]>div{animation:ve-tools-in 140ms ease-out}@keyframes ve-tools-in{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}}
 
-.ve-top-save{font:10px/1.5 var(--font-sans);color:rgb(var(--theme-fg-rgb)/.55);white-space:nowrap}.ve-topbar h1{max-width:28ch;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ve-top-save{font:11px/1.5 var(--font-sans);color:rgb(var(--theme-fg-rgb)/.55);white-space:nowrap}.ve-topbar h1{max-width:28ch;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 @media(min-width:1101px){html body .ve-workbench[data-side='properties']:not([data-sidebar-hidden]) .ve-sidebar{grid-column:4;grid-row:1;border-left:1px solid rgb(var(--theme-fg-rgb)/.12)}html body .ve-workbench[data-side='properties']:not([data-sidebar-hidden]) .ve-compose{grid-column:2;grid-row:1}html body .ve-workbench[data-side='properties']:not([data-sidebar-hidden]) .ve-output{grid-column:3;grid-row:1}html body .ve-workbench[data-side='properties'][data-layout='write']:not([data-sidebar-hidden]) .ve-workspace{grid-template-columns:54px minmax(0,1fr) 0 280px}html body .ve-workbench[data-side='properties'][data-layout='split']:not([data-sidebar-hidden]) .ve-workspace{grid-template-columns:54px minmax(260px,1fr) minmax(260px,1fr) 280px}}
 @media(max-width:760px){.ve-top-save{max-width:12ch;white-space:normal}.ve-topbar h1{max-width:16ch}}
 
 html body .ve-workbench .ve-toolbar-scroll button{border-color:transparent;background:transparent;box-shadow:none;border-radius:4px}html body .ve-workbench .ve-toolbar-scroll button:hover{background:rgb(var(--theme-fg-rgb)/.06)}html body .ve-workbench .ve-export-menu>summary{background:transparent;color:var(--theme-fg);border:1px solid rgb(var(--theme-fg-rgb)/.15)}
+
+/* A quiet workbench: document tools stay secondary to writing and submission. */
+html body .ve-workbench .ve-top-actions>button{min-height:36px;padding-inline:12px}
+html body .ve-workbench .ve-top-actions :is(.ve-tools-menu,.ve-export-menu)>summary{min-height:36px;display:flex;align-items:center;padding:6px 10px;border-color:transparent;border-radius:var(--ui-radius-control);transition:background 180ms}
+html body .ve-workbench .ve-top-actions summary:hover{background:var(--ui-hover)}
+html body .ve-workbench .ve-tools-menu>div button{border:0;background:transparent;padding:9px 12px}
+html body .ve-workbench .ve-tools-menu>div button:hover{background:var(--ui-hover)}
+html body .ve-workbench .ve-command-trigger{max-width:220px;border-color:transparent;background:transparent}
+html body .ve-workbench .ve-command-trigger:hover{background:var(--ui-hover)}
+.ve-topbar{column-gap:14px}
+@media(pointer:coarse){html body .ve-workbench :is(button,summary){min-height:44px}.ve-topbar{height:auto;padding-block:8px}}
+@media(max-width:760px){html body .ve-workbench .ve-top-actions>button{min-height:44px}.ve-topbar{height:auto;min-height:60px;row-gap:8px;padding:10px 12px}.ve-top-save{margin-left:auto}.ve-top-actions{width:100%}}
