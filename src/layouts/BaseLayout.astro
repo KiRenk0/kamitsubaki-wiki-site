@@ -119,10 +119,13 @@ const fontStylesheet = getLocaleFontStylesheet(lang).replace('display=optional',
         const storageKey = 'kamitsubaki-theme';
         const introStorageKey = 'kamitsubaki-home-intro-seen';
         let preference = 'system';
+        let interfaceAccent = 'mono';
         let shouldPlayIntro = false;
 
         try {
           const savedPreference = window.localStorage.getItem(storageKey);
+          const savedAccent=window.localStorage.getItem('kamitsubaki-interface-accent');
+          if(['mono','blue','violet','amber'].includes(savedAccent))interfaceAccent=savedAccent;
           if (savedPreference === 'light' || savedPreference === 'dark' || savedPreference === 'system') {
             preference = savedPreference;
           }
@@ -134,6 +137,7 @@ const fontStylesheet = getLocaleFontStylesheet(lang).replace('display=optional',
         const theme = preference === 'system' ? (systemPrefersDark ? 'dark' : 'light') : preference;
         document.documentElement.dataset.themePreference = preference;
         document.documentElement.dataset.theme = theme;
+        document.documentElement.dataset.interfaceAccent = interfaceAccent;
 
         if (isLocalizedHome) {
           shouldPlayIntro = true;

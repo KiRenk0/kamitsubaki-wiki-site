@@ -1,0 +1,15 @@
+---
+import {resolveLocaleCopy} from '../lib/i18n.mjs';
+interface Props {locale?:string;compact?:boolean;accentOnly?:boolean}
+const {locale='zh',compact=false,accentOnly=false}=Astro.props;
+const c=resolveLocaleCopy({zh:{mode:'明暗模式',accent:'界面配色',light:'浅色',dark:'深色',system:'跟随系统',mono:'黑白',blue:'冷蓝',violet:'灰紫',amber:'琥珀',note:'仅保存在此浏览器。词条图片、背景与角色主题色保持原样。'},en:{mode:'Appearance',accent:'Interface color',light:'Light',dark:'Dark',system:'System',mono:'Mono',blue:'Blue',violet:'Violet',amber:'Amber',note:'Saved in this browser. Artwork and character colors stay unchanged.'},ja:{mode:'表示モード',accent:'アクセント',light:'ライト',dark:'ダーク',system:'システム',mono:'モノクロ',blue:'ブルー',violet:'パープル',amber:'アンバー',note:'このブラウザーに保存します。画像とキャラクターの色は変更しません。'}},locale);
+const accents=[['mono','#999999'],['blue','#416ecb'],['violet','#816494'],['amber','#9b712e']];
+---
+<div class:list={['appearance-controls',{'appearance-controls--compact':compact}]}>
+ {!accentOnly&&<div class="appearance-row"><span>{c.mode}</span><div role="radiogroup" aria-label={c.mode}>{['light','dark','system'].map(value=><button type="button" data-theme-toggle data-theme-value={value} role="radio" aria-checked="false">{c[value]}</button>)}</div></div>}
+ <div class="appearance-row"><span>{c.accent}</span><div role="radiogroup" aria-label={c.accent}>{accents.map(([value,color])=><button type="button" data-accent-toggle data-accent-value={value} role="radio" aria-checked="false"><i aria-hidden="true" style={`--swatch:${color}`}></i>{c[value]}</button>)}</div></div>
+ {!compact&&<p>{c.note}</p>}
+</div>
+<style is:global>
+.appearance-controls{display:grid;gap:20px;max-width:640px}.appearance-row{display:grid;gap:9px}.appearance-row>span{font-size:12px;color:rgb(var(--theme-fg-rgb)/.65)}.appearance-row>[role=radiogroup]{display:flex;flex-wrap:wrap;gap:6px}.appearance-row button{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:38px;padding:8px 12px;border:1px solid rgb(var(--theme-fg-rgb)/.16);border-radius:4px;color:var(--theme-fg);background:none;font:12px/1.5 var(--font-sans);cursor:pointer;transition:background 180ms,border-color 180ms}.appearance-row button[aria-checked=true]{border-color:var(--theme-fg);background:rgb(var(--theme-fg-rgb)/.065)}.appearance-row button:hover{background:rgb(var(--theme-fg-rgb)/.05)}.appearance-row button:focus-visible{outline:2px solid var(--ui-accent-color);outline-offset:3px}.appearance-row i{width:9px;height:9px;border-radius:50%;background:var(--swatch);border:1px solid rgb(var(--theme-fg-rgb)/.2)}.appearance-controls>p{font-size:12px;line-height:1.8;color:rgb(var(--theme-fg-rgb)/.65);margin:0}.appearance-controls--compact{gap:12px}.appearance-controls--compact .appearance-row button{padding:6px 9px;font-size:11px}.appearance-controls--compact .appearance-row>[role=radiogroup]{gap:4px}@media(max-width:760px),(pointer:coarse){.appearance-row button{min-height:44px}}@media(prefers-reduced-motion:reduce){.appearance-row button{transition:none}}
+</style>

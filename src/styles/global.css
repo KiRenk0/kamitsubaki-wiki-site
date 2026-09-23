@@ -27,9 +27,9 @@
   --theme-fg: #ffffff;
   --theme-fg-rgb: 255 255 255;
   --theme-body: #d1d1d1;
-  --theme-accent-rgb: 145 175 255;
-  --ui-accent-color: #91afff;
-  --ui-accent-rgb: 145 175 255;
+  --theme-accent-rgb: var(--ui-accent-rgb);
+  --ui-accent-color: #dedede;
+  --ui-accent-rgb: 222 222 222;
   --theme-accent-color: var(--ui-accent-color);
   --color-white: var(--theme-fg);
   --color-black: var(--theme-bg);
@@ -51,9 +51,9 @@ html[data-theme='light'] {
   --theme-fg: #171b1e;
   --theme-fg-rgb: 0 0 0;
   --theme-body: #343a3e;
-  --theme-accent-rgb: 49 95 203;
-  --ui-accent-color: #315fcb;
-  --ui-accent-rgb: 49 95 203;
+  --theme-accent-rgb: var(--ui-accent-rgb);
+  --ui-accent-color: #282828;
+  --ui-accent-rgb: 40 40 40;
   --theme-accent-color: var(--ui-accent-color);
   --wiki-muted-color: #62656d;
   --wiki-surface-color: #f2f2f4;
@@ -67,6 +67,14 @@ html[data-theme='light'] {
   --color-white: var(--theme-fg);
   --color-black: var(--theme-bg);
 }
+
+/* Interface accents stay separate from character artwork and scoped entity themes. */
+html[data-interface-accent='blue']{--ui-accent-color:#91afff;--ui-accent-rgb:145 175 255}
+html[data-interface-accent='violet']{--ui-accent-color:#c8acd9;--ui-accent-rgb:200 172 217}
+html[data-interface-accent='amber']{--ui-accent-color:#dabb83;--ui-accent-rgb:218 187 131}
+html[data-theme='light'][data-interface-accent='blue']{--ui-accent-color:#315fcb;--ui-accent-rgb:49 95 203}
+html[data-theme='light'][data-interface-accent='violet']{--ui-accent-color:#745287;--ui-accent-rgb:116 82 135}
+html[data-theme='light'][data-interface-accent='amber']{--ui-accent-color:#825d20;--ui-accent-rgb:130 93 32}
 
 .wiki-theme-shell {
   --theme-accent-color: var(--wiki-accent-color);

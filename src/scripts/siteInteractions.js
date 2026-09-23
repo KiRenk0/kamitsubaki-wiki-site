@@ -673,6 +673,7 @@ document.addEventListener('DOMContentLoaded', () => {
   ['click','auxclick','keydown'].forEach(type=>document.addEventListener(type,handleSpoilerActivation,true));
 
   // ── Artist category expand/collapse ──
+  const artistList = document.getElementById('artist-list');
   if (artistList instanceof HTMLElement) {
     artistList.addEventListener('click', (event) => {
       const button = event.target instanceof Element && event.target.closest('.artist-expand-btn, [data-artist-collapse]');

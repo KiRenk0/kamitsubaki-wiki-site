@@ -1,4 +1,5 @@
 ---
+import AppearanceControls from './AppearanceControls.astro';
 import {featuresFor} from '../lib/siteFeatures.mjs';
 import {accountCopy} from '../lib/accountCopy.mjs';
 import CompactLanguageSwitcher from './CompactLanguageSwitcher.astro';
@@ -110,6 +111,7 @@ const themeCopy = resolveLocaleCopy({
                 ))}
               </div>
               </div>
+              <AppearanceControls locale={currentLocale} compact accentOnly/>
             </div>
           </div>
         </div>

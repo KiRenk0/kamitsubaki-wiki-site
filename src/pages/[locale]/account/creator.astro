@@ -1,0 +1,21 @@
+---
+import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
+import WorkspaceButton from '../../../components/WorkspaceButton.astro';
+import {supportedLocales,resolveLocaleCopy} from '../../../lib/i18n.mjs';
+import {editorApiBase} from '../../../lib/editorConfig.mjs';
+import '../../../styles/creatorWorkspace.css';
+export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
+const locale=Astro.params.locale||'zh';
+const c=resolveLocaleCopy({zh:{title:'创作者中心',intro:'从草稿到公开，把每一次整理留在这里。',back:'我的空间',overview:'总览',entry:'词条',article:'文章',gallery:'图库',create:'开始创作',entryAction:'编辑词条',articleAction:'投稿文章',galleryAction:'上传设定',drafts:'本机草稿',draftNote:'仅此浏览器保存，不代表已提交审核。',emptyDrafts:'此浏览器还没有可继续编辑的草稿。',records:'投稿记录',refresh:'刷新记录',more:'加载更多',open:'查看记录',loading:'正在读取记录…',empty:'暂无投稿记录。',error:'未能读取，请重试。',login:'登录后查看云端投稿',local:'本机草稿',continue:'继续编辑',all:'全部',states:{draft:'草稿',pending:'待审核',approved:'审核通过',rejected:'已退回'}},en:{title:'Creator center',intro:'Your drafts and contributions, from first edit to publication.',back:'My space',overview:'Overview',entry:'Entries',article:'Articles',gallery:'Gallery',create:'Create',entryAction:'Edit an entry',articleAction:'Write an article',galleryAction:'Upload references',drafts:'Local drafts',draftNote:'Saved in this browser; not submitted for review.',emptyDrafts:'No local drafts yet.',records:'Submissions',refresh:'Refresh',more:'Load more',open:'View records',loading:'Loading…',empty:'No submissions yet.',error:'Unable to load. Please retry.',login:'Sign in to view submissions',local:'Local draft',continue:'Continue editing',all:'All',states:{draft:'Draft',pending:'Pending',approved:'Approved',rejected:'Returned'}},ja:{title:'クリエイターセンター',intro:'下書きから公開まで、投稿をここで確認。',back:'マイスペース',overview:'概要',entry:'項目',article:'記事',gallery:'ギャラリー',create:'制作を始める',entryAction:'項目を編集',articleAction:'記事を投稿',galleryAction:'設定資料を投稿',drafts:'端末の下書き',draftNote:'このブラウザーのみ。まだ審査に提出されていません。',emptyDrafts:'下書きはありません。',records:'投稿記録',refresh:'更新',more:'さらに表示',open:'記録を見る',loading:'読み込み中…',empty:'投稿はありません。',error:'読み込めませんでした。再試行してください。',login:'ログインして投稿を確認',local:'端末の下書き',continue:'編集を続ける',all:'すべて',states:{draft:'下書き',pending:'審査待ち',approved:'承認済み',rejected:'差し戻し'}}},locale);
+const api=import.meta.env.PUBLIC_ARTICLE_API_URL||import.meta.env.PUBLIC_AI_OBSERVER_API_BASE||'https://api.kamitsubaki.wiki';
+const types=[['entry',c.entryAction,`/${locale}/contribute/editor/`],['article',c.articleAction,`/${locale}/articles/submit/`],['gallery',c.galleryAction,`/${locale}/gallery/manage/`]];
+---
+<WorkspaceLayout locale={locale} title={c.title} intro={c.intro} path="/account/creator/" eyebrow="CREATOR SPACE" backHref={`/${locale}/account/`} backLabel={c.back} noindex mainAttributes={{'data-creator-center':'','data-locale':locale,'data-api':api,'data-editor-api':editorApiBase,'data-copy':JSON.stringify(c)}}>
+ <div class="creator-start" aria-label={c.create}>{types.map(([type,label,href],index)=><a href={href}><span class="creator-start__index">0{index+1}</span><span><strong>{label}</strong><small>{c[type]}</small></span><span aria-hidden="true">↗</span></a>)}</div>
+ <section class="creator-local"><div class="creator-section-head"><h2>{c.drafts}</h2><span>{c.draftNote}</span></div><div data-creator-drafts><p>{c.emptyDrafts}</p></div></section>
+ <section><div class="creator-section-head"><h2>{c.records}</h2><WorkspaceButton data-creator-refresh tone="quiet">{c.refresh}</WorkspaceButton></div>
+ <nav class="creator-types" aria-label={c.records}><button type="button" data-creator-type="all" aria-pressed="true">{c.overview}</button>{types.map(([type])=><button type="button" data-creator-type={type} aria-pressed="false">{c[type]}</button>)}</nav>
+ <div class="creator-records">{types.map(([type,label,href])=><section data-creator-source={type}><div class="creator-section-head"><h3>{c[type]}</h3><a href={href+(type==='entry'?'?view=submissions':'')}>{c.open} ↗</a></div><p data-source-status role="status">{c.loading}</p><div data-source-items></div><WorkspaceButton data-source-more hidden>{c.more}</WorkspaceButton><WorkspaceButton data-source-retry hidden>{c.refresh}</WorkspaceButton></section>)}</div>
+ </section>
+</WorkspaceLayout>
+<script>import '../../../scripts/creatorCenter.js';</script>
