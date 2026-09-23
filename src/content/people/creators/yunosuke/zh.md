@@ -46,8 +46,6 @@ lifecycle:
 sources: []
 summary: "将前沿音效设计融入流行音乐的音乐制作人 / 作曲家 / 编曲家。Vocaloid 制作人，代表作「PaIII.SENSATION」YouTube 播放量超 660 万。"
 ---
-
-
 ## 概述
 
 雄之助（Yunosuke）是一位音乐制作人、作曲家兼编曲家，以将前沿音效设计融入流行音乐而著称。作为 Vocaloid 制作人，他凭借「PaIII.SENSATION」一曲获得广泛认可，该曲在 YouTube 上累积播放量超过 660 万次，成为当代 Vocaloid 领域的标志性作品。
@@ -59,6 +57,19 @@ summary: "将前沿音效设计融入流行音乐的音乐制作人 / 作曲家 
 Yunosuke 的制作风格以精致的电子音景与流行乐感的融合为核心特征。他能够在保持旋律亲和力的同时，构建高能量、音色丰富的曲目，这种能力使他在虚拟与现实艺人领域均备受青睐。
 
 他还是与 WaMi 共组的组合 [Awairo](/zh/artists/solo/awairo) 的成员，进一步拓展了在神椿创作生态系统中的合作版图。插画由米室负责。
+
+## 艺术定位与创作谱系
+
+**雄之助（Yunosuke）** 是 [SINSEKAI RECORD](/zh/database/studios/sinsekai-record) 旗下的作曲家、编曲家与声音制作人，其创作谱系可概括为「**顶尖 Future Bass 与 Electro 舞曲编曲 ＋ 国际化音色**」。
+
+| 维度 | 特征 |
+| :--- | :--- |
+| **编曲底色** | 以世界级俱乐部音乐（Future Bass / House / Electro）为基准，低频架构与合成器设计极为精密 |
+| **声音取向** | 明亮、锐利、国际化的音色选择，强调「舞曲的可跳性」与「声音的物理冲击」 |
+| **代表作品** | 《PaⅢ.SENSATION》《螺旋》，以及为 VALIS、可不提供的大量核心电子舞曲 |
+| **技术身份** | 兼具作曲家与声音工程师属性，作品常被作为电子制作的参考范本 |
+
+> **历史地位**：雄之助是把「世界基准的俱乐部音色」引入日本 VOCALOID 与虚拟歌手领域的先驱之一，其作品长期被视为电子舞曲制作的技术标杆。
 
 ## 代表作品
 
@@ -143,36 +154,6 @@ Yunosuke 的制作风格以精致的电子音景与流行乐感的融合为核�
 
 主要个人专辑包括《[Unique Antique](/zh/albums/yunosuke/unique-antique-1011454503)》《[Pathos](/zh/albums/yunosuke/pathos-1103188278)》《[Black or White](/zh/albums/yunosuke/black-or-white-1304869904)》《[Fiction](/zh/albums/yunosuke/fiction-1419403824)》《[Proto](/zh/albums/yunosuke/proto-1535422307)》《[Tranquilizer](/zh/albums/yunosuke/tranquilizer-1684861827)》。其创作可以分为 VOCALOID 投稿、纯音乐、游戏供曲与 [Awairo](/zh/artists/solo/awairo) 组合活动四条线索；目录中应保留作词、作曲、编曲、调音和演唱者等不同制作职位。
 
-## 外部链接
-
-- [Twitter](https://twitter.com/bass_ynk)
-- [YouTube](https://www.youtube.com/user/yunosuke23)
-
-
-<!-- V3 RESEARCH SUPPLEMENT yunosuke -->
-
-## 艺术定位与创作谱系
-
-**雄之助（Yunosuke）** 是 [SINSEKAI RECORD](/zh/database/studios/sinsekai-record) 旗下的作曲家、编曲家与声音制作人，其创作谱系可概括为「**顶尖 Future Bass 与 Electro 舞曲编曲 ＋ 国际化音色**」。
-
-| 维度 | 特征 |
-| :--- | :--- |
-| **编曲底色** | 以世界级俱乐部音乐（Future Bass / House / Electro）为基准，低频架构与合成器设计极为精密 |
-| **声音取向** | 明亮、锐利、国际化的音色选择，强调「舞曲的可跳性」与「声音的物理冲击」 |
-| **代表作品** | 《PaⅢ.SENSATION》《螺旋》，以及为 VALIS、可不提供的大量核心电子舞曲 |
-| **技术身份** | 兼具作曲家与声音工程师属性，作品常被作为电子制作的参考范本 |
-
-> **历史地位**：雄之助是把「世界基准的俱乐部音色」引入日本 VOCALOID 与虚拟歌手领域的先驱之一，其作品长期被视为电子舞曲制作的技术标杆。
-
-## 与神椿艺人的伴生关系
-
-- **与 [VALIS](/zh/database/artists/groups/valis)**：雄之助为 VALIS 提供了多首核心曲目，其高密度电子编曲与六人阵型的高难度编舞需求高度契合；
-- **与音乐同位体**：为 [可不](/zh/database/isotopes/kafu) 等声库提供核心电子舞曲，展示 AI 歌声在高速电子编排下的可能性；
-- **与 [Awairo](/zh/database/artists/groups/awairo) 等派生企划**：雄之助亦以个人身份介入神椿的多项派生企划，承担作曲与制作职能；
-- **与其他创作者协作**：其编曲常与 [梓川](/zh/database/artists/solo/azsagawa) 等歌手的作品相连（如《パラノイア》的编曲）。
-
-> **协作模式**：雄之助的典型工作方式是「作词由他人、作曲编曲由自己」——这一分工在 VALIS 的多首作品中反复出现，构成其供曲的稳定形态。
-
 ## 代表作品索引
 
 | 作品 | 关联对象 | 说明 |
@@ -183,3 +164,19 @@ Yunosuke 的制作风格以精致的电子音景与流行乐感的融合为核�
 | 《花となれ》 | 个人 | 被 VALIS 成员在线上演出中翻唱 |
 
 > **风格小结**：雄之助的作品几乎都带有「可以站上舞池」的物理性——他不追求叙事上的隐晦，而是用精准的低频与音色设计直接作用于听众的身体。
+
+## 与神椿艺人的伴生关系
+
+- **与 [VALIS](/zh/database/artists/groups/valis)**：雄之助为 VALIS 提供了多首核心曲目，其高密度电子编曲与六人阵型的高难度编舞需求高度契合；
+- **与音乐同位体**：为 [可不](/zh/database/isotopes/kafu) 等声库提供核心电子舞曲，展示 AI 歌声在高速电子编排下的可能性；
+- **与 [Awairo](/zh/database/artists/groups/awairo) 等派生企划**：雄之助亦以个人身份介入神椿的多项派生企划，承担作曲与制作职能；
+- **与其他创作者协作**：其编曲常与 [梓川](/zh/database/artists/solo/azsagawa) 等歌手的作品相连（如《パラノイア》的编曲）。
+
+> **协作模式**：雄之助的典型工作方式是「作词由他人、作曲编曲由自己」——这一分工在 VALIS 的多首作品中反复出现，构成其供曲的稳定形态。
+
+## 外部链接
+
+- [Twitter](https://twitter.com/bass_ynk)
+- [YouTube](https://www.youtube.com/user/yunosuke23)
+
+<!-- V3 RESEARCH SUPPLEMENT yunosuke -->

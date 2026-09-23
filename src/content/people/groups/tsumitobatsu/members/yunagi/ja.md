@@ -34,7 +34,6 @@ lifecycle:
   startedAt: "2024-08-08"
 summary: "うたう、たべる、あそぶ！元気いっぱいのバーチャルシンガー。"
 ---
-
 ## 紹介
 
 夕凪機は、[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) の「[少女革命計画](/ja/projects/labels/girls-revolution-project)」に所属するバーチャルシンガーです。3人組ユニット「[罪十罰](/ja/artists/girls_revolution_project/tsumitobatsu)」のメンバーで、キャラクターデザインは [PALOW.](/ja/artists/creators/palow) が担当しています。
@@ -67,16 +66,6 @@ summary: "うたう、たべる、あそぶ！元気いっぱいのバーチャ�
 
 {{/details}}
 
-## 外部リンク
-
-- [KAMITSUBAKI STUDIO 公式サイト（罪十罰）](https://kamitsubaki.jp/artist/tsumitobatsu/)
-- [少女革命計画 公式サイト](https://girlsrevolutionproject.jp/)
-- [YouTube チャンネル](https://www.youtube.com/@yunagi_grp)
-- [X 公式ページ](https://x.com/yunagi_gr)
-
-
-<!-- V3 RESEARCH SUPPLEMENT yunagi -->
-
 ## 個人楽曲アーカイブ
 
 本項目に収録された独唱曲は以下の通り（公開・配信日順）。
@@ -89,3 +78,12 @@ summary: "うたう、たべる、あそぶ！元気いっぱいのバーチャ�
 | 2025-12-17 | 化け物でいさせて | — |
 
 > **データ出典**：以下の曲目は本サイトの実体登録表（Metadata Schema v2）から自動集計したもので、日付と歌唱者は各項目のメタデータに準拠する。ユニット曲・合唱曲は所属ユニットおよび[少女革命計画](/ja/database/projects/girls-revolution-project)の総項目を参照。
+
+## 外部リンク
+
+- [KAMITSUBAKI STUDIO 公式サイト（罪十罰）](https://kamitsubaki.jp/artist/tsumitobatsu/)
+- [少女革命計画 公式サイト](https://girlsrevolutionproject.jp/)
+- [YouTube チャンネル](https://www.youtube.com/@yunagi_grp)
+- [X 公式ページ](https://x.com/yunagi_gr)
+
+<!-- V3 RESEARCH SUPPLEMENT yunagi -->

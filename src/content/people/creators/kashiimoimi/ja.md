@@ -46,8 +46,6 @@ lifecycle:
   startedAt: "2018-12-01"
 summary: "ダークで中毒性のあるメロディと女性ならではの視点で知られる女性 VocaloP。ピアノ・ストリングス、EDM、シティポップを融合。"
 ---
-
-
 ## 概要
 
 香椎モイミは、2018年12月にデビューした女性 VocaloP である。ダークで中毒性のあるメロディと、女性ならではの情感あふれる視点で独自の世界観を構築している。ピアノやストリングスを基調としたサウンドに EDM やシティポップの要素を巧みに融合させ、ジャンルにとらわれない楽曲を展開している。
@@ -59,6 +57,27 @@ summary: "ダークで中毒性のあるメロディと女性ならではの視�
 香椎モイミの楽曲は、ダークで魅惑的なメロディックフックと感情的な物語性が特徴である。ピアノバラードの親密さと EDM の躍動感を融合させる独自の手法が、他のクリエイターとの差別化を実現している。歌詞に織り込まれる女性的な視点は、繊細さと率直な感情の両立としてリスナーに深く訴えかける。
 
 旺盛な創作活動と安定したクオリティにより、ANARCHIC RECORD の中核を担う存在となっている。
+
+## 芸術的定位と創作系譜
+
+**香椎モイミ（Kashii Moimi）** は [ANARCHIC RECORD](/ja/database/studios/anarchic-record) 所属の女性作曲家である。その創作系譜は「**暗色のポップ × ゴシックな叙情舞曲 × 極めて緊張感の高い弦楽**」と総括できる。
+
+| 次元 | 特徴 |
+| :--- | :--- |
+| **器楽の基層** | 弦楽とピアノで華麗なゴシック様式の枠組みを構築し、舞曲のビートと組み合わせて「踊れる悲劇」を形づくる |
+| **情緒の志向** | 暗色、偏執、占有欲、そして愛の極端な形態が繰り返し書かれる主題である |
+| **代表作品** | 《偏愛》《キャットラビング》 |
+| **テキストの強度** | 歌詞の物語密度がきわめて高く、一人称のまなざしと支配の関係によってしばしば劇的な緊張を生み出す |
+
+> **神椿における位置**：香椎モイミ は神椿の「暗色美学」を代表するクリエイターであり、[春猿火](/ja/database/artists/solo/harusaruhi) と [ヰ世界情緒](/ja/database/artists/solo/isekaijoucho) に提供した大量の楽曲は、二人の魔女の最も鋭利な作品群を構成している。
+
+## 活動歴と投稿統計
+
+香椎モイミは2018年12月15日にniconicoとYouTubeへVOCALOID初投稿「そっか」を投稿し、2020年7月8日にBilibiliでも活動を開始した。2021年7月17日に[可不](/ja/artists/isotopes/kafu)歌唱で「[キャットラビング](/ja/songs/kashiimoimi/originals/kyattorabingu)」を発表し、初の伝説入り作品となった。2022年7月には同曲のYouTube再生数が1,000万回を突破し、2021年10月18日に神椿へ加入した。
+
+2024年4月27日時点の整理では、VOCALOID / CeVIOオリジナル曲を53曲投稿し、15曲が殿堂入り、1曲が伝説入りしている。KAITOを好み、[ヰ世界情緒](/ja/artists/vwp/isekaijoucho)への楽曲提供を続け、[星界](/ja/artists/isotopes/sekai)のカバー・デモでは調声も担当した。檀上大空らイラストレーターとの公開上の交流もある。
+
+- 2026年9月：THINKRのスタジオ再編に伴い、[KYOKAI STUDIO](/ja/projects/labels/kyokai-studio) へ移籍（旧・[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) 体系）。
 
 ## 代表作品
 
@@ -101,53 +120,9 @@ summary: "ダークで中毒性のあるメロディと女性ならではの視�
 
 {{/details}}
 
-## 活動歴と投稿統計
-
-香椎モイミは2018年12月15日にniconicoとYouTubeへVOCALOID初投稿「そっか」を投稿し、2020年7月8日にBilibiliでも活動を開始した。2021年7月17日に[可不](/ja/artists/isotopes/kafu)歌唱で「[キャットラビング](/ja/songs/kashiimoimi/originals/kyattorabingu)」を発表し、初の伝説入り作品となった。2022年7月には同曲のYouTube再生数が1,000万回を突破し、2021年10月18日に神椿へ加入した。
-
-2024年4月27日時点の整理では、VOCALOID / CeVIOオリジナル曲を53曲投稿し、15曲が殿堂入り、1曲が伝説入りしている。KAITOを好み、[ヰ世界情緒](/ja/artists/vwp/isekaijoucho)への楽曲提供を続け、[星界](/ja/artists/isotopes/sekai)のカバー・デモでは調声も担当した。檀上大空らイラストレーターとの公開上の交流もある。
-
-- 2026年9月：THINKRのスタジオ再編に伴い、[KYOKAI STUDIO](/ja/projects/labels/kyokai-studio) へ移籍（旧・[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) 体系）。
-
 ## 代表アルバムとコラボレーション
 
 代表曲は「[キャットラビング](/ja/songs/kashiimoimi/originals/kyattorabingu)」「偏食」「[管理欲](/ja/songs/kashiimoimi/originals/管理欲)」「[ブルーヒーロー](/ja/songs/kashiimoimi/originals/buruuhiiroo)」「[あくむのひかり](/ja/songs/kashiimoimi/originals/akumunohikari)」「[飛翔](/ja/songs/kashiimoimi/originals/飛翔)」「[失踪前夜](/ja/songs/kashiimoimi/originals/失踪前夜)」「[バッドエンドメーカー](/ja/songs/kashiimoimi/originals/baddoendomeekaa)」「[Human-Like](/ja/songs/kashiimoimi/originals/human-like)」「[ワンダーランド地下](/ja/songs/kashiimoimi/originals/wandaarando地下)」「[蜂蜜日記](/ja/songs/kashiimoimi/originals/蜂蜜日記)」など。アルバムとして『[渇愛](/ja/albums/kashiimoimi/渇愛-1525996939)』『[偏愛](/ja/albums/kashiimoimi/偏愛-1667770496)』があり、VOCALOID / CeVIO投稿、神椿アーティストへの提供曲、カバーデモ、個人アルバムを分けて記録する。
-
-## 参考資料
-
-- YouTube：<https://www.youtube.com/channel/UC9_8AXpxjjNl62HPhF5IAyg>
-- Twitter：<https://twitter.com/moi__moimi>
-
-## 外部リンク
-
-- [YouTube](https://www.youtube.com/channel/UC9_8AXpxjjNl62HPhF5IAyg)
-- [Twitter](https://twitter.com/moi__moimi)
-- [Bilibili](https://space.bilibili.com/627704742)
-
-
-<!-- V3 RESEARCH SUPPLEMENT kashiimoimi -->
-
-## 芸術的定位と創作系譜
-
-**香椎モイミ（Kashii Moimi）** は [ANARCHIC RECORD](/ja/database/studios/anarchic-record) 所属の女性作曲家である。その創作系譜は「**暗色のポップ × ゴシックな叙情舞曲 × 極めて緊張感の高い弦楽**」と総括できる。
-
-| 次元 | 特徴 |
-| :--- | :--- |
-| **器楽の基層** | 弦楽とピアノで華麗なゴシック様式の枠組みを構築し、舞曲のビートと組み合わせて「踊れる悲劇」を形づくる |
-| **情緒の志向** | 暗色、偏執、占有欲、そして愛の極端な形態が繰り返し書かれる主題である |
-| **代表作品** | 《偏愛》《キャットラビング》 |
-| **テキストの強度** | 歌詞の物語密度がきわめて高く、一人称のまなざしと支配の関係によってしばしば劇的な緊張を生み出す |
-
-> **神椿における位置**：香椎モイミ は神椿の「暗色美学」を代表するクリエイターであり、[春猿火](/ja/database/artists/solo/harusaruhi) と [ヰ世界情緒](/ja/database/artists/solo/isekaijoucho) に提供した大量の楽曲は、二人の魔女の最も鋭利な作品群を構成している。
-
-## 神椿アーティストとの伴走関係
-
-- **[春猿火（HARUSARUHI）](/ja/database/artists/solo/harusaruhi) との関係**：香椎モイミは春猿火に複数の核となる代表作を提供しており、その緊張感の高い弦楽と編曲は春猿火の爆発的なラップとシャウトと完璧に噛み合っている；
-- **[ヰ世界情緒（ISEKAIJOUCHO）](/ja/database/artists/solo/isekaijoucho) との関係**：情緒の古典芸術的な気質と香椎モイミのゴシックな叙情の語彙は高度に噛み合い、両者の協働は情緒の最も劇的な緊張を備えた楽曲（たとえば《物語があるなら》）を生み出した；
-- **V.W.P 派生曲との関係**：ヰ世界情緒 × 花譜 の《深淵》は香椎モイミが作詞・作曲・編曲を一手に担い、「魔女の二人組」という実験の重要な一環となっている；
-- **[ANARCHIC RECORD](/ja/database/studios/anarchic-record) との関係**：同レーベルのメンバーとして、Guiano、大沼パセリ らとともに神椿の現実派クリエイター層を構成している。
-
-> **「伴走制」の実践**：香椎モイミ は典型的な「複数アーティスト伴走」型のクリエイターである——同時に二人の魔女の音楽構築に深く関与し、そのなかで高度に統一された暗色美学を保ち続けている。これは神椿のクリエイター群のなかでも比較的稀有なあり方である。
 
 ## 代表作品インデックス
 
@@ -160,3 +135,25 @@ summary: "ダークで中毒性のあるメロディと女性ならではの視�
 | 春猿火の複数オリジナル曲 | [春猿火](/ja/database/artists/solo/harusaruhi) | その中核曲庫を構成 |
 
 > **スタイル小括**：香椎モイミ の音楽は常に「欲望」と「破滅」を同じ一つの文のなかに置く——華麗な外殻が不安の核を包み込んでおり、これこそが神椿の暗色系譜における彼女の独自の座標である。
+
+## 神椿アーティストとの伴走関係
+
+- **[春猿火（HARUSARUHI）](/ja/database/artists/solo/harusaruhi) との関係**：香椎モイミは春猿火に複数の核となる代表作を提供しており、その緊張感の高い弦楽と編曲は春猿火の爆発的なラップとシャウトと完璧に噛み合っている；
+- **[ヰ世界情緒（ISEKAIJOUCHO）](/ja/database/artists/solo/isekaijoucho) との関係**：情緒の古典芸術的な気質と香椎モイミのゴシックな叙情の語彙は高度に噛み合い、両者の協働は情緒の最も劇的な緊張を備えた楽曲（たとえば《物語があるなら》）を生み出した；
+- **V.W.P 派生曲との関係**：ヰ世界情緒 × 花譜 の《深淵》は香椎モイミが作詞・作曲・編曲を一手に担い、「魔女の二人組」という実験の重要な一環となっている；
+- **[ANARCHIC RECORD](/ja/database/studios/anarchic-record) との関係**：同レーベルのメンバーとして、Guiano、大沼パセリ らとともに神椿の現実派クリエイター層を構成している。
+
+> **「伴走制」の実践**：香椎モイミ は典型的な「複数アーティスト伴走」型のクリエイターである——同時に二人の魔女の音楽構築に深く関与し、そのなかで高度に統一された暗色美学を保ち続けている。これは神椿のクリエイター群のなかでも比較的稀有なあり方である。
+
+## 参考資料
+
+- YouTube：<https://www.youtube.com/channel/UC9_8AXpxjjNl62HPhF5IAyg>
+- Twitter：<https://twitter.com/moi__moimi>
+
+## 外部リンク
+
+- [YouTube](https://www.youtube.com/channel/UC9_8AXpxjjNl62HPhF5IAyg)
+- [Twitter](https://twitter.com/moi__moimi)
+- [Bilibili](https://space.bilibili.com/627704742)
+
+<!-- V3 RESEARCH SUPPLEMENT kashiimoimi -->

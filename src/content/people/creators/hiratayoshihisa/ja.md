@@ -45,8 +45,6 @@ lifecycle:
   startedAt: "2021-10-18"
 summary: "ジャズ、ヒップホップ、ロックを融合した「トーキョーサウンド」を追求する音楽アーティスト兼映像作家。映画的な物語性が特徴。"
 ---
-
-
 ## 概要
 
 平田義久は、2021年10月18日から ANARCHIC RECORD に所属する音楽アーティスト兼映像作家である。ジャズ、ヒップホップ、ロックを融合させた独自の「トーキョーサウンド」を標榜し、都市東京の質感とエネルギーを映画音楽的なアプローチで表現している。自らを映画好きと称するほどシネフィルであり、音楽作品にも映像作品にも物語性と視覚的な語り口を持ち込む点が特徴。
@@ -93,14 +91,6 @@ UTAU 音源「劇薬」の活用は、ボカロ / UTAU クリエイターとの�
 
 {{/details}}
 
-## 外部リンク
-
-- [YouTube](https://www.youtube.com/channel/UCv9b9KtcBkM1_VEZZpK8bVQ)
-- [Twitter](https://twitter.com/yoshihisahirata)
-
-
-<!-- V3 RESEARCH SUPPLEMENT hiratayoshihisa -->
-
 ## 対外提供曲・編曲の記録
 
 平田義久が神椿体系内で手がけた対外提供曲の記録は以下のとおり（作詞・作曲・編曲の大半を本人が担っている）：
@@ -113,3 +103,10 @@ UTAU 音源「劇薬」の活用は、ボカロ / UTAU クリエイターとの�
 | 2026-04-08 | 《桜心中》 | [御莉姫](/ja/database/artists/groups/sinseiki/members/orihime) | 作詞 / 作曲 / 編曲 |
 
 > **提供曲の系譜に関する所見**：平田義久の対外提供曲は2022年から2026年にわたり、そのすべてが「[Albemuth](/ja/database/artists/groups/albemuth) → [罪十罰](/ja/database/artists/groups/tsumitobatsu) → [御莉姫](/ja/database/artists/groups/sinseiki/members/orihime)」という深脊界／少女革命計画の系譜上に集中している。うち2026年の《桜心中》は和風抒情を基調とし、《Brrrrrreak It》の重厚な志向とは鮮やかな対照をなしており、その創作が「静」と「烈」の両極を自在に操りうることを示している。
+
+## 外部リンク
+
+- [YouTube](https://www.youtube.com/channel/UCv9b9KtcBkM1_VEZZpK8bVQ)
+- [Twitter](https://twitter.com/yoshihisahirata)
+
+<!-- V3 RESEARCH SUPPLEMENT hiratayoshihisa -->

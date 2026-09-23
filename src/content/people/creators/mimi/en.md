@@ -44,8 +44,6 @@ lifecycle:
   activity: "active"
 summary: "A composer known for bittersweet piano-driven songs for people who find life difficult, supported across a wide age range."
 ---
-
-
 ## Overview
 
 MIMI is a composer under [KYOKAI STUDIO](/en/projects/labels/kyokai-studio) (transferred from [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) in September 2026) known for bittersweet, piano-driven songs that resonate with listeners who find life difficult. His music carries a gentle, contemplative quality — melodies that acknowledge sadness without surrendering to it — and has earned support across a remarkably wide age range of listeners.
@@ -58,6 +56,28 @@ MIMI's creative identity centers on a specific emotional register: the bitterswe
 
 His engagement with Vocaloid voices, including the CeVIO synthesizer KAFUNE (可不), extends his reach into the virtual singer sphere while maintaining the personal, confessional tone that defines his work.
 
+## Artistic Position and Creative Lineage
+
+**MIMI** is a composer and VOCALOID producer affiliated with [SINSEKAI RECORD](/en/database/studios/sinsekai-record). Their creative lineage can be summed up as “**healing, crystalline piano pop × high-speed scales × brightness tinged with sorrow**”.
+
+| Dimension | Characteristics |
+| :--- | :--- |
+| **Instrumental foundation** | Crystalline, springing piano at the core, paired with high-speed scale runs and light-footed drum patterns |
+| **Emotional orientation** | Bright on the surface, sorrowful within — a “gentle sense of companionship” is their greatest signature |
+| **Representative works** | 《モーメント》《ハナタバ》, plus highly praised original songs supplied to [KAFU](/en/database/isotopes/kafu) and [SEKAI](/en/database/isotopes/sekai) |
+| **Thematic motifs** | Companionship, consolation, the small kindnesses of everyday life |
+
+> **Aural impression**: MIMI's works are often described as a cup of warm water handed to you on a downcast night — not trying to solve the pain, but acknowledging it and staying by your side.
+
+## Their Place in the Isotope Co-Creation Network
+
+MIMI is one of the most active songwriters in KAMITSUBAKI's “**Isotope Co-Creation Network (Isotope Ecosystem)**”:
+
+- **KAFU (可不)**: MIMI has supplied KAFU with several highly praised original songs, an important component of KAFU's early catalogue;
+- **SEKAI (星界)**: their piano-ballad vocabulary fits SEKAI's transparent high register extremely well, and they have supplied SEKAI with a great many lyrical works.
+
+> **How the ecosystem works**: KAMITSUBAKI provides creators with the voice libraries of [KAFU](/en/database/isotopes/kafu), [SEKAI](/en/database/isotopes/sekai), [RIME](/en/database/isotopes/rime), [COKO](/en/database/isotopes/coko) and [HARU](/en/database/isotopes/haru), building a vast ecosystem of symbiosis with outside producers and generating landmark compilation series such as 《シンメトリー》 and 《パラドクス》. MIMI is a representative participant in this mechanism.
+
 ## Activity History
 
 - October 24, 2023: Released 1st original album.
@@ -67,6 +87,12 @@ His engagement with Vocaloid voices, including the CeVIO synthesizer KAFUNE (可
 - Active as a composer providing works across the KAMITSUBAKI STUDIO ecosystem.
 
 - September 2026: Transferred to [KYOKAI STUDIO](/en/projects/labels/kyokai-studio) as part of THINKR's studio reorganization (formerly under the [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) system).
+
+## Upload History and Catalogue Scope
+
+MIMI debuted with “Rapizurazuri” in 2016, and “Moment” became the first catalogue entry to reach the Hall of Fame threshold in 2017. As of July 5, 2025, the organized record counts 68 VOCALOID/CeVIO works: 55 reached Hall of Fame on niconico, 15 reached Legend on YouTube, and 3 reached Legend on niconico. The works commonly pair piano-led arrangements with one-image videos and gentle illustration.
+
+MIMI joined Kamitsubaki in 2022 while retaining an independent creative line. The first original album was released on October 24, 2023, followed by *Yoru wo Dakishimeru Toki.* on December 20, 2024.
 
 ## Representative Works and Related Entries
 
@@ -193,15 +219,19 @@ His engagement with Vocaloid voices, including the CeVIO synthesizer KAFUNE (可
 
 {{/details}}
 
-## Upload History and Catalogue Scope
-
-MIMI debuted with “Rapizurazuri” in 2016, and “Moment” became the first catalogue entry to reach the Hall of Fame threshold in 2017. As of July 5, 2025, the organized record counts 68 VOCALOID/CeVIO works: 55 reached Hall of Fame on niconico, 15 reached Legend on YouTube, and 3 reached Legend on niconico. The works commonly pair piano-led arrangements with one-image videos and gentle illustration.
-
-MIMI joined Kamitsubaki in 2022 while retaining an independent creative line. The first original album was released on October 24, 2023, followed by *Yoru wo Dakishimeru Toki.* on December 20, 2024.
-
 ## Albums and Collaborations
 
 Representative works include “Marshmary”, “Daijoubu da yo.”, and “Himawari no Kioku”. “Daijoubu da yo.” features [KAFU](/en/artists/isotopes/kafu) and shows how MIMI's intimate piano writing can be translated into a musical-isotope voice. Uploads, album tracks, and animation tie-ins should remain separate catalogue layers.
+
+## Scope of Songwriting and Index of Representative Works
+
+| Recipient | Notes |
+| :--- | :--- |
+| Music isotopes (KAFU / SEKAI) | Provided several highly praised original songs |
+| Artists affiliated with KAMITSUBAKI | Took part in songwriting for projects such as the Shoujo Kakumei Keikaku, e.g. providing 《宇宙逃避行》 for Kajou-in |
+| Under their own name | Established a personal stylistic signature with works such as 《モーメント》 and 《ハナタバ》 |
+
+> **Style summary**: MIMI's work has long been stable within the triangular structure of “piano ＋ high-speed scales ＋ gentle emotion”; among KAMITSUBAKI's many creators with aggressive styles, they provide a clearly defined emotional outlet.
 
 ## References
 
@@ -213,37 +243,4 @@ Representative works include “Marshmary”, “Daijoubu da yo.”, and “Hima
 - [X (Twitter)](https://twitter.com/mimi_3mi)
 - [YouTube](https://www.youtube.com/channel/UCam3IAA-nyfxRL8_wDQ35VA)
 
-
 <!-- V3 RESEARCH SUPPLEMENT mimi -->
-
-## Artistic Position and Creative Lineage
-
-**MIMI** is a composer and VOCALOID producer affiliated with [SINSEKAI RECORD](/en/database/studios/sinsekai-record). Their creative lineage can be summed up as “**healing, crystalline piano pop × high-speed scales × brightness tinged with sorrow**”.
-
-| Dimension | Characteristics |
-| :--- | :--- |
-| **Instrumental foundation** | Crystalline, springing piano at the core, paired with high-speed scale runs and light-footed drum patterns |
-| **Emotional orientation** | Bright on the surface, sorrowful within — a “gentle sense of companionship” is their greatest signature |
-| **Representative works** | 《モーメント》《ハナタバ》, plus highly praised original songs supplied to [KAFU](/en/database/isotopes/kafu) and [SEKAI](/en/database/isotopes/sekai) |
-| **Thematic motifs** | Companionship, consolation, the small kindnesses of everyday life |
-
-> **Aural impression**: MIMI's works are often described as a cup of warm water handed to you on a downcast night — not trying to solve the pain, but acknowledging it and staying by your side.
-
-## Their Place in the Isotope Co-Creation Network
-
-MIMI is one of the most active songwriters in KAMITSUBAKI's “**Isotope Co-Creation Network (Isotope Ecosystem)**”:
-
-- **KAFU (可不)**: MIMI has supplied KAFU with several highly praised original songs, an important component of KAFU's early catalogue;
-- **SEKAI (星界)**: their piano-ballad vocabulary fits SEKAI's transparent high register extremely well, and they have supplied SEKAI with a great many lyrical works.
-
-> **How the ecosystem works**: KAMITSUBAKI provides creators with the voice libraries of [KAFU](/en/database/isotopes/kafu), [SEKAI](/en/database/isotopes/sekai), [RIME](/en/database/isotopes/rime), [COKO](/en/database/isotopes/coko) and [HARU](/en/database/isotopes/haru), building a vast ecosystem of symbiosis with outside producers and generating landmark compilation series such as 《シンメトリー》 and 《パラドクス》. MIMI is a representative participant in this mechanism.
-
-## Scope of Songwriting and Index of Representative Works
-
-| Recipient | Notes |
-| :--- | :--- |
-| Music isotopes (KAFU / SEKAI) | Provided several highly praised original songs |
-| Artists affiliated with KAMITSUBAKI | Took part in songwriting for projects such as the Shoujo Kakumei Keikaku, e.g. providing 《宇宙逃避行》 for Kajou-in |
-| Under their own name | Established a personal stylistic signature with works such as 《モーメント》 and 《ハナタバ》 |
-
-> **Style summary**: MIMI's work has long been stable within the triangular structure of “piano ＋ high-speed scales ＋ gentle emotion”; among KAMITSUBAKI's many creators with aggressive styles, they provide a clearly defined emotional outlet.

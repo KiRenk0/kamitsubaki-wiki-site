@@ -43,7 +43,6 @@ lifecycle:
 sources: []
 summary: "与 KAMITSUBAKI STUDIO 业务合作的小说家、编剧兼游戏创作者，活跃于小说、游戏与动画领域逾二十年。"
 ---
-
 ## 概述
 
 月岛总记（Tsukishima Souki）是一位小说家、编剧兼游戏创作者，与 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 建立了业务合作关系（業務提携）。他并非工作室的正式成员，而是以外部合作者的身份，凭借跨越小说、游戏和动画三个领域二十余年的专业经验，为神椿的创作活动贡献叙事方面的力量。
@@ -55,20 +54,6 @@ summary: "与 KAMITSUBAKI STUDIO 业务合作的小说家、编剧兼游戏创�
 月岛的核心优势在于适应力。他并非局限于单一媒介的创作者，而是在小说、游戏脚本与动画剧本之间流畅迁移，无论何种格式都能保持叙事的连贯性与情感深度。这种多面性与 KAMITSUBAKI STUDIO 以跨媒体方式拓展虚拟艺术家宇宙的方针高度契合。
 
 他参与多个知名系列的经历，证明了他能在既定世界观中保持自身创作声音的能力。无论是为深受喜爱的最终幻想子系列贡献剧本，还是构建原创叙事，他的写作始终在世界构筑与细腻的角色刻画之间保持平衡。
-
-## 代表作品
-
-- Root Double — Before Crime * After Days（视觉小说系列）
-- 最终幻想零式 / Agito（游戏剧本）
-- BATTLE OF TOKYO（多媒体企划）
-- INGRESS THE ANIMATION（动画剧本）
-
-## 外部链接
-
-- [Twitter](https://twitter.com/tsukisimasouki)
-
-
-<!-- V3 RESEARCH SUPPLEMENT tsukisimasouki -->
 
 ## 世界观架构与叙事工程
 
@@ -83,6 +68,13 @@ summary: "与 KAMITSUBAKI STUDIO 业务合作的小说家、编剧兼游戏创�
 
 > **在企划中的位置**：月岛总记 是「神椿市」这座架空都市的实际建造者——花譜等歌者提供声音与形象，而他提供这座城市的历史、地理与命运。
 
+## 代表作品
+
+- Root Double — Before Crime * After Days（视觉小说系列）
+- 最终幻想零式 / Agito（游戏剧本）
+- BATTLE OF TOKYO（多媒体企划）
+- INGRESS THE ANIMATION（动画剧本）
+
 ## 叙事结构与作品索引
 
 - **《神椿市建设中。》原作小说与编年**：构建了都市「特异点」、魔女化身与「复兴」机制的核心设定；
@@ -91,3 +83,9 @@ summary: "与 KAMITSUBAKI STUDIO 业务合作的小说家、编剧兼游戏创�
 - **编年史方法**：以 2018–2026 年共 500 余项事件为骨架，把音乐发布、现场演出、游戏与动画的节点整合为一条可追溯的时间轴。
 
 > **方法论特征**：月岛总记 的叙事不是「为角色写故事」，而是「为世界写历史」——角色是这座城市在特定时间点的具体投影。
+
+## 外部链接
+
+- [Twitter](https://twitter.com/tsukisimasouki)
+
+<!-- V3 RESEARCH SUPPLEMENT tsukisimasouki -->

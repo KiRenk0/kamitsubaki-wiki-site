@@ -52,7 +52,6 @@ lifecycle:
   startedAt: "2021-03-13"
 summary: "A virtual artist group of five digital witches, central to KAMITSUBAKI STUDIO's vocal-driven music and cross-media storytelling."
 ---
-
 ## Overview
 
 V.W.P (Virtual Witch Phenomenon) is the core virtual artist group under [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio), comprising five "digital witches": [KAF](/en/artists/vwp/kaf), [Rim](/en/artists/vwp/rim), [HARUSARUHI](/en/artists/vwp/harusaruhi), [ISEKAIJOUCHO](/en/artists/vwp/isekaijoucho), and [KOKO](/en/artists/vwp/koko).
@@ -69,6 +68,25 @@ V.W.P's song system is structured into three types:
 
 This three-track creative structure allows V.W.P to maintain narrative coherence while continuously expanding its musical frontier.
 
+## Core Lineage Songs and Live History
+
+V.W.P maintains a lineage-song system distinct from the members' solo catalogues. These five-member songs organize the singers within a shared witch narrative, while derivative songs use pairs or trios to emphasize different vocal combinations.
+
+| Order | Lineage / core song | Record angle |
+| --- | --- | --- |
+| 1 | “Majo (Group Ver.)” | The unit's shared origin |
+| 2 | “Dian Nao” | Formation-era core song |
+| 3 | “Kotodama” | Connects the members through language and voice |
+| 4 | “Kyomei” | Focuses on vocal resonance |
+| 5 | “Henshin” | Identity and concept transformation |
+| 6 | “Rinne” | Cycles, inheritance, and renewal |
+| 7 | “Omocha” | A unit song built around toy imagery |
+| 8 | “Himitsu” | Hidden information and worldbuilding |
+| 9 | “Jōka” | Fire and continuity as central images |
+| 10 | “Kyōkyō” | Dense ensemble energy and frenzy |
+
+The main publicly documented performances include the formation live on March 13, 2021; *Witch Assembly EP.1* on April 15, 2022; the 1st ONE-MAN LIVE *Phenomenon I - Demonstration -* on April 16, 2022; *Witch Assembly EP.2* and *Phenomenon II - Witch Mythology -* on January 13, 2024; and the 3rd ONE-MAN LIVE *Phenomenon III* on January 10, 2026.
+
 ## Activity History
 
 - **March 13, 2021**: V.W.P was officially formed during KAF's 2nd ONE-MAN LIVE "Fukakai Ni Q2".
@@ -81,6 +99,18 @@ This three-track creative structure allows V.W.P to maintain narrative coherence
 - **January 2026**: Released 3rd Album *Hanten*.
 - **February 28, 2026**: Held 4th ONE-MAN LIVE "Phenomenon IV -Hanten Unmei-" at Pia Arena MM. It marked the group's largest-scale performance in history, generating unprecedented excitement and expanding their reach as virtual artists.
 - **March 31, 2026**: All five members entered the "INTERVAL" charging period to sharpen their individual expressive skills. They are currently focusing on solo activities, aiming to reconvene for a "Witch Rebirth."
+
+## Commercial Tie-ups and Anime Themes
+
+V.W.P has taken on several anime themes as a five-member chorus, an important channel into mainstream filmed works.
+
+| Timing | Work | Track | Type |
+| :--- | :--- | :--- | :--- |
+| announced 2021-08-25 / released 2021-11-03 | *Muv-Luv Alternative* | "Rinne" | Original OP |
+| announced 2021-09-25 / released 2021-11-17 | *Kikou Senki* | "Henshin" | Original song |
+| announced 2022-09-29 / released 2022-12-21 | *Muv-Luv Alternative* Season 2 | "Saikai" | Original ED |
+
+> Notably all three were written and composed by [Kanzaki Iori](/en/database/creators/kanzaki-iori) and were slotted directly into the genealogy-song numbering (2/3/7), showing a deliberate stance: commercial tie-up songs are folded into the canonical lore rather than treated as standalone singles.
 
 ## Representative Works and Related Entries
 
@@ -230,47 +260,6 @@ This three-track creative structure allows V.W.P to maintain narrative coherence
 
 {{/details}}
 
-## Core Lineage Songs and Live History
-
-V.W.P maintains a lineage-song system distinct from the members' solo catalogues. These five-member songs organize the singers within a shared witch narrative, while derivative songs use pairs or trios to emphasize different vocal combinations.
-
-| Order | Lineage / core song | Record angle |
-| --- | --- | --- |
-| 1 | “Majo (Group Ver.)” | The unit's shared origin |
-| 2 | “Dian Nao” | Formation-era core song |
-| 3 | “Kotodama” | Connects the members through language and voice |
-| 4 | “Kyomei” | Focuses on vocal resonance |
-| 5 | “Henshin” | Identity and concept transformation |
-| 6 | “Rinne” | Cycles, inheritance, and renewal |
-| 7 | “Omocha” | A unit song built around toy imagery |
-| 8 | “Himitsu” | Hidden information and worldbuilding |
-| 9 | “Jōka” | Fire and continuity as central images |
-| 10 | “Kyōkyō” | Dense ensemble energy and frenzy |
-
-The main publicly documented performances include the formation live on March 13, 2021; *Witch Assembly EP.1* on April 15, 2022; the 1st ONE-MAN LIVE *Phenomenon I - Demonstration -* on April 16, 2022; *Witch Assembly EP.2* and *Phenomenon II - Witch Mythology -* on January 13, 2024; and the 3rd ONE-MAN LIVE *Phenomenon III* on January 10, 2026.
-
-## Related Projects / Setting
-
-V.W.P is directly tied to the "witch" worldview within the Kamitsubaki ecosystem. The five members each represent different witch attributes, and their lineage and derivative songs form the backbone of Kamitsubaki's narrative. Group activities are also deeply connected to cross-media projects like "Kamitsubaki City Under Construction."
-
-The "INTERVAL" charging period that began on March 31, 2026 marks the end of V.W.P's first chapter and preparation for a new phase. After each member has refined her skills individually, they plan to reconvene as a "Witch Rebirth."
-
-## References
-
-- KAMITSUBAKI STUDIO official V.W.P page: <https://kamitsubaki.jp/artist/v-w-p/>
-- Chinese Wikipedia: V.W.P: <https://zh.wikipedia.org/wiki/V.W.P>
-
-## External Links
-
-- [KAMITSUBAKI STUDIO V.W.P page](https://kamitsubaki.jp/artist/v-w-p/)
-- [YouTube](https://www.youtube.com/channel/UCfiSo8tO3WPU-8YOgr4Ba6g)
-- [X (Twitter)](https://twitter.com/VWP_virtual)
-- [Bilibili](https://space.bilibili.com/1636327445)
-- [Weibo](https://weibo.com/u/7573179727)
-
-
-<!-- V3 RESEARCH SUPPLEMENT vwp -->
-
 ## Genealogy and Expansion Song Archive
 
 V.W.P's five-member songs are divided by creative lineage into **genealogy songs** and **expansion songs**, with continuous numbering; member duets are filed separately as **derivative songs**.
@@ -329,14 +318,23 @@ V.W.P's official history includes a widely retold "hoax" episode.
 
 > **Cultural meaning**: this sequence sets the solemn narrative of the "witch assembly" beside light-hearted member interaction, becoming one of the most beloved running jokes in the fandom and adding an everyday, human layer to the group's image beyond that of a sacred chorus.
 
-## Commercial Tie-ups and Anime Themes
+## Related Projects / Setting
 
-V.W.P has taken on several anime themes as a five-member chorus, an important channel into mainstream filmed works.
+V.W.P is directly tied to the "witch" worldview within the Kamitsubaki ecosystem. The five members each represent different witch attributes, and their lineage and derivative songs form the backbone of Kamitsubaki's narrative. Group activities are also deeply connected to cross-media projects like "Kamitsubaki City Under Construction."
 
-| Timing | Work | Track | Type |
-| :--- | :--- | :--- | :--- |
-| announced 2021-08-25 / released 2021-11-03 | *Muv-Luv Alternative* | "Rinne" | Original OP |
-| announced 2021-09-25 / released 2021-11-17 | *Kikou Senki* | "Henshin" | Original song |
-| announced 2022-09-29 / released 2022-12-21 | *Muv-Luv Alternative* Season 2 | "Saikai" | Original ED |
+The "INTERVAL" charging period that began on March 31, 2026 marks the end of V.W.P's first chapter and preparation for a new phase. After each member has refined her skills individually, they plan to reconvene as a "Witch Rebirth."
 
-> Notably all three were written and composed by [Kanzaki Iori](/en/database/creators/kanzaki-iori) and were slotted directly into the genealogy-song numbering (2/3/7), showing a deliberate stance: commercial tie-up songs are folded into the canonical lore rather than treated as standalone singles.
+## References
+
+- KAMITSUBAKI STUDIO official V.W.P page: <https://kamitsubaki.jp/artist/v-w-p/>
+- Chinese Wikipedia: V.W.P: <https://zh.wikipedia.org/wiki/V.W.P>
+
+## External Links
+
+- [KAMITSUBAKI STUDIO V.W.P page](https://kamitsubaki.jp/artist/v-w-p/)
+- [YouTube](https://www.youtube.com/channel/UCfiSo8tO3WPU-8YOgr4Ba6g)
+- [X (Twitter)](https://twitter.com/VWP_virtual)
+- [Bilibili](https://space.bilibili.com/1636327445)
+- [Weibo](https://weibo.com/u/7573179727)
+
+<!-- V3 RESEARCH SUPPLEMENT vwp -->

@@ -54,7 +54,6 @@ lifecycle:
   startedAt: "2019-12-09"
 summary: "A virtual dark singer whose work is built around shadowed imagination, self-authored expression, and strong narrative atmosphere."
 ---
-
 ## Overview
 
 ISEKAIJOUCHO is a virtual singer and creator from [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio), and a member of [V.W.P](/en/artists/vwp/vwp). She stands out for treating singing as only one part of a broader expressive practice that also includes illustration, narration, and character-driven atmosphere.
@@ -66,6 +65,29 @@ Among the Kamitsubaki members, she is one of the clearest examples of an artist 
 The official label "virtual dark singer" captures more than genre. In ISEKAIJOUCHO's work, darkness, fragility, mystery, and authorship are tightly bound together. Her songs often feel less like isolated tracks and more like fragments of a larger inner setting.
 
 That makes her an important hybrid figure inside Kamitsubaki: not only a singer, but also a one-of-a-kind creator whose identity extends through image, voice, and narrative tone.
+
+## Basic Profile and Character Setting
+
+ISEKAIJOUCHO retains the old-form character “ヰ” in her name as part of her visual and textual identity. Her public design uses ivory hair, heterochromatic eyes, hair covering one eye, gloves, a coat, and recurring flower imagery. “Universal Form” is the common everyday form; Anemone, Heliotrope, Yatagarasu, and other forms belong to particular stages and narratives.
+
+| Item | Detail |
+| --- | --- |
+| Early character design | orie |
+| Later visual collaborators | reoen and other stage/illustration creators |
+| Creative identities | Singer, illustrator, character performer, narrative artist |
+| Voice extension | SEKAI, a musical-isotope voicebank based on her voice |
+
+## Forms, Setting, and Anecdotes
+
+Drawing is part of ISEKAIJOUCHO's public creative practice, not merely an accessory to singing. Comments about music, films, games, pets, food, and hobbies should remain in interview or programme context. SEKAI must be kept separate from ISEKAIJOUCHO as a voicebank and character.
+
+## Companion: the Anemones "anemos"
+
+The two anemones beside ISEKAIJOUCHO are named **anemos**, from the Greek word for "**wind**".
+
+- **Why the name**: Greek ἄνεμος means "wind", and the anemone's genus name *Anemone* shares the same root; folklore holds that anemones open only in the wind.
+- **Where it sits**: like [KAF](/en/artists/vwp/kaf)'s Laplace and [RIM](/en/artists/vwp/rim)'s Hastur it belongs to the witches' "companion" system, though its form is a pair of flowers rather than a single creature.
+- **Echo in the world**: the image of wind runs through her singing as well — her breath control is often described as "wind passing through a flowerbed".
 
 ## Activity History
 
@@ -117,6 +139,34 @@ That makes her an important hybrid figure inside Kamitsubaki: not only a singer,
 - **March 19**: Released the virtual idol training adventure game *Virtual Ties ~Isekaijoucho Musoukyoku~* on Steam, which she produced and starred in.
 - **March 25**: Held a special livestream celebrating 500,000 subscribers on her YouTube channel.
 - **May 1–2**: Held her first 2DAYS LIVE (DAY-1 "Flower Closet" / DAY-2 "Anima Re:birth") at Zepp Haneda.
+
+## Discography, Live Performance, and Collaborations
+
+“Monogatari no Waltz”, “Diorama Drama”, “Hydrangea”, “Tomedonaki Hakujō”, “Artificial Flower”, and “Sirius no Shinzō” form the early solo line. *Sōsei*, *[Shikisai](/en/albums/isekaijoucho/shikisai)*, and *Genshiroku* document later stages. The *[CANDY LIVE](/en/albums/isekaijoucho/candy-live)* cover series, *Anima* lives, Singularity Live with [RIM](/en/artists/vwp/rim), [V.W.P](/en/artists/vwp/vwp) songs, and the 2026 *Flower Closet / Anima Re:birth* programme reveal how singing, drawing, character work, and worldbuilding operate together.
+
+She also takes multiple roles in *Virtual Ties*, including character source, visual creator, and singer. orie, reoen, samayuzame, toukasa, and Harumakigohan are among the creators associated with different parts of the catalogue.
+
+## Voice Acting Roles
+
+| Year | Work | Role | Type |
+| :--- | :--- | :--- | :--- |
+| 2025 | *[KAMITSUBAKI CITY UNDER CONSTRUCTION](/en/projects/arg/kamitsubaki-city)* | **Yogawa Sekai** | TV anime |
+| 2025 | *[KAMITSUBAKI CITY REGENERATE](/en/database/projects/kamitsubaki-city-regenerate)* | **Yogawa Sekai** | Game |
+
+> **Yogawa Sekai** is ISEKAIJOUCHO's corresponding character within the *KAMITSUBAKI CITY* setting, and the most classical and serene of the five witches.
+
+## Exhibitions and Art Projects
+
+- **ISEKAIJOUCHO Exhibition**: a solo exhibition centred on illustrations, song art and world-building visuals — a rare "visual-archive-first" physical exhibition in the KAMITSUBAKI system that lays out the orie design lineage and the evolution of her own aesthetic.
+- **Stage play "Otogibanashi (Some)"**: a theatrical adaptation of the audio-drama world; because its costume system is separate from her everyday singing forms it is excluded from the form lineage.
+- **Artistic position**: ISEKAIJOUCHO is the member most closely tied to painting, literature and classical art, and her projects regularly push past music into exhibition and theatre.
+
+## Live Performance Archive
+
+- **ISEKAIJOUCHO STREAMING COVER LIVE "Candy Live" series**: cover-driven online streaming shows, followed by "Candy Live 2" — her most continuous outlet outside solo concerts.
+- **ISEKAIJOUCHO 1st ONE-MAN LIVE "Anima"**: a two-day structure (Day 1 / Day 2) themed on the soul (*anima*), fully integrating her classical world-view with 3D stage production.
+- **ISEKAIJOUCHO Mini-Live "parallel canvas"**: a small experimental show exploring painting and music running in parallel.
+- **ISEKAIJOUCHO 2nd ONE-MAN LIVE "Anima II -Kamitsubaki City Sanban-gai-"**: continues the "Anima" series while naming itself after a district of *KAMITSUBAKI CITY*, tying directly into that project's district system.
 
 ## Representative Works and Related Entries
 
@@ -192,49 +242,6 @@ That makes her an important hybrid figure inside Kamitsubaki: not only a singer,
 
 {{/details}}
 
-## Basic Profile and Character Setting
-
-ISEKAIJOUCHO retains the old-form character “ヰ” in her name as part of her visual and textual identity. Her public design uses ivory hair, heterochromatic eyes, hair covering one eye, gloves, a coat, and recurring flower imagery. “Universal Form” is the common everyday form; Anemone, Heliotrope, Yatagarasu, and other forms belong to particular stages and narratives.
-
-| Item | Detail |
-| --- | --- |
-| Early character design | orie |
-| Later visual collaborators | reoen and other stage/illustration creators |
-| Creative identities | Singer, illustrator, character performer, narrative artist |
-| Voice extension | SEKAI, a musical-isotope voicebank based on her voice |
-
-## Discography, Live Performance, and Collaborations
-
-“Monogatari no Waltz”, “Diorama Drama”, “Hydrangea”, “Tomedonaki Hakujō”, “Artificial Flower”, and “Sirius no Shinzō” form the early solo line. *Sōsei*, *[Shikisai](/en/albums/isekaijoucho/shikisai)*, and *Genshiroku* document later stages. The *[CANDY LIVE](/en/albums/isekaijoucho/candy-live)* cover series, *Anima* lives, Singularity Live with [RIM](/en/artists/vwp/rim), [V.W.P](/en/artists/vwp/vwp) songs, and the 2026 *Flower Closet / Anima Re:birth* programme reveal how singing, drawing, character work, and worldbuilding operate together.
-
-She also takes multiple roles in *Virtual Ties*, including character source, visual creator, and singer. orie, reoen, samayuzame, toukasa, and Harumakigohan are among the creators associated with different parts of the catalogue.
-
-## Forms, Setting, and Anecdotes
-
-Drawing is part of ISEKAIJOUCHO's public creative practice, not merely an accessory to singing. Comments about music, films, games, pets, food, and hobbies should remain in interview or programme context. SEKAI must be kept separate from ISEKAIJOUCHO as a voicebank and character.
-
-## Related Projects / Setting
-
-ISEKAIJOUCHO connects V.W.P, the musical isotope SEKAI, and the Kamitsubaki City family of projects. Her importance comes from how naturally she layers singer, character, and creator into a single identity.
-
-## References
-
-- KAMITSUBAKI STUDIO official artist page: <https://kamitsubaki.jp/artist/isekaijoucho/>
-- KAMITSUBAKI STUDIO official V.W.P page: <https://kamitsubaki.jp/artist/v-w-p/>
-- Chinese Wikipedia: V.W.P: <https://zh.wikipedia.org/wiki/V.W.P>
-
-## External Links
-
-- [Official Website](https://kamitsubaki.jp/artist/isekaijoucho/)
-- [YouTube(Main)](https://www.youtube.com/channel/UCah4_WVjmr8XA7i5aigwV-Q)
-- [X (Twitter)](https://twitter.com/isekaijoucho)
-- [TikTok](https://www.tiktok.com/@isekaijoucho)
-- [piapro](https://piapro.jp/isekaijoucho)
-- [bilibili](https://space.bilibili.com/488978908)
-
-
-<!-- V3 RESEARCH SUPPLEMENT isekaijoucho -->
-
 ## Complete Singing Form Archive
 
 ISEKAIJOUCHO's visual system is the most elaborate in V.W.P. It takes **flowers** as its core motif and is led by the illustrator **orie**.
@@ -264,29 +271,6 @@ ISEKAIJOUCHO's visual system is the most elaborate in V.W.P. It takes **flowers*
 
 > **What the lineage means**: the three tiers of "universal form (flower) → mutant (altered flower) → thought-form (sublimated)" are not mere costume changes but a complete **morphological fable**, mapping precisely onto the themes of growth, mutation and transcendence that run through her work.
 
-## Companion: the Anemones "anemos"
-
-The two anemones beside ISEKAIJOUCHO are named **anemos**, from the Greek word for "**wind**".
-
-- **Why the name**: Greek ἄνεμος means "wind", and the anemone's genus name *Anemone* shares the same root; folklore holds that anemones open only in the wind.
-- **Where it sits**: like [KAF](/en/artists/vwp/kaf)'s Laplace and [RIM](/en/artists/vwp/rim)'s Hastur it belongs to the witches' "companion" system, though its form is a pair of flowers rather than a single creature.
-- **Echo in the world**: the image of wind runs through her singing as well — her breath control is often described as "wind passing through a flowerbed".
-
-## Voice Acting Roles
-
-| Year | Work | Role | Type |
-| :--- | :--- | :--- | :--- |
-| 2025 | *[KAMITSUBAKI CITY UNDER CONSTRUCTION](/en/projects/arg/kamitsubaki-city)* | **Yogawa Sekai** | TV anime |
-| 2025 | *[KAMITSUBAKI CITY REGENERATE](/en/database/projects/kamitsubaki-city-regenerate)* | **Yogawa Sekai** | Game |
-
-> **Yogawa Sekai** is ISEKAIJOUCHO's corresponding character within the *KAMITSUBAKI CITY* setting, and the most classical and serene of the five witches.
-
-## Exhibitions and Art Projects
-
-- **ISEKAIJOUCHO Exhibition**: a solo exhibition centred on illustrations, song art and world-building visuals — a rare "visual-archive-first" physical exhibition in the KAMITSUBAKI system that lays out the orie design lineage and the evolution of her own aesthetic.
-- **Stage play "Otogibanashi (Some)"**: a theatrical adaptation of the audio-drama world; because its costume system is separate from her everyday singing forms it is excluded from the form lineage.
-- **Artistic position**: ISEKAIJOUCHO is the member most closely tied to painting, literature and classical art, and her projects regularly push past music into exhibition and theatre.
-
 ## Musical Isotope "SEKAI"
 
 **Musical Isotope {{ruby::星界::せかい::SEKAI}}** is the AI singing synthesizer developed from ISEKAIJOUCHO's voice, and a core member of KAMITSUBAKI's Musical Isotope series.
@@ -301,16 +285,30 @@ The two anemones beside ISEKAIJOUCHO are named **anemos**, from the Greek word f
 
 > **Relationship to the template**: SEKAI is not merely a "voice bank and its performer". The studio positions it as the **digital-side isotope** of the same singing voice, sharing the identity of a "song singularity" within the lore.
 
-## Live Performance Archive
-
-- **ISEKAIJOUCHO STREAMING COVER LIVE "Candy Live" series**: cover-driven online streaming shows, followed by "Candy Live 2" — her most continuous outlet outside solo concerts.
-- **ISEKAIJOUCHO 1st ONE-MAN LIVE "Anima"**: a two-day structure (Day 1 / Day 2) themed on the soul (*anima*), fully integrating her classical world-view with 3D stage production.
-- **ISEKAIJOUCHO Mini-Live "parallel canvas"**: a small experimental show exploring painting and music running in parallel.
-- **ISEKAIJOUCHO 2nd ONE-MAN LIVE "Anima II -Kamitsubaki City Sanban-gai-"**: continues the "Anima" series while naming itself after a district of *KAMITSUBAKI CITY*, tying directly into that project's district system.
-
 ## Anecdotes and Community Culture
 
 - **Form as narrative**: ISEKAIJOUCHO has the largest and most systematically named form catalogue in V.W.P (all flowers); the three tiers of universal, mutant and thought-form interlock with the themes of her work.
 - **Taking up the pen**: the 2025 thought-form "Seventh Heaven" was the first time she designed one of her own forms and wrote its lyrics, marking a further expansion of her creative authorship.
 - **Interaction**: she is close to [HARUSARUHI](/en/artists/vwp/harusaruhi) — {{spoiler::the aquarium HARUSARUHI said she wanted to visit after coming of age is the one she later visited together with ISEKAIJOUCHO.}}
 - **Vocal label**: her voice is often described as "baroque splendour wrapping a girl's fragility", and she carries the most "otherworldly / fantasy" arrangements in V.W.P.
+
+## Related Projects / Setting
+
+ISEKAIJOUCHO connects V.W.P, the musical isotope SEKAI, and the Kamitsubaki City family of projects. Her importance comes from how naturally she layers singer, character, and creator into a single identity.
+
+## References
+
+- KAMITSUBAKI STUDIO official artist page: <https://kamitsubaki.jp/artist/isekaijoucho/>
+- KAMITSUBAKI STUDIO official V.W.P page: <https://kamitsubaki.jp/artist/v-w-p/>
+- Chinese Wikipedia: V.W.P: <https://zh.wikipedia.org/wiki/V.W.P>
+
+## External Links
+
+- [Official Website](https://kamitsubaki.jp/artist/isekaijoucho/)
+- [YouTube(Main)](https://www.youtube.com/channel/UCah4_WVjmr8XA7i5aigwV-Q)
+- [X (Twitter)](https://twitter.com/isekaijoucho)
+- [TikTok](https://www.tiktok.com/@isekaijoucho)
+- [piapro](https://piapro.jp/isekaijoucho)
+- [bilibili](https://space.bilibili.com/488978908)
+
+<!-- V3 RESEARCH SUPPLEMENT isekaijoucho -->

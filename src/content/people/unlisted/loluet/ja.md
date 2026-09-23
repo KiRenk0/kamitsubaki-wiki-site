@@ -47,7 +47,6 @@ lifecycle:
   startedAt: "2021-05-22"
 summary: "カバーと独特の歌声で存在感を築き、2023年にKAMITSUBAKI STUDIOへの所属を発表したバーチャルシンガー。"
 ---
-
 ## 概要
 
 LOLUETは2021年からYouTubeを中心に活動するバーチャルシンガーである。初期は個人名義で活動し、2023年3月31日に[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio)への所属を発表した。[ALLT STUDIO](/ja/projects/labels/allt-studio)との関連があり、キャラクターデザインは望月けいが担当している。
@@ -63,6 +62,25 @@ LOLUETは2021年からYouTubeを中心に活動するバーチャルシンガー
 | 主な活動 | カバー、MV、コラボレーション、個人投稿 |
 
 「録音反抗期」は活動ペースや録音状態をめぐる公開上の冗談であり、公式設定や現実の診断として扱わない。
+
+## キャラクターデザインと所属体系
+
+**LOLUET** は、2021 年 8 月から YouTube で活動するバーチャルシンガー／歌い手（Utaite）であり、そのキャラクターイメージはイラストレーターの**望月けい**が手がけている。
+
+| 項目 | 内容 |
+| :--- | :--- |
+| **活動の起点** | 2021 年 5 月 22 日に初のカバー作品《さよならテンダー》を投稿 |
+| **神椿への加入** | 2023 年 3 月 31 日に KAMITSUBAKI STUDIO への加入を発表 |
+| **所属スタジオ** | ALLT STUDIO（同スタジオで唯一のバーチャルシンガー） |
+| **キャラクターデザイン** | 望月けい |
+| **ビジュアルの特徴** | 黒髪にグレーの瞳、部分的なメッシュ、姉御系の雰囲気 |
+| **自己記述** | 「歌上手くなりたいなー。」 |
+
+> **本人の言葉**：神椿加入にあたり、LOLUET はきわめて簡潔な告知を発表した——「この度、私 LOLUET は KAMITSUBAKI STUDIO に所属することになりました。よろしくお願いいたします。」——その姿勢は、「所在がつかめず、しばしば録音反抗期がある」というキャラクター設定と一致している。
+
+## 形態・創作者・エピソード
+
+キャラクターデザインは望月けい。前世や現実の人物に関する推測、削除された自撮りなどは人物情報として扱わず、公開作品と本人・運営が公開した内容だけを記録する。
 
 ## 歩み
 
@@ -88,70 +106,6 @@ LOLUETは2021年からYouTubeを中心に活動するバーチャルシンガー
 - 1月3日：biz × ZERA feat. LOLUET mini album『愛狂』に参加。
 - 「√ (roots)」「NightmaRe」「レコード・レド」「ラブ＆デストロイ」などを発表。
 - 5月29日：「ハネムーン feat. [理芽](/ja/artists/vwp/rim) / Honeymoon feat. RIM」を発表。
-
-## 作品の整理
-
-{{details::アルバムとEPの一覧を開く}}
-
-**アルバム / EP**
-
-| リリース日 | 種別 | タイトル |
-| --- | --- | --- |
-| 2025-03-19 | Album | [stream](</ja/albums/loluet/stream-1799863545>) |
-| 2026-02-25 | EP | [空想](</ja/albums/loluet/空想-1873244105>) |
-| 2026-02-25 | EP | [迷路](</ja/albums/loluet/迷路-1872932511>) |
-
-{{/details}}
-
-{{details::シングル一覧を開く}}
-
-**シングル**
-
-| リリース日 | タイトル |
-| --- | --- |
-| 2015-10-11 | [ハネムーン feat. 理芽](</ja/songs/loluet/originals/hanemuun-feat-理芽>) |
-| 2024-11-19 | [crack](</ja/songs/loluet/originals/crack>) |
-| 2025-01-21 | [アイ](</ja/songs/loluet/originals/ai>) |
-| 2025-09-09 | [ドレス](</ja/songs/loluet/originals/doresu>) |
-| 2026-02-24 | [スプートニク](</ja/songs/loluet/originals/supuutoniku>) |
-| 2026-07-21 | [双生コンフリクト feat. ヰ世界情緒](</ja/songs/loluet/originals/双生konfurikuto-feat-wi世界情緒>) |
-
-{{/details}}
-
-## 形態・創作者・エピソード
-
-キャラクターデザインは望月けい。前世や現実の人物に関する推測、削除された自撮りなどは人物情報として扱わず、公開作品と本人・運営が公開した内容だけを記録する。
-
-## 関連企画・設定
-
-2023年3月31日以前は個人名義、以後はKAMITSUBAKI STUDIOのアーティストネットワークに所属した。この時間的境界を保ちながら、個人期、神椿所属後、神椿アーティストとのコラボレーションを関連づける。
-
-## 参考資料
-
-- LOLUET公式YouTubeと公開活動資料。
-
-## 外部リンク
-
-- [YouTube](https://www.youtube.com/channel/UC1CGaG114jfEiiWzZ2SkyhQ)
-- [X (Twitter)](https://twitter.com/LOLUET)
-
-
-<!-- V3 RESEARCH SUPPLEMENT loluet -->
-
-## キャラクターデザインと所属体系
-
-**LOLUET** は、2021 年 8 月から YouTube で活動するバーチャルシンガー／歌い手（Utaite）であり、そのキャラクターイメージはイラストレーターの**望月けい**が手がけている。
-
-| 項目 | 内容 |
-| :--- | :--- |
-| **活動の起点** | 2021 年 5 月 22 日に初のカバー作品《さよならテンダー》を投稿 |
-| **神椿への加入** | 2023 年 3 月 31 日に KAMITSUBAKI STUDIO への加入を発表 |
-| **所属スタジオ** | ALLT STUDIO（同スタジオで唯一のバーチャルシンガー） |
-| **キャラクターデザイン** | 望月けい |
-| **ビジュアルの特徴** | 黒髪にグレーの瞳、部分的なメッシュ、姉御系の雰囲気 |
-| **自己記述** | 「歌上手くなりたいなー。」 |
-
-> **本人の言葉**：神椿加入にあたり、LOLUET はきわめて簡潔な告知を発表した——「この度、私 LOLUET は KAMITSUBAKI STUDIO に所属することになりました。よろしくお願いいたします。」——その姿勢は、「所在がつかめず、しばしば録音反抗期がある」というキャラクター設定と一致している。
 
 ## 活動歴と作品の系譜
 
@@ -194,3 +148,47 @@ LOLUET は神椿加入以前、個人名義で活動を展開し、投稿は高�
 - **2024-05-29**：《ハネムーン feat. [理芽](/ja/database/artists/solo/rim)》を公開。LOLUET と神椿の中核メンバーとの間ではまれな直接コラボレーション曲である。
 
 > **スタイルの位置づけ**：LOLUET の楽曲群はカバーが中心で、選曲はアニメソング、VOCALOID、J-ROCK にまたがる。その姉御系の声質と「**黒髪にメッシュの入ったグレーの瞳**」の造形は、神椿の体系内では比較的まれな成熟系バーチャルシンガー像をともに形づくっている。
+
+## 作品の整理
+
+{{details::アルバムとEPの一覧を開く}}
+
+**アルバム / EP**
+
+| リリース日 | 種別 | タイトル |
+| --- | --- | --- |
+| 2025-03-19 | Album | [stream](</ja/albums/loluet/stream-1799863545>) |
+| 2026-02-25 | EP | [空想](</ja/albums/loluet/空想-1873244105>) |
+| 2026-02-25 | EP | [迷路](</ja/albums/loluet/迷路-1872932511>) |
+
+{{/details}}
+
+{{details::シングル一覧を開く}}
+
+**シングル**
+
+| リリース日 | タイトル |
+| --- | --- |
+| 2015-10-11 | [ハネムーン feat. 理芽](</ja/songs/loluet/originals/hanemuun-feat-理芽>) |
+| 2024-11-19 | [crack](</ja/songs/loluet/originals/crack>) |
+| 2025-01-21 | [アイ](</ja/songs/loluet/originals/ai>) |
+| 2025-09-09 | [ドレス](</ja/songs/loluet/originals/doresu>) |
+| 2026-02-24 | [スプートニク](</ja/songs/loluet/originals/supuutoniku>) |
+| 2026-07-21 | [双生コンフリクト feat. ヰ世界情緒](</ja/songs/loluet/originals/双生konfurikuto-feat-wi世界情緒>) |
+
+{{/details}}
+
+## 関連企画・設定
+
+2023年3月31日以前は個人名義、以後はKAMITSUBAKI STUDIOのアーティストネットワークに所属した。この時間的境界を保ちながら、個人期、神椿所属後、神椿アーティストとのコラボレーションを関連づける。
+
+## 参考資料
+
+- LOLUET公式YouTubeと公開活動資料。
+
+## 外部リンク
+
+- [YouTube](https://www.youtube.com/channel/UC1CGaG114jfEiiWzZ2SkyhQ)
+- [X (Twitter)](https://twitter.com/LOLUET)
+
+<!-- V3 RESEARCH SUPPLEMENT loluet -->

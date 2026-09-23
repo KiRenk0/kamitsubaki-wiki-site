@@ -45,8 +45,6 @@ lifecycle:
 sources: []
 summary: "以微苦的钢琴曲贴近「觉得生活艰难」的人们，在广泛年龄层中获得支持的作曲家。"
 ---
-
-
 ## 概述
 
 MIMI 是 [KYOKAI STUDIO](/zh/projects/labels/kyokai-studio)（2026年9月自 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 移籍）旗下的作曲家，以微苦而温柔的钢琴曲闻名，作品贴近那些「觉得生活艰难」的人，在广泛的年龄层中收获了支持与共鸣。
@@ -58,6 +56,28 @@ MIMI 是 [KYOKAI STUDIO](/zh/projects/labels/kyokai-studio)（2026年9月自 [KA
 MIMI 创作身份的核心在于苦涩与甘甜交汇的情感地带。钢琴编曲有意排除多余的装饰，将全部重量交给旋律与歌词。由此产生的亲密感——与其说是演奏，不如说更像对话——正是 MIMI 音乐的独特之处。
 
 通过与 CeVIO 合成音声[可不](/zh/artists/isotopes/kafu)（KAFUNE）等虚拟歌手声线的合作，MIMI 将活动范围延伸至虚拟歌手领域，同时始终保持其私密而真诚的告白式基调。
+
+## 艺术定位与创作谱系
+
+**MIMI** 是 [SINSEKAI RECORD](/zh/database/studios/sinsekai-record) 旗下的作曲家与 VOCALOID P，其创作谱系可概括为「**治愈系清脆钢琴 Pop × 高速音阶 × 明媚中略带忧伤**」。
+
+| 维度 | 特征 |
+| :--- | :--- |
+| **器乐底色** | 以清脆跳跃的钢琴为核心，配合高速度的音阶跑动与轻快鼓组 |
+| **情绪取向** | 表面明媚、内里带忧伤——「温柔的陪伴感」是其最大辨识度 |
+| **代表作品** | 《モーメント》《ハナタバ》，以及为 [可不](/zh/database/isotopes/kafu) 与 [星界](/zh/database/isotopes/sekai) 提供的高评价原创曲 |
+| **主题母题** | 陪伴、慰藉、日常的微小温柔 |
+
+> **听觉印象**：MIMI 的作品常被形容为在低落的夜里递过来的一杯温水——不试图解决痛苦，而是承认痛苦并陪在旁边。
+
+## 同位体共创网络中的位置
+
+MIMI 是神椿「**同位体共创网络（Isotope Ecosystem）**」中最活跃的供曲者之一：
+
+- **可不（KAFU）**：MIMI 为可不提供了多首高评价原创曲，是可不早期曲库的重要组成；
+- **星界（SEKAI）**：其钢琴抒情语汇与星界的透明高音高度契合，为星界提供了大量抒情向作品。
+
+> **生态机制**：神椿向创作者提供 [可不](/zh/database/isotopes/kafu)、[星界](/zh/database/isotopes/sekai)、[裏命](/zh/database/isotopes/rime)、[狐子](/zh/database/isotopes/coko)、[羽累](/zh/database/isotopes/haru) 的歌声库，构建起庞大的外部 P 主共生生态，并形成《シンメトリー》《パラドクス》等标志性合辑系列。MIMI 正是这一机制的代表性参与者。
 
 ## 活动历程
 
@@ -204,6 +224,16 @@ MIMI 于 2016 年以《[ラピスラズリ](/zh/songs/mimi/originals/rapisurazur
 
 代表歌曲包括《[マシュマリー](/zh/songs/mimi/originals/mashumarii)》《だいじょうぶだよ。》《向日葵の記憶》等；其中《だいじょうぶだよ。》与[可不](/zh/artists/isotopes/kafu)合作，体现了 MIMI 将私密钢琴叙事转译到音乐同位体声线中的方式。投稿作品、专辑曲目和动画合作曲应分别记录。
 
+## 供曲范围与代表作品索引
+
+| 对象 | 说明 |
+| :--- | :--- |
+| 音乐同位体（可不 / 星界） | 提供多首高评价原创曲 |
+| 神椿旗下艺人 | 参与少女革命計画等企划的供曲，如为佳镜院提供《宇宙逃避行》 |
+| 个人名义 | 以《モーメント》《ハナタバ》等作品确立个人风格标识 |
+
+> **风格小结**：MIMI 的创作长期稳定在「钢琴 ＋ 高速音阶 ＋ 温柔情绪」的三角结构内，在神椿众多风格激进的创作者中，提供了一个明确的情感出口。
+
 ## 参考资料
 
 - MIMI 官方 X (Twitter)：<https://twitter.com/mimi_3mi>
@@ -214,37 +244,4 @@ MIMI 于 2016 年以《[ラピスラズリ](/zh/songs/mimi/originals/rapisurazur
 - [X (Twitter)](https://twitter.com/mimi_3mi)
 - [YouTube](https://www.youtube.com/channel/UCam3IAA-nyfxRL8_wDQ35VA)
 
-
 <!-- V3 RESEARCH SUPPLEMENT mimi -->
-
-## 艺术定位与创作谱系
-
-**MIMI** 是 [SINSEKAI RECORD](/zh/database/studios/sinsekai-record) 旗下的作曲家与 VOCALOID P，其创作谱系可概括为「**治愈系清脆钢琴 Pop × 高速音阶 × 明媚中略带忧伤**」。
-
-| 维度 | 特征 |
-| :--- | :--- |
-| **器乐底色** | 以清脆跳跃的钢琴为核心，配合高速度的音阶跑动与轻快鼓组 |
-| **情绪取向** | 表面明媚、内里带忧伤——「温柔的陪伴感」是其最大辨识度 |
-| **代表作品** | 《モーメント》《ハナタバ》，以及为 [可不](/zh/database/isotopes/kafu) 与 [星界](/zh/database/isotopes/sekai) 提供的高评价原创曲 |
-| **主题母题** | 陪伴、慰藉、日常的微小温柔 |
-
-> **听觉印象**：MIMI 的作品常被形容为在低落的夜里递过来的一杯温水——不试图解决痛苦，而是承认痛苦并陪在旁边。
-
-## 同位体共创网络中的位置
-
-MIMI 是神椿「**同位体共创网络（Isotope Ecosystem）**」中最活跃的供曲者之一：
-
-- **可不（KAFU）**：MIMI 为可不提供了多首高评价原创曲，是可不早期曲库的重要组成；
-- **星界（SEKAI）**：其钢琴抒情语汇与星界的透明高音高度契合，为星界提供了大量抒情向作品。
-
-> **生态机制**：神椿向创作者提供 [可不](/zh/database/isotopes/kafu)、[星界](/zh/database/isotopes/sekai)、[裏命](/zh/database/isotopes/rime)、[狐子](/zh/database/isotopes/coko)、[羽累](/zh/database/isotopes/haru) 的歌声库，构建起庞大的外部 P 主共生生态，并形成《シンメトリー》《パラドクス》等标志性合辑系列。MIMI 正是这一机制的代表性参与者。
-
-## 供曲范围与代表作品索引
-
-| 对象 | 说明 |
-| :--- | :--- |
-| 音乐同位体（可不 / 星界） | 提供多首高评价原创曲 |
-| 神椿旗下艺人 | 参与少女革命計画等企划的供曲，如为佳镜院提供《宇宙逃避行》 |
-| 个人名义 | 以《モーメント》《ハナタバ》等作品确立个人风格标识 |
-
-> **风格小结**：MIMI 的创作长期稳定在「钢琴 ＋ 高速音阶 ＋ 温柔情绪」的三角结构内，在神椿众多风格激进的创作者中，提供了一个明确的情感出口。

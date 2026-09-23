@@ -46,13 +46,17 @@ lifecycle:
   activity: "active"
 summary: "自 2013 年起活跃的 Vocaloid / 合成歌声制作人。以可爱活泼的歌声调校搭配悲伤忧郁的歌词著称。"
 ---
-
-
 ## 概述
 
 とあ（Toa）是一位自 2013 年起活跃的 Vocaloid 与合成歌声制作人。他以可爱活泼的歌声调校搭配充满悲伤与忧郁情绪的歌词而著称，这种风格赋予他的音乐一种苦甜交织的情感深度。他主要使用的歌声包括初音未来和 CeVIO 歌手 [KAFU](/zh/artists/isotopes/kafu)。
 
 - 2026年9月5日：神椿工作室改版，工作室内部厂牌统一整合为 PHENOMENON RECORD。
+
+## 角色与创作定位
+
+Toa 的制作风格在 Vocaloid 领域占据独特的位置。他不偏向纯粹欢快或纯粹阴郁的领域，而是精心构建出表面欢乐却隐藏着深层悲伤的歌曲，这种情感的二元性深深打动听众。他在初音未来和 KAFU 上的歌声调校技巧赋予曲目一种迷人且近乎对话般的质感，使作品脱颖而出。
+
+长达十年以上的持续活动体现了他在合成歌声制作人社群中的坚持与不断进化的艺术创造力。
 
 ## 代表作品
 
@@ -88,24 +92,10 @@ summary: "自 2013 年起活跃的 Vocaloid / 合成歌声制作人。以可爱�
 
 {{/details}}
 
-## 角色与创作定位
-
-Toa 的制作风格在 Vocaloid 领域占据独特的位置。他不偏向纯粹欢快或纯粹阴郁的领域，而是精心构建出表面欢乐却隐藏着深层悲伤的歌曲，这种情感的二元性深深打动听众。他在初音未来和 KAFU 上的歌声调校技巧赋予曲目一种迷人且近乎对话般的质感，使作品脱颖而出。
-
-长达十年以上的持续活动体现了他在合成歌声制作人社群中的坚持与不断进化的艺术创造力。
-
 ## 作品索引
 
 - 「ツギハギスタッカート」（拼布断奏）
 - 「アイディスマイル」（理念微笑）
-
-## 外部链接
-
-- [Twitter](https://twitter.com/o0toa0o)
-- [YouTube](https://www.youtube.com/user/0toa0oto0)
-
-
-<!-- V3 RESEARCH SUPPLEMENT toa -->
 
 ## 对外供曲档案
 
@@ -118,3 +108,10 @@ Toa 的制作风格在 Vocaloid 领域占据独特的位置。他不偏向纯粹
 | 2025-02-26 | 《ココロト》 | [心世紀](/zh/database/artists/groups/sinseiki) | 作词 / 作曲 / 编曲 |
 
 > **供曲脉络的观察**：とあ 的三笔供曲分别落在[音乐同位体](/zh/database/isotopes/kafu)（狐子、羽累）与[少女革命計画](/zh/database/projects/girls-revolution-project)（心世紀）两条不同的产品线上，说明其在神椿生态中扮演的是**跨企划的通用型词曲作者**——既能为 AI 歌声库写作，也能为三人组合提供合唱曲。
+
+## 外部链接
+
+- [Twitter](https://twitter.com/o0toa0o)
+- [YouTube](https://www.youtube.com/user/0toa0oto0)
+
+<!-- V3 RESEARCH SUPPLEMENT toa -->

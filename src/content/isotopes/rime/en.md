@@ -58,7 +58,6 @@ lifecycle:
 voiceEngines: []
 summary: "A CeVIO AI musical isotope built from RIM's vocal data, bringing the transparency and emotional intensity of the original voice to synthesized music creation."
 ---
-
 ## Overview
 
 RIME (裏命) is the third voice synthesis software in [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio)'s "[Musical Isotope](/en/artists/solo/musical-isotope)" (音楽的同位体) series. It is built using AI technology based on the vocal data of virtual singer [RIM](/en/artists/vwp/rim) (理芽) to generate highly realistic singing voices.
@@ -70,6 +69,17 @@ Running on the CeVIO AI platform, the name "RIME" is derived from the concept of
 Designed by [PALOW.](/en/artists/creators/palow), RIME's visual features include white hair with deep blue highlights and an eight-pointed star hair accessory, giving her a cool and cybernetic look. In terms of vocal performance, RIME is equipped with realistic breathing sounds and delicate vocal control, allowing her to deliver strong emotional resonance across fast-paced electronic, rock, or slow ballad genres.
 
 As a member of the Musical Isotope series, she is positioned as a "creative partner" for creators. Within the UGC (User Generated Content) ecosystem, many creators have used RIME to publish a vast collection of diverse derivative works.
+
+## Basic Profile and Character Setting
+
+RIME is a CeVIO AI singing-synthesis product and character based on RIM's vocal data. It preserves the transparency and strangeness associated with the source voice while remaining an independent creative identity.
+
+| Item | Detail |
+| --- | --- |
+| Voice source | RIM |
+| Platform | CeVIO AI and VOICEPEAK TALK EXTENSION |
+| Character design | PALOW. |
+| Main projects | *Paranormal*, RIME song contest |
 
 ## Activity History
 
@@ -172,17 +182,6 @@ As a member of the Musical Isotope series, she is positioned as a "creative part
 
 {{/details}}
 
-## Basic Profile and Character Setting
-
-RIME is a CeVIO AI singing-synthesis product and character based on RIM's vocal data. It preserves the transparency and strangeness associated with the source voice while remaining an independent creative identity.
-
-| Item | Detail |
-| --- | --- |
-| Voice source | RIM |
-| Platform | CeVIO AI and VOICEPEAK TALK EXTENSION |
-| Character design | PALOW. |
-| Main projects | *Paranormal*, RIME song contest |
-
 ## Representative Songs and Creator Ecosystem
 
 “Insect Plant” is an official demonstration cover connecting RIM's catalogue to RIME, while “Mandarin” demonstrates RIME as an independent synthetic singer. The *Paranormal* compilation series gathers UGC works into a formal release history, and the RIME song contest extends the ecosystem to original songs and music videos.
@@ -192,19 +191,6 @@ When cataloguing a work, distinguish RIM's performance, a RIME performance, and 
 ## Official Music and Community Works
 
 RIME's history differs from that of a conventional solo artist: demonstrations, contests, and creator compilations are the primary milestones. The *Paranormal* releases should therefore be read as a creator-community archive as well as a music release series.
-
-## Related Projects / Setting
-
-RIME is a core member of the "Musical Isotope Project" initiated by KAMITSUBAKI STUDIO. Using virtual singers' vocal data to create synthesis software, this project allows RIM's voice to transcend standard vocal performances and become a versatile musical material for creators to restructure infinitely.
-
-## External Links
-
-- [Musical Isotope official website](https://musical-isotope.kamitsubaki.jp/)
-- [Musical Isotope official X (Twitter)](https://twitter.com/musicalisotope)
-- [Musical Isotope official YouTube channel](https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA)
-
-
-<!-- V3 RESEARCH SUPPLEMENT rime -->
 
 ## Official Compilations and Naming System
 
@@ -240,6 +226,10 @@ For the Musical Isotope project KAMITSUBAKI abandoned the closed restrictions of
 
 > **Industry significance**: where the traditional record system restricts derivative works, KAMITSUBAKI treats a voice library as a gateway into an ecosystem rather than a closed asset — the fundamental reason the Isotope family accumulated such a vast body of UGC within a few years.
 
+## Related Projects / Setting
+
+RIME is a core member of the "Musical Isotope Project" initiated by KAMITSUBAKI STUDIO. Using virtual singers' vocal data to create synthesis software, this project allows RIM's voice to transcend standard vocal performances and become a versatile musical material for creators to restructure infinitely.
+
 ## Relationship to the Source Witch
 
 | Item | Detail |
@@ -250,3 +240,11 @@ For the Musical Isotope project KAMITSUBAKI abandoned the closed restrictions of
 | **Position in the lore** | The digital-side counterpart of KAMITSUBAKI's "song singularity", sharing one source of "singing voice" with RIM |
 
 > **Naming rule**: each Isotope's official name is drawn directly from its source witch (KAFU←KAF, RIME←RIM, SEKAI←ISEKAIJOUCHO, COKO←KOKO, HARU←HARUSARUHI). The convention itself declares the core idea: different forms of one existence.
+
+## External Links
+
+- [Musical Isotope official website](https://musical-isotope.kamitsubaki.jp/)
+- [Musical Isotope official X (Twitter)](https://twitter.com/musicalisotope)
+- [Musical Isotope official YouTube channel](https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA)
+
+<!-- V3 RESEARCH SUPPLEMENT rime -->

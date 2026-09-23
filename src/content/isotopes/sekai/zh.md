@@ -54,7 +54,6 @@ voiceEngines: []
 sources: []
 summary: "基于ヰ世界情绪歌声打造的 CeVIO AI 音乐同位体声库，兼具高冷透彻感与哥特幻想色彩。"
 ---
-
 ## 概述
 
 {{ruby::星界::せかい::sekai}} 是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 推出的音乐同位体合成歌声库，声源原型为虚拟歌手 **[ヰ世界情緒 / ISEKAIJOUCHO](/zh/artists/vwp/isekaijoucho)**。
@@ -100,9 +99,6 @@ summary: "基于ヰ世界情绪歌声打造的 CeVIO AI 音乐同位体声库，
 
 《メタファー》将星界相关创作以合辑形式集中呈现；对于读者而言，它是从官方委约曲进入其创作网络的一个索引节点。
 
-## 项目关联
-
-星界与[可不 / KAFU](/zh/artists/isotopes/kafu)、[裏命 / RIME](/zh/artists/isotopes/rime)、[狐子 / COKO](/zh/artists/isotopes/coko)、[羽累 / HARU](/zh/artists/isotopes/haru)同属音乐同位体项目；声源原型条目见 [ヰ世界情緒 / ISEKAIJOUCHO](/zh/artists/vwp/isekaijoucho)。
 ## 代表作品与相关条目
 
 {{details::展开完整专辑与 EP 目录}}
@@ -169,13 +165,6 @@ summary: "基于ヰ世界情绪歌声打造的 CeVIO AI 音乐同位体声库，
 
 {{/details}}
 
-## 外部链接
-
-- [音乐同位体 星界 官方网站](https://sekai.kamitsubaki.jp/)
-
-
-<!-- V3 RESEARCH SUPPLEMENT sekai -->
-
 ## 官方合辑系列与命名体系
 
 以ヰ世界情绪（ISEKAIJOUCHO）的歌声为声源原型，承袭其宽阔音域与歌剧式共鸣，是神椿同位体系中"幻想／宏大叙事"路线的代表声库。
@@ -210,6 +199,10 @@ summary: "基于ヰ世界情绪歌声打造的 CeVIO AI 音乐同位体声库，
 
 > **行业意义**：相较于传统唱片体系对二次创作的严格限制，神椿选择把"声库"当作生态入口而非封闭资产，这也是同位体系列能够在数年内积累出海量 UGC 作品的根本原因。
 
+## 项目关联
+
+星界与[可不 / KAFU](/zh/artists/isotopes/kafu)、[裏命 / RIME](/zh/artists/isotopes/rime)、[狐子 / COKO](/zh/artists/isotopes/coko)、[羽累 / HARU](/zh/artists/isotopes/haru)同属音乐同位体项目；声源原型条目见 [ヰ世界情緒 / ISEKAIJOUCHO](/zh/artists/vwp/isekaijoucho)。
+
 ## 与声源魔女的关系谱系
 
 | 项目 | 内容 |
@@ -220,3 +213,9 @@ summary: "基于ヰ世界情绪歌声打造的 CeVIO AI 音乐同位体声库，
 | **世界观定位** | 神椿"歌曲特异点"在数字侧的分身，与花譜共享同一"歌之声"的来源 |
 
 > **命名规则**：音乐同位体的官方名称前缀直接取自声源魔女（KAFU←KAF、RIME←RIM、SEKAI←ISEKAIJOUCHO、COKO←KOKO、HARU←HARUSARUHI），这一命名法本身即宣示了"同一存在的不同形态"这一设定内核。
+
+## 外部链接
+
+- [音乐同位体 星界 官方网站](https://sekai.kamitsubaki.jp/)
+
+<!-- V3 RESEARCH SUPPLEMENT sekai -->

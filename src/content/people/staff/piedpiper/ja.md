@@ -43,7 +43,6 @@ lifecycle:
   activity: "active"
 summary: "KAMITSUBAKI STUDIO 統括プロデューサー。全アーティストおよび主要 IP プロジェクトの制作統括を担当。"
 ---
-
 ## 概要
 
 PIEDPIPER は [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) の統括プロデューサー。日本で最も独自性の高いバーチャルアーティスト・プロジェクトの一つである神椿の、戦略的かつ創造的方向性を統括している。
@@ -53,39 +52,6 @@ PIEDPIPER は [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) の�
 ## 役割と創作上の位置づけ
 
 統括プロデューサーとしての PIEDPIPER の役割は、狭義の作家性ではなく、組織化とビジョンの提示にある。制作の優先順位付け、跨プロジェクトの調整、音楽・映像・ライブ・ IP 展開という多様な要素が一貫した創造哲学のもとで整合するよう舵を取る。映画のエグゼクティブ・プロデューサーやテレビのショーランナーに近い存在——唯一の声ではないが、全体を形づくる存在。
-
-## 活動歴
-
-- KAMITSUBAKI STUDIO の草創期より統括プロデューサーを務める。
-- 花譜のソロ作品制作とライブ演出を統括。
-- V.W.P としての 5 人バーチャルシンガー・グループの編成と戦略を指揮。
-- 「神椿市建設中。」という跨メディア IP プロジェクトの開発を主導。
-- バーチャルとリアルの声を結ぶ「音楽的同位体」シリーズを監修。
-- 「KAMITSUBAKI VERSE」による神椿の物語宇宙の拡張を指導。
-
-## 代表作品と関連項目
-
-- 花譜（KAF）——ソロアーティストの制作統括
-- V.W.P ——グループ編成と戦略統括
-- 神椿市建設中。——跨メディア IP プロジェクト
-- 音楽的同位体——ミュージカル・アイソトープ・シリーズ
-- KAMITSUBAKI VERSE ——物語宇宙の拡張
-
-あわせて読むとつながりが見えやすい項目：
-
-- [花譜 / KAF](/ja/artists/vwp/kaf)
-- [V.W.P](/ja/artists/vwp/vwp)
-
-## 参考資料
-
-- PIEDPIPER 公式 X (Twitter)：<https://twitter.com/PIEDPIPER2045>
-
-## 外部リンク
-
-- [X (Twitter)](https://twitter.com/PIEDPIPER2045)
-
-
-<!-- V3 RESEARCH SUPPLEMENT piedpiper -->
 
 ## プロデューサーとしての哲学と美学
 
@@ -100,6 +66,15 @@ PIEDPIPER は [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) の�
 
 > **核心の戦友**：針谷建二郎（THINKR CEO）、[PALOW.](/ja/database/staff/palow)（メイン原案）、[川サキ](/ja/database/staff/kawasaki)（映像監督）、[月島総記](/ja/database/staff/tsukisimasouki)（脚本）。
 
+## 活動歴
+
+- KAMITSUBAKI STUDIO の草創期より統括プロデューサーを務める。
+- 花譜のソロ作品制作とライブ演出を統括。
+- V.W.P としての 5 人バーチャルシンガー・グループの編成と戦略を指揮。
+- 「神椿市建設中。」という跨メディア IP プロジェクトの開発を主導。
+- バーチャルとリアルの声を結ぶ「音楽的同位体」シリーズを監修。
+- 「KAMITSUBAKI VERSE」による神椿の物語宇宙の拡張を指導。
+
 ## 主要な戦役とマイルストーン
 
 | 時期 | 戦役 | 結果 |
@@ -111,6 +86,19 @@ PIEDPIPER は [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) の�
 
 > **マネジメントの流儀**：PIEDPIPER の歩みは「最高水準の商業リソースで極端に個人的な創作を守る」ことにある——彼は資本の操盤者と美学の門番という二重の役割を同時に担っており、これは日本のバーチャルアーティスト産業においてきわめて稀である。
 
+## 代表作品と関連項目
+
+- 花譜（KAF）——ソロアーティストの制作統括
+- V.W.P ——グループ編成と戦略統括
+- 神椿市建設中。——跨メディア IP プロジェクト
+- 音楽的同位体——ミュージカル・アイソトープ・シリーズ
+- KAMITSUBAKI VERSE ——物語宇宙の拡張
+
+あわせて読むとつながりが見えやすい項目：
+
+- [花譜 / KAF](/ja/artists/vwp/kaf)
+- [V.W.P](/ja/artists/vwp/vwp)
+
 ## クリエイター生態系の盟約
 
 * **[カンザキイオリ](/ja/database/creators/kanzaki-iori) との関係**：師であり友でもある芸術的同盟。カンザキイオリが最も迷っていた時期に絶対的な信頼と創作の自主権を与え、花譜初期のダークで救済的な作風を生み出した。2023 年にカンザキイオリが個人的表現を求めた際には、PIEDPIPER は品位を保ってその卒業を支え、今日に至るまで深い協働を続けている；
@@ -118,3 +106,13 @@ PIEDPIPER は [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) の�
 * **笹川真生、[Guiano](/ja/database/creators/guiano)、[大沼パセリ](/ja/database/creators/onuma-parsley) ら先鋭的プロデューサーとの関係**：非主流の作曲家にきわめて自由な表現の場を与え、理芽の都市的サイケデリア、春猿火のラップの力、ヰ世界情緒のオペラティックな声を最大限に引き出した。
 
 > **生態系の論理**：PIEDPIPER の人材の用い方は「スタイルの統一」ではなく、各アーティストにその気質に最も合うクリエイターを配置し、そのクリエイターたちを同一の世界観のもとで並行して活動させることにある——これこそが、神椿の五魔女がそれぞれ異なる相貌を持ちながら同一の宇宙を共有している根本的な理由である。
+
+## 参考資料
+
+- PIEDPIPER 公式 X (Twitter)：<https://twitter.com/PIEDPIPER2045>
+
+## 外部リンク
+
+- [X (Twitter)](https://twitter.com/PIEDPIPER2045)
+
+<!-- V3 RESEARCH SUPPLEMENT piedpiper -->

@@ -54,7 +54,6 @@ voiceEngines: []
 sources: []
 summary: "基于幸祜歌声打造的 CeVIO AI 音乐同位体声库，具备爆发力高音与朋克摇滚穿透力。"
 ---
-
 ## 概述
 
 {{ruby::狐子::ここ::coko}} 是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 推出的音乐同位体合成歌声库，声源原型为虚拟歌手 **[幸祜 / KOKO](/zh/artists/vwp/koko)**。
@@ -103,9 +102,6 @@ summary: "基于幸祜歌声打造的 CeVIO AI 音乐同位体声库，具备爆
 
 这里列出的是官方渠道集中展示的早期作品。狐子的完整创作生态还包括由使用者不断发表的合成声歌曲，因此不应被简化为一张封闭的“代表曲列表”。
 
-## 项目关联
-
-狐子是音乐同位体项目的第四位公开成员。她与[幸祜 / KOKO](/zh/artists/vwp/koko)保持声源关联，并与其他同位体共同扩展了 KAMITSUBAKI 的创作者向歌声角色网络。
 ## 代表作品与相关条目
 
 {{details::展开完整单曲目录}}
@@ -146,13 +142,6 @@ summary: "基于幸祜歌声打造的 CeVIO AI 音乐同位体声库，具备爆
 
 {{/details}}
 
-## 外部链接
-
-- [音乐同位体 狐子 官方网站](https://coko.kamitsubaki.jp/)
-
-
-<!-- V3 RESEARCH SUPPLEMENT coko -->
-
 ## 官方合辑系列与命名体系
 
 以幸祜（KOKO）的歌声为声源原型，承袭其高穿透力的摇滚声线，是同位体系中"高张力摇滚"路线的代表声库。
@@ -187,6 +176,10 @@ summary: "基于幸祜歌声打造的 CeVIO AI 音乐同位体声库，具备爆
 
 > **行业意义**：相较于传统唱片体系对二次创作的严格限制，神椿选择把"声库"当作生态入口而非封闭资产，这也是同位体系列能够在数年内积累出海量 UGC 作品的根本原因。
 
+## 项目关联
+
+狐子是音乐同位体项目的第四位公开成员。她与[幸祜 / KOKO](/zh/artists/vwp/koko)保持声源关联，并与其他同位体共同扩展了 KAMITSUBAKI 的创作者向歌声角色网络。
+
 ## 与声源魔女的关系谱系
 
 | 项目 | 内容 |
@@ -197,3 +190,9 @@ summary: "基于幸祜歌声打造的 CeVIO AI 音乐同位体声库，具备爆
 | **世界观定位** | 神椿"歌曲特异点"在数字侧的分身，与花譜共享同一"歌之声"的来源 |
 
 > **命名规则**：音乐同位体的官方名称前缀直接取自声源魔女（KAFU←KAF、RIME←RIM、SEKAI←ISEKAIJOUCHO、COKO←KOKO、HARU←HARUSARUHI），这一命名法本身即宣示了"同一存在的不同形态"这一设定内核。
+
+## 外部链接
+
+- [音乐同位体 狐子 官方网站](https://coko.kamitsubaki.jp/)
+
+<!-- V3 RESEARCH SUPPLEMENT coko -->

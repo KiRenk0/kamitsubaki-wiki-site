@@ -34,7 +34,6 @@ lifecycle:
   startedAt: "2024-08-08"
 summary: "A virtual singer who loves singing and sweets."
 ---
-
 ## Introduction
 
 Garasumiya is a cross-dimensional streamer (Xtuber) under [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio)'s [Girls Revolution Project](/en/projects/labels/girls-revolution-project). She belongs to the trio unit [SINSEIKI](/en/artists/girls_revolution_project/sinseiki), and her character design is by [PALOW.](/en/artists/creators/palow).
@@ -68,16 +67,6 @@ In her official channel description, she introduces herself as loving singing an
 
 {{/details}}
 
-## External Links
-
-- [KAMITSUBAKI STUDIO Official Site (SINSEIKI)](https://kamitsubaki.jp/artist/sinseiki/)
-- [GIRLS REVOLUTION PROJECT Official Site](https://girlsrevolutionproject.jp/)
-- [YouTube Channel](https://www.youtube.com/@garasumiya_grp)
-- [X Official Page](https://x.com/garasumiya_gr)
-
-
-<!-- V3 RESEARCH SUPPLEMENT garasumiya -->
-
 ## Solo Song Archive
 
 The solo tracks recorded for this member are listed below in release order.
@@ -91,3 +80,12 @@ The solo tracks recorded for this member are listed below in release order.
 | 2026-03-06 | さよなら、楽園 | — |
 
 > **Source**: the tracks below are compiled automatically from this site’s entity registry (Metadata Schema v2); dates and performers follow each entry’s metadata. Unit and duet songs are listed on the group entry and the [Girls Revolution Project](/en/database/projects/girls-revolution-project) overview.
+
+## External Links
+
+- [KAMITSUBAKI STUDIO Official Site (SINSEIKI)](https://kamitsubaki.jp/artist/sinseiki/)
+- [GIRLS REVOLUTION PROJECT Official Site](https://girlsrevolutionproject.jp/)
+- [YouTube Channel](https://www.youtube.com/@garasumiya_grp)
+- [X Official Page](https://x.com/garasumiya_gr)
+
+<!-- V3 RESEARCH SUPPLEMENT garasumiya -->

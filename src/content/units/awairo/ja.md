@@ -47,8 +47,6 @@ lifecycle:
   activity: "active"
 summary: "甘くエモーショナルなメロディと EDM を融合させ、繊細で切ない感情を表現する次世代音楽ユニット。"
 ---
-
-
 ## 概要
 
 淡色（Awairo）は [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) 所属の次世代音楽ユニット。作曲家のゆのすけと歌手 WaMi の二人で構成されている。甘くエモーショナルなメロディに EDM の要素を融合させ、繊細で切ない感情世界を表現するのが特徴。
@@ -60,6 +58,17 @@ summary: "甘くエモーショナルなメロディと EDM を融合させ、�
 淡色の音楽の核は「センシビリティ」と「エレクトロニクス」の融合にある。作曲を担当するゆのすけは感情の起伏を電子サウンドで描き出すことに長け、歌手の WaMi は柔らかくも穿透力のあるボーカルで楽曲に独自の温もりを加える。二人の化学反応によって、淡色の音楽は EDM のグルーヴ感を保ちながら、ポップスとしての情感の共鳴も失わない。
 
 ユニット名「淡色」そのものが、彼らの美学を象徴している——濃くもなく、派手でもない。しかし淡い色合いのなかに、深い感情の層が宿っている。
+
+## メンバー構成と企画の位置づけ
+
+**[Awairo](/ja/database/artists/groups/awairo)** は [SINSEKAI RECORD](/ja/database/studios/sinsekai-record) が 2023 年 10 月にデビューを発表した音楽ユニットであり、メンバーには**雄之助（Yunosuke）** と **WaMi** がいる。
+
+| メンバー | 役割 |
+| :--- | :--- |
+| [雄之助（Yunosuke）](/ja/database/creators/yunosuke) | 作曲 / 編曲 / サウンドプロデュース |
+| WaMi | 歌唱 / ボーカル |
+
+> **企画の位置づけ**：Awairo は深脊界が企画拡張期に打ち出した重要な音楽団体であり、その位置づけは「エレクトロニック・ダンスミュージックの制作を中核とし、クリエイターと歌手が直接組む」ユニット形態にある——神椿の多くの「まずキャラクターありき、音楽は後から」という企画とは逆に、Awairo はプロデューサーと歌手の直接的な協働体に近い。
 
 ## 活動歴
 
@@ -100,33 +109,6 @@ summary: "甘くエモーショナルなメロディと EDM を融合させ、�
 
 {{/details}}
 
-## 関連企画 / 関連設定
-
-淡色は KAMITSUBAKI WARS や KAMITSUBAKI FES などの大型イベントを通じて、神椿所属の他アーティストとの接点を持つ。梓川との 2MAN LIVE は、神椿内部のアーティスト間コラボレーションの好例である。
-
-## 参考資料
-
-- KAMITSUBAKI STUDIO 公式情報
-
-## 外部リンク
-
-- [X (Twitter)](https://twitter.com/Awairo_info)
-- [YouTube](https://www.youtube.com/@yunosuke23)
-
-
-<!-- V3 RESEARCH SUPPLEMENT awairo -->
-
-## メンバー構成と企画の位置づけ
-
-**[Awairo](/ja/database/artists/groups/awairo)** は [SINSEKAI RECORD](/ja/database/studios/sinsekai-record) が 2023 年 10 月にデビューを発表した音楽ユニットであり、メンバーには**雄之助（Yunosuke）** と **WaMi** がいる。
-
-| メンバー | 役割 |
-| :--- | :--- |
-| [雄之助（Yunosuke）](/ja/database/creators/yunosuke) | 作曲 / 編曲 / サウンドプロデュース |
-| WaMi | 歌唱 / ボーカル |
-
-> **企画の位置づけ**：Awairo は深脊界が企画拡張期に打ち出した重要な音楽団体であり、その位置づけは「エレクトロニック・ダンスミュージックの制作を中核とし、クリエイターと歌手が直接組む」ユニット形態にある——神椿の多くの「まずキャラクターありき、音楽は後から」という企画とは逆に、Awairo はプロデューサーと歌手の直接的な協働体に近い。
-
 ## 代表曲と協働ネットワーク
 
 | 曲目 | 協働 | 説明 |
@@ -142,3 +124,18 @@ summary: "甘くエモーショナルなメロディと EDM を融合させ、�
 | アルバム《グラデーション》 | — | ユニットの正式なリリース作品 |
 
 > **協働ネットワーク**：Awairo はメンバー 雄之助 の作曲家としての立場を通じて神椿の体系と広く接続している——[VALIS](/ja/database/artists/groups/valis) などのユニットに楽曲を提供するほか、[梓川](/ja/database/artists/solo/azsagawa)、[音楽同位体](/ja/database/isotopes/kafu) などとも企画横断の協働を生み、深脊界における「クリエイター主導型ユニット」の代表的な見本となっている。
+
+## 関連企画 / 関連設定
+
+淡色は KAMITSUBAKI WARS や KAMITSUBAKI FES などの大型イベントを通じて、神椿所属の他アーティストとの接点を持つ。梓川との 2MAN LIVE は、神椿内部のアーティスト間コラボレーションの好例である。
+
+## 参考資料
+
+- KAMITSUBAKI STUDIO 公式情報
+
+## 外部リンク
+
+- [X (Twitter)](https://twitter.com/Awairo_info)
+- [YouTube](https://www.youtube.com/@yunosuke23)
+
+<!-- V3 RESEARCH SUPPLEMENT awairo -->

@@ -118370,6 +118370,286 @@
       "id": "yunosuke-void",
       "locale": "zh",
       "sha256": "79744a56433f7baed6f7168288b38908d88d582ef35841fe59ffda1d5a497db4"
+    },
+    {
+      "from": "src/content/songs/unassigned/albemuth-happy-merry-xmath/zh-tw.md",
+      "to": "src/content/songs/albemuth/albemuth-happy-merry-xmath/zh-tw.md",
+      "id": "albemuth-happy-merry-xmath",
+      "locale": "zh-tw",
+      "sha256": "36244540681fdb6fd55af009de061f1a40781d30f8979e6cccfcba0d053b0ec8"
+    },
+    {
+      "from": "src/content/songs/unassigned/albemuth-happy-merry-xmath/zh-hk.md",
+      "to": "src/content/songs/albemuth/albemuth-happy-merry-xmath/zh-hk.md",
+      "id": "albemuth-happy-merry-xmath",
+      "locale": "zh-hk",
+      "sha256": "34a6d970b5f87916b889b7af2a2cbc7aef9d3be1da9222f7710bafd9fbdcd884"
+    },
+    {
+      "from": "src/content/songs/unassigned/ciel-mijikayo-no-hoshi/zh-tw.md",
+      "to": "src/content/songs/ciel/ciel-mijikayo-no-hoshi/zh-tw.md",
+      "id": "ciel-mijikayo-no-hoshi",
+      "locale": "zh-tw",
+      "sha256": "29ce1bcfdffba5b4f4ec199442b49fcbf47dfc169bb12ae01ed57c61884d99be"
+    },
+    {
+      "from": "src/content/songs/unassigned/ciel-mijikayo-no-hoshi/zh-hk.md",
+      "to": "src/content/songs/ciel/ciel-mijikayo-no-hoshi/zh-hk.md",
+      "id": "ciel-mijikayo-no-hoshi",
+      "locale": "zh-hk",
+      "sha256": "83c9facd3c5912669fa4457cfbe42227f851af317b8b935aa85c9c8edd7f0c50"
+    },
+    {
+      "from": "src/content/songs/unassigned/guiano-shinde-shimatta-no-darouka/zh-tw.md",
+      "to": "src/content/songs/guiano/guiano-shinde-shimatta-no-darouka/zh-tw.md",
+      "id": "guiano-shinde-shimatta-no-darouka",
+      "locale": "zh-tw",
+      "sha256": "0dc968f39f01cc398fe6fe61f2e58bdb109ead811b3324f7d75e1d41f31a6173"
+    },
+    {
+      "from": "src/content/songs/unassigned/guiano-shinde-shimatta-no-darouka/zh-hk.md",
+      "to": "src/content/songs/guiano/guiano-shinde-shimatta-no-darouka/zh-hk.md",
+      "id": "guiano-shinde-shimatta-no-darouka",
+      "locale": "zh-hk",
+      "sha256": "899b483829d4ae18d9b65e4cc3de14dfd86b32c88dac9913db10f6f9aa46058a"
+    },
+    {
+      "from": "src/content/songs/unassigned/guiano-sukitooru-sekai/zh-tw.md",
+      "to": "src/content/songs/guiano/guiano-sukitooru-sekai/zh-tw.md",
+      "id": "guiano-sukitooru-sekai",
+      "locale": "zh-tw",
+      "sha256": "fbb52ff07f2b1f0fd0db3c5c45cbd0fa9f72a9d40c7d548c7a422ce0c516eb68"
+    },
+    {
+      "from": "src/content/songs/unassigned/guiano-sukitooru-sekai/zh-hk.md",
+      "to": "src/content/songs/guiano/guiano-sukitooru-sekai/zh-hk.md",
+      "id": "guiano-sukitooru-sekai",
+      "locale": "zh-hk",
+      "sha256": "69aa0de90b1256cd9bf0203db155783d627a373997ba2a81354748510ea38608"
+    },
+    {
+      "from": "src/content/songs/unassigned/isekaijoucho-monogatari-ga-arunara/zh-tw.md",
+      "to": "src/content/songs/isekaijoucho/isekaijoucho-monogatari-ga-arunara/zh-tw.md",
+      "id": "isekaijoucho-monogatari-ga-arunara",
+      "locale": "zh-tw",
+      "sha256": "e904282d9696d13e17aaa75990430a89f0fe9bb784c101d2bd545dedf4857e91"
+    },
+    {
+      "from": "src/content/songs/unassigned/isekaijoucho-monogatari-ga-arunara/zh-hk.md",
+      "to": "src/content/songs/isekaijoucho/isekaijoucho-monogatari-ga-arunara/zh-hk.md",
+      "id": "isekaijoucho-monogatari-ga-arunara",
+      "locale": "zh-hk",
+      "sha256": "37a42333db0c18e47a4609b8b2f8d1997e3ffe9b7226d857749fc5d060e144f1"
+    },
+    {
+      "from": "src/content/songs/unassigned/kafu-cute-na-kanojo/zh-tw.md",
+      "to": "src/content/songs/kafu/kafu-cute-na-kanojo/zh-tw.md",
+      "id": "kafu-cute-na-kanojo",
+      "locale": "zh-tw",
+      "sha256": "88cf8bda23b91c620e678e74d3f03a5dba02912da764397ab8a148ad4695a7fb"
+    },
+    {
+      "from": "src/content/songs/unassigned/kafu-cute-na-kanojo/zh-hk.md",
+      "to": "src/content/songs/kafu/kafu-cute-na-kanojo/zh-hk.md",
+      "id": "kafu-cute-na-kanojo",
+      "locale": "zh-hk",
+      "sha256": "adac728e82dae8de90c070fd5e883af7ff353535a1c305d367eca430581dc287"
+    },
+    {
+      "from": "src/content/songs/unassigned/kafu-marshall-maximizer/zh-tw.md",
+      "to": "src/content/songs/kafu/kafu-marshall-maximizer/zh-tw.md",
+      "id": "kafu-marshall-maximizer",
+      "locale": "zh-tw",
+      "sha256": "0b52868a5d87715dc0b977f279f9e1b8e20d3ca78daf44d3c8812e0bb8b21665"
+    },
+    {
+      "from": "src/content/songs/unassigned/kafu-marshall-maximizer/zh-hk.md",
+      "to": "src/content/songs/kafu/kafu-marshall-maximizer/zh-hk.md",
+      "id": "kafu-marshall-maximizer",
+      "locale": "zh-hk",
+      "sha256": "164ebb4115ebd595b1265a5482488f06facd0046ed43bb99e976484555a4f74f"
+    },
+    {
+      "from": "src/content/songs/unassigned/kafu-phony/zh-tw.md",
+      "to": "src/content/songs/kafu/kafu-phony/zh-tw.md",
+      "id": "kafu-phony",
+      "locale": "zh-tw",
+      "sha256": "a181b1944c5db2640ce1d567bff37df31602d6cab6db7f42ca3879044feed9b1"
+    },
+    {
+      "from": "src/content/songs/unassigned/kafu-phony/zh-hk.md",
+      "to": "src/content/songs/kafu/kafu-phony/zh-hk.md",
+      "id": "kafu-phony",
+      "locale": "zh-hk",
+      "sha256": "fc5402e57c17d6ccf18aeb5444f617f97a0acf31d7b55a7917776cf26a232973"
+    },
+    {
+      "from": "src/content/songs/unassigned/kanzaki-ano-natsu-ga-houwa-suru/zh-tw.md",
+      "to": "src/content/songs/kanzaki-iori/kanzaki-ano-natsu-ga-houwa-suru/zh-tw.md",
+      "id": "kanzaki-ano-natsu-ga-houwa-suru",
+      "locale": "zh-tw",
+      "sha256": "1aa516aed3f1bddfc88240dd82722c8f7b1e1163e65c10a59d36145fdb3627ef"
+    },
+    {
+      "from": "src/content/songs/unassigned/kanzaki-ano-natsu-ga-houwa-suru/zh-hk.md",
+      "to": "src/content/songs/kanzaki-iori/kanzaki-ano-natsu-ga-houwa-suru/zh-hk.md",
+      "id": "kanzaki-ano-natsu-ga-houwa-suru",
+      "locale": "zh-hk",
+      "sha256": "6ab6110c4c7a900f5e6abacba164cf80bcef0ba08c510597c5be87907e5d5d74"
+    },
+    {
+      "from": "src/content/songs/unassigned/kanzaki-inochi-ni-kirawareteiru/zh-tw.md",
+      "to": "src/content/songs/kanzaki-iori/kanzaki-inochi-ni-kirawareteiru/zh-tw.md",
+      "id": "kanzaki-inochi-ni-kirawareteiru",
+      "locale": "zh-tw",
+      "sha256": "a4123725463adc4e84777874106a85f3ac909355ce35c4d7fcde192553c2740f"
+    },
+    {
+      "from": "src/content/songs/unassigned/kanzaki-inochi-ni-kirawareteiru/zh-hk.md",
+      "to": "src/content/songs/kanzaki-iori/kanzaki-inochi-ni-kirawareteiru/zh-hk.md",
+      "id": "kanzaki-inochi-ni-kirawareteiru",
+      "locale": "zh-hk",
+      "sha256": "0fda30b481613ba2ba609ce49c1ea07d7f461e763dbaeb0866f38dfe587ee52c"
+    },
+    {
+      "from": "src/content/songs/unassigned/mimi-mother/zh-tw.md",
+      "to": "src/content/songs/mimi/mimi-mother/zh-tw.md",
+      "id": "mimi-mother",
+      "locale": "zh-tw",
+      "sha256": "2ef91fd4a3464cee860d8f68abf83fa6c8cabede235c03fd77a6267310fec028"
+    },
+    {
+      "from": "src/content/songs/unassigned/mimi-mother/zh-hk.md",
+      "to": "src/content/songs/mimi/mimi-mother/zh-hk.md",
+      "id": "mimi-mother",
+      "locale": "zh-hk",
+      "sha256": "f99225cf527167cea698226b2df8c3a0eb9f40a2bea9e8bcf854489af41fea55"
+    },
+    {
+      "from": "src/content/songs/unassigned/onuma-billy/zh-tw.md",
+      "to": "src/content/songs/onuma-parsley/onuma-billy/zh-tw.md",
+      "id": "onuma-billy",
+      "locale": "zh-tw",
+      "sha256": "e33bdaf93af2cadf48a6b06771c77da281f2452c60009f92d31f6645ccd78ca2"
+    },
+    {
+      "from": "src/content/songs/unassigned/onuma-billy/zh-hk.md",
+      "to": "src/content/songs/onuma-parsley/onuma-billy/zh-hk.md",
+      "id": "onuma-billy",
+      "locale": "zh-hk",
+      "sha256": "c7821d81920a0365a31d1243d276f4bc472349581479af73e90c04b8eaa9931a"
+    },
+    {
+      "from": "src/content/songs/unassigned/onuma-corruption/zh-tw.md",
+      "to": "src/content/songs/onuma-parsley/onuma-corruption/zh-tw.md",
+      "id": "onuma-corruption",
+      "locale": "zh-tw",
+      "sha256": "835a71fa665e3b61744d33265930e6d0cb99bb8ecfd274f701e1e3439f18091a"
+    },
+    {
+      "from": "src/content/songs/unassigned/onuma-corruption/zh-hk.md",
+      "to": "src/content/songs/onuma-parsley/onuma-corruption/zh-hk.md",
+      "id": "onuma-corruption",
+      "locale": "zh-hk",
+      "sha256": "10502289fe9059aa415b18de0004b9c3688382491f52979394de060c2309c44c"
+    },
+    {
+      "from": "src/content/songs/unassigned/onuma-emerald/zh-tw.md",
+      "to": "src/content/songs/onuma-parsley/onuma-emerald/zh-tw.md",
+      "id": "onuma-emerald",
+      "locale": "zh-tw",
+      "sha256": "b7827471158cdfd4877248587b74ccc6fcab77ad87fededb98aa27e9dc3c453a"
+    },
+    {
+      "from": "src/content/songs/unassigned/onuma-emerald/zh-hk.md",
+      "to": "src/content/songs/onuma-parsley/onuma-emerald/zh-hk.md",
+      "id": "onuma-emerald",
+      "locale": "zh-hk",
+      "sha256": "7af2a708cc2cb3670a7c947e2d1afd70f744724176fde9db5b29c609e3aed199"
+    },
+    {
+      "from": "src/content/songs/unassigned/onuma-poolside/zh-tw.md",
+      "to": "src/content/songs/onuma-parsley/onuma-poolside/zh-tw.md",
+      "id": "onuma-poolside",
+      "locale": "zh-tw",
+      "sha256": "3275e547a10bbed914280adaf310356a56bf8530585849a85055c691dc857259"
+    },
+    {
+      "from": "src/content/songs/unassigned/onuma-poolside/zh-hk.md",
+      "to": "src/content/songs/onuma-parsley/onuma-poolside/zh-hk.md",
+      "id": "onuma-poolside",
+      "locale": "zh-hk",
+      "sha256": "2651f0003cc78dae3669f327e26f5119502441a6638402a61b1942efde8e3af9"
+    },
+    {
+      "from": "src/content/songs/unassigned/rime-crisis/zh-tw.md",
+      "to": "src/content/songs/rime/rime-crisis/zh-tw.md",
+      "id": "rime-crisis",
+      "locale": "zh-tw",
+      "sha256": "c48498809a088044911c8100cf5c49d379ef362b4136292c564bfdf4c74a202b"
+    },
+    {
+      "from": "src/content/songs/unassigned/rime-crisis/zh-hk.md",
+      "to": "src/content/songs/rime/rime-crisis/zh-hk.md",
+      "id": "rime-crisis",
+      "locale": "zh-hk",
+      "sha256": "b2cff36aa1fb9c1e3102d7ef10ebbbb61fc3a79d073de137df0dad81cb0ade13"
+    },
+    {
+      "from": "src/content/songs/unassigned/rime-manhattan/zh-tw.md",
+      "to": "src/content/songs/rime/rime-manhattan/zh-tw.md",
+      "id": "rime-manhattan",
+      "locale": "zh-tw",
+      "sha256": "b3d42237282c40b91634bdcb81038ab102f3093cbe7ea9c67ac1f20c1234572e"
+    },
+    {
+      "from": "src/content/songs/unassigned/rime-manhattan/zh-hk.md",
+      "to": "src/content/songs/rime/rime-manhattan/zh-hk.md",
+      "id": "rime-manhattan",
+      "locale": "zh-hk",
+      "sha256": "075ff6845c2f0630949c41947b2d313025e5da683f469b18f1017b18bb96cd0b"
+    },
+    {
+      "from": "src/content/songs/unassigned/sekai-nayuta/zh-tw.md",
+      "to": "src/content/songs/sekai/sekai-nayuta/zh-tw.md",
+      "id": "sekai-nayuta",
+      "locale": "zh-tw",
+      "sha256": "53fd6cebf99e0e37b36ea5e5371272c00b0bdd040e561c84d2da5488c3c58ead"
+    },
+    {
+      "from": "src/content/songs/unassigned/sekai-nayuta/zh-hk.md",
+      "to": "src/content/songs/sekai/sekai-nayuta/zh-hk.md",
+      "id": "sekai-nayuta",
+      "locale": "zh-hk",
+      "sha256": "21934ed3ec5f97f575d14971c4d95c9b7804a61d5e7b5f2d34525895046366c7"
+    },
+    {
+      "from": "src/content/songs/unassigned/yunosuke-paiii-sensation/zh-tw.md",
+      "to": "src/content/songs/yunosuke/yunosuke-paiii-sensation/zh-tw.md",
+      "id": "yunosuke-paiii-sensation",
+      "locale": "zh-tw",
+      "sha256": "b3a8d07a4994026ad8f686190387408d7246f42c1aeef7f1ef465029af101355"
+    },
+    {
+      "from": "src/content/songs/unassigned/yunosuke-paiii-sensation/zh-hk.md",
+      "to": "src/content/songs/yunosuke/yunosuke-paiii-sensation/zh-hk.md",
+      "id": "yunosuke-paiii-sensation",
+      "locale": "zh-hk",
+      "sha256": "bd3b7ee2638ecf3d3fc9a8845e9e6257a47857dcbc63748024dd3afa1d710681"
+    },
+    {
+      "from": "src/content/songs/unassigned/yunosuke-void/zh-tw.md",
+      "to": "src/content/songs/yunosuke/yunosuke-void/zh-tw.md",
+      "id": "yunosuke-void",
+      "locale": "zh-tw",
+      "sha256": "89256d813b4c7d9e1506f0b8279fd35d3d64bbb416b70467760cd2969c3b1951"
+    },
+    {
+      "from": "src/content/songs/unassigned/yunosuke-void/zh-hk.md",
+      "to": "src/content/songs/yunosuke/yunosuke-void/zh-hk.md",
+      "id": "yunosuke-void",
+      "locale": "zh-hk",
+      "sha256": "2a2d0772eeb1645a5a9eac3237c96f139d6091b057e8ce9f05cdcaebaa9195ee"
     }
   ]
 }

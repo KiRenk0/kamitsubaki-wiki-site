@@ -34,7 +34,6 @@ lifecycle:
   startedAt: "2024-08-08"
 summary: "唱歌、吃东西、玩耍！元气十足的虚拟歌手。"
 ---
-
 ## 简介
 
 夕凪機是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 旗下「[少女革命计划](/zh/projects/labels/girls-revolution-project)」（GIRLS REVOLUTION PROJECT）的虚拟歌手，隶属三人组合「[罪十罰](/zh/artists/girls_revolution_project/tsumitobatsu)」。角色设计由 [PALOW.](/zh/artists/creators/palow) 担当。
@@ -67,16 +66,6 @@ summary: "唱歌、吃东西、玩耍！元气十足的虚拟歌手。"
 
 {{/details}}
 
-## 外部链接
-
-- [神椿工作室 官方艺人页（罪十罰）](https://kamitsubaki.jp/artist/tsumitobatsu/)
-- [少女革命計画 官方网站](https://girlsrevolutionproject.jp/)
-- [YouTube 个人主页](https://www.youtube.com/@yunagi_grp)
-- [X 个人主页](https://x.com/yunagi_gr)
-
-
-<!-- V3 RESEARCH SUPPLEMENT yunagi -->
-
 ## 个人曲目档案
 
 本条目收录的独唱曲目如下（按发行/公开时间排序）：
@@ -89,3 +78,12 @@ summary: "唱歌、吃东西、玩耍！元气十足的虚拟歌手。"
 | 2025-12-17 | 化け物でいさせて | — |
 
 > **数据来源**：以下曲目由本站实体登记表（Metadata Schema v2）自动汇总，日期与演唱者以条目元数据为准；组合曲与合唱曲另见所属组合与[少女革命計画](/zh/database/projects/girls-revolution-project)总条目。
+
+## 外部链接
+
+- [神椿工作室 官方艺人页（罪十罰）](https://kamitsubaki.jp/artist/tsumitobatsu/)
+- [少女革命計画 官方网站](https://girlsrevolutionproject.jp/)
+- [YouTube 个人主页](https://www.youtube.com/@yunagi_grp)
+- [X 个人主页](https://x.com/yunagi_gr)
+
+<!-- V3 RESEARCH SUPPLEMENT yunagi -->

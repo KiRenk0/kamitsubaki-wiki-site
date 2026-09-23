@@ -34,7 +34,6 @@ lifecycle:
   startedAt: "2024-08-08"
 summary: "A virtual singer who sings amid contradictions of cold and warmth, retreat and advance."
 ---
-
 ## Introduction
 
 Hinageshi is a virtual singer under [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio)'s [Girls Revolution Project](/en/projects/labels/girls-revolution-project). She belongs to the trio unit [TSUMITOBATSU](/en/artists/girls_revolution_project/tsumitobatsu), and her character design is by [PALOW.](/en/artists/creators/palow).
@@ -67,16 +66,6 @@ Her official channel description frames singing amid contradictions of cold and 
 
 {{/details}}
 
-## External Links
-
-- [KAMITSUBAKI STUDIO Official Site (TSUMITOBATSU)](https://kamitsubaki.jp/artist/tsumitobatsu/)
-- [GIRLS REVOLUTION PROJECT Official Site](https://girlsrevolutionproject.jp/)
-- [YouTube Channel](https://www.youtube.com/@hinageshi_grp)
-- [X Official Page](https://x.com/hinageshi_gr)
-
-
-<!-- V3 RESEARCH SUPPLEMENT hinageshi -->
-
 ## Solo Song Archive
 
 The solo tracks recorded for this member are listed below in release order.
@@ -89,3 +78,12 @@ The solo tracks recorded for this member are listed below in release order.
 | 2026-01-07 | sweet/sour | — |
 
 > **Source**: the tracks below are compiled automatically from this site’s entity registry (Metadata Schema v2); dates and performers follow each entry’s metadata. Unit and duet songs are listed on the group entry and the [Girls Revolution Project](/en/database/projects/girls-revolution-project) overview.
+
+## External Links
+
+- [KAMITSUBAKI STUDIO Official Site (TSUMITOBATSU)](https://kamitsubaki.jp/artist/tsumitobatsu/)
+- [GIRLS REVOLUTION PROJECT Official Site](https://girlsrevolutionproject.jp/)
+- [YouTube Channel](https://www.youtube.com/@hinageshi_grp)
+- [X Official Page](https://x.com/hinageshi_gr)
+
+<!-- V3 RESEARCH SUPPLEMENT hinageshi -->

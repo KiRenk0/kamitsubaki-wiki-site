@@ -46,8 +46,6 @@ lifecycle:
   activity: "active"
 summary: "由「面」与「鱼鱼」二人组成的音乐组合，以 Vocaloid 乐曲制作为核心展开活动。"
 ---
-
-
 ## 概述
 
 Hitogoto（他人事）是由「面」与「鱼鱼」二人组成的音乐组合，现隶属于 [KYOKAI STUDIO](/zh/projects/labels/kyokai-studio)（2026年9月自 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 移籍），原为神椿 CREATOR FARM 成员。自 2020 年起以 Vocaloid 原创曲和自我翻唱开启活动，凭借情感浓烈的词曲创作与精致的编曲迅速获得关注。
@@ -59,6 +57,18 @@ Hitogoto（他人事）是由「面」与「鱼鱼」二人组成的音乐组合
 Hitogoto 的核心优势在于深入人心的歌词与令人久久难忘的旋律。在编曲上展现出跨越多种曲风的灵活性，同时始终保持情感上的统一内核，构成了组合独特的艺术辨识度。
 
 除个人作品外，Hitogoto 还积累了丰富的乐曲提供经验，为 [V.W.P](/zh/artists/vwp/vwp)、罪与罚、Muse Dash 等知名项目贡献了作词、作曲及编曲。
+
+## 创作定位与所属体系
+
+**他人事（Hitogoto）** 是 [SINSEKAI RECORD](/zh/database/studios/sinsekai-record) 旗下 **CREATOR FARM** 体系的音乐制作人，也是少女革命計画体系中最核心的作曲家之一。
+
+| 维度 | 内容 |
+| :--- | :--- |
+| **职能** | 作词 / 作曲 / 编曲 |
+| **所属** | [SINSEKAI RECORD](/zh/database/studios/sinsekai-record) CREATOR FARM |
+| **核心关联** | [罪十罰](/zh/database/artists/groups/tsumitobatsu)（专任供曲核心） |
+
+> **名字的意味**：「他人事」在日语中意为「别人的事」——这一命名与其作品中常出现的疏离感、旁观者视角与自我否定主题高度呼应。
 
 ## 活动历程
 
@@ -88,30 +98,6 @@ Hitogoto 的核心优势在于深入人心的歌词与令人久久难忘的旋�
 
 {{/details}}
 
-## 参考资料
-
-- Hitogoto Twitter：<https://twitter.com/hito_go_to_7>
-
-## 外部链接
-
-- [Twitter](https://twitter.com/hito_go_to_7)
-- [YouTube](https://www.youtube.com/@hitogoto)
-
-
-<!-- V3 RESEARCH SUPPLEMENT hitogoto -->
-
-## 创作定位与所属体系
-
-**他人事（Hitogoto）** 是 [SINSEKAI RECORD](/zh/database/studios/sinsekai-record) 旗下 **CREATOR FARM** 体系的音乐制作人，也是少女革命計画体系中最核心的作曲家之一。
-
-| 维度 | 内容 |
-| :--- | :--- |
-| **职能** | 作词 / 作曲 / 编曲 |
-| **所属** | [SINSEKAI RECORD](/zh/database/studios/sinsekai-record) CREATOR FARM |
-| **核心关联** | [罪十罰](/zh/database/artists/groups/tsumitobatsu)（专任供曲核心） |
-
-> **名字的意味**：「他人事」在日语中意为「别人的事」——这一命名与其作品中常出现的疏离感、旁观者视角与自我否定主题高度呼应。
-
 ## 主要供曲与协作
 
 | 作品 | 关联对象 | 职能 |
@@ -122,3 +108,14 @@ Hitogoto 的核心优势在于深入人心的歌词与令人久久难忘的旋�
 | 《REPLICA》 | [罪十罰](/zh/database/artists/groups/tsumitobatsu) | 供曲 |
 
 > **观察**：他人事 的作品在《改変 -罪-》专辑中占据开篇与压轴位置（第 1 曲《弔花》、以及组合专辑的主打位置），显示其在罪十罰 音乐体系中的核心地位。其创作语汇偏向重型摇滚与戏剧化的情绪爆发，与《心》侧的都市电子形成明确分工。
+
+## 参考资料
+
+- Hitogoto Twitter：<https://twitter.com/hito_go_to_7>
+
+## 外部链接
+
+- [Twitter](https://twitter.com/hito_go_to_7)
+- [YouTube](https://www.youtube.com/@hitogoto)
+
+<!-- V3 RESEARCH SUPPLEMENT hitogoto -->

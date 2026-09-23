@@ -46,8 +46,6 @@ lifecycle:
   activity: "active"
 summary: "作詞・作曲・編曲・イラスト・動画を手掛けるセルフプロデュース型のボカロP / ミュージシャン。"
 ---
-
-
 ## 概要
 
 tokiwa は [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) の CREATOR FARM に所属するミュージシャン / ボカロP。作詞・作曲・編曲に加え、イラストレーションや動画制作まで自ら手掛けるセルフプロデュース型のクリエイターとして知られる。
@@ -59,6 +57,18 @@ EDM、R&B、ロックなどジャンルを横断する印象的なメロディ�
 tokiwa は音楽とビジュアルアートを横断する多面的なクリエイターとして、独自の立ち位置を占めている。心に響くソングライティングと記憶に残るメロディでリスナーを惹きつけ、セルフプロデュースのイラストや動画で楽曲の物語に視覚的な深みを加えている。
 
 EDM、R&B、ロックと柔軟にジャンルを渡り歩くその作風は、CREATOR FARM が推進する独立したクリエイターの自立的成長という理念を体現している。
+
+## 創作上の位置づけと所属体系
+
+**tokiwa** は [SINSEKAI RECORD](/ja/database/studios/sinsekai-record) 傘下の **CREATOR FARM** 体系に属する音楽プロデューサー兼編曲家である。
+
+| 項目 | 内容 |
+| :--- | :--- |
+| **職能** | 音楽プロデューサー / 編曲 |
+| **所属** | [SINSEKAI RECORD](/ja/database/studios/sinsekai-record) CREATOR FARM |
+| **活動の特徴** | 作詞作曲と編曲の双方をこなし、作品は神椿の複数企画にまたがる |
+
+> **体系上の位置づけ**：tokiwa は [Hi-Fi P](/ja/database/creators/hifi-p)、[他人事](/ja/database/creators/hitogoto) と同じく CREATOR FARM に属する——この体系の存在により、深脊界は「アーティストの数が少なく、企画の密度が高い」運営モデルの下でも安定した作品の供給を維持できている。
 
 ## 活動歴
 
@@ -120,30 +130,6 @@ EDM、R&B、ロックと柔軟にジャンルを渡り歩くその作風は、CR
 
 {{/details}}
 
-## 参考資料
-
-- tokiwa Twitter：<https://twitter.com/tokiwa_shion>
-
-## 外部リンク
-
-- [Twitter](https://twitter.com/tokiwa_shion)
-- [YouTube](https://youtube.com/@tokiwa_shion)
-
-
-<!-- V3 RESEARCH SUPPLEMENT tokiwa -->
-
-## 創作上の位置づけと所属体系
-
-**tokiwa** は [SINSEKAI RECORD](/ja/database/studios/sinsekai-record) 傘下の **CREATOR FARM** 体系に属する音楽プロデューサー兼編曲家である。
-
-| 項目 | 内容 |
-| :--- | :--- |
-| **職能** | 音楽プロデューサー / 編曲 |
-| **所属** | [SINSEKAI RECORD](/ja/database/studios/sinsekai-record) CREATOR FARM |
-| **活動の特徴** | 作詞作曲と編曲の双方をこなし、作品は神椿の複数企画にまたがる |
-
-> **体系上の位置づけ**：tokiwa は [Hi-Fi P](/ja/database/creators/hifi-p)、[他人事](/ja/database/creators/hitogoto) と同じく CREATOR FARM に属する——この体系の存在により、深脊界は「アーティストの数が少なく、企画の密度が高い」運営モデルの下でも安定した作品の供給を維持できている。
-
 ## 主な作品とコラボレーション
 
 | 作品 | 関連対象 | 職能 |
@@ -153,3 +139,14 @@ EDM、R&B、ロックと柔軟にジャンルを渡り歩くその作風は、CR
 | 《NEW ROMANCER》などアルバム関連曲 | [理芽](/ja/database/artists/solo/rim) | 編曲 / 制作協力 |
 
 > **協働の特徴**：tokiwa の作品は他の編曲者（たとえば朝比奈健人）と役割を分けて協働することが多く、この「作詞作曲家 ＋ 外部編曲」という組み合わせの型は神椿傘下の重量級楽曲で繰り返し現れる。それにより tokiwa の創作は、シティポップからハードコア・ロックまで多様なサウンドスケープに適合しうる。
+
+## 参考資料
+
+- tokiwa Twitter：<https://twitter.com/tokiwa_shion>
+
+## 外部リンク
+
+- [Twitter](https://twitter.com/tokiwa_shion)
+- [YouTube](https://youtube.com/@tokiwa_shion)
+
+<!-- V3 RESEARCH SUPPLEMENT tokiwa -->

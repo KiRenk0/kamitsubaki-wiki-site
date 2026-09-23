@@ -23,12 +23,21 @@ roles:
 lifecycle:
   activity: "active"
 ---
-
 ## 概要
 
 心世紀（SINSEIKI）は、[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio)の「[少女革命計画](/ja/projects/labels/girls-revolution-project)」（GIRLS REVOLUTION PROJECT）レーベルに所属する3人組のXtuberユニット。メンバーは[御莉姫](/ja/artists/girls_revolution_project/orihime)、[佳鏡院](/ja/artists/girls_revolution_project/kakyoin)、[硝子宮](/ja/artists/girls_revolution_project/garasumiya)。
 
 リアルとバーチャルという二層の狭間から声を届ける「心世代ミュージック」を特徴とし、少女たちは超新星の光を纏い、眠らない夜を駆け抜ける。少女革命計画の物語を牽引する中心ユニットのひとつ。
+
+## 制作陣と音楽性
+
+心世紀の楽曲は、VOCALOID と商業ポップスの両領域にまたがるクリエイターたちが供給している。
+
+- **矢野達也**：《フェイクナイト・シンデレラ》《コントラスト》《ミリオン・コンプレクシティ》《雑几帖》など多数に参加し、組の中核をなす作曲家；
+- **HIDEYA KOJIMA**：《パーフェクション》《うそ鳴き》《FantastiQ》などの作編曲を担当；
+- **水野あつ**、**100回嘔吐**、**とあ**、**Purukichi**、**shikisai**、**たなか** らが、それぞれに個性の異なるシングルを提供している。
+
+> **スタイルの位置づけ**：公式は心世紀を「現実と仮想が交錯する感性的なサウンドを特徴とし、心世代に属する新世代の音楽」と説明する。罪十罰の硬質で過激な路線に対し、《心》側は都市感・青春感・越境的な軽やかさを持つ電子音へ寄っている。
 
 ## 活動履歴
 
@@ -71,15 +80,6 @@ lifecycle:
 
 {{/details}}
 
-## 外部リンク
-
-- [少女革命計画 公式サイト](https://girlsrevolutionproject.jp/)
-- [公式 X（旧Twitter）](https://x.com/girls_rev_pj)
-- [公式 YouTube](https://www.youtube.com/@girls_rev_pj)
-
-
-<!-- V3 RESEARCH SUPPLEMENT sinseiki -->
-
 ## 1st アルバム《改変 -心-》全曲アーカイブ
 
 心世紀の初のフルアルバム《**改変 -心-**》は **2025 年 10 月 29 日**にリリースされ、全 11 曲を収録する「心」側世界観の集大成である。
@@ -99,16 +99,6 @@ lifecycle:
 | 11 | 改変 | feat. たなか / LLLL |
 
 > **アルバムの構造**：表題の《改変 -心-》は、罪十罰の《改変 -罪-》と対をなすミラーアルバムである。双方が同名曲《改変》を収録しつつ、「心」と「罪」という二つの側面から同じ主題へ切り込む。矢野達也はうち四曲に参加しており、《心》側で最も重要な作曲家の一人である。
-
-## 制作陣と音楽性
-
-心世紀の楽曲は、VOCALOID と商業ポップスの両領域にまたがるクリエイターたちが供給している。
-
-- **矢野達也**：《フェイクナイト・シンデレラ》《コントラスト》《ミリオン・コンプレクシティ》《雑几帖》など多数に参加し、組の中核をなす作曲家；
-- **HIDEYA KOJIMA**：《パーフェクション》《うそ鳴き》《FantastiQ》などの作編曲を担当；
-- **水野あつ**、**100回嘔吐**、**とあ**、**Purukichi**、**shikisai**、**たなか** らが、それぞれに個性の異なるシングルを提供している。
-
-> **スタイルの位置づけ**：公式は心世紀を「現実と仮想が交錯する感性的なサウンドを特徴とし、心世代に属する新世代の音楽」と説明する。罪十罰の硬質で過激な路線に対し、《心》側は都市感・青春感・越境的な軽やかさを持つ電子音へ寄っている。
 
 ## 公演・コラボ・派生アニメのアーカイブ
 
@@ -134,3 +124,11 @@ lifecycle:
 - **Blu-ray**：2025 年 10 月 26 日発売。全 27 話の本編と出演メンバーの音声コメンタリーを収録。
 
 > **企画の位置づけ**：KAMITSUBAKI STUDIO の新しい試みとして、少女革命計画は音楽企画にとどまらず、Live2D モデルを用いたゲーム実況など一般のバーチャル YouTuber に近い配信活動も行う。心世紀はこの「XTuber」路線の担い手である。
+
+## 外部リンク
+
+- [少女革命計画 公式サイト](https://girlsrevolutionproject.jp/)
+- [公式 X（旧Twitter）](https://x.com/girls_rev_pj)
+- [公式 YouTube](https://www.youtube.com/@girls_rev_pj)
+
+<!-- V3 RESEARCH SUPPLEMENT sinseiki -->

@@ -46,7 +46,6 @@ lifecycle:
   startedAt: "2011-01-01"
 summary: "An illustrator and character designer from Fukuoka; the character designer for KAF and Rim, known for intricate geometric motifs."
 ---
-
 ## Overview
 
 PALOW. is an illustrator and character designer from Fukuoka Prefecture, active under the name PALOW. since 2011. He gained recognition in 2013 with the "Mushi Meka Shoujo" (Insect Mecha Girl) series, which was later used in a 2016 HAL vocational school television commercial.
@@ -58,6 +57,29 @@ Within [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio), PALOW.'s mo
 PALOW.'s art is characterized by the fusion of complex geometric patterns, precise mechanical elements, and少女 imagery. His work often conveys a "self-contained world" quality — the figures seem to exist within their own universe, maintaining a微妙 distance from the outside world.
 
 This aesthetic aligns closely with the virtual singer concepts of KAF and Rim: girl and machine, interior and exterior, intimacy and distance — PALOW.'s visual language captures the core tensions at the heart of the Kamitsubaki system.
+
+## Visual-Design Philosophy and Lineage
+
+**[PALOW.](/en/database/staff/palow)** is KAMITSUBAKI’s chief character designer and core concept artist, and his visual system forms the foundation of the entire label’s recognisability.
+
+| Dimension | Feature |
+| :--- | :--- |
+| **Painterly approach** | A fusion of impasto technique and mecha-SF realism, emphasising material, light and shadow, and a sense of volume |
+| **Aesthetic stance** | Rejects the homogenised moe cartoon faces flooding the market, imbuing the witches with a **sacred, mysterious and austere beauty** |
+| **Design motifs** | A symbolic system of hoods, concentric-ring pupils, naming after bird forms, and familiars (fish-shaped companions) |
+| **Cross-media extension** | Extends from character key art to 3D-modelling standards, stage-costume design and anime character concepts |
+
+> **His place at KAMITSUBAKI**: PALOW. and supervising producer [PIEDPIPER](/en/database/staff/piedpiper) form the twin axes of “aesthetics and capital” — the former makes the worldview visually irreplaceable, the latter keeps that worldview from being diluted by outside commercial logic.
+
+## Index of Major Design Work
+
+- **Base designs of the five witches**: [KAF](/en/database/artists/solo/kaf), [RIM](/en/database/artists/solo/rim), [HARUSARUHI](/en/database/artists/solo/harusaruhi), [ISEKAIJOUCHO](/en/database/artists/solo/isekaijoucho) and [KOKO](/en/database/artists/solo/koko).
+- **The KAF form lineage**: from the first form, “Hinadori (fledgling),” to the fourth form, “Kiji (pheasant),” together with every special singing form such as “Hoshigarasu,” “Ruribitaki,” “Aosuzume,” “Hayabusa,” “Kanaria,” “Oiran-dori,” “Kinke,” “Tsubame” and “Shamo.”
+- **The witches’ special singing forms**: the unified witch-assembly ceremonial dress of the five V.W.P members (including Oiran-dori).
+- **Character concepts for 《神椿市建设中。》**: anime and game characters such as Morioka Kakoho, Tanioki Rigan, Asanushi Hairu, Yagawa Sekai and Rinne Koko.
+- **Girls Revolution Project**: the virtual character designs of the six girls in 《[少女革命計画](/en/database/projects/girls-revolution-project)》.
+
+> **Methodology**: PALOW.’s design is not “drawing a cute character” but building for each singer a sustainably expandable **morphology** — the same character shifts between a general form, a combat form and a mutated form, and the visuals themselves become part of the narrative.
 
 ## Activity History
 
@@ -91,28 +113,4 @@ Useful related entries:
 - [X (Twitter)](https://twitter.com/PALOW_)
 - [KAMITSUBAKI STUDIO PALOW. page](https://kamitsubaki.jp/artist/palow/)
 
-
 <!-- V3 RESEARCH SUPPLEMENT palow -->
-
-## Visual-Design Philosophy and Lineage
-
-**[PALOW.](/en/database/staff/palow)** is KAMITSUBAKI’s chief character designer and core concept artist, and his visual system forms the foundation of the entire label’s recognisability.
-
-| Dimension | Feature |
-| :--- | :--- |
-| **Painterly approach** | A fusion of impasto technique and mecha-SF realism, emphasising material, light and shadow, and a sense of volume |
-| **Aesthetic stance** | Rejects the homogenised moe cartoon faces flooding the market, imbuing the witches with a **sacred, mysterious and austere beauty** |
-| **Design motifs** | A symbolic system of hoods, concentric-ring pupils, naming after bird forms, and familiars (fish-shaped companions) |
-| **Cross-media extension** | Extends from character key art to 3D-modelling standards, stage-costume design and anime character concepts |
-
-> **His place at KAMITSUBAKI**: PALOW. and supervising producer [PIEDPIPER](/en/database/staff/piedpiper) form the twin axes of “aesthetics and capital” — the former makes the worldview visually irreplaceable, the latter keeps that worldview from being diluted by outside commercial logic.
-
-## Index of Major Design Work
-
-- **Base designs of the five witches**: [KAF](/en/database/artists/solo/kaf), [RIM](/en/database/artists/solo/rim), [HARUSARUHI](/en/database/artists/solo/harusaruhi), [ISEKAIJOUCHO](/en/database/artists/solo/isekaijoucho) and [KOKO](/en/database/artists/solo/koko).
-- **The KAF form lineage**: from the first form, “Hinadori (fledgling),” to the fourth form, “Kiji (pheasant),” together with every special singing form such as “Hoshigarasu,” “Ruribitaki,” “Aosuzume,” “Hayabusa,” “Kanaria,” “Oiran-dori,” “Kinke,” “Tsubame” and “Shamo.”
-- **The witches’ special singing forms**: the unified witch-assembly ceremonial dress of the five V.W.P members (including Oiran-dori).
-- **Character concepts for 《神椿市建设中。》**: anime and game characters such as Morioka Kakoho, Tanioki Rigan, Asanushi Hairu, Yagawa Sekai and Rinne Koko.
-- **Girls Revolution Project**: the virtual character designs of the six girls in 《[少女革命計画](/en/database/projects/girls-revolution-project)》.
-
-> **Methodology**: PALOW.’s design is not “drawing a cute character” but building for each singer a sustainably expandable **morphology** — the same character shifts between a general form, a combat form and a mutated form, and the visuals themselves become part of the narrative.

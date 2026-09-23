@@ -46,8 +46,6 @@ lifecycle:
   activity: "active"
 summary: "A Vocaloid producer and all-around creator who self-produces lyrics, composition, arrangement, illustration, and video."
 ---
-
-
 ## Overview
 
 tokiwa is a music artist and Vocaloid producer affiliated with KAMITSUBAKI STUDIO's CREATOR FARM. Uniquely among many Vocaloid creators, tokiwa handles the full creative pipeline personally -- lyrics, composition, arrangement, illustration, and video production -- giving every release a cohesive artistic identity.
@@ -59,6 +57,18 @@ His style is defined by poignant, emotionally layered lyrics paired with memorab
 tokiwa occupies a distinctive position as a multi-disciplinary creator who bridges music and visual art. His emotionally resonant songwriting draws listeners in through accessible melodic hooks, while his self-produced illustrations and videos add a visual dimension that deepens the storytelling of each work.
 
 Spanning EDM, R&B, and rock, his genre fluidity reflects the broad creative ambition encouraged by the CREATOR FARM environment, where independent artists develop their craft alongside the wider Kamitsubaki network.
+
+## Creative Position and Affiliation
+
+**tokiwa** is a music producer and arranger in the **CREATOR FARM** system under [SINSEKAI RECORD](/en/database/studios/sinsekai-record).
+
+| Dimension | Content |
+| :--- | :--- |
+| **Role** | Music producer / arranger |
+| **Affiliation** | [SINSEKAI RECORD](/en/database/studios/sinsekai-record) CREATOR FARM |
+| **Traits** | Combines songwriting with arrangement, and works spanning several KAMITSUBAKI projects |
+
+> **Position in the system**: tokiwa belongs to CREATOR FARM alongside [Hi-Fi P](/en/database/creators/hifi-p) and [Hitogoto](/en/database/creators/hitogoto) — the existence of this system allows SINSEKAI to maintain stable output even under an operating model of “few artists, high project density.”
 
 ## Activity History
 
@@ -120,30 +130,6 @@ Spanning EDM, R&B, and rock, his genre fluidity reflects the broad creative ambi
 
 {{/details}}
 
-## References
-
-- tokiwa Twitter: <https://twitter.com/tokiwa_shion>
-
-## External Links
-
-- [Twitter](https://twitter.com/tokiwa_shion)
-- [YouTube](https://youtube.com/@tokiwa_shion)
-
-
-<!-- V3 RESEARCH SUPPLEMENT tokiwa -->
-
-## Creative Position and Affiliation
-
-**tokiwa** is a music producer and arranger in the **CREATOR FARM** system under [SINSEKAI RECORD](/en/database/studios/sinsekai-record).
-
-| Dimension | Content |
-| :--- | :--- |
-| **Role** | Music producer / arranger |
-| **Affiliation** | [SINSEKAI RECORD](/en/database/studios/sinsekai-record) CREATOR FARM |
-| **Traits** | Combines songwriting with arrangement, and works spanning several KAMITSUBAKI projects |
-
-> **Position in the system**: tokiwa belongs to CREATOR FARM alongside [Hi-Fi P](/en/database/creators/hifi-p) and [Hitogoto](/en/database/creators/hitogoto) — the existence of this system allows SINSEKAI to maintain stable output even under an operating model of “few artists, high project density.”
-
 ## Major Works and Collaborations
 
 | Work | Related entity | Role |
@@ -153,3 +139,14 @@ Spanning EDM, R&B, and rock, his genre fluidity reflects the broad creative ambi
 | Album-related tracks such as 《NEW ROMANCER》 | [RIM](/en/database/artists/solo/rim) | Arrangement / production collaboration |
 
 > **Collaborative traits**: tokiwa's works are often produced in a division of labour with other arrangers (such as Asahina Kento); this “songwriter ＋ external arranger” combination recurs across KAMITSUBAKI's heavier tracks, and it also allows tokiwa's writing to fit sound worlds ranging from city pop to hard rock.
+
+## References
+
+- tokiwa Twitter: <https://twitter.com/tokiwa_shion>
+
+## External Links
+
+- [Twitter](https://twitter.com/tokiwa_shion)
+- [YouTube](https://youtube.com/@tokiwa_shion)
+
+<!-- V3 RESEARCH SUPPLEMENT tokiwa -->

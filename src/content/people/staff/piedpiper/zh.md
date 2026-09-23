@@ -44,7 +44,6 @@ lifecycle:
 sources: []
 summary: "KAMITSUBAKI STUDIO 统括制作人，负责所有艺人及主要 IP 项目的制作统筹。"
 ---
-
 ## 概述
 
 PIEDPIPER 是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 的统括制作人（統括プロデューサー），负责掌控这家日本最具独特性的虚拟艺人创作团体在战略与创作层面的总体方向。
@@ -54,39 +53,6 @@ PIEDPIPER 是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 的�
 ## 角色与创作定位
 
 作为统括制作人，PIEDPIPER 的职能本质上是组织性的与愿景性的，而非狭义的创作者。他设定制作优先级、协调跨项目资源，确保音乐、影像、演出、IP 展开等多元要素在一贯的创作哲学下保持一致。他的角色近似电影中的执行制作人或电视节目中的 showrunner——不是唯一的声音，却是塑造整体形态的那个人。
-
-## 活动历程
-
-- 自神椿草创期起担任 KAMITSUBAKI STUDIO 统括制作人。
-- 统筹花譜的个人作品制作与演出企划。
-- 主导 V.W.P 五人虚拟歌手组合的编成与战略制定。
-- 领导「神椿市建设中。」跨媒体 IP 项目的开发。
-- 监修连接虚拟与现实声线的「音乐的同位体」系列。
-- 指导「KAMITSUBAKI VERSE」叙事宇宙的扩展。
-
-## 代表作品与相关条目
-
-- 花譜（KAF）——个人艺人制作统筹
-- V.W.P ——组合编成与战略统筹
-- 神椿市建设中。——跨媒体 IP 项目
-- 音乐的同位体——[Musical Isotope](/zh/artists/solo/musical-isotope) 系列
-- KAMITSUBAKI VERSE ——叙事宇宙扩展
-
-推荐搭配阅读：
-
-- [花譜 / KAF](/zh/artists/vwp/kaf)
-- [V.W.P](/zh/artists/vwp/vwp)
-
-## 参考资料
-
-- PIEDPIPER 官方 X (Twitter)：<https://twitter.com/PIEDPIPER2045>
-
-## 外部链接
-
-- [X (Twitter)](https://twitter.com/PIEDPIPER2045)
-
-
-<!-- V3 RESEARCH SUPPLEMENT piedpiper -->
 
 ## 制作人哲学与美学立场
 
@@ -101,6 +67,15 @@ PIEDPIPER 是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 的�
 
 > **核心战友**：针谷建二郎（THINKR CEO）、[PALOW.](/zh/database/staff/palow)（主原案）、[川サキ](/zh/database/staff/kawasaki)（映像总监）、[月岛总记](/zh/database/staff/tsukisimasouki)（编剧）。
 
+## 活动历程
+
+- 自神椿草创期起担任 KAMITSUBAKI STUDIO 统括制作人。
+- 统筹花譜的个人作品制作与演出企划。
+- 主导 V.W.P 五人虚拟歌手组合的编成与战略制定。
+- 领导「神椿市建设中。」跨媒体 IP 项目的开发。
+- 监修连接虚拟与现实声线的「音乐的同位体」系列。
+- 指导「KAMITSUBAKI VERSE」叙事宇宙的扩展。
+
 ## 核心操盘战役与里程碑
 
 | 时间 | 战役 | 结果 |
@@ -112,6 +87,19 @@ PIEDPIPER 是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 的�
 
 > **管理风格**：PIEDPIPER 的路径是「以顶级商业资源保护极端个人化的创作」——他同时承担资本操盘与美学守门人的双重角色，这在日本虚拟艺人产业中极为罕见。
 
+## 代表作品与相关条目
+
+- 花譜（KAF）——个人艺人制作统筹
+- V.W.P ——组合编成与战略统筹
+- 神椿市建设中。——跨媒体 IP 项目
+- 音乐的同位体——[Musical Isotope](/zh/artists/solo/musical-isotope) 系列
+- KAMITSUBAKI VERSE ——叙事宇宙扩展
+
+推荐搭配阅读：
+
+- [花譜 / KAF](/zh/artists/vwp/kaf)
+- [V.W.P](/zh/artists/vwp/vwp)
+
 ## 创作者生态盟约
 
 * **与 [カンザキイオリ](/zh/database/creators/kanzaki-iori)（神崎一织）**：亦师亦友的艺术同盟。在神崎一织最迷茫的时期给予其绝对的信任与创作自主权，成就了花譜初期的黑暗与救赎曲风；2023 年神崎一织寻求个人独立表达时，PIEDPIPER 体面护航其毕业，并至今保持深度合作；
@@ -119,3 +107,13 @@ PIEDPIPER 是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 的�
 * **与笹川真生、[Guiano](/zh/database/creators/guiano)、[大沼パセリ](/zh/database/creators/onuma-parsley) 等先锋制作人**：给予非主流作曲家极度自由的发挥空间，将理芽的都市迷幻、春猿火的说唱力量与ヰ世界情绪的歌剧声线最大化开掘。
 
 > **生态逻辑**：PIEDPIPER 的用人方式不是「统一风格」，而是为每位艺人配置最契合其气质的创作者，再让这些创作者在同一世界观下并行工作——这正是神椿五魔女各具面貌却共享同一宇宙的根本原因。
+
+## 参考资料
+
+- PIEDPIPER 官方 X (Twitter)：<https://twitter.com/PIEDPIPER2045>
+
+## 外部链接
+
+- [X (Twitter)](https://twitter.com/PIEDPIPER2045)
+
+<!-- V3 RESEARCH SUPPLEMENT piedpiper -->

@@ -56,7 +56,6 @@ lifecycle:
   startedAt: "2024-08-08"
 summary: "佳鏡院です。歌を届けます。"
 ---
-
 ## 简介
 
 佳鏡院是2024年8月8日开始活动的跨次元主播(Xtuber)。<br>
@@ -87,17 +86,6 @@ summary: "佳鏡院です。歌を届けます。"
 
 {{/details}}
 
-## 外部链接
-
-- [神椿工作室 官方艺人页](https://kamitsubaki.jp/artist/sinseiki/)
-- [少女革命計画 官方艺人页](https://kamitsubaki.jp/artist/sinseiki/)
-- [YouTube 个人主页](https://www.youtube.com/@kakyoin_grp)
-- [X 个人主页](https://x.com/kakyoin_gr)
-- [Bilibili 个人主页](https://space.bilibili.com/3546832122677764)
-
-
-<!-- V3 RESEARCH SUPPLEMENT kakyoin -->
-
 ## 个人曲目档案
 
 本条目收录的独唱曲目如下（按发行/公开时间排序）：
@@ -111,3 +99,13 @@ summary: "佳鏡院です。歌を届けます。"
 | 2025-11-12 | 月へゆく | — |
 
 > **数据来源**：以下曲目由本站实体登记表（Metadata Schema v2）自动汇总，日期与演唱者以条目元数据为准；组合曲与合唱曲另见所属组合与[少女革命計画](/zh/database/projects/girls-revolution-project)总条目。
+
+## 外部链接
+
+- [神椿工作室 官方艺人页](https://kamitsubaki.jp/artist/sinseiki/)
+- [少女革命計画 官方艺人页](https://kamitsubaki.jp/artist/sinseiki/)
+- [YouTube 个人主页](https://www.youtube.com/@kakyoin_grp)
+- [X 个人主页](https://x.com/kakyoin_gr)
+- [Bilibili 个人主页](https://space.bilibili.com/3546832122677764)
+
+<!-- V3 RESEARCH SUPPLEMENT kakyoin -->

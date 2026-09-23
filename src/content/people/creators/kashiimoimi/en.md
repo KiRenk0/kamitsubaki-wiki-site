@@ -47,8 +47,6 @@ lifecycle:
   startedAt: "2018-12-01"
 summary: "A female VocaloP known for dark, addictive melodies and a distinctly feminine perspective, blending piano, strings, EDM, and city pop."
 ---
-
-
 ## Overview
 
 Kashii Moimi (香椎モイミ) is a female VocaloP who debuted in December 2018. She quickly distinguished herself through dark, addictive melodies paired with a distinctly feminine lyrical perspective. Her sound defies easy categorization, weaving together piano and string arrangements, EDM production, and city pop sensibilities into a genre-defying style.
@@ -60,6 +58,27 @@ Active under the ANARCHIC RECORD label (transferred to [KYOKAI STUDIO](/en/proje
 Kashii Moimi's compositions are characterized by their darkly alluring melodic hooks and emotionally charged narratives. Her ability to blend contrasting genres -- the intimacy of piano ballads with the energy of electronic dance music -- gives her work a distinctive edge. The feminine perspective woven throughout her lyrics adds a layer of vulnerability and raw honesty that resonates deeply with listeners.
 
 Her prolific output and consistent quality have made her a cornerstone of the ANARCHIC RECORD roster.
+
+## Artistic Position and Creative Lineage
+
+**Kashii Moimi (香椎モイミ)** is a female composer affiliated with [ANARCHIC RECORD](/en/database/studios/anarchic-record). Her creative lineage can be summed up as “**dark pop × gothic lyrical dance music × strings of extreme tension**”.
+
+| Dimension | Characteristics |
+| :--- | :--- |
+| **Instrumental foundation** | Strings and piano build a gorgeous gothic framework, paired with dance beats to form a “tragedy you can dance to” |
+| **Emotional orientation** | Darkness, obsession, possessiveness and extreme forms of love are the themes she writes about again and again |
+| **Representative works** | 《偏愛》《キャットラビング》 |
+| **Textual intensity** | The lyrics carry an extremely high narrative density, often creating dramatic tension through first-person gazing and relations of domination |
+
+> **Her place within KAMITSUBAKI**: Kashii Moimi is the representative creator of KAMITSUBAKI's “dark aesthetic”; the large body of tracks she has supplied to [HARUSARUHI](/en/database/artists/solo/harusaruhi) and [ISEKAIJOUCHO](/en/database/artists/solo/isekaijoucho) forms the sharpest sequence of works by the two witches.
+
+## Activity History and Upload Statistics
+
+Kashii Moimi posted her first VOCALOID song, “Sokka”, on niconico and YouTube on December 15, 2018. She joined Bilibili on July 8, 2020. “Cat Loving”, released with [KAFU](/en/artists/isotopes/kafu) on July 17, 2021, became her first Legend-level song; its YouTube views passed ten million in July 2022. She joined Kamitsubaki on October 18, 2021.
+
+The organized record counts 53 original VOCALOID/CeVIO uploads as of April 27, 2024, including 15 Hall of Fame works and one Legend work. She is known to be a KAITO fan, has supplied songs for [ISEKAIJOUCHO](/en/artists/vwp/isekaijoucho), and has tuned demonstration covers for [SEKAI](/en/artists/isotopes/sekai). Her public creator interactions also include illustrator Dandan Taikū.
+
+- September 2026: Transferred to [KYOKAI STUDIO](/en/projects/labels/kyokai-studio) as part of THINKR's studio reorganization (formerly under the [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) system).
 
 ## Representative Works
 
@@ -102,53 +121,9 @@ Her prolific output and consistent quality have made her a cornerstone of the AN
 
 {{/details}}
 
-## Activity History and Upload Statistics
-
-Kashii Moimi posted her first VOCALOID song, “Sokka”, on niconico and YouTube on December 15, 2018. She joined Bilibili on July 8, 2020. “Cat Loving”, released with [KAFU](/en/artists/isotopes/kafu) on July 17, 2021, became her first Legend-level song; its YouTube views passed ten million in July 2022. She joined Kamitsubaki on October 18, 2021.
-
-The organized record counts 53 original VOCALOID/CeVIO uploads as of April 27, 2024, including 15 Hall of Fame works and one Legend work. She is known to be a KAITO fan, has supplied songs for [ISEKAIJOUCHO](/en/artists/vwp/isekaijoucho), and has tuned demonstration covers for [SEKAI](/en/artists/isotopes/sekai). Her public creator interactions also include illustrator Dandan Taikū.
-
-- September 2026: Transferred to [KYOKAI STUDIO](/en/projects/labels/kyokai-studio) as part of THINKR's studio reorganization (formerly under the [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) system).
-
 ## Albums and Collaborations
 
 Representative works include “Cat Loving”, “Henshoku”, “Kanri-yoku”, “Blue Hero”, “Akumu no Hikari”, “Hishō”, “Shissō Zenya”, “Bad End Maker”, “Human-Like”, “Wonderland Underground”, and “Hachimitsu Nikki”. Album references include *Katsua* and *Henai*. VOCALOID/CeVIO uploads, songs supplied to Kamitsubaki artists, demonstration covers, and personal albums should remain separate catalogue layers.
-
-## References
-
-- YouTube: <https://www.youtube.com/channel/UC9_8AXpxjjNl62HPhF5IAyg>
-- Twitter: <https://twitter.com/moi__moimi>
-
-## External Links
-
-- [YouTube](https://www.youtube.com/channel/UC9_8AXpxjjNl62HPhF5IAyg)
-- [Twitter](https://twitter.com/moi__moimi)
-- [Bilibili](https://space.bilibili.com/627704742)
-
-
-<!-- V3 RESEARCH SUPPLEMENT kashiimoimi -->
-
-## Artistic Position and Creative Lineage
-
-**Kashii Moimi (香椎モイミ)** is a female composer affiliated with [ANARCHIC RECORD](/en/database/studios/anarchic-record). Her creative lineage can be summed up as “**dark pop × gothic lyrical dance music × strings of extreme tension**”.
-
-| Dimension | Characteristics |
-| :--- | :--- |
-| **Instrumental foundation** | Strings and piano build a gorgeous gothic framework, paired with dance beats to form a “tragedy you can dance to” |
-| **Emotional orientation** | Darkness, obsession, possessiveness and extreme forms of love are the themes she writes about again and again |
-| **Representative works** | 《偏愛》《キャットラビング》 |
-| **Textual intensity** | The lyrics carry an extremely high narrative density, often creating dramatic tension through first-person gazing and relations of domination |
-
-> **Her place within KAMITSUBAKI**: Kashii Moimi is the representative creator of KAMITSUBAKI's “dark aesthetic”; the large body of tracks she has supplied to [HARUSARUHI](/en/database/artists/solo/harusaruhi) and [ISEKAIJOUCHO](/en/database/artists/solo/isekaijoucho) forms the sharpest sequence of works by the two witches.
-
-## Symbiotic Relationships with KAMITSUBAKI Artists
-
-- **With [HARUSARUHI (春猿火)](/en/database/artists/solo/harusaruhi)**: Kashii Moimi has supplied HARUSARUHI with several core representative works; her high-tension strings and arrangements interlock perfectly with HARUSARUHI's explosive rap and screaming;
-- **With [ISEKAIJOUCHO (ヰ世界情緒)](/en/database/artists/solo/isekaijoucho)**: ISEKAIJOUCHO's classical artistic temperament fits Kashii Moimi's gothic lyrical vocabulary extremely well, and their collaboration produced the tracks with ISEKAIJOUCHO's greatest dramatic tension (such as 《物語があるなら》);
-- **With V.W.P spin-off songs**: 《深淵》 by ISEKAIJOUCHO × KAF was written, composed and arranged entirely by Kashii Moimi, an important part of the “witch duo” experiment;
-- **With [ANARCHIC RECORD](/en/database/studios/anarchic-record)**: as a member of that label, she forms KAMITSUBAKI's circle of realist creators together with Guiano, Onuma Parsley and others.
-
-> **The practice of the “symbiosis system”**: Kashii Moimi is a typical “dual-artist symbiosis” creator — deeply involved in building the music of two witches at once while maintaining a highly unified dark aesthetic throughout, which is relatively rare among KAMITSUBAKI's creative circle.
 
 ## Index of Representative Works
 
@@ -161,3 +136,25 @@ Representative works include “Cat Loving”, “Henshoku”, “Kanri-yoku”,
 | Several HARUSARUHI original songs | [HARUSARUHI](/en/database/artists/solo/harusaruhi) | Form the core of her catalogue |
 
 > **Style summary**: Kashii Moimi's music always places “desire” and “destruction” in the same sentence — a gorgeous shell wrapping an anxious core, which is precisely her distinctive coordinate within KAMITSUBAKI's dark lineage.
+
+## Symbiotic Relationships with KAMITSUBAKI Artists
+
+- **With [HARUSARUHI (春猿火)](/en/database/artists/solo/harusaruhi)**: Kashii Moimi has supplied HARUSARUHI with several core representative works; her high-tension strings and arrangements interlock perfectly with HARUSARUHI's explosive rap and screaming;
+- **With [ISEKAIJOUCHO (ヰ世界情緒)](/en/database/artists/solo/isekaijoucho)**: ISEKAIJOUCHO's classical artistic temperament fits Kashii Moimi's gothic lyrical vocabulary extremely well, and their collaboration produced the tracks with ISEKAIJOUCHO's greatest dramatic tension (such as 《物語があるなら》);
+- **With V.W.P spin-off songs**: 《深淵》 by ISEKAIJOUCHO × KAF was written, composed and arranged entirely by Kashii Moimi, an important part of the “witch duo” experiment;
+- **With [ANARCHIC RECORD](/en/database/studios/anarchic-record)**: as a member of that label, she forms KAMITSUBAKI's circle of realist creators together with Guiano, Onuma Parsley and others.
+
+> **The practice of the “symbiosis system”**: Kashii Moimi is a typical “dual-artist symbiosis” creator — deeply involved in building the music of two witches at once while maintaining a highly unified dark aesthetic throughout, which is relatively rare among KAMITSUBAKI's creative circle.
+
+## References
+
+- YouTube: <https://www.youtube.com/channel/UC9_8AXpxjjNl62HPhF5IAyg>
+- Twitter: <https://twitter.com/moi__moimi>
+
+## External Links
+
+- [YouTube](https://www.youtube.com/channel/UC9_8AXpxjjNl62HPhF5IAyg)
+- [Twitter](https://twitter.com/moi__moimi)
+- [Bilibili](https://space.bilibili.com/627704742)
+
+<!-- V3 RESEARCH SUPPLEMENT kashiimoimi -->

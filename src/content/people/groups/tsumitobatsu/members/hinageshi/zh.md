@@ -34,7 +34,6 @@ lifecycle:
   startedAt: "2024-08-08"
 summary: "在寒冷与温暖、后退与前进的矛盾中歌唱的虚拟歌手。"
 ---
-
 ## 简介
 
 氷夏至是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 旗下「[少女革命计划](/zh/projects/labels/girls-revolution-project)」（GIRLS REVOLUTION PROJECT）的虚拟歌手，隶属三人组合「[罪十罰](/zh/artists/girls_revolution_project/tsumitobatsu)」。角色设计由 [PALOW.](/zh/artists/creators/palow) 担当。
@@ -67,16 +66,6 @@ summary: "在寒冷与温暖、后退与前进的矛盾中歌唱的虚拟歌手�
 
 {{/details}}
 
-## 外部链接
-
-- [神椿工作室 官方艺人页（罪十罰）](https://kamitsubaki.jp/artist/tsumitobatsu/)
-- [少女革命計画 官方网站](https://girlsrevolutionproject.jp/)
-- [YouTube 个人主页](https://www.youtube.com/@hinageshi_grp)
-- [X 个人主页](https://x.com/hinageshi_gr)
-
-
-<!-- V3 RESEARCH SUPPLEMENT hinageshi -->
-
 ## 个人曲目档案
 
 本条目收录的独唱曲目如下（按发行/公开时间排序）：
@@ -89,3 +78,12 @@ summary: "在寒冷与温暖、后退与前进的矛盾中歌唱的虚拟歌手�
 | 2026-01-07 | sweet/sour | — |
 
 > **数据来源**：以下曲目由本站实体登记表（Metadata Schema v2）自动汇总，日期与演唱者以条目元数据为准；组合曲与合唱曲另见所属组合与[少女革命計画](/zh/database/projects/girls-revolution-project)总条目。
+
+## 外部链接
+
+- [神椿工作室 官方艺人页（罪十罰）](https://kamitsubaki.jp/artist/tsumitobatsu/)
+- [少女革命計画 官方网站](https://girlsrevolutionproject.jp/)
+- [YouTube 个人主页](https://www.youtube.com/@hinageshi_grp)
+- [X 个人主页](https://x.com/hinageshi_gr)
+
+<!-- V3 RESEARCH SUPPLEMENT hinageshi -->

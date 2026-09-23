@@ -54,7 +54,6 @@ voiceEngines: []
 sources: []
 summary: "基于春猿火歌声打造的 CeVIO AI 音乐同位体声库，具备说唱律动感与高情绪冲击力。"
 ---
-
 ## 概述
 
 {{ruby::羽累::はる::haru}} 是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 推出的音乐同位体合成歌声库，声源原型为虚拟歌手 **[春猿火 / HARUSARUHI](/zh/artists/vwp/harusaruhi)**。
@@ -128,16 +127,6 @@ summary: "基于春猿火歌声打造的 CeVIO AI 音乐同位体声库，具备
 
 {{/details}}
 
-## 项目关联
-
-羽累是音乐同位体初期五人阵容中的第五位公开成员。她将春猿火的节奏型歌唱与 Rap 表现带入合成声项目，并作为 V.I.P 的成员参与同位体联合舞台。
-## 外部链接
-
-- [音乐同位体 羽累 官方网站](https://haru.kamitsubaki.jp/)
-
-
-<!-- V3 RESEARCH SUPPLEMENT haru -->
-
 ## 官方合辑系列与命名体系
 
 以春猿火（HARUSARUHI）的歌声为声源原型，承袭其高密度咬字与说唱语速，是同位体系中"说唱／实验"路线的代表声库。
@@ -172,6 +161,10 @@ summary: "基于春猿火歌声打造的 CeVIO AI 音乐同位体声库，具备
 
 > **行业意义**：相较于传统唱片体系对二次创作的严格限制，神椿选择把"声库"当作生态入口而非封闭资产，这也是同位体系列能够在数年内积累出海量 UGC 作品的根本原因。
 
+## 项目关联
+
+羽累是音乐同位体初期五人阵容中的第五位公开成员。她将春猿火的节奏型歌唱与 Rap 表现带入合成声项目，并作为 V.I.P 的成员参与同位体联合舞台。
+
 ## 与声源魔女的关系谱系
 
 | 项目 | 内容 |
@@ -182,3 +175,9 @@ summary: "基于春猿火歌声打造的 CeVIO AI 音乐同位体声库，具备
 | **世界观定位** | 神椿"歌曲特异点"在数字侧的分身，与花譜共享同一"歌之声"的来源 |
 
 > **命名规则**：音乐同位体的官方名称前缀直接取自声源魔女（KAFU←KAF、RIME←RIM、SEKAI←ISEKAIJOUCHO、COKO←KOKO、HARU←HARUSARUHI），这一命名法本身即宣示了"同一存在的不同形态"这一设定内核。
+
+## 外部链接
+
+- [音乐同位体 羽累 官方网站](https://haru.kamitsubaki.jp/)
+
+<!-- V3 RESEARCH SUPPLEMENT haru -->

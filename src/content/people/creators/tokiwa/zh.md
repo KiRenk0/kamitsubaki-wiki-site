@@ -47,8 +47,6 @@ lifecycle:
   activity: "active"
 summary: "身兼作词、作曲、编曲、插画、视频制作的全方位自制型 Vocaloid 制作人。"
 ---
-
-
 ## 概述
 
 tokiwa 是隶属于 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) CREATOR FARM 的音乐人兼 Vocaloid 制作人。他一人包揽作词、作曲、编曲、插画及视频制作，是一位极为少见的全流程自制型创作者。
@@ -60,6 +58,18 @@ tokiwa 是隶属于 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio)
 tokiwa 作为横跨音乐与视觉艺术的多面手创作者，拥有独特的位置。他的歌曲写作情感细腻、旋律令人过耳不忘，而自制的插画与 MV 则为每首乐曲增添了视觉叙事的层次。
 
 他的曲风在 EDM、R&B 与摇滚之间自如切换，这种多元性正体现了 CREATOR FARM 鼓励独立创作者自主成长的理念。
+
+## 创作定位与所属体系
+
+**tokiwa** 是 [SINSEKAI RECORD](/zh/database/studios/sinsekai-record) 旗下 **CREATOR FARM** 体系的音乐制作人与编曲家。
+
+| 维度 | 内容 |
+| :--- | :--- |
+| **职能** | 音乐制作人 / 编曲 |
+| **所属** | [SINSEKAI RECORD](/zh/database/studios/sinsekai-record) CREATOR FARM |
+| **活动特征** | 兼具词曲创作与编曲能力，作品横跨神椿多个企划 |
+
+> **体系定位**：tokiwa 与 [Hi-Fi P](/zh/database/creators/hifi-p)、[他人事](/zh/database/creators/hitogoto) 同属 CREATOR FARM——这一体系的存在，使深脊界在「艺人数量少、企划密度高」的运营模式下仍能维持稳定的作品产出。
 
 ## 活动历程
 
@@ -121,30 +131,6 @@ tokiwa 作为横跨音乐与视觉艺术的多面手创作者，拥有独特的�
 
 {{/details}}
 
-## 参考资料
-
-- tokiwa Twitter：<https://twitter.com/tokiwa_shion>
-
-## 外部链接
-
-- [Twitter](https://twitter.com/tokiwa_shion)
-- [YouTube](https://youtube.com/@tokiwa_shion)
-
-
-<!-- V3 RESEARCH SUPPLEMENT tokiwa -->
-
-## 创作定位与所属体系
-
-**tokiwa** 是 [SINSEKAI RECORD](/zh/database/studios/sinsekai-record) 旗下 **CREATOR FARM** 体系的音乐制作人与编曲家。
-
-| 维度 | 内容 |
-| :--- | :--- |
-| **职能** | 音乐制作人 / 编曲 |
-| **所属** | [SINSEKAI RECORD](/zh/database/studios/sinsekai-record) CREATOR FARM |
-| **活动特征** | 兼具词曲创作与编曲能力，作品横跨神椿多个企划 |
-
-> **体系定位**：tokiwa 与 [Hi-Fi P](/zh/database/creators/hifi-p)、[他人事](/zh/database/creators/hitogoto) 同属 CREATOR FARM——这一体系的存在，使深脊界在「艺人数量少、企划密度高」的运营模式下仍能维持稳定的作品产出。
-
 ## 主要作品与协作
 
 | 作品 | 关联对象 | 职能 |
@@ -154,3 +140,14 @@ tokiwa 作为横跨音乐与视觉艺术的多面手创作者，拥有独特的�
 | 《NEW ROMANCER》等专辑相关曲目 | [理芽](/zh/database/artists/solo/rim) | 编曲 / 制作协作 |
 
 > **协作特征**：tokiwa 的作品常与其他编曲者（如朝比奈健人）分工协作，这种「词曲作者 + 外部编曲」的组合模式在神椿旗下的重型曲目中反复出现，也让 tokiwa 的创作能够适配从都市流行到硬核摇滚的多种声场。
+
+## 参考资料
+
+- tokiwa Twitter：<https://twitter.com/tokiwa_shion>
+
+## 外部链接
+
+- [Twitter](https://twitter.com/tokiwa_shion)
+- [YouTube](https://youtube.com/@tokiwa_shion)
+
+<!-- V3 RESEARCH SUPPLEMENT tokiwa -->

@@ -45,8 +45,6 @@ lifecycle:
   activity: "active"
 summary: "A two-person music unit producing Vocaloid songs with deeply emotional lyrics and genre-spanning arrangements."
 ---
-
-
 ## Overview
 
 Hitogoto (他人事) is a two-person music unit composed of "Men" (面) and "Uo Uo" (魚魚), affiliated with [KYOKAI STUDIO](/en/projects/labels/kyokai-studio) (transferred from [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) in September 2026) and formerly a member of KAMITSUBAKI's CREATOR FARM. Active since 2020, they began by producing Vocaloid originals and self-covers, quickly gaining attention for their emotionally charged songwriting and polished arrangements.
@@ -58,6 +56,18 @@ The unit achieved notable recognition by placing 8th in the Rookie Rankings at T
 Hitogoto's strength lies in their ability to write deeply emotional lyrics and compose melodies that linger in the listener's mind. Their arrangement work demonstrates versatility across multiple genres, while maintaining a consistent emotional core that defines their artistic identity.
 
 Beyond their own releases, Hitogoto has established a track record of song provision for prominent artists and projects, contributing lyrics, composition, and arrangement to works for [V.W.P](/en/artists/vwp/vwp), Tsumitobatsu, and the Muse Dash rhythm game.
+
+## Creative Position and Affiliation
+
+**Hitogoto (他人事)** is a music producer in the **CREATOR FARM** system under [SINSEKAI RECORD](/en/database/studios/sinsekai-record), and one of the most central composers in the Girls Revolution Project system.
+
+| Dimension | Content |
+| :--- | :--- |
+| **Role** | Lyrics / composition / arrangement |
+| **Affiliation** | [SINSEKAI RECORD](/en/database/studios/sinsekai-record) CREATOR FARM |
+| **Core association** | [TSUMITOBATSU](/en/database/artists/groups/tsumitobatsu) (the core of its dedicated songwriting) |
+
+> **The meaning of the name**: 「他人事」 means “someone else's affair” in Japanese — a name that resonates strongly with the alienation, the bystander's perspective and the self-negation that recur throughout their works.
 
 ## Activity History
 
@@ -87,30 +97,6 @@ Beyond their own releases, Hitogoto has established a track record of song provi
 
 {{/details}}
 
-## References
-
-- Hitogoto Twitter: <https://twitter.com/hito_go_to_7>
-
-## External Links
-
-- [Twitter](https://twitter.com/hito_go_to_7)
-- [YouTube](https://www.youtube.com/@hitogoto)
-
-
-<!-- V3 RESEARCH SUPPLEMENT hitogoto -->
-
-## Creative Position and Affiliation
-
-**Hitogoto (他人事)** is a music producer in the **CREATOR FARM** system under [SINSEKAI RECORD](/en/database/studios/sinsekai-record), and one of the most central composers in the Girls Revolution Project system.
-
-| Dimension | Content |
-| :--- | :--- |
-| **Role** | Lyrics / composition / arrangement |
-| **Affiliation** | [SINSEKAI RECORD](/en/database/studios/sinsekai-record) CREATOR FARM |
-| **Core association** | [TSUMITOBATSU](/en/database/artists/groups/tsumitobatsu) (the core of its dedicated songwriting) |
-
-> **The meaning of the name**: 「他人事」 means “someone else's affair” in Japanese — a name that resonates strongly with the alienation, the bystander's perspective and the self-negation that recur throughout their works.
-
 ## Major Songwriting Credits and Collaborations
 
 | Work | Related entity | Role |
@@ -121,3 +107,14 @@ Beyond their own releases, Hitogoto has established a track record of song provi
 | 《REPLICA》 | [TSUMITOBATSU](/en/database/artists/groups/tsumitobatsu) | Songwriting |
 
 > **Observation**: Hitogoto's works occupy the opening and the finale of the 《改変 -罪-》 album (track 1, 《弔花》, and the lead position on the group's album), indicating their central place in TSUMITOBATSU's musical system. Their creative vocabulary leans toward heavyweight rock and dramatic emotional outbursts, in a clear division of labour with the urban electronics of the 《心》 side.
+
+## References
+
+- Hitogoto Twitter: <https://twitter.com/hito_go_to_7>
+
+## External Links
+
+- [Twitter](https://twitter.com/hito_go_to_7)
+- [YouTube](https://www.youtube.com/@hitogoto)
+
+<!-- V3 RESEARCH SUPPLEMENT hitogoto -->

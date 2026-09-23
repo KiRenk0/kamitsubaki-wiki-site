@@ -58,7 +58,6 @@ voiceEngines: []
 sources: []
 summary: "基于花谱歌声打造的首款 CeVIO AI / Synthesizer V 音乐同位体声库，引爆 VOCALOID 现象级创作狂潮。"
 ---
-
 ## 概述
 
 {{ruby::可不::かふ::kafu}} 是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 推出的首款“音乐的同位体”（[Musical Isotope](/zh/artists/solo/musical-isotope)）歌声合成软件及虚拟角色，声源原型为虚拟歌手 **[花譜 / KAF](/zh/artists/vwp/kaf)**。
@@ -109,10 +108,6 @@ summary: "基于花谱歌声打造的首款 CeVIO AI / Synthesizer V 音乐同�
 
 《フォニイ》《マーシャル・マキシマイザー》《キュートなカノジョ》等作品常被视为可不在合成声创作生态中具有代表性的使用案例；其意义在于创作者对声库的持续再诠释，而非由单一演唱者固定作品目录。
 
-## 项目关联
-
-可不是音乐同位体项目的起点。她与后续的[星界 / SEKAI](/zh/artists/isotopes/sekai)、[裏命 / RIME](/zh/artists/isotopes/rime)、[狐子 / COKO](/zh/artists/isotopes/coko)、[羽累 / HARU](/zh/artists/isotopes/haru)共同构成以虚拟歌手声线为核心、面向创作者开放的合成声系列。
-
 ## 代表作品与相关条目
 
 {{details::展开完整专辑与 EP 目录}}
@@ -152,7 +147,7 @@ summary: "基于花谱歌声打造的首款 CeVIO AI / Synthesizer V 音乐同�
 | 2024-04-04 | [Voyager](</zh/songs/kafu/originals/voyager>) |
 | 2024-05-31 | [混沌ブギ (Cover)](</zh/songs/kafu/originals/混沌bugi-cover>) |
 | 2024-09-05 | [最期の逢瀬](</zh/songs/kafu/originals/最期no逢瀬>) |
-| 2024-10-15 | [コぇちっちゃ<てゴ×ンネ](</zh/songs/kafu/originals/koechitcha-tegonne>) |
+| 2024-10-15 | [コぇちっちゃ<てゴ×ンネ](</zh/database/music/songs/single-kafu-koechitcha-tego-nne>) |
 | 2024-10-22 | [『抱きしめて。』](</zh/songs/kafu/originals/抱kishimete>) |
 | 2024-12-20 | [アット・ザ・電脳シティ(STEAKA Remix)](</zh/songs/kafu/originals/atto-za-電脳shitei-steaka-remix>) |
 | 2025-02-01 | [人間に産まれたから](</zh/songs/kafu/originals/人間ni産maretakara>) |
@@ -183,13 +178,6 @@ summary: "基于花谱歌声打造的首款 CeVIO AI / Synthesizer V 音乐同�
 | 2021年7月17日 | 《[キャットラビング](/zh/songs/kashiimoimi/originals/kyattorabingu)》 | [香椎モイミ](/zh/artists/creators/kashiimoimi) |
 
 {{/details}}
-
-## 外部链接
-
-- [音乐同位体 可不 官方网站](https://kafu.kamitsubaki.jp/)
-
-
-<!-- V3 RESEARCH SUPPLEMENT kafu -->
 
 ## 官方合辑系列与命名体系
 
@@ -225,17 +213,6 @@ summary: "基于花谱歌声打造的首款 CeVIO AI / Synthesizer V 音乐同�
 
 > **行业意义**：相较于传统唱片体系对二次创作的严格限制，神椿选择把"声库"当作生态入口而非封闭资产，这也是同位体系列能够在数年内积累出海量 UGC 作品的根本原因。
 
-## 与声源魔女的关系谱系
-
-| 项目 | 内容 |
-| :--- | :--- |
-| **声源原型（模板）** | [花譜（KAF）](/zh/artists/vwp/kaf) |
-| **同属体系** | [V.W.P](/zh/artists/vwp/vwp) 五位魔女的同位体矩阵之一 |
-| **首发形态** | CeVIO AI（后续追加 Synthesizer V AI 版本） |
-| **世界观定位** | 神椿"歌曲特异点"在数字侧的分身，与花譜共享同一"歌之声"的来源 |
-
-> **命名规则**：音乐同位体的官方名称前缀直接取自声源魔女（KAFU←KAF、RIME←RIM、SEKAI←ISEKAIJOUCHO、COKO←KOKO、HARU←HARUSARUHI），这一命名法本身即宣示了"同一存在的不同形态"这一设定内核。
-
 ## 现象级二创名曲档案
 
 可不声库在投入市场后迅速引发 VOCALOID／同人音乐圈层的现象级爆发，以下曲目被视为这一浪潮的标志性坐标：
@@ -247,3 +224,24 @@ summary: "基于花谱歌声打造的首款 CeVIO AI / Synthesizer V 音乐同�
 | **《{{ruby::マーシャル・マキシマイザー::まーしゃるまきしまいざー::marshall maximizer}}》** | 柊マグネタイト | 以超高密度节拍与高速咬字展现可不机械感与灵活度的极限 |
 
 > **历史定位**：这些作品诞生于平成与令和交替期，被普遍视为"AI 歌声进入主流流行文化中心"的转折点；可不也因此成为神椿五位同位体中知名度最高、跨圈层影响力最强的一支。
+
+## 项目关联
+
+可不是音乐同位体项目的起点。她与后续的[星界 / SEKAI](/zh/artists/isotopes/sekai)、[裏命 / RIME](/zh/artists/isotopes/rime)、[狐子 / COKO](/zh/artists/isotopes/coko)、[羽累 / HARU](/zh/artists/isotopes/haru)共同构成以虚拟歌手声线为核心、面向创作者开放的合成声系列。
+
+## 与声源魔女的关系谱系
+
+| 项目 | 内容 |
+| :--- | :--- |
+| **声源原型（模板）** | [花譜（KAF）](/zh/artists/vwp/kaf) |
+| **同属体系** | [V.W.P](/zh/artists/vwp/vwp) 五位魔女的同位体矩阵之一 |
+| **首发形态** | CeVIO AI（后续追加 Synthesizer V AI 版本） |
+| **世界观定位** | 神椿"歌曲特异点"在数字侧的分身，与花譜共享同一"歌之声"的来源 |
+
+> **命名规则**：音乐同位体的官方名称前缀直接取自声源魔女（KAFU←KAF、RIME←RIM、SEKAI←ISEKAIJOUCHO、COKO←KOKO、HARU←HARUSARUHI），这一命名法本身即宣示了"同一存在的不同形态"这一设定内核。
+
+## 外部链接
+
+- [音乐同位体 可不 官方网站](https://kafu.kamitsubaki.jp/)
+
+<!-- V3 RESEARCH SUPPLEMENT kafu -->

@@ -34,51 +34,11 @@ lifecycle:
   startedAt: "2024-08-08"
 summary: "喜欢哥特与黑暗、耽美世界观的虚拟歌手。"
 ---
-
 ## 简介
 
 御莉姫是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 旗下「[少女革命计划](/zh/projects/labels/girls-revolution-project)」（GIRLS REVOLUTION PROJECT）的跨次元主播（Xtuber），隶属三人组合「[心世紀](/zh/artists/girls_revolution_project/sinseiki)」。角色设计由 [PALOW.](/zh/artists/creators/palow) 担当。
 
 她在官方简介中以喜欢哥特与黑暗、耽美世界观自我介绍；音乐与直播活动以心世紀成员身份展开，与佳鏡院、硝子宮共同构成该单元。
-
-## 活动历史
-
-- **2024年8月8日**：在 KAMITSUBAKI FES '24 正式出道，开启少女革命计划活动。
-- **2024年11月6日**：发行个人首支单曲《[シンユウ](/zh/songs/orihime/originals/shin-yuu)》。
-- **2024年12月25日**：发行单曲《[Talking Doll](/zh/songs/orihime/originals/talking-doll)》。
-- **2025年2月19日**：发行单曲《[瞬き](/zh/songs/orihime/originals/mabataki)》（与夕凪機合作）。
-- **2025年3月12日**：发行单曲《[ANGER](/zh/songs/orihime/originals/anger)》。
-- **2025年7月11日**：参加 KAMITSUBAKI WARS 2025 神椿川崎戦線 少女革命計画 1st LIVE/第一幕『[改変](/zh/songs/grp/originals/kaihen)』。
-- **2025年11月26日**：发行单曲《[Masquerade Kill](/zh/songs/orihime/originals/masquerade-kill)》。
-- **2026年4月8日**：发行单曲《[桜心中](/zh/songs/orihime/originals/sakura-shinjuu)》。
-- **2026年8月8日**：参加少女革命計画 2nd LIVE『Revolutio』。
-
-## 代表作品与相关条目
-
-{{details::展开完整单曲目录}}
-
-**单曲**
-
-| 发行日期 | 标题 |
-| --- | --- |
-| 2024-11-06 | [シンユウ](</zh/songs/orihime/originals/shin-yuu>) |
-| 2024-12-25 | [Talking Doll](</zh/songs/orihime/originals/talking-doll>) |
-| 2025-02-19 | [瞬き](</zh/songs/orihime/originals/mabataki>) |
-| 2025-03-12 | [ANGER](</zh/songs/orihime/originals/anger>) |
-| 2025-11-26 | [Masquerade Kill](</zh/songs/orihime/originals/masquerade-kill>) |
-| 2026-04-08 | [桜心中](</zh/songs/orihime/originals/sakura-shinjuu>) |
-
-{{/details}}
-
-## 外部链接
-
-- [神椿工作室 官方艺人页（心世紀）](https://kamitsubaki.jp/artist/sinseiki/)
-- [少女革命計画 官方网站](https://girlsrevolutionproject.jp/)
-- [YouTube 个人主页](https://www.youtube.com/@orihime_grp)
-- [X 个人主页](https://x.com/orihime_gr)
-
-
-<!-- V3 RESEARCH SUPPLEMENT orihime -->
 
 ## 角色设定与轶闻
 
@@ -100,6 +60,18 @@ summary: "喜欢哥特与黑暗、耽美世界观的虚拟歌手。"
 - **前辈互动**：与 [ヰ世界情绪](/zh/database/artists/solo/isekaijoucho) 翻唱《亡国のネメシス》后，在 X 上写下相当长的一段感谢文字，称情绪为「大好きな情緒先輩」；情绪也作了很长的回复，其中提到「御莉姫ちゃんの歌声がとても可憐で...ふたりで物語を作るみたい」。
 
 > **角色定位**：御莉姬 是少女革命计划中最早展开直播活动与个人曲目的成员之一（2024 年 12 月 17 日首次直播），其「可爱外表 + 黑暗系唱腔」的反差正是整个《心》侧企划的核心魅力。
+
+## 活动历史
+
+- **2024年8月8日**：在 KAMITSUBAKI FES '24 正式出道，开启少女革命计划活动。
+- **2024年11月6日**：发行个人首支单曲《[シンユウ](/zh/songs/orihime/originals/shin-yuu)》。
+- **2024年12月25日**：发行单曲《[Talking Doll](/zh/songs/orihime/originals/talking-doll)》。
+- **2025年2月19日**：发行单曲《[瞬き](/zh/songs/orihime/originals/mabataki)》（与夕凪機合作）。
+- **2025年3月12日**：发行单曲《[ANGER](/zh/songs/orihime/originals/anger)》。
+- **2025年7月11日**：参加 KAMITSUBAKI WARS 2025 神椿川崎戦線 少女革命計画 1st LIVE/第一幕『[改変](/zh/songs/grp/originals/kaihen)』。
+- **2025年11月26日**：发行单曲《[Masquerade Kill](/zh/songs/orihime/originals/masquerade-kill)》。
+- **2026年4月8日**：发行单曲《[桜心中](/zh/songs/orihime/originals/sakura-shinjuu)》。
+- **2026年8月8日**：参加少女革命計画 2nd LIVE『Revolutio』。
 
 ## 配音作品与个人曲目档案
 
@@ -126,6 +98,23 @@ summary: "喜欢哥特与黑暗、耽美世界观的虚拟歌手。"
 - 参加少女革命计划 1st LIVE「改変」与 2nd LIVE「Revolutio」等大型公演。
 
 > **曲目特征**：御莉姬 的个人曲目由 wotaku、他人事、廉、平田義久 等风格各异的作曲家供给，涵盖电子流行、暗色摇滚与和风抒情，是《心》侧风格跨度最大的成员。
+
+## 代表作品与相关条目
+
+{{details::展开完整单曲目录}}
+
+**单曲**
+
+| 发行日期 | 标题 |
+| --- | --- |
+| 2024-11-06 | [シンユウ](</zh/songs/orihime/originals/shin-yuu>) |
+| 2024-12-25 | [Talking Doll](</zh/songs/orihime/originals/talking-doll>) |
+| 2025-02-19 | [瞬き](</zh/songs/orihime/originals/mabataki>) |
+| 2025-03-12 | [ANGER](</zh/songs/orihime/originals/anger>) |
+| 2025-11-26 | [Masquerade Kill](</zh/songs/orihime/originals/masquerade-kill>) |
+| 2026-04-08 | [桜心中](</zh/songs/orihime/originals/sakura-shinjuu>) |
+
+{{/details}}
 
 ## 翻唱曲目档案
 
@@ -162,3 +151,12 @@ summary: "喜欢哥特与黑暗、耽美世界观的虚拟歌手。"
 | 27 | 2026-03-28 | Magia |
 
 > **组合翻唱**：《Mrs.Pumpkinの滑稽な夢》（2024-10-31）、《愛♡スクリ～ム！》（2025-09-21）、《Happy Halloween》（2025-10-28）、《バレンタイン・キッス》（2026-02-14）由心世紀全员参加；《残響ヴァンデラー / VALIS》（2025-12-20）则由心世紀 × 罪十罰 共同翻唱，是两组罕见的合体演出。
+
+## 外部链接
+
+- [神椿工作室 官方艺人页（心世紀）](https://kamitsubaki.jp/artist/sinseiki/)
+- [少女革命計画 官方网站](https://girlsrevolutionproject.jp/)
+- [YouTube 个人主页](https://www.youtube.com/@orihime_grp)
+- [X 个人主页](https://x.com/orihime_gr)
+
+<!-- V3 RESEARCH SUPPLEMENT orihime -->

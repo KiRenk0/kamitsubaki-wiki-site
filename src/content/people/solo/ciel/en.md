@@ -50,7 +50,6 @@ lifecycle:
   startedAt: "2021-06-04"
 summary: "A virtual singer discovered through KAMITSUBAKI STUDIO's internal audition, known for blue hair symbolizing the sky and a story of looking up for the first time."
 ---
-
 ## Overview
 
 CIEL is a virtual singer under [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio), discovered through the studio's internal audition program "Kamitsubaki-shi Ijuu Teijuu-ka." Recognizable by her blue hair symbolizing the sky, her artistic identity centers on the narrative of a girl who always looked down finally taking her first step forward.
@@ -62,6 +61,22 @@ Beyond solo activities, CIEL formed the cross-dimensional virtual music unit [KU
 CIEL's character concept revolves around transformation — a girl who spent her life looking down, now lifting her eyes to the sky. The blue hair serves as both a visual signature and a metaphor for this psychological shift from isolation to openness. Her vocal style tends toward clarity and gentleness, occupying a different register from the more dramatic expressions of the [V.W.P](/en/artists/vwp/vwp) members.
 
 Within KUUSOU, CIEL's voice forms a distinctive complementary relationship with Sooda's. The unit deliberately blurs the boundaries between virtual and real, visual and auditory — embodying Kamitsubaki's ongoing exploration of "cross-dimensional" expression.
+
+## Project Position and the Dual-Wielder Form
+
+**[CIEL](/en/database/artists/solo/ciel)** is a **hybrid singer** under [PHENOMENON RECORD](/en/database/studios/phenomenon-record) who began activity on **4 June 2021**.
+
+| Item | Detail |
+| :--- | :--- |
+| **Form of existence** | A “real-voice” singer crossing both physical and virtual forms |
+| **Affiliation** | [PHENOMENON RECORD](/en/database/studios/phenomenon-record) |
+| **Debut** | 4 June 2021 |
+| **Vocal character** | A female voice with transparent clarity and the weight of an unprocessed live tone |
+| **Performance form** | Virtual avatar and physical stage in parallel ([dual-wielder](/en/database/lore/dual-wielder)) |
+
+> **Where the “dual-wielder” label fits**: CIEL belongs to KAMITSUBAKI's [dual-wielder](/en/database/lore/dual-wielder) lineage alongside [KAF / KAIKA](/en/database/artists/solo/kaika) and [VALIS](/en/database/artists/groups/valis), but her route differs from both. KAF's parallel name carries a strong contrast between “virtual mythos and real singer-songwriter”, and VALIS emphasises a double stage form of avatar and origin. CIEL, by contrast, has treated seamless switching between an everyday real presence and a 3D avatar as her normal mode since debut — closer to **two tracks running in parallel from the very beginning**.
+
+> **Name and texture**: CIEL means “sky” in French, and her songs return often to natural imagery of sky, streets and seasons (“Sora yori”, “Fukuiku no Machi”, “Mado wo Akete”), echoing the clarity of her live vocal.
 
 ## Activity History
 
@@ -107,40 +122,6 @@ Within KUUSOU, CIEL's voice forms a distinctive complementary relationship with 
 
 {{/details}}
 
-## Related Projects / Setting
-
-CIEL is directly tied to the KUUSOU unit within the Kamitsubaki ecosystem, and her partnership with Sooda represents a key example of virtual-real crossover activity. Her origin story — discovered through the "Kamitsubaki-shi Ijuu Teijuu-ka" audition — is itself part of the Kamitsubaki City worldbuilding, reflecting the studio's unique approach to blending talent development with narrative construction.
-
-## References
-
-- KAMITSUBAKI STUDIO official artist page: <https://kamitsubaki.jp/artist/ciel/>
-
-## External Links
-
-- [KAMITSUBAKI STUDIO CIEL page](https://kamitsubaki.jp/artist/ciel/)
-- [YouTube](https://www.youtube.com/channel/UCRvkXFtB70ZADg4L6A8L3wQ)
-- [X (Twitter)](https://twitter.com/CIEL_VanillaSky)
-- [TikTok](https://www.tiktok.com/@ciel_vanillasky)
-
-
-<!-- V3 RESEARCH SUPPLEMENT ciel -->
-
-## Project Position and the Dual-Wielder Form
-
-**[CIEL](/en/database/artists/solo/ciel)** is a **hybrid singer** under [PHENOMENON RECORD](/en/database/studios/phenomenon-record) who began activity on **4 June 2021**.
-
-| Item | Detail |
-| :--- | :--- |
-| **Form of existence** | A “real-voice” singer crossing both physical and virtual forms |
-| **Affiliation** | [PHENOMENON RECORD](/en/database/studios/phenomenon-record) |
-| **Debut** | 4 June 2021 |
-| **Vocal character** | A female voice with transparent clarity and the weight of an unprocessed live tone |
-| **Performance form** | Virtual avatar and physical stage in parallel ([dual-wielder](/en/database/lore/dual-wielder)) |
-
-> **Where the “dual-wielder” label fits**: CIEL belongs to KAMITSUBAKI's [dual-wielder](/en/database/lore/dual-wielder) lineage alongside [KAF / KAIKA](/en/database/artists/solo/kaika) and [VALIS](/en/database/artists/groups/valis), but her route differs from both. KAF's parallel name carries a strong contrast between “virtual mythos and real singer-songwriter”, and VALIS emphasises a double stage form of avatar and origin. CIEL, by contrast, has treated seamless switching between an everyday real presence and a 3D avatar as her normal mode since debut — closer to **two tracks running in parallel from the very beginning**.
-
-> **Name and texture**: CIEL means “sky” in French, and her songs return often to natural imagery of sky, streets and seasons (“Sora yori”, “Fukuiku no Machi”, “Mado wo Akete”), echoing the clarity of her live vocal.
-
 ## Releases and Song Archive
 
 **Studio albums and EPs**
@@ -171,3 +152,20 @@ CIEL is directly tied to the KUUSOU unit within the Kamitsubaki ecosystem, and h
 | 2026-05-12 | Kimi to Tabikaze |
 
 > **Musical character**: CIEL's work is built on clear live vocals with acoustic instrumentation, taking everyday life, the turning of the seasons and slight shifts of feeling as its themes. The “STRAWBERRY LIVE” live albums record her physical-stage singing and are key documents for understanding her “real” side.
+
+## Related Projects / Setting
+
+CIEL is directly tied to the KUUSOU unit within the Kamitsubaki ecosystem, and her partnership with Sooda represents a key example of virtual-real crossover activity. Her origin story — discovered through the "Kamitsubaki-shi Ijuu Teijuu-ka" audition — is itself part of the Kamitsubaki City worldbuilding, reflecting the studio's unique approach to blending talent development with narrative construction.
+
+## References
+
+- KAMITSUBAKI STUDIO official artist page: <https://kamitsubaki.jp/artist/ciel/>
+
+## External Links
+
+- [KAMITSUBAKI STUDIO CIEL page](https://kamitsubaki.jp/artist/ciel/)
+- [YouTube](https://www.youtube.com/channel/UCRvkXFtB70ZADg4L6A8L3wQ)
+- [X (Twitter)](https://twitter.com/CIEL_VanillaSky)
+- [TikTok](https://www.tiktok.com/@ciel_vanillasky)
+
+<!-- V3 RESEARCH SUPPLEMENT ciel -->

@@ -52,7 +52,6 @@ lifecycle:
 sources: []
 summary: "通过神椿市异住定兽课选拔出道的虚拟歌手，以象征天空的蓝发为标志，从低头不前到迈出第一步。"
 ---
-
 ## 概述
 
 CIEL 是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 旗下的虚拟歌手，通过工作室内部选拔项目「神椿市异住定兽课」被发掘出道。她以象征天空的蓝色长发为视觉标志，整体形象围绕「从一直低着头到迈出第一步」这一成长叙事展开。
@@ -64,6 +63,22 @@ CIEL 是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 旗下的�
 CIEL 的核心设定是一个「总是低着头的少女终于抬起头来」的故事。蓝色头发象征天空，也暗示着她从封闭自我到向外看世界的心理转变。她的歌声风格偏向清新、温柔，与 [V.W.P](/zh/artists/vwp/vwp) 成员们更具戏剧性的表达形成差异。
 
 在「空爽」组合中，CIEL 与 Sooda 的声线形成了独特互补——虚拟与现实、视觉与听觉的边界在两人的合作中被有意模糊，体现了神椿对「次元横断」概念的持续探索。
+
+## 企划定位与「二刀流」形态
+
+**[CIEL](/zh/database/artists/solo/ciel)** 是 [PHENOMENON RECORD](/zh/database/studios/phenomenon-record) 旗下的**混合形态（Hybrid）歌手**，自 **2021 年 6 月 4 日**起展开活动。
+
+| 维度 | 内容 |
+| :--- | :--- |
+| **存在形态** | 横跨真实与虚拟双重形态的「实音」歌手 |
+| **所属体系** | [PHENOMENON RECORD](/zh/database/studios/phenomenon-record) |
+| **活动起点** | 2021 年 6 月 4 日 |
+| **声音特质** | 澄澈、透明且富有真声厚度的女声 |
+| **演出形态** | 虚拟形象与真实舞台并行（[二刀流](/zh/database/lore/dual-wielder)） |
+
+> **「二刀流」的定位**：CIEL 与 [花譜 / 廻花](/zh/database/artists/solo/kaika)、[VALIS](/zh/database/artists/groups/valis) 同属神椿「[二刀流](/zh/database/lore/dual-wielder)」谱系——但她的路径与其余两者不同：花譜的平行身份带有强烈的「虚拟物语体 vs 真实唱作人」对照，VALIS 强调 avatar 与 origin 的双重舞台形态，而 CIEL 自出道起便以「真实日常 + 3D 虚拟形象无缝切换」为常态，更接近一种**从一开始就并列运行的双轨存在**。
+
+> **命名与质感**：CIEL 在法语中意为「天空」，其曲目也大量围绕天空、街道与季节的自然意象展开（《空より》《馥郁の街》《窓を開けて》），与其清透的真声质感形成呼应。
 
 ## 活动历程
 
@@ -109,40 +124,6 @@ CIEL 的核心设定是一个「总是低着头的少女终于抬起头来」的
 
 {{/details}}
 
-## 相关企划 / 关联设定
-
-CIEL 与神椿体系中的「空爽」组合直接相关，同时也是 Sooda 在虚拟领域的重要搭档。她的出道路径——通过「神椿市异住定兽课」选拔——本身也是神椿市世界观的一部分，体现了神椿在人才培养与叙事构建上的融合策略。
-
-## 参考资料
-
-- KAMITSUBAKI STUDIO 官方艺人页：<https://kamitsubaki.jp/artist/ciel/>
-
-## 外部链接
-
-- [KAMITSUBAKI STUDIO CIEL 页面](https://kamitsubaki.jp/artist/ciel/)
-- [YouTube](https://www.youtube.com/channel/UCRvkXFtB70ZADg4L6A8L3wQ)
-- [X (Twitter)](https://twitter.com/CIEL_VanillaSky)
-- [TikTok](https://www.tiktok.com/@ciel_vanillasky)
-
-
-<!-- V3 RESEARCH SUPPLEMENT ciel -->
-
-## 企划定位与「二刀流」形态
-
-**[CIEL](/zh/database/artists/solo/ciel)** 是 [PHENOMENON RECORD](/zh/database/studios/phenomenon-record) 旗下的**混合形态（Hybrid）歌手**，自 **2021 年 6 月 4 日**起展开活动。
-
-| 维度 | 内容 |
-| :--- | :--- |
-| **存在形态** | 横跨真实与虚拟双重形态的「实音」歌手 |
-| **所属体系** | [PHENOMENON RECORD](/zh/database/studios/phenomenon-record) |
-| **活动起点** | 2021 年 6 月 4 日 |
-| **声音特质** | 澄澈、透明且富有真声厚度的女声 |
-| **演出形态** | 虚拟形象与真实舞台并行（[二刀流](/zh/database/lore/dual-wielder)） |
-
-> **「二刀流」的定位**：CIEL 与 [花譜 / 廻花](/zh/database/artists/solo/kaika)、[VALIS](/zh/database/artists/groups/valis) 同属神椿「[二刀流](/zh/database/lore/dual-wielder)」谱系——但她的路径与其余两者不同：花譜的平行身份带有强烈的「虚拟物语体 vs 真实唱作人」对照，VALIS 强调 avatar 与 origin 的双重舞台形态，而 CIEL 自出道起便以「真实日常 + 3D 虚拟形象无缝切换」为常态，更接近一种**从一开始就并列运行的双轨存在**。
-
-> **命名与质感**：CIEL 在法语中意为「天空」，其曲目也大量围绕天空、街道与季节的自然意象展开（《空より》《馥郁の街》《窓を開けて》），与其清透的真声质感形成呼应。
-
 ## 发行作品与曲目索引
 
 **录音室专辑与 EP**
@@ -173,3 +154,20 @@ CIEL 与神椿体系中的「空爽」组合直接相关，同时也是 Sooda �
 | 2026-05-12 | 君と旅風 |
 
 > **创作特征**：CIEL 的作品多以「清透真声 + 原声器乐」为基本编制，主题围绕日常、季节更替与细微的心绪波动；其「STRAWBERRY LIVE」系列现场专辑记录了她在实体舞台上的演唱形态，是理解其「真实侧」表现的重要资料。
+
+## 相关企划 / 关联设定
+
+CIEL 与神椿体系中的「空爽」组合直接相关，同时也是 Sooda 在虚拟领域的重要搭档。她的出道路径——通过「神椿市异住定兽课」选拔——本身也是神椿市世界观的一部分，体现了神椿在人才培养与叙事构建上的融合策略。
+
+## 参考资料
+
+- KAMITSUBAKI STUDIO 官方艺人页：<https://kamitsubaki.jp/artist/ciel/>
+
+## 外部链接
+
+- [KAMITSUBAKI STUDIO CIEL 页面](https://kamitsubaki.jp/artist/ciel/)
+- [YouTube](https://www.youtube.com/channel/UCRvkXFtB70ZADg4L6A8L3wQ)
+- [X (Twitter)](https://twitter.com/CIEL_VanillaSky)
+- [TikTok](https://www.tiktok.com/@ciel_vanillasky)
+
+<!-- V3 RESEARCH SUPPLEMENT ciel -->

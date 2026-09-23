@@ -30,12 +30,24 @@ lifecycle:
   startedAt: "2025-04-30"
 summary: "A virtual singer whose clear voice depicts shadowed worlds, blending with electronic sound."
 ---
-
 ## Overview
 
 BEMA (琶舞) is a virtual singer who debuted on April 30, 2025. With the September 5, 2026 renewal of [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio), the in-studio labels were consolidated into PHENOMENON RECORD, which now represents her (the [SINSEKAI RECORD](/en/projects/archive/sinsekai-studio) name was retired).
 
 Official descriptions note that she depicts shadowed musical worlds with a crystalline voice that blends into electronic sound. Her activities center on digital singles and cover lives, often releasing alongside fellow studio artists such as ASU.
+
+## Project Position and Character Design
+
+**BEMA** is a newly arrived virtual singer in the [SINSEKAI RECORD](/en/database/studios/sinsekai-record) system, who formally debuted on **30 April 2025**.
+
+| Dimension | Content |
+| :--- | :--- |
+| **Debut** | 30 April 2025 (uploading the first video 《琶舞 Op.1 - はじめまして。》) |
+| **Character design** | **Yoneyama Mai** (the same illustrator as ASU) |
+| **Visual theme** | Crosses and black lilies |
+| **Vocal approach** | Depicting a dark world with a clear, limpid voice |
+
+> **Mirror-concept setting**: if ASU symbolises “light,” BEMA is explicitly positioned as the embodiment of “**darkness**” — both designs come from the same hand, Yoneyama Mai, forming a deliberately opposed visual and narrative mirror pair.
 
 ## Activity Briefs
 
@@ -78,6 +90,13 @@ Official descriptions note that she depicts shadowed musical worlds with a cryst
 
 {{/details}}
 
+## The New Unit with ASU
+
+- **5 May 2025**: an official announcement stated that ASU and BEMA would form a new unit themed on “**love**.”
+- **7 May 2025**: the MV for the two’s original song 《[Symbiotic Dominion](/en/songs/bema/originals/symbiotic-dominion)》 was released.
+
+> **Her place in the SINSEKAI lineage**: BEMA’s arrival follows immediately on the disbanding and archiving of [Albemuth](/en/database/artists/groups/albemuth), forming SINSEKAI’s generational relay of “old unit archived → new unit launched”; her “darkness” positioning also complements ASU’s “light” emotionally, carrying on SINSEKAI’s tradition of unit design centred on “the pairing of opposites.”
+
 ## External Links
 
 - [KAMITSUBAKI STUDIO Official Site](https://kamitsubaki.jp/artist/bema/)
@@ -85,25 +104,4 @@ Official descriptions note that she depicts shadowed musical worlds with a cryst
 - [YouTube Sub Channel](https://youtube.com/@BEMA_sub)
 - [X (Twitter)](https://x.com/BEMA_virtual)
 
-
 <!-- V3 RESEARCH SUPPLEMENT bema -->
-
-## Project Position and Character Design
-
-**BEMA** is a newly arrived virtual singer in the [SINSEKAI RECORD](/en/database/studios/sinsekai-record) system, who formally debuted on **30 April 2025**.
-
-| Dimension | Content |
-| :--- | :--- |
-| **Debut** | 30 April 2025 (uploading the first video 《琶舞 Op.1 - はじめまして。》) |
-| **Character design** | **Yoneyama Mai** (the same illustrator as ASU) |
-| **Visual theme** | Crosses and black lilies |
-| **Vocal approach** | Depicting a dark world with a clear, limpid voice |
-
-> **Mirror-concept setting**: if ASU symbolises “light,” BEMA is explicitly positioned as the embodiment of “**darkness**” — both designs come from the same hand, Yoneyama Mai, forming a deliberately opposed visual and narrative mirror pair.
-
-## The New Unit with ASU
-
-- **5 May 2025**: an official announcement stated that ASU and BEMA would form a new unit themed on “**love**.”
-- **7 May 2025**: the MV for the two’s original song 《[Symbiotic Dominion](/en/songs/bema/originals/symbiotic-dominion)》 was released.
-
-> **Her place in the SINSEKAI lineage**: BEMA’s arrival follows immediately on the disbanding and archiving of [Albemuth](/en/database/artists/groups/albemuth), forming SINSEKAI’s generational relay of “old unit archived → new unit launched”; her “darkness” positioning also complements ASU’s “light” emotionally, carrying on SINSEKAI’s tradition of unit design centred on “the pairing of opposites.”

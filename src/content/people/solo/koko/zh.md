@@ -55,7 +55,6 @@ lifecycle:
 sources: []
 summary: "以摇滚式长音与正面冲击力为标识的虚拟摇滚歌手。"
 ---
-
 ## 概述
 
 幸祜是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 旗下的虚拟歌手，也是 [V.W.P](/zh/artists/vwp/vwp) 成员之一。她在成员中最鲜明的标签之一，是带有摇滚推进感的长音与直接冲击力。相较于更偏叙事或更偏冷感的成员，幸祜的歌声往往先以“击中感”进入听众记忆。
@@ -81,6 +80,47 @@ summary: "以摇滚式长音与正面冲击力为标识的虚拟摇滚歌手。"
 | 声音延伸 | 音乐同位体「[狐子](/zh/artists/isotopes/coko) / COKO」 |
 
 「Type-Real Alnair」是 2021 年「PLAYER」中公开的重要新形态，发型和服装都比初始形象更强调现实舞台与演奏者气质。
+
+## V.W.P 成员互动档案
+
+幸祜自出道以来便在 Twitter 上持续分享与神椿其他成员的互动合影，被粉丝戏称为"神椿第一后宫王"。以下为已记录的互动节点：
+
+| 时间 | 互动内容 |
+| :--- | :--- |
+| 2020-11-07 | 发布与其他 4 位成员会面的合影 |
+| 2020-11-11 | 恰逢 Pocky 日，发布与[理芽](/zh/artists/vwp/rim)的合影 |
+| 2020-11-24 | 发布与[春猿火](/zh/artists/vwp/harusaruhi)在涩谷购物的合影 |
+| 2020-12-01 | 发布与[ヰ世界情绪](/zh/artists/vwp/isekaijoucho)的冬装合影 |
+| 2020-12-08 | 发布与[花譜](/zh/artists/vwp/kaf)雪中约会（？）的短视频 |
+| 2021-01-07 | 发布与春猿火碰面的合影 |
+| 2021-02-09 | 发布与理芽一起选购巧克力的合影 |
+
+> 这些互动记录构成了 V.W.P"魔女集会"关系网的重要民间史料，也从侧面印证了五人组合在正式结成前后的真实交流密度。
+
+## 形态、设定与轶事
+
+幸祜的初始形象由 SWAV 设计，黑紫渐变长发、紫色瞳孔、夹克与机能风服装构成了主要识别点。她在 2021 年以「花魁鳥」相关舞台形态亮相，之后在「PLAYER」中公开 Type-Real「Alnair」，形态变化与现场阶段密切相关。
+
+早期粉丝资料中常提到她具有绘画方面的反差趣闻；这类内容属于节目、直播或粉丝文化中的轶事，和官方角色设定应分栏理解。她本人公开表达过对鼓手和音乐教育的兴趣，也说明了其歌手身份之外的音乐背景想象。
+
+## 角色视觉形象与造型档案
+
+幸祜的形象由设计师 **SWAV** 设计，是 V.W.P 中最具"机能战术风"的一体化造型：
+
+| 部位 | 细节 |
+| :--- | :--- |
+| 发色与发型 | 及腰双色长发，上端为灰／黑色，末梢部分为紫／蓝色，闪耀金属质感 |
+| 瞳色与面部 | 紫色瞳，**右侧眼角有两枚泪痣** |
+| 配饰 | 双耳佩戴圆形金属耳环；颈部有颈环，中央亦有圆形金属配饰 |
+| 上装 | 黑色短夹克，内着灰黑色露脐紧身衣，外加皮质背心，上着紫／白色领带 |
+| 下装 | 灰黑色紧身短裤，腰际与腹股沟处有战术风绑带，两侧配有机能风小包 |
+| 袜与鞋 | 黑色皮质光泽紧身袜，其内侧与右靴膝盖处开放；鞋子为高帮运动鞋 |
+| 其他 | 左手戴有手套 |
+
+**造型演进**
+
+- **2021 年 3 月 13 日**：于花譜「不可解弐 Q2」中首次展示 3D 形象与「{{ruby::花魁鳥::おいらどり::oiradori}}」着装，该礼装原设由 [PALOW.](/zh/artists/creators/palow) 设计；
+- **2021 年 12 月 29 日**：于个人 1st ONE-MAN LIVE「PLAYER」中展示由 SWAV 设计的新衣装 **「Type-real Alnair」**，发型改为高马尾，服装变为夹克配短裙的设计，运动鞋亦一并换新。
 
 ## 活动历程
 
@@ -126,6 +166,52 @@ summary: "以摇滚式长音与正面冲击力为标识的虚拟摇滚歌手。"
 - **2月28日**：参演 V.W.P 4th ONE-MAN LIVE「现象IV -反转命运-」（于 Pia Arena MM）。
 - **4月**：出演「NIGHT HIKE -scramble- '26」及「#VRF_2026」等演出。
 - **9月5日**：预定出演「KAMITSUBAKI WARS 2026 神椿横滨战线」首日的「KAMITSUBAKI FES '26 FIELD OF RESONANCE」。
+
+## 音乐作品与现场活动
+
+幸祜的作品以摇滚式推进、长音和强穿透力为主要特征。首支原创曲《harmony》之后，《白昼夢》《この世界に口づけを》《ASH》《瞑目》《夜光を呼ぶ》《the last bullet》逐步确立了她在神椿声音版图中的位置；其中《ASH》还与游戏《Monark / 罪恶王权》的音乐合作相连。
+
+| 作品/系列 | 内容 | 说明 |
+| --- | --- | --- |
+| 《prayer》 | 2022 年首张个人专辑 | 汇总早期个人曲和“Player”阶段的声音方向 |
+| 《prayer2》 | 2025 年第二张个人专辑 | 回归活动后对个人路线的延续与更新 |
+| 「ARARE LIVE」 | 首次翻唱 Live | 以翻唱和现场演唱展示更宽的表达面 |
+| 「PLAYER」系列 | 个人 one-man live | “Player”概念与 Type-Real「Alnair」形态相连 |
+| 《始まりの銃声》《シャングリラ》 | 后续单曲线索 | 连接个人音乐、动画与神椿跨媒体项目 |
+
+幸祜与[春猿火](/zh/artists/vwp/harusaruhi)的《ATELIER》《Nectar》、与[ヰ世界情緒](/zh/artists/vwp/isekaijoucho)的《[刻印](/zh/songs/isekaijoucho/collaborations/刻印-kokuin)》以及 [V.W.P](/zh/artists/vwp/vwp) 的系谱曲，是理解她如何在合唱中使用高穿透声线的关键材料。她的音乐同位体「狐子 / [COKO](/zh/artists/isotopes/coko)」则把这套声线交给创作者社区继续使用。
+
+## 现场活动与相关人物
+
+幸祜的现场履历以「ARARE LIVE」翻唱系列和「PLAYER」个人演出为主；她还参与「魔女集会」「现象」、与春猿火的「Singularity Live Vol.2」以及 V.W.P 大型演出。她在 Live 中常使用右脚打拍子、以长音和强声压推动现场，这些是观众对其舞台表现的常见观察。
+
+大沼パセリ、Len、Feryquitous、香椎モイミ、DIVELA 等创作者分别参与了她不同阶段的原创曲；SWAV 则不仅负责初始人设，也参与 Type-Real Alnair 的视觉设计。早期粉丝资料中关于她绘画、钢琴、鼓手兴趣和“平时与演出状态反差”的内容属于公开节目或粉丝观察，本站保留为背景，不把它们写成未经证实的私人事实。
+
+## 配音作品
+
+| 年份 | 作品 | 角色 | 类别 |
+| :--- | :--- | :--- | :--- |
+| 2025 | 《[神椿市建设中。](/zh/projects/arg/kamitsubaki-city)》 | **輪廻此処** | 电视动画 |
+| 2025 | 《[神椿市建設中。REGENERATE](/zh/database/projects/kamitsubaki-city-regenerate)》 | **輪廻此処** | 游戏 |
+
+> **輪廻此処**（{{ruby::輪廻此処::りんねここ::rinne koko}}）是幸祜在《神椿市建设中。》世界观中的对应角色。
+
+## 商业 Tie-up 与主题曲
+
+| 曲目 | Tie-up | 时期 |
+| :--- | :--- | :--- |
+| 《ASH》 | 新·学园 RPG《モナーク / Monark》插曲 | 2021 年 |
+| 《TIME》 | TV 动画《五亿年按钮》片头曲 | 2022 年 |
+| 《私を纏う》 | 游戏《制服女友》片头曲 | 2023 年 |
+
+> 幸祜的歌曲频繁被游戏与动画起用，其高穿透力的摇滚声线在"战斗／抗争"语境中具有极高的适配度。
+
+## 现场演出档案
+
+- **幸祜 STREAMING COVER LIVE「あられライブ / ARARE」系列**：以翻唱为核心的线上直播专场，另有「あられライブ 2 / ARARE2」，是幸祜在个人专场之外最主要的持续演艺场域；
+- **幸祜 1st ONE-MAN LIVE「PLAYER」**：2021 年 12 月 29 日举办，本场公开了由 SWAV 设计的新衣装「Type-real Alnair」；{{spoiler::在演出前夕，幸祜曾以钢琴弹唱自己的原创曲《harmony》。}}
+- **幸祜 2nd ONE-MAN LIVE「PLAYERII -神椿市肆番街-」**：以"神椿市肆番街"为题，把个人专场与《神椿市建设中。》的世界观街区分区命名体系直接连接；
+- **SINGULARITY LIVE vol.2**：与[春猿火](/zh/artists/vwp/harusaruhi)的双人专场，两人以截然不同的声线取向（高穿透摇滚 × 高密度饶舌）构成强烈对撞。
 
 ## 代表作品与相关条目
 
@@ -201,98 +287,6 @@ summary: "以摇滚式长音与正面冲击力为标识的虚拟摇滚歌手。"
 | 《prayer2》 | 2025 年第二张个人专辑 | 回归活动后的个人路线延续 |
 | 合作曲 | 《÷》《[古傷](/zh/songs/harusaruhi/collaborations/古傷-furukizu)》《[刻印](/zh/songs/isekaijoucho/collaborations/刻印-kokuin)》《素的》《歯車》 | 连接 [V.W.P](/zh/artists/vwp/vwp) 成员和跨媒介作品 |
 
-## 音乐作品与现场活动
-
-幸祜的作品以摇滚式推进、长音和强穿透力为主要特征。首支原创曲《harmony》之后，《白昼夢》《この世界に口づけを》《ASH》《瞑目》《夜光を呼ぶ》《the last bullet》逐步确立了她在神椿声音版图中的位置；其中《ASH》还与游戏《Monark / 罪恶王权》的音乐合作相连。
-
-| 作品/系列 | 内容 | 说明 |
-| --- | --- | --- |
-| 《prayer》 | 2022 年首张个人专辑 | 汇总早期个人曲和“Player”阶段的声音方向 |
-| 《prayer2》 | 2025 年第二张个人专辑 | 回归活动后对个人路线的延续与更新 |
-| 「ARARE LIVE」 | 首次翻唱 Live | 以翻唱和现场演唱展示更宽的表达面 |
-| 「PLAYER」系列 | 个人 one-man live | “Player”概念与 Type-Real「Alnair」形态相连 |
-| 《始まりの銃声》《シャングリラ》 | 后续单曲线索 | 连接个人音乐、动画与神椿跨媒体项目 |
-
-幸祜与[春猿火](/zh/artists/vwp/harusaruhi)的《ATELIER》《Nectar》、与[ヰ世界情緒](/zh/artists/vwp/isekaijoucho)的《[刻印](/zh/songs/isekaijoucho/collaborations/刻印-kokuin)》以及 [V.W.P](/zh/artists/vwp/vwp) 的系谱曲，是理解她如何在合唱中使用高穿透声线的关键材料。她的音乐同位体「狐子 / [COKO](/zh/artists/isotopes/coko)」则把这套声线交给创作者社区继续使用。
-
-## 形态、设定与轶事
-
-幸祜的初始形象由 SWAV 设计，黑紫渐变长发、紫色瞳孔、夹克与机能风服装构成了主要识别点。她在 2021 年以「花魁鳥」相关舞台形态亮相，之后在「PLAYER」中公开 Type-Real「Alnair」，形态变化与现场阶段密切相关。
-
-早期粉丝资料中常提到她具有绘画方面的反差趣闻；这类内容属于节目、直播或粉丝文化中的轶事，和官方角色设定应分栏理解。她本人公开表达过对鼓手和音乐教育的兴趣，也说明了其歌手身份之外的音乐背景想象。
-
-## 现场活动与相关人物
-
-幸祜的现场履历以「ARARE LIVE」翻唱系列和「PLAYER」个人演出为主；她还参与「魔女集会」「现象」、与春猿火的「Singularity Live Vol.2」以及 V.W.P 大型演出。她在 Live 中常使用右脚打拍子、以长音和强声压推动现场，这些是观众对其舞台表现的常见观察。
-
-大沼パセリ、Len、Feryquitous、香椎モイミ、DIVELA 等创作者分别参与了她不同阶段的原创曲；SWAV 则不仅负责初始人设，也参与 Type-Real Alnair 的视觉设计。早期粉丝资料中关于她绘画、钢琴、鼓手兴趣和“平时与演出状态反差”的内容属于公开节目或粉丝观察，本站保留为背景，不把它们写成未经证实的私人事实。
-
-## 相关企划 / 关联设定
-
-幸祜与 V.W.P、音乐的同位体“狐子 / COKO”、以及神椿市相关项目之间都有明确联系。她在神椿声音谱系中的意义，常常体现为一种更直接、更具推进力的存在。
-
-## 参考资料
-
-- KAMITSUBAKI STUDIO 官方艺人页：<https://kamitsubaki.jp/artist/koko/>
-- KAMITSUBAKI STUDIO 官方 V.W.P 页面：<https://kamitsubaki.jp/artist/v-w-p/>
-- 中文维基：V.W.P：<https://zh.wikipedia.org/wiki/V.W.P>
-
-## 外部链接
-
-- [Official Website](https://kamitsubaki.jp/artist/koko/)
-- [YouTube (Main)](https://www.youtube.com/channel/UC7Gow-kNHq21oejSIDg9PAg)
-- [X (Twitter)](https://twitter.com/KOKO__virtual)
-- [TikTok](https://www.tiktok.com/@koko_virtual)
-- [piapro](https://piapro.jp/virtual_koko)
-
-
-<!-- V3 RESEARCH SUPPLEMENT koko -->
-
-## 角色视觉形象与造型档案
-
-幸祜的形象由设计师 **SWAV** 设计，是 V.W.P 中最具"机能战术风"的一体化造型：
-
-| 部位 | 细节 |
-| :--- | :--- |
-| 发色与发型 | 及腰双色长发，上端为灰／黑色，末梢部分为紫／蓝色，闪耀金属质感 |
-| 瞳色与面部 | 紫色瞳，**右侧眼角有两枚泪痣** |
-| 配饰 | 双耳佩戴圆形金属耳环；颈部有颈环，中央亦有圆形金属配饰 |
-| 上装 | 黑色短夹克，内着灰黑色露脐紧身衣，外加皮质背心，上着紫／白色领带 |
-| 下装 | 灰黑色紧身短裤，腰际与腹股沟处有战术风绑带，两侧配有机能风小包 |
-| 袜与鞋 | 黑色皮质光泽紧身袜，其内侧与右靴膝盖处开放；鞋子为高帮运动鞋 |
-| 其他 | 左手戴有手套 |
-
-**造型演进**
-
-- **2021 年 3 月 13 日**：于花譜「不可解弐 Q2」中首次展示 3D 形象与「{{ruby::花魁鳥::おいらどり::oiradori}}」着装，该礼装原设由 [PALOW.](/zh/artists/creators/palow) 设计；
-- **2021 年 12 月 29 日**：于个人 1st ONE-MAN LIVE「PLAYER」中展示由 SWAV 设计的新衣装 **「Type-real Alnair」**，发型改为高马尾，服装变为夹克配短裙的设计，运动鞋亦一并换新。
-
-## 配音作品
-
-| 年份 | 作品 | 角色 | 类别 |
-| :--- | :--- | :--- | :--- |
-| 2025 | 《[神椿市建设中。](/zh/projects/arg/kamitsubaki-city)》 | **輪廻此処** | 电视动画 |
-| 2025 | 《[神椿市建設中。REGENERATE](/zh/database/projects/kamitsubaki-city-regenerate)》 | **輪廻此処** | 游戏 |
-
-> **輪廻此処**（{{ruby::輪廻此処::りんねここ::rinne koko}}）是幸祜在《神椿市建设中。》世界观中的对应角色。
-
-## 商业 Tie-up 与主题曲
-
-| 曲目 | Tie-up | 时期 |
-| :--- | :--- | :--- |
-| 《ASH》 | 新·学园 RPG《モナーク / Monark》插曲 | 2021 年 |
-| 《TIME》 | TV 动画《五亿年按钮》片头曲 | 2022 年 |
-| 《私を纏う》 | 游戏《制服女友》片头曲 | 2023 年 |
-
-> 幸祜的歌曲频繁被游戏与动画起用，其高穿透力的摇滚声线在"战斗／抗争"语境中具有极高的适配度。
-
-## 现场演出档案
-
-- **幸祜 STREAMING COVER LIVE「あられライブ / ARARE」系列**：以翻唱为核心的线上直播专场，另有「あられライブ 2 / ARARE2」，是幸祜在个人专场之外最主要的持续演艺场域；
-- **幸祜 1st ONE-MAN LIVE「PLAYER」**：2021 年 12 月 29 日举办，本场公开了由 SWAV 设计的新衣装「Type-real Alnair」；{{spoiler::在演出前夕，幸祜曾以钢琴弹唱自己的原创曲《harmony》。}}
-- **幸祜 2nd ONE-MAN LIVE「PLAYERII -神椿市肆番街-」**：以"神椿市肆番街"为题，把个人专场与《神椿市建设中。》的世界观街区分区命名体系直接连接；
-- **SINGULARITY LIVE vol.2**：与[春猿火](/zh/artists/vwp/harusaruhi)的双人专场，两人以截然不同的声线取向（高穿透摇滚 × 高密度饶舌）构成强烈对撞。
-
 ## 轶事与圈内文化
 
 - **投稿格式**：翻唱曲的编号写作「No.xxx」，简介处固定使用「歌ってみました。No.xxx TO BE CONTINUE.」；
@@ -315,18 +309,22 @@ summary: "以摇滚式长音与正面冲击力为标识的虚拟摇滚歌手。"
 - **平行人生**：{{spoiler::如果没有加入 V.W.P 成为幸祜，就会去音乐学校当鼓手讲师。曾是某个独立乐队的鼓手。}}
 - **性格**：坚忍、认真、笨拙而纯粹、一往无前，同时也会在心里和暗地里默默替他人着想；{{spoiler::然而正是这样温柔而不懂变通的性格，让她吃过很多哑巴亏，甚至被自己信任的人背叛伤害过。}}
 
-## V.W.P 成员互动档案
+## 相关企划 / 关联设定
 
-幸祜自出道以来便在 Twitter 上持续分享与神椿其他成员的互动合影，被粉丝戏称为"神椿第一后宫王"。以下为已记录的互动节点：
+幸祜与 V.W.P、音乐的同位体“狐子 / COKO”、以及神椿市相关项目之间都有明确联系。她在神椿声音谱系中的意义，常常体现为一种更直接、更具推进力的存在。
 
-| 时间 | 互动内容 |
-| :--- | :--- |
-| 2020-11-07 | 发布与其他 4 位成员会面的合影 |
-| 2020-11-11 | 恰逢 Pocky 日，发布与[理芽](/zh/artists/vwp/rim)的合影 |
-| 2020-11-24 | 发布与[春猿火](/zh/artists/vwp/harusaruhi)在涩谷购物的合影 |
-| 2020-12-01 | 发布与[ヰ世界情绪](/zh/artists/vwp/isekaijoucho)的冬装合影 |
-| 2020-12-08 | 发布与[花譜](/zh/artists/vwp/kaf)雪中约会（？）的短视频 |
-| 2021-01-07 | 发布与春猿火碰面的合影 |
-| 2021-02-09 | 发布与理芽一起选购巧克力的合影 |
+## 参考资料
 
-> 这些互动记录构成了 V.W.P"魔女集会"关系网的重要民间史料，也从侧面印证了五人组合在正式结成前后的真实交流密度。
+- KAMITSUBAKI STUDIO 官方艺人页：<https://kamitsubaki.jp/artist/koko/>
+- KAMITSUBAKI STUDIO 官方 V.W.P 页面：<https://kamitsubaki.jp/artist/v-w-p/>
+- 中文维基：V.W.P：<https://zh.wikipedia.org/wiki/V.W.P>
+
+## 外部链接
+
+- [Official Website](https://kamitsubaki.jp/artist/koko/)
+- [YouTube (Main)](https://www.youtube.com/channel/UC7Gow-kNHq21oejSIDg9PAg)
+- [X (Twitter)](https://twitter.com/KOKO__virtual)
+- [TikTok](https://www.tiktok.com/@koko_virtual)
+- [piapro](https://piapro.jp/virtual_koko)
+
+<!-- V3 RESEARCH SUPPLEMENT koko -->

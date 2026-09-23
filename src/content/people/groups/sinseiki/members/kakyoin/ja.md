@@ -56,7 +56,6 @@ lifecycle:
   startedAt: "2024-08-08"
 summary: "佳鏡院です。歌を届けます。"
 ---
-
 ## 紹介
 
 佳鏡院は、2024年8月8日に活動を開始したクロスディメンショナル・ストリーマー（Xtuber）です。[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio)の「[少女革命計画](/ja/projects/labels/girls-revolution-project)」プロジェクトのメンバーであり、ユニット「[心世紀](/ja/artists/girls_revolution_project/sinseiki)」に所属しています。
@@ -86,17 +85,6 @@ summary: "佳鏡院です。歌を届けます。"
 
 {{/details}}
 
-## 外部リンク
-
-- [KAMITSUBAKI STUDIO 公式サイト](https://kamitsubaki.jp/artist/sinseiki/)
-- [少女革命計画 公式サイト](https://kamitsubaki.jp/artist/sinseiki/)
-- [YouTube チャンネル](https://www.youtube.com/@kakyoin_grp)
-- [X 公式ページ](https://x.com/kakyoin_gr)
-- [Bilibili チャンネル](https://space.bilibili.com/3546832122677764)
-
-
-<!-- V3 RESEARCH SUPPLEMENT kakyoin -->
-
 ## 個人楽曲アーカイブ
 
 本項目に収録された独唱曲は以下の通り（公開・配信日順）。
@@ -110,3 +98,13 @@ summary: "佳鏡院です。歌を届けます。"
 | 2025-11-12 | 月へゆく | — |
 
 > **データ出典**：以下の曲目は本サイトの実体登録表（Metadata Schema v2）から自動集計したもので、日付と歌唱者は各項目のメタデータに準拠する。ユニット曲・合唱曲は所属ユニットおよび[少女革命計画](/ja/database/projects/girls-revolution-project)の総項目を参照。
+
+## 外部リンク
+
+- [KAMITSUBAKI STUDIO 公式サイト](https://kamitsubaki.jp/artist/sinseiki/)
+- [少女革命計画 公式サイト](https://kamitsubaki.jp/artist/sinseiki/)
+- [YouTube チャンネル](https://www.youtube.com/@kakyoin_grp)
+- [X 公式ページ](https://x.com/kakyoin_gr)
+- [Bilibili チャンネル](https://space.bilibili.com/3546832122677764)
+
+<!-- V3 RESEARCH SUPPLEMENT kakyoin -->

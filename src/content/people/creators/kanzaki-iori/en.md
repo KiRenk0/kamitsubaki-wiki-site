@@ -17,10 +17,28 @@ lifecycle:
   activity: "active"
   startedAt: "2014-01"
 ---
-
 ## Overview
 
 Kanzaki Iori is a Japanese Vocaloid producer, lyricist, composer, and novelist. He was one of the most important early creators in KAMITSUBAKI STUDIO, especially through his sustained work with KAF. His own catalogue includes “Inochi ni Kirawareteiru.”, “Kimi no Kami-sama ni Naritai.”, and “Ano Natsu ga飽和する。”; his Kamitsubaki work helped establish the continuity between KAF's songs, live narratives, and the V.W.P witch concept.
+
+## Role in Kamitsubaki
+
+Kanzaki Iori was a central author of KAF's early-to-2023 musical continuity. His credits include “Ito”, “Shinzo to Karakuri”, “Majo”, “Kako wo Kurau”, “Fukakai”, and “Umi ni Bakeru”. He also contributed to early V.W.P lineage songs, linking individual songs to the shared witch narrative.
+
+His role was broader than supplying isolated tracks: lyrics, music, live themes, and story language often echoed one another, forming a chain from short uploads to major performances. After his graduation, KAF's creative network entered a new phase while retaining structures established during this collaboration.
+
+## Artistic Position and Creative Lineage
+
+**Kanzaki Iori** (Kurogaki / クロガキ) is KAMITSUBAKI's **founding auteur** — a composer, but also a novelist and a singer-songwriter. His creative lineage can be summed up as “**driving piano rock ＋ the literary narration of a young person's existential pain**”.
+
+| Dimension | Characteristics |
+| :--- | :--- |
+| **Instrumental foundation** | Piano-driven, high-density rock arrangements; the chorus often builds an emotional cliff through sudden acceleration and stacked harmonies |
+| **Narrative motifs** | The pain of living, the feeling of being loathed by the world, adolescent self-denial and rebellion |
+| **Textual identity** | Simultaneously an author: lyrics and novels share a single narrative vocabulary, and the works rewrite one another |
+| **Boundaries of activity** | Composer / VOCALOID producer / self-accompanied singer / novelist — four identities running in parallel |
+
+> **Aliases and origins**: Common aliases include **Kurogaki / クロガキ / 黒柿子** and かんざきいおり; his real name is given as 神崎伊織 (Kanzaki Iori), and he comes from **Iwate Prefecture**, Japan.
 
 ## Career
 
@@ -32,11 +50,22 @@ Kanzaki Iori is a Japanese Vocaloid producer, lyricist, composer, and novelist. 
 - **September 2020**: Published a substantially revised national edition of *Ano Natsu ga Hokyu-suru.*
 - **March 4, 2023**: Announced his graduation from [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) and THINKR to work independently.
 
-## Role in Kamitsubaki
+## Index of Major Works and the Evolution of His Identity
 
-Kanzaki Iori was a central author of KAF's early-to-2023 musical continuity. His credits include “Ito”, “Shinzo to Karakuri”, “Majo”, “Kako wo Kurau”, “Fukakai”, and “Umi ni Bakeru”. He also contributed to early V.W.P lineage songs, linking individual songs to the shared witch narrative.
+**VOCALOID / self-sung works**
 
-His role was broader than supplying isolated tracks: lyrics, music, live themes, and story language often echoed one another, forming a chain from short uploads to major performances. After his graduation, KAF's creative network entered a new phase while retaining structures established during this collaboration.
+| Date | Event |
+| :--- | :--- |
+| 2014-01 | Posted 《反抗期》 as a VOCALOID producer — his first upload |
+| 2017-08-06 | Released 《命に嫌われている。》 — by 2021 it had around **16 million** views, becoming his best-known signature work |
+| 2018-08-18 | Released 《あの夏が飽和する。》 |
+| 2019-04 | Released his 1st album 《白紙》, containing reconstructed versions of several popular songs |
+| 2020-02 | Released a special set pairing the novel 《獣》 with the EP 《人生はコメディ》 |
+| 2020-09 | The novel 《あの夏が飽和する。》, heavily adapted from 《獣》, was published nationwide by Kawade Shobo |
+| 2021-06 | Announced the new self-cover 《不器用な男》 and decided to hold his first solo concert |
+| 2023-03-04 | Graduated from KAMITSUBAKI STUDIO and moved to independent activity |
+
+> **Cross-media character**: Kanzaki Iori's works circulate between “song — novel — re-adapted song”. 《あの夏が飽和する。》 began as a song, later became a novel, and was then substantially adapted and published — the original specimen for understanding KAMITSUBAKI's “music × story” methodology.
 
 ## Representative Works
 
@@ -85,22 +114,6 @@ His role was broader than supplying isolated tracks: lyrics, music, live themes,
 - [KAF](/en/artists/vwp/kaf)
 - [V.W.P](/en/artists/vwp/vwp)
 
-
-<!-- V3 RESEARCH SUPPLEMENT kanzaki-iori -->
-
-## Artistic Position and Creative Lineage
-
-**Kanzaki Iori** (Kurogaki / クロガキ) is KAMITSUBAKI's **founding auteur** — a composer, but also a novelist and a singer-songwriter. His creative lineage can be summed up as “**driving piano rock ＋ the literary narration of a young person's existential pain**”.
-
-| Dimension | Characteristics |
-| :--- | :--- |
-| **Instrumental foundation** | Piano-driven, high-density rock arrangements; the chorus often builds an emotional cliff through sudden acceleration and stacked harmonies |
-| **Narrative motifs** | The pain of living, the feeling of being loathed by the world, adolescent self-denial and rebellion |
-| **Textual identity** | Simultaneously an author: lyrics and novels share a single narrative vocabulary, and the works rewrite one another |
-| **Boundaries of activity** | Composer / VOCALOID producer / self-accompanied singer / novelist — four identities running in parallel |
-
-> **Aliases and origins**: Common aliases include **Kurogaki / クロガキ / 黒柿子** and かんざきいおり; his real name is given as 神崎伊織 (Kanzaki Iori), and he comes from **Iwate Prefecture**, Japan.
-
 ## The Symbiotic Relationship with KAF and the Founding of KAMITSUBAKI
 
 The collaboration between Kanzaki Iori and [KAF](/en/database/artists/solo/kaf) is the model case of KAMITSUBAKI's “artist symbiosis system”:
@@ -112,19 +125,4 @@ The collaboration between Kanzaki Iori and [KAF](/en/database/artists/solo/kaf) 
 
 > **The meaning of the “symbiosis system”**: the producer does not merely supply singles — he also leads the conception of the chapter narrative for the artist's solo concerts (the “不可解” series). This model made KAF's music and live performances share a single narrative logic, and made the “composer” one of the actual authors of the worldview.
 
-## Index of Major Works and the Evolution of His Identity
-
-**VOCALOID / self-sung works**
-
-| Date | Event |
-| :--- | :--- |
-| 2014-01 | Posted 《反抗期》 as a VOCALOID producer — his first upload |
-| 2017-08-06 | Released 《命に嫌われている。》 — by 2021 it had around **16 million** views, becoming his best-known signature work |
-| 2018-08-18 | Released 《あの夏が飽和する。》 |
-| 2019-04 | Released his 1st album 《白紙》, containing reconstructed versions of several popular songs |
-| 2020-02 | Released a special set pairing the novel 《獣》 with the EP 《人生はコメディ》 |
-| 2020-09 | The novel 《あの夏が飽和する。》, heavily adapted from 《獣》, was published nationwide by Kawade Shobo |
-| 2021-06 | Announced the new self-cover 《不器用な男》 and decided to hold his first solo concert |
-| 2023-03-04 | Graduated from KAMITSUBAKI STUDIO and moved to independent activity |
-
-> **Cross-media character**: Kanzaki Iori's works circulate between “song — novel — re-adapted song”. 《あの夏が飽和する。》 began as a song, later became a novel, and was then substantially adapted and published — the original specimen for understanding KAMITSUBAKI's “music × story” methodology.
+<!-- V3 RESEARCH SUPPLEMENT kanzaki-iori -->

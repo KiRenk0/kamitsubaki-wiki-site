@@ -45,7 +45,6 @@ lifecycle:
   activity: "active"
 summary: "Video director at Eallin Japan in business partnership with KAMITSUBAKI STUDIO, blending 3DCG, cell animation, and live action into emotionally expressive visual narratives."
 ---
-
 ## Overview
 
 Kawasaki (川サキ) is a video director at Eallin Japan who holds a business partnership (業務提携) with [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio). As an external collaborator rather than a studio member, he brings a distinctive visual language to the Kamitsubaki ecosystem — one that seamlessly merges 3DCG, cel-style animation, and live action into cohesive emotional narratives.
@@ -57,20 +56,6 @@ His directing style is defined by delicate emotional expression and a strong nar
 Kawasaki occupies a unique position as a visual storyteller within a primarily music-oriented roster. His ongoing collaboration with [KAF](/en/artists/vwp/kaf) — producing music videos and visual content for Kamitsubaki's flagship virtual artist — represents one of the most visible intersections of his craft with the studio's identity.
 
 His portfolio extends well beyond the Kamitsubaki sphere. He has directed music videos for major artists including [Kanzaki Iori](/en/artists/creators/kanzaki-iori)'s "Ongaku Nante Wakaranai" (音楽なんてわからない) and Yorushika's "Kokoro ni Ana ga Aita" (心に穴が空いた), both of which showcase his ability to translate complex emotional textures into arresting visual form.
-
-## Representative Works
-
-- Kanzaki Iori — "Ongaku Nante Wakaranai" (音楽なんてわからない) music video
-- Yorushika — "Kokoro ni Ana ga Aita" (心に穴が空いた) music video
-- Ongoing music videos and visual direction for KAF
-
-## External Links
-
-- [Twitter](https://twitter.com/Knji__k)
-- [YouTube](https://www.youtube.com/user/kawa6kawa6kawa)
-
-
-<!-- V3 RESEARCH SUPPLEMENT kawasaki -->
 
 ## The Video Director’s Artistic Language
 
@@ -92,3 +77,16 @@ Kawasaki and [PALOW.](/en/database/staff/palow) form the two pillars supporting 
 - **Kawasaki** is responsible for “how the character is seen” — moving images, camera choreography and spatial narrative.
 
 > **Synergy**: This division of labour makes KAMITSUBAKI’s MVs not “key art that moves” but visual works with an independent cinematic language; and it is precisely this visual methodology that lets virtual singers appear naturally in real streetscapes, thereby underpinning performance formats that blend the virtual and the real, such as [SINKA LIVE](/en/database/lives/sinka-live).
+
+## Representative Works
+
+- Kanzaki Iori — "Ongaku Nante Wakaranai" (音楽なんてわからない) music video
+- Yorushika — "Kokoro ni Ana ga Aita" (心に穴が空いた) music video
+- Ongoing music videos and visual direction for KAF
+
+## External Links
+
+- [Twitter](https://twitter.com/Knji__k)
+- [YouTube](https://www.youtube.com/user/kawa6kawa6kawa)
+
+<!-- V3 RESEARCH SUPPLEMENT kawasaki -->

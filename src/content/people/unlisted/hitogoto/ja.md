@@ -46,8 +46,6 @@ lifecycle:
   activity: "active"
 summary: "面と魚魚の 2 人で構成される音楽ユニット。ボカロ楽曲の制作を中心に活動。"
 ---
-
-
 ## 概要
 
 ヒトゴト（他人事）は「面」と「魚魚」の 2 人で構成される音楽ユニット。[KYOKAI STUDIO](/ja/projects/labels/kyokai-studio) に所属し（2026年9月に [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) から移籍）、旧・神椿 CREATOR FARM の一員として 2020 年からボカロオリジナル楽曲やセルフカバーの制作を通じて活動を開始した。
@@ -59,6 +57,18 @@ summary: "面と魚魚の 2 人で構成される音楽ユニット。ボカロ�
 ヒトゴトの強みは、心に深く刺さる歌詞と記憶に残るメロディにある。アレンジ面でも複数のジャンルにわたる柔軟さを見せつつ、一貫した emotional な核がユニットのアイデンティティを支えている。
 
 自作品の制作だけでなく、楽曲提供にも実績があり、[V.W.P](/ja/artists/vwp/vwp)、罪と罰、Muse Dash などのプロジェクトへ作詞・作曲・編曲を提供している。
+
+## 創作上の位置づけと所属体系
+
+**他人事（Hitogoto）** は [SINSEKAI RECORD](/ja/database/studios/sinsekai-record) 傘下の **CREATOR FARM** 体系に属する音楽プロデューサーであり、少女革命計画の体系においてもっとも中核的な作曲家の一人である。
+
+| 項目 | 内容 |
+| :--- | :--- |
+| **職能** | 作詞 / 作曲 / 編曲 |
+| **所属** | [SINSEKAI RECORD](/ja/database/studios/sinsekai-record) CREATOR FARM |
+| **中核的な関連** | [罪十罰](/ja/database/artists/groups/tsumitobatsu)（専任の楽曲提供の中核） |
+
+> **名前の意味**：「他人事」は日本語で「他人の事柄」を意味する——この命名は、作品にたびたび現れる疎外感、傍観者の視点、自己否定の主題と高度に呼応している。
 
 ## 活動歴
 
@@ -88,30 +98,6 @@ summary: "面と魚魚の 2 人で構成される音楽ユニット。ボカロ�
 
 {{/details}}
 
-## 参考資料
-
-- ヒトゴト Twitter：<https://twitter.com/hito_go_to_7>
-
-## 外部リンク
-
-- [Twitter](https://twitter.com/hito_go_to_7)
-- [YouTube](https://www.youtube.com/@hitogoto)
-
-
-<!-- V3 RESEARCH SUPPLEMENT hitogoto -->
-
-## 創作上の位置づけと所属体系
-
-**他人事（Hitogoto）** は [SINSEKAI RECORD](/ja/database/studios/sinsekai-record) 傘下の **CREATOR FARM** 体系に属する音楽プロデューサーであり、少女革命計画の体系においてもっとも中核的な作曲家の一人である。
-
-| 項目 | 内容 |
-| :--- | :--- |
-| **職能** | 作詞 / 作曲 / 編曲 |
-| **所属** | [SINSEKAI RECORD](/ja/database/studios/sinsekai-record) CREATOR FARM |
-| **中核的な関連** | [罪十罰](/ja/database/artists/groups/tsumitobatsu)（専任の楽曲提供の中核） |
-
-> **名前の意味**：「他人事」は日本語で「他人の事柄」を意味する——この命名は、作品にたびたび現れる疎外感、傍観者の視点、自己否定の主題と高度に呼応している。
-
 ## 主な楽曲提供とコラボレーション
 
 | 作品 | 関連対象 | 職能 |
@@ -122,3 +108,14 @@ summary: "面と魚魚の 2 人で構成される音楽ユニット。ボカロ�
 | 《REPLICA》 | [罪十罰](/ja/database/artists/groups/tsumitobatsu) | 楽曲提供 |
 
 > **所見**：他人事 の作品は《改変 -罪-》アルバムで冒頭と大トリの位置を占めている（第 1 曲《弔花》、および組のアルバムにおける看板曲の位置）。これは罪十罰 の音楽体系における中核的地位を示している。その創作語彙は重量級ロックとドラマチックな感情の爆発に傾き、《心》側の都市型エレクトロニックとは明確に役割を分けている。
+
+## 参考資料
+
+- ヒトゴト Twitter：<https://twitter.com/hito_go_to_7>
+
+## 外部リンク
+
+- [Twitter](https://twitter.com/hito_go_to_7)
+- [YouTube](https://www.youtube.com/@hitogoto)
+
+<!-- V3 RESEARCH SUPPLEMENT hitogoto -->

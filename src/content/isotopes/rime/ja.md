@@ -59,7 +59,6 @@ lifecycle:
 voiceEngines: []
 summary: "理芽の歌声をもとに開発された CeVIO AI 音楽的同位体。透明感と情熱的なエモーションを併せ持つ合成音声をクリエイターに提供。"
 ---
-
 ## 概要
 
 裏命（RIME）は、[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio)が展開する「[音楽的同位体](/ja/artists/solo/musical-isotope)」シリーズの第3弾としてリリースされた音声合成ソフトウェアです。バーチャルシンガー理芽（[RIM](/ja/artists/vwp/rim)）の歌声データをベースに、AI技術を用いて本人の声質をリアルに再現しています。
@@ -71,6 +70,17 @@ CeVIO AIプラットフォーム上で動作し、名前は「RIM + ECHO（理�
 キャラクターデザインは[PALOW.](/ja/artists/creators/palow)が担当しており、白髪に濃いブルーのメッシュ、八芒星のヘアアクセサリーが特徴的です。音声面ではリアルなブレス音や繊細な表現調整に対応し、アップテンポなデジタル・ロック調からスローバラードまでエモーショナルに歌いこなします。
 
 音楽的同位体プロジェクトの理念に基づき、裏命はクリエイターの「創作のパートナー」として定義されています。UGC（ユーザー生成コンテンツ）の領域において、ボカロPや音声合成ユーザーによって多くの二次創作・オリジナル楽曲が公開されています。
+
+## 基本資料とキャラクター設定
+
+裏命は理芽の歌声データをもとにした CeVIO AI 歌声合成ソフトウェアおよびキャラクターである。理芽の透明感と妖しさを受け継ぎながら、独立した創作上の存在として展開している。
+
+| 項目 | 内容 |
+| --- | --- |
+| 声の提供元 | 理芽 |
+| プラットフォーム | CeVIO AI、VOICEPEAK TALK EXTENSION |
+| キャラクターデザイン | PALOW. |
+| 主な企画 | 『Paranormal』、裏命楽曲コンテスト |
 
 ## 歩み
 
@@ -102,31 +112,6 @@ CeVIO AIプラットフォーム上で動作し、名前は「RIM + ECHO（理�
 ### 2025年
 
 - **11月2日**：Kanadevia Hallにて開催された「KAMITSUBAKI FES '25 OUR ONE-DAY WAR」に「V.I.P」として出演。
-
-## 代表曲と関連項目
-
-裏命を用いた代表的な楽曲には以下のようなものがあります。
-
-- 『食虫植物』（裏命 カバーバージョン）
-- 『[甘美な無法](/ja/songs/rim/originals/甘美な無法-luscious-lawless)』（裏命 カバーバージョン）
-- UGCクリエイターによる数多くのオリジナル曲（R Sound Designによる『マンダリン』、ピコンによる『傷心中』など）
-
-おすすめの関連項目：
-
-- [理芽 / RIM](/ja/artists/vwp/rim)
-- [可不 / KAFU](/ja/artists/isotopes/kafu)
-- [星界 / SEKAI](/ja/artists/isotopes/sekai)
-
-## 基本資料とキャラクター設定
-
-裏命は理芽の歌声データをもとにした CeVIO AI 歌声合成ソフトウェアおよびキャラクターである。理芽の透明感と妖しさを受け継ぎながら、独立した創作上の存在として展開している。
-
-| 項目 | 内容 |
-| --- | --- |
-| 声の提供元 | 理芽 |
-| プラットフォーム | CeVIO AI、VOICEPEAK TALK EXTENSION |
-| キャラクターデザイン | PALOW. |
-| 主な企画 | 『Paranormal』、裏命楽曲コンテスト |
 
 ## 代表曲とクリエイター・エコシステム
 
@@ -204,19 +189,6 @@ CeVIO AIプラットフォーム上で動作し、名前は「RIM + ECHO（理�
 
 {{/details}}
 
-## 関連プロジェクト・設定
-
-裏命は、KAMITSUBAKI STUDIOが提唱する「音楽的同位体プロジェクト」の中核製品です。バーチャルシンガーとしての理芽自身の枠組みを超え、二次創作や創作エコシステムにおいて人々の手によって無限に再構成される、声という共有の「クリエイティブ素材」としての展開を体現しています。
-
-## 外部リンク
-
-- [音楽的同位体 公式サイト](https://musical-isotope.kamitsubaki.jp/)
-- [音楽的同位体 公式 X (Twitter)](https://twitter.com/musicalisotope)
-- [音楽的同位体 公式 YouTubeチャンネル](https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA)
-
-
-<!-- V3 RESEARCH SUPPLEMENT rime -->
-
 ## 公式コンピレーションと命名体系
 
 理芽（RIM）の歌声を音源原型とし、そのハスキーな質感と都市型ポップスの語感を受け継ぐ。同位体群の中でも「都市／バイリンガル」路線を代表する声庫である。
@@ -251,6 +223,20 @@ CeVIO AIプラットフォーム上で動作し、名前は「RIM + ECHO（理�
 
 > **業界的意味**：二次創作を厳しく制限する従来のレコード体系に対し、神椿は「声庫」を閉じた資産ではなく生態系への入口として扱った。これが数年で膨大な UGC を蓄積できた根本的な理由である。
 
+## 代表曲と関連項目
+
+裏命を用いた代表的な楽曲には以下のようなものがあります。
+
+- 『食虫植物』（裏命 カバーバージョン）
+- 『[甘美な無法](/ja/songs/rim/originals/甘美な無法-luscious-lawless)』（裏命 カバーバージョン）
+- UGCクリエイターによる数多くのオリジナル曲（R Sound Designによる『マンダリン』、ピコンによる『傷心中』など）
+
+おすすめの関連項目：
+
+- [理芽 / RIM](/ja/artists/vwp/rim)
+- [可不 / KAFU](/ja/artists/isotopes/kafu)
+- [星界 / SEKAI](/ja/artists/isotopes/sekai)
+
 ## 音源の魔女との関係系譜
 
 | 項目 | 内容 |
@@ -261,3 +247,15 @@ CeVIO AIプラットフォーム上で動作し、名前は「RIM + ECHO（理�
 | **世界観上の位置** | 神椿の「歌曲の特異点」のデジタル側の分身。花譜と同じ「歌の声」の来源を共有する |
 
 > **命名規則**：音楽的同位体の名称は音源の魔女から直接取られている（KAFU←KAF、RIME←RIM、SEKAI←ISEKAIJOUCHO、COKO←KOKO、HARU←HARUSARUHI）。この命名法自体が「同一存在の異なる形態」という設定の核を宣言している。
+
+## 関連プロジェクト・設定
+
+裏命は、KAMITSUBAKI STUDIOが提唱する「音楽的同位体プロジェクト」の中核製品です。バーチャルシンガーとしての理芽自身の枠組みを超え、二次創作や創作エコシステムにおいて人々の手によって無限に再構成される、声という共有の「クリエイティブ素材」としての展開を体現しています。
+
+## 外部リンク
+
+- [音楽的同位体 公式サイト](https://musical-isotope.kamitsubaki.jp/)
+- [音楽的同位体 公式 X (Twitter)](https://twitter.com/musicalisotope)
+- [音楽的同位体 公式 YouTubeチャンネル](https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA)
+
+<!-- V3 RESEARCH SUPPLEMENT rime -->

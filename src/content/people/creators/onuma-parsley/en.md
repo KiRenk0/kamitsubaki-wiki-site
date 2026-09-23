@@ -13,25 +13,9 @@ locale: en
 summary: Founding composer of KAMITSUBAKI STUDIO, evolving from acclaimed
   Vocaloid producer to singer-songwriter.
 ---
-
 ## Overview
 
 **Onuma Parsley** is a founding producer of KAMITSUBAKI STUDIO signed to ANARCHIC RECORD. Best known for viral hits like "Egoist" (over 10M views) and "Corruption", he writes across electronic, City Pop, and alternative pop genres.
-
-
-<!-- V3 RESEARCH SUPPLEMENT onuma-parsley -->
-
-## Upload Statistics and Scale of Output
-
-| Metric | Figure |
-| :--- | :--- |
-| **Vocaloid originals uploaded** | **26 tracks** posted to niconico at the time of record |
-| **Hall of Fame entries** | **6 tracks** reached the Hall of Fame (100,000 plays) |
-| **Legend entries** | **1 track** reached Legend status (1,000,000 plays) |
-| **Voice libraries used** | Hatsune Miku, v flower, [KAFU](/en/database/isotopes/kafu), [COKO](/en/database/isotopes/coko) |
-| **Platform character** | YouTube play counts are often far higher than niconico's; the best-known track, “Egoist”, has reached tens of millions of views on YouTube |
-
-> **Why the scale matters**: achieving six Hall of Fame entries and one Legend entry from a modest total number of uploads shows an unusually high hit rate — a major reason Onuma Parsley was counted among the founding members when KAMITSUBAKI STUDIO was established.
 
 ## Detailed Chronology and Personal Preferences
 
@@ -61,3 +45,17 @@ summary: Founding composer of KAMITSUBAKI STUDIO, evolving from acclaimed
 - **Musical background**: he loved singing from childhood and went to karaoke often; he began learning an instrument properly in the second year of middle school, played in a band in high school, and performed the band's originals at a live house.
 
 > **Style summary**: Onuma Parsley's trajectory is unusual even among KAMITSUBAKI creators — from an early phase of “Piapro artwork plus gentle songwriting”, through large-scale deletions and a stylistic rebuild, to a settled identity of “electronically charged poison pop”, and then a turn to self-performed singer-songwriter work after pausing his producer activity. That curve is itself a sample of KAMITSUBAKI's model in which creators are free to keep transforming.
+
+## Upload Statistics and Scale of Output
+
+| Metric | Figure |
+| :--- | :--- |
+| **Vocaloid originals uploaded** | **26 tracks** posted to niconico at the time of record |
+| **Hall of Fame entries** | **6 tracks** reached the Hall of Fame (100,000 plays) |
+| **Legend entries** | **1 track** reached Legend status (1,000,000 plays) |
+| **Voice libraries used** | Hatsune Miku, v flower, [KAFU](/en/database/isotopes/kafu), [COKO](/en/database/isotopes/coko) |
+| **Platform character** | YouTube play counts are often far higher than niconico's; the best-known track, “Egoist”, has reached tens of millions of views on YouTube |
+
+> **Why the scale matters**: achieving six Hall of Fame entries and one Legend entry from a modest total number of uploads shows an unusually high hit rate — a major reason Onuma Parsley was counted among the founding members when KAMITSUBAKI STUDIO was established.
+
+<!-- V3 RESEARCH SUPPLEMENT onuma-parsley -->

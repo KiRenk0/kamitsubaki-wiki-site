@@ -47,8 +47,6 @@ lifecycle:
   activity: "active"
 summary: "将甜美感性旋律与 EDM 融合，表达纤细而惆怅情感的下一代音乐组合。"
 ---
-
-
 ## 概述
 
 淡色（Awairo）是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 旗下的下一代音乐组合，由作曲家ゆのすけ（[Yunosuke](/zh/artists/creators/yunosuke)）与歌手 WaMi 两人组成。他们的音乐将甜美感性的旋律与 EDM 元素相融合，表达出纤细而惆怅的独特情感世界。
@@ -60,6 +58,17 @@ summary: "将甜美感性旋律与 EDM 融合，表达纤细而惆怅情感的�
 淡色的音乐核心在于「感性」与「电子」的交融。作曲担当ゆのすけ擅长构建富有情感张力的电子音景，而歌手 WaMi 以温柔而富有穿透力的声线赋予作品独特的人声温度。两人合作产生的化学反应，使淡色的音乐既保有 EDM 的律动感，又不失流行歌曲的情感共鸣。
 
 组合名「淡色」本身便暗示了他们追求的美学方向——不浓烈、不张扬，却在淡然中蕴含着深沉的情感层次。
+
+## 成员构成与企划定位
+
+**[Awairo](/zh/database/artists/groups/awairo)** 是 [SINSEKAI RECORD](/zh/database/studios/sinsekai-record) 于 2023 年 10 月宣布出道的音乐组合，其成员包括**雄之助（Yunosuke）** 与 **WaMi**。
+
+| 成员 | 职能 |
+| :--- | :--- |
+| [雄之助（Yunosuke）](/zh/database/creators/yunosuke) | 作曲 / 编曲 / 声音制作 |
+| WaMi | 歌唱 / 演唱 |
+
+> **企划定位**：Awairo 是深脊界在企划扩展期推出的重要音乐团体，其定位是「以电子舞曲制作为核心、由创作者与歌手直接组队」的组合形态——与神椿多数「先有角色、后有音乐」的企划相反，Awairo 更接近制作人与歌手的直接协作体。
 
 ## 活动历程
 
@@ -100,33 +109,6 @@ summary: "将甜美感性旋律与 EDM 融合，表达纤细而惆怅情感的�
 
 {{/details}}
 
-## 相关企划 / 关联设定
-
-淡色作为神椿体系中的音乐组合，通过 KAMITSUBAKI WARS、KAMITSUBAKI FES 等大型活动与其他艺人产生交集。与梓川的 2MAN LIVE 也体现了神椿内部艺人之间的合作生态。
-
-## 参考资料
-
-- KAMITSUBAKI STUDIO 官方信息
-
-## 外部链接
-
-- [X (Twitter)](https://twitter.com/Awairo_info)
-- [YouTube](https://www.youtube.com/@yunosuke23)
-
-
-<!-- V3 RESEARCH SUPPLEMENT awairo -->
-
-## 成员构成与企划定位
-
-**[Awairo](/zh/database/artists/groups/awairo)** 是 [SINSEKAI RECORD](/zh/database/studios/sinsekai-record) 于 2023 年 10 月宣布出道的音乐组合，其成员包括**雄之助（Yunosuke）** 与 **WaMi**。
-
-| 成员 | 职能 |
-| :--- | :--- |
-| [雄之助（Yunosuke）](/zh/database/creators/yunosuke) | 作曲 / 编曲 / 声音制作 |
-| WaMi | 歌唱 / 演唱 |
-
-> **企划定位**：Awairo 是深脊界在企划扩展期推出的重要音乐团体，其定位是「以电子舞曲制作为核心、由创作者与歌手直接组队」的组合形态——与神椿多数「先有角色、后有音乐」的企划相反，Awairo 更接近制作人与歌手的直接协作体。
-
 ## 代表曲目与协作网络
 
 | 曲目 | 协作 | 说明 |
@@ -142,3 +124,18 @@ summary: "将甜美感性旋律与 EDM 融合，表达纤细而惆怅情感的�
 | 专辑《グラデーション》 | — | 组合的正式发行作品 |
 
 > **协作网络**：Awairo 通过成员 雄之助 的作曲家身份与神椿体系广泛连接——既为 [VALIS](/zh/database/artists/groups/valis) 等组合供曲，也与 [梓川](/zh/database/artists/solo/azsagawa)、[音乐同位体](/zh/database/isotopes/kafu) 等产生跨企划合作，是深脊界「创作者主导型组合」的代表样本。
+
+## 相关企划 / 关联设定
+
+淡色作为神椿体系中的音乐组合，通过 KAMITSUBAKI WARS、KAMITSUBAKI FES 等大型活动与其他艺人产生交集。与梓川的 2MAN LIVE 也体现了神椿内部艺人之间的合作生态。
+
+## 参考资料
+
+- KAMITSUBAKI STUDIO 官方信息
+
+## 外部链接
+
+- [X (Twitter)](https://twitter.com/Awairo_info)
+- [YouTube](https://www.youtube.com/@yunosuke23)
+
+<!-- V3 RESEARCH SUPPLEMENT awairo -->

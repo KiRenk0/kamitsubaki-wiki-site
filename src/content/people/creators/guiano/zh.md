@@ -45,7 +45,6 @@ lifecycle:
 sources: []
 summary: "融合 EDM、J-Pop 与诗意叙事的全能 Vocaloid Producer 与音乐人。"
 ---
-
 ## 概述
 
 **Guiano**（グイアノ）是日本知名 Vocaloid Producer、EDM / J-Pop 创作者及全能音乐人。
@@ -54,6 +53,20 @@ summary: "融合 EDM、J-Pop 与诗意叙事的全能 Vocaloid Producer 与音�
 
 - **代表作品**：《死んでしまったのだろうか》《[透過夏](/zh/songs/rim/covers/透過夏-touka-natsu)》《[スーパーヒーロー](/zh/songs/guiano/originals/suupaahiiroo)》《地球の裏》《法螺話 (feat. [理芽](/zh/artists/vwp/rim))》
 - **专辑**：《Love & Pop》《AHOY!!!!!!》
+
+## 艺术定位与创作谱系
+
+**Guiano** 是 [ANARCHIC RECORD](/zh/database/studios/anarchic-record) 旗下的作曲家与自唱自奏创作歌手，其创作谱系可概括为「**EDM 编曲 × 细腻文学性抒情摇滚**」。
+
+| 维度 | 特征 |
+| :--- | :--- |
+| **编曲底色** | Future Bass、EDM 与钢琴抒情的融合，擅长在宏大合成器声场中保留钢琴的叙事清晰度 |
+| **文本取向** | 具有明显文学性的歌词，主题多围绕生死、虚无、透明的世界与自我确认 |
+| **双重身份** | 既为他人供曲，也以自唱自奏形式发表个人作品 |
+| **代表作品** | 《死んでしまったのだろうか》《透過夏》《透き通る世界》 |
+
+> **在神椿中的位置**：Guiano 是神椿 2019 年 10 月创立期的元老级成员之一，其个人作品与神椿厂牌的世界观同步成长。
+
 ## 代表作品与相关条目
 
 {{details::展开完整专辑与 EP 目录}}
@@ -101,34 +114,6 @@ summary: "融合 EDM、J-Pop 与诗意叙事的全能 Vocaloid Producer 与音�
 
 {{/details}}
 
-## 外部链接
-
-- [Guiano 官方网站](https://guiano.fanpla.jp/)
-
-
-<!-- V3 RESEARCH SUPPLEMENT guiano -->
-
-## 艺术定位与创作谱系
-
-**Guiano** 是 [ANARCHIC RECORD](/zh/database/studios/anarchic-record) 旗下的作曲家与自唱自奏创作歌手，其创作谱系可概括为「**EDM 编曲 × 细腻文学性抒情摇滚**」。
-
-| 维度 | 特征 |
-| :--- | :--- |
-| **编曲底色** | Future Bass、EDM 与钢琴抒情的融合，擅长在宏大合成器声场中保留钢琴的叙事清晰度 |
-| **文本取向** | 具有明显文学性的歌词，主题多围绕生死、虚无、透明的世界与自我确认 |
-| **双重身份** | 既为他人供曲，也以自唱自奏形式发表个人作品 |
-| **代表作品** | 《死んでしまったのだろうか》《透過夏》《透き通る世界》 |
-
-> **在神椿中的位置**：Guiano 是神椿 2019 年 10 月创立期的元老级成员之一，其个人作品与神椿厂牌的世界观同步成长。
-
-## 与理芽等艺人的伴生关系
-
-- **与 [理芽（RIM）](/zh/database/artists/solo/rim)**：Guiano 是理芽初期最重要的供曲者之一，为其提供了多首核心主打曲目，确立了理芽「都市独立流行」的声学基调之一；
-- **与音乐同位体**：其作品被大量交由 [星界（SEKAI）](/zh/database/isotopes/sekai) 等 AI 歌声库演唱，是「同位体共创网络」中活跃的创作者之一——例如《ナユタ》即以星界为演唱声库，以宏大弦乐与 EDM 融合展现星界的歌剧式音域；
-- **与 [ANARCHIC RECORD](/zh/database/studios/anarchic-record)**：作为该厂牌成员，Guiano 与香椎モイミ、大沼パセリ等创作者共同构成神椿「现实派创作者」的核心圈层。
-
-> **与「艺人伴生制」的对照**：与 [カンザキイオリ](/zh/database/creators/kanzaki-iori) 之于花譜的单一深度绑定不同，Guiano 属于「多点供曲型」创作者——既服务特定艺人，也广泛参与同位体与合辑企划，这代表了神椿创作网络的另一种连接方式。
-
 ## 代表作品索引
 
 | 时间 | 作品 | 说明 |
@@ -139,3 +124,17 @@ summary: "融合 EDM、J-Pop 与诗意叙事的全能 Vocaloid Producer 与音�
 | — | 《ナユタ》 | 以音乐同位体星界为声源原型创作的作品 |
 
 > **风格小结**：Guiano 的音乐始终在「电子声场的宏大」与「钢琴叙事的私密」之间取得平衡，这一矛盾统一正是其在神椿创作群中不可替代的位置。
+
+## 与理芽等艺人的伴生关系
+
+- **与 [理芽（RIM）](/zh/database/artists/solo/rim)**：Guiano 是理芽初期最重要的供曲者之一，为其提供了多首核心主打曲目，确立了理芽「都市独立流行」的声学基调之一；
+- **与音乐同位体**：其作品被大量交由 [星界（SEKAI）](/zh/database/isotopes/sekai) 等 AI 歌声库演唱，是「同位体共创网络」中活跃的创作者之一——例如《ナユタ》即以星界为演唱声库，以宏大弦乐与 EDM 融合展现星界的歌剧式音域；
+- **与 [ANARCHIC RECORD](/zh/database/studios/anarchic-record)**：作为该厂牌成员，Guiano 与香椎モイミ、大沼パセリ等创作者共同构成神椿「现实派创作者」的核心圈层。
+
+> **与「艺人伴生制」的对照**：与 [カンザキイオリ](/zh/database/creators/kanzaki-iori) 之于花譜的单一深度绑定不同，Guiano 属于「多点供曲型」创作者——既服务特定艺人，也广泛参与同位体与合辑企划，这代表了神椿创作网络的另一种连接方式。
+
+## 外部链接
+
+- [Guiano 官方网站](https://guiano.fanpla.jp/)
+
+<!-- V3 RESEARCH SUPPLEMENT guiano -->

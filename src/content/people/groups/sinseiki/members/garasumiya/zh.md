@@ -34,7 +34,6 @@ lifecycle:
   startedAt: "2024-08-08"
 summary: "喜欢唱歌和点心的虚拟歌手。"
 ---
-
 ## 简介
 
 硝子宮是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 旗下「[少女革命计划](/zh/projects/labels/girls-revolution-project)」（GIRLS REVOLUTION PROJECT）的跨次元主播（Xtuber），隶属三人组合「[心世紀](/zh/artists/girls_revolution_project/sinseiki)」。角色设计由 [PALOW.](/zh/artists/creators/palow) 担当。
@@ -68,16 +67,6 @@ summary: "喜欢唱歌和点心的虚拟歌手。"
 
 {{/details}}
 
-## 外部链接
-
-- [神椿工作室 官方艺人页（心世紀）](https://kamitsubaki.jp/artist/sinseiki/)
-- [少女革命計画 官方网站](https://girlsrevolutionproject.jp/)
-- [YouTube 个人主页](https://www.youtube.com/@garasumiya_grp)
-- [X 个人主页](https://x.com/garasumiya_gr)
-
-
-<!-- V3 RESEARCH SUPPLEMENT garasumiya -->
-
 ## 个人曲目档案
 
 本条目收录的独唱曲目如下（按发行/公开时间排序）：
@@ -91,3 +80,12 @@ summary: "喜欢唱歌和点心的虚拟歌手。"
 | 2026-03-06 | さよなら、楽園 | — |
 
 > **数据来源**：以下曲目由本站实体登记表（Metadata Schema v2）自动汇总，日期与演唱者以条目元数据为准；组合曲与合唱曲另见所属组合与[少女革命計画](/zh/database/projects/girls-revolution-project)总条目。
+
+## 外部链接
+
+- [神椿工作室 官方艺人页（心世紀）](https://kamitsubaki.jp/artist/sinseiki/)
+- [少女革命計画 官方网站](https://girlsrevolutionproject.jp/)
+- [YouTube 个人主页](https://www.youtube.com/@garasumiya_grp)
+- [X 个人主页](https://x.com/garasumiya_gr)
+
+<!-- V3 RESEARCH SUPPLEMENT garasumiya -->

@@ -56,7 +56,6 @@ lifecycle:
 voiceEngines: []
 summary: "A CeVIO AI musical isotope built from KOKO's vocal data, bringing the power and clarity of the original voice to synthesized music creation."
 ---
-
 ## Overview
 
 COKO (狐子) is the fourth voice synthesis software in [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio)'s "[Musical Isotope](/en/artists/solo/musical-isotope)" series. It is built using AI technology based on the vocal data of virtual singer [KOKO](/en/artists/vwp/koko) (幸祜) to generate highly realistic singing voices on the CeVIO AI platform.
@@ -68,6 +67,18 @@ As a member of the Musical Isotope series, COKO inherits KOKO's high-pitched, po
 Designed by SWAV, COKO's visual appearance is defined by short white hair, sky-blue inner highlights, active fox ears, and a tailbone accessory representing the nine-tailed fox. This design combines futuristic tactical gear with fantasy elements.
 
 Vocally, COKO preserves KOKO's strong long notes while featuring realistic breathing sounds and crystal-clear vocals, making her highly suitable for high-energy music genres such as rock and electronic music. In January 2024, the VOICEPEAK-compatible "TALK EXTENSION" software was released, providing COKO with highly natural speech synthesis capabilities for spoken dialogues.
+
+## Basic Profile and Character Setting
+
+COKO is a musical-isotope voicebank and character based on KOKO's vocal data, not KOKO herself. Its design and sound preserve the source singer's strong projection, sustained notes, and emotional drive while making those qualities available for new creator works.
+
+| Item | Detail |
+| --- | --- |
+| Voice source | KOKO |
+| Platform | CeVIO AI and VOICEPEAK TALK EXTENSION |
+| Character design | SWAV |
+| First release | January 25, 2023 |
+| Demonstration work | “the last bullet” |
 
 ## Activity History
 
@@ -102,18 +113,6 @@ Vocally, COKO preserves KOKO's strong long notes while featuring realistic breat
 
 {{/details}}
 
-## Basic Profile and Character Setting
-
-COKO is a musical-isotope voicebank and character based on KOKO's vocal data, not KOKO herself. Its design and sound preserve the source singer's strong projection, sustained notes, and emotional drive while making those qualities available for new creator works.
-
-| Item | Detail |
-| --- | --- |
-| Voice source | KOKO |
-| Platform | CeVIO AI and VOICEPEAK TALK EXTENSION |
-| Character design | SWAV |
-| First release | January 25, 2023 |
-| Demonstration work | “the last bullet” |
-
 ## Representative Songs and Creator Ecosystem
 
 “the last bullet” is the clearest bridge between KOKO's live impact and COKO's synthetic voice. TALK EXTENSION expands COKO beyond singing into speech, while V.I.P places the character alongside other Kamitsubaki musical isotopes. Community-created rap, electronic pop, and high-energy songs form the broader catalogue.
@@ -121,19 +120,6 @@ COKO is a musical-isotope voicebank and character based on KOKO's vocal data, no
 ## Name and Identity Boundaries
 
 COKO, KOKO, and songs made with COKO must be recorded as separate layers: synthetic character, source virtual singer, and creator work. A COKO release is not automatically a KOKO performance, even where official projects reference one another.
-
-## Related Projects / Setting
-
-COKO is a key software product of the "Musical Isotope Project". The project digitizes and extends KOKO's voice, enabling it to act not only as a personal singer's voice but also as an open-source vocal asset for creators to program and restructure, stimulating diverse cross-dimensional creations.
-
-## External Links
-
-- [Musical Isotope official website](https://musical-isotope.kamitsubaki.jp/)
-- [Musical Isotope official X (Twitter)](https://twitter.com/musicalisotope)
-- [Musical Isotope official YouTube channel](https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA)
-
-
-<!-- V3 RESEARCH SUPPLEMENT coko -->
 
 ## Official Compilations and Naming System
 
@@ -169,6 +155,10 @@ For the Musical Isotope project KAMITSUBAKI abandoned the closed restrictions of
 
 > **Industry significance**: where the traditional record system restricts derivative works, KAMITSUBAKI treats a voice library as a gateway into an ecosystem rather than a closed asset — the fundamental reason the Isotope family accumulated such a vast body of UGC within a few years.
 
+## Related Projects / Setting
+
+COKO is a key software product of the "Musical Isotope Project". The project digitizes and extends KOKO's voice, enabling it to act not only as a personal singer's voice but also as an open-source vocal asset for creators to program and restructure, stimulating diverse cross-dimensional creations.
+
 ## Relationship to the Source Witch
 
 | Item | Detail |
@@ -179,3 +169,11 @@ For the Musical Isotope project KAMITSUBAKI abandoned the closed restrictions of
 | **Position in the lore** | The digital-side counterpart of KAMITSUBAKI's "song singularity", sharing one source of "singing voice" with KOKO |
 
 > **Naming rule**: each Isotope's official name is drawn directly from its source witch (KAFU←KAF, RIME←RIM, SEKAI←ISEKAIJOUCHO, COKO←KOKO, HARU←HARUSARUHI). The convention itself declares the core idea: different forms of one existence.
+
+## External Links
+
+- [Musical Isotope official website](https://musical-isotope.kamitsubaki.jp/)
+- [Musical Isotope official X (Twitter)](https://twitter.com/musicalisotope)
+- [Musical Isotope official YouTube channel](https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA)
+
+<!-- V3 RESEARCH SUPPLEMENT coko -->

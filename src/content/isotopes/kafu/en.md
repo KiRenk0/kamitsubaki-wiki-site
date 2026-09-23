@@ -55,7 +55,6 @@ lifecycle:
 voiceEngines: []
 summary: "The inaugural Musical Isotope CeVIO AI vocal software based on KAF's voicebank."
 ---
-
 ## Overview
 
 **KAFU** (可不, {{ruby::Kafu::かふ::kafu}}) is the flagship vocal synthesis library of [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio)'s "Musical Isotope" project, powered by CeVIO AI and Synthesizer V, with voice provider **[KAF](/en/artists/vwp/kaf)**.
@@ -101,9 +100,6 @@ PALOW.'s character design uses white and yellow, circular pupils, a hooded outer
 
 These official commissions are an entry point rather than a closed discography: KAFU's significance lies in the expanding body of songs made by independent creators. *Phony*, *Marshall Maximizer*, and *Cute na Kanojo* are widely cited examples of this ecosystem.
 
-## Project connections
-
-KAFU opened the [Musical Isotope](/en/artists/solo/musical-isotope) project. The subsequent [SEKAI](/en/artists/isotopes/sekai), [RIME](/en/artists/isotopes/rime), [COKO](/en/artists/isotopes/coko), and [HARU](/en/artists/isotopes/haru) voice characters extend the same creator-facing framework.
 ## Representative Works and Related Entries
 
 {{details::Expand full albums and EPs}}
@@ -143,7 +139,7 @@ KAFU opened the [Musical Isotope](/en/artists/solo/musical-isotope) project. The
 | 2024-04-04 | [Voyager](</en/songs/kafu/originals/voyager>) |
 | 2024-05-31 | [混沌ブギ (Cover)](</en/songs/kafu/originals/混沌bugi-cover>) |
 | 2024-09-05 | [最期の逢瀬](</en/songs/kafu/originals/最期no逢瀬>) |
-| 2024-10-15 | [コぇちっちゃ<てゴ×ンネ](</en/songs/kafu/originals/koechitcha-tegonne>) |
+| 2024-10-15 | [コぇちっちゃ<てゴ×ンネ](</en/database/music/songs/single-kafu-koechitcha-tego-nne>) |
 | 2024-10-22 | [『抱きしめて。』](</en/songs/kafu/originals/抱kishimete>) |
 | 2024-12-20 | [アット・ザ・電脳シティ(STEAKA Remix)](</en/songs/kafu/originals/atto-za-電脳shitei-steaka-remix>) |
 | 2025-02-01 | [人間に産まれたから](</en/songs/kafu/originals/人間ni産maretakara>) |
@@ -173,13 +169,6 @@ KAFU opened the [Musical Isotope](/en/artists/solo/musical-isotope) project. The
 | July 17, 2021 | *Cat Loving* | [Moimi Kashii](/en/artists/creators/kashiimoimi) |
 
 {{/details}}
-
-## External Links
-
-- [Musical Isotope KAFU official site](https://kafu.kamitsubaki.jp/)
-
-
-<!-- V3 RESEARCH SUPPLEMENT kafu -->
 
 ## Official Compilations and Naming System
 
@@ -215,17 +204,6 @@ For the Musical Isotope project KAMITSUBAKI abandoned the closed restrictions of
 
 > **Industry significance**: where the traditional record system restricts derivative works, KAMITSUBAKI treats a voice library as a gateway into an ecosystem rather than a closed asset — the fundamental reason the Isotope family accumulated such a vast body of UGC within a few years.
 
-## Relationship to the Source Witch
-
-| Item | Detail |
-| :--- | :--- |
-| **Voice template** | [KAF](/en/artists/vwp/kaf) |
-| **System** | One node of the five-witch isotope matrix of [V.W.P](/en/artists/vwp/vwp) |
-| **First release** | CeVIO AI (a Synthesizer V AI edition followed) |
-| **Position in the lore** | The digital-side counterpart of KAMITSUBAKI's "song singularity", sharing one source of "singing voice" with KAF |
-
-> **Naming rule**: each Isotope's official name is drawn directly from its source witch (KAFU←KAF, RIME←RIM, SEKAI←ISEKAIJOUCHO, COKO←KOKO, HARU←HARUSARUHI). The convention itself declares the core idea: different forms of one existence.
-
 ## Landmark UGC Hit Archive
 
 Once released, the KAFU library triggered a phenomenon-level explosion across the Vocaloid and doujin scenes. The following tracks are landmarks of that wave.
@@ -237,3 +215,24 @@ Once released, the KAFU library triggered a phenomenon-level explosion across th
 | **"{{ruby::マーシャル・マキシマイザー::まーしゃるまきしまいざー::marshall maximizer}}"** | Hiiragi Magnetite | Showcases the extremes of KAFU's mechanical texture and agility through ultra-dense beats and rapid-fire diction |
 
 > **Historical position**: these works appeared at the turn of the Heisei and Reiwa eras and are widely regarded as the turning point at which AI singing entered the centre of mainstream pop culture. KAFU is consequently the best known and most cross-community Isotope in the KAMITSUBAKI family.
+
+## Project connections
+
+KAFU opened the [Musical Isotope](/en/artists/solo/musical-isotope) project. The subsequent [SEKAI](/en/artists/isotopes/sekai), [RIME](/en/artists/isotopes/rime), [COKO](/en/artists/isotopes/coko), and [HARU](/en/artists/isotopes/haru) voice characters extend the same creator-facing framework.
+
+## Relationship to the Source Witch
+
+| Item | Detail |
+| :--- | :--- |
+| **Voice template** | [KAF](/en/artists/vwp/kaf) |
+| **System** | One node of the five-witch isotope matrix of [V.W.P](/en/artists/vwp/vwp) |
+| **First release** | CeVIO AI (a Synthesizer V AI edition followed) |
+| **Position in the lore** | The digital-side counterpart of KAMITSUBAKI's "song singularity", sharing one source of "singing voice" with KAF |
+
+> **Naming rule**: each Isotope's official name is drawn directly from its source witch (KAFU←KAF, RIME←RIM, SEKAI←ISEKAIJOUCHO, COKO←KOKO, HARU←HARUSARUHI). The convention itself declares the core idea: different forms of one existence.
+
+## External Links
+
+- [Musical Isotope KAFU official site](https://kafu.kamitsubaki.jp/)
+
+<!-- V3 RESEARCH SUPPLEMENT kafu -->

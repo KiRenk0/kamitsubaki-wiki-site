@@ -47,8 +47,6 @@ lifecycle:
   activity: "active"
 summary: "A next-generation music unit blending sweet emotional melodies with EDM to express delicate, wistful feelings."
 ---
-
-
 ## Overview
 
 Awairo is a next-generation music unit under [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio), composed of producer [Yunosuke](/en/artists/creators/yunosuke) and vocalist WaMi. Their music merges sweet, emotionally charged melodies with EDM elements to express a delicate and wistful emotional world.
@@ -60,6 +58,17 @@ The unit released their first album "Gradient" in January 2025 and held a releas
 At the core of Awairo's music is the fusion of sensitivity and electronics. Yunosuke excels at building electronic soundscapes that trace the contours of emotional movement, while WaMi brings a soft yet penetrating vocal quality that adds human warmth to each track. The chemistry between the two allows Awairo's music to retain the groove of EDM while preserving the emotional resonance of pop songwriting.
 
 The unit name "Awairo" (meaning "pale color") itself embodies their aesthetic direction -- not intense, not flashy, yet carrying deep layers of feeling beneath a gentle surface.
+
+## Membership and Project Position
+
+**[Awairo](/en/database/artists/groups/awairo)** is a musical unit whose debut was announced by [SINSEKAI RECORD](/en/database/studios/sinsekai-record) in October 2023, with members **Yunosuke** and **WaMi**.
+
+| Member | Role |
+| :--- | :--- |
+| [Yunosuke](/en/database/creators/yunosuke) | Composition / arrangement / sound production |
+| WaMi | Singing / vocals |
+
+> **Project position**: Awairo is an important musical group launched by SINSEKAI during its expansion period, positioned as a unit format that is “centred on electronic dance music production, with a creator and a singer teaming up directly” — in contrast to most KAMITSUBAKI projects, where “the character comes first and the music follows,” Awairo is closer to a direct collaborative body of producer and singer.
 
 ## Activity History
 
@@ -100,33 +109,6 @@ The unit name "Awairo" (meaning "pale color") itself embodies their aesthetic di
 
 {{/details}}
 
-## Related Projects / Setting
-
-Awairo connects with other Kamitsubaki artists through major events such as KAMITSUBAKI WARS and KAMITSUBAKI FES. Their 2MAN LIVE with Azusagawa is a notable example of collaborative exchange within the Kamitsubaki artist roster.
-
-## References
-
-- KAMITSUBAKI STUDIO official information
-
-## External Links
-
-- [X (Twitter)](https://twitter.com/Awairo_info)
-- [YouTube](https://www.youtube.com/@yunosuke23)
-
-
-<!-- V3 RESEARCH SUPPLEMENT awairo -->
-
-## Membership and Project Position
-
-**[Awairo](/en/database/artists/groups/awairo)** is a musical unit whose debut was announced by [SINSEKAI RECORD](/en/database/studios/sinsekai-record) in October 2023, with members **Yunosuke** and **WaMi**.
-
-| Member | Role |
-| :--- | :--- |
-| [Yunosuke](/en/database/creators/yunosuke) | Composition / arrangement / sound production |
-| WaMi | Singing / vocals |
-
-> **Project position**: Awairo is an important musical group launched by SINSEKAI during its expansion period, positioned as a unit format that is “centred on electronic dance music production, with a creator and a singer teaming up directly” — in contrast to most KAMITSUBAKI projects, where “the character comes first and the music follows,” Awairo is closer to a direct collaborative body of producer and singer.
-
 ## Representative Songs and Collaboration Network
 
 | Song | Collaboration | Notes |
@@ -142,3 +124,18 @@ Awairo connects with other Kamitsubaki artists through major events such as KAMI
 | Album 《グラデーション》 | — | The unit’s formal release |
 
 > **Collaboration network**: Awairo connects broadly with the KAMITSUBAKI system through member Yunosuke’s identity as a composer — supplying songs to units such as [VALIS](/en/database/artists/groups/valis) while also producing cross-project collaborations with [Azsagawa](/en/database/artists/solo/azsagawa) and the [musical isotopes](/en/database/isotopes/kafu), making it a representative sample of SINSEKAI’s “creator-led unit.”
+
+## Related Projects / Setting
+
+Awairo connects with other Kamitsubaki artists through major events such as KAMITSUBAKI WARS and KAMITSUBAKI FES. Their 2MAN LIVE with Azusagawa is a notable example of collaborative exchange within the Kamitsubaki artist roster.
+
+## References
+
+- KAMITSUBAKI STUDIO official information
+
+## External Links
+
+- [X (Twitter)](https://twitter.com/Awairo_info)
+- [YouTube](https://www.youtube.com/@yunosuke23)
+
+<!-- V3 RESEARCH SUPPLEMENT awairo -->

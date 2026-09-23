@@ -53,7 +53,6 @@ lifecycle:
   startedAt: "2020-05-29"
 summary: "A 3DCG virtual singer born in Tokyo and raised in Los Angeles, known for bilingual pop and a landmark split into voice-synthesis software and a human artist identity."
 ---
-
 ## Overview
 
 teresaAI is a 3DCG virtual singer who first appeared under the name te'resa, born in Tokyo and raised in Los Angeles. She gained attention through a bilingual approach to pop music and notable mainstream crossover moments, including appearances in Intel television commercials broadcast in China and a selection for NYLON'S NEXT 2021.
@@ -65,6 +64,19 @@ In March 2023 the project underwent a defining transformation, splitting into tw
 teresaAI's work bridges Japanese and English-language pop, shaped by a trans-Pacific upbringing. Her catalog ranges from bright, accessible singles like "I Wanna Be Your Girl!" to more mature, atmospheric releases such as the EP *predawn*. Collaborations with other SINSEKAI ecosystem artists, including a notable "IMAGINARY WORLD" live performance with Rim in June 2022, reinforced her position within the label's network.
 
 The 2023 split positioned teresaAI not just as a historical artist project but as a product: a voice-synthesis engine carrying the original virtual singer's timbre into creator-driven production.
+
+## Project Position and Technical Approach
+
+**te'resa (teresaAI)** is a **3DCG singer** under [PHENOMENON RECORD](/en/database/studios/phenomenon-record), active since May 2020.
+
+| Dimension | Content |
+| :--- | :--- |
+| **Form of existence** | A 3DCG virtual singer, emphasising “the intermediate state between AI and the real” |
+| **Affiliation** | [PHENOMENON RECORD](/en/database/studios/phenomenon-record) |
+| **Start of activity** | 15 May 2020 |
+| **Technical approach** | Distinguished by the combination of real-time 3DCG rendering and virtual-avatar performance |
+
+> **The meaning of the name**: te'resa’s name points at both “teresa” and “AI”; her positioning is not that of a traditional virtual idol but of an experimental being exploring the proposition “how does an artificial consciousness sing?”
 
 ## Activity History
 
@@ -84,6 +96,13 @@ The 2023 split positioned teresaAI not just as a historical artist project but a
 
 teresaAI operates within the [SINSEKAI RECORD](/en/projects/archive/sinsekai-studio) ecosystem, a label that houses multiple virtual and semi-virtual artists. The project's evolution from te'resa into a software-and-artist pair mirrors a wider trend in the virtual singer space, where voice identity increasingly exists independently of any single performer or avatar.
 
+## Links to Other Projects
+
+- **Early collaboration with RIM**: te'resa’s work 《Youthful Strange》 was performed by [RIM](/en/database/artists/solo/rim) at her cover concert “CHOCOLATE LIVE,” showing her visibility within KAMITSUBAKI’s creative circle.
+- **With the PHENOMENON RECORD system**: together with [CIEL](/en/database/artists/solo/ciel), she belongs to the “experimental / technical demonstration” side of KAMITSUBAKI’s virtual-singer matrix, complementing the grand narrative route of the five witches.
+
+> **Observation**: te'resa represents KAMITSUBAKI’s continuing probing of the boundaries of the “virtual singer” medium — not pursuing the most mass-appealing cute image, but treating 3DCG and the AI name itself as an artistic concept.
+
 ## References
 
 - teresaAI YouTube channel: <https://www.youtube.com/channel/UCqG0skCM-dky7KGazl9bLqA/>
@@ -95,25 +114,4 @@ teresaAI operates within the [SINSEKAI RECORD](/en/projects/archive/sinsekai-stu
 - [Twitter](https://twitter.com/virtual_teresa)
 - [Instagram](https://www.instagram.com/virtual_teresa/)
 
-
 <!-- V3 RESEARCH SUPPLEMENT teresa -->
-
-## Project Position and Technical Approach
-
-**te'resa (teresaAI)** is a **3DCG singer** under [PHENOMENON RECORD](/en/database/studios/phenomenon-record), active since May 2020.
-
-| Dimension | Content |
-| :--- | :--- |
-| **Form of existence** | A 3DCG virtual singer, emphasising “the intermediate state between AI and the real” |
-| **Affiliation** | [PHENOMENON RECORD](/en/database/studios/phenomenon-record) |
-| **Start of activity** | 15 May 2020 |
-| **Technical approach** | Distinguished by the combination of real-time 3DCG rendering and virtual-avatar performance |
-
-> **The meaning of the name**: te'resa’s name points at both “teresa” and “AI”; her positioning is not that of a traditional virtual idol but of an experimental being exploring the proposition “how does an artificial consciousness sing?”
-
-## Links to Other Projects
-
-- **Early collaboration with RIM**: te'resa’s work 《Youthful Strange》 was performed by [RIM](/en/database/artists/solo/rim) at her cover concert “CHOCOLATE LIVE,” showing her visibility within KAMITSUBAKI’s creative circle.
-- **With the PHENOMENON RECORD system**: together with [CIEL](/en/database/artists/solo/ciel), she belongs to the “experimental / technical demonstration” side of KAMITSUBAKI’s virtual-singer matrix, complementing the grand narrative route of the five witches.
-
-> **Observation**: te'resa represents KAMITSUBAKI’s continuing probing of the boundaries of the “virtual singer” medium — not pursuing the most mass-appealing cute image, but treating 3DCG and the AI name itself as an artistic concept.

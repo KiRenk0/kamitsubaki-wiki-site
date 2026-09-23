@@ -17,7 +17,6 @@ roles:
 lifecycle:
   activity: "active"
 ---
-
 HiFi-P は、YouTube や TikTok で活動するサウンドクリエイター。Hi-Fi トラックと印象的なメロディーで知られ、オンライン音楽コミュニティで広い支持を集めている。
 
 「[Musical Isotope](/ja/artists/solo/musical-isotope)」ブランドのもとで楽曲制作・リリースを行い、多数のアーティストへ楽曲提供を行っている。代表作には、[KAF](/ja/artists/vwp/kaf) x [KAFU](/ja/artists/isotopes/kafu) への提供曲「流水線メーデー」（Ryuusenkei Mayday）や、[ASU](/ja/artists/solo/asu) への提供曲「Imperfect」が挙げられる。これらの作品は、幅広いスタイルを自在に操る彼の創作力を示している。
@@ -25,27 +24,6 @@ HiFi-P は、YouTube や TikTok で活動するサウンドクリエイター。
 HiFi-P は [KYOKAI STUDIO](/ja/projects/labels/kyokai-studio) に所属し（2026年9月に [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) から移籍）、旧・神椿 CREATOR FARM の一員として同スタジオの音楽クリエイターチームを支えている。
 
 イラストは Ritsao（りたお）が担当。
-
-## 外部リンク
-
-- [Twitter](https://twitter.com/HiFiP3)
-- [YouTube](https://www.youtube.com/channel/UCi9gXaRxOf2-EsVW5Zc3paQ)
-
-## 代表作品と関連項目
-
-{{details::アルバムとEPの一覧を開く}}
-
-**アルバム / EP**
-
-| リリース日 | 種別 | タイトル |
-| --- | --- | --- |
-| 2023-05-11 | Album | [Pixels](</ja/albums/hifi-p/pixels-1685405328>) |
-
-{{/details}}
-
-
-
-<!-- V3 RESEARCH SUPPLEMENT hifi-p -->
 
 ## 創作上の位置づけと所属体系
 
@@ -66,3 +44,22 @@ HiFi-P は [KYOKAI STUDIO](/ja/projects/labels/kyokai-studio) に所属し（202
 - **CREATOR FARM の連携**：[tokiwa](/ja/database/creators/tokiwa)、[他人事](/ja/database/creators/hitogoto) など同一体系のクリエイターとともに、深脊界の制作能力を支えている。
 
 > **所見**：Hi-Fi P の公開作品は多くないが、少女革命計画という「六人同時デビュー、毎週楽曲提供」の高密度な企画において、CREATOR FARM の編曲者は不可欠なインフラである——その仕事の進め方は「個人 P 主」よりも「プロの制作チーム」に近い。
+
+## 代表作品と関連項目
+
+{{details::アルバムとEPの一覧を開く}}
+
+**アルバム / EP**
+
+| リリース日 | 種別 | タイトル |
+| --- | --- | --- |
+| 2023-05-11 | Album | [Pixels](</ja/albums/hifi-p/pixels-1685405328>) |
+
+{{/details}}
+
+## 外部リンク
+
+- [Twitter](https://twitter.com/HiFiP3)
+- [YouTube](https://www.youtube.com/channel/UCi9gXaRxOf2-EsVW5Zc3paQ)
+
+<!-- V3 RESEARCH SUPPLEMENT hifi-p -->

@@ -34,7 +34,6 @@ lifecycle:
   startedAt: "2024-08-08"
 summary: "A virtual singer who loves art and expression, placing song at their center."
 ---
-
 ## Introduction
 
 Mikoto is a virtual singer under [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio)'s [Girls Revolution Project](/en/projects/labels/girls-revolution-project). She belongs to the trio unit [TSUMITOBATSU](/en/artists/girls_revolution_project/tsumitobatsu), and her character design is by [PALOW.](/en/artists/creators/palow).
@@ -67,16 +66,6 @@ In her official channel description, she states that she loves art and expressio
 
 {{/details}}
 
-## External Links
-
-- [KAMITSUBAKI STUDIO Official Site (TSUMITOBATSU)](https://kamitsubaki.jp/artist/tsumitobatsu/)
-- [GIRLS REVOLUTION PROJECT Official Site](https://girlsrevolutionproject.jp/)
-- [YouTube Channel](https://www.youtube.com/@mikoto_grp)
-- [X Official Page](https://x.com/mikoto_gr)
-
-
-<!-- V3 RESEARCH SUPPLEMENT mikoto -->
-
 ## Solo Song Archive
 
 The solo tracks recorded for this member are listed below in release order.
@@ -89,3 +78,12 @@ The solo tracks recorded for this member are listed below in release order.
 | 2026-02-18 | 侵蝕の記録 | — |
 
 > **Source**: the tracks below are compiled automatically from this site’s entity registry (Metadata Schema v2); dates and performers follow each entry’s metadata. Unit and duet songs are listed on the group entry and the [Girls Revolution Project](/en/database/projects/girls-revolution-project) overview.
+
+## External Links
+
+- [KAMITSUBAKI STUDIO Official Site (TSUMITOBATSU)](https://kamitsubaki.jp/artist/tsumitobatsu/)
+- [GIRLS REVOLUTION PROJECT Official Site](https://girlsrevolutionproject.jp/)
+- [YouTube Channel](https://www.youtube.com/@mikoto_grp)
+- [X Official Page](https://x.com/mikoto_gr)
+
+<!-- V3 RESEARCH SUPPLEMENT mikoto -->

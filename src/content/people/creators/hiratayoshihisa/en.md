@@ -45,8 +45,6 @@ lifecycle:
   startedAt: "2021-10-18"
 summary: "A music artist and videographer who fuses jazz, hip-hop, and rock into a distinctive 'Tokyo Sound,' known for cinematic narrative depth."
 ---
-
-
 ## Overview
 
 Hirata Yoshihisa (平田義久) is a music artist and videographer affiliated with ANARCHIC RECORD since October 18, 2021. His work fuses jazz, hip-hop, and rock into what he describes as "Tokyo Sound" -- a cinematic, genre-fluid approach to music that captures the texture and energy of urban Japan. A self-described cinephile, Hirata brings narrative depth and visual storytelling sensibilities to both his music and video work.
@@ -93,14 +91,6 @@ His use of the Gekiyaku UTAU voicebank adds a virtual singer dimension to his wo
 
 {{/details}}
 
-## External Links
-
-- [YouTube](https://www.youtube.com/channel/UCv9b9KtcBkM1_VEZZpK8bVQ)
-- [Twitter](https://twitter.com/yoshihisahirata)
-
-
-<!-- V3 RESEARCH SUPPLEMENT hiratayoshihisa -->
-
 ## External Songwriting and Arrangement Record
 
 Hirata Yoshihisa's record of songs supplied externally within the KAMITSUBAKI system is as follows (he handled most of the lyrics, composition and arrangement himself):
@@ -113,3 +103,10 @@ Hirata Yoshihisa's record of songs supplied externally within the KAMITSUBAKI sy
 | 2026-04-08 | 《桜心中》 | [Orihime](/en/database/artists/groups/sinseiki/members/orihime) | Lyrics / Composition / Arrangement |
 
 > **Observation on the lineage of his supplied songs**: Hirata Yoshihisa's external songs span 2022 to 2026, and all of them cluster along the SINSEKAI / Girls Revolution Project lineage of “[Albemuth](/en/database/artists/groups/albemuth) → [TSUMITOBATSU](/en/database/artists/groups/tsumitobatsu) → [Orihime](/en/database/artists/groups/sinseiki/members/orihime)”. Among them, 《桜心中》 from 2026 is built on a Japanese-style lyrical mode and forms a sharp contrast with the heavy orientation of 《Brrrrrreak It》, showing that his writing can move freely between the “quiet” and the “fierce” extremes.
+
+## External Links
+
+- [YouTube](https://www.youtube.com/channel/UCv9b9KtcBkM1_VEZZpK8bVQ)
+- [Twitter](https://twitter.com/yoshihisahirata)
+
+<!-- V3 RESEARCH SUPPLEMENT hiratayoshihisa -->

@@ -58,7 +58,6 @@ lifecycle:
   startedAt: "2018-10-18"
 summary: "A defining virtual singer built around the motif of observation, known for pushing between online presence and large-scale live performance."
 ---
-
 ## Overview
 
 KAF is one of the defining virtual singers of [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) and a central member of [V.W.P](/en/artists/vwp/vwp). Since her 2018 debut at the age of 14, she has built a massive following as a 3D avatar artist who does not reveal her real face. She has become closely associated with the studio's identity through a distinctive voice, a strong "observation" motif, and ambitious stage-driven presentations.
@@ -70,6 +69,56 @@ She is important not only as a solo artist but also as a bridge across multiple 
 KAF's work often combines intimate emotion, adolescent perspective, and a carefully mediated virtual presence. Her early artistic arc is strongly linked with main composer Iori Kanzaki, whose collaborations with her helped define the tone of her first major releases and live narratives.
 
 Over time, KAF expanded beyond that initial phase into a wider project-based role: a solo singer, a unit member, a voice source for synthetic singing software, and a recurring figure in Kamitsubaki's cross-media worldbuilding. In 2021, she started a collaborative project titled "Suite" with real-world artists and composers. In 2024, she officially announced her new singer-songwriter project under the name "[Kaika](/en/artists/solo/kaika)".
+
+## Basic Profile and Character Setting
+
+KAF's public identity is built around anonymity, observation, and the distance between a virtual body and a real stage. “Observer” is both the name used for her listeners and a description of the relationship established by her works. Early fan expressions belong to fan culture, not to an official civil name.
+
+| Item | Detail |
+| --- | --- |
+| Character design | [PALOW.](/en/artists/creators/palow) |
+| Core imagery | Observation, the witch, flowers, and the Laplace motif |
+| Main affiliations | KAMITSUBAKI STUDIO, V.W.P, KAFU |
+| Early creative partner | Iori Kanzaki |
+| Voice extension | KAFU, a musical-isotope voicebank based on KAF's voice |
+
+## Forms, Setting, and Anecdotes
+
+KAF's visual forms change with the work and stage. Early “chick” and “swallow” imagery, special singing forms, and later live-specific designs embody different chapters rather than ordinary costume changes. Public information about her real-world identity is intentionally limited; this article prioritizes official songs, videos, live performances, published design material, and reliable interviews.
+
+## Complete Visual Form Archive
+
+KAF's appearance is not fixed: it has continued to "fledge" alongside each live show, single, and lore development. Every form is designed under the direction of character designer [PALOW.](/en/artists/creators/palow) and debuted at a performance or music video.
+
+| Debut | Form | First appearance and design notes |
+| :--- | :--- | :--- |
+| 2018-10-18 | **First Form · {{ruby::雛鳥::ひなどり::hinadori}}** | The debut look: a grey-white hoodie with a navy hood and navy diamond motifs, the hood shaped after her companion "Laplace" (a fish). A pure white dress, twin braids, amaranth over-knee socks and purple-soled white boots. |
+| 2019-04-12 | **High-school uniform** | Standard black blazer uniform with pleated skirt, black socks and school shoes. |
+| 2019-06-04 | **Short-sleeve look** | The hoodie with rolled sleeves and shorter socks. |
+| 2019-08-01 | **Special Singing Form · {{ruby::星鴉::ほしがらす::hoshigarasu}}** | Revealed at 1st ONE-MAN LIVE "Fukakai". Keeps the hood and palette while boldly incorporating Laplace's motifs. |
+| 2019-08-02 | **White shirt look** | A white school shirt with red ribbon and black checked skirt, seen in the "Inochi ni Kirawareteiru." music video. |
+| 2019-08-30 | **First Form · Hinadori Black** | Revealed in the collaboration MV for the mobile game *47 HEROINES*. |
+| 2019-09-29 | **Special Singing Form · {{ruby::瑠璃鶲::るりびたき::ruribitaki}}** | Revealed at "FAVRIC", the world's first VTuber fashion-runway and music live event. |
+| 2020-03-14 | **Second Form · {{ruby::青雀::あおすずめ::aosuzume}}** | A new design by PALOW. {{spoiler::From this point on KAF appeared mostly in this form.}} |
+| 2020-03-23 | **Special Singing Form · {{ruby::隼::はやぶさ::hayabusa}}** | Tied to the NTT docomo campaign "HAYABUSA EXPERIENCE by 3.5D × docomo" and its theme "Tomadoi Telepathy". |
+| 2020-10-10 | **Special Singing Form · {{ruby::金糸雀::かなりあ::kanaria}}** | Revealed at "Fukakai Two Q1". Close to the Hayabusa design, with colours shifting between yellow-green and navy. |
+| 2021-03-13 | **Witch Special Singing Form · {{ruby::花魁鳥::おいらどり::oiradori}}** | The shared witch-assembly attire unveiled with the other four members of V.W.P at "Fukakai Two Q2". |
+| 2021-06-12 | **Special Singing Form · Kinkeii / Second Form · Aosuzume Black** | Revealed at "Fukakai Two Q3". |
+| 2021-10-18 | **Third Form · {{ruby::燕::つばめ::tsubame}}** | Announced in "KAF #88 Fukaka Ni". |
+| 2022-08-24 | **Special Singing Form · {{ruby::軍鶏::しゃも::shamo}} / Tsubame (Broken)** | Revealed at "Fukakai San (Kyou)", carrying a strong sense of tension and opposition. |
+| 2022-10-14 | **Casual outfit** | Unveiled as the key visual for KAF Exhibition 3, "This Time, You Don't Have to Put It Into Words." |
+| 2022-10-26 | **{{ruby::銀河を統べし花譜::ぎんがをすべしかふ::ginga wo suberu kafu}}** | An outfit designed by KAF herself, shown on the TV programme *Virtual Singer KAF no Maware! MAD TV*. |
+| 2023-03-04 | **Fourth Form · {{ruby::雉::きじ::kiji}} / Tsubame (Sou) / Shamo (Sou)** | Revealed at "Fukakai San (Sou)". {{spoiler::The programme booklet recorded "Shamo (Kai)", but the official site and press use "Shamo (Sou)"; this entry follows the latter.}} |
+
+> **Naming pattern**: nearly every form is named after a bird (hinadori, hoshigarasu, ruribitaki, aosuzume, hayabusa, kanaria, oiradori, kinkeii, tsubame, shamo, kiji), echoing the theme of a fledgling growing its wings.
+
+## Companion and Familiar: Laplace
+
+**Laplace** is a fish-shaped presence who has accompanied KAF since the very beginning of the project, functioning less as a mascot than as a **companion or familiar**.
+
+- **Design origin**: Laplace did not begin with a complete setting; it took shape as the project progressed and was eventually adopted as the very structure of KAF's first-form hood.
+- **Fan perception**: loved by observers far faster than the team anticipated, Laplace has become something of a symbol of KAF and appears in numerous original music videos. {{spoiler::Being so large, it has drawn plenty of exclamations along the lines of "Laplace is huge!"}}
+- **Place in the lore**: among the clues in the Otogibanashi audio dramas, Laplace is speculated to be connected to how the three characters were able to travel to the present.
 
 ## Activity History
 
@@ -119,6 +168,48 @@ Over time, KAF expanded beyond that initial phase into a wider project-based rol
 - **2026**
   - **May 27**: Released her 5th Album *Transcendent-love*.
   - **May 30**: Successfully held the solo live *Shukusei in Hong Kong* at the AsiaWorld-Expo.
+
+## Commercial Tie-ups and Collaborations
+
+| Date | Partner | Content |
+| :--- | :--- | :--- |
+| 2019-06-28 | Film *Hot Gimmick: Girl Meets Boy* | Theme song "[Yoru ga Furiyamu Mae ni](/en/songs/kaf/originals/yoru-ga-furiyamu-mae-ni)" |
+| 2019-09-11 | Rhythm game *Cytus II* | Collaboration |
+| 2020-04 | TV anime *Black Clover* cour 11 | Ending theme "[Answer](/en/songs/kaf/originals/アンサー-answer)" |
+| 2020-04 | ZONe "Choubotsunyuu" campaign | "[Abnormal](/en/songs/kaf/originals/危ノーマル-abnormal)" |
+| 2020-07 | Netflix anime *Japan Sinks: 2020* | Grand finale theme "Keshiki" |
+| 2020-07 | NTT docomo 5G concept exhibition | "Tomadoi Telepathy" |
+| 2019-08-30 | Mobile game *47 HEROINES* | Collaboration MV and the new form Hinadori Black |
+| 2019-09-29 | Fashion runway & music live "FAVRIC" | Debut of the form Ruribitaki |
+| 2021-05-19 | Anime film *Pompo: The Cinéphile* | Insert song "[Tatoeba](/en/songs/kaf/originals/例えば-for-example)" |
+| 2021-10-18 | "Kumikyoku" (Suite) project | Collaborations with Ohtake Shigeyuki, MAISONdes / Tsumiki, Kishida Shigeru and others |
+| 2022-10 | TV anime *Urusei Yatsura* | "Tokyo Shandy Rendezvous feat. KAF, Tsumiki" |
+| 2025-04 | TV anime *Chuzenji-sensei Mononoke Kougiroku* | Opening theme |
+
+> **On the "Suite" project**: launched in October 2021 for KAF's third anniversary, it pairs her with real-world musicians. The first series of 15 songs concluded in January 2024 with "[Ai no Mama](/en/songs/kaf/suites/愛のまま-still-in-love)" featuring Kishida Shigeru, and "Suite 2" began in February 2024.
+
+## Voice Acting Roles
+
+| Year | Work | Role | Type |
+| :--- | :--- | :--- | :--- |
+| 2022 | *Muv-Luv Alternative* Season 2 | XM3 | TV anime |
+| 2025 | *[KAMITSUBAKI CITY UNDER CONSTRUCTION](/en/projects/arg/kamitsubaki-city)* | **Morisaki Kaho** | TV anime |
+| 2025 | *[KAMITSUBAKI CITY REGENERATE](/en/database/projects/kamitsubaki-city-regenerate)* | **Morisaki Kaho** | Game |
+
+> **Morisaki Kaho** is KAF's corresponding character within the *KAMITSUBAKI CITY* setting and the first singularity of the project.
+
+## Radio and Television Appearances
+
+- **Regular radio**: *Panpaka KAFi (R)* on InterFM, launched in April 2022 with chapters including "Joukyou-hen" and "Haneda (Night)-hen" — KAF's first regular terrestrial radio programme.
+- **NHK music programme**: on 15 November 2021 she appeared on *Numa ni Hamatte Kiite Mita*, performing "[Kako wo Kurau](/en/songs/kaf/originals/kako-wo-kurau)" and "[Umi ni Bakeru](/en/songs/kaf/originals/海に化ける-turn-into-the-sea)".
+- **Regular TV programme**: from October 2022, TOKYO MX aired *Virtual Singer KAF no Maware! MAD TV*, in which an outfit designed by KAF herself was shown and later named "Ginga wo Suberu KAF".
+
+## Observer Community and Milestones
+
+- **Fan names**: fans are titled **"Observers" (観測者)**, while those who backed the 2019 crowdfunding are additionally called **"{{spoiler::Accomplices}}."** The term later came to refer broadly to fans of KAMITSUBAKI's V.W.P.
+- **The crowdfunding miracle**: for the 1st ONE-MAN LIVE "Fukakai" in 2019, a Campfire campaign with a ¥5,000,000 goal ultimately raised **over ¥40,000,000 — roughly eight times the target**. {{spoiler::KAF herself was taken aback by the figure, posted several tweets in a row, and shared the team's statement on how the funds would be handled, promising to keep working hard.}}
+- **Channel scale**: as of February 2023 her YouTube channel had roughly **771,000** subscribers and her bilibili channel about **263,000** followers; on 21 June 2024 the YouTube channel passed **one million** subscribers.
+- **Community culture**: the two-tier identity of "observer / accomplice" and a witch-assembly style of collective viewership have become a hallmark of the fandom.
 
 ## Representative Works and Related Entries
 
@@ -228,18 +319,6 @@ Over time, KAF expanded beyond that initial phase into a wider project-based rol
 
 {{/details}}
 
-## Basic Profile and Character Setting
-
-KAF's public identity is built around anonymity, observation, and the distance between a virtual body and a real stage. “Observer” is both the name used for her listeners and a description of the relationship established by her works. Early fan expressions belong to fan culture, not to an official civil name.
-
-| Item | Detail |
-| --- | --- |
-| Character design | [PALOW.](/en/artists/creators/palow) |
-| Core imagery | Observation, the witch, flowers, and the Laplace motif |
-| Main affiliations | KAMITSUBAKI STUDIO, V.W.P, KAFU |
-| Early creative partner | Iori Kanzaki |
-| Voice extension | KAFU, a musical-isotope voicebank based on KAF's voice |
-
 ## Discography and Collaborations
 
 The early catalogue is best read through “Ito”, “Shinzo to Karakuri”, “Majo”, “Hinadori”, “Kako wo Kurau”, “Umi ni Bakeru”, and “Tomadoi Telepathy”. The albums *Kansoku*, *Maho*, *Kyoso*, *Guuwa*, and *Shinai* document the shift from uploads to a larger album and live-performance narrative. “Suite”, V.W.P songs, and collaborations with KAFU connect her solo work to Kamitsubaki's wider creator ecosystem.
@@ -250,71 +329,6 @@ The early catalogue is best read through “Ito”, “Shinzo to Karakuri”, �
 | Album period | *Kansoku*, *Maho*, *Kyoso* | Developed a continuous solo narrative |
 | Live period | *Fukakai*, *Fukakai 2*, *Fukakai 3*, *Kaika* | Made virtual performance central to the work |
 | Expansion | “Suite”, V.W.P, Kaika, KAFU | Connected singer, unit, songwriter, and synthesis culture |
-
-## Music, Live Performance, and Related Figures
-
-The *Fukakai* series should be treated as a sequence of artistic works rather than a list of concerts. The 2019 crowdfunding live established the shared language of KAF and her audience; later online and rebuilding performances made absence, reconstruction, and virtual staging part of the narrative. *Fukakai 3 (Mad)* reached Nippon Budokan in 2022, while *Fukakai 3 (So)* closed that chapter in 2023. *Kaika* marks a later singer-songwriter phase.
-
-Iori Kanzaki shaped the early musical period, while PALOW. and the visual production team shaped the character's visual continuity. KAF should be kept distinct from KAFU: KAFU is an independent synthetic voicebank and character based on KAF's voice.
-
-## Forms, Setting, and Anecdotes
-
-KAF's visual forms change with the work and stage. Early “chick” and “swallow” imagery, special singing forms, and later live-specific designs embody different chapters rather than ordinary costume changes. Public information about her real-world identity is intentionally limited; this article prioritizes official songs, videos, live performances, published design material, and reliable interviews.
-
-## Related Projects / Setting
-
-KAF sits at the intersection of several major Kamitsubaki lines. As a V.W.P member she participates in the group's core song cycles; as the source voice of KAFU she extends into fan and creator production culture; and as a recurring figure in Kamitsubaki City projects she also functions as part of the studio's broader narrative identity. In the upcoming 2025 TV anime *Kamitsubaki City Under Construction*, she will make her debut as a voice actor, playing a character based on herself.
-
-## References
-
-- KAMITSUBAKI STUDIO official artist page: <https://kamitsubaki.jp/artist/kaf/>
-- KAMITSUBAKI STUDIO official V.W.P page: <https://kamitsubaki.jp/artist/v-w-p/>
-- Wikipedia: Kaf (singer): <https://en.wikipedia.org/wiki/Kaf_%28singer%29>
-
-## External Links
-
-- [Official Website](https://kaf.kamitsubaki.jp/)
-- [YouTube(Main)](https://www.youtube.com/@virtual_kaf)
-- [X (Twitter)](https://twitter.com/virtual_kaf)
-- [Instagram](https://www.instagram.com/virtual_kaf/)
-- [TikTok](https://www.tiktok.com/@virtual_kaf?lang=ja-JP)
-
-
-<!-- V3 RESEARCH SUPPLEMENT kaf -->
-
-## Complete Visual Form Archive
-
-KAF's appearance is not fixed: it has continued to "fledge" alongside each live show, single, and lore development. Every form is designed under the direction of character designer [PALOW.](/en/artists/creators/palow) and debuted at a performance or music video.
-
-| Debut | Form | First appearance and design notes |
-| :--- | :--- | :--- |
-| 2018-10-18 | **First Form · {{ruby::雛鳥::ひなどり::hinadori}}** | The debut look: a grey-white hoodie with a navy hood and navy diamond motifs, the hood shaped after her companion "Laplace" (a fish). A pure white dress, twin braids, amaranth over-knee socks and purple-soled white boots. |
-| 2019-04-12 | **High-school uniform** | Standard black blazer uniform with pleated skirt, black socks and school shoes. |
-| 2019-06-04 | **Short-sleeve look** | The hoodie with rolled sleeves and shorter socks. |
-| 2019-08-01 | **Special Singing Form · {{ruby::星鴉::ほしがらす::hoshigarasu}}** | Revealed at 1st ONE-MAN LIVE "Fukakai". Keeps the hood and palette while boldly incorporating Laplace's motifs. |
-| 2019-08-02 | **White shirt look** | A white school shirt with red ribbon and black checked skirt, seen in the "Inochi ni Kirawareteiru." music video. |
-| 2019-08-30 | **First Form · Hinadori Black** | Revealed in the collaboration MV for the mobile game *47 HEROINES*. |
-| 2019-09-29 | **Special Singing Form · {{ruby::瑠璃鶲::るりびたき::ruribitaki}}** | Revealed at "FAVRIC", the world's first VTuber fashion-runway and music live event. |
-| 2020-03-14 | **Second Form · {{ruby::青雀::あおすずめ::aosuzume}}** | A new design by PALOW. {{spoiler::From this point on KAF appeared mostly in this form.}} |
-| 2020-03-23 | **Special Singing Form · {{ruby::隼::はやぶさ::hayabusa}}** | Tied to the NTT docomo campaign "HAYABUSA EXPERIENCE by 3.5D × docomo" and its theme "Tomadoi Telepathy". |
-| 2020-10-10 | **Special Singing Form · {{ruby::金糸雀::かなりあ::kanaria}}** | Revealed at "Fukakai Two Q1". Close to the Hayabusa design, with colours shifting between yellow-green and navy. |
-| 2021-03-13 | **Witch Special Singing Form · {{ruby::花魁鳥::おいらどり::oiradori}}** | The shared witch-assembly attire unveiled with the other four members of V.W.P at "Fukakai Two Q2". |
-| 2021-06-12 | **Special Singing Form · Kinkeii / Second Form · Aosuzume Black** | Revealed at "Fukakai Two Q3". |
-| 2021-10-18 | **Third Form · {{ruby::燕::つばめ::tsubame}}** | Announced in "KAF #88 Fukaka Ni". |
-| 2022-08-24 | **Special Singing Form · {{ruby::軍鶏::しゃも::shamo}} / Tsubame (Broken)** | Revealed at "Fukakai San (Kyou)", carrying a strong sense of tension and opposition. |
-| 2022-10-14 | **Casual outfit** | Unveiled as the key visual for KAF Exhibition 3, "This Time, You Don't Have to Put It Into Words." |
-| 2022-10-26 | **{{ruby::銀河を統べし花譜::ぎんがをすべしかふ::ginga wo suberu kafu}}** | An outfit designed by KAF herself, shown on the TV programme *Virtual Singer KAF no Maware! MAD TV*. |
-| 2023-03-04 | **Fourth Form · {{ruby::雉::きじ::kiji}} / Tsubame (Sou) / Shamo (Sou)** | Revealed at "Fukakai San (Sou)". {{spoiler::The programme booklet recorded "Shamo (Kai)", but the official site and press use "Shamo (Sou)"; this entry follows the latter.}} |
-
-> **Naming pattern**: nearly every form is named after a bird (hinadori, hoshigarasu, ruribitaki, aosuzume, hayabusa, kanaria, oiradori, kinkeii, tsubame, shamo, kiji), echoing the theme of a fledgling growing its wings.
-
-## Companion and Familiar: Laplace
-
-**Laplace** is a fish-shaped presence who has accompanied KAF since the very beginning of the project, functioning less as a mascot than as a **companion or familiar**.
-
-- **Design origin**: Laplace did not begin with a complete setting; it took shape as the project progressed and was eventually adopted as the very structure of KAF's first-form hood.
-- **Fan perception**: loved by observers far faster than the team anticipated, Laplace has become something of a symbol of KAF and appears in numerous original music videos. {{spoiler::Being so large, it has drawn plenty of exclamations along the lines of "Laplace is huge!"}}
-- **Place in the lore**: among the clues in the Otogibanashi audio dramas, Laplace is speculated to be connected to how the three characters were able to travel to the present.
 
 ## Otogibanashi Audio Dramas and Lore Clues
 
@@ -343,48 +357,6 @@ KAF's appearance is not fixed: it has continued to "fledge" alongside each live 
 
 {{/details}}
 
-## Voice Acting Roles
-
-| Year | Work | Role | Type |
-| :--- | :--- | :--- | :--- |
-| 2022 | *Muv-Luv Alternative* Season 2 | XM3 | TV anime |
-| 2025 | *[KAMITSUBAKI CITY UNDER CONSTRUCTION](/en/projects/arg/kamitsubaki-city)* | **Morisaki Kaho** | TV anime |
-| 2025 | *[KAMITSUBAKI CITY REGENERATE](/en/database/projects/kamitsubaki-city-regenerate)* | **Morisaki Kaho** | Game |
-
-> **Morisaki Kaho** is KAF's corresponding character within the *KAMITSUBAKI CITY* setting and the first singularity of the project.
-
-## Commercial Tie-ups and Collaborations
-
-| Date | Partner | Content |
-| :--- | :--- | :--- |
-| 2019-06-28 | Film *Hot Gimmick: Girl Meets Boy* | Theme song "[Yoru ga Furiyamu Mae ni](/en/songs/kaf/originals/yoru-ga-furiyamu-mae-ni)" |
-| 2019-09-11 | Rhythm game *Cytus II* | Collaboration |
-| 2020-04 | TV anime *Black Clover* cour 11 | Ending theme "[Answer](/en/songs/kaf/originals/アンサー-answer)" |
-| 2020-04 | ZONe "Choubotsunyuu" campaign | "[Abnormal](/en/songs/kaf/originals/危ノーマル-abnormal)" |
-| 2020-07 | Netflix anime *Japan Sinks: 2020* | Grand finale theme "Keshiki" |
-| 2020-07 | NTT docomo 5G concept exhibition | "Tomadoi Telepathy" |
-| 2019-08-30 | Mobile game *47 HEROINES* | Collaboration MV and the new form Hinadori Black |
-| 2019-09-29 | Fashion runway & music live "FAVRIC" | Debut of the form Ruribitaki |
-| 2021-05-19 | Anime film *Pompo: The Cinéphile* | Insert song "[Tatoeba](/en/songs/kaf/originals/例えば-for-example)" |
-| 2021-10-18 | "Kumikyoku" (Suite) project | Collaborations with Ohtake Shigeyuki, MAISONdes / Tsumiki, Kishida Shigeru and others |
-| 2022-10 | TV anime *Urusei Yatsura* | "Tokyo Shandy Rendezvous feat. KAF, Tsumiki" |
-| 2025-04 | TV anime *Chuzenji-sensei Mononoke Kougiroku* | Opening theme |
-
-> **On the "Suite" project**: launched in October 2021 for KAF's third anniversary, it pairs her with real-world musicians. The first series of 15 songs concluded in January 2024 with "[Ai no Mama](/en/songs/kaf/suites/愛のまま-still-in-love)" featuring Kishida Shigeru, and "Suite 2" began in February 2024.
-
-## Radio and Television Appearances
-
-- **Regular radio**: *Panpaka KAFi (R)* on InterFM, launched in April 2022 with chapters including "Joukyou-hen" and "Haneda (Night)-hen" — KAF's first regular terrestrial radio programme.
-- **NHK music programme**: on 15 November 2021 she appeared on *Numa ni Hamatte Kiite Mita*, performing "[Kako wo Kurau](/en/songs/kaf/originals/kako-wo-kurau)" and "[Umi ni Bakeru](/en/songs/kaf/originals/海に化ける-turn-into-the-sea)".
-- **Regular TV programme**: from October 2022, TOKYO MX aired *Virtual Singer KAF no Maware! MAD TV*, in which an outfit designed by KAF herself was shown and later named "Ginga wo Suberu KAF".
-
-## Observer Community and Milestones
-
-- **Fan names**: fans are titled **"Observers" (観測者)**, while those who backed the 2019 crowdfunding are additionally called **"{{spoiler::Accomplices}}."** The term later came to refer broadly to fans of KAMITSUBAKI's V.W.P.
-- **The crowdfunding miracle**: for the 1st ONE-MAN LIVE "Fukakai" in 2019, a Campfire campaign with a ¥5,000,000 goal ultimately raised **over ¥40,000,000 — roughly eight times the target**. {{spoiler::KAF herself was taken aback by the figure, posted several tweets in a row, and shared the team's statement on how the funds would be handled, promising to keep working hard.}}
-- **Channel scale**: as of February 2023 her YouTube channel had roughly **771,000** subscribers and her bilibili channel about **263,000** followers; on 21 June 2024 the YouTube channel passed **one million** subscribers.
-- **Community culture**: the two-tier identity of "observer / accomplice" and a witch-assembly style of collective viewership have become a hallmark of the fandom.
-
 ## Anecdotes and Community Culture
 
 - **Vocabulary power**: at "Fukakai Two Q1" KAF declared her "vocabulary power" to be **530,000**. {{spoiler::Even the four band members could not help laughing — a nod to Frieza's battle power of 530,000 in *Dragon Ball*.}} By "Fukakai Two Q2" she had revised the figure to **{{spoiler::−530,000}}**.
@@ -394,3 +366,29 @@ KAF's appearance is not fixed: it has continued to "fledge" alongside each live 
 - **Stream of consciousness**: before "Fukakai Two Q1" KAF posted a flood of musings on Twitter, {{spoiler::leading many to mistake them for concert previews.}}
 - **The Spoon impersonation incident**: between January and February 2021 a series of accounts impersonated KAF on the Japanese platform Spoon. On the small hours of 11 January a stream appeared under the name "KAF@the real one"; PIEDPIPER clarified within about half an hour that it was not her and asked for it to stop, and the account was permanently suspended. KAF responded that "impressions are welcome, but impersonation misleads observers and troubles me — please stop! There is no KAF Spoon account!", {{spoiler::and changed her Twitter display name to "KAF@the super real one" the same day so people could tell the pages apart.}} Impersonation resurfaced on 31 January, and on 1 February KAMITSUBAKI STUDIO issued a statement that the posts had been submitted to lawyers as a legal matter. That night KAF responded, "**Impersonation is! Not okay!**", {{spoiler::half-jokingly threatening that if it happened again she would make Thai the language of KAF.}}
 - **Creative partners**: visual and MV production has long been handled by Kawasaki Kenji and others, while her songwriting partnership with [Kanzaki Iori](/en/artists/creators/kanzaki-iori) is regarded as the foundation of the KAMITSUBAKI aesthetic.
+
+## Music, Live Performance, and Related Figures
+
+The *Fukakai* series should be treated as a sequence of artistic works rather than a list of concerts. The 2019 crowdfunding live established the shared language of KAF and her audience; later online and rebuilding performances made absence, reconstruction, and virtual staging part of the narrative. *Fukakai 3 (Mad)* reached Nippon Budokan in 2022, while *Fukakai 3 (So)* closed that chapter in 2023. *Kaika* marks a later singer-songwriter phase.
+
+Iori Kanzaki shaped the early musical period, while PALOW. and the visual production team shaped the character's visual continuity. KAF should be kept distinct from KAFU: KAFU is an independent synthetic voicebank and character based on KAF's voice.
+
+## Related Projects / Setting
+
+KAF sits at the intersection of several major Kamitsubaki lines. As a V.W.P member she participates in the group's core song cycles; as the source voice of KAFU she extends into fan and creator production culture; and as a recurring figure in Kamitsubaki City projects she also functions as part of the studio's broader narrative identity. In the upcoming 2025 TV anime *Kamitsubaki City Under Construction*, she will make her debut as a voice actor, playing a character based on herself.
+
+## References
+
+- KAMITSUBAKI STUDIO official artist page: <https://kamitsubaki.jp/artist/kaf/>
+- KAMITSUBAKI STUDIO official V.W.P page: <https://kamitsubaki.jp/artist/v-w-p/>
+- Wikipedia: Kaf (singer): <https://en.wikipedia.org/wiki/Kaf_%28singer%29>
+
+## External Links
+
+- [Official Website](https://kaf.kamitsubaki.jp/)
+- [YouTube(Main)](https://www.youtube.com/@virtual_kaf)
+- [X (Twitter)](https://twitter.com/virtual_kaf)
+- [Instagram](https://www.instagram.com/virtual_kaf/)
+- [TikTok](https://www.tiktok.com/@virtual_kaf?lang=ja-JP)
+
+<!-- V3 RESEARCH SUPPLEMENT kaf -->

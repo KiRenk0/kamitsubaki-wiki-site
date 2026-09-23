@@ -27,13 +27,24 @@ lifecycle:
     archiveNote: "作品与历史记录持续保留。"
 summary: "A virtual singer defined by whisper-like vocals, breathiness, and restrained emotional pacing."
 ---
-
-
 ## Overview
 
 ARU (存流 / ある) was a virtual singer in the SINSEKAI STUDIO branch of [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) and one half of [Albemuth](/en/artists/solo/albemuth) with [ASU](/en/artists/solo/asu). She began activity on June 20, 2021 and graduated on April 9, 2024.
 
 Her whisper-like, breathy, restrained vocal colour and white gothic-elegant visual identity, designed by Mai Yoneyama, formed one side of Albemuth's contrast with ASU's brighter and more impulsive singing.
+
+## Project Position and Performance History
+
+**ARU** is one of the core virtual singers of the SINSEKAI system and a member of the duo [Albemuth](/en/database/artists/groups/albemuth).
+
+| Dimension | Content |
+| :--- | :--- |
+| **Debut** | 20 June 2021 (official debut with a first upload to YouTube) |
+| **Affiliation** | [SINSEKAI RECORD](/en/database/studios/sinsekai-record) |
+| **Unit** | Albemuth with ASU (formally formed 2022-11-19) |
+| **End of activity** | Formal graduation at Albemuth 1st ONE-MAN LIVE “罪と楽園” on 9 April 2024 |
+
+> **Where the project began**: on 20 June 2021, KAMITSUBAKI Studio announced the spin-off project “SINSEKAI CITY PROJECT” and released material relating to ARU, who also made an official debut the same day with a first upload to YouTube — ARU’s arrival is itself the beginning of the SINSEKAI worldview.
 
 ## Basic Profile
 
@@ -47,6 +58,15 @@ Her whisper-like, breathy, restrained vocal colour and white gothic-elegant visu
 | Vocal profile | Whisper-like, breathy, restrained, and atmospheric |
 
 “Whisper-voice demon” and similar expressions are audience descriptions of her vocal performance, not official job titles.
+
+## Activity History
+
+- **June 20, 2021**: Began activity as ARU / 存流.
+- **November 19, 2022**: Began Albemuth's unit activities with the first live *eve / ADAM*.
+- **July 5, 2023**: Released the ARU-side album *eve* alongside ASU's *ADAM*.
+- **April 9, 2024**: Graduated; the original Albemuth duo period ended.
+
+- September 2026: Listed on the [ALLT STUDIO](/en/projects/labels/allt-studio) official website roster (formerly of the SINSEKAI system).
 
 ## Representative Works
 
@@ -62,14 +82,13 @@ Her whisper-like, breathy, restrained vocal colour and white gothic-elegant visu
 
 {{/details}}
 
-## Activity History
+## Graduation and Permanent Archiving
 
-- **June 20, 2021**: Began activity as ARU / 存流.
-- **November 19, 2022**: Began Albemuth's unit activities with the first live *eve / ADAM*.
-- **July 5, 2023**: Released the ARU-side album *eve* alongside ASU's *ADAM*.
-- **April 9, 2024**: Graduated; the original Albemuth duo period ended.
+- **5 February 2024**: an official notice announced that ARU would end activity after the solo concert on 9 April, and that [Albemuth](/en/database/artists/groups/albemuth) would disband accordingly.
+- **9 April 2024**: Albemuth 1st ONE-MAN LIVE “罪と楽園” was held; ARU formally graduated and the unit disbanded; the final original song, 《舟》, was released the same day.
+- **Archival handling**: KAMITSUBAKI fully preserved all of his historical singles and released the duo album with ASU in physical form as a permanent archive of memory.
 
-- September 2026: Listed on the [ALLT STUDIO](/en/projects/labels/allt-studio) official website roster (formerly of the SINSEKAI system).
+> **Industry significance**: ARU’s exit is regarded as a benchmark case of a virtual artist “exiting with dignity” — the unit does not erase its history because a member graduated, and the body of work continues to exist in the label’s catalogue as an **archive**. This also provided KAMITSUBAKI with a reusable paradigm for handling later member graduations.
 
 ## Unit Relationship and Record Boundaries
 
@@ -79,26 +98,4 @@ Albemuth was an independent unit with its own name, visual concept, live project
 
 ARU is a key entry point into SINSEKAI STUDIO's early other-world line and the first phase of Albemuth.
 
-
 <!-- V3 RESEARCH SUPPLEMENT aru -->
-
-## Project Position and Performance History
-
-**ARU** is one of the core virtual singers of the SINSEKAI system and a member of the duo [Albemuth](/en/database/artists/groups/albemuth).
-
-| Dimension | Content |
-| :--- | :--- |
-| **Debut** | 20 June 2021 (official debut with a first upload to YouTube) |
-| **Affiliation** | [SINSEKAI RECORD](/en/database/studios/sinsekai-record) |
-| **Unit** | Albemuth with ASU (formally formed 2022-11-19) |
-| **End of activity** | Formal graduation at Albemuth 1st ONE-MAN LIVE “罪と楽園” on 9 April 2024 |
-
-> **Where the project began**: on 20 June 2021, KAMITSUBAKI Studio announced the spin-off project “SINSEKAI CITY PROJECT” and released material relating to ARU, who also made an official debut the same day with a first upload to YouTube — ARU’s arrival is itself the beginning of the SINSEKAI worldview.
-
-## Graduation and Permanent Archiving
-
-- **5 February 2024**: an official notice announced that ARU would end activity after the solo concert on 9 April, and that [Albemuth](/en/database/artists/groups/albemuth) would disband accordingly.
-- **9 April 2024**: Albemuth 1st ONE-MAN LIVE “罪と楽園” was held; ARU formally graduated and the unit disbanded; the final original song, 《舟》, was released the same day.
-- **Archival handling**: KAMITSUBAKI fully preserved all of his historical singles and released the duo album with ASU in physical form as a permanent archive of memory.
-
-> **Industry significance**: ARU’s exit is regarded as a benchmark case of a virtual artist “exiting with dignity” — the unit does not erase its history because a member graduated, and the body of work continues to exist in the label’s catalogue as an **archive**. This also provided KAMITSUBAKI with a reusable paradigm for handling later member graduations.

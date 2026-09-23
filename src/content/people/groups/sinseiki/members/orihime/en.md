@@ -34,51 +34,11 @@ lifecycle:
   startedAt: "2024-08-08"
 summary: "A virtual singer who favors gothic, dark, and aesthetic worldviews."
 ---
-
 ## Introduction
 
 Orihime is a cross-dimensional streamer (Xtuber) under [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio)'s [Girls Revolution Project](/en/projects/labels/girls-revolution-project). She belongs to the trio unit [SINSEIKI](/en/artists/girls_revolution_project/sinseiki), and her character design is by [PALOW.](/en/artists/creators/palow).
 
 In her official channel description, she introduces herself as fond of gothic and dark aesthetic worlds. Her music and streaming activities continue as a member of SINSEIKI alongside Kakyoin and Garasumiya.
-
-## Activity Briefs
-
-- **August 8, 2024**: Officially debuted at KAMITSUBAKI FES '24.
-- **November 6, 2024**: Released her first solo single, "[Shin Yū](/en/songs/orihime/originals/shin-yuu)".
-- **December 25, 2024**: Released the single "[Talking Doll](/en/songs/orihime/originals/talking-doll)".
-- **February 19, 2025**: Released the single "[Mabataki](/en/songs/orihime/originals/mabataki)" (with Yunagi).
-- **March 12, 2025**: Released the single "[ANGER](/en/songs/orihime/originals/anger)".
-- **July 11, 2025**: Appeared in KAMITSUBAKI WARS 2025 Kawasaki Front — Girls Revolution Project 1st LIVE / Act I "[Kaihen](/en/songs/grp/originals/kaihen)".
-- **November 26, 2025**: Released the single "[Masquerade Kill](/en/songs/orihime/originals/masquerade-kill)".
-- **April 8, 2026**: Released the single "[Sakura Shinjū](/en/songs/orihime/originals/sakura-shinjuu)".
-- **August 8, 2026**: Appeared in Girls Revolution Project 2nd LIVE "Revolutio".
-
-## Representative Works and Related Entries
-
-{{details::Expand full singles list}}
-
-**Singles**
-
-| Release date | Title |
-| --- | --- |
-| 2024-11-06 | [シンユウ](</en/songs/orihime/originals/shin-yuu>) |
-| 2024-12-25 | [Talking Doll](</en/songs/orihime/originals/talking-doll>) |
-| 2025-02-19 | [瞬き](</en/songs/orihime/originals/mabataki>) |
-| 2025-03-12 | [ANGER](</en/songs/orihime/originals/anger>) |
-| 2025-11-26 | [Masquerade Kill](</en/songs/orihime/originals/masquerade-kill>) |
-| 2026-04-08 | [桜心中](</en/songs/orihime/originals/sakura-shinjuu>) |
-
-{{/details}}
-
-## External Links
-
-- [KAMITSUBAKI STUDIO Official Site (SINSEIKI)](https://kamitsubaki.jp/artist/sinseiki/)
-- [GIRLS REVOLUTION PROJECT Official Site](https://girlsrevolutionproject.jp/)
-- [YouTube Channel](https://www.youtube.com/@orihime_grp)
-- [X Official Page](https://x.com/orihime_gr)
-
-
-<!-- V3 RESEARCH SUPPLEMENT orihime -->
 
 ## Character Setting and Anecdotes
 
@@ -100,6 +60,18 @@ In her official channel description, she introduces herself as fond of gothic an
 - **Interaction with a senior**: after covering “亡国のネメシス” with [ISEKAIJOUCHO](/en/database/artists/solo/isekaijoucho), she wrote a very long message of thanks on X, calling her “my beloved ISEKAIJOUCHO-senpai”; ISEKAIJOUCHO replied at length, writing that “Orihime-chan's singing is so lovely... it felt like the two of us were making a story together.”
 
 > **Role within the project**: Orihime was one of the first in the Girls Revolution Project to run streams and release solo songs (her first stream was on 17 December 2024). That contrast between a cute appearance and a dark vocal is precisely the core appeal of the *Shin* side of the project.
+
+## Activity Briefs
+
+- **August 8, 2024**: Officially debuted at KAMITSUBAKI FES '24.
+- **November 6, 2024**: Released her first solo single, "[Shin Yū](/en/songs/orihime/originals/shin-yuu)".
+- **December 25, 2024**: Released the single "[Talking Doll](/en/songs/orihime/originals/talking-doll)".
+- **February 19, 2025**: Released the single "[Mabataki](/en/songs/orihime/originals/mabataki)" (with Yunagi).
+- **March 12, 2025**: Released the single "[ANGER](/en/songs/orihime/originals/anger)".
+- **July 11, 2025**: Appeared in KAMITSUBAKI WARS 2025 Kawasaki Front — Girls Revolution Project 1st LIVE / Act I "[Kaihen](/en/songs/grp/originals/kaihen)".
+- **November 26, 2025**: Released the single "[Masquerade Kill](/en/songs/orihime/originals/masquerade-kill)".
+- **April 8, 2026**: Released the single "[Sakura Shinjū](/en/songs/orihime/originals/sakura-shinjuu)".
+- **August 8, 2026**: Appeared in Girls Revolution Project 2nd LIVE "Revolutio".
 
 ## Voice Roles and Solo Song Archive
 
@@ -126,6 +98,23 @@ In her official channel description, she introduces herself as fond of gothic an
 - Appearances at major shows including the Girls Revolution Project 1st LIVE “Kaihen” and 2nd LIVE “Revolutio”.
 
 > **Musical character**: Orihime's solo songs are supplied by composers with strongly contrasting styles — wotaku, Hitogoto, Ren and Hirata Yoshihisa — spanning electro-pop, dark rock and Japanese-style balladry, making her the widest-ranging member on the *Shin* side.
+
+## Representative Works and Related Entries
+
+{{details::Expand full singles list}}
+
+**Singles**
+
+| Release date | Title |
+| --- | --- |
+| 2024-11-06 | [シンユウ](</en/songs/orihime/originals/shin-yuu>) |
+| 2024-12-25 | [Talking Doll](</en/songs/orihime/originals/talking-doll>) |
+| 2025-02-19 | [瞬き](</en/songs/orihime/originals/mabataki>) |
+| 2025-03-12 | [ANGER](</en/songs/orihime/originals/anger>) |
+| 2025-11-26 | [Masquerade Kill](</en/songs/orihime/originals/masquerade-kill>) |
+| 2026-04-08 | [桜心中](</en/songs/orihime/originals/sakura-shinjuu>) |
+
+{{/details}}
 
 ## Cover Song Archive
 
@@ -162,3 +151,12 @@ Orihime has posted covers continuously since her debut, drawing on anime songs, 
 | 27 | 2026-03-28 | Magia |
 
 > **Group covers**: “Mrs. Pumpkin no Kokkei na Yume” (2024-10-31), “Ai♡Scream!” (2025-09-21), “Happy Halloween” (2025-10-28) and “Valentine Kiss” (2026-02-14) were performed by all of SINSEIKI. “Zankyō Vandeler / VALIS” (2025-12-20) was covered jointly by SINSEIKI × TSUMITOBATSU — a rare combined appearance by the two units.
+
+## External Links
+
+- [KAMITSUBAKI STUDIO Official Site (SINSEIKI)](https://kamitsubaki.jp/artist/sinseiki/)
+- [GIRLS REVOLUTION PROJECT Official Site](https://girlsrevolutionproject.jp/)
+- [YouTube Channel](https://www.youtube.com/@orihime_grp)
+- [X Official Page](https://x.com/orihime_gr)
+
+<!-- V3 RESEARCH SUPPLEMENT orihime -->

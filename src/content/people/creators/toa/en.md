@@ -46,13 +46,17 @@ lifecycle:
   activity: "active"
 summary: "Vocaloid and synth producer active since 2013, known for cute, poppy vocal tuning paired with sad and melancholic lyrics."
 ---
-
-
 ## Overview
 
 Toa (とあ) is a Vocaloid and synth vocal producer who has been active since 2013. He is recognized for his distinctive approach of pairing cute, poppy vocal tuning with lyrics steeped in sadness and melancholy — a contrast that gives his music a bittersweet emotional depth. His primary vocal canvases include Hatsune Miku and the CeVIO singer KAFU.
 
 - September 5, 2026: With the renewal of [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio), the in-studio labels were consolidated into PHENOMENON RECORD.
+
+## Role and Creative Position
+
+Toa's production style occupies a unique niche in the Vocaloid landscape. Rather than leaning into purely upbeat or purely somber territory, he crafts songs that feel like joyful surfaces concealing deeper sadness — a tonal duality that resonates strongly with listeners. His vocal tuning technique, particularly with Miku and [KAFU](/en/artists/isotopes/kafu), brings a charming, almost conversational quality to his tracks that sets them apart.
+
+His long career spanning over a decade speaks to his consistency and evolving artistry within the synth vocal producer community.
 
 ## Representative Works
 
@@ -88,24 +92,10 @@ Toa (とあ) is a Vocaloid and synth vocal producer who has been active since 20
 
 {{/details}}
 
-## Role and Creative Position
-
-Toa's production style occupies a unique niche in the Vocaloid landscape. Rather than leaning into purely upbeat or purely somber territory, he crafts songs that feel like joyful surfaces concealing deeper sadness — a tonal duality that resonates strongly with listeners. His vocal tuning technique, particularly with Miku and [KAFU](/en/artists/isotopes/kafu), brings a charming, almost conversational quality to his tracks that sets them apart.
-
-His long career spanning over a decade speaks to his consistency and evolving artistry within the synth vocal producer community.
-
 ## Work Index
 
 - "Tsugihagi Staccato" (ツギハギスタッカート)
 - "Idea Smile" (アイディスマイル)
-
-## External Links
-
-- [Twitter](https://twitter.com/o0toa0o)
-- [YouTube](https://www.youtube.com/user/0toa0oto0)
-
-
-<!-- V3 RESEARCH SUPPLEMENT toa -->
 
 ## External Songwriting Record
 
@@ -118,3 +108,10 @@ Toa's record of songs supplied externally within the KAMITSUBAKI system is as fo
 | 2025-02-26 | 《ココロト》 | [SINSEIKI](/en/database/artists/groups/sinseiki) | Lyrics / Composition / Arrangement |
 
 > **Observation on the lineage of his supplied songs**: Toa's three supplied songs sit on two different product lines respectively — [Musical Isotopes](/en/database/isotopes/kafu) (COKO, HARU) and [Girls Revolution Project](/en/database/projects/girls-revolution-project) (SINSEIKI) — showing that within the KAMITSUBAKI ecosystem he plays the role of a **cross-project generalist songwriter**: able to write for AI singing libraries as well as to provide choral pieces for a three-member unit.
+
+## External Links
+
+- [Twitter](https://twitter.com/o0toa0o)
+- [YouTube](https://www.youtube.com/user/0toa0oto0)
+
+<!-- V3 RESEARCH SUPPLEMENT toa -->

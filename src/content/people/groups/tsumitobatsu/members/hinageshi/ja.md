@@ -34,7 +34,6 @@ lifecycle:
   startedAt: "2024-08-08"
 summary: "冷たさと温かさ、後ろ向きと前向き。矛盾の中で歌わせてもらうバーチャルシンガー。"
 ---
-
 ## 紹介
 
 氷夏至は、[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) の「[少女革命計画](/ja/projects/labels/girls-revolution-project)」に所属するバーチャルシンガーです。3人組ユニット「[罪十罰](/ja/artists/girls_revolution_project/tsumitobatsu)」のメンバーで、キャラクターデザインは [PALOW.](/ja/artists/creators/palow) が担当しています。
@@ -67,16 +66,6 @@ summary: "冷たさと温かさ、後ろ向きと前向き。矛盾の中で歌�
 
 {{/details}}
 
-## 外部リンク
-
-- [KAMITSUBAKI STUDIO 公式サイト（罪十罰）](https://kamitsubaki.jp/artist/tsumitobatsu/)
-- [少女革命計画 公式サイト](https://girlsrevolutionproject.jp/)
-- [YouTube チャンネル](https://www.youtube.com/@hinageshi_grp)
-- [X 公式ページ](https://x.com/hinageshi_gr)
-
-
-<!-- V3 RESEARCH SUPPLEMENT hinageshi -->
-
 ## 個人楽曲アーカイブ
 
 本項目に収録された独唱曲は以下の通り（公開・配信日順）。
@@ -89,3 +78,12 @@ summary: "冷たさと温かさ、後ろ向きと前向き。矛盾の中で歌�
 | 2026-01-07 | sweet/sour | — |
 
 > **データ出典**：以下の曲目は本サイトの実体登録表（Metadata Schema v2）から自動集計したもので、日付と歌唱者は各項目のメタデータに準拠する。ユニット曲・合唱曲は所属ユニットおよび[少女革命計画](/ja/database/projects/girls-revolution-project)の総項目を参照。
+
+## 外部リンク
+
+- [KAMITSUBAKI STUDIO 公式サイト（罪十罰）](https://kamitsubaki.jp/artist/tsumitobatsu/)
+- [少女革命計画 公式サイト](https://girlsrevolutionproject.jp/)
+- [YouTube チャンネル](https://www.youtube.com/@hinageshi_grp)
+- [X 公式ページ](https://x.com/hinageshi_gr)
+
+<!-- V3 RESEARCH SUPPLEMENT hinageshi -->

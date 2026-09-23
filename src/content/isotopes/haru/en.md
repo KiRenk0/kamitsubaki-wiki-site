@@ -56,7 +56,6 @@ lifecycle:
 voiceEngines: []
 summary: "A CeVIO AI musical isotope built from HARUSARUHI's vocal data, bringing the power and sharp rhythm of the original voice to synthesized music creation."
 ---
-
 ## Overview
 
 HARU (羽累) is the fifth voice synthesis software in [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio)'s "[Musical Isotope](/en/artists/solo/musical-isotope)" series. Built on the CeVIO AI platform, she is created using AI technology based on the vocal data of virtual rapper/singer [HARUSARUHI](/en/artists/vwp/harusaruhi) (春猿火) to generate highly realistic singing voices.
@@ -68,6 +67,17 @@ As the final voicebank revealed in the initial lineup of the project, the name "
 Designed by illustrator Isshiki (一色), HARU's visual identity includes long white hair (with a braid on the right side), a headset with cyan and red earcups, and bright yellow eyeshadow and lip gloss. She wears a black-and-white outfit combining traditional oriental wide sleeves and a gothic fishtail skirt.
 
 In terms of vocal performance, HARU features crisp pronunciation and excels in rapid rap sequences and explosive high notes. In March 2024, the VOICEPEAK-compatible "TALK EXTENSION" was released, adding natural text-to-speech capabilities to her portfolio.
+
+## Basic Profile and Character Setting
+
+HARU is a musical-isotope voicebank and character based on HARUSARUHI's vocal data. It translates the source singer's rhythmic drive, rap delivery, and explosive emotional attack into a synthetic voice for creators.
+
+| Item | Detail |
+| --- | --- |
+| Voice source | HARUSARUHI |
+| Platform | CeVIO AI and VOICEPEAK TALK EXTENSION |
+| Character design | Isshiki |
+| Main projects | HARU original-song contest, V.I.P |
 
 ## Activity History
 
@@ -118,17 +128,6 @@ In terms of vocal performance, HARU features crisp pronunciation and excels in r
 
 {{/details}}
 
-## Basic Profile and Character Setting
-
-HARU is a musical-isotope voicebank and character based on HARUSARUHI's vocal data. It translates the source singer's rhythmic drive, rap delivery, and explosive emotional attack into a synthetic voice for creators.
-
-| Item | Detail |
-| --- | --- |
-| Voice source | HARUSARUHI |
-| Platform | CeVIO AI and VOICEPEAK TALK EXTENSION |
-| Character design | Isshiki |
-| Main projects | HARU original-song contest, V.I.P |
-
 ## Representative Songs and Creator Ecosystem
 
 HARU is widely used for rap, fast electronic pop, and rhythm-driven works. Demonstration songs, the HARU original-song contest, and TALK EXTENSION are the main public routes through the project. The relationship with HARUSARUHI is a voice-source relationship, not shared authorship or a shared personal discography.
@@ -136,19 +135,6 @@ HARU is widely used for rap, fast electronic pop, and rhythm-driven works. Demon
 ## Name and Identity Boundaries
 
 HARU is the isotope character and voicebank; HARUSARUHI is the virtual singer whose vocal data supports it. Official demonstrations, creator songs, and joint V.I.P performances should be listed separately so that the source artist and user-generated works are not merged.
-
-## Related Projects / Setting
-
-HARU is the fifth member of the "Musical Isotope Project". By digitizing Harusaruhi's personal rap and vocal styling, this project makes virtual rap creation accessible to more creators. As a digital creative partner, HARU continues to expand the possibilities of vocal synthesis in cutting-edge musical genres.
-
-## External Links
-
-- [Musical Isotope official website](https://musical-isotope.kamitsubaki.jp/)
-- [Musical Isotope official X (Twitter)](https://twitter.com/musicalisotope)
-- [Musical Isotope official YouTube channel](https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA)
-
-
-<!-- V3 RESEARCH SUPPLEMENT haru -->
 
 ## Official Compilations and Naming System
 
@@ -184,6 +170,10 @@ For the Musical Isotope project KAMITSUBAKI abandoned the closed restrictions of
 
 > **Industry significance**: where the traditional record system restricts derivative works, KAMITSUBAKI treats a voice library as a gateway into an ecosystem rather than a closed asset — the fundamental reason the Isotope family accumulated such a vast body of UGC within a few years.
 
+## Related Projects / Setting
+
+HARU is the fifth member of the "Musical Isotope Project". By digitizing Harusaruhi's personal rap and vocal styling, this project makes virtual rap creation accessible to more creators. As a digital creative partner, HARU continues to expand the possibilities of vocal synthesis in cutting-edge musical genres.
+
 ## Relationship to the Source Witch
 
 | Item | Detail |
@@ -194,3 +184,11 @@ For the Musical Isotope project KAMITSUBAKI abandoned the closed restrictions of
 | **Position in the lore** | The digital-side counterpart of KAMITSUBAKI's "song singularity", sharing one source of "singing voice" with HARUSARUHI |
 
 > **Naming rule**: each Isotope's official name is drawn directly from its source witch (KAFU←KAF, RIME←RIM, SEKAI←ISEKAIJOUCHO, COKO←KOKO, HARU←HARUSARUHI). The convention itself declares the core idea: different forms of one existence.
+
+## External Links
+
+- [Musical Isotope official website](https://musical-isotope.kamitsubaki.jp/)
+- [Musical Isotope official X (Twitter)](https://twitter.com/musicalisotope)
+- [Musical Isotope official YouTube channel](https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA)
+
+<!-- V3 RESEARCH SUPPLEMENT haru -->

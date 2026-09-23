@@ -56,7 +56,6 @@ lifecycle:
 voiceEngines: []
 summary: "A CeVIO AI musical isotope built from ISEKAIJOUCHO's vocal data, inheriting the transparency and narrative quality of the original voice."
 ---
-
 ## Overview
 
 SEKAI is the second voice synthesis software in [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio)'s [Musical Isotope](/en/artists/solo/musical-isotope) series, built from the vocal data of virtual singer [ISEKAIJOUCHO](/en/artists/vwp/isekaijoucho). It inherits the transparency and narrative quality characteristic of the original voice.
@@ -68,6 +67,17 @@ Joining the series after [KAFU](/en/artists/isotopes/kafu), SEKAI further enrich
 SEKAI's voice source derives from ISEKAIJOUCHO — the [V.W.P](/en/artists/vwp/vwp) member known for "world-system" narrative and emotional expression. As a result, SEKAI is frequently used in the UGC ecosystem for songs that require transparency, lyricism, and narrative depth.
 
 Like KAFU, SEKAI is not merely a tool but is positioned as a "voice character" within the creator community — with its own visual identity and settings, connected to yet independent from the original singer ISEKAIJOUCHO.
+
+## Basic Profile and Character Setting
+
+SEKAI is a CeVIO AI singing-synthesis product and character based on ISEKAIJOUCHO's vocal data. It inherits transparency, lyricism, and narrative colour from the source voice, but is not ISEKAIJOUCHO herself.
+
+| Item | Detail |
+| --- | --- |
+| Voice source | ISEKAIJOUCHO |
+| Platform | CeVIO AI and VOICEPEAK TALK EXTENSION |
+| Character design | reoen |
+| Key projects | *DIMENSION*, *Metaphor*, V.I.P |
 
 ## Activity History
 
@@ -142,17 +152,6 @@ Like KAFU, SEKAI is not merely a tool but is positioned as a "voice character" w
 
 {{/details}}
 
-## Basic Profile and Character Setting
-
-SEKAI is a CeVIO AI singing-synthesis product and character based on ISEKAIJOUCHO's vocal data. It inherits transparency, lyricism, and narrative colour from the source voice, but is not ISEKAIJOUCHO herself.
-
-| Item | Detail |
-| --- | --- |
-| Voice source | ISEKAIJOUCHO |
-| Platform | CeVIO AI and VOICEPEAK TALK EXTENSION |
-| Character design | reoen |
-| Key projects | *DIMENSION*, *Metaphor*, V.I.P |
-
 ## Representative Songs and Creator Ecosystem
 
 SEKAI's music is primarily produced by UGC creators rather than released as a traditional personal discography. The official “DIMENSION” demonstration cover and the first concept compilation *Metaphor* are useful entry points. Songs made with SEKAI should not be placed directly in ISEKAIJOUCHO's personal catalogue: the voice, visuals, and projects are related, but the records remain separate.
@@ -160,26 +159,6 @@ SEKAI's music is primarily produced by UGC creators rather than released as a tr
 ## Name and Identity Boundaries
 
 SEKAI is the voicebank and character; ISEKAIJOUCHO is the virtual singer who provides the source voice. V.I.P and other joint projects place multiple musical isotopes together without erasing the distinction between products and source artists.
-
-## Related Projects / Setting
-
-SEKAI is part of the [Musical Isotope](/en/artists/solo/musical-isotope) Project, initiated by [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) to develop voice synthesis software based on its virtual singers' vocal data using AI technology. [KAFU](/en/artists/isotopes/kafu) (based on [KAF](/en/artists/vwp/kaf)) and SEKAI (based on [ISEKAIJOUCHO](/en/artists/vwp/isekaijoucho)) are the current core products.
-
-Contact: musical-isotope@kamitsubaki.jp
-
-## References
-
-- Musical Isotope official website: <https://musical-isotope.kamitsubaki.jp/>
-- KAMITSUBAKI STUDIO Musical Isotope page: <https://kamitsubaki.jp/artist/musical-isotope/>
-
-## External Links
-
-- [Musical Isotope official website](https://musical-isotope.kamitsubaki.jp/)
-- [X (Twitter)](https://twitter.com/musicalisotope)
-- [YouTube](https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA)
-
-
-<!-- V3 RESEARCH SUPPLEMENT sekai -->
 
 ## Official Compilations and Naming System
 
@@ -215,6 +194,12 @@ For the Musical Isotope project KAMITSUBAKI abandoned the closed restrictions of
 
 > **Industry significance**: where the traditional record system restricts derivative works, KAMITSUBAKI treats a voice library as a gateway into an ecosystem rather than a closed asset — the fundamental reason the Isotope family accumulated such a vast body of UGC within a few years.
 
+## Related Projects / Setting
+
+SEKAI is part of the [Musical Isotope](/en/artists/solo/musical-isotope) Project, initiated by [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) to develop voice synthesis software based on its virtual singers' vocal data using AI technology. [KAFU](/en/artists/isotopes/kafu) (based on [KAF](/en/artists/vwp/kaf)) and SEKAI (based on [ISEKAIJOUCHO](/en/artists/vwp/isekaijoucho)) are the current core products.
+
+Contact: musical-isotope@kamitsubaki.jp
+
 ## Relationship to the Source Witch
 
 | Item | Detail |
@@ -225,3 +210,16 @@ For the Musical Isotope project KAMITSUBAKI abandoned the closed restrictions of
 | **Position in the lore** | The digital-side counterpart of KAMITSUBAKI's "song singularity", sharing one source of "singing voice" with ISEKAIJOUCHO |
 
 > **Naming rule**: each Isotope's official name is drawn directly from its source witch (KAFU←KAF, RIME←RIM, SEKAI←ISEKAIJOUCHO, COKO←KOKO, HARU←HARUSARUHI). The convention itself declares the core idea: different forms of one existence.
+
+## References
+
+- Musical Isotope official website: <https://musical-isotope.kamitsubaki.jp/>
+- KAMITSUBAKI STUDIO Musical Isotope page: <https://kamitsubaki.jp/artist/musical-isotope/>
+
+## External Links
+
+- [Musical Isotope official website](https://musical-isotope.kamitsubaki.jp/)
+- [X (Twitter)](https://twitter.com/musicalisotope)
+- [YouTube](https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA)
+
+<!-- V3 RESEARCH SUPPLEMENT sekai -->

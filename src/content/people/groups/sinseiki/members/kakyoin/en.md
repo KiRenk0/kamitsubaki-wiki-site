@@ -56,7 +56,6 @@ lifecycle:
   startedAt: "2024-08-08"
 summary: "佳鏡院です。歌を届けます。"
 ---
-
 ## Introduction
 
 Kakyoin is a cross-dimensional streamer (Xtuber) who began her activities on August 8, 2024. She is a member of the "Girls' Revolution Project" under [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio), and belongs to the unit "[SINSEIKI](/en/artists/girls_revolution_project/sinseiki)".
@@ -108,6 +107,7 @@ Kakyoin is a cross-dimensional streamer (Xtuber) who began her activities on Aug
 | October 29, 2025  |               FantastiQ               |     Pon      | HIDEYA KOJIMA |                                   @[apple-music](https://embed.music.apple.com/cn/song/fantastiq-feat-hideya-kojima/1842289627)                                   |
 | October 29, 2025  |      [改変 -心-](/en/albums/sinseiki/kaihen-kokoro) (Alteration -Shin-)       |    Tanaka    | Tanaka, LLLL  |                @[apple-music](https://embed.music.apple.com/cn/song/%E6%94%B9%E5%A4%89-%E5%BF%83-feat-%E3%81%9F%E3%81%AA%E3%81%8B-llll/1842289629)                |
 | February 20, 2026  |            [雑几帖](/en/songs/sinseiki/originals/zatsukichou) (Zakkichou)            | Tatsuya Yano | Tatsuya Yano  |                                                                               @[youtube](https://www.youtube.com/embed/XhXkkh_4cVs?si=WVor92d2H8x5MgKF)                                                                                |
+
 ## Representative Works and Related Entries
 
 {{details::Expand full singles list}}
@@ -124,16 +124,6 @@ Kakyoin is a cross-dimensional streamer (Xtuber) who began her activities on Aug
 
 {{/details}}
 
-## External Links
-
-- [KAMITSUBAKI STUDIO Official Site](https://kamitsubaki.jp/artist/sinseiki/)
-- [YouTube Channel](https://www.youtube.com/@kakyoin_grp)
-- [X Official Page](https://x.com/kakyoin_gr)
-- [Bilibili Channel](https://space.bilibili.com/3546832122677764)
-
-
-<!-- V3 RESEARCH SUPPLEMENT kakyoin -->
-
 ## Solo Song Archive
 
 The solo tracks recorded for this member are listed below in release order.
@@ -147,3 +137,12 @@ The solo tracks recorded for this member are listed below in release order.
 | 2025-11-12 | 月へゆく | — |
 
 > **Source**: the tracks below are compiled automatically from this site’s entity registry (Metadata Schema v2); dates and performers follow each entry’s metadata. Unit and duet songs are listed on the group entry and the [Girls Revolution Project](/en/database/projects/girls-revolution-project) overview.
+
+## External Links
+
+- [KAMITSUBAKI STUDIO Official Site](https://kamitsubaki.jp/artist/sinseiki/)
+- [YouTube Channel](https://www.youtube.com/@kakyoin_grp)
+- [X Official Page](https://x.com/kakyoin_gr)
+- [Bilibili Channel](https://space.bilibili.com/3546832122677764)
+
+<!-- V3 RESEARCH SUPPLEMENT kakyoin -->

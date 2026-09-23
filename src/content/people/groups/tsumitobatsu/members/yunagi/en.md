@@ -34,7 +34,6 @@ lifecycle:
   startedAt: "2024-08-08"
 summary: "Sing, eat, play! An energetic virtual singer."
 ---
-
 ## Introduction
 
 Yunagi is a virtual singer under [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio)'s [Girls Revolution Project](/en/projects/labels/girls-revolution-project). She belongs to the trio unit [TSUMITOBATSU](/en/artists/girls_revolution_project/tsumitobatsu), and her character design is by [PALOW.](/en/artists/creators/palow).
@@ -67,16 +66,6 @@ In her official channel description, she introduces herself with "Sing, eat, pla
 
 {{/details}}
 
-## External Links
-
-- [KAMITSUBAKI STUDIO Official Site (TSUMITOBATSU)](https://kamitsubaki.jp/artist/tsumitobatsu/)
-- [GIRLS REVOLUTION PROJECT Official Site](https://girlsrevolutionproject.jp/)
-- [YouTube Channel](https://www.youtube.com/@yunagi_grp)
-- [X Official Page](https://x.com/yunagi_gr)
-
-
-<!-- V3 RESEARCH SUPPLEMENT yunagi -->
-
 ## Solo Song Archive
 
 The solo tracks recorded for this member are listed below in release order.
@@ -89,3 +78,12 @@ The solo tracks recorded for this member are listed below in release order.
 | 2025-12-17 | 化け物でいさせて | — |
 
 > **Source**: the tracks below are compiled automatically from this site’s entity registry (Metadata Schema v2); dates and performers follow each entry’s metadata. Unit and duet songs are listed on the group entry and the [Girls Revolution Project](/en/database/projects/girls-revolution-project) overview.
+
+## External Links
+
+- [KAMITSUBAKI STUDIO Official Site (TSUMITOBATSU)](https://kamitsubaki.jp/artist/tsumitobatsu/)
+- [GIRLS REVOLUTION PROJECT Official Site](https://girlsrevolutionproject.jp/)
+- [YouTube Channel](https://www.youtube.com/@yunagi_grp)
+- [X Official Page](https://x.com/yunagi_gr)
+
+<!-- V3 RESEARCH SUPPLEMENT yunagi -->

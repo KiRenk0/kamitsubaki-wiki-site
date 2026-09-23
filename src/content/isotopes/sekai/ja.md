@@ -56,7 +56,6 @@ lifecycle:
 voiceEngines: []
 summary: "ヰ世界情緒の歌声データをベースに生成された CeVIO AI 音楽的同位体。原歌声の透明感と物物語性を継承。"
 ---
-
 ## 概要
 
 星界（SEKAI）は [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) の「[音楽的同位体](/ja/artists/solo/musical-isotope)」シリーズ第二弾としてリリースされた歌声合成ソフトウェア。バーチャルシンガー[ヰ世界情緒](/ja/artists/vwp/isekaijoucho)（ISEKAIJOUCHO）の歌声データをベースに、原歌声の透明感と物語性を継承している。
@@ -68,6 +67,17 @@ summary: "ヰ世界情緒の歌声データをベースに生成された CeVIO 
 星界の声源はヰ世界情緒——[V.W.P](/ja/artists/vwp/vwp)の中でも「世界系」の叙情と情感表現に優れたバーチャルシンガーに由来する。そのため、UGCコミュニティでは透明感や叙情性、物語の深みが求められる楽曲に多く使用されている。
 
 可不と同様、星界は単なるツールではなく、クリエイターコミュニティにおける「声源キャラクター」としても位置づけられている。固有のビジュアルイメージと設定を持ち、原唱者ヰ世界情緒とは繋がりつつも独立した存在として活動する。
+
+## 基本資料とキャラクター設定
+
+星界はヰ世界情緒の歌声データをもとにした CeVIO AI 歌声合成ソフトウェアおよびキャラクターである。透明感、叙情性、物語性を受け継ぐが、ヰ世界情緒本人ではない。
+
+| 項目 | 内容 |
+| --- | --- |
+| 声の提供元 | ヰ世界情緒 |
+| プラットフォーム | CeVIO AI、VOICEPEAK TALK EXTENSION |
+| キャラクターデザイン | れおえん |
+| 主な企画 | 『DIMENSION』『Metaphor』、V.I.P |
 
 ## 歩み
 
@@ -142,17 +152,6 @@ summary: "ヰ世界情緒の歌声データをベースに生成された CeVIO 
 
 {{/details}}
 
-## 基本資料とキャラクター設定
-
-星界はヰ世界情緒の歌声データをもとにした CeVIO AI 歌声合成ソフトウェアおよびキャラクターである。透明感、叙情性、物語性を受け継ぐが、ヰ世界情緒本人ではない。
-
-| 項目 | 内容 |
-| --- | --- |
-| 声の提供元 | ヰ世界情緒 |
-| プラットフォーム | CeVIO AI、VOICEPEAK TALK EXTENSION |
-| キャラクターデザイン | れおえん |
-| 主な企画 | 『DIMENSION』『Metaphor』、V.I.P |
-
 ## 代表曲とクリエイター・エコシステム
 
 星界の音楽は従来型の個人ディスコグラフィーではなく、UGCクリエイターによる作品を中心に形成されている。公式カバー「ディメンション / DIMENSION」と1stコンセプト合輯『Metaphor』は主要な入口である。星界を使用した曲はヰ世界情緒の個人曲目録へ直接入れず、声、視覚、企画上の関連性を保ちながら別の記録線として扱う。
@@ -160,26 +159,6 @@ summary: "ヰ世界情緒の歌声データをベースに生成された CeVIO 
 ## 名称と記録上の境界
 
 星界は音源とキャラクター、ヰ世界情緒は声の提供元であるバーチャルシンガーである。V.I.Pなどの合同企画でも、音楽的同位体と原歌手の区別は維持する。
-
-## 関連企画 / 関連設定
-
-星界は「[音楽的同位体](/ja/artists/solo/musical-isotope)プロジェクト」の一員。同プロジェクトは [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) が発起し、所属バーチャルシンガーの歌声データをベースに AI 技術で歌声合成ソフトウェアを開発している。[可不](/ja/artists/isotopes/kafu)（[花譜](/ja/artists/vwp/kaf)ベース）と星界（[ヰ世界情緒](/ja/artists/vwp/isekaijoucho)ベース）は現在のコアプロダクト。
-
-連絡先：musical-isotope@kamitsubaki.jp
-
-## 参考資料
-
-- 音楽的同位体公式サイト：<https://musical-isotope.kamitsubaki.jp/>
-- KAMITSUBAKI STUDIO 音楽的同位体ページ：<https://kamitsubaki.jp/artist/musical-isotope/>
-
-## 外部リンク
-
-- [音楽的同位体公式サイト](https://musical-isotope.kamitsubaki.jp/)
-- [X (Twitter)](https://twitter.com/musicalisotope)
-- [YouTube](https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA)
-
-
-<!-- V3 RESEARCH SUPPLEMENT sekai -->
 
 ## 公式コンピレーションと命名体系
 
@@ -225,3 +204,22 @@ summary: "ヰ世界情緒の歌声データをベースに生成された CeVIO 
 | **世界観上の位置** | 神椿の「歌曲の特異点」のデジタル側の分身。花譜と同じ「歌の声」の来源を共有する |
 
 > **命名規則**：音楽的同位体の名称は音源の魔女から直接取られている（KAFU←KAF、RIME←RIM、SEKAI←ISEKAIJOUCHO、COKO←KOKO、HARU←HARUSARUHI）。この命名法自体が「同一存在の異なる形態」という設定の核を宣言している。
+
+## 関連企画 / 関連設定
+
+星界は「[音楽的同位体](/ja/artists/solo/musical-isotope)プロジェクト」の一員。同プロジェクトは [KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) が発起し、所属バーチャルシンガーの歌声データをベースに AI 技術で歌声合成ソフトウェアを開発している。[可不](/ja/artists/isotopes/kafu)（[花譜](/ja/artists/vwp/kaf)ベース）と星界（[ヰ世界情緒](/ja/artists/vwp/isekaijoucho)ベース）は現在のコアプロダクト。
+
+連絡先：musical-isotope@kamitsubaki.jp
+
+## 参考資料
+
+- 音楽的同位体公式サイト：<https://musical-isotope.kamitsubaki.jp/>
+- KAMITSUBAKI STUDIO 音楽的同位体ページ：<https://kamitsubaki.jp/artist/musical-isotope/>
+
+## 外部リンク
+
+- [音楽的同位体公式サイト](https://musical-isotope.kamitsubaki.jp/)
+- [X (Twitter)](https://twitter.com/musicalisotope)
+- [YouTube](https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA)
+
+<!-- V3 RESEARCH SUPPLEMENT sekai -->

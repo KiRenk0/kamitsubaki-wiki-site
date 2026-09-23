@@ -49,8 +49,6 @@ lifecycle:
 sources: []
 summary: "出现在与神椿并行的异世界「深脊界」的下一代虚拟歌手，天生的节奏感与不可预测的歌声交织，自由奔放的本能少女。"
 ---
-
-
 ## 概述
 
 ASU（明透）是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 体系中出现在平行异世界「深脊界」的下一代虚拟歌手。她以天生的节奏感和不可预测的歌唱方式为特征，整体形象是一个凭本能行动、自由奔放的天真少女。角色设计由知名动画师米山舞担当。
@@ -63,6 +61,19 @@ ASU 的核心气质是「本能」与「不可预测」。她的声线变化丰�
 
 在创作方向上，ASU 的作品偏向展现直觉式的情感表达，歌词与旋律中充满了少女式的纯粹与冲动，为神椿体系带来了不同于 [V.W.P](/zh/artists/vwp/vwp) 系列的全新色彩。
 
+## 企划定位与角色设计
+
+**[明透（ASU）](/zh/database/artists/solo/asu)** 是深脊界体系中的次世代型虚拟歌手，其角色人设由知名画师**米山舞**担纲。
+
+| 维度 | 内容 |
+| :--- | :--- |
+| **出道时间** | 2021 年 8 月（YouTube 初投稿正式出道） |
+| **所属体系** | [SINSEKAI RECORD](/zh/database/studios/sinsekai-record) |
+| **角色特征** | 拥有天生的节奏感与难以预测的歌声，性格天真烂漫，比起思考更喜欢凭直觉行动 |
+| **造型主题** | 以「光」为核心意象的视觉体系 |
+
+> **同门对照**：明透 与后来出道的新人 [琶舞（BEMA）](/zh/database/artists/solo/bema) 构成一组明确的镜像——如果说明透象征着「光明」，琶舞则被定位为「黑暗」的化身，两者的人设均出自米山舞之手。
+
 ## 活动历程
 
 - 2021年8月：以「深脊界」出身虚拟歌手身份正式出道并开始活动。
@@ -72,6 +83,15 @@ ASU 的核心气质是「本能」与「不可预测」。她的声线变化丰�
 - 参加 KAMITSUBAKI WARS 2026 横滨公演。
 
 - 2026年9月5日：神椿工作室改版，工作室内部厂牌统一整合为 PHENOMENON RECORD，改隶该厂牌（原 [SINSEKAI RECORD](/zh/projects/archive/sinsekai-studio) 厂牌名称停止使用）。
+
+## 组合历程与后续展开
+
+- **2022 年 7 月 2 日**：与存流（ARU）以 [Albemuth](/zh/database/artists/groups/albemuth) 名义发布首支原创曲《新世界へ / To the new world》，随后于同年 11 月 19 日正式宣布结成该双人组合；
+- **2024 年 4 月 9 日**：Albemuth 1st ONE-MAN LIVE「罪と楽園」举办，存流正式毕业，组合解散；组合最后一首原创曲《舟》于同日公开；
+- **2025 年 5 月 5 日**：官方正式公告，明透与琶舞（BEMA）将组成以「爱」为主题的新组合进行活动；
+- **2025 年 5 月 7 日**：明透与琶舞的原创曲 MV《Symbiotic Dominion》公开。
+
+> **代际结构**：[Albemuth](/zh/database/artists/groups/albemuth) 的归档与明透—琶舞新组合的开启，构成了神椿「旧组合永久归档 → 新组合接力开启」的典型代际传承样本。
 
 ## 代表作品与相关条目
 
@@ -132,27 +152,4 @@ ASU 出身于「深脊界」——与神椿世界并行存在的另一个世界�
 - [X (Twitter)](https://twitter.com/ASU_virtual)
 - [YouTube](https://www.youtube.com/channel/UCBLGjbYv6-xxju1i44RjnnA)
 
-
 <!-- V3 RESEARCH SUPPLEMENT asu -->
-
-## 企划定位与角色设计
-
-**[明透（ASU）](/zh/database/artists/solo/asu)** 是深脊界体系中的次世代型虚拟歌手，其角色人设由知名画师**米山舞**担纲。
-
-| 维度 | 内容 |
-| :--- | :--- |
-| **出道时间** | 2021 年 8 月（YouTube 初投稿正式出道） |
-| **所属体系** | [SINSEKAI RECORD](/zh/database/studios/sinsekai-record) |
-| **角色特征** | 拥有天生的节奏感与难以预测的歌声，性格天真烂漫，比起思考更喜欢凭直觉行动 |
-| **造型主题** | 以「光」为核心意象的视觉体系 |
-
-> **同门对照**：明透 与后来出道的新人 [琶舞（BEMA）](/zh/database/artists/solo/bema) 构成一组明确的镜像——如果说明透象征着「光明」，琶舞则被定位为「黑暗」的化身，两者的人设均出自米山舞之手。
-
-## 组合历程与后续展开
-
-- **2022 年 7 月 2 日**：与存流（ARU）以 [Albemuth](/zh/database/artists/groups/albemuth) 名义发布首支原创曲《新世界へ / To the new world》，随后于同年 11 月 19 日正式宣布结成该双人组合；
-- **2024 年 4 月 9 日**：Albemuth 1st ONE-MAN LIVE「罪と楽園」举办，存流正式毕业，组合解散；组合最后一首原创曲《舟》于同日公开；
-- **2025 年 5 月 5 日**：官方正式公告，明透与琶舞（BEMA）将组成以「爱」为主题的新组合进行活动；
-- **2025 年 5 月 7 日**：明透与琶舞的原创曲 MV《Symbiotic Dominion》公开。
-
-> **代际结构**：[Albemuth](/zh/database/artists/groups/albemuth) 的归档与明透—琶舞新组合的开启，构成了神椿「旧组合永久归档 → 新组合接力开启」的典型代际传承样本。

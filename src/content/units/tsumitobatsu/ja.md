@@ -23,12 +23,30 @@ roles:
 lifecycle:
   activity: "active"
 ---
-
 ## 概要
 
 罪十罰（TSUMITOBATSU）は、[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio)の「[少女革命計画](/ja/projects/labels/girls-revolution-project)」（GIRLS REVOLUTION PROJECT）レーベルに所属する3人組のバーチャルシンガーユニット。メンバーは[美古途](/ja/artists/girls_revolution_project/mikoto)、[夕凪機](/ja/artists/girls_revolution_project/yunagi)、[氷夏至](/ja/artists/girls_revolution_project/hinageshi)。
 
 仮想世界に響く歌声で罪の烙印を刻むアグレッシブなダンスチューンを特徴とし、少女たちは密約を交わし、終わらない夜に微睡む。[心世紀](/ja/artists/girls_revolution_project/sinseiki)と並び、[少女革命計画](/ja/projects/labels/girls-revolution-project)を支える中心ユニット。
+
+## 制作陣と音楽性
+
+罪十罰の楽曲は、重量級の編曲と反抗的な叙事を得意とするクリエイターたちが供給している。
+
+| 作曲家 | 参加曲 |
+| :--- | :--- |
+| **他人事** | 《弔花》《大罪》など——組の作詞作曲の中核の一つ |
+| **biz / ZERA** | 《DIGGER》 |
+| **Zexnum** | 《Synapse》 |
+| **梅とら** | 《SHOCK》 |
+| **⌘ハイノミ** | 《blindness》 |
+| **椎乃味醂** | 《アウフヘーベン》 |
+| **[平田義久](/ja/database/creators/hiratayoshihisa)** | 《Brrrrrreak It》 |
+| **[tokiwa](/ja/database/creators/tokiwa)** | 《Envy》（作詞作曲、編曲：朝比奈健人） |
+| **矢野達也** | 《SURVIVAL》 |
+| **[梓川](/ja/database/artists/solo/azsagawa)** | 《RAVEN》（作詞作曲） |
+
+> **スタイルの位置づけ**：公式は罪十罰を「仮想世界に響く歌声で、罪の烙印を刻む過激なダンスミュージック」と説明する。重量級のドラム、歪んだ音の壁、高密度のディクションが中心で、《心》側の都市型エレクトロニカと鮮やかに対比される。
 
 ## 活動履歴
 
@@ -70,15 +88,6 @@ lifecycle:
 
 {{/details}}
 
-## 外部リンク
-
-- [少女革命計画 公式サイト](https://girlsrevolutionproject.jp/)
-- [公式 X（旧Twitter）](https://x.com/girls_rev_pj)
-- [公式 YouTube](https://www.youtube.com/@girls_rev_pj)
-
-
-<!-- V3 RESEARCH SUPPLEMENT tsumitobatsu -->
-
 ## 1st アルバム《改変 -罪-》全曲アーカイブ
 
 罪十罰の初のフルアルバム《**改変 -罪-**》は **2025 年 10 月 29 日**にリリースされ、全 11 曲を収録する「罪」側世界観の集大成である。
@@ -98,25 +107,6 @@ lifecycle:
 | 11 | 改変 | feat. たなか / LLLL |
 
 > **アルバムの構造**：心世紀の《改変 -心-》と対をなすミラーアルバムである。同名曲《改変》が両盤で「心」と「罪」の主題をそれぞれ収束させる。罪十罰側の制作陣（他人事、梅とら、椎乃味醂、平田義久、tokiwa、biz など）は、明らかに過激なロック／ヘヴィ・エレクトロニック寄りである。
-
-## 制作陣と音楽性
-
-罪十罰の楽曲は、重量級の編曲と反抗的な叙事を得意とするクリエイターたちが供給している。
-
-| 作曲家 | 参加曲 |
-| :--- | :--- |
-| **他人事** | 《弔花》《大罪》など——組の作詞作曲の中核の一つ |
-| **biz / ZERA** | 《DIGGER》 |
-| **Zexnum** | 《Synapse》 |
-| **梅とら** | 《SHOCK》 |
-| **⌘ハイノミ** | 《blindness》 |
-| **椎乃味醂** | 《アウフヘーベン》 |
-| **[平田義久](/ja/database/creators/hiratayoshihisa)** | 《Brrrrrreak It》 |
-| **[tokiwa](/ja/database/creators/tokiwa)** | 《Envy》（作詞作曲、編曲：朝比奈健人） |
-| **矢野達也** | 《SURVIVAL》 |
-| **[梓川](/ja/database/artists/solo/azsagawa)** | 《RAVEN》（作詞作曲） |
-
-> **スタイルの位置づけ**：公式は罪十罰を「仮想世界に響く歌声で、罪の烙印を刻む過激なダンスミュージック」と説明する。重量級のドラム、歪んだ音の壁、高密度のディクションが中心で、《心》側の都市型エレクトロニカと鮮やかに対比される。
 
 ## 公演とコラボのアーカイブ
 
@@ -138,3 +128,11 @@ lifecycle:
 - **少女革命計画 × 岡田美術館 —絢爛革命 心・罪—**（2026-01-31 〜 03-31）。
 
 > **組の位置づけ**：罪十罰は心世紀とともに少女革命計画の「心—罪」二軸構造をなす。それぞれに完結した世界観を持ちながら、《改変》《現世回帰》《鈍色幻灯》《主人行路》《クロマティック》などの共同曲で交差する。神椿が複数組の同時運用に挑んだ体系的な実験である。
+
+## 外部リンク
+
+- [少女革命計画 公式サイト](https://girlsrevolutionproject.jp/)
+- [公式 X（旧Twitter）](https://x.com/girls_rev_pj)
+- [公式 YouTube](https://www.youtube.com/@girls_rev_pj)
+
+<!-- V3 RESEARCH SUPPLEMENT tsumitobatsu -->

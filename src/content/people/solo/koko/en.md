@@ -54,7 +54,6 @@ lifecycle:
   startedAt: "2020-10-25"
 summary: "A virtual rock singer defined by forceful long tones and a direct, high-impact vocal presence."
 ---
-
 ## Overview
 
 KOKO is a virtual singer from [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) and a member of [V.W.P](/en/artists/vwp/vwp). One of her clearest signatures is the way she drives songs with powerful long tones and a head-on vocal attack, which often gives her a more rock-oriented image within the wider Kamitsubaki lineup.
@@ -62,6 +61,40 @@ KOKO is a virtual singer from [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsuba
 ## Role and Creative Position
 
 KOKO tends to leave an impression through pressure and directness first. Whether in solo material or V.W.P unit songs, her voice often functions as a forward-driving force. In the group's internal balance, she frequently reads as one of the members most aligned with breakthrough energy.
+
+## Basic Profile and Character Setting
+
+KOKO's name contains the nuance of blessing and protection. Her initial design by SWAV is recognizable through long black-to-purple hair, purple eyes, earrings, a neck ornament, and functional outerwear. The Type-Real Alnair form, revealed through *PLAYER*, emphasizes a real-stage performer and musician.
+
+| Item | Detail |
+| --- | --- |
+| Character design | SWAV |
+| Major projects | *PLAYER*, *ARARE LIVE*, V.W.P |
+| Important collaborators | Onuma Parsley, Len, Feryquitous, Moimi Kashi, DIVELA |
+| Voice extension | COKO, a musical-isotope voicebank based on KOKO's voice |
+
+## Forms, Setting, and Anecdotes
+
+KOKO's stage forms are linked to each live's concept rather than being interchangeable everyday outfits. KOKO is the virtual singer, while COKO is a separate character and voicebank derived from her voice data. Public health announcements should be recorded factually without speculation about private medical details.
+
+## Visual Design Archive
+
+KOKO's design is by **SWAV** and is the most tactical, integrated look in V.W.P.
+
+| Part | Detail |
+| :--- | :--- |
+| Hair | Waist-length two-tone hair, grey/black at the top and purple/blue at the tips, with a metallic sheen |
+| Eyes and face | Purple eyes, **two tear moles at the outer corner of the right eye** |
+| Accessories | Round metal earrings; a choker with a round metal ornament at its centre |
+| Upper | Black cropped jacket over a grey-black midriff top, leather vest, purple/white tie |
+| Lower | Grey-black fitted shorts with tactical straps at the waist and groin and utility pouches at the hips |
+| Socks and shoes | Glossy black leather-look tights, open on the inner side and at the right boot's knee; high-top sneakers |
+| Other | A glove on the left hand |
+
+**Design evolution**
+
+- **13 March 2021**: her 3D model and the "{{ruby::花魁鳥::おいらどり::oiradori}}" attire were shown for the first time at KAF's "Fukakai Two Q2", the dress originally designed by [PALOW.](/en/artists/creators/palow).
+- **29 December 2021**: at her 1st ONE-MAN LIVE "PLAYER" she unveiled the SWAV-designed **"Type-real Alnair"**, with hair in a high ponytail, the outfit reworked into a jacket and skirt, and new sneakers.
 
 ## Activity History
 
@@ -107,6 +140,36 @@ KOKO tends to leave an impression through pressure and directness first. Whether
 - **February 28**: Performed at V.W.P 4th ONE-MAN LIVE "Phenomenon IV -Reversal of Fate-" (現象Ⅳ -反転運命-) at Pia Arena MM.
 - **April**: Performed at events such as "NIGHT HIKE -scramble- '26" and "#VRF_2026".
 - **September 5**: Scheduled to perform at "KAMITSUBAKI FES '26 FIELD OF RESONANCE" on Day 1 of "KAMITSUBAKI WARS 2026 Kamitsubaki Yokohama Sensen".
+
+## Commercial Tie-ups and Theme Songs
+
+| Track | Tie-up | Period |
+| :--- | :--- | :--- |
+| "ASH" | Insert song for the school RPG *Monark* | 2021 |
+| "TIME" | Opening theme for the TV anime *The 500 Million Year Button* | 2022 |
+| "Watashi wo Matou" | Opening theme for the game *Seifuku Kanojo* | 2023 |
+
+> KOKO's songs are frequently licensed for games and anime; her piercing rock vocal sits especially well with contexts of struggle and defiance.
+
+## Discography, Live Performance, and Collaborations
+
+“harmony”, “Hakuchūmu”, “Kono Sekai ni Kuchizuke wo”, “ASH”, “Meimoku”, “Yakō wo Yobu”, and “the last bullet” outline the path from debut singles to the *PLAYER* period. *prayer* (2022) and *prayer2* (2025) provide the clearest album-level view of her solo line. The *PLAYER* series centres on stage impact, while *ARARE LIVE* highlights covers and range. After a health-related hiatus, *PLAYER III* marked her return to an audience-present solo stage.
+
+## Voice Acting Roles
+
+| Year | Work | Role | Type |
+| :--- | :--- | :--- | :--- |
+| 2025 | *[KAMITSUBAKI CITY UNDER CONSTRUCTION](/en/projects/arg/kamitsubaki-city)* | **Rinne Koko** | TV anime |
+| 2025 | *[KAMITSUBAKI CITY REGENERATE](/en/database/projects/kamitsubaki-city-regenerate)* | **Rinne Koko** | Game |
+
+> **Rinne Koko** is KOKO's corresponding character within the *KAMITSUBAKI CITY* setting.
+
+## Live Performance Archive
+
+- **KOKO STREAMING COVER LIVE "Arare / ARARE" series**: cover-focused online streaming shows, followed by "Arare Live 2 / ARARE2" — her most continuous outlet outside solo concerts.
+- **KOKO 1st ONE-MAN LIVE "PLAYER"** (29 December 2021): premiered the SWAV-designed "Type-real Alnair". {{spoiler::Just before the show she performed her original "harmony" on piano.}}
+- **KOKO 2nd ONE-MAN LIVE "PLAYERII -Kamitsubaki City Yonban-gai-"**: directly links her solo concert to the district-naming system of *KAMITSUBAKI CITY*.
+- **SINGULARITY LIVE vol.2**: a two-man live with [HARUSARUHI](/en/artists/vwp/harusaruhi), pitting two utterly different vocal approaches — piercing rock against dense rap — against each other.
 
 ## Representative Works and Related Entries
 
@@ -170,91 +233,6 @@ KOKO tends to leave an impression through pressure and directness first. Whether
 
 {{/details}}
 
-## Basic Profile and Character Setting
-
-KOKO's name contains the nuance of blessing and protection. Her initial design by SWAV is recognizable through long black-to-purple hair, purple eyes, earrings, a neck ornament, and functional outerwear. The Type-Real Alnair form, revealed through *PLAYER*, emphasizes a real-stage performer and musician.
-
-| Item | Detail |
-| --- | --- |
-| Character design | SWAV |
-| Major projects | *PLAYER*, *ARARE LIVE*, V.W.P |
-| Important collaborators | Onuma Parsley, Len, Feryquitous, Moimi Kashi, DIVELA |
-| Voice extension | COKO, a musical-isotope voicebank based on KOKO's voice |
-
-## Discography, Live Performance, and Collaborations
-
-“harmony”, “Hakuchūmu”, “Kono Sekai ni Kuchizuke wo”, “ASH”, “Meimoku”, “Yakō wo Yobu”, and “the last bullet” outline the path from debut singles to the *PLAYER* period. *prayer* (2022) and *prayer2* (2025) provide the clearest album-level view of her solo line. The *PLAYER* series centres on stage impact, while *ARARE LIVE* highlights covers and range. After a health-related hiatus, *PLAYER III* marked her return to an audience-present solo stage.
-
-## Forms, Setting, and Anecdotes
-
-KOKO's stage forms are linked to each live's concept rather than being interchangeable everyday outfits. KOKO is the virtual singer, while COKO is a separate character and voicebank derived from her voice data. Public health announcements should be recorded factually without speculation about private medical details.
-
-## Related Projects / Setting
-
-KOKO is tied to V.W.P, to the musical isotope COKO, and to Kamitsubaki City related projects. In the larger map of Kamitsubaki voices, she represents one of the clearest lines of momentum and impact.
-
-## References
-
-- KAMITSUBAKI STUDIO official artist page: <https://kamitsubaki.jp/artist/koko/>
-- KAMITSUBAKI STUDIO official V.W.P page: <https://kamitsubaki.jp/artist/v-w-p/>
-- Chinese Wikipedia: V.W.P: <https://zh.wikipedia.org/wiki/V.W.P>
-
-## External Links
-
-- [Official Website](https://kamitsubaki.jp/artist/koko/)
-- [YouTube(Main)](https://www.youtube.com/channel/UC7Gow-kNHq21oejSIDg9PAg)
-- [X (Twitter)](https://twitter.com/KOKO__virtual)
-- [TikTok](https://www.tiktok.com/@koko_virtual)
-- [piapro](https://piapro.jp/virtual_koko)
-
-
-<!-- V3 RESEARCH SUPPLEMENT koko -->
-
-## Visual Design Archive
-
-KOKO's design is by **SWAV** and is the most tactical, integrated look in V.W.P.
-
-| Part | Detail |
-| :--- | :--- |
-| Hair | Waist-length two-tone hair, grey/black at the top and purple/blue at the tips, with a metallic sheen |
-| Eyes and face | Purple eyes, **two tear moles at the outer corner of the right eye** |
-| Accessories | Round metal earrings; a choker with a round metal ornament at its centre |
-| Upper | Black cropped jacket over a grey-black midriff top, leather vest, purple/white tie |
-| Lower | Grey-black fitted shorts with tactical straps at the waist and groin and utility pouches at the hips |
-| Socks and shoes | Glossy black leather-look tights, open on the inner side and at the right boot's knee; high-top sneakers |
-| Other | A glove on the left hand |
-
-**Design evolution**
-
-- **13 March 2021**: her 3D model and the "{{ruby::花魁鳥::おいらどり::oiradori}}" attire were shown for the first time at KAF's "Fukakai Two Q2", the dress originally designed by [PALOW.](/en/artists/creators/palow).
-- **29 December 2021**: at her 1st ONE-MAN LIVE "PLAYER" she unveiled the SWAV-designed **"Type-real Alnair"**, with hair in a high ponytail, the outfit reworked into a jacket and skirt, and new sneakers.
-
-## Voice Acting Roles
-
-| Year | Work | Role | Type |
-| :--- | :--- | :--- | :--- |
-| 2025 | *[KAMITSUBAKI CITY UNDER CONSTRUCTION](/en/projects/arg/kamitsubaki-city)* | **Rinne Koko** | TV anime |
-| 2025 | *[KAMITSUBAKI CITY REGENERATE](/en/database/projects/kamitsubaki-city-regenerate)* | **Rinne Koko** | Game |
-
-> **Rinne Koko** is KOKO's corresponding character within the *KAMITSUBAKI CITY* setting.
-
-## Commercial Tie-ups and Theme Songs
-
-| Track | Tie-up | Period |
-| :--- | :--- | :--- |
-| "ASH" | Insert song for the school RPG *Monark* | 2021 |
-| "TIME" | Opening theme for the TV anime *The 500 Million Year Button* | 2022 |
-| "Watashi wo Matou" | Opening theme for the game *Seifuku Kanojo* | 2023 |
-
-> KOKO's songs are frequently licensed for games and anime; her piercing rock vocal sits especially well with contexts of struggle and defiance.
-
-## Live Performance Archive
-
-- **KOKO STREAMING COVER LIVE "Arare / ARARE" series**: cover-focused online streaming shows, followed by "Arare Live 2 / ARARE2" — her most continuous outlet outside solo concerts.
-- **KOKO 1st ONE-MAN LIVE "PLAYER"** (29 December 2021): premiered the SWAV-designed "Type-real Alnair". {{spoiler::Just before the show she performed her original "harmony" on piano.}}
-- **KOKO 2nd ONE-MAN LIVE "PLAYERII -Kamitsubaki City Yonban-gai-"**: directly links her solo concert to the district-naming system of *KAMITSUBAKI CITY*.
-- **SINGULARITY LIVE vol.2**: a two-man live with [HARUSARUHI](/en/artists/vwp/harusaruhi), pitting two utterly different vocal approaches — piercing rock against dense rap — against each other.
-
 ## Anecdotes and Community Culture
 
 - **Upload format**: her covers are numbered "No.xxx" and the description always reads "歌ってみました。No.xxx TO BE CONTINUE."
@@ -277,6 +255,10 @@ KOKO's design is by **SWAV** and is the most tactical, integrated look in V.W.P.
 - **The other path**: {{spoiler::had she not become KOKO of V.W.P, she would have become a drum instructor at a music school — she was once the drummer in an indie band.}}
 - **Character**: persevering, earnest, awkwardly pure and unstoppable, while quietly looking out for others in her own way. {{spoiler::Yet precisely this gentle inflexibility has cost her dearly, and she has been hurt by people she trusted.}}
 
+## Related Projects / Setting
+
+KOKO is tied to V.W.P, to the musical isotope COKO, and to Kamitsubaki City related projects. In the larger map of Kamitsubaki voices, she represents one of the clearest lines of momentum and impact.
+
 ## Interactions with V.W.P Members
 
 Since her debut KOKO has continually posted photos of her interactions with other KAMITSUBAKI members on Twitter, earning her the fan nickname "the studio's number-one harem king". The following are documented milestones.
@@ -292,3 +274,19 @@ Since her debut KOKO has continually posted photos of her interactions with othe
 | 2021-02-09 | Posted a photo choosing chocolates together with RIM |
 
 > These records are important grassroots material for understanding the web of relationships behind V.W.P's "witch assemblies", and they testify to how much the five actually interacted around the time the group was formally formed.
+
+## References
+
+- KAMITSUBAKI STUDIO official artist page: <https://kamitsubaki.jp/artist/koko/>
+- KAMITSUBAKI STUDIO official V.W.P page: <https://kamitsubaki.jp/artist/v-w-p/>
+- Chinese Wikipedia: V.W.P: <https://zh.wikipedia.org/wiki/V.W.P>
+
+## External Links
+
+- [Official Website](https://kamitsubaki.jp/artist/koko/)
+- [YouTube(Main)](https://www.youtube.com/channel/UC7Gow-kNHq21oejSIDg9PAg)
+- [X (Twitter)](https://twitter.com/KOKO__virtual)
+- [TikTok](https://www.tiktok.com/@koko_virtual)
+- [piapro](https://piapro.jp/virtual_koko)
+
+<!-- V3 RESEARCH SUPPLEMENT koko -->

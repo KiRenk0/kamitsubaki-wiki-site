@@ -43,7 +43,6 @@ lifecycle:
   activity: "active"
 summary: "Novelist, screenwriter, and game creator in business partnership with KAMITSUBAKI STUDIO, active across novels, games, and anime since 2005."
 ---
-
 ## Overview
 
 Tsukishima Souki (月島 総記) is a novelist, screenwriter, and game creator who holds a business partnership (業務提携) with [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio). As an external collaborator rather than a full studio member, he contributes narrative expertise drawn from over two decades of professional work spanning novels, games, and anime.
@@ -55,20 +54,6 @@ He debuted in 2005 after winning the Square Enix Novel Grand Prize, launching a 
 Tsukishima's strength lies in his adaptability. Unlike creators who specialize in a single medium, he moves fluidly between novels, game scenarios, and anime screenplays, maintaining narrative coherence and emotional depth regardless of format. This versatility aligns well with KAMITSUBAKI STUDIO's cross-media approach to its virtual artist universe.
 
 His involvement in high-profile franchises demonstrates his capacity to work within established worlds while bringing his own creative voice. Whether contributing to a beloved Final Fantasy sub-series or crafting original narratives, his writing consistently balances world-building with intimate character work.
-
-## Representative Works
-
-- Root Double — Before Crime * After Days (visual novel franchise)
-- Final Fantasy Type-0 / Agito (game scenario)
-- BATTLE OF TOKYO (multimedia project)
-- INGRESS THE ANIMATION (anime screenplay)
-
-## External Links
-
-- [Twitter](https://twitter.com/tsukisimasouki)
-
-
-<!-- V3 RESEARCH SUPPLEMENT tsukisimasouki -->
 
 ## Worldview Architecture and Narrative Engineering
 
@@ -83,6 +68,13 @@ His involvement in high-profile franchises demonstrates his capacity to work wit
 
 > **His place in the project**: Tsukishima Souki is the actual builder of the fictional city of KAMITSUBAKI City — KAF and the other singers supply the voice and the image, while he supplies the city’s history, geography and fate.
 
+## Representative Works
+
+- Root Double — Before Crime * After Days (visual novel franchise)
+- Final Fantasy Type-0 / Agito (game scenario)
+- BATTLE OF TOKYO (multimedia project)
+- INGRESS THE ANIMATION (anime screenplay)
+
 ## Narrative Structure and Work Index
 
 - **The original 《神椿市建设中。》 novel and chronicle**: built the core settings of the city’s “singularity,” the witches’ avatars and the mechanism of “restoration.”
@@ -91,3 +83,9 @@ His involvement in high-profile franchises demonstrates his capacity to work wit
 - **The chronicle method**: using more than 500 events spanning 2018–2026 as its skeleton, it integrates the milestones of music releases, live performances, games and anime into a single traceable timeline.
 
 > **Methodological trait**: Tsukishima Souki’s narrative is not “writing a story for the characters” but “writing a history for the world” — the characters are the concrete projections of this city at particular points in time.
+
+## External Links
+
+- [Twitter](https://twitter.com/tsukisimasouki)
+
+<!-- V3 RESEARCH SUPPLEMENT tsukisimasouki -->
