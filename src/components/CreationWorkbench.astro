@@ -1,13 +1,15 @@
 ---
 import CreationFields from './CreationFields.astro';
 import WorkspaceButton from './WorkspaceButton.astro';
+import ContributionFlow from './ContributionFlow.astro';
 import '../styles/creationWorkbench.css';
-const {live=false}=Astro.props;
+const {live=false,locale='zh'}=Astro.props;
 ---
 <section class="creation-prototype" data-creation-prototype={!live || undefined} data-creation-uploader={live || undefined}>
  <p class="creation-demo-note" hidden={live}><strong>交互原型</strong>示例设定与审核记录仅用于界面验收。选入的文件只在本机预览，不发送到服务器。</p>
  <nav hidden={live} class="creation-modes" aria-label="工作台示例"><button type="button" data-creation-mode="upload" aria-pressed="true">上传工作台</button><button type="button" data-creation-mode="review" aria-pressed="false">审核工作台</button></nav>
  <div data-creation-upload>{live&&<p data-upload-session role="status">正在检查登录与可恢复的上传批次…</p>}
+  {live&&<ContributionFlow kind="gallery" locale={locale}/>}
   <div class="creation-toolbar"><div><h2>一套设定，一组照片</h2><p>先填写这套设定的资料，再添加属于它的照片。另一套设定请点击「新增一组设定」。</p></div><div><WorkspaceButton hidden={live} data-demo-files tone="quiet">载入示例图片</WorkspaceButton><WorkspaceButton data-add-set>＋ 新增一组设定</WorkspaceButton></div></div>
   <div class="creation-workspace">
    <aside class="creation-index"><p class="creation-caption">本批设定</p><nav data-set-index aria-label="设定目录"></nav><p class="creation-muted">每组独立填写资料、添加照片。点击目录可定位到对应设定。</p></aside>

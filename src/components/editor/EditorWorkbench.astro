@@ -10,6 +10,7 @@ import { entryTypes, blockTypes } from '../../lib/visualEditor.mjs';
 import '../../styles/visualEditor.css';
 import '../../styles/editorWorkbench.css';
 import EditorPrDemo from '../../components/editor/EditorPrDemo.astro';
+import ContributionFlow from '../../components/ContributionFlow.astro';
 import '../../styles/editorPrDemo.css';
 interface Props {locale:string;articleMode?:boolean;articleApi?:string}
 const {locale='zh',articleMode=false,articleApi=''}=Astro.props;
@@ -45,6 +46,7 @@ const icons = {
     {articleMode&&<p class="ve-pr-banner" role="status" data-article-status>{modeCopy.status}</p>}
     <div class="ve-pr-banner" data-pr-banner hidden><strong>{localEditor?st('投稿 · 本地联调'):st('投稿审核')}</strong><span>{localEditor?st('编辑、保存和审核均在本地运行。'):st('修改会提交给维护者审核，通过后发布。')}</span><button data-pr-history>{st('投稿与评论')} <span data-pr-count>0</span></button></div>
 <p class="ve-pr-banner" data-pr-draft-notice hidden><span data-pr-draft-description></span><button data-pr-recover>{st('查看服务端草稿')}</button></p>
+    <ContributionFlow kind={articleMode?'article':'entry'} locale={locale}/>
     <div class="ve-workspace">
       <nav class="ve-activity" aria-label={copy.workbench}>
         {(['outline','files','properties'] as const).map(side => <button data-side-button={side} hidden={articleMode&&side==='files'} aria-label={copy[side]} title={copy[side]} aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={icons[side]}/></svg><span>{copy[side]}</span></button>)}

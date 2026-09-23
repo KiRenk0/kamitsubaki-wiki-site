@@ -7,7 +7,7 @@ if(root&&!root.dataset.accountNavigationReady){
   const links=[...root.querySelectorAll('.account-sections a[href^="#"]')];
   const panels=[...root.querySelectorAll('[data-account-panel]')];
   const gate=root.querySelector('[data-account-gate]');
-  let selectedId;
+  let selectedId,firstPaint=true;
   function update(focus=false){
     const requested=['#identities','#devices','#data'].includes(location.hash)?'#security':location.hash;
     const id=links.some(link=>link.hash===requested)?requested.slice(1):'overview';
@@ -22,6 +22,8 @@ if(root&&!root.dataset.accountNavigationReady){
       const direction=links.findIndex(a=>a.hash==='#'+id)>links.findIndex(a=>a.hash==='#'+selectedId)?1:-1;
       revealPanel(root.querySelector('.account-panels'),{direction});
     }
+    if((firstPaint&&location.hash)||selectedId&&selectedId!==id)requestAnimationFrame(()=>window.scrollTo({top:0,behavior:'instant'}));
+    firstPaint=false;
     selectedId=id;
     if(focus){const heading=(gate.hidden?panels.find(panel=>!panel.hidden):gate)?.querySelector('h2');if(heading){heading.tabIndex=-1;heading.focus({preventScroll:true});}}
   }

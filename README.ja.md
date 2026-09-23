@@ -1,6 +1,6 @@
 # KAMITSUBAKI Wiki Site
 
-[中文](README.md) · [English](README.en.md) · [文書一覧](docs/README.md) · [投稿センター](https://kamitsubaki.wiki/ja/contribute/)
+[中文](README.md) · [English](README.en.md) · [文書一覧](docs/README.md) · [構成](docs/architecture.ja.md) · [投稿センター](https://kamitsubaki.wiki/ja/contribute/)
 
 非公式の多言語 KAMITSUBAKI STUDIO ファン百科です。公開サイトは Astro で静的生成します。百科項目は GitHub、独立記事は D1、ギャラリーの情報と画像は D1/R2 で管理し、公開前に必ず審査します。
 

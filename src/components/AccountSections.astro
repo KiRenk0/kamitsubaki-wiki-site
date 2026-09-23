@@ -1,0 +1,14 @@
+---
+import {accountWorkspaceCopy} from '../lib/accountWorkspaceCopy.mjs';
+import {accountCopy} from '../lib/accountCopy.mjs';
+interface Props {locale:string; active?:'account'|'creator';}
+const {locale,active='account'}=Astro.props;
+const ui=accountWorkspaceCopy(locale),c=accountCopy(locale),base=`/${locale}/account/`;
+const sections=[['overview',ui.overview],['creator',ui.creator],['library',c.library],['profile',c.profile],['security',ui.security],['appearance',ui.appearance]] as const;
+---
+<nav class="account-sections" aria-label={c.title}>
+  {sections.map(([key,label],index)=>{
+    const href=key==='creator'?`${base}creator/`:active==='creator'?`${base}#${key}`:`#${key}`;
+    return <a href={href} data-account-label={label} aria-current={key==='creator'&&active==='creator'?'page':key==='overview'&&active==='account'?'location':undefined}><span aria-hidden="true">{String(index+1).padStart(2,'0')}</span>{label}{key==='creator'&&<b data-creator-unread hidden></b>}</a>;
+  })}
+</nav>

@@ -1,6 +1,6 @@
 # KAMITSUBAKI Wiki Site
 
-[中文](README.md) · [日本語](README.ja.md) · [Documentation](docs/README.md) · [Contribution center](https://kamitsubaki.wiki/en/contribute/)
+[中文](README.md) · [日本語](README.ja.md) · [Documentation](docs/README.md) · [Architecture](docs/architecture.en.md) · [Contribution center](https://kamitsubaki.wiki/en/contribute/)
 
 An unofficial multilingual KAMITSUBAKI STUDIO fan encyclopedia. Astro generates the public site statically. Encyclopedia entries live in GitHub, independent articles in D1, and gallery metadata/images in D1 and R2. Publication always requires review.
 

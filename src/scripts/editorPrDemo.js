@@ -1,6 +1,7 @@
 import { editorApiBase, localEditor } from "../lib/editorConfig.mjs";
 import { sourceRequest } from "../lib/editorSource.mjs";
 import { diffLines, submissionLabels, isOpen } from "../lib/editorPrDemo.mjs";
+import {showContributionReceipt,updateContributionFlow} from '../lib/contributionFlow.mjs';
 // Explicit development mode. Production builds cannot activate the local service.
 const apiBase = editorApiBase;
 export function initializeEditorPrDemo(root, editor) {
@@ -270,6 +271,7 @@ export function initializeEditorPrDemo(root, editor) {
     olderEntries = [];
     message(t("正在连接投稿服务…"));
     dialog.showModal();
+    updateContributionFlow(root,{step:2});
     tab(name);
     try {
       await refresh();
@@ -278,7 +280,7 @@ export function initializeEditorPrDemo(root, editor) {
         base = null;
         selected = null;
         const requested=new URLSearchParams(location.search).get("submission");
-        if(requested){selected=await api("/api/editor/submissions/"+encodeURIComponent(requested));tab("discussion");}
+        if(requested){selected=await api("/api/editor/submissions/"+encodeURIComponent(requested));tab("discussion");showContributionReceipt(root,{id:selected.id,state:selected.sync==='synced'?t('投稿已保存，等待维护者审核。'):t('投稿已保存，后台正在创建或更新 PR。'),href:`/${root.dataset.locale}/account/creator/?recordType=entry&record=${encodeURIComponent(selected.id)}`});}
         message(t("已加载当前账号的投稿记录。"));
         return;
       }
@@ -395,6 +397,7 @@ export function initializeEditorPrDemo(root, editor) {
       await refresh();
       tab("discussion");
       message(t("投稿已保存，后台正在创建或更新 PR。"));
+      showContributionReceipt(root,{id:result.id,state:t('投稿已保存，后台正在创建或更新 PR。'),href:`/${root.dataset.locale}/account/creator/?recordType=entry&record=${encodeURIComponent(result.id)}`});
     });
   $("[data-pr-withdraw]").onclick = () =>
     action(async () => {

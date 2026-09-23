@@ -1,4 +1,5 @@
 import {articleCopy} from '../lib/articleCopy.mjs';
+import {state as accountState} from './accountStore.js';
 import {mountArticlePicker,ensureArticleDraftUrl,initialArticleRelations,articleEntities} from '../lib/articleEntities.mjs';
 import {initializeArticleSubmission} from './articleSubmission.js';
 import {entitySourcePath} from '../lib/contentLayout.mjs';
@@ -21,6 +22,8 @@ const initialize = () => {
   if (!root || root.dataset.ready) return;
   root.dataset.ready = 'true';
   const $ = selector => root.querySelector(selector);
+  const returnTo=new URLSearchParams(location.search).get('returnTo');
+  if(returnTo){try{const target=new URL(returnTo,location.origin);if(target.origin===location.origin&&/^\/(zh|ja|en)\/account\/creator\/$/.test(target.pathname)){const back=$('.ve-home');back.href=target.pathname+target.search;back.textContent='← '+(root.dataset.locale==='en'?'Creator center':root.dataset.locale==='ja'?'クリエイターセンター':'创作者中心');}}catch{}}
   const copy = JSON.parse($('[data-editor-copy]').textContent);
   const toolbarScroll = $('.ve-toolbar-scroll');
   const toolbarArrows = [...root.querySelectorAll('[data-toolbar-scroll]')];
@@ -79,6 +82,7 @@ const initialize = () => {
   const serializeDraft=()=>articleMode?(draft.articleBodySnapshot===JSON.stringify(draft.blocks)?draft.articleOriginalBody:draft.blocks.map(b=>blockMarkdown(b,draft.meta.locale)).join('\n\n')):exportMarkdown(draft);
   let history = [JSON.stringify(draft)], cursor = 0, historyTimer;
   function save() {
+    if(!draft.ownerId&&accountState.viewer?.userId)draft.ownerId=accountState.viewer.userId;
     try { localStorage.setItem(key, JSON.stringify(draft)); saving = true; } catch { saving = false; }
     $('[data-save-status]').textContent = sourcePending !== null ? copy.sourcePending : saving ? copy.saved : copy.unsaved;
   }

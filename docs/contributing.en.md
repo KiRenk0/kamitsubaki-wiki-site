@@ -8,6 +8,10 @@ Edit an existing entry from its reader's edit action, which supplies the actual 
 
 Encyclopedia entries use GitHub proposals. Article drafts, revisions and published versions use separate D1 tables, with moderation at `/admin/articles`; they do not create GitHub PRs. Gallery submissions use the Worker, private R2 staging and D1 records; no GitHub file change is needed. Signed-in users may suggest improvements to anyone's published gallery records. The site owner reviews changes before publication.
 
+## Track a submission
+
+After signing in, open [My Space → Creator center](/en/account/creator/) for entry, article and gallery records. A successful submission leaves a receipt on the editor or uploader with a record ID and a direct review-progress link. Search or filter the center by type and status, open a record to read feedback, then choose Continue editing when action is needed. Browser-only drafts are shown separately from cloud records; staging gallery files is not the same as submitting them for review. Entries become public only after review, GitHub merge and site deployment. Articles and gallery sets follow their own review and publication steps. New decisions and feedback appear as in-site notices and are marked read only after opening the matching record.
+
 ## Write an entry
 
 1. Search for an existing entity before creating another translation or spelling of it.
