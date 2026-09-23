@@ -12,7 +12,7 @@ const locale=Astro.params.locale!;const copy=articleCopy(locale);const api=impor
 <WorkspaceLayout locale={locale} title={copy.title} intro={copy.intro} path="/articles/" eyebrow="ARTICLES" width="wide" backHref={`/${locale}/`} backLabel={locale==='en'?'Home':locale==='ja'?'ホーム':'首页'} mainAttributes={{'data-article-api':api,'data-locale':locale,'data-article-page':'list'}}>
  <WorkspaceButton slot="actions" href={`/${locale}/articles/submit/`} tone="primary" data-article-write>{copy.submit}</WorkspaceButton>
  <p data-related-filter hidden><span data-related-name></span> <WorkspaceButton tone="quiet" data-related-clear>{copy.removeRelated}</WorkspaceButton></p>
- <WorkspaceFilters role="search">
+ <WorkspaceFilters role="search" hidden>
   <label><span>{copy.searchLabel}</span><input name="q" type="search" placeholder={copy.searchLabel}/></label>
   <label><span>{copy.category}</span><select name="category"><option value="">{copy.all}</option>{Object.entries(copy.categories).map(([value,label])=><option value={value}>{label}</option>)}</select></label>
   <label><span>{locale==='en'?'Order':locale==='ja'?'順序':'排序'}</span><select name="sort"><option value="newest">{locale==='en'?'Newest first':locale==='ja'?'新しい順':'最新更新'}</option><option value="oldest">{locale==='en'?'Oldest first':locale==='ja'?'古い順':'最早更新'}</option></select></label>

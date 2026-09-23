@@ -68,18 +68,31 @@ if(root){
  }
  $('[data-simulate-upload]').onclick=async()=>{if(simulating||disposed)return;if(queueState().issues.length){index();$('[data-upload-issues] button')?.click();return;}if(!sets().every(set=>[...set.querySelectorAll('input,textarea,select')].every(input=>input.reportValidity())))return;if(files.some(f=>f.decodeError)){status('请先移除无法读取的图片');return;}simulating=true;render();try{await persist();await saveRemote();const queue=files.filter(f=>f.state!=='staged');let next=0;await Promise.all(Array.from({length:Math.min(3,queue.length)},async()=>{while(next<queue.length&&!disposed)await uploadOne(queue[next++]);}));status(files.every(f=>f.state==='staged')?'所有文件已暂存。检查资料后点击「提交全部设定审核」。':'部分文件未完成，点击上传可重试失败文件；成功文件不会重复上传。');await quotaInfo();}catch(error){status(error.message);}finally{simulating=false;render();}};
  $('[data-submit-batch]').onclick=async()=>{if(simulating||disposed)return;simulating=true;index();try{await saveRemote();try{await request('/batches/'+batch.id+'/submit',{version:batch.version});}catch(error){const probe=await request('/batches/'+batch.id).catch(()=>null);if(probe?.batch?.status!=='submitted')throw error;}batch={...batch,status:'submitted'};await galleryDraft('delete',owner);dirty=false;status(flowText.submitted);receipt(batch.id);disposed=true;}catch(error){status(error.message);}finally{simulating=false;index();}};
- async function quotaInfo(){const q=await request('/quota');$('[data-upload-session]').textContent=`今日剩余 ${q.remaining} / ${q.limit} 张 · 最多并发 3 张`+(batch?` · 暂存批次到期：${batch.expires_at} UTC`:'');}
+ async function quotaInfo(){
+  const q=await request('/quota');
+  $('[data-session-state]').textContent='可以上传';
+  $('[data-quota-remaining]').textContent=String(q.remaining);
+  $('[data-quota-limit]').textContent=String(q.limit);
+  $('[data-session-concurrency]').textContent=String(q.concurrency);
+  all('[data-session-stat]').forEach(item=>item.hidden=false);
+  const expiry=$('[data-session-expiry]');expiry.hidden=!batch?.expires_at;
+  if(batch?.expires_at){
+   const raw=String(batch.expires_at),date=new Date(/[zZ]|[+-]\d\d:\d\d$/.test(raw)?raw:`${raw.replace(' ','T')}Z`);
+   const value=$('[data-session-expiry-value]');value.textContent=Number.isNaN(date.getTime())?raw:new Intl.DateTimeFormat(locale==='ja'?'ja-JP':locale==='en'?'en-US':'zh-CN',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'}).format(date);
+   value.title=`${raw} UTC`;
+  }
+ }
  async function restore(draft,remote){hydrating=true;files.forEach(f=>URL.revokeObjectURL(f.url));files=[];$('[data-set-container]').replaceChildren();const data=draft&&(!remote||draft.version===remote.batch.version)?draft.manifest:remote?.batch.manifest;if(!data?.sets?.length){$('[data-set-container]').append(template.cloneNode(true));hydrating=false;return;}
   for(const [i,set]of data.sets.entries()){const node=template.cloneNode(true);node.dataset.set=set.id;node.dataset.existing=set.setId||'';node.dataset.version=set.baseVersion||0;node.id='creation-'+set.id;node.querySelector('h3').textContent=`第 ${i+1} 套设定`;roleOptions(node);node.querySelectorAll('[name]').forEach(input=>{input.value=Array.isArray(set.metadata[input.name])?set.metadata[input.name].join(', '):set.metadata[input.name]||'';input.id=set.id+'-'+input.name;input.closest('label').htmlFor=input.id;});node.querySelectorAll('[data-select-set]').forEach(e=>e.dataset.selectSet=set.id);node.querySelector('[data-drop-set]').dataset.dropSet=set.id;node.querySelector('[data-image-list]').replaceChildren();$('[data-set-container]').append(node);
    for(const image of set.images){const local=draft?.files.find(f=>f.id===image.fileId),server=remote?.files.find(f=>f.id===image.fileId),file=local?.file||local?.fileInfo||{name:server?.name||'需要重新选择文件',size:server?.size||0,type:server?.mime_type||'image/png'},item={...local,...image.metadata,id:image.fileId,set:set.id,file,width:server?.width||local?.width,height:server?.height||local?.height,state:server?.state==='staged'?'staged':'queued',progress:server?.state==='staged'?100:0};item.url=file instanceof Blob?URL.createObjectURL(file):server?.previewUrl||'';if(!(file instanceof Blob)&&item.state!=='staged')item.error='文件未备份，请重新选择';files.push(item);}
   }serial=Math.max(data.sets.length,...data.sets.map(s=>Number(s.id.replace('set-',''))||0));active=data.sets[0].id;render();if(files.length)preview(files[0]);hydrating=false;
  }
- async function initialize(){try{const viewer=await refreshAuth();owner=viewer?.userId;if(!owner){status('登录后可以恢复或新建上传批次。');const a=text('a','登录后继续');a.href='/zh/account/?returnTo='+encodeURIComponent(location.href);$('[data-upload-session]').replaceChildren(a);index();return;}
+ async function initialize(){try{const viewer=await refreshAuth();owner=viewer?.userId;if(!owner){status('登录后可以恢复或新建上传批次。');const a=text('a','登录后继续');a.href=`/${locale}/account/?returnTo=`+encodeURIComponent(location.href);$('[data-session-state]').replaceChildren(a);index();return;}
   characters=(await request('/characters')).characters;roleOptions(template);sets().forEach(set=>roleOptions(set));
   const params=new URLSearchParams(location.search);let draft;try{draft=await galleryDraft('get',owner);}catch{status('本机存储不可用，请在上传成功前保留当前页面。');}
   let id=params.get('batch');let setId=params.get('set');const revision=params.get('revision');if(params.get('edit'))setId=(await request('/items/'+encodeURIComponent(params.get('edit')))).item.setId;if(setId||revision){batch=(await request(`/${setId?'sets/'+encodeURIComponent(setId)+'/edit-batch':'set-revisions/'+encodeURIComponent(revision)+'/resubmit'}`,{id:crypto.randomUUID()})).batch;id=batch.id;history.replaceState(null,'',batchUrl(id));draft=null;}
   id=id||draft?.id;if(id){const remote=await request('/batches/'+encodeURIComponent(id));batch=remote.batch;if(batch.status==='submitted'){status(flowText.submitted);receipt(batch.id);disposed=true;index();return;}if(batch.status!=='draft')throw Error('此批次已取消或过期，请在创作者中心查看记录。');await restore(draft?.id===id?draft:null,remote);history.replaceState(null,'',batchUrl(id));}else if(draft)await restore(draft,null);
-  await quotaInfo();index();}catch(error){status(error.message);}}
+  await quotaInfo();index();}catch(error){status(error.message);$('[data-session-state]').textContent='上传暂不可用';}}
  window.addEventListener('beforeunload',event=>{if(dirty||simulating){event.preventDefault();event.returnValue='';}});
  window.addEventListener('kamitsubaki-account-state',()=>{if(owner&&state.viewer?.userId!==owner){disposed=true;controller.abort();imageViewer().close();files.forEach(f=>URL.revokeObjectURL(f.url));files=[];root.querySelectorAll('input,textarea').forEach(e=>e.value='');all('[data-image-list]').forEach(e=>e.replaceChildren());$('[data-preview-image]').hidden=true;status('账号已变化，请刷新页面后继续。上一账号的资料已隐藏。');index();}});
  index();void initialize();

@@ -27,6 +27,7 @@ export async function initGallery() {
   const locale=root.dataset.locale||'zh';
   const more=root.querySelector<HTMLButtonElement>('[data-gallery-more]');
   const empty=root.querySelector<HTMLElement>('[data-empty]');
+  const filters=root.querySelector<HTMLFormElement>('form[data-workspace-filters]');
   let cards=[...root.querySelectorAll<HTMLElement>('[data-item]')];
   const selects=[...root.querySelectorAll<HTMLSelectElement>('form select')];
   let characters:GalleryCharacter[]=[], nextOffset:number|null=null, controller:AbortController|undefined;
@@ -59,7 +60,8 @@ export async function initGallery() {
         card.append(img,title,meta);card.addEventListener('click',()=>open(item.id));grid?.append(card);
       }
       cards=[...root.querySelectorAll<HTMLElement>('[data-item]')];nextOffset=page.nextOffset;
-      const count=root.querySelector('[data-count]');if(count)count.textContent=`${cards.length} / ${page.total}`;
+      if(filters)filters.hidden=!cards.length&&!selects.some(select=>Boolean(select.value));
+      const count=root.querySelector<HTMLElement>('[data-count]');if(count){count.textContent=`${cards.length} / ${page.total}`;count.hidden=!cards.length;}
       if(empty)empty.hidden=cards.length>0;if(more)more.hidden=nextOffset===null;
       if(status)status.textContent='';
     }catch(error){if(current.signal.aborted)return;if(status)status.textContent=payload.viewCopy.listError;if(retry){retry.hidden=false;retry.onclick=()=>void load(append);}}

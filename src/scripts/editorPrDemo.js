@@ -348,7 +348,7 @@ export function initializeEditorPrDemo(root, editor) {
   }
   $("[data-pr-open]").hidden = false;
   $("[data-pr-banner]").hidden = false;
-  $("[data-pr-open]").textContent = t("提交审核");
+  $("[data-pr-open]").textContent = root.dataset.locale === 'en' ? 'Submit via GitHub PR' : root.dataset.locale === 'ja' ? 'GitHub PR で投稿' : '提交 GitHub PR';
   $("[data-pr-open]").onclick = () => open();
   $("[data-pr-history]").onclick = () => open("history");
   $("[data-pr-close]").onclick = () => dialog.close();

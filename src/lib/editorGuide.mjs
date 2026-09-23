@@ -7,8 +7,8 @@ export const editorGuide = locale => resolveLocaleCopy({
   scope:'支持艺人、歌曲、专辑、企划和日志的新建与修改，可附加 PNG、JPEG、WebP 图片。支持简中、日文、英文，繁中由简中生成；公告仍使用 GitHub。',
   steps:[
    ['登录并找到原文','打开编辑器，点击“编辑旧词条”。输入名称或路径，按类型筛选，确认标题和语言后选择结果。也可以从词条携带原文链接进入。加载完成后再开始编辑；替换现有草稿前先备份。'],
-   ['新建词条与图片','点击顶部“新建词条”，选择类型、语言并填写目录；随后在“词条属性”补齐资料。“图片附件”可选择、拖入或粘贴图片，填写来源后加入，再插入正文或设为封面。图片先保存在本机，提交审核时与正文进入同一个 PR。最多 8 张、合计 4 MB，每张原图不超过 750 KB，不会压缩；更大原图通过 GitHub 上传，详见图片与文件教程。'],
-   ['直接写，随时看效果','在正文中输入；选中文字可加粗、添加链接、注音或剧透遮罩。空段落输入 / 打开插入菜单，方向键选择、Enter 插入、Esc 关闭。正文 Enter 新建段落，Shift+Enter 换行。用无序/有序列表按钮，或输入 - 空格、1. 空格开始列表；Enter 继续，空项目 Enter 退出，Tab / Shift+Tab 调整层级。'],
+   ['新建词条与图片','在顶部“文件”菜单选择“新建词条”，选择类型、语言并填写目录；随后在“词条属性”补齐资料。“图片附件”可选择、拖入或粘贴图片，填写来源后加入，再插入正文或设为封面。图片先保存在本机，提交审核时与正文进入同一个 PR。最多 8 张、合计 4 MB，每张原图不超过 750 KB，不会压缩；更大原图通过 GitHub 上传，详见图片与文件教程。'],
+   ['直接写，随时看效果','桌面首次进入并排展示正文和实时预览，手机在编辑与预览标签间切换。在正文中输入；选中文字可加粗、添加链接、注音或剧透遮罩。点击“插入内容”或在空段落输入 /，会在当前位置打开可搜索的插入菜单；方向键选择、Enter 插入、Esc 关闭。⌘ K 打开全局命令面板。正文 Enter 新建段落，Shift+Enter 换行。用无序/有序列表按钮，或输入 - 空格、1. 空格开始列表；Enter 继续，空项目 Enter 退出，Tab / Shift+Tab 调整层级。'],
    ['核对属性与来源','“属性”中检查名称、日期和条目标识；不要随意更改路径与 id。新增事实附上直接支持它的来源。用“专注写作”扩大正文区域，用“阅读预览”检查链接、表格和复杂内容。'],
    ['保存草稿，查看差异','浏览器草稿自动保存在当前设备。打开“提交审核”面板，可以手动保存、读取账号下的云端草稿，保留 90 天。含图片的草稿只保存在本机；重要修改仍建议下载 Markdown 备份，另行保管原图。提交前检查差异，确认没有意外删掉原文。'],
    ['填写说明并提交审核','填写这次改了什么、为什么改，以及相关资料来源，再提交。网站会代你创建 GitHub PR。提交后内容与说明会公开；草稿保存不等于已投稿，投稿也不等于已上线。'],
@@ -25,8 +25,8 @@ export const editorGuide = locale => resolveLocaleCopy({
   scope:'Encyclopedia entities and articles in Simplified Chinese, Japanese and English are supported. Traditional Chinese is generated. New articles and PNG, JPEG or WebP attachments are supported; announcements still use GitHub.',
   steps:[
    ['Sign in and load the original','Choose Edit existing article. Search by title or path, filter by type and verify the language. You can also follow an article’s editing link. Wait for loading to finish; back up your current draft before replacing it.'],
-   ['Create articles and add images','Use New article to choose a type, language and folder, then complete Article properties. In Images, select, drop or paste images and provide their source. Insert them into the article or use them as a cover. Images stay local until submission and share the same PR: up to 8 images, 4 MB total, 750 KB per original, without compression. Use GitHub for larger originals; see the image and file guide.'],
-   ['Write and preview','Select text for bold, links, ruby or spoilers. Type / in an empty block to insert; use arrow keys, Enter and Escape. Enter creates a paragraph; Shift+Enter adds a line break. Use the list buttons or type - space / 1. space. Enter continues a list; Enter on an empty item exits; Tab / Shift+Tab changes nesting.'],
+   ['Create articles and add images','Choose New article from the File menu to select a type, language and folder, then complete Article properties. In Images, select, drop or paste images and provide their source. Insert them into the article or use them as a cover. Images stay local until submission and share the same PR: up to 8 images, 4 MB total, 750 KB per original, without compression. Use GitHub for larger originals; see the image and file guide.'],
+   ['Write and preview','Desktop opens with writing and live preview side by side; on mobile, switch between the Edit and Preview tabs. Select text for bold, links, ruby or spoilers. Click Insert or type / in an empty block for the searchable menu near the cursor; use arrow keys, Enter and Escape. ⌘ K opens the global command palette. Enter creates a paragraph; Shift+Enter adds a line break. Use the list buttons or type - space / 1. space. Enter continues a list; Enter on an empty item exits; Tab / Shift+Tab changes nesting.'],
    ['Check properties and sources','Verify names, dates and the entry key in Properties. Keep the path and id intact. Cite sources that directly support new facts. Focus mode gives you more writing space; Preview helps check links, tables and complex content.'],
    ['Save and compare','Browser drafts stay on this device. The submission panel lets you manually save and restore cloud drafts for your account, retained for 90 days. Image drafts stay local; back up important Markdown and keep original images separately. Review the diff for accidental deletions.'],
    ['Submit for review','Describe what changed and why, and provide sources. The site creates a GitHub PR for you. Submitted content and descriptions are public. Saving is not submitting, and submitting is not publishing.'],
@@ -42,8 +42,8 @@ export const editorGuide = locale => resolveLocaleCopy({
   scope:'百科事典の各エンティティと記事の簡体字中国語・日本語・英語に対応。繁体字は生成されます。新規記事とPNG・JPEG・WebP画像添付に対応しています。告知はGitHubから投稿してください。',
   steps:[
    ['ログインして原文を開く','「既存記事を編集」で名前やパスを検索し、種類で絞り込みます。記事名と言語を確認して選択してください。記事の編集リンクからも開けます。読み込みを待ち、下書きの置き換え前にバックアップします。'],
-   ['新規記事と画像','「新規記事」で種類・言語・フォルダーを選び、記事のプロパティを入力します。「画像添付」で画像と出典を追加し、本文に挿入するかカバーに設定します。画像は端末に保存し、送信時に本文と同じ PR に追加します。最大8枚、合計4 MB、原本1枚750 KB以下で、圧縮しません。大きい原本は画像・ファイルガイドに従ってGitHubへアップロードします。'],
-   ['本文を書いて確認する','文字を選ぶと太字、リンク、ルビ、ネタバレ表記を設定できます。空ブロックの / で挿入、矢印で選択、Enter で決定、Esc で終了。Enter は段落、Shift+Enter は改行。リストボタンや - スペース、1. スペースでリストを開始し、Enter で続行、空項目で Enter で終了、Tab / Shift+Tab で階層を変えます。'],
+   ['新規記事と画像','上部の「ファイル」メニューから「新規記事」を選び、種類・言語・フォルダーを指定して記事のプロパティを入力します。「画像添付」で画像と出典を追加し、本文に挿入するかカバーに設定します。画像は端末に保存し、送信時に本文と同じ PR に追加します。最大8枚、合計4 MB、原本1枚750 KB以下で、圧縮しません。大きい原本は画像・ファイルガイドに従ってGitHubへアップロードします。'],
+   ['本文を書いて確認する','デスクトップでは本文とライブプレビューを並べて表示し、スマートフォンでは編集／プレビューのタブを切り替えます。文字を選ぶと太字、リンク、ルビ、ネタバレ表記を設定できます。「挿入」をクリックするか空ブロックで / を入力すると、その位置に検索可能なメニューが開きます。矢印で選択、Enter で決定、Esc で終了。⌘ K は全体のコマンドパレットです。Enter は段落、Shift+Enter は改行。リストボタンや - スペース、1. スペースでリストを開始し、Enter で続行、空項目で Enter で終了、Tab / Shift+Tab で階層を変えます。'],
    ['属性と出典を確認する','属性で名前、日付、記事キーを確認。パスや id はむやみに変更しません。追加した事実を裏付ける出典を付け、集中モードとプレビューで本文、リンク、表を確認します。'],
    ['下書きを保存し差分を見る','ブラウザー下書きは現在の端末に保存されます。投稿パネルではアカウントのクラウド下書きを手動で保存・復元でき、90 日間保持されます。画像付き下書きは端末のみです。原本を別途保管し、重要な内容は Markdown でも保存し、差分で意図しない削除がないか確認します。'],
    ['レビューに提出する','変更点、理由、出典を入力すると、サイトが GitHub PR を作成します。提出した内容と説明は公開されます。下書き保存は投稿ではなく、投稿も即時公開ではありません。'],
