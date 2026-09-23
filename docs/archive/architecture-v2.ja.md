@@ -68,7 +68,7 @@ schema は `src/content.config.ts` にあり、`pnpm check` で検証されま�
 - サイトブランド：横長・正方形ロゴは `public/brand/kamitsubakiwiki-long.svg` と `public/brand/kamitsubakiwiki-square.svg`、三言語のサイト名は `src/lib/i18n.mjs` が一元管理します。
 - お知らせボード：トップページが `announcements` collection から固定または最新の記事を選び、`AnnouncementModal.astro` で表示します。
 - アルバムのアーティスト分類：`src/lib/musicCatalog.mjs` がディレクトリ内のアーティスト ID でアルバムを分類し、`src/pages/[locale]/albums/artists/[artist].astro` が分類ページを描画します。カバーには対応する `artists` 記事の `image` を優先します。
-- 階層型コンテンツライセンス：`src/content.config.ts` が4種類の `license` 表示を検証し、`ContentLicenseNotice.astro` が詳細ページで記事ライセンスとメディア除外を表示します。`src/pages/[locale]/license.astro` は3言語の著作権情報ページを生成します。編集規則は[コンテンツのライセンスと出典表示](../licensing.ja.md)を参照してください。
+- 階層型コンテンツライセンス：`src/content.config.ts` が4種類の `license` 表示を検証し、`ContentLicenseNotice.astro` が詳細ページで記事ライセンスとメディア除外を表示します。`src/pages/[locale]/license.astro` は3言語の著作権情報ページを生成します。編集規則は[コンテンツのライセンスと出典表示](../manuals/contribute/rights/ja.md)を参照してください。
 - 統合 AI エントリー：`AiChatWidget.astro` と `src/scripts/aiChatWidget.js` が `/api/ai/v2/*` を利用し、既定で Observer を選択し、完全な会話管理は独立端末へ引き継ぎます。詳細は[統合 AI ウィジェット](../ai-terminal.ja.md)を参照してください。
 - 体験ポータル：`ExperiencePortals.astro` がゲームと AI 端末の入口を統合し、三言語の文言と共通のライト／ダークデザイントークンを利用します。
 

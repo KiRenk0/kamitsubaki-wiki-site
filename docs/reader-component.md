@@ -29,7 +29,7 @@ const {html, headings} = await renderMarkdownDocument(markdown);
 
 - `essay`（默认）：连续长文，适合项目介绍、日志、公告和文档。组件生成正文 `<article>`。
 - `entry`：正文搭配资料卡，适合艺人、歌曲、专辑。默认插槽由页面组织，可包含正文 `<article>`、歌词工具和曲目表；`sidebar` 插槽放资料卡。
-- `guide`：紧凑指南，适合贡献中心这类可切换文档。组件生成正文 `<article>`；在窄屏显示可折叠目录。
+- `guide`：紧凑指南，适合说明书章节。组件生成正文 `<article>`；桌面显示固定目录，窄屏默认收起目录，读者可按需展开长目录。
 
 ```astro
 <Reader variant="entry" headings={headings} contentsTitle={labels.contents} hasContent={hasMainContent}>

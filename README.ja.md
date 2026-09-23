@@ -9,9 +9,9 @@
 - 百科項目：閲覧画面の編集ボタン、または投稿センターから GitHub 変更提案を送ります。
 - 研究記事：`/{locale}/articles/submit/` で D1 下書きを保存し、審査へ送ります。
 - ギャラリー：`/{locale}/gallery/manage/` から投稿し、承認までは非公開 R2 に保存します。
-- 画像・出典・権利：[画像とファイル](docs/files-and-images.ja.md) と [ライセンス](docs/licensing.ja.md) を確認してください。
+- 画像・出典・権利：[画像とファイル](docs/manuals/contribute/entry/ja.md) と [ライセンス](docs/manuals/contribute/rights/ja.md) を確認してください。
 
-[V3 投稿ガイド](docs/contributing.ja.md) に従い、廃止済みの `artists/`・`albums/` ディレクトリや旧 frontmatter 例は使用しないでください。
+[V3 投稿ガイド](docs/manuals/contribute/start/ja.md) に従い、廃止済みの `artists/`・`albums/` ディレクトリや旧 frontmatter 例は使用しないでください。
 
 ## コンテンツ構造
 

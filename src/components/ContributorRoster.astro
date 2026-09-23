@@ -13,8 +13,8 @@ interface Props {
 const { mode, locale = 'zh', collection = '', entryId = '', sourcePath = '' } = Astro.props as Props;
 const apiBase = import.meta.env.PUBLIC_AI_OBSERVER_API_BASE || 'https://api.kamitsubaki.wiki';
 const guideHref = `/${locale}/contribute/`;
-const syntaxHref = `/${locale}/contribute/syntax`;
-const formatHref = `/${locale}/contribute/format`;
+const syntaxHref = `/${locale}/docs/contribute/syntax/`;
+const formatHref = `/${locale}/docs/contribute/format/`;
 const ownerLogin = import.meta.env.PUBLIC_SITE_OWNER_GITHUB || 'LinkTh1rsty';
 const editableCollections = new Set(['artists', 'albums', 'songs', 'projects', 'logs', 'people', 'units', 'isotopes', 'releases', 'lives', 'organizations', 'lore', 'articles']);
 const editableLocale = getEditableLocale(locale);

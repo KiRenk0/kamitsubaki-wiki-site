@@ -31,7 +31,7 @@ test('media switcher ships accessible pointer and keyboard interactions', async 
 
 test('media switcher authoring rules are documented in every locale', async () => {
   for (const locale of ['zh', 'ja', 'en']) {
-    const guide = await readSource(`../src/content/contribute/syntax-guide/${locale}.md`);
+    const guide = await readSource(`../docs/manuals/contribute/syntax/${locale}.md`);
     assert.match(guide, /\{\{media-switcher::/);
     assert.match(guide, /\{\{\/media-switcher\}\}/);
     assert.match(guide, /2[–-]6/);

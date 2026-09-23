@@ -1,6 +1,7 @@
 ---
 import {supportedLocales} from '../../../lib/i18n.mjs';
-import {retiredDocSlugs} from '../../../lib/docsCenter.mjs';
+import {retiredDocSlugs,retiredDocTargets} from '../../../lib/docsCenter.mjs';
 export function getStaticPaths(){return supportedLocales.flatMap(locale=>retiredDocSlugs.map(slug=>({params:{locale,slug}})));}
-return Astro.redirect(`/${Astro.params.locale || 'zh'}/docs/`,302);
+const {locale='zh',slug=''}=Astro.params;
+return Astro.redirect(`/${locale}/docs/${retiredDocTargets[slug]}/`,301);
 ---

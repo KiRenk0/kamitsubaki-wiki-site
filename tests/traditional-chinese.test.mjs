@@ -251,12 +251,12 @@ test('Japanese spans and protected terms can share one string without colliding 
 
 test('syntax and format guides document the conversion workflow in every maintained source', async () => {
   const guides = await Promise.all([
-    readSource('../src/content/contribute/syntax-guide/zh.md'),
-    readSource('../src/content/contribute/syntax-guide/ja.md'),
-    readSource('../src/content/contribute/syntax-guide/en.md'),
-    readSource('../src/content/contribute/format-guide/zh.md'),
-    readSource('../src/content/contribute/format-guide/ja.md'),
-    readSource('../src/content/contribute/format-guide/en.md'),
+    readSource('../docs/manuals/contribute/syntax/zh.md'),
+    readSource('../docs/manuals/contribute/syntax/ja.md'),
+    readSource('../docs/manuals/contribute/syntax/en.md'),
+    readSource('../docs/manuals/contribute/format/zh.md'),
+    readSource('../docs/manuals/contribute/format/ja.md'),
+    readSource('../docs/manuals/contribute/format/en.md'),
   ]);
 
   for (const guide of guides) {

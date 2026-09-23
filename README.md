@@ -9,9 +9,9 @@
 - 百科词条：从阅读器“编辑词条”进入，或在贡献中心新建，提交 GitHub 变更提案。
 - 研究文章：使用 `/{locale}/articles/submit/` 保存 D1 草稿并提交审核。
 - 设定图库：使用 `/{locale}/gallery/manage/` 上传到私有 R2 暂存区，批准后公开。
-- 图片、来源与授权：[图片和附件](docs/files-and-images.md) · [许可与署名](docs/licensing.md)。
+- 图片、来源与授权：[图片和附件](docs/manuals/contribute/entry/zh.md) · [许可与署名](docs/manuals/contribute/rights/zh.md)。
 
-详细步骤见 [V3 贡献指南](docs/contributing.md)。不要沿用旧版 `artists/`、`albums/` 路径或旧 frontmatter 示例。
+详细步骤见 [V3 贡献指南](docs/manuals/contribute/start/zh.md)。不要沿用旧版 `artists/`、`albums/` 路径或旧 frontmatter 示例。
 
 ## 当前内容结构
 

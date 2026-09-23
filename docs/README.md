@@ -1,60 +1,40 @@
-# KAMITSUBAKI Wiki 内部维护文档
+# 网站文档维护索引
 
-**站内文档中心已暂时清空。** 旧文档完整快照存放在仓库外的 `../_untracked-archive/docs-center-2026-09-24/`；以下文件暂留在仓库中供构建、脚本与维护工作引用，不再作为站内公开指南。
+站内文档中心读取本仓库 `docs/manuals/` 中的 Markdown；这里是唯一正文来源。工作区根目录 `../docs/` 是脚本生成的镜像，不在镜像中编辑。旧版文档完整快照位于仓库外的 `../_untracked-archive/docs-center-2026-09-24/`，仅供核对历史，不直接当作现行规则。
 
-这里是主站内部维护文档的来源。工作区根目录 `docs/` 是自动镜像；只在主站仓库修改文档，然后运行 `node scripts/sync-docs.mjs`。
-
-重新编写面向读者的文档之前，不要把这里的旧内容重新加入 `/{locale}/docs/`。
-
-## 我应该看哪一份
-
-首次浏览：[使用本站](using-the-site.md)。开发页面：[前台组件与架构](design/frontend-system-v3.md)，站内对应文档含真实组件示例。
-
-| 任务 | 首要文档 | 补充文档 |
+| 分册 | 读者 | 正文目录 |
 | --- | --- | --- |
-| 投稿或修改百科词条 | [贡献指南](contributing.md) | [内容目录](../src/content/README.md) · [元数据规范](category-optimization/metadata-schema-v2.md) |
-| 上传词条图片或附件 | [图片与附件](files-and-images.md) | [许可与署名](licensing.md) |
-| 投稿独立文章 | [文章投稿与审核](v3/article-publishing.md) | [贡献指南](contributing.md) |
-| 上传或维护设定图 | [图库投稿与审核](v3/gallery-r2.md) | [后端图库运维](../../kamitsubaki-wiki-site-backend/docs/gallery.md) |
-| 新建实体、调整分类或形态 | [实体分类维护](maintenance/entity-classification.md) | [详细分类地图](category-optimization/classification-detailed-map.md) |
-| 维护时间轴、关联和功能数据 | [功能数据维护](v3/feature-maintenance.md) | [功能数据规范](category-optimization/feature-data-architecture.md) |
-| 新建或统一二级页面 | [页面系统规范](design/page-system.md) | [设计文档索引](design/README.md) |
-| 发布 V3 | [发布手册](operations/release-runbook.md) | [当前验收状态](v3/acceptance/README.md) · [静态产物优化](v3/static-output-optimization.md) |
+| 网站说明书 | 普通读者 | [`manuals/site/`](manuals/site/) |
+| 贡献说明书 | 投稿者 | [`manuals/contribute/`](manuals/contribute/) |
+| 开发说明书 | 维护者与开发者 | [`manuals/develop/`](manuals/develop/) |
 
-## 文档分区
+贡献分册完整保留原有的[内容与格式指南](manuals/contribute/format/zh.md)和[语法与属性指南](manuals/contribute/syntax/zh.md)，不是摘要；旧的 `/contribute/format/` 与 `/contribute/syntax/` 地址转向新阅读页。迁移前的十份原文已另存于仓库外归档，后续只修改 `docs/manuals/` 中的正文。
 
-- [贡献与站内指南](guides/README.md)：贡献、图片、来源许可，以及站内教程与维护规则。
-- [内容与功能维护](maintenance/README.md)：实体、分类、元数据、时间轴、图库、文章和联动。
-- [界面与组件设计](design/README.md)：二级页面、阅读器、共享组件和交互规范。
-- [系统架构](architecture/README.md)：前端、后端、账户、AI 与安全边界。
-- [运维与集成](operations/README.md)：发布前检查、外部服务、缩略图和集成配置。
-- [V3 开发与验收](v3/README.md)：V3 当前状态、现行指南、验收证据和迁移报告。
-- [历史归档](archive/README.md)：旧版本设计、阶段性评审和已被替代的计划。
+本次从旧资料中按用途筛选并整理，而非将历史文件原样塞回站内：
 
-## 状态标签
+| 历史资料 | 进入现行章节的内容 | 处理原则 |
+| --- | --- | --- |
+| 原“内容与格式”“语法与属性” | 完整写作规则、字段、扩展语法与示例 | 保留主体与示例，修正已迁移的入口和失效锚点。 |
+| 旧贡献、图片与附件指南 | 字段影响、分类、词条原图同 PR 流程、地址换算、投稿状态 | 按词条／文章／图库分别归入贡献分册，删除重复或过时的操作说明。 |
+| 旧许可说明 | 文字许可、媒体权利边界、`license` 字段和审核清单 | 用通用署名替换个人示例；示例网址明确为占位，不作为事实来源。 |
+| 阅读器、分类、文章、图库、组件和发布维护稿 | 使用流程、数据边界、组件用法、检查与回滚要点 | 按当前代码与接口核对后归入网站和开发分册；历史验收数字不写成现行承诺。 |
 
-- **现行规范**：新增和修改必须遵守。
-- **操作指南**：描述当前可执行流程。
-- **验收记录**：只证明记录日期和环境下完成过的检查。
-- **历史归档**：保留决策背景，不用于指导当前实现。
-- **待验收**：实现或本地模拟存在，但真实预览/生产流程尚未完成。
+公开说明书只放操作所需的规则和示例，不放密钥、令牌、私人联系信息、本机绝对路径、生产环境配置值或内部调试地址。曾使用个人署名的许可示例已换成通用作者名。历史原稿仍在仓库外归档，供有权限的维护者追溯；站内文档只以本目录的当前版本为准。
 
-## 维护规则
+每章在 `<分册>/<章节>/` 下维护 `zh.md`、`ja.md`、`en.md`；`zh-tw.md` 与 `zh-hk.md` 由简中自动生成，不直接修改。章节 frontmatter 的 `book`、`chapter`、`locale`、`order`、`title`、`summary` 决定站内目录、排序、搜索与阅读页。新增章节后核对三个源语言，运行 `pnpm i18n:generate`，并从文档中心实际打开页面。
 
-1. 功能、字段、路径或审核流程变化时，同一提交更新对应现行指南。
-2. 日期化结果放入验收或归档目录；不要把测试数字写进长期规范。
-3. 被替代的说明应移动到 `archive/` 并在开头写明替代文档；没有审计价值且会误导的内容直接删除。
-4. 站内贡献中心直接读取 `contributing.*.md`、`files-and-images.*.md` 与 `licensing.*.md`，这些稳定路径不能随意移动。
-5. 简中、日文、英文是维护源；繁体页面由生成流程产生。
-6. `v3/reports/` 是脚本生成的迁移和校验证据，不能手工改成“好看”的结果。
-7. 本地模拟、云端预览和正式发布必须分别记录。构建通过不等于投稿、R2、D1、OAuth 或生产部署已经验收。
+功能、字段、限制或审核流程变化时，同一修改更新相应章节。贡献说明先核对当前前后端，再写界面步骤；区分本机保存、云端保存、图片暂存、待审核、已通过与公开。站内正文只维护一份，不把页面帮助写成另一套完整说明。历史验收记录只能说明对应日期与环境，不能代替现行规则。
 
-## 文档检查
+其余 `docs/` 文件属于分类依据、内部规范、迁移报告或历史记录，不自动进入公开文档中心。常用技术来源：[详细分类地图](category-optimization/classification-detailed-map.md) · [元数据规范](category-optimization/metadata-schema-v2.md) · [页面系统](design/page-system.md) · [发布记录](operations/release-runbook.md)。若这些文件被替代，先更新代码与相关引用，再从仓库移除；仓库外快照保留原文。
+
+维护后运行：
 
 ```sh
+pnpm i18n:generate
 node scripts/check-docs.mjs
 node scripts/sync-docs.mjs
 node scripts/sync-docs.mjs --check
+pnpm check
 ```
 
-前后端共享契约另外执行 `node scripts/v3/sync-editor-schema.mjs --check` 与 `node scripts/v3/sync-gallery-contract.mjs --check`。
+涉及站内路由时再运行 `pnpm build`，并在桌面与窄屏查看目录、正文链接及相邻章节。

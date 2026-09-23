@@ -13,7 +13,7 @@ V3 は Schema v2 のエンティティと独立した機能データを使用し
 | Worker + D1 + R2 | Gallery proposals, review and published assets |
 | Editor Worker + GitHub | Article proposals and attachments |
 
-[Contribution guide](contributing.ja.md) · [Content layout](v3/content-layout.md) · [Gallery](v3/gallery-r2.md) · [Maintenance index](README.md)
+[Contribution guide](manuals/contribute/start/ja.md) · [Content layout](v3/content-layout.md) · [Gallery](v3/gallery-r2.md) · [Maintenance index](README.md)
 
 The gallery uses private staging and owner approval. Logged-in users can submit uploads and metadata changes; role is required and other metadata is optional. Public gallery data does not pass through GitHub. Article publication still requires review, merge and deployment.
 

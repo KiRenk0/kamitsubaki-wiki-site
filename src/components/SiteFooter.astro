@@ -26,7 +26,7 @@ const footerLogoAlt = getLocalizedSiteName(Astro.params.locale);
 const locale = Astro.params.locale ?? defaultLocale;
 const supportHref = `/${locale}/support/`;
 const docsHref = `/${locale}/docs/`;
-const docsLabel = locale === 'ja' ? 'DOCUMENTS' : locale === 'en' ? 'DOCUMENTATION' : '文档中心';
+const docsLabel = 'DOCUMENTS';
 const footerLinks = [
   ...footer.links.filter((link) => ![supportHref,docsHref].map(value=>value.replace(/\/$/,'')).includes(link.href.replace(/\/$/,''))),
   { label: docsLabel, href: docsHref },

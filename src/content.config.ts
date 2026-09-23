@@ -281,38 +281,6 @@ const announcements = defineCollection({
   }),
 });
 
-const syntaxGuide = defineCollection({
-  loader: metadataOnlyGlob({
-    pattern: ['zh.md', 'zh-tw.md', 'zh-hk.md', 'ja.md', 'en.md'],
-    base: new URL('./content/contribute/syntax-guide/', import.meta.url),
-    retainBody: false,
-  }),
-  schema: z.object({
-    locale,
-    translationKey: z.string(),
-    title: z.string(),
-    description: z.string().optional(),
-    license: contentLicense.optional(),
-    seo,
-  }),
-});
-
-const formatGuide = defineCollection({
-  loader: metadataOnlyGlob({
-    pattern: ['zh.md', 'zh-tw.md', 'zh-hk.md', 'ja.md', 'en.md'],
-    base: new URL('./content/contribute/format-guide/', import.meta.url),
-    retainBody: false,
-  }),
-  schema: z.object({
-    locale,
-    translationKey: z.literal('format-guide'),
-    title: z.string(),
-    description: z.string().optional(),
-    license: contentLicense.optional(),
-    seo,
-  }),
-});
-
 const editGuide = defineCollection({
   loader: metadataOnlyGlob({
     pattern: '{zh,zh-tw,zh-hk,ja,en}.md',
@@ -351,6 +319,4 @@ export const collections = {
   announcements,
   editGuide,
   songs,
-  syntaxGuide,
-  formatGuide,
 };

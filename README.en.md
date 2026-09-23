@@ -9,9 +9,9 @@ An unofficial multilingual KAMITSUBAKI STUDIO fan encyclopedia. Astro generates 
 - Encyclopedia entries: use the reader's edit action or create an entry in the contribution center, then submit a GitHub change proposal.
 - Research articles: save a D1 draft at `/{locale}/articles/submit/` and send it for review.
 - Gallery: upload at `/{locale}/gallery/manage/`; files remain in private R2 staging until approval.
-- Images, sources and rights: see [files and images](docs/files-and-images.en.md) and [licensing](docs/licensing.en.md).
+- Images, sources and rights: see [files and images](docs/manuals/contribute/entry/en.md) and [licensing](docs/manuals/contribute/rights/en.md).
 
-Follow the [V3 contribution guide](docs/contributing.en.md). Do not reuse retired `artists/` or `albums/` directories or legacy frontmatter examples.
+Follow the [V3 contribution guide](docs/manuals/contribute/start/en.md). Do not reuse retired `artists/` or `albums/` directories or legacy frontmatter examples.
 
 ## Content model
 

@@ -13,7 +13,7 @@ V3 uses Schema v2 entities and separate feature data. Homepage classification fo
 | Worker + D1 + R2 | Gallery proposals, review and published assets |
 | Editor Worker + GitHub | Article proposals and attachments |
 
-[Contribution guide](contributing.en.md) · [Content layout](v3/content-layout.md) · [Gallery](v3/gallery-r2.md) · [Maintenance index](README.md)
+[Contribution guide](manuals/contribute/start/en.md) · [Content layout](v3/content-layout.md) · [Gallery](v3/gallery-r2.md) · [Maintenance index](README.md)
 
 The gallery uses private staging and owner approval. Logged-in users can submit uploads and metadata changes; role is required and other metadata is optional. Public gallery data does not pass through GitHub. Article publication still requires review, merge and deployment.
 

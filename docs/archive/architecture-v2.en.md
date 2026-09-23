@@ -68,7 +68,7 @@ Homepage DATABASE categories are derived from the first folder level in `src/con
 - Site branding: the long and square logos are `public/brand/kamitsubakiwiki-long.svg` and `public/brand/kamitsubakiwiki-square.svg`; `src/lib/i18n.mjs` provides the three localized site names.
 - Announcement board: the home page selects the pinned or latest record from the `announcements` collection and displays it through `AnnouncementModal.astro`.
 - Album artist categories: `src/lib/musicCatalog.mjs` groups albums by the artist ID in their directory; `src/pages/[locale]/albums/artists/[artist].astro` renders each category and prefers the matching `artists` entry's `image` for its cover.
-- Layered content licensing: `src/content.config.ts` validates four `license` markers, `ContentLicenseNotice.astro` renders entry licensing and media exclusions on detail pages, and `src/pages/[locale]/license.astro` generates the localized copyright pages. Authoring rules live in [Content licensing and attribution](../licensing.en.md).
+- Layered content licensing: `src/content.config.ts` validates four `license` markers, `ContentLicenseNotice.astro` renders entry licensing and media exclusions on detail pages, and `src/pages/[locale]/license.astro` generates the localized copyright pages. Authoring rules live in [Content licensing and attribution](../manuals/contribute/rights/en.md).
 - Unified AI entry: `AiChatWidget.astro` and `src/scripts/aiChatWidget.js` use `/api/ai/v2/*`, default to Observer, and hand full conversation management to the standalone terminal. See [Unified AI widget](../ai-terminal.en.md).
 - Experience portals: `ExperiencePortals.astro` integrates game and AI-terminal entry points with localized copy and shared light/dark design tokens.
 

@@ -14,7 +14,7 @@ test('article deep links preserve the source path and use an encoded GitHub dest
 
 test('generated Chinese targets resolve to originals and non-article content uses GitHub', () => {
   assert.equal(normalizeGuideTarget('src/content/artists/vwp/kaf/zh-tw.md').path, 'src/content/artists/vwp/kaf/zh.md');
-  for (const path of ['src/content/contribute/syntax-guide/zh.md','src/content/site/en.json','src/content/announcements/2026/update/ja.md']) {
+  for (const path of ['src/content/contribute/edit-guide/zh.md','src/content/site/en.json','src/content/announcements/2026/update/ja.md']) {
     const target = normalizeGuideTarget(path);
     assert.equal(target.path, path);
     assert.equal(target.visual, false);

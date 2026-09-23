@@ -8,7 +8,7 @@
 | 研究文章 | D1 | `/{locale}/articles/submit/` | 后台批准，API 提供公开版本 |
 | 设定图库 | R2 + D1 | `/{locale}/gallery/manage/` | 后台批准，图片进入公开桶 |
 
-开始前阅读对应语言的 [贡献指南](../contributing.md)、[English](../contributing.en.md) 或 [日本語](../contributing.ja.md)。图片与文件见 [图片指南](../files-and-images.md)，来源与版权见 [许可说明](../licensing.md)。
+开始前阅读对应语言的 [贡献指南](../manuals/contribute/start/zh.md)、[English](../manuals/contribute/start/en.md) 或 [日本語](../manuals/contribute/start/ja.md)。图片与文件见 [图片指南](../manuals/contribute/entry/zh.md)，来源与版权见 [许可说明](../manuals/contribute/rights/zh.md)。
 
 站内教程正文位于 `src/content/contribute/`，用于讲解编辑器操作、Markdown 语法和格式。维护政策以本目录文档为准；教程示例不得另行发明字段或旧目录。
 

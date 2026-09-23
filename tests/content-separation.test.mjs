@@ -17,7 +17,7 @@ test('metadata-only entries drop large bodies and render from their source file 
   const compact = withoutRenderedContent({
     id: 'syntax-guide/zh',
     data: { locale: 'zh' },
-    filePath: 'src/content/contribute/syntax-guide/zh.md',
+    filePath: 'docs/manuals/contribute/syntax/zh.md',
     digest: 'test',
     body: 'duplicate Markdown',
     rendered: { html: '<p>duplicate HTML</p>' },
@@ -40,7 +40,7 @@ test('metadata-only entries drop large bodies and render from their source file 
 
   const entry = {
     id: 'syntax-guide/zh',
-    filePath: 'src/content/contribute/syntax-guide/zh.md',
+    filePath: 'docs/manuals/contribute/syntax/zh.md',
   };
   const { body } = await readContentEntryBody(entry);
   const rendered = await renderContentEntry(entry);

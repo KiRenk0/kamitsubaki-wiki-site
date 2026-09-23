@@ -58,7 +58,7 @@ test('syntax tutorials pair highlighted source blocks with rendered examples and
   };
 
   for (const [locale, expectation] of Object.entries(expectations)) {
-    const guide = await readSource(`../src/content/contribute/syntax-guide/${locale}.md`);
+    const guide = await readSource(`../docs/manuals/contribute/syntax/${locale}.md`);
     const headings = guide.match(/^## .+$/gm) || [];
 
     assert.equal(headings.at(-1), expectation.finalHeading);

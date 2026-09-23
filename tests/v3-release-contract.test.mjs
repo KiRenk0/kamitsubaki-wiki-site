@@ -28,7 +28,8 @@ test('shared reader retains background, sidebar, sources, license, contributors 
  const styles=await source('src/styles/global.css');assert.match(styles,/html\[data-theme='light'\] \.wiki-theme-shell/);
 });
 test('homepage keeps the established numbered music sections and shared directory',async()=>{
- const home=await source('src/pages/[locale]/index.astro');assert.match(home,/<HomeDirectory/);assert.match(home,/buildEntityMusicCatalog/);assert.match(home,/sampleRandom/);assert.ok(home.indexOf('<SongsSection')<home.indexOf('<AlbumsSection'));assert.ok(home.indexOf('<AlbumsSection')<home.indexOf('<ContributorRoster'));
+ const home=await source('src/pages/[locale]/index.astro');assert.match(home,/<HomeDirectory/);assert.match(home,/buildEntityMusicCatalog/);assert.match(home,/sampleRandom/);assert.ok(home.indexOf('<HomeMusicSection')<home.indexOf('<ContributorRoster'));
+ const music=await source('src/components/HomeMusicSection.astro');assert.match(music,/02\. RHYTHM/);assert.match(music,/songs/);assert.match(music,/albums/);
  const sites=await Promise.all(['zh','ja','en'].map(async locale=>({data:JSON.parse(await source(`src/content/site/${locale}.json`))})));
  for(const locale of entityLocales){const site=getLocalizedSite(sites,locale);assert.match(JSON.stringify(site.hero),/3\.0\.0/);assert.ok(site.sections.songs.heading);assert.ok(site.sections.albums.heading);}
 });
@@ -68,8 +69,13 @@ test('article and encyclopedia editors share one workbench with separate persist
  for(const file of ['articles/submit.astro','contribute/editor.astro'])assert.match(await source('src/pages/[locale]/'+file),/<EditorWorkbench/);
  assert.match(await source('src/scripts/visualEditor.js'),/initializeArticleSubmission/);assert.match(await source('src/scripts/articleSubmission.js'),/\/api\/articles/);
 });
-test('contribution and licensing guides describe the current maintenance flows in all source languages',async()=>{
- for(const suffix of ['', '.ja', '.en']){const guide=await source(`docs/contributing${suffix}.md`);for(const marker of ['D1','GitHub','R2','schemaVersion','presentation','relations','performers','contentLayout.mjs'])assert.ok(guide.includes(marker),`${suffix}: ${marker}`);assert.match(guide,/articles\/submit/);assert.match(guide,/gallery\/manage/);const license=await source(`docs/licensing${suffix}.md`);assert.match(license,/CC BY-NC-SA 4\.0/);}
+test('contribution and licensing manuals describe the current maintenance flows in all source languages',async()=>{
+ for(const locale of ['zh','ja','en']){
+  const chapters=await Promise.all(['start','entry','format','syntax','article','gallery','review','rights'].map(chapter=>source(`docs/manuals/contribute/${chapter}/${locale}.md`)));
+  const guide=chapters.join('\n');
+  for(const marker of ['D1','GitHub','R2','schemaVersion','presentation','relations','performers'])assert.ok(guide.includes(marker),`${locale}: ${marker}`);
+  assert.match(guide,/articles\/submit/);assert.match(guide,/gallery\/manage/);assert.match(chapters.at(-1),/CC BY-NC-SA 4\.0/);
+ }
 });
 test('memory corridor consumes the stable V3 game catalog, including facts and relations',async()=>{
  const catalog=await source('src/pages/[locale]/game-index.json.ts'),runner=await source('public/games/memory-corridor/index.html');assert.match(catalog,/getEntityRegistry/);assert.match(catalog,/facts:/);assert.match(catalog,/connections:/);assert.match(catalog,/href:e.url/);assert.match(runner,/catalog\.items/);assert.match(runner,/sourceKind/);assert.match(runner,/sourceId/);

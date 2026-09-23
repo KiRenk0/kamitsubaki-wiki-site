@@ -7,30 +7,45 @@ import WorkspaceHeader from '../../../components/WorkspaceHeader.astro';
 import {buildLocaleLinks,supportedLocales} from '../../../lib/i18n.mjs';
 import {getLocalizedSite} from '../../../lib/homeData.mjs';
 import {getCollection} from 'astro:content';
-import {docsCenterCopy} from '../../../lib/docsCenter.mjs';
+import {docsCenterCopy,getManualCatalog} from '../../../lib/docsCenter.mjs';
 export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
 const {locale='zh'}=Astro.params;
 const site=getLocalizedSite(await getCollection('site'),locale);
 const copy=docsCenterCopy(locale);
+type Chapter={title:string;summary:string;body:string;href:string};
+type Book={id:string;title:string;description:string;href:string;chapters:Chapter[]};
+const books=await getManualCatalog(locale,{includeBody:true}) as Book[];
 ---
-<BaseLayout lang={locale} title={copy.title} metadata={{title:copy.title,description:copy.intro,canonicalPath:`/${locale}/docs/`,noindex:true}} alternates={supportedLocales.map(code=>({locale:code,href:`/${code}/docs/`}))}>
+<BaseLayout lang={locale} title={copy.title} metadata={{title:copy.title,description:copy.intro,canonicalPath:`/${locale}/docs/`}} alternates={supportedLocales.map(code=>({locale:code,href:`/${code}/docs/`}))}>
  <SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site,locale,'/docs/')} brandLines={site.hero.brandLines} homeHref={`/${locale}/`}/>
  <WorkspaceShell width="wide" class="docs-center">
   <WorkspaceHeader title={copy.title} intro={copy.intro} eyebrow={copy.eyebrow} backHref={`/${locale}/`} backLabel={copy.home}/>
-  <section class="docs-pause" aria-labelledby="docs-pause-title">
-   <span aria-hidden="true">00 / DOCS</span>
-   <h2 id="docs-pause-title">{copy.notice}</h2>
-   <p>{copy.detail}</p>
-   <a href={`/${locale}/contribute/`}>{copy.contribute} <span aria-hidden="true">↗</span></a>
-  </section>
+  <div class="docs-search"><label for="docs-query">{copy.search}</label><input id="docs-query" type="search" autocomplete="off" placeholder={copy.search} data-docs-query/></div>
+  <div data-docs-groups>
+   {books.map((book,index)=><section class="docs-book" data-docs-book aria-labelledby={`docs-book-${book.id}`}>
+    <header><span>{String(index+1).padStart(2,'0')} / {book.id.toUpperCase()}</span><h2 id={`docs-book-${book.id}`}><a href={book.href}>{book.title} <span aria-hidden="true">↗</span></a></h2><p>{book.description}</p></header>
+    <div class="docs-chapters">{book.chapters.map((chapter,chapterIndex)=><a href={chapter.href} class="docs-chapter" data-docs-item data-summary={chapter.summary} data-body={chapter.body.replace(/\s+/g,' ')} data-search={`${book.title} ${chapter.title} ${chapter.summary} ${chapter.body}`.toLocaleLowerCase()}><small>{String(chapterIndex+1).padStart(2,'0')}</small><span><strong>{chapter.title}</strong><em data-docs-snippet>{chapter.summary}</em></span><b aria-hidden="true">↗</b></a>)}</div>
+   </section>)}
+  </div>
+  <p class="docs-empty" data-docs-empty hidden>{copy.empty}</p>
  </WorkspaceShell>
  <SiteFooter footer={site.footer}/>
 </BaseLayout>
+<script>
+ const input=document.querySelector<HTMLInputElement>('[data-docs-query]');
+ const groups=[...document.querySelectorAll<HTMLElement>('[data-docs-book]')];
+ input?.addEventListener('input',()=>{
+  const q=input.value.trim().toLocaleLowerCase();let matches=0;
+  for(const group of groups){let visible=0;for(const item of group.querySelectorAll<HTMLElement>('[data-docs-item]')){
+   const found=!q||Boolean(item.dataset.search?.includes(q));item.hidden=!found;if(found){visible++;matches++;}
+   const snippet=item.querySelector<HTMLElement>('[data-docs-snippet]');if(snippet){const source=item.dataset.body||'';const at=q?source.toLocaleLowerCase().indexOf(q):-1;const excerpt=at>=0?source.slice(Math.max(0,at-42),at+100).replace(/\[([^\]]+)\]\([^)]+\)/g,'$1').replace(/\*\*|__|~~|`/g,'').trim():'';snippet.textContent=at>=0?`…${excerpt}…`:item.dataset.summary||'';}
+  }group.hidden=!visible;}
+  const empty=document.querySelector<HTMLElement>('[data-docs-empty]');if(empty)empty.hidden=matches>0;
+ });
+</script>
 <style>
-.docs-pause{min-height:220px;margin-top:32px;border-top:1px solid var(--ui-line);padding:26px 0 52px}
-.docs-pause>span{font:11px var(--font-mono);letter-spacing:.14em;color:var(--workspace-muted)}
-.docs-pause h2{margin:20px 0 8px;font:400 clamp(22px,3vw,30px)/1.35 var(--font-serif)}
-.docs-pause p{margin:0;color:var(--workspace-muted);font:13px/1.8 var(--font-sans)}
-.docs-pause a{display:inline-flex;align-items:center;gap:8px;margin-top:24px;border-bottom:1px solid currentColor;padding-bottom:4px;font:12px var(--font-sans);text-decoration:none}
-.docs-pause a:focus-visible{outline:2px solid var(--theme-fg);outline-offset:4px}
+ .docs-search{margin:26px 0 20px;display:grid;gap:7px}.docs-search label{font:11px var(--font-mono);letter-spacing:.1em;color:var(--workspace-muted)}.docs-search input{width:100%;min-height:44px;border:1px solid var(--ui-line);border-radius:4px;background:transparent;color:inherit;padding:10px 13px;font:14px var(--font-sans)}.docs-search input:focus-visible,.docs-book a:focus-visible{outline:2px solid var(--theme-fg);outline-offset:3px}
+ .docs-book{display:grid;grid-template-columns:minmax(190px,.7fr) minmax(0,1.7fr);gap:28px;border-top:1px solid var(--ui-line);padding:25px 0 33px}.docs-book header>span{font:10px var(--font-mono);letter-spacing:.14em;color:var(--workspace-muted)}.docs-book h2{margin:10px 0 7px;font:400 clamp(21px,2.4vw,27px)/1.35 var(--font-serif)}.docs-book h2 a{text-decoration:none;color:inherit}.docs-book h2 a span{font:14px var(--font-sans);opacity:.45}.docs-book p{margin:0;max-width:27ch;font:13px/1.8 var(--font-sans);color:var(--workspace-muted)}.docs-chapters{min-width:0}.docs-chapter{display:grid;grid-template-columns:25px minmax(0,1fr) 15px;gap:13px;align-items:start;padding:12px 2px;border-bottom:1px solid var(--ui-line);color:inherit;text-decoration:none;transition:padding 180ms ease,background 180ms ease}.docs-chapter:hover{padding-left:9px;background:color-mix(in srgb,currentColor 4%,transparent)}.docs-chapter small{font:11px var(--font-mono);opacity:.5}.docs-chapter strong{display:block;font:500 14px/1.45 var(--font-sans)}.docs-chapter em{display:block;margin-top:3px;font:12px/1.65 var(--font-sans);color:var(--workspace-muted);font-style:normal}.docs-chapter b{font:13px var(--font-sans);opacity:.4}.docs-empty{padding:24px 0;color:var(--workspace-muted)}[hidden]{display:none!important}
+ @media(max-width:760px){.docs-book{grid-template-columns:1fr;gap:13px;padding:21px 0 27px}.docs-book p{max-width:none}}
+ @media(prefers-reduced-motion:reduce){.docs-chapter{transition:none}}
 </style>

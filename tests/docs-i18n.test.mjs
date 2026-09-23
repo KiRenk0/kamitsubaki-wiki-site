@@ -3,9 +3,12 @@ import { access, readFile } from 'node:fs/promises';
 import test from 'node:test';
 
 const localizedDocs = [
-  'docs/contributing.md',
-  'docs/contributing.en.md',
-  'docs/contributing.ja.md',
+  'docs/manuals/contribute/start/zh.md',
+  'docs/manuals/contribute/start/en.md',
+  'docs/manuals/contribute/start/ja.md',
+  'docs/manuals/contribute/format/zh.md',
+  'docs/manuals/contribute/format/en.md',
+  'docs/manuals/contribute/format/ja.md',
   'docs/architecture.md',
   'docs/architecture.en.md',
   'docs/architecture.ja.md',
@@ -31,10 +34,10 @@ test('readme files link to documentation in their own language', async () => {
   const en = await readFile(new URL('../README.en.md', import.meta.url), 'utf8');
   const ja = await readFile(new URL('../README.ja.md', import.meta.url), 'utf8');
 
-  assert.match(zh, /\(docs\/contributing\.md\)/);
+  assert.match(zh, /\(docs\/manuals\/contribute\/start\/zh\.md\)/);
   assert.match(zh, /\(docs\/architecture\.md\)/);
-  assert.match(en, /\(docs\/contributing\.en\.md\)/);
+  assert.match(en, /\(docs\/manuals\/contribute\/start\/en\.md\)/);
   assert.match(en, /\(docs\/architecture\.en\.md\)/);
-  assert.match(ja, /\(docs\/contributing\.ja\.md\)/);
+  assert.match(ja, /\(docs\/manuals\/contribute\/start\/ja\.md\)/);
   assert.match(ja, /\(docs\/architecture\.ja\.md\)/);
 });

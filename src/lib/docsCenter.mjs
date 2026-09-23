@@ -1,16 +1,79 @@
+import {readFile,readdir} from 'node:fs/promises';
+import {join,resolve} from 'node:path';
+import {pathToFileURL} from 'node:url';
+import YAML from 'yaml';
 import {resolveLocaleCopy} from './i18n.mjs';
+import {renderMarkdownDocument} from './markdown.mjs';
 
-// The previous public catalog is archived outside the repository while the
-// reader-facing documentation is rewritten. Keep old URLs redirectable.
-export const retiredDocSlugs=[
- 'using-the-site','editor','frontend-system','contributing','files-and-images',
- 'licensing','metadata-schema','entity-classification','feature-maintenance',
- 'article-publishing','gallery-r2','page-system','reader','architecture',
- 'release-runbook',
-];
+export const manualBooks=['site','contribute','develop'];
+// Astro bundles this module into dist during prerendering, so resolve the
+// document source from the project root rather than the bundle directory.
+const manualRoot=resolve(process.cwd(),'docs/manuals');
+const sourceLocales=['zh','ja','en'];
+const localeFile=locale=>['zh-tw','zh-hk'].includes(locale)?locale:sourceLocales.includes(locale)?locale:'zh';
+
+export const retiredDocTargets={
+ 'using-the-site':'site/start','reader':'site/reading',
+ 'editor':'contribute/entry','contributing':'contribute/start',
+ 'files-and-images':'contribute/entry','licensing':'contribute/rights',
+ 'article-publishing':'contribute/article','gallery-r2':'contribute/gallery',
+ 'metadata-schema':'develop/content','entity-classification':'develop/content',
+ 'feature-maintenance':'develop/content','frontend-system':'develop/frontend',
+ 'page-system':'develop/frontend','architecture':'develop/architecture',
+ 'release-runbook':'develop/operations',
+};
+export const retiredDocSlugs=Object.keys(retiredDocTargets);
 
 export const docsCenterCopy=locale=>resolveLocaleCopy({
- zh:{title:'文档中心',eyebrow:'DOCUMENTATION',home:'返回首页',intro:'旧文档已归档，新的使用与贡献指南正在整理。',notice:'文档整理中',detail:'目前暂无可阅读的文档。投稿入口仍可正常使用。',contribute:'前往参与共建'},
- en:{title:'Documentation',eyebrow:'DOCUMENTATION',home:'Back to home',intro:'The previous documents have been archived while the new guides are prepared.',notice:'Guides in progress',detail:'No documents are available to read yet. Contribution tools remain available.',contribute:'Go to contribute'},
- ja:{title:'ドキュメントセンター',eyebrow:'DOCUMENTATION',home:'ホームへ',intro:'旧文書を保管し、新しい利用・投稿ガイドを整理しています。',notice:'文書を整理中',detail:'現在、公開中の文書はありません。投稿機能は引き続き利用できます。',contribute:'投稿へ'},
+ zh:{title:'文档中心',eyebrow:'DOCUMENTS',home:'返回首页',intro:'从浏览、投稿到维护开发，按你的任务找到准确的说明。',search:'搜索所有说明书',empty:'没有找到匹配的章节',back:'返回文档中心',toc:'本章目录',next:'下一章',previous:'上一章',advanced:'进阶 · 开发维护',read:'阅读章节'},
+ en:{title:'Documents',eyebrow:'DOCUMENTS',home:'Back to home',intro:'Find the right guide for reading, contributing, or maintaining the site.',search:'Search all manuals',empty:'No matching chapters',back:'Back to documents',toc:'In this chapter',next:'Next chapter',previous:'Previous chapter',advanced:'Advanced · Development',read:'Read chapter'},
+ ja:{title:'ドキュメント',eyebrow:'DOCUMENTS',home:'ホームへ',intro:'閲覧、投稿、開発・保守に必要な手順を目的別に探せます。',search:'すべての説明書を検索',empty:'一致する章はありません',back:'ドキュメントへ戻る',toc:'この章の目次',next:'次の章',previous:'前の章',advanced:'上級 · 開発と保守',read:'章を読む'},
 },locale);
+
+export const bookCopy=(book,locale)=>resolveLocaleCopy({
+ zh:{site:{title:'网站说明书',description:'浏览百科、阅读文章与使用探索功能。'},contribute:{title:'贡献说明书',description:'从保存草稿到提交审核，完成词条、文章与设定图投稿。'},develop:{title:'开发说明书',description:'内容模型、共享组件、服务架构与发布维护。'}},
+ en:{site:{title:'Site manual',description:'Browse the encyclopedia, read articles, and explore the archive.'},contribute:{title:'Contribution manual',description:'Create and review entries, articles, and gallery sets from draft to publication.'},develop:{title:'Development manual',description:'Content models, shared components, services, and operations.'}},
+ ja:{site:{title:'サイト説明書',description:'百科、記事、探索機能の利用方法。'},contribute:{title:'投稿説明書',description:'項目、記事、設定資料を下書きから審査・公開まで進めます。'},develop:{title:'開発説明書',description:'コンテンツモデル、共通部品、サービス構成と運用。'}},
+},locale)?.[book];
+
+function assertPart(part,allowed){if(!allowed.includes(part))throw new Error(`Unknown manual path: ${part}`);}
+function parseManual(source,path){
+ const match=source.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n/u);
+ if(!match)throw new Error(`Missing manual frontmatter: ${path}`);
+ const data=YAML.parse(match[1]);
+ if(!data||typeof data.title!=='string'||typeof data.summary!=='string'||!Number.isInteger(data.order))throw new Error(`Invalid manual frontmatter: ${path}`);
+ return {data,body:source.slice(match[0].length).trim()};
+}
+
+export async function getManualPaths(){
+ const paths=[];
+ for(const book of manualBooks){
+  const chapters=(await readdir(join(manualRoot,book),{withFileTypes:true})).filter(item=>item.isDirectory());
+  for(const chapter of chapters)paths.push({book,chapter:chapter.name});
+ }
+ return paths;
+}
+
+export async function getManualChapter(book,chapter,locale,{render=true}={}){
+ assertPart(book,manualBooks);
+ const chapters=(await readdir(join(manualRoot,book),{withFileTypes:true})).filter(item=>item.isDirectory()).map(item=>item.name);
+ assertPart(chapter,chapters);
+ const file=join(manualRoot,book,chapter,`${localeFile(locale)}.md`);
+ const parsed=parseManual(await readFile(file,'utf8'),file);
+ const {data}=parsed;
+ const body=['zh-tw','zh-hk'].includes(locale)?parsed.body.replaceAll('/zh/','/'+locale+'/'):parsed.body;
+ if(data.book!==book||data.chapter!==chapter||data.locale!==localeFile(locale))throw new Error(`Manual identity mismatch: ${file}`);
+ const result={book,chapter,locale,data,body,href:`/${locale}/docs/${book}/${chapter}/`};
+ return render?{...result,...await renderMarkdownDocument(body,{fileURL:pathToFileURL(file)})}:result;
+}
+
+export async function getManualCatalog(locale,{includeBody=false}={}){
+ const paths=await getManualPaths();
+ const chapters=await Promise.all(paths.map(({book,chapter})=>getManualChapter(book,chapter,locale,{render:false})));
+ return manualBooks.map(book=>({
+  id:book,...bookCopy(book,locale),href:`/${locale}/docs/${book}/`,
+  chapters:chapters.filter(item=>item.book===book).sort((a,b)=>a.data.order-b.data.order).map(item=>({
+   ...item.data,href:item.href,slug:item.chapter,...includeBody?{body:item.body}:{},
+  })),
+ }));
+}

@@ -1,5 +1,5 @@
 ---
 import {supportedLocales} from '../../../lib/i18n.mjs';
 export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
-return Astro.redirect(`/${Astro.params.locale || 'zh'}/docs/`,302);
+return Astro.redirect(`/${Astro.params.locale || 'zh'}/docs/contribute/entry/`,301);
 ---

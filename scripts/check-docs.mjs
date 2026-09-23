@@ -1,5 +1,6 @@
 import {access, readFile, readdir} from 'node:fs/promises';
 import {dirname, extname, join, relative, resolve} from 'node:path';
+import {getManualCatalog,manualBooks,retiredDocTargets} from '../src/lib/docsCenter.mjs';
 
 const root=resolve(import.meta.dirname,'..');
 const sources=[join(root,'README.md'),join(root,'README.en.md'),join(root,'README.ja.md'),join(root,'src/content/README.md')];
@@ -16,6 +17,21 @@ async function walk(directory){
 
 sources.push(...await walk(join(root,'docs')));
 const missing=[];
+const manualPaths=new Set();
+for(const locale of ['zh','ja','en','zh-tw','zh-hk']){
+ const books=await getManualCatalog(locale);
+ for(const book of books){
+  if(!book.chapters.length)missing.push(`docs/manuals/${book.id}: empty book for ${locale}`);
+  const orders=new Set();
+  for(const chapter of book.chapters){
+   if(orders.has(chapter.order))missing.push(`docs/manuals/${book.id}: duplicate order ${chapter.order} for ${locale}`);
+   orders.add(chapter.order);
+   manualPaths.add(`${book.id}/${chapter.slug}`);
+  }
+ }
+}
+if(manualBooks.some(book=>![...manualPaths].some(path=>path.startsWith(`${book}/`))))missing.push('A manual book has no chapters');
+for(const [old,target] of Object.entries(retiredDocTargets))if(!manualPaths.has(target))missing.push(`retired /docs/${old}/ -> missing ${target}`);
 for(const file of sources){
  const content=(await readFile(file,'utf8')).replace(/```[\s\S]*?```/g,'');
  for(const match of content.matchAll(/\[[^\]]*\]\(([^)]+)\)/g)){
