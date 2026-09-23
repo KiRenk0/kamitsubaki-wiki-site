@@ -9,9 +9,9 @@ html body main.workspace-page[data-workspace-page] {
   --workspace-title:clamp(26px,2.4vw,32px);
   --workspace-control-height:40px;
   --workspace-motion:220ms;
-  --workspace-surface:linear-gradient(145deg,rgb(var(--theme-fg-rgb)/.032),rgb(var(--theme-fg-rgb)/.009));
-  --workspace-shadow:0 2px 4px rgb(0 0 0/.025),0 12px 30px rgb(0 0 0/.045);
-  --workspace-radius:12px;
+  --workspace-surface:rgb(var(--theme-fg-rgb)/.025);
+  --workspace-shadow:0 4px 16px rgb(0 0 0/.035);
+  --workspace-radius:8px;
   width:100%;max-width:var(--workspace-max);margin:0 auto;
   padding:var(--workspace-top) var(--workspace-gutter) 80px;
   box-sizing:border-box;min-width:0;color:var(--theme-fg);

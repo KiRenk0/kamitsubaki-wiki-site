@@ -3,7 +3,7 @@ import {creationCopy,creationDictionary} from '../../lib/editorCreationCopy.mjs'
 import {submissionCopy} from '../../lib/editorSubmissionCopy.mjs';
 import {localEditor} from '../../lib/editorConfig.mjs';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { supportedLocales, getEditableLocale } from '../../lib/i18n.mjs';
+import { supportedLocales, getEditableLocale, resolveLocaleCopy } from '../../lib/i18n.mjs';
 import { editorCopy } from '../../lib/visualEditorCopy.mjs';
 import { entryTypes, blockTypes } from '../../lib/visualEditor.mjs';
 import '../../styles/visualEditor.css';
@@ -13,6 +13,7 @@ import '../../styles/editorPrDemo.css';
 interface Props {locale:string;articleMode?:boolean;articleApi?:string}
 const {locale='zh',articleMode=false,articleApi=''}=Astro.props;
 const tc = creationCopy(locale);
+const modeCopy=resolveLocaleCopy({zh:{articles:'文章',save:'保存草稿',submit:'提交审核',mine:'我的提案',new:'新文章',status:'文章草稿保存到数据库，审核后公开。',previous:'上一页',next:'下一页',close:'关闭'},en:{articles:'Articles',save:'Save draft',submit:'Submit for review',mine:'My proposals',new:'New article',status:'Drafts are stored in the database; publication requires review.',previous:'Previous',next:'Next',close:'Close'},ja:{articles:'記事',save:'下書きを保存',submit:'審査に提出',mine:'自分の提案',new:'新規記事',status:'下書きはデータベースに保存され、審査後に公開されます。',previous:'前へ',next:'次へ',close:'閉じる'}},locale);
 const articleLabels=locale==='en'?{workbench:'Article editor',entryProperties:'Article properties',emptyTitle:'Article title'}:locale==='ja'?{workbench:'文章エディター',entryProperties:'文章の設定',emptyTitle:'文章タイトル'}:{workbench:'文章编辑器',entryProperties:'文章属性',emptyTitle:'文章标题'};
 const copy = {...editorCopy(locale),...(articleMode?articleLabels:{})};const submissionLabels=submissionCopy(locale);const st=(text: string)=>submissionLabels[text]||text;
 const locales: Record<string,string> = {'zh':'简体中文','zh-tw':'繁體中文（臺灣）','zh-hk':'繁體中文（香港）','ja':'日本語','en':'English'};
@@ -31,36 +32,36 @@ const icons = {
   location.replace('/'+location.pathname.split('/')[1]+'/articles/submit/'+(id?'?id='+encodeURIComponent(id):''));
  }
  </script>}
- <main class="visual-editor ve-workbench" data-visual-editor data-article-mode={articleMode?'true':undefined} data-article-api={articleMode?articleApi:undefined} data-creation-copy={JSON.stringify(creationDictionary(locale))} data-locale={locale} data-content-locale={getEditableLocale(locale)} data-layout="split" data-mode="visual" data-side="outline">
+ <main class="visual-editor ve-workbench" data-visual-editor data-article-mode={articleMode?'true':undefined} data-article-api={articleMode?articleApi:undefined} data-creation-copy={JSON.stringify(creationDictionary(locale))} data-locale={locale} data-content-locale={getEditableLocale(locale)} data-sidebar-hidden data-layout="write" data-mode="visual" data-side="outline">
     <header class="ve-topbar">
-      <a class="ve-home" href={articleMode?`/${locale}/articles/`:`/${locale}/`}>← {articleMode?'文章':'Wiki'}</a><h1>{copy.workbench}</h1>
+      <a class="ve-home" href={articleMode?`/${locale}/articles/`:`/${locale}/`}>← {articleMode?modeCopy.articles:'Wiki'}</a><h1 data-document-name>{copy.emptyTitle}</h1><span class="ve-top-save" data-save-status role="status"></span>
       <button class="ve-command-trigger" data-command-open aria-label={copy.commands}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 5 5"/></svg><span>{copy.commands}</span><kbd>⌘ K</kbd></button>
-      <div class="ve-top-actions">{articleMode&&<><button data-article-save>保存草稿</button><button data-article-submit class="ve-primary">提交审核</button><button data-article-mine>我的提案</button><button data-article-new>新文章</button></>}<button data-new-open>{copy.newEntry}</button><button data-attachments-open>{copy.attachments}</button><button class="ve-properties-entry" data-side-button="properties" aria-controls="ve-entry-properties" aria-pressed="false">{copy.entryProperties}</button><button data-existing-open>{copy.editExisting}</button><button data-import-open>{copy.import}</button>
-        <button data-pr-open class="ve-primary" hidden>提交审核 · Demo</button>
-        <details class="ve-export-menu"><summary class="ve-primary">{copy.exportMenu}</summary><div><button data-copy>{copy.copy}</button><button data-download>{copy.download}</button><p>{copy.exportHint}</p><a data-github target="_blank" rel="noopener noreferrer" hidden>{copy.github} ↗</a></div></details>
+      <div class="ve-top-actions">{articleMode&&<><button data-article-save>{modeCopy.save}</button><button data-article-submit class="ve-primary">{modeCopy.submit}</button><button data-article-mine>{modeCopy.mine}</button><button data-article-new>{modeCopy.new}</button></>}<details class="ve-tools-menu"><summary>{locale==='en'?'File':locale==='ja'?'ファイル':'文件'}</summary><div><button data-new-open hidden={articleMode}>{copy.newEntry}</button><button data-attachments-open hidden={articleMode}>{copy.attachments}</button><button class="ve-properties-entry" data-side-button="properties" aria-controls="ve-entry-properties" aria-pressed="false">{copy.entryProperties}</button><button data-existing-open hidden={articleMode}>{copy.editExisting}</button><button data-import-open>{copy.import}</button></div></details>
+        <button data-pr-open class="ve-primary" hidden>{modeCopy.submit}</button>
+        <details class="ve-export-menu"><summary>{copy.exportMenu}</summary><div><button data-copy>{copy.copy}</button><button data-download>{copy.download}</button><p>{copy.exportHint}</p><a data-github target="_blank" rel="noopener noreferrer" hidden>{copy.github} ↗</a></div></details>
       </div>
     </header>
-    {articleMode&&<p class="ve-pr-banner" role="status" data-article-status>文章草稿保存到数据库，审核后公开。</p>}
+    {articleMode&&<p class="ve-pr-banner" role="status" data-article-status>{modeCopy.status}</p>}
     <div class="ve-pr-banner" data-pr-banner hidden><strong>{localEditor?st('投稿 · 本地联调'):st('投稿审核')}</strong><span>{localEditor?st('编辑、保存和审核均在本地运行。'):st('修改会提交给维护者审核，通过后发布。')}</span><button data-pr-history>{st('投稿与评论')} <span data-pr-count>0</span></button></div>
 <p class="ve-pr-banner" data-pr-draft-notice hidden><span data-pr-draft-description></span><button data-pr-recover>{st('查看服务端草稿')}</button></p>
     <div class="ve-workspace">
       <nav class="ve-activity" aria-label={copy.workbench}>
-        {(['outline','files','properties'] as const).map(side => <button data-side-button={side} aria-label={copy[side]} title={copy[side]} aria-pressed={side === 'outline' ? 'true' : 'false'}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={icons[side]}/></svg><span>{copy[side]}</span></button>)}
+        {(['outline','files','properties'] as const).map(side => <button data-side-button={side} hidden={articleMode&&side==='files'} aria-label={copy[side]} title={copy[side]} aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={icons[side]}/></svg><span>{copy[side]}</span></button>)}
         <button data-insert-open aria-label={copy.insert} title={copy.insert}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d={icons.insert}/></svg><span>{copy.insert}</span></button>
         <button data-find-open aria-label={copy.searchText} title={copy.searchText}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 5 5"/></svg><span>{copy.searchText}</span></button>
         <button class="ve-rail-bottom" data-sidebar-toggle aria-label={copy.toggleSidebar} title={`${copy.toggleSidebar} · ⌘ B`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16"/></svg></button>
       </nav>
       <aside class="ve-sidebar">
-        <section data-side-panel="outline"><div class="ve-panel-heading"><h2>{copy.outline}</h2><button data-new-entry title={copy.newEntry}>＋</button></div><p class="ve-document-name" data-document-name>{copy.emptyTitle}</p><nav data-outline aria-label={copy.outline}></nav><p class="ve-hint ve-sidebar-hint">{copy.writingHint}</p><a class="ve-help-link" href={`/${locale}/contribute/edit/?workflow=editor`} target="_blank" rel="noopener">{copy.guide} ↗</a></section>
+        <section data-side-panel="outline"><div class="ve-panel-heading"><h2>{copy.outline}</h2><button data-new-entry hidden={articleMode} title={copy.newEntry}>＋</button></div><p class="ve-document-name">{copy.emptyTitle}</p><nav data-outline aria-label={copy.outline}></nav><p class="ve-hint ve-sidebar-hint">{copy.writingHint}</p><a class="ve-help-link" href={`/${locale}/docs/editor/`} target="_blank" rel="noopener">{copy.guide} ↗</a></section>
         <section data-side-panel="files" hidden><div class="ve-panel-heading"><h2>{copy.files}</h2><button data-sidebar-close aria-label={copy.cancel}>×</button></div><div data-existing-picker><label>{copy.findEntry}<input type="search" data-entry-search placeholder={copy.findEntry}/></label><label>{copy.kind}<select data-entry-kind><option value="">{copy.allKinds}</option>{entryTypes.filter(kind=>articleMode?kind==='articles':kind!=='articles').map(kind=><option value={kind}>{copy.kinds[kind as keyof typeof copy.kinds] || kind}</option>)}</select></label><p class="ve-entry-count" data-entry-count role="status"></p><div data-entry-results></div><button data-entry-retry hidden>{copy.retry}</button></div><p data-load-status role="status"></p></section>
         <section id="ve-entry-properties" class="ve-settings" data-side-panel="properties" hidden>
           <div class="ve-panel-heading"><h2>{copy.entryProperties}</h2><button data-sidebar-close aria-label={copy.cancel}>×</button></div>
-          <label>{copy.kind}<select data-kind>{entryTypes.filter(kind=>articleMode?kind==='articles':kind!=='articles').map(k => <option value={k}>{copy.kinds[k as keyof typeof copy.kinds] || k}</option>)}</select></label>
+          <label hidden={articleMode}>{copy.kind}<select data-kind>{entryTypes.filter(kind=>articleMode?kind==='articles':kind!=='articles').map(k => <option value={k}>{copy.kinds[k as keyof typeof copy.kinds] || k}</option>)}</select></label>
           <label>{copy.locale}<select data-locale-select><option value="zh">简体中文</option><option value="ja">日本語</option><option value="en">English</option></select></label>
           <div data-fields></div>
-          <details class="ve-path"><summary>{copy.path}</summary><label>{copy.path}<input data-path placeholder="src/content/…/zh.md" /></label><p>{copy.pathHint}</p></details>
-          <details class="ve-advanced"><summary>{copy.advanced}</summary><div data-advanced-fields></div><select data-advanced-type aria-label={copy.addProperty}></select><button data-add-property>{copy.addProperty}</button></details>
-          <p class="ve-hint">{copy.rule}</p><nav class="ve-guide-links"><a href={`/${locale}/contribute/edit`}>{copy.guide}</a><a href={`/${locale}/contribute/syntax`}>{copy.syntax}</a></nav>
+          <details class="ve-path" hidden={articleMode}><summary>{copy.path}</summary><label>{copy.path}<input data-path placeholder="src/content/…/zh.md" /></label><p>{copy.pathHint}</p></details>
+          <details class="ve-advanced" hidden={articleMode}><summary>{copy.advanced}</summary><div data-advanced-fields></div><select data-advanced-type aria-label={copy.addProperty}></select><button data-add-property>{copy.addProperty}</button></details>
+          <p class="ve-hint">{copy.rule}</p><nav class="ve-guide-links"><a href={`/${locale}/docs/editor/`}>{copy.guide}</a><a href={`/${locale}/docs/metadata-schema/`}>{copy.syntax}</a></nav>
         </section>
       </aside>
       <section class="ve-compose" aria-label={copy.content}>
@@ -81,7 +82,7 @@ const icons = {
       </aside>
     </div>
     <section class="ve-problems" data-problems hidden><div class="ve-panel-heading"><h2>{copy.review}</h2><button data-problems-close aria-label={copy.cancel}>×</button></div><p>{copy.exportHint}</p><div data-validation role="status"></div><p class="ve-hint">{copy.note}</p></section>
-    <footer class="ve-statusbar"><span data-save-status role="status"></span><button data-problems-toggle><span data-problem-count>0</span> · {copy.review}</button><span data-block-count></span><span data-action-status role="status"></span><div class="ve-status-right"><select data-ui-locale aria-label={copy.locale}>{['zh','ja','en'].map(l=><option value={l} selected={l===locale}>{l==='zh'?'中文':locales[l]}</option>)}</select><details class="ve-theme-menu"><summary>{copy.theme}</summary><div role="radiogroup" aria-label={copy.theme}>{(['light','dark','system'] as const).map(theme=><button data-theme-toggle data-theme-value={theme} role="radio" aria-checked="false" aria-label={copy[theme]}>{copy[theme]}</button>)}</div></details><button data-layout="preview" title={copy.previewOnly}>{copy.preview}</button></div></footer>
+    <footer class="ve-statusbar"><button data-problems-toggle><span data-problem-count>0</span> · {copy.review}</button><span data-block-count></span><span data-action-status role="status"></span><div class="ve-status-right"><select data-ui-locale aria-label={copy.locale}>{['zh','ja','en'].map(l=><option value={l} selected={l===locale}>{l==='zh'?'中文':locales[l]}</option>)}</select><details class="ve-theme-menu"><summary>{copy.theme}</summary><div role="radiogroup" aria-label={copy.theme}>{(['light','dark','system'] as const).map(theme=><button data-theme-toggle data-theme-value={theme} role="radio" aria-checked="false" aria-label={copy[theme]}>{copy[theme]}</button>)}</div></details><button data-layout="preview" title={copy.previewOnly}>{copy.preview}</button></div></footer>
     <div class="ve-selection-toolbar" data-selection-toolbar role="toolbar" aria-label={copy.specialFormat} hidden><button data-format="bold" aria-label={copy.bold}><b>B</b></button><button data-format="italic" aria-label={copy.italic}><i>I</i></button><button data-format="link">{copy.link}</button><button data-inline-preset="mark" class="ve-highlight-tool">{copy.inline.mark}</button><button data-inline-preset="ruby">{copy.inline.ruby}</button><button data-inline-preset="spoiler">{copy.inline.spoiler}</button></div>
     <dialog class="ve-command-dialog" data-command-dialog aria-label={copy.commands}><div class="ve-command-input"><input data-command-search type="search" placeholder={copy.commands} aria-label={copy.commands} autocomplete="off" role="combobox" aria-controls="ve-command-results" aria-expanded="true"/><kbd>Esc</kbd></div><div id="ve-command-results" data-command-results role="listbox"></div></dialog>
     <dialog data-find-dialog aria-labelledby="ve-find-title"><form method="dialog"><div class="ve-section-heading"><h2 id="ve-find-title">{copy.searchText}</h2><button>{copy.cancel}</button></div></form><input type="search" data-find-text aria-label={copy.searchText}/><button data-find-next>{copy.nextMatch}</button><p data-find-status role="status"></p></dialog>
@@ -110,12 +111,12 @@ const icons = {
       <button data-image-add>{tc('加入附件')}</button><p data-image-feedback role="status"></p>
       <div data-image-list></div><button data-dialog-close>{copy.cancel}</button>
     </dialog>
-    {articleMode&&<dialog data-article-dialog class="ve-entry-dialog"><h2>我的文章提案</h2><div data-article-proposals></div><button data-article-prev>上一页</button><button data-article-next>下一页</button><button data-dialog-close>关闭</button></dialog>}
+    {articleMode&&<dialog data-article-dialog class="ve-entry-dialog"><h2>{modeCopy.mine}</h2><div data-article-proposals></div><button data-article-prev>{modeCopy.previous}</button><button data-article-next>{modeCopy.next}</button><button data-dialog-close>{modeCopy.close}</button></dialog>}
   </main>
   <script>import '../../scripts/visualEditor.js';</script>
 </BaseLayout>
 
 <style is:global>
-[data-article-mode] :is([data-new-open],[data-new-entry],[data-existing-open],[data-attachments-open],[data-side-button="files"],.ve-path,.ve-advanced,[data-kind],.ve-export-menu [data-github]){display:none!important}
-[data-article-mode] .ve-settings>label:has([data-kind]){display:none}
+
+
 </style>

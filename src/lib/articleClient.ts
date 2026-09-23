@@ -20,17 +20,19 @@ export function initArticleBrowser(root:HTMLElement){
    status.textContent='';
   }).catch(e=>{status.textContent=e.message;});return;
  }
- let offset:number|null=0,controller:AbortController|undefined;const form=root.querySelector<HTMLFormElement>('form')!,grid=root.querySelector('[data-article-grid]')!,more=root.querySelector<HTMLButtonElement>('[data-article-more]')!;
+ let offset:number|null=Math.max(0,Math.floor(Number(new URL(location.href).searchParams.get('offset'))||0)),controller:AbortController|undefined;const form=root.querySelector<HTMLFormElement>('form')!,grid=root.querySelector('[data-article-grid]')!,more=root.querySelector<HTMLButtonElement>('[data-article-more]')!;
+ for(const name of ['q','category','sort']){const value=new URL(location.href).searchParams.get(name);const control=form.elements.namedItem(name) as HTMLInputElement|HTMLSelectElement;if(value&&control)control.value=value;}
  const load=async(reset=false)=>{
   controller?.abort();const current=controller=new AbortController();more.disabled=true;root.setAttribute('aria-busy','true');status.textContent=copy.loading;
   try{
    const q=new URLSearchParams(new FormData(form) as any);const related=new URL(location.href).searchParams.get('related');if(related)q.set('related',related);q.set('locale',contentLocale);q.set('offset',String(reset?0:offset||0));
    const page=await call('?'+q,current.signal);if(current.signal.aborted)return;
-   if(reset)grid.replaceChildren();
+   grid.replaceChildren();const address=new URL(location.href);for(const name of ['q','category','sort','offset']){const value=q.get(name);if(value&&value!=='0')address.searchParams.set(name,value);else address.searchParams.delete(name);}history.replaceState(null,'',address);
    for(const article of page.items){const card=document.createElement('a');card.className='article-list-card';card.href=`/${locale}/articles/read/?id=${encodeURIComponent(article.id)}`;card.append(text('small',`${copy.categories[article.category as keyof typeof copy.categories]||article.category} · ${article.author}`),text('h2',article.title),text('p',article.summary),text('span',copy.read));grid.append(card);}
-   more.onclick=()=>void load();offset=page.nextOffset;more.hidden=offset===null;status.textContent=grid.children.length?copy.shown.replace('{n}',String(grid.children.length)):copy.empty;
+   const pageStart=Number(q.get('offset'));const previous=root.querySelector<HTMLButtonElement>('[data-article-previous]')!;previous.hidden=pageStart===0;previous.onclick=()=>{offset=Math.max(0,pageStart-24);void load();};more.onclick=()=>void load();offset=page.nextOffset;more.hidden=offset===null;status.textContent=grid.children.length?copy.shown.replace('{n}',String(grid.children.length)):copy.empty;
   }catch(e){if(current.signal.aborted)return;status.textContent=(e as Error).message;more.hidden=false;more.onclick=()=>void load(reset);}
   finally{if(controller===current){more.disabled=false;root.removeAttribute('aria-busy');}}
  };
- form.addEventListener('submit',e=>{e.preventDefault();more.onclick=()=>void load();void load(true);});form.addEventListener('reset',()=>queueMicrotask(()=>{more.onclick=()=>void load();void load(true);}));more.onclick=()=>void load();void load(true);
+ window.addEventListener('popstate',()=>{const params=new URL(location.href).searchParams;for(const name of ['q','category','sort']){const control=form.elements.namedItem(name) as HTMLInputElement|HTMLSelectElement;if(control)control.value=params.get(name)||'';}offset=Math.max(0,Math.floor(Number(params.get('offset'))||0));void load();});
+ form.addEventListener('submit',e=>{e.preventDefault();more.onclick=()=>void load();void load(true);});form.addEventListener('reset',()=>queueMicrotask(()=>{more.onclick=()=>void load();void load(true);}));more.onclick=()=>void load();void load();
 }

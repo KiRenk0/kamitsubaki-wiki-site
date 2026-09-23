@@ -295,7 +295,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const bgContainer = document.getElementById('artist-bg-container');
   const bgImg = document.getElementById('artist-bg-img');
-  const artistList = document.getElementById('artist-list');
 
   if (bgContainer instanceof HTMLElement && bgImg instanceof HTMLImageElement) {
     const bgLayers = Array.from(bgContainer.querySelectorAll('.artist-bg__image')).filter(
@@ -341,13 +340,13 @@ document.addEventListener('DOMContentLoaded', () => {
       activeBgLayer?.classList.remove('is-active');
     };
 
-    const rowAt = target => target instanceof Element ? target.closest('.artist-row') : null;
+    const rowAt = target => target instanceof Element ? target.closest('#artist-list .artist-row, [data-home-music-list] [data-music-background]') : null;
     for (const [enter, leave] of [['pointerover', 'pointerout'], ['focusin', 'focusout']]) {
-      artistList?.addEventListener(enter, event => {
+      document.addEventListener(enter, event => {
         const row = rowAt(event.target);
         if (row && row !== rowAt(event.relatedTarget)) showArtistBackground(row);
       });
-      artistList?.addEventListener(leave, event => {
+      document.addEventListener(leave, event => {
         if (rowAt(event.target) !== rowAt(event.relatedTarget)) hideArtistBackground();
       });
     }

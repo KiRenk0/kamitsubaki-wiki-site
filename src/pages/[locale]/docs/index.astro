@@ -23,7 +23,7 @@ const copy=docsCenterCopy(locale);
   </WorkspaceHeader>
   <div class="docs-tools">
    <label><span>{copy.search}</span><input type="search" placeholder={copy.searchHint} autocomplete="off" data-docs-search/></label>
-   <p><strong>{String(docsCatalog.length).padStart(2,'0')}</strong> DOCUMENTS</p>
+   <p><strong data-docs-count>{String(docsCatalog.length).padStart(2,'0')}</strong> DOCUMENTS</p>
   </div>
   <WorkspaceNavigation label={copy.title} kind="hub">
    <a href="#all" aria-current="page" data-docs-filter="all">{copy.all}</a>
@@ -33,9 +33,9 @@ const copy=docsCenterCopy(locale);
    {docsCategories.map(category=><section class="workspace-section docs-section" id={category.id} data-docs-category={category.id}>
     <header class="workspace-section-heading"><h2><span>{category.number}.</span> {localizeDoc(category.label,locale)}</h2><p>{docsCatalog.filter(doc=>doc.category===category.id).length} DOCS</p></header>
     <div class="docs-grid">
-     {docsCatalog.filter(doc=>doc.category===category.id).map((doc,index)=><a class="docs-card" href={`/${locale}/docs/${doc.slug}/`} data-docs-card data-search={`${localizeDoc(doc.title,locale)} ${localizeDoc(doc.summary,locale)} ${doc.keywords}`}>
+     {docsCatalog.filter(doc=>doc.category===category.id).map((doc,index)=><a class="docs-card" href={`/${locale}/docs/${doc.slug}/`} data-docs-card data-search={`${localizeDoc(doc.title,locale)} ${localizeDoc(doc.summary,locale)} ${doc.keywords} ${localizeDoc(doc.markdown,locale)}`}>
       <span class="docs-card-index">{category.number}.{String(index+1).padStart(2,'0')}</span>
-      <div><h3>{localizeDoc(doc.title,locale)}</h3><p>{localizeDoc(doc.summary,locale)}</p></div>
+      <div><h3>{localizeDoc(doc.title,locale)}</h3><p data-docs-excerpt data-summary={localizeDoc(doc.summary,locale)}>{localizeDoc(doc.summary,locale)}</p></div>
       <footer><span>{doc.status==='current'?copy.current:copy.guide}</span><span>{doc.language==='localized'?(locale.startsWith('zh')?'中文':locale.toUpperCase()):'中文'}</span><b aria-hidden="true">↗</b></footer>
      </a>)}
     </div>
@@ -57,9 +57,9 @@ const copy=docsCenterCopy(locale);
    let category='all';
    const update=()=>{
     const query=input.value.trim().toLocaleLowerCase();let visible=0;
-    cards.forEach(card=>{const match=(category==='all'||card.closest('[data-docs-category]')?.dataset.docsCategory===category)&&(!query||card.dataset.search.toLocaleLowerCase().includes(query));card.hidden=!match;if(match)visible+=1});
+    cards.forEach(card=>{const match=(category==='all'||card.closest('[data-docs-category]')?.dataset.docsCategory===category)&&(!query||card.dataset.search.toLocaleLowerCase().includes(query));card.hidden=!match;if(match)visible+=1;const excerpt=card.querySelector('[data-docs-excerpt]');const at=card.dataset.search.toLocaleLowerCase().indexOf(query);excerpt.textContent=query&&at>=0?'… '+card.dataset.search.slice(Math.max(0,at-40),at+140).replace(/[#*`]/g,'')+' …':excerpt.dataset.summary});
     sections.forEach(section=>section.hidden=![...section.querySelectorAll('[data-docs-card]')].some(card=>!card.hidden));
-    empty.hidden=visible!==0;
+    empty.hidden=visible!==0;root.querySelector('[data-docs-count]').textContent=String(visible).padStart(2,'0');
    };
    const select=(next,{history=false}={})=>{
     category=valid.has(next)?next:'all';

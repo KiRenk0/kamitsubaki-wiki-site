@@ -1,0 +1,21 @@
+---
+import {homeFeaturedArticles} from '../data/homeEditorial.mjs';
+import {resolveLocaleCopy} from '../lib/i18n.mjs';
+const {locale='zh'}=Astro.props as {locale?:string};
+const copy=resolveLocaleCopy({zh:{title:'文章专栏',all:'阅读全部文章',loading:'正在载入文章…',empty:'尚无已公开文章',error:'文章暂时无法载入，请前往专栏重试。'},en:{title:'Articles',all:'All articles',loading:'Loading articles…',empty:'No published articles yet',error:'Articles are unavailable. Visit the column to retry.'},ja:{title:'記事',all:'記事一覧',loading:'記事を読み込み中…',empty:'公開記事はまだありません',error:'記事を読み込めません。一覧から再試行してください。'}},locale);
+const api=import.meta.env.PUBLIC_ARTICLE_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
+---
+<section id="articles" class="home-articles mx-auto max-w-7xl px-5 py-20 sm:px-6" data-home-articles data-api={api} data-featured={homeFeaturedArticles[locale==='ja'?'ja':locale==='en'?'en':'zh']||undefined} data-locale={locale} data-copy={JSON.stringify(copy)}>
+ <header><h2>03. ARTICLES</h2><p>{copy.title}</p><a href={`/${locale}/articles/`}>{copy.all} →</a></header>
+ <div class="home-article-list"><p role="status" data-home-article-status>{copy.loading}</p><div data-home-article-items></div></div>
+</section>
+<script>
+for(const root of document.querySelectorAll<HTMLElement>('[data-home-articles]')){
+ const copy=JSON.parse(root.dataset.copy!),locale=root.dataset.locale!,status=root.querySelector<HTMLElement>('[data-home-article-status]')!,list=root.querySelector('[data-home-article-items]')!;
+ const load=async()=>{try{const response=await fetch(root.dataset.api+'/api/articles?locale='+(locale.startsWith('zh')?'zh':locale),{signal:AbortSignal.timeout(15000)});if(!response.ok)throw Error();const data=await response.json();let items=data.items.slice(0,4);if(root.dataset.featured){try{const featuredResponse=await fetch(root.dataset.api+'/api/articles/items/'+encodeURIComponent(root.dataset.featured)+'?locale='+(locale.startsWith('zh')?'zh':locale),{signal:AbortSignal.timeout(15000)});if(featuredResponse.ok){const featured=await featuredResponse.json();if(!featured.fallback&&featured.article)items=[featured.article,...data.items.filter((item:any)=>item.id!==featured.article.id).slice(0,3)];}}catch{/* Latest public articles remain available. */}}for(const item of items){const a=document.createElement('a');a.href=`/${locale}/articles/read/?id=${encodeURIComponent(item.id)}`;const title=document.createElement('h3');title.textContent=item.title;const summary=document.createElement('p');summary.textContent=item.summary;const meta=document.createElement('small');meta.textContent=[item.author,item.updatedAt].filter(Boolean).join(' · ');a.append(meta,title,summary);list.append(a);}status.textContent=items.length?'':copy.empty;}catch{status.textContent=copy.error;}};
+ const observer=new IntersectionObserver(entries=>{if(entries.some(entry=>entry.isIntersecting)){observer.disconnect();void load();}},{rootMargin:'300px'});observer.observe(root);
+}
+</script>
+<style>
+.home-articles{display:grid;grid-template-columns:1fr 3fr;gap:48px}header h2{font-size:10px;letter-spacing:.25em;font-weight:300}header p{font:10px var(--font-serif);opacity:.55;margin:8px 0 28px}header a{font-size:12px}.home-article-list{min-height:260px}.home-article-list :global(a){display:block;padding:18px 0;border-bottom:1px solid rgb(var(--theme-fg-rgb)/.14);transition:color 180ms}.home-article-list :global(a:hover){color:var(--theme-accent-color)}.home-article-list :global(h3){font:22px/1.5 var(--font-serif);margin:8px 0}.home-article-list :global(a:first-child h3){font-size:28px}.home-article-list :global(p){font-size:13px;opacity:.65;line-height:1.8}.home-article-list :global(small){font-size:10px;opacity:.5}@media(max-width:760px){.home-articles{grid-template-columns:1fr;gap:24px}}
+</style>

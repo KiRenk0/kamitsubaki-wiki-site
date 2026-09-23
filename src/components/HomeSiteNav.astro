@@ -1,4 +1,5 @@
 ---
+import {featuresFor} from '../lib/siteFeatures.mjs';
 import {accountCopy} from '../lib/accountCopy.mjs';
 import CompactLanguageSwitcher from './CompactLanguageSwitcher.astro';
 import { resolveLocaleCopy } from '../lib/i18n.mjs';
@@ -26,8 +27,10 @@ const { navItems, localeLinks, brandLines, homeHref = '/', compact = false } = A
   compact?: boolean;
 };
 
-const labsLabel = 'LABs';
+
 const currentLocale = localeLinks.find((item) => item.current)?.code ?? 'en';
+const primaryFeatures=featuresFor(currentLocale,'main');
+const labsLabel=primaryFeatures.find(item=>item.id==='explore')!.title;
 const preferencesCopy = resolveLocaleCopy({
   zh: {language: '语言', theme: '外观', hint: '中文简繁可展开'},
   ja: {language: '言語', theme: '外観', hint: '中国語の字体を選択'},
@@ -38,7 +41,6 @@ const menuCopy = resolveLocaleCopy({
   ja:{menu:'メニュー',title:'探索と設定',about:'サイトについて',experiences:'体験',database:'アーティスト',songs:'楽曲',albums:'アルバム',projects:'プロジェクト',game:'ゲーム'},
   en:{menu:'Menu',title:'Explore & settings',about:'About',experiences:'Experiences',database:'Artists',songs:'Songs',albums:'Albums',projects:'Projects',game:'Games'},
 },currentLocale);
-const itemLabel=(item:NavItem)=>menuCopy[item.href.split('#')[1] as keyof typeof menuCopy] || (item.href.includes('/games/')?menuCopy.game:item.label);
 const searchLabel = resolveLocaleCopy({
   zh: '打开站内搜索',
   ja: 'サイト内検索を開く',
@@ -81,7 +83,7 @@ const themeCopy = resolveLocaleCopy({
   </div>
   <div class="home-chrome__actions">
     <a class="account-nav" data-account-nav href={`/${currentLocale}/account/`}>{accountCopy(currentLocale).title}</a>
-    <a href={`/${currentLocale}/labs/explore/`} class="home-chrome__labs">{labsLabel}<span aria-hidden="true">↗</span></a>
+    <a href={`/${currentLocale}/explore/`} class="home-chrome__labs">{labsLabel}<span aria-hidden="true">↗</span></a>
     <button class="home-chrome__search" type="button" data-search-open aria-label={searchLabel} title={searchLabel}>
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6" /><path d="m15 15 4.5 4.5" /></svg>
     </button>
@@ -91,7 +93,7 @@ const themeCopy = resolveLocaleCopy({
         <p class="home-chrome__eyebrow">{menuCopy.title} <kbd data-search-shortcut>Ctrl+K</kbd></p>
         <div class="home-chrome__links">
           <a href={`/${currentLocale}/account/`} data-account-nav style="--menu-step:0">{accountCopy(currentLocale).title}</a>
-          {navItems.map((item, index) => <a href={item.href} style={`--menu-step:${index + 1}`}><small aria-hidden="true">{String(index + 1).padStart(2, '0')}</small>{itemLabel(item)}<span aria-hidden="true">↗</span></a>)}
+          {primaryFeatures.map((item, index) => <a href={item.href} style={`--menu-step:${index + 1}`}><small aria-hidden="true">{String(index + 1).padStart(2, '0')}</small>{item.title}<span aria-hidden="true">↗</span></a>)}
         </div>
         <div class="site-nav__controls-origin" data-home-nav-controls-origin>
           <div class="site-nav__portable-controls" data-home-nav-portable-controls>

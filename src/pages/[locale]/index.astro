@@ -3,7 +3,9 @@ import AboutSection from '../../components/AboutSection.astro';
 import AnnouncementLauncher from '../../components/AnnouncementLauncher.astro';
 import AnnouncementModal from '../../components/AnnouncementModal.astro';
 import { renderAnnouncement, selectFeaturedAnnouncement } from '../../lib/announcements.mjs';
-import AlbumsSection from '../../components/AlbumsSection.astro';
+import HomeMusicSection from '../../components/HomeMusicSection.astro';
+import HomeArticles from '../../components/HomeArticles.astro';
+import HomeExplore from '../../components/HomeExplore.astro';
 import HomeDirectory from '../../components/HomeDirectory.astro';
 import {getEntityRegistry} from '../../lib/entityRegistry.mjs';
 import {buildEntityMusicCatalog} from '../../lib/entityViews.mjs';
@@ -13,7 +15,7 @@ import Hero from '../../components/Hero.astro';
 import HomeSiteNav from '../../components/HomeSiteNav.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
 import SupportBanner from '../../components/SupportBanner.astro';
-import SongsSection from '../../components/SongsSection.astro';
+
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { getLocalizedEntries, getLocalizedSite } from '../../lib/homeData.mjs';
@@ -59,10 +61,11 @@ const metadata = buildHomeMetadata(homeContent, locale);
     <AnnouncementModal announcement={featuredAnnouncement} labels={announcementModalLabels} />
     <Hero hero={homeContent.hero} />
     <HomeDirectory locale={locale} section={homeContent.sections.database}/>
-    <SongsSection songs={songs} section={homeContent.sections.songs} locale={locale} />
-    <AlbumsSection albums={albums} section={homeContent.sections.albums} locale={locale} />
+    <HomeMusicSection songs={songs} albums={albums} sections={homeContent.sections} locale={locale}/>
+    <HomeArticles locale={locale}/>
+    <HomeExplore locale={locale}/>
     <ContributorRoster mode="summary" locale={locale} />
-    <AboutSection content={homeContent.sections.about}>
+    <AboutSection content={{...homeContent.sections.about,heading:'05. PREFACE'}}>
       <ExperiencePortals slot="explore" locale={locale} compact />
     </AboutSection>
     <SupportBanner locale={locale ?? defaultLocale} />

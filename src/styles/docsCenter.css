@@ -12,6 +12,6 @@
 .docs-card footer{grid-column:2;align-self:end;display:flex;align-items:center;gap:8px;color:var(--workspace-muted);font:9px var(--font-mono);letter-spacing:.07em;text-transform:uppercase}.docs-card footer span{padding:3px 6px;border:1px solid var(--workspace-line);border-radius:999px}.docs-card footer b{margin-left:auto;color:var(--theme-accent-color);font-size:13px;font-weight:400}
 .docs-empty{padding:70px 20px;text-align:center;color:var(--workspace-muted);font:13px var(--font-sans)}
 .docs-reader-meta{display:flex;gap:8px;margin:-8px 0 24px}.docs-reader-meta span{padding:4px 8px;border:1px solid var(--workspace-line);border-radius:999px;color:var(--workspace-muted);font:9px var(--font-mono);letter-spacing:.07em}
-.docs-reader :global(.hub-reading-layout){grid-template-columns:190px minmax(0,1fr);gap:30px}.docs-reader :global(.wiki-reader){padding-bottom:24px}.docs-reader :global(.wiki-prose h2){scroll-margin-top:108px}
-@media(max-width:760px){.docs-tools{align-items:stretch;flex-direction:column}.docs-tools>p{display:none}.docs-grid{grid-template-columns:1fr}.docs-card{min-height:140px;padding:16px}.docs-reader :global(.hub-reading-layout){grid-template-columns:1fr}}
+.docs-reader .hub-reading-layout{grid-template-columns:190px minmax(0,1fr);gap:30px}.docs-reader .wiki-reader{padding-bottom:24px}.docs-reader .wiki-prose h2{scroll-margin-top:108px}
+@media(max-width:760px){.docs-tools{align-items:stretch;flex-direction:column}.docs-tools>p{display:none}.docs-grid{grid-template-columns:1fr}.docs-card{min-height:140px;padding:16px}.docs-reader .hub-reading-layout{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.docs-card,.docs-card::after{transition:none}}

@@ -1,6 +1,12 @@
 ---
-import LabsRedirect from '../../../components/LabsRedirect.astro';
-import { supportedLocales } from '../../../lib/i18n.mjs';
-export function getStaticPaths() { return supportedLocales.map(locale => ({ params: { locale } })); }
+import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
+import WorkspaceLinkCard from '../../../components/WorkspaceLinkCard.astro';
+import {supportedLocales} from '../../../lib/i18n.mjs';
+import {featuresFor} from '../../../lib/siteFeatures.mjs';
+export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
+const {locale='zh'}=Astro.params;
+const section=featuresFor(locale,'main').find(item=>item.id==='labs')!;
 ---
-<LabsRedirect target={`/${Astro.params.locale}/labs/explore/`} />
+<WorkspaceLayout locale={locale} title={section.title} intro={section.summary} path="/labs/" eyebrow="EXPERIMENTS / BETA" backHref={`/${locale}/`} backLabel={locale==='en'?'Home':locale==='ja'?'ホーム':'首页'}>
+ <div class="feature-directory">{featuresFor(locale,'labs').map((item,index)=><WorkspaceLinkCard href={item.href} title={item.title} description={item.summary} index={String(index+1).padStart(2,'0')}/>)}</div>
+</WorkspaceLayout>

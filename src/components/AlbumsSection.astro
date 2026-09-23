@@ -59,7 +59,7 @@ const { albums, section, locale } = Astro.props as {
           data-home-music-url={`/${locale}/home-catalog.json`}
         >
           {albums.map((album) => (
-              <a href={album.href} class="group block list-row py-6 reveal-up">
+              <a href={album.href} data-music-background data-img={album.image || undefined} class="group block list-row py-6 reveal-up">
                 <div class="flex flex-col justify-between gap-4 px-4 md:flex-row md:items-center">
                   <div class="flex flex-1 items-center gap-6">
                     <span class="grid h-12 w-12 shrink-0 place-items-center overflow-hidden border border-white/10 bg-white/[0.03]">
@@ -95,7 +95,7 @@ const { albums, section, locale } = Astro.props as {
       )}
 
       <template data-home-music-template>
-        <a data-home-music-link class="group block list-row py-6 reveal-up active">
+        <a data-home-music-link data-music-background class="group block list-row py-6 reveal-up active">
           <div class="flex flex-col justify-between gap-4 px-4 md:flex-row md:items-center">
             <div class="flex flex-1 items-center gap-6">
               <span class="grid h-12 w-12 shrink-0 place-items-center overflow-hidden border border-white/10 bg-white/[0.03]">

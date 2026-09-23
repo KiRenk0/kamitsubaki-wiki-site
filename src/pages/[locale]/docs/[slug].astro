@@ -4,6 +4,8 @@ import SiteNav from '../../../components/SiteNav.astro';
 import SiteFooter from '../../../components/SiteFooter.astro';
 import WorkspaceShell from '../../../components/WorkspaceShell.astro';
 import WorkspaceHeader from '../../../components/WorkspaceHeader.astro';
+import WorkspaceLinkCard from '../../../components/WorkspaceLinkCard.astro';
+import ComponentExamples from '../../../components/ComponentExamples.astro';
 import Reader from '../../../components/Reader.astro';
 import {buildLocaleLinks,supportedLocales} from '../../../lib/i18n.mjs';
 import {getLocalizedSite} from '../../../lib/homeData.mjs';
@@ -20,6 +22,7 @@ const site=getLocalizedSite(await getCollection('site'),locale);
 const copy=docsCenterCopy(locale);
 const title=localizeDoc(doc.title,locale);
 const category=getDocsCategory(doc.category) ?? {number:'00',label:{zh:'文档',en:'Documentation',ja:'文書'}};
+const peers=docsCatalog.filter(item=>item.category===doc.category);const documentIndex=peers.findIndex(item=>item.slug===doc.slug);const neighbors=[peers[documentIndex-1],peers[documentIndex+1]].filter(Boolean);
 const markdown=localizeDoc(doc.markdown,locale).replace(/^# .+\n/,'');
 const rendered=await renderMarkdownDocument(markdown);
 rendered.html=rewriteDocsCenterLinks(rendered.html,doc,locale);
@@ -30,8 +33,11 @@ rendered.html=rewriteDocsCenterLinks(rendered.html,doc,locale);
   <WorkspaceHeader title={title} intro={localizeDoc(doc.summary,locale)} eyebrow={`${category.number} / ${localizeDoc(category.label,locale)}`} backHref={`/${locale}/docs/`} backLabel={copy.back}>
    <a href={`https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/V3.0.0/${doc.source}`}>{copy.source} <span aria-hidden="true">↗</span></a>
   </WorkspaceHeader>
+  <nav aria-label={copy.title}><a href={`/${locale}/docs/`}>{copy.title}</a> / <a href={`/${locale}/docs/#${doc.category}`}>{localizeDoc(category.label,locale)}</a> / <span aria-current="page">{title}</span></nav>
   <div class="docs-reader-meta"><span>{doc.status==='current'?copy.current:copy.guide}</span><span>{copy.language}: {doc.language==='localized'?(locale.startsWith('zh')?'中文':locale.toUpperCase()):'中文'}</span></div>
+  {doc.slug==='frontend-system'&&<ComponentExamples locale={locale}/>}
   <Reader variant="guide" headings={rendered.headings} contentsTitle={copy.contents} proseClass="cg-prose"><Fragment set:html={rendered.html}/></Reader>
+  <nav aria-label={copy.title} class="docs-neighbors">{neighbors.map(item=><WorkspaceLinkCard href={`/${locale}/docs/${item.slug}/`} title={localizeDoc(item.title,locale)} description={localizeDoc(item.summary,locale)}/>)}</nav>
  </WorkspaceShell>
  <SiteFooter footer={site.footer}/>
 </BaseLayout>

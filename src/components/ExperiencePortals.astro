@@ -11,13 +11,13 @@ const { locale = 'zh', embedded = false, compact = false, gameHref, gameHint, ga
   gameLabel?: string;
 };
 const copy = resolveLocaleCopy({
-  zh: { heading: '探索更多', labs: '时间线、关系图与探索工具', gameTitle: '记忆回廊', game: '在像素世界里探索神椿', chatTitle: '角色对话', chat: '与 V.W.P 角色展开 AI 对话' },
-  ja: { heading: 'もっと楽しむ', labs: '年表・関係図・探索ツール', gameTitle: '記憶回廊', game: 'ピクセルの世界で神椿を探索', chatTitle: 'キャラクター対話', chat: 'V.W.P キャラクターとの AI 対話' },
-  en: { heading: 'Explore more', labs: 'Timelines, connections & exploration tools', gameTitle: 'Memory Corridor', game: 'Explore Kamitsubaki in pixels', chatTitle: 'Character chat', chat: 'AI conversations with V.W.P characters' },
+  zh: { heading: '探索更多', labs: '游戏、对话与实验体验', gameTitle: '记忆回廊', game: '在像素世界里探索神椿', chatTitle: '角色对话', chat: '与 V.W.P 角色展开 AI 对话' },
+  ja: { heading: 'もっと楽しむ', labs: 'ゲーム・対話・実験', gameTitle: '記憶回廊', game: 'ピクセルの世界で神椿を探索', chatTitle: 'キャラクター対話', chat: 'V.W.P キャラクターとの AI 対話' },
+  en: { heading: 'Explore more', labs: 'Games, conversations and experiments', gameTitle: 'Memory Corridor', game: 'Explore Kamitsubaki in pixels', chatTitle: 'Character chat', chat: 'AI conversations with V.W.P characters' },
 }, locale);
 const pillars=resolveLocaleCopy({zh:['百科资料库','人物、音乐、企划与世界观','文章','史料、观点与艺术研究','全景时间轴','追溯事件与人物的交汇','设定图库','角色与世界观视觉资料'],ja:['データベース','人物・音楽・企画・世界観','記事','史料と芸術研究','年代記','出来事と人物の軌跡','設定資料','キャラクターと世界観の資料'],en:['Database','People, music, projects and worlds','Articles','Sources, perspectives and artistic research','Chronicle','Events and connected histories','Reference gallery','Character and world design records']},locale);
 const cards = [
-  { key: 'labs', title: 'LABs', description: copy.labs, href: `/${locale}/labs/explore/`, image: null },
+  { key: 'labs', title: 'LABs · Beta', description: copy.labs, href: `/${locale}/labs/`, image: null },
   { key: 'game', title: copy.gameTitle, description: gameHint ?? copy.game, href: gameHref ?? `/${locale}/games/memory-corridor`, image: '/games/memory-corridor/assets/creature-idle.png' },
   { key: 'chat', title: copy.chatTitle, description: copy.chat, href: 'https://chat.kamitsubaki.wiki/', image: '/images/artists/vwp.jpg' },
 ];

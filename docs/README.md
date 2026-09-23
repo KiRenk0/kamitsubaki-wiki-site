@@ -6,6 +6,8 @@
 
 ## 我应该看哪一份
 
+首次浏览：[使用本站](using-the-site.md)。开发页面：[前台组件与架构](design/frontend-system-v3.md)，站内对应文档含真实组件示例。
+
 | 任务 | 首要文档 | 补充文档 |
 | --- | --- | --- |
 | 投稿或修改百科词条 | [贡献指南](contributing.md) | [内容目录](../src/content/README.md) · [元数据规范](category-optimization/metadata-schema-v2.md) |

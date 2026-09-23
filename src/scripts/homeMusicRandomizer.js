@@ -30,7 +30,10 @@ function renderItem(template, item) {
   const title = fragment.querySelector('[data-home-music-title]');
   const subtitle = fragment.querySelector('[data-home-music-subtitle]');
 
-  if (link instanceof HTMLAnchorElement) link.href = item.href;
+  if (link instanceof HTMLAnchorElement) {
+    link.href = item.href;
+    if (item.backgroundImage || item.image) link.dataset.img = item.backgroundImage || item.image;
+  }
   if (title instanceof HTMLElement) title.textContent = item.title;
   if (subtitle instanceof HTMLElement) subtitle.textContent = item.subtitle;
 

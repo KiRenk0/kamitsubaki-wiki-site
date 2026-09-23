@@ -21,7 +21,7 @@ export function initTimeline(){
    get('[data-window]').textContent=`${format(start)} — ${format(end)}`;
    const marker=get<HTMLElement>('[data-window-marker]');marker.style.left=`${viewport.scrollLeft/width*100}%`;marker.style.width=`${Math.min(100,viewport.clientWidth/width*100)}%`;
    pan.value=String(viewport.scrollLeft/Math.max(1,width-viewport.clientWidth)*1000);
-   const current=eras.find(e=>start>=dateBounds(e.start).start&&start<dateBounds(e.end).end)?.id||'';
+   const current=root.querySelector<HTMLSelectElement>('[data-timeline-view]')?.value==='list'?activeEra:eras.find(e=>start>=dateBounds(e.start).start&&start<dateBounds(e.end).end)?.id||'';
    root.querySelectorAll<HTMLButtonElement>('[data-era]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.era===current)));
  };
  const focusEvent=(event:TimelineEvent,animate=true)=>viewport.scrollTo({left:Math.max(0,pos(eventBounds(event).start)-viewport.clientWidth*.35),behavior:animate&&!reduced.matches?'smooth':'instant'});
@@ -74,10 +74,14 @@ export function initTimeline(){
    if(selected)get<HTMLElement>('[data-playhead]').style.left=pos(eventBounds(selected).start)+'px';
    viewportState();
  };
- const saveEra=(id='')=>{activeEra=id;const url=new URL(location.href);id?url.searchParams.set('era',id):url.searchParams.delete('era');history.replaceState(null,'',url);};
+ const saveEra=(id='')=>{activeEra=id;const url=new URL(location.href);id?url.searchParams.set('era',id):url.searchParams.delete('era');history.replaceState(null,'',url);if(viewControl.value==='list'){renderList();viewportState();}};
  const fitRange=(start:number,end:number)=>{
    const range=Math.max(86400000,Math.min(domain.end,end)-Math.max(domain.start,start));zoom.value=String(Math.max(1,Math.min(40,duration/range)));draw();viewport.scrollTo({left:pos(Math.max(domain.start,start)),behavior:reduced.matches?'instant':'smooth'});
  };
+ const listView=get<HTMLElement>('[data-chronicle-list]'),viewControl=get<HTMLSelectElement>('[data-timeline-view]'),orderControl=get<HTMLSelectElement>('[data-timeline-order]');
+ const renderList=()=>{listView.replaceChildren();const ordered=filtered.filter(event=>viewControl.value!=='list'||!activeEra||event.era===activeEra).sort((a,b)=>a.date.start.localeCompare(b.date.start)||a.id.localeCompare(b.id));if(orderControl.value==='desc')ordered.reverse();let shown=0;const more=el('button',ui.more) as HTMLButtonElement;more.type='button';const reveal=()=>{for(const event of ordered.slice(shown,shown+12)){const button=el('button',`${dateLabel(event)} · ${event.title}`) as HTMLButtonElement;button.type='button';button.onclick=()=>{group=[event];select(event);get('[data-detail]').scrollIntoView({block:'nearest',behavior:'instant'});};listView.insertBefore(button,more);}shown+=12;more.hidden=shown>=ordered.length;collapse.hidden=shown<=12;};const collapse=el('button',data.locale==='en'?'Collapse':data.locale==='ja'?'折りたたむ':'收起') as HTMLButtonElement;collapse.type='button';collapse.onclick=()=>{renderList();listView.scrollIntoView({block:'nearest',behavior:'instant'});};listView.append(more,collapse);more.onclick=reveal;reveal();};
+ const changeListView=(save=true)=>{listView.hidden=viewControl.value!=='list';get<HTMLElement>('.timeline-console').hidden=!listView.hidden;renderList();if(listView.hidden)draw();if(save){const url=new URL(location.href);url.searchParams.set('view',viewControl.value);url.searchParams.set('order',orderControl.value);history.replaceState(null,'',url);}};
+ viewControl.onchange=()=>changeListView();orderControl.onchange=()=>changeListView();
  const apply=(save=false)=>{
    const values=Object.fromEntries(new FormData(form)),on=enabled();
    filtered=events.filter(e=>on.some(t=>e.tracks.includes(t))&&(!values.q||`${e.title} ${e.summary}`.toLowerCase().includes(String(values.q).toLowerCase()))&&(!values.entity||e.related?.some(r=>r.entity===values.entity))&&(!values.type||e.eventTypes.includes(String(values.type)))&&(!values.year||e.date.start.startsWith(String(values.year))));
@@ -86,14 +90,14 @@ export function initTimeline(){
    root.querySelectorAll<HTMLElement>('[data-solo]').forEach(b=>b.setAttribute('aria-pressed',String(on.length===1&&on[0]===b.dataset.solo)));
    if(selected&&!filtered.some(e=>e.id===selected!.id)){selected=undefined;group=[];get('[data-event-list]').replaceChildren();get('[data-detail]').replaceChildren(el('p',ui.select));get('[data-group-title]').textContent=ui.select;get<HTMLElement>('[data-playhead]').hidden=true;}
    if(selected){group=group.filter(e=>filtered.some(f=>f.id===e.id));select(selected,false);}
-   draw();
+   draw();renderList();
    if(values.year){activeEra='';fitRange(Date.UTC(Number(values.year),0,1),Date.UTC(Number(values.year)+1,0,1));if(save)saveEra();}
    if(save){const url=new URL(location.href);for(const [key,value]of Object.entries(values))value?url.searchParams.set(key,String(value)):url.searchParams.delete(key);on.length===checks.length?url.searchParams.delete('tracks'):url.searchParams.set('tracks',on.join(','));if(!selected)url.hash='';history.replaceState(null,'',url);}
  };
  const restore=()=>{
-   const params=new URLSearchParams(location.search);
+   const params=new URLSearchParams(location.search);viewControl.value=params.get('view')==='list'?'list':'timeline';orderControl.value=params.get('order')==='desc'?'desc':'asc';
    form.querySelectorAll<HTMLInputElement|HTMLSelectElement>('[name]').forEach(c=>c.value=params.get(c.name)||'');checks.forEach(c=>c.checked=!params.has('tracks')||(params.get('tracks')||'').split(',').includes(c.value));apply();
-   const era=eras.find(e=>e.id===params.get('era'));activeEra=era?.id||'';if(era)fitRange(dateBounds(era.start).start,dateBounds(era.end).end);
+   changeListView(false);const era=eras.find(e=>e.id===params.get('era'));activeEra=era?.id||'';renderList();if(era)fitRange(dateBounds(era.start).start,dateBounds(era.end).end);
    let id='';try{id=decodeURIComponent(location.hash.slice(1));}catch{}
    const event=filtered.find(e=>e.id===id);if(event){group=[event];select(event,false);focusEvent(event,false);}
  };

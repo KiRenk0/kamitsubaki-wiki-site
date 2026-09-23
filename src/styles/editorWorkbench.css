@@ -252,3 +252,14 @@ html body .ve-workbench .ve-toolbar-arrow:disabled { opacity:.25; cursor:default
 
 .ve-entry-dialog h2 { margin:0 0 16px; font:600 20px/1.5 var(--font-sans); }
 .ve-entry-dialog [data-previous-draft] { margin-bottom:16px; }
+
+/* Writing-first shell: utility actions stay available without competing with submit. */
+.ve-tools-menu{position:relative}.ve-tools-menu>summary{cursor:pointer;padding:8px 12px;font-size:12px;list-style:none}.ve-tools-menu>div{position:absolute;right:0;top:calc(100% + 8px);z-index:50;display:grid;min-width:210px;padding:8px;border:1px solid rgb(var(--theme-fg-rgb)/.16);border-radius:8px;background:var(--theme-bg);box-shadow:0 12px 32px #0002}.ve-tools-menu>div button{text-align:left;padding:10px}
+html body .ve-workbench[data-layout='write'] .ve-canvas{max-width:860px;width:100%;margin-inline:auto}
+@media(prefers-reduced-motion:no-preference){.ve-tools-menu[open]>div{animation:ve-tools-in 140ms ease-out}@keyframes ve-tools-in{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}}
+
+.ve-top-save{font:10px/1.5 var(--font-sans);color:rgb(var(--theme-fg-rgb)/.55);white-space:nowrap}.ve-topbar h1{max-width:28ch;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+@media(min-width:1101px){html body .ve-workbench[data-side='properties']:not([data-sidebar-hidden]) .ve-sidebar{grid-column:4;grid-row:1;border-left:1px solid rgb(var(--theme-fg-rgb)/.12)}html body .ve-workbench[data-side='properties']:not([data-sidebar-hidden]) .ve-compose{grid-column:2;grid-row:1}html body .ve-workbench[data-side='properties']:not([data-sidebar-hidden]) .ve-output{grid-column:3;grid-row:1}html body .ve-workbench[data-side='properties'][data-layout='write']:not([data-sidebar-hidden]) .ve-workspace{grid-template-columns:54px minmax(0,1fr) 0 280px}html body .ve-workbench[data-side='properties'][data-layout='split']:not([data-sidebar-hidden]) .ve-workspace{grid-template-columns:54px minmax(260px,1fr) minmax(260px,1fr) 280px}}
+@media(max-width:760px){.ve-top-save{max-width:12ch;white-space:normal}.ve-topbar h1{max-width:16ch}}
+
+html body .ve-workbench .ve-toolbar-scroll button{border-color:transparent;background:transparent;box-shadow:none;border-radius:4px}html body .ve-workbench .ve-toolbar-scroll button:hover{background:rgb(var(--theme-fg-rgb)/.06)}html body .ve-workbench .ve-export-menu>summary{background:transparent;color:var(--theme-fg);border:1px solid rgb(var(--theme-fg-rgb)/.15)}
