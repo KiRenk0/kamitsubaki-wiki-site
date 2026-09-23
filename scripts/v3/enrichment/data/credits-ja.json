@@ -1,0 +1,14 @@
+{
+  "people/creators/hiratayoshihisa": [
+    {
+      "heading": "## 対外提供曲・編曲の記録",
+      "body": "平田義久が神椿体系内で手がけた対外提供曲の記録は以下のとおり（作詞・作曲・編曲の大半を本人が担っている）：\n\n| 公開 / 発売日 | 楽曲 | 歌唱対象 | 担当 |\n| :--- | :--- | :--- | :--- |\n| 2022-07-02 | 《赤い洗礼》 | [Albemuth](/ja/database/artists/groups/albemuth) | 作詞 / 作曲 / 編曲 |\n| 2023-02-15 | 《感光》 | [Albemuth](/ja/database/artists/groups/albemuth) | 作詞 / 作曲 / 編曲 |\n| 2025-10-29 | 《Brrrrrreak It》 | [罪十罰](/ja/database/artists/groups/tsumitobatsu) | 作詞 / 作曲 / 編曲 |\n| 2026-04-08 | 《桜心中》 | [御莉姫](/ja/database/artists/groups/sinseiki/members/orihime) | 作詞 / 作曲 / 編曲 |\n\n> **提供曲の系譜に関する所見**：平田義久の対外提供曲は2022年から2026年にわたり、そのすべてが「[Albemuth](/ja/database/artists/groups/albemuth) → [罪十罰](/ja/database/artists/groups/tsumitobatsu) → [御莉姫](/ja/database/artists/groups/sinseiki/members/orihime)」という深脊界／少女革命計画の系譜上に集中している。うち2026年の《桜心中》は和風抒情を基調とし、《Brrrrrreak It》の重厚な志向とは鮮やかな対照をなしており、その創作が「静」と「烈」の両極を自在に操りうることを示している。"
+    }
+  ],
+  "people/creators/toa": [
+    {
+      "heading": "## 対外提供曲の記録",
+      "body": "とあが神椿体系内で手がけた対外提供曲の記録は以下のとおり（詞・曲・編の大半を本人が担っている）：\n\n| 公開 / 発売日 | 楽曲 | 歌唱対象 | 担当 |\n| :--- | :--- | :--- | :--- |\n| 2022-12-28 | 《そんなファンタジー》 | [狐子（COKO）](/ja/database/isotopes/coko) | 作詞 / 作曲 / 編曲 |\n| 2023-06-25 | 《ケムニマク》 | [羽累（HARU）](/ja/database/isotopes/haru) | 作詞 / 作曲 / 編曲 |\n| 2025-02-26 | 《ココロト》 | [心世紀](/ja/database/artists/groups/sinseiki) | 作詞 / 作曲 / 編曲 |\n\n> **提供曲の系譜に関する所見**：とあの3本の提供曲は、それぞれ[音楽的同位体](/ja/database/isotopes/kafu)（狐子、羽累）と[少女革命計画](/ja/database/projects/girls-revolution-project)（心世紀）という異なる2つのプロダクトラインに位置しており、同氏が神椿エコシステムにおいて**企画横断型の汎用ソングライター**の役割を担っていることを示している——AI歌声ライブラリ向けにも書ければ、3人組に合唱曲を提供することもできる。"
+    }
+  ]
+}
