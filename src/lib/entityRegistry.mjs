@@ -1,3 +1,4 @@
+import legacyArticles from '../data/article-legacy.json' with {type:'json'};
 import {readFile,readdir,stat} from 'node:fs/promises';
 import {resolve,join} from 'node:path';
 import YAML from 'yaml';
@@ -8,7 +9,7 @@ export function createEntityRegistry(entries,redirects={}){
  const entities=new Map(),incoming=new Map(),outgoing=new Map(),routes=new Map(Object.entries(redirects));
  for(const entry of entries){const d=entry.data;if(d.schemaVersion!==2)continue;let group=entities.get(d.id);if(!group){group=new Map();entities.set(d.id,group);}if(group.has(d.locale))throw Error(`Duplicate entity ${d.id}/${d.locale}`);group.set(d.locale,entry);}
  function resolveEntity(id,locale='zh'){
-  const group=entities.get(id);if(!group)return undefined;
+  const group=entities.get(id);if(!group){const legacy=legacyArticles.find(e=>e.id===id&&e.locale===locale)||legacyArticles.find(e=>e.id===id&&e.locale==='zh');return legacy?{data:{...legacy,entityType:'editorial-article'},body:'',sourceLocale:legacy.locale,requestedLocale:locale,fallback:legacy.locale!==locale,url:`/${locale}/articles/read/?id=${encodeURIComponent(id)}`}:undefined;}
   const source=group.get(locale)||group.get('zh')||group.values().next().value;
   const translated=locale.startsWith('zh-')&&source.data.locale==='zh';
   return {...source,data:translated?convertChineseContentValue(source.data,locale):source.data,sourceLocale:source.data.locale,requestedLocale:locale,fallback:source.data.locale!==locale&&!translated,url:`/${locale}${entityRoute(source.data)}`};

@@ -27,7 +27,7 @@ test('song folders use performer metadata and stable collaboration grouping',()=
 });
 test('frontend and backend accept relocated sources and reject mismatched IDs',async()=>{
  const registry=await getEntityRegistry();
- for(const id of ['kaf','mikoto','kakyoin','kamitsubaki-city-anime','thinkr','witch','chronicle-style-and-live-study']){
+ for(const id of ['kaf','mikoto','kakyoin','kamitsubaki-city-anime','thinkr','witch']){
   const entry=registry.resolveEntity(id,'zh'),path=entitySourcePath(entry.data),source=await readFile(path,'utf8');
   assert.equal(validateContent(path,source).id,id);
   const draft=importMarkdown(source,path.split('/')[2],path);

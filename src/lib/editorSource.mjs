@@ -1,4 +1,4 @@
-export const editorCollections = ['songs', 'projects', 'logs', 'people', 'units', 'isotopes', 'releases', 'lives', 'organizations', 'lore', 'articles'];
+export const editorCollections = ['songs', 'projects', 'logs', 'people', 'units', 'isotopes', 'releases', 'lives', 'organizations', 'lore'];
 export const editorLocales = ['zh', 'ja', 'en'];
 export function sourceBucket(path) {
   let hash = 0;
@@ -6,7 +6,7 @@ export function sourceBucket(path) {
   return String(hash % 8);
 }
 export function sourceRequest(path) {
-  const match = path.match(/^src\/content\/(artists|songs|albums|projects|logs|people|units|isotopes|releases|lives|organizations|lore|articles)\/(.+)\/(zh|ja|en)\.md$/);
+  const match = path.match(/^src\/content\/(artists|songs|albums|projects|logs|people|units|isotopes|releases|lives|organizations|lore)\/(.+)\/(zh|ja|en)\.md$/);
   if (!match || path.split('/').some(p => p === '..' || p === '.') || /[\\\u0000]/.test(path)) return null;
   return `/${match[3]}/editor-source/${match[1]}/${sourceBucket(path)}.json`;
 }

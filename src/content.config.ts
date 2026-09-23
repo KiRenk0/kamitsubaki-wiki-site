@@ -342,10 +342,9 @@ const releases = defineCollection({loader: metadataOnlyGlob({pattern: '**/{zh,zh
 const lives = defineCollection({loader: metadataOnlyGlob({pattern: '**/{zh,zh-tw,zh-hk,ja,en}.md', base: './src/content/lives'}),schema:entitySchema});
 const organizations = defineCollection({loader: metadataOnlyGlob({pattern: '**/{zh,zh-tw,zh-hk,ja,en}.md', base: './src/content/organizations'}),schema:entitySchema});
 const lore = defineCollection({loader: metadataOnlyGlob({pattern: '**/{zh,zh-tw,zh-hk,ja,en}.md', base: './src/content/lore'}),schema:entitySchema});
-const articles = defineCollection({loader: metadataOnlyGlob({pattern: '**/{zh,zh-tw,zh-hk,ja,en}.md', base: './src/content/articles'}),schema:entitySchema});
 
 export const collections = {
-  people, units, isotopes, releases, lives, organizations, lore, articles,
+  people, units, isotopes, releases, lives, organizations, lore,
   site,
   projects,
   logs,

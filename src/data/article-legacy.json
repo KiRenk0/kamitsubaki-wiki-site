@@ -1,0 +1,110 @@
+[
+  {
+    "id": "pndr-business-model",
+    "locale": "en",
+    "title": "Business Model Analysis of PNDR Music Distribution Platform",
+    "articleCategory": "infrastructure"
+  },
+  {
+    "id": "pndr-business-model",
+    "locale": "ja",
+    "title": "PNDR独立音楽配信プラットフォームのビジネスモデル解剖",
+    "articleCategory": "infrastructure"
+  },
+  {
+    "id": "pndr-business-model",
+    "locale": "zh",
+    "title": "PNDR 独立音乐分发平台的商业闭环剖析",
+    "articleCategory": "infrastructure"
+  },
+  {
+    "id": "thinkr-capital-and-mbo-study",
+    "locale": "en",
+    "title": "Study on THINKR Capital Strategy and Business Model",
+    "articleCategory": "business"
+  },
+  {
+    "id": "thinkr-capital-and-mbo-study",
+    "locale": "ja",
+    "title": "THINKRの資本政策とビジネスモデル研究",
+    "articleCategory": "business"
+  },
+  {
+    "id": "thinkr-capital-and-mbo-study",
+    "locale": "zh",
+    "title": "THINKR 资本运作与商业模式研究",
+    "articleCategory": "business"
+  },
+  {
+    "id": "kaika-artistic-evolution",
+    "locale": "en",
+    "title": "In-Depth Analysis of the Dual-Existence Art of KAF and KAIKA",
+    "articleCategory": "art-philosophy"
+  },
+  {
+    "id": "kaika-artistic-evolution",
+    "locale": "ja",
+    "title": "花譜と廻花 双生芸術進化の深度分析",
+    "articleCategory": "art-philosophy"
+  },
+  {
+    "id": "kaika-artistic-evolution",
+    "locale": "zh",
+    "title": "花谱与廻花双生艺术演进深度分析",
+    "articleCategory": "art-philosophy"
+  },
+  {
+    "id": "cross-source-comparison",
+    "locale": "en",
+    "title": "Comprehensive Cross-Source Comparative Analysis of KAMITSUBAKI Databases",
+    "articleCategory": "archival"
+  },
+  {
+    "id": "cross-source-comparison",
+    "locale": "ja",
+    "title": "神椿マルチソースデータマトリクス比較報告",
+    "articleCategory": "archival"
+  },
+  {
+    "id": "cross-source-comparison",
+    "locale": "zh",
+    "title": "神椿多源数据矩阵比对报告",
+    "articleCategory": "archival"
+  },
+  {
+    "id": "conflict-resolutions",
+    "locale": "en",
+    "title": "Canonical Entity Naming and Historical Fact Conflict Resolutions Table",
+    "articleCategory": "archival"
+  },
+  {
+    "id": "conflict-resolutions",
+    "locale": "ja",
+    "title": "全域エンティティ命名と歴史的事実衝突の権威的解消表",
+    "articleCategory": "archival"
+  },
+  {
+    "id": "conflict-resolutions",
+    "locale": "zh",
+    "title": "全域实体命名与历史冲突消解表",
+    "articleCategory": "archival"
+  },
+  {
+    "id": "chronicle-style-and-live-study",
+    "locale": "en",
+    "title": "Chronicle Style Evolution and Live Performance Study of KAMITSUBAKI",
+    "articleCategory": "archival"
+  },
+  {
+    "id": "chronicle-style-and-live-study",
+    "locale": "ja",
+    "title": "神椿編年音楽スタイル進化史と現場記録",
+    "articleCategory": "archival"
+  },
+  {
+    "id": "chronicle-style-and-live-study",
+    "locale": "zh",
+    "title": "神椿编年曲风演化史与现场纪实",
+    "articleCategory": "archival"
+  }
+]

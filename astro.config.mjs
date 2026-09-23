@@ -17,6 +17,7 @@ export default defineConfig({
   vite: {
     // Separate caches when running an isolated preview beside the main dev server.
     cacheDir: process.env.VITE_CACHE_DIR,
+    server: { strictPort: process.env.ONLINE_INTEGRATION === 'true' },
     plugins: [tailwindcss()],
   },
   markdown: {

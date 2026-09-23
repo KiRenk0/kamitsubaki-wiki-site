@@ -1,3 +1,5 @@
+import {articleCopy} from '../lib/articleCopy.mjs';
+import {mountArticlePicker,ensureArticleDraftUrl,initialArticleRelations,articleEntities} from '../lib/articleEntities.mjs';
 import {initializeArticleSubmission} from './articleSubmission.js';
 import {entitySourcePath} from '../lib/contentLayout.mjs';
 import {revealPanel,enhanceTabRail} from '../lib/uiMotion.mjs';
@@ -54,20 +56,22 @@ const initialize = () => {
   const tc = text => creationDictionary[text] || text;
   const uiLocale = root.dataset.locale.startsWith('zh') ? 'zh' : root.dataset.locale;
   const articleMode=root.dataset.articleMode==='true';
+  if(articleMode){const url=ensureArticleDraftUrl(location.href,()=>crypto.randomUUID());window.history.replaceState(null,'',url);}
   const prDemo = !articleMode && editorEnabled;
   const key = `${articleMode ? 'kamitsubaki-article-workbench-v1:'+(new URLSearchParams(location.search).get('draft')||new URLSearchParams(location.search).get('id')) : prDemo ? 'kamitsubaki-visual-editor-pr-demo-v1' : 'kamitsubaki-visual-editor-v1'}:${root.dataset.contentLocale}`;
   const md = renderRich;
   let draft = newDraft(articleMode?'articles':'projects', root.dataset.contentLocale);
-  let saving = true;
+  let saving = true, restoredArticle=false;
   let activeBlockId = draft.blocks[0]?.id, sourcePending = null, sourceTimer;
   const sourceKey = key + ':source';
   if (window.innerWidth <= 900) root.setAttribute('data-sidebar-hidden','');
   try {
     const saved = JSON.parse(localStorage.getItem(key) || 'null');
     if (saved?.version === 1 && entryTypes.includes(saved.kind) && (!articleMode||saved.kind==='articles') && Array.isArray(saved.blocks) && saved.blocks.length < 1000 && saved.meta) {
-      exportMarkdown(saved); draft = saved;
+      exportMarkdown(saved); draft = saved;restoredArticle=true;
     }
   } catch { saving = false; }
+  if(articleMode&&!restoredArticle&&!new URL(location.href).searchParams.has('id'))draft.meta.relatedEntities=initialArticleRelations(location.href);
   const unchangedArticle=articleMode&&draft.articleBodySnapshot===JSON.stringify(draft.blocks);
   draft.blocks = draft.blocks.flatMap(block => block.type === 'preserved' ? parseVisualBlocks(block.text) : [block]).map(upgradeListBlock);
   if(unchangedArticle)draft.articleBodySnapshot=JSON.stringify(draft.blocks);
@@ -96,7 +100,9 @@ const initialize = () => {
     $('[data-locale-select]').value = draft.meta.locale;
     $('[data-path]').value = draft.path;
     $('[data-document-title]').value = draft.meta.name || draft.meta.title || '';
-    if(articleMode){const labels={zh:['摘要','分类','关联词条 ID（逗号分隔）'],ja:['概要','分類','関連項目 ID（カンマ区切り）'],en:['Summary','Category','Related entry IDs (comma-separated)']}[uiLocale];$('[data-fields]').innerHTML=`<label>${labels[0]}<textarea data-article-property="summary">${escapeHtml(draft.meta.summary||'')}</textarea></label><label>${labels[1]}<select data-article-property="articleCategory">${['archival','profile','business','art-philosophy','infrastructure'].map(value=>`<option value="${value}" ${draft.meta.articleCategory===value?'selected':''}>${value}</option>`).join('')}</select></label><label>${labels[2]}<input data-article-property="relatedEntities" value="${escapeHtml((draft.meta.relatedEntities||[]).join(', '))}"/></label>`;return;}
+    if(articleMode){const c=articleCopy(root.dataset.locale);$('[data-fields]').innerHTML=`<label>${uiLocale==='en'?'Summary':uiLocale==='ja'?'概要':'摘要'}<textarea data-article-property="summary">${escapeHtml(draft.meta.summary||'')}</textarea></label><label>${c.category}<select data-article-property="articleCategory">${Object.entries(c.categories).map(([value,label])=>`<option value="${value}" ${draft.meta.articleCategory===value?'selected':''}>${label}</option>`).join('')}</select></label><div data-article-picker></div>`;
+      mountArticlePicker($('[data-article-picker]'),{locale:root.dataset.locale,selected:()=>draft.meta.relatedEntities||[],onChange:ids=>{draft.meta.relatedEntities=ids;changed(true);}});return;}
+
     renderAdvanced();
     $('[data-fields]').innerHTML = fieldsFor(draft).map(f => f.key==='entityType'&&draft.kind==='people'&&!draft.originalMeta?`<label>${escapeHtml(f.labels[uiLocale])}<select data-field="entityType">${['person','virtual-avatar'].map(t=>`<option value="${t}" ${draft.meta.entityType===t?'selected':''}>${t}</option>`).join('')}</select></label>`:`<label>${escapeHtml(f.labels[uiLocale])}${f.required ? ' <span aria-hidden="true">*</span>' : ''}<input data-field="${f.key}" type="${f.type}" ${f.required ? 'required' : ''} ${(draft.originalMeta&&f.key==='id')||f.key==='entityType'&&draft.kind!=='people'?'readonly':''} value="${escapeHtml(draft.meta[f.key] ?? '')}" ${f.key === 'releaseDate' ? 'placeholder="YYYY-MM-DD"' : ''} /></label>`).join('');
   }
@@ -224,7 +230,7 @@ const initialize = () => {
   root.addEventListener('input', event => {
     const el = event.target;
     if (!(el instanceof HTMLElement)) return;
-    if(el.matches('[data-article-property]')){const key=el.dataset.articleProperty;draft.meta[key]=key==='relatedEntities'?el.value.split(/[,，]/).map(x=>x.trim()).filter(Boolean):el.value;changed();return;}
+    if(el.matches('[data-article-property]')){const key=el.dataset.articleProperty;draft.meta[key]=el.value;changed();return;}
     if(el.matches('[data-source]')) {queueSource();return;}
     if(el.matches('[data-document-title]')) {draft.meta['name' in draft.meta?'name':'title']=el.value;const field=$(`[data-field="${'name' in draft.meta?'name':'title'}"]`);if(field)field.value=el.value;changed();return;}
     if (el.matches('[data-meta-value]')) { const path=parsePath(el.dataset.metaValue); metaParent(path)[path.at(-1)]=el.type==='checkbox'?el.checked:el.type==='number'?Number(el.value):el.value; changed(); return; }
@@ -727,6 +733,7 @@ const initialize = () => {
     },
   });
   if(articleMode)initializeArticleSubmission(root,{
+    async validateRelations(){const ids=draft.meta.relatedEntities||[];if(!ids.length)return;const entries=await articleEntities(root.dataset.locale);if(ids.some(id=>!entries.some(e=>e.id===id)))throw Error(articleCopy(root.dataset.locale).invalidRelated);},
     prepareNavigation(){saving=true;},
     snapshot(){if(!applySource())throw Error(copy.sourceError);return {locale:draft.meta.locale,content:{title:draft.meta.title||'',summary:draft.meta.summary||'',category:draft.meta.articleCategory||'archival',relatedEntities:draft.meta.relatedEntities||[],body:serializeDraft()}};},
     restore(content,locale){clearPendingSource();draft=newDraft('articles',locale);Object.assign(draft.meta,{title:content.title||'',summary:content.summary||'',articleCategory:content.category||'archival',relatedEntities:content.relatedEntities||[]});draft.blocks=parseVisualBlocks(content.body||'');if(!draft.blocks.length)draft.blocks=[newBlock('paragraph')];draft.articleOriginalBody=content.body||'';draft.articleBodySnapshot=JSON.stringify(draft.blocks);history=[JSON.stringify(draft)];cursor=0;renderFields();renderBlocks();changed(true);},

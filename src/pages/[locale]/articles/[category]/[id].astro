@@ -1,5 +1,6 @@
 ---
-import {getEntityRegistry,entityLocales} from '../../../../lib/entityRegistry.mjs';
-export async function getStaticPaths(){const r=await getEntityRegistry();return entityLocales.flatMap(locale=>r.list(locale).filter(e=>e.data.entityType==='editorial-article').map(e=>({params:{locale,category:e.data.articleCategory,id:e.data.id},props:{entityId:e.data.id}})));}
+import legacyArticles from '../../../../data/article-legacy.json';
+import {entityLocales} from '../../../../lib/entityRegistry.mjs';
+export function getStaticPaths(){return entityLocales.flatMap(locale=>legacyArticles.filter(e=>e.locale==='zh').map(e=>({params:{locale,category:e.articleCategory,id:e.id},props:{entityId:e.id}})));}
 return Astro.redirect(`/${Astro.params.locale}/articles/read/?id=${encodeURIComponent(Astro.props.entityId)}`,301);
 ---

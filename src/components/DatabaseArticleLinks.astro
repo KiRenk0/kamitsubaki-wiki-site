@@ -1,16 +1,26 @@
 ---
-import ReaderDisclosure from './ReaderDisclosure.astro';
 import ReaderRecordList from './ReaderRecordList.astro';
-const {id,locale,title}=Astro.props;
+import {articleCopy} from '../lib/articleCopy.mjs';
+const {id,locale}=Astro.props,copy=articleCopy(locale);
 const api=import.meta.env.PUBLIC_ARTICLE_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
 ---
-<ReaderDisclosure title={title}><div data-db-articles data-api={api} data-entity-id={id} data-locale={locale}><div data-db-article-list><ReaderRecordList records={[]} id="db-articles" locale={locale}/></div><p role="status" data-db-article-status></p><a href={`/${locale}/articles/?related=${encodeURIComponent(id)}`}>{locale==='en'?'All related articles':locale==='ja'?'関連記事一覧':'查看全部相关文章'} ↗</a></div></ReaderDisclosure>
+<section data-db-articles data-api={api} data-entity-id={id} data-locale={locale}>
+ <div class="related-article-heading"><h2>{copy.relatedArticles}</h2><a href={`/${locale}/articles/submit/?related=${encodeURIComponent(id)}`}>{copy.writeRelated} ↗</a></div>
+ <ReaderRecordList records={[]} id="db-articles" locale={locale}/><p role="status" data-db-article-status>{copy.loading}</p>
+ <button type="button" data-db-article-retry hidden>{copy.retry}</button><a href={`/${locale}/articles/?related=${encodeURIComponent(id)}`}>{copy.allRelated} ↗</a>
+</section>
+<style>.related-article-heading{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap}.related-article-heading a,section>a{font-size:12px}button{font:inherit;background:none;border:1px solid var(--reader-line);padding:8px 14px;margin-right:12px}section :global(.reader-record-text small){display:block;color:var(--reader-muted);font-size:11px}</style>
 <script>
+import {articleCopy} from '../lib/articleCopy.mjs';
+import {localizeArticleText} from '../lib/articlePresentation.mjs';
 document.querySelectorAll<HTMLElement>('[data-db-articles]').forEach(root=>{
- let loaded=false;root.closest('details')!.addEventListener('toggle',async()=>{if(!root.closest('details')!.open||loaded)return;loaded=true;const status=root.querySelector('[data-db-article-status]')!;status.textContent='…';try{
- const response=await fetch(`${root.dataset.api}/api/articles?locale=${root.dataset.locale}&related=${encodeURIComponent(root.dataset.entityId||'')}`,{signal:AbortSignal.timeout(15000)});if(!response.ok)throw Error();const {items}=await response.json();const grid=root.querySelector('.reader-record-grid')!;
- for(const [i,item] of items.slice(0,12).entries()){const a=document.createElement('a');a.className='reader-record';a.href=`/${root.dataset.locale}/articles/read/?id=${encodeURIComponent(item.id)}`;const number=document.createElement('span');number.className='reader-record-index';number.textContent=String(i+1).padStart(2,'0');const text=document.createElement('span');text.className='reader-record-text';const title=document.createElement('strong');title.textContent=item.title;text.append(title);const arrow=document.createElement('span');arrow.className='reader-record-arrow';arrow.textContent='↗';a.append(number,text,arrow);grid.append(a);}
- status.textContent=items.length?'':root.dataset.locale==='en'?'No published articles.':root.dataset.locale==='ja'?'公開記事はありません。':'暂无已公开相关文章。';
- }catch{loaded=false;status.textContent=root.dataset.locale==='en'?'Unable to load. Reopen to retry.':root.dataset.locale==='ja'?'読み込めません。開き直して再試行してください。':'暂时无法读取，重新展开可重试。';}});
+ const locale=root.dataset.locale!,copy=articleCopy(locale),status=root.querySelector('[data-db-article-status]')!,retry=root.querySelector<HTMLButtonElement>('[data-db-article-retry]')!;
+ const load=async()=>{retry.hidden=true;status.textContent=copy.loading;try{
+  const response=await fetch(`${root.dataset.api}/api/articles?locale=${locale}&related=${encodeURIComponent(root.dataset.entityId||'')}`,{signal:AbortSignal.timeout(15000)});if(!response.ok)throw Error(copy.unavailable);
+  const {items}=await response.json(),grid=root.querySelector('.reader-record-grid')!;grid.replaceChildren();
+  for(const [i,item] of items.slice(0,12).entries()){const a=document.createElement('a');a.className='reader-record';a.href=`/${locale}/articles/read/?id=${encodeURIComponent(item.id)}`;const number=document.createElement('span');number.className='reader-record-index';number.textContent=String(i+1).padStart(2,'0');const text=document.createElement('span');text.className='reader-record-text';const title=document.createElement('strong');title.textContent=await localizeArticleText(item.title,locale);const meta=document.createElement('small');meta.textContent=`${copy.origins[item.origin as keyof typeof copy.origins]} · ${item.author} · ${item.updatedAt}`;const summary=document.createElement('small');summary.textContent=await localizeArticleText(item.summary,locale);text.append(title,meta,summary);a.append(number,text);grid.append(a);}
+  status.textContent=items.length?'':copy.empty;
+ }catch{status.textContent=copy.unavailable;retry.hidden=false;}};
+ retry.onclick=()=>void load();const observer=new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting)){observer.disconnect();void load();}},{rootMargin:'200px'});observer.observe(root);
 });
 </script>

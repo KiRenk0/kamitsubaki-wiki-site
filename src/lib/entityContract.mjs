@@ -1,6 +1,6 @@
 /** Shared, browser-safe V3 content contract. IDs describe entities, never paths. */
 export const entityTypes = ['person','virtual-avatar','unit','software-voice','work-track','work-release','project','organization','live-event','lore-concept','editorial-article'];
-export const entityCollections = ['people','units','isotopes','songs','releases','projects','lives','organizations','lore','articles'];
+export const entityCollections = ['people','units','isotopes','songs','releases','projects','lives','organizations','lore'];
 export const authorableRelations = {
   'member-of':'has-member','persona-related':'persona-related','based-on-voice':'voice-source-of',
   'voice-source-of':'based-on-voice','fictional-counterpart':'fictional-counterpart',

@@ -5,3 +5,4 @@
 html body .article-reader .reader-layout:not(:has(.reader-sidebar>details:not([hidden]))){grid-template-columns:minmax(0,46rem);justify-content:center}
 html body .article-reader .reader-sidebar:not(:has(>details:not([hidden]))){display:none}
 @media(max-width:1023px){html body .article-reader .reader-sidebar>.article-toc{order:0;margin-bottom:0}html body .article-reader .reader-sidebar>.article-related{order:2;margin-bottom:0}html body .article-reader .reader-layout{row-gap:20px}}
+.article-related-links{display:flex;flex-wrap:wrap;gap:8px 16px;margin:12px 0 24px}.article-related-links a{font-size:13px;text-underline-offset:4px}[data-related-filter]{display:flex;align-items:center;gap:12px}[data-related-filter][hidden]{display:none}[data-related-clear]{font:inherit;color:inherit;border:1px solid var(--reader-line);background:transparent;padding:6px 12px}[data-article-related-panel] h2{font-size:13px}

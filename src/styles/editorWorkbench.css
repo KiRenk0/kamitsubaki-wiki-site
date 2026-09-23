@@ -252,6 +252,7 @@ html body .ve-workbench .ve-toolbar-arrow:disabled { opacity:.25; cursor:default
 
 .ve-entry-dialog h2 { margin:0 0 16px; font:600 20px/1.5 var(--font-sans); }
 .ve-entry-dialog [data-previous-draft] { margin-bottom:16px; }
+.article-picker-selected{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}.article-picker-results{display:grid;max-height:280px;overflow:auto;gap:3px}.article-picker-option{display:flex!important;align-items:center;gap:10px;text-align:start;min-height:44px!important;width:100%}.article-picker-option img{width:32px;height:32px;object-fit:cover}.article-picker-option small{display:block;opacity:.65;font-size:10px}.article-picker-selected button{min-height:36px!important}[data-article-picker] input{width:100%}
 
 /* Writing-first shell: utility actions stay available without competing with submit. */
 .ve-tools-menu{position:relative}.ve-tools-menu>summary{cursor:pointer;padding:8px 12px;font-size:12px;list-style:none}.ve-tools-menu>div{position:absolute;right:0;top:calc(100% + 8px);z-index:50;display:grid;min-width:210px;padding:8px;border:1px solid rgb(var(--theme-fg-rgb)/.16);border-radius:8px;background:var(--theme-bg);box-shadow:0 12px 32px #0002}.ve-tools-menu>div button{text-align:left;padding:10px}

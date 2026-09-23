@@ -118372,6 +118372,216 @@
       "sha256": "79744a56433f7baed6f7168288b38908d88d582ef35841fe59ffda1d5a497db4"
     },
     {
+      "from": "src/content/articles/infrastructure/pndr-business-model/en.md",
+      "to": "docs/archive/articles/infrastructure/pndr-business-model/en.md",
+      "id": "pndr-business-model",
+      "locale": "en",
+      "sha256": "6e8f1db75938e4671083e84b0e025157f3c53d8bc8dc523cf06cdd332e183999"
+    },
+    {
+      "from": "src/content/articles/infrastructure/pndr-business-model/ja.md",
+      "to": "docs/archive/articles/infrastructure/pndr-business-model/ja.md",
+      "id": "pndr-business-model",
+      "locale": "ja",
+      "sha256": "07d4fad2f9be43e168fb5d1951248bd51d5c33f71611cf26ec4c536144bf9321"
+    },
+    {
+      "from": "src/content/articles/infrastructure/pndr-business-model/zh-hk.md",
+      "to": "docs/archive/articles/infrastructure/pndr-business-model/zh-hk.md",
+      "id": "pndr-business-model",
+      "locale": "zh-hk",
+      "sha256": "d2a4bd6ee5254c2b92aaf8e56ff18458808714520a20a90b3adfa9bcb849c3d4"
+    },
+    {
+      "from": "src/content/articles/infrastructure/pndr-business-model/zh-tw.md",
+      "to": "docs/archive/articles/infrastructure/pndr-business-model/zh-tw.md",
+      "id": "pndr-business-model",
+      "locale": "zh-tw",
+      "sha256": "b69fc4628bdefc9b4d227fc7ee71c2708be7a3612a98917fb5cf30c6ef54ee2f"
+    },
+    {
+      "from": "src/content/articles/infrastructure/pndr-business-model/zh.md",
+      "to": "docs/archive/articles/infrastructure/pndr-business-model/zh.md",
+      "id": "pndr-business-model",
+      "locale": "zh",
+      "sha256": "b0f76e2f3b9761490a297eb3c0746750d47f00df4ba33867dc34696e8b848116"
+    },
+    {
+      "from": "src/content/articles/business/thinkr-capital-and-mbo-study/en.md",
+      "to": "docs/archive/articles/business/thinkr-capital-and-mbo-study/en.md",
+      "id": "thinkr-capital-and-mbo-study",
+      "locale": "en",
+      "sha256": "000a9054d0f1b9d937a8c5405e0462647f987589aebac0ace32d0b3812752b06"
+    },
+    {
+      "from": "src/content/articles/business/thinkr-capital-and-mbo-study/ja.md",
+      "to": "docs/archive/articles/business/thinkr-capital-and-mbo-study/ja.md",
+      "id": "thinkr-capital-and-mbo-study",
+      "locale": "ja",
+      "sha256": "46e103ea3a8aaa0d1d351aa29a925dd001da4b518e45c5bc4c4cb2742e608295"
+    },
+    {
+      "from": "src/content/articles/business/thinkr-capital-and-mbo-study/zh-hk.md",
+      "to": "docs/archive/articles/business/thinkr-capital-and-mbo-study/zh-hk.md",
+      "id": "thinkr-capital-and-mbo-study",
+      "locale": "zh-hk",
+      "sha256": "743a6b48c230a03b5b518559d1e68b191495238d3b9e90ffe574669e5449eb84"
+    },
+    {
+      "from": "src/content/articles/business/thinkr-capital-and-mbo-study/zh-tw.md",
+      "to": "docs/archive/articles/business/thinkr-capital-and-mbo-study/zh-tw.md",
+      "id": "thinkr-capital-and-mbo-study",
+      "locale": "zh-tw",
+      "sha256": "4708cfac76e040dd4f1b2d8972dabe4101ea26cc1ccf2197eccafc443635a547"
+    },
+    {
+      "from": "src/content/articles/business/thinkr-capital-and-mbo-study/zh.md",
+      "to": "docs/archive/articles/business/thinkr-capital-and-mbo-study/zh.md",
+      "id": "thinkr-capital-and-mbo-study",
+      "locale": "zh",
+      "sha256": "4d9d84315ee8f76323ed6871d304e3378d7b61051d4081d05ab9181f113c5dac"
+    },
+    {
+      "from": "src/content/articles/art-philosophy/kaika-artistic-evolution/en.md",
+      "to": "docs/archive/articles/art-philosophy/kaika-artistic-evolution/en.md",
+      "id": "kaika-artistic-evolution",
+      "locale": "en",
+      "sha256": "62b900325441a9dd3f17873d8281839013219f1e4144b5f6fc67d2dd656d1680"
+    },
+    {
+      "from": "src/content/articles/art-philosophy/kaika-artistic-evolution/ja.md",
+      "to": "docs/archive/articles/art-philosophy/kaika-artistic-evolution/ja.md",
+      "id": "kaika-artistic-evolution",
+      "locale": "ja",
+      "sha256": "4f7317dc28031f459f6badd19067d66b1c333c5ac54ed6fb75e3c80a0b88b1bf"
+    },
+    {
+      "from": "src/content/articles/art-philosophy/kaika-artistic-evolution/zh-hk.md",
+      "to": "docs/archive/articles/art-philosophy/kaika-artistic-evolution/zh-hk.md",
+      "id": "kaika-artistic-evolution",
+      "locale": "zh-hk",
+      "sha256": "5cc3a7759a7d4c3763741b82145b2d0409264c139c3631c219d910d5936d2b55"
+    },
+    {
+      "from": "src/content/articles/art-philosophy/kaika-artistic-evolution/zh-tw.md",
+      "to": "docs/archive/articles/art-philosophy/kaika-artistic-evolution/zh-tw.md",
+      "id": "kaika-artistic-evolution",
+      "locale": "zh-tw",
+      "sha256": "87a3471fbb55710847102a95b1c91e8e0a3f9c272f2d886afbf59ec5aaf37945"
+    },
+    {
+      "from": "src/content/articles/art-philosophy/kaika-artistic-evolution/zh.md",
+      "to": "docs/archive/articles/art-philosophy/kaika-artistic-evolution/zh.md",
+      "id": "kaika-artistic-evolution",
+      "locale": "zh",
+      "sha256": "2d30c16c57ce37e5c33e5ef78a57ede905deccf34c2d813bcf3d254096e3b497"
+    },
+    {
+      "from": "src/content/articles/archival/cross-source-comparison/en.md",
+      "to": "docs/archive/articles/archival/cross-source-comparison/en.md",
+      "id": "cross-source-comparison",
+      "locale": "en",
+      "sha256": "92c30e9e62eccd9a712524970cbb1c2734c7a69317f1f181739d0ddc4cf97653"
+    },
+    {
+      "from": "src/content/articles/archival/cross-source-comparison/ja.md",
+      "to": "docs/archive/articles/archival/cross-source-comparison/ja.md",
+      "id": "cross-source-comparison",
+      "locale": "ja",
+      "sha256": "0b77c24622faefefea0d918c9d2eeef474b32bec9c38dcf459a2ff960ad74b8c"
+    },
+    {
+      "from": "src/content/articles/archival/cross-source-comparison/zh-hk.md",
+      "to": "docs/archive/articles/archival/cross-source-comparison/zh-hk.md",
+      "id": "cross-source-comparison",
+      "locale": "zh-hk",
+      "sha256": "15e4fee23f82a0fad21051fd887d78685eca15e5fe567d12d8481e2b24cb2529"
+    },
+    {
+      "from": "src/content/articles/archival/cross-source-comparison/zh-tw.md",
+      "to": "docs/archive/articles/archival/cross-source-comparison/zh-tw.md",
+      "id": "cross-source-comparison",
+      "locale": "zh-tw",
+      "sha256": "dffc154c74856899cc0132c62c8b5c855a6df0c9563f483d17ce7cc5b5ab65ee"
+    },
+    {
+      "from": "src/content/articles/archival/cross-source-comparison/zh.md",
+      "to": "docs/archive/articles/archival/cross-source-comparison/zh.md",
+      "id": "cross-source-comparison",
+      "locale": "zh",
+      "sha256": "9a635c9a772b6810e658e4a39ffd55d5e9830e90cd2e77a95b1fec253707a161"
+    },
+    {
+      "from": "src/content/articles/archival/conflict-resolutions/en.md",
+      "to": "docs/archive/articles/archival/conflict-resolutions/en.md",
+      "id": "conflict-resolutions",
+      "locale": "en",
+      "sha256": "ef948d8b4ab6e839412168f0144896f460b1bc31c6504532a195e50ce28d36df"
+    },
+    {
+      "from": "src/content/articles/archival/conflict-resolutions/ja.md",
+      "to": "docs/archive/articles/archival/conflict-resolutions/ja.md",
+      "id": "conflict-resolutions",
+      "locale": "ja",
+      "sha256": "c42bc8b9b3c1eefdc52a2fc966bd9ba8d5a140347a1900bedc978dea08eb3a58"
+    },
+    {
+      "from": "src/content/articles/archival/conflict-resolutions/zh-hk.md",
+      "to": "docs/archive/articles/archival/conflict-resolutions/zh-hk.md",
+      "id": "conflict-resolutions",
+      "locale": "zh-hk",
+      "sha256": "c75cd51fdb3869c52409813bf0eecc572294577ec784428f72015fc3864a3131"
+    },
+    {
+      "from": "src/content/articles/archival/conflict-resolutions/zh-tw.md",
+      "to": "docs/archive/articles/archival/conflict-resolutions/zh-tw.md",
+      "id": "conflict-resolutions",
+      "locale": "zh-tw",
+      "sha256": "f51057c02ce8a29cf2e3f8ee01987a9c84f8e4f3b6fec32e8bf53c943ccb11d3"
+    },
+    {
+      "from": "src/content/articles/archival/conflict-resolutions/zh.md",
+      "to": "docs/archive/articles/archival/conflict-resolutions/zh.md",
+      "id": "conflict-resolutions",
+      "locale": "zh",
+      "sha256": "72c1a1492f5695040ad338980940fb03116c92cde1eef6faffce0312078864e5"
+    },
+    {
+      "from": "src/content/articles/archival/chronicle-style-and-live-study/en.md",
+      "to": "docs/archive/articles/archival/chronicle-style-and-live-study/en.md",
+      "id": "chronicle-style-and-live-study",
+      "locale": "en",
+      "sha256": "9db97697ff46a1edfa2786a773efb8933258d8a5adbe0e7276bcdb6ce147f09a"
+    },
+    {
+      "from": "src/content/articles/archival/chronicle-style-and-live-study/ja.md",
+      "to": "docs/archive/articles/archival/chronicle-style-and-live-study/ja.md",
+      "id": "chronicle-style-and-live-study",
+      "locale": "ja",
+      "sha256": "9b24bc60c5c4e7c2c56d0cc41da2fb4a0b5b8b96733d5ec6315dd9f43eefb2f6"
+    },
+    {
+      "from": "src/content/articles/archival/chronicle-style-and-live-study/zh-hk.md",
+      "to": "docs/archive/articles/archival/chronicle-style-and-live-study/zh-hk.md",
+      "id": "chronicle-style-and-live-study",
+      "locale": "zh-hk",
+      "sha256": "812fbb3b87ab1eb16ea969cb45ce18193072f6a82c74f97adb03abc3f5f72923"
+    },
+    {
+      "from": "src/content/articles/archival/chronicle-style-and-live-study/zh-tw.md",
+      "to": "docs/archive/articles/archival/chronicle-style-and-live-study/zh-tw.md",
+      "id": "chronicle-style-and-live-study",
+      "locale": "zh-tw",
+      "sha256": "e5ded3d6941093cf86b31a1ab469e76188742b51e6f029f7dcbf464eaef6cd0d"
+    },
+    {
+      "from": "src/content/articles/archival/chronicle-style-and-live-study/zh.md",
+      "to": "docs/archive/articles/archival/chronicle-style-and-live-study/zh.md",
+      "id": "chronicle-style-and-live-study",
+      "locale": "zh",
+      "sha256": "2d10ad5a0a731f3dd617a5eade0b2a4fe2d14b74e70bfbacf7eeb17d5cf6900d"
+    },
+    {
       "from": "src/content/songs/unassigned/albemuth-happy-merry-xmath/zh-tw.md",
       "to": "src/content/songs/albemuth/albemuth-happy-merry-xmath/zh-tw.md",
       "id": "albemuth-happy-merry-xmath",

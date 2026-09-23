@@ -24,7 +24,8 @@
     "dev:editor": "PUBLIC_EDITOR_ENABLED=true PUBLIC_EDITOR_LOCAL=true CHOKIDAR_USEPOLLING=true CHOKIDAR_INTERVAL=750 astro dev --config astro.editor.config.mjs --host 127.0.0.1 --port 4358",
     "validate:content": "node scripts/validate-content.mjs",
     "docs:check": "node scripts/check-docs.mjs",
-    "migrate:v3": "node scripts/v3/migrate.mjs"
+    "migrate:v3": "node scripts/v3/migrate.mjs",
+    "dev:online": "node scripts/dev-online.mjs"
   },
   "dependencies": {
     "@vitalets/google-translate-api": "^9.2.1",

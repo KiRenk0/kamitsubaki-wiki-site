@@ -8,7 +8,7 @@ function setup({id='existing',storageThrows=false}={}){
  const root={dataset:{contentLocale:'zh',articleApi:'https://api.example'},querySelector:get,querySelectorAll:()=>[],setAttribute(){},removeAttribute(){}};
  const original={location:globalThis.location,localStorage:globalThis.localStorage,fetch:globalThis.fetch};
  globalThis.location={href:'https://wiki.example/zh/articles/submit/'+(id?'?id='+id:'')};globalThis.localStorage={getItem:key=>values.get(key),setItem:(key,value)=>{if(storageThrows)throw Error('QuotaExceededError');values.set(key,value);}};
- globalThis.fetch=async(url,options)=>{requests.push({url,body:options.body&&JSON.parse(options.body)});return Response.json(options.method==='GET'?{article:{id:'existing',version:2,locale:'zh',body:'published'}}:{revisionId:'draft-1',id:'existing',locale:'zh'});};
+ globalThis.fetch=async(url,options)=>{requests.push({url,body:options.body&&JSON.parse(options.body)});return Response.json(options.method==='GET'?{permissions:{canEdit:true},article:{id:'existing',version:2,locale:'zh',body:'published'}}:{revisionId:'draft-1',id:'existing',locale:'zh'});};
  const editor={hasLocalWork:()=>true,snapshot:()=>({locale:'zh',content:{title:'Local draft',body:'Unsent changes'}}),restore(){throw Error('must preserve local draft');}};
  return {root,get,requests,editor,restore:()=>Object.assign(globalThis,original)};
 }
@@ -21,4 +21,8 @@ test('unavailable browser storage does not turn a successful cloud save into a f
 test('new articles leave the previous proposal state intact and receive an independent draft URL',async()=>{
  const f=setup({id:''});const oldConfirm=globalThis.confirm;globalThis.confirm=()=>true;
  try{initializeArticleSubmission(f.root,f.editor);await settle();f.get('[data-article-new]').onclick();const url=new URL(globalThis.location.href);assert.ok(url.searchParams.get('draft'));assert.equal(url.searchParams.has('id'),false);}finally{globalThis.confirm=oldConfirm;f.restore();}
+});
+
+test('a failed existing article load cannot accidentally create a new document',async()=>{
+ const f=setup();try{globalThis.fetch=async()=>{f.requests.push({});return Response.json({error:{message:'Unavailable'}},{status:503});};initializeArticleSubmission(f.root,f.editor);await settle();await f.get('[data-article-save]').onclick();assert.equal(f.requests.length,1);assert.match(f.get('[data-article-status]').textContent,/先从我的提案/);}finally{f.restore();}
 });

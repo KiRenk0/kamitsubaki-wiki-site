@@ -1,3 +1,4 @@
+import {articleCopy} from '../lib/articleCopy.mjs';
 import { normalizeSearchText, searchResultPath, searchSiteIndex } from '../lib/siteSearch.mjs';
 import { getSearchShortcut } from '../lib/searchShortcut.mjs';
 
@@ -205,6 +206,7 @@ function initializeSearch(root) {
   const render = () => {
     const query = input.value.trim();
     resultsRoot.replaceChildren();
+    let articleLink=root.querySelector('[data-article-search-link]');if(!articleLink){articleLink=document.createElement('a');articleLink.dataset.articleSearchLink='';articleLink.style.cssText='display:block;padding:12px 0;font-size:12px';resultsRoot.after(articleLink);}articleLink.textContent=articleCopy(root.dataset.locale).searchLabel+' ↗';articleLink.href=`/${root.dataset.locale}/articles/?q=${encodeURIComponent(query)}`;
     activeIndex = -1;
     input.removeAttribute('aria-activedescendant');
 

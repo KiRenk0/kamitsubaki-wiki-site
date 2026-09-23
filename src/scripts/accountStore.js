@@ -103,7 +103,7 @@ export async function logout() {
 }
 export function loginUrl(provider,link=false) {
   const url=new URL(`${apiBase}/api/auth/oauth/${provider}/start`);
-  const back=new URL(window.location.href);back.searchParams.delete('aiAuth');back.searchParams.delete('aiAuthProvider');back.searchParams.delete('aiAuthCode');
+  let back=new URL(window.location.href);const returnTo=back.searchParams.get('returnTo');if(returnTo){try{const target=new URL(returnTo,location.origin);if(target.origin===location.origin&&/^\/(zh|zh-tw|zh-hk|ja|en)\/articles\/submit\/$/.test(target.pathname))back=target;}catch{}}back.searchParams.delete('aiAuth');back.searchParams.delete('aiAuthProvider');back.searchParams.delete('aiAuthCode');
   url.searchParams.set('theme',document.documentElement.dataset.theme==='dark'?'dark':'light');
   url.searchParams.set('returnTo',back.toString());if(link)url.searchParams.set('intent','link');return url.toString();
 }
