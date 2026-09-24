@@ -12,7 +12,7 @@ const copy=resolveLocaleCopy({
  en:{title:'Contribute reference material',intro:'Choose a character and image. Add other details now or later; changes are published after review.',back:'Back to gallery',login:'Sign in to contribute'}
 },locale);
 ---
-<WorkspaceLayout locale={locale} title={copy.title} intro={copy.intro} path="/gallery/manage/" eyebrow="EXPLORE / VISUAL ARCHIVE" backHref={`/${locale}/gallery/`} backLabel={copy.back} noindex mainAttributes={{class:'gallery-manage-shell creation-preview-page','data-gallery-api':api,'data-gallery-login':`/${locale}/account/`}}>
+<WorkspaceLayout locale={locale} title={copy.title} intro={copy.intro} path="/gallery/manage/" eyebrow="EXPLORE / VISUAL ARCHIVE" backHref={`/${locale}/gallery/`} backLabel={copy.back} noindex mainAttributes={{class:'gallery-manage-shell creation-preview-page','data-gallery-api':api,'data-gallery-login':`/${locale}/account/`,'data-admin-intro':resolveLocaleCopy({zh:'管理员可以直接发布；暂存的图片在发布前不会公开。',ja:'管理者は直接公開できます。一時保存した画像は公開前には表示されません。',en:'Administrators can publish directly. Staged images remain private until publication.'},locale)}}>
   <Fragment slot="actions"><ContextAction data-gallery-login hidden>{copy.login}</ContextAction></Fragment>
   <CreationWorkbench live locale={locale}/>
 </WorkspaceLayout>

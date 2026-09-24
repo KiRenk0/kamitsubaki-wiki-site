@@ -15,6 +15,7 @@ export function mountArticlePicker(root,{locale,selected,onChange}){
  const render=()=>{
   chips.replaceChildren();for(const id of selected()){const e=entries.find(e=>e.id===id),button=make('button',`${e?.name||id} ×`);button.type='button';button.setAttribute('aria-label',`${copy.remove} ${e?.name||id}`);button.onclick=()=>{onChange(selected().filter(value=>value!==id));render();input.focus();};chips.append(button);}
   results.replaceChildren();if(!entries.length)return;
+  if(!input.value.trim()){status.textContent=selected().some(id=>!entries.some(e=>e.id===id))?copy.invalidRelated:'';return;}
   const matches=matchArticleEntities(entries,input.value,selected(),limit+1);status.textContent=selected().some(id=>!entries.some(e=>e.id===id))?copy.invalidRelated:!matches.length?copy.noMatches:'';
   for(const e of matches.slice(0,limit)){const button=make('button');button.type='button';button.disabled=selected().length>=50;button.className='article-picker-option';
    if(e.image&&/^\/(?!\/)|^https:\/\//.test(e.image)){const img=make('img');img.src=e.image;img.alt='';img.loading='lazy';button.append(img);}

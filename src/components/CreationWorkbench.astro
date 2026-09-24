@@ -32,3 +32,4 @@ const {live=false,locale='zh'}=Astro.props;
  <dialog class="creation-image-dialog" data-image-dialog><header><span data-dialog-title>图片预览</span><button type="button" data-dialog-close aria-label="关闭图片预览">关闭 ×</button></header><img data-dialog-image alt="本机图片预览"/></dialog>
 </section>
 <script>import '../scripts/creationPrototype.js';</script>
+<style>.creation-prototype[data-complete] .creation-toolbar,.creation-prototype[data-complete] .creation-workspace,.creation-prototype[data-complete] .creation-upload-footer{display:none}</style>

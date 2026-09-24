@@ -3,5 +3,6 @@ import EditorWorkbench from '../../../components/editor/EditorWorkbench.astro';
 import {entityLocales} from '../../../lib/entityRegistry.mjs';
 export function getStaticPaths(){return entityLocales.map(locale=>({params:{locale}}));}
 const api=import.meta.env.PUBLIC_ARTICLE_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
+const articleAdmin=Astro.url.searchParams.get('admin')==='1';
 ---
-<EditorWorkbench locale={Astro.params.locale!} articleMode articleApi={api}/>
+<EditorWorkbench locale={Astro.params.locale!} articleMode articleApi={api} articleAdmin={articleAdmin}/>
