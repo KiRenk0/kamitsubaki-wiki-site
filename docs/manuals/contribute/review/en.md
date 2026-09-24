@@ -21,7 +21,10 @@ After an entry, article, or gallery submission succeeds, stay on the page long e
 | Pending / in review | A maintainer has not approved it; avoid duplicate proposals. |
 | Returned | Read the note, correct the work, and resubmit. |
 | Partially approved | Gallery review may approve only some images; inspect each result. |
+| Approved, awaiting publication | Review is recorded, but the gallery has not synchronized the public images yet. Keep the record; a maintainer can retry publication. |
+| Partially public | Some images are public while others remain pending, returned, or awaiting synchronization. Open the set for image-level results. |
 | Approved / merged | Review or GitHub merge finished; an entry may still await site deployment. |
+| Hidden | The content is no longer listed publicly; check the record or ask a maintainer why. |
 | Public | The public entry, article, or gallery page can serve it. |
 
 ## Revise and recover

@@ -19,6 +19,8 @@ The home page previews tracks and releases; the [music directory](/en/database/m
 
 The [chronicle](/en/chronicle/) groups dated events into eras, with graphic and list views sharing search and year filters. The [reference gallery](/en/gallery/) shows approved images by character and set; one set may contain several images. The [relationship network](/en/explore/relations/) follows structured links, and the [world guide](/en/explore/world/) offers themed routes. Experimental games and chat remain under [LABs](/en/labs/), away from the reference catalog.
 
+The gallery begins with a character directory and recent sets. Within a character, filter by form; a set without one appears under **Unclassified**. Each set occupies one cover card. Open it to browse published images in order. Pending, returned, and approved-but-not-yet-synchronized images do not count as public.
+
 ## Missing material
 
 Try an alias, original-language name, or parent category. A newly submitted entry, article, or image does not appear publicly until its own review and publication steps are complete. Contributors can inspect the real status in [Creator Center](/en/account/creator/).

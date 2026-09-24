@@ -21,7 +21,8 @@
 .creator-new a{display:block;padding:10px 12px;color:var(--theme-fg);font-size:13px;text-decoration:none}
 .creator-new a:hover{background:rgb(var(--theme-fg-rgb)/.055)}
 .creator-todo [data-creator-todo]{min-height:42px}
-.creator-todo-row,.creator-notification-row,.creator-local-row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:8px 20px;padding:10px 0;border-top:1px solid var(--workspace-line)}
+.creator-todo-row,.creator-notification-row,.creator-local-row,.creator-recent-row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:8px 20px;padding:10px 0;border-top:1px solid var(--workspace-line)}
+.creator-recent-row strong{display:block;font-size:13px;font-weight:550}.creator-recent-row small{display:block;margin-top:3px;color:var(--workspace-muted);font-size:11px}.creator-recent-row button{padding:6px 0;border:0;background:none;color:var(--theme-fg);font-size:12px;text-decoration:underline;text-underline-offset:4px;cursor:pointer}
 .creator-todo-row strong,.creator-local-row strong{font-size:13px;font-weight:550}
 .creator-todo-row small,.creator-notification-row small,.creator-local-row small{color:var(--workspace-muted);font-size:11px}
 .creator-todo-row p{grid-column:1/-1;margin:0;color:var(--workspace-muted);font-size:12px;line-height:1.6}

@@ -5,7 +5,7 @@ locale: "zh-hk"
 order: 3
 title: "音樂、文章與探索"
 summary: "理解作品目錄、文章專欄、時間軸、圖庫和關聯網絡的區別。"
-generatedFromHash: "1e58a7064405dc441850"
+generatedFromHash: "c41870befadcd71ba7de"
 generated: true
 generatedFrom: "zh"
 ---
@@ -23,6 +23,8 @@ generatedFrom: "zh"
 ## 探索資料
 
 [紀元時間軸](/zh-hk/chronicle/)按事件日期和紀元組織資料，可在圖形與列表視圖之間切換，並使用搜索與年份條件。[設定圖庫](/zh-hk/gallery/)按角色與設定集合瀏覽經審核公開的圖片；一套設定可能包含多張圖。[關聯網絡](/zh-hk/explore/relations/)展示結構化連接，[世界觀導覽](/zh-hk/explore/world/)提供主題入口。實驗性遊戲與聊天歸於 [LABs](/zh-hk/labs/)，與正式資料目錄分開。
+
+圖庫首頁先展示角色目錄與最新設定組。選擇角色後可按形態篩選；沒有填寫形態的設定列在“未分類”。每套設定在列表只佔一張封面卡片，點擊後依順序查看該組已經公開的圖片。投稿中、被退回或審核通過但尚未完成公開同步的圖片不會進入公開數量。
 
 ## 資料尚未出現
 

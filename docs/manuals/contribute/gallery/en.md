@@ -11,6 +11,8 @@ summary: Add photos to each set, inspect dimensions and progress, stage files, t
 
 From the [gallery](/en/gallery/), open the [upload workspace](/en/gallery/manage/) and sign in. Create one set for one group of images. **Character is required**; set name, form, date, tags, publisher, source, and notes may be completed later. Shared information is entered once for the set. Create another set for a different group: there is no need to add images to a global queue and move them afterward.
 
+The workspace shows the **character / form** where the set will appear. Choose a form already used for that character, enter a new name for review, or leave it blank for **Unclassified**. One form may contain multiple sets; similar names are never merged automatically. The public gallery lists characters first, then forms, with one cover card per set. Open a set to browse its published images in order. The selected cover and image order are retained. Maintainers can standardize a form name by editing the whole set in content management.
+
 ## Add photos to that set
 
 Use Add photos to this set, select multiple files, or drop/paste into that set. PNG, JPEG, WebP, and GIF are supported. One batch holds up to 100 images, **20 MiB per image**. Each image row displays a thumbnail, file size, format, resolution, and upload state. Reorder images, select a cover, and add an individual title, description, or source. An empty image source inherits the set source. Verify the character and set for each image before uploading.
