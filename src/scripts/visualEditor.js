@@ -432,7 +432,7 @@ const initialize = () => {
     } catch {
       if (token === loadRequest) {
         $('[data-load-status]').textContent = copy.loadFailed;
-        const retry = document.createElement('button'); retry.type = 'button'; retry.textContent = copy.load; retry.addEventListener('click',()=>loadOriginal(path,false)); $('[data-load-status]').append(' ',retry);
+        const retry = document.createElement('button'); retry.type = 'button'; retry.className = 'context-action'; retry.textContent = copy.load; retry.addEventListener('click',()=>loadOriginal(path,false)); $('[data-load-status]').append(' ',retry);
       }
     } finally {
       if (token === loadRequest) {

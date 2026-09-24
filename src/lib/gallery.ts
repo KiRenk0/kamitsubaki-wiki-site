@@ -22,6 +22,8 @@ export async function initGallery() {
   if (!image || !zoom || !stage) return;
   const payload: {items: GalleryViewItem[]; uploaderLabel: string; viewCopy:Record<string,string>} = JSON.parse(root.querySelector('[data-gallery-json]')?.textContent || '{"items":[]}');
   const status=root.querySelector<HTMLElement>('[data-gallery-load-status]');
+  const feedback=root.querySelector<HTMLElement>('[data-gallery-fetch-feedback]');
+  const setStatus=(message:string)=>{if(status)status.textContent=message;if(feedback)feedback.hidden=!message;};
   const retry=root.querySelector<HTMLButtonElement>('[data-gallery-retry]');
   const api=(root.dataset.api||'').replace(/\/$/,'');
   const locale=root.dataset.locale||'zh';
@@ -41,7 +43,7 @@ export async function initGallery() {
   };
   const load=async(append=false)=>{
     controller?.abort();const current=controller=new AbortController();
-    if(status)status.textContent=payload.viewCopy.listLoading;
+    setStatus(payload.viewCopy.listLoading);
     if(retry)retry.hidden=true;if(more)more.disabled=true;
     if(empty)empty.hidden=true;root.setAttribute('aria-busy','true');
     const params=new URLSearchParams();selects.forEach(s=>{if(s.value)params.set(s.name,s.value);});
@@ -63,8 +65,8 @@ export async function initGallery() {
       if(filters)filters.hidden=!cards.length&&!selects.some(select=>Boolean(select.value));
       const count=root.querySelector<HTMLElement>('[data-count]');if(count){count.textContent=`${cards.length} / ${page.total}`;count.hidden=!cards.length;}
       if(empty)empty.hidden=cards.length>0;if(more)more.hidden=nextOffset===null;
-      if(status)status.textContent='';
-    }catch(error){if(current.signal.aborted)return;if(status)status.textContent=payload.viewCopy.listError;if(retry){retry.hidden=false;retry.onclick=()=>void load(append);}}
+      setStatus('');
+    }catch(error){if(current.signal.aborted)return;setStatus(payload.viewCopy.listError);if(retry){retry.hidden=false;retry.onclick=()=>void load(append);}}
     finally{if(controller===current){root.removeAttribute('aria-busy');if(more)more.disabled=false;}}
   };
   const viewer=imageViewer();
@@ -75,7 +77,7 @@ export async function initGallery() {
   const restore=async()=>{
     const params=new URLSearchParams(location.search);selects.forEach(s=>s.value=params.get(s.name)||'');
     await load();
-    if(location.hash){try{const id=decodeURIComponent(location.hash.slice(1));if(!payload.items.some(i=>i.id===id)){const {item}=await request('/items/'+encodeURIComponent(id));payload.items.push(resolve(item));}if(decodeURIComponent(location.hash.slice(1))===id)open(id,false);}catch{if(status)status.textContent=payload.viewCopy.listError;}}
+    if(location.hash){try{const id=decodeURIComponent(location.hash.slice(1));if(!payload.items.some(i=>i.id===id)){const {item}=await request('/items/'+encodeURIComponent(id));payload.items.push(resolve(item));}if(decodeURIComponent(location.hash.slice(1))===id)open(id,false);}catch{setStatus(payload.viewCopy.listError);if(retry){retry.hidden=false;retry.onclick=()=>void restore();}}}
     else if(viewer.isOpen)viewer.close();
   };
   selects.forEach(s=>s.addEventListener('change',filter));
@@ -87,7 +89,7 @@ export async function initGallery() {
       const [catalog,options]=await Promise.all([request('/characters'),request('/facets')]);characters=catalog.characters;
       selects.forEach(select=>{while(select.options.length>1)select.remove(1);for(const value of options.facets[select.name]||[]){const character=characters.find(c=>c.id===value);select.add(new Option(select.name==='character'?character?.labels?.[locale]||character?.name||value:value,value));}select.disabled=false;});
       await restore();
-    }catch{if(status)status.textContent=payload.viewCopy.listError;if(retry){retry.hidden=false;retry.onclick=()=>void initialize();}}
+    }catch{setStatus(payload.viewCopy.listError);if(retry){retry.hidden=false;retry.onclick=()=>void initialize();}}
   };
   addEventListener('popstate',()=>void restore());
   addEventListener('hashchange',()=>void restore());

@@ -2,6 +2,7 @@
 import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
 import {supportedLocales,resolveLocaleCopy} from '../../../lib/i18n.mjs';
 import CreationWorkbench from '../../../components/CreationWorkbench.astro';
+import ContextAction from '../../../components/ContextAction.astro';
 export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
 const locale=Astro.params.locale!;
 const api=import.meta.env.PUBLIC_GALLERY_API_URL||import.meta.env.PUBLIC_AI_OBSERVER_API_BASE||'https://api.kamitsubaki.wiki';
@@ -12,7 +13,7 @@ const copy=resolveLocaleCopy({
 },locale);
 ---
 <WorkspaceLayout locale={locale} title={copy.title} intro={copy.intro} path="/gallery/manage/" eyebrow="EXPLORE / VISUAL ARCHIVE" backHref={`/${locale}/gallery/`} backLabel={copy.back} noindex mainAttributes={{class:'gallery-manage-shell creation-preview-page','data-gallery-api':api,'data-gallery-login':`/${locale}/account/`}}>
-  <Fragment slot="actions"><a data-gallery-login hidden>{copy.login}</a></Fragment>
+  <Fragment slot="actions"><ContextAction data-gallery-login hidden>{copy.login}</ContextAction></Fragment>
   <CreationWorkbench live locale={locale}/>
 </WorkspaceLayout>
 <script>import '../../../scripts/galleryUploader.js';</script>

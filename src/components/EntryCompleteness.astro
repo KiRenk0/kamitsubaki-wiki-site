@@ -1,4 +1,5 @@
 ---
+import ContextAction from './ContextAction.astro';
 interface MissingItem {
   field: string;
   weight: number;
@@ -17,6 +18,7 @@ interface Props {
     missingLabel: string;
     missingSummary: string;
     missingEmpty: string;
+    editHint: string;
     tiers: {
       complete: string;
       good: string;
@@ -32,47 +34,61 @@ const tierClass = `entry-completeness__badge entry-completeness__badge--${tier}`
 const tierLabel = labels.tiers[tier] ?? labels.tiers.stub;
 ---
 
-<section class="entry-completeness wiki-side-card mt-5 w-full overflow-hidden rounded-md border border-white/10 bg-white/[0.035] sm:rounded-lg" data-entry-completeness data-score={score} data-tier={tier}>
-  <div class="border-b border-white/10 px-3 py-2.5 sm:px-4 sm:py-3">
-    <p class="font-mono text-[9px] uppercase tracking-[0.24em] text-white/35 sm:text-[10px] sm:tracking-[0.28em]">{labels.kicker}</p>
-    <div class="mt-1.5 flex items-baseline justify-between gap-3">
-      <span class="font-serif text-xl font-semibold tracking-[0.08em] text-white sm:text-2xl">{score}</span>
+<section class="entry-completeness wiki-side-card" data-entry-completeness data-score={score} data-tier={tier}>
+  <div class="entry-completeness__summary">
+    <p class="entry-completeness__kicker">{labels.kicker}</p>
+    <div class="entry-completeness__score-line">
+      <span class="entry-completeness__score">{score}</span>
       <span class={tierClass}>{tierLabel}</span>
     </div>
-    <p class="mt-1 font-mono text-[9px] uppercase tracking-[0.18em] text-white/30 sm:text-[10px]">{labels.scoreLabel}</p>
-    <div class="entry-completeness__track mt-2.5 h-1.5 w-full overflow-hidden rounded-full bg-white/10" aria-hidden="true">
+    <p class="entry-completeness__caption">{labels.scoreLabel}</p>
+    <div class="entry-completeness__track" aria-hidden="true">
       <div class:list={['entry-completeness__fill', `entry-completeness__fill--${tier}`]} style={`width: ${score}%`}></div>
     </div>
   </div>
 
   {missing.length > 0 ? (
     <details class="entry-completeness__details">
-      <summary class="cursor-pointer select-none list-none px-3 py-2.5 font-mono text-[10px] uppercase tracking-[0.18em] text-white/45 sm:px-4 sm:py-3 hover:text-white/70">
+      <summary>
         {labels.missingSummary} · {missing.length}
       </summary>
-      <div class="border-t border-white/10 px-3 pb-3 pt-2 sm:px-4 sm:pb-4">
-        <p class="font-mono text-[9px] uppercase tracking-[0.18em] text-white/30">{labels.missingLabel}</p>
-        <ul class="mt-2 space-y-1.5">
+      <div class="entry-completeness__missing">
+        <p class="entry-completeness__caption">{labels.missingLabel}</p>
+        <ul>
           {missing.map((item) => (
-            <li class="flex items-center justify-between gap-3 text-xs text-white/70">
-              <span class="min-w-0 truncate">{item.label ?? item.field}</span>
-              <span class="font-mono text-[9px] uppercase tracking-[0.16em] text-white/30 shrink-0">+{item.weight}</span>
+            <li>
+              <span>{item.label ?? item.field}</span>
+              <span class="entry-completeness__weight">+{item.weight}</span>
             </li>
           ))}
         </ul>
       </div>
     </details>
   ) : (
-    <div class="px-3 py-2.5 text-xs text-white/45 sm:px-4 sm:py-3">{labels.missingEmpty}</div>
+    <div class="entry-completeness__empty">{labels.missingEmpty}</div>
   )}
-  {missing.length > 0 && editHref && <a class="entry-completeness__action" href={editHref}>{editLabel}<span aria-hidden="true">↗</span></a>}
+  {missing.length > 0 && editHref && <ContextAction class="entry-completeness__action" layout="row" href={editHref}><strong>{editLabel}</strong><small>{labels.editHint}</small></ContextAction>}
 </section>
 
 <style>
-  .entry-completeness__action { display: flex; align-items: center; justify-content: space-between; gap: .75rem; min-height: 40px; padding: .6rem 1rem; border-top: 1px solid var(--reader-line); color: var(--reader-text); font: 500 .75rem/1.5 var(--font-sans); text-decoration: none; transition: color 180ms ease, background-color 180ms ease; }
-  .entry-completeness__action:hover { color: var(--theme-fg); background: rgb(var(--theme-fg-rgb) / .05); }
-  .entry-completeness__action:focus-visible { outline: 2px solid var(--theme-accent-color); outline-offset: -3px; }
-  @media (prefers-reduced-motion: reduce) { .entry-completeness__action { transition: none; } }
+  .entry-completeness { width:100%; margin-top:1.25rem; overflow:hidden; border:1px solid var(--reader-line); border-radius:var(--ui-radius-panel,8px); background:rgb(var(--theme-fg-rgb)/.025); color:var(--reader-text,var(--theme-fg)); }
+  .entry-completeness__summary { padding:14px 16px 16px; border-bottom:1px solid var(--reader-line); }
+  .entry-completeness__kicker,.entry-completeness__caption { margin:0; color:var(--reader-muted); font:10px/1.5 var(--font-mono); letter-spacing:.16em; }
+  .entry-completeness__kicker { text-transform:uppercase; letter-spacing:.22em; }
+  .entry-completeness__score-line { display:flex; align-items:baseline; justify-content:space-between; gap:12px; margin-top:6px; }
+  .entry-completeness__score { font:600 26px/1.25 var(--font-serif); letter-spacing:.06em; }
+  .entry-completeness__track { height:5px; width:100%; overflow:hidden; margin-top:12px; border-radius:99px; background:rgb(var(--theme-fg-rgb)/.11); }
+  .entry-completeness__details summary { padding:11px 16px; color:var(--reader-muted); font:10px/1.5 var(--font-mono); letter-spacing:.13em; cursor:pointer; list-style:none; transition:color 180ms ease,background-color 180ms ease; }
+  .entry-completeness__details summary:hover { color:var(--reader-text,var(--theme-fg)); background:rgb(var(--theme-fg-rgb)/.035); }
+  .entry-completeness__missing { padding:12px 16px 14px; border-top:1px solid var(--reader-line); }
+  .entry-completeness__missing ul { list-style:none; display:grid; gap:8px; margin:10px 0 0; padding:0; }
+  .entry-completeness__missing li { display:flex; align-items:baseline; justify-content:space-between; gap:12px; font-size:12px; }
+  .entry-completeness__weight { flex:0 0 auto; color:var(--reader-muted); font:10px var(--font-mono); }
+  .entry-completeness__empty { padding:12px 16px; color:var(--reader-muted); font-size:12px; }
+  .entry-completeness :global(.entry-completeness__action) { border:0; border-top:1px solid var(--reader-line); padding:11px 16px 12px; }
+  .entry-completeness :global(.entry-completeness__action .context-action__label) { display:grid; gap:3px; }
+  .entry-completeness :global(.entry-completeness__action strong) { font-weight:600; }
+  .entry-completeness :global(.entry-completeness__action small) { color:var(--reader-muted); font:11px/1.55 var(--font-sans); }
   .entry-completeness__badge {
     display: inline-flex;
     align-items: center;

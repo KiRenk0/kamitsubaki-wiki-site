@@ -132,8 +132,8 @@ function renderActivity(event, copy, locale) {
 function renderActions(root, copy) {
   return `
     <div class="contributor-roster__actions">
-      <a class="contributor-roster__action contributor-roster__action--primary" href="${escapeHtml(root.dataset.editHref || root.dataset.guideHref || '#')}">${escapeHtml(copy.joinAction)} <span aria-hidden="true">→</span></a>
-      <a class="contributor-roster__action" href="${escapeHtml(root.dataset.guideHref || '#')}">${escapeHtml(copy.guideAction)}</a>
+      <a class="context-action" data-tone="secondary" href="${escapeHtml(root.dataset.editHref || root.dataset.guideHref || '#')}"><span>${escapeHtml(copy.joinAction)}</span><span class="context-action__arrow" aria-hidden="true">↗</span></a>
+      <a class="context-action" data-tone="quiet" href="${escapeHtml(root.dataset.guideHref || '#')}"><span>${escapeHtml(copy.guideAction)}</span></a>
     </div>
   `;
 }
@@ -239,7 +239,7 @@ function renderRoster(root, source, copy) {
 
 function renderError(root, state, content, copy) {
   state.hidden = false;
-  state.innerHTML = `<span>${escapeHtml(copy.error)}</span><button type="button" data-contributor-retry>${escapeHtml(copy.retry)}</button>`;
+  state.innerHTML = `<span>${escapeHtml(copy.error)}</span><button class="context-action" type="button" data-contributor-retry>${escapeHtml(copy.retry)}</button>`;
   content.innerHTML = renderActions(root, copy);
   content.hidden = false;
   state.querySelector('[data-contributor-retry]')?.addEventListener('click', () => {
@@ -288,7 +288,7 @@ async function loadRoster(root, force = false) {
     content.hidden = false;
     state.hidden = !result.stale;
     if (result.stale) {
-      state.innerHTML = `<span>${escapeHtml(copy.cached)}</span><button type="button" data-contributor-retry>${escapeHtml(copy.retry)}</button>`;
+      state.innerHTML = `<span>${escapeHtml(copy.cached)}</span><button class="context-action" type="button" data-contributor-retry>${escapeHtml(copy.retry)}</button>`;
       state.querySelector('[data-contributor-retry]')?.addEventListener('click', () => {
         delete root.dataset.contributorRosterStatus;
         loadRoster(root, true);

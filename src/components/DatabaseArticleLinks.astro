@@ -1,6 +1,7 @@
 ---
 import ReaderDisclosure from './ReaderDisclosure.astro';
 import ReaderRecordList from './ReaderRecordList.astro';
+import ContextAction from './ContextAction.astro';
 import {articleCopy} from '../lib/articleCopy.mjs';
 const {id,locale}=Astro.props,copy=articleCopy(locale);
 const api=import.meta.env.PUBLIC_ARTICLE_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
@@ -11,15 +12,15 @@ const collapse=locale==='en'?'Show fewer':locale==='ja'?'折りたたむ':'收�
  <div data-db-article-panel hidden>
   <ReaderDisclosure title={copy.relatedArticles}>
    <ReaderRecordList records={[]} id={`db-articles-${id}`} locale={locale}/>
-   <div class="related-article-actions"><button type="button" data-db-article-more hidden>{more}<span data-db-article-next></span><span aria-hidden="true">↓</span></button><button type="button" data-db-article-collapse hidden>{collapse} ↑</button><a href={`/${locale}/articles/?related=${encodeURIComponent(id)}`}>{copy.allRelated} ↗</a><a href={`/${locale}/articles/submit/?related=${encodeURIComponent(id)}`}>{copy.writeRelated} ↗</a></div>
+   <div class="related-article-actions"><button class="context-action" type="button" data-db-article-more hidden>{more}<span data-db-article-next></span><span aria-hidden="true">↓</span></button><button class="context-action" type="button" data-db-article-collapse hidden>{collapse} ↑</button><ContextAction href={`/${locale}/articles/?related=${encodeURIComponent(id)}`} tone="quiet">{copy.allRelated}</ContextAction><ContextAction href={`/${locale}/articles/submit/?related=${encodeURIComponent(id)}`}>{copy.writeRelated}</ContextAction></div>
   </ReaderDisclosure>
  </div>
- <div class="related-article-empty" data-db-article-empty hidden><span>{copy.relatedArticles}</span><a href={`/${locale}/articles/submit/?related=${encodeURIComponent(id)}`}>{copy.writeRelated} ↗</a></div>
+ <div class="related-article-empty" data-db-article-empty hidden><span>{copy.relatedArticles}</span><ContextAction href={`/${locale}/articles/submit/?related=${encodeURIComponent(id)}`}>{copy.writeRelated}</ContextAction></div>
  <p class="related-article-status" role="status" data-db-article-status>{copy.loading}</p>
- <button class="related-article-retry" type="button" data-db-article-retry hidden>{copy.retry}</button>
+ <button class="context-action related-article-retry" type="button" data-db-article-retry hidden>{copy.retry}</button>
 </div>
 <style>
-.related-article-empty{display:flex;align-items:baseline;justify-content:space-between;gap:16px;border-block:1px solid var(--reader-line);padding:20px 0}.related-article-empty>span{font:400 17px/1.7 var(--font-serif);letter-spacing:.06em}.related-article-empty a,.related-article-actions a{font:11px/1.6 var(--font-sans);color:var(--reader-muted);text-underline-offset:4px}.related-article-actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:16px}.related-article-actions button,.related-article-retry{min-height:40px;border:1px solid var(--reader-line);border-radius:4px;background:none;padding:8px 14px;color:var(--reader-text,var(--theme-fg));font:11px var(--font-sans);cursor:pointer}.related-article-actions button span{margin-left:8px;color:var(--reader-muted)}.related-article-actions a:first-of-type{margin-left:auto}.related-article-status{min-height:18px;margin:8px 0;color:var(--reader-muted);font:11px var(--font-sans)}[hidden]{display:none!important}[data-db-article-panel] :global(.reader-disclosure-count){font:10px var(--font-mono);color:var(--reader-muted)}
+.related-article-empty{display:flex;align-items:center;justify-content:space-between;gap:16px;border-block:1px solid var(--reader-line);padding:20px 0}.related-article-empty>span{font:400 17px/1.7 var(--font-serif);letter-spacing:.06em}.related-article-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:16px}.related-article-actions :global(a:first-of-type){margin-left:auto}.related-article-status{min-height:18px;margin:8px 0;color:var(--reader-muted);font:11px var(--font-sans)}[hidden]{display:none!important}[data-db-article-panel] :global(.reader-disclosure-count){font:10px var(--font-mono);color:var(--reader-muted)}
 @media(max-width:600px){.related-article-empty{align-items:start;flex-direction:column}.related-article-actions a:first-of-type{margin-left:0}}
 </style>
 <script>

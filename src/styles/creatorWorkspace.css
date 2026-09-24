@@ -25,7 +25,7 @@
 .creator-todo-row strong,.creator-local-row strong{font-size:13px;font-weight:550}
 .creator-todo-row small,.creator-notification-row small,.creator-local-row small{color:var(--workspace-muted);font-size:11px}
 .creator-todo-row p{grid-column:1/-1;margin:0;color:var(--workspace-muted);font-size:12px;line-height:1.6}
-.creator-todo-row button,.creator-notification-row button,.creator-local-row a{padding:4px 0;border:0;background:none;color:var(--theme-fg);font-size:12px;text-decoration:underline;text-underline-offset:4px;cursor:pointer}
+.creator-todo-row button,.creator-notification-row button{padding:4px 0;border:0;background:none;color:var(--theme-fg);font-size:12px;text-decoration:underline;text-underline-offset:4px;cursor:pointer}
 .creator-metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-block:1px solid var(--workspace-line)}
 .creator-metrics button{display:grid;gap:8px;min-height:88px;padding:14px 15px;border:0;border-right:1px solid var(--workspace-line);background:none;color:var(--theme-fg);text-align:left;cursor:pointer;transition:background 180ms}
 .creator-metrics button:last-child{border-right:0}
@@ -58,8 +58,7 @@
 .creator-detail p{font-size:13px;line-height:1.75}
 .creator-detail .creator-detail-meta{display:flex;gap:8px 16px;flex-wrap:wrap;color:var(--workspace-muted);font-size:12px}
 .creator-detail .creator-detail-note{padding:13px 0;border-block:1px solid var(--workspace-line);white-space:pre-wrap}
-.creator-detail .creator-detail-action{display:inline-flex;align-items:center;min-height:38px;margin:15px 10px 0 0;padding:7px 13px;border:1px solid var(--theme-fg);border-radius:4px;background:var(--theme-fg);color:var(--theme-bg);font-size:12px;text-decoration:none}
-.creator-detail .creator-detail-action.secondary{background:none;color:var(--theme-fg)}
+.creator-detail .creator-detail-action{margin:15px 10px 0 0}
 .creator-detail-image{display:grid;grid-template-columns:56px minmax(0,1fr);gap:10px;padding:9px 0;border-top:1px solid var(--workspace-line)}
 .creator-detail-image img{width:56px;height:56px;object-fit:contain;background:rgb(var(--theme-fg-rgb)/.04)}
 .creator-detail-image strong{display:block;font-size:12px}.creator-detail-image small{display:block;margin-top:4px;color:var(--workspace-muted);font-size:11px}

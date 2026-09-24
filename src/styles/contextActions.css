@@ -1,0 +1,34 @@
+/* Interface actions are distinct from prose, source citations, and breadcrumbs. */
+html body :is(a,button).context-action {
+  --action-ink: var(--theme-fg);
+  --action-line: rgb(var(--theme-fg-rgb) / .2);
+  --action-hover: rgb(var(--theme-fg-rgb) / .055);
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
+  min-height: 38px;
+  padding: .55rem .8rem;
+  border: 1px solid var(--action-line);
+  border-radius: var(--ui-radius-control, 4px);
+  background: transparent;
+  color: var(--action-ink);
+  font: 500 .76rem/1.45 var(--font-sans);
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 180ms ease, border-color 180ms ease, background-color 180ms ease;
+}
+html body .context-action__arrow { flex: 0 0 auto; font: 400 .85rem/1 var(--font-sans); opacity: .62; transition: transform 180ms ease, opacity 180ms ease; }
+html body :is(a,button).context-action:hover { border-color: rgb(var(--theme-fg-rgb) / .42); background: var(--action-hover); }
+html body .context-action:hover .context-action__arrow { transform: translate(2px,-2px); opacity: 1; }
+html body :is(a,button).context-action:focus-visible { outline: 2px solid var(--ui-accent-color); outline-offset: 3px; }
+html body :is(a,button).context-action[data-tone='primary'] { background: var(--theme-fg); border-color: var(--theme-fg); color: var(--theme-bg); }
+html body :is(a,button).context-action[data-tone='primary']:hover { background: color-mix(in srgb,var(--theme-fg) 86%,var(--theme-bg)); }
+html body :is(a,button).context-action[data-tone='quiet'] { border-color: transparent; background: transparent; color: var(--theme-body); }
+html body :is(a,button).context-action[data-tone='quiet']:hover { color: var(--theme-fg); background: var(--action-hover); }
+html body :is(a,button).context-action[data-layout='row'] { width: 100%; border-radius: 0; }
+html body .entity-reader .context-action { --action-ink: var(--reader-text, var(--theme-fg)); --action-line: var(--reader-line); --action-hover: rgb(var(--theme-fg-rgb) / .05); }
+html body .entity-reader .context-action[data-tone='quiet'] { color: var(--reader-muted); }
+html body .entity-reader .context-action[data-tone='quiet']:hover { color: var(--reader-text, var(--theme-fg)); }
+@media (hover:none), (pointer:coarse) { html body :is(a,button).context-action { min-height: 44px; } }
+@media (prefers-reduced-motion:reduce) { html body :is(a,button).context-action, html body .context-action__arrow { transition: none; } html body .context-action:hover .context-action__arrow { transform: none; } }

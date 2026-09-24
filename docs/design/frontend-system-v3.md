@@ -37,12 +37,15 @@
 | `WorkspaceLayout` / `WorkspaceShell` | 二级页面骨架；标准、宽屏、阅读三种宽度 | 页面业务不得自行覆盖顶部位置和工具栏几何 |
 | `WorkspaceHeader` | 返回、标题、说明、操作及状态插槽 | 窄屏操作换行；不另设第二组主操作 |
 | `WorkspaceButton` | `tone=primary/secondary/quiet`；支持链接或按钮 | 原生禁用、可见键盘焦点；禁用链接移除跳转目标 |
+| `ContextAction` | 阅读器、投稿回执和接口结果中的下一步操作；`tone` 与 `layout` | 与正文引用区分；动态 DOM 使用同名 class，保留链接/按钮语义 |
 | `WorkspaceLinkCard` | 整行功能入口，标题、说明和可选索引 | 中性悬停，箭头提示；不得内嵌嵌套按钮 |
 | `ContentTabs` | 互斥同页内容；唯一 id、可读 label、对应具名 slot | 支持方向键、Home、End，隐藏面板不可交互 |
 | `SelectionGroup` | 图片＋名字或紧凑选项；由 ARIA 属性确定当前项 | 首次定位不滑动，悬停不覆盖当前选择；图片比例稳定 |
 | `WorkspaceState` | 列表加载、空态、错误、结果摘要 | `state=loading/empty/error/ready`；内容和操作插槽；请求提示使用 `role=status` |
 
 本页上方渲染真实共享组件，包括标签、按钮、禁用状态与空结果示例。示例只用于展示，不写入业务数据库。
+
+投稿和完善入口的具体使用规则见 [界面操作与接口状态](context-actions.md)。审核后台采用相同层级与状态语义，但使用自己的原生控件样式。
 
 ### 表单、条件和分页
 
