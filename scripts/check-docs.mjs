@@ -17,6 +17,8 @@ async function walk(directory){
 
 sources.push(...await walk(join(root,'docs')));
 const missing=[];
+const privateDetails=[];
+const privateImplementation=/kamitsubaki-wiki-site-backend|\b(?:D1|R2|Worker|Wrangler)\b|AI_OBSERVER_DB|GALLERY_(?:STAGING|IMAGES)|migrations\/[0-9]+|数据库迁移|存储桶|后端部署/iu;
 const manualPaths=new Set();
 for(const locale of ['zh','ja','en','zh-tw','zh-hk']){
  const books=await getManualCatalog(locale);
@@ -33,7 +35,9 @@ for(const locale of ['zh','ja','en','zh-tw','zh-hk']){
 if(manualBooks.some(book=>![...manualPaths].some(path=>path.startsWith(`${book}/`))))missing.push('A manual book has no chapters');
 for(const [old,target] of Object.entries(retiredDocTargets))if(!manualPaths.has(target))missing.push(`retired /docs/${old}/ -> missing ${target}`);
 for(const file of sources){
- const content=(await readFile(file,'utf8')).replace(/```[\s\S]*?```/g,'');
+ const source=await readFile(file,'utf8');
+ if(privateImplementation.test(source))privateDetails.push(relative(root,file));
+ const content=source.replace(/```[\s\S]*?```/g,'');
  for(const match of content.matchAll(/\[[^\]]*\]\(([^)]+)\)/g)){
   let target=match[1].trim().replace(/^<|>$/g,'').split(/\s+["']/)[0];
   if(!target||target.startsWith('#')||target.startsWith('/')||/^[a-z][a-z0-9+.-]*:/i.test(target))continue;
@@ -46,7 +50,8 @@ for(const file of sources){
  }
 }
 
-if(missing.length){
- console.error(`Documentation contains ${missing.length} broken local link(s):\n${missing.join('\n')}`);
+if(missing.length||privateDetails.length){
+ if(missing.length)console.error(`Documentation contains ${missing.length} broken local link(s):\n${missing.join('\n')}`);
+ if(privateDetails.length)console.error(`Public documentation names private implementation details in ${privateDetails.length} file(s):\n${privateDetails.join('\n')}`);
  process.exitCode=1;
 }else console.log(`Checked ${sources.length} Markdown documents; local links resolve.`);

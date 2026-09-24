@@ -5,7 +5,7 @@ locale: "zh-hk"
 order: 2
 title: "分類、元數據與內容維護"
 summary: "使用分類地圖、schema 和結構化關聯維護百科及探索資料。"
-generatedFromHash: "9d21c2a2de963d6bd881"
+generatedFromHash: "32917223c47e6d798aac"
 generated: true
 generatedFrom: "zh"
 ---
@@ -14,7 +14,7 @@ generatedFrom: "zh"
 
 ## 內容身份
 
-百科源文件位於 `src/content/`，以穩定 ID、實體類型和語言確定身份。元數據協議 `schemaVersion: 2` 與網站版本 V3 不同。修改字段時先查看 `src/lib/entitySchema.mjs`、`src/lib/metadata.mjs` 和 `src/lib/contentLayout.mjs`，再同步編輯器與後端契約；不能只改頁面標籤。簡中、日文、英文源稿共享同一實體身份，繁體由簡中生成。
+百科源文件位於 `src/content/`，以穩定 ID、實體類型和語言確定身份。元數據協議 `schemaVersion: 2` 與網站版本 V3 不同。修改字段時先查看 `src/lib/entitySchema.mjs`、`src/lib/metadata.mjs` 和 `src/lib/contentLayout.mjs`，再檢查前台編輯器字段；不能只改頁面標籤。簡中、日文、英文源稿共享同一實體身份，繁體由簡中生成。
 
 ## 分類與目錄
 
@@ -22,11 +22,11 @@ generatedFrom: "zh"
 
 ## 關聯與功能數據
 
-`relations`、`performers`、`credits` 和形態譜系驅動關聯檔案、作品署名與切換器。文章關聯詞條必須顯式保存目標 ID，不從正文 WikiLink 推斷。時間軸事件在 `src/data/chronicle/`，紀元區間由 `src/data/taxonomy/eras.yml` 定義；普通正文日期不會自動變成事件。圖庫角色目錄與實體元數據同步，但圖片和審核記錄仍在 Worker、D1、R2。
+`relations`、`performers`、`credits` 和形態譜系驅動關聯檔案、作品署名與切換器。文章關聯詞條必須顯式保存目標 ID，不從正文 WikiLink 推斷。時間軸事件在 `src/data/chronicle/`，紀元區間由 `src/data/taxonomy/eras.yml` 定義；普通正文日期不會自動變成事件。圖庫角色目錄與實體元數據保持一致；圖片和審核狀態由站點服務提供，不作為百科 Markdown 維護。
 
 ## 改動流程
 
-修改分類、字段或目錄規則後，檢查現有詞條遷移與多語言對應，運行內容校驗、編輯器 schema 契約與圖庫契約檢查。保留舊正文和來源，必要時通過遷移報告驗證原文件哈希；不要為使校驗通過而批量重寫事實。
+修改分類、字段或目錄規則後，檢查現有詞條遷移與多語言對應，運行內容校驗，並檢查前台編輯器及圖庫角色列表。保留舊正文和來源，必要時通過遷移報告驗證原文件哈希；不要為使校驗通過而批量重寫事實。
 
 ## 一個實體、多個入口
 
@@ -42,7 +42,7 @@ generatedFrom: "zh"
 
 ## 新增詞條的維護順序
 
-先查穩定 ID 和所有語言、選擇準確實體類型，再按分類地圖決定主歸檔與額外入口。建立 `zh.md`、`ja.md`、`en.md` 時應核對內容語言，不能把中文複製成日英“譯文”。繁體由生成器產生。填入有來源的屬性和正文後，運行 `pnpm validate:content`；如果改動了 schema 或編輯器字段，再檢查同步契約。移動既有主路徑需保留舊 URL 重定向，使用遷移報告核對正文未意外改變。
+先查穩定 ID 和所有語言、選擇準確實體類型，再按分類地圖決定主歸檔與額外入口。建立 `zh.md`、`ja.md`、`en.md` 時應核對內容語言，不能把中文複製成日英“譯文”。繁體由生成器產生。填入有來源的屬性和正文後，運行 `pnpm validate:content`；如果改動了 schema 或編輯器字段，再檢查前台輸入與預覽。移動既有主路徑需保留舊 URL 重定向，使用遷移報告核對正文未意外改變。
 
 ## 分類和形態的最小示例
 

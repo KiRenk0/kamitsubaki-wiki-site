@@ -3,9 +3,9 @@ book: "develop"
 chapter: "operations"
 locale: "zh-tw"
 order: 4
-title: "本地開發、檢查與釋出"
-summary: "按前後端契約、遷移和真實流程分層驗證，保留回滾依據。"
-generatedFromHash: "0a16c4e993a4192d5fdb"
+title: "前臺開發與驗收"
+summary: "按修改範圍檢查前臺，並區分本地效果與真實投稿流程。"
+generatedFromHash: "55b8c6fccb8537931f97"
 generated: true
 generatedFrom: "zh"
 ---
@@ -14,32 +14,19 @@ generatedFrom: "zh"
 
 ## 本地準備
 
-分別確認主站與後端倉庫的分支、未提交檔案、環境變數名稱及當前服務地址。前端使用 pnpm；文件只在主站 `docs/` 編輯，執行 `node scripts/sync-docs.mjs` 更新工作區映象。環境檔案與金鑰不得寫入 Markdown、提交或瀏覽器日誌。
+在前臺倉庫確認當前分支與未提交修改，安裝 Node.js 和 pnpm，執行 `pnpm install --frozen-lockfile`、`pnpm dev`。說明書只在本倉庫 `docs/manuals/` 編輯，再執行 `node scripts/sync-docs.mjs` 更新工作區映象。環境金鑰不得寫進倉庫、截圖或瀏覽器日誌。服務端的執行、釋出和故障處理屬於維護者的私有流程，不在此提供。
 
-## 針對性檢查
+## 按改動檢查
 
-文件修改至少執行 `node scripts/check-docs.mjs`、`node scripts/sync-docs.mjs --check` 和 `pnpm check`；前臺路由變更再執行 `pnpm build`。內容結構變更先執行 `pnpm validate:content`，介面契約變更檢查 `node scripts/v3/sync-editor-schema.mjs --check` 與 `node scripts/v3/sync-gallery-contract.mjs --check`。根據實際改動補充針對性後端測試，不用無關的大量重複測試掩蓋流程問題。
-
-## 釋出與回滾
-
-上線前記錄前後端提交號、D1 遷移、Worker 配置、R2 繫結和前端目標版本。需要資料庫遷移時先備份、在預覽環境演練，確認 Worker 與前端介面相容，再依釋出手冊操作。詞條要檢查 GitHub PR 稽核、合併和靜態站更新；文章要檢查真實登入、資料庫草稿、審批及公開讀取；相簿要檢查私有暫存、批次提交、逐圖稽核和公開地址。構建成功或本地模擬不等於真實雲端流程通過。
-
-出現故障時先停住進一步釋出，儲存請求編號、記錄狀態與日誌，核對是否有已經成功的寫入，再按已記錄的版本回滾前端或 Worker。D1 遷移與公開資料不能靠簡單回退程式碼來“撤銷”；應有備份和單獨的資料修復方案。驗收記錄分別標註本地、模擬服務和真實服務，不宣稱未走通的流程已上線可用。
-
-## 按變更範圍執行檢查
-
-| 變更 | 至少檢查 |
+| 前臺變更 | 建議檢查 |
 | --- | --- |
-| 說明書與連結 | `node scripts/check-docs.mjs`、`node scripts/sync-docs.mjs --check`、`pnpm check`。 |
-| 分類與詞條後設資料 | `pnpm validate:content`、`node scripts/v3/sync-editor-schema.mjs --check`。 |
-| 相簿契約 | `node scripts/v3/sync-gallery-contract.mjs --check`，再驗證後端遷移和許可權。 |
-| 前臺路由或元件 | `pnpm check`、`pnpm build`、受影響流程的瀏覽器檢查。 |
-| 釋出候選 | 構建連結、靜態資源審計、後端測試、真實賬號投稿與稽核。 |
+| 文件正文與連結 | `node scripts/check-docs.mjs`、`node scripts/sync-docs.mjs --check`。 |
+| 分類與詞條後設資料 | `pnpm validate:content`，檢查受影響的語言和目錄。 |
+| 頁面、控制元件與閱讀器 | `pnpm check`、`pnpm build`，在桌面和窄屏實際操作。 |
+| 投稿介面 | 本機草稿、登入狀態、錯誤提示、提交回執與創作者中心跳轉。 |
 
-不要把一次舊版本的測試數字寫成當前釋出保證。構建前確認環境變數名稱，但不把值寫入文件、命令輸出或截圖。文件映象檢查失敗時，只在主站 `docs/` 修正文稿，然後重新同步映象。
+前臺構建通過只證明靜態產物可生成。模擬響應、瀏覽器預覽和真實賬號提交應在驗收記錄中分別標註，不能相互代替。測試前保留原有詞條正文和稽核記錄，避免用測試內容覆蓋真實資料。
 
-## 釋出順序和證據
+## 前臺釋出邊界
 
-先固定前後端提交和本次 D1 遷移，再備份資料庫、在預覽環境演練；有跨層改動時先保持後端向後相容。按依賴釋出資料庫遷移、Worker 和前端，然後分別驗收詞條 PR、文章 D1、相簿私有暫存／公開 R2。記錄真實服務的請求與記錄編號、公開頁面和回滾版本。模擬 D1/R2、靜態構建和瀏覽器本地預覽各自只能證明對應層。
-
-故障時先核對是否已經產生寫入；回滾程式碼不等於撤銷資料庫遷移，也不能刪除已經公開的物件。需要資料修復時保留審計記錄並制定單獨方案。正式流程以倉庫內釋出手冊為維護來源，站內本章提供安全的總覽。
+前臺候選需記錄提交號、構建結果、受影響頁面、可見迴歸項和恢復版本。上線前由維護者確認依賴服務已可用，再檢查詞條提案、文章公開和相簿上傳各自的真實流程。若頁面與服務狀態不一致，暫停前臺釋出並保留可復現的頁面地址及回執編號；服務端排查和恢復由私有運維流程處理。本公開說明書不包含服務端倉庫、配置、資料遷移或部署命令。

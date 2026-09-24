@@ -5,7 +5,7 @@ locale: "zh-hk"
 order: 4
 title: "Markdown 與詞條屬性完整指南"
 summary: "從第一次修改到新增完整詞條：本站 Markdown、frontmatter、媒體、內容結構和提交前檢查的統一參考。"
-generatedFromHash: "196fb19929557b46ec19"
+generatedFromHash: "763fdbbf46a9f3d3f5fe"
 generated: true
 generatedFrom: "zh"
 ---
@@ -619,7 +619,7 @@ presentation:
   image: /images/artists/kaf/cover.jpg
 ```
 
-`relations` 使用穩定 ID 關聯實體。`performers` 決定歌曲目錄；多個主要表演者使用 `collaborations`。編輯器與後端通過 `contentLayout.mjs` 共用目錄規則。詳情參見 [V3 貢獻指南](/zh-hk/docs/contribute/entry/)和[元數據規範](https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/V3.0.0/docs/category-optimization/metadata-schema-v2.md)。
+`relations` 使用穩定 ID 關聯實體。`performers` 決定歌曲目錄；多個主要表演者使用 `collaborations`。前台內容目錄規則定義在 `contentLayout.mjs`。詳情參見 [V3 貢獻指南](/zh-hk/docs/contribute/entry/)和[元數據規範](https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/V3.0.0/docs/category-optimization/metadata-schema-v2.md)。
 
 ## 混合簡繁轉換與生成文件
 

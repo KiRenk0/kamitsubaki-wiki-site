@@ -31,9 +31,9 @@ export const docsCenterCopy=locale=>resolveLocaleCopy({
 },locale);
 
 export const bookCopy=(book,locale)=>resolveLocaleCopy({
- zh:{site:{title:'网站说明书',description:'浏览百科、阅读文章与使用探索功能。'},contribute:{title:'贡献说明书',description:'从保存草稿到提交审核，完成词条、文章与设定图投稿。'},develop:{title:'开发说明书',description:'内容模型、共享组件、服务架构与发布维护。'}},
- en:{site:{title:'Site manual',description:'Browse the encyclopedia, read articles, and explore the archive.'},contribute:{title:'Contribution manual',description:'Create and review entries, articles, and gallery sets from draft to publication.'},develop:{title:'Development manual',description:'Content models, shared components, services, and operations.'}},
- ja:{site:{title:'サイト説明書',description:'百科、記事、探索機能の利用方法。'},contribute:{title:'投稿説明書',description:'項目、記事、設定資料を下書きから審査・公開まで進めます。'},develop:{title:'開発説明書',description:'コンテンツモデル、共通部品、サービス構成と運用。'}},
+ zh:{site:{title:'网站说明书',description:'浏览百科、阅读文章与使用探索功能。'},contribute:{title:'贡献说明书',description:'从保存草稿到提交审核，完成词条、文章与设定图投稿。'},develop:{title:'开发说明书',description:'前台内容模型、共享组件与公开集成边界。'}},
+ en:{site:{title:'Site manual',description:'Browse the encyclopedia, read articles, and explore the archive.'},contribute:{title:'Contribution manual',description:'Create and review entries, articles, and gallery sets from draft to publication.'},develop:{title:'Development manual',description:'Frontend content models, shared components, and public integration boundaries.'}},
+ ja:{site:{title:'サイト説明書',description:'百科、記事、探索機能の利用方法。'},contribute:{title:'投稿説明書',description:'項目、記事、設定資料を下書きから審査・公開まで進めます。'},develop:{title:'開発説明書',description:'フロントのコンテンツモデル、共通部品、公開連携の範囲。'}},
 },locale)?.[book];
 
 function assertPart(part,allowed){if(!allowed.includes(part))throw new Error(`Unknown manual path: ${part}`);}

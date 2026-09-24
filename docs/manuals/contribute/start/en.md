@@ -9,7 +9,7 @@ summary: Compare the three submission routes, storage locations, and review outc
 
 ## Choose the right task
 
-At [Contribute](/en/contribute/), choose an **encyclopedia entry**, **article**, or **gallery set**. Entry changes use the site editor and become GitHub pull-request proposals. Articles are stored in a separate D1 database. Gallery images go through a Worker to private R2 staging, while set metadata and review history live in D1. All three routes require sign-in and maintainer review before publication. They do not share one upload destination.
+At [Contribute](/en/contribute/), choose an **encyclopedia entry**, **article**, or **gallery set**. Entry changes use the site editor and become GitHub pull-request proposals. Articles can be saved as cloud drafts. Gallery images are privately staged before the set is submitted for review. All three paths require sign-in and maintainer review before publication; their save states and publication conditions differ.
 
 ## Check before writing
 

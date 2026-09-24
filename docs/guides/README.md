@@ -2,11 +2,11 @@
 
 本站有三条独立投稿链路，先确认内容归属再操作。
 
-| 内容 | 存储 | 投稿入口 | 审核后如何公开 |
-| --- | --- | --- | --- |
-| 百科词条、正文附件 | GitHub 内容文件 | 阅读器编辑入口或贡献中心 | PR 合并并部署静态站 |
-| 研究文章 | D1 | `/{locale}/articles/submit/` | 后台批准，API 提供公开版本 |
-| 设定图库 | R2 + D1 | `/{locale}/gallery/manage/` | 后台批准，图片进入公开桶 |
+| 内容 | 投稿入口 | 审核后如何公开 |
+| --- | --- | --- |
+| 百科词条、正文附件 | 阅读器编辑入口或贡献中心 | PR 合并并更新静态站。 |
+| 研究文章 | `/{locale}/articles/submit/` | 审核通过且公开阅读页可用。 |
+| 设定图库 | `/{locale}/gallery/manage/` | 设定资料和图片获批后显示于公开图库。 |
 
 开始前阅读对应语言的 [贡献指南](../manuals/contribute/start/zh.md)、[English](../manuals/contribute/start/en.md) 或 [日本語](../manuals/contribute/start/ja.md)。图片与文件见 [图片指南](../manuals/contribute/entry/zh.md)，来源与版权见 [许可说明](../manuals/contribute/rights/zh.md)。
 

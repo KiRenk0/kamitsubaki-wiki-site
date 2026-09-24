@@ -9,7 +9,7 @@ summary: Maintain encyclopedia and Explore data using the map, schema, and expli
 
 ## Content identity
 
-Encyclopedia sources live under `src/content/` and are identified by stable ID, entity type, and language. Metadata `schemaVersion: 2` is not the same number as website V3. Before changing a field, inspect `src/lib/entitySchema.mjs`, `src/lib/metadata.mjs`, and `src/lib/contentLayout.mjs`, then synchronize editor and backend contracts. Changing a display label alone is insufficient. Simplified Chinese, Japanese, and English sources share an entity identity; Traditional Chinese is generated from Simplified Chinese.
+Encyclopedia sources live under `src/content/` and are identified by stable ID, entity type, and language. Metadata `schemaVersion: 2` is not the same number as website V3. Before changing a field, inspect `src/lib/entitySchema.mjs`, `src/lib/metadata.mjs`, and `src/lib/contentLayout.mjs`, then check frontend editor fields. Changing a display label alone is insufficient. Simplified Chinese, Japanese, and English sources share an entity identity; Traditional Chinese is generated from Simplified Chinese.
 
 ## Classification and directories
 
@@ -17,11 +17,11 @@ People, groups, and projects follow `src/data/classification-map.json` and its d
 
 ## Relationships and feature data
 
-`relations`, `performers`, `credits`, and form lineage drive related records, work credits, and the switcher. Article-to-entry links store explicit target IDs; they are never inferred from body WikiLinks. Chronicle events live under `src/data/chronicle/`, with eras defined by `src/data/taxonomy/eras.yml`; a date in prose does not create an event. Gallery characters derive from entity metadata, but images and review data remain in the Worker, D1, and R2.
+`relations`, `performers`, `credits`, and form lineage drive related records, work credits, and the switcher. Article-to-entry links store explicit target IDs; they are never inferred from body WikiLinks. Chronicle events live under `src/data/chronicle/`, with eras defined by `src/data/taxonomy/eras.yml`; a date in prose does not create an event. Keep gallery character choices aligned with entity metadata; images and review states are supplied by the site service, not maintained as encyclopedia Markdown.
 
 ## Change procedure
 
-After modifying classification, fields, or layout rules, inspect migrations and multilingual counterparts, run content validation and the editor/gallery contract checks, and keep the original prose and sources. Use migration reports and source hashes when relevant; do not rewrite facts merely to satisfy a validator.
+After modifying classification, fields, or layout rules, inspect existing entries and multilingual counterparts, run content validation, and check the frontend editor and gallery character choices. Keep the original prose and sources. Use content migration reports and source hashes when relevant; do not rewrite facts merely to satisfy a validator.
 
 ## One entity, several discovery paths
 
@@ -37,7 +37,7 @@ After modifying classification, fields, or layout rules, inspect migrations and 
 
 ## Adding an entry
 
-Search stable IDs and all languages, choose the entity type, then use the classification map for primary and additional entrances. Verify actual content languages in `zh.md`, `ja.md`, and `en.md`; copied Chinese is not an English or Japanese translation. Generate Traditional Chinese from Simplified Chinese. Add evidenced properties and body, run `pnpm validate:content`, and check editor contracts if the schema changed. A canonical path move needs old-URL redirects and a migration report to prove body text was preserved.
+Search stable IDs and all languages, choose the entity type, then use the classification map for primary and additional entrances. Verify actual content languages in `zh.md`, `ja.md`, and `en.md`; copied Chinese is not an English or Japanese translation. Generate Traditional Chinese from Simplified Chinese. Add evidenced properties and body, run `pnpm validate:content`, and check frontend input and preview if the schema changed. A canonical path move needs old-URL redirects and a migration report to prove body text was preserved.
 
 ## Minimal category and form example
 

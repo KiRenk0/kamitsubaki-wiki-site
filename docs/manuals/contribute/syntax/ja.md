@@ -616,7 +616,7 @@ presentation:
   image: /images/artists/kaf/cover.jpg
 ```
 
-`relations` は安定 ID でエンティティを関連付けます。`performers` は楽曲フォルダーを決定し、主な出演者が複数いる場合は `collaborations` を使用します。フォルダー規則はエディターとバックエンドが `contentLayout.mjs` で共有します。詳しくは [V3 貢献ガイド](/ja/docs/contribute/entry/)と[メタデータ仕様](https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/V3.0.0/docs/category-optimization/metadata-schema-v2.md)を参照してください。
+`relations` は安定 ID でエンティティを関連付けます。`performers` は楽曲フォルダーを決定し、主な出演者が複数いる場合は `collaborations` を使用します。フロントの内容配置規則は `contentLayout.mjs` で定義します。詳しくは [V3 貢献ガイド](/ja/docs/contribute/entry/)と[メタデータ仕様](https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/V3.0.0/docs/category-optimization/metadata-schema-v2.md)を参照してください。
 
 ## 簡体字・繁体字の混在変換と生成ファイル
 

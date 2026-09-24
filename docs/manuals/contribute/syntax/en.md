@@ -622,7 +622,7 @@ presentation:
   image: /images/artists/kaf/cover.jpg
 ```
 
-`relations` links entities by stable ID. `performers` determines song folders; multiple primary performers use `collaborations`. Folder rules are shared by the editor and backend in `contentLayout.mjs`. Refer to [V3 contribution guide](/en/docs/contribute/entry/) and [metadata specification](https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/V3.0.0/docs/category-optimization/metadata-schema-v2.md).
+`relations` links entities by stable ID. `performers` determines song folders; multiple primary performers use `collaborations`. Frontend content layout rules are defined in `contentLayout.mjs`. Refer to [V3 contribution guide](/en/docs/contribute/entry/) and [metadata specification](https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/V3.0.0/docs/category-optimization/metadata-schema-v2.md).
 
 ## Mixed-script Chinese conversion and generated files
 

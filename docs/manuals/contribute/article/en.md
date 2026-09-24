@@ -4,12 +4,12 @@ chapter: article
 locale: en
 order: 5
 title: Submit and revise articles
-summary: Write with the shared editor, save a database draft, and submit for publication review.
+summary: Write with the shared editor, save a cloud draft, and submit for publication review.
 ---
 
 ## Create or revise
 
-Open [Articles](/en/articles/) and its [submission page](/en/articles/submit/). To revise a public article, use its reading page's revision action and compare with the current public version. Articles share the entry body editor, but **articles do not create GitHub PRs**. Drafts, proposals, and public versions are stored in the article database.
+Open [Articles](/en/articles/) and its [submission page](/en/articles/submit/). To revise a public article, use its reading page's revision action and compare with the current public version. Articles share the entry body editor, but **articles do not create GitHub PRs**. The site shows cloud drafts, proposals, and public versions as distinct states.
 
 ## Complete and save a draft
 

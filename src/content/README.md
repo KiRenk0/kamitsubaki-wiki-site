@@ -45,9 +45,9 @@ articles/{articleCategory}/{id}/
 - 页面网址和实体 ID 不因本地文件夹移动而改变。
 - `zh.md`、`ja.md`、`en.md` 为原始语言文件；`zh-tw.md`、`zh-hk.md` 是自动生成版本。
 - 配置在 `site/`，贡献指南在 `contribute/`，日志和公告在 `logs/`、`announcements/`。采集资料库与正式词条分开保管。
-- 时间轴与图库 YAML 在 `src/data/chronicle/`、`src/data/galleries/`，图片在公开资源或 R2；本次不搬动图片，不改写词条正文。
+- 时间轴事件在 `src/data/chronicle/`；图库图片与投稿状态由站点服务提供，不在词条目录中维护。本次不搬动图片，不改写词条正文。
 
-路径规则：`src/lib/contentLayout.mjs`。预演：`node scripts/v3/organize-content.mjs`；应用：加 `--apply`。后端同步：`node scripts/v3/sync-editor-schema.mjs`。
+路径规则：`src/lib/contentLayout.mjs`。预演：`node scripts/v3/organize-content.mjs`；应用：加 `--apply`。变更后检查前台编辑器字段与目录预览；服务端联动由维护者按私有流程处理。
 
 迁移清单：`docs/v3/reports/content-layout.json`，记录每个文件的原路径、目标路径与完整文件 SHA-256。原始正文审计表保留原样，校验程序通过迁移清单解析现路径。
 

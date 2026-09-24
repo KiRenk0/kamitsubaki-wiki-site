@@ -614,7 +614,7 @@ presentation:
   image: /images/artists/kaf/cover.jpg
 ```
 
-`relations` 使用稳定 ID 关联实体。`performers` 决定歌曲目录；多个主要表演者使用 `collaborations`。编辑器与后端通过 `contentLayout.mjs` 共用目录规则。详情参见 [V3 贡献指南](/zh/docs/contribute/entry/)和[元数据规范](https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/V3.0.0/docs/category-optimization/metadata-schema-v2.md)。
+`relations` 使用稳定 ID 关联实体。`performers` 决定歌曲目录；多个主要表演者使用 `collaborations`。前台内容目录规则定义在 `contentLayout.mjs`。详情参见 [V3 贡献指南](/zh/docs/contribute/entry/)和[元数据规范](https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/V3.0.0/docs/category-optimization/metadata-schema-v2.md)。
 
 ## 混合简繁转换与生成文件
 

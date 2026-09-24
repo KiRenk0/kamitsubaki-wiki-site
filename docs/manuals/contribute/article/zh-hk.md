@@ -4,8 +4,8 @@ chapter: "article"
 locale: "zh-hk"
 order: 5
 title: "投稿與修改文章"
-summary: "使用共享編輯器撰寫，保存數據庫草稿，提交審核後在專欄公開。"
-generatedFromHash: "53cdcef06b40db52bf84"
+summary: "使用共享編輯器撰寫，保存雲端草稿，提交審核後在專欄公開。"
+generatedFromHash: "459c594ff1f5ea06f9b7"
 generated: true
 generatedFrom: "zh"
 ---
@@ -14,7 +14,7 @@ generatedFrom: "zh"
 
 ## 創建或修改
 
-從[文章專欄](/zh-hk/articles/)進入[投稿頁](/zh-hk/articles/submit/)。修改已公開文章時，從其閲讀頁進入提交修改，先核對當前公開版本。文章沿用詞條的正文編輯工作台，但**文章不走 GitHub PR**：草稿、提案及公開版本由文章數據庫維護。
+從[文章專欄](/zh-hk/articles/)進入[投稿頁](/zh-hk/articles/submit/)。修改已公開文章時，從其閲讀頁進入提交修改，先核對當前公開版本。文章沿用詞條的正文編輯工作台，但**文章不走 GitHub PR**：雲端草稿、提案及公開版本由站點分別展示。
 
 ## 填寫與保存
 

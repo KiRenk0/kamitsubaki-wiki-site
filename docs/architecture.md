@@ -1,20 +1,16 @@
-# V3 Architecture
+# V3 前台架构
 
-V3 使用 Schema v2 实体与独立的功能数据。首页分类由审核过的 classification-map.json 决定，不能根据文件夹或正文自动推断。实体注册表解析多语言记录、稳定 ID、路由与双向关联；文件路径由 contentLayout.mjs 推导，并同步到编辑器后端。
+本仓库维护静态前台、百科内容和用户可见的投稿界面。服务端闭源，不在公开仓库提供服务端代码、内部数据模型或运维文档。
 
-| Source | Responsibility |
+| 前台来源 | 职责 |
 | --- | --- |
-| `src/content/` | Schema v2 entities and source languages |
-| `src/data/classification-map.json` | Reviewed classification and hierarchy |
-| `src/lib/entitySchema.mjs` | Validated metadata fields |
-| `src/lib/entityRegistry.mjs` | IDs, routes, language resolution and relationships |
-| `src/lib/contentLayout.mjs` | Physical content directories |
-| `src/data/chronicle/`, `src/data/taxonomy/eras.yml` | Events and era boundaries |
-| Worker + D1 + R2 | Gallery proposals, review and published assets |
-| Editor Worker + GitHub | Article proposals and attachments |
+| `src/content/` | 多语言百科 Markdown 和 Schema v2 元数据。 |
+| `src/data/classification-map.json` | 经审核的分类与目录层级。 |
+| `src/lib/entitySchema.mjs`、`src/lib/entityRegistry.mjs` | 前台字段校验、稳定 ID、公开路由与关联。 |
+| `src/lib/contentLayout.mjs` | 百科源文件的目录规则。 |
+| `src/data/chronicle/`、`src/data/taxonomy/eras.yml` | 公开时间轴事件与纪元区间。 |
+| `docs/manuals/` | 三本站内说明书的 Markdown 来源。 |
 
-[Contribution guide](manuals/contribute/start/zh.md) · [Content layout](v3/content-layout.md) · [Gallery](v3/gallery-r2.md) · [Maintenance index](README.md)
+百科变更经 GitHub 提案、审核、合并及静态站更新后公开。文章和图库走站点投稿与审核界面，前台只依据用户可见状态显示结果，不暴露服务端实现。
 
-The gallery uses private staging and owner approval. Logged-in users can submit uploads and metadata changes; role is required and other metadata is optional. Public gallery data does not pass through GitHub. Article publication still requires review, merge and deployment.
-
-Deployment and real workflow acceptance are recorded separately from implementation and local tests. Historical architecture is retained in `archive/`.
+[开发说明书](manuals/develop/architecture/zh.md) · [贡献说明书](manuals/contribute/start/zh.md) · [内容目录](../src/content/README.md) · [文档索引](README.md)

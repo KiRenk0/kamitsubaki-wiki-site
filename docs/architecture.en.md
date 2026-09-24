@@ -1,20 +1,16 @@
-# V3 Architecture
+# V3 frontend architecture
 
-V3 uses Schema v2 entities and separate feature data. Homepage classification follows the reviewed classification-map.json, not folder names or prose. The entity registry resolves languages, stable IDs, routes and inverse relations. contentLayout.mjs determines file locations and is synchronized with the editor backend.
+This repository maintains the static frontend, encyclopedia content, and user-visible submission interfaces. The server is closed source. Its code, internal data model, and operations material are not supplied here.
 
-| Source | Responsibility |
+| Frontend source | Responsibility |
 | --- | --- |
-| `src/content/` | Schema v2 entities and source languages |
-| `src/data/classification-map.json` | Reviewed classification and hierarchy |
-| `src/lib/entitySchema.mjs` | Validated metadata fields |
-| `src/lib/entityRegistry.mjs` | IDs, routes, language resolution and relationships |
-| `src/lib/contentLayout.mjs` | Physical content directories |
-| `src/data/chronicle/`, `src/data/taxonomy/eras.yml` | Events and era boundaries |
-| Worker + D1 + R2 | Gallery proposals, review and published assets |
-| Editor Worker + GitHub | Article proposals and attachments |
+| `src/content/` | Multilingual encyclopedia Markdown and Schema v2 metadata. |
+| `src/data/classification-map.json` | Reviewed taxonomy and directory hierarchy. |
+| `src/lib/entitySchema.mjs`, `src/lib/entityRegistry.mjs` | Frontend field validation, stable IDs, public routes, and relationships. |
+| `src/lib/contentLayout.mjs` | Encyclopedia source directory rules. |
+| `src/data/chronicle/`, `src/data/taxonomy/eras.yml` | Public events and era boundaries. |
+| `docs/manuals/` | Markdown sources for the three in-site manuals. |
 
-[Contribution guide](manuals/contribute/start/en.md) · [Content layout](v3/content-layout.md) · [Gallery](v3/gallery-r2.md) · [Maintenance index](README.md)
+Entry changes become public after a GitHub proposal is reviewed, merged, and reflected in the static site. Articles and gallery sets use the site's submission and review interfaces. The frontend displays user-visible states without documenting server implementation.
 
-The gallery uses private staging and owner approval. Logged-in users can submit uploads and metadata changes; role is required and other metadata is optional. Public gallery data does not pass through GitHub. Article publication still requires review, merge and deployment.
-
-Deployment and real workflow acceptance are recorded separately from implementation and local tests. Historical architecture is retained in `archive/`.
+[Development manual](manuals/develop/architecture/en.md) · [Contribution manual](manuals/contribute/start/en.md) · [Content directory](../src/content/README.md) · [Documentation index](README.md)

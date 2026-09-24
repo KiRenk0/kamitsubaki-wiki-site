@@ -21,7 +21,7 @@ Upload all photos transfers up to three files concurrently. The percentage repre
 
 ## Submit, restore, and revise
 
-After checking every set and image, separately use **Submit all sets for review**. Staged files are private in R2, unavailable through the public gallery or image URL. A successful submission returns a receipt and batch ID; follow it in [Creator Center](/en/account/creator/). Unsubmitted batches are retained for 30 days, with an expiry time in the workspace. The current account's browser IndexedDB stores the queue. If it warns that files were not backed up, reselect files that were not staged. A `?batch=` link restores a server batch. Changes to a public set require review; the original public version remains visible, and a partially returned set can be corrected image by image.
+After checking every set and image, separately use **Submit all sets for review**. Staged files are private and unavailable through the public gallery or image URL. A successful submission returns a receipt and batch ID; follow it in [Creator Center](/en/account/creator/). Unsubmitted batches are retained for 30 days, with an expiry time in the workspace. The current account's browser stores the queue. If it warns that files were not backed up, reselect files that were not staged. A `?batch=` link restores a cloud batch. Changes to a public set require review; the original public version remains visible, and a partially returned set can be corrected image by image.
 
 ## Example: two sets in one batch
 
