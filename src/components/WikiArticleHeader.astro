@@ -1,5 +1,6 @@
 ---
 import Bookmark from './labs/Bookmark.astro';
+import SharePopover from './SharePopover.astro';
 type LocaleLink = {
   code: string;
   label: string;
@@ -33,9 +34,10 @@ type Props = {
   labels: Labels;
   sourceHref: string;
   homeHref: string;
+  sharePath?: string;
 };
 
-const { data, localeLinks, labels, sourceHref, homeHref } = Astro.props as Props;
+const { data, localeLinks, labels, sourceHref, homeHref, sharePath } = Astro.props as Props;
 const sectionLabel = labels.section ?? labels.artists ?? labels.songs ?? labels.albums;
 const currentLocale = localeLinks.find((item) => item.current);
 const editorHref = sourceHref.replace('/contribute/edit?', '/contribute/editor/?');
@@ -65,6 +67,7 @@ const editorHref = sourceHref.replace('/contribute/edit?', '/contribute/editor/?
     </div>
     <div class="wiki-article-actions">
       <Bookmark locale={homeHref.split('/')[1]} title={data.name} />
+      {sharePath && <SharePopover locale={homeHref.split('/')[1]} path={sharePath} />}
       <a href={editorHref} class="wiki-source-link">{labels.source}</a>
     </div>
   </div>

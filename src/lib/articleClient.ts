@@ -19,6 +19,8 @@ export function initArticleBrowser(root:HTMLElement){
    const toc=root.querySelector('[data-article-toc]')!;body.querySelectorAll('h1,h2,h3,h4,h5,h6').forEach((h,i)=>{h.id='article-heading-'+i;const a=document.createElement('a');a.href='#'+h.id;a.textContent=h.textContent;a.className='article-toc-link';a.style.paddingInlineStart=`${(Number(h.tagName.slice(1))-1)*.5}rem`;toc.append(a);});
    root.querySelector<HTMLElement>('[data-article-toc-panel]')!.hidden=!toc.children.length;
    const edit=root.querySelector<HTMLAnchorElement>('[data-article-edit]')!;edit.href=`/${locale}/articles/submit/?id=${encodeURIComponent(id)}`;if(article.locale!==contentLocale)edit.href=`/${article.locale}/articles/submit/?id=${encodeURIComponent(id)}`;edit.hidden=!permissions?.canEdit;
+   root.querySelector<HTMLElement>('[data-article-contribute]')!.hidden=Boolean(permissions?.canEdit);
+   const share=root.querySelector<HTMLElement>('[data-share-popover]')!;share.dataset.sharePath=`/${locale}/articles/read/?id=${encodeURIComponent(id)}`;share.hidden=false;
    const relatedPanel=root.querySelector<HTMLElement>('[data-article-related-panel]')!;const links=root.querySelector('[data-article-related]')!;if(article.relatedEntities?.length)articleEntities(locale).then((entities:any[])=>{for(const id of article.relatedEntities){const entity=entities.find((e:{id:string})=>e.id===id);if(!entity)continue;const a=text('a',entity.name||entity.title||id) as HTMLAnchorElement;a.href=entity.path;links.append(a);}relatedPanel.hidden=!links.children.length;}).catch(()=>{relatedPanel.hidden=false;links.append(text('p',copy.relatedError));});
    status.textContent=linksFailed?copy.relatedError:'';
   }).catch(e=>{status.textContent=e.message;});return;

@@ -39,6 +39,7 @@ const works=relations.filter(r=>['credited-to','performed-by','primaryArtist'].i
 const articles=relations.filter(r=>r.entry.data.entityType==='editorial-article');
 const other=relations.filter(r=>!works.includes(r)&&!articles.includes(r));
 const editorPath=entry.filePath.slice(entry.filePath.indexOf('src/content/'));
+const entryEditHref=`/${locale}/contribute/editor/?target=${encodeURIComponent(editorPath.replace(/\/(zh-tw|zh-hk)\.md$/,'/zh.md'))}`;
 const localeLinks=buildLocaleLinks(site,locale,entry.url.replace(`/${locale}`,''));
 const theme=d.presentation?.theme;
 const themeStyle=theme?[`--wiki-accent-color:${theme.accentColor}`,`--wiki-muted-color:${theme.mutedColor||theme.accentColor}`,`--wiki-surface-color:${theme.surfaceColor||'#0f1419'}`,`--wiki-highlight-color:${theme.highlightColor||'#f6f7fb'}`].join(';'):'--wiki-accent-color:#89f5df';
@@ -52,8 +53,8 @@ const permanent=d.lifecycle?.archive?.mode==='permanent';
  <main class="entity-reader wiki-theme-shell" data-archive={permanent?'permanent':undefined} style={themeStyle}>
   <div class="fixed left-0 top-0 z-[60] h-px w-full origin-left bg-white/70" data-reading-progress></div>
   <div class="reader-frame reader-heading-frame mx-auto px-4 sm:px-6">
-  <WikiArticleHeader data={{name:title,romanizedName:d.romanizedName||d.romanizedTitle||'',profileTagline:d.summary}} localeLinks={localeLinks} labels={{home:locale==='en'?'Home':locale==='ja'?'ホーム':'首页',section:isArticle?copy.articles:copy.database,source:isArticle?(locale==='en'?'Suggest an edit':locale==='ja'?'修正を提案':'提交修改'):copy.edit,languages:locale==='en'?'Languages':locale==='ja'?'言語':'语言'}} sourceHref={`/${locale}/contribute/editor/?target=${encodeURIComponent(editorPath.replace(/\/(zh-tw|zh-hk)\.md$/,'/zh.md'))}`} homeHref={`/${locale}/`}><a slot="section" href={`/${locale}/${isArticle?'articles':'database'}/`}>{isArticle?copy.articles:copy.database}</a></WikiArticleHeader>
-  {d.contentStatus==='stub'&&<p class="archive-notice">{locale==='en'?'Reserved entry · Content to be completed':locale==='ja'?'準備中の記事 · 内容は後日追加予定':'待补全条目 · 按分类详细图预留'}</p>}
+  <WikiArticleHeader data={{name:title,romanizedName:d.romanizedName||d.romanizedTitle||'',profileTagline:d.summary}} localeLinks={localeLinks} labels={{home:locale==='en'?'Home':locale==='ja'?'ホーム':'首页',section:isArticle?copy.articles:copy.database,source:isArticle?(locale==='en'?'Suggest an edit':locale==='ja'?'修正を提案':'提交修改'):copy.edit,languages:locale==='en'?'Languages':locale==='ja'?'言語':'语言'}} sourceHref={entryEditHref} sharePath={entry.url} homeHref={`/${locale}/`}><a slot="section" href={`/${locale}/${isArticle?'articles':'database'}/`}>{isArticle?copy.articles:copy.database}</a></WikiArticleHeader>
+  {d.contentStatus==='stub'&&<p class="archive-notice">{locale==='en'?'Reserved entry · Content to be completed':locale==='ja'?'準備中の記事 · 内容は後日追加予定':'待补全条目 · 按分类详细图预留'} <a class="archive-notice__action" href={entryEditHref}>{locale==='en'?'Help complete this entry':locale==='ja'?'この項目を補完する':'帮助完善此词条'} ↗</a></p>}
   {entry.fallback&&<p class="source-note" lang={entry.sourceLocale}>{copy.fallback}</p>}
   {morphs.length>1&&<MorphingSwitcher entries={morphs} current={d.id} locale={locale}/>}
   {permanent&&<aside class="archive-notice"><span class="eyebrow">STATUS: PERMANENT OBSERVATION</span><h2>{copy.archive}</h2><p>{d.lifecycle.archive.archiveNote}</p></aside>}
@@ -63,7 +64,7 @@ const permanent=d.lifecycle?.archive?.mode==='permanent';
    <article class="wiki-reader wiki-prose wiki-artist-prose prose prose-invert max-w-none" set:html={linked.html}/>
    <Fragment slot="sidebar">
     <EntityInfoBox entry={entry} registry={registry} locale={locale}/>
-    <EntryCompleteness score={completeness.score} tier={completeness.tier as "complete"|"good"|"brief"|"stub"} missing={completeness.missing.map(m=>({...m,label:m.field.split('.').map(k=>metadataLabel(k,locale)).join(' / ')}))} labels={completenessLabels}/>
+    <EntryCompleteness score={completeness.score} tier={completeness.tier as "complete"|"good"|"brief"|"stub"} missing={completeness.missing.map(m=>({...m,label:m.field.split('.').map(k=>metadataLabel(k,locale)).join(' / ')}))} labels={completenessLabels} editHref={entryEditHref} editLabel={locale==='en'?'Add missing details':locale==='ja'?'不足情報を追記':'补充缺失资料'}/>
     <ContributorRoster mode="entry" sourcePath={editorPath} locale={locale} collection={editorPath.split('/')[2]} entryId={d.id}/>
    </Fragment>
   <div class="entity-related">{isArticle&&<p class="article-review-note">{locale==='en'?'Anyone can suggest an edit. Changes are published after review by the site owner.':locale==='ja'?'誰でも修正を提案できます。管理者の審査後に公開されます。':'人人可参与编辑。提交的修改经站长审核后发布。'}</p>}<p class="entity-related-kicker">{locale==='en'?'ABOUT THIS ENTRY':locale==='ja'?'この記事について':'关于本条目'}</p>
@@ -75,6 +76,7 @@ const permanent=d.lifecycle?.archive?.mode==='permanent';
   {(d.tracks||[]).length>0&&<ReaderDisclosure title={locale==='en'?'Track list':locale==='ja'?'収録曲':'收录曲目'} count={d.tracks?.length}><ReaderRecordList locale={locale} id="reader-tracks-more" records={d.tracks!.map(track=>{const song=track.songId?registry.resolveEntity(track.songId,locale):undefined;return {href:song?.url,title:track.title||song?.data.title||String(track.number),detail:`${track.disc||1} · ${track.number}`};})}/></ReaderDisclosure>}
   {['person','virtual-avatar','unit','software-voice','work-track','work-release','project'].includes(d.entityType)&&<MemoryCorridorEntryLink locale={locale} kind={d.entityType==='work-track'?'song':d.entityType==='work-release'?'album':d.entityType==='project'?'project':'artist'} entryId={d.id}/>} 
   <ReaderDisclosure title={locale==='en'?'Content license & attribution':locale==='ja'?'ライセンスとクレジット':'内容许可与署名'}><ContentLicenseNotice license={d.license} locale={locale}/></ReaderDisclosure>
+  <div class="entry-contribution-invite"><p>{locale==='en'?'Found a detail to correct or a source to add?':locale==='ja'?'修正したい情報や追加できる出典がありますか？':'发现需要修正的内容，或有新的可靠来源？'}</p><div><a href={entryEditHref}>{locale==='en'?'Improve this entry':locale==='ja'?'この項目を改善':'完善此词条'} ↗</a><a href={`/${locale}/docs/contribute/entry/`}>{locale==='en'?'Contribution guide':locale==='ja'?'投稿ガイド':'查看贡献指南'}</a></div></div>
   </div>
   </Reader>
  </main>
@@ -92,6 +94,8 @@ const permanent=d.lifecycle?.archive?.mode==='permanent';
 <style>.article-review-note{font:12px/1.9 var(--font-sans);color:var(--reader-muted);padding:16px 0;border-top:1px solid var(--reader-line)}</style>
 <style>
 .related-list li,.footprint{transition:background-color 180ms ease,color 180ms ease,translate 360ms cubic-bezier(.22,1,.36,1)}
+.archive-notice__action{display:inline-block;margin-inline-start:.65rem;color:var(--theme-fg);text-underline-offset:3px}.archive-notice__action:hover{color:var(--theme-accent-color)}
+.entry-contribution-invite{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem 1rem;margin-top:2rem;padding:1rem 0;border-top:1px solid var(--reader-line);font-size:.8rem}.entry-contribution-invite p{margin:0;color:var(--reader-muted)}.entry-contribution-invite div{display:flex;flex-wrap:wrap;gap:.5rem 1rem}.entry-contribution-invite a{color:var(--theme-fg);text-decoration:none;border-bottom:1px solid var(--reader-line);padding-bottom:2px;transition:color 180ms ease,border-color 180ms ease}.entry-contribution-invite a:hover{color:var(--theme-accent-color);border-color:currentColor}.entry-contribution-invite a:focus-visible,.archive-notice__action:focus-visible{outline:2px solid var(--theme-accent-color);outline-offset:3px}
 .related-list a{display:inline-block;transition:color 180ms ease; text-underline-offset:4px}
 .related-list li:focus-within,.footprint:focus-visible{color:var(--theme-accent-color);background:rgb(var(--theme-fg-rgb)/.035)}
 @media(hover:hover) and (pointer:fine){.related-list li:hover,.footprint:hover{translate:4px 0;background:rgb(var(--theme-fg-rgb)/.035)}.related-list a:hover,.footprint:hover{color:var(--theme-accent-color)}}

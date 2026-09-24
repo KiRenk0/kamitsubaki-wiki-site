@@ -11,6 +11,8 @@ summary: Open the right source, complete properties and evidence, then submit a 
 
 For a correction, open the entry in the intended content language and use its reader edit action; the editor receives the real source path. To create a record, open the [entry editor](/en/contribute/editor/) from [Contribute](/en/contribute/), then choose New entry from the top File menu. Select the entity type and source language. Simplified Chinese, Japanese, and English are maintained sources; Taiwanese and Hong Kong Traditional Chinese are generated from Simplified Chinese.
 
+“Improve this entry,” the stub notice, and the missing-detail list in the reader open that same entry in the editor; they are not separate submission routes. You can also start a new record from the [encyclopedia directory](/en/database/). Clear filters and check aliases before creating one, since an empty search result does not prove the record is absent.
+
 ## Write content and properties
 
 Keep the [complete content and style guide](/en/docs/contribute/format/) open while writing. It preserves the detailed rules for structure, names, prose, sources, dates, media, privacy, multilingual content, recommended entry outlines, and the final checklist. Use the [complete syntax and properties guide](/en/docs/contribute/syntax/) for Markdown, frontmatter, media syntax, and field examples. These are full references, not abbreviated by this chapter.

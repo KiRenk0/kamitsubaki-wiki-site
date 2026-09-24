@@ -23,6 +23,14 @@ The image-and-name form selector moves between separate records in the same line
 
 Check the source and content language first. Use the entry's edit action, or read [Edit and create entries](/en/docs/contribute/entry/) to preserve valid text, add evidence, and submit a reviewed change.
 
+## Share a reading page
+
+Encyclopedia entries and articles have a Share button beside the title. Choose Copy link in the popover. When the current URL points to a body heading, you can switch off “Include the current section anchor” to share the page from the top instead. If automatic copying fails, select the displayed URL and copy it manually. Article links retain their article ID.
+
+## Improve the archive
+
+The entry title area, stub notice, missing-detail list, and end of the entry lead to that entry's editor. The [encyclopedia directory](/en/database/) has a Create an entry action. If a search returns nothing, clear the filters and check aliases before creating a record. Authors with edit permission can propose changes from an article reader; other readers can submit a new article. Submission still requires review before publication.
+
 ## A reading sequence
 
 Check the title, summary, and status first. A track and release with the same name, or a unit and member, may have separate entries. The outline lists body headings; its URL anchor can be shared for a section. On narrow screens, open the in-reader outline to navigate long text.

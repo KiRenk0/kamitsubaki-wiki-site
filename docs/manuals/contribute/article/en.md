@@ -11,6 +11,8 @@ summary: Write with the shared editor, save a cloud draft, and submit for public
 
 Open [Articles](/en/articles/) and its [submission page](/en/articles/submit/). To revise a public article, use its reading page's revision action and compare with the current public version. Articles share the entry body editor, but **articles do not create GitHub PRs**. The site shows cloud drafts, proposals, and public versions as distinct states.
 
+The article reader shows its revision action only to people with edit permission. Other readers see Write an article, which starts a new submission and does not change the article being read.
+
 ## Complete and save a draft
 
 Choose a title, content language, category, and body. Summary and linked entries are optional. An article may stand alone or explicitly link to several entries. Select the correct stable IDs for links; a WikiLink or ordinary body link does not automatically create a related-article relationship. Use formatting tools or source mode and preview the title, body, image URLs, and outline. Article images currently use existing URLs; entry attachments are not an article upload feature.

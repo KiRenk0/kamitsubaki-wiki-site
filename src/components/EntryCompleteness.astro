@@ -9,6 +9,8 @@ interface Props {
   score: number;
   tier: 'complete' | 'good' | 'brief' | 'stub';
   missing: MissingItem[];
+  editHref?: string;
+  editLabel?: string;
   labels: {
     kicker: string;
     scoreLabel: string;
@@ -24,7 +26,7 @@ interface Props {
   };
 }
 
-const { score, tier, missing, labels } = Astro.props;
+const { score, tier, missing, labels, editHref, editLabel } = Astro.props;
 
 const tierClass = `entry-completeness__badge entry-completeness__badge--${tier}`;
 const tierLabel = labels.tiers[tier] ?? labels.tiers.stub;
@@ -63,9 +65,14 @@ const tierLabel = labels.tiers[tier] ?? labels.tiers.stub;
   ) : (
     <div class="px-3 py-2.5 text-xs text-white/45 sm:px-4 sm:py-3">{labels.missingEmpty}</div>
   )}
+  {missing.length > 0 && editHref && <a class="entry-completeness__action" href={editHref}>{editLabel}<span aria-hidden="true">↗</span></a>}
 </section>
 
 <style>
+  .entry-completeness__action { display: flex; align-items: center; justify-content: space-between; gap: .75rem; min-height: 40px; padding: .6rem 1rem; border-top: 1px solid var(--reader-line); color: var(--reader-text); font: 500 .75rem/1.5 var(--font-sans); text-decoration: none; transition: color 180ms ease, background-color 180ms ease; }
+  .entry-completeness__action:hover { color: var(--theme-fg); background: rgb(var(--theme-fg-rgb) / .05); }
+  .entry-completeness__action:focus-visible { outline: 2px solid var(--theme-accent-color); outline-offset: -3px; }
+  @media (prefers-reduced-motion: reduce) { .entry-completeness__action { transition: none; } }
   .entry-completeness__badge {
     display: inline-flex;
     align-items: center;

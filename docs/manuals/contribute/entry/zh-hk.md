@@ -5,7 +5,7 @@ locale: "zh-hk"
 order: 2
 title: "編輯與新建百科詞條"
 summary: "從閲讀器進入編輯器，補全屬性與來源，核對差異後提交 GitHub PR。"
-generatedFromHash: "8fc0e1e300854cced7af"
+generatedFromHash: "d6facaddf800fd627051"
 generated: true
 generatedFrom: "zh"
 ---
@@ -15,6 +15,8 @@ generatedFrom: "zh"
 ## 進入正確的詞條
 
 修改現有詞條時，先打開該詞條的當前語言頁面，再用閲讀器的編輯入口；編輯器會帶入對應源文件。新建時從[貢獻中心](/zh-hk/contribute/)打開[詞條編輯器](/zh-hk/contribute/editor/)，在頂部“文件”菜單選擇新建詞條，指定實體類型與源語言。簡中、日文、英文是維護源；台灣與香港繁體由簡中生成，不直接創建繁體源稿。
+
+閲讀器中的“完善此詞條”、待補全提示和完善度缺項也會打開同一詞條的編輯器；它們不是不同的投稿渠道。[百科目錄](/zh-hk/database/)的“新建詞條”進入編輯器的新建流程。篩選無結果不代表詞條不存在，請先清除條件、搜尋別名，避免重複創建。
 
 ## 填寫內容與屬性
 
