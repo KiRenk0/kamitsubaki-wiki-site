@@ -1,7 +1,7 @@
 import { editorApiBase, localEditor } from "../lib/editorConfig.mjs";
 import { sourceRequest } from "../lib/editorSource.mjs";
 import { diffLines, submissionLabels, isOpen } from "../lib/editorPrDemo.mjs";
-import {showContributionReceipt,updateContributionFlow} from '../lib/contributionFlow.mjs';
+import {showContributionReceipt} from '../lib/submissionReceipt.mjs';
 // Explicit development mode. Production builds cannot activate the local service.
 const apiBase = editorApiBase;
 export function initializeEditorPrDemo(root, editor) {
@@ -271,7 +271,6 @@ export function initializeEditorPrDemo(root, editor) {
     olderEntries = [];
     message(t("正在连接投稿服务…"));
     dialog.showModal();
-    updateContributionFlow(root,{step:2});
     tab(name);
     try {
       await refresh();

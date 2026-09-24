@@ -87,7 +87,6 @@ const text = {
   toolbarRight: ['向右移动工具栏', 'Scroll toolbar right', 'ツールバーを右にスクロール'],
   blockProperties: ['内容块属性', 'Block properties', 'ブロックのプロパティ'],
   entryProperties: ['词条属性', 'Article properties', '記事のプロパティ'],
-  propertiesHint: ['摘要、分类、排序等资料，提交前记得检查。', 'Review the summary, category and order before submitting.', '送信前に概要・分類・表示順などを確認してください。'],
   kind: ['词条类型', 'Article type', '記事の種類'],
   locale: ['内容语言', 'Content language', '本文の言語'],
   path: ['GitHub 文件路径（可选）', 'GitHub file path (optional)', 'GitHub ファイルパス（任意）'],

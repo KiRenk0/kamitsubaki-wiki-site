@@ -20,7 +20,6 @@
 .ve-workspace { display:grid; grid-template-columns:240px minmax(0,1fr) minmax(280px,.95fr); gap:26px; align-items:start; }
 .ve-settings, .ve-compose, .ve-output { min-width:0; }
 .ve-settings { border-right:1px solid var(--ui-line); padding-right:22px; }
-.ve-guide-links { display:flex; flex-wrap:wrap; gap:8px 14px; font-size:12px; color:var(--theme-accent-color); margin-top:18px; }
 .ve-path { margin:18px 0; font-size:12px; }
 .ve-path summary { cursor:pointer; padding:10px 0; }
 .ve-path input { font:11px/1.6 var(--font-mono); }

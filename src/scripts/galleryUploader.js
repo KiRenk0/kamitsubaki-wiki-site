@@ -1,5 +1,5 @@
 import {formatBytes,uploadLimits,uploadFile} from '../lib/uploadPresentation.mjs';
-import {showContributionReceipt,updateContributionFlow} from '../lib/contributionFlow.mjs';
+import {showContributionReceipt} from '../lib/submissionReceipt.mjs';
 import {galleryQueueSummary} from '../lib/galleryQueue.mjs';
 import {imageViewer} from '../lib/imageViewer.mjs';
 import {galleryDraft} from '../lib/galleryDraftStore.mjs';
@@ -12,7 +12,7 @@ if(root){
  const api=document.querySelector('[data-gallery-api]').dataset.galleryApi.replace(/\/$/,'');
  const controller=new AbortController();
  const locale=document.documentElement.lang.startsWith('zh')?'zh':document.documentElement.lang;
- const flowText=({zh:{staged:'图片已暂存，尚未提交审核。请检查资料后提交。',submitted:'设定与图片已提交审核，公开前可在创作者中心查看逐图结果。'},ja:{staged:'画像は一時保存されました。まだ審査には提出されていません。',submitted:'設定と画像を審査に提出しました。結果はクリエイターセンターで確認できます。'},en:{staged:'Images staged privately. Check the details, then submit for review.',submitted:'Sets and images submitted for review. Track each image in the creator center.'}})[locale]||({zh:{staged:'图片已暂存，尚未提交审核。请检查资料后提交。',submitted:'设定与图片已提交审核，公开前可在创作者中心查看逐图结果。'}}).zh;
+ const flowText=({zh:{submitted:'设定与图片已提交审核，公开前可在创作者中心查看逐图结果。'},ja:{submitted:'設定と画像を審査に提出しました。結果はクリエイターセンターで確認できます。'},en:{submitted:'Sets and images submitted for review. Track each image in the creator center.'}})[locale]||({zh:{submitted:'设定与图片已提交审核，公开前可在创作者中心查看逐图结果。'}}).zh;
  const returnTo=new URLSearchParams(location.search).get('returnTo');
  const batchUrl=id=>{const url=new URL(location.pathname,location.origin);url.searchParams.set('batch',id);if(returnTo)url.searchParams.set('returnTo',returnTo);return url.pathname+url.search;};
  const receipt=id=>showContributionReceipt(root,{id,state:flowText.submitted,href:`/${locale}/account/creator/?recordType=gallery&record=${encodeURIComponent(id)}`});
@@ -37,10 +37,7 @@ if(root){
   const upload=$('[data-simulate-upload]'),submit=$('[data-submit-batch]');upload.disabled=!owner||!summary.total||!summary.pending||simulating||disposed;submit.disabled=!owner||!summary.ready||simulating||disposed;
   upload.textContent=simulating?'处理中…':summary.total&&!summary.pending?'图片已暂存':summary.failed?`重试未完成照片（${summary.pending}）`:`上传全部照片${summary.pending?`（${summary.pending}）`:''}`;
   upload.dataset.tone=summary.ready?'secondary':'primary';submit.dataset.tone=summary.ready?'primary':'secondary';
-  const submitted=batch?.status==='submitted';
-  updateContributionFlow(root,{step:submitted?3:summary.ready?3:summary.total?2:1,next:submitted?flowText.submitted:summary.ready?flowText.staged:undefined});
-  $('[data-upload-next]').textContent=submitted?flowText.submitted:summary.ready?'下一步：提交全部设定审核。每组资料和照片按设定分别审核，当前图片仍为私有。':summary.issues.length?'先补充下方列出的项目，再上传。':summary.total?'下一步：上传图片至私有暂存区，完成后再提交审核。':'先添加图片；每套设定只需选择角色，其他信息选填。';
-  const issues=$('[data-upload-issues]');issues.replaceChildren();for(const issue of summary.issues){const li=text('li',''),button=text('button',issue.message);button.type='button';button.onclick=()=>{const set=sets().find(s=>s.dataset.set===issue.set);set?.scrollIntoView({block:'center',behavior:'smooth'});set?.querySelector(issue.field==='character'?'[name=character]':'[data-select-set]')?.focus({preventScroll:true});};li.append(button);issues.append(li);}issues.hidden=!summary.issues.length;
+  const issues=$('[data-upload-issues]');issues.replaceChildren();for(const issue of summary.issues){const li=text('li',''),button=text('button',issue.message);button.type='button';button.onclick=()=>{const set=sets().find(s=>s.dataset.set===issue.set);set?.scrollIntoView({block:'center',behavior:'smooth'});set?.querySelector(issue.field==='character'?'[name=character]':'[data-select-set]')?.focus({preventScroll:true});};li.append(button);issues.append(li);}issues.hidden=!summary.total||!summary.issues.length;
  }
  function roleOptions(set,query=''){const select=set.querySelector('[name=character]'),value=select.value;select.replaceChildren(new Option('请选择角色',''));for(const role of characters){if(role.id!==value&&query&&!`${role.name} ${role.id}`.toLowerCase().includes(query.toLowerCase()))continue;select.add(new Option(role.name,role.id));}select.value=value;}
  function preview(item){selectedFile=item.id;$('[data-preview-image]').src=item.url;$('[data-preview-image]').hidden=false;$('[data-preview-empty]').hidden=true;$('[data-preview-name]').textContent=item.file.name;$('[data-preview-size]').textContent=formatBytes(item.file.size);$('[data-preview-resolution]').textContent=item.width?`${item.width} × ${item.height} px`:item.decodeError?'无法读取':'读取中…';$('[data-preview-format]').textContent=(item.file.type.split('/')[1]||'未知').toUpperCase();const group=files.filter(f=>f.set===item.set),set=sets().find(s=>s.dataset.set===item.set);$('[data-preview-counter]').textContent=`本组 ${group.indexOf(item)+1} / ${group.length}`;$('[data-preview-set]').textContent=setName(set,sets().indexOf(set));$('[data-preview-open]').disabled=false;}
