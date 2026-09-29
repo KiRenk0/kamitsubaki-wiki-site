@@ -17,7 +17,7 @@ import SiteFooter from '../../components/SiteFooter.astro';
 import SupportBanner from '../../components/SupportBanner.astro';
 
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getCollection } from 'astro:content';
+import { getBuildCollection as getCollection } from '../../lib/contentAuditContext';
 import { getLocalizedEntries, getLocalizedSite } from '../../lib/homeData.mjs';
 import { sampleRandom } from '../../lib/homeMusicCatalog.mjs';
 import { buildLocaleLinks, defaultLocale, resolveLocaleCopy, supportedLocales } from '../../lib/i18n.mjs';

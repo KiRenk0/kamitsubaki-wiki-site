@@ -109,20 +109,12 @@ export function buildContentIndex({ songs = [], albums = [], artists = [] }) {
 }
 
 /**
- * SSG pages all rebuild the same index from identical collections.
- * Single-slot cache keeps that work out of the per-page render path.
- */
-let cachedContentIndex = null;
-
-/**
+ * Pure index builder for legacy content audits.
  * @param {Parameters<typeof buildContentIndex>[0]} collections
  * @returns {ReturnType<typeof buildContentIndex>}
  */
 export function getContentIndex(collections) {
-  if (!cachedContentIndex) {
-    cachedContentIndex = buildContentIndex(collections);
-  }
-  return cachedContentIndex;
+  return buildContentIndex(collections);
 }
 
 function sortIssues(issues) {

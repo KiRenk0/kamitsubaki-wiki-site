@@ -1,7 +1,7 @@
 ---
 import WorkspaceHeader from '../../components/WorkspaceHeader.astro';
 import WorkspaceShell from '../../components/WorkspaceShell.astro';
-import { getCollection } from 'astro:content';
+import { getBuildCollection as getCollection } from '../../lib/contentAuditContext';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
 import SiteNav from '../../components/SiteNav.astro';

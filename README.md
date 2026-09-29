@@ -55,6 +55,12 @@ node scripts/sync-docs.mjs --check
 
 按修改范围运行不依赖私有服务的前台测试；跨服务测试由维护者在私有环境执行。构建成功不代表真实登录、GitHub 投稿、文章审核、图库上传或生产发布已经验收。
 
+## Cloudflare Pages 构建
+
+Pages 使用 `pnpm build` 构建并发布 `dist`。构建缓存应包含 `node_modules/.astro`；缩略图的可恢复缓存位于 `node_modules/.astro/kamitsubaki-thumbs`。歌曲、专辑与人物详情页在单次构建中共享内容集合，避免逐页重复读取和复制。
+
+仓库中的 `.github/workflows/deploy-cloudflare-pages.yml` 会在 `main` 更新时执行测试、构建和发布；此流程需要配置 `CLOUDFLARE_API_TOKEN` 与 `CLOUDFLARE_ACCOUNT_ID`。
+
 ## 文档与发布状态
 
 - [文档中心](docs/README.md)：按贡献、维护、设计、架构、运维和归档导航。
