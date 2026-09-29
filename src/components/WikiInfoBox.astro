@@ -57,7 +57,7 @@ const { data, labels } = Astro.props;
     <ResponsiveImage widths={[192, 480, 960]} sizes="(max-width: 640px) calc(100vw - 48px), 360px" loading="eager"
       src={data.image}
       alt={data.name}
-      class="aspect-video w-full rounded-sm object-cover filter grayscale-[15%] contrast-125 sm:aspect-square sm:rounded-md lg:aspect-square"
+      class="aspect-video w-full rounded-sm object-cover sm:aspect-square sm:rounded-md lg:aspect-square"
     />
     <figcaption class="px-3 py-1.5 text-center text-[9px] tracking-[0.18em] text-white/35 sm:py-2 sm:text-[10px] sm:tracking-[0.2em]">
       {data.romanizedName}

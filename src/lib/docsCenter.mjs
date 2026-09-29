@@ -31,9 +31,9 @@ export const docsCenterCopy=locale=>resolveLocaleCopy({
 },locale);
 
 export const bookCopy=(book,locale)=>resolveLocaleCopy({
- zh:{site:{title:'网站说明书',description:'浏览百科、阅读文章与使用探索功能。'},contribute:{title:'贡献说明书',description:'从保存草稿到提交审核，完成词条、文章与设定图投稿。'},develop:{title:'开发说明书',description:'前台内容模型、共享组件与公开集成边界。'}},
- en:{site:{title:'Site manual',description:'Browse the encyclopedia, read articles, and explore the archive.'},contribute:{title:'Contribution manual',description:'Create and review entries, articles, and gallery sets from draft to publication.'},develop:{title:'Development manual',description:'Frontend content models, shared components, and public integration boundaries.'}},
- ja:{site:{title:'サイト説明書',description:'百科、記事、探索機能の利用方法。'},contribute:{title:'投稿説明書',description:'項目、記事、設定資料を下書きから審査・公開まで進めます。'},develop:{title:'開発説明書',description:'フロントのコンテンツモデル、共通部品、公開連携の範囲。'}},
+ zh:{site:{title:'网站说明书',description:'浏览百科、阅读文章与使用探索功能。'},contribute:{title:'贡献说明书',description:'站内编辑和 GitHub 两条路线，涵盖词条、文章、图库与时间轴。'},develop:{title:'开发说明书',description:'前台内容模型、共享组件与公开集成边界。'}},
+ en:{site:{title:'Site manual',description:'Browse the encyclopedia, read articles, and explore the archive.'},contribute:{title:'Contribution manual',description:'Site and GitHub routes for entries, articles, gallery sets, and events.'},develop:{title:'Development manual',description:'Frontend content models, shared components, and public integration boundaries.'}},
+ ja:{site:{title:'サイト説明書',description:'百科、記事、探索機能の利用方法。'},contribute:{title:'投稿説明書',description:'サイトと GitHub の二経路で、項目・記事・設定資料・年表を投稿。'},develop:{title:'開発説明書',description:'フロントのコンテンツモデル、共通部品、公開連携の範囲。'}},
 },locale)?.[book];
 
 function assertPart(part,allowed){if(!allowed.includes(part))throw new Error(`Unknown manual path: ${part}`);}
@@ -71,7 +71,7 @@ export async function getManualCatalog(locale,{includeBody=false}={}){
  const paths=await getManualPaths();
  const chapters=await Promise.all(paths.map(({book,chapter})=>getManualChapter(book,chapter,locale,{render:false})));
  return manualBooks.map(book=>({
-  id:book,...bookCopy(book,locale),href:`/${locale}/docs/${book}/`,
+  id:book,...bookCopy(book,locale),href:`/${locale}/docs/#docs-book-${book}`,
   chapters:chapters.filter(item=>item.book===book).sort((a,b)=>a.data.order-b.data.order).map(item=>({
    ...item.data,href:item.href,slug:item.chapter,...includeBody?{body:item.body}:{},
   })),

@@ -277,6 +277,7 @@ const announcements = defineCollection({
     order: z.number().optional(),
     pinned: z.boolean().default(false),
     draft: z.boolean().default(false),
+    autoOpen: z.boolean().default(true),
     license: contentLicense.optional(),
   }),
 });

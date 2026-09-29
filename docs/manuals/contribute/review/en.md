@@ -2,7 +2,7 @@
 book: contribute
 chapter: review
 locale: en
-order: 7
+order: 8
 title: Submission status and returned work
 summary: Follow receipts in Creator Center and distinguish drafts, review, partial approval, and publication.
 ---
@@ -26,6 +26,8 @@ After an entry, article, or gallery submission succeeds, stay on the page long e
 | Approved / merged | Review or GitHub merge finished; an entry may still await site deployment. |
 | Hidden | The content is no longer listed publicly; check the record or ask a maintainer why. |
 | Public | The public entry, article, or gallery page can serve it. |
+
+In Creator Center, you can choose **Delete draft** for your own unsubmitted local or cloud draft. Confirming cannot be undone; private staged files in a gallery draft are also cleared. Submitted, returned, and published records are not draft deletions. A maintainer can move a published article, photo, or set to the recycle bin and then permanently delete it there. Deleting a set retains its photos as hidden independent records.
 
 ## Revise and recover
 

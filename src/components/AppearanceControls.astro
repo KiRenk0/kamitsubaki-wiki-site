@@ -4,10 +4,11 @@ interface Props {locale?:string;compact?:boolean;accentOnly?:boolean}
 const {locale='zh',compact=false,accentOnly=false}=Astro.props;
 const c=resolveLocaleCopy({zh:{mode:'明暗模式',accent:'界面配色',light:'浅色',dark:'深色',system:'跟随系统',mono:'黑白',blue:'冷蓝',violet:'灰紫',amber:'琥珀',note:'仅保存在此浏览器。词条图片、背景与角色主题色保持原样。'},en:{mode:'Appearance',accent:'Interface color',light:'Light',dark:'Dark',system:'System',mono:'Mono',blue:'Blue',violet:'Violet',amber:'Amber',note:'Saved in this browser. Artwork and character colors stay unchanged.'},ja:{mode:'表示モード',accent:'アクセント',light:'ライト',dark:'ダーク',system:'システム',mono:'モノクロ',blue:'ブルー',violet:'パープル',amber:'アンバー',note:'このブラウザーに保存します。画像とキャラクターの色は変更しません。'}},locale);
 const accents=[['mono','#999999'],['blue','#416ecb'],['violet','#816494'],['amber','#9b712e']];
+const accentShort=resolveLocaleCopy({zh:{mono:'黑',blue:'蓝',violet:'紫',amber:'琥'},ja:{mono:'白黒',blue:'青',violet:'紫',amber:'琥'},en:{mono:'BW',blue:'BL',violet:'VT',amber:'AM'}},locale);
 ---
 <div class:list={['appearance-controls',{'appearance-controls--compact':compact}]}>
- {!accentOnly&&<div class="appearance-row"><span>{c.mode}</span><div role="radiogroup" aria-label={c.mode}>{['light','dark','system'].map(value=><button type="button" data-theme-toggle data-theme-value={value} role="radio" aria-checked="false">{c[value]}</button>)}</div></div>}
- <div class="appearance-row"><span>{c.accent}</span><div role="radiogroup" aria-label={c.accent}>{accents.map(([value,color])=><button type="button" data-accent-toggle data-accent-value={value} role="radio" aria-checked="false"><i aria-hidden="true" style={`--swatch:${color}`}></i>{c[value]}</button>)}</div></div>
+ {!accentOnly&&<div class="appearance-row"><span>{c.mode}</span><div role="radiogroup" aria-label={c.mode}>{['system','dark','light'].map(value=><button type="button" data-theme-toggle data-theme-value={value} role="radio" aria-checked="false">{c[value]}</button>)}</div></div>}
+ <div class="appearance-row"><span>{c.accent}</span><div role="radiogroup" aria-label={c.accent}>{accents.map(([value,color])=><button type="button" data-accent-toggle data-accent-value={value} role="radio" aria-checked="false" aria-label={c[value]} title={c[value]}><i aria-hidden="true" style={`--swatch:${color}`}></i>{compact?accentShort[value]:c[value]}</button>)}</div></div>
  {!compact&&<p>{c.note}</p>}
 </div>
 <style is:global>

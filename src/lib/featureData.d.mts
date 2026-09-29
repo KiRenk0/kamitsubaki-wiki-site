@@ -1,7 +1,7 @@
 import type {Source} from './entityRegistry.mjs';
 export interface EventText {title: string; summary?: string}
 export interface ChronicleEvent {
- id:string; date:{start:string; end?:string; precision:string}; era?:string;
+ id:string; date:{start:string; end?:string; precision:string}; era?:string; sourceLocale?:string; publicationVersion?:string;
  tracks:string[]; eventTypes:string[]; importance:string;
  text:Record<string,EventText>; related?:{entity:string;role?:string}[];
  articles?:string[]; sources?:Source[];

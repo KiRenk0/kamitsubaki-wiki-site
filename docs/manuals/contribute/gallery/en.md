@@ -3,15 +3,44 @@ book: contribute
 chapter: gallery
 locale: en
 order: 6
-title: Upload sets and reference images
-summary: Add photos to each set, inspect dimensions and progress, stage files, then submit for review.
+title: Contribute photos, design sets and classifications
+summary: Upload photos without a category, build a design set, or suggest changes to a published photo.
 ---
+
+## Choose a task
+
+The [image archive](/en/gallery/) includes every approved public photo, including photos awaiting classification. Start at the [upload workspace](/en/gallery/manage/):
+
+| Your task | Where to start | What readers see after approval |
+| --- | --- | --- |
+| Upload photos whose person, type or set is unknown | [Upload photos](/en/gallery/manage/photos/) | Each approved image appears in All photos; a blank type also appears under Unclassified |
+| Submit a coherent group with a cover and sequence | [Create a design set](/en/gallery/manage/?mode=sets) | Photos appear both in the grid and in the ordered set |
+| Add people, types, tags or an existing set to public photos | Open a photo or select several and [suggest classification](/en/gallery/classify/) | The public version stays visible until each suggestion passes review |
+
+**Setting art is an image type; it does not require a set.** One stored photo can be linked to several people or groups and appear in each album. Do not upload duplicate files to achieve this.
+
+## Upload photos directly
+
+1. Sign in, open [Upload photos](/en/gallery/manage/photos/), then select or drop files. Supported formats are PNG, JPEG, WebP and GIF. A batch holds up to 100 images, with a 20 MiB limit per image. People and image type are optional.
+2. Enter the shared **creator, verifiable source, original source URL and basis for use**. Choose official public material, your original work or authorized use. Official material requires the original page URL; authorized material requires an explanation. Open an individual photo’s details to override shared fields when its source or creator differs.
+3. Save the batch draft, then stage files privately. A transfer reaching 100% only means the bytes arrived; wait for the server’s Staged result. `?batch=ID` can restore a cloud batch, though a file saved only in this browser may need to be selected again.
+4. Once every file is staged, separately submit the batch for review. Follow its receipt in [Creator Center](/en/account/creator/). Reviewers accept or return each image; only accepted photos join the public archive.
+
+If a photo is returned, open the batch in Creator Center, read its individual reason, and choose Revise. Only returned photos and their private originals are copied into a new draft. Approved siblings do not need another submission, and the copied files do not use the daily new-upload quota. Correct the creator, source or description and resubmit. If a private original is no longer available, select the file again as the page instructs.
+
+**Example:** Three concert photos share one official announcement. Enter the announcement and creator once. If the second photo has a different photographer, override only that photo’s creator. You may leave people and type blank and suggest them after publication.
+
+## Suggest a classification
+
+Open a photo in the [gallery](/en/gallery/) and choose “Classify this photo,” or use Select photos to submit a batch. Link one or more people or groups, choose from setting art, portrait, cover art, promotional image or live/event, add tags, and optionally choose an existing design set. Batch suggestions add links and tags to each selected photo; check that the shared changes fit every image.
+
+You can choose Setting art without creating a set. A classification suggestion never replaces the file, creator or source. During review, readers continue to see the previous public details. If another change updates the photo or set first, a version conflict leaves the suggestion pending so you can compare the latest version and submit a corrected proposal. Reviewers can merge synonymous tags; old tag searches still resolve to the approved label. Person and group albums update only from approved links.
 
 ## Create a set
 
 From the [gallery](/en/gallery/), open the [upload workspace](/en/gallery/manage/) and sign in. Create one set for one group of images. **Character is required**; set name, form, date, tags, publisher, source, and notes may be completed later. Shared information is entered once for the set. Create another set for a different group: there is no need to add images to a global queue and move them afterward.
 
-The workspace shows the **character / form** where the set will appear. Choose a form already used for that character, enter a new name for review, or leave it blank for **Unclassified**. One form may contain multiple sets; similar names are never merged automatically. The public gallery lists characters first, then forms, with one cover card per set. Open a set to browse its published images in order. The selected cover and image order are retained. Maintainers can standardize a form name by editing the whole set in content management.
+The workspace shows the **character / form** where the set will appear. Choose a form already used for that character, enter a new name for review, or leave it blank for **Unclassified**. One form may contain multiple sets; similar names are never merged automatically. The public gallery opens in the all-photos grid. Switch to Design sets to filter by character and form, with one cover card per set. Open a set to browse its published images in order. The selected cover and image order are retained. Maintainers can standardize a form name by editing the whole set in content management.
 
 ## Add photos to that set
 

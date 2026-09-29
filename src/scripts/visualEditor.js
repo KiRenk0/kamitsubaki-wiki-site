@@ -756,7 +756,7 @@ const initialize = () => {
   renderFields(); renderBlocks(); output(); loadReferenceOptions();
   $('[data-save-status]').textContent = saving ? copy.saved : copy.unsaved;
   try { const recovered=localStorage.getItem(sourceKey);if(recovered!==null){sourcePending=recovered;changeMode('source');$('[data-source-error]').hidden=false;$('[data-source-error]').textContent=copy.sourceRecovered;} } catch { /* Optional draft recovery. */ }
-  if (prDemo) initializeEditorPrDemo(root, {
+  const entryEditor = {
     snapshot() {
       if (root.hasAttribute('aria-busy')) throw new Error('词条还在加载，请稍后再试。');
       if (!applySource()) throw new Error('源码存在格式错误，请先修正后再提交。');
@@ -777,13 +777,33 @@ const initialize = () => {
     restore(submission) {
       if (hasWork() && !window.confirm(copy.replace)) return false;
       const imported = importMarkdown(submission.content, submission.kind, submission.path);
-      imported.baseSha=submission.baseSha;imported.baseContent=submission.baseContent??null;imported.create=submission.create === true;imported.assets=submission.assets || [];
+      imported.baseSha=submission.baseSha;imported.baseContent=submission.baseContent??null;imported.create=submission.create === true || (submission.create == null && submission.baseSha == null);imported.assets=submission.assets || [];
       checkpoint(); clearPendingSource(); draft = imported; renderFields(); renderBlocks(); changed(true);
       const url = new URL(location.href); url.searchParams.set('target', draft.path);
       window.history.replaceState(null, '', url);
       return true;
     },
-  });
+  };
+  if (prDemo) initializeEditorPrDemo(root, entryEditor);
+  const cloudDraftPath = articleMode ? null : new URLSearchParams(location.search).get('draftPath');
+  if (prDemo && cloudDraftPath && sourceRequest(cloudDraftPath)) {
+    void (async () => {
+      try {
+        const response = await fetch(editorApiBase+'/api/editor/draft?path='+encodeURIComponent(cloudDraftPath), { credentials:'include',cache:'no-store' });
+        if (!response.ok) throw new Error(copy.loadFailed);
+        const saved = await response.json();
+        if (!saved?.content || saved.path !== cloudDraftPath) throw new Error(copy.loadFailed);
+        const restored = entryEditor.restore({ ...saved, kind:saved.kind||cloudDraftPath.split('/')[2] });
+        if (restored) {
+          const url=new URL(location.href);url.searchParams.delete('draftPath');window.history.replaceState(null,'',url);
+          root.dispatchEvent(new CustomEvent('editor-source-loaded'));
+          $('[data-load-status]').textContent = copy.loaded + ' ' + (saved.title||cloudDraftPath);
+        }
+      } catch (error) {
+        $('[data-load-status]').textContent = error.message || copy.loadFailed;
+      }
+    })();
+  }
   if(articleMode)initializeArticleSubmission(root,{
     async validateRelations(){const ids=draft.meta.relatedEntities||[];if(!ids.length)return;const entries=await articleEntities(root.dataset.locale);if(ids.some(id=>!entries.some(e=>e.id===id)))throw Error(articleCopy(root.dataset.locale).invalidRelated);},
     prepareNavigation(){saving=true;},

@@ -6,15 +6,17 @@ function readProjectFile(path) {
   return readFile(new URL(path, import.meta.url), 'utf8');
 }
 
-test('album home section is rendered after songs and before the maintenance roster', async () => {
+test('home music tabs sit before the maintenance roster', async () => {
   const homePage = await readProjectFile('../src/pages/[locale]/index.astro');
-  const songsIndex = homePage.indexOf('<SongsSection');
-  const albumsIndex = homePage.indexOf('<AlbumsSection');
+  const musicIndex = homePage.indexOf('<HomeMusicSection');
   const rosterIndex = homePage.indexOf('<ContributorRoster');
+  const music = await readProjectFile('../src/components/HomeMusicSection.astro');
 
-  assert.ok(songsIndex >= 0);
-  assert.ok(albumsIndex > songsIndex);
-  assert.ok(rosterIndex > albumsIndex);
+  assert.ok(musicIndex >= 0);
+  assert.ok(rosterIndex > musicIndex);
+  assert.match(music, /<ContentTabs id="home-music"/);
+  assert.match(music, /<SongsSection slot="songs"/);
+  assert.match(music, /<AlbumsSection slot="albums"/);
 });
 
 test('album catalog groups entries by folder-driven artist ids', async () => {

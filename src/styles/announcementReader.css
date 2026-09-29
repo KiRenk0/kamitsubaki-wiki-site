@@ -1,0 +1,119 @@
+.announcement-reader {
+  display: grid;
+  grid-template-columns: minmax(215px, 285px) minmax(0, 1fr);
+  gap: clamp(26px, 4vw, 72px);
+  align-items: start;
+  border-top: 1px solid var(--workspace-line);
+}
+.announcement-reader__archive {
+  position: sticky;
+  top: 94px;
+  max-height: calc(100dvh - 112px);
+  overflow-y: auto;
+  border-right: 1px solid var(--workspace-line);
+}
+.announcement-reader__archive-head {
+  padding: 26px 24px 18px 0;
+}
+.announcement-reader__archive-head span,
+.announcement-reader__article header > p:first-child {
+  color: var(--workspace-muted);
+  font: 10px/1.5 var(--font-mono);
+  letter-spacing: .1em;
+}
+.announcement-reader__archive-head h2 { margin: 8px 0 0; font: 400 19px/1.4 var(--font-serif); }
+.announcement-reader__archive nav { display: grid; padding-right: 14px; }
+.announcement-reader__archive a {
+  display: grid;
+  gap: 6px;
+  padding: 16px 14px;
+  border-top: 1px solid var(--workspace-line);
+  border-left: 2px solid transparent;
+  color: var(--theme-fg);
+  text-decoration: none;
+}
+.announcement-reader__archive a:hover,
+.announcement-reader__archive a[aria-current="true"] {
+  border-left-color: var(--theme-accent-color);
+  background: rgb(var(--theme-fg-rgb) / .04);
+}
+.announcement-reader__archive time,
+.announcement-reader__archive small {
+  color: var(--workspace-muted);
+  font: 10px/1.5 var(--font-mono);
+}
+.announcement-reader__archive a span { font: 400 13px/1.5 var(--font-sans); }
+.announcement-reader__pages { min-width: 0; }
+.announcement-reader__article { max-width: 780px; min-height: 520px; padding: 27px 0 64px; outline: none; }
+.announcement-reader__article[hidden] { display: none; }
+.announcement-reader__meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  color: var(--workspace-muted);
+  font: 10px/1.5 var(--font-mono);
+  letter-spacing: .08em;
+}
+.announcement-reader__article header { padding: 36px 0 32px; border-bottom: 1px solid var(--workspace-line); }
+.announcement-reader__article header h2 {
+  max-width: 24ch;
+  margin: 8px 0 18px;
+  font: 400 clamp(32px, 4vw, 56px)/1.25 var(--font-serif);
+  text-wrap: balance;
+}
+.announcement-reader__article header > p:last-child {
+  max-width: 62ch;
+  margin: 0;
+  color: var(--workspace-muted);
+  font: 15px/1.85 var(--font-sans);
+}
+html body .announcement-reader__body.wiki-reader {
+  max-width: 68ch;
+  padding: 32px 0 52px;
+  font-size: 15px;
+  line-height: 2;
+}
+.announcement-reader__body > :first-child { margin-top: 0; }
+.announcement-reader__body :where(img,video,iframe) { max-width: 100%; }
+.announcement-reader__article footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+  padding-top: 22px;
+  border-top: 1px solid var(--workspace-line);
+}
+.announcement-reader__article footer nav { display: flex; flex-wrap: wrap; gap: 20px; }
+.announcement-reader__article footer a {
+  color: var(--theme-fg);
+  font: 12px/1.5 var(--font-sans);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.announcement-reader__empty { padding: 40px 0; color: var(--workspace-muted); }
+@media (max-width: 850px) {
+  .announcement-reader { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .announcement-reader__archive {
+    position: static;
+    max-height: none;
+    overflow: visible;
+    border-right: 0;
+    border-bottom: 1px solid var(--workspace-line);
+  }
+  .announcement-reader__archive-head { padding-bottom: 12px; }
+  .announcement-reader__archive nav {
+    display: flex;
+    gap: 0;
+    overflow-x: auto;
+    padding: 0 0 12px;
+    scrollbar-width: thin;
+  }
+  .announcement-reader__archive a { flex: 0 0 min(230px, 70vw); border-left: 0; border-bottom: 2px solid transparent; }
+  .announcement-reader__archive a[aria-current="true"] { border-bottom-color: var(--theme-accent-color); }
+  .announcement-reader__article { padding-top: 22px; }
+}
+@media (max-width: 600px) {
+  .announcement-reader__article header { padding: 24px 0; }
+  .announcement-reader__article header h2 { font-size: 32px; }
+  html body .announcement-reader__body.wiki-reader { padding: 20px 0 32px; font-size: 14px; }
+}

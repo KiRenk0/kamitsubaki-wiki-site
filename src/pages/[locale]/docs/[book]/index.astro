@@ -1,26 +1,7 @@
 ---
-import BaseLayout from '../../../../layouts/BaseLayout.astro';
-import SiteNav from '../../../../components/SiteNav.astro';
-import SiteFooter from '../../../../components/SiteFooter.astro';
-import WorkspaceShell from '../../../../components/WorkspaceShell.astro';
-import WorkspaceHeader from '../../../../components/WorkspaceHeader.astro';
-import {buildLocaleLinks,supportedLocales} from '../../../../lib/i18n.mjs';
-import {getLocalizedSite} from '../../../../lib/homeData.mjs';
-import {getCollection} from 'astro:content';
-import {docsCenterCopy,getManualCatalog,manualBooks} from '../../../../lib/docsCenter.mjs';
+import {supportedLocales} from '../../../../lib/i18n.mjs';
+import {manualBooks} from '../../../../lib/docsCenter.mjs';
 export function getStaticPaths(){return supportedLocales.flatMap(locale=>manualBooks.map(book=>({params:{locale,book}})));}
 const {locale='zh',book='site'}=Astro.params;
-const site=getLocalizedSite(await getCollection('site'),locale);
-const copy=docsCenterCopy(locale);
-type Chapter={title:string;summary:string;href:string};
-type Book={id:string;title:string;description:string;href:string;chapters:Chapter[]};
-const current=(await getManualCatalog(locale) as Book[]).find(item=>item.id===book);
-if(!current)throw new Error(`Unknown manual book: ${book}`);
+return Astro.redirect(`/${locale}/docs/#docs-book-${book}`,301);
 ---
-<BaseLayout lang={locale} title={current.title} metadata={{title:current.title,description:current.description,canonicalPath:current.href}} alternates={supportedLocales.map(code=>({locale:code,href:`/${code}/docs/${book}/`}))}>
- <SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site,locale,`/docs/${book}/`)} brandLines={site.hero.brandLines} homeHref={`/${locale}/`}/>
- <WorkspaceShell width="wide"><WorkspaceHeader title={current.title} intro={current.description} eyebrow={`DOCUMENTS / ${book.toUpperCase()}`} backHref={`/${locale}/docs/`} backLabel={copy.back}/>
-  <nav class="manual-index" aria-label={current.title}>{current.chapters.map((chapter,index)=><a href={chapter.href}><span>{String(index+1).padStart(2,'0')}</span><strong>{chapter.title}</strong><small>{chapter.summary}</small><b aria-hidden="true">↗</b></a>)}</nav>
- </WorkspaceShell><SiteFooter footer={site.footer}/>
-</BaseLayout>
-<style>.manual-index{margin-top:26px;border-top:1px solid var(--ui-line)}.manual-index a{display:grid;grid-template-columns:35px minmax(130px,.55fr) minmax(0,1fr) 20px;gap:16px;align-items:center;padding:18px 5px;border-bottom:1px solid var(--ui-line);color:inherit;text-decoration:none;transition:padding 180ms ease,background 180ms ease}.manual-index a:hover{padding-left:13px;background:color-mix(in srgb,currentColor 4%,transparent)}.manual-index span{font:11px var(--font-mono);opacity:.5}.manual-index strong{font:500 15px var(--font-sans)}.manual-index small{font:12px/1.6 var(--font-sans);color:var(--workspace-muted)}.manual-index b{font:14px var(--font-sans);opacity:.45}.manual-index a:focus-visible{outline:2px solid var(--theme-fg);outline-offset:3px}@media(max-width:680px){.manual-index a{grid-template-columns:27px 1fr 14px;gap:10px}.manual-index small{grid-column:2;grid-row:2}.manual-index b{grid-column:3;grid-row:1}}@media(prefers-reduced-motion:reduce){.manual-index a{transition:none}}</style>

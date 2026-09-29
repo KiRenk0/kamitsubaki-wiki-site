@@ -16,7 +16,7 @@ async function readFrontmatter(path) {
 
 test('artist hover and keyboard backgrounds use delegation for progressively revealed rows', async () => {
   const interactions = await readSource('../src/scripts/siteInteractions.js');
-  assert.match(interactions, /closest\('\.artist-row'\)/);
+  assert.match(interactions, /closest\('#artist-list \.artist-row, \[data-home-music-list\] \[data-music-background\]'\)/);
   assert.match(interactions, /'pointerover', 'pointerout'/);
   assert.match(interactions, /'focusin', 'focusout'/);
   assert.match(interactions, /relatedTarget/);

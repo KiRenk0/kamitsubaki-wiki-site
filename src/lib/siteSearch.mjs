@@ -1,5 +1,16 @@
 const defaultResultLimit = 12;
 
+export const searchKindGroups = Object.freeze({
+  artist: ['virtual-avatar', 'software-voice', 'person', 'unit', 'artist'],
+  song: ['work-track', 'song'],
+  album: ['work-release', 'album'],
+  live: ['live-event'],
+  project: ['project'],
+  lore: ['lore-concept'],
+  organization: ['organization'],
+  log: ['log'],
+});
+
 export function normalizeSearchText(value) {
   return String(value || '')
     .normalize('NFKC')
@@ -102,9 +113,14 @@ function scoreEntry(entry, normalizedQuery, tokens) {
 
   const kindPrior = {
     artist: 48,
+    'virtual-avatar': 48,
+    person: 32,
+    unit: 24,
     album: 24,
+    'work-release': 24,
     project: 18,
     song: 12,
+    'work-track': 12,
     log: 0,
   };
   let score = kindPrior[entry.kind] || 0;
@@ -159,13 +175,15 @@ export function searchSiteIndex(entries, query, options = {}) {
   const normalizedQuery = normalizeSearchText(queryNormalizer(query));
   const tokens = queryTokens(normalizedQuery);
   const locale = options.locale ? String(options.locale) : '';
-  const kind = options.kind ? String(options.kind) : '';
+  const kinds = Array.isArray(options.kind)
+    ? new Set(options.kind.map(String))
+    : options.kind ? new Set([String(options.kind)]) : null;
   const limit = Number.isFinite(options.limit) ? Math.max(1, options.limit) : defaultResultLimit;
 
   if (!normalizedQuery || !tokens.length || !Array.isArray(entries)) return [];
 
   return entries
-    .filter((entry) => (!locale || entry.locale === locale) && (!kind || entry.kind === kind))
+    .filter((entry) => (!locale || entry.locale === locale) && (!kinds || kinds.has(entry.kind)))
     .map((entry) => ({
       entry,
       score: scoreEntry(entry, normalizedQuery, tokens),

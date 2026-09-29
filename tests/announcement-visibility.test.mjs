@@ -9,7 +9,7 @@ const script = ts.transpileModule(component.match(/<script>([\s\S]*?)<\/script>/
   compilerOptions: { target: ts.ScriptTarget.ES2022, module: ts.ModuleKind.None },
 }).outputText;
 
-function mount(storage, { id = 'notice-1', draft = false, reduced = false } = {}) {
+function mount(storage, { id = 'notice-1', draft = false, reduced = false, autoOpen = true } = {}) {
   class Element {
     hidden = false;
     dataset = {};
@@ -24,7 +24,7 @@ function mount(storage, { id = 'notice-1', draft = false, reduced = false } = {}
   }
   const modal = new Element(), panel = new Element(), launcher = new Element(), close = new Element(), body = new Element();
   modal.hidden = true;
-  modal.dataset = { announcementId: id, announcementDraft: draft ? 'true' : undefined };
+  modal.dataset = { announcementId: id, announcementDraft: draft ? 'true' : undefined, announcementAutoOpen: autoOpen ? undefined : 'false' };
   modal.querySelector = () => panel;
   modal.querySelectorAll = selector => selector === '[data-announcement-close]' ? [close] : [];
   const document = { body, activeElement: null, querySelector: selector => selector === '[data-announcement-modal]' ? modal : launcher };
@@ -70,6 +70,13 @@ test('manual open and dismissal cancel the delayed initial popup', () => {
   page.launcher.dispatch('click'); page.close.dispatch('click'); page.flush(); page.flush();
   assert.equal(page.modal.hidden,true);
   assert.equal(page.timers.size,0);
+});
+test('archived notices stay available from the launcher without interrupting first visit', () => {
+  const page = mount(storage(), { autoOpen: false });
+  page.flush();
+  assert.equal(page.modal.hidden, true);
+  page.launcher.dispatch('click');
+  assert.equal(page.modal.hidden, false);
 });
 test('blocked storage does not break dismissal, Escape, or reduced motion', () => {
   const blocked = { getItem() { throw new Error('blocked'); }, setItem() { throw new Error('blocked'); } };

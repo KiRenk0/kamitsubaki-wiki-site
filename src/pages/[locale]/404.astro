@@ -1,0 +1,30 @@
+---
+import WorkspaceLayout from '../../layouts/WorkspaceLayout.astro';
+import WorkspaceLinkCard from '../../components/WorkspaceLinkCard.astro';
+import {supportedLocales,resolveLocaleCopy} from '../../lib/i18n.mjs';
+
+export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
+const locale=Astro.params.locale!;
+const copy=resolveLocaleCopy({
+  zh:{title:'找不到这个页面',intro:'地址可能有误，或这份资料已经移动。你可以搜索名称，也可以从资料目录重新进入。',search:'搜索站内资料',home:'返回首页',explore:'浏览资料目录',docs:'打开帮助文档',game:'进入记忆回廊',gameHint:'想短暂休息时再打开小游戏。'},
+  ja:{title:'ページが見つかりません',intro:'アドレスが違うか、資料が移動した可能性があります。検索するか、資料一覧から探してください。',search:'サイト内を検索',home:'ホームへ',explore:'資料一覧を見る',docs:'ヘルプを読む',game:'記憶回廊を開く',gameHint:'ゲームは気分転換したいときに開けます。'},
+  en:{title:'Page not found',intro:'The address may be incorrect or the record may have moved. Search for it or browse the archive.',search:'Search the site',home:'Go home',explore:'Browse the archive',docs:'Read the guides',game:'Open Memory Corridor',gameHint:'The game is here when you want a break.'}
+},locale);
+---
+<WorkspaceLayout locale={locale} title={`404 / ${copy.title}`} intro={copy.intro} path="/404/" eyebrow="PAGE NOT FOUND" backHref={`/${locale}/`} backLabel={copy.home} noindex>
+  <section class="not-found-recovery" aria-label={copy.title}>
+    <button type="button" class="not-found-search" data-search-open>{copy.search} <span aria-hidden="true">↗</span></button>
+    <div class="not-found-destinations">
+      <WorkspaceLinkCard href={`/${locale}/explore/`} title={copy.explore} index="01" />
+      <WorkspaceLinkCard href={`/${locale}/docs/`} title={copy.docs} index="02" />
+      <WorkspaceLinkCard href={`/${locale}/`} title={copy.home} index="03" />
+    </div>
+    <p class="not-found-extra">{copy.gameHint} <a href={`/${locale}/games/memory-corridor/`}>{copy.game} ↗</a></p>
+  </section>
+</WorkspaceLayout>
+<style>
+.not-found-recovery{max-width:760px;padding-block:clamp(1rem,4vw,3rem)}
+.not-found-search{display:flex;align-items:center;justify-content:space-between;width:100%;min-height:64px;border:1px solid var(--ui-line);background:var(--theme-panel-solid);color:var(--theme-fg);padding:0 20px;font:500 17px/1.4 var(--font-sans);cursor:pointer}
+.not-found-search:hover{border-color:var(--theme-accent-color)}.not-found-search:focus-visible{outline:2px solid var(--ui-accent-color);outline-offset:3px}
+.not-found-extra{margin:34px 0 0;color:rgb(var(--theme-fg-rgb)/.6);font-size:13px;line-height:1.8}.not-found-extra a{color:var(--theme-fg);margin-left:.4em;text-underline-offset:4px}
+</style>

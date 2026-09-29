@@ -2,7 +2,7 @@
 book: contribute
 chapter: rights
 locale: en
-order: 8
+order: 9
 title: Sources, rights, and languages
 summary: Preserve verifiable evidence and image attribution across language versions.
 ---
@@ -92,6 +92,10 @@ Entry pages display a shared media exclusion, so do not mark an entire article `
 - Record media provenance in the entry's sources and explain the source and basis for use in the PR.
 - Do not add unknown-origin files, watermark removals, artificial upscales, or material beyond what an encyclopedia description needs.
 - Add full lyrics only when a source clearly permits republication or the project has specific permission.
+
+## Check each gallery photo
+
+[Direct photo uploads](/en/gallery/manage/photos/) need a **creator, verifiable source and basis for use** even when the person and image type are unknown. Shared batch details can be overridden per image. Official public material needs the original page URL; authorized use needs an explanation of the permission. Images discovered in existing entries or articles enter a private review queue first. Finding a file on the site does not automatically publish it in the image archive.
 
 ## Review Checklist
 

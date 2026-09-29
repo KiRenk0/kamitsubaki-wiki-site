@@ -26,6 +26,7 @@ html body main.creation-preview-page .workspace-heading>.workspace-eyebrow{margi
 .creation-session-stat:before{content:none}
 .creation-session-stat small{font:11px var(--font-sans);color:var(--workspace-muted)}
 .creation-session-stat strong{font:500 12px var(--font-mono);font-variant-numeric:tabular-nums;color:var(--theme-fg)}
+.creation-photo-rights{margin:10px 0;border-top:1px solid var(--creation-line);padding-top:8px}.creation-photo-rights summary{cursor:pointer;color:var(--theme-fg);font-size:11px}.creation-photo-rights .creation-image-inputs{margin-top:9px}
 @media(max-width:760px){.creation-session-strip{gap:6px 0}.creation-session-state{flex-basis:100%;padding-right:0}.creation-session-stat{gap:4px;padding:0 10px}.creation-session-stat:nth-child(2){padding-left:0;border-left:0}}
 
 .creation-upload-footer [data-upload-status]:empty{display:none}

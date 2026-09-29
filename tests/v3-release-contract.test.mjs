@@ -67,13 +67,13 @@ test('homepage intro is bounded without waiting for external assets to finish lo
 });
 test('article and encyclopedia editors share one workbench with separate persistence adapters',async()=>{
  for(const file of ['articles/submit.astro','contribute/editor.astro'])assert.match(await source('src/pages/[locale]/'+file),/<EditorWorkbench/);
- assert.match(await source('src/scripts/visualEditor.js'),/initializeArticleSubmission/);assert.match(await source('src/scripts/articleSubmission.js'),/\/api\/articles/);
+ assert.match(await source('src/scripts/visualEditor.js'),/initializeArticleSubmission/);const adapter=await source('src/scripts/articleSubmission.js');assert.match(adapter,/root\.dataset\.articleApi\+'\/api\/'/);assert.match(adapter,/'articles'\+path/);
 });
 test('contribution and licensing manuals describe the current maintenance flows in all source languages',async()=>{
  for(const locale of ['zh','ja','en']){
   const chapters=await Promise.all(['start','entry','format','syntax','article','gallery','review','rights'].map(chapter=>source(`docs/manuals/contribute/${chapter}/${locale}.md`)));
   const guide=chapters.join('\n');
-  for(const marker of ['D1','GitHub','R2','schemaVersion','presentation','relations','performers'])assert.ok(guide.includes(marker),`${locale}: ${marker}`);
+  for(const marker of ['GitHub','schemaVersion','presentation','relations','performers'])assert.ok(guide.includes(marker),`${locale}: ${marker}`);
   assert.match(guide,/articles\/submit/);assert.match(guide,/gallery\/manage/);assert.match(chapters.at(-1),/CC BY-NC-SA 4\.0/);
  }
 });

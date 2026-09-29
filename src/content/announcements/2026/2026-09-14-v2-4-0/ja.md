@@ -6,8 +6,9 @@ type: "SITE UPDATE"
 title: "V2.4.0：閲覧と操作体験のアップデート"
 summary: "貢献センター、マイスペース、LABs のデザインと動きを統一。画像をぼかした読書背景と編集ガイドも改善しました。"
 order: -7
-pinned: true
+pinned: false
 draft: false
+autoOpen: false
 ---
 **V2.4.0 は、読む・探す・貢献する体験を整えるアップデートです。**
 

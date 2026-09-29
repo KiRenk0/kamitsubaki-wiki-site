@@ -51,7 +51,19 @@ jobs:
       - name: Check documentation links
         run: pnpm docs:check
 
+      - name: Check shared UI tokens
+        run: pnpm ui:tokens:check
+
+      - name: Run automated tests
+        run: pnpm test
+
+      - name: Check Astro and TypeScript
+        run: pnpm check
+
       - name: Build static site
+        env:
+          PUBLIC_EDITOR_ENABLED: 'true'
+          PUBLIC_EDITOR_API_BASE: https://api.kamitsubaki.wiki
         run: pnpm build
 
       - name: Check generated internal links

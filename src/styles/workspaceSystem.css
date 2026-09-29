@@ -1,16 +1,16 @@
 /* Shared secondary-page geometry. Artwork and reader layouts remain page-owned. */
 html body main.workspace-page[data-workspace-page] {
   --workspace-max:1280px;
-  --workspace-gutter:48px;
+  --workspace-gutter:var(--ui-space-12);
   --workspace-top:108px;
-  --workspace-gap:28px;
+  --workspace-gap:var(--ui-space-8);
   --workspace-line:rgb(var(--theme-fg-rgb)/.13);
-  --workspace-muted:rgb(var(--theme-fg-rgb)/.63);
-  --workspace-title:clamp(26px,2.4vw,32px);
-  --workspace-control-height:38px;
-  --workspace-motion:200ms;
+  --workspace-muted:var(--ui-color-muted);
+  --workspace-title:var(--ui-font-title);
+  --workspace-control-height:var(--ui-hit-target);
+  --workspace-motion:var(--ui-duration-panel);
   --workspace-surface:rgb(var(--theme-fg-rgb)/.025);
-  --workspace-shadow:0 8px 24px rgb(0 0 0/.08);
+  --workspace-shadow:var(--ui-shadow-panel);
   --workspace-radius:var(--ui-radius-panel,8px);
   --theme-accent-color:var(--ui-accent-color);
   --theme-accent-rgb:var(--ui-accent-rgb);
@@ -21,7 +21,7 @@ html body main.workspace-page[data-workspace-page] {
 html body main.workspace-page[data-workspace-width=wide]{--workspace-max:1440px}
 html body main.workspace-page[data-workspace-width=reading]{--workspace-max:1120px}
 .workspace-page [hidden]{display:none!important}
-.workspace-page :is(a,button,input,select,textarea,summary):focus-visible{outline:2px solid var(--ui-accent-color);outline-offset:3px}
+.workspace-page :is(a,button,input,select,textarea,summary):focus-visible{outline:var(--ui-focus-width) solid var(--ui-color-accent);outline-offset:var(--ui-focus-offset)}
 .workspace-page :is(input,select,textarea){max-width:100%;min-width:0}
 .workspace-page :is(h1,h2,h3,p){overflow-wrap:anywhere}
 .workspace-page .workspace-section{padding:0 0 var(--workspace-gap);border-bottom:1px solid var(--workspace-line)}
@@ -80,7 +80,7 @@ html body main.workspace-page form.workspace-filters[data-workspace-filters] .fi
 .workspace-state p{margin:0;max-width:52ch;font:14px/1.8 var(--font-sans);color:var(--workspace-muted)}
 .workspace-state[data-state=ready]{min-height:0;padding:16px 0 0}
 .workspace-state[data-state=ready] .workspace-state__symbol{display:none}
-.workspace-state[data-state=error] p{color:var(--theme-fg)}
+.workspace-state[data-state=error] p{color:var(--ui-color-error)}
 .workspace-state__actions{display:flex;gap:12px;flex-wrap:wrap}
 .workspace-state__actions:empty{display:none}
 .workspace-pagination{display:flex;justify-content:flex-end;gap:8px;padding-top:16px;border-top:1px solid var(--workspace-line)}

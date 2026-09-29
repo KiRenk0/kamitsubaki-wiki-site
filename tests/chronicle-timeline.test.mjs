@@ -24,3 +24,9 @@ test('zoom separates dense events without losing or modifying them',()=>{
  assert.equal(clusterEvents(events,start,end,3000).length,3);
  assert.deepEqual(clusterEvents(events,start,end,3000).flatMap(c=>c.events),events);
 });
+test('many events on one day remain individually addressable in a cluster',()=>{
+ const events=Array.from({length:40},(_,index)=>({...event('2024-04-01'),id:`same-day-${index}`}));
+ const groups=clusterEvents(events,dateBounds('2024').start,dateBounds('2024').end,3000);
+ assert.equal(groups.length,1);
+ assert.deepEqual(groups[0].events.map(item=>item.id),events.map(item=>item.id));
+});

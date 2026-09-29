@@ -1,5 +1,5 @@
 import {articleCopy} from '../lib/articleCopy.mjs';
-import { normalizeSearchText, searchResultPath, searchSiteIndex } from '../lib/siteSearch.mjs';
+import { normalizeSearchText, searchKindGroups, searchResultPath, searchSiteIndex } from '../lib/siteSearch.mjs';
 import { getSearchShortcut } from '../lib/searchShortcut.mjs';
 
 const searchDialog = document.querySelector('[data-site-search]');
@@ -118,7 +118,7 @@ function createResult(result, query, copy, index) {
   const meta = document.createElement('span');
   meta.className = 'site-search__result-meta';
   const kind = document.createElement('span');
-  kind.textContent = copy.kinds?.[result.kind] || String(result.kind || 'wiki').toUpperCase();
+  kind.textContent = copy.resultKinds?.[result.kind] || copy.kinds?.[result.kind] || String(result.kind || 'wiki').toUpperCase();
   const path = document.createElement('span');
   path.textContent = resultPath.replace(/\/$/, '');
   meta.append(kind, path);
@@ -206,7 +206,16 @@ function initializeSearch(root) {
   const render = () => {
     const query = input.value.trim();
     resultsRoot.replaceChildren();
-    let articleLink=root.querySelector('[data-article-search-link]');if(!articleLink){articleLink=document.createElement('a');articleLink.dataset.articleSearchLink='';articleLink.style.cssText='display:block;padding:12px 0;font-size:12px';resultsRoot.after(articleLink);}articleLink.textContent=articleCopy(root.dataset.locale).searchLabel+' ↗';articleLink.href=`/${root.dataset.locale}/articles/?q=${encodeURIComponent(query)}`;
+    let articleLink = root.querySelector('[data-article-search-link]');
+    if (!articleLink) {
+      articleLink = document.createElement('a');
+      articleLink.dataset.articleSearchLink = '';
+      articleLink.className = 'site-search__article-link';
+      resultsRoot.after(articleLink);
+    }
+    articleLink.hidden = !query;
+    articleLink.textContent = articleCopy(root.dataset.locale).searchLabel + ' ↗';
+    articleLink.href = `/${root.dataset.locale}/articles/?q=${encodeURIComponent(query)}`;
     activeIndex = -1;
     input.removeAttribute('aria-activedescendant');
 
@@ -217,7 +226,7 @@ function initializeSearch(root) {
 
     const results = searchSiteIndex(entries, query, {
       locale: root.dataset.locale,
-      kind: activeKind,
+      kind: searchKindGroups[activeKind] || activeKind,
       limit: 1000,
       queryNormalizer,
     });

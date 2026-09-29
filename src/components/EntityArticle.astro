@@ -19,6 +19,8 @@ import MemoryCorridorEntryLink from './MemoryCorridorEntryLink.astro';
 import EntityInfoBox from './EntityInfoBox.astro';
 import MorphingSwitcher from './MorphingSwitcher.astro';
 import Reader from './Reader.astro';
+import GalleryEntityPreview from './GalleryEntityPreview.astro';
+import galleryEntities from '../data/gallery-entities.json';
 import WikiArticleHeader from './WikiArticleHeader.astro';
 import {getLocalizedSite} from '../lib/homeData.mjs';
 import {buildLocaleLinks,resolveLocaleCopy} from '../lib/i18n.mjs';
@@ -48,6 +50,7 @@ const contentsTitle=locale==='en'?'Contents':locale==='ja'?'目次':'目录';
 const completeness=entityCompleteness(d);
 const completenessLabels=resolveLocaleCopy({zh:{kicker:'条目完善度',scoreLabel:'元数据完整度 / 100',missingLabel:'可补充资料',missingSummary:'查看待补充项',missingEmpty:'元数据已完整',editHint:'在编辑器中补充，提交审核后公开',tiers:{complete:'完整',good:'充实',brief:'简略',stub:'待完善'}},ja:{kicker:'記事の整備状況',scoreLabel:'メタデータ / 100',missingLabel:'追記できる情報',missingSummary:'不足項目',missingEmpty:'メタデータは揃っています',editHint:'エディターで追記し、審査後に公開',tiers:{complete:'充実',good:'良好',brief:'概要',stub:'追記待ち'}},en:{kicker:'Entry completeness',scoreLabel:'Metadata coverage / 100',missingLabel:'Details to add',missingSummary:'View missing details',missingEmpty:'Metadata is complete',editHint:'Add details in the editor; published after review',tiers:{complete:'Complete',good:'Good',brief:'Brief',stub:'Stub'}}},locale);
 const permanent=d.lifecycle?.archive?.mode==='permanent';
+const hasGallery=galleryEntities.some(entity=>entity.id===d.id);
 ---
 <BaseLayout title={`${title} · Kamitsubaki Studio Fan Wiki`} lang={locale} reading metadata={{title,description:d.summary||d.description||d.profileTagline,image:d.presentation?.image,canonicalPath:entry.url,type:'article',noindex:d.contentStatus==='stub'||d.seo?.noindex}} alternates={['zh','ja','en','zh-tw','zh-hk'].map(l=>({locale:l,href:registry.resolveEntityUrl(d.id,l)}))}>
  <SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site,locale,entry.url.replace(`/${locale}`,''))} brandLines={site.hero.brandLines} homeHref={`/${locale}/`}/>
@@ -69,6 +72,7 @@ const permanent=d.lifecycle?.archive?.mode==='permanent';
     <ContributorRoster mode="entry" sourcePath={editorPath} locale={locale} collection={editorPath.split('/')[2]} entryId={d.id}/>
    </Fragment>
   <div class="entity-related">{isArticle&&<p class="article-review-note">{locale==='en'?'Anyone can suggest an edit. Changes are published after review by the site owner.':locale==='ja'?'誰でも修正を提案できます。管理者の審査後に公開されます。':'人人可参与编辑。提交的修改经站长审核后发布。'}</p>}<h2 class="entity-related-kicker">{locale==='en'?'ABOUT THIS ENTRY':locale==='ja'?'この記事について':'关于本条目'}</h2>
+  {hasGallery&&<GalleryEntityPreview entityId={d.id} locale={locale}/>}
   {other.length>0&&<ReaderDisclosure title={copy.relations} count={other.length}><ReaderRecordList locale={locale} id="reader-related-more" records={other.map(r=>({href:r.entry.url,title:r.entry.data.name||r.entry.data.title||r.entry.data.id,detail:[entityLabel(r.role||r.type,locale),r.current===false?entityLabel('historical',locale):'',r.startDate,r.endDate].filter(Boolean).join(' · ')}))}/></ReaderDisclosure>}
   {works.length>0&&<ReaderDisclosure title={copy.works} count={works.length}><ReaderRecordList locale={locale} id="reader-works-more" records={works.map(r=>({href:r.entry.url,title:r.entry.data.title||r.entry.data.name||r.entry.data.id,detail:[entityLabel(r.role||r.type,locale),r.entry.data.releaseDate].filter(Boolean).join(' · ')}))}/></ReaderDisclosure>}
   {(d.tracks||[]).length>0&&<ReaderDisclosure title={locale==='en'?'Track list':locale==='ja'?'収録曲':'收录曲目'} count={d.tracks?.length}><ReaderRecordList locale={locale} id="reader-tracks-more" records={d.tracks!.map(track=>{const song=track.songId?registry.resolveEntity(track.songId,locale):undefined;return {href:song?.url,title:track.title||song?.data.title||String(track.number),detail:`${track.disc||1} · ${track.number}`};})}/></ReaderDisclosure>}

@@ -6,8 +6,9 @@ type: "SITE UPDATE"
 title: "V2.4.0：阅读与交互体验升级"
 summary: "贡献中心、我的空间与 LABs 统一设计与动画；阅读器支持头图模糊背景，编辑指南与编辑体验同步优化。"
 order: -7
-pinned: true
+pinned: false
 draft: false
+autoOpen: false
 ---
 各位观测者，大家好。
 

@@ -53,6 +53,15 @@ html body :is(.tools-dock, .ai-chat__launcher) {
   from { opacity:0; translate:0 9px; }
   to { opacity:1; translate:0 0; }
 }
+/* A transformed dock/menu traps its fixed child panels in a new containing
+   block. Fade only, so contact and event panels stay anchored to the viewport. */
+@keyframes floating-dock-fade { from { opacity:0; } to { opacity:1; } }
+html body .tools-dock[open] .tools-dock__menu,
+html body .tools-dock[open] .tools-dock__menu > * {
+  animation: floating-dock-fade 180ms ease both;
+  transform: none;
+  translate: none;
+}
 @media (prefers-reduced-motion: reduce) {
   html body :is(.support-float, .support-float *, .tools-dock > summary, .tools-dock__menu, .tools-dock__menu > *, .ai-chat__orb, .ai-chat__orb > svg, .ai-chat__panel) { animation:none !important; transition:none !important; }
 }

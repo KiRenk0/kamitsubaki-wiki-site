@@ -1,9 +1,48 @@
 :root {
+  --ui-color-canvas: var(--theme-bg, var(--bg));
+  --ui-color-surface: var(--theme-panel-solid, var(--panel));
+  --ui-color-text: var(--theme-fg, var(--text));
+  --ui-color-body: var(--theme-body, var(--body));
+  --ui-color-muted: var(--wiki-muted-color, var(--muted));
+  --ui-color-accent: var(--ui-accent-color, var(--accent));
+  --ui-color-success: #a2d5b2;
+  --ui-color-warning: #e8c878;
+  --ui-color-error: #ff8aa1;
+  --ui-font-xs: 10px;
+  --ui-font-sm: 12px;
+  --ui-font-control: 13px;
+  --ui-font-body: 14px;
+  --ui-font-large: 18px;
+  --ui-font-title: clamp(26px, 2.4vw, 32px);
+  --ui-space-1: 4px;
+  --ui-space-2: 8px;
+  --ui-space-3: 12px;
+  --ui-space-4: 16px;
+  --ui-space-6: 24px;
+  --ui-space-8: 32px;
+  --ui-space-12: 48px;
+  --ui-hit-target: 44px;
+  --ui-reading-width: 72ch;
+  --ui-workspace-width: 1320px;
   --ui-radius-control: 4px;
   --ui-radius-panel: 8px;
   --ui-radius-item: 4px;
+  --ui-focus-width: 2px;
+  --ui-focus-offset: 3px;
+  --ui-shadow-panel: 0 8px 24px rgb(0 0 0 / .08);
   --ui-duration: var(--motion-fast, 160ms);
   --ui-duration-panel: var(--motion-standard, 280ms);
   --ui-duration-enter: var(--motion-surface, 460ms);
   --ui-ease: var(--motion-ease-glide, cubic-bezier(.22, 1, .36, 1));
+  --ui-layer-navigation: 50;
+  --ui-layer-popover: 60;
+  --ui-layer-dialog: 100;
+}
+html[data-theme='light'] {
+  --ui-color-success: #286b43;
+  --ui-color-warning: #8d6300;
+  --ui-color-error: #b42d4a;
+}
+@media (prefers-reduced-motion: reduce) {
+  :root { --ui-duration: 0ms; --ui-duration-panel: 0ms; --ui-duration-enter: 0ms; }
 }

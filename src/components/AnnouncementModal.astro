@@ -8,11 +8,13 @@ type Announcement = {
   summary: string;
   html: string;
   draft?: boolean;
+  autoOpen?: boolean;
 };
 
-const { announcement, labels } = Astro.props as {
+const { announcement, labels, archiveHref } = Astro.props as {
   announcement?: Announcement;
-  labels: { open: string; close: string; heading: string; draft: string };
+  labels: { open: string; close: string; heading: string; draft: string; archive: string };
+  archiveHref: string;
 };
 
 if (!announcement) return;
@@ -20,7 +22,7 @@ if (!announcement) return;
 ---
 
 
-<div class="announcement-modal" data-announcement-modal data-announcement-id={announcement.id} data-announcement-draft={announcement.draft ? "true" : undefined} hidden>
+<div class="announcement-modal" data-announcement-modal data-announcement-id={announcement.id} data-announcement-draft={announcement.draft ? "true" : undefined} data-announcement-auto-open={announcement.autoOpen === false ? "false" : undefined} hidden>
   <button class="announcement-modal__scrim" type="button" data-announcement-close aria-label={labels.close}></button>
   <section id="announcement-modal-panel" class="announcement-modal__panel" role="dialog" aria-modal="true" aria-labelledby="announcement-modal-title" tabindex="-1">
     <div class="announcement-modal__topline">
@@ -34,6 +36,7 @@ if (!announcement) return;
       <article class="announcement-modal__content wiki-reader wiki-prose prose prose-invert max-w-none" set:html={announcement.html}></article>
     </div>
     <div class="announcement-modal__footer">
+      <a class="announcement-modal__archive" href={archiveHref}>{labels.archive} →</a>
       <button type="button" class="announcement-modal__button announcement-modal__button--primary" data-announcement-close>{labels.close}</button>
     </div>
   </section>
@@ -45,6 +48,7 @@ if (!announcement) return;
   const closeButtons = modal?.querySelectorAll('[data-announcement-close]') ?? [];
   const announcementId = modal instanceof HTMLElement ? modal.dataset.announcementId ?? '' : '';
   const isDraft = modal instanceof HTMLElement && modal.dataset.announcementDraft === 'true';
+  const autoOpen = modal instanceof HTMLElement && modal.dataset.announcementAutoOpen !== 'false';
   const storageKey = isDraft
     ? 'kamitsubaki-wiki-announcement-preview-seen'
     : 'kamitsubaki-wiki-announcement-seen';
@@ -85,7 +89,7 @@ if (!announcement) return;
     }, prefersReducedMotion ? 0 : 380);
   };
 
-  if (!hasSeenAnnouncement && modal instanceof HTMLElement) {
+  if (autoOpen && !hasSeenAnnouncement && modal instanceof HTMLElement) {
     autoOpenTimer = window.setTimeout(openModal, 450);
   }
 

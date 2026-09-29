@@ -42,9 +42,9 @@ const featuredAnnouncement = await renderAnnouncement(selectFeaturedAnnouncement
   includeDrafts: import.meta.env.DEV,
 }));
 const announcementModalLabels = resolveLocaleCopy({
-  zh: { open: '查看重要公告', close: '知道了', heading: '站点公告', draft: '公告预览 · 尚未发布' },
-  ja: { open: '重要なお知らせを表示', close: '閉じる', heading: 'サイトのお知らせ', draft: 'プレビュー · 未公開' },
-  en: { open: 'View important notice', close: 'Close', heading: 'Site announcement', draft: 'Preview · Unpublished' },
+  zh: { open: '查看重要公告', close: '知道了', heading: '站点公告', draft: '公告预览 · 尚未发布', archive:'浏览公告历史' },
+  ja: { open: '重要なお知らせを表示', close: '閉じる', heading: 'サイトのお知らせ', draft: 'プレビュー · 未公開', archive:'過去のお知らせ' },
+  en: { open: 'View important notice', close: 'Close', heading: 'Site announcement', draft: 'Preview · Unpublished', archive:'Browse the archive' },
 }, locale);
 const localeLinks = buildLocaleLinks(homeContent, locale);
 const alternates = supportedLocales.map((localeCode) => ({
@@ -58,7 +58,7 @@ const metadata = buildHomeMetadata(homeContent, locale);
   <Fragment slot="tools">{featuredAnnouncement && <AnnouncementLauncher labels={announcementModalLabels} />}</Fragment>
   <div data-page-context-root>
     <HomeSiteNav navItems={homeContent.navItems} localeLinks={localeLinks} brandLines={homeContent.hero.brandLines} homeHref={`/${locale}/`} />
-    <AnnouncementModal announcement={featuredAnnouncement} labels={announcementModalLabels} />
+    <AnnouncementModal announcement={featuredAnnouncement} labels={announcementModalLabels} archiveHref={`/${locale}/announcements/`} />
     <Hero hero={homeContent.hero} />
     <HomeDirectory locale={locale} section={homeContent.sections.database}/>
     <HomeMusicSection songs={songs} albums={albums} sections={homeContent.sections} locale={locale}/>
