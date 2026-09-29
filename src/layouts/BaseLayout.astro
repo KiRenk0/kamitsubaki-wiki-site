@@ -16,6 +16,7 @@ import {
 } from '../lib/i18n.mjs';
 import { absoluteUrl, buildSearchAlternates, buildPageStructuredData, serializeStructuredData } from '../lib/searchMetadata.mjs';
 import { getLocalizedSite } from '../lib/homeData.mjs';
+import { uiTokensVersion } from '../lib/uiTokensVersion.mjs';
 import '../styles/global.css';
 import '../styles/quietChrome.css';
 import '../styles/interface.css';
@@ -157,7 +158,7 @@ const fontStylesheet = getLocaleFontStylesheet(lang).replace('display=optional',
         document.documentElement.classList.add('has-js');
       })();
     </script>
-    <link rel="stylesheet" href="/ui-tokens.css" />
+    <link rel="stylesheet" href={`/ui-tokens.css?v=${uiTokensVersion}`} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{pageTitle}</title>
     <link rel="icon" type="image/svg+xml" href="/brand/kamitsubakiwiki-square.svg" />
