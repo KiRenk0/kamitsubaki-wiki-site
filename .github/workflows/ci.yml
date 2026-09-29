@@ -29,6 +29,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Check shared UI tokens
+        run: pnpm ui:tokens:check
+
       - name: Run tests
         run: pnpm test
 
@@ -45,6 +48,9 @@ jobs:
         run: pnpm lyrics:timestamps:audit -- --strict
 
       - name: Build static site
+        env:
+          PUBLIC_EDITOR_ENABLED: 'true'
+          PUBLIC_EDITOR_API_BASE: https://api.kamitsubaki.wiki
         run: pnpm build
 
       - name: Check generated internal links
