@@ -13,7 +13,6 @@ export const localeProfiles = Object.freeze({
     navShortLabel: '中',
     dropdownLabel: '简体中文',
     sourceLocale: null,
-    fontStylesheet: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=optional',
   }),
   'zh-tw': Object.freeze({
     code: 'zh-tw',
@@ -24,7 +23,6 @@ export const localeProfiles = Object.freeze({
     dropdownLabel: '繁（台）',
     sourceLocale: 'zh',
     openccTarget: 'twp',
-    fontStylesheet: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Noto+Sans+TC:wght@300;400;500;600;700&family=Noto+Serif+TC:wght@300;400;500;600;700&display=optional',
   }),
   'zh-hk': Object.freeze({
     code: 'zh-hk',
@@ -35,7 +33,6 @@ export const localeProfiles = Object.freeze({
     dropdownLabel: '繁（港）',
     sourceLocale: 'zh',
     openccTarget: 'hkp',
-    fontStylesheet: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Noto+Sans+TC:wght@300;400;500;600;700&family=Noto+Serif+TC:wght@300;400;500;600;700&display=optional',
   }),
   ja: Object.freeze({
     code: 'ja',
@@ -44,7 +41,6 @@ export const localeProfiles = Object.freeze({
     shortLabel: '日语',
     navShortLabel: '日',
     sourceLocale: null,
-    fontStylesheet: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;600;700&family=Shippori+Mincho:wght@400;500;600;700&display=optional',
   }),
   en: Object.freeze({
     code: 'en',
@@ -53,7 +49,6 @@ export const localeProfiles = Object.freeze({
     shortLabel: 'ENG',
     navShortLabel: 'EN',
     sourceLocale: null,
-    fontStylesheet: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Shippori+Mincho:wght@400;500;600;700&display=optional',
   }),
 });
 
@@ -90,10 +85,6 @@ export function getLocaleSource(locale) {
 
 export function getEditableLocale(locale) {
   return isTraditionalChineseLocale(locale) ? defaultLocale : locale;
-}
-
-export function getLocaleFontStylesheet(locale) {
-  return getLocaleProfile(locale).fontStylesheet;
 }
 
 export function resolveLocaleCopy(copyByLocale, locale, fallbackLocale = 'en') {

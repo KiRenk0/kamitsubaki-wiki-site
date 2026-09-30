@@ -40,4 +40,6 @@ The [site timeline](/en/chronicle/?scope=site) gives each site announcement an u
 
 [My Space](/en/account/) and the Creator Center distinguish local drafts, saved drafts, items needing attention, reviews in progress, items awaiting site publication, and public work. The [documentation center](/en/docs/) explains both the on-site editor and GitHub paths, including preparation, saving, submission, review, and common problems.
 
+Photo submissions now show a clear receipt and progress state; review comments appear beside the relevant contribution or photo. You can withdraw work that is not public and delete drafts or withdrawn submissions you no longer need. Reviewers can compare changed fields and article text directly in the administration interface.
+
 Menus, readers, and the administration interface have also been brought into the same design. If you find a missing image credit or an incorrect date, please send the page and a verifiable source through the site's contact entry.

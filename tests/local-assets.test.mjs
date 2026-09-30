@@ -9,26 +9,18 @@ test('layout does not depend on Tailwind CDN at runtime', async () => {
   assert.equal(layout.includes('tailwind.config'), false);
 });
 
-test('localized typography uses complete real weights without synthetic bold', async () => {
-  const [layout, i18n] = await Promise.all([
-    readFile(new URL('../src/layouts/BaseLayout.astro', import.meta.url), 'utf8'),
-    readFile(new URL('../src/lib/i18n.mjs', import.meta.url), 'utf8'),
-  ]);
+test('localized typography is bundled locally for every language', async () => {
+  const layout = await readFile(new URL('../src/layouts/BaseLayout.astro', import.meta.url), 'utf8');
   const stylesheet = await readFile(new URL('../src/styles/global.css', import.meta.url), 'utf8');
 
-  for (const family of ['Noto+Sans+SC:wght@300;400;500;600;700', 'Noto+Sans+TC:wght@300;400;500;600;700', 'Noto+Serif+TC:wght@300;400;500;600;700', 'Noto+Sans+JP:wght@300;400;500;600;700', 'Montserrat:wght@100;200;300;400;500;600;700']) {
-    assert.equal(i18n.includes(family), true);
+  for (const family of ['montserrat', 'noto-sans-sc', 'noto-serif-sc', 'noto-sans-tc', 'noto-serif-tc', 'noto-sans-jp', 'noto-serif-jp']) {
+    assert.match(stylesheet, new RegExp(`@import "@fontsource-variable/${family}"`));
   }
-  assert.match(i18n, /display=optional/);
-  assert.match(layout, /getLocaleFontStylesheet\(lang\)/);
-  assert.match(stylesheet, /:lang\(zh\)[\s\S]*Noto Sans SC/);
-  assert.match(stylesheet, /:lang\(zh-Hant\)[\s\S]*Noto Sans TC/);
-  assert.match(stylesheet, /:lang\(ja\)[\s\S]*Noto Sans JP/);
-  assert.match(stylesheet, /:lang\(en\)[\s\S]*Montserrat/);
-  assert.match(stylesheet, /:lang\(zh\)\s*\{\s*--font-sans:\s*Montserrat,\s*"Noto Sans SC"/);
-  assert.match(stylesheet, /:lang\(zh-Hant\)\s*\{\s*--font-sans:\s*Montserrat,\s*"Noto Sans TC"/);
+  assert.doesNotMatch(layout, /fonts\.googleapis\.com|fonts\.gstatic\.com/);
+  assert.match(stylesheet, /:lang\(zh\)\s*\{\s*--font-sans:\s*"Montserrat Variable",\s*"Noto Sans SC Variable"/);
+  assert.match(stylesheet, /:lang\(zh-Hant\)\s*\{\s*--font-sans:\s*"Montserrat Variable",\s*"Noto Sans TC Variable"/);
   assert.match(stylesheet, /html:lang\(zh-Hant-TW\),\s*\nhtml:lang\(zh-Hant-HK\)/);
-  assert.match(stylesheet, /:lang\(ja\)\s*\{\s*--font-sans:\s*Montserrat,\s*"Noto Sans JP"/);
+  assert.match(stylesheet, /:lang\(ja\)\s*\{\s*--font-sans:\s*"Montserrat Variable",\s*"Noto Sans JP Variable"/);
   assert.match(stylesheet, /font-synthesis:\s*none/);
   assert.match(stylesheet, /b,\s*\nstrong\s*\{\s*\n\s*font-weight:\s*600/);
 });

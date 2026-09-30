@@ -20,6 +20,7 @@ After an entry, article, or gallery submission succeeds, stay on the page long e
 | Image staged | File is in private staging; the set still needs submission. |
 | Pending / in review | A maintainer has not approved it; avoid duplicate proposals. |
 | Returned | Read the note, correct the work, and resubmit. |
+| Withdrawn | The contributor ended an unapproved proposal; any earlier public version remains readable. |
 | Partially approved | Gallery review may approve only some images; inspect each result. |
 | Approved, awaiting publication | Review is recorded, but the gallery has not synchronized the public images yet. Keep the record; a maintainer can retry publication. |
 | Partially public | Some images are public while others remain pending, returned, or awaiting synchronization. Open the set for image-level results. |
@@ -27,11 +28,11 @@ After an entry, article, or gallery submission succeeds, stay on the page long e
 | Hidden | The content is no longer listed publicly; check the record or ask a maintainer why. |
 | Public | The public entry, article, or gallery page can serve it. |
 
-In Creator Center, you can choose **Delete draft** for your own unsubmitted local or cloud draft. Confirming cannot be undone; private staged files in a gallery draft are also cleared. Submitted, returned, and published records are not draft deletions. A maintainer can move a published article, photo, or set to the recycle bin and then permanently delete it there. Deleting a set retains its photos as hidden independent records.
+In Creator Center, you can choose **Delete draft** for your own unsubmitted local or cloud draft. Confirming cannot be undone; private staged files in a gallery draft are also cleared. You can **Withdraw submission** from the detail of an entry, timeline event, article, or gallery batch that is still under review or was returned. Entry and timeline withdrawal requests closure of the GitHub PR; the record remains available. An article or gallery batch with no approved or public content can be permanently deleted after withdrawal, including its private staged photos. Any already approved or public photo remains intact. Maintainers can move public content to the recycle bin and permanently remove it according to their permissions.
 
 ## Revise and recover
 
-Open the record and use Continue editing or Revise and resubmit. A returned gallery image can be corrected without reuploading approved files. A new article revision does not replace the still-public old version while pending. After a network failure, check Creator Center for the receipt or record before retrying. If sign-in expires, sign in again and verify local content. On a version conflict, reload the latest version and merge deliberately rather than overwriting another person's reviewed changes.
+Open the record and use Continue editing or Revise and resubmit. Review notes are displayed prominently. A returned gallery image can be corrected without reuploading approved files. A new article revision does not replace the still-public old version while pending. The photo submit button shows progress and then a receipt when the server accepts the batch. After a network failure, check Creator Center for the record before retrying. If sign-in expires, sign in again and verify local content. On a version conflict, reload the latest version and merge deliberately rather than overwriting another person's reviewed changes.
 
 ## Completion differs by submission type
 

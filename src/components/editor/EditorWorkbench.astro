@@ -27,7 +27,7 @@ const icons = {
   insert: 'M12 4v16M4 12h16',
 };
 ---
-<BaseLayout lang={locale} reading fontDisplay="swap" title={copy.workbench} metadata={{noindex:true}}>
+<BaseLayout lang={locale} reading title={copy.workbench} metadata={{noindex:true}}>
   {!articleMode&&<script is:inline>
  const articleQuery=new URLSearchParams(location.search);const articleTarget=articleQuery.get('target')||'';
  if(articleQuery.get('new')==='articles'||articleTarget.startsWith('src/content/articles/')){

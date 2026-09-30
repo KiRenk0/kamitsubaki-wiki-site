@@ -6,10 +6,17 @@
 @source "../scripts";
 @plugin "@tailwindcss/typography";
 @import "katex/dist/katex.min.css";
+@import "@fontsource-variable/montserrat";
+@import "@fontsource-variable/noto-sans-sc";
+@import "@fontsource-variable/noto-serif-sc";
+@import "@fontsource-variable/noto-sans-tc";
+@import "@fontsource-variable/noto-serif-tc";
+@import "@fontsource-variable/noto-sans-jp";
+@import "@fontsource-variable/noto-serif-jp";
 
 @theme {
-  --font-sans: Montserrat, "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", system-ui, sans-serif;
-  --font-serif: "Noto Serif SC", "Songti SC", STSong, SimSun, serif;
+  --font-sans: "Montserrat Variable", "Noto Sans SC Variable", "PingFang SC", system-ui, sans-serif;
+  --font-serif: "Noto Serif SC Variable", "Songti SC", STSong, serif;
   --font-mono: SFMono-Regular, Consolas, "Liberation Mono", "Courier New", "Noto Sans SC", "PingFang SC", monospace;
   --color-kamiblack: #0a0a0a;
   --color-kamigray: #1f1f1f;
@@ -101,28 +108,28 @@ html[data-theme='light'] [class*='text-amber-'] {
 }
 
 :lang(zh) {
-  --font-sans: Montserrat, "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", system-ui, sans-serif;
-  --font-serif: "Noto Serif SC", "Songti SC", STSong, SimSun, serif;
+  --font-sans: "Montserrat Variable", "Noto Sans SC Variable", "PingFang SC", system-ui, sans-serif;
+  --font-serif: "Noto Serif SC Variable", "Songti SC", STSong, serif;
   --font-mono: SFMono-Regular, Consolas, "Liberation Mono", "Courier New", "Noto Sans SC", "PingFang SC", monospace;
 }
 
 html:lang(zh-Hant-TW),
 html:lang(zh-Hant-HK),
 :lang(zh-Hant) {
-  --font-sans: Montserrat, "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif;
-  --font-serif: "Noto Serif TC", "Songti TC", "PMingLiU", serif;
+  --font-sans: "Montserrat Variable", "Noto Sans TC Variable", "PingFang TC", system-ui, sans-serif;
+  --font-serif: "Noto Serif TC Variable", "Songti TC", serif;
   --font-mono: SFMono-Regular, Consolas, "Liberation Mono", "Courier New", "Noto Sans TC", "PingFang TC", monospace;
 }
 
 :lang(ja) {
-  --font-sans: Montserrat, "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, system-ui, sans-serif;
-  --font-serif: "Shippori Mincho", "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, serif;
+  --font-sans: "Montserrat Variable", "Noto Sans JP Variable", "Hiragino Kaku Gothic ProN", system-ui, sans-serif;
+  --font-serif: "Noto Serif JP Variable", "Hiragino Mincho ProN", "Yu Mincho", serif;
   --font-mono: SFMono-Regular, Consolas, "Liberation Mono", "Courier New", "Noto Sans JP", "Hiragino Kaku Gothic ProN", monospace;
 }
 
 :lang(en) {
-  --font-sans: Montserrat, Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-  --font-serif: "Shippori Mincho", "Iowan Old Style", Baskerville, "Times New Roman", serif;
+  --font-sans: "Montserrat Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  --font-serif: "Noto Serif JP Variable", "Iowan Old Style", Baskerville, serif;
   --font-mono: SFMono-Regular, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
