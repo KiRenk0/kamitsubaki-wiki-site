@@ -87,7 +87,6 @@ const text = {
   toolbarRight: ['向右移动工具栏', 'Scroll toolbar right', 'ツールバーを右にスクロール'],
   blockProperties: ['内容块属性', 'Block properties', 'ブロックのプロパティ'],
   entryProperties: ['词条属性', 'Article properties', '記事のプロパティ'],
-  propertiesHint: ['摘要、分类、排序等资料，提交前记得检查。', 'Review the summary, category and order before submitting.', '送信前に概要・分類・表示順などを確認してください。'],
   kind: ['词条类型', 'Article type', '記事の種類'],
   locale: ['内容语言', 'Content language', '本文の言語'],
   path: ['GitHub 文件路径（可选）', 'GitHub file path (optional)', 'GitHub ファイルパス（任意）'],
@@ -125,7 +124,7 @@ const text = {
   original: ['原文', 'Original text', '原文'], detailTitle: ['折叠标题', 'Disclosure title', '折りたたみの見出し'],
   loadOriginal: ['请先导入此文件的完整原文', 'Import the complete original file first', '先にファイルの原文全体を読み込んでください'],
 };
-const kinds = { artists: ['艺人 / 角色','Artist / character','アーティスト / キャラクター'], songs: ['歌曲','Song','楽曲'], albums: ['专辑','Album','アルバム'], projects: ['企划','Project','企画'], logs: ['活动记录','Event record','活動記録'] };
+const kinds = { people:['人物与艺人','People & artists','人物・アーティスト'],units:['演艺组合','Groups','グループ'],isotopes:['音乐同位体','Musical isotopes','音楽的同位体'],releases:['音乐发行','Releases','リリース'],lives:['演出与活动','Live events','公演・イベント'],organizations:['组织与厂牌','Organizations','組織・レーベル'],lore:['世界观与术语','Lore & terminology','世界観・用語'],articles:['文章','Editorial articles','記事'], artists: ['艺人 / 角色','Artist / character','アーティスト / キャラクター'], songs: ['歌曲','Song','楽曲'], albums: ['专辑','Album','アルバム'], projects: ['企划','Project','企画'], logs: ['活动记录','Event record','活動記録'] };
 const blocks = { inline: ['行内特殊格式','Special inline formatting','特殊なインライン書式'], 'media-switcher':['多平台媒体切换','Media switcher','メディア切替'],code:['代码块','Code block','コードブロック'],math:['数学公式','Math equation','数式'], paragraph: ['段落','Paragraph','段落'], heading: ['章节标题','Heading','見出し'], list: ['列表','List','リスト'], quote: ['引用','Quote','引用'], image: ['图片','Image','画像'], table: ['表格','Table','表'], media: ['媒体播放','Media','メディア'], ruby: ['文字注音','Ruby text','ルビ'], details: ['折叠内容','Disclosure','折りたたみ'], lyrics: ['双语歌词','Bilingual lyrics','対訳歌詞'], divider: ['分隔线','Divider','区切り線'] };
 /**
  * @template {Record<string, string[]>} T

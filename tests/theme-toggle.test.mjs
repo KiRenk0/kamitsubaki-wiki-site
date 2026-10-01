@@ -40,7 +40,9 @@ test('theme preference defaults to system and offers localized light, dark, and 
   assert.match(languageSwitcher, /aria-current=\{item.current/);
   assert.match(languageSwitcher, /data-language-menu-trigger/);
   assert.match(languageSwitcher, /site-nav__language-chevron/);
-  assert.match(homeNav, /preferencesCopy.hint/);
+  assert.match(homeNav, /home-chrome__preference-row--language[\s\S]*preferencesCopy.language[\s\S]*CompactLanguageSwitcher/);
+  assert.match(homeNav, /home-chrome__preference-row[\s\S]*preferencesCopy.theme[\s\S]*site-nav__theme-switcher/);
+  assert.match(homeNav, /value: 'system'[\s\S]*value: 'dark'[\s\S]*value: 'light'/);
   assert.match(homePage, /import HomeSiteNav from/);
   assert.match(homePage, /<HomeSiteNav /);
   assert.doesNotMatch(homePage, /import SiteNav from|<SiteNav /);
@@ -49,9 +51,9 @@ test('theme preference defaults to system and offers localized light, dark, and 
   assert.doesNotMatch(styles, /\.site-nav__language-family:hover \.site-nav__language-menu/);
   assert.doesNotMatch(styles, /\.site-nav__language-family:focus-within \.site-nav__language-menu/);
   assert.match(styles, /\.site-nav__language-family\.is-open \.site-nav__language-menu/);
-  assert.match(script, /localStorage\.setItem\(storageKey, nextPreference\)/);
+  assert.match(script, /localStorage\.setItem\(themeStorageKey,preference\)/);
   assert.match(script, /aria-checked/);
-  assert.match(script, /systemThemeQuery\.addEventListener\('change', handleSystemThemeChange\)/);
+  assert.match(script, /media\.addEventListener\('change',\(\)=>apply\(\)\)/);
   assert.match(styles, /html\[data-theme='light'\]/);
   assert.match(styles, /--theme-bg: #ffffff/);
   assert.match(styles, /--color-white: var\(--theme-fg\)/);

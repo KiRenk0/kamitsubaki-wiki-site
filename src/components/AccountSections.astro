@@ -1,0 +1,18 @@
+---
+import {accountWorkspaceCopy} from '../lib/accountWorkspaceCopy.mjs';
+import {accountCopy} from '../lib/accountCopy.mjs';
+interface Props {locale:string; active?:'account'|'creator';}
+const {locale,active='account'}=Astro.props;
+const ui=accountWorkspaceCopy(locale),c=accountCopy(locale),base=`/${locale}/account/`;
+const groups=[
+  {label:locale==='en'?'WORKSPACE':locale==='ja'?'作業':'工作',items:[['overview',ui.overview],['creator',ui.creator]]},
+  {label:locale==='en'?'LIBRARY':locale==='ja'?'保存':'收藏',items:[['library',c.library]]},
+  {label:locale==='en'?'ACCOUNT':locale==='ja'?'アカウント':'账户',items:[['profile',c.profile],['security',ui.security],['appearance',ui.appearance]]},
+] as const;
+---
+<nav class="account-sections" aria-label={c.title}>
+  {groups.map(group=><div class="account-sections-group"><span class="account-sections-heading">{group.label}</span>{group.items.map(([key,label])=>{
+    const href=key==='creator'?`${base}creator/`:active==='creator'?`${base}#${key}`:`#${key}`;
+    return <a href={href} data-account-label={label} aria-current={key==='creator'&&active==='creator'?'page':key==='overview'&&active==='account'?'location':undefined}>{label}{key==='creator'&&<b data-creator-unread hidden></b>}</a>;
+  })}</div>)}
+</nav>

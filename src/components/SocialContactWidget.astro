@@ -54,7 +54,7 @@ const items = copy.items
 
 {copy.enabled !== false && items.length > 0 && (
   <aside class="social-contact" id="social-contact" data-social-contact lang={languageTag}>
-    <div class="social-contact__panel" id="social-contact-panel" data-social-contact-panel hidden>
+    <div class="social-contact__panel" id="social-contact-panel" data-social-contact-panel role="dialog" aria-label={copy.title} hidden>
       <div class="social-contact__head">
         <div>
           <p>{copy.eyebrow}</p>
@@ -71,7 +71,7 @@ const items = copy.items
         {items.map((item) => {
           const icon = iconPaths[item.icon ?? 'link'] ?? iconPaths.link;
           return (
-            <a class:list={['social-contact__link', { 'is-featured': item.featured }]} href={item.href} target={item.href.startsWith('http') ? '_blank' : undefined} rel={item.href.startsWith('http') ? 'noreferrer' : undefined}>
+            <a class:list={['social-contact__link', { 'is-featured': item.featured }]} href={item.href} aria-label={[item.label, item.handle || item.description].filter(Boolean).join(' · ')} target={item.href.startsWith('http') ? '_blank' : undefined} rel={item.href.startsWith('http') ? 'noreferrer' : undefined}>
               <span class="social-contact__icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none">
                   {icon.map((path) => <path d={path} />)}
@@ -98,6 +98,7 @@ const items = copy.items
       <svg viewBox="0 0 24 24" aria-hidden="true">
         <path d="M7 10.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7ZM17 20.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7ZM9.9 8.6l4.2 6.8" />
       </svg>
+    <strong>{copy.buttonLabel}</strong>
     </button>
   </aside>
 )}

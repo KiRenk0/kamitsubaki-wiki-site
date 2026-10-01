@@ -6,8 +6,9 @@ type: "SITE UPDATE"
 title: "V2.4.0: A refreshed reading and interaction experience"
 summary: "Shared navigation and motion across the contribution hub, My space and LABs, with blurred cover backgrounds and clearer editing guidance."
 order: -7
-pinned: true
+pinned: false
 draft: false
+autoOpen: false
 ---
 **V2.4.0 brings a more consistent experience to reading, exploring and contributing.**
 

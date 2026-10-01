@@ -3,7 +3,7 @@ export function safeLibraryPath(value) {
   if (typeof value !== 'string' || /[\\\s\u0000-\u001f]/u.test(value))
     return null;
   if (
-    !/^\/(zh|zh-tw|zh-hk|ja|en)\/(artists|songs|albums|projects|logs)\/.+/.test(
+    !/^\/(zh|zh-tw|zh-hk|ja|en)\/(artists|songs|albums|projects|logs|database|articles|chronicle|gallery)\/.+/.test(
       value,
     )
   )
@@ -11,7 +11,7 @@ export function safeLibraryPath(value) {
   const parsed = new URL(value, 'https://library.invalid');
   if (
     parsed.origin !== 'https://library.invalid' ||
-    !/^\/(zh|zh-tw|zh-hk|ja|en)\/(artists|songs|albums|projects|logs)\/.+/.test(
+    !/^\/(zh|zh-tw|zh-hk|ja|en)\/(artists|songs|albums|projects|logs|database|articles|chronicle|gallery)\/.+/.test(
       parsed.pathname,
     )
   )

@@ -128,7 +128,7 @@ function initials(name: string) {
   data-has-overflow="false"
 >
   <script is:inline type="application/json" data-collaborators-copy set:html={JSON.stringify(copy).replaceAll('<', '\\u003c')} />
-  <p data-collaborators-status hidden role="status">{copy.offline} <button type="button" data-collaborators-retry>{copy.retry}</button></p>
+  <div class="manual-contributors__status" data-collaborators-status hidden role="status"><span>{copy.offline}</span><button class="context-action" type="button" data-collaborators-retry>{copy.retry}</button></div>
   <header class="manual-contributors__header">
     <div>
       <h3 id="manual-contributors-title">{copy.title}</h3>
@@ -376,6 +376,8 @@ function initials(name: string) {
 </script>
 
 <style>
+  .manual-contributors__status { display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px 16px;margin:0 0 18px;padding:10px 0;border-block:1px solid var(--ui-line);color:rgb(var(--theme-fg-rgb)/.72);font:12px/1.7 var(--font-sans); }
+  .manual-contributors__status[hidden] { display:none; }
   .manual-contributors {
     margin: 0 0 2rem;
     padding-top: 1.75rem;

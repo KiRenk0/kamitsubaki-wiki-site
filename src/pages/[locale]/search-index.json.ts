@@ -1,3 +1,4 @@
+import {buildEntityIndex} from '../../lib/entityIndex.mjs';
 import type { APIRoute } from 'astro';
 import { getBuildCollection as getCollection } from '../../lib/contentAuditContext';
 import { supportedLocales } from '../../lib/i18n.mjs';
@@ -33,15 +34,9 @@ function titleFor(entry: { data: Record<string, unknown> }) {
 // Body full-text keys live in search-body.json; this index stays lightweight.
 export const GET: APIRoute = async ({ params }) => {
   const locale = params.locale || 'zh';
-  const groups = await Promise.all([
-    getCollection('artists'),
-    getCollection('albums'),
-    getCollection('songs'),
-    getCollection('projects'),
-    getCollection('logs'),
-  ]);
-  const collectionNames = ['artists', 'albums', 'songs', 'projects', 'logs'];
-  const entries = [];
+  const groups = [await getCollection('logs')];
+  const collectionNames = ['logs'];
+  const entries = (await buildEntityIndex(locale)).map(({text,...entry})=>entry);
 
   for (const [groupIndex, group] of groups.entries()) {
     for (const entry of group) {
@@ -60,7 +55,7 @@ export const GET: APIRoute = async ({ params }) => {
         id: `${kind}:${entry.id}`,
         title,
         aliases,
-        path,
+        path, url:path, entityId:entry.id, translationKey:data.translationKey||entry.id, headings,
         locale,
         kind,
         description,

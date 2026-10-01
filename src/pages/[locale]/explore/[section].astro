@@ -1,0 +1,65 @@
+---
+import WorkspaceGroup from '../../../components/WorkspaceGroup.astro';
+import WorkspaceButton from '../../../components/WorkspaceButton.astro';
+import WorkspaceSection from '../../../components/WorkspaceSection.astro';
+import WorkspaceLinkCard from '../../../components/WorkspaceLinkCard.astro';
+import WorkspaceShell from '../../../components/WorkspaceShell.astro';
+import WorkspaceHeader from '../../../components/WorkspaceHeader.astro';
+import {getEntityRegistry} from '../../../lib/entityRegistry.mjs';
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import SiteNav from '../../../components/SiteNav.astro';
+import SiteFooter from '../../../components/SiteFooter.astro';
+import { getLocalizedSite, getLocalizedEntries } from '../../../lib/homeData.mjs';
+import { buildLocaleLinks, supportedLocales, resolveLocaleCopy } from '../../../lib/i18n.mjs';
+import { labsCopy, labsSections } from '../../../lib/labsCopy.mjs';
+import { labsWorlds } from '../../../data/labsWorlds.mjs';
+import '../../../styles/labs.css';
+import '../../../styles/observatoryWorkspaces.css';
+export function getStaticPaths() { return supportedLocales.flatMap((locale) => ['relations','world'].map((section) => ({ params: { locale, section } }))); }
+const { locale = 'zh', section = 'explore' } = Astro.params;
+const copy = labsCopy(locale);
+const site = getLocalizedSite(await getCollection('site'), locale);
+const current = labsSections.indexOf(section);
+const route = `/explore/${section}/`;
+const directoryCopy=resolveLocaleCopy({zh:{nav:'功能导航',groups:['查阅资料','发现关联','参与体验'],notes:['从文章、历史与视觉资料开始。','循着时间、人物与故事继续探索。','听歌、游玩，也留下自己的观测记录。'],back:'返回功能导航',title:'选择一种方式，继续观测。'},ja:{nav:'機能一覧',groups:['資料を読む','つながりを探す','体験する'],notes:['記事・歴史・設定資料を読む。','時間・人物・物語のつながりをたどる。','音楽・ゲームと自分の記録。'],back:'機能一覧へ',title:'次の観測を、ここから。'},en:{nav:'Discover',groups:['Read & browse','Explore connections','Listen & play'],notes:['Articles, history and visual references.','Follow people, dates and stories.','Music, games and your own observations.'],back:'Back to discover',title:'Choose your next observation.'}},locale);
+const featureGroups=[
+ [{path:'articles',title:locale==='en'?'Articles':locale==='ja'?'記事':'文章',description:locale==='en'?'Perspectives, research and community articles.':locale==='ja'?'視点・研究・みんなの記事。':'阅读观点、考据与社区文章。'},{path:'chronicle',title:locale==='en'?'Chronicle':locale==='ja'?'年代記':'纪元时间轴',description:locale==='en'?'Explore history across four connected tracks.':locale==='ja'?'四つの軌跡から歴史を読む。':'沿四条轨道阅读历史事件与纪元。'},{path:'gallery',title:locale==='en'?'Reference gallery':locale==='ja'?'設定資料':'设定图库',description:locale==='en'?'Character forms and visual sources.':locale==='ja'?'キャラクターの姿と視覚資料。':'按角色、形态查阅视觉资料与出处。'}],
+ [1,2,3].map(i=>({path:`labs/${labsSections[i]}`,title:copy.tabs[i],description:copy.descriptions[i]})),
+ [{path:'database/music/songs',title:copy.practice,description:copy.practiceIntro},{path:'games/memory-corridor',title:copy.game,description:copy.gameIntro}]
+];
+const registry=await getEntityRegistry();
+const projects = registry.list(locale).filter(e=>e.data.entityType==='project');
+---
+<BaseLayout lang={locale} title={`${copy.tabs[current]} · ${copy.title}`} metadata={{canonicalPath:`/${locale}${route}`}}>
+  <SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site, locale, route)} brandLines={site.hero.brandLines} homeHref={`/${locale}/`} />
+  <WorkspaceShell width="wide" class="labs-shell" data-labs-section={section} data-locale={locale}>
+    <WorkspaceHeader title={section==='explore'?copy.title:copy.tabs[current]} intro={section==='explore'?copy.intro:section==='relations'?copy.graphNote:section==='timeline'?copy.dateNote:copy.worldNote} eyebrow="EXPLORE" backHref={section==='explore'?`/${locale}/`:`/${locale}/explore/`} backLabel={section==='explore'?copy.home:directoryCopy.back}/>
+    <div class="labs-panels" data-labs-panels>
+    <WorkspaceSection title={directoryCopy.title} class="labs-panel" id="labs-panel-explore" data-labs-panel="explore" aria-label={directoryCopy.nav} tabindex="-1" hidden={section !== 'explore'}>
+      <div slot="actions" class="labs-actions"><WorkspaceButton data-search-open tone="primary">{copy.fullSearch}</WorkspaceButton><WorkspaceButton data-random-discovery>{copy.random} ↗</WorkspaceButton></div>
+      <div class="workspace-group-grid">{featureGroups.map((items,i)=><WorkspaceGroup index={String(i+1).padStart(2,'0')} title={directoryCopy.groups[i]} description={directoryCopy.notes[i]}>{items.map(item=><WorkspaceLinkCard href={`/${locale}/${item.path}/`} title={item.title} description={item.description}/>)}</WorkspaceGroup>)}</div>
+    </WorkspaceSection>
+    <section class="labs-panel" id="labs-panel-timeline" data-labs-panel="timeline" aria-label={copy.tabs[1]} hidden={section !== 'timeline'}>
+
+      <div class="labs-toolbar"><label><span>{copy.search}</span><input type="search" data-query placeholder="花谱 / KAF / V.W.P" /></label><label><span>{copy.kind}</span><select data-kind><option value="">{copy.all}</option>{['events','person','virtual-avatar','unit','software-voice','work-track','work-release','project','organization','live-event','lore-concept','editorial-article'].map(k => <option value={k}>{copy.kinds[k]}</option>)}</select></label><label><span>{copy.year}</span><select data-year><option value="">{copy.all}</option></select></label><label><span>{copy.order}</span><select data-order><option value="desc">{copy.newest}</option><option value="asc">{copy.oldest}</option></select></label><button data-reset>{copy.reset}</button></div>
+      <div class="labs-status" role="status" data-status>{copy.loading}</div><div class="labs-results" data-results></div><button data-more hidden>{copy.more}</button>
+    </section>
+    <section class="labs-panel" id="labs-panel-relations" data-labs-panel="relations" aria-label={copy.tabs[2]} hidden={section !== 'relations'}>
+      <label><span>{copy.choose}</span><input data-query type="search" placeholder="花谱 / KAF / V.W.P" /></label>
+      <div class="labs-status" role="status" data-status>{copy.loading}</div><div class="labs-pick-list" data-picks></div>
+      <div class="labs-graph-layout"><svg class="labs-graph" viewBox="0 0 700 460" role="group" aria-label={copy.tabs[2]} data-graph></svg><aside class="labs-graph-detail" data-detail></aside></div>
+      <h2 style="margin-top:32px">{copy.related}</h2><div class="labs-results" data-results></div><button data-more hidden>{copy.more}</button>
+    </section>
+    <section class="labs-panel" id="labs-panel-world" data-labs-panel="world" aria-label={copy.tabs[3]} hidden={section !== 'world'}>
+
+      {labsWorlds.map((world, i) => <section class="labs-world-route"><small>{String(i+1).padStart(2,'0')} / {world.kind} · {world.date}</small><h2>{world.title}</h2><p>{resolveLocaleCopy(world.copy, locale)}</p><details><summary>{copy.spoiler}</summary><p>{resolveLocaleCopy(world.spoiler, locale)}</p></details><div class="labs-actions"><a class="labs-button" href={world.source} target="_blank" rel="noopener noreferrer">{copy.source} ↗</a>{world.entity && registry.resolveEntity(world.entity,locale) && <a class="labs-button" href={registry.resolveEntityUrl(world.entity,locale)}>{copy.open}</a>}</div></section>)}
+      <h2 style="margin-top:40px">{copy.projects}</h2>{projects.map(p => <div class="labs-row"><div class="labs-row-body"><h3><a href={p.url}>{p.data.title}</a></h3><p>{p.data.summary || copy.projects}</p></div></div>)}
+    </section>
+    </div>
+    <noscript><p>{copy.failure} JavaScript is required for the interactive Labs tools.</p></noscript>
+    <script is:inline type="application/json" data-labs-copy set:html={JSON.stringify(copy).replace(/</g,'\\u003c')} />
+  </WorkspaceShell>
+  <SiteFooter footer={site.footer} />
+  <script>import '../../../scripts/labsTabs.js';</script>
+</BaseLayout>

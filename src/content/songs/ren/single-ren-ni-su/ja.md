@@ -1,0 +1,31 @@
+---
+locale: "ja"
+title: "冬月、凜然に帰す。"
+duration: "02:58"
+releaseDate: "2026-01-02"
+schemaVersion: 2
+id: "single-ren-ni-su"
+aliases: []
+presentation:
+  image: "/images/songs/ren/冬月,凜然ni帰su.jpg"
+  badge: "single-冬月,凜然ni帰su"
+  sortOrder: 1
+relations: []
+entityType: "work-track"
+romanizedTitle: "冬月、凜然に帰す。"
+performers:
+  - entity: "ren"
+    role: "lead-vocal"
+credits: []
+---
+
+## 作品概要
+
+廉が2026-01-02にリリースしたシングル「冬月、凜然に帰す。」。
+
+## 視聴
+@[apple-music](https://music.apple.com/jp/album/%E5%86%AC%E6%9C%88-%E5%87%9C%E7%84%B6%E3%81%AB%E5%B8%B0%E3%81%99/1562280783?i=1562280784&uo=4 "冬月、凜然に帰す。")
+
+## 歌詞
+
+

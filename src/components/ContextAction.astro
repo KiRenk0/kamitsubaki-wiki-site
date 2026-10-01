@@ -1,0 +1,23 @@
+---
+import type { HTMLAttributes } from 'astro/types';
+
+interface Props extends HTMLAttributes<'a'> {
+  href?: string;
+  tone?: 'primary' | 'secondary' | 'quiet';
+  layout?: 'inline' | 'row';
+  direction?: 'forward' | 'none';
+}
+
+const {
+  href,
+  tone = 'secondary',
+  layout = 'inline',
+  direction = 'forward',
+  class: className,
+  ...attributes
+} = Astro.props;
+---
+<a {...attributes} href={href} class:list={['context-action', className]} data-tone={tone} data-layout={layout}>
+  <span class="context-action__label"><slot /></span>
+  {direction === 'forward' && <span class="context-action__arrow" aria-hidden="true">↗</span>}
+</a>

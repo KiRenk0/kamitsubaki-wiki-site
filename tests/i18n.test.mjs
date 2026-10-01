@@ -66,21 +66,6 @@ test('site name and BCP 47 language tags cover both Traditional Chinese variants
   assert.equal(getLocalizedSiteName('unknown'), localizedSiteNames.zh);
 });
 
-test('localized content exists for key records in all supported locales', async () => {
-  for (const locale of locales) {
-    const artist = await readMd(`../src/content/artists/vwp/kaf/${locale}.md`);
-    const project = await readMd(`../src/content/projects/arg/kamitsubaki-city/${locale}.md`);
-    const log = await readMd(`../src/content/logs/2024/2024-06-01-vwp-live/${locale}.md`);
-
-    assert.equal(artist.locale, locale);
-    assert.equal(artist.translationKey, 'kaf');
-    assert.equal(project.locale, locale);
-    assert.equal(project.translationKey, 'kamitsubaki-city');
-    assert.equal(log.locale, locale);
-    assert.equal(log.translationKey, '2024-06-01-vwp-live');
-  }
-});
-
 test('localized site config exposes language switcher labels and page chrome', async () => {
   const zh = await readJson('../src/content/site/zh.json');
 

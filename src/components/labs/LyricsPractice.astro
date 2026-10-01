@@ -1,5 +1,6 @@
 ---
 import { resolveLocaleCopy } from '../../lib/i18n.mjs';
+import ContextAction from '../ContextAction.astro';
 import '../../styles/personalTools.css';
 import { personalToolsCopy } from '../../lib/personalToolsCopy.mjs';
 const { locale = 'zh', sourceLinks = [] } = Astro.props as { locale?: string; sourceLinks?: { label: string; href: string }[] };
@@ -27,7 +28,7 @@ const copy = { ...c, ...personalToolsCopy(locale) };
     </div>
     <p class="personal-note" data-practice-empty>{c.empty}</p>
     <div class="personal-feedback" role="status"><span data-practice-status></span><button type="button" data-practice-undo hidden>{copy.undo}</button></div>
-    <details class="personal-disclosure practice-sources"><summary>{c.source}</summary><p class="personal-note">{c.sourceNote}</p>{sourceLinks.length ? <ul>{sourceLinks.map(s=><li><a href={s.href} target="_blank" rel="noopener noreferrer">{s.label} ↗</a></li>)}</ul> : <p class="personal-note">{c.missing}</p>}<a href={`/${locale}/labs/submit/`}>{c.contribute} →</a></details>
+    <details class="personal-disclosure practice-sources"><summary>{c.source}</summary><p class="personal-note">{c.sourceNote}</p>{sourceLinks.length ? <ul>{sourceLinks.map(s=><li><a href={s.href} target="_blank" rel="noopener noreferrer">{s.label} ↗</a></li>)}</ul> : <p class="personal-note">{c.missing}</p>}<ContextAction href={`/${locale}/contribute/`}>{c.contribute}</ContextAction></details>
   </div>
   <script is:inline type="application/json" data-practice-copy set:html={JSON.stringify(copy).replace(/</g,'\\u003c')} />
 </details>

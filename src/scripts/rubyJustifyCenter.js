@@ -7,25 +7,17 @@ const findVisibleRt = (ruby) => {
   return null;
 };
 
-const measureAndPad = (ruby) => {
-  ruby.style.paddingInlineStart = '';
-  ruby.style.paddingInlineEnd = '';
-
-  const rt = findVisibleRt(ruby);
-  if (!rt) return;
-
-  const rubyRect = ruby.getBoundingClientRect();
-  const rtRect = rt.getBoundingClientRect();
-  const padL = Math.max(0, rubyRect.left - rtRect.left);
-  const padR = Math.max(0, rtRect.right - rubyRect.right);
-  if (padL < 0.5 && padR < 0.5) return;
-
-  ruby.style.paddingInlineStart = padL.toFixed(2) + 'px';
-  ruby.style.paddingInlineEnd = padR.toFixed(2) + 'px';
-};
-
+// Batch writes and reads: long lyric pages must not force layout for every ruby.
+let scheduled=false;
 const runAll = () => {
-  document.querySelectorAll(SELECTOR).forEach(measureAndPad);
+ if(scheduled)return;scheduled=true;
+ requestAnimationFrame(()=>{
+  scheduled=false;
+  const rubies=[...document.querySelectorAll(SELECTOR)];
+  rubies.forEach(r=>{r.style.paddingInlineStart='';r.style.paddingInlineEnd='';});
+  const pads=rubies.map(ruby=>{const rt=findVisibleRt(ruby);if(!rt)return null;const a=ruby.getBoundingClientRect(),b=rt.getBoundingClientRect();return {ruby,left:Math.max(0,a.left-b.left),right:Math.max(0,b.right-a.right)};});
+  pads.forEach(p=>{if(p&&(p.left>=.5||p.right>=.5)){p.ruby.style.paddingInlineStart=p.left.toFixed(2)+'px';p.ruby.style.paddingInlineEnd=p.right.toFixed(2)+'px';}});
+ });
 };
 
 const observeContainers = () => {

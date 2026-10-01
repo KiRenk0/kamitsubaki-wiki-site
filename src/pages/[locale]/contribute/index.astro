@@ -1,82 +1,20 @@
 ---
-import WorkspaceHeader from '../../../components/WorkspaceHeader.astro';
-import WorkspaceNavigation from '../../../components/WorkspaceNavigation.astro';
-import { getBuildCollection as getCollection } from '../../../lib/contentAuditContext';
-import BaseLayout from '../../../layouts/BaseLayout.astro';
-import SiteNav from '../../../components/SiteNav.astro';
-import Reader from '../../../components/Reader.astro';
-import SiteFooter from '../../../components/SiteFooter.astro';
-import {getLocalizedSite} from '../../../lib/homeData.mjs';
-import {supportedLocales,buildLocaleLinks,resolveLocaleCopy} from '../../../lib/i18n.mjs';
-import {contributionHub,hubDocuments,hubOverview} from '../../../lib/contributionHub.mjs';
-import {editorGuide} from '../../../lib/editorGuide.mjs';
-import {renderMarkdownDocument} from '../../../lib/markdown.mjs';
-import {renderContentEntry} from '../../../lib/contentSource.mjs';
-import filesZh from '../../../../docs/files-and-images.md?raw';
-import filesEn from '../../../../docs/files-and-images.en.md?raw';
-import filesJa from '../../../../docs/files-and-images.ja.md?raw';
-import licenseZh from '../../../../docs/licensing.md?raw';
-import licenseEn from '../../../../docs/licensing.en.md?raw';
-import licenseJa from '../../../../docs/licensing.ja.md?raw';
-import '../../../styles/labs.css';
-import '../../../styles/contributionGuide.css';
+import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
+import WorkspaceLinkCard from '../../../components/WorkspaceLinkCard.astro';
+import WorkspaceButton from '../../../components/WorkspaceButton.astro';
+import {supportedLocales,resolveLocaleCopy} from '../../../lib/i18n.mjs';
 export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
 const {locale='zh'}=Astro.params;
-const copy=contributionHub(locale);
-const flow=editorGuide(locale);
-const [sites,editing,syntaxes,formats]=await Promise.all([getCollection('site'),getCollection('editGuide'),getCollection('syntaxGuide'),getCollection('formatGuide')]);
-const site=getLocalizedSite(sites,locale);
-const localized=(entries:any[])=>entries.find(e=>e.data.locale===locale)||entries.find(e=>e.data.locale==='zh');
-const guide=localized(editing).data;
-const steps=(items:string[][])=>items.map(([title,body])=>`## ${title}\n\n${body}`).join('\n\n');
-const editorMarkdown=`${flow.subtitle}\n\n${flow.scope}\n\n${steps(flow.steps)}\n\n## ${guide.ui.mapTitle}\n\n${steps(guide.map.map((item:any)=>[item.title,item.body]))}`;
-const githubMarkdown=`${flow.githubIntro}\n\n${steps(flow.githubSteps)}\n\n${guide.lessons.map((lesson:any)=>`<span id="lesson-${lesson.id}"></span>\n\n## ${lesson.title}\n\n${lesson.body}\n\n${lesson.checkpoint}`).join('\n\n')}\n\n${guide.workshops.map((item:any)=>`<span id="workshop-${item.id}"></span>\n\n## ${item.title}\n\n${item.body}`).join('\n\n')}\n\n## ${guide.ui.review}\n\n${guide.checklist.map((text:string)=>'- '+text).join('\n')}\n\n## ${guide.ui.pr}\n\n${guide.ui.prHint}\n\n\`\`\`text\n${guide.prTemplate}\n\`\`\`\n\n## ${guide.ui.faq}\n\n${guide.faqs.map((item:any)=>`### ${item.question}\n\n${item.answer}`).join('\n\n')}`;
-const licenseMarkdown=resolveLocaleCopy({zh:licenseZh,en:licenseEn,ja:licenseJa},locale).replace(/^# .+\n/,'').replace(/^\[English\].+$/m,'');
-const fileMarkdown=resolveLocaleCopy({zh:filesZh,en:filesEn,ja:filesJa},locale).replace(/^# .+\n/,'');
-const rendered=await Promise.all([renderMarkdownDocument(hubOverview(locale)),renderMarkdownDocument(editorMarkdown),renderMarkdownDocument(githubMarkdown),renderMarkdownDocument(fileMarkdown),renderContentEntry(localized(syntaxes)),renderContentEntry(localized(formats)),renderMarkdownDocument(licenseMarkdown)]);
-// Namespace headings/footnotes so six complete documents can coexist without duplicate IDs.
-const documents=rendered.map((document,index)=>{
- const id=hubDocuments[index];
- let html=document.html;
- html=html.replace(/\bid="([^"]+)"/g,(_match:string,value:string)=>`id="${id}--${value}"`).replace(/href="#([^"]+)"/g,(_match:string,value:string)=>`href="#${hubDocuments.includes(value)?value:id+'--'+value}"`);
- html=html.replace(/href="(?:https:\/\/kamitsubaki\.wiki)?\/([^/]+)\/contribute\/(edit|syntax|format|files)(?=\/|[?#"])\/?([^"#]*)(?:#([^"]*))?"/g,(_match:string,lang:string,path:string,query:string,anchor:string)=>{
-  const doc=path==='edit'?(query.includes('github')?'github':'editor'):path;
-  return `href="/${lang}/contribute/${query}#${doc}${anchor?'--'+anchor:''}"`;
- });
- html=html.replace(/aria-(labelledby|describedby)="([^"]+)"/g,(_match:string,attribute:string,values:string)=>`aria-${attribute}="${values.split(/\s+/).map(value=>id+'--'+value).join(' ')}"`);
- html=html.replace(/href="(licensing(?:\.(?:en|ja))?\.md)"/g,'href="#licensing"');
- html=html.replace(/href="(?!https?:|\/|#)([^"]+\.md(?:#[^"]*)?)"/g,(_match:string,path:string)=>`href="https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/main/docs/${path}"`);
- return {id,html,headings:document.headings.filter((h:any)=>h.depth===2).map((h:any)=>({...h,slug:`${id}--${h.slug}`}))};
-});
+const copy=resolveLocaleCopy({zh:{title:'参与共建',intro:'从一处补充开始。选择任务，保存草稿，提交审核。',home:'首页',docs:'贡献说明书',tasks:['编辑词条','投稿文章','上传照片'],notes:['补充资料、修正信息，保留来源。','记录观点与研究，可关联多个词条。','直接上传照片或创建设定组；逐张核对作者、出处与使用依据。'],progress:'我的投稿',load:'查看投稿进度',loading:'正在载入…',empty:'暂无投稿记录',error:'暂时无法载入，请重试。',login:'登录后查看',loginHint:'登录后可在这里查看词条、文章和图片投稿。',serviceUnavailable:'目前无法连接账号服务，请稍后重试。',open:'查看与继续',states:{draft:'草稿',pending:'待审核',approved:'已通过',rejected:'已退回',merged:'已合并',open:'审核中',closed:'已关闭',failed:'提交失败'}},en:{title:'Contribute',intro:'Start with one improvement. Choose a task, save a draft, submit for review.',home:'Home',docs:'Contribution manual',tasks:['Edit an entry','Write an article','Upload photos'],notes:['Improve information and preserve sources.','Share research and link relevant entries.','Upload standalone photos or create a design set; verify the author, source and basis for use of each image.'],progress:'My submissions',load:'View submission progress',loading:'Loading…',empty:'No submissions yet',error:'Unable to load. Please retry.',login:'Sign in to view',loginHint:'Sign in to see your entry, article and image submissions here.',serviceUnavailable:'The account service is unavailable. Please try again later.',open:'View and continue',states:{draft:'Draft',pending:'Pending',approved:'Approved',rejected:'Returned',merged:'Merged',open:'In review',closed:'Closed',failed:'Failed'}},ja:{title:'貢献する',intro:'一つの改善から。作業を選び、下書きを保存して審査へ。',home:'ホーム',docs:'投稿説明書',tasks:['項目を編集','記事を投稿','画像を投稿'],notes:['情報を補い、出典を残す。','考察を共有し、関連項目を選ぶ。','単独画像を投稿するか設定セットを作成し、画像ごとの作者・出典・利用根拠を確認します。'],progress:'自分の投稿',load:'投稿状況を確認',loading:'読み込み中…',empty:'投稿はまだありません',error:'読み込めません。再試行してください。',login:'ログインして確認',loginHint:'ログインすると、項目・記事・画像の投稿履歴を確認できます。',serviceUnavailable:'アカウントサービスに接続できません。後でもう一度お試しください。',open:'確認・編集',states:{draft:'下書き',pending:'審査待ち',approved:'承認済み',rejected:'差し戻し',merged:'反映済み',open:'審査中',closed:'終了',failed:'失敗'}}},locale);
+const chronicleTask=resolveLocaleCopy({zh:{title:'投稿时间轴事件',note:'记录日期精度、关联词条与可核对来源。'},ja:{title:'年表の出来事を投稿',note:'日付の精度、関連項目、確認できる出典を記録します。'},en:{title:'Add a chronicle event',note:'Record date precision, related entries, and verifiable sources.'}},locale);
+copy.tasks.push(chronicleTask.title);copy.notes.push(chronicleTask.note);
+const paths=['contribute/editor/','articles/submit/','gallery/manage/','chronicle/submit/'];
+const api=import.meta.env.PUBLIC_ARTICLE_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
 ---
-<BaseLayout lang={locale} title={copy.title} metadata={{title:copy.title,description:copy.intro,canonicalPath:`/${locale}/contribute/`}} alternates={supportedLocales.map(locale=>({locale,href:`/${locale}/contribute/`}))}>
- <SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site,locale,'/contribute/')} brandLines={site.hero.brandLines} homeHref={`/${locale}/`} />
- <main class="labs-shell contribution-hub" data-contribution-hub data-locale={locale}>
-  <WorkspaceHeader title={copy.title} intro={copy.intro}>
-   <a href={`/${locale}/`}>{copy.home}</a><a data-hub-editor href={`/${locale}/contribute/editor/`}>{copy.editor} <span aria-hidden="true">↗</span></a>
-  </WorkspaceHeader>
-  <p class="hub-target" hidden data-hub-target></p>
-  <WorkspaceNavigation label={copy.title} kind="hub">
-   {hubDocuments.map((doc,i)=><a href={`#${doc}`} data-hub-tab={doc}>{copy.tabs[i]}</a>)}
-  </WorkspaceNavigation>
-  {documents.map((doc,i)=><section id={doc.id} class="hub-document" data-hub-panel={doc.id} aria-labelledby={`hub-heading-${doc.id}`}>
-   <header class="hub-document-heading"><span>{String(i+1).padStart(2,'0')} / {String(hubDocuments.length).padStart(2,'0')}</span><h2 id={`hub-heading-${doc.id}`}>{copy.tabs[i]}</h2></header>
-   <Reader variant="guide" headings={doc.headings} contentsTitle={copy.contents} proseClass="cg-prose">
-    <Fragment set:html={doc.html}/>{doc.id==='github' && <p><a href="https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/issues">GitHub Issues ↗</a> · <a href="https://github.com/LinkTh1rsty/kamitsubaki-wiki-site">GitHub ↗</a></p>}
-   </Reader>
-  </section>)}
- </main>
- <SiteFooter footer={site.footer}/>
- <script>import '../../../scripts/contributionHub.js';</script>
-</BaseLayout>
-<style>
- /* Keep the viewport as the sticky scroll container; hidden would create a body scroll container. */
- :global(body:has(.contribution-hub)){overflow-x:clip}
- .contribution-hub{padding-top:92px;--reader-sticky-top:164px}
- .hub-target{font-size:12px;overflow-wrap:anywhere;color:var(--b-muted);margin:0 0 12px}
- .hub-document{padding-top:0}.hub-document[hidden]{display:none}
- .hub-document-heading{display:flex;align-items:baseline;gap:12px;margin:0 0 16px}.hub-document-heading h2{font-size:22px;margin:0}.hub-document-heading>span{font-size:11px;color:var(--b-muted)}
- :global(.hub-prose h2),:global(.hub-prose h3){scroll-margin-top:100px}
- :global(.hub-prose pre){max-width:100%;overflow:auto}:global(.hub-prose table){max-width:100%}
- @media(max-width:760px){.contribution-hub{padding-top:84px}:global(.hub-prose h2){font-size:23px}}
-</style>
+<WorkspaceLayout locale={locale} title={copy.title} intro={copy.intro} path="/contribute/" eyebrow="CONTRIBUTE" backHref={`/${locale}/`} backLabel={copy.home} mainAttributes={{'data-contribution-dashboard':'','data-api':api,'data-gallery-api':import.meta.env.PUBLIC_GALLERY_API_URL||api,'data-editor-api':import.meta.env.PUBLIC_EDITOR_API_BASE||api,'data-locale':locale,'data-copy':JSON.stringify(copy)}}>
+ <WorkspaceButton slot="actions" href={`/${locale}/docs/contribute/`}>{copy.docs}</WorkspaceButton>
+ <section>{paths.map((path,i)=><WorkspaceLinkCard href={`/${locale}/${path}`} title={copy.tasks[i]} description={copy.notes[i]} index={String(i+1).padStart(2,'0')}/>)}</section>
+ <section class="contribution-progress"><h2>{copy.progress}</h2><WorkspaceButton data-progress-load>{copy.load}</WorkspaceButton><div data-progress-results aria-live="polite"></div></section>
+</WorkspaceLayout>
+<script>import '../../../scripts/contributionDashboard.js';</script>
+<style>.contribution-progress{margin-top:40px;border-top:1px solid rgb(var(--theme-fg-rgb)/.15);padding-top:24px}.contribution-progress h2{font:22px var(--font-serif);margin-bottom:18px}.contribution-progress :global(article){padding:18px 0;border-bottom:1px solid rgb(var(--theme-fg-rgb)/.12)}.contribution-progress :global(p){font-size:13px;line-height:1.8;opacity:.7}.contribution-progress :global(a){font-size:12px;text-decoration:underline;text-underline-offset:4px}</style>

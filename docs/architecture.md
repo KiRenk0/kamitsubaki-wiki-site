@@ -1,109 +1,16 @@
-# 架构说明
+# V3 前台架构
 
-[English](architecture.en.md) / [中文](architecture.md) / [日本語](architecture.ja.md)
+本仓库维护静态前台、百科内容和用户可见的投稿界面。服务端闭源，不在公开仓库提供服务端代码、内部数据模型或运维文档。
 
-这是一个静态 Astro Wiki，使用 URL 级国际化，并把内容和实现分离。
+| 前台来源 | 职责 |
+| --- | --- |
+| `src/content/` | 多语言百科 Markdown 和 Schema v2 元数据。 |
+| `src/data/classification-map.json` | 经审核的分类与目录层级。 |
+| `src/lib/entitySchema.mjs`、`src/lib/entityRegistry.mjs` | 前台字段校验、稳定 ID、公开路由与关联。 |
+| `src/lib/contentLayout.mjs` | 百科源文件的目录规则。 |
+| `src/data/chronicle/`、`src/data/taxonomy/eras.yml` | 公开时间轴事件与纪元区间。 |
+| `docs/manuals/` | 三本站内说明书的 Markdown 来源。 |
 
-## 运行形态
+百科变更经 GitHub 提案、审核、合并及静态站更新后公开。文章和图库走站点投稿与审核界面，前台只依据用户可见状态显示结果，不暴露服务端实现。
 
-```text
-/      -> 重定向到 /zh/
-/zh/   -> 中文站点
-/ja/   -> 日文站点
-/en/   -> 英文站点
-```
-
-生产构建输出静态 HTML、CSS 和浏览器 JavaScript。百科阅读本身不需要站点服务器；统一 AI 小组件在浏览器运行时调用独立 Worker API。
-
-## 内容流
-
-```text
-src/content/**/*.json or .md
-  -> src/content.config.ts 校验 schema
-  -> Astro Content Collections 加载记录
-  -> src/lib/homeData.mjs 本地化、分组、排序
-  -> src/lib/metadata.mjs 生成页面元数据
-  -> src/pages/[locale]/index.astro 渲染首页
-  -> src/pages/[locale]/artists/[...id].astro 渲染条目页
-  -> src/components/*.astro 渲染 UI
-```
-
-实现文件应通过 props 接收内容。不要在组件或页面里硬编码大段公开内容数组。
-
-## 主要目录
-
-```text
-src/content.config.ts   Content Collections schema
-src/content/            可编辑百科内容
-src/lib/                数据整理、i18n、metadata 工具
-src/pages/              静态路由
-src/components/         展示组件
-src/layouts/            共享 HTML 布局
-src/styles/global.css   Tailwind 入口和全局视觉系统
-src/scripts/            浏览器交互
-tests/                  Node 测试
-```
-
-## Content Collections
-
-- `site`：站点外壳和页面标签，来源为 JSON。
-- `artists`：艺人、创作者、组合、音乐同位体的 Markdown 条目。
-- `projects`：企划 Markdown 记录。
-- `logs`：时间线 Markdown 记录。
-- `songs`：歌曲 Markdown 条目。
-- `albums`：专辑 Markdown 条目与结构化曲目表。
-- `announcements`：首页公告 Markdown 条目。
-- `syntaxGuide`、`editGuide`：站内贡献文档。
-
-schema 位于 `src/content.config.ts`，由 `pnpm check` 校验。
-
-首页 DATABASE 的艺人分类从 `src/content/artists/<category>/<entry>/<locale>.md` 的第一层文件夹自动推导。`categoryTitle`、`categorySubtitle`、`categoryOrder`、`itemOrder` 和 `code` 只是可选展示覆盖。
-
-## 当前功能映射
-
-- 外部链接品牌图标：平台注册表在 `src/lib/externalPlatforms.mjs`，由 `ExternalLinkCard.astro`、`PlatformIcon.astro` 和正文增强脚本共用。
-- 特别协力名单：资料在 `src/data/manualContributors.json`，由 `ManualContributors.astro` 随机排列展示；个人介绍和留言按投稿原文保存。
-- 站点品牌：长版与方形 Logo 分别位于 `public/brand/kamitsubakiwiki-long.svg` 和 `public/brand/kamitsubakiwiki-square.svg`；三语站名由 `src/lib/i18n.mjs` 统一提供。
-- 公告板：首页从 `announcements` collection 选择置顶或最新记录，并由 `AnnouncementModal.astro` 展示。
-- 专辑艺人分类：`src/lib/musicCatalog.mjs` 按专辑目录中的艺人 ID 分组；`src/pages/[locale]/albums/artists/[artist].astro` 渲染分类页，艺人封面优先取对应 `artists` 条目的 `image`。
-- 分层内容授权：`src/content.config.ts` 校验四种 `license` 标记，`ContentLicenseNotice.astro` 在详情页展示条目许可与媒体排除说明，`src/pages/[locale]/license.astro` 提供三语著作权信息页；编辑规则见[内容授权与来源标注](licensing.md)。
-- 统一 AI 入口：`AiChatWidget.astro` 与 `src/scripts/aiChatWidget.js` 调用 `/api/ai/v2/*`，默认使用 Observer，并把完整会话入口交给独立终端；详见[统一 AI 小组件](ai-terminal.md)。
-- 体验入口：`ExperiencePortals.astro` 在主站整合游戏与 AI 终端入口，文案跟随页面语言，深浅色模式使用全局设计 token。
-
-这些功能的公开资料必须放在内容或数据文件中，组件只负责渲染。新增可翻译词条时，必须同时提供 `zh`、`ja`、`en`，并保持 `translationKey` 和路由结构一致。
-
-## 元数据
-
-页面元数据由 `src/lib/metadata.mjs` 生成。内容文件可以用可选 `seo` frontmatter 覆盖；未填写时，系统会自动扫描 Markdown 第一段作为描述，并使用 `image` 生成分享卡片。
-
-`BaseLayout.astro` 输出 description、canonical、Open Graph、Twitter card 和 robots。部署时设置 `PUBLIC_SITE_URL` 可以生成绝对 canonical URL。
-
-## 阅读器 UI
-
-艺人详情页保持稳定的 Wiki 阅读布局：
-
-- 紧凑导航栏。
-- 带语言切换和编辑入口的文章头。
-- 有标题时显示目录。
-- 有正文时显示 Markdown 文章。
-- 右侧/下方信息面板。
-
-空正文是有效状态，不渲染占位文本。
-
-## 样式与资源
-
-Tailwind CSS v4 通过 `@tailwindcss/vite` 编译。不要添加运行时 Tailwind CDN。
-
-全局样式位于 `src/styles/global.css`，包括字体、颜色、响应式阅读排版、信息面板、目录、预加载、光标、reveal、noise 和列表动效。
-
-## 验证
-
-CI 和本地开发使用同一套命令：
-
-```bash
-pnpm test
-pnpm check
-pnpm build
-```
-
-GitHub Actions 工作流位于 `.github/workflows/ci.yml`。
+[开发说明书](manuals/develop/architecture/zh.md) · [贡献说明书](manuals/contribute/start/zh.md) · [内容目录](../src/content/README.md) · [文档索引](README.md)

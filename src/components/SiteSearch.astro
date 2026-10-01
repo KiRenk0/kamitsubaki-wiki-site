@@ -15,7 +15,7 @@ const copy = resolveLocaleCopy({
     error: '搜索索引暂时无法读取，请稍后再试。',
     empty: '没有找到匹配的观测记录。',
     resultCount: (count: number) => `找到 ${count} 条结果`,
-    kinds: { all: '全部', artist: '艺人', song: '歌曲', album: '专辑', project: '企划', log: '记录' },
+    kinds: { all: '全部', artist: '艺人', song: '歌曲', album: '专辑', live: '演出', project: '企划', lore: '世界观', organization: '组织', log: '记录' },
     navigateHint: '↑↓ 选择',
     openHint: 'ENTER 打开',
     shortcutAction: '搜索',
@@ -31,7 +31,7 @@ const copy = resolveLocaleCopy({
     error: '検索インデックスを読み込めません。しばらくしてからお試しください。',
     empty: '一致する観測記録が見つかりませんでした。',
     resultCount: (count: number) => `${count} 件の結果`,
-    kinds: { all: 'すべて', artist: 'アーティスト', song: '楽曲', album: 'アルバム', project: '企画', log: '記録' },
+    kinds: { all: 'すべて', artist: 'アーティスト', song: '楽曲', album: 'アルバム', live: 'ライブ', project: '企画', lore: '世界観', organization: '組織', log: '記録' },
     navigateHint: '↑↓ 選択',
     openHint: 'ENTER 開く',
     shortcutAction: '検索',
@@ -47,7 +47,7 @@ const copy = resolveLocaleCopy({
     error: 'The search index is unavailable. Please try again later.',
     empty: 'No matching observations found.',
     resultCount: (count: number) => `${count} result${count === 1 ? '' : 's'}`,
-    kinds: { all: 'All', artist: 'Artist', song: 'Song', album: 'Album', project: 'Project', log: 'Log' },
+    kinds: { all: 'All', artist: 'Artist', song: 'Song', album: 'Album', live: 'Live event', project: 'Project', lore: 'Lore', organization: 'Organization', log: 'Log' },
     navigateHint: '↑↓ Select',
     openHint: 'ENTER Open',
     shortcutAction: 'Search',
@@ -60,10 +60,16 @@ const resultCountTemplate = resolveLocaleCopy({
   ja: '{count} 件の結果',
   en: '{count} result|{count} results',
 }, lang);
+const resultKinds = resolveLocaleCopy({
+  zh: { 'software-voice': '音乐同位体', 'live-event': '现场演出', 'lore-concept': '世界观', organization: '组织', person: '人物', 'virtual-avatar': '虚拟艺人', project: '企划', 'work-release': '音乐发行', 'work-track': '歌曲', unit: '组合', log: '记录' },
+  ja: { 'software-voice': '音楽的同位体', 'live-event': 'ライブ', 'lore-concept': '世界観', organization: '組織', person: '人物', 'virtual-avatar': 'バーチャルアーティスト', project: '企画', 'work-release': '音楽作品', 'work-track': '楽曲', unit: 'ユニット', log: '記録' },
+  en: { 'software-voice': 'Voicebank', 'live-event': 'Live event', 'lore-concept': 'Lore', organization: 'Organization', person: 'Person', 'virtual-avatar': 'Virtual artist', project: 'Project', 'work-release': 'Release', 'work-track': 'Song', unit: 'Group', log: 'Log' },
+}, lang);
 const serializedCopy = {
   ...copy,
   resultCount: undefined,
   resultCountTemplate,
+  resultKinds,
 };
 ---
 

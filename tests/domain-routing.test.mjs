@@ -11,35 +11,7 @@ test('Cloudflare Pages redirects production domains to canonical locale paths', 
   assert.match(redirects, /^https:\/\/ja\.kamitsubaki\.wiki\/\*\s+https:\/\/kamitsubaki\.wiki\/ja\/:splat\s+302!$/m);
 });
 
-test('legacy SINSAEKAI project routes redirect to the corrected slug', async () => {
-  const redirects = await readFile(new URL('../public/_redirects', import.meta.url), 'utf8');
-
-  for (const locale of ['zh', 'ja', 'en']) {
-    assert.match(
-      redirects,
-      new RegExp(`^/${locale}/projects/labels/sinsaekai-studio\\s+/${locale}/projects/archive/sinsekai-studio\\s+301$`, 'm'),
-    );
-  }
-});
-
-test('legacy SINSEKAI label routes redirect to the archived entry', async () => {
-  const redirects = await readFile(new URL('../public/_redirects', import.meta.url), 'utf8');
-
-  for (const locale of ['zh', 'zh-tw', 'zh-hk', 'ja', 'en']) {
-    assert.match(
-      redirects,
-      new RegExp(`^/${locale}/projects/labels/sinsekai-studio\\s+/${locale}/projects/archive/sinsekai-studio\\s+301$`, 'm'),
-    );
-  }
-});
-
-test('legacy song catalog routes redirect to the folder-driven structure', async () => {
-  const redirects = await readFile(new URL('../public/_redirects', import.meta.url), 'utf8');
-
-  for (const locale of ['zh', 'ja', 'en']) {
-    assert.match(
-      redirects,
-      new RegExp(`^/${locale}/songs/kaf-originals/shi\\s+/${locale}/songs/kaf/originals/shi\\s+301$`, 'm'),
-    );
-  }
+test('retired encyclopedia URLs have no Pages redirect rules',async()=>{
+ const redirects=await readFile(new URL('../public/_redirects',import.meta.url),'utf8');
+ assert.doesNotMatch(redirects,/^\/(zh|ja|en|zh-tw|zh-hk)\/(artists|projects|songs|albums)\//m);
 });

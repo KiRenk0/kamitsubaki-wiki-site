@@ -5,5 +5,8 @@ export function getReadingAnchorOffset(target = null) {
   const navBottom = nav?.getBoundingClientRect().bottom ?? 72;
   const reader = target?.closest('[data-reader]') || [...document.querySelectorAll('[data-reader]')].find(node => node.getClientRects().length);
   const readerOffset = reader ? Number.parseFloat(getComputedStyle(reader).getPropertyValue('--reader-sticky-top')) : 0;
-  return Math.ceil(Math.max(navBottom + 20, readerOffset || 0));
+  const mobileToc=reader?.querySelector('.wiki-mobile-toc');
+  const tocVisible=mobileToc&&getComputedStyle(mobileToc).display!=='none';
+  const tocHeight=tocVisible?(mobileToc.querySelector('summary')?.getBoundingClientRect().height||0)+16:0;
+  return Math.ceil(Math.max(navBottom + 20, readerOffset || 0)+tocHeight);
 }

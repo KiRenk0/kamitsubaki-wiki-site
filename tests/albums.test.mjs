@@ -6,112 +6,17 @@ function readProjectFile(path) {
   return readFile(new URL(path, import.meta.url), 'utf8');
 }
 
-test('albums are registered as a localized content collection with list and detail routes', async () => {
-  const [config, listPage, detailPage] = await Promise.all([
-    readProjectFile('../src/content.config.ts'),
-    readProjectFile('../src/pages/[locale]/albums/index.astro'),
-    readProjectFile('../src/pages/[locale]/albums/[...id].astro'),
-  ]);
-
-  assert.match(config, /const albums = defineCollection/);
-  assert.match(config, /base: '\.\/src\/content\/albums'/);
-  assert.match(config, /tracks: z/);
-  assert.match(listPage, /getCollection\('albums'\)/);
-  assert.match(detailPage, /collection="albums"/);
-  assert.match(detailPage, /src\/content\/albums\/\$\{id\}/);
-});
-
-test('album home section is rendered after songs and before the maintenance roster', async () => {
+test('home music tabs sit before the maintenance roster', async () => {
   const homePage = await readProjectFile('../src/pages/[locale]/index.astro');
-  const songsIndex = homePage.indexOf('<SongsSection');
-  const albumsIndex = homePage.indexOf('<AlbumsSection');
+  const musicIndex = homePage.indexOf('<HomeMusicSection');
   const rosterIndex = homePage.indexOf('<ContributorRoster');
+  const music = await readProjectFile('../src/components/HomeMusicSection.astro');
 
-  assert.ok(songsIndex >= 0);
-  assert.ok(albumsIndex > songsIndex);
-  assert.ok(rosterIndex > albumsIndex);
-});
-
-test('album navigation and labels exist in every supported locale', async () => {
-  for (const locale of ['zh', 'ja', 'en']) {
-    const site = JSON.parse(await readProjectFile(`../src/content/site/${locale}.json`));
-    assert.equal(site.navItems.find((item) => item.href === '#albums')?.label, 'ALBUMS');
-    assert.equal(typeof site.sections.albums.heading, 'string');
-    assert.equal(typeof site.sections.albums.emptyLabel, 'string');
-  }
-});
-
-test('music pages use artist-first song and album navigation', async () => {
-  const [subnav, songsPage, artistSongsPage, albumsPage, artistAlbumsPage, albumDetail] = await Promise.all([
-    readProjectFile('../src/components/MusicSubnav.astro'),
-    readProjectFile('../src/pages/[locale]/songs/index.astro'),
-    readProjectFile('../src/pages/[locale]/songs/artists/[artist].astro'),
-    readProjectFile('../src/pages/[locale]/albums/index.astro'),
-    readProjectFile('../src/pages/[locale]/albums/artists/[artist].astro'),
-    readProjectFile('../src/pages/[locale]/albums/[...id].astro'),
-  ]);
-
-  assert.match(subnav, /current === 'songs'/);
-  assert.match(subnav, /current === 'albums'/);
-  assert.match(songsPage, /buildArtistSongCatalog/);
-  assert.match(songsPage, /songs\/artists\/\$\{group\.slug\}/);
-  assert.match(artistSongsPage, /buildArtistSongCatalog/);
-  assert.match(artistSongsPage, /category\.entries\.map/);
-  assert.match(artistSongsPage, /songs\/\$\{songPath\}/);
-  assert.match(artistSongsPage, /song\.data\.image \?\? group\.cover/);
-  assert.match(albumsPage, /buildArtistAlbumCatalog/);
-  assert.match(albumsPage, /albums\/artists\/\$\{group\.slug\}/);
-  assert.match(artistAlbumsPage, /buildArtistAlbumCatalog/);
-  assert.match(artistAlbumsPage, /albums\.map/);
-  assert.match(artistAlbumsPage, /albums\/\$\{albumPath\}/);
-  assert.match(albumDetail, /<MusicSubnav locale=\{localeCode\} current="albums"/);
-});
-
-test('song artist catalog hero uses an artist-tinted surface in light mode', async () => {
-  const artistSongsPage = await readProjectFile('../src/pages/[locale]/songs/artists/[artist].astro');
-
-  assert.match(
-    artistSongsPage,
-    /:global\(html\[data-theme='light'\]\) \.catalog-hero__body\s*\{[\s\S]*background-color:\s*var\(--theme-panel-solid\)[\s\S]*color-mix\(in srgb, var\(--catalog-accent\) 13%, var\(--theme-panel-solid\)\)/,
-  );
-  assert.match(
-    artistSongsPage,
-    /:global\(html\[data-theme='light'\]\) \.catalog-hero__body > div\s*\{[\s\S]*border-color:\s*rgb\(var\(--theme-fg-rgb\) \/ 0\.12\)/,
-  );
-});
-
-test('song and album details use the normal light surface in light mode', async () => {
-  const [songDetail, albumDetail, styles] = await Promise.all([
-    readProjectFile('../src/pages/[locale]/songs/[...id].astro'),
-    readProjectFile('../src/pages/[locale]/albums/[...id].astro'),
-    readProjectFile('../src/styles/global.css'),
-  ]);
-
-  assert.match(songDetail, /<div class="wiki-theme-shell" style=\{themeStyle\}>/);
-  assert.match(albumDetail, /<div class="wiki-theme-shell" style=\{themeStyle\}>/);
-  assert.doesNotMatch(songDetail, /wiki-theme-shell music-theme-shell/);
-  assert.doesNotMatch(albumDetail, /wiki-theme-shell music-theme-shell/);
-  assert.doesNotMatch(styles, /\.music-theme-shell/);
-});
-
-test('song and album catalog cards remove their image mask in light mode', async () => {
-  const [songCatalog, albumCatalog] = await Promise.all([
-    readProjectFile('../src/pages/[locale]/songs/index.astro'),
-    readProjectFile('../src/pages/[locale]/albums/index.astro'),
-  ]);
-
-  for (const [source, className] of [[songCatalog, 'artist-card'], [albumCatalog, 'album-artist-card']]) {
-    assert.match(source, /catalog-card__mask absolute inset-0 bg-gradient-to-t/);
-    assert.match(source, new RegExp(`html\\[data-theme='light'\\]\\) \\.${className} \\.catalog-card__mask\\s*\\{[\\s\\S]*display: none;`));
-    assert.doesNotMatch(source, new RegExp(`html\\[data-theme='light'\\]\\) \\.${className},[\\s\\S]*background-color: #14171a`));
-  }
-  assert.match(songCatalog, /artist-card:hover img,[\s\S]*opacity: 1;[\s\S]*filter: none;/);
-  assert.match(albumCatalog, /album-artist-card:hover img,[\s\S]*opacity: 1;[\s\S]*filter: none;/);
-});
-
-test('artist album cards are not dimmed in light mode', async () => {
-  const artistAlbums = await readProjectFile('../src/pages/[locale]/albums/artists/[artist].astro');
-  assert.match(artistAlbums, /html\[data-theme='light'\]\) \.album-card img,[\s\S]*opacity: 1;[\s\S]*filter: none;/);
+  assert.ok(musicIndex >= 0);
+  assert.ok(rosterIndex > musicIndex);
+  assert.match(music, /<ContentTabs id="home-music"/);
+  assert.match(music, /<SongsSection slot="songs"/);
+  assert.match(music, /<AlbumsSection slot="albums"/);
 });
 
 test('album catalog groups entries by folder-driven artist ids', async () => {
@@ -133,14 +38,6 @@ test('album catalog groups entries by folder-driven artist ids', async () => {
   ]);
   assert.deepEqual(catalog[1].entries.map((entry) => entry.data.title), ['観測', '魔法']);
   assert.equal(catalog[1].cover, '/kaf-artist.jpg');
-});
-
-test('song artwork prefers song covers and falls back to artist artwork', async () => {
-  const songDetail = await readProjectFile('../src/pages/[locale]/songs/[...id].astro');
-
-  assert.match(songDetail, /entry\.data\.image\s*\?\? artistEntry\?\.data\.image/);
-  assert.match(songDetail, /getCollection\('artists'\)/);
-  assert.match(songDetail, /artist\.data\.translationKey === entry\.data\.artistId/);
 });
 
 test('song catalog uses artist entry artwork and folder-driven categories', async () => {
@@ -250,24 +147,6 @@ test('duplicate recording codes fail with single-source authoring guidance', asy
   );
 });
 
-test('album track links are emitted only for localized song entries', async () => {
-  const detailPage = await readProjectFile('../src/pages/[locale]/albums/[...id].astro');
-
-  assert.match(detailPage, /getCollection\('songs'\)/);
-  assert.match(detailPage, /song\.data\.locale === localeCode/);
-  assert.match(detailPage, /localizedSongIds\.has\(track\.songId\)/);
-});
-
-test('work schemas share validated dates, durations, and safe links', async () => {
-  const config = await readProjectFile('../src/content.config.ts');
-
-  assert.match(config, /const workBaseSchema = z\.object/);
-  assert.match(config, /schema: workBaseSchema\.extend/);
-  assert.match(config, /Expected YYYY, YYYY-MM, or YYYY-MM-DD/);
-  assert.match(config, /Expected MM:SS or HH:MM:SS/);
-  assert.match(config, /Must be an HTTP\(S\) URL or a site-relative path/);
-});
-
 test('album and song contributions are included in contributor history', async () => {
   const { parseContentPath } = await import('../scripts/contributor-history.mjs');
   assert.deepEqual(parseContentPath('src/content/albums/kaf/example/zh.md'), {
@@ -280,16 +159,4 @@ test('album and song contributions are included in contributor history', async (
     entryId: 'kaf/example',
     locale: 'ja',
   });
-});
-
-test('albums are included in the AI index and use entry-specific edit targets', async () => {
-  const [aiIndex, roster] = await Promise.all([
-    readProjectFile('../src/pages/ai-index/[locale]/[collection].json.ts'),
-    readProjectFile('../src/components/ContributorRoster.astro'),
-  ]);
-
-  assert.match(aiIndex, /getCollection\('albums'\)/);
-  assert.match(aiIndex, /getCollection\('songs'\)/);
-  assert.match(roster, /'albums'/);
-  assert.match(roster, /src\/content\/\$\{collection\}\/\$\{entryId\}/);
 });

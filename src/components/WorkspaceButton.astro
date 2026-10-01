@@ -1,0 +1,7 @@
+---
+import type {HTMLAttributes} from 'astro/types';
+interface Props extends HTMLAttributes<'button'> {href?:string;target?:HTMLAttributes<'a'>['target'];rel?:string;download?:HTMLAttributes<'a'>['download'];tone?:'primary'|'secondary'|'quiet';}
+const {href,tone='secondary',type='button',disabled=false,class:className,...attributes}=Astro.props;
+const Tag=href?'a':'button';
+---
+<Tag {...attributes} class:list={['workspace-button',className]} data-tone={tone} href={disabled?undefined:href} type={href?undefined:type} disabled={href?undefined:disabled} aria-disabled={href&&disabled?'true':undefined} tabindex={href&&disabled?-1:undefined}><slot/></Tag>

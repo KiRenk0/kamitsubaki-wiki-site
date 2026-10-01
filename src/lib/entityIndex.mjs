@@ -1,0 +1,4 @@
+import {getEntityRegistry,entityBody} from './entityRegistry.mjs';import {cleanIndexText,buildIndexDescription,buildIndexAliases,extractIndexHeadings} from './searchIndex.mjs';import {foldCjkSearchText} from './cjkSearch.mjs';
+export async function buildEntityIndex(locale,origin=''){
+ const registry=await getEntityRegistry();return registry.list(locale).map(e=>{const d=e.data,title=d.name||d.title,body=entityBody(e),aliases=buildIndexAliases(d),description=buildIndexDescription(d,body),headings=extractIndexHeadings(body);return {id:'entity:'+d.id,title,aliases,path:e.url,url:origin+e.url,locale,kind:d.entityType,entityId:d.id,translationKey:d.id,description,headings,image:d.presentation?.image,titleKey:foldCjkSearchText(title),aliasKey:foldCjkSearchText(aliases.join(' ')),descriptionKey:foldCjkSearchText(description),headingKey:foldCjkSearchText(headings.join(' ')),text:cleanIndexText(body,6000)};});
+}

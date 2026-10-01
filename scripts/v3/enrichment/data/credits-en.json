@@ -1,0 +1,14 @@
+{
+  "people/creators/hiratayoshihisa": [
+    {
+      "heading": "## External Songwriting and Arrangement Record",
+      "body": "Hirata Yoshihisa's record of songs supplied externally within the KAMITSUBAKI system is as follows (he handled most of the lyrics, composition and arrangement himself):\n\n| Release date | Song | Performer | Role |\n| :--- | :--- | :--- | :--- |\n| 2022-07-02 | 《赤い洗礼》 | [Albemuth](/en/database/artists/groups/albemuth) | Lyrics / Composition / Arrangement |\n| 2023-02-15 | 《感光》 | [Albemuth](/en/database/artists/groups/albemuth) | Lyrics / Composition / Arrangement |\n| 2025-10-29 | 《Brrrrrreak It》 | [TSUMITOBATSU](/en/database/artists/groups/tsumitobatsu) | Lyrics / Composition / Arrangement |\n| 2026-04-08 | 《桜心中》 | [Orihime](/en/database/artists/groups/sinseiki/members/orihime) | Lyrics / Composition / Arrangement |\n\n> **Observation on the lineage of his supplied songs**: Hirata Yoshihisa's external songs span 2022 to 2026, and all of them cluster along the SINSEKAI / Girls Revolution Project lineage of “[Albemuth](/en/database/artists/groups/albemuth) → [TSUMITOBATSU](/en/database/artists/groups/tsumitobatsu) → [Orihime](/en/database/artists/groups/sinseiki/members/orihime)”. Among them, 《桜心中》 from 2026 is built on a Japanese-style lyrical mode and forms a sharp contrast with the heavy orientation of 《Brrrrrreak It》, showing that his writing can move freely between the “quiet” and the “fierce” extremes."
+    }
+  ],
+  "people/creators/toa": [
+    {
+      "heading": "## External Songwriting Record",
+      "body": "Toa's record of songs supplied externally within the KAMITSUBAKI system is as follows (he handled most of the lyrics, music and arrangement himself):\n\n| Release date | Song | Performer | Role |\n| :--- | :--- | :--- | :--- |\n| 2022-12-28 | 《そんなファンタジー》 | [COKO](/en/database/isotopes/coko) | Lyrics / Composition / Arrangement |\n| 2023-06-25 | 《ケムニマク》 | [HARU](/en/database/isotopes/haru) | Lyrics / Composition / Arrangement |\n| 2025-02-26 | 《ココロト》 | [SINSEIKI](/en/database/artists/groups/sinseiki) | Lyrics / Composition / Arrangement |\n\n> **Observation on the lineage of his supplied songs**: Toa's three supplied songs sit on two different product lines respectively — [Musical Isotopes](/en/database/isotopes/kafu) (COKO, HARU) and [Girls Revolution Project](/en/database/projects/girls-revolution-project) (SINSEIKI) — showing that within the KAMITSUBAKI ecosystem he plays the role of a **cross-project generalist songwriter**: able to write for AI singing libraries as well as to provide choral pieces for a three-member unit."
+    }
+  ]
+}

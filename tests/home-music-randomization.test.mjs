@@ -47,31 +47,3 @@ test('homepage music catalog prefers entry artwork and falls back to artist artw
   assert.equal(catalog.songs[0].subtitle, '花譜 · Album');
   assert.equal(catalog.albums[0].href, '/zh/albums/kaf/example');
 });
-
-test('homepage rhythm and album lists render covers and randomize from a local catalog on every entry', async () => {
-  const [page, songs, albums, randomizer, endpoint] = await Promise.all([
-    readFile(new URL('../src/pages/[locale]/index.astro', import.meta.url), 'utf8'),
-    readFile(new URL('../src/components/SongsSection.astro', import.meta.url), 'utf8'),
-    readFile(new URL('../src/components/AlbumsSection.astro', import.meta.url), 'utf8'),
-    readFile(new URL('../src/scripts/homeMusicRandomizer.js', import.meta.url), 'utf8'),
-    readFile(new URL('../src/pages/[locale]/home-catalog.json.ts', import.meta.url), 'utf8'),
-  ]);
-
-  assert.match(page, /sampleRandom\(homeMusicCatalog\.songs,\s*5\)/);
-  assert.match(page, /sampleRandom\(homeMusicCatalog\.albums,\s*5\)/);
-  assert.match(page, /initializeHomeMusicRandomizer/);
-  assert.doesNotMatch(page, /\.slice\(0,\s*4\)/);
-
-  for (const component of [songs, albums]) {
-    assert.match(component, />COVER</);
-    assert.doesNotMatch(component, />CODE</);
-    assert.match(component, /data-home-music-list/);
-    assert.match(component, /data-home-music-image/);
-  }
-
-  assert.match(randomizer, /fetch\(url/);
-  assert.match(randomizer, /sampleRandom\([^,]+,\s*5\)/);
-  assert.match(randomizer, /pageshow/);
-  assert.match(endpoint, /getCollection\('songs'\)/);
-  assert.match(endpoint, /getCollection\('albums'\)/);
-});

@@ -1,0 +1,20 @@
+---
+import SongsSection from './SongsSection.astro';
+import AlbumsSection from './AlbumsSection.astro';
+import ContentTabs from './ContentTabs.astro';
+import {resolveLocaleCopy} from '../lib/i18n.mjs';
+const {songs,albums,locale,sections}=Astro.props;
+const copy=resolveLocaleCopy({zh:{title:'音乐作品',songs:'歌曲',albums:'专辑',all:'浏览音乐目录'},en:{title:'Music',songs:'Songs',albums:'Albums',all:'Browse music'},ja:{title:'音楽作品',songs:'楽曲',albums:'アルバム',all:'音楽一覧'}},locale);
+---
+<section id="music" class="home-music relative mx-auto max-w-7xl px-5 py-20 ui-crosshair bl br tl tr sm:px-6 sm:py-32">
+ <header><h2>02. RHYTHM</h2><p>{copy.title}</p><a href={`/${locale}/database/music/`}>{copy.all} →</a></header>
+ <div class="home-music-content"><ContentTabs id="home-music" label={copy.title} tabs={[{id:'songs',label:copy.songs},{id:'albums',label:copy.albums}]}>
+ <SongsSection slot="songs" songs={songs} section={sections.songs} locale={locale}/>
+ <AlbumsSection slot="albums" albums={albums} section={sections.albums} locale={locale}/>
+ </ContentTabs></div>
+</section>
+<style>
+.home-music{display:grid;grid-template-columns:minmax(140px,1fr) minmax(0,3fr);gap:48px}.home-music header h2{font:300 10px var(--font-sans);letter-spacing:.25em}.home-music header p{font:10px var(--font-serif);opacity:.55;margin:8px 0 30px}.home-music header a{font-size:11px;opacity:.65}.home-music-content{min-width:0}
+.home-music :global(#songs),.home-music :global(#albums){padding:0;max-width:none;border:0}.home-music :global(#songs>div),.home-music :global(#albums>div){display:block}.home-music :global(#songs>div>div:first-child),.home-music :global(#albums>div>div:first-child){display:none}.home-music :global(.pb-20){padding-bottom:0}
+@media(max-width:760px){.home-music{grid-template-columns:1fr;gap:24px}}
+</style>

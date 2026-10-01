@@ -1,0 +1,249 @@
+[
+  {
+    "file": "docs/archive/articles/archival/chronicle-style-and-live-study/en.md",
+    "id": "chronicle-style-and-live-study",
+    "locale": "en",
+    "sha256": "9db97697ff46a1edfa2786a773efb8933258d8a5adbe0e7276bcdb6ce147f09a",
+    "bodySha256": "b42b88aa9eaed4fd584cd6355d841cabb851ee898159dfbd5ef5e7b514b75a3d",
+    "origin": "site-original",
+    "published": true,
+    "publishDate": "2024-09-15",
+    "author": "KAMITSUBAKI Archival Committee",
+    "relatedEntities": []
+  },
+  {
+    "file": "docs/archive/articles/archival/chronicle-style-and-live-study/ja.md",
+    "id": "chronicle-style-and-live-study",
+    "locale": "ja",
+    "sha256": "9b24bc60c5c4e7c2c56d0cc41da2fb4a0b5b8b96733d5ec6315dd9f43eefb2f6",
+    "bodySha256": "320550d013a2ad073a4313f7d8f218165c17d19817123882f2720b556433a5e6",
+    "origin": "site-original",
+    "published": true,
+    "publishDate": "2024-09-15",
+    "author": "KAMITSUBAKI 資料整理委員会",
+    "relatedEntities": []
+  },
+  {
+    "file": "docs/archive/articles/archival/chronicle-style-and-live-study/zh.md",
+    "id": "chronicle-style-and-live-study",
+    "locale": "zh",
+    "sha256": "2d10ad5a0a731f3dd617a5eade0b2a4fe2d14b74e70bfbacf7eeb17d5cf6900d",
+    "bodySha256": "dcd1ad98b4a4472e1b7986d4d55e057a8fd01629f30aa91faae4934696af0b7c",
+    "origin": "site-original",
+    "published": true,
+    "publishDate": "2024-09-15",
+    "author": "KAMITSUBAKI 资料整理委员会",
+    "relatedEntities": [
+      "kaf",
+      "vwp",
+      "dustcell",
+      "valis",
+      "sinka-live"
+    ]
+  },
+  {
+    "file": "docs/archive/articles/archival/conflict-resolutions/en.md",
+    "id": "conflict-resolutions",
+    "locale": "en",
+    "sha256": "ef948d8b4ab6e839412168f0144896f460b1bc31c6504532a195e50ce28d36df",
+    "bodySha256": "1bcb578694bfc3657d8f0cfe059403989afa8d074f542adc5abfee230c53f903",
+    "origin": "site-original",
+    "published": true,
+    "publishDate": "2024-09-01",
+    "author": "KAMITSUBAKI Archival Committee",
+    "relatedEntities": []
+  },
+  {
+    "file": "docs/archive/articles/archival/conflict-resolutions/ja.md",
+    "id": "conflict-resolutions",
+    "locale": "ja",
+    "sha256": "c42bc8b9b3c1eefdc52a2fc966bd9ba8d5a140347a1900bedc978dea08eb3a58",
+    "bodySha256": "40d5efb9b76d3b0f4583d9900f9f15e70c4e6c5bb26aefbe6108b8ab12d8fd07",
+    "origin": "site-original",
+    "published": true,
+    "publishDate": "2024-09-01",
+    "author": "KAMITSUBAKI 資料整理委員会",
+    "relatedEntities": []
+  },
+  {
+    "file": "docs/archive/articles/archival/conflict-resolutions/zh.md",
+    "id": "conflict-resolutions",
+    "locale": "zh",
+    "sha256": "72c1a1492f5695040ad338980940fb03116c92cde1eef6faffce0312078864e5",
+    "bodySha256": "68a86fd93f7eecfa3b84b7ea56932d7bfad29d493fe4dee5eaaf649893a50a5d",
+    "origin": "site-original",
+    "published": true,
+    "publishDate": "2024-09-01",
+    "author": "KAMITSUBAKI 资料整理委员会",
+    "relatedEntities": [
+      "kaf",
+      "rim",
+      "harusaruhi",
+      "isekaijoucho",
+      "koko",
+      "vwp",
+      "kaika"
+    ]
+  },
+  {
+    "file": "docs/archive/articles/archival/cross-source-comparison/en.md",
+    "id": "cross-source-comparison",
+    "locale": "en",
+    "sha256": "92c30e9e62eccd9a712524970cbb1c2734c7a69317f1f181739d0ddc4cf97653",
+    "bodySha256": "b84a37783affcb7c5175fbb43db6376fe3c0bfe6e86958f1d821182cc44c9d94",
+    "origin": "site-original",
+    "published": true,
+    "publishDate": "2024-09-10",
+    "author": "KAMITSUBAKI Archival Committee",
+    "relatedEntities": []
+  },
+  {
+    "file": "docs/archive/articles/archival/cross-source-comparison/ja.md",
+    "id": "cross-source-comparison",
+    "locale": "ja",
+    "sha256": "0b77c24622faefefea0d918c9d2eeef474b32bec9c38dcf459a2ff960ad74b8c",
+    "bodySha256": "d746b74c9d465a4f5fddc9adde670099a2b60bc8858027010f20a724ce5da094",
+    "origin": "site-original",
+    "published": true,
+    "publishDate": "2024-09-10",
+    "author": "KAMITSUBAKI 資料整理委員会",
+    "relatedEntities": []
+  },
+  {
+    "file": "docs/archive/articles/archival/cross-source-comparison/zh.md",
+    "id": "cross-source-comparison",
+    "locale": "zh",
+    "sha256": "9a635c9a772b6810e658e4a39ffd55d5e9830e90cd2e77a95b1fec253707a161",
+    "bodySha256": "ce0769a6975d0d3da0491873b2ab0b8be88a011aca35370c5ed2f878507fe3e0",
+    "origin": "site-original",
+    "published": true,
+    "publishDate": "2024-09-10",
+    "author": "KAMITSUBAKI 资料整理委员会",
+    "relatedEntities": [
+      "kaf",
+      "vwp",
+      "thinkr",
+      "kamitsubaki-studio"
+    ]
+  },
+  {
+    "file": "docs/archive/articles/art-philosophy/kaika-artistic-evolution/en.md",
+    "id": "kaika-artistic-evolution",
+    "locale": "en",
+    "sha256": "62b900325441a9dd3f17873d8281839013219f1e4144b5f6fc67d2dd656d1680",
+    "bodySha256": "260f78cb986f856de275a381a3d6270e55d5e6e063ec41107e46715225765100",
+    "origin": "site-original",
+    "published": true,
+    "publishDate": "2024-04-25",
+    "author": "KAMITSUBAKI Research Group",
+    "relatedEntities": []
+  },
+  {
+    "file": "docs/archive/articles/art-philosophy/kaika-artistic-evolution/ja.md",
+    "id": "kaika-artistic-evolution",
+    "locale": "ja",
+    "sha256": "4f7317dc28031f459f6badd19067d66b1c333c5ac54ed6fb75e3c80a0b88b1bf",
+    "bodySha256": "72c92f4a7b750d29bae01e2d6b198666f65807be41fdd118be07e4ef732a4368",
+    "origin": "site-original",
+    "published": true,
+    "publishDate": "2024-04-25",
+    "author": "KAMITSUBAKI 研究チーム",
+    "relatedEntities": []
+  },
+  {
+    "file": "docs/archive/articles/art-philosophy/kaika-artistic-evolution/zh.md",
+    "id": "kaika-artistic-evolution",
+    "locale": "zh",
+    "sha256": "2d30c16c57ce37e5c33e5ef78a57ede905deccf34c2d813bcf3d254096e3b497",
+    "bodySha256": "c4cedae84b8e7da9f51f72223fe5ee91755f59eb17ddf1bf2a0d42d918d9a82a",
+    "origin": "site-original",
+    "published": true,
+    "publishDate": "2024-04-25",
+    "author": "KAMITSUBAKI 研究团队 & 观测者档案室",
+    "relatedEntities": [
+      "kaf",
+      "kaika",
+      "kanzaki-iori"
+    ]
+  },
+  {
+    "file": "docs/archive/articles/business/thinkr-capital-and-mbo-study/en.md",
+    "id": "thinkr-capital-and-mbo-study",
+    "locale": "en",
+    "sha256": "000a9054d0f1b9d937a8c5405e0462647f987589aebac0ace32d0b3812752b06",
+    "bodySha256": "f643b076d8eba6e1b4d2f7e1da1bd283327f8696b317453eaf939a968860d820",
+    "origin": "site-original",
+    "published": true,
+    "publishDate": "2024-08-01",
+    "author": "KAMITSUBAKI Industry Research Group",
+    "relatedEntities": []
+  },
+  {
+    "file": "docs/archive/articles/business/thinkr-capital-and-mbo-study/ja.md",
+    "id": "thinkr-capital-and-mbo-study",
+    "locale": "ja",
+    "sha256": "46e103ea3a8aaa0d1d351aa29a925dd001da4b518e45c5bc4c4cb2742e608295",
+    "bodySha256": "4efe479ddf0e9631ee2015b0a65939e3c812db3c10edc5703be2a831393d7a01",
+    "origin": "site-original",
+    "published": true,
+    "publishDate": "2024-08-01",
+    "author": "KAMITSUBAKI 産業調査チーム",
+    "relatedEntities": []
+  },
+  {
+    "file": "docs/archive/articles/business/thinkr-capital-and-mbo-study/zh.md",
+    "id": "thinkr-capital-and-mbo-study",
+    "locale": "zh",
+    "sha256": "4d9d84315ee8f76323ed6871d304e3378d7b61051d4081d05ab9181f113c5dac",
+    "bodySha256": "2bb78b43aa6e6ac17de3669f0f9bc9ac5f8f463410336ef38cb1d254aa920467",
+    "origin": "site-original",
+    "published": true,
+    "publishDate": "2024-08-01",
+    "author": "KAMITSUBAKI 产业观察组",
+    "relatedEntities": [
+      "thinkr",
+      "kamitsubaki-studio",
+      "pndr"
+    ]
+  },
+  {
+    "file": "docs/archive/articles/infrastructure/pndr-business-model/en.md",
+    "id": "pndr-business-model",
+    "locale": "en",
+    "sha256": "6e8f1db75938e4671083e84b0e025157f3c53d8bc8dc523cf06cdd332e183999",
+    "bodySha256": "4a837bb29316010c0657ddeef6d5afeb8628a885ede37a1a3bf2719d0851425b",
+    "origin": "site-original",
+    "published": true,
+    "publishDate": "2024-08-15",
+    "author": "KAMITSUBAKI Industry Research Group",
+    "relatedEntities": []
+  },
+  {
+    "file": "docs/archive/articles/infrastructure/pndr-business-model/ja.md",
+    "id": "pndr-business-model",
+    "locale": "ja",
+    "sha256": "07d4fad2f9be43e168fb5d1951248bd51d5c33f71611cf26ec4c536144bf9321",
+    "bodySha256": "4cc69deeacf0dd27c309f2e97ca5063d57b515cd564693269563e0ef5c8b9988",
+    "origin": "site-original",
+    "published": true,
+    "publishDate": "2024-08-15",
+    "author": "KAMITSUBAKI 産業調査チーム",
+    "relatedEntities": []
+  },
+  {
+    "file": "docs/archive/articles/infrastructure/pndr-business-model/zh.md",
+    "id": "pndr-business-model",
+    "locale": "zh",
+    "sha256": "b0f76e2f3b9761490a297eb3c0746750d47f00df4ba33867dc34696e8b848116",
+    "bodySha256": "d00ed52755e9dd193c26cb64aa98c16d8558efe0cc486e1df3cb25992f97fec9",
+    "origin": "site-original",
+    "published": true,
+    "publishDate": "2024-08-15",
+    "author": "KAMITSUBAKI 产业观察组",
+    "relatedEntities": [
+      "thinkr",
+      "kamitsubaki-studio",
+      "pndr"
+    ]
+  }
+]

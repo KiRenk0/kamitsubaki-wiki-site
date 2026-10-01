@@ -1,0 +1,69 @@
+---
+import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
+import WorkspaceLinkCard from '../../../components/WorkspaceLinkCard.astro';
+import {supportedLocales,resolveLocaleCopy} from '../../../lib/i18n.mjs';
+import {featuresFor} from '../../../lib/siteFeatures.mjs';
+export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
+const {locale='zh'}=Astro.params;
+const section=featuresFor(locale,'main').find(item=>item.id==='explore')!;
+const features=featuresFor(locale,'explore');
+const chronicle=features.find(item=>item.id==='chronicle')!;
+const gallery=features.find(item=>item.id==='gallery')!;
+const rest=features.filter(item=>item.section==='connections');
+const copy=resolveLocaleCopy({
+ zh:{lead:'从一条线索，走进神椿。',leadNote:'想知道一件事发生在何时，或想看清一张照片？从时间与影像开始，再沿关联阅读人物与世界。',timeKicker:'01 / 按时间阅读',timeAction:'打开剪辑式时间轴',imageKicker:'02 / 按影像阅读',imageAction:'浏览图片档案',more:'继续探索',moreNote:'从一个人物、一部作品或一段故事，找到下一条线索。',journal:'站点公告',journalNote:'阅读网站更新和历史记录。',journalAction:'阅读公告历史'},
+ ja:{lead:'ひとつの手がかりから、神椿へ。',leadNote:'出来事がいつ起きたか、写真を詳しく見たいときは、時間と画像から始めましょう。',timeKicker:'01 / 時間から読む',timeAction:'トラック型の年代記を開く',imageKicker:'02 / 画像から読む',imageAction:'画像アーカイブを見る',more:'さらに探索',moreNote:'人物・作品・物語のつながりから次の手がかりへ。',journal:'サイトのお知らせ',journalNote:'更新履歴と過去のお知らせを読む。',journalAction:'お知らせ一覧へ'},
+ en:{lead:'Start with one thread. Explore KAMITSUBAKI.',leadNote:'Find when something happened, examine photos and visual references, then follow the connections between people and worlds.',timeKicker:'01 / Explore by time',timeAction:'Open the track timeline',imageKicker:'02 / Explore by image',imageAction:'Browse the image archive',more:'Follow the connections',moreNote:'Move from a person, work or story to the next thread.',journal:'Site announcements',journalNote:'Read updates and the complete notice history.',journalAction:'Read the archive'}
+},locale);
+---
+<WorkspaceLayout locale={locale} title={section.title} intro={section.summary} path="/explore/" eyebrow="EXPLORE" backHref={`/${locale}/`} backLabel={locale==='en'?'Home':locale==='ja'?'ホーム':'首页'} width="wide" mainAttributes={{class:'explore-page'}}>
+  <div class="explore-introduction"><h2>{copy.lead}</h2><p>{copy.leadNote}</p></div>
+  <div class="explore-paths">
+    <a class="explore-path explore-path--time" href={chronicle.href}>
+      <span class="explore-path__kicker">{copy.timeKicker}</span>
+      <div class="explore-path__graphic explore-path__graphic--time" aria-hidden="true"><span><i></i><i></i><i></i></span><span><i></i><i></i></span><span><i></i><i></i><i></i></span><b></b></div>
+      <span class="explore-path__copy"><strong>{chronicle.title}</strong><small>{chronicle.summary}</small></span>
+      <span class="explore-path__action">{copy.timeAction} <span aria-hidden="true">↗</span></span>
+    </a>
+    <a class="explore-path explore-path--gallery" href={gallery.href}>
+      <span class="explore-path__kicker">{copy.imageKicker}</span>
+      <div class="explore-path__graphic explore-path__graphic--gallery" aria-hidden="true"><img src="/images/artists/kaf.jpg" alt="" loading="lazy"/><img src="/images/artists/kafu.jpg" alt="" loading="lazy"/></div>
+      <span class="explore-path__copy"><strong>{gallery.title}</strong><small>{gallery.summary}</small></span>
+      <span class="explore-path__action">{copy.imageAction} <span aria-hidden="true">↗</span></span>
+    </a>
+  </div>
+  <section class="explore-related"><header><span>03 / CONNECTIONS</span><h2>{copy.more}</h2><p>{copy.moreNote}</p></header><div>{rest.map((item,index)=><WorkspaceLinkCard href={item.href} index={String(index+1).padStart(2,'0')} title={item.title} description={item.summary}/>)}</div></section>
+  <a class="explore-journal" href={`/${locale}/announcements/`}><span>SITE / JOURNAL</span><strong>{copy.journal}</strong><small>{copy.journalNote}</small><b>{copy.journalAction} ↗</b></a>
+</WorkspaceLayout>
+<style>
+.explore-introduction{display:grid;grid-template-columns:minmax(0,1fr) minmax(240px,440px);gap:36px;align-items:end;margin:4px 0 32px}
+.explore-introduction h2{max-width:100%;margin:0;font:400 clamp(27px,3.4vw,43px)/1.35 var(--font-serif);text-wrap:balance}
+.explore-introduction p{max-width:44ch;margin:0;color:var(--workspace-muted);font:14px/1.9 var(--font-sans)}
+.explore-paths{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.explore-path{display:flex;flex-direction:column;min-width:0;min-height:445px;padding:24px;border:1px solid var(--workspace-line);border-radius:var(--workspace-radius);background:var(--workspace-surface);color:var(--theme-fg);text-decoration:none;transition:border-color 180ms,transform 180ms}
+.explore-path:hover{border-color:var(--theme-accent-color);transform:translateY(-3px)}
+.explore-path__kicker,.explore-related header>span,.explore-journal>span{font:10px/1.5 var(--font-mono);letter-spacing:.1em;color:var(--workspace-muted)}
+.explore-path__graphic{position:relative;display:flex;align-items:center;justify-content:center;height:212px;margin:24px 0;border:1px solid var(--workspace-line);overflow:hidden;background:var(--theme-bg)}
+.explore-path__graphic--time{flex-direction:column;gap:16px;padding:20px}
+.explore-path__graphic--time>span{display:flex;gap:9px;width:100%;height:36px;padding:7px 0;border-block:1px solid var(--workspace-line)}
+.explore-path__graphic--time i{display:block;height:100%;border:1px solid var(--theme-fg);border-left:3px solid var(--theme-accent-color);background:rgb(var(--theme-fg-rgb)/.065)}
+.explore-path__graphic--time>span:nth-child(1) i:nth-child(1){width:16%}.explore-path__graphic--time>span:nth-child(1) i:nth-child(2){width:30%}.explore-path__graphic--time>span:nth-child(1) i:nth-child(3){width:12%}
+.explore-path__graphic--time>span:nth-child(2){padding-left:11%}.explore-path__graphic--time>span:nth-child(2) i:nth-child(1){width:36%}.explore-path__graphic--time>span:nth-child(2) i:nth-child(2){width:19%}
+.explore-path__graphic--time>span:nth-child(3){padding-left:5%}.explore-path__graphic--time>span:nth-child(3) i:nth-child(1){width:15%}.explore-path__graphic--time>span:nth-child(3) i:nth-child(2){width:22%}.explore-path__graphic--time>span:nth-child(3) i:nth-child(3){width:27%}
+.explore-path__graphic--time b{position:absolute;left:49%;inset-block:15px;width:1px;background:var(--theme-accent-color)}
+.explore-path__graphic--time b::before{content:'';position:absolute;top:0;left:-5px;width:11px;height:12px;background:var(--theme-accent-color)}
+.explore-path__graphic--gallery{gap:10px;padding:14px}
+.explore-path__graphic--gallery img{width:calc(50% - 5px);height:100%;object-fit:cover}
+.explore-path__graphic--gallery img:first-child{object-position:center 30%}
+.explore-path__copy{display:grid;gap:6px}.explore-path__copy strong{font:400 26px/1.4 var(--font-serif)}.explore-path__copy small{font:12px/1.7 var(--font-sans);color:var(--workspace-muted)}
+.explore-path__action{display:flex;justify-content:space-between;gap:12px;margin-top:auto;padding-top:22px;border-top:1px solid var(--workspace-line);font:12px var(--font-sans)}
+.explore-path__action>span{font-size:19px}
+.explore-related{display:grid;grid-template-columns:minmax(220px,1fr) minmax(0,2fr);gap:24px 50px;margin-top:62px;border-top:1px solid var(--workspace-line);padding-top:30px}
+.explore-related h2{margin:10px 0 8px;font:400 27px/1.4 var(--font-serif)}.explore-related p{max-width:35ch;color:var(--workspace-muted);font:13px/1.8 var(--font-sans)}
+.explore-journal{display:grid;grid-template-columns:145px minmax(120px,1fr) minmax(180px,2fr) auto;align-items:center;gap:16px;margin-top:38px;padding:23px 0;border-block:1px solid var(--workspace-line);color:var(--theme-fg);text-decoration:none}
+.explore-journal strong{font:400 19px var(--font-serif)}.explore-journal small{font:12px/1.6 var(--font-sans);color:var(--workspace-muted)}.explore-journal b{font:12px var(--font-sans)}
+.explore-journal:hover b{color:var(--theme-accent-color)}
+@media(max-width:850px){.explore-introduction{grid-template-columns:1fr;gap:12px}.explore-paths{grid-template-columns:1fr}.explore-path{min-height:400px}.explore-related{grid-template-columns:1fr}.explore-journal{grid-template-columns:1fr 1fr}.explore-journal small{grid-column:1/-1}.explore-journal b{text-align:right}}
+@media(max-width:600px){.explore-path{padding:18px;min-height:380px}.explore-path__graphic{height:190px}.explore-journal{gap:8px}.explore-journal>span{grid-column:1/-1}}
+@media(prefers-reduced-motion:reduce){.explore-path{transition:none}.explore-path:hover{transform:none}}
+</style>

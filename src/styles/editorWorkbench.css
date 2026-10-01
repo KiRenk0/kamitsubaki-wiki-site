@@ -1,13 +1,13 @@
 body:has(.ve-workbench) { overflow:hidden; }
 body:has(.ve-workbench) > :is(.noise-bg,#preloader,.tools-dock,.ai-chat,.ai-chat-launcher,.ai-chat__launcher,.site-search) { display:none !important; }
-html body .ve-workbench { --ve-paper:var(--theme-bg); --ve-surface:var(--theme-panel-solid); --ve-muted:rgb(var(--theme-fg-rgb)/.55); --ve-select-bg:color-mix(in srgb, var(--theme-panel-solid) 97%, var(--theme-fg)); position:relative; z-index:20; display:flex; flex-direction:column; width:100%; height:100dvh; max-width:none; margin:0; padding:0; background:var(--ve-paper); font:13px/1.65 var(--font-sans); }
+html body .ve-workbench { --ve-paper:var(--theme-bg); --ve-surface:var(--theme-panel-solid); --ve-muted:rgb(var(--theme-fg-rgb)/.62); --theme-accent-color:var(--ui-accent-color); --theme-accent-rgb:var(--ui-accent-rgb); --ve-select-bg:color-mix(in srgb, var(--theme-panel-solid) 97%, var(--theme-fg)); position:relative; z-index:20; display:flex; flex-direction:column; width:100%; height:100dvh; max-width:none; margin:0; padding:0; background:var(--ve-paper); font:13px/1.65 var(--font-sans); }
 html[data-theme='light'] .ve-workbench { --ve-paper:#fff; --ve-surface:#f8f9fa; }
 html body .ve-workbench :is(button,input,select,textarea) { font-family:var(--font-sans); letter-spacing:0; }
 html body .ve-workbench :is(button,summary,a) { cursor:pointer !important; }
 html body .ve-workbench :is(button,input,select,textarea):focus-visible { outline:2px solid var(--theme-accent-color); outline-offset:-2px; }
-html body .ve-workbench button { min-height:30px; padding:4px 9px; font-size:12px; border-radius:5px; }
-.ve-topbar { flex-shrink:0; display:flex; height:56px; align-items:center; gap:18px; padding:0 18px; border-bottom:1px solid var(--ui-line); }
-.ve-home { font-size:15px; white-space:nowrap; color:var(--theme-accent-color); }
+html body .ve-workbench button { min-height:30px; padding:4px 9px; font-size:12px; border-radius:var(--ui-radius-control); }
+.ve-topbar { flex-shrink:0; display:flex; min-height:60px; align-items:center; gap:18px; padding:0 18px; border-bottom:1px solid var(--ui-line); }
+.ve-home { font-size:13px; white-space:nowrap; color:var(--theme-fg); display:inline-flex;align-items:center;min-height:38px; }
 .ve-topbar h1 { font:600 15px var(--font-sans); margin:0; white-space:nowrap; border-left:1px solid var(--ui-line); padding-left:18px; }
 html body .ve-command-trigger { display:flex; align-items:center; gap:9px; width:min(32vw,390px); margin-inline:auto; color:var(--ve-muted); background:var(--ve-surface); text-align:left; }
 .ve-command-trigger svg { width:16px; height:16px; flex-shrink:0; }
@@ -16,7 +16,7 @@ html body .ve-command-trigger { display:flex; align-items:center; gap:9px; width
 .ve-command-trigger kbd { margin-left:auto; }
 .ve-top-actions { display:flex; align-items:center; gap:8px; white-space:nowrap; }
 .ve-export-menu,.ve-theme-menu { position:relative; }
-.ve-export-menu > summary { padding:7px 14px; border-radius:5px; list-style:none; background:var(--theme-accent-color); color:var(--theme-bg); font-size:12px; font-weight:600; }
+.ve-export-menu > summary { padding:7px 14px; border-radius:var(--ui-radius-control); list-style:none; background:var(--theme-accent-color); color:var(--theme-bg); font-size:12px; font-weight:600; }
 .ve-export-menu > div,.ve-theme-menu > div { position:absolute; z-index:70; right:0; top:calc(100% + 8px); width:250px; padding:8px; background:var(--ve-paper); border:1px solid var(--ui-line); border-radius:7px; box-shadow:0 8px 28px #0002; white-space:normal; }
 .ve-export-menu > div :is(button,a) { display:block; width:100%; margin-bottom:4px; text-align:left; }
 .ve-export-menu p { font-size:11px; line-height:1.6; margin:10px 4px 4px; color:var(--ve-muted); }
@@ -24,7 +24,7 @@ html body .ve-workbench .ve-workspace { flex:1; min-height:0; display:grid; grid
 .ve-activity { display:flex; flex-direction:column; align-items:stretch; border-right:1px solid var(--ui-line); background:var(--ve-surface); padding:8px 3px; gap:8px; }
 html body .ve-activity button { display:flex; flex-direction:column; align-items:center; gap:4px; min-height:52px; border:0; border-radius:0; background:transparent; padding:6px 2px; color:var(--ve-muted); font-size:9px; line-height:1.3; }
 .ve-activity svg { width:22px; height:22px; }
-html body .ve-activity button[aria-pressed='true'] { color:var(--theme-accent-color); box-shadow:-3px 0 var(--theme-accent-color); background:rgb(var(--theme-accent-rgb)/.045); }
+html body .ve-activity button[aria-pressed='true'] { color:var(--theme-fg); box-shadow:inset 2px 0 var(--theme-fg); background:rgb(var(--theme-fg-rgb)/.055); }
 .ve-rail-bottom { margin-top:auto; }
 .ve-sidebar { overflow:auto; border-right:1px solid var(--ui-line); background:var(--ve-surface); min-width:0; }
 .ve-sidebar > section { padding:0 15px 18px; }
@@ -36,10 +36,9 @@ html body [data-outline] button { display:flex; align-items:center; gap:8px; wid
 [data-outline] button span { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
 [data-outline] button small { font:10px var(--font-mono); flex-shrink:0; }
 html body [data-outline] button.is-active { color:var(--theme-accent-color); background:rgb(var(--theme-accent-rgb)/.07); }
-.ve-sidebar-hint { margin-top:28px; }
 html body .ve-workbench .ve-settings { border:0; padding:0 15px 18px; }
 html body .ve-workbench label { font-size:11px; gap:5px; margin-bottom:12px; }
-html body .ve-workbench label > span { display:inline; color:var(--theme-accent-color); }
+html body .ve-workbench label > span { display:inline; color:var(--ve-muted); }
 html body .ve-workbench input,html body .ve-workbench select { min-height:32px; padding:5px 8px; font-size:12px; }
 html body .ve-workbench .ve-compose { display:flex; flex-direction:column; min-width:0; overflow:hidden; border-right:1px solid var(--ui-line); }
 .ve-editor-tabs { display:flex; align-items:center; gap:0; height:44px; min-height:44px; border-bottom:1px solid var(--ui-line); padding:0 12px; }
@@ -53,7 +52,7 @@ html body .ve-toolbar button { background:transparent; min-height:28px; padding:
 .ve-canvas { overflow:auto; padding:32px clamp(20px,3vw,46px) 100px; flex:1; min-height:0; }
 html body .ve-workbench .ve-title-input { padding:0; border:0; border-radius:0; background:transparent; font:500 32px/1.5 var(--font-serif); margin-bottom:24px; }
 html body .ve-workbench .ve-block { position:relative; border:1px solid transparent; border-left:2px solid transparent; border-radius:2px; padding:6px 10px; margin:0 -10px 14px; background:transparent; }
-html body .ve-workbench .ve-block.is-active { border-color:var(--ui-line); border-left-color:var(--theme-accent-color); }
+html body .ve-workbench .ve-block.is-active { border-color:transparent; border-left-color:var(--theme-accent-color); }
 html body .ve-workbench .ve-block > header { position:absolute; z-index:3; left:0; top:-27px; right:0; display:none; gap:4px; margin:0; justify-content:flex-end; pointer-events:none; }
 html body .ve-workbench .ve-block:is(.is-active,:focus-within) > header { display:flex; }
 html body .ve-block > header button { pointer-events:auto; background:var(--ve-paper); border:1px solid var(--ui-line); padding:1px 6px; min-height:24px; font-size:11px; }
@@ -98,13 +97,13 @@ html body .ve-statusbar button,html body .ve-statusbar select { border:0; backgr
 .ve-status-right { display:flex; align-items:center; gap:12px; margin-left:auto; flex-shrink:0; white-space:nowrap; }
 .ve-status-right > * { flex-shrink:0; }
 .ve-status-right select { max-width:125px; width:auto; }
-.ve-theme-menu > div { top:auto; bottom:calc(100% + 8px); width:150px; }
+.ve-theme-menu > div { top:auto; bottom:calc(100% + 8px); width:280px; }
 /* Chromium paints the native select dropdown with the control's computed background over a white popup canvas, so dark mode needs an opaque dark select surface and explicit option colors. */
 html body .ve-workbench select,html body .ve-workbench .ve-statusbar select { color-scheme:dark; background-color:var(--ve-select-bg); }
 html body .ve-workbench select option { color-scheme:dark; background-color:var(--ve-select-bg); color:rgb(var(--theme-fg-rgb)/.75); }
 html[data-theme='light'] .ve-workbench select,html[data-theme='light'] .ve-workbench .ve-statusbar select { color-scheme:light; background-color:transparent; }
 html[data-theme='light'] .ve-workbench select option { color-scheme:light; background-color:transparent; color:inherit; }
-.ve-theme-menu button { display:block; width:100%; text-align:left; }
+.ve-theme-menu button { text-align:left; }
 .ve-problems { border-top:1px solid var(--ui-line); padding:0 24px 12px; max-height:230px; overflow:auto; background:var(--ve-surface); font-size:12px; }
 .ve-problems .ve-panel-heading { margin-bottom:6px; min-height:32px; }
 html body [data-validation] button { margin:3px 5px 3px 0; color:var(--theme-accent-color); }
@@ -172,7 +171,7 @@ html body .ve-toolbar [data-inline-preset] { display:inline-flex; align-items:ce
 html body .ve-workbench .ve-highlight-tool { text-decoration:underline; text-decoration-color:var(--theme-accent-color); text-decoration-thickness:3px; text-underline-offset:3px; }
 .ve-format-more { position:relative; }
 .ve-format-more > summary { padding:0 9px; font-size:18px; list-style:none; line-height:26px; }
-.ve-format-more > div { position:absolute; top:100%; left:0; z-index:25; min-width:150px; padding:6px; background:var(--ve-paper); border:1px solid var(--ui-line); border-radius:6px; box-shadow:0 6px 24px #0002; }
+.ve-format-more > div { position:absolute; top:100%; left:0; z-index:25; min-width:280px; padding:6px; background:var(--ve-paper); border:1px solid var(--ui-line); border-radius:6px; box-shadow:0 6px 24px #0002; }
 html body .ve-format-more > div button { width:100%; display:block; text-align:left; border:0; }
 .ve-selection-toolbar { position:fixed; z-index:45; display:flex; align-items:center; gap:2px; padding:5px; background:var(--ve-paper); border:1px solid var(--ui-line); border-radius:7px; box-shadow:0 5px 22px #0002; max-width:calc(100vw - 16px); }
 html body .ve-selection-toolbar button { background:transparent; border:0; padding:4px 8px; white-space:nowrap; }
@@ -193,7 +192,6 @@ html body .ve-workbench .ve-entry-result { display:block; width:100%; max-width:
 .ve-entry-result strong { display:block; font-size:13px; line-height:1.6; font-weight:600; }
 .ve-entry-result small { display:block; font:10px/1.65 var(--font-mono); color:var(--ve-muted); overflow-wrap:anywhere; }
 .ve-entry-kind { display:inline-block; margin:5px 0; color:var(--theme-accent-color); font-size:10px; }
-.ve-help-link { display:inline-block; padding:8px 0; color:var(--theme-accent-color); font-size:12px; }
 .ve-workbench .ve-rich :is(ul,ol) { margin:6px 0; padding-inline-start:26px; }
 .ve-workbench .ve-rich li { padding-inline-start:3px; margin:3px 0; }
 .ve-workbench .ve-rich li::marker { color:var(--ve-muted); font-variant-numeric:tabular-nums; }
@@ -205,12 +203,13 @@ html body .ve-workbench .ve-rich h2 { font-size:24px; }
 html body .ve-workbench .ve-rich h3 { font-size:20px; }
 html body .ve-workbench .ve-rich :is(h4,h5,h6) { font-size:17px; }
 html body .ve-workbench .ve-block { border-radius:6px; }
-html body .ve-workbench .ve-block:focus-within { border-color:rgb(var(--theme-fg-rgb)/.12); border-left-color:var(--theme-accent-color); }
+html body .ve-workbench .ve-block:focus-within { border-color:transparent; border-left-color:var(--theme-accent-color); }
 .ve-top-actions { flex-wrap:wrap; }
-.ve-topbar { height:auto; min-height:56px; padding-block:8px; }
+.ve-topbar { height:auto; min-min-height:60px; padding-block:8px; }
 .ve-selection-toolbar { flex-wrap:wrap; }
 html body .ve-workbench .ve-activity button { border-radius:6px; }
 .ve-pr-banner { flex-wrap:wrap; overflow-wrap:anywhere; }
+.ve-pr-banner[data-article-status]:empty{display:none}
 @media (max-width:900px) {
  .ve-workspace { position:relative; }
  .ve-sidebar { top:0; bottom:0; width:min(300px,calc(100vw - 62px)); }
@@ -234,13 +233,12 @@ html body .ve-workbench .ve-toolbar button, .ve-toolbar > .ve-format-more > summ
 /* Rebuilding blocks must not animate the caret or surrounding text. */
 html body .ve-workbench .ve-block { animation:none; }
 
-html body .ve-workbench .ve-properties-entry { border-color:rgb(var(--theme-accent-rgb)/.35); color:var(--theme-accent-color); background:rgb(var(--theme-accent-rgb)/.07); }
-html body .ve-workbench .ve-document-properties { display:flex; flex-wrap:wrap; align-items:center; gap:4px 16px; width:100%; padding:12px 14px; margin:0 0 24px; text-align:left; border:1px solid var(--ui-line); border-radius:6px; background:var(--ve-surface); }
-.ve-document-properties-title { color:var(--theme-accent-color); font-weight:600; white-space:nowrap; }
-.ve-document-properties-hint { color:var(--ve-muted); font-size:12px; line-height:1.6; }
+html body .ve-workbench .ve-properties-entry { border-color:var(--ui-line); color:var(--theme-fg); background:transparent; }
+html body .ve-workbench .ve-document-properties { display:inline-flex; align-items:center; min-height:38px; width:auto; padding:6px 0; margin:0 0 16px; text-align:left; border:0; border-bottom:1px solid var(--ui-line); border-radius:0; background:transparent; }
+.ve-document-properties-title { color:var(--ve-muted); font-size:12px; font-weight:500; white-space:nowrap; }
 html body .ve-workbench :is(.ve-properties-entry,.ve-document-properties)[aria-pressed='true'] { border-color:var(--theme-accent-color); }
 
-html body .ve-workbench .ve-toolbar-arrow { flex:0 0 24px; width:24px; padding:0; font-size:20px; border-color:transparent; color:var(--theme-accent-color); }
+html body .ve-workbench .ve-toolbar-arrow { flex:0 0 28px; width:28px; padding:0; font-size:20px; border-color:transparent; color:var(--ve-muted); }
 html body .ve-workbench .ve-toolbar-arrow:disabled { opacity:.25; cursor:default !important; }
 
 .ve-entry-dialog { width:min(580px,calc(100vw - 32px)); padding:24px; overflow:auto; }
@@ -252,3 +250,92 @@ html body .ve-workbench .ve-toolbar-arrow:disabled { opacity:.25; cursor:default
 
 .ve-entry-dialog h2 { margin:0 0 16px; font:600 20px/1.5 var(--font-sans); }
 .ve-entry-dialog [data-previous-draft] { margin-bottom:16px; }
+.article-picker-selected{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}.article-picker-results{display:grid;max-height:280px;overflow:auto;gap:3px}.article-picker-option{display:flex!important;align-items:center;gap:10px;text-align:start;min-height:44px!important;width:100%}.article-picker-option img{width:32px;height:32px;object-fit:cover}.article-picker-option small{display:block;opacity:.65;font-size:10px}.article-picker-selected button{min-height:36px!important}[data-article-picker] input{width:100%}
+
+/* Writing-first shell: utility actions stay available without competing with submit. */
+.ve-tools-menu{position:relative}.ve-tools-menu>summary{cursor:pointer;padding:8px 12px;font-size:12px;list-style:none}.ve-tools-menu>div{position:absolute;right:0;top:calc(100% + 8px);z-index:50;display:grid;min-width:210px;padding:8px;border:1px solid rgb(var(--theme-fg-rgb)/.16);border-radius:8px;background:var(--theme-bg);box-shadow:0 12px 32px #0002}.ve-tools-menu>div button{text-align:left;padding:10px}
+html body .ve-workbench[data-layout='write'] .ve-canvas{max-width:860px;width:100%;margin-inline:auto}
+@media(prefers-reduced-motion:no-preference){.ve-tools-menu[open]>div{animation:ve-tools-in 140ms ease-out}@keyframes ve-tools-in{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}}
+
+.ve-top-save{font:11px/1.5 var(--font-sans);color:rgb(var(--theme-fg-rgb)/.55);white-space:nowrap}.ve-topbar h1{max-width:28ch;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+@media(min-width:1101px){html body .ve-workbench[data-side='properties']:not([data-sidebar-hidden]) .ve-sidebar{grid-column:4;grid-row:1;border-left:1px solid rgb(var(--theme-fg-rgb)/.12)}html body .ve-workbench[data-side='properties']:not([data-sidebar-hidden]) .ve-compose{grid-column:2;grid-row:1}html body .ve-workbench[data-side='properties']:not([data-sidebar-hidden]) .ve-output{grid-column:3;grid-row:1}html body .ve-workbench[data-side='properties'][data-layout='write']:not([data-sidebar-hidden]) .ve-workspace{grid-template-columns:54px minmax(0,1fr) 0 280px}html body .ve-workbench[data-side='properties'][data-layout='split']:not([data-sidebar-hidden]) .ve-workspace{grid-template-columns:54px minmax(260px,1fr) minmax(260px,1fr) 280px}}
+@media(max-width:760px){.ve-top-save{max-width:12ch;white-space:normal}.ve-topbar h1{max-width:16ch}}
+
+html body .ve-workbench .ve-toolbar-scroll button{border-color:transparent;background:transparent;box-shadow:none;border-radius:4px}html body .ve-workbench .ve-toolbar-scroll button:hover{background:rgb(var(--theme-fg-rgb)/.06)}html body .ve-workbench .ve-export-menu>summary{background:transparent;color:var(--theme-fg);border:1px solid rgb(var(--theme-fg-rgb)/.15)}
+
+/* A quiet workbench: document tools stay secondary to writing and submission. */
+html body .ve-workbench .ve-top-actions>button{min-height:36px;padding-inline:12px}
+html body .ve-workbench .ve-top-actions :is(.ve-tools-menu,.ve-export-menu)>summary{min-height:36px;display:flex;align-items:center;padding:6px 10px;border-color:transparent;border-radius:var(--ui-radius-control);transition:background 180ms}
+html body .ve-workbench .ve-top-actions summary:hover{background:var(--ui-hover)}
+html body .ve-workbench .ve-tools-menu>div button{border:0;background:transparent;padding:9px 12px}
+html body .ve-workbench .ve-tools-menu>div button:hover{background:var(--ui-hover)}
+html body .ve-workbench .ve-command-trigger{max-width:220px;border-color:transparent;background:transparent}
+html body .ve-workbench .ve-command-trigger:hover{background:var(--ui-hover)}
+.ve-topbar{column-gap:14px}
+@media(pointer:coarse){html body .ve-workbench :is(button,summary){min-height:44px}.ve-topbar{height:auto;padding-block:8px}}
+@media(max-width:760px){html body .ve-workbench .ve-top-actions>button{min-height:44px}.ve-topbar{height:auto;min-height:60px;row-gap:8px;padding:10px 12px}.ve-top-save{margin-left:auto}.ve-top-actions{width:100%}}
+
+/* Keep the preview present from first paint and animate only deliberate sidebar changes. */
+.ve-mobile-layout{display:none}
+html body .ve-workbench .ve-sidebar{display:block;visibility:visible;opacity:1;min-width:0;overflow-x:hidden;transition:opacity 170ms ease,visibility 0s linear 0s}
+html body .ve-workbench[data-sidebar-hidden] .ve-sidebar{display:block;visibility:hidden;opacity:0;pointer-events:none;transition:opacity 170ms ease,visibility 0s linear 210ms}
+html body .ve-workbench[data-sidebar-hidden][data-layout='split'] .ve-workspace{grid-template-columns:54px 0 minmax(260px,1.2fr) minmax(260px,1fr)}
+html body .ve-workbench[data-sidebar-hidden][data-layout='write'] .ve-workspace,
+html body .ve-workbench[data-sidebar-hidden][data-layout='preview'] .ve-workspace{grid-template-columns:54px 0 minmax(0,1fr)}
+html body .ve-workbench[data-layout='split']:not([data-sidebar-hidden]) .ve-workspace{grid-template-columns:54px 224px minmax(260px,1.2fr) minmax(260px,1fr)}
+html body .ve-workbench[data-layout='write']:not([data-sidebar-hidden]) .ve-workspace,
+html body .ve-workbench[data-layout='preview']:not([data-sidebar-hidden]) .ve-workspace{grid-template-columns:54px 224px minmax(0,1fr)}
+html body .ve-workbench[data-motion-ready] .ve-workspace{transition:grid-template-columns 240ms cubic-bezier(.22,1,.36,1)}
+@media(min-width:1101px){
+ html body .ve-workbench[data-side='properties'] .ve-sidebar{grid-column:4;grid-row:1;border-left:1px solid var(--ui-line);border-right:0}
+ html body .ve-workbench[data-side='properties'] .ve-compose{grid-column:2;grid-row:1}
+ html body .ve-workbench[data-side='properties'] .ve-output{grid-column:3;grid-row:1}
+ html body .ve-workbench[data-side='properties'][data-layout='split'] .ve-workspace{grid-template-columns:54px minmax(260px,1fr) minmax(260px,1fr) 280px}
+ html body .ve-workbench[data-side='properties'][data-layout='split'][data-sidebar-hidden] .ve-workspace{grid-template-columns:54px minmax(260px,1fr) minmax(260px,1fr) 0}
+ html body .ve-workbench[data-side='properties'][data-layout='write'] .ve-workspace,
+ html body .ve-workbench[data-side='properties'][data-layout='preview'] .ve-workspace{grid-template-columns:54px minmax(0,1fr) 0 280px}
+ html body .ve-workbench[data-side='properties'][data-sidebar-hidden][data-layout='write'] .ve-workspace,
+ html body .ve-workbench[data-side='properties'][data-sidebar-hidden][data-layout='preview'] .ve-workspace{grid-template-columns:54px minmax(0,1fr) 0 0}
+}
+.ve-pr-unavailable{display:inline-flex;align-items:center;min-height:36px;padding:0 9px;color:var(--ve-muted);font-size:11px;text-decoration:underline;text-underline-offset:3px}
+.ve-insert-popover{position:fixed;z-index:90;width:min(320px,calc(100vw - 16px));max-height:min(420px,calc(100dvh - 16px));overflow:hidden;border:1px solid var(--ui-line);border-radius:6px;background:var(--ve-paper);box-shadow:0 14px 36px rgb(0 0 0/.16)}
+.ve-insert-search{display:flex;align-items:center;gap:8px;padding:7px 10px;border-bottom:1px solid var(--ui-line)}
+html body .ve-workbench .ve-insert-search input{flex:1;min-width:0;min-height:32px;padding:3px;border:0;background:transparent;outline:0}
+.ve-insert-popover [data-insert-results]{max-height:344px;overflow:auto;padding:5px}
+html body .ve-insert-popover [data-insert-results] button{display:block;width:100%;min-height:38px;border:0;text-align:left;background:transparent;padding:7px 10px}
+html body .ve-insert-popover [data-insert-results] button:is(:hover,[aria-selected='true']){background:var(--ui-hover);color:var(--theme-fg)}
+@media(max-width:900px){
+ html body .ve-workbench .ve-workspace,
+ html body .ve-workbench[data-sidebar-hidden][data-layout='split'] .ve-workspace,
+ html body .ve-workbench[data-layout='split']:not([data-sidebar-hidden]) .ve-workspace,
+ html body .ve-workbench[data-layout='write'] .ve-workspace,
+ html body .ve-workbench[data-layout='preview'] .ve-workspace{grid-template-columns:46px minmax(0,1fr);grid-template-rows:44px minmax(0,1fr)}
+ .ve-mobile-layout{grid-column:2;grid-row:1;display:flex;border-bottom:1px solid var(--ui-line);background:var(--ve-paper)}
+ html body .ve-mobile-layout button{flex:1;border:0;border-radius:0;background:transparent;color:var(--ve-muted)}
+ html body .ve-mobile-layout button[aria-selected='true']{color:var(--theme-fg);box-shadow:inset 0 -2px var(--theme-fg)}
+ .ve-workbench .ve-activity{grid-column:1;grid-row:1 / span 2}
+ html body .ve-workbench .ve-compose,html body .ve-workbench .ve-output{grid-column:2;grid-row:2}
+ html body .ve-workbench .ve-sidebar{position:absolute;z-index:18;top:44px;bottom:0;left:46px;width:min(300px,calc(100vw - 62px));display:block;transform:translateX(0);transition:transform 240ms cubic-bezier(.22,1,.36,1),opacity 170ms ease,visibility 0s linear 0s}
+ html body .ve-workbench[data-sidebar-hidden] .ve-sidebar{transform:translateX(-110%);transition:transform 240ms cubic-bezier(.22,1,.36,1),opacity 170ms ease,visibility 0s linear 240ms}
+ html body .ve-workbench[data-layout='split'] .ve-output{display:none}
+ html body .ve-workbench[data-layout='preview'] .ve-output{display:flex}
+ html body .ve-workbench[data-layout='preview'] .ve-compose{display:none}
+ html body .ve-workbench .ve-statusbar button[data-layout='preview']{display:none}
+}
+@media(prefers-reduced-motion:reduce){html body .ve-workbench .ve-workspace,html body .ve-workbench .ve-sidebar{transition:none!important}.ve-insert-popover{animation:none!important}}
+@media(max-width:900px){
+ html body .ve-workbench[data-sidebar-hidden][data-layout='split'] .ve-workspace,
+ html body .ve-workbench[data-sidebar-hidden][data-layout='write'] .ve-workspace,
+ html body .ve-workbench[data-sidebar-hidden][data-layout='preview'] .ve-workspace,
+ html body .ve-workbench[data-layout='split']:not([data-sidebar-hidden]) .ve-workspace,
+ html body .ve-workbench[data-layout='write']:not([data-sidebar-hidden]) .ve-workspace,
+ html body .ve-workbench[data-layout='preview']:not([data-sidebar-hidden]) .ve-workspace{grid-template-columns:46px minmax(0,1fr);grid-template-rows:44px minmax(0,1fr)}
+}
+@media(max-width:540px){
+ .ve-topbar{align-items:center;row-gap:0;padding:6px 10px}
+ .ve-top-save{flex:1;max-width:none;margin-left:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:10px}
+ html body .ve-command-trigger{flex:0 0 36px;width:36px;min-width:36px;margin-left:0}
+ .ve-command-trigger span,.ve-command-trigger kbd{display:none}
+ .ve-top-actions{width:100%;flex:0 0 100%;justify-content:flex-end;gap:4px}
+ .ve-top-actions [data-pr-open],.ve-top-actions [data-article-submit]{order:-1;margin-right:auto}
+}

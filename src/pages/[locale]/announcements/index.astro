@@ -1,0 +1,72 @@
+---
+import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
+import {getCollection} from 'astro:content';
+import {getLocalizedEntries} from '../../../lib/homeData.mjs';
+import {renderAnnouncement} from '../../../lib/announcements.mjs';
+import {resolveLocaleCopy,supportedLocales} from '../../../lib/i18n.mjs';
+import '../../../styles/announcementReader.css';
+
+export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
+const locale=Astro.params.locale||'zh';
+const copy=resolveLocaleCopy({
+  zh:{title:'站点公告',intro:'阅读每一次站点更新与说明。按日期浏览历史，选择一篇继续阅读。',archive:'公告历史',latest:'最新公告',published:'发布日期',previous:'上一篇',next:'下一篇',chronicle:'在时间轴中查看',empty:'暂无已发布公告',back:'首页'},
+  ja:{title:'サイトのお知らせ',intro:'サイト更新とお知らせを日付順に読むことができます。',archive:'お知らせ一覧',latest:'最新のお知らせ',published:'公開日',previous:'前の記事',next:'次の記事',chronicle:'年代記で見る',empty:'公開済みのお知らせはありません',back:'ホーム'},
+  en:{title:'Site announcements',intro:'Read site updates and notices, then browse the complete archive by date.',archive:'Archive',latest:'Latest notice',published:'Published',previous:'Previous',next:'Next',chronicle:'View on timeline',empty:'No published announcements yet',back:'Home'}
+},locale);
+const entries=getLocalizedEntries(await getCollection('announcements'),locale).filter(entry=>!entry.data.draft).sort((a,b)=>b.data.date.localeCompare(a.data.date)||a.data.title.localeCompare(b.data.title));
+const announcements=(await Promise.all(entries.map(renderAnnouncement))).filter(Boolean).map(item=>({
+  ...item,
+  // Every notice is present in the archive DOM, so heading anchors must be unique per notice.
+  readerHtml:item.html
+    .replace(/\sid="([^"]+)"/g,(_:string,id:string)=>` id="${item.id}--${id}"`)
+    .replace(/\shref="#([^"]+)"/g,(_:string,id:string)=>` href="#${item.id}--${id}"`)
+}));
+---
+<WorkspaceLayout locale={locale} title={copy.title} intro={copy.intro} path="/announcements/" eyebrow="SITE / JOURNAL" width="wide" backHref={`/${locale}/`} backLabel={copy.back} mainAttributes={{class:'announcement-reader-page'}}>
+  {announcements.length?<div class="announcement-reader" data-announcement-reader>
+    <aside class="announcement-reader__archive" aria-label={copy.archive}>
+      <div class="announcement-reader__archive-head"><span>INDEX / {String(announcements.length).padStart(2,'0')}</span><h2>{copy.archive}</h2></div>
+      <nav>{announcements.map((item,index)=><a href={`#${encodeURIComponent(item.id)}`} data-announcement-link={item.id} aria-current={index===0?'true':undefined}>
+        <time>{item.date}</time><span>{item.title}</span><small>{index===0?copy.latest:item.type}</small>
+      </a>)}</nav>
+    </aside>
+    <div class="announcement-reader__pages">{announcements.map((item,index)=><article id={item.id} class="announcement-reader__article" data-announcement-article={item.id} hidden={index!==0} tabindex="-1">
+      <div class="announcement-reader__meta"><span>{item.type}</span><span>{copy.published} <time datetime={item.date.replaceAll('.','-')}>{item.date}</time></span></div>
+      <header><p>NO. {String(announcements.length-index).padStart(2,'0')}</p><h2>{item.title}</h2><p>{item.summary}</p></header>
+      <div class="announcement-reader__body wiki-reader wiki-prose prose prose-invert max-w-none" set:html={item.readerHtml}></div>
+      <footer><a href={`/${locale}/chronicle/?scope=site#site-${encodeURIComponent(item.id)}`}>{copy.chronicle} ↗</a><nav aria-label={copy.archive}>
+        {announcements[index+1]&&<a href={`#${encodeURIComponent(announcements[index+1].id)}`}>← {copy.previous}</a>}
+        {announcements[index-1]&&<a href={`#${encodeURIComponent(announcements[index-1].id)}`}>{copy.next} →</a>}
+      </nav></footer>
+    </article>)}</div>
+  </div>:<p class="announcement-reader__empty">{copy.empty}</p>}
+</WorkspaceLayout>
+<script>
+  const reader=document.querySelector('[data-announcement-reader]');
+  if(reader){
+    const articles=[...reader.querySelectorAll<HTMLElement>('[data-announcement-article]')];
+    const links=[...reader.querySelectorAll<HTMLAnchorElement>('[data-announcement-link]')];
+    let activeId=articles[0]?.dataset.announcementArticle||'';
+    const show=(focus=false)=>{
+      let id='';try{id=decodeURIComponent(location.hash.slice(1));}catch{}
+      const active=articles.find(article=>id===article.dataset.announcementArticle||id.startsWith(`${article.dataset.announcementArticle}--`))
+        ||articles.find(article=>article.dataset.announcementArticle===activeId)||articles[0];
+      activeId=active.dataset.announcementArticle||'';
+      articles.forEach(article=>{article.hidden=article!==active;});
+      links.forEach(link=>{if(link.dataset.announcementLink===active.dataset.announcementArticle)link.setAttribute('aria-current','true');else link.removeAttribute('aria-current');});
+      if(focus){active.focus({preventScroll:true});active.scrollIntoView({block:'start',behavior:'instant'});}
+      else if(id&&id===activeId)requestAnimationFrame(()=>active.scrollIntoView({block:'start',behavior:'instant'}));
+      else if(id.startsWith(`${activeId}--`))requestAnimationFrame(()=>document.getElementById(id)?.scrollIntoView({block:'start',behavior:'instant'}));
+    };
+    reader.addEventListener('click',event=>{
+      const link=(event.target as Element).closest<HTMLAnchorElement>('a[href^="#"]');
+      if(!link||event instanceof MouseEvent&&(event.metaKey||event.ctrlKey||event.shiftKey||event.altKey))return;
+      let targetId='';try{targetId=decodeURIComponent(link.hash.slice(1));}catch{return;}
+      if(!articles.some(article=>article.dataset.announcementArticle===targetId))return;
+      event.preventDefault();history.pushState(null,'',link.hash);show(true);
+    });
+    window.addEventListener('hashchange',()=>show());
+    window.addEventListener('popstate',()=>show());
+    show();
+  }
+</script>

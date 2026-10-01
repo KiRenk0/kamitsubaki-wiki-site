@@ -13,6 +13,10 @@ function getSharedPending(sharedKey) {
   return store.get(sharedKey);
 }
 
+/**
+ * @param {Function} loadCollection
+ * @param {{ enabled?: boolean, sharedKey?: string | null }} options
+ */
 export function createCollectionCache(
   loadCollection,
   { enabled = false, sharedKey = null } = {},

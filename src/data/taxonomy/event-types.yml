@@ -1,0 +1,10 @@
+schemaVersion: 1
+values:
+  - live
+  - release
+  - announcement
+  - organization-change
+  - anime
+  - game
+  - publication
+  - exhibition

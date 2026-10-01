@@ -1,0 +1,15 @@
+schemaVersion: 1
+values:
+  - character-sheet
+  - front-view
+  - back-view
+  - side-view
+  - full-body
+  - close-up
+  - costume
+  - expression-sheet
+  - 3d-model-mesh
+  - concept-art
+  - prop-accessory
+  - official-final
+  - design-draft

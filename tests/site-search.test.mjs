@@ -5,6 +5,7 @@ import test from 'node:test';
 import {
   buildSearchExcerpt,
   normalizeSearchText,
+  searchKindGroups,
   searchResultPath,
   searchSiteIndex,
 } from '../src/lib/siteSearch.mjs';
@@ -85,6 +86,22 @@ test('site search tolerates small Latin-name typos and supports kind filters', (
     searchSiteIndex(entries, 'V.W.P', { locale: 'zh', kind: 'song' }).map((entry) => entry.title),
     ['魔女'],
   );
+});
+
+test('V3 search filters match canonical entity kinds', () => {
+  const records = [
+    { title: '花譜', path: '/zh/database/artists/solo/kaf/', locale: 'zh', kind: 'virtual-avatar' },
+    { title: '花譜 AI', path: '/zh/database/isotopes/kaf-ai/', locale: 'zh', kind: 'software-voice' },
+    { title: '花譜 新曲', path: '/zh/database/music/songs/new/', locale: 'zh', kind: 'work-track' },
+    { title: '花譜 专辑', path: '/zh/database/music/albums/new/', locale: 'zh', kind: 'work-release' },
+    { title: '花譜 演出', path: '/zh/database/live/new/', locale: 'zh', kind: 'live-event' },
+    { title: '花譜 世界观', path: '/zh/database/lore/new/', locale: 'zh', kind: 'lore-concept' },
+    { title: '花譜 组织', path: '/zh/database/organization/new/', locale: 'zh', kind: 'organization' },
+  ];
+  for (const [filter, kinds] of [['artist', ['virtual-avatar', 'software-voice']], ['song', ['work-track']], ['album', ['work-release']], ['live', ['live-event']], ['lore', ['lore-concept']], ['organization', ['organization']]]) {
+    const results = searchSiteIndex(records, '花譜', { locale: 'zh', kind: searchKindGroups[filter] });
+    assert.deepEqual(new Set(results.map((entry) => entry.kind)), new Set(kinds), filter);
+  }
 });
 
 test('CJK folding unifies simplified, traditional, and Japanese shinjitai', () => {

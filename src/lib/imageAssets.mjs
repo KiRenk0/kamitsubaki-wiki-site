@@ -25,6 +25,8 @@ export function thumbnailUrl(src, width = 192) {
 export function thumbnailCatalog(catalog, size = 48) {
   for (const items of Object.values(catalog)) for (const item of items) {
     if (!item.image) continue;
+    // Keep full-size artwork for the homepage's clear, viewport-sized backdrop.
+    item.backgroundImage = item.image;
     const attrs = imageAttributes(item.image, { widths: [96, 192], sizes: `${size}px` });
     item.image = attrs.src;
     item.imageSrcset = attrs.srcset;

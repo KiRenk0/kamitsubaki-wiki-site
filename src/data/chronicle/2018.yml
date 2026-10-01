@@ -1,0 +1,47 @@
+schemaVersion: 1
+year: 2018
+events:
+  - id: "event-9ef423e1a43faa97"
+    date:
+      start: "2018-10-18"
+      precision: "day"
+    text:
+      zh:
+        title: "花谱（KAF）于 YouTube 正式出道，发布首支翻唱视频，神椿物语序幕拉开"
+        summary: "花谱（KAF）于 YouTube 正式出道，发布首支翻唱视频，神椿物语序幕拉开"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "release"
+    importance: "regular"
+    related:
+      - entity: "kaf"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "艺人出道"
+  - id: "event-1ccced0e0b1c84c3"
+    date:
+      start: "2018-12-06"
+      precision: "day"
+    text:
+      zh:
+        title: "花谱发布首支原创单曲《糸》，由カンザキイオリ作词作曲编曲"
+        summary: "花谱发布首支原创单曲《糸》，由カンザキイオリ作词作曲编曲"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "release"
+    importance: "regular"
+    related:
+      - entity: "kaf"
+        role: "subject"
+      - entity: "kanzaki-iori"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "原创单曲"

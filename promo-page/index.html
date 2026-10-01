@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promo Animation - Kamitsubaki Wiki</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Noto+Sans+JP:wght@300;400;700&family=Noto+Serif+SC:wght@300;400;700&family=Shippori+Mincho:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 全屏噪点和暗角 -->
+    <div class="noise-bg"></div>
+    <div class="vignette"></div>
+
+    <!-- 动画容器 -->
+    <div class="animation-container" id="timeline">
+        
+        <!-- 场景 1: 引言 -->
+        <div class="scene" id="scene-1">
+            <p class="fade-text" id="s1-text1">在无尽的虚拟与现实交界处...</p>
+            <p class="fade-text" id="s1-text2">我们需要一个共同的观测点。</p>
+        </div>
+
+        <!-- 场景 2: 快速闪烁文字 -->
+        <div class="scene" id="scene-2">
+            <div class="word-flash" id="word-flash"></div>
+        </div>
+
+        <!-- 场景 3: 主视觉浮现 -->
+        <div class="scene" id="scene-3">
+            <div class="title-container" id="title-container">
+                <div class="ui-crosshair tl"></div>
+                <div class="ui-crosshair tr"></div>
+                <div class="ui-crosshair bl"></div>
+                <div class="ui-crosshair br"></div>
+                <h1 class="glitch-title" data-text="KAMITSUBAKI">KAMITSUBAKI</h1>
+                <h2 class="sub-title">FAN WIKI</h2>
+            </div>
+            
+            <div class="typewriter-container">
+                <p id="typewriter-text"></p>
+            </div>
+        </div>
+        
+        <!-- 场景 4: 背景科技感UI线框 (与场景3同时出现) -->
+        <div class="scene" id="scene-4">
+            <div class="sys-info left">
+                <p>SYSTEM: ONLINE</p>
+                <p>OBSERVATION: ACTIVE</p>
+                <p>DATA_SYNC: 100%</p>
+            </div>
+            <div class="sys-info right">
+                <p>神椿粉丝中文维基</p>
+                <p>V.W.P / KAF / RIM / HARUSARU / ITE / COCO</p>
+            </div>
+            <div class="center-ring"></div>
+            <div class="center-ring ring-inner"></div>
+        </div>
+        
+    </div>
+
+    <!-- 播放控制器 (录屏前点击) -->
+    <div class="controls" id="controls">
+        <button id="start-btn">▶ 开始播放介绍动画</button>
+        <p class="controls-hint">点击后即可开始录屏，动画将自动按时间轴演进</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

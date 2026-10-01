@@ -1,0 +1,225 @@
+---
+locale: "en"
+romanizedName: "SEKAI"
+affiliations:
+  - organization: "kamitsubaki-studio"
+    current: true
+officialLinks:
+  - label: "Musical Isotope official website"
+    url: "https://musical-isotope.kamitsubaki.jp/"
+  - label: "X (Twitter)"
+    url: "https://twitter.com/musicalisotope"
+  - label: "YouTube"
+    url: "https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA"
+name: "SEKAI"
+seo:
+  keywords:
+    - "SEKAI"
+    - "CeVIO AI"
+    - "Musical Isotope"
+    - "KAMITSUBAKI STUDIO"
+schemaVersion: 2
+id: "sekai"
+aliases: []
+presentation:
+  image: "https://placehold.co/1200x800/0f0d1a/a78bfa?text=SEKAI"
+  theme:
+    name: "SEKAI Ethereal"
+    accentColor: "#a78bfa"
+    mutedColor: "#7c3aed"
+    surfaceColor: "#0f0d1a"
+    highlightColor: "#f0ebff"
+    palette:
+      - label: "Star Purple"
+        value: "#A78BFA"
+      - label: "Deep Purple"
+        value: "#7C3AED"
+      - label: "Dark Night"
+        value: "#0F0D1A"
+      - label: "Soft White"
+        value: "#F0EBFF"
+  badge: "12"
+  sortOrder: 2
+  morphing:
+    group: "isekaijoucho-family"
+    slot: "isotope"
+    order: 3
+relations:
+  - type: "based-on-voice"
+    target: "isekaijoucho"
+entityType: "software-voice"
+roles:
+  - "software-voice"
+lifecycle:
+  activity: "active"
+  startedAt: "2022-04-29"
+voiceEngines: []
+summary: "A CeVIO AI musical isotope built from ISEKAIJOUCHO's vocal data, inheriting the transparency and narrative quality of the original voice."
+---
+## Overview
+
+SEKAI is the second voice synthesis software in [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio)'s [Musical Isotope](/en/artists/solo/musical-isotope) series, built from the vocal data of virtual singer [ISEKAIJOUCHO](/en/artists/vwp/isekaijoucho). It inherits the transparency and narrative quality characteristic of the original voice.
+
+Joining the series after [KAFU](/en/artists/isotopes/kafu), SEKAI further enriches the [Musical Isotope](/en/artists/solo/musical-isotope) product line. Its voice quality tends toward clarity and softness, occupying a differentiated position from KAFU's more youthful character.
+
+## Role and Creative Position
+
+SEKAI's voice source derives from ISEKAIJOUCHO — the [V.W.P](/en/artists/vwp/vwp) member known for "world-system" narrative and emotional expression. As a result, SEKAI is frequently used in the UGC ecosystem for songs that require transparency, lyricism, and narrative depth.
+
+Like KAFU, SEKAI is not merely a tool but is positioned as a "voice character" within the creator community — with its own visual identity and settings, connected to yet independent from the original singer ISEKAIJOUCHO.
+
+## Basic Profile and Character Setting
+
+SEKAI is a CeVIO AI singing-synthesis product and character based on ISEKAIJOUCHO's vocal data. It inherits transparency, lyricism, and narrative colour from the source voice, but is not ISEKAIJOUCHO herself.
+
+| Item | Detail |
+| --- | --- |
+| Voice source | ISEKAIJOUCHO |
+| Platform | CeVIO AI and VOICEPEAK TALK EXTENSION |
+| Character design | reoen |
+| Key projects | *DIMENSION*, *Metaphor*, V.I.P |
+
+## Activity History
+
+### 2021
+
+- **October 23**: The production of Musical Isotope SEKAI was announced during the end credits of ISEKAIJOUCHO's 1st ONE-MAN LIVE "Anima".
+
+### 2022
+
+- **February 28**: Pre-orders for Musical Isotope SEKAI began.
+- **April 29**: Musical Isotope SEKAI (CeVIO AI voicebank) was officially released.
+
+### 2023
+
+- **April 29**: SEKAI's 1st compilation album *Metaphor* was officially released.
+- **December 10**: "Musical Isotope SEKAI TALK EXTENSION collaboration with VOICEPEAK" (speech synthesis software) was officially released.
+
+### 2024
+
+- **June 9**: Performed at "V.I.P 1st MINI LIVE ETHEREAL WORLD".
+
+## Representative Works and Related Entries
+
+{{details::Expand full albums and EPs}}
+
+**Albums & EPs**
+
+| Release date | Type | Title |
+| --- | --- | --- |
+| 2023-11-19 | Album | [Three and Harf Years](</en/albums/sekai/three-and-harf-years-1717280761>) |
+| 2023-12-21 | Album | [Tropicariddim!](</en/albums/sekai/tropicariddim-1722527956>) |
+| 2024-02-01 | EP | [Yumemigokochi](</en/albums/sekai/yumemigokochi-1727860949>) |
+| 2024-06-26 | Album | [那由多のメタファー](</en/albums/sekai/那由多のメタファー-1751841858>) |
+
+{{/details}}
+
+{{details::Expand full singles list}}
+
+**Singles**
+
+| Release date | Title |
+| --- | --- |
+| 2016-02-16 | [ノーモフィリア](</en/songs/sekai/originals/noomofyiria>) |
+| 2022-10-14 | [ココロノカタチ](</en/songs/sekai/originals/kokoronokatachi>) |
+| 2023-05-14 | [film.](</en/songs/sekai/originals/film>) |
+| 2023-06-09 | [僕らは青春に参加しない](</en/songs/sekai/originals/僕raha青春ni参加shinai>) |
+| 2023-06-14 | [宙を駆ける夢、ほうき星。](</en/songs/sekai/originals/宙wo駆keru夢houki星>) |
+| 2023-12-24 | [仏翼](</en/songs/sekai/originals/仏翼>) |
+| 2024-03-05 | [ガオウ (feat. 星界)](</en/songs/sekai/originals/gaou-feat-星界>) |
+| 2024-04-11 | [ハナビラ](</en/songs/sekai/originals/hanabira>) |
+| 2024-05-10 | [夏が来る。 (feat. 重音テト & 初音ミク)](</en/songs/sekai/originals/夏ga来ru-feat-重音teto--初音miku>) |
+| 2024-10-15 | [花の名残り](</en/songs/sekai/originals/花no名残ri>) |
+| 2024-10-22 | [終着世界](</en/songs/sekai/originals/終着世界>) |
+| 2024-10-24 | [仮面に咲く](</en/songs/sekai/originals/仮面ni咲ku>) |
+| 2024-11-19 | [サイケデリック感情戦](</en/songs/sekai/originals/saikederikku感情戦>) |
+| 2024-11-26 | [背水、偶像神話](</en/songs/sekai/originals/背水偶像神話>) |
+| 2024-12-24 | [初恋レモンジュース](</en/songs/sekai/originals/初恋remonjuusu>) |
+| 2025-03-16 | [空白](</en/songs/sekai/originals/空白>) |
+| 2025-03-23 | [雨霧](</en/songs/sekai/originals/雨霧>) |
+| 2025-04-06 | [呼吸](</en/songs/sekai/originals/呼吸>) |
+| 2025-04-06 | [星追](</en/songs/sekai/originals/星追>) |
+| 2025-04-13 | [真想](</en/songs/sekai/originals/真想>) |
+| 2025-07-05 | [言葉の中にはりせんぼん](</en/songs/sekai/originals/言葉no中niharisenbon>) |
+| 2025-07-05 | [soudesuka雪見](</en/songs/sekai/originals/soudesuka雪見>) |
+| 2025-11-30 | [音とは](</en/songs/sekai/originals/音toha>) |
+| 2025-12-17 | [トワイライト・オービット (feat. Kisara)](</en/songs/sekai/originals/towairaito-oobitto-feat-kisara>) |
+| 2026-03-22 | [ココロポロリカ](</en/songs/sekai/originals/kokoropororika>) |
+| 2026-03-27 | [9月の老蝶はまだ飛べるだろうか](</en/songs/sekai/originals/9月no老蝶hamada飛berudarouka>) |
+| 2026-03-27 | [棺は明澄の底で眠る](</en/songs/sekai/originals/棺ha明澄no底de眠ru>) |
+| 2026-04-23 | [ゲームがしたいのうた](</en/songs/sekai/originals/geemugashitainouta>) |
+| 2026-06-30 | [Halcyondaydream](</en/songs/sekai/originals/halcyondaydream>) |
+
+{{/details}}
+
+## Representative Songs and Creator Ecosystem
+
+SEKAI's music is primarily produced by UGC creators rather than released as a traditional personal discography. The official “DIMENSION” demonstration cover and the first concept compilation *Metaphor* are useful entry points. Songs made with SEKAI should not be placed directly in ISEKAIJOUCHO's personal catalogue: the voice, visuals, and projects are related, but the records remain separate.
+
+## Name and Identity Boundaries
+
+SEKAI is the voicebank and character; ISEKAIJOUCHO is the virtual singer who provides the source voice. V.I.P and other joint projects place multiple musical isotopes together without erasing the distinction between products and source artists.
+
+## Official Compilations and Naming System
+
+Built from ISEKAIJOUCHO's voice and inheriting her wide range and operatic resonance, it represents the "fantasy / grand narrative" strand of the Isotope family.
+
+| Item | Detail |
+| :--- | :--- |
+| **First compilation** | *ISE+YOU SEKAI COMPILATION ALBUM Metamorphose* (2023-05-24) |
+| **Naming** | Follows the formula "source-witch code + YOU", meaning "ISEKAIJOUCHO and you" |
+| **Voice template** | ISEKAIJOUCHO |
+| **Release system** | [KAMITSUBAKI STUDIO](/en/database/studios/thinkr) Musical Isotope series |
+
+> **What the naming means**: titling the official compilations "X+YOU" redefines the Isotope from a "tool" into "a partner who creates alongside the listener". Every track on the compilations comes from an invited or selected creator, making them a direct intersection of the official and community creative ecosystems.
+
+## Acoustic Engines and Library Specifications
+
+The Musical Isotope project is built on a **dual-engine** acoustic architecture, each engine serving a different purpose.
+
+| Engine | Developer | Technical character |
+| :--- | :--- | :--- |
+| **CeVIO AI** | Techno-Speech | Evolved from a hybrid of HMM and deep neural networks (DNN), it captures vibrato, breath and vocal-fold micro-noise — the "imperfect but alive" detail of a real singer — to an extreme degree |
+| **Synthesizer V AI** | Dreamtonics (5th generation) | A fully autoregressive acoustic model with cross-lingual singing (natural Japanese/English/Chinese transitions), seamless morphing of emotion parameters (Power / Soft / Clear), and very high render speed and editability |
+
+> **Why both**: CeVIO AI preserves human imperfection; Synthesizer V AI handles cross-lingual work and deep editability. Together they cover everything from reproducing a live vocal texture to giving global creators full creative latitude.
+
+## Open Licensing and the Derivative-Work Ecosystem
+
+For the Musical Isotope project KAMITSUBAKI abandoned the closed restrictions of conventional artist management and built an **open, self-reinforcing licensing loop**.
+
+1. **A commercial-use threshold instead of a ban**: doujin musicians may freely use the voice libraries within a defined revenue ceiling and release the resulting originals straight to streaming platforms.
+2. **Official compilations that absorb the scene**: through open calls for official compilation albums, outstanding community creators and works are brought onto major releases, creating a cycle of "community creation → official validation → wider reach".
+3. **Results**: this mechanism produced phenomenon-level UGC hits such as "{{ruby::キュートなカノジョ::きゅーとなかのじょ::cute na kanojo}}" and "{{ruby::フォニイ::ふぉにい::phony}}", carrying AI singing into the centre of mainstream pop culture.
+
+> **Industry significance**: where the traditional record system restricts derivative works, KAMITSUBAKI treats a voice library as a gateway into an ecosystem rather than a closed asset — the fundamental reason the Isotope family accumulated such a vast body of UGC within a few years.
+
+## Related Projects / Setting
+
+SEKAI is part of the [Musical Isotope](/en/artists/solo/musical-isotope) Project, initiated by [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) to develop voice synthesis software based on its virtual singers' vocal data using AI technology. [KAFU](/en/artists/isotopes/kafu) (based on [KAF](/en/artists/vwp/kaf)) and SEKAI (based on [ISEKAIJOUCHO](/en/artists/vwp/isekaijoucho)) are the current core products.
+
+Contact: musical-isotope@kamitsubaki.jp
+
+## Relationship to the Source Witch
+
+| Item | Detail |
+| :--- | :--- |
+| **Voice template** | [ISEKAIJOUCHO](/en/artists/vwp/isekaijoucho) |
+| **System** | One node of the five-witch isotope matrix of [V.W.P](/en/artists/vwp/vwp) |
+| **First release** | CeVIO AI (a Synthesizer V AI edition followed) |
+| **Position in the lore** | The digital-side counterpart of KAMITSUBAKI's "song singularity", sharing one source of "singing voice" with ISEKAIJOUCHO |
+
+> **Naming rule**: each Isotope's official name is drawn directly from its source witch (KAFU←KAF, RIME←RIM, SEKAI←ISEKAIJOUCHO, COKO←KOKO, HARU←HARUSARUHI). The convention itself declares the core idea: different forms of one existence.
+
+## References
+
+- Musical Isotope official website: <https://musical-isotope.kamitsubaki.jp/>
+- KAMITSUBAKI STUDIO Musical Isotope page: <https://kamitsubaki.jp/artist/musical-isotope/>
+
+## External Links
+
+- [Musical Isotope official website](https://musical-isotope.kamitsubaki.jp/)
+- [X (Twitter)](https://twitter.com/musicalisotope)
+- [YouTube](https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA)
+
+<!-- V3 RESEARCH SUPPLEMENT sekai -->

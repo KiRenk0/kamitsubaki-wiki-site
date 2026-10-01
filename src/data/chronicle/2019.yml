@@ -1,0 +1,194 @@
+schemaVersion: 1
+year: 2019
+events:
+  - id: "event-d3821be7a1d4db9c"
+    date:
+      start: "2019-04-27"
+      precision: "day"
+    text:
+      zh:
+        title: "花谱出演「VTuber Fes Japan 2019」，异质唱腔引发全网热议登顶日推趋势"
+        summary: "花谱出演「VTuber Fes Japan 2019」，异质唱腔引发全网热议登顶日推趋势"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "kaf"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "演出出场"
+  - id: "event-900cd37d4c8b359e"
+    date:
+      start: "2019-05-15"
+      precision: "day"
+    text:
+      zh:
+        title: "花谱 1st 配信 EP《花と心臓》发布，登上 iTunes Top Song Chart J-POP 第3名"
+        summary: "花谱 1st 配信 EP《花と心臓》发布，登上 iTunes Top Song Chart J-POP 第3名"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "release"
+    importance: "regular"
+    related:
+      - entity: "kaf"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "唱片发行"
+  - id: "event-e5942508abcb394a"
+    date:
+      start: "2019-08-01"
+      precision: "day"
+    text:
+      zh:
+        title: "花谱 1st ONE-MAN LIVE「不可解」于 LIQUIDROOM 举行，众筹获 4,000 万日元，推特世界趋势第一"
+        summary: "花谱 1st ONE-MAN LIVE「不可解」于 LIQUIDROOM 举行，众筹获 4,000 万日元，推特世界趋势第一"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "live"
+    importance: "regular"
+    related:
+      - entity: "kaf"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "专场演出"
+  - id: "event-c212ce4e5064110a"
+    date:
+      start: "2019-09-11"
+      precision: "day"
+    text:
+      zh:
+        title: "花谱 1st Album《観測》（α / β 双版本）正式发售"
+        summary: "花谱 1st Album《観測》（α / β 双版本）正式发售"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "release"
+    importance: "regular"
+    related:
+      - entity: "kaf"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "专辑发售"
+  - id: "event-91aa55e3cf276599"
+    date:
+      start: "2019-10-11"
+      precision: "day"
+    text:
+      zh:
+        title: "DUSTCELL（EMA × Misumi）正式成立并发布出道曲《CULT》"
+        summary: "DUSTCELL（EMA × Misumi）正式成立并发布出道曲《CULT》"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "release"
+    importance: "regular"
+    related:
+      - entity: "dustcell"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "组合结成"
+  - id: "event-edff4b5c012c1f5f"
+    date:
+      start: "2019-10-18"
+      precision: "day"
+    text:
+      zh:
+        title: "「KAMITSUBAKI STUDIO」创意品牌正式宣告成立，统括制作人 PIEDPIPER 确立厂牌愿景"
+        summary: "「KAMITSUBAKI STUDIO」创意品牌正式宣告成立，统括制作人 PIEDPIPER 确立厂牌愿景"
+    tracks:
+      - "organization-biz"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "piedpiper"
+        role: "subject"
+      - entity: "kamitsubaki-studio"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "厂牌创立"
+  - id: "event-68cd5365bc504a44"
+    date:
+      start: "2019-10-18"
+      precision: "day"
+    text:
+      zh:
+        title: "理芽（RIM）正式出道，发布出道单曲《ユーフォーロマンス》"
+        summary: "理芽（RIM）正式出道，发布出道单曲《ユーフォーロマンス》"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "release"
+    importance: "regular"
+    related:
+      - entity: "rim"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "艺人出道"
+  - id: "event-f935eea912490edb"
+    date:
+      start: "2019-11-15"
+      precision: "day"
+    text:
+      zh:
+        title: "春猿火（HARUSARUHI）正式出道，发布单曲《逆転》"
+        summary: "春猿火（HARUSARUHI）正式出道，发布单曲《逆転》"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "release"
+    importance: "regular"
+    related:
+      - entity: "harusaruhi"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "艺人出道"
+  - id: "event-f0c378817a144445"
+    date:
+      start: "2019-12-09"
+      precision: "day"
+    text:
+      zh:
+        title: "ヰ世界情绪（ISEKAIJOUCHO）正式出道，发布单曲《物語りのワルツ》"
+        summary: "ヰ世界情绪（ISEKAIJOUCHO）正式出道，发布单曲《物語りのワルツ》"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "release"
+    importance: "regular"
+    related:
+      - entity: "isekaijoucho"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "艺人出道"

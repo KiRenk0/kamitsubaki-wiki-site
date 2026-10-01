@@ -30,12 +30,15 @@ const initializeSocialContact = () => {
 
       if (nextOpen) {
         panel.hidden = false;
+        panel.inert = false;
         widget.classList.remove('is-open');
         openFrame = window.requestAnimationFrame(() => {
           widget.classList.add('is-open');
           announceState(true);
         });
       } else {
+        if (panel.contains(document.activeElement)) toggle.focus({ preventScroll: true });
+        panel.inert = true;
         widget.classList.remove('is-open');
         announceState(false);
         closeTimer = window.setTimeout(() => {

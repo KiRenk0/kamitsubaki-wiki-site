@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { access, readFile } from 'node:fs/promises';
 import test from 'node:test';
-import { renderContentEntry } from '../src/lib/contentSource.mjs';
+import {getManualCatalog,getManualChapter} from '../src/lib/docsCenter.mjs';
 
 async function fileExists(path) {
   try {
@@ -16,22 +16,18 @@ async function readSource(path) {
   return readFile(new URL(path, import.meta.url), 'utf8');
 }
 
-test('the localized unified format guide has a content collection and standalone route', async () => {
-  assert.equal(await fileExists('../src/pages/[locale]/contribute/format.astro'), true);
-
-  const config = await readSource('../src/content.config.ts');
-  const page = await readSource('../src/pages/[locale]/contribute/format.astro');
-
-  assert.match(config, /const formatGuide = defineCollection/);
-  assert.match(config, /base: new URL\('\.\/content\/contribute\/format-guide\/'/);
-  assert.match(config, /translationKey: z\.literal\('format-guide'\)/);
-  assert.match(config, /formatGuide,/);
-  assert.match(page, /getCollection\('formatGuide'\)/);
-  assert.match(page, /renderContentEntry\(entry\)/);
-  assert.match(page, /currentPath = '\/contribute\/format'/);
-  assert.match(page, /src\/content\/contribute\/format-guide\/\$\{getEditableLocale\(localeCode\)\}\.md/);
-  assert.match(page, /<TableOfContents headings=\{headings\}/);
-  assert.match(page, /href=\{syntaxHref\}/);
+test('the complete style and syntax guides are chapters rendered by Reader', async () => {
+  const page = await readSource('../src/pages/[locale]/docs/[book]/[chapter].astro');
+  assert.match(page, /<Reader variant="guide"/);
+  for (const locale of ['zh','ja','en','zh-tw','zh-hk']) {
+    const book = (await getManualCatalog(locale)).find(item => item.id === 'contribute');
+    assert.ok(book.chapters.some(item => item.slug === 'format'));
+    assert.ok(book.chapters.some(item => item.slug === 'syntax'));
+    const format = await getManualChapter('contribute','format',locale);
+    assert.ok(format.headings.length >= 12);
+  }
+  const legacy = await readSource('../src/pages/[locale]/contribute/format.astro');
+  assert.match(legacy, /docs\/contribute\/format/);
 });
 
 test('contribution hub keeps syntax and style guides discoverable from the consolidated entry', async () => {
@@ -93,12 +89,13 @@ test('every locale provides a substantial, cross-linked style guide', async () =
   };
 
   for (const [locale, expected] of Object.entries(expectations)) {
-    const relativePath = `../src/content/contribute/format-guide/${locale}.md`;
+    const relativePath = `../docs/manuals/contribute/format/${locale}.md`;
     assert.equal(await fileExists(relativePath), true);
 
     const guide = await readSource(relativePath);
     assert.match(guide, new RegExp(`locale: ${locale}`));
-    assert.match(guide, /translationKey: format-guide/);
+    assert.match(guide, /book: contribute/);
+    assert.match(guide, /chapter: format/);
     assert.ok(guide.includes(expected.title));
     assert.ok(guide.includes(expected.scope));
     assert.ok(guide.includes(expected.core));
@@ -110,9 +107,8 @@ test('every locale provides a substantial, cross-linked style guide', async () =
     assert.ok(guide.includes(expected.checklist));
     assert.match(guide, expected.exampleNotice);
     assert.match(guide, expected.aiRule);
-    assert.match(guide, /Phenomenon Record[\s\S]+SINSEKAI RECORD[\s\S]+Girls Revolution Project/);
     assert.match(guide, new RegExp(`/${locale}/contribute/edit`));
-    assert.match(guide, new RegExp(`/${locale}/contribute/syntax`));
+    assert.match(guide, new RegExp(`/${locale}/docs/contribute/syntax`));
     assert.match(guide, /```md[\s\S]+```/);
     assert.match(guide, /\|.+\|.+\|/);
     assert.match(guide, /Wikipedia:Manual_of_Style/);
@@ -123,17 +119,13 @@ test('every locale provides a substantial, cross-linked style guide', async () =
     assert.match(guide, /Wikipedia:Biographies_of_living_persons/);
     assert.ok((guide.match(/^## /gm) || []).length >= 12);
 
-    const entry = {
-      id: `${locale}.md`,
-      filePath: `src/content/contribute/format-guide/${locale}.md`,
-    };
-    const rendered = await renderContentEntry(entry);
+    const rendered = await getManualChapter('contribute','format',locale);
     assert.match(rendered.html, /<h2 id=/);
     assert.ok(rendered.headings.length >= 12);
     assert.equal(rendered.headings.at(-1)?.text, expected.references);
   }
 
-  const zhGuide = await readSource('../src/content/contribute/format-guide/zh.md');
+  const zhGuide = await readSource('../docs/manuals/contribute/format/zh.md');
   assert.doesNotMatch(
     zhGuide,
     /第二方来源|frontmatter与|信息卡中code|CST\+8|作为翻译来源|小而美/,

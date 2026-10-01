@@ -1,0 +1,7 @@
+---
+import {supportedLocales} from '../../../../lib/i18n.mjs';
+import {manualBooks} from '../../../../lib/docsCenter.mjs';
+export function getStaticPaths(){return supportedLocales.flatMap(locale=>manualBooks.map(book=>({params:{locale,book}})));}
+const {locale='zh',book='site'}=Astro.params;
+return Astro.redirect(`/${locale}/docs/#docs-book-${book}`,301);
+---

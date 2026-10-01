@@ -29,17 +29,32 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Check shared UI tokens
+        run: pnpm ui:tokens:check
+
       - name: Run tests
         run: pnpm test
 
       - name: Run Astro check
         run: pnpm check
 
+      - name: Check contribution action surfaces
+        run: pnpm check:ui-actions
+
+      - name: Check documentation links
+        run: pnpm docs:check
+
       - name: Audit synchronized lyrics
         run: pnpm lyrics:timestamps:audit -- --strict
 
       - name: Build static site
+        env:
+          PUBLIC_EDITOR_ENABLED: 'true'
+          PUBLIC_EDITOR_API_BASE: https://api.kamitsubaki.wiki
         run: pnpm build
+
+      - name: Check generated internal links
+        run: node scripts/v3/check-built-links.mjs
 
       - name: Audit Cloudflare Pages asset sizes
         run: pnpm pages:assets:audit

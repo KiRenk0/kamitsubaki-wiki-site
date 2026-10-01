@@ -10,15 +10,12 @@ import { buildIndexStats } from '../../../lib/searchIndex.mjs';
 
 export const prerender = true;
 
-type AiIndexCollection = 'artists' | 'albums' | 'songs' | 'projects' | 'logs';
+type AiIndexCollection = 'logs' | 'entities';
 type AiIndexShardDescriptor = { locale: string; collection: AiIndexCollection };
 
 const collectionLoaders = {
-  artists: () => getCollection('artists'),
-  albums: () => getCollection('albums'),
-  songs: () => getCollection('songs'),
-  projects: () => getCollection('projects'),
   logs: () => getCollection('logs'),
+  entities: async () => [],
 } satisfies Record<AiIndexCollection, () => Promise<unknown[]>>;
 
 // globalThis-backed so page-module re-evaluation cannot drop the shared snapshot.

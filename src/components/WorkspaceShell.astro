@@ -1,0 +1,7 @@
+---
+import type {HTMLAttributes} from 'astro/types';
+import '../styles/workspaceSystem.css';
+interface Props extends HTMLAttributes<'main'> { width?: 'standard' | 'wide' | 'reading'; }
+const {width='standard',class:className,...attributes}=Astro.props;
+---
+<main {...attributes} class:list={['workspace-page',className]} data-workspace-page data-workspace-width={width}><slot/></main>

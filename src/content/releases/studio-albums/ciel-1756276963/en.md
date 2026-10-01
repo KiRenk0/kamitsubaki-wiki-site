@@ -1,0 +1,89 @@
+---
+locale: "en"
+title: "空想劇"
+releaseDate: "2024-07-24"
+label: "kamitsubaki-studio"
+duration: "38:55"
+officialLinks:
+  - label: "Apple Music"
+    url: "https://music.apple.com/jp/album/1756276963?uo=4"
+tracks:
+  - number: "1"
+    title: "introduction"
+    duration: "01:18"
+  - number: "2"
+    title: "窓を開けて"
+    duration: "03:38"
+    songId: "single-ciel-wo-kete"
+  - number: "3"
+    title: "君の望み、君の願い"
+    duration: "05:23"
+  - number: "4"
+    title: "眼裏の懐疑"
+    duration: "02:59"
+    songId: "single-ciel-no"
+  - number: "5"
+    title: "馥郁の街"
+    duration: "02:31"
+    songId: "single-ciel-no-songs"
+  - number: "6"
+    title: "少年漫画"
+    duration: "03:08"
+    songId: "single-ciel"
+  - number: "7"
+    title: "空より"
+    duration: "03:09"
+    songId: "single-ciel-yori"
+  - number: "8"
+    title: "生活に落ちる"
+    duration: "02:59"
+    songId: "single-ciel-ni-chiru"
+  - number: "9"
+    title: "うわのそら"
+    duration: "02:41"
+    songId: "single-ciel-uwanosora"
+  - number: "10"
+    title: "空中散歩"
+    duration: "02:42"
+  - number: "11"
+    title: "僕たちの群青"
+    duration: "03:20"
+  - number: "12"
+    title: "空想少女"
+    duration: "03:31"
+  - number: "13"
+    title: "outroduction"
+    duration: "01:38"
+schemaVersion: 2
+id: "ciel-1756276963"
+aliases: []
+presentation:
+  image: "/images/albums/ciel/空想劇-1756276963.jpg"
+  sortOrder: 98
+relations: []
+entityType: "work-release"
+romanizedTitle: "空想劇"
+releaseType: "album"
+primaryArtist: "ciel"
+summary: "CIEL's album “空想劇”, released on 2024-07-24, featuring 13 tracks."
+---
+
+## Overview
+
+[CIEL](/en/artists/solo/ciel)'s album “空想劇”, released on 2024-07-24, featuring 13 tracks.
+
+## Track List
+
+1. introduction (01:18)
+2. [窓を開けて](/en/songs/ciel/originals/窓wo開kete) (03:38)
+3. 君の望み、君の願い (05:23)
+4. [眼裏の懐疑](/en/songs/ciel/originals/眼裏no懐疑) (02:59)
+5. [馥郁の街](/en/songs/ciel/originals/馥郁no街) (02:31)
+6. [少年漫画](/en/songs/ciel/originals/少年漫画) (03:08)
+7. [空より](/en/songs/ciel/originals/空yori) (03:09)
+8. [生活に落ちる](/en/songs/ciel/originals/生活ni落chiru) (02:59)
+9. [うわのそら](/en/songs/ciel/originals/uwanosora) (02:41)
+10. 空中散歩 (02:42)
+11. 僕たちの群青 (03:20)
+12. [空想少女](/en/albums/ciel/空想少女-1718887889) (03:31)
+13. outroduction (01:38)

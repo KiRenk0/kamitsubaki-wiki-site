@@ -1,0 +1,82 @@
+---
+locale: "en"
+title: "Void (feat. Hatsune Miku, 鏡音リン, Megpoid, KAFU & Kasane Teto)"
+releaseDate: "2025-08-31"
+label: "kamitsubaki-studio"
+duration: "39:51"
+officialLinks:
+  - label: "Apple Music"
+    url: "https://music.apple.com/jp/album/1832605615?uo=4"
+tracks:
+  - number: "1"
+    title: "ギャンビット (feat. 初音ミク)"
+    duration: "03:32"
+    songId: "single-yunosuke-gyanbitto"
+  - number: "2"
+    title: "アンダースタディ (feat. 初音ミク)"
+    duration: "03:36"
+  - number: "3"
+    title: "ディレクテッド (feat. 初音ミク)"
+    duration: "03:13"
+  - number: "4"
+    title: "Supernova (feat. Hatsune Miku)"
+    duration: "02:53"
+    songId: "single-yunosuke-supernova"
+  - number: "5"
+    title: "プライオリティ (feat. 初音ミク)"
+    duration: "03:26"
+    songId: "single-yunosuke-puraioritei"
+  - number: "6"
+    title: "PaIII.PREDICTION (feat. Hatsune Miku, 鏡音リン & Megpoid)"
+    duration: "03:46"
+    songId: "single-yunosuke-paiii-prediction"
+  - number: "7"
+    title: "モンキーチャート (feat. 初音ミク)"
+    duration: "03:06"
+  - number: "8"
+    title: "Void (feat. Hatsune Miku)"
+    duration: "03:48"
+  - number: "9"
+    title: "ロウカラット (feat. 初音ミク, (feat. 可不) & 重音テト) & 重音テト)"
+    duration: "04:03"
+  - number: "10"
+    title: "Cake (feat. Hatsune Miku)"
+    duration: "03:02"
+  - number: "11"
+    title: "渦中の僕は (feat. 初音ミク)"
+    duration: "02:42"
+  - number: "12"
+    title: "フワフワしてるだけ (feat. 初音ミク)"
+    duration: "02:43"
+schemaVersion: 2
+id: "yunosuke-1832605615"
+aliases: []
+presentation:
+  image: "/images/albums/yunosuke/Void-feat.-Hatsune-Miku,-鏡音リン,-Megpoid,-KAFU-&-Kasane-Teto-1832605615.jpg"
+  sortOrder: 39
+relations: []
+entityType: "work-release"
+romanizedTitle: "Void (feat. Hatsune Miku, 鏡音リン, Megpoid, KAFU & Kasane Teto)"
+releaseType: "album"
+primaryArtist: "yunosuke"
+summary: "雄之助's album “Void (feat. Hatsune Miku, 鏡音リン, Megpoid, KAFU & Kasane Teto)”, released on 2025-08-31, featuring 12 tracks."
+---
+
+## Overview
+
+[雄之助](/en/artists/creators/yunosuke)'s album “[Void](/en/songs/dustcell/originals/void) (feat. Hatsune Miku, 鏡音リン, Megpoid, [KAFU](/en/artists/isotopes/kafu) & Kasane Teto)”, released on 2025-08-31, featuring 12 tracks.
+
+## Track List
+
+1. [ギャンビット](/en/songs/yunosuke/originals/gyanbitto) (feat. 初音ミク) (03:32)
+2. アンダースタディ (feat. 初音ミク) (03:36)
+3. ディレクテッド (feat. 初音ミク) (03:13)
+4. [Supernova](/en/songs/yunosuke/originals/supernova) (feat. Hatsune Miku) (02:53)
+5. [プライオリティ](/en/songs/yunosuke/originals/puraioritei) (feat. 初音ミク) (03:26)
+6. [PaIII.PREDICTION](/en/songs/yunosuke/originals/paiiiprediction) (feat. Hatsune Miku, 鏡音リン & Megpoid) (03:46)
+7. モンキーチャート (feat. 初音ミク) (03:06)
+8. Void (feat. Hatsune Miku) (03:48)
+9. ロウカラット (feat. 初音ミク, (feat. 可不) & 重音テト) & 重音テト) (04:03)
+10. Cake (feat. Hatsune Miku) (03:02)
+11. 渦中の僕は (feat. 初音ミク) (02:42)
+12. フワフワしてるだけ (feat. 初音ミク) (02:43)

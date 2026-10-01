@@ -1,27 +1,9 @@
-# Project Content
+# 企划目录
 
-Projects are grouped by project type:
+按详细分类地图分组：`city-project/`、`girls-revolution/`、`isotope-project/`、`unknown-projects/`。原有但地图未列出的记录在 `unlisted/`。
 
-```text
-arg/          ARG and narrative project records
-labels/       label or studio records
-exhibitions/  exhibition and event records
-```
+神椿市的动画、游戏、文学与 ARG 分别放在 `city-project/city-animation/`、`city-project/city-games/`、`city-project/city-literature/`、`city-project/city-arg/`。企划总览在 `city-project/kamitsubaki-city/`。
 
-Use one folder per project and one Markdown file per locale:
+每个实体目录下包含各语言文件，永久 ID 与页面地址保持不变。组织和演出记录属于各自集合，不再混放在此目录。
 
-```text
-arg/kamitsubaki-city/zh.md
-arg/kamitsubaki-city/ja.md
-arg/kamitsubaki-city/en.md
-```
-
-The first folder level is used for classification and the project cards in `02. PROTOCOLS` are rendered automatically from these files.
-
-Each Markdown file also maps to a detail route:
-
-```text
-/{locale}/projects/<category>/<project>
-```
-
-The display order is controlled by the `order` field in frontmatter.
+完整规则见 [本地词条目录](../README.md)。

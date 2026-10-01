@@ -76,7 +76,7 @@ export function initializeLibrary(root, c) {
     const query = foldCjkSearchText($('[data-library-search]').value.trim());
     const kind = $('[data-library-kind]').value;
     let items = (list ? list.paths.map(path => library.items.find(i => i.path === path)).filter(Boolean) : [...library.items])
-      .filter(i => (!query || foldCjkSearchText(i.title).includes(query)) && (!kind || i.kind === kind));
+      .filter(i => (!query || foldCjkSearchText(i.title).includes(query)) && (!kind || kind.split('|').includes(i.kind)));
     if (order.value === 'recent') items.sort((a,b) => b.savedAt - a.savedAt);
     if (order.value === 'title') items.sort((a,b) => a.title.localeCompare(b.title));
     $('[data-status]').textContent = `${items.length} ${c.results}`;

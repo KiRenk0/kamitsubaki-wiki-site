@@ -1,204 +1,31 @@
 # KAMITSUBAKI Wiki Site
 
-[画像アップロード・パス・ファイル分類](docs/files-and-images.ja.md) · [Wiki](https://kamitsubaki.wiki/ja/contribute/files/)
+[中文](README.md) · [English](README.en.md) · [文書一覧](docs/README.md) · [構成](docs/architecture.ja.md) · [投稿センター](https://kamitsubaki.wiki/ja/contribute/)
 
-Astro で構築された、非公式 KAMITSUBAKI STUDIO ファン Wiki の静的サイトです。
+非公式の多言語 KAMITSUBAKI STUDIO ファン百科です。公開サイトは Astro で静的生成します。百科項目は本リポジトリで管理し、記事とギャラリーはサイトから投稿します。公開には審査が必要です。サーバー側は非公開ソースであり、コード、構成、運用資料は外部開発者に提供しません。
 
-このリポジトリは GitHub Pull Request ワークフローを前提にしています。コントリビューターはコンテンツファイルを編集し、ローカルで同じ検証を実行し、PR を作成し、CI で確認してからマージとデプロイへ進みます。
+## 投稿経路
 
-## 言語
+- 百科項目：閲覧画面の編集ボタン、または投稿センターから GitHub 変更提案を送ります。
+- 研究記事：`/{locale}/articles/submit/` でクラウド下書きを保存し、審査へ送ります。
+- ギャラリー：`/{locale}/gallery/manage/` で画像を非公開で一時保存し、セットを審査へ送ります。
+- 画像・出典・権利：[画像とファイル](docs/manuals/contribute/entry/ja.md) と [ライセンス](docs/manuals/contribute/rights/ja.md) を確認してください。
 
-- [English](README.en.md)
-- [中文](README.md)
-- [日本語](README.ja.md)
+[V3 投稿ガイド](docs/manuals/contribute/start/ja.md) に従い、廃止済みの `artists/`・`albums/` ディレクトリや旧 frontmatter 例は使用しないでください。
 
-## 編集する場所
+## コンテンツ構造
 
-ほとんどの Wiki 編集では `src/content/` だけを触れば十分です。
+`src/content/` には `people`、`units`、`isotopes`、`songs`、`releases`、`projects`、`lives`、`organizations`、`lore`、旧記事ソース、サイト文言があります。同じ項目の `zh.md`・`ja.md`・`en.md` は一つのディレクトリに置き、安定した `id` を共有します。繁体字版は自動生成します。
 
-```text
-src/content/site/       ナビゲーション、セクション名、フッターなどのサイト文言 (.json)
-src/content/artists/    アーティスト、クリエイター、ユニット、音楽的同位体の記事 (.md)
-src/content/albums/     アルバム記事と構造化された収録曲一覧 (.md)
-src/content/songs/      楽曲記事 (.md)
-src/content/projects/   プロジェクトカードとプロジェクト記事 (.md)
-src/content/logs/       タイムライン/更新ログ (.md)
-src/content/contribute/ GitHub 編集ガイドの文言 (.md)
-```
+分類と保存先はメタデータ、`classification-map.json`、`contentLayout.mjs` から決まり、公開 URL はエンティティ登録表が生成します。[コンテンツディレクトリ](src/content/README.md) と [Metadata Schema v2](docs/category-optimization/metadata-schema-v2.md) を参照してください。
 
-実装コードは次の場所にあります。
+## ローカル開発
 
-```text
-src/components/         Astro UI コンポーネント
-src/pages/              ルートとページ構成
-src/layouts/            共通レイアウト
-src/styles/             グローバル CSS と Tailwind スタイル
-src/scripts/            ブラウザ側のインタラクション
-tests/                  Node テスト
-```
-
-## クイックスタート
-
-`pnpm` を使用します。
-
-```bash
-pnpm install
+```sh
+pnpm install --frozen-lockfile
 pnpm dev
 ```
 
-Astro は次のようなローカル URL を表示します。
+フロントの公開候補ではコンテンツ検証、`astro check`、影響する単独のフロントテスト、本番ビルド、生成リンク、静的資産、文書とミラーを確認します。非公開サービスを必要とするテストは保守者が私有環境で実行します。手順は [文書一覧](docs/README.md)、未完了条件は [V3 審査状況](docs/v3/acceptance/README.md) にあります。
 
-```text
-http://127.0.0.1:4321/
-```
-
-`/zh/`、`/ja/`、`/en/` を開くと各言語版を確認できます。
-
-## Wiki 記事の編集
-
-アーティスト記事は YAML frontmatter 付きの Markdown ファイルです。
-
-```text
-src/content/artists/vwp/kaf/zh.md
-src/content/artists/vwp/kaf/ja.md
-src/content/artists/vwp/kaf/en.md
-```
-
-プロジェクト記事も同じ 3 言語ファイル構成です。
-
-```text
-src/content/projects/arg/kamitsubaki-city/zh.md
-src/content/projects/arg/kamitsubaki-city/ja.md
-src/content/projects/arg/kamitsubaki-city/en.md
-```
-
-同じ記事の翻訳では、すべて同じ `translationKey` を使ってください。
-
-```yaml
----
-locale: ja
-translationKey: kaf
-code: "01"
-name: "花譜"
-romanizedName: "KAF"
-categoryTitle: "仮想世代の魔女達"
-categorySubtitle: "VIRTUAL WITCH PHENOMENON"
-categoryOrder: 1
-itemOrder: 1
-statusLabel: "STATUS"
-status: "ACTIVE"
-image: "https://placehold.co/1200x800/111/333?text=KAF"
-seo:
-  title: "花譜 - KAMITSUBAKI WIKI"
-  description: "検索結果とリンクプレビュー用のカスタム説明。"
-  image: "https://example.com/share-card.jpg"
-  keywords:
-    - "花譜"
-    - "KAF"
----
-```
-
-本文は 2 つ目の `---` の後に書きます。本文は空でも問題ありません。先に構造化データだけ追加し、記事本文は後から整備できます。
-
-Markdown は見出し、リスト、表、リンク、コードブロック、KaTeX による LaTeX 数式をサポートします。
-
-## トップページ表示とフォルダ
-
-トップページの DATABASE は `src/content/artists/` の第一階層フォルダを分類として自動取得します。
-
-```text
-src/content/artists/vwp/kaf/zh.md
-                    ^^^ トップページ分類
-```
-
-新しい分類を追加するときは、第一階層フォルダを作り、完成した言語の記事を入れてください。`categoryTitle`、`categorySubtitle`、`categoryOrder`、`itemOrder`、`code` は任意の表示上書きです。未設定の場合、フォルダ名、記事名、デフォルトの並び順を使います。
-
-## メタデータとリンクプレビュー
-
-`seo` ブロックは任意です。未設定の場合、サイトは次の情報を自動で取得します。
-
-- `name`、`romanizedName`、カテゴリ、ステータスをフォールバックのメタデータに使います。
-- Markdown 本文の最初の段落をページ `description` に使います。
-- `image` を Open Graph と Twitter のプレビューカードに使います。
-
-検索結果や共有プレビューを正確に制御したい場合だけ、`seo.title`、`seo.description`、`seo.image`、`seo.keywords`、`seo.noindex` を設定してください。
-
-デプロイ時に `PUBLIC_SITE_URL` を設定できます。例: `https://example.com`。canonical URL とローカル画像パスは自動で絶対 URL になります。
-
-## 新しい記事を追加する
-
-1. `src/content/artists/`、`src/content/albums/`、`src/content/songs/`、または `src/content/projects/` で正しい分類を選びます。
-2. 例として `src/content/artists/vwp/new-artist/` のように記事用フォルダを作ります。
-3. 完成した `zh.md`、`ja.md`、`en.md` を追加し、未訳は後で補います。
-4. 3 ファイルで同じ `translationKey` を使います。
-5. アーティスト分類はフォルダから自動生成されます。表示を調整したい場合だけ `categoryTitle`、`categorySubtitle`、`categoryOrder`、`itemOrder`、`code` を設定します。
-6. 下の検証コマンドを実行します。
-7. Pull Request を作成します。
-
-## ローカル検証
-
-PR を作る前に実行してください。
-
-```bash
-pnpm test
-pnpm check
-pnpm build
-```
-
-各コマンドの役割:
-
-- `pnpm test`: コンテンツ分離、i18n の前提、重要なコンテンツレコードを確認します。
-- `pnpm check`: Astro 診断と Content Collections schema の検証を行います。
-- `pnpm build`: 静的サイトを生成し、すべてのルートがビルドできることを確認します。
-
-## 統合 AI エントリー
-
-Wiki 内アシスタントと独立した KAMITSUBAKI AI 観測端末は、同じ AI v2 コントロールプレーンを利用します。この公開リポジトリに含まれるのは Astro ウィジェット、ストリーミング UI、三言語の文言だけです。認証、Agent、検索、履歴、メモリ、モデル方針、不正利用対策は非公開サービスが担当します。
-
-`PUBLIC_AI_OBSERVER_API_BASE` に Worker のオリジンを設定します。ウィジェットの既定 Agent は知識担当の `observer` で、完全な六 Agent 端末は `https://chat.kamitsubaki.wiki/<locale>/` です。詳細は[統合 AI ウィジェット](docs/ai-terminal.ja.md)を参照してください。
-
-## GitHub PR と CI の流れ
-
-1. `main` からブランチを作成、または最新状態に同期します。
-2. `src/content/` の内容を編集します。
-3. ローカル検証を実行します。
-4. 変更をコミットします。
-5. ブランチを push します。
-6. `main` に向けて Pull Request を作成します。
-7. GitHub Actions が同じ検証コマンドで CI を実行します。
-8. CI が失敗した場合は、同じブランチで修正します。
-9. レビュー後にマージされると、`pnpm build` で生成される `dist/` を使って静的サイトをデプロイできます。
-
-CI ワークフローは `.github/workflows/ci.yml` にあります。
-
-## コントリビューションルール
-
-- Wiki コンテンツは `src/content/` で編集してください。
-- 翻訳可能な記事を追加するときは、3 言語ファイルをそろえてください。
-- 同じ記事では 3 言語すべてで同じ `translationKey` を使ってください。
-- PR 前に `pnpm test`、`pnpm check`、`pnpm build` を実行してください。
-- `dist/`、`.astro/`、`node_modules/` は編集しないでください。
-- コンテンツをコンポーネントやページにハードコードしないでください。
-- 仮の本文は追加しないでください。偽の内容より、空のままの方が安全です。
-
-## コンテンツライセンス
-
-本サイトが許諾権限を有するオリジナル文章には、既定で CC BY-NC-SA 4.0 が適用されます。画像、ジャケット、歌詞、音声・映像、キャラクターデザイン、ロゴ、商標などの第三者素材は対象外です。別のライセンスで提供される第三者の文章は、元の条件、出典、表示、変更内容を維持します。
-
-記事の `license` frontmatter では `CC-BY-NC-SA-4.0`、`CC-BY-NC-SA-3.0-CN`、`rights-reserved`、`authorized-use` を使用できます。フィールドとレビュー手順は[コンテンツのライセンスと出典表示](docs/licensing.ja.md)を参照してください。サイトのプログラムコードには、このコンテンツ向け CC ライセンスは適用されません。
-
-## ドキュメント
-
-- [コントリビューションガイド](docs/contributing.ja.md)
-- [アーキテクチャ](docs/architecture.ja.md)
-- [統合 AI ウィジェット](docs/ai-terminal.ja.md)
-- [コンテンツのライセンスと出典表示](docs/licensing.ja.md)
-- [外部リンクのブランドカード](docs/external-links.ja.md)
-
-## 技術スタック
-
-- Astro static output
-- pnpm package manager
-- Astro Content Collections
-- Tailwind CSS v4 through Vite
-- Markdown with KaTeX math support
+ビルド成功だけでは実際のログイン、GitHub 投稿、記事審査、画像投稿、本番公開を実証できません。サーバーの運用と公開は保守者の非公開手順に従います。開発ブランチは `V3.0.0` です。

@@ -1,0 +1,18 @@
+schemaVersion: 1
+eras:
+  - id: era1-founding
+    start: 2018-10-01
+    end: 2020-12-31
+    label: 创立期 · 黎明破晓
+  - id: era2-expansion
+    start: 2021-01-01
+    end: 2022-12-31
+    label: 扩张期 · 武道馆与同位体
+  - id: era3-transmedia
+    start: 2023-01-01
+    end: 2024-12-31
+    label: 跨媒体期 · 虚实深化与决战
+  - id: era4-new-era
+    start: 2025-01-01
+    end: 2099-12-31
+    label: 新纪元 · 宇宙交汇与基础设施

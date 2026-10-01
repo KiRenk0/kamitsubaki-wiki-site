@@ -109,8 +109,7 @@ export function buildContentIndex({ songs = [], albums = [], artists = [] }) {
 }
 
 /**
- * Pure index builder. Callers that need a shared SSG snapshot should go through
- * contentAuditContext instead of re-invoking this on every page.
+ * Pure index builder for legacy content audits.
  * @param {Parameters<typeof buildContentIndex>[0]} collections
  * @returns {ReturnType<typeof buildContentIndex>}
  */

@@ -2,6 +2,8 @@ import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { renderMarkdownDocument } from './markdown.mjs';
+import {getEntityRegistry} from './entityRegistry.mjs';
+import {renderWikiLinks} from './wikiLinks.mjs';
 import {
   convertChineseMarkdown,
   isChineseContentLocale,
@@ -43,5 +45,6 @@ export async function readContentEntryBody(entry) {
 export async function renderContentEntry(entry) {
   const { body, fileURL } = await readContentEntryBody(entry);
   const rendered = await renderMarkdownDocument(body, { fileURL });
-  return { ...rendered, body };
+  const linked=renderWikiLinks(rendered.html,await getEntityRegistry(),entry.data?.locale||entry.id?.split('/').at(-1)||'zh');
+  return { ...rendered, html:linked.html, body };
 }

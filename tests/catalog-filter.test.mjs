@@ -226,39 +226,6 @@ test('encodeFilterHash and decodeFilterHash round-trip valid state and ignore il
   assert.deepEqual(decodeFilterHash('#%%%not-valid%%%', options).sort, 'default');
 });
 
-test('artist catalog page and filter component are wired together', async () => {
-  const [artistPage, filterComponent, filterLib] = await Promise.all([
-    readProjectFile('../src/pages/[locale]/songs/artists/[artist].astro'),
-    readProjectFile('../src/components/SongCatalogFilter.astro'),
-    readProjectFile('../src/lib/catalogFilter.mjs'),
-  ]);
-
-  assert.match(artistPage, /SongCatalogFilter/);
-  assert.match(artistPage, /data-song-row/);
-  assert.match(artistPage, /data-search-text=/);
-  assert.match(artistPage, /data-category=/);
-  assert.match(artistPage, /data-default-index=/);
-  assert.match(artistPage, /foldCjkSearchText/);
-  assert.match(artistPage, /song-row-grid/);
-  assert.match(artistPage, /data-catalog-filter-empty/);
-  assert.match(artistPage, /category\.entries\.map/);
-
-  assert.match(filterComponent, /data-song-catalog-filter/);
-  assert.match(filterComponent, /foldCjkSearchText/);
-  assert.match(filterComponent, /decodeFilterHash/);
-  assert.match(filterComponent, /encodeFilterHash/);
-  assert.match(filterComponent, /matchesSongFilter/);
-  assert.match(filterComponent, /aria-live="polite"/);
-  assert.match(filterComponent, /hidden/);
-
-  assert.match(filterLib, /export function extractYearFromDate/);
-  assert.match(filterLib, /export function matchesSongFilter/);
-  assert.match(filterLib, /export function createSongComparator/);
-  assert.match(filterLib, /export function encodeFilterHash/);
-  assert.match(filterLib, /export function decodeFilterHash/);
-  assert.match(filterLib, /export function collectFilterTypes/);
-});
-
 test('collectFilterTypes and collectUniqueFilterValues dedupe and sort album type labels', () => {
   const types = collectFilterTypes([
     { type: 'EP' },
@@ -297,30 +264,4 @@ test('album catalog entries filter by type-as-category, year, and folded keyword
     hasUnknown: false,
   });
   assert.equal(matchesSongFilter(album, albumState), false);
-});
-
-test('album artist catalog page wires AlbumCatalogFilter onto the flat card grid', async () => {
-  const [albumPage, filterComponent] = await Promise.all([
-    readProjectFile('../src/pages/[locale]/albums/artists/[artist].astro'),
-    readProjectFile('../src/components/AlbumCatalogFilter.astro'),
-  ]);
-
-  assert.match(albumPage, /AlbumCatalogFilter/);
-  assert.match(albumPage, /data-album-row/);
-  assert.match(albumPage, /data-album-row-grid/);
-  assert.match(albumPage, /data-search-text=/);
-  assert.match(albumPage, /data-category=/);
-  assert.match(albumPage, /data-default-index=/);
-  assert.match(albumPage, /collectFilterTypes/);
-  assert.match(albumPage, /foldCjkSearchText/);
-  assert.match(albumPage, /data-album-filter-empty/);
-
-  assert.match(filterComponent, /data-album-catalog-filter/);
-  assert.match(filterComponent, /data-album-row/);
-  assert.match(filterComponent, /foldCjkSearchText/);
-  assert.match(filterComponent, /decodeFilterHash/);
-  assert.match(filterComponent, /encodeFilterHash/);
-  assert.match(filterComponent, /aria-live="polite"/);
-  assert.match(filterComponent, /color-scheme: dark/);
-  assert.match(filterComponent, /hidden/);
 });

@@ -3,6 +3,7 @@ import {isLocalEditorMode} from '../lib/localEditorMode.mjs';
 import {confirmAccount} from './accountConfirm.js';
 import { LIBRARY_KEY, libraryOwner, setLibraryOwner, readLibrary, readLibraryRecord, saveLibraryRecord, writeLibrary, mergeLibraries, validateLibrary } from '../lib/personalLibrary.mjs';
 import { libraryChanges, applyLibraryChanges } from '../lib/accountLibrary.mjs';
+import {safeAccountReturnTo} from '../lib/accountReturn.mjs';
 
 const config = document.querySelector('[data-account-config]');
 export const locale = config?.dataset.locale || 'zh';
@@ -103,7 +104,7 @@ export async function logout() {
 }
 export function loginUrl(provider,link=false) {
   const url=new URL(`${apiBase}/api/auth/oauth/${provider}/start`);
-  const back=new URL(window.location.href);back.searchParams.delete('aiAuth');back.searchParams.delete('aiAuthProvider');back.searchParams.delete('aiAuthCode');
+  let back=new URL(window.location.href);back=safeAccountReturnTo(back.searchParams.get('returnTo'),location.origin)||back;back.searchParams.delete('returnTo');back.searchParams.delete('aiAuth');back.searchParams.delete('aiAuthProvider');back.searchParams.delete('aiAuthCode');
   url.searchParams.set('theme',document.documentElement.dataset.theme==='dark'?'dark':'light');
   url.searchParams.set('returnTo',back.toString());if(link)url.searchParams.set('intent','link');return url.toString();
 }

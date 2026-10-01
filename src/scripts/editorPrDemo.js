@@ -1,6 +1,7 @@
 import { editorApiBase, localEditor } from "../lib/editorConfig.mjs";
 import { sourceRequest } from "../lib/editorSource.mjs";
 import { diffLines, submissionLabels, isOpen } from "../lib/editorPrDemo.mjs";
+import {showContributionReceipt} from '../lib/submissionReceipt.mjs';
 // Explicit development mode. Production builds cannot activate the local service.
 const apiBase = editorApiBase;
 export function initializeEditorPrDemo(root, editor) {
@@ -277,6 +278,8 @@ export function initializeEditorPrDemo(root, editor) {
         snapshot = null;
         base = null;
         selected = null;
+        const requested=new URLSearchParams(location.search).get("submission");
+        if(requested){selected=await api("/api/editor/submissions/"+encodeURIComponent(requested));tab("discussion");showContributionReceipt(root,{id:selected.id,state:selected.sync==='synced'?t('投稿已保存，等待维护者审核。'):t('投稿已保存，后台正在创建或更新 PR。'),href:`/${root.dataset.locale}/account/creator/?recordType=entry&record=${encodeURIComponent(selected.id)}`});}
         message(t("已加载当前账号的投稿记录。"));
         return;
       }
@@ -344,7 +347,7 @@ export function initializeEditorPrDemo(root, editor) {
   }
   $("[data-pr-open]").hidden = false;
   $("[data-pr-banner]").hidden = false;
-  $("[data-pr-open]").textContent = t("提交审核");
+  $("[data-pr-open]").textContent = root.dataset.locale === 'en' ? 'Submit via GitHub PR' : root.dataset.locale === 'ja' ? 'GitHub PR で投稿' : '提交 GitHub PR';
   $("[data-pr-open]").onclick = () => open();
   $("[data-pr-history]").onclick = () => open("history");
   $("[data-pr-close]").onclick = () => dialog.close();
@@ -393,6 +396,7 @@ export function initializeEditorPrDemo(root, editor) {
       await refresh();
       tab("discussion");
       message(t("投稿已保存，后台正在创建或更新 PR。"));
+      showContributionReceipt(root,{id:result.id,state:t('投稿已保存，后台正在创建或更新 PR。'),href:`/${root.dataset.locale}/account/creator/?recordType=entry&record=${encodeURIComponent(result.id)}`});
     });
   $("[data-pr-withdraw]").onclick = () =>
     action(async () => {

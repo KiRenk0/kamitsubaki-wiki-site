@@ -1,0 +1,4 @@
+---
+import EntityCatalog from '../../../components/EntityCatalog.astro';import {entityLocales} from '../../../lib/entityRegistry.mjs';export function getStaticPaths(){return entityLocales.map(locale=>({params:{locale}}));}
+---
+<EntityCatalog locale={Astro.params.locale}/>

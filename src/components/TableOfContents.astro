@@ -134,7 +134,12 @@ const visibleHeadings = headings.filter((heading) => heading.depth === 2 || head
       event.preventDefault();
 
       const mobileContents = link.closest<HTMLDetailsElement>('.wiki-mobile-toc');
-      if (mobileContents && getComputedStyle(mobileContents.querySelector('summary')!).display !== 'none') mobileContents.open = false;
+      if (mobileContents && getComputedStyle(mobileContents.querySelector('summary')!).display !== 'none') {
+        mobileContents.dataset.navigating = 'true';
+        mobileContents.open = false;
+        void mobileContents.offsetHeight;
+        requestAnimationFrame(() => delete mobileContents.dataset.navigating);
+      }
 
       const top = Math.max(target.getBoundingClientRect().top + window.scrollY - getAnchorOffset(target), 0);
       const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -197,6 +202,7 @@ const visibleHeadings = headings.filter((heading) => heading.depth === 2 || head
 </script>
 
 <style>
+  :global(.wiki-mobile-toc[data-navigating]::details-content){transition:none!important;block-size:0!important}
   .wiki-toc[data-animated] { max-height:calc(100dvh - var(--reader-sticky-top, 100px) - 20px); overscroll-behavior:contain; color:var(--theme-fg); }
   .wiki-toc[data-animated] h3 { color:var(--reader-muted, var(--b-muted, var(--theme-fg)));font:500 .8rem/1.5 var(--font-sans);letter-spacing:.02em; }
   .wiki-toc[data-animated] > div > span { color:var(--reader-muted, var(--b-muted, var(--theme-fg))); }

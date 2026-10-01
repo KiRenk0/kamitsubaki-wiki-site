@@ -1,0 +1,50 @@
+---
+import ReaderDisclosure from './ReaderDisclosure.astro';
+import ReaderRecordList from './ReaderRecordList.astro';
+import ContextAction from './ContextAction.astro';
+import {articleCopy} from '../lib/articleCopy.mjs';
+const {id,locale}=Astro.props,copy=articleCopy(locale);
+const api=import.meta.env.PUBLIC_ARTICLE_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
+const more=locale==='en'?'Show 12 more':locale==='ja'?'さらに12件表示':'再展开 12 篇';
+const collapse=locale==='en'?'Show fewer':locale==='ja'?'折りたたむ':'收起';
+const column=locale==='en'?'Article column':locale==='ja'?'記事コラム':'文章专栏';
+---
+<div data-db-articles data-api={api} data-entity-id={id} data-locale={locale}>
+ <ReaderDisclosure title={copy.relatedArticles}>
+  <div class="related-article-state" data-db-article-state><p role="status" aria-live="polite" data-db-article-status>{copy.loading}</p><div class="related-article-state__actions"><button class="context-action" data-tone="quiet" type="button" data-db-article-retry hidden>{copy.retry} <span aria-hidden="true">↻</span></button><ContextAction href={`/${locale}/articles/`} tone="quiet">{column}</ContextAction></div></div>
+  <ReaderRecordList records={[]} id={`db-articles-${id}`} locale={locale}/>
+  <div class="related-article-actions" data-db-article-actions hidden><button class="context-action" type="button" data-db-article-more hidden>{more}<span data-db-article-next></span><span aria-hidden="true">↓</span></button><button class="context-action" type="button" data-db-article-collapse hidden>{collapse} ↑</button><ContextAction href={`/${locale}/articles/`} tone="quiet">{column}</ContextAction><ContextAction href={`/${locale}/articles/?related=${encodeURIComponent(id)}`} tone="quiet">{copy.allRelated}</ContextAction></div>
+ </ReaderDisclosure>
+</div>
+<style>
+.related-article-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:16px}.related-article-actions :global(a:first-of-type){margin-left:auto}.related-article-state{display:flex;align-items:center;justify-content:space-between;gap:8px 16px;min-height:48px}.related-article-state p{margin:0;color:var(--reader-muted);font:12px/1.7 var(--font-sans)}.related-article-state__actions{display:flex;align-items:center;gap:4px;flex-shrink:0}[hidden]{display:none!important}[data-db-articles] :global(.reader-disclosure-count){font:10px var(--font-mono);color:var(--reader-muted)}
+@media(max-width:600px){.related-article-actions :global(a:first-of-type){margin-left:0}.related-article-state{flex-wrap:wrap}.related-article-state__actions{width:100%;justify-content:flex-start}}
+</style>
+<script>
+import {articleCopy} from '../lib/articleCopy.mjs';
+import {localizeArticleText} from '../lib/articlePresentation.mjs';
+document.querySelectorAll<HTMLElement>('[data-db-articles]').forEach(root=>{
+ const locale=root.dataset.locale!,copy=articleCopy(locale),status=root.querySelector<HTMLElement>('[data-db-article-status]')!,state=root.querySelector<HTMLElement>('[data-db-article-state]')!,retry=root.querySelector<HTMLButtonElement>('[data-db-article-retry]')!,actions=root.querySelector<HTMLElement>('[data-db-article-actions]')!,grid=root.querySelector<HTMLElement>('.reader-record-grid')!;
+ const more=root.querySelector<HTMLButtonElement>('[data-db-article-more]')!,collapse=root.querySelector<HTMLButtonElement>('[data-db-article-collapse]')!,next=root.querySelector<HTMLElement>('[data-db-article-next]')!;
+ type Article={id:string;title:string;summary:string;author:string;origin:string;updatedAt:string};
+ let buffered:Article[]=[],offset:number|null=0,shown=0,total:number|undefined,busy=false;
+ const update=()=>{const remaining=total===undefined?buffered.length-shown+Number(offset!==null):total-shown;more.hidden=remaining<=0;next.textContent=remaining>0?`＋${Math.min(12,remaining)}`:'';collapse.hidden=shown<=12;};
+ const add=async()=>{const start=shown,target=Math.min(buffered.length,shown+12);for(let i=shown;i<target;i++){
+  const item=buffered[i],a=document.createElement('a');a.className='reader-record';a.href=`/${locale}/articles/read/?id=${encodeURIComponent(item.id)}`;
+  const number=document.createElement('span');number.className='reader-record-index';number.textContent=String(i+1).padStart(2,'0');
+  const text=document.createElement('span');text.className='reader-record-text';const title=document.createElement('strong');title.textContent=await localizeArticleText(item.title,locale);
+  const meta=document.createElement('small');meta.textContent=[copy.origins[item.origin as keyof typeof copy.origins]||item.origin,item.author,item.updatedAt].filter(Boolean).join(' · ');
+  const summary=document.createElement('small');summary.textContent=await localizeArticleText(item.summary,locale);text.append(title,meta,summary);a.append(number,text);grid.append(a);
+  if(i>=12&&!matchMedia('(prefers-reduced-motion: reduce)').matches)a.animate([{opacity:0,translate:'0 8px'},{opacity:1,translate:'0 0'}],{duration:360,delay:(i-start)*22,easing:'cubic-bezier(.22,1,.36,1)'});
+ }shown=target;update();};
+ const fetchPage=async()=>{if(offset===null||busy)return;busy=true;root.setAttribute('aria-busy','true');state.hidden=false;retry.hidden=true;status.textContent=copy.loading;try{
+  const response=await fetch(`${root.dataset.api}/api/articles?locale=${encodeURIComponent(locale)}&related=${encodeURIComponent(root.dataset.entityId||'')}&offset=${offset}`,{signal:AbortSignal.timeout(15000)});if(!response.ok)throw Error(copy.unavailable);
+  const page=await response.json();buffered.push(...page.items);offset=page.nextOffset;total=typeof page.total==='number'?page.total:undefined;
+  if(total!==undefined){const count=root.querySelector('.reader-disclosure-count')||document.createElement('span');count.className='reader-disclosure-count';count.textContent=String(total).padStart(2,'0');root.querySelector('summary .reader-disclosure-title')?.after(count);}
+  if(shown===0&&buffered.length)await add();state.hidden=buffered.length>0;actions.hidden=buffered.length===0;status.textContent=locale==='en'?'No published articles are linked to this entry yet.':locale==='ja'?'この項目に関連する公開記事はまだありません。':'暂无已公开的关联文章。';update();
+ }catch{status.textContent=copy.unavailable;state.hidden=false;retry.hidden=false;}finally{busy=false;root.removeAttribute('aria-busy');}};
+ more.onclick=async()=>{if(shown===buffered.length&&offset!==null)await fetchPage();if(shown<buffered.length)await add();};
+ collapse.onclick=()=>{[...grid.children].slice(12).forEach(node=>node.remove());shown=12;grid.querySelector<HTMLElement>('.reader-record:nth-child(12)')?.scrollIntoView({block:'nearest'});update();};
+ retry.onclick=()=>void fetchPage();const observer=new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting)){observer.disconnect();void fetchPage();}},{rootMargin:'200px'});observer.observe(root);
+});
+</script>

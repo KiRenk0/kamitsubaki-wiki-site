@@ -1,0 +1,25 @@
+---
+import SelectionGroup from './SelectionGroup.astro';
+interface Props {id:string; label:string; tabs:{id:string;label:string}[]}
+const {id,label,tabs}=Astro.props;
+const panels=await Promise.all(tabs.map(tab=>Astro.slots.render(tab.id)));
+---
+<div data-content-tabs>
+ <SelectionGroup role="tablist" aria-label={label} class="content-tabs">
+  {tabs.map((tab,i)=><button type="button" role="tab" id={`${id}-${tab.id}-tab`} aria-controls={`${id}-${tab.id}`} aria-selected={i===0?'true':'false'} tabindex={i===0?0:-1} data-content-tab={tab.id}>{tab.label}</button>)}
+ </SelectionGroup>
+ {tabs.map((tab,i)=><div id={`${id}-${tab.id}`} role="tabpanel" aria-labelledby={`${id}-${tab.id}-tab`} tabindex="0" hidden={i!==0} data-content-panel={tab.id}><Fragment set:html={panels[i]}/></div>)}
+</div>
+<script>
+for(const root of document.querySelectorAll<HTMLElement>('[data-content-tabs]')){
+ const buttons=[...root.querySelectorAll<HTMLButtonElement>('[data-content-tab]')];
+ const select=(button:HTMLButtonElement)=>{for(const item of buttons){const active=item===button;item.setAttribute('aria-selected',String(active));item.tabIndex=active?0:-1;}root.querySelectorAll<HTMLElement>('[data-content-panel]').forEach(panel=>panel.hidden=panel.dataset.contentPanel!==button.dataset.contentTab);};
+ buttons.forEach((button,index)=>{button.addEventListener('click',()=>select(button));button.addEventListener('keydown',event=>{if(!['ArrowLeft','ArrowRight','Home','End'].includes(event.key))return;event.preventDefault();const next=event.key==='Home'?0:event.key==='End'?buttons.length-1:(index+(event.key==='ArrowRight'?1:-1)+buttons.length)%buttons.length;select(buttons[next]);buttons[next].focus();});});
+}
+</script>
+<style is:global>
+.content-tabs{display:flex;width:fit-content;gap:4px;padding:4px;margin-bottom:24px;border:1px solid rgb(var(--theme-fg-rgb)/.12);border-radius:8px}
+.content-tabs button{padding:8px 18px;color:rgb(var(--theme-fg-rgb)/.6);font-size:12px;cursor:pointer;background:none;border:0;min-height:40px}
+.content-tabs button[aria-selected=true]{color:var(--theme-fg)}
+[data-content-panel][hidden]{display:none!important}
+</style>

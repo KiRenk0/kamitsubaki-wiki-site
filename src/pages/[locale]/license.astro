@@ -1,4 +1,6 @@
 ---
+import WorkspaceHeader from '../../components/WorkspaceHeader.astro';
+import WorkspaceShell from '../../components/WorkspaceShell.astro';
 import { getBuildCollection as getCollection } from '../../lib/contentAuditContext';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
@@ -101,12 +103,8 @@ const metadata = {
 <BaseLayout reading lang={localeCode} alternates={alternates} title={metadata.title} metadata={metadata}>
   <SiteNav navItems={homeContent.navItems} localeLinks={localeLinks} brandLines={homeContent.hero.brandLines} compact homeHref={`/${localeCode}/`} />
 
-  <main class="mx-auto max-w-5xl px-4 pb-16 pt-24 sm:px-6 sm:pt-28">
-    <header class="border-b border-white/10 pb-9 reveal-up">
-      <p class="font-mono text-[9px] uppercase tracking-[0.24em] text-white/35">{content.eyebrow}</p>
-      <h1 class="mt-4 font-serif text-4xl font-semibold tracking-[0.06em] text-white sm:text-5xl">{content.title}</h1>
-      <p class="mt-6 max-w-3xl text-sm leading-7 text-white/62 sm:text-[15px] sm:leading-8">{content.intro}</p>
-    </header>
+  <WorkspaceShell width="reading" class="license-workspace">
+    <WorkspaceHeader title={content.title} intro={content.intro} eyebrow={content.eyebrow} backHref={`/${locale}/`} backLabel={locale==='en'?'Home':locale==='ja'?'ホーム':'首页'}/>
 
     <div class="mt-10 grid gap-8 lg:grid-cols-12">
       <article class="wiki-reader wiki-prose prose prose-invert max-w-none lg:col-span-8 reveal-up">
@@ -147,7 +145,7 @@ const metadata = {
         </div>
       </aside>
     </div>
-  </main>
+  </WorkspaceShell>
 
   <SiteFooter footer={homeContent.footer} />
 </BaseLayout>

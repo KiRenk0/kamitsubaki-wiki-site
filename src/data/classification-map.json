@@ -1,0 +1,652 @@
+{
+  "source": "docs/category-optimization/classification-detailed-map.md",
+  "tree": [
+    {
+      "id": "people",
+      "labels": [
+        "人物与艺人",
+        "People & artists",
+        "人物・アーティスト"
+      ],
+      "code": "1.1",
+      "children": [
+        {
+          "id": "solo",
+          "labels": [
+            "个人歌手与独立艺人",
+            "Solo artists",
+            "ソロアーティスト"
+          ],
+          "category": "solo",
+          "ids": [
+            "kaf",
+            "rim",
+            "harusaruhi",
+            "isekaijoucho",
+            "koko",
+            "kaika",
+            "ciel",
+            "asu",
+            "aru",
+            "azsagawa",
+            "teresa",
+            "sooda"
+          ]
+        },
+        {
+          "id": "groups",
+          "labels": [
+            "演艺组合",
+            "Units & groups",
+            "ユニット・グループ"
+          ],
+          "category": "groups",
+          "children": [
+            {
+              "id": "group-vwp",
+              "labels": [
+                "V.W.P",
+                "V.W.P",
+                "V.W.P"
+              ],
+              "ids": [
+                "kaf",
+                "rim",
+                "harusaruhi",
+                "isekaijoucho",
+                "koko"
+              ],
+              "overviewIds": [
+                "vwp"
+              ]
+            },
+            {
+              "id": "group-albemuth",
+              "labels": [
+                "Albemuth",
+                "Albemuth",
+                "Albemuth"
+              ],
+              "ids": [
+                "aru",
+                "asu"
+              ],
+              "overviewIds": [
+                "albemuth"
+              ]
+            },
+            {
+              "id": "group-valis",
+              "labels": [
+                "VALIS",
+                "VALIS",
+                "VALIS"
+              ],
+              "ids": [
+                "chino",
+                "myu",
+                "neffy",
+                "nina",
+                "rara",
+                "vitte"
+              ],
+              "overviewIds": [
+                "valis"
+              ]
+            },
+            {
+              "id": "group-dustcell",
+              "labels": [
+                "DUSTCELL",
+                "DUSTCELL",
+                "DUSTCELL"
+              ],
+              "ids": [
+                "ema",
+                "misumi"
+              ],
+              "overviewIds": [
+                "dustcell"
+              ]
+            },
+            {
+              "id": "group-sinseiki",
+              "labels": [
+                "心世纪",
+                "心世纪",
+                "心世纪"
+              ],
+              "ids": [
+                "orihime",
+                "kakyoin",
+                "garasumiya"
+              ],
+              "overviewIds": [
+                "sinseiki"
+              ]
+            },
+            {
+              "id": "group-tsumitobatsu",
+              "labels": [
+                "罪十罚",
+                "罪十罚",
+                "罪十罚"
+              ],
+              "ids": [
+                "mikoto",
+                "yunagi",
+                "hinageshi"
+              ],
+              "overviewIds": [
+                "tsumitobatsu"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "creators",
+          "labels": [
+            "核心词曲创作者",
+            "Creators",
+            "作詞・作曲家"
+          ],
+          "category": "creators",
+          "ids": [
+            "kanzaki-iori",
+            "guiano",
+            "onuma-parsley",
+            "mimi",
+            "yunosuke",
+            "kashiimoimi",
+            "hiratayoshihisa",
+            "toa",
+            "hifi-p",
+            "tokiwa",
+            "ichinose-ruri"
+          ]
+        },
+        {
+          "id": "staff",
+          "labels": [
+            "策划与监督团队",
+            "Staff & directors",
+            "企画・監督チーム"
+          ],
+          "category": "staff",
+          "ids": [
+            "piedpiper",
+            "palow",
+            "kawasaki",
+            "tsukisimasouki"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "isotopes",
+      "labels": [
+        "官方音乐同位体",
+        "Musical isotopes",
+        "音楽的同位体"
+      ],
+      "code": "1.2",
+      "category": "isotopes",
+      "ids": [
+        "kafu",
+        "sekai",
+        "rime",
+        "coko",
+        "haru"
+      ]
+    },
+    {
+      "id": "music",
+      "labels": [
+        "音乐唱片编目",
+        "Releases & songs",
+        "音楽作品・楽曲"
+      ],
+      "code": "1.3",
+      "children": [
+        {
+          "id": "songs",
+          "labels": [
+            "曲目总库",
+            "Songs",
+            "楽曲"
+          ],
+          "category": "songs"
+        },
+        {
+          "id": "releases",
+          "labels": [
+            "唱片编目",
+            "Releases",
+            "音楽作品"
+          ],
+          "category": "releases",
+          "children": [
+            {
+              "id": "studio-albums",
+              "labels": [
+                "正规录音室专辑",
+                "Studio albums",
+                "スタジオアルバム"
+              ],
+              "releaseType": "album"
+            },
+            {
+              "id": "eps",
+              "labels": [
+                "迷你专辑",
+                "EPs",
+                "ミニアルバム"
+              ],
+              "releaseType": "ep"
+            },
+            {
+              "id": "singles",
+              "labels": [
+                "单曲唱片",
+                "Singles",
+                "シングル"
+              ],
+              "releaseType": "single"
+            },
+            {
+              "id": "soundtracks",
+              "labels": [
+                "原声配乐大碟",
+                "Soundtracks",
+                "サウンドトラック"
+              ],
+              "releaseType": "soundtrack"
+            },
+            {
+              "id": "live-recordings",
+              "labels": [
+                "现场实况录音与影像",
+                "Live albums & video",
+                "ライブ音源・映像"
+              ],
+              "releaseType": "live-album"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "labels": [
+        "企划宇宙与多媒体 IP",
+        "Projects & IP",
+        "企画・マルチメディアIP"
+      ],
+      "code": "1.4",
+      "category": "projects",
+      "children": [
+        {
+          "id": "city-project",
+          "labels": [
+            "神椿市建設中。",
+            "KAMITSUBAKI CITY",
+            "神椿市建設中。"
+          ],
+          "ids": [
+            "kamitsubaki-city"
+          ],
+          "children": [
+            {
+              "id": "city-animation",
+              "labels": [
+                "TV 动画",
+                "TV animation",
+                "TVアニメ"
+              ],
+              "ids": [
+                "kamitsubaki-city-anime"
+              ]
+            },
+            {
+              "id": "city-games",
+              "labels": [
+                "游戏三部曲",
+                "Game trilogy",
+                "ゲーム三部作"
+              ],
+              "ids": [
+                "kamitsubaki-city-ensemble",
+                "kamitsubaki-city-regenerate",
+                "kamitsubaki-city-vr"
+              ]
+            },
+            {
+              "id": "city-literature",
+              "labels": [
+                "衍生文学",
+                "Literature",
+                "文学作品"
+              ],
+              "ids": [
+                "kamitsubaki-city-novelized"
+              ]
+            },
+            {
+              "id": "city-arg",
+              "labels": [
+                "早期 ARG 记录",
+                "Early ARG archive",
+                "初期ARG記録"
+              ],
+              "ids": [
+                "kamitsubaki-city-arg"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "girls-revolution",
+          "labels": [
+            "少女革命計画",
+            "Girls Revolution Project",
+            "少女革命計画"
+          ],
+          "ids": [
+            "girls-revolution-project",
+            "grp-anime"
+          ]
+        },
+        {
+          "id": "isotope-project",
+          "labels": [
+            "音楽的同位体企划",
+            "The Isotope Project",
+            "音楽的同位体プロジェクト"
+          ],
+          "ids": [
+            "musical-isotope"
+          ]
+        },
+        {
+          "id": "unknown-projects",
+          "labels": [
+            "UNKNOWN LAB Projects",
+            "UNKNOWN LAB Projects",
+            "UNKNOWN LAB Projects"
+          ],
+          "ids": [
+            "unknown-lab-projects"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "labels": [
+        "现场演出与大型活动",
+        "Lives & events",
+        "公演・大型イベント"
+      ],
+      "code": "1.5",
+      "category": "lives",
+      "children": [
+        {
+          "id": "flagship-lives",
+          "labels": [
+            "旗舰演唱会",
+            "Flagship concerts",
+            "主要ライブ"
+          ],
+          "eventTypes": [
+            "oneman-live",
+            "joint-live",
+            "xr-sinka-live"
+          ],
+          "ids": [
+            "fukakai",
+            "fukakai-two",
+            "fukakai-san-kyou",
+            "fukakai-4-kaika",
+            "witch-assembly",
+            "vwp-phenomenon",
+            "sinka-live",
+            "yoyogi-arena-2024"
+          ]
+        },
+        {
+          "id": "community-events",
+          "labels": [
+            "衍生交流",
+            "Community events",
+            "交流イベント"
+          ],
+          "eventTypes": [
+            "event"
+          ],
+          "ids": [
+            "radio-recordings",
+            "release-presentations",
+            "official-fan-salons"
+          ]
+        },
+        {
+          "id": "exhibitions",
+          "labels": [
+            "展览与空间",
+            "Exhibitions & spaces",
+            "展示・空間"
+          ],
+          "eventTypes": [
+            "exhibition"
+          ],
+          "ids": [
+            "witch-exhibition",
+            "shibuya-parco-pop-up"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organizations",
+      "labels": [
+        "组织体系、工作室与厂牌",
+        "Organizations & studios",
+        "組織・スタジオ・レーベル"
+      ],
+      "code": "1.6",
+      "category": "organizations",
+      "children": [
+        {
+          "id": "parent-companies",
+          "labels": [
+            "母体公司",
+            "Parent company",
+            "母体企業"
+          ],
+          "ids": [
+            "thinkr"
+          ]
+        },
+        {
+          "id": "creative-studios",
+          "labels": [
+            "核心创作者工作室与实验室",
+            "Creative studios & labs",
+            "クリエイティブスタジオ・ラボ"
+          ],
+          "ids": [
+            "kamitsubaki-studio",
+            "kyokai-studio",
+            "allt-studio",
+            "phase-studio",
+            "qa-studio",
+            "unknown-lab"
+          ]
+        },
+        {
+          "id": "creative-network",
+          "labels": [
+            "创作者经纪与协作网络",
+            "Creator network",
+            "クリエイターネットワーク"
+          ],
+          "ids": [
+            "thinkr-creative-guild"
+          ]
+        },
+        {
+          "id": "record-network",
+          "labels": [
+            "唱片厂牌与发行网络",
+            "Labels & distribution",
+            "レーベル・配信ネットワーク"
+          ],
+          "ids": [
+            "phenomenon-record",
+            "sinsekai-record",
+            "anarchic-record",
+            "pndr"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lore",
+      "labels": [
+        "世界观、术语词典与设定",
+        "Lore & universe",
+        "世界観・用語・設定"
+      ],
+      "code": "1.7",
+      "category": "lore",
+      "children": [
+        {
+          "id": "universe",
+          "labels": [
+            "世界观脉络",
+            "Universe",
+            "世界観の構造"
+          ],
+          "ids": [
+            "reality-axis",
+            "virtual-network-axis",
+            "city-parallel-axis"
+          ]
+        },
+        {
+          "id": "glossary",
+          "labels": [
+            "官方核心专有名词",
+            "Official glossary",
+            "公式用語"
+          ],
+          "children": [
+            {
+              "id": "existence-forms",
+              "labels": [
+                "存在形态",
+                "Forms of existence",
+                "存在形態"
+              ],
+              "ids": [
+                "witch",
+                "singularity",
+                "universal-form",
+                "combat-form"
+              ]
+            },
+            {
+              "id": "relationship-terms",
+              "labels": [
+                "关系网络",
+                "Relationships",
+                "関係性"
+              ],
+              "ids": [
+                "observer",
+                "accomplice",
+                "isotope",
+                "dual-wielder"
+              ]
+            },
+            {
+              "id": "system-terms",
+              "labels": [
+                "系统机制",
+                "Systems",
+                "システム"
+              ],
+              "ids": [
+                "sinka",
+                "collapse",
+                "concerto",
+                "regenerate"
+              ]
+            },
+            {
+              "id": "geography",
+              "labels": [
+                "地理机构",
+                "Places & institutions",
+                "地理・機関"
+              ],
+              "ids": [
+                "q-city",
+                "reconstruction-bureau",
+                "scales-tower",
+                "virtual-special-zone"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "characters",
+          "labels": [
+            "虚构住民",
+            "Fictional residents",
+            "架空の住民"
+          ],
+          "ids": [
+            "morisaki-kaho",
+            "yagyu-rime",
+            "asanushi-haru",
+            "yogawa-sekai",
+            "rinne-koko"
+          ]
+        }
+      ]
+    }
+  ],
+  "articles": [
+    [
+      "thinkr-capital-and-mbo-study",
+      "THINKR 资本运作与商业模式研究",
+      "business"
+    ],
+    [
+      "kaika-artistic-evolution",
+      "花谱与廻花双生艺术演进深度分析",
+      "art-philosophy"
+    ],
+    [
+      "pndr-business-model",
+      "PNDR 独立音乐分发平台的商业闭环剖析",
+      "infrastructure"
+    ],
+    [
+      "cross-source-comparison",
+      "神椿多源数据矩阵比对报告",
+      "archival"
+    ],
+    [
+      "conflict-resolutions",
+      "全域实体命名与历史冲突消解表",
+      "archival"
+    ],
+    [
+      "chronicle-style-and-live-study",
+      "神椿编年曲风演化史与现场纪实",
+      "archival"
+    ]
+  ]
+}

@@ -5,7 +5,7 @@ export const labsWorlds = [
     kind: 'ARG',
     title: '神椿市建設中。',
     date: '2021-10-05',
-    path: 'arg/kamitsubaki-city',
+    entity: 'kamitsubaki-city',
     source: 'https://uc.kamitsubaki.jp/',
     copy: {
       zh: '从企划原点与解谜体验认识神椿市。',
@@ -40,7 +40,7 @@ export const labsWorlds = [
     kind: 'NOVEL',
     title: '神椿市建設中。NOVELIZED',
     date: '2025-05-23',
-    path: 'novels/kamitsubaki-city-novelized',
+    entity: 'kamitsubaki-city-novelized',
     source: 'https://www.kadokawa.co.jp/product/322412000963/',
     copy: {
       zh: '月岛总记／风雅宿著，MF 文库 J 出版。提供出版资料与正版阅读入口。',
@@ -58,7 +58,7 @@ export const labsWorlds = [
     kind: 'ANIME',
     title: '神椿市建設中。',
     date: '2025-07-03',
-    path: 'animes/kamitsubakicityunderconstraction_anime',
+    entity: 'kamitsubaki-city-anime',
     source: 'https://kamitsubaki.jp/news/2025/03/22/6491/',
     copy: {
       zh: '电视动画入口。结合音乐与影像认识作品角色。',

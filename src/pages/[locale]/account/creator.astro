@@ -1,0 +1,36 @@
+---
+import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
+import AccountSections from '../../../components/AccountSections.astro';
+import {supportedLocales} from '../../../lib/i18n.mjs';
+import {editorApiBase} from '../../../lib/editorConfig.mjs';
+import {creatorCenterCopy} from '../../../lib/creatorCenterCopy.mjs';
+import '../../../styles/account.css';
+import '../../../styles/creatorWorkspace.css';
+export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
+const locale=Astro.params.locale||'zh',c=creatorCenterCopy(locale);
+const api=import.meta.env.PUBLIC_ARTICLE_API_URL||import.meta.env.PUBLIC_AI_OBSERVER_API_BASE||'https://api.kamitsubaki.wiki';
+const create=[['entry',c.newEntry,`/${locale}/contribute/editor/`],['article',c.newArticle,`/${locale}/articles/submit/`],['gallery',c.newGallery,`/${locale}/gallery/manage/`],['timeline',c.newTimeline,`/${locale}/chronicle/submit/`]];
+---
+<WorkspaceLayout locale={locale} title={c.title} intro={c.intro} path="/account/creator/" eyebrow="CREATOR SPACE" backHref={`/${locale}/account/`} backLabel={c.back} width="wide" noindex mainAttributes={{'class':'account-shell creator-page','data-creator-center':'','data-locale':locale,'data-api':api,'data-editor-api':editorApiBase,'data-copy':JSON.stringify(c)}}>
+  <Fragment slot="actions"><a class="creator-create-link" href={`/${locale}/contribute/`}>{c.create} ↗</a></Fragment>
+  <div class="account-workspace"><AccountSections locale={locale} active="creator"/><div class="account-panels creator-content"><div class="creator-main">
+    <p data-creator-status role="status" class="creator-status">{c.loading}</p>
+    <section class="creator-guest" data-creator-guest hidden><div class="creator-guest-intro"><p>START / 01</p><h2>{c.guestStart}</h2><p>{c.loginHint}</p><div><a class="creator-login" data-creator-login href={`/${locale}/account/?returnTo=${encodeURIComponent(`/${locale}/account/creator/`)}`}>{c.signIn} →</a><a href={`/${locale}/contribute/`}>{c.guestGuide} ↗</a></div></div><div class="creator-guest-options">{create.map(([type,label,href],index)=><a href={href}><span>0{index+1} / {c[type]}</span><strong>{label}</strong><b aria-hidden="true">↗</b></a>)}</div></section>
+    <div class="creator-start-grid">
+      <section class="creator-section creator-todo" aria-labelledby="creator-todo-title" hidden><div class="creator-heading"><div><span>01 / ACTION</span><h2 id="creator-todo-title">{c.todo}</h2></div><span data-todo-count></span></div><div data-creator-todo><p>{c.loading}</p></div></section>
+      <section class="creator-section creator-local" aria-labelledby="creator-local-title" hidden><div class="creator-heading"><div><span>02 / DRAFTS</span><h2 id="creator-local-title">{c.local}</h2></div></div><p class="creator-section-intro">{c.localNote}</p><div data-creator-drafts></div></section>
+    </div>
+    <section class="creator-section creator-records-section" aria-labelledby="creator-records-title" hidden><div class="creator-heading"><h2 id="creator-records-title">{c.records}</h2><button type="button" data-creator-refresh>{c.retry}</button></div>
+      <form data-creator-filters class="creator-filters" role="search"><label>{c.search}<input name="q" type="search" autocomplete="off"/></label><label>{c.type}<select name="type"><option value="">{c.all}</option>{(['entry','article','gallery','timeline'] as const).map(key=><option value={key}>{c[key]}</option>)}</select></label><label>{c.state}<select name="state"><option value="">{c.all}</option>{(['attention','review','published','draft'] as const).map(key=><option value={key}>{c[key]}</option>)}</select></label></form>
+      <div class="creator-record-list" data-creator-rows></div>
+      <div class="creator-pagination"><span data-records-status role="status"></span><div><button type="button" data-page-previous>{c.previous}</button><button type="button" data-page-next>{c.next}</button></div></div>
+    </section>
+    <div class="creator-secondary-grid">
+      <section class="creator-section creator-notifications" aria-labelledby="creator-notifications-title" hidden><div class="creator-heading"><div><span>03 / UPDATES</span><h2 id="creator-notifications-title">{c.notifications}</h2></div><span data-notification-count></span></div><div data-creator-notifications><p>{c.loading}</p></div></section>
+      <section class="creator-section creator-overview" aria-labelledby="creator-dashboard-title" hidden><div class="creator-heading"><div><span>04 / OVERVIEW</span><h2 id="creator-dashboard-title">{c.dashboard}</h2></div></div><div class="creator-metrics">{(['attention','draft','review','published'] as const).map(key=><button type="button" data-metric={key}><span>{c[key]}</span><strong data-metric-count={key}>—</strong></button>)}</div></section>
+    </div>
+    <section class="creator-section creator-recent" aria-labelledby="creator-recent-title" hidden><div class="creator-heading"><h2 id="creator-recent-title">{c.recent}</h2></div><div data-creator-recent><p>{c.loading}</p></div></section>
+  </div><aside class="creator-detail" data-creator-detail hidden role="dialog" aria-labelledby="creator-detail-title"><div class="creator-detail-head"><span>{c.records}</span><button type="button" data-detail-close>{c.close}</button></div><div data-detail-content></div></aside></div></div>
+  <div class="creator-detail-backdrop" data-detail-backdrop hidden></div>
+</WorkspaceLayout>
+<script>import '../../../scripts/creatorCenter.js';</script>

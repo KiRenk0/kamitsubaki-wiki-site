@@ -1,0 +1,92 @@
+---
+locale: "ja"
+title: "青春イマジネーション 瓦利斯飯店ver."
+releaseDate: "2024-08-28"
+label: "kamitsubaki-studio"
+duration: "42:16"
+officialLinks:
+  - label: "Apple Music"
+    url: "https://music.apple.com/jp/album/1763999465?uo=4"
+tracks:
+  - number: "1"
+    title: "無窮プラトニック"
+    duration: "02:51"
+    songId: "single-valis-puratonikku"
+  - number: "2"
+    title: "I.C.E(CHINO)"
+    duration: "03:06"
+  - number: "3"
+    title: "渇愛論(MYU)"
+    duration: "03:01"
+    songId: "single-valis-myu-songs"
+  - number: "4"
+    title: "猫好的トリックスター(NEFFY)"
+    duration: "03:23"
+    songId: "single-valis-torikkusutaa-neffy"
+  - number: "5"
+    title: "わたしマニュアル(NINA)"
+    duration: "02:37"
+    songId: "single-valis-watashimanyuaru-nina"
+  - number: "6"
+    title: "禁断果実(RARA)"
+    duration: "02:30"
+    songId: "single-valis-rara-songs"
+  - number: "7"
+    title: "ピカピカキャンディラブイズム(VITTE)"
+    duration: "03:11"
+    songId: "single-valis-pikapikakyandeirabuizumu-vitte"
+  - number: "8"
+    title: "DRESS."
+    duration: "02:25"
+  - number: "9"
+    title: "変異体"
+    duration: "03:00"
+  - number: "10"
+    title: "猫好的ショータイム"
+    duration: "03:26"
+  - number: "11"
+    title: "わたしトラベラー"
+    duration: "03:16"
+  - number: "12"
+    title: "月輪迷宮"
+    duration: "02:56"
+  - number: "13"
+    title: "狂愛レゾナンス"
+    duration: "03:23"
+  - number: "14"
+    title: "遭逢ユートピア"
+    duration: "03:09"
+schemaVersion: 2
+id: "valis-1763999465"
+aliases: []
+presentation:
+  image: "/images/albums/valis/青春イマジネーション-瓦利斯飯店ver.-1763999465.jpg"
+  sortOrder: 72
+relations: []
+entityType: "work-release"
+romanizedTitle: "青春イマジネーション 瓦利斯飯店ver."
+releaseType: "album"
+primaryArtist: "valis"
+summary: "VALISが2024-08-28にリリースしたアルバム『青春イマジネーション 瓦利斯飯店ver.』。全14曲を収録。"
+---
+
+## 概要
+
+[VALIS](/ja/artists/solo/valis)が2024-08-28にリリースしたアルバム『青春イマジネーション 瓦利斯飯店ver.』。全14曲を収録。
+
+## 収録曲
+
+1. [無窮プラトニック](/ja/songs/valis/originals/無窮puratonikku)（02:51）
+2. I.C.E(CHINO)（03:06）
+3. [渇愛論(MYU)](/ja/songs/valis/originals/渇愛論-myu)（03:01）
+4. [猫好的トリックスター(NEFFY)](/ja/songs/valis/originals/猫好的torikkusutaa-neffy)（03:23）
+5. [わたしマニュアル(NINA)](/ja/songs/valis/originals/watashimanyuaru-nina)（02:37）
+6. [禁断果実(RARA)](/ja/songs/valis/originals/禁断果実-rara)（02:30）
+7. [ピカピカキャンディラブイズム(VITTE)](/ja/songs/valis/originals/pikapikakyandeirabuizumu-vitte)（03:11）
+8. DRESS.（02:25）
+9. 変異体（03:00）
+10. 猫好的ショータイム（03:26）
+11. わたしトラベラー（03:16）
+12. 月輪迷宮（02:56）
+13. 狂愛レゾナンス（03:23）
+14. 遭逢ユートピア（03:09）

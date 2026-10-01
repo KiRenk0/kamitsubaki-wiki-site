@@ -25,8 +25,11 @@ const { footer } = Astro.props as { footer: FooterContent };
 const footerLogoAlt = getLocalizedSiteName(Astro.params.locale);
 const locale = Astro.params.locale ?? defaultLocale;
 const supportHref = `/${locale}/support/`;
+const docsHref = `/${locale}/docs/`;
+const docsLabel = 'DOCUMENTS';
 const footerLinks = [
-  ...footer.links.filter((link) => link.href.replace(/\/$/, '') !== supportHref.replace(/\/$/, '')),
+  ...footer.links.filter((link) => ![supportHref,docsHref].map(value=>value.replace(/\/$/,'')).includes(link.href.replace(/\/$/,''))),
+  { label: docsLabel, href: docsHref },
   { label: 'SUPPORT', href: supportHref },
 ];
 ---

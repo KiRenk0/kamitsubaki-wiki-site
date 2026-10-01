@@ -1,0 +1,10 @@
+---
+import type {HTMLAttributes} from 'astro/types';
+interface Props extends HTMLAttributes<'section'> {state?:'loading'|'empty'|'error'|'ready';}
+const {state='empty',class:className,...attributes}=Astro.props;
+---
+<section {...attributes} class:list={['workspace-state',className]} data-state={state}>
+ <svg class="workspace-state__symbol" aria-hidden="true" viewBox="0 0 28 28"><path d="M6 4h12l4 4v16H6zM18 4v5h4M10 14h8M10 18h5"/></svg>
+ <slot/>
+ <div class="workspace-state__actions"><slot name="actions"/></div>
+</section>

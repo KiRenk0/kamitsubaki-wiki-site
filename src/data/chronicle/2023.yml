@@ -1,0 +1,1510 @@
+schemaVersion: 1
+year: 2023
+events:
+  - id: "event-d9296ff9b2751026"
+    date:
+      start: "2023-01-18"
+      precision: "day"
+    text:
+      zh:
+        title: "【花譜】STREAMING COVER LIVE「アイスクリームライブ2」開催！"
+        summary: "【花譜】STREAMING COVER LIVE「アイスクリームライブ2」開催！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "kaf"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-8cbfdde59bf50431"
+    date:
+      start: "2023-01-20"
+      precision: "day"
+    text:
+      zh:
+        title: "【DUSTCELL】3/29 2nd Mini Album「ROUND TRIP」& Live Blu-ray『DUSTCELL LIVE 2022「PREPARATION」』同時発売決定"
+        summary: "【DUSTCELL】3/29 2nd Mini Album「ROUND TRIP」& Live Blu-ray『DUSTCELL LIVE 2022「PREPARATION」』同時発売決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "dustcell"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-59fd751a7f7c843c"
+    date:
+      start: "2023-01-29"
+      precision: "day"
+    text:
+      zh:
+        title: "【花譜】3rd ONE-MAN LIVE「不可解参(想)」開催決定！"
+        summary: "【花譜】3rd ONE-MAN LIVE「不可解参(想)」開催決定！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "kaf"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-fcd113a0d04826e0"
+    date:
+      start: "2023-02-06"
+      precision: "day"
+    text:
+      zh:
+        title: "【香椎モイミ】2nd ALBUM「偏愛」2/8リリース決定"
+        summary: "【香椎モイミ】2nd ALBUM「偏愛」2/8リリース決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "kashiimoimi"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-bcbc49204264e7bf"
+    date:
+      start: "2023-02-22"
+      precision: "day"
+    text:
+      zh:
+        title: "「αU research × KAMITSUBAKI STUDIO presents prompt αU」開催決定！"
+        summary: "「αU research × KAMITSUBAKI STUDIO presents prompt αU」開催決定！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related: []
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-ffc9fe26eb3c8a62"
+    date:
+      start: "2023-02-22"
+      precision: "day"
+    text:
+      zh:
+        title: "【DUSTCELL】2nd Mini Album「ROUND TRIP」より「オルターエゴ」先行配信 & MV公開"
+        summary: "【DUSTCELL】2nd Mini Album「ROUND TRIP」より「オルターエゴ」先行配信 & MV公開"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "dustcell"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-06b645cc7a9fe781"
+    date:
+      start: "2023-03-05"
+      precision: "day"
+    text:
+      zh:
+        title: "カンザキイオリ2nd ONE-MAN LIVE「別れなど、少年少女に恐れなし」開催決定"
+        summary: "カンザキイオリ2nd ONE-MAN LIVE「別れなど、少年少女に恐れなし」開催決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "kanzaki-iori"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-6fe477fa07c585bc"
+    date:
+      start: "2023-03-24"
+      precision: "day"
+    text:
+      zh:
+        title: "【DUSTCELL】TOUR 2023「ROUND TRIP」チケット一般発売開始"
+        summary: "【DUSTCELL】TOUR 2023「ROUND TRIP」チケット一般発売開始"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "dustcell"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-5f9078adde86f787"
+    date:
+      start: "2023-03-28"
+      precision: "day"
+    text:
+      zh:
+        title: "【ヰ世界情緒】FMヨコハマにて冠ラジオ番組決定"
+        summary: "【ヰ世界情緒】FMヨコハマにて冠ラジオ番組決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "isekaijoucho"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-3adf40dcc3982905"
+    date:
+      start: "2023-03-30"
+      precision: "day"
+    text:
+      zh:
+        title: "「KAMITSUBAKI FES '23」于丰洲 PIT 两日盛大开幕，神椿大家庭首次全员齐聚线下"
+        summary: "「KAMITSUBAKI FES '23」于丰洲 PIT 两日盛大开幕，神椿大家庭首次全员齐聚线下"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related: []
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "大型音乐节"
+  - id: "event-9e3f4e8031c11c0f"
+    date:
+      start: "2023-04-08"
+      precision: "day"
+    text:
+      zh:
+        title: "【ヰ世界情緒】4月15日(土) Virtual mini live「parallel canvas」開催決定！"
+        summary: "【ヰ世界情緒】4月15日(土) Virtual mini live「parallel canvas」開催決定！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "isekaijoucho"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-5dcf3ff5f04ff24d"
+    date:
+      start: "2023-05-06"
+      precision: "day"
+    text:
+      zh:
+        title: "【V.W.P】1st AL「運命」、Blu-ray「現象/魔女集会」受注開始"
+        summary: "【V.W.P】1st AL「運命」、Blu-ray「現象/魔女集会」受注開始"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "vwp"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-05427bf943a9ef09"
+    date:
+      start: "2023-05-11"
+      precision: "day"
+    text:
+      zh:
+        title: "【花譜】ぱんぱかカフぃ(R)×タワーレコードコラボカフェ開催！"
+        summary: "【花譜】ぱんぱかカフぃ(R)×タワーレコードコラボカフェ開催！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "kaf"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-69dd2f0d40c58977"
+    date:
+      start: "2023-05-17"
+      precision: "day"
+    text:
+      zh:
+        title: "【DUSTCELL】TOUR 2023「ROUND TRIP」5/25 Zepp Haneda -Final-のLIVE配信が決定"
+        summary: "【DUSTCELL】TOUR 2023「ROUND TRIP」5/25 Zepp Haneda -Final-のLIVE配信が決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "dustcell"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-2c4b0a93a58ff3e8"
+    date:
+      start: "2023-05-23"
+      precision: "day"
+    text:
+      zh:
+        title: "【ヰ世界情緒】SINKA LIVE SERIES EP.Ⅰ ヰ世界情緒 2nd ONE-MAN LIVE「Anima Ⅱ -神椿市参番街-」開催決定！"
+        summary: "【ヰ世界情緒】SINKA LIVE SERIES EP.Ⅰ ヰ世界情緒 2nd ONE-MAN LIVE「Anima Ⅱ -神椿市参番街-」開催決定！"
+    tracks:
+      - "project-verse"
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "isekaijoucho"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-d915489e70b383d2"
+    date:
+      start: "2023-05-25"
+      precision: "day"
+    text:
+      zh:
+        title: "【DUSTCELL】12月に東京・大阪でのワンマンライブ開催決定"
+        summary: "【DUSTCELL】12月に東京・大阪でのワンマンライブ開催決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "dustcell"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-035b1757f64eb49d"
+    date:
+      start: "2023-05-26"
+      precision: "day"
+    text:
+      zh:
+        title: "【理芽 / ヰ世界情緒】7/29「バズリズム LIVE V 2023」出演決定"
+        summary: "【理芽 / ヰ世界情緒】7/29「バズリズム LIVE V 2023」出演決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "isekaijoucho"
+        role: "subject"
+      - entity: "rim"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-9b7adedcd400582f"
+    date:
+      start: "2023-06-04"
+      precision: "day"
+    text:
+      zh:
+        title: "【詩道】詩道 3rd Single 「黎明」リリース！"
+        summary: "【詩道】詩道 3rd Single 「黎明」リリース！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related: []
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-189d4881dad67da8"
+    date:
+      start: "2023-06-26"
+      precision: "day"
+    text:
+      zh:
+        title: "【梓川】梓川カバーライブ「LIVE ECLIPCE -prelude to β-」開催決定"
+        summary: "【梓川】梓川カバーライブ「LIVE ECLIPCE -prelude to β-」開催決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related: []
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-362c0f93cd65d8e3"
+    date:
+      start: "2023-06-26"
+      precision: "day"
+    text:
+      zh:
+        title: "【梓川】梓川 1st ONE-MAN LIVE「LIVE ECLIPCE -β-」開催決定"
+        summary: "【梓川】梓川 1st ONE-MAN LIVE「LIVE ECLIPCE -β-」開催決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related: []
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-be0f29cc491056f8"
+    date:
+      start: "2023-07-19"
+      precision: "day"
+    text:
+      zh:
+        title: "【Guiano×理芽】9/20 Album「imagine」リリース決定"
+        summary: "【Guiano×理芽】9/20 Album「imagine」リリース決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "guiano"
+        role: "subject"
+      - entity: "rim"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-f6f870869f77cc32"
+    date:
+      start: "2023-07-27"
+      precision: "day"
+    text:
+      zh:
+        title: "【花譜/理芽】「J-WAVE INNOVATION WORLD FESTA 2023」出演決定"
+        summary: "【花譜/理芽】「J-WAVE INNOVATION WORLD FESTA 2023」出演決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "kaf"
+        role: "subject"
+      - entity: "rim"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-de0aa37f6de063d3"
+    date:
+      start: "2023-08-01"
+      precision: "day"
+    text:
+      zh:
+        title: "【幸祜】2ndワンマンライブ“PLAYERⅡ”が開催決定"
+        summary: "【幸祜】2ndワンマンライブ“PLAYERⅡ”が開催決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "koko"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-1cc1de4c619b1d61"
+    date:
+      start: "2023-08-09"
+      precision: "day"
+    text:
+      zh:
+        title: "【Guiano×理芽】Album「imagine」から「空っぽなら、踊ろうぜ」先行配信"
+        summary: "【Guiano×理芽】Album「imagine」から「空っぽなら、踊ろうぜ」先行配信"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "guiano"
+        role: "subject"
+      - entity: "rim"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-691a49f38c446d8b"
+    date:
+      start: "2023-08-09"
+      precision: "day"
+    text:
+      zh:
+        title: "8/25~27開催 ｢ YouTube Music Weekend 7.0 supported by docomo ｣出演決定"
+        summary: "8/25~27開催 ｢ YouTube Music Weekend 7.0 supported by docomo ｣出演決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "kaf"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-0207dfbab3aae666"
+    date:
+      start: "2023-08-16"
+      precision: "day"
+    text:
+      zh:
+        title: "【理芽】8/19（土）「CHOCOLATE LIVE2」開催決定"
+        summary: "【理芽】8/19（土）「CHOCOLATE LIVE2」開催決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "rim"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-3ca24858e4eb4d89"
+    date:
+      start: "2023-08-16"
+      precision: "day"
+    text:
+      zh:
+        title: "【理芽】新曲「えろいむ」が8/23 (水) 配信決定 & 8/19 (土) FM802「802 Palette」にて初OA"
+        summary: "【理芽】新曲「えろいむ」が8/23 (水) 配信決定 & 8/19 (土) FM802「802 Palette」にて初OA"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "rim"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-4441a58d5091026a"
+    date:
+      start: "2023-08-21"
+      precision: "day"
+    text:
+      zh:
+        title: "【V.W.P/花譜】「神椿代々木決戦二〇二四」開催決定"
+        summary: "【V.W.P/花譜】「神椿代々木決戦二〇二四」開催決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "kaf"
+        role: "subject"
+      - entity: "vwp"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-9b8f8d2bb0e5cdf4"
+    date:
+      start: "2023-08-26"
+      precision: "day"
+    text:
+      zh:
+        title: "【DUSTCELL LIVE 2023「DAWN」】12月東京・大阪で開催"
+        summary: "【DUSTCELL LIVE 2023「DAWN」】12月東京・大阪で開催"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "dustcell"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-704c23cb4eaa0ed5"
+    date:
+      start: "2023-08-31"
+      precision: "day"
+    text:
+      zh:
+        title: "【詩道】 4th Single 「クロマトグラフィー」リリース！"
+        summary: "【詩道】 4th Single 「クロマトグラフィー」リリース！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related: []
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-c87dc4ebc810355d"
+    date:
+      start: "2023-09-03"
+      precision: "day"
+    text:
+      zh:
+        title: "9月9日(土)20時よりTGS事前特番の配信が決定！"
+        summary: "9月9日(土)20時よりTGS事前特番の配信が決定！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "kaf"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-5f2b8d9130740978"
+    date:
+      start: "2023-09-10"
+      precision: "day"
+    text:
+      zh:
+        title: "【花譜】『ANIPLEX 20th Anniversary Event -THANX-』参加決定!!"
+        summary: "【花譜】『ANIPLEX 20th Anniversary Event -THANX-』参加決定!!"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "kaf"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-420e6ce84a0e8df8"
+    date:
+      start: "2023-09-16"
+      precision: "day"
+    text:
+      zh:
+        title: "3rd ALBUM「再現ガールフレンド」発売決定！"
+        summary: "3rd ALBUM「再現ガールフレンド」発売決定！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "valis"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-47f02948cd241d43"
+    date:
+      start: "2023-09-16"
+      precision: "day"
+    text:
+      zh:
+        title: "3rd ONE-MAN LIVE「必然的レゾンデートル」Blu-ray発売決定！"
+        summary: "3rd ONE-MAN LIVE「必然的レゾンデートル」Blu-ray発売決定！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "valis"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-5da0cbf9f05114af"
+    date:
+      start: "2023-09-16"
+      precision: "day"
+    text:
+      zh:
+        title: "TALK&LIVE「無限ミーティング Vol.2」東京・大阪・名古屋の三都市で開催決定！"
+        summary: "TALK&LIVE「無限ミーティング Vol.2」東京・大阪・名古屋の三都市で開催決定！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "valis"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-290c98c539a2b57d"
+    date:
+      start: "2023-09-21"
+      precision: "day"
+    text:
+      zh:
+        title: "【Guiano × 理芽】Album「imagine」誤植のお詫びと訂正"
+        summary: "【Guiano × 理芽】Album「imagine」誤植のお詫びと訂正"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "guiano"
+        role: "subject"
+      - entity: "rim"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-59af71fd4c24dc8d"
+    date:
+      start: "2023-09-23"
+      precision: "day"
+    text:
+      zh:
+        title: "【詩道】9/29（金） デビュー後初の弾き語りカバーライブ「TIDE LIVE」開催決定"
+        summary: "【詩道】9/29（金） デビュー後初の弾き語りカバーライブ「TIDE LIVE」開催決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related: []
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-7b1ae3b9ea5cfa0a"
+    date:
+      start: "2023-09-25"
+      precision: "day"
+    text:
+      zh:
+        title: "【春猿火】2ndワンマンライブ「シャーマニズム2」開催決定！"
+        summary: "【春猿火】2ndワンマンライブ「シャーマニズム2」開催決定！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "harusaruhi"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-765821c8df1f9af8"
+    date:
+      start: "2023-09-26"
+      precision: "day"
+    text:
+      zh:
+        title: "V.W.P×カラオケ館コラボキャンペーン決定!!"
+        summary: "V.W.P×カラオケ館コラボキャンペーン決定!!"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "vwp"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-fab984e24fb61da6"
+    date:
+      start: "2023-10-03"
+      precision: "day"
+    text:
+      zh:
+        title: "【理芽】12/6 2nd Album「NEW ROMANCER2」リリース決定"
+        summary: "【理芽】12/6 2nd Album「NEW ROMANCER2」リリース決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "rim"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-614d1bec82743d7b"
+    date:
+      start: "2023-10-03"
+      precision: "day"
+    text:
+      zh:
+        title: "【詩道】初の弾き語りカバーアルバム「TIDE LIVE -Acoustic-」の発売が決定"
+        summary: "【詩道】初の弾き語りカバーアルバム「TIDE LIVE -Acoustic-」の発売が決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related: []
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-f72fdbe047117659"
+    date:
+      start: "2023-10-04"
+      precision: "day"
+    text:
+      zh:
+        title: "【Misumi】代表曲「オルターエゴ」がコミカライズ決定！WEBマンガ誌「comic HOWL」にて連載開始"
+        summary: "【Misumi】代表曲「オルターエゴ」がコミカライズ決定！WEBマンガ誌「comic HOWL」にて連載開始"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related: []
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-4ff9d7c3a9826e4b"
+    date:
+      start: "2023-10-06"
+      precision: "day"
+    text:
+      zh:
+        title: "【理芽】理芽とadidas Originalsのコラボが実施決定"
+        summary: "【理芽】理芽とadidas Originalsのコラボが実施決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "rim"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-4e3462ebfe9086d5"
+    date:
+      start: "2023-10-10"
+      precision: "day"
+    text:
+      zh:
+        title: "【ヰ世界情緒】10月28日(土) Virtual mini live「parallel canvasⅡ」開催決定！"
+        summary: "【ヰ世界情緒】10月28日(土) Virtual mini live「parallel canvasⅡ」開催決定！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "isekaijoucho"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-2e98c90cbfc4caab"
+    date:
+      start: "2023-10-10"
+      precision: "day"
+    text:
+      zh:
+        title: "8/21発売 V.W.P 1st Album「運命」誤植のお詫びと訂正"
+        summary: "8/21発売 V.W.P 1st Album「運命」誤植のお詫びと訂正"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "vwp"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-1a33c6182b5b8f96"
+    date:
+      start: "2023-10-11"
+      precision: "day"
+    text:
+      zh:
+        title: "【DUSTCELL】12/6 Blu-ray「DUSTCELL TOUR 2023 -ROUND TRIP-」リリース決定"
+        summary: "【DUSTCELL】12/6 Blu-ray「DUSTCELL TOUR 2023 -ROUND TRIP-」リリース決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "dustcell"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-a6b8fcb6aa5a26d9"
+    date:
+      start: "2023-10-18"
+      precision: "day"
+    text:
+      zh:
+        title: "【理芽】12/16 SINKA LIVE SERIES EP. Ⅳ 理芽 2nd ONE-MAN LIVE「NEUROMANCE Ⅱ -神椿市壱番街-」開催決定"
+        summary: "【理芽】12/16 SINKA LIVE SERIES EP. Ⅳ 理芽 2nd ONE-MAN LIVE「NEUROMANCE Ⅱ -神椿市壱番街-」開催決定"
+    tracks:
+      - "project-verse"
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "rim"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-1b78c9d179d3fd4e"
+    date:
+      start: "2023-10-18"
+      precision: "day"
+    text:
+      zh:
+        title: "【花譜】LINEスタンプ第三弾・第四弾同時発売"
+        summary: "【花譜】LINEスタンプ第三弾・第四弾同時発売"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "kaf"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-633c4581eefecc22"
+    date:
+      start: "2023-11-04"
+      precision: "day"
+    text:
+      zh:
+        title: "【春猿火】2nd Album『心獣』発売決定！"
+        summary: "【春猿火】2nd Album『心獣』発売決定！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "harusaruhi"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-43f6175ac90f0b3a"
+    date:
+      start: "2023-11-05"
+      precision: "day"
+    text:
+      zh:
+        title: "【春猿火】2nd Album『心獣』より新曲『迷人』先行配信スタート&MVプレミア公開決定"
+        summary: "【春猿火】2nd Album『心獣』より新曲『迷人』先行配信スタート&MVプレミア公開決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "harusaruhi"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-e82abacff28d2236"
+    date:
+      start: "2023-11-13"
+      precision: "day"
+    text:
+      zh:
+        title: "【音楽的同位体】「音楽的同位体 羽累(HARU)」発売"
+        summary: "【音楽的同位体】「音楽的同位体 羽累(HARU)」発売"
+    tracks:
+      - "isotope-synth"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "haru"
+        role: "subject"
+      - entity: "musical-isotope"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-8abc744618eda62a"
+    date:
+      start: "2023-11-18"
+      precision: "day"
+    text:
+      zh:
+        title: "【跳亜】カバーアルバム「カシオペアライブ」配信スタート！"
+        summary: "【跳亜】カバーアルバム「カシオペアライブ」配信スタート！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related: []
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-b604684017d9a966"
+    date:
+      start: "2023-11-19"
+      precision: "day"
+    text:
+      zh:
+        title: "【Albemuth】Albemuthが1stオリジナルアルバム発売＆1st ONE-MAN LIVE開催決定"
+        summary: "【Albemuth】Albemuthが1stオリジナルアルバム発売＆1st ONE-MAN LIVE開催決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "albemuth"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-21839d326b959ded"
+    date:
+      start: "2023-11-24"
+      precision: "day"
+    text:
+      zh:
+        title: "【詩道】詩道◐1st  Acoustic Live「TIDE LIVE -Acoustic 弍-」開催決定"
+        summary: "【詩道】詩道◐1st  Acoustic Live「TIDE LIVE -Acoustic 弍-」開催決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related: []
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-991a654f7b4a752e"
+    date:
+      start: "2023-11-27"
+      precision: "day"
+    text:
+      zh:
+        title: "【神椿市建設中。】「神椿市建設中。都市開発通信 vol.15」配信決定"
+        summary: "【神椿市建設中。】「神椿市建設中。都市開発通信 vol.15」配信決定"
+    tracks:
+      - "project-verse"
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related: []
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-517f08e6e68b1293"
+    date:
+      start: "2023-12-04"
+      precision: "day"
+    text:
+      zh:
+        title: "【神椿市建設中。】『神椿市建設中。』がボードゲーム化決定"
+        summary: "【神椿市建設中。】『神椿市建設中。』がボードゲーム化決定"
+    tracks:
+      - "project-verse"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related: []
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-16bf09d416db3efc"
+    date:
+      start: "2023-12-08"
+      precision: "day"
+    text:
+      zh:
+        title: "【Awairo】2nd Single『個性』リリース＆MV公開"
+        summary: "【Awairo】2nd Single『個性』リリース＆MV公開"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "awairo"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-9ed50fa7dd8850e1"
+    date:
+      start: "2023-12-09"
+      precision: "day"
+    text:
+      zh:
+        title: "【DUSTCELL】24年2月「DUSTCELL apt.」開催決定"
+        summary: "【DUSTCELL】24年2月「DUSTCELL apt.」開催決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "dustcell"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-b0bf4dd2222b18ae"
+    date:
+      start: "2023-12-09"
+      precision: "day"
+    text:
+      zh:
+        title: "【DUSTCELL】最新ワンマンライブ「DAWN」が24年3月27日にBlu-ray化決定"
+        summary: "【DUSTCELL】最新ワンマンライブ「DAWN」が24年3月27日にBlu-ray化決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "dustcell"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-f504abb311bc1334"
+    date:
+      start: "2023-12-09"
+      precision: "day"
+    text:
+      zh:
+        title: "【ヰ世界情緒】ヰ世界情緒 2ndAL「色彩」リリース&「そして白に還る」MV解禁"
+        summary: "【ヰ世界情緒】ヰ世界情緒 2ndAL「色彩」リリース&「そして白に還る」MV解禁"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "isekaijoucho"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-f85b3addd730487b"
+    date:
+      start: "2023-12-10"
+      precision: "day"
+    text:
+      zh:
+        title: "【音楽的同位体】「音楽的同位体 星界」文字読み上げソフト本日発売"
+        summary: "【音楽的同位体】「音楽的同位体 星界」文字読み上げソフト本日発売"
+    tracks:
+      - "isotope-synth"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "sekai"
+        role: "subject"
+      - entity: "musical-isotope"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-0161d804239043ae"
+    date:
+      start: "2023-12-12"
+      precision: "day"
+    text:
+      zh:
+        title: "【春猿火×ヰ世界情緒】オリジナル曲「CALL」配信リリース&MV公開決定"
+        summary: "【春猿火×ヰ世界情緒】オリジナル曲「CALL」配信リリース&MV公開決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "harusaruhi"
+        role: "subject"
+      - entity: "isekaijoucho"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-9b30c1b1c3f3d056"
+    date:
+      start: "2023-12-12"
+      precision: "day"
+    text:
+      zh:
+        title: "【V.W.P】V.W.P新曲『切札』が TVアニメ『カードファイト!! ヴァンガード Divinez』 OPタイアップ決定"
+        summary: "【V.W.P】V.W.P新曲『切札』が TVアニメ『カードファイト!! ヴァンガード Divinez』 OPタイアップ決定"
+    tracks:
+      - "project-verse"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "vwp"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-8f7a60005013fc8c"
+    date:
+      start: "2023-12-12"
+      precision: "day"
+    text:
+      zh:
+        title: "【CIEL】1st EP『空想少女』12月13日リリース&表題曲MV公開"
+        summary: "【CIEL】1st EP『空想少女』12月13日リリース&表題曲MV公開"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "ciel"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-724e0a23784d67f6"
+    date:
+      start: "2023-12-17"
+      precision: "day"
+    text:
+      zh:
+        title: "【V.W.P／花譜】『神椿代々木決戦二〇二四』 リアルタイム配信決定＆会場チケット一般販売スタート"
+        summary: "【V.W.P／花譜】『神椿代々木決戦二〇二四』 リアルタイム配信決定＆会場チケット一般販売スタート"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "kaf"
+        role: "subject"
+      - entity: "vwp"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-dc7c221fae60f89b"
+    date:
+      start: "2023-12-18"
+      precision: "day"
+    text:
+      zh:
+        title: "【春猿火】12/20(水)「friction（Remix）feat. 梓川」 配信リリース& MVプレミア公開決定"
+        summary: "【春猿火】12/20(水)「friction（Remix）feat. 梓川」 配信リリース& MVプレミア公開決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "harusaruhi"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-fcad146d608fa96f"
+    date:
+      start: "2023-12-18"
+      precision: "day"
+    text:
+      zh:
+        title: "【音楽的同位体】理芽の声をベースとした 「音楽的同位体 裏命」の入力文字読み上げソフト発売決定"
+        summary: "【音楽的同位体】理芽の声をベースとした 「音楽的同位体 裏命」の入力文字読み上げソフト発売決定"
+    tracks:
+      - "isotope-synth"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "musical-isotope"
+        role: "subject"
+      - entity: "rim"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-24b5309fa3775114"
+    date:
+      start: "2023-12-20"
+      precision: "day"
+    text:
+      zh:
+        title: "【跳亜】12/20(水) 5th Single『Xday』配信リリース&MVプレミア公開決定"
+        summary: "【跳亜】12/20(水) 5th Single『Xday』配信リリース&MVプレミア公開決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related: []
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-624478eb8e14a995"
+    date:
+      start: "2023-12-22"
+      precision: "day"
+    text:
+      zh:
+        title: "【V.W.P】神椿代々木決戦二〇二四×HMV コラボキャンペーン開催"
+        summary: "【V.W.P】神椿代々木決戦二〇二四×HMV コラボキャンペーン開催"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "vwp"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-a1a70760dd8a263e"
+    date:
+      start: "2023-12-23"
+      precision: "day"
+    text:
+      zh:
+        title: "【Albemuth】無料ストリーミングカバーライブ 「Happy Merry Xmath」12月24日(日)開催"
+        summary: "【Albemuth】無料ストリーミングカバーライブ 「Happy Merry Xmath」12月24日(日)開催"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "albemuth"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-6442632ea08ad350"
+    date:
+      start: "2023-12-25"
+      precision: "day"
+    text:
+      zh:
+        title: "【Albemuth】カバーライブアルバム『Happy Merry Xmath』発売決定"
+        summary: "【Albemuth】カバーライブアルバム『Happy Merry Xmath』発売決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "albemuth"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-f4a0eaceaf66d261"
+    date:
+      start: "2023-12-25"
+      precision: "day"
+    text:
+      zh:
+        title: "【梓川】1st Album「Shifter」2024年3月リリース決定"
+        summary: "【梓川】1st Album「Shifter」2024年3月リリース決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related: []
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"

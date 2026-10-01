@@ -1,4 +1,5 @@
 ---
+import WorkspaceShell from '../../components/WorkspaceShell.astro';
 import { getBuildCollection as getCollection } from '../../lib/contentAuditContext';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import SiteNav from '../../components/SiteNav.astro';
@@ -31,10 +32,10 @@ const apiBase = import.meta.env.PUBLIC_SUPPORT_API_BASE || import.meta.env.PUBLI
 <BaseLayout lang={locale} metadata={metadata} alternates={supportedLocales.map((code) => ({ locale: code, href: `/${code}${currentPath}` }))}>
   <SiteNav navItems={homeContent.navItems} localeLinks={buildLocaleLinks(homeContent, locale, currentPath)} brandLines={homeContent.hero.brandLines} homeHref={`/${locale}/`} />
 
-  <main class="support-shell" data-support-page data-api-base={apiBase} data-locale={locale}>
+  <WorkspaceShell width="standard" class="support-shell" data-support-page data-api-base={apiBase} data-locale={locale}>
     <script is:inline type="application/json" data-support-copy set:html={JSON.stringify(copy).replace(/</g, '\\u003c')} />
-    <WorkspaceHeader title={copy.title} intro={copy.intro} eyebrow="SUPPORT">
-      <a href={`/${locale}/`}>{copy.home}</a>
+    <WorkspaceHeader title={copy.title} intro={copy.intro} eyebrow="SUPPORT" backHref={`/${locale}/`} backLabel={copy.home}>
+
       <a href={`/${locale}/contribute/`}>{copy.contribute}<span aria-hidden="true">↗</span></a>
     </WorkspaceHeader>
 
@@ -154,7 +155,7 @@ const apiBase = import.meta.env.PUBLIC_SUPPORT_API_BASE || import.meta.env.PUBLI
       {copy.disclaimer.map((paragraph) => <p>{paragraph}</p>)}
       </div>
     </aside>
-  </main>
+  </WorkspaceShell>
   <SiteFooter footer={homeContent.footer} />
   <script>
     import '../../scripts/supportNavigation.js';

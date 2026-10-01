@@ -2,7 +2,7 @@ import { createHash } from 'node:crypto';
 
 const localePattern = /^(zh|ja|en)$/;
 
-export const CONTENT_CONTRIBUTION_COLLECTIONS = ['artists', 'albums', 'songs', 'projects', 'logs', 'contribute', 'site'];
+export const CONTENT_CONTRIBUTION_COLLECTIONS = ['artists', 'albums', 'songs', 'projects', 'logs', 'people', 'units', 'isotopes', 'releases', 'lives', 'organizations', 'lore', 'articles', 'contribute', 'site'];
 export const FUNCTIONAL_CONTRIBUTION_COLLECTIONS = ['development', 'documentation', 'design'];
 
 function sha256(value) {
@@ -60,7 +60,7 @@ export function parseContentPath(path) {
   }
 
   const collection = parts[2];
-  if (!['artists', 'albums', 'songs', 'projects', 'logs', 'contribute'].includes(collection)) {
+  if (!['artists', 'albums', 'songs', 'projects', 'logs', 'people', 'units', 'isotopes', 'releases', 'lives', 'organizations', 'lore', 'articles', 'contribute'].includes(collection)) {
     return null;
   }
 

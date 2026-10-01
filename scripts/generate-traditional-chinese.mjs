@@ -11,6 +11,7 @@ import { localeProfiles } from '../src/lib/i18n.mjs';
 
 const workspaceRoot = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const contentRoot = join(workspaceRoot, 'src', 'content');
+const manualRoot = join(workspaceRoot, 'docs', 'manuals');
 const siteRoot = join(contentRoot, 'site');
 const targetLocales = ['zh-tw', 'zh-hk'];
 const generatedMarker = '<!-- AUTO-GENERATED FROM zh; DO NOT EDIT DIRECTLY. -->';
@@ -250,9 +251,12 @@ async function generateSiteFiles() {
 }
 
 const allFiles = await walk(contentRoot);
-const sourceMarkdownFiles = allFiles.filter(
+const manualFiles = await walk(manualRoot);
+const contentSourceFiles = allFiles.filter(
   (filePath) => filePath.endsWith(`${join('', 'zh.md')}`),
 );
+const manualSourceFiles = manualFiles.filter((filePath) => filePath.endsWith(`${join('', 'zh.md')}`));
+const sourceMarkdownFiles = [...contentSourceFiles, ...manualSourceFiles];
 await validateSourceMarkdownFiles(sourceMarkdownFiles);
 
 // Only prune orphans; never rewrite up-to-date generated files (keeps Cloudflare builds fast).
@@ -265,6 +269,7 @@ for (const sourcePath of sourceMarkdownFiles) {
 generatedTargets.add(join(siteRoot, 'zh-tw.json'));
 generatedTargets.add(join(siteRoot, 'zh-hk.json'));
 await removeStaleGeneratedFiles(allFiles, generatedTargets);
+await removeStaleGeneratedFiles(manualFiles, generatedTargets);
 
 const markdownResult = await generateMarkdownFiles(sourceMarkdownFiles);
 const siteResult = await generateSiteFiles();

@@ -1,3 +1,4 @@
+import {buildEntityIndex} from '../../lib/entityIndex.mjs';
 import type { APIRoute } from 'astro';
 import { getBuildCollection as getCollection } from '../../lib/contentAuditContext';
 import { supportedLocales } from '../../lib/i18n.mjs';
@@ -20,15 +21,9 @@ function buildSearchKey(metadata: string, body: string) {
 
 export const GET: APIRoute = async ({ params }) => {
   const locale = params.locale || 'zh';
-  const groups = await Promise.all([
-    getCollection('artists'),
-    getCollection('albums'),
-    getCollection('songs'),
-    getCollection('projects'),
-    getCollection('logs'),
-  ]);
-  const collectionNames = ['artists', 'albums', 'songs', 'projects', 'logs'];
-  const bodies: Record<string, string> = {};
+  const groups = [await getCollection('logs')];
+  const collectionNames = ['logs'];
+  const bodies: Record<string, string> = Object.fromEntries((await buildEntityIndex(locale)).map(e=>[e.id,foldCjkSearchText(e.text)]));
 
   for (const [groupIndex, group] of groups.entries()) {
     for (const entry of group) {

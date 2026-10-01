@@ -1,0 +1,175 @@
+{
+  "reason": "Use the existing Chinese catalog classification consistently across translations; no prose or claim of official reclassification.",
+  "changes": [
+    {
+      "path": "src/content/releases/studio-albums/harusaruhi-album-cream-puff-live/en.md",
+      "id": "harusaruhi-album-cream-puff-live",
+      "locale": "en",
+      "field": "releaseType",
+      "before": "live-album",
+      "after": "album",
+      "beforeHash": "c698b625775fce78fbf8f5e71fbac125ae5b092a9e528698703efef30216f2bb",
+      "afterHash": "6add93c88855f19609b14d11788d66ceeb63356233cc72fec083a3417f78d9a4"
+    },
+    {
+      "path": "src/content/releases/studio-albums/harusaruhi-album-cream-puff-live-2/en.md",
+      "id": "harusaruhi-album-cream-puff-live-2",
+      "locale": "en",
+      "field": "releaseType",
+      "before": "live-album",
+      "after": "album",
+      "beforeHash": "50d65a81fd7823156ec83178494baa13b69c53b1d3048294bddebb834758f64d",
+      "afterHash": "bda40cf11a5b292ad08116f9b6074184d0cfcfb0e98338b066213e1823d9c578"
+    },
+    {
+      "path": "src/content/releases/studio-albums/harusaruhi-album-cream-puff-live-3/en.md",
+      "id": "harusaruhi-album-cream-puff-live-3",
+      "locale": "en",
+      "field": "releaseType",
+      "before": "live-album",
+      "after": "album",
+      "beforeHash": "247e8e04e66864a2d227addd233c6304be95aec6f60b2879a3b224c53e127fd4",
+      "afterHash": "43c52f86dcbbbc2e257fe8de9cf5dfbecf5de5db43b0496d55068c0967d01cb2"
+    },
+    {
+      "path": "src/content/releases/studio-albums/harusaruhi-album-cream-puff-live-4/en.md",
+      "id": "harusaruhi-album-cream-puff-live-4",
+      "locale": "en",
+      "field": "releaseType",
+      "before": "live-album",
+      "after": "album",
+      "beforeHash": "7d7308f9f44ed6756b184379549df0edf89db4e5da19212c84379d22143e77d3",
+      "afterHash": "e5efbec88b95787bbc74301f393d379746e3322281aaf64b8f8744f425457a6f"
+    },
+    {
+      "path": "src/content/releases/studio-albums/isekaijoucho-album-candy-live/en.md",
+      "id": "isekaijoucho-album-candy-live",
+      "locale": "en",
+      "field": "releaseType",
+      "before": "live-album",
+      "after": "album",
+      "beforeHash": "7f002ede14b5a1b2f51e4dc1ef9f481337931cdd5697deb47f7492b37c0d09b9",
+      "afterHash": "0c842c2293fb38819bd8a01bd7be43c7ecc5fcaad76818f8102b9ca72c8cd335"
+    },
+    {
+      "path": "src/content/releases/studio-albums/isekaijoucho-album-candy-live-2/en.md",
+      "id": "isekaijoucho-album-candy-live-2",
+      "locale": "en",
+      "field": "releaseType",
+      "before": "live-album",
+      "after": "album",
+      "beforeHash": "9a0412c4f0f3c7a3606957f9eb6a73010576b886f6fe0ac95a3142ccd91155e5",
+      "afterHash": "26647c02bf1ade228d5251b37f90cbd2b77fd6fb2a6e5483c2385222401f7f73"
+    },
+    {
+      "path": "src/content/releases/studio-albums/isekaijoucho-album-candy-live-3/en.md",
+      "id": "isekaijoucho-album-candy-live-3",
+      "locale": "en",
+      "field": "releaseType",
+      "before": "live-album",
+      "after": "album",
+      "beforeHash": "cc5db13f624df409dcd3a2cf9b853ef84346043c395de9fe138c65f23067645f",
+      "afterHash": "cd51858ae9ccfc5aa97932883e2a49a0a049566ca0b8c823fad1c90d8c4d1145"
+    },
+    {
+      "path": "src/content/releases/studio-albums/kaf-i-scream-live/en.md",
+      "id": "kaf-i-scream-live",
+      "locale": "en",
+      "field": "releaseType",
+      "before": "live-album",
+      "after": "album",
+      "beforeHash": "159ef5708f4c62d47354172ec3061816b3ab7d93f7d5a4bba2a7e42fec79eca3",
+      "afterHash": "1b3f1a8a67d586cbc7b5479c0557136a109edae9157c53dde95d401cb378665b"
+    },
+    {
+      "path": "src/content/releases/studio-albums/kaf-i-scream-live-2/en.md",
+      "id": "kaf-i-scream-live-2",
+      "locale": "en",
+      "field": "releaseType",
+      "before": "live-album",
+      "after": "album",
+      "beforeHash": "678923b5d69910ecd9d848e4e172fd32dbff759e5830f9233dd6856791d23c49",
+      "afterHash": "d53ffdb275c7047614d84aa1e31e760481ea3638c4e8118793b3d68921141185"
+    },
+    {
+      "path": "src/content/releases/studio-albums/kaf-i-scream-live-3/en.md",
+      "id": "kaf-i-scream-live-3",
+      "locale": "en",
+      "field": "releaseType",
+      "before": "live-album",
+      "after": "album",
+      "beforeHash": "2d76e18e0633518049165d8f00592b97b32f5c89faaae2ac02eb2a8827c2edc6",
+      "afterHash": "049f6e18869876ea6f2f5c1bbb10dad79341126fbff1144174abf98b3150585c"
+    },
+    {
+      "path": "src/content/releases/studio-albums/kaf-i-scream-live-4/en.md",
+      "id": "kaf-i-scream-live-4",
+      "locale": "en",
+      "field": "releaseType",
+      "before": "live-album",
+      "after": "album",
+      "beforeHash": "a7e7c9a302f21da5e36b775bab0fdbd30d0e5fe8e650117885449b1aed0da325",
+      "afterHash": "cdcb22d3c488b0fd3ce76f09f07a00f146d18e26cc64d2e4c962a7ad2a7e89e7"
+    },
+    {
+      "path": "src/content/releases/studio-albums/koko-album-arare-live/en.md",
+      "id": "koko-album-arare-live",
+      "locale": "en",
+      "field": "releaseType",
+      "before": "live-album",
+      "after": "album",
+      "beforeHash": "4bfa73790ca4313eda5dcc0a7ede4d8405a231196a9a86f284505f2a14e3ed73",
+      "afterHash": "42e2d9988161440ab9b8ba3a0349fa3643424a6faca26896f72d0dde4ba645e9"
+    },
+    {
+      "path": "src/content/releases/studio-albums/rim-album-chocolate-live/en.md",
+      "id": "rim-album-chocolate-live",
+      "locale": "en",
+      "field": "releaseType",
+      "before": "live-album",
+      "after": "album",
+      "beforeHash": "a522bf367ce15f5362eec1c7e21470e8c8c6bd2cbb5cea90002aa21a30b424e5",
+      "afterHash": "c80b652bcd0ae6211d3e0a925c7910538a59de0354a7011316be1ca1a5e936f9"
+    },
+    {
+      "path": "src/content/releases/studio-albums/rim-album-chocolate-live-2/en.md",
+      "id": "rim-album-chocolate-live-2",
+      "locale": "en",
+      "field": "releaseType",
+      "before": "live-album",
+      "after": "album",
+      "beforeHash": "d203c44f1427872f7858541c15c827db788d576e267def4de9ed5a4055b8fc39",
+      "afterHash": "65389ddbe305ce99add0e1fddd7b5b27d8b64a47b486d5ff5816d259e5233218"
+    },
+    {
+      "path": "src/content/releases/studio-albums/rim-album-chocolate-live-3/en.md",
+      "id": "rim-album-chocolate-live-3",
+      "locale": "en",
+      "field": "releaseType",
+      "before": "live-album",
+      "after": "album",
+      "beforeHash": "94fc5bc70b9233da75a3e6bc1fbc62df7c19d7726103ff206f25aae98f3707a1",
+      "afterHash": "2c0d88b69e369c5e7943515012a65726f92964684186eabcd81b6ac5bec9a759"
+    },
+    {
+      "path": "src/content/releases/studio-albums/rim-album-chocolate-live-4/en.md",
+      "id": "rim-album-chocolate-live-4",
+      "locale": "en",
+      "field": "releaseType",
+      "before": "live-album",
+      "after": "album",
+      "beforeHash": "231b2e9534cccad8e1e4062e6368333c95fdaa002eeae61979fdd96e1bc9e0c0",
+      "afterHash": "0ff5bc8d011c9258a5efb85f7ff9f114cfa535e44ae204cd43cb0b7558d01ac7"
+    },
+    {
+      "path": "src/content/releases/studio-albums/rim-album-singularity-live/en.md",
+      "id": "rim-album-singularity-live",
+      "locale": "en",
+      "field": "releaseType",
+      "before": "live-album",
+      "after": "album",
+      "beforeHash": "2cf52703bee1aa2fe827fb16742300829865253538ba2496192ea75e953c686e",
+      "afterHash": "3e1f243bb88e6542f5072e04214fec467314e4523daabd458e2e0c74e9548659"
+    }
+  ]
+}

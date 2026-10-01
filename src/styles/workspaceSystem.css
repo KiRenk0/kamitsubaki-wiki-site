@@ -1,0 +1,106 @@
+/* Shared secondary-page geometry. Artwork and reader layouts remain page-owned. */
+html body main.workspace-page[data-workspace-page] {
+  --workspace-max:1280px;
+  --workspace-gutter:var(--ui-space-12);
+  --workspace-top:108px;
+  --workspace-gap:var(--ui-space-8);
+  --workspace-line:rgb(var(--theme-fg-rgb)/.13);
+  --workspace-muted:var(--ui-color-muted);
+  --workspace-title:var(--ui-font-title);
+  --workspace-control-height:var(--ui-hit-target);
+  --workspace-motion:var(--ui-duration-panel);
+  --workspace-surface:rgb(var(--theme-fg-rgb)/.025);
+  --workspace-shadow:var(--ui-shadow-panel);
+  --workspace-radius:var(--ui-radius-panel,8px);
+  --theme-accent-color:var(--ui-accent-color);
+  --theme-accent-rgb:var(--ui-accent-rgb);
+  width:100%;max-width:var(--workspace-max);margin:0 auto;
+  padding:var(--workspace-top) var(--workspace-gutter) 80px;
+  box-sizing:border-box;min-width:0;color:var(--theme-fg);
+}
+html body main.workspace-page[data-workspace-width=wide]{--workspace-max:1440px}
+html body main.workspace-page[data-workspace-width=reading]{--workspace-max:1120px}
+.workspace-page [hidden]{display:none!important}
+.workspace-page :is(a,button,input,select,textarea,summary):focus-visible{outline:var(--ui-focus-width) solid var(--ui-color-accent);outline-offset:var(--ui-focus-offset)}
+.workspace-page :is(input,select,textarea){max-width:100%;min-width:0}
+.workspace-page :is(h1,h2,h3,p){overflow-wrap:anywhere}
+.workspace-page .workspace-section{padding:0 0 var(--workspace-gap);border-bottom:1px solid var(--workspace-line)}
+.workspace-page .workspace-section+.workspace-section{padding-top:var(--workspace-gap)}
+.workspace-page .workspace-section-heading{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:20px}
+.workspace-page .workspace-section-heading h2{font:400 23px/1.6 var(--font-serif);letter-spacing:.025em;margin:0}
+.workspace-page .workspace-section-heading p{font:12px/1.7 var(--font-sans);color:var(--workspace-muted);margin:0}
+.workspace-page .workspace-surface{padding:24px;border:1px solid var(--workspace-line);border-radius:var(--workspace-radius);background:var(--workspace-surface)}
+.workspace-page .workspace-text-link{display:inline-flex;gap:8px;align-items:center;min-height:38px;padding:6px 0;color:inherit;text-decoration:none;border-bottom:1px solid var(--workspace-line);font-size:13px;transition:color var(--workspace-motion),border-color var(--workspace-motion)}
+.workspace-page .workspace-text-link:hover{color:var(--ui-accent-color);border-color:currentColor}
+
+/* One action hierarchy: parent link, heading + primary action, then content tools. */
+html body main.workspace-page .workspace-header{position:relative;display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:18px 32px;padding:0 0 24px;margin:0 0 var(--workspace-gap);border-bottom:1px solid var(--workspace-line)}
+html body main.workspace-page .workspace-header::after{content:'＋';position:absolute;right:0;bottom:-9px;padding-left:8px;background:var(--theme-bg);color:var(--workspace-muted);font:14px var(--font-mono)}
+html body main.workspace-page .workspace-heading{flex:1 1 320px;min-width:0}
+html body main.workspace-page .workspace-heading h1{font:400 var(--workspace-title)/1.4 var(--font-serif);letter-spacing:.035em;margin:0 0 10px}
+html body main.workspace-page .workspace-heading>.workspace-eyebrow{font:11px/1.6 var(--font-mono);letter-spacing:.15em;margin:0 0 10px;color:var(--workspace-muted)}
+html body main.workspace-page .workspace-heading>p:not(.workspace-eyebrow){font:13px/1.85 var(--font-sans);max-width:60ch;margin:0;color:var(--workspace-muted);opacity:1}
+html body main.workspace-page .workspace-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-left:auto;justify-content:flex-end}
+html body main.workspace-page .workspace-header-status{flex-basis:100%;margin:0}
+html body main.workspace-page .workspace-header-status p{margin:0;font-size:13px}
+html body main.workspace-page .workspace-back-row{flex:0 0 100%;margin:0 0 -4px}
+html body main.workspace-page .workspace-back{display:inline-flex;align-items:center;gap:8px;min-height:32px;padding:0;color:var(--workspace-muted);font:12px/1.6 var(--font-sans);text-decoration:none;border:0;background:none}
+html body main.workspace-page .workspace-back>span:first-child{transition:transform var(--workspace-motion) var(--ui-ease)}
+html body main.workspace-page .workspace-back:hover{color:var(--theme-fg)}
+html body main.workspace-page .workspace-back:hover>span:first-child{transform:translateX(-3px)}
+
+/* Shared buttons also style legacy action-slot links while pages migrate. */
+html body .workspace-page :is(.workspace-button,.workspace-actions>a,.workspace-actions>button){display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:var(--workspace-control-height);padding:8px 14px;border:1px solid var(--workspace-line);border-radius:var(--ui-radius-control);background:transparent;color:var(--theme-fg);font:500 13px/1.5 var(--font-sans);text-decoration:none;cursor:pointer;box-shadow:none;transition:background var(--workspace-motion),border-color var(--workspace-motion),color var(--workspace-motion)}
+html body .workspace-page :is(.workspace-button,.workspace-actions>a,.workspace-actions>button):hover{border-color:rgb(var(--theme-fg-rgb)/.35);background:rgb(var(--theme-fg-rgb)/.055)}
+html body .workspace-page .workspace-button[data-tone=primary]{background:var(--theme-fg);border-color:var(--theme-fg);color:var(--theme-bg)}
+html body .workspace-page .workspace-button[data-tone=primary]:hover{background:color-mix(in srgb,var(--theme-fg) 85%,var(--theme-bg));border-color:transparent}
+html body .workspace-page .workspace-button[data-tone=quiet]{border-color:transparent;background:none;color:var(--workspace-muted)}
+html body .workspace-page .workspace-button[data-tone=quiet]:hover{color:var(--theme-fg);background:var(--workspace-surface)}
+html body .workspace-page .workspace-button:is(:disabled,[aria-disabled=true]){opacity:.45;cursor:not-allowed;transform:none;pointer-events:none}
+html body .workspace-page .workspace-button:focus-visible{outline:2px solid var(--ui-accent-color);outline-offset:3px}
+.workspace-group-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;align-items:start}
+
+/* Filters are a toolbar, not an enclosing form card. */
+html body main.workspace-page form.workspace-filters[data-workspace-filters]{display:flex;flex-wrap:wrap;align-items:flex-end;gap:12px;padding:0 0 20px;margin:0;border:0;border-bottom:1px solid var(--workspace-line);border-radius:0;background:none;box-shadow:none}
+html body main.workspace-page form.workspace-filters[data-workspace-filters] label{display:grid;flex:1 1 130px;gap:6px;min-width:0;padding:0;border:0;background:none;margin:0}
+html body main.workspace-page form.workspace-filters[data-workspace-filters] label:has(input[type=search]){flex:3 1 240px}
+html body main.workspace-page form.workspace-filters[data-workspace-filters] label>span{font:12px/1.5 var(--font-sans);color:var(--workspace-muted)}
+html body main.workspace-page form.workspace-filters[data-workspace-filters] :is(input[type=search],select){width:100%;min-height:var(--workspace-control-height);padding:8px 10px;border:1px solid var(--workspace-line);border-radius:var(--ui-radius-control);background:var(--theme-bg);font:13px/1.5 var(--font-sans);color:var(--theme-fg);letter-spacing:normal;transition:border-color var(--workspace-motion)}
+html body main.workspace-page form.workspace-filters[data-workspace-filters] :is(input[type=search],select):focus{border-color:var(--ui-accent-color);box-shadow:none}
+html body main.workspace-page form.workspace-filters[data-workspace-filters] .filter-reset{align-self:flex-end;min-height:var(--workspace-control-height);margin:0;padding:8px;border:0;background:none;color:var(--workspace-muted)}
+.workspace-filter-actions{display:flex;gap:4px;flex:0 0 auto;align-items:center}
+.workspace-filter-more{position:relative;flex:0 0 auto}
+.workspace-filter-more>summary{display:flex;align-items:center;gap:12px;min-height:var(--workspace-control-height);padding:8px 12px;border:1px solid var(--workspace-line);border-radius:var(--ui-radius-control);font-size:13px;cursor:pointer;list-style:none}
+.workspace-filter-more>summary::-webkit-details-marker{display:none}
+.workspace-filter-more>summary::after{content:'＋';font:14px var(--font-mono);color:var(--workspace-muted)}
+.workspace-filter-more[open]>summary::after{content:'−'}
+.workspace-filter-more>div{position:absolute;z-index:20;top:calc(100% + 8px);right:0;min-width:220px;padding:16px;background:var(--theme-panel-solid);border:1px solid var(--workspace-line);border-radius:var(--workspace-radius);box-shadow:var(--workspace-shadow)}
+.workspace-state{display:grid;justify-items:start;gap:12px;padding:32px 0;min-height:180px;align-content:center}
+.workspace-state__symbol{color:var(--workspace-muted);width:28px;height:28px;stroke-width:1.25;fill:none;stroke:currentColor}
+.workspace-state p{margin:0;max-width:52ch;font:14px/1.8 var(--font-sans);color:var(--workspace-muted)}
+.workspace-state[data-state=ready]{min-height:0;padding:16px 0 0}
+.workspace-state[data-state=ready] .workspace-state__symbol{display:none}
+.workspace-state[data-state=error] p{color:var(--ui-color-error)}
+.workspace-state__actions{display:flex;gap:12px;flex-wrap:wrap}
+.workspace-state__actions:empty{display:none}
+.workspace-pagination{display:flex;justify-content:flex-end;gap:8px;padding-top:16px;border-top:1px solid var(--workspace-line)}
+.workspace-pagination:not(:has(>:not([hidden]))){display:none}
+@media(max-width:1100px){html body main.workspace-page[data-workspace-page]{--workspace-gutter:32px}.workspace-group-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){
+ html body main.workspace-page[data-workspace-page]{--workspace-gutter:20px;--workspace-top:96px;--workspace-gap:24px;--workspace-title:26px;--workspace-control-height:44px;padding-bottom:64px}
+ html body main.workspace-page .workspace-header{gap:16px;padding-bottom:24px}
+ html body main.workspace-page .workspace-heading{flex-basis:100%}
+ html body main.workspace-page .workspace-actions{flex-basis:100%;margin:0;justify-content:flex-start}
+ html body main.workspace-page .workspace-back{min-height:44px}
+ html body main.workspace-page .workspace-back-row{margin-bottom:-12px}
+ .workspace-page .workspace-surface{padding:20px}.workspace-page .workspace-section-heading{flex-wrap:wrap}.workspace-page .workspace-section-heading h2{font-size:21px}
+ .workspace-group-grid{grid-template-columns:1fr}
+ html body main.workspace-page form.workspace-filters[data-workspace-filters]{gap:12px}
+ html body main.workspace-page form.workspace-filters[data-workspace-filters]>label{flex-basis:calc(50% - 12px)}
+ html body main.workspace-page form.workspace-filters[data-workspace-filters]>label:has(input[type=search]){flex-basis:100%}
+ .workspace-filter-more>div{left:0;right:auto;max-width:calc(100vw - 40px)}
+}
+@media(pointer:coarse){html body main.workspace-page[data-workspace-page]{--workspace-control-height:44px}html body main.workspace-page .workspace-back{min-height:44px}}
+@media(prefers-reduced-motion:reduce){html body main.workspace-page[data-workspace-page]{--workspace-motion:0ms}html body main.workspace-page .workspace-back:hover>span:first-child{transform:none}}
+
+@media(min-width:761px) and (max-width:1100px){html body main[data-article-page=list] form.workspace-filters label:has(input[type=search]){flex-basis:100%}}

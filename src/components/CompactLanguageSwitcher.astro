@@ -14,6 +14,8 @@ const linksByCode = new Map(localeLinks.map((item) => [item.code, item]));
 const chineseLinks = ['zh', 'zh-tw', 'zh-hk'].map(code => linksByCode.get(code)).filter((item): item is LocaleLink => Boolean(item));
 const primaryLinks = ['ja', 'en'].map(code => linksByCode.get(code)).filter((item): item is LocaleLink => Boolean(item));
 const chineseIsCurrent = chineseLinks.some(item => item.current);
+const currentLocale = localeLinks.find(item => item.current)?.code || 'zh';
+const chineseMenuLabel = currentLocale === 'ja' ? '中国語：簡体字と繁体字を選択' : currentLocale === 'en' ? 'Chinese: choose Simplified or Traditional' : '中文：展开简体与繁体选项';
 ---
 
 <div class="site-nav__language-switcher" role="group" aria-label="Language / 语言 / 言語">
@@ -21,7 +23,7 @@ const chineseIsCurrent = chineseLinks.some(item => item.current);
     <div class="site-nav__language-family" data-language-family>
       <button type="button" class="site-nav__language-trigger" data-language-menu-trigger
         data-current-language={chineseIsCurrent ? 'true' : undefined}
-        aria-haspopup="menu" aria-expanded="false" aria-label="中文：展开简体与繁体选项" title="中文：展开简体与繁体选项">
+        aria-haspopup="menu" aria-expanded="false" aria-label={chineseMenuLabel} title={chineseMenuLabel}>
         <span>中</span><svg class="site-nav__language-chevron" viewBox="0 0 12 12" width="10" height="10" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="m3 4.5 3 3 3-3" /></svg>
       </button>
       <div class="site-nav__language-menu" role="menu" aria-label="中文" aria-hidden="true" data-language-menu>

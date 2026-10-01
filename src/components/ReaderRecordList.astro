@@ -1,0 +1,50 @@
+---
+import ReaderRecord from './ReaderRecord.astro';
+import {classificationCopy} from '../lib/classificationTree.mjs';
+interface Props {records:{title:string;href?:string;detail?:string}[];id:string;locale:string}
+const {records,id,locale}=Astro.props;const copy=classificationCopy(locale);const size=12;
+---
+<div class="reader-record-list">
+ <div class="reader-record-grid">{records.slice(0,size).map((record,index)=><ReaderRecord record={record} index={index}/>)}</div>
+ {records.length>size&&<>
+ <div id={id} class="artist-collapsible" data-artist-collapsible data-page-size={size} data-total={records.length-size} data-expanded="false" aria-hidden="true" inert>
+  <div class="artist-collapsible__inner reader-record-grid"></div>
+  <template data-directory-overflow>{records.slice(size).map((record,index)=><ReaderRecord record={record} index={index+size} overflow/>)}</template>
+ </div>
+ <button type="button" class="artist-expand-btn" aria-expanded="false" aria-controls={id} data-expand-label={copy.more} data-collapse-label={copy.collapse}><span class="artist-expand-divider"><span class="artist-expand-line artist-expand-line--left"></span><span class="artist-expand-copy"><span data-artist-expand-copy>{copy.more}</span><span data-artist-expand-count>＋{Math.min(size,records.length-size)}</span></span><span class="artist-expand-chevron" aria-hidden="true">⌄</span><span class="artist-expand-line artist-expand-line--right"></span></span></button>
+ <button type="button" class="reader-record-collapse" data-artist-collapse aria-controls={id} hidden>{copy.collapse}</button>
+ </>}
+</div>
+<style is:global>
+.entity-related .reader-record-list [hidden]{display:none!important}
+.entity-related .reader-record-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:24px}
+.entity-related .reader-record{position:relative;display:flex;align-items:center;gap:12px;min-width:0;min-height:84px;padding:16px 12px;border-bottom:1px solid var(--reader-line);border-radius:4px;text-decoration:none;color:var(--reader-text,var(--theme-fg));transition:background-color 400ms ease,color 400ms ease,opacity 500ms ease,transform 500ms cubic-bezier(.22,1,.36,1);transition-delay:0ms,0ms,calc(var(--artist-row-order,0)*28ms),calc(var(--artist-row-order,0)*28ms)}
+.entity-related .reader-record-index{font:9px var(--font-mono);color:var(--reader-muted);opacity:.65;flex:0 0 20px}
+.entity-related .reader-record-text{flex:1;min-width:0}
+.entity-related .reader-record-text strong{display:block;font:400 16px/1.65 var(--font-serif);letter-spacing:.025em;overflow-wrap:anywhere}
+.entity-related .reader-record-text small{display:block;margin-top:5px;color:var(--reader-muted);font:10px/1.7 var(--font-sans)}
+.entity-related .reader-record-arrow{font-size:13px;color:var(--reader-muted);transition:transform 360ms cubic-bezier(.22,1,.36,1),color 220ms}
+.entity-related a.reader-record:hover{background:rgb(var(--theme-fg-rgb)/.035);color:var(--theme-accent-color)}
+.entity-related a.reader-record:hover .reader-record-arrow{transform:translate(2px,-2px);color:var(--theme-accent-color)}
+.entity-related .reader-record:focus-visible{outline:2px solid var(--theme-accent-color);outline-offset:2px}
+.entity-related .reader-record.artist-row-collapsed:not([data-revealed]){opacity:0;transform:translateY(-9px)}
+.entity-related .reader-record-collapse{display:block;margin:8px auto 0;padding:10px 20px;min-height:44px;border:0;background:none;font:11px var(--font-sans);color:var(--reader-muted);cursor:pointer}
+.entity-related .artist-expand-btn{margin:20px 0 0;min-height:44px}
+@media(max-width:760px){.entity-related .reader-record-grid{grid-template-columns:1fr}.entity-related .reader-record{min-height:76px;padding:14px 8px}}
+@media(prefers-reduced-motion:reduce){.entity-related .reader-record,.entity-related .reader-record-arrow{transition:none}.entity-related a.reader-record:hover .reader-record-arrow{transform:none}}
+</style>
+
+<script>
+import {expandRecordBatch} from '../lib/recordExpansion.mjs';
+document.querySelectorAll<HTMLElement>('.reader-record-list').forEach(list=>{
+ const overflow=list.querySelector<HTMLElement>('[data-artist-collapsible]');
+ const inner=overflow?.querySelector<HTMLElement>('.artist-collapsible__inner');
+ if(overflow&&inner)new ResizeObserver(()=>{if(overflow.dataset.expanded==='true')overflow.style.setProperty('--artist-collapsible-height',`${inner.scrollHeight}px`);}).observe(inner);
+ list.addEventListener('click',event=>{
+  const button=event.target instanceof Element?event.target.closest<HTMLButtonElement>('.artist-expand-btn,[data-artist-collapse]'):null;
+  if(!button)return;
+  const panel=document.getElementById(button.getAttribute('aria-controls')||'');
+  if(panel)expandRecordBatch(panel,button);
+ });
+});
+</script>

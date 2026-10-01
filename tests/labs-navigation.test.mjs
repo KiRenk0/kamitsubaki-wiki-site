@@ -20,7 +20,7 @@ test('in-place navigation only handles known LABs sections in the current locale
 test('concurrent and later panel visits share one catalog request and result', async () => {
   let calls = 0;
   let finish;
-  const data = { version: 1, nodes: [{ id: 'artists:kaf' }], edges: [] };
+  const data = { version: 2, nodes: [{ id: 'kaf' }], edges: [] };
   const load = createLabsCatalogLoader('zh-tw', async path => {
     calls++;
     assert.equal(path, '/zh-tw/labs-catalog.json');
@@ -39,11 +39,11 @@ test('concurrent and later panel visits share one catalog request and result', a
 });
 
 test('network, response and schema failures can be retried without caching a failed catalog', async () => {
-  const good = { version: 1, nodes: [], edges: [] };
+  const good = { version: 2, nodes: [], edges: [] };
   const attempts = [
     () => { throw new Error('offline'); },
     () => ({ ok: false }),
-    () => ({ ok: true, json: async () => ({ version: 2, nodes: [], edges: [] }) }),
+    () => ({ ok: true, json: async () => ({ version: 1, nodes: [], edges: [] }) }),
     () => ({ ok: true, json: async () => good }),
   ];
   let calls = 0;

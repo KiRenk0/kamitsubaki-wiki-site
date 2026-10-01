@@ -1,0 +1,658 @@
+schemaVersion: 1
+year: 2020
+events:
+  - id: "event-9503cbf9c2d80fd5"
+    date:
+      start: "2020-03-23"
+      precision: "day"
+    text:
+      zh:
+        title: "花谱 1st ONE-MAN LIVE「不可解(再)」紧急转为无观众线上直播，推特日推第一"
+        summary: "花谱 1st ONE-MAN LIVE「不可解(再)」紧急转为无观众线上直播，推特日推第一"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "live"
+    importance: "regular"
+    related:
+      - entity: "kaf"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "线上直播"
+  - id: "event-1b13d5a4b8b510ed"
+    date:
+      start: "2020-04-06"
+      precision: "day"
+    text:
+      zh:
+        title: "【花譜】TVアニメ「ブラッククローバー 」エンディングテーマ決定！"
+        summary: "【花譜】TVアニメ「ブラッククローバー 」エンディングテーマ決定！"
+    tracks:
+      - "project-verse"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "kaf"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-9d9b7d6af46f3ae1"
+    date:
+      start: "2020-04-06"
+      precision: "day"
+    text:
+      zh:
+        title: "【DUSTCELL】1st Album「SUMMIT」発売 & 1stワンマンライブ開催決定"
+        summary: "【DUSTCELL】1st Album「SUMMIT」発売 & 1stワンマンライブ開催決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "dustcell"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-934ca9ded57c6443"
+    date:
+      start: "2020-05-01"
+      precision: "day"
+    text:
+      zh:
+        title: "【Guiano】8/30 1st ONE-MAN LIVE開催決定!!"
+        summary: "【Guiano】8/30 1st ONE-MAN LIVE開催決定!!"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "guiano"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-644c884264a292dc"
+    date:
+      start: "2020-07-03"
+      precision: "day"
+    text:
+      zh:
+        title: "【DUSTCELL】「DUSTCELL展」開催決定"
+        summary: "【DUSTCELL】「DUSTCELL展」開催決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "dustcell"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-585694ceea795ad1"
+    date:
+      start: "2020-07-03"
+      precision: "day"
+    text:
+      zh:
+        title: "【DUSTCELL】7月31日 (金)1st ONE-MAN LIVE「SUMMIT」at WWW 通常開催中止 & 無観客での有料配信決定のお知らせ"
+        summary: "【DUSTCELL】7月31日 (金)1st ONE-MAN LIVE「SUMMIT」at WWW 通常開催中止 & 無観客での有料配信決定のお知らせ"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "dustcell"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-15af735c0107e3a6"
+    date:
+      start: "2020-07-08"
+      precision: "day"
+    text:
+      zh:
+        title: "【花譜】「Bilibili World 2020」出演決定！"
+        summary: "【花譜】「Bilibili World 2020」出演決定！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "kaf"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-2428bd5cdcb33c8a"
+    date:
+      start: "2020-07-20"
+      precision: "day"
+    text:
+      zh:
+        title: "【カンザキイオリ】小説「あの夏が飽和する。」全国の書店にて発売決定！"
+        summary: "【カンザキイオリ】小説「あの夏が飽和する。」全国の書店にて発売決定！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "kanzaki-iori"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-d2c716a774377f5f"
+    date:
+      start: "2020-07-28"
+      precision: "day"
+    text:
+      zh:
+        title: "【Guiano】8/12 配信EP「あの夏の記憶だけ」リリース決定"
+        summary: "【Guiano】8/12 配信EP「あの夏の記憶だけ」リリース決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "guiano"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-9010f1183cf65a8c"
+    date:
+      start: "2020-07-30"
+      precision: "day"
+    text:
+      zh:
+        title: "【Guiano】8月30日 (日)1st ONE-MAN LIVE「あの夏の記憶だけ」at WWW 通常開催中止 & 無観客での有料配信決定のお知らせ"
+        summary: "【Guiano】8月30日 (日)1st ONE-MAN LIVE「あの夏の記憶だけ」at WWW 通常開催中止 & 無観客での有料配信決定のお知らせ"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "guiano"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-b7f2f36076d1396e"
+    date:
+      start: "2020-08-10"
+      precision: "day"
+    text:
+      zh:
+        title: "バーチャルアーティストKMNZ、春猿火、somunia、ヰ世界情緒、音楽ユニット・ORESAMAが集結！ リアルとバーチャルが交差した『CONNECTED OVER THE DIMENSION』展開催！"
+        summary: "バーチャルアーティストKMNZ、春猿火、somunia、ヰ世界情緒、音楽ユニット・ORESAMAが集結！ リアルとバーチャルが交差した『CONNECTED OVER THE DIMENSION』展開催！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "harusaruhi"
+        role: "subject"
+      - entity: "isekaijoucho"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-87b6a25dd9163843"
+    date:
+      start: "2020-08-12"
+      precision: "day"
+    text:
+      zh:
+        title: "【花譜】2nd EP『花と解答』配信スタート！そして同時に、花譜の過去5作品のストリーミング配信も一挙解禁！"
+        summary: "【花譜】2nd EP『花と解答』配信スタート！そして同時に、花譜の過去5作品のストリーミング配信も一挙解禁！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "kaf"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-9208e28fcf30bfed"
+    date:
+      start: "2020-08-17"
+      precision: "day"
+    text:
+      zh:
+        title: "【花譜】Kizuna AI×花譜コラボシングル「愛と花」9月23日に発売決定！"
+        summary: "【花譜】Kizuna AI×花譜コラボシングル「愛と花」9月23日に発売決定！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "kaf"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-1aeeb018c3e8503f"
+    date:
+      start: "2020-08-19"
+      precision: "day"
+    text:
+      zh:
+        title: "【花譜】KAF Cover Live Album「I SCREAM LIVE」発売！"
+        summary: "【花譜】KAF Cover Live Album「I SCREAM LIVE」発売！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "kaf"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-5c6cee62dbd6d125"
+    date:
+      start: "2020-08-25"
+      precision: "day"
+    text:
+      zh:
+        title: "【Guiano】 1st ONE-MAN LIVE「あの夏の記憶だけ」グッズ公開"
+        summary: "【Guiano】 1st ONE-MAN LIVE「あの夏の記憶だけ」グッズ公開"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "guiano"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-97a5b6234569d275"
+    date:
+      start: "2020-09-01"
+      precision: "day"
+    text:
+      zh:
+        title: "【花譜】バーチャルシンガー花譜1年ぶりの展示「花譜展2」開催！"
+        summary: "【花譜】バーチャルシンガー花譜1年ぶりの展示「花譜展2」開催！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "kaf"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-7fd599d6ca5970c0"
+    date:
+      start: "2020-09-11"
+      precision: "day"
+    text:
+      zh:
+        title: "【花譜】2nd ONE-MAN LIVE「不可解弐Q1」開催決定！"
+        summary: "【花譜】2nd ONE-MAN LIVE「不可解弐Q1」開催決定！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "kaf"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-9b31e1a66471d977"
+    date:
+      start: "2020-09-19"
+      precision: "day"
+    text:
+      zh:
+        title: "【DUSTCELL】11月15日（日）2nd ONE-MAN LIVE「HOWL」開催決定"
+        summary: "【DUSTCELL】11月15日（日）2nd ONE-MAN LIVE「HOWL」開催決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "dustcell"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-8fb95d642945bfd5"
+    date:
+      start: "2020-10-01"
+      precision: "day"
+    text:
+      zh:
+        title: "【花譜】不可解弐Q1ライブグッズ10/3（土）より販売スタート！！"
+        summary: "【花譜】不可解弐Q1ライブグッズ10/3（土）より販売スタート！！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "kaf"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-7500b868fc5f1922"
+    date:
+      start: "2020-10-06"
+      precision: "day"
+    text:
+      zh:
+        title: "【DUSTCELL】2nd ONE-MAN LIVE 「HOWL」ライブグッズ10/7（水）12:00より先行予約開始！"
+        summary: "【DUSTCELL】2nd ONE-MAN LIVE 「HOWL」ライブグッズ10/7（水）12:00より先行予約開始！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "dustcell"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-fd7fae99fcef6747"
+    date:
+      start: "2020-10-23"
+      precision: "day"
+    text:
+      zh:
+        title: "【DUSTCELL】2nd ONE-MAN LIVE 「HOWL」追加ライブグッズ10/24（土）12:00より受注開始！"
+        summary: "【DUSTCELL】2nd ONE-MAN LIVE 「HOWL」追加ライブグッズ10/24（土）12:00より受注開始！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "dustcell"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-b4c256b8fd008be5"
+    date:
+      start: "2020-10-25"
+      precision: "day"
+    text:
+      zh:
+        title: "幸祜（KOKO）正式出道，五大魔女集结完毕"
+        summary: "幸祜（KOKO）正式出道，五大魔女集结完毕"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "koko"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "艺人出道"
+  - id: "event-755ea8126e2d0f1b"
+    date:
+      start: "2020-10-28"
+      precision: "day"
+    text:
+      zh:
+        title: "魔女展開催のお知らせ"
+        summary: "魔女展開催のお知らせ"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "kaf"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-fe19dbead4976370"
+    date:
+      start: "2020-11-13"
+      precision: "day"
+    text:
+      zh:
+        title: "【DUSTCELL】2nd ONE-MAN LIVE 「HOWL」ライブグッズBOOTH三次販売、会場物販商品ラインナップ発表！"
+        summary: "【DUSTCELL】2nd ONE-MAN LIVE 「HOWL」ライブグッズBOOTH三次販売、会場物販商品ラインナップ発表！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "dustcell"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-4e2a85fe05da51f8"
+    date:
+      start: "2020-11-15"
+      precision: "day"
+    text:
+      zh:
+        title: "【春猿火】12月5日(土) ストリーミングカバーライブ「シュークリームライブ」開催決定！"
+        summary: "【春猿火】12月5日(土) ストリーミングカバーライブ「シュークリームライブ」開催決定！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "harusaruhi"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-7338abf5df29731a"
+    date:
+      start: "2020-11-28"
+      precision: "day"
+    text:
+      zh:
+        title: "【春猿火】「シュークリームライブ」開催&活動1周年記念「CREAM PUFF LIVE HOODY」を受注販売開始"
+        summary: "【春猿火】「シュークリームライブ」開催&活動1周年記念「CREAM PUFF LIVE HOODY」を受注販売開始"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "harusaruhi"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-124619ec796e850f"
+    date:
+      start: "2020-12-01"
+      precision: "day"
+    text:
+      zh:
+        title: "【春猿火 / ヰ世界情緒】春猿火・ヰ世界情緒「Virtual Music Award 2020」への出演決定！"
+        summary: "【春猿火 / ヰ世界情緒】春猿火・ヰ世界情緒「Virtual Music Award 2020」への出演決定！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "harusaruhi"
+        role: "subject"
+      - entity: "isekaijoucho"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-3ea18ae820aef300"
+    date:
+      start: "2020-12-09"
+      precision: "day"
+    text:
+      zh:
+        title: "【ヰ世界情緒】12月26日(土) ストリーミングカバーライブ「キャンディライブ」開催決定！"
+        summary: "【ヰ世界情緒】12月26日(土) ストリーミングカバーライブ「キャンディライブ」開催決定！"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "isekaijoucho"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-a009889cde568911"
+    date:
+      start: "2020-12-16"
+      precision: "day"
+    text:
+      zh:
+        title: "【理芽】12月20日（日）ストリーミングカバーライブ「CHOCOLATE LIVE」開催決定!!"
+        summary: "【理芽】12月20日（日）ストリーミングカバーライブ「CHOCOLATE LIVE」開催決定!!"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "rim"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-0858233daba81ed0"
+    date:
+      start: "2020-12-19"
+      precision: "day"
+    text:
+      zh:
+        title: "【ヰ世界情緒】「キャンディライブ」開催&活動1周年記念アイテム受注販売開始"
+        summary: "【ヰ世界情緒】「キャンディライブ」開催&活動1周年記念アイテム受注販売開始"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "isekaijoucho"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"
+  - id: "event-4b44219c4b557e5f"
+    date:
+      start: "2020-12-28"
+      precision: "day"
+    text:
+      zh:
+        title: "【理芽】3月24日 Cover Live Album「CHOCOLATE LIVE」発売決定"
+        summary: "【理芽】3月24日 Cover Live Album「CHOCOLATE LIVE」発売決定"
+    tracks:
+      - "music-live"
+    eventTypes:
+      - "announcement"
+    importance: "regular"
+    related:
+      - entity: "rim"
+        role: "subject"
+    sources:
+      - title: "神椿全景编年大事记总表"
+        type: "compiled-research"
+        reference: "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+    importedCategory: "官方公告 / 演出活动"

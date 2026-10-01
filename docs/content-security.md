@@ -1,6 +1,6 @@
 # Content rendering security policy
 
-This document defines the trust boundary for Markdown under `src/content/`. It is the maintainer reference; author-facing examples live in the three localized syntax guides under `src/content/contribute/syntax-guide/`.
+This document defines the trust boundary for Markdown under `src/content/`. It is the maintainer reference; author-facing examples live in the three localized syntax guides under `docs/manuals/contribute/syntax/`.
 
 ## Trust model
 

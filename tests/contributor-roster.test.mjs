@@ -7,16 +7,6 @@ async function readProjectFile(path) {
   return readFile(new URL(path, import.meta.url), 'utf8');
 }
 
-test('contributor roster is mounted on the home page and artist entry pages', async () => {
-  const homePage = await readProjectFile('../src/pages/[locale]/index.astro');
-  const artistPage = await readProjectFile('../src/pages/[locale]/artists/[...id].astro');
-
-  assert.match(homePage, /import ContributorRoster/);
-  assert.match(homePage, /<ContributorRoster mode="summary" locale=\{locale\}/);
-  assert.match(artistPage, /import ContributorRoster/);
-  assert.match(artistPage, /<ContributorRoster mode="entry" locale=\{localeCode\} collection="artists" entryId=\{id\}/);
-});
-
 test('contributor roster fetches public summary and entry contribution APIs', async () => {
   const component = await readProjectFile('../src/components/ContributorRoster.astro');
   const script = await readProjectFile('../src/scripts/contributorRoster.js');

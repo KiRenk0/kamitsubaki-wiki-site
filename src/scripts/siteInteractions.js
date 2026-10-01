@@ -1,3 +1,4 @@
+import {expandRecordBatch} from '../lib/recordExpansion.mjs';
 import {installCursorLayer} from '../lib/cursorLayer.mjs';
 import {handleSpoilerActivation} from '../lib/spoilerInteraction.mjs';
 import { detectExternalPlatform } from '../lib/externalPlatforms.mjs';
@@ -187,7 +188,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const animationDuration = prefersReducedMotion ? 900 : (configuredDuration || 5845);
     const introVideo = siteIntro.querySelector('[data-site-intro-video]');
     let animationComplete = false;
-    let pageLoaded = document.readyState === 'complete';
+    // DOMContentLoaded has fired. Optional media must not block the intro exit.
+    let pageLoaded = true;
     let leaving = false;
     let skipped = false;
     let loadFallbackTimer = null;
@@ -293,7 +295,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const bgContainer = document.getElementById('artist-bg-container');
   const bgImg = document.getElementById('artist-bg-img');
-  const artistList = document.getElementById('artist-list');
 
   if (bgContainer instanceof HTMLElement && bgImg instanceof HTMLImageElement) {
     const bgLayers = Array.from(bgContainer.querySelectorAll('.artist-bg__image')).filter(
@@ -339,13 +340,16 @@ document.addEventListener('DOMContentLoaded', () => {
       activeBgLayer?.classList.remove('is-active');
     };
 
-    document.querySelectorAll('.artist-row').forEach((row) => {
-      row.addEventListener('mouseenter', () => showArtistBackground(row));
-      row.addEventListener('mouseleave', hideArtistBackground);
-      row.addEventListener('focusin', () => showArtistBackground(row));
-      row.addEventListener('focusout', hideArtistBackground);
-      row.setAttribute('data-artist-hover-ready', 'true');
-    });
+    const rowAt = target => target instanceof Element ? target.closest('#artist-list .artist-row, [data-home-music-list] [data-music-background]') : null;
+    for (const [enter, leave] of [['pointerover', 'pointerout'], ['focusin', 'focusout']]) {
+      document.addEventListener(enter, event => {
+        const row = rowAt(event.target);
+        if (row && row !== rowAt(event.relatedTarget)) showArtistBackground(row);
+      });
+      document.addEventListener(leave, event => {
+        if (rowAt(event.target) !== rowAt(event.relatedTarget)) hideArtistBackground();
+      });
+    }
   }
 
   const heroParallaxElements = document.querySelectorAll('[data-hero-parallax]');
@@ -669,9 +673,10 @@ document.addEventListener('DOMContentLoaded', () => {
   ['click','auxclick','keydown'].forEach(type=>document.addEventListener(type,handleSpoilerActivation,true));
 
   // ── Artist category expand/collapse ──
+  const artistList = document.getElementById('artist-list');
   if (artistList instanceof HTMLElement) {
     artistList.addEventListener('click', (event) => {
-      const button = event.target instanceof Element && event.target.closest('.artist-expand-btn');
+      const button = event.target instanceof Element && event.target.closest('.artist-expand-btn, [data-artist-collapse]');
       if (!button) return;
 
       const collapsibleId = button.getAttribute('aria-controls');
@@ -679,6 +684,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const collapsible = document.getElementById(collapsibleId);
       if (!(collapsible instanceof HTMLElement)) return;
+
+      if (collapsible.dataset.pageSize) {
+        expandRecordBatch(collapsible, button);
+        return;
+      }
 
       const copy = button.querySelector('[data-artist-expand-copy]');
       const inner = collapsible.querySelector('.artist-collapsible__inner');

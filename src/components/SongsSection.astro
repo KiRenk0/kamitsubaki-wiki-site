@@ -29,7 +29,7 @@ const { songs, section, locale } = Astro.props as {
 
         {section.viewAllLabel && (
           <a
-            href={`/${locale}/songs`}
+            href={`/${locale}/database/music/songs/`}
             class="group inline-flex items-center gap-3 text-[10px] tracking-widest text-white/40 hover:text-white transition-colors duration-300"
           >
             <span class="border-b border-white/20 pb-1 group-hover:border-white/60 transition-colors">
@@ -57,7 +57,7 @@ const { songs, section, locale } = Astro.props as {
         data-home-music-url={`/${locale}/home-catalog.json`}
       >
         {songs.map((song) => (
-            <a href={song.href} class="group block list-row py-6 reveal-up">
+            <a href={song.href} data-music-background data-img={song.image || undefined} class="group block list-row py-6 reveal-up">
               <div class="flex flex-col md:flex-row md:items-center justify-between px-4 gap-4">
                 <div class="flex items-center gap-6 flex-1">
                   <span class="grid h-12 w-12 shrink-0 place-items-center overflow-hidden border border-white/10 bg-white/[0.03]">
@@ -89,7 +89,7 @@ const { songs, section, locale } = Astro.props as {
       </div>
 
       <template data-home-music-template>
-        <a data-home-music-link class="group block list-row py-6 reveal-up active">
+        <a data-home-music-link data-music-background class="group block list-row py-6 reveal-up active">
           <div class="flex flex-col md:flex-row md:items-center justify-between px-4 gap-4">
             <div class="flex items-center gap-6 flex-1">
               <span class="grid h-12 w-12 shrink-0 place-items-center overflow-hidden border border-white/10 bg-white/[0.03]">

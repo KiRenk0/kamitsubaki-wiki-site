@@ -26,7 +26,8 @@ const guide = variant === 'guide';
 ]}>
   {hasToc && (guide ? (
     <aside class="hub-toc">
-      <details class="hub-contents wiki-mobile-toc" open>
+      <div class="hub-desktop-toc"><TableOfContents headings={headings} title={contentsTitle} /></div>
+      <details class="hub-contents wiki-mobile-toc">
         <summary>{contentsTitle}</summary>
         <TableOfContents headings={headings} title={contentsTitle} />
       </details>
@@ -57,12 +58,14 @@ const guide = variant === 'guide';
   :global(body:has([data-reader])) {overflow-x:clip}
   .hub-reading-layout{display:grid;grid-template-columns:210px minmax(0,1fr);gap:38px;align-items:start}
   .hub-toc{position:sticky;top:var(--reader-sticky-top,100px);min-width:0;align-self:start}
+  .hub-contents{display:none}
   .hub-contents > summary{display:none;font:500 .85rem/1.5 var(--font-sans);color:var(--b-muted);cursor:pointer;padding:10px 0}
   .hub-prose{min-width:0;overflow-wrap:anywhere}
   @media(max-width:760px){
     .hub-reading-layout{grid-template-columns:1fr;gap:24px}
     .hub-toc{z-index:20}
-    .hub-contents{border-block:1px solid var(--b-line);background:var(--theme-bg)}
+    .hub-desktop-toc{display:none}
+    .hub-contents{display:block;border-block:1px solid var(--b-line);background:var(--theme-bg)}
     .hub-contents > summary{display:list-item}
     .hub-contents :global(.wiki-toc){max-height:min(35dvh,calc(100dvh - var(--reader-sticky-top,100px) - 80px))}
     .hub-contents :global(.wiki-toc > div:first-child){display:none}

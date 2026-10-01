@@ -17,7 +17,7 @@ export function createLabsCatalogLoader(locale, fetcher = fetch) {
         const response = await fetcher(`/${locale}/labs-catalog.json`);
         if (!response.ok) throw new Error('catalog');
         const data = await response.json();
-        if (data.version !== 1 || !Array.isArray(data.nodes) || !Array.isArray(data.edges)) {
+        if (data.version !== 2 || !Array.isArray(data.nodes) || !Array.isArray(data.edges)) {
           throw new Error('catalog schema');
         }
         return data;

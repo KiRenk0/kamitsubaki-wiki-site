@@ -1,6 +1,8 @@
 import {confirmAccount} from './accountConfirm.js';
 import {state,copy as c,locale,api,refreshAuth,loadAccount,loginUrl,guestLibrary,mergeGuest,download} from './accountStore.js';
+import {readLibrary,libraryStorageKey} from '../lib/personalLibrary.mjs';
 import {initializeLibrary} from './personalLibrary.js';
+export function initializeAccountPage(){
 const root=document.querySelector('[data-account-page]');
 const $=selector=>root?.querySelector(selector);
 const element=(tag,text)=>{const el=document.createElement(tag);if(text!==undefined)el.textContent=text;return el;};
@@ -17,6 +19,8 @@ function avatar() {
 }
 function render() {
   if(!root)return;
+  const recent=$('[data-account-recent]');
+  if(recent){recent.replaceChildren();try{const items=readLibrary(localStorage).items.slice(-4).reverse();for(const item of items){const link=element('a',item.title);link.href=item.path;recent.append(link);}}catch{}if(!recent.children.length)recent.append(element('p',recent.dataset.emptyLabel));}
   if(profileOwner!==(state.viewer?.userId||null)){profileOwner=state.viewer?.userId||null;profileDirty=false;uploadedAvatar=null;rendered=null;$('[data-profile-form]').reset();$('[data-avatar-file]').value='';$('[data-account-identities]').replaceChildren();}
   root.querySelectorAll('[data-account-member]').forEach(el=>{el.hidden=!state.viewer || !state.account;});
   if(!state.viewer){profileDirty=false;uploadedAvatar=null;$('[data-avatar-file]').value='';loadedOwner=null;rendered=null;$('[data-account-sessions]').replaceChildren();$('[data-profile-form]').reset();return;}
@@ -74,7 +78,7 @@ if(root){
   const authResult=new URL(location.href).searchParams.get('aiAuth');
   if(authResult)$('[data-account-action-status]').textContent=authResult==='success'?c.loginSuccess:c.loginError;
   initializeLibrary($('[data-account-library]'),JSON.parse($('[data-account-library]').dataset.copy));
-  window.addEventListener('kamitsubaki-account-state',render);render();
+  window.addEventListener('kamitsubaki-account-state',render);window.addEventListener('kamitsubaki-library-change',render);window.addEventListener('storage',event=>{if(event.key===libraryStorageKey())render();});render();
   window.addEventListener('beforeunload',event=>{if(profileDirty){event.preventDefault();event.returnValue='';}});
   $('[data-account-reload]').addEventListener('click',event=>void action(event.currentTarget,'[data-account-action-status]',async()=>{if(profileDirty && !await confirmAccount(c.confirmDiscard,c))return;profileDirty=false;await loadAccount();loadedOwner=state.viewer?.userId;await sessions();$('[data-account-action-status]').textContent='';$('[data-profile-status]').textContent='';}));
   $('[data-avatar-file]').addEventListener('change',async event=>{
@@ -114,4 +118,6 @@ if(root){
   }
   $('[data-deletion-form]').addEventListener('submit',event=>{event.preventDefault();void action(event.currentTarget.querySelector('button'),'[data-data-status]',async()=>{await api('/api/account/deletion',{method:'POST',body:{confirm:event.currentTarget.elements.confirmation.value}});await loadAccount();});});
   $('[data-deletion-cancel]').addEventListener('click',event=>void action(event.currentTarget,'[data-data-status]',async()=>{await api('/api/account/deletion/cancel',{method:'POST',body:{}});await loadAccount();}));
+}
+
 }

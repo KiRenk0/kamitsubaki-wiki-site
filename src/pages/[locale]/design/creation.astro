@@ -1,0 +1,8 @@
+---
+import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
+import CreationWorkbench from '../../../components/CreationWorkbench.astro';
+import {supportedLocales} from '../../../lib/i18n.mjs';
+export function getStaticPaths(){return import.meta.env.DEV?supportedLocales.map(locale=>({params:{locale}})):[];}
+const locale=Astro.params.locale||'zh';
+---
+<WorkspaceLayout locale={locale} title="创作与审核工作台" intro="紧凑、完整可见的资料编辑，以及不中断浏览的审核流程。" path="/design/creation/" eyebrow="V3 / DESIGN PREVIEW" backHref={`/${locale}/account/`} backLabel="我的空间" width="wide" noindex mainAttributes={{class:'creation-preview-page'}}><CreationWorkbench/></WorkspaceLayout>

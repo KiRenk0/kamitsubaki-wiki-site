@@ -1,7 +1,9 @@
+import {entitySourcePath,collectionByType} from './contentLayout.mjs';
 export const attachmentLimit = 750000;
 export function newEntryPath(kind, locale, folder) {
-  if(!['artists','songs','albums','projects','logs'].includes(kind) || !['zh','ja','en'].includes(locale) || !/^[a-z0-9]+(?:[-/][a-z0-9]+)*$/.test(folder) || folder.length>160) throw Error('请使用小写英文、数字和连字符填写目录，可用 / 分组。');
-  return `src/content/${kind}/${folder}/${locale}.md`;
+  if(!['artists', 'songs', 'albums', 'projects', 'logs', 'people', 'units', 'isotopes', 'releases', 'lives', 'organizations', 'lore', 'articles'].includes(kind) || !['zh','ja','en'].includes(locale) || !/^[a-z0-9]+(?:[-/][a-z0-9]+)*$/.test(folder) || folder.length>160 || !['logs','artists','albums'].includes(kind)&&folder.includes('/')) throw Error('请使用小写英文、数字和连字符填写目录，可用 / 分组。');
+  const type=Object.keys(collectionByType).find(type=>collectionByType[type]===kind);
+  return type?entitySourcePath({entityType:type,id:folder,locale}):`src/content/${kind}/${folder}/${locale}.md`;
 }
 function database() {
   return new Promise((resolve,reject)=>{

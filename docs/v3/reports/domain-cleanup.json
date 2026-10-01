@@ -1,0 +1,78 @@
+[
+  {
+    "path": "src/content/lives/fukakai/zh.md",
+    "removed": {
+      "sourceReferences": [
+        "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+      ]
+    }
+  },
+  {
+    "path": "src/content/lives/fukakai-4-kaika/zh.md",
+    "removed": {
+      "sourceReferences": [
+        "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+      ]
+    }
+  },
+  {
+    "path": "src/content/lives/fukakai-re/zh.md",
+    "removed": {
+      "sourceReferences": [
+        "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+      ]
+    }
+  },
+  {
+    "path": "src/content/lives/fukakai-san-kyou/zh.md",
+    "removed": {
+      "sourceReferences": [
+        "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+      ]
+    }
+  },
+  {
+    "path": "src/content/lives/yoyogi-arena-2024/zh.md",
+    "removed": {
+      "sourceReferences": [
+        "citiao_consolidated/OBJECTIVE_WIKI_DATABASE/04_TIMELINE_CHRONOLOGY/00_MASTER_TIMELINE_TABLE.md"
+      ]
+    }
+  },
+  {
+    "path": "src/content/organizations/kamitsubaki-studio/en.md",
+    "removed": {
+      "status": "active"
+    }
+  },
+  {
+    "path": "src/content/organizations/kamitsubaki-studio/ja.md",
+    "removed": {
+      "status": "active"
+    }
+  },
+  {
+    "path": "src/content/organizations/kamitsubaki-studio/zh.md",
+    "removed": {
+      "status": "active"
+    }
+  },
+  {
+    "path": "src/content/organizations/sinsekai-record/en.md",
+    "removed": {
+      "status": "active"
+    }
+  },
+  {
+    "path": "src/content/organizations/sinsekai-record/ja.md",
+    "removed": {
+      "status": "active"
+    }
+  },
+  {
+    "path": "src/content/organizations/sinsekai-record/zh.md",
+    "removed": {
+      "status": "active"
+    }
+  }
+]

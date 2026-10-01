@@ -1,0 +1,16 @@
+---
+import {resolveLocaleCopy} from '../lib/i18n.mjs';
+import ContextAction from './ContextAction.astro';
+import '../styles/submissionReceipt.css';
+interface Props {locale:string;}
+const {locale}=Astro.props;
+const c=resolveLocaleCopy({
+ zh:{receipt:'已收到投稿',record:'投稿编号',progress:'查看审核进度'},
+ en:{receipt:'Contribution received',record:'Record ID',progress:'Track review'},
+ ja:{receipt:'投稿を受け付けました',record:'投稿番号',progress:'審査状況を見る'}
+},locale);
+---
+<section class="submission-receipt" data-submission-receipt hidden role="status" aria-live="polite">
+ <div class="submission-receipt__details"><strong>{c.receipt}</strong><span data-receipt-state></span><small>{c.record} · <code data-receipt-id></code></small></div>
+ <ContextAction data-receipt-link>{c.progress}</ContextAction>
+</section>
