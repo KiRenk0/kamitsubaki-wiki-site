@@ -5,7 +5,7 @@ locale: "zh-tw"
 order: 2
 title: "編輯與新建百科詞條"
 summary: "從閱讀器進入編輯器，補全屬性與來源，核對差異後提交 GitHub PR。"
-generatedFromHash: "d6facaddf800fd627051"
+generatedFromHash: "8d306dba0644c5aa995e"
 generated: true
 generatedFrom: "zh"
 ---

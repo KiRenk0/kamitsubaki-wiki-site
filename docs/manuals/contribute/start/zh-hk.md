@@ -5,7 +5,7 @@ locale: "zh-hk"
 order: 1
 title: "選擇投稿與開始準備"
 summary: "四類投稿、站內與 GitHub 兩條路線，以及保存、審核和公開的完整步驟。"
-generatedFromHash: "75478ed724b5ad745772"
+generatedFromHash: "6b0ef5b5a24572d47f90"
 generated: true
 generatedFrom: "zh"
 ---

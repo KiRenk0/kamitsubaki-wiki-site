@@ -5,7 +5,7 @@ locale: "zh-hk"
 order: 6
 title: "投稿照片、設定組與分類建議"
 summary: "直接上傳未分類照片，或創建成套設定；核對來源、暫存、提交，並跟蹤逐圖審核。"
-generatedFromHash: "8bf1f10bf6b3675b8f0f"
+generatedFromHash: "34a08d2c2e44454fd168"
 generated: true
 generatedFrom: "zh"
 ---

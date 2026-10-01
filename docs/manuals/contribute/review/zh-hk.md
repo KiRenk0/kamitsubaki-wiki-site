@@ -5,7 +5,7 @@ locale: "zh-hk"
 order: 8
 title: "投稿進度、審核與退回修改"
 summary: "從回執進入創作者中心，分清草稿、待審核、部分通過與公開。"
-generatedFromHash: "fb08f11d689aba329cd6"
+generatedFromHash: "26ed72092c6e28f475eb"
 generated: true
 generatedFrom: "zh"
 ---

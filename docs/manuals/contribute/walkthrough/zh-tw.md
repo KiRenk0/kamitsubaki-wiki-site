@@ -5,7 +5,7 @@ locale: "zh-tw"
 order: 10
 title: "從一條資料到公開頁面：完整投稿演練"
 summary: "用一條詞條修訂走完查證、站內編輯、GitHub 投稿、稽核和釋出，並附可複製的 AI 提示詞。"
-generatedFromHash: "a30724969439da576fa1"
+generatedFromHash: "44eb063dc51de044c52d"
 generated: true
 generatedFrom: "zh"
 ---

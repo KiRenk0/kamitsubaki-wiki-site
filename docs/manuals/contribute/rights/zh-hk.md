@@ -5,7 +5,7 @@ locale: "zh-hk"
 order: 9
 title: "來源、版權與多語言"
 summary: "給事實和圖片保留可核對的出處，並正確維護語言版本。"
-generatedFromHash: "13349d81318e286e876a"
+generatedFromHash: "2240d41ab3a06dada243"
 generated: true
 generatedFrom: "zh"
 ---

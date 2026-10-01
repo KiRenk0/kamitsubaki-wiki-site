@@ -25,6 +25,6 @@ const entities=registry.list('zh').filter(entry=>eligible.has(entry.data.entityT
 const output=JSON.stringify(entities,null,2)+'\n';
 const targets=backendCharacters?[frontendTarget,resolve(backend,'entities.json')]:[frontendTarget];
 if(check){
- for(const target of targets)if(await readFile(target,'utf8').catch(()=>null)!==output)throw Error(`图库词条目录需要同步：${target}`);
+ for(const target of targets)if((await readFile(target,'utf8').catch(()=>null)||'').replace(/\r\n/g,'\n')!==output)throw Error(`图库词条目录需要同步：${target}`);
 }else for(const target of targets)await writeFile(target,output);
 console.log(`图库词条目录：${entities.length} 个对象`);
