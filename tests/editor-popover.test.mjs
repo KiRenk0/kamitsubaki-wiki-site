@@ -1,14 +1,14 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import {editorPopoverPosition, mountEditorPopovers, confirmEditorPopover} from '../src/lib/editorPopover.mjs';
+import {computeEditorPosition, mountEditorPopovers, confirmEditorPopover} from '../src/lib/editorPopover.mjs';
 
-test('anchored bubbles flip above bottom-edge selections and clamp on 320px screens',()=>{
- const viewport={width:320,height:480};
- assert.deepEqual(editorPopoverPosition({left:290,top:420,bottom:440},{width:304,height:180},viewport),{left:8,top:232});
- assert.deepEqual(editorPopoverPosition({left:-20,top:20,bottom:40},{width:304,height:180},viewport,true),{left:8,top:48});
- assert.deepEqual(editorPopoverPosition({left:80,top:320,bottom:340},{width:240,height:100},{width:900,height:600},true),{left:80,top:212});
- const point=editorPopoverPosition({left:200,top:480,bottom:510},{width:300,height:230},{width:390,height:260,top:240});
- assert.ok(point.top>=248&&point.top+230<=492);
+test('Floating UI flips edge bubbles and keeps them inside a 320px viewport',async()=>{
+ const reference={x:290,y:420,width:20,height:20},floating={style:{}};
+ const platform={getDocumentElement:()=>({}),isRTL:()=>false,getOffsetParent:()=>null,convertOffsetParentRelativeRectToViewportRelativeRect:({rect})=>rect,getElementRects:()=>({reference,floating:{x:0,y:0,width:304,height:180}}),getClippingRect:()=>({x:0,y:0,width:320,height:480}),getDimensions:()=>({width:304,height:180}),isElement:()=>false};
+ const result=await computeEditorPosition({},floating,{platform});
+ assert.equal(result.x,8);assert.equal(result.y,232);assert.match(result.placement,/^top-/);assert.equal(result.strategy,'fixed');
+ reference.x=-20;reference.y=20;const top=await computeEditorPosition({},floating,{platform,placement:'top-start'});
+ assert.equal(top.x,8);assert.equal(top.y,48);
 });
 class El extends EventTarget{
  constructor(){super();this.children=[];this.attributes=new Map();this.style={};this.isConnected=true;this.classList={add(){}};this.open=false;this.returnValue='';}
@@ -31,7 +31,9 @@ function environment(t){
   const previous=globalThis[key];globalThis[key]=value;t.after(()=>{if(previous===undefined)delete globalThis[key];else globalThis[key]=previous;});
  }
  const pointer=target=>{const event=new Event('pointerdown');Object.defineProperty(event,'target',{value:target});document.dispatchEvent(event);};
- return {root,toolbar,trigger,document,pointer};
+ let watchers=0;
+ mountEditorPopovers(root,{watch(_anchor,_dialog,update){watchers++;update();return ()=>watchers--;},place(anchor,dialog){const rect=anchor.getBoundingClientRect();dialog.style.left=rect.left+'px';dialog.style.top=(rect.bottom+8)+'px';}});
+ return {root,toolbar,trigger,document,pointer,watchers:()=>watchers};
 }
 test('popover opens without a modal, dismisses outside, and Escape restores its trigger',async t=>{
  const {root,toolbar,trigger,document,pointer}=environment(t),dialog=new El();root.append(dialog);
@@ -75,4 +77,9 @@ test('a menu action anchors to its visible summary after the menu closes',t=>{
  trigger.getBoundingClientRect=()=>expanded?{left:200,top:220,bottom:250,width:60,height:30}:{left:0,top:0,bottom:0,width:0,height:0};
  summary.getBoundingClientRect=()=>({left:80,top:20,bottom:50,width:50,height:30});root.append(dialog);
  mountEditorPopovers(root).open(dialog);assert.equal(expanded,false);assert.equal(dialog.style.left,'80px');assert.equal(dialog.style.top,'58px');
+});
+
+test('closing and switching bubbles dispose Floating UI observers',t=>{
+ const {root,watchers}=environment(t),a=new El(),b=new El();root.append(a,b);const controller=mountEditorPopovers(root);
+ controller.open(a);assert.equal(watchers(),1);controller.open(b);assert.equal(watchers(),1);controller.close();assert.equal(watchers(),0);
 });

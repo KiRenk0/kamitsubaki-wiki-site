@@ -1,4 +1,4 @@
-import {mountEditorPopovers,openEditorPopover,editorPopoverPosition,confirmEditorPopover} from '../lib/editorPopover.mjs';
+import {mountEditorPopovers,openEditorPopover,positionEditorSurface,confirmEditorPopover} from '../lib/editorPopover.mjs';
 import {articleCopy} from '../lib/articleCopy.mjs';
 import {state as accountState,refreshAuth} from './accountStore.js';
 import {mountArticlePicker,ensureArticleDraftUrl,initialArticleRelations,articleEntities} from '../lib/articleEntities.mjs';
@@ -669,9 +669,7 @@ const initialize = async () => {
     mentionContext={rich,node,start:triggerStart,end:selection.anchorOffset};
     mentionItems=query?searchEditorEntityCatalog(catalogRecords,query,{locale:draft.meta.locale,limit:8}):catalogRecords.map(record=>normalizeEditorEntityRecord(record,draft.meta.locale)).filter(Boolean).slice(0,8);
     mentionIndex=0;renderEntityMention();if(mentionPopup.hidden)return;
-    const range=selection.getRangeAt(0),rect=range.getBoundingClientRect(),width=mentionPopup.getBoundingClientRect().width,height=mentionPopup.getBoundingClientRect().height;
-    mentionPopup.style.left=`${Math.max(8,Math.min(innerWidth-width-8,rect.left))}px`;
-    mentionPopup.style.top=`${Math.max(8,Math.min(innerHeight-height-8,rect.bottom+6))}px`;
+    void positionEditorSurface(selection.getRangeAt(0),mentionPopup);
   }
   function chooseEntityMention(index){
     const record=mentionItems[index],context=mentionContext,mention=record&&buildEditorEntityMention(record,{locale:draft.meta.locale});
@@ -948,9 +946,8 @@ const initialize = async () => {
     const tokens=selectedInlineTokens(rich),kinds=tokens.map(token=>inlineTokenParts(token)?.kind);
     for(const button of root.querySelectorAll('[data-inline-preset]'))button.setAttribute('aria-pressed',String(kinds.includes(button.dataset.inlinePreset)));
     $('[data-edit-inline]').hidden=!selectedInlineToken(rich);
-    toolbar.hidden=false;const rect=savedRange.getBoundingClientRect(),size=toolbar.getBoundingClientRect();
-    const point=editorPopoverPosition({...rect.toJSON(),left:rect.left+rect.width/2-size.width/2},size,{width:innerWidth,height:innerHeight},true);
-    toolbar.style.left=`${point.left}px`;toolbar.style.top=`${point.top}px`;
+    toolbar.hidden=false;
+    void positionEditorSurface(savedRange,toolbar,{placement:'top'});
   }
   document.addEventListener('selectionchange',updateSelectionToolbar);
   $('.ve-canvas').addEventListener('scroll',()=>{$('[data-selection-toolbar]').hidden=true;});
@@ -1071,10 +1068,7 @@ const initialize = async () => {
   function closeInsert({restoreFocus=false}={}) {if(insertPopover.hidden)return;insertPopover.hidden=true;insertSearch.setAttribute('aria-expanded','false');if(restoreFocus&&insertOrigin?.isConnected)insertOrigin.focus();}
   function positionInsert() {
     if(insertPopover.hidden||!insertRect)return;
-    const bounds=insertPopover.getBoundingClientRect(),width=bounds.width,height=bounds.height;
-    const left=Math.max(8,Math.min(innerWidth-width-8,insertRect.left));
-    const below=insertRect.bottom+7,top=below+height>innerHeight-8&&insertRect.top-height-7>=8?insertRect.top-height-7:Math.max(8,Math.min(below,innerHeight-height-8));
-    insertPopover.style.left=`${left}px`;insertPopover.style.top=`${top}px`;
+    void positionEditorSurface(insertRect,insertPopover);
   }
   function renderInsert() {
     const query=insertSearch.value.toLocaleLowerCase().trim();
@@ -1099,7 +1093,7 @@ const initialize = async () => {
   insertSearch.addEventListener('keydown',event=>{if(event.isComposing)return;if(['ArrowDown','ArrowUp'].includes(event.key)){event.preventDefault();insertIndex=(insertIndex+(event.key==='ArrowDown'?1:-1)+insertItems.length)%Math.max(1,insertItems.length);updateInsertSelection();}else if(event.key==='Enter'){event.preventDefault();runInsert(insertIndex);}else if(event.key==='Escape'){event.preventDefault();closeInsert({restoreFocus:true});}});
   insertResults.addEventListener('click',event=>{const button=event.target.closest('[data-insert-index]');if(button)runInsert(Number(button.dataset.insertIndex));});
   document.addEventListener('pointerdown',event=>{if(!insertPopover.hidden&&!insertPopover.contains(event.target)&&!event.target.closest('[data-insert-open],[data-insert-after]'))closeInsert();});
-  window.addEventListener('resize',()=>{if(!insertPopover.hidden)positionInsert();});
+  window.addEventListener('resize',()=>{if(!insertPopover.hidden)positionInsert();if(!$('[data-selection-toolbar]').hidden)updateSelectionToolbar();closeEntityMention();});
   root.querySelectorAll('.ve-canvas,.ve-output,.ve-sidebar').forEach(panel=>panel.addEventListener('scroll',()=>closeInsert(),{passive:true}));
   $('[data-command-search]').addEventListener('input',renderCommands);
   $('[data-command-results]').addEventListener('click',event=>{const button=event.target.closest('[data-command-index]');if(button)runCommand(Number(button.dataset.commandIndex));});
