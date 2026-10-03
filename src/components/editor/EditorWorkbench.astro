@@ -6,6 +6,8 @@ import {editorEnabled,localEditor} from '../../lib/editorConfig.mjs';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { supportedLocales, getEditableLocale, resolveLocaleCopy } from '../../lib/i18n.mjs';
 import { editorCopy } from '../../lib/visualEditorCopy.mjs';
+import { editorStarterCopy } from '../../lib/editorStarter.mjs';
+import { editorArticleImageCopy } from '../../lib/editorArticleImage.mjs';
 import { entryTypes, blockTypes } from '../../lib/visualEditor.mjs';
 import '../../styles/visualEditor.css';
 import '../../styles/editorWorkbench.css';
@@ -16,8 +18,10 @@ interface Props {locale:string;articleMode?:boolean;articleApi?:string;articleAd
 const {locale='zh',articleMode=false,articleApi='',articleAdmin=false}=Astro.props;
 const tc = creationCopy(locale);
 const modeCopy=resolveLocaleCopy({zh:{articles:'文章',save:'保存草稿',submit:'提交审核',mine:'我的提案',new:'新文章',previous:'上一页',next:'下一页',close:'关闭'},en:{articles:'Articles',save:'Save draft',submit:'Submit for review',mine:'My proposals',new:'New article',previous:'Previous',next:'Next',close:'Close'},ja:{articles:'記事',save:'下書きを保存',submit:'審査に提出',mine:'自分の提案',new:'新規記事',previous:'前へ',next:'次へ',close:'閉じる'}},locale);
-const articleLabels=locale==='en'?{workbench:'Article editor',entryProperties:'Article properties',emptyTitle:'Article title'}:locale==='ja'?{workbench:'文章エディター',entryProperties:'文章の設定',emptyTitle:'文章タイトル'}:{workbench:'文章编辑器',entryProperties:'文章属性',emptyTitle:'文章标题'};
+const articleLabels=resolveLocaleCopy({zh:{workbench:'文章编辑器',entryProperties:'文章属性',emptyTitle:'文章标题'},ja:{workbench:'文章エディター',entryProperties:'文章の設定',emptyTitle:'文章タイトル'},en:{workbench:'Article editor',entryProperties:'Article properties',emptyTitle:'Article title'}},locale);
 const copy = {...editorCopy(locale),...(articleMode?articleLabels:{})};const submissionLabels=submissionCopy(locale);const st=(text: string)=>submissionLabels[text]||text;
+const starter=editorStarterCopy(locale);
+const articleImage=editorArticleImageCopy(locale);
 const docsGuideHref=`/${locale}/docs/contribute/${articleMode?'article':'entry'}/`;
 const locales: Record<string,string> = {'zh':'简体中文','zh-tw':'繁體中文（臺灣）','zh-hk':'繁體中文（香港）','ja':'日本語','en':'English'};
 const icons = {
@@ -39,7 +43,7 @@ const icons = {
     <header class="ve-topbar">
       <a class="ve-home" href={articleMode?`/${locale}/articles/`:`/${locale}/`}>← {articleMode?modeCopy.articles:'Wiki'}</a><h1 data-document-name>{copy.emptyTitle}</h1><span class="ve-top-save" data-save-status role="status"></span>
       <button class="ve-command-trigger" data-command-open aria-label={copy.commands}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 5 5"/></svg><span>{copy.commands}</span><kbd>⌘ K</kbd></button>
-      <div class="ve-top-actions">{articleMode&&<><button data-article-save>{modeCopy.save}</button><button data-article-submit class="ve-primary">{articleAdmin?(locale==='en'?'Publish article':locale==='ja'?'記事を公開':'发布文章'):modeCopy.submit}</button></>}<details class="ve-tools-menu"><summary>{locale==='en'?'File':locale==='ja'?'ファイル':'文件'}</summary><div>{articleMode&&<><button data-article-new>{modeCopy.new}</button><button data-article-mine>{modeCopy.mine}</button></>}<button data-new-open hidden={articleMode}>{copy.newEntry}</button><button data-attachments-open hidden={articleMode}>{copy.attachments}</button><button class="ve-properties-entry" data-side-button="properties" aria-controls="ve-entry-properties" aria-pressed="false">{copy.entryProperties}</button><button data-existing-open hidden={articleMode}>{copy.editExisting}</button><button data-import-open>{copy.import}</button></div></details>
+      <div class="ve-top-actions">{articleMode&&<><button data-article-save>{modeCopy.save}</button><button data-article-submit class="ve-primary">{articleAdmin?(locale==='en'?'Publish article':locale==='ja'?'記事を公開':'发布文章'):modeCopy.submit}</button></>}<details class="ve-tools-menu"><summary>{locale==='en'?'File':locale==='ja'?'ファイル':'文件'}</summary><div>{articleMode&&<><button data-article-new>{modeCopy.new}</button><button data-article-mine>{modeCopy.mine}</button><button data-article-image-open>{articleImage.open}</button></>}<button data-new-open hidden={articleMode}>{copy.newEntry}</button><button data-attachments-open hidden={articleMode}>{copy.attachments}</button><button class="ve-properties-entry" data-side-button="properties" aria-controls="ve-entry-properties" aria-pressed="false" aria-expanded="false">{copy.entryProperties}</button><button data-existing-open hidden={articleMode}>{copy.editExisting}</button><button data-import-open>{copy.import}</button></div></details>
         <button data-pr-open class="ve-primary" hidden>{locale==='en'?'Submit via GitHub PR':locale==='ja'?'GitHub PR で投稿':'提交 GitHub PR'}</button>
         {!articleMode&&!editorEnabled&&<a class="ve-pr-unavailable" href={docsGuideHref}>{locale==='en'?'Submission unavailable':locale==='ja'?'投稿は一時停止中':'投稿暂未开放'}</a>}
         <details class="ve-export-menu"><summary>{copy.exportMenu}</summary><div><button data-copy>{copy.copy}</button><button data-download>{copy.download}</button><p>{copy.exportHint}</p><a data-github target="_blank" rel="noopener noreferrer" hidden>{copy.github} ↗</a></div></details>
@@ -52,14 +56,14 @@ const icons = {
     <div class="ve-workspace">
       <div class="ve-mobile-layout" role="tablist" aria-label={copy.content}><button type="button" data-mobile-pane="write" role="tab" aria-selected="true">{copy.visual}</button><button type="button" data-mobile-pane="preview" role="tab" aria-selected="false">{copy.preview}</button></div>
       <nav class="ve-activity" aria-label={copy.workbench}>
-        {(['outline','files','properties'] as const).map(side => <button data-side-button={side} hidden={articleMode&&side==='files'} aria-label={copy[side]} title={copy[side]} aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={icons[side]}/></svg><span>{copy[side]}</span></button>)}
+        {(['outline','files','properties'] as const).map(side => <button data-side-button={side} hidden={articleMode&&side==='files'} aria-label={copy[side]} title={copy[side]} aria-controls={side==='outline'?'ve-outline-panel':side==='files'?'ve-files-panel':'ve-entry-properties'} aria-pressed="false" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={icons[side]}/></svg><span>{copy[side]}</span></button>)}
         <button data-insert-open aria-label={copy.insert} title={copy.insert}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d={icons.insert}/></svg><span>{copy.insert}</span></button>
         <button data-find-open aria-label={copy.searchText} title={copy.searchText}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 5 5"/></svg><span>{copy.searchText}</span></button>
-        <button class="ve-rail-bottom" data-sidebar-toggle aria-label={copy.toggleSidebar} title={`${copy.toggleSidebar} · ⌘ B`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16"/></svg></button>
+        <button class="ve-rail-bottom" data-sidebar-toggle aria-label={copy.toggleSidebar} title={`${copy.toggleSidebar} · ⌘ B`} aria-controls="ve-sidebar" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16"/></svg></button>
       </nav>
-      <aside class="ve-sidebar">
-        <section data-side-panel="outline"><div class="ve-panel-heading"><h2>{copy.outline}</h2><button data-new-entry hidden={articleMode} title={copy.newEntry}>＋</button></div><p class="ve-document-name">{copy.emptyTitle}</p><nav data-outline aria-label={copy.outline}></nav></section>
-        <section data-side-panel="files" hidden><div class="ve-panel-heading"><h2>{copy.files}</h2><button data-sidebar-close aria-label={copy.cancel}>×</button></div><div data-existing-picker><label>{copy.findEntry}<input type="search" data-entry-search placeholder={copy.findEntry}/></label><label>{copy.kind}<select data-entry-kind><option value="">{copy.allKinds}</option>{entryTypes.filter(kind=>articleMode?kind==='articles':kind!=='articles').map(kind=><option value={kind}>{copy.kinds[kind as keyof typeof copy.kinds] || kind}</option>)}</select></label><p class="ve-entry-count" data-entry-count role="status"></p><div data-entry-results></div><button data-entry-retry hidden>{copy.retry}</button></div><p data-load-status role="status"></p></section>
+      <aside id="ve-sidebar" class="ve-sidebar">
+        <section id="ve-outline-panel" data-side-panel="outline"><div class="ve-panel-heading"><h2>{copy.outline}</h2><button data-new-entry hidden={articleMode} title={copy.newEntry}>＋</button></div><p class="ve-document-name">{copy.emptyTitle}</p><nav data-outline aria-label={copy.outline}></nav></section>
+        <section id="ve-files-panel" data-side-panel="files" hidden><div class="ve-panel-heading"><h2>{copy.files}</h2><button data-sidebar-close aria-label={copy.cancel}>×</button></div><div data-existing-picker><label>{copy.findEntry}<input type="search" data-entry-search placeholder={copy.findEntry}/></label><label>{copy.kind}<select data-entry-kind><option value="">{copy.allKinds}</option>{entryTypes.filter(kind=>articleMode?kind==='articles':kind!=='articles').map(kind=><option value={kind}>{copy.kinds[kind as keyof typeof copy.kinds] || kind}</option>)}</select></label><p class="ve-entry-count" data-entry-count role="status"></p><div data-entry-results></div><button data-entry-retry hidden>{copy.retry}</button></div><p data-load-status role="status"></p></section>
         <section id="ve-entry-properties" class="ve-settings" data-side-panel="properties" hidden>
           <div class="ve-panel-heading"><h2>{copy.entryProperties}</h2><button data-sidebar-close aria-label={copy.cancel}>×</button></div>
           <label hidden={articleMode}>{copy.kind}<select data-kind>{entryTypes.filter(kind=>articleMode?kind==='articles':kind!=='articles').map(k => <option value={k}>{copy.kinds[k as keyof typeof copy.kinds] || k}</option>)}</select></label>
@@ -75,7 +79,29 @@ const icons = {
           <button class="ve-toolbar-arrow" data-toolbar-scroll="-1" aria-label={copy.toolbarLeft} title={copy.toolbarLeft}>‹</button><div class="ve-toolbar-scroll"><button data-undo aria-label={copy.undo} title={`${copy.undo} · ⌘ Z`}>↶</button><button data-redo aria-label={copy.redo} title={`${copy.redo} · ⌘ ⇧ Z`}>↷</button><span class="ve-toolbar-separator"></span>
           <button data-format="insertUnorderedList" aria-label={copy.bulletList} title={copy.bulletList}>• ≡</button><button data-format="insertOrderedList" aria-label={copy.numberList} title={copy.numberList}>1. ≡</button><button data-format="outdent" aria-label={copy.outdent} title={copy.outdent}>⇤</button><button data-format="indent" aria-label={copy.indent} title={copy.indent}>⇥</button><span class="ve-toolbar-separator"></span><button data-format="bold" aria-label={copy.bold} title={`${copy.bold} · ⌘ B`}><b>B</b></button><button data-format="italic" aria-label={copy.italic} title={`${copy.italic} · ⌘ I`}><i>I</i></button><button data-format="strikeThrough" aria-label={copy.strike} title={copy.strike}><s>S</s></button><button data-format="link" title={copy.link}>{copy.link}</button><button data-inline-preset="mark" class="ve-highlight-tool" title={copy.inline.mark}>{copy.inline.mark}</button><button data-inline-preset="ruby" title={copy.inline.ruby}><ruby>字<rt>あ</rt></ruby><span>{copy.inline.ruby}</span></button><button data-inline-preset="spoiler" title={copy.inline.spoiler}>{copy.inline.spoiler}</button></div><button class="ve-toolbar-arrow" data-toolbar-scroll="1" aria-label={copy.toolbarRight} title={copy.toolbarRight}>›</button><details class="ve-format-more"><summary title={copy.specialFormat}>···</summary><div>{(['abbr','kbd','time','small','sub','sup','zh-variant'] as const).map(kind=><button data-inline-preset={kind}>{copy.inline[kind]}</button>)}</div></details><button data-insert-open class="ve-insert-button">＋ {copy.insert}</button>
         </div>
-        <div id="ve-canvas" class="ve-canvas" role="tabpanel"><input data-document-title class="ve-title-input" placeholder={copy.emptyTitle} aria-label={copy.emptyTitle}/><button class="ve-document-properties" data-side-button="properties" aria-controls="ve-entry-properties" aria-pressed="false"><span class="ve-document-properties-title">{copy.entryProperties}<span aria-hidden="true"> ↗</span></span></button><div data-blocks class="ve-blocks"></div><button class="ve-add-line" data-insert-open>＋ {copy.insert}<kbd>/</kbd></button></div>
+        <div id="ve-canvas" class="ve-canvas" role="tabpanel"><input data-document-title class="ve-title-input" placeholder={copy.emptyTitle} aria-label={copy.emptyTitle}/>
+          <section class="ve-starter" data-editor-starter hidden aria-label={articleMode?starter.articleTitle:starter.title}>
+            <div class="ve-starter-heading"><span class="ve-starter-mark" aria-hidden="true">✦</span><div><h2>{articleMode?starter.articleTitle:starter.title}</h2><p>{articleMode?starter.articleDescription:starter.description}</p></div></div>
+            {!articleMode&&<div class="ve-starter-entries" aria-label={starter.title}>
+              <button type="button" data-start-entry-kind="songs">{starter.song}<span aria-hidden="true">↗</span></button>
+              <button type="button" data-start-entry-kind="releases">{starter.album}<span aria-hidden="true">↗</span></button>
+              <button type="button" data-start-entry-kind="isotopes">{starter.isotope}<span aria-hidden="true">↗</span></button>
+              <button type="button" data-start-entry-kind="people">{starter.person}<span aria-hidden="true">↗</span></button>
+              <button type="button" class="ve-starter-existing" data-start-existing>{starter.existing}<span aria-hidden="true">→</span></button>
+            </div>}
+            <div class="ve-starter-tools"><strong>{starter.tools}</strong><div>
+              <button type="button" data-start-block="lyrics">{starter.lyrics}</button>
+              <button type="button" data-start-block="media-switcher">{starter.media}</button>
+              <button type="button" data-start-block="ruby">{starter.ruby}</button>
+              <button type="button" data-start-block="details">{starter.details}</button>
+              {articleMode?<button type="button" data-article-image-open>{articleImage.open}</button>:<button type="button" data-start-attachments>{copy.attachments}</button>}
+            </div></div><p class="ve-starter-tip">{starter.tip}</p>
+          </section>
+          <button class="ve-document-properties" data-side-button="properties" aria-controls="ve-entry-properties" aria-pressed="false" aria-expanded="false"><span class="ve-document-properties-title">{copy.entryProperties}<span aria-hidden="true"> ↗</span></span></button>
+          <div class="ve-domain-strip" data-editor-domain-strip hidden role="group" aria-label={starter.tools}><span>{starter.tools}</span><div>
+            <button type="button" data-start-block="lyrics">{starter.lyrics}</button><button type="button" data-start-block="media-switcher">{starter.media}</button><button type="button" data-start-block="ruby">{starter.ruby}</button><button type="button" data-start-block="details">{starter.details}</button>
+            {articleMode?<button type="button" data-article-image-open>{articleImage.open}</button>:<button type="button" data-start-attachments>{copy.attachments}</button>}
+          </div></div><div data-blocks class="ve-blocks"></div><button class="ve-add-line" data-insert-open>＋ {copy.insert}<kbd>/</kbd></button></div>
         <div id="ve-source" class="ve-source-editor" role="tabpanel" hidden><div class="ve-source-lines" data-source-lines aria-hidden="true">1</div><textarea data-source aria-label={copy.codeView} spellcheck="false" wrap="off"></textarea></div>
         <p data-source-error role="alert" class="ve-source-error" hidden></p>
         <div class="ve-add" hidden><select data-block-type aria-label={copy.add}>{blockTypes.map(t => <option value={t}>{copy.blocks[t as keyof typeof copy.blocks]}</option>)}</select><button data-add>＋ {copy.add}</button></div>
@@ -87,14 +113,14 @@ const icons = {
       </aside>
     </div>
     <section class="ve-problems" data-problems hidden><div class="ve-panel-heading"><h2>{copy.review}</h2><button data-problems-close aria-label={copy.cancel}>×</button></div><p>{copy.exportHint}</p><div data-validation role="status"></div><p class="ve-hint">{copy.note}</p></section>
-    <footer class="ve-statusbar"><button data-problems-toggle><span data-problem-count>0</span> · {copy.review}</button><span data-block-count></span><span data-action-status role="status"></span><div class="ve-status-right"><select data-ui-locale aria-label={copy.locale}>{['zh','ja','en'].map(l=><option value={l} selected={l===locale}>{l==='zh'?'中文':locales[l]}</option>)}</select><details class="ve-theme-menu"><summary>{copy.theme}</summary><div><AppearanceControls locale={locale} compact/></div></details><button data-layout="preview" title={copy.previewOnly}>{copy.preview}</button></div></footer>
-    <div class="ve-selection-toolbar" data-selection-toolbar role="toolbar" aria-label={copy.specialFormat} hidden><button data-format="bold" aria-label={copy.bold}><b>B</b></button><button data-format="italic" aria-label={copy.italic}><i>I</i></button><button data-format="link">{copy.link}</button><button data-inline-preset="mark" class="ve-highlight-tool">{copy.inline.mark}</button><button data-inline-preset="ruby">{copy.inline.ruby}</button><button data-inline-preset="spoiler">{copy.inline.spoiler}</button></div>
+    <footer class="ve-statusbar"><button data-problems-toggle><span data-problem-count>0</span> · {copy.review}</button><span data-block-count></span><span data-action-status role="status"></span><div class="ve-status-right"><select data-ui-locale aria-label={copy.locale}>{supportedLocales.map(l=><option value={l} selected={l===locale}>{locales[l]}</option>)}</select><details class="ve-theme-menu"><summary>{copy.theme}</summary><div><AppearanceControls locale={locale} compact/></div></details><button data-layout="preview" title={copy.previewOnly}>{copy.preview}</button></div></footer>
+    <div class="ve-selection-toolbar" data-selection-toolbar role="toolbar" aria-label={copy.specialFormat} hidden><button data-format="bold" aria-label={copy.bold}><b>B</b></button><button data-format="italic" aria-label={copy.italic}><i>I</i></button><button data-format="strikeThrough" aria-label={copy.strike}><s>S</s></button><button data-format="link">{copy.link}</button><button data-inline-preset="mark" class="ve-highlight-tool">{copy.inline.mark}</button><button data-inline-preset="ruby">{copy.inline.ruby}</button><button data-inline-preset="zh-variant">{copy.inline['zh-variant']}</button><button data-inline-preset="spoiler">{copy.inline.spoiler}</button><button data-special>{copy.specialFormat}</button><button data-edit-inline hidden>{copy.editFormatting}</button><button data-clear-format>{copy.clearFormatting}</button></div>
     <dialog class="ve-command-dialog" data-command-dialog aria-label={copy.commands}><div class="ve-command-input"><input data-command-search type="search" placeholder={copy.commands} aria-label={copy.commands} autocomplete="off" role="combobox" aria-controls="ve-command-results" aria-expanded="true"/><kbd>Esc</kbd></div><div id="ve-command-results" data-command-results role="listbox"></div></dialog>
     <div class="ve-insert-popover" data-insert-popover role="dialog" aria-label={copy.insert} hidden><div class="ve-insert-search"><input data-insert-search type="search" placeholder={copy.insert} aria-label={copy.insert} autocomplete="off" role="combobox" aria-controls="ve-insert-results" aria-expanded="true"/><kbd>Esc</kbd></div><div id="ve-insert-results" data-insert-results role="listbox"></div></div>
     <dialog data-find-dialog aria-labelledby="ve-find-title"><form method="dialog"><div class="ve-section-heading"><h2 id="ve-find-title">{copy.searchText}</h2><button>{copy.cancel}</button></div></form><input type="search" data-find-text aria-label={copy.searchText}/><button data-find-next>{copy.nextMatch}</button><p data-find-status role="status"></p></dialog>
-    <dialog data-link-dialog aria-labelledby="ve-link-title"><form method="dialog"><div class="ve-section-heading"><h2 id="ve-link-title">{copy.link}</h2><button>{copy.cancel}</button></div></form><label>{copy.text}<input data-link-text/></label><label>{copy.url}<input data-link-url placeholder="https://"/></label><p data-link-error role="alert"></p><button data-link-apply class="ve-primary">{copy.apply}</button></dialog>
+    <dialog data-link-dialog aria-labelledby="ve-link-title"><form method="dialog"><div class="ve-section-heading"><h2 id="ve-link-title">{copy.link}</h2><button>{copy.cancel}</button></div></form><label>{copy.text}<input data-link-text/></label><label>{copy.url}<input data-link-url placeholder="https://"/></label><p data-link-error role="alert"></p><div class="ve-row-tools"><button data-link-remove hidden>{copy.unlink}</button><button data-link-apply class="ve-primary">{copy.apply}</button></div></dialog>
     <dialog data-import-dialog aria-labelledby="ve-import-title"><form method="dialog"><div class="ve-section-heading"><h2 id="ve-import-title">{copy.import}</h2><button>{copy.cancel}</button></div></form><p>{copy.importHint}</p><input type="file" data-import-file accept=".md,text/markdown,text/plain" aria-label={copy.import}/><textarea data-import-text aria-label={copy.original} rows="12" spellcheck="false"></textarea><p data-import-error role="alert"></p><button data-import-apply class="ve-primary">{copy.applyImport}</button></dialog>
-    <dialog data-inline-dialog aria-labelledby="ve-inline-title"><form method="dialog"><div class="ve-section-heading"><h2 id="ve-inline-title">{copy.specialFormat}</h2><button>{copy.cancel}</button></div></form><label>{copy.specialFormat}<select data-inline-kind>{Object.entries(copy.inline).map(([value,label])=><option value={value}>{label}</option>)}</select></label><div data-inline-args></div><div data-inline-preview class="wiki-reader wiki-prose"></div><p data-inline-error role="alert"></p><button data-inline-apply class="ve-primary">{copy.apply}</button></dialog>
+    <dialog data-inline-dialog aria-labelledby="ve-inline-title"><form method="dialog"><div class="ve-section-heading"><h2 id="ve-inline-title">{copy.specialFormat}</h2><button>{copy.cancel}</button></div></form><label>{copy.specialFormat}<select data-inline-kind>{Object.entries(copy.inline).map(([value,label])=><option value={value}>{label}</option>)}</select></label><div data-inline-args></div><div data-inline-preview class="wiki-reader wiki-prose"></div><p data-inline-error role="alert"></p><div class="ve-row-tools"><button data-inline-remove hidden>{copy.clearFormatting}</button><button data-inline-apply class="ve-primary">{copy.apply}</button></div></dialog>
     <script is:inline type="application/json" data-editor-copy set:html={JSON.stringify(copy).replace(/</g,'\\u003c')}/>
     <EditorPrDemo locale={locale} />
     <noscript>JavaScript is required to use the visual editor.</noscript>
@@ -109,14 +135,48 @@ const icons = {
       </form>
     </dialog>
     <dialog data-attachments-dialog class="ve-entry-dialog">
-      <h2>{copy.attachments}</h2><a class="ve-hint" href={`/${locale}/docs/contribute/entry/`} target="_blank" rel="noopener">{tc('GitHub 原图上传与路径教程 ↗')}</a><p class="ve-hint">{tc('原图不压缩、不缩放、不转格式。站内附件每张最多 750 KB、最多 8 张、合计 4 MB；更大的原图请按教程直接上传 GitHub。')}</p>
+      <h2>{copy.attachments}</h2>
+      <p class="ve-hint">{tc('站内投稿：每张最多 4 MiB、最多 8 张、合计 20 MiB。较大的图片可在本机制作 WebP 投稿副本，原图不会被改动；需要保留原图时走 GitHub 流程。')}</p>
+      <ol class="ve-attachment-steps"><li>{tc('1. 选择图片并检查预览；填写图片说明、来源和使用依据。')}</li><li>{tc('2. 加入本机附件后，插入正文或设为封面。此时尚未上传。')}</li><li>{tc('3. 提交 GitHub PR 后，检查 PR 内同时有正文和图片。合并部署后才会公开。')}</li></ol>
       <label>{tc('选择图片')}<input type="file" data-image-files accept="image/png,image/jpeg,image/webp" multiple/></label>
-      <p data-image-selection></p>
+      <label class="ve-attachment-optimize"><input type="checkbox" data-image-optimize checked/>{tc('超过上限时制作 WebP 投稿副本（保留原图不变）')}</label>
+      <p data-image-selection role="status"></p>
+      <div class="ve-attachment-previews" data-image-previews role="list" aria-label={tc('待加入的图片预览')}></div>
       <label>{tc('图片说明')}<input data-image-alt maxlength="300"/></label>
       <label>{tc('来源或授权说明')}<input data-image-source maxlength="2048" required placeholder={tc('官方页面链接，或原创 / 授权说明')}/></label>
       <button data-image-add>{tc('加入附件')}</button><p data-image-feedback role="status"></p>
-      <div data-image-list></div><button data-dialog-close>{copy.cancel}</button>
+      <div data-image-list></div>
+      <p class="ve-hint">{tc('超过站内限制？通过 GitHub 上传原图，并在同一 PR 中修改正文。')} <a href={`/${locale}/docs/contribute/entry/`} target="_blank" rel="noopener">{tc('GitHub 原图上传与路径教程 ↗')}</a></p>
+      <button data-dialog-close>{copy.cancel}</button>
     </dialog>
+    {articleMode&&<dialog data-article-image-dialog class="ve-entry-dialog ve-article-image-dialog" aria-labelledby="ve-article-image-title">
+      <h2 id="ve-article-image-title">{articleImage.title}</h2>
+      <p class="ve-hint">{articleImage.description}</p>
+      <label>{articleImage.url}<input data-article-image-url type="url" inputmode="url" autocomplete="url" placeholder="https://images.kamitsubaki.wiki/…"/></label>
+      <label>{articleImage.alt}<input data-article-image-alt maxlength="300"/></label>
+      <label>{articleImage.source}<input data-article-image-source maxlength="2048"/></label>
+      <div class="ve-article-image-preview"><img data-article-image-preview alt="" hidden/><p data-article-image-status role="status">{articleImage.invalid}</p></div>
+      <p class="ve-hint"><a href={`/${locale}/gallery/manage/photos/`}>{articleImage.gallery}</a></p>
+      <div class="ve-row-tools"><button type="button" data-article-image-cancel>{articleImage.cancel}</button><button type="button" class="ve-primary" data-article-image-insert disabled>{articleImage.insert}</button></div>
+    </dialog>}
+    <style is:global>
+      .ve-attachment-steps{display:grid;gap:5px;list-style:none;margin:0 0 18px;padding:0;color:rgb(var(--theme-fg-rgb)/.7);font-size:12px;line-height:1.7}
+      .ve-attachment-optimize{display:flex!important;align-items:center;gap:9px;line-height:1.5}
+      .ve-attachment-optimize input{width:16px!important;min-height:16px!important;flex:0 0 16px}
+      .ve-attachment-previews{display:grid;grid-template-columns:repeat(auto-fill,minmax(125px,1fr));gap:10px;margin:0 0 16px}
+      .ve-attachment-previews:empty{display:none}
+      .ve-attachment-preview{min-width:0;padding:8px;border:1px solid var(--ui-line);border-radius:8px;font-size:11px;line-height:1.45}
+      .ve-attachment-preview img{display:block;width:100%;height:100px;object-fit:contain;background:rgb(var(--theme-fg-rgb)/.04);margin-bottom:7px}
+      .ve-attachment-preview strong,.ve-attachment-preview small{display:block;overflow-wrap:anywhere}
+      .ve-attachment-preview small{color:rgb(var(--theme-fg-rgb)/.6)}
+      .ve-attachment-preview[data-error]{border-color:#ba4f4f}
+      .ve-article-image-dialog{max-width:660px}
+      .ve-article-image-preview{display:grid;place-items:center;min-height:130px;margin:12px 0;padding:12px;border:1px solid var(--ui-line);border-radius:8px;background:rgb(var(--theme-fg-rgb)/.025)}
+      .ve-article-image-preview img{display:block;max-width:100%;max-height:260px;object-fit:contain}
+      .ve-article-image-preview img[hidden]{display:none}
+      .ve-article-image-preview p{margin:0;text-align:center;font-size:12px;color:rgb(var(--theme-fg-rgb)/.65)}
+      .ve-article-image-dialog>.ve-row-tools{position:sticky;bottom:-16px;justify-content:flex-end;padding:12px 0;background:var(--theme-bg)}
+    </style>
     {articleMode&&<dialog data-article-dialog class="ve-entry-dialog"><h2>{modeCopy.mine}</h2><div data-article-proposals></div><button data-article-prev>{modeCopy.previous}</button><button data-article-next>{modeCopy.next}</button><button data-dialog-close>{modeCopy.close}</button></dialog>}
   </main>
   <script>import '../../scripts/visualEditor.js';</script>

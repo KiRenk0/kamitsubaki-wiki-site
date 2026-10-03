@@ -21,7 +21,7 @@
 @media(prefers-reduced-motion:reduce){.account-sections a{transition:none}}
 
 /* Personal space: a task-first desk with a separate archive and account rail. */
-html body main.account-shell[data-workspace-page]{--workspace-top:84px;--workspace-gap:24px}
+html body main.account-shell[data-workspace-page]{--workspace-gap:28px}
 .account-sections{gap:24px}
 .account-sections-group{display:grid;gap:3px;padding:0 0 20px;border-bottom:1px solid var(--workspace-line)}
 .account-sections-group:last-child{border-bottom:0}
@@ -61,7 +61,6 @@ html body main.account-shell[data-workspace-page]{--workspace-top:84px;--workspa
 .account-shell .workspace-header-status p:not(:empty){display:inline-block;padding:8px 11px;border-left:2px solid var(--theme-accent-color);background:var(--workspace-surface)}
 @media(max-width:1050px){.account-home-settings{grid-template-columns:repeat(3,1fr)}.account-home-settings .account-kicker,.account-home-settings p{grid-column:1/-1}}
 @media(max-width:760px){
- html body main.account-shell[data-workspace-page]{--workspace-top:84px}
  .account-sections{display:flex;gap:0;overflow-x:auto;padding:0 0 12px;scrollbar-width:thin}
  .account-sections-group{display:flex;flex:none;gap:3px;padding:0 12px 0 0;margin-right:12px;border:0;border-right:1px solid var(--workspace-line)}
  .account-sections-group:last-child{border:0}

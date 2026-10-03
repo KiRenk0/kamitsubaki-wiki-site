@@ -5,7 +5,7 @@ locale: "zh-tw"
 order: 2
 title: "編輯與新建百科詞條"
 summary: "從閱讀器進入編輯器，補全屬性與來源，核對差異後提交 GitHub PR。"
-generatedFromHash: "d6facaddf800fd627051"
+generatedFromHash: "c1c0bed6be76a9d86ef2"
 generated: true
 generatedFrom: "zh"
 ---
@@ -28,7 +28,7 @@ generatedFrom: "zh"
 
 ## 圖片與附件
 
-詞條附件屬於 **GitHub PR 鏈路**，不是設定相簿。編輯器可選取、拖入或貼上 PNG/JPEG/WebP 原圖，並要求填寫來源；附件先儲存在當前瀏覽器，提交時與正文進入同一個 PR。當前站內限制為**單張 750 KB、最多 8 張、合計 4 MB**，不會自動壓縮。超過限制的原圖須按 GitHub 倉庫投稿流程上傳，並在同一 PR 中引用；填寫圖片網址不會自動上傳檔案。倉庫 `public/images/...` 對應網頁地址 `/images/...`，不能填本機路徑或 `/public/images/...`。
+詞條附件屬於 **GitHub PR 鏈路**，不是設定相簿。編輯器可選取、拖入或貼上 PNG/JPEG/WebP 圖片，並要求填寫來源或授權說明；附件先儲存在當前瀏覽器，提交時與正文進入同一個 PR。站內限制為**單張 4 MiB、最多 8 張、合計 20 MiB**。超過單張限制時，可在本機制作並預覽 WebP 投稿副本，原圖保持不變；也可按下文 GitHub 流程上傳原圖。把圖片加入本機附件後，還要插入正文或設為封面，並點選“提交 GitHub PR”；在 PR 中核對圖片與正文都已進入同一分支。填寫圖片網址不會自動上傳檔案。倉庫 `public/images/...` 對應網頁地址 `/images/...`，不能填本機路徑或 `/public/images/...`。
 
 ## 檢查、提交與繼續
 

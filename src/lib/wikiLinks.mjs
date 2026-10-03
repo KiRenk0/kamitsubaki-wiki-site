@@ -1,4 +1,5 @@
 const escape=s=>String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const decodeText=s=>String(s||'').replace(/&(?:amp|lt|gt|quot|apos|#39|#x[0-9a-f]+|#\d+);/gi,entity=>{const named={'&amp;':'&','&lt;':'<','&gt;':'>','&quot;':'"','&apos;':"'",'&#39;':"'"};const key=entity.toLowerCase();if(key in named)return named[key];const value=key.startsWith('&#x')?parseInt(key.slice(3,-1),16):parseInt(key.slice(2,-1),10);return Number.isInteger(value)&&value>=0&&value<=0x10ffff?String.fromCodePoint(value):entity;});
 const referenceIndexes=new WeakMap();
 function referenceIndex(registry,locale){
  let locales=referenceIndexes.get(registry);if(!locales){locales=new Map();referenceIndexes.set(registry,locales);}if(locales.has(locale))return locales.get(locale);
@@ -14,8 +15,18 @@ function referenceIndex(registry,locale){
 /** Render canonical references and WikiLinks while preserving authored text. */
 export function renderWikiLinks(html,registry,locale){const previews={},missing=[];let blocked=0;
  // Normalize authored references at render time; no public legacy URL routes exist.
- html=html.replace(/<a\b([^>]*?)href="([^"<>]+)"([^>]*)>([\s\S]*?)<\/a>/g,(tag,before,href,after,label)=>{
+ html=html.replace(/<a\b([^>]*?)href="([^"<>]+)"([^>]*)>([\s\S]*?)<\/a>/g,(tag,before,href,after,label,offset,source)=>{
   const localHref=href.replace(/^https?:\/\/kamitsubaki\.wiki(?=\/)/,'');
+  // The preserved Kaf biography uses a retired song URL while describing the live event.
+  // Resolve only the live-show wording; the same title can name an actual song elsewhere.
+  if(/^\/(?:zh|zh-tw|zh-hk|ja)\/songs\/kaf\/originals\/不可解-inexplicable\/?$/.test(localHref)&&decodeText(label.replace(/<[^>]*>/g,'')).trim()==='不可解'){
+   const beforeText=source.slice(Math.max(0,offset-40),offset).replace(/<[^>]*>/g,'');
+   const afterText=source.slice(offset+tag.length,offset+tag.length+30).replace(/<[^>]*>/g,'');
+   if(/(?:ワンマンライブ|ライブ)『$/.test(beforeText)||/^」大巡演/.test(afterText)){
+    const live=registry.resolveEntity('fukakai',locale);
+    if(live)return `<a${before}href="${escape(live.url)}"${after} data-wiki-id="fukakai">${label}</a>`;
+   }
+  }
   const match=localHref.match(/^\/(zh|zh-tw|zh-hk|ja|en)(\/(?:artists|projects|songs|albums|organizations|lives)(?:\/[^?#]*)?)([?#].*)?$/);if(!match)return tag;
   let path;try{path=decodeURI(match[2]).replace(/\/?$/,'/');}catch{return tag;}
   const parts=path.split('/').filter(Boolean),kind=parts[0];
@@ -31,7 +42,7 @@ export function renderWikiLinks(html,registry,locale){const previews={},missing=
    if(candidate&&types.includes(candidate.data.entityType))e=candidate;
   }
   if(!e){
-   const title=label.replace(/<rt\b[^>]*>[\s\S]*?<\/rt>/g,'').replace(/<[^>]*>/g,'').trim();
+   const title=decodeText(label.replace(/<rt\b[^>]*>[\s\S]*?<\/rt>/g,'').replace(/<[^>]*>/g,'')).trim();
    const candidates=referenceIndex(registry,match[1]).get(JSON.stringify([kind,['songs','albums'].includes(kind)?parts[1]:'',title.normalize('NFKC')]));
    if(candidates?.size===1)e=candidates.values().next().value;
   }

@@ -1,4 +1,6 @@
 /* The three launchers share a baseline, spacing, and motion rhythm. */
+:root { --floating-action-size:48px; }
+@media(max-width:540px){:root{--floating-action-size:44px;--floating-action-edge:max(12px,env(safe-area-inset-right))}}
 html body :is(.tools-dock, .ai-chat__launcher) {
   bottom: max(var(--floating-action-edge), env(safe-area-inset-bottom));
 }

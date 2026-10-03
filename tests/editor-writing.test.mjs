@@ -26,6 +26,12 @@ test('all five guide locales provide both complete contribution workflows',()=>{
  }
 });
 
+test('visual spoiler tokens expose a toggle state without changing other inline tokens',async()=>{
+ const {shortcodeChip,inlineSource}=await import('../src/lib/editorRichText.mjs');
+ assert.match(shortcodeChip(inlineSource('spoiler',['Hidden detail'])),/role="button" aria-pressed="false"/);
+ assert.doesNotMatch(shortcodeChip(inlineSource('ruby',['花譜','かふ'])),/aria-pressed/);
+});
+
 test('Chrome list indentation exports one nested item without a phantom bullet',async()=>{
  const {richMarkdown}=await import('../src/lib/editorRichText.mjs');
  const previousElement=globalThis.Element,previousNode=globalThis.Node;

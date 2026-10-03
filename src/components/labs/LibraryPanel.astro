@@ -1,4 +1,5 @@
 ---
+import WorkspaceToolbar from '../WorkspaceToolbar.astro';
 import '../../styles/personalTools.css';
 import AccountSync from '../AccountSync.astro';
 const { copy: c, locale } = Astro.props;
@@ -13,7 +14,7 @@ const kindGroups=Object.entries(c.entryKinds as Record<string,string>).reduce((g
   </aside>
   <div class="library-content">
     <header class="personal-heading library-heading"><div><span class="personal-eyebrow">{c.collections}</span><h2 data-library-title>{c.allSaved}</h2></div><div class="labs-actions"><button data-rename hidden>{c.rename}</button><button data-delete-list hidden>{c.deleteCollection}</button></div></header>
-    <div class="library-filters"><label><span>{c.searchSaved}</span><input type="search" data-library-search placeholder={c.searchSaved} /></label><label><span>{c.kind}</span><select data-library-kind><option value="">{c.all}</option>{kindGroups.map(group=><option value={group.keys.join('|')}>{group.label}</option>)}</select></label><label><span>{c.order}</span><select data-library-order><option value="recent">{c.recent}</option><option value="title">{c.titleOrder}</option><option value="manual" hidden>{c.manualOrder}</option></select></label></div>
+    <WorkspaceToolbar class="library-filters"><label><span>{c.searchSaved}</span><input type="search" data-library-search placeholder={c.searchSaved} /></label><label><span>{c.kind}</span><select data-library-kind><option value="">{c.all}</option>{kindGroups.map(group=><option value={group.keys.join('|')}>{group.label}</option>)}</select></label><label><span>{c.order}</span><select data-library-order><option value="recent">{c.recent}</option><option value="title">{c.titleOrder}</option><option value="manual" hidden>{c.manualOrder}</option></select></label></WorkspaceToolbar>
     <div class="personal-feedback" role="status" aria-live="polite"><span data-library-feedback></span><button data-library-undo hidden>{c.undo}</button></div>
     <div class="library-result-heading"><span data-status></span><button data-library-clear hidden>{c.reset}</button></div>
     <div class="labs-results" data-results></div><button data-library-more hidden>{c.more}</button>

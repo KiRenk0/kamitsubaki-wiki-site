@@ -18,7 +18,7 @@ html[data-theme='light'] body.wiki-reading-page {
 .wiki-reading-page :is(input, textarea, [contenteditable='true']) { cursor: text; }
 
 html body .reader-frame { max-width: 82rem; }
-html body .reader-heading-frame { padding-top: var(--reader-sticky-top, 6rem); }
+html body .reader-heading-frame { padding-top: var(--reader-sticky-top, 7.5rem); }
 html body .reader-layout {
   grid-template-columns: minmax(0, 1fr);
   column-gap: 2.75rem;
@@ -72,7 +72,7 @@ html body .wiki-article-heading .wiki-page-title { margin: 0; font: 500 clamp(1.
 html body .wiki-article-description { max-width: 48rem; margin: .5rem 0 0; color: var(--reader-text); font-size: .875rem; line-height: 1.75; }
 .wiki-article-actions { display: flex; flex-wrap: wrap; align-items: center; flex: 0 0 auto; max-width: 100%; border: 1px solid var(--reader-line); border-radius: var(--ui-radius-control); }
 html body .wiki-article-actions .labs-bookmark { display: contents; }
-html body .wiki-article-actions :is(button, a) { display: inline-flex; align-items: center; justify-content: center; min-height: 32px; margin: 0; padding: .25rem .65rem; border: 0; border-radius: 0; background: transparent; color: var(--reader-muted); font: 400 .75rem/1 var(--font-sans); letter-spacing: 0; text-decoration: none; white-space: nowrap; }
+html body .wiki-article-actions :is(button, a) { display: inline-flex; align-items: center; justify-content: center; min-height: 40px; margin: 0; padding: .4rem .75rem; border: 0; border-radius: 0; background: transparent; color: var(--reader-muted); font: 400 .75rem/1 var(--font-sans); letter-spacing: 0; text-decoration: none; white-space: nowrap; }
 html body .wiki-article-actions .labs-bookmark :is(button, a) { border-right: 1px solid var(--reader-line); }
 html body .wiki-article-actions .share-popover__trigger { gap: .35rem; border-right: 1px solid var(--reader-line); border-radius: 0; }
 html body .wiki-article-actions button { border-radius: var(--ui-radius-control) 0 0 var(--ui-radius-control); }
@@ -220,3 +220,8 @@ html[data-theme='light'] body:has(.reader-artwork){--reader-art-paper:252 251 24
 .reader-artwork::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgb(var(--reader-art-paper)/.6),rgb(var(--reader-art-paper)/.9) 28%,rgb(var(--reader-art-paper)/.9) 70%,rgb(var(--reader-art-paper)/.6)),linear-gradient(180deg,transparent,rgb(var(--reader-art-paper)/.35))}
 @media(max-width:760px){.reader-artwork::after{background:rgb(var(--reader-art-paper)/.85)}}
 @media(prefers-reduced-transparency:reduce),(forced-colors:active){.reader-artwork{display:none}}
+
+@media(max-width:760px){
+ html body .wiki-article-actions :is(a,button),html body .wiki-article-language-menu>summary{min-height:44px}
+ html body .reader-heading-frame{padding-top:96px}
+}

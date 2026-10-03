@@ -1,6 +1,7 @@
+import {openEditorPopover,confirmEditorPopover} from '../lib/editorPopover.mjs';
 import { editorApiBase, localEditor } from "../lib/editorConfig.mjs";
 import { sourceRequest } from "../lib/editorSource.mjs";
-import { diffLines, submissionLabels, isOpen } from "../lib/editorPrDemo.mjs";
+import { diffLines, submissionLabels, isOpen, resolutionAssetIds } from "../lib/editorPrDemo.mjs";
 import {showContributionReceipt} from '../lib/submissionReceipt.mjs';
 // Explicit development mode. Production builds cannot activate the local service.
 const apiBase = editorApiBase;
@@ -40,7 +41,7 @@ export function initializeEditorPrDemo(root, editor) {
       response = await fetch(apiBase + path, {
         method,
         credentials: "include",
-        signal: AbortSignal.timeout(15000),
+        signal: AbortSignal.timeout(path==='/api/editor/assets'?45000:15000),
         headers: body ? { "Content-Type": "application/json" } : {},
         body: body
           ? JSON.stringify(
@@ -116,6 +117,7 @@ export function initializeEditorPrDemo(root, editor) {
       message(t("登录账号已变化，请关闭面板后重新核对内容。"));
     }
     account = session.account;
+    root.dispatchEvent(new CustomEvent('kamitsubaki-editor-account-state', { detail: { accountId: account.id } }));
     $("[data-pr-account-name]").textContent = account.name;
     entries = [
       ...data.submissions,
@@ -246,7 +248,7 @@ export function initializeEditorPrDemo(root, editor) {
       edit.onclick = () =>
         action(async () => {
           const full = await api("/api/editor/submissions/" + item.id);
-          if (editor.restore(full)) dialog.close();
+          if (await editor.restore(full)) dialog.close();
         });
       card.append(view, edit);
       list.append(card);
@@ -270,7 +272,7 @@ export function initializeEditorPrDemo(root, editor) {
     conflict = null;
     olderEntries = [];
     message(t("正在连接投稿服务…"));
-    dialog.showModal();
+    openEditorPopover(root,dialog);
     tab(name);
     try {
       await refresh();
@@ -401,9 +403,7 @@ export function initializeEditorPrDemo(root, editor) {
   $("[data-pr-withdraw]").onclick = () =>
     action(async () => {
       if (
-        !window.confirm(
-          t("撤回这份投稿并关闭对应 PR？正文会保留在投稿记录中。"),
-        )
+        !await confirmEditorPopover(root,t("撤回这份投稿并关闭对应 PR？正文会保留在投稿记录中。"),{accept:t("撤回投稿"),cancel:t("取消")})
       )
         return;
       selected = await api(
@@ -465,7 +465,7 @@ export function initializeEditorPrDemo(root, editor) {
         "/api/editor/draft?path=" + encodeURIComponent(snapshot.path),
       );
       if (!draft) throw Error(t("没有服务端草稿"));
-      if (editor.restore({ ...snapshot, ...draft })) {
+      if (await editor.restore({ ...snapshot, ...draft })) {
         draftVersion = draft.version;
         dialog.close();
       }
@@ -537,9 +537,12 @@ export function initializeEditorPrDemo(root, editor) {
     action(async () => {
       if (!conflict || !$("[data-pr-resolution-confirm]").checked)
         throw Error(t("请先核对最新原文和分支内容并勾选确认。"));
+      const assetIds = await resolutionAssetIds(snapshot, selected, (fresh) =>
+        editor.uploadAttachments(api, account.id, fresh),
+      );
       const result = await api("/api/editor/submissions", "POST", {
         create: selected?.create || snapshot?.create || false,
-        assetIds: (selected?.assets || snapshot?.assets || []).map(a=>a.id),
+        assetIds,
         id: conflict.id,
         version: conflict.version,
         path: conflict.path,
@@ -606,7 +609,7 @@ export function initializeEditorPrDemo(root, editor) {
       const changes = diffLines(current.content, saved.content);
       $("[data-pr-recovery-diff]").textContent =
         `+${changes.filter((l) => l.type === "added").length} / −${changes.filter((l) => l.type === "removed").length}`;
-      if (!dialog.open) dialog.showModal();
+      if (!dialog.open) openEditorPopover(root,dialog);
       tab("recover");
     } catch (error) {
       await open("history");
@@ -618,7 +621,7 @@ export function initializeEditorPrDemo(root, editor) {
       const session = await api("/api/editor/session");
       if (session.account.id !== recovery?.accountId)
         throw Error(t("账号已变化，请重新加载草稿。"));
-      if (editor.restore(recovery)) {
+      if (await editor.restore(recovery)) {
         $("[data-pr-draft-notice]").hidden = true;
         dialog.close();
       }

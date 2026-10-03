@@ -10,14 +10,16 @@
   pointer-events: none;
   color: var(--theme-fg);
 }
-.home-chrome__brand { pointer-events: auto; }
+.home-chrome__brand { display:block;max-width:min(38vw,270px);padding:8px 11px;border:1px solid rgb(var(--theme-fg-rgb) / .14);border-radius:var(--ui-radius-control);background:var(--theme-panel-solid);box-shadow:0 4px 20px rgb(0 0 0 / .06);pointer-events:auto;}
 .home-chrome__brand p {
+  margin:0;
   font-size: 10px;
   line-height: 1.7;
   letter-spacing: .25em;
   text-transform: uppercase;
   opacity: .74;
 }
+@media(max-width:700px){.home-chrome__brand{max-width:calc(100vw - 205px);padding:6px 8px}.home-chrome__brand p{overflow-wrap:anywhere}}
 .home-chrome__actions {
   display: flex;
   align-items: center;
@@ -29,6 +31,7 @@
   pointer-events: auto;
   box-shadow: 0 4px 20px rgb(0 0 0 / .06);
 }
+.home-chrome .site-nav__home-cluster { min-width:0; }
 .home-chrome__actions > .account-nav, .home-chrome__labs, .home-chrome__search, .home-chrome__menu > summary {
   display: flex;
   min-height: 44px;
@@ -42,6 +45,10 @@
   letter-spacing: .12em;
   color: rgb(var(--theme-fg-rgb) / .76);
   cursor: pointer;
+}
+.home-chrome__actions > .account-nav {
+  display:block;min-width:0;max-width:128px;line-height:44px;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
 }
 .home-chrome__labs span { color: var(--theme-accent-color); }
 .home-chrome__search { width: 44px; padding: 0; }
@@ -60,6 +67,7 @@
   width: min(336px, calc(100vw - 32px));
   max-height: calc(100dvh - 112px);
   overflow-y: auto;
+  overscroll-behavior: contain;
   padding: 20px;
   border: 1px solid rgb(var(--theme-fg-rgb) / .14);
   border-radius: var(--ui-radius-panel);
@@ -233,6 +241,23 @@ body:has(.tools-dock[open]) .ai-chat__bubble { display: none; }
 @media (max-width: 360px) {
   .home-chrome__brand p { letter-spacing: .08em; }
   .home-chrome__labs span { display: none; }
+}
+
+/* Keep the brand readable and reserve stable targets for search and menu. */
+@media (max-width:540px) {
+  .home-chrome { gap:12px;padding:12px;align-items:center; }
+  .home-chrome__brand { max-width:112px;padding:6px 8px;box-shadow:none; }
+  .home-chrome__brand p { font-size:8px;letter-spacing:.1em;overflow-wrap:normal; }
+  .home-chrome__actions { flex:none;max-width:calc(100% - 112px);padding:2px; }
+  .home-chrome__actions > .account-nav { max-width:76px;padding-inline:8px;font-size:11px;letter-spacing:0; }
+  .home-chrome__labs { display:none; }
+  .home-chrome__search { width:44px; }
+  .home-chrome__menu > summary { width:44px;padding:0; }
+  .home-chrome__menu > summary > span { display:none; }
+  .home-chrome__menu svg { width:18px; }
+  .home-chrome__panel { top:76px;right:12px;width:calc(100vw - 24px);max-height:calc(100dvh - 92px);padding:16px; }
+  .home-chrome__links a { overflow-wrap:anywhere; }
+  .home-chrome__preference-row,.home-chrome__preferences .appearance-row { grid-template-columns:minmax(0,1fr) 188px;gap:8px; }
 }
 
 .home-chrome__eyebrow { display: flex; justify-content: space-between; gap: 8px; }

@@ -38,7 +38,7 @@ export const localeProfiles = Object.freeze({
     code: 'ja',
     languageTag: 'ja-JP',
     label: '日本語',
-    shortLabel: '日语',
+    shortLabel: '日本語',
     navShortLabel: '日',
     sourceLocale: null,
   }),

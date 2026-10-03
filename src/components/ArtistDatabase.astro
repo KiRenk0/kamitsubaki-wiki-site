@@ -1,6 +1,7 @@
 ---
 import { thumbnailUrl } from '../lib/imageAssets.mjs';
 import { resolveLocaleCopy } from '../lib/i18n.mjs';
+import ExpandControl from './ExpandControl.astro';
 
 type DatabaseJumpLink = {
   label: string;
@@ -156,32 +157,7 @@ const ITEMS_PER_CATEGORY = 6;
                   </div>
                 </div>
 
-                <button
-                  type="button"
-                  class="artist-expand-btn group"
-                  aria-label={`${section.expandLabel ?? 'Expand'} · ${category.items.length - ITEMS_PER_CATEGORY}`}
-                  aria-expanded="false"
-                  aria-controls={collapsedId}
-                  data-category-id={category.id}
-                  data-expand-label={section.expandLabel ?? 'Expand'}
-                  data-collapse-label={collapseLabel}
-                >
-                  <div class="artist-expand-divider">
-                    <div class="artist-expand-line artist-expand-line--left"></div>
-                    <span class="artist-expand-copy">
-                      <span data-artist-expand-copy>{section.expandLabel ?? 'Expand'}</span>
-                      <span aria-hidden="true">＋{category.items.length - ITEMS_PER_CATEGORY}</span>
-                    </span>
-                    <svg
-                      class="artist-expand-chevron w-3 h-3"
-                      viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                      aria-hidden="true"
-                    >
-                      <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                    <div class="artist-expand-line artist-expand-line--right"></div>
-                  </div>
-                </button>
+                <ExpandControl controls={collapsedId} expandLabel={section.expandLabel ?? 'Expand'} collapseLabel={collapseLabel} count={category.items.length - ITEMS_PER_CATEGORY} className="group" />
               </>
             )}
           </div>

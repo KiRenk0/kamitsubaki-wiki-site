@@ -697,11 +697,45 @@ html.has-js .reveal-up.active {
   transform: scale(1);
 }
 
+.artist-expand-actions {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.artist-expand-actions .artist-expand-btn {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.artist-expand-actions:has(.artist-expand-btn[hidden])::before {
+  content: '';
+  flex: 1 1 auto;
+  height: 1px;
+  background: rgb(var(--theme-fg-rgb) / 0.18);
+}
+
+.artist-collapse-btn {
+  flex: none;
+  min-height: 48px;
+  padding: 8px 12px;
+  border: 0;
+  background: transparent;
+  color: rgb(var(--theme-fg-rgb) / 0.62);
+  font: 10.5px var(--font-mono);
+  letter-spacing: 0.08em;
+  cursor: pointer;
+}
+
+.artist-collapse-btn[hidden] { display: none !important; }
+.artist-collapse-btn:hover,.artist-collapse-btn:focus-visible { color: var(--theme-accent-color); }
+.artist-collapse-btn:focus-visible { outline: 1px solid var(--theme-accent-color); outline-offset: -2px; }
+
 .artist-expand-btn {
   width: 100%;
   background: transparent;
   border: none;
-  color: rgb(var(--theme-fg-rgb) / 0.38);
+  color: rgb(var(--theme-fg-rgb) / 0.62);
   cursor: pointer;
 }
 
@@ -723,13 +757,7 @@ html.has-js .reveal-up.active {
   height: 1px;
   flex: 1 1 0;
   min-width: 2rem;
-  background: linear-gradient(
-    to right,
-    rgb(var(--theme-fg-rgb) / 0.04),
-    rgb(var(--theme-fg-rgb) / 0.12) 48%,
-    rgb(var(--theme-fg-rgb) / 0.12) 52%,
-    rgb(var(--theme-fg-rgb) / 0.04)
-  );
+  background: rgb(var(--theme-fg-rgb) / 0.18);
   transition: background 0.5s ease;
 }
 
@@ -747,7 +775,7 @@ html.has-js .reveal-up.active {
   gap: 0.55rem;
   align-items: center;
   font-family: var(--font-mono);
-  font-size: 0.54rem;
+  font-size: 0.65rem;
   letter-spacing: 0.13em;
   text-transform: uppercase;
   transition: color 260ms ease;
@@ -764,13 +792,7 @@ html.has-js .reveal-up.active {
 }
 
 .artist-expand-btn:hover .artist-expand-line {
-  background: linear-gradient(
-    to right,
-    rgb(var(--theme-fg-rgb) / 0.1),
-    rgb(var(--theme-fg-rgb) / 0.36) 48%,
-    rgb(var(--theme-fg-rgb) / 0.36) 52%,
-    rgb(var(--theme-fg-rgb) / 0.1)
-  );
+  background: rgb(var(--theme-fg-rgb) / 0.38);
 }
 
 .artist-expand-chevron {
@@ -1456,6 +1478,18 @@ html.site-search-open body {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
 }
+
+.site-search__more {
+  display: block;
+  width: 100%;
+  border-top: 1px solid rgb(var(--theme-fg-rgb) / 0.1);
+  padding: 0.85rem 1.4rem;
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--theme-accent-color);
+}
+.site-search__more[hidden] { display: none; }
+.site-search__more:hover,.site-search__more:focus-visible { background: rgb(var(--theme-accent-rgb) / 0.075); }
 
 .site-search__article-link {
   display: block;

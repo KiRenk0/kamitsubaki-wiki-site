@@ -5,15 +5,15 @@ import { labsSections } from '../src/lib/labsCopy.mjs';
 
 const options = { origin: 'https://example.com', locale: 'zh', sections: labsSections };
 
-test('in-place navigation only handles known LABs sections in the current locale and origin', () => {
+test('in-place navigation only handles known Explore sections in the current locale and origin', () => {
   for (const section of labsSections) {
-    assert.equal(labsSectionFromURL(`/zh/labs/${section}/?q=花谱#details`, options), section);
-    assert.equal(labsSectionFromURL(`/zh/labs/${section}`, options), section);
+    assert.equal(labsSectionFromURL(`/zh/explore/${section}/?q=花谱#details`, options), section);
+    assert.equal(labsSectionFromURL(`/zh/explore/${section}`, options), section);
   }
   for (const path of [
-    'https://external.example/zh/labs/explore/',
-    '/en/labs/explore/', '/zh/beta/explore/', '/zh/labs/',
-    '/zh/labs/unknown/', '/zh/labs/timeline/entry/', '/zh/songs/',
+    'https://external.example/zh/explore/explore/',
+    '/en/explore/explore/', '/zh/beta/explore/', '/zh/labs/',
+    '/zh/explore/unknown/', '/zh/explore/timeline/entry/', '/zh/songs/',
   ]) assert.equal(labsSectionFromURL(path, options), null);
 });
 
@@ -54,4 +54,19 @@ test('network, response and schema failures can be retried without caching a fai
   assert.equal(await load(), good);
   assert.equal(await load(), good);
   assert.equal(calls, 4);
+});
+
+test('a stalled catalog request times out and a later visit can retry', async () => {
+  let calls = 0;
+  const good = { version: 2, nodes: [], edges: [] };
+  const load = createLabsCatalogLoader('zh', async (_path, { signal }) => {
+    calls++;
+    if (calls > 1) return { ok: true, json: async () => good };
+    return new Promise((_resolve, reject) => {
+      signal.addEventListener('abort', () => reject(signal.reason), { once: true });
+    });
+  }, 10);
+  await assert.rejects(load(), { name: 'TimeoutError' });
+  assert.equal(await load(), good);
+  assert.equal(calls, 2);
 });

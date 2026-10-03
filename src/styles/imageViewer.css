@@ -26,3 +26,15 @@
 @media(max-width:700px){.image-viewer[open]{grid-template-columns:1fr;grid-template-rows:auto minmax(0,1fr) minmax(150px,30dvh) auto}.image-viewer__info{padding:14px 16px}.image-viewer__actions{grid-template-columns:repeat(2,minmax(0,1fr))}.image-viewer__actions .image-viewer__action{min-width:0}}
 @media(max-width:420px){.image-viewer__actions{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.image-viewer__actions .image-viewer__action{transition:none}}
+.image-viewer__sheet-handle,.image-viewer__mobile-counter,.image-viewer__mobile-download{display:none!important}
+@media(max-width:700px){
+ .image-viewer[open],.image-viewer--photo-first[open]:not(.image-viewer--info-open){grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(0,1fr) auto}
+ .image-viewer__info{position:absolute;z-index:4;left:0;right:0;bottom:60px;max-height:min(72dvh,calc(100dvh - 110px));border:1px solid rgb(var(--theme-fg-rgb)/.18);border-radius:14px 14px 0 0;overflow:auto;background:var(--theme-bg);box-shadow:0 -12px 36px rgb(0 0 0/.22);transform:translateY(calc(100% + 70px));visibility:hidden;pointer-events:none;transition:transform 220ms ease,visibility 220ms}
+ .image-viewer--info-open .image-viewer__info{transform:translateY(var(--sheet-drag,0px));visibility:visible;pointer-events:auto}
+ .image-viewer__sheet-handle{display:block!important;width:100%;height:30px;min-height:30px!important;margin:-8px 0 6px;border:0!important;touch-action:none}
+ .image-viewer__sheet-handle::before{content:'';display:block;width:42px;height:4px;margin:auto;border-radius:99px;background:rgb(var(--theme-fg-rgb)/.35)}
+ .image-viewer footer{grid-row:3;gap:8px;min-height:60px;padding:6px 10px}
+ .image-viewer footer>:nth-child(2),.image-viewer footer>:nth-child(3),.image-viewer footer>:nth-child(4),.image-viewer footer>:nth-child(5),.image-viewer footer>:nth-child(6){display:none!important}
+ .image-viewer footer>:first-child{order:1}.image-viewer__mobile-counter{display:block!important;order:2;flex:1}.image-viewer footer>:nth-child(7){order:3}.image-viewer__mobile-download{display:grid!important;place-items:center;order:4;min-height:44px;padding:8px 10px;border:1px solid rgb(var(--theme-fg-rgb)/.2);border-radius:4px;color:var(--theme-fg);font:12px var(--font-sans);text-decoration:none}
+}
+@media(prefers-reduced-motion:reduce){.image-viewer__info{transition:none}}

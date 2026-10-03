@@ -9,7 +9,7 @@ export function initArticleBrowser(root:HTMLElement){
  const text=(tag:string,value:string)=>{const node=document.createElement(tag);node.textContent=value;return node;};
  const safeLinks=(container:Element)=>container.querySelectorAll<HTMLAnchorElement>('a[href]').forEach(a=>{if(a.origin!==location.origin){a.rel='noopener noreferrer';a.target='_blank';}});
  if(root.dataset.articlePage==='read'){
-  const id=new URL(location.href).searchParams.get('id');
+  const id=root.dataset.articleId||new URL(location.href).searchParams.get('id');
   if(!id){status.textContent=copy.missing;return;}
   call('/items/'+encodeURIComponent(id)+'?locale='+contentLocale).then(async({article,fallback,permissions})=>{
    const displayTitle=await localizeArticleText(article.title,locale);root.querySelector('[data-article-title]')!.textContent=displayTitle;document.title=displayTitle+' · Kamitsubaki Wiki';
@@ -20,7 +20,7 @@ export function initArticleBrowser(root:HTMLElement){
    root.querySelector<HTMLElement>('[data-article-toc-panel]')!.hidden=!toc.children.length;
    const edit=root.querySelector<HTMLAnchorElement>('[data-article-edit]')!;edit.href=`/${locale}/articles/submit/?id=${encodeURIComponent(id)}`;if(article.locale!==contentLocale)edit.href=`/${article.locale}/articles/submit/?id=${encodeURIComponent(id)}`;edit.hidden=!permissions?.canEdit;
    root.querySelector<HTMLElement>('[data-article-contribute]')!.hidden=Boolean(permissions?.canEdit);
-   const share=root.querySelector<HTMLElement>('[data-share-popover]')!;share.dataset.sharePath=`/${locale}/articles/read/?id=${encodeURIComponent(id)}`;share.hidden=false;
+   const share=root.querySelector<HTMLElement>('[data-share-popover]')!;share.dataset.sharePath=`/${locale}/articles/read/${encodeURIComponent(id)}/`;share.hidden=false;
    const relatedPanel=root.querySelector<HTMLElement>('[data-article-related-panel]')!;const links=root.querySelector('[data-article-related]')!;if(article.relatedEntities?.length)articleEntities(locale).then((entities:any[])=>{for(const id of article.relatedEntities){const entity=entities.find((e:{id:string})=>e.id===id);if(!entity)continue;const a=text('a',entity.name||entity.title||id) as HTMLAnchorElement;a.href=entity.path;links.append(a);}relatedPanel.hidden=!links.children.length;}).catch(()=>{relatedPanel.hidden=false;links.append(text('p',copy.relatedError));});
    status.textContent=linksFailed?copy.relatedError:'';
   }).catch(e=>{status.textContent=e.message;});return;
@@ -41,7 +41,7 @@ export function initArticleBrowser(root:HTMLElement){
    const page=await call('?'+q,current.signal);const localized=await Promise.all(page.items.map(async(article:any)=>({...article,title:await localizeArticleText(article.title,locale),summary:await localizeArticleText(article.summary,locale)})));if(current.signal.aborted)return;
    form.hidden=!localized.length&&!related&&!['q','category','origin'].some(name=>Boolean(q.get(name)));
    grid.replaceChildren();const address=new URL(location.href);for(const name of ['q','category','origin','sort','offset']){const value=q.get(name);if(value&&value!=='0'&&!(name==='sort'&&value==='newest'))address.searchParams.set(name,value);else address.searchParams.delete(name);}history.replaceState(null,'',address);
-   for(const article of localized){const card=document.createElement('a');card.className='article-list-card';card.href=`/${locale}/articles/read/?id=${encodeURIComponent(article.id)}`;card.append(text('small',`${copy.origins[article.origin as keyof typeof copy.origins]} · ${article.updatedAt} · ${copy.categories[article.category as keyof typeof copy.categories]||article.category} · ${article.author}`),text('h2',article.title),text('p',article.summary),text('span',copy.read));grid.append(card);}
+   for(const article of localized){const card=document.createElement('a');card.className='article-list-card';card.href=`/${locale}/articles/read/${encodeURIComponent(article.id)}/`;card.append(text('small',`${copy.origins[article.origin as keyof typeof copy.origins]} · ${article.updatedAt} · ${copy.categories[article.category as keyof typeof copy.categories]||article.category} · ${article.author}`),text('h2',article.title),text('p',article.summary),text('span',copy.read));grid.append(card);}
    const pageStart=Number(q.get('offset'));previous.hidden=pageStart===0;previous.onclick=()=>{offset=Math.max(0,pageStart-24);void load();};more.onclick=()=>void load();offset=page.nextOffset;more.hidden=offset===null;state.dataset.state=grid.children.length?'ready':'empty';emptyWrite.href=write.href;emptyWrite.hidden=Boolean(grid.children.length);status.textContent=grid.children.length?copy.shown.replace('{n}',String(grid.children.length)):copy.empty;
   }catch(e){if(current.signal.aborted)return;status.textContent=(e as Error).message;state.dataset.state='error';more.hidden=true;retry.hidden=false;retry.onclick=()=>void load(reset);}
   finally{if(controller===current){more.disabled=false;previous.disabled=false;root.removeAttribute('aria-busy');}}

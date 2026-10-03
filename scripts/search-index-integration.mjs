@@ -69,7 +69,7 @@ export async function generateSearchIndex(directory, origin = productionOrigin) 
   }
   await writeFile(join(directory, 'sitemap.xml'), '<?xml version="1.0" encoding="UTF-8"?>\n' +
     '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
-    sitemapUrls.map(url => `<sitemap><loc>${xml(url)}</loc></sitemap>`).join('\n') + '\n</sitemapindex>\n');
+    [...sitemapUrls,absoluteUrl('/articles-dynamic-sitemap.xml',origin)].map(url => `<sitemap><loc>${xml(url)}</loc></sitemap>`).join('\n') + '\n</sitemapindex>\n');
   return pages.length;
 }
 

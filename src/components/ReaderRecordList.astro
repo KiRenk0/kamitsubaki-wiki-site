@@ -1,8 +1,9 @@
 ---
 import ReaderRecord from './ReaderRecord.astro';
+import ExpandControl from './ExpandControl.astro';
 import {classificationCopy} from '../lib/classificationTree.mjs';
 interface Props {records:{title:string;href?:string;detail?:string}[];id:string;locale:string}
-const {records,id,locale}=Astro.props;const copy=classificationCopy(locale);const size=12;
+const {records,id,locale}=Astro.props;const copy=classificationCopy(locale);const size=8;
 ---
 <div class="reader-record-list">
  <div class="reader-record-grid">{records.slice(0,size).map((record,index)=><ReaderRecord record={record} index={index}/>)}</div>
@@ -11,8 +12,7 @@ const {records,id,locale}=Astro.props;const copy=classificationCopy(locale);cons
   <div class="artist-collapsible__inner reader-record-grid"></div>
   <template data-directory-overflow>{records.slice(size).map((record,index)=><ReaderRecord record={record} index={index+size} overflow/>)}</template>
  </div>
- <button type="button" class="artist-expand-btn" aria-expanded="false" aria-controls={id} data-expand-label={copy.more} data-collapse-label={copy.collapse}><span class="artist-expand-divider"><span class="artist-expand-line artist-expand-line--left"></span><span class="artist-expand-copy"><span data-artist-expand-copy>{copy.more}</span><span data-artist-expand-count>＋{Math.min(size,records.length-size)}</span></span><span class="artist-expand-chevron" aria-hidden="true">⌄</span><span class="artist-expand-line artist-expand-line--right"></span></span></button>
- <button type="button" class="reader-record-collapse" data-artist-collapse aria-controls={id} hidden>{copy.collapse}</button>
+ <ExpandControl controls={id} expandLabel={copy.more} collapseLabel={copy.collapse} count={Math.min(size,records.length-size)} withCollapse />
  </>}
 </div>
 <style is:global>
@@ -28,8 +28,7 @@ const {records,id,locale}=Astro.props;const copy=classificationCopy(locale);cons
 .entity-related a.reader-record:hover .reader-record-arrow{transform:translate(2px,-2px);color:var(--theme-accent-color)}
 .entity-related .reader-record:focus-visible{outline:2px solid var(--theme-accent-color);outline-offset:2px}
 .entity-related .reader-record.artist-row-collapsed:not([data-revealed]){opacity:0;transform:translateY(-9px)}
-.entity-related .reader-record-collapse{display:block;margin:8px auto 0;padding:10px 20px;min-height:44px;border:0;background:none;font:11px var(--font-sans);color:var(--reader-muted);cursor:pointer}
-.entity-related .artist-expand-btn{margin:20px 0 0;min-height:44px}
+.entity-related .artist-expand-actions{margin:20px 0 0}.entity-related .artist-expand-btn{min-height:44px}
 @media(max-width:760px){.entity-related .reader-record-grid{grid-template-columns:1fr}.entity-related .reader-record{min-height:76px;padding:14px 8px}}
 @media(prefers-reduced-motion:reduce){.entity-related .reader-record,.entity-related .reader-record-arrow{transition:none}.entity-related a.reader-record:hover .reader-record-arrow{transform:none}}
 </style>

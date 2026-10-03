@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {submitRevision,diffLines} from '../src/lib/editorPrDemo.mjs';
+import {submitRevision,diffLines,resolutionAssetIds} from '../src/lib/editorPrDemo.mjs';
 
 test('updates the same PR and retains historical comments while invalidating approval and checks',()=>{
   const snapshot={path:'src/content/projects/demo/zh.md',kind:'projects',title:'Demo',content:'first'};
@@ -18,4 +18,12 @@ test('does not update a different article, finalized PR, or identical content',(
 test('diff preserves line references and excludes shared prefix and suffix',()=>{
   assert.deepEqual(diffLines('title\nold\nend','title\nnew\nend'),[{type:'removed',line:2,text:'old'},{type:'added',line:2,text:'new'}]);
   assert.deepEqual(diffLines('unchanged','unchanged'),[]);
+});
+test('conflict resolution keeps an explicitly empty local attachment list',async()=>{
+  const previous={assets:[{id:'old-image'}]};
+  const uploaded=[];
+  const upload=async snapshot=>{uploaded.push(snapshot);return snapshot.assets.map(asset=>asset.id);};
+  assert.deepEqual(await resolutionAssetIds({assets:[]},previous,upload),[]);
+  assert.equal(uploaded.length,1);
+  assert.deepEqual(await resolutionAssetIds(null,previous,upload),['old-image']);
 });

@@ -1,0 +1,14 @@
+/* Native modal dialogs must not depend on UA margins: Tailwind resets them.
+   Anchored editor bubbles use show(), so :modal deliberately excludes them.
+   Fullscreen viewers own their layout through data-modal-layout="fullscreen". */
+html body dialog:modal:not([data-modal-layout="fullscreen"]) {
+  position:fixed;
+  inset:0;
+  margin:auto;
+  box-sizing:border-box;
+  max-width:calc(100vw - 32px);
+  max-height:calc(100vh - 32px);
+  max-height:calc(100dvh - 32px);
+  overflow:auto;
+  overscroll-behavior:contain;
+}

@@ -4,6 +4,7 @@ import {renderWikiLinks} from '../src/lib/wikiLinks.mjs';
 const entities=[
  {data:{id:'kaf',entityType:'virtual-avatar',name:'花譜'},url:'/ja/database/artists/solo/kaf/'},
  {data:{id:'song',entityType:'work-track',title:'糸',performers:[{entity:'kaf'}]},url:'/ja/database/music/songs/song/'},
+ {data:{id:'fukakai',entityType:'live-event',title:'不可解'},url:'/ja/database/lives/fukakai/'},
 ];
 const registry={legacyRoutes:new Map([['/songs/kaf/originals/shi/','song']]),resolveEntity:id=>entities.find(e=>e.data.id===id),list:()=>entities};
 test('authored old references become canonical links with query and anchor intact',()=>{
@@ -13,6 +14,18 @@ test('authored old references become canonical links with query and anchor intac
 test('exact stable artist IDs and performer-scoped unique titles can resolve changed folders',()=>{
  const result=renderWikiLinks('<a href="/ja/artists/old/kaf">花譜</a><a href="/ja/songs/kaf/new-name">糸</a>',registry,'ja');
  assert.match(result.html,/\/database\/artists\/solo\/kaf\//);assert.match(result.html,/\/database\/music\/songs\/song\//);assert.equal(result.missing.length,0);
+});
+test('HTML character references in authored link labels still resolve their canonical work',()=>{
+ const result=renderWikiLinks('<a href="/ja/songs/kaf/old-shi">&#x7cf8;</a><a href="/ja/songs/kaf/another-shi">&#31992;</a>',registry,'ja');
+ assert.equal(result.missing.length,0);
+ assert.equal((result.html.match(/\/database\/music\/songs\/song\//g)||[]).length,2);
+ assert.doesNotMatch(result.html,/wiki-unresolved-link/);
+});
+test('preserved Kaf live-show references resolve the event without changing song references',()=>{
+ const href='/ja/songs/kaf/originals/不可解-inexplicable';
+ const result=renderWikiLinks(`初のワンマンライブ『<a href="${href}">不可解</a>』を開催。<a href="${href}">不可解</a>を聴く`,registry,'ja');
+ assert.match(result.html,/database\/lives\/fukakai\//);
+ assert.equal((result.html.match(/data-wiki-id="fukakai"/g)||[]).length,1);
 });
 test('unknown and ambiguous references retain text without dead links or guessed targets',()=>{
  const ambiguous={...registry,list:()=>[...entities,{...entities[1],data:{...entities[1].data,id:'other'}}]};

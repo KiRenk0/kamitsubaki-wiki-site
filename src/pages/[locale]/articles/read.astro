@@ -8,7 +8,7 @@ export function getStaticPaths(){return entityLocales.map(locale=>({params:{loca
 const locale=Astro.params.locale!,site=getLocalizedSite(await getCollection('site'),locale),api=import.meta.env.PUBLIC_ARTICLE_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
 const copy=articleCopy(locale);
 ---
-<BaseLayout title={`${copy.title} · Kamitsubaki Wiki`} lang={locale} reading>
+<BaseLayout title={`${copy.title} · Kamitsubaki Wiki`} lang={locale} reading metadata={{noindex:true}}>
 <SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site,locale,'/articles/')} brandLines={site.hero.brandLines} homeHref={`/${locale}/`}/>
 <main class="article-reader" data-article-page="read" data-article-api={api} data-locale={locale}>
  <header class="article-reader-header reader-frame"><a href={`/${locale}/articles/`}>← {copy.title}</a><div class="article-reader-title-row"><h1 data-article-title>{copy.loading}</h1><div class="article-reader-actions"><SharePopover locale={locale} deferred /><ContextAction data-article-edit hidden>{copy.edit}</ContextAction><ContextAction data-article-contribute href={`/${locale}/articles/submit/`}>{locale==='en'?'Write an article':locale==='ja'?'記事を投稿':'投稿文章'}</ContextAction></div></div><p data-article-meta></p><p data-article-summary></p><section data-article-related-panel hidden><h2>{copy.related}</h2><div data-article-related class="article-related-links"></div></section><p role="status" data-article-status></p></header>

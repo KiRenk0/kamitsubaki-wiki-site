@@ -23,7 +23,7 @@ Use the side-by-side preview and outline to inspect sections and anchors. Insert
 
 ## Images and attachments
 
-Entry attachments belong to the **GitHub PR path**, not the gallery. Select, drop, or paste PNG/JPEG/WebP originals and record their source. The browser keeps attachments locally until they are submitted with the entry. Current in-site limits are **750 KB per file, eight images, and 4 MB total**; files are not compressed automatically. Upload a larger original through the repository contribution path and reference it in the same PR. Entering an image URL does not upload a file. Repository `public/images/...` becomes website `/images/...`; do not use a local disk path or `/public/images/...` in the page.
+Entry attachments belong to the **GitHub PR path**, not the gallery. Select, drop, or paste PNG/JPEG/WebP images and record their source or permission details. The browser keeps attachments locally until submission; the article and images then enter one PR. In-site limits are **4 MiB per image, eight images, and 20 MiB total**. For an image above the per-file limit, you can make and preview a WebP submission copy locally without changing the original, or upload the original through the GitHub workflow below. After adding a local attachment, insert it in the article or use it as the cover, submit the GitHub PR, and check that both files appear in the same branch. Entering an image URL does not upload a file. Repository `public/images/...` becomes website `/images/...`; do not use a local disk path or `/public/images/...` in the page.
 
 ## Check and submit
 

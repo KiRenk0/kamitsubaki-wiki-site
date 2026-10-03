@@ -180,6 +180,8 @@ test('encodeFilterHash and decodeFilterHash round-trip valid state and ignore il
 
   assert.equal(encodeFilterHash({}), '');
   assert.equal(encodeFilterHash({ q: '  ', sort: 'default', year: YEAR_ALL, album: ALBUM_ALL }), '');
+  assert.equal(encodeFilterHash({cat:[]}), '#cat=none');
+  assert.deepEqual(decodeFilterHash('#cat=none',options).cat,[]);
 
   const encoded = encodeFilterHash({
     q: '魔女',

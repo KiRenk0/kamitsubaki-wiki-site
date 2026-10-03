@@ -1,0 +1,40 @@
+---
+type Props = {
+  controls: string;
+  expandLabel: string;
+  collapseLabel: string;
+  count?: number;
+  className?: string;
+  galleryRoles?: boolean;
+  initiallyHidden?: boolean;
+  withCollapse?: boolean;
+};
+
+const { controls, expandLabel, collapseLabel, count = 0, className = '', galleryRoles = false, initiallyHidden = false, withCollapse = false } = Astro.props;
+---
+<div class="artist-expand-actions">
+ <button
+  type="button"
+  class:list={['artist-expand-btn', className]}
+  aria-label={count ? `${expandLabel} · ${count}` : expandLabel}
+  aria-expanded="false"
+  aria-controls={controls}
+  data-expand-label={expandLabel}
+  data-collapse-label={collapseLabel}
+  data-gallery-roles-toggle={galleryRoles ? '' : undefined}
+  hidden={initiallyHidden}
+>
+  <span class="artist-expand-divider">
+    <span class="artist-expand-line artist-expand-line--left"></span>
+    <span class="artist-expand-copy">
+      <span data-artist-expand-copy>{expandLabel}</span>
+      <span data-artist-expand-count aria-hidden="true">{count ? `＋${count}` : ''}</span>
+    </span>
+    <svg class="artist-expand-chevron w-3 h-3" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+    <span class="artist-expand-line artist-expand-line--right"></span>
+  </span>
+ </button>
+ {withCollapse && <button type="button" class="artist-collapse-btn" data-artist-collapse aria-controls={controls} hidden>{collapseLabel}<span aria-hidden="true"> ↑</span></button>}
+</div>

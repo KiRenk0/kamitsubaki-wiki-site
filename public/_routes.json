@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "include": [
+    "/articles-dynamic-sitemap.xml",
+    "/*/articles/read",
+    "/*/articles/read/*"
+  ],
+  "exclude": []
+}

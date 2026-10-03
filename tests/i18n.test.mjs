@@ -85,7 +85,7 @@ test('localized site config exposes language switcher labels and page chrome', a
       ['zh', '简中'],
       ['zh-tw', '台繁'],
       ['zh-hk', '港繁'],
-      ['ja', '日语'],
+      ['ja', '日本語'],
       ['en', 'ENG'],
     ],
   );

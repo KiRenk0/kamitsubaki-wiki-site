@@ -12,12 +12,24 @@ export function inlineParts(source) {
   const match = source.match(/^\{\{([a-z-]+)(::(?:\\.|[^{}])*)\}\}$/);
   return match && inlineKinds.includes(match[1]) ? {kind:match[1],args:splitShortcodeArguments(match[2])} : null;
 }
+/** Read either an imported shortcode chip or an editable semantic format. */
+export function editorInlineParts(element) {
+  if(element.dataset.veSource){try{return inlineParts(decodeURIComponent(element.dataset.veSource));}catch{return null;}}
+  const kind=element.classList.contains('wiki-spoiler')?'spoiler':element.tagName.toLowerCase();
+  return {kind,args:[element.textContent]};
+}
+/** Remove only the selected wrapper, retaining nested formats or the ruby base text. */
+export function unwrapEditorInline(element) {
+  if(!element.dataset.veSource){element.replaceWith(...element.childNodes);return;}
+  const text=element.ownerDocument.createTextNode(editorInlineParts(element)?.args[0]??element.textContent);
+  element.replaceWith(text);
+}
 export function shortcodeChip(source) {
   const parts = inlineParts(source);
   if (!parts) return escapeHtml(source);
   const result = renderInlineShortcode(parts.kind,parts.args);
   const content = typeof result === 'string' ? result : escapeHtml(result?.value || parts.args[0]);
-  return `<span class="ve-inline-token" data-ve-source="${encodeURIComponent(source)}" contenteditable="false" tabindex="0" role="button">${content}</span>`;
+  return `<span class="ve-inline-token" data-ve-source="${encodeURIComponent(source)}" contenteditable="false" tabindex="0" role="button"${parts.kind === 'spoiler' ? ' aria-pressed="false"' : ''}>${content}</span>`;
 }
 const tags = new Set(['P','DIV','SPAN','H1','H2','H3','H4','H5','H6','STRONG','B','EM','I','DEL','S','U','CODE','PRE','BR','HR','A','RUBY','RT','RP','ABBR','MARK','KBD','TIME','SMALL','SUB','SUP','BLOCKQUOTE','UL','OL','LI','DETAILS','SUMMARY','TABLE','THEAD','TBODY','TR','TH','TD','DL','DT','DD','CITE','Q','SAMP','VAR','FIGURE','FIGCAPTION','IMG']);
 const stripped = new Set(['SCRIPT','STYLE','IFRAME','OBJECT','EMBED','FORM','INPUT','BUTTON','LINK','META','SVG','MATH','VIDEO','AUDIO']);
@@ -38,7 +50,7 @@ export function sanitizeEditorHTML(html) {
     if (node.tagName === 'SPAN' && node.classList.contains('wiki-spoiler')) { el.className = 'wiki-spoiler'; el.tabIndex = 0; }
     if (['TD','TH'].includes(node.tagName)) for (const key of ['colspan','rowspan']) if (/^[1-9]\d?$/.test(node.getAttribute(key) || '')) el.setAttribute(key,node.getAttribute(key));
     if (node.hasAttribute('data-ve-source')) {
-      try { const source = decodeURIComponent(node.getAttribute('data-ve-source')); if (inlineParts(source)) { el.dataset.veSource = encodeURIComponent(source); el.contentEditable = 'false'; el.className = 've-inline-token'; el.tabIndex = 0; el.setAttribute('role','button'); } } catch { /* Unknown content remains ordinary text. */ }
+      try { const source = decodeURIComponent(node.getAttribute('data-ve-source')); const parts = inlineParts(source); if (parts) { el.dataset.veSource = encodeURIComponent(source); el.contentEditable = 'false'; el.className = 've-inline-token'; el.tabIndex = 0; el.setAttribute('role','button'); if(parts.kind === 'spoiler')el.setAttribute('aria-pressed','false'); } } catch { /* Unknown content remains ordinary text. */ }
     }
     [...node.childNodes].forEach(child => clean(child,el)); parent.append(el);
   };
@@ -63,7 +75,10 @@ export function richMarkdown(element) {
     if (node.tagName === 'A') return safeUrl(node.getAttribute('href')) ? `[${inner}](${node.getAttribute('href').replaceAll('(','%28').replaceAll(')','%29')})` : inner;
     if (node.tagName === 'BR') return '  \n';
     if (node.tagName === 'CODE') { const fence = '`'.repeat(Math.max(1,...(node.textContent.match(/`+/g)||[]).map(s=>s.length+1))); return `${fence} ${node.textContent} ${fence}`; }
-    if (['IMG','RUBY','ABBR','MARK','KBD','TIME','SMALL','SUB','SUP','U','TABLE','DETAILS'].includes(node.tagName) || node.classList.contains('wiki-spoiler')) return sanitizeEditorHTML(node.outerHTML);
+    // Recurse through inline formats so nested chips export as source, never editor-only HTML.
+    if (node.classList.contains('wiki-spoiler')) return `<span class="wiki-spoiler">${inner}</span>`;
+    if (['MARK','KBD','SMALL','SUB','SUP'].includes(node.tagName)) {const tag=node.tagName.toLowerCase();return `<${tag}>${inner}</${tag}>`;}
+    if (['IMG','RUBY','ABBR','TIME','U','TABLE','DETAILS'].includes(node.tagName)) return sanitizeEditorHTML(node.outerHTML);
     if (['UL','OL'].includes(node.tagName)) {
       const lines=[];let number=Number(node.getAttribute('start'))||1,indent='  ';
       for(const child of node.children) {

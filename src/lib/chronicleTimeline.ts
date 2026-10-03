@@ -1,4 +1,5 @@
 import {dateBounds, eventBounds, timelineBounds, clusterEvents} from './chronicleTimeline.mjs';
+import {createChronicleZoomScheduler} from './chronicleZoomScheduler.mjs';
 interface TimelineEvent {id:string;title:string;summary:string;era?:string;date:{start:string;end?:string;precision:string};tracks:string[];eventTypes:string[];importance:string;sourceLocale?:string;translationPending?:boolean;related?:{entity:string}[];links:{label:string;url:string}[];sources?:{url?:string;title?:string;publisher?:string;page?:string}[]}
 export function initTimeline(){
  const root=document.querySelector<HTMLElement>('[data-timeline]');if(!root)return;
@@ -18,6 +19,8 @@ export function initTimeline(){
  const pos=(time:number)=>(time-domain.start)/duration*width;
  const dateLabel=(event:TimelineEvent)=>event.date.start+(event.date.end?' — '+event.date.end:'')+(event.date.precision!=='day'?` · ${ui.uncertain}`:'');
  const enabled=()=>checks.filter(c=>c.checked).map(c=>c.value);
+ const scopeTrack=(track:string)=>scope==='site'?track==='site-updates':track!=='site-updates';
+ const resetTracks=()=>checks.forEach(check=>check.checked=scopeTrack(check.value));
  const viewportState=()=>{
    const start=domain.start+viewport.scrollLeft/width*duration,end=Math.min(domain.end,start+viewport.clientWidth/width*duration);
    const format=(t:number)=>new Date(t).toISOString().slice(0,end-start<90*86400000?10:7);
@@ -106,7 +109,13 @@ export function initTimeline(){
    setPlayhead(scrubTime);
    viewportState();
  };
- const saveEra=(id='')=>{activeEra=id;const url=new URL(location.href);id?url.searchParams.set('era',id):url.searchParams.delete('era');history.replaceState(null,'',url);if(viewControl.value==='list'){renderList();viewportState();}};
+ const zoomScheduler=createChronicleZoomScheduler({
+  render:(anchor:{time:number;x:number}|null)=>{draw();if(anchor)viewport.scrollLeft=pos(anchor.time)-anchor.x;viewportState();},
+  commit:()=>{const url=new URL(location.href);url.searchParams.delete('era');history.replaceState(null,'',url);}
+ });
+ const commitZoomUrl=()=>zoomScheduler.finish();
+ const saveEra=(id='')=>{zoomScheduler.cancel();activeEra=id;const url=new URL(location.href);id?url.searchParams.set('era',id):url.searchParams.delete('era');history.replaceState(null,'',url);if(viewControl.value==='list'){renderList();viewportState();}};
+ const scheduleZoom=(time:number,x:number)=>{activeEra='';const scale=zoomLevel();get('[data-scale]').textContent=(scale<10?scale.toFixed(1):Math.round(scale))+'×';zoomScheduler.schedule({time,x});};
  const fitRange=(start:number,end:number,animate=true)=>{
    const range=Math.max(86400000,Math.min(domain.end,end)-Math.max(domain.start,start));setZoomLevel(duration/range);draw();setPlayhead(Math.max(domain.start,start));viewport.scrollTo({left:pos(Math.max(domain.start,start)),behavior:animate&&!reduced.matches?'smooth':'instant'});
  };
@@ -117,7 +126,7 @@ export function initTimeline(){
  viewControl.onchange=()=>changeListView();orderControl.onchange=()=>changeListView();
  const apply=(save=false)=>{
    const values=Object.fromEntries(new FormData(form)),on=enabled();
-   filtered=events.filter(e=>on.some(t=>e.tracks.includes(t))&&(!values.q||`${e.title} ${e.summary}`.toLowerCase().includes(String(values.q).toLowerCase()))&&(!values.entity||e.related?.some(r=>r.entity===values.entity))&&(!values.type||e.eventTypes.includes(String(values.type)))&&(!values.year||e.date.start.startsWith(String(values.year)))).sort((a,b)=>eventBounds(a).start-eventBounds(b).start||a.id.localeCompare(b.id));
+   filtered=events.filter(e=>on.some(t=>scopeTrack(t)&&e.tracks.includes(t))&&(!values.q||`${e.title} ${e.summary}`.toLowerCase().includes(String(values.q).toLowerCase()))&&(!values.entity||e.related?.some(r=>r.entity===values.entity))&&(!values.type||e.eventTypes.includes(String(values.type)))&&(!values.year||e.date.start.startsWith(String(values.year)))).sort((a,b)=>eventBounds(a).start-eventBounds(b).start||a.id.localeCompare(b.id));
    get('[data-count]').textContent=`${filtered.length} / ${events.length} ${ui.events}`;get('[data-filter-count]').textContent=filtered.length===events.length?'':`${filtered.length} / ${events.length}`;
    get<HTMLElement>('[data-empty]').hidden=filtered.length>0;
    root.querySelectorAll<HTMLElement>('[data-solo]').forEach(b=>b.setAttribute('aria-pressed',String(on.length===1&&on[0]===b.dataset.solo)));
@@ -131,7 +140,7 @@ export function initTimeline(){
    const params=new URLSearchParams(location.search);viewControl.value=params.get('view')==='list'?'list':'timeline';orderControl.value=params.get('order')==='desc'?'desc':'asc';
    let id='';try{id=decodeURIComponent(location.hash.slice(1));}catch{}
    scope=params.get('scope')==='site'||id.startsWith('site-')?'site':'chronicle';root.dataset.timelineScope=scope;root.querySelectorAll<HTMLButtonElement>('[data-timeline-scope]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.timelineScope===scope)));
-   form.querySelectorAll<HTMLInputElement|HTMLSelectElement>('[name]').forEach(c=>c.value=params.get(c.name)||'');checks.forEach(c=>c.checked=params.has('tracks')?(params.get('tracks')||'').split(',').includes(c.value):scope==='site'?c.value==='site-updates':c.value!=='site-updates');apply();
+   form.querySelectorAll<HTMLInputElement|HTMLSelectElement>('[name]').forEach(c=>c.value=params.get(c.name)||'');checks.forEach(c=>c.checked=params.has('tracks')?(params.get('tracks')||'').split(',').includes(c.value)&&scopeTrack(c.value):scopeTrack(c.value));apply();
    changeListView(false);const era=scope==='chronicle'?eras.find(e=>e.id===params.get('era')):undefined;activeEra=era?.id||'';renderList();if(era)fitRange(dateBounds(era.start).start,dateBounds(era.end).end,false);else if(scope==='site'&&viewControl.value==='timeline')fitSiteRange();
    const event=filtered.find(e=>e.id===id);if(event){group=[event];select(event,false);focusEvent(event,false);
      const reveal=()=>{const consoleTop=get<HTMLElement>('.timeline-console').getBoundingClientRect().top;window.scrollTo({top:window.scrollY+consoleTop-100,behavior:'instant'});};
@@ -140,14 +149,15 @@ export function initTimeline(){
  };
  eras.forEach((era,i)=>{const start=Math.max(domain.start,dateBounds(era.start).start),end=Math.min(domain.end,dateBounds(era.end).end);const span=el('span',`0${i+1}`);span.style.position='absolute';span.style.left=(start-domain.start)/duration*100+'%';span.style.width=Math.max(0,(end-start)/duration*100)+'%';get('[data-overview-eras]').append(span);});
  root.querySelectorAll<HTMLButtonElement>('[data-era]').forEach(b=>b.addEventListener('click',()=>{const year=form.querySelector<HTMLSelectElement>('[name=year]')!;if(year.value){year.value='';apply(true);}const era=eras.find(e=>e.id===b.dataset.era)!;fitRange(dateBounds(era.start).start,dateBounds(era.end).end);saveEra(era.id);}));
- root.querySelectorAll<HTMLButtonElement>('[data-timeline-scope]').forEach(button=>button.addEventListener('click',()=>{const next=button.dataset.timelineScope==='site'?'site':'chronicle';if(next===scope)return;scope=next;root.dataset.timelineScope=scope;root.querySelectorAll<HTMLButtonElement>('[data-timeline-scope]').forEach(item=>item.setAttribute('aria-pressed',String(item.dataset.timelineScope===scope)));checks.forEach(check=>check.checked=scope==='site'?check.value==='site-updates':check.value!=='site-updates');activeEra='';apply(true);saveEra();const url=new URL(location.href);scope==='site'?url.searchParams.set('scope','site'):url.searchParams.delete('scope');history.replaceState(null,'',url);if(viewControl.value==='timeline'){scope==='site'?fitSiteRange():fitRange(domain.start,domain.end,false);}}));
+ root.querySelectorAll<HTMLButtonElement>('[data-timeline-scope]').forEach(button=>button.addEventListener('click',()=>{const next=button.dataset.timelineScope==='site'?'site':'chronicle';if(next===scope)return;scope=next;root.dataset.timelineScope=scope;root.querySelectorAll<HTMLButtonElement>('[data-timeline-scope]').forEach(item=>item.setAttribute('aria-pressed',String(item.dataset.timelineScope===scope)));resetTracks();activeEra='';apply(true);saveEra();const url=new URL(location.href);scope==='site'?url.searchParams.set('scope','site'):url.searchParams.delete('scope');history.replaceState(null,'',url);if(viewControl.value==='timeline'){scope==='site'?fitSiteRange():fitRange(domain.start,domain.end,false);}}));
  get('[data-fit]').addEventListener('click',()=>{saveEra();scope==='site'?fitSiteRange():fitRange(domain.start,domain.end);});
  zoom.addEventListener('input',()=>{
    const playheadX=pos(scrubTime)-viewport.scrollLeft;
    const anchorTime=playheadX>=0&&playheadX<=viewport.clientWidth?scrubTime:domain.start+(viewport.scrollLeft+viewport.clientWidth/2)/width*duration;
    const anchorX=playheadX>=0&&playheadX<=viewport.clientWidth?playheadX:viewport.clientWidth/2;
-   draw();viewport.scrollLeft=pos(anchorTime)-anchorX;saveEra();viewportState();
+   scheduleZoom(anchorTime,anchorX);
  });
+ zoom.addEventListener('change',commitZoomUrl);zoom.addEventListener('pointerup',commitZoomUrl);window.addEventListener('pagehide',commitZoomUrl);
  root.querySelectorAll<HTMLButtonElement>('[data-zoom-preset]').forEach(button=>button.addEventListener('click',()=>{setZoomLevel(Number(button.dataset.zoomPreset));zoom.dispatchEvent(new Event('input',{bubbles:true}));zoom.focus({preventScroll:true});}));
  viewport.addEventListener('scroll',viewportState,{passive:true});
  const ruler=get<HTMLElement>('[data-ruler]');
@@ -161,10 +171,10 @@ export function initTimeline(){
  grip.addEventListener('pointermove',event=>{if(!grip.hasPointerCapture(event.pointerId))return;const rect=viewport.getBoundingClientRect();if(event.clientX>rect.right-20)viewport.scrollLeft+=Math.min(24,event.clientX-rect.right+20);else if(event.clientX<rect.left+20)viewport.scrollLeft-=Math.min(24,rect.left+20-event.clientX);scrub(event.clientX-gripOffset);});
  const stopGrip=(event:PointerEvent)=>{if(grip.hasPointerCapture(event.pointerId))grip.releasePointerCapture(event.pointerId);delete grip.dataset.dragging;};
  grip.addEventListener('pointerup',stopGrip);grip.addEventListener('pointercancel',stopGrip);
- let panStartX=0,panStartScroll=0;
- viewport.addEventListener('pointerdown',event=>{if(event.pointerType!=='mouse'||event.button!==0||!(event.target instanceof Element)||event.target.closest('.timeline-clip,.timeline-ruler,.timeline-playhead-grip'))return;panStartX=event.clientX;panStartScroll=viewport.scrollLeft;viewport.dataset.dragging='true';viewport.setPointerCapture(event.pointerId);event.preventDefault();});
- viewport.addEventListener('pointermove',event=>{if(viewport.hasPointerCapture(event.pointerId))viewport.scrollLeft=panStartScroll-(event.clientX-panStartX);});
- const stopPan=(event:PointerEvent)=>{if(viewport.hasPointerCapture(event.pointerId))viewport.releasePointerCapture(event.pointerId);delete viewport.dataset.dragging;};
+ let panStartX=0,panStartY=0,panStartScroll=0,pinchStart=0,pinchScale=1,pinchTime=domain.start;const touches=new Map<number,{x:number;y:number}>();
+ viewport.addEventListener('pointerdown',event=>{if(event.button!==0||!(event.target instanceof Element)||event.target.closest('.timeline-clip,.timeline-ruler,.timeline-playhead-grip'))return;if(event.pointerType==='touch'){touches.set(event.pointerId,{x:event.clientX,y:event.clientY});if(touches.size===2){const [a,b]=[...touches.values()];pinchStart=Math.hypot(a.x-b.x,a.y-b.y)||1;pinchScale=zoomLevel();const rect=viewport.getBoundingClientRect(),center=(a.x+b.x)/2-rect.left;pinchTime=domain.start+(viewport.scrollLeft+center)/width*duration;}}panStartX=event.clientX;panStartY=event.clientY;panStartScroll=viewport.scrollLeft;viewport.dataset.dragging='true';viewport.setPointerCapture(event.pointerId);if(event.pointerType==='mouse')event.preventDefault();});
+ viewport.addEventListener('pointermove',event=>{if(!viewport.hasPointerCapture(event.pointerId))return;if(event.pointerType==='touch'&&touches.has(event.pointerId)){touches.set(event.pointerId,{x:event.clientX,y:event.clientY});if(touches.size===2){const [a,b]=[...touches.values()],rect=viewport.getBoundingClientRect();setZoomLevel(pinchScale*Math.hypot(a.x-b.x,a.y-b.y)/pinchStart);scheduleZoom(pinchTime,(a.x+b.x)/2-rect.left);event.preventDefault();return;}if(Math.abs(event.clientY-panStartY)>Math.abs(event.clientX-panStartX))return;}viewport.scrollLeft=panStartScroll-(event.clientX-panStartX);if(event.pointerType==='touch')event.preventDefault();});
+ const stopPan=(event:PointerEvent)=>{touches.delete(event.pointerId);if(viewport.hasPointerCapture(event.pointerId))viewport.releasePointerCapture(event.pointerId);if(touches.size===1){const remaining=touches.values().next().value!;panStartX=remaining.x;panStartY=remaining.y;panStartScroll=viewport.scrollLeft;}if(!touches.size){delete viewport.dataset.dragging;commitZoomUrl();}};
  viewport.addEventListener('pointerup',stopPan);viewport.addEventListener('pointercancel',stopPan);
  const overview=get<HTMLElement>('[data-window-marker]');let overviewX=0,overviewScroll=0;
  overview.addEventListener('pointerdown',event=>{if(event.button!==0)return;overviewX=event.clientX;overviewScroll=viewport.scrollLeft;overview.setPointerCapture(event.pointerId);overview.dataset.dragging='true';event.preventDefault();});
@@ -172,7 +182,7 @@ export function initTimeline(){
  const stopOverview=(event:PointerEvent)=>{if(overview.hasPointerCapture(event.pointerId))overview.releasePointerCapture(event.pointerId);delete overview.dataset.dragging;};
  overview.addEventListener('pointerup',stopOverview);overview.addEventListener('pointercancel',stopOverview);
  overview.addEventListener('keydown',event=>{const page=viewport.clientWidth*.8;const step=event.key==='ArrowLeft'?-page*.2:event.key==='ArrowRight'?page*.2:event.key==='PageUp'?-page:event.key==='PageDown'?page:0;if(!step)return;event.preventDefault();viewport.scrollLeft+=step;});
- form.addEventListener('input',()=>apply(true));form.addEventListener('submit',e=>e.preventDefault());form.addEventListener('reset',()=>requestAnimationFrame(()=>{checks.forEach(c=>c.checked=true);apply(true);}));checks.forEach(c=>c.addEventListener('change',()=>apply(true)));
+ form.addEventListener('input',()=>apply(true));form.addEventListener('submit',e=>e.preventDefault());form.addEventListener('reset',()=>requestAnimationFrame(()=>{resetTracks();apply(true);}));checks.forEach(c=>c.addEventListener('change',()=>{if(c.checked&&!scopeTrack(c.value))c.checked=false;apply(true);}));
  root.querySelectorAll<HTMLButtonElement>('[data-solo]').forEach(b=>b.addEventListener('click',()=>{const all=enabled().length===1&&enabled()[0]===b.dataset.solo;checks.forEach(c=>c.checked=all||c.value===b.dataset.solo);apply(true);const trackEvents=events.filter(e=>e.tracks.includes(b.dataset.solo!));if(!all&&trackEvents.length){const start=Math.min(...trackEvents.map(e=>eventBounds(e).start)),end=Math.max(...trackEvents.map(e=>eventBounds(e).end));fitRange(start-14*86400000,end+14*86400000);}else if(all)fitRange(domain.start,domain.end);}));
  addEventListener('popstate',restore);addEventListener('hashchange',restore);
  new ResizeObserver(()=>{if(previousWidth===viewport.clientWidth)return;const center=(viewport.scrollLeft+previousWidth/2)/width;previousWidth=viewport.clientWidth;draw();if(activeEra){const era=eras.find(e=>e.id===activeEra)!;fitRange(dateBounds(era.start).start,dateBounds(era.end).end);}else viewport.scrollLeft=Math.max(0,center*width-viewport.clientWidth/2);}).observe(viewport);

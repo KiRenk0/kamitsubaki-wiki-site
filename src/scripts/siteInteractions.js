@@ -1,4 +1,4 @@
-import {expandRecordBatch} from '../lib/recordExpansion.mjs';
+import {expandRecordBatch,setExpandablePanel} from '../lib/recordExpansion.mjs';
 import {installCursorLayer} from '../lib/cursorLayer.mjs';
 import {handleSpoilerActivation} from '../lib/spoilerInteraction.mjs';
 import { detectExternalPlatform } from '../lib/externalPlatforms.mjs';
@@ -690,32 +690,8 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
 
-      const copy = button.querySelector('[data-artist-expand-copy]');
-      const inner = collapsible.querySelector('.artist-collapsible__inner');
       const isExpanded = button.getAttribute('aria-expanded') === 'true';
-      const nextExpanded = !isExpanded;
-
-      if (inner instanceof HTMLElement) {
-        collapsible.style.setProperty('--artist-collapsible-height', `${inner.scrollHeight}px`);
-      }
-
-      button.setAttribute('aria-expanded', String(nextExpanded));
-      collapsible.dataset.expanded = String(nextExpanded);
-      collapsible.setAttribute('aria-hidden', String(!nextExpanded));
-      collapsible.inert = !nextExpanded;
-
-      if (copy) {
-        copy.textContent = nextExpanded
-          ? button.getAttribute('data-collapse-label') || ''
-          : button.getAttribute('data-expand-label') || '';
-      }
-
-      button.setAttribute(
-        'aria-label',
-        nextExpanded
-          ? button.getAttribute('data-collapse-label') || ''
-          : button.getAttribute('data-expand-label') || '',
-      );
+      setExpandablePanel(collapsible, button, !isExpanded);
     });
   }
 

@@ -1,4 +1,21 @@
 // Shared by homepage directories and reader record lists.
+export function setExpandablePanel(collapsible, button, expanded, updateLabel = true) {
+  const inner = collapsible.querySelector('.artist-collapsible__inner');
+  if (inner instanceof HTMLElement) {
+    collapsible.style.setProperty('--artist-collapsible-height', `${inner.scrollHeight}px`);
+  }
+  button.setAttribute('aria-expanded', String(expanded));
+  collapsible.dataset.expanded = String(expanded);
+  collapsible.setAttribute('aria-hidden', String(!expanded));
+  collapsible.inert = !expanded;
+  if (updateLabel) {
+    const label = button.getAttribute(expanded ? 'data-collapse-label' : 'data-expand-label') || '';
+    const copy = button.querySelector('[data-artist-expand-copy]');
+    if (copy) copy.textContent = label;
+    button.setAttribute('aria-label', label);
+  }
+}
+
 export function expandRecordBatch(collapsible, button) {
   const panel = collapsible.parentElement;
   const more = panel.querySelector('.artist-expand-btn');
@@ -42,7 +59,9 @@ export function expandRecordBatch(collapsible, button) {
   }
   more.hidden = next === total;
   more.setAttribute('aria-expanded', String(next > 0));
-  more.querySelector('[data-artist-expand-count]').textContent = `＋${Math.min(Number(collapsible.dataset.pageSize), total - next)}`;
+  const nextCount = Math.min(Number(collapsible.dataset.pageSize), total - next);
+  more.querySelector('[data-artist-expand-count]').textContent = `＋${nextCount}`;
+  more.setAttribute('aria-label', `${more.dataset.expandLabel} · ${nextCount}`);
   collapse.hidden = next === 0;
   if (closing) more.focus({preventScroll: false});
   else if (more.hidden) collapse.focus({preventScroll: true});
