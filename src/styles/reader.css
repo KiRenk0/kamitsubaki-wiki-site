@@ -102,15 +102,15 @@ html body .wiki-reader {
 html body .wiki-reader::before { content: none; }
 html body .wiki-reader .wiki-media-switcher__title { margin: 0; }
 html body .wiki-reader.wiki-prose {
-  font-family: 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', system-ui, sans-serif;
+  font-family: var(--font-sans);
   font-size: 1.0625rem;
   line-height: 2;
   letter-spacing: .012em;
   overflow-wrap: break-word;
   color: var(--reader-text, var(--theme-body));
 }
-html body .wiki-reader:lang(zh-Hant) { font-family: 'Noto Sans TC', 'PingFang TC', system-ui, sans-serif; }
-html body .wiki-reader:lang(ja) { font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif; }
+html body .wiki-reader:lang(zh-Hant) { font-family: var(--font-sans); }
+html body .wiki-reader:lang(ja) { font-family: var(--font-sans); }
 html body .wiki-reader:lang(en) { font-family: 'Iowan Old Style', Georgia, serif; font-size: 1.15rem; line-height: 1.85; letter-spacing: 0; }
 html body .wiki-reader :where(p, li) { color: var(--reader-text, var(--theme-body)); }
 html body .wiki-reader :where(h2, h3, h4) { color: var(--theme-fg); text-wrap: pretty; line-height: 1.5; letter-spacing: .015em; scroll-margin-top: var(--reader-sticky-top, 6rem); }

@@ -28,7 +28,7 @@ const libraryCopy={...labsCopy(locale),savedLocal:c.library,storageNote:c.privac
     <noscript>{c.javascript}</noscript>
     <div class="account-workspace"><AccountSections locale={locale}/><div class="account-panels">
     <section data-account-panel="overview" class="account-section account-overview">
-      <header class="account-home-header"><div><p class="account-kicker">YOUR DESK / 01</p><h2>{ui.welcome}</h2><p class="account-overview-identity" data-account-identity></p><p class="account-note">{ui.welcomeNote}</p></div><a class="account-overview-primary" href={`/${locale}/account/creator/`}>{ui.openCreator}<span aria-hidden="true">→</span></a></header>
+      <header class="account-home-header"><div><p class="account-kicker">YOUR DESK / 01</p><h2>{ui.welcome}</h2><p class="account-overview-identity" data-account-identity></p><p class="account-note">{ui.welcomeNote}</p></div><div class="account-home-header-actions"><a class="account-overview-primary" href={`/${locale}/contribute/`}>{ui.newSubmission}<span aria-hidden="true">↗</span></a><a class="account-overview-secondary" href={`/${locale}/account/creator/`}>{ui.openCreator}<span aria-hidden="true">→</span></a></div></header>
       <section class="account-overview-guest" data-account-overview-guest data-checking-title={ui.checkingTitle} data-checking-note={ui.checkingNote} data-unavailable-title={ui.unavailableTitle} data-unavailable-note={ui.unavailableNote} data-guest-eyebrow={ui.guestEyebrow} data-guest-title={ui.guestTitle} data-guest-note={ui.guestNote}><div><span class="account-kicker" data-guest-eyebrow>{ui.guestEyebrow}</span><h3 data-guest-title>{ui.guestTitle}</h3><p data-guest-note>{ui.guestNote}</p></div><div class="account-guest-actions"><button type="button" class="account-button account-primary" data-account-login>{ui.guestAction} →</button><button type="button" class="account-button" data-account-retry hidden>{ui.retry}</button></div></section>
       <div class="account-home-grid">
         <section class="account-home-work"><span class="account-kicker">01 / {ui.workArea}</span><h3>{ui.creator}</h3><p>{ui.writeNote}</p>
@@ -38,11 +38,11 @@ const libraryCopy={...labsCopy(locale),savedLocal:c.library,storageNote:c.privac
             <a href={`/${locale}/account/creator/?state=review`}><span>{ui.review}</span><strong data-account-summary="review">—</strong></a>
           </div>
           <p class="account-overview-summary-status" data-account-overview-summary-status role="status"></p>
-          <div class="account-home-actions"><a href={`/${locale}/contribute/`}>{ui.newSubmission} ↗</a></div>
+          <div class="account-home-actions"><a href={`/${locale}/account/creator/`}>{ui.openCreator}<span aria-hidden="true">→</span></a></div>
         </section>
-        <section class="account-home-library"><span class="account-kicker">02 / {ui.saved}</span><h3>{c.library}</h3><p>{ui.savedNote}</p><div data-account-recent data-empty-label={ui.empty}><p>{ui.empty}</p></div><a class="account-home-library-link" href="#library">{ui.open} →</a></section>
+        <section class="account-home-library"><span class="account-kicker">02 / {ui.saved}</span><h3>{c.library}</h3><p>{ui.savedNote}</p><div data-account-recent data-empty-label={ui.empty}><p>{ui.empty}</p></div><a class="account-home-library-link" href="#library">{ui.open}<span aria-hidden="true">→</span></a></section>
       </div>
-      <div class="account-home-settings"><span class="account-kicker">03 / {ui.settingsArea}</span><p>{ui.settingsNote}</p><a href="#profile">{c.profile} →</a><a href="#security">{ui.security} →</a><a href="#appearance">{ui.appearance} →</a></div>
+      <section class="account-home-settings"><div><span class="account-kicker">03 / ACCOUNT</span><h3>{ui.settingsArea}</h3><p>{ui.settingsNote}</p></div><nav aria-label={ui.settingsArea}><a href="#profile">{c.profile}<span aria-hidden="true">→</span></a><a href="#security">{ui.security}<span aria-hidden="true">→</span></a><a href="#appearance">{ui.appearance}<span aria-hidden="true">→</span></a></nav></section>
     </section>
     <section data-account-panel="appearance" class="account-section account-surface" hidden><header class="account-panel-heading"><span class="account-kicker">04 / APPEARANCE</span><h2>{ui.appearance}</h2><p>{ui.settingsNote}</p></header><AppearanceControls locale={locale}/></section>
     <section class="account-gate account-surface" data-account-gate hidden><header class="account-panel-heading"><span class="account-kicker">ACCOUNT / ACCESS</span><h2 data-account-gate-title>{c.loginTitle}</h2><p>{c.loginNote}</p></header><button class="account-button account-primary" data-account-login>{c.login}</button></section>

@@ -10,7 +10,6 @@ import SiteIntro from '../components/SiteIntro.astro';
 import SocialContactWidget from '../components/SocialContactWidget.astro';
 import {
   getLanguageTag,
-  getLocaleFontStylesheet,
   getLocalizedSiteName,
   resolveLocaleCopy,
 } from '../lib/i18n.mjs';
@@ -48,7 +47,6 @@ const {
   alternates = [],
   metadata = {},
   reading = false,
-  fontDisplay = 'optional',
 } = Astro.props as {
   title?: string;
   lang?: string;
@@ -58,7 +56,6 @@ const {
   }[];
   metadata?: PageMetadata;
   reading?: boolean;
-  fontDisplay?: 'optional' | 'swap';
 };
 
 const localizedSiteName = getLocalizedSiteName(lang);
@@ -92,7 +89,6 @@ const siteContent = getLocalizedSite(siteEntries, lang);
 const aiChatCopy = siteContent?.aiChat;
 const socialContactCopy = siteContent?.socialContact;
 const liveEventsCopy = siteContent?.liveEvents;
-const fontStylesheet = getLocaleFontStylesheet(lang).replace('display=optional', `display=${fontDisplay}`);
 ---
 
 <!doctype html>
@@ -197,9 +193,6 @@ const fontStylesheet = getLocaleFontStylesheet(lang).replace('display=optional',
     </>}
     <script type="application/ld+json" is:inline set:html={serializeStructuredData(structuredData)} />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href={fontStylesheet} rel="stylesheet" />
   </head>
   <body class:list={['antialiased font-sans selection:bg-white selection:text-black', { 'wiki-reading-page': reading, 'site-home': isLocalizedHome }]} id="body-wrap">
     {isLocalizedHome && <SiteIntro locale={lang} />}

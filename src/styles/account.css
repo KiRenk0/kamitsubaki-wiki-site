@@ -104,3 +104,337 @@ html body main.account-shell[data-workspace-page]{--workspace-top:84px;--workspa
 .account-home-settings a{display:flex;align-items:center;min-height:44px}
 @media(max-width:1000px){.account-library-panel .personal-tools.library-workspace{grid-template-columns:1fr}.account-library-panel .library-sidebar{border-right:0;border-bottom:1px solid var(--workspace-line);padding:0 0 14px}}
 @media(max-width:760px){.account-surface .account-form{grid-template-columns:1fr}.account-library-panel .library-filters{grid-template-columns:repeat(2,minmax(0,1fr))}.account-library-panel .library-filters>label:first-child{grid-column:1/-1}.account-library-panel .personal-tools .library-row{grid-template-columns:1fr}.account-library-panel .library-row-actions{justify-content:flex-start}.account-home-settings{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Account pages share the site's editorial hierarchy: one lead task, clear rules,
+   and full-width rows instead of nested cards and undersized text links. */
+html body main.account-shell .account-workspace{
+  grid-template-columns:210px minmax(0,1fr);
+  gap:clamp(28px,4vw,58px);
+}
+.account-shell .account-sections{
+  top:100px;
+  gap:25px;
+  padding:0 22px 0 0;
+}
+.account-shell .account-sections-group{
+  gap:4px;
+  padding-bottom:21px;
+}
+.account-shell .account-sections-heading{
+  margin-bottom:9px;
+  padding-left:15px;
+  letter-spacing:.16em;
+}
+.account-shell .account-sections a{
+  min-height:46px;
+  padding:10px 13px;
+  font:500 13px/1.45 var(--font-sans);
+  border-left:2px solid transparent;
+  border-radius:0;
+}
+.account-shell .account-sections a[aria-current]{
+  border-left-color:var(--ui-accent-color);
+  background:rgb(var(--theme-fg-rgb)/.055);
+}
+.account-shell .account-sections a:hover{
+  background:rgb(var(--theme-fg-rgb)/.055);
+}
+.account-shell .account-home-header{
+  align-items:end;
+  gap:32px;
+  min-height:180px;
+  padding:0 0 34px;
+}
+.account-shell .account-home-header h2{
+  max-width:none;
+  margin:0 0 13px;
+  font:400 clamp(38px,4.5vw,62px)/1.2 var(--font-serif);
+  letter-spacing:.015em;
+  text-wrap:balance;
+}
+.account-shell .account-home-header .account-note{
+  max-width:54ch;
+  font:14px/1.8 var(--font-sans);
+}
+.account-home-header-actions{
+  display:grid;
+  gap:8px;
+  flex:0 0 min(260px,35%);
+}
+.account-shell .account-overview-primary,
+.account-shell .account-overview-secondary{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:14px;
+  width:100%;
+  min-height:50px;
+  padding:12px 15px;
+  border:1px solid var(--theme-fg);
+  border-radius:var(--ui-radius-control);
+  font:600 13px/1.4 var(--font-sans);
+  text-decoration:none;
+  transition:background var(--ui-duration),color var(--ui-duration),border-color var(--ui-duration);
+}
+.account-shell .account-overview-primary{
+  background:var(--theme-fg);
+  color:var(--theme-bg);
+}
+.account-shell .account-overview-secondary{
+  background:transparent;
+  color:var(--theme-fg);
+  border-color:var(--workspace-line);
+}
+.account-shell .account-overview-primary:hover{opacity:1;background:var(--ui-accent-color);border-color:var(--ui-accent-color);color:var(--theme-bg)}
+.account-shell .account-overview-secondary:hover{border-color:var(--theme-fg);background:rgb(var(--theme-fg-rgb)/.055)}
+.account-overview-identity:not(:empty){display:inline-flex;margin:0 0 12px!important;padding:0!important;border:0!important;color:var(--ui-accent-color)!important;font:600 13px/1.5 var(--font-sans)!important}
+.account-shell .account-overview-guest{
+  margin:0 0 30px;
+  padding:22px 25px;
+  background:rgb(var(--theme-fg-rgb)/.035);
+  border-left:2px solid var(--ui-accent-color);
+}
+.account-shell .account-overview-guest h3{font:400 22px/1.35 var(--font-serif)}
+.account-shell .account-overview-guest p{font:13px/1.75 var(--font-sans)}
+.account-shell .account-home-grid{
+  grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);
+  gap:0;
+  border-top:1px solid var(--workspace-line);
+  border-bottom:1px solid var(--workspace-line);
+}
+.account-shell .account-home-grid>section{
+  display:flex;
+  flex-direction:column;
+  min-height:360px;
+  padding:31px clamp(20px,3vw,40px) 23px 0;
+  border:0;
+  border-radius:0;
+  background:none;
+}
+.account-shell .account-home-grid>section+section{
+  padding-right:0;
+  padding-left:clamp(20px,3vw,40px);
+  border-left:1px solid var(--workspace-line);
+}
+.account-shell .account-home-grid h3{
+  margin:11px 0 9px;
+  font:400 clamp(25px,2.6vw,34px)/1.3 var(--font-serif);
+}
+.account-shell .account-home-grid>section>p{
+  max-width:52ch;
+  font:13px/1.8 var(--font-sans);
+}
+.account-shell .account-home-work .account-overview-progress{
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:0;
+  margin:29px 0 0;
+  border-block:1px solid var(--workspace-line);
+}
+.account-shell .account-home-work .account-overview-progress a{
+  display:grid;
+  gap:16px;
+  align-content:space-between;
+  min-height:105px;
+  padding:15px 14px;
+  border:0;
+  border-right:1px solid var(--workspace-line);
+}
+.account-shell .account-home-work .account-overview-progress a:first-child{padding-left:0}
+.account-shell .account-home-work .account-overview-progress a:last-child{border-right:0}
+.account-shell .account-home-work .account-overview-progress span{font:12px/1.45 var(--font-sans)}
+.account-shell .account-home-work .account-overview-progress strong{font:400 30px/1 var(--font-serif)}
+.account-home-actions{margin-top:auto!important;padding-top:23px}
+.account-home-actions a,
+.account-shell .account-home-library-link{
+  display:flex!important;
+  align-items:center;
+  justify-content:space-between;
+  gap:15px;
+  width:100%;
+  min-height:47px;
+  margin:0!important;
+  padding:9px 1px!important;
+  border-top:1px solid var(--workspace-line);
+  color:var(--theme-fg)!important;
+  font:600 13px/1.5 var(--font-sans)!important;
+  text-decoration:none!important;
+}
+.account-home-actions a:hover,
+.account-shell .account-home-library-link:hover{color:var(--ui-accent-color)!important}
+.account-shell .account-home-library [data-account-recent]{
+  margin:23px 0 auto;
+  min-height:70px;
+}
+.account-shell .account-home-library [data-account-recent]>p{
+  font:13px/1.8 var(--font-sans);
+}
+.account-shell [data-account-recent]>a{
+  display:block;
+  padding:12px 0;
+  font:14px/1.5 var(--font-sans);
+  color:var(--theme-fg);
+  text-decoration:none;
+}
+.account-shell [data-account-recent]>a:hover{color:var(--ui-accent-color)}
+.account-shell .account-home-settings{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);
+  gap:32px;
+  align-items:start;
+  margin:0;
+  padding:34px 0 10px;
+  border:0;
+}
+.account-home-settings .account-kicker{display:block;margin:0 0 8px}
+.account-home-settings h3{margin:0 0 8px!important;font:400 25px/1.4 var(--font-serif)!important}
+.account-home-settings p{max-width:38ch;margin:0;font:13px/1.75 var(--font-sans)!important;color:var(--workspace-muted)}
+.account-home-settings nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--workspace-line)}
+.account-home-settings nav a{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:8px;
+  min-height:64px;
+  padding:12px;
+  border-right:1px solid var(--workspace-line);
+  border-bottom:1px solid var(--workspace-line);
+  color:var(--theme-fg);
+  font:500 13px/1.4 var(--font-sans);
+  text-decoration:none;
+  white-space:normal;
+}
+.account-home-settings nav a:last-child{border-right:0}
+.account-home-settings nav a:hover{color:var(--ui-accent-color);background:rgb(var(--theme-fg-rgb)/.035)}
+.account-panels>.account-section.account-surface:not([hidden]){
+  margin-top:0;
+  padding:0;
+  border:0;
+  border-radius:0;
+  background:none;
+}
+.account-panels>.account-section.account-surface:not([hidden])+.account-section.account-surface:not([hidden]){
+  margin-top:35px;
+  padding-top:30px;
+  border-top:1px solid var(--workspace-line);
+}
+.account-shell .account-panel-heading{
+  margin:0 0 26px;
+  padding:0 0 23px;
+}
+.account-shell .account-panel-heading h2{font:400 clamp(30px,3.2vw,43px)/1.24 var(--font-serif)}
+.account-shell .account-panel-heading p{font:14px/1.75 var(--font-sans)}
+.account-shell .account-note{font-size:13px}
+.account-library-panel .account-note{margin-bottom:20px}
+.account-library-panel .account-sync{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:10px;
+  margin:0 0 29px;
+  padding:15px 18px;
+  border-left:2px solid var(--ui-accent-color);
+  background:rgb(var(--theme-fg-rgb)/.035);
+}
+.account-library-panel .account-sync p{margin:0;font:13px/1.6 var(--font-sans)}
+.account-library-panel .account-sync .account-actions{margin:0!important}
+.account-library-panel .personal-tools.library-workspace{
+  grid-template-columns:220px minmax(0,1fr);
+  gap:34px;
+}
+.account-library-panel .library-sidebar{
+  padding-right:26px;
+  border-right:1px solid var(--workspace-line);
+}
+.account-library-panel .library-sidebar .personal-heading{
+  align-items:start;
+  flex-direction:column;
+  gap:11px;
+}
+.account-library-panel .personal-tools.library-workspace .library-sidebar h2{
+  font:400 20px/1.4 var(--font-serif);
+}
+.account-library-panel .library-sidebar .personal-heading>button{
+  width:100%;
+  min-height:44px;
+  padding:8px 12px;
+  justify-content:space-between;
+  border-color:var(--workspace-line);
+  font:600 12px/1.4 var(--font-sans);
+}
+.account-library-panel .library-sidebar .personal-heading>button span{font-size:17px;font-weight:400}
+.account-library-panel .library-lists{gap:3px;margin:20px 0}
+.account-library-panel .personal-tools .library-list{
+  min-height:45px;
+  padding:9px 11px;
+  border-radius:0;
+  font:500 13px/1.4 var(--font-sans);
+}
+.account-library-panel .personal-tools .library-list[aria-current=true]{
+  border-left:2px solid var(--ui-accent-color);
+  background:rgb(var(--theme-fg-rgb)/.055)!important;
+}
+.account-library-panel .library-heading{align-items:end;min-height:62px;margin-bottom:21px;padding-bottom:17px;border-bottom:1px solid var(--workspace-line)}
+.account-library-panel .personal-tools.library-workspace .library-heading h2{font:400 29px/1.3 var(--font-serif)}
+.account-library-panel .library-filters{gap:12px}
+.account-library-panel .library-filters label{font:12px/1.4 var(--font-sans)}
+.account-library-panel .personal-tools :is(button,input,select){font-family:var(--font-sans)}
+.account-library-panel .personal-tools .library-row{min-height:94px;padding:17px 4px}
+.account-library-panel .personal-tools .library-row h3{font:400 18px/1.45 var(--font-serif)}
+.account-library-panel .personal-tools .library-row h3 a{text-decoration:none}
+.account-library-panel .personal-tools .library-row h3 a:hover{color:var(--ui-accent-color)}
+.account-library-panel .personal-tools .labs-empty{
+  min-height:170px;
+  display:grid;
+  place-items:center;
+  border:1px solid var(--workspace-line);
+  background:rgb(var(--theme-fg-rgb)/.025);
+  font:13px/1.8 var(--font-sans);
+  text-align:center;
+}
+.account-library-panel .library-discover{
+  min-height:45px;
+  align-items:center;
+  padding:10px 0;
+  border-bottom:1px solid var(--workspace-line);
+  font:600 13px/1.4 var(--font-sans);
+  text-decoration:none;
+}
+@media(max-width:1100px){
+  html body main.account-shell .account-workspace{grid-template-columns:178px minmax(0,1fr);gap:25px}
+  .account-shell .account-home-grid{grid-template-columns:1fr 1fr}
+  .account-shell .account-home-work .account-overview-progress strong{font-size:25px}
+  .account-shell .account-home-settings{grid-template-columns:1fr}
+}
+@media(max-width:860px){
+  html body main.account-shell .account-workspace{grid-template-columns:1fr;gap:22px}
+  .account-shell .account-sections{position:static;display:flex;gap:0;overflow-x:auto;overflow-y:hidden;padding:0 0 12px;border-right:0;border-bottom:1px solid var(--workspace-line)}
+  .account-shell .account-sections-group{display:flex;flex:none;gap:3px;margin:0 12px 0 0;padding:0 12px 0 0;border:0;border-right:1px solid var(--workspace-line)}
+  .account-shell .account-sections-heading{display:none}
+  .account-shell .account-sections a{flex:none;min-height:44px;white-space:nowrap}
+  .account-library-panel .personal-tools.library-workspace{grid-template-columns:1fr;gap:22px}
+  .account-library-panel .library-sidebar{padding:0 0 18px;border-right:0;border-bottom:1px solid var(--workspace-line)}
+  .account-library-panel .library-sidebar .personal-heading{flex-direction:row;align-items:center}
+  .account-library-panel .library-sidebar .personal-heading>button{width:auto;gap:14px}
+  .account-library-panel .library-lists{display:flex;gap:7px;overflow-x:auto;margin:14px 0 0}
+  .account-library-panel .personal-tools .library-list{width:auto;min-width:max-content}
+  .account-library-panel .library-backup{margin-top:13px}
+}
+@media(max-width:640px){
+  .account-shell .account-home-header{align-items:stretch;flex-direction:column;gap:23px;min-height:0;padding-bottom:28px}
+  .account-shell .account-home-header h2{font-size:38px}
+  .account-home-header-actions{grid-template-columns:1fr 1fr;flex:auto}
+  .account-shell .account-overview-primary,.account-shell .account-overview-secondary{min-height:50px;padding:10px 12px;font-size:12px}
+  .account-shell .account-home-grid{grid-template-columns:1fr}
+  .account-shell .account-home-grid>section{min-height:0;padding:24px 0}
+  .account-shell .account-home-grid>section+section{padding:24px 0;border-left:0;border-top:1px solid var(--workspace-line)}
+  .account-shell .account-home-work .account-overview-progress a{min-height:94px;padding:13px 8px}
+  .account-shell .account-home-work .account-overview-progress span{font-size:11px}
+  .account-shell .account-home-settings{gap:22px;padding-top:26px}
+  .account-home-settings nav{grid-template-columns:1fr}
+  .account-home-settings nav a{min-height:52px;border-right:0}
+  .account-library-panel .library-filters{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .account-library-panel .library-filters>label:first-child{grid-column:1/-1}
+}
+@media(max-width:420px){.account-home-header-actions{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.account-shell .account-overview-primary,.account-shell .account-overview-secondary{transition:none}}

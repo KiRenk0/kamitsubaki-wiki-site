@@ -7,7 +7,7 @@ const kindGroups=Object.entries(c.entryKinds as Record<string,string>).reduce((g
 <AccountSync locale={locale}/>
 <div class="personal-tools library-workspace">
   <aside class="library-sidebar">
-    <div class="personal-heading"><h2>{c.collections}</h2><button type="button" data-create-open aria-label={c.create} title={c.create}>+</button></div>
+    <div class="personal-heading"><h2>{c.collections}</h2><button type="button" data-create-open><span aria-hidden="true">＋</span>{c.create}</button></div>
     <nav class="library-lists" data-library-lists aria-label={c.collections}></nav>
     <details class="personal-disclosure library-backup"><summary>{c.backup}</summary><div class="labs-actions"><button data-export>{c.export}</button><button data-import-open>{c.import}</button></div><input type="file" data-import accept="application/json,.json" hidden /></details>
   </aside>

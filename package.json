@@ -37,6 +37,13 @@
     "dev:online": "node scripts/dev-online.mjs"
   },
   "dependencies": {
+    "@fontsource-variable/montserrat": "5.3.0",
+    "@fontsource-variable/noto-sans-jp": "5.3.0",
+    "@fontsource-variable/noto-sans-sc": "5.3.0",
+    "@fontsource-variable/noto-sans-tc": "5.3.0",
+    "@fontsource-variable/noto-serif-jp": "5.3.0",
+    "@fontsource-variable/noto-serif-sc": "5.3.0",
+    "@fontsource-variable/noto-serif-tc": "5.3.0",
     "@vitalets/google-translate-api": "^9.2.1",
     "astro": "latest",
     "katex": "^0.17.0",

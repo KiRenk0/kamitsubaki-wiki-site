@@ -9,6 +9,19 @@ import { siteMarkdownOptions } from './src/lib/markdown.mjs';
 import thumbnails from './scripts/thumbnail-integration.mjs';
 
 const { PUBLIC_SITE_URL } = loadEnv(process.env.NODE_ENV || 'production', process.cwd(), 'PUBLIC_');
+const stableFontDisplay=()=>({
+  name:'wiki-stable-font-display',enforce:'pre',
+  transform(source,id){
+    if(!id.includes('/@fontsource-variable/')||!id.endsWith('.css'))return;
+    return {code:source.replaceAll('font-display: swap','font-display: block'),map:null};
+  },
+  generateBundle(_options,bundle){
+    for(const asset of Object.values(bundle)){
+      if(asset.type==='asset'&&asset.fileName.endsWith('.css')&&typeof asset.source==='string'&&asset.source.includes('Noto Sans SC Variable'))
+        asset.source=asset.source.replaceAll('font-display:swap','font-display:block');
+    }
+  }
+});
 
 export default defineConfig({
   site: process.env.PUBLIC_SITE_URL || PUBLIC_SITE_URL || productionOrigin,
@@ -18,7 +31,7 @@ export default defineConfig({
     // Separate caches when running an isolated preview beside the main dev server.
     cacheDir: process.env.VITE_CACHE_DIR,
     server: { strictPort: process.env.ONLINE_INTEGRATION === 'true' },
-    plugins: [tailwindcss()],
+    plugins: [stableFontDisplay(),tailwindcss()],
   },
   markdown: {
     syntaxHighlight: false,
