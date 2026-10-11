@@ -66,7 +66,14 @@ test('a stalled catalog request times out and a later visit can retry', async ()
       signal.addEventListener('abort', () => reject(signal.reason), { once: true });
     });
   }, 10);
-  await assert.rejects(load(), { name: 'TimeoutError' });
-  assert.equal(await load(), good);
-  assert.equal(calls, 2);
+  // Node's AbortSignal.timeout does not keep the event loop alive. The mocked
+  // fetch has no socket, so retain a handle until the timeout has been observed.
+  const keepAlive = setInterval(() => {}, 1000);
+  try {
+    await assert.rejects(load(), { name: 'TimeoutError' });
+    assert.equal(await load(), good);
+    assert.equal(calls, 2);
+  } finally {
+    clearInterval(keepAlive);
+  }
 });
