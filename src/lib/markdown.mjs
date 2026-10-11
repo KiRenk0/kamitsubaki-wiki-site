@@ -10,12 +10,14 @@ import remarkMediaEmbed from './mediaEmbed.mjs';
 import { wikiHtmlSchema } from './htmlPolicy.mjs';
 import rehypeRawHtmlMarkdownLinks from './rawHtmlMarkdownLinks.mjs';
 import remarkWikiShortcodes from './wikiShortcodes.mjs';
+import rehypeDetailsSummary from './detailsSummary.mjs';
 
 const externalLinksOptions = { target: '_blank', rel: ['noopener', 'noreferrer'] };
 const baseRehypePlugins = [
   rehypeRawHtmlMarkdownLinks,
   rehypeRaw,
   [rehypeSanitize, wikiHtmlSchema],
+  rehypeDetailsSummary,
   rehypeMaterializeMediaEmbeds,
 ];
 

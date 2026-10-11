@@ -4,9 +4,11 @@ export interface EntityData {
  name?: string; title?: string; summary?: string; description?: string; profileTagline?: string;
  romanizedName?: string; romanizedTitle?: string; releaseDate?: string; duration?: string;
  genres?: string[]; primaryArtist?: string; sources?: Source[];
+ roles?: string[];
+ officialLinks?: {url: string; label?: string; platform?: string}[];
  performers?: {entity: string; role?: string}[];
  credits?: {entity?: string; name?: string; role: string}[];
- tracks?: {songId?: string; title?: string; disc?: number; number?: number}[];
+ tracks?: {songId?: string; title?: string; disc?: number; number?: number; duration?: string}[];
  [field: string]: any;
 }
 export interface EntityEntry {filePath: string; body: string; data: EntityData}

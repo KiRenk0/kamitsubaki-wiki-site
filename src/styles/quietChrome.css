@@ -10,14 +10,16 @@
   pointer-events: none;
   color: var(--theme-fg);
 }
-.home-chrome__brand { pointer-events: auto; }
+.home-chrome__brand { display:block;max-width:min(38vw,270px);padding:8px 11px;border:1px solid rgb(var(--theme-fg-rgb) / .14);border-radius:var(--ui-radius-control);background:var(--theme-panel-solid);box-shadow:0 4px 20px rgb(0 0 0 / .06);pointer-events:auto;}
 .home-chrome__brand p {
+  margin:0;
   font-size: 10px;
   line-height: 1.7;
   letter-spacing: .25em;
   text-transform: uppercase;
   opacity: .74;
 }
+@media(max-width:700px){.home-chrome__brand{max-width:calc(100vw - 205px);padding:6px 8px}.home-chrome__brand p{overflow-wrap:anywhere}}
 .home-chrome__actions {
   display: flex;
   align-items: center;
@@ -29,6 +31,7 @@
   pointer-events: auto;
   box-shadow: 0 4px 20px rgb(0 0 0 / .06);
 }
+.home-chrome .site-nav__home-cluster { min-width:0; }
 .home-chrome__actions > .account-nav, .home-chrome__labs, .home-chrome__search, .home-chrome__menu > summary {
   display: flex;
   min-height: 44px;
@@ -42,6 +45,10 @@
   letter-spacing: .12em;
   color: rgb(var(--theme-fg-rgb) / .76);
   cursor: pointer;
+}
+.home-chrome__actions > .account-nav {
+  display:block;min-width:0;max-width:128px;line-height:44px;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
 }
 .home-chrome__labs span { color: var(--theme-accent-color); }
 .home-chrome__search { width: 44px; padding: 0; }
@@ -60,6 +67,7 @@
   width: min(336px, calc(100vw - 32px));
   max-height: calc(100dvh - 112px);
   overflow-y: auto;
+  overscroll-behavior: contain;
   padding: 20px;
   border: 1px solid rgb(var(--theme-fg-rgb) / .14);
   border-radius: var(--ui-radius-panel);
@@ -235,6 +243,23 @@ body:has(.tools-dock[open]) .ai-chat__bubble { display: none; }
   .home-chrome__labs span { display: none; }
 }
 
+/* Keep the brand readable and reserve stable targets for search and menu. */
+@media (max-width:540px) {
+  .home-chrome { gap:12px;padding:12px;align-items:center; }
+  .home-chrome__brand { max-width:112px;padding:6px 8px;box-shadow:none; }
+  .home-chrome__brand p { font-size:8px;letter-spacing:.1em;overflow-wrap:normal; }
+  .home-chrome__actions { flex:none;max-width:calc(100% - 112px);padding:2px; }
+  .home-chrome__actions > .account-nav { max-width:76px;padding-inline:8px;font-size:11px;letter-spacing:0; }
+  .home-chrome__labs { display:none; }
+  .home-chrome__search { width:44px; }
+  .home-chrome__menu > summary { width:44px;padding:0; }
+  .home-chrome__menu > summary > span { display:none; }
+  .home-chrome__menu svg { width:18px; }
+  .home-chrome__panel { top:76px;right:12px;width:calc(100vw - 24px);max-height:calc(100dvh - 92px);padding:16px; }
+  .home-chrome__links a { overflow-wrap:anywhere; }
+  .home-chrome__preference-row,.home-chrome__preferences .appearance-row { grid-template-columns:minmax(0,1fr) 188px;gap:8px; }
+}
+
 .home-chrome__eyebrow { display: flex; justify-content: space-between; gap: 8px; }
 .home-chrome__eyebrow kbd { font: inherit; letter-spacing: 0; }
 
@@ -245,3 +270,86 @@ body:has(.tools-dock[open]) .ai-chat__bubble { display: none; }
 
 /* Closed tools never expose fixed-position descendants during first paint. */
 .tools-dock:not([open]) > .tools-dock__menu { display: none; }
+
+/* Readers keep one launcher. Menu entries reuse the existing support and AI panels. */
+html body .tools-dock--reader {
+  --reader-tools-edge: max(var(--floating-action-edge), env(safe-area-inset-right));
+  --reader-tools-bottom: max(var(--floating-action-edge), env(safe-area-inset-bottom));
+  right: var(--reader-tools-edge);
+  bottom: var(--reader-tools-bottom);
+}
+html body .tools-dock--reader .tools-dock__menu {
+  right: var(--reader-tools-edge);
+  bottom: calc(var(--reader-tools-bottom) + var(--floating-action-size) + 12px);
+  width: min(288px, calc(100dvw - 2 * var(--reader-tools-edge)));
+  max-height: calc(100dvh - var(--reader-tools-bottom) - var(--floating-action-size) - 104px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+html body .tools-dock--reader :is(.support-float--docked, .ai-chat__launcher--docked) {
+  position: static;
+  display: block;
+  width: auto;
+  height: auto;
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+}
+html body .tools-dock--reader :is(.support-float__toggle, .ai-chat__orb) {
+  position: static;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  width: 100%;
+  height: 46px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: var(--ui-radius-item);
+  background: transparent;
+  color: rgb(var(--theme-fg-rgb) / .78);
+  box-shadow: none;
+  transform: none;
+  translate: none;
+  scale: 1;
+}
+html body .tools-dock--reader :is(.support-float__toggle, .ai-chat__orb):hover {
+  color: var(--theme-fg);
+  background: rgb(var(--theme-fg-rgb) / .06);
+}
+html body .tools-dock--reader :is(.support-float__close, .ai-chat__orb-corner) { display: none; }
+html body .tools-dock--reader .support-float__toggle svg { opacity: 1; transform: none; }
+html body .tools-dock--reader :is(.support-float__toggle, .ai-chat__orb) > svg { width: 19px; height: 19px; flex: none; }
+html body .tools-dock--reader .support-float__content {
+  position: fixed;
+  right: var(--reader-tools-edge);
+  bottom: calc(var(--reader-tools-bottom) + var(--floating-action-size) + 12px);
+  width: min(320px, calc(100dvw - 2 * var(--reader-tools-edge)));
+  max-height: calc(100dvh - var(--reader-tools-bottom) - var(--floating-action-size) - 104px);
+  padding: 24px;
+  transform: none;
+  z-index: 60;
+}
+html body .tools-dock--reader .support-float__panel-close {
+  position: absolute;
+  z-index: 1;
+  top: 8px;
+  right: 8px;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: var(--ui-radius-control);
+  background: transparent;
+  color: var(--theme-fg);
+  font: 24px/1 var(--font-sans);
+  cursor: pointer;
+}
+html body .tools-dock--reader .support-float__eyebrow { padding-right: 24px; }
+html body .tools-dock--reader :is(.social-contact__panel, .live-events__panel) {
+  right: var(--reader-tools-edge);
+  bottom: calc(var(--reader-tools-bottom) + var(--floating-action-size) + 12px);
+  width: min(336px, calc(100dvw - 2 * var(--reader-tools-edge)));
+  max-height: calc(100dvh - var(--reader-tools-bottom) - var(--floating-action-size) - 104px);
+}

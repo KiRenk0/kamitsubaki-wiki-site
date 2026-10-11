@@ -1,0 +1,31 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>确认弹窗定位回归</title>
+<style>body{padding:24px!important}main{min-height:1600px}button{padding:10px;border:1px solid;margin:8px}#result{position:fixed;bottom:0;left:0;background:white;color:black;padding:10px;z-index:99999}dialog.fixture-bubble{position:fixed;top:20px;left:20px;margin:0;padding:16px}</style>
+<main><h1>确认弹窗定位回归（不连接任何数据接口）</h1><button id="draft">删除草稿</button><button id="local">移除本机副本</button><button id="long">超长名称</button><button id="bubble">编辑气泡</button><p>将此文件临时复制到 public/__qa-dialogs.html，用开发服务器访问。检查桌面、320px、横屏；打开确认后取消或按 Esc。</p></main><output id="result">等待测试</output>
+<script type="module">
+import '/src/styles/global.css';
+import '/src/styles/modal.css';
+import '/src/styles/creatorWorkspace.css';
+import {confirmDialog} from '/src/lib/confirmDialog.mjs';
+const result=document.querySelector('#result');
+for(const id of ['draft','local','long'])document.getElementById(id).onclick=async event=>{
+ const trigger=event.currentTarget;
+ const title=id==='local'?'移除本机副本':'删除草稿';
+ const task=confirmDialog(`确认处理「${id==='long'?'长名称与标签'.repeat(180):'定位回归示例'}」？`,{title,accept:title,cancel:'取消',className:'creator-delete-dialog',actionsClass:'creator-delete-dialog-actions',acceptClass:'creator-delete-confirm',cancelClass:''});
+ requestAnimationFrame(()=>{
+  const dialog=document.querySelector('dialog:modal'),r=dialog.getBoundingClientRect(),v=window.visualViewport;
+  const dx=Math.abs(r.left+r.width/2-(v?.width||innerWidth)/2),dy=Math.abs(r.top+r.height/2-(v?.height||innerHeight)/2);
+  const fits=r.left>=15&&r.top>=15&&r.right<=innerWidth-15&&r.bottom<=innerHeight-15;
+  const safeFocus=document.activeElement?.textContent==='取消';
+  const pass=dx<=1.5&&dy<=1.5&&fits&&safeFocus;
+  result.textContent=`${pass?'PASS':'FAIL'} ${innerWidth}×${innerHeight} 中心偏差 ${dx.toFixed(1)},${dy.toFixed(1)}px · 边界 ${fits} · 默认取消 ${safeFocus}`;
+ });
+ const accepted=await task;
+ result.textContent+=` · ${accepted?'确认（仅测试，无删除操作）':'取消'} · 焦点返回 ${document.activeElement===trigger}`;
+};
+document.querySelector('#bubble').onclick=()=>{
+ const bubble=document.createElement('dialog');bubble.className='fixture-bubble';bubble.textContent='普通气泡保持锚定位置';const close=document.createElement('button');close.textContent='关闭';close.onclick=()=>bubble.remove();bubble.append(close);document.body.append(bubble);bubble.show();
+ const r=bubble.getBoundingClientRect();result.textContent=`${r.left===20&&r.top===20?'PASS':'FAIL'} 非模态气泡 ${r.left},${r.top}`;
+};
+const scenario=new URLSearchParams(location.search).get('case');
+if(['draft','local','long','bubble'].includes(scenario))document.getElementById(scenario).click();
+</script></html>

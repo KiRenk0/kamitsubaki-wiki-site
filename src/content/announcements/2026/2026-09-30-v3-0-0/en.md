@@ -3,8 +3,8 @@ locale: "en"
 translationKey: "2026-09-30-v3-0-0"
 date: "2026.09.30"
 type: "SITE UPDATE"
-title: "V3.0.0: The image archive and a timeline you can contribute to"
-summary: "Browse and upload standalone photos, classify them later, and drag, zoom, or contribute to the timeline. Site updates now have their own history track."
+title: "V3.0.0: The image archive, timeline and contribution experience"
+summary: "Introducing the image archive and contributor timeline, with a shared image library, clearer review workflows, safer drafts and consistent interfaces."
 order: -8
 pinned: true
 draft: false
@@ -36,10 +36,27 @@ Signed-in contributors can [add an event or revise one](/en/chronicle/submit/). 
 
 The [site timeline](/en/chronicle/?scope=site) gives each site announcement an update event. Drag through the history and select an event to open it in the new [announcement reader](/en/announcements/), where previous notices remain available.
 
-## Follow your contributions
+## 05 · Where to contribute
+
+- **Wiki entries**: use the [site editor](/en/contribute/editor/). Submission creates a GitHub PR for review; changes appear after merging and deploying the site.
+- **Images**: upload and select files in the [image library](/en/media/). Files are stored by the site's image hosting service and can illustrate entries or be submitted to the public archive with supporting details. Uploading a file does not publish it in the archive.
+- **Archive photos and sets**: use [photo contributions](/en/gallery/manage/) to provide sources, credits and classification, then submit for review. Public images can receive classification suggestions.
+- **Articles**: the [article editor](/en/articles/submit/) continues to use cloud drafts and site moderation, separately from wiki PRs.
+
+## 06 · Drafts and review actions
+
+The [Creator Center](/en/account/creator/) brings together progress, reviewer feedback and available actions. Revise, withdraw and delete controls depend on the contribution's current state and appear in consistent locations.
+
+Article drafts now check their cloud version. If another tab or device saves a newer version, the editor preserves local edits and reports the conflict instead of silently overwriting it. Login return paths, account switching and API error messages have also been corrected.
 
 [My Space](/en/account/) and the Creator Center distinguish local drafts, saved drafts, items needing attention, reviews in progress, items awaiting site publication, and public work. The [documentation center](/en/docs/) explains both the on-site editor and GitHub paths, including preparation, saving, submission, review, and common problems.
 
-Photo submissions now show a clear receipt and progress state; review comments appear beside the relevant contribution or photo. You can withdraw work that is not public and delete drafts or withdrawn submissions you no longer need. Reviewers can compare changed fields and article text directly in the administration interface.
+## 07 · A more compact, consistent interface
 
-Menus, readers, and the administration interface have also been brought into the same design. If you find a missing image credit or an incorrect date, please send the page and a verifiable source through the site's contact entry.
+Archive search and filters can collapse; mobile filters share one panel. Active conditions can be removed directly and remain consistent when navigating back. The people and groups section initially shows 8 entries, using shared expansion controls and animation.
+
+Selection actions and popovers in the editor have been refined. Moderation uses a queue beside the selected record; content management offers a denser card layout. Account information is consolidated under Site accounts. Logs, record identifiers, times and diffs use JetBrains Mono, while prose retains its reading fonts.
+
+The public archive now uses a version-checked cache. Refreshing or reopening the archive after approval retrieves the latest public content. Private drafts and review states are excluded from this cache.
+
+When reporting a problem, please include the page URL, steps and the message shown.

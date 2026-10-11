@@ -1,22 +1,48 @@
 ---
 import ReaderRecord from './ReaderRecord.astro';
+import ExpandControl from './ExpandControl.astro';
 import {classificationCopy} from '../lib/classificationTree.mjs';
-interface Props {records:{title:string;href?:string;detail?:string}[];id:string;locale:string}
-const {records,id,locale}=Astro.props;const copy=classificationCopy(locale);const size=12;
+import {resolveLocaleCopy} from '../lib/i18n.mjs';
+import {readerRecordYear,UNKNOWN_RECORD_YEAR} from '../lib/readerRecordFilters.mjs';
+interface Props {records:{title:string;href?:string;detail?:string;releaseDate?:string;searchTerms?:string[]}[];id:string;locale:string;filterable?:boolean}
+const {records,id,locale,filterable=false}=Astro.props as Props;const copy=classificationCopy(locale);const size=8;
+const filters=resolveLocaleCopy({zh:{search:'搜索作品名称',year:'发行年份',all:'全部年份',unknown:'年份未记载',clear:'清除筛选',empty:'没有符合条件的作品。',results:'匹配 {matched} / 共 {total}'},ja:{search:'作品名を検索',year:'発売年',all:'すべての年',unknown:'年の記載なし',clear:'絞り込みを解除',empty:'条件に合う作品はありません。',results:'一致 {matched} / 全 {total}'},en:{search:'Search work names',year:'Release year',all:'All years',unknown:'Year not recorded',clear:'Clear filters',empty:'No works match these filters.',results:'{matched} matching / {total} total'}},locale);
+const years=filterable?[...new Set(records.map(record=>readerRecordYear(record.releaseDate)).filter(Boolean))].sort().reverse():[];
+const hasUnknown=filterable&&records.some(record=>!readerRecordYear(record.releaseDate));
 ---
-<div class="reader-record-list">
- <div class="reader-record-grid">{records.slice(0,size).map((record,index)=><ReaderRecord record={record} index={index}/>)}</div>
+<div class="reader-record-list" data-record-filterable={filterable||undefined}>
+ {filterable&&<div class="reader-record-filters" data-reader-record-filters hidden>
+  <div class="reader-record-filter-controls">
+   <label class="reader-record-search"><span class="sr-only">{filters.search}</span><input type="search" data-record-query placeholder={filters.search} autocomplete="off"/></label>
+   <label class="reader-record-year"><span class="sr-only">{filters.year}</span><select data-record-year-filter aria-label={filters.year} disabled={!years.length}><option value="">{years.length?filters.all:filters.unknown}</option>{years.map(year=><option value={year}>{year}</option>)}{years.length>0&&hasUnknown&&<option value={UNKNOWN_RECORD_YEAR}>{filters.unknown}</option>}</select></label>
+   <button type="button" data-record-filter-clear hidden>{filters.clear}</button>
+  </div>
+  <p class="reader-record-filter-status" data-record-filter-status data-record-result-label={filters.results} role="status" aria-live="polite"></p>
+ </div>}
+ {filterable&&<p class="reader-record-filter-empty" data-record-filter-empty hidden>{filters.empty}</p>}
+ <div class="reader-record-grid">{records.slice(0,size).map((record,index)=><ReaderRecord record={record} index={index} filterable={filterable}/>)}</div>
  {records.length>size&&<>
  <div id={id} class="artist-collapsible" data-artist-collapsible data-page-size={size} data-total={records.length-size} data-expanded="false" aria-hidden="true" inert>
   <div class="artist-collapsible__inner reader-record-grid"></div>
-  <template data-directory-overflow>{records.slice(size).map((record,index)=><ReaderRecord record={record} index={index+size} overflow/>)}</template>
+  <template data-directory-overflow>{records.slice(size).map((record,index)=><ReaderRecord record={record} index={index+size} overflow filterable={filterable}/>)}</template>
  </div>
- <button type="button" class="artist-expand-btn" aria-expanded="false" aria-controls={id} data-expand-label={copy.more} data-collapse-label={copy.collapse}><span class="artist-expand-divider"><span class="artist-expand-line artist-expand-line--left"></span><span class="artist-expand-copy"><span data-artist-expand-copy>{copy.more}</span><span data-artist-expand-count>＋{Math.min(size,records.length-size)}</span></span><span class="artist-expand-chevron" aria-hidden="true">⌄</span><span class="artist-expand-line artist-expand-line--right"></span></span></button>
- <button type="button" class="reader-record-collapse" data-artist-collapse aria-controls={id} hidden>{copy.collapse}</button>
+ <ExpandControl controls={id} expandLabel={copy.more} collapseLabel={copy.collapse} count={Math.min(size,records.length-size)} withCollapse />
  </>}
 </div>
 <style is:global>
 .entity-related .reader-record-list [hidden]{display:none!important}
+.entity-related .reader-record-filters{margin:0 0 12px;color:var(--reader-muted);font:12px/1.7 var(--font-sans)}
+.entity-related .reader-record-filter-controls{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px}
+.entity-related .reader-record-search{flex:1 1 220px;min-width:0}
+.entity-related .reader-record-search input{width:100%}
+.entity-related .reader-record-filter-controls :is(input,select,button){min-height:44px;border:0;border-bottom:1px solid var(--reader-line);border-radius:0;background:none;color:var(--reader-text);font:inherit;padding:8px 0}
+.entity-related .reader-record-filter-controls select{max-width:100%;cursor:pointer}
+.entity-related .reader-record-filter-controls select option{background:var(--reader-paper);color:var(--reader-text)}
+.entity-related .reader-record-filter-controls select:disabled{color:var(--reader-muted);cursor:default}
+.entity-related .reader-record-filter-controls input::placeholder{color:var(--reader-muted)}
+.entity-related .reader-record-filter-controls :is(input,select,button):focus-visible{outline:2px solid var(--theme-accent-color);outline-offset:3px}
+.entity-related .reader-record-filter-status{margin:8px 0 0;font:11px/1.7 var(--font-sans)}
+.entity-related .reader-record-filter-empty{padding:20px 0;color:var(--reader-muted);font:13px/1.8 var(--font-sans)}
 .entity-related .reader-record-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:24px}
 .entity-related .reader-record{position:relative;display:flex;align-items:center;gap:12px;min-width:0;min-height:84px;padding:16px 12px;border-bottom:1px solid var(--reader-line);border-radius:4px;text-decoration:none;color:var(--reader-text,var(--theme-fg));transition:background-color 400ms ease,color 400ms ease,opacity 500ms ease,transform 500ms cubic-bezier(.22,1,.36,1);transition-delay:0ms,0ms,calc(var(--artist-row-order,0)*28ms),calc(var(--artist-row-order,0)*28ms)}
 .entity-related .reader-record-index{font:9px var(--font-mono);color:var(--reader-muted);opacity:.65;flex:0 0 20px}
@@ -28,8 +54,7 @@ const {records,id,locale}=Astro.props;const copy=classificationCopy(locale);cons
 .entity-related a.reader-record:hover .reader-record-arrow{transform:translate(2px,-2px);color:var(--theme-accent-color)}
 .entity-related .reader-record:focus-visible{outline:2px solid var(--theme-accent-color);outline-offset:2px}
 .entity-related .reader-record.artist-row-collapsed:not([data-revealed]){opacity:0;transform:translateY(-9px)}
-.entity-related .reader-record-collapse{display:block;margin:8px auto 0;padding:10px 20px;min-height:44px;border:0;background:none;font:11px var(--font-sans);color:var(--reader-muted);cursor:pointer}
-.entity-related .artist-expand-btn{margin:20px 0 0;min-height:44px}
+.entity-related .artist-expand-actions{margin:20px 0 0}.entity-related .artist-expand-btn{min-height:44px}
 @media(max-width:760px){.entity-related .reader-record-grid{grid-template-columns:1fr}.entity-related .reader-record{min-height:76px;padding:14px 8px}}
 @media(prefers-reduced-motion:reduce){.entity-related .reader-record,.entity-related .reader-record-arrow{transition:none}.entity-related a.reader-record:hover .reader-record-arrow{transform:none}}
 </style>
@@ -37,6 +62,7 @@ const {records,id,locale}=Astro.props;const copy=classificationCopy(locale);cons
 <script>
 import {expandRecordBatch} from '../lib/recordExpansion.mjs';
 document.querySelectorAll<HTMLElement>('.reader-record-list').forEach(list=>{
+ if(list.hasAttribute('data-record-filterable')){import('../scripts/readerRecordFilters.js').then(({initReaderRecordFilters})=>initReaderRecordFilters(list));return;}
  const overflow=list.querySelector<HTMLElement>('[data-artist-collapsible]');
  const inner=overflow?.querySelector<HTMLElement>('.artist-collapsible__inner');
  if(overflow&&inner)new ResizeObserver(()=>{if(overflow.dataset.expanded==='true')overflow.style.setProperty('--artist-collapsible-height',`${inner.scrollHeight}px`);}).observe(inner);

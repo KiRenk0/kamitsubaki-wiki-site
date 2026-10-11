@@ -24,7 +24,7 @@ test('all migrated V2 aliases still resolve to existing V3 entities',()=>{
 });
 test('shared reader retains background, sidebar, sources, license, contributors and editable source routes',async()=>{
  const reader=await source('src/components/EntityArticle.astro');for(const name of ['ReaderRecordList','ReaderDisclosure','ReaderSources','ContentLicenseNotice','ContributorRoster','EntityInfoBox','MorphingSwitcher','MemoryCorridorEntryLink','DatabaseArticleLinks'])assert.match(reader,new RegExp('<'+name+'[\\s/>]'));
- assert.match(reader,/backgroundImage=\{d\.presentation\?\.image\}/);assert.match(reader,/slot="sidebar"/);assert.match(reader,/contribute\/editor\/\?target=/);assert.match(reader,/wiki-artist-prose/);assert.match(reader,/noindex:d\.contentStatus==='stub'/);
+ assert.match(reader,/<Reader\b[^>]*backgroundImage=\{/);assert.match(reader,/slot="sidebar"/);assert.match(reader,/contribute\/editor\/\?target=/);assert.match(reader,/wiki-artist-prose/);assert.match(reader,/noindex:d\.contentStatus==='stub'/);
  const styles=await source('src/styles/global.css');assert.match(styles,/html\[data-theme='light'\] \.wiki-theme-shell/);
 });
 test('homepage keeps the established numbered music sections and shared directory',async()=>{

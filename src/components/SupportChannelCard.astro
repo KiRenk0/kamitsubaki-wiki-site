@@ -11,7 +11,7 @@ const href = supportExternalUrl(channel.url);
 const name = resolveLocaleCopy(channel.name, locale);
 ---
 
-<article class="support-channel" data-available={String(Boolean(href))} aria-labelledby={`channel-${channel.id}`}>
+<article class="support-channel" data-available={String(Boolean(href))} data-card-kind={href?'action':undefined} aria-labelledby={`channel-${channel.id}`}>
   <div class="support-channel__top">
     <span class="support-index" aria-hidden="true">{String(index + 1).padStart(2, '0')}</span>
     <span class="support-status"><span aria-hidden="true"></span>{href ? copy.available : copy.unavailable}</span>

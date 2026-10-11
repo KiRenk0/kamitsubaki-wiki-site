@@ -202,11 +202,10 @@ html[data-theme='light'] .labs-shell {
   align-items: center;
 }
 .labs-empty {
-  padding: 45px 20px;
-  border: 1px dashed var(--b-line);
-  text-align: center;
-  color: var(--b-muted);
-}
+  padding:32px 0;
+  border:0;
+  text-align:left;
+  color: var(--b-muted);border-radius:0;background:none;box-shadow:none;border-top:1px solid var(--b-line);}
 .labs-explore-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -444,9 +443,10 @@ html[data-theme='light'] .labs-shell {
 
 /* Tool contents use the same compact materials as the navigation directory. */
 html body main.workspace-page .labs-graph-layout{gap:20px;align-items:start}
-html body main.workspace-page :is(.labs-graph,.labs-graph-detail,.labs-world-route){border:1px solid var(--workspace-line);border-radius:var(--workspace-radius);background:var(--workspace-surface)}
-html body main.workspace-page :is(.labs-graph-detail,.labs-world-route){padding:20px}
-html body main.workspace-page .labs-world-route{margin-bottom:16px}
+html body main.workspace-page .labs-graph{border:1px solid var(--workspace-line);border-radius:var(--workspace-radius);background:var(--workspace-surface)}
+html body main.workspace-page :is(.labs-graph-detail,.labs-world-route){border:0;border-radius:0;background:none;border-top:1px solid var(--workspace-line)}
+html body main.workspace-page :is(.labs-graph-detail,.labs-world-route){padding:24px 0;}
+html body main.workspace-page .labs-world-route{margin-bottom:24px;}
 html body main.workspace-page .labs-world-route h2{font:400 22px/1.6 var(--font-serif);margin:10px 0}
 html body main.workspace-page .labs-world-route p{font-size:13px;line-height:1.9}
 html body main.workspace-page .labs-toolbar{gap:16px;padding:20px;border:1px solid var(--workspace-line);border-radius:var(--workspace-radius);background:var(--workspace-surface)}

@@ -1,15 +1,17 @@
 ---
-import ProviderIcon from './ProviderIcon.astro';
 import { accountCopy } from '../lib/accountCopy.mjs';
+import {centralAccountFrontendOrigin} from '../lib/centralAccountOrigins.mjs';
 const {locale='zh'}=Astro.props;
 const c=accountCopy(locale);
 const apiBase=import.meta.env.PUBLIC_AI_OBSERVER_API_BASE || 'https://api.kamitsubaki.wiki';
+const siteOrigin=centralAccountFrontendOrigin(apiBase,import.meta.env.PUBLIC_SITE_URL||Astro.site?.origin);
+const signIn=new URL('/auth/sign-in',apiBase);signIn.searchParams.set('locale',locale);signIn.searchParams.set('returnTo',`${siteOrigin}${Astro.url.pathname}${Astro.url.search}`);
 ---
 <div data-account-config data-api-base={apiBase} data-locale={locale} data-copy={JSON.stringify(c)}></div>
 <dialog class="account-dialog" data-account-dialog aria-labelledby="account-login-title" aria-describedby="account-login-note">
   <button class="account-close" type="button" data-account-close aria-label={c.close}>×</button>
   <p class="account-eyebrow">KAMITSUBAKI WIKI</p><h2 id="account-login-title">{c.loginTitle}</h2><p id="account-login-note">{c.loginNote}</p>
-  <div class="account-actions"><a class="account-button account-primary" data-account-login-provider="github"><ProviderIcon provider="github"/><span>{c.github}</span></a><a class="account-button" data-account-login-provider="google"><ProviderIcon provider="google"/><span>{c.google}</span></a></div>
+  <div class="account-actions"><a class="account-button account-primary" data-account-sign-in href={signIn.toString()}><span>{c.login} / {locale==='en'?'Create account':locale==='ja'?'登録':'注册'}</span><span aria-hidden="true">→</span></a></div>
   <a class="account-link" href={`/${locale}/account/`}>{c.title} →</a>
 </dialog>
 <script>import '../scripts/accountStore.js';</script>

@@ -1,13 +1,15 @@
-/* Shared secondary-page geometry. Artwork and reader layouts remain page-owned. */
+/* Card Diet: entity, action and feature cards may keep an enclosing surface.
+ * Ordinary groups, facts, status and guidance use type, spacing and dividers.
+ * Controls, popovers and dialogs retain the boundaries needed to operate them. */
 html body main.workspace-page[data-workspace-page] {
   --workspace-max:1280px;
   --workspace-gutter:var(--ui-space-12);
-  --workspace-top:108px;
+  --workspace-top:124px;
   --workspace-gap:var(--ui-space-8);
   --workspace-line:rgb(var(--theme-fg-rgb)/.13);
   --workspace-muted:var(--ui-color-muted);
-  --workspace-title:var(--ui-font-title);
-  --workspace-control-height:var(--ui-hit-target);
+  --workspace-title:clamp(28px,2.6vw,36px);
+  --workspace-control-height:40px;
   --workspace-motion:var(--ui-duration-panel);
   --workspace-surface:rgb(var(--theme-fg-rgb)/.025);
   --workspace-shadow:var(--ui-shadow-panel);
@@ -29,7 +31,7 @@ html body main.workspace-page[data-workspace-width=reading]{--workspace-max:1120
 .workspace-page .workspace-section-heading{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:20px}
 .workspace-page .workspace-section-heading h2{font:400 23px/1.6 var(--font-serif);letter-spacing:.025em;margin:0}
 .workspace-page .workspace-section-heading p{font:12px/1.7 var(--font-sans);color:var(--workspace-muted);margin:0}
-.workspace-page .workspace-surface{padding:24px;border:1px solid var(--workspace-line);border-radius:var(--workspace-radius);background:var(--workspace-surface)}
+.workspace-page .workspace-surface{padding:24px 0;border:0;border-radius:0;background:none;box-shadow:none;border-top:1px solid var(--workspace-line);}
 .workspace-page .workspace-text-link{display:inline-flex;gap:8px;align-items:center;min-height:38px;padding:6px 0;color:inherit;text-decoration:none;border-bottom:1px solid var(--workspace-line);font-size:13px;transition:color var(--workspace-motion),border-color var(--workspace-motion)}
 .workspace-page .workspace-text-link:hover{color:var(--ui-accent-color);border-color:currentColor}
 
@@ -37,9 +39,9 @@ html body main.workspace-page[data-workspace-width=reading]{--workspace-max:1120
 html body main.workspace-page .workspace-header{position:relative;display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:18px 32px;padding:0 0 24px;margin:0 0 var(--workspace-gap);border-bottom:1px solid var(--workspace-line)}
 html body main.workspace-page .workspace-header::after{content:'＋';position:absolute;right:0;bottom:-9px;padding-left:8px;background:var(--theme-bg);color:var(--workspace-muted);font:14px var(--font-mono)}
 html body main.workspace-page .workspace-heading{flex:1 1 320px;min-width:0}
-html body main.workspace-page .workspace-heading h1{font:400 var(--workspace-title)/1.4 var(--font-serif);letter-spacing:.035em;margin:0 0 10px}
+html body main.workspace-page .workspace-heading h1{font:400 var(--workspace-title)/1.35 var(--font-serif);letter-spacing:.025em;margin:0 0 12px;text-wrap:balance}
 html body main.workspace-page .workspace-heading>.workspace-eyebrow{font:11px/1.6 var(--font-mono);letter-spacing:.15em;margin:0 0 10px;color:var(--workspace-muted)}
-html body main.workspace-page .workspace-heading>p:not(.workspace-eyebrow){font:13px/1.85 var(--font-sans);max-width:60ch;margin:0;color:var(--workspace-muted);opacity:1}
+html body main.workspace-page .workspace-heading>p:not(.workspace-eyebrow){font:14px/1.8 var(--font-sans);max-width:64ch;margin:0;color:var(--workspace-muted);opacity:1;text-wrap:pretty}
 html body main.workspace-page .workspace-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-left:auto;justify-content:flex-end}
 html body main.workspace-page .workspace-header-status{flex-basis:100%;margin:0}
 html body main.workspace-page .workspace-header-status p{margin:0;font-size:13px}
@@ -60,14 +62,6 @@ html body .workspace-page .workspace-button:is(:disabled,[aria-disabled=true]){o
 html body .workspace-page .workspace-button:focus-visible{outline:2px solid var(--ui-accent-color);outline-offset:3px}
 .workspace-group-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;align-items:start}
 
-/* Filters are a toolbar, not an enclosing form card. */
-html body main.workspace-page form.workspace-filters[data-workspace-filters]{display:flex;flex-wrap:wrap;align-items:flex-end;gap:12px;padding:0 0 20px;margin:0;border:0;border-bottom:1px solid var(--workspace-line);border-radius:0;background:none;box-shadow:none}
-html body main.workspace-page form.workspace-filters[data-workspace-filters] label{display:grid;flex:1 1 130px;gap:6px;min-width:0;padding:0;border:0;background:none;margin:0}
-html body main.workspace-page form.workspace-filters[data-workspace-filters] label:has(input[type=search]){flex:3 1 240px}
-html body main.workspace-page form.workspace-filters[data-workspace-filters] label>span{font:12px/1.5 var(--font-sans);color:var(--workspace-muted)}
-html body main.workspace-page form.workspace-filters[data-workspace-filters] :is(input[type=search],select){width:100%;min-height:var(--workspace-control-height);padding:8px 10px;border:1px solid var(--workspace-line);border-radius:var(--ui-radius-control);background:var(--theme-bg);font:13px/1.5 var(--font-sans);color:var(--theme-fg);letter-spacing:normal;transition:border-color var(--workspace-motion)}
-html body main.workspace-page form.workspace-filters[data-workspace-filters] :is(input[type=search],select):focus{border-color:var(--ui-accent-color);box-shadow:none}
-html body main.workspace-page form.workspace-filters[data-workspace-filters] .filter-reset{align-self:flex-end;min-height:var(--workspace-control-height);margin:0;padding:8px;border:0;background:none;color:var(--workspace-muted)}
 .workspace-filter-actions{display:flex;gap:4px;flex:0 0 auto;align-items:center}
 .workspace-filter-more{position:relative;flex:0 0 auto}
 .workspace-filter-more>summary{display:flex;align-items:center;gap:12px;min-height:var(--workspace-control-height);padding:8px 12px;border:1px solid var(--workspace-line);border-radius:var(--ui-radius-control);font-size:13px;cursor:pointer;list-style:none}
@@ -93,11 +87,8 @@ html body main.workspace-page form.workspace-filters[data-workspace-filters] .fi
  html body main.workspace-page .workspace-actions{flex-basis:100%;margin:0;justify-content:flex-start}
  html body main.workspace-page .workspace-back{min-height:44px}
  html body main.workspace-page .workspace-back-row{margin-bottom:-12px}
- .workspace-page .workspace-surface{padding:20px}.workspace-page .workspace-section-heading{flex-wrap:wrap}.workspace-page .workspace-section-heading h2{font-size:21px}
+ .workspace-page .workspace-surface{padding:24px 0;border:0;border-radius:0;background:none;box-shadow:none;border-top:1px solid var(--workspace-line);}.workspace-page .workspace-section-heading{flex-wrap:wrap}.workspace-page .workspace-section-heading h2{font-size:21px}
  .workspace-group-grid{grid-template-columns:1fr}
- html body main.workspace-page form.workspace-filters[data-workspace-filters]{gap:12px}
- html body main.workspace-page form.workspace-filters[data-workspace-filters]>label{flex-basis:calc(50% - 12px)}
- html body main.workspace-page form.workspace-filters[data-workspace-filters]>label:has(input[type=search]){flex-basis:100%}
  .workspace-filter-more>div{left:0;right:auto;max-width:calc(100vw - 40px)}
 }
 @media(pointer:coarse){html body main.workspace-page[data-workspace-page]{--workspace-control-height:44px}html body main.workspace-page .workspace-back{min-height:44px}}

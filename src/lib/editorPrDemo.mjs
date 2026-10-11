@@ -1,5 +1,8 @@
 export const submissionLabels = {open:'待审核',changes:'需要修改',merged:'已合并 · 发布中',published:'已发布',failed:'部署失败',closed:'已关闭'};
 export const isOpen = entry => !!entry && ['open','changes'].includes(entry.status);
+export async function resolutionAssetIds(snapshot, selected, upload) {
+  return snapshot ? upload(snapshot) : (selected?.assets || []).map(asset=>asset.id);
+}
 export function submitRevision(previous, snapshot, summary, source, number) {
   if (previous && previous.path !== snapshot.path) throw new Error('投稿词条不匹配。');
   if (previous && !isOpen(previous)) throw new Error('这份投稿已结束，请先在“我的投稿”中查看结果。');

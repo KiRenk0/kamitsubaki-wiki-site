@@ -1,4 +1,4 @@
-html body main.chronicle-editor[data-workspace-page] { --workspace-top: 84px; --workspace-gap: 24px; }
+html body main.chronicle-editor[data-workspace-page] { --workspace-gap: 28px; }
 .chronicle-editor .timeline-era-index {
   display: flex;
   gap: 10px;
@@ -145,6 +145,7 @@ html body main.chronicle-editor[data-workspace-page] { --workspace-top: 84px; --
 .chronicle-editor .timeline-scroll {
   min-width: 0;
   overflow: auto hidden;
+  touch-action: pan-y;
   scrollbar-width: thin;
   overscroll-behavior-x: contain;
   cursor: grab;

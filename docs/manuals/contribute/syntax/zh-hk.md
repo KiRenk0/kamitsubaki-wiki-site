@@ -5,7 +5,7 @@ locale: "zh-hk"
 order: 4
 title: "Markdown 與詞條屬性完整指南"
 summary: "從第一次修改到新增完整詞條：本站 Markdown、frontmatter、媒體、內容結構和提交前檢查的統一參考。"
-generatedFromHash: "c88d512e10cd915d7281"
+generatedFromHash: "6c7ccd28ae2592b404b9"
 generated: true
 generatedFrom: "zh"
 ---
@@ -333,6 +333,8 @@ H{{sub::2}}O 与 x{{sup::2}}
 </div>
 
 </div>
+
+<span id="ai-lyrics-html"></span>
 
 ### AI 輔助生成歌詞 HTML
 

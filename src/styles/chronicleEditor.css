@@ -1,11 +1,11 @@
 .chronicle-submit [hidden]{display:none!important}
-.chronicle-editor-status{min-height:44px;padding:12px 16px;margin:0 0 22px;border-left:2px solid var(--theme-accent-color);background:rgb(var(--theme-fg-rgb)/.04);font:12px/1.7 var(--font-sans)}
+.chronicle-editor-status{min-height:44px;padding:12px 0 12px 16px;margin:0 0 22px;border-left:2px solid var(--theme-accent-color);background:none;font:12px/1.7 var(--font-sans)}
 .chronicle-editor-status a{color:var(--theme-accent-color);font-weight:700}
-.chronicle-conflict{margin:0 0 24px;padding:19px;border:1px solid var(--theme-fg);background:var(--theme-bg)}
+.chronicle-conflict{margin:0 0 24px;padding:20px 0;border:0;background:none;border-radius:0;box-shadow:none;border-block:1px solid var(--ui-color-error);}
 .chronicle-conflict h2{margin:0 0 8px;font:400 23px var(--font-serif)}
 .chronicle-conflict>p{margin:0 0 14px;color:var(--workspace-muted);font:12px/1.7 var(--font-sans)}
 .chronicle-conflict-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-bottom:16px}
-.chronicle-conflict-columns>div{min-width:0;padding:12px;border:1px solid var(--workspace-line)}
+.chronicle-conflict-columns>div{min-width:0;padding:16px 0;border:0;border-radius:0;background:none;box-shadow:none;border-top:1px solid var(--workspace-line);}
 .chronicle-conflict-columns h3{margin:0 0 8px;font:600 12px var(--font-sans)}
 .chronicle-conflict-columns p{margin:0;white-space:pre-wrap;overflow-wrap:anywhere;font:12px/1.7 var(--font-sans)}
 .chronicle-conflict>button{min-height:43px;padding:9px 14px;border:1px solid var(--theme-fg);border-radius:3px;background:var(--theme-fg);color:var(--theme-bg);font:12px var(--font-sans);cursor:pointer}
@@ -22,7 +22,7 @@
 .chronicle-language-tabs button[aria-pressed=true]{border-color:var(--theme-fg);background:var(--theme-fg);color:var(--theme-bg)}
 .chronicle-language-tabs small{margin-left:5px;font-size:10px;opacity:.7}
 .chronicle-editor-fields{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
-.chronicle-editor-layout fieldset{margin:16px 0;padding:10px 14px;border:1px solid var(--workspace-line)}
+.chronicle-editor-layout fieldset{margin:16px 0;padding:18px 0;border:0;border-top:1px solid var(--workspace-line);}
 .chronicle-editor-layout legend{padding:0 7px;font:12px var(--font-sans)}
 .chronicle-editor-layout fieldset label{display:inline-flex;align-items:center;gap:7px;margin:7px 16px 7px 0;cursor:pointer}
 .chronicle-editor-layout input[type=checkbox]{accent-color:var(--theme-accent-color);width:16px;height:16px}
@@ -34,12 +34,12 @@
 .chronicle-add-source{margin-top:13px}
 .chronicle-editor-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
 .chronicle-editor-actions [data-submit]{border-color:var(--theme-fg);background:var(--theme-fg);color:var(--theme-bg)}
-.chronicle-editor-preview{position:sticky;top:80px;padding:21px;border:1px solid var(--workspace-line);background:rgb(var(--theme-fg-rgb)/.02)}
+.chronicle-editor-preview{position:sticky;top:80px;padding:20px 0;border:0;background:none;border-radius:0;box-shadow:none;border-top:1px solid var(--workspace-line);}
 .chronicle-editor-preview>span{font:10px var(--font-mono);letter-spacing:.12em;color:var(--workspace-muted)}
 .chronicle-editor-preview h2{font-size:20px;margin:10px 0 22px}.chronicle-editor-preview h3{font:400 21px/1.5 var(--font-serif);margin:12px 0}
 .chronicle-editor-preview time,.chronicle-editor-preview [data-preview-language]{font:11px var(--font-mono);color:var(--theme-accent-color)}
 .chronicle-editor-preview p,.chronicle-editor-preview div{font:12px/1.8 var(--font-sans);overflow-wrap:anywhere}
 .chronicle-submit :is(button,input,textarea,select):focus-visible{outline:2px solid var(--theme-accent-color);outline-offset:2px}
-@media(max-width:800px){.chronicle-editor-layout{grid-template-columns:1fr;gap:10px}.chronicle-editor-preview{position:static}.chronicle-editor-fields{grid-template-columns:1fr 1fr}}
+@media(max-width:800px){.chronicle-editor-layout{grid-template-columns:1fr;gap:10px}.chronicle-editor-preview{position:static;border:0;border-radius:0;background:none;box-shadow:none;padding:20px 0;border-top:1px solid var(--workspace-line);}.chronicle-editor-fields{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.chronicle-editor-fields,.chronicle-source-primary,.chronicle-source-secondary{grid-template-columns:1fr}.chronicle-source-primary>button{justify-self:start}.chronicle-editor-layout form>section{padding-block:20px}}
 @media(max-width:560px){.chronicle-conflict-columns{grid-template-columns:1fr}}

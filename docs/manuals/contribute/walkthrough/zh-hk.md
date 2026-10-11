@@ -5,7 +5,7 @@ locale: "zh-hk"
 order: 10
 title: "從一條資料到公開頁面：完整投稿演練"
 summary: "用一條詞條修訂走完查證、站內編輯、GitHub 投稿、審核和發佈，並附可複製的 AI 提示詞。"
-generatedFromHash: "44eb063dc51de044c52d"
+generatedFromHash: "ef25279addc7542d1491"
 generated: true
 generatedFrom: "zh"
 ---
@@ -67,7 +67,7 @@ GitHub 路線則創建 Pull Request，寫清目標詞條、事實來源、修改
 
 > 下面是我修改前後的兩段文字及來源。請逐句指出：哪些主張在來源中找不到、哪些引用離事實太遠、是否誤刪原文有效信息、是否把推測寫成事實。不要直接新增事實。修改前：[粘貼] 修改後：[粘貼] 來源：[粘貼]
 
-得到建議後，請**逐項回到原始頁面人工核對**。歌詞、譯文、圖片署名和時間戳尤其需要自己複查。舊版歌詞 AI 排版提示詞與站內擴展語法示例保留在[完整語法指南](/zh-hk/docs/contribute/syntax/#ai-辅助生成歌词-html)。
+得到建議後，請**逐項回到原始頁面人工核對**。歌詞、譯文、圖片署名和時間戳尤其需要自己複查。舊版歌詞 AI 排版提示詞與站內擴展語法示例保留在[完整語法指南](/zh-hk/docs/contribute/syntax/#ai-lyrics-html)。
 
 ## 提交前最後檢查
 

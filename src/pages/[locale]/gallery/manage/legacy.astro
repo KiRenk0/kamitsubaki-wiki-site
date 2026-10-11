@@ -1,4 +1,6 @@
 ---
+import '../../../../styles/submissionLayout.css';
+import {contributionLayoutCopy} from '../../../../lib/contributionLayoutCopy.mjs';
 import WorkspaceLayout from '../../../../layouts/WorkspaceLayout.astro';
 import {supportedLocales,resolveLocaleCopy} from '../../../../lib/i18n.mjs';
 import {galleryManagerMarkup,galleryManagerStyles} from '../../../../lib/galleryManager.js';
@@ -10,10 +12,30 @@ const copy=resolveLocaleCopy({
  ja:{title:'設定資料の投稿・編集',intro:'キャラクターと画像を選び、補足情報は後から追加できます。変更は審査後に公開されます。',back:'ギャラリーへ',login:'ログインして参加'},
  en:{title:'Contribute reference material',intro:'Choose a character and image. Add other details now or later; changes are published after review.',back:'Back to gallery',login:'Sign in to contribute'}
 },locale);
+const layout=contributionLayoutCopy(locale);
+let legacyMarkup=galleryManagerMarkup.replace(/<header>[\s\S]*?<\/header>/,'');
+const imageBlock=legacyMarkup.match(/<label>图片[\s\S]*?<img[^>]*data-upload-preview[^>]*\/>/)?.[0]||'';
+legacyMarkup=legacyMarkup.replace(imageBlock,'')
+ .replace('<form data-gallery-form>','<form data-gallery-form class="legacy-gallery-editor">')
+ .replace('<label>角色 · 必填',`<div class="submission-columns"><section class="submission-panel"><header class="submission-panel-header"><h3><span>01</span>${layout.info}</h3><p>${layout.legacyHint}</p></header><label>角色 · 必填`)
+ .replace('</details><div class="gallery-actions">',`</details></section><section class="submission-panel"><header class="submission-panel-header"><h3><span>02</span>${layout.images}</h3></header>${imageBlock}</section></div><div class="gallery-actions">`);
+
 ---
-<WorkspaceLayout locale={locale} title={copy.title} intro={copy.intro} path="/gallery/manage/" eyebrow="EXPLORE / VISUAL ARCHIVE" backHref={`/${locale}/gallery/`} backLabel={copy.back} noindex mainAttributes={{class:'gallery-manage-shell','data-gallery-api':api,'data-gallery-login':`/${locale}/account/`}}>
+<WorkspaceLayout locale={locale} title={copy.title} intro={copy.intro} path="/gallery/manage/" eyebrow="EXPLORE / VISUAL ARCHIVE" backHref={`/${locale}/gallery/`} backLabel={copy.back} noindex mainAttributes={{class:'gallery-manage-shell','data-gallery-api':api,'data-locale':locale}}>
   <Fragment slot="actions"><a class="context-action" data-tone="secondary" data-gallery-login hidden>{copy.login}</a></Fragment>
   <style is:global set:html={galleryManagerStyles}/>
-  <div set:html={galleryManagerMarkup.replace(/<header>[\s\S]*?<\/header>/,'')}/>
+  <div set:html={legacyMarkup}/>
 </WorkspaceLayout>
-<script>import {initGalleryManager} from '../../../../lib/galleryManager.js';const root=document.querySelector<HTMLElement>('[data-gallery-api]');if(root)initGalleryManager(root,{api:root.dataset.galleryApi,login:root.dataset.galleryLogin});</script>
+<script>import {initGalleryManager} from '../../../../lib/galleryManager.js';const root=document.querySelector<HTMLElement>('[data-gallery-api]');if(root)initGalleryManager(root,{api:root.dataset.galleryApi,locale:root.dataset.locale});</script>
+
+<style is:global>
+.gallery-manage-shell .gallery-workbench{display:block}
+.gallery-manage-shell .legacy-gallery-editor>h2{margin:0 0 18px;font:400 22px/1.4 var(--font-serif)}
+.gallery-manage-shell .legacy-gallery-editor .submission-panel-header{margin-bottom:16px;padding:0;border:0}
+.gallery-manage-shell .legacy-gallery-editor .submission-panel-header p{opacity:1}
+.gallery-manage-shell .legacy-gallery-editor .gallery-upload-preview{height:360px;margin-top:16px;border-radius:var(--ui-radius-control)}
+.gallery-manage-shell .legacy-gallery-editor>.gallery-actions{justify-content:flex-end;padding:16px 0;margin:0 0 24px;border-bottom:1px solid var(--workspace-line)}
+.gallery-manage-shell .gallery-workbench>section{padding-top:16px}
+.gallery-manage-shell .gallery-submissions{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px}
+.gallery-manage-shell .gallery-manager label{margin:12px 0;gap:6px}
+</style>

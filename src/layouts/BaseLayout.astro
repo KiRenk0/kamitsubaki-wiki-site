@@ -17,6 +17,7 @@ import { absoluteUrl, buildSearchAlternates, buildPageStructuredData, serializeS
 import { getLocalizedSite } from '../lib/homeData.mjs';
 import { uiTokensVersion } from '../lib/uiTokensVersion.mjs';
 import '../styles/global.css';
+import '../styles/modal.css';
 import '../styles/quietChrome.css';
 import '../styles/interface.css';
 import '../styles/contextActions.css';
@@ -27,6 +28,8 @@ import '../styles/polish.css';
 import '../styles/experienceMotion.css';
 import '../styles/navigationMotion.css';
 import '../styles/floatingActions.css';
+import '../styles/typography.css';
+import '../styles/formControls.css';
 
 type PageMetadata = {
   title?: string;
@@ -207,13 +210,15 @@ const liveEventsCopy = siteContent?.liveEvents;
 
     <div class="noise-bg"></div>
 
-    <SupportFloat locale={lang} />
-    <ToolsDock lang={lang}>
+    {!reading && <SupportFloat locale={lang} />}
+    <ToolsDock lang={lang} reading={reading}>
+      {reading && <SupportFloat locale={lang} docked />}
       <slot name="tools" />
       {isLocalizedHome && liveEventsCopy && <LiveEventsWidget lang={lang} copy={liveEventsCopy} />}
       {socialContactCopy && <SocialContactWidget lang={lang} copy={socialContactCopy} />}
+      {reading && aiChatCopy && <AiChatWidget lang={lang} copy={aiChatCopy} launcher="dock" showPanel={false} />}
     </ToolsDock>
-    {aiChatCopy && <AiChatWidget lang={lang} copy={aiChatCopy} />}
+    {aiChatCopy && <AiChatWidget lang={lang} copy={aiChatCopy} launcher={reading ? 'none' : 'floating'} />}
 
     <slot />
     <AccountChrome locale={lang} />
@@ -222,6 +227,8 @@ const liveEventsCopy = siteContent?.liveEvents;
 
 
     <script>
+      import {installDetailsMotion} from '../lib/detailsMotion.mjs';
+      installDetailsMotion();
       import '../scripts/navigationMotion.js';
       import '../scripts/themeToggle.js';
       import '../scripts/siteInteractions.js';

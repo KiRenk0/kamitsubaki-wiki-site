@@ -136,9 +136,7 @@ export function encodeFilterHash(state = {}) {
   const q = typeof state.q === 'string' ? state.q.trim() : '';
   if (q) params.set('q', q);
 
-  if (Array.isArray(state.cat) && state.cat.length) {
-    params.set('cat', state.cat.filter(Boolean).join(','));
-  }
+  if (Array.isArray(state.cat)) params.set('cat', state.cat.length ? state.cat.filter(Boolean).join(',') : 'none');
 
   const year = state.year && state.year !== YEAR_ALL ? String(state.year) : '';
   if (year) params.set('year', year);
@@ -177,7 +175,8 @@ export function decodeFilterHash(hash, options = {}) {
 
   let cat = null;
   const catRaw = params.get('cat');
-  if (catRaw) {
+  if (catRaw === 'none') cat = [];
+  else if (catRaw) {
     const parsed = catRaw
       .split(',')
       .map((value) => value.trim())

@@ -1,3 +1,4 @@
+import {loginUrl as centralLoginUrl,logout as centralLogout,state as centralAccountState} from './accountStore.js';
 import {isLocalEditorMode} from '../lib/localEditorMode.mjs';
 import { setSegmentedValue } from '../lib/aiChatControls.mjs';
 import {
@@ -8,6 +9,8 @@ import {
 } from '../lib/aiResponseLocale.mjs';
 import { parseAiStreamChunk } from '../lib/aiStream.mjs';
 
+const widgetRevision=root=>Number(root.dataset.accountGeneration)||0;
+const widgetRequests=new WeakMap();
 const widgets = document.querySelectorAll('[data-ai-chat]');
 const legacyLauncherPositionKey = 'kfw_ai_launcher_position';
 let turnstileLoader;
@@ -365,12 +368,20 @@ function normalizeCopy(root) {
 
 function setExpanded(root, expanded) {
   const launcher = document.querySelector('[data-ai-launcher]');
+  const wasExpanded = root.classList.contains('is-open');
+  const toggle = document.querySelector('[data-ai-toggle]');
   root.classList.toggle('is-open', expanded);
+  root.inert = !expanded;
   root.querySelector('[data-ai-panel]')?.setAttribute('aria-hidden', expanded ? 'false' : 'true');
   document.querySelector('[data-ai-toggle]')?.setAttribute('aria-expanded', String(expanded));
   launcher?.classList.toggle('is-hidden', expanded);
   if (!expanded) {
     toggleSettings(root, false);
+    if (wasExpanded) {
+      const dock = toggle?.closest('[data-reader-tools]');
+      const target = dock && !dock.open ? dock.querySelector('summary') : toggle;
+      target?.focus({ preventScroll: true });
+    }
   }
 }
 
@@ -492,6 +503,7 @@ function updateAuthState(root, copy, viewer) {
   const isUser = viewer?.kind === 'user';
 
   root.dataset.viewerKind = isUser ? 'user' : 'anonymous';
+  root.dataset.viewerId=isUser?(viewer.userId||''):'';
 
   if (status) {
     status.textContent = isUser
@@ -500,7 +512,7 @@ function updateAuthState(root, copy, viewer) {
   }
 
   oauthButtons.forEach((button) => {
-    if (button instanceof HTMLButtonElement) {
+    if (button instanceof HTMLElement) {
       button.hidden = isUser;
     }
   });
@@ -532,6 +544,7 @@ function showAuthNote(root, message) {
 }
 
 async function bootstrap(root) {
+  const revision=widgetRevision(root);
   if(isLocalEditorMode())return;
   const apiBase = root.dataset.apiBase || '';
   if (!apiBase) {
@@ -554,6 +567,7 @@ async function bootstrap(root) {
   }
 
   const data = await response.json();
+  if(revision!==widgetRevision(root))return;
   const copy = normalizeCopy(root);
   updateAuthState(root, copy, data.viewer);
   if (data.viewer?.kind === 'user') {
@@ -674,47 +688,6 @@ async function requestTurnstileToken(root, content, copy, options = {}) {
   }
 }
 
-async function startOAuth(root, provider, trigger, copy) {
-  const apiBase = root.dataset.apiBase || '';
-  if (!apiBase || !['github', 'google'].includes(provider)) {
-    return;
-  }
-
-  const challengeAnchor = trigger instanceof HTMLElement ? trigger.closest('.ai-chat__auth-actions') || trigger : null;
-  const turnstileToken = await requestTurnstileToken(root, challengeAnchor, copy, {
-    action: 'oauth_login',
-    updateContent: false,
-  });
-  if (!turnstileToken) {
-    const note = root.querySelector('[data-ai-auth-note]');
-    if (note instanceof HTMLElement) {
-      note.hidden = false;
-      note.textContent = copy.challengeFallback || copy.authErrorFallback || '';
-    }
-    return;
-  }
-
-  const returnTo = window.location.href;
-  const url = new URL(apiBase + '/api/auth/oauth/' + provider + '/start');
-  url.searchParams.set('returnTo', returnTo);
-  url.searchParams.set('theme',document.documentElement.dataset.theme==='dark'?'dark':'light');
-  const response = await fetch(url.toString(), {
-    method: 'POST',
-    credentials: 'include',
-    headers: {
-      'Content-Type': 'application/json',
-      Accept: 'application/json',
-    },
-    body: JSON.stringify({ turnstileToken }),
-  });
-  delete root.dataset.turnstileToken;
-  const data = await response.json();
-  if (!response.ok || !data.authorizationUrl) {
-    throw new Error('OAuth security challenge failed.');
-  }
-  window.location.assign(data.authorizationUrl);
-}
-
 async function logout(root, copy) {
   const apiBase = root.dataset.apiBase || '';
   if (!apiBase) {
@@ -722,12 +695,7 @@ async function logout(root, copy) {
   }
 
   try {
-    const logoutResponse = await fetch(`${apiBase}/api/auth/logout`, {
-      method: 'POST',
-      credentials: 'include',
-      headers: { Accept: 'application/json' },
-    });
-    if (!logoutResponse.ok) throw new Error('logout_failed');
+    await centralLogout();
     window.dispatchEvent(new Event('kamitsubaki-auth-changed'));
   } catch { return; }
   {
@@ -914,6 +882,7 @@ function openHistoryDialog(root, { title, message = '', value = '', confirmLabel
 }
 
 async function renameThread(root, threadId, title) {
+  const revision=widgetRevision(root);
   if (!threadId || !title?.trim()) {
     return;
   }
@@ -923,12 +892,14 @@ async function renameThread(root, threadId, title) {
     headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
     body: JSON.stringify({ title: title.trim() }),
   });
+  if(revision!==widgetRevision(root))return;
   if (response.ok) {
     await loadThreadList(root);
   }
 }
 
 async function deleteThread(root, threadId) {
+  const revision=widgetRevision(root);
   if (!threadId) {
     return;
   }
@@ -937,6 +908,7 @@ async function deleteThread(root, threadId) {
     credentials: 'include',
     headers: { Accept: 'application/json' },
   });
+  if(revision!==widgetRevision(root))return;
   if (!response.ok) {
     return;
   }
@@ -948,12 +920,13 @@ async function deleteThread(root, threadId) {
 }
 
 async function clearAllThreads(root, copy) {
+  const revision=widgetRevision(root);
   const confirmed = await openHistoryDialog(root, {
     title: copy.clearHistoryLabel || '',
     message: copy.clearHistoryConfirm || '',
     confirmLabel: copy.clearHistoryLabel || '',
   });
-  if (!confirmed) {
+  if (!confirmed||revision!==widgetRevision(root)) {
     return;
   }
   const response = await fetch(`${root.dataset.apiBase}/api/ai/v2/conversations?agentId=observer`, {
@@ -961,6 +934,7 @@ async function clearAllThreads(root, copy) {
     credentials: 'include',
     headers: { Accept: 'application/json' },
   });
+  if(revision!==widgetRevision(root))return;
   if (!response.ok) {
     showAuthNote(root, copy.authErrorFallback || copy.fallbackOffline || '');
     return;
@@ -976,6 +950,7 @@ async function clearAllThreads(root, copy) {
 }
 
 async function loadThreadList(root) {
+  const revision=widgetRevision(root);
   const apiBase = root.dataset.apiBase || '';
   if (!apiBase || root.dataset.viewerKind !== 'user') {
     return;
@@ -990,6 +965,7 @@ async function loadThreadList(root) {
   }
 
   const data = await response.json();
+  if(revision!==widgetRevision(root))return;
   renderThreadList(root, Array.isArray(data.conversations) ? data.conversations : []);
 }
 
@@ -1002,6 +978,7 @@ function clearMessages(root) {
 }
 
 async function loadThreadDetail(root, threadId) {
+  const revision=widgetRevision(root);
   const apiBase = root.dataset.apiBase || '';
   const messages = root.querySelector('[data-ai-messages]');
   if (!apiBase || !(messages instanceof HTMLElement)) {
@@ -1017,6 +994,7 @@ async function loadThreadDetail(root, threadId) {
   }
 
   const data = await response.json();
+  if(revision!==widgetRevision(root))return;
   root.dataset.currentThreadId = data.conversation?.id || data.thread?.id || threadId;
   clearMessages(root);
   for (const item of data.messages || []) {
@@ -1039,6 +1017,7 @@ async function loadThreadDetail(root, threadId) {
 }
 
 async function readStream(response, assistantMessage, messages, copy, root) {
+  const revision=widgetRevision(root);
   const { content } = assistantMessage;
   const locale = root?.dataset.locale || document.documentElement.lang || 'zh';
   const contentType = response.headers.get('Content-Type') || '';
@@ -1063,6 +1042,7 @@ async function readStream(response, assistantMessage, messages, copy, root) {
 
   while (true) {
     const { value, done } = await reader.read();
+    if(revision!==widgetRevision(root)){await reader.cancel();return {needsChallenge:false};}
     if (done) {
       break;
     }
@@ -1152,10 +1132,9 @@ function consumeAuthResult() {
     return;
   }
 
-  const provider = url.searchParams.get('aiAuthProvider') === 'google' ? 'Google' : 'GitHub';
   const locale = document.documentElement.lang || 'zh';
   const message = result === 'success'
-    ? ({ zh: `${provider} 登录成功`, ja: `${provider} ログインが完了しました`, en: `Signed in with ${provider}` }[locale] || `Signed in with ${provider}`)
+    ? ({ zh: '登录成功', ja: 'ログインしました', en: 'Signed in' }[locale] || 'Signed in')
     : ({ zh: '登录没有完成，请重新尝试。', ja: 'ログインを完了できませんでした。もう一度お試しください。', en: 'Sign-in did not complete. Please try again.' }[locale] || 'Sign-in did not complete. Please try again.');
 
   url.searchParams.delete('aiAuth');
@@ -1263,7 +1242,9 @@ function initWidget(root) {
 
   const openPanel = () => {
     setExpanded(root, true);
-    window.setTimeout(() => input.focus(), 160);
+    window.setTimeout(() => {
+      if (root.classList.contains('is-open')) input.focus();
+    }, 160);
     ensureWidgetReady().catch(showLoadError);
   };
 
@@ -1289,6 +1270,25 @@ function initWidget(root) {
 
   close.addEventListener('click', () => setExpanded(root, false));
   scrim?.addEventListener('click', () => setExpanded(root, false));
+  root.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape' || !root.classList.contains('is-open')) return;
+    // Native history dialogs and conversation controls handle their own Escape.
+    if (event.defaultPrevented || root.querySelector('dialog[open]')) return;
+    event.preventDefault();
+    event.stopPropagation();
+    if (settingsPopover instanceof HTMLElement && !settingsPopover.hidden) {
+      toggleSettings(root, false);
+      settingsToggle?.focus({ preventScroll: true });
+      return;
+    }
+    const historyPanel = root.querySelector('[data-ai-history-panel]');
+    if (historyPanel instanceof HTMLElement && !historyPanel.hidden) {
+      toggleHistory(root, false);
+      historyToggle?.focus({ preventScroll: true });
+      return;
+    }
+    setExpanded(root, false);
+  });
   settingsToggle?.addEventListener('click', () => {
     const popover = root.querySelector('[data-ai-settings-popover]');
     toggleSettings(root, popover instanceof HTMLElement ? popover.hidden : true);
@@ -1420,21 +1420,7 @@ function initWidget(root) {
   });
 
   oauthButtons.forEach((button) => {
-    button.addEventListener('click', async () => {
-      if (button instanceof HTMLButtonElement) {
-        button.disabled = true;
-        try {
-          await startOAuth(root, button.dataset.aiOauth || '', button, copy);
-        } catch {
-          const note = root.querySelector('[data-ai-auth-note]');
-          if (note instanceof HTMLElement) {
-            note.hidden = false;
-            note.textContent = copy.authErrorFallback || copy.challengeFallback || '';
-          }
-          button.disabled = false;
-        }
-      }
-    });
+    if(button instanceof HTMLAnchorElement)button.href=centralLoginUrl();
   });
 
   if (logoutButton instanceof HTMLButtonElement) {
@@ -1479,6 +1465,7 @@ function initWidget(root) {
   });
 
   form.addEventListener('submit', async (event) => {
+    const revision=widgetRevision(root);
     event.preventDefault();
 
     const message = input.value.trim();
@@ -1489,6 +1476,7 @@ function initWidget(root) {
     const apiBase = root.dataset.apiBase || '';
     const locale = root.dataset.locale || document.documentElement.lang || 'zh';
     const localeRequest = buildAiLocaleRequest(locale);
+    const controller=new AbortController();widgetRequests.set(root,controller);
     const userMessage = createMessage('user', message);
     messages.append(userMessage.message);
     input.value = '';
@@ -1521,6 +1509,7 @@ function initWidget(root) {
       return fetch(`${apiBase}/api/ai/v2/chat`, {
         method: 'POST',
         credentials: 'include',
+        signal:controller.signal,
         headers: {
           'Content-Type': 'application/json',
           Accept: 'text/event-stream',
@@ -1547,6 +1536,7 @@ function initWidget(root) {
       }
 
       let response = await requestChat(turnstileToken);
+      if(revision!==widgetRevision(root)){await response.body?.cancel();return;}
       delete root.dataset.turnstileToken;
 
       let result = await readStream(response, assistantMessage, messages, copy, root);
@@ -1559,6 +1549,7 @@ function initWidget(root) {
           startThinkingMessage(assistantMessage, copy);
           scrollMessages(messages);
           response = await requestChat(retryToken);
+          if(revision!==widgetRevision(root)){await response.body?.cancel();return;}
           delete root.dataset.turnstileToken;
           result = await readStream(response, assistantMessage, messages, copy, root);
         }
@@ -1567,13 +1558,18 @@ function initWidget(root) {
         loadThreadList(root).catch(() => {});
       }
     } catch {
+      if(revision!==widgetRevision(root))return;
       finishThinkingMessage(assistantMessage);
       setMessageMarkdown(assistantMessage.content, copy.fallbackOffline || '', localeRequest.locale);
     } finally {
-      setThinking(root, copy, false);
-      scrollMessages(messages);
+      if(widgetRequests.get(root)===controller)widgetRequests.delete(root);
+      if(revision===widgetRevision(root)){setThinking(root, copy, false);scrollMessages(messages);}
     }
   });
 }
 
 widgets.forEach(initWidget);
+window.addEventListener('kamitsubaki-account-state',()=>{
+  if(!['user','guest'].includes(centralAccountState.auth))return;
+  for(const root of widgets){const id=centralAccountState.viewer?.userId||'',copy=normalizeCopy(root),viewer=centralAccountState.viewer||{kind:'anonymous'};if(root.dataset.viewerId===id){updateAuthState(root,copy,viewer);continue;}widgetRequests.get(root)?.abort();widgetRequests.delete(root);root.dataset.accountGeneration=String(widgetRevision(root)+1);root.dataset.currentThreadId='';delete root.dataset.turnstileToken;const input=root.querySelector('[data-ai-input]');if(input){input.value='';input.style.height='auto';}hideChallengeTray(root);setThinking(root,copy,false);clearMessages(root);renderThreadList(root,[]);updateAuthState(root,copy,viewer);void bootstrap(root).catch(()=>{});}
+});

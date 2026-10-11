@@ -22,6 +22,9 @@ import Reader from './Reader.astro';
 import GalleryEntityPreview from './GalleryEntityPreview.astro';
 import galleryEntities from '../data/gallery-entities.json';
 import WikiArticleHeader from './WikiArticleHeader.astro';
+import EntitySectionNav from './EntitySectionNav.astro';
+import {entityPresentationKind,entityReaderRelations,entityArtwork} from '../lib/entityPresentation.mjs';
+import {buildEntityReaderNavigation,prepareEntityReaderHtml} from '../lib/entityReaderNavigation.mjs';
 import {getLocalizedSite} from '../lib/homeData.mjs';
 import {buildLocaleLinks,resolveLocaleCopy} from '../lib/i18n.mjs';
 import {getEntityRegistry,entityBody} from '../lib/entityRegistry.mjs';
@@ -30,17 +33,20 @@ import {renderMarkdownDocument} from '../lib/markdown.mjs';
 import {prepareResearchMarkdown} from '../lib/researchMarkdown.mjs';
 import {renderWikiLinks} from '../lib/wikiLinks.mjs';
 import '../styles/encyclopedia.css';
+import '../styles/entityPresentation.css';
 const {entityId,locale}=Astro.props;
 const registry=await getEntityRegistry();const entry=registry.resolveEntity(entityId,locale);if(!entry)throw new Error(`Unknown entity: ${entityId}`);const d=entry.data;
 const site=getLocalizedSite(await getCollection('site'),locale);
 const title=d.name||d.title||d.id;const isArticle=d.entityType==='editorial-article';
+const presentationKind=entityPresentationKind(d);
+const artwork=entityArtwork(d);
 const copy=resolveLocaleCopy({zh:{database:'百科资料库',edit:'编辑词条',relations:'关联档案',footprints:'编年史足迹',articles:'文章',sources:'资料来源',archive:'永久观测归档',forms:'观测形态',works:'参与作品',gallery:'设定资料',fallback:'此词条暂显示原始语言资料。',all:'全部足迹'},ja:{database:'データベース',edit:'記事を編集',relations:'関連資料',footprints:'年代記の足跡',articles:'記事',sources:'出典',archive:'永久観測アーカイブ',forms:'観測形態',works:'参加作品',gallery:'設定資料',fallback:'この記事は原文の言語で表示しています。',all:'すべての足跡'},en:{database:'Database',edit:'Edit article',relations:'Related records',footprints:'Chronicle footprints',articles:'Articles',sources:'Sources',archive:'Permanent observation',forms:'Observation form',works:'Contributions',gallery:'Reference gallery',fallback:'This article is displayed in its source language.',all:'All footprints'}},locale);
 const rendered=await renderMarkdownDocument(prepareResearchMarkdown({...entry,body:entityBody(entry)},registry),{});const linked=renderWikiLinks(rendered.html,registry,locale);
 const feature=await loadFeatureData();const footprints=feature.footprints(d.id);const morphs=registry.morphs(d.id,locale);
 const relations=registry.getRelations(d.id).map(r=>({...r,entry:registry.resolveEntity(r.target,locale)})).filter((r): r is typeof r & {entry: NonNullable<typeof r.entry>}=>Boolean(r.entry));
-const works=relations.filter(r=>['credited-to','performed-by','primaryArtist'].includes(r.type)&&r.inverse);
-const articles=relations.filter(r=>r.entry.data.entityType==='editorial-article');
-const other=relations.filter(r=>!works.includes(r)&&!articles.includes(r));
+const groups=entityReaderRelations(relations);
+const {works,articles}=groups;
+const other=presentationKind?groups.other:relations.filter(r=>!works.includes(r)&&!articles.includes(r));
 const editorPath=entry.filePath.slice(entry.filePath.indexOf('src/content/'));
 const entryEditHref=`/${locale}/contribute/editor/?target=${encodeURIComponent(editorPath.replace(/\/(zh-tw|zh-hk)\.md$/,'/zh.md'))}`;
 const localeLinks=buildLocaleLinks(site,locale,entry.url.replace(`/${locale}`,''));
@@ -51,21 +57,25 @@ const completeness=entityCompleteness(d);
 const completenessLabels=resolveLocaleCopy({zh:{kicker:'条目完善度',scoreLabel:'元数据完整度 / 100',missingLabel:'可补充资料',missingSummary:'查看待补充项',missingEmpty:'元数据已完整',editHint:'在编辑器中补充，提交审核后公开',tiers:{complete:'完整',good:'充实',brief:'简略',stub:'待完善'}},ja:{kicker:'記事の整備状況',scoreLabel:'メタデータ / 100',missingLabel:'追記できる情報',missingSummary:'不足項目',missingEmpty:'メタデータは揃っています',editHint:'エディターで追記し、審査後に公開',tiers:{complete:'充実',good:'良好',brief:'概要',stub:'追記待ち'}},en:{kicker:'Entry completeness',scoreLabel:'Metadata coverage / 100',missingLabel:'Details to add',missingSummary:'View missing details',missingEmpty:'Metadata is complete',editHint:'Add details in the editor; published after review',tiers:{complete:'Complete',good:'Good',brief:'Brief',stub:'Stub'}}},locale);
 const permanent=d.lifecycle?.archive?.mode==='permanent';
 const hasGallery=galleryEntities.some(entity=>entity.id===d.id);
+const readerHtml=presentationKind==='music'?prepareEntityReaderHtml(linked.html):linked.html;
+const sections=buildEntityReaderNavigation({kind:presentationKind,data:d,headings:rendered.headings,html:readerHtml,groups,locale,hasGallery,footprintCount:footprints.length});
 ---
 <BaseLayout title={`${title} · Kamitsubaki Studio Fan Wiki`} lang={locale} reading metadata={{title,description:d.summary||d.description||d.profileTagline,image:d.presentation?.image,canonicalPath:entry.url,type:'article',noindex:d.contentStatus==='stub'||d.seo?.noindex}} alternates={['zh','ja','en','zh-tw','zh-hk'].map(l=>({locale:l,href:registry.resolveEntityUrl(d.id,l)}))}>
  <SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site,locale,entry.url.replace(`/${locale}`,''))} brandLines={site.hero.brandLines} homeHref={`/${locale}/`}/>
- <main class="entity-reader wiki-theme-shell" data-archive={permanent?'permanent':undefined} style={themeStyle}>
+ <main class="entity-reader wiki-theme-shell" data-presentation={presentationKind||undefined} data-archive={permanent?'permanent':undefined} style={themeStyle}>
   <div class="fixed left-0 top-0 z-[60] h-px w-full origin-left bg-white/70" data-reading-progress></div>
   <div class="reader-frame reader-heading-frame mx-auto px-4 sm:px-6">
   <WikiArticleHeader data={{name:title,romanizedName:d.romanizedName||d.romanizedTitle||'',profileTagline:d.summary}} localeLinks={localeLinks} labels={{home:locale==='en'?'Home':locale==='ja'?'ホーム':'首页',section:isArticle?copy.articles:copy.database,source:isArticle?(locale==='en'?'Suggest an edit':locale==='ja'?'修正を提案':'提交修改'):copy.edit,languages:locale==='en'?'Languages':locale==='ja'?'言語':'语言'}} sourceHref={entryEditHref} sharePath={entry.url} homeHref={`/${locale}/`}><a slot="section" href={`/${locale}/${isArticle?'articles':'database'}/`}>{isArticle?copy.articles:copy.database}</a></WikiArticleHeader>
+  {presentationKind&&<EntitySectionNav items={sections} locale={locale}/>}
   {d.contentStatus==='stub'&&<div class="archive-notice archive-notice--stub"><span>{locale==='en'?'Reserved entry · Content to be completed':locale==='ja'?'準備中の記事 · 内容は後日追加予定':'待补全条目 · 按分类详细图预留'}</span><ContextAction href={entryEditHref} tone="quiet">{locale==='en'?'Help complete this entry':locale==='ja'?'この項目を補完する':'帮助完善此词条'}</ContextAction></div>}
   {entry.fallback&&<p class="source-note" lang={entry.sourceLocale}>{copy.fallback}</p>}
   {morphs.length>1&&<MorphingSwitcher entries={morphs} current={d.id} locale={locale}/>}
   {permanent&&<aside class="archive-notice"><span class="eyebrow">STATUS: PERMANENT OBSERVATION</span><h2>{copy.archive}</h2><p>{d.lifecycle.archive.archiveNote}</p></aside>}
   </div>
-  <Reader headings={rendered.headings} contentsTitle={contentsTitle} variant="entry" backgroundImage={d.presentation?.image}>
-   {d.entityType==='work-track'&&<LyricsPractice locale={locale} sourceLinks={d.lyricsSources||[]}/>}
-   <article class="wiki-reader wiki-prose wiki-artist-prose prose prose-invert max-w-none" set:html={linked.html}/>
+  <Reader headings={rendered.headings} contentsTitle={contentsTitle} variant="entry" backgroundImage={presentationKind?(artwork.placeholder?undefined:artwork.src):d.presentation?.image}>
+   {!presentationKind&&d.entityType==='work-track'&&<LyricsPractice locale={locale} sourceLinks={d.lyricsSources||[]}/>}
+   <article id={presentationKind?'entry-overview':undefined} class="wiki-reader wiki-prose wiki-artist-prose prose prose-invert max-w-none" set:html={readerHtml}/>
+   {presentationKind&&d.entityType==='work-track'&&<LyricsPractice locale={locale} sourceLinks={d.lyricsSources||[]}/>}
    <Fragment slot="sidebar">
     <EntityInfoBox entry={entry} registry={registry} locale={locale}/>
     <EntryCompleteness score={completeness.score} tier={completeness.tier as "complete"|"good"|"brief"|"stub"} missing={completeness.missing.map(m=>({...m,label:m.field.split('.').map(k=>metadataLabel(k,locale)).join(' / ')}))} labels={completenessLabels} editHref={entryEditHref} editLabel={locale==='en'?'Add missing details':locale==='ja'?'不足情報を追記':'补充缺失资料'}/>
@@ -73,9 +83,12 @@ const hasGallery=galleryEntities.some(entity=>entity.id===d.id);
    </Fragment>
   <div class="entity-related">{isArticle&&<p class="article-review-note">{locale==='en'?'Anyone can suggest an edit. Changes are published after review by the site owner.':locale==='ja'?'誰でも修正を提案できます。管理者の審査後に公開されます。':'人人可参与编辑。提交的修改经站长审核后发布。'}</p>}<h2 class="entity-related-kicker">{locale==='en'?'ABOUT THIS ENTRY':locale==='ja'?'この記事について':'关于本条目'}</h2>
   {hasGallery&&<GalleryEntityPreview entityId={d.id} locale={locale}/>}
-  {other.length>0&&<ReaderDisclosure title={copy.relations} count={other.length}><ReaderRecordList locale={locale} id="reader-related-more" records={other.map(r=>({href:r.entry.url,title:r.entry.data.name||r.entry.data.title||r.entry.data.id,detail:[entityLabel(r.role||r.type,locale),r.current===false?entityLabel('historical',locale):'',r.startDate,r.endDate].filter(Boolean).join(' · ')}))}/></ReaderDisclosure>}
-  {works.length>0&&<ReaderDisclosure title={copy.works} count={works.length}><ReaderRecordList locale={locale} id="reader-works-more" records={works.map(r=>({href:r.entry.url,title:r.entry.data.title||r.entry.data.name||r.entry.data.id,detail:[entityLabel(r.role||r.type,locale),r.entry.data.releaseDate].filter(Boolean).join(' · ')}))}/></ReaderDisclosure>}
-  {(d.tracks||[]).length>0&&<ReaderDisclosure title={locale==='en'?'Track list':locale==='ja'?'収録曲':'收录曲目'} count={d.tracks?.length}><ReaderRecordList locale={locale} id="reader-tracks-more" records={d.tracks!.map(track=>{const song=track.songId?registry.resolveEntity(track.songId,locale):undefined;return {href:song?.url,title:track.title||song?.data.title||String(track.number),detail:`${track.disc||1} · ${track.number}`};})}/></ReaderDisclosure>}
+  {presentationKind==='artist'&&groups.music.length>0&&<ReaderDisclosure id="entry-music" title={locale==='en'?'Music':locale==='ja'?'楽曲':'音乐作品'} count={groups.music.length}><ReaderRecordList locale={locale} id="reader-music-more" filterable records={groups.music.map(r=>({href:r.entry.url,title:r.entry.data.title||r.entry.data.name||r.entry.data.id,releaseDate:r.entry.data.releaseDate,searchTerms:[r.entry.data.romanizedTitle,r.entry.data.romanizedName,...(r.entry.data.aliases||[])].filter(Boolean),detail:[entityLabel(r.role||r.type,locale),r.entry.data.releaseDate].filter(Boolean).join(' · ')}))}/></ReaderDisclosure>}
+  {presentationKind==='artist'&&groups.albums.length>0&&<ReaderDisclosure id="entry-albums" title={locale==='en'?'Albums & releases':locale==='ja'?'アルバム・作品':'专辑与发行'} count={groups.albums.length}><ReaderRecordList locale={locale} id="reader-albums-more" filterable records={groups.albums.map(r=>({href:r.entry.url,title:r.entry.data.title||r.entry.data.name||r.entry.data.id,releaseDate:r.entry.data.releaseDate,searchTerms:[r.entry.data.romanizedTitle,r.entry.data.romanizedName,...(r.entry.data.aliases||[])].filter(Boolean),detail:[r.entry.data.releaseType&&entityLabel(r.entry.data.releaseType,locale),r.entry.data.releaseDate].filter(Boolean).join(' · ')}))}/></ReaderDisclosure>}
+  {presentationKind==='artist'&&groups.live.length>0&&<ReaderDisclosure id="entry-live" title={locale==='en'?'Live':locale==='ja'?'ライブ':'现场演出'} count={groups.live.length}><ReaderRecordList locale={locale} id="reader-live-more" records={groups.live.map(r=>({href:r.entry.url,title:r.entry.data.title||r.entry.data.name||r.entry.data.id,detail:r.entry.data.dateRange?.start}))}/></ReaderDisclosure>}
+  {other.length>0&&<ReaderDisclosure id={presentationKind?'entry-relations':undefined} title={copy.relations} count={other.length}><ReaderRecordList locale={locale} id="reader-related-more" records={other.map(r=>({href:r.entry.url,title:r.entry.data.name||r.entry.data.title||r.entry.data.id,detail:[entityLabel(r.role||r.type,locale),r.current===false?entityLabel('historical',locale):'',r.startDate,r.endDate].filter(Boolean).join(' · ')}))}/></ReaderDisclosure>}
+  {!presentationKind&&works.length>0&&<ReaderDisclosure title={copy.works} count={works.length}><ReaderRecordList locale={locale} id="reader-works-more" filterable records={works.map(r=>({href:r.entry.url,title:r.entry.data.title||r.entry.data.name||r.entry.data.id,releaseDate:r.entry.data.releaseDate,searchTerms:[r.entry.data.romanizedTitle,r.entry.data.romanizedName,...(r.entry.data.aliases||[])].filter(Boolean),detail:[entityLabel(r.role||r.type,locale),r.entry.data.releaseDate].filter(Boolean).join(' · ')}))}/></ReaderDisclosure>}
+  {(d.tracks||[]).length>0&&<ReaderDisclosure id={presentationKind?'entry-tracks':undefined} title={locale==='en'?'Track list':locale==='ja'?'収録曲':'收录曲目'} count={d.tracks?.length}><ReaderRecordList locale={locale} id="reader-tracks-more" records={d.tracks!.map(track=>{const song=track.songId?registry.resolveEntity(track.songId,locale):undefined;return {href:song?.url,title:track.title||song?.data.title||String(track.number),detail:[`${track.disc||1} · ${track.number}`,track.duration].filter(Boolean).join(' · ')};})}/></ReaderDisclosure>}
   <DatabaseArticleLinks id={d.id} locale={locale}/>
   {footprints.length>0&&<ReaderDisclosure title={copy.footprints} count={footprints.length}><ReaderRecordList locale={locale} id="reader-footprints-more" records={footprints.map(e=>({href:`/${locale}/chronicle/?entity=${d.id}#${e.id}`,title:featureText(e.text,locale).title,detail:e.date.start}))}/><div class="entity-related__list-actions"><ContextAction href={`/${locale}/chronicle/?entity=${d.id}`} tone="quiet">{copy.all} ({footprints.length})</ContextAction></div></ReaderDisclosure>}
   {(d.sources||[]).length>0&&<ReaderDisclosure title={copy.sources} count={d.sources?.length} id="entry-sources"><ReaderSources sources={d.sources||[]} locale={locale}/></ReaderDisclosure>}

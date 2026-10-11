@@ -15,6 +15,15 @@ html body :is(a, button, summary, select, input, textarea):focus-visible {
   outline-offset: 3px;
 }
 html body :is(button, select, textarea, input):disabled { cursor: not-allowed; }
+/* Keep native editing comfortable without changing document typography. */
+html body :is(input, textarea)::placeholder { color:var(--wiki-muted-color); opacity:.8; }
+html body textarea { resize:vertical; }
+html body :is(input[type='checkbox'],input[type='radio'],input[type='range']) { accent-color:var(--ui-accent-color); }
+html body :is(button,a,summary) { -webkit-tap-highlight-color:transparent; }
+@media (max-width:760px) {
+  /* 16px avoids iOS zooming the viewport when a form field receives focus. */
+  html body :is(.workspace-page,.ve-workbench,.site-search__panel,.account-dialog) :is(input:not([type='checkbox'],[type='radio'],[type='range'],[type='color'],[type='file']),select,textarea) { font-size:16px; }
+}
 html body :is(.announcement-modal__scrim, .ai-chat__scrim, .site-search__scrim) { border-radius: 0; }
 
 /* The same small radius applies to link-shaped controls as to native buttons. */

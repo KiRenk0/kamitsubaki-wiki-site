@@ -23,7 +23,14 @@ Use the side-by-side preview and outline to inspect sections and anchors. Insert
 
 ## Images and attachments
 
-Entry attachments belong to the **GitHub PR path**, not the gallery. Select, drop, or paste PNG/JPEG/WebP originals and record their source. The browser keeps attachments locally until they are submitted with the entry. Current in-site limits are **750 KB per file, eight images, and 4 MB total**; files are not compressed automatically. Upload a larger original through the repository contribution path and reference it in the same PR. Entering an image URL does not upload a file. Repository `public/images/...` becomes website `/images/...`; do not use a local disk path or `/public/images/...` in the page.
+Entry text is reviewed through **GitHub PRs**; new entry images are reviewed through the **site image library**, with separate submission records.
+
+1. Open the editor’s image library or the [image library page](/en/media/). Published images can be reused directly.
+2. For new images, choose Inline images, add the creator, source and basis for use, then upload and submit for review. PNG/JPEG/WebP/GIF are supported, up to 100 files and 20 MiB per file. Staging is not publication.
+3. Track per-image feedback in [Creator Center](/en/account/creator/). Revise returned images without re-uploading staged files. After approval, insert the image in the entry or use it as a cover.
+4. Entry Markdown references the public image URL. Submitting the text PR does not upload that image again; text still requires review, merge and deployment.
+
+Unfinished library uploads are saved locally per account and can be explicitly restored after reloading. Keep the page open if local saving fails. Legacy draft attachments remain compatible; existing /images/ references need no changes.
 
 ## Check and submit
 
@@ -48,14 +55,7 @@ Use the [classification maintenance guide](/en/docs/develop/content/) and curren
 
 ## Originals that exceed the in-site attachment limit
 
-The repository upload path from the former image guide applies **only to entry attachments**. Gallery files always use the gallery workspace. Preserve the original bytes and resolution; conversion to WebP is not required.
-
-1. Work in a contribution branch of the site repository. Fork first if you lack write access. Target the maintainer-designated development branch.
-2. Upload the original into an appropriate `public/images/` directory with a clear lowercase filename. Verify case and extension. GitHub's web upload limit is 25 MiB per file; the site's static-asset audit also imposes a limit, so ask a maintainer about larger files.
-3. Update the matching Markdown in the **same branch and PR**, including creator, source, and grounds for use. Repository `public/images/example.jpg` becomes website `/images/example.jpg`. A local path, `/public/images/...`, temporary `blob:` URL, or GitHub file-view page is not a public image URL.
-4. Check Files changed for both the original and Markdown. Check the live entry and image only after merge and deployment; a successful file upload does not publish the page.
-
-An already deployed image can be referenced directly. An image in the same new PR may appear broken in a production-based preview until deployment. Prefer a new filename for replacement and search covers, body text, and other languages before removing the old file. Generated thumbnails do not replace originals.
+Use the [image library](/en/media/) for new images. If a file exceeds 20 MiB, contact a maintainer before proceeding instead of adding the large binary to the text PR. Manual GitHub contributions remain supported: reference approved public image URLs in Markdown and preserve attribution and permission details. Existing repository public/images/ files keep their /images/ URLs; this workflow does not require moving or deleting them.
 
 ## Final submission checklist
 

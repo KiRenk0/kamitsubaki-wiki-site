@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="960" viewBox="0 0 960 960" fill="none">
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="960" y2="960" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#263943"/>
+      <stop offset=".5" stop-color="#17242d"/>
+      <stop offset="1" stop-color="#0d151e"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0" cy="0" r="1" gradientTransform="translate(620 265) rotate(125) scale(670)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6b7f91" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#6b7f91" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" stroke="#d7e1e4" stroke-opacity=".045"/>
+    </pattern>
+  </defs>
+  <path fill="url(#surface)" d="M0 0h960v960H0z"/>
+  <path fill="url(#light)" d="M0 0h960v960H0z"/>
+  <path fill="url(#grid)" d="M0 0h960v960H0z"/>
+  <g stroke="#d7e1e4">
+    <circle cx="480" cy="400" r="210" stroke-opacity=".13"/>
+    <circle cx="480" cy="400" r="148" stroke-opacity=".09"/>
+    <path d="m480 150 250 250-250 250-250-250Z" stroke-opacity=".1"/>
+    <path d="M310 292h340v216H310z" stroke-opacity=".24" stroke-width="2"/>
+    <path d="m310 462 100-92 92 72 68-54 80 76" stroke-opacity=".27" stroke-width="2"/>
+    <circle cx="571" cy="347" r="15" stroke-opacity=".27" stroke-width="2"/>
+    <path d="M480 112v24m0 528v24M192 400h24m528 0h24" stroke-opacity=".3"/>
+  </g>
+</svg>

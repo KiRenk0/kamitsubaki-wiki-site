@@ -6,6 +6,7 @@ import {entityTypes,stableIdPattern} from './entityContract.mjs';
 import { parseDocument } from 'yaml';
 import { splitShortcodeArguments } from './shortcodeArguments.mjs';
 import { resolveMediaEmbed } from './mediaEmbed.mjs';
+import { validLyricsTiming } from './editorLyrics.mjs';
 
 export const entryTypes = ['songs', 'projects', 'logs', 'people', 'units', 'isotopes', 'releases', 'lives', 'organizations', 'lore', 'articles'];
 export const blockTypes = ['paragraph', 'heading', 'list', 'quote', 'image', 'table', 'media', 'ruby', 'details', 'lyrics', 'divider', 'inline', 'media-switcher', 'code', 'math'];
@@ -68,6 +69,7 @@ export function newDraft(kind = 'projects', locale = 'zh') {
 }
 const shortcodeArg = s => String(s || '').replaceAll('\\', '\\\\').replaceAll('::', '\\:\\:');
 const dest = s => String(s || '').replaceAll('(', '%28').replaceAll(')', '%29');
+const imageCaptionMarker = '<!-- wiki-editor:image-caption -->';
 export function blockMarkdown(b, locale = 'zh') {
   if (b.originalSource !== undefined && b.originalSnapshot === blockSnapshot(b)) return b.type === 'lyrics' ? b.originalSource.replace(/\{\{lyrics-controls::(?:zh|ja|en)\}\}/g, `{{lyrics-controls::${locale}}}`) : b.originalSource;
   switch (b.type) {
@@ -79,12 +81,19 @@ export function blockMarkdown(b, locale = 'zh') {
     case 'heading': return `${'#'.repeat(Math.max(2,Math.min(6,Number(b.level)||2)))} ${escapeText(b.text)}`;
     case 'list': return b.text.split('\n').filter(Boolean).map((line, i) => `${b.ordered ? `${i + 1}.` : '-'} ${escapeText(line)}`).join('\n');
     case 'quote': return b.text.split('\n').map(line => `> ${escapeText(line)}`).join('\n');
-    case 'image': return `![${escapeText(b.text)}](${dest(b.url)})${b.caption ? `\n\n${escapeText(b.caption)}` : ''}`;
+    // The marker makes the visible source paragraph belong to this image on
+    // import. Without it, an ordinary paragraph after an image is ambiguous.
+    case 'image': return `![${escapeText(b.text)}](${dest(b.url)})${b.caption ? `\n\n${imageCaptionMarker}\n\n${escapeText(b.caption)}` : ''}`;
     case 'table': return b.rows.map((row, i) => `| ${row.map(cell => escapeText(cell).replaceAll('\n', '<br>')).join(' | ')} |${i === 0 ? '\n| ' + row.map(() => '---').join(' | ') + ' |' : ''}`).join('\n');
     case 'media': return `@[${b.provider}](${dest(b.url)}${b.caption ? ` "${String(b.caption).replaceAll('\\','\\\\').replaceAll('"','\\"')}"` : ''})`;
     case 'ruby': return `{{ruby::${shortcodeArg(b.text)}::${shortcodeArg(b.kana)}${b.romaji ? `::${shortcodeArg(b.romaji)}` : ''}}}`;
     case 'details': return `{{details::${shortcodeArg(b.title)}}}\n\n${b.text}\n\n{{/details}}`;
-    case 'lyrics': return `{{lyrics-controls::${locale}}}\n\n<div class="my-lyric-box">\n\n${b.rows.map(r => `<div class="lyric-line">\n<div class="jp-lyric">${(r.units?.length ? r.units : [r]).map(unit => `${unit.time ? `[${unit.time}]` : ''}${unit.kana || unit.romaji ? `<ruby>${escapeHtml(unit.original)}${unit.kana ? `<rt class="furi">${escapeHtml(unit.kana)}</rt>` : ''}${unit.romaji ? `<rt class="roma">${escapeHtml(unit.romaji)}</rt>` : ''}</ruby>` : escapeHtml(unit.original)}`).join('')}</div>\n<div class="cn-lyric">${(r.units?.[0]?.time || r.time) ? `[${r.units?.[0]?.time || r.time}]` : ''}${escapeHtml(r.translation)}</div>\n</div>`).join('\n\n')}\n\n</div>`;
+    case 'lyrics': return `{{lyrics-controls::${locale}}}\n\n<div class="my-lyric-box">\n\n${b.rows.map(r => {
+      const original = (r.units?.length ? r.units : [r]).map(unit => `${unit.time ? `[${unit.time}]` : ''}${unit.kana || unit.romaji ? `<ruby>${escapeHtml(unit.original)}${unit.kana ? `<rt class="furi">${escapeHtml(unit.kana)}</rt>` : ''}${unit.romaji ? `<rt class="roma">${escapeHtml(unit.romaji)}</rt>` : ''}</ruby>` : escapeHtml(unit.original)}`).join('');
+      const translationTime = r.units?.[0]?.time || r.time;
+      const translation = !r.translation ? '' : `\n<div class="${locale === 'en' || locale === 'ja' ? 'trans-lyric' : 'cn-lyric'}">${translationTime ? `[${translationTime}]` : ''}${escapeHtml(r.translation)}</div>`;
+      return `<div class="lyric-line">\n<div class="jp-lyric">${original}</div>${translation}\n</div>`;
+    }).join('\n\n')}\n\n</div>`;
     case 'divider': return '---';
     case 'preserved': return b.text;
     default: throw new Error('Unknown block');
@@ -155,15 +164,7 @@ export function validateDraft(draft) {
     if (b.type === 'inline' && (!['ruby','spoiler','mark','abbr','kbd','time','small','sub','sup','zh-variant'].includes(b.kind) || b.args.filter((arg,i)=>b.kind!=='ruby'||i<2||arg).some(arg => !String(arg).trim() || /[{}\n]/.test(arg)))) errors.push('inline');
     if (b.type === 'media-switcher' && (!b.title || /[{}\n]/.test(b.title) || b.items.length < 2 || b.items.length > 6 || b.items.some(item=>!resolveMediaEmbed(item.provider,item.url)))) errors.push('media-switcher');
     if (b.type === 'code' && !/^[a-z0-9_-]+$/i.test(b.language)) errors.push('code');
-    if (b.type === 'lyrics') {
-      let previous = -1;
-      for (const row of b.rows) for (const unit of row.units?.length ? row.units : [row]) if (unit.time) {
-        const match = unit.time.match(/^(\d{2}):([0-5]\d)\.(\d{2,3})$/);
-        const time = match ? Number(match[1])*60+Number(match[2])+Number('0.'+match[3]) : -1;
-        if (!match || time < previous) errors.push('lyrics');
-        previous = time;
-      }
-    }
+    if (b.type === 'lyrics' && (!validLyricsTiming(b.rows) || !b.rows.length || b.rows.some(row => !String(row.units?.length ? row.units.map(unit=>unit.original).join('') : row.original || '').trim()) || (draft.meta.locale === 'ja' && b.rows.some(row => row.translation)))) errors.push('lyrics');
     if (b.type === 'ruby' && (!b.text || !b.kana || /[{}\n]/.test(b.text + b.kana + b.romaji))) errors.push('ruby');
     if (b.type === 'details' && (!b.title || /[{}\n]/.test(b.title))) errors.push('details');
   }
@@ -172,6 +173,7 @@ export function validateDraft(draft) {
 
 function blockSnapshot(block) { return JSON.stringify(Object.fromEntries(Object.entries(block).filter(([key])=>!['id','originalSource','originalSnapshot'].includes(key)))); }
 function keepOriginal(block, source) { block.originalSource = source; block.originalSnapshot = blockSnapshot(block); return block; }
+const unescapeImageText = value => String(value).replace(/\\([\\`*_{}\[\]<>#|~])/g, '$1');
 const decode = value => String(value || '').replace(/&(?:amp|lt|gt|quot|apos|#39|#x[0-9a-f]+|#\d+);/gi,entity=>{ const common={'&amp;':'&','&lt;':'<','&gt;':'>','&quot;':'"','&apos;':"'",'&#39;':"'"}; if(common[entity]) return common[entity]; const code=entity.startsWith('&#x') ? parseInt(entity.slice(3,-1),16) : parseInt(entity.slice(2,-1),10); return Number.isFinite(code)&&code<=0x10ffff ? String.fromCodePoint(code) : entity; });
 function mediaBlock(text) {
   const match = text.trim().match(/^@\[([^\]]+)\]\((.+)\)$/);
@@ -188,16 +190,33 @@ function lyricBlock(source) {
     const translation = segment.match(/<div\s+class=["'](?:cn-lyric|trans-lyric)["'][^>]*>([\s\S]*?)<\/div>/)?.[1] || '';
     if (jp === undefined || /<(?!\/?(?:ruby|rt|rp)\b)/i.test(jp) || /<(?!br\b)/i.test(translation)) return null;
     const units = []; let time = '';
-    for (const token of jp.match(/\[\d{2}:\d{2}\.\d{2,3}\]|<ruby[^>]*>[\s\S]*?<\/ruby>|[^<\[]+/g) || []) {
-      if (/^\[/.test(token)) { time=token.slice(1,-1); continue; }
-      let original=token, kana='',romaji='';
-      if (token.startsWith('<ruby')) {
-        kana=decode(token.match(/<rt(?:\s+class=["']furi["'])?>([\s\S]*?)<\/rt>/)?.[1]||'');
-        romaji=decode(token.match(/<rt\s+class=["']roma["']>([\s\S]*?)<\/rt>/)?.[1]||'');
-        original=token.replace(/<rt[^>]*>[\s\S]*?<\/rt>|<rp[^>]*>[\s\S]*?<\/rp>|<\/?ruby[^>]*>/g,'');
+    const markup = jp.trim();
+    const tokens = /\[\d{2}:[0-5]\d\.\d{2,3}\]|<ruby\b[^>]*>[\s\S]*?<\/ruby>/g;
+    let cursor = 0;
+    const plain = value => {
+      if (!value) return true;
+      if (value.includes('<') || /\[\d{2}:\d{2}\.\d{2,3}\]/.test(value)) return false;
+      units.push({original:decode(value),kana:'',romaji:'',time});
+      time = '';
+      return true;
+    };
+    for (const match of markup.matchAll(tokens)) {
+      if (!plain(markup.slice(cursor,match.index))) return null;
+      const token=match[0];
+      if (token.startsWith('[')) {
+        if (time) return null;
+        time=token.slice(1,-1);
+      } else {
+        const kana=decode(token.match(/<rt(?:\s+class=["']furi["'])?>([\s\S]*?)<\/rt>/)?.[1]||'');
+        const romaji=decode(token.match(/<rt\s+class=["']roma["']>([\s\S]*?)<\/rt>/)?.[1]||'');
+        const original=token.replace(/<rt[^>]*>[\s\S]*?<\/rt>|<rp[^>]*>[\s\S]*?<\/rp>|<\/?ruby[^>]*>/g,'');
+        if (!original || original.includes('<')) return null;
+        units.push({original:decode(original),kana,romaji,time});
+        time='';
       }
-      original=decode(original).trim(); if(original) units.push({original,kana,romaji,time}); time='';
+      cursor=match.index+token.length;
     }
+    if (!plain(markup.slice(cursor)) || time) return null;
     rows.push({original:units.map(u=>u.original).join(''),kana:'',romaji:'',translation:decode(translation.replace(/^\s*\[\d{2}:\d{2}\.\d{2,3}\]/,'')).trim(),units});
   }
   return rows.length ? {...newBlock('lyrics'),rows} : null;
@@ -209,6 +228,7 @@ export function parseVisualBlocks(body) {
     if(!lines[i].trim()) {i++;continue;}
     const start=i, line=lines[i]; let block;
     const fence=line.match(/^(`{3,}|~{3,})([a-z0-9_-]*)\s*$/i);
+    const imageMatch=line.match(/^!\[((?:\\.|[^\]\\])*)\]\((.+)\)$/);
     if(fence) {i++;const content=[];while(i<lines.length&&!new RegExp(`^${fence[1][0]}{${fence[1].length},}\\s*$`).test(lines[i]))content.push(lines[i++]);if(i<lines.length)i++;block={...newBlock('code'),text:content.join('\n'),language:fence[2]||'text'};}
     else if(line.trim()==='$$') {i++;const content=[];while(i<lines.length&&lines[i].trim()!=='$$')content.push(lines[i++]);if(i<lines.length)i++;block={...newBlock('math'),text:content.join('\n')};}
     else if(/^\{\{(?:details|media-switcher)::/.test(line)) {
@@ -225,7 +245,20 @@ export function parseVisualBlocks(body) {
     }
     else if(/^#{2,6} /.test(line)) {const match=line.match(/^(#{2,6}) ([\s\S]*)$/);block={...newBlock('heading'),level:String(match[1].length),text:match[2]};i++;}
     else if(mediaBlock(line)){block=mediaBlock(line);i++;}
-    else if(/^!\[[^\]]*\]\([^\n]+\)$/.test(line)){const match=line.match(/^!\[([^\]]*)\]\((.+)\)$/);block={...newBlock('image'),text:match[1],url:match[2]};i++;}
+    else if(imageMatch){
+      block={...newBlock('image'),text:unescapeImageText(imageMatch[1]),url:imageMatch[2]};i++;
+      let marker=i;
+      while(marker<lines.length&&!lines[marker].trim())marker++;
+      if(lines[marker]===imageCaptionMarker){
+        let caption=marker+1;
+        while(caption<lines.length&&!lines[caption].trim())caption++;
+        if(caption<lines.length&&lines[caption].trim()){
+          i=caption+1;
+          while(i<lines.length&&lines[i].trim())i++;
+          block.caption=unescapeImageText(lines.slice(caption,i).join('\n'));
+        }
+      }
+    }
     else if(/^---+$/.test(line)){block=newBlock('divider');i++;}
     else if(/^<(?:div|details|figure|table)\b/i.test(line)) {const tag=line.match(/^<([a-z]+)/i)[1];let depth=0;do{depth+=(lines[i].match(new RegExp(`<${tag}\\b`,'gi'))||[]).length-(lines[i].match(new RegExp(`</${tag}>`,'gi'))||[]).length;i++;}while(i<lines.length&&depth>0);block={...newBlock('paragraph'),text:lines.slice(start,i).join('\n')};}
     else {i++;while(i<lines.length&&lines[i].trim()&&!/^#{2,6} |^\{\{(?:details|media-switcher|lyrics-controls)::|^@\[/.test(lines[i]))i++;block={...newBlock('paragraph'),text:lines.slice(start,i).join('\n')};}

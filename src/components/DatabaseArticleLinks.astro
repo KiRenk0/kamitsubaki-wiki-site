@@ -30,7 +30,7 @@ document.querySelectorAll<HTMLElement>('[data-db-articles]').forEach(root=>{
  let buffered:Article[]=[],offset:number|null=0,shown=0,total:number|undefined,busy=false;
  const update=()=>{const remaining=total===undefined?buffered.length-shown+Number(offset!==null):total-shown;more.hidden=remaining<=0;next.textContent=remaining>0?`＋${Math.min(12,remaining)}`:'';collapse.hidden=shown<=12;};
  const add=async()=>{const start=shown,target=Math.min(buffered.length,shown+12);for(let i=shown;i<target;i++){
-  const item=buffered[i],a=document.createElement('a');a.className='reader-record';a.href=`/${locale}/articles/read/?id=${encodeURIComponent(item.id)}`;
+  const item=buffered[i],a=document.createElement('a');a.className='reader-record';a.href=`/${locale}/articles/read/${encodeURIComponent(item.id)}/`;
   const number=document.createElement('span');number.className='reader-record-index';number.textContent=String(i+1).padStart(2,'0');
   const text=document.createElement('span');text.className='reader-record-text';const title=document.createElement('strong');title.textContent=await localizeArticleText(item.title,locale);
   const meta=document.createElement('small');meta.textContent=[copy.origins[item.origin as keyof typeof copy.origins]||item.origin,item.author,item.updatedAt].filter(Boolean).join(' · ');

@@ -15,19 +15,23 @@ test('artist categories keep six rows visible and group extra rows in an accessi
   assert.match(component, /data-artist-collapsible/);
   assert.match(component, /aria-hidden="true"/);
   assert.match(component, /\binert\b/);
-  assert.match(component, /data-artist-expand-copy/);
+  assert.match(component, /<ExpandControl\b/);
 });
 
 test('artist category toggle synchronizes animation, accessibility, and localized button state', async () => {
   const script = await readProjectFile('../src/scripts/siteInteractions.js');
+  const expansion = await readProjectFile('../src/lib/recordExpansion.mjs');
+  const control = await readProjectFile('../src/components/ExpandControl.astro');
   const styles = await readProjectFile('../src/styles/global.css');
 
-  assert.match(script, /collapsible\.dataset\.expanded/);
-  assert.match(script, /collapsible\.setAttribute\('aria-hidden'/);
-  assert.match(script, /collapsible\.inert/);
-  assert.match(script, /--artist-collapsible-height/);
-  assert.match(script, /inner\.scrollHeight/);
-  assert.doesNotMatch(script, /scrollIntoView\(\{ behavior: 'smooth', block: 'center' \}\)/);
+  assert.match(script, /setExpandablePanel/);
+  assert.match(expansion, /collapsible\.dataset\.expanded/);
+  assert.match(expansion, /collapsible\.setAttribute\('aria-hidden'/);
+  assert.match(expansion, /collapsible\.inert/);
+  assert.match(expansion, /--artist-collapsible-height/);
+  assert.match(expansion, /inner\.scrollHeight/);
+  assert.match(control, /data-artist-expand-copy/);
+  assert.doesNotMatch(expansion, /scrollIntoView\(\{ behavior: 'smooth', block: 'center' \}\)/);
   assert.match(styles, /\.artist-collapsible[\s\S]*max-height: 0/);
   assert.match(styles, /\.artist-collapsible\[data-expanded="true"\][\s\S]*max-height: var\(--artist-collapsible-height/);
   assert.match(styles, /prefers-reduced-motion: reduce[\s\S]*\.artist-collapsible/);

@@ -12,7 +12,7 @@ function initializeTabs(shell) {
   const sections = [...panels.keys()];
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
   const routeOptions = { origin: location.origin, locale, sections };
-  const urls = new Map(sections.map(section => [section, new URL(`/${locale}/labs/${section}/`,location.origin).href]));
+  const urls = new Map(sections.map(section => [section, new URL(`/${locale}/explore/${section}/`,location.origin).href]));
   const controllers = new Map();
   const loadCatalog = createLabsCatalogLoader(locale);
   let active = shell.dataset.labsSection;
@@ -22,7 +22,7 @@ function initializeTabs(shell) {
   const remember = () => urls.set(active, location.href);
   function updateDocument(section) {
     document.title = `${copy.tabs[sections.indexOf(section)]} · ${copy.title}`;
-    const canonical = new URL(`/${locale}/labs/${section}/`, location.origin);
+    const canonical = new URL(`/${locale}/explore/${section}/`, location.origin);
     const canonicalLink = document.querySelector('link[rel="canonical"]');
     // Preserve the configured production origin in metadata during local previews.
     if (canonicalLink) {
@@ -37,7 +37,7 @@ function initializeTabs(shell) {
     document.querySelectorAll('.site-nav__language-switcher a').forEach(link => {
       const url = new URL(link.href);
       const language = url.pathname.split('/')[1];
-      url.pathname = `/${language}/labs/${section}/`;
+      url.pathname = `/${language}/explore/${section}/`;
       url.search = location.search;
       url.hash = location.hash;
       link.href = url.href;
@@ -49,12 +49,12 @@ function initializeTabs(shell) {
       copy,
       loadCatalog,
       getURL: () => new URL(urls.get(section)),
-      setURL: params => {
+      setURL: (params, { push = false } = {}) => {
         const url = new URL(urls.get(section));
         url.search = params.toString();
         urls.set(section, url.href);
         if (active === section) {
-          history.replaceState(historyState(), '', url);
+          if (url.href !== location.href) history[push ? 'pushState' : 'replaceState'](historyState(), '', url);
           updateDocument(section);
         }
       },
@@ -84,7 +84,7 @@ function initializeTabs(shell) {
     heading.tabIndex = -1;
     shell.querySelector('.workspace-heading>p:not(.workspace-eyebrow)').textContent = section === 'explore' ? copy.intro : section === 'relations' ? copy.graphNote : section === 'timeline' ? copy.dateNote : copy.worldNote;
     const back = shell.querySelector('.workspace-back');
-    back.href = section === 'explore' ? `/${locale}/` : `/${locale}/labs/explore/`;
+    back.href = section === 'explore' ? `/${locale}/` : `/${locale}/explore/`;
     back.lastElementChild.textContent = section === 'explore' ? copy.home : copy.tabs[0];
     if (focusWasInPanel && previous !== section) heading.focus({preventScroll:true});
     if (animate && previous !== section && !reducedMotion.matches) {

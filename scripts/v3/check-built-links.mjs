@@ -15,7 +15,10 @@ for(let start=0;start<files.length;start+=16)await Promise.all(files.slice(start
  for(const [,href]of html.matchAll(/\bhref=["']([^"']+)["']/g))record(href.replaceAll('&amp;','&'),source);
  unresolvedReferences+=(html.match(/class="wiki-unresolved-link"/g)||[]).length;
 }));
-const missing=[];
-for(const url of urls){let path;try{path=decodeURI(url);}catch{missing.push(url);continue;}let found=false;for(const candidate of [`${root}${path}`,`${root}${path.replace(/\/$/,'')}/index.html`]){try{if((await stat(candidate)).isFile()){found=true;break;}}catch{}}if(!found)missing.push(url);}
-console.log(JSON.stringify({htmlPages:files.length,checked:urls.size,missing,retiredLinks:[...retiredLinks].map(([url,source])=>({url,source})),unresolvedReferences},null,2));
-if(missing.length||retiredLinks.size)process.exitCode=1;
+const routes=JSON.parse(await readFile(`${root}/_routes.json`,'utf8'));
+const articleFunction=await stat('functions/[locale]/articles/read/[id].js').then(s=>s.isFile()).catch(()=>false);
+const dynamicArticle=/^\/(zh|ja|en|zh-tw|zh-hk)\/articles\/read\/[a-z0-9-]+\/$/;
+const missing=[];let dynamicRoutes=0;
+for(const url of urls){let path;try{path=decodeURI(url);}catch{missing.push(url);continue;}if(articleFunction&&routes.include.includes('/*/articles/read/*')&&dynamicArticle.test(path)){dynamicRoutes++;continue;}let found=false;for(const candidate of [`${root}${path}`,`${root}${path.replace(/\/$/,'')}/index.html`]){try{if((await stat(candidate)).isFile()){found=true;break;}}catch{}}if(!found)missing.push(url);}
+console.log(JSON.stringify({htmlPages:files.length,checked:urls.size,dynamicRoutes,missing,retiredLinks:[...retiredLinks].map(([url,source])=>({url,source})),unresolvedReferences},null,2));
+if(missing.length||retiredLinks.size||unresolvedReferences)process.exitCode=1;

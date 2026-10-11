@@ -1,9 +1,11 @@
+import {serviceAvailabilityCopy} from '../lib/serviceAvailabilityCopy.mjs';
 import {lockModalScroll} from '../lib/modalScroll.mjs';
 import {isLocalEditorMode} from '../lib/localEditorMode.mjs';
 import {confirmAccount} from './accountConfirm.js';
 import { LIBRARY_KEY, libraryOwner, setLibraryOwner, readLibrary, readLibraryRecord, saveLibraryRecord, writeLibrary, mergeLibraries, validateLibrary } from '../lib/personalLibrary.mjs';
 import { libraryChanges, applyLibraryChanges } from '../lib/accountLibrary.mjs';
 import {safeAccountReturnTo} from '../lib/accountReturn.mjs';
+import {centralAccountReturnOrigins,centralAccountReturnTo} from '../lib/centralAccountOrigins.mjs';
 
 const config = document.querySelector('[data-account-config]');
 export const locale = config?.dataset.locale || 'zh';
@@ -11,15 +13,18 @@ export const copy = JSON.parse(config?.dataset.copy || '{}');
 export const apiBase = (config?.dataset.apiBase || 'https://api.kamitsubaki.wiki').replace(/\/$/,'');
 export const state = {viewer:null,auth:'checking',sync:'guest',account:null,accountLoad:'idle'};
 let authPromise, lastChecked=0, syncPromise, timer, generation=0;
+// Shared module has a real-link fallback when the central host is unavailable.
+const centralClient=import(/* @vite-ignore */ `${apiBase}/auth/client/v1.mjs?ui=modal-1`).then(module=>module.createAccountAuthClient({apiBase,locale,allowedReturnOrigins:centralAccountReturnOrigins(apiBase)})).catch(()=>null);
 const channel = typeof BroadcastChannel !== 'undefined' ? new BroadcastChannel('kamitsubaki-account') : null;
 const notify = () => window.dispatchEvent(new CustomEvent('kamitsubaki-account-state',{detail:state}));
 export async function api(path, {method='GET',body,owner=state.viewer?.userId}={}) {
+  const requestGeneration=generation;
   const url = new URL(apiBase + path);
   if(owner) url.searchParams.set('accountId',owner);
   const response = await fetch(url,{method,credentials:'include',cache:'no-store',signal:AbortSignal.timeout(15000),headers:{Accept:'application/json',...(body?{'Content-Type':'application/json'}:{})},body:body?JSON.stringify({...body,accountId:owner}):undefined});
   if(!(response.headers.get('content-type')||'').includes('application/json')) throw new Error('service_unavailable');
   const data=await response.json();
-  if(path.startsWith('/api/account') && owner && state.viewer?.userId!==owner)throw new Error('account_changed');
+  if(path.startsWith('/api/account') && owner && (state.viewer?.userId!==owner||requestGeneration!==generation))throw new Error('account_changed');
   if(!response.ok && path.startsWith('/api/account') && response.status===401)queueMicrotask(()=>void refreshAuth(true));
   if(!response.ok) throw Object.assign(new Error(data.error?.code || 'request_failed'),{status:response.status,data});
   return data;
@@ -31,11 +36,12 @@ export async function refreshAuth(force=false) {
   const authEpoch=generation;
   authPromise=(async()=>{
     try {
-      const data=await api('/api/auth/me',{owner:null});
+      const client=await centralClient;
+      const data=client?{viewer:await client.refresh()}:await api('/api/account-auth/me',{owner:null});
       if(authEpoch!==generation)return state.viewer;
       const viewer=data.viewer?.kind==='user'?data.viewer:null;
       const changed=viewer?.userId!==state.viewer?.userId;
-      state.viewer=viewer;state.auth=viewer?'user':'guest';lastChecked=Date.now();
+      state.viewer=viewer;state.unavailableReason='';state.auth=viewer?'user':'guest';lastChecked=Date.now();
       if(changed || libraryOwner()!==(viewer?.userId||null)) {
         generation++;state.account=null;state.accountLoad='idle';state.sync=viewer?'saving':'guest';
         setLibraryOwner(viewer?.userId);
@@ -43,7 +49,7 @@ export async function refreshAuth(force=false) {
       notify();
       if(viewer) void syncLibrary();
       return viewer;
-    } catch { state.auth='unavailable';notify();return null; }
+    } catch(error) { if(authEpoch!==generation)return state.viewer;state.auth='unavailable';state.unavailableReason=error.message==='database_daily_limit'?serviceAvailabilityCopy(locale).databaseLimit:copy.unavailable;notify();return null; }
     finally { authPromise=null; }
   })();
   return authPromise;
@@ -85,29 +91,31 @@ export async function syncLibrary({discard=false,keepLocal=false}={}) {
   return syncPromise;
 }
 export async function loadAccount() {
-  const owner=state.viewer?.userId;if(!owner)return;
+  const owner=state.viewer?.userId,epoch=generation;if(!owner)return;
   state.accountLoad='loading';notify();
   try {
     const account=await api('/api/account',{owner});
-    if(state.viewer?.userId!==owner)return;
+    if(state.viewer?.userId!==owner||epoch!==generation)return;
     state.account=account;state.accountLoad='ready';notify();return account;
   } catch(error) {
-    if(state.viewer?.userId===owner){state.accountLoad='error';notify();}
+    if(state.viewer?.userId===owner&&epoch===generation){state.accountLoad='error';notify();}
     throw error;
   }
 }
 export async function logout() {
-  await api('/api/auth/logout',{method:'POST',body:{}});
+  const client=await centralClient;
+  if(client)await client.logout();else await api('/api/account-auth/sign-out',{method:'POST',body:{locale},owner:null});
   generation++;state.viewer=null;state.account=null;state.accountLoad='idle';state.auth='guest';state.sync='guest';
   setLibraryOwner(null);notify();channel?.postMessage('auth-changed');
   window.dispatchEvent(new Event('kamitsubaki-auth-changed'));
 }
 export function loginUrl(provider,link=false) {
-  const url=new URL(`${apiBase}/api/auth/oauth/${provider}/start`);
-  let back=new URL(window.location.href);back=safeAccountReturnTo(back.searchParams.get('returnTo'),location.origin)||back;back.searchParams.delete('returnTo');back.searchParams.delete('aiAuth');back.searchParams.delete('aiAuthProvider');back.searchParams.delete('aiAuthCode');
+  const url=new URL(`${apiBase}/auth/${link?'security':'sign-in'}`);
+  let back=new URL(window.location.href);back=safeAccountReturnTo(back.searchParams.get('returnTo'),location.origin)||back;for(const key of ['returnTo','aiAuth','aiAuthProvider','aiAuthCode'])if(back.searchParams.has(key))back.searchParams.delete(key);
   url.searchParams.set('theme',document.documentElement.dataset.theme==='dark'?'dark':'light');
-  url.searchParams.set('returnTo',back.toString());if(link)url.searchParams.set('intent','link');return url.toString();
+  url.searchParams.set('locale',locale);url.searchParams.set('returnTo',centralAccountReturnTo(back.toString(),apiBase,locale));return url.toString();
 }
+export function securityUrl(){const url=new URL(loginUrl('',true));const back=new URL(location.href);back.hash='#overview';url.searchParams.set('returnTo',centralAccountReturnTo(back.toString(),apiBase,locale));return url.toString();}
 export function guestLibrary() { const raw=localStorage.getItem(LIBRARY_KEY);return raw?validateLibrary(JSON.parse(raw)):{version:1,items:[],lists:[]}; }
 export function mergeGuest() {
   if(!state.viewer || state.auth!=='user')throw new Error('login_required');
@@ -131,13 +139,15 @@ channel?.addEventListener('message',()=>void refreshAuth(true));
 window.addEventListener('online',()=>void refreshAuth(true));
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)void refreshAuth();});
 window.addEventListener('kamitsubaki-auth-changed',()=>void refreshAuth(true));
+window.addEventListener('pageshow',()=>void refreshAuth(true));
+void centralClient.then(client=>client?.subscribe(()=>void refreshAuth(true)));
 
 function renderChrome() {
   document.querySelectorAll('[data-account-nav]').forEach(a=>{
     a.textContent=state.viewer?copy.title:state.auth==='checking'?copy.checking:copy.login;
   });
   document.querySelectorAll('[data-account-status]').forEach(el=>{
-    el.textContent=state.auth==='checking'?copy.checking:state.auth==='unavailable'?copy.unavailable:copy[state.sync]||copy.guest;
+    el.textContent=state.auth==='checking'?copy.checking:state.auth==='unavailable'?(state.unavailableReason||copy.unavailable):copy[state.sync]||copy.guest;
   });
   document.querySelectorAll('[data-account-retry]').forEach(el=>{el.hidden=!['unavailable'].includes(state.auth)&&!['offline','conflict'].includes(state.sync);});
   document.querySelectorAll('[data-account-local]').forEach(el=>{el.hidden=state.sync!=='conflict';});
@@ -147,17 +157,28 @@ function renderChrome() {
   document.querySelectorAll('[data-account-login]').forEach(el=>{el.hidden=!!state.viewer;});
   document.querySelectorAll('[data-account-logout]').forEach(el=>{el.hidden=!state.viewer;});
   document.querySelectorAll('[data-account-login-provider]').forEach(a=>{a.href=loginUrl(a.dataset.accountLoginProvider,a.dataset.accountLoginIntent==='link');});
+  document.querySelectorAll('[data-account-sign-in],[data-ai-oauth],[data-creator-login]').forEach(a=>{a.href=loginUrl();});
+  document.querySelectorAll('[data-account-security]').forEach(a=>{a.href=securityUrl();});
 }
+// Keep copied links and modified clicks aligned with the current draft/anchor.
+for(const name of ['hashchange','popstate'])window.addEventListener(name,renderChrome);
+for(const name of ['pointerdown','focusin','contextmenu'])document.addEventListener(name,event=>{
+  const link=event.target instanceof Element?event.target.closest('[data-account-sign-in],[data-ai-oauth],[data-creator-login],[data-account-security]'):null;
+  if(link instanceof HTMLAnchorElement)link.href=link.matches('[data-account-security]')?securityUrl():loginUrl();
+},true);
 // A modal dialog paints above every ordinary z-index. Keep the decorative
 // cursor inside its top layer while open, then restore its original position.
 const accountDialog=document.querySelector('[data-account-dialog]');
 let dialogTrigger=null,backdropPress=false,releaseModalScroll=null;
-function openAccountDialog(trigger){
+async function openAccountDialog(trigger){
+  const client=await centralClient;
+  const returnTo=new URL(loginUrl()).searchParams.get('returnTo');
+  if(client?.openSignIn?.({returnTo,theme:document.documentElement.dataset.theme==='dark'?'dark':'light',trigger}))return;
   if(!accountDialog || accountDialog.open)return;
   renderChrome();
   dialogTrigger=trigger;releaseModalScroll=lockModalScroll();
   try{accountDialog.showModal();}catch(error){releaseModalScroll?.();releaseModalScroll=null;throw error;}
-  accountDialog.querySelector('[data-account-login-provider]')?.focus({preventScroll:true});
+  accountDialog.querySelector('[data-account-sign-in]')?.focus({preventScroll:true});
 
 }
 accountDialog?.addEventListener('close',()=>{
@@ -173,14 +194,21 @@ new MutationObserver(renderChrome).observe(document.documentElement,{attributes:
 window.addEventListener('kamitsubaki-account-state',renderChrome);
 
 document.addEventListener('click',async event=>{
-  const trigger=event.target.closest('[data-account-nav],[data-account-login],[data-account-retry],[data-account-cloud],[data-account-backup],[data-account-local],[data-account-sync-now],[data-account-logout],[data-account-close]');
+  const trigger=event.target.closest('[data-account-nav],[data-account-login],[data-account-sign-in],[data-ai-oauth],[data-creator-login],[data-account-login-provider],[data-account-retry],[data-account-cloud],[data-account-backup],[data-account-local],[data-account-sync-now],[data-account-logout],[data-account-close]');
   if(!trigger)return;
+  if(event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;
+  if(trigger.matches('[data-account-login-provider]')&&trigger.dataset.accountLoginIntent==='link')return;
   const dialog=document.querySelector('[data-account-dialog]');
   if(trigger.matches('[data-account-nav]') && state.viewer)return;
   event.preventDefault();
   const actionOwner=state.viewer?.userId;
   try {
-    if(trigger.matches('[data-account-nav],[data-account-login]'))openAccountDialog(trigger);
+    if(trigger.matches('[data-account-nav],[data-account-login]'))await openAccountDialog(trigger);
+    if(trigger.matches('[data-account-sign-in],[data-ai-oauth],[data-creator-login],[data-account-login-provider]')){
+      const client=await centralClient;
+      if(accountDialog?.open)accountDialog.close();
+      if(!client?.openSignIn?.({returnTo:new URL(loginUrl()).searchParams.get('returnTo'),theme:document.documentElement.dataset.theme==='dark'?'dark':'light',trigger}))window.location.assign(loginUrl());
+    }
     if(trigger.matches('[data-account-close]'))dialog?.close();
     if(trigger.matches('[data-account-retry]')){await refreshAuth(true);await syncLibrary();}
     if(trigger.matches('[data-account-sync-now]')){await refreshAuth(true);await syncLibrary();}

@@ -222,7 +222,7 @@ export function initializeLabsPanel(root, { copy: c, loadCatalog, getURL, setURL
       Object.entries(attrs).forEach(([k, v]) => e.setAttribute(k, String(v)));
       return e;
     }
-    function draw() {
+    function draw({ push = false } = {}) {
       const center = catalog.nodes.find((n) => n.id === selected);
       if (!center) return;
       const connected = neighbors(catalog, selected);
@@ -250,7 +250,7 @@ export function initializeLabsPanel(root, { copy: c, loadCatalog, getURL, setURL
         const pick = () => {
           selected = node.id;
           limit = 12;
-          draw();
+          draw({ push: true });
         };
         g.addEventListener('click', pick);
         g.addEventListener('keydown', (e) => {
@@ -309,7 +309,7 @@ export function initializeLabsPanel(root, { copy: c, loadCatalog, getURL, setURL
           button(c.choose, () => {
             selected = n.id;
             limit = 12;
-            draw();
+            draw({ push: true });
           }),
         );
       });
@@ -321,7 +321,7 @@ export function initializeLabsPanel(root, { copy: c, loadCatalog, getURL, setURL
         `${connected.length} ${c.results} · ${visual.length} / ${connected.length}`,
       );
       $('[data-more]').hidden = connected.length <= limit;
-      setURL(new URLSearchParams({ entry: selected }));
+      setURL(new URLSearchParams({ entry: selected }), { push });
     }
     function picks() {
       const q = foldCjkSearchText($('[data-query]').value);
@@ -336,7 +336,7 @@ export function initializeLabsPanel(root, { copy: c, loadCatalog, getURL, setURL
           button(n.title, () => {
             selected = n.id;
             limit = 12;
-            draw();
+            draw({ push: true });
           }),
         ),
       );

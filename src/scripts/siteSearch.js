@@ -160,6 +160,7 @@ function initializeSearch(root) {
   let searchTimer = 0;
   let closeAnimationTimer = 0;
   let previouslyFocused = null;
+  let matches = [],shown = 0;
 
   if (!(input instanceof HTMLInputElement) || !(resultsRoot instanceof HTMLElement) || !(status instanceof HTMLElement)) {
     return;
@@ -167,6 +168,9 @@ function initializeSearch(root) {
 
   const resultLinks = () => [...resultsRoot.querySelectorAll('.site-search__result')];
   const isOpen = () => !root.hidden && !root.classList.contains('is-closing');
+  const moreButton=document.createElement('button');moreButton.type='button';moreButton.className='site-search__more';moreButton.hidden=true;resultsRoot.after(moreButton);
+  const showNext=()=>{const query=input.value.trim(),batch=matches.slice(shown,shown+12);resultsRoot.append(...batch.map((result,index)=>createResult(result,query,copy,shown+index)));shown+=batch.length;moreButton.hidden=shown>=matches.length;moreButton.textContent=({zh:`继续查看 · ${shown}/${matches.length}`,'zh-tw':`繼續查看 · ${shown}/${matches.length}`,'zh-hk':`繼續查看 · ${shown}/${matches.length}`,ja:`さらに表示 · ${shown}/${matches.length}`,en:`Show more · ${shown}/${matches.length}`})[root.dataset.locale]||`Show more · ${shown}/${matches.length}`;status.textContent=`${resultCount(copy,matches.length)} · ${shown}/${matches.length}`;};
+  moreButton.addEventListener('click',showNext);
 
   const finishClose = () => {
     root.hidden = true;
@@ -206,6 +210,7 @@ function initializeSearch(root) {
   const render = () => {
     const query = input.value.trim();
     resultsRoot.replaceChildren();
+    matches=[];shown=0;moreButton.hidden=true;
     let articleLink = root.querySelector('[data-article-search-link]');
     if (!articleLink) {
       articleLink = document.createElement('a');
@@ -224,20 +229,19 @@ function initializeSearch(root) {
       return;
     }
 
-    const results = searchSiteIndex(entries, query, {
+    matches = searchSiteIndex(entries, query, {
       locale: root.dataset.locale,
       kind: searchKindGroups[activeKind] || activeKind,
-      limit: 1000,
+      limit: Math.max(1,entries.length),
       queryNormalizer,
     });
 
-    if (!results.length) {
+    if (!matches.length) {
       status.textContent = copy.empty;
       return;
     }
 
-    status.textContent = resultCount(copy, results.length);
-    resultsRoot.append(...results.slice(0, 12).map((result, index) => createResult(result, query, copy, index)));
+    showNext();
   };
 
   const openSearch = async () => {
@@ -313,7 +317,7 @@ function initializeSearch(root) {
       return;
     }
 
-    if (!isOpen()) return;
+    if (!isOpen() || event.isComposing) return;
     if (event.key === 'Escape') {
       event.preventDefault();
       closeSearch();
@@ -344,12 +348,6 @@ function initializeSearch(root) {
       render();
       input.focus();
     });
-  });
-  input.addEventListener('keydown', (event) => {
-    if (event.key === 'ArrowDown' && activeIndex < 0 && resultLinks().length) {
-      event.preventDefault();
-      setActive(0);
-    }
   });
   close?.addEventListener('click', closeSearch);
   form?.addEventListener('submit', (event) => {

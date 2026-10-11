@@ -275,7 +275,7 @@ const serialized = {
       qInput!.value = state.q;
       yearSelect!.value = state.year;
       sortSelect!.value = state.sort;
-      const selected = new Set(state.cat && state.cat.length ? state.cat : config.categories);
+      const selected = new Set(state.cat === null ? config.categories : state.cat);
       typeInputs.forEach((input) => {
         input.checked = selected.has(input.value);
       });
@@ -290,7 +290,7 @@ const serialized = {
     }
 
     function writeHash() {
-      const cat = state.cat && state.cat.length && state.cat.length !== config.categories.length
+      const cat = state.cat !== null && state.cat.length !== config.categories.length
         ? state.cat
         : null;
       const next = encodeFilterHash({

@@ -9,6 +9,7 @@ const backendReady=[
   'migrations/0023_article_ownership.sql',
 ].every(path=>existsSync(resolve(backend,path)));
 const crossRepo=new Set([
+  'creator-workflow-integration.test.mjs',
   'article-associations.test.mjs',
   'content-layout.test.mjs',
   'entity-maintenance.test.mjs',
@@ -18,7 +19,7 @@ const files=readdirSync('tests')
   .sort()
   .map(file=>resolve('tests',file));
 if(!backendReady){
-  console.log('Backend checkout unavailable; skipping 3 cross-repository tests. Run pnpm test beside the backend checkout for the complete suite.');
+  console.log('Backend checkout unavailable; skipping cross-repository tests. Run pnpm test beside the backend checkout for the complete suite.');
 }
 const result=spawnSync(process.execPath,['--test',...files],{stdio:'inherit'});
 process.exitCode=result.status??1;

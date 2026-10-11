@@ -133,3 +133,14 @@ test('optional empty metadata is omitted and imported lyric controls follow cont
   const imported=importMarkdown(source,'songs'); imported.meta.locale='en';
   assert.match(exportMarkdown(imported),/\{\{lyrics-controls::en\}\}/);
 });
+
+test('overlapping spoiler, emphasis and link formatting survives source round-trip and rendering',async()=>{
+ const body='<span class="wiki-spoiler"><strong>神椿</strong> <a href="https://kamitsubaki.jp/">来源</a> <mark>资料</mark></span> 后文';
+ const draft=newDraft('projects');draft.blocks=[{...newBlock('paragraph'),text:body}];
+ const source=exportMarkdown(draft),restored=importMarkdown(source,'projects');
+ assert.equal(restored.blocks[0].text,body);
+ const {html}=await renderMarkdownDocument(body);
+ assert.match(html,/<span class="wiki-spoiler"[^>]*><strong>神椿<\/strong>/);
+ assert.match(html,/<a href="https:\/\/kamitsubaki.jp\/"/);
+ assert.match(html,/<mark>资料<\/mark>/);
+});

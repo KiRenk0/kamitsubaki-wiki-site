@@ -1,4 +1,4 @@
-import {expandRecordBatch} from '../lib/recordExpansion.mjs';
+import {expandRecordBatch,setExpandablePanel} from '../lib/recordExpansion.mjs';
 import {installCursorLayer} from '../lib/cursorLayer.mjs';
 import {handleSpoilerActivation} from '../lib/spoilerInteraction.mjs';
 import { detectExternalPlatform } from '../lib/externalPlatforms.mjs';
@@ -39,6 +39,13 @@ const applySequentialRubyProgress = (word, progress) => {
 };
 
 const externalLinksHeadingPattern = /^(外部链接|外部連結|外部リンク|external\s+links?)$/i;
+
+// Display buttons may live inside the native details menu; the complete
+// controls row still owns the immediately following lyric block.
+const associatedLyricBox = controls => {
+  const box = controls?.nextElementSibling;
+  return box instanceof HTMLElement && box.classList.contains('my-lyric-box') ? box : null;
+};
 
 export const isExternalLinksHeading = (value) => externalLinksHeadingPattern.test(String(value).trim());
 
@@ -131,7 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // A page may contain several lyric blocks. Keep synchronized controls only
   // beside a block that actually contains valid, sanitized timeline markers.
   document.querySelectorAll('.my-lyric-controls').forEach((controls) => {
-    const lyricBox = controls.nextElementSibling;
+    const lyricBox = associatedLyricBox(controls);
     const timelineButtons = controls.querySelectorAll('[data-lyric-action^="sync-"]');
     if (timelineButtons.length === 0) return;
 
@@ -614,7 +621,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!(button instanceof HTMLButtonElement)) return;
 
     const controls = button.closest('.my-lyric-controls');
-    const lyricBox = controls?.nextElementSibling;
+    const lyricBox = associatedLyricBox(controls);
     if (!(lyricBox instanceof HTMLElement) || !lyricBox.classList.contains('my-lyric-box')) return;
 
     const action = button.dataset.lyricAction;
@@ -690,32 +697,8 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
 
-      const copy = button.querySelector('[data-artist-expand-copy]');
-      const inner = collapsible.querySelector('.artist-collapsible__inner');
       const isExpanded = button.getAttribute('aria-expanded') === 'true';
-      const nextExpanded = !isExpanded;
-
-      if (inner instanceof HTMLElement) {
-        collapsible.style.setProperty('--artist-collapsible-height', `${inner.scrollHeight}px`);
-      }
-
-      button.setAttribute('aria-expanded', String(nextExpanded));
-      collapsible.dataset.expanded = String(nextExpanded);
-      collapsible.setAttribute('aria-hidden', String(!nextExpanded));
-      collapsible.inert = !nextExpanded;
-
-      if (copy) {
-        copy.textContent = nextExpanded
-          ? button.getAttribute('data-collapse-label') || ''
-          : button.getAttribute('data-expand-label') || '';
-      }
-
-      button.setAttribute(
-        'aria-label',
-        nextExpanded
-          ? button.getAttribute('data-collapse-label') || ''
-          : button.getAttribute('data-expand-label') || '',
-      );
+      setExpandablePanel(collapsible, button, !isExpanded);
     });
   }
 

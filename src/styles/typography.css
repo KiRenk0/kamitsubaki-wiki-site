@@ -1,0 +1,48 @@
+/* Four roles: archive headings, legible controls, continuous reading, audit data. */
+html body .wiki-reader.wiki-prose,
+html body .announcement-reader__body.wiki-reader,
+html body .announcement-modal__panel .announcement-modal__content.wiki-reader {
+  font-size:var(--ui-font-reading);
+  line-height:var(--ui-leading-reading);
+  letter-spacing:.01em;
+}
+html body .wiki-reader:lang(en) {
+  font-family:Georgia,"Iowan Old Style",serif;
+  line-height:1.8;
+  letter-spacing:0;
+}
+html body .reader-body { max-width:var(--ui-reading-measure); }
+html body .wiki-reader :where(p) { margin-block:0 1.15em; }
+html body .wiki-reader :where(h2) { margin-block:2.5em .9em; font-size:1.45em; }
+html body .wiki-reader :where(h3) { margin-block:1.9em .7em; font-size:1.15em; }
+html body .wiki-reader :where(h4) { font-size:1em; }
+html body .wiki-reader :where(figcaption) { font-size:var(--ui-font-sm);line-height:1.65;color:var(--wiki-muted-color); }
+html body .wiki-reader :where(pre,code,kbd) { font-family:var(--ui-font-terminal);font-variant-ligatures:none; }
+html body .wiki-reader :where(pre) { font-size:var(--ui-font-sm);line-height:1.7; }
+
+/* History is scanned by identifier, time and state; prose retains its reading font. */
+.ve-pr-list-item :is(p,small),.ve-pr-comment small,[data-pr-path],
+.creator-detail .creator-detail-meta,.creator-notification-row small,
+.creator-pagination,.announcement-reader__meta,
+.announcement-reader__archive :is(time,small) {
+  font-family:var(--ui-font-terminal);
+  font-size:var(--ui-font-xs);
+  font-variant-numeric:tabular-nums slashed-zero;
+  line-height:1.7;
+  letter-spacing:0;
+  overflow-wrap:anywhere;
+}
+html body .ve-pr-list-item { border-inline:0;border-radius:0;padding-inline:0; }
+html body .ve-pr-list-item p { margin-block:6px; }
+.creator-filters label,.creator-row-note,.creator-todo-row small,
+.creator-local-row small,.creator-detail-image small,.docs-reader-meta span {
+  font-size:var(--ui-font-xs);line-height:1.65;
+}
+.creator-row-note { white-space:normal;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical; }
+.site-footer__nav a,.site-footer__disclaimer,.site-footer__license a,.site-footer__copyright { font-size:var(--ui-font-xs); }
+html body .workspace-page .workspace-heading h1 { letter-spacing:.015em; }
+html body .workspace-page .workspace-section-heading { flex-wrap:wrap; }
+@media(max-width:640px){
+  html body .workspace-page :is(input:not([type=checkbox],[type=radio]),textarea,select){font-size:16px}
+  html body .wiki-reader :where(table){font-size:var(--ui-font-body)}
+}

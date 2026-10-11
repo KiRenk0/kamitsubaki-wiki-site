@@ -73,7 +73,7 @@
 .library-row-actions :is(button,select) { font-size: .75rem; min-height: 32px; padding: .25rem .5rem; }
 .library-row-actions select { width: auto; max-width: 180px; }
 .library-discover { display: inline-flex; margin-top: 1.25rem; color: var(--personal-accent) !important; font-size: .8125rem; }
-.personal-tools .labs-empty { border: 1px dashed var(--personal-line); border-radius: var(--ui-radius-control); background: var(--personal-soft); padding: 2.5rem 1rem; color: var(--personal-muted); }
+.personal-tools .labs-empty { border:0; border-radius:0; background:none; padding:2rem 0; color: var(--personal-muted);box-shadow:none;border-top:1px solid var(--personal-line);}
 .labs-practice.personal-tools { border: 1px solid var(--personal-line); border-radius: var(--ui-radius-panel); margin: 0 0 1.75rem; padding: 0; background: var(--personal-paper); }
 .practice-summary { display: flex; align-items: center; justify-content: space-between; gap: .75rem; padding: 1rem 1.125rem; cursor: pointer; font-weight: 500; }
 .practice-summary::after { content: '+'; color: var(--personal-muted); font-weight: 400; }
@@ -107,9 +107,9 @@
 .practice-sources a { color: var(--personal-accent); text-decoration: underline; text-underline-offset: 3px; }
 .practice-sources ul { padding-left: 1rem; list-style: disc; margin: .5rem 0; }
 /* Original lyric tools use the same control dimensions as the practice panel. */
-html body .my-lyric-controls { gap: .4rem; padding-block: .6rem; border-block: 1px solid rgb(var(--theme-fg-rgb)/.12); }
-html body .my-lyric-controls button { min-height: 36px; border-radius: var(--ui-radius-control); font-size: .75rem; padding: .35rem .7rem; }
-html body .my-lyric-controls button[aria-pressed='true'] { color: var(--theme-accent-color); border-color: color-mix(in srgb,var(--theme-accent-color) 40%,transparent); }
+html body .my-lyric-controls { gap: .25rem .5rem; padding-block: .45rem; border-block: 1px solid rgb(var(--theme-fg-rgb)/.12); }
+html body .my-lyric-controls :is(button,summary) { min-height: 44px; border-radius: var(--ui-radius-control); font-family: inherit; font-size: .75rem; padding: .35rem .7rem; }
+html body .my-lyric-controls button[aria-pressed='true'] { color: var(--theme-accent-color); }
 html body .wiki-article-actions :is(button,a) { min-height: 36px; }
 .labs-bookmark button::before { content: '＋'; margin-right: .35rem; }
 .labs-bookmark button[aria-pressed='true']::before { content: '✓'; }
