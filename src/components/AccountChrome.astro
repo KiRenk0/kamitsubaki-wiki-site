@@ -1,21 +1,26 @@
 ---
+import {accountWorkspaceCopy} from '../lib/accountWorkspaceCopy.mjs';
 import { accountCopy } from '../lib/accountCopy.mjs';
-import {centralAccountFrontendOrigin} from '../lib/centralAccountOrigins.mjs';
+import {centralAccountFrontendOrigin,centralAccountUIOrigin} from '../lib/centralAccountOrigins.mjs';
 const {locale='zh'}=Astro.props;
-const c=accountCopy(locale);
+const c=accountCopy(locale),ui=accountWorkspaceCopy(locale);
 const apiBase=import.meta.env.PUBLIC_AI_OBSERVER_API_BASE || 'https://api.kamitsubaki.wiki';
 const siteOrigin=centralAccountFrontendOrigin(apiBase,import.meta.env.PUBLIC_SITE_URL||Astro.site?.origin);
-const signIn=new URL('/auth/sign-in',apiBase);signIn.searchParams.set('locale',locale);signIn.searchParams.set('returnTo',`${siteOrigin}${Astro.url.pathname}${Astro.url.search}`);
+const signIn=new URL('/auth/sign-in',centralAccountUIOrigin(apiBase));signIn.searchParams.set('locale',locale);signIn.searchParams.set('returnTo',`${siteOrigin}${Astro.url.pathname}${Astro.url.search}`);
 ---
 <div data-account-config data-api-base={apiBase} data-locale={locale} data-copy={JSON.stringify(c)}></div>
 <dialog class="account-dialog" data-account-dialog aria-labelledby="account-login-title" aria-describedby="account-login-note">
   <button class="account-close" type="button" data-account-close aria-label={c.close}>×</button>
+  <div data-account-guest-menu>
   <p class="account-eyebrow">KAMITSUBAKI WIKI</p><h2 id="account-login-title">{c.loginTitle}</h2><p id="account-login-note">{c.loginNote}</p>
   <div class="account-actions"><a class="account-button account-primary" data-account-sign-in href={signIn.toString()}><span>{c.login} / {locale==='en'?'Create account':locale==='ja'?'登録':'注册'}</span><span aria-hidden="true">→</span></a></div>
+  </div>
+  <section data-account-member-menu hidden><div class="account-menu-identity" data-account-menu-identity></div><nav class="account-menu-links" aria-label={c.title}><a href={`/${locale}/account/#profile`}>{c.profile}<span>→</span></a><a data-account-security href={new URL('/auth/security',centralAccountUIOrigin(apiBase)).href}>{ui.security}<span>→</span></a><a href={`/${locale}/account/#data`}>{c.data}<span>→</span></a></nav><button class="account-button" data-account-logout>{c.logout}</button></section>
   <a class="account-link" href={`/${locale}/account/`}>{c.title} →</a>
 </dialog>
 <script>import '../scripts/accountStore.js';</script>
 <style is:global>
+  .account-menu-links{display:grid;margin:20px 0;border-block:1px solid rgb(var(--theme-fg-rgb) / .16)}.account-menu-links a{display:flex;justify-content:space-between;padding:16px 0;gap:24px}.account-menu-identity{display:flex;align-items:center;gap:12px;font-size:1.2rem;overflow-wrap:anywhere}.account-identity-avatar{display:inline-grid;place-items:center;width:32px;height:32px;flex:0 0 32px;border-radius:50%;object-fit:cover;background:rgb(var(--theme-fg-rgb) / .12)}.account-menu-identity .account-identity-avatar{width:48px;height:48px;flex-basis:48px}.account-nav{gap:8px!important;max-width:12rem!important}.account-identity-name{font-size:12px;letter-spacing:normal;overflow:hidden;text-overflow:ellipsis}.account-nav .account-identity-avatar{width:26px;height:26px;flex-basis:26px}
   .account-button[hidden],.account-sync [hidden]{display:none!important}
   .account-dialog{width:min(460px,calc(100vw - 32px));margin:auto;padding:2rem;border:1px solid color-mix(in srgb,var(--theme-fg) 20%,transparent);border-radius:8px;background:var(--theme-bg);color:var(--theme-fg)}
   .account-dialog::backdrop{background:#0008}.account-dialog h2{font-size:1.6rem;margin:1rem 0}.account-dialog p{line-height:1.8}.account-close{position:relative;z-index:1;float:right;font-size:1.5rem;min-width:36px;min-height:36px}.account-eyebrow{font:11px monospace;letter-spacing:.15em;opacity:.65}.account-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin:1rem 0}.account-button{display:inline-flex;align-items:center;justify-content:center;padding:.65rem 1rem;border:1px solid color-mix(in srgb,var(--theme-fg) 25%,transparent);border-radius:5px;font-size:.85rem;min-height:42px;background:transparent;color:inherit;cursor:pointer}.account-primary{background:var(--theme-fg);color:var(--theme-bg)}.account-link{text-decoration:underline;text-underline-offset:4px}.account-nav{display:inline-flex;align-items:center;max-width:8rem;font-size:11px;white-space:nowrap;padding:.5rem}.account-button:disabled{opacity:.5;cursor:wait}.account-button:focus-visible,.account-nav:focus-visible{outline:2px solid currentColor;outline-offset:3px}

@@ -2,7 +2,7 @@
 import {imageLibraryCopy} from '../lib/imageLibraryCopy.mjs';
 import {accountWorkspaceCopy} from '../lib/accountWorkspaceCopy.mjs';
 import {accountCopy} from '../lib/accountCopy.mjs';
-import {centralAccountFrontendOrigin} from '../lib/centralAccountOrigins.mjs';
+import {centralAccountFrontendOrigin,centralAccountUIOrigin} from '../lib/centralAccountOrigins.mjs';
 interface Props {locale:string; active?:'account'|'creator';}
 const {locale,active='account'}=Astro.props;
 const ui=accountWorkspaceCopy(locale),c=accountCopy(locale),base=`/${locale}/account/`;
@@ -13,7 +13,7 @@ const groups=[
 ] as const;
 const apiBase=import.meta.env.PUBLIC_AI_OBSERVER_API_BASE || 'https://api.kamitsubaki.wiki';
 const siteOrigin=centralAccountFrontendOrigin(apiBase,import.meta.env.PUBLIC_SITE_URL||Astro.site?.origin);
-const security=new URL('/auth/security',apiBase);security.searchParams.set('locale',locale);security.searchParams.set('returnTo',`${siteOrigin}${base}#overview`);
+const security=new URL('/auth/security',centralAccountUIOrigin(apiBase));security.searchParams.set('locale',locale);security.searchParams.set('returnTo',`${siteOrigin}${base}#overview`);
 ---
 <nav class="account-sections" aria-label={c.title}>
   {groups.map(group=><div class="account-sections-group"><span class="account-sections-heading">{group.label}</span>{group.items.map(([key,label])=>{
