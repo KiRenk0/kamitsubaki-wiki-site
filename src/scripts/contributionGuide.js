@@ -1,3 +1,4 @@
+import {setIconLabel} from '../lib/icons.mjs';
 import { guideSteps, guideStorageKey, guideTask, normalizeGuideTarget, readGuideProgress, nextGuideStep } from '../lib/contributionGuide.mjs';
 
 const root = document.querySelector('[data-contribution-guide]');
@@ -74,7 +75,7 @@ if (root) {
     const next = nextGuideStep(completed);
     const resume = $('[data-resume]');
     resume.href = next ? `#lesson-${next}` : '#guide-finish';
-    resume.textContent = next ? `${copy.continue} →` : copy.allDone;
+    setIconLabel(resume,next ? `${copy.continue} →` : copy.allDone);
     $('[data-storage-note]').textContent = storageWorks ? copy.storage : copy.storageFailed;
   }
   function saveProgress() {

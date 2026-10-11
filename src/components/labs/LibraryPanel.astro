@@ -1,4 +1,5 @@
 ---
+import Icon from '../../components/Icon.astro';
 import WorkspaceToolbar from '../WorkspaceToolbar.astro';
 import '../../styles/personalTools.css';
 import AccountSync from '../AccountSync.astro';
@@ -8,7 +9,7 @@ const kindGroups=Object.entries(c.entryKinds as Record<string,string>).reduce((g
 <AccountSync locale={locale}/>
 <div class="personal-tools library-workspace">
   <aside class="library-sidebar">
-    <div class="personal-heading"><h2>{c.collections}</h2><button type="button" data-create-open><span aria-hidden="true">＋</span>{c.create}</button></div>
+    <div class="personal-heading"><h2>{c.collections}</h2><button type="button" data-create-open><span aria-hidden="true"><Icon name="plus" /></span>{c.create}</button></div>
     <nav class="library-lists" data-library-lists aria-label={c.collections}></nav>
     <details class="personal-disclosure library-backup"><summary>{c.backup}</summary><div class="labs-actions"><button data-export>{c.export}</button><button data-import-open>{c.import}</button></div><input type="file" data-import accept="application/json,.json" hidden /></details>
   </aside>
@@ -18,7 +19,7 @@ const kindGroups=Object.entries(c.entryKinds as Record<string,string>).reduce((g
     <div class="personal-feedback" role="status" aria-live="polite"><span data-library-feedback></span><button data-library-undo hidden>{c.undo}</button></div>
     <div class="library-result-heading"><span data-status></span><button data-library-clear hidden>{c.reset}</button></div>
     <div class="labs-results" data-results></div><button data-library-more hidden>{c.more}</button>
-    <a class="library-discover" href={`/${locale}/explore/`}>{c.explore} →</a>
+    <a class="library-discover" href={`/${locale}/explore/`}>{c.explore} <Icon name="arrow-right" /></a>
   </div>
   <dialog class="personal-dialog" data-list-dialog aria-labelledby="library-dialog-title"><form data-list-form><h2 id="library-dialog-title" data-dialog-title>{c.create}</h2><label><span>{c.listName}</span><input name="name" required maxlength="80" autocomplete="off" /></label><p role="status" data-dialog-status></p><div class="labs-actions"><button type="button" data-dialog-cancel>{c.cancel}</button><button type="submit" class="personal-primary">{c.confirm}</button></div></form></dialog>
 </div>

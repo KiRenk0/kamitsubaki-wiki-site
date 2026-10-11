@@ -1,8 +1,9 @@
+import {setIconLabel} from './icons.mjs';
 import {lockModalScroll} from './modalScroll.mjs';
 import '../styles/imageViewer.css';
 let singleton;
 export function imageViewer(){if(singleton)return singleton;
- const make=(tag,text)=>{const node=document.createElement(tag);if(text)node.textContent=text;return node;};
+ const make=(tag,text)=>{const node=document.createElement(tag);if(text)setIconLabel(node,text);return node;};
  const language=document.documentElement.lang.toLowerCase(),traditional=language.includes('hant')||language.startsWith('zh-tw')||language.startsWith('zh-hk'),ja=language.startsWith('ja');
  const traditionalLabels={'图片查看器':'圖片檢視器','查看说明':'查看說明','收起说明':'收起說明','关闭':'關閉','重新载入图片':'重新載入圖片','图片资料':'圖片資料','相关操作':'相關操作','适应窗口':'適應視窗','上一张':'上一張','下一张':'下一張','缩小':'縮小','放大':'放大','正在载入…':'正在載入…','图片':'圖片','说明':'說明','暂无补充说明':'暫無補充說明','浏览位置':'瀏覽位置','图片尺寸':'圖片尺寸','下载图片':'下載圖片','图片载入失败':'圖片載入失敗','正在加载后续照片…':'正在載入後續照片…','后续照片加载失败，请再点下一张重试':'後續照片載入失敗，請再按下一張重試','查看图片':'查看圖片','拖动查看资料':'拖動查看資料'};
  const label=(cn,en,jp)=>traditional?traditionalLabels[cn]||cn:language.startsWith('zh')?cn:ja?jp:en;

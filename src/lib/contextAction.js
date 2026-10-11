@@ -1,3 +1,4 @@
+import {createIcon} from './icons.mjs';
 /** Build an action link for content loaded after the page renders. */
 export function createContextAction(label, href, { tone = 'secondary', direction = true } = {}) {
   const link = document.createElement('a');
@@ -12,7 +13,7 @@ export function createContextAction(label, href, { tone = 'secondary', direction
     const arrow = document.createElement('span');
     arrow.className = 'context-action__arrow';
     arrow.setAttribute('aria-hidden', 'true');
-    arrow.textContent = '↗';
+    arrow.append(createIcon('arrow-up-right'));
     link.append(arrow);
   }
   return link;

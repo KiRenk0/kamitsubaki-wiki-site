@@ -1,4 +1,5 @@
 ---
+import Icon from '../components/Icon.astro';
 import { getLanguageTag } from '../lib/i18n.mjs';
 import {centralAccountFrontendOrigin} from '../lib/centralAccountOrigins.mjs';
 
@@ -101,9 +102,7 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
     <span class="ai-chat__orb-corner ai-chat__orb-corner--tr" aria-hidden="true">+</span>
     <span class="ai-chat__orb-corner ai-chat__orb-corner--bl" aria-hidden="true">+</span>
     <span class="ai-chat__orb-corner ai-chat__orb-corner--br" aria-hidden="true">+</span>
-    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-      <path d="M12 2C12 7.5 16.5 12 22 12C16.5 12 12 16.5 12 22C12 16.5 7.5 12 2 12C7.5 12 12 7.5 12 2Z" fill="currentColor" stroke="none" />
-    </svg>
+    <Icon name="sparkles" />
     {launcher === 'dock' && <strong>{copy.title}</strong>}
   </button>
 </div>}
@@ -136,13 +135,13 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
 
       <div class="ai-chat__actions">
         <button class="ai-chat__icon-btn" type="button" data-ai-history-toggle aria-expanded="false" aria-label={normalizedCopy.historyLabel}>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/><path d="M12 7v5l3 2"/></svg>
+          <Icon name="history" />
         </button>
         <button class="ai-chat__icon-btn" type="button" data-ai-settings-toggle aria-expanded="false" aria-label={normalizedCopy.settingsLabel}>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M4 7h10"/><path d="M18 7h2"/><path d="M16 5v4"/><path d="M4 17h2"/><path d="M10 17h10"/><path d="M8 15v4"/></svg>
+          <Icon name="sliders-horizontal" />
         </button>
         <button class="ai-chat__icon-btn ai-chat__icon-btn--close" type="button" data-ai-close aria-label={copy.closeLabel}>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M18 6 6 18M6 6l12 12" /></svg>
+          <Icon name="x" />
         </button>
       </div>
 
@@ -159,7 +158,7 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
               </button>
             </div>
           </div>
-          <a class="ai-chat__terminal-link" href={terminalUrl} data-ai-terminal-link>{normalizedCopy.terminalLabel} <span aria-hidden="true">→</span></a>
+          <a class="ai-chat__terminal-link" href={terminalUrl} data-ai-terminal-link>{normalizedCopy.terminalLabel} <span aria-hidden="true"><Icon name="arrow-right" /></span></a>
         </div>
       </div>
     </header>
@@ -168,8 +167,8 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
       <div class="ai-chat__auth" data-ai-auth>
         <div class="ai-chat__auth-status" data-ai-auth-status>{normalizedCopy.accountAnonymous}</div>
         <div class="ai-chat__auth-actions">
-          <a class="ai-chat__auth-btn" data-ai-oauth href={signIn.toString()}>{lang==='en'?'Sign in / Create account':lang==='ja'?'ログイン・登録':'登录 / 注册'} →</a>
-          <button class="ai-chat__auth-btn" type="button" data-ai-logout hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" x2="9" y1="12" y2="12"/></svg> {normalizedCopy.logoutLabel}</button>
+          <a class="ai-chat__auth-btn" data-ai-oauth href={signIn.toString()}>{lang==='en'?'Sign in / Create account':lang==='ja'?'ログイン・登録':'登录 / 注册'} <Icon name="arrow-right" /></a>
+          <button class="ai-chat__auth-btn" type="button" data-ai-logout hidden><Icon name="log-out" /> {normalizedCopy.logoutLabel}</button>
         </div>
       </div>
       <p data-ai-auth-note hidden></p>
@@ -180,8 +179,8 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
         <div class="ai-chat__history-head">
           <span>// ARCHIVES</span>
           <div class="ai-chat__history-actions">
-            <button type="button" class="ai-chat__icon-btn" data-ai-new-thread aria-label={normalizedCopy.newThreadLabel}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M12 5v14M5 12h14"/></svg></button>
-            <button type="button" class="ai-chat__icon-btn" data-ai-history-clear aria-label={normalizedCopy.clearHistoryLabel}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M3 6h18M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></button>
+            <button type="button" class="ai-chat__icon-btn" data-ai-new-thread aria-label={normalizedCopy.newThreadLabel}><Icon name="plus" /></button>
+            <button type="button" class="ai-chat__icon-btn" data-ai-history-clear aria-label={normalizedCopy.clearHistoryLabel}><Icon name="trash-2" /></button>
           </div>
         </div>
         <template data-ai-thread-menu></template>
@@ -222,7 +221,7 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
               placeholder={copy.inputPlaceholder}
             ></textarea>
             <button type="submit" class="ai-chat__submit-btn" data-ai-submit aria-label={copy.sendLabel}>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              <Icon name="arrow-right" />
             </button>
           </div>
           <p class="ai-chat__hint">{normalizedCopy.keyboardHint}</p>

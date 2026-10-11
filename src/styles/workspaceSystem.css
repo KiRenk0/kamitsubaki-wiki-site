@@ -37,7 +37,7 @@ html body main.workspace-page[data-workspace-width=reading]{--workspace-max:1120
 
 /* One action hierarchy: parent link, heading + primary action, then content tools. */
 html body main.workspace-page .workspace-header{position:relative;display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:18px 32px;padding:0 0 24px;margin:0 0 var(--workspace-gap);border-bottom:1px solid var(--workspace-line)}
-html body main.workspace-page .workspace-header::after{content:'＋';position:absolute;right:0;bottom:-9px;padding-left:8px;background:var(--theme-bg);color:var(--workspace-muted);font:14px var(--font-mono)}
+html body main.workspace-page .workspace-header::after{content:'';display:inline-block;width:1em;height:1em;background:currentColor;mask:url('/icons/lucide/plus.svg') center/contain no-repeat;position:absolute;right:0;bottom:-9px;padding-left:8px;background:var(--theme-bg);color:var(--workspace-muted);font:14px var(--font-mono)}
 html body main.workspace-page .workspace-heading{flex:1 1 320px;min-width:0}
 html body main.workspace-page .workspace-heading h1{font:400 var(--workspace-title)/1.35 var(--font-serif);letter-spacing:.025em;margin:0 0 12px;text-wrap:balance}
 html body main.workspace-page .workspace-heading>.workspace-eyebrow{font:11px/1.6 var(--font-mono);letter-spacing:.15em;margin:0 0 10px;color:var(--workspace-muted)}
@@ -66,8 +66,8 @@ html body .workspace-page .workspace-button:focus-visible{outline:2px solid var(
 .workspace-filter-more{position:relative;flex:0 0 auto}
 .workspace-filter-more>summary{display:flex;align-items:center;gap:12px;min-height:var(--workspace-control-height);padding:8px 12px;border:1px solid var(--workspace-line);border-radius:var(--ui-radius-control);font-size:13px;cursor:pointer;list-style:none}
 .workspace-filter-more>summary::-webkit-details-marker{display:none}
-.workspace-filter-more>summary::after{content:'＋';font:14px var(--font-mono);color:var(--workspace-muted)}
-.workspace-filter-more[open]>summary::after{content:'−'}
+.workspace-filter-more>summary::after{content:'';display:inline-block;width:1em;height:1em;background:currentColor;mask:url('/icons/lucide/plus.svg') center/contain no-repeat;font:14px var(--font-mono);color:var(--workspace-muted)}
+.workspace-filter-more[open]>summary::after{content:'';display:inline-block;width:1em;height:1em;background:currentColor;mask:url('/icons/lucide/minus.svg') center/contain no-repeat;}
 .workspace-filter-more>div{position:absolute;z-index:20;top:calc(100% + 8px);right:0;min-width:220px;padding:16px;background:var(--theme-panel-solid);border:1px solid var(--workspace-line);border-radius:var(--workspace-radius);box-shadow:var(--workspace-shadow)}
 .workspace-state{display:grid;justify-items:start;gap:12px;padding:32px 0;min-height:180px;align-content:center}
 .workspace-state__symbol{color:var(--workspace-muted);width:28px;height:28px;stroke-width:1.25;fill:none;stroke:currentColor}

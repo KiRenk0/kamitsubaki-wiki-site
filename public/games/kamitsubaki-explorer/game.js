@@ -1022,7 +1022,7 @@ function makeArchiveLink(item) {
   link.className = 'archive-link';
   link.href = item.href;
   link.target = '_top';
-  link.innerHTML = `<strong>${escapeHtml(item.title)}</strong><span>${copy.openArchive} →</span>`;
+  link.innerHTML = `<strong>${escapeHtml(item.title)}</strong><span>${copy.openArchive} <span class="site-icon-mask" data-ui-icon="arrow-right" aria-hidden="true"></span></span>`;
   return link;
 }
 

@@ -1,4 +1,5 @@
 ---
+import Icon from '../../components/Icon.astro';
 import WorkspaceLayout from '../../layouts/WorkspaceLayout.astro';
 import WorkspaceLinkCard from '../../components/WorkspaceLinkCard.astro';
 import {supportedLocales,resolveLocaleCopy} from '../../lib/i18n.mjs';
@@ -13,13 +14,13 @@ const copy=resolveLocaleCopy({
 ---
 <WorkspaceLayout locale={locale} title={`404 / ${copy.title}`} intro={copy.intro} path="/404/" eyebrow="PAGE NOT FOUND" backHref={`/${locale}/`} backLabel={copy.home} noindex>
   <section class="not-found-recovery" aria-label={copy.title}>
-    <button type="button" class="not-found-search" data-search-open>{copy.search} <span aria-hidden="true">↗</span></button>
+    <button type="button" class="not-found-search" data-search-open>{copy.search} <span aria-hidden="true"><Icon name="arrow-up-right" /></span></button>
     <div class="not-found-destinations">
       <WorkspaceLinkCard href={`/${locale}/explore/`} title={copy.explore} index="01" />
       <WorkspaceLinkCard href={`/${locale}/docs/`} title={copy.docs} index="02" />
       <WorkspaceLinkCard href={`/${locale}/`} title={copy.home} index="03" />
     </div>
-    <p class="not-found-extra">{copy.gameHint} <a href={`/${locale}/games/memory-corridor/`}>{copy.game} ↗</a></p>
+    <p class="not-found-extra">{copy.gameHint} <a href={`/${locale}/games/memory-corridor/`}>{copy.game} <Icon name="arrow-up-right" /></a></p>
   </section>
 </WorkspaceLayout>
 <style>

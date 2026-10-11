@@ -7,9 +7,9 @@ const require=createRequire(import.meta.url);
 const {build}=createRequire(require.resolve('vite'))('esbuild');
 const bundled=await build({entryPoints:['src/lib/gallery.ts'],bundle:true,write:false,format:'iife',globalName:'galleryAdapter',plugins:[{
   name:'gallery-viewer-fixture',setup(builder){
-    builder.onResolve({filter:/(imageViewer|disclosureMotion)\.mjs$/},args=>({path:args.path,namespace:'gallery-fixture'}));
-    builder.onLoad({filter:/.*/,namespace:'gallery-fixture'},args=>({contents:args.path.includes('imageViewer')
-      ?'export function imageViewer(){return window.qaViewer;}'
+    builder.onResolve({filter:/(galleryImageViewer|imageViewer|disclosureMotion)\.mjs$/},args=>({path:args.path,namespace:'gallery-fixture'}));
+    builder.onLoad({filter:/.*/,namespace:'gallery-fixture'},args=>({contents:/imageViewer|galleryImageViewer/.test(args.path)
+      ?'export function imageViewer(){return window.qaViewer;} export const galleryImageViewer=imageViewer;'
       :'export function createDisclosureMotion(element){return {async setOpen(open){element.hidden=!open;},dispose(){}};}'}));
   },
 }]});
@@ -17,7 +17,7 @@ const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 async function until(check){for(let i=0;i<100&&!check();i++)await sleep(10);assert.ok(check(),'gallery state did not settle');}
 const photo=id=>({id,src:`https://images.example/${id}.webp`,title:id});
 
-function browser(respond,search=''){
+function browser(respond,search='',metadata){
   const dom=new JSDOM(`<main data-gallery data-api="https://api.example" data-locale="en">
     <div data-gallery-overview><section id="gallery-role-filters"><input data-gallery-role-search><select data-gallery-role-sort><option value="site">Site</option></select><div data-gallery-roles></div><p data-gallery-role-empty hidden></p><output data-gallery-role-count></output><button data-gallery-roles-toggle><span data-artist-expand-count></span></button><button data-artist-collapse hidden></button></section>
     <h2 data-gallery-section-title></h2><output data-gallery-count></output>
@@ -37,7 +37,7 @@ function browser(respond,search=''){
   w.fetch=async(url,options)=>{
     const target=new URL(url);calls.push(target);
     const endpoints={'/api/gallery/entities':{entities:[]},'/api/gallery/sets/facets':{facets:[]},'/api/gallery/facets':{facets:{}},'/api/gallery/types':{types:[]}};
-    return target.pathname in endpoints?Response.json(endpoints[target.pathname]):respond(target,options,calls);
+    return target.pathname in endpoints?(metadata?metadata(target,endpoints[target.pathname]):Response.json(endpoints[target.pathname])):respond(target,options,calls);
   };
   w.eval(bundled.outputFiles[0].text+'\nwindow.galleryAdapter=galleryAdapter;');void w.galleryAdapter.initGallery();
   return {w,root,calls,find:selector=>root.querySelector(selector)};
@@ -73,4 +73,20 @@ test('a late photo failure from a previous route does not overwrite the current 
     assert.equal(b.w.location.search,'?q=current');assert.equal(b.find('[data-gallery-feedback]').textContent,'');
     assert.equal(b.w.qaViewer.isOpen,false);assert.equal(b.root.querySelectorAll('.gallery-photo-card').length,2);
   } finally {b.w.close();}
+});
+
+
+test('photos become ready while catalog requests are slow, and survive a catalog failure',async()=>{
+  let release;const delayed=new Promise(resolve=>{release=resolve;});
+  const b=browser(()=>Response.json({items:[photo('first')],total:1,nextOffset:null}),'',async(url,data)=>{
+    if(url.pathname.endsWith('/facets')){await delayed;throw Error('Facet outage');}return Response.json(data);
+  });
+  try{
+    await until(()=>b.root.dataset.loadState==='ready');
+    assert.equal(b.root.querySelectorAll('.gallery-photo-card').length,1);
+    assert.notEqual(b.root.dataset.catalogState,'ready');
+    release();await until(()=>b.root.dataset.catalogState==='partial');
+    assert.equal(b.root.querySelectorAll('.gallery-photo-card').length,1);
+    assert.equal(b.find('[data-gallery-retry]').hidden,false);
+  }finally{release();b.w.close();}
 });

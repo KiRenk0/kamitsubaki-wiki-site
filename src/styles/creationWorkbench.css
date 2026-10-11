@@ -73,8 +73,8 @@ html body main.creation-preview-page .workspace-heading>.workspace-eyebrow{margi
 .creation-photo-details{margin-top:10px}
 .creation-photo-details>summary{display:flex;align-items:center;justify-content:space-between;min-height:40px;cursor:pointer;font:500 12px/1.5 var(--font-sans);list-style:none;border-block:1px solid var(--creation-line)}
 .creation-photo-details>summary::-webkit-details-marker{display:none}
-.creation-photo-details>summary::after{content:'＋';font:14px var(--font-mono)}
-.creation-photo-details[open]>summary::after{content:'−'}
+.creation-photo-details>summary::after{content:'';display:inline-block;width:1em;height:1em;background:currentColor;mask:url('/icons/lucide/plus.svg') center/contain no-repeat;font:14px var(--font-mono)}
+.creation-photo-details[open]>summary::after{content:'';display:inline-block;width:1em;height:1em;background:currentColor;mask:url('/icons/lucide/minus.svg') center/contain no-repeat;}
 .creation-photo-details .submission-hint{margin:10px 0;font-size:11px}
 .creation-photo-details .creation-photo-rights{margin-bottom:0}
 .creation-set-media .creation-image-tools{margin-top:10px;gap:5px;flex-wrap:wrap}

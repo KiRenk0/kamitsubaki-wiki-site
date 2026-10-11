@@ -611,7 +611,7 @@ html.has-js .reveal-up.active {
 
 .ui-crosshair::before,
 .ui-crosshair::after {
-  content: '+';
+  content:'';display:inline-block;width:1em;height:1em;background:currentColor;mask:url('/icons/lucide/plus.svg') center/contain no-repeat;
   position: absolute;
   color: rgb(var(--theme-fg-rgb) / 0.15);
   font-size: 10px;
@@ -4557,8 +4557,8 @@ button.events-calendar__day:focus-visible {
 }
 
 .ai-chat__orb svg path {
-  fill: currentColor !important;
-  transition: fill 250ms ease;
+  fill: none;
+  transition: stroke 250ms ease;
 }
 
 .ai-chat__orb:hover svg {
@@ -4566,7 +4566,7 @@ button.events-calendar__day:focus-visible {
 }
 
 .ai-chat__orb:hover svg path {
-  fill: currentColor !important;
+  fill: none;
 }
 
 .ai-chat.is-thinking .ai-chat__orb {

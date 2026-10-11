@@ -1,4 +1,5 @@
 ---
+import Icon from '../components/Icon.astro';
 import '../styles/announcements.css';
 type Announcement = {
   id: string;
@@ -36,7 +37,7 @@ if (!announcement) return;
       <article class="announcement-modal__content wiki-reader wiki-prose prose prose-invert max-w-none" set:html={announcement.html}></article>
     </div>
     <div class="announcement-modal__footer">
-      <a class="announcement-modal__archive" href={archiveHref}>{labels.archive} →</a>
+      <a class="announcement-modal__archive" href={archiveHref}>{labels.archive} <Icon name="arrow-right" /></a>
       <button type="button" class="announcement-modal__button announcement-modal__button--primary" data-announcement-close>{labels.close}</button>
     </div>
   </section>

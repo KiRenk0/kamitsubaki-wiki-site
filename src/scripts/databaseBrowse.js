@@ -1,3 +1,4 @@
+import {setIconLabel} from '../lib/icons.mjs';
 import {filterDatabaseRecords,readDatabaseQuery,writeDatabaseQuery} from '../lib/databaseBrowse.mjs';
 import {DATABASE_PLACEHOLDER_IMAGE} from '../lib/databaseArtwork.mjs';
 
@@ -6,7 +7,7 @@ const PAGE_SIZE=24;
 function textElement(tag,className,text) {
   const element=document.createElement(tag);
   element.className=className;
-  element.textContent=text;
+  setIconLabel(element,text);
   return element;
 }
 

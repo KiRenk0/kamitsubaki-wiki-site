@@ -23,9 +23,15 @@ export function createGalleryRoleControls(section, {locale = 'zh', initialCount 
   const collator = new Intl.Collator(locale, {numeric:true, sensitivity:'base'});
   const mobile = section.ownerDocument.defaultView?.matchMedia?.('(max-width:700px)');
   let baseCount = mobile?.matches ? mobileInitialCount : initialCount;
-  let shown = baseCount, active = '', cards = [];
+  let shown = baseCount, active = '', cards = [], expansion;
+  const reduced = section.ownerDocument.defaultView?.matchMedia?.('(prefers-reduced-motion: reduce)');
 
-  function render(id = active) {
+  const columnsForBatch=()=>{const n=section.ownerDocument.defaultView.getComputedStyle(grid).gridTemplateColumns.split(' ').filter(x=>x&&x!=='none').length;return n>1?Math.ceil(batchSize/n)*n:batchSize;};
+  function render(id = active, animate = false) {
+    const columns=section.ownerDocument.defaultView.getComputedStyle(grid).gridTemplateColumns.split(' ').filter(x=>x&&x!=='none').length;
+    if(columns>1){const newBase=columns*2-1;if(shown===baseCount)shown=newBase;baseCount=newBase;shown=Math.ceil((shown+1)/columns)*columns-1;}
+    const before = grid.getBoundingClientRect().height;
+    expansion?.cancel();
     active = id;
     cards = [...grid.querySelectorAll('[data-role]')].filter(card => card.dataset.role);
     cards.sort((a, b) => {
@@ -39,7 +45,9 @@ export function createGalleryRoleControls(section, {locale = 'zh', initialCount 
       }
       return Number(a.dataset.siteOrder) - Number(b.dataset.siteOrder);
     });
-    cards.forEach(card => grid.append(card));
+    const focused = section.ownerDocument.activeElement;
+    cards.forEach((card,index) => {if(grid.children[index+1]!==card)grid.insertBefore(card,grid.children[index+1]||null);});
+    if(focused?.isConnected && grid.contains(focused) && section.ownerDocument.activeElement!==focused)focused.focus({preventScroll:true});
     const term = search.value.trim().toLocaleLowerCase(locale);
     let matches = 0, visible = 0;
     cards.forEach((card, index) => {
@@ -54,7 +62,11 @@ export function createGalleryRoleControls(section, {locale = 'zh', initialCount 
     for (const card of grid.querySelectorAll('[data-role]')) {
       card.setAttribute('aria-pressed', String(card.dataset.role === active));
     }
-    const nextCount = cards.slice(shown, shown + batchSize).filter(card => card.hidden).length;
+    const visibleCards=[...grid.querySelectorAll('[data-role]')].filter(card=>!card.hidden);
+    for(const card of grid.querySelectorAll('[data-role]'))card.style.removeProperty('grid-column');
+    const remaining=visibleCards.length%columns;
+    if(columns>1&&remaining)visibleCards.slice(-remaining).forEach((card,i)=>{card.style.gridColumn=`span ${Math.floor(columns/remaining)+(i<columns%remaining?1:0)}`;});
+    const nextCount = cards.slice(shown, shown + (columnsForBatch())).filter(card => card.hidden).length;
     const expanded = shown > baseCount || Boolean(term);
     more.hidden = Boolean(term) || !nextCount;
     more.setAttribute('aria-expanded', String(expanded));
@@ -63,6 +75,14 @@ export function createGalleryRoleControls(section, {locale = 'zh', initialCount 
     collapse.hidden = !expanded;
     empty.hidden = !term || matches > 0;
     count.textContent = `${visible} / ${term ? matches : cards.length}`;
+    if (animate && !reduced?.matches && grid.animate) {
+      const after = grid.getBoundingClientRect().height;
+      if (before !== after) {
+        grid.style.overflow = 'clip';
+        const motion = expansion = grid.animate([{height:`${before}px`},{height:`${after}px`}], {duration:260,easing:'cubic-bezier(.22,1,.36,1)'});
+        motion.finished.catch(()=>{}).then(()=>{if(expansion===motion){grid.style.removeProperty('overflow');expansion=undefined;}});
+      }
+    }
   }
   search.addEventListener('input', () => render());
   sort.addEventListener('change', () => { shown = baseCount; render(); });
@@ -73,15 +93,18 @@ export function createGalleryRoleControls(section, {locale = 'zh', initialCount 
     render();
   });
   more.addEventListener('click', () => {
-    shown = Math.min(cards.length, shown + batchSize);
-    render();
+    shown = Math.min(cards.length, shown + (columnsForBatch()));
+    render(active, true);
     if (more.hidden) collapse.focus({preventScroll:true});
   });
   collapse.addEventListener('click', () => {
     shown = baseCount;
     search.value = '';
-    render();
+    render(active, true);
     (more.hidden ? grid.querySelector('[aria-pressed="true"]') : more)?.focus();
   });
+  let observedWidth=0;
+  const Observer=section.ownerDocument.defaultView.ResizeObserver;
+  if(Observer)new Observer(entries=>{const width=entries[0].contentRect.width;if(width!==observedWidth){observedWidth=width;render();}}).observe(grid);
   return {render};
 }

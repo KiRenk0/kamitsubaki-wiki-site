@@ -1,4 +1,5 @@
 ---
+import Icon from '../../components/Icon.astro';
 import WorkspaceShell from '../../components/WorkspaceShell.astro';
 import { getBuildCollection as getCollection } from '../../lib/contentAuditContext';
 import BaseLayout from '../../layouts/BaseLayout.astro';
@@ -36,7 +37,7 @@ const apiBase = import.meta.env.PUBLIC_SUPPORT_API_BASE || import.meta.env.PUBLI
     <script is:inline type="application/json" data-support-copy set:html={JSON.stringify(copy).replace(/</g, '\\u003c')} />
     <WorkspaceHeader title={copy.title} intro={copy.intro} eyebrow="SUPPORT" backHref={`/${locale}/`} backLabel={copy.home}>
 
-      <a href={`/${locale}/contribute/`}>{copy.contribute}<span aria-hidden="true">↗</span></a>
+      <a href={`/${locale}/contribute/`}>{copy.contribute}<span aria-hidden="true"><Icon name="arrow-up-right" /></span></a>
     </WorkspaceHeader>
 
     <WorkspaceNavigation label={copy.pageNav} kind="support">
@@ -60,9 +61,9 @@ const apiBase = import.meta.env.PUBLIC_SUPPORT_API_BASE || import.meta.env.PUBLI
         {data.channels.map((channel, index) => <SupportChannelCard channel={channel} locale={locale} index={index} />)}
       </div>
       <aside class="support-community">
-        <span class="support-community__mark" aria-hidden="true">＋</span>
+        <span class="support-community__mark" aria-hidden="true"><Icon name="plus" /></span>
         <div><h3>{copy.communityTitle}</h3><p>{copy.communityBody}</p></div>
-        <a class="support-text-link" href={`/${locale}/contribute/`}>{copy.contribute}<span aria-hidden="true">↗</span></a>
+        <a class="support-text-link" href={`/${locale}/contribute/`}>{copy.contribute}<span aria-hidden="true"><Icon name="arrow-up-right" /></span></a>
       </aside>
       <p class="support-free-note">{copy.freeNote}</p>
     </section>
@@ -116,7 +117,7 @@ const apiBase = import.meta.env.PUBLIC_SUPPORT_API_BASE || import.meta.env.PUBLI
                 {report.note && <p class="support-report__note">{resolveLocaleCopy(report.note, locale)}</p>}
                 <div class="support-report__meta">
                   {report.asOf && <p class="support-note">{copy.asOf} <time datetime={report.asOf}>{report.asOf}</time></p>}
-                  {reportHref && <a class="support-text-link" href={reportHref} target="_blank" rel="noopener noreferrer" aria-label={`${report.year} · ${copy.reportLink} (${copy.external})`}>{copy.reportLink}<span aria-hidden="true">↗</span></a>}
+                  {reportHref && <a class="support-text-link" href={reportHref} target="_blank" rel="noopener noreferrer" aria-label={`${report.year} · ${copy.reportLink} (${copy.external})`}>{copy.reportLink}<span aria-hidden="true"><Icon name="arrow-up-right" /></span></a>}
                 </div>
               </div>
             </details>
@@ -138,11 +139,11 @@ const apiBase = import.meta.env.PUBLIC_SUPPORT_API_BASE || import.meta.env.PUBLI
         <ul class="support-wall" role="list">
           {sponsors.map((sponsor) => {
             const href = supportExternalUrl(sponsor.url);
-            return <li data-pinned={String(sponsor.pinned === true)}>{href ? <a href={href} target="_blank" rel="noopener noreferrer" aria-label={`${sponsor.name} (${copy.external})`}>{sponsor.name}<span aria-hidden="true">↗</span></a> : <span>{sponsor.name}</span>}</li>;
+            return <li data-pinned={String(sponsor.pinned === true)}>{href ? <a href={href} target="_blank" rel="noopener noreferrer" aria-label={`${sponsor.name} (${copy.external})`}>{sponsor.name}<span aria-hidden="true"><Icon name="arrow-up-right" /></span></a> : <span>{sponsor.name}</span>}</li>;
           })}
         </ul>
       ) : (
-        <div class="support-empty"><span class="support-empty__mark" aria-hidden="true">＋</span><h3>{copy.wallEmpty}</h3><p>{copy.wallEmptyBody}</p></div>
+        <div class="support-empty"><span class="support-empty__mark" aria-hidden="true"><Icon name="plus" /></span><h3>{copy.wallEmpty}</h3><p>{copy.wallEmptyBody}</p></div>
       )}</div>
       <p class="support-note support-wall-note">{copy.wallPrivacy}</p>
     </section>

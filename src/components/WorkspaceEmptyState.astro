@@ -1,8 +1,9 @@
 ---
+import Icon from '../components/Icon.astro';
 interface Props {title:string;description?:string;}
 const {title,description}=Astro.props;
 ---
-<div class="workspace-empty-state"><span aria-hidden="true">＋</span><h2>{title}</h2>{description&&<p>{description}</p>}<slot/></div>
+<div class="workspace-empty-state"><span aria-hidden="true"><Icon name="plus" /></span><h2>{title}</h2>{description&&<p>{description}</p>}<slot/></div>
 <style>
 .workspace-empty-state{display:grid;justify-items:start;text-align:left;gap:14px;min-height:180px;align-content:center;padding:32px 0;border:0;border-top:1px solid rgb(var(--theme-fg-rgb)/.13);background:none}
 .workspace-empty-state>span{font:22px var(--font-mono);color:var(--theme-accent-color)}

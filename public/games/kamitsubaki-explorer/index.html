@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/ui-tokens.css?v=50cda50e7db2" />
     <link rel="stylesheet" href="/games/interface.css" />
     <link rel="stylesheet" href="/games/theme.css" />
-  </head>
+  <link rel="stylesheet" href="/icons/ui-icons.css" /></head>
   <body>
     <main class="game-shell" id="gameShell" data-screen="loading" data-mode="memory">
       <canvas id="gameCanvas" aria-label="神椿像素档案探索游戏"></canvas>
@@ -97,7 +97,7 @@
       </div>
 
       <dialog class="archive-dialog" id="archiveDialog">
-        <button class="archive-dialog__close" id="dialogCloseButton" type="button" aria-label="关闭">×</button>
+        <button class="archive-dialog__close" id="dialogCloseButton" type="button" aria-label="关闭"><span class="site-icon-mask" data-ui-icon="x" aria-hidden="true"></span></button>
         <p class="archive-dialog__index" id="dialogIndex">ARCHIVE / 01</p>
         <h2 id="dialogTitle">档案终端</h2>
         <p class="archive-dialog__lead" id="dialogLead"></p>
@@ -107,10 +107,10 @@
 
       <div class="touch-controls" id="touchControls" hidden>
         <div class="touch-controls__move">
-          <button type="button" data-touch="left" aria-label="向左移动">←</button>
-          <button type="button" data-touch="right" aria-label="向右移动">→</button>
+          <button type="button" data-touch="left" aria-label="向左移动"><span class="site-icon-mask" data-ui-icon="arrow-left" aria-hidden="true"></span></button>
+          <button type="button" data-touch="right" aria-label="向右移动"><span class="site-icon-mask" data-ui-icon="arrow-right" aria-hidden="true"></span></button>
         </div>
-        <button class="touch-controls__jump" type="button" data-touch="jump" aria-label="跳跃">↑</button>
+        <button class="touch-controls__jump" type="button" data-touch="jump" aria-label="跳跃"><span class="site-icon-mask" data-ui-icon="arrow-up" aria-hidden="true"></span></button>
         <button class="touch-controls__dash" type="button" data-touch="dash" aria-label="共鸣冲刺">⇥</button>
         <button class="touch-controls__interact" type="button" data-touch="interact" aria-label="互动">E</button>
       </div>

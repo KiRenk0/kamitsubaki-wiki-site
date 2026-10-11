@@ -1,4 +1,5 @@
 ---
+import Icon from './Icon.astro';
 import {accountWorkspaceCopy} from '../lib/accountWorkspaceCopy.mjs';
 import { accountCopy } from '../lib/accountCopy.mjs';
 import {centralAccountFrontendOrigin,centralAccountUIOrigin} from '../lib/centralAccountOrigins.mjs';
@@ -10,13 +11,13 @@ const signIn=new URL('/auth/sign-in',centralAccountUIOrigin(apiBase));signIn.sea
 ---
 <div data-account-config data-api-base={apiBase} data-locale={locale} data-copy={JSON.stringify(c)}></div>
 <dialog class="account-dialog" data-account-dialog aria-labelledby="account-login-title" aria-describedby="account-login-note">
-  <button class="account-close" type="button" data-account-close aria-label={c.close}>×</button>
+  <button class="account-close" type="button" data-account-close aria-label={c.close}><Icon name="x" /></button>
   <div data-account-guest-menu>
   <p class="account-eyebrow">KAMITSUBAKI WIKI</p><h2 id="account-login-title">{c.loginTitle}</h2><p id="account-login-note">{c.loginNote}</p>
-  <div class="account-actions"><a class="account-button account-primary" data-account-sign-in href={signIn.toString()}><span>{c.login} / {locale==='en'?'Create account':locale==='ja'?'登録':'注册'}</span><span aria-hidden="true">→</span></a></div>
+  <div class="account-actions"><a class="account-button account-primary" data-account-sign-in href={signIn.toString()}><span>{c.login} / {locale==='en'?'Create account':locale==='ja'?'登録':'注册'}</span><span aria-hidden="true"><Icon name="arrow-right" /></span></a></div>
   </div>
-  <section data-account-member-menu hidden><div class="account-menu-identity" data-account-menu-identity></div><nav class="account-menu-links" aria-label={c.title}><a href={`/${locale}/account/#profile`}>{c.profile}<span>→</span></a><a data-account-security href={new URL('/auth/security',centralAccountUIOrigin(apiBase)).href}>{ui.security}<span>→</span></a><a href={`/${locale}/account/#data`}>{c.data}<span>→</span></a></nav><button class="account-button" data-account-logout>{c.logout}</button></section>
-  <a class="account-link" href={`/${locale}/account/`}>{c.title} →</a>
+  <section data-account-member-menu hidden><div class="account-menu-identity" data-account-menu-identity></div><nav class="account-menu-links" aria-label={c.title}><a href={`/${locale}/account/#profile`}>{c.profile}<span><Icon name="arrow-right" /></span></a><a data-account-security href={new URL('/auth/security',centralAccountUIOrigin(apiBase)).href}>{ui.security}<span><Icon name="arrow-right" /></span></a><a href={`/${locale}/account/#data`}>{c.data}<span><Icon name="arrow-right" /></span></a></nav><button class="account-button" data-account-logout>{c.logout}</button></section>
+  <a class="account-link" href={`/${locale}/account/`}>{c.title} <Icon name="arrow-right" /></a>
 </dialog>
 <script>import '../scripts/accountStore.js';</script>
 <style is:global>

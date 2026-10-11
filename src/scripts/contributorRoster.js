@@ -1,3 +1,4 @@
+import {iconMarkup} from '../lib/icons.mjs';
 import { createContributorClient } from '../lib/contributorClient.mjs';
 let contributorStorage;
 try { contributorStorage = window.sessionStorage; } catch { /* Optional browser cache. */ }
@@ -68,7 +69,7 @@ function renderContributor(contributor, copy, mode, ownerLogin = '') {
       <small>${Number(contributor.contributionCount || 0)} ${escapeHtml(copy.contributions)}${contributor.entryCount ? ` · ${Number(contributor.entryCount)} ${escapeHtml(copy.entries)}` : ''}</small>
       ${mode === 'summary' ? renderBreakdown(contributor, copy) : ''}
     </span>
-    ${contributor.profileUrl ? '<span class="contributor-roster__profile-arrow" aria-hidden="true">↗</span>' : ''}
+    ${contributor.profileUrl ? `<span class="contributor-roster__profile-arrow" aria-hidden="true">${iconMarkup('arrow-up-right')}</span>` : ''}
   `;
   const tag = contributor.profileUrl ? 'a' : 'div';
   const link = contributor.profileUrl
@@ -94,7 +95,7 @@ function renderOwner(owner, copy) {
     </div>
   `;
   return profile
-    ? `<a class="contributor-roster__owner" href="${escapeHtml(profile)}" target="_blank" rel="noopener noreferrer">${body}<span class="contributor-roster__owner-arrow" aria-hidden="true">↗</span></a>`
+    ? `<a class="contributor-roster__owner" href="${escapeHtml(profile)}" target="_blank" rel="noopener noreferrer">${body}<span class="contributor-roster__owner-arrow" aria-hidden="true">${iconMarkup('arrow-up-right')}</span></a>`
     : `<div class="contributor-roster__owner">${body}</div>`;
 }
 
@@ -112,7 +113,7 @@ function renderActivity(event, copy, locale) {
   const collectionLabel = copy.collectionLabels?.[event.collection] || '';
   const name = event.contributor?.displayName || event.contributor?.githubLogin || 'Contributor';
   const commit = event.commitUrl
-    ? `<a href="${escapeHtml(event.commitUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(copy.commit)} ↗</a>`
+    ? `<a href="${escapeHtml(event.commitUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(copy.commit)} ${iconMarkup('arrow-up-right')}</a>`
     : '';
 
   return `
@@ -132,7 +133,7 @@ function renderActivity(event, copy, locale) {
 function renderActions(root, copy) {
   return `
     <div class="contributor-roster__actions">
-      <a class="context-action" data-tone="secondary" href="${escapeHtml(root.dataset.editHref || root.dataset.guideHref || '#')}"><span>${escapeHtml(copy.joinAction)}</span><span class="context-action__arrow" aria-hidden="true">↗</span></a>
+      <a class="context-action" data-tone="secondary" href="${escapeHtml(root.dataset.editHref || root.dataset.guideHref || '#')}"><span>${escapeHtml(copy.joinAction)}</span><span class="context-action__arrow" aria-hidden="true">${iconMarkup('arrow-up-right')}</span></a>
       <a class="context-action" data-tone="quiet" href="${escapeHtml(root.dataset.guideHref || '#')}"><span>${escapeHtml(copy.guideAction)}</span></a>
     </div>
   `;

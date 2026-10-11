@@ -1,3 +1,4 @@
+import {iconMarkup} from '../lib/icons.mjs';
 import {loginUrl as centralLoginUrl,logout as centralLogout,state as centralAccountState} from './accountStore.js';
 import {isLocalEditorMode} from '../lib/localEditorMode.mjs';
 import { setSegmentedValue } from '../lib/aiChatControls.mjs';
@@ -203,7 +204,7 @@ function createMessage(role, text = '', locale = '') {
     avatar.className = 'ai-message__avatar';
     avatar.setAttribute('aria-hidden', 'true');
     avatar.innerHTML =
-      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 0 1-12.3 7.6L3 21l1.9-5.7A8.5 8.5 0 1 1 21 11.5Z"/></svg>';
+      iconMarkup('message-circle');
     message.append(avatar);
   }
 
@@ -742,7 +743,7 @@ function renderThreadList(root, threads) {
     const cancelLabel = copy.cancelLabel || 'Cancel';
     menu.setAttribute('aria-label', threadActionsLabel);
     menu.setAttribute('aria-expanded', 'false');
-    menu.innerHTML = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="1.45"/><circle cx="12" cy="12" r="1.45"/><circle cx="19" cy="12" r="1.45"/></svg>';
+    menu.innerHTML = iconMarkup('ellipsis');
 
     const actions = document.createElement('div');
     actions.className = 'ai-chat__thread-actions';

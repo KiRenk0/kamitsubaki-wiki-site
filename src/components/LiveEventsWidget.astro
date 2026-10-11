@@ -1,4 +1,5 @@
 ---
+import Icon from '../components/Icon.astro';
 import { getLanguageTag } from '../lib/i18n.mjs';
 
 type LiveEventsCopy = {
@@ -60,7 +61,7 @@ const apiBase = import.meta.env.PUBLIC_EVENTS_API_BASE || 'https://kamitsubaki-e
           <h2>{copy.title}</h2>
         </div>
         <button type="button" data-live-events-close aria-label={copy.closeLabel}>
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12" /></svg>
+          <Icon name="x" />
         </button>
       </header>
 
@@ -74,7 +75,7 @@ const apiBase = import.meta.env.PUBLIC_EVENTS_API_BASE || 'https://kamitsubaki-e
 
       <footer class="live-events__footer">
         <span data-live-events-updated>{copy.updatedLabel}</span>
-        <a href={`/${lang}/events`}>{copy.viewCalendar}<span aria-hidden="true">→</span></a>
+        <a href={`/${lang}/events`}>{copy.viewCalendar}<span aria-hidden="true"><Icon name="arrow-right" /></span></a>
       </footer>
     </div>
 
@@ -86,9 +87,7 @@ const apiBase = import.meta.env.PUBLIC_EVENTS_API_BASE || 'https://kamitsubaki-e
       aria-expanded="false"
     >
       <span aria-hidden="true">04</span>
-      <svg viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M5 3v3M19 3v3M4 8h16M5 5h14a1 1 0 0 1 1 1v14H4V6a1 1 0 0 1 1-1ZM8 12h3v3H8z" />
-      </svg>
+      <Icon name="calendar-days" />
       <i data-live-events-signal aria-hidden="true"></i>
     <strong>{copy.buttonLabel}</strong>
     </button>

@@ -17,9 +17,9 @@
 .image-viewer__page-status{position:absolute;bottom:16px;left:50%;transform:translateX(-50%);max-width:min(90%,440px);margin:0;padding:9px 14px;border:1px solid rgb(var(--theme-fg-rgb)/.2);border-radius:var(--ui-radius-control,4px);background:var(--theme-bg);color:var(--theme-fg);font:12px/1.5 var(--font-sans);text-align:center;box-shadow:0 4px 16px rgb(0 0 0/.12);pointer-events:none}
 .image-viewer__actions{display:grid;align-content:start;gap:8px;margin-top:8px}
 .image-viewer__actions .image-viewer__action{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:42px;margin:0;padding:10px 12px;border:1px solid rgb(var(--theme-fg-rgb)/.2);border-radius:var(--ui-radius-control,4px);background:transparent;color:var(--theme-fg);font:12px/1.35 var(--font-sans);text-decoration:none;transition:border-color 180ms,background 180ms}
-.image-viewer__action::after{content:'→';flex:none;font:15px var(--font-mono)}
-.image-viewer__action[data-external=true]::after{content:'↗'}
-.image-viewer__action[data-download=true]::after{content:'↓'}
+.image-viewer__action::after{content:'';display:inline-block;width:1em;height:1em;background:currentColor;mask:url('/icons/lucide/arrow-right.svg') center/contain no-repeat;flex:none;font:15px var(--font-mono)}
+.image-viewer__action[data-external=true]::after{content:'';display:inline-block;width:1em;height:1em;background:currentColor;mask:url('/icons/lucide/arrow-up-right.svg') center/contain no-repeat;}
+.image-viewer__action[data-download=true]::after{content:'';display:inline-block;width:1em;height:1em;background:currentColor;mask:url('/icons/lucide/download.svg') center/contain no-repeat;}
 .image-viewer__actions .image-viewer__action--primary{border-color:var(--theme-fg);background:var(--theme-fg);color:var(--theme-bg)}
 .image-viewer__actions .image-viewer__action:hover{border-color:var(--theme-fg);background:rgb(var(--theme-fg-rgb)/.065)}
 .image-viewer__actions .image-viewer__action--primary:hover{background:rgb(var(--theme-fg-rgb)/.82);color:var(--theme-bg)}

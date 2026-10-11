@@ -1,4 +1,5 @@
 ---
+import Icon from '../components/Icon.astro';
 import ResponsiveImage from './ResponsiveImage.astro';
 import {thumbnailUrl} from '../lib/imageAssets.mjs';
 import {classificationCopy} from '../lib/classificationTree.mjs';
@@ -10,5 +11,5 @@ const {entry,index=0,locale,overflow=false}=Astro.props;const d=entry.data;const
  <span class="record-cover" aria-hidden="true">{d.presentation?.image?<ResponsiveImage src={d.presentation.image} widths={[192]} sizes="48px" alt="" class="record-image"/>:<span class="record-monogram" aria-hidden="true">{(d.name||d.title).slice(0,1)}</span>}</span>
  <span class="record-text"><strong>{d.name||d.title}</strong><small>{d.romanizedName||d.romanizedTitle||entityLabel(d.entityType,locale)}</small>{d.lifecycle?.archive?.mode==='permanent'&&<em>PERMANENT OBSERVATION</em>}</span>
  {d.contentStatus==='stub'&&<span class="record-status">{copy.placeholder}</span>}{(d.tags?.includes('verification-required')||d.id==='allt-studio')&&<span class="record-status">{copy.verification}</span>}
- <svg class="record-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/></svg>
+ <Icon name="chevron-right" class="record-arrow" size={16} />
 </a>

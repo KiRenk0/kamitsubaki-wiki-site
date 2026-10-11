@@ -1,0 +1,7 @@
+---
+import Icon from './Icon.astro';
+import {brandIcons} from '../lib/brandIcons.mjs';
+interface Props {name:string;}
+const {name}=Astro.props,brand=(brandIcons as Record<string,{path:string;title:string}>)[name];
+---
+{brand?<svg class="site-brand-icon" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" focusable="false" data-brand={name}><path fill="currentColor" d={brand.path}/></svg>:<Icon name={name==='mail'?'mail':'link'} size={20}/>}

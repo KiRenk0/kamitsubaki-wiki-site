@@ -1,4 +1,5 @@
 ---
+import Icon from '../../components/Icon.astro';
 import { resolveLocaleCopy } from '../../lib/i18n.mjs';
 import ContextAction from '../ContextAction.astro';
 import '../../styles/personalTools.css';
@@ -22,13 +23,13 @@ const copy = { ...c, ...personalToolsCopy(locale) };
         <div class="labs-practice-line" data-practice-line></div>
         <button type="button" class="personal-quiet practice-answer" data-answer hidden>{copy.showAnswer}</button>
       </div>
-      <div class="practice-transport"><button type="button" data-previous aria-label={c.previous}>← <span>{c.previous}</span></button><button type="button" class="personal-primary" data-play aria-pressed="false">{c.play}</button><button type="button" data-next aria-label={c.next}><span>{c.next}</span> →</button></div>
+      <div class="practice-transport"><button type="button" data-previous aria-label={c.previous}><Icon name="arrow-left" /> <span>{c.previous}</span></button><button type="button" class="personal-primary" data-play aria-pressed="false">{c.play}</button><button type="button" data-next aria-label={c.next}><span>{c.next}</span> <Icon name="arrow-right" /></button></div>
       <div class="practice-learning"><div><span data-progress-text></span><progress data-practice-progress value="0" max="1" aria-label={copy.progressLabel}></progress></div><button type="button" data-mastered aria-pressed="false">{c.mastered}</button></div>
       <details class="personal-disclosure practice-settings"><summary>{copy.options}</summary><label class="practice-jump"><span>{copy.jump}</span><select data-jump></select></label><div class="practice-range"><label><span>{c.from}</span><input type="number" data-start min="1" value="1" /></label><label><span>{c.to}</span><input type="number" data-end min="1" value="1" /></label><label><span>{c.interval}</span><input type="number" data-interval min="1" max="30" value="5" /></label></div><p id="practice-keyboard-tip" class="personal-note">{copy.tips}</p><button type="button" class="personal-quiet" data-practice-reset>{copy.resetLabel}</button></details>
     </div>
     <p class="personal-note" data-practice-empty>{c.empty}</p>
     <div class="personal-feedback" role="status"><span data-practice-status></span><button type="button" data-practice-undo hidden>{copy.undo}</button></div>
-    <details class="personal-disclosure practice-sources"><summary>{c.source}</summary><p class="personal-note">{c.sourceNote}</p>{sourceLinks.length ? <ul>{sourceLinks.map(s=><li><a href={s.href} target="_blank" rel="noopener noreferrer">{s.label} ↗</a></li>)}</ul> : <p class="personal-note">{c.missing}</p>}<ContextAction href={`/${locale}/contribute/`}>{c.contribute}</ContextAction></details>
+    <details class="personal-disclosure practice-sources"><summary>{c.source}</summary><p class="personal-note">{c.sourceNote}</p>{sourceLinks.length ? <ul>{sourceLinks.map(s=><li><a href={s.href} target="_blank" rel="noopener noreferrer">{s.label} <Icon name="arrow-up-right" /></a></li>)}</ul> : <p class="personal-note">{c.missing}</p>}<ContextAction href={`/${locale}/contribute/`}>{c.contribute}</ContextAction></details>
   </div>
   <script is:inline type="application/json" data-practice-copy set:html={JSON.stringify(copy).replace(/</g,'\\u003c')} />
 </details>
