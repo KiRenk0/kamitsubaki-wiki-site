@@ -23,8 +23,24 @@ const entities=registry.list('zh').filter(entry=>eligible.has(entry.data.entityT
  return {id,type:entry.data.entityType,name:labels.zh,url:entry.url,image:entry.data.presentation?.image||null,labels};
 }).sort((a,b)=>a.id.localeCompare(b.id));
 const output=JSON.stringify(entities,null,2)+'\n';
-const targets=backendCharacters?[frontendTarget,resolve(backend,'entities.json')]:[frontendTarget];
+// The Worker catalog also contains reviewed gallery-only characters and
+// localized labels. Keep them when syncing the article-backed subset.
+const targets=new Map([[frontendTarget,output]]);
+if(backendCharacters){
+ const curated=new Map(previous.map(row=>[row.id,row]));
+ const backendCatalog=JSON.parse(await readFile(resolve(backend,'entities.json'),'utf8').catch(error=>{
+  if(error.code==='ENOENT')return '[]';
+  throw error;
+ }));
+ const reviewed=new Map(backendCatalog.map(row=>[row.id,row]));
+ const reviewedOrder=new Map(backendCatalog.map((row,index)=>[row.id,index]));
+ const ids=new Set(entities.map(row=>row.id));
+ const backendEntities=entities.map(row=>({...row,labels:{...row.labels,...(reviewed.get(row.id)?.labels||curated.get(row.id)?.labels)}}));
+ for(const row of previous)if(!ids.has(row.id))backendEntities.push({...row,type:'lore-concept',image:null});
+ backendEntities.sort((a,b)=>(reviewedOrder.get(a.id)??Number.MAX_SAFE_INTEGER)-(reviewedOrder.get(b.id)??Number.MAX_SAFE_INTEGER)||a.id.localeCompare(b.id));
+ targets.set(resolve(backend,'entities.json'),JSON.stringify(backendEntities,null,2)+'\n');
+}
 if(check){
- for(const target of targets)if(await readFile(target,'utf8').catch(()=>null)!==output)throw Error(`图库词条目录需要同步：${target}`);
-}else for(const target of targets)await writeFile(target,output);
+ for(const [target,expected] of targets)if(await readFile(target,'utf8').catch(()=>null)!==expected)throw Error(`图库词条目录需要同步：${target}`);
+}else for(const [target,expected] of targets)await writeFile(target,expected);
 console.log(`图库词条目录：${entities.length} 个对象`);

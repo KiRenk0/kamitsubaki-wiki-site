@@ -49,12 +49,12 @@ function initializeTabs(shell) {
       copy,
       loadCatalog,
       getURL: () => new URL(urls.get(section)),
-      setURL: params => {
+      setURL: (params, { push = false } = {}) => {
         const url = new URL(urls.get(section));
         url.search = params.toString();
         urls.set(section, url.href);
         if (active === section) {
-          history.replaceState(historyState(), '', url);
+          if (url.href !== location.href) history[push ? 'pushState' : 'replaceState'](historyState(), '', url);
           updateDocument(section);
         }
       },

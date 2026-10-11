@@ -1,8 +1,22 @@
+import {upgradeSavedEntryLink} from '../lib/savedEntryLink.mjs';
 import { readLibrary, writeLibrary, mergeLibraries, LIBRARY_KEY, libraryOwner } from '../lib/personalLibrary.mjs';
 import { foldCjkSearchText } from '../lib/cjkSearch.mjs';
 
 const el = (tag, text, cls) => { const node = document.createElement(tag); if (text !== undefined) node.textContent = text; if (cls) node.className = cls; return node; };
 const action = (label, callback, cls) => { const node = el('button', label, cls); node.type = 'button'; node.addEventListener('click', callback); return node; };
+// Synced records retain their original route bucket for conflict comparison.
+// V3 routes carry the content type below /database/, so resolve it for
+// display and filtering without rewriting the saved record or remote base.
+const displayKind = item => {
+  const [, , section, collection, type, entity, child] = item.path.split('/');
+  if (section !== 'database') return item.kind;
+  if (collection === 'music') return { songs: 'work-track', albums: 'work-release' }[type] || item.kind;
+  if (collection === 'artists') {
+    // Group members share this branch but are people, not unit entities.
+    return type === 'groups' && entity && !child ? 'unit' : item.kind;
+  }
+  return { projects: 'project', lives: 'live-event', studios: 'organization', lore: 'lore-concept', isotopes: 'software-voice' }[collection] || item.kind;
+};
 export function initializeLibrary(root, c) {
   const $ = selector => root.querySelector(selector);
   let activeOwner=libraryOwner();
@@ -76,7 +90,7 @@ export function initializeLibrary(root, c) {
     const query = foldCjkSearchText($('[data-library-search]').value.trim());
     const kind = $('[data-library-kind]').value;
     let items = (list ? list.paths.map(path => library.items.find(i => i.path === path)).filter(Boolean) : [...library.items])
-      .filter(i => (!query || foldCjkSearchText(i.title).includes(query)) && (!kind || kind.split('|').includes(i.kind)));
+      .filter(i => (!query || foldCjkSearchText(i.title).includes(query)) && (!kind || kind.split('|').includes(displayKind(i))));
     if (order.value === 'recent') items.sort((a,b) => b.savedAt - a.savedAt);
     if (order.value === 'title') items.sort((a,b) => a.title.localeCompare(b.title));
     $('[data-status]').textContent = `${items.length} ${c.results}`;
@@ -90,7 +104,8 @@ export function initializeLibrary(root, c) {
       const body = el('div', undefined, 'labs-row-body');
       const h = el('h3'), a = el('a', item.title); a.href = item.path; h.append(a);
       const badges = el('div', undefined, 'library-meta');
-      badges.append(el('span', c.entryKinds[item.kind] || item.kind));
+      const itemKind = displayKind(item);
+      badges.append(el('span', c.entryKinds[itemKind] || itemKind));
       for (const membership of library.lists.filter(l => l.paths.includes(item.path))) badges.append(el('span', membership.name, 'library-chip'));
       body.append(h, badges); row.append(body);
       const actions = el('div', undefined, 'labs-actions library-row-actions');
@@ -123,7 +138,7 @@ export function initializeLibrary(root, c) {
       const remove = action(list ? c.removeFromList : c.removeSaved, () => removeItem(item), 'personal-quiet');
       remove.dataset.libraryFocus = `remove:${item.path}`;
       remove.setAttribute('aria-label', `${list ? c.removeFromList : c.removeSaved}: ${item.title}`);
-      actions.append(remove); row.append(actions); results.append(row);
+      actions.append(remove); row.append(actions); results.append(row);void upgradeSavedEntryLink(a);
     }
     if (focusKey) {
       const target = [...root.querySelectorAll('[data-library-focus]')].find(node => node.dataset.libraryFocus === focusKey);

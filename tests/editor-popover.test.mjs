@@ -83,3 +83,25 @@ test('closing and switching bubbles dispose Floating UI observers',t=>{
  const {root,watchers}=environment(t),a=new El(),b=new El();root.append(a,b);const controller=mountEditorPopovers(root);
  controller.open(a);assert.equal(watchers(),1);controller.open(b);assert.equal(watchers(),1);controller.close();assert.equal(watchers(),0);
 });
+
+test('keyboard toggling closes the same bubble and restores its explicit trigger',t=>{
+ const {root,trigger,document,watchers}=environment(t),dialog=new El(),origin=new El();root.append(dialog,origin);
+ const controller=mountEditorPopovers(root);trigger.focus();
+ assert.equal(controller.toggle(dialog,origin,{trigger:origin}),true);assert.equal(origin.attributes.get('aria-expanded'),'true');
+ assert.equal(controller.toggle(dialog,origin,{trigger:origin}),false);assert.equal(dialog.open,false);assert.equal(document.activeElement,origin);assert.equal(watchers(),0);
+});
+
+test('Escape from an option closes its bubble, but composition Escape stays with the IME',t=>{
+ const {root,trigger,document}=environment(t),dialog=new El(),option=new El();dialog.append(option);root.append(dialog);
+ const controller=mountEditorPopovers(root);controller.open(dialog);option.focus();
+ const key=composing=>{const event=new Event('keydown',{cancelable:true});Object.defineProperties(event,{key:{value:'Escape'},target:{value:option},isComposing:{value:composing}});document.dispatchEvent(event);return event;};
+ assert.equal(key(true).defaultPrevented,false);assert.equal(dialog.open,true);
+ assert.equal(key(false).defaultPrevented,true);assert.equal(dialog.open,false);assert.equal(document.activeElement,trigger);
+});
+
+test('a queued close event from a previous opening cannot detach a reopened bubble',async t=>{
+ const {root,watchers}=environment(t),dialog=new El();root.append(dialog);const controller=mountEditorPopovers(root);
+ controller.open(dialog);controller.close();controller.open(dialog);
+ const stale=new Event('close');Object.defineProperty(stale,'target',{value:dialog});root.dispatchEvent(stale);
+ assert.equal(dialog.open,true);assert.equal(watchers(),1);controller.close();assert.equal(dialog.open,false);assert.equal(watchers(),0);
+});

@@ -54,16 +54,16 @@ export function mountEditorPopovers(root, {watch=autoUpdate, place=positionEdito
     if(dismissed?.contains(event.target)){event.preventDefault();event.stopImmediatePropagation();}
   }, true);
   document.addEventListener('keydown', event => {
-    if (active && event.key === 'Escape') {event.preventDefault();event.stopPropagation();close(true);}
+    if (active && event.key === 'Escape' && !event.isComposing && event.keyCode !== 229) {event.preventDefault();event.stopPropagation();close(true);}
   }, true);
   root.addEventListener('close', event => {
-    if (active?.dialog === event.target) {active.trigger?.setAttribute('aria-expanded','false');active=null;stopPositioning();stopPositioning=()=>{};}
+    if (active?.dialog === event.target && !event.target.open) {active.trigger?.setAttribute('aria-expanded','false');active=null;stopPositioning();stopPositioning=()=>{};}
   }, true);
-  const controller = {open(dialog, anchor) {
+  const controller = {open(dialog, anchor, {trigger:explicitTrigger}={}) {
     if (active?.dialog === dialog) {position();return;}
     close();
     const focused = document.activeElement;
-    const opener = trigger?.isConnected ? trigger : root.contains(focused) ? focused : null;
+    const opener = explicitTrigger || (trigger?.isConnected ? trigger : root.contains(focused) ? focused : null);
     const menu=opener?.closest?.('details'),menuTrigger=menu?.querySelector('summary');
     let origin=anchor||menuTrigger||opener;
     menu?.removeAttribute('open');
@@ -77,11 +77,14 @@ export function mountEditorPopovers(root, {watch=autoUpdate, place=positionEdito
     const toolbar = root.querySelector('[data-selection-toolbar]');if(toolbar)toolbar.hidden=true;
     dialog.show();
     stopPositioning=watch(reference,dialog,position);
+  }, toggle(dialog, anchor, options) {
+    if(active?.dialog===dialog){close(true);return false;}
+    controller.open(dialog,anchor,options);return true;
   }, close};
   controllers.set(root, controller);
   return controller;
 }
-export function openEditorPopover(root, dialog, anchor) {mountEditorPopovers(root).open(dialog, anchor);}
+export function openEditorPopover(root, dialog, anchor, options) {mountEditorPopovers(root).open(dialog, anchor, options);}
 
 export function confirmEditorPopover(root, message, {accept='OK', cancel='Cancel'}={}) {
   const parent=root.querySelector('dialog[open]');

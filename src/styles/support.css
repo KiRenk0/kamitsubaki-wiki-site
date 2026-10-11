@@ -31,7 +31,7 @@
 .support-channel__action { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin-top: auto; }
 .support-channel[data-available="true"] .support-button { border-color: rgb(var(--theme-accent-rgb) / .35); background: var(--theme-panel-solid); }
 .support-channel[data-available="true"] .support-button:hover { color: var(--theme-accent-color); border-color: var(--theme-accent-color); background: rgb(var(--theme-accent-rgb) / .07); }
-.support-channel[data-available="false"] { padding-block: 18px; }
+.support-channel[data-available="false"] { padding-block: 18px;border:0;border-radius:0;background:none;box-shadow:none;padding:20px 0;border-top:1px solid var(--ui-line);}
 .support-channel[data-available="false"] h3 { font-size: 17px; }
 .support-channel[data-available="false"] > p { margin-bottom: 8px; }
 .support-note { font-size: 12px; line-height: 1.85; color: var(--support-muted); }
@@ -62,9 +62,9 @@
 .support-cost-amount strong { font: 400 13px/1.6 var(--font-mono); font-variant-numeric: tabular-nums; }
 .support-cost-note { margin-top: 14px; }
 .support-records { min-width: 0; }
-.support-reports { border: 1px solid var(--ui-line); border-radius: var(--ui-radius-panel); background: var(--support-soft); }
+.support-reports { border:0; border-radius:0; background:none;box-shadow:none;border-block:1px solid var(--ui-line);}
 .support-report + .support-report { border-top: 1px solid var(--ui-line); }
-.support-report > summary { display: flex; align-items: center; gap: 16px; padding: 22px 24px; list-style: none; cursor: pointer; font-size: 12px; border-radius: var(--ui-radius-panel); }
+.support-report > summary { display: flex; align-items: center; gap: 16px; padding:22px 0; list-style: none; cursor: pointer; font-size: 12px; border-radius:0; }
 .support-report > summary:hover { background: var(--support-soft); }
 .support-report > summary::-webkit-details-marker { display: none; }
 .support-report__year { font: 500 26px var(--font-mono); }
@@ -72,7 +72,7 @@
 .support-report__toggle { color: var(--theme-accent-color); }
 .support-report__toggle::after { content: '+'; font-size: 20px; }
 .support-report[open] .support-report__toggle::after { content: '−'; }
-.support-report__body { padding: 0 24px 24px; }
+.support-report__body { padding:0 0 24px; }
 .support-totals { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid var(--ui-line); padding: 24px 0; gap: 16px; }
 .support-totals > div + div { padding-left: 16px; border-left: 1px solid var(--ui-line); }
 .support-totals dt { font-size: 11px; color: var(--support-muted); margin-bottom: 12px; }
@@ -92,11 +92,11 @@
 
 .support-thanks > .support-heading { margin-bottom: 26px; }
 .support-thanks > .support-heading > p:last-child { margin-inline: 0; }
-.support-empty { text-align: center; padding: 32px 24px; border: 1px dashed var(--ui-line); border-radius: var(--ui-radius-panel); background: var(--support-soft); }
+.support-empty { text-align:left; padding:32px 0; border:0; border-radius:0; background:none;box-shadow:none;border-top:1px solid var(--ui-line);}
 .support-reports > .support-empty { border: 0; }
 .support-empty__mark { color: var(--theme-accent-color); font: 24px var(--font-mono); }
 .support-empty h3 { font: 400 18px/1.6 var(--font-serif); margin: 12px 0 10px; }
-.support-empty p { max-width: 600px; margin: auto; font-size: 12px; line-height: 1.9; color: var(--support-muted); }
+.support-empty p { max-width: 600px; margin:0; font-size: 12px; line-height: 1.9; color: var(--support-muted); }
 .support-wall { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; list-style: none; padding: 0; }
 .support-wall li { min-width: 0; border: 1px solid var(--ui-line); border-radius: var(--ui-radius-control); font-size: 14px; background: var(--support-soft); }
 .support-wall li > :is(a, span) { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 70px; padding: 18px; }
@@ -123,8 +123,8 @@
   .support-section { padding-block: 8px 28px; }
   .support-costs, .support-transparency, .support-disclaimer { grid-template-columns: 1fr; gap: 0; }
   .support-cost-list > div:first-child { padding-top: 18px; border-top: 1px solid var(--ui-line); }
-  .support-report > summary { padding: 18px; gap: 10px; flex-wrap: wrap; }
-  .support-report__body { padding: 0 18px 18px; }
+  .support-report > summary { padding:22px 0; gap: 10px; flex-wrap: wrap;border-radius:0;}
+  .support-report__body { padding:0 0 24px; }
   .support-report__year { font-size: 23px; }
   .support-thanks > .support-heading { text-align: left; margin-bottom: 24px; }
   .support-thanks > .support-heading > p:last-child { margin-inline: 0; }

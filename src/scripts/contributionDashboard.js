@@ -19,10 +19,10 @@ if(root){
    await refreshAuth();
    if(!state.viewer){
     text('p',state.auth==='unavailable'?copy.serviceUnavailable:copy.loginHint,results);
-    if(state.auth!=='unavailable')results.append(createContextAction(copy.login,`/${locale}/account/?returnTo=${encodeURIComponent(location.pathname)}`,{tone:'primary'}));
+    if(state.auth!=='unavailable')results.append(createContextAction(copy.login,`/${locale}/account/?returnTo=${encodeURIComponent(location.href)}`,{tone:'primary'}));
     return;
    }
-   await Promise.allSettled(sources.map(async source=>{const section=document.createElement('section');results.append(section);text('h3',source.title,section);const status=text('p',copy.loading,section);try{const items=await source.load();status.textContent=items.length?'':copy.empty;for(const item of items){const card=document.createElement('article');text('strong',item.title,card);text('p',copy.states[item.status]||item.status,card);if(item.note)text('p',item.note,card);card.append(createContextAction(copy.open,`/${locale}/account/creator/?recordType=${item.type}&record=${encodeURIComponent(item.id)}`));section.append(card);}if(!items.length)section.append(createContextAction(copy.open,source.href));}catch(error){status.textContent=error.status===401?copy.login:copy.error;if(error.status===401)section.append(createContextAction(copy.login,`/${locale}/account/?returnTo=${encodeURIComponent(location.pathname)}`));}}));
+   await Promise.allSettled(sources.map(async source=>{const section=document.createElement('section');results.append(section);text('h3',source.title,section);const status=text('p',copy.loading,section);try{const items=await source.load();status.textContent=items.length?'':copy.empty;for(const item of items){const card=document.createElement('article');text('strong',item.title,card);text('p',copy.states[item.status]||item.status,card);if(item.note)text('p',item.note,card);card.append(createContextAction(copy.open,`/${locale}/account/creator/?recordType=${item.type}&record=${encodeURIComponent(item.id)}`));section.append(card);}if(!items.length)section.append(createContextAction(copy.open,source.href));}catch(error){status.textContent=error.status===401?copy.login:copy.error;if(error.status===401)section.append(createContextAction(copy.login,`/${locale}/account/?returnTo=${encodeURIComponent(location.href)}`));}}));
   }finally{button.disabled=false;}
  });
  // Preserve previously shared guide anchors without duplicating the documents.

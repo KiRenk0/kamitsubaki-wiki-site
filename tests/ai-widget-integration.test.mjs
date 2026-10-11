@@ -141,8 +141,8 @@ test('AI chat widget keeps its launcher docked while supporting settings, histor
   assert.match(component, /data-ai-history-panel/);
   assert.match(component, /data-ai-thread-list/);
   assert.match(homePage, /data-page-context-root/);
-  assert.match(component, /viewBox="0 0 16 16"/);
-  assert.match(component, /viewBox="0 0 48 48"/);
+  assert.match(component, /data-ai-settings-toggle[^>]*aria-label=/);
+  assert.match(component, /data-ai-history-toggle[^>]*aria-label=/);
   assert.match(script, /legacyLauncherPositionKey/);
   assert.match(script, /localStorage\.removeItem\(legacyLauncherPositionKey\)/);
   assert.match(script, /style\.removeProperty\('left'\)/);
@@ -220,16 +220,12 @@ test('AI chat widget exposes auth hooks and localized account copy', async () =>
   }
 
   assert.match(component, /data-ai-auth/);
-  assert.match(component, /data-ai-oauth="github"/);
-  assert.match(component, /data-ai-oauth="google"/);
+  assert.match(component, /data-ai-oauth href=\{signIn\.toString\(\)\}/);
+  assert.doesNotMatch(component, /data-ai-oauth="(?:github|google)"/);
   assert.match(component, /data-ai-logout/);
-  assert.match(script, /api\/auth\/oauth/);
-  assert.match(script, /startOAuth/);
-  assert.match(script, /action: 'oauth_login'/);
-  assert.match(script, /method: 'POST'/);
-  assert.match(script, /authorizationUrl/);
-  assert.match(script, /JSON\.stringify\(\{ turnstileToken \}\)/);
-  assert.match(script, /api\/auth\/logout/);
+  assert.match(script, /centralLoginUrl/);
+  assert.match(script, /centralLogout/);
+  assert.doesNotMatch(script, /api\/auth\/(?:oauth|logout)/);
   assert.match(script, /updateAuthState/);
   assert.match(css, /\.ai-chat__auth/);
   assert.match(css, /\.ai-chat__auth-actions/);

@@ -3,8 +3,33 @@ import { gfm, gfmHtml } from 'micromark-extension-gfm';
 import { renderInlineShortcode } from './wikiInlineShortcodes.mjs';
 import { splitShortcodeArguments } from './shortcodeArguments.mjs';
 import { escapeHtml, safeUrl, escapeText } from './visualEditor.mjs';
+import { markdownTables, editorTableMarkdown } from './editorTableMarkdown.mjs';
 
 export const inlineKinds = ['ruby','spoiler','mark','abbr','kbd','time','small','sub','sup','zh-variant'];
+const privateImagePreviews = new WeakMap();
+const privateImageReference = value => typeof value === 'string' && /^\/_private\/article-assets\/[a-f0-9]{64}$/.test(value);
+/** Register an authenticated preview in memory; pasted data attributes confer no trust. */
+export function setEditorPrivateImagePreview(image, reference, previewUrl) {
+  if (image?.tagName !== 'IMG' || !privateImageReference(reference) || typeof previewUrl !== 'string' || !/^blob:[^\s"'<>]+$/.test(previewUrl)) return false;
+  const current = image.getAttribute('src'), previous = privateImagePreviews.get(image);
+  if (current !== reference && !(previous?.reference === reference && current === previous.previewUrl) && !(current === null && image.dataset.articleReference === reference)) return false;
+  privateImagePreviews.set(image, { reference, previewUrl });
+  image.dataset.articleReference = reference;
+  image.src = previewUrl;
+  return true;
+}
+function sourceElement(element) {
+  const images = [...(element.querySelectorAll?.('img') || [])];
+  if (element.tagName === 'IMG') images.unshift(element);
+  const active = image => { const preview = privateImagePreviews.get(image); return preview && image.getAttribute('src') === preview.previewUrl ? preview : null; };
+  if (!images.some(active)) return element;
+  // Restore canonical URLs on a copy before table row comparisons and HTML
+  // sanitization. The live editing DOM continues displaying its private blob.
+  const copy = element.cloneNode(true), cloned = [...copy.querySelectorAll('img')];
+  if (copy.tagName === 'IMG') cloned.unshift(copy);
+  images.forEach((image, index) => { const preview = active(image); if (preview) cloned[index].setAttribute('src', preview.reference); });
+  return copy;
+}
 export function inlineSource(kind, args) {
   return `{{${kind}::${args.map(arg => String(arg).replaceAll('\\','\\\\').replaceAll('::','\\:\\:')).join('::')}}}`;
 }
@@ -49,6 +74,7 @@ export function sanitizeEditorHTML(html) {
     if (node.tagName === 'RT' && ['furi','roma'].includes(node.className)) el.className = node.className;
     if (node.tagName === 'SPAN' && node.classList.contains('wiki-spoiler')) { el.className = 'wiki-spoiler'; el.tabIndex = 0; }
     if (['TD','TH'].includes(node.tagName)) for (const key of ['colspan','rowspan']) if (/^[1-9]\d?$/.test(node.getAttribute(key) || '')) el.setAttribute(key,node.getAttribute(key));
+    if (['TD','TH'].includes(node.tagName) && ['left','center','right'].includes(node.getAttribute('align'))) el.setAttribute('align',node.getAttribute('align'));
     if (node.hasAttribute('data-ve-source')) {
       try { const source = decodeURIComponent(node.getAttribute('data-ve-source')); const parts = inlineParts(source); if (parts) { el.dataset.veSource = encodeURIComponent(source); el.contentEditable = 'false'; el.className = 've-inline-token'; el.tabIndex = 0; el.setAttribute('role','button'); if(parts.kind === 'spoiler')el.setAttribute('aria-pressed','false'); } } catch { /* Unknown content remains ordinary text. */ }
     }
@@ -57,17 +83,55 @@ export function sanitizeEditorHTML(html) {
   [...parsed.body.childNodes].forEach(child => clean(child,container));
   return container.innerHTML;
 }
-export function renderRich(source) {
+function renderRichHTML(source) {
   // Inline code spans stay literal; the parser handles fenced code in its own block.
   const expanded = String(source || '').split(/(`+[^`]*`+)/g).map(part => part.startsWith('`') ? part : part.replace(/\{\{[a-z-]+(?:::(?:\\.|[^{}])*)\}\}/g,shortcodeChip)).join('');
   return sanitizeEditorHTML(micromark(expanded,{allowDangerousHtml:true,extensions:[gfm()],htmlExtensions:[gfmHtml()]}));
 }
+export function renderRich(source) {
+  const html = renderRichHTML(source);
+  if (!html.includes('<table')) return html;
+  const container = document.createElement('div'); container.innerHTML = html;
+  const tables = [...container.querySelectorAll('table')];
+  // Existing authored HTML stays HTML. GFM tables carry their source only in the
+  // editing DOM, so a cell edit can retain every untouched row and link spelling.
+  for (const table of tables) table.dataset.veTableFormat = 'html';
+  for (const token of markdownTables(String(source || ''))) {
+    // Row ranges exclude the surrounding quote/list prefix. The outer rich-text
+    // serializer supplies that prefix again after serializing the table itself.
+    const ranges = [...token.rows]; ranges.splice(1, 0, token.delimiter);
+    const snippet = ranges.map(range => source.slice(range.start, range.end)).join(source.includes('\r\n') ? '\r\n' : '\n');
+    const reference = document.createElement('div');
+    reference.innerHTML = renderRichHTML(snippet);
+    const rendered = reference.querySelector('table');
+    const table = rendered && tables.find(candidate => !candidate.dataset.veTableSource && candidate.innerHTML === rendered.innerHTML);
+    if (table) { table.dataset.veTableSource = encodeURIComponent(snippet); delete table.dataset.veTableFormat; }
+  }
+  return container.innerHTML;
+}
 export function richMarkdown(element) {
+  element = sourceElement(element);
   const walk = node => {
-    if (node.nodeType === Node.TEXT_NODE) return escapeText(node.textContent);
+    if (node.nodeType === Node.TEXT_NODE) {
+      const blockBoundary = sibling => sibling instanceof Element && /^(P|DIV|TABLE|DETAILS|UL|OL|BLOCKQUOTE|H[1-6])$/.test(sibling.tagName);
+      // micromark inserts formatting newlines between block elements. They are
+      // not author-entered line breaks and must not accumulate on every edit.
+      if (/^\s*\n\s*$/.test(node.textContent) && (blockBoundary(node.previousSibling) || blockBoundary(node.nextSibling))) return '';
+      return escapeText(node.textContent);
+    }
     if (!(node instanceof Element)) return '';
     if (node.dataset.veSource) { try { const source = decodeURIComponent(node.dataset.veSource); if (inlineParts(source)) return source; } catch { return ''; } }
     if (stripped.has(node.tagName)) return '';
+    if (node.tagName === 'IMG') {
+      const destination = String(node.getAttribute('src') || '').replace(/[\\()\s|]/g, character => character === '(' ? '%28' : character === ')' ? '%29' : encodeURIComponent(character));
+      if (!safeUrl(destination)) return '';
+      const alt = escapeText(String(node.getAttribute('alt') || '').replace(/[\r\n]+/g, ' '));
+      return `![${alt}](${destination})`;
+    }
+    if (node.tagName === 'TABLE') {
+      const markdown = editorTableMarkdown(node, { render: renderRichHTML, inline: cell => [...cell.childNodes].map(walk).join(''), sanitize: sanitizeEditorHTML });
+      return (markdown ?? sanitizeEditorHTML(node.outerHTML)) + '\n\n';
+    }
     const inner = [...node.childNodes].map(walk).join('');
     if (['B','STRONG'].includes(node.tagName)) return `**${inner}**`;
     if (['I','EM'].includes(node.tagName)) return `*${inner}*`;
@@ -78,7 +142,7 @@ export function richMarkdown(element) {
     // Recurse through inline formats so nested chips export as source, never editor-only HTML.
     if (node.classList.contains('wiki-spoiler')) return `<span class="wiki-spoiler">${inner}</span>`;
     if (['MARK','KBD','SMALL','SUB','SUP'].includes(node.tagName)) {const tag=node.tagName.toLowerCase();return `<${tag}>${inner}</${tag}>`;}
-    if (['IMG','RUBY','ABBR','TIME','U','TABLE','DETAILS'].includes(node.tagName)) return sanitizeEditorHTML(node.outerHTML);
+    if (['RUBY','ABBR','TIME','U','DETAILS'].includes(node.tagName)) return sanitizeEditorHTML(node.outerHTML);
     if (['UL','OL'].includes(node.tagName)) {
       const lines=[];let number=Number(node.getAttribute('start'))||1,indent='  ';
       for(const child of node.children) {

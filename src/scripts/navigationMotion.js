@@ -17,7 +17,12 @@ document.addEventListener('click',event=>{
   const panel=details.querySelector('.home-chrome__panel,.tools-dock__menu,.wiki-article-locales');
   if(!panel||typeof panel.animate!=='function')return;
   const pending=closing.get(details);
-  if(pending){event.preventDefault();pending.cancel();closing.delete(details);return;}
+  if(pending){
+    event.preventDefault();pending.cancel();closing.delete(details);
+    // Outside click or Escape may have closed the menu during its transition.
+    if(!details.open)details.open=true;
+    return;
+  }
   if(!details.open)return;
   event.preventDefault();
   const animation=panel.animate([{opacity:1,scale:'1',translate:'0 0'},{opacity:0,scale:'.84 .9',translate:'0 -8px'}],{duration:210,easing:'cubic-bezier(.4,0,1,1)'});

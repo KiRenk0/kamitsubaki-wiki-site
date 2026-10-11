@@ -17,9 +17,10 @@ export function renderWikiLinks(html,registry,locale){const previews={},missing=
  // Normalize authored references at render time; no public legacy URL routes exist.
  html=html.replace(/<a\b([^>]*?)href="([^"<>]+)"([^>]*)>([\s\S]*?)<\/a>/g,(tag,before,href,after,label,offset,source)=>{
   const localHref=href.replace(/^https?:\/\/kamitsubaki\.wiki(?=\/)/,'');
+  let decodedHref=localHref;try{decodedHref=decodeURI(localHref);}catch{/* Leave malformed authored URLs to normal resolution. */}
   // The preserved Kaf biography uses a retired song URL while describing the live event.
   // Resolve only the live-show wording; the same title can name an actual song elsewhere.
-  if(/^\/(?:zh|zh-tw|zh-hk|ja)\/songs\/kaf\/originals\/不可解-inexplicable\/?$/.test(localHref)&&decodeText(label.replace(/<[^>]*>/g,'')).trim()==='不可解'){
+  if(/^\/(?:zh|zh-tw|zh-hk|ja)\/songs\/kaf\/originals\/不可解-inexplicable\/?$/.test(decodedHref)&&decodeText(label.replace(/<[^>]*>/g,'')).trim()==='不可解'){
    const beforeText=source.slice(Math.max(0,offset-40),offset).replace(/<[^>]*>/g,'');
    const afterText=source.slice(offset+tag.length,offset+tag.length+30).replace(/<[^>]*>/g,'');
    if(/(?:ワンマンライブ|ライブ)『$/.test(beforeText)||/^」大巡演/.test(afterText)){

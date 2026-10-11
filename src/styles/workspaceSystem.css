@@ -1,4 +1,6 @@
-/* Shared secondary-page geometry. Artwork and reader layouts remain page-owned. */
+/* Card Diet: entity, action and feature cards may keep an enclosing surface.
+ * Ordinary groups, facts, status and guidance use type, spacing and dividers.
+ * Controls, popovers and dialogs retain the boundaries needed to operate them. */
 html body main.workspace-page[data-workspace-page] {
   --workspace-max:1280px;
   --workspace-gutter:var(--ui-space-12);
@@ -29,7 +31,7 @@ html body main.workspace-page[data-workspace-width=reading]{--workspace-max:1120
 .workspace-page .workspace-section-heading{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:20px}
 .workspace-page .workspace-section-heading h2{font:400 23px/1.6 var(--font-serif);letter-spacing:.025em;margin:0}
 .workspace-page .workspace-section-heading p{font:12px/1.7 var(--font-sans);color:var(--workspace-muted);margin:0}
-.workspace-page .workspace-surface{padding:24px;border:1px solid var(--workspace-line);border-radius:var(--workspace-radius);background:var(--workspace-surface)}
+.workspace-page .workspace-surface{padding:24px 0;border:0;border-radius:0;background:none;box-shadow:none;border-top:1px solid var(--workspace-line);}
 .workspace-page .workspace-text-link{display:inline-flex;gap:8px;align-items:center;min-height:38px;padding:6px 0;color:inherit;text-decoration:none;border-bottom:1px solid var(--workspace-line);font-size:13px;transition:color var(--workspace-motion),border-color var(--workspace-motion)}
 .workspace-page .workspace-text-link:hover{color:var(--ui-accent-color);border-color:currentColor}
 
@@ -85,7 +87,7 @@ html body .workspace-page .workspace-button:focus-visible{outline:2px solid var(
  html body main.workspace-page .workspace-actions{flex-basis:100%;margin:0;justify-content:flex-start}
  html body main.workspace-page .workspace-back{min-height:44px}
  html body main.workspace-page .workspace-back-row{margin-bottom:-12px}
- .workspace-page .workspace-surface{padding:20px}.workspace-page .workspace-section-heading{flex-wrap:wrap}.workspace-page .workspace-section-heading h2{font-size:21px}
+ .workspace-page .workspace-surface{padding:24px 0;border:0;border-radius:0;background:none;box-shadow:none;border-top:1px solid var(--workspace-line);}.workspace-page .workspace-section-heading{flex-wrap:wrap}.workspace-page .workspace-section-heading h2{font-size:21px}
  .workspace-group-grid{grid-template-columns:1fr}
  .workspace-filter-more>div{left:0;right:auto;max-width:calc(100vw - 40px)}
 }

@@ -39,7 +39,7 @@ export const localeProfiles = Object.freeze({
     languageTag: 'ja-JP',
     label: '日本語',
     shortLabel: '日本語',
-    navShortLabel: '日',
+    navShortLabel: '日本語',
     sourceLocale: null,
   }),
   en: Object.freeze({

@@ -32,6 +32,13 @@ test('unknown and ambiguous references retain text without dead links or guessed
  const result=renderWikiLinks('<a href="/ja/songs/kaf/unknown">糸</a><a href="/ja/songs/rim/unknown">Unknown</a>',ambiguous,'ja');
  assert.doesNotMatch(result.html,/<a\b/);assert.match(result.html,/>糸<\/span>/);assert.match(result.html,/>Unknown<\/span>/);assert.equal(result.missing.length,2);
 });
+test('Markdown-encoded live-show references retain live context in Chinese and Japanese',()=>{
+ for(const locale of ['zh','zh-tw','zh-hk','ja']){
+  const href=encodeURI(`/${locale}/songs/kaf/originals/不可解-inexplicable`);
+  const source=locale==='ja'?`ワンマンライブ『<a href="${href}">不可解</a>』`:`「<a href="${href}">不可解</a>」大巡演`;
+  assert.match(renderWikiLinks(source,registry,locale).html,/data-wiki-id="fukakai"/);
+ }
+});
 test('external links and current paths are unchanged, catalog links use canonical paths',()=>{
  const html='<a href="https://example.com/ja/songs/a">External</a><a href="/ja/database/music/songs/song/">Song</a>';
  assert.equal(renderWikiLinks(html,registry,'ja').html,html);

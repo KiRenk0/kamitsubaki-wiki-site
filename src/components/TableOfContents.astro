@@ -39,6 +39,7 @@ const visibleHeadings = headings.filter((heading) => heading.depth === 2 || head
 
 <script>
   import {getReadingAnchorOffset} from '../lib/readingNavigation.mjs';
+  import {closeDetails} from '../lib/detailsMotion.mjs';
   type TocWindow = Window & typeof globalThis & {
     __wikiTocCleanup?: (() => void) | null;
     __wikiTocTrackingBound?: boolean;
@@ -136,7 +137,7 @@ const visibleHeadings = headings.filter((heading) => heading.depth === 2 || head
       const mobileContents = link.closest<HTMLDetailsElement>('.wiki-mobile-toc');
       if (mobileContents && getComputedStyle(mobileContents.querySelector('summary')!).display !== 'none') {
         mobileContents.dataset.navigating = 'true';
-        mobileContents.open = false;
+        closeDetails(mobileContents);
         void mobileContents.offsetHeight;
         requestAnimationFrame(() => delete mobileContents.dataset.navigating);
       }

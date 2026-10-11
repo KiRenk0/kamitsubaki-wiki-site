@@ -13,6 +13,7 @@ export function createDisclosureMotion(element) {
     element.style.height='auto';
     const target=open?element.getBoundingClientRect().height:0;
     if(!immediate&&!motion.matches&&typeof element.animate==='function') {
+      element.style.overflow='hidden';
       animation=element.animate([{height:`${height}px`,opacity},{height:`${target}px`,opacity:open?1:0}],{duration:open?440:280,easing:'cubic-bezier(.22,1,.36,1)',fill:'both'});
       try{await animation.finished;}catch{return false;}
     }
@@ -20,6 +21,7 @@ export function createDisclosureMotion(element) {
     element.hidden=!open;
     animation?.cancel();animation=undefined;
     element.style.removeProperty('height');
+    element.style.removeProperty('overflow');
     return true;
   }
   return {setOpen,dispose(){revision++;animation?.cancel();motion.removeEventListener('change',finish);}};

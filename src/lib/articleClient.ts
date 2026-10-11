@@ -9,10 +9,11 @@ export function initArticleBrowser(root:HTMLElement){
  const text=(tag:string,value:string)=>{const node=document.createElement(tag);node.textContent=value;return node;};
  const safeLinks=(container:Element)=>container.querySelectorAll<HTMLAnchorElement>('a[href]').forEach(a=>{if(a.origin!==location.origin){a.rel='noopener noreferrer';a.target='_blank';}});
  if(root.dataset.articlePage==='read'){
+  const title=root.querySelector('[data-article-title]')!;
   const id=root.dataset.articleId||new URL(location.href).searchParams.get('id');
-  if(!id){status.textContent=copy.missing;return;}
+  if(!id){title.textContent=copy.title;status.textContent=copy.missing;return;}
   call('/items/'+encodeURIComponent(id)+'?locale='+contentLocale).then(async({article,fallback,permissions})=>{
-   const displayTitle=await localizeArticleText(article.title,locale);root.querySelector('[data-article-title]')!.textContent=displayTitle;document.title=displayTitle+' · Kamitsubaki Wiki';
+   const displayTitle=await localizeArticleText(article.title,locale);title.textContent=displayTitle;document.title=displayTitle+' · Kamitsubaki Wiki';
    root.querySelector('[data-article-meta]')!.textContent=`${copy.origins[article.origin as keyof typeof copy.origins]} · ${article.author} · ${article.updatedAt} · v${article.version}`+(fallback?' · '+copy.fallback:'');
    const body=root.querySelector<HTMLElement>('[data-article-body]')!;const {articleHTML}=await import('./articleMarkdown');body.innerHTML=articleHTML(article.body,locale);await localizeArticleBody(body,locale);root.querySelector('[data-article-summary]')!.textContent=await localizeArticleText(article.summary,locale);
    let linksFailed=false;try{const {linkArticleBody}=await import('./articleWikiLinks');await linkArticleBody(body,locale);}catch{linksFailed=true;}const {enhanceReader}=await import('./readerEnhancements.mjs');enhanceReader(body,locale);body.addEventListener('click',async event=>{const target=event.target instanceof Element?event.target.closest('[data-load-media]'):null;if(target){const {loadPreviewMedia}=await import('./editorPreview.mjs');loadPreviewMedia(target);}});safeLinks(body);
@@ -23,7 +24,7 @@ export function initArticleBrowser(root:HTMLElement){
    const share=root.querySelector<HTMLElement>('[data-share-popover]')!;share.dataset.sharePath=`/${locale}/articles/read/${encodeURIComponent(id)}/`;share.hidden=false;
    const relatedPanel=root.querySelector<HTMLElement>('[data-article-related-panel]')!;const links=root.querySelector('[data-article-related]')!;if(article.relatedEntities?.length)articleEntities(locale).then((entities:any[])=>{for(const id of article.relatedEntities){const entity=entities.find((e:{id:string})=>e.id===id);if(!entity)continue;const a=text('a',entity.name||entity.title||id) as HTMLAnchorElement;a.href=entity.path;links.append(a);}relatedPanel.hidden=!links.children.length;}).catch(()=>{relatedPanel.hidden=false;links.append(text('p',copy.relatedError));});
    status.textContent=linksFailed?copy.relatedError:'';
-  }).catch(e=>{status.textContent=e.message;});return;
+  }).catch(e=>{title.textContent=copy.title;status.textContent=e.message;});return;
  }
  let related=new URL(location.href).searchParams.get('related')||'';
  const write=root.querySelector<HTMLAnchorElement>('[data-article-write]')!,filter=root.querySelector<HTMLElement>('[data-related-filter]')!;

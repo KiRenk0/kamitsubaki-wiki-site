@@ -80,3 +80,10 @@ html body main.creation-preview-page .workspace-heading>.workspace-eyebrow{margi
 .creation-set-media .creation-image-tools{margin-top:10px;gap:5px;flex-wrap:wrap}
 .creation-set-media .creation-image-tools button{min-height:36px;padding:6px 8px}
 @media(max-width:520px){.creation-prototype .creation-index{display:block}.creation-index>.creation-caption{margin-bottom:8px}.creation-set-media .creation-image-row{grid-template-columns:64px minmax(0,1fr);padding:10px;gap:10px}.creation-set-media .creation-image-thumbnail,.creation-set-media .creation-image-thumbnail img{width:64px;height:80px}.creation-set-media .creation-image-tools button,.creation-photo-details>summary{min-height:44px}}
+
+.creation-upload-footer .upload-draft-status{margin:6px 0}
+.creation-upload-footer .upload-draft-conflict{margin-top:12px}
+.creation-prototype :is(input,select,textarea,button){font-family:var(--font-sans)}
+.creation-upload-footer{padding-bottom:max(16px,env(safe-area-inset-bottom))}
+
+.creation-new-draft{display:inline-flex;align-items:center;min-height:44px;padding:8px 0;color:var(--theme-fg);font:12px var(--font-sans);text-underline-offset:4px}

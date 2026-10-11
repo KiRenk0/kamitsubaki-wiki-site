@@ -1,5 +1,18 @@
 // Shared by homepage directories and reader record lists.
+const panelObservers = new WeakMap();
+function observePanelSize(collapsible) {
+  const inner = collapsible.querySelector('.artist-collapsible__inner');
+  if (!inner || typeof ResizeObserver !== 'function' || panelObservers.has(collapsible)) return;
+  const observer = new ResizeObserver(() => {
+    if (collapsible.dataset.expanded !== 'true') return;
+    collapsible.style.setProperty('--artist-collapsible-height', `${inner.scrollHeight}px`);
+  });
+  observer.observe(inner);
+  panelObservers.set(collapsible, observer);
+}
+
 export function setExpandablePanel(collapsible, button, expanded, updateLabel = true) {
+  observePanelSize(collapsible);
   const inner = collapsible.querySelector('.artist-collapsible__inner');
   if (inner instanceof HTMLElement) {
     collapsible.style.setProperty('--artist-collapsible-height', `${inner.scrollHeight}px`);
@@ -17,6 +30,7 @@ export function setExpandablePanel(collapsible, button, expanded, updateLabel = 
 }
 
 export function expandRecordBatch(collapsible, button) {
+  observePanelSize(collapsible);
   const panel = collapsible.parentElement;
   const more = panel.querySelector('.artist-expand-btn');
   const collapse = panel.querySelector('[data-artist-collapse]');

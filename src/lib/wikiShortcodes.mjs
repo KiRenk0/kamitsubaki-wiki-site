@@ -11,6 +11,7 @@ const LRC_TAG_REGEX = /\[(\d{2}):(\d{2})\.(\d{2,3})\]/g;
 
 const lyricControlCopy = {
   zh: {
+    display: '歌词显示',
     ruby: ['显示注音', '隐藏注音'],
     translation: ['显示翻译', '隐藏翻译'],
     phonetic: ['切换罗马音', '切换假名注音'],
@@ -19,6 +20,7 @@ const lyricControlCopy = {
     reset: '重置',
   },
   ja: {
+    display: '歌詞表示',
     ruby: ['注音を表示', '注音を非表示'],
     phonetic: ['ローマ字に切り替える', 'かなルビに切り替える'],
     syncLyrics: ['同期歌詞を有効にする', '同期歌詞を無効にする'],
@@ -26,6 +28,7 @@ const lyricControlCopy = {
     reset: 'リセット',
   },
   en: {
+    display: 'Lyrics display',
     ruby: ['Show kana', 'Hide kana'],
     translation: ['Show translation', 'Hide translation'],
     phonetic: ['Switch to romaji', 'Switch to kana'],
@@ -42,29 +45,32 @@ function paragraphText(node) {
 
 function renderLyricControls(locale, hasTimeline) {
   const copy = resolveLocaleCopy(lyricControlCopy, locale);
-  const buttons = [
+  const displayButtons = [
     `<button type="button" data-lyric-action="ruby" data-show-label="${copy.ruby[0]}" data-hide-label="${copy.ruby[1]}" aria-pressed="false">${copy.ruby[1]}</button>`,
   ];
 
   if (copy.translation) {
-    buttons.push(
+    displayButtons.push(
       `<button type="button" data-lyric-action="translation" data-show-label="${copy.translation[0]}" data-hide-label="${copy.translation[1]}" aria-pressed="false">${copy.translation[1]}</button>`,
     );
   }
 
-  buttons.push(
+  displayButtons.push(
     `<button type="button" data-lyric-action="phonetic" data-primary-label="${copy.phonetic[0]}" data-alternate-label="${copy.phonetic[1]}" aria-pressed="false">${copy.phonetic[0]}</button>`,
   );
   
+  const timelineButtons = [];
   if (copy.syncLyrics && hasTimeline) {
-    buttons.push(
+    timelineButtons.push(
       `<button type="button" data-lyric-action="sync-lyrics" data-primary-label="${copy.syncLyrics[0]}" data-alternate-label="${copy.syncLyrics[1]}" aria-pressed="false">${copy.syncLyrics[0]}</button>`,
       `<button type="button" data-lyric-action="sync-play-pause" data-primary-label="${copy.playback[0]}" data-alternate-label="${copy.playback[1]}" aria-pressed="false" class="sync-play-btn" hidden>${copy.playback[0]}</button>`,
       `<button type="button" data-lyric-action="sync-reset" class="sync-reset-btn" hidden>${copy.reset}</button>`,
     );
   }
   
-  return `<div class="my-lyric-controls">${buttons.join('')}</div>`;
+  // Keep the outer controls directly before the lyrics: playback and display
+  // actions share that association, even when the display menu is collapsed.
+  return `<div class="my-lyric-controls"><details><summary>${escapeHtml(copy.display)}</summary><div>${displayButtons.join('')}</div></details>${timelineButtons.join('')}</div>`;
 }
 
 function transformDetailsBlocks(node, hasTimeline) {

@@ -1,9 +1,11 @@
+import {createDisclosureMotion} from './disclosureMotion.mjs';
 import {imageViewer} from './imageViewer.mjs';
 import {readableGalleryPhotoName} from './galleryPhotoName.mjs';
-import {expandRecordBatch,setExpandablePanel} from './recordExpansion.mjs';
+import {sortGalleryRoles,createGalleryRoleControls} from './galleryRoles.mjs';
+import {galleryCharacterName,galleryCharacterAliases,galleryRoleRows} from './galleryRoleCatalog.mjs';
 import galleryEntities from '../data/gallery-entities.json';
 
-interface GalleryCharacter {id:string;name:string;url:string;image?:string|null;labels?:Record<string,string>}
+interface GalleryCharacter {id:string;name:string;url:string|null;image?:string|null;labels?:Record<string,string>}
 interface GalleryFacet {character:string;form:string;count:number;coverUrl?:string}
 interface GalleryImage {id:string;src:string;thumbnail?:string;title?:string;name?:string;notes?:string;author?:string;rightsBasis?:string;sourceTitle?:string;sourceUrl?:string;form?:string;date?:string;setId?:string|null;setTitle?:string;character?:string;setSourceTitle?:string;setSourceUrl?:string;mediaType?:string|null;entityIds?:string[];tags?:string[];archiveProvenance?:string;attributionStatus?:string}
 interface GallerySet {id:string;character:string;title?:string;form?:string;date?:string;notes?:string;publisher?:string;sourceTitle?:string;sourceUrl?:string;coverUrl?:string;imageCount?:number;coverImageId?:string;images?:GalleryImage[]}
@@ -14,12 +16,13 @@ export async function initGallery(){
  const copy:Record<string,string>=JSON.parse(root.dataset.copy||'{}'),api=(root.dataset.api||'').replace(/\/$/,''),locale=root.dataset.locale||'zh';
  const text=(tag:string,value:string,className?:string)=>{const node=document.createElement(tag);node.textContent=value;if(className)node.className=className;return node;};
  const request=async(path:string,signal?:AbortSignal)=>{const response=await fetch(api+'/api/gallery'+path,{signal:signal?AbortSignal.any([signal,AbortSignal.timeout(15000)]):AbortSignal.timeout(15000),cache:'no-store'});if(!response.ok)throw Error(copy.error);return response.json();};
- const viewer=imageViewer();let characters:GalleryCharacter[]=[],facets:GalleryFacet[]=[],archiveFacets:{entityCounts?:{id:string;count:number;coverUrl?:string}[];typeCounts?:{id:string;count:number}[];tag?:string[];unclassified?:number}={},mediaTypes:{id:string;labels:Record<string,string>}[]=[],sets:GallerySet[]=[],photos:GalleryImage[]=[],suggestedPhotos:GalleryImage[]=[],nextOffset:number|null=null,total=0,controller:AbortController|undefined,routeId=0,searchTimer:number|undefined,overviewScroll=0,selecting=false,rolesExpanded=false,lastRoleActive:string|null=null;
+ const viewer=imageViewer();let characters:GalleryCharacter[]=[],facets:GalleryFacet[]=[],archiveFacets:{entityCounts?:{id:string;count:number;coverUrl?:string}[];typeCounts?:{id:string;count:number}[];tag?:string[];unclassified?:number}={},mediaTypes:{id:string;labels:Record<string,string>}[]=[],sets:GallerySet[]=[],photos:GalleryImage[]=[],suggestedPhotos:GalleryImage[]=[],nextOffset:number|null=null,total=0,controller:AbortController|undefined,routeId=0,photoRequestId=0,searchTimer:number|undefined,overviewScroll=0,selecting=false;
+ const roleControls=createGalleryRoleControls($('#gallery-role-filters'),{locale});
  const selected=new Set<string>();
  const setNames=new Map<string,string>();
  const params=()=>new URLSearchParams(location.search);
  const mode=()=>params().get('view')==='sets'?'sets':'photos';
- const characterName=(id:string)=>{const role=characters.find(value=>value.id===id);return role?.labels?.[locale]||role?.name||id;};
+ const characterName=(id:string)=>galleryCharacterName(id,characters,locale);
  const formName=(value:string)=>value||copy.unclassified;
  const setTitle=(set:GallerySet)=>set.title?.trim()||`${characterName(set.character)} · ${formName(set.form||'')}`;
  const setUrl=(changes:Record<string,string|null>,replace=false)=>{const url=new URL(location.href);for(const [key,value]of Object.entries(changes)){if(value)url.searchParams.set(key,value);else url.searchParams.delete(key);}if(Object.hasOwn(changes,'set')||Object.hasOwn(changes,'photo'))url.hash='';(replace?history.replaceState:history.pushState).call(history,null,'',url);};
@@ -28,41 +31,38 @@ export async function initGallery(){
  const newButton=(label:string,click:()=>void,className?:string)=>{const button=text('button',label,className) as HTMLButtonElement;button.type='button';button.onclick=click;return button;};
  const activeSet=()=>params().get('filterSet')||'';
  const hasGridFilters=()=>['character','entity','form','q','year','publisher','tag','type','unclassified','filterSet'].some(key=>params().has(key));
- const updateFilterLabel=()=>{const p=params(),parts=[copy.filters],entity=p.get('entity')||p.get('character');if(entity)parts.push(characterName(entity));if(p.get('type'))parts.push(typeName(p.get('type')!));if(p.get('unclassified'))parts.push(copy.unclassifiedType);if(p.get('form'))parts.push(formName(p.get('form')!));if(p.get('q'))parts.push(p.get('q')!);$('[data-gallery-filter-label]').textContent=parts.join(' · ');const chips=$('[data-gallery-active-filters]');chips.replaceChildren();const active:[string,string][]=[['entity',entity?characterName(entity):''],['filterSet',p.get('filterSet')?setNames.get(p.get('filterSet')!)||p.get('filterSet')!:''],['form',p.get('form')?formName(p.get('form')!):''],['type',p.get('type')?typeName(p.get('type')!):''],['unclassified',p.has('unclassified')?copy.unclassifiedType:''],['q',p.get('q')||''],['year',p.get('year')||''],['publisher',p.get('publisher')||''],['tag',p.get('tag')||'']];for(const [key,label]of active){if(!label)continue;const changes:Record<string,string|null>={[key]:null,page:null};if(key==='filterSet')changes.form=null;if(key==='entity')changes.character=null;const button=newButton(`${label} ×`,()=>{setUrl(changes);void route();},'gallery-active-filter');button.setAttribute('aria-label',`${copy.clear} · ${label}`);chips.append(button);}chips.toggleAttribute('hidden',!chips.childElementCount);};
+ const updateFilterLabel=()=>{const p=params(),parts=[copy.filters],entity=p.get('entity')||p.get('character');if(entity)parts.push(characterName(entity));if(p.get('type'))parts.push(typeName(p.get('type')!));if(p.get('unclassified'))parts.push(copy.unclassifiedType);if(p.get('form'))parts.push(formName(p.get('form')!));if(p.get('q'))parts.push(p.get('q')!);$('[data-gallery-filter-label]').textContent=copy.filters;$('[data-gallery-filter-toggle]').setAttribute('aria-label',parts.join(' · '));const chips=$('[data-gallery-active-filters]');chips.replaceChildren();const active:[string,string][]=[['entity',entity?characterName(entity):''],['filterSet',p.get('filterSet')?setNames.get(p.get('filterSet')!)||p.get('filterSet')!:''],['form',p.get('form')?formName(p.get('form')!):''],['type',p.get('type')?typeName(p.get('type')!):''],['unclassified',p.has('unclassified')?copy.unclassifiedType:''],['q',p.get('q')||''],['year',p.get('year')||''],['publisher',p.get('publisher')||''],['tag',p.get('tag')||'']];for(const [key,label]of active){if(!label)continue;const changes:Record<string,string|null>={[key]:null,page:null};if(key==='filterSet')changes.form=null;if(key==='entity'){changes.character=null;changes.form=null;}const button=newButton(`${label} ×`,()=>{setUrl(changes);void route();},'gallery-active-filter');button.setAttribute('aria-label',`${copy.clear} · ${label}`);chips.append(button);}chips.toggleAttribute('hidden',!chips.childElementCount);};
  const typeName=(id:string)=>mediaTypes.find(type=>type.id===id)?.labels?.[locale]||({setting:copy.typeSetting,portrait:copy.typePortrait,cover:copy.typeCover,promo:copy.typePromo,event:copy.typeEvent} as Record<string,string>)[id]||id;
  const readablePhotoName=readableGalleryPhotoName;
  const photoSubject=(photo:GalleryImage)=>photo.entityIds?.map(characterName).join(' / ')||characterName(photo.character||'');
  const photoTitle=(photo:GalleryImage)=>{const title=readablePhotoName(photo)||photo.setTitle?.trim();if(title)return title;const subject=photoSubject(photo);return subject?`${subject} · ${photo.mediaType?typeName(photo.mediaType):copy.photo}`:copy.unknownPhoto;};
  function renderRoles(){
-  const target=$('[data-gallery-roles]'),overflow=$<HTMLElement>('[data-gallery-role-overflow]'),panel=$<HTMLElement>('#gallery-more-roles'),active=params().get('entity')||params().get('character')||'';
-  if(!target.hasAttribute('data-rendered')){
-   target.replaceChildren();overflow.replaceChildren();target.setAttribute('data-rendered','');
-   const choose=(id:string|null)=>{setUrl({view:null,entity:id,character:null,form:null,page:null,set:null,photo:null,filterSet:null});void route().then(()=>{const heading=$<HTMLElement>('[data-gallery-section-title]');heading.focus({preventScroll:true});heading.scrollIntoView({block:'start'});});};
-   const all=newButton('',()=>choose(null),'gallery-role-card gallery-role-card--all');all.dataset.role='';all.append(text('strong',copy.allRoles),text('small',copy.photos));target.append(all);
-   for(const [index,row] of [...archiveFacets.entityCounts||[]].sort((a,b)=>Number(b.count)-Number(a.count)||a.id.localeCompare(b.id)).entries()){
+  const target=$('[data-gallery-roles]'),active=params().get('entity')||params().get('character')||'';
+  const view=mode(),unit=view==='sets'?copy.sets:copy.images;
+  if(target.dataset.rendered!==view){
+   target.replaceChildren();target.dataset.rendered=view;
+   const choose=(id:string|null)=>{
+    const view=mode();
+    setUrl({entity:view==='photos'?id:null,character:view==='sets'?id:null,form:null,page:null,set:null,photo:null,filterSet:null});
+    void route().then(()=>{
+     if((params().get('entity')||params().get('character')||'')!==(id||''))return;
+     const heading=$<HTMLElement>('[data-gallery-section-title]');heading.focus({preventScroll:true});heading.scrollIntoView({block:'start'});
+    });
+   };
+   const all=newButton('',()=>choose(null),'gallery-role-card gallery-role-card--all');all.dataset.role='';all.append(text('strong',copy.allRoles),text('small',view==='sets'?copy.viewSets:copy.photos));target.append(all);
+   for(const [index,row] of sortGalleryRoles(galleryRoleRows(view,archiveFacets.entityCounts||[],facets),characterName,locale).entries()){
     const role=characters.find(value=>value.id===row.id),name=characterName(row.id);
     const button=newButton('',()=>choose(row.id),'gallery-role-card');button.dataset.role=row.id;
-    button.dataset.search=[name,row.id,...Object.values(role?.labels||{})].join(' ').toLocaleLowerCase();
-    button.setAttribute('aria-label',`${name} · ${row.count} ${copy.images}`);
+    button.dataset.search=galleryCharacterAliases(row.id,characters,locale).join(' ').toLocaleLowerCase(locale);
+    button.dataset.name=name;button.dataset.count=String(row.count);button.dataset.siteOrder=String(index);
+    button.setAttribute('aria-label',`${name} · ${row.count} ${unit}`);
     const image=role?.image||galleryEntities.find(value=>value.id===row.id)?.image||row.coverUrl;
     if(image){const img=document.createElement('img');img.src=image;img.alt='';img.loading='lazy';img.decoding='async';button.append(img);}
     else button.append(text('span',name.slice(0,1),'gallery-role-initial'));
-    const inner=document.createElement('div');inner.append(text('strong',name),text('small',`${row.count} ${copy.images}`));button.append(inner);if(index<7)target.append(button);else{button.classList.add('artist-row-collapsed');button.hidden=true;overflow.append(button);}
+    const inner=document.createElement('div');inner.append(text('strong',name),text('small',`${row.count} ${unit}`));button.append(inner);target.append(button);
    }
-   panel.dataset.total=String(overflow.children.length);
   }
-  const buttons=[...root!.querySelectorAll<HTMLButtonElement>('.gallery-role-card')];
-  for(const button of buttons)button.setAttribute('aria-pressed',String(button.dataset.role===active));
-  const toggle=$<HTMLButtonElement>('[data-gallery-roles-toggle]'),collapse=$<HTMLButtonElement>('[data-artist-collapse]'),rows=[...overflow.querySelectorAll<HTMLButtonElement>('.gallery-role-card')];
-  if(active!==lastRoleActive){const index=rows.findIndex(button=>button.dataset.role===active);if(index>=Number(panel.dataset.shown||0)){const pageSize=Number(panel.dataset.pageSize)||8,shown=Math.min(rows.length,Math.ceil((index+1)/pageSize)*pageSize);panel.dataset.shown=String(shown);rows.forEach((button,i)=>{button.hidden=i>=shown;if(i<shown)button.setAttribute('data-revealed','');});rolesExpanded=true;}lastRoleActive=active;}
-  const shown=Number(panel.dataset.shown)||0;
-  toggle.hidden=!rows.length||shown>=rows.length;
-  const nextCount=Math.min(Number(panel.dataset.pageSize)||8,rows.length-shown);
-  toggle.querySelector('[data-artist-expand-count]')!.textContent=`＋${nextCount}`;
-  toggle.setAttribute('aria-label',`${toggle.dataset.expandLabel} · ${nextCount}`);
-  collapse.hidden=!rolesExpanded;
-  setExpandablePanel(panel,toggle,rolesExpanded,false);
-  $('[data-gallery-role-search-label]').toggleAttribute('hidden',!rolesExpanded);
+  roleControls.render(active);
  }
  function renderForms(){const selectedRole=params().get('character')||'',selected=params().get('form')||'',target=$('[data-gallery-forms]');target.replaceChildren();target.hidden=mode()==='photos'||!selectedRole;if(target.hidden)return;const options=facets.filter(row=>row.character===selectedRole);const add=(value:string,label:string,count:number)=>{const button=newButton(label,()=>{setUrl({form:value||null,page:null,set:null,photo:null,filterSet:null});void route().then(()=>restoreFocus('[data-gallery-forms] button[aria-current="true"]'));});button.setAttribute('aria-current',String(selected===value));button.append(text('small',String(count)));target.append(button);};add('',copy.allForms,options.reduce((sum,row)=>sum+Number(row.count),0));for(const row of options)add(row.form||'__unclassified__',formName(row.form),Number(row.count));}
  function renderTypes(){
@@ -211,7 +211,9 @@ export async function initGallery(){
  const viewerItems=(set:GallerySet)=>set.images?.map(image=>({id:image.id,src:image.src,downloadUrl:`${api}/api/gallery/items/${encodeURIComponent(image.id)}/download`,downloadLabel:copy.download,title:readablePhotoName(image)||set.title?.trim()||`${characterName(set.character)} · ${copy.photo}`,metadata:photoMetadata(image,set),links:[{href:classifyHref([image.id]),label:copy.classifyPhoto},{href:`/${locale}/gallery/?view=sets&set=${encodeURIComponent(set.id)}`,label:`${copy.viewSets} · ${setTitle(set)}`},...(image.sourceUrl||set.sourceUrl?[{href:image.sourceUrl||set.sourceUrl||'',label:image.sourceTitle||set.sourceTitle||copy.source}]:[]),{href:image.src,label:copy.original}]}))||[];
  function openImage(set:GallerySet,index:number,trigger:Element){const items=viewerItems(set);viewer.open(items,index,trigger,{onChange:(item:{id:string})=>{const url=new URL(location.href);url.hash=item.id;history.replaceState(null,'',url);},onClose:()=>{const url=new URL(location.href);url.hash='';history.replaceState(null,'',url);}});}
  async function showPhoto(id:string,trigger?:Element){
-  const stamp=++routeId;
+  // Opening an existing photo does not replace the grid request. Its own token
+  // prevents a late photo response from reopening a previous route.
+  const stamp=++photoRequestId;
   try{
    const available=mode()==='sets'?suggestedPhotos:photos;
    const inPhotoGrid=mode()==='photos'&&available.some(item=>item.id===id);
@@ -225,7 +227,7 @@ export async function initGallery(){
    }));
    let items=available.length>1&&available.some(item=>item.id===id)?photoItems(available):photoItems([photo]);
    if(items.length===1&&photo.setId&&!inPhotoGrid){const data=await request('/sets/'+encodeURIComponent(photo.setId));items=viewerItems(data.set);}
-   if(stamp!==routeId||params().get('photo')!==id)return;
+   if(stamp!==photoRequestId||params().get('photo')!==id)return;
    const index=Math.max(0,items.findIndex(item=>item.id===id));
    viewer.open(items,index,trigger||$('[data-gallery-grid]'),{photoFirst:true,
     totalCount:inPhotoGrid?total:items.length,
@@ -233,7 +235,7 @@ export async function initGallery(){
     onChange:(image:{id:string})=>{const url=new URL(location.href);url.searchParams.set('photo',image.id);history.replaceState(null,'',url);},
     onClose:()=>{if(params().has('photo'))setUrl({photo:null},true);window.scrollTo({top:overviewScroll,behavior:'instant'});}
    });
-  }catch{if(stamp!==routeId)return;feedback(copy.error);setUrl({photo:null},true);}
+  }catch{if(stamp!==photoRequestId)return;feedback(copy.error);setUrl({photo:null},true);}
  }
  async function showDetail(id:string,initialImage?:string){
   const stamp=++routeId;controller?.abort();$('[data-gallery-grid]').removeAttribute('aria-busy');feedback(copy.loading);
@@ -247,8 +249,9 @@ export async function initGallery(){
    $('[data-gallery-detail-title]').textContent=setTitle(set);
    $('[data-gallery-detail-meta]').textContent=`${images.length} ${copy.images}`;
    $<HTMLAnchorElement>('[data-gallery-edit]').href=`/${locale}/gallery/manage/?set=${encodeURIComponent(set.id)}`;
-   const related=$<HTMLAnchorElement>('[data-gallery-related]');related.hidden=!role;
-   if(role)related.href=role.url.replace(/^\/(zh|ja|en)\//,`/${locale}/`);
+   const related=$<HTMLAnchorElement>('[data-gallery-related]');related.hidden=!role?.url;
+   if(role?.url)related.href=role.url.replace(/^\/(zh|ja|en)\//,`/${locale}/`);
+   else related.removeAttribute('href');
    const properties=$('[data-gallery-properties]');properties.replaceChildren();
    property(properties,copy.date,set.date||'');property(properties,copy.publisher,set.publisher||'');
    property(properties,copy.notes,set.notes||'');property(properties,copy.source,set.sourceTitle||set.sourceUrl||'',set.sourceUrl);
@@ -267,6 +270,7 @@ export async function initGallery(){
   }
  }
  async function route(){
+  photoRequestId++;
   window.clearTimeout(searchTimer);searchTimer=undefined;
   const p=params(),set=p.get('set');if(!set)root!.classList.remove('gallery-detail-open');
   const more=$<HTMLButtonElement>('[data-gallery-more]');more.disabled=false;more.dataset.loading='false';more.textContent=copy.more;
@@ -274,14 +278,14 @@ export async function initGallery(){
   $<HTMLInputElement>('[data-gallery-search] input').value=p.get('q')||'';
   if(set){root!.dataset.loadState='ready';await showDetail(set,location.hash.slice(1));return;}
   $('[data-gallery-overview]').removeAttribute('hidden');$('[data-gallery-detail]').setAttribute('hidden','');
-  const loading=loadGrid(),stamp=routeId;
-  await loading;
-  if(stamp!==routeId||root!.dataset.loadState!=='ready')return;
   $<HTMLSelectElement>('[data-gallery-tag]').value=p.get('tag')||'';
   $('[data-gallery-select]').toggleAttribute('hidden',mode()!=='photos');
   $('[data-gallery-classify]').toggleAttribute('hidden',mode()!=='photos'||!selected.size);
   for(const view of ['photos','sets'])$<HTMLButtonElement>(`[data-gallery-view="${view}"]`).setAttribute('aria-pressed',String(mode()===view));
   renderRoles();renderForms();renderTypes();updateFilterLabel();
+  const loading=loadGrid(),stamp=routeId;
+  await loading;
+  if(stamp!==routeId||root!.dataset.loadState!=='ready')return;
   const photo=params().get('photo');
   if(photo)await showPhoto(photo);
   else if(location.hash){
@@ -292,9 +296,7 @@ export async function initGallery(){
  }
  async function initialize(){root!.dataset.loadState='loading';feedback(copy.loading);try{const [catalog,options,archive,types]=await Promise.all([request('/entities').catch(()=>request('/characters')),request('/sets/facets'),request('/facets').catch(()=>({facets:{}})),request('/types').catch(()=>({types:[]}))]);characters=catalog.entities||catalog.characters;facets=options.facets;archiveFacets=archive.facets||{};mediaTypes=types.types||[];const tags=$<HTMLSelectElement>('[data-gallery-tag]');tags.replaceChildren(new Option(copy.tags,''));for(const tag of archiveFacets.tag||[])tags.add(new Option(tag,tag));renderRoles();await route();}catch{root!.dataset.loadState='error';feedback(copy.error);$<HTMLButtonElement>('[data-gallery-retry]').hidden=false;}}
  const backToRecord=params().get('returnTo');const safeReturn=backToRecord?.startsWith(`/${locale}/account/creator/`)&&!backToRecord.startsWith('//')?backToRecord:null;if(safeReturn)$('[data-gallery-back]').textContent=`← ${copy.backToRecord}`;
- for(const view of ['photos','sets'])$<HTMLButtonElement>(`[data-gallery-view="${view}"]`).onclick=()=>{if(mode()===view)return;const role=params().get(view==='sets'?'entity':'character');selecting=false;selected.clear();setUrl({view:view==='photos'?null:view,page:null,set:null,photo:null,filterSet:null,type:null,unclassified:null,entity:view==='photos'?role:null,character:view==='sets'?role:null});void route().then(()=>restoreFocus(`[data-gallery-view="${view}"]`));};
- const filterToggle=$<HTMLButtonElement>('[data-gallery-filter-toggle]');filterToggle.onclick=()=>{const open=root!.dataset.mobileFilters!=='open';root!.dataset.mobileFilters=open?'open':'closed';filterToggle.setAttribute('aria-expanded',String(open));};
- for(const button of root!.querySelectorAll<HTMLButtonElement>('[data-gallery-roles-toggle],[data-artist-collapse]'))button.onclick=()=>{const panel=$<HTMLElement>('#gallery-more-roles');expandRecordBatch(panel,button);rolesExpanded=panel.dataset.expanded==='true';$('[data-gallery-role-search-label]').toggleAttribute('hidden',!rolesExpanded);if(!rolesExpanded){$<HTMLInputElement>('[data-gallery-role-search]').value='';root!.querySelectorAll<HTMLButtonElement>('[data-gallery-roles] .gallery-role-card').forEach(card=>card.hidden=false);}};
- $<HTMLInputElement>('[data-gallery-role-search]').oninput=event=>{const term=(event.target as HTMLInputElement).value.trim().toLocaleLowerCase(),panel=$<HTMLElement>('#gallery-more-roles'),rows=[...root!.querySelectorAll<HTMLButtonElement>('[data-gallery-role-overflow] .gallery-role-card')],shown=Number(panel.dataset.shown)||0;for(const button of root!.querySelectorAll<HTMLButtonElement>('[data-gallery-roles] .gallery-role-card'))button.hidden=Boolean(term&&button.dataset.role&&!button.dataset.search?.includes(term));rows.forEach((button,index)=>{const visible=term?button.dataset.search?.includes(term):index<shown;button.hidden=!visible;button.toggleAttribute('data-revealed',Boolean(visible));});$<HTMLButtonElement>('[data-gallery-roles-toggle]').hidden=Boolean(term)||shown>=rows.length;setExpandablePanel(panel,$<HTMLButtonElement>('[data-gallery-roles-toggle]'),rolesExpanded,false);};
+ for(const view of ['photos','sets'])$<HTMLButtonElement>(`[data-gallery-view="${view}"]`).onclick=()=>{if(mode()===view)return;const selectedRole=params().get(view==='sets'?'entity':'character'),role=selectedRole&&galleryRoleRows(view,archiveFacets.entityCounts||[],facets).some(row=>row.id===selectedRole)?selectedRole:null;selecting=false;selected.clear();setUrl({view:view==='photos'?null:view,page:null,set:null,photo:null,filterSet:null,type:null,unclassified:null,entity:view==='photos'?role:null,character:view==='sets'?role:null});void route().then(()=>restoreFocus(`[data-gallery-view="${view}"]`));};
+ const filterToggle=$<HTMLButtonElement>('[data-gallery-filter-toggle]'),filterPanel=$<HTMLElement>('#gallery-filter-panel'),filterMotion=createDisclosureMotion(filterPanel);filterToggle.onclick=()=>{const open=filterToggle.getAttribute('aria-expanded')!=='true';root!.dataset.mobileFilters=open?'open':'closed';filterToggle.setAttribute('aria-expanded',String(open));void filterMotion.setOpen(open);};
  $<HTMLButtonElement>('[data-gallery-retry]').onclick=()=>void initialize();$<HTMLButtonElement>('[data-gallery-more]').onclick=()=>void loadMore();$<HTMLButtonElement>('[data-gallery-clear]').onclick=()=>{setUrl({character:null,entity:null,type:null,unclassified:null,form:null,q:null,page:null,set:null,photo:null,filterSet:null,year:null,publisher:null,tag:null});void route();};$<HTMLButtonElement>('[data-gallery-select]').onclick=()=>{selecting=!selecting;if(!selecting)selected.clear();renderPhotos();};$<HTMLSelectElement>('[data-gallery-tag]').onchange=event=>{setUrl({tag:(event.target as HTMLSelectElement).value||null,page:null,photo:null});void route();};$<HTMLButtonElement>('[data-gallery-set-filter-clear]').onclick=()=>{setUrl({filterSet:null,form:null,page:null,photo:null});void route();};$<HTMLButtonElement>('[data-gallery-back]').onclick=()=>{if(safeReturn){location.assign(safeReturn);return;}const setId=params().get('set');setUrl({set:null});const returning=route();window.scrollTo({top:overviewScroll,behavior:'instant'});void returning.then(()=>{const card=[...root!.querySelectorAll<HTMLButtonElement>('.gallery-set-card')].find(item=>item.dataset.setId===setId);card?.focus({preventScroll:true});});};$<HTMLFormElement>('[data-gallery-search]').onsubmit=event=>event.preventDefault();$<HTMLInputElement>('[data-gallery-search] input').oninput=event=>{window.clearTimeout(searchTimer);const value=(event.target as HTMLInputElement).value;searchTimer=window.setTimeout(()=>{setUrl({q:value||null,page:null,set:null,photo:null},true);void route();},260);};window.addEventListener('popstate',()=>void route());window.addEventListener('hashchange',()=>{if(!params().get('set')&&!params().get('photo'))void route();});void initialize();
 }

@@ -40,6 +40,13 @@ const applySequentialRubyProgress = (word, progress) => {
 
 const externalLinksHeadingPattern = /^(外部链接|外部連結|外部リンク|external\s+links?)$/i;
 
+// Display buttons may live inside the native details menu; the complete
+// controls row still owns the immediately following lyric block.
+const associatedLyricBox = controls => {
+  const box = controls?.nextElementSibling;
+  return box instanceof HTMLElement && box.classList.contains('my-lyric-box') ? box : null;
+};
+
 export const isExternalLinksHeading = (value) => externalLinksHeadingPattern.test(String(value).trim());
 
 const createPlatformIcon = (ownerDocument, platform) => {
@@ -131,7 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // A page may contain several lyric blocks. Keep synchronized controls only
   // beside a block that actually contains valid, sanitized timeline markers.
   document.querySelectorAll('.my-lyric-controls').forEach((controls) => {
-    const lyricBox = controls.nextElementSibling;
+    const lyricBox = associatedLyricBox(controls);
     const timelineButtons = controls.querySelectorAll('[data-lyric-action^="sync-"]');
     if (timelineButtons.length === 0) return;
 
@@ -614,7 +621,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!(button instanceof HTMLButtonElement)) return;
 
     const controls = button.closest('.my-lyric-controls');
-    const lyricBox = controls?.nextElementSibling;
+    const lyricBox = associatedLyricBox(controls);
     if (!(lyricBox instanceof HTMLElement) || !lyricBox.classList.contains('my-lyric-box')) return;
 
     const action = button.dataset.lyricAction;

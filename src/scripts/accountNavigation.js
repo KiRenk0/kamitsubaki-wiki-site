@@ -1,4 +1,4 @@
-import {state,copy,loginUrl} from './accountStore.js';
+import {state,copy,loginUrl,securityUrl} from './accountStore.js';
 function initializeAccountNavigation(){
 const root=document.querySelector('[data-account-page]');
 if(root&&!root.dataset.accountNavigationReady){
@@ -7,7 +7,8 @@ if(root&&!root.dataset.accountNavigationReady){
   const panels=[...root.querySelectorAll('[data-account-panel]')];
   const gate=root.querySelector('[data-account-gate]');
   function update(){
-    const requested=['#identities','#devices','#data'].includes(location.hash)?'#security':location.hash;
+    if(['#security','#identities','#devices'].includes(location.hash)){location.assign(securityUrl());return;}
+    const requested=location.hash;
     const id=links.some(link=>link.hash===requested)?requested.slice(1):'overview';
     links.forEach(link=>{if(link.hash==='#'+id)link.setAttribute('aria-current','location');else link.removeAttribute('aria-current');});
     panels.forEach(panel=>{panel.hidden=panel.dataset.accountPanel!==id || (panel.hasAttribute('data-account-member') && (!state.viewer || !state.account));});

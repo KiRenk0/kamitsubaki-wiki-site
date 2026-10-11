@@ -19,13 +19,13 @@ const copy=resolveLocaleCopy({
 <WorkspaceLayout locale={locale} title={section.title} intro={section.summary} path="/explore/" eyebrow="EXPLORE" backHref={`/${locale}/`} backLabel={locale==='en'?'Home':locale==='ja'?'ホーム':'首页'} width="wide" mainAttributes={{class:'explore-page'}}>
   <div class="explore-introduction"><h2>{copy.lead}</h2><p>{copy.leadNote}</p></div>
   <div class="explore-paths">
-    <a class="explore-path explore-path--time" href={chronicle.href}>
+    <a class="explore-path explore-path--time" data-card-kind="feature" href={chronicle.href}>
       <span class="explore-path__kicker">{copy.timeKicker}</span>
       <div class="explore-path__graphic explore-path__graphic--time" aria-hidden="true"><span><i></i><i></i><i></i></span><span><i></i><i></i></span><span><i></i><i></i><i></i></span><b></b></div>
       <span class="explore-path__copy"><strong>{chronicle.title}</strong><small>{chronicle.summary}</small></span>
       <span class="explore-path__action">{copy.timeAction} <span aria-hidden="true">↗</span></span>
     </a>
-    <a class="explore-path explore-path--gallery" href={gallery.href}>
+    <a class="explore-path explore-path--gallery" data-card-kind="feature" href={gallery.href}>
       <span class="explore-path__kicker">{copy.imageKicker}</span>
       <div class="explore-path__graphic explore-path__graphic--gallery" aria-hidden="true"><img src="/images/artists/kaf.jpg" alt="" loading="lazy"/><img src="/images/artists/kafu.jpg" alt="" loading="lazy"/></div>
       <span class="explore-path__copy"><strong>{gallery.title}</strong><small>{gallery.summary}</small></span>

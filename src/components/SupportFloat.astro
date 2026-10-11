@@ -1,15 +1,19 @@
 ---
 import { getSupportCopy } from '../data/supportCopy';
-const { locale = 'en' } = Astro.props;
+import { resolveLocaleCopy } from '../lib/i18n.mjs';
+const { locale = 'en', docked = false } = Astro.props;
 const copy = getSupportCopy(locale);
+const closeLabel = resolveLocaleCopy({ zh: '关闭支持面板', ja: '支援パネルを閉じる', en: 'Close support panel' }, locale);
 ---
 
-<aside class="support-float" data-support-float aria-label={copy.title}>
+<aside class:list={['support-float', { 'support-float--docked': docked }]} data-support-float data-docked={docked || undefined} aria-label={copy.title}>
   <button class="support-float__toggle" type="button" aria-label={copy.title} aria-expanded="false" aria-controls="support-float-content">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.4 5.6a5.1 5.1 0 0 0-7.2 0L12 6.8l-1.2-1.2a5.1 5.1 0 0 0-7.2 7.2L12 21l8.4-8.2a5.1 5.1 0 0 0 0-7.2Z" /></svg>
     <span class="support-float__close" aria-hidden="true">×</span>
+    {docked && <strong>{copy.title}</strong>}
   </button>
-  <div class="support-float__content" id="support-float-content" inert>
+  <div class="support-float__content" id="support-float-content" role={docked ? 'dialog' : undefined} aria-label={docked ? copy.title : undefined} aria-hidden="true" inert>
+    {docked && <button type="button" class="support-float__panel-close" data-support-close aria-label={closeLabel}>×</button>}
     <p class="support-float__eyebrow">SUPPORT THE OBSERVATORY</p>
     <h2>{copy.bannerTitle}</h2>
     <p class="support-float__body">{copy.bannerBody}</p>
@@ -39,22 +43,5 @@ const copy = getSupportCopy(locale);
 </style>
 
 <script>
-  document.querySelectorAll<HTMLElement>('[data-support-float]').forEach((root) => {
-    const toggle = root.querySelector<HTMLButtonElement>('button')!;
-    const content = root.querySelector<HTMLElement>('.support-float__content')!;
-    let pinned = false;
-    let closeTimer: ReturnType<typeof setTimeout>;
-    const setOpen = (open: boolean) => {
-      root.toggleAttribute('data-open', open);
-      root.toggleAttribute('data-pinned', open && pinned);
-      toggle.setAttribute('aria-expanded', String(open));
-      content.inert = !open;
-    };
-    root.addEventListener('pointerenter', (event) => { clearTimeout(closeTimer); if (event.pointerType === 'mouse') setOpen(true); });
-    root.addEventListener('pointerleave', () => { closeTimer = setTimeout(() => { if (!pinned && !root.contains(document.activeElement)) setOpen(false); }, 160); });
-    toggle.addEventListener('click', () => { pinned = !pinned; setOpen(pinned); });
-    root.addEventListener('focusout', (event) => { if (!root.contains(event.relatedTarget as Node)) { pinned = false; setOpen(false); } });
-    root.addEventListener('keydown', (event) => { if (event.key === 'Escape') { toggle.focus(); pinned = false; setOpen(false); } });
-    document.addEventListener('pointerdown', (event) => { if (!root.contains(event.target as Node)) { pinned = false; setOpen(false); } });
-  });
+  import '../scripts/supportFloat.js';
 </script>

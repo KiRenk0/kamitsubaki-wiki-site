@@ -1,0 +1,24 @@
+/* Use the locale's UI font for form text instead of inheriting a label's
+   serif/monospace font or the browser's default control font. Native select
+   painting, its picker and keyboard/form behavior remain unchanged. */
+html body :where(button, input, textarea) {
+  font-family: var(--font-sans);
+}
+/* Native controls need the locale's CJK face as the primary font rather than
+   relying on a Latin-only face to fall back while the platform paints text. */
+html:lang(zh) {
+  --font-control: "Noto Sans SC Variable", "Montserrat Variable", "PingFang SC", system-ui, sans-serif;
+}
+html:lang(zh-Hant) {
+  --font-control: "Noto Sans TC Variable", "Montserrat Variable", "PingFang TC", system-ui, sans-serif;
+}
+html:lang(ja) {
+  --font-control: "Noto Sans JP Variable", "Montserrat Variable", "Hiragino Kaku Gothic ProN", system-ui, sans-serif;
+}
+html:lang(en) { --font-control: var(--font-sans); }
+
+/* Shared rule must beat per-page font shorthands without resetting sizing. */
+html body select,
+html body select :is(option, optgroup) {
+  font-family: var(--font-control, var(--font-sans)) !important;
+}

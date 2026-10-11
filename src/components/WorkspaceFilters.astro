@@ -1,8 +1,28 @@
 ---
 import type {HTMLAttributes} from 'astro/types';
 import '../styles/workspaceToolbar.css';
-interface Props extends HTMLAttributes<'form'> {}
-const {class:className,...attributes}=Astro.props;
+interface Props extends HTMLAttributes<'form'> {collapsible?:boolean}
+const {class:className,collapsible=false,...attributes}=Astro.props;
+const locale=Astro.params.locale||'zh';
+const label=({'en':'Search & filters','ja':'検索・絞り込み','zh-tw':'搜尋與篩選','zh-hk':'搜尋與篩選','zh':'搜索与筛选'})[locale]||'搜索与筛选';
 ---
-<form {...attributes} class:list={['workspace-filters','workspace-toolbar',className]} data-workspace-filters data-workspace-toolbar><slot/></form>
+<Fragment>{collapsible?<details class="workspace-filter-disclosure" data-filter-disclosure><summary>{label}<span data-filter-count></span></summary><form {...attributes} class:list={['workspace-filters','workspace-toolbar',className]} data-workspace-filters data-workspace-toolbar><slot/></form></details>:<form {...attributes} class:list={['workspace-filters','workspace-toolbar',className]} data-workspace-filters data-workspace-toolbar><slot/></form>}</Fragment>
 <style is:global>.workspace-filters[hidden]{display:none!important}</style>
+
+<style is:global>
+.workspace-filter-disclosure{width:100%;min-width:0;margin-block:12px;border-block:1px solid var(--ui-color-border,rgb(var(--theme-fg-rgb)/.14))}
+.workspace-filter-disclosure:has(>form[hidden]){display:none}
+.workspace-filter-disclosure>summary{padding:10px 2px;font:500 13px/1.5 var(--font-sans);min-height:42px}
+.workspace-filter-disclosure>summary [data-filter-count]{font:12px var(--font-mono);opacity:.65}
+.workspace-filter-disclosure>.workspace-filters{margin-block:0 12px}
+</style>
+<script>
+function updateFilterCounts(){document.querySelectorAll<HTMLElement>('[data-filter-disclosure]').forEach(panel=>{
+ const controls=[...panel.querySelectorAll<HTMLInputElement|HTMLSelectElement>('input,select')];
+ const count=controls.filter(input=>input instanceof HTMLSelectElement?input.selectedIndex>0:input.type==='radio'||input.type==='checkbox'?input.checked!==input.defaultChecked:input.value.trim()!=='').length;
+ panel.querySelector('[data-filter-count]')!.textContent=count?`· ${count}`:'';
+});}
+for(const event of ['input','change','reset','click'])document.addEventListener(event,()=>requestAnimationFrame(updateFilterCounts));
+window.addEventListener('popstate',()=>requestAnimationFrame(updateFilterCounts));
+requestAnimationFrame(updateFilterCounts);
+</script>

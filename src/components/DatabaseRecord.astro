@@ -1,0 +1,20 @@
+---
+import {DATABASE_PLACEHOLDER_IMAGE} from '../lib/databaseArtwork.mjs';
+const {record,placeholderLabel} = Astro.props;
+const imageProps=record.imageProps||DATABASE_PLACEHOLDER_IMAGE;
+---
+<li class="database-record" data-record-id={record.id} data-record-collection={record.collection} data-record-visual={record.imageProps?'image':'placeholder'}>
+  <a href={record.url} data-card-kind="entity">
+    <div class="database-record-media"><img {...imageProps} data-grid-sizes={imageProps.sizes||''} alt="" loading="lazy" decoding="async" class="database-record-image"/></div>
+    <span class="database-record-placeholder-label" data-database-placeholder-label hidden={Boolean(record.imageProps)} aria-hidden="true">{placeholderLabel}</span>
+    <div class="database-record-caption">
+      <div class="database-record-main">
+        <div class="database-record-heading"><h3>{record.title}</h3>{record.summary&&<p>{record.summary}</p>}</div>
+      </div>
+      <span class="database-record-type">{record.typeLabel}</span>
+      <span class="database-record-artist">{record.artistNames.join(' / ')||'—'}</span>
+      <span class="database-record-year">{record.year||'—'}</span>
+      <span class="database-record-arrow" aria-hidden="true">↗</span>
+    </div>
+  </a>
+</li>

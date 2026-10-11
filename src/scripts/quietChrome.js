@@ -1,4 +1,5 @@
 import './socialContact.js';
+import './supportFloat.js';
 
 const initialize = () => {
   const dock = document.querySelector('[data-tools-dock]');
@@ -38,16 +39,27 @@ const initialize = () => {
     menu.dataset.menuReady = 'true';
     const close = (restoreFocus = false) => {
       if (!menu.open) return;
-      menu.open = false;
+      const focusWasInside = menu.contains(document.activeElement);
+      menu.querySelectorAll('[data-support-float]').forEach(root => root.dispatchEvent(new CustomEvent('support-float:close')));
       menu.querySelectorAll('[data-social-contact-close], [data-live-events-close]').forEach(button => button.click());
-      if (restoreFocus) menu.querySelector('summary')?.focus();
+      menu.open = false;
+      if (restoreFocus || focusWasInside) menu.querySelector('summary')?.focus({ preventScroll: true });
     };
     menu.addEventListener('toggle', () => {
       if (menu.open) menus.filter(other => other !== menu).forEach(other => { other.open = false; });
-      else menu.querySelectorAll('[data-social-contact-close], [data-live-events-close]').forEach(button => button.click());
+      else {
+        const focusWasInside = menu.contains(document.activeElement);
+        menu.querySelectorAll('[data-support-float]').forEach(root => root.dispatchEvent(new CustomEvent('support-float:close')));
+        menu.querySelectorAll('[data-social-contact-close], [data-live-events-close]').forEach(button => button.click());
+        if (focusWasInside) menu.querySelector('summary')?.focus({ preventScroll: true });
+      }
     });
     menu.addEventListener('click', (event) => {
       if (!(event.target instanceof Element)) return;
+      if (event.target.closest('[data-reader-tool-open="ai"]')) {
+        close();
+        return;
+      }
       if (event.target.closest('a[href]')) close();
       const toggle = event.target.closest('[data-social-contact-toggle], [data-live-events-toggle]');
       if (toggle?.getAttribute('aria-expanded') === 'true') {
@@ -60,7 +72,14 @@ const initialize = () => {
     });
     document.addEventListener('pointerdown', event => { if (!menu.contains(event.target)) close(); });
     document.addEventListener('keydown', event => {
-      if (event.key === 'Escape') close(menu.contains(document.activeElement));
+      if (event.key !== 'Escape') return;
+      // Escape from a nested widget returns to its real menu entry first.
+      const panel = event.target instanceof Element ? event.target.closest('[data-social-contact-panel], [data-live-events-panel]') : null;
+      if (panel && menu.contains(panel)) {
+        panel.closest('aside')?.querySelector('[data-social-contact-toggle], [data-live-events-toggle]')?.focus({ preventScroll: true });
+        return;
+      }
+      close(menu.contains(document.activeElement));
     });
     document.addEventListener('focusin', event => { if (!menu.contains(event.target)) close(); });
   }

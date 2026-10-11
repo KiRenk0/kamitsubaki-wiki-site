@@ -127,12 +127,14 @@ test('renders localized song lyric controls from one block alias', async () => {
   const ja = await renderMarkdownFragment('{{lyrics-controls::ja}}\n\n<div class="my-lyric-box">歌詞</div>');
 
   assert.match(zh, /^<div class="my-lyric-controls">/);
+  assert.match(zh, /<details><summary>歌词显示<\/summary><div>/);
   assert.equal((zh.match(/data-lyric-action=/g) || []).length, 3);
   assert.match(zh, /data-lyric-action="translation"/);
   assert.doesNotMatch(zh, /data-lyric-action="sync-/);
   assert.match(zh, /aria-pressed="false">隐藏注音<\/button>/);
   assert.match(zh, /<\/div>\n<div class="my-lyric-box">Lyrics<\/div>$/);
   assert.equal((ja.match(/data-lyric-action=/g) || []).length, 2);
+  assert.match(ja, /<details><summary>歌詞表示<\/summary><div>/);
   assert.doesNotMatch(ja, /data-lyric-action="translation"/);
 });
 

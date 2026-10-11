@@ -1,4 +1,7 @@
 ---
+import {uploadGuidanceCopy} from '../lib/uploadGuidanceCopy.mjs';
+import UploadGuidance from './UploadGuidance.astro';
+import UploadDraftStatus from './UploadDraftStatus.astro';
 import SubmissionPanel from './SubmissionPanel.astro';
 import {contributionLayoutCopy} from '../lib/contributionLayoutCopy.mjs';
 import WorkspaceToolbar from './WorkspaceToolbar.astro';
@@ -8,14 +11,15 @@ import SubmissionReceipt from './SubmissionReceipt.astro';
 import {creationWorkbenchCopy} from '../lib/creationWorkbenchCopy.mjs';
 import '../styles/creationWorkbench.css';
 const {live=false,locale='zh'}=Astro.props;
-const c=creationWorkbenchCopy(locale),layout=contributionLayoutCopy(locale);
+const c=creationWorkbenchCopy(locale),layout=contributionLayoutCopy(locale),guidance=uploadGuidanceCopy(locale);
 ---
 <section class="creation-prototype" data-creation-prototype={!live || undefined} data-creation-uploader={live || undefined} data-copy={JSON.stringify(c)} data-layout-copy={JSON.stringify(layout)} data-locale={locale}>
  <p class="creation-demo-note" hidden={live}><strong>交互原型</strong>示例设定与审核记录仅用于界面验收。选入的文件只在本机预览，不发送到服务器。</p>
  <nav hidden={live} class="creation-modes" aria-label="工作台示例"><button type="button" data-creation-mode="upload" aria-pressed="true">上传工作台</button><button type="button" data-creation-mode="review" aria-pressed="false">审核工作台</button></nav>
  <div data-creation-upload>
   {live&&<SubmissionReceipt locale={locale}/>}
-  <WorkspaceToolbar class="creation-toolbar"><div><h2>{c.toolbarTitle}</h2>{live&&<div class="creation-session-strip" data-upload-session aria-label={c.session}><span class="creation-session-state" data-session-state role="status">{c.connecting}</span><span class="creation-session-stat" data-session-stat hidden><small>{c.remaining}</small><strong><span data-quota-remaining>—</span> / <span data-quota-limit>—</span> {c.photosUnit}</strong></span><span class="creation-session-stat" data-session-stat hidden><small>{c.concurrent}</small><strong><span data-session-concurrency>—</span> {c.photosUnit}</strong></span><span class="creation-session-stat" data-session-expiry hidden><small>{c.expiry}</small><strong data-session-expiry-value>—</strong></span></div>}</div><div class="workspace-tool-group"><WorkspaceButton hidden={live} data-demo-files tone="quiet">{c.demoFiles}</WorkspaceButton><WorkspaceButton data-add-set>{c.addSet}</WorkspaceButton></div></WorkspaceToolbar>
+  {live&&<UploadGuidance locale={locale}/>}
+  <WorkspaceToolbar class="creation-toolbar"><div><h2>{c.toolbarTitle}</h2>{live&&<div class="creation-session-strip" data-upload-session aria-label={c.session}><span class="creation-session-state" data-session-state role="status">{c.connecting}</span><span class="creation-session-stat" data-session-stat hidden><small>{c.remaining}</small><strong><span data-quota-remaining>—</span> / <span data-quota-limit>—</span> {c.photosUnit}</strong></span><span class="creation-session-stat" data-session-stat hidden><small>{c.concurrent}</small><strong><span data-session-concurrency>—</span> {c.photosUnit}</strong></span><span class="creation-session-stat" data-session-expiry hidden><small>{c.expiry}</small><strong data-session-expiry-value>—</strong></span></div>}</div><div class="workspace-tool-group"><WorkspaceButton hidden={live} data-demo-files tone="quiet">{c.demoFiles}</WorkspaceButton>{live&&<a class="creation-new-draft" href={`/${locale}/gallery/manage/?mode=sets&new=1`}>{guidance.newDraft} →</a>}<WorkspaceButton data-add-set>{c.addSet}</WorkspaceButton></div></WorkspaceToolbar>
   <div class="creation-workspace">
    <aside class="creation-index"><p class="creation-caption">{c.currentSets}</p><nav data-set-index aria-label={c.setIndex}></nav></aside>
    <div class="creation-content" data-set-container>
@@ -23,7 +27,7 @@ const c=creationWorkbenchCopy(locale),layout=contributionLayoutCopy(locale);
    </div>
 
   </div>
-  <footer class="creation-upload-footer"><div><strong data-upload-count>{c.uploadCount.replace('{photos}','0').replace('{sets}','1').replace('{staged}','0')}</strong><p data-upload-status role="status"></p><progress data-total-progress max="100" value="0" aria-label={c.progress}></progress></div><WorkspaceButton data-simulate-upload disabled tone="primary">{live?c.uploadAll:'演示上传进度'}</WorkspaceButton>{live&&<WorkspaceButton data-submit-batch disabled>{c.submitAll}</WorkspaceButton>}{live&&<ul data-upload-issues aria-label={c.issues}></ul>}</footer>
+  <footer class="creation-upload-footer"><div><strong data-upload-count>{c.uploadCount.replace('{photos}','0').replace('{sets}','1').replace('{staged}','0')}</strong><p data-upload-status role="status"></p>{live&&<UploadDraftStatus locale={locale}/>}<progress data-total-progress max="100" value="0" aria-label={c.progress}></progress></div><WorkspaceButton data-simulate-upload disabled tone="primary">{live?c.uploadAll:'演示上传进度'}</WorkspaceButton>{live&&<WorkspaceButton data-submit-batch disabled>{c.submitAll}</WorkspaceButton>}{live&&<ul data-upload-issues aria-label={c.issues}></ul>}</footer>
  </div>
  {!live&&<div data-creation-review hidden>
   <WorkspaceToolbar class="creation-toolbar"><div><h2>审核工作台</h2><p>队列、内容差异与审核操作保持在同一个位置</p></div><label class="creation-review-type">投稿类型<select data-review-type><option value="gallery">设定图库</option><option value="article">文章</option><option value="entry">词条</option></select></label></WorkspaceToolbar>

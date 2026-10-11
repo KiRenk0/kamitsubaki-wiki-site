@@ -270,3 +270,86 @@ body:has(.tools-dock[open]) .ai-chat__bubble { display: none; }
 
 /* Closed tools never expose fixed-position descendants during first paint. */
 .tools-dock:not([open]) > .tools-dock__menu { display: none; }
+
+/* Readers keep one launcher. Menu entries reuse the existing support and AI panels. */
+html body .tools-dock--reader {
+  --reader-tools-edge: max(var(--floating-action-edge), env(safe-area-inset-right));
+  --reader-tools-bottom: max(var(--floating-action-edge), env(safe-area-inset-bottom));
+  right: var(--reader-tools-edge);
+  bottom: var(--reader-tools-bottom);
+}
+html body .tools-dock--reader .tools-dock__menu {
+  right: var(--reader-tools-edge);
+  bottom: calc(var(--reader-tools-bottom) + var(--floating-action-size) + 12px);
+  width: min(288px, calc(100dvw - 2 * var(--reader-tools-edge)));
+  max-height: calc(100dvh - var(--reader-tools-bottom) - var(--floating-action-size) - 104px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+html body .tools-dock--reader :is(.support-float--docked, .ai-chat__launcher--docked) {
+  position: static;
+  display: block;
+  width: auto;
+  height: auto;
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+}
+html body .tools-dock--reader :is(.support-float__toggle, .ai-chat__orb) {
+  position: static;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  width: 100%;
+  height: 46px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: var(--ui-radius-item);
+  background: transparent;
+  color: rgb(var(--theme-fg-rgb) / .78);
+  box-shadow: none;
+  transform: none;
+  translate: none;
+  scale: 1;
+}
+html body .tools-dock--reader :is(.support-float__toggle, .ai-chat__orb):hover {
+  color: var(--theme-fg);
+  background: rgb(var(--theme-fg-rgb) / .06);
+}
+html body .tools-dock--reader :is(.support-float__close, .ai-chat__orb-corner) { display: none; }
+html body .tools-dock--reader .support-float__toggle svg { opacity: 1; transform: none; }
+html body .tools-dock--reader :is(.support-float__toggle, .ai-chat__orb) > svg { width: 19px; height: 19px; flex: none; }
+html body .tools-dock--reader .support-float__content {
+  position: fixed;
+  right: var(--reader-tools-edge);
+  bottom: calc(var(--reader-tools-bottom) + var(--floating-action-size) + 12px);
+  width: min(320px, calc(100dvw - 2 * var(--reader-tools-edge)));
+  max-height: calc(100dvh - var(--reader-tools-bottom) - var(--floating-action-size) - 104px);
+  padding: 24px;
+  transform: none;
+  z-index: 60;
+}
+html body .tools-dock--reader .support-float__panel-close {
+  position: absolute;
+  z-index: 1;
+  top: 8px;
+  right: 8px;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: var(--ui-radius-control);
+  background: transparent;
+  color: var(--theme-fg);
+  font: 24px/1 var(--font-sans);
+  cursor: pointer;
+}
+html body .tools-dock--reader .support-float__eyebrow { padding-right: 24px; }
+html body .tools-dock--reader :is(.social-contact__panel, .live-events__panel) {
+  right: var(--reader-tools-edge);
+  bottom: calc(var(--reader-tools-bottom) + var(--floating-action-size) + 12px);
+  width: min(336px, calc(100dvw - 2 * var(--reader-tools-edge)));
+  max-height: calc(100dvh - var(--reader-tools-bottom) - var(--floating-action-size) - 104px);
+}
