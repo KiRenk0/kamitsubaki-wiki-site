@@ -3,7 +3,7 @@ import {checkReleaseBaseline} from './release-baseline.mjs';
 // Cloudflare production builds use this entrypoint. Feature branches remain preview-only.
 const production=process.env.CF_PAGES_BRANCH==='main'||process.argv.includes('--production');
 if(production)await checkReleaseBaseline();
-for(const args of [['scripts/run-tests.mjs'],['scripts/check-ui-icons.mjs'],['scripts/build-online.mjs']]){
+for(const args of [['scripts/generate-traditional-chinese.mjs'],['scripts/run-tests.mjs'],['scripts/check-ui-icons.mjs'],['scripts/build-online.mjs']]){
  const result=spawnSync(process.execPath,args,{stdio:'inherit',env:process.env});
  if(result.error)throw result.error;
  if(result.status!==0)process.exit(result.status??1);
