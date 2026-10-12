@@ -47,7 +47,8 @@
   cursor: pointer;
 }
 .home-chrome__actions > .account-nav {
-  display:block;min-width:0;max-width:128px;line-height:44px;
+  display:inline-flex;min-width:0;max-width:160px;line-height:1.4;
+  gap:9px;justify-content:flex-start;
   overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
 }
 .home-chrome__labs span { color: var(--theme-accent-color); }
@@ -249,7 +250,7 @@ body:has(.tools-dock[open]) .ai-chat__bubble { display: none; }
   .home-chrome__brand { max-width:112px;padding:6px 8px;box-shadow:none; }
   .home-chrome__brand p { font-size:8px;letter-spacing:.1em;overflow-wrap:normal; }
   .home-chrome__actions { flex:none;max-width:calc(100% - 112px);padding:2px; }
-  .home-chrome__actions > .account-nav { max-width:76px;padding-inline:8px;font-size:11px;letter-spacing:0; }
+  .home-chrome__actions > .account-nav { max-width:108px;padding-inline:8px;font-size:12px;letter-spacing:0; }
   .home-chrome__labs { display:none; }
   .home-chrome__search { width:44px; }
   .home-chrome__menu > summary { width:44px;padding:0; }

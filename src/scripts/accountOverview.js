@@ -1,4 +1,4 @@
-import {api,state} from './accountStore.js';
+import {api,state,renderAccountIdentity} from './accountStore.js';
 
 const root=document.querySelector('[data-account-page]');
 if(root){
@@ -15,7 +15,7 @@ if(root){
     guest.querySelector('[data-guest-note]').textContent=state.auth==='checking'?guest.dataset.checkingNote:state.auth==='unavailable'?guest.dataset.unavailableNote:guest.dataset.guestNote;
     guest.querySelector('[data-account-login]').hidden=state.auth==='checking'||state.auth==='unavailable';
     progress.hidden=!next;
-    identity.textContent=next?(state.account?.profile?.displayName||viewer.displayName||viewer.name||''):'';
+    if(next)renderAccountIdentity(identity);else identity.textContent=identity.dataset.guestTitle||'';
     if(owner===next)return;
     owner=next;
     const current=++requestId;

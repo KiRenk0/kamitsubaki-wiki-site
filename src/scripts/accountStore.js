@@ -144,7 +144,7 @@ window.addEventListener('kamitsubaki-auth-changed',()=>void refreshAuth(true));
 window.addEventListener('pageshow',()=>void refreshAuth(true));
 void centralClient.then(client=>client?.subscribe(()=>void refreshAuth(true)));
 
-function renderAccountIdentity(container){
+export function renderAccountIdentity(container){
   const name=state.account?.profile?.display_name||state.viewer?.displayName||copy.title;
   const raw=state.account?.profile?.avatar_url||state.viewer?.avatarUrl;
   const avatar=document.createElement('span');avatar.className='account-identity-avatar';avatar.textContent=Array.from(name)[0]||'·';avatar.setAttribute('aria-hidden','true');

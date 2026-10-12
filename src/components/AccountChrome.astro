@@ -16,12 +16,12 @@ const signIn=new URL('/auth/sign-in',centralAccountUIOrigin(apiBase));signIn.sea
   <p class="account-eyebrow">KAMITSUBAKI WIKI</p><h2 id="account-login-title">{c.loginTitle}</h2><p id="account-login-note">{c.loginNote}</p>
   <div class="account-actions"><a class="account-button account-primary" data-account-sign-in href={signIn.toString()}><span>{c.login} / {locale==='en'?'Create account':locale==='ja'?'登録':'注册'}</span><span aria-hidden="true"><Icon name="arrow-right" /></span></a></div>
   </div>
-  <section data-account-member-menu hidden><div class="account-menu-identity" data-account-menu-identity></div><nav class="account-menu-links" aria-label={c.title}><a href={`/${locale}/account/#profile`}>{c.profile}<span><Icon name="arrow-right" /></span></a><a data-account-security href={new URL('/auth/security',centralAccountUIOrigin(apiBase)).href}>{ui.security}<span><Icon name="arrow-right" /></span></a><a href={`/${locale}/account/#data`}>{c.data}<span><Icon name="arrow-right" /></span></a></nav><button class="account-button" data-account-logout>{c.logout}</button></section>
-  <a class="account-link" href={`/${locale}/account/`}>{c.title} <Icon name="arrow-right" /></a>
+  <section data-account-member-menu hidden><div class="account-menu-identity" data-account-menu-identity></div><nav class="account-menu-links" aria-label={c.title}><a href={`/${locale}/account/`}>{c.title}<span><Icon name="arrow-right" /></span></a><a href={`/${locale}/account/#profile`}>{c.profile}<span><Icon name="arrow-right" /></span></a><a data-account-security href={new URL('/auth/security',centralAccountUIOrigin(apiBase)).href}>{ui.security}<span><Icon name="arrow-right" /></span></a><a href={`/${locale}/account/#data`}>{c.data}<span><Icon name="arrow-right" /></span></a></nav><button class="account-button" data-account-logout>{c.logout}</button></section>
+  <a class="account-link" data-account-guest-menu href={`/${locale}/account/`}>{c.title} <Icon name="arrow-right" /></a>
 </dialog>
 <script>import '../scripts/accountStore.js';</script>
 <style is:global>
-  .account-menu-links{display:grid;margin:20px 0;border-block:1px solid rgb(var(--theme-fg-rgb) / .16)}.account-menu-links a{display:flex;justify-content:space-between;padding:16px 0;gap:24px}.account-menu-identity{display:flex;align-items:center;gap:12px;font-size:1.2rem;overflow-wrap:anywhere}.account-identity-avatar{display:inline-grid;place-items:center;width:32px;height:32px;flex:0 0 32px;border-radius:50%;object-fit:cover;background:rgb(var(--theme-fg-rgb) / .12)}.account-menu-identity .account-identity-avatar{width:48px;height:48px;flex-basis:48px}.account-nav{gap:8px!important;max-width:12rem!important}.account-identity-name{font-size:12px;letter-spacing:normal;overflow:hidden;text-overflow:ellipsis}.account-nav .account-identity-avatar{width:26px;height:26px;flex-basis:26px}
+  .account-menu-links{display:grid;margin:20px 0;border-block:1px solid rgb(var(--theme-fg-rgb) / .16)}.account-menu-links a{display:flex;justify-content:space-between;padding:16px 0;gap:24px}.account-menu-identity{display:flex;align-items:center;gap:12px;font-size:1.2rem;overflow-wrap:anywhere}.account-identity-avatar{display:inline-grid;place-items:center;width:32px;height:32px;flex:0 0 32px;border-radius:50%;object-fit:cover;background:rgb(var(--theme-fg-rgb) / .12)}.account-menu-identity .account-identity-avatar{width:48px;height:48px;flex-basis:48px}.account-nav{gap:9px}.account-identity-name{display:block;min-width:0;font:500 13px/1.4 var(--font-sans);letter-spacing:normal;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.account-nav .account-identity-avatar{width:28px;height:28px;flex-basis:28px}
   .account-button[hidden],.account-sync [hidden]{display:none!important}
   .account-dialog{width:min(460px,calc(100vw - 32px));margin:auto;padding:2rem;border:1px solid color-mix(in srgb,var(--theme-fg) 20%,transparent);border-radius:8px;background:var(--theme-bg);color:var(--theme-fg)}
   .account-dialog::backdrop{background:#0008}.account-dialog h2{font-size:1.6rem;margin:1rem 0}.account-dialog p{line-height:1.8}.account-close{position:relative;z-index:1;float:right;font-size:1.5rem;min-width:36px;min-height:36px}.account-eyebrow{font:11px monospace;letter-spacing:.15em;opacity:.65}.account-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin:1rem 0}.account-button{display:inline-flex;align-items:center;justify-content:center;padding:.65rem 1rem;border:1px solid color-mix(in srgb,var(--theme-fg) 25%,transparent);border-radius:5px;font-size:.85rem;min-height:42px;background:transparent;color:inherit;cursor:pointer}.account-primary{background:var(--theme-fg);color:var(--theme-bg)}.account-link{text-decoration:underline;text-underline-offset:4px}.account-nav{display:inline-flex;align-items:center;max-width:8rem;font-size:11px;white-space:nowrap;padding:.5rem}.account-button:disabled{opacity:.5;cursor:wait}.account-button:focus-visible,.account-nav:focus-visible{outline:2px solid currentColor;outline-offset:3px}
@@ -33,5 +33,22 @@ const signIn=new URL('/auth/sign-in',centralAccountUIOrigin(apiBase));signIn.sea
   .account-dialog .account-close:hover{background:rgb(var(--theme-fg-rgb) / .08)}
   .account-dialog .account-eyebrow{padding-right:32px}.account-dialog h2{font-size:1.65rem;margin:20px 0 12px}.account-dialog p{font-size:.95rem;line-height:1.75}
   .account-dialog .account-actions{display:grid;gap:12px;margin:24px 0 20px}.account-dialog .account-button{min-height:48px;font-size:.95rem;gap:12px}.account-dialog .account-link{display:inline-flex;align-items:center;min-height:44px;font-size:.9rem}
+  /* Identity sizing is scoped to each surface; navigation must remain a flex row. */
+  .account-identity-avatar{display:block;aspect-ratio:1;overflow:hidden;line-height:32px;text-align:center;font:500 14px/32px var(--font-sans)}
+  span.account-identity-avatar{display:grid;place-items:center}
+  .home-chrome__links [data-account-nav]{display:flex;align-items:center;justify-content:flex-start;gap:12px}
+  .home-chrome__links [data-account-nav] .account-identity-name{font-size:14px}
+  .account-dialog [hidden]{display:none!important}
+  html body dialog.account-dialog:has([data-account-member-menu]:not([hidden])){inset:90px 32px auto auto;width:320px;margin:0;padding:24px 16px 12px;background:var(--theme-panel-solid);box-shadow:0 12px 40px #0002;transform-origin:top right}
+  :root dialog.account-dialog:has([data-account-member-menu]:not([hidden]))::backdrop{background:rgb(0 0 0 / .08);backdrop-filter:none;-webkit-backdrop-filter:none}
+  .account-menu-identity{gap:12px;min-height:48px;padding:0 36px 0 8px}
+  .account-menu-identity .account-identity-name{font-size:16px;white-space:normal;overflow-wrap:anywhere}
+  .account-menu-links{margin:20px 0 8px;padding:8px 0}
+  .account-menu-links a{align-items:center;min-height:44px;padding:10px 12px;border-radius:6px;font:400 14px/1.5 var(--font-sans);text-decoration:none}
+  .account-menu-links a:hover{background:rgb(var(--theme-fg-rgb) / .055)}
+  .account-menu-links a>span{display:flex;flex:none;opacity:.55}
+  .account-dialog [data-account-member-menu]>.account-button{width:100%;justify-content:flex-start;min-height:44px;padding:10px 12px;border:0;font-size:13px;color:rgb(var(--theme-fg-rgb) / .68)}
+  .account-dialog [data-account-member-menu]>.account-button:hover{background:rgb(var(--theme-fg-rgb) / .055);color:var(--theme-fg)}
+  @media(max-width:540px){html body dialog.account-dialog:has([data-account-member-menu]:not([hidden])){inset:76px 12px auto auto;width:min(320px,calc(100vw - 24px));max-height:calc(100dvh - 92px)}}
   @media(max-width:480px){.account-dialog{padding:28px 24px}.account-dialog h2{font-size:1.45rem}}
 </style>
