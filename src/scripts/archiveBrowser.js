@@ -1,5 +1,6 @@
 import { selectLiveArchive } from '../lib/liveArchive.mjs';
 import { selectCreditsArchive } from '../lib/creditsArchive.mjs';
+import { updateLocaleQueries } from '../lib/localeQuery.mjs';
 
 export function initializeArchiveBrowser(root) {
   const kind = root.dataset.archiveBrowser;
@@ -114,6 +115,7 @@ export function initializeArchiveBrowser(root) {
       }
       if (url.href !== location.href) history[push ? 'pushState' : 'replaceState'](history.state, '', url);
     }
+    updateLocaleQueries(root.ownerDocument, location.search);
   }
   function restore() {
     const params = new URL(location.href).searchParams;

@@ -71,6 +71,21 @@ test('UTC day rollover updates today routes, dated shares remain fixed and clipb
   } finally { controller.destroy(); dom.window.close(); }
 });
 
+test('reroll changes the applied route while preserving unsubmitted and invalid preference drafts', () => {
+  const { dom, w, controller } = setup('?artist=kaf');
+  try {
+    const query = w.document.querySelector('[name=q]'), start = w.document.querySelector('[name=start]');
+    query.value = 'unsubmitted keyword'; query.dispatchEvent(new w.Event('input', { bubbles: true }));
+    start.value = 'not-an-entity'; start.dispatchEvent(new w.Event('input', { bubbles: true }));
+    w.document.querySelector('[data-discovery-reroll]').click();
+    assert.equal(controller.state.variant, 1);
+    assert.equal(controller.state.query, ''); assert.equal(controller.state.start, '');
+    assert.equal(query.value, 'unsubmitted keyword'); assert.equal(start.value, 'not-an-entity');
+    assert.ok(controller.plan.route.length); assert.match(w.document.querySelector('[data-discovery-status]').textContent, /条件已修改/);
+    assert.equal(new URL(w.location.href).searchParams.get('q'), null);
+  } finally { controller.destroy(); dom.window.close(); }
+});
+
 test('names are inert text, independent published articles do not invent graph links, and large pools paginate', () => {
   const catalog = fixtureCatalog(), original = catalog.nodes.find(node => node.id === 'song-a');
   catalog.nodes.push(...Array.from({ length: 30 }, (_, index) => ({ ...original, id: 'extra-' + index, title: index ? 'Song ' + index : '<img src=x onerror=alert(1)>', path: '/zh/database/extra-' + index + '/' })));

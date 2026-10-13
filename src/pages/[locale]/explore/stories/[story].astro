@@ -1,5 +1,6 @@
 ---
 import WorkspaceLayout from '../../../../layouts/WorkspaceLayout.astro';
+import WorkspaceButton from '../../../../components/WorkspaceButton.astro';
 import StoryMaterial from '../../../../components/StoryMaterial.astro';
 import { getEntityRegistry, entityLocales } from '../../../../lib/entityRegistry.mjs';
 import { loadFeatureData } from '../../../../lib/featureData.mjs';
@@ -30,12 +31,12 @@ const data = { route: { id: route.id, fingerprint: route.fingerprint, chapters: 
       {chapter.resources.length > 0 && <ul class="story-resources">{chapter.resources.map(link => <li><a href={link.href} target="_blank" rel="noopener noreferrer">{link.label} ↗</a></li>)}</ul>}
       {chapter.missing && <p class="story-note">{c.missing}</p>}
     </section>)}
-    <div class="story-navigation" data-story-controls hidden><button type="button" data-story-previous>{c.previous}</button><button type="button" class="story-mark" data-story-mark>{c.finishChapter}</button><button type="button" data-story-next>{c.next}</button></div>
+    <div class="story-navigation" data-story-controls hidden><WorkspaceButton data-story-previous>{c.previous}</WorkspaceButton><WorkspaceButton tone="primary" class="story-mark" data-story-mark>{c.finishChapter}</WorkspaceButton><WorkspaceButton data-story-next>{c.next}</WorkspaceButton></div>
     <p class="story-note" data-story-unfinished hidden></p>
     <section class="story-finished" data-story-finished hidden><span>CONTINUE / YOUR NEXT OBSERVATION</span><h2 tabindex="-1">{c.finished}</h2><p>{c.finishIntro}</p><div class="story-links"><a href={`/${locale}/explore/stories/`}>{c.otherRoutes} ↗</a><a href={`/${locale}/explore/discovery/?start=${encodeURIComponent(route.anchor)}`}>{c.discovery} ↗</a><a href={`/${locale}/graph/?entry=${encodeURIComponent(route.anchor)}&scope=neighborhood`}>{c.graph} ↗</a></div></section>
     </div>
   </div>
-  <div class="story-tools" data-story-controls hidden><button type="button" data-story-share>{c.share}</button><button type="button" data-story-reset>{c.reset}</button></div>
+  <div class="story-tools" data-story-controls hidden><WorkspaceButton data-story-share>{c.share}</WorkspaceButton><WorkspaceButton tone="quiet" data-story-reset>{c.reset}</WorkspaceButton></div>
   <p role="status" aria-live="polite" data-story-status></p><p role="status" data-story-share-status></p><input class="story-share-url" data-story-share-url aria-label={c.share} readonly hidden />
   <p class="story-note">{c.local}</p><details class="story-method"><summary>{c.about}</summary><p>{c.editorial}</p></details>
   <p class="story-note" data-story-fallback hidden>{c.loadError} <a href={`/${locale}${path}`} data-story-reload>{c.reload} ↗</a></p>

@@ -1,4 +1,5 @@
 import { selectKnowledgeEntries } from '../lib/knowledgeStatus.mjs';
+import { updateLocaleQueries } from '../lib/localeQuery.mjs';
 
 export function initializeKnowledgeBoard(root) {
   const { entries, copy: c } = JSON.parse(root.querySelector('[data-quality-data]').textContent);
@@ -43,6 +44,7 @@ export function initializeKnowledgeBoard(root) {
       }
       if (url.href !== location.href) history[push ? 'pushState' : 'replaceState'](history.state, '', url);
     }
+    updateLocaleQueries(root.ownerDocument, location.search);
   }
   function restore() {
     const query = new URL(location.href).searchParams;
@@ -54,10 +56,11 @@ export function initializeKnowledgeBoard(root) {
     render();
   }
   form.addEventListener('submit', event => event.preventDefault());
-  form.addEventListener('input', event => { if (!event.isComposing) { limit = 24; render({ save: true }); } });
+  form.addEventListener('input', event => { if (event.target.name === 'q' && !event.isComposing) { limit = 24; render({ save: true }); } });
   form.addEventListener('compositionend', () => { limit = 24; render({ save: true }); });
+  form.addEventListener('change', event => { if (event.target.name !== 'q') { limit = 24; render({ save: true, push: true }); } });
   // Wait for the browser's default reset action before reading the controls.
-  form.addEventListener('reset', () => { setTimeout(() => { limit = 24; render({ save: true }); }, 0); });
+  form.addEventListener('reset', () => { setTimeout(() => { limit = 24; render({ save: true, push: true }); }, 0); });
   root.querySelectorAll('[data-quality-field]').forEach(button => button.addEventListener('click', () => {
     controls.field.value = controls.field.value === button.dataset.qualityField ? '' : button.dataset.qualityField;
     limit = 24; render({ save: true, push: true });
