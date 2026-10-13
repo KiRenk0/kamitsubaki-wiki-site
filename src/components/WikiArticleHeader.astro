@@ -1,4 +1,5 @@
 ---
+import Icon from './Icon.astro';
 import Bookmark from './labs/Bookmark.astro';
 import SharePopover from './SharePopover.astro';
 type LocaleLink = {
@@ -51,7 +52,7 @@ const editorHref = sourceHref.replace('/contribute/edit?', '/contribute/editor/?
       {data.categoryTitle && <><span aria-hidden="true">/</span><span>{data.categoryTitle}</span></>}
     </nav>
     <details class="wiki-article-language-menu">
-      <summary aria-label={labels.languages}>{currentLocale?.shortLabel}<span aria-hidden="true">⌄</span></summary>
+      <summary aria-label={labels.languages}>{currentLocale?.shortLabel}<span aria-hidden="true"><Icon name="chevron-down" /></span></summary>
       <nav class="wiki-article-locales" aria-label={labels.languages}>
         {localeLinks.map((item) => (
           <a href={item.href} aria-current={item.current ? 'page' : undefined} class="wiki-chip">{item.label}</a>

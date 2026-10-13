@@ -1,5 +1,5 @@
 ---
-import Icon from '../../components/Icon.astro';
+import Icon from '../Icon.astro';
 import {submissionCopy} from '../../lib/editorSubmissionCopy.mjs';
 const copy=submissionCopy(Astro.props.locale||'zh');const t=(text: string)=>copy[text]||text;
 import {localEditor} from '../../lib/editorConfig.mjs';

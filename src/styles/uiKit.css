@@ -1,0 +1,79 @@
+/* Site tokens remain authoritative. No daisyUI theme or root reset is enabled. */
+[data-ui-kit] {
+  --color-base-100:var(--ui-color-canvas); --color-base-200:var(--ui-color-surface);
+  --color-base-300:color-mix(in srgb,var(--ui-color-text) 16%,var(--ui-color-canvas));
+  --color-base-content:var(--ui-color-text);
+  --color-primary:var(--ui-color-text); --color-primary-content:var(--ui-color-canvas);
+  --color-secondary:var(--ui-color-surface); --color-secondary-content:var(--ui-color-text);
+  --color-accent:var(--ui-color-accent); --color-accent-content:var(--ui-color-canvas);
+  --color-neutral:var(--ui-color-text); --color-neutral-content:var(--ui-color-canvas);
+  --color-info:var(--ui-color-text); --color-info-content:var(--ui-color-canvas);
+  --color-success:var(--ui-color-success); --color-success-content:var(--ui-color-canvas);
+  --color-warning:var(--ui-color-warning); --color-warning-content:var(--ui-color-canvas);
+  --color-error:var(--ui-color-error); --color-error-content:var(--ui-color-canvas);
+  --radius-selector:var(--ui-radius-control); --radius-field:var(--ui-radius-control);
+  --radius-box:var(--ui-radius-panel); --size-selector:.25rem; --size-field:.25rem;
+  --border:1px; --depth:0; --noise:0;
+}
+/* These rules only adapt adopted controls; existing native controls keep their CSS. */
+html body :is([data-ui-kit],[data-ui-kit] *):is(.dui-btn,.dui-input,.dui-select,.dui-textarea) {
+  min-height:44px; font-family:var(--font-control,var(--font-sans));
+  font-size:14px; line-height:1.5; box-shadow:none;
+}
+html body :is([data-ui-kit],[data-ui-kit] *):is(.dui-input,.dui-select,.dui-textarea) {
+  width:100%; min-width:0; max-width:100%; height:44px;
+  background-color:var(--ui-color-canvas); color:var(--ui-color-text);
+  border-color:color-mix(in srgb,var(--ui-color-text) 16%,transparent);
+}
+html body :is([data-ui-kit],[data-ui-kit] *).dui-btn {font-weight:500; text-transform:none; letter-spacing:normal;}
+html body :is([data-ui-kit],[data-ui-kit] *):is(.dui-input,.dui-select,.dui-textarea)[aria-invalid='true'] {border-color:var(--ui-color-error);}
+html body :is([data-ui-kit],[data-ui-kit] *):is(.dui-btn,.dui-input,.dui-select,.dui-textarea,.dui-checkbox):focus-visible {
+  outline:2px solid var(--ui-color-accent); outline-offset:3px;
+}
+html body :is([data-ui-kit],[data-ui-kit] *):is(.dui-btn,.dui-input,.dui-select,.dui-textarea):disabled {opacity:.5;cursor:not-allowed;}
+@media(max-width:760px) {
+  html body :is([data-ui-kit],[data-ui-kit] *):is(.dui-input,.dui-select,.dui-textarea) {font-size:16px;}
+}
+@media(prefers-reduced-motion:reduce) {
+  html body :is([data-ui-kit],[data-ui-kit] *):is(.dui-btn,.dui-input,.dui-select,.dui-textarea,.dui-checkbox,.dui-loading) {transition:none;animation:none;}
+}
+
+/* Shared wrappers preserve the workspace action hierarchy and toolbar density. */
+html body .workspace-button.dui-btn {
+  height:auto; min-height:var(--workspace-control-height,44px); max-width:100%;
+  gap:8px; padding:8px 14px; font:500 13px/1.5 var(--font-sans);
+  border-color:var(--tool-line,var(--workspace-line,rgb(var(--theme-fg-rgb)/.13)));
+  background:transparent; color:var(--theme-fg); text-decoration:none;
+  transform:none; white-space:normal;
+}
+html body .workspace-button.dui-btn:hover {border-color:rgb(var(--theme-fg-rgb)/.35);background:rgb(var(--theme-fg-rgb)/.055);}
+html body .workspace-button.dui-btn[data-tone=primary] {background:var(--theme-fg);border-color:var(--theme-fg);color:var(--theme-bg);}
+html body .workspace-button.dui-btn[data-tone=primary]:hover {background:color-mix(in srgb,var(--theme-fg) 85%,var(--theme-bg));border-color:transparent;}
+html body .workspace-button.dui-btn[aria-pressed=true] {background:var(--theme-fg);border-color:var(--theme-fg);color:var(--theme-bg);}
+html body .workspace-button.dui-btn[data-tone=quiet] {border-color:transparent;background:none;color:var(--workspace-muted,var(--ui-color-muted));}
+html body .workspace-button.dui-btn[data-tone=quiet]:hover {color:var(--theme-fg);background:var(--workspace-surface,rgb(var(--theme-fg-rgb)/.025));}
+html body .workspace-button.dui-btn:is(:disabled,[aria-disabled=true]) {opacity:.45;cursor:not-allowed;transform:none;pointer-events:none;}
+html body .workspace-control:is(.dui-input,.dui-select,.dui-textarea) {
+  height:var(--tool-height,44px);min-height:var(--tool-height,44px);padding:8px 11px;
+  font-size:13px; border-color:var(--tool-line,var(--workspace-line,rgb(var(--theme-fg-rgb)/.18)));
+}
+html body .workspace-control.dui-select {padding-right:28px;}
+html body .workspace-control.dui-textarea {height:auto;min-height:44px;resize:vertical;}
+html body .workspace-control.dui-checkbox {width:16px;height:16px;flex-shrink:0;border-radius:3px;--input-color:var(--ui-color-accent);}
+html body .submission-panel .workspace-control:is(.dui-input,.dui-select,.dui-textarea) {border-color:rgb(var(--theme-fg-rgb)/.18);}
+html body .workspace-control:is(.dui-input,.dui-select,.dui-textarea)[aria-invalid=true] {border-color:var(--ui-color-error);}
+/* Editor dialogs retain their compact desktop density; the canvas stays separate. */
+html body .ve-workbench .workspace-control:is(.dui-input,.dui-select,.dui-textarea) {
+  height:32px;min-height:32px;padding:5px 8px;font-size:12px;
+  background:rgb(var(--theme-fg-rgb)/.025);border-color:var(--ui-line);
+}
+html body .ve-workbench .workspace-control.dui-textarea {height:auto;font:12px/1.7 var(--font-mono);}
+html body .ve-workbench .workspace-control.dui-select {padding-right:28px;}
+html body .ve-workbench .workspace-button.dui-btn {min-height:32px;padding:5px 10px;font-size:12px;}
+/* Native rows and error/disabled semantics remain intact; no client initializer is needed. */
+@media(max-width:760px) {
+  html body .workspace-control:is(.dui-input,.dui-select,.dui-textarea) {min-height:44px;font-size:16px;}
+  html body .workspace-button.dui-btn {min-height:44px;}
+  html body .ve-workbench .workspace-control:is(.dui-input,.dui-select,.dui-textarea) {min-height:44px;font-size:16px;}
+  html body .ve-workbench .workspace-button.dui-btn {min-height:44px;}
+}

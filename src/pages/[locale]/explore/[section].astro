@@ -39,7 +39,7 @@ const projects = registry.list(locale).filter(e=>e.data.entityType==='project');
     <WorkspaceHeader title={section==='explore'?copy.title:copy.tabs[current]} intro={section==='explore'?copy.intro:section==='relations'?copy.graphNote:section==='timeline'?copy.dateNote:copy.worldNote} eyebrow="EXPLORE" backHref={section==='explore'?`/${locale}/`:`/${locale}/explore/`} backLabel={section==='explore'?copy.home:directoryCopy.back}/>
     <div class="labs-panels" data-labs-panels>
     <WorkspaceSection title={directoryCopy.title} class="labs-panel" id="labs-panel-explore" data-labs-panel="explore" aria-label={directoryCopy.nav} tabindex="-1" hidden={section !== 'explore'}>
-      <div slot="actions" class="labs-actions"><WorkspaceButton data-search-open tone="primary">{copy.fullSearch}</WorkspaceButton><WorkspaceButton data-random-discovery>{copy.random} ↗</WorkspaceButton></div>
+      <div slot="actions" class="labs-actions"><WorkspaceButton data-search-open tone="primary">{copy.fullSearch}</WorkspaceButton><WorkspaceButton data-random-discovery>{copy.random} <Icon name="arrow-up-right" /></WorkspaceButton></div>
       <div class="workspace-group-grid">{featureGroups.map((items,i)=><WorkspaceGroup index={String(i+1).padStart(2,'0')} title={directoryCopy.groups[i]} description={directoryCopy.notes[i]}>{items.map(item=><WorkspaceLinkCard href={`/${locale}/${item.path}/`} title={item.title} description={item.description}/>)}</WorkspaceGroup>)}</div>
     </WorkspaceSection>
     <section class="labs-panel" id="labs-panel-timeline" data-labs-panel="timeline" aria-label={copy.tabs[1]} hidden={section !== 'timeline'}>

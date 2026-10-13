@@ -1,5 +1,5 @@
 ---
-import Icon from '../components/Icon.astro';
+import Icon from './Icon.astro';
 import type {Source} from '../lib/entityRegistry.mjs';
 const {sources,locale='zh'}=Astro.props as {sources:Source[];locale:string};
 const reference=locale==='en'?'Reference':locale==='ja'?'参考資料':'参考资料';
