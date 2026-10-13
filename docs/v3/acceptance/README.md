@@ -6,4 +6,9 @@
 
 [前台开发与验收](../../manuals/develop/operations/zh.md) · [贡献者审核状态说明](../../manuals/contribute/review/zh.md)
 
+本地功能与远端核对：[2026-10-13 Fan Archive 路线、关系路径与资料完善看板](2026-10-13-archive-roadmap.md)。
+后续增量：[2026-10-13 演出档案与创作者查询](2026-10-13-live-credits.md)。
+Graph 完整功能：[2026-10-13 全站图谱、路径比较与一级入口](2026-10-13-graph-complete.md)。
+Discovery：[2026-10-13 偏好推荐与每日探索路线](2026-10-13-discovery.md)。
+
 最近一次联调：[2026-09-29 后端发布与线上公开数据](2026-09-29-online-integration.md)。本地检查：[2026-09-29 图片档案前后端验收](2026-09-29-gallery-archive.md)、[2026-09-29 横向时间轴与页面复查](2026-09-29-visual-iteration.md)。历史记录：[2026-09-28 V3 体验检查](2026-09-28-local-ux.md)。

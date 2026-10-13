@@ -6,6 +6,7 @@ import WorkspaceSection from '../../../components/WorkspaceSection.astro';
 import WorkspaceLinkCard from '../../../components/WorkspaceLinkCard.astro';
 import WorkspaceShell from '../../../components/WorkspaceShell.astro';
 import WorkspaceHeader from '../../../components/WorkspaceHeader.astro';
+import RelationPath from '../../../components/RelationPath.astro';
 import {getEntityRegistry} from '../../../lib/entityRegistry.mjs';
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
@@ -47,6 +48,8 @@ const projects = registry.list(locale).filter(e=>e.data.entityType==='project');
       <div class="labs-status" role="status" data-status>{copy.loading}</div><div class="labs-results" data-results></div><button data-more hidden>{copy.more}</button>
     </section>
     <section class="labs-panel" id="labs-panel-relations" data-labs-panel="relations" aria-label={copy.tabs[2]} hidden={section !== 'relations'}>
+      <WorkspaceButton href={`/${locale}/graph/`} data-full-graph>{locale==='en'?'Open the full archive graph':locale==='ja'?'全体グラフを開く':'打开全站关系图谱'} ↗</WorkspaceButton>
+      <RelationPath locale={locale} />
       <label><span>{copy.choose}</span><input data-query type="search" placeholder="花谱 / KAF / V.W.P" /></label>
       <div class="labs-status" role="status" data-status>{copy.loading}</div><div class="labs-pick-list" data-picks></div>
       <div class="labs-graph-layout"><svg class="labs-graph" viewBox="0 0 700 460" role="group" aria-label={copy.tabs[2]} data-graph></svg><aside class="labs-graph-detail" data-detail></aside></div>
@@ -81,4 +84,5 @@ const projects = registry.list(locale).filter(e=>e.data.entityType==='project');
   </WorkspaceShell>
   <SiteFooter footer={site.footer} />
   <script>import '../../../scripts/labsTabs.js';</script>
+  <script is:inline>document.querySelectorAll('[data-full-graph]').forEach(link => { link.href += location.search; });</script>
 </BaseLayout>
