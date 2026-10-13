@@ -2,6 +2,8 @@
 
 整理日期：2026-10-13。本目录分别说明本轮完成的六项功能，包括用途、入口、操作方法、数据依据、当前限制和维护位置。
 
+当前总体规划见[Fan Archive 整合 Roadmap](../fan-archive-roadmap.md)：保留原十二项编号，合并共享对话第二轮二十五项设想及全站 UI／UX、数据质量与 Support 工作。
+
 代码与说明随 [PR #72](https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/pull/72) 提交。本次整理时 PR 尚未合并，功能已在候选分支和本机预览验证；是否出现在正式站点，以合并与发布结果为准。
 
 ## 六份独立说明
