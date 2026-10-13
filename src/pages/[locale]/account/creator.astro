@@ -1,4 +1,6 @@
 ---
+import WorkspaceButton from '../../../components/WorkspaceButton.astro';
+import WorkspaceControl from '../../../components/WorkspaceControl.astro';
 import Icon from '../../../components/Icon.astro';
 import ContributionFlow from '../../../components/ContributionFlow.astro';
 import {imageLibraryCopy} from '../../../lib/imageLibraryCopy.mjs';
@@ -34,11 +36,11 @@ const create=[['entry',c.newEntry,`/${locale}/contribute/editor/`],['article',c.
       <section class="creator-section creator-overview" aria-labelledby="creator-dashboard-title" hidden><div class="creator-heading"><div><span>04 / OVERVIEW</span><h2 id="creator-dashboard-title">{c.dashboard}</h2></div></div><div class="creator-metrics">{(['attention','draft','review','published'] as const).map(key=><button type="button" data-metric={key}><span>{c[key]}</span><strong data-metric-count={key}>—</strong></button>)}</div></section>
     </div>
     <section class="creator-section creator-records-section" aria-labelledby="creator-records-title" hidden><div class="creator-heading"><div><span>05 / ARCHIVE</span><h2 id="creator-records-title">{c.records}</h2></div></div>
-      <WorkspaceFilters collapsible data-creator-filters class="creator-filters" role="search"><label>{c.search}<input name="q" type="search" autocomplete="off"/></label><label>{c.type}<select name="type"><option value="">{c.all}</option>{(['entry','article','gallery','timeline'] as const).map(key=><option value={key}>{c[key]}</option>)}</select></label><label>{c.state}<select name="state"><option value="">{c.all}</option>{(['attention','review','published','draft','withdrawn'] as const).map(key=><option value={key}>{c[key]}</option>)}</select></label><button type="button" data-creator-refresh>{c.retry}</button></WorkspaceFilters>
+      <WorkspaceFilters collapsible data-creator-filters class="creator-filters" role="search"><label>{c.search}<WorkspaceControl name="q" type="search" autocomplete="off"/></label><label>{c.type}<WorkspaceControl as="select" name="type"><option value="">{c.all}</option>{(['entry','article','gallery','timeline'] as const).map(key=><option value={key}>{c[key]}</option>)}</WorkspaceControl></label><label>{c.state}<WorkspaceControl as="select" name="state"><option value="">{c.all}</option>{(['attention','review','published','draft','withdrawn'] as const).map(key=><option value={key}>{c[key]}</option>)}</WorkspaceControl></label><WorkspaceButton type="button" data-creator-refresh>{c.retry}</WorkspaceButton></WorkspaceFilters>
       <div class="creator-record-list" data-creator-rows></div>
-      <div class="creator-pagination"><span data-records-status role="status"></span><div><button type="button" data-page-previous>{c.previous}</button><button type="button" data-page-next>{c.next}</button></div></div>
+      <div class="creator-pagination"><span data-records-status role="status"></span><div><WorkspaceButton type="button" data-page-previous>{c.previous}</WorkspaceButton><WorkspaceButton type="button" data-page-next>{c.next}</WorkspaceButton></div></div>
     </section>
-  </div><aside class="creator-detail" data-creator-detail hidden role="dialog" aria-labelledby="creator-detail-title"><div class="creator-detail-head"><span>{c.records}</span><button type="button" data-detail-close>{c.close}</button></div><div data-detail-content></div><footer class="creator-detail-footer" data-detail-footer></footer></aside></div></div>
+  </div><aside class="creator-detail" data-creator-detail hidden role="dialog" aria-labelledby="creator-detail-title"><div class="creator-detail-head"><span>{c.records}</span><WorkspaceButton type="button" data-detail-close>{c.close}</WorkspaceButton></div><div data-detail-content></div><footer class="creator-detail-footer" data-detail-footer></footer></aside></div></div>
   <div class="creator-detail-backdrop" data-detail-backdrop hidden></div>
 </WorkspaceLayout>
 <script>import '../../../scripts/creatorCenter.js';</script>

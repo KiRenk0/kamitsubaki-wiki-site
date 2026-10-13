@@ -12,11 +12,11 @@
 .submission-panel .submission-field-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
 .submission-panel .submission-field-grid>label{display:grid;gap:6px;min-width:0;margin:0;color:rgb(var(--theme-fg-rgb)/.7);font:12px/1.5 var(--font-sans)}
 .submission-panel .submission-field-wide{grid-column:1/-1}
-.submission-panel :is(input:not([type=checkbox],[type=radio],[type=file]),select,textarea){box-sizing:border-box;width:100%;min-width:0;max-width:100%;min-height:42px;padding:9px 11px;border:1px solid rgb(var(--theme-fg-rgb)/.18);border-radius:var(--ui-radius-control,4px);background:var(--theme-bg);color:var(--theme-fg);font:13px/1.5 var(--font-sans)}
+.submission-panel :is(input:not([type=checkbox],[type=radio],[type=file]),select,textarea):not(.workspace-control){box-sizing:border-box;width:100%;min-width:0;max-width:100%;min-height:42px;padding:9px 11px;border:1px solid rgb(var(--theme-fg-rgb)/.18);border-radius:var(--ui-radius-control,4px);background:var(--theme-bg);color:var(--theme-fg);font:13px/1.5 var(--font-sans)}
 .submission-panel textarea{resize:vertical}
 .submission-panel .submission-hint{margin:0 0 12px}
 @media(max-width:900px){.submission-columns{grid-template-columns:minmax(0,1fr);gap:18px}}
-@media(max-width:520px){.submission-panel{padding:20px 0;border:0;border-radius:0;background:none;box-shadow:none;border-top:1px solid rgb(var(--theme-fg-rgb)/.16);}.submission-panel .submission-field-grid{grid-template-columns:minmax(0,1fr)}.submission-panel :is(input:not([type=checkbox],[type=radio],[type=file]),select,textarea){font-size:16px;min-height:44px}.submission-panel .submission-panel-header :is(h2,h3,h4){font-size:20px}}
+@media(max-width:520px){.submission-panel{padding:20px 0;border:0;border-radius:0;background:none;box-shadow:none;border-top:1px solid rgb(var(--theme-fg-rgb)/.16);}.submission-panel .submission-field-grid{grid-template-columns:minmax(0,1fr)}.submission-panel :is(input:not([type=checkbox],[type=radio],[type=file]),select,textarea):not(.workspace-control){font-size:16px;min-height:44px}.submission-panel .submission-panel-header :is(h2,h3,h4){font-size:20px}}
 
 .submission-panel .submission-optional>summary{cursor:pointer;font:600 13px/1.5 var(--font-sans)}
 .submission-panel .submission-optional[open]>summary{margin-bottom:14px}

@@ -5,6 +5,12 @@
 @source "../pages";
 @source "../scripts";
 @plugin "@tailwindcss/typography";
+@plugin "daisyui" {
+  themes: false;
+  prefix: "dui-";
+  root: "[data-ui-kit]";
+  include: button, input, select, textarea, checkbox, loading;
+}
 @import "katex/dist/katex.min.css";
 @import "@fontsource-variable/montserrat";
 @import "@fontsource-variable/noto-sans-sc";

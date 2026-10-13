@@ -1,5 +1,5 @@
 ---
-import Icon from '../components/Icon.astro';
+import Icon from './Icon.astro';
 import {resolveLocaleCopy} from '../lib/i18n.mjs';
 const {entityId,locale}=Astro.props;
 const api=import.meta.env.PUBLIC_GALLERY_API_URL||import.meta.env.PUBLIC_AI_OBSERVER_API_BASE||'https://api.kamitsubaki.wiki';

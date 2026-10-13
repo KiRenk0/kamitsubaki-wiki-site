@@ -1,5 +1,5 @@
 ---
-import Icon from '../components/Icon.astro';
+import Icon from './Icon.astro';
 import {readerRecordYear,readerRecordSearchText} from '../lib/readerRecordFilters.mjs';
 interface Props {record:{title:string;href?:string;detail?:string;releaseDate?:string;searchTerms?:string[]};index:number;overflow?:boolean;filterable?:boolean}
 const {record,index,overflow=false,filterable=false}=Astro.props;

@@ -1,5 +1,5 @@
 ---
-import Icon from '../components/Icon.astro';
+import Icon from './Icon.astro';
 import type {EntityRegistry,ResolvedEntity} from '../lib/entityRegistry.mjs';
 interface BranchNode {id:string;ids?:string[];overviewIds?:string[];children?:BranchNode[];[key:string]:unknown}
 interface Props {node:BranchNode;registry:EntityRegistry;locale:string;ancestors?:string[]}

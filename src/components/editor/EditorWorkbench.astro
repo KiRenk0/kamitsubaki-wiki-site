@@ -1,4 +1,6 @@
 ---
+import WorkspaceControl from '../WorkspaceControl.astro';
+import WorkspaceButton from '../WorkspaceButton.astro';
 import IconLabel from '../IconLabel.astro';
 import Icon from '../Icon.astro';
 import ContributionFlow from '../ContributionFlow.astro';
@@ -119,21 +121,21 @@ const icons = {outline:'list-tree',files:'file-text',properties:'sliders-horizon
     <div class="ve-selection-toolbar" data-selection-toolbar role="toolbar" aria-label={copy.specialFormat} hidden><button data-format="bold" aria-label={copy.bold}><Icon name="bold"/></button><button data-format="italic" aria-label={copy.italic}><Icon name="italic"/></button><button data-format="strikeThrough" aria-label={copy.strike}><Icon name="strikethrough"/></button><button data-format="link">{copy.link}</button><button data-inline-preset="mark" class="ve-highlight-tool">{copy.inline.mark}</button><button data-inline-preset="ruby">{copy.inline.ruby}</button><button data-inline-preset="zh-variant">{copy.inline['zh-variant']}</button><button data-inline-preset="spoiler">{copy.inline.spoiler}</button><button data-special>{copy.specialFormat}</button><button data-edit-inline hidden>{copy.editFormatting}</button><button data-clear-format>{copy.clearFormatting}</button></div>
     <dialog class="ve-command-dialog" data-command-dialog aria-label={copy.commands}><div class="ve-command-input"><input data-command-search type="search" placeholder={copy.commands} aria-label={copy.commands} autocomplete="off" role="combobox" aria-controls="ve-command-results" aria-expanded="true"/><kbd>Esc</kbd></div><div id="ve-command-results" data-command-results role="listbox"></div></dialog>
     <dialog id="ve-insert-popover" class="ve-insert-popover" data-insert-popover aria-label={copy.insert}><div class="ve-insert-search"><input data-insert-search type="search" placeholder={copy.insert} aria-label={copy.insert} autocomplete="off" role="combobox" aria-controls="ve-insert-results" aria-expanded="true"/><kbd>Esc</kbd></div><div id="ve-insert-results" data-insert-results role="listbox"></div></dialog>
-    <dialog data-find-dialog aria-labelledby="ve-find-title"><form method="dialog"><div class="ve-section-heading"><h2 id="ve-find-title">{copy.searchText}</h2><button>{copy.cancel}</button></div></form><input type="search" data-find-text aria-label={copy.searchText}/><button data-find-next>{copy.nextMatch}</button><p data-find-status role="status"></p></dialog>
-    <dialog data-link-dialog aria-labelledby="ve-link-title"><form method="dialog"><div class="ve-section-heading"><h2 id="ve-link-title">{copy.link}</h2><button>{copy.cancel}</button></div></form><label>{copy.text}<input data-link-text/></label><label>{copy.url}<input data-link-url placeholder="https://"/></label><p data-link-error role="alert"></p><div class="ve-row-tools"><button data-link-remove hidden>{copy.unlink}</button><button data-link-apply class="ve-primary">{copy.apply}</button></div></dialog>
-    <dialog data-import-dialog aria-labelledby="ve-import-title"><form method="dialog"><div class="ve-section-heading"><h2 id="ve-import-title">{copy.import}</h2><button>{copy.cancel}</button></div></form><p>{copy.importHint}</p><input type="file" data-import-file accept=".md,text/markdown,text/plain" aria-label={copy.import}/><textarea data-import-text aria-label={copy.original} rows="12" spellcheck="false"></textarea><p data-import-error role="alert"></p><button data-import-apply class="ve-primary">{copy.applyImport}</button></dialog>
-    <dialog data-inline-dialog aria-labelledby="ve-inline-title"><form method="dialog"><div class="ve-section-heading"><h2 id="ve-inline-title">{copy.specialFormat}</h2><button>{copy.cancel}</button></div></form><label>{copy.specialFormat}<select data-inline-kind>{Object.entries(copy.inline).map(([value,label])=><option value={value}>{label}</option>)}</select></label><div data-inline-args></div><div data-inline-preview class="wiki-reader wiki-prose"></div><p data-inline-error role="alert"></p><div class="ve-row-tools"><button data-inline-remove hidden>{copy.clearFormatting}</button><button data-inline-apply class="ve-primary">{copy.apply}</button></div></dialog>
+    <dialog data-find-dialog aria-labelledby="ve-find-title"><form method="dialog"><div class="ve-section-heading"><h2 id="ve-find-title">{copy.searchText}</h2><WorkspaceButton type="submit">{copy.cancel}</WorkspaceButton></div></form><WorkspaceControl type="search" data-find-text aria-label={copy.searchText}/><WorkspaceButton data-find-next type="submit">{copy.nextMatch}</WorkspaceButton><p data-find-status role="status"></p></dialog>
+    <dialog data-link-dialog aria-labelledby="ve-link-title"><form method="dialog"><div class="ve-section-heading"><h2 id="ve-link-title">{copy.link}</h2><WorkspaceButton type="submit">{copy.cancel}</WorkspaceButton></div></form><label>{copy.text}<WorkspaceControl data-link-text/></label><label>{copy.url}<WorkspaceControl data-link-url placeholder="https://"/></label><p data-link-error role="alert"></p><div class="ve-row-tools"><WorkspaceButton data-link-remove hidden type="submit">{copy.unlink}</WorkspaceButton><WorkspaceButton data-link-apply class="ve-primary" type="submit" tone="primary">{copy.apply}</WorkspaceButton></div></dialog>
+    <dialog data-import-dialog aria-labelledby="ve-import-title"><form method="dialog"><div class="ve-section-heading"><h2 id="ve-import-title">{copy.import}</h2><WorkspaceButton type="submit">{copy.cancel}</WorkspaceButton></div></form><p>{copy.importHint}</p><input type="file" data-import-file accept=".md,text/markdown,text/plain" aria-label={copy.import}/><WorkspaceControl as="textarea" data-import-text aria-label={copy.original} rows={12} spellcheck="false"></WorkspaceControl><p data-import-error role="alert"></p><WorkspaceButton data-import-apply class="ve-primary" type="submit" tone="primary">{copy.applyImport}</WorkspaceButton></dialog>
+    <dialog data-inline-dialog aria-labelledby="ve-inline-title"><form method="dialog"><div class="ve-section-heading"><h2 id="ve-inline-title">{copy.specialFormat}</h2><WorkspaceButton type="submit">{copy.cancel}</WorkspaceButton></div></form><label>{copy.specialFormat}<WorkspaceControl as="select" data-inline-kind>{Object.entries(copy.inline).map(([value,label])=><option value={value}>{label}</option>)}</WorkspaceControl></label><div data-inline-args></div><div data-inline-preview class="wiki-reader wiki-prose"></div><p data-inline-error role="alert"></p><div class="ve-row-tools"><WorkspaceButton data-inline-remove hidden type="submit">{copy.clearFormatting}</WorkspaceButton><WorkspaceButton data-inline-apply class="ve-primary" type="submit" tone="primary">{copy.apply}</WorkspaceButton></div></dialog>
     <script is:inline type="application/json" data-editor-copy set:html={JSON.stringify(copy).replace(/</g,'\\u003c')}/>
     <EditorPrDemo locale={locale} />
     <noscript>JavaScript is required to use the visual editor.</noscript>
     <dialog data-new-dialog class="ve-entry-dialog">
-      <button type="button" data-previous-draft>{tc('恢复上一份本地草稿')}</button><form data-new-form><h2>{copy.newEntry}</h2>
-        <label>{copy.kind}<select name="kind">{entryTypes.filter(kind=>articleMode?kind==='articles':kind!=='articles').map(k=><option value={k}>{copy.kinds[k as keyof typeof copy.kinds] || k}</option>)}</select></label>
-        <label>{copy.locale}<select name="locale"><option value="zh">简体中文</option><option value="ja">日本語</option><option value="en">English</option></select></label>
-        <label>{copy.emptyTitle}<input name="title" required maxlength="200"/></label>
-        <label>{tc('条目目录')}<input name="folder" required placeholder="example-entity" pattern="[a-z0-9]+(-[a-z0-9]+)*"/></label>
+      <WorkspaceButton type="button" data-previous-draft>{tc('恢复上一份本地草稿')}</WorkspaceButton><form data-new-form><h2>{copy.newEntry}</h2>
+        <label>{copy.kind}<WorkspaceControl as="select" name="kind">{entryTypes.filter(kind=>articleMode?kind==='articles':kind!=='articles').map(k=><option value={k}>{copy.kinds[k as keyof typeof copy.kinds] || k}</option>)}</WorkspaceControl></label>
+        <label>{copy.locale}<WorkspaceControl as="select" name="locale"><option value="zh">简体中文</option><option value="ja">日本語</option><option value="en">English</option></WorkspaceControl></label>
+        <label>{copy.emptyTitle}<WorkspaceControl name="title" required maxlength="200"/></label>
+        <label>{tc('条目目录')}<WorkspaceControl name="folder" required placeholder="example-entity" pattern="[a-z0-9]+(-[a-z0-9]+)*"/></label>
         <p class="ve-hint">{tc('填写永久 ID，只使用小写英文、数字和连字符。提交时检查重名，繁体中文由简体生成。')}</p>
-        <p data-new-feedback role="status"></p><div class="ve-row-tools"><button type="button" data-dialog-close>{copy.cancel}</button><button type="submit">{copy.newEntry}</button></div>
+        <p data-new-feedback role="status"></p><div class="ve-row-tools"><WorkspaceButton type="button" data-dialog-close>{copy.cancel}</WorkspaceButton><WorkspaceButton type="submit">{copy.newEntry}</WorkspaceButton></div>
       </form>
     </dialog>
     <dialog data-shared-image-dialog class="ve-entry-dialog ve-image-library-dialog" aria-label={imageLibraryCopy(locale).title}>
@@ -144,46 +146,46 @@ const icons = {outline:'list-tree',files:'file-text',properties:'sliders-horizon
     </dialog>
     <dialog data-attachments-dialog class="ve-entry-dialog">
       <h2>{copy.attachments}</h2>
-      <button type="button" data-legacy-library-open>{imageLibraryCopy(locale).title}</button>
+      <WorkspaceButton type="button" data-legacy-library-open>{imageLibraryCopy(locale).title}</WorkspaceButton>
       <div hidden>
       <p class="ve-hint">{tc('站内投稿：每张最多 4 MiB、最多 8 张、合计 20 MiB。较大的图片可在本机制作 WebP 投稿副本，原图不会被改动；需要保留原图时走 GitHub 流程。')}</p>
       <ol class="ve-attachment-steps"><li>{tc('1. 选择图片并检查预览；填写图片说明、来源和使用依据。')}</li><li>{tc('2. 加入本机附件后，插入正文或设为封面。此时尚未上传。')}</li><li>{tc('3. 提交 GitHub PR 后，检查 PR 内同时有正文和图片。合并部署后才会公开。')}</li></ol>
       <label>{tc('选择图片')}<input type="file" data-image-files accept="image/png,image/jpeg,image/webp" multiple/></label>
-      <label class="ve-attachment-optimize"><input type="checkbox" data-image-optimize checked/>{tc('超过上限时制作 WebP 投稿副本（保留原图不变）')}</label>
+      <label class="ve-attachment-optimize"><WorkspaceControl type="checkbox" data-image-optimize checked/>{tc('超过上限时制作 WebP 投稿副本（保留原图不变）')}</label>
       <p data-image-selection role="status"></p>
       <div class="ve-attachment-previews" data-image-previews role="list" aria-label={tc('待加入的图片预览')}></div>
-      <label>{tc('图片说明')}<input data-image-alt maxlength="300"/></label>
-      <label>{tc('来源或授权说明')}<input data-image-source maxlength="2048" required placeholder={tc('官方页面链接，或原创 / 授权说明')}/></label>
-      <button data-image-add>{tc('加入附件')}</button><p data-image-feedback role="status"></p>
+      <label>{tc('图片说明')}<WorkspaceControl data-image-alt maxlength="300"/></label>
+      <label>{tc('来源或授权说明')}<WorkspaceControl data-image-source maxlength="2048" required placeholder={tc('官方页面链接，或原创 / 授权说明')}/></label>
+      <WorkspaceButton data-image-add type="submit">{tc('加入附件')}</WorkspaceButton><p data-image-feedback role="status"></p>
       </div>
       <div data-image-list></div>
       <p class="ve-hint">{tc('超过站内限制？通过 GitHub 上传原图，并在同一 PR 中修改正文。')} <a href={`/${locale}/docs/contribute/entry/`} target="_blank" rel="noopener"><IconLabel text={tc('GitHub 原图上传与路径教程 ↗')}/></a></p>
-      <button data-dialog-close>{copy.cancel}</button>
+      <WorkspaceButton data-dialog-close type="submit">{copy.cancel}</WorkspaceButton>
     </dialog>
     {articleMode&&<dialog data-article-asset-dialog class="ve-entry-dialog ve-article-image-dialog" aria-labelledby="ve-article-asset-title">
       <h2 id="ve-article-asset-title">{articleCreation.upload}</h2><p class="ve-hint" data-article-asset-hint>{articleCreation.private}</p>
       <form data-article-asset-form>
         <label>{articleCreation.file}<input name="image" type="file" accept="image/png,image/jpeg,image/webp,image/gif"/></label>
         <img data-article-asset-preview alt="" hidden style="max-width:100%;max-height:220px;object-fit:contain"/>
-        <label>{articleCreation.alt}<input name="alt" required maxlength="300"/></label>
-        <label>{articleCreation.caption}<textarea name="caption" maxlength="2000" rows="2"/></label>
-        <label>{articleCreation.author}<input name="author" required maxlength="200"/></label>
-        <label>{articleCreation.sourceTitle}<input name="sourceTitle" required maxlength="300"/></label>
-        <label>{articleCreation.sourceUrl}<input name="sourceUrl" type="url" maxlength="2000"/></label>
-        <label>{articleCreation.rightsBasis}<select name="rightsBasis" required><option value="" disabled selected>{articleCreation.rightsBasis}</option><option value="official">{articleCreation.official}</option><option value="original">{articleCreation.original}</option><option value="authorized">{articleCreation.authorized}</option></select></label>
-        <label>{articleCreation.rightsEvidence}<textarea name="rightsEvidence" maxlength="2000" rows="2"/></label>
-        <p data-article-asset-status role="status"></p><div class="ve-row-tools"><button type="button" name="retry" hidden>{articleCreation.retry}</button><button type="button" data-dialog-close>{copy.cancel}</button><button name="insert" type="submit" disabled>{articleCreation.insert}</button></div>
+        <label>{articleCreation.alt}<WorkspaceControl name="alt" required maxlength="300"/></label>
+        <label>{articleCreation.caption}<WorkspaceControl as="textarea" name="caption" maxlength="2000" rows={2}/></label>
+        <label>{articleCreation.author}<WorkspaceControl name="author" required maxlength="200"/></label>
+        <label>{articleCreation.sourceTitle}<WorkspaceControl name="sourceTitle" required maxlength="300"/></label>
+        <label>{articleCreation.sourceUrl}<WorkspaceControl name="sourceUrl" type="url" maxlength="2000"/></label>
+        <label>{articleCreation.rightsBasis}<WorkspaceControl as="select" name="rightsBasis" required><option value="" disabled selected>{articleCreation.rightsBasis}</option><option value="official">{articleCreation.official}</option><option value="original">{articleCreation.original}</option><option value="authorized">{articleCreation.authorized}</option></WorkspaceControl></label>
+        <label>{articleCreation.rightsEvidence}<WorkspaceControl as="textarea" name="rightsEvidence" maxlength="2000" rows={2}/></label>
+        <p data-article-asset-status role="status"></p><div class="ve-row-tools"><WorkspaceButton type="button" name="retry" hidden>{articleCreation.retry}</WorkspaceButton><WorkspaceButton type="button" data-dialog-close>{copy.cancel}</WorkspaceButton><WorkspaceButton name="insert" type="submit" disabled>{articleCreation.insert}</WorkspaceButton></div>
       </form>
     </dialog>}
     {articleMode&&<dialog data-article-image-dialog class="ve-entry-dialog ve-article-image-dialog" aria-labelledby="ve-article-image-title">
       <h2 id="ve-article-image-title">{articleImage.title}</h2>
       <p class="ve-hint">{articleImage.description}</p>
-      <label>{articleImage.url}<input data-article-image-url type="url" inputmode="url" autocomplete="url" placeholder="https://images.kamitsubaki.wiki/…"/></label>
-      <label>{articleImage.alt}<input data-article-image-alt maxlength="300"/></label>
-      <label>{articleImage.source}<input data-article-image-source maxlength="2048"/></label>
+      <label>{articleImage.url}<WorkspaceControl data-article-image-url type="url" inputmode="url" autocomplete="url" placeholder="https://images.kamitsubaki.wiki/…"/></label>
+      <label>{articleImage.alt}<WorkspaceControl data-article-image-alt maxlength="300"/></label>
+      <label>{articleImage.source}<WorkspaceControl data-article-image-source maxlength="2048"/></label>
       <div class="ve-article-image-preview"><img data-article-image-preview alt="" hidden/><p data-article-image-status role="status">{articleImage.invalid}</p></div>
       <p class="ve-hint"><a href={`/${locale}/gallery/manage/photos/`}><IconLabel text={articleImage.gallery}/></a></p>
-      <div class="ve-row-tools"><button type="button" data-article-image-cancel>{articleImage.cancel}</button><button type="button" class="ve-primary" data-article-image-insert disabled>{articleImage.insert}</button></div>
+      <div class="ve-row-tools"><WorkspaceButton type="button" data-article-image-cancel>{articleImage.cancel}</WorkspaceButton><WorkspaceButton type="button" class="ve-primary" data-article-image-insert disabled tone="primary">{articleImage.insert}</WorkspaceButton></div>
     </dialog>}
     <style is:global>
       .ve-attachment-steps{display:grid;gap:5px;list-style:none;margin:0 0 18px;padding:0;color:rgb(var(--theme-fg-rgb)/.7);font-size:12px;line-height:1.7}
@@ -203,7 +205,7 @@ const icons = {outline:'list-tree',files:'file-text',properties:'sliders-horizon
       .ve-article-image-preview p{margin:0;text-align:center;font-size:12px;color:rgb(var(--theme-fg-rgb)/.65)}
       .ve-article-image-dialog>.ve-row-tools{position:sticky;bottom:-16px;justify-content:flex-end;padding:12px 0;background:var(--theme-bg)}
     </style>
-    {articleMode&&<dialog data-article-dialog class="ve-entry-dialog"><h2>{modeCopy.mine}</h2><div data-article-proposals></div><button data-article-prev>{modeCopy.previous}</button><button data-article-next>{modeCopy.next}</button><button data-dialog-close>{modeCopy.close}</button></dialog>}
+    {articleMode&&<dialog data-article-dialog class="ve-entry-dialog"><h2>{modeCopy.mine}</h2><div data-article-proposals></div><WorkspaceButton data-article-prev type="submit">{modeCopy.previous}</WorkspaceButton><WorkspaceButton data-article-next type="submit">{modeCopy.next}</WorkspaceButton><WorkspaceButton data-dialog-close type="submit">{modeCopy.close}</WorkspaceButton></dialog>}
   </main>
   <script>import '../../scripts/visualEditor.js';</script>
 </BaseLayout>

@@ -23,13 +23,13 @@ html body .database-catalog {
 .database-query{margin:0}
 .database-search{display:flex;align-items:center;gap:15px;width:100%;border-bottom:1px solid rgb(var(--theme-fg-rgb)/.45);padding:4px 0 12px}
 .database-search>svg{flex:none;width:22px;height:22px;stroke:currentColor;stroke-width:1.5;color:var(--database-muted)}
-.database-catalog .database-search>input{width:100%;min-width:0;min-height:44px;border:0;border-radius:0;background:none;padding:8px 4px;font:16px/1.5 var(--font-sans);color:var(--theme-fg);box-shadow:none}
+.database-catalog .database-search>input.dui-input{border:0;border-radius:0;background:none;padding:8px 4px;font-size:16px}
 .database-search>input::placeholder{color:var(--database-muted);opacity:.8}
 .database-catalog .database-filter-toggle{display:none}
 .database-filters{display:grid;grid-template-columns:1fr 1.45fr .8fr 1fr 1.2fr;gap:16px;padding:14px 0}
 .database-filters>label{display:grid;gap:7px;min-width:0}
 .database-filters>label>span{font:12px/1.5 var(--font-sans);color:var(--database-muted)}
-.database-catalog .database-filters select{width:100%;max-width:100%;min-width:0;height:44px;min-height:44px;border:1px solid var(--database-line);border-radius:var(--ui-radius-control,4px);background:var(--theme-bg);color:var(--theme-fg);padding:8px 28px 8px 12px;font:13px/1.5 var(--font-sans);text-overflow:ellipsis}
+.database-catalog .database-filters select.dui-select{text-overflow:ellipsis}
 .database-filters option{background:var(--theme-bg);color:var(--theme-fg)}
 .database-results-bar{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding:4px 0 16px}
 .database-results-bar>p{font:11px/1.5 var(--font-mono);color:var(--database-muted);margin:0;margin-right:auto}
@@ -37,7 +37,7 @@ html body .database-catalog {
 .database-catalog .database-clear{padding:10px 0;border:0;background:none;color:var(--database-muted);min-height:44px}
 .database-clear:hover{color:var(--theme-accent-color)}
 .database-view-switch{display:flex;align-items:center;gap:8px}
-.database-view-switch>button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:10px 12px;border:1px solid transparent;border-radius:var(--ui-radius-control,4px);background:none;color:var(--database-muted)}
+.database-view-switch>button.dui-btn{gap:8px;padding:10px 12px;color:var(--database-muted)}
 .database-view-switch>button[aria-pressed=true]{border-color:var(--database-line);color:var(--theme-fg);background:rgb(var(--theme-fg-rgb)/.045)}
 .database-view-switch svg{width:15px;height:15px;stroke:currentColor;stroke-width:1.4}
 /* Square artwork and local placeholders share the same editorial caption. */

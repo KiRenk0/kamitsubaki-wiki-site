@@ -1,5 +1,5 @@
 ---
-import Icon from '../components/Icon.astro';
+import Icon from './Icon.astro';
 import ResponsiveImage from './ResponsiveImage.astro';
 import manualContributorData from '../data/manualContributors.json';
 import { resolveLocaleCopy } from '../lib/i18n.mjs';
@@ -192,7 +192,7 @@ function initials(name: string) {
         data-show-all={copy.showAll}
         data-show-less={copy.showLess}
       >
-        <span>{copy.showAll}</span><i aria-hidden="true">⌄</i>
+        <span>{copy.showAll}</span><i aria-hidden="true"><Icon name="chevron-down" /></i>
       </button>
 
       <div class="manual-contributors__drawer" data-contributor-drawer inert hidden>

@@ -51,15 +51,9 @@ html body main.workspace-page .workspace-back>span:first-child{transition:transf
 html body main.workspace-page .workspace-back:hover{color:var(--theme-fg)}
 html body main.workspace-page .workspace-back:hover>span:first-child{transform:translateX(-3px)}
 
-/* Shared buttons also style legacy action-slot links while pages migrate. */
-html body .workspace-page :is(.workspace-button,.workspace-actions>a,.workspace-actions>button){display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:var(--workspace-control-height);padding:8px 14px;border:1px solid var(--workspace-line);border-radius:var(--ui-radius-control);background:transparent;color:var(--theme-fg);font:500 13px/1.5 var(--font-sans);text-decoration:none;cursor:pointer;box-shadow:none;transition:background var(--workspace-motion),border-color var(--workspace-motion),color var(--workspace-motion)}
-html body .workspace-page :is(.workspace-button,.workspace-actions>a,.workspace-actions>button):hover{border-color:rgb(var(--theme-fg-rgb)/.35);background:rgb(var(--theme-fg-rgb)/.055)}
-html body .workspace-page .workspace-button[data-tone=primary]{background:var(--theme-fg);border-color:var(--theme-fg);color:var(--theme-bg)}
-html body .workspace-page .workspace-button[data-tone=primary]:hover{background:color-mix(in srgb,var(--theme-fg) 85%,var(--theme-bg));border-color:transparent}
-html body .workspace-page .workspace-button[data-tone=quiet]{border-color:transparent;background:none;color:var(--workspace-muted)}
-html body .workspace-page .workspace-button[data-tone=quiet]:hover{color:var(--theme-fg);background:var(--workspace-surface)}
-html body .workspace-page .workspace-button:is(:disabled,[aria-disabled=true]){opacity:.45;cursor:not-allowed;transform:none;pointer-events:none}
-html body .workspace-page .workspace-button:focus-visible{outline:2px solid var(--ui-accent-color);outline-offset:3px}
+/* Unmigrated action-slot links retain their appearance during scoped adoption. */
+html body .workspace-page :is(.workspace-actions>a,.workspace-actions>button):not(.dui-btn){display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:var(--workspace-control-height);padding:8px 14px;border:1px solid var(--workspace-line);border-radius:var(--ui-radius-control);background:transparent;color:var(--theme-fg);font:500 13px/1.5 var(--font-sans);text-decoration:none;cursor:pointer;box-shadow:none;transition:background var(--workspace-motion),border-color var(--workspace-motion),color var(--workspace-motion)}
+html body .workspace-page :is(.workspace-actions>a,.workspace-actions>button):not(.dui-btn):hover{border-color:rgb(var(--theme-fg-rgb)/.35);background:rgb(var(--theme-fg-rgb)/.055)}
 .workspace-group-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;align-items:start}
 
 .workspace-filter-actions{display:flex;gap:4px;flex:0 0 auto;align-items:center}
