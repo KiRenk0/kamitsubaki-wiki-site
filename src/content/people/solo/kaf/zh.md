@@ -449,3 +449,12 @@ summary: "以“观测”为核心意象，在虚拟与现实舞台之间持续�
 - [bilibili 官方空间](https://space.bilibili.com/488970166)
 
 <!-- V3 RESEARCH SUPPLEMENT kaf -->
+
+
+## 2026年演出与展览补充
+
+- **3月1日**：于横滨 PIA ARENA MM 举办 5th ONE-MAN LIVE「宿声 / 深爱」。([官方公演资料](https://yokohamawars2026.kamitsubaki.jp/kaf))
+- **3月20日—4月5日**：在 TOWER RECORDS 涩谷店举办「花譜展5」。([官方展览资料](https://kamitsubaki.jp/news/2026/02/21/10300/))
+- **5月31日**：参加「Anime Festival Asia Thailand 2026」。([官方日程](https://kaf.kamitsubaki.jp/schedule/))
+- **7月26日**：参加「OffKai Expo2026」。([官方日程](https://kaf.kamitsubaki.jp/schedule/))
+- **9月6日**：于横滨太平洋会展中心国立大礼堂举办 5th ONE-MAN LIVE「宿声 / 深爱（巡）」。([官方公演资料](https://kamitsubaki.jp/event/?view=past))
