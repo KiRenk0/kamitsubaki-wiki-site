@@ -24,6 +24,7 @@
     "contributors:sync": "node scripts/sync-contributors.mjs",
     "images:generate": "node scripts/generate-thumbnails.mjs",
     "dev:editor": "PUBLIC_EDITOR_ENABLED=true PUBLIC_EDITOR_LOCAL=true CHOKIDAR_USEPOLLING=true CHOKIDAR_INTERVAL=750 astro dev --config astro.editor.config.mjs --host 127.0.0.1 --port 4358",
+    "dev:novel": "pnpm --dir prototypes/novel-editor dev",
     "validate:content": "node scripts/validate-content.mjs",
     "check:ui-actions": "node scripts/check-context-actions.mjs",
     "ui:tokens:sync": "node scripts/sync-ui-tokens.mjs",
