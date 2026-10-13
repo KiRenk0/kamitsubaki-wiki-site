@@ -8,10 +8,11 @@ export function creditIdentity(credit) {
 
 /** @param {import('./entityRegistry.mjs').EntityRegistry} registry @param {string} locale */
 export function buildCreditsArchive(registry, locale = 'zh') {
-  const songs = registry.list(locale).filter(entry => entry.data.entityType === 'work-track');
-  const entries = songs.filter(entry => entry.data.credits?.some(credit => creditIdentity(credit))).map(entry => {
+  const works = registry.list(locale);
+  const songs = works.filter(entry => entry.data.entityType === 'work-track');
+  const entries = works.filter(entry => entry.data.credits?.some(credit => creditIdentity(credit))).map(entry => {
     const d = entry.data;
-    const artists = uniqueArchiveReferences((d.performers || []).map(performer => archiveReference(registry, performer.entity, locale)));
+    const artists = uniqueArchiveReferences([...(d.performers || []).map(performer => archiveReference(registry, performer.entity, locale)),...(d.primaryArtist?[archiveReference(registry,d.primaryArtist,locale)]:[]),...(d.headliners || []).map(id=>archiveReference(registry,id,locale))]);
     const seen = new Set();
     const credits = (d.credits || []).flatMap(credit => {
       const key = creditIdentity(credit);
@@ -21,7 +22,7 @@ export function buildCreditsArchive(registry, locale = 'zh') {
       return [{ key, role: credit.role, title: ref?.title || credit.name.trim(), path: ref?.path || null,
         entityId: credit.entity || '', search: ref?.search || credit.name.trim() }];
     });
-    return { id: d.id, title: d.title || d.name || d.id, path: entry.url, summary: d.summary || '',
+    return { id: d.id, entityType:d.entityType,title: d.title || d.name || d.id, path: entry.url, summary: d.summary || '',
       date: d.releaseDate || '', year: archiveYear(d.releaseDate), artists, credits,
       search: archiveSearch([d.id, d.title, d.romanizedTitle, ...(d.aliases || []), ...artists.map(ref => ref.search), ...credits.map(credit => credit.search)]) };
   });
@@ -50,7 +51,7 @@ export function buildCreditsArchive(registry, locale = 'zh') {
     artists: uniqueArchiveReferences(entries.flatMap(entry => entry.artists)).sort((a, b) => a.title.localeCompare(b.title)),
     roles: [...new Set(entries.flatMap(entry => entry.credits.map(credit => credit.role)))].sort(),
     years: [...new Set(entries.map(entry => entry.year).filter(Boolean))].sort().reverse(),
-    summary: { totalSongs: songs.length, withCredits: entries.length, creatorGroups: creators.length,
+    summary: { totalSongs: songs.length, withCredits: entries.filter(entry=>entry.entityType==='work-track').length, withWorkCredits:entries.length,creatorGroups: creators.length,
       linkedCreators: creators.filter(creator => creator.path).length } };
 }
 

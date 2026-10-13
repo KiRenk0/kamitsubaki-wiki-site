@@ -8,5 +8,6 @@ export const authorableRelations = {
   'character-designed-by':'designed-character','affiliated-with':'has-affiliated-entity',
   'related-project':'has-related-entity','related-release':'related-to-event',
   'derived-from':'derivative-work','soundtrack-for':'has-soundtrack','theme-song-for':'has-theme-song',
+  'version-of':'has-version',
 };
 export const stableIdPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;

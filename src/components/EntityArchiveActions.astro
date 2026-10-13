@@ -1,0 +1,17 @@
+---
+import {archiveFeatureCopy} from '../lib/archiveFeatureCopy.mjs';
+const {entity,locale}=Astro.props,c=archiveFeatureCopy(locale);
+const artist=['person','virtual-avatar','unit','software-voice'].includes(entity.entityType);
+---
+<nav class="entity-archive-actions" data-entity-archive-actions data-entity-id={entity.id} data-locale={locale} aria-label={c.open}>
+ {artist && <a href={'/'+locale+'/explore/music/?artist='+entity.id}>{c.songs}</a>}
+ {entity.entityType==='work-track' && <><button type="button" data-observation-kind="heard">{c.heard}</button><a href={'/'+locale+'/explore/music/?entry='+entity.id}>{c.versions}</a><a href={'/'+locale+'/explore/radio/?q='+entity.id}>{c.queue}</a></>}
+ {entity.entityType==='work-release' && <a href={'/'+locale+'/explore/physical/?q='+entity.id}>{c.edition}</a>}
+ {entity.entityType==='live-event' && <><a href={'/'+locale+'/explore/observatory/?live='+entity.id}>{c.witness}</a><a href={'/'+locale+'/explore/atlas/?q='+encodeURIComponent(entity.venue?.name || entity.id)}>{c.real}</a></>}
+ <a href={'/'+locale+'/explore/evidence/?entity='+entity.id}>{c.claims}</a><a href={'/'+locale+'/explore/compare/?left='+entity.id}>{c.compare}</a>
+ <button type="button" data-observation-kind="read">{c.read}</button><span data-observation-status role="status"></span>
+ {artist && <button type="button" data-observation-kind="guarding">{locale==='en'?'Follow this record':locale==='ja'?'この項目を見守る':'守护此词条'}</button>}
+ <script is:inline type="application/json" data-observation-copy set:html={JSON.stringify(c).replaceAll('<','\\u003c')}/>
+</nav>
+<style>.entity-archive-actions{display:flex;gap:8px 16px;flex-wrap:wrap;align-items:center;padding:16px 0;border-block:1px solid var(--reader-line);margin:16px 0;font:12px/1.6 var(--font-sans);color:var(--reader-muted)}.entity-archive-actions a{text-underline-offset:4px}.entity-archive-actions button{min-height:40px;padding:8px 10px;border:1px solid var(--reader-line);border-radius:3px;background:transparent;color:var(--theme-fg);cursor:pointer}.entity-archive-actions :is(a,button):focus-visible{outline:2px solid var(--theme-accent-color);outline-offset:3px}</style>
+<script>import '../scripts/archiveRecorder.js';</script>

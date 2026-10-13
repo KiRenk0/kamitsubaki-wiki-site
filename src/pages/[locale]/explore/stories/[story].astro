@@ -6,6 +6,7 @@ import { getEntityRegistry, entityLocales } from '../../../../lib/entityRegistry
 import { loadFeatureData } from '../../../../lib/featureData.mjs';
 import { buildStoryCatalog } from '../../../../lib/storyCatalog.mjs';
 import type { StoryRoute } from '../../../../lib/storyCatalog.mjs';
+import {storyRoutes} from '../../../../data/storyRoutes.mjs';
 import { storyCopy, storyFormat } from '../../../../lib/storyCopy.mjs';
 import '../../../../styles/story.css';
 export async function getStaticPaths() {
@@ -18,7 +19,7 @@ const path = `/explore/stories/${route.id}/`;
 const data = { route: { id: route.id, fingerprint: route.fingerprint, chapters: route.chapters.map(ch => ({ id: ch.id, title: ch.title })) }, copy: c };
 ---
 <WorkspaceLayout locale={locale} title={route.title} intro={route.intro} path={path} eyebrow="STORY MODE / GUIDED ROUTE" width="wide" backHref={`/${locale}/explore/stories/`} backLabel={c.directory} mainAttributes={{ 'data-story-app': '', 'data-locale': locale, 'data-story-route': route.id }}>
-  <div class="story-route-meta"><span>{storyFormat(c.minutes, { count: route.minutes })}</span><span>{storyFormat(c.chapters, { count: route.chapters.length })}</span><p>{route.outcome}</p></div>
+  <a class="story-note" href={'/'+locale+'/chronicle/?entity='+encodeURIComponent(route.id==='read-a-stage'?'kaf':storyRoutes.find(definition=>definition.id===route.id)?.anchor || 'kaf')}>{locale==='en'?'Continue in Chronicle':locale==='ja'?'年代記で続ける':'从 Chronicle 主题继续探索'}</a><div class="story-route-meta"><span>{storyFormat(c.minutes, { count: route.minutes })}</span><span>{storyFormat(c.chapters, { count: route.chapters.length })}</span><p>{route.outcome}</p></div>
   <p class="story-note">{c.durationNote}</p>
   <div class="story-progress-bar" data-story-controls hidden><p data-story-step></p><progress data-story-meter value="0" max={route.chapters.length} aria-label={c.outline}></progress><p data-story-progress role="status"></p></div>
   <div class="story-reader">

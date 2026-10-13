@@ -3,6 +3,7 @@ import { getCollection } from '../lib/contentAuditContext';
 import ToolsDock from '../components/ToolsDock.astro';
 import SupportFloat from '../components/SupportFloat.astro';
 import AccountChrome from '../components/AccountChrome.astro';
+import ArchiveRadio from '../components/ArchiveRadio.astro';
 import AiChatWidget from '../components/AiChatWidget.astro';
 import LiveEventsWidget from '../components/LiveEventsWidget.astro';
 import SiteSearch from '../components/SiteSearch.astro';
@@ -223,6 +224,7 @@ const liveEventsCopy = siteContent?.liveEvents;
 
     <slot />
     <AccountChrome locale={lang} />
+    <ArchiveRadio locale={lang} />
     <div id="cursor" class="cursor-dot" aria-hidden="true"></div>
     <SiteSearch lang={lang} />
 

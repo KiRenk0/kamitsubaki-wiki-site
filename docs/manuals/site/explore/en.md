@@ -69,8 +69,17 @@ The article list contains public writing in the current content language. Search
 
 ## Story Mode guided routes
 
-[Story Mode](/en/explore/stories/) offers five introductions: KAF, V.W.P, Kamitsubaki City, KAF to Kaika, and PIEDPIPER. Each has six chapters with questions, source-backed records and optional existing media. Suggested guide lengths exclude the full duration of songs, videos and original works.
+[Story Mode](/en/explore/stories/) offers seven introductions: KAF, V.W.P, Kamitsubaki City, KAF to Kaika, PIEDPIPER, Kanzaki Iori and reading a stage. Each has six chapters with questions, source-backed records and optional existing media. Suggested guide lengths exclude the full duration of songs, videos and original works.
 
 Moving between chapters does not mark them read. Use “Mark read and continue” to save completion in this device’s browser. Languages share progress; a shared link contains only the chapter position. Restart clears only the current route. After reading all chapters, continue with another route, Discovery or Graph.
 
 Players load only on request and close when you change chapters. Original links remain available. Story summaries can be expanded deliberately, and editorial reading order does not imply a shared plot chronology. All chapters remain readable without scripts or persistent storage.
+
+
+## Fan Archive tools
+
+The [Explore portal](/en/explore/) groups discovery, records, time and places, community, research and sources. [Music Universe](/en/explore/music/) connects versions, credits, media and recorded performances; [Atlas](/en/explore/atlas/) lets you arrange real-place routes; [Visual Evolution](/en/explore/visual/) uses recorded visual dates.
+
+[My Observatory](/en/explore/observatory/) offers voluntary listening, visit, ownership and reading records. Records start private and can be exported. Published passports still display only individually public records. [Collections](/en/explore/collections/) support drafts, follow and fork; exhibitions need independent review. [Challenges](/en/explore/challenges/) come from actual missing fields and translations. Account synchronization and shared actions require a connected service.
+
+[Ask](/en/explore/ask/) recognizes a limited query grammar: inspect conditions before execution. [Compare](/en/explore/compare/), [Evidence](/en/explore/evidence/) and [Languages](/en/explore/languages/) help check records. Statistics describe the current sample. [Radio](/en/explore/radio/) uses a separate playback window for continuous playback across pages. [Physical Archive](/en/explore/physical/) matches only recorded barcodes and asks you to confirm the edition. [This day](/en/explore/today/) matches only exact recorded dates.

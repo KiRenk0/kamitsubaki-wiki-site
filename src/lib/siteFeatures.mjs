@@ -1,4 +1,5 @@
 import {resolveLocaleCopy} from './i18n.mjs';
+import {archiveFeatureDefinitions} from './archiveFeatureCopy.mjs';
 const text=(zh,en,ja)=>({zh,en,ja});
 export const siteFeatures=[
  {id:'database',group:'main',path:'/database/',title:text('百科','Encyclopedia','百科'),summary:text('人物、团体、项目与音乐作品','People, groups, projects and music','人物・グループ・企画・音楽')},
@@ -20,4 +21,5 @@ export const siteFeatures=[
  {id:'game',group:'labs',path:'/games/memory-corridor',beta:true,title:text('记忆回廊','Memory Corridor','記憶回廊'),summary:text('在像素世界里探索神椿','Explore Kamitsubaki in pixels','ピクセルの神椿を探索')},
  {id:'chat',group:'labs',path:'https://chat.kamitsubaki.wiki/',beta:true,title:text('角色对话','Character chat','キャラクター対話'),summary:text('与角色展开 AI 对话','AI conversations with characters','キャラクターとの AI 対話')},
 ];
+siteFeatures.push(...archiveFeatureDefinitions.map(([id,section,roadmap,title,summary])=>({id:'archive-'+id,group:'explore',section,path:'/explore/'+id+'/',title,summary})));
 export function featuresFor(locale,group){return siteFeatures.filter(item=>!group||item.group===group).map(item=>({...item,title:resolveLocaleCopy(item.title,locale),summary:resolveLocaleCopy(item.summary,locale),href:item.path.startsWith('https:')?item.path:`/${locale}${item.path}`}));}

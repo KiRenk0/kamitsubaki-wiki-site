@@ -1,5 +1,7 @@
 # Fan Archive 本轮功能说明
 
+原候选整理日期：2026-10-13。后续实现更新见[2026-10-14 扩展功能](archive-expansion.md)与[Open Data](open-data.md)；下文保留原六项候选的历史范围。
+
 整理日期：2026-10-13。本目录分别说明本轮完成的六项功能，包括用途、入口、操作方法、数据依据、当前限制和维护位置。
 
 当前总体规划见[Fan Archive 整合 Roadmap](../fan-archive-roadmap.md)：保留原十二项编号，合并共享对话第二轮二十五项设想及全站 UI／UX、数据质量与 Support 工作。

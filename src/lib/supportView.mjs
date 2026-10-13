@@ -41,3 +41,11 @@ export function renderSupportData(data,copy,locale) {
   const wall=data.sponsors.length?`<ul class="support-wall" role="list">${orderSupporters(data.sponsors).map(item=>`<li>${supportLink(item.url)?external(supportLink(item.url),item.name):`<span>${e(item.name)}</span>`}</li>`).join('')}</ul>`:`<div class="support-empty"><span class="support-empty__mark" aria-hidden="true">${iconMarkup('plus')}</span><h3>${e(copy.wallEmpty)}</h3><p>${e(copy.wallEmptyBody)}</p></div>`;
   return {channels,costs,reports,wall};
 }
+
+export function renderSupportOverview(data,copy,locale){
+ const report=[...data.annualReports].sort((a,b)=>b.year-a.year)[0],e=escapeHtml;
+ if(!report)return `<p>${e(copy.noReports)}</p>`;
+ const amount=value=>value===null?e(copy.pending):e(new Intl.NumberFormat(locale,{style:"currency",currency:report.currency,currencyDisplay:"code",maximumFractionDigits:2}).format(value));
+ const balance=report.received===null||report.spent===null?null:Math.round((report.received-report.spent)*100)/100;
+ return `<p>${report.year} · ${e(copy.reportLabel)}${report.asOf?" · "+e(copy.asOf)+" "+e(report.asOf):""}</p><dl class="support-totals">${[[copy.received,report.received],[copy.spent,report.spent],[copy.balance,balance]].map(([label,value])=>`<div><dt>${e(label)}</dt><dd>${amount(value)}</dd></div>`).join("")}</dl>`;
+}

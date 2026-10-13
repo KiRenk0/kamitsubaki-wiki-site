@@ -50275,6 +50275,36 @@
       "references": [
         {
           "kind": "content",
+          "path": "src/content/artists/solo/azsagawa/en.md",
+          "locale": "en",
+          "entityId": null
+        },
+        {
+          "kind": "content",
+          "path": "src/content/artists/solo/azsagawa/ja.md",
+          "locale": "ja",
+          "entityId": null
+        },
+        {
+          "kind": "content",
+          "path": "src/content/artists/solo/azsagawa/zh-hk.md",
+          "locale": "zh-hk",
+          "entityId": null
+        },
+        {
+          "kind": "content",
+          "path": "src/content/artists/solo/azsagawa/zh-tw.md",
+          "locale": "zh-tw",
+          "entityId": null
+        },
+        {
+          "kind": "content",
+          "path": "src/content/artists/solo/azsagawa/zh.md",
+          "locale": "zh",
+          "entityId": null
+        },
+        {
+          "kind": "content",
           "path": "src/content/people/solo/azsagawa/en.md",
           "locale": "en",
           "entityId": "azsagawa"
@@ -57961,6 +57991,36 @@
       "sourceUrl": "/images/artists/onuma-parsley.jpg",
       "sha256": "e82a9efb9c642cc6fb693696a4c814dc6192e0f8554eff0ab3b0ee047e36b2db",
       "references": [
+        {
+          "kind": "content",
+          "path": "src/content/artists/creators/onuma-parsley/en.md",
+          "locale": "en",
+          "entityId": null
+        },
+        {
+          "kind": "content",
+          "path": "src/content/artists/creators/onuma-parsley/ja.md",
+          "locale": "ja",
+          "entityId": null
+        },
+        {
+          "kind": "content",
+          "path": "src/content/artists/creators/onuma-parsley/zh-hk.md",
+          "locale": "zh-hk",
+          "entityId": null
+        },
+        {
+          "kind": "content",
+          "path": "src/content/artists/creators/onuma-parsley/zh-tw.md",
+          "locale": "zh-tw",
+          "entityId": null
+        },
+        {
+          "kind": "content",
+          "path": "src/content/artists/creators/onuma-parsley/zh.md",
+          "locale": "zh",
+          "entityId": null
+        },
         {
           "kind": "content",
           "path": "src/content/people/creators/onuma-parsley/en.md",

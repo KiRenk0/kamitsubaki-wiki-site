@@ -15,7 +15,7 @@ export function buildDiscoveryCatalog(registry, feature, locale = 'zh', articles
     const entries = translations ? [...translations.values()] : [];
     const d = translations?.get('zh')?.data || entries[0]?.data;
     if (d?.contentStatus === 'stub') return [];
-    const styles = [...new Set([...(d?.genres || []).map(value => 'genre:' + value), ...(d?.tags || []).map(value => 'tag:' + value)])];
+    const styles = [...new Set([...(d?.genres || []).map(value => 'genre:' + value), ...(d?.tags || []).map(value => 'tag:' + value),...(d?.genome?.tags || []).map(tag=>'tag:'+tag.value)])];
     for (const style of styles) styleNames.set(style, style.startsWith('genre:') ? entityLabel(style.slice(6), locale) : convertChineseContentValue(style.slice(4), locale));
     const rawDate = d ? d.releaseDate || d.dateRange?.start || d.lifecycle?.startedAt || d.publishDate
       || (d.voiceEngines || []).map(engine => engine.releaseDate).filter(Boolean).sort()[0] : node.date?.label;

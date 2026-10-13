@@ -15,7 +15,7 @@ const initial=selectLiveArchive(catalog.entries).slice(0,12);
 <WorkspaceLayout locale={locale} title={c.live.title} intro={c.live.intro} path="/explore/lives/" eyebrow="ARCHIVE / LIVE" width="wide" backHref={`/${locale}/explore/`} backLabel={c.back} mainAttributes={{class:'archive-browser', 'data-archive-browser':'lives'}}>
   <WorkspaceButton href={`/${locale}/contribute/missing/?type=live-event&field=setlist`} slot="actions">{c.live.tasks} ↗</WorkspaceButton>
   <div class="archive-metrics">{[[c.live.total,catalog.summary.total],[c.live.concerts,catalog.summary.concerts],[c.live.withSetlists,catalog.summary.withSetlists],[c.live.artists,catalog.summary.artists]].map(([label,count])=><div><span>{label}</span><strong>{count}</strong></div>)}</div>
-  <p class="archive-note">{c.live.note}</p>
+  <p class="archive-note">{c.live.note}</p><nav class="archive-actions"><a href={'/'+locale+'/explore/live-mode/'}>Live Mode</a><a href={'/'+locale+'/explore/statistics/'}>Setlist Engine</a><a href={'/'+locale+'/explore/observatory/'}>Live Witness</a></nav>
   <WorkspaceFilters data-archive-form data-archive-controls hidden role="search">
     <label><span>{c.search}</span><input name="q" type="search" placeholder={c.search} autocomplete="off"/></label>
     <label><span>{c.artist}</span><select name="artist"><option value="">{c.all}</option>{catalog.artists.map(artist=><option value={artist.id}>{artist.title}</option>)}</select></label>

@@ -1,3 +1,4 @@
+import {resolveChroniclePreset} from './chroniclePresets.mjs';
 import {setIconLabel} from './icons.mjs';
 import {dateBounds, eventBounds, timelineBounds, clusterEvents} from './chronicleTimeline.mjs';
 import {createChronicleZoomScheduler} from './chronicleZoomScheduler.mjs';
@@ -127,7 +128,7 @@ export function initTimeline(){
  viewControl.onchange=()=>changeListView();orderControl.onchange=()=>changeListView();
  const apply=(save=false)=>{
    const values=Object.fromEntries(new FormData(form)),on=enabled();
-   filtered=events.filter(e=>on.some(t=>scopeTrack(t)&&e.tracks.includes(t))&&(!values.q||`${e.title} ${e.summary}`.toLowerCase().includes(String(values.q).toLowerCase()))&&(!values.entity||e.related?.some(r=>r.entity===values.entity))&&(!values.type||e.eventTypes.includes(String(values.type)))&&(!values.year||e.date.start.startsWith(String(values.year)))).sort((a,b)=>eventBounds(a).start-eventBounds(b).start||a.id.localeCompare(b.id));
+   filtered=events.filter(e=>on.some(t=>scopeTrack(t)&&e.tracks.includes(t))&&(!values.q||`${e.title} ${e.summary}`.toLowerCase().includes(String(values.q).toLowerCase()))&&(!values.entity||e.related?.some(r=>r.entity===values.entity))&&(!values.type||e.eventTypes.includes(String(values.type)))&&(!values.year||e.date.start.startsWith(String(values.year)))&&(!values.from||(e.date.end||e.date.start)>=String(values.from))&&(!values.to||e.date.start.slice(0,String(values.to).length)<=String(values.to))).sort((a,b)=>eventBounds(a).start-eventBounds(b).start||a.id.localeCompare(b.id));
    get('[data-count]').textContent=`${filtered.length} / ${events.length} ${ui.events}`;get('[data-filter-count]').textContent=filtered.length===events.length?'':`${filtered.length} / ${events.length}`;
    get<HTMLElement>('[data-empty]').hidden=filtered.length>0;
    root.querySelectorAll<HTMLElement>('[data-solo]').forEach(b=>b.setAttribute('aria-pressed',String(on.length===1&&on[0]===b.dataset.solo)));
@@ -138,7 +139,7 @@ export function initTimeline(){
    if(save){const url=new URL(location.href);for(const [key,value]of Object.entries(values))value?url.searchParams.set(key,String(value)):url.searchParams.delete(key);const defaultTracks=scope==='site'?on.length===1&&on[0]==='site-updates':on.length===checks.length-1&&!on.includes('site-updates');defaultTracks?url.searchParams.delete('tracks'):url.searchParams.set('tracks',on.join(','));if(!selected)url.hash='';history.replaceState(null,'',url);}
  };
  const restore=()=>{
-   const params=new URLSearchParams(location.search);viewControl.value=params.get('view')==='list'?'list':'timeline';orderControl.value=params.get('order')==='desc'?'desc':'asc';
+   const params=new URLSearchParams(location.search);const preset=resolveChroniclePreset(params.get('preset'));if(preset)for(const [key,value]of Object.entries(preset))if(!params.has(key))params.set(key,String(value));viewControl.value=params.get('view')==='list'?'list':'timeline';orderControl.value=params.get('order')==='desc'?'desc':'asc';
    let id='';try{id=decodeURIComponent(location.hash.slice(1));}catch{}
    scope=params.get('scope')==='site'||id.startsWith('site-')?'site':'chronicle';root.dataset.timelineScope=scope;root.querySelectorAll<HTMLButtonElement>('[data-timeline-scope]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.timelineScope===scope)));
    form.querySelectorAll<HTMLInputElement|HTMLSelectElement>('[name]').forEach(c=>c.value=params.get(c.name)||'');checks.forEach(c=>c.checked=params.has('tracks')?(params.get('tracks')||'').split(',').includes(c.value)&&scopeTrack(c.value):scopeTrack(c.value));apply();

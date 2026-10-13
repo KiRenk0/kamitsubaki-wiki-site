@@ -23,6 +23,8 @@ const homeContent = getLocalizedSite(await getCollection('site'), locale, defaul
 const copy = getSupportCopy(locale);
 const data = getSupportData();
 const reports = [...data.annualReports].sort((a, b) => b.year - a.year);
+const latest = reports[0];
+const activeChannel = data.channels.find(channel => supportExternalUrl(channel.url));
 const sponsors = data.sponsors.filter((sponsor) => sponsor.public);
 const currentPath = '/support/';
 const metadata = { title: `${copy.title} - Kamitsubaki Studio Fan Wiki`, description: copy.intro, canonicalPath: `/${locale}${currentPath}` };
@@ -39,6 +41,17 @@ const apiBase = import.meta.env.PUBLIC_SUPPORT_API_BASE || import.meta.env.PUBLI
 
       <a href={`/${locale}/contribute/`}>{copy.contribute}<span aria-hidden="true"><Icon name="arrow-up-right" /></span></a>
     </WorkspaceHeader>
+    <section class="support-overview" aria-label={copy.reportLabel}>
+      <div class="support-overview-actions">
+        {activeChannel && <a class="support-button" href={supportExternalUrl(activeChannel.url)} target="_blank" rel="noopener noreferrer">{copy.choose}<Icon name="arrow-up-right" /></a>}
+        <a class="support-text-link" href={`/${locale}/contribute/`}>{copy.contribute}</a>
+        <a class="support-text-link" href="#transparency">{copy.seeReports}</a>
+      </div>
+      <div data-support-overview>
+        {latest ? <><p>{latest.year} · {copy.reportLabel}{latest.asOf && ` · ${copy.asOf} ${latest.asOf}`}</p><dl class="support-totals">{[{label:copy.received,value:latest.received},{label:copy.spent,value:latest.spent},{label:copy.balance,value:supportAnnualBalance(latest.received,latest.spent)}].map(item=><div><dt>{item.label}</dt><dd>{amount(item.value,latest.currency)}</dd></div>)}</dl></> : <p>{copy.noReports}</p>}
+      </div>
+      <p class="support-note">{copy.freeNote}</p>
+    </section>
 
     <WorkspaceNavigation label={copy.pageNav} kind="support">
       {[

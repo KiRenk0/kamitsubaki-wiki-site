@@ -40,7 +40,10 @@
     "check:tiptap": "node scripts/check-tiptap-compatibility.mjs",
     "check:ui-icons": "node scripts/check-ui-icons.mjs",
     "icons:generate": "node scripts/generate-ui-icon-assets.mjs",
-    "release:build": "node scripts/release-build.mjs"
+    "release:build": "node scripts/release-build.mjs",
+    "archive:check": "node scripts/check-fan-archive.mjs",
+    "archive:snapshot": "node scripts/archive-snapshot.mjs",
+    "archive:snapshots:check": "node scripts/archive-snapshot.mjs --check"
   },
   "dependencies": {
     "@codemirror/autocomplete": "^6.20.3",

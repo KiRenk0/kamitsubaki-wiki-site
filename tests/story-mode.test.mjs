@@ -60,7 +60,7 @@ test('saved progress is scoped by route and fingerprint, validates chapter keys 
 
 test('real routes have complete materials, verified concert types, playable media and identical selections in five languages', async () => {
   const registry = await getEntityRegistry(), feature = await loadFeatureData(), c = buildStoryCatalog(registry, feature);
-  assert.equal(c.routes.length, 5); assert.deepEqual(c.routes.map(r => r.minutes), [20, 30, 45, 25, 30]);
+  assert.equal(c.routes.length, 7); assert.deepEqual(c.routes.slice(0,5).map(r => r.minutes), [20, 30, 45, 25, 30]);
   for (const route of c.routes) {
     assert.equal(route.chapters.length, 6); assert.equal(route.chapters.some(ch => ch.missing), false);
     const ids = route.chapters.flatMap(ch => ch.materials.map(m => m.node.id)); assert.equal(ids.length, new Set(ids).size);

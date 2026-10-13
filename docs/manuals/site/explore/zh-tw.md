@@ -5,7 +5,7 @@ locale: "zh-tw"
 order: 3
 title: "音樂、文章與探索"
 summary: "理解作品目錄、文章專欄、時間軸、相簿和關聯網路的區別。"
-generatedFromHash: "8db8abc5ffc16c6b0968"
+generatedFromHash: "79c2ed07769477fa3f63"
 generated: true
 generatedFrom: "zh"
 ---
@@ -79,3 +79,12 @@ generatedFrom: "zh"
 上一章、跳過和直接選章不會標記已讀；點選“讀完本章”後才儲存進度。進度只存在這臺裝置的瀏覽器，跨語言可續讀，分享只帶章節位置。完成全部章節後可繼續另一條導覽、Discovery 或 Graph。重新開始只清除當前路線。
 
 播放器在點選後才載入，換章時關閉；原連結始終可用。世界觀摘要可摺疊展開，閱讀順序不代表共同劇情時間線。無指令碼仍能讀全部章節；無法儲存進度時仍能繼續本次閱讀。
+
+
+## Fan Archive 擴充套件入口
+
+[探索門戶](/zh-tw/explore/)按發現、檔案、時間地點、社群、研究與來源分組。[音樂宇宙](/zh-tw/explore/music/)連線版本、署名、媒體及曲目歷史；[Atlas](/zh-tw/explore/atlas/)可編排現實地點路線；[視覺演化](/zh-tw/explore/visual/)按已記錄日期展示形態。
+
+[我的觀測站](/zh-tw/explore/observatory/)提供自願的聽過、去過、擁有與閱讀記錄，預設私人，可匯出備份。公開護照仍只顯示逐條選擇公開的記錄。[集合](/zh-tw/explore/collections/)支援草稿、關注與複製，展覽須獨立稽核；[共建任務](/zh-tw/explore/challenges/)從真實缺項和缺譯生成。賬號同步及共享操作在服務連線後可用。
+
+[查詢檔案](/zh-tw/explore/ask/)先解析有限的查詢文法，檢查條件後執行；[對比](/zh-tw/explore/compare/)、[證據](/zh-tw/explore/evidence/)和[語言覆蓋](/zh-tw/explore/languages/)幫助核對記錄。統計只代表當前資料樣本。[Radio](/zh-tw/explore/radio/)通過獨立播放窗保持跨頁面播放；[實體收藏](/zh-tw/explore/physical/)只匹配已收錄條碼，確認版次後才加入擁有記錄。[歷史上的今天](/zh-tw/explore/today/)只匹配精確到日的事件。
