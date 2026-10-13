@@ -1,4 +1,5 @@
 ---
+import Icon from '../components/Icon.astro';
 import {getCollection} from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import SiteNav from './SiteNav.astro';
@@ -46,7 +47,7 @@ const payload=JSON.stringify({records,facets,copy}).replace(/</g,'\\u003c');
   <SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site,locale,'/database/')} brandLines={site.hero.brandLines} homeHref={`/${locale}/`}/>
   <WorkspaceShell width="wide" class="database-catalog" data-database-catalog data-view="grid" data-filters-open="false" data-locale={locale}>
     <header class="database-header">
-      <a class="database-back" href={`/${locale}/`}>← {copy.home}</a>
+      <a class="database-back" href={`/${locale}/`}><Icon name="arrow-left" /> {copy.home}</a>
       <div class="database-heading-row"><h1>DATABASE</h1><ContextAction href={`/${locale}/contribute/editor/`}>{copy.create}</ContextAction></div>
       <div class="database-stats"><span><strong>{records.length.toLocaleString('en-US')}</strong> RECORDS</span><span><strong>{collections.length}</strong> COLLECTIONS</span></div>
       <p class="database-intro">{copy.intro}</p>
@@ -58,8 +59,8 @@ const payload=JSON.stringify({records,facets,copy}).replace(/</g,'\\u003c');
     <section class="database-browser" aria-labelledby="database-browse-title">
       <h2 id="database-browse-title">{copy.browse}</h2>
       <form class="database-query" role="search" data-database-form>
-        <label class="database-search"><span class="database-visually-hidden">{copy.search}</span><svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg><input type="search" name="q" aria-label={copy.search} placeholder={copy.placeholder} autocomplete="off"/></label>
-        <button type="button" class="database-filter-toggle" data-database-filter-toggle aria-expanded="false" aria-controls="database-filters"><svg aria-hidden="true" viewBox="0 0 20 20" fill="none"><path d="M2 4h16M5 10h10M8 16h4"/></svg><span>{copy.filters}</span><svg class="database-filter-chevron" aria-hidden="true" viewBox="0 0 20 20" fill="none"><path d="m5 8 5 5 5-5"/></svg></button>
+        <label class="database-search"><span class="database-visually-hidden">{copy.search}</span><Icon name="search" /><input type="search" name="q" aria-label={copy.search} placeholder={copy.placeholder} autocomplete="off"/></label>
+        <button type="button" class="database-filter-toggle" data-database-filter-toggle aria-expanded="false" aria-controls="database-filters"><Icon name="sliders-horizontal" /><span>{copy.filters}</span><Icon name="chevron-down" class="database-filter-chevron" /></button>
         <div class="database-filters" id="database-filters">
           <label><span>{copy.type}</span><select name="type" aria-label={copy.type}><option value="">{copy.allValues}</option>{facets.types.map(type=><option value={type}>{entityLabel(type,locale)}</option>)}</select></label>
           <label><span>{copy.artist}</span><select name="artist" aria-label={copy.artist}><option value="">{copy.allValues}</option>{facets.artists.map(artist=><option value={artist.id}>{artist.label}</option>)}</select></label>
@@ -71,18 +72,18 @@ const payload=JSON.stringify({records,facets,copy}).replace(/</g,'\\u003c');
           <p data-database-count role="status" aria-live="polite">{copy.shown} {initial.length} / {records.length} {copy.records}</p>
           <button type="reset" class="database-clear" data-database-clear hidden>{copy.clear}</button>
           <div class="database-view-switch" role="group" aria-label={locale==='en'?'Record layout':locale==='ja'?'表示形式':'记录视图'}>
-            <button type="button" data-database-view="grid" aria-pressed="true"><svg viewBox="0 0 20 20" aria-hidden="true" fill="none"><path d="M2 2h6v6H2zM12 2h6v6h-6zM2 12h6v6H2zM12 12h6v6h-6z"/></svg>Grid</button>
-            <button type="button" data-database-view="list" aria-pressed="false"><svg viewBox="0 0 20 20" aria-hidden="true" fill="none"><path d="M2 4h2m3 0h11M2 10h2m3 0h11M2 16h2m3 0h11"/></svg>List</button>
+            <button type="button" data-database-view="grid" aria-pressed="true"><Icon name="layout-grid" />Grid</button>
+            <button type="button" data-database-view="list" aria-pressed="false"><Icon name="list" />List</button>
           </div>
         </div>
       </form>
       <div class="database-list-heading" aria-hidden="true"><span>{copy.record}</span><span>{copy.type}</span><span>{copy.artist}</span><span>{copy.year}</span></div>
       <ul class="database-records" data-database-records>{initial.map(record=><DatabaseRecord record={record} placeholderLabel={copy.imagePending}/>)}</ul>
       <div class="database-empty" data-database-empty hidden><p>{copy.empty}</p><span>{copy.emptyHint}</span><button type="button" data-database-empty-clear>{copy.clear}</button></div>
-      <button type="button" class="database-more" data-database-more hidden={records.length<=24}>{copy.more}<span aria-hidden="true">↓</span></button>
+      <button type="button" class="database-more" data-database-more hidden={records.length<=24}>{copy.more}<span aria-hidden="true"><Icon name="arrow-down" /></span></button>
     </section>
     <details class="database-classification" data-database-classification id="database-classification">
-      <summary><span>{copy.tree}</span><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m5 8 5 5 5-5"/></svg></summary>
+      <summary><span>{copy.tree}</span><Icon name="chevron-down" /></summary>
       <p>{copy.treeHint}</p>
       <ClassificationDirectory locale={locale}/>
     </details>

@@ -1,4 +1,5 @@
 ---
+import Icon from '../components/Icon.astro';
 const { target } = Astro.props as { target: string };
 ---
 <!doctype html>
@@ -14,5 +15,5 @@ const { target } = Astro.props as { target: string };
     </script>
     <noscript><meta http-equiv="refresh" content={`0;url=${target}`} /></noscript>
   </head>
-  <body><a href={target}>Continue to LABs →</a></body>
+  <body><a href={target}>Continue to LABs <Icon name="arrow-right" /></a></body>
 </html>

@@ -37,9 +37,9 @@ const require=createRequire(import.meta.url);
 const {build}=createRequire(require.resolve('vite'))('esbuild');
 const bundled=await build({entryPoints:['src/lib/gallery.ts'],bundle:true,write:false,format:'iife',globalName:'galleryAdapter',plugins:[{
   name:'gallery-viewer-fixture',setup(builder){
-    builder.onResolve({filter:/(imageViewer|disclosureMotion)\.mjs$/},args=>({path:args.path,namespace:'gallery-fixture'}));
-    builder.onLoad({filter:/.*/,namespace:'gallery-fixture'},args=>({contents:args.path.includes('imageViewer')
-      ?'export function imageViewer(){return {isOpen:false,open(items,index){this.isOpen=true;window.galleryViewerCalls.push({items,index});},close(){this.isOpen=false;}};}'
+    builder.onResolve({filter:/(galleryImageViewer|imageViewer|disclosureMotion)\.mjs$/},args=>({path:args.path,namespace:'gallery-fixture'}));
+    builder.onLoad({filter:/.*/,namespace:'gallery-fixture'},args=>({contents:/imageViewer|galleryImageViewer/.test(args.path)
+      ?'export function galleryImageViewer(){return {isOpen:false,open(items,index){this.isOpen=true;window.galleryViewerCalls.push({items,index});},close(){this.isOpen=false;}};}'
       :'export function createDisclosureMotion(element){return {async setOpen(open){element.hidden=!open;},dispose(){}};}'}));
   },
 }]});

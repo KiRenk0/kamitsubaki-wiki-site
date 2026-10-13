@@ -1,3 +1,4 @@
+import {setIconLabel} from '../lib/icons.mjs';
 import {uploadGalleryFiles} from '../lib/galleryUploadQueue.mjs';
 import {formatBytes,uploadLimits} from '../lib/uploadPresentation.mjs';
 import {showContributionReceipt} from '../lib/submissionReceipt.mjs';
@@ -12,7 +13,7 @@ const root=document.querySelector('[data-creation-uploader]');
 if(root){
  const layout=JSON.parse(root.dataset.layoutCopy||'{}');
  const $=s=>root.querySelector(s),all=s=>[...root.querySelectorAll(s)];
- const text=(tag,value)=>{const e=document.createElement(tag);e.textContent=value;return e;};
+ const text=(tag,value)=>{const e=document.createElement(tag);setIconLabel(e,value);return e;};
  const c=JSON.parse(root.dataset.copy||'{}'),format=(value,parts)=>String(value).replace(/\{(\w+)\}/g,(_,key)=>String(parts[key]??''));
  let active='set-1',serial=1,files=[],selectedFile=null,simulating=false,owner=null,batch=null,saveTimer,hydrating=false,dirty=false,disposed=false,characters=[],draftController=null,draftId=null,stageFlight=null,localFilesUnavailable=false;
  const draftStatus=mountGalleryDraftStatus(root,root.dataset.locale||'zh',()=>draftController);
@@ -32,7 +33,7 @@ if(root){
  const returnTo=new URLSearchParams(location.search).get('returnTo');
  const batchUrl=id=>{const url=new URL(location.pathname,location.origin);url.searchParams.set('batch',id);if(returnTo)url.searchParams.set('returnTo',returnTo);if(admin)url.searchParams.set('admin','1');return url.pathname+url.search;};
  const receipt=id=>{showContributionReceipt(root,{id,state:admin?c.published:flowText.submitted,href:admin?api+'/admin/content?type=gallery':`/${locale}/account/creator/?recordType=gallery&record=${encodeURIComponent(id)}`,...(admin?{title:c.publishedTitle,recordLabel:c.batchId,linkLabel:c.manage}:{})});root.dataset.complete='';};
- if(returnTo){try{const target=new URL(returnTo,location.origin);if(target.origin===location.origin&&/^\/(zh|zh-tw|zh-hk|ja|en)\/account\/creator\/$/.test(target.pathname)){const back=document.querySelector('.gallery-manage-shell .workspace-back');if(back){back.href=target.pathname+target.search;back.textContent='← '+c.creator;}}}catch{}}
+ if(returnTo){try{const target=new URL(returnTo,location.origin);if(target.origin===location.origin&&/^\/(zh|zh-tw|zh-hk|ja|en)\/account\/creator\/$/.test(target.pathname)){const back=document.querySelector('.gallery-manage-shell .workspace-back');if(back){back.href=target.pathname+target.search;setIconLabel(back,'← '+c.creator);}}}catch{}}
  const template=$('[data-set]').cloneNode(true);
  const metadata=set=>Object.fromEntries([...set.querySelectorAll('[name]')].map(input=>[input.name,input.name==='tags'?input.value.split(/[,，]/).map(x=>x.trim()).filter(Boolean):input.value]));
  const manifest=()=>({sets:sets().map(set=>({id:set.dataset.set,setId:set.dataset.existing||null,baseVersion:Number(set.dataset.version)||0,metadata:metadata(set),images:files.filter(f=>f.set===set.dataset.set).map(f=>({fileId:f.id,metadata:Object.fromEntries(['title','notes','sourceUrl','sourceTitle','author','rightsBasis','rightsEvidence'].filter(k=>f[k]).map(k=>[k,f[k]]))}))}))});

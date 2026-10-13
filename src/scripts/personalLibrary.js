@@ -1,8 +1,9 @@
+import {setIconLabel} from '../lib/icons.mjs';
 import {upgradeSavedEntryLink} from '../lib/savedEntryLink.mjs';
 import { readLibrary, writeLibrary, mergeLibraries, LIBRARY_KEY, libraryOwner } from '../lib/personalLibrary.mjs';
 import { foldCjkSearchText } from '../lib/cjkSearch.mjs';
 
-const el = (tag, text, cls) => { const node = document.createElement(tag); if (text !== undefined) node.textContent = text; if (cls) node.className = cls; return node; };
+const el = (tag, text, cls) => { const node = document.createElement(tag); if (text !== undefined) setIconLabel(node,text); if (cls) node.className = cls; return node; };
 const action = (label, callback, cls) => { const node = el('button', label, cls); node.type = 'button'; node.addEventListener('click', callback); return node; };
 // Synced records retain their original route bucket for conflict comparison.
 // V3 routes carry the content type below /database/, so resolve it for

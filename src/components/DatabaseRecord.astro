@@ -1,4 +1,5 @@
 ---
+import Icon from '../components/Icon.astro';
 import {DATABASE_PLACEHOLDER_IMAGE} from '../lib/databaseArtwork.mjs';
 const {record,placeholderLabel} = Astro.props;
 const imageProps=record.imageProps||DATABASE_PLACEHOLDER_IMAGE;
@@ -14,7 +15,7 @@ const imageProps=record.imageProps||DATABASE_PLACEHOLDER_IMAGE;
       <span class="database-record-type">{record.typeLabel}</span>
       <span class="database-record-artist">{record.artistNames.join(' / ')||'—'}</span>
       <span class="database-record-year">{record.year||'—'}</span>
-      <span class="database-record-arrow" aria-hidden="true">↗</span>
+      <span class="database-record-arrow" aria-hidden="true"><Icon name="arrow-up-right" /></span>
     </div>
   </a>
 </li>

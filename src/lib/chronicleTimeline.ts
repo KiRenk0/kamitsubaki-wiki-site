@@ -1,3 +1,4 @@
+import {setIconLabel} from './icons.mjs';
 import {dateBounds, eventBounds, timelineBounds, clusterEvents} from './chronicleTimeline.mjs';
 import {createChronicleZoomScheduler} from './chronicleZoomScheduler.mjs';
 interface TimelineEvent {id:string;title:string;summary:string;era?:string;date:{start:string;end?:string;precision:string};tracks:string[];eventTypes:string[];importance:string;sourceLocale?:string;translationPending?:boolean;related?:{entity:string}[];links:{label:string;url:string}[];sources?:{url?:string;title?:string;publisher?:string;page?:string}[]}
@@ -15,7 +16,7 @@ export function initTimeline(){
  const checks=[...root.querySelectorAll<HTMLInputElement>('[data-track]')];
  const reduced=matchMedia('(prefers-reduced-motion: reduce)');
  let width=1, filtered=events, selected:TimelineEvent|undefined, group:TimelineEvent[]=[], activeEra='', previousWidth=0, scrubTime=domain.start, scope:'chronicle'|'site'='chronicle';
- const el=(tag:string,text?:string,cls?:string)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;};
+ const el=(tag:string,text?:string,cls?:string)=>{const e=document.createElement(tag);if(text!==undefined)setIconLabel(e,text);if(cls)e.className=cls;return e;};
  const pos=(time:number)=>(time-domain.start)/duration*width;
  const dateLabel=(event:TimelineEvent)=>event.date.start+(event.date.end?' — '+event.date.end:'')+(event.date.precision!=='day'?` · ${ui.uncertain}`:'');
  const enabled=()=>checks.filter(c=>c.checked).map(c=>c.value);

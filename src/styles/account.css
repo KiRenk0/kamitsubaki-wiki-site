@@ -21,7 +21,7 @@
 @media(prefers-reduced-motion:reduce){.account-sections a{transition:none}}
 
 /* Personal space: a task-first desk with a separate archive and account rail. */
-html body main.account-shell[data-workspace-page]{--workspace-gap:28px}
+html body main.account-shell[data-workspace-page]{--workspace-gap:24px;--workspace-max:1200px;--workspace-title:28px}
 .account-sections{gap:24px}
 .account-sections-group{display:grid;gap:3px;padding:0 0 20px;border-bottom:1px solid var(--workspace-line)}
 .account-sections-group:last-child{border-bottom:0}
@@ -31,7 +31,7 @@ html body main.account-shell[data-workspace-page]{--workspace-gap:28px}
 .account-home-header>div{min-width:0}
 .account-home-header h2{max-width:18ch;margin:0 0 8px;font:400 clamp(32px,3.6vw,48px)/1.32 var(--font-serif)}
 .account-home-header .account-note{max-width:56ch;margin:0}
-.account-home-header .account-overview-identity:not(:empty){display:inline-flex;margin:4px 0 12px;padding:5px 8px;border:1px solid var(--workspace-line);font-size:12px}
+
 .account-home-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(250px,.85fr);gap:16px}
 .account-home-grid>section{display:flex;flex-direction:column;min-width:0;min-height:230px;padding:23px;border:1px solid var(--workspace-line);border-radius:var(--workspace-radius);background:var(--workspace-surface)}
 .account-home-grid h3{margin:10px 0 6px;font:400 25px/1.4 var(--font-serif)}
@@ -107,8 +107,8 @@ html body main.account-shell[data-workspace-page]{--workspace-gap:28px}
 /* Account pages share the site's editorial hierarchy: one lead task, clear rules,
    and full-width rows instead of nested cards and undersized text links. */
 html body main.account-shell .account-workspace{
-  grid-template-columns:210px minmax(0,1fr);
-  gap:clamp(28px,4vw,58px);
+  grid-template-columns:180px minmax(0,1fr);
+  gap:32px;
 }
 .account-shell .account-sections{
   top:100px;
@@ -139,15 +139,15 @@ html body main.account-shell .account-workspace{
   background:rgb(var(--theme-fg-rgb)/.055);
 }
 .account-shell .account-home-header{
-  align-items:end;
-  gap:32px;
-  min-height:180px;
-  padding:0 0 34px;
+  align-items:center;
+  gap:24px;
+  min-height:0;
+  padding:4px 0 28px;
 }
 .account-shell .account-home-header h2{
   max-width:none;
   margin:0 0 13px;
-  font:400 clamp(38px,4.5vw,62px)/1.2 var(--font-serif);
+  font:500 clamp(24px,2.8vw,32px)/1.35 var(--font-sans);
   letter-spacing:.015em;
   text-wrap:balance;
 }
@@ -158,7 +158,7 @@ html body main.account-shell .account-workspace{
 .account-home-header-actions{
   display:grid;
   gap:8px;
-  flex:0 0 min(260px,35%);
+  flex:0 0 min(190px,32%);
 }
 .account-shell .account-overview-primary,
 .account-shell .account-overview-secondary{
@@ -186,7 +186,10 @@ html body main.account-shell .account-workspace{
 }
 .account-shell .account-overview-primary:hover{opacity:1;background:var(--ui-accent-color);border-color:var(--ui-accent-color);color:var(--theme-bg)}
 .account-shell .account-overview-secondary:hover{border-color:var(--theme-fg);background:rgb(var(--theme-fg-rgb)/.055)}
-.account-overview-identity:not(:empty){display:inline-flex;margin:0 0 12px!important;padding:0!important;border:0!important;color:var(--ui-accent-color)!important;font:600 13px/1.5 var(--font-sans)!important}
+.account-shell h2.account-overview-identity{display:flex;align-items:center;gap:16px;margin:0 0 14px;padding:0;border:0;color:var(--theme-fg);min-width:0;text-align:left}
+.account-overview-identity .account-identity-avatar{width:64px;height:64px;flex-basis:64px;font-size:24px}
+.account-overview-identity .account-identity-name{font:inherit;white-space:normal;overflow-wrap:anywhere}
+.account-home-header>div:first-child{flex:1;min-width:0}
 .account-shell .account-overview-guest{
   margin:0 0 30px;
   padding:24px 0;
@@ -203,7 +206,7 @@ html body main.account-shell .account-workspace{
 .account-shell .account-home-grid>section{
   display:flex;
   flex-direction:column;
-  min-height:360px;
+  min-height:260px;
   padding:31px clamp(20px,3vw,40px) 23px 0;
   border:0;
   border-radius:0;
@@ -216,7 +219,7 @@ html body main.account-shell .account-workspace{
 }
 .account-shell .account-home-grid h3{
   margin:11px 0 9px;
-  font:400 clamp(25px,2.6vw,34px)/1.3 var(--font-serif);
+  font:500 22px/1.4 var(--font-sans);
 }
 .account-shell .account-home-grid>section>p{
   max-width:52ch;
@@ -284,9 +287,9 @@ html body main.account-shell .account-workspace{
   border:0;
 }
 .account-home-settings .account-kicker{display:block;margin:0 0 8px}
-.account-home-settings h3{margin:0 0 8px!important;font:400 25px/1.4 var(--font-serif)!important}
+.account-home-settings h3{margin:0 0 8px!important;font:500 22px/1.4 var(--font-sans)!important}
 .account-home-settings p{max-width:38ch;margin:0;font:13px/1.75 var(--font-sans)!important;color:var(--workspace-muted)}
-.account-home-settings nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--workspace-line)}
+.account-home-settings nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1px solid var(--workspace-line)}
 .account-home-settings nav a{
   display:flex;
   align-items:center;
@@ -319,7 +322,7 @@ html body main.account-shell .account-workspace{
   margin:0 0 26px;
   padding:0 0 23px;
 }
-.account-shell .account-panel-heading h2{font:400 clamp(30px,3.2vw,43px)/1.24 var(--font-serif)}
+.account-shell .account-panel-heading h2{font:500 26px/1.35 var(--font-sans)}
 .account-shell .account-panel-heading p{font:14px/1.75 var(--font-sans)}
 .account-shell .account-note{font-size:13px}
 .account-library-panel .account-note{margin-bottom:20px}
@@ -419,7 +422,7 @@ html body main.account-shell .account-workspace{
 }
 @media(max-width:640px){
   .account-shell .account-home-header{align-items:stretch;flex-direction:column;gap:23px;min-height:0;padding-bottom:28px}
-  .account-shell .account-home-header h2{font-size:38px}
+  .account-shell .account-home-header h2{font-size:26px}
   .account-home-header-actions{grid-template-columns:1fr 1fr;flex:auto}
   .account-shell .account-overview-primary,.account-shell .account-overview-secondary{min-height:50px;padding:10px 12px;font-size:12px}
   .account-shell .account-home-grid{grid-template-columns:1fr}
@@ -435,3 +438,22 @@ html body main.account-shell .account-workspace{
 }
 @media(max-width:420px){.account-home-header-actions{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.account-shell .account-overview-primary,.account-shell .account-overview-secondary{transition:none}}
+
+/* Profile fields have an explicit preview row and a full-width action row. */
+.account-surface .account-form{max-width:720px;align-items:start;gap:20px 24px}
+.account-avatar-field{grid-column:1/-1;display:flex;align-items:center;gap:16px;padding-bottom:20px;border-bottom:1px solid var(--workspace-line);font:500 14px/1.5 var(--font-sans)}
+.account-surface .account-avatar-preview{width:72px;height:72px;margin:0;border-radius:50%;flex:none;font:500 26px/1 var(--font-sans)}
+.account-surface .account-form label{display:flex;flex-direction:column;gap:8px;justify-content:flex-start;color:var(--theme-fg);font-size:13px}
+.account-surface .account-form label input,.account-surface .account-form label select{flex:none}
+.account-surface .account-form input[type=file]{padding:8px;line-height:1.6;font-size:12px}
+.account-surface .account-form>button{grid-column:1/-1;justify-self:start;margin-top:4px}
+.account-home-settings nav a{white-space:normal;gap:12px}
+.account-home-settings nav a:nth-child(2n){border-right:0}
+.account-home-settings nav a>span{flex:none}
+@media(max-width:760px){
+  .account-shell .account-sections{max-width:100%;min-width:0}
+  .account-surface .account-form{grid-template-columns:minmax(0,1fr)}
+  .account-overview-identity .account-identity-avatar{width:56px;height:56px;flex-basis:56px}
+  .account-shell .account-home-header{padding-top:0}
+  .account-shell .account-home-header .account-note{font-size:13px}
+}

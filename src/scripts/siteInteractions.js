@@ -1,3 +1,4 @@
+import {createIcon, iconMarkup} from '../lib/icons.mjs';
 import {expandRecordBatch,setExpandablePanel} from '../lib/recordExpansion.mjs';
 import {installCursorLayer} from '../lib/cursorLayer.mjs';
 import {handleSpoilerActivation} from '../lib/spoilerInteraction.mjs';
@@ -65,31 +66,14 @@ const createPlatformIcon = (ownerDocument, platform) => {
     path.setAttribute('d', platform.icon.path);
     svg.append(path);
   } else {
-    svg.classList.add('platform-icon__globe');
-    const circle = ownerDocument.createElementNS('http://www.w3.org/2000/svg', 'circle');
-    circle.setAttribute('cx', '12');
-    circle.setAttribute('cy', '12');
-    circle.setAttribute('r', '8.75');
-    const path = ownerDocument.createElementNS('http://www.w3.org/2000/svg', 'path');
-    path.setAttribute('d', 'M3.5 12h17M12 3.25c2.2 2.35 3.3 5.27 3.3 8.75S14.2 18.4 12 20.75C9.8 18.4 8.7 15.48 8.7 12S9.8 5.6 12 3.25Z');
-    svg.append(circle, path);
+    return Object.assign(badge, {innerHTML: iconMarkup('globe',{class:'platform-icon__globe'})});
   }
 
   badge.append(svg);
   return badge;
 };
 
-const createExternalArrow = (ownerDocument) => {
-  const svg = ownerDocument.createElementNS('http://www.w3.org/2000/svg', 'svg');
-  svg.classList.add('external-link-card__arrow');
-  svg.setAttribute('viewBox', '0 0 20 20');
-  svg.setAttribute('aria-hidden', 'true');
-  svg.setAttribute('focusable', 'false');
-  const path = ownerDocument.createElementNS('http://www.w3.org/2000/svg', 'path');
-  path.setAttribute('d', 'M6 14 14 6M8 6h6v6');
-  svg.append(path);
-  return svg;
-};
+const createExternalArrow = ownerDocument => createIcon('arrow-up-right',{class:'external-link-card__arrow'},ownerDocument);
 
 export const enhanceExternalLinkSections = (root) => {
   root.querySelectorAll('.wiki-artist-prose h2').forEach((heading) => {

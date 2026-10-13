@@ -1,4 +1,5 @@
 ---
+import Icon from '../components/Icon.astro';
 import type { SupportChannel } from '../data/support';
 import { getSupportCopy } from '../data/supportCopy';
 import { resolveLocaleCopy } from '../lib/i18n.mjs';
@@ -21,7 +22,7 @@ const name = resolveLocaleCopy(channel.name, locale);
   <div class="support-channel__action">
     {href ? (
       <a class="support-button" href={href} target="_blank" rel="noopener noreferrer" aria-label={`${copy.visit} · ${name} (${copy.external})`}>
-        {copy.visit}<span aria-hidden="true">↗</span>
+        {copy.visit}<span aria-hidden="true"><Icon name="arrow-up-right" /></span>
       </a>
       <span class="support-note">{copy.external}</span>
     ) : (

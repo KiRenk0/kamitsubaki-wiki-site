@@ -1,0 +1,33 @@
+.gallery-pswp{--pswp-bg:#111315;--pswp-root-z-index:100100;color:#eee;font-family:var(--font-sans);}.gallery-viewer-title{position:absolute;top:22px;left:90px;right:150px;font-size:16px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;pointer-events:none}.gallery-viewer-toolbar{position:absolute;bottom:22px;left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:6px;padding:8px;background:#26282a;border:1px solid #555;border-radius:12px;max-width:95vw}.gallery-viewer-toolbar button{min-width:44px;min-height:44px;padding:8px 12px;border:0;background:transparent;color:#eee;white-space:nowrap;border-radius:6px;cursor:pointer}.gallery-viewer-toolbar button:hover,.gallery-viewer-toolbar button[aria-expanded=true]{background:#444}.gallery-viewer-toolbar button:focus-visible{outline:2px solid white}.gallery-viewer-details{position:absolute;right:16px;top:76px;bottom:100px;width:min(360px,calc(100vw - 32px));padding:24px;overflow:auto;background:#242628;border:1px solid #555;border-radius:12px;box-shadow:0 12px 40px #0008}.gallery-viewer-details[hidden]{display:none}.gallery-viewer-details h2{font-size:18px;margin:0 0 22px}.gallery-viewer-details dt{font-size:12px;color:#aaa;margin-top:18px}.gallery-viewer-details dd{font-size:14px;line-height:1.7;margin:6px 0;white-space:pre-wrap;overflow-wrap:anywhere}.gallery-viewer-details a{display:block;color:#ddd;padding:12px 0;border-top:1px solid #555;overflow-wrap:anywhere}.gallery-viewer-toolbar span{font-size:12px}.gallery-pswp .pswp__button--arrow{background:#ffffff15;border-radius:50%;width:56px;height:56px;margin:0 16px}.gallery-pswp .pswp__button--arrow .pswp__icn{top:12px;left:12px}@media(max-width:700px){.gallery-viewer-title{top:66px;left:20px;right:20px;font-size:13px}.gallery-viewer-toolbar{gap:0;padding:4px;bottom:16px;flex-wrap:wrap;justify-content:center;width:max-content}.gallery-viewer-toolbar button{font-size:12px;padding:6px 10px}.gallery-viewer-details{top:100px;bottom:130px}.gallery-pswp .pswp__button--arrow{width:44px;height:44px;margin:0 4px}.gallery-pswp .pswp__button--arrow .pswp__icn{top:6px;left:6px}}
+
+/* Reset PhotoSwipe's 60px arrow and negative margin inside our round controls. */
+.gallery-pswp .pswp__button--arrow{top:50%;margin-top:0;transform:translateY(-50%)}
+.gallery-pswp .pswp__button--arrow .pswp__icn{width:32px;height:32px;top:50%;left:50%;right:auto;margin:0;transform:translate(-50%,-50%)}
+.gallery-pswp .pswp__button--arrow--next .pswp__icn{transform:translate(-50%,-50%)}
+.gallery-viewer-details{box-sizing:border-box;min-height:0;overflow-x:hidden;overflow-y:auto;overscroll-behavior:contain;touch-action:pan-y;scrollbar-gutter:stable;scrollbar-width:thin;scrollbar-color:#929292 #303234;pointer-events:auto}
+.gallery-viewer-details::-webkit-scrollbar{width:8px}
+.gallery-viewer-details::-webkit-scrollbar-thumb{background:#929292;border-radius:8px}
+.gallery-viewer-details::-webkit-scrollbar-track{background:#303234}
+/* The sheet is a sibling of scroll-wrap: only the image surface owns gestures. */
+.gallery-pswp{touch-action:auto}
+.gallery-pswp .pswp__scroll-wrap{touch-action:none}
+.gallery-viewer-details{z-index:20}
+/* Keep both navigation targets clear of the open sheet. */
+.gallery-viewer-details{right:80px}
+@media(max-width:700px){.gallery-viewer-details{right:56px;width:min(360px,calc(100vw - 112px));padding:18px}}
+
+.gallery-viewer-details h3{margin:26px 0 12px;font-size:13px;font-weight:500;color:#b9bbbf}
+.gallery-viewer-actions{display:grid;gap:10px;min-width:0;padding-bottom:2px}
+.gallery-viewer-details .gallery-viewer-action{display:flex;align-items:center;gap:12px;min-height:48px;padding:12px 14px;border:1px solid #666a70;border-radius:8px;background:#34373b;color:#f4f4f5;text-decoration:none;cursor:pointer;box-sizing:border-box}
+.gallery-viewer-action-icon{display:flex;align-items:center;justify-content:center;flex:0 0 24px;font-size:22px;line-height:1}
+.gallery-viewer-action-caption{display:grid;gap:4px;min-width:0}
+.gallery-viewer-action-caption strong{font-size:14px;line-height:1.5;font-weight:600;overflow-wrap:anywhere}
+.gallery-viewer-action-caption small{font-size:11px;line-height:1.5;color:#bfc2c7;overflow-wrap:anywhere}
+.gallery-viewer-details .gallery-viewer-action--primary{background:#f2f2f3;color:#191b1e;border-color:#f2f2f3}
+.gallery-viewer-details .gallery-viewer-action:hover{background:#484c52;border-color:#9398a0;color:#fff}
+.gallery-viewer-details .gallery-viewer-action--primary:hover{background:#fff;border-color:#fff;color:#111}
+.gallery-viewer-details .gallery-viewer-action:focus-visible{outline:2px solid #fff;outline-offset:3px}
+
+.gallery-pswp .pswp__button{color:#eee}
+
+.gallery-pswp .pswp__icn{color:inherit}

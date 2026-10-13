@@ -5,7 +5,7 @@ import {confirmAccount} from './accountConfirm.js';
 import { LIBRARY_KEY, libraryOwner, setLibraryOwner, readLibrary, readLibraryRecord, saveLibraryRecord, writeLibrary, mergeLibraries, validateLibrary } from '../lib/personalLibrary.mjs';
 import { libraryChanges, applyLibraryChanges } from '../lib/accountLibrary.mjs';
 import {safeAccountReturnTo} from '../lib/accountReturn.mjs';
-import {centralAccountReturnOrigins,centralAccountReturnTo} from '../lib/centralAccountOrigins.mjs';
+import {centralAccountUIOrigin,centralAccountReturnOrigins,centralAccountReturnTo} from '../lib/centralAccountOrigins.mjs';
 
 const config = document.querySelector('[data-account-config]');
 export const locale = config?.dataset.locale || 'zh';
@@ -14,7 +14,8 @@ export const apiBase = (config?.dataset.apiBase || 'https://api.kamitsubaki.wiki
 export const state = {viewer:null,auth:'checking',sync:'guest',account:null,accountLoad:'idle'};
 let authPromise, lastChecked=0, syncPromise, timer, generation=0;
 // Shared module has a real-link fallback when the central host is unavailable.
-const centralClient=import(/* @vite-ignore */ `${apiBase}/auth/client/v1.mjs?ui=modal-1`).then(module=>module.createAccountAuthClient({apiBase,locale,allowedReturnOrigins:centralAccountReturnOrigins(apiBase)})).catch(()=>null);
+let canonicalClient=null;
+const centralClient=import(/* @vite-ignore */ `${apiBase}/auth/client/v1.mjs?ui=modal-1`).then(module=>{canonicalClient=module.createAccountAuthClient({apiBase,locale});queueMicrotask(renderChrome);return canonicalClient;}).catch(()=>null);
 const channel = typeof BroadcastChannel !== 'undefined' ? new BroadcastChannel('kamitsubaki-account') : null;
 const notify = () => window.dispatchEvent(new CustomEvent('kamitsubaki-account-state',{detail:state}));
 export async function api(path, {method='GET',body,owner=state.viewer?.userId}={}) {
@@ -110,12 +111,13 @@ export async function logout() {
   window.dispatchEvent(new Event('kamitsubaki-auth-changed'));
 }
 export function loginUrl(provider,link=false) {
-  const url=new URL(`${apiBase}/auth/${link?'security':'sign-in'}`);
+  const url=new URL(`${centralAccountUIOrigin(apiBase)}/auth/${link?'security':'sign-in'}`);
   let back=new URL(window.location.href);back=safeAccountReturnTo(back.searchParams.get('returnTo'),location.origin)||back;for(const key of ['returnTo','aiAuth','aiAuthProvider','aiAuthCode'])if(back.searchParams.has(key))back.searchParams.delete(key);
+  if(typeof canonicalClient?.[link?'securityUrl':'signInUrl']==='function')return canonicalClient[link?'securityUrl':'signInUrl']({returnTo:back.toString(),theme:document.documentElement.dataset.theme==='dark'?'dark':'light'});
   url.searchParams.set('theme',document.documentElement.dataset.theme==='dark'?'dark':'light');
   url.searchParams.set('locale',locale);url.searchParams.set('returnTo',centralAccountReturnTo(back.toString(),apiBase,locale));return url.toString();
 }
-export function securityUrl(){const url=new URL(loginUrl('',true));const back=new URL(location.href);back.hash='#overview';url.searchParams.set('returnTo',centralAccountReturnTo(back.toString(),apiBase,locale));return url.toString();}
+export function securityUrl(){if(typeof canonicalClient?.securityUrl==='function'){const back=new URL(location.href);back.hash='#overview';return canonicalClient.securityUrl({returnTo:back.toString(),theme:document.documentElement.dataset.theme==='dark'?'dark':'light'});}const url=new URL(loginUrl('',true));const back=new URL(location.href);back.hash='#overview';url.searchParams.set('returnTo',centralAccountReturnTo(back.toString(),apiBase,locale));return url.toString();}
 export function guestLibrary() { const raw=localStorage.getItem(LIBRARY_KEY);return raw?validateLibrary(JSON.parse(raw)):{version:1,items:[],lists:[]}; }
 export function mergeGuest() {
   if(!state.viewer || state.auth!=='user')throw new Error('login_required');
@@ -142,9 +144,19 @@ window.addEventListener('kamitsubaki-auth-changed',()=>void refreshAuth(true));
 window.addEventListener('pageshow',()=>void refreshAuth(true));
 void centralClient.then(client=>client?.subscribe(()=>void refreshAuth(true)));
 
+export function renderAccountIdentity(container){
+  const name=state.account?.profile?.display_name||state.viewer?.displayName||copy.title;
+  const raw=state.account?.profile?.avatar_url||state.viewer?.avatarUrl;
+  const avatar=document.createElement('span');avatar.className='account-identity-avatar';avatar.textContent=Array.from(name)[0]||'·';avatar.setAttribute('aria-hidden','true');
+  try{const url=new URL(raw,apiBase);if(raw&&['https:',...(location.protocol==='http:'?['http:']:[])].includes(url.protocol)){const img=document.createElement('img');img.className=avatar.className;img.src=url.href;img.alt='';img.referrerPolicy='no-referrer';img.addEventListener('error',()=>img.replaceWith(avatar),{once:true});container.replaceChildren(img);}else container.replaceChildren(avatar);}catch{container.replaceChildren(avatar);}
+  const label=document.createElement('span');label.className='account-identity-name';label.textContent=name;container.append(label);
+}
 function renderChrome() {
+  document.querySelectorAll('[data-account-guest-menu]').forEach(el=>{el.hidden=!!state.viewer;});
+  document.querySelectorAll('[data-account-member-menu]').forEach(el=>{el.hidden=!state.viewer;});
+  document.querySelectorAll('[data-account-menu-identity]').forEach(el=>{if(state.viewer)renderAccountIdentity(el);else el.replaceChildren();});
   document.querySelectorAll('[data-account-nav]').forEach(a=>{
-    a.textContent=state.viewer?copy.title:state.auth==='checking'?copy.checking:copy.login;
+    if(state.viewer){renderAccountIdentity(a);a.setAttribute('aria-label',(state.viewer.displayName||copy.title)+' · '+copy.title);a.setAttribute('aria-haspopup','dialog');}else{a.textContent=state.auth==='checking'?copy.checking:copy.login;a.removeAttribute('aria-label');a.removeAttribute('aria-haspopup');}
   });
   document.querySelectorAll('[data-account-status]').forEach(el=>{
     el.textContent=state.auth==='checking'?copy.checking:state.auth==='unavailable'?(state.unavailableReason||copy.unavailable):copy[state.sync]||copy.guest;
@@ -171,14 +183,15 @@ for(const name of ['pointerdown','focusin','contextmenu'])document.addEventListe
 const accountDialog=document.querySelector('[data-account-dialog]');
 let dialogTrigger=null,backdropPress=false,releaseModalScroll=null;
 async function openAccountDialog(trigger){
-  const client=await centralClient;
+  const client=state.viewer?null:await centralClient;
   const returnTo=new URL(loginUrl()).searchParams.get('returnTo');
   if(client?.openSignIn?.({returnTo,theme:document.documentElement.dataset.theme==='dark'?'dark':'light',trigger}))return;
   if(!accountDialog || accountDialog.open)return;
   renderChrome();
   dialogTrigger=trigger;releaseModalScroll=lockModalScroll();
   try{accountDialog.showModal();}catch(error){releaseModalScroll?.();releaseModalScroll=null;throw error;}
-  accountDialog.querySelector('[data-account-sign-in]')?.focus({preventScroll:true});
+  accountDialog.setAttribute('aria-label',state.viewer?copy.title:copy.loginTitle);accountDialog.removeAttribute('aria-labelledby');accountDialog.removeAttribute('aria-describedby');
+  accountDialog.querySelector(state.viewer?'[data-account-member-menu] a':'[data-account-sign-in]')?.focus({preventScroll:true});
 
 }
 accountDialog?.addEventListener('close',()=>{
@@ -189,7 +202,7 @@ accountDialog?.addEventListener('close',()=>{
 window.addEventListener('pagehide',()=>{if(accountDialog?.open)accountDialog.close();releaseModalScroll?.();releaseModalScroll=null;});
 const outsideDialog=event=>{const r=accountDialog.getBoundingClientRect();return event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom;};
 accountDialog?.addEventListener('pointerdown',event=>{backdropPress=event.target===accountDialog && outsideDialog(event);});
-accountDialog?.addEventListener('click',event=>{if(backdropPress && event.target===accountDialog && outsideDialog(event))accountDialog.close();backdropPress=false;});
+accountDialog?.addEventListener('click',event=>{if(event.target instanceof Element&&event.target.closest('[data-account-member-menu] a'))accountDialog.close();if(backdropPress && event.target===accountDialog && outsideDialog(event))accountDialog.close();backdropPress=false;});
 new MutationObserver(renderChrome).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
 window.addEventListener('kamitsubaki-account-state',renderChrome);
 
@@ -199,7 +212,6 @@ document.addEventListener('click',async event=>{
   if(event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;
   if(trigger.matches('[data-account-login-provider]')&&trigger.dataset.accountLoginIntent==='link')return;
   const dialog=document.querySelector('[data-account-dialog]');
-  if(trigger.matches('[data-account-nav]') && state.viewer)return;
   event.preventDefault();
   const actionOwner=state.viewer?.userId;
   try {

@@ -1,4 +1,5 @@
 ---
+import Icon from '../../../components/Icon.astro';
 import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
 import {getCollection} from 'astro:content';
 import {getLocalizedEntries} from '../../../lib/homeData.mjs';
@@ -34,9 +35,9 @@ const announcements=(await Promise.all(entries.map(renderAnnouncement))).filter(
       <div class="announcement-reader__meta"><span>{item.type}</span><span>{copy.published} <time datetime={item.date.replaceAll('.','-')}>{item.date}</time></span></div>
       <header><p>NO. {String(announcements.length-index).padStart(2,'0')}</p><h2>{item.title}</h2><p>{item.summary}</p></header>
       <div class="announcement-reader__body wiki-reader wiki-prose prose prose-invert max-w-none" set:html={item.readerHtml}></div>
-      <footer><a href={`/${locale}/chronicle/?scope=site#site-${encodeURIComponent(item.id)}`}>{copy.chronicle} ↗</a><nav aria-label={copy.archive}>
-        {announcements[index+1]&&<a href={`#${encodeURIComponent(announcements[index+1].id)}`}>← {copy.previous}</a>}
-        {announcements[index-1]&&<a href={`#${encodeURIComponent(announcements[index-1].id)}`}>{copy.next} →</a>}
+      <footer><a href={`/${locale}/chronicle/?scope=site#site-${encodeURIComponent(item.id)}`}>{copy.chronicle} <Icon name="arrow-up-right" /></a><nav aria-label={copy.archive}>
+        {announcements[index+1]&&<a href={`#${encodeURIComponent(announcements[index+1].id)}`}><Icon name="arrow-left" /> {copy.previous}</a>}
+        {announcements[index-1]&&<a href={`#${encodeURIComponent(announcements[index-1].id)}`}>{copy.next} <Icon name="arrow-right" /></a>}
       </nav></footer>
     </article>)}</div>
   </div>:<p class="announcement-reader__empty">{copy.empty}</p>}

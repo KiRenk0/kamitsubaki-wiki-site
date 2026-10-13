@@ -1,10 +1,11 @@
+import {setIconLabel} from '../lib/icons.mjs';
 import {imageViewer} from '../lib/imageViewer.mjs';
 import {formatBytes,uploadLimits} from '../lib/uploadPresentation.mjs';
 const root=document.querySelector('[data-creation-prototype]');
 if(root){
  const layout=JSON.parse(root.dataset.layoutCopy||'{}');
  const $=s=>root.querySelector(s),all=s=>[...root.querySelectorAll(s)];
- const text=(tag,value)=>{const e=document.createElement(tag);e.textContent=value;return e;};
+ const text=(tag,value)=>{const e=document.createElement(tag);setIconLabel(e,value);return e;};
  let active='set-1',serial=1,files=[],selectedFile=null,simulating=false;
  const status=message=>$('[data-upload-status]').textContent=message;
  const sets=()=>all('[data-set]');

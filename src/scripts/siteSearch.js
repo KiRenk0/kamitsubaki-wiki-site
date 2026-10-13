@@ -1,3 +1,4 @@
+import {createIcon, setIconLabel} from '../lib/icons.mjs';
 import {articleCopy} from '../lib/articleCopy.mjs';
 import { normalizeSearchText, searchKindGroups, searchResultPath, searchSiteIndex } from '../lib/siteSearch.mjs';
 import { getSearchShortcut } from '../lib/searchShortcut.mjs';
@@ -130,13 +131,7 @@ function createResult(result, query, copy, index) {
   excerpt.className = 'site-search__result-excerpt';
   appendHighlightedText(excerpt, result.description || result.excerpt, query);
 
-  const arrow = document.createElement('svg');
-  arrow.setAttribute('viewBox', '0 0 24 24');
-  arrow.setAttribute('fill', 'none');
-  arrow.setAttribute('stroke', 'currentColor');
-  arrow.setAttribute('stroke-width', '1.25');
-  arrow.setAttribute('aria-hidden', 'true');
-  arrow.innerHTML = '<path d="M5 12h14M13 6l6 6-6 6"/>';
+  const arrow = createIcon('arrow-right');
 
   link.append(meta, title, excerpt, arrow);
   return link;
@@ -219,7 +214,7 @@ function initializeSearch(root) {
       resultsRoot.after(articleLink);
     }
     articleLink.hidden = !query;
-    articleLink.textContent = articleCopy(root.dataset.locale).searchLabel + ' ↗';
+    setIconLabel(articleLink, articleCopy(root.dataset.locale).searchLabel + ' ↗');
     articleLink.href = `/${root.dataset.locale}/articles/?q=${encodeURIComponent(query)}`;
     activeIndex = -1;
     input.removeAttribute('aria-activedescendant');

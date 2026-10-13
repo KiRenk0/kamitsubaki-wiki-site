@@ -1,4 +1,5 @@
 ---
+import Icon from '../components/Icon.astro';
 import type { HTMLAttributes } from 'astro/types';
 
 interface Props extends HTMLAttributes<'a'> {
@@ -19,5 +20,5 @@ const {
 ---
 <a {...attributes} href={href} class:list={['context-action', className]} data-tone={tone} data-layout={layout}>
   <span class="context-action__label"><slot /></span>
-  {direction === 'forward' && <span class="context-action__arrow" aria-hidden="true">↗</span>}
+  {direction === 'forward' && <span class="context-action__arrow" aria-hidden="true"><Icon name="arrow-up-right" /></span>}
 </a>

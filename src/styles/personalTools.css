@@ -76,8 +76,8 @@
 .personal-tools .labs-empty { border:0; border-radius:0; background:none; padding:2rem 0; color: var(--personal-muted);box-shadow:none;border-top:1px solid var(--personal-line);}
 .labs-practice.personal-tools { border: 1px solid var(--personal-line); border-radius: var(--ui-radius-panel); margin: 0 0 1.75rem; padding: 0; background: var(--personal-paper); }
 .practice-summary { display: flex; align-items: center; justify-content: space-between; gap: .75rem; padding: 1rem 1.125rem; cursor: pointer; font-weight: 500; }
-.practice-summary::after { content: '+'; color: var(--personal-muted); font-weight: 400; }
-.labs-practice[open] > .practice-summary::after { content: '−'; }
+.practice-summary::after { content:'';display:inline-block;width:1em;height:1em;background:currentColor;mask:url('/icons/lucide/plus.svg') center/contain no-repeat; color: var(--personal-muted); font-weight: 400; }
+.labs-practice[open] > .practice-summary::after { content:'';display:inline-block;width:1em;height:1em;background:currentColor;mask:url('/icons/lucide/minus.svg') center/contain no-repeat; }
 .practice-summary::-webkit-details-marker { display: none; }
 .practice-summary-progress { margin-left: auto; font: .6875rem var(--font-mono); color: var(--personal-muted); }
 .practice-body { border-top: 1px solid var(--personal-line); padding: 1rem 1.125rem; }
@@ -111,7 +111,7 @@ html body .my-lyric-controls { gap: .25rem .5rem; padding-block: .45rem; border-
 html body .my-lyric-controls :is(button,summary) { min-height: 44px; border-radius: var(--ui-radius-control); font-family: inherit; font-size: .75rem; padding: .35rem .7rem; }
 html body .my-lyric-controls button[aria-pressed='true'] { color: var(--theme-accent-color); }
 html body .wiki-article-actions :is(button,a) { min-height: 36px; }
-.labs-bookmark button::before { content: '＋'; margin-right: .35rem; }
+.labs-bookmark button::before { content:'';display:inline-block;width:1em;height:1em;background:currentColor;mask:url('/icons/lucide/plus.svg') center/contain no-repeat; margin-right: .35rem; }
 .labs-bookmark button[aria-pressed='true']::before { content: '✓'; }
 @media (max-width: 760px) {
   .library-workspace { grid-template-columns: minmax(0,1fr); gap: 1.25rem; }

@@ -37,7 +37,10 @@
     "docs:check": "node scripts/check-docs.mjs",
     "migrate:v3": "node scripts/v3/migrate.mjs",
     "dev:online": "node scripts/dev-online.mjs",
-    "check:tiptap": "node scripts/check-tiptap-compatibility.mjs"
+    "check:tiptap": "node scripts/check-tiptap-compatibility.mjs",
+    "check:ui-icons": "node scripts/check-ui-icons.mjs",
+    "icons:generate": "node scripts/generate-ui-icon-assets.mjs",
+    "release:build": "node scripts/release-build.mjs"
   },
   "dependencies": {
     "@codemirror/autocomplete": "^6.20.3",
@@ -69,7 +72,9 @@
     "micromark-extension-math": "^3.1.0",
     "opencc-js": "1.4.1",
     "simple-icons": "^16.27.0",
-    "wanakana": "^5.3.1"
+    "wanakana": "^5.3.1",
+    "lucide": "^1.55.0",
+    "photoswipe": "^5.4.4"
   },
   "devDependencies": {
     "@astrojs/check": "latest",

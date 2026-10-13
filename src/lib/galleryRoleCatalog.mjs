@@ -6,7 +6,7 @@ const chineseNames = Object.freeze({
   garasumiya:'硝子宫', hinageshi:'冰夏至', kakyoin:'佳镜院',
   orihime:'御莉姬', yunagi:'夕凪机', 'morisaki-kaho':'森先化步',
   'rinne-koko':'轮回此处', sinseiki:'心世纪', hiratayoshihisa:'平田义久',
-  rime:'裏命', vwp:'V.W.P',
+  rime:'裏命', vwp:'V.W.P', tsumitobatsu:'罪十罚',
 });
 const searchAliases = Object.freeze({
   rime:['里命'],

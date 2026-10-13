@@ -1,4 +1,5 @@
 ---
+import Icon from './Icon.astro';
 import { getSupportCopy } from '../data/supportCopy';
 import { resolveLocaleCopy } from '../lib/i18n.mjs';
 const { locale = 'en', docked = false } = Astro.props;
@@ -8,16 +9,16 @@ const closeLabel = resolveLocaleCopy({ zh: '关闭支持面板', ja: '支援パ�
 
 <aside class:list={['support-float', { 'support-float--docked': docked }]} data-support-float data-docked={docked || undefined} aria-label={copy.title}>
   <button class="support-float__toggle" type="button" aria-label={copy.title} aria-expanded="false" aria-controls="support-float-content">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.4 5.6a5.1 5.1 0 0 0-7.2 0L12 6.8l-1.2-1.2a5.1 5.1 0 0 0-7.2 7.2L12 21l8.4-8.2a5.1 5.1 0 0 0 0-7.2Z" /></svg>
-    <span class="support-float__close" aria-hidden="true">×</span>
+    <Icon name="heart" />
+    <span class="support-float__close" aria-hidden="true"><Icon name="x" /></span>
     {docked && <strong>{copy.title}</strong>}
   </button>
   <div class="support-float__content" id="support-float-content" role={docked ? 'dialog' : undefined} aria-label={docked ? copy.title : undefined} aria-hidden="true" inert>
-    {docked && <button type="button" class="support-float__panel-close" data-support-close aria-label={closeLabel}>×</button>}
+    {docked && <button type="button" class="support-float__panel-close" data-support-close aria-label={closeLabel}><Icon name="x" /></button>}
     <p class="support-float__eyebrow">SUPPORT THE OBSERVATORY</p>
     <h2>{copy.bannerTitle}</h2>
     <p class="support-float__body">{copy.bannerBody}</p>
-    <a href={`/${locale}/support/`}>{copy.bannerAction}<span aria-hidden="true">↗</span></a>
+    <a href={`/${locale}/support/`}>{copy.bannerAction}<span aria-hidden="true"><Icon name="arrow-up-right" /></span></a>
   </div>
 </aside>
 

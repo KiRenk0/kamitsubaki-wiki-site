@@ -1,4 +1,5 @@
 ---
+import Icon from '../../../components/Icon.astro';
 import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
 import WorkspaceLinkCard from '../../../components/WorkspaceLinkCard.astro';
 import {supportedLocales,resolveLocaleCopy} from '../../../lib/i18n.mjs';
@@ -23,17 +24,17 @@ const copy=resolveLocaleCopy({
       <span class="explore-path__kicker">{copy.timeKicker}</span>
       <div class="explore-path__graphic explore-path__graphic--time" aria-hidden="true"><span><i></i><i></i><i></i></span><span><i></i><i></i></span><span><i></i><i></i><i></i></span><b></b></div>
       <span class="explore-path__copy"><strong>{chronicle.title}</strong><small>{chronicle.summary}</small></span>
-      <span class="explore-path__action">{copy.timeAction} <span aria-hidden="true">↗</span></span>
+      <span class="explore-path__action">{copy.timeAction} <span aria-hidden="true"><Icon name="arrow-up-right" /></span></span>
     </a>
     <a class="explore-path explore-path--gallery" data-card-kind="feature" href={gallery.href}>
       <span class="explore-path__kicker">{copy.imageKicker}</span>
       <div class="explore-path__graphic explore-path__graphic--gallery" aria-hidden="true"><img src="/images/artists/kaf.jpg" alt="" loading="lazy"/><img src="/images/artists/kafu.jpg" alt="" loading="lazy"/></div>
       <span class="explore-path__copy"><strong>{gallery.title}</strong><small>{gallery.summary}</small></span>
-      <span class="explore-path__action">{copy.imageAction} <span aria-hidden="true">↗</span></span>
+      <span class="explore-path__action">{copy.imageAction} <span aria-hidden="true"><Icon name="arrow-up-right" /></span></span>
     </a>
   </div>
   <section class="explore-related"><header><span>03 / CONNECTIONS</span><h2>{copy.more}</h2><p>{copy.moreNote}</p></header><div>{rest.map((item,index)=><WorkspaceLinkCard href={item.href} index={String(index+1).padStart(2,'0')} title={item.title} description={item.summary}/>)}</div></section>
-  <a class="explore-journal" href={`/${locale}/announcements/`}><span>SITE / JOURNAL</span><strong>{copy.journal}</strong><small>{copy.journalNote}</small><b>{copy.journalAction} ↗</b></a>
+  <a class="explore-journal" href={`/${locale}/announcements/`}><span>SITE / JOURNAL</span><strong>{copy.journal}</strong><small>{copy.journalNote}</small><b>{copy.journalAction} <Icon name="arrow-up-right" /></b></a>
 </WorkspaceLayout>
 <style>
 .explore-introduction{display:grid;grid-template-columns:minmax(0,1fr) minmax(240px,440px);gap:36px;align-items:end;margin:4px 0 32px}

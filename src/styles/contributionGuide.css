@@ -53,8 +53,8 @@
 .cg-lesson:last-child { border-bottom:1px solid var(--ui-line); }
 .cg-lesson>summary { display:flex; gap:18px; align-items:baseline; padding:22px 0; list-style:none; cursor:pointer; }
 .cg-lesson>summary::-webkit-details-marker { display:none; }
-.cg-lesson>summary::after { content:'＋'; margin-left:auto; font-size:16px; color:rgb(var(--theme-fg-rgb)/.5); }
-.cg-lesson[open]>summary::after { content:'−'; }
+.cg-lesson>summary::after { content:'';display:inline-block;width:1em;height:1em;background:currentColor;mask:url('/icons/lucide/plus.svg') center/contain no-repeat; margin-left:auto; font-size:16px; color:rgb(var(--theme-fg-rgb)/.5); }
+.cg-lesson[open]>summary::after { content:'';display:inline-block;width:1em;height:1em;background:currentColor;mask:url('/icons/lucide/minus.svg') center/contain no-repeat; }
 .cg-number { font:11px var(--font-mono); color:var(--theme-accent-color); flex-shrink:0; }
 .cg-lesson h3 { font-size:17px; font-weight:500; line-height:1.6; margin:0; }
 .cg-lesson summary p { margin:6px 0 0; color:rgb(var(--theme-fg-rgb)/.6); font-size:12px; line-height:1.8; }

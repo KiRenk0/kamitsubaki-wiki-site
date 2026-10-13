@@ -1,3 +1,4 @@
+import {setIconLabel} from '../lib/icons.mjs';
 import {createArticleAutosave} from '../lib/articleAutosave.mjs';
 import {articleCreationCopy} from '../lib/articleCreationCopy.mjs';
 import {openEditorPopover,confirmEditorPopover} from '../lib/editorPopover.mjs';
@@ -12,7 +13,7 @@ export function initializeArticleSubmission(root,editor,ownerId='guest',{confirm
  if(admin){
   $('[data-article-submit]').textContent=locale==='en'?'Publish article':locale==='ja'?'記事を公開':'发布文章';
   const back=root.querySelector('.ve-home');
-  if(back){back.href=root.dataset.articleApi+'/admin/content?type=article';back.textContent='← '+(locale==='en'?'Content management':locale==='ja'?'コンテンツ管理':'内容管理');}
+  if(back){back.href=root.dataset.articleApi+'/admin/content?type=article';setIconLabel(back,'← '+(locale==='en'?'Content management':locale==='ja'?'コンテンツ管理':'内容管理'));}
  }
  const editorCopy=JSON.parse($('[data-editor-copy]').textContent);
  const confirmReplace=()=>confirm(root,editorCopy.replace,{accept:editorCopy.apply,cancel:editorCopy.cancel});

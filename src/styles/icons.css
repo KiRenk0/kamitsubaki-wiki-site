@@ -1,0 +1,5 @@
+/* All UI icons use Lucide's 24px grid and standard rounded 2px strokes. */
+svg.site-icon{display:inline-block;flex-shrink:0;vertical-align:-.15em;fill:none!important;stroke:currentColor;stroke-width:2!important;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.gallery-viewer-action-icon .site-icon{width:20px;height:20px}
+.gallery-viewer-toolbar button:has(>.site-icon){display:inline-flex;align-items:center;justify-content:center;gap:6px}
+svg.site-brand-icon{display:inline-block;vertical-align:-.15em;flex-shrink:0;fill:currentColor;stroke:none!important;pointer-events:none}

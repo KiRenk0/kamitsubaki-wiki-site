@@ -70,8 +70,8 @@
 .support-report__year { font: 500 26px var(--font-mono); }
 .support-report__status { margin-left: auto; color: var(--support-muted); font-size: 11px; }
 .support-report__toggle { color: var(--theme-accent-color); }
-.support-report__toggle::after { content: '+'; font-size: 20px; }
-.support-report[open] .support-report__toggle::after { content: '−'; }
+.support-report__toggle::after { content:'';display:inline-block;width:1em;height:1em;background:currentColor;mask:url('/icons/lucide/plus.svg') center/contain no-repeat; font-size: 20px; }
+.support-report[open] .support-report__toggle::after { content:'';display:inline-block;width:1em;height:1em;background:currentColor;mask:url('/icons/lucide/minus.svg') center/contain no-repeat; }
 .support-report__body { padding:0 0 24px; }
 .support-totals { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid var(--ui-line); padding: 24px 0; gap: 16px; }
 .support-totals > div + div { padding-left: 16px; border-left: 1px solid var(--ui-line); }

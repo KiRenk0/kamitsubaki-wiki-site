@@ -1,4 +1,5 @@
 ---
+import Icon from '../components/Icon.astro';
 import { resolveLocaleCopy } from '../lib/i18n.mjs';
 
 const { lang = 'zh', reading = false } = Astro.props;
@@ -12,7 +13,7 @@ const label = reading ? copy.compact : copy.tools;
 
 <details class:list={['tools-dock', { 'tools-dock--reader': reading }]} data-chrome-menu data-tools-dock data-reader-tools={reading || undefined} data-copy={JSON.stringify(copy)}>
   <summary aria-label={label} title={label} aria-controls="site-tools-menu">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 4h5v5H4zM15 4h5v5h-5zM4 15h5v5H4zM15 15h5v5h-5z" /></svg>
+    <Icon name="layout-grid" />
   </summary>
   <div class="tools-dock__menu" id="site-tools-menu">
     <p class="tools-dock__heading">{copy.tools}</p>

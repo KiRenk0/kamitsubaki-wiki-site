@@ -971,7 +971,7 @@
     <link rel="stylesheet" href="/ui-tokens.css?v=50cda50e7db2" />
     <link rel="stylesheet" href="/games/interface.css" />
     <link rel="stylesheet" href="/games/theme.css" />
-  </head>
+  <link rel="stylesheet" href="/icons/ui-icons.css" /></head>
   <body>
     <main class="game-shell" id="gameShell" data-state="loading">
       <canvas id="gameCanvas" aria-label="记忆回廊跑酷游戏"></canvas>
@@ -1406,7 +1406,7 @@
           memoryPath.forEach((item, index) => {
             if (index > 0) {
               const arrow = document.createElement("span");
-              arrow.textContent = "→";
+              arrow.className = "site-icon-mask"; arrow.dataset.uiIcon="arrow-right"; arrow.setAttribute("aria-hidden","true");
               container.append(arrow);
             }
             const link = document.createElement("a");

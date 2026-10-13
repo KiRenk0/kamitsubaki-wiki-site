@@ -1,4 +1,5 @@
 ---
+import Icon from '../components/Icon.astro';
 const {labels}=Astro.props;
 ---
 <button
@@ -9,9 +10,7 @@ const {labels}=Astro.props;
   aria-controls="announcement-modal-panel"
 >
   <span aria-hidden="true">//</span>
-  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-    <path d="M6.5 4.5h11v15h-11zM9 8h6M9 11.5h6M9 15h4" />
-  </svg>
+  <Icon name="file-text" />
   <strong>{labels.heading}</strong>
 </button>
 

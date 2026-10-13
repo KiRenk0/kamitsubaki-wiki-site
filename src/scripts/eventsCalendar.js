@@ -1,3 +1,4 @@
+import {setIconLabel} from '../lib/icons.mjs';
 import {
   LIVE_EVENTS_POLL_INTERVAL,
   buildEventsUrl,
@@ -174,7 +175,7 @@ function mountCalendar(calendar) {
         link.href = event.url;
         link.target = '_blank';
         link.rel = 'noreferrer';
-        link.textContent = `${copy.detailsLabel} →`;
+        setIconLabel(link, `${copy.detailsLabel} →`);
         body.append(link);
       }
       item.append(rail, body);

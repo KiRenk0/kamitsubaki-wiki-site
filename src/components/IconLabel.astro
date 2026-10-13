@@ -1,0 +1,7 @@
+---
+import { iconMarkup } from '../lib/icons.mjs';
+interface Props {text:string;}
+const {text}=Astro.props;
+const match=text.match(/^([＋])\s*(.*)$|^(.*?)\s*([↗])$/s);
+---
+{match?<>{match[1]&&<Fragment set:html={iconMarkup('plus')}/>} {match[1]?match[2]:match[3]} {!match[1]&&<Fragment set:html={iconMarkup('arrow-up-right')}/>}</>:text}

@@ -29,3 +29,9 @@ export function centralAccountReturnTo(raw,apiBase,locale='zh',site='wiki'){
   try{const url=new URL(raw);if(!url.username&&!url.password&&centralAccountReturnOrigins(apiBase).includes(url.origin))return url.toString();}catch{}
   return `${centralAccountFrontendOrigin(apiBase,null,site)}/${locale}/`;
 }
+
+/** User-facing account routes stay on the primary website in production. */
+export function centralAccountUIOrigin(apiBase){
+  try { const origin=new URL(apiBase).origin; return origin==='https://api.kamitsubaki.wiki'?'https://kamitsubaki.wiki':origin; }
+  catch { return 'https://kamitsubaki.wiki'; }
+}

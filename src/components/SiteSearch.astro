@@ -1,4 +1,5 @@
 ---
+import Icon from '../components/Icon.astro';
 import { getLanguageTag, resolveLocaleCopy } from '../lib/i18n.mjs';
 
 const { lang = 'zh' } = Astro.props as { lang?: string };
@@ -91,17 +92,12 @@ const serializedCopy = {
         <h2 id="site-search-title">{copy.title}</h2>
       </div>
       <button class="site-search__close" type="button" data-search-close aria-label={copy.closeLabel}>
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true">
-          <path d="M18 6 6 18M6 6l12 12" />
-        </svg>
+        <Icon name="x" />
       </button>
     </header>
 
     <form class="site-search__form" data-search-form role="search">
-      <svg class="site-search__input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true">
-        <circle cx="11" cy="11" r="6.5" />
-        <path d="m16 16 4 4" />
-      </svg>
+      <Icon name="search" class="site-search__input-icon" />
       <input
         class="site-search__input"
         data-search-input

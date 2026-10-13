@@ -1,3 +1,4 @@
+import {setIconLabel} from './icons.mjs';
 import {articleCopy} from './articleCopy.mjs';
 const catalogs=new Map();
 export async function articleEntities(locale){
@@ -9,7 +10,7 @@ export function initialArticleRelations(href,restored=false){const url=new URL(h
 export function matchArticleEntities(entries,query,selected=[],limit=20){const q=query.trim().toLocaleLowerCase();return entries.filter(e=>!selected.includes(e.id)&&[e.id,e.name,...e.aliases].some(value=>String(value).toLocaleLowerCase().includes(q))).slice(0,limit);}
 export function mountArticlePicker(root,{locale,selected,onChange}){
  const copy=articleCopy(locale);let entries=[],limit=20;
- const make=(tag,text)=>{const el=document.createElement(tag);if(text)el.textContent=text;return el;};
+ const make=(tag,text)=>{const el=document.createElement(tag);if(text)setIconLabel(el,text);return el;};
  const label=make('label',copy.pickRelated),input=make('input');input.type='search';input.placeholder=copy.findRelated;label.append(input);
  const chips=make('div'),results=make('div'),status=make('p'),retry=make('button',copy.retry);retry.type='button';retry.hidden=true;status.setAttribute('role','status');results.className='article-picker-results';chips.className='article-picker-selected';root.replaceChildren(label,chips,status,retry,results);
  const render=()=>{

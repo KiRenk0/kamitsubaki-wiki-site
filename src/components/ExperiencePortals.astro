@@ -1,4 +1,5 @@
 ---
+import Icon from '../components/Icon.astro';
 import ResponsiveImage from './ResponsiveImage.astro';
 import { resolveLocaleCopy } from '../lib/i18n.mjs';
 
@@ -30,7 +31,7 @@ const cards = reader ? [game, labs, chat] : [labs, game, chat];
       <a class="experience-portal" href={card.href} title={compact ? card.description : card.key === 'game' ? gameLabel : undefined} data-memory-corridor-link={card.key === 'game' || undefined}>
         <span class="experience-portal__image" aria-hidden="true">
           {card.image ? <ResponsiveImage widths={[96, 192]} sizes="44px" src={card.image} alt="" loading="lazy" width="44" height="44" /> :
-            <svg viewBox="0 0 32 32"><path d="m10 10 12 1M10 12l3 10m8-9-6 9" /><circle cx="8" cy="9" r="3" /><circle cx="24" cy="11" r="3" /><circle cx="14" cy="25" r="3" /></svg>}
+            <Icon name="network" />}
         </span>
         <span class="experience-portal__copy">
           <strong>{card.title}</strong>

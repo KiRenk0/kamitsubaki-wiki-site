@@ -1,3 +1,4 @@
+import {setIconLabel} from '../lib/icons.mjs';
 import {removeChronicleSourceRow} from '../lib/chronicleSourceRows.mjs';
 const root=document.querySelector('[data-chronicle-editor]');
 if(root){
@@ -5,7 +6,7 @@ if(root){
  const params=new URLSearchParams(location.search),locale=root.dataset.locale;
  let viewerId=null,draftId=params.get('draft')||crypto.randomUUID(),draftVersion=0,operation=crypto.randomUUID(),submissionId=params.get('submission'),submissionVersion=null,mode=params.has('event')?'revise':'create',eventId=params.get('event'),year=Number(params.get('year'))||new Date().getFullYear(),baseSha=null,expectedHead=null,conflict=null,resolveConflict=false,busy=false,saveTimer;
  const field=name=>form.querySelector(`[name="${name}"]`);
- const say=(message,href,action)=>{const target=$('[data-editor-status]');target.replaceChildren(document.createTextNode(message));if(href){const link=document.createElement('a');link.href=href;link.textContent=` ${action||c.continueLogin} →`;target.append(link);}};
+ const say=(message,href,action)=>{const target=$('[data-editor-status]');target.replaceChildren(document.createTextNode(message));if(href){const link=document.createElement('a');link.href=href;setIconLabel(link,`${action||c.continueLogin} →`);target.append(link);}};
  const localKey=()=>`kamitsubaki-chronicle-draft-v1:${viewerId||'guest'}:${draftId}`;
  const request=async(path,method='GET',body)=>{const response=await fetch(api+'/api/chronicle'+path,{method,credentials:'include',cache:'no-store',signal:AbortSignal.timeout(20000),headers:body?{'Content-Type':'application/json'}:{},body:body?JSON.stringify(body):undefined});const data=await response.json().catch(()=>({}));if(!response.ok)throw Object.assign(Error(data.error?.message||c.status),{status:response.status});return data;};
  function selected(name){return [...form.querySelectorAll(`[name="${name}"]:checked`)].map(input=>input.value);}
