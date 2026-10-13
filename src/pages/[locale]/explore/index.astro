@@ -10,7 +10,7 @@ const section=featuresFor(locale,'main').find(item=>item.id==='explore')!;
 const features=featuresFor(locale,'explore');
 const chronicle=features.find(item=>item.id==='chronicle')!;
 const gallery=features.find(item=>item.id==='gallery')!;
-const rest=features.filter(item=>item.section==='connections');
+const rest=features.filter(item=>!['chronicle','gallery'].includes(item.id));
 const copy=resolveLocaleCopy({
  zh:{lead:'从一条线索，走进神椿。',leadNote:'想知道一件事发生在何时，或想看清一张照片？从时间与影像开始，再沿关联阅读人物与世界。',timeKicker:'01 / 按时间阅读',timeAction:'打开剪辑式时间轴',imageKicker:'02 / 按影像阅读',imageAction:'浏览图片档案',more:'继续探索',moreNote:'从一个人物、一部作品或一段故事，找到下一条线索。',journal:'站点公告',journalNote:'阅读网站更新和历史记录。',journalAction:'阅读公告历史'},
  ja:{lead:'ひとつの手がかりから、神椿へ。',leadNote:'出来事がいつ起きたか、写真を詳しく見たいときは、時間と画像から始めましょう。',timeKicker:'01 / 時間から読む',timeAction:'トラック型の年代記を開く',imageKicker:'02 / 画像から読む',imageAction:'画像アーカイブを見る',more:'さらに探索',moreNote:'人物・作品・物語のつながりから次の手がかりへ。',journal:'サイトのお知らせ',journalNote:'更新履歴と過去のお知らせを読む。',journalAction:'お知らせ一覧へ'},
