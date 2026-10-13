@@ -6,6 +6,8 @@
 
 [前台开发与验收](../../manuals/develop/operations/zh.md) · [贡献者审核状态说明](../../manuals/contribute/review/zh.md)
 
+本轮六项功能的使用方法、数据依据与当前限制：[Fan Archive 功能说明目录](../features/README.md)。
+
 本地功能与远端核对：[2026-10-13 Fan Archive 路线、关系路径与资料完善看板](2026-10-13-archive-roadmap.md)。
 后续增量：[2026-10-13 演出档案与创作者查询](2026-10-13-live-credits.md)。
 Graph 完整功能：[2026-10-13 全站图谱、路径比较与一级入口](2026-10-13-graph-complete.md)。
