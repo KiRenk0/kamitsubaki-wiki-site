@@ -1,5 +1,8 @@
 ---
 import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
+import WorkspaceButton from '../../../components/WorkspaceButton.astro';
+import WorkspaceFilters from '../../../components/WorkspaceFilters.astro';
+import Icon from '../../../components/Icon.astro';
 import RelationPath from '../../../components/RelationPath.astro';
 import { getEntityRegistry, entityLocales } from '../../../lib/entityRegistry.mjs';
 import { loadFeatureData } from '../../../lib/featureData.mjs';
@@ -23,27 +26,27 @@ const metrics = [
   <dl class="graph-metrics">{metrics.map(([label, value]) => <div><dt>{label}</dt><dd>{value}</dd></div>)}</dl>
   <noscript><style is:inline>[data-graph-app] .relation-path,[data-graph-load-status]{display:none}</style><p>{c.nojs} <a href={`/${locale}/database/`}>{c.catalog} ↗</a></p></noscript>
   <p class="graph-load-status" data-graph-load-status role="status" aria-live="polite">{c.loading}</p>
-  <button type="button" data-graph-retry hidden>{c.retry}</button>
+  <WorkspaceButton data-graph-retry hidden>{c.retry}</WorkspaceButton>
   <a data-graph-reload href={`/${locale}/graph/`} hidden>{c.retry} ↗</a>
-  <form class="graph-filters" data-graph-form aria-label={c.filters} data-graph-control hidden>
+  <WorkspaceFilters class="graph-filters" data-graph-form aria-label={c.filters} data-graph-control hidden role="search">
     <label class="graph-search"><span>{c.query}</span><input type="search" name="q" autocomplete="off" /></label>
     <label><span>{c.kind}</span><select name="kind"><option value="">{c.all}</option></select></label>
     <label><span>{c.relation}</span><select name="relation"><option value="">{c.all}</option></select></label>
     <label><span>{c.scope}</span><select name="scope"><option value="all">{c.global}</option><option value="neighborhood">{c.neighborhood}</option></select></label>
     <label><span>{c.depth}</span><select name="depth">{[1, 2, 3].map(count => <option value={count}>{c.layers.replace('{count}', String(count))}</option>)}</select></label>
-    <button type="reset">{c.reset}</button>
+    <WorkspaceButton type="reset" tone="quiet">{c.reset}</WorkspaceButton>
     <label class="graph-event-toggle"><input type="checkbox" name="events" />{c.path.chronicle}</label>
-  </form>
+  </WorkspaceFilters>
   <section class="graph-canvas-panel" data-graph-canvas-panel hidden aria-label={c.title}>
     <div class="graph-toolbar">
       <p data-graph-count role="status" aria-live="polite"></p><span data-graph-layout-status role="status"></span>
       <div class="graph-actions">
-        <button type="button" data-graph-zoom-in aria-label={c.zoomIn}>＋</button>
-        <button type="button" data-graph-zoom-out aria-label={c.zoomOut}>−</button>
-        <button type="button" data-graph-fit>{c.fit}</button>
-        <button type="button" data-graph-clear-path hidden>{c.clearPath}</button>
-        <button type="button" data-graph-share>{c.share}</button>
-        <button type="button" data-graph-export>{c.export}</button>
+        <WorkspaceButton data-graph-zoom-in aria-label={c.zoomIn}><Icon name="plus" size={16} /></WorkspaceButton>
+        <WorkspaceButton data-graph-zoom-out aria-label={c.zoomOut}><Icon name="minus" size={16} /></WorkspaceButton>
+        <WorkspaceButton data-graph-fit>{c.fit}</WorkspaceButton>
+        <WorkspaceButton tone="quiet" data-graph-clear-path hidden>{c.clearPath}</WorkspaceButton>
+        <WorkspaceButton data-graph-share>{c.share}</WorkspaceButton>
+        <WorkspaceButton data-graph-export>{c.export}</WorkspaceButton>
       </div>
     </div>
     <p class="graph-gesture-note" id="graph-gestures">{c.gestures}</p>
@@ -65,7 +68,7 @@ const metrics = [
     <p class="graph-gesture-note">{c.searchHint}</p>
     <ul class="graph-directory" data-graph-directory>{initial.map(node => <li data-graph-record={node.id}><div><small>{c.kinds[node.kind]} · {node.id}</small><h3><a href={node.path}>{node.title}</a></h3>{node.subtitle && <p>{node.subtitle}</p>}</div></li>)}</ul>
     <p data-graph-empty hidden>{c.empty}</p>
-    <button type="button" data-graph-more data-graph-control hidden>{c.more}</button>
+    <WorkspaceButton data-graph-more data-graph-control hidden>{c.more}</WorkspaceButton>
   </section>
   <script is:inline type="application/json" data-graph-copy set:html={JSON.stringify(c).replace(/</g, '\\u003c')} />
   <script is:inline>

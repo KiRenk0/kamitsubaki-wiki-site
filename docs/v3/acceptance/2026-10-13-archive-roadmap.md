@@ -6,6 +6,8 @@
 第 9 项后续实现见[Discovery 偏好推荐与每日探索路线](2026-10-13-discovery.md)。
 第 3 项后续实现见[Story Mode 入坑路线与阅读进度](2026-10-13-story-mode.md)。
 
+当前规划与制作状态以[Fan Archive 整合 Roadmap](../fan-archive-roadmap.md)为准；本记录保留初次核对时的历史状态。
+
 ## 本机与远端基线
 
 2026-10-13 重新执行 `git fetch --all --prune`：

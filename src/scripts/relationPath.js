@@ -10,7 +10,7 @@ export function initializeRelationPath(root, { catalog, copy, getURL, setURL, on
   const findPath = createRelationPathFinder(catalog);
   const nodeById = new Map(catalog.nodes.map(node => [node.id, node]));
   const compare = root.hasAttribute('data-path-compare');
-  const element = (tag, text) => { const node = document.createElement(tag); if (text) node.textContent = text; return node; };
+  const element = (tag, text) => { const node = document.createElement(tag); if (text) node.textContent = text; if (tag === 'button') node.className = 'workspace-button'; return node; };
   let lastSearch;
 
   function options() {

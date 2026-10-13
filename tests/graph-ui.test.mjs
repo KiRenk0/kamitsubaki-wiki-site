@@ -63,6 +63,7 @@ test('comparison UI highlights distinct routes, shares filter conditions and ena
     assert.equal(new URL(w.location.href).searchParams.get('events'), '1'); assert.equal(controller.graph.nodes.length, 37);
     assert.equal(w.document.querySelectorAll('[data-path-route]').length, 1, 'Timeline edges still obey the member-of filter');
     w.document.querySelector('[data-graph-clear-path]').click(); assert.equal(controller.path, null);
+    assert.equal(w.document.querySelectorAll('[data-path-highlight][aria-pressed=true]').length, 0);
   } finally { controller.destroy(); dom.window.close(); }
   const other = setup();
   try {

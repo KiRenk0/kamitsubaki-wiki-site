@@ -3,6 +3,7 @@ import type { StoryMaterial } from '../lib/storyCatalog.mjs';
 import { storyCopy, storyFormat } from '../lib/storyCopy.mjs';
 import { discoveryCopy } from '../lib/discoveryCopy.mjs';
 import { discoveryEdgeText } from '../lib/discoveryPresentation.mjs';
+import WorkspaceButton from './WorkspaceButton.astro';
 interface Props { material: StoryMaterial; locale: string; }
 const { material, locale } = Astro.props;
 const c = storyCopy(locale), node = material.node;
@@ -19,7 +20,7 @@ const c = storyCopy(locale), node = material.node;
   <div class="story-links"><a href={node.path}>{c.open} ↗</a><a href={`/${locale}/graph/?entry=${encodeURIComponent(node.id)}&scope=neighborhood${node.kind === 'events' ? '&events=1' : ''}`}>{c.graph} ↗</a></div>
   {node.media.map(media => <div class:list={['story-media', media.kind === 'audio' && 'story-media--audio']} data-story-media>
     <p>{media.label} · {media.provider}</p><p class="story-muted">{c.mediaNote}</p>
-    <div class="story-links"><button type="button" data-story-play data-story-controls hidden aria-expanded="false" data-media-src={media.src} data-media-title={media.label} data-media-sandbox={media.sandbox}>{c.play}</button><a href={media.href} target="_blank" rel="noopener noreferrer">{c.original} ↗</a></div>
+    <div class="story-links"><WorkspaceButton data-story-play data-story-controls hidden aria-expanded="false" data-media-src={media.src} data-media-title={media.label} data-media-sandbox={media.sandbox}>{c.play}</WorkspaceButton><a href={media.href} target="_blank" rel="noopener noreferrer">{c.original} ↗</a></div>
   </div>)}
   {node.links.length > 0 && <details class="story-sources"><summary>{c.sources}</summary><ul>{node.links.map(link => <li><a href={link.href} target="_blank" rel="noopener noreferrer">{link.label || link.href} ↗</a></li>)}</ul></details>}
 </li>

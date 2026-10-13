@@ -1,4 +1,5 @@
 import { readStoryProgress, writeStoryProgress, clearStoryProgress, normalizeStoryProgress, storyProgressKey, storyFormat } from '../lib/storyProgress.mjs';
+import { updateLocaleQueries } from '../lib/localeQuery.mjs';
 const $$ = (root, selector) => [...root.querySelectorAll(selector)];
 function storageFor(view) { try { return view.localStorage; } catch { return null; } }
 function playerAllowed(src) {
@@ -7,7 +8,7 @@ function playerAllowed(src) {
 export function initializeStory(root, { route, copy: c, storage = storageFor(root.ownerDocument.defaultView) }) {
   const view = root.ownerDocument.defaultView, $ = selector => root.querySelector(selector), status = $('[data-story-status]'), chapterNodes = $$(root, '[data-story-chapter]');
   let progress = normalizeStoryProgress(null, route), available = Boolean(storage);
-  const message = text => { status.textContent = text; };
+  const message = text => { status.textContent = !available && text !== c.storageError ? c.storageError + ' ' + text : text; };
   const read = () => {
     if (!available) return;
     try { progress = readStoryProgress(storage, route); if (progress.changed) message(c.updated); else if (progress.corrupt) message(c.corrupt); }
@@ -16,7 +17,7 @@ export function initializeStory(root, { route, copy: c, storage = storageFor(roo
   read(); if (!available) message(c.storageError);
   function save() { if (available) try { writeStoryProgress(storage, route, progress); } catch { available = false; message(c.storageError); } }
   function updateLinks() {
-    for (const link of $$ (root.ownerDocument, '[data-locale-chooser-list] a')) { const url = new URL(link.href, view.location.href); url.search = '?chapter=' + encodeURIComponent(progress.current); link.href = url.href; }
+    updateLocaleQueries(root.ownerDocument, '?chapter=' + encodeURIComponent(progress.current));
   }
   function stopPlayers() {
     for (const frame of $$(root, '[data-story-player]')) frame.remove();
@@ -96,7 +97,7 @@ export function initializeStoryDirectory(root, { routes, copy: c, storage = stor
         if (!storage) throw Error('No storage');
         const progress = readStoryProgress(storage, route), link = card.querySelector('[data-story-start]'), status = card.querySelector('[data-story-card-progress]');
         status.textContent = storyFormat(c.progress, { done: progress.completed.length, total: route.chapters.length });
-        link.textContent = (progress.completed.length === route.chapters.length ? c.completedRoute : progress.current !== route.chapters[0].id || progress.completed.length ? c.resume : c.start) + ' ↗';
+        (link.querySelector('[data-story-start-label]') || link).textContent = progress.completed.length === route.chapters.length ? c.completedRoute : progress.current !== route.chapters[0].id || progress.completed.length ? c.resume : c.start;
         link.href = link.href.split('?')[0] + '?chapter=' + encodeURIComponent(progress.current);
       } catch { root.querySelector('[data-story-directory-status]').textContent = c.storageError; }
     }

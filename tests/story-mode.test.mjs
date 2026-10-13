@@ -42,6 +42,8 @@ test('media uses explicit directives and recorded URLs, excluding code, comments
   assert.equal(media.length, 1); assert.equal(media[0].src, 'https://www.youtube-nocookie.com/embed/abcdefghijk');
   assert.equal(media[0].href, 'https://www.youtube.com/watch?v=abcdefghijk');
   assert.equal(storyMedia({ media: [{ platform: 'youtube', id: 'ZYXWVUTSRQP', type: 'music-video' }] })[0].provider, 'youtube');
+  assert.equal(storyMedia({}, '```md\n@[youtube](abcdefghijk)').length, 0);
+  assert.equal(storyMedia({}, '    @[youtube](abcdefghijk)').length, 0);
 });
 
 test('saved progress is scoped by route and fingerprint, validates chapter keys and leaves other routes intact', () => {
