@@ -11,7 +11,7 @@ for(const locale of ['zh','zh-tw','zh-hk','ja','en']){
  assert.ok(!editor.includes('class="ve-pr-unavailable"'),`${locale}: unavailable submission entry`);
  const article=await readFile(resolve(root,locale,'articles/submit/index.html'),'utf8');
  assert.ok(article.includes(`data-article-api="${api}"`),`${locale}: incorrect article API`);
- const workflowPages=['gallery','gallery/manage/photos','gallery/classify','media','account/creator','chronicle/submit'];
+ const workflowPages=['gallery','gallery/manage/photos','gallery/classify','media','account/creator','chronicle/submit','community/activities','community/activities/apply','community/activities/read','community/series/read'];
  for(const path of workflowPages){
   const html=await readFile(resolve(root,locale,path,'index.html'),'utf8');
   assert.ok(html.includes(`data-api="${api}"`),`${locale}/${path}: incorrect workflow API`);
@@ -19,4 +19,4 @@ for(const locale of ['zh','zh-tw','zh-hk','ja','en']){
  }
  for(const html of [editor,article])assert.ok(!/data-[\w-]*(?:api|api-base|api-url)="https?:\/\/(?:localhost|127\.0\.0\.1)/.test(html),`${locale}: local API present`);
 }
-console.log('Online release gate passed: five locales, eight contribution/account/gallery pages per locale, PR enabled, local fixtures disabled, production Worker URLs.');
+console.log('Online release gate passed: five locales, twelve contribution/account/gallery/community pages per locale, PR enabled, local fixtures disabled, production Worker URLs.');

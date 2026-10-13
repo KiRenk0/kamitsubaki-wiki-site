@@ -2,23 +2,29 @@
 import Icon from './Icon.astro';
 import { getSupportCopy } from '../data/supportCopy';
 import { resolveLocaleCopy } from '../lib/i18n.mjs';
+import {getSupportData,supportExternalUrl} from '../lib/support';
 const { locale = 'en', docked = false } = Astro.props;
 const copy = getSupportCopy(locale);
 const closeLabel = resolveLocaleCopy({ zh: '关闭支持面板', ja: '支援パネルを閉じる', en: 'Close support panel' }, locale);
+const giveCopy=resolveLocaleCopy({zh:{label:'发电',action:'为观测站发电',details:'费用用途与收支记录'},ja:{label:'支援',action:'観測所を支援する',details:'費用の用途と収支記録'},en:{label:'Support',action:'Support on Afdian',details:'Costs and funding records'}},locale);
+const giveUrl=supportExternalUrl(getSupportData().channels.find(channel=>channel.id==='afdian')?.url||null);
+const supportApi=import.meta.env.PUBLIC_SUPPORT_API_BASE||'https://api.kamitsubaki.wiki';
 ---
 
-<aside class:list={['support-float', { 'support-float--docked': docked }]} data-support-float data-docked={docked || undefined} aria-label={copy.title}>
-  <button class="support-float__toggle" type="button" aria-label={copy.title} aria-expanded="false" aria-controls="support-float-content">
+<aside class:list={['support-float', { 'support-float--docked': docked }]} data-support-float data-support-api={supportApi} data-docked={docked || undefined} aria-label={copy.title}>
+  <button class="support-float__toggle" type="button" aria-label={giveCopy.action} title={giveCopy.action} aria-expanded="false" aria-controls="support-float-content">
     <Icon name="heart" />
+    {!docked&&<span class="support-float__label">{giveCopy.label}</span>}
     <span class="support-float__close" aria-hidden="true"><Icon name="x" /></span>
     {docked && <strong>{copy.title}</strong>}
   </button>
-  <div class="support-float__content" id="support-float-content" role={docked ? 'dialog' : undefined} aria-label={docked ? copy.title : undefined} aria-hidden="true" inert>
-    {docked && <button type="button" class="support-float__panel-close" data-support-close aria-label={closeLabel}><Icon name="x" /></button>}
+  <div class="support-float__content" id="support-float-content" role="dialog" aria-label={copy.title} aria-hidden="true" inert>
+    <button type="button" class="support-float__panel-close" data-support-close aria-label={closeLabel}><Icon name="x" /></button>
     <p class="support-float__eyebrow">SUPPORT THE OBSERVATORY</p>
     <h2>{copy.bannerTitle}</h2>
     <p class="support-float__body">{copy.bannerBody}</p>
-    <a href={`/${locale}/support/`}>{copy.bannerAction}<span aria-hidden="true"><Icon name="arrow-up-right" /></span></a>
+    <a data-support-primary href={giveUrl||`/${locale}/support/`} target="_blank" rel="noopener noreferrer">{giveCopy.action}<span aria-hidden="true"><Icon name="arrow-up-right" /></span></a>
+    <a class="support-float__details" href={`/${locale}/support/`}>{giveCopy.details}</a>
   </div>
 </aside>
 

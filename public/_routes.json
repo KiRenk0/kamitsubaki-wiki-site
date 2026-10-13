@@ -3,7 +3,10 @@
   "include": [
     "/articles-dynamic-sitemap.xml",
     "/*/articles/read",
-    "/*/articles/read/*"
+    "/*/articles/read/*",
+    "/community-dynamic-sitemap.xml",
+    "/*/community/activities/*",
+    "/*/community/series/*"
   ],
   "exclude": []
 }

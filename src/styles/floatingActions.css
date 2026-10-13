@@ -1,5 +1,16 @@
-/* The three launchers share a baseline, spacing, and motion rhythm. */
+/* Four launchers share one baseline; donation has a clear text label. */
 :root { --floating-action-size:48px; }
+html body .support-float:not(.support-float--docked){right:calc(var(--floating-action-edge) + 3 * (var(--floating-action-size) + 10px))}
+html body .support-float:not(.support-float--docked) .support-float__toggle{display:flex;flex-direction:column;gap:2px;padding:4px;background:var(--theme-accent-color);color:var(--theme-bg);border-color:var(--theme-accent-color)}
+html body .support-float:not(.support-float--docked) .support-float__toggle>svg{width:18px;height:18px}
+html body .support-float__label{font:500 10px/1.2 var(--font-sans);white-space:nowrap}
+html body .support-float:not(.support-float--docked) .support-float__content{right:calc(-3 * (var(--floating-action-size) + 10px));transform-origin:right bottom}
+html body .support-float__panel-close{position:absolute;right:12px;top:10px;display:grid;place-items:center;width:32px;height:32px;background:none;color:inherit;border:0;cursor:pointer}
+html body .support-float__panel-close svg{width:18px;height:18px}
+html body .support-float .support-float__details{margin-top:12px;padding:8px 0;background:none;color:var(--theme-fg);border:0;box-shadow:none;font-weight:400;font-size:12px;min-height:36px}
+html body .support-float__close{top:5px;right:calc(50% - 9px)}
+html body .support-float[data-pinned] .support-float__close svg{opacity:1;transform:none;width:18px;height:18px}
+html body:has(.pswp--open) :is(.support-float,.tools-dock,.ai-chat__launcher){display:none}
 @media(max-width:540px){:root{--floating-action-size:44px;--floating-action-edge:max(12px,env(safe-area-inset-right))}}
 html body :is(.tools-dock, .ai-chat__launcher) {
   bottom: max(var(--floating-action-edge), env(safe-area-inset-bottom));

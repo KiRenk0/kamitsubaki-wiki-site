@@ -1,3 +1,4 @@
+import {claimFloatingPanel,onFloatingPanelChange} from '../lib/floatingPanels.js';
 // The reading variant uses the same support panel from a real menu button.
 const initializeSupportFloat = () => {
   document.querySelectorAll('[data-support-float]').forEach((root) => {
@@ -9,7 +10,10 @@ const initializeSupportFloat = () => {
     const docked = root.hasAttribute('data-docked');
     let pinned = false;
     let closeTimer;
+    let channelLoadedAt=0;
+    const loadChannel=async()=>{if(Date.now()-channelLoadedAt<30000)return;try{const response=await fetch((root.dataset.supportApi||'https://api.kamitsubaki.wiki').replace(/\/$/,'')+'/api/support',{credentials:'omit',signal:AbortSignal.timeout(10000)});if(!response.ok)return;const data=await response.json(),channel=data.data?.channels?.find(item=>item.id==='afdian'),link=root.querySelector('[data-support-primary]');if(!link)return;channelLoadedAt=Date.now();const url=channel?.url?new URL(channel.url):null;if(url?.protocol==='https:'&&!url.username&&!url.password){link.href=url.href;link.hidden=false;}else link.hidden=true;}catch{}};
     const setOpen = (open) => {
+      if(open){claimFloatingPanel(docked?'tools':'support');void loadChannel();}
       window.clearTimeout(closeTimer);
       root.toggleAttribute('data-open', open);
       root.toggleAttribute('data-pinned', open && pinned);
@@ -36,7 +40,7 @@ const initializeSupportFloat = () => {
     };
     root.addEventListener('pointerenter', (event) => {
       window.clearTimeout(closeTimer);
-      if (!docked && event.pointerType === 'mouse') setOpen(true);
+      if (!docked && event.pointerType === 'mouse'&&!document.querySelector('.ai-chat.is-open,[data-community-panel]:not([hidden]),[data-tools-dock][open]')) setOpen(true);
     });
     root.addEventListener('pointerleave', () => {
       if (!docked) closeTimer = window.setTimeout(() => {
@@ -64,6 +68,7 @@ const initializeSupportFloat = () => {
       if (!root.contains(event.target)) close();
     });
     root.addEventListener('support-float:close', () => close());
+    onFloatingPanelChange(id=>{if(id!==(docked?'tools':'support'))close();});
   });
 };
 

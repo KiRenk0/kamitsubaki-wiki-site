@@ -263,12 +263,12 @@ test('ordinary pages retain support hover and AI returns to its existing launche
   } finally { b.dom.window.close(); }
 });
 
-test('reader composition has one external launcher and menus fit safe-area viewport bounds', async () => {
+test('reader composition has four unified external launchers and menus fit safe-area viewport bounds', async () => {
   const [layout, styles] = await Promise.all(['../src/layouts/BaseLayout.astro', '../src/styles/quietChrome.css'].map(path => readFile(new URL(path, import.meta.url), 'utf8')));
-  assert.match(layout, /!reading && <SupportFloat/);
-  assert.match(layout, /reading && <SupportFloat locale=\{lang\} docked/);
-  assert.match(layout, /launcher="dock" showPanel=\{false\}/);
-  assert.match(layout, /launcher=\{reading \? 'none' : 'floating'\}/);
+  assert.match(layout, /<SupportFloat locale=\{lang\} \/>/);
+  assert.match(layout, /<CommunityFloat locale=\{lang\} \/>/);
+  assert.match(layout, /launcher="floating"/);
+  assert.doesNotMatch(layout, /launcher="dock"|<SupportFloat[^>]*docked/);
   assert.match(styles, /\.tools-dock--reader[\s\S]*env\(safe-area-inset-right\)/);
   assert.match(styles, /\.tools-dock--reader[\s\S]*100dvw[\s\S]*100dvh[\s\S]*overflow-y: auto/);
 });

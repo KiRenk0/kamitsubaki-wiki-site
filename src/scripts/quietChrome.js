@@ -1,5 +1,6 @@
 import './socialContact.js';
 import './supportFloat.js';
+import {claimFloatingPanel,onFloatingPanelChange} from '../lib/floatingPanels.js';
 
 const initialize = () => {
   const dock = document.querySelector('[data-tools-dock]');
@@ -46,7 +47,7 @@ const initialize = () => {
       if (restoreFocus || focusWasInside) menu.querySelector('summary')?.focus({ preventScroll: true });
     };
     menu.addEventListener('toggle', () => {
-      if (menu.open) menus.filter(other => other !== menu).forEach(other => { other.open = false; });
+      if (menu.open) {claimFloatingPanel(menu.hasAttribute('data-tools-dock')?'tools':'navigation');menus.filter(other => other !== menu).forEach(other => { other.open = false; });}
       else {
         const focusWasInside = menu.contains(document.activeElement);
         menu.querySelectorAll('[data-support-float]').forEach(root => root.dispatchEvent(new CustomEvent('support-float:close')));
@@ -54,6 +55,7 @@ const initialize = () => {
         if (focusWasInside) menu.querySelector('summary')?.focus({ preventScroll: true });
       }
     });
+    onFloatingPanelChange(id=>{if(id!==(menu.hasAttribute('data-tools-dock')?'tools':'navigation'))close();});
     menu.addEventListener('click', (event) => {
       if (!(event.target instanceof Element)) return;
       if (event.target.closest('[data-reader-tool-open="ai"]')) {

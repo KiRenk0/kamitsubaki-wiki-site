@@ -1,4 +1,5 @@
 import {iconMarkup} from '../lib/icons.mjs';
+import {claimFloatingPanel,onFloatingPanelChange} from '../lib/floatingPanels.js';
 import {loginUrl as centralLoginUrl,logout as centralLogout,state as centralAccountState} from './accountStore.js';
 import {isLocalEditorMode} from '../lib/localEditorMode.mjs';
 import { setSegmentedValue } from '../lib/aiChatControls.mjs';
@@ -367,7 +368,8 @@ function normalizeCopy(root) {
   }
 }
 
-function setExpanded(root, expanded) {
+function setExpanded(root, expanded, restoreFocus = true) {
+  if(expanded)claimFloatingPanel('ai');
   const launcher = document.querySelector('[data-ai-launcher]');
   const wasExpanded = root.classList.contains('is-open');
   const toggle = document.querySelector('[data-ai-toggle]');
@@ -378,7 +380,7 @@ function setExpanded(root, expanded) {
   launcher?.classList.toggle('is-hidden', expanded);
   if (!expanded) {
     toggleSettings(root, false);
-    if (wasExpanded) {
+    if (wasExpanded && restoreFocus) {
       const dock = toggle?.closest('[data-reader-tools]');
       const target = dock && !dock.open ? dock.querySelector('summary') : toggle;
       target?.focus({ preventScroll: true });
@@ -1156,6 +1158,7 @@ function consumeAuthResult() {
 }
 
 function initWidget(root) {
+  onFloatingPanelChange(id=>{if(id!=='ai'&&root.classList.contains('is-open'))setExpanded(root,false,false);});
   const copy = normalizeCopy(root);
   const toggle = document.querySelector('[data-ai-toggle]');
   const close = root.querySelector('[data-ai-close]');
