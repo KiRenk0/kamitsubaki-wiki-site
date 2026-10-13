@@ -22,7 +22,7 @@ export function contentSnapshot(value: any): string {
     if (Array.isArray(entry)) return entry.map(clean);
     if (!entry || typeof entry !== 'object') return entry;
     return Object.fromEntries(Object.entries(entry)
-      .filter(([key, val]) => key !== 'wikiSourceId' && val !== null && val !== undefined)
+      .filter(([key, val]) => key !== 'wikiSourceId' && key !== 'wikiMetadata' && val !== null && val !== undefined)
       .map(([key, val]) => [key, clean(val)]));
   };
   return JSON.stringify(clean(value));
@@ -37,7 +37,7 @@ function asDomainNode(block: WikiBlockData): JSONContent {
   return { type: 'wikiBlock', attrs: { data, source: block.originalSource ?? blockMarkdown(block), edited: false } };
 }
 
-export function loadWikiDocument(editor: Editor, source: string, path = ''): LoadedWikiDocument {
+export function loadWikiDocument(editor: Editor, source: string, path = '', addToHistory = false): LoadedWikiDocument {
   const draft = importLegacyDocument(source, 'articles', path) as any;
   const json: JSONContent = { type: 'doc', content: [] };
   const normalizedBody = String(draft.originalBody).replaceAll('\r\n', '\n');
@@ -48,7 +48,24 @@ export function loadWikiDocument(editor: Editor, source: string, path = ''): Loa
     let content: JSONContent[];
     // Authored HTML blocks and future syntax are preserved explicitly. They are
     // editable in the source dialog instead of being flattened by a generic schema.
-    if (domainBlocks.has(block.type) || /^\s*<(?:div|details|figure|table|dl|!--)\b/i.test(raw)) {
+    if (/^\s*<table\b/i.test(raw)) {
+      // HTML is the existing public format for merged cells and saved widths.
+      // Reopen it as a table, including semantic Wiki nodes in its cells.
+      const template = document.createElement('template');
+      template.innerHTML = raw;
+      const walker = document.createTreeWalker(template.content, 4);
+      const texts: Text[] = [];
+      while (walker.nextNode()) texts.push(walker.currentNode as Text);
+      for (const text of texts) {
+        if (text.parentElement?.closest('code,pre,script,style') || !/\{\{|\$/.test(text.data)) continue;
+        const parsed = editor.storage.markdown.parser.parse(text.data);
+        const cell = document.createElement('template'); cell.innerHTML = parsed;
+        const paragraph = cell.content.querySelector('p');
+        if (paragraph && cell.content.querySelectorAll('p').length === 1) text.replaceWith(...Array.from(paragraph.childNodes));
+      }
+      content = generateJSON(template.innerHTML, editor.options.extensions).content ?? [];
+      if (!content.some(node => node.type === 'table')) content = [asDomainNode({ ...block, type: 'preserved', text: raw })];
+    } else if (domainBlocks.has(block.type) || /^\s*<(?:div|details|figure|dl|!--)\b/i.test(raw)) {
       content = [asDomainNode(block.type === 'paragraph' ? { ...block, type: 'preserved' } : block)];
     } else if (block.type === 'image') {
       content = [{ type: 'image', attrs: { src: block.url, alt: block.text, title: null, caption: block.caption ?? '' } }];
@@ -65,7 +82,7 @@ export function loadWikiDocument(editor: Editor, source: string, path = ''): Loa
     if (start >= 0) cursor = start + raw.length;
   }
   if (!json.content!.length) json.content = [{ type: 'paragraph' }];
-  editor.chain().setContent(json, false).command(({ tr }) => { tr.setMeta('addToHistory', false); return true; }).run();
+  editor.chain().setContent(json, false).command(({ tr }) => { tr.setDocAttribute('wikiMetadata', structuredClone(draft.meta)); tr.setMeta('addToHistory', addToHistory); return true; }).run();
   const actual = editor.getJSON();
   for (const group of groups) group.snapshot = contentSnapshot(actual.content?.filter(node => node.attrs?.wikiSourceId === group.id) ?? []);
   const metadata = structuredClone(draft.meta);

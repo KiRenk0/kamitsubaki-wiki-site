@@ -37,7 +37,7 @@ const fencePattern = /```|~~~|(?:^|\n)(?: {4}|\t)\S/u;
 const mathPattern = /\$\$[\s\S]+\$\$|\$[^$\n]+\$|\\[([]|\\begin\{/u;
 
 function needsFullMarkdownPipeline(source) {
-  return fencePattern.test(source) || mathPattern.test(source);
+  return fencePattern.test(source) || mathPattern.test(source) || /<code\b[^>]*\bclass=["'][^"']*(?:math-inline|math-display|language-math)/i.test(source);
 }
 
 let lightMarkdownRendererPromise;

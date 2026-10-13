@@ -7,8 +7,8 @@ import TableCell from '@tiptap/extension-table-cell';
 import TableHeader from '@tiptap/extension-table-header';
 import { Markdown } from 'tiptap-markdown';
 import { StarterKit, TiptapLink, TiptapUnderline, TiptapImage, HighlightExtension, TaskList, TaskItem, Placeholder, CharacterCount, GlobalDragHandle, UploadImagesPlugin } from 'novel';
-import { useState } from 'react';
-import { Pencil, Play, ImageIcon, Music2, ChevronRight, Code2, Sigma, Tv } from 'lucide-react';
+import { useEffect, useState } from 'react';
+import { Pencil, Play, ImageIcon, Music2, ChevronRight, FileText, Sigma, Tv } from 'lucide-react';
 import katex from 'katex';
 import MarkdownIt from 'markdown-it';
 import { Button } from '@/components/ui/button';
@@ -40,7 +40,7 @@ prose.inline.ruler.before('text', 'wiki-inline', (state, silent) => {
 });
 export const renderNestedMarkdown = (source: string) => prose.render(source);
 export const inlineLabels: Record<string, string> = { ruby: '振假名注音', spoiler: '剧透遮罩', mark: '高亮', abbr: '缩写说明', kbd: '按键', time: '日期', small: '小字', sub: '下标', sup: '上标', 'zh-variant': '中文变体', ja: '日语文本', math: '行内公式' };
-export const blockLabels: Record<string, string> = { media: '媒体', 'media-switcher': '媒体切换', details: '折叠说明', lyrics: '歌词时间轴', math: '数学公式', preserved: '原文片段' };
+export const blockLabels: Record<string, string> = { media: '媒体', 'media-switcher': '媒体切换', details: '折叠说明', lyrics: '歌词时间轴', math: '数学公式', preserved: '保留内容' };
 export function parseInlineSource(source: string) {
   const match = source.match(/^\{\{([a-z-]+)(::(?:\\.|[^{}])*)\}\}$/);
   return match ? { kind: match[1], args: splitShortcodeArguments(match[2]) as string[], syntax: 'shortcode', source } : null;
@@ -51,12 +51,16 @@ export function serializeInline(attrs: any) {
   if (attrs.syntax === 'html' && attrs.kind === 'ruby') return `<ruby>${e(attrs.args[0])}${attrs.args[1] ? `<rt class="furi">${e(attrs.args[1])}</rt>` : ''}${attrs.args[2] ? `<rt class="roma">${e(attrs.args[2])}</rt>` : ''}</ruby>`;
   return `{{${attrs.kind}::${(attrs.args as string[]).map(value => String(value).replaceAll('\\', '\\\\').replaceAll('::', '\\:\\:')).join('::')}}}`;
 }
+export function renderInlineAttributes(attrs: any) {
+  if (attrs.kind === 'ruby') return `<ruby>${e(attrs.args[0])}${attrs.args[1] ? `<rt class="furi">${e(attrs.args[1])}</rt>` : ''}${attrs.args[2] ? `<rt class="roma">${e(attrs.args[2])}</rt>` : ''}</ruby>`;
+  return renderInlineShortcode(attrs.kind, attrs.args);
+}
 function InlineView(props: NodeViewProps) {
   const attrs = props.node.attrs;
-  const rendered = renderInlineShortcode(attrs.kind, attrs.args);
+  const rendered = renderInlineAttributes(attrs);
   const content = attrs.kind === 'math' ? katex.renderToString(attrs.args[0] || '', { throwOnError: false, trust: false }) : typeof rendered === 'string' ? rendered : e(rendered?.value || attrs.args[0] || serializeInline(attrs));
   return <NodeViewWrapper as="span" className={`wiki-inline wiki-inline-${attrs.kind}`} contentEditable={false}>
-    <span role="button" tabIndex={0} title={`${inlineLabels[attrs.kind] || '特殊语法'} · 双击编辑`} onDoubleClick={() => props.extension.options.onEdit?.(props.editor, props.getPos())}
+    <span role="button" tabIndex={0} title={`${inlineLabels[attrs.kind] || '特殊语法'} · 双击编辑`} onClick={() => props.editor.commands.setNodeSelection(props.getPos())} onDoubleClick={() => props.extension.options.onEdit?.(props.editor, props.getPos())}
       onKeyDown={event => { if (event.key === 'Enter') { event.preventDefault(); props.extension.options.onEdit?.(props.editor, props.getPos()); } }} dangerouslySetInnerHTML={{ __html: content }} />
   </NodeViewWrapper>;
 }
@@ -70,24 +74,33 @@ function MediaPanel({ provider, url, caption }: { provider: string; url: string;
     {media ? <Button size="sm" variant="secondary" onClick={() => setPlaying(true)}><Play data-icon="inline-start" />播放</Button> : null}
   </div>;
 }
+function PreservedPreview({ source }: { source: string }) {
+  const [html, setHtml] = useState(''); const [error, setError] = useState('');
+  useEffect(() => {
+    const controller = new AbortController();
+    fetch('/__novel/preview', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ source }), signal: controller.signal }).then(async response => { const result = await response.json(); if (!response.ok) throw new Error(result.error); setHtml(result.html); }).catch(error => { if (error.name !== 'AbortError') setError('预览暂时无法读取，原有内容仍完整保留。'); });
+    return () => controller.abort();
+  }, [source]);
+  return html ? <div className="wiki-preserved-preview" dangerouslySetInnerHTML={{ __html: html }} /> : <p>{error || '正在读取原有内容…'}</p>;
+}
 function BlockView(props: NodeViewProps) {
   const data = props.node.attrs.data as WikiBlockData;
   const edit = () => props.extension.options.onEdit?.(props.editor, props.getPos());
-  const Icon = data.type === 'lyrics' ? Music2 : data.type === 'math' ? Sigma : data.type === 'details' ? ChevronRight : data.type === 'preserved' ? Code2 : Tv;
+  const Icon = data.type === 'lyrics' ? Music2 : data.type === 'math' ? Sigma : data.type === 'details' ? ChevronRight : data.type === 'preserved' ? FileText : Tv;
   return <NodeViewWrapper className="wiki-domain-block" contentEditable={false} data-wiki-block={data.type}>
-    <div className="wiki-block-header"><span><Icon aria-hidden="true" />{blockLabels[data.type] || data.type}{data.title ? ` · ${data.title}` : ''}</span><Button size="icon-sm" variant="ghost" aria-label={`编辑${blockLabels[data.type] || '片段'}`} onClick={edit}><Pencil /></Button></div>
+    <div className="wiki-block-header"><span><Icon aria-hidden="true" />{blockLabels[data.type] || data.type}{data.title ? ` · ${data.title}` : ''}</span>{data.type !== 'preserved' ? <Button size="sm" variant="ghost" aria-label={`编辑${blockLabels[data.type] || '片段'}`} onClick={edit}><Pencil data-icon="inline-start" />编辑</Button> : <span>原有内容</span>}</div>
     {data.type === 'media-switcher' ? <Tabs defaultValue="0">
       <TabsList variant="line">{(data.items || []).map((item: any, index: number) => <TabsTrigger value={String(index)} key={index}>{({ youtube: 'YouTube', bilibili: 'Bilibili', spotify: 'Spotify', 'apple-music': 'Apple Music', netease: '网易云音乐', 'qq-music': 'QQ 音乐' } as any)[item.provider] || item.provider}</TabsTrigger>)}</TabsList>
       {(data.items || []).map((item: any, index: number) => <TabsContent value={String(index)} key={index}><MediaPanel key={item.url} provider={item.provider} url={item.url} caption={item.caption || data.title} /></TabsContent>)}
     </Tabs> : data.type === 'media' ? <MediaPanel key={data.url} provider={data.provider} url={data.url} caption={data.caption} />
-      : data.type === 'details' ? <details open><summary>{data.title || '补充说明'}</summary><div className="wiki-nested-prose" dangerouslySetInnerHTML={{ __html: renderNestedMarkdown(data.text || '') }} /></details>
+      : data.type === 'details' ? <details open><summary>{data.title || '补充说明'}</summary><div className="wiki-nested-prose"><PreservedPreview source={data.text || ''} /></div></details>
         : data.type === 'lyrics' ? <div className="wiki-lyrics">{(data.rows || []).map((row: any, index: number) => <div className="wiki-lyric-row" key={index}>
           <span className="wiki-timestamp">{row.units?.[0]?.time || row.time || '—'}</span><div>
             <p>{(row.units?.length ? row.units : [row]).map((unit: any, unitIndex: number) => <ruby key={unitIndex}>{unit.original}{unit.kana ? <rt>{unit.kana}</rt> : null}{unit.romaji ? <rt className="roma">{unit.romaji}</rt> : null}</ruby>)}</p>
             {row.translation ? <p className="wiki-lyric-translation">{row.translation}</p> : null}
           </div></div>)}</div>
           : data.type === 'math' ? <div className="wiki-math" dangerouslySetInnerHTML={{ __html: katex.renderToString(data.text || '', { displayMode: data.display !== false, throwOnError: false, trust: false }) }} />
-            : <pre className="wiki-preserved-source">{props.node.attrs.source || data.text}</pre>}
+            : <PreservedPreview source={props.node.attrs.source || data.text} />}
   </NodeViewWrapper>;
 }
 function ImageView(props: NodeViewProps) {
@@ -100,7 +113,7 @@ function ImageView(props: NodeViewProps) {
 
 const SourceProvenance = Extension.create({
   name: 'wikiSourceProvenance',
-  addGlobalAttributes() { return [{ types: ['paragraph', 'heading', 'bulletList', 'orderedList', 'taskList', 'blockquote', 'codeBlock', 'horizontalRule', 'table', 'image', 'wikiBlock'], attributes: { wikiSourceId: { default: null, rendered: false } } }]; },
+  addGlobalAttributes() { return [{ types: ['doc'], attributes: { wikiMetadata: { default: null, rendered: false } } }, { types: ['paragraph', 'heading', 'bulletList', 'orderedList', 'taskList', 'blockquote', 'codeBlock', 'horizontalRule', 'table', 'image', 'wikiBlock'], attributes: { wikiSourceId: { default: null, rendered: false } } }]; },
 });
 function semanticMark(name: string, tag: string, attribute?: string) {
   return Mark.create({ name, addAttributes() { return attribute ? { value: { default: '', parseHTML: element => element.getAttribute(attribute) || '', rendered: false } } : {}; },
@@ -110,12 +123,13 @@ function semanticMark(name: string, tag: string, attribute?: string) {
   });
 }
 
-export function createWikiExtensions(onEdit?: EditNode, withViews = true) {
+export function createWikiExtensions(onEdit?: EditNode, withViews = true, withDragHandle = true) {
   const inline = Node.create({
     name: 'wikiInline', inline: true, group: 'inline', atom: true, selectable: true,
     addOptions() { return { onEdit }; },
     addAttributes() { return { kind: { default: 'ruby' }, args: { default: [] }, syntax: { default: 'shortcode' }, source: { default: '' } }; },
     parseHTML() { return [
+      { tag: 'code.math-inline', priority: 100, getAttrs: element => ({ kind: 'math', syntax: 'math', args: [(element as HTMLElement).textContent || ''], source: '' }) },
       { tag: 'span[data-wiki-inline]', getAttrs: element => { try { return JSON.parse(decodeURIComponent((element as HTMLElement).dataset.wikiInline || '')); } catch { return false; } } },
       { tag: 'ruby', getAttrs: element => { const el = element as HTMLElement; const copy = el.cloneNode(true) as HTMLElement; copy.querySelectorAll('rt,rp').forEach(node => node.remove()); return { kind: 'ruby', syntax: 'html', source: el.outerHTML, args: [copy.textContent || '', el.querySelector('rt.furi,rt:not(.roma)')?.textContent || '', el.querySelector('rt.roma')?.textContent || ''] }; } },
     ]; },
@@ -171,14 +185,21 @@ export function createWikiExtensions(onEdit?: EditNode, withViews = true) {
     const rows: any[] = []; node.forEach((row: any) => rows.push(row));
     const cellsOf = (row: any) => { const cells: any[] = []; row.forEach((cell: any) => cells.push(cell)); return cells; };
     const first = rows[0] && cellsOf(rows[0]);
-    const markdownCompatible = first?.length && rows.every((row, index) => cellsOf(row).length === first.length && cellsOf(row).every(cell => cell.attrs.colspan === 1 && cell.attrs.rowspan === 1 && cell.childCount === 1 && cell.firstChild.type.name === 'paragraph' && (index === 0 ? cell.type.name === 'tableHeader' : cell.type.name === 'tableCell')));
+    const markdownCompatible = first?.length && rows.every((row, index) => cellsOf(row).length === first.length && cellsOf(row).every((cell, column) => (cell.attrs.align || null) === (first[column].attrs.align || null) && !cell.attrs.colwidth?.some((width: number) => width > 0) && cell.attrs.colspan === 1 && cell.attrs.rowspan === 1 && cell.childCount === 1 && cell.firstChild.type.name === 'paragraph' && (index === 0 ? cell.type.name === 'tableHeader' : cell.type.name === 'tableCell')));
     if (!markdownCompatible) {
       const serializer = DOMSerializer.fromSchema(this.editor.schema);
       const safeSerializer = new DOMSerializer({ ...serializer.nodes,
-        wikiInline: (inline: any) => ['span', {}, inline.attrs.syntax === 'html' && inline.attrs.kind === 'ruby' ? serializeInline({ ...inline.attrs, syntax: 'shortcode', source: '' }) : serializeInline(inline.attrs)],
+        wikiInline: (inline: any) => {
+          if (inline.attrs.kind === 'math') return ['code', { class: 'math-inline' }, inline.attrs.args[0] || ''];
+          const rendered = renderInlineAttributes(inline.attrs);
+          const element = document.createElement('span');
+          element.innerHTML = typeof rendered === 'string' ? rendered : e(rendered?.value || serializeInline(inline.attrs));
+          return element;
+        },
         wikiBlock: (block: any) => ['div', {}, block.attrs.source || blockMarkdown(block.attrs.data)],
       }, serializer.marks);
       const element = safeSerializer.serializeNode(node) as HTMLElement;
+      element.querySelectorAll('[colwidth]').forEach(cell => { const widths = (cell.getAttribute('colwidth') || '').split(',').map(Number); if (widths.length && widths.every(width => width > 0 && width <= 4000)) cell.setAttribute('width', String(widths.reduce((total, width) => total + width, 0))); });
       state.write(element.outerHTML); state.closeBlock(node); return;
     }
     state.inTable = true;
@@ -198,7 +219,7 @@ export function createWikiExtensions(onEdit?: EditNode, withViews = true) {
     Placeholder.configure({ placeholder: '输入 / 插入内容', includeChildren: true }), CharacterCount,
     SourceProvenance, inline, domain, image,
     semanticMark('wikiSpoiler', 'span'), semanticMark('wikiAbbr', 'abbr', 'title'), semanticMark('wikiKbd', 'kbd'), semanticMark('wikiTime', 'time', 'datetime'), semanticMark('wikiSmall', 'small'), semanticMark('wikiSub', 'sub'), semanticMark('wikiSup', 'sup'),
-    ...(withViews ? [GlobalDragHandle.configure({ dragHandleWidth: 20, scrollTreshold: 100 })] : []),
+    ...(withViews && withDragHandle ? [GlobalDragHandle.configure({ dragHandleWidth: 20, scrollTreshold: 100 })] : []),
     Markdown.configure({ html: true, tightLists: true, transformPastedText: true, transformCopiedText: true }),
   ];
 }

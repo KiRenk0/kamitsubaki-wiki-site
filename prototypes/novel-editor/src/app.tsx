@@ -1,6 +1,6 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { Editor } from '@tiptap/core';
-import { Check, Eye, Download, Moon, Sun, SlidersHorizontal, Menu, Code2, FileText, AlertCircle, Pencil, Loader2 } from 'lucide-react';
+import { Check, Eye, Download, Moon, Sun, SlidersHorizontal, Menu, Code2, FileText, AlertCircle, Pencil, Loader2, MoreHorizontal, Save } from 'lucide-react';
 import { Toaster, toast } from 'sonner';
 import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog';
@@ -9,6 +9,9 @@ import { TooltipProvider } from '@/components/ui/tooltip';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import { LibrarySidebar, collectionLabels } from '@/components/library-sidebar';
 import { PropertiesPanel, type OutlineItem } from '@/components/properties-panel';
+import { CatalogContext } from '@/components/entity-picker';
+import { WorkspaceSidebar, type ResourceItem } from '@/components/workspace-sidebar';
+import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuSeparator } from '@/components/ui/dropdown-menu';
 import { SourceEditor } from '@/components/source-editor';
 import { NovelSurface } from '@/editor/novel-surface';
 import { EditorToolbar } from '@/editor/toolbar';
@@ -60,8 +63,14 @@ export default function App() {
   const [mobileLibrary, setMobileLibrary] = useState(false);
   const [mobileProperties, setMobileProperties] = useState(false);
   const [compactLayout, setCompactLayout] = useState(() => window.matchMedia('(max-width: 1180px)').matches);
-  const [dark, setDark] = useState(true);
+  const [dark, setDark] = useState(() => { try { return localStorage.getItem('kamitsubaki-novel-local-prototype:theme') !== 'light'; } catch { return true; } });
+  useEffect(() => { document.documentElement.classList.toggle('dark', dark); try { localStorage.setItem('kamitsubaki-novel-local-prototype:theme', dark ? 'dark' : 'light'); } catch { /* Theme changes still work without storage. */ } }, [dark]);
   const [target, setTarget] = useState<NodeEditTarget | null>(null);
+  const [navigationOpen, setNavigationOpen] = useState(false);
+  const [resources, setResources] = useState<ResourceItem[]>([]);
+  const [contentVersion, setContentVersion] = useState(0);
+  const [activeOutline, setActiveOutline] = useState<number | null>(null);
+  const scrollFrame = useRef<number | null>(null);
   const [outline, setOutline] = useState<OutlineItem[]>([]);
   const [, updateToolbar] = useState(0);
   const [draftsOpen, setDraftsOpen] = useState(false);
@@ -76,21 +85,35 @@ export default function App() {
     if (!contextRef.current || !editorRef.current) return false;
     try {
       const meta = metadataRef.current;
-      saveLocalDraft({ key: recordRef.current.key, path: recordRef.current.path, source: liveSource(), title: meta.name || meta.title || '未命名词条', locale: meta.locale || 'zh', savedAt: Date.now(), pendingSource: pendingRef.current });
+      const source = liveSource();
+      saveLocalDraft({ key: recordRef.current.key, path: recordRef.current.path, source, title: meta.name || meta.title || '未命名词条', locale: meta.locale || 'zh', savedAt: Date.now(), pendingSource: pendingRef.current });
+      if (!pendingRef.current) setSourceValue(source);
       setStorageError(''); setStatus(pendingRef.current ? '源码已暂存，尚未应用' : '已保存到本地');
       return true;
     } catch { setStatus('尚未保存'); setStorageError('本地草稿无法保存。请导出 Markdown 备份当前内容。'); return false; }
   }, [liveSource]);
   const changed = useCallback(() => {
-    try { if (!pendingRef.current) setSourceValue(liveSource()); setStatus('正在保存…'); clearTimeout(timer.current); timer.current = setTimeout(persist, 300); }
+    try { setStatus('正在保存…'); clearTimeout(timer.current); timer.current = setTimeout(persist, 300); }
     catch (error: any) { setStorageError(error.message); }
   }, [liveSource, persist]);
-  const refreshOutline = useCallback((instance: Editor) => {
-    const next: OutlineItem[] = [];
-    instance.state.doc.descendants((node, position) => { if (node.type.name === 'heading') next.push({ text: node.textContent, level: node.attrs.level, position }); });
-    setOutline(previous => JSON.stringify(previous) === JSON.stringify(next) ? previous : next);
+  const refreshOutline = useCallback((instance: Editor, docChanged = true) => {
     updateToolbar(value => value + 1);
+    if (!docChanged) return;
+    const documentMetadata = instance.state.doc.attrs.wikiMetadata;
+    if (documentMetadata && documentMetadata !== metadataRef.current) { metadataRef.current = documentMetadata; setMetadata(documentMetadata); }
+    const assets: ResourceItem[] = [];
+    const next: OutlineItem[] = [];
+    instance.state.doc.descendants((node, position) => {
+      if (node.type.name === 'heading') next.push({ text: node.textContent, level: node.attrs.level, position });
+      if (node.type.name === 'image') assets.push({ label: node.attrs.caption || node.attrs.alt || '图片', kind: 'image', position, url: node.attrs.src });
+      if (node.type.name === 'wikiBlock' && ['media', 'media-switcher'].includes(node.attrs.data.type)) assets.push({ label: node.attrs.data.title || node.attrs.data.caption || '媒体', kind: 'media', position, url: node.attrs.data.url });
+      const link = node.marks.find(mark => mark.type.name === 'link');
+      if (link) assets.push({ label: node.textContent || link.attrs.href, kind: 'link', position, url: link.attrs.href });
+    });
+    setResources(previous => JSON.stringify(previous) === JSON.stringify(assets) ? previous : assets);
+    setOutline(previous => JSON.stringify(previous) === JSON.stringify(next) ? previous : next);
   }, []);
+  const documentUpdated = useCallback(() => { changed(); setContentVersion(value => value + 1); }, [changed]);
   const ready = useCallback((instance: Editor, loaded: LoadedWikiDocument) => {
     editorRef.current = instance; contextRef.current = loaded.context; metadataRef.current = loaded.metadata;
     setEditor(instance); setMetadata(loaded.metadata); refreshOutline(instance); setLoadError('');
@@ -98,10 +121,11 @@ export default function App() {
     persist();
   }, [persist, refreshOutline]);
   const replaceDocument = useCallback((next: DocumentRecord) => {
-    persist(); clearTimeout(timer.current); contextRef.current = null; editorRef.current = null;
+    if (contextRef.current && !persist()) { toast.error('当前草稿尚未保存，请先导出备份再切换。'); return; }
+    clearTimeout(timer.current); contextRef.current = null; editorRef.current = null;
     pendingRef.current = next.pendingSource; setPending(Boolean(next.pendingSource)); setSourceValue(next.pendingSource || next.source);
-    setEditor(null); setTarget(null); setOutline([]); setMetadata({}); setRecord(next); recordRef.current = next;
-    setRevision(value => value + 1); setView(next.pendingSource ? 'source' : 'edit'); setMobileLibrary(false); setStatus('正在打开词条…'); setLoadError('');
+    setEditor(null); setTarget(null); setOutline([]); setActiveOutline(null); setMetadata({}); setRecord(next); recordRef.current = next;
+    setRevision(value => value + 1); setView(next.pendingSource ? 'source' : 'edit'); setMobileLibrary(false); setNavigationOpen(false); setOpening(false); setStatus('正在打开词条…'); setLoadError('');
   }, [persist]);
   const openEntry = useCallback(async (entry: CatalogEntry) => {
     const sequence = ++loadSequence.current; setOpening(true);
@@ -134,58 +158,73 @@ export default function App() {
     };
     window.addEventListener('keydown', keydown); return () => window.removeEventListener('keydown', keydown);
   }, [persist]);
-  const changeMetadata = (next: WikiMetadata) => { metadataRef.current = next; setMetadata(next); changed(); };
-  const changeView = (next: View) => { if (next === 'source' && !pendingRef.current) setSourceValue(liveSource()); setView(next); };
+  const changeMetadata = (next: WikiMetadata) => { if (editorRef.current) editorRef.current.commands.command(({ tr }) => { tr.setDocAttribute('wikiMetadata', next); return true; }); else { metadataRef.current = next; setMetadata(next); changed(); } };
+  const changeView = (next: View) => { if (next === 'edit' && pendingRef.current) { toast.error('请先应用或放弃源码修改。'); return; } if (next === 'source' && !pendingRef.current) setSourceValue(liveSource()); setView(next); };
   const sourceChanged = (source: string) => { setSourceValue(source); const scratch = source === liveSource() ? undefined : source; pendingRef.current = scratch; setPending(Boolean(scratch)); changed(); };
   const applySource = () => {
     if (!editorRef.current) return;
     try {
       const nextMetadata = validateDocumentSource(sourceValue);
       if (record.path && (nextMetadata.id !== metadataRef.current.id || nextMetadata.entityType !== metadataRef.current.entityType || nextMetadata.locale !== metadataRef.current.locale)) throw new Error('已有词条的永久 ID、类型和语言需要保持不变。');
-      const loaded = loadWikiDocument(editorRef.current, sourceValue, record.path);
-      contextRef.current = loaded.context; metadataRef.current = loaded.metadata; setMetadata(loaded.metadata); pendingRef.current = undefined; setPending(false); refreshOutline(editorRef.current); persist(); toast.success('Markdown 已应用到正文');
+      const loaded = loadWikiDocument(editorRef.current, sourceValue, record.path, true);
+      contextRef.current = loaded.context; metadataRef.current = loaded.metadata; setMetadata(loaded.metadata); pendingRef.current = undefined; setPending(false); refreshOutline(editorRef.current); persist(); setView('edit'); toast.success('Markdown 已应用到正文');
     } catch (error: any) { toast.error(error.message); }
   };
-  const onNavigate = (position: number) => { setView('edit'); requestAnimationFrame(() => editorRef.current?.chain().focus().setTextSelection(position + 1).scrollIntoView().run()); setMobileProperties(false); };
+  const onNavigate = (position: number) => { setActiveOutline(outline.filter(item => item.position <= position).at(-1)?.position ?? null); setView('edit'); setNavigationOpen(false); setMobileProperties(false); requestAnimationFrame(() => { const instance = editorRef.current; if (!instance) return; const node = instance.state.doc.nodeAt(position); const chain = instance.chain().focus(); if (node?.isAtom && node.isBlock) chain.setNodeSelection(position); else chain.setTextSelection(Math.min(position + (node?.isText ? 0 : 1), instance.state.doc.content.size)); chain.run();
+      const element = instance.view.nodeDOM(position); const scroll = instance.view.dom.closest('.wiki-writing-scroll');
+      if (element instanceof HTMLElement && scroll instanceof HTMLElement) scroll.scrollTo({ top: scroll.scrollTop + element.getBoundingClientRect().top - scroll.getBoundingClientRect().top - 24 });
+    }); };
   const openDemo = useCallback(() => { ++loadSequence.current; const draft = readLocalDraft('demo'); replaceDocument(draft ? { key: 'demo', path: '', source: draft.source, pendingSource: draft.pendingSource } : { key: 'demo', path: '', source: demoSource }); }, [replaceDocument]);
   const newDocument = useCallback(() => { ++loadSequence.current; replaceDocument({ key: crypto.randomUUID(), path: '', source: newDocumentSource() }); }, [replaceDocument]);
   const openDrafts = () => { persist(); try { setDrafts(listLocalDrafts()); setDraftsOpen(true); } catch { toast.error('浏览器禁止访问本地草稿'); } };
   const sidebar = <LibrarySidebar catalog={catalog} loading={catalogLoading} search={search} onSearch={setSearch} selectedPath={record.path} selectedKey={record.key} onSelect={openEntry} onDemo={openDemo} onNew={newDocument} onImport={() => fileInput.current?.click()} onDrafts={openDrafts} locale={catalogLocale} onLocale={setCatalogLocale} />;
-  const properties = <PropertiesPanel metadata={metadata} onChange={changeMetadata} outline={outline} onNavigate={onNavigate} locked={Boolean(record.path)} />;
+  const navigator = <WorkspaceSidebar editor={editor} outline={outline} resources={resources} onNavigate={onNavigate} onBrowse={() => { setNavigationOpen(false); setMobileLibrary(true); }} onNew={newDocument} onDrafts={openDrafts} onReveal={() => { setView('edit'); setNavigationOpen(false); }} activePosition={activeOutline} version={contentVersion} />;
+  const properties = <PropertiesPanel metadata={metadata} onChange={changeMetadata} editor={editor} open={setTarget} pending={pending} locked={Boolean(record.path)} />;
+  const catalogContext = useMemo(() => ({ entries: catalog, locale: metadata.locale || 'zh' }), [catalog, metadata.locale]);
   const title = metadata.name ?? metadata.title ?? '';
   const exportDocument = () => { try { persist(); downloadMarkdown(liveSource(), title, metadata.locale); toast.success('Markdown 已导出'); } catch (error: any) { toast.error(error.message); } };
-  return <TooltipProvider delayDuration={350}><div className="wiki-workbench" data-properties={showProperties}>
-    <div className="wiki-desktop-library">{sidebar}</div>
+  return <CatalogContext.Provider value={catalogContext}><TooltipProvider delayDuration={350}><div className="wiki-workbench" data-properties={showProperties}>
+    <div className="wiki-desktop-library">{navigator}</div>
     <div className="wiki-workbench-main"><header className="wiki-workbench-header">
-      <Button variant="ghost" size="icon" className="wiki-mobile-menu" aria-label="打开词条库" onClick={() => setMobileLibrary(true)}><Menu /></Button>
-      <div className="wiki-breadcrumb"><span>{record.key === 'demo' ? '本地示例' : record.path ? collectionLabels[record.path.split('/')[2]] || '词条' : '本地草稿'}</span><span aria-hidden="true">/</span><strong>{title || '词条'}</strong>{opening ? <Loader2 className="animate-spin" aria-label="正在读取词条" /> : null}</div>
-      <div className="wiki-header-actions"><span className="wiki-save-status" role="status"><Check aria-hidden="true" />{status}</span>
-        <Button variant="outline" aria-label={view === 'preview' ? '继续编辑' : '预览'} aria-pressed={view === 'preview'} disabled={pending} onClick={() => changeView(view === 'preview' ? 'edit' : 'preview')}>{view === 'preview' ? <Pencil data-icon="inline-start" /> : <Eye data-icon="inline-start" />}<span>{view === 'preview' ? '继续编辑' : '预览'}</span></Button>
-        <Button aria-label="导出 Markdown" disabled={!editor || pending} onClick={exportDocument}><Download data-icon="inline-start" /><span>导出 Markdown</span></Button>
-        <Button variant="ghost" size="icon" aria-label={view === 'source' ? '返回正文' : 'Markdown 源码'} aria-pressed={view === 'source'} onClick={() => changeView(view === 'source' ? 'edit' : 'source')}><Code2 /></Button>
-        <Button variant="ghost" size="icon" aria-label={dark ? '切换浅色主题' : '切换深色主题'} onClick={() => { document.documentElement.classList.toggle('dark', !dark); setDark(!dark); }}>{dark ? <Moon /> : <Sun />}</Button>
-        <Button variant="ghost" size="icon" aria-label="词条属性" aria-expanded={compactLayout ? mobileProperties : showProperties} aria-haspopup={compactLayout ? 'dialog' : undefined} onClick={() => compactLayout ? setMobileProperties(true) : setShowProperties(!showProperties)}><SlidersHorizontal /></Button>
+      <Button variant="ghost" size="icon" className="wiki-mobile-menu" aria-label="打开写作导航" onClick={() => setNavigationOpen(true)}><Menu /></Button>
+      <div className="wiki-document-heading"><div className="wiki-breadcrumb"><strong>{title || '词条'}</strong>{opening ? <Loader2 className="animate-spin" aria-label="正在读取词条" /> : null}</div><span className="wiki-save-status" role="status">{storageError ? <AlertCircle aria-hidden="true" /> : status === '正在保存…' ? <Loader2 className="animate-spin" aria-hidden="true" /> : <Check aria-hidden="true" />}{status}</span></div>
+      <div className="wiki-header-actions">
+        <Button variant="outline" aria-label={view === 'preview' ? '继续编辑' : '预览'} aria-pressed={view === 'preview'} disabled={pending} onClick={() => changeView(view === 'preview' ? 'edit' : 'preview')}>{view === 'preview' ? <Pencil data-icon="inline-start" /> : <Eye data-icon="inline-start" />}<span>{view === 'preview' ? '编辑' : '预览'}</span></Button>
+        <Button variant="ghost" aria-label="词条属性" aria-expanded={compactLayout ? mobileProperties : showProperties} aria-haspopup={compactLayout ? 'dialog' : undefined} onClick={() => compactLayout ? setMobileProperties(true) : setShowProperties(!showProperties)}><SlidersHorizontal data-icon="inline-start" /><span>属性</span></Button>
+        <DropdownMenu><DropdownMenuTrigger asChild><Button variant="ghost" size="icon" aria-label="文档操作"><MoreHorizontal /></Button></DropdownMenuTrigger><DropdownMenuContent align="end" className="min-w-44"><DropdownMenuGroup>
+          <DropdownMenuItem onSelect={() => { if (persist()) toast.success('草稿已保存到本地'); }}><Save />保存本地草稿</DropdownMenuItem><DropdownMenuItem disabled={!editor || pending} onSelect={exportDocument}><Download />导出 Markdown</DropdownMenuItem><DropdownMenuItem onSelect={() => { setMobileLibrary(true); }}>打开其他词条</DropdownMenuItem><DropdownMenuItem onSelect={newDocument}>新建词条</DropdownMenuItem><DropdownMenuItem onSelect={() => fileInput.current?.click()}>导入 Markdown</DropdownMenuItem><DropdownMenuItem onSelect={openDrafts}>本地草稿</DropdownMenuItem>
+        </DropdownMenuGroup><DropdownMenuSeparator /><DropdownMenuGroup><DropdownMenuItem onSelect={() => { document.documentElement.classList.toggle('dark', !dark); setDark(!dark); }}>{dark ? <Sun /> : <Moon />}{dark ? '浅色主题' : '深色主题'}</DropdownMenuItem><DropdownMenuItem onSelect={() => changeView(view === 'source' ? 'edit' : 'source')}><Code2 />{view === 'source' ? '返回正文' : '查看 Markdown 源码'}</DropdownMenuItem></DropdownMenuGroup></DropdownMenuContent></DropdownMenu>
       </div>
     </header><div className="wiki-content-grid">
       <main className="wiki-writing-panel"><div className={cn(view !== 'edit' && 'hidden')}><EditorToolbar editor={editor} open={setTarget} /></div>
         {storageError || loadError ? <Alert variant="destructive"><AlertCircle /><AlertDescription>{storageError || loadError}</AlertDescription></Alert> : null}
-        <div className={cn('wiki-writing-scroll', view !== 'edit' && 'hidden')}><div className="wiki-article-canvas">
+        <div className={cn('wiki-writing-scroll', view !== 'edit' && 'hidden')} onScroll={event => {
+          if (scrollFrame.current !== null) return;
+          const container = event.currentTarget;
+          scrollFrame.current = requestAnimationFrame(() => {
+            scrollFrame.current = null; const instance = editorRef.current; if (!instance) return;
+            const boundary = container.getBoundingClientRect().top + 100; let position = outline[0]?.position ?? null;
+            for (const item of outline) { const element = instance.view.nodeDOM(item.position); if (element instanceof HTMLElement && element.getBoundingClientRect().top <= boundary) position = item.position; }
+            setActiveOutline(position);
+          });
+        }}><div className="wiki-article-canvas">
           <input className="wiki-article-title" aria-label="词条标题" placeholder="未命名词条" value={title} onChange={event => changeMetadata({ ...metadata, [metadata.name !== undefined ? 'name' : 'title']: event.target.value })} />
           {metadata.romanizedName || metadata.romanizedTitle ? <p className="wiki-article-romanized">{metadata.romanizedName || metadata.romanizedTitle}</p> : null}
-          <NovelSurface key={record.key + ':' + revision} source={record.source} path={record.path} onReady={ready} onUpdate={changed} onTransaction={refreshOutline} open={setTarget} />
+          <NovelSurface key={record.key + ':' + revision} source={record.source} path={record.path} onReady={ready} onUpdate={documentUpdated} onTransaction={refreshOutline} open={setTarget} />
           <Button variant="ghost" className="wiki-continue-writing" onClick={() => { if (editor) editor.chain().focus().insertContentAt(editor.state.doc.content.size, { type: 'paragraph' }).run(); }}>输入 / 插入内容</Button>
         </div></div>
-        {view === 'source' ? <section className="wiki-source-pane"><div className="wiki-pane-heading"><div><h2>Markdown 源码</h2><p>{pending ? '修改已暂存，应用后可预览或导出。' : '正文和词条属性的完整保存内容。'}</p></div><Button disabled={!pending || !editor} onClick={applySource}>应用源码</Button></div><SourceEditor value={sourceValue} onChange={sourceChanged} height="calc(100vh - 190px)" /></section> : null}
+        {view === 'source' ? <section className="wiki-source-pane"><div className="wiki-pane-heading"><div><h2>Markdown 源码</h2><p>{pending ? '修改已暂存，应用后可预览或导出。' : '正文和词条属性的完整保存内容。'}</p></div><div className="flex gap-2"><Button variant="outline" disabled={!pending} onClick={() => { pendingRef.current = undefined; setPending(false); setSourceValue(liveSource()); persist(); setView('edit'); }}>放弃修改</Button><Button disabled={!pending || !editor} onClick={applySource}>应用源码</Button></div></div><SourceEditor value={sourceValue} onChange={sourceChanged} height="calc(100vh - 190px)" /></section> : null}
         {view === 'preview' ? <PreviewPane source={liveSource()} title={title} /> : null}
       </main><div className="wiki-desktop-properties">{properties}</div>
     </div></div>
+    <Sheet open={navigationOpen} onOpenChange={setNavigationOpen}><SheetContent side="left" className="wiki-library-sheet"><SheetHeader className="sr-only"><SheetTitle>写作导航</SheetTitle></SheetHeader>{navigator}</SheetContent></Sheet>
     <Sheet open={mobileLibrary} onOpenChange={setMobileLibrary}><SheetContent side="left" className="wiki-library-sheet"><SheetHeader className="sr-only"><SheetTitle>词条库</SheetTitle></SheetHeader>{sidebar}</SheetContent></Sheet>
     <Sheet open={mobileProperties} onOpenChange={setMobileProperties}><SheetContent side="right" className="wiki-properties-sheet"><SheetHeader className="sr-only"><SheetTitle>词条属性</SheetTitle></SheetHeader>{properties}</SheetContent></Sheet>
     <NodeDialog target={target} locale={metadata.locale || 'zh'} onClose={() => setTarget(null)} />
     <Dialog open={draftsOpen} onOpenChange={setDraftsOpen}><DialogContent><DialogHeader><DialogTitle>本地草稿</DialogTitle><DialogDescription>这些草稿保存在当前浏览器中，可继续编辑或导出。</DialogDescription></DialogHeader><div className="wiki-draft-list">{drafts.length ? drafts.map(draft => <Button variant="ghost" className="wiki-draft-row" key={draft.key} onClick={() => { replaceDocument({ key: draft.key, path: draft.path, source: draft.source, pendingSource: draft.pendingSource }); setDraftsOpen(false); }}><FileText data-icon="inline-start" /><span><strong>{draft.title}</strong><small>{new Date(draft.savedAt).toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' })}</small></span></Button>) : <p>还没有本地草稿。</p>}</div></DialogContent></Dialog>
-    <input ref={fileInput} type="file" accept=".md,.markdown,text/markdown" className="hidden" aria-label="导入 Markdown 文件" onChange={async event => { const input = event.currentTarget; const file = input.files?.[0]; if (!file) return; try { if (file.size > 1_000_000) throw new Error('Markdown 文件不能超过 1 MB'); const source = await file.text(); validateDocumentSource(source); replaceDocument({ key: 'import:' + crypto.randomUUID(), path: '', source }); } catch (error: any) { toast.error(error.message); } input.value = ''; }} />
+    <input ref={fileInput} type="file" accept=".md,.markdown,text/markdown" className="hidden" aria-label="导入 Markdown 文件" onChange={async event => { const input = event.currentTarget; const file = input.files?.[0]; if (!file) return; try { if (file.size > 1_000_000) throw new Error('Markdown 文件不能超过 1 MB'); const sequence = ++loadSequence.current; const source = await file.text(); if (sequence !== loadSequence.current) return; validateDocumentSource(source); replaceDocument({ key: 'import:' + crypto.randomUUID(), path: '', source }); } catch (error: any) { toast.error(error.message); } input.value = ''; }} />
     <Toaster richColors theme={dark ? 'dark' : 'light'} />
-  </div></TooltipProvider>;
+  </div></TooltipProvider></CatalogContext.Provider>;
 }
 function PreviewPane({ source, title }: { source: string; title: string }) {
   const [html, setHtml] = useState(''); const [error, setError] = useState('');

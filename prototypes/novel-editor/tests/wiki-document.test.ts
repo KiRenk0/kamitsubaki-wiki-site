@@ -90,7 +90,7 @@ test('merged table cells export public HTML without editor node payloads', () =>
   ] });
   const output = exportWikiDocument(editor, loaded.context, loaded.metadata);
   assert.match(output, /<table/);
-  assert.ok(output.includes('{{ruby::花譜::かふ}}'));
+  assert.ok(output.includes('<ruby>花譜'), output);
   assert.ok(!output.includes('data-wiki-'));
 });
 test('real KAF biography is editable and preserves special content when prose changes', async () => {
@@ -110,4 +110,130 @@ test('real KAF biography is editable and preserves special content when prose ch
   assert.ok(output.includes('测试：'));
   assert.ok(output.includes('{{ruby::花譜::かふ::kaf}}'));
   assert.ok(output.includes('{{spoiler::'));
+});
+
+test('merged and resized tables reopen as editable native tables with Wiki content', () => {
+  const loaded = loadWikiDocument(editor, wrap('| 名称 | 说明 |\n| --- | --- |\n| {{ruby::花譜::かふ}} | 资料 |'));
+  let firstCell = 0;
+  editor.state.doc.descendants((node, position) => { if (!firstCell && node.type.name === 'tableCell') firstCell = position; });
+  editor.commands.setTextSelection(firstCell + 2);
+  editor.commands.setCellAttribute('colwidth', [220]);
+  const resized = exportWikiDocument(editor, loaded.context, loaded.metadata);
+  assert.match(resized, /colwidth="220"/);
+  loadWikiDocument(editor, resized);
+  assert.equal(editor.state.doc.firstChild!.type.name, 'table');
+  const cells: any[] = [];
+  editor.state.doc.descendants(node => { if (node.type.name === 'tableCell') cells.push(node); });
+  assert.ok(cells.some(cell => cell.attrs.colwidth?.[0] === 220));
+  assert.ok(cells.some(cell => cell.firstChild.firstChild?.type.name === 'wikiInline'));
+});
+
+test('merged cells survive save, reopen, split, edit, and save again', async () => {
+  const { CellSelection, selectedRect } = await import('@tiptap/pm/tables');
+  const loaded = loadWikiDocument(editor, wrap('| 名称 | 说明 |\n| --- | --- |\n| {{ruby::花譜::かふ}} | 资料 |'));
+  let firstCell = 0;
+  editor.state.doc.descendants((node, position) => { if (!firstCell && node.type.name === 'tableCell') firstCell = position; });
+  editor.commands.setTextSelection(firstCell + 2);
+  const rect = selectedRect(editor.state);
+  editor.view.dispatch(editor.state.tr.setSelection(new CellSelection(editor.state.doc.resolve(rect.tableStart + rect.map.map[2]), editor.state.doc.resolve(rect.tableStart + rect.map.map[3]))));
+  assert.equal(editor.commands.mergeCells(), true);
+  const merged = exportWikiDocument(editor, loaded.context, loaded.metadata);
+  assert.match(merged, /colspan="2"/);
+  const reopened = loadWikiDocument(editor, merged);
+  assert.equal(editor.state.doc.firstChild!.type.name, 'table');
+  let mergedPos = 0;
+  editor.state.doc.descendants((node, position) => { if (node.attrs.colspan === 2) mergedPos = position; });
+  editor.commands.setTextSelection(mergedPos + 2);
+  assert.equal(editor.commands.splitCell(), true);
+  let appendPosition = 0;
+  editor.state.doc.descendants((node, position) => { if (!appendPosition && node.type.name === 'tableCell') appendPosition = position + node.nodeSize - 2; });
+  editor.commands.setTextSelection(appendPosition);
+  editor.commands.insertContent('补充资料');
+  const output = exportWikiDocument(editor, reopened.context, reopened.metadata);
+  assert.ok(output.includes('补充资料'));
+  assert.ok(output.includes('<ruby>花譜'), output);
+  loadWikiDocument(editor, output);
+  assert.equal(editor.state.doc.firstChild!.type.name, 'table');
+});
+
+test('table row, column, alignment, selection and exit use native transactions', async () => {
+  const { selectTableAxis, alignTableColumns, exitTable } = await import('../src/editor/table-controls');
+  const loaded = loadWikiDocument(editor, wrap('| 名称 | 说明 |\n| --- | --- |\n| 花譜 | 资料 |'));
+  editor.commands.setTextSelection(4);
+  assert.equal(editor.commands.addRowBefore(), true);
+  assert.equal(editor.commands.addColumnAfter(), true);
+  selectTableAxis(editor, 'column'); alignTableColumns(editor, 'center');
+  const output = exportWikiDocument(editor, loaded.context, loaded.metadata);
+  assert.ok(output.includes(':---:') || output.includes('text-align: center'));
+  exitTable(editor);
+  assert.equal(editor.isActive('table'), false);
+  editor.commands.insertContent('表后说明');
+  const saved = exportWikiDocument(editor, loaded.context, loaded.metadata);
+  assert.ok(saved.includes('表后说明'));
+  loadWikiDocument(editor, saved);
+  assert.equal(editor.state.doc.firstChild!.type.name, 'table');
+});
+
+test('find respects formatting boundaries, Unicode positions and inline atoms', async () => {
+  const { findTextMatches } = await import('../src/lib/document-search');
+  loadWikiDocument(editor, wrap('普通**用户**测试，用户 {{ruby::花譜::かふ}} 用户。\n\n| 内容 |\n| --- |\n| 用户 |'));
+  const matches = findTextMatches(editor.state.doc, '用户');
+  assert.equal(matches.length, 4);
+  for (const match of matches) assert.equal(editor.state.doc.textBetween(match.from, match.to), '用户');
+  assert.equal(findTextMatches(editor.state.doc, '用户 花譜').length, 0);
+});
+
+test('metadata edits participate in native undo and preserve original body and unknown fields', () => {
+  const source = wrap('正文 {{ruby::花譜::かふ}}');
+  const loaded = loadWikiDocument(editor, source);
+  editor.commands.command(({ tr }) => { tr.setDocAttribute('wikiMetadata', { ...loaded.metadata, title: '标题修改', future: { values: [1, true, '保留'] } }); return true; });
+  const output = exportWikiDocument(editor, loaded.context, editor.state.doc.attrs.wikiMetadata);
+  assert.ok(output.includes('标题修改'));
+  assert.ok(output.endsWith(loaded.context.body));
+  assert.equal(editor.commands.undo(), true);
+  assert.equal(exportWikiDocument(editor, loaded.context, editor.state.doc.attrs.wikiMetadata), source);
+  assert.equal(editor.commands.redo(), true);
+  assert.ok(exportWikiDocument(editor, loaded.context, editor.state.doc.attrs.wikiMetadata).includes('标题修改'));
+});
+
+test('applying a full source edit can be undone with its metadata', () => {
+  const source = wrap('正文 {{ruby::花譜::かふ}}');
+  const loaded = loadWikiDocument(editor, source);
+  const updated = loadWikiDocument(editor, source.replace('测试', '新标题').replace('正文 ', '新正文 '), '', true);
+  assert.equal(editor.commands.undo(), true);
+  assert.equal(exportWikiDocument(editor, updated.context, editor.state.doc.attrs.wikiMetadata), source);
+});
+
+test('public reader renders Wiki content and widths after an HTML table save', async () => {
+  const { renderMarkdownFragment } = await import('../../../src/lib/markdown.mjs');
+  const loaded = loadWikiDocument(editor, wrap('| 名称 | 说明 |\n| --- | --- |\n| {{ruby::花譜::かふ::kaf}} | $x^2$ |'));
+  let cellPos = 0;
+  editor.state.doc.descendants((node, position) => { if (!cellPos && node.type.name === 'tableCell') cellPos = position; });
+  editor.commands.setTextSelection(cellPos + 2);
+  editor.commands.setCellAttribute('colwidth', [220]);
+  const source = exportWikiDocument(editor, loaded.context, loaded.metadata);
+  const rendered = await renderMarkdownFragment(source.replace(/^---\n[\s\S]*?\n---\n/, ''));
+  assert.match(rendered, /<ruby>花譜<rt class="furi">かふ<\/rt><rt class="roma">kaf<\/rt><\/ruby>/);
+  assert.match(rendered, /width="220"/);
+  assert.match(rendered, /katex/);
+  assert.doesNotMatch(rendered, /\{\{ruby::|data-wiki-/);
+  const reopened = loadWikiDocument(editor, source);
+  const nodes: string[] = [];
+  editor.state.doc.descendants(node => { if (node.type.name === 'wikiInline') nodes.push(node.attrs.kind); });
+  assert.ok(nodes.includes('ruby'));
+  assert.ok(nodes.includes('math'));
+  assert.ok(exportWikiDocument(editor, reopened.context, reopened.metadata) === source);
+});
+
+test('inserting a table after a selected advanced block preserves that block', async () => {
+  const { insertTableAtSelection } = await import('../src/editor/table-controls');
+  const loaded = loadWikiDocument(editor, wrap('{{details::说明}}\n正文 {{ruby::花譜::かふ}}\n{{/details}}'));
+  assert.equal(editor.state.doc.firstChild!.type.name, 'wikiBlock');
+  editor.commands.setNodeSelection(0);
+  assert.equal(insertTableAtSelection(editor, 2, 2, true), true);
+  assert.equal(editor.state.doc.firstChild!.type.name, 'wikiBlock');
+  assert.equal(editor.state.doc.child(1).type.name, 'table');
+  const output = exportWikiDocument(editor, loaded.context, loaded.metadata);
+  assert.match(output, /\{\{details::说明\}\}/);
+  assert.match(output, /\{\{ruby::花譜::かふ\}\}/);
 });

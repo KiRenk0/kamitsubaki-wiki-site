@@ -1,4 +1,4 @@
-import { useMemo, useRef } from 'react';
+import { memo, useMemo, useRef } from 'react';
 import { EditorRoot, EditorContent, EditorCommand, EditorCommandEmpty, EditorCommandList, EditorCommandItem, EditorBubble, Command, createSuggestionItems, renderItems, handleCommandNavigation, handleImageDrop, handleImagePaste, createImageUpload, ImageResizer } from 'novel';
 import type { Editor } from '@tiptap/core';
 import { Heading2, Heading3, Type, List, ListOrdered, ListTodo, Quote, Code, Image, Table2, Tv, Music2, Sigma, ChevronRight, EyeOff, GripVertical } from 'lucide-react';
@@ -8,8 +8,8 @@ import { loadWikiDocument, type LoadedWikiDocument } from '@/lib/wiki-document';
 import { FormatActions, openInline, openDomain, openImage } from './toolbar';
 import { uploadLocalImage, type NodeEditTarget } from './node-dialog';
 
-export function NovelSurface({ source, path, onReady, onUpdate, onTransaction, open }: {
-  source: string; path: string; onReady: (editor: Editor, loaded: LoadedWikiDocument) => void; onUpdate: (editor: Editor) => void; onTransaction: (editor: Editor) => void; open: (target: NodeEditTarget) => void;
+export const NovelSurface = memo(function NovelSurface({ source, path, onReady, onUpdate, onTransaction, open }: {
+  source: string; path: string; onReady: (editor: Editor, loaded: LoadedWikiDocument) => void; onUpdate: (editor: Editor) => void; onTransaction: (editor: Editor, docChanged: boolean) => void; open: (target: NodeEditTarget) => void;
 }) {
   const ready = useRef(false);
   const callbacks = useRef({ onReady, onUpdate, onTransaction, open }); callbacks.current = { onReady, onUpdate, onTransaction, open };
@@ -39,7 +39,7 @@ export function NovelSurface({ source, path, onReady, onUpdate, onTransaction, o
   return <EditorRoot><EditorContent initialContent={{ type: 'doc', content: [{ type: 'paragraph' }] }} extensions={extensions} className="wiki-novel-surface"
     onCreate={({ editor }) => { instance.current = editor; try { const loaded = loadWikiDocument(editor, source, path); ready.current = true; callbacks.current.onReady(editor, loaded); } catch (error: any) { toast.error(error.message); } }}
     onUpdate={({ editor }) => { if (ready.current) callbacks.current.onUpdate(editor); }}
-    onTransaction={({ editor }) => { if (ready.current) callbacks.current.onTransaction(editor); }}
+    onTransaction={({ editor, transaction }) => { if (ready.current) callbacks.current.onTransaction(editor, transaction.docChanged); }}
     editorProps={{ attributes: { class: 'wiki-prose', role: 'textbox', 'aria-multiline': 'true', 'aria-label': '词条正文', 'data-testid': 'novel-editor' }, handleDOMEvents: { keydown: (_view, event) => handleCommandNavigation(event) }, handlePaste: (view, event) => handleImagePaste(view, event, upload), handleDrop: (view, event, _slice, moved) => handleImageDrop(view, event, moved, upload) }}
     slotAfter={<ImageResizer />}>
     <EditorCommand className="wiki-slash-menu"><EditorCommandEmpty>没有匹配的内容</EditorCommandEmpty><EditorCommandList>{items.map(item => <EditorCommandItem key={item.title} value={item.title} onCommand={props => item.command?.(props)} className="wiki-slash-item"><span className="wiki-slash-icon">{item.icon}</span><span><strong>{item.title}</strong><small>{item.description}</small></span></EditorCommandItem>)}</EditorCommandList></EditorCommand>
@@ -47,4 +47,4 @@ export function NovelSurface({ source, path, onReady, onUpdate, onTransaction, o
       {instance.current ? <FormatActions editor={instance.current} open={target => callbacks.current.open(target)} /> : null}
     </EditorBubble>
   </EditorContent></EditorRoot>;
-}
+});

@@ -4,11 +4,12 @@ import { resolve, relative, extname } from 'node:path';
 import { createHash } from 'node:crypto';
 import { parseDocument } from 'yaml';
 import { fileURLToPath } from 'node:url';
+import { entityRoute } from '../../../src/lib/entityModel.mjs';
 import { renderMarkdownDocument } from '../../../src/lib/markdown.mjs';
 
 const root = fileURLToPath(new URL('../../../', import.meta.url));
 const contentRoot = resolve(root, 'src/content');
-export type CatalogEntry = { path: string; title: string; romanized: string; locale: string; entityType: string; collection: string; id: string };
+export type CatalogEntry = { path: string; title: string; romanized: string; locale: string; entityType: string; collection: string; id: string; url: string | undefined; image: string | undefined };
 async function walk(folder: string): Promise<string[]> {
   const entries = await readdir(folder, { withFileTypes: true });
   const nested = await Promise.all(entries.map(entry => entry.isDirectory() ? walk(resolve(folder, entry.name)) :
@@ -25,7 +26,8 @@ export async function readCatalog(): Promise<CatalogEntry[]> {
       const document = parseDocument(match[1]);
       if (document.errors.length) return null;
       const meta = document.toJS({ maxAliasCount: 100 });
-      return { path: relative(root, path), title: meta.name || meta.title || meta.id || '', romanized: meta.romanizedName || meta.romanizedTitle || '',
+      let url: string | undefined; try { url = `/${meta.locale}${entityRoute(meta)}`; } catch { /* Legacy records remain available as sources. */ }
+      return { url, image: typeof meta.presentation?.image === 'string' ? meta.presentation.image : undefined, path: relative(root, path), title: meta.name || meta.title || meta.id || '', romanized: meta.romanizedName || meta.romanizedTitle || '',
         locale: meta.locale, entityType: meta.entityType || '', collection: relative(contentRoot, path).split('/')[0], id: meta.id || meta.translationKey || '' };
     } catch { return null; }
   }));
