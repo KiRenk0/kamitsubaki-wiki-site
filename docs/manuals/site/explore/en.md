@@ -66,3 +66,11 @@ For a creator's participation, start with the entry and related records. For wha
 The chronicle's graphic view shows era spans; the list is better for checking individual dates and sources. Both share current filters. Do not invent dates merely to populate a timeline. The gallery displays **set → images** and can be narrowed by character. A submitted set may have only some images approved, so public image count may differ from batch count.
 
 The article list contains public writing in the current content language. Search, category, and pagination help locate it, and the URL retains filter state. For reference facts, return to an entry and its sources: an article's argument does not automatically alter encyclopedia properties.
+
+## Story Mode guided routes
+
+[Story Mode](/en/explore/stories/) offers five introductions: KAF, V.W.P, Kamitsubaki City, KAF to Kaika, and PIEDPIPER. Each has six chapters with questions, source-backed records and optional existing media. Suggested guide lengths exclude the full duration of songs, videos and original works.
+
+Moving between chapters does not mark them read. Use “Mark read and continue” to save completion in this device’s browser. Languages share progress; a shared link contains only the chapter position. Restart clears only the current route. After reading all chapters, continue with another route, Discovery or Graph.
+
+Players load only on request and close when you change chapters. Original links remain available. Story summaries can be expanded deliberately, and editorial reading order does not imply a shared plot chronology. All chapters remain readable without scripts or persistent storage.

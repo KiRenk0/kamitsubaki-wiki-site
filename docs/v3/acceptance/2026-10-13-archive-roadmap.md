@@ -4,6 +4,7 @@
 
 本表保留初次核对时的状态；同日后续的[演出档案与创作者查询](2026-10-13-live-credits.md)与[全站 Graph 完整功能](2026-10-13-graph-complete.md)另有增量记录。
 第 9 项后续实现见[Discovery 偏好推荐与每日探索路线](2026-10-13-discovery.md)。
+第 3 项后续实现见[Story Mode 入坑路线与阅读进度](2026-10-13-story-mode.md)。
 
 ## 本机与远端基线
 
