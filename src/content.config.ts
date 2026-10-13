@@ -210,6 +210,8 @@ const site = defineCollection({
       selectDateLabel: z.string(),
       emptyDay: z.string(),
       eventCountLabel: z.string(),
+      artistFilterLabel: z.string(),
+      allArtistsLabel: z.string(),
       backHomeLabel: z.string(),
       weekdays: z.array(z.string()).length(7),
     }),
