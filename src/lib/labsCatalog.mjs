@@ -23,7 +23,7 @@ export function normalizeDate(value) {
 
 export function entryPath(collection, entry, locale) {
   return new URL(
-    `/${locale}/${collection}/${entry.id.split('/').slice(0, -1).join('/')}/`,
+    `/${locale}/${collection}/${entry.id.normalize('NFC').split('/').slice(0, -1).join('/')}/`,
     'https://wiki.invalid',
   ).pathname;
 }

@@ -1,9 +1,10 @@
-import {archiveRecord,selectArchive,parseArchiveQuestion,musicVersions,archiveStatistics,setlistStatistics,compareArchive,archiveOnThisDay,mysteryEntity,validBarcode,physicalCatalog,atlasPlaces,evidenceFor,genomePoints,unique} from '../lib/archiveResearch.mjs';
+import {archiveRecord,selectArchive,parseArchiveQuestion,musicVersions,archiveStatistics,setlistStatistics,compareArchive,archiveOnThisDay,mysteryEntity,validBarcode,physicalCatalog,atlasPlaces,evidenceFor,genomePoints,visualRecords,unique} from '../lib/archiveResearch.mjs';
 import {loadArchiveSnapshot,communityRequest,currentArchiveOwner,recordObservation,synchronizeObservatory,archiveAccount} from '../lib/archiveClient.mjs';
 import {loadObservatory,saveObservatory,validateObservatory,mergeObservatory,observatoryYear,observatoryAchievements} from '../lib/archivePersonal.mjs';
 import {addRadioTracks} from '../lib/archiveRadio.mjs';
 import {updateLocaleQueries} from '../lib/localeQuery.mjs';
 import {svgNode} from '../lib/archiveChart.mjs';
+import {createArchiveScanner} from '../lib/archiveScanner.mjs';
 
 const element=(tag,text='',className='')=>{const node=document.createElement(tag);if(text!==undefined)node.textContent=String(text);if(className)node.className=className;return node;};
 function link(text,path) {
@@ -21,7 +22,7 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
  const form=root.querySelector('[data-archive-filters]');
  const pendingControls=[...root.querySelectorAll('form input,form select,form textarea,form button')].filter(control=>!control.disabled);
  pendingControls.forEach(control=>control.disabled=true);root.setAttribute('aria-busy','true');
- let snapshot,limit=24,lastRows=[],renderToken=0,profile=null,community=null,taskStates=[],reviews=[],room=null,roomTimer=null,camera=null,cameraTimer=null,destroyed=false;
+ let snapshot,limit=24,lastRows=[],renderToken=0,profile=null,community=null,taskStates=[],reviews=[],room=null,roomTimer=null,scanner=null,atlasMapHandle=null,atlasMapGeneration=0,atlasMapEnabled=false,detailTrigger=null,destroyed=false;
  const record=id=>archiveRecord(snapshot,id,locale),name=id=>record(id)?.title || id;
  const report=message=>{status.textContent=message;};
  const errorMessage=error=>error.message==='profile_conflict'?c.conflict:['community_unavailable','identity_service_unavailable','catalogue_unavailable'].includes(error.message)?c.unavailable:error.status===401?c.signIn:c.failed;
@@ -68,10 +69,11 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
  async function saveRecord(value,target){
   await action(async()=>{const result=await recordObservation(value,storage);if(module==='observatory')await renderObservatory();report(result.synced?c.synced:c.local+(result.error?' · '+errorMessage(result.error):''));},target);
  }
+ function closeDetail({updateURL=true,restoreFocus=true}={}){detail.replaceChildren();detail.hidden=true;if(updateURL)setQuery({entry:''});if(restoreFocus)(detailTrigger?.isConnected?detailTrigger:root.querySelector('[data-archive-share]'))?.focus?.({preventScroll:true});}
  function showDetail(id){
   const row=record(id);if(!row){report(c.empty);return;}
-  detail.replaceChildren();detail.hidden=false;
-  detail.append(button(c.close,()=>{detail.hidden=true;setQuery({entry:''});}));
+  detailTrigger=document.activeElement;detail.replaceChildren();detail.hidden=false;
+  detail.append(button(c.close,()=>closeDetail()));
   const heading=element('h2');heading.append(link(row.title,row.path));detail.append(heading,element('p',row.summary || ''));
   const data=element('dl');
   for(const [label,value] of [[c.date,row.date],[c.type,row.type],[c.duration,row.facts.duration],[c.snapshot,snapshot.snapshot]]){data.append(element('dt',label),element('dd',value || c.unknown));}
@@ -130,14 +132,9 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
  }
  function renderVisual(){
   const values=query(),year=root.querySelector('[data-visual-year]').dataset.active==='true'?root.querySelector('[data-visual-year]').value:'';
-  const entities=selectArchive(snapshot,{...values,year:''},locale);
-  const rows=entities.flatMap(entity=>{
-   const explicit=(entity.facts.visualHistory || []).map(visual=>({...visual,entityId:entity.id,record:entity,path:entity.path}));
-   if(explicit.length)return explicit;
-   return entity.morphing && entity.image?[{id:entity.id,title:entity.title,image:entity.image,date:null,entityId:entity.id,record:entity,path:entity.path,designer:entity.facts.relations?.find(r=>r.type==='character-designed-by')?.target,sourceIds:[]}]:[];
-  }).filter(visual=>(!values.year || visual.date?.startsWith(values.year)) && (!year || visual.date && visual.date.slice(0,4)<=year)).sort((a,b)=>(b.date || '').localeCompare(a.date || '') || a.id.localeCompare(b.id));
+  const rows=visualRecords(snapshot,{...values,until:year},locale);
   results.replaceChildren();results.className='archive-visual-grid';
-  for(const visual of rows.slice(0,limit)){const article=element('article');if(visual.image){const image=element('img');image.src=visual.image;image.alt=visual.title;image.loading='lazy';article.append(image);}const title=element('h2');title.append(link(visual.title,visual.path));article.append(title,element('p',c.date+': '+(visual.date || c.unknown)),element('p',c.designer+': '+(visual.designer?name(visual.designer):c.unknown)));
+  for(const visual of rows.slice(0,limit)){const article=element('article');if(visual.image){const zoom=button(c.zoomIn+' · '+visual.title,async()=>{const {galleryImageViewer}=await import('../lib/galleryImageViewer.mjs');const images=rows.slice(0,limit).filter(row=>row.image).map(row=>({id:row.id,src:row.image,title:row.title,metadata:[{label:c.date,value:row.date || c.unknown},{label:c.designer,value:row.designer?name(row.designer):row.designerName || c.unknown}],links:[{href:row.path,label:c.open}]}));galleryImageViewer().open(images,images.findIndex(row=>row.id===visual.id),zoom,{locale});});zoom.className='archive-visual-zoom';zoom.setAttribute('aria-label',c.zoomIn+' · '+visual.title);const image=element('img');image.src=visual.image;image.alt=visual.title;image.loading='lazy';zoom.replaceChildren(image);article.append(zoom);}const title=element('h2');title.append(link(visual.title,visual.path));article.append(title,element('p',c.date+': '+(visual.date || c.unknown)),element('p',c.designer+': '+(visual.designer?name(visual.designer):visual.designerName || c.unknown)));
    if(visual.uses?.length){const uses=element('ul');for(const use of visual.uses){const li=element('li');li.append(reference(use.entity),element('span',' · '+(use.date || c.unknown)));uses.append(li);}article.append(uses);}
    article.append(link(c.gallery,'/'+locale+'/gallery/?entity='+visual.entityId),element('span',' · '),link(c.claims,'/'+locale+'/explore/evidence/?entity='+visual.entityId));results.append(article);}
   if(!rows.length)results.append(element('p',c.empty));
@@ -145,13 +142,14 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
  }
  function renderAtlas(){
   const values=query(),terms=String(values.q || '').toLowerCase(),places=atlasPlaces(snapshot,locale).filter(place=>(!values.world || place.world===values.world) && (!terms || [place.title,place.city,place.country,...place.entities.map(name)].join(' ').toLowerCase().includes(terms)));
+  atlasMapGeneration++;atlasMapHandle?.destroy();atlasMapHandle=null;
   const map=root.querySelector('[data-atlas-map]'),physical=places.filter(p=>p.world==='real'),located=physical.filter(p=>p.coordinates);
   map.replaceChildren(element('h2',values.world==='virtual'?c.topology:c.placeMap),element('p',c.coordinates+': '+located.length+' / '+physical.length));
   const svg=svgNode('svg',{viewBox:'0 0 720 380',class:'archive-chart',role:'group','aria-label':c.placeMap});
   for(let lat=-60;lat<=60;lat+=30)svg.append(svgNode('line',{x1:0,y1:(90-lat)/180*360,x2:720,y2:(90-lat)/180*360,stroke:'currentColor','stroke-opacity':.1}));
   for(let lon=-180;lon<=180;lon+=60)svg.append(svgNode('line',{x1:(lon+180)*2,y1:0,x2:(lon+180)*2,y2:360,stroke:'currentColor','stroke-opacity':.1}));
   located.forEach(place=>{const circle=svgNode('circle',{cx:(place.coordinates.lng+180)*2,cy:(90-place.coordinates.lat)*2,r:6,class:'point',tabindex:0,role:'button','aria-label':place.title});circle.append(svgNode('title',{},place.title));circle.addEventListener('click',()=>showDetail(place.entities[0]));circle.addEventListener('keydown',event=>{if(event.key==='Enter')showDetail(place.entities[0]);});svg.append(circle);});
-  if(located.length)map.append(svg);
+  if(located.length){map.append(svg);const target=element('div','','archive-map-view');target.hidden=true;target.dataset.archiveMap='';const load=button(c.interactiveMap,event=>action(async()=>{const epoch=atlasMapGeneration;atlasMapEnabled=true;load.disabled=true;target.hidden=false;const {mountArchiveMap}=await import('../lib/archiveLeaflet.mjs');const handle=await mountArchiveMap(target,located,{onOpen:showDetail,copy:c,...(root.dataset.mapTileUrl?{tileURL:root.dataset.mapTileUrl}:{}),...(root.dataset.mapAttribution?{attribution:root.dataset.mapAttribution}:{})});if(epoch!==atlasMapGeneration || destroyed){handle?.destroy();return;}atlasMapHandle=handle;svg.setAttribute('hidden','');load.hidden=true;map.append(element('p',c.routeLineNote));await renderRoute();},event.currentTarget));load.dataset.loadArchiveMap='';map.append(load,target);if(atlasMapEnabled)load.click();}
   if(places.some(p=>p.world==='virtual')){
    map.append(element('p',c.notGeographic));
    const fictional=places.filter(p=>p.world==='virtual'),ids=new Set(fictional.flatMap(p=>p.entities));
@@ -166,7 +164,7 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
  }
  async function renderRoute(){
   const currentOwner=await owner(),local=loadObservatory(storage,currentOwner),route=local.data.routes.find(r=>r.id==='pilgrimage'),allPlaces=atlasPlaces(snapshot,locale),rows=(route?.places || []).map(id=>allPlaces.find(p=>p.id===id)).filter(p=>p?.world==='real'),list=root.querySelector('[data-pilgrimage-route]');
-  if(!list)return;list.replaceChildren();
+  if(!list)return;list.replaceChildren();atlasMapHandle?.setRoute(rows);
   const save=async places=>{const data={...local.data,routes:[{id:'pilgrimage',places},...local.data.routes.filter(r=>r.id!=='pilgrimage')]};saveObservatory(storage,currentOwner,data,local.revision,true);await renderRoute();};
   rows.forEach((place,index)=>{const li=element('li',place.title+' ');for(const [label,step]of [[c.up,-1],[c.down,1]]){const move=button(label,()=>{const ids=rows.map(r=>r.id),target=index+step;if(target<0 || target>=ids.length)return;[ids[index],ids[target]]=[ids[target],ids[index]];void save(ids);});move.disabled=index+step<0 || index+step>=rows.length;li.append(move);}li.append(button(c.remove,()=>void save(rows.filter(r=>r.id!==place.id).map(r=>r.id))));list.append(li);});
   const directions=root.querySelector('[data-route-directions]');directions.hidden=!rows.length;if(rows.length){const stops=rows.slice(0,10).map(p=>[p.title,p.city,p.country].filter(Boolean).join(' '));directions.href='https://www.google.com/maps/dir/?api=1&origin='+encodeURIComponent(stops[0])+'&destination='+encodeURIComponent(stops.at(-1))+(stops.length>2?'&waypoints='+encodeURIComponent(stops.slice(1,-1).join('|')):'');}
@@ -312,16 +310,11 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
   report(rows.length?rows.length+' '+c.results:c.noBarcode);
  }
  async function startCamera(){
-  if(!('BarcodeDetector' in window) || !navigator.mediaDevices?.getUserMedia){report(c.cameraUnavailable);return;}
-  try{
-   const supported=await window.BarcodeDetector.getSupportedFormats(),formats=['ean_13','ean_8','upc_a'].filter(format=>supported.includes(format));
-   if(!formats.length){report(c.cameraUnavailable);return;}
-   const video=root.querySelector('[data-barcode-camera]'),detector=new window.BarcodeDetector({formats});
-   camera=await navigator.mediaDevices.getUserMedia({video:{facingMode:{ideal:'environment'}},audio:false});video.srcObject=camera;video.hidden=false;await video.play();root.querySelector('[data-stop-scan]').hidden=false;
-   const detect=async()=>{if(!camera || destroyed)return;try{const codes=await detector.detect(video);if(codes.length){const code=codes[0].rawValue;root.querySelector('[data-barcode-form] [name=barcode]').value=code;stopCamera();findBarcode(code);return;}}catch{}cameraTimer=setTimeout(detect,350);};void detect();
-  }catch{stopCamera();report(c.cameraUnavailable);}
+  if(!navigator.mediaDevices?.getUserMedia){report(c.cameraUnavailable);return;}
+  const video=root.querySelector('[data-barcode-camera]');scanner??=createArchiveScanner({video,onCode:barcode=>{root.querySelector('[data-barcode-form] [name=barcode]').value=barcode;setQuery({barcode});findBarcode(barcode);},onState:value=>{root.querySelector('[data-stop-scan]').hidden=!['starting','active'].includes(value);root.querySelector('[data-start-scan]').disabled=['starting','active'].includes(value);if(value==='unavailable')report(c.cameraUnavailable);else if(['starting','active'].includes(value))report(c.scanning);}});
+  await scanner.start();
  }
- function stopCamera(){clearTimeout(cameraTimer);if(camera)for(const track of camera.getTracks())track.stop();camera=null;const video=root.querySelector('[data-barcode-camera]');if(video){video.srcObject=null;video.hidden=true;}const stop=root.querySelector('[data-stop-scan]');if(stop)stop.hidden=true;}
+ function stopCamera(){scanner?.stop();}
  function renderToday(monthDay){
   const events=archiveOnThisDay(snapshot,monthDay,locale);listRecords(events.map(event=>({...event,date:event.date.start,type:'event',fallback:event.locale!==locale,sourceLocale:event.locale})),results,false);more.hidden=true;report(events.length+' '+c.results);
  }
@@ -406,7 +399,9 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
  listen('[data-today-form]','submit',event=>{event.preventDefault();renderToday(event.currentTarget.elements.monthDay.value);setQuery({day:event.currentTarget.elements.monthDay.value});});
  listen('[data-mystery-form]','submit',event=>{event.preventDefault();const mystery=mysteryEntity(snapshot,tokyoDay()),answer=event.currentTarget.elements.guess.value.trim().toLowerCase(),entity=record(mystery?.id);root.querySelector('[data-mystery-answer]').textContent=entity && [entity.id,...Object.values(entity.narratives).map(n=>n.title)].some(value=>value.toLowerCase()===answer)?c.correct:c.incorrect;});
  listen('[data-mystery-reveal]','click',()=>{const mystery=mysteryEntity(snapshot,tokyoDay()),target=root.querySelector('[data-mystery-answer]');if(mystery)target.replaceChildren(reference(mystery.id));});
- window.addEventListener('pagehide',()=>{destroyed=true;stopCamera();clearInterval(roomTimer);});
+ window.addEventListener('pageshow',event=>{if(event.persisted){destroyed=false;if(module==='atlas')renderAtlas();if(room){clearInterval(roomTimer);roomTimer=setInterval(()=>void refreshRoom(),15000);void refreshRoom();}}});
+ window.addEventListener('pagehide',()=>{destroyed=true;stopCamera();atlasMapGeneration++;atlasMapHandle?.destroy();atlasMapHandle=null;clearInterval(roomTimer);closeDetail({updateURL:false,restoreFocus:false});});
+ root.addEventListener('keydown',event=>{if(event.key==='Escape' && !detail.hidden && !document.querySelector('.pswp--open')){event.preventDefault();closeDetail();}});
  let displayedOwner;
  window.addEventListener('kamitsubaki-account-state',event=>{
   const next=event.detail?.viewer?.userId || null;if(next===displayedOwner)return;displayedOwner=next;
@@ -417,7 +412,7 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
   if(module==='rooms'){room=null;clearInterval(roomTimer);root.querySelector('[data-room-current]').replaceChildren();root.querySelector('[data-active-room]').hidden=true;}
  });
  document.addEventListener('visibilitychange',()=>{if(document.hidden)stopCamera();else if(room)void refreshRoom();});
- window.addEventListener('popstate',()=>{limit=24;restoreForm();void render();const params=new URL(location.href).searchParams;restoreComparison(params);restoreQuestion(params);if(module==='evidence')renderEvidence(params.get('entity'));if(module==='today')renderToday(params.get('day') || tokyoDay().slice(5));if(params.get('entry'))showDetail(params.get('entry'));else detail.hidden=true;});
+ window.addEventListener('popstate',()=>{limit=24;restoreForm();void render();const params=new URL(location.href).searchParams;restoreComparison(params);restoreQuestion(params);if(module==='evidence')renderEvidence(params.get('entity'));if(module==='today')renderToday(params.get('day') || tokyoDay().slice(5));if(params.get('entry'))showDetail(params.get('entry'));else closeDetail({updateURL:false,restoreFocus:false});});
  try{
   snapshot=await loadSnapshot(root.dataset.snapshotUrl);pendingControls.forEach(control=>control.disabled=false);root.removeAttribute('aria-busy');restoreForm();await render();
   const params=new URL(location.href).searchParams;

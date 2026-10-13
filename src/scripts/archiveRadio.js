@@ -41,7 +41,7 @@ export async function initializeArchiveRadio(root){
   }catch{status.textContent=c.failed;}
  }
  async function play(){
-  const record=archiveRecord(snapshot,queue.ids[queue.index],locale),media=record?.media[0]?.embed;
+  const record=archiveRecord(snapshot,queue.ids[queue.index],locale),media=(record?.media.find(item=>item.embed.provider==='youtube') || record?.media[0])?.embed;
   if(!media){status.textContent=c.radioUnavailable;return;}
   destroyPlayer();playingId=record.id;const epoch=playEpoch;status.textContent=c.radioNote;root.open=true;
   if(media.provider==='youtube'){

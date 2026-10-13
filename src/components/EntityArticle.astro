@@ -75,7 +75,7 @@ const sections=buildEntityReaderNavigation({kind:d.entityType==='live-event'?'li
   <div class="reader-frame reader-heading-frame mx-auto px-4 sm:px-6">
   <WikiArticleHeader data={{name:title,romanizedName:d.romanizedName||d.romanizedTitle||'',profileTagline:d.summary}} localeLinks={localeLinks} labels={{home:locale==='en'?'Home':locale==='ja'?'ホーム':'首页',section:isArticle?copy.articles:copy.database,source:isArticle?(locale==='en'?'Suggest an edit':locale==='ja'?'修正を提案':'提交修改'):copy.edit,languages:locale==='en'?'Languages':locale==='ja'?'言語':'语言'}} sourceHref={entryEditHref} sharePath={entry.url} homeHref={`/${locale}/`}><a slot="section" href={`/${locale}/${isArticle?'articles':'database'}/`}>{isArticle?copy.articles:copy.database}</a></WikiArticleHeader>
   {sections.length>0&&<EntitySectionNav items={sections} locale={locale}/>}
-  <EntityArchiveActions entity={d} locale={locale}/>
+  <EntityArchiveActions entity={d} locale={locale} registry={registry} timeline={footprints} hasGallery={hasGallery}/>
   {d.contentStatus==='stub'&&<div class="archive-notice archive-notice--stub"><span>{locale==='en'?'Reserved entry · Content to be completed':locale==='ja'?'準備中の記事 · 内容は後日追加予定':'待补全条目 · 按分类详细图预留'}</span><ContextAction href={entryEditHref} tone="quiet">{locale==='en'?'Help complete this entry':locale==='ja'?'この項目を補完する':'帮助完善此词条'}</ContextAction></div>}
   {entry.fallback&&<p class="source-note" lang={entry.sourceLocale}>{copy.fallback}</p>}
   {morphs.length>1&&<MorphingSwitcher entries={morphs} current={d.id} locale={locale}/>}

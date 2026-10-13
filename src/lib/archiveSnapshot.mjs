@@ -3,7 +3,7 @@ import {execFileSync} from 'node:child_process';
 import {readFile} from 'node:fs/promises';
 import {getEntityRegistry} from './entityRegistry.mjs';
 import {loadFeatureData,featureText} from './featureData.mjs';
-import {resolveMediaEmbed} from './mediaEmbed.mjs';
+import {storyMedia} from './storyCatalog.mjs';
 import {entityRoute,entityEdges} from './entityModel.mjs';
 import {entityCompleteness} from './entityCompleteness.mjs';
 import {normalizeDate} from './labsCatalog.mjs';
@@ -46,10 +46,7 @@ export async function buildArchiveSnapshot(registry,feature) {
     if(narratives.zh)for(const locale of ['zh-tw','zh-hk'])narratives[locale]={...convertChineseContentValue(narratives.zh,locale),locale,path:'/'+locale+entityRoute(d),generated:true};
     const file=String(entry.filePath || '').replaceAll('\\','/').split('src/content/')[1];
     const sourceFile=file?'src/content/'+file:null;
-    const media=unique((d.media || []).map(m=>JSON.stringify(m))).flatMap(value=>{
-      const m=JSON.parse(value),embed=resolveMediaEmbed(m.platform,m.url || m.id);
-      return embed?[{...m,embed}]:[];
-    });
+    const media=storyMedia(d,entry.body || '',{includeLinks:false,maxItems:6,allowIdentifiers:true}).map(item=>({platform:item.provider,type:'recorded-embed',url:item.href,embed:{provider:item.provider,src:item.src,kind:item.kind,label:item.label,allow:item.allow,...(item.sandbox?{sandbox:item.sandbox}:{}),...(item.height?{height:item.height}:{})}}));
     // Same-ID field claims require explicit evidence. An article's source list alone is not verification.
     const sourceMap=new Map((d.sources || []).map((source,index)=>[source.id || 'source-'+index,source]));
     for(const claim of d.evidence || []){

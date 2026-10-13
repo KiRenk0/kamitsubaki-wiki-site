@@ -7,3 +7,4 @@ export function archiveRecord(snapshot:ArchiveSnapshot,id:string,locale?:string)
 export function selectArchive(snapshot:ArchiveSnapshot,query?:Record<string,string>,locale?:string):ArchiveRecord[];
 export function isDay(value:string):boolean;
 export function durationSeconds(value:string):number|null;
+export function visualRecords(snapshot:ArchiveSnapshot,query?:Record<string,string>,locale?:string):Array<{id:string;title:string;image:string;date:string|null;entityId:string;record:ArchiveRecord;path:string;designer?:string;designerName?:string;sourceIds?:string[];[key:string]:unknown}>;

@@ -16,7 +16,7 @@ const label=(entity:any)=>entity.narratives[locale]?.title || entity.narratives.
 const searchable=['music','radio','statistics','visual','museum','challenges','languages','physical','atlas','live-mode'];
 ---
 <WorkspaceLayout locale={locale} title={feature.title} intro={feature.intro} path={'/explore/'+module+'/'} eyebrow={feature.roadmap+' / '+feature.system.toUpperCase()} backHref={'/'+locale+'/explore/'} backLabel={c.back} width="wide" mainAttributes={{class:'fan-archive-page'}}>
- <section class="fan-archive" data-archive-workspace data-module={module} data-locale={locale} data-snapshot-url={manifest.snapshotUrl}>
+ <section class="fan-archive" data-archive-workspace data-module={module} data-locale={locale} data-map-tile-url={import.meta.env.PUBLIC_ARCHIVE_MAP_TILE_URL || undefined} data-map-attribution={import.meta.env.PUBLIC_ARCHIVE_MAP_ATTRIBUTION || undefined} data-snapshot-url={manifest.snapshotUrl}>
   <nav class="archive-links" aria-label={c.back}>{archiveFeatureDefinitions.filter(row=>row[1]===feature.system).map(row=><a href={'/'+locale+'/explore/'+row[0]+'/'} aria-current={row[0]===module?'page':undefined}>{archiveFeature(locale,row[0]).title}</a>)}</nav>
   <div class="archive-caption"><p>{c.coverage}</p><button type="button" data-archive-share><Icon name="share"/>{c.share}</button></div>
   {searchable.includes(module) && <form class="archive-filters" data-archive-filters>
@@ -50,7 +50,7 @@ const searchable=['music','radio','statistics','visual','museum','challenges','l
   <div data-archive-results class="archive-result-list">{['music','radio','physical'].includes(module) && initial.map(row=><article class="archive-row"><div><small>{entityLabel(row.type,locale)} · {row.date || c.unknown}</small><h2><a href={row.path}>{row.title}</a></h2><p>{row.summary}</p></div></article>)}</div>
   <button type="button" data-archive-more hidden>{c.more}</button>
   <aside data-archive-detail class="archive-detail" hidden tabindex="-1"></aside>
-  <details class="archive-data-note"><summary>{c.snapshot} / {c.openData}</summary><p><code>{snapshot.snapshot}</code></p><a href="/api/archive/v1/manifest.json">{c.openData}<Icon name="arrow-up-right"/></a><p>{manifest.license.text}</p></details>
+  <details class="archive-data-note"><summary>{c.snapshot} / {c.openData}</summary><p><code>{snapshot.snapshot}</code></p><a href="/api/archive/v1/manifest.json">{c.openData}<Icon name="arrow-up-right"/></a><p>{manifest.license.text}</p><a href="/third-party-notices.txt">{c.openSource}</a></details>
   <datalist id="archive-entity-ids">{snapshot.entities.filter(e=>['person','virtual-avatar','unit','software-voice','work-track','work-release','live-event','project','lore-concept'].includes(e.type)).map(e=><option value={e.id}>{label(e)}</option>)}</datalist>
   <datalist id="archive-live-ids">{snapshot.entities.filter(e=>e.type==='live-event').map(e=><option value={e.id}>{label(e)}</option>)}</datalist>
   <script is:inline type="application/json" data-archive-copy set:html={JSON.stringify(c).replaceAll('<','\\u003c')}/>

@@ -12,7 +12,7 @@ export function safeStoryURL(value) {
   try { const u = new URL(value); return ['https:', 'http:'].includes(u.protocol) && !u.username && !u.password ? u.href : ''; } catch { return ''; }
 }
 /** Read authored media directives and links; never send article bodies to the client. */
-export function storyMedia(data = {}, body = '') {
+export function storyMedia(data = {}, body = '', options = {}) {
   const found = (data.media || []).map(m => ({ provider: m.platform, target: m.url || m.id, label: m.type || m.platform }));
   let fence = null;
   const text = String(body).replace(/<!--[\s\S]*?(?:-->|$)/g, '').split(/\r?\n/).map(line => {
@@ -24,7 +24,7 @@ export function storyMedia(data = {}, body = '') {
   for (const m of text.matchAll(/^\s*@\[([a-z-]+)\]\(([^\n)]+)\)\s*$/gmi)) {
     const target = m[2].match(/^(\S+?)(?:\s+"([^"]*)")?$/); if (target) found.push({ provider: m[1], target: target[1], label: target[2] || m[1] });
   }
-  for (const m of text.matchAll(/\[([^\]\n]+)\]\((https?:\/\/[^\s)]+)\)/g)) {
+  if (options.includeLinks !== false) for (const m of text.matchAll(/\[([^\]\n]+)\]\((https?:\/\/[^\s)]+)\)/g)) {
     const href = safeStoryURL(m[2]); if (!href) continue;
     const host = new URL(href).hostname;
     const provider = ['youtube.com', 'www.youtube.com', 'youtu.be', 'music.youtube.com'].includes(host) ? 'youtube' : ['www.bilibili.com', 'bilibili.com'].includes(host) ? 'bilibili' : '';
@@ -35,10 +35,10 @@ export function storyMedia(data = {}, body = '') {
     const media = resolveMediaEmbed(item.provider, item.target); if (!media) return [];
     if (media.provider === 'youtube' && !/\/embed\/[A-Za-z0-9_-]{11}$/.test(media.src)) return [];
     if (seen.has(media.src)) return []; seen.add(media.src);
-    const href = media.provider === 'youtube' ? 'https://www.youtube.com/watch?v=' + media.src.split('/').at(-1) : safeStoryURL(item.target);
+    const href = media.provider === 'youtube' ? 'https://www.youtube.com/watch?v=' + media.src.split('/').at(-1) : safeStoryURL(item.target) || (options.allowIdentifiers?media.src:'');
     if (!href) return [];
     return [{ provider: media.provider, label: item.label || media.label, src: media.src, href, kind: media.kind, allow: media.allow, sandbox: media.sandbox || '', height: media.height || 0 }];
-  }).slice(0, 2);
+  }).slice(0, Number.isInteger(options.maxItems)?Math.max(1,Math.min(6,options.maxItems)):2);
 }
 
 /** @typedef {{id:string,title:string,path:string,kind:string,description:string,subtitle:string,date:any,links:any[],media:any[]}} StoryNode */

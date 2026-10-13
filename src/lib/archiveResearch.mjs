@@ -162,3 +162,13 @@ export function genomePoints(snapshot,axes=['year','duration','bpm']) {
     return coords.every(n=>Number.isFinite(n))?[{id:entity.id,coords}]:[];
   });
 }
+export function visualRecords(snapshot,query={},locale='zh'){
+ const entities=selectArchive(snapshot,{...query,year:''},locale);
+ return entities.flatMap(entity=>{
+  const rows=(entity.facts.visualHistory || []).map(visual=>({...visual,entityId:entity.id,record:entity,path:entity.path}));
+  if(!entity.image || rows.some(row=>row.image===entity.image))return rows;
+  const credit=(entity.facts.credits || []).find(row=>row.role==='illustrator');
+  const designer=entity.facts.relations?.find(row=>row.type==='character-designed-by')?.target || credit?.entity;
+  return [...rows,{id:entity.id,title:entity.title,image:entity.image,date:null,entityId:entity.id,record:entity,path:entity.path,designer,designerName:credit?.name,sourceIds:credit?.sourceIds || []}];
+ }).filter(visual=>(!query.year || visual.date?.startsWith(query.year)) && (!query.until || visual.date && visual.date.slice(0,4)<=query.until)).sort((a,b)=>query.sort==='title'?a.title.localeCompare(b.title) || a.id.localeCompare(b.id):query.sort==='oldest'?(a.date || '9999').localeCompare(b.date || '9999') || a.id.localeCompare(b.id):(b.date || '').localeCompare(a.date || '') || a.id.localeCompare(b.id));
+}
