@@ -23,7 +23,8 @@ test('navigation and history leave chapters unread; marking all chapters complet
     assert.equal(w.document.querySelectorAll('[data-story-chapter]:not([hidden])').length, 1);
     click('[data-story-next]'); assert.equal(controller.progress.current, 'b'); assert.equal(controller.progress.completed.length, 0);
     assert.equal(w.document.activeElement.textContent, 'b'); assert.equal(new URL(w.location.href).searchParams.get('chapter'), 'b');
-    w.history.back(); await tick(); assert.equal(controller.progress.current, 'a'); assert.equal(controller.progress.completed.length, 0);
+    const restored = new Promise(resolve => w.addEventListener('popstate', resolve, { once: true }));
+    w.history.back(); await restored; assert.equal(controller.progress.current, 'a'); assert.equal(controller.progress.completed.length, 0);
     click('[data-story-mark]'); assert.equal(controller.progress.current, 'b'); assert.deepEqual([...controller.progress.completed], ['a']);
     click('[data-story-mark]'); click('[data-story-mark]'); assert.equal(controller.progress.completed.length, 3); assert.equal(w.document.querySelector('[data-story-finished]').hidden, false);
     assert.equal(w.document.activeElement.textContent, 'Finished');

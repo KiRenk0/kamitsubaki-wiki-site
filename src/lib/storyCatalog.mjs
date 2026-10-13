@@ -14,7 +14,13 @@ export function safeStoryURL(value) {
 /** Read authored media directives and links; never send article bodies to the client. */
 export function storyMedia(data = {}, body = '') {
   const found = (data.media || []).map(m => ({ provider: m.platform, target: m.url || m.id, label: m.type || m.platform }));
-  const text = String(body).replace(/<!--[\s\S]*?-->/g, '').replace(/^\s*(`{3,}|~{3,})[^\n]*\n[\s\S]*?^\s*\1\s*$/gm, '');
+  let fence = null;
+  const text = String(body).replace(/<!--[\s\S]*?(?:-->|$)/g, '').split(/\r?\n/).map(line => {
+    const marker = line.match(/^ {0,3}(`{3,}|~{3,})(.*)$/);
+    if (fence) { if (marker && marker[1][0] === fence.character && marker[1].length >= fence.length && !marker[2].trim()) fence = null; return ''; }
+    if (marker) { fence = { character: marker[1][0], length: marker[1].length }; return ''; }
+    return /^(?: {4}|\t)/.test(line) ? '' : line;
+  }).join('\n');
   for (const m of text.matchAll(/^\s*@\[([a-z-]+)\]\(([^\n)]+)\)\s*$/gmi)) {
     const target = m[2].match(/^(\S+?)(?:\s+"([^"]*)")?$/); if (target) found.push({ provider: m[1], target: target[1], label: target[2] || m[1] });
   }

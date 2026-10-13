@@ -7,7 +7,7 @@ function playerAllowed(src) {
 export function initializeStory(root, { route, copy: c, storage = storageFor(root.ownerDocument.defaultView) }) {
   const view = root.ownerDocument.defaultView, $ = selector => root.querySelector(selector), status = $('[data-story-status]'), chapterNodes = $$(root, '[data-story-chapter]');
   let progress = normalizeStoryProgress(null, route), available = Boolean(storage);
-  const message = text => { status.textContent = text; };
+  const message = text => { status.textContent = !available && text !== c.storageError ? c.storageError + ' ' + text : text; };
   const read = () => {
     if (!available) return;
     try { progress = readStoryProgress(storage, route); if (progress.changed) message(c.updated); else if (progress.corrupt) message(c.corrupt); }

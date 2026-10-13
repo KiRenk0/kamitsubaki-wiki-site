@@ -26,7 +26,7 @@ for (const base of ['src/components', 'src/pages/[locale]']) {
 const errors = [];
 for (const file of files) {
   const source = readFileSync(file, 'utf8');
-  const name = relative('.', file);
+  const name = relative('.', file).replace(/\\/g, '/');
   for (const match of source.matchAll(/<a\b[^>]*>/g)) {
     const tag = match[0];
     if (!actionRoute.test(tag) || /\bclass(?::list)?=/.test(tag)) continue;

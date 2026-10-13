@@ -32,7 +32,8 @@ test('discovery applies combined metadata preferences, explains paths and restor
     w.document.querySelector('[data-discovery-next]').click();
     assert.equal(q.value, 'no-such-archive', 'Moving along the submitted route retains unsent preferences');
     submit(w); assert.equal(controller.plan.items.length, 0); assert.equal(w.document.querySelector('[data-discovery-empty]').hidden, false);
-    w.history.back(); await tick(); assert.equal(q.value, ''); assert.equal(controller.plan.items.length, 1);
+    const restored = new Promise(resolve => w.addEventListener('popstate', resolve, { once: true }));
+    w.history.back(); await restored; assert.equal(q.value, ''); assert.equal(controller.plan.items.length, 1);
     w.document.querySelector('button[type=reset]').click(); await tick(); assert.equal(w.location.search, ''); assert.ok(controller.plan.items.length > 1);
     const start = w.document.querySelector('[name=start]'); start.value = 'missing'; submit(w);
     assert.ok(start.validationMessage); assert.equal(w.location.search, '');
