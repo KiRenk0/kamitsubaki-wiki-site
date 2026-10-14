@@ -239,16 +239,16 @@ function initializeSearch(root) {
     showNext();
   };
 
-  const openSearch = async () => {
+  const openSearch = async (trigger) => {
     window.clearTimeout(closeAnimationTimer);
     const wasHidden = root.hidden;
     root.classList.remove('is-closing');
     if (wasHidden) {
-      previouslyFocused = document.activeElement;
+      previouslyFocused = trigger instanceof HTMLElement ? trigger : document.activeElement;
       root.hidden = false;
       document.documentElement.classList.add('site-search-open');
     }
-    window.requestAnimationFrame(() => input.focus());
+    window.requestAnimationFrame(() => {if(isOpen())input.focus();});
 
     const locale = root.dataset.locale || 'zh';
 
@@ -301,7 +301,7 @@ function initializeSearch(root) {
       event.stopPropagation();
       const menu = trigger.closest('details');
       if (menu instanceof HTMLDetailsElement) menu.open = false;
-      openSearch();
+      openSearch(menu instanceof HTMLDetailsElement ? menu.querySelector('summary') : trigger);
     });
   });
 
@@ -316,6 +316,8 @@ function initializeSearch(root) {
     if (event.key === 'Escape') {
       event.preventDefault();
       closeSearch();
+    } else if (event.target !== input) {
+      return;
     } else if (event.key === 'ArrowDown') {
       event.preventDefault();
       setActive(activeIndex + 1);

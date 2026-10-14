@@ -7,6 +7,12 @@ title: Music, articles, and Explore
 summary: Learn how works, articles, the chronicle, gallery, and network differ.
 ---
 
+## Home and Database
+
+Search for a person, song, album or keyword directly from Home; “Search full text” opens site search. Home shows collection counts and six people to start with. Database keeps the full classification and advanced filters. Site updates link to published announcements; the archive's preface can be expanded when you want to read it, and its existing direct links still work.
+
+Database offers catalogue, name and year sorting. Undated records stay last in both year directions. Applied conditions can be removed individually. Language switching keeps the query and layout; browser Back and Forward restore collection, filter, sorting and layout changes. Clearing filters keeps sorting and layout.
+
 ## Music works
 
 The home page previews tracks and releases; the [music directory](/en/database/music/) contains the full catalog. Open cover artwork for a larger view. Tracks and releases are separate records connected by structured data; check the relevant record for dates, performers, and credits.
