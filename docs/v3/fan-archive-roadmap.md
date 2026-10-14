@@ -12,6 +12,8 @@
 
 入口和操作见[扩展功能说明](features/archive-expansion.md)，详细证据与待验收条件见[2026-10-14 实现验收](acceptance/2026-10-14-archive-implementation.md)。
 
+随后完成[代码 review 与并发修复](acceptance/2026-10-14-archive-bugfix-review.md)：收紧私人草稿访问、公开集合字段与匿名阅读，阻止账号切换后的旧响应写回，并修复房间关闭／位置并发及 Radio 队列、旧回调与缓存恢复。此批仍为 PR 候选，正式服务验收状态不变。
+
 ## 1. 产品方向与共同原则
 
 项目方向是 KAMITSUBAKI Fan Archive：让用户从人物、音乐、演出、图片、时间与地点发现可核对的联系。百科与文章继续提供阅读视图，数据库负责稳定身份和结构化资料，其他功能提供不同的探索入口。

@@ -22,7 +22,7 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
  const form=root.querySelector('[data-archive-filters]');
  const pendingControls=[...root.querySelectorAll('form input,form select,form textarea,form button')].filter(control=>!control.disabled);
  pendingControls.forEach(control=>control.disabled=true);root.setAttribute('aria-busy','true');
- let snapshot,limit=24,lastRows=[],renderToken=0,profile=null,community=null,taskStates=[],reviews=[],room=null,roomTimer=null,scanner=null,atlasMapHandle=null,atlasMapGeneration=0,atlasMapEnabled=false,detailTrigger=null,destroyed=false;
+ let snapshot,limit=24,lastRows=[],renderToken=0,accountEpoch=0,roomGeneration=0,profile=null,community=null,taskStates=[],reviews=[],room=null,roomTimer=null,scanner=null,atlasMapHandle=null,atlasMapGeneration=0,atlasMapEnabled=false,detailTrigger=null,destroyed=false;
  const record=id=>archiveRecord(snapshot,id,locale),name=id=>record(id)?.title || id;
  const report=message=>{status.textContent=message;};
  const errorMessage=error=>error.message==='profile_conflict'?c.conflict:['community_unavailable','identity_service_unavailable','catalogue_unavailable'].includes(error.message)?c.unavailable:error.status===401?c.signIn:c.failed;
@@ -229,7 +229,8 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
   more.hidden=data.records.length<=limit;report(local.dirty?c.local:profile?c.synced:c.local);
  }
  async function syncAndRender(){
-  let failure;try{profile=await synchronizeObservatory(storage);}catch(error){failure=error;}
+  const epoch=accountEpoch;let failure;
+  try{const synchronized=await synchronizeObservatory(storage);if(epoch!==accountEpoch)return;profile=synchronized;}catch(error){if(epoch!==accountEpoch)return;failure=error;}
   if(module==='observatory')await renderObservatory();
   if(failure)report(errorMessage(failure));
  }
@@ -251,18 +252,24 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
   const token=++renderToken;
   try{
    const publicData=await request('collections');if(token!==renderToken)return;
-   community=publicData.collections || [];
-   try{if(await owner())profile=await request('me');}catch{}
+   const currentOwner=await owner();if(token!==renderToken)return;
+   let me=null,pending=[],selected=null;
+   try{if(currentOwner)me=await request('me',{expectedOwner:currentOwner});}catch{}
+   if(token!==renderToken)return;
+   const publicCollections=publicData.collections || [];
+   if(me?.reviewer){pending=(await request('reviews',{expectedOwner:currentOwner})).collections;}
+   if(token!==renderToken)return;
+   const id=new URL(location.href).searchParams.get('collection');
+   if(id && !publicCollections.some(row=>row.id===id) && !(me?.collections || []).some(row=>row.id===id))selected=(await request('collections/'+encodeURIComponent(id),{expectedOwner:currentOwner})).collection;
+   const latestOwner=await owner();if(token!==renderToken || currentOwner!==latestOwner)return;
+   community=publicCollections;profile=me;
    const target=root.querySelector('[data-community-collections]') || results;target.replaceChildren();
    for(const own of profile?.collections || [])collectionCard(own,target,true);
    for(const collection of community.filter(row=>!(profile?.collections || []).some(own=>own.id===row.id)))collectionCard(collection,target);
-   if(profile?.reviewer){const pending=await request('reviews');if(pending.collections.length){target.append(element('h2',c.review));const note=element('textarea');note.dataset.reviewNote='';note.maxLength=2000;note.placeholder=c.note;target.append(note);for(const collection of pending.collections)collectionCard(collection,target);}}
-   const id=new URL(location.href).searchParams.get('collection');
-   if(id && !community.some(row=>row.id===id) && !(profile?.collections || []).some(row=>row.id===id)){
-    const selected=await request('collections/'+encodeURIComponent(id));collectionCard(selected.collection,target,false);
-   }
+   if(pending.length){target.append(element('h2',c.review));const note=element('textarea');note.dataset.reviewNote='';note.maxLength=2000;note.placeholder=c.note;target.append(note);for(const collection of pending)collectionCard(collection,target);}
+   if(selected)collectionCard(selected,target,false);
    report(community.length+' '+c.results);
-  }catch(error){report(errorMessage(error));}
+  }catch(error){if(token===renderToken)report(errorMessage(error));}
  }
  function taskRows(){
   const values=query(),language=new URL(location.href).searchParams.get('language') || (locale==='ja'?'ja':locale==='en'?'en':'en');
@@ -273,8 +280,12 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
   }).filter(task=>(!values.field || task.field===values.field) && (values.field!=='translation' || task.locale===language));
  }
  async function loadTasks(){
-  try{if(await owner()){const [me,state]=await Promise.all([request('me'),request('tasks')]);profile=me;taskStates=state.tasks;reviews=state.reviews;}}catch(error){report(errorMessage(error));}
-  renderTasks();
+  const token=++renderToken;let failure;
+  try{const currentOwner=await owner();if(token!==renderToken)return;
+   if(currentOwner){const [me,state]=await Promise.all([request('me',{expectedOwner:currentOwner}),request('tasks',{expectedOwner:currentOwner})]);const latestOwner=await owner();if(token!==renderToken || currentOwner!==latestOwner)return;profile=me;taskStates=state.tasks;reviews=state.reviews;}
+   else{profile=null;taskStates=[];reviews=[];}
+  }catch(error){failure=error;}
+  if(token!==renderToken)return;renderTasks();if(failure)report(errorMessage(failure));
  }
  function renderTasks(){
   const rows=taskRows();results.replaceChildren();
@@ -320,10 +331,12 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
  }
  async function refreshRoom(){
   if(!room || destroyed || document.hidden)return;
-  try{const current=await request('rooms/'+room.id+'/presence',{method:'POST',body:{}});if(!room || room.id!==current.id)return;room=current;drawRoom();}catch(error){clearInterval(roomTimer);report(errorMessage(error));}
+  const generation=roomGeneration,epoch=accountEpoch,id=room.id;
+  try{const current=await request('rooms/'+id+'/presence',{method:'POST',body:{}});if(generation!==roomGeneration || epoch!==accountEpoch || destroyed || !room || room.id!==current.id || current.revision<room.revision)return;room=current;drawRoom();}
+  catch(error){if(generation!==roomGeneration || epoch!==accountEpoch || destroyed)return;clearInterval(roomTimer);if(error.status===404){room=null;roomGeneration++;drawRoom();}report(errorMessage(error));}
  }
  function drawRoom(){
-  const panel=root.querySelector('[data-active-room]');panel.hidden=!room;if(!room)return;
+  const panel=root.querySelector('[data-active-room]');panel.hidden=!room;if(!room){const current=panel.querySelector('[data-room-current]');current.replaceChildren();delete current.dataset.position;return;}
   panel.querySelector('[data-room-title]').textContent=room.title;
   panel.querySelector('[data-room-participants]').textContent=c.participants+': '+room.participants.join(' · ');
   panel.querySelector('[data-room-position]').hidden=!room.host;panel.querySelector('[data-end-room]').hidden=!room.host;
@@ -340,7 +353,11 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
   report(c.room+' · '+room.id+' · '+c.revision+' '+room.revision);
  }
  async function joinRoom(id){
-  room=await request('rooms/'+encodeURIComponent(id)+'/join',{method:'POST',body:{}});setQuery({room:room.id});clearInterval(roomTimer);roomTimer=setInterval(()=>void refreshRoom(),15000);drawRoom();
+  const currentOwner=await owner(),generation=++roomGeneration,epoch=accountEpoch;
+  if(destroyed)return;
+  const joined=await request('rooms/'+encodeURIComponent(id)+'/join',{method:'POST',body:{},expectedOwner:currentOwner});
+  const latestOwner=await owner();if(generation!==roomGeneration || epoch!==accountEpoch || destroyed || currentOwner!==latestOwner)return;
+  room=joined;setQuery({room:room.id});clearInterval(roomTimer);roomTimer=setInterval(()=>void refreshRoom(),15000);drawRoom();
  }
  async function render(){
   if(!snapshot)return;
@@ -384,15 +401,16 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
  listen('[data-create-station]','click',()=>{const ids=selectArchive(snapshot,{...query(),type:'work-track',media:'yes'},locale).slice(0,200).map(row=>row.id);if(!ids.length){report(c.empty);return;}addRadioTracks(storage,ids,{replace:true});report(c.saved);});
  listen('[data-witness-form]','submit',event=>{event.preventDefault();const values=formObject(event.currentTarget),row=record(values.entityId);if(row?.type!=='live-event'){report(c.empty);return;}void saveRecord({kind:'visited',entityId:row.id,date:values.date,note:values.note,ticketUrl:values.ticketUrl,visibility:values.visibility},event.submitter);});
  listen('[data-passport-form]','submit',event=>{event.preventDefault();const editor=event.currentTarget;void action(async()=>{const currentOwner=await owner(),local=loadObservatory(storage,currentOwner),interests=editor.elements.interests.value.split(/\r?\n/).map(id=>id.trim()).filter(Boolean);if(interests.some(id=>!record(id)))throw Error('invalid_entity');saveObservatory(storage,currentOwner,{...local.data,interests,passport:{name:editor.elements.name.value,note:editor.elements.note.value,published:editor.elements.published.checked}},local.revision,true);await syncAndRender();},event.submitter);});
- listen('[data-reload-observatory]','click',event=>action(async()=>{const currentOwner=await owner();if(!currentOwner){report(c.signIn);return;}const remote=await request('me');saveObservatory(storage,currentOwner,remote.data,remote.revision,false);profile=remote;await renderObservatory();},event.currentTarget));
+ listen('[data-reload-observatory]','click',event=>action(async()=>{const epoch=accountEpoch,currentOwner=await owner();if(epoch!==accountEpoch)return;if(!currentOwner){report(c.signIn);return;}const remote=await request('me',{expectedOwner:currentOwner});const latestOwner=await owner();if(epoch!==accountEpoch || currentOwner!==latestOwner)return;saveObservatory(storage,currentOwner,remote.data,remote.revision,false);profile=remote;await renderObservatory();},event.currentTarget));
  listen('[data-export-observatory]','click',event=>action(async()=>{const currentOwner=await owner(),data=loadObservatory(storage,currentOwner).data,url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'})),anchor=link('','');anchor.href=url;anchor.download='kamitsubaki-observatory.json';anchor.click();setTimeout(()=>URL.revokeObjectURL(url),1000);},event.currentTarget));
  listen('[data-import-observatory]','change',event=>action(async()=>{const file=event.currentTarget.files[0];if(!file || file.size>500000)throw Error('invalid_file');const currentOwner=await owner(),incoming=validateObservatory(JSON.parse(await file.text()));if(currentOwner!==await owner())throw Error('account_changed');const current=loadObservatory(storage,currentOwner);saveObservatory(storage,currentOwner,mergeObservatory(current.data,incoming),current.revision,true);await syncAndRender();},event.currentTarget));
  listen('[data-collection-form]','submit',event=>{event.preventDefault();void action(async()=>{const values=formObject(event.currentTarget),ids=values.items.split(/\r?\n/).map(id=>id.trim()).filter(Boolean),notes=values.notes.split(/\r?\n/);if(ids.some(id=>!record(id)))throw Error('invalid_entity');const payload={title:values.title,description:values.description,kind:values.kind,revision:Number(values.revision),action:event.submitter.value,items:ids.map((entityId,index)=>({entityId,note:notes[index] || ''}))};const result=await request('collections'+(values.id?'/'+encodeURIComponent(values.id):''),{method:values.id?'PUT':'POST',body:payload});fillCollection(result.collection);await loadCollections();},event.submitter);});
  listen('[data-create-room]','submit',event=>{event.preventDefault();void action(async()=>{const response=await request('rooms',{method:'POST',body:{title:event.currentTarget.elements.title.value}});await joinRoom(response.id);},event.submitter);});
  listen('[data-join-room]','submit',event=>{event.preventDefault();void action(()=>joinRoom(event.currentTarget.elements.id.value),event.submitter);});
- listen('[data-room-position]','submit',event=>{event.preventDefault();const values=formObject(event.currentTarget);void action(async()=>{const saved=await request('rooms/'+room.id+'/position',{method:'PUT',body:{entityId:values.entityId,kind:values.kind,section:values.section,revision:room.revision}});room={...room,...saved};drawRoom();},event.submitter);});
- listen('[data-leave-room]','click',event=>action(async()=>{await request('rooms/'+room.id+'/leave',{method:'DELETE'});room=null;clearInterval(roomTimer);setQuery({room:''});drawRoom();},event.currentTarget));
- listen('[data-end-room]','click',event=>action(async()=>{await request('rooms/'+room.id,{method:'DELETE'});room=null;clearInterval(roomTimer);setQuery({room:''});drawRoom();},event.currentTarget));
+ listen('[data-room-position]','submit',event=>{event.preventDefault();if(!room)return;const values=formObject(event.currentTarget),active=room,generation=roomGeneration;void action(async()=>{const saved=await request('rooms/'+active.id+'/position',{method:'PUT',body:{entityId:values.entityId,kind:values.kind,section:values.section,revision:active.revision}});if(generation!==roomGeneration || !room || room.id!==active.id || saved.revision<room.revision)return;room={...room,...saved};drawRoom();},event.submitter);});
+ const leaveRoom=async(end=false)=>{if(!room)return;const id=room.id,generation=roomGeneration;await request('rooms/'+id+(end?'':'/leave'),{method:'DELETE'});if(generation!==roomGeneration)return;roomGeneration++;room=null;clearInterval(roomTimer);setQuery({room:''});drawRoom();};
+ listen('[data-leave-room]','click',event=>action(()=>leaveRoom(),event.currentTarget));
+ listen('[data-end-room]','click',event=>action(()=>leaveRoom(true),event.currentTarget));
  listen('[data-follow-host]','change',()=>drawRoom());
  listen('[data-barcode-form]','submit',event=>{event.preventDefault();findBarcode(event.currentTarget.elements.barcode.value);setQuery({barcode:event.currentTarget.elements.barcode.value});});
  listen('[data-start-scan]','click',()=>void startCamera());listen('[data-stop-scan]','click',stopCamera);
@@ -400,12 +418,12 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
  listen('[data-mystery-form]','submit',event=>{event.preventDefault();const mystery=mysteryEntity(snapshot,tokyoDay()),answer=event.currentTarget.elements.guess.value.trim().toLowerCase(),entity=record(mystery?.id);root.querySelector('[data-mystery-answer]').textContent=entity && [entity.id,...Object.values(entity.narratives).map(n=>n.title)].some(value=>value.toLowerCase()===answer)?c.correct:c.incorrect;});
  listen('[data-mystery-reveal]','click',()=>{const mystery=mysteryEntity(snapshot,tokyoDay()),target=root.querySelector('[data-mystery-answer]');if(mystery)target.replaceChildren(reference(mystery.id));});
  window.addEventListener('pageshow',event=>{if(event.persisted){destroyed=false;if(module==='atlas')renderAtlas();if(room){clearInterval(roomTimer);roomTimer=setInterval(()=>void refreshRoom(),15000);void refreshRoom();}}});
- window.addEventListener('pagehide',()=>{destroyed=true;stopCamera();atlasMapGeneration++;atlasMapHandle?.destroy();atlasMapHandle=null;clearInterval(roomTimer);closeDetail({updateURL:false,restoreFocus:false});});
+ window.addEventListener('pagehide',()=>{destroyed=true;roomGeneration++;stopCamera();atlasMapGeneration++;atlasMapHandle?.destroy();atlasMapHandle=null;clearInterval(roomTimer);closeDetail({updateURL:false,restoreFocus:false});});
  root.addEventListener('keydown',event=>{if(event.key==='Escape' && !detail.hidden && !document.querySelector('.pswp--open')){event.preventDefault();closeDetail();}});
  let displayedOwner;
  window.addEventListener('kamitsubaki-account-state',event=>{
   const next=event.detail?.viewer?.userId || null;if(next===displayedOwner)return;displayedOwner=next;
-  profile=null;renderToken++;if(!snapshot)return;
+  profile=null;renderToken++;accountEpoch++;roomGeneration++;if(!snapshot)return;
   if(module==='observatory' && !new URL(location.href).searchParams.has('passport')){root.querySelector('[data-observatory]').replaceChildren();void syncAndRender();}
   if(module==='collections'){root.querySelector('[data-community-collections]').replaceChildren();root.querySelector('[data-collection-form]').reset();void loadCollections();}
   if(module==='challenges'){reviews=[];taskStates=[];results.replaceChildren();void loadTasks();}

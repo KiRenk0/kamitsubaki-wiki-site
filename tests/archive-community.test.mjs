@@ -67,6 +67,36 @@ test('malformed input returns client errors without leaking internal details',as
  await call('tasks/song-a%3Asources/claim','POST',body);
  assert.equal((await call('tasks/song-a%3Asources/submit','POST',{proofUrl:'not a URL'})).status,400);
 });
+
+test('published collection links work without login and do not disclose account or reviewer IDs',async()=>{
+ const {call}=await fixture(),payload={title:'Public archive',kind:'collection',items:[{entityId:'song-a'}],action:'publish'};
+ const collection=(await call('collections','POST',payload)).data.collection;
+ const anonymous=await call('collections/'+collection.id,'GET',undefined,null);
+ assert.equal(anonymous.status,200);
+ const signedIn=await call('collections/'+collection.id,'GET',undefined,'bob');
+ for(const response of [anonymous,signedIn]){
+  assert.equal(response.data.collection.title,payload.title);
+  assert.ok(!('owner' in response.data.collection));
+  assert.ok(!('reviewer' in response.data.collection));
+  assert.ok(!('review_note' in response.data.collection));
+ }
+});
+
+test('review authority grants access to submitted exhibitions, not private drafts',async()=>{
+ const {call}=await fixture(),payload={title:'Private draft',kind:'exhibition',items:[{entityId:'song-a'}],action:'draft'};
+ const collection=(await call('collections','POST',payload)).data.collection;
+ assert.equal((await call('collections/'+collection.id,'GET',undefined,'reviewer')).status,404);
+ assert.equal((await call('collections/'+collection.id,'GET')).status,200);
+ await call('collections/'+collection.id,'PUT',{...payload,action:'publish',revision:1});
+ assert.equal((await call('collections/'+collection.id,'GET',undefined,'reviewer')).status,200);
+});
+
+test('null bodies and invalid collection items are rejected as client input errors',async()=>{
+ const {call,env}=await fixture();
+ const request=new Request('https://wiki.test/api/archive/community/collections',{method:'POST',headers:{Origin:'https://wiki.test',Authorization:'alice','Content-Type':'application/json'},body:'null'});
+ assert.equal((await handleArchiveCommunity({request,env,params:{route:['collections']}})).status,400);
+ assert.equal((await call('collections','POST',{title:'Bad item',kind:'collection',items:[null],action:'publish'})).status,400);
+});
 test('collections keep drafts private, support fork and follow, enforce ownership and reviewed exhibitions',async()=>{
  const {call}=await fixture(),payload={title:'My collection',description:'A source-backed route',kind:'collection',items:[{entityId:'song-a',note:'Start here'}],action:'draft'};
  const draft=(await call('collections','POST',payload)).data.collection;
@@ -108,4 +138,14 @@ test('rooms share only the host position, require membership, retain revision or
  assert.ok(!('owner' in view));assert.ok(!('data' in view));
  assert.equal((await call('rooms/'+id,'DELETE')).status,200);
  assert.equal((await call('rooms/'+id,'GET',undefined,'bob')).status,404);
+});
+
+test('closing a room during catalogue validation prevents a late host position write',async()=>{
+ const {call,env}=await fixture(),created=(await call('rooms','POST',{title:'Concurrent closure'})).data;
+ const assets=env.ASSETS;let resume,started;const validationStarted=new Promise(resolve=>started=resolve);
+ env.ASSETS={fetch:async request=>{started();await new Promise(resolve=>resume=resolve);return assets.fetch(request);}};
+ const position=call('rooms/'+created.id+'/position','PUT',{entityId:'song-a',revision:1});await validationStarted;
+ assert.equal((await call('rooms/'+created.id,'DELETE')).status,200);resume();
+ assert.equal((await position).status,409);
+ assert.equal((await call('rooms/'+created.id)).status,404);
 });

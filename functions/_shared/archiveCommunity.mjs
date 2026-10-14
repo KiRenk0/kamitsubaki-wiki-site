@@ -11,7 +11,7 @@ const json=(value,status=200)=>new Response(JSON.stringify(value),{status,header
 const writable=new Set(['POST','PUT','DELETE']);
 const reviewer=(viewer,env={})=>Array.isArray(viewer.roles) && viewer.roles.some(role=>['archive-reviewer','admin'].includes(role)) || String(env.ARCHIVE_REVIEWER_IDS || '').split(',').map(id=>id.trim()).filter(Boolean).includes(viewer.userId);
 const requireReviewer=(viewer,env)=>{if(!reviewer(viewer,env))throw failure('reviewer_required',403);};
-const publicCollection=row=>({...row,items:JSON.parse(row.items)});
+const publicCollection=row=>({id:row.id,title:row.title,description:row.description,kind:row.kind,items:JSON.parse(row.items),status:row.status,revision:row.revision,forked_from:row.forked_from,created_at:row.created_at,updated_at:row.updated_at});
 function proofURL(value) {
  let url;try{url=new URL(text(value,1000,true));}catch{throw failure('invalid_proof');}
  if(url.protocol!=='https:' || url.username || url.password)throw failure('invalid_proof');
@@ -46,7 +46,7 @@ function validateCollection(body,catalogue) {
  const title=text(body.title,120,true),description=text(body.description || '',3000);
  if(!['collection','exhibition'].includes(body.kind) || !['draft','publish'].includes(body.action) || !Array.isArray(body.items) || body.items.length<1 || body.items.length>100)throw failure('invalid_collection');
  const seen=new Set(),items=body.items.map(item=>{
-  if(!catalogue.entities.has(item.entityId) || seen.has(item.entityId))throw failure('invalid_entity');
+  if(!item || typeof item!=='object' || !catalogue.entities.has(item.entityId) || seen.has(item.entityId))throw failure('invalid_entity');
   seen.add(item.entityId);
   return {entityId:item.entityId,note:text(item.note || '',2000)};
  });
@@ -82,10 +82,15 @@ export async function handleArchiveCommunity(context) {
   }
   let body=null;
   if(writable.has(method) && method!=='DELETE')try{body=await readBoundedJson(request,500000);}catch(error){throw failure(error.message==='Response too large'?'body_too_large':'invalid_json',error.message==='Response too large'?413:400);}
+  if(writable.has(method) && method!=='DELETE' && (!body || typeof body!=='object' || Array.isArray(body)))throw failure('invalid_json');
   // Public listings never authenticate or reveal drafts, owner IDs, audit actors or private profiles.
   if(method==='GET' && parts[0]==='collections' && !parts[1]){
    const rows=await queryAll(db,"SELECT id,title,description,kind,items,status,revision,forked_from,created_at,updated_at FROM archive_collections WHERE status='published' ORDER BY updated_at DESC LIMIT 100");
    return json({collections:rows.map(publicCollection)});
+  }
+  if(method==='GET' && parts[0]==='collections' && parts[1] && !parts[2]){
+   const published=await queryOne(db,"SELECT * FROM archive_collections WHERE id=? AND status='published'",parts[1]);
+   if(published)return json({collection:publicCollection(published)});
   }
   if(method==='GET' && parts[0]==='passports' && parts[1]){
    const profile=await queryOne(db,'SELECT data,public_id FROM archive_profiles WHERE public_id=?',parts[1]);
@@ -154,7 +159,7 @@ export async function handleArchiveCommunity(context) {
    }
    const row=id?await queryOne(db,'SELECT * FROM archive_collections WHERE id=?',id):null;
    if(!row)throw failure('not_found',404);
-   if(row.owner!==owner && row.status!=='published' && !reviewer(viewer,context.env))throw failure('not_found',404);
+   if(row.owner!==owner && row.status!=='published' && !(row.status==='pending' && reviewer(viewer,context.env)))throw failure('not_found',404);
    if(method==='GET')return json({collection:publicCollection(row)});
    if(method==='POST' && action==='fork'){
     if(row.status!=='published' && row.owner!==owner)throw failure('not_found',404);
@@ -263,7 +268,7 @@ export async function handleArchiveCommunity(context) {
     if(kind==='event' && !(await eventCatalogue(context)).has(entityId))throw failure('invalid_event');
     if(kind==='collection' && !(await queryOne(db,"SELECT id FROM archive_collections WHERE id=? AND status='published'",entityId)))throw failure('not_found',404);
     const position={entityId,kind,section};
-    const result=await run(db,'UPDATE archive_rooms SET position=?,revision=revision+1,updated_at=? WHERE id=? AND owner=? AND revision=?',JSON.stringify(position),now,id,owner,body.revision);
+    const result=await run(db,'UPDATE archive_rooms SET position=?,revision=revision+1,updated_at=? WHERE id=? AND owner=? AND revision=? AND ended=0',JSON.stringify(position),now,id,owner,body.revision);
     if(!result.meta.changes)throw failure('room_conflict',409);
     return json({position,revision:room.revision+1});
    }

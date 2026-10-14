@@ -21,7 +21,7 @@ export async function initializeArchiveRadio(root){
  const popup=new URL(location.href).searchParams.get('player')==='1';
  if(popup){document.body.classList.add('archive-player-window');root.open=true;}
  function destroyPlayer(){playEpoch++;try{ytPlayer?.destroy();}catch{}ytPlayer=null;player.replaceChildren();playingId=null;}
- function capturePosition(){if(!ytPlayer || !playingId)return;try{const seconds=ytPlayer.getCurrentTime();if(Number.isFinite(seconds))writeRadioQueue(localStorage,{...queue,seconds});}catch{}}
+ function capturePosition(){if(!ytPlayer || !playingId)return;try{const latest=readRadioQueue(localStorage);if(latest.ids[latest.index]!==playingId)return;const seconds=ytPlayer.getCurrentTime();if(Number.isFinite(seconds))writeRadioQueue(localStorage,{...latest,seconds});}catch{}}
  async function render({continuePlaying=false}={}){
   try{
    queue=readRadioQueue(localStorage);root.hidden=!queue.ids.length;
@@ -50,9 +50,9 @@ export async function initializeArchiveRadio(root){
     const target=document.createElement('div');player.replaceChildren(target);
     const videoId=new URL(media.src).pathname.split('/').at(-1);
     ytPlayer=new YT.Player(target,{host:'https://www.youtube-nocookie.com',videoId,width:'100%',height:220,playerVars:{origin:location.origin,playsinline:1,start:Math.floor(queue.seconds || 0)},events:{
-     onReady:event=>event.target.playVideo(),
-     onStateChange:event=>{if(event.data===YT.PlayerState.ENDED && playingId===record.id && queue.index<queue.ids.length-1){writeRadioQueue(localStorage,{...queue,index:queue.index+1,seconds:0});void play();}},
-     onError:()=>{status.textContent=c.radioUnavailable;},
+     onReady:event=>{if(epoch===playEpoch && playingId===record.id)event.target.playVideo();},
+     onStateChange:event=>{if(epoch!==playEpoch || playingId!==record.id || event.data!==YT.PlayerState.ENDED)return;const latest=readRadioQueue(localStorage);if(latest.ids[latest.index]!==record.id)return;if(latest.index<latest.ids.length-1){writeRadioQueue(localStorage,{...latest,index:latest.index+1,seconds:0});void play();}},
+     onError:()=>{if(epoch===playEpoch)status.textContent=c.radioUnavailable;},
     }});return;
    }catch{if(epoch!==playEpoch)return;}
   }
@@ -66,7 +66,10 @@ export async function initializeArchiveRadio(root){
  const heard=document.createElement('button');heard.type='button';heard.textContent=c.heard;heard.addEventListener('click',async()=>{if(!queue.ids.length)return;heard.disabled=true;try{const result=await recordObservation({kind:'heard',entityId:queue.ids[queue.index]});status.textContent=result.synced?c.synced:c.local;}catch{status.textContent=c.failed;}finally{heard.disabled=false;}});root.querySelector('.archive-radio__body').append(heard);
  window.addEventListener('storage',event=>{if(event.key===radioStorageKey)void render({continuePlaying:true});});
  window.addEventListener('kamitsubaki-radio-change',()=>void render());
- const progress=setInterval(capturePosition,5000);window.addEventListener('pagehide',()=>{capturePosition();clearInterval(progress);destroyPlayer();});
+ let progress;
+ const startProgress=()=>{clearInterval(progress);progress=setInterval(capturePosition,5000);};
+ startProgress();window.addEventListener('pagehide',()=>{capturePosition();clearInterval(progress);destroyPlayer();});
+ window.addEventListener('pageshow',event=>{if(event.persisted){startProgress();void render();}});
  await render();
 }
 const root=document.querySelector('[data-archive-radio]');if(root)void initializeArchiveRadio(root);

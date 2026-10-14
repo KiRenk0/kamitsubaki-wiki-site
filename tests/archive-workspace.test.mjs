@@ -59,3 +59,86 @@ test('an account switch while reading an imported file cannot apply it to the ne
   assert.equal(loadObservatory(localStorage,'bob').data.records.length,0);
  }finally{dom.window.close();for(const [key,descriptor]of previous)descriptor?Object.defineProperty(globalThis,key,descriptor):delete globalThis[key];}
 });
+
+async function workspaceDOM(module,markup,callback){
+ const dom=new JSDOM(`<section data-module="${module}" data-locale="zh"><script type="application/json" data-archive-copy></script><p data-archive-status></p><div data-archive-results></div><button data-archive-more></button><aside data-archive-detail hidden></aside>${markup}</section>`,{url:`https://wiki.test/zh/explore/${module}/`,pretendToBeVisual:true});
+ const globals=['window','document','location','history','localStorage','FormData','CustomEvent','Event'];
+ const previous=new Map(globals.map(key=>[key,Object.getOwnPropertyDescriptor(globalThis,key)]));
+ for(const key of globals)Object.defineProperty(globalThis,key,{value:dom.window[key],configurable:true,writable:true});
+ try{const root=document.querySelector('section');root.querySelector('[data-archive-copy]').textContent=JSON.stringify(archiveFeatureCopy('zh'));await callback(root,dom.window);}
+ finally{dom.window.dispatchEvent(new dom.window.PageTransitionEvent('pagehide'));dom.window.close();for(const [key,descriptor]of previous)descriptor?Object.defineProperty(globalThis,key,descriptor):delete globalThis[key];}
+}
+const nextTurn=()=>new Promise(resolve=>setTimeout(resolve,0));
+
+test('a delayed collection profile cannot restore private collections after logout',async()=>{
+ await workspaceDOM('collections','<div data-community-collections></div><form data-collection-form></form>',async(root,w)=>{
+  let who='alice',resolveProfile,started;
+  const profileStarted=new Promise(resolve=>started=resolve);
+  const request=async path=>{
+   if(path==='collections')return {collections:[]};
+   if(path==='me'){started();return new Promise(resolve=>resolveProfile=resolve);}
+   throw Error('unexpected request');
+  };
+  const initialized=initializeArchiveWorkspace(root,{loadSnapshot:async()=>archiveFixture(),owner:async()=>who,request,storage:localStorage});
+  await profileStarted;who=null;w.dispatchEvent(new w.CustomEvent('kamitsubaki-account-state',{detail:{viewer:null}}));await nextTurn();
+  resolveProfile({collections:[{id:'secret',title:'Alice private collection',description:'',status:'draft',items:[]}],follows:[]});
+  await initialized;await nextTurn();
+  assert.ok(!root.textContent.includes('Alice private collection'));
+ });
+});
+
+test('reloading a profile cannot write another account response into the original account',async()=>{
+ await workspaceDOM('physical','<button data-reload-observatory></button>',async(root,w)=>{
+  let who='alice',resolveProfile,started;const pending=new Promise(resolve=>started=resolve);
+  await initializeArchiveWorkspace(root,{loadSnapshot:async()=>archiveFixture(),owner:async()=>who,request:async()=>{started();return new Promise(resolve=>resolveProfile=resolve);},storage:localStorage});
+  root.querySelector('[data-reload-observatory]').click();await pending;who='bob';w.dispatchEvent(new w.CustomEvent('kamitsubaki-account-state',{detail:{viewer:{userId:'bob'}}}));
+  resolveProfile({data:upsertObservation(emptyObservatory(),{kind:'read',entityId:'song-b'}),revision:8});await nextTurn();
+  assert.equal(loadObservatory(localStorage,'alice').data.records.length,0);
+  assert.equal(loadObservatory(localStorage,'bob').data.records.length,0);
+ });
+});
+
+const roomMarkup='<form data-join-room><input name="id" value="old-room"><button>Join</button></form><section data-active-room hidden><p data-room-title></p><p data-room-participants></p><form data-room-position><input name="entityId" value="song-b"><input name="kind" value="entity"><input name="section" value=""></form><button data-end-room></button><button data-leave-room></button><input type="checkbox" data-follow-host checked><div data-room-current></div></section>';
+test('a join response cannot reopen a room after the account has changed',async()=>{
+ await workspaceDOM('rooms',roomMarkup,async(root,w)=>{
+  let who='alice',resolveJoin,started;const pending=new Promise(resolve=>started=resolve);
+  await initializeArchiveWorkspace(root,{loadSnapshot:async()=>archiveFixture(),owner:async()=>who,request:async()=>{started();return new Promise(resolve=>resolveJoin=resolve);},storage:localStorage});
+  root.querySelector('[data-join-room]').dispatchEvent(new w.Event('submit',{bubbles:true,cancelable:true}));await pending;
+  who='bob';w.dispatchEvent(new w.CustomEvent('kamitsubaki-account-state',{detail:{viewer:{userId:'bob'}}}));
+  resolveJoin({id:'old-room',title:'Alice room',host:true,participants:['alice'],revision:1,position:{entityId:'song-a'}});await nextTurn();
+  assert.equal(root.querySelector('[data-active-room]').hidden,true);
+  assert.equal(root.querySelectorAll('[data-room-current] iframe').length,0);
+  assert.equal(new URL(w.location.href).searchParams.has('room'),false);
+ });
+});
+
+test('the first resolved account can join a room while initial authentication emits its notification',async()=>{
+ await workspaceDOM('rooms',roomMarkup,async(root,w)=>{
+  let notified=false;
+  const owner=async()=>{if(!notified){notified=true;w.dispatchEvent(new w.CustomEvent('kamitsubaki-account-state',{detail:{viewer:{userId:'alice'}}}));}return 'alice';};
+  await initializeArchiveWorkspace(root,{loadSnapshot:async()=>archiveFixture(),owner,request:async()=>({id:'old-room',title:'Room',host:true,participants:['alice'],revision:1,position:null}),storage:localStorage});
+  root.querySelector('[data-join-room]').dispatchEvent(new w.Event('submit',{bubbles:true,cancelable:true}));await nextTurn();
+  assert.equal(root.querySelector('[data-active-room]').hidden,false);
+ });
+});
+
+test('an older presence response cannot undo the host position; closing a room releases its iframe',async()=>{
+ await workspaceDOM('rooms',roomMarkup,async(root,w)=>{
+  const active={id:'old-room',title:'Room',host:true,participants:['alice'],revision:1,position:{entityId:'song-a'}};
+  let resolvePresence;
+  const request=async(path,options)=>{
+   if(path.endsWith('/join'))return active;
+   if(path.endsWith('/presence'))return new Promise(resolve=>resolvePresence=resolve);
+   if(path.endsWith('/position'))return {revision:2,position:{entityId:options.body.entityId}};
+   if(options.method==='DELETE')return {ended:true};
+   throw Error('unexpected request');
+  };
+  await initializeArchiveWorkspace(root,{loadSnapshot:async()=>archiveFixture(),owner:async()=> 'alice',request,storage:localStorage});
+  root.querySelector('[data-join-room]').dispatchEvent(new w.Event('submit',{bubbles:true,cancelable:true}));await nextTurn();
+  w.document.dispatchEvent(new w.Event('visibilitychange'));await nextTurn();assert.equal(typeof resolvePresence,'function');
+  root.querySelector('[data-room-position]').dispatchEvent(new w.Event('submit',{bubbles:true,cancelable:true}));await nextTurn();
+  resolvePresence(active);await nextTurn();assert.ok(root.querySelector('[data-room-current] a').href.endsWith('/song-b/'));
+  root.querySelector('[data-end-room]').click();await nextTurn();
+  assert.equal(root.querySelector('[data-active-room]').hidden,true);assert.equal(root.querySelectorAll('[data-room-current] iframe').length,0);
+ });
+});
