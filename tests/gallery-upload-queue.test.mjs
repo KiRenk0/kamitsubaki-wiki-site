@@ -63,6 +63,13 @@ test('temporary 503 retries the same file endpoint before reporting success',asy
  assert.equal(requests[1].url,requests[0].url);await requests[1].finish();assert.equal((await pending)[0].error,null);
 });
 
+test('editor jobs keep account headers and readable legacy error responses',async t=>{
+ const requests=transport(t),input=jobs(1);input[0].headers={'X-Novel-Local-Account':'alice'};
+ const pending=uploadGalleryFiles(input);await waitFor(()=>requests.length===1);
+ assert.equal(requests[0].headers['X-Novel-Local-Account'],'alice');
+ await requests[0].finish(409,{error:'账号已变化，请刷新'});const [result]=await pending;
+ assert.equal(result.error.message,'账号已变化，请刷新');assert.equal(requests.length,1);
+});
 test('expired login is not retried and returns the service message',async t=>{
  const requests=transport(t),pending=uploadGalleryFiles(jobs(1));await waitFor(()=>requests.length===1);
  await requests[0].finish(401,{error:{message:'请重新登录'}});const [result]=await pending;

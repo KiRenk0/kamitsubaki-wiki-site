@@ -90,7 +90,17 @@ function catalogEntity(catalog, id, types) {
   return found;
 }
 
-/** Search the editor catalog by canonical ID, localized title, or source path. */
+const searchFields = new WeakMap();
+function foldedCatalogFields(item) {
+  const raw = [item.id,item.title,item.path,item.romanized,...(Array.isArray(item.aliases)?item.aliases:[])];
+  const signature = JSON.stringify(raw);
+  const cached = searchFields.get(item);
+  if(cached?.signature === signature) return cached;
+  const [id,title,path,...names] = raw.map(foldCjkSearchText);
+  const next = {signature,id,title,path,names:names.filter(Boolean)};
+  searchFields.set(item,next);return next;
+}
+/** Search the editor catalog by canonical ID, localized title, romanization, aliases, or source path. */
 export function metadataCatalogMatches(catalog, { entityTypes, query = '', limit = 30 } = {}) {
   if (!Array.isArray(catalog)) return [];
   const allowed = entityTypes ? new Set(entityTypes) : null;
@@ -98,13 +108,11 @@ export function metadataCatalogMatches(catalog, { entityTypes, query = '', limit
   const capped = Number.isInteger(limit) ? Math.max(0, limit) : 30;
   const matches = catalog.flatMap((item, index) => {
     if (!item?.id || allowed && !allowed.has(item.entityType)) return [];
-    const id = foldCjkSearchText(item.id);
-    const title = foldCjkSearchText(item.title);
-    const path = foldCjkSearchText(item.path);
     if (!needle) return [{ item, index, score: 0 }];
-    const score = id === needle || title === needle ? 0
-      : id.startsWith(needle) || title.startsWith(needle) ? 1
-      : id.includes(needle) || title.includes(needle) ? 2
+    const {id,title,names,path} = foldedCatalogFields(item);
+    const score = id === needle || title === needle || names.some(name=>name===needle) ? 0
+      : id.startsWith(needle) || title.startsWith(needle) || names.some(name=>name.startsWith(needle)) ? 1
+      : id.includes(needle) || title.includes(needle) || names.some(name=>name.includes(needle)) ? 2
       : path.includes(needle) ? 3 : -1;
     return score < 0 ? [] : [{ item, index, score }];
   });

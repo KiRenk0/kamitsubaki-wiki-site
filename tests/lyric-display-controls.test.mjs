@@ -16,7 +16,7 @@ const source = (locale = 'zh',timed = true) => `{{lyrics-controls::${locale}}}
 
 <div class="my-lyric-box"><div class="lyric-line"><div class="jp-lyric">${timed?'[00:00.00]':''}<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby>${timed?'[00:01.00]':''}<ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby></div><div class="trans-lyric">${timed?'[00:00.00]':''}A song</div></div><div class="lyric-line"><div class="jp-lyric">${timed?'[00:03.00]':''}<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby></div><div class="trans-lyric">${timed?'[00:03.00]':''}Night</div></div></div>`;
 const markup = await renderMarkdownFragment(source());
-const styles = await readFile(new URL('../src/styles/global.css',import.meta.url),'utf8');
+const styles = await readFile(new URL('../src/styles/readerInteractive.css',import.meta.url),'utf8');
 const proseStyles = await readFile(new URL('../src/styles/readerFormats.css',import.meta.url),'utf8');
 const lyricStyles = styles.slice(styles.indexOf('/* Safe interactive patterns'),styles.indexOf('/* Synchronized Lyrics Player Styles */'));
 

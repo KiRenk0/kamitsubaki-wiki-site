@@ -1,0 +1,319 @@
+/* Safe interactive patterns available to sanitized wiki content. */
+.my-lyric-box {
+  margin: 1.25rem 0;
+  font-family: inherit;
+  line-height: 1.6;
+}
+
+.my-lyric-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.25rem 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Lyrics remain readable with kana and translation when scripting is off. */
+html:not(.has-js) .my-lyric-controls {
+  display: none;
+}
+
+.my-lyric-controls > details {
+  flex: 0 0 auto;
+  width: min(100%, 10rem);
+  min-width: 0;
+  max-width: 100%;
+  border: 0;
+  background: transparent;
+}
+
+.my-lyric-controls > details > summary,
+.my-lyric-controls button {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  min-height: 44px;
+  padding: 0.35rem 0.7rem;
+  border: 1px solid transparent;
+  border-radius: var(--ui-radius-control);
+  background: transparent;
+  color: var(--reader-muted, inherit);
+  font-family: inherit;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  cursor: pointer;
+  transition: background-color 180ms ease, border-color 180ms ease;
+}
+
+.my-lyric-controls > details > summary {
+  display: list-item;
+  list-style-position: inside;
+}
+
+.my-lyric-controls > details > summary::marker {
+  font-size: 0.65em;
+}
+
+.my-lyric-controls > details > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  max-width: 100%;
+  padding-top: 0.25rem;
+}
+
+.my-lyric-controls > details:not([open]) > div {
+  display: none;
+}
+
+/* The lyric menu is a control row, so prose disclosure spacing must not apply. */
+html body .wiki-reader .my-lyric-controls > details {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+html body .wiki-reader .my-lyric-controls > details > summary {
+  min-height: 44px;
+  margin: 0;
+  padding: 0.35rem 0.7rem;
+  border: 1px solid transparent;
+  color: var(--reader-muted, inherit);
+  font-family: inherit;
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+html body .wiki-reader .my-lyric-controls > details[open] > summary {
+  margin-bottom: 0;
+  border-bottom-color: transparent;
+}
+
+html body .wiki-reader .my-lyric-controls > details > div:last-child {
+  margin: 0;
+}
+
+.my-lyric-controls > details[open] > summary,
+.my-lyric-controls > details > summary:hover,
+.my-lyric-controls button:hover,
+.my-lyric-controls button[aria-pressed='true'] {
+  color: var(--reader-text, inherit);
+  background: rgb(var(--theme-fg-rgb) / 0.045);
+}
+
+.my-lyric-controls :is(button, summary):focus-visible {
+  outline: 2px solid var(--theme-accent-color);
+  outline-offset: 2px;
+}
+
+.my-lyric-controls .sync-play-btn,
+.my-lyric-controls .sync-reset-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 0.7rem;
+}
+
+.my-lyric-controls button[hidden],
+.my-lyric-box .lrc-tag {
+  display: none;
+}
+
+.my-lyric-box .lyric-line {
+  display: flex;
+  align-items: baseline;
+  gap: 1.25rem;
+  margin-bottom: 1.8rem;
+}
+
+.my-lyric-box .jp-lyric,
+.my-lyric-box .cn-lyric,
+.my-lyric-box .trans-lyric {
+  min-width:0;
+  max-width:100%;
+  overflow-wrap:anywhere;
+  flex: 1;
+}
+
+.my-lyric-box .jp-lyric {
+  letter-spacing: 0.03em;
+}
+
+.my-lyric-box .cn-lyric,
+.my-lyric-box .trans-lyric {
+  opacity: 0.6;
+  font-size: 0.95em;
+  transition: opacity 180ms ease, visibility 180ms ease;
+}
+
+.my-lyric-box ruby {
+  ruby-align: center;
+  /* 阻止 Chrome 128+ 的可换行 ruby 启发式在长注音 unit 内部断行 */
+  white-space: nowrap;
+}
+
+.my-lyric-box rt {
+  user-select: none;
+  font-size: 0.6em;
+}
+
+.my-lyric-box .roma {
+  display: none;
+}
+
+.my-lyric-box.hide-ruby rt {
+  display: none !important;
+}
+
+.my-lyric-box.hide-translation :where(.cn-lyric, .trans-lyric) {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.my-lyric-box.show-romaji .furi {
+  display: none;
+}
+
+.my-lyric-box.show-romaji .roma {
+  display: ruby-text;
+}
+
+/* Synchronized Lyrics Player Styles */
+.my-lyric-box.sync-enabled .lyric-line.has-lrc-timing {
+  opacity: 0.42;
+  cursor: pointer;
+  transform: translateX(0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.my-lyric-box.sync-enabled .lyric-line.has-lrc-timing:hover {
+  opacity: 0.72;
+}
+
+.my-lyric-box.sync-enabled .lyric-line.has-lrc-timing.is-active {
+  opacity: 1;
+  transform: translateX(0.2rem);
+}
+
+html[data-theme='light'] .my-lyric-box.sync-enabled {
+  --wiki-accent-color: #39c5bb;
+  --theme-accent-rgb: 57 197 187;
+}
+
+.my-lyric-box.sync-enabled .lrc-word {
+  --karaoke-progress: 0%;
+  color: rgb(var(--theme-fg-rgb) / 0.5);
+  opacity: 0.86;
+  transition: color 120ms ease, filter 120ms ease, opacity 120ms ease;
+}
+
+.my-lyric-box.sync-enabled .lrc-word:is(.is-active, .is-complete) {
+  opacity: 1;
+  color: var(--wiki-accent-color);
+}
+
+@supports ((background-clip: text) or (-webkit-background-clip: text)) {
+  .my-lyric-box.sync-enabled .lrc-word {
+    background-image: linear-gradient(
+      90deg,
+      var(--wiki-accent-color) 0%,
+      var(--wiki-accent-color) var(--karaoke-progress),
+      rgb(var(--theme-fg-rgb) / 0.5) var(--karaoke-progress),
+      rgb(var(--theme-fg-rgb) / 0.5) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .my-lyric-box.sync-enabled .lyric-line.is-active .lrc-word.is-active {
+    filter: drop-shadow(0 0 0.32rem rgb(var(--theme-accent-rgb) / 0.32));
+  }
+
+  /* WebKit text fill is inherited by ruby annotations, while the parent's
+     clipped background does not reliably paint into the separate rt box.
+     Apply the same progressive fill on rt itself using the inherited
+     --karaoke-progress from .lrc-word. */
+  .my-lyric-box.sync-enabled .lrc-word rt {
+    background-image: linear-gradient(
+      90deg,
+      var(--wiki-accent-color) 0%,
+      var(--wiki-accent-color) var(--karaoke-progress, 0%),
+      rgb(var(--theme-fg-rgb) / 0.68) var(--karaoke-progress, 0%),
+      rgb(var(--theme-fg-rgb) / 0.68) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    filter: none;
+  }
+
+  .my-lyric-box.sync-enabled .lrc-word:is(.is-active, .is-complete) rt {
+    color: transparent;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .my-lyric-box.sync-enabled .lyric-line.has-lrc-timing {
+    transform: none;
+    transition: none;
+  }
+
+  .my-lyric-box.sync-enabled .lrc-word {
+    background-image: none;
+    color: rgb(var(--theme-fg-rgb) / 0.5);
+    -webkit-text-fill-color: currentColor;
+    transition: none;
+  }
+
+  .my-lyric-box.sync-enabled .lrc-word:is(.is-active, .is-complete) {
+    color: var(--wiki-accent-color);
+  }
+
+  .my-lyric-box.sync-enabled .lrc-word rt {
+    background-image: none;
+    color: rgb(var(--theme-fg-rgb) / 0.68);
+    -webkit-text-fill-color: currentColor;
+  }
+
+  /* Sequential ruby fill from SyncLyricsPlayer: only completed units light up. */
+  .my-lyric-box.sync-enabled .lrc-word ruby.is-complete rt {
+    color: var(--wiki-accent-color);
+  }
+}
+
+.wiki-spoiler {
+  filter: blur(0.32rem);
+  cursor: pointer;
+  transition: filter 240ms var(--motion-ease-glide, ease);
+}
+
+.wiki-spoiler:focus-within,
+.wiki-spoiler.is-revealed { filter: none; }
+@media (hover: hover) and (pointer: fine) {
+  .wiki-spoiler:hover { filter: none; }
+}
+.wiki-spoiler:focus-visible { outline:2px solid var(--theme-accent-color); outline-offset:3px; }
+@media (prefers-reduced-motion: reduce) {
+  .wiki-spoiler { transition:none; }
+}
+
+@media (max-width: 600px) {
+  .my-lyric-box .lyric-line {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}
+
+.wiki-guide-rail a {
+  border-left: 1px solid transparent;
+}
+
+.wiki-guide-rail a:hover,
+.wiki-guide-rail a:focus-visible {
+  border-left-color: rgb(var(--theme-accent-rgb) / 0.5);
+}
+

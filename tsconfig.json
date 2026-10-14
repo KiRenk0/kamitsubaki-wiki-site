@@ -8,6 +8,7 @@
     "dist",
     ".astro",
     "node_modules",
+    "prototypes",
     "promo",
     "promo-app",
     "promo-page"

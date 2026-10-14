@@ -31,8 +31,8 @@ test('karaoke units prefer authored word boundaries and fall back at line ending
 
 test('synchronized lyrics expose karaoke fill, completion, and reduced-motion states', async () => {
   const [interactions, styles] = await Promise.all([
-    readFile(new URL('../src/scripts/siteInteractions.js', import.meta.url), 'utf8'),
-    readFile(new URL('../src/styles/global.css', import.meta.url), 'utf8'),
+    readFile(new URL('../src/lib/readerInteractions.mjs', import.meta.url), 'utf8'),
+    readFile(new URL('../src/styles/readerInteractive.css', import.meta.url), 'utf8'),
   ]);
 
   assert.match(interactions, /resolveKaraokeEndTime/);

@@ -40,7 +40,8 @@
     "check:tiptap": "node scripts/check-tiptap-compatibility.mjs",
     "check:ui-icons": "node scripts/check-ui-icons.mjs",
     "icons:generate": "node scripts/generate-ui-icon-assets.mjs",
-    "release:build": "node scripts/release-build.mjs"
+    "release:build": "node scripts/release-build.mjs",
+    "dev:novel": "pnpm --dir prototypes/novel-editor dev"
   },
   "dependencies": {
     "@codemirror/autocomplete": "^6.20.3",
@@ -76,7 +77,12 @@
     "photoswipe": "^5.4.4",
     "simple-icons": "^16.27.0",
     "tom-select": "2.6.2",
-    "wanakana": "^5.3.1"
+    "wanakana": "^5.3.1",
+    "rehype-stringify": "10.0.1",
+    "remark-gfm": "4.0.1",
+    "remark-parse": "11.0.0",
+    "remark-rehype": "11.1.2",
+    "unified": "11.0.5"
   },
   "devDependencies": {
     "@astrojs/check": "latest",
@@ -95,7 +101,7 @@
     "rehype-katex": "^7.0.1",
     "rehype-raw": "^7.0.0",
     "rehype-sanitize": "^6.0.0",
-    "remark-math": "^6.0.0",
+    "remark-math": "6.0.0",
     "sharp": "0.34.5",
     "tailwindcss": "^4.3.0",
     "typescript": "latest",
