@@ -62,8 +62,12 @@ if (!announcement) return;
   let autoOpenTimer: number | undefined;
 
   const openModal = (event?: Event) => {
-    window.dispatchEvent(new window.CustomEvent("wiki-announcement-displayed",{detail:{automatic:!event}}));
     if (!(modal instanceof HTMLElement)) return;
+    // Persist before notifying: support may initialize after this script on slow loads.
+    if (!event) {
+      try { window.sessionStorage.setItem('kamitsubaki-wiki:auto-announcement:v1', 'true'); } catch { /* Support auto prompts disable themselves when storage is unavailable. */ }
+    }
+    window.dispatchEvent(new window.CustomEvent("wiki-announcement-displayed",{detail:{automatic:!event}}));
     if (autoOpenTimer !== undefined) window.clearTimeout(autoOpenTimer);
     if (closeTimer !== undefined) window.clearTimeout(closeTimer);
     modal.classList.remove('is-closing');

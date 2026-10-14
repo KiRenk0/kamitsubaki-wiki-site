@@ -28,9 +28,9 @@ function mount(storage, { id = 'notice-1', draft = false, reduced = false, autoO
   modal.querySelector = () => panel;
   modal.querySelectorAll = selector => selector === '[data-announcement-close]' ? [close] : [];
   const document = { body, activeElement: null, querySelector: selector => selector === '[data-announcement-modal]' ? modal : launcher };
-  const window = new Element(), timers = new Map(); let serial = 0;
+  const window = new Element(), timers = new Map(), visitValues = new Map(); let serial = 0;
   Object.assign(window, {
-    CustomEvent: class {constructor(type,options){this.type=type;this.detail=options.detail;}},dispatchEvent(event){window.dispatch(event.type,event);},localStorage: storage, matchMedia: () => ({ matches: reduced }),
+    CustomEvent: class {constructor(type,options){this.type=type;this.detail=options.detail;}},dispatchEvent(event){window.dispatch(event.type,event);},localStorage: storage,sessionStorage:{getItem:key=>visitValues.get(key)??null,setItem:(key,value)=>visitValues.set(key,value)}, matchMedia: () => ({ matches: reduced }),
     setTimeout: callback => { timers.set(++serial, callback); return serial; },
     clearTimeout: id => timers.delete(id), requestAnimationFrame: callback => callback(),
   });
@@ -49,10 +49,12 @@ test('first display is remembered before dismissal and refresh stays collapsed',
   first.flush();
   assert.equal(first.modal.hidden, false);
   assert.equal(saved.getItem('kamitsubaki-wiki-announcement-seen'), 'notice-1');
+  assert.equal(first.window.sessionStorage.getItem('kamitsubaki-wiki:auto-announcement:v1'), 'true');
   const refreshed = mount(saved); refreshed.flush();
   assert.equal(refreshed.modal.hidden, true);
   refreshed.launcher.dispatch('click');
   assert.equal(refreshed.modal.hidden, false);
+  assert.equal(refreshed.window.sessionStorage.getItem('kamitsubaki-wiki:auto-announcement:v1'), null);
   refreshed.close.dispatch('click'); refreshed.flush();
   assert.equal(refreshed.modal.hidden, true);
   assert.equal(refreshed.body.classList.contains('announcement-modal-open'), false);
