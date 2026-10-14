@@ -27,10 +27,13 @@ import { useContainerWidth } from '@/lib/use-container-width';
 import { restoreNodeEdit, type StoredNodeEdit } from '@/lib/node-edit-draft';
 import { reviewSnapshot, type ReviewSnapshot, type ReviewSubmission, type ReviewAttachment, type ReviewResolution } from '@/lib/review-service';
 import { canAdoptSubmission } from '@/lib/review-attachments';
+import { articleSnapshot, articleSourceWithContent, type ArticleBinding, type ArticleSnapshot } from '@/lib/article-document';
+import type { ArticleReceipt, ArticleRevision } from '@/lib/article-service';
 import { PreviewPane } from '@/components/reader-preview';
 
+const ArticleReviewPane = lazy(() => import('@/components/article-review-pane'));
 const ReviewPane = lazy(() => import('@/components/review-pane'));
-type DocumentRecord = { key: string; path: string; source: string; baseSource?: string; create?: boolean; attachments?: ReviewAttachment[]; resolution?: ReviewResolution; pendingSource?: string; pendingNode?: StoredNodeEdit };
+type DocumentRecord = { key: string; path: string; source: string; baseSource?: string; create?: boolean; attachments?: ReviewAttachment[]; resolution?: ReviewResolution; article?: ArticleBinding; pendingSource?: string; pendingNode?: StoredNodeEdit };
 type View = 'edit' | 'source' | 'preview' | 'review';
 async function jsonRequest(url: string, options?: RequestInit) {
   const response = await fetch(url, options); const body = await response.json();
@@ -38,7 +41,7 @@ async function jsonRequest(url: string, options?: RequestInit) {
 }
 function initialDocument(): DocumentRecord {
   const draft = readLastLocalDraft();
-  return draft ? { key: draft.key, path: draft.path, source: draft.source, baseSource: draft.baseSource, create: draft.create, attachments: draft.attachments, resolution: draft.resolution, pendingSource: draft.pendingSource, pendingNode: draft.pendingNode } : { key: 'demo', path: '', source: demoSource };
+  return draft ? { key: draft.key, path: draft.path, source: draft.source, baseSource: draft.baseSource, create: draft.create, attachments: draft.attachments, resolution: draft.resolution, article: draft.article, pendingSource: draft.pendingSource, pendingNode: draft.pendingNode } : { key: 'demo', path: '', source: demoSource };
 }
 function downloadMarkdown(source: string, title: string, locale: string) {
   const url = URL.createObjectURL(new Blob([source], { type: 'text/markdown;charset=utf-8' }));
@@ -70,6 +73,7 @@ export default function App() {
   const pendingRef = useRef<string | undefined>(record.pendingSource);
   const [pending, setPending] = useState(Boolean(record.pendingSource));
   const [view, setView] = useState<View>(record.pendingSource ? 'source' : 'edit');
+  const [articleReview, setArticleReview] = useState<{ recordKey: string; snapshot: ArticleSnapshot } | null>(null);
   const [review, setReview] = useState<{ recordKey: string; snapshot: ReviewSnapshot } | null>(null);
   const [catalog, setCatalog] = useState<CatalogEntry[]>([]);
   const [catalogLoading, setCatalogLoading] = useState(true);
@@ -130,7 +134,7 @@ export default function App() {
     try {
       const meta = metadataRef.current;
       const source = liveSource();
-      saveLocalDraft({ key: recordRef.current.key, path: recordRef.current.path, source, baseSource: recordRef.current.baseSource, create: recordRef.current.create, attachments: recordRef.current.attachments, resolution: recordRef.current.resolution, title: meta.name || meta.title || '未命名词条', locale: meta.locale || 'zh', savedAt: Date.now(), pendingSource: pendingRef.current, pendingNode: pendingNode.current });
+      saveLocalDraft({ key: recordRef.current.key, path: recordRef.current.path, source, baseSource: recordRef.current.baseSource, create: recordRef.current.create, attachments: recordRef.current.attachments, resolution: recordRef.current.resolution, article: recordRef.current.article, title: meta.name || meta.title || '未命名词条', locale: meta.locale || 'zh', savedAt: Date.now(), pendingSource: pendingRef.current, pendingNode: pendingNode.current });
       if (!pendingRef.current) setSourceValue(source);
       setStorageError(''); setStatus(pendingRef.current ? '源码已暂存，尚未应用' : pendingNode.current ? '填写内容已暂存，尚未应用' : '已保存到本地');
       return true;
@@ -178,7 +182,7 @@ export default function App() {
     if (contextRef.current && !persist()) { toast.error('当前草稿尚未保存，请先导出备份再切换。'); return; }
     clearTimeout(timer.current); contextRef.current = null; editorRef.current = null;
     pendingRef.current = next.pendingSource; pendingNode.current = next.pendingNode; setPending(Boolean(next.pendingSource)); setSourceValue(next.pendingSource || next.source);
-    setEditor(null); setTarget(null); setOutline([]); setActiveOutline(null); setMetadata({}); setReview(null); setRecord(next); recordRef.current = next;
+    setEditor(null); setTarget(null); setOutline([]); setActiveOutline(null); setMetadata({}); setReview(null); setArticleReview(null); setRecord(next); recordRef.current = next;
     setRevision(value => value + 1); setView(next.pendingSource ? 'source' : 'edit'); setMobileLibrary(false); setNavigationOpen(false); setOpening(false); setStatus('正在打开词条…'); setLoadError('');
   }, [persist]);
   const openEntry = useCallback(async (entry: CatalogEntry) => {
@@ -188,7 +192,7 @@ export default function App() {
       const original = (await jsonRequest('/__novel/source?path=' + encodeURIComponent(entry.path))).source;
       const source = draft?.source || original;
       if (sequence !== loadSequence.current) return;
-      replaceDocument({ key: entry.path, path: entry.path, source, baseSource: draft?.baseSource ?? original, create: draft?.create, attachments: draft?.attachments, resolution: draft?.resolution, pendingSource: draft?.pendingSource, pendingNode: draft?.pendingNode });
+      replaceDocument({ key: entry.path, path: entry.path, source, baseSource: draft?.baseSource ?? original, create: draft?.create, attachments: draft?.attachments, resolution: draft?.resolution, article: draft?.article, pendingSource: draft?.pendingSource, pendingNode: draft?.pendingNode });
     } catch (error: any) { toast.error(error.message); }
     finally { if (sequence === loadSequence.current) setOpening(false); }
   }, [replaceDocument]);
@@ -220,7 +224,7 @@ export default function App() {
     if (!editorRef.current) return;
     try {
       const nextMetadata = validateDocumentSource(sourceValue);
-      if (record.path && (nextMetadata.id !== metadataRef.current.id || nextMetadata.entityType !== metadataRef.current.entityType || nextMetadata.locale !== metadataRef.current.locale)) throw new Error('已有词条的永久 ID、类型和语言需要保持不变。');
+      if ((record.path || record.article) && (nextMetadata.id !== metadataRef.current.id || nextMetadata.entityType !== metadataRef.current.entityType || nextMetadata.locale !== metadataRef.current.locale)) throw new Error('已有词条的永久 ID、类型和语言需要保持不变。');
       const loaded = loadWikiDocument(editorRef.current, sourceValue, record.path, true);
       contextRef.current = loaded.context; metadataRef.current = loaded.metadata; setMetadata(loaded.metadata); pendingRef.current = undefined; setPending(false); refreshOutline(editorRef.current); persist(); setView('edit'); toast.success('Markdown 已应用到正文');
     } catch (error: any) { toast.error(error.message); }
@@ -234,16 +238,22 @@ export default function App() {
   const openDrafts = () => { persist(); try { setDrafts(listLocalDrafts()); setDraftsOpen(true); } catch { toast.error('浏览器禁止访问本地草稿'); } };
   const sidebar = <LibrarySidebar catalog={catalog} loading={catalogLoading} search={search} onSearch={setSearch} selectedPath={record.path} selectedKey={record.key} onSelect={openEntry} onDemo={openDemo} onNew={newDocument} onImport={() => fileInput.current?.click()} onDrafts={openDrafts} locale={catalogLocale} onLocale={setCatalogLocale} />;
   const navigator = <WorkspaceSidebar editor={editor} outline={outline} resources={resources} onNavigate={onNavigate} onBrowse={() => { setNavigationOpen(false); setMobileLibrary(true); }} onNew={newDocument} onDrafts={openDrafts} onReveal={() => { setView('edit'); setNavigationOpen(false); }} activePosition={activeOutline} version={contentVersion} />;
-  const properties = <PropertiesPanel key={record.key + ':' + revision} metadata={metadata} onChange={changeMetadata} pending={pending} locked={Boolean(record.path)} onClose={() => compactLayout ? setMobileProperties(false) : setShowProperties(false)} />;
+  const properties = <PropertiesPanel key={record.key + ':' + revision} metadata={metadata} onChange={changeMetadata} pending={pending} locked={Boolean(record.path || record.article)} onClose={() => compactLayout ? setMobileProperties(false) : setShowProperties(false)} />;
   const nodeEditor = target ? <NodeEditor target={target} locale={metadata.locale || 'zh'} onClose={closeTarget} onDirty={markTargetDirty} onDraft={saveNodeDraft} /> : null;
   const catalogContext = useMemo(() => ({ entries: catalog, locale: metadata.locale || 'zh', loading: catalogLoading }), [catalog, metadata.locale, catalogLoading]);
   const title = metadata.name ?? metadata.title ?? '';
+  const articleBodyImages=()=>{const images:{src:string;alt?:string;caption?:string}[]=[];editorRef.current?.state.doc.descendants(node=>{if(node.type.name==='image')images.push(node.attrs as {src:string;alt?:string;caption?:string});});return images;};
   const exportDocument = () => { if (targetDirty.current) { toast.info('请先完成或取消当前内容编辑，再导出 Markdown。'); return; } try { persist(); downloadMarkdown(liveSource(), title, metadata.locale); toast.success('Markdown 已导出'); } catch (error: any) { toast.error(error.message); } };
   const openReview = async () => {
     if (pendingRef.current || targetDirty.current || pendingNode.current) { toast.info('请先完成或取消尚未应用的填写内容，再检查修改。'); return; }
     if (!persist()) return;
     const selectedKey = recordRef.current.key;
     try {
+      if (metadataRef.current.entityType === 'editorial-article') {
+        if (recordRef.current.path && !recordRef.current.article) throw new Error('这篇原始站内文章需要先关联文章服务。当前修改仍保存在本地，可继续编辑或导出。');
+        const snapshot = articleSnapshot(selectedKey, liveSource(), recordRef.current.attachments, recordRef.current.article,articleBodyImages());
+        setArticleReview({ recordKey: selectedKey, snapshot }); setReview(null); closeTarget(); setView('review'); return;
+      }
       const path = recordRef.current.path || catalog.find(entry => entry.id === metadataRef.current.id && entry.locale === metadataRef.current.locale)?.path || '';
       const baseSource = recordRef.current.baseSource ?? (path ? (await jsonRequest('/__novel/source?path=' + encodeURIComponent(path))).source : '');
       if (selectedKey !== recordRef.current.key) return;
@@ -263,6 +273,27 @@ export default function App() {
       recordRef.current = { ...recordRef.current, baseSource, resolution: undefined }; setRecord(recordRef.current);
       refreshOutline(editorRef.current); persist(); setView('edit'); toast.success('已载入服务端草稿，可用撤销恢复刚才的版本。');
     } catch (error: any) { toast.error(error.message); }
+  };
+  const acceptArticle = (receipt: ArticleReceipt) => {
+    if (!editorRef.current || !articleReview || articleReview.recordKey !== recordRef.current.key) return;
+    const current = liveSource(), adopt = canAdoptSubmission(current, receipt.originalSource, receipt.source);
+    if (adopt && current !== receipt.source) {
+      const loaded = loadWikiDocument(editorRef.current, receipt.source, recordRef.current.path, true);
+      contextRef.current = loaded.context; metadataRef.current = loaded.metadata; setMetadata(loaded.metadata); refreshOutline(editorRef.current);
+    }
+    recordRef.current = { ...recordRef.current, article: receipt.binding, attachments: receipt.attachments }; setRecord(recordRef.current); persist();
+    const kept = adopt ? receipt.source : current;
+    setArticleReview({ recordKey: recordRef.current.key, snapshot: articleSnapshot(recordRef.current.key, kept, receipt.attachments, receipt.binding,articleBodyImages()) });
+    if (!adopt) toast.info('账号草稿已保存，之后新增的本地修改也已保留。');
+  };
+  const openArticle = (accountId: string, revision: ArticleRevision) => {
+    if (!persist()) return;
+    const saved = listLocalDrafts().find(draft => !/:before-(?:account-load|merge):/.test(draft.key) && draft.article?.ownerId === accountId && draft.article.articleId === revision.article_id && draft.locale === revision.locale);
+    const template = saved?.source || newDocumentSource(revision.locale);
+    const source = articleSourceWithContent(template, revision.content);
+    if (saved && saved.source !== source) saveLocalDraft({ ...saved, key: saved.key + ':before-account-load:' + crypto.randomUUID(), title: saved.title + ' · 载入账号版本前备份', savedAt: Date.now() });
+    const article: ArticleBinding = { ownerId: accountId, articleId: revision.article_id, revisionId: revision.id, locale: revision.locale, baseVersion: revision.base_version, fingerprint: revision.fingerprint, draftVersion: revision.draft_version, status: revision.status, updatedAt: revision.updated_at, withdrawnAt: revision.withdrawn_at };
+    replaceDocument({ key: saved?.key || 'article:' + accountId + ':' + revision.article_id, path: '', source, article, attachments: saved?.attachments });
   };
   const reconcileReview = (source: string, baseSource: string, resolution: ReviewResolution) => {
     if (!editorRef.current || !review || recordRef.current.key !== review.recordKey) return;
@@ -329,6 +360,7 @@ export default function App() {
         </div></div>
         {view === 'source' ? <section className="wiki-source-pane"><div className="wiki-pane-heading"><div><h2>Markdown 源码</h2><p>{pending ? '修改已暂存，应用后可预览或导出。' : '正文和词条属性的完整保存内容。'}</p></div><div className="flex gap-2"><Button variant="outline" disabled={!pending} onClick={() => { pendingRef.current = undefined; setPending(false); setSourceValue(liveSource()); persist(); setView('edit'); }}>放弃修改</Button><Button disabled={!pending || !editor} onClick={applySource}>应用源码</Button></div></div><SourceEditor value={sourceValue} onChange={sourceChanged} height="calc(100vh - 190px)" /></section> : null}
         {view === 'preview' ? <PreviewPane source={liveSource()} title={title} /> : null}
+        {view === 'review' && articleReview ? <Suspense fallback={<p role="status">正在打开文章检查…</p>}><ArticleReviewPane key={articleReview.recordKey} snapshot={articleReview.snapshot} onBack={() => setView('edit')} onAccepted={acceptArticle} onOpen={openArticle} /></Suspense> : null}
         {view === 'review' && review ? <Suspense fallback={<p role="status">正在打开修改检查…</p>}><ReviewPane key={review.recordKey} snapshot={review.snapshot} onBack={() => setView('edit')} onRestore={restoreReviewDraft} onSubmitted={acceptSubmission} onReconcile={reconcileReview} /></Suspense> : null}
       </main></ResizablePanel>{['edit', 'source'].includes(view) && !compactLayout && (showProperties || editingDock) ? <><ResizableHandle withHandle className="wiki-properties-resizer" aria-label="调整词条属性栏宽度" /><ResizablePanel id="properties" elementRef={propertiesScroll} defaultSize={propertiesWidth.current} minSize={320} maxSize={560} groupResizeBehavior="preserve-pixel-size" onResize={(size, _id, previous) => { if (previous && size.inPixels >= 320) { propertiesWidth.current = size.inPixels; try { localStorage.setItem('kamitsubaki-novel-local-prototype:properties-width', String(size.inPixels)); } catch { /* Width still works without storage. */ } } }} className="wiki-desktop-properties" style={{ overflow: "auto" }}>{editingDock ? nodeEditor : properties}</ResizablePanel></> : null}
     </ResizablePanelGroup></div>
@@ -336,7 +368,7 @@ export default function App() {
     <Sheet open={mobileLibrary} onOpenChange={setMobileLibrary}><SheetContent side="left" className="wiki-library-sheet"><SheetHeader className="sr-only"><SheetTitle>词条库</SheetTitle></SheetHeader>{sidebar}</SheetContent></Sheet>
     <Sheet open={mobileProperties} onOpenChange={setMobileProperties}><SheetContent side="right" showCloseButton={false} className="wiki-properties-sheet"><SheetHeader className="sr-only"><SheetTitle>词条属性</SheetTitle></SheetHeader>{properties}</SheetContent></Sheet>
     {nodeEditorHost && nodeEditor ? createPortal(nodeEditor, nodeEditorHost) : null}
-    <Dialog open={draftsOpen} onOpenChange={setDraftsOpen}><DialogContent><DialogHeader><DialogTitle>本地草稿</DialogTitle><DialogDescription>这些草稿保存在当前浏览器中，可继续编辑或导出。</DialogDescription></DialogHeader><div className="wiki-draft-list">{drafts.length ? drafts.map(draft => <Button variant="ghost" className="wiki-draft-row" key={draft.key} onClick={() => { replaceDocument({ key: draft.key, path: draft.path, source: draft.source, baseSource: draft.baseSource, create: draft.create, attachments: draft.attachments, resolution: draft.resolution, pendingSource: draft.pendingSource, pendingNode: draft.pendingNode }); setDraftsOpen(false); }}><FileText data-icon="inline-start" /><span><strong>{draft.title}</strong><small>{new Date(draft.savedAt).toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' })}</small></span></Button>) : <p>还没有本地草稿。</p>}</div></DialogContent></Dialog>
+    <Dialog open={draftsOpen} onOpenChange={setDraftsOpen}><DialogContent><DialogHeader><DialogTitle>本地草稿</DialogTitle><DialogDescription>这些草稿保存在当前浏览器中，可继续编辑或导出。</DialogDescription></DialogHeader><div className="wiki-draft-list">{drafts.length ? drafts.map(draft => <Button variant="ghost" className="wiki-draft-row" key={draft.key} onClick={() => { replaceDocument({ key: draft.key, path: draft.path, source: draft.source, baseSource: draft.baseSource, create: draft.create, attachments: draft.attachments, resolution: draft.resolution, article: draft.article, pendingSource: draft.pendingSource, pendingNode: draft.pendingNode }); setDraftsOpen(false); }}><FileText data-icon="inline-start" /><span><strong>{draft.title}</strong><small>{new Date(draft.savedAt).toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' })}</small></span></Button>) : <p>还没有本地草稿。</p>}</div></DialogContent></Dialog>
     <input ref={fileInput} type="file" accept=".md,.markdown,text/markdown" className="hidden" aria-label="导入 Markdown 文件" onChange={async event => { const input = event.currentTarget; const file = input.files?.[0]; if (!file) return; try { if (file.size > 1_000_000) throw new Error('Markdown 文件不能超过 1 MB'); const sequence = ++loadSequence.current; const source = await file.text(); if (sequence !== loadSequence.current) return; validateDocumentSource(source); replaceDocument({ key: 'import:' + crypto.randomUUID(), path: '', source }); } catch (error: any) { toast.error(error.message); } input.value = ''; }} />
     <Toaster richColors theme={dark ? 'dark' : 'light'} />
   </div></TooltipProvider></CatalogContext.Provider>;

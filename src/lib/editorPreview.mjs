@@ -6,8 +6,8 @@ import { renderMediaEmbed, resolveMediaEmbed } from './mediaEmbed.mjs';
 import { youtubeEditorEmbedUrl } from './editorPlaybackClock.mjs';
 import { renderInlineShortcode } from './wikiInlineShortcodes.mjs';
 
-export function previewRich(source) {
-  const template = document.createElement('template'); template.innerHTML = renderRich(source);
+export function previewRich(source, document = globalThis.document) {
+  const template = document.createElement('template'); template.innerHTML = renderRich(source,document);
   template.content.querySelectorAll('[data-ve-source]').forEach(chip => chip.replaceWith(...chip.childNodes));
   return template.innerHTML;
 }
@@ -95,10 +95,10 @@ export function renderMediaSwitcherCard(block, copy, {editable = false, activeIn
   const controls = editable ? `<div class="ve-media-switcher-fields"><label><span>${escapeHtml(copy.mediaPlatform)}</span><select data-media="${selected}:provider" aria-label="${escapeHtml(copy.mediaPlatform)} ${selected+1}">${mediaProviders.map(provider=>`<option value="${provider}" ${provider===current.provider?'selected':''}>${escapeHtml(mediaProviderLabel(provider))}</option>`).join('')}</select></label><label class="ve-media-switcher-url"><span>${escapeHtml(copy.url)}</span><input type="text" inputmode="url" data-media="${selected}:url" value="${escapeHtml(current.url||'')}" aria-label="${escapeHtml(copy.url)} ${selected+1}" autocomplete="url" spellcheck="false" /></label><button type="button" data-media-remove="${selected}" ${items.length<=2?'disabled':''} aria-label="${escapeHtml(copy.removeMedia)} ${selected+1}">${iconMarkup('x')}</button></div><p class="ve-media-switcher-status ${media?'is-valid':current.url?.trim()?'is-invalid':''}" role="status">${media?`✓ ${escapeHtml(copy.mediaResolved)}`:escapeHtml(current.url?.trim()?copy.mediaUnresolved:copy.mediaPaste)}</p>` : '';
   return `<div class="ve-media-switcher ${editable?'ve-media-switcher-editor':''}" data-media-active="${selected}">${title}<div class="ve-media-tabs" role="tablist" aria-label="${escapeHtml(copy.blocks['media-switcher'])}">${tabs}</div>${controls}<div id="${escapeHtml(panelId)}" role="tabpanel" data-preview-media="${escapeHtml(block.id)}">${previewMedia(current.provider,current.url)}</div>${editable?`<button type="button" class="ve-media-switcher-add" data-media-add ${items.length>=6?'disabled':''}>${iconMarkup('plus')} ${escapeHtml(copy.addMedia)}</button>`:''}</div>`;
 }
-export function previewBlock(b, copy, depth = 0) {
+export function previewBlock(b, copy, depth = 0, document = globalThis.document) {
   const text = escapeHtml(b.text);
   switch (b.type) {
-    case 'paragraph': return previewRich(b.text);
+    case 'paragraph': return previewRich(b.text,document);
     case 'heading': { const level=Math.max(2,Math.min(6,Number(b.level)||2)); return `<h${level}>${text}</h${level}>`; }
     case 'list': { const tag=b.ordered?'ol':'ul'; return `<${tag}>${b.text.split('\n').filter(Boolean).map(t=>`<li>${escapeHtml(t)}</li>`).join('')}</${tag}>`; }
     case 'quote': return `<blockquote>${text.replaceAll('\n','<br>')}</blockquote>`;
@@ -107,13 +107,13 @@ export function previewBlock(b, copy, depth = 0) {
     case 'media-switcher': return renderMediaSwitcherCard(b,copy);
     case 'table': { const row=(cells,tag)=>`<tr>${cells.map(cell=>`<${tag}>${escapeHtml(cell).replaceAll('\n','<br>')}</${tag}>`).join('')}</tr>`; return `<table><thead>${row(b.rows[0]||[],'th')}</thead><tbody>${b.rows.slice(1).map(cells=>row(cells,'td')).join('')}</tbody></table>`; }
     case 'ruby': return `<p>${renderInlineShortcode('ruby',[b.text,b.kana,...(b.romaji?[b.romaji]:[])]) || text}</p>`;
-    case 'details': return `<details><summary>${escapeHtml(b.title || copy.detailTitle)}</summary>${depth<8?parseVisualBlocks(b.text).map(child=>previewBlock(child,copy,depth+1)).join(''):previewRich(b.text)}</details>`;
+    case 'details': return `<details><summary>${escapeHtml(b.title || copy.detailTitle)}</summary>${depth<8?parseVisualBlocks(b.text).map(child=>previewBlock(child,copy,depth+1,document)).join(''):previewRich(b.text,document)}</details>`;
     case 'inline': { const result=renderInlineShortcode(b.kind,b.args.filter((arg,i)=>b.kind!=='ruby'||i<2||arg)); return `<p>${typeof result==='string'?result:escapeHtml(result?.value || b.args[0])}</p>`; }
     case 'code': return `<pre data-language="${escapeHtml(b.language)}"><code>${text}</code></pre>`;
     case 'math': return katex.renderToString(b.text,{throwOnError:false,displayMode:b.display,trust:false});
     case 'lyrics': return `<div class="ve-lyrics my-lyric-box">${b.rows.map(r=>`<div class="lyric-line"><div class="jp-lyric">${(r.units?.length?r.units:[r]).map(unit=>`<ruby>${escapeHtml(unit.original)}<rt>${escapeHtml(unit.kana)}</rt></ruby>`).join('')}</div><div class="cn-lyric">${escapeHtml(r.translation)}</div></div>`).join('')}</div>`;
     case 'divider': return '<hr/>';
-    default: return previewRich(b.text);
+    default: return previewRich(b.text,document);
   }
 }
 export function loadPreviewMedia(button, { youtubeApi = false, origin = '' } = {}) {

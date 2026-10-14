@@ -47,6 +47,7 @@ export function reviewSnapshot(path: string, content: string, baseContent?: stri
 // check before every write prevents a proxy/configuration mistake publishing it.
 export class LocalReviewService {
   constructor(private request: typeof fetch = (url, options) => fetch(url, options), private storage: Storage = localStorage) {}
+  localAccount(expected?: string, signal?: AbortSignal) { return this.session(expected, signal); }
   private async api<T>(path: string, method = 'GET', body?: unknown, signal?: AbortSignal): Promise<T> {
     if (method !== 'GET') {
       const current = await this.api<{ account: ReviewAccount; mode: string }>('/api/editor/session');

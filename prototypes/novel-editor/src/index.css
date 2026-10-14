@@ -290,6 +290,7 @@ button, input, textarea { font: inherit; }
 .wiki-preview-pane { overflow: auto; padding: 44px 54px 80px; }
 .wiki-preview-pane { flex: 1; min-height: 0; width: 100%; container-type: inline-size; --reader-line: var(--border); --reader-text: var(--foreground); --reader-muted: var(--muted-foreground); --font-serif: 'Noto Serif SC Variable', serif; --theme-accent-color: var(--primary); }
 .wiki-preview-reader-layout { display: grid; grid-template-columns: minmax(0, 1fr); gap: 32px; align-items: start; }
+.wiki-preview-reader-layout[data-kind=article] { display: block; }
 .wiki-preview-reader-layout > .entity-info { grid-row: 1; min-width: 0; }
 .wiki-preview-reader-layout .external-link-card { display: grid; align-items: center; color: var(--foreground); text-decoration: none; }
 .wiki-preview-reader-layout .external-link-card__arrow { width: 16px; height: 16px; }

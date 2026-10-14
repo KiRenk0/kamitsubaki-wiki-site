@@ -199,5 +199,5 @@ export function createDomainBlock(type: string): WikiBlockData {
 }
 
 export function newDocumentSource(locale = 'zh') {
-  return `---\nschemaVersion: 2\nid: local-${crypto.randomUUID()}\nlocale: ${locale}\nentityType: editorial-article\ntitle: 未命名词条\narticleCategory: archival\nauthor: ""\npublishDate: ""\nrelatedEntities: []\nrelations: []\npresentation: {}\n---\n\n## 简介\n\n在这里开始写作。输入 / 插入内容。\n`;
+  return `---\nschemaVersion: 2\nid: local-${crypto.randomUUID()}\nlocale: ${locale}\nentityType: editorial-article\ntitle: ""\narticleCategory: archival\nauthor: ""\npublishDate: ""\nrelatedEntities: []\nrelations: []\npresentation: {}\n---\n\n`;
 }
