@@ -1,30 +1,34 @@
 // Shared editor source; the frontend keeps a verified copy of this module.
 export function communityEditorMarkup(copy={}){
  const escape=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
- const labels={title:'企划名称',sourceLocale:'原文语言',summary:'短简介',body:'详细介绍',organizer:'主办方',organizerUrl:'主办方主页',sourceUrl:'公开信息来源',contact:'申请联系方式（仅管理员可见）',category:'活动分类',mode:'参与方式',country:'国家／地区',city:'城市',venue:'场地／地点',timeZone:'举办地／组织方时区',scheduleKind:'日期类型',disambiguation:'开始时间重复时刻',endDisambiguation:'结束时间重复时刻',startDate:'开始日期',endDate:'结束日期',startLocal:'开始时间',endLocal:'结束时间',eventStatus:'活动状态',changeNote:'延期／取消说明',seriesId:'所属系列',edition:'届次',proposedSeries:'建议新系列',links:'参与链接',deadlines:'报名与征集截止',media:'海报与正文图片',save:'保存草稿',submit:'提交审核',preview:'预览',publish:'发布已保存草稿',withdraw:'撤回待审',addDeadline:'增加截止点',addLink:'增加参与链接',upload:'上传图片',...copy};
+ const labels={basic:'基本资料',title:'企划名称',sourceLocale:'原文语言',summary:'短简介',body:'详细介绍',organizer:'主办方',organizerUrl:'主办方主页',sourceUrl:'公开信息来源',contact:'申请联系方式（仅管理员可见）',category:'活动分类',mode:'参与方式',country:'国家／地区',city:'城市',venue:'场地／地点',timeZone:'举办地／组织方时区',schedule:'主活动日程',scheduleKind:'日期类型',disambiguation:'开始时间重复时刻',endDisambiguation:'结束时间重复时刻',startDate:'开始日期',endDate:'结束日期',startLocal:'开始时间',endLocal:'结束时间',eventStatus:'活动状态',changeNote:'延期／取消说明',seriesId:'所属系列',edition:'届次',proposedSeries:'建议新系列',links:'参与链接',deadlines:'报名与征集截止',media:'海报与正文图片',save:'保存草稿',submit:'提交审核',preview:'预览',publish:'发布已保存草稿',withdraw:'撤回待审',addDeadline:'增加截止点',addLink:'增加参与链接',upload:'上传图片',sourceHelp:'填写主办方公告或其他可核对的公开链接。',mediaHelp:'上传完整海报，并补齐作者、来源和使用依据。',association:'系列与参与信息',heading:'插入标题',list:'列表',faq:'常见问题',exportDraft:'导出当前草稿',...copy};
  const label=(key,fallback)=>escape(labels[key]||fallback||key);
- const input=(key,type='text',max=200)=>`<label><span>${label(key)}</span><input name="${key}" type="${type}" maxlength="${max}"${type==='datetime-local'?' step="any"':''}></label>`;
- const select=(key,options)=>`<label><span>${label(key)}</span><select name="${key}">${options.map(([v,t])=>`<option value="${v}">${label(v,t)}</option>`).join('')}</select></label>`;
- return `<form class="community-editor" data-community-editor novalidate>
- <p data-editor-status role="status"></p><a data-editor-login hidden></a>
- <div class="community-editor-fields">${input('title')}${select('sourceLocale',[['zh','简体中文'],['zh-tw','繁體中文（台灣）'],['zh-hk','繁體中文（香港）'],['ja','日本語'],['en','English']])}</div>
- <label><span>${label('summary')}</span><textarea name="summary" rows="3" maxlength="1000"></textarea></label>
- <div class="community-editor-fields">${input('organizer')}${input('organizerUrl','url',2000)}${input('sourceUrl','url',2000)}</div>
+ const input=(key,type='text',max=200)=>`<label><span>${label(key)}</span><input class="workspace-control dui-input" data-ui-kit name="${key}" type="${type}" maxlength="${max}"${type==='datetime-local'?' step="any"':''}></label>`;
+ const select=(key,options)=>`<label><span>${label(key)}</span><select class="workspace-control dui-select" data-ui-kit name="${key}">${options.map(([v,t])=>`<option value="${v}">${label(v,t)}</option>`).join('')}</select></label>`;
+ const action=(key,attrs='',tone='secondary')=>`<button class="workspace-button dui-btn ${tone==='primary'?'dui-btn-primary':'dui-btn-ghost'}" data-ui-kit data-tone="${tone}" type="button" ${attrs}>${label(key)}</button>`;
+ return `<form class="community-editor" data-ui-kit data-community-editor novalidate>
+ <p data-editor-status role="status"></p><a class="workspace-button dui-btn dui-btn-primary" data-ui-kit data-tone="primary" data-editor-login hidden></a>
+ <fieldset class="community-editor-section"><legend>${label('basic')}</legend>
+ <div class="community-editor-fields community-editor-fields--identity">${input('title')}${select('sourceLocale',[['zh','简体中文'],['zh-tw','繁體中文（台灣）'],['zh-hk','繁體中文（香港）'],['ja','日本語'],['en','English']])}</div>
+ <label><span>${label('summary')}</span><textarea class="workspace-control dui-textarea" data-ui-kit name="summary" rows="3" maxlength="1000"></textarea></label>
+ <div class="community-editor-fields">${input('organizer')}${input('organizerUrl','url',2000)}</div>${input('sourceUrl','url',2000)}<p class="community-field-help">${label('sourceHelp')}</p>
+ </fieldset>
  <div data-activity-fields>
- <div class="community-editor-fields">${select('category',[['new-year','拜年祭'],['support','应援企划'],['meetup','同好聚会'],['convention','同人展'],['other','其他']])}${select('mode',[['online','线上'],['offline','线下'],['hybrid','线上＋线下']])}${select('country',[['','—']])}${input('city')}${input('venue','text',500)}</div>
- <fieldset><legend>${label('schedule','主活动日程')}</legend><div class="community-editor-fields">${select('scheduleKind',[['undated','日期待定'],['allDay','全天／多日'],['timed','具体时刻']])}${input('timeZone')}</div>
+ <fieldset class="community-editor-section"><legend>${label('schedule')}</legend>
+ <div class="community-editor-fields">${select('category',[['new-year','拜年祭'],['support','应援企划'],['meetup','同好聚会'],['convention','同人展'],['other','其他']])}${select('mode',[['online','线上'],['offline','线下'],['hybrid','线上＋线下']])}${select('scheduleKind',[['undated','日期待定'],['allDay','全天／多日'],['timed','具体时刻']])}${input('timeZone')}</div>
  <div data-schedule-dates class="community-editor-fields">${input('startDate','date')}${input('endDate','date')}</div><div data-schedule-times class="community-editor-fields">${input('startLocal','datetime-local')}${input('endLocal','datetime-local')}</div>
- <div class="community-editor-fields">${select('disambiguation',[['earlier','夏令时重复时刻：第一次'],['later','夏令时重复时刻：第二次']])}${select('endDisambiguation',[['earlier','夏令时重复时刻：第一次'],['later','夏令时重复时刻：第二次']])}</div></fieldset>
- <fieldset><legend>${label('deadlines')}</legend><div data-editor-deadlines></div><button type="button" data-add-deadline>${label('addDeadline')}</button></fieldset>
+ <div class="community-editor-fields" data-repeated-times>${select('disambiguation',[['earlier','夏令时重复时刻：第一次'],['later','夏令时重复时刻：第二次']])}${select('endDisambiguation',[['earlier','夏令时重复时刻：第一次'],['later','夏令时重复时刻：第二次']])}</div>
+ <div class="community-editor-fields">${select('country',[['','—']])}${input('city')}</div>${input('venue','text',500)}
  <div class="community-editor-fields">${select('eventStatus',[['scheduled','正常安排'],['postponed','延期'],['cancelled','取消']])}${input('changeNote','text',2000)}</div>
- <div class="community-editor-fields"><label><span>${label('seriesId')}</span><select name="seriesId"><option value="">—</option></select></label>${input('edition')}${input('proposedSeries')}</div>
- <fieldset><legend>${label('links')}</legend><div data-editor-links></div><button type="button" data-add-link>${label('addLink')}</button></fieldset>
- <label><span>${label('contact')}</span><textarea name="contact" rows="2" maxlength="2000"></textarea></label>
- </div>
- <fieldset><legend>${label('media')}</legend><div data-editor-media></div><input data-editor-file type="file" accept="image/png,image/jpeg,image/webp,image/gif" hidden><button type="button" data-upload-image>${label('upload')}</button></fieldset>
- <label><span>${label('body')}</span><div class="community-editor-format"><button type="button" data-insert="heading">H2</button><button type="button" data-insert="list">•</button><button type="button" data-insert="faq">FAQ</button><button type="button" data-editor-preview>${label('preview')}</button></div><textarea name="body" aria-label="${label('body')}" rows="12" maxlength="100000"></textarea></label>
- <div data-editor-preview-body class="wiki-reader wiki-prose" hidden></div>
- <footer class="community-editor-actions"><button type="button" data-editor-save>${label('save')}</button><button type="button" data-editor-submit>${label('submit')}</button><button type="button" data-editor-publish hidden>${label('publish')}</button><button type="button" data-editor-withdraw hidden>${label('withdraw')}</button><button type="button" data-editor-export>${label('exportDraft','导出当前草稿')}</button></footer>
+ </fieldset>
+ <fieldset class="community-editor-section"><legend>${label('deadlines')}</legend><div data-editor-deadlines></div>${action('addDeadline','data-add-deadline','quiet')}</fieldset>
+ <fieldset class="community-editor-section"><legend>${label('association')}</legend><div class="community-editor-fields"><label><span>${label('seriesId')}</span><select class="workspace-control dui-select" data-ui-kit name="seriesId"><option value="">—</option></select></label>${input('edition')}</div>${input('proposedSeries')}
+ <div class="community-field-heading">${label('links')}</div><div data-editor-links></div>${action('addLink','data-add-link','quiet')}
+ <label><span>${label('contact')}</span><textarea class="workspace-control dui-textarea" data-ui-kit name="contact" rows="2" maxlength="2000"></textarea></label>
+ </fieldset></div>
+ <fieldset class="community-editor-section"><legend>${label('body')}</legend><div class="community-editor-format"><button class="workspace-button dui-btn dui-btn-ghost" data-ui-kit data-tone="quiet" type="button" data-insert="heading" aria-label="${label('heading')}">H2</button>${action('list','data-insert="list"','quiet')}${action('faq','data-insert="faq"','quiet')}${action('preview','data-editor-preview')}</div><textarea class="workspace-control dui-textarea" data-ui-kit name="body" aria-label="${label('body')}" rows="12" maxlength="100000"></textarea><div data-editor-preview-body class="wiki-reader wiki-prose" hidden></div></fieldset>
+ <fieldset class="community-editor-section"><legend>${label('media')}</legend><p class="community-field-help">${label('mediaHelp')}</p><div data-editor-media></div><input data-editor-file type="file" accept="image/png,image/jpeg,image/webp,image/gif" hidden>${action('upload','data-upload-image')}</fieldset>
+ <footer class="community-editor-actions">${action('save','data-editor-save')}${action('submit','data-editor-submit','primary')}${action('publish','data-editor-publish hidden','primary')}${action('withdraw','data-editor-withdraw hidden')}${action('exportDraft','data-editor-export','quiet')}</footer>
  </form>`;
 }
 
@@ -33,7 +37,7 @@ export function initCommunityEditor(root,options={}){
  const $=s=>root.querySelector(s),field=name=>root.elements.namedItem(name),say=value=>{$('[data-editor-status]').textContent=value;};
  const base=String(options.apiBase||(options.admin?location.origin:'https://api.kamitsubaki.wiki')).replace(/\/$/,''),prefix='/api/'+(options.admin?'admin/':'')+'community-activities';
  let owner=null,operationId=options.operationId||crypto.randomUUID(),revisionId=null,version=null,activityId=null,baseVersion=null,seriesId=null,status='draft',media=[],deadlines=[],originalSchedule=null,busy=false,locked=false,sessionGeneration=0;
- const element=(tag,value)=>{const n=document.createElement(tag);if(value!==undefined)n.textContent=value;return n;};
+ const element=(tag,value)=>{const n=document.createElement(tag);if(value!==undefined)n.textContent=value;if(['input','select','textarea'].includes(tag)){n.className='workspace-control dui-'+(tag==='select'?'select':tag==='textarea'?'textarea':'input');n.dataset.uiKit='';}if(tag==='button'){n.className='workspace-button dui-btn dui-btn-ghost';n.dataset.uiKit='';n.dataset.tone='quiet';}return n;};
  const button=(label,handler)=>{const n=element('button',label);n.type='button';n.onclick=handler;return n;};
  const request=async(path,method='GET',body)=>{const r=await fetch(base+prefix+path,{method,credentials:'include',cache:'no-store',signal:AbortSignal.timeout(15000),headers:{Accept:'application/json',...(body?{'Content-Type':'application/json'}:{})},body:body?JSON.stringify({...body,accountId:owner}):undefined});let data;try{data=await r.json();}catch{throw Object.assign(Error(c.error),{status:r.status});}if(!r.ok){if(r.status===401){const a=$('[data-editor-login]');a.hidden=false;a.textContent=c.login;a.href=options.loginUrl||'/auth/sign-in';}const localized=options.locale&&!options.locale.startsWith('zh')?(r.status===401?c.login:r.status===409?c.versionConflict:r.status===400?c.invalidContent:c.requestError):data.error?.message||c.requestError;throw Object.assign(Error(localized),{status:r.status});}return data;};
  const option=(select,value,label)=>{const o=element('option',label);o.value=value;select.append(o);};
@@ -65,7 +69,14 @@ export function initCommunityEditor(root,options={}){
  const snapshot=()=>{let content=null;try{content=readContent();}catch{}const rawFields={};for(const n of root.elements)if(n.name)rawFields[n.name]=n.value;return {owner,content,rawFields,media:structuredClone(media),rawDeadlines:[...$('[data-editor-deadlines]').children].map(row=>({id:row.dataset.pointId,type:row.querySelector('[data-deadline-type]').value,label:row.querySelector('[data-deadline-label]').value,kind:row.querySelector('[data-deadline-kind]').value,date:row.querySelector('[data-deadline-date]').value,time:row.querySelector('[data-deadline-time]').value,timeZone:row.querySelector('[data-deadline-zone]').value,disambiguation:row.querySelector('[data-deadline-disambiguation]').value})),links:[...$('[data-editor-links]').children].map(row=>({label:row.querySelector('[data-link-label]').value,url:row.querySelector('[data-link-url]').value})),originalSchedule,revisionId,version,activityId,baseVersion,operationId,seriesId,updatedAt:Date.now()};};
  const retain=()=>{if(!owner||locked)return;try{localStorage.setItem(storageKey(),JSON.stringify(snapshot()));}catch{}};
  const setControls=()=>{for(const n of root.querySelectorAll('input,select,textarea,button'))n.disabled=busy||locked||!owner;if($('[data-editor-export]'))$('[data-editor-export]').disabled=busy;$('[data-editor-withdraw]').hidden=status!=='pending'||options.series;$('[data-editor-withdraw]').disabled=busy||!owner;$('[data-editor-submit]').hidden=Boolean(options.admin||options.series);$('[data-editor-publish]').hidden=!options.admin;};
- const renderSchedule=()=>{$('[data-schedule-dates]').hidden=field('scheduleKind').value!=='allDay';$('[data-schedule-times]').hidden=field('scheduleKind').value!=='timed';for(const name of ['disambiguation','endDisambiguation'])field(name).closest('label').hidden=field('scheduleKind').value!=='timed';};
+ const ambiguous=(value,timeZone)=>{try{return Boolean(value)&&utcValue(value,timeZone,'earlier')!==utcValue(value,timeZone,'later');}catch{return false;}};
+ const renderSchedule=()=>{
+  const timed=field('scheduleKind').value==='timed',zone=field('timeZone').value;
+  $('[data-schedule-dates]').hidden=field('scheduleKind').value!=='allDay';$('[data-schedule-times]').hidden=!timed;
+  const start=timed&&ambiguous(field('startLocal').value,zone),end=timed&&ambiguous(field('endLocal').value,zone);
+  field('disambiguation').closest('label').hidden=!start;field('endDisambiguation').closest('label').hidden=!end;$('[data-repeated-times]').hidden=!start&&!end;
+ };
+
  const addLink=(data={})=>{const row=element('div');row.className='community-editor-row';const label=element('input');label.dataset.linkLabel='';label.placeholder=c.label;label.value=data.label||'';const url=element('input');url.type='url';url.dataset.linkUrl='';url.placeholder='https://';url.value=data.url||'';row.append(label,url,button(c.remove,()=>{row.remove();retain();}));$('[data-editor-links]').append(row);};
  const addDeadline=(d={})=>{
   const row=element('div');row.className='community-editor-row';row.dataset.pointId=d.id||crypto.randomUUID();
@@ -76,7 +87,7 @@ export function initCommunityEditor(root,options={}){
   const zone=element('input');zone.dataset.deadlineZone='';zone.setAttribute('aria-label',c.timeZone||'Deadline timezone');zone.setAttribute('list',timezones.id);zone.placeholder=c.timeZone||'IANA timezone';zone.value=d.schedule?.timeZone||field('timeZone').value||'Asia/Shanghai';
   const time=element('input');time.type='datetime-local';time.step='any';time.dataset.deadlineTime='';time.setAttribute('aria-label',c.startLocal||'Deadline time');time.value=d.schedule?.startAt?localValue(d.schedule.startAt,zone.value):'';
   const choice=element('select');choice.dataset.deadlineDisambiguation='';choice.setAttribute('aria-label',c.deadlineDisambiguation);for(const v of ['earlier','later'])option(choice,v,c[v]);choice.value=d.disambiguation||savedChoice(d.schedule?.startAt,zone.value);
-  const sync=()=>{date.hidden=kind.value!=='allDay';time.hidden=choice.hidden=kind.value!=='timed';};kind.onchange=sync;sync();
+  const sync=()=>{date.hidden=kind.value!=='allDay';time.hidden=kind.value!=='timed';choice.hidden=kind.value!=='timed'||!ambiguous(time.value,zone.value);};kind.onchange=sync;time.oninput=zone.oninput=sync;sync();
   row.append(type,label,kind,date,time,zone,choice,button(c.remove,()=>{row.remove();retain();}));$('[data-editor-deadlines]').append(row);
  };
 
@@ -99,7 +110,7 @@ export function initCommunityEditor(root,options={}){
  $('[data-upload-image]').onclick=()=>$('[data-editor-file]').click();$('[data-editor-file]').onchange=()=>run(async()=>{const file=$('[data-editor-file]').files[0];if(!file)return;const data=new FormData();data.set('image',file);data.set('metadata',JSON.stringify({accountId:owner}));const r=await fetch(base+prefix+'/assets',{method:'POST',credentials:'include',body:data,signal:AbortSignal.timeout(60000)}),result=await r.json();if(!r.ok)throw Error(result.error?.message||c.error);if(!media.some(ref=>ref.assetId===result.asset.id))media.push({assetId:result.asset.id,role:media.some(r=>r.role==='poster')?'body':'poster',alt:file.name,author:'',sourceTitle:field('title').value,sourceUrl:'',rightsBasis:'',rightsEvidence:''});renderMedia();retain();say(c.uploaded);});
  $('[data-editor-preview]').onclick=()=>{const preview=$('[data-editor-preview-body]');preview.hidden=!preview.hidden;if(!preview.hidden){if(options.renderMarkdown)options.renderMarkdown(preview,media.reduce((body,ref)=>body.split('/_private/community-assets/'+ref.assetId).join(ref.src||base+prefix+'/assets/'+ref.assetId),field('body').value),media.map(ref=>({...ref,src:ref.src||base+prefix+'/assets/'+ref.assetId})));else preview.textContent=field('body').value;}};
  root.querySelectorAll('[data-insert]').forEach(b=>b.onclick=()=>{const area=field('body'),value={heading:'\n## ',list:'\n- ',faq:'\n### FAQ\n\n'}[b.dataset.insert];area.setRangeText(value,area.selectionStart,area.selectionEnd,'end');area.focus();retain();});
- field('scheduleKind').onchange=renderSchedule;root.addEventListener('input',retain);root.addEventListener('change',retain);root.onsubmit=e=>e.preventDefault();
+ field('scheduleKind').onchange=renderSchedule;for(const name of ['startLocal','endLocal','timeZone'])field(name).addEventListener('input',renderSchedule);root.addEventListener('input',retain);root.addEventListener('change',retain);root.onsubmit=e=>e.preventDefault();
  if(options.series)$('[data-activity-fields]').hidden=true;
  load();say(c.loading);
  const ready=(async()=>{try{const session=await request('/session');owner=session.accountId;if(options.admin&&!session.administrator)throw Error(c.login);const result=await request('/series');for(const s of result.items)option(field('seriesId'),s.id,s.title||s.draft?.title||s.id);say('');setControls();return session;}catch(e){say(e.message);const a=$('[data-editor-login]');a.hidden=false;a.textContent=c.login;a.href=options.loginUrl||'/auth/sign-in';setControls();return null;}})();

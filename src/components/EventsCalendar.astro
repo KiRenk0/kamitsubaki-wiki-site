@@ -1,5 +1,6 @@
 ---
-import Icon from './Icon.astro';
+import CalendarMonth from './CalendarMonth.astro';
+import CalendarNavigation from './CalendarNavigation.astro';
 import { getLanguageTag } from '../lib/i18n.mjs';
 
 type EventsCalendarCopy = {
@@ -44,19 +45,14 @@ const apiBase = import.meta.env.PUBLIC_EVENTS_API_BASE || 'https://kamitsubaki-e
       <h2>{copy.calendarTitle}</h2>
     </div>
     <div class="events-calendar__controls">
-      <button type="button" data-events-calendar-previous aria-label={copy.previousMonthLabel}><Icon name="arrow-left" /></button>
-      <button type="button" data-events-calendar-today>{copy.todayButtonLabel}</button>
-      <button type="button" data-events-calendar-next aria-label={copy.nextMonthLabel}><Icon name="arrow-right" /></button>
+      <CalendarNavigation previous={copy.previousMonthLabel} next={copy.nextMonthLabel} today={copy.todayButtonLabel}/>
     </div>
   </header>
 
   <p class="events-calendar__intro">{copy.calendarIntro}</p>
   <div class="events-calendar__month" data-events-calendar-month aria-live="polite"></div>
 
-  <div class="events-calendar__weekdays" aria-hidden="true">
-    {copy.weekdays.map((weekday) => <span>{weekday}</span>)}
-  </div>
-  <div class="events-calendar__grid" data-events-calendar-grid></div>
+  <CalendarMonth locale={languageTag} weekdays={copy.weekdays}/>
 
   <div class="events-calendar__status" data-events-calendar-status aria-live="polite">{copy.loading}</div>
 

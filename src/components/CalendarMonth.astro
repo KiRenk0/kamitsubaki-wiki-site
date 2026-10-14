@@ -1,0 +1,11 @@
+---
+import '../styles/calendarMonth.css';
+interface Props {source?:'official'|'community';locale?:string;weekdays?:string[];weekStartsOn?:number;}
+const {source='official',locale='zh',weekdays,weekStartsOn=0}=Astro.props;
+const labels=weekdays||Array.from({length:7},(_,index)=>new Intl.DateTimeFormat(locale,{weekday:'short',timeZone:'UTC'}).format(new Date(Date.UTC(2026,9,11+weekStartsOn+index))));
+const gridAttributes=source==='official'?{'data-events-calendar-grid':''}:{'data-calendar-grid':''};
+---
+<div class="events-calendar__month-view" data-calendar-month-view data-ui-kit>
+ <div class="events-calendar__weekdays calendar-month-weekdays" data-calendar-weekdays aria-hidden="true">{labels.map(day=><span>{day}</span>)}</div>
+ <div class="events-calendar__grid calendar-month-grid" {...gridAttributes}></div>
+</div>

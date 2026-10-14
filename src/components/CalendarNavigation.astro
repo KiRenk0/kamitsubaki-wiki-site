@@ -1,0 +1,12 @@
+---
+import WorkspaceButton from './WorkspaceButton.astro';
+import Icon from './Icon.astro';
+interface Props {source?:'official'|'community';previous:string;next:string;today:string;}
+const {source='official',previous,next,today}=Astro.props;
+const attribute=source==='official'?'data-events-calendar-':'data-calendar-';
+---
+<div class="calendar-month-navigation">
+ <WorkspaceButton {...{[attribute+'previous']:''}} aria-label={previous}><Icon name="arrow-left"/></WorkspaceButton>
+ <WorkspaceButton {...{[attribute+'today']:''}}>{today}</WorkspaceButton>
+ <WorkspaceButton {...{[attribute+'next']:''}} aria-label={next}><Icon name="arrow-right"/></WorkspaceButton>
+</div>

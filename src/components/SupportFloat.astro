@@ -1,4 +1,5 @@
 ---
+import WorkspaceButton from './WorkspaceButton.astro';
 import Icon from './Icon.astro';
 import { getSupportCopy } from '../data/supportCopy';
 import { resolveLocaleCopy } from '../lib/i18n.mjs';
@@ -12,19 +13,18 @@ const supportApi=import.meta.env.PUBLIC_SUPPORT_API_BASE||'https://api.kamitsuba
 ---
 
 <aside class:list={['support-float', { 'support-float--docked': docked }]} data-support-float data-support-api={supportApi} data-docked={docked || undefined} aria-label={copy.title}>
-  <button class="support-float__toggle" type="button" aria-label={giveCopy.action} title={giveCopy.action} aria-expanded="false" aria-controls="support-float-content">
+  <WorkspaceButton tone="primary" class="support-float__toggle" type="button" aria-label={giveCopy.action} title={giveCopy.action} aria-expanded="false" aria-controls="support-float-content">
     <Icon name="heart" />
     {!docked&&<span class="support-float__label">{giveCopy.label}</span>}
     <span class="support-float__close" aria-hidden="true"><Icon name="x" /></span>
     {docked && <strong>{copy.title}</strong>}
-  </button>
+  </WorkspaceButton>
   <div class="support-float__content" id="support-float-content" role="dialog" aria-label={copy.title} aria-hidden="true" inert>
-    <button type="button" class="support-float__panel-close" data-support-close aria-label={closeLabel}><Icon name="x" /></button>
-    <p class="support-float__eyebrow">SUPPORT THE OBSERVATORY</p>
+    <WorkspaceButton tone="quiet" class="support-float__panel-close" data-support-close aria-label={closeLabel}><Icon name="x" /></WorkspaceButton>
     <h2>{copy.bannerTitle}</h2>
     <p class="support-float__body">{copy.bannerBody}</p>
-    <a data-support-primary href={giveUrl||`/${locale}/support/`} target="_blank" rel="noopener noreferrer">{giveCopy.action}<span aria-hidden="true"><Icon name="arrow-up-right" /></span></a>
-    <a class="support-float__details" href={`/${locale}/support/`}>{giveCopy.details}</a>
+    <WorkspaceButton tone="primary" data-support-primary href={giveUrl||`/${locale}/support/`} target="_blank" rel="noopener noreferrer">{giveCopy.action}<span aria-hidden="true"><Icon name="arrow-up-right" /></span></WorkspaceButton>
+    <WorkspaceButton tone="quiet" class="support-float__details" href={`/${locale}/support/`}>{giveCopy.details}</WorkspaceButton>
   </div>
 </aside>
 
@@ -40,9 +40,9 @@ const supportApi=import.meta.env.PUBLIC_SUPPORT_API_BASE||'https://api.kamitsuba
   .support-float__eyebrow { font:9px/1.8 var(--font-mono); letter-spacing:.1em; color:var(--theme-accent-color); }
   .support-float h2 { margin:12px 0; font:500 23px/1.45 var(--font-serif); text-wrap:balance; }
   .support-float__body { font:13px/1.8 var(--font-sans); color:rgb(var(--theme-fg-rgb) / .68); }
-  .support-float__content a { display:flex; align-items:center; justify-content:space-between; gap:16px; margin-top:22px; min-height:48px; padding:12px 16px; border:1px solid var(--theme-accent-color); border-radius:var(--ui-radius-control); background:var(--theme-accent-color); color:var(--theme-bg); font:600 14px/1.6 var(--font-sans); box-shadow:0 4px 14px rgb(var(--theme-accent-rgb) / .2); transition:filter 200ms ease,translate 380ms cubic-bezier(.18,.9,.25,1.12); }
-  .support-float__content a:hover { filter:brightness(1.1); translate:0 -2px; }
-  .support-float__content a:active { translate:0 0; }
+  .support-float__content :global(a.workspace-button) { display:flex; align-items:center; justify-content:space-between; gap:16px; margin-top:22px; min-height:48px; padding:12px 16px; border:1px solid var(--theme-accent-color); border-radius:var(--ui-radius-control); background:var(--theme-accent-color); color:var(--theme-bg); font:600 14px/1.6 var(--font-sans); box-shadow:0 4px 14px rgb(var(--theme-accent-rgb) / .2); transition:filter 200ms ease,translate 380ms cubic-bezier(.18,.9,.25,1.12); }
+  .support-float__content :global(a.workspace-button):hover { filter:brightness(1.1); translate:0 -2px; }
+  .support-float__content :global(a.workspace-button):active { translate:0 0; }
   .support-float__content a:focus-visible { outline:2px solid var(--theme-fg); outline-offset:3px; }
   .support-float :is(a,button):focus-visible { outline:2px solid var(--theme-accent-color); outline-offset:-3px; }
   :global(body:has(.ve-workbench)) .support-float { display:none; }

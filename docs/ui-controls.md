@@ -43,3 +43,18 @@ import WorkspaceControl from '../components/WorkspaceControl.astro';
 - 五种语言的控件文字仍从页面的原有词典取得。
 
 开发时可在 `/zh/ui-preview/` 查看原有控件、daisyUI 原始控件和共用封装的状态。该页面不生成生产路由。
+
+## 活动日历与后台共用
+
+官方活动与社群活动共用 `CalendarMonth.astro`、`CalendarNavigation.astro` 和 `src/lib/calendarMonth.js`。数据适配器负责各自的日程与时区；月份网格只接受日期范围，不推断举办时区或默认结束时长。
+
+社群筛选通过浏览器 Popover 顶层显示，复用 `editorPopover.mjs` 的 Floating UI 定位。原生选择框和时区提示使用系统指针，避免自定义鼠标被原生选择器遮挡。
+
+后端管理表单与前端申请表使用同一编辑器源码，管理控件 CSS 从项目固定的 daisyUI 版本与 `uiKit.css` 编译生成，不在后端重写基础样式。修改共享控件或活动布局后，在前端仓库运行以下命令，并提交两仓库的对应结果：
+
+```sh
+node scripts/build-community-ui-kit.mjs --backend /path/to/isolated/backend
+node scripts/build-community-ui-kit.mjs --backend /path/to/isolated/backend --check
+```
+
+路径必须显式指定，以免覆盖其他会话的后台工作树。

@@ -1,4 +1,5 @@
 ---
+import WorkspaceButton from '../../../../components/WorkspaceButton.astro';
 import WorkspaceLayout from '../../../../layouts/WorkspaceLayout.astro';
 import {supportedLocales} from '../../../../lib/i18n.mjs';
 import {communityCopy} from '../../../../lib/communityCopy.mjs';
@@ -6,8 +7,8 @@ import '../../../../styles/community.css';
 export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
 const locale=Astro.params.locale||'zh',c=communityCopy(locale),api=import.meta.env.PUBLIC_COMMUNITY_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
 ---
-<WorkspaceLayout locale={locale} title={c.board} intro={c.intro} path="/community/activities/read/" eyebrow="COMMUNITY / PROJECT" width="wide" noindex mainAttributes={{class:'community-page','data-community-document':'activity','data-locale':locale,'data-api':api,'data-copy':JSON.stringify(c)}}>
- <div class="community-actions"><a href={`/${locale}/community/activities/`}>{c.back}</a><a data-community-correct href={`/${locale}/community/activities/apply/`}>{c.correction}</a><a data-community-export hidden>{c.exportCalendar}</a></div>
+<WorkspaceLayout locale={locale} title={c.board} intro={c.intro} path="/community/activities/read/" width="wide" noindex mainAttributes={{class:'community-page','data-community-document':'activity','data-locale':locale,'data-api':api,'data-copy':JSON.stringify(c)}}>
+ <div class="community-actions" slot="actions"><WorkspaceButton href={`/${locale}/community/activities/`}>{c.back}</WorkspaceButton><WorkspaceButton data-community-correct href={`/${locale}/community/activities/apply/`}>{c.correction}</WorkspaceButton><WorkspaceButton data-community-export hidden>{c.exportCalendar}</WorkspaceButton></div>
  <section data-community-content><p data-community-document-status role="status">{c.loading}</p></section>
 </WorkspaceLayout>
 <script>import {initCommunityDocument} from '../../../../scripts/communityDocument.js';initCommunityDocument(document.querySelector('[data-community-document]'));</script>

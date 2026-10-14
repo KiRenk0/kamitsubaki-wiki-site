@@ -1,3 +1,4 @@
+import {calendarMonthRange,renderCalendarMonth,shiftCalendarMonth} from '../lib/calendarMonth.js';
 import {setIconLabel} from '../lib/icons.mjs';
 import {
   LIVE_EVENTS_POLL_INTERVAL,
@@ -68,13 +69,7 @@ function mountCalendar(calendar) {
     document.removeEventListener('visibilitychange', handleVisibility);
   };
 
-  const monthRange = () => {
-    const lastDay = new Date(Date.UTC(year, month + 1, 0)).getUTCDate();
-    return {
-      from: dateKey(year, month, 1),
-      to: dateKey(year, month, lastDay),
-    };
-  };
+  const monthRange = () => calendarMonthRange(monthKey(year,month));
 
   const renderAgenda = () => {
     const selectedEvents = events.filter((event) => getEventDateKey(event) === selectedDate);
@@ -134,51 +129,8 @@ function mountCalendar(calendar) {
   };
 
   const renderGrid = () => {
-    const firstWeekday = new Date(Date.UTC(year, month, 1)).getUTCDay();
-    const daysInMonth = new Date(Date.UTC(year, month + 1, 0)).getUTCDate();
-    monthOutput.textContent = new Intl.DateTimeFormat(languageTag, {
-      year: 'numeric', month: 'long', timeZone: 'UTC',
-    }).format(new Date(Date.UTC(year, month, 1)));
-    grid.replaceChildren();
-
-    for (let index = 0; index < 42; index += 1) {
-      const day = index - firstWeekday + 1;
-      if (day < 1 || day > daysInMonth) {
-        const spacer = document.createElement('span');
-        spacer.className = 'events-calendar__day events-calendar__day--outside';
-        spacer.setAttribute('aria-hidden', 'true');
-        grid.append(spacer);
-        continue;
-      }
-
-      const key = dateKey(year, month, day);
-      const dayEvents = events.filter((event) => getEventDateKey(event) === key);
-      const button = document.createElement('button');
-      button.type = 'button';
-      button.className = 'events-calendar__day';
-      if (key === today) button.classList.add('is-today');
-      if (key === selectedDate) button.classList.add('is-selected');
-      if (dayEvents.length) button.classList.add('has-events');
-      button.dataset.eventsCalendarDate = key;
-      button.setAttribute('aria-pressed', String(key === selectedDate));
-      button.setAttribute('aria-label', `${copy.selectDateLabel}: ${key}`);
-
-      const number = document.createElement('span');
-      number.textContent = String(day);
-      button.append(number);
-      if (dayEvents.length) {
-        const marker = document.createElement('i');
-        marker.textContent = String(dayEvents.length);
-        marker.setAttribute('aria-hidden', 'true');
-        button.append(marker);
-      }
-      button.addEventListener('click', () => {
-        selectedDate = key;
-        renderGrid();
-        renderAgenda();
-      });
-      grid.append(button);
-    }
+    monthOutput.textContent = new Intl.DateTimeFormat(languageTag, {year:'numeric',month:'long',timeZone:'UTC'}).format(new Date(Date.UTC(year,month,1)));
+    renderCalendarMonth({grid,month:monthKey(year,month),selected:selectedDate,today,locale:languageTag,entries:events.map(event=>({id:event.id,startDate:getEventDateKey(event),endDate:getEventDateKey(event)})),onSelect(day){selectedDate=day;renderGrid();}});
     renderAgenda();
   };
 
@@ -233,7 +185,7 @@ function mountCalendar(calendar) {
   };
 
   const changeMonth = (offset) => {
-    const next = new Date(Date.UTC(year, month + offset, 1));
+    const next = new Date(shiftCalendarMonth(monthKey(year,month),offset)+"-01T12:00Z");
     year = next.getUTCFullYear();
     month = next.getUTCMonth();
     selectedDate = dateKey(year, month, 1);

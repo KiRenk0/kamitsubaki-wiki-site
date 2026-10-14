@@ -1,0 +1,10 @@
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities) source(none);
+@plugin "daisyui" {
+  themes: false;
+  prefix: "dui-";
+  root: "[data-ui-kit]";
+  include: button, input, select, textarea, checkbox, loading;
+}
+@source inline("dui-btn dui-btn-primary dui-btn-ghost dui-input dui-select dui-textarea dui-checkbox dui-loading dui-loading-spinner");
+@import "./uiKit.css";

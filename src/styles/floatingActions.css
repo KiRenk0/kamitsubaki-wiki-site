@@ -78,3 +78,6 @@ html body .tools-dock[open] .tools-dock__menu > * {
 @media (prefers-reduced-motion: reduce) {
   html body :is(.support-float, .support-float *, .tools-dock > summary, .tools-dock__menu, .tools-dock__menu > *, .ai-chat__orb, .ai-chat__orb > svg, .ai-chat__panel) { animation:none !important; transition:none !important; }
 }
+
+/* Visibility must update immediately so closing AI can focus its launcher. */
+html body .ai-chat__launcher{transition-property:opacity,transform}
