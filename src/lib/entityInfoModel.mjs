@@ -13,7 +13,7 @@ const safeHref=value=>typeof value==='string'&&/^(?:https?:\/\/[^\s]+|\/(?!\/)[^
 /** @typedef {{key:string,label:string,value:string}} InfoFact */
 /** @typedef {{
  * copy:Record<string,string>,kind:'artist'|'music'|null,title:string,type:string,typeLabel:string,romanized:string,
- * artwork:{src:string,placeholder:boolean},artists:{id:string,title:string,url:string}[],
+ * artwork:{src:string,placeholder:boolean},showArtwork:boolean,artists:{id:string,title:string,url:string}[],
  * coreFacts:InfoFact[],extraFacts:InfoFact[],
  * affiliations:{title:string,url:string,historical:boolean,historicalLabel:string,dates:string}[],
  * credits:{role:string,title:string,url?:string}[],
@@ -57,5 +57,5 @@ export function entityInfoModel(data,registry,locale='zh'){
  });
  const palette=(d.presentation?.theme?.palette||[]).filter(swatch=>/^#(?:[\da-f]{3,4}|[\da-f]{6}|[\da-f]{8})$/i.test(swatch.value));
  const coreFacts=facts.filter(f=>coreKeys.includes(f.key)),extraFacts=facts.filter(f=>!coreKeys.includes(f.key));
- return {copy,kind,title:d.name||d.title,type:d.entityType,typeLabel:entityLabel(d.entityType,locale),romanized:d.romanizedName||d.romanizedTitle||'',artwork:entityArtwork(d),artists:kind==='music'?entityLeadArtists(d,registry,locale):[],coreFacts,extraFacts,affiliations,credits,links,palette,hasMore:extraFacts.length>0||affiliations.length>0||credits.length>0||links.length>0||palette.length>0};
+ return {copy,kind,title:d.name||d.title,type:d.entityType,typeLabel:entityLabel(d.entityType,locale),romanized:d.romanizedName||d.romanizedTitle||'',artwork:entityArtwork(d),showArtwork:Boolean(d.presentation?.image||kind),artists:kind==='music'?entityLeadArtists(d,registry,locale):[],coreFacts,extraFacts,affiliations,credits,links,palette,hasMore:extraFacts.length>0||affiliations.length>0||credits.length>0||links.length>0||palette.length>0};
 }

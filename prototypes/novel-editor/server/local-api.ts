@@ -1,5 +1,5 @@
 import type { Plugin } from 'vite';
-import { readdir, readFile, mkdir, writeFile, realpath } from 'node:fs/promises';
+import { readdir, readFile, mkdir, writeFile, realpath, access } from 'node:fs/promises';
 import { resolve, relative, extname } from 'node:path';
 import { createHash } from 'node:crypto';
 import { parseDocument } from 'yaml';
@@ -65,6 +65,20 @@ export function localWikiApi(): Plugin {
   let registry: ReturnType<typeof readRegistry> | null = null;
   return { name: 'wiki-novel-local-api', configureServer(server) {
     server.middlewares.use(async (request, response, next) => {
+      const stagedImage = request.method === 'GET' && request.url?.match(/^\/images\/contributions\/([a-f0-9]{64})\.(?:png|jpg|webp)(?:\?.*)?$/);
+      if (stagedImage) {
+        // Published repository images keep Vite's normal static-file behavior.
+        // Unpublished test attachments stay in the backend's private storage.
+        try { await access(resolve(root, 'public', request.url!.split('?')[0].slice(1))); return next(); } catch { /* Try the local account's staged asset. */ }
+        try {
+          const asset = await fetch('http://127.0.0.1:18879/api/editor/assets/' + stagedImage[1], { headers: { Cookie: request.headers.cookie || '' } });
+          response.statusCode = asset.status;
+          response.setHeader('Content-Type', asset.headers.get('Content-Type') || 'application/octet-stream');
+          response.setHeader('Cache-Control', 'private, no-store'); response.setHeader('X-Content-Type-Options', 'nosniff');
+          response.end(Buffer.from(await asset.arrayBuffer()));
+        } catch { response.statusCode = 503; response.end('本地图片服务暂未连接'); }
+        return;
+      }
       if (!request.url?.startsWith('/__novel/')) return next();
       const json = (value: any, status = 200) => { response.statusCode = status; response.setHeader('Content-Type', 'application/json; charset=utf-8'); response.setHeader('Cache-Control', 'no-store'); response.end(JSON.stringify(value)); };
       try {

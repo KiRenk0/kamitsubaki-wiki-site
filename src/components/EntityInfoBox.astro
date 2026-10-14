@@ -11,7 +11,7 @@ const {kind,artwork,artists,copy,coreFacts,extraFacts,hasMore}=model;
 ---
 <section class="wiki-infobox entity-info" data-card-kind="entity" data-entity-type={d.entityType} data-placeholder={artwork.placeholder||undefined} aria-label={copy.card}>
  <header><small>{copy.card} / {model.typeLabel}</small><h2>{model.title}</h2>{model.romanized&&<p class="info-romanized">{model.romanized}</p>}{artists.length>0&&<p class="info-artists">{artists.map((artist,index)=><>{index>0&&' / '}<a href={artist.url}>{artist.title}</a></>)}</p>}</header>
- {(d.presentation?.image||kind)&&<figure><ResponsiveImage src={artwork.src} alt={artwork.placeholder?'':d.name||d.title||d.id} widths={[192,480,960]} sizes="(min-width:1024px) 256px, 360px" data-original={artwork.src}/></figure>}
+ {model.showArtwork&&<figure><ResponsiveImage src={artwork.src} alt={artwork.placeholder?'':d.name||d.title||d.id} widths={[192,480,960]} sizes="(min-width:1024px) 256px, 360px" data-original={artwork.src}/></figure>}
  <div class="entity-info-body"><dl class="entity-info-facts">{coreFacts.map(f=><div><dt>{f.label}</dt><dd>{f.value}</dd></div>)}</dl>
  {hasMore&&<details class="entity-info-more" open={!kind||undefined}>
  <summary>{copy.more}</summary>

@@ -1,5 +1,7 @@
 import type { StoredNodeEdit } from './node-edit-draft';
-export type LocalDraft = { key: string; path: string; source: string; baseSource?: string; title: string; locale: string; savedAt: number; pendingSource?: string; pendingNode?: StoredNodeEdit };
+import type { ReviewResolution } from './review-service';
+import type { ReviewAttachment } from './review-attachments';
+export type LocalDraft = { key: string; path: string; source: string; baseSource?: string; create?: boolean; attachments?: ReviewAttachment[]; resolution?: ReviewResolution; title: string; locale: string; savedAt: number; pendingSource?: string; pendingNode?: StoredNodeEdit };
 const prefix = 'kamitsubaki-novel-local-prototype:v1:';
 const activeKey = prefix + 'active-document';
 export function readLastLocalDraft(): LocalDraft | null {

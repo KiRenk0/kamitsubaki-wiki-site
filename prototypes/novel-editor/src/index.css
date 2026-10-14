@@ -109,10 +109,18 @@ body { font-family: var(--font-sans); font-size: 14px; }
 .wiki-review-lines li { display: flex; gap: 8px; padding: 6px 12px; line-height: 1.65; white-space: pre-wrap; overflow-wrap: anywhere; }
 .wiki-review-lines li[data-change="added"] { background: color-mix(in srgb, #249866 10%, var(--background)); }
 .wiki-review-lines li[data-change="removed"] { background: color-mix(in srgb, #d55b68 10%, var(--background)); }
+.wiki-review-effect, .wiki-review-raw { margin-top: 12px; border: 1px solid var(--border); border-radius: var(--radius); padding: 12px 16px; }
+.wiki-review-effect > summary, .wiki-review-raw > summary { cursor: pointer; min-height: 24px; line-height: 1.7; }
+.wiki-review-raw > summary { color: var(--muted-foreground); font-size: 12px; }
+.wiki-review-reader { margin-top: 20px; }
+.wiki-review-reader .wiki-preview-reader-layout { display: block; }
+.wiki-review-reader .wiki-prose { font-size: 15px; }
 .wiki-review-line-mark { flex: none; font-weight: 700; width: 12px; }
 .wiki-review-submit, .wiki-review-draft, .wiki-review-detail { padding: 20px 0; border-top: 1px solid var(--border); }
 html body .wiki-workbench .wiki-review-submit textarea.workspace-control.dui-textarea { min-height: 104px; }
 .wiki-review-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 20px; }
+.wiki-review-attachment { display: grid; grid-template-columns: 88px minmax(0, 1fr); gap: 16px; align-items: start; margin-top: 20px; }
+.wiki-review-attachment > img { width: 88px; height: 88px; object-fit: contain; border: 1px solid var(--border); border-radius: var(--radius); background: var(--muted); }
 .wiki-review-records { display: flex; flex-direction: column; gap: 6px; margin-bottom: 12px; }
 .wiki-review-record { height: auto !important; padding: 12px; display: flex; flex-direction: column; align-items: flex-start; white-space: normal; text-align: left; }
 .wiki-review-record span { font-size: 12px; color: var(--muted-foreground); }
@@ -131,6 +139,8 @@ html body .wiki-workbench .wiki-review-submit textarea.workspace-control.dui-tex
   .wiki-review-heading h2 { font-size: 21px; }
   .wiki-review-actions > button { flex: 1; min-width: 140px; }
   .wiki-review-changes dl > div { grid-template-columns: 1fr; gap: 4px; }
+  .wiki-review-attachment { grid-template-columns: 64px minmax(0, 1fr); gap: 12px; }
+  .wiki-review-attachment > img { width: 64px; height: 64px; }
 }
 :root { --ui-color-canvas: var(--background); --ui-color-surface: var(--muted); --ui-color-text: var(--foreground); --ui-color-muted: var(--muted-foreground); --ui-color-accent: var(--primary); --theme-fg: var(--foreground); --theme-bg: var(--background); --workspace-line: var(--input); }
 button, input, textarea { font: inherit; }
@@ -457,3 +467,17 @@ html body .wiki-properties-sheet .wiki-property-section textarea.workspace-contr
   .wiki-properties-content [data-slot=button][data-size^=icon] { min-width: 44px; }
   .wiki-metadata-string-list [data-slot=badge] > button, .wiki-property-tags [data-slot=badge] > button { min-width: 32px; min-height: 32px; }
 }
+.wiki-review-conflict { margin-block: 24px; padding: 20px; border: 1px solid var(--border); border-radius: var(--radius); }
+.wiki-review-conflict > p { margin-block: 12px; }
+.wiki-review-conflict > p[role=status] { display: flex; align-items: center; gap: 8px; }
+.wiki-review-conflict > p[role=status] svg { width: 18px; }
+.wiki-conflict-choice { margin-block: 24px; }
+.wiki-conflict-choice h4 { font-size: 15px; font-weight: 600; margin-bottom: 12px; }
+.wiki-conflict-columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.wiki-conflict-version { display: flex; flex-direction: column; padding: 16px; gap: 12px; border: 1px solid var(--border); border-radius: var(--radius); min-width: 0; }
+.wiki-conflict-version[data-selected=true] { border-color: var(--primary); background: color-mix(in srgb, var(--primary) 5%, var(--background)); }
+.wiki-conflict-version > button { margin-top: auto; white-space: normal; min-height: 44px; }
+.wiki-conflict-properties { line-height: 1.6; overflow-wrap: anywhere; }
+.wiki-conflict-properties dt { font-size: 12px; color: var(--muted-foreground); }
+.wiki-conflict-properties dd { margin-block: 4px 12px; }
+@media (max-width: 700px) { .wiki-conflict-columns { grid-template-columns: minmax(0, 1fr); } .wiki-review-conflict { padding: 12px; } }

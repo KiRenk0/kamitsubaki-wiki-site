@@ -44,3 +44,10 @@ test('live date ranges and documented activity endings use their own readable la
  const artist=entityInfoModel({id:'artist',entityType:'virtual-avatar',name:'艺人',lifecycle:{activity:'ended',startedAt:'2018',endedAt:'2026'}},registry,'zh');
  assert.equal(artist.coreFacts.find(f=>f.key==='end').value,'2026');assert.equal(artist.coreFacts.find(f=>f.key==='end').label,'结束活动');
 });
+test('reader artwork keeps the original type rules in editor previews',()=>{
+ const registry=createEntityRegistry([]);
+ const project={id:'project',entityType:'project',title:'企划'};
+ assert.equal(entityInfoModel(project,registry,'zh').showArtwork,false);
+ assert.equal(entityInfoModel({...project,presentation:{image:'/images/project.png'}},registry,'zh').showArtwork,true);
+ assert.equal(entityInfoModel({id:'artist',entityType:'virtual-avatar',name:'艺人'},registry,'zh').showArtwork,true);
+});

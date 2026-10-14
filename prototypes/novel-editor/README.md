@@ -25,7 +25,7 @@ pnpm dev:novel
 - 特殊段落在原位置编辑，行内效果在属性区编辑；可移除特殊效果并保留文字。折叠内容转为普通段落时保留嵌套格式和表格。
 - 块拖拽沿用 Novel / ProseMirror 的原生移动与撤销，用 Atlassian Pragmatic auto-scroll 处理写作区边缘连续滚动，不接管原生 drop。
 - 自动保存到本地浏览器；刷新恢复最近词条、未应用的源码修改及未完成的特殊内容填写。草稿使用独立 `kamitsubaki-novel-local-prototype:v1:` 命名空间。
-- 本机审核检查页复用现有词条 API，支持差异检查、服务端草稿版本保护、同一投稿更新、撤回、状态读取与假账号隔离。中断时保存完整提交请求，用同一个提交编号恢复；每次写入前核对服务为本地模式。
+- 本机审核检查页复用现有词条 API，支持中文属性差异、阅读效果检查、服务端草稿版本保护、同一投稿更新、撤回、状态读取与假账号隔离。正文源码差异作为可选检查展开。中断时保存完整提交请求，用同一个提交编号恢复；每次写入前核对服务为本地模式。
 
 已有词条的 ID、语言和类型锁定。源码先通过解析和身份检查再应用；未应用源码时，预览和导出会等待用户应用修改。新增 Wiki 块插入在所选块之后，避免覆盖已有特殊内容。
 
@@ -53,11 +53,11 @@ pnpm --dir prototypes/novel-editor check:corpus --json /tmp/novel-corpus-check.j
 
 ## 原型边界
 
-当前是进行中的本地原型，完整交互验收与网站入口迁移尚未完成。本机词条审核流程已接入，但正式认证、投稿图片附件、原文冲突合并和独立文章投稿流程仍待迁移；含本机图片的文档会明确阻止投稿，避免提交无法上线的图片路径。仓库词条不会被此原型直接覆盖，线上版本也未发布。Vite 本地接口仅在开发服务器中运行，`dist` 是构建检查产物，不能独立提供词条读取或预览服务。
+当前是进行中的本地原型，完整交互验收与网站入口迁移尚未完成。本机词条审核流程已接入，但正式认证和独立文章投稿流程仍待迁移。原文冲突已接入本地检查：使用 node-diff3 合并不同位置的修改；重叠属性与正文用中文两栏选择，保留合并前备份与原生撤销。审核分支另有改动时先核对分支，再合并最新原文；提交继续校验原文、投稿版本和分支版本。比较在 Worker 中执行，超时或离开页面会停止任务。词条图片附件已接入本地审核：PNG/JPEG/WebP 与正文一起暂存，每份最多 8 张、合计 20 MiB，每张要求来源或授权说明；较大原图生成不超过 4 MiB 的 WebP 副本，原图保留。GIF 支持本地预览，投稿时明确提示改用支持的格式。提交后沿用已有图片附件，并保留本地原图记录用于恢复。私有暂存图片通过本机代理预览，不复制到公开内容目录。仓库词条不会被此原型直接覆盖，线上版本也未发布。Vite 本地接口仅在开发服务器中运行，`dist` 是构建检查产物，不能独立提供词条读取或预览服务。
 
 本机审核服务在隔离的后端 worktree 启动，设置 `EDITOR_LOCAL_PORT=18879`、`EDITOR_LOCAL_ORIGIN=http://127.0.0.1:4371` 和 `EDITOR_SITE_DIR` 为当前前端 worktree 后运行 `node scripts/editor/local.mjs`。服务使用 SQLite 和 Alice / Bob 假账号，GitHub 提交由本地模拟器处理；不连接线上写入。Vite 只代理这一个本机地址。
 
-主入口 JS 目前约 2.59 MB（gzip 813 KB），源码编辑器、投稿页与中文搜索转换按需分包，字体按字符范围加载。接入正式入口前仍需针对编辑路由做加载和体积优化。Novel 不提供完整应用样式；通用控件来自 shadcn 和站内 daisyUI 包装，工作台布局及 Wiki 内容样式集中在 `src/index.css`。
+主入口 JS 目前约 2.23 MB（gzip 708 KB），源码编辑器、投稿页与中文搜索转换按需分包，字体按字符范围加载。接入正式入口前仍需针对编辑路由做加载和体积优化。Novel 不提供完整应用样式；通用控件来自 shadcn 和站内 daisyUI 包装，工作台布局及 Wiki 内容样式集中在 `src/index.css`。
 
 ## 设计与来源
 
@@ -69,6 +69,7 @@ pnpm --dir prototypes/novel-editor check:corpus --json /tmp/novel-corpus-check.j
 - [tiptap-markdown](https://github.com/aguingand/tiptap-markdown)：MIT。
 - [CodeMirror](https://github.com/codemirror/dev)：MIT，用于 Markdown/YAML 源码编辑。
 - [daisyUI](https://github.com/saadeghi/daisyui)：MIT，沿用本站限定作用域及控件 tokens。
+- [node-diff3](https://github.com/bhousel/node-diff3)：MIT，使用经过本地测试的 3.1.2 完整发布包处理三方合并。
 - [Pragmatic drag and drop](https://github.com/atlassian/pragmatic-drag-and-drop)：Apache-2.0，仅用于拖拽期间的写作区自动滚动。
 
 当前重构与验证状态见 [第一轮验证记录](../../qa/2026-10-13-novel-editor/README.md)。记录明确区分自动检查、浏览器实测和待验收项目。
