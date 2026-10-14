@@ -7,21 +7,23 @@ import {createCommunityLocationPicker} from '../src/lib/communityLocationPicker.
 import {communityCopy} from '../src/lib/communityCopy.mjs';
 import {communityLocationRuntime} from '../../backend/src/community/locationRuntime.generated.js';
 import {fixture} from '../../backend/tests/accountFixture.mjs';
+import {installAdminControls} from '../../backend/src/adminWorkspace.js';
 import worker from '../../backend/src/index.js';
 const until=async fn=>{for(let i=0;i<80;i++){if(fn())return;await new Promise(r=>setTimeout(r,10));}assert.fail('UI state did not settle');};
-async function setup(locale='zh'){
- const f=await fixture(),dom=new JSDOM(communityEditorMarkup(communityCopy(locale)),{url:'https://wiki.example/'+locale+'/community/activities/apply/',runScripts:'outside-only',pretendToBeVisual:true}),w=dom.window;
+async function setup(locale='zh',filters=false){
+ const f=await fixture(),dom=new JSDOM(filters?'<form><label><span>Country</span><select name=country><option value=""></option></select></label><label><span>Province</span><select name=subdivisionCode><option value=""></option></select></label><label><span>City</span><select name=cityId><option value=""></option></select></label><input name=city type=hidden><p data-location-status></p><button data-location-retry hidden></button></form>':communityEditorMarkup(communityCopy(locale)),{url:'https://wiki.example/'+locale+'/community/activities/apply/',runScripts:'outside-only',pretendToBeVisual:true}),w=dom.window;
  w.Intl=Intl;w.structuredClone=structuredClone;w.AbortSignal=AbortSignal;w.HTMLElement.prototype.scrollIntoView=()=>{};
  const pending=new Set();w.fetch=(url,options={})=>{const promise=worker.fetch(new Request(url,{...options,headers:{...options.headers,Origin:'https://wiki.example',Cookie:'kfw_auth_session=bob'}}),f.env,{waitUntil(p){void p.catch(()=>{});}});pending.add(promise);promise.finally(()=>pending.delete(promise));return promise;};
+ w.eval('window.installAdminControls='+installAdminControls.toString());w.installAdminControls();
  w.eval(communityLocationRuntime);w.CommunityLocationWatch=()=>()=>{};w.CommunityLocationPosition=()=>{};
  w.eval('window.createCommunityLocationPicker='+createCommunityLocationPicker.toString()+';window.initCommunityEditor='+initCommunityEditor.toString());
- const root=w.document.querySelector('form'),e=w.initCommunityEditor(root,{locale,copy:communityCopy(locale),locationPicker:w.createCommunityLocationPicker,apiBase:'https://api.example'});await e.ready;await until(()=>Boolean(root.elements.country.tomselect.options.JP));
- return {...f,dom,w,root,e,async close(){while(pending.size)await Promise.allSettled([...pending]);w.close();f.db.sqlite.close();}};
+ const root=w.document.querySelector('form'),picker=filters?w.createCommunityLocationPicker(root,{apiBase:'https://api.example',locale,copy:communityCopy(locale),filters:true}):null,e=filters?null:w.initCommunityEditor(root,{locale,copy:communityCopy(locale),locationPicker:w.createCommunityLocationPicker,apiBase:'https://api.example'});await (e?.ready||picker.ready);await until(()=>Boolean(root.elements.country.tomselect.options.JP));
+ return {...f,dom,w,root,e,picker,async close(){picker?.destroy();while(pending.size)await Promise.allSettled([...pending]);w.close();f.db.sqlite.close();}};
 }
 
 test('all five languages use real Tom Select cascades and save canonical geography through the Worker',async()=>{
  for(const locale of ['zh','zh-tw','zh-hk','ja','en']){const q=await setup(locale);try{
- const {root,w}=q;assert.equal(root.elements.country.getAttribute('aria-hidden'),'true');assert.ok(root.querySelector('input[role=combobox][aria-label="'+communityCopy(locale).country+'"]'));
+ const {root,w}=q;assert.equal(root.elements.country.getAttribute('aria-hidden'),'true');assert.equal(root.elements.country.tomselect.control_input.classList.contains('dui-input'),false,'admin enhancement must preserve the mature combobox input');assert.ok(root.querySelector('input[role=combobox][aria-label="'+communityCopy(locale).country+'"]'));
  root.elements.country.tomselect.control_input.value='Japan';root.elements.country.tomselect.control_input.dispatchEvent(new w.Event('input',{bubbles:true}));assert.equal(q.e.isDirty(),false,'searching a catalogue is not an unsaved activity edit');root.elements.country.tomselect.setValue('JP');await until(()=>root.elements.subdivisionCode.tomselect.options['13']);root.elements.subdivisionCode.tomselect.setValue('13');
  const ts=root.elements.cityId.tomselect;ts.control_input.value=locale==='ja'?'東京':'Tokyo';ts.control_input.dispatchEvent(new w.Event('input',{bubbles:true}));await until(()=>ts.options['city:64500']);ts.setValue('city:64500');
  root.querySelector('[data-location-use-zone]').click();assert.equal(root.elements.timeZone.value,'Asia/Tokyo');root.elements.title.value='地点集成 '+locale;root.elements.summary.value='公开测试摘要';root.elements.organizer.value='测试社群';root.elements.sourceUrl.value='https://example.org/announcement';root.elements.mode.value='offline';root.elements.venue.value='示例场馆 100 号';root.elements.scheduleKind.value='allDay';root.elements.startDate.value='2026-10-24';
@@ -40,3 +42,6 @@ test('directory failure, retry, manual city and unannounced location retain ente
  }finally{await q.close();}});
 
 test('saved legacy city names remain editable without being assigned an invented catalogue ID',async()=>{const q=await setup();try{q.e.load({country:'CN',city:'旧城市资料',venue:'旧场馆',locationPrecision:'legacy'});await until(()=>q.root.elements.country.value==='CN'&&q.root.elements.locationPrecision.value==='manual');assert.equal(q.e.readContent().city,'旧城市资料');assert.equal(q.e.readContent().cityId,'');assert.equal(q.root.querySelector('[data-manual-city]').hidden,false);}finally{await q.close();}});
+
+
+test('a calendar filter without editor-only fields keeps its city clear control keyboard accessible',async()=>{const q=await setup('en',true);try{const {root}=q;root.elements.country.tomselect.setValue('CN');await until(()=>root.elements.subdivisionCode.tomselect.options.SH);root.elements.subdivisionCode.tomselect.setValue('SH');await until(()=>root.elements.cityId.tomselect.options['state:2249']);root.elements.cityId.tomselect.setValue('state:2249');const clear=root.elements.cityId.tomselect.wrapper.querySelector('.clear-button');assert.equal(clear.getAttribute('aria-disabled'),'false');assert.equal(clear.tabIndex,0);clear.click();assert.equal(root.elements.cityId.value,'');assert.equal(root.elements.country.value,'CN');assert.equal(root.elements.subdivisionCode.value,'SH');}finally{await q.close();}});
