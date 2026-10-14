@@ -2,11 +2,11 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {createRequire} from 'node:module';
 import {resolve} from 'node:path';
-import {existsSync} from 'node:fs';
+import {backendURL} from './backend-root.mjs';
 import {JSDOM} from 'jsdom';
 import {creatorCenterCopy} from '../src/lib/creatorCenterCopy.mjs';
 // The same integration suite supports normal sibling checkouts and auth worktrees.
-const backendRoot=new URL(existsSync(new URL('../../backend/src/index.js',import.meta.url))?'../../backend/':'../../kamitsubaki-wiki-site-backend/',import.meta.url);
+const backendRoot=backendURL('');
 const {fixture}=await import(new URL('tests/accountFixture.mjs',backendRoot));
 const {default:worker}=await import(new URL('src/index.js',backendRoot));
 const {installContentAdmin,renderContentAdminBody}=await import(new URL('src/contentAdmin.js',backendRoot));

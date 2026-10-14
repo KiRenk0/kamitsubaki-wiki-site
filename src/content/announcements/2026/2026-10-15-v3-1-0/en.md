@@ -1,7 +1,7 @@
 ---
 locale: "en"
-translationKey: "2026-10-14-v3-1-0"
-date: "2026.10.14"
+translationKey: "2026-10-15-v3-1-0"
+date: "2026.10.15"
 type: "SITE UPDATE"
 title: "V3.1.0: Observer Projects and a new editing workbench"
 summary: "A community project calendar, a new editing workbench, and clearer contribution, management, and support flows."

@@ -4,7 +4,8 @@ import {readFile} from 'node:fs/promises';
 import {parse} from 'yaml';
 import {entitySourcePath} from '../src/lib/contentLayout.mjs';
 import {getEntityRegistry} from '../src/lib/entityRegistry.mjs';
-import {validateContent} from '../../kamitsubaki-wiki-site-backend/src/editor/domain.js';
+import {backendURL} from './backend-root.mjs';
+const {validateContent}=await import(backendURL('src/editor/domain.js'));
 import {importMarkdown,validateDraft} from '../src/lib/visualEditor.mjs';
 test('detailed-map member folders and shared solo records use a single canonical home',()=>{
  assert.equal(entitySourcePath({id:'mikoto',entityType:'person',locale:'zh'}),'src/content/people/groups/tsumitobatsu/members/mikoto/zh.md');

@@ -1,7 +1,7 @@
 ---
 locale: "zh"
-translationKey: "2026-10-14-v3-1-0"
-date: "2026.10.14"
+translationKey: "2026-10-15-v3-1-0"
+date: "2026.10.15"
 type: "SITE UPDATE"
 title: "V3.1.0：观测者企划与全新编辑工作台"
 summary: "观测者企划与新编辑工作台上线，整理前后台操作和发电入口，一起记录、一起共建。"

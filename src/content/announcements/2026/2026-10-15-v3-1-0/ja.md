@@ -1,7 +1,7 @@
 ---
 locale: "ja"
-translationKey: "2026-10-14-v3-1-0"
-date: "2026.10.14"
+translationKey: "2026-10-15-v3-1-0"
+date: "2026.10.15"
 type: "SITE UPDATE"
 title: "V3.1.0：観測者企画と新しい編集ワークスペース"
 summary: "観測者企画と新しい編集画面を追加し、投稿・管理・支援の操作を整えました。"

@@ -1,3 +1,4 @@
+import {backendPath} from './backend-root.mjs';
 import test from 'node:test';import assert from 'node:assert/strict';
 import {ensureArticleDraftUrl,initialArticleRelations,matchArticleEntities} from '../src/lib/articleEntities.mjs';
 import {articleImport} from '../scripts/v3/export-article-import.mjs';
@@ -11,7 +12,7 @@ test('related picker matches names, aliases and IDs and excludes selected entrie
 });
 test('archive import preserves full body and provenance, is idempotent, and refuses conflicts without overwriting',async()=>{
  const {sql,report}=await articleImport('docs/archive/articles'),db=new DatabaseSync(':memory:');try{
- db.exec(readFileSync('../kamitsubaki-wiki-site-backend/migrations/0021_articles.sql','utf8'));db.exec(readFileSync('../kamitsubaki-wiki-site-backend/migrations/0023_article_ownership.sql','utf8'));db.exec(sql);db.exec(sql);
+ db.exec(readFileSync(backendPath('migrations/0021_articles.sql'),'utf8'));db.exec(readFileSync(backendPath('migrations/0023_article_ownership.sql'),'utf8'));db.exec(sql);db.exec(sql);
  assert.equal(db.prepare('SELECT COUNT(*) n FROM article_documents').get().n,report.length);
  for(const r of report){const row=db.prepare('SELECT * FROM article_documents WHERE id=? AND locale=?').get(r.id,r.locale);assert.equal(row.origin,'site-original');assert.equal(row.author_name,r.author);assert.equal(row.published_at,r.publishDate);assert.equal(createHash('sha256').update(JSON.parse(row.published_json).body).digest('hex'),r.bodySha256);}
  const first=report[0];db.prepare("UPDATE article_documents SET published_json=json_set(published_json,'$.body','Later edit'),version=2 WHERE id=? AND locale=?").run(first.id,first.locale);db.exec(sql);assert.equal(JSON.parse(db.prepare('SELECT published_json FROM article_documents WHERE id=? AND locale=?').get(first.id,first.locale).published_json).body,'Later edit');

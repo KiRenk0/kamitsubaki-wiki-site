@@ -5,10 +5,11 @@ import {readFileSync} from 'node:fs';
 import {communityEditorMarkup,initCommunityEditor} from '../src/lib/communityEditor.js';
 import {createCommunityLocationPicker} from '../src/lib/communityLocationPicker.js';
 import {communityCopy} from '../src/lib/communityCopy.mjs';
-import {communityLocationRuntime} from '../../backend/src/community/locationRuntime.generated.js';
-import {fixture} from '../../backend/tests/accountFixture.mjs';
-import {installAdminControls} from '../../backend/src/adminWorkspace.js';
-import worker from '../../backend/src/index.js';
+import {backendURL} from './backend-root.mjs';
+const {communityLocationRuntime}=await import(backendURL('src/community/locationRuntime.generated.js'));
+const {fixture}=await import(backendURL('tests/accountFixture.mjs'));
+const {installAdminControls}=await import(backendURL('src/adminWorkspace.js'));
+const {default:worker}=await import(backendURL('src/index.js'));
 const until=async fn=>{for(let i=0;i<80;i++){if(fn())return;await new Promise(r=>setTimeout(r,10));}assert.fail('UI state did not settle');};
 async function setup(locale='zh',filters=false){
  const f=await fixture(),dom=new JSDOM(filters?'<form><label><span>Country</span><select name=country><option value=""></option></select></label><label><span>Province</span><select name=subdivisionCode><option value=""></option></select></label><label><span>City</span><select name=cityId><option value=""></option></select></label><input name=city type=hidden><p data-location-status></p><button data-location-retry hidden></button></form>':communityEditorMarkup(communityCopy(locale)),{url:'https://wiki.example/'+locale+'/community/activities/apply/',runScripts:'outside-only',pretendToBeVisual:true}),w=dom.window;
