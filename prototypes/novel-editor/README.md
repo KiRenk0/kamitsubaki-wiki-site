@@ -57,7 +57,7 @@ pnpm --dir prototypes/novel-editor check:corpus --json /tmp/novel-corpus-check.j
 
 本机审核服务在隔离的后端 worktree 启动，设置 `EDITOR_LOCAL_PORT=18879`、`EDITOR_LOCAL_ORIGIN=http://127.0.0.1:4371` 和 `EDITOR_SITE_DIR` 为当前前端 worktree 后运行 `node scripts/editor/local.mjs`。服务使用 SQLite 和 Alice / Bob 假账号，GitHub 提交由本地模拟器处理；不连接线上写入。Vite 只代理这一个本机地址。
 
-主入口 JS 目前约 2.23 MB（gzip 708 KB），源码编辑器、投稿页与中文搜索转换按需分包，字体按字符范围加载。接入正式入口前仍需针对编辑路由做加载和体积优化。Novel 不提供完整应用样式；通用控件来自 shadcn 和站内 daisyUI 包装，工作台布局及 Wiki 内容样式集中在 `src/index.css`。
+主入口 JS 目前约 2.25 MB（gzip 714 KB），源码编辑器、投稿页与中文搜索转换按需分包，字体按字符范围加载。KaTeX 与 YAML 共用依赖，避免重复打包。链接预览与阅读器共用 Floating UI 定位，首次键盘聚焦、滚动和窗口变化均有对应处理。接入正式入口前仍需针对编辑路由做加载和体积优化。Novel 不提供完整应用样式；通用控件来自 shadcn 和站内 daisyUI 包装，工作台布局及 Wiki 内容样式集中在 `src/index.css`。
 
 ## 设计与来源
 

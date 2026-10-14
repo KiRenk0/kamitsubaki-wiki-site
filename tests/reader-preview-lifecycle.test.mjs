@@ -10,8 +10,9 @@ const html=await renderMarkdownFragment('{{lyrics-controls::zh}}\n\n<div class="
 function fixture(){
  const dom=new JSDOM(`<main>${html}</main><aside>${html}</aside>`,{url:'https://wiki.example',runScripts:'outside-only'});
  const w=dom.window,root=w.document.querySelector('main'),outside=w.document.querySelector('aside');
- const canceled=[];w.matchMedia=()=>({matches:false});w.requestAnimationFrame=()=>99;w.cancelAnimationFrame=id=>canceled.push(id);
- w.eval(bundle.outputFiles[0].text);return{dom,w,root,outside,canceled};
+ const canceled=[],frames=[];w.matchMedia=()=>({matches:false});w.requestAnimationFrame=fn=>{frames.push(fn);return 99;};w.cancelAnimationFrame=id=>{canceled.push(id);frames.length=0;};
+ const flushFrame=()=>frames.shift()?.(0);
+ w.eval(bundle.outputFiles[0].text);return{dom,w,root,outside,canceled,flushFrame};
 }
 test('shared reader mounts once, scopes actions, stops playback and reopens new preview content',()=>{
  const b=fixture();try{
@@ -26,8 +27,8 @@ test('link previews clear old descriptions, hide on nested scroll, and dispose e
  const b=fixture();try{
   b.root.innerHTML='<a data-wiki-id="kaf" href="/zh/kaf/">花譜</a><a data-wiki-id="rim" href="/zh/rim/">理芽</a>';
   const links=b.root.querySelectorAll('a');const stop=b.w.mountPreviews(b.root,{kaf:{title:'花譜',url:'/zh/kaf/',summary:'介绍'},rim:{title:'理芽',url:'/zh/rim/',summary:'介绍'}});
-  links[0].dispatchEvent(new b.w.FocusEvent('focus'));const box=b.w.document.querySelector('.wiki-hover');assert.equal(box.hidden,false);assert.ok(links[0].getAttribute('aria-describedby'));
-  links[1].dispatchEvent(new b.w.FocusEvent('focus'));assert.equal(links[0].hasAttribute('aria-describedby'),false);assert.equal(box.querySelector('strong').textContent,'理芽');
+  links[0].focus();const box=b.w.document.querySelector('.wiki-hover');assert.equal(box.hidden,true);b.root.dispatchEvent(new b.w.Event('scroll'));b.flushFrame();assert.equal(box.hidden,false,'focus preview opens after the browser scrolls the link into view');assert.ok(links[0].getAttribute('aria-describedby'));
+  links[1].focus();b.flushFrame();assert.equal(links[0].hasAttribute('aria-describedby'),false);assert.equal(box.querySelector('strong').textContent,'理芽');
   b.root.dispatchEvent(new b.w.Event('scroll'));assert.equal(box.hidden,true);assert.equal(links[1].hasAttribute('aria-describedby'),false);
   stop();assert.equal(b.w.document.querySelector('.wiki-hover'),null);links[0].dispatchEvent(new b.w.FocusEvent('focus'));assert.equal(links[0].hasAttribute('aria-describedby'),false);
  }finally{b.w.close();}
@@ -52,7 +53,18 @@ test('refreshing preview data replaces the previous mount without stale panels o
   const link=b.root.querySelector('a');const old=b.w.mountPreviews(b.root,{kaf:{title:'旧数据',url:'/zh/kaf/'}});
   const stop=b.w.mountPreviews(b.root,{kaf:{title:'花譜',url:'/zh/kaf/'}});old();
   assert.equal(b.w.document.querySelectorAll('.wiki-hover').length,1);
-  link.dispatchEvent(new b.w.FocusEvent('focus'));assert.equal(b.w.document.querySelector('.wiki-hover strong').textContent,'花譜');
+  link.focus();b.flushFrame();assert.equal(b.w.document.querySelector('.wiki-hover strong').textContent,'花譜');
   stop();assert.equal(b.w.document.querySelectorAll('.wiki-hover').length,0);
+ }finally{b.w.close();}
+});
+test('long link previews keep their own scrolling, close when focus leaves, and never reopen after disposal',()=>{
+ const b=fixture();try{
+  b.root.innerHTML='<a data-wiki-id="kaf" href="/zh/kaf/">花譜</a><button>继续阅读</button>';
+  const link=b.root.querySelector('a'),button=b.root.querySelector('button');
+  const stop=b.w.mountPreviews(b.root,{kaf:{title:'花譜',url:'/zh/kaf/',summary:'长简介'.repeat(300)}});
+  link.focus();b.flushFrame();const box=b.w.document.querySelector('.wiki-hover');
+  box.dispatchEvent(new b.w.Event('scroll'));assert.equal(box.hidden,false,'scrolling a long preview must not close it');
+  button.focus();assert.equal(box.hidden,true);assert.equal(link.hasAttribute('aria-describedby'),false);
+  link.focus();stop();b.flushFrame();assert.equal(b.w.document.querySelector('.wiki-hover'),null,'a pending focus frame cannot resurrect a disposed panel');
  }finally{b.w.close();}
 });

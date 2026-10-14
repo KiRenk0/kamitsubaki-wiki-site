@@ -391,7 +391,7 @@ button, input, textarea { font: inherit; }
 .wiki-node-editor audio { width: 100%; }
 .wiki-preview-prose { --theme-accent-color: var(--primary); --wiki-accent-color: var(--primary); --theme-bg: var(--background); --theme-fg: var(--foreground); }
 .wiki-preview-prose .wiki-spoiler.is-revealed { color: var(--foreground); }
-.wiki-hover { position: fixed; z-index: 200; width: min(340px, calc(100vw - 32px)); padding: 20px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--background); color: var(--foreground); box-shadow: 0 12px 50px #0004; }
+.wiki-hover { position: fixed; z-index: 200; width: min(340px, calc(100vw - 32px)); max-height: calc(100dvh - 32px); overflow: auto; padding: 20px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--background); color: var(--foreground); box-shadow: 0 12px 50px #0004; }
 .wiki-hover[hidden] { display: none; }
 .wiki-hover img { width: 60px; height: 60px; object-fit: cover; float: right; margin: 0 0 10px 10px; }
 .wiki-hover p { font-size: 13px; line-height: 1.7; margin-block: 10px; }
