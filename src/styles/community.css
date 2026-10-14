@@ -18,12 +18,12 @@ html body .community-view-tabs .workspace-button.dui-btn{border-color:transparen
 .community-filter-details>.community-toolbar{position:absolute;right:0;top:calc(100% + 8px);z-index:30;width:min(560px,calc(100vw - 40px));padding:20px;display:grid;grid-template-columns:1fr 1fr;gap:16px;background:var(--theme-panel-solid);border:1px solid var(--workspace-line);border-radius:var(--ui-radius-panel);box-shadow:var(--ui-shadow-panel)}
 .community-toolbar>label{display:grid;gap:8px;min-width:0;font:500 12px/1.5 var(--font-sans);color:var(--ui-color-muted)}
 .community-calendar-meta{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:22px;color:var(--ui-color-muted);font:12px/1.7 var(--font-sans)}
-.community-calendar-meta p{margin:0;max-width:65ch}.community-calendar-meta label{display:flex;align-items:center;gap:8px;min-width:0;max-width:100%;flex-shrink:1}
+.community-calendar-meta p{margin:0;max-width:65ch}.community-calendar-meta label{display:flex;min-height:44px;align-items:center;gap:8px;min-width:0;max-width:100%;flex-shrink:1}
 .community-load-status:empty{display:none}.community-load-status{font:13px/1.7 var(--font-sans);color:var(--ui-color-muted)}
 .community-calendar-body{min-width:0}
 .community-page[data-view=calendar] .community-calendar-body{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:28px;align-items:start}
-.community-day-event{display:flex;align-items:center;gap:5px;margin:3px 0;padding:3px 5px;border-radius:3px;color:var(--theme-fg);background:rgb(var(--theme-accent-rgb)/.08);font:11px/1.5 var(--font-sans);text-overflow:ellipsis;overflow:hidden;white-space:nowrap;text-decoration:none}
-.community-day-event>small{flex:none;font-size:9px;opacity:.7}.community-day-event>span{min-width:0;overflow:hidden;text-overflow:ellipsis}
+.community-day-event{display:flex;align-items:center;gap:5px;margin:3px 0;padding:3px 5px;border-radius:3px;color:var(--theme-fg);background:rgb(var(--theme-accent-rgb)/.08);font:12px/1.5 var(--font-sans);text-overflow:ellipsis;overflow:hidden;white-space:nowrap;text-decoration:none}
+.community-day-event>small{flex:none;font-size:12px;opacity:1}.community-day-event>span{min-width:0;overflow:hidden;text-overflow:ellipsis}
 .community-day-event[data-point-type=registration],.community-day-event[data-point-type=submission],.community-day-event[data-point-type=support]{background:color-mix(in srgb,var(--ui-color-warning) 10%,transparent)}
 .community-agenda{min-width:0}
 .community-agenda-day{padding:20px 0;border-top:1px solid var(--workspace-line)}
@@ -37,7 +37,7 @@ html body .community-view-tabs .workspace-button.dui-btn{border-color:transparen
 .community-page[data-view=calendar] .community-agenda-day{padding-top:0;border-top:0}
 .community-page[data-view=calendar] .community-event-row{grid-template-columns:1fr;gap:8px;padding:16px 0}
 .community-page[data-view=calendar] .community-event-row>a{justify-self:start;padding-left:0!important}
-.community-badge{display:inline-block;vertical-align:middle;margin-right:10px;font:500 11px/1.7 var(--font-sans);color:var(--ui-color-muted)}
+.community-badge{display:inline-block;vertical-align:middle;margin-right:10px;font:500 12px/1.7 var(--font-sans);color:var(--ui-color-muted)}
 .community-empty{margin:0;padding:24px 0;font:14px/1.8 var(--font-sans);color:var(--ui-color-muted)}
 .community-undated,.community-featured,.community-subscription{margin-top:36px;padding-top:28px;border-top:1px solid var(--workspace-line)}
 .community-subscription>p{font:13px/1.8 var(--font-sans);color:var(--ui-color-muted);margin:0 0 14px}
@@ -48,7 +48,7 @@ html body .community-view-tabs .workspace-button.dui-btn{border-color:transparen
 .community-card__copy{padding:16px 18px}
 .community-card h3{margin:7px 0 8px;font:500 16px/1.6 var(--font-sans)}
 .community-card p{font:12px/1.8 var(--font-sans);color:var(--ui-color-muted);margin:0}
-.community-card small{display:block;margin-top:10px;font:11px/1.7 var(--font-sans);color:var(--ui-color-muted)}
+.community-card small{display:block;margin-top:10px;font:12px/1.7 var(--font-sans);color:var(--ui-color-muted)}
 .community-detail-poster{display:block;width:auto;max-width:100%;max-height:640px;object-fit:contain;margin:0 auto}
 .community-facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 28px;border-block:1px solid var(--workspace-line);padding:24px 0;margin:24px 0}
 .community-facts dt{font:12px/1.7 var(--font-sans);color:var(--ui-color-muted);margin-bottom:5px}.community-facts dd{font:14px/1.8 var(--font-sans);margin:0}
@@ -135,3 +135,4 @@ html body .community-view-tabs .workspace-button.dui-btn{border-color:transparen
 /* Form boundaries must remain readable in either site theme. */
 .community-page,.community-editor,.community-admin{--tool-line:color-mix(in srgb,var(--theme-fg,var(--text)) 50%,var(--theme-bg,var(--bg)))}
 .community-editor label:has(>.dui-checkbox){min-height:44px}
+html body .community-page .workspace-control.dui-checkbox{border-color:var(--tool-line)}
