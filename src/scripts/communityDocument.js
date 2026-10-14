@@ -1,6 +1,6 @@
 import {communityRequest,communityCard,renderCommunityMarkdown,contentText,communityApi} from '../lib/communityClient.js';
 export function initCommunityDocument(root){
- if(!root)return;const c=JSON.parse(root.dataset.copy),locale=root.dataset.locale,api=root.dataset.api,kind=root.dataset.communityDocument;
+ if(!root||root.dataset.communityUnavailable==='true')return;const c=JSON.parse(root.dataset.copy),locale=root.dataset.locale,api=root.dataset.api,kind=root.dataset.communityDocument;
  const id=root.dataset.communityId||new URLSearchParams(location.search).get('id');if(!id)return;
  const create=(tag,value,className)=>{const n=document.createElement(tag);if(value!==undefined)n.textContent=value;if(className)n.className=className;return n;};
  const localTime=()=>root.querySelectorAll('[data-community-local-time]').forEach(n=>{try{n.textContent=c.localTime+' · '+new Intl.DateTimeFormat(locale,{dateStyle:'medium',timeStyle:'short'}).format(new Date(n.dataset.communityLocalTime));}catch{}});
@@ -19,5 +19,5 @@ export function initCommunityDocument(root){
   for(const ref of doc.media||[]){const p=create('p',ref.author+' · '+ref.sourceTitle,'community-image-credit');target.append(p);}
   if(kind==='series'){const current=data.activities.filter(a=>!['ended','cancelled'].includes(a.status));if(current.length){target.append(create('h2',c.currentEditions));const cards=create('div',undefined,'community-card-grid');for(const a of current)cards.append(communityCard(a,{locale,copy:c}));target.append(cards);}target.append(create('h2',c.editions));const editions=create('div',undefined,'community-card-grid');for(const a of data.activities)editions.append(communityCard(a,{locale,copy:c}));target.append(editions);}
   if(kind==='activity'&&exported)exported.hidden=!(data.points||[]).length||doc.schedule?.kind==='undated'&&doc.eventStatus!=='postponed';localTime();
- }catch(error){const target=root.querySelector('[data-community-content]');target.replaceChildren(create('p',error.status===404?c.empty:c.error));}})();
+ }catch(error){const target=root.querySelector('[data-community-content]');target.replaceChildren(create('p',error.status===404?c.notAvailable:c.error));}})();
 }

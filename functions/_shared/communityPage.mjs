@@ -6,11 +6,18 @@ const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&
 const apiBase=env=>String(env.COMMUNITY_API_URL||env.PUBLIC_COMMUNITY_API_URL||'https://api.kamitsubaki.wiki').replace(/\/$/,'');
 const canonical=(locale,kind,id)=>`https://kamitsubaki.wiki/${locale}/community/${kind==='series'?'series':'activities'}/${encodeURIComponent(id)}/`;
 const noStore={'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'};
+async function unavailablePage({request,env},locale,kind,status){
+ const c=communityCopy(locale),title=status===404?c.notAvailable:c.serviceUnavailable,back=`/${locale}/community/activities/`;
+ let html=`<!doctype html><html lang="${escape(locale)}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>${escape(title)}</title></head><body><main><h1>${escape(title)}</h1><a href="${back}">${escape(c.back)}</a></main></body></html>`;
+ try{const asset=await env.ASSETS.fetch(new Request(new URL(`/${locale}/community/${kind==='series'?'series':'activities'}/read/`,request.url)));if(asset.ok){html=await asset.text();html=html.replace(/data-community-document="(activity|series)"/,`data-community-document="${kind}" data-community-unavailable="true" data-community-rendered="true"`).replace(/(<h1\b[^>]*>)[\s\S]*?(<\/h1>)/,(_,a,b)=>a+escape(title)+b).replace(/<title>[^<]*<\/title>/,`<title>${escape(title)}</title>`).replace(/<section\b[^>]*\bdata-community-content\b[^>]*>[\s\S]*?<\/section>/,`<section data-community-content><p role="status">${escape(status===404?c.notAvailable:c.serviceUnavailable)}</p>${status===503?`<a href="${escape(request.url)}">${escape(c.retry)}</a>`:''}</section>`).replace(/<(a|button)\b([^>]*data-community-(?:correct|export)[^>]*)>/g,'<$1$2 hidden>');}}
+ catch{}
+ return new Response(html,{status,headers:{...noStore,'Content-Type':'text/html; charset=utf-8'}});
+}
 export async function renderCommunityPage(context,kind='activity'){
  const {request,env,params}=context,locale=String(params.locale||''),id=String(params.id||'');
  if(!languages.includes(locale)||!/^[-a-z0-9]{1,100}$/.test(id))return new Response('Not found',{status:404,headers:noStore});
  let data;
- try{const response=await fetch(apiBase(env)+'/api/community-activities/'+(kind==='series'?'series/':'items/')+encodeURIComponent(id),{signal:AbortSignal.timeout(10000),headers:{Accept:'application/json'}});if(response.status===404)return new Response('Not found',{status:404,headers:noStore});if(!response.ok)throw Error();data=await response.json();}catch{return new Response('Project service unavailable',{status:503,headers:noStore});}
+ try{const response=await fetch(apiBase(env)+'/api/community-activities/'+(kind==='series'?'series/':'items/')+encodeURIComponent(id),{signal:AbortSignal.timeout(10000),headers:{Accept:'application/json'}});if(response.status===404)return unavailablePage(context,locale,kind,404);if(!response.ok)throw Error();data=await response.json();}catch{return unavailablePage(context,locale,kind,503);}
  const doc=data.series||data.activity,c=communityCopy(locale),value=v=>doc.sourceLocale==='zh'&&isTraditionalChineseLocale(locale)?convertChineseValue(String(v||''),locale):String(v||'');
  const templatePath=`/${locale}/community/${kind==='series'?'series':'activities'}/read/`,asset=await env.ASSETS.fetch(new Request(new URL(templatePath,request.url)));if(!asset.ok)return new Response('Project template unavailable',{status:503,headers:noStore});
  const facts=[],fact=(label,v)=>{if(v)facts.push(`<div><dt>${escape(label)}</dt><dd>${escape(v)}</dd></div>`);};
