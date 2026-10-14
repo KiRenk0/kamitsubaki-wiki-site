@@ -12,6 +12,6 @@ export function readCollectionDrafts(storage,owner){
 export function saveCollectionDraft(storage,owner,editor,localId=null){
  const draft={localId:localId || 'local-'+crypto.randomUUID(),updatedAt:Date.now(),editor:validateCollectionEditor(editor)},current=readCollectionDrafts(storage,owner);if(current.length>=50 && !current.some(row=>row.localId===draft.localId))throw Error('draft_limit');const drafts=[draft,...current.filter(row=>row.localId!==draft.localId)],json=JSON.stringify({version:1,drafts});if(json.length>1500000)throw Error('large_drafts');storage.setItem(collectionDraftKey(owner),json);return draft;
 }
-export function removeCollectionDraft(storage,owner,localId){storage.setItem(collectionDraftKey(owner),JSON.stringify({version:1,drafts:readCollectionDrafts(storage,owner).filter(row=>row.localId!==localId)}));}
+export function removeCollectionDraft(storage,owner,localId){storage.setItem(collectionDraftKey(owner),JSON.stringify({version:1,drafts:readCollectionDrafts(storage,owner).filter(row=>row.localId!==localId)}));storage.removeItem(collectionDraftKey(owner)+':progress:'+localId);}
 export function importCollectionEditor(raw){if(!raw || raw.format!=='archive-exhibition-draft' || raw.version!==1)throw Error('invalid_draft');return validateCollectionEditor(raw.editor);}
 export const exportCollectionEditor=editor=>({format:'archive-exhibition-draft',version:1,editor:validateCollectionEditor(editor)});
