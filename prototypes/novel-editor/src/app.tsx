@@ -1,5 +1,6 @@
 import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
+import TextareaAutosize from 'react-textarea-autosize';
 import type { Editor } from '@tiptap/core';
 import { Check, Eye, Download, Moon, Sun, SlidersHorizontal, Menu, Code2, FileText, AlertCircle, Pencil, Loader2, MoreHorizontal, Save, Send } from 'lucide-react';
 import { Toaster, toast } from 'sonner';
@@ -29,6 +30,7 @@ import { useContainerWidth } from '@/lib/use-container-width';
 import { restoreNodeEdit, type StoredNodeEdit } from '@/lib/node-edit-draft';
 import { reviewSnapshot, type ReviewSnapshot, type ReviewSubmission, type ReviewAttachment, type ReviewResolution } from '@/lib/review-service';
 import { canAdoptSubmission } from '@/lib/review-attachments';
+import { ImageUploadContext, type ImageUploadScope } from '@/lib/image-upload-context';
 import { articleSnapshot, articleSourceWithContent, type ArticleBinding, type ArticleSnapshot } from '@/lib/article-document';
 import type { ArticleReceipt, ArticleRevision } from '@/lib/article-service';
 import { PreviewPane } from '@/components/reader-preview';
@@ -53,13 +55,14 @@ function downloadMarkdown(source: string, title: string, locale: string) {
 
 export default function App() {
   const headerSize = useContainerWidth<HTMLElement>();
+  const canvasSize = useContainerWidth<HTMLDivElement>();
   const [record, setRecord] = useState<DocumentRecord>(initialDocument);
   const recordRef = useRef(record); recordRef.current = record;
   const [revision, setRevision] = useState(0);
   const writingScroll = useRef<HTMLDivElement>(null);
   const propertiesScroll = useRef<HTMLDivElement>(null);
   const [editor, setEditor] = useState<Editor | null>(null);
-  const titleInput = useRef<HTMLInputElement>(null);
+  const titleInput = useRef<HTMLTextAreaElement>(null);
   const focusNewTitle = useRef(false);
   useEffect(() => {
     if (editor && focusNewTitle.current) {
@@ -146,11 +149,13 @@ export default function App() {
       const meta = metadataRef.current;
       const source = liveSource();
       saveLocalDraft({ key: recordRef.current.key, path: recordRef.current.path, source, baseSource: recordRef.current.baseSource, create: recordRef.current.create, attachments: recordRef.current.attachments, resolution: recordRef.current.resolution, article: recordRef.current.article, title: meta.name || meta.title || '未命名词条', locale: meta.locale || 'zh', savedAt: Date.now(), pendingSource: pendingRef.current, pendingNode: pendingNode.current });
+      recordRef.current = { ...recordRef.current, source };
       if (!pendingRef.current) setSourceValue(source);
       setStorageError(''); setStatus(pendingRef.current ? '源码已暂存，尚未应用' : pendingNode.current ? '填写内容已暂存，尚未应用' : '已保存到本地');
       return true;
     } catch { setStatus('尚未保存'); setStorageError('本地草稿无法保存。请导出 Markdown 备份当前内容。'); return false; }
   }, [liveSource]);
+  const currentSource = useCallback(() => recordRef.current.source, []);
   const changed = useCallback(() => {
     try { setStatus('正在保存…'); clearTimeout(timer.current); timer.current = setTimeout(persist, 300); }
     catch (error: any) { setStorageError(error.message); }
@@ -346,7 +351,14 @@ export default function App() {
     setReview({ ...review, snapshot: { ...review.snapshot, content: keptSource, attachments: currentAttachments, create: result.create } });
     if (!adopt) toast.info('已恢复上次提交结果。之后新增的本地修改也已保留，可检查后更新同一份投稿。');
   };
-  return <CatalogContext.Provider value={catalogContext}><TooltipProvider delayDuration={350}><div className="wiki-workbench" data-properties={showProperties} data-view={view}>
+  const currentImageScope = useRef(record.key + ':' + revision); currentImageScope.current = record.key + ':' + revision;
+  const imageScope = useMemo<ImageUploadScope>(() => ({
+    key: record.key + ':' + revision, purpose: metadata.entityType === 'editorial-article' ? 'article' : 'entry',
+    isCurrent: () => currentImageScope.current === record.key + ':' + revision && !editorRef.current?.isDestroyed,
+    lookup: url => { const attachment = recordRef.current.attachments?.find(asset => asset.url === url || asset.originalUrl === url); return { attachment, image: attachment?.staged?.image || metadataRef.current.articleMediaRefs?.find((image: any) => (image.src || '/_private/article-assets/' + image.assetId) === url) }; },
+    remember: attachment => { if (recordRef.current.key !== record.key) return; recordRef.current = { ...recordRef.current, attachments: [...(recordRef.current.attachments || []).filter(asset => asset.url !== attachment.url), attachment] }; setRecord(recordRef.current); changed(); },
+  }), [record.key, revision, metadata.entityType, changed]);
+  return <CatalogContext.Provider value={catalogContext}><ImageUploadContext.Provider value={imageScope}><TooltipProvider delayDuration={350}><div className="wiki-workbench" data-properties={showProperties} data-view={view}>
     <div className="wiki-desktop-library">{navigator}</div>
     <div className="wiki-workbench-main"><header ref={headerSize.ref} className="wiki-workbench-header">
       <Button variant="ghost" size="icon" className="wiki-mobile-menu" aria-label="打开写作导航" onClick={() => setNavigationOpen(true)}><Menu /></Button>
@@ -375,10 +387,15 @@ export default function App() {
             for (const item of outline) { const element = instance.view.nodeDOM(item.position); if (element instanceof HTMLElement && element.getBoundingClientRect().top <= boundary) position = item.position; }
             setActiveOutline(position);
           });
-        }}><div className="wiki-article-canvas">
-          <input ref={titleInput} className="wiki-article-title" aria-label="词条标题" placeholder="未命名词条" value={title} onChange={event => changeMetadata({ ...metadata, [metadata.name !== undefined ? 'name' : 'title']: event.target.value })} />
+        }}><div ref={canvasSize.ref} className="wiki-article-canvas">
+          <TextareaAutosize ref={titleInput} minRows={1} className="wiki-article-title resize-none overflow-hidden" aria-label="词条标题" placeholder="未命名词条" value={title} onChange={event => changeMetadata({ ...metadata, [metadata.name !== undefined ? 'name' : 'title']: event.target.value.replace(/\r?\n/g, ' ') })} onKeyDown={event => {
+            if (event.key === 'Enter' && !event.nativeEvent.isComposing) {
+              event.preventDefault();
+              editorRef.current?.commands.focus('start');
+            }
+          }} />
           {metadata.romanizedName || metadata.romanizedTitle ? <p className="wiki-article-romanized">{metadata.romanizedName || metadata.romanizedTitle}</p> : null}
-          <NovelSurface key={record.key + ':' + revision} source={record.source} path={record.path} onReady={ready} onUpdate={documentUpdated} onTransaction={refreshOutline} open={openTarget} />
+          <NovelSurface key={record.key + ':' + revision} source={record.source} path={record.path} currentSource={currentSource} onReady={ready} onUpdate={documentUpdated} onTransaction={refreshOutline} open={openTarget} />
           <Button variant="ghost" className="wiki-continue-writing" onClick={() => { if (editor) editor.chain().focus().insertContentAt(editor.state.doc.content.size, { type: 'paragraph' }).run(); }}>输入 / 插入内容</Button>
         </div></div>
         {view === 'source' ? <section className="wiki-source-pane"><div className="wiki-pane-heading"><div><h2>Markdown 源码</h2><p>{pending ? '修改已暂存，应用后可预览或导出。' : '正文和词条属性的完整保存内容。'}</p></div><div className="flex gap-2"><Button variant="outline" disabled={!pending} onClick={() => { pendingRef.current = undefined; setPending(false); setSourceValue(liveSource()); persist(); setView('edit'); }}>放弃修改</Button><Button disabled={!pending || !editor} onClick={applySource}>应用源码</Button></div></div><SourceEditor value={sourceValue} onChange={sourceChanged} height="calc(100vh - 190px)" /></section> : null}
@@ -395,5 +412,5 @@ export default function App() {
     <Dialog open={draftsOpen} onOpenChange={setDraftsOpen}><DialogContent><DialogHeader><DialogTitle>本地草稿</DialogTitle><DialogDescription>这些草稿保存在当前浏览器中，可继续编辑或导出。</DialogDescription></DialogHeader><div className="wiki-draft-list">{drafts.length ? drafts.map(draft => <Button variant="ghost" className="wiki-draft-row" key={draft.key} onClick={() => { if (replaceDocument({ key: draft.key, path: draft.path, source: draft.source, baseSource: draft.baseSource, create: draft.create, attachments: draft.attachments, resolution: draft.resolution, article: draft.article, pendingSource: draft.pendingSource, pendingNode: draft.pendingNode })) setDraftsOpen(false); }}><FileText data-icon="inline-start" /><span><strong>{draft.title}</strong><small>{new Date(draft.savedAt).toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' })}</small></span></Button>) : <p>还没有本地草稿。</p>}</div></DialogContent></Dialog>
     <input ref={fileInput} type="file" accept=".md,.markdown,text/markdown" className="hidden" aria-label="导入 Markdown 文件" onChange={async event => { const input = event.currentTarget; const file = input.files?.[0]; if (!file) return; try { if (file.size > 1_000_000) throw new Error('Markdown 文件不能超过 1 MB'); const sequence = ++loadSequence.current; const source = await file.text(); if (sequence !== loadSequence.current) return; validateDocumentSource(source); replaceDocument({ key: 'import:' + crypto.randomUUID(), path: '', source }); } catch (error: any) { toast.error(error.message); } input.value = ''; }} />
     <Toaster richColors theme={dark ? 'dark' : 'light'} />
-  </div></TooltipProvider></CatalogContext.Provider>;
+  </div></TooltipProvider></ImageUploadContext.Provider></CatalogContext.Provider>;
 }

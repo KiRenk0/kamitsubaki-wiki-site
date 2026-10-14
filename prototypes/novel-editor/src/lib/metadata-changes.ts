@@ -1,5 +1,5 @@
 import { metadataDisplayLabel } from './metadata-guide';
-import { entityLabels } from '../../../../src/lib/entityLabelData.mjs';
+import { metadataChoiceLabel } from './metadata-choice-labels';
 import { metadataChoices } from '../../../../src/lib/editorMetadata.mjs';
 type Change = { key: string; label: string; before: string; after: string };
 const technical = new Set(['schemaVersion', 'id', 'locale', 'generated', 'generatedFrom', 'generatedFromHash', 'researchImport', 'translationKey']);
@@ -14,7 +14,7 @@ export function metadataChanges(before: Record<string, any>, after: Record<strin
     if (key === 'status') return ({ active: '进行中', planned: '筹备中', hiatus: '暂停', completed: '已完成', ended: '已结束', canceled: '已取消' } as Record<string, string>)[String(entry)] || String(entry);
     const normalized = path.split('.').filter(part => !/^\d+$/.test(part)).join('.');
     const choices = (metadataChoices as Record<string, string[]>)[normalized] || (metadataChoices as Record<string, string[]>)[key];
-    return (key === 'entityType' || choices?.includes(String(entry))) ? (entityLabels as Record<string, string[]>)[String(entry)]?.[0] || String(entry) : String(entry);
+    return (key === 'entityType' || choices?.includes(String(entry))) ? metadataChoiceLabel(String(entry)) : String(entry);
   };
   const walk = (a: any, b: any, path: string, label: string) => {
     if (JSON.stringify(a) === JSON.stringify(b)) return;

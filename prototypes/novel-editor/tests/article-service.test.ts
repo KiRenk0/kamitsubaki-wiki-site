@@ -37,6 +37,16 @@ function fakeServer(){
  };
  return {state,request};
 }
+test('directly staged article images reuse their receipt and cannot be adopted by another author',async()=>{
+ const {state,request}=fakeServer(),service=new LocalArticleService(request,new MemoryStorage()),id='d'.repeat(64),url='/_private/article-assets/'+id;
+ const image={assetId:id,alt:'内容',caption:'配文',author:'作者',sourceTitle:'本人创作',sourceUrl:'',rightsBasis:'original',rightsEvidence:''};
+ const ledger=[{url,alt:image.alt,source:'',staged:{purpose:'article' as const,id,ownerId:'alice',mime:'image/png',size:100,image}}];
+ const snapshot=articleSnapshot('doc',source+'\n![内容]('+url+')\n',ledger),account=(await service.load(snapshot)).account;
+ const receipt=await service.saveDraft(snapshot,account,{[url]:{...image,author:'修正作者'}});assert.equal(receipt.content.mediaRefs?.[0].assetId,id);assert.equal(state.writes.filter(row=>row.path==='/api/articles/assets').length,0);
+ assert.equal(receipt.attachments[0].staged?.image?.author,'修正作者');assert.equal(articleSnapshot('doc',receipt.source,receipt.attachments,receipt.binding).content.mediaRefs?.[0].author,'修正作者');
+ state.owner='bob';const writes=state.writes.length;
+ await assert.rejects(service.saveDraft({...snapshot,key:'foreign'}, {id:'bob',name:'Bob'}),/另一位上传者/);assert.equal(state.writes.length,writes);
+});
 test('lost article responses restore one immutable operation and recognize reordered API fields on update',async()=>{
  const {state,request}=fakeServer(),store=new MemoryStorage(),service=new LocalArticleService(request,store);
  let snapshot=articleSnapshot('doc',source),loaded=await service.load(snapshot);state.lose=true;

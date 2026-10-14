@@ -123,10 +123,17 @@ export function localWikiApi(): Plugin {
           return json({ ...linked, metadata, info: entityInfoModel(metadata, currentRegistry, metadata.locale || 'zh') });
         }
         if (request.method === 'POST' && url.pathname === '/__novel/assets') {
-          const mime = String(request.headers['content-type'] || '').split(';')[0];
+          const contentType = String(request.headers['content-type'] || '');
+          let mime = contentType.split(';')[0];
+          let buffer: Buffer;
+          if (mime === 'multipart/form-data') {
+            const body = await requestBody(request, 21_000_000);
+            const form = await new Request('http://localhost', {method:'POST', headers:{'Content-Type':contentType}, body:new Uint8Array(body)}).formData();
+            const image=form.get('image'); if (!image || typeof image === 'string' || image.size > 20*1024*1024) throw Error('请选择 20 MiB 以内的图片');
+            mime=image.type; buffer=Buffer.from(await image.arrayBuffer());
+          } else buffer = await requestBody(request, 10_000_000);
           const extensions: Record<string, string> = { 'image/png': '.png', 'image/jpeg': '.jpg', 'image/webp': '.webp', 'image/gif': '.gif' };
           if (!extensions[mime]) throw new Error('仅支持 PNG、JPEG、WebP、GIF 图片');
-          const buffer = await requestBody(request, 10_000_000);
           const signature = buffer.toString('hex', 0, 12);
           const valid = mime === 'image/png' ? signature.startsWith('89504e470d0a1a0a') : mime === 'image/jpeg' ? signature.startsWith('ffd8ff') :
             mime === 'image/gif' ? buffer.toString('ascii', 0, 6).startsWith('GIF8') : buffer.toString('ascii', 0, 4) === 'RIFF' && buffer.toString('ascii', 8, 12) === 'WEBP';

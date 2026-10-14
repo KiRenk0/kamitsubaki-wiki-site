@@ -153,6 +153,16 @@ export class LocalReviewService {
     const uploaded: string[] = [], clientAssets: ReviewAttachment[] = [];
     for (const attachment of attachments) {
       const imageSource = imageSources[attachment.url] ?? attachment.source;
+      if (attachment.staged) {
+        if (attachment.staged.purpose !== 'entry' || attachment.staged.ownerId !== state.account.id) throw new ReviewError('图片属于另一位上传者，请切回原账号或重新选择图片。', 409);
+        // Notes changed after staging must be refreshed through the same API.
+        const staged = attachment.staged as typeof attachment.staged & { source?: string; alt?: string };
+        if (imageSource.trim() && imageSource.trim() === staged.source && attachment.alt.trim() === staged.alt) {
+          total += staged.size;
+          if (total > 20 * 1024 * 1024) throw new ReviewError('投稿图片合计不能超过 20 MiB，请先减少图片。');
+          uploaded.push(staged.id); clientAssets.push(attachment); continue;
+        }
+      }
       const existing = state.selected?.assets?.find(asset => asset.url === attachment.url && asset.source === imageSource.trim() && asset.alt === attachment.alt.trim());
       if (existing) { uploaded.push(existing.id); clientAssets.push({ ...attachment, source: imageSource.trim() }); continue; }
       const prepared = await prepareReviewImage(attachment, imageSource, this.request);

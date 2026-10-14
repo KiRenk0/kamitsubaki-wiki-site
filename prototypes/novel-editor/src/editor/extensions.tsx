@@ -7,7 +7,10 @@ import TableCell from '@tiptap/extension-table-cell';
 import TableHeader from '@tiptap/extension-table-header';
 import { Markdown } from 'tiptap-markdown';
 import { StarterKit, TiptapLink, TiptapUnderline, TiptapImage, HighlightExtension, TaskList, TaskItem, Placeholder, CharacterCount, GlobalDragHandle, UploadImagesPlugin } from 'novel';
-import { useContext, useEffect, useState } from 'react';
+import { useContext, useEffect, useRef, useState } from 'react';
+import Moveable from 'react-moveable';
+import {closeHistory} from '@tiptap/pm/history';
+import {imageDimension, imageFigureAttributes, imageMarkdown, publicImageAttributes} from '@/lib/image-format';
 import { CatalogContext } from '@/components/entity-picker';
 import { Pencil, Play, ImageIcon, Music2, ChevronRight, FileText, Sigma, Tv } from 'lucide-react';
 import katex from 'katex';
@@ -112,8 +115,20 @@ function BlockView(props: NodeViewProps) {
 }
 function ImageView(props: NodeViewProps) {
   const attrs = props.node.attrs;
-  return <NodeViewWrapper as="figure" className="wiki-article-image" contentEditable={false}>
-    {safeUrl(attrs.src) ? <img src={attrs.src} alt={attrs.alt || ''} loading="lazy" /> : <div className="wiki-media-placeholder"><ImageIcon /><span>添加图片链接</span></div>}
+  const [container, setContainer] = useState<HTMLDivElement | null>(null);
+  const [image, setImage] = useState<HTMLImageElement | null>(null);
+  const moveable = useRef<Moveable | null>(null);
+  useEffect(() => { if (!props.selected || !image || !container) return; const frame = requestAnimationFrame(() => moveable.current?.updateRect()); return () => cancelAnimationFrame(frame); }, [props.selected, image, container]);
+  return <NodeViewWrapper ref={setContainer} as="figure" className="wiki-article-image" contentEditable={false}>
+    {safeUrl(attrs.src) ? <img ref={setImage} src={attrs.src} alt={attrs.alt || ''} title={attrs.title || undefined} width={imageDimension(attrs.width) || undefined} height={imageDimension(attrs.height) || undefined} style={{width: imageDimension(attrs.width) || undefined, height: 'auto'}} loading="lazy" onLoad={() => moveable.current?.updateRect()} draggable={false} onClick={event => { event.preventDefault(); event.stopPropagation(); props.editor.commands.setNodeSelection(props.getPos()); props.editor.view.focus(); requestAnimationFrame(() => moveable.current?.updateRect()); }} /> : <div className="wiki-media-placeholder"><ImageIcon /><span>添加图片链接</span></div>}
+    {props.selected && image && container ? <Moveable ref={moveable} target={image} container={container} origin={false} resizable keepRatio useResizeObserver useMutationObserver renderDirections={['nw', 'ne', 'sw', 'se']} stopPropagation onResizeStart={() => props.editor.view.dispatch(closeHistory(props.editor.state.tr))} onResize={({target, width}) => {target.style.width = `${width}px`;target.style.height = 'auto';}} onResizeEnd={({target, isDrag}) => {
+      if (!isDrag || props.editor.isDestroyed) return;
+      const current = props.editor.state.doc.nodeAt(props.getPos());
+      if (current?.type.name !== 'image' || current.attrs.src !== attrs.src) return;
+      const bounds = target.getBoundingClientRect();
+      props.updateAttributes({width: Math.round(bounds.width), height: Math.round(bounds.height)});
+      props.editor.view.dispatch(closeHistory(props.editor.state.tr));
+    }} /> : null}
     <figcaption><span>{attrs.caption || attrs.alt || '图片说明'}</span><Button size="icon-sm" variant="ghost" aria-label="编辑图片与来源" onClick={() => props.extension.options.onEdit?.(props.editor, props.getPos())}><Pencil /></Button></figcaption>
     <div data-node-editor-slot />
   </NodeViewWrapper>;
@@ -182,11 +197,13 @@ export function createWikiExtensions(onEdit?: EditNode, withViews = true, withDr
   });
   const image = TiptapImage.extend({
     addOptions() { return { ...this.parent?.(), onEdit, allowBase64: false }; },
-    addAttributes() { return { ...this.parent?.(), caption: { default: '', parseHTML: element => element.getAttribute('data-caption') || '' } }; },
+    addAttributes() { return { ...this.parent?.(), src: {default: null, parseHTML: element => (element.tagName === 'FIGURE' ? element.querySelector('img') : element)?.getAttribute('src')}, alt: {default: null, parseHTML: element => (element.tagName === 'FIGURE' ? element.querySelector('img') : element)?.getAttribute('alt')}, title: {default: null, parseHTML: element => (element.tagName === 'FIGURE' ? element.querySelector('img') : element)?.getAttribute('title')}, caption: { default: '', parseHTML: element => element.tagName === 'FIGURE' ? element.querySelector('figcaption')?.textContent || '' : element.getAttribute('data-caption') || '' }, width: {default: null, parseHTML: element => {const image = element.tagName === 'FIGURE' ? element.querySelector('img') : element;return imageDimension(image?.getAttribute('width') || (image as HTMLElement)?.style.width);}}, height: {default: null, parseHTML: element => {const image = element.tagName === 'FIGURE' ? element.querySelector('img') : element;return imageDimension(image?.getAttribute('height') || (image as HTMLElement)?.style.height);}} }; },
+    parseHTML() { return [{tag: 'figure', priority: 100, getAttrs: element => imageFigureAttributes(element as HTMLElement)}, ...(this.parent?.() || [])]; },
+    renderHTML({node}) { const image: any=['img',publicImageAttributes(node.attrs)]; return node.attrs.caption ? ['figure',image,['figcaption',{},node.attrs.caption]] : image; },
     ...(withViews ? { addNodeView: () => ReactNodeViewRenderer(ImageView) } : {}),
     addProseMirrorPlugins() { return [...(this.parent?.() || []), UploadImagesPlugin({ imageClass: 'wiki-image-uploading' })]; },
     addStorage() { return { markdown: { serialize(state: any, node: any) {
-      state.write(blockMarkdown({ type: 'image', text: node.attrs.alt || '', url: node.attrs.src, caption: node.attrs.caption || '' })); state.closeBlock(node);
+      state.write(imageMarkdown(node.attrs)); state.closeBlock(node);
     } } }; },
   });
   const alignedCell = (base: typeof TableCell | typeof TableHeader) => base.extend({

@@ -42,6 +42,14 @@ function fakeServer() {
   return { server, request };
 }
 
+test('directly staged entry uploads retain ownership and join the existing submission without reupload',async()=>{
+ const {server,request}=fakeServer(),client=new LocalReviewService(request,new MemoryStorage()),id='f'.repeat(64),url='/images/contributions/'+id+'.png';
+ const attachment={url,alt:'图片说明',source:'本人创作',staged:{purpose:'entry' as const,id,ownerId:'alice',size:100,mime:'image/png',source:'本人创作',alt:'图片说明'}};
+ const loaded=await client.load({...snapshot,content:snapshot.content+'\n![图片说明]('+url+')\n',attachments:[attachment]});
+ const result=await client.submit(loaded,'补充图片','');assert.deepEqual(result.assets?.map(asset=>asset.id),[id]);assert.equal(server.writes.filter(row=>row.path==='/api/editor/assets').length,0);
+ const other=new LocalReviewService(request,new MemoryStorage());server.account='bob';server.entry=null;const changed=await other.load({...snapshot,content:loaded.snapshot.content,attachments:[attachment]}),writes=server.writes.length;
+ await assert.rejects(other.submit(changed,'补充图片',''),/另一位上传者/);assert.equal(server.writes.length,writes);
+});
 test('local review uses real source metadata and readable schema errors', async () => {
   const source = await readFile(new URL('../../../src/content/people/solo/kaf/zh.md', import.meta.url), 'utf8');
   const ready = reviewSnapshot(snapshot.path, source, source);

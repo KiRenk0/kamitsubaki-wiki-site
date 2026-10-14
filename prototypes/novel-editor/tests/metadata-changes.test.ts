@@ -9,6 +9,13 @@ test('review displays meaningful nested affiliation changes instead of identical
   assert.deepEqual(rows.find(row => row.key.endsWith('.current'))?.before, '仍在所属'); assert.equal(rows.find(row => row.key.endsWith('.current'))?.after, '已离开'); assert.ok(!rows.some(row => row.key === 'id'));
   assert.equal(metadataChanges({}, before, () => '神椿工作室').find(row => row.key.endsWith('.organization'))?.after, '神椿工作室');
 });
+test('review shares readable enum labels with the property form and preserves literal names', () => {
+ const rows=metadataChanges({}, {orgType:'creative-studio',articleCategory:'art-philosophy',eventType:'joint-live',name:'creative-studio'});
+ assert.equal(rows.find(row=>row.key==='orgType')?.after,'创作工作室');
+ assert.equal(rows.find(row=>row.key==='articleCategory')?.after,'艺术理念');
+ assert.equal(rows.find(row=>row.key==='eventType')?.after,'联合演出');
+ assert.equal(rows.find(row=>row.key==='name')?.after,'creative-studio');
+});
 test('new entry review omits internal identifiers and translates type and project status', () => {
   const rows = metadataChanges({}, { schemaVersion: 2, id: 'generated-id', locale: 'zh', title: '新企划', entityType: 'project', status: 'active' });
   assert.equal(rows.length, 3); assert.equal(rows.find(row => row.key === 'entityType')?.after, '企划'); assert.equal(rows.find(row => row.key === 'status')?.after, '进行中');

@@ -6,6 +6,7 @@ import { importMarkdown as importLegacyDocument, blockMarkdown, newBlock, newDra
 import { collectionByType } from '../../../../src/lib/contentLayout.mjs';
 import { documentTemplates, type DocumentTemplateType } from './document-templates';
 import { metadataForSave } from './metadata-output';
+import {imageFigureAttributes} from './image-format';
 
 export type WikiMetadata = Record<string, any>;
 export type WikiBlockData = Record<string, any> & { type: string };
@@ -98,7 +99,11 @@ function readWikiContent(editor: Editor, source: string, path = '') {
       }
       content = generateJSON(template.innerHTML, editor.options.extensions).content ?? [];
       if (!content.some(node => node.type === 'table')) content = [asDomainNode({ ...block, type: 'preserved', text: raw })];
-    } else if (domainBlocks.has(block.type) || /^\s*<(?:div|details|figure|dl|!--)\b/i.test(raw)) {
+    } else if (/^\s*<figure\b/i.test(raw)) {
+      const template = document.createElement('template'); template.innerHTML = raw;
+      const figure = template.content.firstElementChild;
+      content = figure instanceof HTMLElement && imageFigureAttributes(figure) ? generateJSON(raw, editor.options.extensions).content || [] : [asDomainNode({...block, type: 'preserved', text: raw})];
+    } else if (domainBlocks.has(block.type) || /^\s*<(?:div|details|dl|!--)\b/i.test(raw)) {
       content = [asDomainNode(block.type === 'paragraph' ? { ...block, type: 'preserved' } : block)];
     } else if (block.type === 'image') {
       content = [{ type: 'image', attrs: { src: block.url, alt: block.text, title: null, caption: block.caption ?? '' } }];

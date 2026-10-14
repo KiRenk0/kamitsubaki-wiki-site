@@ -20,7 +20,8 @@ export function articleSnapshot(key:string,source:string,ledger:ReviewAttachment
  const currentImages=new Map<string,{alt:string;caption:string}>();
  const collect=(blocks:any[])=>{for(const block of blocks){if(block.type==='image')currentImages.set(block.url,{alt:block.text||'',caption:block.caption||''});if(block.type==='details')collect(parseVisualBlocks(block.text));}};collect(draft.blocks);
  for(const image of bodyImages)currentImages.set(image.src,{alt:image.alt||'',caption:image.caption||''});
- const mediaRefs=(meta.articleMediaRefs||[]).filter((ref:ArticleImage)=>body.includes(articleImageUrl(ref))).map((ref:ArticleImage)=>({...ref,...currentImages.get(articleImageUrl(ref))}));
+ const registered = [...(meta.articleMediaRefs || []), ...ledger.filter(asset => asset.staged?.purpose === 'article' && asset.staged.image && body.includes(asset.url)).map(asset => ({ ...asset.staged!.image!, assetId: asset.staged!.id }))];
+ const mediaRefs=[...new Map(registered.filter((ref:ArticleImage)=>body.includes(articleImageUrl(ref))).map((ref:ArticleImage)=>[articleImageUrl(ref), {...ref,...currentImages.get(articleImageUrl(ref))}])).values()];
  return {key,source,locale:meta.locale,binding,attachments:reviewAttachments(source,draft.blocks,ledger),content:{title:meta.title||'',summary:meta.summary||'',category:meta.articleCategory||'archival',relatedEntities:meta.relatedEntities||[],body,...(mediaRefs.length?{mediaRefs}:{})}};
 }
 export function articleSourceWithContent(source:string,content:ArticleContent) {

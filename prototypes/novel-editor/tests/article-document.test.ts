@@ -29,6 +29,16 @@ test('article image descriptions follow the body and native image edits while pr
  const parsed=articleSnapshot('doc',next);assert.equal(parsed.content.mediaRefs?.[0].alt,'新的说明');assert.equal(parsed.content.mediaRefs?.[0].caption,'新的配文');assert.equal(parsed.content.mediaRefs?.[0].author,'原作者');
  assert.equal(articleSnapshot('doc',next,[],undefined,[{src:url,alt:'表格中的新说明',caption:'表格配文'}]).content.mediaRefs?.[0].alt,'表格中的新说明');
 });
+test('directly staged images register only when referenced and keep author notes after resize',()=>{
+ const id='c'.repeat(64),url='/_private/article-assets/'+id,image={assetId:id,alt:'旧说明',caption:'旧配文',author:'原作者',sourceTitle:'来源',sourceUrl:'',rightsBasis:'original',rightsEvidence:''};
+ const ledger=[{url,alt:image.alt,source:'',staged:{purpose:'article' as const,id,ownerId:'alice',size:100,mime:'image/png',image}}];
+ assert.equal(articleSnapshot('doc',source,ledger).content.mediaRefs,undefined);
+ const resized=source+'<figure><img src="'+url+'" alt="缩放图片" width="320" height="180"><figcaption>新配文</figcaption></figure>\r\n';
+ const snapshot=articleSnapshot('doc',resized,ledger,undefined,[{src:url,alt:'缩放图片',caption:'新配文'}]);
+ assert.equal(snapshot.content.mediaRefs?.length,1);assert.equal(snapshot.content.mediaRefs?.[0].author,'原作者');assert.equal(snapshot.content.mediaRefs?.[0].alt,'缩放图片');
+ assert.equal(snapshot.attachments[0].staged?.ownerId,'alice');
+ const saved=articleSourceWithContent(resized,snapshot.content);assert.equal(articleSnapshot('doc',saved).content.mediaRefs?.[0].assetId,id);assert.ok(!saved.includes('ownerId'));
+});
 test('incomplete drafts may save, but empty articles and incomplete image provenance cannot submit',()=>{
  const content=articleSnapshot('doc',source).content;assert.doesNotThrow(()=>validateArticleContent({...content,title:'',body:''}));assert.throws(()=>validateArticleContent({...content,title:''},true),/标题与正文/);
  const image={alt:'图片说明',caption:'',author:'',sourceTitle:'',sourceUrl:'',rightsBasis:'',rightsEvidence:''};assert.doesNotThrow(()=>validateArticleImage(image));assert.throws(()=>validateArticleImage(image,true),/作者/);

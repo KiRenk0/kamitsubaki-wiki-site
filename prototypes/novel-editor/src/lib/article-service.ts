@@ -62,10 +62,11 @@ export class LocalArticleService {
   const content=structuredClone(snapshot.content);content.title=content.title.trim();content.summary=content.summary.trim();const attachments:ReviewAttachment[]=[];
   const refs=(content.mediaRefs||[]).map(ref=>{const note=images[articleImageUrl(ref)];if(!note)return ref;validateArticleImage(note);return {...ref,...Object.fromEntries(['alt','caption','author','sourceTitle','sourceUrl','rightsBasis','rightsEvidence'].map(key=>[key,String((note as any)[key]||'')]))};});
   const identities=new Set(refs.map(ref=>ref.galleryId?'gallery:'+ref.galleryId:'asset:'+ref.assetId));
+  if(snapshot.attachments.some(asset=>asset.staged&&asset.staged.ownerId!==account.id))throw new ArticleError('图片属于另一位上传者，请切回原账号或重新选择图片。',409);
   for(const asset of snapshot.attachments)if(asset.url.startsWith('/images/novel-prototype/'))identities.add('asset:'+(asset.url.match(/\/([a-f0-9]{64})\./)?.[1]||asset.url));
   if(identities.size>20)throw new ArticleError('一篇文章最多登记 20 张图片。');
   for(const asset of snapshot.attachments){
-   if(!asset.url.startsWith('/images/novel-prototype/')){attachments.push(asset);continue;}
+   if(!asset.url.startsWith('/images/novel-prototype/')){const image=asset.staged?.purpose==='article'?refs.find(ref=>ref.assetId===asset.staged!.id):undefined;attachments.push(image?{...asset,staged:{...asset.staged!,image}}:asset);continue;}
    const existing=refs.find(ref=>ref.assetId===asset.url.match(/\/([a-f0-9]{64})\./)?.[1]);
    if(existing){const reference=articleImageUrl(existing);content.body=content.body.split(asset.url).join(reference);attachments.push({...asset,url:reference,originalUrl:asset.url});continue;}
    const image=images[asset.url];if(!image)throw new ArticleError('请先检查每张新图片的说明。');validateArticleImage(image);

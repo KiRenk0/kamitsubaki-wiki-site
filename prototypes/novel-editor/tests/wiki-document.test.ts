@@ -16,6 +16,44 @@ for (const key of ['window', 'document', 'navigator', 'HTMLElement', 'Element', 
 }
 const editor = new Editor({ element: dom.window.document.querySelector('#editor')!, extensions: createWikiExtensions(undefined, false), content: '' });
 after(() => { editor.destroy(); dom.window.close(); });
+test('image resize preserves caption and alt through source reopen and native undo', () => {
+  const source = wrap('![内容说明](/images/test.png)\n\n<!-- wiki-editor:image-caption -->\n\n来源说明\n');
+  const loaded = loadWikiDocument(editor, source);
+  let position = -1;
+  editor.state.doc.descendants((node, pos) => { if (node.type.name === 'image') position = pos; });
+  assert.ok(position >= 0);
+  editor.commands.setNodeSelection(position);
+  editor.commands.updateAttributes('image', {width: 320, height: 180});
+  const resized = exportWikiDocument(editor, loaded.context, loaded.metadata);
+  assert.match(resized, /<figure><img src="\/images\/test.png" alt="内容说明" width="320" height="180"><figcaption>来源说明<\/figcaption><\/figure>/);
+  assert.ok(!/data-wiki|undefined|imageNotes/.test(resized));
+  assert.equal(undoNoScroll(editor.state, editor.view.dispatch), true);
+  assert.equal(exportWikiDocument(editor, loaded.context, loaded.metadata), source);
+  assert.equal(redoNoScroll(editor.state, editor.view.dispatch), true);
+  assert.equal(exportWikiDocument(editor, loaded.context, loaded.metadata), resized);
+  const reopened = loadWikiDocument(editor, resized);
+  const images: any[] = []; editor.state.doc.descendants(node => {if(node.type.name === 'image') images.push(node.attrs);});
+  assert.equal(images.length, 1); assert.equal(images[0].src, '/images/test.png'); assert.equal(images[0].caption, '来源说明'); assert.equal(images[0].width, 320);
+  assert.equal(exportWikiDocument(editor, reopened.context, reopened.metadata), resized);
+});
+test('images in table cells retain public dimensions and captions when the table changes',()=>{
+  const source=wrap('<table><tbody><tr><td><figure><img src="/table.png" alt="表内图片" width="320" height="160"><figcaption>表内说明</figcaption></figure></td><td>正文</td></tr></tbody></table>');
+  const loaded=loadWikiDocument(editor,source);let position=-1;
+  editor.state.doc.descendants((node,pos)=>{if(node.type.name==='image')position=pos;});assert.ok(position>=0);
+  editor.commands.setNodeSelection(position);editor.commands.updateAttributes('image',{width:240,height:120});
+  const output=exportWikiDocument(editor,loaded.context,loaded.metadata);
+  assert.match(output,/<figure><img[^>]+width="240"[^>]+height="120"[^>]*><figcaption>表内说明<\/figcaption><\/figure>/);
+  assert.ok(!output.includes('data-wiki'));const reopened=loadWikiDocument(editor,output);
+  let image:any;editor.state.doc.descendants(node=>{if(node.type.name==='image')image=node.attrs;});assert.equal(image.caption,'表内说明');assert.equal(image.width,240);
+  assert.equal(exportWikiDocument(editor,reopened.context,reopened.metadata),output);
+});
+test('complex authored figures retain their original content instead of being flattened', () => {
+  for(const figure of ['<figure><img src="/a.png"><img src="/b.png"><figcaption>两张图片</figcaption></figure>', '<figure class="custom"><img src="/a.png"><figcaption>原有布局</figcaption></figure>', '<figure><img src="/a.png"><figcaption><em>说明格式</em></figcaption></figure>']) {
+    const source = wrap(figure), loaded = loadWikiDocument(editor, source);
+    assert.equal(exportWikiDocument(editor, loaded.context, loaded.metadata), source);
+    assert.equal(editor.state.doc.firstChild?.type.name, 'wikiBlock');
+  }
+});
 const wrap = (body: string, locale = 'zh') => `---\n# 保留 YAML 注释\nschemaVersion: 2\nid: test-document\nlocale: ${locale}\nentityType: editorial-article\ntitle: "测试"\nrelations: []\npresentation: {}\n---\n\n${body}\n`;
 test('new document templates open as empty native documents for every supported type and language',()=>{
  const ids=new Set();

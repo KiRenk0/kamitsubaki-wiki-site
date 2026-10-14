@@ -212,6 +212,7 @@ button, input, textarea { font: inherit; }
 .wiki-prose li[data-type=taskItem] input { accent-color: var(--primary); }
 .wiki-prose p.is-editor-empty:first-child:before, .wiki-prose .is-empty:before { content: attr(data-placeholder); float: left; color: var(--muted-foreground); pointer-events: none; height: 0; font-family: var(--font-sans); font-size: 14px; }
 .wiki-prose .ProseMirror-selectednode { outline: 2px solid var(--primary); outline-offset: 3px; }
+.wiki-prose .node-image.ProseMirror-selectednode { outline: none; }
 .wiki-inline { display: inline; border-radius: 3px; cursor: default; }
 .wiki-inline > span { outline: 0; }
 .wiki-inline ruby rt { font-family: var(--font-sans); font-size: .55em; color: var(--muted-foreground); }
@@ -243,8 +244,8 @@ button, input, textarea { font: inherit; }
 .wiki-lyric-row ruby { margin-right: 2px; }
 .wiki-math { overflow: auto; padding: 8px 0; }
 .wiki-prose .wiki-preserved-source { background: transparent; margin: 0; padding: 8px 0 0; border: 0; max-height: 180px; font: 11px/1.6 ui-monospace, monospace; color: var(--muted-foreground); white-space: pre-wrap; }
-.wiki-article-image { margin: 24px 0; }
-.wiki-article-image img { width: auto; height: auto; max-width: 100%; max-height: 540px; margin: auto; border-radius: var(--radius); }
+.wiki-article-image { position: relative; margin: 24px 0; }
+.wiki-article-image img { width: auto; height: auto; max-width: 100%; margin: auto; border-radius: var(--radius); }
 .wiki-article-image figcaption { display: flex; justify-content: space-between; gap: 12px; font: 12px/1.8 var(--font-sans); color: var(--muted-foreground); padding-top: 8px; }
 .wiki-image-uploading { opacity: .45; }
 .wiki-continue-writing { padding-left: 0; color: var(--muted-foreground); margin-top: 20px; font-size: 12px; }

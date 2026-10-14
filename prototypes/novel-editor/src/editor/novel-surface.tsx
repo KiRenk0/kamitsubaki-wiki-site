@@ -1,5 +1,5 @@
-import { memo, useMemo, useRef } from 'react';
-import { EditorRoot, EditorContent, EditorCommand, EditorCommandEmpty, EditorCommandList, EditorCommandItem, EditorBubble, Command, createSuggestionItems, renderItems, handleCommandNavigation, handleImageDrop, handleImagePaste, createImageUpload, ImageResizer } from 'novel';
+import { memo, useEffect, useMemo, useRef } from 'react';
+import { EditorRoot, EditorContent, EditorCommand, EditorCommandEmpty, EditorCommandList, EditorCommandItem, EditorBubble, Command, createSuggestionItems, renderItems, handleCommandNavigation, handleImageDrop, handleImagePaste, createImageUpload } from 'novel';
 import type { Editor } from '@tiptap/core';
 import { Heading2, Heading3, Type, List, ListOrdered, ListTodo, Quote, Code, Image, Table2, Tv, Music2, Sigma, ChevronRight, EyeOff, GripVertical } from 'lucide-react';
 import { toast } from 'sonner';
@@ -8,11 +8,11 @@ import { loadWikiDocument, type LoadedWikiDocument } from '@/lib/wiki-document';
 import { FormatActions, openInline, openDomain, openImage } from './toolbar';
 import { uploadLocalImage, type NodeEditTarget } from './node-dialog';
 
-export const NovelSurface = memo(function NovelSurface({ source, path, onReady, onUpdate, onTransaction, open }: {
-  source: string; path: string; onReady: (editor: Editor, loaded: LoadedWikiDocument) => void; onUpdate: (editor: Editor) => void; onTransaction: (editor: Editor, docChanged: boolean) => void; open: (target: NodeEditTarget) => void;
+export const NovelSurface = memo(function NovelSurface({ source, path, currentSource, onReady, onUpdate, onTransaction, open }: {
+  source: string; path: string; currentSource: () => string; onReady: (editor: Editor, loaded: LoadedWikiDocument) => void; onUpdate: (editor: Editor) => void; onTransaction: (editor: Editor, docChanged: boolean) => void; open: (target: NodeEditTarget) => void;
 }) {
   const ready = useRef(false);
-  const callbacks = useRef({ onReady, onUpdate, onTransaction, open }); callbacks.current = { onReady, onUpdate, onTransaction, open };
+  const callbacks = useRef({ currentSource, onReady, onUpdate, onTransaction, open }); callbacks.current = { currentSource, onReady, onUpdate, onTransaction, open };
   const onEdit = useMemo<EditNode>(() => (editor, position) => {
     const node = editor.state.doc.nodeAt(position);
     if (!node || !['wikiInline', 'wikiBlock', 'image'].includes(node.type.name)) return;
@@ -34,14 +34,18 @@ export const NovelSurface = memo(function NovelSurface({ source, path, onReady, 
     { title: '代码块', description: '带语言标识的代码', searchTerms: ['code'], icon: <Code />, command: ({ editor, range }) => editor.chain().focus().deleteRange(range).toggleCodeBlock().run() },
   ]), []);
   const extensions = useMemo(() => [...createWikiExtensions(onEdit), Command.configure({ suggestion: { items: () => items, render: renderItems } })], [onEdit, items]);
-  const upload = useMemo(() => createImageUpload({ onUpload: async file => { try { return await uploadLocalImage(file); } catch (error: any) { toast.error(error.message); throw error; } } }), []);
+  const uploadController = useRef<AbortController | null>(null);
+  // Allocate in the effect so React's mount probe never leaves paste/drop with
+  // an already aborted controller. Remounts read the latest saved source.
+  useEffect(() => { const controller = new AbortController(); uploadController.current = controller; return () => { controller.abort(); if (uploadController.current === controller) uploadController.current = null; }; }, []);
+  const upload = useMemo(() => createImageUpload({ onUpload: async file => { try { const controller = uploadController.current; if (!controller) throw new DOMException('当前文档已关闭', 'AbortError'); return await uploadLocalImage(file, controller.signal); } catch (error: any) { if (error.name !== 'AbortError') toast.error(error.message); throw error; } } }), []);
   const instance = useRef<Editor | null>(null);
   return <EditorRoot><EditorContent initialContent={{ type: 'doc', content: [{ type: 'paragraph' }] }} extensions={extensions} className="wiki-novel-surface"
-    onCreate={({ editor }) => { instance.current = editor; try { const loaded = loadWikiDocument(editor, source, path); ready.current = true; callbacks.current.onReady(editor, loaded); } catch (error: any) { toast.error(error.message); } }}
+    onCreate={({ editor }) => { instance.current = editor; try { const loaded = loadWikiDocument(editor, callbacks.current.currentSource() || source, path); ready.current = true; callbacks.current.onReady(editor, loaded); } catch (error: any) { toast.error(error.message); } }}
     onUpdate={({ editor }) => { if (ready.current) callbacks.current.onUpdate(editor); }}
     onTransaction={({ editor, transaction }) => { if (ready.current) callbacks.current.onTransaction(editor, transaction.docChanged); }}
     editorProps={{ attributes: { class: 'wiki-prose', role: 'textbox', 'aria-multiline': 'true', 'aria-label': '词条正文', 'data-testid': 'novel-editor' }, handleDOMEvents: { keydown: (_view, event) => handleCommandNavigation(event) }, handlePaste: (view, event) => handleImagePaste(view, event, upload), handleDrop: (view, event, _slice, moved) => handleImageDrop(view, event, moved, upload) }}
-    slotAfter={<ImageResizer />}>
+    >
     <EditorCommand className="wiki-slash-menu"><EditorCommandEmpty>没有匹配的内容</EditorCommandEmpty><EditorCommandList>{items.map(item => <EditorCommandItem key={item.title} value={item.title} onCommand={props => item.command?.(props)} className="wiki-slash-item"><span className="wiki-slash-icon">{item.icon}</span><span><strong>{item.title}</strong><small>{item.description}</small></span></EditorCommandItem>)}</EditorCommandList></EditorCommand>
     <EditorBubble className="wiki-bubble-menu" tippyOptions={{ duration: 120 }}>
       {instance.current ? <FormatActions editor={instance.current} open={target => callbacks.current.open(target)} /> : null}

@@ -1,6 +1,6 @@
 import { parseVisualBlocks } from '../../../../src/lib/visualEditor.mjs';
 import MarkdownIt from 'markdown-it';
-export type ReviewAttachment = { url: string; originalUrl?: string; alt: string; source: string };
+export type ReviewAttachment = { url: string; originalUrl?: string; alt: string; source: string; staged?: { purpose: 'entry' | 'article'; id: string; ownerId: string; size: number; mime: string; source?: string; alt?: string; image?: import('./article-document').ArticleImage } };
 const markdown = new MarkdownIt({ html: true });
 export function reviewAttachments(content: string, blocks: any[], ledger: ReviewAttachment[] = [], metadata: Record<string, any> = {}): ReviewAttachment[] {
   const images = new Map<string, ReviewAttachment>();
@@ -26,7 +26,7 @@ export function canAdoptSubmission(current: string, submitted: string | undefine
 }
 export async function prepareReviewImage(asset: ReviewAttachment, source: string, request: typeof fetch) {
   const original = asset.originalUrl || asset.url;
-  if (!/^\/images\/novel-prototype\/[a-f0-9]{64}\.(png|jpg|webp|gif)$/.test(original)) throw Error('这张图片缺少本机原图，请返回正文重新选择图片。');
+  if (!/^\/images\/novel-prototype\/[a-f0-9]{64}\.(png|jpg|webp|gif)$/.test(original) && !(asset.staged?.purpose === 'entry' && /^\/images\/contributions\/[a-f0-9]{64}\.(png|jpg|webp)$/.test(original))) throw Error('这张图片缺少可读取的原图，请返回正文重新选择图片。');
   if (!source.trim() || source.length > 2048 || /[\u0000-\u001f\u007f]/.test(source)) throw Error('请为每张图片填写一行来源链接或授权说明。');
   if (original.endsWith('.gif')) throw Error('GIF 目前只支持本地预览。投稿时请返回正文，改用 PNG、JPEG 或 WebP 图片。');
   let response: Response;

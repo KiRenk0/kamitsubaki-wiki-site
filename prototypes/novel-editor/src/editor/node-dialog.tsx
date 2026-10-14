@@ -1,6 +1,6 @@
-import { useContext, useEffect, useRef, useState } from 'react';
+import { lazy, Suspense, useContext, useEffect, useRef, useState } from 'react';
 import type { Editor } from '@tiptap/core';
-import { Plus, Trash2, Upload, AlertCircle, Clock, ArrowUp, ArrowDown } from 'lucide-react';
+import { Plus, Trash2, AlertCircle, Clock, ArrowUp, ArrowDown } from 'lucide-react';
 import { toast } from 'sonner';
 import { Button } from '@/components/ui/button';
 import { FieldGroup, Field, FieldLabel } from '@/components/ui/field';
@@ -20,15 +20,18 @@ import { validLyricsTiming, parseLyricsBatch, formatLyricTimestamp } from '../..
 import { editAnchorSignature, storeNodeEdit, type StoredNodeEdit } from '@/lib/node-edit-draft';
 import { blockWithoutEffect, inlineWithoutEffect, removeInlineEffect, removeBlockEffect } from '@/lib/wiki-effects';
 import { closeHistory } from '@tiptap/pm/history';
+const ImageUploader = lazy(() => import('@/components/image-uploader').then(module => ({default: module.ImageUploader})));
+import { ImageUploadContext } from '@/lib/image-upload-context';
+import type { ArticleImage } from '@/lib/article-document';
+import { uploadGalleryFiles } from '../../../../src/lib/galleryUploadQueue.mjs';
 
 export type NodeEditTarget = { editor: Editor; type: 'wikiInline' | 'wikiBlock' | 'image' | 'link'; attrs: any; draftAttrs?: any; position?: number; range: { from: number; to: number } };
 const providers: [string, string][] = [['youtube', 'YouTube'], ['bilibili', 'Bilibili'], ['spotify', 'Spotify'], ['apple-music', 'Apple Music'], ['netease', '网易云音乐'], ['qq-music', 'QQ 音乐']];
-export async function uploadLocalImage(file: File) {
-  if (file.size > 10_000_000) throw new Error('图片不能超过 10 MB');
-  const response = await fetch('/__novel/assets', { method: 'POST', body: file, headers: { 'Content-Type': file.type } });
-  const result = await response.json();
-  if (!response.ok) throw new Error(result.error || '图片保存失败');
-  return result.url as string;
+export async function uploadLocalImage(file: File, signal?: AbortSignal) {
+  const [result] = await uploadGalleryFiles([{ id: crypto.randomUUID(), file, metadata: {}, url: '/__novel/assets' }], {signal});
+  if (result?.error) throw result.error;
+  if (!result?.response?.url) throw Error('图片保存回执不完整，请重试。');
+  return result.response.url as string;
 }
 function InlineFields({ attrs, setAttrs }: { attrs: any; setAttrs: (attrs: any) => void }) {
   if (attrs.kind === 'wiki-link') return <FieldGroup><EntityPicker label="关联词条" value={attrs.args[0] || ''} onChange={id => setAttrs({ ...attrs, args: [id, attrs.args[1] || ''], source: '', syntax: 'wiki-link' })} /><TextField label="显示文字（可选）" value={attrs.args[1] || ''} onChange={label => setAttrs({ ...attrs, args: [attrs.args[0], label], source: '' })} description="留空会显示词条名称。" /></FieldGroup>;
@@ -91,6 +94,7 @@ function DomainFields({ attrs, setAttrs, onNestedPending, locale }: { attrs: any
 // modal, focus trap, backdrop, or close-on-outside-click behavior.
 export function NodeEditor({ target, onClose, locale, onDirty, onDraft }: { target: NodeEditTarget | null; onClose: () => void; locale: string; onDirty?: (dirty: boolean) => void; onDraft?: (draft: StoredNodeEdit | null) => void }) {
   const catalog = useContext(CatalogContext);
+  const imageScope = useContext(ImageUploadContext);
   const resolveTitle = (id: string) => (catalog.entries.find(entry => entry.id === id && entry.locale === locale) || catalog.entries.find(entry => entry.id === id))?.title;
   const [lastTarget, setLastTarget] = useState(target);
   const [attrs, setAttrs] = useState<any>(() => target ? structuredClone(target.draftAttrs || target.attrs) : null);
@@ -144,6 +148,7 @@ export function NodeEditor({ target, onClose, locale, onDirty, onDraft }: { targ
     const count = target.type === 'wikiInline' ? inlineLabels[attrs.kind] ? ({ ruby: 3, abbr: 2, time: 2, 'zh-variant': 3, 'wiki-link': 2 } as Record<string, number>)[attrs.kind] || 1 : attrs.args.length : 0;
     const nextAttrs = structuredClone(attrs);
     delete nextAttrs.pendingNested;
+    delete nextAttrs.imageSource; delete nextAttrs.imageNotes;
     if (target.type === 'wikiInline') nextAttrs.args = attrs.args.slice(0, count).filter((arg: string, index: number) => attrs.kind !== 'ruby' || index < 2 || arg);
     if (target.type === 'wikiInline' && !attrs.args[0]?.trim()) return setError('请填写文字或公式。');
     if (target.type === 'wikiInline' && inlineLabels[attrs.kind] && !['math', 'wiki-link'].includes(attrs.kind) && nextAttrs.args.some((arg: string) => /[{}\r\n]/.test(arg))) return setError('特殊格式的文字不能包含大括号或换行，请改用正文。');
@@ -168,6 +173,10 @@ export function NodeEditor({ target, onClose, locale, onDirty, onDraft }: { targ
       if (!node || node.type.name !== target.type) return setError('该内容的位置已改变，请重新选择。');
       target.editor.chain().focus().command(({ tr }) => { tr.setNodeMarkup(position!, undefined, { ...node.attrs, ...nextAttrs }); return true; }).run();
     } else target.editor.chain().focus().insertContentAt(range, { type: target.type, attrs: nextAttrs, ...(target.type === 'wikiInline' ? { marks: target.editor.state.doc.resolve(range.from).marks().map(mark => mark.toJSON()) } : {}) }).run();
+    if (target.type === 'image') {
+      const saved = imageScope?.lookup(attrs.src).attachment;
+      if (saved) imageScope?.remember({ ...saved, alt: attrs.alt || '', source: attrs.imageSource ?? saved.source, ...(saved.staged ? { staged: { ...saved.staged, ...(saved.staged.purpose === 'article' ? { image: { ...(attrs.imageNotes || saved.staged.image), assetId: saved.staged.id, alt: attrs.alt || '', caption: attrs.caption || '' } } : {}) } } : {}) });
+    }
     onClose();
   };
   const removeEffect = () => {
@@ -206,12 +215,21 @@ export function NodeEditor({ target, onClose, locale, onDirty, onDraft }: { targ
     <div className="wiki-node-editor-fields" key={target?.range.from + '-' + target?.type + '-' + target?.position}>{attrs && target ? target.type === 'wikiInline' ? <InlineFields attrs={attrs} setAttrs={setAttrs} /> : target.type === 'wikiBlock' ? <DomainFields attrs={attrs} setAttrs={setAttrs} onNestedPending={setNestedPending} locale={locale} /> : target.type === 'image' ? <FieldGroup>
       <details><summary className="wiki-link-picker-heading">从站内素材选择</summary><EntrySearch imagesOnly onSelect={entry => setAttrs({ ...attrs, src: entry.image || '', alt: entry.title, caption: '站内词条：' + entry.title })} /></details>
       <TextField label="图片地址" value={attrs.src || ''} onChange={src => setAttrs({ ...attrs, src })} />
-      <Field><FieldLabel htmlFor="local-image-upload">上传本地图片</FieldLabel><input id="local-image-upload" className="wiki-file-input" type="file" accept="image/png,image/jpeg,image/webp,image/gif" disabled={uploading} onChange={async event => { const file = event.target.files?.[0]; if (!file) return; setUploading(true); try { const url = await uploadLocalImage(file); if (activeTarget.current !== target) return; setAttrs((current: any) => ({ ...current, src: url })); toast.success('图片已保存到本地原型'); } catch (error: any) { if (activeTarget.current === target) setError(error.message); } finally { if (activeTarget.current === target) setUploading(false); } }} /></Field>
       {safeUrl(attrs.src) ? <img className="wiki-dialog-image-preview" src={attrs.src} alt={attrs.alt || '所选图片预览'} /> : null}
-      <TextField label="替代文字" value={attrs.alt || ''} onChange={alt => setAttrs({ ...attrs, alt })} />
-      <TextField label="来源与说明" value={attrs.caption || ''} onChange={caption => setAttrs({ ...attrs, caption })} multiline />
+      <TextField label="图片内容描述" value={attrs.alt || ''} onChange={alt => setAttrs({ ...attrs, alt })} description="图片无法加载时显示，也帮助使用屏幕阅读器的人理解图片。" />
+      <TextField label="图片下方的说明（可选）" value={attrs.caption || ''} onChange={caption => setAttrs({ ...attrs, caption })} multiline description="会显示在正文中；来源和授权信息在下面单独填写。" />
+      {attrs.width ? <Button variant="outline" onClick={() => setAttrs({ ...attrs, width: null, height: null })}>恢复图片原始大小</Button> : null}
+      <ImageSourceFields attrs={attrs} setAttrs={setAttrs} />
+      {imageScope ? <Suspense fallback={<p role="status">正在准备上传界面…</p>}><ImageUploader key={target.range.from + ':' + target.type} source={attrs.imageSource ?? imageScope.lookup(attrs.src).attachment?.source ?? ''} image={{ author: '', sourceTitle: '', sourceUrl: '', rightsBasis: '', rightsEvidence: '', ...(imageScope.lookup(attrs.src).image || {}), ...(attrs.imageNotes || {}), alt: attrs.alt || '', caption: attrs.caption || '' }} dark={document.documentElement.classList.contains('dark')} onBusy={setUploading} onUploaded={asset => { if (activeTarget.current !== target) return; setAttrs((current: any) => ({ ...current, src: asset.url, width: null, height: null, imageSource: current.imageSource ?? asset.source, imageNotes: current.imageNotes ?? asset.staged?.image })); toast.success('图片已私有暂存，点击完成编辑插入正文'); }} /></Suspense> : null}
     </FieldGroup> : <FieldGroup><details><summary className="wiki-link-picker-heading">选择 Wiki 词条链接</summary><EntrySearch onSelect={entry => { if (entry.url) setAttrs({ ...attrs, href: entry.url, text: entry.title }); else setError('这个旧词条暂时没有可用的阅读链接。'); }} /></details><TextField label="链接地址" value={attrs.href || ''} onChange={href => setAttrs({ ...attrs, href })} /><TextField label="显示文字" value={attrs.text || ''} onChange={text => setAttrs({ ...attrs, text })} /></FieldGroup> : null}</div>
     {error ? <Alert variant="destructive"><AlertCircle /><AlertDescription>{error}</AlertDescription></Alert> : null}
     {nestedPending ? <p role="status">请先完成说明内的内容编辑。</p> : null}{removeLabel ? <p className="wiki-node-editor-help">取消效果会保留已填写的正文，可通过撤销恢复。</p> : null}<Separator /><footer className="wiki-node-editor-actions">{removeLabel ? <Button variant="ghost" className="mr-auto" disabled={uploading || nestedPending} onClick={removeEffect}>{removeLabel}</Button> : null}<Button variant="outline" onClick={onClose}>取消编辑</Button><Button disabled={uploading || nestedPending} onClick={save}>{uploading ? '正在保存图片…' : '完成编辑'}</Button></footer>
   </section>;
+}
+function ImageSourceFields({ attrs, setAttrs }: { attrs: any; setAttrs: (attrs: any) => void }) {
+  const scope = useContext(ImageUploadContext);
+  if (scope?.purpose !== 'article') return <TextField label="图片来源链接或授权说明" value={attrs.imageSource ?? scope?.lookup(attrs.src).attachment?.source ?? ''} onChange={imageSource => setAttrs({ ...attrs, imageSource })} description="例如官方发布页面链接，或“本人创作”。词条上传前需要填写，供审核核对。" />;
+  const image: ArticleImage = { author: '', sourceTitle: '', sourceUrl: '', rightsBasis: '', rightsEvidence: '', ...(scope.lookup(attrs.src).image || {}), ...(attrs.imageNotes || {}), alt: attrs.alt || '', caption: attrs.caption || '' };
+  const change = (patch: Partial<ArticleImage>) => setAttrs({ ...attrs, imageNotes: { ...image, ...patch } });
+  return <FieldGroup><TextField label="图片作者" value={image.author} onChange={author => change({ author })} description="填写创作者或发布机构的名称。" /><TextField label="来源名称" value={image.sourceTitle} onChange={sourceTitle => change({ sourceTitle })} placeholder="例如官方公告、本人摄影" /><TextField label="原始来源链接" value={image.sourceUrl} onChange={sourceUrl => change({ sourceUrl })} placeholder="https://…" /><ChoiceField label="图片使用依据" value={image.rightsBasis} onChange={rightsBasis => change({ rightsBasis })} options={[["", "请选择"], ["official", "官方发布素材"], ["original", "本人原创"], ["authorized", "已获得授权"]]} />{image.rightsBasis === 'authorized' ? <TextField label="授权说明" value={image.rightsEvidence} onChange={rightsEvidence => change({ rightsEvidence })} multiline description="说明授权人和允许使用的范围，供审核核对。" /> : null}<p className="wiki-node-editor-help">可先上传保存草稿，提交文章审核前需要补齐这些信息。</p></FieldGroup>;
 }

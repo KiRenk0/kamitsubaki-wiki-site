@@ -17,7 +17,7 @@ pnpm dev:novel
 ## 可操作范围
 
 - 搜索并读取仓库中的中文、日文、英文词条，导入或导出 Markdown。新建时直接选择文章、虚拟艺人、人物、组合、音乐同位体、歌曲、唱片、演出、企划、组织或设定，并看到用途说明；支持简体中文、日文、英文，创建后直接填写标题。
-- Novel 斜杠命令、选区气泡菜单、段落样式、列表、任务、链接、表格、图片、块拖拽及原生撤销。
+- Novel 斜杠命令、选区气泡菜单、段落样式、列表、任务、链接、表格、图片、块拖拽及原生撤销。图片缩放复用 Moveable，绑定当前图片节点；尺寸、配文和内容描述可保存、重开、撤销。
 - Wiki 注音与罗马字、剧透、缩写、按键、日期、中文变体、数学公式、折叠说明、平台媒体及媒体切换。
 - 歌词支持逐字原文、振假名、罗马字、译文和递增时间戳；已有歌词 HTML 保留原格式。
 - 元数据按基本资料、类型专属资料、关系与来源、展示与收录分组，提供中文用途说明、例子和必填提示。所属组织日期显示为加入 / 离开日期，可选日期、链接和词条关联清空时按原有 schema 保存。属性栏支持拖宽和键盘调整，窄屏使用全宽表单。
@@ -26,6 +26,8 @@ pnpm dev:novel
 - 块拖拽沿用 Novel / ProseMirror 的原生移动与撤销，用 Atlassian Pragmatic auto-scroll 处理写作区边缘连续滚动，不接管原生 drop。
 - 自动保存到本地浏览器；刷新恢复最近词条、未应用的源码修改及未完成的特殊内容填写。草稿使用独立 `kamitsubaki-novel-local-prototype:v1:` 命名空间。
 - 本机审核检查页复用现有词条 API，支持中文属性差异、阅读效果检查、服务端草稿版本保护、同一投稿更新、撤回、状态读取与假账号隔离。正文源码差异作为可选检查展开。中断时保存完整提交请求，用同一个提交编号恢复；每次写入前核对服务为本地模式。
+
+选图、缩略图、进度、取消及重试复用 Uppy Dashboard，运输层直接共用本站 `galleryUploadQueue.mjs`。词条上传使用现有 `/api/editor/assets`，文章上传使用现有 `/api/articles/assets`，均为本地私有暂存；上传成功后完成编辑即可插入。图片内容描述、正文配文与来源分开填写；文章作者、来源名称与使用依据直接在图片旁填写，检查页沿用这些资料。词条大图继续复用站内 WebP 副本处理，原始文件保持不变。旧的本机图片 URL 和 JSON 附件调用继续兼容；粘贴与拖入沿用 Novel 的入口，使用同一个 Uppy 队列保存本机副本，投稿时再接入既有附件链路。
 
 个人文章检查页复用现有文章 API，支持账号草稿、图片说明、提交审核、退回补充、撤回、创建修改稿和历史记录。账号草稿使用版本与正文指纹保护，连接中断后恢复同一次保存；恢复结果不会覆盖之后的新写作。新图片随草稿私有暂存，暂存后仍可补充来源；重复使用同一张图片沿用已有登记。审核通过后可在原位查看当前公开正文，使用真实公开副本及图片路径。上述审核与公开结果均限于本机测试数据库。
 
@@ -73,5 +75,8 @@ pnpm --dir prototypes/novel-editor check:corpus --json /tmp/novel-corpus-check.j
 - [daisyUI](https://github.com/saadeghi/daisyui)：MIT，沿用本站限定作用域及控件 tokens。
 - [node-diff3](https://github.com/bhousel/node-diff3)：MIT，使用经过本地测试的 3.1.2 完整发布包处理三方合并。
 - [Pragmatic drag and drop](https://github.com/atlassian/pragmatic-drag-and-drop)：Apache-2.0，仅用于拖拽期间的写作区自动滚动。
+- [Uppy](https://github.com/transloadit/uppy)：MIT，共用站内队列和 XHRUpload，使用 Dashboard 展示完整上传交互。
+- [Moveable](https://github.com/daybrush/moveable)：MIT，直接绑定原生图片，处理比例缩放与控件定位。
+- [react-textarea-autosize](https://github.com/Andarist/react-textarea-autosize)：MIT，标题随内容及窗口宽度自动换行伸缩，使用 8.5.9。
 
 当前重构与验证状态见 [第一轮验证记录](../../qa/2026-10-13-novel-editor/README.md)。记录明确区分自动检查、浏览器实测和待验收项目。
