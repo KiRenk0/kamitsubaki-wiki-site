@@ -7,7 +7,7 @@ import '../../../../styles/community.css';
 export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
 const locale=Astro.params.locale||'zh',c=communityCopy(locale),api=import.meta.env.PUBLIC_COMMUNITY_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
 ---
-<WorkspaceLayout locale={locale} title={c.series} intro={c.intro} path="/community/series/read/" width="wide" noindex mainAttributes={{class:'community-page','data-community-document':'series','data-locale':locale,'data-api':api,'data-copy':JSON.stringify(c)}}>
+<WorkspaceLayout locale={locale} title={c.series} intro="" path="/community/series/read/" width="wide" noindex mainAttributes={{class:'community-page','data-community-document':'series','data-locale':locale,'data-api':api,'data-copy':JSON.stringify(c)}}>
  <div class="community-actions" slot="actions"><WorkspaceButton href={`/${locale}/community/activities/`}>{c.back}</WorkspaceButton><WorkspaceButton href={`/${locale}/community/activities/apply/`}>{c.apply}</WorkspaceButton></div>
  <section data-community-content><p data-community-document-status role="status">{c.loading}</p></section>
 </WorkspaceLayout>
