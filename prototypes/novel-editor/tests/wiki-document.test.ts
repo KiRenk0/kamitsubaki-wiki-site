@@ -4,7 +4,8 @@ import { JSDOM } from 'jsdom';
 import { Editor } from '@tiptap/core';
 import { undoNoScroll, redoNoScroll } from '@tiptap/pm/history';
 import { createWikiExtensions, renderNestedMarkdown } from '../src/editor/extensions';
-import { loadWikiDocument, exportWikiDocument, validateDocumentSource } from '../src/lib/wiki-document';
+import { loadWikiDocument, exportWikiDocument, validateDocumentSource,newDocumentSource } from '../src/lib/wiki-document';
+import {documentTemplates} from '../src/lib/document-templates';
 import { compatibilityCases } from '../../../scripts/lib/tiptapCompatibility.mjs';
 import { readFile } from 'node:fs/promises';
 import { parseDocument } from 'yaml';
@@ -16,6 +17,16 @@ for (const key of ['window', 'document', 'navigator', 'HTMLElement', 'Element', 
 const editor = new Editor({ element: dom.window.document.querySelector('#editor')!, extensions: createWikiExtensions(undefined, false), content: '' });
 after(() => { editor.destroy(); dom.window.close(); });
 const wrap = (body: string, locale = 'zh') => `---\n# 保留 YAML 注释\nschemaVersion: 2\nid: test-document\nlocale: ${locale}\nentityType: editorial-article\ntitle: "测试"\nrelations: []\npresentation: {}\n---\n\n${body}\n`;
+test('new document templates open as empty native documents for every supported type and language',()=>{
+ const ids=new Set();
+ for(const locale of ['zh','ja','en'])for(const template of documentTemplates){
+  const source=newDocumentSource(locale,template.type),loaded=loadWikiDocument(editor,source);
+  assert.equal(loaded.metadata.entityType,template.type);assert.equal(loaded.metadata.locale,locale);assert.equal((loaded.metadata.name??loaded.metadata.title),'');assert.equal(loaded.context.body.trim(),'');
+  assert.ok(loaded.metadata.id.startsWith('local-'));assert.ok(!ids.has(loaded.metadata.id));ids.add(loaded.metadata.id);
+  assert.equal(exportWikiDocument(editor,loaded.context,loaded.metadata),source);
+ }
+ assert.throws(()=>newDocumentSource('zh-tw'),/简体中文/);assert.throws(()=>newDocumentSource('zh','unknown' as any),/词条类型/);
+});
 test('unsupported generated source languages and malformed imports explain how to recover', () => {
   for (const locale of ['zh-tw', 'zh-hk']) assert.throws(() => validateDocumentSource(wrap('原文', locale)), /繁体页面由简体原文自动生成/);
   assert.throws(() => validateDocumentSource('没有词条属性'), /文件开头需要有完整的词条属性/);

@@ -2,7 +2,9 @@ import { generateJSON, type Editor, type JSONContent } from '@tiptap/core';
 import type { Node as ProseMirrorNode } from '@tiptap/pm/model';
 import { closeHistory, isHistoryTransaction } from '@tiptap/pm/history';
 import { parseDocument } from 'yaml';
-import { importMarkdown as importLegacyDocument, blockMarkdown, newBlock } from '../../../../src/lib/visualEditor.mjs';
+import { importMarkdown as importLegacyDocument, blockMarkdown, newBlock, newDraft } from '../../../../src/lib/visualEditor.mjs';
+import { collectionByType } from '../../../../src/lib/contentLayout.mjs';
+import { documentTemplates, type DocumentTemplateType } from './document-templates';
 import { metadataForSave } from './metadata-output';
 
 export type WikiMetadata = Record<string, any>;
@@ -198,6 +200,15 @@ export function createDomainBlock(type: string): WikiBlockData {
   return block;
 }
 
-export function newDocumentSource(locale = 'zh') {
-  return `---\nschemaVersion: 2\nid: local-${crypto.randomUUID()}\nlocale: ${locale}\nentityType: editorial-article\ntitle: ""\narticleCategory: archival\nauthor: ""\npublishDate: ""\nrelatedEntities: []\nrelations: []\npresentation: {}\n---\n\n`;
+export function newDocumentSource(locale = 'zh', type: DocumentTemplateType = 'editorial-article') {
+  if (!['zh', 'ja', 'en'].includes(locale)) throw new Error('请选择简体中文、日文或英文。');
+  if (!documentTemplates.some(template => template.type === type)) throw new Error('请选择有效的词条类型。');
+  const metadata = {
+    ...newDraft((collectionByType as Record<string, string>)[type], locale).meta,
+    id: 'local-' + crypto.randomUUID(),
+    entityType: type,
+  };
+  const document = parseDocument('');
+  for (const [key, value] of Object.entries(metadata)) document.set(key, value);
+  return `---\n${document.toString({ lineWidth: 0 }).trimEnd()}\n---\n\n`;
 }

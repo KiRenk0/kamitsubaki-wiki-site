@@ -11,6 +11,8 @@ import { TooltipProvider } from '@/components/ui/tooltip';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import { LibrarySidebar, collectionLabels } from '@/components/library-sidebar';
 import { PropertiesPanel, type OutlineItem } from '@/components/properties-panel';
+import {NewDocumentDialog} from '@/components/new-document-dialog';
+import type {DocumentTemplateType} from '@/lib/document-templates';
 import { CatalogContext } from '@/components/entity-picker';
 import { WorkspaceSidebar, type ResourceItem } from '@/components/workspace-sidebar';
 import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuSeparator } from '@/components/ui/dropdown-menu';
@@ -57,6 +59,14 @@ export default function App() {
   const writingScroll = useRef<HTMLDivElement>(null);
   const propertiesScroll = useRef<HTMLDivElement>(null);
   const [editor, setEditor] = useState<Editor | null>(null);
+  const titleInput = useRef<HTMLInputElement>(null);
+  const focusNewTitle = useRef(false);
+  useEffect(() => {
+    if (editor && focusNewTitle.current) {
+      focusNewTitle.current = false;
+      titleInput.current?.focus({ preventScroll: true });
+    }
+  }, [editor]);
   useEffect(() => {
     writingScroll.current?.scrollTo({ top: 0 });
     // ResizablePanel's elementRef points to its outer sizing element; the
@@ -122,6 +132,7 @@ export default function App() {
   const [outline, setOutline] = useState<OutlineItem[]>([]);
   const [, updateToolbar] = useState(0);
   const [draftsOpen, setDraftsOpen] = useState(false);
+  const [newDocumentOpen,setNewDocumentOpen]=useState(false);
   const [drafts, setDrafts] = useState<LocalDraft[]>([]);
   const timer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
   const loadSequence = useRef(0);
@@ -178,12 +189,16 @@ export default function App() {
     });
   }, [persist, refreshOutline]);
   const replaceDocument = useCallback((next: DocumentRecord) => {
-    if (targetDirty.current) { toast.info('请先完成或取消当前内容编辑，再切换文档。'); return; }
-    if (contextRef.current && !persist()) { toast.error('当前草稿尚未保存，请先导出备份再切换。'); return; }
+    if (targetDirty.current) { toast.info('请先完成或取消当前内容编辑，再切换文档。'); return false; }
+    if (contextRef.current && !persist()) { toast.error('当前草稿尚未保存，请先导出备份再切换。'); return false; }
+    if (window.location.hash) {
+      window.history.replaceState(window.history.state, '', window.location.pathname + window.location.search);
+    }
     clearTimeout(timer.current); contextRef.current = null; editorRef.current = null;
     pendingRef.current = next.pendingSource; pendingNode.current = next.pendingNode; setPending(Boolean(next.pendingSource)); setSourceValue(next.pendingSource || next.source);
     setEditor(null); setTarget(null); setOutline([]); setActiveOutline(null); setMetadata({}); setReview(null); setArticleReview(null); setRecord(next); recordRef.current = next;
     setRevision(value => value + 1); setView(next.pendingSource ? 'source' : 'edit'); setMobileLibrary(false); setNavigationOpen(false); setOpening(false); setStatus('正在打开词条…'); setLoadError('');
+    return true;
   }, [persist]);
   const openEntry = useCallback(async (entry: CatalogEntry) => {
     const sequence = ++loadSequence.current; setOpening(true);
@@ -234,7 +249,15 @@ export default function App() {
       if (element instanceof HTMLElement && scroll instanceof HTMLElement) scroll.scrollTo({ top: scroll.scrollTop + element.getBoundingClientRect().top - scroll.getBoundingClientRect().top - 24 });
     }); };
   const openDemo = useCallback(() => { ++loadSequence.current; const draft = readLocalDraft('demo'); replaceDocument(draft ? { key: 'demo', path: '', source: draft.source, pendingSource: draft.pendingSource, pendingNode: draft.pendingNode } : { key: 'demo', path: '', source: demoSource }); }, [replaceDocument]);
-  const newDocument = useCallback(() => { ++loadSequence.current; replaceDocument({ key: crypto.randomUUID(), path: '', source: newDocumentSource() }); }, [replaceDocument]);
+  const newDocument = () => {if(targetDirty.current){toast.info('请先完成或取消当前内容编辑，再新建词条。');return;}setMobileLibrary(false);setNavigationOpen(false);setNewDocumentOpen(true);};
+  const createDocument = (type: DocumentTemplateType, locale: string) => {
+    ++loadSequence.current;
+    if (replaceDocument({ key: crypto.randomUUID(), path: '', source: newDocumentSource(locale, type) })) {
+      focusNewTitle.current = true;
+      setNewDocumentOpen(false);
+      setShowProperties(true);
+    }
+  };
   const openDrafts = () => { persist(); try { setDrafts(listLocalDrafts()); setDraftsOpen(true); } catch { toast.error('浏览器禁止访问本地草稿'); } };
   const sidebar = <LibrarySidebar catalog={catalog} loading={catalogLoading} search={search} onSearch={setSearch} selectedPath={record.path} selectedKey={record.key} onSelect={openEntry} onDemo={openDemo} onNew={newDocument} onImport={() => fileInput.current?.click()} onDrafts={openDrafts} locale={catalogLocale} onLocale={setCatalogLocale} />;
   const navigator = <WorkspaceSidebar editor={editor} outline={outline} resources={resources} onNavigate={onNavigate} onBrowse={() => { setNavigationOpen(false); setMobileLibrary(true); }} onNew={newDocument} onDrafts={openDrafts} onReveal={() => { setView('edit'); setNavigationOpen(false); }} activePosition={activeOutline} version={contentVersion} />;
@@ -353,7 +376,7 @@ export default function App() {
             setActiveOutline(position);
           });
         }}><div className="wiki-article-canvas">
-          <input className="wiki-article-title" aria-label="词条标题" placeholder="未命名词条" value={title} onChange={event => changeMetadata({ ...metadata, [metadata.name !== undefined ? 'name' : 'title']: event.target.value })} />
+          <input ref={titleInput} className="wiki-article-title" aria-label="词条标题" placeholder="未命名词条" value={title} onChange={event => changeMetadata({ ...metadata, [metadata.name !== undefined ? 'name' : 'title']: event.target.value })} />
           {metadata.romanizedName || metadata.romanizedTitle ? <p className="wiki-article-romanized">{metadata.romanizedName || metadata.romanizedTitle}</p> : null}
           <NovelSurface key={record.key + ':' + revision} source={record.source} path={record.path} onReady={ready} onUpdate={documentUpdated} onTransaction={refreshOutline} open={openTarget} />
           <Button variant="ghost" className="wiki-continue-writing" onClick={() => { if (editor) editor.chain().focus().insertContentAt(editor.state.doc.content.size, { type: 'paragraph' }).run(); }}>输入 / 插入内容</Button>
@@ -368,7 +391,8 @@ export default function App() {
     <Sheet open={mobileLibrary} onOpenChange={setMobileLibrary}><SheetContent side="left" className="wiki-library-sheet"><SheetHeader className="sr-only"><SheetTitle>词条库</SheetTitle></SheetHeader>{sidebar}</SheetContent></Sheet>
     <Sheet open={mobileProperties} onOpenChange={setMobileProperties}><SheetContent side="right" showCloseButton={false} className="wiki-properties-sheet"><SheetHeader className="sr-only"><SheetTitle>词条属性</SheetTitle></SheetHeader>{properties}</SheetContent></Sheet>
     {nodeEditorHost && nodeEditor ? createPortal(nodeEditor, nodeEditorHost) : null}
-    <Dialog open={draftsOpen} onOpenChange={setDraftsOpen}><DialogContent><DialogHeader><DialogTitle>本地草稿</DialogTitle><DialogDescription>这些草稿保存在当前浏览器中，可继续编辑或导出。</DialogDescription></DialogHeader><div className="wiki-draft-list">{drafts.length ? drafts.map(draft => <Button variant="ghost" className="wiki-draft-row" key={draft.key} onClick={() => { replaceDocument({ key: draft.key, path: draft.path, source: draft.source, baseSource: draft.baseSource, create: draft.create, attachments: draft.attachments, resolution: draft.resolution, article: draft.article, pendingSource: draft.pendingSource, pendingNode: draft.pendingNode }); setDraftsOpen(false); }}><FileText data-icon="inline-start" /><span><strong>{draft.title}</strong><small>{new Date(draft.savedAt).toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' })}</small></span></Button>) : <p>还没有本地草稿。</p>}</div></DialogContent></Dialog>
+    {newDocumentOpen?<NewDocumentDialog open onOpenChange={setNewDocumentOpen} initialLocale={metadata.locale||'zh'} onCreate={createDocument}/>:null}
+    <Dialog open={draftsOpen} onOpenChange={setDraftsOpen}><DialogContent><DialogHeader><DialogTitle>本地草稿</DialogTitle><DialogDescription>这些草稿保存在当前浏览器中，可继续编辑或导出。</DialogDescription></DialogHeader><div className="wiki-draft-list">{drafts.length ? drafts.map(draft => <Button variant="ghost" className="wiki-draft-row" key={draft.key} onClick={() => { if (replaceDocument({ key: draft.key, path: draft.path, source: draft.source, baseSource: draft.baseSource, create: draft.create, attachments: draft.attachments, resolution: draft.resolution, article: draft.article, pendingSource: draft.pendingSource, pendingNode: draft.pendingNode })) setDraftsOpen(false); }}><FileText data-icon="inline-start" /><span><strong>{draft.title}</strong><small>{new Date(draft.savedAt).toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' })}</small></span></Button>) : <p>还没有本地草稿。</p>}</div></DialogContent></Dialog>
     <input ref={fileInput} type="file" accept=".md,.markdown,text/markdown" className="hidden" aria-label="导入 Markdown 文件" onChange={async event => { const input = event.currentTarget; const file = input.files?.[0]; if (!file) return; try { if (file.size > 1_000_000) throw new Error('Markdown 文件不能超过 1 MB'); const sequence = ++loadSequence.current; const source = await file.text(); if (sequence !== loadSequence.current) return; validateDocumentSource(source); replaceDocument({ key: 'import:' + crypto.randomUUID(), path: '', source }); } catch (error: any) { toast.error(error.message); } input.value = ''; }} />
     <Toaster richColors theme={dark ? 'dark' : 'light'} />
   </div></TooltipProvider></CatalogContext.Provider>;
