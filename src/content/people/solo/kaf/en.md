@@ -392,3 +392,9 @@ KAF sits at the intersection of several major Kamitsubaki lines. As a V.W.P memb
 - [TikTok](https://www.tiktok.com/@virtual_kaf?lang=ja-JP)
 
 <!-- V3 RESEARCH SUPPLEMENT kaf -->
+
+
+## 2026 Live and Exhibition Updates
+
+- **March 1**: Held her 5th ONE-MAN LIVE 「宿声 / 深愛」 at Yokohama PIA ARENA MM. ([Official event](https://yokohamawars2026.kamitsubaki.jp/kaf))
+- **September 6**: Held her 5th ONE-MAN LIVE 「宿声 / 深愛（巡）」 at Pacifico Yokohama. ([Official schedule](https://kaf.kamitsubaki.jp/schedule/))

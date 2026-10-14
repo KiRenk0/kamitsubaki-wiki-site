@@ -385,3 +385,9 @@ summary: "“観測”を核に、バーチャルとリアルの舞台を横断�
 - [TikTok](https://www.tiktok.com/@virtual_kaf?lang=ja-JP)
 
 <!-- V3 RESEARCH SUPPLEMENT kaf -->
+
+
+## 2026年のライブ・展示補足
+
+- **3月1日**：横浜・ぴあアリーナMMで 5th ONE-MAN LIVE「宿声 / 深愛」を開催。([公式公演情報](https://yokohamawars2026.kamitsubaki.jp/kaf))
+- **9月6日**：パシフィコ横浜・国立大ホールで 5th ONE-MAN LIVE「宿声 / 深愛（巡）」を開催。([公式日程](https://kaf.kamitsubaki.jp/schedule/))
