@@ -6,7 +6,7 @@ import {build} from 'vite';
 import tailwindcss from '@tailwindcss/vite';
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'..'),args=process.argv.slice(2),index=args.indexOf('--backend');
 if(index<0||!args[index+1])throw Error('Specify the isolated backend checkout with --backend <path>.');
-const backend=resolve(args[index+1]),entry=resolve(root,'src/styles/communityUiKit.css'),adapter=resolve(root,'src/styles/uiKit.css'),layout=await readFile(resolve(root,'src/styles/community.css'),'utf8');
+const backend=resolve(args[index+1]),entry=resolve(root,'src/styles/communityUiKit.css'),adapter=resolve(root,'src/styles/uiKit.css'),layout=(await readFile(resolve(root,'src/styles/community.css'),'utf8')).replace(/^@import[^;]+;\s*/gm,'');
 const result=await build({configFile:false,root,plugins:[tailwindcss()],logLevel:'error',build:{write:false,cssMinify:true,rollupOptions:{input:entry}}});
 const output=(Array.isArray(result)?result:[result]).flatMap(item=>item.output),css=output.filter(item=>item.type==='asset'&&item.fileName.endsWith('.css')).map(item=>String(item.source)).join('\n');
 if(!css.includes('.dui-btn')||!css.includes('.dui-input'))throw Error('The compiled daisyUI controls are missing.');

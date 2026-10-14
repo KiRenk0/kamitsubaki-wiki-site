@@ -67,14 +67,15 @@
     "katex": "^0.17.0",
     "kuroshiro": "^1.2.0",
     "kuroshiro-analyzer-kuromoji": "^1.1.0",
+    "lucide": "^1.55.0",
     "micromark": "^4.0.2",
     "micromark-extension-gfm": "^3.0.0",
     "micromark-extension-math": "^3.1.0",
     "opencc-js": "1.4.1",
+    "photoswipe": "^5.4.4",
     "simple-icons": "^16.27.0",
-    "wanakana": "^5.3.1",
-    "lucide": "^1.55.0",
-    "photoswipe": "^5.4.4"
+    "tom-select": "2.6.2",
+    "wanakana": "^5.3.1"
   },
   "devDependencies": {
     "@astrojs/check": "latest",

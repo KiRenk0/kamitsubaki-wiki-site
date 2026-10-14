@@ -19,8 +19,10 @@ const locale=Astro.params.locale||'zh',c=communityCopy(locale),api=import.meta.e
    <div class="community-view-tabs" role="group" aria-label={c.view}><WorkspaceButton data-calendar-view="calendar" aria-pressed="false"><Icon name="calendar-days"/>{c.calendar}</WorkspaceButton><WorkspaceButton data-calendar-view="agenda" aria-pressed="false"><Icon name="list"/>{c.agenda}</WorkspaceButton></div>
   </div>
   <div class="community-filter-bar"><label class="community-search"><span class="sr-only">{c.search}</span><WorkspaceControl name="q" type="search" placeholder={c.searchPlaceholder}/></label><details class="community-filter-details" data-calendar-filter-details><summary class="workspace-button dui-btn dui-btn-ghost" data-ui-kit data-tone="secondary"><span data-calendar-filter-summary>{c.filterActivities}</span></summary><div class="community-toolbar" data-filter-surface role="group" aria-label={c.filterActivities}>
-   <label>{c.country}<WorkspaceControl as="select" name="country"><option value="">{c.all}</option></WorkspaceControl></label>
-   <label>{c.city}<WorkspaceControl as="select" name="city"><option value="">{c.all}</option></WorkspaceControl></label>
+   <label><span>{c.country}</span><WorkspaceControl as="select" name="country"><option value="">{c.all}</option></WorkspaceControl></label>
+   <label><span>{c.subdivisionCode}</span><WorkspaceControl as="select" name="subdivisionCode"><option value="">{c.all}</option></WorkspaceControl></label>
+   <label><span>{c.city}</span><WorkspaceControl as="select" name="cityId"><option value="">{c.all}</option></WorkspaceControl></label>
+   <input type="hidden" name="city"/><p class="community-location-note" data-location-status role="status"></p><WorkspaceButton class="community-location-note" data-location-retry hidden>{c.retry}</WorkspaceButton>
    <label>{c.mode}<WorkspaceControl as="select" name="mode"><option value="">{c.all}</option>{['online','offline','hybrid'].map(mode=><option value={mode}>{c[mode]}</option>)}</WorkspaceControl></label>
    <label>{c.category}<WorkspaceControl as="select" name="category"><option value="">{c.all}</option>{['new-year','support','meetup','convention','other'].map(category=><option value={category}>{c[category]}</option>)}</WorkspaceControl></label>
   </div></details></div>

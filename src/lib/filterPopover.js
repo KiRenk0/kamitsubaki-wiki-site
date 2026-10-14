@@ -13,7 +13,7 @@ export function mountFilterPopover(details,{watch=autoUpdate,place=positionEdito
  const close=(restore=false)=>{details.open=false;stop();stop=()=>{};if(surface.matches(':popover-open'))surface.hidePopover();if(restore)trigger.focus({preventScroll:true});};
  const toggle=()=>{if(details.open)open();else close();};
  const outside=event=>{if(details.open&&!details.contains(event.target))close();};
- const escape=event=>{if(!details.open||event.key!=='Escape'||event.isComposing)return;try{if(surface.querySelector('select:open'))return;}catch{}event.preventDefault();event.stopPropagation();close(true);};
+ const escape=event=>{if(!details.open||event.key!=='Escape'||event.isComposing)return;if(surface.querySelector('.ts-wrapper.dropdown-active'))return;try{if(surface.querySelector('select:open'))return;}catch{}event.preventDefault();event.stopPropagation();close(true);};
  details.addEventListener('toggle',toggle);
  document.addEventListener('pointerdown',outside,true);
  document.addEventListener('click',outside,true);
