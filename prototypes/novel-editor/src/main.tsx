@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import '../../../src/styles/readerFormats.css';
+import '../../../src/styles/readerInteractive.css';
+import '../../../src/styles/entityInfoBox.css';
 import './index.css';
 import 'katex/dist/katex.min.css';
 import App from './app';

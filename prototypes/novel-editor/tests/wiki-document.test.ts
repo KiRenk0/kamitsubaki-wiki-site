@@ -2,8 +2,9 @@ import { test, after } from 'node:test';
 import assert from 'node:assert/strict';
 import { JSDOM } from 'jsdom';
 import { Editor } from '@tiptap/core';
+import { undoNoScroll, redoNoScroll } from '@tiptap/pm/history';
 import { createWikiExtensions, renderNestedMarkdown } from '../src/editor/extensions';
-import { loadWikiDocument, exportWikiDocument } from '../src/lib/wiki-document';
+import { loadWikiDocument, exportWikiDocument, validateDocumentSource } from '../src/lib/wiki-document';
 import { compatibilityCases } from '../../../scripts/lib/tiptapCompatibility.mjs';
 import { readFile } from 'node:fs/promises';
 import { parseDocument } from 'yaml';
@@ -15,6 +16,10 @@ for (const key of ['window', 'document', 'navigator', 'HTMLElement', 'Element', 
 const editor = new Editor({ element: dom.window.document.querySelector('#editor')!, extensions: createWikiExtensions(undefined, false), content: '' });
 after(() => { editor.destroy(); dom.window.close(); });
 const wrap = (body: string, locale = 'zh') => `---\n# 保留 YAML 注释\nschemaVersion: 2\nid: test-document\nlocale: ${locale}\nentityType: editorial-article\ntitle: "测试"\nrelations: []\npresentation: {}\n---\n\n${body}\n`;
+test('unsupported generated source languages and malformed imports explain how to recover', () => {
+  for (const locale of ['zh-tw', 'zh-hk']) assert.throws(() => validateDocumentSource(wrap('原文', locale)), /繁体页面由简体原文自动生成/);
+  assert.throws(() => validateDocumentSource('没有词条属性'), /文件开头需要有完整的词条属性/);
+});
 
 test('all existing Wiki compatibility fixtures have exact no-op Markdown saves', () => {
   for (const locale of ['zh', 'ja', 'en']) for (const fixture of compatibilityCases(locale)) {
@@ -56,6 +61,16 @@ test('changing title retains body, YAML comments and unrecognized metadata', () 
   assert.ok(output.endsWith(loaded.context.body));
   assert.deepEqual(parseDocument(output.match(/^---\n([\s\S]*?)\n---/)![1]).toJS().futureField.nested, ['one', 'two']);
   assert.ok(output.includes('# 保留 YAML 注释'));
+});
+test('cleared optional metadata is omitted and an untouched body remains byte-for-byte', () => {
+  const source = wrap('原文  {{ruby::花譜::かふ}}\n\n<!-- 资料说明 -->').replace('relations: []', 'publishDate: 2026-10-13\nrelations: []');
+  const loaded = loadWikiDocument(editor, source);
+  const output = exportWikiDocument(editor, loaded.context, { ...loaded.metadata, publishDate: '' });
+  assert.equal(parseDocument(output.match(/^---\n([\s\S]*?)\n---/)![1]).toJS().publishDate, undefined);
+  assert.ok(output.endsWith(loaded.context.body));
+  assert.ok(output.includes('# 保留 YAML 注释'));
+  const noChange = { ...loaded.metadata, duration: '', presentation: { image: '' } };
+  assert.equal(exportWikiDocument(editor, loaded.context, noChange), source, 'an empty optional field added from the form is not persisted');
 });
 test('BOM and CRLF remain exact on a no-op save', () => {
   const source = '\uFEFF' + wrap('**文字** {{ruby::花譜::かふ}}').replaceAll('\n', '\r\n');
@@ -203,6 +218,25 @@ test('applying a full source edit can be undone with its metadata', () => {
   assert.equal(editor.commands.undo(), true);
   assert.equal(exportWikiDocument(editor, updated.context, editor.state.doc.attrs.wikiMetadata), source);
 });
+test('source undo restores YAML comments, BOM, CRLF and preceding prose edits, with exact redo', () => {
+  const undo = () => undoNoScroll(editor.state, transaction => editor.view.dispatch(transaction));
+  const redo = () => redoNoScroll(editor.state, transaction => editor.view.dispatch(transaction));
+  const original = '\uFEFF' + wrap('正文 {{ruby::花譜::かふ}}').replaceAll('\n', '\r\n');
+  const loaded = loadWikiDocument(editor, original);
+  editor.commands.insertContentAt(1, '先编辑正文');
+  const before = exportWikiDocument(editor, loaded.context, editor.state.doc.attrs.wikiMetadata);
+  const next = before.replace('# 保留 YAML 注释', '# 新的 YAML 注释').replace('测试', '新标题').replaceAll('\r\n', '\n').replace(/^\uFEFF/, '');
+  const applied = loadWikiDocument(editor, next, '', true);
+  assert.equal(undo(), true);
+  assert.equal(exportWikiDocument(editor, applied.context, editor.state.doc.attrs.wikiMetadata), before);
+  assert.equal(redo(), true);
+  assert.equal(exportWikiDocument(editor, applied.context, editor.state.doc.attrs.wikiMetadata), next);
+  undo();
+  editor.commands.insertContentAt(1, '继续写作');
+  const continued = exportWikiDocument(editor, applied.context, editor.state.doc.attrs.wikiMetadata);
+  assert.ok(continued.startsWith('\uFEFF---\r\n# 保留 YAML 注释'));
+  assert.ok(continued.includes('继续写作先编辑正文'));
+});
 
 test('public reader renders Wiki content and widths after an HTML table save', async () => {
   const { renderMarkdownFragment } = await import('../../../src/lib/markdown.mjs');
@@ -236,4 +270,53 @@ test('inserting a table after a selected advanced block preserves that block', a
   const output = exportWikiDocument(editor, loaded.context, loaded.metadata);
   assert.match(output, /\{\{details::说明\}\}/);
   assert.match(output, /\{\{ruby::花譜::かふ\}\}/);
+});
+
+test('Wiki references show semantic content and survive edits, resized tables and reader linking', async () => {
+  const { renderMarkdownFragment } = await import('../../../src/lib/markdown.mjs');
+  const { createEntityRegistry } = await import('../../../src/lib/entityRegistry.mjs');
+  const { renderWikiLinks } = await import('../../../src/lib/wikiLinks.mjs');
+  const registry = createEntityRegistry([{ filePath: 'src/content/people/solo/kaf/zh.md', data: { schemaVersion: 2, id: 'kaf', locale: 'zh', entityType: 'virtual-avatar', name: '花譜', romanizedName: 'KAF', summary: '虚拟歌手' }, body: '' }]);
+  const source = wrap('参考 [[kaf|花譜]]。\n\n| 人物 |\n| --- |\n| [[kaf]] |');
+  const loaded = loadWikiDocument(editor, source);
+  const references: any[] = [];
+  editor.state.doc.descendants(node => { if (node.type.name === 'wikiInline' && node.attrs.kind === 'wiki-link') references.push(node.attrs.args); });
+  assert.deepEqual(references, [['kaf', '花譜'], ['kaf', '']]);
+  assert.equal(exportWikiDocument(editor, loaded.context, loaded.metadata), source);
+  editor.commands.insertContentAt(1, '更新');
+  let cellPos = 0;
+  editor.state.doc.descendants((node, position) => { if (!cellPos && node.type.name === 'tableCell') cellPos = position; });
+  editor.commands.setTextSelection(cellPos + 2); editor.commands.setCellAttribute('colwidth', [220]);
+  const output = exportWikiDocument(editor, loaded.context, loaded.metadata);
+  const rendered = await renderMarkdownFragment(output.replace(/^---\n[\s\S]*?\n---\n/, ''));
+  const linked = renderWikiLinks(rendered, registry, 'zh');
+  assert.equal((linked.previews as Record<string, any>).kaf.title, '花譜');
+  assert.equal((linked.html.match(/data-wiki-id="kaf"/g) || []).length, 2);
+  const reopened = loadWikiDocument(editor, output);
+  assert.equal(exportWikiDocument(editor, reopened.context, reopened.metadata), output);
+  let count = 0; editor.state.doc.descendants(node => { if (node.type.name === 'wikiInline' && node.attrs.kind === 'wiki-link') count++; });
+  assert.equal(count, 2);
+});
+
+test('unfinished block edits restore after reopening without reusing source provenance or replacing another block', async () => {
+  const { editAnchorSignature, storeNodeEdit, restoreNodeEdit } = await import('../src/lib/node-edit-draft');
+  const source = wrap('{{details::说明}}\n\n原有说明。\n\n{{/details}}\n\n后文。');
+  loadWikiDocument(editor, source);
+  const node = editor.state.doc.firstChild!;
+  const target = { editor, type: 'wikiBlock' as const, position: 0, range: { from: 0, to: node.nodeSize }, attrs: node.attrs };
+  const attrs: any = structuredClone(node.attrs); attrs.edited = true; attrs.data.title = '未完成标题'; attrs.data.text = '尚未应用的说明 {{ruby::花譜::かふ}}。';
+  const saved = storeNodeEdit(target, attrs, 0, target.range, editAnchorSignature(editor, target));
+  assert.equal(saved.attrs.wikiSourceId, undefined);
+  const loaded = loadWikiDocument(editor, source);
+  const restored = restoreNodeEdit(editor, saved);
+  assert.equal(restored.position, 0);
+  assert.equal(restored.attrs.wikiSourceId, editor.state.doc.firstChild!.attrs.wikiSourceId);
+  assert.equal(restored.draftAttrs.data.title, '未完成标题');
+  assert.equal(exportWikiDocument(editor, loaded.context, loaded.metadata), source, 'unfinished fields never silently change saved Markdown');
+  loadWikiDocument(editor, wrap('另一份正文。'));
+  const recovered = restoreNodeEdit(editor, saved);
+  assert.equal(recovered.position, undefined);
+  assert.equal(recovered.range.from, editor.state.doc.content.size);
+  assert.equal(recovered.draftAttrs.data.text, attrs.data.text);
+  assert.equal(editor.state.doc.firstChild!.textContent, '另一份正文。');
 });

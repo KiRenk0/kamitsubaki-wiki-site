@@ -1,10 +1,12 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { createPortal } from 'react-dom';
 import type { Editor } from '@tiptap/core';
-import { Check, Eye, Download, Moon, Sun, SlidersHorizontal, Menu, Code2, FileText, AlertCircle, Pencil, Loader2, MoreHorizontal, Save } from 'lucide-react';
+import { Check, Eye, Download, Moon, Sun, SlidersHorizontal, Menu, Code2, FileText, AlertCircle, Pencil, Loader2, MoreHorizontal, Save, Send } from 'lucide-react';
 import { Toaster, toast } from 'sonner';
 import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog';
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@/components/ui/sheet';
+import { ResizableHandle, ResizablePanel, ResizablePanelGroup } from '@/components/ui/resizable';
 import { TooltipProvider } from '@/components/ui/tooltip';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import { LibrarySidebar, collectionLabels } from '@/components/library-sidebar';
@@ -15,22 +17,31 @@ import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuGro
 import { SourceEditor } from '@/components/source-editor';
 import { NovelSurface } from '@/editor/novel-surface';
 import { EditorToolbar } from '@/editor/toolbar';
-import { NodeDialog, type NodeEditTarget } from '@/editor/node-dialog';
+import { NodeEditor, type NodeEditTarget } from '@/editor/node-dialog';
 import { exportWikiDocument, loadWikiDocument, newDocumentSource, validateDocumentSource, type LoadedWikiDocument, type WikiDocumentContext, type WikiMetadata } from '@/lib/wiki-document';
 import { readLocalDraft, readLastLocalDraft, saveLocalDraft, listLocalDrafts, type LocalDraft } from '@/lib/local-drafts';
 import type { CatalogEntry } from '../server/local-api';
 import demoSource from '../fixtures/wiki-demo.md?raw';
 import { cn } from '@/lib/utils';
+import { useContainerWidth } from '@/lib/use-container-width';
+import { enhanceReader } from '../../../src/lib/readerEnhancements.mjs';
+import { initializeReaderInteractions } from '../../../src/lib/readerInteractions.mjs';
+import { initWikiPreviews } from '../../../src/lib/wikiPreviews';
+import { restoreNodeEdit, type StoredNodeEdit } from '@/lib/node-edit-draft';
+import { reviewSnapshot, type ReviewSnapshot } from '@/lib/review-service';
+import { ReaderInfoBox } from '@/components/reader-info-box';
+import type { entityInfoModel } from '../../../src/lib/entityInfoModel.mjs';
 
-type DocumentRecord = { key: string; path: string; source: string; pendingSource?: string };
-type View = 'edit' | 'source' | 'preview';
+const ReviewPane = lazy(() => import('@/components/review-pane'));
+type DocumentRecord = { key: string; path: string; source: string; baseSource?: string; pendingSource?: string; pendingNode?: StoredNodeEdit };
+type View = 'edit' | 'source' | 'preview' | 'review';
 async function jsonRequest(url: string, options?: RequestInit) {
   const response = await fetch(url, options); const body = await response.json();
   if (!response.ok) throw new Error(body.error || '本地请求失败'); return body;
 }
 function initialDocument(): DocumentRecord {
   const draft = readLastLocalDraft();
-  return draft ? { key: draft.key, path: draft.path, source: draft.source, pendingSource: draft.pendingSource } : { key: 'demo', path: '', source: demoSource };
+  return draft ? { key: draft.key, path: draft.path, source: draft.source, baseSource: draft.baseSource, pendingSource: draft.pendingSource, pendingNode: draft.pendingNode } : { key: 'demo', path: '', source: demoSource };
 }
 function downloadMarkdown(source: string, title: string, locale: string) {
   const url = URL.createObjectURL(new Blob([source], { type: 'text/markdown;charset=utf-8' }));
@@ -39,11 +50,22 @@ function downloadMarkdown(source: string, title: string, locale: string) {
 }
 
 export default function App() {
+  const headerSize = useContainerWidth<HTMLElement>();
   const [record, setRecord] = useState<DocumentRecord>(initialDocument);
   const recordRef = useRef(record); recordRef.current = record;
   const [revision, setRevision] = useState(0);
+  const writingScroll = useRef<HTMLDivElement>(null);
+  const propertiesScroll = useRef<HTMLDivElement>(null);
   const [editor, setEditor] = useState<Editor | null>(null);
+  useEffect(() => {
+    writingScroll.current?.scrollTo({ top: 0 });
+    // ResizablePanel's elementRef points to its outer sizing element; the
+    // className is placed on the inner content viewport that actually scrolls.
+    const viewport = propertiesScroll.current?.querySelector<HTMLDivElement>('.wiki-desktop-properties') || propertiesScroll.current;
+    viewport?.scrollTo({ top: 0 });
+  }, [record.key, revision, editor]);
   const editorRef = useRef<Editor | null>(null);
+  const restoredEditors = useRef(new WeakSet<Editor>());
   const contextRef = useRef<WikiDocumentContext | null>(null);
   const [metadata, setMetadata] = useState<WikiMetadata>({});
   const metadataRef = useRef(metadata); metadataRef.current = metadata;
@@ -51,6 +73,7 @@ export default function App() {
   const pendingRef = useRef<string | undefined>(record.pendingSource);
   const [pending, setPending] = useState(Boolean(record.pendingSource));
   const [view, setView] = useState<View>(record.pendingSource ? 'source' : 'edit');
+  const [review, setReview] = useState<{ recordKey: string; snapshot: ReviewSnapshot } | null>(null);
   const [catalog, setCatalog] = useState<CatalogEntry[]>([]);
   const [catalogLoading, setCatalogLoading] = useState(true);
   const [search, setSearch] = useState('');
@@ -60,12 +83,36 @@ export default function App() {
   const [loadError, setLoadError] = useState('');
   const [opening, setOpening] = useState(false);
   const [showProperties, setShowProperties] = useState(true);
+  const propertiesWidth = useRef((() => { try { const value = Number(localStorage.getItem('kamitsubaki-novel-local-prototype:properties-width')); return value >= 320 && value <= 560 ? value : 420; } catch { return 420; } })());
   const [mobileLibrary, setMobileLibrary] = useState(false);
   const [mobileProperties, setMobileProperties] = useState(false);
   const [compactLayout, setCompactLayout] = useState(() => window.matchMedia('(max-width: 1180px)').matches);
   const [dark, setDark] = useState(() => { try { return localStorage.getItem('kamitsubaki-novel-local-prototype:theme') !== 'light'; } catch { return true; } });
-  useEffect(() => { document.documentElement.classList.toggle('dark', dark); try { localStorage.setItem('kamitsubaki-novel-local-prototype:theme', dark ? 'dark' : 'light'); } catch { /* Theme changes still work without storage. */ } }, [dark]);
+  useEffect(() => { document.documentElement.classList.toggle('dark', dark); document.documentElement.dataset.theme = dark ? 'dark' : 'light'; try { localStorage.setItem('kamitsubaki-novel-local-prototype:theme', dark ? 'dark' : 'light'); } catch { /* Theme changes still work without storage. */ } }, [dark]);
   const [target, setTarget] = useState<NodeEditTarget | null>(null);
+  const pendingNode = useRef(record.pendingNode);
+  const scheduleSave = useRef<() => void>(() => {});
+  const targetDirty = useRef(false);
+  const markTargetDirty = useCallback((dirty: boolean) => { targetDirty.current = dirty; }, []);
+  const closeTarget = useCallback(() => { targetDirty.current = false; pendingNode.current = undefined; setTarget(null); scheduleSave.current(); }, []);
+  const saveNodeDraft = useCallback((draft: StoredNodeEdit | null) => { pendingNode.current = draft || undefined; scheduleSave.current(); }, []);
+  const openTarget = useCallback((next: NodeEditTarget) => {
+    if (targetDirty.current) { toast.info('请先完成或取消当前内容编辑，已填写的内容会留在原处。'); return; }
+    setTarget(next);
+  }, []);
+  const nodeEditorHost = useMemo(() => {
+    if (!target || target.position === undefined || target.editor.isDestroyed) return null;
+    const element = target.editor.view.nodeDOM(target.position);
+    return element instanceof HTMLElement ? element.querySelector<HTMLElement>('[data-node-editor-slot]') : null;
+  }, [target]);
+  const editingDock = Boolean(target && !nodeEditorHost);
+  useEffect(() => {
+    if (!target || !nodeEditorHost || nodeEditorHost.isConnected) return;
+    if (pendingNode.current) {
+      setTarget(restoreNodeEdit(target.editor, pendingNode.current));
+      toast.info('已保留未完成的填写内容，请核对当前位置后继续编辑。');
+    } else closeTarget();
+  });
   const [navigationOpen, setNavigationOpen] = useState(false);
   const [resources, setResources] = useState<ResourceItem[]>([]);
   const [contentVersion, setContentVersion] = useState(0);
@@ -86,9 +133,9 @@ export default function App() {
     try {
       const meta = metadataRef.current;
       const source = liveSource();
-      saveLocalDraft({ key: recordRef.current.key, path: recordRef.current.path, source, title: meta.name || meta.title || '未命名词条', locale: meta.locale || 'zh', savedAt: Date.now(), pendingSource: pendingRef.current });
+      saveLocalDraft({ key: recordRef.current.key, path: recordRef.current.path, source, baseSource: recordRef.current.baseSource, title: meta.name || meta.title || '未命名词条', locale: meta.locale || 'zh', savedAt: Date.now(), pendingSource: pendingRef.current, pendingNode: pendingNode.current });
       if (!pendingRef.current) setSourceValue(source);
-      setStorageError(''); setStatus(pendingRef.current ? '源码已暂存，尚未应用' : '已保存到本地');
+      setStorageError(''); setStatus(pendingRef.current ? '源码已暂存，尚未应用' : pendingNode.current ? '填写内容已暂存，尚未应用' : '已保存到本地');
       return true;
     } catch { setStatus('尚未保存'); setStorageError('本地草稿无法保存。请导出 Markdown 备份当前内容。'); return false; }
   }, [liveSource]);
@@ -96,6 +143,7 @@ export default function App() {
     try { setStatus('正在保存…'); clearTimeout(timer.current); timer.current = setTimeout(persist, 300); }
     catch (error: any) { setStorageError(error.message); }
   }, [liveSource, persist]);
+  scheduleSave.current = changed;
   const refreshOutline = useCallback((instance: Editor, docChanged = true) => {
     updateToolbar(value => value + 1);
     if (!docChanged) return;
@@ -119,21 +167,31 @@ export default function App() {
     setEditor(instance); setMetadata(loaded.metadata); refreshOutline(instance); setLoadError('');
     if (!pendingRef.current) setSourceValue(loaded.context.source);
     persist();
+    if (pendingNode.current) requestAnimationFrame(() => {
+      if (editorRef.current !== instance || !pendingNode.current || restoredEditors.current.has(instance)) return;
+      restoredEditors.current.add(instance);
+      const restored = restoreNodeEdit(instance, pendingNode.current);
+      if (restored.position !== undefined) instance.commands.setNodeSelection(restored.position);
+      setTarget(restored);
+      toast.info('已恢复尚未完成的内容编辑，请核对后完成或取消。', { id: 'recover-node:' + recordRef.current.key });
+    });
   }, [persist, refreshOutline]);
   const replaceDocument = useCallback((next: DocumentRecord) => {
+    if (targetDirty.current) { toast.info('请先完成或取消当前内容编辑，再切换文档。'); return; }
     if (contextRef.current && !persist()) { toast.error('当前草稿尚未保存，请先导出备份再切换。'); return; }
     clearTimeout(timer.current); contextRef.current = null; editorRef.current = null;
-    pendingRef.current = next.pendingSource; setPending(Boolean(next.pendingSource)); setSourceValue(next.pendingSource || next.source);
-    setEditor(null); setTarget(null); setOutline([]); setActiveOutline(null); setMetadata({}); setRecord(next); recordRef.current = next;
+    pendingRef.current = next.pendingSource; pendingNode.current = next.pendingNode; setPending(Boolean(next.pendingSource)); setSourceValue(next.pendingSource || next.source);
+    setEditor(null); setTarget(null); setOutline([]); setActiveOutline(null); setMetadata({}); setReview(null); setRecord(next); recordRef.current = next;
     setRevision(value => value + 1); setView(next.pendingSource ? 'source' : 'edit'); setMobileLibrary(false); setNavigationOpen(false); setOpening(false); setStatus('正在打开词条…'); setLoadError('');
   }, [persist]);
   const openEntry = useCallback(async (entry: CatalogEntry) => {
     const sequence = ++loadSequence.current; setOpening(true);
     try {
       const draft = readLocalDraft(entry.path);
-      const source = draft?.source || (await jsonRequest('/__novel/source?path=' + encodeURIComponent(entry.path))).source;
+      const original = (await jsonRequest('/__novel/source?path=' + encodeURIComponent(entry.path))).source;
+      const source = draft?.source || original;
       if (sequence !== loadSequence.current) return;
-      replaceDocument({ key: entry.path, path: entry.path, source, pendingSource: draft?.pendingSource });
+      replaceDocument({ key: entry.path, path: entry.path, source, baseSource: draft?.baseSource ?? original, pendingSource: draft?.pendingSource, pendingNode: draft?.pendingNode });
     } catch (error: any) { toast.error(error.message); }
     finally { if (sequence === loadSequence.current) setOpening(false); }
   }, [replaceDocument]);
@@ -159,7 +217,7 @@ export default function App() {
     window.addEventListener('keydown', keydown); return () => window.removeEventListener('keydown', keydown);
   }, [persist]);
   const changeMetadata = (next: WikiMetadata) => { if (editorRef.current) editorRef.current.commands.command(({ tr }) => { tr.setDocAttribute('wikiMetadata', next); return true; }); else { metadataRef.current = next; setMetadata(next); changed(); } };
-  const changeView = (next: View) => { if (next === 'edit' && pendingRef.current) { toast.error('请先应用或放弃源码修改。'); return; } if (next === 'source' && !pendingRef.current) setSourceValue(liveSource()); setView(next); };
+  const changeView = (next: View) => { if (targetDirty.current) { toast.info('请先完成或取消当前内容编辑，再切换视图。'); return; } closeTarget(); if (next === 'edit' && pendingRef.current) { toast.error('请先应用或放弃源码修改。'); return; } if (next === 'source' && !pendingRef.current) setSourceValue(liveSource()); setView(next); };
   const sourceChanged = (source: string) => { setSourceValue(source); const scratch = source === liveSource() ? undefined : source; pendingRef.current = scratch; setPending(Boolean(scratch)); changed(); };
   const applySource = () => {
     if (!editorRef.current) return;
@@ -174,31 +232,60 @@ export default function App() {
       const element = instance.view.nodeDOM(position); const scroll = instance.view.dom.closest('.wiki-writing-scroll');
       if (element instanceof HTMLElement && scroll instanceof HTMLElement) scroll.scrollTo({ top: scroll.scrollTop + element.getBoundingClientRect().top - scroll.getBoundingClientRect().top - 24 });
     }); };
-  const openDemo = useCallback(() => { ++loadSequence.current; const draft = readLocalDraft('demo'); replaceDocument(draft ? { key: 'demo', path: '', source: draft.source, pendingSource: draft.pendingSource } : { key: 'demo', path: '', source: demoSource }); }, [replaceDocument]);
+  const openDemo = useCallback(() => { ++loadSequence.current; const draft = readLocalDraft('demo'); replaceDocument(draft ? { key: 'demo', path: '', source: draft.source, pendingSource: draft.pendingSource, pendingNode: draft.pendingNode } : { key: 'demo', path: '', source: demoSource }); }, [replaceDocument]);
   const newDocument = useCallback(() => { ++loadSequence.current; replaceDocument({ key: crypto.randomUUID(), path: '', source: newDocumentSource() }); }, [replaceDocument]);
   const openDrafts = () => { persist(); try { setDrafts(listLocalDrafts()); setDraftsOpen(true); } catch { toast.error('浏览器禁止访问本地草稿'); } };
   const sidebar = <LibrarySidebar catalog={catalog} loading={catalogLoading} search={search} onSearch={setSearch} selectedPath={record.path} selectedKey={record.key} onSelect={openEntry} onDemo={openDemo} onNew={newDocument} onImport={() => fileInput.current?.click()} onDrafts={openDrafts} locale={catalogLocale} onLocale={setCatalogLocale} />;
   const navigator = <WorkspaceSidebar editor={editor} outline={outline} resources={resources} onNavigate={onNavigate} onBrowse={() => { setNavigationOpen(false); setMobileLibrary(true); }} onNew={newDocument} onDrafts={openDrafts} onReveal={() => { setView('edit'); setNavigationOpen(false); }} activePosition={activeOutline} version={contentVersion} />;
-  const properties = <PropertiesPanel metadata={metadata} onChange={changeMetadata} editor={editor} open={setTarget} pending={pending} locked={Boolean(record.path)} />;
-  const catalogContext = useMemo(() => ({ entries: catalog, locale: metadata.locale || 'zh' }), [catalog, metadata.locale]);
+  const properties = <PropertiesPanel key={record.key + ':' + revision} metadata={metadata} onChange={changeMetadata} pending={pending} locked={Boolean(record.path)} onClose={() => compactLayout ? setMobileProperties(false) : setShowProperties(false)} />;
+  const nodeEditor = target ? <NodeEditor target={target} locale={metadata.locale || 'zh'} onClose={closeTarget} onDirty={markTargetDirty} onDraft={saveNodeDraft} /> : null;
+  const catalogContext = useMemo(() => ({ entries: catalog, locale: metadata.locale || 'zh', loading: catalogLoading }), [catalog, metadata.locale, catalogLoading]);
   const title = metadata.name ?? metadata.title ?? '';
-  const exportDocument = () => { try { persist(); downloadMarkdown(liveSource(), title, metadata.locale); toast.success('Markdown 已导出'); } catch (error: any) { toast.error(error.message); } };
-  return <CatalogContext.Provider value={catalogContext}><TooltipProvider delayDuration={350}><div className="wiki-workbench" data-properties={showProperties}>
+  const exportDocument = () => { if (targetDirty.current) { toast.info('请先完成或取消当前内容编辑，再导出 Markdown。'); return; } try { persist(); downloadMarkdown(liveSource(), title, metadata.locale); toast.success('Markdown 已导出'); } catch (error: any) { toast.error(error.message); } };
+  const openReview = async () => {
+    if (pendingRef.current || targetDirty.current || pendingNode.current) { toast.info('请先完成或取消尚未应用的填写内容，再检查修改。'); return; }
+    if (!persist()) return;
+    const selectedKey = recordRef.current.key;
+    try {
+      const path = recordRef.current.path || catalog.find(entry => entry.id === metadataRef.current.id && entry.locale === metadataRef.current.locale)?.path || '';
+      const baseSource = recordRef.current.baseSource ?? (path ? (await jsonRequest('/__novel/source?path=' + encodeURIComponent(path))).source : '');
+      if (selectedKey !== recordRef.current.key) return;
+      const snapshot = reviewSnapshot(path, liveSource(), baseSource);
+      setReview({ recordKey: selectedKey, snapshot }); closeTarget(); setView('review');
+    } catch (error: any) { toast.error(error.message); }
+  };
+  const restoreReviewDraft = (source: string, baseSource: string | undefined) => {
+    if (!editorRef.current || !review || recordRef.current.key !== review.recordKey) return;
+    try {
+      const next = validateDocumentSource(source);
+      if (next.id !== metadataRef.current.id || next.entityType !== metadataRef.current.entityType || next.locale !== metadataRef.current.locale) throw new Error('草稿属于其他词条，请先打开对应词条再继续编辑。');
+      const loaded = loadWikiDocument(editorRef.current, source, recordRef.current.path, true);
+      contextRef.current = loaded.context; metadataRef.current = loaded.metadata; setMetadata(loaded.metadata);
+      recordRef.current = { ...recordRef.current, baseSource }; setRecord(recordRef.current);
+      refreshOutline(editorRef.current); persist(); setView('edit'); toast.success('已载入服务端草稿，可用撤销恢复刚才的版本。');
+    } catch (error: any) { toast.error(error.message); }
+  };
+  return <CatalogContext.Provider value={catalogContext}><TooltipProvider delayDuration={350}><div className="wiki-workbench" data-properties={showProperties} data-view={view}>
     <div className="wiki-desktop-library">{navigator}</div>
-    <div className="wiki-workbench-main"><header className="wiki-workbench-header">
+    <div className="wiki-workbench-main"><header ref={headerSize.ref} className="wiki-workbench-header">
       <Button variant="ghost" size="icon" className="wiki-mobile-menu" aria-label="打开写作导航" onClick={() => setNavigationOpen(true)}><Menu /></Button>
       <div className="wiki-document-heading"><div className="wiki-breadcrumb"><strong>{title || '词条'}</strong>{opening ? <Loader2 className="animate-spin" aria-label="正在读取词条" /> : null}</div><span className="wiki-save-status" role="status">{storageError ? <AlertCircle aria-hidden="true" /> : status === '正在保存…' ? <Loader2 className="animate-spin" aria-hidden="true" /> : <Check aria-hidden="true" />}{status}</span></div>
       <div className="wiki-header-actions">
+        {headerSize.width >= 1080 ? <Button variant="ghost" onClick={() => setMobileLibrary(true)}><FileText data-icon="inline-start" />打开词条</Button> : null}
+        {headerSize.width >= 1120 ? <Button variant="ghost" onClick={() => { if (persist()) toast.success('草稿已保存到本地'); }}><Save data-icon="inline-start" />保存</Button> : null}
+        {headerSize.width >= 900 ? <Button variant="ghost" disabled={!editor || pending} onClick={exportDocument}><Download data-icon="inline-start" />导出</Button> : null}
+        {headerSize.width >= 620 ? <Button variant="default" disabled={!editor || pending || view === 'review'} onClick={openReview}><Send data-icon="inline-start" />检查与投稿</Button> : null}
         <Button variant="outline" aria-label={view === 'preview' ? '继续编辑' : '预览'} aria-pressed={view === 'preview'} disabled={pending} onClick={() => changeView(view === 'preview' ? 'edit' : 'preview')}>{view === 'preview' ? <Pencil data-icon="inline-start" /> : <Eye data-icon="inline-start" />}<span>{view === 'preview' ? '编辑' : '预览'}</span></Button>
-        <Button variant="ghost" aria-label="词条属性" aria-expanded={compactLayout ? mobileProperties : showProperties} aria-haspopup={compactLayout ? 'dialog' : undefined} onClick={() => compactLayout ? setMobileProperties(true) : setShowProperties(!showProperties)}><SlidersHorizontal data-icon="inline-start" /><span>属性</span></Button>
+        <Button variant="ghost" disabled={view === 'review'} aria-label="词条属性" aria-expanded={compactLayout ? mobileProperties : showProperties && view !== 'preview'} aria-haspopup={compactLayout ? 'dialog' : undefined} onClick={() => { if (view === 'preview') { setView('edit'); setShowProperties(true); if (compactLayout) setMobileProperties(true); } else compactLayout ? setMobileProperties(true) : setShowProperties(!showProperties); }}><SlidersHorizontal data-icon="inline-start" /><span>属性</span></Button>
         <DropdownMenu><DropdownMenuTrigger asChild><Button variant="ghost" size="icon" aria-label="文档操作"><MoreHorizontal /></Button></DropdownMenuTrigger><DropdownMenuContent align="end" className="min-w-44"><DropdownMenuGroup>
-          <DropdownMenuItem onSelect={() => { if (persist()) toast.success('草稿已保存到本地'); }}><Save />保存本地草稿</DropdownMenuItem><DropdownMenuItem disabled={!editor || pending} onSelect={exportDocument}><Download />导出 Markdown</DropdownMenuItem><DropdownMenuItem onSelect={() => { setMobileLibrary(true); }}>打开其他词条</DropdownMenuItem><DropdownMenuItem onSelect={newDocument}>新建词条</DropdownMenuItem><DropdownMenuItem onSelect={() => fileInput.current?.click()}>导入 Markdown</DropdownMenuItem><DropdownMenuItem onSelect={openDrafts}>本地草稿</DropdownMenuItem>
+          <DropdownMenuItem disabled={!editor || pending || view === 'review'} onSelect={openReview}><Send />检查修改与投稿</DropdownMenuItem><DropdownMenuItem onSelect={() => { if (persist()) toast.success('草稿已保存到本地'); }}><Save />保存本地草稿</DropdownMenuItem><DropdownMenuItem disabled={!editor || pending} onSelect={exportDocument}><Download />导出 Markdown</DropdownMenuItem><DropdownMenuItem onSelect={() => { setMobileLibrary(true); }}>打开其他词条</DropdownMenuItem><DropdownMenuItem onSelect={newDocument}>新建词条</DropdownMenuItem><DropdownMenuItem onSelect={() => fileInput.current?.click()}>导入 Markdown</DropdownMenuItem><DropdownMenuItem onSelect={openDrafts}>本地草稿</DropdownMenuItem>
         </DropdownMenuGroup><DropdownMenuSeparator /><DropdownMenuGroup><DropdownMenuItem onSelect={() => { document.documentElement.classList.toggle('dark', !dark); setDark(!dark); }}>{dark ? <Sun /> : <Moon />}{dark ? '浅色主题' : '深色主题'}</DropdownMenuItem><DropdownMenuItem onSelect={() => changeView(view === 'source' ? 'edit' : 'source')}><Code2 />{view === 'source' ? '返回正文' : '查看 Markdown 源码'}</DropdownMenuItem></DropdownMenuGroup></DropdownMenuContent></DropdownMenu>
       </div>
-    </header><div className="wiki-content-grid">
-      <main className="wiki-writing-panel"><div className={cn(view !== 'edit' && 'hidden')}><EditorToolbar editor={editor} open={setTarget} /></div>
+    </header><ResizablePanelGroup orientation="horizontal" className="wiki-content-grid" data-editing-dock={editingDock}>
+      <ResizablePanel id="writing" minSize={compactLayout ? 0 : 350} className="wiki-writing-panel"><main className="wiki-writing-panel h-full"><div className={cn(view !== 'edit' && 'hidden')}><EditorToolbar editor={editor} open={openTarget} editingContent={Boolean(target)} /></div>
+        {editingDock && compactLayout ? <div className="wiki-compact-node-dock">{nodeEditor}</div> : null}
         {storageError || loadError ? <Alert variant="destructive"><AlertCircle /><AlertDescription>{storageError || loadError}</AlertDescription></Alert> : null}
-        <div className={cn('wiki-writing-scroll', view !== 'edit' && 'hidden')} onScroll={event => {
+        <div ref={writingScroll} className={cn('wiki-writing-scroll', view !== 'edit' && 'hidden')} onScroll={event => {
           if (scrollFrame.current !== null) return;
           const container = event.currentTarget;
           scrollFrame.current = requestAnimationFrame(() => {
@@ -210,30 +297,41 @@ export default function App() {
         }}><div className="wiki-article-canvas">
           <input className="wiki-article-title" aria-label="词条标题" placeholder="未命名词条" value={title} onChange={event => changeMetadata({ ...metadata, [metadata.name !== undefined ? 'name' : 'title']: event.target.value })} />
           {metadata.romanizedName || metadata.romanizedTitle ? <p className="wiki-article-romanized">{metadata.romanizedName || metadata.romanizedTitle}</p> : null}
-          <NovelSurface key={record.key + ':' + revision} source={record.source} path={record.path} onReady={ready} onUpdate={documentUpdated} onTransaction={refreshOutline} open={setTarget} />
+          <NovelSurface key={record.key + ':' + revision} source={record.source} path={record.path} onReady={ready} onUpdate={documentUpdated} onTransaction={refreshOutline} open={openTarget} />
           <Button variant="ghost" className="wiki-continue-writing" onClick={() => { if (editor) editor.chain().focus().insertContentAt(editor.state.doc.content.size, { type: 'paragraph' }).run(); }}>输入 / 插入内容</Button>
         </div></div>
         {view === 'source' ? <section className="wiki-source-pane"><div className="wiki-pane-heading"><div><h2>Markdown 源码</h2><p>{pending ? '修改已暂存，应用后可预览或导出。' : '正文和词条属性的完整保存内容。'}</p></div><div className="flex gap-2"><Button variant="outline" disabled={!pending} onClick={() => { pendingRef.current = undefined; setPending(false); setSourceValue(liveSource()); persist(); setView('edit'); }}>放弃修改</Button><Button disabled={!pending || !editor} onClick={applySource}>应用源码</Button></div></div><SourceEditor value={sourceValue} onChange={sourceChanged} height="calc(100vh - 190px)" /></section> : null}
         {view === 'preview' ? <PreviewPane source={liveSource()} title={title} /> : null}
-      </main><div className="wiki-desktop-properties">{properties}</div>
-    </div></div>
+        {view === 'review' && review ? <Suspense fallback={<p role="status">正在打开修改检查…</p>}><ReviewPane key={review.recordKey} snapshot={review.snapshot} onBack={() => setView('edit')} onRestore={restoreReviewDraft} /></Suspense> : null}
+      </main></ResizablePanel>{['edit', 'source'].includes(view) && !compactLayout && (showProperties || editingDock) ? <><ResizableHandle withHandle className="wiki-properties-resizer" aria-label="调整词条属性栏宽度" /><ResizablePanel id="properties" elementRef={propertiesScroll} defaultSize={propertiesWidth.current} minSize={320} maxSize={560} groupResizeBehavior="preserve-pixel-size" onResize={(size, _id, previous) => { if (previous && size.inPixels >= 320) { propertiesWidth.current = size.inPixels; try { localStorage.setItem('kamitsubaki-novel-local-prototype:properties-width', String(size.inPixels)); } catch { /* Width still works without storage. */ } } }} className="wiki-desktop-properties" style={{ overflow: "auto" }}>{editingDock ? nodeEditor : properties}</ResizablePanel></> : null}
+    </ResizablePanelGroup></div>
     <Sheet open={navigationOpen} onOpenChange={setNavigationOpen}><SheetContent side="left" className="wiki-library-sheet"><SheetHeader className="sr-only"><SheetTitle>写作导航</SheetTitle></SheetHeader>{navigator}</SheetContent></Sheet>
     <Sheet open={mobileLibrary} onOpenChange={setMobileLibrary}><SheetContent side="left" className="wiki-library-sheet"><SheetHeader className="sr-only"><SheetTitle>词条库</SheetTitle></SheetHeader>{sidebar}</SheetContent></Sheet>
-    <Sheet open={mobileProperties} onOpenChange={setMobileProperties}><SheetContent side="right" className="wiki-properties-sheet"><SheetHeader className="sr-only"><SheetTitle>词条属性</SheetTitle></SheetHeader>{properties}</SheetContent></Sheet>
-    <NodeDialog target={target} locale={metadata.locale || 'zh'} onClose={() => setTarget(null)} />
-    <Dialog open={draftsOpen} onOpenChange={setDraftsOpen}><DialogContent><DialogHeader><DialogTitle>本地草稿</DialogTitle><DialogDescription>这些草稿保存在当前浏览器中，可继续编辑或导出。</DialogDescription></DialogHeader><div className="wiki-draft-list">{drafts.length ? drafts.map(draft => <Button variant="ghost" className="wiki-draft-row" key={draft.key} onClick={() => { replaceDocument({ key: draft.key, path: draft.path, source: draft.source, pendingSource: draft.pendingSource }); setDraftsOpen(false); }}><FileText data-icon="inline-start" /><span><strong>{draft.title}</strong><small>{new Date(draft.savedAt).toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' })}</small></span></Button>) : <p>还没有本地草稿。</p>}</div></DialogContent></Dialog>
+    <Sheet open={mobileProperties} onOpenChange={setMobileProperties}><SheetContent side="right" showCloseButton={false} className="wiki-properties-sheet"><SheetHeader className="sr-only"><SheetTitle>词条属性</SheetTitle></SheetHeader>{properties}</SheetContent></Sheet>
+    {nodeEditorHost && nodeEditor ? createPortal(nodeEditor, nodeEditorHost) : null}
+    <Dialog open={draftsOpen} onOpenChange={setDraftsOpen}><DialogContent><DialogHeader><DialogTitle>本地草稿</DialogTitle><DialogDescription>这些草稿保存在当前浏览器中，可继续编辑或导出。</DialogDescription></DialogHeader><div className="wiki-draft-list">{drafts.length ? drafts.map(draft => <Button variant="ghost" className="wiki-draft-row" key={draft.key} onClick={() => { replaceDocument({ key: draft.key, path: draft.path, source: draft.source, baseSource: draft.baseSource, pendingSource: draft.pendingSource, pendingNode: draft.pendingNode }); setDraftsOpen(false); }}><FileText data-icon="inline-start" /><span><strong>{draft.title}</strong><small>{new Date(draft.savedAt).toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' })}</small></span></Button>) : <p>还没有本地草稿。</p>}</div></DialogContent></Dialog>
     <input ref={fileInput} type="file" accept=".md,.markdown,text/markdown" className="hidden" aria-label="导入 Markdown 文件" onChange={async event => { const input = event.currentTarget; const file = input.files?.[0]; if (!file) return; try { if (file.size > 1_000_000) throw new Error('Markdown 文件不能超过 1 MB'); const sequence = ++loadSequence.current; const source = await file.text(); if (sequence !== loadSequence.current) return; validateDocumentSource(source); replaceDocument({ key: 'import:' + crypto.randomUUID(), path: '', source }); } catch (error: any) { toast.error(error.message); } input.value = ''; }} />
     <Toaster richColors theme={dark ? 'dark' : 'light'} />
   </div></TooltipProvider></CatalogContext.Provider>;
 }
 function PreviewPane({ source, title }: { source: string; title: string }) {
-  const [html, setHtml] = useState(''); const [error, setError] = useState('');
+  const [rendered, setRendered] = useState<{ html: string; previews: Record<string, any>; metadata: WikiMetadata; info: ReturnType<typeof entityInfoModel>; missing: string[]; version: number } | null>(null); const [error, setError] = useState('');
+  const renderSequence = useRef(0);
   const previewRoot = useRef<HTMLDivElement>(null);
   useEffect(() => {
-    let active = true;
-    if (html) import('../../../src/scripts/mediaSwitcher.js').then(module => { if (active && previewRoot.current) (module.initializeMediaSwitchers as (root: ParentNode) => void)(previewRoot.current); });
-    return () => { active = false; };
-  }, [html]);
-  useEffect(() => { const controller = new AbortController(); setError(''); jsonRequest('/__novel/preview', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ source }), signal: controller.signal }).then(result => setHtml(result.html)).catch(error => { if (error.name !== 'AbortError') setError(error.message); }); return () => controller.abort(); }, [source]);
-  return <section className="wiki-preview-pane"><h1>{title}</h1>{error ? <Alert variant="destructive"><AlertCircle /><AlertDescription>{error}</AlertDescription></Alert> : <div ref={previewRoot} className="wiki-prose wiki-preview-prose" dangerouslySetInnerHTML={{ __html: html }} />}</section>;
+    if (!rendered || !previewRoot.current) return;
+    const root = previewRoot.current; let active = true;
+    document.documentElement.classList.add('has-js');
+    enhanceReader(root, rendered.metadata.locale || 'zh');
+    root.querySelectorAll<HTMLAnchorElement>('a[href]').forEach(link => {
+      if (!link.getAttribute('href')?.startsWith('#')) { link.target = '_blank'; link.rel = 'noopener'; if (link.getAttribute('href')?.startsWith('/')) link.href = 'https://kamitsubaki.wiki' + link.getAttribute('href'); }
+    });
+    const stopInteractions = initializeReaderInteractions(root);
+    const previews = Object.fromEntries(Object.entries(rendered.previews).map(([id, preview]) => [id, { ...preview, url: preview.url?.startsWith('/') ? 'https://kamitsubaki.wiki' + preview.url : preview.url }]));
+    const stopPreviews = initWikiPreviews(root, previews);
+    import('../../../src/scripts/mediaSwitcher.js').then(module => { if (active) (module.initializeMediaSwitchers as (root: ParentNode) => void)(root); });
+    return () => { active = false; stopInteractions(); stopPreviews(); };
+  }, [rendered]);
+  useEffect(() => { const controller = new AbortController(); setError(''); jsonRequest('/__novel/preview', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ source }), signal: controller.signal }).then(result => { if (!controller.signal.aborted) setRendered({ ...result, version: ++renderSequence.current }); }).catch(error => { if (error.name !== 'AbortError') setError(error.message); }); return () => controller.abort(); }, [source]);
+  return <section className="wiki-preview-pane"><h1>{title}</h1>{rendered?.metadata.summary ? <p className="wiki-preview-summary">{rendered.metadata.summary}</p> : null}{error ? <Alert variant="destructive"><AlertCircle /><AlertDescription>{error}</AlertDescription></Alert> : !rendered ? <p role="status">正在读取阅读器预览…</p> : <div className="wiki-preview-reader-layout"><div key={rendered.version} ref={previewRoot} className="wiki-reader wiki-prose wiki-preview-prose" dangerouslySetInnerHTML={{ __html: rendered.html }} />{rendered.info ? <ReaderInfoBox model={rendered.info} /> : null}</div>}</section>;
 }

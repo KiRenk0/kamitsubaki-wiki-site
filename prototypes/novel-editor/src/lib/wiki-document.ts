@@ -1,7 +1,9 @@
 import { generateJSON, type Editor, type JSONContent } from '@tiptap/core';
 import type { Node as ProseMirrorNode } from '@tiptap/pm/model';
+import { closeHistory, isHistoryTransaction } from '@tiptap/pm/history';
 import { parseDocument } from 'yaml';
 import { importMarkdown as importLegacyDocument, blockMarkdown, newBlock } from '../../../../src/lib/visualEditor.mjs';
+import { metadataForSave } from './metadata-output';
 
 export type WikiMetadata = Record<string, any>;
 export type WikiBlockData = Record<string, any> & { type: string };
@@ -11,9 +13,38 @@ export type WikiDocumentContext = {
   groups: SourceGroup[]; snapshot: string; newline: string; bom: string;
 };
 export type LoadedWikiDocument = { context: WikiDocumentContext; metadata: WikiMetadata; path: string };
+type SourceOrigins = { current?: WikiDocumentContext; documents: Map<string, WikiDocumentContext> };
+const sourceOrigins = new WeakMap<Editor, SourceOrigins>();
+function documentIdentity(editor: Editor, snapshot = contentSnapshot(editor.getJSON())) {
+  const groups: (string | null)[] = [];
+  editor.state.doc.forEach(node => groups.push(node.attrs.wikiSourceId || null));
+  return JSON.stringify([editor.state.doc.attrs.wikiMetadata, groups]) + '\0' + snapshot;
+}
+function originsFor(editor: Editor) {
+  let origins = sourceOrigins.get(editor);
+  if (!origins) {
+    origins = { documents: new Map() }; sourceOrigins.set(editor, origins);
+    const tracked = origins;
+    // ProseMirror owns undo/redo. This only restores the Markdown provenance
+    // belonging to the document it restored, including YAML comments and EOLs.
+    editor.on('transaction', ({ transaction }) => {
+      if (!isHistoryTransaction(transaction)) return;
+      const context = tracked.documents.get(documentIdentity(editor));
+      if (context) tracked.current = context;
+    });
+  }
+  return origins;
+}
 
+function importDocument(source: string, path = '') {
+  try { return importLegacyDocument(source, 'articles', path) as any; }
+  catch (error: any) {
+    const messages: Record<string, string> = { localeError: '目前支持编辑简体中文、日文和英文。繁体页面由简体原文自动生成，请打开对应的简体词条编辑。', frontmatter: '文件开头需要有完整的词条属性，请导入从本站编辑器导出的 Markdown 文件。', fileSize: '这份 Markdown 文件过大，请拆分内容后再导入。' };
+    throw new Error(messages[error.message] || error.message);
+  }
+}
 export function validateDocumentSource(source: string): WikiMetadata {
-  return (importLegacyDocument(source, 'articles', '') as any).meta;
+  return importDocument(source).meta;
 }
 
 // Only source provenance is removed. Domain attributes remain part of the comparison.
@@ -37,8 +68,8 @@ function asDomainNode(block: WikiBlockData): JSONContent {
   return { type: 'wikiBlock', attrs: { data, source: block.originalSource ?? blockMarkdown(block), edited: false } };
 }
 
-export function loadWikiDocument(editor: Editor, source: string, path = '', addToHistory = false): LoadedWikiDocument {
-  const draft = importLegacyDocument(source, 'articles', path) as any;
+function readWikiContent(editor: Editor, source: string, path = '') {
+  const draft = importDocument(source, path);
   const json: JSONContent = { type: 'doc', content: [] };
   const normalizedBody = String(draft.originalBody).replaceAll('\r\n', '\n');
   const groups: SourceGroup[] = [];
@@ -57,7 +88,7 @@ export function loadWikiDocument(editor: Editor, source: string, path = '', addT
       const texts: Text[] = [];
       while (walker.nextNode()) texts.push(walker.currentNode as Text);
       for (const text of texts) {
-        if (text.parentElement?.closest('code,pre,script,style') || !/\{\{|\$/.test(text.data)) continue;
+        if (text.parentElement?.closest('code,pre,script,style') || !/\{\{|\$|\[\[/.test(text.data)) continue;
         const parsed = editor.storage.markdown.parser.parse(text.data);
         const cell = document.createElement('template'); cell.innerHTML = parsed;
         const paragraph = cell.content.querySelector('p');
@@ -82,20 +113,41 @@ export function loadWikiDocument(editor: Editor, source: string, path = '', addT
     if (start >= 0) cursor = start + raw.length;
   }
   if (!json.content!.length) json.content = [{ type: 'paragraph' }];
-  editor.chain().setContent(json, false).command(({ tr }) => { tr.setDocAttribute('wikiMetadata', structuredClone(draft.meta)); tr.setMeta('addToHistory', addToHistory); return true; }).run();
+  return { draft, json, groups };
+}
+
+// Uses the same Markdown, HTML-table and Wiki-node parser as document loading.
+// Unwrapping a disclosure must retain its nested formats and future content.
+export function parseWikiBody(editor: Editor, body: string, locale = 'zh'): JSONContent[] {
+  const source = `---\nschemaVersion: 2\nid: inline-conversion\nlocale: ${locale}\nentityType: editorial-article\ntitle: 正文\n---\n\n${body}`;
+  return readWikiContent(editor, source).json.content || [];
+}
+
+export function loadWikiDocument(editor: Editor, source: string, path = '', addToHistory = false): LoadedWikiDocument {
+  const { draft, json, groups } = readWikiContent(editor, source, path);
+  const origins = originsFor(editor);
+  if (!addToHistory) origins.documents.clear();
+  else if (origins.current) origins.documents.set(documentIdentity(editor), origins.current);
+  editor.chain().setContent(json, false).command(({ tr }) => { tr.setDocAttribute('wikiMetadata', structuredClone(draft.meta)); tr.setMeta('addToHistory', addToHistory); if (addToHistory) closeHistory(tr); return true; }).run();
   const actual = editor.getJSON();
   for (const group of groups) group.snapshot = contentSnapshot(actual.content?.filter(node => node.attrs?.wikiSourceId === group.id) ?? []);
   const metadata = structuredClone(draft.meta);
-  return { metadata, path, context: {
+  const context: WikiDocumentContext = {
     source, metadataSource: draft.originalMeta, metadata: structuredClone(metadata),
     body: draft.originalBody, groups, snapshot: contentSnapshot(actual),
     newline: source.includes('\r\n') ? '\r\n' : '\n', bom: source.startsWith('\uFEFF') ? '\uFEFF' : '',
-  } };
+  };
+  origins.current = context; origins.documents.set(documentIdentity(editor, context.snapshot), context);
+  return { metadata, path, context };
 }
 
 export function exportWikiDocument(editor: Editor, context: WikiDocumentContext, metadata: WikiMetadata): string {
+  const snapshot = contentSnapshot(editor.getJSON());
+  const origins = sourceOrigins.get(editor);
+  context = origins?.documents.get(documentIdentity(editor, snapshot)) || origins?.current || context;
+  metadata = metadataForSave(metadata, context.metadata);
   const metadataSame = JSON.stringify(metadata) === JSON.stringify(context.metadata);
-  const documentSame = contentSnapshot(editor.getJSON()) === context.snapshot;
+  const documentSame = snapshot === context.snapshot;
   // A no-op save is byte-for-byte, including YAML comments, BOM and line endings.
   if (metadataSame && documentSame) return context.source;
   const current: { id: string | null; nodes: ProseMirrorNode[] }[] = [];

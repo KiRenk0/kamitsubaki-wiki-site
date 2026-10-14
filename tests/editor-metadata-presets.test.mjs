@@ -130,3 +130,13 @@ test('person activity shortcut retains lifecycle and schema-valid states', () =>
   assert.equal(schema.safeParse(updated).success, true);
   assert.throws(() => setPersonActivity(person, 'graduated'), /Unknown/);
 });
+
+test('exact entity names outrank prefix matches, with romanization and aliases remaining current', () => {
+  const entries = [{id:'kaf-song',title:'歌曲',path:'src/content/songs/kaf/song/zh.md'}, {id:'kaf',title:'花譜',romanized:'KAF Singer',aliases:['花谱的别名'],path:'src/content/people/solo/kaf/zh.md'}];
+  assert.equal(metadataCatalogMatches(entries, {query:'kaf',limit:1})[0].id,'kaf');
+  assert.equal(metadataCatalogMatches(entries, {query:'kaf singer',limit:1})[0].id,'kaf');
+  assert.equal(metadataCatalogMatches(entries, {query:'花譜的別名',limit:1})[0].id,'kaf');
+  entries[1].romanized='Updated Name';
+  assert.equal(metadataCatalogMatches(entries, {query:'kaf singer'}).length,0);
+  assert.equal(metadataCatalogMatches(entries, {query:'updated name'})[0].id,'kaf');
+});

@@ -6,10 +6,15 @@ import { parseDocument } from 'yaml';
 import { fileURLToPath } from 'node:url';
 import { entityRoute } from '../../../src/lib/entityModel.mjs';
 import { renderMarkdownDocument } from '../../../src/lib/markdown.mjs';
+import { createEntityRegistry } from '../../../src/lib/entityRegistry.mjs';
+import { entityCollections } from '../../../src/lib/entityModel.mjs';
+import { renderWikiLinks } from '../../../src/lib/wikiLinks.mjs';
+import { entityInfoModel } from '../../../src/lib/entityInfoModel.mjs';
+import { entityDraftRegistry } from '../../../src/lib/entityDraftRegistry.mjs';
 
 const root = fileURLToPath(new URL('../../../', import.meta.url));
 const contentRoot = resolve(root, 'src/content');
-export type CatalogEntry = { path: string; title: string; romanized: string; locale: string; entityType: string; collection: string; id: string; url: string | undefined; image: string | undefined };
+export type CatalogEntry = { path: string; title: string; romanized: string; aliases?: string[]; summary?: string; locale: string; entityType: string; collection: string; id: string; url: string | undefined; image: string | undefined };
 async function walk(folder: string): Promise<string[]> {
   const entries = await readdir(folder, { withFileTypes: true });
   const nested = await Promise.all(entries.map(entry => entry.isDirectory() ? walk(resolve(folder, entry.name)) :
@@ -18,7 +23,7 @@ async function walk(folder: string): Promise<string[]> {
 }
 export async function readCatalog(): Promise<CatalogEntry[]> {
   const paths = await walk(contentRoot);
-  const entries = await Promise.all(paths.map(async path => {
+  const entries = await Promise.all(paths.map(async (path): Promise<CatalogEntry | null> => {
     const source = await readFile(path, 'utf8');
     const match = source.replace(/^\uFEFF/, '').match(/^---\r?\n([\s\S]*?)\r?\n---/);
     if (!match) return null;
@@ -27,11 +32,22 @@ export async function readCatalog(): Promise<CatalogEntry[]> {
       if (document.errors.length) return null;
       const meta = document.toJS({ maxAliasCount: 100 });
       let url: string | undefined; try { url = `/${meta.locale}${entityRoute(meta)}`; } catch { /* Legacy records remain available as sources. */ }
-      return { url, image: typeof meta.presentation?.image === 'string' ? meta.presentation.image : undefined, path: relative(root, path), title: meta.name || meta.title || meta.id || '', romanized: meta.romanizedName || meta.romanizedTitle || '',
+      return { url, aliases: Array.isArray(meta.aliases) ? meta.aliases.filter((value: unknown) => typeof value === 'string') : [], summary: typeof meta.summary === 'string' ? meta.summary : '', image: typeof meta.presentation?.image === 'string' ? meta.presentation.image : undefined, path: relative(root, path), title: meta.name || meta.title || meta.id || '', romanized: meta.romanizedName || meta.romanizedTitle || '',
         locale: meta.locale, entityType: meta.entityType || '', collection: relative(contentRoot, path).split('/')[0], id: meta.id || meta.translationKey || '' };
     } catch { return null; }
   }));
   return entries.filter((entry): entry is CatalogEntry => Boolean(entry?.title));
+}
+async function readRegistry() {
+  const collections = new Set<string>(entityCollections);
+  const paths = (await walk(contentRoot)).filter(path => collections.has(relative(contentRoot, path).split('/')[0]));
+  const entries = await Promise.all(paths.map(async filePath => {
+    const source = await readFile(filePath, 'utf8');
+    const match = source.match(/^(?:\uFEFF)?---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/);
+    if (!match) throw new Error('词条缺少属性：' + relative(root, filePath));
+    return { filePath, data: parseDocument(match[1]).toJS({ maxAliasCount: 100 }), body: source.slice(match[0].length) };
+  }));
+  return createEntityRegistry(entries, JSON.parse(await readFile(resolve(root, 'src/data/entity-redirects.json'), 'utf8')));
 }
 async function sourcePath(value: string | null) {
   if (!value || !/^src\/content\/.+\/(?:zh|ja|en)\.md$/.test(value) || value.includes('\\') || value.split('/').some(part => part === '..' || part === '.')) throw new Error('无效的词条路径');
@@ -46,6 +62,7 @@ async function requestBody(request: AsyncIterable<Uint8Array>, max = 1_000_000):
 }
 export function localWikiApi(): Plugin {
   let catalog: Promise<CatalogEntry[]> | null = null;
+  let registry: ReturnType<typeof readRegistry> | null = null;
   return { name: 'wiki-novel-local-api', configureServer(server) {
     server.middlewares.use(async (request, response, next) => {
       if (!request.url?.startsWith('/__novel/')) return next();
@@ -59,8 +76,14 @@ export function localWikiApi(): Plugin {
         if (request.method === 'POST' && url.pathname === '/__novel/preview') {
           const { source } = JSON.parse((await requestBody(request)).toString('utf8'));
           if (typeof source !== 'string') throw new Error('缺少 Markdown 内容');
-          const body = source.replace(/^(?:\uFEFF)?---\r?\n[\s\S]*?\r?\n---(?:\r?\n|$)/, '');
-          const rendered = await renderMarkdownDocument(body); return json({ html: rendered.html });
+          const frontmatter = source.match(/^(?:\uFEFF)?---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/);
+          const metadata = frontmatter ? parseDocument(frontmatter[1]).toJS({ maxAliasCount: 100 }) : {};
+          const body = frontmatter ? source.slice(frontmatter[0].length) : source;
+          registry ??= readRegistry();
+          const [rendered, entities] = await Promise.all([renderMarkdownDocument(body), registry]);
+          const currentRegistry = entityDraftRegistry(entities, metadata, body);
+          const linked = renderWikiLinks(rendered.html, currentRegistry, metadata.locale || 'zh');
+          return json({ ...linked, metadata, info: entityInfoModel(metadata, currentRegistry, metadata.locale || 'zh') });
         }
         if (request.method === 'POST' && url.pathname === '/__novel/assets') {
           const mime = String(request.headers['content-type'] || '').split(';')[0];
