@@ -1,5 +1,6 @@
 ---
 import { relationPathCopy } from '../lib/relationPathCopy.mjs';
+import Icon from './Icon.astro';
 import '../styles/relationPath.css';
 const { locale, compare = false } = Astro.props;
 const c = relationPathCopy(locale);
@@ -11,7 +12,7 @@ const c = relationPathCopy(locale);
       <label><span>{c.from}</span><input type="search" data-path-from list="relation-path-entries" placeholder={c.placeholder} aria-describedby="relation-path-hint" autocomplete="off" required disabled /></label>
       <button type="button" data-path-swap aria-label={c.swap} title={c.swap} disabled>⇄</button>
       <label><span>{c.to}</span><input type="search" data-path-to list="relation-path-entries" placeholder={c.placeholder} aria-describedby="relation-path-hint" autocomplete="off" required disabled /></label>
-      <button type="submit" data-path-submit disabled>{compare ? c.compare : c.find} <span aria-hidden="true">↗</span></button>
+      <button type="submit" data-path-submit disabled>{compare ? c.compare : c.find} <span aria-hidden="true"><Icon name="arrow-up-right" /></span></button>
     </div>
     <datalist id="relation-path-entries" data-path-options></datalist>
     <div class="relation-path-options"><label><input type="checkbox" data-path-chronicle disabled />{c.chronicle}</label><p id="relation-path-hint">{c.hint}</p></div>
