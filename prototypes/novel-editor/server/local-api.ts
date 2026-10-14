@@ -1,5 +1,4 @@
 import { articleHTML } from '../../../src/lib/articleMarkdown';
-import { JSDOM } from 'jsdom';
 import type { Plugin } from 'vite';
 import { readdir, readFile, mkdir, writeFile, realpath, access, unlink } from 'node:fs/promises';
 import { resolve, relative, extname } from 'node:path';
@@ -32,8 +31,7 @@ export async function migratePrototypeImages(projectRoot:string) {
 }
 export type CatalogEntry = { path: string; title: string; romanized: string; aliases?: string[]; summary?: string; locale: string; entityType: string; collection: string; id: string; url: string | undefined; image: string | undefined };
 export function localArticleHTML(body:string,locale='zh') {
-  const dom=new JSDOM('<!doctype html>');
-  try{return articleHTML(body,locale,dom.window.document);}finally{dom.window.close();}
+  return articleHTML(body,locale);
 }
 async function walk(folder: string): Promise<string[]> {
   const entries = await readdir(folder, { withFileTypes: true });

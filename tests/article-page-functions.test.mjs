@@ -2,9 +2,15 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {renderArticlePage,articleSitemap} from '../functions/_shared/articlePage.mjs';
 import {onRequestGet as redirectLegacy} from '../functions/[locale]/articles/read/index.js';
+import {articleHTML} from '../src/lib/articleMarkdownRenderer.mjs';
 
 const shell='<!doctype html><html><head><title>Loading</title><meta name="description" content="old"><meta name="robots" content="noindex"><link rel="canonical" href="https://kamitsubaki.wiki/zh/articles/read/"><meta property="og:type" content="website"><meta property="og:title" content="old"><meta property="og:description" content="old"><meta property="og:url" content="old"><meta name="twitter:title" content="old"><meta name="twitter:description" content="old"><script type="application/ld+json">{}</script></head><body><main data-article-page="read"><h1 data-article-title>Loading</h1><p data-article-meta></p><p data-article-summary></p><article class="wiki-reader" data-article-body></article></main></body></html>';
 const env={ASSETS:{fetch:async()=>new Response(shell,{headers:{'Content-Type':'text/html'}})}};
+test('server articles share the client renderer and replacement-like text stays literal',async()=>{
+ const original=globalThis.fetch,body='表格：\n\n| **列** | 值 |\n| --- | --- |\n| {{ruby::花譜::かふ}} | $x^2$ |\n\n字面 $&、$`、$\'、$1。';
+ globalThis.fetch=async()=>Response.json({article:{id:'safe-id',title:'标题 $& $1',summary:'简介 $`',body,version:1}});
+ try{const response=await renderArticlePage({request:new Request('https://kamitsubaki.wiki/zh/articles/read/safe-id/'),env,params:{locale:'zh',id:'safe-id'}}),html=await response.text();assert.equal(response.status,200);assert.ok(html.includes('<h1 data-article-title>标题 $&amp; $1</h1>'));assert.ok(html.includes(articleHTML(body)));assert.equal((html.match(/<article\b/g)||[]).length,1);}finally{globalThis.fetch=original;}
+});
 
 test('dynamic article HTML is readable without JS and escapes unsafe content',async()=>{
  const original=globalThis.fetch;
