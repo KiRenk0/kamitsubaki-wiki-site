@@ -1,3 +1,4 @@
+import {workbenchText as t} from '@/lib/workbench-copy';
 import { useContext, useState } from 'react';
 import type { Editor } from '@tiptap/core';
 import { NodeSelection } from '@tiptap/pm/state';
@@ -42,19 +43,19 @@ export function openLink(editor: Editor, open: OpenTarget) {
   open({ editor, type: 'link', range: { from, to }, attrs: { href: editor.getAttributes('link').href || '', text: editor.state.doc.textBetween(from, to, ' ') } });
 }
 function Action({ label, icon: Icon, onClick, active = false, disabled = false }: { label: string; icon: any; onClick: () => void; active?: boolean; disabled?: boolean }) {
-  return <Tooltip><TooltipTrigger asChild><Button variant={active ? 'secondary' : 'ghost'} size="icon-sm" aria-label={label} disabled={disabled} onClick={onClick}><Icon /></Button></TooltipTrigger><TooltipContent>{label}</TooltipContent></Tooltip>;
+  return <Tooltip><TooltipTrigger asChild><Button variant={active ? 'secondary' : 'ghost'} size="icon-sm" aria-label={t(label)} disabled={disabled} onClick={onClick}><Icon /></Button></TooltipTrigger><TooltipContent>{t(label)}</TooltipContent></Tooltip>;
 }
 export function FormatActions({ editor, open }: { editor: Editor; open: OpenTarget }) {
   const resolveTitle = useTitleResolver();
-  return <><Action label="加粗" icon={Bold} active={editor.isActive('bold')} disabled={!editor.can().toggleBold()} onClick={() => editor.chain().focus().toggleBold().run()} />
-    <Action label="斜体" icon={Italic} active={editor.isActive('italic')} disabled={!editor.can().toggleItalic()} onClick={() => editor.chain().focus().toggleItalic().run()} />
-    <Action label="下划线" icon={Underline} active={editor.isActive('underline')} onClick={() => editor.chain().focus().toggleUnderline().run()} />
-    <Action label="删除线" icon={Strikethrough} active={editor.isActive('strike')} onClick={() => editor.chain().focus().toggleStrike().run()} />
-    <Action label="行内代码" icon={Code} active={editor.isActive('code')} onClick={() => editor.chain().focus().toggleCode().run()} />
-    <Action label="链接" icon={Link} active={editor.isActive('link')} onClick={() => openLink(editor, open)} />
-    <Action label="高亮" icon={Highlighter} active={editor.isActive('highlight')} onClick={() => editor.chain().focus().toggleHighlight().run()} />
-    <Action label="振假名注音" icon={Type} onClick={() => openInline(editor, 'ruby', open)} /><Action label="剧透遮罩" icon={EyeOff} active={editor.isActive("wikiSpoiler")} onClick={() => openInline(editor, 'spoiler', open)} />
-    <Action label="取消特殊效果" icon={Eraser} onClick={() => clearSelectedFormatting(editor, false, resolveTitle)} />
+  return <><Action label={t("加粗")} icon={Bold} active={editor.isActive('bold')} disabled={!editor.can().toggleBold()} onClick={() => editor.chain().focus().toggleBold().run()} />
+    <Action label={t("斜体")} icon={Italic} active={editor.isActive('italic')} disabled={!editor.can().toggleItalic()} onClick={() => editor.chain().focus().toggleItalic().run()} />
+    <Action label={t("下划线")} icon={Underline} active={editor.isActive('underline')} onClick={() => editor.chain().focus().toggleUnderline().run()} />
+    <Action label={t("删除线")} icon={Strikethrough} active={editor.isActive('strike')} onClick={() => editor.chain().focus().toggleStrike().run()} />
+    <Action label={t("行内代码")} icon={Code} active={editor.isActive('code')} onClick={() => editor.chain().focus().toggleCode().run()} />
+    <Action label={t("链接")} icon={Link} active={editor.isActive('link')} onClick={() => openLink(editor, open)} />
+    <Action label={t("高亮")} icon={Highlighter} active={editor.isActive('highlight')} onClick={() => editor.chain().focus().toggleHighlight().run()} />
+    <Action label={t("振假名注音")} icon={Type} onClick={() => openInline(editor, 'ruby', open)} /><Action label={t("剧透遮罩")} icon={EyeOff} active={editor.isActive("wikiSpoiler")} onClick={() => openInline(editor, 'spoiler', open)} />
+    <Action label={t("取消特殊效果")} icon={Eraser} onClick={() => clearSelectedFormatting(editor, false, resolveTitle)} />
   </>;
 }
 export function EditorToolbar({ editor, open, editingContent = false }: { editor: Editor | null; open: OpenTarget; editingContent?: boolean }) {
@@ -92,18 +93,18 @@ export function EditorToolbar({ editor, open, editingContent = false }: { editor
     { id: 'math', label: '独立公式', icon: Sigma, run: () => openDomain(editor, 'math', open) },
   ];
   const shortcuts = [...formats, ...inserts.map(action => ({ ...action, can: true, active: action.id === 'spoiler' && editor.isActive('wikiSpoiler') }))];
-  return <div className="wiki-toolbar-stack"><div ref={ref} className="wiki-format-toolbar" role="toolbar" aria-label="正文格式工具栏" data-shortcuts={visible.size}>
-    <Action label="撤销" icon={Undo2} disabled={!editor.can().undo()} onClick={() => editor.chain().focus().undo().run()} />
-    <Action label="重做" icon={Redo2} disabled={!editor.can().redo()} onClick={() => editor.chain().focus().redo().run()} />
-    <Select disabled={!editor.can().setParagraph() && !editor.can().setHeading({ level: 2 })} value={heading} onValueChange={value => value === 'paragraph' ? editor.chain().focus().setParagraph().run() : editor.chain().focus().setHeading({ level: Number(value) as any }).run()}><SelectTrigger size="sm" aria-label="段落样式" style={{ width: width < 400 ? 80 : 96 }}><SelectValue /></SelectTrigger><SelectContent><SelectGroup><SelectItem value="paragraph">正文</SelectItem>{[1, 2, 3, 4, 5, 6].map(level => <SelectItem value={String(level)} key={level}>标题 {level}</SelectItem>)}</SelectGroup></SelectContent></Select>
+  return <div className="wiki-toolbar-stack"><div ref={ref} className="wiki-format-toolbar" role="toolbar" aria-label={t("正文格式工具栏")} data-shortcuts={visible.size}>
+    <Action label={t("撤销")} icon={Undo2} disabled={!editor.can().undo()} onClick={() => editor.chain().focus().undo().run()} />
+    <Action label={t("重做")} icon={Redo2} disabled={!editor.can().redo()} onClick={() => editor.chain().focus().redo().run()} />
+    <Select disabled={!editor.can().setParagraph() && !editor.can().setHeading({ level: 2 })} value={heading} onValueChange={value => value === 'paragraph' ? editor.chain().focus().setParagraph().run() : editor.chain().focus().setHeading({ level: Number(value) as any }).run()}><SelectTrigger size="sm" aria-label={t("段落样式")} style={{ width: width < 400 ? 80 : 96 }}><SelectValue /></SelectTrigger><SelectContent><SelectGroup><SelectItem value="paragraph">{t("正文")}</SelectItem>{[1, 2, 3, 4, 5, 6].map(level => <SelectItem value={String(level)} key={level}>{t("标题")}{level}</SelectItem>)}</SelectGroup></SelectContent></Select>
     {toolbarShortcutPriority.filter(id => visible.has(id)).map(id => {
       const action = shortcuts.find(action => action.id === id)!;
       return <Action key={id} label={action.label} icon={action.icon} active={action.active} disabled={!action.can} onClick={action.run} />;
     })}
-    <DropdownMenu><DropdownMenuTrigger asChild><Button variant="ghost" size="sm">格式<ChevronDown data-icon="inline-end" /></Button></DropdownMenuTrigger><DropdownMenuContent className="min-w-40"><DropdownMenuGroup>
+    <DropdownMenu><DropdownMenuTrigger asChild><Button variant="ghost" size="sm">{t("格式")}<ChevronDown data-icon="inline-end" /></Button></DropdownMenuTrigger><DropdownMenuContent className="min-w-40"><DropdownMenuGroup>
       {formats.map(action => <DropdownMenuItem key={action.id} disabled={!action.can} onSelect={action.run}><action.icon />{action.label}{action.active ? ' ✓' : ''}</DropdownMenuItem>)}
     </DropdownMenuGroup></DropdownMenuContent></DropdownMenu>
-    <DropdownMenu><DropdownMenuTrigger asChild><Button variant="secondary" size="sm"><Plus data-icon="inline-start" />插入<ChevronDown data-icon="inline-end" /></Button></DropdownMenuTrigger><DropdownMenuContent className="min-w-44"><DropdownMenuGroup>
+    <DropdownMenu><DropdownMenuTrigger asChild><Button variant="secondary" size="sm"><Plus data-icon="inline-start" />{t("插入")}<ChevronDown data-icon="inline-end" /></Button></DropdownMenuTrigger><DropdownMenuContent className="min-w-44"><DropdownMenuGroup>
       {inserts.map(action => <DropdownMenuItem key={action.id} onSelect={action.run}><action.icon />{action.label}</DropdownMenuItem>)}
     </DropdownMenuGroup><DropdownMenuSeparator /><DropdownMenuGroup>{Object.entries(inlineLabels).filter(([kind]) => !['ruby', 'spoiler'].includes(kind)).map(([kind, label]) => <DropdownMenuItem key={kind} onSelect={() => openInline(editor, kind, open)}>{label}</DropdownMenuItem>)}</DropdownMenuGroup></DropdownMenuContent></DropdownMenu>
   </div><TableControls editor={editor} /><TableInsertDialog editor={editor} open={tableOpen} onClose={() => setTableOpen(false)} /></div>;

@@ -60,111 +60,6 @@ function tools({ reading = true, navigationMotion = false } = {}) {
   return { dom, w, document, $, dock, open, escape, flushFrames, flushTimers };
 }
 
-test('reader support opens on click, has a real close target and Escape returns through the menu', () => {
-  const b = tools();
-  try {
-    b.open();
-    const support = b.$('[data-support-float]'), content = b.$('.support-float__content');
-    const hover = new b.w.Event('pointerenter'); Object.defineProperty(hover, 'pointerType', { value: 'mouse' });
-    support.dispatchEvent(hover); assert.equal(support.hasAttribute('data-open'), false);
-    b.$('.support-float__toggle').click();
-    assert.equal(support.hasAttribute('data-open'), true); assert.equal(content.inert, false);
-    assert.equal(b.document.activeElement, b.$('[data-support-close]'));
-    b.escape(b.$('[data-support-close]'));
-    assert.equal(support.hasAttribute('data-open'), false); assert.equal(content.inert, true);
-    assert.equal(b.dock.open, true); assert.equal(b.document.activeElement, b.$('.support-float__toggle'));
-    b.escape(b.$('.support-float__toggle'));
-    assert.equal(b.dock.open, false); assert.equal(b.document.activeElement, b.$('summary'));
-  } finally { b.dom.window.close(); }
-});
-
-test('closing or clicking outside the dock closes nested panels without retaining hidden focus', () => {
-  const b = tools();
-  try {
-    b.open(); b.$('.support-float__toggle').click();
-    b.$('#outside').dispatchEvent(new b.w.Event('pointerdown', { bubbles: true }));
-    assert.equal(b.dock.open, false); assert.equal(b.$('[data-support-float]').hasAttribute('data-open'), false);
-    assert.equal(b.$('.support-float__toggle').getAttribute('aria-expanded'), 'false');
-    assert.equal(b.document.activeElement, b.$('summary'));
-    b.open(); b.$('.support-float__toggle').click();
-    b.dock.open = false; b.dock.dispatchEvent(new b.w.Event('toggle'));
-    assert.equal(b.$('.support-float__content').inert, true);
-    assert.equal(b.document.activeElement, b.$('summary'));
-  } finally { b.dom.window.close(); }
-});
-
-test('support close moves focus outside the panel before making its contents inert', () => {
-  const b = tools();
-  try {
-    b.open(); b.$('.support-float__toggle').click();
-    const content = b.$('.support-float__content'), invalidated = [];
-    let inert = false;
-    Object.defineProperty(content, 'inert', {
-      get: () => inert,
-      set: value => {
-        if (value && content.contains(b.document.activeElement)) invalidated.push(b.document.activeElement);
-        inert = value;
-      },
-    });
-    b.$('[data-support-close]').click();
-    assert.deepEqual(invalidated, [], 'a focused panel descendant must not be invalidated by inert');
-    assert.equal(content.inert, true); assert.equal(b.dock.open, true);
-    assert.equal(b.document.activeElement, b.$('.support-float__toggle'));
-  } finally { b.dom.window.close(); }
-});
-
-test('support pointer-close compensation restores focus after a deferred blur', () => {
-  const b = tools();
-  try {
-    b.open(); b.$('.support-float__toggle').click(); b.$('[data-support-close]').click();
-    // Match the native browser finishing pointer focus invalidation after click.
-    b.$('.support-float__toggle').blur();
-    assert.equal(b.document.activeElement, b.document.body);
-    b.flushFrames();
-    assert.equal(b.document.activeElement, b.$('.support-float__toggle'));
-    assert.equal(b.dock.open, true);
-  } finally { b.dom.window.close(); }
-});
-
-test('support remains clickable through WebKit pointer blur to BODY before click', () => {
-  const b = tools();
-  try {
-    b.open(); b.$('.support-float__toggle').click();
-    const close = b.$('[data-support-close]');
-    close.dispatchEvent(new b.w.Event('pointerdown', { bubbles: true }));
-    close.blur();
-    assert.equal(b.document.activeElement, b.document.body);
-    assert.equal(b.$('[data-support-float]').hasAttribute('data-open'), true);
-    assert.equal(b.$('.support-float__content').inert, false, 'pre-click pointer blur must not hide the clicked control');
-    close.click(); b.flushFrames();
-    assert.equal(b.$('[data-support-float]').hasAttribute('data-open'), false);
-    assert.equal(b.document.activeElement, b.$('.support-float__toggle'));
-    assert.equal(b.dock.open, true);
-
-    b.$('.support-float__toggle').click(); b.$('#outside').focus();
-    assert.equal(b.$('[data-support-float]').hasAttribute('data-open'), false);
-    assert.equal(b.document.activeElement, b.$('#outside'), 'real outside keyboard focus keeps its destination');
-  } finally { b.dom.window.close(); }
-});
-
-test('support close compensation cannot steal focus from another control or a closed dock', () => {
-  const b = tools();
-  try {
-    b.open(); b.$('.support-float__toggle').click(); b.$('[data-support-close]').click();
-    b.$('[data-ai-toggle]').focus(); b.flushFrames();
-    assert.equal(b.document.activeElement, b.$('[data-ai-toggle]'));
-
-    b.$('.support-float__toggle').click(); b.$('[data-support-close]').click();
-    b.$('.support-float__toggle').blur(); b.dock.open = false; b.flushFrames();
-    assert.equal(b.document.activeElement, b.document.body);
-
-    b.open(); b.$('.support-float__toggle').click(); b.$('[data-support-close]').click();
-    b.$('[data-ai-toggle]').click(); b.flushTimers(); b.flushFrames();
-    assert.equal(b.document.activeElement, b.$('[data-ai-input]'));
-    assert.equal(b.dock.open, false);
-  } finally { b.dom.window.close(); }
-});
-
 test('contact Escape returns to its menu entry and footer links still open contact', () => {
   const b = tools();
   try {
@@ -251,12 +146,12 @@ test('AI Escape preserves conversation rename cancellation and native dialog own
   } finally { b.dom.window.close(); }
 });
 
-test('ordinary pages retain support hover and AI returns to its existing launcher', () => {
+test('ordinary pages keep AI focus restoration and donation waits for a click', () => {
   const b = tools({ reading: false });
   try {
     const hover = new b.w.Event('pointerenter'); Object.defineProperty(hover, 'pointerType', { value: 'mouse' });
     b.$('[data-support-float]').dispatchEvent(hover);
-    assert.equal(b.$('[data-support-float]').hasAttribute('data-open'), true);
+    assert.equal(b.$('[data-support-float]').hasAttribute('data-open'), false);
     b.open(); b.$('[data-ai-toggle]').click(); b.flushTimers();
     b.$('[data-ai-close]').click();
     assert.equal(b.document.activeElement, b.$('[data-ai-toggle]'));

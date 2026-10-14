@@ -1,3 +1,4 @@
+import {editorFetch,localEditorHost} from './editor-host';
 import { entitySourcePath } from '../../../../src/lib/contentLayout.mjs';
 import { importMarkdown, validateDraft } from '../../../../src/lib/visualEditor.mjs';
 import { metadataDisplayLabel } from './metadata-guide';
@@ -46,12 +47,12 @@ export function reviewSnapshot(path: string, content: string, baseContent?: stri
 // The prototype is intentionally bound to the existing local service. A mode
 // check before every write prevents a proxy/configuration mistake publishing it.
 export class LocalReviewService {
-  constructor(private request: typeof fetch = (url, options) => fetch(url, options), private storage: Storage = localStorage) {}
+  constructor(private request: typeof fetch = (url, options) => editorFetch(url, options), private storage: Storage = localStorage) {}
   localAccount(expected?: string, signal?: AbortSignal) { return this.session(expected, signal); }
   private async api<T>(path: string, method = 'GET', body?: unknown, signal?: AbortSignal): Promise<T> {
     if (method !== 'GET') {
       const current = await this.api<{ account: ReviewAccount; mode: string }>('/api/editor/session');
-      if (current.mode !== 'local') throw new ReviewError('当前入口只进行本地投稿测试，请连接本地服务。');
+      if ((localEditorHost()?current.mode !== 'local':current.mode !== 'github')) throw new ReviewError('当前入口只进行本地投稿测试，请连接本地服务。');
       const owner = (body as { accountId?: string })?.accountId;
       if (owner && owner !== current.account?.id) throw new ReviewError('登录账号已变化，请重新连接并检查当前账号的草稿和投稿。', 409);
     }
@@ -65,7 +66,7 @@ export class LocalReviewService {
   }
   private async session(expected?: string, signal?: AbortSignal) {
     const data = await this.api<{ account: ReviewAccount; mode: string }>('/api/editor/session', 'GET', undefined, signal);
-    if (data.mode !== 'local') throw new ReviewError('当前入口只进行本地投稿测试，请连接本地服务。');
+    if ((localEditorHost()?data.mode !== 'local':data.mode !== 'github')) throw new ReviewError('当前入口只进行本地投稿测试，请连接本地服务。');
     if (!data.account?.id || (expected && data.account.id !== expected)) throw new ReviewError('登录账号已变化，请重新连接并检查当前账号的草稿和投稿。', 409);
     return data.account;
   }
@@ -201,5 +202,5 @@ export class LocalReviewService {
   }
   async retry(account: ReviewAccount, item: ReviewSubmission) { await this.session(account.id); return this.api('/api/editor/submissions/' + item.id + '/retry', 'POST', { accountId: account.id }); }
   async withdraw(account: ReviewAccount, item: ReviewSubmission) { await this.session(account.id); return this.api<ReviewSubmission>('/api/editor/submissions/' + item.id + '/withdraw', 'POST', { accountId: account.id, version: item.version }); }
-  async switchAccount(account: ReviewAccount) { await this.session(account.id); await this.api('/__local/session', 'POST', { account: account.id === 'alice' ? 'bob' : 'alice' }); }
+  async switchAccount(account: ReviewAccount) { if(!localEditorHost())throw new ReviewError("正式网站请通过账号菜单切换身份。"); await this.session(account.id); await this.api('/__local/session', 'POST', { account: account.id === 'alice' ? 'bob' : 'alice' }); }
 }

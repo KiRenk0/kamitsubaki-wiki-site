@@ -24,7 +24,7 @@ export function communityEditorMarkup(copy={}){
  <div class="community-editor-fields">${select('country',[['','—']])}${select('subdivisionCode',[['','—']])}${select('cityId',[['','—']])}</div>
  <label data-manual-city hidden><span>${label('city')}</span><input class="workspace-control dui-input" data-ui-kit name="city" maxlength="100"></label>
  <p class="community-field-help">${label('locationNamesHelp','支持中文与原名搜索。中文名称来自公开地名目录；缺少中文译名时显示原名。')}</p><p data-location-timezone class="community-field-help" hidden></p>${action('useLocationZone','data-location-use-zone hidden','quiet')}<p data-location-status class="community-field-help" role="status"></p>${action('retry','data-location-retry hidden','quiet')}
- <p class="community-field-help">${label('locationSource','地点目录来自')} <a href="https://github.com/dr5hn/countries-states-cities-database" target="_blank" rel="noopener noreferrer">Countries States Cities · ODbL</a> / <a href="https://www.geonames.org/" target="_blank" rel="noopener noreferrer">GeoNames · CC BY</a> / <a href="https://www.wikidata.org/" target="_blank" rel="noopener noreferrer">Wikidata · CC0</a> / <a href="https://github.com/youzan/vant/tree/main/packages/vant-area-data" target="_blank" rel="noopener noreferrer">Vant · MIT</a></p>
+
  ${input('venue','text',500)}</fieldset>
  <div class="community-editor-fields">${select('eventStatus',[['scheduled','正常安排'],['postponed','延期'],['cancelled','取消']])}${input('changeNote','text',2000)}</div>
  </fieldset>

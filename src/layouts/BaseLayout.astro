@@ -2,6 +2,7 @@
 import { getCollection } from '../lib/contentAuditContext';
 import ToolsDock from '../components/ToolsDock.astro';
 import SupportFloat from '../components/SupportFloat.astro';
+import SupportDialog from '../components/SupportDialog.astro';
 import CommunityFloat from '../components/CommunityFloat.astro';
 import AccountChrome from '../components/AccountChrome.astro';
 import AiChatWidget from '../components/AiChatWidget.astro';
@@ -213,6 +214,7 @@ const liveEventsCopy = siteContent?.liveEvents;
     <div class="noise-bg"></div>
 
     <SupportFloat locale={lang} />
+    <SupportDialog locale={lang} />
     <CommunityFloat locale={lang} />
     <ToolsDock lang={lang} reading={reading}>
       <slot name="tools" />

@@ -61,7 +61,8 @@ if (!announcement) return;
   let closeTimer: number | undefined;
   let autoOpenTimer: number | undefined;
 
-  const openModal = () => {
+  const openModal = (event?: Event) => {
+    window.dispatchEvent(new window.CustomEvent("wiki-announcement-displayed",{detail:{automatic:!event}}));
     if (!(modal instanceof HTMLElement)) return;
     if (autoOpenTimer !== undefined) window.clearTimeout(autoOpenTimer);
     if (closeTimer !== undefined) window.clearTimeout(closeTimer);

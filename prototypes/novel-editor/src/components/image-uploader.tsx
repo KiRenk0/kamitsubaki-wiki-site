@@ -1,3 +1,5 @@
+import {workbenchText as t} from '@/lib/workbench-copy';
+import {editorApiUrl,localEditorHost,registerStagedImage} from '@/lib/editor-host';
 import { useContext, useEffect, useRef, useState } from 'react';
 import Dashboard from '@uppy/dashboard';
 import zhCN from '@uppy/locales/lib/zh_CN';
@@ -43,7 +45,7 @@ export function ImageUploader({ source, image, dark, onUploaded, onBusy }: {
             }
             for (const file of transport!.queue.getFiles()) {
               if (file.meta.preparing) { transport!.queue.info('正在准备图片，请稍后上传。', 'info', 3000); return false; }
-              transport!.setJob(file.id, { id: file.id, file: file.data, url: scope.purpose === 'article' ? '/api/articles/assets' : '/api/editor/assets', headers: { 'X-Novel-Local-Account': account.id }, metadata: { accountId: account.id, declaredMime: file.type, source: note.source.trim(), alt: note.image.alt, name: file.name } });
+              transport!.setJob(file.id, { id: file.id, file: file.data, url: editorApiUrl(scope.purpose === 'article' ? '/api/articles/assets' : '/api/editor/assets'), headers: localEditorHost()?{ 'X-Novel-Local-Account': account.id }:{}, metadata: { accountId: account.id, declaredMime: file.type, source: note.source.trim(), alt: note.image.alt, name: file.name } });
               submittedNotes.set(file.id, { source: note.source.trim(), image: structuredClone(note.image) });
             }
             return true;
@@ -59,6 +61,7 @@ export function ImageUploader({ source, image, dark, onUploaded, onBusy }: {
               if (!/^[a-f0-9]{64}$/.test(asset.id) || !(asset.reference || asset.url)) throw Error('图片暂存回执不完整，请重试。');
               const note = submittedNotes.get(result.id);
               if (!note) throw Error('图片填写信息已变化，请重新选择。');
+              registerStagedImage(asset.id);
               const attachment: ReviewAttachment = { url: asset.reference || asset.url, alt: note.image.alt, source: note.source, staged: { purpose: scope.purpose, id: asset.id, ownerId: account.id, size: asset.size, mime: asset.mime, source: note.source, alt: note.image.alt.trim(), ...(scope.purpose === 'article' ? { image: { ...note.image, assetId: asset.id } } : {}) } };
               scope.remember(attachment); current.current.onUploaded(attachment); setError('');
             } catch (err: any) { if (!cancelled) setError(err.message); }
@@ -66,7 +69,7 @@ export function ImageUploader({ source, image, dark, onUploaded, onBusy }: {
           },
         });
         const { queue } = transport;
-        queue.use(Dashboard, { target: host.current, inline: true, width: '100%', height: 280, locale: zhCN, theme: dark ? 'dark' : 'light', proudlyDisplayPoweredByUppy: false, hideProgressDetails: false, showRemoveButtonAfterComplete: true, note: scope.purpose === 'entry' ? 'PNG、JPEG、WebP；超过 4 MiB 会另存压缩副本，原图保持不变。' : 'PNG、JPEG、WebP、GIF；单张最多 20 MiB。', fileManagerSelectionType: 'files' });
+        queue.use(Dashboard, { target: host.current, inline: true, width: '100%', height: 280, locale: zhCN, theme: dark ? 'dark' : 'light', proudlyDisplayPoweredByUppy: false, hideProgressDetails: false, showRemoveButtonAfterComplete: true, note: scope.purpose === 'entry' ? t("PNG、JPEG、WebP；超过 4 MiB 会另存压缩副本，原图保持不变。") : t("PNG、JPEG、WebP、GIF；单张最多 20 MiB。"), fileManagerSelectionType: 'files' });
         queue.on('file-added', async (file: any) => {
           if (scope.purpose !== 'entry') return;
           queue.setFileMeta(file.id, { preparing: true });
@@ -88,5 +91,5 @@ export function ImageUploader({ source, image, dark, onUploaded, onBusy }: {
     void run();
     return () => { cancelled = true; transport?.destroy(); current.current.onBusy(false); };
   }, [scope?.key, scope?.purpose, dark, attempt]);
-  return <section className="wiki-image-upload" aria-label="上传图片"><p className="wiki-node-editor-help">图片使用站内私有暂存，完成编辑后插入正文，随投稿一起审核。</p>{!ready && !error ? <p role="status">正在连接图片暂存…</p> : null}<div ref={host} />{error ? <p role="alert" className="text-destructive">{error}</p> : null}{error && !ready ? <Button variant="outline" onClick={() => setAttempt(value => value + 1)}>重新连接上传</Button> : null}</section>;
+  return <section className="wiki-image-upload" aria-label={t("上传图片")}><p className="wiki-node-editor-help">{t("图片使用站内私有暂存，完成编辑后插入正文，随投稿一起审核。")}</p>{!ready && !error ? <p role="status">{t("正在连接图片暂存…")}</p> : null}<div ref={host} />{error ? <p role="alert" className="text-destructive">{error}</p> : null}{error && !ready ? <Button variant="outline" onClick={() => setAttempt(value => value + 1)}>{t("重新连接上传")}</Button> : null}</section>;
 }

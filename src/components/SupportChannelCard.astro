@@ -3,29 +3,34 @@ import Icon from './Icon.astro';
 import type { SupportChannel } from '../data/support';
 import { getSupportCopy } from '../data/supportCopy';
 import { resolveLocaleCopy } from '../lib/i18n.mjs';
+import {supportImageUrl,supportQrCropStyle} from '../lib/supportAssets.mjs';
+import '../styles/supportQr.css';
 import { supportExternalUrl } from '../lib/support';
 
 interface Props { channel: SupportChannel; locale: string; index: number }
 const { channel, locale, index } = Astro.props;
 const copy = getSupportCopy(locale);
 const href = supportExternalUrl(channel.url);
+const qr=supportImageUrl(channel.qrImageUrl||null);
+const qrStyle=supportQrCropStyle(channel);
 const name = resolveLocaleCopy(channel.name, locale);
 ---
 
-<article class="support-channel" data-available={String(Boolean(href))} data-card-kind={href?'action':undefined} aria-labelledby={`channel-${channel.id}`}>
+<article class="support-channel" data-available={String(Boolean(href||qr))} data-card-kind={href?'action':undefined} aria-labelledby={`channel-${channel.id}`}>
   <div class="support-channel__top">
     <span class="support-index" aria-hidden="true">{String(index + 1).padStart(2, '0')}</span>
-    <span class="support-status"><span aria-hidden="true"></span>{href ? copy.available : copy.unavailable}</span>
+    <span class="support-status"><span aria-hidden="true"></span>{href||qr ? copy.available : copy.unavailable}</span>
   </div>
   <h3 id={`channel-${channel.id}`}>{name}</h3>
   <p>{resolveLocaleCopy(channel.description, locale)}</p>
+  {qr&&<div class="support-channel__qr"><a class="support-qr-frame" href={qr} target="_blank" rel="noopener noreferrer"><span class="support-qr-window" data-cropped={String(Boolean(qrStyle))} style={qrStyle}><img src={qr} alt={`${name} · ${locale==='en'?'Support QR code':locale==='ja'?'支援用QRコード':'支持收款码'}`} loading="lazy"/></span></a>{channel.recipientLabel&&<p>{resolveLocaleCopy(channel.recipientLabel,locale)}</p>}<a href={qr} download target="_blank" rel="noopener noreferrer">{locale==='en'?'Save original QR image':locale==='ja'?'QRコードの原画像を保存':'保存二维码原图'}</a></div>}
   <div class="support-channel__action">
     {href ? (
       <a class="support-button" href={href} target="_blank" rel="noopener noreferrer" aria-label={`${copy.visit} · ${name} (${copy.external})`}>
         {copy.visit}<span aria-hidden="true"><Icon name="arrow-up-right" /></span>
       </a>
       <span class="support-note">{copy.external}</span>
-    ) : (
+    ) : qr?null: (
       <span class="support-note">{copy.unavailableNote}</span>
     )}
   </div>

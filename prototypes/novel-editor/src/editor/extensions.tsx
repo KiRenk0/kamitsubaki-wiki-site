@@ -1,3 +1,4 @@
+import {editorFetch as fetch,editorHost,localEditorHost,previewAssetUrl,previewHTML,restoreBrowserImages,registerStagedImages} from '@/lib/editor-host';
 import { Extension, Node, Mark, mergeAttributes, nodeInputRule, type Editor } from '@tiptap/core';
 import { DOMSerializer } from '@tiptap/pm/model';
 import { ReactNodeViewRenderer, NodeViewWrapper, type NodeViewProps } from '@tiptap/react';
@@ -87,7 +88,7 @@ function PreservedPreview({ source }: { source: string }) {
   const [html, setHtml] = useState(''); const [error, setError] = useState('');
   useEffect(() => {
     const controller = new AbortController();
-    fetch('/__novel/preview', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ source }), signal: controller.signal }).then(async response => { const result = await response.json(); if (!response.ok) throw new Error(result.error); setHtml(result.html); }).catch(error => { if (error.name !== 'AbortError') setError('预览暂时无法读取，原有内容仍完整保留。'); });
+    fetch('/__novel/preview', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ source }), signal: controller.signal }).then(async response => { const result = await response.json(); if (!response.ok) throw new Error(result.error); restoreBrowserImages(source).then(()=>setHtml(previewHTML(result.html))); }).catch(error => { if (error.name !== 'AbortError') setError('预览暂时无法读取，原有内容仍完整保留。'); });
     return () => controller.abort();
   }, [source]);
   return html ? <div className="wiki-preserved-preview" dangerouslySetInnerHTML={{ __html: html }} /> : <p>{error || '正在读取原有内容…'}</p>;
@@ -120,7 +121,7 @@ function ImageView(props: NodeViewProps) {
   const moveable = useRef<Moveable | null>(null);
   useEffect(() => { if (!props.selected || !image || !container) return; const frame = requestAnimationFrame(() => moveable.current?.updateRect()); return () => cancelAnimationFrame(frame); }, [props.selected, image, container]);
   return <NodeViewWrapper ref={setContainer} as="figure" className="wiki-article-image" contentEditable={false}>
-    {safeUrl(attrs.src) ? <img ref={setImage} src={attrs.src} alt={attrs.alt || ''} title={attrs.title || undefined} width={imageDimension(attrs.width) || undefined} height={imageDimension(attrs.height) || undefined} style={{width: imageDimension(attrs.width) || undefined, height: 'auto'}} loading="lazy" onLoad={() => moveable.current?.updateRect()} draggable={false} onClick={event => { event.preventDefault(); event.stopPropagation(); props.editor.commands.setNodeSelection(props.getPos()); props.editor.view.focus(); requestAnimationFrame(() => moveable.current?.updateRect()); }} /> : <div className="wiki-media-placeholder"><ImageIcon /><span>添加图片链接</span></div>}
+    {safeUrl(attrs.src) ? <img ref={setImage} src={previewAssetUrl(attrs.src)} alt={attrs.alt || ''} title={attrs.title || undefined} width={imageDimension(attrs.width) || undefined} height={imageDimension(attrs.height) || undefined} style={{width: imageDimension(attrs.width) || undefined, height: 'auto'}} loading="lazy" onLoad={() => moveable.current?.updateRect()} draggable={false} onClick={event => { event.preventDefault(); event.stopPropagation(); props.editor.commands.setNodeSelection(props.getPos()); props.editor.view.focus(); requestAnimationFrame(() => moveable.current?.updateRect()); }} /> : <div className="wiki-media-placeholder"><ImageIcon /><span>添加图片链接</span></div>}
     {props.selected && image && container ? <Moveable ref={moveable} target={image} container={container} origin={false} resizable keepRatio useResizeObserver useMutationObserver renderDirections={['nw', 'ne', 'sw', 'se']} stopPropagation onResizeStart={() => props.editor.view.dispatch(closeHistory(props.editor.state.tr))} onResize={({target, width}) => {target.style.width = `${width}px`;target.style.height = 'auto';}} onResizeEnd={({target, isDrag}) => {
       if (!isDrag || props.editor.isDestroyed) return;
       const current = props.editor.state.doc.nodeAt(props.getPos());

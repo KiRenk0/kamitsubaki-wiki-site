@@ -20,3 +20,6 @@ for(const locale of ['zh','zh-tw','zh-hk','ja','en']){
  for(const html of [editor,article])assert.ok(!/data-[\w-]*(?:api|api-base|api-url)="https?:\/\/(?:localhost|127\.0\.0\.1)/.test(html),`${locale}: local API present`);
 }
 console.log('Online release gate passed: five locales, twelve contribution/account/gallery/community pages per locale, PR enabled, local fixtures disabled, production Worker URLs.');
+
+const home=await readFile(resolve(root,'zh/index.html'),'utf8');assert.ok(!home.includes('src=\"/_editor/'),'Editor code must not load on reading pages.');
+const workbench=await readFile(resolve(root,'zh/contribute/editor/index.html'),'utf8');assert.ok(workbench.includes('src=\"/_editor/workbench.js\"'),'Editing pages must load the separate built editor.');

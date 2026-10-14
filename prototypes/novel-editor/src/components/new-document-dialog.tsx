@@ -1,3 +1,4 @@
+import {workbenchText as t} from '@/lib/workbench-copy';
 import { useState } from "react";
 import { FileText } from "lucide-react";
 import {
@@ -31,13 +32,12 @@ export function NewDocumentDialog({
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="flex max-h-[calc(100dvh-2rem)] flex-col sm:max-w-2xl">
         <DialogHeader>
-          <DialogTitle>新建词条</DialogTitle>
+          <DialogTitle>{t("新建词条")}</DialogTitle>
           <DialogDescription>
-            选择你要写的内容。先写正文，资料可在属性面板继续完善。
-          </DialogDescription>
+            {t("选择你要写的内容。先写正文，资料可在属性面板继续完善。")}</DialogDescription>
         </DialogHeader>
         <ChoiceField
-          label="写作语言"
+          label={t("写作语言")}
           value={locale}
           onChange={setLocale}
           options={[
@@ -45,33 +45,32 @@ export function NewDocumentDialog({
             ["ja", "日文"],
             ["en", "英文"],
           ]}
-          description="繁体页面由简体原文生成，无需重复填写。"
+          description={t("繁体页面由简体原文生成，无需重复填写。")}
         />
         <div
           className="grid min-h-0 grid-cols-2 gap-2 overflow-y-auto pr-1 sm:grid-cols-3"
-          aria-label="选择词条类型"
+          aria-label={t("选择词条类型")}
         >
           {documentTemplates.map((template) => (
             <Button
               key={template.type}
               variant="outline"
               className="h-auto min-h-24 items-start justify-start whitespace-normal p-3 text-left"
-              aria-label={`新建${template.label}`}
+              aria-label={t("新建")+t(template.label)}
               onClick={() => onCreate(template.type, locale)}
             >
               <FileText className="mt-1 shrink-0" />
               <span>
-                <strong className="block">{template.label}</strong>
+                <strong className="block">{t(template.label)}</strong>
                 <span className="mt-1 block text-xs font-normal leading-relaxed text-muted-foreground">
-                  {template.description}
+                  {t(template.description)}
                 </span>
               </span>
             </Button>
           ))}
         </div>
         <p className="text-xs text-muted-foreground">
-          草稿自动保存在当前浏览器中。提交审核前，可以继续补全资料。
-        </p>
+          {t("草稿自动保存在当前浏览器中。提交审核前，可以继续补全资料。")}</p>
       </DialogContent>
     </Dialog>
   );

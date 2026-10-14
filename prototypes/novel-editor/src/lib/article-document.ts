@@ -4,14 +4,14 @@ import {reviewAttachments,type ReviewAttachment} from './review-attachments';
 export type ArticleImage = {assetId?:string;galleryId?:string;src?:string;alt:string;caption:string;author:string;sourceTitle:string;sourceUrl:string;rightsBasis:string;rightsEvidence:string};
 export type ArticleContent = {title:string;summary:string;body:string;category:string;relatedEntities:string[];mediaRefs?:ArticleImage[]};
 export type ArticleBinding = {ownerId:string;articleId:string;revisionId:string;locale:string;baseVersion:number;fingerprint:string;draftVersion:number;status:string;updatedAt:string;withdrawnAt?:string|null};
-export type ArticleSnapshot = {key:string;source:string;locale:string;content:ArticleContent;attachments:ReviewAttachment[];binding?:ArticleBinding};
+export type ArticleSnapshot = {key:string;source:string;locale:string;content:ArticleContent;attachments:ReviewAttachment[];binding?:ArticleBinding;base?:{articleId:string;version:number}};
 export const articleImageUrl=(image:ArticleImage)=>image.src||'/_private/article-assets/'+image.assetId;
 export function articleLocalImages(body:string){return reviewAttachments(body,parseVisualBlocks(body));}
 export function sameArticleContent(a:ArticleContent,b:ArticleContent) {
  const canonical=(content:ArticleContent)=>({title:content.title.trim(),summary:content.summary.trim(),body:content.body,category:content.category,relatedEntities:[...new Set(content.relatedEntities)],mediaRefs:(content.mediaRefs||[]).map(ref=>({assetId:ref.assetId,galleryId:ref.galleryId,src:ref.src,...Object.fromEntries(['alt','caption','author','sourceTitle','sourceUrl','rightsBasis','rightsEvidence'].map(key=>[key,String((ref as any)[key]||'').trim()]))}))});
  return JSON.stringify(canonical(a))===JSON.stringify(canonical(b));
 }
-export function articleSnapshot(key:string,source:string,ledger:ReviewAttachment[]=[],binding?:ArticleBinding,bodyImages:{src:string;alt?:string;caption?:string}[]=[]):ArticleSnapshot {
+export function articleSnapshot(key:string,source:string,ledger:ReviewAttachment[]=[],binding?:ArticleBinding,bodyImages:{src:string;alt?:string;caption?:string}[]=[],base?:{articleId:string;version:number}):ArticleSnapshot {
  const draft=importMarkdown(source,'articles') as any,meta=draft.meta;
  if(meta.entityType!=='editorial-article')throw Error('请先选择文章类型。');
  if(!['zh','ja','en'].includes(meta.locale))throw Error('请编辑简体中文、日文或英文原文，繁体页面由简体内容生成。');
@@ -22,7 +22,7 @@ export function articleSnapshot(key:string,source:string,ledger:ReviewAttachment
  for(const image of bodyImages)currentImages.set(image.src,{alt:image.alt||'',caption:image.caption||''});
  const registered = [...(meta.articleMediaRefs || []), ...ledger.filter(asset => asset.staged?.purpose === 'article' && asset.staged.image && body.includes(asset.url)).map(asset => ({ ...asset.staged!.image!, assetId: asset.staged!.id }))];
  const mediaRefs=[...new Map(registered.filter((ref:ArticleImage)=>body.includes(articleImageUrl(ref))).map((ref:ArticleImage)=>[articleImageUrl(ref), {...ref,...currentImages.get(articleImageUrl(ref))}])).values()];
- return {key,source,locale:meta.locale,binding,attachments:reviewAttachments(source,draft.blocks,ledger),content:{title:meta.title||'',summary:meta.summary||'',category:meta.articleCategory||'archival',relatedEntities:meta.relatedEntities||[],body,...(mediaRefs.length?{mediaRefs}:{})}};
+ return {key,source,locale:meta.locale,binding,base,attachments:reviewAttachments(source,draft.blocks,ledger),content:{title:meta.title||'',summary:meta.summary||'',category:meta.articleCategory||'archival',relatedEntities:meta.relatedEntities||[],body,...(mediaRefs.length?{mediaRefs}:{})}};
 }
 export function articleSourceWithContent(source:string,content:ArticleContent) {
  const match=source.match(/^(?:\uFEFF)?---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/);if(!match)throw Error('文章缺少属性，请保留本地草稿。');

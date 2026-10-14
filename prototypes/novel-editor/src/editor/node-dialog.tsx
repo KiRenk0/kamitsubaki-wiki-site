@@ -1,3 +1,4 @@
+import {editorHost,retainBrowserImage} from '@/lib/editor-host';
 import { lazy, Suspense, useContext, useEffect, useRef, useState } from 'react';
 import type { Editor } from '@tiptap/core';
 import { Plus, Trash2, AlertCircle, Clock, ArrowUp, ArrowDown } from 'lucide-react';
@@ -28,6 +29,7 @@ import { uploadGalleryFiles } from '../../../../src/lib/galleryUploadQueue.mjs';
 export type NodeEditTarget = { editor: Editor; type: 'wikiInline' | 'wikiBlock' | 'image' | 'link'; attrs: any; draftAttrs?: any; position?: number; range: { from: number; to: number } };
 const providers: [string, string][] = [['youtube', 'YouTube'], ['bilibili', 'Bilibili'], ['spotify', 'Spotify'], ['apple-music', 'Apple Music'], ['netease', '网易云音乐'], ['qq-music', 'QQ 音乐']];
 export async function uploadLocalImage(file: File, signal?: AbortSignal) {
+  if(editorHost())return retainBrowserImage(file);
   const [result] = await uploadGalleryFiles([{ id: crypto.randomUUID(), file, metadata: {}, url: '/__novel/assets' }], {signal});
   if (result?.error) throw result.error;
   if (!result?.response?.url) throw Error('图片保存回执不完整，请重试。');

@@ -105,3 +105,8 @@ test('a queued close event from a previous opening cannot detach a reopened bubb
  const stale=new Event('close');Object.defineProperty(stale,'target',{value:dialog});root.dispatchEvent(stale);
  assert.equal(dialog.open,true);assert.equal(watchers(),1);controller.close();assert.equal(dialog.open,false);assert.equal(watchers(),0);
 });
+
+test('location dropdowns match their reference width rather than expanding across the viewport',async()=>{
+ const reference={x:700,y:420,width:250,height:48},floating={style:{}},platform={getDocumentElement:()=>({}),isRTL:()=>false,getOffsetParent:()=>null,isElement:()=>false,convertOffsetParentRelativeRectToViewportRelativeRect:({rect})=>rect,getDimensions:element=>({width:parseFloat(element.style.width)||1260,height:330}),getClippingRect:()=>({x:0,y:0,width:1280,height:900}),getElementRects:()=>({reference,floating:{x:0,y:0,width:parseFloat(floating.style.width)||1260,height:330}})};
+ const result=await computeEditorPosition(reference,floating,{platform,matchReferenceWidth:true});assert.equal(floating.style.width,'250px');assert.equal(result.x,700);assert.ok(result.y>=reference.y+reference.height);
+});

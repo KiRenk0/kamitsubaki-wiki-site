@@ -7,7 +7,7 @@ TomSelect.define('clear_button',clearButton);
 if(typeof window!=='undefined'){
 window.CommunityTomSelect=TomSelect;
 window.CommunityLocationWatch=autoUpdate;
-window.CommunityLocationPosition=positionEditorSurface;
+window.CommunityLocationPosition=(reference,surface,options)=>positionEditorSurface(reference,surface,{...options,matchReferenceWidth:true});
 window.CommunityDateTime=DateTime;
 
 }

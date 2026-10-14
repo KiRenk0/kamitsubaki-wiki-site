@@ -1,6 +1,6 @@
 ---
-import EditorWorkbench from '../../../components/editor/EditorWorkbench.astro';
+import NovelWorkbench from '../../../components/editor/NovelWorkbench.astro';
 import {supportedLocales} from '../../../lib/i18n.mjs';
 export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
 ---
-<EditorWorkbench locale={Astro.params.locale!}/>
+<NovelWorkbench locale={Astro.params.locale!}/>

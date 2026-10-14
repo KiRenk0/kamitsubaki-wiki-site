@@ -1,13 +1,13 @@
 {
   "name": "kamitsubaki-wiki-site",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "private": true,
   "type": "module",
   "scripts": {
     "i18n:generate": "node scripts/generate-traditional-chinese.mjs",
-    "predev": "pnpm i18n:generate",
+    "predev": "pnpm build:editor && pnpm i18n:generate",
     "dev": "astro dev",
-    "prebuild": "pnpm validate:content && pnpm i18n:generate && pnpm gallery:entities:check && pnpm gallery:imports:check && pnpm gallery:publication:check",
+    "prebuild": "pnpm build:editor && pnpm validate:content && pnpm i18n:generate && pnpm gallery:entities:check && pnpm gallery:imports:check && pnpm gallery:publication:check",
     "build": "astro build",
     "build:online": "node scripts/build-online.mjs",
     "check:online-build": "node scripts/audit-online-build.mjs",
@@ -41,7 +41,8 @@
     "check:ui-icons": "node scripts/check-ui-icons.mjs",
     "icons:generate": "node scripts/generate-ui-icon-assets.mjs",
     "release:build": "node scripts/release-build.mjs",
-    "dev:novel": "pnpm --dir prototypes/novel-editor dev"
+    "dev:novel": "pnpm --dir prototypes/novel-editor dev",
+    "build:editor": "node scripts/build-editor-workbench.mjs"
   },
   "dependencies": {
     "@codemirror/autocomplete": "^6.20.3",

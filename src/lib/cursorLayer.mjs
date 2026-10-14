@@ -1,6 +1,7 @@
 // One cursor for every page. The top layer escapes dialog transforms and clipping.
 export function installCursorLayer(cursor) {
-  if(!cursor || typeof cursor.showPopover!=='function')return;
+  if(!cursor || typeof cursor.showPopover!=='function'||cursor.dataset.cursorReady)return;
+  cursor.dataset.cursorReady='true';
   const root=document.documentElement;
   const home=document.createComment('cursor-home');cursor.before(home);
   cursor.setAttribute('popover','manual');
@@ -16,16 +17,21 @@ export function installCursorLayer(cursor) {
   const hide=()=>{root.removeAttribute('data-custom-cursor');cursor.style.visibility='hidden';};
   // Browser pickers own a separate top-layer surface. Keep the native pointer
   // while interacting with them instead of hiding it behind a select/datalist.
-  const nativePicker=target=>target?.closest('select,option,input[list]');
+  const nativePicker=target=>target?.closest('select,option,input[list],input[type=date],input[type=month],input[type=week],input[type=time],input[type=datetime-local],input[type=color],input[type=file],input[type=range]');
   const move=event=>{
-    if(event.pointerType==='touch'){hide();return;}
+    if(event.pointerType&&event.pointerType!=='mouse'){hide();return;}
     const target=event.target instanceof Element?event.target:null;
     if(target?.closest('iframe') || nativePicker(target)){hide();return;}
+    const interactive=target?.closest('a[href],button,summary,[role=button],[role=tab],[role=checkbox],[role=radio],[role=option],[data-hoverable],input[type=checkbox],input[type=radio]');
+    const field=target?.closest('input,textarea,[contenteditable]');
+    const text=!interactive&&field&&!field.disabled&&!field.readOnly&&(field.matches('textarea')||field.matches('input')&&['text','email','search','url','tel','password','number'].includes(field.type)||field.getAttribute('contenteditable')==='true'||field.getAttribute('contenteditable')==='');
+    // Editable surfaces use the native text pointer; a second custom I-beam
+    // obscures the caret and conflicts with browser / editor pointer rules.
+    if(text||event.clientX>=root.clientWidth&&root.clientWidth>0){hide();return;}
     cursor.style.left=`${event.clientX}px`;cursor.style.top=`${event.clientY}px`;
     cursor.style.visibility='visible';root.setAttribute('data-custom-cursor','');
-    const text=target?.closest('input:not([type=button]):not([type=submit]):not([type=reset]),textarea,[contenteditable=true]');
-    cursor.classList.toggle('text-entry',!!text);
-    cursor.classList.toggle('hovering',!text && !!target?.closest('a,button,summary,select,[role=button],[role=tab],[data-hoverable]'));
+    cursor.classList.remove('text-entry');
+    cursor.classList.toggle('hovering',!!interactive&&!interactive.disabled&&interactive.getAttribute('aria-disabled')!=='true');
   };
   const toggle=event=>{
     const target=event.target;

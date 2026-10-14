@@ -6880,8 +6880,13 @@ html[data-theme='light'] .ai-chat__submit-btn:focus-visible {
 }
 
 /* Enable hiding the OS pointer only once the custom pointer is actually visible. */
+html[data-custom-cursor][data-custom-cursor],
 html[data-custom-cursor][data-custom-cursor] body,
-html[data-custom-cursor][data-custom-cursor] body * {cursor:none!important}
+html[data-custom-cursor][data-custom-cursor] body *,
+html[data-custom-cursor][data-custom-cursor] body *::before,
+html[data-custom-cursor][data-custom-cursor] body *::after,
+html[data-custom-cursor][data-custom-cursor] dialog::backdrop,
+html[data-custom-cursor][data-custom-cursor] [popover]::backdrop {cursor:none!important}
 #cursor{display:none;pointer-events:none}
 #cursor[popover]:popover-open{display:block;position:fixed;inset:auto;left:0;top:0;margin:0;padding:0;width:8px;height:8px;border:0;border-radius:50%;background:#fff;color:#fff;overflow:visible;pointer-events:none;transform:translate(-50%,-50%);mix-blend-mode:difference;transition:width 180ms var(--motion-ease-glide),height 180ms var(--motion-ease-glide),border-radius 180ms var(--motion-ease-glide);z-index:2147483647}
 #cursor[popover].hovering{width:36px;height:36px;background:transparent;border:1px solid #fff}

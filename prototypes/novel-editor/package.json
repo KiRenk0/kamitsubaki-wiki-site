@@ -1,13 +1,14 @@
 {
   "name": "wiki-novel-editor-prototype",
   "private": true,
-  "version": "0.1.0",
+  "version": "3.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1 --port 4371 --strictPort",
     "build": "tsc --noEmit && vite build",
     "test": "node --import ./tests/register-css.mjs --import tsx --test tests/*.test.ts",
-    "check:corpus": "node --import ./tests/register-css.mjs --import tsx scripts/check-corpus.ts"
+    "check:corpus": "node --import ./tests/register-css.mjs --import tsx scripts/check-corpus.ts",
+    "build:website": "tsc --noEmit && vite build --config vite.website.config.ts"
   },
   "packageManager": "pnpm@11.1.1",
   "dependencies": {

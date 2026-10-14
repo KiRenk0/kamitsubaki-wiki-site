@@ -66,3 +66,6 @@ lazygit.exe
 
 .local/
 public/images/novel-prototype/
+
+public/_editor/
+prototypes/novel-editor/dist-website/

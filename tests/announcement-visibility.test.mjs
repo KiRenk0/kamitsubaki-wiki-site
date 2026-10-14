@@ -30,7 +30,7 @@ function mount(storage, { id = 'notice-1', draft = false, reduced = false, autoO
   const document = { body, activeElement: null, querySelector: selector => selector === '[data-announcement-modal]' ? modal : launcher };
   const window = new Element(), timers = new Map(); let serial = 0;
   Object.assign(window, {
-    localStorage: storage, matchMedia: () => ({ matches: reduced }),
+    CustomEvent: class {constructor(type,options){this.type=type;this.detail=options.detail;}},dispatchEvent(event){window.dispatch(event.type,event);},localStorage: storage, matchMedia: () => ({ matches: reduced }),
     setTimeout: callback => { timers.set(++serial, callback); return serial; },
     clearTimeout: id => timers.delete(id), requestAnimationFrame: callback => callback(),
   });

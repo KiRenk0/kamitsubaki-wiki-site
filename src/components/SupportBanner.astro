@@ -12,7 +12,7 @@ const copy = getSupportCopy(locale);
     <h2 id="home-support-title">{copy.bannerTitle}</h2>
     <p class="home-support__body">{copy.bannerBody}</p>
   </div>
-  <a class="home-support__action" href={`/${locale}/support/`}>{copy.bannerAction}<span aria-hidden="true"><Icon name="arrow-up-right" /></span></a>
+  <a class="home-support__action" data-support-open href={`/${locale}/support/`}>{copy.bannerAction}<span aria-hidden="true"><Icon name="arrow-up-right" /></span></a>
 </section>
 
 <style>
