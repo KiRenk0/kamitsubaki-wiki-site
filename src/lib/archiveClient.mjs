@@ -1,6 +1,7 @@
 import {readBoundedJson} from './boundedJson.mjs';
 import {loadObservatory,saveObservatory,upsertObservation,emptyObservatory,completeObservatorySave} from './archivePersonal.mjs';
-let accountModule,snapshotPromise,personalWrites=Promise.resolve();
+let accountModule,personalWrites=Promise.resolve();
+const snapshotPromises=new Map();
 export async function archiveAccount(){return accountModule??=import('../scripts/accountStore.js');}
 export async function currentArchiveOwner(){const account=await archiveAccount();if(account.state.auth==='checking')await account.refreshAuth();return account.state.viewer?.userId || null;}
 export async function communityRequest(path,{method='GET',body,expectedOwner}={}) {
@@ -17,14 +18,17 @@ export async function communityRequest(path,{method='GET',body,expectedOwner}={}
  return data;
 }
 export async function loadArchiveSnapshot(url){
- if(!snapshotPromise)snapshotPromise=(async()=>{
+ if(!snapshotPromises.has(url)){
+ const pending=(async()=>{
   const response=await fetch(url,{signal:AbortSignal.timeout(20000)});
   if(!response.ok)throw new Error('catalogue_unavailable');
   const snapshot=await readBoundedJson(response,12*1024*1024);
   if(snapshot.version!==1 || !Array.isArray(snapshot.entities))throw new Error('invalid_catalogue');
   return snapshot;
- })().catch(error=>{snapshotPromise=undefined;throw error;});
- return snapshotPromise;
+ })().catch(error=>{if(snapshotPromises.get(url)===pending)snapshotPromises.delete(url);throw error;});
+ snapshotPromises.set(url,pending);if(snapshotPromises.size>4)snapshotPromises.delete(snapshotPromises.keys().next().value);
+ }
+ return snapshotPromises.get(url);
 }
 export function recordObservation(record,storage=localStorage) {
  const expected=currentArchiveOwner();

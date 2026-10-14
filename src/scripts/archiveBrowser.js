@@ -74,7 +74,7 @@ export function initializeArchiveBrowser(root) {
     overview.replaceChildren();
     if (!creator) return;
     const title = element('h2', creator.title); title.id = 'creator-overview-title';
-    overview.append(title, element('p', c.credits.works.replace('{count}', String(creator.workCount))));
+    overview.append(title, element('p', c.works+' · '+creator.workCount));
     overview.append(element('p', creator.roles.map(role => c.roles[role] || role).join(' / ')));
     if (creator.path) overview.append(link(`${c.credits.profile} ↗`, creator.path));
     else overview.append(element('p', c.credits.named));
@@ -89,6 +89,7 @@ export function initializeArchiveBrowser(root) {
       }
       overview.append(list);
     }
+    if(creator.coCreators?.length){overview.append(element('h3',c.partners),element('p',c.partnerNote));const list=element('ul');for(const partner of creator.coCreators){const row=element('li');row.append(filterLink(partner.title,{creator:creator.key,collaborator:partner.key}),element('span',' · '+partner.count));list.append(row);}overview.append(list);}
     overview.append(element('h3', c.credits.years));
     if (creator.years.length) {
       const years = element('ul');

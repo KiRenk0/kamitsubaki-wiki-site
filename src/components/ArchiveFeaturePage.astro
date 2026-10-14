@@ -1,6 +1,7 @@
 ---
 import WorkspaceLayout from '../layouts/WorkspaceLayout.astro';
 import Icon from './Icon.astro';
+import ArchiveCompletionTools from './ArchiveCompletionTools.astro';
 import {getArchiveSnapshot,archiveManifest} from '../lib/archiveSnapshot.mjs';
 import {selectArchive,archiveModules,unique} from '../lib/archiveResearch.mjs';
 import {archiveFeature,archiveFeatureCopy,archiveFeatureDefinitions} from '../lib/archiveFeatureCopy.mjs';
@@ -21,13 +22,16 @@ const searchable=['music','radio','statistics','visual','museum','challenges','l
   <div class="archive-caption"><p>{c.coverage}</p><button type="button" data-archive-share><Icon name="share"/>{c.share}</button></div>
   {searchable.includes(module) && <form class="archive-filters" data-archive-filters>
    <label>{c.search}<input type="search" name="q" maxlength="300"/></label>
-   {!['physical','atlas'].includes(module) && <label>{c.artist}<select name="artist"><option value="">{c.all}</option>{artists.map(e=><option value={e.id}>{label(e)}</option>)}</select></label>}
-   {!['atlas','challenges','languages','physical'].includes(module) && <label>{c.year}<select name="year"><option value="">{c.all}</option>{years.map(year=><option value={year}>{year}</option>)}</select></label>}
+   {module!=='physical' && <label>{c.artist}<select name="artist"><option value="">{c.all}</option>{artists.map(e=><option value={e.id}>{label(e)}</option>)}</select></label>}
+   {!['challenges','languages','physical'].includes(module) && <label>{c.year}<select name="year"><option value="">{c.all}</option>{years.map(year=><option value={year}>{year}</option>)}</select></label>}
    {['music','radio'].includes(module) && <><label>{c.creator}<input name="creator" list="archive-entity-ids" maxlength="150"/></label><label>{c.tag}<select name="tag"><option value="">{c.all}</option>{unique(snapshot.entities.flatMap(e=>[...(e.facts.genres || []),...(e.facts.tags || []),...(e.facts.genome?.tags || []).map((t:any)=>t.value)])).sort().map(tag=><option value={tag}>{tag}</option>)}</select></label><label>{c.type}<select name="type"><option value="work-track">{c.songs}</option><option value="work-release">{c.releases}</option></select></label></>}
+   {module==='music' && <><label>{c.versionType}<select name="version"><option value="">{c.all}</option><option value="any">{c.anyVersion}</option>{['cover','remix','live','acoustic','instrumental','alternate'].map(value=><option value={value}>{c[value]}</option>)}</select></label><label>{c.role}<select name="role"><option value="">{c.all}</option>{unique(snapshot.entities.flatMap(entity=>(entity.facts.credits || []).map(credit=>credit.role))).map(role=><option value={role}>{entityLabel(role,locale)}</option>)}</select></label></>}
+   {['visual','museum'].includes(module) && <><label>{c.lineage}<select name="lineage"><option value="">{c.all}</option>{unique(snapshot.entities.map(entity=>(entity.morphing as any)?.group)).sort().map(group=><option value={group}>{group}</option>)}</select></label><label>{c.visualEntity}<input name="visualEntity" list="archive-entity-ids" maxlength="150"/></label></>}
    {module==='museum' && <section class="archive-space"><h2>{c.exhibition}</h2><div data-published-exhibitions></div></section>}
   {module==='atlas' && <label>{c.world}<select name="world"><option value="">{c.all}</option><option value="real">{c.real}</option><option value="virtual">{c.virtual}</option><option value="unknown">{c.worldUnknown}</option></select></label>}
    {module==='challenges' && <label>{c.field}<select name="field"><option value="">{c.all}</option>{unique(snapshot.entities.flatMap(e=>e.completeness.missing.map((m:any)=>m.field))).map(field=><option value={field}>{field}</option>)}<option value="translation">{c.translation}</option></select></label>}
-   {module==='languages' && <label>{c.languages}<select name="language">{['zh','ja','en'].map(language=><option value={language}>{language}</option>)}</select></label>}
+   {['languages','challenges'].includes(module) && <label>{c.languages}<select name="language">{['zh','ja','en'].map(language=><option value={language}>{language}</option>)}</select></label>}
+   {module==='challenges' && <label>{c.taskStatus}<select name="taskStatus"><option value="">{c.all}</option>{['available','mine','claimed','submitted','approved'].map(status=><option value={status}>{c[status]}</option>)}</select></label>}
    <label>{c.sort}<select name="sort"><option value="newest">{c.newest}</option><option value="oldest">{c.oldest}</option><option value="title">{c.title}</option></select></label>
    <button type="submit">{c.apply}</button><button type="reset">{c.reset}</button>
   </form>}
@@ -47,6 +51,7 @@ const searchable=['music','radio','statistics','visual','museum','challenges','l
   {module==='physical' && <><p>{c.physicalNote}</p><form data-barcode-form class="archive-filters"><label>{c.barcode}<input name="barcode" inputmode="numeric" maxlength="30" required/></label><button>{c.confirm}</button><button type="button" data-start-scan>{c.scan}</button><button type="button" data-stop-scan hidden>{c.stopScan}</button></form><video data-barcode-camera hidden muted playsinline aria-label={c.scan}></video><div data-barcode-results></div></>}
   {module==='today' && <><p>{c.todayNote}</p><form data-today-form class="archive-filters"><label>{c.monthDay}<input name="monthDay" type="text" pattern="[0-9]{2}-[0-9]{2}" placeholder="10-13" required/></label><button>{c.apply}</button></form><section class="archive-space"><h2>{c.mystery}</h2><div data-mystery-clues></div><form data-mystery-form class="archive-filters"><label>{c.guess}<input name="guess" maxlength="200" required/></label><button>{c.confirm}</button><button type="button" data-mystery-reveal>{c.reveal}</button></form><div data-mystery-answer aria-live="polite"></div></section></>}
   <p data-archive-status role="status" aria-live="polite">{c.loading}</p>
+  <ArchiveCompletionTools module={module} copy={c} snapshot={snapshot}/>
   <div data-archive-results class="archive-result-list">{['music','radio','physical'].includes(module) && initial.map(row=><article class="archive-row"><div><small>{entityLabel(row.type,locale)} · {row.date || c.unknown}</small><h2><a href={row.path}>{row.title}</a></h2><p>{row.summary}</p></div></article>)}</div>
   <button type="button" data-archive-more hidden>{c.more}</button>
   <aside data-archive-detail class="archive-detail" hidden tabindex="-1"></aside>

@@ -112,7 +112,11 @@ export async function handleArchiveCommunity(context) {
     const collections=await queryAll(db,'SELECT * FROM archive_collections WHERE owner=? ORDER BY updated_at DESC LIMIT 100',owner);
     const tasks=await queryAll(db,'SELECT * FROM archive_tasks WHERE owner=? ORDER BY updated_at DESC LIMIT 100',owner);
     const follows=await queryAll(db,'SELECT collection_id FROM archive_follows WHERE owner=?',owner);
-    return json({data:profile?JSON.parse(profile.data):emptyObservatory(),revision:profile?.revision || 0,publicId:profile?.public_id || null,collections:collections.map(publicCollection),tasks,follows:follows.map(f=>f.collection_id),reviewer:reviewer(viewer,context.env)});
+    const calendar=Object.fromEntries(new Intl.DateTimeFormat('en',{timeZone:'Asia/Tokyo',year:'numeric',month:'2-digit'}).formatToParts(new Date(now)).filter(part=>['year','month'].includes(part.type)).map(part=>[part.type,part.value]));
+    const month=calendar.year+'-'+calendar.month,start=Date.UTC(Number(calendar.year),Number(calendar.month)-1,1)-9*3600000,end=Date.UTC(Number(calendar.year),Number(calendar.month),1)-9*3600000;
+    const counts=await queryAll(db,"SELECT status,count(*) AS total,sum(CASE WHEN updated_at>=? AND updated_at<? THEN 1 ELSE 0 END) AS monthly FROM archive_tasks WHERE owner=? GROUP BY status",start,end,owner),approved=counts.find(row=>row.status==='approved');
+    const contributions={approved:Number(approved?.total || 0),month:{id:month,approved:Number(approved?.monthly || 0)}};
+    return json({data:profile?JSON.parse(profile.data):emptyObservatory(),revision:profile?.revision || 0,publicId:profile?.public_id || null,collections:collections.map(publicCollection),tasks,follows:follows.map(f=>f.collection_id),reviewer:reviewer(viewer,context.env),contributions});
    }
    if(method==='PUT'){
     let data;try{data=validateObservatory(body.data);}catch{throw failure('invalid_observatory');}

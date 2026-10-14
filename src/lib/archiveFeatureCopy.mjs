@@ -1,6 +1,8 @@
 import {resolveLocaleCopy} from './i18n.mjs';
+import {archiveCompletionCopy} from './archiveCompletionCopy.mjs';
 const t=(zh,en,ja)=>({zh,en,ja});
 export const archiveFeatureDefinitions=[
+ ['open-data','infrastructure','F12',t('Open Data · 开放资料','Open Data','Open Data · 公開資料'),t('检查、下载与核对可引用的公开档案快照。','Inspect, download and verify citable public snapshots.','引用できる公開資料を確認・保存・検証。')],
  ['live-mode','archive','F05',t('Live Mode · 演出现场','Live Mode','Live Mode · 公演'),t('按记录日程查阅公告、交通、票种、商品与演出后的资料。','Read recorded schedules, access, tickets, merchandise and post-event materials.','記録された日程・案内・交通・チケット・グッズ・公演後の資料。')],
  ['music','archive','F04',t('Music Universe · 音乐宇宙','Music Universe','Music Universe · 音楽'),t('沿作品版本、演唱、媒体和制作署名探索音乐。','Follow recorded versions, performances, media and credits.','記録されたバージョン・歌唱・メディア・クレジットをたどる。')],
  ['atlas','time','F02',t('Atlas · 时间与地点','Atlas · places','Atlas · 場所'),t('从现实场地与虚拟地点出发，编排巡礼路线。','Explore real venues and fictional places; build a pilgrimage route.','現実の会場と架空の場所から、巡礼の経路へ。')],
@@ -25,7 +27,7 @@ export function archiveFeature(locale,module){
  return {id:definition[0],system:definition[1],roadmap:definition[2],title:resolveLocaleCopy(definition[3],locale),intro:resolveLocaleCopy(definition[4],locale)};
 }
 export function archiveFeatureCopy(locale) {
- return resolveLocaleCopy({
+ const base=resolveLocaleCopy({
  zh:{
   performedSongs:'演唱关联歌曲',creditedWorks:'署名作品',creditEntries:'制作署名条目',archiveHub:'从这份档案继续探索',hubNote:'数量按对应入口的当前记录统计；作品和演出按实体去重，曲目与制作署名注明条目数。缺项不代表历史上不存在。',publicImages:'公开图片',trackEntries:'曲目条目',setlistEntries:'收录曲目条目',interactiveMap:'打开交互地图',mapUnavailable:'地图背景暂时不可用；地点标记与列表仍可查看。',routeLineNote:'连线表示你选择的地点顺序，不是道路或行程建议。',zoomIn:'放大',zoomOut:'缩小',scanning:'正在识别条码…',openSource:'开源组件与许可',achieved:'已达成',
   entity:'档案实体',q:'文本检索',guarding:'守护词条',interests:'兴趣实体 ID（每行一个）',passportName:'公开护照名称',publishPassport:'公开护照（仅展示已选择公开的记录）',unfollow:'取消关注',conflict:'账号记录有更新；本地修改已保留，请导出备份后重新载入账号记录。',reloadAccount:'重新载入账号记录',liveMode:'现场模式',partialSetlist:'部分曲目摘录',completeSetlist:'完整曲目记录',tickets:'票种',goods:'商品',reports:'报道与记录',access:'交通',announcements:'公告',sourceHistory:'历史来源页面',timelinePosition:'时间轴事件',collectionPosition:'公开展览 / 集合',entityPosition:'档案实体',section:'页面位置（可选）',
@@ -71,5 +73,5 @@ export function archiveFeatureCopy(locale) {
   barcode:'バーコードを入力 / スキャン',scan:'カメラスキャンを開始',stopScan:'スキャンを停止',barcodeInvalid:'バーコードのチェックサムが不正です。',noBarcode:'未収録のコードです。実物資料の項目を追加してください。',cameraUnavailable:'カメラを利用できません。権限を確認するか手動で入力してください。',edition:'版',format:'媒体',catalogNumber:'品番',bonus:'特典',physicalNote:'収録されたコードのみ照合。版を確認してから所有品へ追加。',releaseOnly:'実物の版が未整理です。',
   monthDay:'過去の月日',mystery:'今日の項目クイズ',guess:'回答（項目 ID または名前）',reveal:'答えを見る',correct:'正解です。',incorrect:'まだ一致していません。もう一度。',todayNote:'日単位で明確な記録のみ一致。告知日と開催日は元の意味を保持。',preset:'テーマのプリセット',museumNote:'記録日から姿と作品を展示。コレクションのツールでテーマ展示を作成できます。',
  }
- },locale);
+ },locale);return {...archiveCompletionCopy(locale),...base};
 }

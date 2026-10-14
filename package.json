@@ -69,6 +69,7 @@
     "@zxing/browser": "0.1.5",
     "@zxing/library": "0.21.3",
     "astro": "latest",
+    "fflate": "0.8.3",
     "katex": "^0.17.0",
     "kuroshiro": "^1.2.0",
     "kuroshiro-analyzer-kuromoji": "^1.1.0",
@@ -80,6 +81,7 @@
     "opencc-js": "1.4.1",
     "photoswipe": "^5.4.4",
     "simple-icons": "^16.27.0",
+    "sortablejs": "1.15.7",
     "wanakana": "^5.3.1"
   },
   "devDependencies": {

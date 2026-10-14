@@ -1,10 +1,15 @@
-import {archiveRecord,selectArchive,parseArchiveQuestion,musicVersions,archiveStatistics,setlistStatistics,compareArchive,archiveOnThisDay,mysteryEntity,validBarcode,physicalCatalog,atlasPlaces,evidenceFor,genomePoints,visualRecords,unique} from '../lib/archiveResearch.mjs';
+import {archiveRecord,selectArchive,parseArchiveQuestion,archiveStatistics,setlistStatistics,compareArchive,archiveOnThisDay,mysteryEntity,validBarcode,physicalCatalog,atlasPlaces,evidenceFor,genomePoints,visualRecords,unique} from '../lib/archiveResearch.mjs';
 import {loadArchiveSnapshot,communityRequest,currentArchiveOwner,recordObservation,synchronizeObservatory,archiveAccount} from '../lib/archiveClient.mjs';
 import {loadObservatory,saveObservatory,validateObservatory,mergeObservatory,observatoryYear,observatoryAchievements} from '../lib/archivePersonal.mjs';
 import {addRadioTracks} from '../lib/archiveRadio.mjs';
 import {updateLocaleQueries} from '../lib/localeQuery.mjs';
 import {svgNode} from '../lib/archiveChart.mjs';
 import {createArchiveScanner} from '../lib/archiveScanner.mjs';
+import {musicConnections,compareLiveSetlists,archiveCollaborations,archiveCoverage} from '../lib/archiveInsights.mjs';
+import {archiveCSV,archiveZip,archiveCitation,downloadArchiveFile,pilgrimageGeoJSON,pilgrimageGPX} from '../lib/archiveExports.mjs';
+import {initializeArchiveOpenData} from './archiveOpenData.js';
+import {initializeCollectionTools} from './archiveCollectionTools.js';
+import {collectionEditorItems} from '../lib/archiveCollectionDrafts.mjs';
 
 const element=(tag,text='',className='')=>{const node=document.createElement(tag);if(text!==undefined)node.textContent=String(text);if(className)node.className=className;return node;};
 function link(text,path) {
@@ -22,7 +27,7 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
  const form=root.querySelector('[data-archive-filters]');
  const pendingControls=[...root.querySelectorAll('form input,form select,form textarea,form button')].filter(control=>!control.disabled);
  pendingControls.forEach(control=>control.disabled=true);root.setAttribute('aria-busy','true');
- let snapshot,limit=24,lastRows=[],renderToken=0,accountEpoch=0,roomGeneration=0,profile=null,community=null,taskStates=[],reviews=[],room=null,roomTimer=null,scanner=null,atlasMapHandle=null,atlasMapGeneration=0,atlasMapEnabled=false,detailTrigger=null,destroyed=false;
+ let snapshot,limit=24,lastRows=[],renderToken=0,accountEpoch=0,roomGeneration=0,profile=null,community=null,taskStates=[],reviews=[],room=null,roomTimer=null,scanner=null,atlasMapHandle=null,atlasMapGeneration=0,atlasMapEnabled=false,detailTrigger=null,destroyed=false,collectionTools=null;
  const record=id=>archiveRecord(snapshot,id,locale),name=id=>record(id)?.title || id;
  const report=message=>{status.textContent=message;};
  const errorMessage=error=>error.message==='profile_conflict'?c.conflict:['community_unavailable','identity_service_unavailable','catalogue_unavailable'].includes(error.message)?c.unavailable:error.status===401?c.signIn:c.failed;
@@ -34,9 +39,10 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
   updateLocaleQueries(document,location.search);
  };
  const restoreForm=()=>{
-  if(!form)return;
   const params=new URL(location.href).searchParams;
-  for(const control of form.elements){if(!control.name)continue;const value=params.get(control.name) || (control.name==='type' && ['music','radio'].includes(module)?'work-track':control.name==='sort'?'newest':control.name==='language'?'zh':'');
+  const scrub=root.querySelector('[data-visual-year]');if(scrub){const until=params.get('until');scrub.dataset.active=/^\d{4}$/.test(until || '')?'true':'false';scrub.value=until || scrub.max;root.querySelector('[data-visual-year-label]').textContent=scrub.value;}
+  if(!form)return;
+  for(const control of form.elements){if(!control.name)continue;const value=params.get(control.name) || (control.name==='type' && ['music','radio'].includes(module)?'work-track':control.name==='sort'?'newest':control.name==='language'?(module==='challenges'?(locale==='ja'?'ja':'en'):'zh'):'');
    if(control.tagName!=='SELECT' || [...control.options].some(o=>o.value===value))control.value=value;
   }
  };
@@ -80,7 +86,9 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
   detail.append(data);
   if(row.type==='work-track'){
    detail.append(element('h3',c.versions),element('p',c.versionNote));
-   const versions=musicVersions(snapshot,id),ul=element('ul');for(const related of versions.ids.filter(other=>other!==id)){const li=element('li');li.append(reference(related));ul.append(li);}detail.append(ul.childElementCount?ul:element('p',c.empty));
+   const connections=musicConnections(snapshot,id,locale),ul=element('ul');for(const version of connections.versions){const li=element('li');li.append(reference(version.source.id),element('span',' → '),reference(version.target.id),element('span',' · '+(c[version.versionType] || c.unknown)));sources(version.sources,li);ul.append(li);}detail.append(ul.childElementCount?ul:element('p',c.empty));
+   detail.append(element('h3',c.relatedReleases));const releases=element('ul');for(const release of connections.releases){const li=element('li');li.append(reference(release.id));releases.append(li);}detail.append(releases.childElementCount?releases:element('p',c.empty));
+   if(row.facts.genome?.tags?.length){detail.append(element('h3',c.tags));for(const tag of row.facts.genome.tags){const p=element('div',c[tag.dimension]+' · '+tag.value);sources((row.facts.sources || []).filter((source,index)=>tag.sourceIds.includes(source.id || 'source-'+index)),p);detail.append(p);}}
    if(row.media?.length)for(const media of row.media){const frame=element('iframe');frame.src=media.embed.src;frame.title=row.title+' · '+media.embed.label;frame.loading='lazy';frame.allow=media.embed.allow;frame.allowFullscreen=true;if(media.embed.sandbox)frame.setAttribute('sandbox',media.embed.sandbox);detail.append(frame);}
    detail.append(element('h3',c.performances));
    const stats=setlistStatistics(snapshot),song=stats.songs.find(s=>s.id===id);
@@ -112,6 +120,9 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
   for(const year of data.years){const total=year.songs+year.releases+year.lives,row=link('', '/'+locale+'/explore/statistics/?year='+year.year);row.append(element('span',year.year));const bar=element('i');bar.style.width=String(total/max*100)+'%';row.append(bar,element('span',total));row.title=c.songs+': '+year.songs+' · '+c.releases+': '+year.releases+' · '+c.lives+': '+year.lives;bars.append(row);}target.append(bars,element('h3',c.performances));
   const wrap=element('div','','archive-table-scroll'),table=element('table','','archive-table'),head=element('tr');for(const value of [c.songs,c.eventCount,c.occurrences,c.latest])head.append(element('th',value));table.append(head);
   for(const song of data.setlists.songs.slice(0,100)){const row=element('tr'),title=element('td');title.append(reference(song.id));row.append(title,element('td',song.eventCount),element('td',song.occurrences.length),element('td',song.latest || c.unknown));table.append(row);}wrap.append(table);target.append(wrap);
+  const coverage=archiveCoverage(snapshot,values),metrics=element('dl');target.append(element('h3',c.coverage));for(const [key,value]of Object.entries(coverage)){metrics.append(element('dt',c[key] || key),element('dd',value));}target.append(metrics,element('h3',c.partners),element('p',c.partnerNote));
+  const pairs=archiveCollaborations(snapshot,values),partners=element('ul'),label=identity=>identity.startsWith('entity:')?name(identity.slice(7)):identity.slice(5);
+  for(const pair of pairs.slice(0,20)){const item=element('li');item.append(link(label(pair.left)+' / '+label(pair.right),'/'+locale+'/explore/credits/?creator='+encodeURIComponent(pair.left)+'&collaborator='+encodeURIComponent(pair.right)),element('span',' · '+pair.count));partners.append(item);}target.append(partners.childElementCount?partners:element('p',c.empty));
   return data;
  }
  function renderGenome(){
@@ -138,10 +149,11 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
    if(visual.uses?.length){const uses=element('ul');for(const use of visual.uses){const li=element('li');li.append(reference(use.entity),element('span',' · '+(use.date || c.unknown)));uses.append(li);}article.append(uses);}
    article.append(link(c.gallery,'/'+locale+'/gallery/?entity='+visual.entityId),element('span',' · '),link(c.claims,'/'+locale+'/explore/evidence/?entity='+visual.entityId));results.append(article);}
   if(!rows.length)results.append(element('p',c.empty));
+  const chronology=root.querySelector('[data-visual-chronology]');if(chronology){chronology.replaceChildren(element('h2',c.timeline));const list=element('ol','','archive-chronology');for(const row of rows.filter(row=>row.date).slice().sort((a,b)=>a.date.localeCompare(b.date))){const li=element('li');li.append(element('time',row.date),link(row.title,row.path));list.append(li);}chronology.append(list.childElementCount?list:element('p',c.empty),element('p',c.undated+' · '+rows.filter(row=>!row.date).length));}
   more.hidden=rows.length<=limit;report(Math.min(limit,rows.length)+' / '+rows.length+' '+c.results);
  }
  function renderAtlas(){
-  const values=query(),terms=String(values.q || '').toLowerCase(),places=atlasPlaces(snapshot,locale).filter(place=>(!values.world || place.world===values.world) && (!terms || [place.title,place.city,place.country,...place.entities.map(name)].join(' ').toLowerCase().includes(terms)));
+  const values=query(),terms=String(values.q || '').toLowerCase(),allowed=new Set(selectArchive(snapshot,{artist:values.artist,year:values.year},locale).map(row=>row.id)),places=atlasPlaces(snapshot,locale).map(place=>({...place,entities:place.entities.filter(id=>allowed.has(id))})).filter(place=>place.entities.length && (!values.world || place.world===values.world) && (!terms || [place.title,place.city,place.country,...place.entities.map(name)].join(' ').toLowerCase().includes(terms)));
   atlasMapGeneration++;atlasMapHandle?.destroy();atlasMapHandle=null;
   const map=root.querySelector('[data-atlas-map]'),physical=places.filter(p=>p.world==='real'),located=physical.filter(p=>p.coordinates);
   map.replaceChildren(element('h2',values.world==='virtual'?c.topology:c.placeMap),element('p',c.coordinates+': '+located.length+' / '+physical.length));
@@ -159,13 +171,13 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
   }
   results.replaceChildren();for(const place of places){const article=element('article','','archive-row'),body=element('div');body.append(element('h2',place.title),element('p',[c[place.world] || c.worldUnknown,place.city,place.country].filter(Boolean).join(' · ')));
    const links=element('div','','archive-actions');for(const id of place.entities)links.append(reference(id));body.append(links);article.append(body);
-   if(place.world==='real'){const actions=element('div','','archive-row__actions');actions.append(button(c.add+' · '+c.route,event=>action(async()=>{const currentOwner=await owner(),local=loadObservatory(storage,currentOwner),route=local.data.routes.find(r=>r.id==='pilgrimage') || {id:'pilgrimage',places:[]};route.places=unique([...route.places,place.id]);const data={...local.data,routes:[route,...local.data.routes.filter(r=>r.id!==route.id)]};saveObservatory(storage,currentOwner,data,local.revision,true);await renderRoute();},event.currentTarget)),link(c.navigate,'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent([place.title,place.city,place.country].filter(Boolean).join(' '))),link(c.visited,'/'+locale+'/explore/observatory/?live='+place.entities[0]));article.append(actions);}results.append(article);}
+   if(place.world==='real'){const actions=element('div','','archive-row__actions');actions.append(button(c.add+' · '+c.route,event=>action(async()=>{const epoch=accountEpoch,currentOwner=await owner();if(epoch!==accountEpoch)return;const local=loadObservatory(storage,currentOwner),route=local.data.routes.find(r=>r.id==='pilgrimage') || {id:'pilgrimage',places:[]};route.places=unique([...route.places,place.id]);const data={...local.data,routes:[route,...local.data.routes.filter(r=>r.id!==route.id)]};saveObservatory(storage,currentOwner,data,local.revision,true);await renderRoute();},event.currentTarget)),link(c.navigate,'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent([place.title,place.city,place.country].filter(Boolean).join(' '))),link(c.visited,'/'+locale+'/explore/observatory/?live='+place.entities[0]));article.append(actions);}results.append(article);}
   more.hidden=true;report(places.length+' '+c.results);void renderRoute();
  }
  async function renderRoute(){
-  const currentOwner=await owner(),local=loadObservatory(storage,currentOwner),route=local.data.routes.find(r=>r.id==='pilgrimage'),allPlaces=atlasPlaces(snapshot,locale),rows=(route?.places || []).map(id=>allPlaces.find(p=>p.id===id)).filter(p=>p?.world==='real'),list=root.querySelector('[data-pilgrimage-route]');
+  const epoch=accountEpoch,currentOwner=await owner();if(epoch!==accountEpoch || destroyed)return;const local=loadObservatory(storage,currentOwner),route=local.data.routes.find(r=>r.id==='pilgrimage'),allPlaces=atlasPlaces(snapshot,locale),rows=(route?.places || []).map(id=>allPlaces.find(p=>p.id===id)).filter(p=>p?.world==='real'),list=root.querySelector('[data-pilgrimage-route]');
   if(!list)return;list.replaceChildren();atlasMapHandle?.setRoute(rows);
-  const save=async places=>{const data={...local.data,routes:[{id:'pilgrimage',places},...local.data.routes.filter(r=>r.id!=='pilgrimage')]};saveObservatory(storage,currentOwner,data,local.revision,true);await renderRoute();};
+  const save=async places=>{const latestOwner=await owner();if(epoch!==accountEpoch || destroyed || latestOwner!==currentOwner)return;const latest=loadObservatory(storage,currentOwner),data={...latest.data,routes:[{id:'pilgrimage',places},...latest.data.routes.filter(r=>r.id!=='pilgrimage')]};saveObservatory(storage,currentOwner,data,latest.revision,true);await renderRoute();};
   rows.forEach((place,index)=>{const li=element('li',place.title+' ');for(const [label,step]of [[c.up,-1],[c.down,1]]){const move=button(label,()=>{const ids=rows.map(r=>r.id),target=index+step;if(target<0 || target>=ids.length)return;[ids[index],ids[target]]=[ids[target],ids[index]];void save(ids);});move.disabled=index+step<0 || index+step>=rows.length;li.append(move);}li.append(button(c.remove,()=>void save(rows.filter(r=>r.id!==place.id).map(r=>r.id))));list.append(li);});
   const directions=root.querySelector('[data-route-directions]');directions.hidden=!rows.length;if(rows.length){const stops=rows.slice(0,10).map(p=>[p.title,p.city,p.country].filter(Boolean).join(' '));directions.href='https://www.google.com/maps/dir/?api=1&origin='+encodeURIComponent(stops[0])+'&destination='+encodeURIComponent(stops.at(-1))+(stops.length>2?'&waypoints='+encodeURIComponent(stops.slice(1,-1).join('|')):'');}
  }
@@ -222,11 +234,11 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
   if(data.passport?.published && profile?.publicId)target.append(link(c.share,'/'+locale+'/explore/observatory/?passport='+encodeURIComponent(profile.publicId)));
   const passport=root.querySelector('[data-passport-form]');if(passport){passport.elements.name.value=data.passport?.name || '';passport.elements.note.value=data.passport?.note || '';passport.elements.published.checked=data.passport?.published || false;passport.elements.interests.value=(data.interests || []).join('\n');}
   const stampList=element('div');for(const row of data.records.filter(r=>r.kind==='visited').slice(0,50)){const stamp=element('p');stamp.append(element('span',row.date || new Date(row.at).toISOString().slice(0,10),'archive-badge'),reference(row.entityId));stampList.append(stamp);}target.append(stampList,element('h3',c.achievements));
-  const approved=(profile?.tasks || []).filter(t=>t.status==='approved').length;for(const achievement of observatoryAchievements(data,approved)){target.append(element('p',(achievement.earned?c.achieved+' · ':'')+(c[achievement.kind] || c.contributions)+' · '+achievement.count+' / '+achievement.goal));}
+  const approved=profile?.contributions?.approved ?? (profile?.tasks || []).filter(t=>t.status==='approved').length;for(const achievement of observatoryAchievements(data,approved)){target.append(element('p',(achievement.earned?c.achieved+' · ':'')+(c[achievement.kind] || c.contributions)+' · '+achievement.count+' / '+achievement.goal));}
   target.append(element('h3',year+' · '+c.personalYear));
   const annual=observatoryYear(data,year);for(const [kind,records]of Object.entries(annual)){target.append(element('p',c[kind]+': '+records.length));}
   const all=element('div');for(const row of data.records.slice(0,limit)){const article=element('article','','archive-row'),body=element('div');body.append(element('small',c[row.kind]+' · '+(row.date || new Date(row.at).toISOString().slice(0,10))+' · '+c[row.visibility]),reference(row.entityId));if(row.note)body.append(element('p',row.note));if(row.ticketUrl)body.append(link(c.ticket,row.ticketUrl));article.append(body,button(c.remove,event=>action(async()=>{const current=loadObservatory(storage,currentOwner);saveObservatory(storage,currentOwner,{...current.data,records:current.data.records.filter(r=>r.id!==row.id)},current.revision,true);await syncAndRender();},event.currentTarget)));all.append(article);}target.append(all);
-  more.hidden=data.records.length<=limit;report(local.dirty?c.local:profile?c.synced:c.local);
+  more.hidden=data.records.length<=limit;report(local.dirty?c.local:currentOwner && profile?c.synced:c.local);
  }
  async function syncAndRender(){
   const epoch=accountEpoch;let failure;
@@ -237,12 +249,13 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
  function fillCollection(collection){
   const editor=root.querySelector('[data-collection-form]');if(!editor)return;
   for(const field of ['id','title','description','kind','revision'])editor.elements.namedItem(field).value=collection[field] || (field==='revision'?'0':'');
-  editor.elements.namedItem('items').value=collection.items.map(item=>item.entityId).join('\n');editor.elements.namedItem('notes').value=collection.items.map(item=>item.note || '').join('\n');editor.scrollIntoView({block:'start'});
+  editor.elements.namedItem('items').value=collection.items.map(item=>item.entityId).join('\n');editor.elements.namedItem('notes').value=collection.items.map(item=>item.note || '').join('\n');collectionTools?.filled();editor.scrollIntoView({block:'start'});
  }
  function collectionCard(collection,target,owned=false){
   const article=element('article','','archive-space');article.append(element('h2',collection.title),element('p',collection.description),element('span',c[collection.status] || collection.status,'archive-badge'));
   const items=element('ol');for(const item of collection.items){const li=element('li');li.append(reference(item.entityId));if(item.note)li.append(element('p',item.note));items.append(li);}article.append(items);
   const tools=element('div','','archive-actions');
+  if(collectionTools)tools.append(button(c.preview,()=>action(()=>collectionTools.preview(collection))));
   if(owned)tools.append(button(c.edit,()=>fillCollection(collection)),button(c.remove,event=>action(async()=>{await request('collections/'+collection.id,{method:'DELETE'});await loadCollections();},event.currentTarget)));
   else if(collection.status==='published'){const followed=profile?.follows?.includes(collection.id);tools.append(button(followed?c.unfollow:c.follow,event=>action(async()=>{await request('collections/'+collection.id+'/follow',{method:'POST',body:{follow:!followed}});await loadCollections();},event.currentTarget)),button(c.fork,event=>action(async()=>{const result=await request('collections/'+collection.id+'/fork',{method:'POST',body:{}});fillCollection(result.collection);await loadCollections();},event.currentTarget)));}
   if(profile?.reviewer && collection.status==='pending' && !owned)for(const [label,decision]of [[c.approve,'approve'],[c.reject,'reject']])tools.append(button(label,event=>action(async()=>{const note=root.querySelector('[data-review-note]')?.value;if(!note?.trim()){report(c.note);return;}await request('collections/'+collection.id+'/review',{method:'POST',body:{action:decision,revision:collection.revision,note}});await loadCollections();},event.currentTarget)));
@@ -272,12 +285,12 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
   }catch(error){if(token===renderToken)report(errorMessage(error));}
  }
  function taskRows(){
-  const values=query(),language=new URL(location.href).searchParams.get('language') || (locale==='ja'?'ja':locale==='en'?'en':'en');
+  const values=query(),language=values.language || new URL(location.href).searchParams.get('language') || (locale==='ja'?'ja':'en');
   return selectArchive(snapshot,{q:values.q,artist:values.artist},locale).flatMap(entity=>{
    const rows=entity.completeness.missing.map(item=>({id:entity.id+':'+item.field,entityId:entity.id,field:item.field,locale:'',row:entity}));
    for(const lang of ['zh','ja','en'])if(!entity.narratives[lang])rows.push({id:entity.id+':translation:'+lang,entityId:entity.id,field:'translation',locale:lang,row:entity});
    return rows;
-  }).filter(task=>(!values.field || task.field===values.field) && (values.field!=='translation' || task.locale===language));
+  }).filter(task=>{if(values.field && task.field!==values.field || values.field==='translation' && task.locale!==language)return false;const state=taskStates.find(row=>row.id===task.id),own=profile?.tasks?.some(row=>row.id===task.id);if(values.taskStatus==='mine')return own;if(values.taskStatus==='available')return Boolean(profile && (!state || state.status==='rejected' || state.status==='claimed' && state.expires_at<=Date.now()));return !values.taskStatus || state?.status===values.taskStatus;});
  }
  async function loadTasks(){
   const token=++renderToken;let failure;
@@ -290,7 +303,7 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
  function renderTasks(){
   const rows=taskRows();results.replaceChildren();
   const thisMonth=tokyoDay().slice(0,7),challenge=root.querySelector('[data-monthly-challenge]'),approved=(profile?.tasks || []).filter(t=>t.status==='approved' && new Date(t.updated_at).toISOString().startsWith(thisMonth));
-  challenge.replaceChildren(element('h3',thisMonth+' · '+c.month),element('p',c.contributions+': '+approved.length));
+  challenge.replaceChildren(element('h3',thisMonth+' · '+c.month),element('p',c.contributions+': '+(profile?.contributions?.month?.id===thisMonth?profile.contributions.month.approved:approved.length)),element('p',c.points+': '+(profile?.contributions?.approved ?? (profile?.tasks || []).filter(task=>task.status==='approved').length)),element('p',c.pointsNote));
   for(const task of rows.slice(0,limit)){const article=element('article','','archive-row'),body=element('div'),state=taskStates.find(t=>t.id===task.id),own=(profile?.tasks || []).find(t=>t.id===task.id);
    body.append(reference(task.entityId),element('p',(task.field==='translation'?c.translation:task.field)+(task.locale?' · '+task.locale:'')),element('span',state?c[state.status] || c.claimStatus:c.unknown,'archive-badge'));article.append(body);
    const tools=element('div','','archive-row__actions');
@@ -370,20 +383,27 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
   if(module==='observatory'){if(new URL(location.href).searchParams.has('passport'))return;await renderObservatory();return;}
   if(module==='statistics'){renderStatistics();results.replaceChildren();report(c.sample);more.hidden=true;return;}
   if(module==='ask' && lastRows.length){listRecords(lastRows.slice(0,limit));more.hidden=lastRows.length<=limit;report(c.answer+': '+lastRows.length);return;}
-  if(['ask','compare','evidence','today','collections','rooms'].includes(module))return;
+  if(['ask','compare','evidence','today','collections','rooms','open-data'].includes(module))return;
   const values=query();lastRows=selectArchive(snapshot,{...values,...(module==='radio'?{type:'work-track',media:'yes'}:module==='live-mode'?{type:'live-event'}:{})},locale);
   listRecords(lastRows.slice(0,limit));more.hidden=lastRows.length<=limit;report(Math.min(limit,lastRows.length)+' / '+lastRows.length+' '+c.results);
  }
  function restoreQuestion(params){if(module!=='ask')return;const question=params.get('question');lastRows=[];results.replaceChildren();root.querySelector('[data-question-form] [name=question]').value=question || '';if(question)root.querySelector('[data-question-form]').dispatchEvent(new Event('submit',{bubbles:true,cancelable:true}));else{root.querySelector('[data-query-plan]').hidden=true;report(c.queryNote);}if(params.get('confirmed')==='yes'){const confirm=root.querySelector('[data-confirm-query]');root.querySelector('[data-query-plan]').hidden=false;for(const control of confirm.elements){if(!control.name)continue;if(control.type==='checkbox')control.checked=params.get(control.name)==='yes';else control.value=params.get(control.name) || '';}confirm.dispatchEvent(new Event('submit',{bubbles:true,cancelable:true}));}}
  function restoreComparison(params){if(module!=='compare')return;const editor=root.querySelector('[data-compare-form]');for(const key of ['left','right'])editor.elements[key].value=params.get(key) || '';if(params.get('leftYear') && params.get('rightYear')){const years=root.querySelector('[data-year-compare-form]');for(const key of ['leftYear','rightYear'])years.elements[key].value=params.get(key);years.dispatchEvent(new Event('submit',{bubbles:true,cancelable:true}));}else if(params.get('left') && params.get('right'))renderComparison([params.get('left'),params.get('right')]);else{results.replaceChildren();report(c.compareNote);}}
  function listen(selector,event,handler){const node=root.querySelector(selector);if(node)node.addEventListener(event,handler);}
+ root.querySelectorAll('[data-export-route]').forEach(control=>control.addEventListener('click',()=>action(async()=>{const epoch=accountEpoch,currentOwner=await owner();if(epoch!==accountEpoch)return;const local=loadObservatory(storage,currentOwner),places=atlasPlaces(snapshot,locale),ids=local.data.routes.find(route=>route.id==='pilgrimage')?.places || [],selected=ids.map(id=>places.find(place=>place.id===id)).filter(Boolean),latestOwner=await owner();if(epoch!==accountEpoch || currentOwner!==latestOwner)return;if(control.dataset.exportRoute==='gpx')downloadArchiveFile(pilgrimageGPX(selected,snapshot.snapshot),'pilgrimage.gpx','application/gpx+xml');else downloadArchiveFile(JSON.stringify(pilgrimageGeoJSON(selected,snapshot.snapshot),null,2),'pilgrimage.geojson','application/geo+json');},control)));
+ root.querySelectorAll('[data-export-research]').forEach(control=>control.addEventListener('click',()=>action(async()=>{
+  const values={...query(),...(root.querySelector('[data-visual-year]')?.dataset.active==='true'?{until:root.querySelector('[data-visual-year]').value}:{})},records=['visual','museum'].includes(module)?visualRecords(snapshot,values,locale).map(row=>({id:row.id,entityId:row.entityId,title:row.title,date:row.date,image:row.image,path:row.path})):selectArchive(snapshot,{...values,...(module==='live-mode'?{type:'live-event'}:{})},locale).map(row=>({id:row.id,type:row.type,title:row.title,date:row.date,path:row.path,credits:row.facts.credits?.length || 0}));
+  const citation=archiveCitation(snapshot,records.map(row=>row.entityId || row.id)),data={version:1,snapshot:snapshot.snapshot,filters:values,records,citation,...(module==='statistics'?{statistics:archiveStatistics(snapshot,values),coverage:archiveCoverage(snapshot,values),collaborations:archiveCollaborations(snapshot,values)}:{})};
+  const file='archive-'+module+'-'+snapshot.snapshot.slice(0,12);if(control.dataset.exportResearch==='json')downloadArchiveFile(JSON.stringify(data,null,2),file+'.json');else if(control.dataset.exportResearch==='csv')downloadArchiveFile(archiveCSV(module==='statistics'?data.statistics.years:records),file+'.csv','text/csv;charset=utf-8');else downloadArchiveFile(await archiveZip({'report.json':data,'records.csv':archiveCSV(records),'citation.json':citation}),file+'.zip','application/zip');
+ },control)));
+ listen('[data-setlist-compare]','submit',event=>{event.preventDefault();const ids=event.currentTarget.elements.lives.value.split(/\s+/).filter(Boolean);if(ids.length>4 || ids.some(id=>record(id)?.type!=='live-event')){report(c.empty);return;}const compared=compareLiveSetlists(snapshot,ids,locale),target=root.querySelector('[data-setlist-comparison]');target.replaceChildren();const wrap=element('div','','archive-table-scroll'),table=element('table','','archive-table'),head=element('tr');head.append(element('th',c.songs));for(const live of compared.lives){const th=element('th');th.append(reference(live.id),element('small',' · '+(c[live.facts.setlistStatus] || c.unknown)));head.append(th);}table.append(head);for(const song of compared.rows){const tr=element('tr'),label=element('th');label.append(reference(song.id));tr.append(label,...song.counts.map(count=>element('td',count)));table.append(tr);}const footer=element('tr');footer.append(element('th',c.unlinked),...compared.unlinked.map(count=>element('td',count)));table.append(footer);wrap.append(table);target.append(wrap,element('p',c.matrixNote));setQuery({lives:ids.join(',')});});
  listen('[data-archive-share]','click',event=>action(async()=>{await navigator.clipboard.writeText(location.href);report(c.shared);},event.currentTarget));
  if(form){
   form.addEventListener('submit',event=>{event.preventDefault();limit=24;setQuery(query());void render();});
   form.addEventListener('change',()=>{limit=24;setQuery(query());void render();});
   let searchTimer;form.addEventListener('input',event=>{if(event.target.name!=='q'||event.isComposing)return;clearTimeout(searchTimer);searchTimer=setTimeout(()=>{limit=24;setQuery(query(),false);void render();},180);});
   form.addEventListener('compositionend',()=>{clearTimeout(searchTimer);limit=24;setQuery(query(),false);void render();});
-  form.addEventListener('reset',()=>setTimeout(()=>{limit=24;setQuery(query());void render();},0));
+  form.addEventListener('reset',()=>setTimeout(()=>{limit=24;setQuery({...query(),until:''});restoreForm();void render();},0));
  }
  listen('[data-archive-more]','click',()=>{limit+=24;void render();});
  listen('[data-question-form]','submit',event=>{
@@ -404,7 +424,7 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
  listen('[data-reload-observatory]','click',event=>action(async()=>{const epoch=accountEpoch,currentOwner=await owner();if(epoch!==accountEpoch)return;if(!currentOwner){report(c.signIn);return;}const remote=await request('me',{expectedOwner:currentOwner});const latestOwner=await owner();if(epoch!==accountEpoch || currentOwner!==latestOwner)return;saveObservatory(storage,currentOwner,remote.data,remote.revision,false);profile=remote;await renderObservatory();},event.currentTarget));
  listen('[data-export-observatory]','click',event=>action(async()=>{const currentOwner=await owner(),data=loadObservatory(storage,currentOwner).data,url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'})),anchor=link('','');anchor.href=url;anchor.download='kamitsubaki-observatory.json';anchor.click();setTimeout(()=>URL.revokeObjectURL(url),1000);},event.currentTarget));
  listen('[data-import-observatory]','change',event=>action(async()=>{const file=event.currentTarget.files[0];if(!file || file.size>500000)throw Error('invalid_file');const currentOwner=await owner(),incoming=validateObservatory(JSON.parse(await file.text()));if(currentOwner!==await owner())throw Error('account_changed');const current=loadObservatory(storage,currentOwner);saveObservatory(storage,currentOwner,mergeObservatory(current.data,incoming),current.revision,true);await syncAndRender();},event.currentTarget));
- listen('[data-collection-form]','submit',event=>{event.preventDefault();void action(async()=>{const values=formObject(event.currentTarget),ids=values.items.split(/\r?\n/).map(id=>id.trim()).filter(Boolean),notes=values.notes.split(/\r?\n/);if(ids.some(id=>!record(id)))throw Error('invalid_entity');const payload={title:values.title,description:values.description,kind:values.kind,revision:Number(values.revision),action:event.submitter.value,items:ids.map((entityId,index)=>({entityId,note:notes[index] || ''}))};const result=await request('collections'+(values.id?'/'+encodeURIComponent(values.id):''),{method:values.id?'PUT':'POST',body:payload});fillCollection(result.collection);await loadCollections();},event.submitter);});
+ listen('[data-collection-form]','submit',event=>{event.preventDefault();void action(async()=>{const values=formObject(event.currentTarget),items=collectionEditorItems(values);if(!items.length || items.length>100 || new Set(items.map(item=>item.entityId)).size!==items.length || items.some(item=>!record(item.entityId)))throw Error('invalid_collection');const payload={title:values.title,description:values.description,kind:values.kind,revision:Number(values.revision),action:event.submitter?.value || 'draft',items};const result=await request('collections'+(values.id?'/'+encodeURIComponent(values.id):''),{method:values.id?'PUT':'POST',body:payload});fillCollection(result.collection);await loadCollections();},event.submitter);});
  listen('[data-create-room]','submit',event=>{event.preventDefault();void action(async()=>{const response=await request('rooms',{method:'POST',body:{title:event.currentTarget.elements.title.value}});await joinRoom(response.id);},event.submitter);});
  listen('[data-join-room]','submit',event=>{event.preventDefault();void action(()=>joinRoom(event.currentTarget.elements.id.value),event.submitter);});
  listen('[data-room-position]','submit',event=>{event.preventDefault();if(!room)return;const values=formObject(event.currentTarget),active=room,generation=roomGeneration;void action(async()=>{const saved=await request('rooms/'+active.id+'/position',{method:'PUT',body:{entityId:values.entityId,kind:values.kind,section:values.section,revision:active.revision}});if(generation!==roomGeneration || !room || room.id!==active.id || saved.revision<room.revision)return;room={...room,...saved};drawRoom();},event.submitter);});
@@ -424,19 +444,25 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
  window.addEventListener('kamitsubaki-account-state',event=>{
   const next=event.detail?.viewer?.userId || null;if(next===displayedOwner)return;displayedOwner=next;
   profile=null;renderToken++;accountEpoch++;roomGeneration++;if(!snapshot)return;
+  if(collectionTools)void collectionTools.changeOwner().catch(error=>report(errorMessage(error)));
+  if(module==='atlas'){root.querySelector('[data-pilgrimage-route]').replaceChildren();root.querySelector('[data-route-directions]').hidden=true;atlasMapHandle?.setRoute([]);void renderRoute();}
   if(module==='observatory' && !new URL(location.href).searchParams.has('passport')){root.querySelector('[data-observatory]').replaceChildren();void syncAndRender();}
   if(module==='collections'){root.querySelector('[data-community-collections]').replaceChildren();root.querySelector('[data-collection-form]').reset();void loadCollections();}
   if(module==='challenges'){reviews=[];taskStates=[];results.replaceChildren();void loadTasks();}
   if(module==='rooms'){room=null;clearInterval(roomTimer);root.querySelector('[data-room-current]').replaceChildren();root.querySelector('[data-active-room]').hidden=true;}
  });
  document.addEventListener('visibilitychange',()=>{if(document.hidden)stopCamera();else if(room)void refreshRoom();});
- window.addEventListener('popstate',()=>{limit=24;restoreForm();void render();const params=new URL(location.href).searchParams;restoreComparison(params);restoreQuestion(params);if(module==='evidence')renderEvidence(params.get('entity'));if(module==='today')renderToday(params.get('day') || tokyoDay().slice(5));if(params.get('entry'))showDetail(params.get('entry'));else closeDetail({updateURL:false,restoreFocus:false});});
+ function restoreSetlists(params){const editor=root.querySelector('[data-setlist-compare]');if(!editor)return;const lives=params.get('lives');editor.elements.lives.value=lives?lives.split(',').join('\n'):'';root.querySelector('[data-setlist-comparison]').replaceChildren();if(lives)editor.dispatchEvent(new Event('submit',{bubbles:true,cancelable:true}));}
+ window.addEventListener('popstate',()=>{limit=24;restoreForm();void render();const params=new URL(location.href).searchParams;restoreComparison(params);restoreQuestion(params);restoreSetlists(params);if(module==='evidence')renderEvidence(params.get('entity'));if(module==='today')renderToday(params.get('day') || tokyoDay().slice(5));if(params.get('entry'))showDetail(params.get('entry'));else closeDetail({updateURL:false,restoreFocus:false});});
  try{
   snapshot=await loadSnapshot(root.dataset.snapshotUrl);pendingControls.forEach(control=>control.disabled=false);root.removeAttribute('aria-busy');restoreForm();await render();
   const params=new URL(location.href).searchParams;
+  if(module==='collections')collectionTools=await initializeCollectionTools(root,{snapshot,locale,owner,storage,onOpen:showDetail,onError:error=>report(errorMessage(error))});
+  if(module==='open-data')await initializeArchiveOpenData(root.querySelector('[data-open-data]'),{snapshot,copy:c,locale,load:loadSnapshot});
   if(module==='music')renderGenome();
   if(module==='museum'){const target=root.querySelector('[data-published-exhibitions]');try{const published=await request('collections');target.replaceChildren();for(const exhibition of published.collections.filter(row=>row.kind==='exhibition')){const article=element('article','','archive-space');article.append(element('h2',exhibition.title),element('p',exhibition.description));const chapters=element('ol');for(const item of exhibition.items){const li=element('li');li.append(reference(item.entityId),element('p',item.note));chapters.append(li);}article.append(chapters,link(c.share,'/'+locale+'/explore/collections/?collection='+exhibition.id));target.append(article);}if(!target.childElementCount)target.append(element('p',c.empty));}catch{target.replaceChildren(element('p',c.unavailable));}}
   restoreComparison(params);
+  restoreSetlists(params);
   if(module==='evidence'){const id=params.get('entity') || snapshot.evidence[0]?.entityId || snapshot.entities[0]?.id;root.querySelector('[data-evidence-form] [name=entity]').value=id;renderEvidence(id);}
   restoreQuestion(params);
   if(module==='observatory'){const live=params.get('live');if(live)root.querySelector('[data-witness-form] [name=entityId]').value=live;const publicId=params.get('passport');if(publicId){const publicPassport=await request('passports/'+encodeURIComponent(publicId));const target=root.querySelector('[data-observatory]');target.replaceChildren(element('h2',publicPassport.passport.name),element('p',publicPassport.passport.note));for(const row of publicPassport.records){const paragraph=element('p',c[row.kind]+' · '+(row.date || new Date(row.at).toISOString().slice(0,10))+' · ');paragraph.append(reference(row.entityId));if(row.note)paragraph.append(element('span',' · '+row.note));target.append(paragraph);}for(const selector of ['[data-passport-form]','[data-witness-form]','[data-reload-observatory]','[data-export-observatory]','[data-import-observatory]'])root.querySelector(selector).hidden=true;root.querySelector('[data-import-observatory]').closest('label').hidden=true;more.hidden=true;report(c.public);}else void syncAndRender();}
@@ -445,7 +471,6 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
   if(module==='rooms'){const id=params.get('room');if(id)await action(()=>joinRoom(id));else report(c.roomNote);}
   if(module==='physical' && params.get('barcode')){root.querySelector('[data-barcode-form] [name=barcode]').value=params.get('barcode');findBarcode(params.get('barcode'));}
   if(module==='today'){const day=params.get('day') || tokyoDay().slice(5);root.querySelector('[data-today-form] [name=monthDay]').value=day;renderToday(day);const mystery=mysteryEntity(snapshot,tokyoDay());if(mystery)root.querySelector('[data-mystery-clues]').append(element('p',c.year+': '+mystery.year),element('p',c.artist+': '+mystery.performers.map(name).join(' · ')),element('p',c.role+': '+mystery.credits.join(' · ')));}
-  if(params.get('until') && root.querySelector('[data-visual-year]')){const scrub=root.querySelector('[data-visual-year]');scrub.value=params.get('until');scrub.dataset.active='true';root.querySelector('[data-visual-year-label]').textContent=scrub.value;renderVisual();}
   if(params.get('entry'))showDetail(params.get('entry'));
   if(!status.textContent || status.textContent===c.loading)report(c.coverage);
  }catch(error){report(errorMessage(error));status.append(button(c.apply,()=>location.reload()));}

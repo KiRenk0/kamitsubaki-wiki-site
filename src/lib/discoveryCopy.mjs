@@ -1,4 +1,5 @@
 import { resolveLocaleCopy } from './i18n.mjs';
+import {archiveCompletionCopy} from './archiveCompletionCopy.mjs';
 import { graphKinds } from './graphModel.mjs';
 import { entityLabel } from './entityLabels.mjs';
 import { relationPathCopy } from './relationPathCopy.mjs';
@@ -78,5 +79,5 @@ export function discoveryCopy(locale) {
       articles: '公開記事を {count} 件収録', articleIncomplete: '公開記事の索引が不完全です。他の記録は引き続き探索できます。',
     },
   }, locale);
-  return { ...c, kinds: Object.fromEntries(graphKinds.map(kind => [kind, kind === 'events' ? relationPathCopy(locale).timeline : entityLabel(kind, locale)])), path: relationPathCopy(locale) };
+  return { ...archiveCompletionCopy(locale),...c, kinds: Object.fromEntries(graphKinds.map(kind => [kind, kind === 'events' ? relationPathCopy(locale).timeline : entityLabel(kind, locale)])), path: relationPathCopy(locale) };
 }

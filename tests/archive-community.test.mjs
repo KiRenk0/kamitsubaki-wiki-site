@@ -149,3 +149,11 @@ test('closing a room during catalogue validation prevents a late host position w
  assert.equal((await position).status,409);
  assert.equal((await call('rooms/'+created.id)).status,404);
 });
+
+test('verified contribution totals cover all approved work, excluding claims and other accounts',async()=>{
+ const {call,sqlite}=await fixture(),now=Date.now(),statement=sqlite.prepare("INSERT INTO archive_tasks(id,entity_id,field,locale,owner,status,snapshot,claimed_at,expires_at,updated_at) VALUES(?,?,?,?,?,?,?,?,?,?)");
+ for(let i=0;i<105;i++)statement.run('task-'+i,'song-a','sources','','alice','approved','fixture',now,now+1000,now);
+ statement.run('claim','song-b','sources','','alice','claimed','fixture',now,now+1000,now);statement.run('other','song-b','credits','','bob','approved','fixture',now,now+1000,now);
+ const me=(await call('me')).data;assert.equal(me.tasks.length,100);assert.equal(me.contributions.approved,105);assert.equal(me.contributions.month.approved,105);
+ assert.equal((await call('me','GET',undefined,'bob')).data.contributions.approved,1);
+});

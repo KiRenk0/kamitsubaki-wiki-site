@@ -3,6 +3,8 @@ import { discoveryReason, discoveryEdgeText, discoveryFormat } from '../lib/disc
 import { relationEndpointLabel, resolveRelationEndpoint } from '../lib/relationPaths.mjs';
 import { isGraphEvent } from '../lib/graphModel.mjs';
 import { updateLocaleQueries } from '../lib/localeQuery.mjs';
+import {currentArchiveOwner} from '../lib/archiveClient.mjs';
+import {loadObservatory} from '../lib/archivePersonal.mjs';
 
 const element = (tag, text, cls) => { const node = document.createElement(tag); if (text !== undefined) node.textContent = text; if (cls) node.className = cls; return node; };
 const link = (text, href) => { const node = element('a', text); node.href = href; return node; };
@@ -20,6 +22,7 @@ export function initializeDiscovery(root, { catalog, copy: c, now = () => new Da
   options('kind', catalog.facets.kinds.map(id => ({ id, title: c.kinds[id] || id })));
   options('style', catalog.facets.styles.map(item => ({ ...item, title: item.title + ' · ' + item.count })));
   const suggestions = document.createDocumentFragment();
+  const personal=element('button',c.personalInterests,'workspace-button');personal.type='button';personal.dataset.discoveryPersonal='';personal.addEventListener('click',async()=>{personal.disabled=true;try{const owner=await currentArchiveOwner(),interests=loadObservatory(localStorage,owner).data.interests;if(owner!==await currentArchiveOwner())return;const allowed=new Set(catalog.facets.artists.map(item=>item.id)),artists=interests.filter(id=>allowed.has(id)).slice(0,3),start=artists.length?'':interests.find(id=>engine.index.byId.has(id)) || '';if(!artists.length && !start){personal.textContent=c.noInterests;return;}updateURL({...state,artists,start,variant:0,step:0});}finally{personal.disabled=false;}});form.after(personal,element('p',c.personalHint));
   for (const node of engine.index.nodes) { const option = element('option'); option.value = relationEndpointLabel(node); suggestions.append(option); }
   $('[data-discovery-options]').replaceChildren(suggestions);
 

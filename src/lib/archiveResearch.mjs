@@ -2,7 +2,7 @@ import {foldCjkSearchText} from './cjkSearch.mjs';
 export {validBarcode} from './archiveBarcode.mjs';
 
 export const archiveVersion = 1;
-export const archiveModules = ['music','atlas','visual','statistics','observatory','collections','challenges','ask','compare','evidence','languages','radio','rooms','physical','today','museum','live-mode'];
+export const archiveModules = ['music','atlas','visual','statistics','observatory','collections','challenges','ask','compare','evidence','languages','radio','rooms','physical','today','museum','live-mode','open-data'];
 export const unique = values => [...new Set(values.filter(Boolean))];
 export const isDay = date => /^\d{4}-\d{2}-\d{2}$/.test(date || '') && Number.isFinite(Date.parse(date + 'T00:00:00Z')) && new Date(date + 'T00:00:00Z').toISOString().slice(0,10) === date;
 export function durationSeconds(value) {
@@ -24,7 +24,7 @@ export function selectArchive(snapshot,query={},locale='zh') {
     const d=row.facts;
     if(query.entity && row.id!==query.entity)return false;
     if (query.type && row.type!==query.type) return false;
-    if (year && !row.date?.startsWith(year)) return false;
+    if (year && (!row.date || row.date.slice(0,4)>year || (d.dateRange?.end || row.date).slice(0,4)<year)) return false;
     if (query.from && (!row.date || row.date < query.from)) return false;
     if (query.to && (!row.date || row.date.slice(0,query.to.length)>query.to)) return false;
     if (query.artist && ![d.primaryArtist,...(d.performers || []).map(p=>p.entity),...(d.headliners || []),...(d.guestPerformers || [])].includes(query.artist)) return false;
@@ -32,6 +32,7 @@ export function selectArchive(snapshot,query={},locale='zh') {
     if (query.role && !query.creator && !(d.credits || []).some(c=>c.role===query.role)) return false;
     if (query.tag && ![...(d.tags || []),...(d.genres || []),...(d.genome?.tags || []).map(t=>t.value)].includes(query.tag)) return false;
     if (query.media==='yes' && !row.media?.length) return false;
+    if(query.version && !snapshot.relations.some(edge=>['version-of','derived-from'].includes(edge.type) && (edge.source===row.id || edge.target===row.id) && (query.version==='any' || edge.versionType===query.version)))return false;
     const haystack=foldCjkSearchText([row.id,...Object.values(row.narratives).flatMap(n=>[n.title,n.romanized,n.summary,...(n.aliases || [])]),...(d.credits || []).map(c=>c.name),d.venue?.name].join(' '));
     return words.every(word=>haystack.includes(word));
   }).map(row=>archiveRecord(snapshot,row.id,locale));
@@ -98,8 +99,8 @@ export function setlistStatistics(snapshot,ids=null) {
   return {total:lives.length,covered:withSetlist.length,unlinked:withSetlist.reduce((n,live)=>n+live.facts.setlist.filter(t=>!t.songId).length,0),
     songs:[...songs.values()].map(song=>({...song,eventCount:song.events.size,events:[...song.events],latest:song.occurrences.map(o=>o.date).filter(isDay).sort().at(-1) || null})).sort((a,b)=>b.eventCount-a.eventCount || a.id.localeCompare(b.id))};
 }
-export function archiveStatistics(snapshot,{year='',artist=''}={}) {
-  const records=selectArchive(snapshot,{year,artist});
+export function archiveStatistics(snapshot,query={}) {
+  const records=selectArchive(snapshot,query);
   const songs=records.filter(e=>e.type==='work-track'), lives=records.filter(e=>e.type==='live-event');
   const years=new Map();
   for(const entity of records)if(entity.date){const value=entity.date.slice(0,4);if(!years.has(value))years.set(value,{year:value,songs:0,releases:0,lives:0});const key={'work-track':'songs','work-release':'releases','live-event':'lives'}[entity.type];if(key)years.get(value)[key]++;}
@@ -144,7 +145,9 @@ export function atlasPlaces(snapshot,locale='zh') {
   for(const entity of snapshot.entities.filter(e=>e.type==='live-event' && e.facts.venue)){
     const venue=entity.facts.venue,key=[venue.name,venue.city,venue.country,venue.isVirtual].join('|');
     if(!places.has(key))places.set(key,{id:'venue:'+entity.id,title:venue.name,world:venue.isVirtual===true?'virtual':venue.isVirtual===false?'real':'unknown',city:venue.city || '',country:venue.country || '',coordinates:venue.coordinates || null,sourceIds:venue.sourceIds || [],entities:[]});
-    places.get(key).entities.push(entity.id);
+    const place=places.get(key);place.entities.push(entity.id);
+    if(!place.coordinates && venue.coordinates)place.coordinates=venue.coordinates;
+    place.sourceIds=unique([...place.sourceIds,...(venue.sourceIds || [])]);
   }
   for(const entity of snapshot.entities.filter(e=>e.type==='lore-concept' && e.facts.loreCategory==='geography')){
     const row=archiveRecord(snapshot,entity.id,locale);
@@ -163,7 +166,7 @@ export function genomePoints(snapshot,axes=['year','duration','bpm']) {
   });
 }
 export function visualRecords(snapshot,query={},locale='zh'){
- const entities=selectArchive(snapshot,{...query,year:''},locale);
+ const entities=selectArchive(snapshot,{...query,year:'',entity:query.visualEntity || ''},locale).filter(entity=>!query.lineage || entity.morphing?.group===query.lineage);
  return entities.flatMap(entity=>{
   const rows=(entity.facts.visualHistory || []).map(visual=>({...visual,entityId:entity.id,record:entity,path:entity.path}));
   if(!entity.image || rows.some(row=>row.image===entity.image))return rows;

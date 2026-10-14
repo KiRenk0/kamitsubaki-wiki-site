@@ -1,6 +1,8 @@
 # Archive Open Data v1
 
-入口：`/api/archive/v1/manifest.json`。接口为公开静态 JSON，允许跨站读取，不要求登录，也不包含个人记录、账号、草稿、审核者身份或房间参与者。
+页面入口：`/zh/explore/open-data/`（支持五语言），可选择当前／已保存版本、核对 SHA-256、预览集合、下载 JSON／CSV／ZIP 和引用说明。哈希不符时禁用下载。完整说明见 [F01–F12 完成说明](f01-f12-completion.md)。
+
+接口入口：`/api/archive/v1/manifest.json`。接口为公开静态 JSON，允许跨站读取，不要求登录，也不包含个人记录、账号、草稿、审核者身份或房间参与者。
 
 | 资源 | 返回内容 |
 | --- | --- |
@@ -14,9 +16,10 @@
 | `translations.json` | 分语言叙述及转换生成标志 |
 | `issues.json` | 缺失关系、事实差异等公开资料问题 |
 | `schema.json` | 快照的机器可读资料契约 |
+| `catalogue.json` | `{version:1,current,snapshots:[{hash,current,url}]}`，列出当前和已提交的不可变快照 |
 | `snapshots/<SHA-256>.json` | 包含上述档案集合的固定内容快照 |
 
-除 manifest、schema 和完整快照外，资源具有 `{version:1,snapshot,records}` 信封。`version` 表示契约主版本；`snapshot` 是使用稳定对象键排序后计算的档案内容 SHA-256，与获取时刻不同。实体身份使用 `id`，请不要用译文标题、路径末段或数组位置作为主键。
+除 manifest、catalogue、schema 和完整快照外，资源具有 `{version:1,snapshot,records}` 信封。`version` 表示契约主版本；`snapshot` 是使用稳定对象键排序后计算的档案内容 SHA-256，与获取时刻不同。实体身份使用 `id`，请不要用译文标题、路径末段或数组位置作为主键。
 
 日期精度分别保留年、月与日。缺值、空列表和未连接关系只表示当前未收录，不表示历史上不存在。Setlist 统计只覆盖有曲目记录的演出；部分曲目摘录不能当作完整场次。字段证据只有明确的 `field` 与 `sourceIds` 关联才成立。`reviewed` 表示记录的人工核对状态，不保证来源永远可用。
 

@@ -1,8 +1,9 @@
 import { selectKnowledgeEntries } from '../lib/knowledgeStatus.mjs';
 import { updateLocaleQueries } from '../lib/localeQuery.mjs';
+import {recordObservation} from '../lib/archiveClient.mjs';
 
 export function initializeKnowledgeBoard(root) {
-  const { entries, copy: c } = JSON.parse(root.querySelector('[data-quality-data]').textContent);
+  const { entries, copy: c } = JSON.parse(root.querySelector('[data-quality-data]').textContent),locale=root.dataset.locale || entries[0]?.path?.split('/')[1] || 'zh';
   const form = root.querySelector('[data-quality-form]');
   const result = root.querySelector('[data-quality-results]');
   const count = root.querySelector('[data-quality-count]');
@@ -18,12 +19,13 @@ export function initializeKnowledgeBoard(root) {
     const heading = element('h2');
     const title = element('a', entry.title); title.href = entry.path; heading.append(title);
     const missing = element('ul', null, 'knowledge-missing');
-    for (const field of entry.missing) missing.append(element('li', c.fields[field.field] || field.field));
+    for (const field of entry.missing){const row=element('li'),task=element('a',c.fields[field.field] || field.field);task.href='/'+locale+'/explore/challenges/?q='+encodeURIComponent(entry.id)+'&field='+encodeURIComponent(field.field)+(field.field==='translation'?'&language='+(['en','ja'].includes(locale)?locale:'zh'):'');row.append(task);missing.append(row);}
     item.append(header, heading, missing);
     if (entry.missing.some(field => field.field === 'translation')) item.append(element('p', `${c.sourceLocale}: ${entry.sourceLocale}`, 'knowledge-source-language'));
     const actions = element('div', null, 'knowledge-entry-actions');
     const open = element('a', `${c.open} ↗`); open.href = entry.path; actions.append(open);
     if (entry.editHref) { const edit = element('a', `${c.edit} →`); edit.href = entry.editHref; actions.append(edit); }
+    const workList=element('button',c.workList);workList.type='button';workList.addEventListener('click',async()=>{workList.disabled=true;try{const saved=await recordObservation({kind:'guarding',entityId:entry.id});count.textContent=c.workListSaved+(saved.synced?' · '+c.synced:'');}catch{count.textContent=c.failed || c.empty;}finally{workList.disabled=false;}});actions.append(workList);
     item.append(actions);
     return item;
   }

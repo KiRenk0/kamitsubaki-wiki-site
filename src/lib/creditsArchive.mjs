@@ -34,18 +34,19 @@ export function buildCreditsArchive(registry, locale = 'zh') {
   }
   const creators = [...groups.values()].map(group => {
     const works = [...group.works.values()];
-    const years = new Map(), partners = new Map();
+    const years = new Map(), partners = new Map(),coCreators=new Map();
     for (const work of works) {
       if (work.year) years.set(work.year, (years.get(work.year) || 0) + 1);
       for (const artist of work.artists) {
         if (!partners.has(artist.id)) partners.set(artist.id, { ...artist, count: 0 });
         partners.get(artist.id).count++;
       }
+      for(const credit of new Map(work.credits.map(credit=>[credit.key,credit])).values())if(credit.key!==group.key){if(!coCreators.has(credit.key))coCreators.set(credit.key,{key:credit.key,title:credit.title,entityId:credit.entityId,path:credit.path,count:0});coCreators.get(credit.key).count++;}
     }
     return { key: group.key, title: group.title, path: group.path, entityId: group.entityId,
       workCount: works.length, roles: [...group.roles].sort(),
       years: [...years].map(([year, count]) => ({ year, count })).sort((a, b) => b.year.localeCompare(a.year)),
-      collaborators: [...partners.values()].sort((a, b) => b.count - a.count || a.id.localeCompare(b.id)) };
+      collaborators: [...partners.values()].sort((a, b) => b.count - a.count || a.id.localeCompare(b.id)),coCreators:[...coCreators.values()].sort((a,b)=>b.count-a.count || a.key.localeCompare(b.key)) };
   }).sort((a, b) => b.workCount - a.workCount || a.title.localeCompare(b.title) || a.key.localeCompare(b.key));
   return { entries, creators,
     artists: uniqueArchiveReferences(entries.flatMap(entry => entry.artists)).sort((a, b) => a.title.localeCompare(b.title)),
@@ -58,8 +59,9 @@ export function buildCreditsArchive(registry, locale = 'zh') {
 /** Creator and role must occur on the same credit row, not different participants on a work.
  * @param {ReturnType<typeof buildCreditsArchive>['entries']} entries
  */
-export function selectCreditsArchive(entries, { query = '', creator = '', artist = '', role = '', year = '', sort = 'newest' } = {}) {
+export function selectCreditsArchive(entries, { query = '', creator = '', collaborator='',workType='',artist = '', role = '', year = '', sort = 'newest' } = {}) {
   return entries.filter(entry => archiveMatches(entry, query) && (!artist || entry.artists.some(ref => ref.id === artist))
+    && (!workType || entry.entityType===workType) && (!collaborator || collaborator!==creator && entry.credits.some(credit=>credit.key===collaborator))
     && (!year || (year === 'unknown' ? !entry.year : entry.year === year))
     && entry.credits.some(credit => (!creator || credit.key === creator) && (!role || credit.role === role)))
     .sort((a, b) => compareArchiveRecords(a, b, sort));

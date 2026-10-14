@@ -82,7 +82,7 @@ export async function getArchiveSnapshot() {
 }
 export function archiveManifest(snapshot) {
   return {version:archiveVersion,snapshot:snapshot.snapshot,identity:'stable entity IDs',canonicalFacts:snapshot.entities[0]?.canonicalLocale || 'zh',
-    locales:['zh','zh-tw','zh-hk','ja','en'],endpoints:['entities','relations','events','calendar','physical','credits','evidence','translations','issues','schema'],
+    locales:['zh','zh-tw','zh-hk','ja','en'],endpoints:['entities','relations','events','calendar','physical','credits','evidence','translations','issues','schema','catalogue'],
     snapshotUrl:'/api/archive/v1/snapshots/'+snapshot.snapshot+'.json',
     counts:{entities:snapshot.entities.length,relations:snapshot.relations.length,events:snapshot.events.length,evidence:snapshot.evidence.length,issues:snapshot.issues.length},
     license:{text:'CC-BY-NC-SA-4.0 unless a record specifies otherwise',media:'Media and linked official embeds retain their respective rights.'},
