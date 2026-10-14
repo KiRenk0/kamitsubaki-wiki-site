@@ -1,6 +1,6 @@
 import {resolveLocaleCopy} from './i18n.mjs';
 const labels={
-locationNamesHelp:['城市名称保留目录原名；未确认的译名不自动填入。','City names retain the catalogue’s original spelling. Unverified translations are omitted.','都市名は一覧の原表記を保持し、未確認の訳名は使いません。'],
+locationNamesHelp:['支持中文与原名搜索。中文名称来自公开地名目录；缺少中文译名时显示原名。','Search Chinese names or original spellings. Verified Chinese names are shown where available.','中国語名・原表記で検索できます。確認済みの中国語名がない場合は原表記を表示します。'],
 locationZoneHelp:['城市目录时区（请按公告核对）：','Catalogue time zone (verify against the announcement):','一覧の時間帯（告知で確認してください）：'],
 useLocationZone:['使用城市目录时区','Use this time zone','この時間帯を使用'],
 
@@ -13,7 +13,7 @@ catalog:["从地点目录选择", "Choose from the location catalogue", "地名�
 manual:["目录缺少城市，手动填写", "City missing from catalogue: enter manually", "一覧にない都市を手入力"],
 pending:["地点待公布", "Location to be announced", "開催地未発表"],
 location:["举办地点", "Event location", "開催地"],
-locationHelp:["线上活动可不填举办地。线下活动选择国家／地区和城市；场馆、街道和门牌号手动填写。", "Online events may omit the venue. For in-person events, choose a country and city; enter the venue and street address manually.", "オンライン企画は開催地を省略できます。現地開催は国・地域と都市を選び、会場・住所を手入力してください。"],
+locationHelp:["线下或混合活动选择国家／地区和城市；场馆、街道和门牌号手动填写。线上活动无需地点，日程时区仍须确认。", "In-person and hybrid events need a country and city; enter the venue and street address manually. Online events need no location. Confirm the schedule time zone separately.", "現地・ハイブリッド開催は国・地域と都市を選び、会場・住所を手入力します。オンライン企画に開催地は不要です。日程の時間帯は別途確認してください。"],
 locationSource:["地点目录来自", "Location data by", "地名データ提供"],
 chooseLocation:["请选择或搜索", "Choose or search", "選択・検索"],
 locationLoading:["正在读取地点目录…", "Loading locations…", "地名を読み込み中…"],
