@@ -4,7 +4,7 @@ import {createRequire} from 'node:module';
 import {fileURLToPath} from 'node:url';
 import YAML from 'yaml';
 import {createHash} from 'node:crypto';
-import {entityCollections} from '../src/lib/entityModel.mjs';
+import {entityCollections,entityRoute} from '../src/lib/entityModel.mjs';
 const root=fileURLToPath(new URL('../',import.meta.url)),backend=process.argv[process.argv.indexOf('--backend')+1];
 if(!backend||!process.argv.includes('--backend'))throw Error('Explicit isolated backend path required.');
 async function walk(dir){const result=[];for(const entry of await readdir(dir,{withFileTypes:true})){const path=resolve(dir,entry.name);if(entry.isDirectory())result.push(...await walk(path));else if(/\/(zh|ja|en)\.md$/.test(path))result.push(path);}return result;}
@@ -12,8 +12,10 @@ const entries=[];
 for(const collection of entityCollections){for(const path of (await walk(resolve(root,'src/content',collection))).sort()){
  const source=await readFile(path,'utf8'),match=source.match(/^\uFEFF?---\r?\n([\s\S]*?)\r?\n---/);if(!match)continue;
  const data=YAML.parse(match[1]);if(data.schemaVersion!==2)continue;
- const keys=['schemaVersion','id','entityType','locale','name','title','summary','romanizedName','romanizedTitle','aliases','presentation','performers','primaryArtist','relations','credits','affiliations','tracks','setlist','headliners','guestPerformers','relatedEntities','label','parentOrg','organizer','belongToUniverse','legacy'];
- entries.push({filePath:relative(root,path),data:Object.fromEntries(keys.filter(key=>data[key]!==undefined).map(key=>[key,data[key]])),body:''});
+ const keys=['schemaVersion','id','entityType','locale','name','title','summary','romanizedName','romanizedTitle','aliases','roles','classification','lifecycle','articleCategory','presentation','performers','primaryArtist','relations','credits','affiliations','tracks','setlist','headliners','guestPerformers','relatedEntities','label','parentOrg','organizer','belongToUniverse','legacy'];
+ const metadata=Object.fromEntries(keys.filter(key=>data[key]!==undefined).map(key=>[key,data[key]]));
+ if(entityRoute(metadata)!==entityRoute(data))throw Error('Shared preview lost canonical navigation metadata: '+relative(root,path));
+ entries.push({filePath:relative(root,path),data:metadata,body:''});
 }}
 const redirects=JSON.parse(await readFile(resolve(root,'src/data/entity-redirects.json'),'utf8'));
 const require=createRequire(import.meta.url),{build}=createRequire(require.resolve('vite/package.json'))('esbuild');
