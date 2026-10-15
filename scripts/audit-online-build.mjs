@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import {readFile} from 'node:fs/promises';
+import {readFile,readdir} from 'node:fs/promises';
 import {resolve} from 'node:path';
 
 const root=resolve('dist'),api='https://api.kamitsubaki.wiki';
@@ -23,3 +23,6 @@ console.log('Online release gate passed: five locales, twelve contribution/accou
 
 const home=await readFile(resolve(root,'zh/index.html'),'utf8');assert.ok(!home.includes('src=\"/_editor/'),'Editor code must not load on reading pages.');
 const workbench=await readFile(resolve(root,'zh/contribute/editor/index.html'),'utf8');assert.ok(workbench.includes('src=\"/_editor/workbench.js\"'),'Editing pages must load the separate built editor.');
+const assets=(await readdir(root,{recursive:true,withFileTypes:true})).filter(entry=>entry.isFile()).length;
+assert.ok(assets<=20000,`Pages file budget exceeded: ${assets}/20000. Preserve functionality while reducing generated file count.`);
+console.log(`Pages file budget passed: ${assets}/20000.`);

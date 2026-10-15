@@ -1,6 +1,7 @@
 {
   "version": 1,
   "include": [
+    "/pagefind/*/fragment/*",
     "/articles-dynamic-sitemap.xml",
     "/*/articles/read",
     "/*/articles/read/*",
