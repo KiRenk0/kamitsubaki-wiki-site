@@ -1,4 +1,4 @@
-import traditionalDefinition from '../../public/TraditionalChineseConvert.json' with {type:'json'};
+import traditionalDefinition from '../i18n/traditional-definition.generated.json' with {type:'json'};
 import uiOverrides from '../i18n/traditional-ui-overrides.json' with {type:'json'};
 import OpenCC from 'opencc-js';
 

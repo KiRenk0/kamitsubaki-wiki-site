@@ -254,7 +254,7 @@ export async function initGallery(){
     totalCount:inPhotoGrid?total:items.length,
     onNeedMore:inPhotoGrid&&nextOffset!==null?async()=>{const before=photos.length;if(!await loadMore())throw Error('Could not load more photos');return {items:photoItems(photos.slice(before)),hasMore:nextOffset!==null,totalCount:total};}:undefined,
     onChange:(image:{id:string})=>{const url=new URL(location.href);url.searchParams.set('photo',image.id);history.replaceState(null,'',url);},
-    onClose:()=>{if(params().has('photo'))setUrl({photo:null},true);window.scrollTo({top:overviewScroll,behavior:'instant'});}
+    onClose:()=>{if(params().has('photo'))setUrl({photo:null},true);window.scrollTo({top:overviewScroll,behavior:'instant'});root?.querySelector<HTMLElement>('[data-photo-id="'+CSS.escape(id)+'"]')?.focus({preventScroll:true});}
    });
   }catch{if(stamp!==photoRequestId)return;feedback(copy.error);setUrl({photo:null},true);}
  }

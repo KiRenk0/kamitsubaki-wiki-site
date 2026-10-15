@@ -1,4 +1,6 @@
 ---
+import WorkspaceButton from './WorkspaceButton.astro';
+import WorkspaceControl from './WorkspaceControl.astro';
 import Icon from './Icon.astro';
 import { resolveLocaleCopy } from '../lib/i18n.mjs';
 
@@ -17,19 +19,19 @@ const copy = resolveLocaleCopy({
 ---
 
 <div class="share-popover" data-share-popover data-share-path={path} data-copy={JSON.stringify(copy)} hidden={deferred}>
-  <button type="button" class="share-popover__trigger" data-share-trigger aria-expanded="false" aria-controls="reader-share-panel" aria-haspopup="true">
+  <WorkspaceButton type="button" class="share-popover__trigger" data-share-trigger aria-expanded="false" aria-controls="reader-share-panel" aria-haspopup="true">
     <Icon name="share" size={14} />
     <span>{copy.share}</span>
-  </button>
+  </WorkspaceButton>
   <div class="share-popover__panel" id="reader-share-panel" data-share-panel hidden>
     <p class="share-popover__heading">{copy.heading}</p>
     <label class="share-popover__anchor" data-share-anchor-row hidden>
-      <input type="checkbox" data-share-anchor checked />
+      <WorkspaceControl type="checkbox" data-share-anchor checked />
       <span>{copy.anchor}</span>
     </label>
-    <input class="share-popover__link" type="text" data-share-link aria-label={copy.link} readonly />
+    <WorkspaceControl class="share-popover__link" type="text" data-share-link aria-label={copy.link} readonly />
     <div class="share-popover__actions">
-      <button type="button" class="share-popover__copy" data-share-copy>{copy.copy}</button>
+      <WorkspaceButton type="button" class="share-popover__copy" data-share-copy>{copy.copy}</WorkspaceButton>
       <slot name="actions" />
     </div>
     <p class="share-popover__status" role="status" aria-live="polite" data-share-status></p>
@@ -128,7 +130,7 @@ const copy = resolveLocaleCopy({
   .share-popover__heading { margin: 0 0 .75rem; font: 500 .88rem/1.5 var(--font-serif); }
   .share-popover__anchor { display: flex; align-items: center; gap: .55rem; min-height: 40px; padding: .4rem 0; border-top: 1px solid var(--reader-line); color: var(--reader-muted); font-size: .75rem; line-height: 1.5; cursor: pointer; }
   .share-popover__anchor input { accent-color: var(--theme-fg); width: 15px; height: 15px; flex: none; }
-  .share-popover__link { display: block; width: 100%; margin: .2rem 0 .6rem; padding: .5rem; border: 1px solid var(--reader-line); border-radius: var(--ui-radius-control, 4px); background: transparent; color: var(--reader-muted); font: .7rem/1.4 var(--font-mono); text-overflow: ellipsis; }
+  .share-popover__link { display: block; margin: .2rem 0 .6rem; border: 1px solid var(--reader-line); border-radius: var(--ui-radius-control, 4px); background: transparent; font: .7rem/1.4 var(--font-mono); text-overflow: ellipsis; }
   .share-popover__actions { display: grid; gap: .35rem; padding-top: .55rem; border-top: 1px solid var(--reader-line); }
   .share-popover .share-popover__copy { display: flex; justify-content: center; align-items: center; min-height: 40px; width: 100%; border: 1px solid var(--reader-line); border-radius: var(--ui-radius-control, 4px); background: var(--theme-fg); color: var(--theme-bg); font: 500 .78rem/1.4 var(--font-sans); cursor: pointer; transition: opacity 180ms ease; }
   .share-popover .share-popover__copy:hover { opacity: .82; }

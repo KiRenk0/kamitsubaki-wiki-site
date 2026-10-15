@@ -12,6 +12,8 @@
     "promo",
     "promo-app",
     "promo-page",
-    "public/_editor"
+    "public/_editor",
+    "public/_ui",
+    "qa/cache"
   ]
 }

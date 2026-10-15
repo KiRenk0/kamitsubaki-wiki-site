@@ -1,4 +1,5 @@
 ---
+import WorkspaceButton from './WorkspaceButton.astro';
 import Icon from './Icon.astro';
 ---
 <section class="not-found-runner" data-not-found-runner aria-labelledby="not-found-title">
@@ -20,7 +21,7 @@ import Icon from './Icon.astro';
     </div>
     <div class="not-found-runner__gameover" data-runner-gameover hidden>
       <strong data-copy="interrupted">信号中断</strong>
-      <button type="button" data-runner-restart data-copy="retry">再次连接</button>
+      <WorkspaceButton type="button" data-runner-restart data-copy="retry">再次连接</WorkspaceButton>
     </div>
   </div>
 </section>

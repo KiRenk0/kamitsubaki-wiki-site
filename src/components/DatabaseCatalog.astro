@@ -1,4 +1,6 @@
 ---
+import WorkspaceButton from './WorkspaceButton.astro';
+import WorkspaceControl from './WorkspaceControl.astro';
 import Icon from './Icon.astro';
 import {getCollection} from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
@@ -60,28 +62,28 @@ const payload=JSON.stringify({records,facets,copy}).replace(/</g,'\\u003c');
     <section class="database-browser" aria-labelledby="database-browse-title">
       <h2 id="database-browse-title">{copy.browse}</h2>
       <form class="database-query" role="search" data-database-form>
-        <label class="database-search"><span class="database-visually-hidden">{copy.search}</span><Icon name="search" /><input class="dui-input dui-input-ghost" type="search" name="q" aria-label={copy.search} placeholder={copy.placeholder} autocomplete="off"/></label>
-        <button type="button" class="database-filter-toggle dui-btn dui-btn-ghost" data-database-filter-toggle aria-expanded="false" aria-controls="database-filters"><Icon name="sliders-horizontal" /><span>{copy.filters}</span><Icon name="chevron-down" class="database-filter-chevron" /></button>
+        <label class="database-search"><span class="database-visually-hidden">{copy.search}</span><Icon name="search" /><WorkspaceControl class="dui-input dui-input-ghost" type="search" name="q" aria-label={copy.search} placeholder={copy.placeholder} autocomplete="off"/></label>
+        <WorkspaceButton type="button" class="database-filter-toggle dui-btn dui-btn-ghost" data-database-filter-toggle aria-expanded="false" aria-controls="database-filters"><Icon name="sliders-horizontal" /><span>{copy.filters}</span><Icon name="chevron-down" class="database-filter-chevron" /></WorkspaceButton>
         <div class="database-filters" id="database-filters">
-          <label><span>{copy.type}</span><select class="dui-select" name="type" aria-label={copy.type}><option value="">{copy.allValues}</option>{facets.types.map(type=><option value={type}>{entityLabel(type,locale)}</option>)}</select></label>
-          <label><span>{copy.artist}</span><select class="dui-select" name="artist" aria-label={copy.artist}><option value="">{copy.allValues}</option>{facets.artists.map(artist=><option value={artist.id}>{artist.label}</option>)}</select></label>
-          <label><span>{copy.year}</span><select class="dui-select" name="year" aria-label={copy.year}><option value="">{copy.allValues}</option>{facets.years.map(year=><option value={year}>{year}</option>)}{facets.hasUnknownYear&&<option value="unknown">{copy.unknownYear}</option>}</select></label>
-          <label><span>{copy.genre}</span><select class="dui-select" name="genre" aria-label={copy.genre}><option value="">{copy.allValues}</option>{facets.genres.map(genre=><option value={genre}>{entityLabel(genre,locale)}</option>)}</select></label>
-          <label><span>{copy.project}</span><select class="dui-select" name="project" aria-label={copy.project}><option value="">{copy.allValues}</option>{facets.projects.map(project=><option value={project.id}>{project.label}</option>)}</select></label>
+          <label><span>{copy.type}</span><WorkspaceControl as="select" class="dui-select" name="type" aria-label={copy.type}><option value="">{copy.allValues}</option>{facets.types.map(type=><option value={type}>{entityLabel(type,locale)}</option>)}</WorkspaceControl></label>
+          <label><span>{copy.artist}</span><WorkspaceControl as="select" class="dui-select" name="artist" aria-label={copy.artist}><option value="">{copy.allValues}</option>{facets.artists.map(artist=><option value={artist.id}>{artist.label}</option>)}</WorkspaceControl></label>
+          <label><span>{copy.year}</span><WorkspaceControl as="select" class="dui-select" name="year" aria-label={copy.year}><option value="">{copy.allValues}</option>{facets.years.map(year=><option value={year}>{year}</option>)}{facets.hasUnknownYear&&<option value="unknown">{copy.unknownYear}</option>}</WorkspaceControl></label>
+          <label><span>{copy.genre}</span><WorkspaceControl as="select" class="dui-select" name="genre" aria-label={copy.genre}><option value="">{copy.allValues}</option>{facets.genres.map(genre=><option value={genre}>{entityLabel(genre,locale)}</option>)}</WorkspaceControl></label>
+          <label><span>{copy.project}</span><WorkspaceControl as="select" class="dui-select" name="project" aria-label={copy.project}><option value="">{copy.allValues}</option>{facets.projects.map(project=><option value={project.id}>{project.label}</option>)}</WorkspaceControl></label>
         </div>
         <div class="database-results-bar">
           <p data-database-count role="status" aria-live="polite">{copy.shown} {initial.length} / {records.length} {copy.records}</p>
-          <button type="reset" class="database-clear dui-btn dui-btn-ghost" data-database-clear hidden>{copy.clear}</button>
+          <WorkspaceButton type="reset" class="database-clear dui-btn dui-btn-ghost" data-database-clear hidden>{copy.clear}</WorkspaceButton>
           <div class="database-view-switch" role="group" aria-label={locale==='en'?'Record layout':locale==='ja'?'表示形式':'记录视图'}>
-            <button type="button" class="dui-btn dui-btn-ghost" data-database-view="grid" aria-pressed="true"><Icon name="layout-grid" />Grid</button>
-            <button type="button" class="dui-btn dui-btn-ghost" data-database-view="list" aria-pressed="false"><Icon name="list" />List</button>
+            <WorkspaceButton type="button" class="dui-btn dui-btn-ghost" data-database-view="grid" aria-pressed="true"><Icon name="layout-grid" />Grid</WorkspaceButton>
+            <WorkspaceButton type="button" class="dui-btn dui-btn-ghost" data-database-view="list" aria-pressed="false"><Icon name="list" />List</WorkspaceButton>
           </div>
         </div>
       </form>
       <div class="database-list-heading" aria-hidden="true"><span>{copy.record}</span><span>{copy.type}</span><span>{copy.artist}</span><span>{copy.year}</span></div>
       <ul class="database-records" data-database-records>{initial.map(record=><DatabaseRecord record={record} placeholderLabel={copy.imagePending}/>)}</ul>
-      <div class="database-empty" data-database-empty hidden><p>{copy.empty}</p><span>{copy.emptyHint}</span><button type="button" data-database-empty-clear>{copy.clear}</button></div>
-      <button type="button" class="database-more" data-database-more hidden={records.length<=24}>{copy.more}<span aria-hidden="true"><Icon name="arrow-down" /></span></button>
+      <div class="database-empty" data-database-empty hidden><p>{copy.empty}</p><span>{copy.emptyHint}</span><WorkspaceButton type="button" data-database-empty-clear>{copy.clear}</WorkspaceButton></div>
+      <WorkspaceButton type="button" class="database-more" data-database-more hidden={records.length<=24}>{copy.more}<span aria-hidden="true"><Icon name="arrow-down" /></span></WorkspaceButton>
     </section>
     <details class="database-classification" data-database-classification id="database-classification">
       <summary><span>{copy.tree}</span><Icon name="chevron-down" /></summary>

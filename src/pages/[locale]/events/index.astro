@@ -1,4 +1,5 @@
 ---
+import WorkspaceButton from '../../../components/WorkspaceButton.astro';
 import {communityCopy} from '../../../lib/communityCopy.mjs';
 import WorkspaceHeader from '../../../components/WorkspaceHeader.astro';
 import WorkspaceShell from '../../../components/WorkspaceShell.astro';
@@ -40,7 +41,7 @@ const metadata = {
     />
 
     <WorkspaceShell width="wide" class="events-page__main">
-      <WorkspaceHeader title={copy.pageTitle} intro={copy.pageDescription} eyebrow={copy.eyebrow} backHref={`/${localeCode}/`} backLabel={copy.backHomeLabel}><a slot="actions" class="workspace-button" href={`/${localeCode}/community/activities/`}>{communityCopy(localeCode).board}</a></WorkspaceHeader>
+      <WorkspaceHeader title={copy.pageTitle} intro={copy.pageDescription} eyebrow={copy.eyebrow} backHref={`/${localeCode}/`} backLabel={copy.backHomeLabel}><WorkspaceButton slot="actions" class="workspace-button" href={`/${localeCode}/community/activities/`}>{communityCopy(localeCode).board}</WorkspaceButton></WorkspaceHeader>
       <EventsCalendar lang={localeCode} copy={copy} />
     </WorkspaceShell>
 

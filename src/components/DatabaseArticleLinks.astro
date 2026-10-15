@@ -1,4 +1,5 @@
 ---
+import WorkspaceButton from './WorkspaceButton.astro';
 import Icon from './Icon.astro';
 import ReaderDisclosure from './ReaderDisclosure.astro';
 import ReaderRecordList from './ReaderRecordList.astro';
@@ -12,9 +13,9 @@ const column=locale==='en'?'Article column':locale==='ja'?'記事コラム':'文
 ---
 <div data-db-articles data-api={api} data-entity-id={id} data-locale={locale}>
  <ReaderDisclosure title={copy.relatedArticles}>
-  <div class="related-article-state" data-db-article-state><p role="status" aria-live="polite" data-db-article-status>{copy.loading}</p><div class="related-article-state__actions"><button class="context-action" data-tone="quiet" type="button" data-db-article-retry hidden>{copy.retry} <span aria-hidden="true">↻</span></button><ContextAction href={`/${locale}/articles/`} tone="quiet">{column}</ContextAction></div></div>
+  <div class="related-article-state" data-db-article-state><p role="status" aria-live="polite" data-db-article-status>{copy.loading}</p><div class="related-article-state__actions"><WorkspaceButton class="context-action" data-tone="quiet" type="button" data-db-article-retry hidden>{copy.retry} <span aria-hidden="true">↻</span></WorkspaceButton><ContextAction href={`/${locale}/articles/`} tone="quiet">{column}</ContextAction></div></div>
   <ReaderRecordList records={[]} id={`db-articles-${id}`} locale={locale}/>
-  <div class="related-article-actions" data-db-article-actions hidden><button class="context-action" type="button" data-db-article-more hidden>{more}<span data-db-article-next></span><span aria-hidden="true"><Icon name="arrow-down" /></span></button><button class="context-action" type="button" data-db-article-collapse hidden>{collapse} <Icon name="arrow-up" /></button><ContextAction href={`/${locale}/articles/`} tone="quiet">{column}</ContextAction><ContextAction href={`/${locale}/articles/?related=${encodeURIComponent(id)}`} tone="quiet">{copy.allRelated}</ContextAction></div>
+  <div class="related-article-actions" data-db-article-actions hidden><WorkspaceButton class="context-action" type="button" data-db-article-more hidden>{more}<span data-db-article-next></span><span aria-hidden="true"><Icon name="arrow-down" /></span></WorkspaceButton><WorkspaceButton class="context-action" type="button" data-db-article-collapse hidden>{collapse} <Icon name="arrow-up" /></WorkspaceButton><ContextAction href={`/${locale}/articles/`} tone="quiet">{column}</ContextAction><ContextAction href={`/${locale}/articles/?related=${encodeURIComponent(id)}`} tone="quiet">{copy.allRelated}</ContextAction></div>
  </ReaderDisclosure>
 </div>
 <style>

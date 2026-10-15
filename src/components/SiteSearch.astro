@@ -1,4 +1,6 @@
 ---
+import WorkspaceButton from './WorkspaceButton.astro';
+import WorkspaceControl from './WorkspaceControl.astro';
 import Icon from './Icon.astro';
 import { getLanguageTag, resolveLocaleCopy } from '../lib/i18n.mjs';
 
@@ -74,7 +76,7 @@ const serializedCopy = {
 };
 ---
 
-<div
+<dialog
   class="site-search"
   data-site-search
   data-locale={lang}
@@ -91,14 +93,14 @@ const serializedCopy = {
         <span class="site-search__eyebrow">DATABASE_QUERY // {lang.toUpperCase()}</span>
         <h2 id="site-search-title">{copy.title}</h2>
       </div>
-      <button class="site-search__close" type="button" data-search-close aria-label={copy.closeLabel}>
+      <WorkspaceButton class="site-search__close" type="button" data-search-close aria-label={copy.closeLabel}>
         <Icon name="x" />
-      </button>
+      </WorkspaceButton>
     </header>
 
     <form class="site-search__form" data-search-form role="search">
       <Icon name="search" class="site-search__input-icon" />
-      <input
+      <WorkspaceControl
         class="site-search__input"
         data-search-input
         type="search"
@@ -114,14 +116,14 @@ const serializedCopy = {
     <div class="site-search__status" data-search-status aria-live="polite">{copy.idle}</div>
     <div class="site-search__filters" aria-label={copy.title}>
       {Object.entries(copy.kinds).map(([kind, label], index) => (
-        <button
+        <WorkspaceButton
           type="button"
           data-search-kind={kind}
           class={index === 0 ? 'is-active' : ''}
           aria-pressed={index === 0 ? 'true' : 'false'}
         >
           {label}
-        </button>
+        </WorkspaceButton>
       ))}
     </div>
     <div class="site-search__results" id="site-search-results" data-search-results role="listbox"></div>
@@ -132,7 +134,7 @@ const serializedCopy = {
       <span><span data-search-shortcut>Ctrl+K</span> {copy.shortcutAction}</span>
     </footer>
   </section>
-</div>
+</dialog>
 
 <script>
   import '../scripts/siteSearch.js';

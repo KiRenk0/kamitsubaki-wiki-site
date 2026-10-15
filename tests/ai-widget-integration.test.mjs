@@ -96,7 +96,7 @@ test('AI chat widget exposes interaction hooks and stream parser integration', a
   assert.equal(component.includes("dataset.launcherDragging==='true'"), false);
   assert.equal(component.includes('onclick='), false);
   assert.equal(component.includes('data-ai-custom-model'), false);
-  assert.match(script, /parseAiStreamChunk/);
+  assert.match(script, /createAiStreamParser/);
   assert.match(script, /text\/event-stream/);
   assert.match(script, /event\.type === 'thread'/);
   assert.match(script, /event\.type === 'source'/);
@@ -161,21 +161,21 @@ test('AI chat widget keeps its launcher docked while supporting settings, histor
   assert.match(script, /!node\.closest\('\[data-ai-chat\]'\)/);
   assert.match(script, /clonedMain\.textContent \|\| ''/);
   assert.match(script, /copy\.thinkingPhrases/);
-  assert.match(script, /\[copy\.bubbleThinking, copy\.status\]\.filter\(Boolean\)/);
+  assert.match(script, /copy\.thinkingPhrases\|\|/);
   assert.equal(script.includes('setMessageMarkdown(assistantMessage.content, copy.challengeFallback || copy.thinking || \'\')'), false);
   assert.match(script, /action: 'ai_chat'/);
   assert.match(script, /root\.dataset\.viewerKind !== 'user'/);
   assert.match(script, /result\.needsChallenge && root\.dataset\.viewerKind === 'user'/);
   assert.match(script, /requestChat\(retryToken\)/);
-  assert.match(script, /document\.createElement\('details'\)/);
+  assert.match(script, /content\.store\.addSource/);
   assert.match(script, /formatSourceKind/);
-  assert.match(script, /ai-message__sources-count/);
+  assert.match(css, /ai-message__sources-count/);
   assert.match(script, /sanitizeRenderedHtml/);
   assert.match(script, /micromark/);
   assert.match(script, /katex/);
   assert.match(script, /createStreamingRenderer/);
   assert.match(script, /requestAnimationFrame/);
-  assert.match(script, /textContent = convertAiResponseText\(pendingText, locale\)/);
+  assert.match(script, /text:convertAiResponseText\(text,locale\)/);
   assert.match(css, /\.ai-chat__launcher/);
   assert.match(css, /\.ai-chat__launcher\.is-hidden/);
   assert.match(css, /\.ai-chat__settings-popover/);
@@ -201,8 +201,9 @@ test('AI chat widget keeps its launcher docked while supporting settings, histor
 test('streaming uses one assistant bubble for thinking and the final answer', async () => {
   const script = await readProjectFile('../src/scripts/aiChatWidget.js');
 
-  assert.match(script, /const assistantMessage = createThinkingMessage\(copy\)/);
-  assert.match(script, /messages\.append\(assistantMessage\.message\)/);
+  assert.match(script, /const assistantMessage = createThinkingMessage\(root,copy\)/);
+  assert.match(script, /content\.store\.patch/);
+  assert.doesNotMatch(script,/messages\.append\(assistantMessage\.message\)/);
   assert.equal(script.includes('messages.append(thinkingMessage, assistantMessage.message)'), false);
 });
 

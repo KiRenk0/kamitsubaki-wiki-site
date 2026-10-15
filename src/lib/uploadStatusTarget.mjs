@@ -1,0 +1,1 @@
+export function uploadStatusTarget(root){let target=root.querySelector('[data-uppy-status]');if(!target){target=root.ownerDocument.createElement('div');target.dataset.uppyStatus='';target.className='site-upload-status';target.setAttribute('role','status');(root.querySelector('[data-total-progress]')?.parentElement||root).append(target);}return target;}

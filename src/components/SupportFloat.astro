@@ -12,7 +12,7 @@ const giveCopy=resolveLocaleCopy({zh:{label:'发电',action:'为观测站发电'
 
 <style>
   .support-float { position:fixed; right:calc(var(--floating-action-edge) + 2 * (var(--floating-action-size) + 10px)); bottom:max(var(--floating-action-edge), env(safe-area-inset-bottom)); z-index:42; width:var(--floating-action-size); height:var(--floating-action-size); color:var(--theme-fg); }
-  .support-float__toggle { position:absolute; right:0; bottom:0; display:grid; place-items:center; width:var(--floating-action-size); height:var(--floating-action-size); color:var(--theme-accent-color); cursor:pointer; background:var(--theme-panel-solid); border:1px solid rgb(var(--theme-accent-rgb) / .45); border-radius:var(--ui-radius-control); box-shadow:0 4px 16px rgb(0 0 0 / .1); }
+  .support-float__toggle {--workspace-control-color:var(--theme-accent-color);--workspace-control-background:var(--theme-panel-solid);--workspace-control-shadow:0 4px 16px rgb(0 0 0 / .1); position:absolute; right:0; bottom:0; display:grid; place-items:center; width:var(--floating-action-size); height:var(--floating-action-size); cursor:pointer; border:1px solid rgb(var(--theme-accent-rgb) / .45); border-radius:var(--ui-radius-control); }
   .support-float__toggle svg { width:21px; height:21px; transition:transform 320ms,opacity 180ms; }
   .support-float :is(a,button):focus-visible { outline:2px solid var(--theme-accent-color); outline-offset:-3px; }
   :global(body:has(.ve-workbench)) .support-float { display:none; }

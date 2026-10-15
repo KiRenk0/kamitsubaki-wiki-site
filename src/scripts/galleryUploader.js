@@ -1,3 +1,4 @@
+import {uploadStatusTarget} from '../lib/uploadStatusTarget.mjs';
 import {setIconLabel} from '../lib/icons.mjs';
 import {uploadGalleryFiles} from '../lib/galleryUploadQueue.mjs';
 import {formatBytes,uploadLimits} from '../lib/uploadPresentation.mjs';
@@ -86,7 +87,7 @@ if(root){
  async function uploadItems(items){
   if(disposed)return;const jobs=[];
   for(const item of items){if(item.state==='staged')continue;if(item.decodeError){item.state='failed';item.error=c.decodeFailed;progress(item);continue;}item.state='checking';progress(item);const existing=item.file instanceof Blob?await findExistingGalleryFile(item,files,(path,method,body)=>request(path,body,method)):null;if(existing){item.existingAsset=existing;item.state='failed';item.error=existing.kind==='public'?(c.existingImage||c.someFailed):(c.duplicateFile||c.someFailed);progress(item);continue;}if(!(item.file instanceof Blob)){item.state='failed';item.error=c.missingFile;progress(item);continue;}item.error='';item.state='uploading';progress(item);jobs.push({id:item.id,file:item.file,metadata:{name:item.file.name,width:item.width,height:item.height},url:api+'/api/gallery/uploads/'+batch.id+'/'+item.id+'?accountId='+encodeURIComponent(owner)});}
-  try{await uploadGalleryFiles(jobs,{locale,signal:controller.signal,onProgress:(id,p)=>{if(disposed)return;const item=items.find(item=>item.id===id);item.state=p.phase;item.progress=p.percent;item.loaded=p.loaded;item.total=p.total;progress(item);$('[data-total-progress]').value=files.reduce((s,f)=>s+(f.progress||0),0)/files.length;},onResult:({id,error})=>{if(disposed)return;const item=items.find(item=>item.id===id);item.state=error?'failed':'staged';item.error=error?.message||'';if(!error)item.progress=100;progress(item);changed();}});}finally{await persist();}
+  try{await uploadGalleryFiles(jobs,{locale,statusTarget:uploadStatusTarget(root),signal:controller.signal,onProgress:(id,p)=>{if(disposed)return;const item=items.find(item=>item.id===id);item.state=p.phase;item.progress=p.percent;item.loaded=p.loaded;item.total=p.total;progress(item);$('[data-total-progress]').value=files.reduce((s,f)=>s+(f.progress||0),0)/files.length;},onResult:({id,error})=>{if(disposed)return;const item=items.find(item=>item.id===id);item.state=error?'failed':'staged';item.error=error?.message||'';if(!error)item.progress=100;progress(item);changed();}});}finally{await persist();}
  }
  async function stagePending(only){
   if(stageFlight||simulating||disposed||!draftController||draftController.conflict)return stageFlight;

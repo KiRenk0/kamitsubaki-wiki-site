@@ -1,4 +1,5 @@
 ---
+import WorkspaceButton from '../../components/WorkspaceButton.astro';
 import Icon from '../../components/Icon.astro';
 import WorkspaceShell from '../../components/WorkspaceShell.astro';
 import { getBuildCollection as getCollection } from '../../lib/contentAuditContext';
@@ -48,7 +49,7 @@ const apiBase = import.meta.env.PUBLIC_SUPPORT_API_BASE || import.meta.env.PUBLI
         { id: 'sponsor-wall', label: copy.navWall },
       ].map(item => <a id={`support-tab-${item.id}`} href={`#${item.id}`} data-support-tab={item.id}>{item.label}</a>)}
     </WorkspaceNavigation>
-    <div class="support-live-status"><p class="support-note" data-support-status role="status"></p><button type="button" class="support-text-link" data-support-retry hidden>{copy.retry}<span aria-hidden="true">↻</span></button></div>
+    <div class="support-live-status"><p class="support-note" data-support-status role="status"></p><WorkspaceButton type="button" class="support-text-link" data-support-retry hidden>{copy.retry}<span aria-hidden="true">↻</span></WorkspaceButton></div>
 
     <div class="support-panels">
     <section class="support-section support-ways" id="ways-to-support" data-support-panel aria-labelledby="support-ways-title">

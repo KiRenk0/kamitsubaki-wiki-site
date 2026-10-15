@@ -1,3 +1,4 @@
+@import './uploadComponents.css';
 .gallery-photo-workbench{--gp-line:color-mix(in srgb,var(--theme-fg) 18%,transparent);--gp-muted:color-mix(in srgb,var(--theme-fg) 60%,transparent)}
 .gallery-photo-access{display:grid;gap:10px;padding:20px 0 20px 16px;border:0;border-left:2px solid var(--theme-accent-color);background:none;border-radius:0;box-shadow:none;}
 .gallery-photo-access strong{font:400 21px/1.35 var(--font-serif)}.gallery-photo-access p{margin:0;color:var(--gp-muted);font:13px/1.65 var(--font-sans)}.gallery-photo-access>div{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}

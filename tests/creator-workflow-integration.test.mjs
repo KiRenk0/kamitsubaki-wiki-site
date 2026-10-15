@@ -9,6 +9,7 @@ import {creatorCenterCopy} from '../src/lib/creatorCenterCopy.mjs';
 const backendRoot=backendURL('');
 const {fixture}=await import(new URL('tests/accountFixture.mjs',backendRoot));
 const {default:worker}=await import(new URL('src/index.js',backendRoot));
+const {adminRuntime}=await import(new URL('src/generated/adminRuntime.js',backendRoot));
 const {installContentAdmin,renderContentAdminBody}=await import(new URL('src/contentAdmin.js',backendRoot));
 const require=createRequire(import.meta.url);
 const {build}=createRequire(require.resolve('vite'))('esbuild');
@@ -30,11 +31,11 @@ async function setup(intercept){
  <h2 id="creator-records-title"></h2><div data-creator-rows></div><div data-records-status></div><button data-page-previous></button><button data-page-next></button><button data-creator-refresh></button>
  <div data-creator-drafts></div><div data-creator-todo></div><div data-todo-count></div><div data-creator-notifications></div><div data-notification-count></div>
  ${['attention','draft','review','published'].map(k=>`<b data-metric-count="${k}"></b>`).join('')}</main>`,{url:'https://wiki.example/zh/account/creator/',runScripts:'outside-only'});
- const w=dom.window;w.document.querySelector('main').dataset.copy=JSON.stringify(copy);w.qaAccount={viewer:{userId:'bob'}};w.AbortSignal=AbortSignal;w.matchMedia=()=>({matches:false});w.scrollTo=()=>{};
+ const w=dom.window;w.ResizeObserver=class{observe(){}unobserve(){}disconnect(){}};Object.defineProperty(w.HTMLElement.prototype,'offsetWidth',{get(){return 800;}});Object.defineProperty(w.HTMLElement.prototype,'offsetHeight',{get(){return 40;}});w.eval(adminRuntime);w.document.querySelector('main').dataset.copy=JSON.stringify(copy);w.qaAccount={viewer:{userId:'bob'}};w.AbortSignal=AbortSignal;w.matchMedia=()=>({matches:false});w.scrollTo=()=>{};
  w.HTMLDialogElement.prototype.showModal=function(){this.open=true;};w.HTMLDialogElement.prototype.close=function(value){this.returnValue=value;this.open=false;this.dispatchEvent(new w.Event('close'));};
  const call=(path,method='GET',body,owner='bob')=>worker.fetch(new Request('https://api.example'+path,{method,headers:{Cookie:`kfw_auth_session=${owner}`,Origin:'https://wiki.example',...(body?{'Content-Type':'application/json'}:{})},body:body?JSON.stringify(body):undefined}),env,{waitUntil(){}});
  const calls=[];w.fetch=async(url,options={})=>{const path=new URL(url).pathname+new URL(url).search,body=options.body?JSON.parse(options.body):undefined,record={path,method:options.method,body};calls.push(record);const invoke=()=>call(path,options.method,body,w.qaAccount.viewer?.userId||'');const response=await(intercept?intercept({path,options,invoke,w}):invoke());if(options.method==='POST'&&path.startsWith('/api/articles/drafts'))record.result=await response.clone().json();return response;};
- return {db,w,copy,call,calls,start(){w.eval(source.outputFiles[0].text);},async close(){await sleep(40);w.close();db.sqlite.close();}};
+ return {db,w,copy,call,calls,start(){w.eval(source.outputFiles[0].text);},async close(){await sleep(40);w.dispatchEvent(new w.Event('pagehide'));w.close();db.sqlite.close();}};
 }
 test('Creator Center actual buttons delete article and photo drafts through real Worker handlers',async()=>{
  const q=await setup();try{

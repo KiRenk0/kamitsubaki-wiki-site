@@ -10,6 +10,7 @@ dist/
 # Astro generated
 .astro/
 .cache/image-thumbnails/
+qa/cache/
 public/thumbnails/
 
 # Build-generated Traditional Chinese content

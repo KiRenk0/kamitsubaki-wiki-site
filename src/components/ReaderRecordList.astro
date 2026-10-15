@@ -1,4 +1,6 @@
 ---
+import WorkspaceButton from './WorkspaceButton.astro';
+import WorkspaceControl from './WorkspaceControl.astro';
 import ReaderRecord from './ReaderRecord.astro';
 import ExpandControl from './ExpandControl.astro';
 import {classificationCopy} from '../lib/classificationTree.mjs';
@@ -13,9 +15,9 @@ const hasUnknown=filterable&&records.some(record=>!readerRecordYear(record.relea
 <div class="reader-record-list" data-record-filterable={filterable||undefined}>
  {filterable&&<div class="reader-record-filters" data-reader-record-filters hidden>
   <div class="reader-record-filter-controls">
-   <label class="reader-record-search"><span class="sr-only">{filters.search}</span><input type="search" data-record-query placeholder={filters.search} autocomplete="off"/></label>
-   <label class="reader-record-year"><span class="sr-only">{filters.year}</span><select data-record-year-filter aria-label={filters.year} disabled={!years.length}><option value="">{years.length?filters.all:filters.unknown}</option>{years.map(year=><option value={year}>{year}</option>)}{years.length>0&&hasUnknown&&<option value={UNKNOWN_RECORD_YEAR}>{filters.unknown}</option>}</select></label>
-   <button type="button" data-record-filter-clear hidden>{filters.clear}</button>
+   <label class="reader-record-search"><span class="sr-only">{filters.search}</span><WorkspaceControl type="search" data-record-query placeholder={filters.search} autocomplete="off"/></label>
+   <label class="reader-record-year"><span class="sr-only">{filters.year}</span><WorkspaceControl as="select" data-record-year-filter aria-label={filters.year} disabled={!years.length}><option value="">{years.length?filters.all:filters.unknown}</option>{years.map(year=><option value={year}>{year}</option>)}{years.length>0&&hasUnknown&&<option value={UNKNOWN_RECORD_YEAR}>{filters.unknown}</option>}</WorkspaceControl></label>
+   <WorkspaceButton type="button" data-record-filter-clear hidden>{filters.clear}</WorkspaceButton>
   </div>
   <p class="reader-record-filter-status" data-record-filter-status data-record-result-label={filters.results} role="status" aria-live="polite"></p>
  </div>}

@@ -10,7 +10,7 @@
   themes: false;
   prefix: "dui-";
   root: "[data-ui-kit]";
-  include: button, input, select, textarea, checkbox, loading;
+  include: button, input, select, textarea, checkbox, radio, range, file-input, progress, badge, loading;
 }
 @import "katex/dist/katex.min.css";
 @import "@fontsource-variable/montserrat";
@@ -6896,3 +6896,8 @@ html[data-custom-cursor][data-custom-cursor] [popover]::backdrop {cursor:none!im
 
 /* Reserve the viewport gutter before content arrives and across overlay locks. */
 html { scrollbar-gutter: stable; }
+
+.site-search::backdrop{background:transparent}
+
+/* Open panels cover the fixed navigation; native dialogs remain in the top layer. */
+.ai-chat.is-open{z-index:10030}

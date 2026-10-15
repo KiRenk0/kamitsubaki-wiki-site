@@ -230,6 +230,8 @@ const liveEventsCopy = siteContent?.liveEvents;
 
 
     <script>
+      import {observeWorkspaceControls} from '../lib/workspaceControls.mjs';
+      observeWorkspaceControls();
       import {installDetailsMotion} from '../lib/detailsMotion.mjs';
       installDetailsMotion();
       import '../scripts/navigationMotion.js';

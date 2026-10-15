@@ -1,4 +1,6 @@
 ---
+import WorkspaceControl from './WorkspaceControl.astro';
+import WorkspaceButton from './WorkspaceButton.astro';
 import {imageLibraryCopy} from '../lib/imageLibraryCopy.mjs';
 import ContextAction from './ContextAction.astro';
 import '../styles/imageLibrary.css';
@@ -8,14 +10,14 @@ const api=import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki'
 ---
 <section class="image-library" data-image-library data-api={api} data-locale={locale} data-copy={JSON.stringify(c)} data-picker={String(picker)} data-allow-upload={String(allowUpload)}>
  {picker&&<p class="image-library-intro">{allowUpload?c.intro:c.browseOnly}</p>}
- <div class="image-library-toolbar"><nav aria-label={c.title}>{(['public','mine','upload'] as const).filter(key=>allowUpload||key!=='upload').map(key=><button type="button" data-library-tab={key} aria-pressed={key==='public'}>{c[key]}</button>)}</nav><ContextAction href={`/${locale}/account/creator/`} target={picker?'_blank':undefined} rel="noopener" tone="quiet">{c.creator}</ContextAction></div>
- <div data-library-browse><div class="image-library-filters"><label><span>{c.search}</span><input type="search" data-library-search maxlength="120"/></label><label><span>{c.purpose}</span><select data-library-purpose><option value="">{c.all}</option><option value="gallery">{c.gallery}</option><option value="entry">{c.entry}</option></select></label><button type="button" data-library-refresh>{c.refresh}</button></div><div data-library-grid class="image-library-grid"></div><button type="button" data-library-more hidden>{c.more}</button></div>
- <button type="button" data-library-restore hidden>{c.restore}</button>
+ <div class="image-library-toolbar"><nav aria-label={c.title}>{(['public','mine','upload'] as const).filter(key=>allowUpload||key!=='upload').map(key=><WorkspaceButton type="button" data-library-tab={key} aria-pressed={key==='public'}>{c[key]}</WorkspaceButton>)}</nav><ContextAction href={`/${locale}/account/creator/`} target={picker?'_blank':undefined} rel="noopener" tone="quiet">{c.creator}</ContextAction></div>
+ <div data-library-browse><div class="image-library-filters"><label><span>{c.search}</span><WorkspaceControl type="search" data-library-search maxlength="120"/></label><label><span>{c.purpose}</span><WorkspaceControl as="select" data-library-purpose><option value="">{c.all}</option><option value="gallery">{c.gallery}</option><option value="entry">{c.entry}</option></WorkspaceControl></label><WorkspaceButton type="button" data-library-refresh>{c.refresh}</WorkspaceButton></div><div data-library-grid class="image-library-grid"></div><WorkspaceButton type="button" data-library-more hidden>{c.more}</WorkspaceButton></div>
+ <WorkspaceButton type="button" data-library-restore hidden>{c.restore}</WorkspaceButton>
  <p data-library-local-status role="status"></p>
  <form data-library-upload hidden class="image-library-upload">
-  <div class="image-library-details"><label>{c.author}<input name="author" required maxlength="200"/></label><label>{c.source}<input name="sourceTitle" required maxlength="300"/></label><label class="image-library-wide">{c.url}<input name="sourceUrl" type="url" maxlength="2000"/></label><label>{c.basis}<select name="rightsBasis"><option value="official">{c.official}</option><option value="original">{c.original}</option><option value="authorized">{c.authorized}</option></select></label><label>{c.purpose}<select name="purpose"><option value="gallery" selected={!picker}>{c.gallery}</option><option value="entry" selected={picker}>{c.entry}</option></select></label><label class="image-library-wide" data-library-evidence hidden>{c.evidence}<textarea name="rightsEvidence" maxlength="2000"/></label></div>
-  <div class="image-library-files"><label>{c.files}<input name="images" type="file" multiple accept="image/png,image/jpeg,image/webp,image/gif"/></label><p>{c.limit}</p><div data-library-files></div></div>
-  <div class="image-library-wide"><p class="image-library-flow">{c.flow}</p><button type="submit">{c.submit}</button></div>
+  <div class="image-library-details"><label>{c.author}<WorkspaceControl name="author" required maxlength="200"/></label><label>{c.source}<WorkspaceControl name="sourceTitle" required maxlength="300"/></label><label class="image-library-wide">{c.url}<WorkspaceControl name="sourceUrl" type="url" maxlength="2000"/></label><label>{c.basis}<WorkspaceControl as="select" name="rightsBasis"><option value="official">{c.official}</option><option value="original">{c.original}</option><option value="authorized">{c.authorized}</option></WorkspaceControl></label><label>{c.purpose}<WorkspaceControl as="select" name="purpose"><option value="gallery" selected={!picker}>{c.gallery}</option><option value="entry" selected={picker}>{c.entry}</option></WorkspaceControl></label><label class="image-library-wide" data-library-evidence hidden>{c.evidence}<WorkspaceControl as="textarea" name="rightsEvidence" maxlength="2000"/></label></div>
+  <div class="image-library-files"><label>{c.files}<WorkspaceControl name="images" type="file" multiple accept="image/png,image/jpeg,image/webp,image/gif"/></label><p>{c.limit}</p><div data-library-files></div></div>
+  <div class="image-library-wide"><p class="image-library-flow">{c.flow}</p><WorkspaceButton type="submit">{c.submit}</WorkspaceButton></div>
  </form>
  <p data-library-status role="status" aria-live="polite"></p><div data-library-links class="image-library-links"></div>{picker&&<p class="image-library-footnote">{c.sourceNote}</p>}
 </section>

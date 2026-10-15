@@ -1,50 +1,24 @@
+import {createParser} from 'eventsource-parser';
+
+// The site owns JSON event semantics; the library owns SSE framing and fields.
+export function createAiStreamParser() {
+  let events = [];
+  const parser = createParser({onEvent(message) {
+    if (!message.event || message.data === '[DONE]') return;
+    try { events.push({type: message.event, data: JSON.parse(message.data)}); }
+    catch { events.push({type: 'error', data: {code: 'invalid_stream_event'}}); }
+  }});
+  return {feed(chunk) { events = []; parser.feed(chunk); return events; }, reset() {parser.reset();}};
+}
+
+// Compatibility for consumers of the old stateless adapter. Runtime readers use
+// one parser per response, so split CRLF and multiline data are handled upstream.
 export function parseAiStreamChunk(chunk, previousRemainder = '') {
-  const rawInput = `${previousRemainder}${chunk}`;
-  const hasSplitTrailingCR = rawInput.endsWith('\r') && !rawInput.endsWith('\r\r');
-  const normalizedInput = hasSplitTrailingCR ? rawInput.slice(0, -1) : rawInput;
-  const input = normalizedInput.replace(/\r\n?/g, '\n');
-  const frames = input.split('\n\n');
-  const remainder = `${frames.pop() ?? ''}${hasSplitTrailingCR ? '\r' : ''}`;
-  const events = [];
-
-  for (const frame of frames) {
-    const lines = frame.split('\n');
-    let type;
-    const dataLines = [];
-
-    for (const line of lines) {
-      const separatorIndex = line.indexOf(':');
-
-      if (separatorIndex === -1) {
-        continue;
-      }
-
-      const field = line.slice(0, separatorIndex);
-      let value = line.slice(separatorIndex + 1);
-
-      if (value.startsWith(' ')) {
-        value = value.slice(1);
-      }
-
-      if (field === 'event') {
-        type = value.trim();
-      } else if (field === 'data') {
-        dataLines.push(value);
-      }
-    }
-
-    if (!type || dataLines.length === 0) {
-      continue;
-    }
-
-    const rawData = dataLines.join('\n');
-
-    try {
-      events.push({ type, data: JSON.parse(rawData) });
-    } catch {
-      events.push({ type: 'error', data: { code: 'invalid_stream_event' } });
-    }
-  }
-
-  return { events, remainder };
+  const raw = previousRemainder + chunk;
+  const trailingCR = raw.endsWith('\r') && !raw.endsWith('\r\r');
+  const input = (trailingCR ? raw.slice(0, -1) : raw).replace(/\r\n?/g, '\n');
+  const boundary = input.lastIndexOf('\n\n');
+  const stream = createAiStreamParser();
+  const events = stream.feed(input);
+  return {events, remainder: input.slice(boundary < 0 ? 0 : boundary + 2) + (trailingCR ? '\r' : '')};
 }

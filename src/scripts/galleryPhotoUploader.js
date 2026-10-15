@@ -1,3 +1,4 @@
+import {uploadStatusTarget} from '../lib/uploadStatusTarget.mjs';
 import {uploadGalleryFiles} from '../lib/galleryUploadQueue.mjs';
 import {uploadLimits,formatBytes} from '../lib/uploadPresentation.mjs';
 import {galleryDraft,galleryDraftKey,listGalleryDrafts} from '../lib/galleryDraftStore.mjs';
@@ -90,7 +91,7 @@ if(root){
    let width=0,height=0;try{const bitmap=await createImageBitmap(file.file);width=bitmap.width;height=bitmap.height;bitmap.close();}catch{}
    file.error='';file.state='uploading';jobs.push({id:file.id,file:file.file,name:file.name,metadata:{name:file.name,width,height},url:api+'/api/gallery/uploads/'+encodeURIComponent(batch.id)+'/'+encodeURIComponent(file.id)+'?accountId='+encodeURIComponent(owner)});
   }
-  updateRows();try{await uploadGalleryFiles(jobs,{locale,signal:uploadController.signal,onProgress:(id,p)=>{if(disposed)return;const file=items.find(file=>file.id===id);file.progress=p.percent;file.state=p.phase;updateRows();},onResult:({id,error})=>{if(disposed)return;const file=items.find(file=>file.id===id);file.state=error?'failed':'staged';file.error=error?.message||'';updateRows();void saveLocal();}});}finally{if(!disposed){render();await saveLocal();}}
+  updateRows();try{await uploadGalleryFiles(jobs,{locale,statusTarget:uploadStatusTarget(root),signal:uploadController.signal,onProgress:(id,p)=>{if(disposed)return;const file=items.find(file=>file.id===id);file.progress=p.percent;file.state=p.phase;updateRows();},onResult:({id,error})=>{if(disposed)return;const file=items.find(file=>file.id===id);file.state=error?'failed':'staged';file.error=error?.message||'';updateRows();void saveLocal();}});}finally{if(!disposed){render();await saveLocal();}}
  }
  async function stagePending(only){
   if(stageFlight||disposed||!draftController||draftController.conflict)return stageFlight;

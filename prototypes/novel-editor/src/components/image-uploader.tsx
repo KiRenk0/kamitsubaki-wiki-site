@@ -2,7 +2,8 @@ import {workbenchText as t} from '@/lib/workbench-copy';
 import {editorApiUrl,localEditorHost,registerStagedImage} from '@/lib/editor-host';
 import { useContext, useEffect, useRef, useState } from 'react';
 import Dashboard from '@uppy/dashboard';
-import zhCN from '@uppy/locales/lib/zh_CN';
+import {uploadLocale} from '../../../../src/lib/uploadLocale.mjs';
+import {editorHost} from '@/lib/editor-host';
 import '@uppy/core/css/style.min.css';
 import '@uppy/dashboard/css/style.min.css';
 import { createImageUploadQueue } from '../../../../src/lib/galleryUploadQueue.mjs';
@@ -36,7 +37,7 @@ export function ImageUploader({ source, image, dark, onUploaded, onBusy }: {
         const account = await sessions.localAccount();
         const submittedNotes = new Map<string, { source: string; image: ArticleImage }>();
         if (cancelled || !scope.isCurrent() || !host.current) return;
-        transport = createImageUploadQueue({ restrictions: { maxNumberOfFiles: 1, maxFileSize: scope.purpose === 'entry' ? 25 * 1024 * 1024 : 20 * 1024 * 1024, allowedFileTypes: scope.purpose === 'entry' ? ['image/png', 'image/jpeg', 'image/webp'] : ['image/png', 'image/jpeg', 'image/webp', 'image/gif'] },
+        transport = createImageUploadQueue({ locale:editorHost()?.locale, restrictions: { maxNumberOfFiles: 1, maxFileSize: scope.purpose === 'entry' ? 25 * 1024 * 1024 : 20 * 1024 * 1024, allowedFileTypes: scope.purpose === 'entry' ? ['image/png', 'image/jpeg', 'image/webp'] : ['image/png', 'image/jpeg', 'image/webp', 'image/gif'] },
           onBeforeUpload: () => {
             if (!scope.isCurrent()) return false;
             const note = current.current;
@@ -69,7 +70,7 @@ export function ImageUploader({ source, image, dark, onUploaded, onBusy }: {
           },
         });
         const { queue } = transport;
-        queue.use(Dashboard, { target: host.current, inline: true, width: '100%', height: 280, locale: zhCN, theme: dark ? 'dark' : 'light', proudlyDisplayPoweredByUppy: false, hideProgressDetails: false, showRemoveButtonAfterComplete: true, note: scope.purpose === 'entry' ? t("PNG、JPEG、WebP；超过 4 MiB 会另存压缩副本，原图保持不变。") : t("PNG、JPEG、WebP、GIF；单张最多 20 MiB。"), fileManagerSelectionType: 'files' });
+        queue.use(Dashboard, { target: host.current, inline: true, width: '100%', height: 280, locale: uploadLocale(editorHost()?.locale), theme: dark ? 'dark' : 'light', proudlyDisplayPoweredByUppy: false, hideProgressDetails: false, showRemoveButtonAfterComplete: true, note: scope.purpose === 'entry' ? t("PNG、JPEG、WebP；超过 4 MiB 会另存压缩副本，原图保持不变。") : t("PNG、JPEG、WebP、GIF；单张最多 20 MiB。"), fileManagerSelectionType: 'files' });
         queue.on('file-added', async (file: any) => {
           if (scope.purpose !== 'entry') return;
           queue.setFileMeta(file.id, { preparing: true });

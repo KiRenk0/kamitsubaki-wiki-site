@@ -15,3 +15,18 @@ html body .calendar-month-grid [data-ui-kit].calendar-month-date.dui-btn:hover{b
 .calendar-month-more{display:block;padding:3px 6px;font:12px var(--font-sans);color:var(--ui-color-muted)}
 @media(max-width:760px){html body .calendar-month-grid .calendar-month-cell{min-height:72px;padding:1px}html body .calendar-month-grid [data-ui-kit].calendar-month-date.dui-btn{min-height:44px;height:44px;padding:4px}.calendar-month-cell .community-day-event{display:none}.calendar-month-more{padding:0 4px;font-size:12px}.calendar-month-weekdays span{padding:8px 0;font-size:12px}}
 @media(prefers-reduced-motion:reduce){.calendar-month-cell,.calendar-month-date{transition:none!important}}
+
+/* FullCalendar owns grid generation; existing controls and day content keep site tokens. */
+html body .calendar-month-grid.events-calendar__grid{display:block}
+.calendar-month-grid.fc{--fc-border-color:var(--workspace-line,rgb(var(--theme-fg-rgb)/.14));--fc-page-bg-color:var(--theme-bg);--fc-neutral-bg-color:transparent;--fc-today-bg-color:transparent;font-family:var(--font-sans)}
+.calendar-month-grid .fc-scrollgrid{border:0!important}.calendar-month-grid .fc-scrollgrid-section>td{border:0!important}
+.calendar-month-grid .fc-daygrid-day-frame{min-height:88px}.calendar-month-grid .fc-daygrid-day-top{display:block;flex-direction:initial}
+.calendar-month-grid .fc-daygrid-day-number{float:none;display:block;width:100%;padding:0;color:inherit;text-decoration:none}
+.calendar-month-grid .fc-daygrid-day-events{display:none}.calendar-month-grid .fc-day-other .fc-daygrid-day-top{opacity:1}
+.calendar-month-grid .fc-day-other{background:rgb(var(--theme-fg-rgb)/.025);color:var(--ui-color-muted)}
+.calendar-month-grid .fc-day-today{background:transparent!important}.calendar-month-grid .fc-daygrid-day .community-day-event{margin:2px 4px}
+@media(max-width:760px){.calendar-month-grid .fc-daygrid-day-frame{min-height:72px}}
+
+/* Site activity rows supply metadata; list chrome, day grouping and empty states are FullCalendar. */
+[data-calendar-agenda].fc{--fc-border-color:var(--workspace-line,rgb(var(--theme-fg-rgb)/.14));--fc-page-bg-color:var(--theme-bg);--fc-neutral-bg-color:transparent;--fc-list-event-hover-bg-color:transparent;font-family:var(--font-sans)}
+[data-calendar-agenda] .fc-list{border:0}[data-calendar-agenda] .fc-list-event-time,[data-calendar-agenda] .fc-list-event-graphic{display:none}[data-calendar-agenda] .fc-list-event-title{padding:0;font-weight:inherit}[data-calendar-agenda] .fc-list-day-cushion{padding:12px 0;font-weight:600;background:transparent}[data-calendar-agenda] .fc-list-day-text{float:none;color:inherit}[data-calendar-agenda] .fc-list-empty{background:transparent}[data-calendar-agenda] .fc-list-empty-cushion{padding:12px 0;text-align:start}

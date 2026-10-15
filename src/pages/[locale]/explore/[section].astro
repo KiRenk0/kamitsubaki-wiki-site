@@ -1,4 +1,5 @@
 ---
+import WorkspaceControl from '../../../components/WorkspaceControl.astro';
 import Icon from '../../../components/Icon.astro';
 import WorkspaceToolbar from '../../../components/WorkspaceToolbar.astro';
 import WorkspaceGroup from '../../../components/WorkspaceGroup.astro';
@@ -44,14 +45,14 @@ const projects = registry.list(locale).filter(e=>e.data.entityType==='project');
     </WorkspaceSection>
     <section class="labs-panel" id="labs-panel-timeline" data-labs-panel="timeline" aria-label={copy.tabs[1]} hidden={section !== 'timeline'}>
 
-      <WorkspaceToolbar class="labs-toolbar"><label><span>{copy.search}</span><input type="search" data-query placeholder="花谱 / KAF / V.W.P" /></label><label><span>{copy.kind}</span><select data-kind><option value="">{copy.all}</option>{['events','person','virtual-avatar','unit','software-voice','work-track','work-release','project','organization','live-event','lore-concept','editorial-article'].map(k => <option value={k}>{copy.kinds[k]}</option>)}</select></label><label><span>{copy.year}</span><select data-year><option value="">{copy.all}</option></select></label><label><span>{copy.order}</span><select data-order><option value="desc">{copy.newest}</option><option value="asc">{copy.oldest}</option></select></label><button data-reset>{copy.reset}</button></WorkspaceToolbar>
-      <div class="labs-status" role="status" data-status>{copy.loading}</div><div class="labs-results" data-results></div><button data-more hidden>{copy.more}</button>
+      <WorkspaceToolbar class="labs-toolbar"><label><span>{copy.search}</span><WorkspaceControl type="search" data-query placeholder="花谱 / KAF / V.W.P" /></label><label><span>{copy.kind}</span><WorkspaceControl as="select" data-kind><option value="">{copy.all}</option>{['events','person','virtual-avatar','unit','software-voice','work-track','work-release','project','organization','live-event','lore-concept','editorial-article'].map(k => <option value={k}>{copy.kinds[k]}</option>)}</WorkspaceControl></label><label><span>{copy.year}</span><WorkspaceControl as="select" data-year><option value="">{copy.all}</option></WorkspaceControl></label><label><span>{copy.order}</span><WorkspaceControl as="select" data-order><option value="desc">{copy.newest}</option><option value="asc">{copy.oldest}</option></WorkspaceControl></label><WorkspaceButton type="submit" data-reset>{copy.reset}</WorkspaceButton></WorkspaceToolbar>
+      <div class="labs-status" role="status" data-status>{copy.loading}</div><div class="labs-results" data-results></div><WorkspaceButton type="submit" data-more hidden>{copy.more}</WorkspaceButton>
     </section>
     <section class="labs-panel" id="labs-panel-relations" data-labs-panel="relations" aria-label={copy.tabs[2]} hidden={section !== 'relations'}>
-      <label><span>{copy.choose}</span><input data-query type="search" placeholder="花谱 / KAF / V.W.P" /></label>
+      <label><span>{copy.choose}</span><WorkspaceControl data-query type="search" placeholder="花谱 / KAF / V.W.P" /></label>
       <div class="labs-status" role="status" data-status>{copy.loading}</div><div class="labs-pick-list" data-picks></div>
       <div class="labs-graph-layout"><svg class="labs-graph" viewBox="0 0 700 460" role="group" aria-label={copy.tabs[2]} data-graph></svg><aside class="labs-graph-detail" data-detail></aside></div>
-      <h2 style="margin-top:32px">{copy.related}</h2><div class="labs-results" data-results></div><button data-more hidden>{copy.more}</button>
+      <h2 style="margin-top:32px">{copy.related}</h2><div class="labs-results" data-results></div><WorkspaceButton type="submit" data-more hidden>{copy.more}</WorkspaceButton>
     </section>
     <section class="labs-panel" id="labs-panel-world" data-labs-panel="world" aria-label={copy.tabs[3]} hidden={section !== 'world'}>
 

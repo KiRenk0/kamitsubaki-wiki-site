@@ -1,3 +1,4 @@
+import {openBrowserDatabase} from './browserDatabase.mjs';
 import {entitySourcePath,collectionByType} from './contentLayout.mjs';
 export const attachmentLimit = 4*1024*1024;
 export const attachmentTotalLimit = 20*1024*1024;
@@ -7,20 +8,12 @@ export function newEntryPath(kind, locale, folder) {
   const type=Object.keys(collectionByType).find(type=>collectionByType[type]===kind);
   return type?entitySourcePath({entityType:type,id:folder,locale}):`src/content/${kind}/${folder}/${locale}.md`;
 }
-function database() {
-  return new Promise((resolve,reject)=>{
-    const request=indexedDB.open('wiki-editor-attachments',1);
-    request.onupgradeneeded=()=>request.result.createObjectStore('files');
-    request.onsuccess=()=>resolve(request.result);request.onerror=()=>reject(request.error);
-  });
-}
-export async function attachmentFile(id, value) {
-  const db=await database();
-  try { return await new Promise((resolve,reject)=>{
-    const tx=db.transaction('files',value===undefined?'readonly':'readwrite');
-    const req=value===undefined?tx.objectStore('files').get(id):tx.objectStore('files').put(value,id);
-    tx.oncomplete=()=>resolve(req.result);tx.onerror=()=>reject(tx.error);tx.onabort=()=>reject(tx.error);
-  }); } finally {db.close();}
+export async function attachmentFile(id,value){
+  const db=await openBrowserDatabase('wiki-editor-attachments','files');
+  try {
+    const table=db.table('files');
+    return await db.transaction(value===undefined?'r':'rw',table,()=>value===undefined?table.get(id):table.put(value,id));
+  } finally {db.close();}
 }
 // The original File is never changed. A large image can produce a separately
 // named WebP submission copy; contributors can still upload originals on GitHub.

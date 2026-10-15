@@ -31,3 +31,11 @@
 .gallery-pswp .pswp__button{color:#eee}
 
 .gallery-pswp .pswp__icn{color:inherit}
+
+/* The native top layer keeps viewers above upload and review dialogs. */
+.photoswipe-host{position:fixed;inset:0;width:100vw;height:100dvh;max-width:none;max-height:none;margin:0;padding:0;border:0;background:transparent;overflow:hidden;color:inherit}
+.photoswipe-host::backdrop{background:#111315}
+.gallery-viewer-counter{font:12px/1.5 var(--font-mono);white-space:nowrap;padding:0 8px}
+.gallery-viewer-toolbar [hidden]{display:none!important}
+.gallery-viewer-toolbar button:disabled{opacity:.5;cursor:default}
+@media(prefers-reduced-motion:reduce){.gallery-pswp *{scroll-behavior:auto!important;transition:none!important}}

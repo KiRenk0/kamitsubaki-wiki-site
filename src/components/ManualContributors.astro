@@ -1,4 +1,6 @@
 ---
+import WorkspaceButton from './WorkspaceButton.astro';
+import WorkspaceControl from './WorkspaceControl.astro';
 import Icon from './Icon.astro';
 import ResponsiveImage from './ResponsiveImage.astro';
 import manualContributorData from '../data/manualContributors.json';
@@ -129,7 +131,7 @@ function initials(name: string) {
   data-has-overflow="false"
 >
   <script is:inline type="application/json" data-collaborators-copy set:html={JSON.stringify(copy).replaceAll('<', '\\u003c')} />
-  <div class="manual-contributors__status" data-collaborators-status hidden role="status"><span>{copy.offline}</span><button class="context-action" type="button" data-collaborators-retry>{copy.retry}</button></div>
+  <div class="manual-contributors__status" data-collaborators-status hidden role="status"><span>{copy.offline}</span><WorkspaceButton class="context-action" type="button" data-collaborators-retry>{copy.retry}</WorkspaceButton></div>
   <header class="manual-contributors__header">
     <div>
       <h3 id="manual-contributors-title">{copy.title}</h3>
@@ -141,7 +143,7 @@ function initials(name: string) {
   {contributors.length > 0 ? (
     <>
       <div class="manual-contributors__directory-tools" data-directory-tools hidden>
-        <label><span>{copy.search}</span><input type="search" aria-label={copy.search} placeholder={copy.search} data-directory-search /></label>
+        <label><span>{copy.search}</span><WorkspaceControl type="search" aria-label={copy.search} placeholder={copy.search} data-directory-search /></label>
         <p role="status" data-directory-result data-template={copy.result}></p>
       </div>
       <div class="manual-contributors__grid-wrap">
@@ -151,7 +153,7 @@ function initials(name: string) {
             const detailId = `manual-contributor-${contributor.id}`;
 
             return (
-              <button
+              <WorkspaceButton
                 class="manual-contributors__card"
                 type="button"
                 aria-expanded="false"
@@ -173,7 +175,7 @@ function initials(name: string) {
                   <small>{localized(contributor.collaboration)}</small>
                 </span>
                 <span class="manual-contributors__card-mark" aria-hidden="true"><Icon name="plus" /></span>
-              </button>
+              </WorkspaceButton>
             );
           })}
         </div>
@@ -181,10 +183,10 @@ function initials(name: string) {
 
       <p class="manual-contributors__no-results" data-directory-empty hidden>{copy.noResults}</p>
       <div class="manual-contributors__pagination" data-directory-pagination hidden>
-        <button type="button" data-directory-previous>{copy.previous}</button>
-        <button type="button" data-directory-next>{copy.next}</button>
+        <WorkspaceButton type="button" data-directory-previous>{copy.previous}</WorkspaceButton>
+        <WorkspaceButton type="button" data-directory-next>{copy.next}</WorkspaceButton>
       </div>
-      <button
+      <WorkspaceButton
         class="manual-contributors__toggle"
         type="button"
         aria-expanded="false"
@@ -193,12 +195,12 @@ function initials(name: string) {
         data-show-less={copy.showLess}
       >
         <span>{copy.showAll}</span><i aria-hidden="true"><Icon name="chevron-down" /></i>
-      </button>
+      </WorkspaceButton>
 
       <div class="manual-contributors__drawer" data-contributor-drawer inert hidden>
         <div class="manual-contributors__drawer-clip">
           <div class="manual-contributors__drawer-surface">
-            <button class="manual-contributors__drawer-close" type="button" aria-label={copy.close} data-contributor-close><Icon name="x" /></button>
+            <WorkspaceButton class="manual-contributors__drawer-close" type="button" aria-label={copy.close} data-contributor-close><Icon name="x" /></WorkspaceButton>
             {contributors.map((contributor) => {
               const avatarSrc = safeAvatarSrc(contributor.avatar);
               const contacts = Array.isArray(contributor.contacts) ? contributor.contacts : [];
@@ -400,10 +402,9 @@ function initials(name: string) {
   .manual-contributors__pagination button:disabled { opacity:.35; cursor:default; }
   .manual-contributors__no-results { padding:24px 0; color:rgb(var(--theme-fg-rgb)/.6); font:13px/1.7 var(--font-sans); }
   .manual-contributors__grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
-  .manual-contributors__card {
+  .manual-contributors__card {--workspace-control-height:98px;--workspace-control-padding:18px;--workspace-control-background:rgb(var(--theme-fg-rgb)/.022);
     position:relative; display:grid; grid-template-columns:56px minmax(0,1fr) 20px; align-items:center; gap:14px;
-    min-width:0; min-height:98px; padding:18px; border:1px solid var(--ui-line); border-radius:12px;
-    background:rgb(var(--theme-fg-rgb)/.022); color:inherit; text-align:left; cursor:pointer;
+    min-width:0; border:1px solid var(--ui-line); border-radius:12px; text-align:left; cursor:pointer;
     transition:background 200ms ease,border-color 200ms ease,transform 240ms var(--ui-ease);
   }
   .manual-contributors__card[hidden] { display:none; }
@@ -419,7 +420,7 @@ function initials(name: string) {
   .manual-contributors__card-copy small { font:11px/1.4 var(--font-sans); color:rgb(var(--theme-fg-rgb)/.5); }
   .manual-contributors__card-mark { align-self:start; padding-top:2px; font:16px/1 var(--font-sans); color:rgb(var(--theme-fg-rgb)/.36); transition:transform 240ms ease,color 200ms ease; }
   .manual-contributors__card[aria-expanded='true'] .manual-contributors__card-mark { transform:rotate(45deg); color:var(--theme-accent-color); }
-  .manual-contributors__toggle { display:none; align-items:center; gap:8px; margin:16px auto 0; min-height:40px; padding:8px 14px; border:1px solid var(--ui-line); border-radius:8px; background:transparent; color:rgb(var(--theme-fg-rgb)/.65); font:12px var(--font-sans); cursor:pointer; }
+  .manual-contributors__toggle { display:none; align-items:center; gap:8px; margin:16px auto 0; border:1px solid var(--ui-line); border-radius:8px; cursor:pointer; }
   .manual-contributors[data-has-overflow='true'] .manual-contributors__toggle { display:flex; }
   .manual-contributors__toggle i { font-style:normal; transition:transform 240ms ease; }
   .manual-contributors[data-list-expanded='true'] .manual-contributors__toggle i { transform:rotate(180deg); }
@@ -428,7 +429,7 @@ function initials(name: string) {
 
   .manual-contributors__drawer-clip { min-height:0; overflow:hidden; }
   .manual-contributors__drawer-surface { position:relative; margin-top:0; padding:28px; border:1px solid rgb(var(--theme-accent-rgb)/.24); border-radius:12px; background:rgb(var(--theme-fg-rgb)/.025); }
-  .manual-contributors__drawer-close { position:absolute; top:12px; right:12px; width:36px; height:36px; border:1px solid var(--ui-line); border-radius:8px; background:transparent; color:rgb(var(--theme-fg-rgb)/.55); font:22px/1 var(--font-sans); cursor:pointer; }
+  .manual-contributors__drawer-close { position:absolute; top:12px; right:12px; width:36px; height:36px; border:1px solid var(--ui-line); border-radius:8px; cursor:pointer; }
   .manual-contributors__drawer-close:hover { background:var(--ui-hover); color:var(--theme-fg); }
   .manual-contributors__detail { display:grid; grid-template-columns:minmax(220px,.8fr) minmax(0,1.2fr); gap:24px 40px; padding-right:24px; align-items:start; }
   .manual-contributors__detail[hidden] { display:none; }
@@ -453,7 +454,7 @@ function initials(name: string) {
     .manual-contributors__header { gap:12px; margin-bottom:18px; }
     .manual-contributors__header p { font-size:12px; }
     .manual-contributors__grid { grid-template-columns:1fr; gap:10px; }
-    .manual-contributors__card { grid-template-columns:48px minmax(0,1fr) 20px; min-height:82px; padding:14px; }
+    .manual-contributors__card {--workspace-control-height:82px;--workspace-control-padding:14px; grid-template-columns:48px minmax(0,1fr) 20px; }
     .manual-contributors__avatar { width:48px; height:48px; }
     .manual-contributors__drawer-surface { padding:22px 18px; }
     .manual-contributors__detail { gap:20px; padding-right:0; }

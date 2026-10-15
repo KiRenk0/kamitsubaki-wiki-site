@@ -1,4 +1,6 @@
 ---
+import WorkspaceControl from '../WorkspaceControl.astro';
+import WorkspaceButton from '../WorkspaceButton.astro';
 import Icon from '../Icon.astro';
 import WorkspaceToolbar from '../WorkspaceToolbar.astro';
 import '../../styles/personalTools.css';
@@ -9,17 +11,17 @@ const kindGroups=Object.entries(c.entryKinds as Record<string,string>).reduce((g
 <AccountSync locale={locale}/>
 <div class="personal-tools library-workspace">
   <aside class="library-sidebar">
-    <div class="personal-heading"><h2>{c.collections}</h2><button type="button" data-create-open><span aria-hidden="true"><Icon name="plus" /></span>{c.create}</button></div>
+    <div class="personal-heading"><h2>{c.collections}</h2><WorkspaceButton type="button" data-create-open><span aria-hidden="true"><Icon name="plus" /></span>{c.create}</WorkspaceButton></div>
     <nav class="library-lists" data-library-lists aria-label={c.collections}></nav>
-    <details class="personal-disclosure library-backup"><summary>{c.backup}</summary><div class="labs-actions"><button data-export>{c.export}</button><button data-import-open>{c.import}</button></div><input type="file" data-import accept="application/json,.json" hidden /></details>
+    <details class="personal-disclosure library-backup"><summary>{c.backup}</summary><div class="labs-actions"><WorkspaceButton type="submit" data-export>{c.export}</WorkspaceButton><WorkspaceButton type="submit" data-import-open>{c.import}</WorkspaceButton></div><WorkspaceControl type="file" data-import accept="application/json,.json" hidden /></details>
   </aside>
   <div class="library-content">
-    <header class="personal-heading library-heading"><div><span class="personal-eyebrow">{c.collections}</span><h2 data-library-title>{c.allSaved}</h2></div><div class="labs-actions"><button data-rename hidden>{c.rename}</button><button data-delete-list hidden>{c.deleteCollection}</button></div></header>
-    <WorkspaceToolbar class="library-filters"><label><span>{c.searchSaved}</span><input type="search" data-library-search placeholder={c.searchSaved} /></label><label><span>{c.kind}</span><select data-library-kind><option value="">{c.all}</option>{kindGroups.map(group=><option value={group.keys.join('|')}>{group.label}</option>)}</select></label><label><span>{c.order}</span><select data-library-order><option value="recent">{c.recent}</option><option value="title">{c.titleOrder}</option><option value="manual" hidden>{c.manualOrder}</option></select></label></WorkspaceToolbar>
-    <div class="personal-feedback" role="status" aria-live="polite"><span data-library-feedback></span><button data-library-undo hidden>{c.undo}</button></div>
-    <div class="library-result-heading"><span data-status></span><button data-library-clear hidden>{c.reset}</button></div>
-    <div class="labs-results" data-results></div><button data-library-more hidden>{c.more}</button>
+    <header class="personal-heading library-heading"><div><span class="personal-eyebrow">{c.collections}</span><h2 data-library-title>{c.allSaved}</h2></div><div class="labs-actions"><WorkspaceButton type="submit" data-rename hidden>{c.rename}</WorkspaceButton><WorkspaceButton type="submit" data-delete-list hidden>{c.deleteCollection}</WorkspaceButton></div></header>
+    <WorkspaceToolbar class="library-filters"><label><span>{c.searchSaved}</span><WorkspaceControl type="search" data-library-search placeholder={c.searchSaved} /></label><label><span>{c.kind}</span><WorkspaceControl as="select" data-library-kind><option value="">{c.all}</option>{kindGroups.map(group=><option value={group.keys.join('|')}>{group.label}</option>)}</WorkspaceControl></label><label><span>{c.order}</span><WorkspaceControl as="select" data-library-order><option value="recent">{c.recent}</option><option value="title">{c.titleOrder}</option><option value="manual" hidden>{c.manualOrder}</option></WorkspaceControl></label></WorkspaceToolbar>
+    <div class="personal-feedback" role="status" aria-live="polite"><span data-library-feedback></span><WorkspaceButton type="submit" data-library-undo hidden>{c.undo}</WorkspaceButton></div>
+    <div class="library-result-heading"><span data-status></span><WorkspaceButton type="submit" data-library-clear hidden>{c.reset}</WorkspaceButton></div>
+    <div class="labs-results" data-results></div><WorkspaceButton type="submit" data-library-more hidden>{c.more}</WorkspaceButton>
     <a class="library-discover" href={`/${locale}/explore/`}>{c.explore} <Icon name="arrow-right" /></a>
   </div>
-  <dialog class="personal-dialog" data-list-dialog aria-labelledby="library-dialog-title"><form data-list-form><h2 id="library-dialog-title" data-dialog-title>{c.create}</h2><label><span>{c.listName}</span><input name="name" required maxlength="80" autocomplete="off" /></label><p role="status" data-dialog-status></p><div class="labs-actions"><button type="button" data-dialog-cancel>{c.cancel}</button><button type="submit" class="personal-primary">{c.confirm}</button></div></form></dialog>
+  <dialog class="personal-dialog" data-list-dialog aria-labelledby="library-dialog-title"><form data-list-form><h2 id="library-dialog-title" data-dialog-title>{c.create}</h2><label><span>{c.listName}</span><WorkspaceControl name="name" required maxlength="80" autocomplete="off" /></label><p role="status" data-dialog-status></p><div class="labs-actions"><WorkspaceButton type="button" data-dialog-cancel>{c.cancel}</WorkspaceButton><WorkspaceButton tone="primary" type="submit" class="personal-primary">{c.confirm}</WorkspaceButton></div></form></dialog>
 </div>

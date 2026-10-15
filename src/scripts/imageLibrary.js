@@ -1,3 +1,4 @@
+import {uploadStatusTarget} from '../lib/uploadStatusTarget.mjs';
 import {galleryDraft} from '../lib/galleryDraftStore.mjs';
 import {refreshAuth,state} from './accountStore.js';
 import {uploadGalleryFiles} from '../lib/galleryUploadQueue.mjs';
@@ -102,7 +103,7 @@ export function mountImageLibrary(root,{onChoose,onCover}={}){
   const accountChanged=()=>{if(state.viewer?.userId!==expectedOwner)uploadController.abort();};window.addEventListener('kamitsubaki-account-state',accountChanged);
   form.querySelectorAll('input,select,textarea,button').forEach(el=>el.disabled=true);status(c.sending);$('[data-library-links]').replaceChildren();
   try{
-   const result=await submitSharedImages(operation,{request,onState:()=>persist(),onPhase:phase=>status(phase==='upload'?c.staging:c.reviewing),onBatch:batch=>link(c.recover,`/${locale}/gallery/manage/photos/?batch=${encodeURIComponent(batch.id)}`),upload:(files,batchId)=>uploadGalleryFiles(files.map(file=>({...file,url:`${api}/api/gallery/uploads/${batchId}/${file.id}?accountId=${encodeURIComponent(owner)}`,metadata:{name:file.file.name}})),{locale,signal:uploadController.signal})});
+   const result=await submitSharedImages(operation,{request,onState:()=>persist(),onPhase:phase=>status(phase==='upload'?c.staging:c.reviewing),onBatch:batch=>link(c.recover,`/${locale}/gallery/manage/photos/?batch=${encodeURIComponent(batch.id)}`),upload:(files,batchId)=>uploadGalleryFiles(files.map(file=>({...file,url:`${api}/api/gallery/uploads/${batchId}/${file.id}?accountId=${encodeURIComponent(owner)}`,metadata:{name:file.file.name}})),{locale,signal:uploadController.signal,statusTarget:uploadStatusTarget(root)})});
    if(state.viewer?.userId!==expectedOwner)throw Error(c.login);
    status(c.submitted);$('[data-library-links]').replaceChildren();link(c.creator,`/${locale}/account/creator/?recordType=gallery&record=${encodeURIComponent(result.batchId||operation.id)}`);
    operation=null;busy=false;setFiles([]);form.elements.images.value='';

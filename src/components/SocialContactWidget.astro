@@ -1,4 +1,5 @@
 ---
+import WorkspaceButton from './WorkspaceButton.astro';
 import ContactIcon from './ContactIcon.astro';
 import Icon from './Icon.astro';
 import { getLanguageTag } from '../lib/i18n.mjs';
@@ -41,9 +42,9 @@ const items = copy.items
           <p>{copy.eyebrow}</p>
           <h2>{copy.title}</h2>
         </div>
-        <button type="button" data-social-contact-close aria-label={copy.closeLabel}>
+        <WorkspaceButton type="button" data-social-contact-close aria-label={copy.closeLabel}>
           <Icon name="x" />
-        </button>
+        </WorkspaceButton>
       </div>
       {copy.helper && <p class="social-contact__helper">{copy.helper}</p>}
       <div class="social-contact__list">
@@ -63,7 +64,7 @@ const items = copy.items
         })}
       </div>
     </div>
-    <button
+    <WorkspaceButton
       class="social-contact__toggle"
       type="button"
       data-social-contact-toggle
@@ -74,7 +75,7 @@ const items = copy.items
       <span aria-hidden="true">//</span>
       <Icon name="share" />
     <strong>{copy.buttonLabel}</strong>
-    </button>
+    </WorkspaceButton>
   </aside>
 )}
 

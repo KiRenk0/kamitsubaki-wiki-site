@@ -1,3 +1,5 @@
+import {chatPresentationStore} from '../lib/chatPresentationStore.mjs';
+import {loadSiteComponents} from '../lib/siteComponentRuntime.mjs';
 import {iconMarkup} from '../lib/icons.mjs';
 import {claimFloatingPanel,onFloatingPanelChange} from '../lib/floatingPanels.js';
 import {loginUrl as centralLoginUrl,logout as centralLogout,state as centralAccountState} from './accountStore.js';
@@ -9,7 +11,7 @@ import {
   isTraditionalAiResponseLocale,
   loadTraditionalConverters,
 } from '../lib/aiResponseLocale.mjs';
-import { parseAiStreamChunk } from '../lib/aiStream.mjs';
+import { createAiStreamParser } from '../lib/aiStream.mjs';
 
 const widgetRevision=root=>Number(root.dataset.accountGeneration)||0;
 const widgetRequests=new WeakMap();
@@ -144,127 +146,18 @@ function renderMarkdown(text, locale = '') {
 }
 
 function setMessageMarkdown(content, text, locale = '') {
-  content.dataset.rawText = text;
-  content.dataset.rawLocale = locale;
-  content.innerHTML = renderMarkdown(text, locale);
-  if (!markdownRenderer) {
-    loadMarkdownRenderer().then(() => {
-      if (content.dataset.rawText === text) {
-        content.innerHTML = renderMarkdown(text, locale);
-      }
-    }).catch(() => {});
-  }
+  content.store.patch(content,{text:convertAiResponseText(text,locale),streaming:false,thinking:false});
 }
-
 function createStreamingRenderer(content, messages, locale = '') {
-  let pendingText = '';
-  let frame = 0;
-
-  const flush = () => {
-    frame = 0;
-    content.textContent = convertAiResponseText(pendingText, locale);
-    scrollMessages(messages);
-  };
-
-  return {
-    update(text) {
-      pendingText = text;
-      if (!content.classList.contains('ai-message__content--streaming')) {
-        content.classList.add('ai-message__content--streaming');
-        content.textContent = '';
-      }
-      if (!frame) {
-        frame = window.requestAnimationFrame(flush);
-      }
-    },
-    complete(text) {
-      if (frame) {
-        window.cancelAnimationFrame(frame);
-        frame = 0;
-      }
-      content.classList.remove('ai-message__content--streaming');
-      setMessageMarkdown(content, text, locale);
-      scrollMessages(messages);
-    },
-    cancel() {
-      if (frame) {
-        window.cancelAnimationFrame(frame);
-        frame = 0;
-      }
-      content.classList.remove('ai-message__content--streaming');
-    },
-  };
+  return {update(text){content.store.patch(content,{text:convertAiResponseText(text,locale),streaming:true,thinking:false});},complete(text){setMessageMarkdown(content,text,locale);},cancel(){content.store.patch(content,{streaming:false,thinking:false});}};
 }
-
-function createMessage(role, text = '', locale = '') {
-  const message = document.createElement('article');
-  message.className = `ai-message ai-message--${role}`;
-
-  if (role === 'assistant') {
-    const avatar = document.createElement('div');
-    avatar.className = 'ai-message__avatar';
-    avatar.setAttribute('aria-hidden', 'true');
-    avatar.innerHTML =
-      iconMarkup('message-circle');
-    message.append(avatar);
-  }
-
-  const content = document.createElement('div');
-  content.className = 'ai-message__content ai-markdown';
-  message.append(content);
-  setMessageMarkdown(content, text, role === 'assistant' ? locale : '');
-
-  return { message, content };
+function createMessage(root, role, text = '', locale = '') {
+  const content=chatPresentationStore(root).append(role,role==='assistant'?convertAiResponseText(text,locale):text);
+  return {message:content,content};
 }
-
-function startThinkingMessage(assistantMessage, copy) {
-  const phrases = Array.isArray(copy.thinkingPhrases) && copy.thinkingPhrases.length
-    ? copy.thinkingPhrases
-    : [copy.bubbleThinking, copy.status].filter(Boolean);
-  const { message, content } = assistantMessage;
-  message.classList.add('ai-message--thinking');
-  content.classList.remove('ai-markdown');
-  content.innerHTML = `
-    <div class="ai-thinking" aria-live="polite">
-      <span class="ai-thinking__beam" aria-hidden="true"></span>
-      <span class="ai-thinking__text"></span>
-      <span class="ai-thinking__dots" aria-hidden="true"><i></i><i></i><i></i></span>
-    </div>
-  `;
-  const text = content.querySelector('.ai-thinking__text');
-  if (text) {
-    text.textContent = phrases[0] || '';
-  }
-
-  if (phrases.length > 1) {
-    let index = 0;
-    const timer = window.setInterval(() => {
-      index = (index + 1) % phrases.length;
-      if (text) {
-        text.textContent = phrases[index];
-      }
-    }, 1600);
-    message.dataset.thinkingTimer = String(timer);
-  }
-}
-
-function createThinkingMessage(copy) {
-  const assistantMessage = createMessage('assistant');
-  startThinkingMessage(assistantMessage, copy);
-  const { message, content } = assistantMessage;
-  return { message, content };
-}
-
-function finishThinkingMessage({ message, content }) {
-  const timer = Number(message.dataset.thinkingTimer || 0);
-  if (timer) {
-    window.clearInterval(timer);
-  }
-  delete message.dataset.thinkingTimer;
-  message.classList.remove('ai-message--thinking');
-  content.classList.add('ai-markdown');
-  content.textContent = '';
-}
+function startThinkingMessage({content}){content.store.patch(content,{thinking:true});}
+function createThinkingMessage(root,copy){const message=createMessage(root,'assistant');startThinkingMessage(message,copy);return message;}
+function finishThinkingMessage({content}){content.store.patch(content,{thinking:false});}
 
 function parseHttpUrl(value) {
   try {
@@ -296,64 +189,9 @@ function formatSourceKind(source) {
   return '来源';
 }
 
-function appendSource(content, source) {
-  if (!source?.title || !source?.url) {
-    return;
-  }
-
-  const sourceUrl = parseHttpUrl(source.url);
-  if (!sourceUrl) {
-    return;
-  }
-
-  const message = content.closest('.ai-message');
-  if (!message) {
-    return;
-  }
-  const locale = content.closest('[data-ai-chat]')?.dataset.locale || '';
-
-  let sources = message.querySelector('.ai-message__sources');
-  if (!sources) {
-    sources = document.createElement('details');
-    sources.className = 'ai-message__sources';
-    sources.innerHTML = `
-      <summary>
-        <span class="ai-message__sources-label">${convertAiResponseText('引用', locale)}</span>
-        <span class="ai-message__sources-count">0</span>
-      </summary>
-      <div class="ai-message__sources-list"></div>
-    `;
-    message.append(sources);
-  }
-
-  const list = sources.querySelector('.ai-message__sources-list');
-  if (!(list instanceof HTMLElement)) {
-    return;
-  }
-
-  const normalizedUrl = sourceUrl.href;
-  const existingLinks = Array.from(list.querySelectorAll('a'));
-  if (existingLinks.some((link) => link.href === normalizedUrl)) {
-    return;
-  }
-
-  const link = document.createElement('a');
-  const kind = document.createElement('b');
-  const title = document.createElement('span');
-  const host = document.createElement('small');
-  link.href = normalizedUrl;
-  link.target = '_blank';
-  link.rel = 'noreferrer';
-  kind.textContent = convertAiResponseText(formatSourceKind(source), locale);
-  title.textContent = convertAiResponseText(String(source.title || formatSourceHost(sourceUrl)).trim(), locale);
-  host.textContent = formatSourceHost(sourceUrl);
-  link.append(kind, title, host);
-  list.append(link);
-
-  const count = sources.querySelector('.ai-message__sources-count');
-  if (count) {
-    count.textContent = String(list.querySelectorAll('a').length);
-  }
+function appendSource(content,source){
+ if(!source?.title||!source?.url)return;const url=parseHttpUrl(source.url);if(!url)return;
+ content.store.addSource(content,{...source,url:url.href,kind:convertAiResponseText(formatSourceKind(source),content.root.dataset.locale)});
 }
 
 function scrollMessages(messages) {
@@ -390,6 +228,7 @@ function setExpanded(root, expanded, restoreFocus = true) {
 
 function setThinking(root, copy, thinking) {
   root.classList.toggle('is-thinking', thinking);
+  chatPresentationStore(root).running(thinking);
   const bubble = document.querySelector('[data-ai-bubble]');
   if (bubble) {
     bubble.textContent = thinking ? copy.bubbleThinking : copy.bubbleIdle;
@@ -578,10 +417,10 @@ async function bootstrap(root) {
   }
 
   if (typeof data.greeting === 'string' && data.greeting) {
-    const firstAssistantMessage = root.querySelector('.ai-message--assistant .ai-message__content');
-    if (firstAssistantMessage instanceof HTMLElement) {
-      setMessageMarkdown(firstAssistantMessage, data.greeting, localeRequest.locale);
-    }
+    const presentation=chatPresentationStore(root),first=presentation.getSnapshot().messages.find(message=>message.role==='assistant');
+    const firstAssistantMessage=first?{id:first.id,root,store:presentation}:createMessage(root,'assistant').content;
+    setMessageMarkdown(firstAssistantMessage, data.greeting, localeRequest.locale);
+
   }
 
   if (data.turnstile?.siteKey) {
@@ -947,7 +786,7 @@ async function clearAllThreads(root, copy) {
   clearMessages(root);
   const messages = root.querySelector('[data-ai-messages]');
   if (messages instanceof HTMLElement) {
-    messages.append(createMessage('assistant', copy.greeting || '', root.dataset.locale).message);
+    createMessage(root,'assistant', copy.greeting || '', root.dataset.locale);
   }
   loadThreadList(root).catch(() => {});
 }
@@ -973,11 +812,12 @@ async function loadThreadList(root) {
 }
 
 function clearMessages(root) {
+  chatPresentationStore(root).clear();
   const messages = root.querySelector('[data-ai-messages]');
   if (!(messages instanceof HTMLElement)) {
     return;
   }
-  messages.innerHTML = '';
+  if(!chatPresentationStore(root).ui)messages.innerHTML = '';
 }
 
 async function loadThreadDetail(root, threadId) {
@@ -1002,11 +842,12 @@ async function loadThreadDetail(root, threadId) {
   clearMessages(root);
   for (const item of data.messages || []) {
     const rendered = createMessage(
+      root,
       item.role === 'user' ? 'user' : 'assistant',
       item.content || '',
       root.dataset.locale,
     );
-    messages.append(rendered.message);
+
     for (const source of item.sources || []) {
       appendSource(rendered.content, source);
     }
@@ -1036,22 +877,21 @@ async function readStream(response, assistantMessage, messages, copy, root) {
 
   const reader = response.body.getReader();
   const decoder = new TextDecoder();
-  let remainder = '';
+  const streamParser = createAiStreamParser();
   let assistantText = '';
   let hasDelta = false;
   let hasTerminalMessage = false;
   let needsChallenge = false;
   const streamRenderer = createStreamingRenderer(content, messages, locale);
 
-  while (true) {
+  try {while (true) {
     const { value, done } = await reader.read();
     if(revision!==widgetRevision(root)){await reader.cancel();return {needsChallenge:false};}
     if (done) {
       break;
     }
 
-    const parsed = parseAiStreamChunk(decoder.decode(value, { stream: true }), remainder);
-    remainder = parsed.remainder;
+    const parsed = {events: streamParser.feed(decoder.decode(value, {stream: true}))};
 
     for (const event of parsed.events) {
       if (event.type === 'thread' && event.data.threadId) {
@@ -1095,7 +935,8 @@ async function readStream(response, assistantMessage, messages, copy, root) {
     }
   }
 
-  if (hasDelta) {
+  }finally{void reader.cancel().catch(()=>{});reader.releaseLock();}
+  if (hasDelta && !hasTerminalMessage) {
     streamRenderer.complete(assistantText);
   }
 
@@ -1169,7 +1010,7 @@ function initWidget(root) {
   const newThreadButton = root.querySelector('[data-ai-new-thread]');
   const clearHistoryButton = root.querySelector('[data-ai-history-clear]');
   const form = root.querySelector('[data-ai-form]');
-  const input = root.querySelector('[data-ai-input]');
+  let input = root.querySelector('[data-ai-input]');
   const messages = root.querySelector('[data-ai-messages]');
   const quick = root.querySelector('[data-ai-quick]');
   const threadList = root.querySelector('[data-ai-thread-list]');
@@ -1191,27 +1032,22 @@ function initWidget(root) {
   let isReady = false;
   let readyPromise = null;
 
-  const showLoadError = () => {
-    const firstAssistant = root.querySelector('.ai-message--assistant .ai-message__content');
-    if (!(firstAssistant instanceof HTMLElement)) {
-      return;
-    }
-    firstAssistant.innerHTML = '';
-    const errorBox = document.createElement('div');
-    errorBox.className = 'ai-load-error';
-    const msg = document.createElement('span');
-    msg.textContent = copy.fallbackOffline || copy.streamErrorFallback || 'Connection failed.';
-    const retryBtn = document.createElement('button');
-    retryBtn.type = 'button';
-    retryBtn.className = 'ai-retry-btn';
-    retryBtn.textContent = copy.retry || 'Retry';
-    retryBtn.addEventListener('click', () => {
-      firstAssistant.innerHTML = '';
-      ensureWidgetReady().catch(showLoadError);
-    });
-    errorBox.append(msg, retryBtn);
-    firstAssistant.append(errorBox);
+  const showLoadError = error => {
+    console.error('AI component initialization failed',error);
+    const presentation=chatPresentationStore(root),first=presentation.getSnapshot().messages.find(message=>message.role==='assistant');
+    const handle=first?{id:first.id}:presentation.append('assistant');
+    if(!presentation.ui&&!root.querySelector('[data-ai-load-fallback]')){const fallback=document.createElement('p');fallback.dataset.aiLoadFallback='';fallback.setAttribute('role','alert');fallback.append(document.createTextNode(copy.fallbackOffline||'Connection failed.'));const retry=document.createElement('button');retry.type='button';retry.textContent=copy.retry||'Retry';retry.onclick=()=>ensureWidgetReady().catch(showLoadError);fallback.append(retry);form.before(fallback);}
+    presentation.patch(handle,{text:copy.fallbackOffline||copy.streamErrorFallback||'Connection failed.',error:true,retryText:'initialize',thinking:false,streaming:false});
   };
+
+  const presentation=chatPresentationStore(root);
+  let componentFlight;
+  const ensureChatComponents=()=>componentFlight ||= loadSiteComponents().then(async runtime=>{
+    if(!presentation.getSnapshot().messages.length)createMessage(root,'assistant',copy.greeting||'',root.dataset.locale);
+    const composer=root.querySelector('.ai-chat__composer');
+    presentation.ui=await runtime.mountChat(messages,composer,{getSnapshot:presentation.getSnapshot,subscribe:presentation.subscribe,variant:'wiki',renderMarkdown:text=>renderMarkdown(text,root.dataset.locale),copy:{placeholder:copy.inputPlaceholder,send:copy.sendLabel,stop:copy.cancelLabel||'Stop',sources:convertAiResponseText('引用',root.dataset.locale),thinking:copy.thinkingPhrases||[copy.bubbleThinking||copy.status||'…'],retry:copy.retry||'Retry'},retry:()=>ensureWidgetReady().catch(showLoadError),initialDraft:input.value,inputAttributes:{'data-ai-input':'',id:'ai-chat-input'},onInputReady:element=>{input=element;},send:text=>{input.value=text;form.requestSubmit();},cancel:()=>widgetRequests.get(root)?.abort()});
+    window.addEventListener('pagehide',()=>presentation.ui?.destroy(),{once:true});
+  }).catch(error=>{componentFlight=null;throw error;});
 
   const ensureWidgetReady = () => {
     if (isReady) return Promise.resolve();
@@ -1221,14 +1057,16 @@ function initWidget(root) {
         toggle.setAttribute('aria-busy', 'true');
         try {
           const locale = root.dataset.locale || document.documentElement.lang || 'zh';
+          await loadMarkdownRenderer();
           const tasks = [
-            loadMarkdownRenderer(),
             bootstrap(root),
+            ensureChatComponents(),
           ];
           if (isTraditionalAiResponseLocale(locale)) {
             tasks.push(loadTraditionalConverters());
           }
           await Promise.all(tasks);
+          root.querySelector('[data-ai-load-fallback]')?.remove();
           isReady = true;
           root.classList.remove('has-load-error');
         } catch (error) {
@@ -1317,8 +1155,8 @@ function initWidget(root) {
   newThreadButton?.addEventListener('click', () => {
     root.dataset.currentThreadId = '';
     clearMessages(root);
-    const greeting = createMessage('assistant', copy.greeting || '', root.dataset.locale);
-    messages.append(greeting.message);
+    const greeting = createMessage(root,'assistant', copy.greeting || '', root.dataset.locale);
+
   });
 
   clearHistoryButton?.addEventListener('click', () => {
@@ -1420,6 +1258,7 @@ function initWidget(root) {
     }
 
     input.value = target.dataset.aiPrompt || '';
+    presentation.setDraft(input.value);
     input.focus();
   });
 
@@ -1477,18 +1316,21 @@ function initWidget(root) {
       return;
     }
 
+    try{await ensureWidgetReady();}catch(error){showLoadError(error);return;}
+    if(revision!==widgetRevision(root))return;
     const apiBase = root.dataset.apiBase || '';
     const locale = root.dataset.locale || document.documentElement.lang || 'zh';
     const localeRequest = buildAiLocaleRequest(locale);
     const controller=new AbortController();widgetRequests.set(root,controller);
-    const userMessage = createMessage('user', message);
-    messages.append(userMessage.message);
+    const userMessage = createMessage(root,'user', message);
+
     input.value = '';
+    presentation.setDraft('');
     input.style.height = 'auto';
 
-    const assistantMessage = createThinkingMessage(copy);
+    const assistantMessage = createThinkingMessage(root,copy);
     assistantMessage.content.dataset.emptyResponse = copy.emptyResponse || '';
-    messages.append(assistantMessage.message);
+
     scrollMessages(messages);
     setThinking(root, copy, true);
 
@@ -1561,10 +1403,10 @@ function initWidget(root) {
       if (root.dataset.viewerKind === 'user') {
         loadThreadList(root).catch(() => {});
       }
-    } catch {
+    } catch(error) {
       if(revision!==widgetRevision(root))return;
       finishThinkingMessage(assistantMessage);
-      setMessageMarkdown(assistantMessage.content, copy.fallbackOffline || '', localeRequest.locale);
+      setMessageMarkdown(assistantMessage.content, error?.name==='AbortError'?(assistantMessage.content.textContent||copy.cancelLabel||''):copy.fallbackOffline||'', localeRequest.locale);
     } finally {
       if(widgetRequests.get(root)===controller)widgetRequests.delete(root);
       if(revision===widgetRevision(root)){setThinking(root, copy, false);scrollMessages(messages);}

@@ -1,4 +1,5 @@
 ---
+import WorkspaceButton from '../WorkspaceButton.astro';
 import {editorAssetManifest} from '../../lib/editorAssets.mjs';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import {editorApiBase,localEditor,editorEnabled} from '../../lib/editorConfig.mjs';
@@ -11,9 +12,9 @@ const config={locale,contentLocale:getEditableLocale(locale),apiBase:localEditor
 ---
 <BaseLayout reading lang={locale} title={copy.title} metadata={{title:copy.title,canonicalPath:`/${locale}/${articleMode?'articles/submit':'contribute/editor'}/`,noindex:true}}>
  <main class="novel-host ve-workbench" data-novel-workbench data-locale={locale} data-editor-enabled={String(editorEnabled)} data-editor-local={String(localEditor)} data-editor-api={config.apiBase} data-article-api={articleMode?config.apiBase:undefined}>
-  <nav class="novel-host-nav"><a data-editor-back href={`/${locale}/`}>{copy.back}</a><div class="novel-host-actions"><button type="button" data-legacy-recovery hidden>{copy.restore}</button><a href={`/${locale}/account/creator/`}>{copy.history}</a><a data-editor-login href={config.loginHref}>{copy.login}</a></div></nav>
+  <nav class="novel-host-nav"><a data-editor-back href={`/${locale}/`}>{copy.back}</a><div class="novel-host-actions"><WorkspaceButton type="button" data-legacy-recovery hidden>{copy.restore}</WorkspaceButton><a href={`/${locale}/account/creator/`}>{copy.history}</a><a data-editor-login href={config.loginHref}>{copy.login}</a></div></nav>
   <div id="root" role="region" aria-label={copy.title}><p role="status">{copy.loading}</p></div>
- <dialog data-legacy-dialog aria-labelledby="legacy-title"><h2 id="legacy-title">{copy.restore}</h2><p>{copy.recovery}</p><div data-legacy-list></div><button type="button" data-legacy-close>{copy.close}</button></dialog>
+ <dialog data-legacy-dialog aria-labelledby="legacy-title"><h2 id="legacy-title">{copy.restore}</h2><p>{copy.recovery}</p><div data-legacy-list></div><WorkspaceButton type="button" data-legacy-close>{copy.close}</WorkspaceButton></dialog>
  </main>
  {entry.css?.map((file:string)=><link rel="stylesheet" href={'/_editor/'+file}/>)}
  <script is:inline define:vars={{config}}>

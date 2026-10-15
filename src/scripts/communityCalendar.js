@@ -1,7 +1,7 @@
 import {formatCommunityLocation} from '../lib/communityLocationFormat.mjs';
 import '../lib/communityLocationRuntime.js';
 import {createCommunityLocationPicker} from '../lib/communityLocationPicker.js';
-import {calendarMonthRange,renderCalendarMonth,shiftCalendarMonth} from '../lib/calendarMonth.js';
+import {calendarMonthRange,renderCalendarMonth,renderCalendarAgenda,shiftCalendarMonth} from '../lib/calendarMonth.js';
 import {communityRequest,communityCard,contentText,communityApi} from '../lib/communityClient.js';
 import {mountFilterPopover} from '../lib/filterPopover.js';
 
@@ -33,8 +33,8 @@ export function initCommunityCalendar(root){
   const list=visible(),month=form.elements.namedItem('month').value,grid=$('[data-calendar-grid]');
   renderCalendarMonth({grid,month,selected,today:today(),locale,weekStartsOn:1,showOutside:true,entries:list.map(p=>({...p,groupId:p.activityId})),dateLabel,onSelect(day){selected=day;syncUrl();render();},renderEntry(group){const p=group[0],a=p.activity,link=node('a',undefined,'community-day-event');link.append(node('small',group.map(label).join('/')),node('span',contentText(a.title,a,locale)));link.dataset.pointType=p.type;link.href=`/${locale}/community/activities/${a.id}/`;link.title=group.map(label).join('/')+' · '+contentText(a.title,a,locale);return link;}});
   $('[data-calendar-month-panel]').hidden=view!=='calendar';root.querySelectorAll('[data-calendar-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.calendarView===view)));
-  const agenda=$('[data-calendar-agenda]');agenda.replaceChildren();const days=view==='calendar'?[selected]:Array.from({length:new Date(Number(month.slice(0,4)),Number(month.slice(5)),0).getDate()},(_,i)=>month+'-'+String(i+1).padStart(2,'0'));
-  for(const day of days){const matches=list.filter(p=>inDay(p,day));if(matches.length||view==='calendar'){const section=renderDay(day,matches);if(!matches.length)section.append(node('p',root.dataset.loading==='true'?c.loading:c.emptyDay,'community-empty'));agenda.append(section);}}if(!agenda.children.length)agenda.append(node('p',root.dataset.loading==='true'?c.loading:c.empty,'community-empty'));
+  const agenda=$('[data-calendar-agenda]');
+  renderCalendarAgenda({grid:agenda,month,selected:view==='calendar'?selected:null,locale,dateLabel,entries:list.map(p=>({...p,groupId:p.activityId})),empty:root.dataset.loading==='true'?c.loading:view==='calendar'?c.emptyDay:c.empty,renderEntry(group,day){return renderDay(day,group).querySelector('article');}});
   const unknown=$('[data-calendar-undated]');unknown.replaceChildren();$('[data-calendar-undated-section]').hidden=!undated.length;for(const a of undated){const div=node('div',undefined,'community-event-row'),link=node('a',contentText(a.title,a,locale));link.href=`/${locale}/community/activities/${a.id}/`;div.append(node('span',c[a.status]||c.undated),link);if(a.sourceLocale!==locale&&!(a.sourceLocale==='zh'&&locale.startsWith('zh')))div.append(node('small',c.originalLanguage+' · '+new Intl.DisplayNames([locale],{type:'language'}).of(a.sourceLocale)));unknown.append(div);}
   const subscription=new URL(communityApi(api)+'/api/community-activities/calendar.ics');for(const key of filterKeys()){const value=form.elements.namedItem(key).value;if(value)subscription.searchParams.set(key,value);}subscription.searchParams.set('locale',locale);$('[data-community-subscribe]').href=subscription.href.replace(/^https?:/,'webcal:');$('[data-community-subscribe]').dataset.url=subscription.href;
  };
