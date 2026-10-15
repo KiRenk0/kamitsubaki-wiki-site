@@ -1,0 +1,15 @@
+---
+const {locale='zh'}=Astro.props;
+const text=locale==='en'?{title:'Support on Afdian',link:'Open Afdian',note:'After supporting, use the personal link sent in Afdian messages to set your display name, avatar and benefits email.'}:locale==='ja'?{title:'愛発電で支援する',link:'愛発電を開く',note:'支援後、愛発電の個別メッセージに届くリンクから、表示名・アイコン・特典用メールアドレスを設定できます。'}:['zh-tw','zh-hk'].includes(locale)?{title:'在愛發電支持專案',link:'開啟愛發電',note:'發電後，可透過愛發電私訊中的專屬連結填寫權益接收信箱、展示暱稱與頭像。'}:{title:'在爱发电支持项目',link:'打开爱发电',note:'发电后，可通过爱发电私信中的专属链接填写权益接收邮箱、展示昵称与头像。'};
+---
+<div class="afdian-widget">
+ <iframe src="https://afdian.com/leaflet?slug=LinkTh1rsty" title={text.title} width="640" height="200" loading="lazy" referrerpolicy="no-referrer" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms"></iframe>
+ <div><p>{text.note}</p><a href="https://afdian.com/a/LinkTh1rsty" target="_blank" rel="noopener noreferrer">{text.link} ↗</a></div>
+</div>
+<style>
+ .afdian-widget {max-width:640px;margin:24px auto 32px;border:1px solid var(--line-soft,#ddd);border-radius:16px;overflow:hidden;background:#fff;color:#333;}
+ iframe {display:block;width:100%;height:200px;border:0;}
+ .afdian-widget>div {display:flex;gap:16px;align-items:start;padding:0 20px 18px;font-size:13px;line-height:1.8;}
+ p {margin:0;flex:1;}a {white-space:nowrap;text-decoration:underline;text-underline-offset:4px;}
+ @media(max-width:480px){.afdian-widget>div{flex-direction:column;gap:6px;}}
+</style>

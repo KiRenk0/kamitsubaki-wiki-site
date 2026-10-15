@@ -139,3 +139,6 @@
 }
 
 .support-channel__qr{margin:16px 0;text-align:center}.support-channel__qr>a:not(.support-qr-frame){display:inline-flex;align-items:center;min-height:44px;color:var(--theme-accent-color)}
+
+.support-wall li { display:flex; align-items:center; gap:12px; }
+.supporter-avatar { width:40px;height:40px;object-fit:cover;border-radius:50%;flex-shrink:0; }

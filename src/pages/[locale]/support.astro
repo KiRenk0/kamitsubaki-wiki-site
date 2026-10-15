@@ -1,4 +1,5 @@
 ---
+import AfdianWidget from '../../components/AfdianWidget.astro';
 import Icon from '../../components/Icon.astro';
 import WorkspaceShell from '../../components/WorkspaceShell.astro';
 import { getBuildCollection as getCollection } from '../../lib/contentAuditContext';
@@ -57,8 +58,9 @@ const apiBase = import.meta.env.PUBLIC_SUPPORT_API_BASE || import.meta.env.PUBLI
         <h2 id="support-ways-title">{copy.channelsTitle}</h2>
         <p>{copy.channelsIntro}</p>
       </div>
+      <AfdianWidget locale={locale} />
       <div class="support-channels" data-support-channels>
-        {data.channels.map((channel, index) => <SupportChannelCard channel={channel} locale={locale} index={index} />)}
+        {data.channels.filter(channel=>channel.id!=='afdian'||!!channel.qrImageUrl).map((channel, index) => <SupportChannelCard channel={channel} locale={locale} index={index} />)}
       </div>
       <aside class="support-community">
         <span class="support-community__mark" aria-hidden="true"><Icon name="plus" /></span>
