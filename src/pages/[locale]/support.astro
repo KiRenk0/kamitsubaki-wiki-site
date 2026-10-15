@@ -2,165 +2,48 @@
 import WorkspaceButton from '../../components/WorkspaceButton.astro';
 import Icon from '../../components/Icon.astro';
 import WorkspaceShell from '../../components/WorkspaceShell.astro';
-import { getBuildCollection as getCollection } from '../../lib/contentAuditContext';
+import {getBuildCollection as getCollection} from '../../lib/contentAuditContext';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import SiteNav from '../../components/SiteNav.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
-import SupportChannelCard from '../../components/SupportChannelCard.astro';
 import WorkspaceHeader from '../../components/WorkspaceHeader.astro';
 import WorkspaceNavigation from '../../components/WorkspaceNavigation.astro';
-import { getLocalizedSite } from '../../lib/homeData.mjs';
-import { buildLocaleLinks, defaultLocale, resolveLocaleCopy, supportedLocales } from '../../lib/i18n.mjs';
-import { getSupportCopy } from '../../data/supportCopy';
-import { formatSupportAmount, getSupportData, supportAnnualBalance, supportExternalUrl } from '../../lib/support';
+import SupportPlans from '../../components/SupportPlans.astro';
+import {getLocalizedSite} from '../../lib/homeData.mjs';
+import {buildLocaleLinks,defaultLocale,supportedLocales} from '../../lib/i18n.mjs';
+import {getSupportCopy} from '../../data/supportCopy';
+import {getSupportData} from '../../lib/support';
+import {renderSupportData} from '../../lib/supportView.mjs';
+import {supportExperienceCopy} from '../../lib/supportExperienceCopy.mjs';
+import {supportCatalog} from '../../lib/supportCatalog.mjs';
 import '../../styles/support.css';
-
-export function getStaticPaths() {
-  return supportedLocales.map((locale) => ({ params: { locale } }));
-}
-
-const locale = Astro.params.locale ?? defaultLocale;
-const homeContent = getLocalizedSite(await getCollection('site'), locale, defaultLocale);
-const copy = getSupportCopy(locale);
-const data = getSupportData();
-const reports = [...data.annualReports].sort((a, b) => b.year - a.year);
-const sponsors = data.sponsors.filter((sponsor) => sponsor.public);
-const currentPath = '/support/';
-const metadata = { title: `${copy.title} - Kamitsubaki Studio Fan Wiki`, description: copy.intro, canonicalPath: `/${locale}${currentPath}` };
-const amount = (value: number | null, currency = data.currency) => formatSupportAmount(value, currency, locale, copy.pending);
-const apiBase = import.meta.env.PUBLIC_SUPPORT_API_BASE || import.meta.env.PUBLIC_AI_OBSERVER_API_BASE || 'https://api.kamitsubaki.wiki';
+export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
+const locale=Astro.params.locale??defaultLocale,homeContent=getLocalizedSite(await getCollection('site'),locale,defaultLocale),copy=getSupportCopy(locale),c=supportExperienceCopy(locale);
+const data=getSupportData(),view=renderSupportData({...data,sponsors:data.sponsors.filter(item=>item.public),annualReports:data.annualReports.map(report=>({...report,entries:report.entries||[]}))},copy,locale);
+const currentPath='/support/',metadata={title:`${copy.title} - Kamitsubaki Studio Fan Wiki`,description:copy.intro,canonicalPath:`/${locale}${currentPath}`};
+const apiBase=import.meta.env.PUBLIC_SUPPORT_API_BASE||import.meta.env.PUBLIC_AI_OBSERVER_API_BASE||'https://api.kamitsubaki.wiki';
 ---
-
-<BaseLayout lang={locale} metadata={metadata} alternates={supportedLocales.map((code) => ({ locale: code, href: `/${code}${currentPath}` }))}>
-  <SiteNav navItems={homeContent.navItems} localeLinks={buildLocaleLinks(homeContent, locale, currentPath)} brandLines={homeContent.hero.brandLines} homeHref={`/${locale}/`} />
-
-  <WorkspaceShell width="standard" class="support-shell" data-support-page data-api-base={apiBase} data-locale={locale}>
-    <script is:inline type="application/json" data-support-copy set:html={JSON.stringify(copy).replace(/</g, '\\u003c')} />
-    <WorkspaceHeader title={copy.title} intro={copy.intro} eyebrow="SUPPORT" backHref={`/${locale}/`} backLabel={copy.home}>
-
-      <a href={`/${locale}/contribute/`}>{copy.contribute}<span aria-hidden="true"><Icon name="arrow-up-right" /></span></a>
-    </WorkspaceHeader>
-
-    <WorkspaceNavigation label={copy.pageNav} kind="support">
-      {[
-        { id: 'ways-to-support', label: copy.navChannels },
-        { id: 'running-costs', label: copy.navCosts },
-        { id: 'transparency', label: copy.navReports },
-        { id: 'sponsor-wall', label: copy.navWall },
-      ].map(item => <a id={`support-tab-${item.id}`} href={`#${item.id}`} data-support-tab={item.id}>{item.label}</a>)}
-    </WorkspaceNavigation>
-    <div class="support-live-status"><p class="support-note" data-support-status role="status"></p><WorkspaceButton type="button" class="support-text-link" data-support-retry hidden>{copy.retry}<span aria-hidden="true">↻</span></WorkspaceButton></div>
-
-    <div class="support-panels">
-    <section class="support-section support-ways" id="ways-to-support" data-support-panel aria-labelledby="support-ways-title">
-      <div class="support-heading">
-        <p class="support-eyebrow">01 / SUPPORT CHANNELS</p>
-        <h2 id="support-ways-title">{copy.channelsTitle}</h2>
-        <p>{copy.channelsIntro}</p>
-      </div>
-      <div class="support-channels" data-support-channels>
-        {data.channels.map((channel, index) => <SupportChannelCard channel={channel} locale={locale} index={index} />)}
-      </div>
-      <aside class="support-community">
-        <span class="support-community__mark" aria-hidden="true"><Icon name="plus" /></span>
-        <div><h3>{copy.communityTitle}</h3><p>{copy.communityBody}</p></div>
-        <a class="support-text-link" href={`/${locale}/contribute/`}>{copy.contribute}<span aria-hidden="true"><Icon name="arrow-up-right" /></span></a>
-      </aside>
-      <p class="support-free-note">{copy.freeNote}</p>
-    </section>
-
-    <section class="support-section support-costs" id="running-costs" data-support-panel aria-labelledby="support-costs-title">
-      <div class="support-heading">
-        <p class="support-eyebrow">02 / PROJECT UPKEEP</p>
-        <h2 id="support-costs-title">{copy.costsTitle}</h2>
-        <p>{copy.costsIntro}</p>
-      </div>
-      <div data-support-costs>
-        <dl class="support-cost-list">
-          {data.costs.map((cost) => (
-            <div>
-              <dt>{resolveLocaleCopy(cost.name, locale)}</dt>
-              <dd class="support-cost-description">{resolveLocaleCopy(cost.description, locale)}</dd>
-              <dd class="support-cost-amount"><span>{copy.estimate}</span><strong>{amount(cost.annualEstimate)}</strong></dd>
-            </div>
-          ))}
-        </dl>
-        {data.costs.some((cost) => cost.annualEstimate === null) && <p class="support-note support-cost-note">{copy.costsPending}</p>}
-      </div>
-    </section>
-
-    <section class="support-section support-transparency" id="transparency" data-support-panel aria-labelledby="support-transparency-title">
-      <div class="support-heading">
-        <p class="support-eyebrow">03 / TRANSPARENCY</p>
-        <h2 id="support-transparency-title">{copy.reportsTitle}</h2>
-        <p>{copy.reportsIntro}</p>
-      </div>
-      <div class="support-records">
-      <div class="support-reports" data-support-reports>
-        {reports.map((report, index) => {
-          const pending = report.received === null && report.spent === null;
-          const reportHref = supportExternalUrl(report.reportUrl);
-          return (
-            <details class="support-report" open={index === 0}>
-              <summary>
-                <span class="support-report__year">{report.year}</span>
-                <span>{copy.reportLabel}</span>
-                <span class="support-report__status">{pending ? copy.reportPending : copy.reportRecorded}</span>
-                <span class="support-report__toggle" aria-hidden="true"></span>
-              </summary>
-              <div class="support-report__body">
-                <dl class="support-totals">
-                  {[{ label: copy.received, value: report.received }, { label: copy.spent, value: report.spent }, { label: copy.balance, value: supportAnnualBalance(report.received, report.spent) }].map((item) => (
-                    <div><dt>{item.label}</dt><dd class:list={{ 'is-pending': item.value === null }}>{amount(item.value, report.currency)}</dd></div>
-                  ))}
-                </dl>
-                {pending && <p class="support-note">{copy.reportEmpty}</p>}
-                {report.note && <p class="support-report__note">{resolveLocaleCopy(report.note, locale)}</p>}
-                <div class="support-report__meta">
-                  {report.asOf && <p class="support-note">{copy.asOf} <time datetime={report.asOf}>{report.asOf}</time></p>}
-                  {reportHref && <a class="support-text-link" href={reportHref} target="_blank" rel="noopener noreferrer" aria-label={`${report.year} · ${copy.reportLink} (${copy.external})`}>{copy.reportLink}<span aria-hidden="true"><Icon name="arrow-up-right" /></span></a>}
-                </div>
-              </div>
-            </details>
-          );
-        })}
-        {!reports.length && <p class="support-empty">{copy.noReports}</p>}
-      </div>
-      <p class="support-note support-accounting">{copy.accountingNote}</p>
-      </div>
-    </section>
-
-    <section class="support-section support-thanks" id="sponsor-wall" data-support-panel aria-labelledby="support-wall-title">
-      <div class="support-heading">
-        <p class="support-eyebrow">04 / SPONSOR WALL</p>
-        <h2 id="support-wall-title">{copy.wallTitle}</h2>
-        <p>{copy.wallIntro}</p>
-      </div>
-      <div data-support-wall>{sponsors.length ? (
-        <ul class="support-wall" role="list">
-          {sponsors.map((sponsor) => {
-            const href = supportExternalUrl(sponsor.url);
-            return <li data-pinned={String(sponsor.pinned === true)}>{href ? <a href={href} target="_blank" rel="noopener noreferrer" aria-label={`${sponsor.name} (${copy.external})`}>{sponsor.name}<span aria-hidden="true"><Icon name="arrow-up-right" /></span></a> : <span>{sponsor.name}</span>}</li>;
-          })}
-        </ul>
-      ) : (
-        <div class="support-empty"><span class="support-empty__mark" aria-hidden="true"><Icon name="plus" /></span><h3>{copy.wallEmpty}</h3><p>{copy.wallEmptyBody}</p></div>
-      )}</div>
-      <p class="support-note support-wall-note">{copy.wallPrivacy}</p>
-    </section>
-
-    </div>
-
-    <aside class="support-disclaimer" aria-labelledby="support-disclaimer-title">
-      <h2 id="support-disclaimer-title">{copy.disclaimerTitle}</h2>
-      <div>
-      {copy.disclaimer.map((paragraph) => <p>{paragraph}</p>)}
-      </div>
-    </aside>
-  </WorkspaceShell>
-  <SiteFooter footer={homeContent.footer} />
-  <script>
-    import '../../scripts/supportNavigation.js';
-    import '../../scripts/supportPage.js';
-  </script>
+<BaseLayout lang={locale} metadata={metadata} alternates={supportedLocales.map(code=>({locale:code,href:`/${code}${currentPath}`}))}>
+ <SiteNav navItems={homeContent.navItems} localeLinks={buildLocaleLinks(homeContent,locale,currentPath)} brandLines={homeContent.hero.brandLines} homeHref={`/${locale}/`}/>
+ <WorkspaceShell width="wide" class="support-shell" data-support-page data-api-base={apiBase} data-locale={locale}>
+  <script is:inline type="application/json" data-support-copy set:html={JSON.stringify(copy).replace(/</g,'\u003c')}/>
+  <WorkspaceHeader title={copy.heroTitle} intro={copy.intro} eyebrow="SUPPORT THE OBSERVATORY" backHref={`/${locale}/`} backLabel={copy.home}/>
+  <div class="support-invitation"><div><p>{c.quickNote}</p><span>{c.costNote}</span></div><div class="support-invitation__actions"><WorkspaceButton tone="primary" href={supportCatalog.planUrl} target="_blank" rel="noopener noreferrer">{c.choose}<Icon name="arrow-up-right"/></WorkspaceButton><WorkspaceButton data-support-open data-support-preferred-channel="wechat">{c.scan}<Icon name="heart"/></WorkspaceButton></div></div>
+  <WorkspaceNavigation label={copy.pageNav} kind="support">{[{id:'ways-to-support',label:copy.navChannels},{id:'running-costs',label:copy.navCosts},{id:'transparency',label:copy.navReports},{id:'sponsor-wall',label:copy.navWall}].map(item=><a id={`support-tab-${item.id}`} href={`#${item.id}`} data-support-tab={item.id}>{item.label}</a>)}</WorkspaceNavigation>
+  <div class="support-live-status"><p class="support-note" data-support-status role="status"></p><WorkspaceButton data-support-retry hidden>{copy.retry}<Icon name="history"/></WorkspaceButton></div>
+  <div class="support-panels">
+   <section class="support-section support-ways" id="ways-to-support" data-support-panel aria-label={copy.channelsTitle}>
+    <SupportPlans locale={locale}/>
+    <div class="support-heading support-other-heading"><p class="support-eyebrow">DIRECT SUPPORT</p><h2>{copy.channelsTitle}</h2><p>{copy.channelsIntro}</p></div>
+    <div class="support-channels" data-support-channels set:html={view.channels}/>
+    <p class="support-free-note">{copy.freeNote}</p>
+   </section>
+   <section class="support-section support-costs" id="running-costs" data-support-panel aria-labelledby="support-costs-title"><div class="support-heading"><p class="support-eyebrow">PROJECT UPKEEP</p><h2 id="support-costs-title">{copy.costsTitle}</h2><p>{copy.costsIntro}</p></div><div data-support-costs set:html={view.costs}/></section>
+   <section class="support-section support-transparency" id="transparency" data-support-panel aria-labelledby="support-transparency-title"><div class="support-heading"><p class="support-eyebrow">TRANSPARENCY</p><h2 id="support-transparency-title">{copy.reportsTitle}</h2><p>{copy.reportsIntro}</p></div><div class="support-records"><div class="support-reports" data-support-reports set:html={view.reports}/><p class="support-note support-accounting">{copy.accountingNote}</p></div></section>
+   <section class="support-section support-thanks" id="sponsor-wall" data-support-panel aria-labelledby="support-wall-title"><div class="support-heading"><p class="support-eyebrow">OUR OBSERVERS</p><h2 id="support-wall-title">{copy.wallTitle}</h2><p>{copy.wallIntro}</p></div><div data-support-wall set:html={view.wall}/><p class="support-wall-help">{c.wallHelp}</p><p class="support-note">{copy.wallPrivacy}</p></section>
+  </div>
+  <aside class="support-disclaimer" aria-labelledby="support-disclaimer-title"><h2 id="support-disclaimer-title">{copy.disclaimerTitle}</h2><div>{copy.disclaimer.map(paragraph=><p>{paragraph}</p>)}</div></aside>
+ </WorkspaceShell>
+ <SiteFooter footer={homeContent.footer}/>
+ <script>import '../../scripts/supportNavigation.js';import '../../scripts/supportPage.js';</script>
 </BaseLayout>

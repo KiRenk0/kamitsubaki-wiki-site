@@ -34,6 +34,7 @@ export interface SupportAnnualReport {
 }
 
 export interface Sponsor {
+  tier?: string;
   pinned?: boolean;
   id: string;
   name: string;
@@ -62,6 +63,7 @@ export const supportData: SupportData = {
         en: 'Help maintain the wiki and keep our shared archive growing through Afdian.',
       },
       url: 'https://afdian.com/a/LinkTh1rsty',
+      qrImageUrl: 'https://kamitsubaki.wiki/support-qr/afdian.svg',
     },
     {
       id: 'github-sponsors',

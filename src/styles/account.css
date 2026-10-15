@@ -457,3 +457,7 @@ html body main.account-shell .account-workspace{
   .account-shell .account-home-header{padding-top:0}
   .account-shell .account-home-header .account-note{font-size:13px}
 }
+
+html body [data-account-workspace][hidden]{display:none!important;}
+
+html body [data-account-page] [hidden]{display:none!important;}

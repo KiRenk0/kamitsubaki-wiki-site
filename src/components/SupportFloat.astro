@@ -2,22 +2,15 @@
 import WorkspaceButton from './WorkspaceButton.astro';
 import Icon from './Icon.astro';
 import { resolveLocaleCopy } from '../lib/i18n.mjs';
-const { locale = 'en', docked = false } = Astro.props;
+const { locale = 'en' } = Astro.props;
 const giveCopy=resolveLocaleCopy({zh:{label:'发电',action:'为观测站发电'},ja:{label:'支援',action:'観測所を支援する'},en:{label:'Support',action:'Support the observatory'}},locale);
 ---
 
-<aside class:list={['support-float', {'support-float--docked':docked}]} data-support-float data-docked={docked||undefined}>
- <WorkspaceButton tone="primary" class="support-float__toggle" type="button" data-support-open aria-label={giveCopy.action} title={giveCopy.action} aria-haspopup="dialog" aria-controls="wiki-support-dialog"><Icon name="heart"/>{!docked&&<span class="support-float__label">{giveCopy.label}</span>}</WorkspaceButton>
+<aside class="support-float" data-support-float>
+ <WorkspaceButton tone="primary" class="support-float__toggle" type="button" data-support-open aria-label={giveCopy.action} title={giveCopy.action} aria-haspopup="dialog" aria-controls="wiki-support-dialog"><Icon name="heart"/><span class="support-float__label">{giveCopy.label}</span></WorkspaceButton>
 </aside>
 
-<style>
-  .support-float { position:fixed; right:calc(var(--floating-action-edge) + 2 * (var(--floating-action-size) + 10px)); bottom:max(var(--floating-action-edge), env(safe-area-inset-bottom)); z-index:42; width:var(--floating-action-size); height:var(--floating-action-size); color:var(--theme-fg); }
-  .support-float__toggle {--workspace-control-color:var(--theme-accent-color);--workspace-control-background:var(--theme-panel-solid);--workspace-control-shadow:0 4px 16px rgb(0 0 0 / .1); position:absolute; right:0; bottom:0; display:grid; place-items:center; width:var(--floating-action-size); height:var(--floating-action-size); cursor:pointer; border:1px solid rgb(var(--theme-accent-rgb) / .45); border-radius:var(--ui-radius-control); }
-  .support-float__toggle svg { width:21px; height:21px; transition:transform 320ms,opacity 180ms; }
-  .support-float :is(a,button):focus-visible { outline:2px solid var(--theme-accent-color); outline-offset:-3px; }
-  :global(body:has(.ve-workbench)) .support-float { display:none; }
-  @media(prefers-reduced-motion:reduce) { .support-float, .support-float * { transition:none !important; } }
-</style>
+
 
 <script>
   import '../scripts/supportFloat.js';

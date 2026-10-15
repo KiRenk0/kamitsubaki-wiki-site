@@ -1215,9 +1215,12 @@ html.site-search-open body {
 .site-search__panel {
   position: relative;
   display: grid;
-  grid-template-rows: auto auto auto auto minmax(0, 1fr) auto;
+  grid-template-rows: auto auto auto auto minmax(0, 1fr) auto auto auto;
   width: min(50rem, 100%);
+  height: min(680px, calc(100dvh - clamp(3rem, 11dvh, 7rem)));
   max-height: calc(100dvh - clamp(3rem, 11dvh, 7rem));
+  min-width: 0;
+  border-radius: var(--ui-radius-panel);
   border: 1px solid rgb(var(--theme-fg-rgb) / 0.16);
   background:
     linear-gradient(rgb(var(--theme-fg-rgb) / 0.025) 1px, transparent 1px),
@@ -1381,7 +1384,8 @@ html.site-search-open body {
 }
 
 .site-search__results {
-  min-height: 8rem;
+  min-height: 0;
+  scrollbar-gutter: stable;
   overflow-y: auto;
   overscroll-behavior: contain;
   scrollbar-color: rgb(var(--theme-fg-rgb) / 0.18) transparent;
@@ -6901,3 +6905,14 @@ html { scrollbar-gutter: stable; }
 
 /* Open panels cover the fixed navigation; native dialogs remain in the top layer. */
 .ai-chat.is-open{z-index:10030}
+
+/* Search owns its layout while the shared kit owns states and semantics. */
+html body .site-search__panel{background:var(--theme-panel-solid);background-image:none;}
+html body .site-search__panel::before,html body .site-search__panel::after{display:none;}
+html body .site-search__filters .workspace-button.dui-btn{--workspace-control-padding:6px 12px;--workspace-control-height:38px;--workspace-control-font:500 12px/1.5 var(--font-sans);--workspace-control-background:transparent;--workspace-control-shadow:none;--workspace-control-color:var(--ui-color-muted);min-height:38px;}
+html body .site-search__filters .workspace-button.dui-btn.is-active{--workspace-control-background:rgb(var(--theme-accent-rgb)/.1);--workspace-control-color:var(--theme-accent-color);border-color:rgb(var(--theme-accent-rgb)/.35);}
+html body .site-search__close.workspace-button.dui-btn{--workspace-control-padding:0;width:44px;height:44px;min-width:44px;display:grid;place-items:center;}
+html body .site-search__input.workspace-control{border:0;box-shadow:none;--workspace-control-height:56px;background:transparent;border-radius:0;font-size:16px;}
+html body .site-search__status{min-height:52px;line-height:1.7;letter-spacing:0;font-family:var(--font-sans);}
+html body .site-search__more{margin:0;border-radius:0;}
+html body .site-search__footer{min-height:40px;}

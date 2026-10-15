@@ -1,0 +1,18 @@
+---
+import WorkspaceButton from './WorkspaceButton.astro';
+import Icon from './Icon.astro';
+import {supportCatalog} from '../lib/supportCatalog.mjs';
+import {supportExperienceCopy} from '../lib/supportExperienceCopy.mjs';
+const {locale='zh'}=Astro.props,c=supportExperienceCopy(locale),tiers=supportCatalog.tiers;
+const plans=[{tier:tiers[0],benefits:c.base},{tier:tiers[1],groups:tiers.filter(t=>t.monthlyAmount===10),benefits:c.group},{tier:tiers.find(t=>t.id==='joint')!,benefits:c.joint},{tier:tiers.find(t=>t.id==='long-term')!,benefits:c.long}];
+---
+<div class="support-plans-heading"><p class="support-eyebrow">{c.catalog}</p><h2>{c.plansTitle}</h2><p>{c.plansIntro}</p></div>
+<div class="support-plans">{plans.map((plan,index)=><article class="support-plan">
+ <p class="support-eyebrow">0{index+1} / {['OBSERVE','CONNECT','BUILD','SUSTAIN'][index]}</p>
+ <h3>{plan.groups?(locale==='en'?'Observer groups':locale==='ja'?'観測者グループ':'观测者组别'):plan.tier.name}</h3><p class="support-plan__price"><strong>¥{plan.tier.monthlyAmount}</strong><span>{c.month}</span></p>
+ {plan.groups&&<ul class="support-plan__groups" aria-label={locale==='en'?'Observer groups':locale==='ja'?'観測者グループ':'观测者组别'}>{plan.groups.map(group=><li>{group.name}</li>)}</ul>}
+ <ul class="support-plan__benefits">{plan.benefits.map((benefit:string)=><li><Icon name="check"/>{benefit}</li>)}</ul>
+ <WorkspaceButton href={supportCatalog.planUrl} target="_blank" rel="noopener noreferrer" tone={index===0?'primary':'secondary'}>{c.choose}<Icon name="arrow-up-right"/></WorkspaceButton>
+</article>)}</div>
+<p class="support-plans-custom"><a href={supportCatalog.planUrl} target="_blank" rel="noopener noreferrer">{c.custom}<Icon name="arrow-up-right"/></a></p>
+<p class="support-note">{c.terms}</p>
