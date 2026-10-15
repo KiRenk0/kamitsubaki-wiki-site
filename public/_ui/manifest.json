@@ -1,6 +1,6 @@
 {
   "schema": "wiki-site-components-v1",
-  "version": "71b4fcaa13aa67fa",
+  "version": "d58d115488d38ebb",
   "builder": "kamitsubaki-wiki-site-backend/auth-ui/vite.site.config.ts",
   "artifacts": {
     "chat-CLLUwC7P.js": "4ea4e500485322098b34d49eaa61db60e7a4b68d1619c0b020feb38c91a37335",
@@ -13,11 +13,11 @@
   },
   "inputs": {
     "src/AccountBoundary.tsx": "93ef5c9c8178027bf79161aab7abff1cfd210fd6a82c1cc505c2a05e7d552599",
-    "src/App.tsx": "564dd14a49bb50b0ed34e789450d74dcd844f38e3deef561a30c2f5cc0b44496",
+    "src/App.tsx": "f335d7c54f75059e6e0adf4e12bf62faf01485db1111848643de135fc16c45c1",
     "src/MergeAccount.tsx": "6bf078566d2ea100de40eb5e18a3fd09c678d8e261e945687b016358a9a9e55f",
     "src/accountQuery.ts": "4b6f26a0181afb26bda1304afba33f50f875ec2cd4f896f84dccf27586e7209c",
-    "src/adminEntry.d.mts": "f1f74c79734b12a1440e4232bac8d3c78b7a6e1dd7c50b20bd98bad7ce24ed4c",
-    "src/adminEntry.mjs": "8411259f5ef7c7eb65c565b9c5dabfa4d385c9ff2b7aaca1ee62d95ad04e19bf",
+    "src/adminEntry.d.mts": "d259832238ee51b8bdddb994c59fe9daad3c85a7170e3ae3adb741cad6919f67",
+    "src/adminEntry.mjs": "8602f307aec7b3b57de9b8b6d9ecd92cd7b3f71b590e8596dd3c88d723a67577",
     "src/api.ts": "5606a06e702494021f6f5fbc9aa0a6a16fc3e047c7b728ce1f9936f5d8ca65dd",
     "src/components/auth/additional-field.tsx": "4e6c343d217a89766dd8cd8884d6a66514e77a778204f367302b5a6d3a25c1af",
     "src/components/auth/auth-form.tsx": "4d63a56ba99f06103d7534491163165f3df104a9596b12681bcd3c160368964a",

@@ -21,12 +21,13 @@ const api=import.meta.env.PUBLIC_SUPPORT_API_BASE||'https://api.kamitsubaki.wiki
  </header><div class="support-dialog__body"><p class="support-dialog__eyebrow">{experience.quickNote}</p>
  <div class="support-dialog__tabs" role="tablist" aria-label={copy.choose}>{['afdian','wechat','alipay'].map((id,index)=><WorkspaceButton id={'support-tab-'+id} role="tab" type="button" data-support-channel={id} aria-selected={index===0?'true':'false'} tabindex={index===0?0:-1} aria-controls="support-channel-panel">{copy[id as keyof typeof copy]}</WorkspaceButton>)}</div>
  <section class="support-dialog__channel" id="support-channel-panel" role="tabpanel" aria-labelledby="support-tab-afdian" tabindex="0">
+  <a data-support-afdian-button class="support-dialog__afdian" hidden target="_blank" rel="noopener noreferrer" aria-label={copy.go}><img data-support-afdian-image src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" width="200" alt={copy.go}/><span data-support-afdian-fallback hidden>{copy.go}<Icon name="arrow-up-right"/></span></a>
   <a data-support-original class="support-qr-frame" hidden target="_blank" rel="noopener noreferrer" aria-label={copy.original}><span class="support-qr-window" data-support-qr-window><img data-support-qr hidden alt=""/></span></a>
   <div class="support-dialog__channel-info">
    <h3 data-support-channel-name></h3>
    <p data-support-channel-description></p><p data-support-recipient hidden></p>
    <p data-support-scan hidden></p>
-   <WorkspaceButton data-support-external tone="primary" href="#" target="_blank" rel="noopener noreferrer">{copy.go}<Icon name="arrow-up-right"/></WorkspaceButton>
+   <WorkspaceButton data-support-external tone="primary" href="#" target="_blank" rel="noopener noreferrer"><span data-support-external-label>{copy.go}</span><Icon name="arrow-up-right"/></WorkspaceButton>
    <a data-support-save class="support-dialog__save" hidden download target="_blank" rel="noopener noreferrer"><Icon name="download"/>{copy.save}</a>
    <p data-support-unavailable hidden>{copy.unavailable}</p>
   </div>

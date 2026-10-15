@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { renderSupportData, validSupportPayload, supportLink } from '../src/lib/supportView.mjs';
+import { renderSupportData, validSupportPayload, supportLink, supporterAvatar } from '../src/lib/supportView.mjs';
 
 const t=zh=>({zh,en:zh});
 const copy=new Proxy({}, {get:(_,key)=>key});
@@ -20,4 +20,24 @@ test('support view rejects incomplete API data and escapes all stored labels and
   input.data.channels[0].name=t('</h3><script>alert(1)</script>');
   const view=renderSupportData(input.data,copy,'en');assert.doesNotMatch(view.wall,/<img|javascript:/);assert.doesNotMatch(view.channels,/<script>/);
   assert.match(view.wall,/&lt;img/);assert.equal(supportLink('https://user:pass@example.com'),'');
+});
+
+
+test('unified supporters expose only display fields and constrain avatars to public assets',()=>{
+ const data=payload().data;data.sponsors=[{name:'Display',public:true,email:'private@example.com',orderNo:'12345678901234567890',amountMinor:99999,avatarUrl:'/api/supporters/avatars/00000000-0000-4000-8000-000000000001'}];
+ const view=renderSupportData(data,copy,'en','http://127.0.0.1:8788');assert.match(view.wall,/127.0.0.1:8788/);assert.doesNotMatch(view.wall,/private@example|12345678901234567890|99999/);
+ for(const raw of ['javascript:alert(1)','https://unknown.example/a.png','https://pic1.afdiancdn.com:8443/a.png','https://api.kamitsubaki.wiki/api/private/avatar'])assert.equal(supporterAvatar(raw),'');
+ assert.equal(supporterAvatar('https://pic1.afdiancdn.com/avatar/a.png'),'https://pic1.afdiancdn.com/avatar/a.png');
+ data.channels[0].id='afdian';assert.equal(renderSupportData(data,copy,'en',undefined,true).channels,'');
+});
+
+test('supporter cards retain tier labels alongside reviewed avatars, and embedding never duplicates the Afdian channel',()=>{
+ const data=payload().data;
+ data.sponsors=[{name:'Observer',public:true,tier:'kaf',avatarUrl:'https://pic1.afdiancdn.com/avatar/a.png'}];
+ data.channels[0].id='afdian';data.channels[0].qrImageUrl='https://example.com/code.png';
+ const view=renderSupportData(data,copy,'zh',undefined,true);
+ assert.equal(view.channels,'');assert.match(view.wall,/supporter-avatar/);assert.match(view.wall,/观测者花组/);
+ data.sponsors[0].avatarUrl='https://untrusted.example/avatar.png';
+ const fallback=renderSupportData(data,copy,'zh').wall;
+ assert.doesNotMatch(fallback,/untrusted\.example/);assert.match(fallback,/support-wall__avatar/);assert.match(fallback,/观测者花组/);
 });
