@@ -1,3 +1,4 @@
+import {adminURL} from '../lib/adminOrigin.mjs';
 import {setIconLabel} from '../lib/icons.mjs';
 import {uploadGalleryFiles} from '../lib/galleryUploadQueue.mjs';
 import {formatBytes,uploadLimits} from '../lib/uploadPresentation.mjs';
@@ -27,12 +28,12 @@ if(root){
   const intro=document.querySelector('.gallery-manage-shell .workspace-heading p:last-child');
   if(intro)intro.textContent=page?.dataset.adminIntro||intro.textContent;
   const back=document.querySelector('.gallery-manage-shell .workspace-back');
-  if(back){back.href=api+'/admin/content?type=gallery';back.querySelector('span:last-child').textContent=c.manage;}
+  if(back){back.href=adminURL('/content',{type:'gallery'});back.querySelector('span:last-child').textContent=c.manage;}
  }
  const flowText={submitted:c.submitted};
  const returnTo=new URLSearchParams(location.search).get('returnTo');
  const batchUrl=id=>{const url=new URL(location.pathname,location.origin);url.searchParams.set('batch',id);if(returnTo)url.searchParams.set('returnTo',returnTo);if(admin)url.searchParams.set('admin','1');return url.pathname+url.search;};
- const receipt=id=>{showContributionReceipt(root,{id,state:admin?c.published:flowText.submitted,href:admin?api+'/admin/content?type=gallery':`/${locale}/account/creator/?recordType=gallery&record=${encodeURIComponent(id)}`,...(admin?{title:c.publishedTitle,recordLabel:c.batchId,linkLabel:c.manage}:{})});root.dataset.complete='';};
+ const receipt=id=>{showContributionReceipt(root,{id,state:admin?c.published:flowText.submitted,href:admin?adminURL('/content',{type:'gallery'}):`/${locale}/account/creator/?recordType=gallery&record=${encodeURIComponent(id)}`,...(admin?{title:c.publishedTitle,recordLabel:c.batchId,linkLabel:c.manage}:{})});root.dataset.complete='';};
  if(returnTo){try{const target=new URL(returnTo,location.origin);if(target.origin===location.origin&&/^\/(zh|zh-tw|zh-hk|ja|en)\/account\/creator\/$/.test(target.pathname)){const back=document.querySelector('.gallery-manage-shell .workspace-back');if(back){back.href=target.pathname+target.search;setIconLabel(back,'← '+c.creator);}}}catch{}}
  const template=$('[data-set]').cloneNode(true);
  const metadata=set=>Object.fromEntries([...set.querySelectorAll('[name]')].map(input=>[input.name,input.name==='tags'?input.value.split(/[,，]/).map(x=>x.trim()).filter(Boolean):input.value]));

@@ -20,7 +20,7 @@ const config={locale,contentLocale:getEditableLocale(locale),apiBase:localEditor
   config.initialTarget=new URLSearchParams(location.search).get('target')||undefined;
   config.admin=config.mode==='article'&&new URLSearchParams(location.search).get('admin')==='1';
   config.loginHref+='&returnTo='+encodeURIComponent(location.href);
-  if(config.admin){document.querySelector('[data-editor-back]').href=config.apiBase+'/admin/content?type=article';document.querySelector('[data-editor-back]').textContent=config.locale==='en'?'Content management':config.locale==='ja'?'コンテンツ管理':'内容管理';}
+  if(config.admin){document.querySelector('[data-editor-back]').href=adminURL('/content',{type:'articles'});document.querySelector('[data-editor-back]').textContent=config.locale==='en'?'Content management':config.locale==='ja'?'コンテンツ管理':'内容管理';}
   window.__WIKI_EDITOR_HOST__=config;
   document.querySelector('[data-editor-login]').href=config.loginHref;
  </script>
