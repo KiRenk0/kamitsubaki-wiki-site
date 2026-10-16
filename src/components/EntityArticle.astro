@@ -3,6 +3,7 @@ import DatabaseArticleLinks from './DatabaseArticleLinks.astro';
 import ReaderRecordList from './ReaderRecordList.astro';
 import ReaderDisclosure from './ReaderDisclosure.astro';
 import ReaderSources from './ReaderSources.astro';
+import EntityArchiveActions from './EntityArchiveActions.astro';
 import {getCollection} from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import SiteNav from './SiteNav.astro';
@@ -24,6 +25,7 @@ import GalleryEntityPreview from './GalleryEntityPreview.astro';
 import LiveRecordDetails from './LiveRecordDetails.astro';
 import SongLiveHistory from './SongLiveHistory.astro';
 import {songLiveHistory} from '../lib/liveArchive.mjs';
+import {storyRoutes} from '../data/storyRoutes.mjs';
 import galleryEntities from '../data/gallery-entities.json';
 import WikiArticleHeader from './WikiArticleHeader.astro';
 import EntitySectionNav from './EntitySectionNav.astro';
@@ -73,6 +75,7 @@ const sections=buildEntityReaderNavigation({kind:d.entityType==='live-event'?'li
   <div class="reader-frame reader-heading-frame mx-auto px-4 sm:px-6">
   <WikiArticleHeader data={{name:title,romanizedName:d.romanizedName||d.romanizedTitle||'',profileTagline:d.summary}} localeLinks={localeLinks} labels={{home:locale==='en'?'Home':locale==='ja'?'ホーム':'首页',section:isArticle?copy.articles:copy.database,source:isArticle?(locale==='en'?'Suggest an edit':locale==='ja'?'修正を提案':'提交修改'):copy.edit,languages:locale==='en'?'Languages':locale==='ja'?'言語':'语言'}} sourceHref={entryEditHref} sharePath={entry.url} homeHref={`/${locale}/`}><a slot="section" href={`/${locale}/${isArticle?'articles':'database'}/`}>{isArticle?copy.articles:copy.database}</a></WikiArticleHeader>
   {sections.length>0&&<EntitySectionNav items={sections} locale={locale}/>}
+  <EntityArchiveActions entity={d} locale={locale} registry={registry} timeline={footprints} hasGallery={hasGallery}/>
   {d.contentStatus==='stub'&&<div class="archive-notice archive-notice--stub"><span>{locale==='en'?'Reserved entry · Content to be completed':locale==='ja'?'準備中の記事 · 内容は後日追加予定':'待补全条目 · 按分类详细图预留'}</span><ContextAction href={entryEditHref} tone="quiet">{locale==='en'?'Help complete this entry':locale==='ja'?'この項目を補完する':'帮助完善此词条'}</ContextAction></div>}
   {entry.fallback&&<p class="source-note" lang={entry.sourceLocale}>{copy.fallback}</p>}
   {morphs.length>1&&<MorphingSwitcher entries={morphs} current={d.id} locale={locale}/>}
@@ -92,6 +95,7 @@ const sections=buildEntityReaderNavigation({kind:d.entityType==='live-event'?'li
   <div class="entity-related">{isArticle&&<p class="article-review-note">{locale==='en'?'Anyone can suggest an edit. Changes are published after review by the site owner.':locale==='ja'?'誰でも修正を提案できます。管理者の審査後に公開されます。':'人人可参与编辑。提交的修改经站长审核后发布。'}</p>}<h2 class="entity-related-kicker">{locale==='en'?'ABOUT THIS ENTRY':locale==='ja'?'この記事について':'关于本条目'}</h2>
   <ContextAction href={`/${locale}/graph/?entry=${encodeURIComponent(d.id)}&scope=neighborhood`} tone="quiet">{locale==='en'?'Explore this entry’s connections':locale==='ja'?'この記事の関連を探索':'探索此词条的关系网络'} ↗</ContextAction>
   <ContextAction href={`/${locale}/explore/discovery/?start=${encodeURIComponent(d.id)}`} tone="quiet">{locale==='en'?'Discover a route from this entry':locale==='ja'?'この記事から探索経路を作る':'从此词条生成探索路线'}</ContextAction>
+  {storyRoutes.filter(route=>route.anchor===d.id||route.chapters[0].select.ids?.includes(d.id)).map(route=><ContextAction href={`/${locale}/explore/stories/${route.id}/`} tone="quiet">{locale==='en'?'Follow a guided introduction':locale==='ja'?'入門ガイドを読む':'跟着入坑导览认识这个名字'} · {resolveLocaleCopy(route.title,locale)}</ContextAction>)}
   {hasGallery&&<GalleryEntityPreview entityId={d.id} locale={locale}/>}
   {d.entityType==='work-track'&&<SongLiveHistory registry={registry} songId={d.id} locale={locale}/>}
   {presentationKind==='artist'&&hasCreditWorks&&<ContextAction href={`/${locale}/explore/credits/?creator=${encodeURIComponent(`entity:${d.id}`)}`} tone="quiet">{locale==='en'?'Explore credited collaborations':locale==='ja'?'クレジットと共作を探す':'查阅署名与合作作品'} ↗</ContextAction>}

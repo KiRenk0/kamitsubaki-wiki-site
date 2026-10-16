@@ -1,10 +1,12 @@
 import { createGraphIndex, selectGraph, searchGraphNodes, graphConnections, isGraphEvent } from '../lib/graphModel.mjs';
 import { initializeRelationPath } from './relationPath.js';
 import { initializeGraphCanvas } from './graphCanvas.js';
+import { updateLocaleQueries } from '../lib/localeQuery.mjs';
+import {downloadArchiveFile} from '../lib/archiveExports.mjs';
 
 const element = (tag, text, cls) => { const node = document.createElement(tag); if (text !== undefined) node.textContent = text; if (cls) node.className = cls; return node; };
 const link = (text, href) => { const node = element('a', text); node.href = href; return node; };
-const button = (text, action) => { const node = element('button', text); node.type = 'button'; node.addEventListener('click', action); return node; };
+const button = (text, action) => { const node = element('button', text, 'workspace-button'); node.type = 'button'; node.addEventListener('click', action); return node; };
 const format = (text, values) => Object.entries(values).reduce((value, [key, replacement]) => value.replace('{' + key + '}', String(replacement)), text);
 
 export function initializeGraph(root, { catalog, copy: c, createRenderer = initializeGraphCanvas }) {
@@ -70,6 +72,7 @@ export function initializeGraph(root, { catalog, copy: c, createRenderer = initi
       }),
       button(c.close, () => select('', { focus: false })));
     target.append(actions);
+    if(!isGraphEvent(node)){const tools=element('div',undefined,'graph-actions'),locale=root.dataset.locale || node.path.split('/')[1] || 'zh';tools.append(link(c.source,'/'+locale+'/explore/evidence/?entity='+encodeURIComponent(node.id)),link(c.compare,'/'+locale+'/explore/compare/?left='+encodeURIComponent(node.id)),link(c.openData,'/'+locale+'/explore/open-data/'));target.append(tools);}
     const connections = graphConnections(base, node.id);
     target.append(element('h3', format(c.connected, { count: connections.length })));
     if (!connections.length) target.append(element('p', c.noRelations));
@@ -111,9 +114,7 @@ export function initializeGraph(root, { catalog, copy: c, createRenderer = initi
     if (nextKey !== layoutKey) { renderer?.setGraph(graph); layoutKey = nextKey; renderLegend(); }
     renderer?.select(state.entry); renderDirectory(); renderDetail();
     if (paths) pathController?.activate();
-    document.querySelectorAll('.site-nav__language-switcher a[hreflang]').forEach(anchor => {
-      const url = new URL(anchor.href); url.search = getURL().search; anchor.href = url.href;
-    });
+    updateLocaleQueries(root.ownerDocument, getURL().search);
   }
   function pathSelection(path, { focus = false } = {}) {
     route = path;
@@ -150,8 +151,13 @@ export function initializeGraph(root, { catalog, copy: c, createRenderer = initi
   $('[data-graph-zoom-in]').addEventListener('click', () => renderer?.zoom(1.4));
   $('[data-graph-zoom-out]').addEventListener('click', () => renderer?.zoom(1 / 1.4));
   $('[data-graph-fit]').addEventListener('click', () => renderer?.fit());
-  $('[data-graph-clear-path]').addEventListener('click', () => pathSelection(null));
+  $('[data-graph-clear-path]').addEventListener('click', () => {
+    pathSelection(null);
+    root.querySelectorAll('[data-path-highlight]').forEach(button => button.setAttribute('aria-pressed', 'false'));
+  });
   $('[data-graph-export]').addEventListener('click', () => renderer?.exportImage());
+  const dataExport=button(c.exportJson,()=>downloadArchiveFile(JSON.stringify({version:1,resource:'graph-selection',url:location.href,filters:state,nodes:graph.nodes,edges:graph.edges,missing:'Missing links mean not recorded, never a confirmed absence.'},null,2),'archive-graph.json'));
+  dataExport.dataset.graphDataExport='';$('[data-graph-export]').parentElement.append(dataExport);
   $('[data-graph-share]').addEventListener('click', async () => {
     try { await navigator.clipboard.writeText(window.location.href); $('[data-graph-share-status]').textContent = c.copied; }
     catch { $('[data-graph-share-status]').textContent = c.shareFallback; const field = $('[data-graph-share-url]'); field.hidden = false; field.value = window.location.href; field.focus(); field.select(); }

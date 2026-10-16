@@ -1,4 +1,5 @@
 import { resolveLocaleCopy } from './i18n.mjs';
+import {archiveCompletionCopy} from './archiveCompletionCopy.mjs';
 import { entityLabel } from './entityLabels.mjs';
 import { graphKinds } from './graphModel.mjs';
 import { relationPathCopy } from './relationPathCopy.mjs';
@@ -66,5 +67,5 @@ export function graphCopy(locale) {
       graphEntry: 'この記事の関連を探索', legend: 'ノードの色', relationNote: '矢印は元の方向、ノードの大きさは記録された隣接ノード数を示します。',
     },
   }, locale);
-  return { ...c, kinds: Object.fromEntries(graphKinds.map(kind => [kind, kind === 'events' ? relationPathCopy(locale).timeline : entityLabel(kind, locale)])), path: relationPathCopy(locale) };
+  return { ...archiveCompletionCopy(locale),...c, kinds: Object.fromEntries(graphKinds.map(kind => [kind, kind === 'events' ? relationPathCopy(locale).timeline : entityLabel(kind, locale)])), path: relationPathCopy(locale) };
 }

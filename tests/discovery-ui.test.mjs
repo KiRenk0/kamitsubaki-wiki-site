@@ -32,7 +32,8 @@ test('discovery applies combined metadata preferences, explains paths and restor
     w.document.querySelector('[data-discovery-next]').click();
     assert.equal(q.value, 'no-such-archive', 'Moving along the submitted route retains unsent preferences');
     submit(w); assert.equal(controller.plan.items.length, 0); assert.equal(w.document.querySelector('[data-discovery-empty]').hidden, false);
-    w.history.back(); await tick(); assert.equal(q.value, ''); assert.equal(controller.plan.items.length, 1);
+    const restored = new Promise(resolve => w.addEventListener('popstate', resolve, { once: true }));
+    w.history.back(); await restored; assert.equal(q.value, ''); assert.equal(controller.plan.items.length, 1);
     w.document.querySelector('button[type=reset]').click(); await tick(); assert.equal(w.location.search, ''); assert.ok(controller.plan.items.length > 1);
     const start = w.document.querySelector('[name=start]'); start.value = 'missing'; submit(w);
     assert.ok(start.validationMessage); assert.equal(w.location.search, '');
@@ -67,6 +68,21 @@ test('UTC day rollover updates today routes, dated shares remain fixed and clipb
     w.history.replaceState({}, '', '?artist=kaf&day=2026-10-13'); controller.refresh(); controller.dayUpdate();
     assert.equal(controller.state.day, '2026-10-13');
     w.document.querySelector('[data-discovery-today]').click(); assert.equal(controller.state.day, '2026-10-14'); assert.equal(controller.state.fixedDay, false);
+  } finally { controller.destroy(); dom.window.close(); }
+});
+
+test('reroll changes the applied route while preserving unsubmitted and invalid preference drafts', () => {
+  const { dom, w, controller } = setup('?artist=kaf');
+  try {
+    const query = w.document.querySelector('[name=q]'), start = w.document.querySelector('[name=start]');
+    query.value = 'unsubmitted keyword'; query.dispatchEvent(new w.Event('input', { bubbles: true }));
+    start.value = 'not-an-entity'; start.dispatchEvent(new w.Event('input', { bubbles: true }));
+    w.document.querySelector('[data-discovery-reroll]').click();
+    assert.equal(controller.state.variant, 1);
+    assert.equal(controller.state.query, ''); assert.equal(controller.state.start, '');
+    assert.equal(query.value, 'unsubmitted keyword'); assert.equal(start.value, 'not-an-entity');
+    assert.ok(controller.plan.route.length); assert.match(w.document.querySelector('[data-discovery-status]').textContent, /条件已修改/);
+    assert.equal(new URL(w.location.href).searchParams.get('q'), null);
   } finally { controller.destroy(); dom.window.close(); }
 });
 

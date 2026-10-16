@@ -7,6 +7,12 @@ title: Music, articles, and Explore
 summary: Learn how works, articles, the chronicle, gallery, and network differ.
 ---
 
+## Home and Database
+
+Search for a person, song, album or keyword directly from Home; “Search full text” opens site search. Home shows collection counts and six people to start with. Database keeps the full classification and advanced filters. Site updates link to published announcements; the archive's preface can be expanded when you want to read it, and its existing direct links still work.
+
+Database offers catalogue, name and year sorting. Undated records stay last in both year directions. Applied conditions can be removed individually. Language switching keeps the query and layout; browser Back and Forward restore collection, filter, sorting and layout changes. Clearing filters keeps sorting and layout.
+
 ## Music works
 
 The home page previews tracks and releases; the [music directory](/en/database/music/) contains the full catalog. Open cover artwork for a larger view. Tracks and releases are separate records connected by structured data; check the relevant record for dates, performers, and credits.
@@ -66,3 +72,20 @@ For a creator's participation, start with the entry and related records. For wha
 The chronicle's graphic view shows era spans; the list is better for checking individual dates and sources. Both share current filters. Do not invent dates merely to populate a timeline. The gallery displays **set → images** and can be narrowed by character. A submitted set may have only some images approved, so public image count may differ from batch count.
 
 The article list contains public writing in the current content language. Search, category, and pagination help locate it, and the URL retains filter state. For reference facts, return to an entry and its sources: an article's argument does not automatically alter encyclopedia properties.
+
+## Story Mode guided routes
+
+[Story Mode](/en/explore/stories/) offers seven introductions: KAF, V.W.P, Kamitsubaki City, KAF to Kaika, PIEDPIPER, Kanzaki Iori and reading a stage. Each has six chapters with questions, source-backed records and optional existing media. Suggested guide lengths exclude the full duration of songs, videos and original works.
+
+Moving between chapters does not mark them read. Use “Mark read and continue” to save completion in this device’s browser. Languages share progress; a shared link contains only the chapter position. Restart clears only the current route. After reading all chapters, continue with another route, Discovery or Graph.
+
+Players load only on request and close when you change chapters. Original links remain available. Story summaries can be expanded deliberately, and editorial reading order does not imply a shared plot chronology. All chapters remain readable without scripts or persistent storage.
+
+
+## Fan Archive tools
+
+The [Explore portal](/en/explore/) groups discovery, records, time and places, community, research and sources. [Music Universe](/en/explore/music/) connects versions, credits, media and recorded performances; [Atlas](/en/explore/atlas/) lets you arrange real-place routes; [Visual Evolution](/en/explore/visual/) uses recorded visual dates.
+
+[My Observatory](/en/explore/observatory/) offers voluntary listening, visit, ownership and reading records. Records start private and can be exported. Published passports still display only individually public records. [Collections](/en/explore/collections/) support drafts, follow and fork; exhibitions need independent review. [Challenges](/en/explore/challenges/) come from actual missing fields and translations. Account synchronization and shared actions require a connected service.
+
+[Ask](/en/explore/ask/) recognizes a limited query grammar: inspect conditions before execution. [Compare](/en/explore/compare/), [Evidence](/en/explore/evidence/) and [Languages](/en/explore/languages/) help check records. Statistics describe the current sample. [Radio](/en/explore/radio/) uses a separate playback window for continuous playback across pages. [Physical Archive](/en/explore/physical/) matches only recorded barcodes and asks you to confirm the edition. [This day](/en/explore/today/) matches only exact recorded dates.

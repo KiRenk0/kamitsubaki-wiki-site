@@ -6,7 +6,7 @@
 .knowledge-note{color:var(--workspace-muted);font:12px/1.9 var(--font-sans)}
 .knowledge-fields{margin:32px 0}.knowledge-fields header{margin-bottom:16px}.knowledge-fields h2{font:400 22px/1.5 var(--font-serif);margin:0 0 6px}.knowledge-fields p{color:var(--workspace-muted);font:12px/1.8 var(--font-sans)}
 .knowledge-fields>div{display:flex;gap:8px;flex-wrap:wrap}
-.knowledge-fields button{display:flex;align-items:center;gap:16px;min-height:44px;padding:9px 13px;border:1px solid var(--workspace-line);border-radius:var(--workspace-radius,8px);background:var(--workspace-surface);font:12px var(--font-sans);color:var(--theme-fg);cursor:pointer}
+.knowledge-fields button{display:flex;align-items:center;gap:16px;min-height:44px;padding:9px 13px;border:1px solid var(--workspace-line);border-radius:var(--ui-radius-control);background:var(--workspace-surface);font:12px var(--font-sans);color:var(--theme-fg);cursor:pointer}
 .knowledge-fields button strong{font:12px var(--font-mono);color:var(--workspace-muted)}
 .knowledge-fields button[aria-pressed=true]{border-color:var(--theme-accent-color);color:var(--theme-accent-color)}
 .knowledge-fields button:focus-visible,.knowledge-entry a:focus-visible{outline:2px solid var(--theme-accent-color);outline-offset:4px}

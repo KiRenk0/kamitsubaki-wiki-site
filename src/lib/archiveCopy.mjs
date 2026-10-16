@@ -1,4 +1,5 @@
 import { resolveLocaleCopy } from './i18n.mjs';
+import {archiveCompletionCopy} from './archiveCompletionCopy.mjs';
 import { entityLabel } from './entityLabels.mjs';
 
 export function archiveCopy(locale) {
@@ -24,12 +25,12 @@ export function archiveCopy(locale) {
       },
       credits: { title: '创作者与合作作品', intro: '沿着制作名单，查阅一位创作者与艺人的合作作品。',
         total: '歌曲档案', documented: '已填写制作名单', creators: '署名索引', linked: '已关联词条的署名',
-        note: '统计仅覆盖当前已填写制作名单的歌曲，不代表神椿完整作品史。只有姓名的署名单独编组，不自动合并到同名人物。',
+        note: '歌曲覆盖率只统计当前歌曲档案；合作列表与创作者概况包含已署名歌曲及发行，不代表完整作品史。只有姓名的署名单独编组，不自动合并到同名人物。',
         search: '搜索歌曲、创作者、艺人或 ID', creator: '创作者署名', role: '署名角色', named: '仅记姓名',
         empty: '没有符合条件的已记录合作作品。可清除筛选，或补充缺少制作名单的歌曲。',
-        credits: '制作名单', profile: '阅读创作者词条', works: '已记录 {count} 首歌曲', collaborators: '合作演唱者',
-        collaboratorCount: '{count} 首', years: '发行年份分布', noYear: '尚未记录发行年份。', tasks: '查找待补制作名单',
-        selectedNote: '下方概况覆盖此署名全部已记录歌曲，作品列表再按筛选条件缩小范围。',
+        credits: '制作名单', profile: '阅读创作者词条', works: '已记录 {count} 项作品', collaborators: '合作演唱者',
+        collaboratorCount: '{count} 项作品', years: '发行年份分布', noYear: '尚未记录发行年份。', tasks: '查找待补制作名单',
+        selectedNote: '下方概况覆盖此署名全部已记录作品，作品列表再按筛选条件缩小范围。',
       },
     },
     en: {
@@ -53,12 +54,12 @@ export function archiveCopy(locale) {
       },
       credits: { title: 'Creators & collaborations', intro: 'Follow credits to discover documented collaborations.',
         total: 'Song records', documented: 'Songs with credits', creators: 'Credit groups', linked: 'Groups linked to entries',
-        note: 'Counts cover only songs with recorded credits, not the complete history. Name-only credits stay separate from similarly named entities.',
+        note: 'Song coverage counts song records. Creator overviews and collaboration lists include credited songs and releases; they are not a complete history. Name-only credits stay separate from entity identities.',
         search: 'Search songs, creators, performers or IDs', creator: 'Creator credit', role: 'Credit role', named: 'Name only',
         empty: 'No recorded collaborations match. Reset the filters or add missing song credits.',
-        credits: 'Credits', profile: 'Read creator entry', works: '{count} documented songs', collaborators: 'Collaborating performers',
-        collaboratorCount: '{count} songs', years: 'Release years', noYear: 'No release years recorded.', tasks: 'Find missing credits',
-        selectedNote: 'This overview covers all documented songs for the selected credit. Filters narrow the work list below.',
+        credits: 'Credits', profile: 'Read creator entry', works: '{count} documented works', collaborators: 'Collaborating performers',
+        collaboratorCount: '{count} works', years: 'Release years', noYear: 'No release years recorded.', tasks: 'Find missing credits',
+        selectedNote: 'This overview covers all documented works for the selected credit. Filters narrow the work list below.',
       },
     },
     ja: {
@@ -82,15 +83,15 @@ export function archiveCopy(locale) {
       },
       credits: { title: 'クリエイターと共作', intro: 'クレジットから制作者とアーティストの共作を探します。',
         total: '楽曲記録', documented: 'クレジット記入済み', creators: '署名索引', linked: '記事と関連する署名',
-        note: '集計は記入済みの楽曲のみで、全作品史を表しません。名前のみの署名は同名の記事に自動で統合しません。',
+        note: '楽曲の収録率は楽曲項目から集計。制作者の概要と共作一覧は署名済み楽曲とリリースを含み、全作品史を表しません。名前のみの署名は人物項目に自動で統合しません。',
         search: '楽曲・制作者・歌唱者・ID を検索', creator: '制作者の署名', role: '役割', named: '名前のみ',
         empty: '条件に一致する共作の記録はありません。条件の解除やクレジットの追記ができます。',
-        credits: 'クレジット', profile: '制作者の記事を読む', works: '記録された楽曲 {count} 件', collaborators: '共作した歌唱者',
-        collaboratorCount: '{count} 曲', years: '発売年の分布', noYear: '発売年の記載はありません。', tasks: '未記入のクレジットを探す',
-        selectedNote: '概要は選択した署名の記録済み全楽曲です。下の作品一覧は条件で絞り込みます。',
+        credits: 'クレジット', profile: '制作者の記事を読む', works: '記録された作品 {count} 件', collaborators: '共作した歌唱者',
+        collaboratorCount: '{count} 作品', years: '発売年の分布', noYear: '発売年の記載はありません。', tasks: '未記入のクレジットを探す',
+        selectedNote: '概要は選択した署名の記録済み全作品です。下の作品一覧は条件で絞り込みます。',
       },
     },
   }, locale);
   copy.roles = Object.fromEntries(['composer', 'lyricist', 'arranger', 'producer', 'illustrator', 'visual-director', 'mixer', 'vocalist'].map(role => [role, entityLabel(role, locale)]));
-  return copy;
+  return {...archiveCompletionCopy(locale),...copy};
 }

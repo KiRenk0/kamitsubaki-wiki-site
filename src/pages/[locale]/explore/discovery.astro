@@ -1,5 +1,6 @@
 ---
 import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
+import WorkspaceButton from '../../../components/WorkspaceButton.astro';
 import DiscoveryEntry from '../../../components/DiscoveryEntry.astro';
 import { getEntityRegistry, entityLocales } from '../../../lib/entityRegistry.mjs';
 import { loadFeatureData } from '../../../lib/featureData.mjs';
@@ -21,7 +22,7 @@ const day = discoveryDay(), initial = createDiscoveryEngine(catalog).plan(readDi
   <p class="discovery-note">{c.note}</p>
   <p class="discovery-note">{c.articles.replace('{count}', String(catalog.summary.articles || 0))}{catalog.articleCoverage !== 'complete' && <> · {c.articleIncomplete}</>}</p>
   <p data-discovery-load-status role="status" aria-live="polite">{c.loading}</p>
-  <button type="button" data-discovery-retry hidden>{c.retry}</button><a data-discovery-reload href={`/${locale}/explore/discovery/`} hidden>{c.retry} ↗</a>
+  <WorkspaceButton data-discovery-retry hidden>{c.retry}</WorkspaceButton><a data-discovery-reload href={`/${locale}/explore/discovery/`} hidden>{c.retry} ↗</a>
   <details class="discovery-preferences" data-discovery-preferences hidden>
     <summary>{c.preferences}</summary>
   <form data-discovery-form hidden aria-label={c.preferences}>
@@ -38,29 +39,29 @@ const day = discoveryDay(), initial = createDiscoveryEngine(catalog).plan(readDi
         <label class="discovery-wide"><span>{c.query}</span><input name="q" type="search" maxlength="160" placeholder={c.queryPlaceholder} autocomplete="off" /></label>
       </div>
       <datalist id="discovery-start-options" data-discovery-options></datalist>
-      <div class="discovery-form-actions"><label class="discovery-checkbox"><input type="checkbox" name="events" />{c.events}</label><button type="submit">{c.apply} ↗</button><button type="reset">{c.reset}</button></div>
+      <div class="discovery-form-actions"><label class="discovery-checkbox"><input type="checkbox" name="events" />{c.events}</label><WorkspaceButton type="submit" tone="primary">{c.apply}</WorkspaceButton><WorkspaceButton type="reset" tone="quiet">{c.reset}</WorkspaceButton></div>
       <p class="discovery-note">{c.preferenceHint}</p><p data-discovery-status role="status" aria-live="polite"></p>
     </fieldset>
   </form>
   </details>
   <section class="discovery-route-section" aria-labelledby="discovery-route-title">
     <header class="discovery-section-header"><div><span>01 / DAILY ROUTE</span><h2 id="discovery-route-title" tabindex="-1" data-discovery-route-title>{c.routeTitle}</h2><p>{c.routeIntro}</p></div>
-      <div class="discovery-actions" data-discovery-controls hidden><button type="button" data-discovery-reroll>{c.reroll}</button><button type="button" data-discovery-today>{c.today}</button><button type="button" data-discovery-share>{c.share}</button></div>
+      <div class="discovery-actions" data-discovery-controls hidden><WorkspaceButton data-discovery-reroll>{c.reroll}</WorkspaceButton><WorkspaceButton tone="quiet" data-discovery-today>{c.today}</WorkspaceButton><WorkspaceButton data-discovery-share>{c.share}</WorkspaceButton></div>
     </header>
     <p class="discovery-note"><time data-discovery-day datetime={day}>{day}</time> · {c.utc}</p>
     <p class="discovery-note">{c.routeNote}</p>
     <ol class="discovery-route" data-discovery-route>{initial.route.map((record, index) => <DiscoveryEntry record={record} index={index} route catalog={catalog} copy={c} locale={locale} />)}</ol>
     <p data-discovery-route-empty hidden>{c.routeEmpty}</p><p class="discovery-note" data-discovery-route-short hidden>{c.shortRoute}</p>
     <div class="discovery-route-navigation" data-discovery-controls hidden>
-      <button type="button" data-discovery-previous>{c.previous}</button><p data-discovery-progress role="status"></p><button type="button" data-discovery-next>{c.next}</button>
+      <WorkspaceButton data-discovery-previous>{c.previous}</WorkspaceButton><p data-discovery-progress role="status"></p><WorkspaceButton data-discovery-next>{c.next}</WorkspaceButton>
     </div>
     <p data-discovery-share-status role="status"></p><input data-discovery-share-url class="discovery-share-url" aria-label={c.share} readonly hidden />
   </section>
   <section class="discovery-recommendations" aria-labelledby="discovery-recommendations-title">
     <header class="discovery-section-header"><div><span>02 / DISCOVER MORE</span><h2 id="discovery-recommendations-title">{c.recommendations}</h2></div><p data-discovery-count role="status" aria-live="polite">{discoveryFormat(c.results, { shown: Math.min(12, initial.items.length), total: initial.items.length })}</p></header>
     <ul class="discovery-records" data-discovery-results>{initial.items.slice(0, 12).map(record => <DiscoveryEntry record={record} catalog={catalog} copy={c} locale={locale} />)}</ul>
-    <div data-discovery-empty hidden><p>{c.noMatches}</p><p class="discovery-note">{c.loosen}</p><button type="button" data-discovery-clear-style hidden>{c.clearStyle}</button></div>
-    <button type="button" data-discovery-more data-discovery-controls hidden>{c.more}</button>
+    <div data-discovery-empty hidden><p>{c.noMatches}</p><p class="discovery-note">{c.loosen}</p><WorkspaceButton data-discovery-clear-style hidden>{c.clearStyle}</WorkspaceButton></div>
+    <WorkspaceButton data-discovery-more data-discovery-controls hidden>{c.more}</WorkspaceButton>
   </section>
   <noscript><style is:inline>[data-discovery-load-status]{display:none}</style><p class="discovery-note">{c.nojs}</p></noscript>
   <script is:inline type="application/json" data-discovery-copy set:html={JSON.stringify(c).replace(/</g, '\\u003c')} />

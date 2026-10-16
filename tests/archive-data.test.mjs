@@ -69,11 +69,19 @@ test('credit statistics count distinct works and performers, not credit rows or 
     {entity:'maker',role:'composer'},{entity:'maker',role:'lyricist'},{entity:'maker',role:'composer'},
   ]}),song('two',{performers:[{entity:'kaf'}],credits:[{entity:'maker',role:'composer'}]}),song('uncredited')]);
   const catalog=buildCreditsArchive(r,'zh'),maker=catalog.creators[0];
-  assert.deepEqual(catalog.summary,{totalSongs:3,withCredits:2,creatorGroups:1,linkedCreators:1});
+  assert.deepEqual(catalog.summary,{totalSongs:3,withCredits:2,withWorkCredits:2,creatorGroups:1,linkedCreators:1});
   assert.equal(catalog.entries[0].credits.length,2); assert.equal(maker.workCount,2);
   assert.deepEqual(maker.roles,['composer','lyricist']);
   assert.equal(maker.collaborators[0].count,2); assert.deepEqual(maker.years,[{year:'2024',count:1}]);
   assert.ok(!JSON.stringify(catalog).includes('Do not publish full bodies'));
+});
+test('release illustration credits extend creator works while keeping song coverage separate',()=>{
+ const r=registry([person('maker','Maker'),person('kaf','花譜'),song('song',{performers:[{entity:'kaf'}],credits:[{entity:'maker',role:'composer'}]}),
+  {schemaVersion:2,id:'album',locale:'zh',entityType:'work-release',title:'Album',primaryArtist:'kaf',releaseDate:'2024',tracks:[],credits:[{entity:'maker',role:'illustrator'}]}]);
+ const catalog=buildCreditsArchive(r,'zh');
+ assert.equal(catalog.summary.totalSongs,1);assert.equal(catalog.summary.withCredits,1);assert.equal(catalog.summary.withWorkCredits,2);
+ assert.equal(catalog.creators[0].workCount,2);
+ assert.deepEqual(selectCreditsArchive(catalog.entries,{artist:'kaf',role:'illustrator'}).map(row=>row.id),['album']);
 });
 
 test('creator and role filters must match the same authored credit and combine with performer and year',()=>{

@@ -2,6 +2,9 @@ import { createDiscoveryEngine, readDiscoveryState, discoveryParams, discoveryDa
 import { discoveryReason, discoveryEdgeText, discoveryFormat } from '../lib/discoveryPresentation.mjs';
 import { relationEndpointLabel, resolveRelationEndpoint } from '../lib/relationPaths.mjs';
 import { isGraphEvent } from '../lib/graphModel.mjs';
+import { updateLocaleQueries } from '../lib/localeQuery.mjs';
+import {currentArchiveOwner} from '../lib/archiveClient.mjs';
+import {loadObservatory} from '../lib/archivePersonal.mjs';
 
 const element = (tag, text, cls) => { const node = document.createElement(tag); if (text !== undefined) node.textContent = text; if (cls) node.className = cls; return node; };
 const link = (text, href) => { const node = element('a', text); node.href = href; return node; };
@@ -19,6 +22,7 @@ export function initializeDiscovery(root, { catalog, copy: c, now = () => new Da
   options('kind', catalog.facets.kinds.map(id => ({ id, title: c.kinds[id] || id })));
   options('style', catalog.facets.styles.map(item => ({ ...item, title: item.title + ' · ' + item.count })));
   const suggestions = document.createDocumentFragment();
+  const personal=element('button',c.personalInterests,'workspace-button');personal.type='button';personal.dataset.discoveryPersonal='';personal.addEventListener('click',async()=>{personal.disabled=true;try{const owner=await currentArchiveOwner(),interests=loadObservatory(localStorage,owner).data.interests;if(owner!==await currentArchiveOwner())return;const allowed=new Set(catalog.facets.artists.map(item=>item.id)),artists=interests.filter(id=>allowed.has(id)).slice(0,3),start=artists.length?'':interests.find(id=>engine.index.byId.has(id)) || '';if(!artists.length && !start){personal.textContent=c.noInterests;return;}updateURL({...state,artists,start,variant:0,step:0});}finally{personal.disabled=false;}});form.after(personal,element('p',c.personalHint));
   for (const node of engine.index.nodes) { const option = element('option'); option.value = relationEndpointLabel(node); suggestions.append(option); }
   $('[data-discovery-options]').replaceChildren(suggestions);
 
@@ -137,9 +141,9 @@ export function initializeDiscovery(root, { catalog, copy: c, now = () => new Da
     $('[data-discovery-status]').textContent = draft ? c.draft : plan.invalid.length ? c.invalidPreferences + ' ' + plan.invalid.map(item => item.value === 'max:3' ? c.preferenceHint : (labels[item.field] || item.field) + ' · ' + item.value).join(', ')
       : state.dayInvalid ? c.invalidDay : c.ready;
     root.dataset.discoveryMatches = String(plan.items.length); root.dataset.discoveryRouteIds = plan.route.map(item => item.node.id).join(',');
-    document.querySelectorAll('.site-nav__language-switcher a[hreflang]').forEach(anchor => { const url = new URL(anchor.href); url.search = discoveryParams(state).toString(); anchor.href = url.href; });
+    updateLocaleQueries(root.ownerDocument, discoveryParams(state));
   }
-  function apply({ reroll = false } = {}) {
+  function apply() {
     const startInput = field('start'), value = startInput.value.trim(), start = value ? resolveRelationEndpoint(engine.index.nodes, value) : null;
     startInput.setCustomValidity(value && !start ? c.invalidStart : '');
     if (!form.reportValidity()) return false;
@@ -148,7 +152,7 @@ export function initializeDiscovery(root, { catalog, copy: c, now = () => new Da
     const next = { ...state, artists: [...new Set(artistFields.map(select => select.value).filter(Boolean))].sort(), artistsOverflow: false,
       start: start?.id || '', query: field('q').value.trim(), kind: field('kind').value, style: field('style').value, year: field('year').value,
       radius: Number(field('radius').value), length: Number(field('length').value), day, dayInvalid: false,
-      fixedDay: state.fixedDay || day !== discoveryDay(now()), events: field('events').checked, step: 0, variant: reroll && !draft ? (state.variant + 1) % 10000 : 0 };
+      fixedDay: state.fixedDay || day !== discoveryDay(now()), events: field('events').checked, step: 0, variant: 0 };
     updateURL(next); return true;
   }
   form.hidden = false;
@@ -166,7 +170,9 @@ export function initializeDiscovery(root, { catalog, copy: c, now = () => new Da
   });
   form.addEventListener('change', () => { draft = true; $('[data-discovery-status]').textContent = c.draft; });
   form.addEventListener('reset', () => setTimeout(() => { const url = new URL(location.href); url.search = ''; history.pushState({}, '', url); planKey = ''; refresh(); }, 0));
-  $('[data-discovery-reroll]').addEventListener('click', () => apply({ reroll: true }));
+  $('[data-discovery-reroll]').addEventListener('click', () => {
+    updateURL({ ...state, variant: (state.variant + 1) % 10000, step: 0 }, { preserveDraft: true });
+  });
   $('[data-discovery-today]').addEventListener('click', () => {
     field('day').value = discoveryDay(now()); updateURL({ ...state, day: discoveryDay(now()), fixedDay: false, dayInvalid: false, variant: 0, step: 0 }, { preserveDraft: true });
   });

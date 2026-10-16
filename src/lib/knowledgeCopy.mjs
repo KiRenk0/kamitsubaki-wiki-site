@@ -1,4 +1,5 @@
 import { resolveLocaleCopy } from './i18n.mjs';
+import {archiveCompletionCopy} from './archiveCompletionCopy.mjs';
 import { entityLabel } from './entityLabels.mjs';
 import { entityTypes } from './entityContract.mjs';
 
@@ -48,5 +49,5 @@ export function knowledgeCopy(locale) {
         'dateRange.start': '開催日', 'venue.name': '会場', headliners: '主な出演者', setlist: 'セットリスト', translation: 'この言語の翻訳' } },
   }, locale);
   copy.types = Object.fromEntries(entityTypes.map(type => [type, entityLabel(type, locale)]));
-  return copy;
+  return {...archiveCompletionCopy(locale),...copy};
 }

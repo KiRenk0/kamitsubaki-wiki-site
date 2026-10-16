@@ -19,6 +19,8 @@ const initial=selectCreditsArchive(catalog.entries).slice(0,12);
   <WorkspaceFilters data-archive-form data-archive-controls hidden role="search">
     <label><span>{c.credits.search}</span><input name="q" type="search" placeholder={c.credits.search} autocomplete="off"/></label>
     <label><span>{c.credits.creator}</span><select name="creator"><option value="">{c.all}</option>{catalog.creators.map(creator=><option value={creator.key}>{creator.title} · {creator.entityId||c.credits.named} · {creator.workCount}</option>)}</select></label>
+    <label><span>{c.coCreator}</span><select name="collaborator"><option value="">{c.all}</option>{catalog.creators.map(creator=><option value={creator.key}>{creator.title} · {creator.entityId||c.credits.named}</option>)}</select></label>
+    <label><span>{c.workType}</span><select name="workType"><option value="">{c.all}</option><option value="work-track">{c.tracks}</option><option value="work-release">{c.releases}</option></select></label>
     <label><span>{c.artist}</span><select name="artist"><option value="">{c.all}</option>{catalog.artists.map(artist=><option value={artist.id}>{artist.title}</option>)}</select></label>
     <label><span>{c.credits.role}</span><select name="role"><option value="">{c.all}</option>{catalog.roles.map(role=><option value={role}>{c.roles[role]||role}</option>)}</select></label>
     <label><span>{c.year}</span><select name="year"><option value="">{c.all}</option>{catalog.years.map(year=><option value={year}>{year}</option>)}{catalog.entries.some(entry=>!entry.year)&&<option value="unknown">{c.unknownYear}</option>}</select></label>
