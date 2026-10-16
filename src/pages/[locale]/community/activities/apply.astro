@@ -10,8 +10,8 @@ import '../../../../styles/community.css';
 export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
 const locale=Astro.params.locale||'zh',c=communityCopy(locale),api=import.meta.env.PUBLIC_COMMUNITY_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
 ---
-<WorkspaceLayout locale={locale} title={c.apply} intro={c.applyIntro} path="/community/activities/apply/" width="standard" noindex mainAttributes={{class:'community-page','data-community-apply':'','data-locale':locale,'data-api':api,'data-copy':JSON.stringify(c)}}>
- <Fragment slot="actions"><WorkspaceButton href={`/${locale}/community/activities/`} tone="quiet">{c.back}</WorkspaceButton><WorkspaceButton href={`/${locale}/account/creator/?type=community`}>{c.creator}</WorkspaceButton></Fragment>
+<WorkspaceLayout locale={locale} title={c.apply} intro={c.applyIntro} path="/community/activities/apply/" eyebrow="CONTRIBUTE / ACTIVITY" backHref={`/${locale}/community/activities/`} backLabel={c.back} width="standard" noindex mainAttributes={{class:'community-page','data-community-apply':'','data-locale':locale,'data-api':api,'data-copy':JSON.stringify(c)}}>
+ <Fragment slot="actions"><WorkspaceButton href={`/${locale}/account/creator/?type=community`}>{c.creator}</WorkspaceButton></Fragment>
  <label class="community-submission-kind"><span>{c.submissionType}</span><WorkspaceControl as="select" data-community-kind><option value="information">{c.information}</option><option value="promotion">{c.promotion}</option></WorkspaceControl></label>
  <div set:html={communityEditorMarkup(c)} />
 </WorkspaceLayout>

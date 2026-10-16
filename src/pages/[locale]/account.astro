@@ -1,4 +1,5 @@
 ---
+import {pageLabels} from '../../lib/pageLabels.mjs';
 import WorkspaceButton from '../../components/WorkspaceButton.astro';
 import WorkspaceControl from '../../components/WorkspaceControl.astro';
 import Icon from '../../components/Icon.astro';
@@ -27,7 +28,7 @@ const libraryCopy={...labsCopy(locale),savedLocal:c.library,storageNote:c.privac
 <BaseLayout lang={locale} title={`${c.title} · KAMITSUBAKI Wiki`} metadata={{noindex:true}}>
   <SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site,locale,'/account/')} brandLines={site.hero.brandLines} homeHref={`/${locale}/`}/>
   <WorkspaceShell width="wide" class="account-shell" data-account-page data-summary-error={ui.summaryError}>
-    <WorkspaceHeader title={c.title} intro={ui.intro} eyebrow="MY OBSERVATORY" backHref={`/${locale}/`} backLabel={locale==='en'?'Home':locale==='ja'?'ホーム':'首页'}><Fragment slot="status"><p data-account-action-status role="status"></p><WorkspaceButton type="submit" class="account-button" data-account-reload hidden>{c.reloadAccount}</WorkspaceButton></Fragment></WorkspaceHeader>
+    <WorkspaceHeader title={c.title} intro={ui.intro} eyebrow="MY OBSERVATORY" backHref={`/${locale}/`} backLabel={pageLabels(locale).home}><Fragment slot="status"><p data-account-action-status role="status"></p><WorkspaceButton type="submit" class="account-button" data-account-reload hidden>{c.reloadAccount}</WorkspaceButton></Fragment></WorkspaceHeader>
     <noscript>{c.javascript}</noscript>
     <section class="account-gate account-surface" data-account-gate><header class="account-panel-heading"><span class="account-kicker">ACCOUNT / ACCESS</span><h2 data-account-gate-title>{c.loginTitle}</h2><p>{c.loginNote}</p></header><WorkspaceButton type="submit" tone="primary" class="account-button account-primary" data-account-login>{c.login}</WorkspaceButton><WorkspaceButton data-account-retry hidden>{ui.retry}</WorkspaceButton></section>
     <div class="account-workspace" data-account-workspace hidden><AccountSections locale={locale}/><div class="account-panels">

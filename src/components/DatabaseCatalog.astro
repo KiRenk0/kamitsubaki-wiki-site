@@ -7,6 +7,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import SiteNav from './SiteNav.astro';
 import SiteFooter from './SiteFooter.astro';
 import WorkspaceShell from './WorkspaceShell.astro';
+import WorkspaceHeader from './WorkspaceHeader.astro';
 import ContextAction from './ContextAction.astro';
 import ClassificationDirectory from './ClassificationDirectory.astro';
 import DatabaseRecord from './DatabaseRecord.astro';
@@ -49,12 +50,10 @@ const payload=JSON.stringify({records,facets,copy}).replace(/</g,'\\u003c');
 <BaseLayout title={`${copy.title} · Kamitsubaki Studio Fan Wiki`} lang={locale}>
   <SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site,locale,'/database/')} brandLines={site.hero.brandLines} homeHref={`/${locale}/`}/>
   <WorkspaceShell width="wide" class="database-catalog" data-ui-kit data-database-catalog data-view="grid" data-filters-open="false" data-locale={locale}>
-    <header class="database-header">
-      <a class="database-back" href={`/${locale}/`}><Icon name="arrow-left" /> {copy.home}</a>
-      <div class="database-heading-row"><h1>DATABASE</h1><ContextAction href={`/${locale}/contribute/editor/`}>{copy.create}</ContextAction></div>
-      <div class="database-stats"><span><strong>{records.length.toLocaleString('en-US')}</strong> RECORDS</span><span><strong>{collections.length}</strong> COLLECTIONS</span></div>
-      <p class="database-intro">{copy.intro}</p>
-    </header>
+    <WorkspaceHeader title={copy.title} intro={copy.intro} eyebrow="DATABASE / RECORDS" backHref={`/${locale}/`} backLabel={copy.home}>
+      <WorkspaceButton href={`/${locale}/contribute/editor/`} tone="primary">{copy.create}</WorkspaceButton>
+      <div class="database-stats" slot="status"><span><strong>{records.length.toLocaleString('en-US')}</strong> RECORDS</span><span><strong>{collections.length}</strong> COLLECTIONS</span></div>
+    </WorkspaceHeader>
     <nav class="database-collections" aria-label={copy.collection}>
       <a href={`/${locale}/database/`} data-database-collection="" aria-current="true"><span>{copy.all}</span><small>{records.length}</small></a>
       {collections.map(collection=><a href={`/${locale}/database/?collection=${collection.id}`} data-database-collection={collection.id}><span>{collection.label}</span><small>{collection.count}</small></a>)}

@@ -7,11 +7,12 @@ import CalendarNavigation from '../../../../components/CalendarNavigation.astro'
 import Icon from '../../../../components/Icon.astro';
 import {supportedLocales} from '../../../../lib/i18n.mjs';
 import {communityCopy} from '../../../../lib/communityCopy.mjs';
+import {pageLabels} from '../../../../lib/pageLabels.mjs';
 import '../../../../styles/community.css';
 export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
 const locale=Astro.params.locale||'zh',c=communityCopy(locale),api=import.meta.env.PUBLIC_COMMUNITY_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
 ---
-<WorkspaceLayout locale={locale} title={c.board} intro={c.intro} path="/community/activities/" width="wide" mainAttributes={{class:'community-page','data-community-calendar':'','data-locale':locale,'data-api':api,'data-copy':JSON.stringify(c)}}>
+<WorkspaceLayout locale={locale} title={c.board} intro={c.intro} path="/community/activities/" eyebrow="COMMUNITY / ACTIVITIES" backHref={`/${locale}/`} backLabel={pageLabels(locale).home} width="wide" mainAttributes={{class:'community-page','data-community-calendar':'','data-locale':locale,'data-api':api,'data-copy':JSON.stringify(c)}}>
  <Fragment slot="actions"><WorkspaceButton href={`/${locale}/events/`} tone="quiet">{c.officialCalendar}<Icon name="arrow-up-right"/></WorkspaceButton><WorkspaceButton href={`/${locale}/community/activities/apply/`} tone="primary">{c.apply}<Icon name="arrow-right"/></WorkspaceButton></Fragment>
  <form class="community-calendar-controls" data-calendar-filters>
   <div class="community-calendar-command">
