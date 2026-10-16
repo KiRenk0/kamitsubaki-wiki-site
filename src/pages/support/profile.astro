@@ -6,10 +6,10 @@ const apiBase=import.meta.env.PUBLIC_SUPPORT_API_BASE || import.meta.env.PUBLIC_
 ---
 <!doctype html>
 <html lang="zh-Hans">
-<head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="robots" content="noindex,nofollow"/><meta name="referrer" content="no-referrer"/><title>完善发电展示资料 · KAMITSUBAKI Wiki</title></head>
+<head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="robots" content="noindex,nofollow"/><meta name="referrer" content="no-referrer"/><title>完善发电展示资料 · KAMITSUBAKI Wiki</title><script is:inline>(()=>{let p='system';try{const s=localStorage.getItem('kamitsubaki-theme');if(s==='light'||s==='dark'||s==='system')p=s}catch{}document.documentElement.dataset.theme=p==='system'?(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'):p})();</script></head>
 <body>
 <main class="supporter-profile" data-supporter-profile data-api-base={apiBase}>
- <header><a class="profile-brand" href="/zh/support/">KAMITSUBAKI WIKI</a><p class="profile-eyebrow">THANK YOU FOR YOUR SUPPORT</p><h1>让我们好好感谢你。</h1><p>填写权益接收邮箱，以及你希望在感谢名单展示的昵称和头像。展示资料由管理员审核后更新。</p></header>
+ <header><a class="profile-brand" href="/zh/support/">KAMITSUBAKI WIKI</a><p class="profile-eyebrow">THANK YOU FOR YOUR SUPPORT</p><h1>让我们好好感谢你。</h1><p>这一步完全可选，不影响你的支持与权益。填写权益接收邮箱，以及你希望在感谢名单展示的昵称和头像；展示资料由管理员审核后更新。</p></header>
  <p class="profile-status" data-profile-status role="status" aria-live="polite">正在读取专属链接…</p>
  <WorkspaceButton data-email-confirm tone="primary" hidden>确认验证邮箱</WorkspaceButton>
  <form data-profile-form hidden>
@@ -27,18 +27,18 @@ const apiBase=import.meta.env.PUBLIC_SUPPORT_API_BASE || import.meta.env.PUBLIC_
 </body>
 </html>
 <style>
- :global(:root){--theme-fg:#202735;--theme-bg:#f6f7f9;--theme-fg-rgb:32 39 53;--theme-bg-rgb:246 247 249;}
- :global(body){margin:0;background:#f6f7f9;color:#202735;font-family:system-ui,sans-serif;}
+ .supporter-profile{--muted:rgb(var(--theme-fg-rgb)/.62);}
+ :global(body){margin:0;background:var(--theme-bg);color:var(--theme-body);font-family:var(--font-sans);}
  .supporter-profile{max-width:600px;margin:64px auto;padding:0 24px 40px;line-height:1.8;}
  .profile-brand{font-size:12px;font-weight:750;letter-spacing:.12em;color:inherit;text-decoration:none;}
- .profile-eyebrow{font-size:10px;letter-spacing:.18em;color:#737989;margin-top:42px;}
- h1{font-size:30px;line-height:1.3;margin:12px 0 18px;font-weight:650;}header>p:last-child{color:#626b79;font-size:15px;}
- form{background:white;border:1px solid #e2e5eb;border-radius:18px;padding:28px;margin-top:24px;box-shadow:0 8px 28px #26375406;}
- label{display:block;margin:24px 0 8px;font-size:14px;font-weight:600;}input.dui-input{display:block;width:100%;box-sizing:border-box;background:white;color:#202735;border:1px solid #cdd3dc;min-height:44px;border-radius:8px;padding:10px 12px;font-size:16px;}
- small{display:block;color:#747d89;font-size:12px;margin-top:6px;}.required,label span{font-weight:400;font-size:12px;color:#737989;margin-left:8px;}
- .profile-avatar{display:flex;gap:20px;align-items:center;margin-bottom:12px;}.profile-avatar img,.profile-avatar>span{width:88px;height:88px;object-fit:cover;border-radius:50%;flex-shrink:0;background:#edf0f5;}.profile-avatar>span{text-align:center;line-height:88px;font-size:32px;color:#848fa2;}.profile-avatar label{margin:0;min-width:0;}input[type=file]{display:block;margin-top:8px;max-width:100%;font-weight:400;font-size:12px;}
- .profile-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px;}.profile-note{font-size:12px;color:#747d89;margin:20px 0 0;}.profile-status{font-size:14px;padding:14px 16px;border-radius:10px;background:#e9eef7;color:#364969;}.profile-status[data-error=true]{background:#fff0ee;color:#a13026;}
- .profile-wiki{margin:24px 0 0;padding:16px;border:1px solid #e2e5eb;border-radius:10px;}.profile-wiki legend{padding:0 6px;font-size:14px;font-weight:600;}.profile-wiki legend span{font-size:12px;color:#737989;font-weight:400;}.profile-wiki label{font-size:13px;margin-top:10px;}.profile-wiki input{margin-right:8px;}.profile-wiki p{font-size:13px;color:#626b79;margin:0;}.profile-wiki .profile-actions{margin-top:12px;}
- footer{display:flex;gap:12px;justify-content:space-between;flex-wrap:wrap;margin-top:24px;font-size:12px;color:#707887;}footer a{color:inherit;text-decoration:underline;}
+ .profile-eyebrow{font:10px/1.8 var(--font-mono);letter-spacing:.16em;color:var(--theme-accent-color);margin-top:42px;}
+ h1{font:500 30px/1.5 var(--font-serif);color:var(--theme-fg);margin:12px 0 18px;}header>p:last-child{color:var(--muted);font-size:14px;}
+ form{background:var(--theme-panel-solid);border:1px solid var(--ui-line);border-radius:var(--ui-radius-panel,8px);padding:28px;margin-top:24px;}
+ label{display:block;margin:24px 0 8px;font-size:14px;font-weight:600;color:var(--theme-fg);}input.dui-input{display:block;width:100%;box-sizing:border-box;background:var(--theme-bg);color:var(--theme-fg);border:1px solid var(--ui-line);min-height:44px;border-radius:var(--ui-radius-control,6px);padding:10px 12px;font-size:16px;}
+ small{display:block;color:var(--muted);font-size:12px;margin-top:6px;}.required,label span{font-weight:400;font-size:12px;color:var(--muted);margin-left:8px;}
+ .profile-avatar{display:flex;gap:20px;align-items:center;margin-bottom:12px;}.profile-avatar img,.profile-avatar>span{width:88px;height:88px;object-fit:cover;border-radius:50%;flex-shrink:0;background:rgb(var(--theme-fg-rgb)/.06);}.profile-avatar>span{text-align:center;line-height:88px;font-size:32px;color:var(--muted);}.profile-avatar label{margin:0;min-width:0;}input[type=file]{display:block;margin-top:8px;max-width:100%;font-weight:400;font-size:12px;}
+ .profile-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px;}.profile-note{font-size:12px;color:var(--muted);margin:20px 0 0;}.profile-status{font-size:14px;padding:14px 16px;border-radius:var(--ui-radius-control,6px);background:rgb(var(--theme-accent-rgb)/.08);color:var(--theme-fg);}.profile-status[data-error=true]{background:rgb(217 83 79/.12);color:#d9534f;}
+ .profile-wiki{margin:24px 0 0;padding:16px;border:1px solid var(--ui-line);border-radius:var(--ui-radius-control,6px);}.profile-wiki legend{padding:0 6px;font-size:14px;font-weight:600;color:var(--theme-fg);}.profile-wiki legend span{font-size:12px;color:var(--muted);font-weight:400;}.profile-wiki label{font-size:13px;margin-top:10px;}.profile-wiki input{margin-right:8px;}.profile-wiki p{font-size:13px;color:var(--muted);margin:0;}.profile-wiki .profile-actions{margin-top:12px;}
+ footer{display:flex;gap:12px;justify-content:space-between;flex-wrap:wrap;margin-top:24px;font-size:12px;color:var(--muted);}footer a{color:inherit;text-decoration:underline;}
  @media(max-width:500px){.supporter-profile{margin-top:28px;padding-inline:16px;}form{padding:20px;}h1{font-size:26px;}.profile-avatar{gap:12px;}}
 </style>

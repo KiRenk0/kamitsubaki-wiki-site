@@ -1,7 +1,7 @@
 ---
 import WorkspaceButton from '../../components/WorkspaceButton.astro';
 import AfdianWidget from '../../components/AfdianWidget.astro';
-import SupportPlans from '../../components/SupportPlans.astro';
+import SupportHero from '../../components/SupportHero.astro';
 import Icon from '../../components/Icon.astro';
 import WorkspaceShell from '../../components/WorkspaceShell.astro';
 import {getBuildCollection as getCollection} from '../../lib/contentAuditContext';
@@ -27,18 +27,16 @@ const currentPath='/support/',metadata={title:`${copy.title} - Kamitsubaki Studi
  <SiteNav navItems={homeContent.navItems} localeLinks={buildLocaleLinks(homeContent,locale,currentPath)} brandLines={homeContent.hero.brandLines} homeHref={`/${locale}/`}/>
  <WorkspaceShell width="wide" class="support-shell" data-support-page data-api-base={apiBase} data-locale={locale}>
   <script is:inline type="application/json" data-support-copy set:html={JSON.stringify(copy).replace(/</g,'\u003c')}/>
-  <WorkspaceHeader title={copy.heroTitle} intro={copy.intro} eyebrow="SUPPORT THE OBSERVATORY" backHref={`/${locale}/`} backLabel={copy.home}>
-   <WorkspaceButton data-support-open data-support-preferred-channel="wechat">{c.scan}<Icon name="heart"/></WorkspaceButton>
-  </WorkspaceHeader>
+  <WorkspaceHeader title={copy.heroTitle} intro={copy.intro} eyebrow="SUPPORT THE OBSERVATORY" backHref={`/${locale}/`} backLabel={copy.home}/>
+  <SupportHero locale={locale}/>
   <WorkspaceNavigation label={copy.pageNav} kind="support">{[{id:'ways-to-support',label:copy.navChannels},{id:'running-costs',label:copy.navCosts},{id:'transparency',label:copy.navReports},{id:'sponsor-wall',label:copy.navWall}].map(item=><a id={`support-tab-${item.id}`} href={`#${item.id}`} data-support-tab={item.id}>{item.label}</a>)}</WorkspaceNavigation>
   <div class="support-live-status"><p class="support-note" data-support-status role="status"></p><WorkspaceButton data-support-retry hidden>{copy.retry}<Icon name="history"/></WorkspaceButton></div>
   <div class="support-panels">
    <section class="support-section support-ways" id="ways-to-support" data-support-panel aria-label={copy.channelsTitle}>
-    <AfdianWidget locale={locale}/>
-    <SupportPlans locale={locale}/>
     <div class="support-heading support-other-heading"><p class="support-eyebrow">DIRECT SUPPORT</p><h2>{copy.channelsTitle}</h2><p>{copy.channelsIntro}</p></div>
     <div class="support-channels" data-support-channels set:html={view.channels}/>
     <p class="support-free-note">{copy.freeNote}</p>
+    <AfdianWidget locale={locale}/>
    </section>
    <section class="support-section support-costs" id="running-costs" data-support-panel aria-labelledby="support-costs-title"><div class="support-heading"><p class="support-eyebrow">PROJECT UPKEEP</p><h2 id="support-costs-title">{copy.costsTitle}</h2><p>{copy.costsIntro}</p></div><div data-support-costs set:html={view.costs}/></section>
    <section class="support-section support-transparency" id="transparency" data-support-panel aria-labelledby="support-transparency-title"><div class="support-heading"><p class="support-eyebrow">TRANSPARENCY</p><h2 id="support-transparency-title">{copy.reportsTitle}</h2><p>{copy.reportsIntro}</p></div><div class="support-records"><div class="support-reports" data-support-reports set:html={view.reports}/><p class="support-note support-accounting">{copy.accountingNote}</p></div></section>
