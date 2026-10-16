@@ -54,5 +54,5 @@ test('AI chat sends an explicit response locale contract and preserves dynamic g
   );
   assert.doesNotMatch(script, /copy\.greeting \|\| data\.greeting/);
   assert.match(script, /closest\('code, pre, \.katex, \.katex-display'\)/);
-  assert.match(script, /convertAiResponseText\(pendingText, locale\)/);
+  assert.match(script, /convertAiResponseText\(text,locale\)/);
 });

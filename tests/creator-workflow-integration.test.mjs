@@ -2,13 +2,14 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {createRequire} from 'node:module';
 import {resolve} from 'node:path';
-import {existsSync} from 'node:fs';
+import {backendURL} from './backend-root.mjs';
 import {JSDOM} from 'jsdom';
 import {creatorCenterCopy} from '../src/lib/creatorCenterCopy.mjs';
 // The same integration suite supports normal sibling checkouts and auth worktrees.
-const backendRoot=new URL(existsSync(new URL('../../backend/src/index.js',import.meta.url))?'../../backend/':'../../kamitsubaki-wiki-site-backend/',import.meta.url);
+const backendRoot=backendURL('');
 const {fixture}=await import(new URL('tests/accountFixture.mjs',backendRoot));
 const {default:worker}=await import(new URL('src/index.js',backendRoot));
+const {adminRuntime}=await import(new URL('src/generated/adminRuntime.js',backendRoot));
 const {installContentAdmin,renderContentAdminBody}=await import(new URL('src/contentAdmin.js',backendRoot));
 const require=createRequire(import.meta.url);
 const {build}=createRequire(require.resolve('vite'))('esbuild');
@@ -30,11 +31,11 @@ async function setup(intercept){
  <h2 id="creator-records-title"></h2><div data-creator-rows></div><div data-records-status></div><button data-page-previous></button><button data-page-next></button><button data-creator-refresh></button>
  <div data-creator-drafts></div><div data-creator-todo></div><div data-todo-count></div><div data-creator-notifications></div><div data-notification-count></div>
  ${['attention','draft','review','published'].map(k=>`<b data-metric-count="${k}"></b>`).join('')}</main>`,{url:'https://wiki.example/zh/account/creator/',runScripts:'outside-only'});
- const w=dom.window;w.document.querySelector('main').dataset.copy=JSON.stringify(copy);w.qaAccount={viewer:{userId:'bob'}};w.AbortSignal=AbortSignal;w.matchMedia=()=>({matches:false});w.scrollTo=()=>{};
+ const w=dom.window;w.ResizeObserver=class{observe(){}unobserve(){}disconnect(){}};Object.defineProperty(w.HTMLElement.prototype,'offsetWidth',{get(){return 800;}});Object.defineProperty(w.HTMLElement.prototype,'offsetHeight',{get(){return 40;}});w.eval(adminRuntime);w.document.querySelector('main').dataset.copy=JSON.stringify(copy);w.qaAccount={viewer:{userId:'bob'}};w.AbortSignal=AbortSignal;w.matchMedia=()=>({matches:false});w.scrollTo=()=>{};
  w.HTMLDialogElement.prototype.showModal=function(){this.open=true;};w.HTMLDialogElement.prototype.close=function(value){this.returnValue=value;this.open=false;this.dispatchEvent(new w.Event('close'));};
  const call=(path,method='GET',body,owner='bob')=>worker.fetch(new Request('https://api.example'+path,{method,headers:{Cookie:`kfw_auth_session=${owner}`,Origin:'https://wiki.example',...(body?{'Content-Type':'application/json'}:{})},body:body?JSON.stringify(body):undefined}),env,{waitUntil(){}});
  const calls=[];w.fetch=async(url,options={})=>{const path=new URL(url).pathname+new URL(url).search,body=options.body?JSON.parse(options.body):undefined,record={path,method:options.method,body};calls.push(record);const invoke=()=>call(path,options.method,body,w.qaAccount.viewer?.userId||'');const response=await(intercept?intercept({path,options,invoke,w}):invoke());if(options.method==='POST'&&path.startsWith('/api/articles/drafts'))record.result=await response.clone().json();return response;};
- return {db,w,copy,call,calls,start(){w.eval(source.outputFiles[0].text);},async close(){await sleep(40);w.close();db.sqlite.close();}};
+ return {db,w,copy,call,calls,start(){w.eval(source.outputFiles[0].text);},async close(){await sleep(40);w.dispatchEvent(new w.Event('pagehide'));w.close();db.sqlite.close();}};
 }
 test('Creator Center actual buttons delete article and photo drafts through real Worker handlers',async()=>{
  const q=await setup();try{
@@ -191,14 +192,14 @@ test('unified account UI loads AI inline and preserves conversation, memory and 
  const calls=[];const q=await unifiedAccountUI(async(url,opts)=>{calls.push([url,opts.method,opts.body]);return Response.json(url.includes('/conversations/')?{conversation:{title:'Chat alice'},messages:[{role:'user',content:'Hello'}]}:aiData('alice'));});
  try{
   q.w.document.querySelector('[data-user-view]').click();await until(()=>q.w.document.querySelector('[data-admin-memory-save]'));
-  const ai=q.w.document.querySelector('[data-account-ai-user]');assert.match(ai.textContent,/AI 使用：正常/);assert.equal(q.w.document.querySelector('dialog').open,false);
+  const ai=q.w.document.querySelector('[data-account-ai-user]');assert.match(ai.textContent,/AI 使用：正常/);assert.equal(q.w.document.querySelector('[data-companion-dialog]').open,false);
   ai.querySelector('[name=content]').value='Updated';ai.querySelector('[data-admin-memory-save]').click();await until(()=>calls.some(c=>c[1]==='PUT'));
   assert.equal(JSON.parse(calls.find(c=>c[1]==='PUT')[2]).content,'Updated');
   await until(()=>q.w.document.querySelector('[data-user-status]'));
   q.w.document.querySelector('[data-user-status]').click();await until(()=>calls.some(c=>c[1]==='PATCH'));assert.equal(JSON.parse(calls.find(c=>c[1]==='PATCH')[2]).status,'suspended');
   await until(()=>q.w.document.querySelector('[data-conversation-view]'));
-  q.w.document.querySelector('[data-conversation-view]').click();await until(()=>q.w.document.querySelector('dialog').open);assert.match(q.w.document.querySelector('[data-dialog-body]').textContent,/Hello/);
-  q.w.document.querySelector('[data-dialog-close]').click();assert.equal(q.w.document.querySelector('dialog').open,false);
+  q.w.document.querySelector('[data-conversation-view]').click();await until(()=>q.w.document.querySelector('[data-companion-dialog]').open);assert.match(q.w.document.querySelector('[data-dialog-body]').textContent,/Hello/);assert.equal(q.w.document.querySelector('[data-admin-navigation]').open,false);
+  q.w.document.querySelector('[data-dialog-close]').click();assert.equal(q.w.document.querySelector('[data-companion-dialog]').open,false);
   q.w.document.querySelector('[data-admin-memory-delete]').click();await until(()=>calls.some(c=>c[1]==='DELETE'));
  }finally{await q.close();}
 });
@@ -211,5 +212,36 @@ test('switching accounts discards late AI results and AI errors leave account ac
   q.w.document.querySelector('[data-user-view]').click();await until(()=>q.w.document.querySelector('[data-account-ai-user]').textContent.includes('尚未建立'));
   assert.match(q.w.document.querySelector('[data-account-detail]').textContent,/撤销全部会话/);
   const form=q.w.document.querySelector('[data-search]');form.elements.q.value='bob';form.dispatchEvent(new q.w.Event('submit',{cancelable:true}));await until(()=>q.w.document.querySelectorAll('[data-users] button').length===1);
+ }finally{await q.close();}
+});
+
+const {renderCommunityAdmin}=await import(new URL('src/community/admin.js',backendRoot));
+async function communityAdminUI(){
+ const q=await setup();q.w.Intl=Intl;q.w.structuredClone=structuredClone;q.w.confirm=()=>false;
+ const html=renderCommunityAdmin('https://wiki.example');q.w.document.body.innerHTML=html;
+ q.w.fetch=async(url,opts={})=>{const parsed=new URL(url,q.w.location.href);return q.call(parsed.pathname+parsed.search,opts.method,opts.body?JSON.parse(opts.body):undefined,'alice');};
+ q.w.eval(`(${installAdminUI.toString()})();`);q.w.AdminUI.confirm=async()=>true;
+ q.w.eval(q.w.document.querySelector('script').textContent);
+ await until(()=>q.w.document.querySelector('[data-queue]').getAttribute('aria-busy')==='false'&&q.w.document.querySelector('[data-list-count]').textContent==='0 项');
+ return {...q,root:q.w.document.querySelector('[data-community-admin]')};
+}
+test('community admin actual controls save, publish, protect unsaved input and return to the current version',async()=>{
+ const q=await communityAdminUI();try{
+ assert.equal(q.root.querySelector('[data-detail]').hidden,true);q.root.querySelector('[data-manager-new]').click();await until(()=>!q.root.querySelector('[data-edit-surface]').hidden);
+ const form=q.root.querySelector('[data-activity-editor] form');for(const [name,value]of Object.entries({title:'UI integration project',summary:'Test only',organizer:'QA',sourceUrl:'https://example.org/source'})){form.elements[name].value=value;form.elements[name].dispatchEvent(new q.w.Event('input',{bubbles:true}));}
+ q.w.AdminUI.confirm=async()=>false;q.root.querySelector('[data-manager-view=activities]').click();await sleep(15);assert.equal(q.root.dataset.view,'drafts');assert.equal(form.elements.title.value,'UI integration project');
+ form.querySelector('[data-editor-save]').click();await until(()=>q.root.querySelector('[data-record-id]')&&form.querySelector('[data-editor-save]').disabled===false);assert.match(q.w.location.search,/revision=/);assert.match(form.querySelector('[data-editor-status]').textContent,/草稿已保存/);
+ q.w.AdminUI.confirm=async()=>true;form.querySelector('[data-editor-publish]').click();await until(()=>q.root.dataset.view==='activities'&&q.root.querySelector('[data-detail-state]').textContent.includes('公开版本 1')&&!form.elements.title.disabled);
+ assert.equal(q.root.querySelector('[data-management-controls]').hidden,false);const link=new URL(q.root.querySelector('[data-public-link]').href),id=link.pathname.split('/').filter(Boolean).at(-1);const publicDoc=await(await q.call('/api/community-activities/items/'+id)).json();assert.equal(publicDoc.activity.title,'UI integration project');
+ await q.call('/api/admin/community-activities/items/'+id+'/promotion','POST',{accountId:'alice',version:1,featuredRank:null},'alice');form.elements.title.value='Retain conflict input';form.elements.title.dispatchEvent(new q.w.Event('input',{bubbles:true}));form.querySelector('[data-editor-save]').click();await until(()=>form.querySelector('[data-editor-save]').disabled===false&&form.querySelector('[data-editor-status]').textContent.includes('版本'));
+ assert.equal(form.elements.title.value,'Retain conflict input');assert.equal((await(await q.call('/api/community-activities/items/'+id)).json()).activity.title,'UI integration project');
+ }finally{await q.close();}
+});
+
+test('series UI can save a hidden draft, restore its public version and publish another revision',async()=>{
+ const q=await communityAdminUI();try{
+ q.root.querySelector('[data-manager-view=series]').click();await until(()=>q.root.dataset.view==='series'&&q.root.querySelector('[data-queue]').getAttribute('aria-busy')==='false');q.root.querySelector('[data-manager-new]').click();await until(()=>!q.root.querySelector('[data-edit-surface]').hidden);const form=q.root.querySelector('[data-series-editor] form');form.elements.title.value='Series first edition';form.querySelector('[data-editor-publish]').click();await until(()=>q.root.querySelector('[data-series-hide]').hidden===false&&!form.elements.title.disabled);
+ const id=new URL(q.root.querySelector('[data-public-link]').href).pathname.split('/').filter(Boolean).at(-1);assert.ok(q.root.querySelector('[data-activity-editor] [name=seriesId] option[value=\"'+id+'\"]'),'new series must become available without a page reload');q.root.querySelector('[data-series-hide]').click();await until(()=>q.root.querySelector('[data-series-hide]').textContent==='恢复系列');form.elements.title.value='Series next draft';form.elements.title.dispatchEvent(new q.w.Event('input',{bubbles:true}));form.querySelector('[data-editor-save]').click();await until(()=>form.querySelector('[data-editor-status]').textContent==='草稿已保存'&&!form.querySelector('[data-editor-save]').disabled);q.root.querySelector('[data-series-hide]').click();await until(()=>q.root.querySelector('[data-series-hide]').textContent==='下架系列');assert.equal((await(await q.call('/api/community-activities/series/'+id)).json()).series.title,'Series first edition');
+ form.querySelector('[data-editor-publish]').click();await until(()=>!form.elements.title.disabled&&(q.root.querySelector('[data-detail-state]').textContent==='已公开'));assert.equal((await(await q.call('/api/community-activities/series/'+id)).json()).series.title,'Series next draft');
  }finally{await q.close();}
 });

@@ -8,8 +8,12 @@
     "dist",
     ".astro",
     "node_modules",
+    "prototypes",
     "promo",
     "promo-app",
-    "promo-page"
+    "promo-page",
+    "public/_editor",
+    "public/_ui",
+    "qa/cache"
   ]
 }

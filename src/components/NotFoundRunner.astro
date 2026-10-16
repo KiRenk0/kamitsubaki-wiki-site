@@ -1,3 +1,7 @@
+---
+import WorkspaceButton from './WorkspaceButton.astro';
+import Icon from './Icon.astro';
+---
 <section class="not-found-runner" data-not-found-runner aria-labelledby="not-found-title">
   <div class="not-found-runner__hud" aria-live="polite">
     <span><b data-copy="distance">距离</b> <output data-runner-score>00000</output> M</span>
@@ -13,11 +17,11 @@
       aria-label="404 pixel runner"
     ></canvas>
     <div class="not-found-runner__prompt" data-runner-prompt>
-      <p data-copy="hint">点击 / 空格 / ↑ 跳跃</p>
+      <p data-copy="hint">点击 / 空格 / <Icon name="arrow-up" /> 跳跃</p>
     </div>
     <div class="not-found-runner__gameover" data-runner-gameover hidden>
       <strong data-copy="interrupted">信号中断</strong>
-      <button type="button" data-runner-restart data-copy="retry">再次连接</button>
+      <WorkspaceButton type="button" data-runner-restart data-copy="retry">再次连接</WorkspaceButton>
     </div>
   </div>
 </section>

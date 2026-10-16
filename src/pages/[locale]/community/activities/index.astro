@@ -1,0 +1,38 @@
+---
+import WorkspaceLayout from '../../../../layouts/WorkspaceLayout.astro';
+import WorkspaceButton from '../../../../components/WorkspaceButton.astro';
+import WorkspaceControl from '../../../../components/WorkspaceControl.astro';
+import CalendarMonth from '../../../../components/CalendarMonth.astro';
+import CalendarNavigation from '../../../../components/CalendarNavigation.astro';
+import Icon from '../../../../components/Icon.astro';
+import {supportedLocales} from '../../../../lib/i18n.mjs';
+import {communityCopy} from '../../../../lib/communityCopy.mjs';
+import {pageLabels} from '../../../../lib/pageLabels.mjs';
+import '../../../../styles/community.css';
+export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
+const locale=Astro.params.locale||'zh',c=communityCopy(locale),api=import.meta.env.PUBLIC_COMMUNITY_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
+---
+<WorkspaceLayout locale={locale} title={c.board} intro={c.intro} path="/community/activities/" eyebrow="COMMUNITY / ACTIVITIES" backHref={`/${locale}/`} backLabel={pageLabels(locale).home} width="wide" mainAttributes={{class:'community-page','data-community-calendar':'','data-locale':locale,'data-api':api,'data-copy':JSON.stringify(c)}}>
+ <Fragment slot="actions"><WorkspaceButton href={`/${locale}/events/`} tone="quiet">{c.officialCalendar}<Icon name="arrow-up-right"/></WorkspaceButton><WorkspaceButton href={`/${locale}/community/activities/apply/`} tone="primary">{c.apply}<Icon name="arrow-right"/></WorkspaceButton></Fragment>
+ <form class="community-calendar-controls" data-calendar-filters>
+  <div class="community-calendar-command">
+   <div class="community-month-navigation"><label><span class="sr-only">{c.month}</span><WorkspaceControl name="month" type="month" aria-label={c.month}/></label><CalendarNavigation source="community" previous={c.previous} next={c.next} today={c.today}/></div>
+   <div class="community-view-tabs" role="group" aria-label={c.view}><WorkspaceButton data-calendar-view="calendar" aria-pressed="false"><Icon name="calendar-days"/>{c.calendar}</WorkspaceButton><WorkspaceButton data-calendar-view="agenda" aria-pressed="false"><Icon name="list"/>{c.agenda}</WorkspaceButton></div>
+  </div>
+  <div class="community-filter-bar"><label class="community-search"><span class="sr-only">{c.search}</span><WorkspaceControl name="q" type="search" placeholder={c.searchPlaceholder}/></label><details class="community-filter-details" data-calendar-filter-details><summary class="workspace-button dui-btn dui-btn-ghost" data-ui-kit data-tone="secondary"><span data-calendar-filter-summary>{c.filterActivities}</span></summary><div class="community-toolbar" data-filter-surface role="group" aria-label={c.filterActivities}>
+   <label><span>{c.country}</span><WorkspaceControl as="select" name="country"><option value="">{c.all}</option></WorkspaceControl></label>
+   <label><span>{c.subdivisionCode}</span><WorkspaceControl as="select" name="subdivisionCode"><option value="">{c.all}</option></WorkspaceControl></label>
+   <label><span>{c.city}</span><WorkspaceControl as="select" name="cityId"><option value="">{c.all}</option></WorkspaceControl></label>
+   <input type="hidden" name="city"/><p class="community-location-note" data-location-status role="status"></p><WorkspaceButton class="community-location-note" data-location-retry hidden>{c.retry}</WorkspaceButton>
+   <label>{c.mode}<WorkspaceControl as="select" name="mode"><option value="">{c.all}</option>{['online','offline','hybrid'].map(mode=><option value={mode}>{c[mode]}</option>)}</WorkspaceControl></label>
+   <label>{c.category}<WorkspaceControl as="select" name="category"><option value="">{c.all}</option>{['new-year','support','meetup','convention','other'].map(category=><option value={category}>{c[category]}</option>)}</WorkspaceControl></label>
+  </div></details></div>
+ </form>
+ <div class="community-calendar-meta"><p>{c.dateBasis}</p><label><WorkspaceControl type="checkbox" data-deadline-toggle checked/>{c.pointToggle}</label></div>
+ <p class="community-load-status" data-calendar-status role="status">{c.loading}</p><WorkspaceButton data-calendar-retry hidden>{c.retry}</WorkspaceButton>
+ <div class="community-calendar-body"><section data-calendar-month-panel><CalendarMonth source="community" locale={locale} weekStartsOn={1}/></section><section class="community-agenda" data-calendar-agenda aria-live="polite"></section></div>
+ <section class="community-undated" data-calendar-undated-section hidden><h2>{c.undated}</h2><div data-calendar-undated></div></section>
+ <section class="community-featured" data-community-featured-section hidden><h2>{c.featured}</h2><div class="community-card-grid" data-community-featured></div></section>
+ <footer class="community-subscription"><p>{c.subscribeHelp}</p><div class="community-actions"><WorkspaceButton data-community-subscribe href="#"><Icon name="calendar-days"/>{c.subscribe}</WorkspaceButton><WorkspaceButton data-community-copy-subscription tone="quiet">{c.copySubscription}</WorkspaceButton></div></footer>
+</WorkspaceLayout>
+<script>import {initCommunityCalendar} from '../../../../scripts/communityCalendar.js';initCommunityCalendar(document.querySelector('[data-community-calendar]'));</script>

@@ -1,10 +1,11 @@
 ---
-import Icon from '../components/Icon.astro';
+import Icon from './Icon.astro';
+import {normalizeBackLabel} from '../lib/pageLabels.mjs';
 interface Props {title:string;intro:string;eyebrow?:string;backHref?:string;backLabel?:string;}
 const {title,intro,eyebrow,backHref,backLabel}=Astro.props;
 ---
 <header class="workspace-header">
-  {backHref&&<div class="workspace-back-row"><a class="workspace-back" href={backHref}><span aria-hidden="true"><Icon name="arrow-left" /></span><span>{backLabel||'LABs'}</span></a></div>}
+  {backHref&&<div class="workspace-back-row"><a class="workspace-back" href={backHref}><span aria-hidden="true"><Icon name="arrow-left" /></span><span>{normalizeBackLabel(backLabel)||'LABs'}</span></a></div>}
   <div class="workspace-heading">{eyebrow&&<p class="workspace-eyebrow">{eyebrow}</p>}<h1>{title}</h1><p>{intro}</p></div>
   <div class="workspace-actions"><slot/></div>
   <div class="workspace-header-status"><slot name="status"/></div>

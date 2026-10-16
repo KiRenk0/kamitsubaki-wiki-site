@@ -1,5 +1,6 @@
 ---
-import Icon from '../components/Icon.astro';
+import WorkspaceButton from './WorkspaceButton.astro';
+import Icon from './Icon.astro';
 type LocaleLink = {
   code: string;
   label: string;
@@ -22,11 +23,11 @@ const chineseMenuLabel = currentLocale === 'ja' ? '中国語：簡体字と繁�
 <div class="site-nav__language-switcher" role="group" aria-label="Language / 语言 / 言語">
   {chineseLinks.length > 0 && (
     <div class="site-nav__language-family" data-language-family>
-      <button type="button" class="site-nav__language-trigger" data-language-menu-trigger
+      <WorkspaceButton type="button" class="site-nav__language-trigger" data-language-menu-trigger
         data-current-language={chineseIsCurrent ? 'true' : undefined}
         aria-haspopup="menu" aria-expanded="false" aria-label={chineseMenuLabel} title={chineseMenuLabel}>
         <span>中</span><Icon name="chevron-down" class="site-nav__language-chevron" size={10} />
-      </button>
+      </WorkspaceButton>
       <div class="site-nav__language-menu" role="menu" aria-label="中文" aria-hidden="true" data-language-menu>
         {chineseLinks.map(item => <a href={item.href} hreflang={item.code} lang={item.code} role="menuitem" aria-current={item.current ? 'page' : undefined} class={item.current ? 'is-current' : undefined}>{item.dropdownLabel ?? item.shortLabel}</a>)}
       </div>

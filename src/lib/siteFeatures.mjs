@@ -3,6 +3,7 @@ const text=(zh,en,ja)=>({zh,en,ja});
 export const siteFeatures=[
  {id:'database',group:'main',path:'/database/',title:text('百科','Encyclopedia','百科'),summary:text('人物、团体、项目与音乐作品','People, groups, projects and music','人物・グループ・企画・音楽')},
  {id:'articles',group:'main',path:'/articles/',title:text('文章专栏','Articles','記事'),summary:text('考据、观点与观测记录','Research, perspectives and observations','考察・視点・観測記録')},
+ {id:'community',group:'main',path:'/community/activities/',title:text('观测者企划','Observer Projects','観測者企画'),summary:text('社群活动日历、应援与同人企划','Fan events, support and creative projects','ファンイベント・応援・創作企画')},
  {id:'explore',group:'main',path:'/explore/',title:text('探索','Explore','探索'),summary:text('循着时间与关联，发现更多','Follow time and connections','時間とつながりをたどる')},
  {id:'graph',group:'main',path:'/graph/',title:text('关系图谱','Graph','関係図'),summary:text('探索全站连接，比较人物与作品之间的路径','Explore archive connections and compare paths','全体のつながりと経路を探索')},
  {id:'labs',group:'main',path:'/labs/',beta:true,title:text('LABs · Beta','LABs · Beta','LABs · Beta'),summary:text('游戏与实验体验','Games and experiments','ゲームと実験')},

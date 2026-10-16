@@ -1,4 +1,5 @@
 ---
+import WorkspaceControl from '../../../components/WorkspaceControl.astro';
 import Icon from '../../../components/Icon.astro';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import SiteNav from '../../../components/SiteNav.astro';
@@ -29,7 +30,7 @@ const reference=resolveLocaleCopy({zh:{title:'完整参考与跟做练习',note:
   <WorkspaceHeader title={copy.title} intro={copy.intro} eyebrow={copy.eyebrow} backHref={`/${locale}/`} backLabel={copy.home}/>
   <section class="docs-task-start"><h2>{tasks.title}</h2><div>{tasks.items.map(([title,description,path],index)=><a href={`/${locale}/docs/${path}`}><small>0{index+1}</small><strong>{title}</strong><span>{description}</span><b aria-hidden="true"><Icon name="arrow-up-right" /></b></a>)}</div></section>
   <section class="docs-reference"><div><span>DEEP REFERENCE</span><h2>{reference.title}</h2><p>{reference.note}</p></div><nav aria-label={reference.title}>{reference.items.map(([title,note,href])=><a href={href}><strong>{title}</strong><small>{note}</small><b aria-hidden="true"><Icon name="arrow-up-right" /></b></a>)}</nav></section>
-  <div class="docs-search"><label for="docs-query">{copy.search}</label><input id="docs-query" type="search" autocomplete="off" placeholder={copy.search} data-docs-query/></div>
+  <div class="docs-search"><label for="docs-query">{copy.search}</label><WorkspaceControl id="docs-query" type="search" autocomplete="off" placeholder={copy.search} data-docs-query/></div>
   <div data-docs-groups>
    {books.map((book,index)=><section class="docs-book" data-docs-book aria-labelledby={`docs-book-${book.id}`}>
     <header><span>{String(index+1).padStart(2,'0')} / {book.id.toUpperCase()}</span><h2 id={`docs-book-${book.id}`}>{book.title}</h2><p>{book.description}</p></header>

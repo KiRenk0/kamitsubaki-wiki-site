@@ -1,15 +1,20 @@
-import traditionalDefinition from '../../public/TraditionalChineseConvert.json' with {type:'json'};
+import traditionalDefinition from '../i18n/traditional-definition.generated.json' with {type:'json'};
 import uiOverrides from '../i18n/traditional-ui-overrides.json' with {type:'json'};
 import OpenCC from 'opencc-js';
 
 import { splitShortcodeArguments } from './shortcodeArguments.mjs';
 
-const simplifiedNormalizer = OpenCC.Converter({ from: 't', to: 'cn' });
-
-const regionalConverters = Object.freeze({
-  'zh-tw': OpenCC.Converter({ from: 'cn', to: 'twp' }),
-  'zh-hk': OpenCC.Converter({ from: 'cn', to: 'hkp' }),
-});
+// Dictionary tries are expensive. Initialize only the language actually used,
+// so importing reader helpers does not allocate all three at Worker startup.
+const chineseConverters = new Map();
+function chineseConverter(locale) {
+  if (!chineseConverters.has(locale)) {
+    chineseConverters.set(locale, OpenCC.Converter(locale === 'zh'
+      ? { from: 't', to: 'cn' }
+      : { from: 'cn', to: locale === 'zh-tw' ? 'twp' : 'hkp' }));
+  }
+  return chineseConverters.get(locale);
+}
 
 const targetKeys = Object.freeze({
   zh: 'zh',
@@ -175,7 +180,7 @@ export function isChineseContentLocale(locale) {
 }
 
 function normalizeToSimplified(text) {
-  return simplifiedNormalizer(text);
+  return chineseConverter('zh')(text);
 }
 
 // SSG pages re-convert the same UI strings thousands of times.
@@ -195,7 +200,7 @@ export function convertChineseText(text, locale, options = {}) {
   const afterJapanese = protectJapaneseSpans(normalized, restorations);
   const afterTerms = protectTerms(afterJapanese, locale, restorations);
   const simplified = normalizeToSimplified(afterTerms);
-  const converted = regionalConverters[locale]?.(simplified) ?? simplified;
+  const converted = isTraditionalChineseLocale(locale) ? chineseConverter(locale)(simplified) : simplified;
   const localized = options.ui ? applyUiOverrides(converted, locale) : converted;
   const result = restoreTerms(localized, restorations);
   if (chineseTextCache.size >= CHINESE_TEXT_CACHE_LIMIT) chineseTextCache.clear();

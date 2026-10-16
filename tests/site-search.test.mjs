@@ -3,11 +3,9 @@ import { readFile } from 'node:fs/promises';
 import test from 'node:test';
 
 import {
-  buildSearchExcerpt,
   normalizeSearchText,
   searchKindGroups,
   searchResultPath,
-  searchSiteIndex,
 } from '../src/lib/siteSearch.mjs';
 import {
   buildIndexAliases,
@@ -63,46 +61,9 @@ test('search normalization handles width, case, and repeated whitespace', () => 
   assert.equal(normalizeSearchText('  ＫＡＦ   Studio '), 'kaf studio');
 });
 
-test('site search prioritizes exact titles and filters the active locale', () => {
-  const zhResults = searchSiteIndex(entries, '花譜', { locale: 'zh' });
-  assert.deepEqual(zhResults.map((entry) => entry.title), ['花譜']);
 
-  const enResults = searchSiteIndex(entries, 'kaf', { locale: 'en' });
-  assert.deepEqual(enResults.map((entry) => entry.title), ['KAF']);
-  assert.ok(enResults[0].score > 1000);
-});
 
-test('site search supports multi-token body matches and safe result paths', () => {
-  const results = searchSiteIndex(entries, 'V.W.P 代表', { locale: 'zh' });
-  assert.deepEqual(results.map((entry) => entry.title), ['魔女']);
-  assert.equal(searchResultPath(results[0].url), '/zh/songs/vwp/genealogy/%E9%AD%94%E5%A5%B3/');
-});
 
-test('site search tolerates small Latin-name typos and supports kind filters', () => {
-  const typoResults = searchSiteIndex(entries, 'KAFf', { locale: 'en' });
-  assert.deepEqual(typoResults.map((entry) => entry.title), ['KAF']);
-
-  assert.deepEqual(
-    searchSiteIndex(entries, 'V.W.P', { locale: 'zh', kind: 'song' }).map((entry) => entry.title),
-    ['魔女'],
-  );
-});
-
-test('V3 search filters match canonical entity kinds', () => {
-  const records = [
-    { title: '花譜', path: '/zh/database/artists/solo/kaf/', locale: 'zh', kind: 'virtual-avatar' },
-    { title: '花譜 AI', path: '/zh/database/isotopes/kaf-ai/', locale: 'zh', kind: 'software-voice' },
-    { title: '花譜 新曲', path: '/zh/database/music/songs/new/', locale: 'zh', kind: 'work-track' },
-    { title: '花譜 专辑', path: '/zh/database/music/albums/new/', locale: 'zh', kind: 'work-release' },
-    { title: '花譜 演出', path: '/zh/database/live/new/', locale: 'zh', kind: 'live-event' },
-    { title: '花譜 世界观', path: '/zh/database/lore/new/', locale: 'zh', kind: 'lore-concept' },
-    { title: '花譜 组织', path: '/zh/database/organization/new/', locale: 'zh', kind: 'organization' },
-  ];
-  for (const [filter, kinds] of [['artist', ['virtual-avatar', 'software-voice']], ['song', ['work-track']], ['album', ['work-release']], ['live', ['live-event']], ['lore', ['lore-concept']], ['organization', ['organization']]]) {
-    const results = searchSiteIndex(records, '花譜', { locale: 'zh', kind: searchKindGroups[filter] });
-    assert.deepEqual(new Set(results.map((entry) => entry.kind)), new Set(kinds), filter);
-  }
-});
 
 test('CJK folding unifies simplified, traditional, and Japanese shinjitai', () => {
   assert.equal(foldCjkSearchText('观测'), '观测');
@@ -112,76 +73,8 @@ test('CJK folding unifies simplified, traditional, and Japanese shinjitai', () =
   assert.equal(foldCjkSearchText('カミツバキ'), 'かみつばき');
 });
 
-test('site search uses folded CJK keys and tolerates a CJK typo', () => {
-  const foldedEntries = [{
-    title: '観測者',
-    path: '/ja/artists/observer/',
-    locale: 'ja',
-    kind: 'artist',
-    description: 'Japanese title',
-    titleKey: foldCjkSearchText('観測者'),
-    aliasKey: foldCjkSearchText('觀測者 观测者'),
-    headingKey: foldCjkSearchText('神椿藝術'),
-    searchKey: '',
-  }];
 
-  for (const query of ['观测者', '觀測者', '観測者', '观侧者', '观者']) {
-    const results = searchSiteIndex(foldedEntries, query, {
-      locale: 'ja',
-      queryNormalizer: foldCjkSearchText,
-    });
-    assert.deepEqual(results.map((entry) => entry.title), ['観測者'], query);
-  }
-});
 
-test('fuzzy title matches rank above incidental alias matches', () => {
-  const fuzzyEntries = [
-    {
-      title: '花譜',
-      path: '/zh/artists/vwp/kaf/',
-      locale: 'zh',
-      kind: 'artist',
-      titleKey: foldCjkSearchText('花譜'),
-      aliasKey: foldCjkSearchText('KAF'),
-      headingKey: '',
-      searchKey: '',
-    },
-    {
-      title: '1984 (LIVE)',
-      path: '/zh/songs/kaf/covers/1984/',
-      locale: 'zh',
-      kind: 'song',
-      titleKey: foldCjkSearchText('1984 (LIVE)'),
-      aliasKey: foldCjkSearchText('花譜 KAF'),
-      headingKey: '',
-      searchKey: '',
-    },
-    {
-      title: '花女',
-      path: '/zh/songs/kaf/originals/flower-girl/',
-      locale: 'zh',
-      kind: 'song',
-      titleKey: foldCjkSearchText('花女'),
-      aliasKey: '',
-      headingKey: '',
-      searchKey: '',
-    },
-  ];
-  const results = searchSiteIndex(fuzzyEntries, '花普', {
-    locale: 'zh',
-    queryNormalizer: foldCjkSearchText,
-  });
-
-  assert.deepEqual(results.map((entry) => entry.title), ['花譜', '花女', '1984 (LIVE)']);
-  assert.ok(results[0].score > results[1].score);
-});
-
-test('search excerpts center the first query match', () => {
-  const excerpt = buildSearchExcerpt({ text: `${'前文'.repeat(80)} 花譜 观测记录 ${'后文'.repeat(80)}` }, '花譜', 80);
-  assert.match(excerpt, /^…/);
-  assert.match(excerpt, /花譜/);
-  assert.match(excerpt, /…$/);
-});
 
 test('AI index helpers preserve useful ruby readings while removing markup noise', () => {
   const cleaned = cleanIndexText(`
@@ -230,12 +123,14 @@ test('search UI is mounted globally with open and close motion', async () => {
   assert.match(component, /data-site-search/);
   assert.match(component, /role="dialog"/);
   assert.match(component, /data-search-input/);
-  assert.match(script, /search-index\.json/);
+  assert.match(script, /searchPagefind/);
+  assert.doesNotMatch(script, /search-index\.json|search-body\.json/);
   assert.match(script, /event\.key\.toLowerCase\(\) === 'k'/);
   assert.match(script, /getSearchShortcut/);
   assert.match(script, /querySelectorAll\('\[data-search-shortcut\]'\)/);
   assert.match(script, /event\.key === 'Escape'/);
-  assert.match(script, /event\.key !== 'Tab'/);
+  assert.match(script, /root\.showModal/);
+  assert.match(script, /lockModalScroll/);
   assert.match(script, /classList\.add\('is-closing'\)/);
   assert.match(script, /closeAnimationTimer/);
   assert.match(styles, /@keyframes site-search-enter/);

@@ -1,5 +1,6 @@
 ---
-import Icon from '../components/Icon.astro';
+import WorkspaceButton from './WorkspaceButton.astro';
+import Icon from './Icon.astro';
 import { getLanguageTag } from '../lib/i18n.mjs';
 
 type LiveEventsCopy = {
@@ -60,9 +61,9 @@ const apiBase = import.meta.env.PUBLIC_EVENTS_API_BASE || 'https://kamitsubaki-e
           <p>{copy.eyebrow}</p>
           <h2>{copy.title}</h2>
         </div>
-        <button type="button" data-live-events-close aria-label={copy.closeLabel}>
+        <WorkspaceButton type="button" data-live-events-close aria-label={copy.closeLabel}>
           <Icon name="x" />
-        </button>
+        </WorkspaceButton>
       </header>
 
       <div class="live-events__date-line">
@@ -79,7 +80,7 @@ const apiBase = import.meta.env.PUBLIC_EVENTS_API_BASE || 'https://kamitsubaki-e
       </footer>
     </div>
 
-    <button
+    <WorkspaceButton
       class="live-events__toggle"
       type="button"
       data-live-events-toggle
@@ -90,7 +91,7 @@ const apiBase = import.meta.env.PUBLIC_EVENTS_API_BASE || 'https://kamitsubaki-e
       <Icon name="calendar-days" />
       <i data-live-events-signal aria-hidden="true"></i>
     <strong>{copy.buttonLabel}</strong>
-    </button>
+    </WorkspaceButton>
   </aside>
 )}
 

@@ -1,6 +1,8 @@
 import { defineConfig } from 'astro/config';
 import { loadEnv } from 'vite';
 import searchIndex from './scripts/search-index-integration.mjs';
+import pagefind from './scripts/pagefind-integration.mjs';
+import localPagefind from './scripts/local-pagefind-plugin.mjs';
 import { productionOrigin } from './src/lib/searchMetadata.mjs';
 
 import { unified } from '@astrojs/markdown-remark';
@@ -26,12 +28,13 @@ const stableFontDisplay=()=>({
 export default defineConfig({
   site: process.env.PUBLIC_SITE_URL || PUBLIC_SITE_URL || productionOrigin,
   output: 'static',
-  integrations: [thumbnails(), searchIndex()],
+  cacheDir: process.env.WIKI_ASTRO_CACHE_DIR,
+  integrations: [thumbnails(), searchIndex(), pagefind()],
   vite: {
     // Separate caches when running an isolated preview beside the main dev server.
     cacheDir: process.env.VITE_CACHE_DIR,
     server: { strictPort: process.env.ONLINE_INTEGRATION === 'true' },
-    plugins: [stableFontDisplay(),tailwindcss()],
+    plugins: [localPagefind(),stableFontDisplay(),tailwindcss()],
   },
   markdown: {
     syntaxHighlight: false,

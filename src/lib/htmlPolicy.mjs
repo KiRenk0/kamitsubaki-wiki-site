@@ -38,7 +38,7 @@ export const wikiHtmlSchema = {
   attributes: {
     ...defaultSchema.attributes,
     code: [
-      ...(defaultSchema.attributes?.code || []),
+      ...(defaultSchema.attributes?.code || []).filter(attribute => !(Array.isArray(attribute) && attribute[0] === 'className')),
       ['className', /^language-./, 'math-inline', 'math-display'],
     ],
     div: [

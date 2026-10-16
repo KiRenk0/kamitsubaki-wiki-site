@@ -2,6 +2,8 @@
 import { getCollection } from '../lib/contentAuditContext';
 import ToolsDock from '../components/ToolsDock.astro';
 import SupportFloat from '../components/SupportFloat.astro';
+import SupportDialog from '../components/SupportDialog.astro';
+import CommunityFloat from '../components/CommunityFloat.astro';
 import AccountChrome from '../components/AccountChrome.astro';
 import AiChatWidget from '../components/AiChatWidget.astro';
 import LiveEventsWidget from '../components/LiveEventsWidget.astro';
@@ -211,15 +213,15 @@ const liveEventsCopy = siteContent?.liveEvents;
 
     <div class="noise-bg"></div>
 
-    {!reading && <SupportFloat locale={lang} />}
+    <SupportFloat locale={lang} />
+    <SupportDialog locale={lang} />
+    <CommunityFloat locale={lang} />
     <ToolsDock lang={lang} reading={reading}>
-      {reading && <SupportFloat locale={lang} docked />}
       <slot name="tools" />
       {isLocalizedHome && liveEventsCopy && <LiveEventsWidget lang={lang} copy={liveEventsCopy} />}
       {socialContactCopy && <SocialContactWidget lang={lang} copy={socialContactCopy} />}
-      {reading && aiChatCopy && <AiChatWidget lang={lang} copy={aiChatCopy} launcher="dock" showPanel={false} />}
     </ToolsDock>
-    {aiChatCopy && <AiChatWidget lang={lang} copy={aiChatCopy} launcher={reading ? 'none' : 'floating'} />}
+    {aiChatCopy && <AiChatWidget lang={lang} copy={aiChatCopy} launcher="floating" />}
 
     <slot />
     <AccountChrome locale={lang} />
@@ -228,6 +230,8 @@ const liveEventsCopy = siteContent?.liveEvents;
 
 
     <script>
+      import {observeWorkspaceControls} from '../lib/workspaceControls.mjs';
+      observeWorkspaceControls();
       import {installDetailsMotion} from '../lib/detailsMotion.mjs';
       installDetailsMotion();
       import '../scripts/navigationMotion.js';

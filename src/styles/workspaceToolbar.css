@@ -15,12 +15,12 @@ html body [data-workspace-toolbar].workspace-toolbar>label,html body [data-works
 }
 html body [data-workspace-toolbar].workspace-toolbar>label:has(input[type=search]),html body [data-workspace-toolbar].workspace-toolbar>form>label:has(input[type=search]){flex:3 1 220px}
 html body [data-workspace-toolbar].workspace-toolbar label>span{font:12px/1.5 var(--font-sans);letter-spacing:normal}
-html body [data-workspace-toolbar].workspace-toolbar :is(input[type=search],select){
+html body [data-workspace-toolbar].workspace-toolbar :is(input[type=search],select):not(.workspace-control){
   box-sizing:border-box;width:100%;min-width:0;height:var(--tool-height);min-height:var(--tool-height);max-width:100%;
   margin:0;padding:8px 11px;border:1px solid var(--tool-line);border-radius:var(--ui-radius-control,4px);
   background:var(--theme-bg);color:var(--theme-fg);font:13px/1.5 var(--font-sans);letter-spacing:normal;box-shadow:none;
 }
-html body [data-workspace-toolbar].workspace-toolbar :is(button,.workspace-tool-action,.workspace-filter-more>summary){
+html body [data-workspace-toolbar].workspace-toolbar :is(button,.workspace-tool-action,.workspace-filter-more>summary):not(.dui-btn){
   display:inline-flex;align-items:center;justify-content:center;gap:6px;flex:none;box-sizing:border-box;
   min-height:var(--tool-height);margin:0;padding:8px 12px;border:1px solid var(--tool-line);
   border-radius:var(--ui-radius-control,4px);background:transparent;color:var(--theme-fg);
@@ -41,7 +41,7 @@ html body [data-workspace-toolbar].workspace-toolbar .workspace-tool-filters sma
  html body [data-workspace-toolbar].workspace-toolbar{--tool-height:44px;gap:10px}
  html body [data-workspace-toolbar].workspace-toolbar>label,html body [data-workspace-toolbar].workspace-toolbar>form>label{flex-basis:calc(50% - 10px)}
  html body [data-workspace-toolbar].workspace-toolbar>label:has(input[type=search]),html body [data-workspace-toolbar].workspace-toolbar>form>label:has(input[type=search]){flex-basis:100%}
- html body [data-workspace-toolbar].workspace-toolbar :is(input[type=search],select){font-size:16px}
+ html body [data-workspace-toolbar].workspace-toolbar :is(input[type=search],select):not(.workspace-control){font-size:16px}
  html body [data-workspace-toolbar].workspace-toolbar .workspace-tool-filters>button{min-height:44px}
 }
 @media(pointer:coarse){html body [data-workspace-toolbar].workspace-toolbar{--tool-height:44px}html body [data-workspace-toolbar].workspace-toolbar .workspace-tool-filters>button{min-height:44px}}

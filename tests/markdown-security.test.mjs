@@ -172,3 +172,11 @@ test('sanitizes math source before trusted KaTeX output is generated', async () 
   assert.match(rendered, /class="katex"/);
   assert.match(rendered, /<math xmlns="http:\/\/www\.w3\.org\/1998\/Math\/MathML">/);
 });
+
+test('preserves authored table widths and alignment while removing executable attributes and styles', async () => {
+  const rendered = await renderMarkdownFragment('<table><tbody><tr><th width="220" style="position:fixed" onclick="alert(1)">标题</th><td width="180" onmouseover="alert(1)" colspan="2" align="right">资料</td></tr></tbody></table>');
+  assert.match(rendered, /<th width="220">标题<\/th>/);
+  assert.match(rendered, /colspan="2"/);
+  assert.match(rendered, /align="right"/);
+  assert.doesNotMatch(rendered, /javascript:|style=|onclick=|onmouseover=/);
+});

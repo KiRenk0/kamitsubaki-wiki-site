@@ -48,7 +48,7 @@ const zh = {
   wallIntro: '感谢每一位支持者，也感谢所有参与编辑、纠错和分享的朋友。',
   wallEmpty: '感谢名单，等待与你相遇。',
   wallEmptyBody: '公开名单尚未发布。每一份支持，无论是否署名，都值得感谢。',
-  wallPrivacy: '仅展示同意公开的署名，不按赞助金额排名。匿名支持同样珍贵。',
+  wallPrivacy: '感谢名单统一展示支持者的昵称与头像，不按金额排名。邮箱、订单与金额不会公开。',
   disclaimerTitle: '关于这份支持',
   disclaimer: [
     'KAMITSUBAKI Fan Wiki 是独立的非官方粉丝项目，与 KAMITSUBAKI STUDIO、THINKR 及相关艺人或权利人无隶属关系，亦不代表官方。',
@@ -86,7 +86,7 @@ const copy: Record<'zh' | 'ja' | 'en', SupportCopy> = {
     asOf: '集計日', reportLink: '明細を見る', reportEmpty: 'この年度の収支はまだ公開されていません。整理ができ次第、更新します。', noReports: '年度記録は整理ができ次第、公開します。',
     wallTitle: '観測所を支えてくれて、ありがとう。', wallIntro: '支援してくださる皆さま、編集・修正・共有に参加してくださる皆さまに感謝します。',
     wallEmpty: '感謝の名簿は、これから。', wallEmptyBody: '公開名簿はまだありません。お名前の掲載にかかわらず、すべての支援に感謝します。',
-    wallPrivacy: '掲載に同意いただいたお名前のみを表示し、金額による順位は設けません。匿名の支援も同じように大切です。',
+    wallPrivacy: '支援者の表示名とアイコンを掲載します。金額による順位は設けず、メールアドレス・注文・金額は公開しません。',
     disclaimerTitle: '支援について',
     disclaimer: [
       'KAMITSUBAKI Fan Wiki は独立した非公式ファンプロジェクトです。KAMITSUBAKI STUDIO、THINKR、関連アーティストや権利者とは所属関係がなく、公式を代表しません。',
@@ -117,7 +117,7 @@ const copy: Record<'zh' | 'ja' | 'en', SupportCopy> = {
     asOf: 'Recorded through', reportLink: 'View details', reportEmpty: 'Figures for this year have not been published yet. They will be updated here once compiled.', noReports: 'Yearly records will appear here once compiled.',
     wallTitle: 'Thank you for keeping the lights on.', wallIntro: 'To everyone who supports, edits, corrects, and shares this wiki: thank you.',
     wallEmpty: 'A space for our supporters.', wallEmptyBody: 'The public list has not been published yet. Every contribution is appreciated, with or without a name.',
-    wallPrivacy: 'Only names shared with permission appear here, with no ranking by contribution amount. Anonymous support matters just as much.',
+    wallPrivacy: 'Supporters appear with their display name and avatar, without ranking by amount. Email addresses, orders and payment amounts remain private.',
     disclaimerTitle: 'About your support',
     disclaimer: [
       'KAMITSUBAKI Fan Wiki is an independent, unofficial fan project. It is not affiliated with or endorsed by KAMITSUBAKI STUDIO, THINKR, their artists, or other rightsholders, and does not represent them.',

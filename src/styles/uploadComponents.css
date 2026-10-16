@@ -1,0 +1,5 @@
+@import '@uppy/core/css/style.min.css';
+@import '@uppy/status-bar/css/style.min.css';
+.site-upload-status{min-width:0;margin-block:12px}.site-upload-status .uppy-StatusBar{position:relative;background:var(--ui-color-surface);color:var(--theme-fg);border:1px solid var(--ui-line);font:14px/1.5 var(--font-sans)}.site-upload-status .uppy-StatusBar-statusPrimary{color:var(--theme-fg)}.site-upload-status .uppy-StatusBar-statusSecondary{color:var(--ui-color-muted)}.site-upload-status .uppy-StatusBar-progress{background:var(--ui-color-accent)}
+
+.site-upload-status button{min-width:44px;min-height:44px;display:inline-grid;place-items:center}.site-upload-status button:focus-visible{outline:2px solid var(--ui-color-accent);outline-offset:2px}

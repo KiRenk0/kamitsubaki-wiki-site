@@ -26,6 +26,7 @@ html body .entity-info-more-body>section:last-child{padding-bottom:4px}
 html body .entity-info-more-body h3{margin:0 0 8px;color:var(--reader-text);font:600 12px/1.6 var(--font-sans);letter-spacing:.025em}
 html body .entity-info .info-relation{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:7px 0;color:var(--reader-text);font:500 13px/1.7 var(--font-sans);overflow-wrap:anywhere}
 html body .entity-info .info-relation small{font:10px/1.6 var(--font-sans);color:var(--reader-muted);flex:none}
+html body .entity-info .info-relation-date{display:block;color:var(--reader-muted);font:11px/1.7 var(--font-sans);padding-bottom:8px}
 html body .entity-info .entity-info-credits>div{padding:5px 0}
 html body .entity-info .info-links{display:grid;gap:0}
 html body .wiki-infobox.entity-info .info-links .external-link-card{grid-template-columns:20px minmax(0,1fr) 16px;min-height:44px;gap:10px;padding:9px 0;border:0;background:none;border-radius:0;box-shadow:none}

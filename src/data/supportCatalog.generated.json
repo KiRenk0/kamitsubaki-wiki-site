@@ -1,0 +1,53 @@
+{
+  "source": "https://afdian.com/a/LinkTh1rsty",
+  "planUrl": "https://afdian.com/a/LinkTh1rsty/plan",
+  "verifiedAt": "2026-10-15",
+  "currency": "CNY",
+  "tiers": [
+    {
+      "id": "observer",
+      "name": "观测者",
+      "monthlyAmount": 5
+    },
+    {
+      "id": "koko",
+      "name": "观测者幸组",
+      "monthlyAmount": 10
+    },
+    {
+      "id": "isekaijoucho",
+      "name": "观测者ヰ组",
+      "monthlyAmount": 10
+    },
+    {
+      "id": "harusaruhi",
+      "name": "观测者春组",
+      "monthlyAmount": 10
+    },
+    {
+      "id": "rim",
+      "name": "观测者芽组",
+      "monthlyAmount": 10
+    },
+    {
+      "id": "kaf",
+      "name": "观测者花组",
+      "monthlyAmount": 10
+    },
+    {
+      "id": "joint",
+      "name": "联合观测",
+      "monthlyAmount": 20
+    },
+    {
+      "id": "long-term",
+      "name": "长期支援",
+      "monthlyAmount": 50
+    },
+    {
+      "id": "custom",
+      "name": "自选金额",
+      "monthlyAmount": null
+    }
+  ]
+}

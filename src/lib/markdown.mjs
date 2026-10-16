@@ -1,34 +1,17 @@
 import { createMarkdownProcessor } from '@astrojs/markdown-remark';
-import rehypeExternalLinks from 'rehype-external-links';
 import rehypeKatex from 'rehype-katex';
-import rehypeRaw from 'rehype-raw';
-import rehypeSanitize from 'rehype-sanitize';
 import rehypeShiki from '@shikijs/rehype';
 import remarkMath from 'remark-math';
-import { rehypeMaterializeMediaEmbeds } from './mediaEmbed.mjs';
-import remarkMediaEmbed from './mediaEmbed.mjs';
-import { wikiHtmlSchema } from './htmlPolicy.mjs';
-import rehypeRawHtmlMarkdownLinks from './rawHtmlMarkdownLinks.mjs';
-import remarkWikiShortcodes from './wikiShortcodes.mjs';
-import rehypeDetailsSummary from './detailsSummary.mjs';
-
-const externalLinksOptions = { target: '_blank', rel: ['noopener', 'noreferrer'] };
-const baseRehypePlugins = [
-  rehypeRawHtmlMarkdownLinks,
-  rehypeRaw,
-  [rehypeSanitize, wikiHtmlSchema],
-  rehypeDetailsSummary,
-  rehypeMaterializeMediaEmbeds,
-];
+import {wikiRemarkPlugins,wikiRehypePlugins,wikiExternalLinks} from './wikiMarkdownPolicy.mjs';
 
 export const siteMarkdownOptions = {
   syntaxHighlight: false,
-  remarkPlugins: [remarkMath, remarkWikiShortcodes, remarkMediaEmbed],
+  remarkPlugins: [remarkMath,...wikiRemarkPlugins],
   rehypePlugins: [
-    ...baseRehypePlugins,
+    ...wikiRehypePlugins,
     rehypeKatex,
     [rehypeShiki, { theme: 'github-dark' }],
-    [rehypeExternalLinks, externalLinksOptions],
+    wikiExternalLinks,
   ],
 };
 
@@ -37,7 +20,7 @@ const fencePattern = /```|~~~|(?:^|\n)(?: {4}|\t)\S/u;
 const mathPattern = /\$\$[\s\S]+\$\$|\$[^$\n]+\$|\\[([]|\\begin\{/u;
 
 function needsFullMarkdownPipeline(source) {
-  return fencePattern.test(source) || mathPattern.test(source);
+  return fencePattern.test(source) || mathPattern.test(source) || /<code\b[^>]*\bclass=["'][^"']*(?:math-inline|math-display|language-math)/i.test(source);
 }
 
 let lightMarkdownRendererPromise;
@@ -47,10 +30,10 @@ async function getLightMarkdownRenderer() {
   if (!lightMarkdownRendererPromise) {
     lightMarkdownRendererPromise = createMarkdownProcessor({
       syntaxHighlight: false,
-      remarkPlugins: [remarkWikiShortcodes, remarkMediaEmbed],
+      remarkPlugins: wikiRemarkPlugins,
       rehypePlugins: [
-        ...baseRehypePlugins,
-        [rehypeExternalLinks, externalLinksOptions],
+        ...wikiRehypePlugins,
+        wikiExternalLinks,
       ],
     });
   }

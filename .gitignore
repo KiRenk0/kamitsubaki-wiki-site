@@ -10,6 +10,7 @@ dist/
 # Astro generated
 .astro/
 .cache/image-thumbnails/
+qa/cache/
 public/thumbnails/
 
 # Build-generated Traditional Chinese content
@@ -65,3 +66,7 @@ scripts/lyrics-cache.json
 lazygit.exe
 
 .local/
+public/images/novel-prototype/
+
+public/_editor/
+prototypes/novel-editor/dist-website/

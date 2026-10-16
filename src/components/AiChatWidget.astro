@@ -1,4 +1,6 @@
 ---
+import WorkspaceButton from './WorkspaceButton.astro';
+import WorkspaceControl from './WorkspaceControl.astro';
 import Icon from '../components/Icon.astro';
 import { getLanguageTag } from '../lib/i18n.mjs';
 import {centralAccountFrontendOrigin} from '../lib/centralAccountOrigins.mjs';
@@ -90,7 +92,7 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
 
 {launcher !== 'none' && <div class:list={['ai-chat__launcher', { 'ai-chat__launcher--docked': launcher === 'dock' }]} data-ai-launcher lang={languageTag}>
   {launcher === 'floating' && <div class="ai-chat__bubble" data-ai-bubble aria-hidden="true">{copy.bubbleIdle}</div>}
-  <button
+  <WorkspaceButton
     class="ai-chat__orb"
     type="button"
     data-ai-toggle
@@ -104,7 +106,7 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
     <span class="ai-chat__orb-corner ai-chat__orb-corner--br" aria-hidden="true">+</span>
     <Icon name="sparkles" />
     {launcher === 'dock' && <strong>{copy.title}</strong>}
-  </button>
+  </WorkspaceButton>
 </div>}
 
 {showPanel && <aside
@@ -117,12 +119,12 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
   aria-label={copy.title}
   inert
 >
-  <button
+  <WorkspaceButton
     class="ai-chat__scrim"
     type="button"
     data-ai-scrim
     aria-label={copy.closeLabel}
-  ></button>
+  ></WorkspaceButton>
 
   <section class="ai-chat__panel" data-ai-panel aria-hidden="true">
     <div class="ai-chat__hud-grid"></div>
@@ -134,15 +136,15 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
       </div>
 
       <div class="ai-chat__actions">
-        <button class="ai-chat__icon-btn" type="button" data-ai-history-toggle aria-expanded="false" aria-label={normalizedCopy.historyLabel}>
+        <WorkspaceButton class="ai-chat__icon-btn" type="button" data-ai-history-toggle aria-expanded="false" aria-label={normalizedCopy.historyLabel}>
           <Icon name="history" />
-        </button>
-        <button class="ai-chat__icon-btn" type="button" data-ai-settings-toggle aria-expanded="false" aria-label={normalizedCopy.settingsLabel}>
+        </WorkspaceButton>
+        <WorkspaceButton class="ai-chat__icon-btn" type="button" data-ai-settings-toggle aria-expanded="false" aria-label={normalizedCopy.settingsLabel}>
           <Icon name="sliders-horizontal" />
-        </button>
-        <button class="ai-chat__icon-btn ai-chat__icon-btn--close" type="button" data-ai-close aria-label={copy.closeLabel}>
+        </WorkspaceButton>
+        <WorkspaceButton class="ai-chat__icon-btn ai-chat__icon-btn--close" type="button" data-ai-close aria-label={copy.closeLabel}>
           <Icon name="x" />
-        </button>
+        </WorkspaceButton>
       </div>
 
       <div class="ai-chat__settings-popover" data-ai-settings-popover hidden>
@@ -150,12 +152,12 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
           <div class="ai-chat__control-group">
             <span>// {normalizedCopy.retrievalLabel}</span>
             <div class="ai-chat__segmented" role="radiogroup" data-ai-retrieval-mode data-value="auto">
-              <button type="button" role="radio" data-ai-retrieval-option="auto" aria-checked="true" class="is-active">
+              <WorkspaceButton type="button" role="radio" data-ai-retrieval-option="auto" aria-checked="true" class="is-active">
                 {normalizedCopy.retrievalAutoLabel}
-              </button>
-              <button type="button" role="radio" data-ai-retrieval-option="forced" aria-checked="false">
+              </WorkspaceButton>
+              <WorkspaceButton type="button" role="radio" data-ai-retrieval-option="forced" aria-checked="false">
                 {normalizedCopy.retrievalForcedLabel}
-              </button>
+              </WorkspaceButton>
             </div>
           </div>
           <a class="ai-chat__terminal-link" href={terminalUrl} data-ai-terminal-link>{normalizedCopy.terminalLabel} <span aria-hidden="true"><Icon name="arrow-right" /></span></a>
@@ -168,7 +170,7 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
         <div class="ai-chat__auth-status" data-ai-auth-status>{normalizedCopy.accountAnonymous}</div>
         <div class="ai-chat__auth-actions">
           <a class="ai-chat__auth-btn" data-ai-oauth href={signIn.toString()}>{lang==='en'?'Sign in / Create account':lang==='ja'?'ログイン・登録':'登录 / 注册'} <Icon name="arrow-right" /></a>
-          <button class="ai-chat__auth-btn" type="button" data-ai-logout hidden><Icon name="log-out" /> {normalizedCopy.logoutLabel}</button>
+          <WorkspaceButton class="ai-chat__auth-btn" type="button" data-ai-logout hidden><Icon name="log-out" /> {normalizedCopy.logoutLabel}</WorkspaceButton>
         </div>
       </div>
       <p data-ai-auth-note hidden></p>
@@ -179,8 +181,8 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
         <div class="ai-chat__history-head">
           <span>// ARCHIVES</span>
           <div class="ai-chat__history-actions">
-            <button type="button" class="ai-chat__icon-btn" data-ai-new-thread aria-label={normalizedCopy.newThreadLabel}><Icon name="plus" /></button>
-            <button type="button" class="ai-chat__icon-btn" data-ai-history-clear aria-label={normalizedCopy.clearHistoryLabel}><Icon name="trash-2" /></button>
+            <WorkspaceButton type="button" class="ai-chat__icon-btn" data-ai-new-thread aria-label={normalizedCopy.newThreadLabel}><Icon name="plus" /></WorkspaceButton>
+            <WorkspaceButton type="button" class="ai-chat__icon-btn" data-ai-history-clear aria-label={normalizedCopy.clearHistoryLabel}><Icon name="trash-2" /></WorkspaceButton>
           </div>
         </div>
         <template data-ai-thread-menu></template>
@@ -200,7 +202,7 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
         </div>
 
         <div class="ai-chat__quick" data-ai-quick>
-          {copy.quickPrompts.map((prompt) => <button type="button" data-ai-prompt={prompt}>&gt; {prompt}</button>)}
+          {copy.quickPrompts.map((prompt) => <WorkspaceButton type="button" data-ai-prompt={prompt}>&gt; {prompt}</WorkspaceButton>)}
         </div>
 
         <div class="ai-chat__challenge-tray" data-ai-challenge-tray hidden aria-live="polite">
@@ -213,16 +215,16 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
         <form class="ai-chat__form" data-ai-form>
           <div class="ai-chat__composer">
             <span class="ai-chat__prompt-symbol">&gt;_</span>
-            <textarea
+            <WorkspaceControl as="textarea"
               id="ai-chat-input"
               data-ai-input
               rows="1"
               maxlength="5000"
               placeholder={copy.inputPlaceholder}
-            ></textarea>
-            <button type="submit" class="ai-chat__submit-btn" data-ai-submit aria-label={copy.sendLabel}>
+            ></WorkspaceControl>
+            <WorkspaceButton type="submit" class="ai-chat__submit-btn" data-ai-submit aria-label={copy.sendLabel}>
               <Icon name="arrow-right" />
-            </button>
+            </WorkspaceButton>
           </div>
           <p class="ai-chat__hint">{normalizedCopy.keyboardHint}</p>
         </form>
@@ -236,10 +238,10 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
       <div class="ai-chat__dialog-glow" aria-hidden="true"></div>
       <h3 data-ai-dialog-title></h3>
       <p data-ai-dialog-message></p>
-      <input data-ai-dialog-input type="text" maxlength="80" autocomplete="off" />
+      <WorkspaceControl data-ai-dialog-input type="text" maxlength="80" autocomplete="off" />
       <div class="ai-chat__dialog-actions">
-        <button class="ai-chat__hud-btn" type="submit" value="cancel">{normalizedCopy.cancelLabel}</button>
-        <button class="ai-chat__hud-btn is-primary" type="submit" value="confirm" data-ai-dialog-confirm></button>
+        <WorkspaceButton class="ai-chat__hud-btn" type="submit" value="cancel">{normalizedCopy.cancelLabel}</WorkspaceButton>
+        <WorkspaceButton tone="primary" class="ai-chat__hud-btn is-primary" type="submit" value="confirm" data-ai-dialog-confirm></WorkspaceButton>
       </div>
     </form>
   </dialog>

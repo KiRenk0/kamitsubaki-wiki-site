@@ -18,7 +18,7 @@ export async function initGallery(){
  const $=<T extends Element=HTMLElement>(selector:string)=>root.querySelector<T>(selector)!;
  const copy:Record<string,string>=JSON.parse(root.dataset.copy||'{}'),api=(root.dataset.api||'').replace(/\/$/,''),locale=root.dataset.locale||'zh';
  const text=(tag:string,value:string,className?:string)=>{const node=document.createElement(tag);setIconLabel(node,value);if(className)node.className=className;return node;};
- const request=async(path:string,signal?:AbortSignal)=>{const response=await fetch(api+'/api/gallery'+path,{signal:signal?AbortSignal.any([signal,AbortSignal.timeout(15000)]):AbortSignal.timeout(15000),cache:'no-store'});if(!response.ok)throw Error(copy.error);return response.json();};
+ const request=async(path:string,signal?:AbortSignal)=>{const response=await fetch(api+'/api/gallery'+path,{signal:signal?AbortSignal.any([signal,AbortSignal.timeout(8000)]):AbortSignal.timeout(8000),cache:'no-store'});if(!response.ok)throw Error(copy.error);return response.json();};
  const viewer=imageViewer();let characters:GalleryCharacter[]=galleryEntities,facets:GalleryFacet[]=[],archiveFacets:{entityCounts?:{id:string;count:number;coverUrl?:string}[];typeCounts?:{id:string;count:number}[];tag?:string[];unclassified?:number}={},mediaTypes:{id:string;labels:Record<string,string>}[]=[],sets:GallerySet[]=[],photos:GalleryImage[]=[],suggestedPhotos:GalleryImage[]=[],nextOffset:number|null=null,total=0,controller:AbortController|undefined,routeId=0,photoRequestId=0,searchTimer:number|undefined,overviewScroll=0,selecting=false;
  const roleControls=createGalleryRoleControls($('#gallery-role-filters'),{locale});
  const selected=new Set<string>();
@@ -254,7 +254,7 @@ export async function initGallery(){
     totalCount:inPhotoGrid?total:items.length,
     onNeedMore:inPhotoGrid&&nextOffset!==null?async()=>{const before=photos.length;if(!await loadMore())throw Error('Could not load more photos');return {items:photoItems(photos.slice(before)),hasMore:nextOffset!==null,totalCount:total};}:undefined,
     onChange:(image:{id:string})=>{const url=new URL(location.href);url.searchParams.set('photo',image.id);history.replaceState(null,'',url);},
-    onClose:()=>{if(params().has('photo'))setUrl({photo:null},true);window.scrollTo({top:overviewScroll,behavior:'instant'});}
+    onClose:()=>{if(params().has('photo'))setUrl({photo:null},true);window.scrollTo({top:overviewScroll,behavior:'instant'});root?.querySelector<HTMLElement>('[data-photo-id="'+CSS.escape(id)+'"]')?.focus({preventScroll:true});}
    });
   }catch{if(stamp!==photoRequestId)return;feedback(copy.error);setUrl({photo:null},true);}
  }

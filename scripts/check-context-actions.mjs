@@ -8,6 +8,7 @@ const intentionalNavigation = [
   /^src\/components\/ContributionNav\.astro$/,
   /^src\/components\/editor\/EditorEntry\.astro$/,
   /^src\/components\/editor\/EditorWorkbench\.astro$/,
+  /^src\/components\/editor\/NovelWorkbench\.astro$/,
   /^src\/pages\/\[locale\]\/account\.astro$/,
   /^src\/pages\/\[locale\]\/contribute\/edit\.astro$/,
 ];

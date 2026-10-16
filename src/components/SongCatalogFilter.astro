@@ -1,4 +1,6 @@
 ---
+import WorkspaceButton from './WorkspaceButton.astro';
+import WorkspaceControl from './WorkspaceControl.astro';
 import { resolveLocaleCopy } from '../lib/i18n.mjs';
 import { SORT_MODES, YEAR_ALL, YEAR_UNKNOWN, ALBUM_ALL } from '../lib/catalogFilter.mjs';
 
@@ -113,20 +115,20 @@ const serialized = {
       <p class="font-mono text-[10px] tracking-[0.12em] text-white/50" data-filter-count aria-live="polite">
         {copy.countTemplate.replace('{matched}', String(totalCount)).replace('{total}', String(totalCount))}
       </p>
-      <button
+      <WorkspaceButton
         type="button"
         class="font-mono text-[9px] uppercase tracking-[0.16em] text-white/40 transition-colors hover:text-white"
         data-filter-clear
       >
         {copy.clear}
-      </button>
+      </WorkspaceButton>
     </div>
   </div>
 
   <div class="mt-4 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
     <label class="song-catalog-filter__field">
       <span class="song-catalog-filter__label">{copy.searchLabel}</span>
-      <input
+      <WorkspaceControl
         type="search"
         name="catalog-q"
         class="song-catalog-filter__input"
@@ -142,7 +144,7 @@ const serialized = {
       <div class="mt-2 flex flex-wrap gap-2">
         {categories.map((category) => (
           <label class="song-catalog-filter__chip">
-            <input type="checkbox" value={category.slug} data-filter-cat checked />
+            <WorkspaceControl type="checkbox" value={category.slug} data-filter-cat checked />
             <span>{category.title}</span>
           </label>
         ))}
@@ -151,7 +153,7 @@ const serialized = {
 
     <label class="song-catalog-filter__field">
       <span class="song-catalog-filter__label">{copy.yearLabel}</span>
-      <select class="song-catalog-filter__input" data-filter-year>
+      <WorkspaceControl as="select" class="song-catalog-filter__input" data-filter-year>
         <option value={YEAR_ALL}>{copy.all}</option>
         {years.map((year) => (
           <option value={year}>{year}</option>
@@ -159,27 +161,27 @@ const serialized = {
         {hasUnknownYear && (
           <option value={YEAR_UNKNOWN}>{copy.unknownYear}</option>
         )}
-      </select>
+      </WorkspaceControl>
     </label>
 
     <div class="grid gap-4 sm:grid-cols-2 md:col-span-2 xl:col-span-1 xl:grid-cols-2">
       <label class="song-catalog-filter__field">
         <span class="song-catalog-filter__label">{copy.albumLabel}</span>
-        <select class="song-catalog-filter__input" data-filter-album>
+        <WorkspaceControl as="select" class="song-catalog-filter__input" data-filter-album>
           <option value={ALBUM_ALL}>{copy.all}</option>
           {albums.map((album) => (
             <option value={album}>{album}</option>
           ))}
-        </select>
+        </WorkspaceControl>
       </label>
 
       <label class="song-catalog-filter__field">
         <span class="song-catalog-filter__label">{copy.sortLabel}</span>
-        <select class="song-catalog-filter__input" data-filter-sort>
+        <WorkspaceControl as="select" class="song-catalog-filter__input" data-filter-sort>
           {SORT_MODES.map((mode) => (
             <option value={mode}>{sortLabels[mode]}</option>
           ))}
-        </select>
+        </WorkspaceControl>
       </label>
     </div>
   </div>

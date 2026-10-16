@@ -7,6 +7,14 @@ if(root&&!root.dataset.accountNavigationReady){
   const panels=[...root.querySelectorAll('[data-account-panel]')];
   const gate=root.querySelector('[data-account-gate]');
   function update(){
+    const workspace=root.querySelector('[data-account-workspace]');
+    if(workspace)workspace.hidden=!state.viewer;
+    if(!state.viewer){
+      panels.forEach(panel=>{panel.hidden=true;});gate.hidden=false;
+      gate.querySelector('h2').textContent=state.auth==='checking'?copy.checking:copy.loginTitle;
+      gate.querySelector('p').textContent=state.auth==='checking'?copy.loading:state.auth==='unavailable'?copy.unavailable:copy.loginNote;
+      gate.querySelector('[data-account-login]').hidden=state.auth==='checking';return;
+    }
     if(['#security','#identities','#devices'].includes(location.hash)){location.assign(securityUrl());return;}
     const requested=location.hash;
     const id=links.some(link=>link.hash===requested)?requested.slice(1):'overview';

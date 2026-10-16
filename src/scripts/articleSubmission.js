@@ -1,3 +1,4 @@
+import {adminURL} from '../lib/adminOrigin.mjs';
 import {setIconLabel} from '../lib/icons.mjs';
 import {createArticleAutosave} from '../lib/articleAutosave.mjs';
 import {articleCreationCopy} from '../lib/articleCreationCopy.mjs';
@@ -13,7 +14,7 @@ export function initializeArticleSubmission(root,editor,ownerId='guest',{confirm
  if(admin){
   $('[data-article-submit]').textContent=locale==='en'?'Publish article':locale==='ja'?'記事を公開':'发布文章';
   const back=root.querySelector('.ve-home');
-  if(back){back.href=root.dataset.articleApi+'/admin/content?type=article';setIconLabel(back,'← '+(locale==='en'?'Content management':locale==='ja'?'コンテンツ管理':'内容管理'));}
+  if(back){back.href=adminURL('/content',{type:'articles'});setIconLabel(back,'← '+(locale==='en'?'Content management':locale==='ja'?'コンテンツ管理':'内容管理'));}
  }
  const editorCopy=JSON.parse($('[data-editor-copy]').textContent);
  const confirmReplace=()=>confirm(root,editorCopy.replace,{accept:editorCopy.apply,cancel:editorCopy.cancel});
@@ -26,7 +27,7 @@ export function initializeArticleSubmission(root,editor,ownerId='guest',{confirm
  const cloudCopy=articleCreationCopy(root.dataset.locale||locale),cloudStatus=$('[data-article-cloud-status]');
  const copy=articleCopy(root.dataset.locale || locale);const say=text=>{status.textContent=text;};
  const flowText=({zh:{pending:'已提交审核。维护者批准前，公开正文不会改变。'},ja:{pending:'審査に提出しました。承認まで公開本文は変わりません。'},en:{pending:'Submitted for review. The public article will not change until approved.'}})[locale]||({zh:{pending:'已提交审核。维护者批准前，公开正文不会改变。'}}).zh;
- const receipt=()=>showContributionReceipt(root,{id:state.revisionId,state:admin?'文章已公开。可从内容管理查看修订记录。':flowText.pending,href:admin?root.dataset.articleApi+'/admin/content?type=article':`/${root.dataset.locale}/account/creator/?recordType=article&record=${encodeURIComponent(state.revisionId)}`,...(admin?{title:'发布完成',recordLabel:'修订编号',linkLabel:'查看内容管理'}:{})});
+ const receipt=()=>showContributionReceipt(root,{id:state.revisionId,state:admin?'文章已公开。可从内容管理查看修订记录。':flowText.pending,href:admin?adminURL('/content',{type:'articles'}):`/${root.dataset.locale}/account/creator/?recordType=article&record=${encodeURIComponent(state.revisionId)}`,...(admin?{title:'发布完成',recordLabel:'修订编号',linkLabel:'查看内容管理'}:{})});
  const call=async(path,method='GET',body)=>{if(editor.currentOwner&&editor.currentOwner()!==ownerId)throw Error('账号已变化，请重新打开此页面。');const res=await fetch(root.dataset.articleApi+'/api/'+(admin?'admin/':'')+'articles'+path,{method,credentials:'include',signal:AbortSignal.timeout(15000),headers:body?{'Content-Type':'application/json'}:{},body:body?JSON.stringify(body):undefined});const data=await res.json();if(editor.currentOwner&&editor.currentOwner()!==ownerId)throw Error('账号已变化，请重新打开此页面。');if(!res.ok){const error=Error(data.error?.message||'文章服务暂不可用');error.status=res.status;error.code=data.error?.code;error.server=data.error?.server;throw error;}return data;};
  const showSaveConflict=server=>{
   casConflict=true;

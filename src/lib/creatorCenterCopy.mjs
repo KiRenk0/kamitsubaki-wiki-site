@@ -16,5 +16,5 @@ export const creatorCenterCopy=locale=>{
   ja:{returnedPhotoHint:'画像ごとの理由を確認し、該当する画像または分類を再投稿してください。'},
   en:{returnedPhotoHint:'Review each image’s feedback and resubmit the affected photo or classification.'}
  },locale);
- return {...base,...timeline,...controls,...gallery,phase:{...base.phase,withdrawn:controls.withdrawn},status:{...base.status,withdrawn:controls.withdrawn},imageStatus:{...base.imageStatus,withdrawn:controls.withdrawn}};
+ return {...base,...timeline,...controls,...gallery,community:resolveLocaleCopy({zh:'观测者企划',ja:'観測者企画',en:'Observer Projects'},locale),phase:{...base.phase,withdrawn:controls.withdrawn},status:{...base.status,withdrawn:controls.withdrawn},imageStatus:{...base.imageStatus,withdrawn:controls.withdrawn}};
 };

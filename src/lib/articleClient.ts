@@ -6,7 +6,7 @@ export function initArticleBrowser(root:HTMLElement){
  const api=root.dataset.articleApi||'',locale=root.dataset.locale||'zh';
  const copy=articleCopy(locale),contentLocale=locale.startsWith('zh')?'zh':locale;
  const status=root.querySelector<HTMLElement>('[data-article-status]')!;
- const call=async(path:string,signal?:AbortSignal)=>{const response=await fetch(api+'/api/articles'+path,{credentials:'include',signal:signal?AbortSignal.any([signal,AbortSignal.timeout(15000)]):AbortSignal.timeout(15000)});const data=await response.json();if(!response.ok)throw Error(data.error?.message||copy.unavailable);return data;};
+ const call=async(path:string,signal?:AbortSignal)=>{const response=await fetch(api+'/api/articles'+path,{credentials:'include',signal:signal?AbortSignal.any([signal,AbortSignal.timeout(8000)]):AbortSignal.timeout(8000)});const data=await response.json();if(!response.ok)throw Error(data.error?.message||copy.unavailable);return data;};
  const text=(tag:string,value:string)=>{const node=document.createElement(tag);setIconLabel(node,value);return node;};
  const safeLinks=(container:Element)=>container.querySelectorAll<HTMLAnchorElement>('a[href]').forEach(a=>{if(a.origin!==location.origin){a.rel='noopener noreferrer';a.target='_blank';}});
  if(root.dataset.articlePage==='read'){

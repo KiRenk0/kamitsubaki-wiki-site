@@ -1,5 +1,5 @@
 ---
-import Icon from '../components/Icon.astro';
+import Icon from './Icon.astro';
 import {uploadGuidanceCopy} from '../lib/uploadGuidanceCopy.mjs';
 const {locale='zh'}=Astro.props;
 const g=uploadGuidanceCopy(locale);

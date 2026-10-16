@@ -17,6 +17,7 @@ export const GET: APIRoute = async ({params}) => {
       const path = entrySourcePath(entry);
       return {kind:path.split('/')[2],id:entry.data.id,entityType:entry.data.entityType,typeLabel:entityLabel(entry.data.entityType,locale),
         title:entry.data.name || entry.data.title || entry.data.id,
+        summary:entry.data.summary||'',image:entry.data.presentation?.image||'',
         romanized:entry.data.romanizedName || entry.data.romanizedTitle || '',
         aliases:Array.isArray(entry.data.aliases) ? entry.data.aliases : [],
         path,sourceLocale:entry.sourceLocale,url:`/${locale}${entityRoute(entry.data)}`};

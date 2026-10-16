@@ -971,7 +971,8 @@
     <link rel="stylesheet" href="/ui-tokens.css?v=50cda50e7db2" />
     <link rel="stylesheet" href="/games/interface.css" />
     <link rel="stylesheet" href="/games/theme.css" />
-  <link rel="stylesheet" href="/icons/ui-icons.css" /></head>
+  <link rel="stylesheet" href="/icons/ui-icons.css" /><link rel="stylesheet" href="/games/ui-kit.generated.css">
+</head>
   <body>
     <main class="game-shell" id="gameShell" data-state="loading">
       <canvas id="gameCanvas" aria-label="记忆回廊跑酷游戏"></canvas>
@@ -990,9 +991,9 @@
           <span class="metric-value"><span id="best">00000</span> M</span>
         </div>
         <nav class="game-tools" aria-label="游戏控制">
-          <button class="tool-button" id="soundButton" type="button" aria-pressed="true">音效 开</button>
-          <button class="tool-button" id="pauseButton" type="button" aria-pressed="false">暂停 P</button>
-          <button class="tool-button game-modes-button" id="returnModesButton" type="button">玩法</button>
+          <button data-ui-kit class="workspace-button dui-btn dui-btn-ghost tool-button" id="soundButton" type="button" aria-pressed="true">音效 开</button>
+          <button data-ui-kit class="workspace-button dui-btn dui-btn-ghost tool-button" id="pauseButton" type="button" aria-pressed="false">暂停 P</button>
+          <button data-ui-kit class="workspace-button dui-btn dui-btn-ghost tool-button game-modes-button" id="returnModesButton" type="button">玩法</button>
         </nav>
       </header>
       <div class="hud-rule" aria-hidden="true"></div>
@@ -1041,13 +1042,13 @@
             <span class="touch-hint">轻触屏幕跳跃</span>
           </p>
           <p class="overlay-note">收集 3 条真实 Wiki 线索 · 判定关联条目 · 修复 3 段记忆路线</p>
-          <button class="action-button" id="startButton" type="button">开始奔跑</button>
+          <button data-ui-kit class="workspace-button dui-btn dui-btn-ghost action-button" id="startButton" type="button">开始奔跑</button>
         </section>
 
         <section class="overlay-panel overlay-panel--paused" aria-label="游戏暂停">
           <h1 class="overlay-title">档案冻结</h1>
           <p class="overlay-subtitle">按 P / 点击继续</p>
-          <button class="action-button" id="resumeButton" type="button">继续奔跑</button>
+          <button data-ui-kit class="workspace-button dui-btn dui-btn-ghost action-button" id="resumeButton" type="button">继续奔跑</button>
         </section>
 
         <section class="overlay-panel overlay-panel--gameover" aria-label="游戏结束">
@@ -1059,7 +1060,7 @@
             <a id="resultReturnLink" href="/zh/" target="_top">返回 Wiki 条目</a>
             <a id="resultRelatedLink" href="/zh/" target="_top">探索关联档案</a>
           </div>
-          <button class="action-button" id="restartButton" type="button">再次奔跑</button>
+          <button data-ui-kit class="workspace-button dui-btn dui-btn-ghost action-button" id="restartButton" type="button">再次奔跑</button>
         </section>
 
         <section class="overlay-panel overlay-panel--complete" aria-label="档案修复完成">
@@ -1067,7 +1068,7 @@
           <p class="overlay-subtitle">记忆路径已写入观测记录</p>
           <p class="overlay-result" id="completeText">完成 3 次关联判定</p>
           <div class="memory-path" id="completePath"></div>
-          <button class="action-button" id="completeRestartButton" type="button">生成新路线</button>
+          <button data-ui-kit class="workspace-button dui-btn dui-btn-ghost action-button" id="completeRestartButton" type="button">生成新路线</button>
         </section>
       </div>
 

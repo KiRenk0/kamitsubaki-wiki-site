@@ -1,0 +1,18 @@
+---
+import Icon from './Icon.astro';
+import {supportCatalog} from '../lib/supportCatalog.mjs';
+import {resolveLocaleCopy} from '../lib/i18n.mjs';
+const {locale='zh'}=Astro.props;
+const text=resolveLocaleCopy({
+ zh:{summary:'查看爱发电官方创作者名片',frame:'爱发电官方创作者名片',link:'打开爱发电',note:'名片未显示时，可直接打开爱发电。'},
+ ja:{summary:'愛発電の公式クリエイターカードを見る',frame:'愛発電の公式クリエイターカード',link:'愛発電を開く',note:'表示されない場合は愛発電を直接開いてください。'},
+ en:{summary:'View the official Afdian creator card',frame:'Official Afdian creator card',link:'Open Afdian',note:'If the card does not load, open Afdian directly.'}
+},locale);
+---
+<details class="support-afdian">
+ <summary>{text.summary}</summary>
+ <div class="support-afdian__card">
+  <iframe id="afdian_leaflet_LinkTh1rsty" src="https://afdian.com/leaflet?slug=LinkTh1rsty" title={text.frame} width="640" scrolling="no" height="200" frameborder="0" loading="lazy" referrerpolicy="no-referrer" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms"></iframe>
+  <p>{text.note} <a class="support-afdian__link" href={supportCatalog.source} target="_blank" rel="noopener noreferrer">{text.link}<Icon name="arrow-up-right"/></a></p>
+ </div>
+</details>

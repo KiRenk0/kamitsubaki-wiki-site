@@ -1,21 +1,17 @@
-import {existsSync,readdirSync} from 'node:fs';
+import {readdirSync,existsSync} from 'node:fs';
 import {resolve} from 'node:path';
 import {spawnSync} from 'node:child_process';
 
-const backend=resolve('../kamitsubaki-wiki-site-backend');
-const backendReady=[
-  'src/editor/domain.js',
-  'migrations/0021_articles.sql',
-  'migrations/0023_article_ownership.sql',
-].every(path=>existsSync(resolve(backend,path)));
+import {backendReady,backendRoot} from '../tests/backend-root.mjs';
 const crossRepo=new Set([
   'creator-workflow-integration.test.mjs',
   'article-associations.test.mjs',
   'content-layout.test.mjs',
   'entity-maintenance.test.mjs',
+  'community-locations.test.mjs',
 ]);
 const files=readdirSync('tests')
-  .filter(file=>file.endsWith('.test.mjs')&&(backendReady||!crossRepo.has(file)))
+  .filter(file=>file.endsWith('.test.mjs')&&(backendReady||!crossRepo.has(file))&&(file!=='community-locations.test.mjs'||existsSync(resolve(backendRoot,'src/community/locationRuntime.generated.js'))))
   .sort()
   .map(file=>resolve('tests',file));
 if(!backendReady){

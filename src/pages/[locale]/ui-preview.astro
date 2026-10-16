@@ -1,0 +1,52 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import WorkspaceButton from '../../components/WorkspaceButton.astro';
+import WorkspaceControl from '../../components/WorkspaceControl.astro';
+import {entityLocales} from '../../lib/entityRegistry.mjs';
+import {resolveLocaleCopy} from '../../lib/i18n.mjs';
+import '../../styles/uiKit.css';
+export function getStaticPaths(){return import.meta.env.DEV?entityLocales.map(locale=>({params:{locale}})):[];}
+const locale=Astro.params.locale!;
+const c=resolveLocaleCopy({zh:{file:'文件选择',radio:'单选',range:'范围',progress:'进度',adapters:'专用组件适配',title:'整站组件状态',note:'展示控件的外观与状态，表单不会提交数据。',old:'现有控件',next:'daisyUI · 网站主题',primary:'主要操作',secondary:'辅助操作',disabled:'不可用',search:'搜索',placeholder:'搜索花譜、歌曲或企划',type:'类型',all:'全部',person:'人物',song:'歌曲',check:'显示更多信息',loading:'正在加载',error:'请填写搜索内容',reset:'重置',database:'打开 Database',light:'浅色',dark:'深色'},ja:{file:'ファイル選択',radio:'ラジオ',range:'範囲',progress:'進捗',adapters:'専用コンポーネント',title:'コンポーネントの状態',note:'見た目と状態の表示例です。データは送信されません。',old:'既存のコントロール',next:'daisyUI · サイトテーマ',primary:'主操作',secondary:'補助操作',disabled:'無効',search:'検索',placeholder:'花譜・楽曲・プロジェクトを検索',type:'種類',all:'すべて',person:'人物',song:'楽曲',check:'詳細情報を表示',loading:'読み込み中',error:'検索内容を入力してください',reset:'リセット',database:'Database を開く',light:'ライト',dark:'ダーク'},en:{file:'File selection',radio:'Radio',range:'Range',progress:'Progress',adapters:'Specialist components',title:'Site component states',note:'Appearance and state examples. No data is submitted.',old:'Existing controls',next:'daisyUI · Site theme',primary:'Primary action',secondary:'Secondary action',disabled:'Disabled',search:'Search',placeholder:'Search artists, songs or projects',type:'Type',all:'All',person:'People',song:'Songs',check:'Show more information',loading:'Loading',error:'Enter a search term',reset:'Reset',database:'Open Database',light:'Light',dark:'Dark'}},locale);
+---
+<BaseLayout title={c.title} lang={locale} metadata={{noindex:true}}>
+ <main class="ui-preview">
+  <header><h1>{c.title}</h1><p>{c.note}</p><nav aria-label={c.title}>{entityLocales.map(lang=><a href={`/${lang}/ui-preview/`} lang={lang} aria-current={lang===locale?'page':undefined}>{lang}</a>)}</nav><div class="preview-actions" role="radiogroup" aria-label={c.title}><WorkspaceButton role="radio" type="button" data-theme-toggle data-theme-value="light">{c.light}</WorkspaceButton><WorkspaceButton role="radio" type="button" data-theme-toggle data-theme-value="dark">{c.dark}</WorkspaceButton></div><a href={`/${locale}/database/`}>{c.database} →</a></header>
+  <section class="preview-column" data-shared-preview>
+   <h2>WorkspaceButton / WorkspaceControl</h2>
+   <form data-preview-form>
+    <div class="preview-actions"><WorkspaceButton tone="primary">{c.primary}</WorkspaceButton><WorkspaceButton>{c.secondary}</WorkspaceButton><WorkspaceButton tone="quiet">{c.reset}</WorkspaceButton><WorkspaceButton disabled href={`/${locale}/database/`}>{c.disabled}</WorkspaceButton></div>
+    <label>{c.search}<WorkspaceControl name="q" type="search" placeholder={c.placeholder}/></label>
+    <label>{c.type}<WorkspaceControl as="select" name="type"><option value="">{c.all}</option><option value="song">{c.song}</option></WorkspaceControl></label>
+    <label>{c.search}<WorkspaceControl as="textarea" name="summary" rows={3}>{c.placeholder}</WorkspaceControl></label>
+    <label class="preview-check"><WorkspaceControl type="checkbox" name="details"/>{c.check}</label>
+    <label>{c.disabled}<WorkspaceControl disabled value={c.disabled}/></label>
+    <label>{c.search}<WorkspaceControl aria-invalid="true" aria-describedby="shared-error"/><span class="preview-error" id="shared-error">{c.error}</span></label>
+    <WorkspaceButton type="reset">{c.reset}</WorkspaceButton>
+    <label>{c.file}<WorkspaceControl type="file" name="example-file" accept="image/*"/></label>
+    <fieldset><legend>{c.radio}</legend><label><WorkspaceControl type="radio" name="example-radio" value="one" checked/>{c.primary}</label><label><WorkspaceControl type="radio" name="example-radio" value="two"/>{c.secondary}</label></fieldset>
+    <label>{c.range}<WorkspaceControl type="range" min="0" max="100" value="45" name="example-range"/></label>
+    <label>{c.progress}<progress class="dui-progress" data-ui-kit max="100" value="45" aria-label={c.progress}></progress></label>
+    <div class="preview-actions"><WorkspaceButton aria-busy="true" disabled><span class="dui-loading dui-loading-spinner" aria-hidden="true"></span>{c.loading}</WorkspaceButton><WorkspaceButton aria-pressed="true" tone="primary">{c.check}</WorkspaceButton></div>
+    <p role="status">{c.loading}</p><p role="alert" class="preview-error">{c.error}</p>
+   </form>
+   <details><summary>{c.next}</summary><p>{c.note}</p></details>
+   <dialog data-preview-dialog aria-label={c.next}><h2>{c.next}</h2><p>{c.note}</p><form method="dialog"><WorkspaceButton type="submit">{c.reset}</WorkspaceButton></form></dialog>
+   <WorkspaceButton data-preview-open>{c.next}</WorkspaceButton>
+  </section>
+  <section class="preview-column"><h2>{c.adapters}</h2><nav>{[['account/#profile','Better Auth UI'],['gallery/','PhotoSwipe'],['community/activities/','FullCalendar'],['gallery/manage/photos/','Uppy / Dexie'],['contribute/edit/','Novel / Tiptap / CodeMirror']].map(([path,label])=><a href={`/${locale}/${path}`}>{label}</a>)}</nav></section>
+ </main>
+</BaseLayout>
+<script>
+document.querySelector('[data-preview-open]')?.addEventListener('click',()=>document.querySelector<HTMLDialogElement>('[data-preview-dialog]')?.showModal());
+document.querySelectorAll<HTMLFormElement>('[data-preview-form]').forEach(form=>form.addEventListener('submit',event=>event.preventDefault()));
+</script>
+<style>
+.ui-preview{max-width:1120px;margin:auto;padding:120px 24px 60px;color:var(--theme-fg)}
+h1{font:500 30px/1.5 var(--font-sans)}header>p{color:var(--wiki-muted-color)}nav,.preview-actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:16px 0}nav a[aria-current]{text-decoration:underline}
+header .preview-actions>button{min-height:44px;padding:8px 12px;border:1px solid rgb(var(--theme-fg-rgb)/.16);background:none;color:var(--theme-fg)}
+.preview-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}.preview-column{min-width:0;border-top:1px solid rgb(var(--theme-fg-rgb)/.16);padding-top:20px}h2{font:500 18px/1.6 var(--font-sans)}
+form>label{display:grid;gap:8px;margin:20px 0;font-size:14px}form>.preview-check{display:flex;align-items:center;min-height:44px;gap:12px}.preview-error{color:var(--ui-color-error);font-size:13px}
+.ui-preview fieldset label{display:flex;align-items:center;gap:12px;min-height:44px}.ui-preview dialog{margin:auto;padding:24px;background:var(--theme-bg);color:var(--theme-fg);max-width:calc(100vw - 32px);border:1px solid currentColor;border-radius:var(--ui-radius-panel)}.ui-preview dialog::backdrop{background:#0008}
+@media(max-width:760px){.ui-preview{padding-inline:16px}}
+</style>

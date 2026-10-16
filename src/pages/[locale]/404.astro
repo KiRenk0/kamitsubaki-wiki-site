@@ -1,4 +1,5 @@
 ---
+import WorkspaceButton from '../../components/WorkspaceButton.astro';
 import Icon from '../../components/Icon.astro';
 import WorkspaceLayout from '../../layouts/WorkspaceLayout.astro';
 import WorkspaceLinkCard from '../../components/WorkspaceLinkCard.astro';
@@ -14,7 +15,7 @@ const copy=resolveLocaleCopy({
 ---
 <WorkspaceLayout locale={locale} title={`404 / ${copy.title}`} intro={copy.intro} path="/404/" eyebrow="PAGE NOT FOUND" backHref={`/${locale}/`} backLabel={copy.home} noindex>
   <section class="not-found-recovery" aria-label={copy.title}>
-    <button type="button" class="not-found-search" data-search-open>{copy.search} <span aria-hidden="true"><Icon name="arrow-up-right" /></span></button>
+    <WorkspaceButton type="button" class="not-found-search" data-search-open>{copy.search} <span aria-hidden="true"><Icon name="arrow-up-right" /></span></WorkspaceButton>
     <div class="not-found-destinations">
       <WorkspaceLinkCard href={`/${locale}/explore/`} title={copy.explore} index="01" />
       <WorkspaceLinkCard href={`/${locale}/docs/`} title={copy.docs} index="02" />
@@ -25,7 +26,7 @@ const copy=resolveLocaleCopy({
 </WorkspaceLayout>
 <style>
 .not-found-recovery{max-width:760px;padding-block:clamp(1rem,4vw,3rem)}
-.not-found-search{display:flex;align-items:center;justify-content:space-between;width:100%;min-height:64px;border:1px solid var(--ui-line);background:var(--theme-panel-solid);color:var(--theme-fg);padding:0 20px;font:500 17px/1.4 var(--font-sans);cursor:pointer}
+.not-found-search{--workspace-control-height:64px;--workspace-control-background:var(--theme-panel-solid);--workspace-control-padding:0 20px;--workspace-control-font:500 17px/1.4 var(--font-sans);display:flex;align-items:center;justify-content:space-between;width:100%;border:1px solid var(--ui-line);cursor:pointer}
 .not-found-search:hover{border-color:var(--theme-accent-color)}.not-found-search:focus-visible{outline:2px solid var(--ui-accent-color);outline-offset:3px}
 .not-found-extra{margin:34px 0 0;color:rgb(var(--theme-fg-rgb)/.6);font-size:13px;line-height:1.8}.not-found-extra a{color:var(--theme-fg);margin-left:.4em;text-underline-offset:4px}
 </style>

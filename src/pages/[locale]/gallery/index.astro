@@ -1,4 +1,5 @@
 ---
+import WorkspaceControl from '../../../components/WorkspaceControl.astro';
 import Icon from '../../../components/Icon.astro';
 import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
 import WorkspaceButton from '../../../components/WorkspaceButton.astro';
@@ -26,8 +27,8 @@ Object.assign(copy,resolveLocaleCopy({
   <section class="gallery-role-section" id="gallery-role-filters" aria-labelledby="gallery-roles-title">
    <div class="gallery-role-head"><div><span>PEOPLE / GROUPS</span><h2 id="gallery-roles-title">{copy.roles}</h2><p>{copy.rolesHint}</p></div></div>
    <div class="gallery-role-tools">
-    <label class="gallery-role-search"><span>{copy.roleSearch}</span><input type="search" data-gallery-role-search placeholder={copy.roleSearch} autocomplete="off"/></label>
-    <label class="gallery-role-sort"><span>{copy.roleSort}</span><select data-gallery-role-sort><option value="site">{copy.roleOrderSite}</option><option value="count">{copy.roleOrderCount}</option><option value="name">{copy.roleOrderName}</option></select></label>
+    <label class="gallery-role-search"><span>{copy.roleSearch}</span><WorkspaceControl type="search" data-gallery-role-search placeholder={copy.roleSearch} autocomplete="off"/></label>
+    <label class="gallery-role-sort"><span>{copy.roleSort}</span><WorkspaceControl as="select" data-gallery-role-sort><option value="site">{copy.roleOrderSite}</option><option value="count">{copy.roleOrderCount}</option><option value="name">{copy.roleOrderName}</option></WorkspaceControl></label>
    </div>
    <div class="gallery-role-list" id="gallery-role-list" data-gallery-roles></div>
    <p class="gallery-role-empty" data-gallery-role-empty hidden role="status">{copy.roleNoMatch}</p>
@@ -35,20 +36,20 @@ Object.assign(copy,resolveLocaleCopy({
    <ExpandControl controls="gallery-role-list" expandLabel={copy.showAllRoles} collapseLabel={copy.collapseRoles} galleryRoles initiallyHidden withCollapse />
   </section>
   <section class="gallery-set-section" aria-labelledby="gallery-sets-title"><div class="gallery-section-heading"><div><span>VISUAL ARCHIVE</span><h2 id="gallery-sets-title" data-gallery-section-title tabindex="-1">{copy.latestPhotos}</h2></div><output data-gallery-count></output></div>
-   <WorkspaceToolbar class="gallery-controls"><div class="gallery-view-switch workspace-tool-segments" role="group" aria-label={copy.title}><button type="button" data-gallery-view="photos" aria-pressed="true">{copy.photos}</button><button type="button" data-gallery-view="sets" aria-pressed="false">{copy.viewSets}</button></div>
-   <button class="gallery-filter-toggle" type="button" data-gallery-filter-toggle aria-expanded="false" aria-controls="gallery-filter-panel"><span data-gallery-filter-label>{copy.filters}</span><Icon name="chevron-down" class="gallery-filter-chevron" /></button>
+   <WorkspaceToolbar class="gallery-controls"><div class="gallery-view-switch workspace-tool-segments" role="group" aria-label={copy.title}><WorkspaceButton type="button" data-gallery-view="photos" aria-pressed="true">{copy.photos}</WorkspaceButton><WorkspaceButton type="button" data-gallery-view="sets" aria-pressed="false">{copy.viewSets}</WorkspaceButton></div>
+   <WorkspaceButton class="gallery-filter-toggle" type="button" data-gallery-filter-toggle aria-expanded="false" aria-controls="gallery-filter-panel"><span data-gallery-filter-label>{copy.filters}</span><Icon name="chevron-down" class="gallery-filter-chevron" /></WorkspaceButton>
    <div class="gallery-filter-panel" id="gallery-filter-panel" hidden>
-    <form class="gallery-toolbar" id="gallery-search-filters" data-gallery-search role="search"><label class="workspace-tool-field"><span class="sr-only">{copy.search}</span><input type="search" name="q" placeholder={copy.search} autocomplete="off"/></label><button type="button" data-gallery-clear>{copy.clear}</button></form>
-    <div class="gallery-extra-tools workspace-tool-group"><label class="workspace-tool-field"><span class="sr-only">{copy.tags}</span><select data-gallery-tag><option value="">{copy.tags}</option></select></label><button type="button" data-gallery-select>{copy.choose}</button><a class="workspace-tool-action" data-gallery-classify hidden href={`/${locale}/gallery/classify/`}>{copy.classify}</a></div>
+    <form class="gallery-toolbar" id="gallery-search-filters" data-gallery-search role="search"><label class="workspace-tool-field"><span class="sr-only">{copy.search}</span><WorkspaceControl type="search" name="q" placeholder={copy.search} autocomplete="off"/></label><WorkspaceButton type="button" data-gallery-clear>{copy.clear}</WorkspaceButton></form>
+    <div class="gallery-extra-tools workspace-tool-group"><label class="workspace-tool-field"><span class="sr-only">{copy.tags}</span><WorkspaceControl as="select" data-gallery-tag><option value="">{copy.tags}</option></WorkspaceControl></label><WorkspaceButton type="button" data-gallery-select>{copy.choose}</WorkspaceButton><a class="workspace-tool-action" data-gallery-classify hidden href={`/${locale}/gallery/classify/`}>{copy.classify}</a></div>
     <nav class="gallery-type-list workspace-tool-filters" data-gallery-types aria-label={copy.allTypes}></nav>
     <nav class="gallery-form-list workspace-tool-filters" id="gallery-form-filters" data-gallery-forms aria-label={copy.allForms}></nav>
    </div></WorkspaceToolbar>
-   <div class="gallery-set-filter" data-gallery-set-filter hidden><span data-gallery-set-filter-name></span><button type="button" data-gallery-set-filter-clear>{copy.clearSet} <Icon name="x" /></button></div><div class="gallery-active-filters" data-gallery-active-filters aria-label={copy.filters} hidden></div>
+   <div class="gallery-set-filter" data-gallery-set-filter hidden><span data-gallery-set-filter-name></span><WorkspaceButton type="button" data-gallery-set-filter-clear>{copy.clearSet} <Icon name="x" /></WorkspaceButton></div><div class="gallery-active-filters" data-gallery-active-filters aria-label={copy.filters} hidden></div>
    <p class="gallery-feedback" data-gallery-feedback role="status" aria-live="polite"></p><div class="gallery-set-grid" data-gallery-grid></div>
-   <div class="gallery-bottom"><button type="button" data-gallery-more hidden>{copy.more}</button><button type="button" data-gallery-retry hidden>{copy.retry}</button></div>
+   <div class="gallery-bottom"><WorkspaceButton type="button" data-gallery-more hidden>{copy.more}</WorkspaceButton><WorkspaceButton type="button" data-gallery-retry hidden>{copy.retry}</WorkspaceButton></div>
   </section>
  </div>
- <section class="gallery-set-detail" data-gallery-detail hidden aria-labelledby="gallery-detail-title"><button type="button" class="gallery-detail-back" data-gallery-back><Icon name="arrow-left" /> {copy.backToSets}</button><header class="gallery-detail-head"><div><p data-gallery-detail-path></p><h1 id="gallery-detail-title" data-gallery-detail-title></h1><p data-gallery-detail-meta></p></div><div class="gallery-detail-actions"><button type="button" data-gallery-photos-in-set>{copy.photosInSet} <Icon name="arrow-right" /></button><WorkspaceButton data-gallery-edit href={`/${locale}/gallery/manage/`}>{copy.edit} <Icon name="arrow-up-right" /></WorkspaceButton></div></header><div class="gallery-detail-layout"><div class="gallery-detail-images" data-gallery-images></div><aside class="gallery-detail-aside"><dl data-gallery-properties></dl><WorkspaceButton data-gallery-related hidden tone="quiet" href={`/${locale}/database/`}>{copy.related} <Icon name="arrow-up-right" /></WorkspaceButton></aside></div></section>
+ <section class="gallery-set-detail" data-gallery-detail hidden aria-labelledby="gallery-detail-title"><WorkspaceButton type="button" class="gallery-detail-back" data-gallery-back><Icon name="arrow-left" /> {copy.backToSets}</WorkspaceButton><header class="gallery-detail-head"><div><p data-gallery-detail-path></p><h1 id="gallery-detail-title" data-gallery-detail-title></h1><p data-gallery-detail-meta></p></div><div class="gallery-detail-actions"><WorkspaceButton type="button" data-gallery-photos-in-set>{copy.photosInSet} <Icon name="arrow-right" /></WorkspaceButton><WorkspaceButton data-gallery-edit href={`/${locale}/gallery/manage/`}>{copy.edit} <Icon name="arrow-up-right" /></WorkspaceButton></div></header><div class="gallery-detail-layout"><div class="gallery-detail-images" data-gallery-images></div><aside class="gallery-detail-aside"><dl data-gallery-properties></dl><WorkspaceButton data-gallery-related hidden tone="quiet" href={`/${locale}/database/`}>{copy.related} <Icon name="arrow-up-right" /></WorkspaceButton></aside></div></section>
 </WorkspaceLayout>
 <script>
  import {initGallery} from '../../../lib/gallery';

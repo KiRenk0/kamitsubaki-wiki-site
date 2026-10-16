@@ -58,7 +58,8 @@ export function shortcodeChip(source) {
 }
 const tags = new Set(['P','DIV','SPAN','H1','H2','H3','H4','H5','H6','STRONG','B','EM','I','DEL','S','U','CODE','PRE','BR','HR','A','RUBY','RT','RP','ABBR','MARK','KBD','TIME','SMALL','SUB','SUP','BLOCKQUOTE','UL','OL','LI','DETAILS','SUMMARY','TABLE','THEAD','TBODY','TR','TH','TD','DL','DT','DD','CITE','Q','SAMP','VAR','FIGURE','FIGCAPTION','IMG']);
 const stripped = new Set(['SCRIPT','STYLE','IFRAME','OBJECT','EMBED','FORM','INPUT','BUTTON','LINK','META','SVG','MATH','VIDEO','AUDIO']);
-export function sanitizeEditorHTML(html) {
+export function sanitizeEditorHTML(html, document = globalThis.document) {
+  const {DOMParser,Node,Element}=document.defaultView;
   const parsed = new DOMParser().parseFromString(html,'text/html');
   const container = document.createElement('div');
   const clean = (node, parent) => {
@@ -83,13 +84,13 @@ export function sanitizeEditorHTML(html) {
   [...parsed.body.childNodes].forEach(child => clean(child,container));
   return container.innerHTML;
 }
-function renderRichHTML(source) {
+function renderRichHTML(source, document = globalThis.document) {
   // Inline code spans stay literal; the parser handles fenced code in its own block.
   const expanded = String(source || '').split(/(`+[^`]*`+)/g).map(part => part.startsWith('`') ? part : part.replace(/\{\{[a-z-]+(?:::(?:\\.|[^{}])*)\}\}/g,shortcodeChip)).join('');
-  return sanitizeEditorHTML(micromark(expanded,{allowDangerousHtml:true,extensions:[gfm()],htmlExtensions:[gfmHtml()]}));
+  return sanitizeEditorHTML(micromark(expanded,{allowDangerousHtml:true,extensions:[gfm()],htmlExtensions:[gfmHtml()]}),document);
 }
-export function renderRich(source) {
-  const html = renderRichHTML(source);
+export function renderRich(source, document = globalThis.document) {
+  const html = renderRichHTML(source,document);
   if (!html.includes('<table')) return html;
   const container = document.createElement('div'); container.innerHTML = html;
   const tables = [...container.querySelectorAll('table')];
@@ -102,7 +103,7 @@ export function renderRich(source) {
     const ranges = [...token.rows]; ranges.splice(1, 0, token.delimiter);
     const snippet = ranges.map(range => source.slice(range.start, range.end)).join(source.includes('\r\n') ? '\r\n' : '\n');
     const reference = document.createElement('div');
-    reference.innerHTML = renderRichHTML(snippet);
+    reference.innerHTML = renderRichHTML(snippet,document);
     const rendered = reference.querySelector('table');
     const table = rendered && tables.find(candidate => !candidate.dataset.veTableSource && candidate.innerHTML === rendered.innerHTML);
     if (table) { table.dataset.veTableSource = encodeURIComponent(snippet); delete table.dataset.veTableFormat; }

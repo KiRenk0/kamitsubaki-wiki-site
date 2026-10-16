@@ -15,7 +15,11 @@ for (const reserved of [false,true]) test(`modal locking preserves styles and sc
   assert.equal(style.getPropertyValue('top'),'-830px');
   assert.equal(style.getPropertyValue('position'),'fixed');
   assert.equal(style.getPropertyValue('padding-right'),reserved?'8px':'23px');
+  const releaseNested=lockModalScroll();
   release();release();
+  assert.equal(style.getPropertyValue('position'),'fixed');
+  assert.equal(scrolls.length,0);
+  releaseNested();releaseNested();
   assert.deepEqual([...values],[['overflow',['clip','important']],['padding-right',['8px','']]]);
   assert.equal(classes.size,0);
   assert.deepEqual(scrolls,[{left:0,top:830,behavior:'instant'}]);

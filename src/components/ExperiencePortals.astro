@@ -1,5 +1,5 @@
 ---
-import Icon from '../components/Icon.astro';
+import Icon from './Icon.astro';
 import ResponsiveImage from './ResponsiveImage.astro';
 import { resolveLocaleCopy } from '../lib/i18n.mjs';
 
@@ -37,7 +37,7 @@ const cards = reader ? [game, labs, chat] : [labs, game, chat];
           <strong>{card.title}</strong>
           <small>{card.description}</small>
         </span>
-        <span class="experience-portal__arrow" aria-hidden="true">{card.key === 'chat' ? '↗' : '→'}</span>
+        <span class="experience-portal__arrow" aria-hidden="true"><Icon name={card.key === 'chat' ? 'arrow-up-right' : 'arrow-right'} /></span>
       </a>
     ))}
   </div>

@@ -1,0 +1,39 @@
+---
+import Icon from './Icon.astro';
+import WorkspaceButton from './WorkspaceButton.astro';
+import {resolveLocaleCopy} from '../lib/i18n.mjs';
+import {getSupportData} from '../lib/support';
+import '../styles/supportDialog.css';
+import '../styles/supportQr.css';
+import {supportExperienceCopy} from '../lib/supportExperienceCopy.mjs';
+const {locale='zh'}=Astro.props;
+const copy=resolveLocaleCopy({
+ zh:{title:'让观测站继续亮着。',body:'如果这里的资料曾帮助过你，欢迎为小站发一份电。支持会用于站点运行、资料整理与持续维护。',choose:'选择支持方式',afdian:'爱发电',alipay:'支付宝',wechat:'微信',go:'前往爱发电',scan:'打开对应应用扫一扫，金额由你决定。',original:'查看原图',save:'保存二维码原图',details:'费用用途与收支记录',later:'暂时不了',never:'不再自动提醒',close:'关闭',free:'阅读始终免费，支持完全自愿。',unavailable:'当前渠道暂未开放，请选择其他方式。',refresh:'重新读取渠道'},
+ ja:{title:'観測所の灯りを、これからも。',body:'この記録が役に立ったら、サイト運営・資料整理・保守へのご支援をお願いします。',choose:'支援方法',afdian:'愛発電',alipay:'Alipay',wechat:'WeChat',go:'愛発電で支援する',scan:'対応するアプリで読み取ってください。金額は自由です。',original:'原画像を開く',save:'QRコードの原画像を保存',details:'使途と収支記録',later:'今はしない',never:'自動表示しない',close:'閉じる',free:'閲覧は無料。支援は任意です。',unavailable:'この方法は現在利用できません。',refresh:'支援方法を再読み込み'},
+ en:{title:'Keep the observatory shining.',body:'If these records have helped you, consider supporting the site, its archives, and ongoing maintenance.',choose:'Choose a way to support',afdian:'Afdian',alipay:'Alipay',wechat:'WeChat',go:'Support on Afdian',scan:'Scan with the matching app. Choose your own amount.',original:'View original image',save:'Save original QR image',details:'Costs and funding records',later:'Not now',never:'Stop automatic reminders',close:'Close',free:'Reading is free. Supporting is optional.',unavailable:'This channel is currently unavailable.',refresh:'Refresh support channels'},
+},locale);
+const experience=supportExperienceCopy(locale);
+const api=import.meta.env.PUBLIC_SUPPORT_API_BASE||'https://api.kamitsubaki.wiki';
+---
+<dialog id="wiki-support-dialog" class="support-dialog" data-support-dialog data-ui-kit data-locale={locale} data-api={api} aria-labelledby="support-dialog-title" aria-describedby="support-dialog-body">
+ <header class="support-dialog__header"><div class="support-dialog__heading"><span class="support-dialog__symbol" aria-hidden="true"><Icon name="heart"/></span><WorkspaceButton tone="quiet" data-support-dismiss aria-label={copy.close}><Icon name="x"/></WorkspaceButton></div>
+ <h2 id="support-dialog-title">{copy.title}</h2><p id="support-dialog-body">{copy.body}</p>
+ </header><div class="support-dialog__body"><p class="support-dialog__eyebrow">{experience.quickNote}</p>
+ <div class="support-dialog__tabs" role="tablist" aria-label={copy.choose}>{['afdian','wechat','alipay'].map((id,index)=><WorkspaceButton id={'support-tab-'+id} role="tab" type="button" data-support-channel={id} aria-selected={index===0?'true':'false'} tabindex={index===0?0:-1} aria-controls="support-channel-panel">{copy[id as keyof typeof copy]}</WorkspaceButton>)}</div>
+ <section class="support-dialog__channel" id="support-channel-panel" role="tabpanel" aria-labelledby="support-tab-afdian" tabindex="0">
+  <a data-support-afdian-button class="support-dialog__afdian" hidden target="_blank" rel="noopener noreferrer" aria-label={copy.go}><img data-support-afdian-image src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" width="200" alt={copy.go}/><span data-support-afdian-fallback hidden>{copy.go}<Icon name="arrow-up-right"/></span></a>
+  <a data-support-original class="support-qr-frame" hidden target="_blank" rel="noopener noreferrer" aria-label={copy.original}><span class="support-qr-window" data-support-qr-window><img data-support-qr hidden alt=""/></span></a>
+  <div class="support-dialog__channel-info">
+   <h3 data-support-channel-name></h3>
+   <p data-support-channel-description></p><p data-support-recipient hidden></p>
+   <p data-support-scan hidden></p>
+   <WorkspaceButton data-support-external tone="primary" href="#" target="_blank" rel="noopener noreferrer"><span data-support-external-label>{copy.go}</span><Icon name="arrow-up-right"/></WorkspaceButton>
+   <a data-support-save class="support-dialog__save" hidden download target="_blank" rel="noopener noreferrer"><Icon name="download"/>{copy.save}</a>
+   <p data-support-unavailable hidden>{copy.unavailable}</p>
+  </div>
+ </section>
+ <div class="support-dialog__status"><p data-support-load-status role="status"></p><WorkspaceButton data-support-refresh tone="quiet" hidden>{copy.refresh}</WorkspaceButton></div>
+ </div><footer><p class="support-dialog__free">{copy.free}</p><a class="support-dialog__details" href={`/${locale}/support/`}>{experience.more}<Icon name="arrow-right"/></a></footer>
+ <script type="application/json" is:inline data-support-dialog-data set:html={JSON.stringify({copy:{...copy,...experience},channels:getSupportData().channels}).replace(/</g,'\u003c')}/>
+</dialog>
+<script>import '../scripts/supportDialog.js';</script>

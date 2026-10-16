@@ -1,12 +1,12 @@
 import {computePosition, offset, flip, shift, size, autoUpdate} from '@floating-ui/dom';
 
 // Shared geometry for action bubbles and text-selection tools. UI remains site-owned.
-export function computeEditorPosition(reference, floating, {placement='bottom-start', platform}={}) {
+export function computeEditorPosition(reference, floating, {placement='bottom-start', platform,matchReferenceWidth=false}={}) {
   return computePosition(reference, floating, {
     strategy:'fixed', placement, ...(platform ? {platform} : {}),
     middleware:[offset(8), flip({padding:8}), shift({padding:8,crossAxis:true}),
-      size({padding:8,apply({availableWidth,availableHeight,elements}) {
-        Object.assign(elements.floating.style,{maxWidth:`${Math.max(0,availableWidth)}px`,maxHeight:`${Math.max(0,availableHeight)}px`});
+      size({padding:8,apply({availableWidth,availableHeight,elements,rects}) {
+        Object.assign(elements.floating.style,{...(matchReferenceWidth?{width:`${Math.max(0,Math.min(rects.reference.width,availableWidth))}px`}:{}),maxWidth:`${Math.max(0,availableWidth)}px`,maxHeight:`${Math.max(0,availableHeight)}px`});
       }})],
   });
 }

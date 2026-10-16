@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="/ui-tokens.css?v=50cda50e7db2" />
     <link rel="stylesheet" href="/games/interface.css" />
     <link rel="stylesheet" href="/games/theme.css" />
-  <link rel="stylesheet" href="/icons/ui-icons.css" /></head>
+  <link rel="stylesheet" href="/icons/ui-icons.css" /><link rel="stylesheet" href="/games/ui-kit.generated.css">
+</head>
   <body>
     <main class="game-shell" id="gameShell" data-screen="loading" data-mode="memory">
       <canvas id="gameCanvas" aria-label="神椿像素档案探索游戏"></canvas>
@@ -30,7 +31,7 @@
           <span><i class="hud-icon hud-icon--gem" aria-hidden="true"></i><span class="hud__metric-label">宝石</span><b id="gemCount">00</b></span>
           <span><i class="hud-icon hud-icon--fragment" aria-hidden="true"></i><span class="hud__metric-label" id="fragmentLabel">碎片</span><b id="fragmentCount">0/3</b></span>
         </div>
-        <button class="hud__menu" id="openMenuButton" type="button">玩法</button>
+        <button data-ui-kit class="workspace-button dui-btn dui-btn-ghost hud__menu" id="openMenuButton" type="button">玩法</button>
       </header>
 
       <section class="loading-screen" id="loadingScreen" aria-live="polite">
@@ -45,7 +46,7 @@
           <p>同一片失落档案，三种进入方法。</p>
         </div>
         <div class="mode-list">
-          <button class="mode-option" type="button" data-start-mode="memory">
+          <button data-ui-kit class="workspace-button dui-btn dui-btn-ghost mode-option" type="button" data-start-mode="memory">
             <span class="mode-option__number">01</span>
             <span class="mode-option__copy">
               <strong>记忆采集</strong>
@@ -53,7 +54,7 @@
             </span>
             <span class="mode-option__action">开始探索</span>
           </button>
-          <button class="mode-option" type="button" data-start-mode="portal">
+          <button data-ui-kit class="workspace-button dui-btn dui-btn-ghost mode-option" type="button" data-start-mode="portal">
             <span class="mode-option__number">02</span>
             <span class="mode-option__copy">
               <strong>条目传送</strong>
@@ -61,7 +62,7 @@
             </span>
             <span class="mode-option__action">打开地图</span>
           </button>
-          <button class="mode-option" type="button" data-start-mode="runner">
+          <button data-ui-kit class="workspace-button dui-btn dui-btn-ghost mode-option" type="button" data-start-mode="runner">
             <span class="mode-option__number">03</span>
             <span class="mode-option__copy">
               <strong>记忆回廊</strong>
@@ -75,7 +76,7 @@
 
       <section class="runner-layer" id="runnerLayer" hidden>
         <iframe id="runnerFrame" title="记忆回廊跑酷模式" loading="eager"></iframe>
-        <button class="runner-layer__back" id="runnerBackButton" type="button">返回三种玩法</button>
+        <button data-ui-kit class="workspace-button dui-btn dui-btn-ghost runner-layer__back" id="runnerBackButton" type="button">返回三种玩法</button>
       </section>
 
       <div class="interaction-prompt" id="interactionPrompt" hidden>
@@ -97,7 +98,7 @@
       </div>
 
       <dialog class="archive-dialog" id="archiveDialog">
-        <button class="archive-dialog__close" id="dialogCloseButton" type="button" aria-label="关闭"><span class="site-icon-mask" data-ui-icon="x" aria-hidden="true"></span></button>
+        <button data-ui-kit class="workspace-button dui-btn dui-btn-ghost archive-dialog__close" id="dialogCloseButton" type="button" aria-label="关闭"><span class="site-icon-mask" data-ui-icon="x" aria-hidden="true"></span></button>
         <p class="archive-dialog__index" id="dialogIndex">ARCHIVE / 01</p>
         <h2 id="dialogTitle">档案终端</h2>
         <p class="archive-dialog__lead" id="dialogLead"></p>
@@ -107,12 +108,12 @@
 
       <div class="touch-controls" id="touchControls" hidden>
         <div class="touch-controls__move">
-          <button type="button" data-touch="left" aria-label="向左移动"><span class="site-icon-mask" data-ui-icon="arrow-left" aria-hidden="true"></span></button>
-          <button type="button" data-touch="right" aria-label="向右移动"><span class="site-icon-mask" data-ui-icon="arrow-right" aria-hidden="true"></span></button>
+          <button type="button" data-touch="left" aria-label="向左移动" data-ui-kit class="workspace-button dui-btn dui-btn-ghost"><span class="site-icon-mask" data-ui-icon="arrow-left" aria-hidden="true"></span></button>
+          <button type="button" data-touch="right" aria-label="向右移动" data-ui-kit class="workspace-button dui-btn dui-btn-ghost"><span class="site-icon-mask" data-ui-icon="arrow-right" aria-hidden="true"></span></button>
         </div>
-        <button class="touch-controls__jump" type="button" data-touch="jump" aria-label="跳跃"><span class="site-icon-mask" data-ui-icon="arrow-up" aria-hidden="true"></span></button>
-        <button class="touch-controls__dash" type="button" data-touch="dash" aria-label="共鸣冲刺">⇥</button>
-        <button class="touch-controls__interact" type="button" data-touch="interact" aria-label="互动">E</button>
+        <button data-ui-kit class="workspace-button dui-btn dui-btn-ghost touch-controls__jump" type="button" data-touch="jump" aria-label="跳跃"><span class="site-icon-mask" data-ui-icon="arrow-up" aria-hidden="true"></span></button>
+        <button data-ui-kit class="workspace-button dui-btn dui-btn-ghost touch-controls__dash" type="button" data-touch="dash" aria-label="共鸣冲刺">⇥</button>
+        <button data-ui-kit class="workspace-button dui-btn dui-btn-ghost touch-controls__interact" type="button" data-touch="interact" aria-label="互动">E</button>
       </div>
 
       <div class="screen-flash" id="screenFlash" aria-hidden="true"></div>

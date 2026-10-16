@@ -2,33 +2,25 @@
 import '../styles/entityInfoBox.css';
 import ResponsiveImage from './ResponsiveImage.astro';
 import ExternalLinkCard from './ExternalLinkCard.astro';
-import {entityLabel} from '../lib/entityLabels.mjs';
-import {resolveLocaleCopy} from '../lib/i18n.mjs';
-import {entityArtwork,entityLeadArtists,entityPresentationKind} from '../lib/entityPresentation.mjs';
+import {entityInfoModel} from '../lib/entityInfoModel.mjs';
 import type {ResolvedEntity,EntityRegistry} from '../lib/entityRegistry.mjs';
 const {entry,registry,locale}=Astro.props as {entry:ResolvedEntity;registry:EntityRegistry;locale:string};
 const d=entry.data;
-const kind=entityPresentationKind(d),artwork=entityArtwork(d);
-const artists=kind==='music'?entityLeadArtists(d,registry,locale):[];
-const moreLabel=resolveLocaleCopy({zh:'更多资料',ja:'詳しい情報',en:'More details'},locale);
-const copy=resolveLocaleCopy({zh:{card:'资料卡',roles:'身份 / 职能',activity:'活动状态',start:'开始活动',date:'发行日期',duration:'时长',affiliations:'所属 / 厂牌',links:'官方链接',theme:'条目配色',credits:'制作名单',engine:'声库引擎',venue:'场地',release:'发行形式'},ja:{card:'情報欄',roles:'役割',activity:'活動状況',start:'活動開始',date:'発売日',duration:'長さ',affiliations:'所属',links:'公式リンク',theme:'テーマ配色',credits:'クレジット',engine:'音声エンジン',venue:'会場',release:'リリース形式'},en:{card:'Record details',roles:'Roles',activity:'Activity',start:'Active since',date:'Release date',duration:'Duration',affiliations:'Affiliations',links:'Official links',theme:'Palette',credits:'Credits',engine:'Voice engines',venue:'Venue',release:'Release type'}},locale);
-const facts=[{key:'roles',label:copy.roles,value:d.roles?.map((role:string)=>entityLabel(role,locale)).join(' / ')},{key:'activity',label:copy.activity,value:d.lifecycle?.activity&&entityLabel(d.lifecycle.activity,locale)},{key:'start',label:copy.start,value:d.lifecycle?.startedAt},{key:'date',label:copy.date,value:d.releaseDate||d.dateRange?.start},{key:'duration',label:copy.duration,value:d.duration},{key:'release',label:copy.release,value:d.releaseType&&entityLabel(d.releaseType,locale)},{key:'engine',label:copy.engine,value:d.voiceEngines?.map((e:{engine:string})=>e.engine).join(' / ')},{key:'venue',label:copy.venue,value:d.venue?.name}].filter(f=>f.value);
-const coreKeys=kind==='artist'?['roles','activity','start']:kind==='music'?['date','duration','release']:facts.map(f=>f.key);
-const coreFacts=facts.filter(f=>coreKeys.includes(f.key)),extraFacts=facts.filter(f=>!coreKeys.includes(f.key));
-const hasMore=extraFacts.length>0||(d.affiliations||[]).length>0||(d.credits||[]).length>0||(d.officialLinks||[]).length>0||(d.presentation?.theme?.palette||[]).length>0;
+const model=entityInfoModel(d,registry,locale);
+const {kind,artwork,artists,copy,coreFacts,extraFacts,hasMore}=model;
 ---
 <section class="wiki-infobox entity-info" data-card-kind="entity" data-entity-type={d.entityType} data-placeholder={artwork.placeholder||undefined} aria-label={copy.card}>
- <header><small>{copy.card} / {entityLabel(d.entityType,locale)}</small><h2>{d.name||d.title}</h2>{(d.romanizedName||d.romanizedTitle)&&<p class="info-romanized">{d.romanizedName||d.romanizedTitle}</p>}{artists.length>0&&<p class="info-artists">{artists.map((artist,index)=><>{index>0&&' / '}<a href={artist.url}>{artist.title}</a></>)}</p>}</header>
- {(d.presentation?.image||kind)&&<figure><ResponsiveImage src={artwork.src} alt={artwork.placeholder?'':d.name||d.title||d.id} widths={[192,480,960]} sizes="(min-width:1024px) 256px, 360px" data-original={artwork.src}/></figure>}
+ <header><small>{copy.card} / {model.typeLabel}</small><h2>{model.title}</h2>{model.romanized&&<p class="info-romanized">{model.romanized}</p>}{artists.length>0&&<p class="info-artists">{artists.map((artist,index)=><>{index>0&&' / '}<a href={artist.url}>{artist.title}</a></>)}</p>}</header>
+ {model.showArtwork&&<figure><ResponsiveImage src={artwork.src} alt={artwork.placeholder?'':d.name||d.title||d.id} widths={[192,480,960]} sizes="(min-width:1024px) 256px, 360px" data-original={artwork.src}/></figure>}
  <div class="entity-info-body"><dl class="entity-info-facts">{coreFacts.map(f=><div><dt>{f.label}</dt><dd>{f.value}</dd></div>)}</dl>
  {hasMore&&<details class="entity-info-more" open={!kind||undefined}>
- <summary>{moreLabel}</summary>
+ <summary>{copy.more}</summary>
  <div class="entity-info-more-body">
  {extraFacts.length>0&&<dl class="entity-info-facts">{extraFacts.map(f=><div><dt>{f.label}</dt><dd>{f.value}</dd></div>)}</dl>}
- {d.affiliations?.length>0&&<section><h3>{copy.affiliations}</h3>{d.affiliations.map((a:{organization:string;current:boolean})=>{const e=registry.resolveEntity(a.organization,locale);return e&&<a class="info-relation" href={e.url}>{e.data.name||e.data.title}{!a.current&&<small>{entityLabel('historical',locale)}</small>}</a>})}</section>}
- {(d.credits||[]).length>0&&<section id="entry-credits"><h3>{copy.credits}</h3><dl class="entity-info-credits">{(d.credits||[]).map(c=>{const e=c.entity?registry.resolveEntity(c.entity,locale):undefined;return <div class="info-credit"><dt>{entityLabel(c.role,locale)}</dt><dd>{e?<a href={e.url}>{e.data.name||e.data.title}</a>:<span>{c.name}</span>}</dd></div>})}</dl></section>}
- {(d.officialLinks||[]).length>0&&<section><h3>{copy.links}</h3><div class="info-links">{(d.officialLinks||[]).map((link:{url:string;label?:string;platform?:string})=><ExternalLinkCard href={link.url} label={link.label||link.platform||link.url} compact/>)}</div></section>}
- {d.presentation?.theme?.palette?.length>0&&<section><h3>{copy.theme}</h3><div class="theme-swatch-row">{d.presentation.theme.palette.map((swatch:{value:string;label:string})=><span title={`${swatch.label} ${swatch.value}`}><i style={`background:${swatch.value}`} aria-hidden="true"></i><small>{swatch.label}</small></span>)}</div></section>}
+ {model.affiliations.length>0&&<section><h3>{copy.affiliations}</h3>{model.affiliations.map(a=><div><a class="info-relation" href={a.url}>{a.title}{a.historical&&<small>{a.historicalLabel}</small>}</a>{a.dates&&<small class="info-relation-date">{a.dates}</small>}</div>)}</section>}
+ {model.credits.length>0&&<section id="entry-credits"><h3>{copy.credits}</h3><dl class="entity-info-credits">{model.credits.map(c=><div class="info-credit"><dt>{c.role}</dt><dd>{c.url?<a href={c.url}>{c.title}</a>:<span>{c.title}</span>}</dd></div>)}</dl></section>}
+ {model.links.length>0&&<section><h3>{copy.links}</h3><div class="info-links">{model.links.map(link=><ExternalLinkCard href={link.url} label={link.label} compact/>)}</div></section>}
+ {model.palette.length>0&&<section><h3>{copy.theme}</h3><div class="theme-swatch-row">{model.palette.map((swatch:{value:string;label:string})=><span title={`${swatch.label} ${swatch.value}`}><i style={`background:${swatch.value}`} aria-hidden="true"></i><small>{swatch.label}</small></span>)}</div></section>}
  </div>
  </details>}
  </div>

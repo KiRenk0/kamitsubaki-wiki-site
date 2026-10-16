@@ -1,4 +1,5 @@
 ---
+import {pageLabels} from '../../lib/pageLabels.mjs';
 import WorkspaceHeader from '../../components/WorkspaceHeader.astro';
 import WorkspaceShell from '../../components/WorkspaceShell.astro';
 import { getBuildCollection as getCollection } from '../../lib/contentAuditContext';
@@ -22,7 +23,7 @@ const alternates = supportedLocales.map((code) => ({ locale: code, href: `/${cod
 
 const content = resolveLocaleCopy({
   zh: {
-    eyebrow: '版权与许可',
+    eyebrow: 'LEGAL / LICENSE',
     title: '著作权信息',
     intro: '本站采用分层授权：只许可本站实际拥有或有权许可的内容，不将第三方作品自动纳入开放许可。',
     defaultTitle: '默认文字许可',
@@ -45,7 +46,7 @@ const content = resolveLocaleCopy({
     oldDeed: '查看 CC BY-NC-SA 3.0 中国大陆许可',
   },
   ja: {
-    eyebrow: '著作権とライセンス',
+    eyebrow: 'LEGAL / LICENSE',
     title: '著作権情報',
     intro: '本サイトは階層型のライセンス表示を採用し、実際に権利を有する、または許諾できる内容のみをライセンスします。第三者の作品が自動的に対象になることはありません。',
     defaultTitle: '文章の既定ライセンス',
@@ -68,7 +69,7 @@ const content = resolveLocaleCopy({
     oldDeed: 'CC BY-NC-SA 3.0 中国大陸版',
   },
   en: {
-    eyebrow: 'Copyright and licensing',
+    eyebrow: 'LEGAL / LICENSE',
     title: 'Copyright information',
     intro: 'This site uses layered licensing. It licenses only material that it owns or has authority to license; third-party works are never automatically included.',
     defaultTitle: 'Default text license',
@@ -104,7 +105,7 @@ const metadata = {
   <SiteNav navItems={homeContent.navItems} localeLinks={localeLinks} brandLines={homeContent.hero.brandLines} compact homeHref={`/${localeCode}/`} />
 
   <WorkspaceShell width="reading" class="license-workspace">
-    <WorkspaceHeader title={content.title} intro={content.intro} eyebrow={content.eyebrow} backHref={`/${locale}/`} backLabel={locale==='en'?'Home':locale==='ja'?'ホーム':'首页'}/>
+    <WorkspaceHeader title={content.title} intro={content.intro} eyebrow={content.eyebrow} backHref={`/${locale}/`} backLabel={pageLabels(locale).home}/>
 
     <div class="mt-10 grid gap-8 lg:grid-cols-12">
       <article class="wiki-reader wiki-prose prose prose-invert max-w-none lg:col-span-8 reveal-up">
@@ -145,7 +146,8 @@ const metadata = {
         </div>
       </aside>
     </div>
-  </WorkspaceShell>
+  <section id="open-source-data" class="license-panel"><h2>{localeCode==='en'?'Open data acknowledgements':localeCode==='ja'?'公開データへの謝辞':'公共数据与开源致谢'}</h2><p>{localeCode==='en'?'The location directory uses the following datasets and components. Their respective licenses apply.':localeCode==='ja'?'地域ディレクトリは次の公開データとコンポーネントを利用しています。各ライセンスが適用されます。':'地点目录使用以下公共数据和组件，分别遵循其原许可。'}</p><ul><li><a href="https://github.com/dr5hn/countries-states-cities-database" target="_blank" rel="noopener noreferrer">Countries States Cities · ODbL</a></li><li><a href="https://www.geonames.org/" target="_blank" rel="noopener noreferrer">GeoNames · CC BY</a></li><li><a href="https://www.wikidata.org/" target="_blank" rel="noopener noreferrer">Wikidata · CC0</a></li><li><a href="https://github.com/youzan/vant/tree/main/packages/vant-area-data" target="_blank" rel="noopener noreferrer">Vant · MIT</a></li></ul></section>
+</WorkspaceShell>
 
   <SiteFooter footer={homeContent.footer} />
 </BaseLayout>

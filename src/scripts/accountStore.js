@@ -153,8 +153,6 @@ export function renderAccountIdentity(container){
 }
 function renderChrome() {
   document.querySelectorAll('[data-account-guest-menu]').forEach(el=>{el.hidden=!!state.viewer;});
-  document.querySelectorAll('[data-account-member-menu]').forEach(el=>{el.hidden=!state.viewer;});
-  document.querySelectorAll('[data-account-menu-identity]').forEach(el=>{if(state.viewer)renderAccountIdentity(el);else el.replaceChildren();});
   document.querySelectorAll('[data-account-nav]').forEach(a=>{
     if(state.viewer){renderAccountIdentity(a);a.setAttribute('aria-label',(state.viewer.displayName||copy.title)+' · '+copy.title);a.setAttribute('aria-haspopup','dialog');}else{a.textContent=state.auth==='checking'?copy.checking:copy.login;a.removeAttribute('aria-label');a.removeAttribute('aria-haspopup');}
   });
@@ -183,7 +181,8 @@ for(const name of ['pointerdown','focusin','contextmenu'])document.addEventListe
 const accountDialog=document.querySelector('[data-account-dialog]');
 let dialogTrigger=null,backdropPress=false,releaseModalScroll=null;
 async function openAccountDialog(trigger){
-  const client=state.viewer?null:await centralClient;
+  if(state.viewer){const {openAccountComponentMenu}=await import('./accountComponentBridge.js');await openAccountComponentMenu(trigger);return;}
+  const client=await centralClient;
   const returnTo=new URL(loginUrl()).searchParams.get('returnTo');
   if(client?.openSignIn?.({returnTo,theme:document.documentElement.dataset.theme==='dark'?'dark':'light',trigger}))return;
   if(!accountDialog || accountDialog.open)return;
@@ -191,7 +190,7 @@ async function openAccountDialog(trigger){
   dialogTrigger=trigger;releaseModalScroll=lockModalScroll();
   try{accountDialog.showModal();}catch(error){releaseModalScroll?.();releaseModalScroll=null;throw error;}
   accountDialog.setAttribute('aria-label',state.viewer?copy.title:copy.loginTitle);accountDialog.removeAttribute('aria-labelledby');accountDialog.removeAttribute('aria-describedby');
-  accountDialog.querySelector(state.viewer?'[data-account-member-menu] a':'[data-account-sign-in]')?.focus({preventScroll:true});
+  accountDialog.querySelector('[data-account-sign-in]')?.focus({preventScroll:true});
 
 }
 accountDialog?.addEventListener('close',()=>{
@@ -202,7 +201,7 @@ accountDialog?.addEventListener('close',()=>{
 window.addEventListener('pagehide',()=>{if(accountDialog?.open)accountDialog.close();releaseModalScroll?.();releaseModalScroll=null;});
 const outsideDialog=event=>{const r=accountDialog.getBoundingClientRect();return event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom;};
 accountDialog?.addEventListener('pointerdown',event=>{backdropPress=event.target===accountDialog && outsideDialog(event);});
-accountDialog?.addEventListener('click',event=>{if(event.target instanceof Element&&event.target.closest('[data-account-member-menu] a'))accountDialog.close();if(backdropPress && event.target===accountDialog && outsideDialog(event))accountDialog.close();backdropPress=false;});
+accountDialog?.addEventListener('click',event=>{if(backdropPress && event.target===accountDialog && outsideDialog(event))accountDialog.close();backdropPress=false;});
 new MutationObserver(renderChrome).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
 window.addEventListener('kamitsubaki-account-state',renderChrome);
 

@@ -1,8 +1,9 @@
 ---
-import Icon from '../components/Icon.astro';
+import WorkspaceButton from './WorkspaceButton.astro';
+import Icon from './Icon.astro';
 const {labels}=Astro.props;
 ---
-<button
+<WorkspaceButton
   class="announcement-launcher"
   type="button"
   data-announcement-open
@@ -12,5 +13,5 @@ const {labels}=Astro.props;
   <span aria-hidden="true">//</span>
   <Icon name="file-text" />
   <strong>{labels.heading}</strong>
-</button>
+</WorkspaceButton>
 

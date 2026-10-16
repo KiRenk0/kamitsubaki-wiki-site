@@ -1,5 +1,4 @@
-import {micromark} from 'micromark';
-import {gfm,gfmHtml} from 'micromark-extension-gfm';
+import {articleHTML} from '../../src/lib/articleMarkdownRenderer.mjs';
 
 const locales=new Set(['zh','zh-tw','zh-hk','ja','en']);
 const origin='https://kamitsubaki.wiki';
@@ -26,10 +25,10 @@ export async function renderArticlePage({request,env,params}){
  if(!asset.ok)return new Response('Article template unavailable',{status:503,headers:noStore});
  const title=String(article.title),summary=String(article.summary||article.body.replace(/<[^>]*>|[#*`\[\]{}]/g,' ').replace(/\s+/g,' ').trim().slice(0,180));
  const displayTitle=`${title} · Kamitsubaki Wiki`,url=canonical(fallback?'zh':locale,id);
- const body=micromark(String(article.body),{allowDangerousHtml:false,extensions:[gfm()],htmlExtensions:[gfmHtml()]});
+ const body=articleHTML(article.body,locale);
  const metadata=[article.origin==='user-submission'?'User submission':'Site original',article.author,article.updatedAt,`v${article.version}`].filter(Boolean).join(' · ');
  let html=await asset.text();
- const replace=(pattern,value)=>{html=html.replace(pattern,value);};
+ const replace=(pattern,value)=>{html=html.replace(pattern,()=>value);};
  replace(/<title>[^<]*<\/title>/,`<title>${escape(displayTitle)}</title>`);
  const meta=(name,value)=>`<meta ${name} content="${escape(value)}">`;
  replace(/<meta name="description"[^>]*>/,meta('name="description"',summary));
@@ -43,7 +42,7 @@ export async function renderArticlePage({request,env,params}){
  replace(/<h1 data-article-title>[\s\S]*?<\/h1>/,`<h1 data-article-title>${escape(title)}</h1>`);
  replace(/<p data-article-meta><\/p>/,`<p data-article-meta>${escape(metadata)}${fallback?' · Chinese original':''}</p>`);
  replace(/<p data-article-summary><\/p>/,`<p data-article-summary>${escape(summary)}</p>`);
- replace(/(<article\b[^>]*\bdata-article-body\b[^>]*>)[\s\S]*?(<\/article>)/,`$1${body}$2`);
+ html=html.replace(/(<article\b[^>]*\bdata-article-body\b[^>]*>)[\s\S]*?(<\/article>)/,(_match,open,close)=>open+body+close);
  return new Response(html,{status:200,headers:{...noStore,'Content-Type':'text/html; charset=utf-8'}});
 }
 

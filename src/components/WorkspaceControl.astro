@@ -1,0 +1,14 @@
+---
+import type {HTMLAttributes} from 'astro/types';
+import '../styles/uiKit.css';
+interface Props extends HTMLAttributes<'input'> {
+ as?:'input'|'select'|'textarea'; rows?:number|string; cols?:number|string; wrap?:'hard'|'soft'|'off';
+}
+const {as='input',class:className,...attributes}=Astro.props;
+const inputType='type' in attributes?attributes.type:undefined;
+const controlClass=as==='select'?'dui-select':as==='textarea'?'dui-textarea':inputType==='checkbox'?'dui-checkbox':inputType==='file'?'dui-file-input':inputType==='radio'?'dui-radio':inputType==='range'?'dui-range':inputType==='hidden'?undefined:'dui-input';
+const classes=['workspace-control',controlClass,className];
+// Astro treats textarea children as raw text; render the slot before emitting it.
+const content=as==='textarea'?await Astro.slots.render('default'):undefined;
+---
+{as==='input'?<input {...attributes} class:list={classes} data-ui-kit/>:as==='select'?<select {...attributes} class:list={classes} data-ui-kit><slot/></select>:<textarea {...attributes} class:list={classes} data-ui-kit set:html={content}/>}

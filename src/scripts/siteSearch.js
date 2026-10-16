@@ -1,12 +1,13 @@
+import {lockModalScroll} from '../lib/modalScroll.mjs';
+import {searchPagefind} from '../lib/pagefindSearch.mjs';
 import {createIcon, setIconLabel} from '../lib/icons.mjs';
 import {articleCopy} from '../lib/articleCopy.mjs';
-import { normalizeSearchText, searchKindGroups, searchResultPath, searchSiteIndex } from '../lib/siteSearch.mjs';
+import { normalizeSearchText, searchKindGroups, searchResultPath } from '../lib/siteSearch.mjs';
 import { getSearchShortcut } from '../lib/searchShortcut.mjs';
 
 const searchDialog = document.querySelector('[data-site-search]');
 let queryNormalizerPromise;
-const indexPromises = new Map();
-const bodyIndexPromises = new Map();
+const enginePromises = new Map();
 
 function updateSearchShortcutHints() {
   const shortcut = getSearchShortcut({
@@ -36,38 +37,14 @@ function resultCount(copy, count) {
   return template.replace('{count}', String(count));
 }
 
-function loadIndex(locale) {
-  if (!indexPromises.has(locale)) {
-    const promise = fetch(`/${locale}/search-index.json`, { headers: { Accept: 'application/json' } })
-      .then((response) => {
-        if (!response.ok) throw new Error(`Search index returned ${response.status}`);
-        return response.json();
-      })
-      .then((payload) => Array.isArray(payload?.entries) ? payload.entries : [])
-      .catch((error) => {
-        indexPromises.delete(locale);
-        throw error;
-      });
-    indexPromises.set(locale, promise);
+function loadEngine(locale) {
+  if (!enginePromises.has(locale)) {
+    const url = `/pagefind/${locale}/pagefind.js`;
+    enginePromises.set(locale, import(/* @vite-ignore */ url).then(async engine=>{await engine.options({basePath:`/pagefind/${locale}/`,language:locale.startsWith('zh')?'zh':locale});return engine;}).catch(error => {
+      enginePromises.delete(locale); throw error;
+    }));
   }
-  return indexPromises.get(locale);
-}
-
-function loadBodyIndex(locale) {
-  if (!bodyIndexPromises.has(locale)) {
-    const promise = fetch(`/${locale}/search-body.json`, { headers: { Accept: 'application/json' } })
-      .then((response) => {
-        if (!response.ok) throw new Error(`Search body returned ${response.status}`);
-        return response.json();
-      })
-      .then((payload) => (payload?.bodies && typeof payload.bodies === 'object' ? payload.bodies : {}))
-      .catch((error) => {
-        bodyIndexPromises.delete(locale);
-        throw error;
-      });
-    bodyIndexPromises.set(locale, promise);
-  }
-  return bodyIndexPromises.get(locale);
+  return enginePromises.get(locale);
 }
 
 function loadQueryNormalizer() {
@@ -147,14 +124,14 @@ function initializeSearch(root) {
   const status = root.querySelector('[data-search-status]');
   const close = root.querySelector('[data-search-close]');
   const form = root.querySelector('[data-search-form]');
-  let entries = [];
-  let bodyLoaded = false;
+  let engine;
+  let queryGeneration = 0;
   let activeIndex = -1;
   let activeKind = '';
   let queryNormalizer = normalizeSearchText;
   let searchTimer = 0;
   let closeAnimationTimer = 0;
-  let previouslyFocused = null;
+  let previouslyFocused = null,releaseScroll=null;
   let matches = [],shown = 0;
 
   if (!(input instanceof HTMLInputElement) || !(resultsRoot instanceof HTMLElement) || !(status instanceof HTMLElement)) {
@@ -164,11 +141,22 @@ function initializeSearch(root) {
   const resultLinks = () => [...resultsRoot.querySelectorAll('.site-search__result')];
   const isOpen = () => !root.hidden && !root.classList.contains('is-closing');
   const moreButton=document.createElement('button');moreButton.type='button';moreButton.className='site-search__more';moreButton.hidden=true;resultsRoot.after(moreButton);
-  const showNext=()=>{const query=input.value.trim(),batch=matches.slice(shown,shown+12);resultsRoot.append(...batch.map((result,index)=>createResult(result,query,copy,shown+index)));shown+=batch.length;moreButton.hidden=shown>=matches.length;moreButton.textContent=({zh:`继续查看 · ${shown}/${matches.length}`,'zh-tw':`繼續查看 · ${shown}/${matches.length}`,'zh-hk':`繼續查看 · ${shown}/${matches.length}`,ja:`さらに表示 · ${shown}/${matches.length}`,en:`Show more · ${shown}/${matches.length}`})[root.dataset.locale]||`Show more · ${shown}/${matches.length}`;status.textContent=`${resultCount(copy,matches.length)} · ${shown}/${matches.length}`;};
+  let batchGeneration=0;
+  const showNext=async()=>{
+    const generation=queryGeneration,query=input.value.trim();if(batchGeneration===generation)return;batchGeneration=generation;moreButton.disabled=true;
+    try{const batch=await Promise.all(matches.slice(shown,shown+12).map(result=>result.data()));if(generation!==queryGeneration)return;
+      resultsRoot.append(...batch.map((record,index)=>createResult({path:record.url,...record.meta,excerpt:record.plain_excerpt},query,copy,shown+index)));shown+=batch.length;moreButton.hidden=shown>=matches.length;
+      moreButton.textContent=({zh:`继续查看 · ${shown}/${matches.length}`,'zh-tw':`繼續查看 · ${shown}/${matches.length}`,'zh-hk':`繼續查看 · ${shown}/${matches.length}`,ja:`さらに表示 · ${shown}/${matches.length}`,en:`Show more · ${shown}/${matches.length}`})[root.dataset.locale]||`Show more · ${shown}/${matches.length}`;
+      status.textContent=`${resultCount(copy,matches.length)} · ${shown}/${matches.length}`;
+    }catch{if(generation===queryGeneration){status.textContent=copy.error;moreButton.hidden=false;moreButton.textContent=copy.retry||'Retry';}}
+    finally{if(batchGeneration===generation)batchGeneration=0;moreButton.disabled=false;}
+  };
   moreButton.addEventListener('click',showNext);
 
   const finishClose = () => {
     root.hidden = true;
+    if(root instanceof HTMLDialogElement&&root.open)root.close();
+    releaseScroll?.();releaseScroll=null;
     root.classList.remove('is-closing');
     document.documentElement.classList.remove('site-search-open');
     if (previouslyFocused instanceof HTMLElement) previouslyFocused.focus();
@@ -202,7 +190,8 @@ function initializeSearch(root) {
     });
   };
 
-  const render = () => {
+  const render = async () => {
+    const generation = ++queryGeneration;
     const query = input.value.trim();
     resultsRoot.replaceChildren();
     matches=[];shown=0;moreButton.hidden=true;
@@ -224,12 +213,22 @@ function initializeSearch(root) {
       return;
     }
 
-    matches = searchSiteIndex(entries, query, {
-      locale: root.dataset.locale,
-      kind: searchKindGroups[activeKind] || activeKind,
-      limit: Math.max(1,entries.length),
-      queryNormalizer,
-    });
+    status.textContent = copy.loading;
+    try {
+      engine ||= await loadEngine(root.dataset.locale || 'zh');
+      queryNormalizer = await loadQueryNormalizer();
+      const kinds = searchKindGroups[activeKind] || (activeKind ? [activeKind] : null);
+      const result=await searchPagefind(engine,queryNormalizer(query),kinds,root.dataset.locale||'zh');
+      if(generation!==queryGeneration)return;
+      matches=result;
+
+    } catch {
+      if (generation !== queryGeneration) return;
+      status.replaceChildren();
+      const message=document.createElement('span');message.textContent=copy.error;
+      const retry=document.createElement('button');retry.type='button';retry.className='site-search__retry-btn';retry.textContent=copy.retry||'Retry';retry.onclick=render;
+      status.append(message,retry);return;
+    }
 
     if (!matches.length) {
       status.textContent = copy.empty;
@@ -246,53 +245,14 @@ function initializeSearch(root) {
     if (wasHidden) {
       previouslyFocused = document.activeElement;
       root.hidden = false;
+      releaseScroll=lockModalScroll();
+      try{if(root instanceof HTMLDialogElement)root.showModal();}catch(error){releaseScroll?.();releaseScroll=null;root.hidden=true;throw error;}
       document.documentElement.classList.add('site-search-open');
     }
     window.requestAnimationFrame(() => input.focus());
 
-    const locale = root.dataset.locale || 'zh';
+    await render();
 
-    if (!entries.length) {
-      status.textContent = copy.loading;
-      try {
-        [entries, queryNormalizer] = await Promise.all([
-          loadIndex(locale),
-          loadQueryNormalizer(),
-        ]);
-        render();
-      } catch {
-        status.innerHTML = '';
-        const msg = document.createElement('span');
-        msg.textContent = copy.error;
-        const retryBtn = document.createElement('button');
-        retryBtn.type = 'button';
-        retryBtn.className = 'site-search__retry-btn';
-        retryBtn.textContent = copy.retry || 'Retry';
-        retryBtn.addEventListener('click', () => {
-          openSearch();
-        });
-        status.append(msg, retryBtn);
-        return;
-      }
-    }
-
-    if (!bodyLoaded) {
-      loadBodyIndex(locale)
-        .then((bodies) => {
-          bodyLoaded = true;
-          for (const entry of entries) {
-            if (entry.id && bodies[entry.id]) {
-              entry.searchKey = bodies[entry.id];
-            }
-          }
-          if (input.value.trim()) {
-            render();
-          }
-        })
-        .catch(() => {
-          // If body index fails to load, title/alias/heading/description search continues working
-        });
-    }
   };
 
   document.querySelectorAll('[data-search-open]').forEach((trigger) => {
@@ -353,22 +313,9 @@ function initializeSearch(root) {
   root.addEventListener('click', (event) => {
     if (event.target === root) closeSearch();
   });
-  root.addEventListener('keydown', (event) => {
-    if (event.key !== 'Tab') return;
-    const focusable = [...root.querySelectorAll('button:not([disabled]), input:not([disabled]), a[href]')]
-      .filter((element) => element instanceof HTMLElement && element.offsetParent !== null);
-    if (!focusable.length) return;
-
-    const first = focusable[0];
-    const last = focusable[focusable.length - 1];
-    if (event.shiftKey && document.activeElement === first) {
-      event.preventDefault();
-      last.focus();
-    } else if (!event.shiftKey && document.activeElement === last) {
-      event.preventDefault();
-      first.focus();
-    }
-  });
+  root.addEventListener('cancel',event=>{event.preventDefault();closeSearch();});
+  root.addEventListener('close',()=>{if(!root.hidden)finishClose();});
+  window.addEventListener('pagehide',()=>releaseScroll?.(),{once:true});
 }
 
 updateSearchShortcutHints();
