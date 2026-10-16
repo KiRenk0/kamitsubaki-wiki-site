@@ -1,4 +1,12 @@
 // A different invitation fragment must never reuse the preceding person's in-memory session.
+import {
+	failureMessage,
+	isExpiredLink,
+	isStaleVersion,
+	ProfileRequestError,
+	verificationNotice,
+} from "../lib/supporterProfileFlow.mjs";
+
 window.addEventListener("hashchange", () => window.location.reload());
 const root = document.querySelector<HTMLElement>("[data-supporter-profile]");
 if (root) {
@@ -20,6 +28,7 @@ if (root) {
 		busy = false,
 		dirty = false,
 		objectURL = "",
+		submitLabel = "提交审核",
 		wikiUserId = "";
 	const bind = page.querySelector<HTMLInputElement>(
 			"[data-wiki-account-bind]",
@@ -45,17 +54,22 @@ if (root) {
 	page
 		.querySelector("[data-wiki-refresh]")!
 		.addEventListener("click", () => void loadWiki());
-	const report = (text: string, error = false) => {
+	const report = (text: string, error = false, scroll = error) => {
 		status.textContent = text;
 		status.dataset.error = String(error);
+		if (scroll) {
+			status.scrollIntoView({ block: "center", behavior: "smooth" });
+			status.focus({ preventScroll: true });
+		}
 	};
 	async function request(path: string, body?: unknown, raw = false) {
 		if (
 			["localhost", "127.0.0.1"].includes(location.hostname) &&
 			!["localhost", "127.0.0.1"].includes(base.hostname)
 		)
-			throw Error(
+			throw new ProfileRequestError(
 				"本地资料预览需要连接本地 API，请配置 PUBLIC_SUPPORT_API_BASE。",
+				"local_api_missing",
 			);
 		const response = await fetch(new URL("/api/supporters" + path, base), {
 			method: body === undefined ? "GET" : "POST",
@@ -80,10 +94,18 @@ if (root) {
 			signal: AbortSignal.timeout(20000),
 		});
 		if (!response.headers.get("content-type")?.includes("application/json"))
-			throw Error("服务暂不可用，请稍后重新读取。");
+			throw new ProfileRequestError(
+				"服务暂不可用，输入已保留，请稍后重试。",
+				"service_unavailable",
+				response.status,
+			);
 		const value = await response.json();
 		if (!response.ok)
-			throw Error(value.error?.message || "请求未完成，请重试。");
+			throw new ProfileRequestError(
+				value.error?.message || "请求未完成，请重试。",
+				value.error?.code,
+				response.status,
+			);
 		return value.data;
 	}
 	function lock(value: boolean) {
@@ -91,7 +113,7 @@ if (root) {
 		for (const button of page.querySelectorAll<HTMLButtonElement>("button"))
 			button.disabled = value;
 		file.disabled = value;
-		submit.textContent = value ? "正在处理…" : "提交审核";
+		submit.textContent = value ? "正在处理…" : submitLabel;
 	}
 	async function previewAvatar(id: string) {
 		const r = await fetch(
@@ -114,7 +136,10 @@ if (root) {
 		lock(true);
 		try {
 			if (!/^[\w-]{40,100}$/.test(token))
-				throw Error("请使用爱发电私信或邮件中的完整专属链接。");
+				throw new ProfileRequestError(
+					"请使用爱发电私信或邮件中的完整专属链接。",
+					"invitation_required",
+				);
 			const data = await request("/profile");
 			const p = data.profile;
 			name.value = p?.name || data.person.name || data.person.afdianName || "";
@@ -136,9 +161,9 @@ if (root) {
 						: "专属链接已验证。填写后提交，审核通过后会自动更新感谢名单。",
 			);
 		} catch (e) {
-			report(e instanceof Error ? e.message : "读取失败", true);
+			report(failureMessage(e, "读取失败，请稍后重新读取。"), true);
 			page.querySelector<HTMLElement>("[data-profile-outside-retry]")!.hidden =
-				false;
+				isExpiredLink(e);
 		} finally {
 			lock(false);
 		}
@@ -155,55 +180,124 @@ if (root) {
 				!["image/png", "image/jpeg", "image/webp"].includes(selected.type) ||
 				selected.size > 2 * 1024 * 1024
 			)
-				throw Error("请使用最大 2 MiB 的 PNG、JPEG 或 WebP 图片。");
+				throw new ProfileRequestError(
+					"请使用最大 2 MiB 的 PNG、JPEG 或 WebP 图片。",
+					"invalid_avatar",
+				);
 			const data = await request("/profile/avatar", selected, true);
 			avatarId = data.id;
 			await previewAvatar(avatarId);
 			dirty = true;
 			report("头像已暂存，提交资料后进入审核。");
 		} catch (e) {
-			report(e instanceof Error ? e.message : "上传失败", true);
+			report(failureMessage(e, "头像上传失败，请重试。"), true);
 		} finally {
 			file.value = "";
 			lock(false);
 		}
 	});
+	const done = page.querySelector<HTMLElement>("[data-profile-done]")!,
+		doneName = done.querySelector<HTMLElement>("[data-done-name]")!,
+		doneEmail = done.querySelector<HTMLElement>("[data-done-email]")!,
+		doneVerify = done.querySelector<HTMLElement>("[data-done-verify]")!,
+		resend = done.querySelector<HTMLButtonElement>("[data-verify-resend]")!,
+		edit = done.querySelector<HTMLButtonElement>("[data-profile-edit]")!,
+		preview = page.querySelector<HTMLAnchorElement>("[data-email-preview]")!;
+	// Email verification only gates automatic Wiki account matching; it must never block the submission itself.
+	async function sendVerification(address: string) {
+		resend.hidden = true;
+		doneVerify.textContent = "正在发送验证邮件…";
+		try {
+			const outcome = await request("/profile/email", { email: address });
+			const notice = verificationNotice(
+				{
+					verified: !!outcome.verified,
+					previewUrl: outcome.previewUrl,
+					sent: !outcome.verified && !outcome.previewUrl,
+				},
+				address,
+			);
+			doneVerify.textContent = notice.text;
+			preview.hidden = !outcome.previewUrl;
+			if (outcome.previewUrl) preview.href = outcome.previewUrl;
+			resend.hidden = notice.done;
+			resend.textContent = "重新发送验证邮件";
+		} catch (e) {
+			doneVerify.textContent = verificationNotice(
+				{ verified: false, reason: failureMessage(e) },
+				address,
+			).text;
+			resend.hidden = false;
+		}
+	}
+	function showDone(finalName: string, address: string) {
+		doneName.textContent = finalName;
+		doneEmail.textContent = address;
+		form.hidden = true;
+		done.hidden = false;
+		report(
+			"已提交，正在等待管理员审核。通过后会自动更新感谢名单，无需重复登记。",
+			false,
+			false,
+		);
+		done.scrollIntoView({ block: "start", behavior: "smooth" });
+	}
 	form.addEventListener("submit", async (event) => {
 		event.preventDefault();
-		if (busy || !form.reportValidity()) return;
+		if (busy) return;
+		if (!form.reportValidity()) {
+			report("请先补全必填项：展示昵称和权益接收邮箱。", true);
+			return;
+		}
+		submitLabel = "提交审核";
 		lock(true);
+		report("正在提交资料…", false, false);
+		const address = email.value.trim(),
+			finalName = name.value.trim();
 		try {
-			const verification = await request("/profile/email", {
-				email: email.value.trim(),
-			});
-			if (!verification.verified) {
-				const preview = page.querySelector<HTMLAnchorElement>(
-					"[data-email-preview]",
-				)!;
-				preview.hidden = !verification.previewUrl;
-				if (verification.previewUrl) preview.href = verification.previewUrl;
-				report(
-					verification.previewUrl
-						? "本地验证链接已生成。打开验证后回到此页，再点提交审核。"
-						: "验证邮件已排队，请点击邮件中的链接，然后回到此页再次提交审核。",
-				);
-				return;
-			}
 			const data = await request("/profile", {
-				name: name.value.trim(),
-				email: email.value.trim(),
+				name: finalName,
+				email: address,
 				avatarId,
 				version,
 				...(bind.checked && wikiUserId ? { wikiUserId } : {}),
 			});
 			version = data.version;
 			dirty = false;
-			report("已提交审核。通过后会自动更新感谢名单，无需重复登记。");
+			showDone(finalName, address);
+			lock(false);
+			if (data.emailVerified)
+				doneVerify.textContent = verificationNotice(
+					{ verified: true },
+					address,
+				).text;
+			else await sendVerification(address);
 		} catch (e) {
-			report(e instanceof Error ? e.message : "提交未完成，输入已保留", true);
+			if (isStaleVersion(e)) {
+				try {
+					const latest = await request("/profile");
+					version = latest.profile?.version || 0;
+					report(
+						"这份资料在别处已有更新，已自动同步最新版本。请核对填写内容后再点一次“提交审核”。",
+						true,
+					);
+				} catch (reload) {
+					report(failureMessage(reload), true);
+				}
+			} else report(failureMessage(e, "提交未完成，输入已保留，请重试。"), true);
 		} finally {
 			lock(false);
 		}
+	});
+	resend.addEventListener("click", () => {
+		if (!busy) void sendVerification(doneEmail.textContent || "");
+	});
+	edit.addEventListener("click", () => {
+		done.hidden = true;
+		form.hidden = false;
+		submitLabel = "重新提交审核";
+		submit.textContent = submitLabel;
+		report("可以修改后重新提交，新的提交会替换待审核的资料。");
 	});
 	for (const button of page.querySelectorAll<HTMLButtonElement>(
 		"[data-profile-retry]",
@@ -230,10 +324,12 @@ if (root) {
 				await request("/email/verify", {});
 				confirmButton.hidden = true;
 				report(
-					"邮箱已验证。请回到原资料填写页面继续提交审核；已有登记会自动关联匹配的 Wiki 账号。",
+					"邮箱已验证，可以关闭此页面。已提交的展示资料会继续审核；邮箱匹配的 Wiki 账号会自动关联。",
+					false,
+					true,
 				);
 			} catch (e) {
-				report(e instanceof Error ? e.message : "验证未完成", true);
+				report(failureMessage(e, "验证未完成，请重新点击邮件中的链接。"), true);
 			} finally {
 				lock(false);
 			}
