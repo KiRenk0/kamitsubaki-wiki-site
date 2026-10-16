@@ -11,6 +11,10 @@ import {archiveDigest} from '../src/lib/archiveSnapshot.mjs';
 import {archiveFixture} from './helpers/archive-fixture.mjs';
 import {emptyObservatory,saveObservatory} from '../src/lib/archivePersonal.mjs';
 const turn=()=>new Promise(resolve=>setTimeout(resolve,10));
+async function waitUntil(condition){
+ for(let attempt=0;attempt<200;attempt++){if(condition())return;await turn();}
+ assert.ok(condition(),'Asynchronous snapshot verification did not finish');
+}
 async function domTest(markup,run){
  const dom=new JSDOM(markup,{url:'https://wiki.test/zh/explore/collections/',pretendToBeVisual:true}),keys=['window','document','location','history','localStorage','Event','CustomEvent','FormData','matchMedia'];
  const previous=new Map(keys.map(key=>[key,Object.getOwnPropertyDescriptor(globalThis,key)]));
@@ -58,10 +62,10 @@ test('Open Data verifies each historical snapshot and disables export when its c
  const previousFetch=globalThis.fetch;globalThis.fetch=async()=>Response.json({snapshots:[{hash:old.snapshot}]});
  try{await domTest('<section><select data-data-snapshot><option value="'+fixture.snapshot+'">current</option></select><select data-data-resource><option value="entities">entities</option><option value="relations">relations</option></select><p data-data-status></p><button data-data-verify></button><button data-data-download="json"></button><pre data-data-preview></pre><pre data-data-citation></pre></section>',async root=>{
   let tampered=false;await initializeArchiveOpenData(root,{snapshot:fixture,copy:archiveCompletionCopy('zh'),load:async()=>tampered==='shape'?malformed:tampered?{...old,entities:[]}:old});await turn();
-  const select=root.querySelector('select'),download=root.querySelector('[data-data-download]');assert.equal(download.disabled,false);
-  select.value=old.snapshot;select.dispatchEvent(new Event('change'));await turn();assert.equal(download.disabled,false);assert.match(root.querySelector('[data-data-preview]').textContent,/2017/);
-  tampered=true;root.querySelector('[data-data-verify]').click();await turn();assert.equal(download.disabled,true);assert.equal(root.querySelector('[data-data-preview]').textContent,'');assert.match(root.querySelector('[data-data-status]').textContent,/不一致/);
-  tampered='shape';select.append(new window.Option('Invalid shape',malformed.snapshot));select.value=malformed.snapshot;root.querySelector('[data-data-resource]').value='relations';select.dispatchEvent(new Event('change'));await turn();assert.equal(download.disabled,true);assert.equal(root.querySelector('[data-data-preview]').textContent,'');
+  const select=root.querySelector('select'),download=root.querySelector('[data-data-download]');await waitUntil(()=>!download.disabled);assert.equal(download.disabled,false);
+  select.value=old.snapshot;select.dispatchEvent(new Event('change'));await waitUntil(()=>!download.disabled);assert.equal(download.disabled,false);assert.match(root.querySelector('[data-data-preview]').textContent,/2017/);
+  tampered=true;root.querySelector('[data-data-verify]').click();await waitUntil(()=>/不一致/.test(root.querySelector('[data-data-status]').textContent));assert.equal(download.disabled,true);assert.equal(root.querySelector('[data-data-preview]').textContent,'');assert.match(root.querySelector('[data-data-status]').textContent,/不一致/);
+  tampered='shape';select.append(new window.Option('Invalid shape',malformed.snapshot));select.value=malformed.snapshot;root.querySelector('[data-data-resource]').value='relations';select.dispatchEvent(new Event('change'));await waitUntil(()=>/不一致/.test(root.querySelector('[data-data-status]').textContent));assert.equal(download.disabled,true);assert.equal(root.querySelector('[data-data-preview]').textContent,'');
  });}finally{globalThis.fetch=previousFetch;}
 });
 test('public snapshot loading caches by URL and retries failed historical loads',async()=>{
