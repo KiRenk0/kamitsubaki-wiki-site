@@ -1,6 +1,7 @@
 ---
 import WorkspaceButton from '../../../../components/WorkspaceButton.astro';
 import WorkspaceControl from '../../../../components/WorkspaceControl.astro';
+import ContributionFlow from '../../../../components/ContributionFlow.astro';
 import '../../../../styles/uiKit.css';
 import WorkspaceLayout from '../../../../layouts/WorkspaceLayout.astro';
 import {supportedLocales} from '../../../../lib/i18n.mjs';
@@ -12,6 +13,7 @@ const locale=Astro.params.locale||'zh',c=communityCopy(locale),api=import.meta.e
 ---
 <WorkspaceLayout locale={locale} title={c.apply} intro={c.applyIntro} path="/community/activities/apply/" eyebrow="CONTRIBUTE / ACTIVITY" backHref={`/${locale}/community/activities/`} backLabel={c.back} width="standard" noindex mainAttributes={{class:'community-page','data-community-apply':'','data-locale':locale,'data-api':api,'data-copy':JSON.stringify(c)}}>
  <Fragment slot="actions"><WorkspaceButton href={`/${locale}/account/creator/?type=community`}>{c.creator}</WorkspaceButton></Fragment>
+ <ContributionFlow locale={locale} kind="activity"/>
  <label class="community-submission-kind"><span>{c.submissionType}</span><WorkspaceControl as="select" data-community-kind><option value="information">{c.information}</option><option value="promotion">{c.promotion}</option></WorkspaceControl></label>
  <div set:html={communityEditorMarkup(c)} />
 </WorkspaceLayout>

@@ -3,6 +3,7 @@ import WorkspaceControl from '../../../../components/WorkspaceControl.astro';
 import Icon from '../../../../components/Icon.astro';
 import WorkspaceLayout from '../../../../layouts/WorkspaceLayout.astro';
 import WorkspaceButton from '../../../../components/WorkspaceButton.astro';
+import ContributionFlow from '../../../../components/ContributionFlow.astro';
 import {supportedLocales,resolveLocaleCopy} from '../../../../lib/i18n.mjs';
 import {getEntityRegistry} from '../../../../lib/entityRegistry.mjs';
 import '../../../../styles/chronicleEditor.css';
@@ -21,6 +22,7 @@ const types=['live','release','announcement','organization-change','anime','game
 ---
 <WorkspaceLayout locale={locale} title={c.title} intro={c.intro} path="/chronicle/submit/" eyebrow="CONTRIBUTE / CHRONICLE" backHref={`/${locale}/chronicle/`} backLabel={c.back} width="wide" noindex mainAttributes={{class:'chronicle-submit','data-chronicle-editor':'','data-api':api,'data-locale':locale,'data-copy':JSON.stringify(c)}}>
  <WorkspaceButton slot="actions" href={`/${locale}/docs/contribute/chronicle/`}>{c.guide}</WorkspaceButton>
+ <ContributionFlow locale={locale} kind="timeline"/>
  <p class="chronicle-editor-status" data-editor-status role="status" aria-live="polite">{c.status}</p>
  <section class="chronicle-conflict" data-chronicle-conflict hidden><h2>{c.conflictTitle}</h2><p>{c.conflictHint}</p><div class="chronicle-conflict-columns"><div><h3>{c.currentVersion}</h3><p data-conflict-current></p></div><div><h3>{c.yourVersion}</h3><p data-conflict-yours></p></div></div><WorkspaceButton type="button" data-confirm-conflict>{c.confirmVersion}</WorkspaceButton></section>
  <div class="chronicle-editor-layout"><form data-chronicle-form novalidate>

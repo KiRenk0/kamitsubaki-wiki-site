@@ -1,9 +1,9 @@
 ---
 import {contributionFlowCopy} from '../lib/contributionFlowCopy.mjs';
 import ContextAction from './ContextAction.astro';
-interface Props {locale:string;kind?:'entry'|'image'|'article'|'timeline';}
+interface Props {locale:string;kind?:'entry'|'image'|'article'|'timeline'|'activity';}
 const {locale,kind}=Astro.props,c=contributionFlowCopy(locale);
-const kinds=kind?[kind]:['entry','image','article','timeline'] as const;
+const kinds=kind?[kind]:['entry','image','article','timeline','activity'] as const;
 ---
 <details class="contribution-flow" open={!kind}>
  <summary>{kind?`${c[kind].title} · ${c.title}`:c.title}</summary>
