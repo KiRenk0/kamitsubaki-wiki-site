@@ -74,17 +74,40 @@ export function initializeReaderInteractions(root = document) {
       this.originalHTML = lyricBox.innerHTML;
       
       this.initDOM();
+      this.setInteractive(true);
       
-      this.lyricBox.addEventListener('click', (e) => {
-        if (!this.lyricBox.classList.contains('sync-enabled')) return;
-        const line = e.target.closest('.lyric-line');
-        if (!line) return;
+      const seekFromLine = (line) => {
         const time = parseFloat(line.dataset.time);
         if (!isNaN(time)) {
           this.seek(time);
           if (!this.playing) this.togglePlay();
         }
+      };
+      this.lyricBox.addEventListener('click', (e) => {
+        if (!this.lyricBox.classList.contains('sync-enabled')) return;
+        const line = e.target.closest('.lyric-line');
+        if (line) seekFromLine(line);
       }, {signal: controller.signal});
+      // Timed lines are keyboard operable once synchronized playback is on.
+      this.lyricBox.addEventListener('keydown', (e) => {
+        if ((e.key !== 'Enter' && e.key !== ' ') || !this.lyricBox.classList.contains('sync-enabled')) return;
+        const line = e.target.closest('.lyric-line');
+        if (!line || e.target !== line) return;
+        e.preventDefault();
+        seekFromLine(line);
+      }, {signal: controller.signal});
+    }
+
+    setInteractive(on) {
+      (this.timedLines || []).forEach((line) => {
+        if (on) {
+          line.tabIndex = 0;
+          line.setAttribute('role', 'button');
+        } else {
+          line.removeAttribute('tabindex');
+          line.removeAttribute('role');
+        }
+      });
     }
 
     initDOM() {
@@ -184,9 +207,9 @@ export function initializeReaderInteractions(root = document) {
       this.playing = playing;
       if (!this.playBtn) return;
       this.playBtn.setAttribute('aria-pressed', String(playing));
-      this.playBtn.textContent = playing
-        ? this.playBtn.dataset.alternateLabel || ''
-        : this.playBtn.dataset.primaryLabel || '';
+      const label = playing ? this.playBtn.dataset.alternateLabel : this.playBtn.dataset.primaryLabel;
+      // Keep the existing text when a label is missing so the button never loses its accessible name.
+      if (label) this.playBtn.textContent = label;
     }
 
     togglePlay() {
@@ -321,11 +344,13 @@ export function initializeReaderInteractions(root = document) {
         }
         if (playBtn) playBtn.hidden = false;
         if (resetBtn) resetBtn.hidden = false;
+        syncPlayers.get(lyricBox).setInteractive(true);
         syncPlayers.get(lyricBox).updateUI();
       } else {
         const player = syncPlayers.get(lyricBox);
         if (player) {
           player.reset();
+          player.setInteractive(false);
         }
         if (playBtn) playBtn.hidden = true;
         if (resetBtn) resetBtn.hidden = true;

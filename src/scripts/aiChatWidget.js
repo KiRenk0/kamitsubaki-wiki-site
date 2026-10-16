@@ -172,26 +172,25 @@ function formatSourceHost(url) {
   return url.hostname.replace(/^www\./, '');
 }
 
-function formatSourceKind(source) {
+const SOURCE_KINDS = {
+  zh: {page: '当前页', official: '官方', wiki: '站内/百科', web: '全网', other: '来源'},
+  ja: {page: '現在のページ', official: '公式', wiki: 'サイト内/Wiki', web: 'ウェブ', other: '出典'},
+  en: {page: 'This page', official: 'Official', wiki: 'Wiki', web: 'Web', other: 'Source'},
+};
+
+function formatSourceKind(source, locale = 'zh') {
+  const labels = SOURCE_KINDS[String(locale).startsWith('ja') ? 'ja' : String(locale).startsWith('en') ? 'en' : 'zh'];
   const type = String(source?.sourceType || '').toLowerCase();
-  if (type === 'current-page') {
-    return '当前页';
-  }
-  if (type === 'official') {
-    return '官方';
-  }
-  if (type === 'wiki') {
-    return '站内/百科';
-  }
-  if (type.startsWith('web')) {
-    return '全网';
-  }
-  return '来源';
+  if (type === 'current-page') return labels.page;
+  if (type === 'official') return labels.official;
+  if (type === 'wiki') return labels.wiki;
+  if (type.startsWith('web')) return labels.web;
+  return labels.other;
 }
 
 function appendSource(content,source){
  if(!source?.title||!source?.url)return;const url=parseHttpUrl(source.url);if(!url)return;
- content.store.addSource(content,{...source,url:url.href,kind:convertAiResponseText(formatSourceKind(source),content.root.dataset.locale)});
+ content.store.addSource(content,{...source,url:url.href,kind:convertAiResponseText(formatSourceKind(source,content.root.dataset.locale),content.root.dataset.locale)});
 }
 
 function scrollMessages(messages) {
