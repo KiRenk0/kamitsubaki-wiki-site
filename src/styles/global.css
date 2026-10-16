@@ -3812,12 +3812,9 @@ html[data-theme='light'] .guide-shell {
 }
 
 .events-calendar {
-  border: 1px solid rgb(var(--theme-fg-rgb) / 0.12);
-  background:
-    linear-gradient(135deg, rgb(var(--theme-accent-rgb) / 0.04), transparent 34%),
-    rgb(var(--theme-panel-rgb) / 0.76);
-  box-shadow: 0 2rem 7rem rgba(0, 0, 0, 0.28);
-  font-family: var(--font-mono);
+  border: 1px solid var(--ui-line, rgb(var(--theme-fg-rgb) / 0.15));
+  background: transparent;
+  font-family: var(--font-sans);
 }
 
 .events-calendar__header {

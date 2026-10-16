@@ -14,7 +14,7 @@ html body .database-catalog {
 .database-collections>a[aria-current]{color:var(--theme-fg)}
 .database-collections>a[aria-current]::after{content:'';position:absolute;bottom:-1px;inset-inline:0;height:2px;background:var(--theme-accent-color)}
 .database-collections>a:hover{color:var(--theme-accent-color)}
-.database-browser h2{margin:0 0 12px;font:500 24px/1.5 var(--font-sans);letter-spacing:-.02em}
+.database-browser h2{margin:0 0 12px;font:400 24px/1.5 var(--font-serif);letter-spacing:.02em}
 .database-query{margin:0}
 .database-search{display:flex;align-items:center;gap:15px;width:100%;border-bottom:1px solid rgb(var(--theme-fg-rgb)/.45);padding:4px 0 12px}
 .database-search>svg{flex:none;width:22px;height:22px;stroke:currentColor;stroke-width:1.5;color:var(--database-muted)}

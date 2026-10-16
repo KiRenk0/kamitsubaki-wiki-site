@@ -6,3 +6,14 @@ export const pageLabels = locale => resolveLocaleCopy({
   ja: {home: 'ホーム', explore: '探索'},
   en: {home: 'Home', explore: 'Explore'}
 }, locale);
+
+// Back links name the parent page only; the arrow already says "back".
+export function normalizeBackLabel(label) {
+  const source = String(label ?? '').trim();
+  const name = source
+    .replace(/^返回(?:到)?\s*/, '')
+    .replace(/^Back\s+(?:to\s+)?/i, '')
+    .replace(/\s*(?:へ戻る|に戻る|へ)$/, '')
+    .trim();
+  return (name ? name[0].toUpperCase() + name.slice(1) : source);
+}
