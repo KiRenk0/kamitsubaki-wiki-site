@@ -33,7 +33,7 @@ if (root) {
     submit.disabled=busy||expired||!verified||(wantsBinding()&&!wikiUserId);
     submit.textContent=busy?'正在处理…':!verified?'验证邮箱后提交审核':wantsBinding()&&!wikiUserId?'登录并刷新账号后提交':'提交审核';
   }
-  function lock(value:boolean){busy=value;for(const b of page.querySelectorAll<HTMLButtonElement>('button'))b.disabled=value;file.disabled=value;update();}
+  function lock(value:boolean){busy=value;for(const control of page.querySelectorAll<HTMLInputElement|HTMLButtonElement>('input,button'))control.disabled=value;update();}
   async function request(path:string,body?:unknown,raw=false,personal=true){
     if(['localhost','127.0.0.1'].includes(location.hostname)&&!['localhost','127.0.0.1'].includes(base.hostname))
       throw new ProfileRequestError('本地资料预览需要连接本地 API。','local_api_missing');
