@@ -25,14 +25,12 @@ test('stale versions and expired links are recognised from server error codes on
   assert.equal(isExpiredLink(new ProfileRequestError('x', 'version_conflict', 409)), false);
 });
 
-test('email verification guidance never claims the submission is blocked', () => {
-  assert.equal(verificationNotice({ verified: true }, 'a@b.c').done, true);
-  const sent = verificationNotice({ verified: false, sent: true }, 'a@b.c');
-  assert.equal(sent.done, false);
-  assert.match(sent.text, /a@b\.c/);
-  assert.match(sent.text, /不验证也不影响审核/);
-  assert.match(verificationNotice({ verified: false, previewUrl: 'http://127.0.0.1/x' }, 'a@b.c').text, /本地预览/);
-  const failed = verificationNotice({ verified: false, reason: '邮箱验证邮件尚未启用。' }, 'a@b.c');
-  assert.match(failed.text, /不影响审核/);
-  assert.match(failed.text, /邮箱验证邮件尚未启用/);
+test('email guidance makes the required code step and later binding choice explicit', () => {
+  assert.equal(verificationNotice({verified:true},'a@b.c').done,true);
+  assert.match(verificationNotice({verified:true},'a@b.c').text,/现在绑定.*以后/);
+  const sent=verificationNotice({verified:false,sent:true},'a@b.c');
+  assert.match(sent.text,/a@b\.c/);assert.match(sent.text,/6 位验证码/);
+  assert.match(verificationNotice({verified:false,previewCode:'012345'},'a@b.c').text,/仅本地预览.*012345/);
+  const failed=verificationNotice({verified:false,reason:'邮件服务未启用'},'a@b.c');
+  assert.match(failed.text,/输入已保留/);assert.match(failed.text,/验证完成后才能提交/);
 });
