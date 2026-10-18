@@ -1,4 +1,5 @@
 ---
+import {benefitsCopy} from '../../lib/benefitsCopy.mjs';
 import {pageLabels} from '../../lib/pageLabels.mjs';
 import WorkspaceButton from '../../components/WorkspaceButton.astro';
 import WorkspaceControl from '../../components/WorkspaceControl.astro';
@@ -49,6 +50,7 @@ const libraryCopy={...labsCopy(locale),savedLocal:c.library,storageNote:c.privac
       </div>
       <section class="account-home-settings"><div><span class="account-kicker">03 / ACCOUNT</span><h3>{ui.settingsArea}</h3><p>{ui.settingsNote}</p></div><nav aria-label={ui.settingsArea}><a href="#profile">{c.profile}<span aria-hidden="true"><Icon name="arrow-right" /></span></a><a data-account-security href="#security">{ui.security}<span aria-hidden="true"><Icon name="arrow-right" /></span></a><a href="#data">{c.data}<span aria-hidden="true"><Icon name="arrow-right" /></span></a><a href="#appearance">{ui.appearance}<span aria-hidden="true"><Icon name="arrow-right" /></span></a></nav></section>
     </section>
+    <section data-account-panel="benefits" class="account-section account-surface" data-account-member hidden><header class="account-panel-heading"><span class="account-kicker">SUPPORT / BENEFITS</span><h2>{benefitsCopy(locale).title}</h2><p>{benefitsCopy(locale).intro}</p></header><div data-account-benefits><WorkspaceButton type="button" data-benefit-refresh>{benefitsCopy(locale).refresh}</WorkspaceButton><p data-benefit-status role="status"></p><div data-benefit-view></div></div></section>
     <section data-account-panel="appearance" class="account-section account-surface" hidden><header class="account-panel-heading"><span class="account-kicker">04 / APPEARANCE</span><h2>{ui.appearance}</h2><p>{ui.settingsNote}</p></header><AppearanceControls locale={locale}/></section>
 
     <section data-account-panel="library" class="account-section account-surface account-library-panel" hidden><header class="account-panel-heading"><span class="account-kicker">02 / LIBRARY</span><h2>{c.library}</h2><p>{ui.savedNote}</p></header><p class="account-note">{c.privacy}</p><div data-account-library data-copy={JSON.stringify(libraryCopy)}><LibraryPanel copy={libraryCopy} locale={locale}/></div></section>
@@ -60,6 +62,7 @@ const libraryCopy={...labsCopy(locale),savedLocal:c.library,storageNote:c.privac
 </BaseLayout>
 <script>
 import '../../scripts/accountNavigation.js';
+import '../../scripts/accountBenefits.js';
 import '../../scripts/accountContributionBadge.js';
 import '../../scripts/accountOverview.js';
 import {initializeAccountPage} from '../../scripts/accountPage.js';
