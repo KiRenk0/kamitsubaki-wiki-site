@@ -681,102 +681,102 @@
   },
   {
     "path": "docs/manuals/develop/architecture/en.md",
-    "status": "historical-reference",
+    "status": "replaced",
     "source": "origin/main:docs/manuals/develop/architecture/en.md"
   },
   {
     "path": "docs/manuals/develop/architecture/ja.md",
-    "status": "historical-reference",
+    "status": "replaced",
     "source": "origin/main:docs/manuals/develop/architecture/ja.md"
   },
   {
     "path": "docs/manuals/develop/architecture/zh-hk.md",
-    "status": "historical-reference",
+    "status": "replaced",
     "source": "origin/main:docs/manuals/develop/architecture/zh-hk.md"
   },
   {
     "path": "docs/manuals/develop/architecture/zh-tw.md",
-    "status": "historical-reference",
+    "status": "replaced",
     "source": "origin/main:docs/manuals/develop/architecture/zh-tw.md"
   },
   {
     "path": "docs/manuals/develop/architecture/zh.md",
-    "status": "historical-reference",
+    "status": "replaced",
     "source": "origin/main:docs/manuals/develop/architecture/zh.md"
   },
   {
     "path": "docs/manuals/develop/content/en.md",
-    "status": "historical-reference",
+    "status": "replaced",
     "source": "origin/main:docs/manuals/develop/content/en.md"
   },
   {
     "path": "docs/manuals/develop/content/ja.md",
-    "status": "historical-reference",
+    "status": "replaced",
     "source": "origin/main:docs/manuals/develop/content/ja.md"
   },
   {
     "path": "docs/manuals/develop/content/zh-hk.md",
-    "status": "historical-reference",
+    "status": "replaced",
     "source": "origin/main:docs/manuals/develop/content/zh-hk.md"
   },
   {
     "path": "docs/manuals/develop/content/zh-tw.md",
-    "status": "historical-reference",
+    "status": "replaced",
     "source": "origin/main:docs/manuals/develop/content/zh-tw.md"
   },
   {
     "path": "docs/manuals/develop/content/zh.md",
-    "status": "historical-reference",
+    "status": "replaced",
     "source": "origin/main:docs/manuals/develop/content/zh.md"
   },
   {
     "path": "docs/manuals/develop/frontend/en.md",
-    "status": "historical-reference",
+    "status": "replaced",
     "source": "origin/main:docs/manuals/develop/frontend/en.md"
   },
   {
     "path": "docs/manuals/develop/frontend/ja.md",
-    "status": "historical-reference",
+    "status": "replaced",
     "source": "origin/main:docs/manuals/develop/frontend/ja.md"
   },
   {
     "path": "docs/manuals/develop/frontend/zh-hk.md",
-    "status": "historical-reference",
+    "status": "replaced",
     "source": "origin/main:docs/manuals/develop/frontend/zh-hk.md"
   },
   {
     "path": "docs/manuals/develop/frontend/zh-tw.md",
-    "status": "historical-reference",
+    "status": "replaced",
     "source": "origin/main:docs/manuals/develop/frontend/zh-tw.md"
   },
   {
     "path": "docs/manuals/develop/frontend/zh.md",
-    "status": "historical-reference",
+    "status": "replaced",
     "source": "origin/main:docs/manuals/develop/frontend/zh.md"
   },
   {
     "path": "docs/manuals/develop/operations/en.md",
-    "status": "historical-reference",
+    "status": "replaced",
     "source": "origin/main:docs/manuals/develop/operations/en.md"
   },
   {
     "path": "docs/manuals/develop/operations/ja.md",
-    "status": "historical-reference",
+    "status": "replaced",
     "source": "origin/main:docs/manuals/develop/operations/ja.md"
   },
   {
     "path": "docs/manuals/develop/operations/zh-hk.md",
-    "status": "historical-reference",
+    "status": "replaced",
     "source": "origin/main:docs/manuals/develop/operations/zh-hk.md"
   },
   {
     "path": "docs/manuals/develop/operations/zh-tw.md",
-    "status": "historical-reference",
+    "status": "replaced",
     "source": "origin/main:docs/manuals/develop/operations/zh-tw.md"
   },
   {
     "path": "docs/manuals/develop/operations/zh.md",
-    "status": "historical-reference",
+    "status": "replaced",
     "source": "origin/main:docs/manuals/develop/operations/zh.md"
   },
   {
