@@ -110,28 +110,28 @@ DUSTCELL 的两位成员在组合之外各自保持着独立的公开活动与�
 
 ### 2021年以后：扩展至广告、专辑与持续现场
 
-- **2021年4月10日**：歌曲《命の行方》成为 HAL 专门学校年度电视广告主题曲。
-- **2021年6月23日**：发布《[独白](/zh/songs/dustcell/originals/%E7%8B%AC%E7%99%BD)》，继续扩展 DUSTCELL 的个人叙事线。
+- **2021年4月10日**：发布歌曲《命の行方》，该曲成为 HAL 专门学校2021年度电视广告主题曲。
+- **2021年6月23日**：发布《[独白](/zh/songs/dustcell/originals/独白)》，继续扩展 DUSTCELL 的个人叙事线。
 - 此后持续以团体名义发布原创曲、专辑和现场作品，并与 KAMITSUBAKI STUDIO 的其他音乐、影像与舞台企划发生联动。
 - **10月20日：**发布第二张专辑**「自白」**。
-- \*\*2022年4月14至18日：\*\* 14日名古屋、16日大阪、18日东京，举办live｢百鬼夜行｣。
-- \*\*6月1日：\*\*发布单曲《足りない》，是电视剧《明日、私は誰かのカノジョ》的片尾曲。
-- \*\*7月22日：\*\*发表『クロスの行方 ―DUSTCELL小説集―』。{{spoiler::老朋友中村 紬}}
+- **2022年4月14至18日：** 14日名古屋、16日大阪、18日东京，举办live｢百鬼夜行｣。
+- **6月1日：**发布单曲《足りない》，是电视剧《明日、私は誰かのカノジョ》的片尾曲。
+- **7月22日：**发表『クロスの行方 ―DUSTCELL小説集―』。{{spoiler::老朋友中村 紬}}
 - **8月31日：**发布第一张迷你专辑**「Hypnotize」**。
-- \*\*11月17日：\*\*在TOKYO DOME CITY HALL中举办演出「PREPARATION」。
-- \*\*2023年3月29日：**发布第二张迷你专辑**「ROUND TRIP」\*\*和「PREPARATION」Blu-ray。
-- \*\*4月至5月：\*\*第二次全国巡演「ROUND TRIP」。
-- \*\*5月17日：\*\*发布单曲《Caffeine》，是电视剧《明日、私は誰かのカノジョ Season2》的片尾曲。
+- **11月17日：**在TOKYO DOME CITY HALL中举办演出「PREPARATION」。
+- **2023年3月29日**：发布第二张迷你专辑**「ROUND TRIP」**和「PREPARATION」Blu-ray。
+- **4月至5月：**第二次全国巡演「ROUND TRIP」。
+- **5月17日：**发布单曲《Caffeine》，是电视剧《明日、私は誰かのカノジョ Season2》的片尾曲。
 - **12月**：举办个人巡演『DUSTCELL LIVE 2023「DAWN」』。
-- \*\*2024年3月27日：\*\*Blu-ray「DUSTCELL LIVE 2023 -DAWN-」发售。
-- **7月24日**：发布第三张专辑\*\*「光」\*\*
-- \*\*10月：\*\*举办巡演「光」
+- **2024年3月27日：**Blu-ray「DUSTCELL LIVE 2023 -DAWN-」发售。
+- **7月24日**：发布第三张专辑**「光」**
+- **10月：**举办巡演「光」
 - **2025年2月19日**：发表单曲「心臓」。Blu-ray「DUSTCELL TOUR 2024 -光-」发售。
 - **3月3日：**为纪念成立五周年举办演出**{{mark::【DUSTCELL LIVE「ONE」at 日本武道館】}}。**
-- \*\*11月：\*\*于东京与大阪举办「DUSTCELL LIVE 2025 -月の裏-」。
+- **11月：**于东京与大阪举办「DUSTCELL LIVE 2025 -月の裏-」。
 - **12月10日：**发布第四张专辑**「碧い海」**
-- \*\*2026年1月至3月：\*\*举办全国巡演「DUSTCELL TOUR 2026 -碧い海-」
-- \*\*11月23日：\*\*举办「DUSTCELL LIVE 2026 ―道―」
+- **2026年1月至3月：**举办全国巡演「DUSTCELL TOUR 2026 -碧い海-」
+- **11月23日**：计划举办「DUSTCELL LIVE 2026 ―道―」。
 
 ## 商业 Tie-up 与主题曲
 
@@ -180,14 +180,14 @@ DUSTCELL 自 2019 年 10 月起以 YouTube 投稿为核心建立作品序列，�
 
 ## 音乐作品
 
-|                        日期 |                         类型 |                         名称 |
+| 发行日期 | 类型 | 标题 |
 | --- | --- | --- |
-| 2020-05-20 | Album | SUMMIT |
-| 2021-10-20 | Album | 自白 |
-| 2022-08-31 | Mini Album | Hypnotize  |
-| 2023-03-29 | Mini Album | ROUND TRIP |
-| 2024-07-24 | Album | 光 |
-| 2025-12-10 | Album | 碧い海 |
+| 2020-05-20 | Album | [SUMMIT](</zh/albums/dustcell/summit-1688155907>) |
+| 2021-10-20 | Album | [自白](</zh/albums/dustcell/自白-1587649555>) |
+| 2022-08-31 | Mini Album | [Hypnotize](</zh/albums/dustcell/hypnotize-1637382530>) |
+| 2023-03-29 | Mini Album | [ROUND TRIP](</zh/albums/dustcell/round-trip-1676025466>) |
+| 2024-07-24 | Album | [光](</zh/albums/dustcell/光-1755122020>) |
+| 2025-12-10 | Album | [碧い海](</zh/albums/dustcell/碧い海-1853446220>) |
 
 ### 早期网络投稿
 
@@ -211,6 +211,7 @@ DUSTCELL 与 KAMITSUBAKI STUDIO 的关系不能简化为“旗下组合”四个
 ## 参考资料
 
 - DUSTCELL 官方 YouTube、社交账号及公开作品资料。
+- [DUSTCELL 官方艺人资料](https://alltstudio.jp/artist/dustcell/)与[官方作品目录](https://alltstudio.jp/discography_category/dustcell/)。
 
 ## 外部链接
 
