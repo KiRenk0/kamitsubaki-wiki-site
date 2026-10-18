@@ -2,7 +2,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {JSDOM} from 'jsdom';
 import {archiveFixture} from './helpers/archive-fixture.mjs';
-import {parseArchiveQuestion} from '../src/lib/archiveResearch.mjs';
+import {parseArchiveQuestion,selectArchive} from '../src/lib/archiveResearch.mjs';
+import {archiveInteractionCopy} from '../src/lib/archiveInteractionCopy.mjs';
 import {archiveChoices,searchArchiveChoices} from '../src/lib/archiveSelection.mjs';
 import {createArchiveEntityPicker} from '../src/scripts/archiveEntityPicker.js';
 import {writeRadioQueue,readRadioQueue,editRadioQueue,nextRadioIndex,saveRadioPlaylist,readRadioPlaylists,removeRadioPlaylist,addRadioTracks} from '../src/lib/archiveRadio.mjs';
@@ -17,6 +18,23 @@ test('partial questions retain descriptions instead of silently widening the que
  assert.equal(parseArchiveQuestion('花谱关于的士的歌曲',snapshot).query.q,'的士');
  assert.equal(parseArchiveQuestion('花譜 夜の雨 楽曲',snapshot).query.q,'夜の雨');
  const ambiguous=parseArchiveQuestion('KAF and maker songs',snapshot);assert.equal(ambiguous.query.artist,undefined);assert.deepEqual(ambiguous.candidates.artist,['kaf','maker']);
+});
+
+test('type recognition consumes matched words without removing parts of search keywords',()=>{
+ const snapshot=archiveFixture();snapshot.entities.find(row=>row.id==='song-a').narratives.en.summary='songwriting';snapshot.entities.find(row=>row.id==='song-b').narratives.en.summary='writing';
+ for(const question of ['KAF song about songwriting','KAF songs about songwriting']){
+  const plan=parseArchiveQuestion(question,snapshot);assert.equal(plan.query.q,'songwriting');assert.deepEqual(selectArchive(snapshot,plan.query,'en').map(row=>row.id),['song-a']);
+ }
+ assert.equal(parseArchiveQuestion('KAF music about musicboxes',snapshot).query.q,'musicboxes');
+});
+
+test('localized composer templates resolve the work without turning sentence grammar into keywords',()=>{
+ const snapshot=archiveFixture(),song=snapshot.entities.find(row=>row.id==='song-a');song.narratives.zh.title='夜の雨';song.narratives.en.title='Rain at Night';song.narratives.ja={...song.narratives.zh,locale:'ja'};
+ for(const locale of ['zh','zh-tw','zh-hk','ja','en']){
+  const title=(song.narratives[locale] || song.narratives.zh).title,question=archiveInteractionCopy(locale).creditsTemplate.replace('{work}',title),plan=parseArchiveQuestion(question,snapshot);
+  assert.deepEqual(plan.query,{role:'composer',entity:'song-a'},question);assert.equal(plan.unrecognizedText,'');assert.deepEqual(selectArchive(snapshot,plan.query,locale).map(row=>row.id),['song-a']);
+ }
+ assert.equal(parseArchiveQuestion('夜の雨 を作曲したのは誰 夜明け',snapshot).query.q,'夜明け');
 });
 
 test('record choices search multilingual aliases and distinguish KAF from KAFU',()=>{

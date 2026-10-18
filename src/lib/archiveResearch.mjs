@@ -46,7 +46,7 @@ export function parseArchiveQuestion(text,snapshot) {
   const put=(key,value,label)=>{query[key]=value;recognized.push(label);};
   const typeRules=[['work-track',/\b(songs?|tracks?|music)\b|歌曲|楽曲|曲目/i],['work-release',/\b(albums?|releases?)\b|专辑|專輯|发行|發行|アルバム/i],['live-event',/\b(lives?|concerts?|events?)\b|演出|演唱会|演唱會|ライブ|公演/i],['person',/\b(creators?|people)\b|创作者|創作者|クリエイター/i]];
   const kinds=typeRules.filter(([,rule])=>rule.test(input));
-  if(kinds.length===1){put('type',kinds[0][0],kinds[0][0]);for(const match of input.matchAll(new RegExp(kinds[0][1].source,'gi')))remaining=remaining.replaceAll(foldCjkSearchText(match[0]),'\u0000');}
+  if(kinds.length===1){put('type',kinds[0][0],kinds[0][0]);remaining=foldCjkSearchText(input.replace(new RegExp(kinds[0][1].source,'gi'),'\u0000'));}
   else if(kinds.length>1)unresolved.push('type');
   const years=unique(input.match(/\b(?:19|20)\d{2}\b/g) || []);
   if(years.length===1)put('year',years[0],years[0]);
@@ -72,7 +72,7 @@ export function parseArchiveQuestion(text,snapshot) {
   }};
   consumeNames(exact);
   const roleRules=[['composer',/作曲|compos/i],['lyricist',/作词|作詞|lyric/i],['arranger',/编曲|編曲|arrang/i]];
-  for(const [role,rule] of roleRules)if(rule.test(input)){put('role',role,role);consume(/作曲|作词|作詞|编曲|編曲|\b(?:composed?|composer|composing|written|lyricist|lyrics?|arranged?|arranger|arranging|created)\b/gi);break;}
+  for(const [role,rule] of roleRules)if(rule.test(input)){put('role',role,role);consume(/(?:作曲|作词|编曲)\s*したのは\s*谁|作曲|作词|作詞|编曲|編曲|\b(?:composed?|composer|composing|written|lyricist|lyrics?|arranged?|arranger|arranging|created)\b/gi);break;}
   if(/MV|ミュージックビデオ|music video/i.test(input)){put('media','yes','media');consume(/\bMV\b|みゅーじっくびでお|music video|\bvideo\b/gi);}
   const targets=snapshot.entities.filter(e=>!['person','virtual-avatar','unit','software-voice'].includes(e.type) && [e.id,...Object.values(e.narratives).map(n=>n.title)].some(matchesName));
   if(targets.length===1 && /谁|誰|who|版本|バージョン|version|remix|歌詞|歌词|credit|制作|作曲|作词|作詞|演唱|performed/i.test(input)){put('entity',targets[0].id,targets[0].id);consumeNames(targets);}

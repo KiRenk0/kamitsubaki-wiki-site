@@ -8,6 +8,8 @@ export function validateCollectionEditor(value){
 }
 export function collectionEditorItems(editor){const notes=editor.notes.split(/\r?\n/),presentation=JSON.parse(editor.presentation || '{}');return editor.items.split(/\r?\n/).map((entityId,index)=>{const id=entityId.trim(),meta=presentation[id];return {entityId:id,note:meta?.note ?? notes[index] ?? '',...(meta?.section?{section:meta.section}:{}),...(meta?.cover?{cover:true}:{})};}).filter(row=>row.entityId);}
 export function collectionPresentation(items){return JSON.stringify(Object.fromEntries(items.map(row=>[row.entityId,{note:row.note || '',section:row.section || '',cover:row.cover===true}])));}
+// The raw text editor mirrors one short line per chapter; presentation retains the full note.
+export const collectionNoteLine=note=>(note || '').replace(/\r?\n/g,' ').slice(0,300);
 export const collectionDraftKey=owner=>'kamitsubaki-collection-drafts-v1:'+ (owner || 'guest');
 export function readCollectionDrafts(storage,owner){
  try{const raw=storage.getItem(collectionDraftKey(owner));if(!raw)return [];if(raw.length>1500000)throw Error('large_drafts');const store=JSON.parse(raw);if(store.version!==1 || !Array.isArray(store.drafts) || store.drafts.length>50)throw Error('invalid_drafts');const seen=new Set();return store.drafts.map(draft=>{if(typeof draft.localId!=='string' || !/^local-[a-f0-9-]{36}$/.test(draft.localId) || seen.has(draft.localId) || !Number.isSafeInteger(draft.updatedAt))throw Error('invalid_draft');seen.add(draft.localId);return {...draft,editor:validateCollectionEditor(draft.editor)};});}catch{return [];}

@@ -9,7 +9,7 @@ import {musicConnections,compareLiveSetlists,archiveCollaborations,archiveCovera
 import {archiveCSV,archiveZip,archiveCitation,downloadArchiveFile,pilgrimageGeoJSON,pilgrimageGPX} from '../lib/archiveExports.mjs';
 import {initializeArchiveOpenData} from './archiveOpenData.js';
 import {initializeCollectionTools} from './archiveCollectionTools.js';
-import {collectionEditorItems,collectionPresentation} from '../lib/archiveCollectionDrafts.mjs';
+import {collectionEditorItems,collectionPresentation,collectionNoteLine} from '../lib/archiveCollectionDrafts.mjs';
 import {archiveChoices} from '../lib/archiveSelection.mjs';
 import {createArchiveEntityPicker} from './archiveEntityPicker.js';
 import {archiveInteractionCopy} from '../lib/archiveInteractionCopy.mjs';
@@ -279,7 +279,7 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
  function fillCollection(collection){
   const editor=root.querySelector('[data-collection-form]');if(!editor)return;
   for(const field of ['id','title','description','kind','revision'])editor.elements.namedItem(field).value=collection[field] || (field==='revision'?'0':'');
-  editor.elements.namedItem('items').value=collection.items.map(item=>item.entityId).join('\n');editor.elements.namedItem('notes').value=collection.items.map(item=>(item.note || '').replace(/\r?\n/g,' ')).join('\n');
+  editor.elements.namedItem('items').value=collection.items.map(item=>item.entityId).join('\n');editor.elements.namedItem('notes').value=collection.items.map(item=>collectionNoteLine(item.note)).join('\n');
   if(editor.elements.namedItem('presentation'))editor.elements.namedItem('presentation').value=collectionPresentation(collection.items);collectionTools?.filled();editor.scrollIntoView({block:'start'});
  }
  function collectionCard(collection,target,owned=false){
