@@ -126,7 +126,7 @@ summary: "基于花谱歌声打造的首款 CeVIO AI / Synthesizer V 音乐同�
 
 | 发行日期 | 标题 |
 | --- | --- |
-| 2010-12-12 | [不可欠](</zh/songs/kafu/originals/不可欠>) |
+| 2022-09-11 | [不可欠](</zh/songs/kafu/originals/不可欠>) |
 | 2020-02-29 | [病名を教えて](</zh/songs/kafu/originals/病名wo教ete>) |
 | 2020-12-24 | [くるくる](</zh/songs/kafu/originals/kurukuru>) |
 | 2022-01-29 | [メイドインベイビー](</zh/songs/kafu/originals/meidoinbeibii>) |
