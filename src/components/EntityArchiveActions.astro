@@ -11,6 +11,7 @@ const metrics=registry?entityArchiveHub(registry,entity.id,locale,timeline):[];
  {entity.entityType==='work-release' && <a href={'/'+locale+'/explore/physical/?q='+entity.id}>{c.edition}</a>}
  {entity.entityType==='live-event' && <><a href={'/'+locale+'/explore/observatory/?live='+entity.id}>{c.witness}</a><a href={'/'+locale+'/explore/atlas/?q='+encodeURIComponent(entity.venue?.name || entity.id)}>{c.real}</a></>}
  <a href={'/'+locale+'/explore/evidence/?entity='+entity.id}>{c.claims}</a><a href={'/'+locale+'/explore/compare/?left='+entity.id}>{c.compare}</a>
+ <a href={'/'+locale+'/explore/collections/?add='+entity.id}>{c.addChapter}</a>
  <button type="button" data-observation-kind="read">{c.read}</button><span data-observation-status role="status"></span>
  {artist && <button type="button" data-observation-kind="guarding">{locale==='en'?'Follow this record':locale==='ja'?'この項目を見守る':'守护此词条'}</button>}
  <script is:inline type="application/json" data-observation-copy set:html={JSON.stringify(c).replaceAll('<','\\u003c')}/>

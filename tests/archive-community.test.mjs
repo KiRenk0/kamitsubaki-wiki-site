@@ -26,6 +26,15 @@ async function fixture(){
  };
  return {call,env,sqlite};
 }
+
+test('collection presentation survives publish and fork while invalid metadata is rejected',async()=>{
+ const {call}=await fixture(),items=[{entityId:'song-a',note:'First line\n第二行',section:'Part one',cover:true},{entityId:'song-b',note:'Next',section:'Part two'}];
+ const created=await call('collections','POST',{title:'A guided exhibition',kind:'collection',items,action:'publish'});assert.equal(created.status,201);assert.deepEqual(created.data.collection.items,items);
+ const id=created.data.collection.id,publicRead=await call('collections/'+id,'GET',undefined,null);assert.deepEqual(publicRead.data.collection.items,items);assert.ok(!('owner' in publicRead.data.collection));
+ const fork=await call('collections/'+id+'/fork','POST',{},'bob');assert.deepEqual(fork.data.collection.items,items);assert.equal(fork.data.collection.status,'draft');
+ assert.equal((await call('collections','POST',{title:'Invalid',kind:'collection',items:items.map(item=>({...item,cover:true})),action:'publish'})).status,400);
+ assert.equal((await call('collections','POST',{title:'Invalid',kind:'collection',items:[{entityId:'song-a',section:{html:'bad'}}],action:'publish'})).status,400);
+});
 test('community authentication trusts the identity binding; blocks CSRF and account spoofing',async()=>{
  const {call,env}=await fixture();
  assert.equal((await call('me','GET',undefined,null)).status,401);

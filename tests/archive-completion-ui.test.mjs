@@ -6,7 +6,8 @@ import {initializeArchiveOpenData} from '../src/scripts/archiveOpenData.js';
 import {initializeArchiveWorkspace} from '../src/scripts/archiveWorkspace.js';
 import {archiveCompletionCopy} from '../src/lib/archiveCompletionCopy.mjs';
 import {archiveFeatureCopy} from '../src/lib/archiveFeatureCopy.mjs';
-import {readCollectionDrafts,exportCollectionEditor} from '../src/lib/archiveCollectionDrafts.mjs';
+import {readCollectionDrafts,exportCollectionEditor,collectionEditorItems} from '../src/lib/archiveCollectionDrafts.mjs';
+import {archiveInteractionCopy} from '../src/lib/archiveInteractionCopy.mjs';
 import {archiveDigest} from '../src/lib/archiveSnapshot.mjs';
 import {archiveFixture} from './helpers/archive-fixture.mjs';
 import {emptyObservatory,saveObservatory} from '../src/lib/archivePersonal.mjs';
@@ -24,6 +25,22 @@ async function domTest(markup,run){
 }
 const editor='<section><p data-archive-status></p><form data-collection-form><input name="id"/><input name="title" value="Private"/><textarea name="description"></textarea><select name="kind"><option value="collection">Collection</option></select><input name="revision" value="0"/><textarea name="items">song-a\n\nsong-b</textarea><textarea name="notes">A\nblank line\nB</textarea></form><div data-device-drafts></div><input type="file" data-import-collection/><aside hidden tabindex="-1" data-collection-preview></aside></section>';
 const findButton=(root,label)=>[...root.querySelectorAll('button')].find(button=>button.textContent===label);
+
+test('inline chapter edits keep multiline notes, cover and sections through sorting and live preview without stealing focus',async()=>{
+ await domTest(editor,async(root,w)=>{
+  const snapshot=archiveFixture();snapshot.entities.find(row=>row.id==='song-a').image='/images/song-a.png';let who='alice';const errors=[],c=archiveCompletionCopy('zh'),d=archiveInteractionCopy('zh');
+  const tools=await initializeCollectionTools(root,{snapshot,locale:'zh',owner:async()=>who,storage:localStorage,onOpen:()=>{},onError:error=>errors.push(error.message),loadSortable:async()=>({default:class{destroy(){}}})});
+  root.querySelector('form').reset();assert.equal(root.querySelector('[data-collection-live]').checked,true);
+  findButton(root,c.preview).click();await turn();const panel=root.querySelector('[data-collection-preview]');
+  const note=root.querySelector('[data-chapter-note="song-a"]');note.focus();note.value='Line one\n第二行';note.dispatchEvent(new Event('input',{bubbles:true}));assert.equal(w.document.activeElement,note);assert.match(panel.textContent,/Line one\n第二行/);
+  const section=root.querySelector('[data-chapter-section="song-a"]');section.value='First section';section.dispatchEvent(new Event('input',{bubbles:true}));findButton(root,d.cover).click();await turn();assert.equal(panel.querySelector('.archive-preview-cover').getAttribute('src'),'/images/song-a.png');assert.match(panel.textContent,/First section/);
+  root.querySelectorAll('[data-collection-chapters] li')[1].querySelectorAll('button')[1].click();await turn();
+  const rawNotes=root.querySelector('[name=notes]');rawNotes.value=rawNotes.value.replace(/^B/,'Updated B');rawNotes.dispatchEvent(new Event('input',{bubbles:true}));findButton(root,c.deviceDraft).click();await turn();
+  const saved=readCollectionDrafts(localStorage,'alice')[0],items=collectionEditorItems(saved.editor);assert.equal(items[0].entityId,'song-b');assert.deepEqual(items[1],{entityId:'song-a',note:'Line one\n第二行',section:'First section',cover:true});
+  assert.equal(items[0].note,'Updated B');
+  who='bob';await tools.changeOwner();assert.equal(panel.hidden,true);assert.equal(root.querySelector('[name=presentation]').value,'');assert.equal(readCollectionDrafts(localStorage,'bob').length,0);assert.deepEqual(errors,[]);
+ });
+});
 test('chapter controls preserve notes, restore reading progress and isolate device drafts by owner',async()=>{
  await domTest(editor,async(root)=>{
   let who='alice',options;const errors=[],c=archiveCompletionCopy('zh');

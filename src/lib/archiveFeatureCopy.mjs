@@ -73,5 +73,5 @@ export function archiveFeatureCopy(locale) {
   barcode:'バーコードを入力 / スキャン',scan:'カメラスキャンを開始',stopScan:'スキャンを停止',barcodeInvalid:'バーコードのチェックサムが不正です。',noBarcode:'未収録のコードです。実物資料の項目を追加してください。',cameraUnavailable:'カメラを利用できません。権限を確認するか手動で入力してください。',edition:'版',format:'媒体',catalogNumber:'品番',bonus:'特典',physicalNote:'収録されたコードのみ照合。版を確認してから所有品へ追加。',releaseOnly:'実物の版が未整理です。',
   monthDay:'過去の月日',mystery:'今日の項目クイズ',guess:'回答（項目 ID または名前）',reveal:'答えを見る',correct:'正解です。',incorrect:'まだ一致していません。もう一度。',todayNote:'日単位で明確な記録のみ一致。告知日と開催日は元の意味を保持。',preset:'テーマのプリセット',museumNote:'記録日から姿と作品を展示。コレクションのツールでテーマ展示を作成できます。',
  }
- },locale);return {...archiveCompletionCopy(locale),...base};
+ },locale);return {...archiveCompletionCopy(locale),...base,...resolveLocaleCopy({zh:{collectionNote:'选择档案编排章节，逐章填写笔记、分组并选择封面。可先保存设备草稿和预览，再提交公开集合或审核展览。',interests:'兴趣档案',items:'章节档案',chapters:'章节笔记（文本编辑）'},en:{collectionNote:'Select records, edit chapter notes and sections, and choose a cover. Save a device draft and preview it before publishing a collection or submitting an exhibition for review.',interests:'Records of interest',items:'Chapter records',chapters:'Chapter notes (text editing)'},ja:{collectionNote:'項目を選び、章ごとのノート・グループ・表紙を編集。端末下書きでプレビューし、コレクション公開や展示審査へ進めます。',interests:'興味のある項目',items:'章の項目',chapters:'章のノート（テキスト編集）'}},locale)};
 }
