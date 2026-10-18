@@ -24,6 +24,13 @@ test('workspace CSP restricts resources and exact registered service connections
   for(const type of ['script-src','style-src','font-src','img-src']){
    assert.ok(directives[type]);assert.ok(directives[type].every(s=>!s.includes('https:')&&!s.includes('*')));
   }
+  const permits=(directive,url)=>directives[directive].includes(new URL(url).origin);
+  assert.equal(permits('script-src','http://127.0.0.1:18002/auth/client/v1.mjs?ui=modal-2'),true);
+  assert.equal(permits('img-src','http://127.0.0.1:18002/api/gallery/uploads/batch/id/image'),true);
+  for(const origin of ['https://api.kamitsubaki.wiki','http://127.0.0.1:18022']){
+   assert.equal(permits('script-src',origin+'/auth/client/v1.mjs'),false);
+   assert.equal(permits('img-src',origin+'/api/gallery/uploads/batch/id/image'),false);
+  }
   assert.deepEqual(directives['connect-src'],["'self'",...Object.values(variables).slice(2),...Object.values(variables).slice(2).map(s=>s.replace('http:','ws:'))]);
  });
 });

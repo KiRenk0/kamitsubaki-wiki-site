@@ -12,10 +12,10 @@ export default function workspaceBoundary() {
       const sockets = Object.values(registry).map(origin => origin.replace('http:', 'ws:')).join(' ');
       const policy = [
         "default-src 'self'",
-        "script-src 'self' 'unsafe-inline' 'unsafe-eval'",
+        `script-src 'self' 'unsafe-inline' 'unsafe-eval' ${registry.api}`,
         "style-src 'self' 'unsafe-inline'",
         "font-src 'self' data:",
-        "img-src 'self' data: blob:",
+        `img-src 'self' data: blob: ${origins}`,
         "media-src 'self' blob:",
         "worker-src 'self' blob:",
         `connect-src 'self' ${origins} ${sockets}`,
