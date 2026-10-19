@@ -315,6 +315,7 @@ export default function App() {
       contextRef.current = loaded.context; metadataRef.current = loaded.metadata; setMetadata(loaded.metadata); refreshOutline(editorRef.current);
     }
     recordRef.current = { ...recordRef.current, article: receipt.binding, attachments: receipt.attachments }; setRecord(recordRef.current); persist();
+    if(editorHost()?.mode==='article'){const url=new URL(location.href);url.searchParams.delete('id');url.searchParams.set('revision',receipt.binding.revisionId);window.history.replaceState(window.history.state,'',url);}
     const kept = adopt ? receipt.source : current;
     setArticleReview({ recordKey: recordRef.current.key, snapshot: articleSnapshot(recordRef.current.key, kept, receipt.attachments, receipt.binding,articleBodyImages()) });
     if (!adopt) toast.info('账号草稿已保存，之后新增的本地修改也已保留。');

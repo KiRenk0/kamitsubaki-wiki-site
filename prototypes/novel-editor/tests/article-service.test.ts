@@ -91,6 +91,7 @@ test('new images are staged for revision forks and an account change during imag
  const first=await service.saveDraft(snapshot,account),revision=state.revisions.get(first.binding.revisionId)!;revision.status='rejected';
  const next=articleSnapshot('doc',first.source+'\n![测试图片]('+picture+')\n',first.attachments,{...first.binding,status:'rejected'});
  const receipt=await service.fork(account,next,revision,{[picture]:image});assert.equal(receipt.binding.articleId,revision.article_id);
+ assert.equal(state.writes.find(row=>row.path.startsWith('/api/articles/drafts')&&row.body.parentRevisionId)?.body.parentRevisionId,revision.id);assert.equal(revision.status,'rejected');
  assert.ok(receipt.content.body.includes('/_private/article-assets/'));assert.ok(!receipt.content.body.includes('/images/novel-prototype/'));assert.equal(receipt.content.mediaRefs?.[0].author,image.author);assert.equal(receipt.attachments[0].originalUrl,picture);
  const staged=articleSnapshot('doc',receipt.source,receipt.attachments,receipt.binding),reference='/_private/article-assets/'+'b'.repeat(64);
  const revised=await service.saveDraft(staged,account,{[reference]:{...image,author:'暂存后补充的作者'}});

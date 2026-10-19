@@ -3,6 +3,7 @@ export function reviewEditorPath(locale,kind,editor={}) {
  const lang=['zh','zh-tw','zh-hk','ja','en'].includes(locale)?locale:'zh';
  const resource=encodeURIComponent(editor.resourceId||'');
  if(!resource)return null;
+ if(kind==='articles')return `/${lang}/articles/submit/?revision=${resource}`;
  if(kind==='entries')return `/${lang}/contribute/editor/?view=submissions&submission=${resource}`;
  if(kind==='timeline')return `/${lang}/chronicle/submit/?submission=${resource}`;
  if(kind==='community')return `/${lang}/community/activities/apply/?revision=${resource}`;
