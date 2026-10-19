@@ -1,0 +1,15 @@
+import {communityCopy} from './communityCopy.mjs';
+import {resolveLocaleCopy} from './i18n.mjs';
+export function activityCopy(locale='zh'){
+ const labels={
+ locationShort:['活动地点','Location','開催場所'],viewPoster:['查看完整海报','View full poster','ポスターを拡大'],materialCredits:['素材与署名','Artwork credits','素材・クレジット'],shareShort:['分享','Share','共有'],calendarShort:['加入日历','Add to calendar','カレンダーに追加'],
+ title:['活动中心','Activity Center','イベントセンター'],intro:['观测者企划与官方日程，在这里找到下一场相遇。','Find community projects and official events in one place.','観測者企画と公式イベントから、次の出会いを見つけましょう。'],
+ officialTab:['官方活动','Official events','公式イベント'],communityTab:['观测者企划','Community projects','観測者企画'],nearby:['未来 30 天','Next 30 days','今後30日'],deadlineView:['即将截止','Upcoming deadlines','締切が近い企画'],allArtists:['全部艺人','All artists','すべてのアーティスト'],keyword:['活动名称、艺人或主办方','Event, artist or organizer','イベント名・アーティスト・主催者'],
+ clear:['清除筛选','Clear filters','絞り込みを解除'],emptyRange:['这个范围暂时没有公开活动。试试其他月份或查看未来 30 天。','No public events in this range. Try another month or the next 30 days.','この範囲に公開イベントはありません。別の月や今後30日をご覧ください。'],emptyFiltered:['没有符合筛选条件的活动。','No events match these filters.','条件に合うイベントはありません。'],unavailable:['暂时无法读取活动，请重试。','Events are temporarily unavailable. Please retry.','イベントを読み込めません。再度お試しください。'],cached:['正在显示上次成功读取的数据','Showing the last available data','前回取得できた情報を表示しています'],fetched:['读取时间','Retrieved','取得日時'],endUnknown:['结束时间未公布','End time not announced','終了時刻未発表'],started:['已开始 · 结束时间待公布','Started · end time unannounced','開始済み・終了時刻未発表'],
+ sourceLink:['查看官方原文','Official announcement','公式の告知へ'],share:['复制分享文案','Copy share text','紹介文をコピー'],shareImage:['保存分享图','Save share image','紹介画像を保存'],shareCopied:['文案和链接已复制','Text and link copied','紹介文とリンクをコピーしました'],shareError:['分享操作未完成，请重试或直接复制链接。','Sharing could not finish. Retry or copy the link.','共有できませんでした。再試行するかリンクをコピーしてください。'],imageError:['图片暂时无法导出，仍可复制文案和链接。','Image export is unavailable. You can still copy the text and link.','画像を書き出せません。紹介文とリンクはコピーできます。'],
+ introduction:['活动介绍','Introduction','イベント紹介'],participate:['参与方式','Participation','参加方法'],timeline:['时间安排','Schedule','日程'],notes:['注意事项','Notes','注意事項'],featuredTitle:['近期相遇','Coming together','これからの出会い'],viewAll:['查看全部','View all','すべて見る'],more:['更多活动','More events','ほかのイベント'],basis:['日期按活动原时区显示；具体时刻同时提供你的本地时间。','Dates follow each event’s original time zone. Timed events also show your local time.','日付は開催地の時間帯を基準とし、時刻にはあなたの現地時間も表示します。'],subscriptionHint:['订阅沿用当前筛选，不限于正在查看的月份。日历应用决定刷新频率。','Subscriptions keep your filters across months. Your calendar app decides when to refresh.','購読には現在の絞り込みが適用されます。更新頻度はカレンダーアプリによって異なります。'],
+ primary:['前往参与','Participate','参加する'],registrationLink:['前往报名','Register','申し込む'],submissionLink:['提交作品','Submit work','作品を投稿'],liveLink:['进入直播','Watch live','配信を見る'],replayLink:['观看回放','Watch replay','アーカイブを見る'],upcomingTime:['即将开始','Upcoming','開催予定'],sectionMissing:['请以主办方公告为准。','Refer to the organizer’s announcement.','主催者の告知をご確認ください。']
+ };
+ const zh={},en={},ja={};for(const [key,v]of Object.entries(labels)){zh[key]=v[0];en[key]=v[1];ja[key]=v[2];}
+ return {...communityCopy(locale),...resolveLocaleCopy({zh,en,ja},locale)};
+}
