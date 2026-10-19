@@ -4,7 +4,8 @@ import {communityCopy} from '../../../lib/communityCopy.mjs';
 import WorkspaceHeader from '../../../components/WorkspaceHeader.astro';
 import WorkspaceShell from '../../../components/WorkspaceShell.astro';
 import { getBuildCollection as getCollection } from '../../../lib/contentAuditContext';
-import EventsCalendar from '../../../components/EventsCalendar.astro';
+import ActivityCenter from '../../../components/ActivityCenter.astro';
+import {activityCopy} from '../../../lib/activityCopy.mjs';
 import SiteFooter from '../../../components/SiteFooter.astro';
 import SiteNav from '../../../components/SiteNav.astro';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
@@ -20,12 +21,13 @@ const localeCode = locale as 'zh' | 'zh-tw' | 'zh-hk' | 'ja' | 'en';
 const siteEntries = await getCollection('site');
 const homeContent = getLocalizedSite(siteEntries, localeCode, defaultLocale);
 const copy = homeContent.liveEvents;
+const centerCopy=activityCopy(localeCode);
 const currentPath = '/events';
 const localeLinks = buildLocaleLinks(homeContent, localeCode, currentPath);
 const alternates = supportedLocales.map((code) => ({ locale: code, href: `/${code}${currentPath}` }));
 const metadata = {
-  title: `${copy.pageTitle} - Kamitsubaki Studio Fan Wiki`,
-  description: copy.pageDescription,
+  title: `${centerCopy.title} - Kamitsubaki Wiki`,
+  description: centerCopy.intro,
   canonicalPath: `/${localeCode}${currentPath}`,
 };
 ---
@@ -41,8 +43,8 @@ const metadata = {
     />
 
     <WorkspaceShell width="wide" class="events-page__main">
-      <WorkspaceHeader title={copy.pageTitle} intro={copy.pageDescription} eyebrow={copy.eyebrow} backHref={`/${localeCode}/`} backLabel={copy.backHomeLabel}><WorkspaceButton slot="actions" class="workspace-button" href={`/${localeCode}/community/activities/`}>{communityCopy(localeCode).board}</WorkspaceButton></WorkspaceHeader>
-      <EventsCalendar lang={localeCode} copy={copy} />
+      <WorkspaceHeader title={centerCopy.title} intro={centerCopy.intro} eyebrow={copy.eyebrow} backHref={`/${localeCode}/`} backLabel={copy.backHomeLabel}><WorkspaceButton slot="actions" class="workspace-button" href={`/${localeCode}/community/activities/`}>{communityCopy(localeCode).board}</WorkspaceButton></WorkspaceHeader>
+      <ActivityCenter locale={localeCode} source="official" />
     </WorkspaceShell>
 
     <SiteFooter footer={homeContent.footer} />

@@ -41,3 +41,5 @@ Wiki 使用 Cloudflare Git 集成从 main 执行 `node scripts/release-build.mjs
 统一启动器必须同时设置 WORKSPACE_ISOLATED=true、PUBLIC_WORKSPACE_ISOLATED=true，以及 PUBLIC_WORKSPACE_API_ORIGIN、PUBLIC_WORKSPACE_WIKI_ORIGIN、PUBLIC_WORKSPACE_COMPANION_ORIGIN。三个值必须是不同端口的 http://127.0.0.1 来源。各业务 API 环境变量指向该 API，PUBLIC_SITE_URL 指向当前前端自身。账号返回地址与站点导航只采用这份精确注册表；遗漏或不匹配配置会报错，不能回退生产。
 
 隔离模式的 CSP 限制脚本、样式、字体、图片与连接来源。远程字体、Turnstile 和外部图片不会加载；本机 fixture 不证明这些真实供应商能力。普通模式不启用此策略。基础 pnpm dev 示例只是单仓库开发，不代表已配置隔离候选。
+
+活动中心的接口、组件与隔离验收说明见 [活动中心](activity-center.md)。

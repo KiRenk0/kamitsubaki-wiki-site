@@ -12,3 +12,5 @@ const locale=Astro.params.locale||'zh',c=communityCopy(locale),api=import.meta.e
  <section data-community-content><p data-community-document-status role="status">{c.loading}</p></section>
 </WorkspaceLayout>
 <script>import {initCommunityDocument} from '../../../../scripts/communityDocument.js';initCommunityDocument(document.querySelector('[data-community-document]'));</script>
+
+<script>import {enhanceActivityDocument} from '../../../../scripts/activityDocument.js';void enhanceActivityDocument(document.querySelector('[data-community-document]'));</script>
