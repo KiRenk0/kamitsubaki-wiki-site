@@ -2,13 +2,14 @@
 import WorkspaceButton from './WorkspaceButton.astro';
 import WorkspaceControl from './WorkspaceControl.astro';
 import Icon from './Icon.astro';
+import ContentSkeleton from './ContentSkeleton.astro';
 import {activityCopy} from '../lib/activityCopy.mjs';
 import '../styles/community.css';
 import '../styles/activityCenter.css';
 const {locale='zh',source='community'}=Astro.props,c=activityCopy(locale);
 const api=import.meta.env.PUBLIC_COMMUNITY_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
 ---
-<section class="activity-center" data-activity-center data-source={source} data-locale={locale} data-api={api} data-copy={JSON.stringify(c)}>
+<section class="activity-center" data-ui-kit data-activity-center data-source={source} data-locale={locale} data-api={api} data-copy={JSON.stringify(c)}>
  <nav class="activity-tabs" aria-label={c.title}>
   <a class="workspace-button dui-btn" data-ui-kit href={`/${locale}/community/activities/`} data-activity-tab="community">{c.communityTab}</a>
    <a class="workspace-button dui-btn" data-ui-kit href={`/${locale}/events/?source=official`} data-activity-tab="official">{c.officialTab}</a>
@@ -24,8 +25,8 @@ const api=import.meta.env.PUBLIC_COMMUNITY_API_URL||import.meta.env.PUBLIC_GALLE
   </div></details><WorkspaceButton data-activity-clear tone="quiet">{c.clear}</WorkspaceButton></div>
  </form>
  <div class="activity-basis"><p>{c.basis}</p><label data-community-only><WorkspaceControl type="checkbox" name="deadlines" data-activity-deadlines checked/>{c.pointToggle}</label></div>
- <p data-activity-status role="status" aria-live="polite">{c.loading}</p><WorkspaceButton data-activity-retry hidden>{c.retry}</WorkspaceButton>
- <div class="activity-native" data-activity-native></div>
+ <p data-activity-status role="status" aria-live="polite"></p><WorkspaceButton data-activity-retry hidden>{c.retry}</WorkspaceButton>
+ <div class="activity-calendar-surface"><ContentSkeleton kind="calendar" count={5} data-activity-loading/><div class="activity-native" data-activity-native></div></div>
  <section data-activity-day hidden><div class="activity-section-title"><h2 data-activity-day-title></h2><WorkspaceButton data-activity-day-close tone="quiet">{c.close}</WorkspaceButton></div><div data-activity-day-list aria-live="polite" class="activity-card-grid"></div></section>
  <section data-activity-undated hidden><h2>{c.undated}</h2><div class="activity-card-grid" data-activity-undated-list></div></section>
  <section data-activity-featured-section hidden><h2>{c.featuredTitle}</h2><div data-activity-featured class="activity-card-grid"></div></section>

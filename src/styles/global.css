@@ -10,7 +10,7 @@
   themes: false;
   prefix: "dui-";
   root: "[data-ui-kit]";
-  include: button, input, select, textarea, checkbox, radio, range, file-input, progress, badge, loading;
+  include: button, input, select, textarea, checkbox, radio, range, file-input, progress, badge, loading, skeleton, tab;
 }
 @import "katex/dist/katex.min.css";
 @import "@fontsource-variable/montserrat";

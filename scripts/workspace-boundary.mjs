@@ -43,7 +43,8 @@ export default function workspaceBoundary() {
         if(pathname==='/__local__/dashboard/viewport'&&request.method==='GET'){
           response.setHeader('Content-Type','text/html; charset=utf-8');
           const target=new URL(request.url,registry.wiki).searchParams.get('path')||'/zh/',safe=/^\/(?:__local__\/posters|(?:zh|zh-tw|zh-hk|ja|en)\/[^<>"']*)\??[^<>"']*$/.test(target)&&!target.startsWith('//')?target:'/zh/';
-          response.end('<!doctype html><meta charset="utf-8"><title>LOCAL ONLY 390px Dashboard</title><style>body{margin:20px;background:#e8e8e8;font:14px system-ui}iframe{width:390px;height:min(844px,calc(100dvh - 80px));border:0;background:white}</style><p>LOCAL ONLY · 390px</p><iframe title="390px dashboard" src="'+safe.replaceAll('&','&amp;')+'"></iframe>');return;
+          const wide=new URL(request.url,registry.wiki).searchParams.get('width')==='1280',width=wide?1280:390;
+          response.end('<!doctype html><meta charset="utf-8"><title>LOCAL ONLY '+width+'px Dashboard</title><style>body{margin:20px;background:#e8e8e8;font:14px system-ui}iframe{width:'+width+'px;height:'+(wide?'800px':'min(844px,calc(100dvh - 80px))')+';border:0;background:white;'+(wide?'transform:scale(.36);transform-origin:top left':'')+'}</style><p>LOCAL ONLY · '+width+'px'+(wide?' · scaled':'')+'</p><iframe title="'+width+'px dashboard" src="'+safe.replaceAll('&','&amp;')+'"></iframe>');return;
         }
         if(pathname==='/__local__/dashboard'&&request.method==='GET'){
           response.setHeader('Content-Type','text/html; charset=utf-8');response.setHeader('Cache-Control','no-store');

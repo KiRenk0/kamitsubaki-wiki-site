@@ -1,13 +1,7 @@
-// Intrinsic dimensions choose the layout; the original asset is never cropped.
-export function posterShape(width,height){
- if(!Number.isFinite(width)||!Number.isFinite(height)||width<=0||height<=0)return 'unknown';
- const ratio=width/height;return ratio>=1.35?'wide':ratio<.4?'tall':ratio<.8?'portrait':'square';
-}
-export function adaptActivityPoster(image,host,{onError}={}){
- const loaded=()=>{host.dataset.posterShape=posterShape(image.naturalWidth,image.naturalHeight);};
- image.addEventListener('load',loaded);
- image.addEventListener('error',()=>{delete host.dataset.posterShape;onError?.();},{once:true});
- if(image.complete&&image.naturalWidth)loaded();
+// Layout uses a fixed crop; only load failures need presentation handling.
+export function adaptActivityPoster(image,{onError}={}){
+ image.addEventListener('error',()=>onError?.(),{once:true});
+ if(image.complete&&image.currentSrc&&!image.naturalWidth)onError?.();
 }
 
 // Load the existing viewer only after a request to enlarge the artwork.

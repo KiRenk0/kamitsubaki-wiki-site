@@ -4,7 +4,7 @@
 
 ## 内容与排期
 
-总览先展示最多两条观测者企划，再展示公告和最多两条官方活动。首条企划按图片真实比例排版：竖版与方形图文并列，横版独占宽幅；海报完整缩放并限制高度，超长图使用可滚动预览；可通过「查看完整海报」调用已有 PhotoSwipe 放大。第二条紧凑展示；没有活动时收起对应区域。官方信息直接链接来源原文。活动读取 `/api/activity-center?recommend=1&placement=dashboard`：后端合并原 home、floating 的精选及自动补位资格、去重并保持排序，原运营记录不改写。center 投放仍独立。效果报表位置为「观测面板」，原首页及浮窗汇总继续保留。
+总览用daisyUI Tabs在企划与官方之间切换，企划默认且排第一，两类各最多两项。统一16:9居中cover裁剪海报，整卡一个详情入口；卡片内不放分享、日历和海报查看按钮，原功能在企划详情保留。桌面企划两项并列，手机第二项紧凑展示；官方为日期信息列表。公告位于独立阅读区域。活动读取 `/api/activity-center?recommend=1&placement=dashboard`：后端合并原 home、floating 的精选及自动补位资格、去重并保持排序，原运营记录不改写。center 投放仍独立。效果报表位置为「观测面板」，原首页及浮窗汇总继续保留。
 
 公告继续在 `src/content/announcements` 发布，使用现有 translationKey、pinned、autoOpen、order。新增正整数 reminderVersion，默认1；仅在重要修订确实需要再次提醒时由编辑者递增，普通文字修正保持版本。提醒使用 translationKey 与 reminderVersion，不随语言切换重复触发。只有当前精选同时启用 pinned 和 autoOpen 才是重要提醒。原公告历史页与锚点不变。
 
@@ -27,3 +27,7 @@ AI 复用一个 AiChatWidget 的 embedded 模式，首次选择 AI 才动态加�
 后端预览脚本可显式设置 ACTIVITY_PREVIEW_AI_FIXTURE=true，提供标明「本机合成」的 bootstrap、历史和 SSE；默认关闭，计数可从 `/__local__/fixtures` 查看。不调用真实模型。改期、取消、权限、缓存及统计口径继续按活动中心契约验证。
 
 受影响测试包括 tests/dashboard.test.mjs、tests/reader-tools.test.mjs、tests/intro-skip.test.mjs 及后端 activity-center 测试。交付仍须执行 CONTRIBUTING 中的完整检查、实际手机/桌面开关与导航、公告去重、AI 草稿/串流/停止、账号及图库回归。截图须标明本机合成数据；本机通过不代表生产发布。
+
+首次无缓存读取使用既有daisyUI Skeleton；有五分钟内的精确查询缓存则立即展示并后台刷新。更新不清空已有卡片或写入可见加载文本。公告正文和首页文章也使用骨架，AI控制器使用既有loading图标。错误、空状态及过期缓存仍提供真实说明与重试。切换器仅对当前活动来源统计曝光，支持方向键和焦点恢复。
+
+底部不再重复放置快捷按钮；日历的完整入口随来源切换，申请宣传、投稿和社群统一放在工具页签。
