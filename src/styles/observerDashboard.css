@@ -115,8 +115,8 @@ html body:has(.pswp--open) .dashboard-float,html body:has(.ve-workbench) .dashbo
  .observer-dashboard .dashboard-featured-project .activity-card__body>.activity-date{order:1;margin:0 20px 16px}
  .observer-dashboard .dashboard-featured-project .activity-card__art{order:4}
  .observer-dashboard .dashboard-featured-project .activity-card__body>:not(h3):not(.activity-date){order:5;margin-inline:20px}
- .observer-dashboard .dashboard-featured-project .activity-card__body>.dashboard-project-location{order:2;margin-block:0}
- .observer-dashboard .dashboard-featured-project .activity-card__body>.dashboard-project-cta{order:3}
+ html body .observer-dashboard .dashboard-featured-project .activity-card__body>.dashboard-project-location{order:2;margin-block:0}
+ html body .observer-dashboard .dashboard-featured-project .activity-card__body>.dashboard-project-cta{order:3}
  .observer-dashboard .dashboard-featured-project .dashboard-project-cta{align-self:flex-start;margin-bottom:18px}
  .observer-dashboard .dashboard-featured-project h3{font-size:23px}
  .observer-dashboard .activity-card--poster .activity-card__link{grid-template-columns:110px minmax(0,1fr)}
