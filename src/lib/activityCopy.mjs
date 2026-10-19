@@ -2,6 +2,7 @@ import {communityCopy} from './communityCopy.mjs';
 import {resolveLocaleCopy} from './i18n.mjs';
 export function activityCopy(locale='zh'){
  const labels={
+ home:['首页','Home','ホーム'],activityInfo:['活动信息','Event information','イベント情報'],moreInfo:['更多资料','More information','詳しい情報'],undated:['时间待公布','Dates to be announced','日程は後日発表'],allDay:['全天','All day','終日'],
  locationShort:['活动地点','Location','開催場所'],viewPoster:['查看完整海报','View full poster','ポスターを拡大'],closePoster:['关闭海报','Close poster','ポスターを閉じる'],materialCredits:['素材与署名','Artwork credits','素材・クレジット'],shareShort:['分享','Share','共有'],calendarShort:['加入日历','Add to calendar','カレンダーに追加'],
  title:['活动中心','Activity Center','イベントセンター'],intro:['观测者企划与官方日程，在这里找到下一场相遇。','Find community projects and official events in one place.','観測者企画と公式イベントから、次の出会いを見つけましょう。'],
  officialTab:['官方活动','Official events','公式イベント'],communityTab:['观测者企划','Community projects','観測者企画'],nearby:['未来 30 天','Next 30 days','今後30日'],deadlineView:['即将截止','Upcoming deadlines','締切が近い企画'],allArtists:['全部艺人','All artists','すべてのアーティスト'],keyword:['活动名称、艺人或主办方','Event, artist or organizer','イベント名・アーティスト・主催者'],

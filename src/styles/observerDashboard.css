@@ -33,16 +33,16 @@ html body dialog.observer-dashboard[data-dashboard-dialog]:modal{position:fixed;
 .observer-dashboard .activity-card{border-radius:var(--ui-radius-control);background:transparent}
 .observer-dashboard .activity-card__body{padding:14px 0 0}
 .observer-dashboard .activity-card h3{font-size:20px;line-height:1.5;margin:0 0 8px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.observer-dashboard .activity-card .activity-date{font-size:11px;line-height:1.8;margin:0 0 8px}
+.observer-dashboard .activity-card .activity-date{font-size:12px;line-height:1.8;margin:0 0 8px}
 .observer-dashboard .activity-card p:not(.activity-date){font-size:12px;line-height:1.7;margin:5px 0}
 .observer-dashboard .activity-card__summary,.observer-dashboard .activity-local{display:none}
 .observer-dashboard .activity-card__status{font-size:11px}
-.observer-dashboard .activity-card__body>p:not([class]){white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--ui-color-muted)}
+.observer-dashboard .activity-card__location{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--ui-color-muted)}
 .dashboard-activity-list:not(.dashboard-project-list){display:grid;gap:0}
 .dashboard-activity-list:not(.dashboard-project-list) .activity-card{border-bottom:1px solid var(--workspace-line);border-radius:0;padding:14px 0}
 .dashboard-activity-list:not(.dashboard-project-list) .activity-card__body{padding:0}
 .dashboard-activity-list:not(.dashboard-project-list) .activity-card h3{font:500 16px/1.5 var(--font-sans)}
-.dashboard-activity-list:not(.dashboard-project-list) .activity-card__status{display:none}
+.dashboard-activity-list:not(.dashboard-project-list) .activity-card__status{display:inline-flex}
 .dashboard-source-switch.dui-tabs{padding:4px;background:var(--theme-panel-solid);border-radius:var(--ui-radius-control);gap:2px}
 html body .observer-dashboard .dashboard-source-switch .dui-tab{font:500 13px/1.5 var(--font-sans);min-height:36px;height:36px;padding:8px 14px;border-radius:var(--ui-radius-control);color:var(--ui-color-muted);border:0;background:transparent;box-shadow:none}
 html body .observer-dashboard .dashboard-source-switch .dui-tab-active{background:var(--theme-fg);color:var(--theme-bg)}

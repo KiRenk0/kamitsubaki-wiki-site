@@ -44,10 +44,11 @@ export function activityCard(item,{locale,copy,base,placement='center',compact=f
  if(item.source==='official'){link.target='_blank';link.rel='noopener noreferrer';}
  if(item.poster){const art=element('div',null,'activity-card__art dui-skeleton'),img=element('img');img.alt=contentText(item.title,item,locale);img.loading='lazy';img.decoding='async';adaptActivityPoster(img,{onError:()=>{art.remove();card.classList.remove('activity-card--poster');}});img.addEventListener('load',()=>{art.classList.remove('dui-skeleton');img.classList.add('is-loaded');});img.src=item.poster;art.append(img);link.append(art);card.classList.add('activity-card--poster');}
  const body=element('div',null,'activity-card__body');
- body.append(element('p',scheduleText(item,locale,copy),'activity-date'),element('h3',contentText(item.title,item,locale)));
+ body.append(element('p',scheduleText(item,locale,copy,{compact:true}),'activity-date'),element('h3',contentText(item.title,item,locale)));
  if(item.schedule?.kind==='timed')body.append(element('p',scheduleText(item,locale,copy,{local:true}),'activity-local'));
- const location=item.source==='official'?[item.artist,item.location].filter(Boolean).join(' · '):[copy[item.mode],formatCommunityLocation(item,locale)].filter(Boolean).join(' · ');if(location)body.append(element('p',location));
- const status=copy[item.status]||item.status;if(status)body.append(element('span',status,'activity-card__status'));if(item.cooperation)body.append(element('span',copy.cooperation,'community-badge'));
+ const location=item.source==='official'?[item.artist,item.location].filter(Boolean).join(' · '):[copy[item.mode],formatCommunityLocation(item,locale)].filter(Boolean).join(' · ');if(location)body.append(element('p',location,'activity-card__location'));
+ const state=item.eventStatus&&item.eventStatus!=='scheduled'?item.eventStatus:item.status;
+ const status=['ongoing','ended','cancelled','postponed'].includes(state)?copy[state]:'';if(status){const badge=element('span',status,'activity-status activity-card__status');badge.dataset.state=state;body.append(badge);}if(item.cooperation)body.append(element('span',copy.cooperation,'activity-status'));
  const deadline=nextDeadline(item,locale,copy);if(deadline)body.append(element('p',deadline,'activity-deadline'));
  if(!compact&&item.summary)body.append(element('p',contentText(item.summary,item,locale),'activity-card__summary'));
  link.append(body);link.addEventListener('click',()=>{if(item.source==='official')trackActivity(base,item,placement,'outbound');});card.append(link);
