@@ -24,10 +24,20 @@ export default function workspaceBoundary() {
         "base-uri 'self'",
         "object-src 'none'",
       ].join('; ');
-      server.middlewares.use((_request, response, next) => {
+      server.middlewares.use(async (request, response, next) => {
         response.setHeader('Content-Security-Policy', policy);
         response.setHeader('X-Workspace-Environment', 'isolated-local');
-        next();
+        // Pages Functions serve these routes in production. The isolated harness
+        // supplies the same renderer through the registered local API only.
+        const pathname = new URL(request.url, registry.wiki).pathname;
+        if (request.method !== 'GET' || !/^\/(zh|zh-tw|zh-hk|ja|en)\/community\/(activities|series)\/(?!apply\/?$|read\/?$)[-a-z0-9]+\/?$/.test(pathname)) return next();
+        try {
+          const result = await fetch(new URL('/__local__/render' + pathname, registry.api), { redirect: 'error' });
+          if (result.status === 404) return next();
+          response.statusCode = result.status;
+          response.setHeader('Content-Type', 'text/html; charset=utf-8');
+          response.end(await result.text());
+        } catch { next(); }
       });
     },
   };

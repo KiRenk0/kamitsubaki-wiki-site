@@ -4,7 +4,7 @@ import {safeAccountReturnTo} from '../src/lib/accountReturn.mjs';
 
 test('returns contributors to the original task after sign-in',()=>{
   const origin='https://wiki.example';
-  for(const path of ['/zh/media/','/en/media/','/zh/account/creator/','/ja/contribute/editor/','/en/chronicle/submit/?draft=abc','/zh-tw/gallery/manage/?batch=123','/zh-hk/articles/submit/','/zh/gallery/manage/photos/?draft=one','/ja/gallery/classify/?item=photo']){
+  for(const path of ['/zh/media/','/en/media/','/zh/contribute/review/?id=articles%3Aopaque-record','/zh/account/creator/','/ja/contribute/editor/','/en/chronicle/submit/?draft=abc','/zh-tw/gallery/manage/?batch=123','/zh-hk/articles/submit/','/zh/gallery/manage/photos/?draft=one','/ja/gallery/classify/?item=photo']){
     assert.equal(safeAccountReturnTo(path,origin)?.pathname+safeAccountReturnTo(path,origin)?.search,path);
   }
 });

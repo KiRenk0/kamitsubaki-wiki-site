@@ -53,7 +53,7 @@ const zh = {
   disclaimer: [
     'KAMITSUBAKI Fan Wiki 是独立的非官方粉丝项目，与 KAMITSUBAKI STUDIO、THINKR 及相关艺人或权利人无隶属关系，亦不代表官方。',
     '赞助自愿，用于本站运行、维护及相关工具费用，不代表向 KAMITSUBAKI 官方或艺人支付款项。作品、商标与素材的权利归各自权利人所有。',
-    '本站不提供任何 KAMITSUBAKI 内容的付费解锁，不设 VIP 或会员权益。赞助不影响阅读权限、内容编辑原则或资料的公开可用性。',
+    'Wiki 资料与普通内容继续公开。支持者可按有效档位阅读项目动态与开发日志，参与功能投票和内测；具体资格以账号中心核验记录为准。',
   ],
 };
 
@@ -91,7 +91,7 @@ const copy: Record<'zh' | 'ja' | 'en', SupportCopy> = {
     disclaimer: [
       'KAMITSUBAKI Fan Wiki は独立した非公式ファンプロジェクトです。KAMITSUBAKI STUDIO、THINKR、関連アーティストや権利者とは所属関係がなく、公式を代表しません。',
       '支援は任意で、本サイトの運用・保守・関連ツールの費用に使用します。KAMITSUBAKI 公式やアーティストへの支払いではありません。作品・商標・素材の権利は各権利者に帰属します。',
-      'KAMITSUBAKI のコンテンツを有料で解放する仕組みや、VIP・会員特典はありません。支援の有無は閲覧権限、編集方針、資料の公開に影響しません。',
+      'Wiki の資料と一般コンテンツは引き続き公開されます。支援の有効期間とプランに応じて開発記事、機能投票、テスト参加を利用できます。資格はアカウント画面で確認できます。',
     ],
   },
   en: {
@@ -122,7 +122,7 @@ const copy: Record<'zh' | 'ja' | 'en', SupportCopy> = {
     disclaimer: [
       'KAMITSUBAKI Fan Wiki is an independent, unofficial fan project. It is not affiliated with or endorsed by KAMITSUBAKI STUDIO, THINKR, their artists, or other rightsholders, and does not represent them.',
       'Support is voluntary and goes toward this site’s operation, maintenance, and related tools. It is not a payment to KAMITSUBAKI or its artists. Works, trademarks, and media remain the property of their respective rightsholders.',
-      'No KAMITSUBAKI content is unlocked through payment. There are no VIP or membership benefits. Support does not affect reading access, editorial principles, or the public availability of information.',
+      'Wiki information and general content remain public. Active support plans can include project updates, development logs, feature votes and beta applications. Check verified eligibility in your account.',
     ],
   },
 };

@@ -36,6 +36,9 @@ jobs:
       - name: Check shared UI tokens
         run: pnpm ui:tokens:check
 
+      - name: Check shared UI icons
+        run: pnpm check:ui-icons
+
       - name: Run tests
         run: pnpm test
 
