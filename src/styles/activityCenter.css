@@ -26,13 +26,13 @@
 
 [data-activity-featured-section]{margin:0 0 28px}[data-activity-featured-section]>h2{font:400 23px/1.5 var(--font-serif);margin:0 0 16px}
 
-/* Activity covers share one fixed crop; original artwork stays available in the reader. */
+/* Regular media frames show the complete source artwork. */
 .activity-card-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:start}
 .activity-card{min-width:0;overflow:hidden}
 .activity-card__link{display:block;color:inherit;text-decoration:none}
 .activity-card--poster .activity-card__link{display:block}
-.activity-card__art{position:relative;min-width:0;aspect-ratio:16/9;overflow:hidden;border-radius:var(--ui-radius-control);background:rgb(var(--theme-fg-rgb)/.055)}
-.activity-card__art img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;opacity:0;transition:opacity 180ms ease-out}
+.activity-card__art{position:relative;min-width:0;aspect-ratio:16/9;overflow:hidden;border-radius:var(--ui-radius-control);background-color:rgb(var(--theme-fg-rgb)/.055)}
+.activity-card__art img{display:block;width:100%;height:100%;object-fit:contain;object-position:center;opacity:0;transition:opacity 180ms ease-out}
 .activity-card__art img.is-loaded{opacity:1}
 .activity-card__body{min-width:0;padding:16px 0 0}
 .activity-card h3{margin:10px 0 14px;font:500 19px/1.5 var(--font-serif);overflow-wrap:anywhere;text-wrap:pretty}
@@ -73,8 +73,8 @@
 .activity-detail-page .activity-primary{min-width:160px}
 .activity-detail-art{margin:0 0 2rem;padding:0}
 .activity-poster-open{display:block;color:var(--reader-muted);text-decoration:none;cursor:zoom-in}
-.activity-poster-frame{display:block;aspect-ratio:16/9;overflow:hidden;border-radius:var(--ui-radius-control)}
-.activity-detail-page .community-detail-poster{display:block;width:100%;height:100%;max-height:none;object-fit:cover;object-position:center;margin:0}
+.activity-poster-frame{display:block;padding:12px;border:1px solid var(--reader-line);border-radius:var(--ui-radius-control);background-color:rgb(var(--theme-fg-rgb)/.025)}
+.activity-detail-page .community-detail-poster{display:block;width:100%;height:auto;max-height:72dvh;object-fit:contain;object-position:center;margin:0}
 .activity-poster-caption{display:flex;align-items:center;justify-content:space-between;margin-top:10px;font:12px/1.7 var(--font-sans)}
 .activity-detail-page .community-detail-body{width:100%;margin:0;padding:0;border:0;min-width:0}
 .activity-detail-page .community-detail-body img{max-width:100%;height:auto}

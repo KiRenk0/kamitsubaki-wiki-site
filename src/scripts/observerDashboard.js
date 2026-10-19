@@ -11,6 +11,7 @@ export function initObserverDashboard(root){
  let index,noticeId='',indexFlight,section='overview',interacted=false,releaseScroll,closeMotion,openMotion,buttonMotion,restore=true,trigger=launcher,aiFlight,active=true,hashOpened=false,motionVersion=0;
  let preferences=dashboardPreferences(window,root.dataset.preview==='true'),stops=[],controllers=[],generation=0,activitySource='community';
  const lastActivities={community:0,official:0};
+ const renderedActivities={community:'',official:''};
  const bodyCache=new Map(),noticeGeneration={value:0};
  launcher.hidden=false;
  const noticeKey=()=>reminderKey(index?.items?.find(n=>n.id===index.featuredId));
@@ -85,9 +86,12 @@ export function initObserverDashboard(root){
  }
  function renderActivities(source,data,{fade=false}={}){
   const cards=$('[data-dashboard-activities="'+source+'"]');
-  cards.replaceChildren(...data.items.slice(0,2).map((item,i)=>activityCard(source==='official'?{...item,poster:''}:item,{locale,copy:c,base,placement:'dashboard',compact:source==='community'&&i>0})));cards.dataset.loaded='true';
+  const items=data.items.slice(0,2),signature=JSON.stringify(items),changed=renderedActivities[source]!==signature;
+  // Keep loaded artwork and keyboard focus when a background refresh returns
+  // the same records. Cache revalidation should not restart image skeletons.
+  if(changed){cards.replaceChildren(...items.map((item,i)=>activityCard(source==='official'?{...item,poster:''}:item,{locale,copy:c,base,placement:'dashboard',compact:source==='community'&&i>0})));renderedActivities[source]=signature;}cards.dataset.loaded='true';
   activityState(source,{message:data.cache?.stale?c.cached+(data.cache.fetchedAt?' · '+c.fetched+' '+new Date(data.cache.fetchedAt).toLocaleString(locale):''):data.items.length?'':c.emptyRange});
-  if(fade&&!reduced())animate(cards,[{opacity:0},{opacity:1}],{duration:180,easing:'cubic-bezier(.23,1,.32,1)'});
+  if(changed&&fade&&!reduced())animate(cards,[{opacity:0},{opacity:1}],{duration:180,easing:'cubic-bezier(.23,1,.32,1)'});
   observeSelected();
  }
  async function loadActivities(force=false){
