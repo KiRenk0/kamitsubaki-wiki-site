@@ -1,4 +1,5 @@
 import {formatCommunityLocation} from './communityLocationFormat.mjs';
+import {iconMarkup} from './icons.mjs';
 
 const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safeHref=value=>{try{const u=new URL(value);return ['https:','http:'].includes(u.protocol)?escape(u.href):'';}catch{return '';}};
@@ -18,7 +19,7 @@ export function participationLinks(item,now=Date.now()){
 // metadata renderers. All activity values and outbound URLs are escaped here.
 export function activityDetailMarkup(item,{locale,copy:c,bodyHtml='',factsHtml='',creditHtml='',originalHtml='',text=String,now}={}){
  const v=value=>escape(text(value||'')),{links,primary}=participationLinks(item,now);
- const external=(link,cls='')=>`<a class="${cls}" href="${safeHref(link.url)}" target="_blank" rel="noopener noreferrer"${links.includes(link)?' data-activity-outbound':''}>${v(link.label||c[link.role+'Link']||c.primary)}${link===primary?'<span aria-hidden="true">↗</span>':''}</a>`;
+ const external=(link,cls='')=>`<a class="${cls}" href="${safeHref(link.url)}" target="_blank" rel="noopener noreferrer"${links.includes(link)?' data-activity-outbound':''}>${v(link.label||c[link.role+'Link']||c.primary)}${link===primary?iconMarkup('arrow-up-right'):''}</a>`;
  const poster=item.poster||item.media?.find(m=>m.role==='poster')?.src,posterHref=safeHref(poster);
  const place=item.locationPrecision==='pending'?c.pending:formatCommunityLocation(item,locale,text);
  const secondary=[...links.filter(l=>l!==primary),...(safeHref(item.sourceUrl)?[{label:c.source,url:item.sourceUrl}]:[]),...(safeHref(item.organizerUrl)?[{label:c.organizerUrl,url:item.organizerUrl}]:[])];
@@ -34,7 +35,7 @@ export function activityDetailMarkup(item,{locale,copy:c,bodyHtml='',factsHtml='
  <div><dt>${escape(c.locationShort)}</dt><dd>${[c[item.mode],place].filter(Boolean).map(v).join(' · ')||escape(c.pending)}</dd></div></dl>
  <div id="${participation.found?'activity-entry':'activity-participation'}" class="activity-detail-participation">${primary?external(primary,'activity-primary'):''}${secondary.length?`<div class="activity-detail-links">${secondary.map(l=>external(l)).join('')}${item.seriesId?`<a href="/${locale}/community/series/${escape(item.seriesId)}/">${escape(c.series)}</a>`:''}</div>`:item.seriesId?`<a href="/${locale}/community/series/${escape(item.seriesId)}/">${escape(c.series)}</a>`:''}</div>${originalHtml}
  <div class="activity-detail-tools" data-activity-detail-tools></div></div>
- ${posterHref?`<figure class="activity-detail-art"><a href="${posterHref}" class="activity-poster-open" target="_blank" rel="noopener noreferrer" aria-label="${escape(c.poster)}"><img class="community-detail-poster" src="${posterHref}" alt="${v(item.title)}" fetchpriority="high"><span class="activity-poster-caption">${escape(c.viewPoster)}<span aria-hidden="true">↗</span></span></a></figure>`:''}</div>
+ ${posterHref?`<figure class="activity-detail-art"><a href="${posterHref}" class="activity-poster-open" target="_blank" rel="noopener noreferrer" aria-label="${escape(c.poster)}"><img class="community-detail-poster" src="${posterHref}" alt="${v(item.title)}" fetchpriority="high"><span class="activity-poster-caption">${escape(c.viewPoster)}${iconMarkup('arrow-up-right')}</span></a></figure>`:''}</div>
  <nav class="activity-document-nav" aria-label="${escape(c.title)}">${[['introduction',c.introduction],['participation',c.participate],['schedule',c.timeline],['notes',c.notes]].map(([id,label])=>`<a href="#activity-${id}">${escape(label)}</a>`).join('')}</nav>
  <div class="activity-detail-reading"><article id="activity-introduction" class="community-detail-body wiki-reader wiki-prose">${bodyHtml}</article><aside id="activity-schedule" class="activity-detail-sidebar"><h2>${escape(c.timeline)}</h2>${factsHtml}${creditHtml?`<details class="activity-detail-credits"><summary>${escape(c.materialCredits)}</summary>${creditHtml}</details>`:''}</aside></div>`;
 }
