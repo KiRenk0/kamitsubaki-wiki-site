@@ -278,6 +278,7 @@ const announcements = defineCollection({
     pinned: z.boolean().default(false),
     draft: z.boolean().default(false),
     autoOpen: z.boolean().default(true),
+    reminderVersion: z.number().int().positive().default(1),
     license: contentLicense.optional(),
   }),
 });

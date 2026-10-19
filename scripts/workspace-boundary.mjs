@@ -8,6 +8,7 @@ export default function workspaceBoundary() {
       if (process.env.WORKSPACE_ISOLATED !== 'true') return;
       const registry = workspaceAccountRegistry(process.env);
       if (!registry) throw new Error('Workspace requires PUBLIC_WORKSPACE_ISOLATED=true and exact service origins');
+      let dashboardTestVersion=0;
       const origins = Object.values(registry).join(' ');
       const sockets = Object.values(registry).map(origin => origin.replace('http:', 'ws:')).join(' ');
       const policy = [
@@ -30,6 +31,23 @@ export default function workspaceBoundary() {
         // Pages Functions serve these routes in production. The isolated harness
         // supplies the same renderer through the registered local API only.
         const pathname = new URL(request.url, registry.wiki).pathname;
+        // Explicit test controls are available only behind the isolated dev hook.
+        if(pathname==='/__local__/dashboard/viewport'&&request.method==='GET'){
+          response.setHeader('Content-Type','text/html; charset=utf-8');
+          response.end('<!doctype html><meta charset="utf-8"><title>LOCAL ONLY 390px Dashboard</title><style>body{margin:20px;background:#e8e8e8;font:14px system-ui}iframe{width:390px;height:min(844px,calc(100dvh - 80px));border:0;background:white}</style><p>LOCAL ONLY · 390px</p><iframe title="390px dashboard" src="/zh/"></iframe>');return;
+        }
+        if(pathname==='/__local__/dashboard'&&request.method==='GET'){
+          response.setHeader('Content-Type','text/html; charset=utf-8');response.setHeader('Cache-Control','no-store');
+          response.end(`<!doctype html><html lang="zh"><meta charset="utf-8"><title>LOCAL ONLY Dashboard controls</title><style>body{font:16px/1.8 system-ui;max-width:700px;margin:40px auto;padding:20px}button,input,a{font:inherit;margin:10px;padding:10px}label{display:block}</style><h1>LOCAL ONLY · Dashboard 验收控制</h1><p>仅操作此本机来源的合成验收状态，不连接生产。首页支持五种语言。</p><button id="reset">清除面板记录并重播开场</button><button id="yesterday">模拟上次展示为昨天</button><label>重要公告提醒版本 <input id="version" type="number" min="1" max="99" value="1"></label><button id="apply">应用测试版本</button><p id="status" role="status"></p><nav><a href="/zh/">中文首页</a><a href="/en/">English home</a><a href="/zh/#social-contact">旧社群锚点</a></nav><script>const key='kamitsubaki-dashboard:v1',status=document.getElementById('status');document.getElementById('reset').onclick=()=>{localStorage.removeItem(key);localStorage.removeItem(key+':preview');sessionStorage.removeItem(key);sessionStorage.removeItem('kamitsubaki-home-intro-seen');status.textContent='已清除，打开首页验证开场后弹出';};document.getElementById('yesterday').onclick=()=>{for(const k of [key,key+':preview']){const value=JSON.parse(localStorage.getItem(k)||'{}');value.day='2000-01-01';localStorage.setItem(k,JSON.stringify(value));}status.textContent='已设为昨天';};document.getElementById('apply').onclick=async()=>{const n=Math.max(1,Math.min(99,Number(document.getElementById('version').value)||1));await fetch('/__local__/dashboard/version?value='+n,{method:'POST'});status.textContent='本机提醒测试版本 '+n;};</script></html>`);return;
+        }
+        if(pathname==='/__local__/dashboard/version'&&request.method==='POST'&&request.headers?.origin===registry.wiki){dashboardTestVersion=Math.max(1,Math.min(99,Number(new URL(request.url,registry.wiki).searchParams.get('value'))||1));response.setHeader('Content-Type','application/json');response.end(JSON.stringify({localOnly:true,version:dashboardTestVersion}));return;}
+        const qaVersion=dashboardTestVersion;
+        if(request.method==='GET'&&qaVersion&&request.headers?.['x-workspace-dashboard-source']!=='1'&&/^\/(zh|zh-tw|zh-hk|ja|en)\/dashboard\/announcements\.json$/.test(pathname)){
+          const upstream=await fetch(new URL(pathname,registry.wiki),{redirect:'error',headers:{'X-Workspace-Dashboard-Source':'1'}}),data=await upstream.json();
+          if(data.items?.[0])data.items[0].reminderVersion=Number(qaVersion);
+          response.statusCode=upstream.status;response.setHeader('Content-Type','application/json');response.setHeader('Cache-Control','no-store');response.end(JSON.stringify(data));return;
+        }
+
         if (request.method !== 'GET' || !/^\/(zh|zh-tw|zh-hk|ja|en)\/community\/(activities|series)\/(?!apply\/?$|read\/?$)[-a-z0-9]+\/?$/.test(pathname)) return next();
         try {
           const result = await fetch(new URL('/__local__/render' + pathname, registry.api), { redirect: 'error' });

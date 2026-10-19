@@ -11,7 +11,7 @@ const [chrome, ai, navigation] = await Promise.all(['quietChrome', 'aiChatWidget
   define: { 'import.meta.env': '{}' }, external: ['katex', 'micromark', 'micromark-extension-gfm', 'micromark-extension-math'],
 })));
 
-function tools({ reading = true, navigationMotion = false } = {}) {
+function tools({ reading = true, navigationMotion = false, embedded = false } = {}) {
   const dom = new JSDOM(`<main><h1>Artist</h1><button id="outside">Outside</button></main>
     <details class="tools-dock" data-chrome-menu data-tools-dock ${reading ? 'data-reader-tools' : ''}>
       <summary tabindex="0">Tools</summary><div class="tools-dock__menu">
@@ -26,7 +26,7 @@ function tools({ reading = true, navigationMotion = false } = {}) {
         <div data-ai-launcher><button data-ai-toggle ${reading ? 'data-reader-tool-open="ai"' : ''} aria-expanded="false">AI</button></div>
       </div>
     </details>
-    <aside data-ai-chat data-locale="zh" data-copy="{}" inert>
+    <aside data-ai-chat ${embedded ? 'data-ai-presentation="embedded"' : ''} data-locale="zh" data-copy="{}" inert>
       <button data-ai-scrim>Scrim</button><section data-ai-panel aria-hidden="true">
         <button data-ai-close>Close AI</button><button data-ai-settings-toggle>Settings</button><button data-ai-history-toggle>History</button>
         <div data-ai-settings-popover hidden><button id="setting-option">Auto retrieval</button></div>
@@ -47,6 +47,7 @@ function tools({ reading = true, navigationMotion = false } = {}) {
   w.cancelAnimationFrame = () => {};
   w.setTimeout = fn => { const item = { fn, canceled: false }; timers.push(item); return item; };
   w.clearTimeout = item => { if (item) item.canceled = true; };
+  w.HTMLElement.prototype.getClientRects = function () { return this.closest('[data-ai-chat]')?.classList.contains('is-open') ? [{}] : []; };
   w.fetch = () => { throw new Error('No network or message submission allowed'); };
   w.eval(chrome.outputFiles[0].text);
   w.eval(ai.outputFiles[0].text);
@@ -158,14 +159,15 @@ test('ordinary pages keep AI focus restoration and donation waits for a click', 
   } finally { b.dom.window.close(); }
 });
 
-test('reader composition has four unified external launchers and menus fit safe-area viewport bounds', async () => {
-  const [layout, styles] = await Promise.all(['../src/layouts/BaseLayout.astro', '../src/styles/quietChrome.css'].map(path => readFile(new URL(path, import.meta.url), 'utf8')));
+test('shared layout owns two launchers and dashboard fits safe-area viewport bounds', async () => {
+  const [layout, styles] = await Promise.all(['../src/layouts/BaseLayout.astro', '../src/styles/observerDashboard.css'].map(path => readFile(new URL(path, import.meta.url), 'utf8')));
   assert.match(layout, /<SupportFloat locale=\{lang\} \/>/);
-  assert.match(layout, /<CommunityFloat locale=\{lang\} \/>/);
-  assert.match(layout, /launcher="floating"/);
-  assert.doesNotMatch(layout, /launcher="dock"|<SupportFloat[^>]*docked/);
-  assert.match(styles, /\.tools-dock--reader[\s\S]*env\(safe-area-inset-right\)/);
-  assert.match(styles, /\.tools-dock--reader[\s\S]*100dvw[\s\S]*100dvh[\s\S]*overflow-y: auto/);
+  assert.match(layout, /<ObserverDashboard locale=\{lang\}/);
+  assert.doesNotMatch(layout, /<CommunityFloat|<ToolsDock|<SocialContactWidget|<AiChatWidget/);
+  assert.match(styles, /env\(safe-area-inset-bottom\)/);
+  assert.match(styles, /88dvh/);
+  assert.match(styles, /94dvh/);
+  assert.match(styles, /overflow(?:-y)?:\s*auto/);
 });
 
 test('an externally interrupted menu closing animation does not swallow the first reopening click', async () => {
@@ -209,5 +211,29 @@ test('clicking an open menu again during its closing animation cancels the close
     assert.equal(b.dock.open, true);
     b.$('summary').click(); animations[1].finish(); await Promise.resolve();
     assert.equal(b.dock.open, false, 'a subsequent uninterrupted close still completes normally');
+  } finally { b.dom.window.close(); }
+});
+
+
+test('embedded AI keeps its draft and single instance across panel claims, and returns through its shell', () => {
+  const b = tools({ embedded: true });
+  try {
+    const root = b.$('[data-ai-chat]'), input = b.$('[data-ai-input]');
+    let section, claims = 0;
+    b.w.addEventListener('wiki-dashboard-section', e => { section = e.detail.section; });
+    b.w.addEventListener('wiki-floating-panel', () => { claims++; });
+    root.dispatchEvent(new b.w.CustomEvent('ai-widget:open')); b.flushTimers();
+    input.value = 'Keep this observer draft';
+    root.hidden = true;
+    b.w.dispatchEvent(new b.w.CustomEvent('wiki-floating-panel', { detail: { id: 'support' } }));
+    root.hidden = false;
+    root.dispatchEvent(new b.w.CustomEvent('ai-widget:open')); b.flushTimers();
+    assert.equal(input.value, 'Keep this observer draft');
+    assert.equal(b.document.querySelectorAll('[data-ai-chat]').length, 1);
+    assert.equal(claims, 1, 'embedded AI never claims another floating panel');
+    assert.equal(root.classList.contains('is-open'), true);
+    b.$('[data-ai-close]').click();
+    assert.equal(section, 'overview');
+    assert.equal(input.value, 'Keep this observer draft');
   } finally { b.dom.window.close(); }
 });

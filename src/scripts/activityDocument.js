@@ -7,7 +7,7 @@ import 'photoswipe/style.css';
 export async function enhanceActivityDocument(root){
  if(!root||root.dataset.communityDocument!=='activity'||root.dataset.communityUnavailable==='true'||root.dataset.enhanced)return;
  const id=root.dataset.communityId||new URLSearchParams(location.search).get('id');if(!id)return;
- const locale=root.dataset.locale,base=root.dataset.api,c=activityCopy(locale),entry=['home','center','floating'].includes(new URLSearchParams(location.search).get('entry'))?new URLSearchParams(location.search).get('entry'):'detail';
+ const locale=root.dataset.locale,base=root.dataset.api,c=activityCopy(locale),entry=['home','center','floating','dashboard'].includes(new URLSearchParams(location.search).get('entry'))?new URLSearchParams(location.search).get('entry'):'detail';
  try{
   const r=await fetch(activityBase(base)+'/api/activity-center/community/items/'+encodeURIComponent(id),{credentials:'omit',headers:{Accept:'application/json'},signal:AbortSignal.timeout(10000)});if(!r.ok)return;const {activity:item}=await r.json();item.source='community';
   const content=root.querySelector('[data-community-content]'),body=content?.querySelector('.community-detail-body'),facts=content?.querySelector('.community-facts');if(!body||!facts)return;

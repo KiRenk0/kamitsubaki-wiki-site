@@ -34,7 +34,11 @@ test('AI chat widget receives copy from BaseLayout content lookup', async () => 
   assert.match(layout, /getCollection\('site'\)/);
   assert.match(layout, /getLocalizedSite\(siteEntries,\s*lang\)/);
   assert.match(layout, /siteContent\?\.aiChat/);
-  assert.match(layout, /<AiChatWidget lang=\{lang\} copy=\{aiChatCopy\}/);
+  assert.match(layout, /<ObserverDashboard locale=\{lang\}[\s\S]*aiCopy=\{aiChatCopy\}/);
+  const dashboard = await readProjectFile('../src/components/ObserverDashboard.astro');
+  assert.equal((dashboard.match(/<AiChatWidget/g) || []).length, 1);
+  assert.match(dashboard, /presentation="embedded"/);
+  assert.doesNotMatch(layout, /<AiChatWidget/);
 });
 
 test('AI chat keeps the production Worker fallback when Pages build variables are absent', async () => {

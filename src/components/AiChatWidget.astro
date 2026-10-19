@@ -50,8 +50,8 @@ type AiChatCopy = {
   quickPrompts: string[];
 };
 
-const { lang = 'zh', copy, launcher = 'floating', showPanel = true } = Astro.props as {
-  lang?: string; copy: AiChatCopy; launcher?: 'floating' | 'dock' | 'none'; showPanel?: boolean;
+const { lang = 'zh', copy, launcher = 'floating', showPanel = true, presentation = 'floating', backLabel = '' } = Astro.props as {
+  lang?: string; copy: AiChatCopy; launcher?: 'floating' | 'dock' | 'none'; showPanel?: boolean; presentation?: 'floating' | 'embedded'; backLabel?: string;
 };
 const languageTag = getLanguageTag(lang);
 const normalizedCopy = {
@@ -110,7 +110,8 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
 </div>}
 
 {showPanel && <aside
-  class="ai-chat fixed inset-0 z-50 font-mono"
+  class:list={['ai-chat font-mono',presentation==='embedded'?'ai-chat--embedded':'fixed inset-0 z-50']}
+  data-ai-presentation={presentation}
   data-ai-chat
   data-api-base={apiBase}
   data-locale={lang}
@@ -119,12 +120,12 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
   aria-label={copy.title}
   inert
 >
-  <WorkspaceButton
+  {presentation!=='embedded'&&<WorkspaceButton
     class="ai-chat__scrim"
     type="button"
     data-ai-scrim
     aria-label={copy.closeLabel}
-  ></WorkspaceButton>
+  ></WorkspaceButton>}
 
   <section class="ai-chat__panel" data-ai-panel aria-hidden="true">
     <div class="ai-chat__hud-grid"></div>
@@ -142,8 +143,8 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
         <WorkspaceButton class="ai-chat__icon-btn" type="button" data-ai-settings-toggle aria-expanded="false" aria-label={normalizedCopy.settingsLabel}>
           <Icon name="sliders-horizontal" />
         </WorkspaceButton>
-        <WorkspaceButton class="ai-chat__icon-btn ai-chat__icon-btn--close" type="button" data-ai-close aria-label={copy.closeLabel}>
-          <Icon name="x" />
+        <WorkspaceButton class="ai-chat__icon-btn ai-chat__icon-btn--close" type="button" data-ai-close aria-label={presentation==='embedded'?backLabel:copy.closeLabel}>
+          <Icon name={presentation==='embedded'?'arrow-left':'x'} />
         </WorkspaceButton>
       </div>
 
@@ -248,5 +249,6 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
 </aside>}
 
 <script>
-  import '../scripts/aiChatWidget.js';
+  // The embedded controller is imported only when the dashboard AI tab is used.
+  if(document.querySelector('[data-ai-chat]:not([data-ai-presentation=embedded])'))void import('../scripts/aiChatWidget.js');
 </script>

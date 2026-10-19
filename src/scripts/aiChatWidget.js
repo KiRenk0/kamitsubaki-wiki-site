@@ -206,6 +206,10 @@ function normalizeCopy(root) {
 }
 
 function setExpanded(root, expanded, restoreFocus = true) {
+  if(root.dataset.aiPresentation==='embedded'){
+    root.classList.toggle('is-open',expanded);root.inert=!expanded;root.querySelector('[data-ai-panel]')?.setAttribute('aria-hidden',String(!expanded));
+    if(!expanded){toggleSettings(root,false);window.dispatchEvent(new CustomEvent('wiki-dashboard-section',{detail:{section:'overview'}}));}return;
+  }
   if(expanded)claimFloatingPanel('ai');
   const launcher = document.querySelector('[data-ai-launcher]');
   const wasExpanded = root.classList.contains('is-open');
@@ -998,7 +1002,8 @@ function consumeAuthResult() {
 }
 
 function initWidget(root) {
-  onFloatingPanelChange(id=>{if(id!=='ai'&&root.classList.contains('is-open'))setExpanded(root,false,false);});
+  if(root.dataset.aiControllerReady)return;root.dataset.aiControllerReady='true';
+  onFloatingPanelChange(id=>{if(root.dataset.aiPresentation!=='embedded'&&id!=='ai'&&root.classList.contains('is-open'))setExpanded(root,false,false);});
   const copy = normalizeCopy(root);
   const toggle = document.querySelector('[data-ai-toggle]');
   const close = root.querySelector('[data-ai-close]');
@@ -1045,7 +1050,7 @@ function initWidget(root) {
     if(!presentation.getSnapshot().messages.length)createMessage(root,'assistant',copy.greeting||'',root.dataset.locale);
     const composer=root.querySelector('.ai-chat__composer');
     presentation.ui=await runtime.mountChat(messages,composer,{getSnapshot:presentation.getSnapshot,subscribe:presentation.subscribe,variant:'wiki',renderMarkdown:text=>renderMarkdown(text,root.dataset.locale),copy:{placeholder:copy.inputPlaceholder,send:copy.sendLabel,stop:copy.cancelLabel||'Stop',sources:convertAiResponseText('引用',root.dataset.locale),thinking:copy.thinkingPhrases||[copy.bubbleThinking||copy.status||'…'],retry:copy.retry||'Retry'},retry:()=>ensureWidgetReady().catch(showLoadError),initialDraft:input.value,inputAttributes:{'data-ai-input':'',id:'ai-chat-input'},onInputReady:element=>{input=element;},send:text=>{input.value=text;form.requestSubmit();},cancel:()=>widgetRequests.get(root)?.abort()});
-    window.addEventListener('pagehide',()=>presentation.ui?.destroy(),{once:true});
+    window.addEventListener('pagehide',event=>{if(!event.persisted)presentation.ui?.destroy();});
   }).catch(error=>{componentFlight=null;throw error;});
 
   const ensureWidgetReady = () => {
@@ -1084,7 +1089,7 @@ function initWidget(root) {
   const openPanel = () => {
     setExpanded(root, true);
     window.setTimeout(() => {
-      if (root.classList.contains('is-open')) input.focus();
+      if (root.classList.contains('is-open')&&root.getClientRects().length) input.focus();
     }, 160);
     ensureWidgetReady().catch(showLoadError);
   };
@@ -1105,9 +1110,8 @@ function initWidget(root) {
     if (isReady) bootstrap(root).catch(() => {});
   });
 
-  toggle.addEventListener('click', () => {
-    openPanel();
-  });
+  if(root.dataset.aiPresentation==='embedded')root.addEventListener('ai-widget:open',openPanel);
+  else toggle.addEventListener('click',openPanel);
 
   close.addEventListener('click', () => setExpanded(root, false));
   scrim?.addEventListener('click', () => setExpanded(root, false));
@@ -1128,7 +1132,7 @@ function initWidget(root) {
       historyToggle?.focus({ preventScroll: true });
       return;
     }
-    setExpanded(root, false);
+    if(root.dataset.aiPresentation==='embedded')window.dispatchEvent(new CustomEvent('wiki-dashboard-close'));else setExpanded(root,false);
   });
   settingsToggle?.addEventListener('click', () => {
     const popover = root.querySelector('[data-ai-settings-popover]');
@@ -1416,5 +1420,5 @@ function initWidget(root) {
 widgets.forEach(initWidget);
 window.addEventListener('kamitsubaki-account-state',()=>{
   if(!['user','guest'].includes(centralAccountState.auth))return;
-  for(const root of widgets){const id=centralAccountState.viewer?.userId||'',copy=normalizeCopy(root),viewer=centralAccountState.viewer||{kind:'anonymous'};if(root.dataset.viewerId===id){updateAuthState(root,copy,viewer);continue;}widgetRequests.get(root)?.abort();widgetRequests.delete(root);root.dataset.accountGeneration=String(widgetRevision(root)+1);root.dataset.currentThreadId='';delete root.dataset.turnstileToken;const input=root.querySelector('[data-ai-input]');if(input){input.value='';input.style.height='auto';}hideChallengeTray(root);setThinking(root,copy,false);clearMessages(root);renderThreadList(root,[]);updateAuthState(root,copy,viewer);void bootstrap(root).catch(()=>{});}
+  for(const root of widgets){const id=centralAccountState.viewer?.userId||'',copy=normalizeCopy(root),viewer=centralAccountState.viewer||{kind:'anonymous'};if(root.dataset.viewerId===id){updateAuthState(root,copy,viewer);continue;}widgetRequests.get(root)?.abort();widgetRequests.delete(root);root.dataset.accountGeneration=String(widgetRevision(root)+1);root.dataset.currentThreadId='';delete root.dataset.turnstileToken;const input=root.querySelector('[data-ai-input]');if(input){input.value='';input.style.height='auto';}chatPresentationStore(root).setDraft('');hideChallengeTray(root);setThinking(root,copy,false);clearMessages(root);renderThreadList(root,[]);updateAuthState(root,copy,viewer);void bootstrap(root).catch(()=>{});}
 });
