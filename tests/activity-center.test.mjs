@@ -34,3 +34,21 @@ test('failed reads only recover the exact query cache and never swallow a cancel
   await assert.rejects(getActivities('https://api.example',{source:'official',q:'KAF'}),e=>e.name==='AbortError');
  }finally{globalThis.fetch=originalFetch;if(oldStorage===undefined)delete globalThis.localStorage;else globalThis.localStorage=oldStorage;}
 });
+
+test('detail presentation keeps full artwork, original text, one title and reachable section navigation',async()=>{
+ const {JSDOM}=await import('jsdom'),{activityDetailMarkup}=await import('../src/lib/activityPresentation.mjs');
+ for(const locale of ['zh','zh-tw','zh-hk','ja','en']){
+  const c=activityCopy(locale),item={title:'A < B & "C"',poster:'https://images.example/full.png',status:'upcoming',schedule:{kind:'allDay',timeZone:'Pacific/Honolulu',startDate:'2026-10-31',endDate:'2026-11-02'},links:[{label:'Join',url:'https://example.org/join',primary:true}],media:[]};
+  const dom=new JSDOM(activityDetailMarkup(item,{locale,copy:c,bodyHtml:'<h2>参与方式</h2><p>Original <em>body</em>.</p><h2>注意事项</h2><p>Keep this notice.</p>',factsHtml:'<dl class="community-facts"><dt>Deadline</dt><dd>2026-10-26</dd></dl>',creditHtml:'<p class="community-image-credit">Creator ©</p>'})),d=dom.window.document;
+  assert.equal(d.querySelectorAll('h1').length,1);assert.equal(d.querySelector('h1').textContent,item.title);assert.equal(d.querySelector('.activity-poster-open').href,item.poster);assert.equal(d.querySelector('.community-detail-body p').innerHTML,'Original <em>body</em>.');assert.ok(d.body.textContent.includes('Creator ©'));
+  for(const a of d.querySelectorAll('.activity-document-nav a'))assert.ok(d.querySelector(a.hash),a.hash);
+  assert.match(d.querySelector('.activity-detail-essentials').textContent,/2026-10-31 – 2026-11-02/);assert.equal(d.querySelector('.activity-primary').href,'https://example.org/join');dom.window.close();
+ }
+});
+test('primary participation respects validity windows and cancellation without dropping secondary links',async()=>{
+ const {participationLinks,activityDetailMarkup}=await import('../src/lib/activityPresentation.mjs'),{JSDOM}=await import('jsdom'),now=Date.parse('2026-10-20T12:00Z');
+ const item={title:'Undated',links:[{primary:true,url:'https://example.org/expired',endsAt:'2026-10-19T12:00Z'},{role:'registration',url:'https://example.org/future',startsAt:'2026-10-21T12:00Z'},{role:'live',url:'https://example.org/live'},{primary:true,url:'javascript:alert(1)'}]};
+ assert.equal(participationLinks(item,now).primary.url,'https://example.org/live');
+ const cancelled={...item,eventStatus:'cancelled'};assert.equal(participationLinks(cancelled,now).primary,null);
+ const dom=new JSDOM(activityDetailMarkup(cancelled,{locale:'en',copy:activityCopy('en'),now}));assert.equal(dom.window.document.querySelector('.activity-primary'),null);assert.equal(dom.window.document.querySelector('figure'),null);assert.equal(dom.window.document.querySelector('a[href^="javascript:"]'),null);assert.ok(dom.window.document.querySelector('a[href="https://example.org/live"]'));dom.window.close();
+});

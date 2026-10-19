@@ -7,7 +7,7 @@ import {activityCopy} from '../../../../lib/activityCopy.mjs';
 export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
 const locale=Astro.params.locale||'zh',c=activityCopy(locale);
 ---
-<WorkspaceLayout locale={locale} title={c.title} intro={c.intro} path="/community/activities/" eyebrow="ACTIVITY CENTER" backHref={`/${locale}/`} backLabel={c.back} width="wide">
+<WorkspaceLayout locale={locale} title={c.title} intro={c.intro} path="/community/activities/" backHref={`/${locale}/`} backLabel={c.back} width="wide">
  <WorkspaceButton slot="actions" href={`/${locale}/community/activities/apply/`} tone="primary">{c.apply}</WorkspaceButton>
  <ActivityCenter locale={locale} source="community" />
 </WorkspaceLayout>

@@ -15,13 +15,13 @@ import {activityBase,activityCard,activityHref,getActivities,element,scheduleTex
 export function initActivityCenter(root){
  if(!root||root.dataset.mounted)return;root.dataset.mounted='true';
  const c=JSON.parse(root.dataset.copy),locale=root.dataset.locale,base=root.dataset.api,$=s=>root.querySelector(s),form=$('[data-activity-filters]'),keys=['month','q','artist','country','subdivisionCode','cityId','city','mode','category'];
- const today=()=>new Intl.DateTimeFormat('en-CA',{year:'numeric',month:'2-digit',day:'2-digit',timeZone:root.dataset.source==='official'?'Asia/Tokyo':Intl.DateTimeFormat().resolvedOptions().timeZone}).format(new Date());
+ const today=(source=state.source||root.dataset.source)=>new Intl.DateTimeFormat('en-CA',{year:'numeric',month:'2-digit',day:'2-digit',timeZone:source==='official'?'Asia/Tokyo':Intl.DateTimeFormat().resolvedOptions().timeZone}).format(new Date());
  let state={},data={items:[],points:[],undated:[]},renderedKey='',artistStop=()=>{},controller,generation=0,searchTimer,disposed=false,stopObserving=()=>{};
  const memory={};let artistPicker;
  const picker=createCommunityLocationPicker(form,{apiBase:base,locale,copy:c,filters:true,onChange:()=>{if(state.source==='community')changed();}});
  mountFilterPopover($('[data-activity-filter-details]'));
  const read=()=>{const p=new URLSearchParams(location.search),source=['official','community'].includes(p.get('source'))?p.get('source'):root.dataset.source;
-  state={source,month:/^\d{4}-(0[1-9]|1[0-2])$/.test(p.get('month')||'')?p.get('month'):today().slice(0,7),view:['calendar','agenda'].includes(p.get('view'))?p.get('view'):matchMedia('(max-width:760px)').matches?'agenda':'calendar',range:['next','deadline'].includes(p.get('range'))?p.get('range'):'month',date:p.get('date')||'',deadlines:p.get('deadlines')!=='0'};
+  state={source,month:/^\d{4}-(0[1-9]|1[0-2])$/.test(p.get('month')||'')?p.get('month'):today(source).slice(0,7),view:['calendar','agenda'].includes(p.get('view'))?p.get('view'):matchMedia('(max-width:760px)').matches?'agenda':'calendar',range:['next','deadline'].includes(p.get('range'))?p.get('range'):'month',date:p.get('date')||'',deadlines:p.get('deadlines')!=='0'};
   for(const key of keys){const n=form.elements.namedItem(key),value=key==='month'?state.month:p.get(key)||'';if(n.tagName==='SELECT'&&value&&![...n.options].some(o=>o.value===value))n.add(new Option(value,value));n.value=value;}
   $('[data-activity-deadlines]').checked=state.deadlines;artistPicker?.setValue(form.elements.artist.value,true);picker.set(Object.fromEntries(['country','subdivisionCode','cityId','city'].map(k=>[k,form.elements[k].value]))).catch(()=>{});
  };
@@ -89,7 +89,7 @@ export function initActivityCenter(root){
  $('[data-activity-clear]').onclick=()=>{for(const key of keys.filter(k=>k!=='month'))form.elements.namedItem(key).value='';artistPicker?.clear(true);picker.set({});changed();};
  $('[data-activity-day-close]').onclick=()=>{state.date='';sync();$('[data-activity-day]').hidden=true;};
  $('[data-activity-copy-subscription]').onclick=async()=>{try{await navigator.clipboard.writeText($('[data-activity-subscribe]').dataset.url);$('[data-activity-status]').textContent=c.copied;}catch{$('[data-activity-status]').textContent=$('[data-activity-subscribe]').dataset.url;}};
- const back=()=>{root.dataset.source=location.pathname.includes('/community/')?'community':'official';read();void load();};window.addEventListener('popstate',back);
+ const back=()=>{root.dataset.source='community';read();void load();};window.addEventListener('popstate',back);
  read();calendar.render();
  // Native prev/next updates the query and fetches the corresponding source range.
  calendar.on('datesSet',info=>{if(disposed||state.range!=='month')return;const month=calendar.getDate().toISOString().slice(0,7);if(month!==state.month){state.month=month;form.elements.month.value=month;state.date='';sync();void load();}});

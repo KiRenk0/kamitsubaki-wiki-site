@@ -11,7 +11,7 @@ const {locale='zh'}=Astro.props,c=activityCopy(locale),api=import.meta.env.PUBLI
  <div class="community-float__backdrop" data-community-backdrop hidden></div>
  <section class="community-float__panel" id="community-float-panel" data-community-panel role="dialog" aria-label={c.title} aria-modal="false" hidden inert tabindex="-1">
   <header><h2>{c.title}</h2><WorkspaceButton tone="quiet" data-community-close aria-label={c.close}><Icon name="x"/></WorkspaceButton></header>
-  <nav class="activity-tabs" aria-label={c.title}><WorkspaceButton data-float-source="official" aria-pressed="true">{c.officialTab}</WorkspaceButton><WorkspaceButton data-float-source="community" aria-pressed="false">{c.communityTab}</WorkspaceButton></nav>
+  <nav class="activity-tabs" aria-label={c.title}><WorkspaceButton data-float-source="community" aria-pressed="true">{c.communityTab}</WorkspaceButton><WorkspaceButton data-float-source="official" aria-pressed="false">{c.officialTab}</WorkspaceButton></nav>
   <div class="community-float__scroll" data-community-float-body><p data-community-float-status role="status">{c.loading}</p><WorkspaceButton data-community-float-retry hidden>{c.retry}</WorkspaceButton><div class="community-card-grid" data-community-float-cards></div></div>
   <footer><WorkspaceButton data-float-calendar href={`/${locale}/events/`} tone="primary">{c.viewCalendar}<Icon name="arrow-right"/></WorkspaceButton><WorkspaceButton href={`/${locale}/community/activities/apply/`}>{c.apply}</WorkspaceButton></footer>
  </section>
@@ -25,7 +25,7 @@ const {locale='zh'}=Astro.props,c=activityCopy(locale),api=import.meta.env.PUBLI
  .community-float__panel h2{font:400 22px/1.5 var(--font-serif);margin:0}.community-float__panel [data-community-close]{width:44px;min-width:44px;padding:8px}
  .community-float__scroll{padding:20px;min-height:0;overflow:auto;overscroll-behavior:contain}
  .community-float__scroll>p{font:13px/1.8 var(--font-sans);color:var(--ui-color-muted);margin:0}.community-float__scroll>p:empty{display:none}
- .community-float .community-card-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:0}
+ .community-float .community-card-grid{grid-template-columns:1fr;gap:16px;margin:0}
  .community-float .community-card__copy{padding:12px 14px}.community-float .community-card h3{font-size:14px}.community-float .community-card p{font-size:12px}
  .community-float__panel>footer{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:14px 20px;border-top:1px solid rgb(var(--theme-fg-rgb)/.12);background:var(--theme-bg)}
  .community-float footer .workspace-button.dui-btn{font-size:13px;line-height:1.6}.community-float footer svg{width:16px;height:16px;flex:none}

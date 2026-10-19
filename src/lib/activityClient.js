@@ -1,14 +1,11 @@
+import {scheduleText} from './activityPresentation.mjs';
+export {scheduleText} from './activityPresentation.mjs';
 import {formatCommunityLocation} from './communityLocationFormat.mjs';
 import {contentText} from './communityClient.js';
 
 export const activityBase=value=>String(value||'https://api.kamitsubaki.wiki').replace(/\/$/,'');
 export const activityHref=(item,locale,entry='')=>item.source==='official'?item.sourceUrl:`/${locale}/community/activities/${encodeURIComponent(item.id)}/`+(entry?'?entry='+encodeURIComponent(entry):'');
 export const element=(tag,text,className)=>{const n=document.createElement(tag);if(text!=null)n.textContent=text;if(className)n.className=className;return n;};
-export function scheduleText(item,locale,copy,{local=false}={}){
- const s=item.schedule;if(!s||s.kind==='undated')return copy.undated;
- if(s.kind==='allDay')return s.startDate+(s.endDate&&s.endDate!==s.startDate?' – '+s.endDate:'')+' · '+copy.allDay;
- try{const format=value=>new Intl.DateTimeFormat(locale,{dateStyle:'medium',timeStyle:'short',...(local?{}:{timeZone:s.timeZone})}).format(new Date(value));return format(s.startAt)+(s.endAt?' – '+format(s.endAt):' · '+copy.endUnknown)+' · '+(local?copy.localTime:s.timeZone);}catch{return copy.undated;}
-}
 export function nextDeadline(item,locale,copy,now=Date.now()){
  const dayInZone=zone=>new Intl.DateTimeFormat('en-CA',{timeZone:zone||'UTC',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(now));
  const list=(item.deadlines||[]).filter(d=>d.schedule?.kind==='timed'?Date.parse(d.schedule.startAt)>now:d.schedule?.startDate>=dayInZone(d.schedule?.timeZone)).sort((a,b)=>(a.schedule.startAt||a.schedule.startDate).localeCompare(b.schedule.startAt||b.schedule.startDate));
@@ -40,15 +37,15 @@ export function activityCard(item,{locale,copy,base,placement='center',compact=f
  const card=element('article',null,'activity-card'+(compact?' activity-card--compact':''));card.dataset.activityId=item.id;card.dataset.activitySource=item.source||'community';
  const href=activityHref(item,locale,placement),link=element('a',null,'activity-card__link');if(href)link.href=href;
  if(item.source==='official'){link.target='_blank';link.rel='noopener noreferrer';}
- if(item.poster){const img=element('img');img.src=item.poster;img.alt=contentText(item.title,item,locale);img.loading='lazy';link.append(img);}
- const body=element('div',null,'activity-card__body'),source=element('span',item.source==='official'?copy.officialTab:copy.communityTab,'community-badge');
- body.append(source,element('h3',contentText(item.title,item,locale)),element('p',scheduleText(item,locale,copy),'activity-date'));
+ if(item.poster){const art=element('div',null,'activity-card__art'),img=element('img');img.src=item.poster;img.alt=contentText(item.title,item,locale);img.loading='lazy';art.append(img);link.append(art);card.classList.add('activity-card--poster');}
+ const body=element('div',null,'activity-card__body');
+ body.append(element('p',scheduleText(item,locale,copy),'activity-date'),element('h3',contentText(item.title,item,locale)));
  if(item.schedule?.kind==='timed')body.append(element('p',scheduleText(item,locale,copy,{local:true}),'activity-local'));
  const location=item.source==='official'?[item.artist,item.location].filter(Boolean).join(' · '):[copy[item.mode],formatCommunityLocation(item,locale)].filter(Boolean).join(' · ');if(location)body.append(element('p',location));
- const status=copy[item.status]||item.status;if(status)body.append(element('span',status,'community-badge'));if(item.cooperation)body.append(element('span',copy.cooperation,'community-badge'));
+ const status=copy[item.status]||item.status;if(status)body.append(element('span',status,'activity-card__status'));if(item.cooperation)body.append(element('span',copy.cooperation,'community-badge'));
  const deadline=nextDeadline(item,locale,copy);if(deadline)body.append(element('p',deadline,'activity-deadline'));
  if(!compact&&item.summary)body.append(element('p',contentText(item.summary,item,locale),'activity-card__summary'));
  link.append(body);link.addEventListener('click',()=>{if(item.source==='official')trackActivity(base,item,placement,'outbound');});card.append(link);
- const actions=element('div',null,'activity-card__actions'),share=element('button',copy.share,'workspace-button dui-btn dui-btn-ghost');share.type='button';share.dataset.uiKit='';share.onclick=async()=>{const {copyActivity}=await import('./activityShare.js');await copyActivity(item,{locale,copy,base,placement},share);};actions.append(share);
- const exported=element('a',copy.exportCalendar,'workspace-button dui-btn dui-btn-ghost');exported.dataset.uiKit='';exported.href=activityBase(base)+(item.source==='official'?'/api/activity-center/official/items/':'/api/community-activities/items/')+encodeURIComponent(item.id)+'/calendar.ics?locale='+locale;exported.onclick=()=>trackActivity(base,item,placement,'export');if(item.schedule?.kind!=='undated')actions.append(exported);card.append(actions);return card;
+ const actions=element('div',null,'activity-card__actions'),share=element('button',copy.shareShort,'activity-text-action');share.type='button';share.dataset.uiKit='';share.onclick=async()=>{const {copyActivity}=await import('./activityShare.js');await copyActivity(item,{locale,copy,base,placement},share);};actions.append(share);
+ const exported=element('a',copy.calendarShort,'activity-text-action');exported.dataset.uiKit='';exported.href=activityBase(base)+(item.source==='official'?'/api/activity-center/official/items/':'/api/community-activities/items/')+encodeURIComponent(item.id)+'/calendar.ics?locale='+locale;exported.onclick=()=>trackActivity(base,item,placement,'export');if(item.schedule?.kind!=='undated')actions.append(exported);card.append(actions);return card;
 }

@@ -43,8 +43,8 @@ const metadata = {
     />
 
     <WorkspaceShell width="wide" class="events-page__main">
-      <WorkspaceHeader title={centerCopy.title} intro={centerCopy.intro} eyebrow={copy.eyebrow} backHref={`/${localeCode}/`} backLabel={copy.backHomeLabel}><WorkspaceButton slot="actions" class="workspace-button" href={`/${localeCode}/community/activities/`}>{communityCopy(localeCode).board}</WorkspaceButton></WorkspaceHeader>
-      <ActivityCenter locale={localeCode} source="official" />
+      <WorkspaceHeader title={centerCopy.title} intro={centerCopy.intro} backHref={`/${localeCode}/`} backLabel={copy.backHomeLabel}><WorkspaceButton slot="actions" class="workspace-button" href={`/${localeCode}/community/activities/apply/`}>{communityCopy(localeCode).apply}</WorkspaceButton></WorkspaceHeader>
+      <ActivityCenter locale={localeCode} source="community" />
     </WorkspaceShell>
 
     <SiteFooter footer={homeContent.footer} />
