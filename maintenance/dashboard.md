@@ -4,7 +4,7 @@
 
 ## 内容与排期
 
-总览先展示最多两条观测者企划，再展示公告和最多两条官方活动。首条企划保留完整海报比例，第二条紧凑展示；没有活动时收起对应区域。官方信息直接链接来源原文。活动读取 `/api/activity-center?recommend=1&placement=dashboard`：后端合并原 home、floating 的精选及自动补位资格、去重并保持排序，原运营记录不改写。center 投放仍独立。效果报表位置为「观测面板」，原首页及浮窗汇总继续保留。
+总览先展示最多两条观测者企划，再展示公告和最多两条官方活动。首条企划按图片真实比例排版：竖版与方形图文并列，横版独占宽幅；海报完整缩放并限制高度，超长图使用可滚动预览；可通过「查看完整海报」调用已有 PhotoSwipe 放大。第二条紧凑展示；没有活动时收起对应区域。官方信息直接链接来源原文。活动读取 `/api/activity-center?recommend=1&placement=dashboard`：后端合并原 home、floating 的精选及自动补位资格、去重并保持排序，原运营记录不改写。center 投放仍独立。效果报表位置为「观测面板」，原首页及浮窗汇总继续保留。
 
 公告继续在 `src/content/announcements` 发布，使用现有 translationKey、pinned、autoOpen、order。新增正整数 reminderVersion，默认1；仅在重要修订确实需要再次提醒时由编辑者递增，普通文字修正保持版本。提醒使用 translationKey 与 reminderVersion，不随语言切换重复触发。只有当前精选同时启用 pinned 和 autoOpen 才是重要提醒。原公告历史页与锚点不变。
 

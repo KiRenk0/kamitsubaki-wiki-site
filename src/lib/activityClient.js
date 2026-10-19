@@ -2,6 +2,7 @@ import {scheduleText} from './activityPresentation.mjs';
 export {scheduleText} from './activityPresentation.mjs';
 import {formatCommunityLocation} from './communityLocationFormat.mjs';
 import {contentText} from './communityClient.js';
+import {adaptActivityPoster,openActivityPoster} from './activityPoster.mjs';
 
 export const activityBase=value=>String(value||'https://api.kamitsubaki.wiki').replace(/\/$/,'');
 export const activityHref=(item,locale,entry='')=>item.source==='official'?item.sourceUrl:`/${locale}/community/activities/${encodeURIComponent(item.id)}/`+(entry?'?entry='+encodeURIComponent(entry):'');
@@ -33,11 +34,12 @@ export function observeActivities(root,base,placement){
  const timers=new Map(),observer=new IntersectionObserver(entries=>{for(const entry of entries){const n=entry.target,key=placement+':'+n.dataset.activitySource+':'+n.dataset.activityId;if(!entry.isIntersecting||entry.intersectionRatio<.5||document.hidden){clearTimeout(timers.get(n));timers.delete(n);continue;}if(seenImpressions.has(key)||timers.has(n))continue;timers.set(n,setTimeout(()=>{timers.delete(n);if(document.hidden||!n.isConnected)return;seenImpressions.add(key);trackActivity(base,{source:n.dataset.activitySource,id:n.dataset.activityId},placement,'impression');observer.unobserve(n);},1000));}},{threshold:[0,.5]});
  const observe=()=>nodes.forEach(n=>observer.observe(n));const visibility=()=>{for(const timer of timers.values())clearTimeout(timer);timers.clear();observer.disconnect();if(!document.hidden)observe();};observe();document.addEventListener('visibilitychange',visibility);const stop=()=>{observer.disconnect();for(const timer of timers.values())clearTimeout(timer);document.removeEventListener('visibilitychange',visibility);};document.addEventListener('astro:before-swap',stop,{once:true});return stop;
 }
-export function activityCard(item,{locale,copy,base,placement='center',compact=false}){
+export function activityCard(item,{locale,copy,base,placement='center',compact=false,featured=false}){
  const card=element('article',null,'activity-card'+(compact?' activity-card--compact':''));card.dataset.activityId=item.id;card.dataset.activitySource=item.source||'community';
  const href=activityHref(item,locale,placement),link=element('a',null,'activity-card__link');if(href)link.href=href;
  if(item.source==='official'){link.target='_blank';link.rel='noopener noreferrer';}
- if(item.poster){const art=element('div',null,'activity-card__art'),img=element('img');img.src=item.poster;img.alt=contentText(item.title,item,locale);img.loading='lazy';art.append(img);link.append(art);card.classList.add('activity-card--poster');}
+ let poster;
+ if(item.poster){const art=element('div',null,'activity-card__art'),frame=element('div',null,'activity-poster-scroll');poster=element('img');poster.alt=contentText(item.title,item,locale);poster.loading='lazy';poster.decoding='async';adaptActivityPoster(poster,card,{onError:()=>{art.remove();card.classList.remove('activity-card--poster');card.querySelector('[data-activity-poster-open]')?.remove();}});poster.src=item.poster;frame.append(poster);art.append(frame,element('span',copy.longPoster,'activity-poster-scroll-hint'));link.append(art);card.classList.add('activity-card--poster');}
  const body=element('div',null,'activity-card__body');
  body.append(element('p',scheduleText(item,locale,copy),'activity-date'),element('h3',contentText(item.title,item,locale)));
  if(item.schedule?.kind==='timed')body.append(element('p',scheduleText(item,locale,copy,{local:true}),'activity-local'));
@@ -45,7 +47,15 @@ export function activityCard(item,{locale,copy,base,placement='center',compact=f
  const status=copy[item.status]||item.status;if(status)body.append(element('span',status,'activity-card__status'));if(item.cooperation)body.append(element('span',copy.cooperation,'community-badge'));
  const deadline=nextDeadline(item,locale,copy);if(deadline)body.append(element('p',deadline,'activity-deadline'));
  if(!compact&&item.summary)body.append(element('p',contentText(item.summary,item,locale),'activity-card__summary'));
- link.append(body);link.addEventListener('click',()=>{if(item.source==='official')trackActivity(base,item,placement,'outbound');});card.append(link);
+ if(featured){
+  card.classList.add('dashboard-featured-project');
+  const heading=element('div',null,'dashboard-project-heading'),meta=element('div',null,'dashboard-project-meta');
+  heading.append(body.querySelector('h3'),body.querySelector('.activity-date'),element('span',copy.details,'dashboard-project-cta'));
+  meta.append(...body.childNodes);link.append(heading,meta);
+ }else link.append(body);
+ link.addEventListener('click',()=>{if(item.source==='official')trackActivity(base,item,placement,'outbound');});card.append(link);
  const actions=element('div',null,'activity-card__actions'),share=element('button',copy.shareShort,'activity-text-action');share.type='button';share.dataset.uiKit='';share.onclick=async()=>{const {copyActivity}=await import('./activityShare.js');await copyActivity(item,{locale,copy,base,placement},share);};actions.append(share);
- const exported=element('a',copy.calendarShort,'activity-text-action');exported.dataset.uiKit='';exported.href=activityBase(base)+(item.source==='official'?'/api/activity-center/official/items/':'/api/community-activities/items/')+encodeURIComponent(item.id)+'/calendar.ics?locale='+locale;exported.onclick=()=>trackActivity(base,item,placement,'export');if(item.schedule?.kind!=='undated')actions.append(exported);card.append(actions);return card;
+ const exported=element('a',copy.calendarShort,'activity-text-action');exported.dataset.uiKit='';exported.href=activityBase(base)+(item.source==='official'?'/api/activity-center/official/items/':'/api/community-activities/items/')+encodeURIComponent(item.id)+'/calendar.ics?locale='+locale;exported.onclick=()=>trackActivity(base,item,placement,'export');if(item.schedule?.kind!=='undated')actions.append(exported);
+ if(poster){const zoom=element('button',copy.viewPoster,'activity-text-action');zoom.type='button';zoom.dataset.uiKit='';zoom.dataset.activityPosterOpen='';zoom.disabled=!poster.complete||!poster.naturalWidth;poster.addEventListener('load',()=>{zoom.disabled=false;});zoom.onclick=async event=>{try{await openActivityPoster(poster,zoom,{closeLabel:copy.closePoster,zoomLabel:copy.viewPoster,keyboard:event.detail===0});}catch{zoom.textContent=copy.retry;}};actions.append(zoom);}
+ card.append(actions);return card;
 }

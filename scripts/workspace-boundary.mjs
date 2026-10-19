@@ -1,4 +1,5 @@
 import { workspaceAccountRegistry } from '../src/lib/centralAccountOrigins.mjs';
+import {activityPosterPreview} from './activity-poster-preview.mjs';
 
 // Development-only policy. No production/preview-server hooks are installed.
 export default function workspaceBoundary() {
@@ -31,10 +32,18 @@ export default function workspaceBoundary() {
         // Pages Functions serve these routes in production. The isolated harness
         // supplies the same renderer through the registered local API only.
         const pathname = new URL(request.url, registry.wiki).pathname;
+        if(pathname==='/__local__/posters'&&request.method==='GET'){
+          response.setHeader('Content-Type','text/html; charset=utf-8');response.setHeader('Cache-Control','no-store');response.end(activityPosterPreview(registry));return;
+        }
+        if(pathname==='/__local__/posters/image'&&request.method==='GET'){
+          const tall=new URL(request.url,registry.wiki).searchParams.get('shape')==='tall',w=tall?360:3000,h=tall?3000:360;
+          response.setHeader('Content-Type','image/svg+xml');response.end(`<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}"><rect width="100%" height="100%" fill="#183c38"/><rect x="12" y="12" width="${w-24}" height="${h-24}" fill="none" stroke="#fff" stroke-width="4"/><text x="24" y="70" fill="#fff" font-size="28">TEST ${w}×${h}</text><circle cx="${w/2}" cy="${h/2}" r="100" fill="#b44338"/><text x="24" y="${h-36}" fill="#fff" font-size="24">FULL ARTWORK</text></svg>`);return;
+        }
         // Explicit test controls are available only behind the isolated dev hook.
         if(pathname==='/__local__/dashboard/viewport'&&request.method==='GET'){
           response.setHeader('Content-Type','text/html; charset=utf-8');
-          response.end('<!doctype html><meta charset="utf-8"><title>LOCAL ONLY 390px Dashboard</title><style>body{margin:20px;background:#e8e8e8;font:14px system-ui}iframe{width:390px;height:min(844px,calc(100dvh - 80px));border:0;background:white}</style><p>LOCAL ONLY · 390px</p><iframe title="390px dashboard" src="/zh/"></iframe>');return;
+          const target=new URL(request.url,registry.wiki).searchParams.get('path')||'/zh/',safe=/^\/(?:__local__\/posters|(?:zh|zh-tw|zh-hk|ja|en)\/[^<>"']*)\??[^<>"']*$/.test(target)&&!target.startsWith('//')?target:'/zh/';
+          response.end('<!doctype html><meta charset="utf-8"><title>LOCAL ONLY 390px Dashboard</title><style>body{margin:20px;background:#e8e8e8;font:14px system-ui}iframe{width:390px;height:min(844px,calc(100dvh - 80px));border:0;background:white}</style><p>LOCAL ONLY · 390px</p><iframe title="390px dashboard" src="'+safe.replaceAll('&','&amp;')+'"></iframe>');return;
         }
         if(pathname==='/__local__/dashboard'&&request.method==='GET'){
           response.setHeader('Content-Type','text/html; charset=utf-8');response.setHeader('Cache-Control','no-store');

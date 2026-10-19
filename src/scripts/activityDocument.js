@@ -2,8 +2,8 @@ import {activityCopy} from '../lib/activityCopy.mjs';
 import {activityDetailMarkup} from '../lib/activityPresentation.mjs';
 import {contentText} from '../lib/communityClient.js';
 import {activityBase,element,trackActivity} from '../lib/activityClient.js';
+import {adaptActivityPoster,openActivityPoster} from '../lib/activityPoster.mjs';
 import '../styles/activityCenter.css';
-import 'photoswipe/style.css';
 export async function enhanceActivityDocument(root){
  if(!root||root.dataset.communityDocument!=='activity'||root.dataset.communityUnavailable==='true'||root.dataset.enhanced)return;
  const id=root.dataset.communityId||new URLSearchParams(location.search).get('id');if(!id)return;
@@ -19,7 +19,7 @@ export async function enhanceActivityDocument(root){
   const tools=content.querySelector('[data-activity-detail-tools]'),copy=element('button',c.shareShort,'activity-text-action'),image=element('button',c.shareImage,'activity-text-action'),status=element('p',null,'activity-share-status');status.setAttribute('role','status');for(const n of [copy,image]){n.type='button';n.dataset.uiKit='';}
   copy.onclick=async()=>{const {copyActivity}=await import('../lib/activityShare.js');await copyActivity(item,{locale,copy:c,base,placement:entry},status);};image.onclick=async()=>{image.disabled=true;try{const {exportActivityImage}=await import('../lib/activityShare.js');await exportActivityImage(item,{locale,copy:c,base,placement:entry},status);}finally{image.disabled=false;}};tools.append(copy,image);
   const exported=root.querySelector('[data-community-export]');if(exported){exported.addEventListener('click',()=>trackActivity(base,item,entry,'export'));if(!exported.hidden){exported.className='activity-text-action';tools.append(exported);}}tools.append(status);
-  const poster=content.querySelector('.community-detail-poster'),opener=content.querySelector('.activity-poster-open');if(poster&&opener){const {default:PhotoSwipe}=await import('photoswipe');opener.onclick=e=>{e.preventDefault();const viewer=new PhotoSwipe({dataSource:[{src:poster.src,width:poster.naturalWidth||1080,height:poster.naturalHeight||1440,alt:poster.alt}],bgOpacity:.94});viewer.on('destroy',()=>opener.focus({preventScroll:true}));viewer.init();};}
+  const poster=content.querySelector('.community-detail-poster'),opener=content.querySelector('.activity-poster-open');if(poster&&opener){const hero=content.querySelector('.activity-detail-hero');adaptActivityPoster(poster,hero,{onError:()=>{poster.closest('figure')?.remove();hero.classList.add('activity-detail-hero--text');}});opener.onclick=async e=>{if(!poster.complete||!poster.naturalWidth)return;e.preventDefault();try{await openActivityPoster(poster,opener,{closeLabel:c.closePoster,zoomLabel:c.viewPoster,keyboard:e.detail===0});}catch{location.assign(opener.href);}};}
   root.dataset.enhanced='true';trackActivity(base,item,entry,'detail');
  }catch{/* The server-rendered activity remains usable when enhancement is unavailable. */}
 }
