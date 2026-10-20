@@ -1,4 +1,5 @@
 ---
+import {benefitsCopy} from '../lib/benefitsCopy.mjs';
 import {imageLibraryCopy} from '../lib/imageLibraryCopy.mjs';
 import {accountWorkspaceCopy} from '../lib/accountWorkspaceCopy.mjs';
 import {accountCopy} from '../lib/accountCopy.mjs';
@@ -9,7 +10,7 @@ const ui=accountWorkspaceCopy(locale),c=accountCopy(locale),base=`/${locale}/acc
 const groups=[
   {label:locale==='en'?'WORKSPACE':locale==='ja'?'作業':'工作',items:[['overview',ui.overview],['creator',ui.creator],['images',imageLibraryCopy(locale).title]]},
   {label:locale==='en'?'LIBRARY':locale==='ja'?'保存':'收藏',items:[['library',c.library]]},
-  {label:locale==='en'?'ACCOUNT':locale==='ja'?'アカウント':'账户',items:[['profile',c.profile],['security',ui.security],['data',c.data],['appearance',ui.appearance]]},
+  {label:locale==='en'?'ACCOUNT':locale==='ja'?'アカウント':'账户',items:[['benefits',benefitsCopy(locale).title],['profile',c.profile],['security',ui.security],['data',c.data],['appearance',ui.appearance]]},
 ] as const;
 const apiBase=import.meta.env.PUBLIC_AI_OBSERVER_API_BASE || 'https://api.kamitsubaki.wiki';
 const siteOrigin=centralAccountFrontendOrigin(apiBase,import.meta.env.PUBLIC_SITE_URL||Astro.site?.origin);
