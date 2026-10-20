@@ -1,29 +1,31 @@
 ---
 import Icon from './Icon.astro';
 import WorkspaceButton from './WorkspaceButton.astro';
-import {communityCopy} from '../lib/communityCopy.mjs';
+import {activityCopy} from '../lib/activityCopy.mjs';
+import '../styles/activityCenter.css';
 import '../styles/community.css';
-const {locale='zh'}=Astro.props,c=communityCopy(locale),api=import.meta.env.PUBLIC_COMMUNITY_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
+const {locale='zh'}=Astro.props,c=activityCopy(locale),api=import.meta.env.PUBLIC_COMMUNITY_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
 ---
 <aside class="community-float" data-ui-kit data-community-float data-api={api} data-locale={locale} data-copy={JSON.stringify(c)}>
- <WorkspaceButton class="community-float__toggle" data-community-toggle aria-label={c.board} title={c.board} aria-expanded="false" aria-controls="community-float-panel"><Icon name="calendar-days"/></WorkspaceButton>
+ <WorkspaceButton class="community-float__toggle" data-community-toggle aria-label={c.title} title={c.title} aria-expanded="false" aria-controls="community-float-panel"><Icon name="calendar-days"/></WorkspaceButton>
  <div class="community-float__backdrop" data-community-backdrop hidden></div>
- <section class="community-float__panel" id="community-float-panel" data-community-panel role="dialog" aria-label={c.board} aria-modal="false" hidden inert tabindex="-1">
-  <header><h2>{c.board}</h2><WorkspaceButton tone="quiet" data-community-close aria-label={c.close}><Icon name="x"/></WorkspaceButton></header>
+ <section class="community-float__panel" id="community-float-panel" data-community-panel role="dialog" aria-label={c.title} aria-modal="false" hidden inert tabindex="-1">
+  <header><h2>{c.title}</h2><WorkspaceButton tone="quiet" data-community-close aria-label={c.close}><Icon name="x"/></WorkspaceButton></header>
+  <nav class="activity-tabs" aria-label={c.title}><WorkspaceButton data-float-source="community" aria-pressed="true">{c.communityTab}</WorkspaceButton><WorkspaceButton data-float-source="official" aria-pressed="false">{c.officialTab}</WorkspaceButton></nav>
   <div class="community-float__scroll" data-community-float-body><p data-community-float-status role="status">{c.loading}</p><WorkspaceButton data-community-float-retry hidden>{c.retry}</WorkspaceButton><div class="community-card-grid" data-community-float-cards></div></div>
-  <footer><WorkspaceButton href={`/${locale}/community/activities/`} tone="primary">{c.viewCalendar}<Icon name="arrow-right"/></WorkspaceButton><WorkspaceButton href={`/${locale}/community/activities/apply/`}>{c.apply}</WorkspaceButton></footer>
+  <footer><WorkspaceButton data-float-calendar href={`/${locale}/events/`} tone="primary">{c.viewCalendar}<Icon name="arrow-right"/></WorkspaceButton><WorkspaceButton href={`/${locale}/community/activities/apply/`}>{c.apply}</WorkspaceButton></footer>
  </section>
 </aside>
 <style is:global>
  .community-float{position:fixed;right:calc(var(--floating-action-edge) + 2 * (var(--floating-action-size) + 10px));bottom:max(var(--floating-action-edge),env(safe-area-inset-bottom));z-index:42;color:var(--theme-fg)}
  html body .community-float__toggle.workspace-button.dui-btn{display:grid;place-items:center;width:var(--floating-action-size);height:var(--floating-action-size);padding:0;min-height:var(--floating-action-size);background:var(--theme-panel-solid);border:1px solid rgb(var(--theme-fg-rgb)/.2);box-shadow:0 4px 16px rgb(0 0 0/.08)}
  .community-float__toggle svg{width:21px;height:21px}
- .community-float__panel{position:fixed;right:var(--floating-action-edge);bottom:calc(var(--floating-action-edge) + var(--floating-action-size) + 12px);display:grid;grid-template-rows:auto minmax(0,1fr) auto;width:min(580px,calc(100vw - 2 * var(--floating-action-edge)));max-height:min(78dvh,740px);overflow:hidden;border:1px solid rgb(var(--theme-fg-rgb)/.15);border-radius:var(--ui-radius-panel);background:var(--theme-bg);box-shadow:0 16px 48px rgb(0 0 0/.16);z-index:44}
+ .community-float__panel{position:fixed;right:var(--floating-action-edge);bottom:calc(var(--floating-action-edge) + var(--floating-action-size) + 12px);display:grid;grid-template-rows:auto auto minmax(0,1fr) auto;width:min(580px,calc(100vw - 2 * var(--floating-action-edge)));max-height:min(78dvh,740px);overflow:hidden;border:1px solid rgb(var(--theme-fg-rgb)/.15);border-radius:var(--ui-radius-panel);background:var(--theme-bg);box-shadow:0 16px 48px rgb(0 0 0/.16);z-index:44}
  .community-float__panel>header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 20px;border-bottom:1px solid rgb(var(--theme-fg-rgb)/.1)}
  .community-float__panel h2{font:400 22px/1.5 var(--font-serif);margin:0}.community-float__panel [data-community-close]{width:44px;min-width:44px;padding:8px}
  .community-float__scroll{padding:20px;min-height:0;overflow:auto;overscroll-behavior:contain}
  .community-float__scroll>p{font:13px/1.8 var(--font-sans);color:var(--ui-color-muted);margin:0}.community-float__scroll>p:empty{display:none}
- .community-float .community-card-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:0}
+ .community-float .community-card-grid{grid-template-columns:1fr;gap:16px;margin:0}
  .community-float .community-card__copy{padding:12px 14px}.community-float .community-card h3{font-size:14px}.community-float .community-card p{font-size:12px}
  .community-float__panel>footer{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:14px 20px;border-top:1px solid rgb(var(--theme-fg-rgb)/.12);background:var(--theme-bg)}
  .community-float footer .workspace-button.dui-btn{font-size:13px;line-height:1.6}.community-float footer svg{width:16px;height:16px;flex:none}

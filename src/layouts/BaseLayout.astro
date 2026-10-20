@@ -7,7 +7,7 @@ import CommunityFloat from '../components/CommunityFloat.astro';
 import AccountChrome from '../components/AccountChrome.astro';
 import ArchiveRadio from '../components/ArchiveRadio.astro';
 import AiChatWidget from '../components/AiChatWidget.astro';
-import LiveEventsWidget from '../components/LiveEventsWidget.astro';
+
 import SiteSearch from '../components/SiteSearch.astro';
 import SiteIntro from '../components/SiteIntro.astro';
 import SocialContactWidget from '../components/SocialContactWidget.astro';
@@ -219,7 +219,7 @@ const liveEventsCopy = siteContent?.liveEvents;
     <CommunityFloat locale={lang} />
     <ToolsDock lang={lang} reading={reading}>
       <slot name="tools" />
-      {isLocalizedHome && liveEventsCopy && <LiveEventsWidget lang={lang} copy={liveEventsCopy} />}
+
       {socialContactCopy && <SocialContactWidget lang={lang} copy={socialContactCopy} />}
     </ToolsDock>
     {aiChatCopy && <AiChatWidget lang={lang} copy={aiChatCopy} launcher="floating" />}

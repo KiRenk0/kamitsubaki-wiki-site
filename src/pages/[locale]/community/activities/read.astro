@@ -1,14 +1,30 @@
 ---
-import WorkspaceButton from '../../../../components/WorkspaceButton.astro';
-import WorkspaceLayout from '../../../../layouts/WorkspaceLayout.astro';
-import {supportedLocales} from '../../../../lib/i18n.mjs';
-import {communityCopy} from '../../../../lib/communityCopy.mjs';
+import {getCollection} from 'astro:content';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import SiteNav from '../../../../components/SiteNav.astro';
+import SiteFooter from '../../../../components/SiteFooter.astro';
+import WorkspaceShell from '../../../../components/WorkspaceShell.astro';
+import {getLocalizedSite} from '../../../../lib/homeData.mjs';
+import {buildLocaleLinks,supportedLocales} from '../../../../lib/i18n.mjs';
+import {activityCopy} from '../../../../lib/activityCopy.mjs';
 import '../../../../styles/community.css';
+import '../../../../styles/activityCenter.css';
 export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
-const locale=Astro.params.locale||'zh',c=communityCopy(locale),api=import.meta.env.PUBLIC_COMMUNITY_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
+const locale=Astro.params.locale||'zh',c=activityCopy(locale),api=import.meta.env.PUBLIC_COMMUNITY_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
+const site=getLocalizedSite(await getCollection('site'),locale),path='/community/activities/read/';
 ---
-<WorkspaceLayout locale={locale} title={c.board} intro="" path="/community/activities/read/" eyebrow="COMMUNITY / ACTIVITY" backHref={`/${locale}/community/activities/`} backLabel={c.back} width="wide" noindex mainAttributes={{class:'community-page','data-community-document':'activity','data-locale':locale,'data-api':api,'data-copy':JSON.stringify(c)}}>
- <div class="community-actions" slot="actions"><WorkspaceButton data-community-correct href={`/${locale}/community/activities/apply/`}>{c.correction}</WorkspaceButton><WorkspaceButton data-community-export hidden>{c.exportCalendar}</WorkspaceButton></div>
- <section data-community-content><p data-community-document-status role="status">{c.loading}</p></section>
-</WorkspaceLayout>
-<script>import {initCommunityDocument} from '../../../../scripts/communityDocument.js';initCommunityDocument(document.querySelector('[data-community-document]'));</script>
+<BaseLayout lang={locale} title={c.board} metadata={{title:c.board,description:'',canonicalPath:`/${locale}${path}`,noindex:true}} alternates={supportedLocales.map(code=>({locale:code,href:`/${code}${path}`}))}>
+ <SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site,locale,path)} brandLines={site.hero.brandLines} homeHref={`/${locale}/`}/>
+ <WorkspaceShell width="wide" class="community-page activity-detail-page" data-community-document="activity" data-locale={locale} data-api={api} data-copy={JSON.stringify(c)}>
+  <a class="activity-detail-back" href={`/${locale}/community/activities/`}><span aria-hidden="true">←</span>{c.communityTab}</a>
+  <section data-community-content><h1>{c.board}</h1><p data-community-document-status role="status">{c.loading}</p></section>
+  <footer class="activity-detail-footer"><a data-community-export hidden>{c.calendarShort}</a><a data-community-correct href={`/${locale}/community/activities/apply/`}>{c.correction}</a></footer>
+ </WorkspaceShell>
+ <SiteFooter footer={site.footer}/>
+</BaseLayout>
+<script>
+ import {initCommunityDocument} from '../../../../scripts/communityDocument.js';
+ import {enhanceActivityDocument} from '../../../../scripts/activityDocument.js';
+ const root=document.querySelector('[data-community-document]');
+ void (async()=>{await initCommunityDocument(root);await enhanceActivityDocument(root);})();
+</script>

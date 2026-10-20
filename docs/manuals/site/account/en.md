@@ -35,3 +35,11 @@ Local drafts belong to the current browser and account context; cloud drafts bel
 - **Gallery preview visible but public page empty:** the author can inspect private staging; the public only sees approved and synchronized images.
 - **Operation keeps loading:** check connection and sign-in, then inspect the record list for an accepted server write before retrying.
 - **Appearance differs on another device:** theme and light/dark preferences are browser-local; select them again under Appearance.
+
+## My support and benefits
+
+Sign in and open **My support & benefits** to see verified tiers, validity, support history, earned development posts, votes and beta records. Supporter completion and optional account linking keep the existing verification process; matching email addresses do not prove account ownership.
+
+Earned posts, submitted votes and awarded beta access remain after natural expiry. Votes can be edited before the deadline. Eligibility is checked when applying for and receiving beta access; review notes and protected invitations are read in My Space.
+
+Project updates, review results and expiry reminders have separate email preferences. Account security mail is handled independently. Ordinary Wiki content remains public.

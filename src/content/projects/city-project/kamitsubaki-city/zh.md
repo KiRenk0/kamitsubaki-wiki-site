@@ -34,6 +34,7 @@ summary: 集交替现实游戏（ARG）、轻小说、正统黄金档 TV 动画�
        │
        ▼
 [Phase 2: 2022~2024] 神椿市建设中。CHRONICLE (月岛总记著长篇轻小说与广播剧)
+                     神椿市建设中。NARRATIVE（桌上角色扮演游戏）
        │
        ▼
 [Phase 3: 2024.08.29] 《神椿市协奏中。》(KAMITSUBAKI CITY ENSEMBLE) 全球全平台节奏游戏
@@ -78,3 +79,18 @@ summary: 集交替现实游戏（ARG）、轻小说、正统黄金档 TV 动画�
    - 第一人称次世代 XR 探险 RPG，1:1 空间化还原崩坏都市街景与等身大魔女面对面歌唱共振。
 
 <!-- V3 RESEARCH SUPPLEMENT kamitsubaki-city -->
+
+---
+
+## 其他相关游戏
+
+1. [《神椿市建设中。EMERGENCE》](https://uc.kamitsubaki.jp)：  
+   《神椿市建设中。》故事的原点。玩家需要通过智能手机，挑战潜藏在神椿市中各种各样的「Q」。[原计划结合智能手机的位置功能展开现实探索，后因新冠疫情调整开发计划](https://camp-fire.jp/projects/368592/view)。正式活动于2021年10月4日至31日举行，以手机浏览器为入口，由玩家在线协作解谜；目前活动已结束，官网保留项目回顾。
+
+   部分剧情熟肉可见[神椿市建设中。EMERGENCE 故事碎片全中文剧情](https://www.bilibili.com/video/BV1wg411N7qB/?share_source=copy_web&vd_source=db0f1a0a4f92a6a41d9f420b9a1cf5a7)以及[【熟切】神椿市建设中番外1-4整合](https://www.bilibili.com/video/BV1H24y1w7P2/?share_source=copy_web&vd_source=db0f1a0a4f92a6a41d9f420b9a1cf5a7)。想要关注游戏当时的事件发展可见[神椿市建设中。EMERGENCE综合讨论帖](https://bbs.nga.cn/read.php?tid=28797026)。
+2. [《神椿市建設中。NARRATIVE》](https://uc-narrative.kamitsubaki.jp/)：  
+   于2023年启动的TRPG项目，玩家将扮演「共创者」，直面并解决蔓延于神椿市之中的各种怪异现象——「Q」。  
+   官方剧本下载地址：https://campaign.talto.cc/narrative/  
+   相关熟肉可见文集：https://www.bilibili.com/opus/918450744506449943
+3. [《神椿学园新闻部》](https://store.steampowered.com/app/3639970/_/)：  
+   2025年10月29日发售，是独立于《神椿市建设中。》系列之外的另一条世界线，和《神椿市建设中。》系列共享部分设定。

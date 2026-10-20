@@ -62,7 +62,7 @@ html body .community-view-tabs .workspace-button.dui-btn{border-color:transparen
 .community-detail-overview>.community-actions{margin-top:28px}
 .community-detail-overview>.community-actions a{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border:1px solid var(--ui-line);border-radius:var(--ui-radius-control);font:500 13px/1 var(--font-sans);text-decoration:none;transition:border-color var(--ui-duration),background var(--ui-duration)}
 .community-detail-overview>.community-actions a:hover{border-color:var(--theme-accent-color)}
-.community-detail-overview>.community-actions a:first-child{background:var(--theme-fg);border-color:var(--theme-fg);color:var(--theme-bg)}
+.community-detail-overview>.community-actions a.activity-primary{background:var(--theme-fg);border-color:var(--theme-fg);color:var(--theme-bg)}
 .community-detail-overview>p{margin:0 0 14px;font:15px/1.9 var(--font-sans)}
 .community-detail-overview>p+p{font:12px/1.8 var(--font-sans);color:var(--ui-color-muted)}
 .community-detail-overview>.community-facts{margin:20px 0 0}
