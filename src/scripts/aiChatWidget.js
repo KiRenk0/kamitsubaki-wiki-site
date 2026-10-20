@@ -861,6 +861,7 @@ async function loadThreadDetail(root, threadId) {
     updatedAt: button.querySelector('small')?.textContent || '',
   })));
   scrollMessages(messages);
+  return true;
 }
 
 async function readStream(response, assistantMessage, messages, copy, root) {
@@ -1024,7 +1025,7 @@ function initWidget(root) {
 
   if (
     !(toggle instanceof HTMLButtonElement) ||
-    !(close instanceof HTMLButtonElement) ||
+    (root.dataset.aiPresentation!=='embedded'&&!(close instanceof HTMLButtonElement)) ||
     !(form instanceof HTMLFormElement) ||
     !(input instanceof HTMLTextAreaElement) ||
     !(messages instanceof HTMLElement) ||
@@ -1045,6 +1046,9 @@ function initWidget(root) {
   };
 
   const presentation=chatPresentationStore(root);
+  if(root.dataset.aiPresentation==='embedded')presentation.subscribe(()=>{
+    quick.hidden=presentation.getSnapshot().messages.some(message=>message.role==='user');
+  });
   let componentFlight;
   const ensureChatComponents=()=>componentFlight ||= loadSiteComponents().then(async runtime=>{
     if(!presentation.getSnapshot().messages.length)createMessage(root,'assistant',copy.greeting||'',root.dataset.locale);
@@ -1058,6 +1062,7 @@ function initWidget(root) {
     if (!readyPromise) {
       readyPromise = (async () => {
         root.classList.add('is-loading');
+        root.setAttribute('aria-busy','true');
         toggle.setAttribute('aria-busy', 'true');
         try {
           const locale = root.dataset.locale || document.documentElement.lang || 'zh';
@@ -1079,6 +1084,7 @@ function initWidget(root) {
           throw error;
         } finally {
           root.classList.remove('is-loading');
+          root.setAttribute('aria-busy','false');
           toggle.removeAttribute('aria-busy');
         }
       })();
@@ -1088,8 +1094,8 @@ function initWidget(root) {
 
   const openPanel = () => {
     setExpanded(root, true);
-    window.setTimeout(() => {
-      if (root.classList.contains('is-open')&&root.getClientRects().length) input.focus();
+    if(root.dataset.aiPresentation!=='embedded')window.setTimeout(() => {
+      if (root.classList.contains('is-open')&&root.getClientRects().length) input.focus({preventScroll:true});
     }, 160);
     ensureWidgetReady().catch(showLoadError);
   };
@@ -1113,7 +1119,7 @@ function initWidget(root) {
   if(root.dataset.aiPresentation==='embedded')root.addEventListener('ai-widget:open',openPanel);
   else toggle.addEventListener('click',openPanel);
 
-  close.addEventListener('click', () => setExpanded(root, false));
+  close?.addEventListener('click', () => setExpanded(root, false));
   scrim?.addEventListener('click', () => setExpanded(root, false));
   root.addEventListener('keydown', (event) => {
     if (event.key !== 'Escape' || !root.classList.contains('is-open')) return;
@@ -1224,7 +1230,11 @@ function initWidget(root) {
     const button = target?.closest('[data-ai-thread-id]');
     if (button instanceof HTMLButtonElement) {
       closeThreadMenus(threadList);
-      loadThreadDetail(root, button.dataset.aiThreadId || '').catch(() => {});
+      loadThreadDetail(root, button.dataset.aiThreadId || '').then(loaded=>{
+        if(loaded&&root.dataset.aiPresentation==='embedded'&&matchMedia('(max-width:760px)').matches){
+          toggleHistory(root,false);historyToggle?.focus({preventScroll:true});
+        }
+      }).catch(() => {});
     }
   });
 

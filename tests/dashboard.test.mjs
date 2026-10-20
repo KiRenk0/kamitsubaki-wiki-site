@@ -25,10 +25,11 @@ test('announcement summaries omit drafts and full bodies while retaining pinned 
  const publicIndex=dashboardAnnouncementIndex(entries);assert.equal(publicIndex.featuredId,'featured');assert.equal(publicIndex.preview,false);assert.equal(publicIndex.items.length,3);assert.equal(publicIndex.items[0].reminderVersion,3);assert.ok(publicIndex.items.every(n=>n.id!=='draft'));assert.ok(publicIndex.items.every(n=>!('html'in n)));assert.equal(dashboardAnnouncementIndex(entries,{includeDrafts:true}).preview,true);
  for(const locale of ['zh','zh-tw','zh-hk','ja','en'])assert.ok(dashboardCopy(locale).backOverview);
 });
-function fixture({home=false,intro=false,stored,visible=true,preview=false,motion=false}={}){
+function fixture({home=false,intro=false,stored,visible=true,preview=false,motion=false,keyboard=false}={}){
  const dom=new JSDOM(`<button id="outside">Outside</button><div data-observer-dashboard><button data-dashboard-open hidden><span class="dashboard-launcher__cards"></span></button><i data-dashboard-dot hidden></i><dialog data-dashboard-dialog><h2 id="observer-dashboard-title" tabindex="-1">Dashboard</h2><button data-dashboard-close>Close</button><div role="tablist">${['overview','announcements','tools'].map(n=>`<button data-dashboard-tab="${n}">${n}</button>`).join('')}</div><div data-dashboard-scroll><nav>${['community','official'].map(n=>`<button data-dashboard-source="${n}">${n}</button>`).join('')}</nav><a data-dashboard-view-all></a>${['overview','announcements','tools'].map(n=>`<section data-dashboard-panel="${n}"></section>`).join('')}${['community','official'].map(n=>`<section data-dashboard-source-panel="${n}" ${n==='official'?'hidden':''}><p data-dashboard-activity-status="${n}"></p><button data-dashboard-activity-retry="${n}"></button><div data-dashboard-activity-skeleton="${n}" class="content-skeleton"><div class="dui-skeleton"></div></div><div data-dashboard-activities="${n}"></div></section>`).join('')}<div data-dashboard-notice-summary></div><nav data-dashboard-notice-list></nav><p data-dashboard-notice-status></p><button data-dashboard-notice-retry></button><div data-dashboard-notice-skeleton hidden></div><article data-dashboard-notice-body></article><button data-dashboard-search></button></div></dialog></div>`,{url:'https://wiki.example/zh/',runScripts:'outside-only'});
  const w=dom.window,d=w.document,root=d.querySelector('[data-observer-dashboard]'),calls=[];Object.assign(root.dataset,{locale:'zh',api:'https://api.example',home:String(home),preview:String(preview),copy:JSON.stringify(dashboardCopy('zh'))});
  if(intro)d.documentElement.classList.add('site-intro-enabled');if(stored)w.localStorage.setItem('kamitsubaki-dashboard:v1',JSON.stringify(stored));Object.defineProperty(d,'visibilityState',{value:visible?'visible':'hidden',configurable:true});
+ if(keyboard)Object.defineProperty(w,'visualViewport',{value:Object.assign(new w.EventTarget(),{height:w.innerHeight,offsetTop:0,scale:1})});
  const animations=[];w.matchMedia=()=>({matches:!motion});if(motion)w.HTMLElement.prototype.animate=function(){let resolve,reject;const a={finished:new Promise((ok,no)=>{resolve=ok;reject=no;}),cancel(){reject(Error('cancelled'));},finish(){resolve();}};animations.push(a);return a;};w.scrollTo=()=>{};w.AbortSignal=AbortSignal;w.Response=Response;w.HTMLElement.prototype.scrollIntoView=()=>{};w.HTMLElement.prototype.getClientRects=function(){return this.hidden?[]:[{}];};
  const dialog=root.querySelector('dialog');dialog.showModal=()=>{dialog.open=true;};dialog.close=()=>{dialog.open=false;dialog.dispatchEvent(new w.Event('close'));};
  w.fetch=async url=>{calls.push(String(url));return Response.json(String(url).includes('announcements.json')?{items:[{id:'notice',title:'Notice',summary:'Summary',date:'2026.10.19',important:true,reminderVersion:1}],featuredId:'notice',preview:false}:String(url).includes('/announcements/')?{id:'notice',title:'Notice',summary:'Summary',html:'<h2 id="original">Original body</h2>'}:{items:[],cache:{available:true,stale:false}});};
@@ -71,4 +72,21 @@ test('cold reads use skeletons without loading text; a cached refresh keeps card
 });
 test('failed activity reads end the skeleton and offer retry without taking over the source switch',async()=>{
  const p=fixture();try{await p.settle();p.w.fetch=async()=>{throw Error('offline');};await p.controller.open();await p.settle();assert.equal(p.root.querySelector('[data-dashboard-activity-skeleton=community]').hidden,true);assert.equal(p.root.querySelector('[data-dashboard-source-panel=community]').getAttribute('aria-busy'),'false');assert.equal(p.root.querySelector('[data-dashboard-activity-retry=community]').hidden,false);assert.equal(p.root.querySelector('[data-dashboard-activity-status=community]').hidden,false);p.root.querySelector('[data-dashboard-source=official]').click();assert.equal(p.root.querySelector('[data-dashboard-source-panel=official]').hidden,false);assert.equal(p.dialog.open,true);}finally{p.close();}
+});
+
+
+test('visual-viewport keyboard fitting is input-scoped and released on blur and close',async()=>{
+ const p=fixture({keyboard:true});try{
+  await p.controller.open('tools');
+  const input=p.d.createElement('textarea');input.dataset.aiInput='';p.root.querySelector('[data-dashboard-panel=tools]').append(input);
+  const viewport=p.w.visualViewport;viewport.height=p.w.innerHeight-300;viewport.dispatchEvent(new p.w.Event('resize'));
+  assert.equal(p.dialog.style.getPropertyValue('--dashboard-keyboard-inset'),'','ordinary content keeps its fixed height');
+  input.focus();
+  assert.equal(p.dialog.style.getPropertyValue('--dashboard-keyboard-inset'),'300px');
+  assert.equal(p.dialog.style.getPropertyValue('--dashboard-visible-height'),viewport.height+'px');
+  p.root.querySelector('[data-dashboard-tab=tools]').focus();await Promise.resolve();
+  assert.equal(p.dialog.style.getPropertyValue('--dashboard-keyboard-inset'),'');
+  input.focus();p.controller.close({instant:true});
+  assert.equal(p.dialog.style.getPropertyValue('--dashboard-visible-height'),'');
+ }finally{p.close();}
 });

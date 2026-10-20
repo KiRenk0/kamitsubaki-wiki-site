@@ -11,7 +11,7 @@ const [chrome, ai, navigation] = await Promise.all(['quietChrome', 'aiChatWidget
   define: { 'import.meta.env': '{}' }, external: ['katex', 'micromark', 'micromark-extension-gfm', 'micromark-extension-math'],
 })));
 
-function tools({ reading = true, navigationMotion = false, embedded = false } = {}) {
+function tools({ reading = true, navigationMotion = false, embedded = false, shellClose = false } = {}) {
   const dom = new JSDOM(`<main><h1>Artist</h1><button id="outside">Outside</button></main>
     <details class="tools-dock" data-chrome-menu data-tools-dock ${reading ? 'data-reader-tools' : ''}>
       <summary tabindex="0">Tools</summary><div class="tools-dock__menu">
@@ -28,7 +28,7 @@ function tools({ reading = true, navigationMotion = false, embedded = false } = 
     </details>
     <aside data-ai-chat ${embedded ? 'data-ai-presentation="embedded"' : ''} data-locale="zh" data-copy="{}" inert>
       <button data-ai-scrim>Scrim</button><section data-ai-panel aria-hidden="true">
-        <button data-ai-close>Close AI</button><button data-ai-settings-toggle>Settings</button><button data-ai-history-toggle>History</button>
+        ${shellClose ? '' : '<button data-ai-close>Close AI</button>'}<button data-ai-settings-toggle>Settings</button><button data-ai-history-toggle>History</button>
         <div data-ai-settings-popover hidden><button id="setting-option">Auto retrieval</button></div>
         <div data-ai-history-panel hidden><div data-ai-thread-list><div data-thread-id="test-thread">
           <button data-ai-thread-menu-toggle aria-expanded="true">Conversation actions</button>
@@ -235,5 +235,23 @@ test('embedded AI keeps its draft and single instance across panel claims, and r
     b.$('[data-ai-close]').click();
     assert.equal(section, 'overview');
     assert.equal(input.value, 'Keep this observer draft');
+  } finally { b.dom.window.close(); }
+});
+
+test('embedded AI without a second close button initializes and leaves focus on the shell tab', () => {
+  const b = tools({ embedded: true, shellClose: true });
+  try {
+    const tab = b.$('[data-ai-toggle]'), root = b.$('[data-ai-chat]');
+    tab.focus();
+    root.dispatchEvent(new b.w.CustomEvent('ai-widget:open')); b.flushTimers();
+    assert.equal(root.classList.contains('is-open'), true);
+    assert.equal(root.inert, false);
+    assert.equal(b.document.activeElement, tab, 'opening AI must not scroll its shell or summon the mobile keyboard');
+    b.$('[data-ai-input]').value = 'Draft retained';
+    let closed = 0;
+    b.w.addEventListener('wiki-dashboard-close', () => { closed++; });
+    b.escape(b.$('[data-ai-input]'));
+    assert.equal(closed, 1);
+    assert.equal(b.$('[data-ai-input]').value, 'Draft retained');
   } finally { b.dom.window.close(); }
 });

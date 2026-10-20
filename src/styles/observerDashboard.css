@@ -12,11 +12,11 @@ html body .dashboard-launcher.workspace-button.dui-btn{display:grid;place-items:
 .dashboard-launcher__dot{position:absolute;right:5px;top:5px;width:6px;height:6px;border-radius:50%;background:var(--theme-accent-color)}
 [data-observer-dashboard] [hidden]{display:none!important}
 /* Same paper, type and fine rules as the entry reader, inside one native dialog. */
-html body dialog.observer-dashboard[data-dashboard-dialog]:modal{--theme-bg:var(--reader-paper);--theme-body:var(--reader-text);--ui-color-muted:var(--reader-muted);--workspace-line:var(--reader-line);position:fixed;inset:0;width:min(1120px,calc(100vw - 64px));max-width:none;max-height:88dvh;height:fit-content;margin:auto;padding:0;border:1px solid var(--reader-line);border-radius:var(--ui-radius-panel);background:var(--reader-paper);color:var(--reader-text);box-shadow:0 24px 80px rgb(0 0 0/.22);font-family:var(--font-sans);overflow:hidden;overscroll-behavior:contain}
+html body dialog.observer-dashboard[data-dashboard-dialog]:modal{--theme-bg:var(--reader-paper);--theme-body:var(--reader-text);--ui-color-muted:var(--reader-muted);--workspace-line:var(--reader-line);position:fixed;inset:0;width:min(1120px,calc(100vw - 64px));max-width:none;max-height:88dvh;height:min(780px,88dvh);margin:auto;padding:0;border:1px solid var(--reader-line);border-radius:var(--ui-radius-panel);background:var(--reader-paper);color:var(--reader-text);box-shadow:0 24px 80px rgb(0 0 0/.22);font-family:var(--font-sans);overflow:hidden;overscroll-behavior:contain}
 .observer-dashboard:not([open]){display:none}
 .observer-dashboard[open]{display:flex}
 .observer-dashboard::backdrop{background:rgb(0 0 0/.46)}
-.observer-dashboard__surface{display:flex;flex-direction:column;width:100%;min-height:0;max-height:88dvh}
+.observer-dashboard__surface{display:flex;flex-direction:column;width:100%;height:100%;min-height:0}
 .observer-dashboard__header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:24px 28px 12px;flex:none}
 .observer-dashboard__header .wiki-page-title{outline:none}
 .observer-dashboard__header .dui-btn{width:40px;min-width:40px;min-height:40px;height:40px;padding:8px;color:var(--reader-muted)}
@@ -24,7 +24,7 @@ html body dialog.observer-dashboard[data-dashboard-dialog]:modal{--theme-bg:var(
 .observer-dashboard__tabs .dui-tab{min-width:0;min-height:44px;height:auto;padding:0 2px;border:0;border-radius:0;background:none;box-shadow:none;color:var(--reader-muted);font:500 13px/1.5 var(--font-sans);border-bottom:2px solid transparent;transform:none;transition:color 120ms ease,border-color 120ms ease}
 .observer-dashboard__tabs .dui-tab:before,.observer-dashboard__tabs .dui-tab:after{display:none}
 .observer-dashboard__tabs [aria-selected=true].dui-tab{color:var(--theme-fg);border-bottom-color:var(--theme-fg)}
-.observer-dashboard__content{padding:24px 28px 28px;overflow:auto;min-height:0;overscroll-behavior:contain;scrollbar-gutter:stable}
+.observer-dashboard__content{flex:1;padding:24px 28px 28px;overflow:auto;min-height:0;overscroll-behavior:contain;scrollbar-gutter:stable}
 .dashboard-overview{display:grid;grid-template-columns:minmax(0,1.9fr) minmax(0,1fr);gap:32px;align-items:start}
 .dashboard-overview section{min-width:0;scroll-margin-top:12px}
 .dashboard-section-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:20px;min-height:40px}
@@ -105,26 +105,19 @@ html body .observer-dashboard .dashboard-appearance [role=radio].dui-btn[aria-ch
 .dashboard-contacts svg{width:22px;height:22px;flex:none}.dashboard-contacts strong{display:block;font:500 14px/1.6 var(--font-sans)}
 .dashboard-contacts small{display:block;font:12px/1.7 var(--font-sans);color:var(--reader-muted);overflow-wrap:anywhere}
 .observer-dashboard :is(a,button):focus-visible,.dashboard-launcher:focus-visible{outline:2px solid var(--theme-accent-color);outline-offset:3px}
-.dashboard-ai-loading{display:block;margin:32px auto}
+/* The same fixed content slot hosts every tab; chat owns its message viewport. */
+.observer-dashboard__content[data-section=ai]{display:flex;padding-block:0 20px;overflow:hidden;scrollbar-gutter:auto}
+[data-dashboard-panel=ai]{display:flex;flex:1;position:relative;min-width:0;min-height:0}
+.dashboard-ai-feedback{position:absolute;inset:0;z-index:6;padding:24px 0;background:var(--reader-paper)}
+.dashboard-ai-loading{max-width:46rem;margin:20px auto}
 .observer-dashboard .dui-tab:focus-visible{transition:none}
-/* One existing chat instance uses the dashboard shell; it owns no second scrim. */
-.observer-dashboard .ai-chat--embedded{position:relative;inset:auto;width:100%;height:100%;min-height:420px;z-index:auto;display:block;background:none;opacity:1;visibility:visible;pointer-events:auto;font-family:var(--font-sans)}
-.observer-dashboard .ai-chat--embedded .ai-chat__panel{position:relative;inset:auto;width:100%;height:min(560px,calc(88dvh - 200px));min-height:360px;border:0;border-radius:0;box-shadow:none;background:var(--theme-bg);backdrop-filter:none;transform:none;opacity:1;pointer-events:auto;transition:none}
-.observer-dashboard .ai-chat--embedded .ai-chat__hud-grid,.observer-dashboard .ai-chat--embedded .ai-chat__header::before{display:none}
-.observer-dashboard .ai-chat--embedded .ai-chat__header{padding:10px 0 16px;background:none}
-.observer-dashboard .ai-chat--embedded .ai-chat__sys-status{display:none}
-.observer-dashboard .ai-chat--embedded .ai-chat__main{min-height:0;background:none}
-.observer-dashboard .ai-chat--embedded .ai-chat__auth{padding:12px 0}
-.observer-dashboard .ai-chat--embedded .ai-chat__messages{min-height:100px;padding:16px 0}
-.observer-dashboard .ai-chat--embedded .ai-chat__composer{background:var(--theme-bg)}
 html body:has(.pswp--open) .dashboard-float,html body:has(.ve-workbench) .dashboard-float,html body:is(.game-page,.memory-corridor-page) .dashboard-float{display:none}
 @media(max-width:900px){.dashboard-overview{grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:24px}.dashboard-project-list .activity-card__link{grid-template-columns:minmax(140px,.9fr) minmax(0,1fr);gap:18px}.dashboard-bulletin{padding-left:20px}.dashboard-tools{gap:28px}}
 @media(max-width:760px){
- html body dialog.observer-dashboard[data-dashboard-dialog]:modal{position:fixed;inset:auto 0 0;width:100%;max-height:94dvh;margin:0;border-radius:var(--ui-radius-panel) var(--ui-radius-panel) 0 0;border-bottom:0}
- .observer-dashboard__surface{max-height:94dvh}
+ html body dialog.observer-dashboard[data-dashboard-dialog]:modal{position:fixed;inset:auto 0 var(--dashboard-keyboard-inset,0px);width:100%;height:min(94dvh,calc(var(--dashboard-visible-height,100dvh)*.94));max-height:94dvh;margin:0;border-radius:var(--ui-radius-panel) var(--ui-radius-panel) 0 0;border-bottom:0}
  .observer-dashboard__header{padding:20px 20px 10px}
  .observer-dashboard__tabs.dui-tabs{padding:0 20px;justify-content:space-between;gap:16px}.observer-dashboard__tabs .dui-tab{min-height:46px}
- .observer-dashboard__content{padding:20px 20px calc(24px + env(safe-area-inset-bottom));scrollbar-gutter:auto}
+ .observer-dashboard__content{flex:1;padding:20px 20px calc(24px + env(safe-area-inset-bottom));scrollbar-gutter:auto}
  .dashboard-overview{grid-template-columns:1fr;gap:28px}.dashboard-bulletin{gap:20px;border-left:0;border-top:1px solid var(--reader-line);padding:24px 0 0}
  .dashboard-section-heading{margin-bottom:18px}
  .dashboard-source-switch.dui-tabs{max-width:100%}
@@ -147,6 +140,6 @@ html body:has(.pswp--open) .dashboard-float,html body:has(.ve-workbench) .dashbo
  .observer-dashboard .dashboard-activity-skeleton .content-skeleton__item:nth-child(n+2) .content-skeleton__art{height:105px}
  .dashboard-notice-reader{grid-template-columns:1fr;gap:24px}.dashboard-notice-reader>nav{display:flex;gap:8px;overflow:auto;max-width:100%}.dashboard-notice-index{min-width:180px;width:180px;flex:none;padding:12px}
  html body [data-dashboard-notice-body].wiki-prose>h2{font-size:24px}.dashboard-tools{grid-template-columns:1fr;gap:32px}
- .observer-dashboard .ai-chat--embedded .ai-chat__panel{height:calc(94dvh - 240px);min-height:320px}.observer-dashboard .ai-chat--embedded{min-height:320px}
+ .observer-dashboard__content[data-section=ai]{padding:0 20px max(12px,env(safe-area-inset-bottom))}
 }
 @media(prefers-reduced-motion:reduce){.dashboard-launcher *,.observer-dashboard *{animation:none!important;transition:none!important;scroll-behavior:auto!important}}

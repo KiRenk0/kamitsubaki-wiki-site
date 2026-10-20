@@ -13,6 +13,18 @@ export function initObserverDashboard(root){
  const lastActivities={community:0,official:0};
  const renderedActivities={community:'',official:''};
  const bodyCache=new Map(),noticeGeneration={value:0};
+ const viewport=window.visualViewport;
+ // Mobile keyboards can shrink only the visual viewport, leaving dvh unchanged.
+ // Keep the composer above that keyboard without changing ordinary tab dimensions.
+ function fitKeyboard(){
+  const focused=dialog.open&&document.activeElement?.matches('[data-ai-input]');
+  const inset=focused&&viewport?.scale===1?Math.max(0,window.innerHeight-viewport.height-viewport.offsetTop):0;
+  if(inset>80){dialog.style.setProperty('--dashboard-keyboard-inset',inset+'px');dialog.style.setProperty('--dashboard-visible-height',viewport.height+'px');}
+  else{dialog.style.removeProperty('--dashboard-keyboard-inset');dialog.style.removeProperty('--dashboard-visible-height');}
+ }
+ const fitAfterFocus=()=>queueMicrotask(fitKeyboard);
+ viewport?.addEventListener('resize',fitKeyboard);viewport?.addEventListener('scroll',fitKeyboard);
+ dialog.addEventListener('focusin',fitKeyboard);dialog.addEventListener('focusout',fitAfterFocus);
  launcher.hidden=false;
  const noticeKey=()=>reminderKey(index?.items?.find(n=>n.id===index.featuredId));
  const acknowledge=()=>{if(!dialog.open)return;const stored=preferences.read();preferences.write({...stored,day:dashboardDay(),...(index?{reminder:noticeKey()}: {})});updateDot();};
@@ -27,22 +39,24 @@ export function initObserverDashboard(root){
   if(closeMotion)void closeMotion.finished.then(finish).catch(()=>{});else finish();
  }
  dialog.addEventListener('close',()=>{
-  releaseScroll?.();releaseScroll=null;launcher.setAttribute('aria-expanded','false');stopActivities();openMotion?.cancel();closeMotion?.cancel();dialog.style.removeProperty('opacity');
+  releaseScroll?.();releaseScroll=null;launcher.setAttribute('aria-expanded','false');stopActivities();openMotion?.cancel();closeMotion?.cancel();dialog.style.removeProperty('opacity');fitKeyboard();
   if(restore){const target=trigger?.isConnected&&trigger.getClientRects().length?trigger:launcher;target.focus({preventScroll:true});}
  });
  dialog.addEventListener('cancel',event=>{event.preventDefault();close({instant:true});});
  dialog.addEventListener('click',event=>{if(event.target!==dialog)return;const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)close({instant:event.detail===0});});
  async function select(next,{focus=false}={}){
-  if(!$('[data-dashboard-panel="'+next+'"]'))return;section=next;root.dataset.section=next;
+  if(!$('[data-dashboard-panel="'+next+'"]'))return;section=next;root.dataset.section=next;scroll.dataset.section=next;
   root.querySelectorAll('[data-dashboard-panel]').forEach(n=>n.hidden=n.dataset.dashboardPanel!==next);
   root.querySelectorAll('[data-dashboard-tab]').forEach(n=>{const chosen=n.dataset.dashboardTab===next;n.setAttribute('aria-selected',String(chosen));n.tabIndex=chosen?0:-1;});
   dialog.scrollTop=0;scroll.scrollTop=0;if(focus)$('[data-dashboard-tab="'+next+'"]').focus({preventScroll:true});
   observeSelected();
   if(next==='announcements')await loadNotice(noticeId||index?.featuredId);
   if(next==='ai'){
-   const status=$('[data-dashboard-ai-status]'),retry=$('[data-dashboard-ai-retry]'),spinner=$('[data-dashboard-ai-skeleton]');status.hidden=true;status.textContent='';if(spinner)spinner.hidden=false;retry.hidden=true;
-   try{await(aiFlight||=import('./aiChatWidget.js').catch(error=>{aiFlight=null;throw error;}));if(!active)return;status.hidden=true;if(spinner)spinner.hidden=true;if(dialog.open&&section==='ai')$('[data-ai-chat]')?.dispatchEvent(new CustomEvent('ai-widget:open'));}
-   catch{status.textContent=c.aiError;status.hidden=false;if(spinner)spinner.hidden=true;retry.hidden=false;}
+   const status=$('[data-dashboard-ai-status]'),retry=$('[data-dashboard-ai-retry]'),spinner=$('[data-dashboard-ai-skeleton]'),feedback=$('[data-dashboard-ai-feedback]');status.hidden=true;status.textContent='';if(spinner)spinner.hidden=false;retry.hidden=true;
+   // A loaded controller keeps its own state; only the first import needs the shell skeleton.
+   if(feedback)feedback.hidden=!!$('[data-ai-chat]')?.dataset.aiControllerReady;
+   try{await(aiFlight||=import('./aiChatWidget.js').catch(error=>{aiFlight=null;throw error;}));if(!active)return;status.hidden=true;if(spinner)spinner.hidden=true;if(feedback)feedback.hidden=true;if(dialog.open&&section==='ai')$('[data-ai-chat]')?.dispatchEvent(new CustomEvent('ai-widget:open'));}
+   catch{status.textContent=c.aiError;status.hidden=false;if(spinner)spinner.hidden=true;if(feedback)feedback.hidden=false;retry.hidden=false;}
   }
  }
  async function open(next='overview',{automatic=false,event}={}){
@@ -158,7 +172,7 @@ export function initObserverDashboard(root){
  const onHistory=()=>{if(location.hash==='#social-contact')openContact();else if(hashOpened){hashOpened=false;close({instant:true});}};
  window.addEventListener('wiki-dashboard-section',onSection);window.addEventListener('wiki-dashboard-close',onClose);window.addEventListener('hashchange',onHistory);window.addEventListener('popstate',onHistory);
  window.addEventListener('wiki-site-intro-complete',tryAuto);document.addEventListener('visibilitychange',tryAuto);
- const cleanup=()=>{active=false;stopActivities();stopPanels();releaseScroll?.();openMotion?.cancel();closeMotion?.cancel();document.removeEventListener('pointerdown',onIntent,true);document.removeEventListener('wheel',onBrowse);document.removeEventListener('touchstart',onBrowse);document.removeEventListener('keydown',onBrowse);window.removeEventListener('wiki-dashboard-section',onSection);window.removeEventListener('wiki-dashboard-close',onClose);window.removeEventListener('wiki-site-intro-complete',tryAuto);document.removeEventListener('visibilitychange',tryAuto);window.removeEventListener('hashchange',onHistory);window.removeEventListener('popstate',onHistory);};
+ const cleanup=()=>{viewport?.removeEventListener('resize',fitKeyboard);viewport?.removeEventListener('scroll',fitKeyboard);dialog.removeEventListener('focusin',fitKeyboard);dialog.removeEventListener('focusout',fitAfterFocus);active=false;stopActivities();stopPanels();releaseScroll?.();openMotion?.cancel();closeMotion?.cancel();document.removeEventListener('pointerdown',onIntent,true);document.removeEventListener('wheel',onBrowse);document.removeEventListener('touchstart',onBrowse);document.removeEventListener('keydown',onBrowse);window.removeEventListener('wiki-dashboard-section',onSection);window.removeEventListener('wiki-dashboard-close',onClose);window.removeEventListener('wiki-site-intro-complete',tryAuto);document.removeEventListener('visibilitychange',tryAuto);window.removeEventListener('hashchange',onHistory);window.removeEventListener('popstate',onHistory);};
  document.addEventListener('astro:before-swap',cleanup,{once:true});window.addEventListener('pagehide',event=>{if(event.persisted){close({instant:true,focus:false});stopActivities();releaseScroll?.();releaseScroll=null;}else cleanup();});
  openContact();tryAuto();void loadIndex();
  return {open,close,select};

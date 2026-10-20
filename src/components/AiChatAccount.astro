@@ -1,0 +1,15 @@
+---
+import WorkspaceButton from './WorkspaceButton.astro';
+import Icon from './Icon.astro';
+const {lang,copy,signIn}=Astro.props;
+---
+<div class="ai-chat__account">
+ <div class="ai-chat__auth" data-ai-auth>
+  <div class="ai-chat__auth-status" data-ai-auth-status>{copy.accountAnonymous}</div>
+  <div class="ai-chat__auth-actions">
+   <a class="ai-chat__auth-btn" data-ai-oauth href={signIn}>{lang==='en'?'Sign in / Create account':lang==='ja'?'ログイン・登録':'登录 / 注册'} <Icon name="arrow-right" /></a>
+   <WorkspaceButton class="ai-chat__auth-btn" type="button" data-ai-logout hidden><Icon name="log-out" /> {copy.logoutLabel}</WorkspaceButton>
+  </div>
+ </div>
+ <p data-ai-auth-note hidden></p>
+</div>
