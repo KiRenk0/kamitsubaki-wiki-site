@@ -15,6 +15,7 @@ import {buildEntityMusicCatalog} from '../../lib/entityViews.mjs';
 import ContributorRoster from '../../components/ContributorRoster.astro';
 import ExperiencePortals from '../../components/ExperiencePortals.astro';
 import Hero from '../../components/Hero.astro';
+import ActivityPromotion from '../../components/ActivityPromotion.astro';
 import HomeSiteNav from '../../components/HomeSiteNav.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
 import SupportBanner from '../../components/SupportBanner.astro';
@@ -64,6 +65,7 @@ const portalCopy=homePortalCopy(locale);
     <HomeSiteNav navItems={homeContent.navItems} localeLinks={localeLinks} brandLines={homeContent.hero.brandLines} homeHref={`/${locale}/`} />
     <AnnouncementModal announcement={featuredAnnouncement} labels={announcementModalLabels} archiveHref={`/${locale}/announcements/`} />
     <Hero hero={homeContent.hero}><HomeQuickSearch locale={locale}/></Hero>
+    <ActivityPromotion locale={locale}/>
     <HomeDirectory locale={locale} announcements={announcementEntries}/>
     <HomeMusicSection songs={songs} albums={albums} sections={homeContent.sections} locale={locale}/>
     <HomeArticles locale={locale}/>

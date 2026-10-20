@@ -36,3 +36,27 @@ test('new-article confirmation keeps the current draft until accepted and cancel
  }finally{f.restore();}
 });
 test('an explicit save retries a repaired media-state 409 without bypassing CAS choices',async()=>{const f=setup({id:''});let attempt=0;try{globalThis.fetch=async(url,options)=>{f.requests.push({url,body:options.body&&JSON.parse(options.body)});if(++attempt===1)return Response.json({error:{message:'Image must be staged again'}},{status:409});return Response.json({revisionId:'draft-1',id:'article-1',locale:'zh',draftVersion:1,fingerprint:'current'});};initializeArticleSubmission(f.root,f.editor,'alice');await settle();await f.get('[data-article-save]').onclick();assert.equal(attempt,1);await f.get('[data-article-save]').onclick();assert.equal(attempt,2);assert.match(f.get('[data-article-status]').textContent,/已保存/);}finally{f.restore();}});
+
+test('a rejected review opens the original workbench with full content and saves an explicitly linked new draft',async()=>{
+ const f=setup({id:''});
+ const content={title:'Rich article',summary:'Keep metadata',body:'## Heading\n\n{{ruby::花譜::かふ}}\n\n| A | B |\n| --- | --- |\n| 1 | 2 |',category:'archive',mediaRefs:[{id:'existing-media',url:'/images/source.png'}],relatedEntities:[{id:'kafu',type:'artist'}]};
+ let restored;
+ try{
+  globalThis.location.href='https://wiki.example/zh/articles/submit/?revision=returned-1';
+  f.editor.hasLocalWork=()=>false;
+  f.editor.restore=(value,locale)=>{restored={value,locale};};
+  f.editor.snapshot=()=>({locale:'zh',content:{...restored.value,title:'Revised title'}});
+  globalThis.fetch=async(url,options)=>{
+   f.requests.push({url,body:options.body&&JSON.parse(options.body)});
+   if(url.includes('/revisions/returned-1'))return Response.json({revision:{id:'returned-1',article_id:'existing',base_version:2,status:'rejected',locale:'zh',draft_version:4,content}});
+   if(url.includes('/items/existing'))return Response.json({article:{id:'existing',version:3,locale:'zh'}});
+   return Response.json({revisionId:'new-draft',id:'existing',locale:'zh',draftVersion:1,fingerprint:'new'});
+  };
+  initializeArticleSubmission(f.root,f.editor,'alice');await settle();
+  assert.deepEqual(restored,{value:content,locale:'zh'});
+  await f.get('[data-article-save]').onclick();
+  const saved=f.requests.at(-1).body;
+  assert.equal(saved.parentRevisionId,'returned-1');assert.equal(saved.articleId,'existing');assert.equal(saved.baseVersion,3);assert.equal(saved.revisionId,null);
+  assert.deepEqual(saved.content,{...content,title:'Revised title'});
+ }finally{f.restore();}
+});

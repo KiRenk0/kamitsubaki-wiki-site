@@ -66,7 +66,7 @@ export async function initializeWebsiteDocument(){
  if(!readLastLocalDraft()&&!revisionId&&!articleId&&!submissionId&&!draftPath){const identity=query.get('draft');const known=candidates.find(item=>item.automatic&&(!host.initialTarget||item.raw.path===host.initialTarget)&&(!identity||item.identity===identity));if(known)host.initialDocument=await restoreClassicDraft(known);}
  if(host.mode==='article'&&revisionId){
   const {revision:r}=await json('/api/articles/revisions/'+encodeURIComponent(revisionId));if(r.author_id!==host.ownerId)throw Error('请在内容管理中审核其他作者的稿件。');
-  const key='article:'+host.ownerId+':'+r.article_id,saved=readLocalDraft(key);const source=properties(articleSourceWithContent(newDocumentSource(r.locale),r.content),{id:r.article_id});
+  const key='article:'+host.ownerId+':'+r.article_id,saved=readLocalDraft(key);const source=r.status==='draft'&&saved&&saved.article&&saved.article.revisionId===r.id&&saved.article.fingerprint===r.fingerprint?saved.source:properties(articleSourceWithContent(newDocumentSource(r.locale),r.content),{id:r.article_id});
   if(saved&&saved.source!==source)saveLocalDraft({...saved,key:saved.key+':before-account-load:'+crypto.randomUUID(),savedAt:Date.now()});
   host.initialDocument={key,path:'',source,attachments:saved?.attachments,article:{ownerId:host.ownerId,articleId:r.article_id,revisionId:r.id,locale:r.locale,baseVersion:r.base_version,fingerprint:r.fingerprint,draftVersion:r.draft_version,status:r.status,updatedAt:r.updated_at,withdrawnAt:r.withdrawn_at}};
  }else if(host.mode==='article'&&articleId){
