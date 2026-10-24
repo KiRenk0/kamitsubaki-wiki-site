@@ -13,7 +13,7 @@
 
 ## Repository commands
 
-Read CONTRIBUTING.md and maintenance/README.md. Runtime: Node.js 22，pnpm 11.1.1.
+Read CONTRIBUTING.md and maintenance/README.md. Runtime: Node.js 22.23.4（`.node-version`），pnpm 11.1.1.
 
 ```sh
 pnpm test
