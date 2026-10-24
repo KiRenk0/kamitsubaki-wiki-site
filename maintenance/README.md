@@ -45,6 +45,7 @@ Wiki 使用 Cloudflare Git 集成从 main 执行 `node scripts/release-build.mjs
 - [投稿审查闭环](review-conversations.md)：本人讨论、修订和原编辑入口。
 活动中心的接口、组件与隔离验收说明见 [活动中心](activity-center.md)。
 
+首页与全站入口、公告提醒及 AI 嵌入见 [观测面板](dashboard.md)。
 ## Node 构建与同步运行时
 
 `.node-version` 固定已核验的安全补丁版本；CI 和贡献者同步共用它，并在安装依赖/同步前打印、校验实际 Node 版本。切换到此版本后运行 `pnpm node:check`。更新版本时同步调整 engines，并重新验证完整 CI。版本不匹配时构建、正式发布入口与同步拒绝继续。

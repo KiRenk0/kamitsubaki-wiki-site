@@ -1,7 +1,7 @@
-/* One viewport baseline and four explicit slots, including reading pages. */
+/* Support stays independent; the observer dashboard owns the other tools. */
 :root { --floating-action-size:48px; --floating-action-step:calc(var(--floating-action-size) + 10px); }
 html body :is(.support-float,.community-float,.tools-dock,.ai-chat__launcher){bottom:max(var(--floating-action-edge),env(safe-area-inset-bottom));}
-html body .support-float{position:fixed;z-index:42;width:var(--floating-action-size);height:var(--floating-action-size);right:calc(var(--floating-action-edge) + 3 * var(--floating-action-step));}
+html body .support-float{position:fixed;z-index:42;width:var(--floating-action-size);height:var(--floating-action-size);right:calc(var(--floating-action-edge) + var(--floating-action-step));}
 html body .community-float{right:calc(var(--floating-action-edge) + 2 * var(--floating-action-step));}
 html body .tools-dock,html body .tools-dock--reader{right:calc(var(--floating-action-edge) + var(--floating-action-step));}
 html body .ai-chat__launcher{right:var(--floating-action-edge);transition-property:opacity,transform;}

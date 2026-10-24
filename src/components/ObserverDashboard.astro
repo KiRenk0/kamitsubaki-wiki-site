@@ -1,0 +1,44 @@
+---
+import WorkspaceButton from './WorkspaceButton.astro';
+import Icon from './Icon.astro';
+import ContactIcon from './ContactIcon.astro';
+import AiChatWidget from './AiChatWidget.astro';
+import {dashboardCopy} from '../lib/dashboardCopy.mjs';
+import ContentSkeleton from './ContentSkeleton.astro';
+import '../styles/activityCenter.css';
+import '../styles/observerDashboard.css';
+interface Props {locale?:string;isHome?:boolean;aiCopy?:any;socialCopy?:{enabled?:boolean;maxVisible?:number;helper?:string;items:Array<{label:string;href:string;handle?:string;description?:string;icon?:string;enabled?:boolean;featured?:boolean}>};}
+const {locale='zh',isHome=false,aiCopy,socialCopy}=Astro.props,c=dashboardCopy(locale);
+const api=import.meta.env.PUBLIC_COMMUNITY_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
+const contacts=socialCopy?.enabled===false?[]:(socialCopy?.items||[]).filter(i=>i.enabled!==false&&i.href).sort((a,b)=>Number(!!b.featured)-Number(!!a.featured)).slice(0,socialCopy?.maxVisible);
+const sections=['overview','announcements',...(aiCopy?['ai']:[]),'tools'];
+---
+<div data-observer-dashboard data-locale={locale} data-api={api} data-home={String(isHome)} data-preview={String(import.meta.env.DEV)} data-copy={JSON.stringify(c)}>
+ <aside class="dashboard-float" id="social-contact">
+  <WorkspaceButton class="dashboard-launcher" data-dashboard-open hidden aria-label={c.enter} title={c.enter} aria-controls="observer-dashboard" aria-haspopup="dialog" aria-expanded="false"><span class="dashboard-launcher__cards" aria-hidden="true"><i></i><i></i><i></i></span><span class="dashboard-launcher__dot" data-dashboard-dot hidden></span></WorkspaceButton>
+  <noscript><nav aria-label={c.shortcuts}><a href={`/${locale}/events/`}>{c.viewCalendar}</a><a href={`/${locale}/announcements/`}>{c.announcements}</a><a href={`/${locale}/contribute/`}>{c.tools}</a><a href={`/${locale}/support/`}>{c.support}</a></nav></noscript>
+ </aside>
+ <dialog id="observer-dashboard" class="observer-dashboard reader-surface dui-modal" data-ui-kit aria-labelledby="observer-dashboard-title" data-dashboard-dialog>
+  <div class="observer-dashboard__surface">
+   <header class="observer-dashboard__header"><div class="wiki-article-heading"><h2 class="wiki-page-title" id="observer-dashboard-title" tabindex="-1">{c.title}</h2></div><WorkspaceButton tone="quiet" data-dashboard-close aria-label={c.dismiss}><Icon name="x"/></WorkspaceButton></header>
+   <nav class="observer-dashboard__tabs dui-tabs dui-tabs-border" role="tablist" aria-label={c.title}>{sections.map((section,index)=><button type="button" class="dui-tab" data-ui-kit id={`dashboard-tab-${section}`} role="tab" data-dashboard-tab={section} data-ai-toggle={section==='ai'?true:undefined} aria-selected={index===0} aria-controls={`dashboard-panel-${section}`} tabindex={index===0?0:-1}>{c[section]}</button>)}</nav>
+   <div class="observer-dashboard__content" data-dashboard-scroll>
+    <section role="tabpanel" id="dashboard-panel-overview" aria-labelledby="dashboard-tab-overview" data-dashboard-panel="overview">
+     <div class="dashboard-overview">
+      <section class="dashboard-activities"><div class="dashboard-section-heading"><div role="tablist" aria-label={c.title} class="dui-tabs dui-tabs-box dashboard-source-switch" data-ui-kit>{['community','official'].map((source,i)=><button type="button" role="tab" class:list={['dui-tab',i===0&&'dui-tab-active']} data-ui-kit data-dashboard-source={source} id={`dashboard-source-${source}`} aria-selected={i===0} aria-controls={`dashboard-activities-${source}`} tabindex={i===0?0:-1}>{c[source+'Tab']}</button>)}</div><a class="dashboard-calendar-link" aria-label={c.viewCalendar} title={c.viewCalendar} data-dashboard-view-all href={`/${locale}/community/activities/`}><Icon name="calendar-days"/><span>{c.viewCalendar}</span></a></div>
+      {['community','official'].map((source,i)=><section id={`dashboard-activities-${source}`} role="tabpanel" aria-labelledby={`dashboard-source-${source}`} data-dashboard-source-panel={source} hidden={i!==0} aria-busy="true"><p data-dashboard-activity-status={source} role="status" hidden></p><WorkspaceButton data-dashboard-activity-retry={source} tone="quiet" hidden>{c.retry}</WorkspaceButton><ContentSkeleton kind={source==='community'?'cards':'lines'} class={source==='community'?'dashboard-activity-skeleton':'dashboard-official-skeleton'} data-dashboard-activity-skeleton={source}/><div data-dashboard-activities={source} class:list={['dashboard-activity-list',source==='community'&&'dashboard-project-list']}></div></section>)}</section>
+      <div class="dashboard-bulletin"><section id="dashboard-notices"><div class="dashboard-section-heading"><h3>{c.announcements}</h3><WorkspaceButton data-dashboard-go="announcements" tone="quiet">{c.viewAll}</WorkspaceButton></div><div data-dashboard-notice-summary><ContentSkeleton data-dashboard-summary-skeleton/></div></section><section class="dashboard-recent-notices" data-dashboard-recent-notices aria-label={c.announcements}></section></div>
+     </div>
+    </section>
+    <section role="tabpanel" id="dashboard-panel-announcements" aria-labelledby="dashboard-tab-announcements" data-dashboard-panel="announcements" hidden><div class="dashboard-notice-reader"><nav data-dashboard-notice-list aria-label={c.announcements}></nav><div><p data-dashboard-notice-status role="status" hidden></p><WorkspaceButton data-dashboard-notice-retry tone="quiet" hidden>{c.retry}</WorkspaceButton><ContentSkeleton data-dashboard-notice-skeleton hidden/><article data-dashboard-notice-body class="wiki-reader wiki-prose"></article><a class="dashboard-archive" href={`/${locale}/announcements/`}>{c.archive}</a></div></div></section>
+    {aiCopy&&<section role="tabpanel" id="dashboard-panel-ai" aria-labelledby="dashboard-tab-ai" data-dashboard-panel="ai" hidden><div class="dashboard-ai-feedback" data-dashboard-ai-feedback hidden><p data-dashboard-ai-status role="status" hidden></p><ContentSkeleton class="dashboard-ai-loading" data-dashboard-ai-skeleton hidden/><WorkspaceButton data-dashboard-ai-retry tone="quiet" hidden>{c.retry}</WorkspaceButton></div><AiChatWidget lang={locale} copy={aiCopy} launcher="none" presentation="embedded" settingsText={c.settings}/></section>}
+    <section role="tabpanel" id="dashboard-panel-tools" aria-labelledby="dashboard-tab-tools" data-dashboard-panel="tools" hidden>
+     <div class="dashboard-tools"><section><h3>{c.shortcuts}</h3><div class="dashboard-tool-grid"><WorkspaceButton data-dashboard-search tone="quiet"><Icon name="search"/>{c.search}</WorkspaceButton>{[{label:c.account,path:'account/',icon:'user-round'},{label:c.gallery,path:'gallery/',icon:'images'},{label:c.contribute,path:'contribute/',icon:'square-pen'},{label:c.viewCalendar,path:'events/',icon:'calendar-days'},{label:c.apply,path:'community/activities/apply/',icon:'megaphone'}].map(item=><a class="dashboard-tool-link" href={`/${locale}/${item.path}`}><Icon name={item.icon}/>{item.label}</a>)}</div>
+     <h3>{c.appearance}</h3><div role="radiogroup" aria-label={c.theme} class="dashboard-appearance">{['system','light','dark'].map(value=><WorkspaceButton role="radio" data-theme-toggle data-theme-value={value} aria-checked="false" tone="quiet">{c[value]}</WorkspaceButton>)}</div></section>
+     <section data-dashboard-contact><h3>{c.contact}</h3>{socialCopy?.helper&&<p>{socialCopy.helper}</p>}<div class="dashboard-contacts">{contacts.map(item=><a href={item.href} target={item.href.startsWith('http')?'_blank':undefined} rel={item.href.startsWith('http')?'noopener noreferrer':undefined}><ContactIcon name={item.icon||'link'}/><span><strong>{item.label}</strong>{(item.handle||item.description)&&<small>{item.handle||item.description}</small>}</span></a>)}</div></section></div>
+    </section>
+   </div>
+  </div>
+ </dialog>
+</div>
+<script>import {initObserverDashboard} from '../scripts/observerDashboard.js';document.querySelectorAll('[data-observer-dashboard]').forEach(initObserverDashboard);</script>

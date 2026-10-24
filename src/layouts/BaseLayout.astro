@@ -1,15 +1,12 @@
 ---
 import { getCollection } from '../lib/contentAuditContext';
-import ToolsDock from '../components/ToolsDock.astro';
+import ObserverDashboard from '../components/ObserverDashboard.astro';
 import SupportFloat from '../components/SupportFloat.astro';
 import SupportDialog from '../components/SupportDialog.astro';
-import CommunityFloat from '../components/CommunityFloat.astro';
 import AccountChrome from '../components/AccountChrome.astro';
-import AiChatWidget from '../components/AiChatWidget.astro';
 
 import SiteSearch from '../components/SiteSearch.astro';
 import SiteIntro from '../components/SiteIntro.astro';
-import SocialContactWidget from '../components/SocialContactWidget.astro';
 import {
   getLanguageTag,
   getLocalizedSiteName,
@@ -215,13 +212,7 @@ const liveEventsCopy = siteContent?.liveEvents;
 
     <SupportFloat locale={lang} />
     <SupportDialog locale={lang} />
-    <CommunityFloat locale={lang} />
-    <ToolsDock lang={lang} reading={reading}>
-      <slot name="tools" />
-
-      {socialContactCopy && <SocialContactWidget lang={lang} copy={socialContactCopy} />}
-    </ToolsDock>
-    {aiChatCopy && <AiChatWidget lang={lang} copy={aiChatCopy} launcher="floating" />}
+    <ObserverDashboard locale={lang} isHome={isLocalizedHome} aiCopy={aiChatCopy} socialCopy={socialContactCopy}/>
 
     <slot />
     <AccountChrome locale={lang} />

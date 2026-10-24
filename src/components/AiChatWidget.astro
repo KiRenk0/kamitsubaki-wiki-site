@@ -2,6 +2,9 @@
 import WorkspaceButton from './WorkspaceButton.astro';
 import WorkspaceControl from './WorkspaceControl.astro';
 import Icon from '../components/Icon.astro';
+import AiChatAccount from './AiChatAccount.astro';
+import ContentSkeleton from './ContentSkeleton.astro';
+import '../styles/aiChatEmbedded.css';
 import { getLanguageTag } from '../lib/i18n.mjs';
 import {centralAccountFrontendOrigin} from '../lib/centralAccountOrigins.mjs';
 
@@ -50,8 +53,8 @@ type AiChatCopy = {
   quickPrompts: string[];
 };
 
-const { lang = 'zh', copy, launcher = 'floating', showPanel = true } = Astro.props as {
-  lang?: string; copy: AiChatCopy; launcher?: 'floating' | 'dock' | 'none'; showPanel?: boolean;
+const { lang = 'zh', copy, launcher = 'floating', showPanel = true, presentation = 'floating', settingsText } = Astro.props as {
+  lang?: string; copy: AiChatCopy; launcher?: 'floating' | 'dock' | 'none'; showPanel?: boolean; presentation?: 'floating' | 'embedded'; settingsText?: string;
 };
 const languageTag = getLanguageTag(lang);
 const normalizedCopy = {
@@ -110,7 +113,8 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
 </div>}
 
 {showPanel && <aside
-  class="ai-chat fixed inset-0 z-50 font-mono"
+  class:list={['ai-chat',presentation==='embedded'?'ai-chat--embedded':'font-mono fixed inset-0 z-50']}
+  data-ai-presentation={presentation}
   data-ai-chat
   data-api-base={apiBase}
   data-locale={lang}
@@ -119,38 +123,40 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
   aria-label={copy.title}
   inert
 >
-  <WorkspaceButton
+  {presentation!=='embedded'&&<WorkspaceButton
     class="ai-chat__scrim"
     type="button"
     data-ai-scrim
     aria-label={copy.closeLabel}
-  ></WorkspaceButton>
+  ></WorkspaceButton>}
 
   <section class="ai-chat__panel" data-ai-panel aria-hidden="true">
-    <div class="ai-chat__hud-grid"></div>
+    {presentation!=='embedded'&&<div class="ai-chat__hud-grid"></div>}
 
     <header class="ai-chat__header">
-      <div class="ai-chat__title-block">
+      {presentation!=='embedded'&&<div class="ai-chat__title-block">
         <span class="ai-chat__sys-status">SYS_LINK // {copy.status}</span>
         <h2 class="ai-chat__sys-title">{copy.title}</h2>
-      </div>
+      </div>}
 
       <div class="ai-chat__actions">
+        {presentation==='embedded'&&<WorkspaceButton class="ai-chat__icon-btn" type="button" data-ai-new-thread aria-label={normalizedCopy.newThreadLabel}><Icon name="square-pen" /><span>{normalizedCopy.newThreadLabel}</span></WorkspaceButton>}
         <WorkspaceButton class="ai-chat__icon-btn" type="button" data-ai-history-toggle aria-expanded="false" aria-label={normalizedCopy.historyLabel}>
           <Icon name="history" />
+          {presentation==='embedded'&&<span>{normalizedCopy.historyLabel}</span>}
         </WorkspaceButton>
         <WorkspaceButton class="ai-chat__icon-btn" type="button" data-ai-settings-toggle aria-expanded="false" aria-label={normalizedCopy.settingsLabel}>
           <Icon name="sliders-horizontal" />
+          {presentation==='embedded'&&<span>{settingsText||normalizedCopy.settingsLabel}</span>}
         </WorkspaceButton>
-        <WorkspaceButton class="ai-chat__icon-btn ai-chat__icon-btn--close" type="button" data-ai-close aria-label={copy.closeLabel}>
-          <Icon name="x" />
-        </WorkspaceButton>
+        {presentation!=='embedded'&&<WorkspaceButton class="ai-chat__icon-btn ai-chat__icon-btn--close" type="button" data-ai-close aria-label={copy.closeLabel}><Icon name="x" /></WorkspaceButton>}
       </div>
 
       <div class="ai-chat__settings-popover" data-ai-settings-popover hidden>
+        {presentation==='embedded'&&<AiChatAccount lang={lang} copy={normalizedCopy} signIn={signIn.toString()} showNote={false}/>}
         <div class="ai-chat__controls" data-ai-controls>
           <div class="ai-chat__control-group">
-            <span>// {normalizedCopy.retrievalLabel}</span>
+            <span>{presentation==='embedded'?'':'// '}{normalizedCopy.retrievalLabel}</span>
             <div class="ai-chat__segmented" role="radiogroup" data-ai-retrieval-mode data-value="auto">
               <WorkspaceButton type="button" role="radio" data-ai-retrieval-option="auto" aria-checked="true" class="is-active">
                 {normalizedCopy.retrievalAutoLabel}
@@ -165,23 +171,16 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
       </div>
     </header>
 
-    <div class="ai-chat__session-bar">
-      <div class="ai-chat__auth" data-ai-auth>
-        <div class="ai-chat__auth-status" data-ai-auth-status>{normalizedCopy.accountAnonymous}</div>
-        <div class="ai-chat__auth-actions">
-          <a class="ai-chat__auth-btn" data-ai-oauth href={signIn.toString()}>{lang==='en'?'Sign in / Create account':lang==='ja'?'ログイン・登録':'登录 / 注册'} <Icon name="arrow-right" /></a>
-          <WorkspaceButton class="ai-chat__auth-btn" type="button" data-ai-logout hidden><Icon name="log-out" /> {normalizedCopy.logoutLabel}</WorkspaceButton>
-        </div>
-      </div>
-      <p data-ai-auth-note hidden></p>
-    </div>
+    {presentation==='embedded'&&<p class="ai-chat__account-note" data-ai-auth-note hidden></p>}
+
+    {presentation!=='embedded'&&<div class="ai-chat__session-bar"><AiChatAccount lang={lang} copy={normalizedCopy} signIn={signIn.toString()}/></div>}
 
     <div class="ai-chat__body">
       <aside class="ai-chat__history" data-ai-history-panel hidden>
         <div class="ai-chat__history-head">
-          <span>// ARCHIVES</span>
+          <span>{presentation==='embedded'?normalizedCopy.historyLabel:'// ARCHIVES'}</span>
           <div class="ai-chat__history-actions">
-            <WorkspaceButton type="button" class="ai-chat__icon-btn" data-ai-new-thread aria-label={normalizedCopy.newThreadLabel}><Icon name="plus" /></WorkspaceButton>
+            {presentation!=='embedded'&&<WorkspaceButton type="button" class="ai-chat__icon-btn" data-ai-new-thread aria-label={normalizedCopy.newThreadLabel}><Icon name="plus" /></WorkspaceButton>}
             <WorkspaceButton type="button" class="ai-chat__icon-btn" data-ai-history-clear aria-label={normalizedCopy.clearHistoryLabel}><Icon name="trash-2" /></WorkspaceButton>
           </div>
         </div>
@@ -190,6 +189,7 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
       </aside>
 
       <main class="ai-chat__main">
+        {presentation==='embedded'&&<ContentSkeleton class="ai-chat__loading" count={2}/>}
         <div class="ai-chat__messages" data-ai-messages role="log" aria-live="polite">
           <article class="ai-message ai-message--assistant">
             <div class="ai-message__avatar" aria-hidden="true">
@@ -202,7 +202,7 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
         </div>
 
         <div class="ai-chat__quick" data-ai-quick>
-          {copy.quickPrompts.map((prompt) => <WorkspaceButton type="button" data-ai-prompt={prompt}>&gt; {prompt}</WorkspaceButton>)}
+          {copy.quickPrompts.map((prompt) => <WorkspaceButton type="button" data-ai-prompt={prompt}>{presentation==='embedded'?'':'> '}{prompt}</WorkspaceButton>)}
         </div>
 
         <div class="ai-chat__challenge-tray" data-ai-challenge-tray hidden aria-live="polite">
@@ -214,7 +214,7 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
 
         <form class="ai-chat__form" data-ai-form>
           <div class="ai-chat__composer">
-            <span class="ai-chat__prompt-symbol">&gt;_</span>
+            {presentation!=='embedded'&&<span class="ai-chat__prompt-symbol">&gt;_</span>}
             <WorkspaceControl as="textarea"
               id="ai-chat-input"
               data-ai-input
@@ -248,5 +248,6 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
 </aside>}
 
 <script>
-  import '../scripts/aiChatWidget.js';
+  // The embedded controller is imported only when the dashboard AI tab is used.
+  if(document.querySelector('[data-ai-chat]:not([data-ai-presentation=embedded])'))void import('../scripts/aiChatWidget.js');
 </script>
