@@ -1,4 +1,5 @@
 import {formatCommunityLocation} from './communityLocationFormat.mjs';
+import {iconMarkup} from './icons.mjs';
 
 const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safeHref=value=>{try{const u=new URL(value);return ['https:','http:'].includes(u.protocol)?escape(u.href):'';}catch{return '';}};
@@ -29,7 +30,7 @@ export function participationLinks(item,now=Date.now()){
 // metadata renderers. All activity values and outbound URLs are escaped here.
 export function activityDetailMarkup(item,{locale,copy:c,bodyHtml='',factsHtml='',creditHtml='',originalHtml='',text=String,now}={}){
  const v=value=>escape(text(value||'')),{links,primary}=participationLinks(item,now);
- const external=(link,cls='')=>`<a class="${cls}"${link===primary?' data-tone="primary"':''} href="${safeHref(link.url)}" target="_blank" rel="noopener noreferrer"${links.includes(link)?' data-activity-outbound':''}>${v(link.label||c[link.role+'Link']||c.primary)}${link===primary?'<span class="context-action__arrow" aria-hidden="true">↗</span>':''}</a>`;
+ const external=(link,cls='')=>`<a class="${cls}"${link===primary?' data-tone="primary"':''} href="${safeHref(link.url)}" target="_blank" rel="noopener noreferrer"${links.includes(link)?' data-activity-outbound':''}>${v(link.label||c[link.role+'Link']||c.primary)}${link===primary?iconMarkup('arrow-up-right'):''}</a>`;
  const poster=item.poster||item.media?.find(m=>m.role==='poster')?.src,posterHref=safeHref(poster);
  const place=item.locationPrecision==='pending'?c.pending:formatCommunityLocation(item,locale,text);
  const secondary=[...links.filter(l=>l!==primary),...(safeHref(item.sourceUrl)?[{label:c.source,url:item.sourceUrl}]:[]),...(safeHref(item.organizerUrl)?[{label:c.organizerUrl,url:item.organizerUrl}]:[])];
@@ -52,7 +53,7 @@ export function activityDetailMarkup(item,{locale,copy:c,bodyHtml='',factsHtml='
  <nav class="entity-section-nav activity-document-nav" aria-label="${escape(c.title)}">${nav.map(([id,label])=>`<a href="#activity-${id}">${escape(label)}</a>`).join('')}</nav></div>
  <div data-reader data-reader-variant="entry" class="reader-layout reader-frame mx-auto px-4 sm:px-6 grid items-start gap-8">
  <div class="reader-body">
- ${posterHref?`<figure class="activity-detail-art"><a href="${posterHref}" class="activity-poster-open" target="_blank" rel="noopener noreferrer" aria-label="${escape(c.viewPoster)}"><span class="activity-poster-frame"><img class="community-detail-poster" src="${posterHref}" alt="${v(item.title)}" fetchpriority="high"></span><span class="activity-poster-caption">${escape(c.viewPoster)}<span aria-hidden="true">↗</span></span></a></figure>`:''}
+ ${posterHref?`<figure class="activity-detail-art"><a href="${posterHref}" class="activity-poster-open" target="_blank" rel="noopener noreferrer" aria-label="${escape(c.viewPoster)}"><span class="activity-poster-frame"><img class="community-detail-poster" src="${posterHref}" alt="${v(item.title)}" fetchpriority="high"></span><span class="activity-poster-caption">${escape(c.viewPoster)}${iconMarkup('arrow-up-right')}</span></a></figure>`:''}
  <article id="activity-introduction" class="community-detail-body wiki-reader wiki-prose" lang="${escape(locale)}">${bodyHtml}</article>
  ${creditHtml?`<details class="activity-detail-credits"><summary>${escape(c.materialCredits)}</summary>${creditHtml}</details>`:''}</div>
  <aside class="reader-sidebar"><section id="activity-schedule" class="wiki-infobox entity-info activity-info" aria-label="${escape(c.activityInfo)}"><header><small>${escape(c.communityTab)}</small><h2>${escape(c.activityInfo)}</h2></header><div class="entity-info-body">

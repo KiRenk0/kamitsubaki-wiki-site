@@ -1,4 +1,5 @@
 ---
+import {reviewCopy} from '../../../lib/reviewCopy.mjs';
 import ContributionFlow from '../../../components/ContributionFlow.astro';
 import {contributionFlowCopy} from '../../../lib/contributionFlowCopy.mjs';
 import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
@@ -19,7 +20,7 @@ const api=import.meta.env.PUBLIC_ARTICLE_API_URL||import.meta.env.PUBLIC_GALLERY
  <WorkspaceButton slot="actions" href={`/${locale}/docs/contribute/`}>{copy.docs}</WorkspaceButton>
  <section>{paths.map((path,i)=><WorkspaceLinkCard href={`/${locale}/${path}`} title={copy.tasks[i]} description={contributionFlowCopy(locale)[(['entry','article','image','timeline','activity'] as const)[i]].route} index={String(i+1).padStart(2,'0')}/>)}</section>
  <ContributionFlow locale={locale}/>
- <section class="contribution-progress"><h2>{copy.progress}</h2><WorkspaceButton data-progress-load>{copy.load}</WorkspaceButton><div data-progress-results aria-live="polite"></div></section>
+ <section class="contribution-progress"><WorkspaceButton href={`/${locale}/contribute/review/`}>{reviewCopy(locale).title}</WorkspaceButton><h2>{copy.progress}</h2><WorkspaceButton data-progress-load>{copy.load}</WorkspaceButton><div data-progress-results aria-live="polite"></div></section>
 </WorkspaceLayout>
 <script>import '../../../scripts/contributionDashboard.js';</script>
 <style>.contribution-progress{margin-top:40px;border-top:1px solid rgb(var(--theme-fg-rgb)/.15);padding-top:24px}.contribution-progress h2{font:22px var(--font-serif);margin-bottom:18px}.contribution-progress :global(article){padding:18px 0;border-bottom:1px solid rgb(var(--theme-fg-rgb)/.12)}.contribution-progress :global(p){font-size:13px;line-height:1.8;opacity:.7}.contribution-progress :global(a){font-size:12px;text-decoration:underline;text-underline-offset:4px}</style>

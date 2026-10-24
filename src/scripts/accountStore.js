@@ -25,8 +25,8 @@ export async function api(path, {method='GET',body,owner=state.viewer?.userId}={
   const response = await fetch(url,{method,credentials:'include',cache:'no-store',signal:AbortSignal.timeout(15000),headers:{Accept:'application/json',...(body?{'Content-Type':'application/json'}:{})},body:body?JSON.stringify({...body,accountId:owner}):undefined});
   if(!(response.headers.get('content-type')||'').includes('application/json')) throw new Error('service_unavailable');
   const data=await response.json();
-  if(path.startsWith('/api/account') && owner && (state.viewer?.userId!==owner||requestGeneration!==generation))throw new Error('account_changed');
-  if(!response.ok && path.startsWith('/api/account') && response.status===401)queueMicrotask(()=>void refreshAuth(true));
+  if((path.startsWith('/api/account')||path.startsWith('/api/supporter-benefits')) && owner && (state.viewer?.userId!==owner||requestGeneration!==generation))throw new Error('account_changed');
+  if(!response.ok && (path.startsWith('/api/account')||path.startsWith('/api/supporter-benefits')) && response.status===401)queueMicrotask(()=>void refreshAuth(true));
   if(!response.ok) throw Object.assign(new Error(data.error?.code || 'request_failed'),{status:response.status,data});
   return data;
 }

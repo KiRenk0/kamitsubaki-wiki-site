@@ -1,0 +1,28 @@
+---
+import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
+import WorkspaceButton from '../../../components/WorkspaceButton.astro';
+import {supportedLocales} from '../../../lib/i18n.mjs';
+import {reviewCopy} from '../../../lib/reviewCopy.mjs';
+export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
+const {locale='zh'}=Astro.params,c=reviewCopy(locale);
+const api=import.meta.env.PUBLIC_ARTICLE_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
+---
+<WorkspaceLayout locale={locale} title={c.title} intro={c.intro} path="/contribute/review/" noindex width="wide" backHref={`/${locale}/contribute/`} backLabel={c.back} mainAttributes={{'data-own-review':'','data-api':api,'data-locale':locale,'data-copy':JSON.stringify(c)}}>
+ <WorkspaceButton data-review-reload>{c.retry}</WorkspaceButton>
+ <p data-review-status role="status"></p>
+ <div data-review-content></div>
+</WorkspaceLayout>
+<script>import '../../../scripts/ownReview.js';</script>
+<style>
+:global([data-review-content]){max-width:1000px;margin:24px auto;overflow-wrap:anywhere}
+:global([data-review-content] article){border:1px solid rgb(var(--theme-fg-rgb)/.2);border-radius:6px;padding:16px;margin-block:16px}
+:global([data-review-content] pre){white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.8}
+ :global([data-review-content] h2){font-size:24px;font-weight:600;line-height:1.4;margin:0 0 12px}
+:global([data-review-content] h3){font-size:18px;font-weight:600;margin:28px 0 14px}
+:global([data-review-content] p){font-size:14px;line-height:1.8;margin:10px 0}
+:global([data-review-content] summary){cursor:pointer;padding:14px 0;font-size:14px;font-weight:600}
+:global([data-review-content] form){display:grid;gap:12px;margin-block:16px}
+:global([data-review-content] label){display:grid;gap:6px}
+:global([data-review-content] textarea),:global([data-review-content] input){width:100%;padding:10px;border:1px solid rgb(var(--theme-fg-rgb)/.25);border-radius:6px;background:transparent;color:inherit}
+:global([data-review-content] button){justify-self:start;border:1px solid rgb(var(--theme-fg-rgb)/.3);border-radius:6px;padding:8px 14px;cursor:pointer}
+</style>
