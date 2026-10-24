@@ -1,8 +1,5 @@
 ---
 import AboutSection from '../../components/AboutSection.astro';
-import AnnouncementLauncher from '../../components/AnnouncementLauncher.astro';
-import AnnouncementModal from '../../components/AnnouncementModal.astro';
-import { renderAnnouncement, selectFeaturedAnnouncement } from '../../lib/announcements.mjs';
 import HomeMusicSection from '../../components/HomeMusicSection.astro';
 import HomeArticles from '../../components/HomeArticles.astro';
 import HomeExplore from '../../components/HomeExplore.astro';
@@ -12,16 +9,15 @@ import {buildEntityMusicCatalog} from '../../lib/entityViews.mjs';
 import ContributorRoster from '../../components/ContributorRoster.astro';
 import ExperiencePortals from '../../components/ExperiencePortals.astro';
 import Hero from '../../components/Hero.astro';
-import ActivityPromotion from '../../components/ActivityPromotion.astro';
 import HomeSiteNav from '../../components/HomeSiteNav.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
 import SupportBanner from '../../components/SupportBanner.astro';
 
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getBuildCollection as getCollection } from '../../lib/contentAuditContext';
-import { getLocalizedEntries, getLocalizedSite } from '../../lib/homeData.mjs';
+import { getLocalizedSite } from '../../lib/homeData.mjs';
 import { sampleRandom } from '../../lib/homeMusicCatalog.mjs';
-import { buildLocaleLinks, defaultLocale, resolveLocaleCopy, supportedLocales } from '../../lib/i18n.mjs';
+import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../lib/i18n.mjs';
 import { buildHomeMetadata } from '../../lib/metadata.mjs';
 
 export function getStaticPaths() {
@@ -33,20 +29,11 @@ export function getStaticPaths() {
 const { locale } = Astro.params;
 const siteEntries = await getCollection('site');
 const homeContent = getLocalizedSite(siteEntries, locale, defaultLocale);
-const announcementEntries = getLocalizedEntries(await getCollection('announcements'), locale, defaultLocale);
 const registry=await getEntityRegistry();
 const homeMusicCatalog = buildEntityMusicCatalog(registry, locale);
 const songs = sampleRandom(homeMusicCatalog.songs, 5);
 const albums = sampleRandom(homeMusicCatalog.albums, 5);
 
-const featuredAnnouncement = await renderAnnouncement(selectFeaturedAnnouncement(announcementEntries, {
-  includeDrafts: import.meta.env.DEV,
-}));
-const announcementModalLabels = resolveLocaleCopy({
-  zh: { open: '查看重要公告', close: '知道了', heading: '站点公告', draft: '公告预览 · 尚未发布', archive:'浏览公告历史' },
-  ja: { open: '重要なお知らせを表示', close: '閉じる', heading: 'サイトのお知らせ', draft: 'プレビュー · 未公開', archive:'過去のお知らせ' },
-  en: { open: 'View important notice', close: 'Close', heading: 'Site announcement', draft: 'Preview · Unpublished', archive:'Browse the archive' },
-}, locale);
 const localeLinks = buildLocaleLinks(homeContent, locale);
 const alternates = supportedLocales.map((localeCode) => ({
   locale: localeCode,
@@ -56,12 +43,9 @@ const metadata = buildHomeMetadata(homeContent, locale);
 ---
 
 <BaseLayout lang={locale} alternates={alternates} metadata={metadata}>
-  <Fragment slot="tools">{featuredAnnouncement && <AnnouncementLauncher labels={announcementModalLabels} />}</Fragment>
   <div data-page-context-root>
     <HomeSiteNav navItems={homeContent.navItems} localeLinks={localeLinks} brandLines={homeContent.hero.brandLines} homeHref={`/${locale}/`} />
-    <AnnouncementModal announcement={featuredAnnouncement} labels={announcementModalLabels} archiveHref={`/${locale}/announcements/`} />
     <Hero hero={homeContent.hero} />
-    <ActivityPromotion locale={locale}/>
     <HomeDirectory locale={locale} section={homeContent.sections.database}/>
     <HomeMusicSection songs={songs} albums={albums} sections={homeContent.sections} locale={locale}/>
     <HomeArticles locale={locale}/>

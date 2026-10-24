@@ -183,7 +183,7 @@ test('floating UI roots carry explicit Traditional Chinese language inheritance'
   ]);
 
   assert.match(layout, /getLocalizedSite\(siteEntries,\s*lang\)/);
-  assert.match(layout, /<SocialContactWidget\s+lang=\{lang\}/);
+  assert.match(layout, /<ObserverDashboard locale=\{lang\}[\s\S]*socialCopy=\{socialContactCopy\}/);
   assert.match(aiChat, /class="ai-chat[^"]*"[\s\S]*lang=\{languageTag\}/);
   const aiLauncher = aiChat.match(/<div\b[^>]*\bdata-ai-launcher\b[^>]*>/)?.[0] || '';
   assert.match(aiLauncher, /ai-chat__launcher/);

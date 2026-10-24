@@ -44,3 +44,5 @@ Wiki 使用 Cloudflare Git 集成从 main 执行 `node scripts/release-build.mjs
 
 - [投稿审查闭环](review-conversations.md)：本人讨论、修订和原编辑入口。
 活动中心的接口、组件与隔离验收说明见 [活动中心](activity-center.md)。
+
+首页与全站入口、公告提醒及 AI 嵌入见 [观测面板](dashboard.md)。
