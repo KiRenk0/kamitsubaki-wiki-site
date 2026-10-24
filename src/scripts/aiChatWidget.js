@@ -340,6 +340,7 @@ function insertTextareaNewline(input) {
 }
 
 function updateAuthState(root, copy, viewer) {
+  const accountFocus = document.activeElement;
   const status = root.querySelector('[data-ai-auth-status]');
   const logout = root.querySelector('[data-ai-logout]');
   const oauthButtons = root.querySelectorAll('[data-ai-oauth]');
@@ -377,6 +378,14 @@ function updateAuthState(root, copy, viewer) {
   if (note instanceof HTMLElement) {
     note.hidden = true;
     note.textContent = '';
+  }
+  // Signing in/out can hide the focused action inside the settings popover.
+  // Keep keyboard ownership in that layer instead of dropping it to the page.
+  if (root.dataset.aiPresentation === 'embedded' && accountFocus instanceof HTMLElement &&
+      root.contains(accountFocus) && accountFocus.matches('[data-ai-oauth],[data-ai-logout]') &&
+      accountFocus.hidden && root.getClientRects().length) {
+    const target = isUser ? logout : [...oauthButtons].find(button => button instanceof HTMLElement && !button.hidden);
+    if (target instanceof HTMLElement) target.focus({ preventScroll: true });
   }
 }
 

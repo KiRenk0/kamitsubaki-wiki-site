@@ -11,7 +11,7 @@ const [chrome, ai, navigation] = await Promise.all(['quietChrome', 'aiChatWidget
   define: { 'import.meta.env': '{}' }, external: ['katex', 'micromark', 'micromark-extension-gfm', 'micromark-extension-math'],
 })));
 
-function tools({ reading = true, navigationMotion = false, embedded = false, shellClose = false } = {}) {
+function tools({ reading = true, navigationMotion = false, embedded = false, shellClose = false, account = false } = {}) {
   const dom = new JSDOM(`<main><h1>Artist</h1><button id="outside">Outside</button></main>
     <details class="tools-dock" data-chrome-menu data-tools-dock ${reading ? 'data-reader-tools' : ''}>
       <summary tabindex="0">Tools</summary><div class="tools-dock__menu">
@@ -26,10 +26,10 @@ function tools({ reading = true, navigationMotion = false, embedded = false, she
         <div data-ai-launcher><button data-ai-toggle ${reading ? 'data-reader-tool-open="ai"' : ''} aria-expanded="false">AI</button></div>
       </div>
     </details>
-    <aside data-ai-chat ${embedded ? 'data-ai-presentation="embedded"' : ''} data-locale="zh" data-copy="{}" inert>
+    <aside data-ai-chat data-api-base="${account ? 'https://api.example' : ''}" ${embedded ? 'data-ai-presentation="embedded"' : ''} data-locale="zh" data-copy="{}" inert>
       <button data-ai-scrim>Scrim</button><section data-ai-panel aria-hidden="true">
         ${shellClose ? '' : '<button data-ai-close>Close AI</button>'}<button data-ai-settings-toggle>Settings</button><button data-ai-history-toggle>History</button>
-        <div data-ai-settings-popover hidden><button id="setting-option">Auto retrieval</button></div>
+        <div data-ai-settings-popover hidden>${account ? '<div data-ai-auth-status></div><a data-ai-oauth href="/login">Sign in</a><button data-ai-logout>Sign out</button>' : ''}<button id="setting-option">Auto retrieval</button></div>
         <div data-ai-history-panel hidden><div data-ai-thread-list><div data-thread-id="test-thread">
           <button data-ai-thread-menu-toggle aria-expanded="true">Conversation actions</button>
           <div class="ai-chat__thread-actions"><div data-ai-thread-action-view="choices" hidden>Choices</div><div data-ai-thread-action-view="rename"><input data-ai-thread-rename-input value="Existing title"></div></div>
@@ -253,5 +253,32 @@ test('embedded AI without a second close button initializes and leaves focus on 
     b.escape(b.$('[data-ai-input]'));
     assert.equal(closed, 1);
     assert.equal(b.$('[data-ai-input]').value, 'Draft retained');
+  } finally { b.dom.window.close(); }
+});
+
+
+test('embedded account transitions keep keyboard focus inside the visible settings layer', async () => {
+  const b = tools({ embedded: true, shellClose: true, account: true });
+  let viewer = { kind: 'user', userId: 'local-reader', displayName: 'Reader' };
+  const requests=[];
+  b.w.fetch = async (url) => {
+    requests.push(String(url));
+    if (String(url).endsWith('/sign-out')) viewer = { kind: 'anonymous' };
+    return { ok: true, headers: { get: () => 'application/json' }, json: async () => ({ viewer, conversations: [] }) };
+  };
+  try {
+    b.$('[data-ai-chat]').dispatchEvent(new b.w.Event('ai-widget:open'));
+    await new Promise(resolve => setTimeout(resolve, 30));
+    const settings=b.$('[data-ai-settings-toggle]'), logout=b.$('[data-ai-logout]'), login=b.$('[data-ai-oauth]');
+    assert.equal(logout.hidden, false);
+    settings.click();logout.focus();logout.click();
+    await new Promise(resolve => setTimeout(resolve, 30));
+    assert.equal(logout.hidden, true, JSON.stringify(requests));
+    assert.equal(login.hidden, false);
+    assert.equal(b.document.activeElement, login);
+    b.escape(login);
+    assert.equal(b.$('[data-ai-settings-popover]').hidden, true);
+    assert.equal(b.document.activeElement, settings);
+    assert.equal(b.$('[data-ai-chat]').classList.contains('is-open'), true);
   } finally { b.dom.window.close(); }
 });

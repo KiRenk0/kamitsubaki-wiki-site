@@ -3,6 +3,7 @@ export {scheduleText} from './activityPresentation.mjs';
 import {formatCommunityLocation} from './communityLocationFormat.mjs';
 import {contentText} from './communityClient.js';
 import {adaptActivityPoster} from './activityPoster.mjs';
+import {iconMarkup} from './icons.mjs';
 
 export const activityBase=value=>String(value||'https://api.kamitsubaki.wiki').replace(/\/$/,'');
 export const activityHref=(item,locale,entry='')=>item.source==='official'?item.sourceUrl:`/${locale}/community/activities/${encodeURIComponent(item.id)}/`+(entry?'?entry='+encodeURIComponent(entry):'');
@@ -52,7 +53,9 @@ export function activityCard(item,{locale,copy,base,placement='center',compact=f
  const status=['ongoing','ended','cancelled','postponed'].includes(state)?copy[state]:'';if(status){const badge=element('span',status,'activity-status activity-card__status');badge.dataset.state=state;body.append(badge);}if(item.cooperation)body.append(element('span',copy.cooperation,'activity-status'));
  const deadline=nextDeadline(item,locale,copy);if(deadline)body.append(element('p',deadline,'activity-deadline'));
  if(!compact&&item.summary)body.append(element('p',contentText(item.summary,item,locale),'activity-card__summary'));
- link.append(body);link.addEventListener('click',()=>{if(item.source==='official')trackActivity(base,item,placement,'outbound');});card.append(link);
+ link.append(body);
+ if(placement==='dashboard'&&item.source!=='official'&&!compact){const action=element('span',copy.details,'activity-card__primary');action.insertAdjacentHTML('beforeend',iconMarkup('arrow-up-right'));link.append(action);}
+ link.addEventListener('click',()=>{if(item.source==='official')trackActivity(base,item,placement,'outbound');});card.append(link);
  if(placement==='dashboard')return card;
  const actions=element('div',null,'activity-card__actions'),share=element('button',copy.shareShort,'activity-text-action');share.type='button';share.dataset.uiKit='';share.onclick=async()=>{const {copyActivity}=await import('./activityShare.js');await copyActivity(item,{locale,copy,base,placement},share);};actions.append(share);
  const exported=element('a',copy.calendarShort,'activity-text-action');exported.dataset.uiKit='';exported.href=activityBase(base)+(item.source==='official'?'/api/activity-center/official/items/':'/api/community-activities/items/')+encodeURIComponent(item.id)+'/calendar.ics?locale='+locale;exported.onclick=()=>trackActivity(base,item,placement,'export');if(item.schedule?.kind!=='undated')actions.append(exported);

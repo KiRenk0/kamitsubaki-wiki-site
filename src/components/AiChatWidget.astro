@@ -53,8 +53,8 @@ type AiChatCopy = {
   quickPrompts: string[];
 };
 
-const { lang = 'zh', copy, launcher = 'floating', showPanel = true, presentation = 'floating' } = Astro.props as {
-  lang?: string; copy: AiChatCopy; launcher?: 'floating' | 'dock' | 'none'; showPanel?: boolean; presentation?: 'floating' | 'embedded'; backLabel?: string;
+const { lang = 'zh', copy, launcher = 'floating', showPanel = true, presentation = 'floating', settingsText } = Astro.props as {
+  lang?: string; copy: AiChatCopy; launcher?: 'floating' | 'dock' | 'none'; showPanel?: boolean; presentation?: 'floating' | 'embedded'; settingsText?: string;
 };
 const languageTag = getLanguageTag(lang);
 const normalizedCopy = {
@@ -134,23 +134,26 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
     {presentation!=='embedded'&&<div class="ai-chat__hud-grid"></div>}
 
     <header class="ai-chat__header">
-      {presentation==='embedded'?<AiChatAccount lang={lang} copy={normalizedCopy} signIn={signIn.toString()}/>:<div class="ai-chat__title-block">
+      {presentation!=='embedded'&&<div class="ai-chat__title-block">
         <span class="ai-chat__sys-status">SYS_LINK // {copy.status}</span>
         <h2 class="ai-chat__sys-title">{copy.title}</h2>
       </div>}
 
       <div class="ai-chat__actions">
-        {presentation==='embedded'&&<WorkspaceButton class="ai-chat__icon-btn" type="button" data-ai-new-thread aria-label={normalizedCopy.newThreadLabel} title={normalizedCopy.newThreadLabel}><Icon name="plus" /></WorkspaceButton>}
+        {presentation==='embedded'&&<WorkspaceButton class="ai-chat__icon-btn" type="button" data-ai-new-thread aria-label={normalizedCopy.newThreadLabel}><Icon name="square-pen" /><span>{normalizedCopy.newThreadLabel}</span></WorkspaceButton>}
         <WorkspaceButton class="ai-chat__icon-btn" type="button" data-ai-history-toggle aria-expanded="false" aria-label={normalizedCopy.historyLabel}>
           <Icon name="history" />
+          {presentation==='embedded'&&<span>{normalizedCopy.historyLabel}</span>}
         </WorkspaceButton>
         <WorkspaceButton class="ai-chat__icon-btn" type="button" data-ai-settings-toggle aria-expanded="false" aria-label={normalizedCopy.settingsLabel}>
           <Icon name="sliders-horizontal" />
+          {presentation==='embedded'&&<span>{settingsText||normalizedCopy.settingsLabel}</span>}
         </WorkspaceButton>
         {presentation!=='embedded'&&<WorkspaceButton class="ai-chat__icon-btn ai-chat__icon-btn--close" type="button" data-ai-close aria-label={copy.closeLabel}><Icon name="x" /></WorkspaceButton>}
       </div>
 
       <div class="ai-chat__settings-popover" data-ai-settings-popover hidden>
+        {presentation==='embedded'&&<AiChatAccount lang={lang} copy={normalizedCopy} signIn={signIn.toString()} showNote={false}/>}
         <div class="ai-chat__controls" data-ai-controls>
           <div class="ai-chat__control-group">
             <span>{presentation==='embedded'?'':'// '}{normalizedCopy.retrievalLabel}</span>
@@ -167,6 +170,8 @@ const terminalUrl = `${terminalOrigin}/${lang}/`;
         </div>
       </div>
     </header>
+
+    {presentation==='embedded'&&<p class="ai-chat__account-note" data-ai-auth-note hidden></p>}
 
     {presentation!=='embedded'&&<div class="ai-chat__session-bar"><AiChatAccount lang={lang} copy={normalizedCopy} signIn={signIn.toString()}/></div>}
 

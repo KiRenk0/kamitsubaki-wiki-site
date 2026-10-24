@@ -1,7 +1,7 @@
 ---
 import WorkspaceButton from './WorkspaceButton.astro';
 import Icon from './Icon.astro';
-const {lang,copy,signIn}=Astro.props;
+const {lang,copy,signIn,showNote=true}=Astro.props;
 ---
 <div class="ai-chat__account">
  <div class="ai-chat__auth" data-ai-auth>
@@ -11,5 +11,5 @@ const {lang,copy,signIn}=Astro.props;
    <WorkspaceButton class="ai-chat__auth-btn" type="button" data-ai-logout hidden><Icon name="log-out" /> {copy.logoutLabel}</WorkspaceButton>
   </div>
  </div>
- <p data-ai-auth-note hidden></p>
+ {showNote&&<p data-ai-auth-note hidden></p>}
 </div>

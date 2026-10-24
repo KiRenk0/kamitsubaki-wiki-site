@@ -22,7 +22,7 @@ AI 复用一个 AiChatWidget 的 embedded 模式，首次选择 AI 才动态加�
 
 ## 隔离验收
 
-沿用维护入口的精确本机来源注册表，不使用生产 Cookie、模型或数据库。开发模式专用 `/__local__/dashboard` 可清除本机提示记录、模拟昨天、调整合成提醒版本；`/__local__/dashboard/viewport` 提供390px视口。两个路由仅在 WORKSPACE_ISOLATED=true 的开发服务器安装，不进入构建产物。
+沿用维护入口的精确本机来源注册表，不使用生产 Cookie、模型或数据库。开发模式专用 `/__local__/dashboard` 可清除本机提示记录与活动缓存、模拟昨天、调整合成提醒版本；`/__local__/dashboard/viewport` 提供390px视口。两个路由仅在 WORKSPACE_ISOLATED=true 的开发服务器安装，不进入构建产物。
 
 后端预览脚本可显式设置 ACTIVITY_PREVIEW_AI_FIXTURE=true，提供标明「本机合成」的 bootstrap、历史和 SSE；默认关闭，计数可从 `/__local__/fixtures` 查看。不调用真实模型。改期、取消、权限、缓存及统计口径继续按活动中心契约验证。
 
@@ -35,3 +35,7 @@ AI 复用一个 AiChatWidget 的 embedded 模式，首次选择 AI 才动态加�
 ## 面板尺寸与 AI 呈现
 
 外壳在桌面采用 min(780px,88dvh)，手机采用 94dvh；四个区域共享同一内容槽位，切换和加载不重算外壳高度。标题与页签固定，普通区域滚动正文。AI 由父级 flex 分配剩余空间，仅 assistant-ui 的 Viewport 滚动消息，输入栏始终可见。嵌入模式不再显示浮窗标题、返回按钮或终端提示符；账号、历史、新对话、设置沿用原控制器，首次选择按需加载单实例，保留草稿和请求状态，不自动聚焦或唤起手机键盘。加载使用既有 Skeleton，失败在同一内容槽内重试，完整海报规则不变。
+
+已选视觉方向与组件规范统一维护于 [DESIGN.md](../DESIGN.md)，参考稿和浏览器对照见 [设计验收](../design-qa.md)。主企划整卡中的详情操作使用同一链接；手机日历为40px图标入口，保持五语言来源切换横排。AI 新对话、历史、设置使用文字工具栏，账号入口收在设置中，认证提示仍直接显示于正文上方。
+
+本机后端脚本的 `/__local__/activity-network?delay=4000` 和 `?fail=1` 可验证真实延迟/失败，空参数恢复；不会写入活动或生产环境。`/__local__/identity?user=viewer&returnTo=wiki` 使用明确合成身份返回当前本机 Wiki，供 AI 操作验收。
