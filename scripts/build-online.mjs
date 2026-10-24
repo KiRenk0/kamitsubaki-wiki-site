@@ -1,4 +1,7 @@
 import {spawnSync} from 'node:child_process';
+import { checkNodeVersion } from './check-node-version.mjs';
+
+checkNodeVersion();
 
 // Explicit release configuration: do not inherit a local fixture's service URLs.
 const api='https://api.kamitsubaki.wiki';

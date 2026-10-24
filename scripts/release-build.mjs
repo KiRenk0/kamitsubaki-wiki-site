@@ -1,5 +1,8 @@
 import {spawnSync} from 'node:child_process';
+import { checkNodeVersion } from './check-node-version.mjs';
 import {checkReleaseBaseline} from './release-baseline.mjs';
+checkNodeVersion();
+
 // Cloudflare production builds use this entrypoint. Feature branches remain preview-only.
 const production=process.env.CF_PAGES_BRANCH==='main'||process.argv.includes('--production');
 if(production)await checkReleaseBaseline();

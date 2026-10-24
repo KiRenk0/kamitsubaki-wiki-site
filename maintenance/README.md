@@ -2,7 +2,7 @@
 
 ## 本地开发
 
-Node.js 22，pnpm 11.1.1。安装命令见 [贡献说明](../CONTRIBUTING.md)。基础启动示例：
+Node.js 22.23.4（`.node-version`），pnpm 11.1.1。安装命令见 [贡献说明](../CONTRIBUTING.md)。基础启动示例：
 
 ```sh
 pnpm dev --host 127.0.0.1 --port 18000
@@ -44,3 +44,11 @@ Wiki 使用 Cloudflare Git 集成从 main 执行 `node scripts/release-build.mjs
 
 - [投稿审查闭环](review-conversations.md)：本人讨论、修订和原编辑入口。
 活动中心的接口、组件与隔离验收说明见 [活动中心](activity-center.md)。
+
+## Node 构建与同步运行时
+
+`.node-version` 固定已核验的安全补丁版本；CI 和贡献者同步共用它，并在安装依赖/同步前打印、校验实际 Node 版本。切换到此版本后运行 `pnpm node:check`。更新版本时同步调整 engines，并重新验证完整 CI。版本不匹配时构建、正式发布入口与同步拒绝继续。
+
+修复依据：[Node.js 2026-10-21 安全公告](https://nodejs.org/en/blog/vulnerability/october-2026-security-releases)。这属于构建工具运行时；Cloudflare Workers 的 `compatibility_date` 和 Wrangler 版本不能替代 Node 安全补丁。
+
+Cloudflare Pages 从仓库根目录 `.node-version` 选择 Node。另行只读核对生产/预览 `NODE_VERSION` 环境变量，避免云端旧覆盖值；若存在覆盖，须在正式发布前调整为仓库固定版本。既有 `node scripts/release-build.mjs` 入口会记录并校验实际运行时，旧环境直接失败。只有正式构建日志才能证明云端已生效，不把 PR CI 结果当作生产证据。
