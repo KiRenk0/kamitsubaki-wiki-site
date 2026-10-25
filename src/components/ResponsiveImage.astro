@@ -8,4 +8,4 @@ interface Props extends Omit<HTMLAttributes<'img'>, 'src'> {
 const { src, widths, sizes, loading = 'lazy', ...attributes } = Astro.props;
 const image = imageAttributes(src, { widths, sizes });
 ---
-<img {...image} decoding="async" loading={loading} {...attributes} />
+<img data-original={src} data-original-width={image.width} data-original-height={image.height} {...image} decoding="async" loading={loading} {...attributes} />

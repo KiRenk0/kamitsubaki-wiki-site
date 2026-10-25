@@ -1,3 +1,4 @@
+import {setLoadingStatus} from '../lib/loadingStatus.mjs';
 import {
   LIVE_EVENTS_POLL_INTERVAL,
   buildEventsUrl,
@@ -80,7 +81,7 @@ function mountLiveEvents(widget) {
   };
 
   const setStatus = (message, state) => {
-    status.textContent = message;
+    if(state==='loading')setLoadingStatus(status,message);else status.textContent=message;
     status.dataset.state = state;
     status.hidden = false;
     widget.dataset.liveEventsState = state;

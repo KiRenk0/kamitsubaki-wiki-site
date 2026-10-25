@@ -1,3 +1,4 @@
+import {setLoadingStatus} from '../lib/loadingStatus.mjs';
 import {state,copy,loginUrl,securityUrl} from './accountStore.js';
 function initializeAccountNavigation(){
 const root=document.querySelector('[data-account-page]');
@@ -11,8 +12,8 @@ if(root&&!root.dataset.accountNavigationReady){
     if(workspace)workspace.hidden=!state.viewer;
     if(!state.viewer){
       panels.forEach(panel=>{panel.hidden=true;});gate.hidden=false;
-      gate.querySelector('h2').textContent=state.auth==='checking'?copy.checking:copy.loginTitle;
-      gate.querySelector('p').textContent=state.auth==='checking'?copy.loading:state.auth==='unavailable'?copy.unavailable:copy.loginNote;
+      if(state.auth==='checking')setLoadingStatus(gate.querySelector('h2'),copy.checking);else gate.querySelector('h2').textContent=copy.loginTitle;
+      gate.querySelector('p').textContent=state.auth==='checking'?'':state.auth==='unavailable'?copy.unavailable:copy.loginNote;
       gate.querySelector('[data-account-login]').hidden=state.auth==='checking';return;
     }
     if(['#security','#identities','#devices'].includes(location.hash)){location.assign(securityUrl());return;}
@@ -22,7 +23,7 @@ if(root&&!root.dataset.accountNavigationReady){
     panels.forEach(panel=>{panel.hidden=panel.dataset.accountPanel!==id || (panel.hasAttribute('data-account-member') && (!state.viewer || !state.account));});
     gate.hidden=['overview','library','appearance'].includes(id) || !!state.account;
     gate.querySelector('button').hidden=!!state.viewer;
-    gate.querySelector('p').textContent=state.viewer?(state.accountLoad==='error'?copy.loadFailed:copy.loading):copy.loginNote;
+    if(state.viewer&&state.accountLoad!=='error')setLoadingStatus(gate.querySelector('p'),copy.loading);else gate.querySelector('p').textContent=state.viewer?copy.loadFailed:copy.loginNote;
     if(!gate.hidden)gate.querySelector('h2').textContent=links.find(link=>link.hash==='#'+id)?.dataset.accountLabel || copy.loginTitle;
     root.querySelectorAll('[data-account-login-provider]').forEach(a=>{a.href=loginUrl(a.dataset.accountLoginProvider,a.dataset.accountLoginIntent==='link');});
   }

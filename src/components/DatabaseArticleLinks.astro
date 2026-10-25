@@ -1,4 +1,5 @@
 ---
+import LoadingStatus from './LoadingStatus.astro';
 import WorkspaceButton from './WorkspaceButton.astro';
 import Icon from './Icon.astro';
 import ReaderDisclosure from './ReaderDisclosure.astro';
@@ -13,7 +14,7 @@ const column=locale==='en'?'Article column':locale==='ja'?'記事コラム':'文
 ---
 <div data-db-articles data-api={api} data-entity-id={id} data-locale={locale}>
  <ReaderDisclosure title={copy.relatedArticles}>
-  <div class="related-article-state" data-db-article-state><p role="status" aria-live="polite" data-db-article-status>{copy.loading}</p><div class="related-article-state__actions"><WorkspaceButton class="context-action" data-tone="quiet" type="button" data-db-article-retry hidden>{copy.retry} <span aria-hidden="true">↻</span></WorkspaceButton><ContextAction href={`/${locale}/articles/`} tone="quiet">{column}</ContextAction></div></div>
+  <div class="related-article-state" data-db-article-state><p role="status" aria-live="polite" data-db-article-status><LoadingStatus label={copy.loading}/></p><div class="related-article-state__actions"><WorkspaceButton class="context-action" data-tone="quiet" type="button" data-db-article-retry hidden>{copy.retry} <span aria-hidden="true">↻</span></WorkspaceButton><ContextAction href={`/${locale}/articles/`} tone="quiet">{column}</ContextAction></div></div>
   <ReaderRecordList records={[]} id={`db-articles-${id}`} locale={locale}/>
   <div class="related-article-actions" data-db-article-actions hidden><WorkspaceButton class="context-action" type="button" data-db-article-more hidden>{more}<span data-db-article-next></span><span aria-hidden="true"><Icon name="arrow-down" /></span></WorkspaceButton><WorkspaceButton class="context-action" type="button" data-db-article-collapse hidden>{collapse} <Icon name="arrow-up" /></WorkspaceButton><ContextAction href={`/${locale}/articles/`} tone="quiet">{column}</ContextAction><ContextAction href={`/${locale}/articles/?related=${encodeURIComponent(id)}`} tone="quiet">{copy.allRelated}</ContextAction></div>
  </ReaderDisclosure>
@@ -23,6 +24,7 @@ const column=locale==='en'?'Article column':locale==='ja'?'記事コラム':'文
 @media(max-width:600px){.related-article-actions :global(a:first-of-type){margin-left:0}.related-article-state{flex-wrap:wrap}.related-article-state__actions{width:100%;justify-content:flex-start}}
 </style>
 <script>
+import {setLoadingStatus} from '../lib/loadingStatus.mjs';
 import {articleCopy} from '../lib/articleCopy.mjs';
 import {localizeArticleText} from '../lib/articlePresentation.mjs';
 document.querySelectorAll<HTMLElement>('[data-db-articles]').forEach(root=>{
@@ -39,7 +41,7 @@ document.querySelectorAll<HTMLElement>('[data-db-articles]').forEach(root=>{
   const summary=document.createElement('small');summary.textContent=await localizeArticleText(item.summary,locale);text.append(title,meta,summary);a.append(number,text);grid.append(a);
   if(i>=12&&!matchMedia('(prefers-reduced-motion: reduce)').matches)a.animate([{opacity:0,translate:'0 8px'},{opacity:1,translate:'0 0'}],{duration:360,delay:(i-start)*22,easing:'cubic-bezier(.22,1,.36,1)'});
  }shown=target;update();};
- const fetchPage=async()=>{if(offset===null||busy)return;busy=true;root.setAttribute('aria-busy','true');state.hidden=false;retry.hidden=true;status.textContent=copy.loading;try{
+ const fetchPage=async()=>{if(offset===null||busy)return;busy=true;root.setAttribute('aria-busy','true');state.hidden=false;retry.hidden=true;setLoadingStatus(status,copy.loading);try{
   const response=await fetch(`${root.dataset.api}/api/articles?locale=${encodeURIComponent(locale)}&related=${encodeURIComponent(root.dataset.entityId||'')}&offset=${offset}`,{signal:AbortSignal.timeout(15000)});if(!response.ok)throw Error(copy.unavailable);
   const page=await response.json();buffered.push(...page.items);offset=page.nextOffset;total=typeof page.total==='number'?page.total:undefined;
   if(total!==undefined){const count=root.querySelector('.reader-disclosure-count')||document.createElement('span');count.className='reader-disclosure-count';count.textContent=String(total).padStart(2,'0');root.querySelector('summary .reader-disclosure-title')?.after(count);}

@@ -1,3 +1,4 @@
+import {setLoadingStatus} from '../lib/loadingStatus.mjs';
 import {api,state,renderAccountIdentity} from './accountStore.js';
 
 const root=document.querySelector('[data-account-page]');
@@ -11,8 +12,9 @@ if(root){
     const viewer=state.viewer,next=viewer?.userId||null;
     guest.hidden=Boolean(next);
     guest.querySelector('[data-guest-eyebrow]').textContent=state.auth==='guest'?guest.dataset.guestEyebrow:'ACCOUNT / STATUS';
-    guest.querySelector('[data-guest-title]').textContent=state.auth==='checking'?guest.dataset.checkingTitle:state.auth==='unavailable'?guest.dataset.unavailableTitle:guest.dataset.guestTitle;
-    guest.querySelector('[data-guest-note]').textContent=state.auth==='checking'?guest.dataset.checkingNote:state.auth==='unavailable'?guest.dataset.unavailableNote:guest.dataset.guestNote;
+    const title=guest.querySelector('[data-guest-title]');
+    if(state.auth==='checking')setLoadingStatus(title,guest.dataset.checkingTitle);else title.textContent=state.auth==='unavailable'?guest.dataset.unavailableTitle:guest.dataset.guestTitle;
+    guest.querySelector('[data-guest-note]').textContent=state.auth==='checking'?'':state.auth==='unavailable'?guest.dataset.unavailableNote:guest.dataset.guestNote;
     guest.querySelector('[data-account-login]').hidden=state.auth==='checking'||state.auth==='unavailable';
     progress.hidden=!next;
     if(next)renderAccountIdentity(identity);else identity.textContent=identity.dataset.guestTitle||'';

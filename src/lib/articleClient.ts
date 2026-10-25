@@ -1,3 +1,4 @@
+import {setLoadingStatus} from './loadingStatus.mjs';
 import {setIconLabel} from './icons.mjs';
 import {articleEntities} from './articleEntities.mjs';
 import {localizeArticleText,localizeArticleBody} from './articlePresentation.mjs';
@@ -37,7 +38,7 @@ export function initArticleBrowser(root:HTMLElement){
  const previous=root.querySelector<HTMLButtonElement>('[data-article-previous]')!;
  for(const name of ['q','category','origin','sort']){const value=new URL(location.href).searchParams.get(name);const control=form.elements.namedItem(name);if(value&&control instanceof HTMLElement&&(control instanceof HTMLInputElement||control instanceof HTMLSelectElement))control.value=value;}
  const load=async(reset=false)=>{
-  controller?.abort();const current=controller=new AbortController();more.disabled=true;root.setAttribute('aria-busy','true');status.textContent=copy.loading;state.dataset.state='loading';emptyWrite.hidden=true;retry.hidden=true;previous.disabled=true;
+  controller?.abort();const current=controller=new AbortController();more.disabled=true;root.setAttribute('aria-busy','true');setLoadingStatus(status,copy.loading);state.dataset.state='loading';emptyWrite.hidden=true;retry.hidden=true;previous.disabled=true;
   try{
    const q=new URLSearchParams(new FormData(form) as any);if(related)q.set('related',related);q.set('locale',contentLocale);q.set('offset',String(reset?0:offset||0));
    const page=await call('?'+q,current.signal);const localized=await Promise.all(page.items.map(async(article:any)=>({...article,title:await localizeArticleText(article.title,locale),summary:await localizeArticleText(article.summary,locale)})));if(current.signal.aborted)return;

@@ -10,7 +10,7 @@
   themes: false;
   prefix: "dui-";
   root: "[data-ui-kit]";
-  include: button, input, select, textarea, checkbox, radio, range, file-input, progress, badge, loading;
+  include: button, input, select, textarea, checkbox, radio, range, file-input, progress, badge, loading, skeleton, tab;
 }
 @import "katex/dist/katex.min.css";
 @import "@fontsource-variable/montserrat";
@@ -1343,7 +1343,8 @@ html.site-search-open body {
 }
 
 .site-search__input::placeholder {
-  color: rgb(var(--theme-fg-rgb) / 0.32);
+  color: rgb(var(--theme-fg-rgb) / 0.6);
+  opacity: 1;
 }
 
 .site-search__form kbd {
@@ -6947,7 +6948,7 @@ html body .site-search__panel::before,html body .site-search__panel::after{displ
 html body .site-search__filters .workspace-button.dui-btn{--workspace-control-padding:6px 12px;--workspace-control-height:38px;--workspace-control-font:500 12px/1.5 var(--font-sans);--workspace-control-background:transparent;--workspace-control-shadow:none;--workspace-control-color:var(--ui-color-muted);min-height:38px;}
 html body .site-search__filters .workspace-button.dui-btn.is-active{--workspace-control-background:rgb(var(--theme-accent-rgb)/.1);--workspace-control-color:var(--theme-accent-color);border-color:rgb(var(--theme-accent-rgb)/.35);}
 html body .site-search__close.workspace-button.dui-btn{--workspace-control-padding:0;width:44px;height:44px;min-width:44px;display:grid;place-items:center;}
-html body .site-search__input.workspace-control{border:0;box-shadow:none;--workspace-control-height:56px;background:transparent;border-radius:0;font-size:16px;}
+html body .site-search__input.workspace-control{border:0;box-shadow:none;--workspace-control-height:44px;background:transparent;border-radius:0;font-size:16px;}
 html body .site-search__status{min-height:52px;line-height:1.7;letter-spacing:0;font-family:var(--font-sans);}
 html body .site-search__more{margin:0;border-radius:0;}
 html body .site-search__footer{min-height:40px;}
@@ -6955,3 +6956,21 @@ html body .site-search__footer{min-height:40px;}
 .site-search__filters button,.site-search__retry-btn,.site-search__more{min-height:var(--ui-hit-target,44px);font-size:var(--ui-font-xs,12px)}
 .site-search__retry-btn{padding:8px 12px}
 .site-search :is(button,input,a):focus-visible{outline:2px solid var(--theme-accent-color);outline-offset:3px}
+
+/* Search controls share one optical center, independent of native input metrics. */
+html body .site-search__form { gap: 12px; padding-block: 12px; }
+html body .site-search__input.workspace-control {
+  --workspace-control-padding: 0;
+  box-sizing: border-box;
+  height: 44px;
+  min-height: 44px;
+  padding: 10px 0;
+  margin: 0;
+  line-height: 24px;
+  width: 100%;
+}
+html body .site-search__form:focus-within { box-shadow: inset 0 -2px var(--theme-accent-color); }
+html body .site-search__input.workspace-control:focus-visible { outline: none; box-shadow: none; }
+@media (max-width: 767px) {
+  html body .site-search__panel { width: 100%; max-width: 100%; }
+}
