@@ -1,3 +1,4 @@
+import {setLoadingStatus} from '../src/lib/loadingStatus.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -7,7 +8,7 @@ const script=readFileSync(new URL('../src/scripts/accountBenefits.js',import.met
 const tick=()=>new Promise(resolve=>setTimeout(resolve,0));
 function fixture(api){
  const dom=new JSDOM('<div data-account-page><a href="#benefits">benefits</a><section data-account-benefits><button data-benefit-refresh>refresh</button><p data-benefit-status></p><div data-benefit-view></div></section></div>',{url:'https://wiki.example.test/zh/account/#benefits',runScripts:'outside-only'}),state={viewer:{userId:'alice'}};
- Object.assign(dom.window,{api,state,locale:'zh',benefitsCopy});dom.window.eval(script);dom.window.document.dispatchEvent(new dom.window.Event('DOMContentLoaded'));return {dom,state,root:dom.window.document.querySelector('[data-benefit-view]')};
+ Object.assign(dom.window,{api,state,setLoadingStatus,locale:'zh',benefitsCopy});dom.window.eval(script);dom.window.document.dispatchEvent(new dom.window.Event('DOMContentLoaded'));return {dom,state,root:dom.window.document.querySelector('[data-benefit-view]')};
 }
 const index={eligibility:{rank:3,tiers:['joint'],validUntil:'2030-01-01T00:00:00Z'},items:[{id:'post',title:'Earned post',published_at:'2026-10-18T00:00:00Z'}],history:[],preferences:{version:0,content_updates:1,review_updates:1,expiry_reminders:1},page:1,hasMore:false};
 test('account benefits fetches the canonical authenticated route, renders private content as text and clears it immediately on sign-out',async()=>{

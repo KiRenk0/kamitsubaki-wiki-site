@@ -150,6 +150,7 @@ document.addEventListener('DOMContentLoaded', () => {
         siteIntro.hidden = true;
         siteIntro.dataset.state = 'complete';
         document.documentElement.classList.remove('site-intro-enabled');
+        window.dispatchEvent(new CustomEvent('wiki-site-intro-complete'));
         startReveals();
       }, skipped || prefersReducedMotion ? 180 : 720);
     };

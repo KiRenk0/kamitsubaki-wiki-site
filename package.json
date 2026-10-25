@@ -7,7 +7,7 @@
     "i18n:generate": "node scripts/generate-traditional-chinese.mjs",
     "predev": "node scripts/sync-support-catalog.mjs && node scripts/generate-support-qr.mjs --check && node scripts/sync-traditional-definition.mjs && pnpm build:site-components && pnpm build:editor && pnpm i18n:generate",
     "dev": "astro dev",
-    "prebuild": "node scripts/sync-support-catalog.mjs && node scripts/generate-support-qr.mjs --check && node scripts/sync-traditional-definition.mjs && pnpm build:site-components && node scripts/build-game-ui.mjs && pnpm build:editor && pnpm validate:content && pnpm i18n:generate && pnpm gallery:entities:check && pnpm gallery:imports:check && pnpm gallery:publication:check",
+    "prebuild": "node scripts/check-node-version.mjs && node scripts/sync-support-catalog.mjs && node scripts/generate-support-qr.mjs --check && node scripts/sync-traditional-definition.mjs && pnpm build:site-components && node scripts/build-game-ui.mjs && pnpm build:editor && pnpm validate:content && pnpm i18n:generate && pnpm gallery:entities:check && pnpm gallery:imports:check && pnpm gallery:publication:check",
     "build": "astro build",
     "build:online": "node scripts/build-online.mjs",
     "check:online-build": "node scripts/audit-online-build.mjs",
@@ -47,7 +47,8 @@
     "dev:novel": "pnpm --dir prototypes/novel-editor dev",
     "build:editor": "node scripts/build-editor-workbench.mjs",
     "build:site-components": "node scripts/build-site-components.mjs",
-    "check:mature-components": "node scripts/build-site-components.mjs --check && node scripts/sync-companion-ui.mjs --check && node scripts/complete-ui-controls.mjs --check && node scripts/build-game-ui.mjs --check && node scripts/sync-traditional-definition.mjs --check && node scripts/sync-support-catalog.mjs --check && node scripts/generate-support-qr.mjs --check"
+    "check:mature-components": "node scripts/build-site-components.mjs --check && node scripts/sync-companion-ui.mjs --check && node scripts/complete-ui-controls.mjs --check && node scripts/build-game-ui.mjs --check && node scripts/sync-traditional-definition.mjs --check && node scripts/sync-support-catalog.mjs --check && node scripts/generate-support-qr.mjs --check",
+    "node:check": "node scripts/check-node-version.mjs"
   },
   "dependencies": {
     "@codemirror/autocomplete": "^6.20.3",
@@ -138,5 +139,8 @@
       "sharp"
     ]
   },
-  "packageManager": "pnpm@11.1.1"
+  "packageManager": "pnpm@11.1.1",
+  "engines": {
+    "node": ">=22.23.4 <23"
+  }
 }

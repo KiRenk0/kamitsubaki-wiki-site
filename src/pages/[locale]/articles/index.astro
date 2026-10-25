@@ -1,4 +1,5 @@
 ---
+import LoadingStatus from '../../../components/LoadingStatus.astro';
 import {pageLabels} from '../../../lib/pageLabels.mjs';
 import WorkspaceControl from '../../../components/WorkspaceControl.astro';
 import Icon from '../../../components/Icon.astro';
@@ -23,7 +24,7 @@ const locale=Astro.params.locale!;const copy=articleCopy(locale);const api=impor
   <div class="workspace-filter-actions"><WorkspaceButton type="submit">{copy.search}</WorkspaceButton><WorkspaceButton type="reset" tone="quiet">{copy.clear}</WorkspaceButton></div>
  </WorkspaceFilters>
  <WorkspaceState state="loading" data-article-state>
-  <p role="status" data-article-status>{copy.loading}</p>
+  <p role="status" data-article-status><LoadingStatus label={copy.loading}/></p>
   <Fragment slot="actions"><WorkspaceButton href={`/${locale}/articles/submit/`} data-article-empty-write hidden>{copy.submit} <span aria-hidden="true"><Icon name="arrow-up-right" /></span></WorkspaceButton><WorkspaceButton data-article-retry hidden>{copy.retry}</WorkspaceButton></Fragment>
  </WorkspaceState>
  <div class="article-list-grid" data-article-grid></div>

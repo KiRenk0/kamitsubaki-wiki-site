@@ -1,3 +1,4 @@
+import {setLoadingStatus} from '../lib/loadingStatus.mjs';
 import {openEditorPopover,confirmEditorPopover} from '../lib/editorPopover.mjs';
 import { editorApiBase, localEditor } from "../lib/editorConfig.mjs";
 import { sourceRequest } from "../lib/editorSource.mjs";
@@ -29,6 +30,7 @@ export function initializeEditorPrDemo(root, editor) {
     f = (text, ...values) =>
       t(text).replace(/\{(\d+)\}/g, (_, i) => String(values[i]));
   const message = (text) => ($("[data-pr-feedback]").textContent = t(text));
+  const loading = text => setLoadingStatus($("[data-pr-feedback]"),t(text));
   const el = (tag, text, cls = "") => {
     const e = document.createElement(tag);
     e.textContent = text;
@@ -271,7 +273,7 @@ export function initializeEditorPrDemo(root, editor) {
     busy = true;
     conflict = null;
     olderEntries = [];
-    message(t("正在连接投稿服务…"));
+    loading("正在连接投稿服务…");
     openEditorPopover(root,dialog);
     tab(name);
     try {
@@ -378,7 +380,7 @@ export function initializeEditorPrDemo(root, editor) {
       if (fresh.path !== snapshot.path)
         throw Error(t("词条已变化，请重新打开面板。"));
       operation ||= crypto.randomUUID();
-      message(t("正在上传附件并提交…"));
+      loading("正在上传附件并提交…");
       const assetIds = await editor.uploadAttachments(api,account.id,fresh);
       const result = await api("/api/editor/submissions", "POST", {
         assetIds,

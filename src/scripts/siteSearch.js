@@ -1,3 +1,4 @@
+import {setLoadingStatus} from '../lib/loadingStatus.mjs';
 import {lockModalScroll} from '../lib/modalScroll.mjs';
 import {searchPagefind} from '../lib/pagefindSearch.mjs';
 import {createIcon, setIconLabel} from '../lib/icons.mjs';
@@ -213,7 +214,7 @@ function initializeSearch(root) {
       return;
     }
 
-    status.textContent = copy.loading;
+    setLoadingStatus(status,copy.loading);
     try {
       engine ||= await loadEngine(root.dataset.locale || 'zh');
       queryNormalizer = await loadQueryNormalizer();

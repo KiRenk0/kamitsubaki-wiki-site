@@ -1,8 +1,11 @@
 import { spawn } from 'node:child_process';
+import { checkNodeVersion } from './check-node-version.mjs';
 import { pathToFileURL } from 'node:url';
 import { collectContributionEvents } from './contributor-history.mjs';
 import { syncContributionEvents } from './contributor-sync-client.mjs';
 import { createGithubIdentityResolver } from './github-contributor-identity.mjs';
+
+checkNodeVersion();
 
 const apiBase = process.env.CONTRIBUTORS_API_BASE || process.env.PUBLIC_AI_OBSERVER_API_BASE;
 const syncToken = process.env.CONTRIBUTOR_SYNC_TOKEN;

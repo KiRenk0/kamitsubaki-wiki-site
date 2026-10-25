@@ -8,6 +8,8 @@ on:
     branches:
       - main
     paths:
+      - '.node-version'
+      - 'scripts/check-node-version.mjs'
       - 'src/content/**'
       - 'scripts/sync-contributors.mjs'
       - '.github/workflows/sync-contributors.yml'
@@ -34,7 +36,10 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v7
         with:
-          node-version: 22
+          node-version-file: '.node-version'
+
+      - name: Verify patched Node.js runtime
+        run: node scripts/check-node-version.mjs
 
       - name: Sync contributors
         run: |
