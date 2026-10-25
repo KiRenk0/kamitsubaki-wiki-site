@@ -1,3 +1,4 @@
+import {setLoadingStatus} from '../lib/loadingStatus.mjs';
 import {iconMarkup} from '../lib/icons.mjs';
 import {setIconLabel} from '../lib/icons.mjs';
 import {mountArticleAssets} from './articleAssets.js';
@@ -797,7 +798,7 @@ const initialize = async () => {
     select.value=targets.some(target=>target.locale===previous)?previous:targets.some(target=>target.locale==='ja')?'ja':targets[0].locale;
     const cacheKey=draft.path+'|'+select.value;if(!force&&referenceFor===cacheKey&&referenceResult){renderReference(referenceResult);return;}
     referenceAbort?.abort();referenceAbort=new AbortController();const signal=referenceAbort.signal;referenceFor=cacheKey;referenceResult=null;
-    referencePanel.querySelector('[data-reference-status]').textContent=referenceCopy.loading;referencePanel.querySelector('[data-reference-blocks]').replaceChildren();
+    setLoadingStatus(referencePanel.querySelector('[data-reference-status]'),referenceCopy.loading);referencePanel.querySelector('[data-reference-blocks]').replaceChildren();
     const result=await loadTranslationReference(draft.path,select.value,{signal,expectedEntityId:draft.meta.id});
     if(signal.aborted)return;referenceResult=result;renderReference(result);
   }
@@ -834,7 +835,7 @@ const initialize = async () => {
     if (!request) return;
     if (hasWork() && !await confirmReplace()) return;
     const token = ++loadRequest;
-    $('[data-load-status]').textContent = copy.loading;
+    setLoadingStatus($('[data-load-status]'),copy.loading);
     root.setAttribute('aria-busy','true');
     $('.ve-workspace').inert = true;
     for (const selector of ['[data-copy]','[data-download]','[data-import-open]','[data-new-entry]']) $(selector).disabled = true;
@@ -887,7 +888,7 @@ const initialize = async () => {
     $('[data-existing-picker]').hidden = false; $('[data-entry-search]').focus();
     const locale = draft.meta.locale;
     if (catalogLocale !== locale) {
-      $('[data-entry-results]').textContent = copy.loading; $('[data-entry-retry]').hidden=true;
+      setLoadingStatus($('[data-entry-results]'),copy.loading); $('[data-entry-retry]').hidden=true;
       try {
         const response = await fetch(`/${locale}/editor-catalog.json`);
         if (!response.ok) throw new Error('catalog');

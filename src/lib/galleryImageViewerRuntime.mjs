@@ -1,3 +1,4 @@
+import {setLoadingStatus} from './loadingStatus.mjs';
 import {createIcon,iconMarkup,setIconLabel} from './icons.mjs';
 import {lockModalScroll} from './modalScroll.mjs';
 import PhotoSwipe from 'photoswipe';
@@ -28,7 +29,7 @@ export function galleryImageViewer(){
   const moreButton=button(c.more,loadMore);
   const retry=button(c.failed,()=>{ps.refreshSlideContent(ps.currIndex);status.textContent='';retry.hidden=true;});retry.hidden=true;
   async function loadMore(){
-   if(!more||busy)return;busy=true;moreButton.disabled=true;status.textContent=c.loading;
+   if(!more||busy)return;busy=true;moreButton.disabled=true;setLoadingStatus(status,c.loading);
    try{const result=await more();if(disposed)return;const known=new Set(items.map(x=>x.id||x.src));for(const item of result.items||[]){const key=item.id||item.src;if(item.src&&!known.has(key)){items.push(imageData(item));known.add(key);}}more=result.hasMore?more:null;total=Number.isFinite(result.totalCount)?result.totalCount:Math.max(total,items.length);ps.refreshSlideContent(Math.min(ps.currIndex+1,items.length-1));status.textContent='';render();}
    catch{status.textContent=c.failed;}finally{busy=false;moreButton.disabled=false;}
   }

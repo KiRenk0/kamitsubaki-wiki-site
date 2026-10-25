@@ -1,3 +1,5 @@
+import {setLoadingStatus} from './loadingStatus.mjs';
+import {applyGalleryPreview} from './galleryPreviewImage.mjs';
 import {setIconLabel} from './icons.mjs';
 import {galleryDisplayText,galleryPhotoPresentation} from './galleryPresentation.mjs';
 import {createGalleryAlbumPreview} from './galleryAlbumPreview.mjs';
@@ -19,6 +21,8 @@ export async function initGallery(){
  const copy:Record<string,string>=JSON.parse(root.dataset.copy||'{}'),api=(root.dataset.api||'').replace(/\/$/,''),locale=root.dataset.locale||'zh';
  const text=(tag:string,value:string,className?:string)=>{const node=document.createElement(tag);setIconLabel(node,value);if(className)node.className=className;return node;};
  const request=async(path:string,signal?:AbortSignal)=>{const response=await fetch(api+'/api/gallery'+path,{signal:signal?AbortSignal.any([signal,AbortSignal.timeout(8000)]):AbortSignal.timeout(8000),cache:'no-store'});if(!response.ok)throw Error(copy.error);return response.json();};
+ const previewOptions={api,imageOrigin:root.dataset.imageOrigin||'https://images.kamitsubaki.wiki',local:JSON.parse(document.querySelector('[data-gallery-image-assets]')?.textContent||'{}')};
+ const preview=(image:HTMLImageElement,item:{src:string;thumbnail?:string;width?:number;height?:number})=>applyGalleryPreview(image,item,previewOptions);
  const viewer=imageViewer();let characters:GalleryCharacter[]=galleryEntities,facets:GalleryFacet[]=[],archiveFacets:{entityCounts?:{id:string;count:number;coverUrl?:string}[];typeCounts?:{id:string;count:number}[];tag?:string[];unclassified?:number}={},mediaTypes:{id:string;labels:Record<string,string>}[]=[],sets:GallerySet[]=[],photos:GalleryImage[]=[],suggestedPhotos:GalleryImage[]=[],nextOffset:number|null=null,total=0,controller:AbortController|undefined,routeId=0,photoRequestId=0,searchTimer:number|undefined,overviewScroll=0,selecting=false;
  const roleControls=createGalleryRoleControls($('#gallery-role-filters'),{locale});
  const selected=new Set<string>();
@@ -36,7 +40,7 @@ export async function initGallery(){
  const displayText=(value:string)=>galleryDisplayText(value,displayNames(),locale);
  const setTitle=(set:GallerySet)=>{const person=characterName(set.character),form=displayText(set.form||'');if(person===set.character&&set.title)return displayText(set.title);return form?`${person}｜${form}`:displayText(set.title||'')||person;};
  const setUrl=(changes:Record<string,string|null>,replace=false)=>{const url=new URL(location.href);for(const [key,value]of Object.entries(changes)){if(value)url.searchParams.set(key,value);else url.searchParams.delete(key);}if(Object.hasOwn(changes,'set')||Object.hasOwn(changes,'photo'))url.hash='';(replace?history.replaceState:history.pushState).call(history,null,'',url);};
- const feedback=(message:string)=>{$('[data-gallery-feedback]').textContent=message;};
+ const feedback=(message:string)=>{const target=$('[data-gallery-feedback]');if(message===copy.loading||message===copy.moreLoading)setLoadingStatus(target,message);else target.textContent=message;};
  const restoreFocus=(selector:string)=>root?.querySelector<HTMLButtonElement>(selector)?.focus({preventScroll:true});
  const newButton=(label:string,click:()=>void,className?:string)=>{const button=text('button',label,className) as HTMLButtonElement;button.type='button';button.onclick=click;return button;};
  const activeSet=()=>params().get('filterSet')||'';
@@ -71,7 +75,7 @@ export async function initGallery(){
     button.dataset.name=name;button.dataset.count=String(row.count);button.dataset.siteOrder=String(index);
     button.setAttribute('aria-label',ready?`${name} · ${row.count} ${unit}`:name);
     const image=role?.image||galleryEntities.find(value=>value.id===row.id)?.image||row.coverUrl;
-    if(image){const img=document.createElement('img');img.src=image;img.alt='';img.loading='lazy';img.decoding='async';img.onerror=()=>img.replaceWith(text('span',name.slice(0,1),'gallery-role-initial'));button.append(img);}
+    if(image){const img=document.createElement('img');preview(img,{src:image});img.alt='';img.loading='lazy';img.decoding='async';img.onerror=()=>img.replaceWith(text('span',name.slice(0,1),'gallery-role-initial'));button.append(img);}
     else button.append(text('span',name.slice(0,1),'gallery-role-initial'));
     const inner=document.createElement('div');inner.append(text('strong',name),text('small',ready?`${row.count} ${unit}`:'…'));button.append(inner);target.append(button);
    }
@@ -102,11 +106,11 @@ export async function initGallery(){
   for(const set of sets.slice(appendFrom)){
    const card=newButton('',()=>{overviewScroll=window.scrollY;setUrl({set:set.id,photo:null});void route().then(()=>restoreFocus('[data-gallery-back]'));},'gallery-set-card');card.dataset.setId=set.id;
    const album=text('article','','gallery-album'),image=text('span','','gallery-set-image');
-   const img=document.createElement('img');if(set.coverUrl){img.src=set.coverUrl;img.alt='';img.loading='lazy';img.decoding='async';image.append(img);}
+   const img=document.createElement('img');if(set.coverUrl){preview(img,{src:set.coverUrl});img.alt='';img.loading='lazy';img.decoding='async';image.append(img);}
    if((set.imageCount||1)>1)album.dataset.multiple='true';
    image.append(text('small',`${set.imageCount||1} ${copy.images}`,'gallery-set-count'));card.append(image,text('span',characterName(set.character),'gallery-set-kicker'));
    const title=text('strong',displayText(set.form||'')||setTitle(set));title.append(text('span',' →','gallery-set-arrow'));card.append(title);card.setAttribute('aria-label',setTitle(set));album.append(card);
-   if((set.imageCount||1)>1){const controls=text('div','','gallery-album-controls');album.append(controls);albumDisposals.push(createGalleryAlbumPreview({card:album,frame:image,image:img,controls,count:set.imageCount,locale,load:async()=>{const data=await getSet(set.id);return data.set.images||[];}}));}
+   if((set.imageCount||1)>1){const controls=text('div','','gallery-album-controls');album.append(controls);albumDisposals.push(createGalleryAlbumPreview({previewImage:(image:HTMLImageElement,item:GalleryImage)=>preview(image,item),card:album,frame:image,image:img,controls,count:set.imageCount,locale,load:async()=>{const data=await getSet(set.id);return data.set.images||[];}}));}
    target.append(album);
   }
   if(!sets.length){
@@ -148,7 +152,7 @@ export async function initGallery(){
  function updateSelection(){const button=$<HTMLButtonElement>('[data-gallery-select]'),action=$<HTMLAnchorElement>('[data-gallery-classify]');button.textContent=selecting?copy.cancelChoose:copy.choose;button.setAttribute('aria-pressed',String(selecting));action.hidden=!selecting||!selected.size;if(selected.size){action.href=classifyHref([...selected]);action.textContent=`${copy.classify} (${selected.size})`;}}
  function photoCard(photo:GalleryImage){
   const card=newButton('',()=>{if(selecting&&mode()==='photos'){selected.has(photo.id)?selected.delete(photo.id):selected.add(photo.id);card.setAttribute('aria-pressed',String(selected.has(photo.id)));updateSelection();return;}overviewScroll=window.scrollY;setUrl({photo:photo.id,set:null});void showPhoto(photo.id,card);},'gallery-photo-card');
-  card.dataset.photoId=photo.id;card.setAttribute('aria-pressed',String(selected.has(photo.id)));const image=document.createElement('img');image.src=photo.thumbnail||photo.src;image.alt='';image.loading='lazy';image.decoding='async';
+  card.dataset.photoId=photo.id;card.setAttribute('aria-pressed',String(selected.has(photo.id)));const image=document.createElement('img');preview(image,photo);image.alt='';image.loading='lazy';image.decoding='async';
   const caption=text('span','','gallery-photo-caption'),info=presentation(photo),meta=text('span','','gallery-photo-meta');
   meta.append(text('span',info.subject),text('span',info.type));caption.append(meta,text('strong',info.title||copy.unknownPhoto));
   if(photo.author&&!/未署名|未明确|unknown/i.test(photo.author))caption.append(text('small',photo.author,'gallery-photo-author'));
@@ -193,7 +197,7 @@ export async function initGallery(){
  async function loadMore(){
   if(nextOffset===null||root!.dataset.loadState!=='ready')return false;
   controller?.abort();const current=controller=new AbortController(),stamp=++routeId,offset=nextOffset,p=params(),view=mode();
-  const button=$<HTMLButtonElement>('[data-gallery-more]');button.disabled=true;button.dataset.loading='true';button.textContent=copy.moreLoading;
+  const button=$<HTMLButtonElement>('[data-gallery-more]');button.disabled=true;button.dataset.loading='true';setLoadingStatus(button,copy.moreLoading||copy.loading);
   root!.dataset.loadState='loading-more';$('[data-gallery-grid]').setAttribute('aria-busy','true');feedback(copy.moreLoading);
   const query=new URLSearchParams({offset:String(offset)});
   for(const key of view==='photos'?['character','entity','form','q','year','publisher','tag','type','unclassified']:['character','form','q','year','publisher','tag']){const value=p.get(key);if(value)query.set(key,value);}
@@ -279,7 +283,7 @@ export async function initGallery(){
    const grid=$('[data-gallery-images]');grid.replaceChildren();
    for(const [index,image]of images.entries()){
     const button=newButton('',()=>openImage(set,index,button));const img=document.createElement('img');
-    img.src=image.thumbnail||image.src;img.alt=image.title||setTitle(set);img.loading='lazy';
+    preview(img,image);img.alt=image.title||setTitle(set);img.loading='lazy';
     const label=photoTitle({...image,character:set.character,setId:set.id,setTitle:setTitle(set)});img.alt=label;button.append(img,text('span',label||`${String(index+1).padStart(2,'0')} / ${images.length}`));grid.append(button);
    }
    root!.classList.add('gallery-detail-open');$('[data-gallery-overview]').setAttribute('hidden','');

@@ -1,3 +1,4 @@
+import {setLoadingStatus} from '../src/lib/loadingStatus.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {JSDOM} from 'jsdom';
@@ -13,7 +14,7 @@ const {default:worker}=await import(backendURL('src/index.js'));
 const until=async fn=>{for(let i=0;i<80;i++){if(fn())return;await new Promise(r=>setTimeout(r,10));}assert.fail('UI state did not settle');};
 async function setup(locale='zh',filters=false){
  const f=await fixture(),dom=new JSDOM(filters?'<form><label><span>Country</span><select name=country><option value=""></option></select></label><label><span>Province</span><select name=subdivisionCode><option value=""></option></select></label><label><span>City</span><select name=cityId><option value=""></option></select></label><input name=city type=hidden><p data-location-status></p><button data-location-retry hidden></button></form>':communityEditorMarkup(communityCopy(locale)),{url:'https://wiki.example/'+locale+'/community/activities/apply/',runScripts:'outside-only',pretendToBeVisual:true}),w=dom.window;
- w.Intl=Intl;w.structuredClone=structuredClone;w.AbortSignal=AbortSignal;w.HTMLElement.prototype.scrollIntoView=()=>{};
+ w.setLoadingStatus=setLoadingStatus;w.Intl=Intl;w.structuredClone=structuredClone;w.AbortSignal=AbortSignal;w.HTMLElement.prototype.scrollIntoView=()=>{};
  const pending=new Set();w.fetch=(url,options={})=>{const promise=worker.fetch(new Request(url,{...options,headers:{...options.headers,Origin:'https://wiki.example',Cookie:'kfw_auth_session=bob'}}),f.env,{waitUntil(p){void p.catch(()=>{});}});pending.add(promise);promise.finally(()=>pending.delete(promise));return promise;};
  w.eval('window.installAdminControls='+installAdminControls.toString());w.installAdminControls();
  w.eval(communityLocationRuntime);w.CommunityLocationWatch=()=>()=>{};w.CommunityLocationPosition=()=>{};

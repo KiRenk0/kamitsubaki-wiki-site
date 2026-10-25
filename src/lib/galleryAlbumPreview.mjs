@@ -1,5 +1,5 @@
 import {setIconLabel} from './icons.mjs';
-export function createGalleryAlbumPreview({card, frame, image, controls, load, count, locale='zh', onError=()=>{}}) {
+export function createGalleryAlbumPreview({card, frame, image, controls, load, count, previewImage=(image,item)=>{image.src=item.thumbnail||item.src;}, locale='zh', onError=()=>{}}) {
  const doc=card.ownerDocument,win=doc.defaultView;
  const reduced=win.matchMedia?.('(prefers-reduced-motion: reduce)');
  const labels=locale.startsWith('zh')?['上一张预览','下一张预览','预览暂不可用，点击重试']:locale==='ja'?['前のプレビュー','次のプレビュー','再試行']:['Previous preview','Next preview','Retry preview'];
@@ -15,14 +15,14 @@ export function createGalleryAlbumPreview({card, frame, image, controls, load, c
   try{
    images ||= await load();
    if(disposed||turn!==stamp||!images.length)return;
-   const current=images.findIndex(item=>(item.thumbnail||item.src)===image.getAttribute('src'));
+   const current=images.findIndex(item=>(item.thumbnail||item.src)===(image.dataset.previewOriginal||image.getAttribute('src')));
    if(current>=0)position=current;
    const target=(position+delta+images.length)%images.length;
    const url=images[target].thumbnail||images[target].src;
-   const preload=new win.Image();preload.src=url;
+   const preload=new win.Image();previewImage(preload,images[target]);
    if(preload.decode)await preload.decode();
    if(disposed||turn!==stamp)return;
-   image.src=url;position=target;status.textContent=`${position+1} / ${images.length}`;status.removeAttribute('title');
+   previewImage(image,images[target]);image.dataset.previewOriginal=url;position=target;status.textContent=`${position+1} / ${images.length}`;status.removeAttribute('title');
    if(!reduced?.matches)image.animate?.([{opacity:.25},{opacity:1}],{duration:260,easing:'ease-out'});
   }catch{stop();status.title=labels[2];onError?.();}
   finally{busy=false;}

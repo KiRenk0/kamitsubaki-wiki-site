@@ -6913,3 +6913,21 @@ html body .site-search__input.workspace-control{border:0;box-shadow:none;--works
 html body .site-search__status{min-height:52px;line-height:1.7;letter-spacing:0;font-family:var(--font-sans);}
 html body .site-search__more{margin:0;border-radius:0;}
 html body .site-search__footer{min-height:40px;}
+
+/* Search controls share one optical center, independent of native input metrics. */
+html body .site-search__form { gap: 12px; padding-block: 12px; }
+html body .site-search__input.workspace-control {
+  --workspace-control-padding: 0;
+  box-sizing: border-box;
+  height: 44px;
+  min-height: 44px;
+  padding: 10px 0;
+  margin: 0;
+  line-height: 24px;
+  width: 100%;
+}
+html body .site-search__form:focus-within { box-shadow: inset 0 -2px var(--theme-accent-color); }
+html body .site-search__input.workspace-control:focus-visible { outline: none; box-shadow: none; }
+@media (max-width: 767px) {
+  html body .site-search__panel { width: 100%; max-width: 100%; }
+}

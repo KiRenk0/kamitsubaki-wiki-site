@@ -1,4 +1,5 @@
 ---
+import {thumbnailUrl} from '../lib/imageAssets.mjs';
 import DatabaseArticleLinks from './DatabaseArticleLinks.astro';
 import ReaderRecordList from './ReaderRecordList.astro';
 import ReaderDisclosure from './ReaderDisclosure.astro';
@@ -98,8 +99,8 @@ const sections=buildEntityReaderNavigation({kind:presentationKind,data:d,heading
   </div>
   </Reader>
  </main>
- <script type="application/json" data-wiki-previews set:html={JSON.stringify(linked.previews).replaceAll('<','\\u003c')}/>
- <aside class="entity-support-note"><p>{locale==='en'?'Help keep these records available.':locale==='ja'?'この記録を、これからも。':'一起，让这些记录一直留在这里。'}</p><a data-support-open href={`/${locale}/support/`}>{locale==='en'?'Support the observatory':locale==='ja'?'観測所を支援する':'为观测站发电'}</a></aside>
+ <script type="application/json" data-wiki-previews set:html={JSON.stringify(Object.fromEntries(Object.entries(linked.previews).map(([id,preview])=>[id,{...preview,image:preview.image?thumbnailUrl(preview.image,192):undefined}]))).replaceAll('<','\\u003c')}/>
+
  <SiteFooter footer={site.footer}/>
 </BaseLayout>
 <script>import {initWikiPreviews} from '../lib/wikiPreviews';initWikiPreviews();</script>
@@ -120,5 +121,3 @@ const sections=buildEntityReaderNavigation({kind:presentationKind,data:d,heading
 @media(hover:hover) and (pointer:fine){.related-list li:hover,.footprint:hover{translate:4px 0;background:rgb(var(--theme-fg-rgb)/.035)}.related-list a:hover,.footprint:hover{color:var(--theme-accent-color)}}
 @media(prefers-reduced-motion:reduce){.related-list li,.related-list a,.footprint{transition:none;translate:none}}
 </style>
-
-<style>.entity-support-note{max-width:1116px;margin:36px auto;padding:24px;border-top:1px solid var(--ui-line);display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}.entity-support-note a{display:inline-flex;align-items:center;min-height:44px;color:var(--theme-accent-color)}</style>
