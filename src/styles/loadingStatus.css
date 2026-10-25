@@ -1,0 +1,4 @@
+.loading-status{display:inline-flex;align-items:center;justify-content:center;min-width:24px;min-height:24px;vertical-align:middle;color:inherit}
+.loading-status__spinner{display:block;box-sizing:border-box;width:18px;height:18px;border:2px solid currentColor;border-inline-end-color:transparent;border-radius:50%;opacity:.65;animation:loading-status-turn .8s linear infinite}
+@keyframes loading-status-turn{to{transform:rotate(1turn)}}
+@media(prefers-reduced-motion:reduce){.loading-status__spinner{animation:none}}

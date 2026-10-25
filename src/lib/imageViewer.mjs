@@ -10,7 +10,7 @@ export function enhanceImageLinks(root){
  for(const img of images){
   img.dataset.viewerReady='true';
   const link=img.closest('a'),imageOnlyLink=link&&link.querySelectorAll('img').length===1&&!link.textContent.trim();
-  const open=event=>{event.preventDefault();event.stopPropagation();const all=[...document.querySelectorAll('.wiki-reader img[data-viewer-ready],.wiki-infobox img[data-viewer-ready]')];imageViewer().open(all.map(i=>({src:i.dataset.original||i.currentSrc||i.src,title:i.alt,width:i.naturalWidth,height:i.naturalHeight})),all.indexOf(img),imageOnlyLink||img);};
+  const open=event=>{event.preventDefault();event.stopPropagation();const all=[...document.querySelectorAll('.wiki-reader img[data-viewer-ready],.wiki-infobox img[data-viewer-ready]')];imageViewer().open(all.map(i=>({src:i.dataset.original||i.currentSrc||i.src,msrc:i.currentSrc||i.src,title:i.alt,width:Number(i.dataset.originalWidth)||i.naturalWidth,height:Number(i.dataset.originalHeight)||i.naturalHeight})),all.indexOf(img),imageOnlyLink||img);};
   if(imageOnlyLink){link.setAttribute('role','button');link.setAttribute('aria-label',img.alt?`${label}：${img.alt}`:label);link.addEventListener('click',open);link.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' ')open(event);});}
   else{img.tabIndex=0;img.setAttribute('role','button');img.setAttribute('aria-label',img.alt?`${label}：${img.alt}`:label);img.addEventListener('click',open);img.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' ')open(event);});}
  }

@@ -1,4 +1,5 @@
 ---
+import LoadingStatus from '../../../components/LoadingStatus.astro';
 import {reviewCopy} from '../../../lib/reviewCopy.mjs';
 import WorkspaceButton from '../../../components/WorkspaceButton.astro';
 import WorkspaceControl from '../../../components/WorkspaceControl.astro';
@@ -21,7 +22,7 @@ const create=[['entry',c.newEntry,`/${locale}/contribute/editor/`],['article',c.
 <WorkspaceLayout locale={locale} title={c.title} intro={c.intro} path="/account/creator/" eyebrow="CREATOR SPACE" backHref={`/${locale}/account/`} backLabel={c.back} width="wide" noindex mainAttributes={{'class':'account-shell creator-page','data-creator-center':'','data-locale':locale,'data-api':api,'data-editor-api':editorApiBase,'data-copy':JSON.stringify(c)}}>
   <Fragment slot="actions"><WorkspaceButton href={`/${locale}/contribute/review/`}>{reviewCopy(locale).title}</WorkspaceButton><a class="creator-create-link" href={`/${locale}/contribute/`}>{c.create} <Icon name="arrow-up-right" /></a></Fragment>
   <div class="account-workspace"><AccountSections locale={locale} active="creator"/><div class="account-panels creator-content"><div class="creator-main">
-    <p data-creator-status role="status" class="creator-status">{c.loading}</p>
+    <p data-creator-status role="status" class="creator-status"><LoadingStatus label={c.loading}/></p>
     <section class="creator-guest" data-creator-guest hidden><div class="creator-guest-intro"><p>START / 01</p><h2>{c.guestStart}</h2><p>{c.loginHint}</p><div><a class="creator-login" data-creator-login href={`/${locale}/account/?returnTo=${encodeURIComponent(`/${locale}/account/creator/`)}`}>{c.signIn} <Icon name="arrow-right" /></a><a href={`/${locale}/contribute/`}>{c.guestGuide} <Icon name="arrow-up-right" /></a></div></div><div class="creator-guest-options">{create.map(([type,label,href],index)=><a href={href}><span>0{index+1} / {c[type]}</span><strong>{label}</strong><b aria-hidden="true"><Icon name="arrow-up-right" /></b></a>)}</div></section>
     <section class="creator-workflow" aria-label={c.create}>
       <div class="creator-heading"><h2>{c.create}</h2><a href={`/${locale}/media/`}>{imageLibraryCopy(locale).title} <Icon name="arrow-up-right" /></a></div>
@@ -29,11 +30,11 @@ const create=[['entry',c.newEntry,`/${locale}/contribute/editor/`],['article',c.
       <ContributionFlow locale={locale} kind="entry"/><ContributionFlow locale={locale} kind="image"/><ContributionFlow locale={locale} kind="article"/>
     </section>
     <div class="creator-start-grid">
-      <section class="creator-section creator-todo" aria-labelledby="creator-todo-title" hidden><div class="creator-heading"><div><span>01 / ACTION</span><h2 id="creator-todo-title">{c.todo}</h2></div><span data-todo-count></span></div><div data-creator-todo><p>{c.loading}</p></div></section>
+      <section class="creator-section creator-todo" aria-labelledby="creator-todo-title" hidden><div class="creator-heading"><div><span>01 / ACTION</span><h2 id="creator-todo-title">{c.todo}</h2></div><span data-todo-count></span></div><div data-creator-todo><p><LoadingStatus label={c.loading}/></p></div></section>
       <section class="creator-section creator-local" aria-labelledby="creator-local-title" hidden><div class="creator-heading"><div><span>02 / DRAFTS</span><h2 id="creator-local-title">{c.local}</h2></div></div><p class="creator-section-intro">{c.localNote}</p><div data-creator-drafts></div></section>
     </div>
     <div class="creator-secondary-grid">
-      <section class="creator-section creator-notifications" aria-labelledby="creator-notifications-title" hidden><div class="creator-heading"><div><span>03 / UPDATES</span><h2 id="creator-notifications-title">{c.notifications}</h2></div><span data-notification-count></span></div><div data-creator-notifications><p>{c.loading}</p></div></section>
+      <section class="creator-section creator-notifications" aria-labelledby="creator-notifications-title" hidden><div class="creator-heading"><div><span>03 / UPDATES</span><h2 id="creator-notifications-title">{c.notifications}</h2></div><span data-notification-count></span></div><div data-creator-notifications><p><LoadingStatus label={c.loading}/></p></div></section>
       <section class="creator-section creator-overview" aria-labelledby="creator-dashboard-title" hidden><div class="creator-heading"><div><span>04 / OVERVIEW</span><h2 id="creator-dashboard-title">{c.dashboard}</h2></div></div><div class="creator-metrics">{(['attention','draft','review','published'] as const).map(key=><WorkspaceButton type="button" data-metric={key}><span>{c[key]}</span><strong data-metric-count={key}>—</strong></WorkspaceButton>)}</div></section>
     </div>
     <section class="creator-section creator-records-section" aria-labelledby="creator-records-title" hidden><div class="creator-heading"><div><span>05 / ARCHIVE</span><h2 id="creator-records-title">{c.records}</h2></div></div>

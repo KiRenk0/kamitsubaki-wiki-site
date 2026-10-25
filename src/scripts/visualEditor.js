@@ -1,3 +1,4 @@
+import {setLoadingStatus} from '../lib/loadingStatus.mjs';
 import {iconMarkup} from '../lib/icons.mjs';
 import {setIconLabel} from '../lib/icons.mjs';
 import {mountArticleAssets} from './articleAssets.js';
@@ -797,7 +798,7 @@ const initialize = async () => {
     select.value=targets.some(target=>target.locale===previous)?previous:targets.some(target=>target.locale==='ja')?'ja':targets[0].locale;
     const cacheKey=draft.path+'|'+select.value;if(!force&&referenceFor===cacheKey&&referenceResult){renderReference(referenceResult);return;}
     referenceAbort?.abort();referenceAbort=new AbortController();const signal=referenceAbort.signal;referenceFor=cacheKey;referenceResult=null;
-    referencePanel.querySelector('[data-reference-status]').textContent=referenceCopy.loading;referencePanel.querySelector('[data-reference-blocks]').replaceChildren();
+    setLoadingStatus(referencePanel.querySelector('[data-reference-status]'),referenceCopy.loading);referencePanel.querySelector('[data-reference-blocks]').replaceChildren();
     const result=await loadTranslationReference(draft.path,select.value,{signal,expectedEntityId:draft.meta.id});
     if(signal.aborted)return;referenceResult=result;renderReference(result);
   }
@@ -834,7 +835,7 @@ const initialize = async () => {
     if (!request) return;
     if (hasWork() && !await confirmReplace()) return;
     const token = ++loadRequest;
-    $('[data-load-status]').textContent = copy.loading;
+    setLoadingStatus($('[data-load-status]'),copy.loading);
     root.setAttribute('aria-busy','true');
     $('.ve-workspace').inert = true;
     for (const selector of ['[data-copy]','[data-download]','[data-import-open]','[data-new-entry]']) $(selector).disabled = true;
@@ -887,7 +888,7 @@ const initialize = async () => {
     $('[data-existing-picker]').hidden = false; $('[data-entry-search]').focus();
     const locale = draft.meta.locale;
     if (catalogLocale !== locale) {
-      $('[data-entry-results]').textContent = copy.loading; $('[data-entry-retry]').hidden=true;
+      setLoadingStatus($('[data-entry-results]'),copy.loading); $('[data-entry-retry]').hidden=true;
       try {
         const response = await fetch(`/${locale}/editor-catalog.json`);
         if (!response.ok) throw new Error('catalog');
@@ -1148,7 +1149,7 @@ const initialize = async () => {
     const token=++imagePreviewToken,list=$('[data-image-previews]');clearImagePreviewUrls();list.replaceChildren();
     $('[data-image-selection]').textContent=selectedImageFiles.length?`${selectedImageFiles.length} ${tc('选择图片')}`:'';
     if(!selectedImageFiles.length)return;
-    $('[data-image-selection]').textContent=tc('正在准备图片预览…');
+    setLoadingStatus($('[data-image-selection]'),tc('正在准备图片预览…'));
     for(const [index,file] of selectedImageFiles.entries()){
       if(token!==imagePreviewToken)return;
       const row=document.createElement('div');row.className='ve-attachment-preview';row.setAttribute('role','listitem');
@@ -1249,7 +1250,7 @@ const initialize = async () => {
     const checkImage=()=>{
       const token=++checkToken,url=normalizeArticleImageUrl(urlField.value,location.href);readyUrl=null;preview.hidden=true;preview.removeAttribute('src');refreshButton();
       if(!url){status.textContent=imageCopy.invalid;return;}
-      status.textContent=imageCopy.checking;
+      setLoadingStatus(status,imageCopy.checking);
       const probe=new Image();probe.onload=()=>{if(token!==checkToken)return;readyUrl=url;preview.src=url;preview.hidden=false;status.textContent=imageCopy.ready;refreshButton();};
       probe.onerror=()=>{if(token!==checkToken)return;status.textContent=imageCopy.unavailable;};
       probe.src=url;
@@ -1282,7 +1283,7 @@ const initialize = async () => {
     try {
       if(!selectedImageFiles.length)throw Error(tc('请先选择、拖入或粘贴图片。'));
       if((draft.assets?.length || 0)+selectedImageFiles.length>8)throw Error(tc('最多添加 8 张图片。'));
-      preparingImages=true;button.disabled=true;feedback.textContent=tc('正在保存图片…');
+      preparingImages=true;button.disabled=true;setLoadingStatus(feedback,tc('正在保存图片…'));
       const next=[];
       for(const file of selectedImageFiles)next.push(await prepareImage(file,$('[data-image-source]').value,$('[data-image-alt]').value,{optimize:$('[data-image-optimize]').checked}));
       if(draft!==targetDraft)throw Error('词条已变化，请重新选择图片。');

@@ -1,4 +1,5 @@
 ---
+import '../styles/entitySectionNav.css';
 import {resolveLocaleCopy} from '../lib/i18n.mjs';
 interface Props {items:{key:string;label:string;href:string}[];locale:string;}
 const {items,locale}=Astro.props;
@@ -7,12 +8,5 @@ const label=resolveLocaleCopy({zh:'浏览本条目',ja:'記事内ナビゲーシ
 <nav class="entity-section-nav" aria-label={label} data-entity-sections>
  {items.map(item=><a href={item.href} data-entity-section={item.key} data-entity-section-link={item.href.startsWith('#')||undefined}>{item.label}</a>)}
 </nav>
-<style>
-.entity-section-nav{display:flex;flex-wrap:wrap;align-items:center;gap:0 24px;padding:4px 0;border-bottom:1px solid var(--reader-line)}
-.entity-section-nav a{display:inline-flex;align-items:center;min-height:44px;color:var(--reader-muted);font:12px/1.6 var(--font-sans);text-decoration:none;transition:color 160ms}
-.entity-section-nav a:hover,.entity-section-nav a[aria-current='location']{color:var(--theme-fg)}
-.entity-section-nav a:focus-visible{outline:2px solid var(--theme-accent-color);outline-offset:5px}
-@media(max-width:760px){.entity-section-nav{gap:0 20px}.entity-section-nav a{font-size:11px}}
-@media(prefers-reduced-motion:reduce){.entity-section-nav a{transition:none}}
-</style>
+
 <script>import '../scripts/entityReader.js';</script>
