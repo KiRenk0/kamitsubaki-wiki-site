@@ -69,3 +69,31 @@ test('an undated reader states the missing time once, preserves heading links an
  for(const a of second.window.document.querySelectorAll('.activity-document-nav a'))assert.ok(second.window.document.querySelector(a.hash),a.hash);
  first.window.close();second.window.close();
 });
+
+test('range transitions return to a usable month and yearly history windows do not overlap',async()=>{
+ const {readActivityState,transitionActivity,activityRange,pastActivities}=await import('../src/lib/activityCenterState.mjs');
+ const today='2026-10-25',initial=readActivityState(new URLSearchParams('range=next&view=agenda&month=2027-01'),today);
+ const monthly=transitionActivity(initial,'calendar',today);assert.equal(monthly.range,'month');assert.equal(monthly.view,'calendar');assert.equal(monthly.month,'2027-01');
+ const past=transitionActivity(initial,'past',today),a=activityRange(past,today),b=activityRange(transitionActivity(past,'older',today),today);
+ assert.equal(Date.parse(a.from)-Date.parse(b.to),86400000);assert.ok((Date.parse(a.to)-Date.parse(a.from))/86400000<400);
+ const query=activityRange(monthly,today,'keyword');assert.equal((Date.parse(query.to)-Date.parse(query.from))/86400000,360);
+ const item={id:'past',eventStatus:'scheduled',schedule:{kind:'allDay',timeZone:'Asia/Tokyo',startDate:'2026-10-01',endDate:'2026-10-02'}};
+ assert.deepEqual(pastActivities([item,item,{...item,id:'future',schedule:{...item.schedule,endDate:'2027-01-01'}},{...item,id:'unknown',schedule:{kind:'timed',timeZone:'UTC',startAt:'2026-01-01T00:00Z'}}],a,Date.parse(today+'T12:00Z')).map(x=>x.id),['past']);
+});
+
+test('same-day time compression retains original zone and cross-date local meaning',async()=>{
+ const {formatActivityTimeForDay}=await import('../src/lib/activityPresentation.mjs');
+ const item={schedule:{kind:'timed',timeZone:'Asia/Tokyo',startAt:'2026-10-25T00:00:00+09:00',endAt:'2026-10-25T01:00:00+09:00'}};
+ const output=formatActivityTimeForDay(item,'2026-10-25','en','America/Los_Angeles',activityCopy('en'));
+ assert.ok(output.includes('Asia/Tokyo'));assert.ok(output.includes('24'));assert.ok(output.includes('America/Los_Angeles'));
+});
+
+test('details keep the poster exclusively in the information sidebar and a plain participation link is actionable',async()=>{
+ const {JSDOM}=await import('jsdom'),{activityDetailMarkup,participationLinks}=await import('../src/lib/activityPresentation.mjs');
+ const item={id:'plain',title:'Plain',poster:'https://example.org/poster.png',schedule:{kind:'undated'},links:[{label:'Join',url:'https://example.org/join'}]};
+ assert.equal(participationLinks(item).primary.url,item.links[0].url);
+ const dom=new JSDOM(activityDetailMarkup(item,{locale:'en',copy:activityCopy('en'),bodyHtml:'<p>Intro</p>'}));
+ assert.equal(dom.window.document.querySelector('.reader-body .activity-detail-art'),null);
+ assert.ok(dom.window.document.querySelector('.reader-sidebar .activity-info .activity-poster-open'));
+ dom.window.close();
+});
