@@ -14,6 +14,8 @@
 
 局部等待统一用 loadingStatus；可访问名称和错误、重试状态保留，减少动态效果时停止旋转。布局型加载继续使用已有骨架。账号确认刷新不再每次读取收藏；首次登录、账号变化、未同步改动和重试立即读取，未变化的账号最多每五分钟主动对账一次，仍保留跨设备更新能力。
 
+首屏HTML同样使用LoadingStatus，覆盖事件/活动、贡献者、文章关联/列表/阅读、探索、创作者、系列阅读及编辑器入口；专属支持资料页独立引入同一CSS。动态重试和图片检查复用同一方法。图库加载更多移除旧伪元素，避免出现两个spinner。真实上传字节进度、倒计时、地理选择的上下文提示和已有骨架仍保留各自语义。
+
 ## 清理依据
 
 移除没有任何运行代码、脚本、测试、文档或原型引用的八个旧组件：ActivityPromotion、LogSection、WikiInfoBox、ContributionHubRedirect、ProjectsSection、MissingDataNotice、AlbumInfoBox、AlbumCatalogFilter。未删除已有公开路由、编辑器原型、迁移、素材或兼容入口。
