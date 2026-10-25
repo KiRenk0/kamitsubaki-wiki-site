@@ -1,4 +1,5 @@
 ---
+import LoadingStatus from './LoadingStatus.astro';
 import ManualContributors from './ManualContributors.astro';
 import { getEditableLocale, resolveLocaleCopy } from '../lib/i18n.mjs';
 
@@ -159,7 +160,7 @@ const copy = {
     <p>{copy.subtitle}</p>
   </header>
 
-  <div class="contributor-roster__state" role="status" data-contributor-state>{copy.loading}</div>
+  <div class="contributor-roster__state" role="status" data-contributor-state><LoadingStatus label={copy.loading}/></div>
   <div class="contributor-roster__content" data-contributor-content hidden></div>
   {mode === 'summary' && <ManualContributors locale={locale} />}
 </section>

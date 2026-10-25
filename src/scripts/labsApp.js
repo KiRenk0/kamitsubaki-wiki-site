@@ -1,3 +1,4 @@
+import {setLoadingStatus} from '../lib/loadingStatus.mjs';
 import { foldCjkSearchText } from '../lib/cjkSearch.mjs';
 import { selectTimeline, neighbors } from '../lib/labsCatalog.mjs';
 import {
@@ -27,7 +28,8 @@ export function initializeLabsPanel(root, { copy: c, loadCatalog, getURL, setURL
   const section = root.dataset.labsPanel;
   const $ = (s) => root.querySelector(s);
   const status = (message) => {
-    if ($('[data-status]')) $('[data-status]').textContent = message;
+    const target=$('[data-status]');if(!target)return;
+    if(message===c.loading)setLoadingStatus(target,message);else target.textContent=message;
   };
   let activate = () => {};
   let catalog;

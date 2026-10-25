@@ -1,3 +1,4 @@
+import {setLoadingStatus} from './loadingStatus.mjs';
 import {setIconLabel} from './icons.mjs';
 import {articleCopy} from './articleCopy.mjs';
 const catalogs=new Map();
@@ -24,6 +25,6 @@ export function mountArticlePicker(root,{locale,selected,onChange}){
   }
   if(matches.length>limit){const more=make('button',locale==='ja'?'さらに表示':locale==='en'?'Show more':locale==='zh'?'加载更多':'載入更多');more.type='button';more.onclick=()=>{limit+=20;render();};results.append(more);}
  };
- const load=async()=>{status.textContent=copy.loading;retry.hidden=true;try{entries=await articleEntities(locale);if(root.isConnected)render();}catch(error){status.textContent=error.message;retry.hidden=false;}};
+ const load=async()=>{setLoadingStatus(status,copy.loading);retry.hidden=true;try{entries=await articleEntities(locale);if(root.isConnected)render();}catch(error){status.textContent=error.message;retry.hidden=false;}};
  input.oninput=()=>{limit=20;render();};retry.onclick=load;render();void load();
 }

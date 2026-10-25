@@ -1,4 +1,5 @@
 ---
+import LoadingStatus from '../../components/LoadingStatus.astro';
 import WorkspaceButton from '../../components/WorkspaceButton.astro';
 import '../../styles/global.css';
 import '../../styles/uiKit.css';
@@ -11,7 +12,7 @@ const apiBase=import.meta.env.PUBLIC_SUPPORT_API_BASE || import.meta.env.PUBLIC_
 <main class="supporter-profile" data-supporter-profile data-api-base={apiBase}>
  <header><a class="profile-brand" href="/zh/support/">KAMITSUBAKI WIKI</a><p class="profile-eyebrow">THANK YOU FOR YOUR SUPPORT</p><h1>让我们好好感谢你。</h1><p>付款后会先展示你的爱发电昵称和头像。想更换展示资料时，按下面三步完成；无需注册 Wiki。邮箱、订单和金额不会公开。</p></header>
  <ol class="profile-steps" aria-label="完善资料流程"><li>填写资料与验证邮箱</li><li>选择 Wiki 账号关联方式</li><li>提交审核，邮件接收结果</li></ol>
- <p class="profile-status" data-profile-status role="status" aria-live="polite" tabindex="-1">正在读取专属链接…</p>
+ <p class="profile-status" data-profile-status role="status" aria-live="polite" tabindex="-1"><LoadingStatus label="正在读取专属链接…"/></p>
  <WorkspaceButton data-email-confirm tone="primary" hidden>确认验证邮箱</WorkspaceButton>
  <section class="profile-done" data-profile-done hidden aria-live="polite">
   <h2 data-done-title>已提交，等待审核</h2>
@@ -25,7 +26,7 @@ const apiBase=import.meta.env.PUBLIC_SUPPORT_API_BASE || import.meta.env.PUBLIC_
   <label for="supporter-email">联系邮箱 <span class="required">必填</span></label><input id="supporter-email" name="email" type="email" required maxlength="254" autocomplete="email" class="dui-input"/><small>用于邮箱验证码、审核结果和必要联系，不公开。输入验证码验证后才能提交；更换邮箱需要重新验证。</small>
   <label for="supporter-name">展示昵称 <span class="required">必填</span></label><input id="supporter-name" name="name" type="text" required maxlength="60" autocomplete="nickname" class="dui-input"/><small>请勿填入邮箱、手机号等私人信息。</small>
   <p data-code-verified hidden role="status">邮箱已验证。更换邮箱时需重新验证。</p><fieldset class="profile-wiki" data-code-step><legend>1 · 验证联系邮箱</legend><div class="profile-actions"><WorkspaceButton data-code-send>发送验证码</WorkspaceButton></div><label for="supporter-code">邮箱验证码</label><input class="dui-input" id="supporter-code" data-email-code inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6}" maxlength="6" aria-describedby="supporter-code-status"/><small id="supporter-code-status" data-code-status role="status">请先发送验证码，再输入邮件中的 6 位数字。10 分钟内有效。</small><div class="profile-actions"><WorkspaceButton data-code-confirm>验证邮箱</WorkspaceButton></div></fieldset>
-  <fieldset class="profile-wiki" data-wiki-step hidden><legend>2 · 选择 Wiki 账号关联方式</legend><label><input type="radio" name="binding" value="later" checked/> 以后再绑定</label><small>可以直接提交。审核通过后，如果已有或以后注册的 Wiki 账号使用同一已验证邮箱，贡献会自动关联。</small><label><input type="radio" name="binding" value="now"/> 现在登录或注册，绑定我的 Wiki 账号</label><small>允许使用不同邮箱的本人账号。必须实际登录，绑定申请随资料一起审核；不会替换已有绑定。</small><div data-wiki-now hidden><p data-wiki-account-status>正在读取登录状态…</p><p data-wiki-account-choice hidden>本次申请绑定：<strong data-wiki-account-name></strong></p><div class="profile-actions"><WorkspaceButton href="/auth/sign-in" target="_blank" rel="noopener noreferrer" data-wiki-login>登录 Wiki</WorkspaceButton><WorkspaceButton href="/auth/sign-up" target="_blank" rel="noopener noreferrer" data-wiki-register>注册 Wiki</WorkspaceButton><WorkspaceButton data-wiki-refresh>我已登录，刷新账号</WorkspaceButton></div><small>登录在新标签页完成。本页填写内容保留，回来刷新账号后提交。</small></div></fieldset>
+  <fieldset class="profile-wiki" data-wiki-step hidden><legend>2 · 选择 Wiki 账号关联方式</legend><label><input type="radio" name="binding" value="later" checked/> 以后再绑定</label><small>可以直接提交。审核通过后，如果已有或以后注册的 Wiki 账号使用同一已验证邮箱，贡献会自动关联。</small><label><input type="radio" name="binding" value="now"/> 现在登录或注册，绑定我的 Wiki 账号</label><small>允许使用不同邮箱的本人账号。必须实际登录，绑定申请随资料一起审核；不会替换已有绑定。</small><div data-wiki-now hidden><p data-wiki-account-status><LoadingStatus label="正在读取登录状态…"/></p><p data-wiki-account-choice hidden>本次申请绑定：<strong data-wiki-account-name></strong></p><div class="profile-actions"><WorkspaceButton href="/auth/sign-in" target="_blank" rel="noopener noreferrer" data-wiki-login>登录 Wiki</WorkspaceButton><WorkspaceButton href="/auth/sign-up" target="_blank" rel="noopener noreferrer" data-wiki-register>注册 Wiki</WorkspaceButton><WorkspaceButton data-wiki-refresh>我已登录，刷新账号</WorkspaceButton></div><small>登录在新标签页完成。本页填写内容保留，回来刷新账号后提交。</small></div></fieldset>
   <div class="profile-actions"><WorkspaceButton type="submit" tone="primary" data-profile-submit disabled>验证邮箱后提交审核</WorkspaceButton><WorkspaceButton data-profile-retry>重新读取</WorkspaceButton></div>
   <p class="profile-note">审核通过或退回时会发送结果邮件。退回后可在专属链接中修改重提；审核期间保留原有公开资料。<br/>公开名单仅显示昵称、头像和爱发电主页，不显示邮箱、订单或金额。专属链接有效期 7 天，请勿转发。</p>
  </form>

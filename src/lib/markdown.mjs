@@ -1,4 +1,5 @@
 import { createMarkdownProcessor } from '@astrojs/markdown-remark';
+import responsiveMarkdownImages from './responsiveMarkdownImages.mjs';
 import rehypeKatex from 'rehype-katex';
 import rehypeShiki from '@shikijs/rehype';
 import remarkMath from 'remark-math';
@@ -9,6 +10,7 @@ export const siteMarkdownOptions = {
   remarkPlugins: [remarkMath,...wikiRemarkPlugins],
   rehypePlugins: [
     ...wikiRehypePlugins,
+    responsiveMarkdownImages,
     rehypeKatex,
     [rehypeShiki, { theme: 'github-dark' }],
     wikiExternalLinks,
@@ -33,6 +35,7 @@ async function getLightMarkdownRenderer() {
       remarkPlugins: wikiRemarkPlugins,
       rehypePlugins: [
         ...wikiRehypePlugins,
+        responsiveMarkdownImages,
         wikiExternalLinks,
       ],
     });

@@ -1,3 +1,5 @@
+import {applyGalleryPreview} from '../lib/galleryPreviewImage.mjs';
+import {setLoadingStatus} from '../lib/loadingStatus.mjs';
 import {uploadStatusTarget} from '../lib/uploadStatusTarget.mjs';
 import {galleryDraft} from '../lib/galleryDraftStore.mjs';
 import {refreshAuth,state} from './accountStore.js';
@@ -11,7 +13,7 @@ export function mountImageLibrary(root,{onChoose,onCover}={}){
  const node=(tag,value='')=>Object.assign(document.createElement(tag),{textContent:value});
  let tab='public',next=null,epoch=0,searchTimer,controller,operation=null,busy=false,owner=null,selected=[],urls=[],saveQueue=Promise.resolve(),locallySaved=false,saveGeneration=0;
  const loadedIds=new Set();
- const status=(message,error=false)=>{const el=$('[data-library-status]');el.textContent=message;el.dataset.error=String(error);};
+ const status=(message,error=false)=>{const el=$('[data-library-status]');if(message===c.loading)setLoadingStatus(el,message);else el.textContent=message;el.dataset.error=String(error);};
  const safeUrl=value=>{try{const url=new URL(value,location.href);return ['https:','http:'].includes(url.protocol)?url.href:null;}catch{return null;}};
  function link(label,href){const a=node('a',label);a.href=href;if(onChoose){a.target='_blank';a.rel='noopener';}$('[data-library-links]').append(a);return a;}
  async function request(path,method='GET',body,publicRead=false,signal){
@@ -48,7 +50,7 @@ export function mountImageLibrary(root,{onChoose,onCover}={}){
  }
  function card(item,mine){
   const el=node('article');el.className='image-library-card';const body=node('div'),image=new Image(),meta=mine?item.metadata:item;
-  image.alt=meta.title||'';image.loading='lazy';const src=safeUrl(mine?item.previewUrl:item.thumbnail||item.src);if(src)image.src=src;
+  image.alt=meta.title||'';image.loading='lazy';const src=safeUrl(mine?item.previewUrl:item.thumbnail||item.src);if(src){if(mine)image.src=src;else applyGalleryPreview(image,{...item,src},{api,sizes:'(max-width:700px) 40vw, 160px'});}
   body.append(node('strong',meta.title||item.item_id||item.id),node('p',meta.purpose==='entry'?c.entry:c.gallery));
   if(mine){body.append(node('p',item.status==='approved'&&!item.is_public?c.hidden:c[item.status]||item.status));if(item.review_note)body.append(node('p',item.review_note));}
   else {body.append(node('p',[meta.author,meta.sourceTitle].filter(Boolean).join(' · ')));}

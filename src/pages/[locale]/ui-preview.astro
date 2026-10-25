@@ -1,4 +1,5 @@
 ---
+import LoadingStatus from '../../components/LoadingStatus.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import WorkspaceButton from '../../components/WorkspaceButton.astro';
 import WorkspaceControl from '../../components/WorkspaceControl.astro';
@@ -28,7 +29,7 @@ const c=resolveLocaleCopy({zh:{file:'文件选择',radio:'单选',range:'范围'
     <label>{c.range}<WorkspaceControl type="range" min="0" max="100" value="45" name="example-range"/></label>
     <label>{c.progress}<progress class="dui-progress" data-ui-kit max="100" value="45" aria-label={c.progress}></progress></label>
     <div class="preview-actions"><WorkspaceButton aria-busy="true" disabled><span class="dui-loading dui-loading-spinner" aria-hidden="true"></span>{c.loading}</WorkspaceButton><WorkspaceButton aria-pressed="true" tone="primary">{c.check}</WorkspaceButton></div>
-    <p role="status">{c.loading}</p><p role="alert" class="preview-error">{c.error}</p>
+    <p role="status"><LoadingStatus label={c.loading}/></p><p role="alert" class="preview-error">{c.error}</p>
    </form>
    <details><summary>{c.next}</summary><p>{c.note}</p></details>
    <dialog data-preview-dialog aria-label={c.next}><h2>{c.next}</h2><p>{c.note}</p><form method="dialog"><WorkspaceButton type="submit">{c.reset}</WorkspaceButton></form></dialog>

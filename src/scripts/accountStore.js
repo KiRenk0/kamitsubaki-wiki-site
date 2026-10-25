@@ -1,3 +1,4 @@
+import {setLoadingStatus} from '../lib/loadingStatus.mjs';
 import {serviceAvailabilityCopy} from '../lib/serviceAvailabilityCopy.mjs';
 import {lockModalScroll} from '../lib/modalScroll.mjs';
 import {isLocalEditorMode} from '../lib/localEditorMode.mjs';
@@ -12,7 +13,7 @@ export const locale = config?.dataset.locale || 'zh';
 export const copy = JSON.parse(config?.dataset.copy || '{}');
 export const apiBase = (config?.dataset.apiBase || 'https://api.kamitsubaki.wiki').replace(/\/$/,'');
 export const state = {viewer:null,auth:'checking',sync:'guest',account:null,accountLoad:'idle'};
-let authPromise, lastChecked=0, syncPromise, timer, generation=0;
+let authPromise, lastChecked=0, syncPromise, timer, generation=0,lastLibraryRead=0;
 // Shared module has a real-link fallback when the central host is unavailable.
 let canonicalClient=null;
 const centralClient=import(/* @vite-ignore */ `${apiBase}/auth/client/v1.mjs?ui=modal-1`).then(module=>{canonicalClient=module.createAccountAuthClient({apiBase,locale});queueMicrotask(renderChrome);return canonicalClient;}).catch(()=>null);
@@ -48,7 +49,7 @@ export async function refreshAuth(force=false) {
         setLibraryOwner(viewer?.userId);
       }
       notify();
-      if(viewer) void syncLibrary();
+      if(viewer&&(changed||state.sync==='offline'||state.sync==='saving'||Date.now()-lastLibraryRead>=300000)) void syncLibrary();
       return viewer;
     } catch(error) { if(authEpoch!==generation)return state.viewer;state.auth='unavailable';state.unavailableReason=error.message==='database_daily_limit'?serviceAvailabilityCopy(locale).databaseLimit:copy.unavailable;notify();return null; }
     finally { authPromise=null; }
@@ -65,6 +66,7 @@ export async function syncLibrary({discard=false,keepLocal=false}={}) {
       for(let attempt=0;attempt<3;attempt++) {
         const remote=await api('/api/account/library',{owner});
         if(epoch!==generation) return;
+        lastLibraryRead=Date.now();
         const local=readLibraryRecord(localStorage);
         let rebased;
         try { rebased=discard?remote.library:keepLocal?local.library:applyLibraryChanges(remote.library,libraryChanges(local.base,local.library)); }
@@ -154,10 +156,10 @@ export function renderAccountIdentity(container){
 function renderChrome() {
   document.querySelectorAll('[data-account-guest-menu]').forEach(el=>{el.hidden=!!state.viewer;});
   document.querySelectorAll('[data-account-nav]').forEach(a=>{
-    if(state.viewer){renderAccountIdentity(a);a.setAttribute('aria-label',(state.viewer.displayName||copy.title)+' · '+copy.title);a.setAttribute('aria-haspopup','dialog');}else{a.textContent=state.auth==='checking'?copy.checking:copy.login;a.removeAttribute('aria-label');a.removeAttribute('aria-haspopup');}
+    if(state.viewer){renderAccountIdentity(a);a.setAttribute('aria-label',(state.viewer.displayName||copy.title)+' · '+copy.title);a.setAttribute('aria-haspopup','dialog');}else{if(state.auth==='checking'){setLoadingStatus(a,copy.checking);a.setAttribute('aria-label',copy.checking);}else{a.textContent=copy.login;a.removeAttribute('aria-label');}a.removeAttribute('aria-haspopup');}
   });
   document.querySelectorAll('[data-account-status]').forEach(el=>{
-    el.textContent=state.auth==='checking'?copy.checking:state.auth==='unavailable'?(state.unavailableReason||copy.unavailable):copy[state.sync]||copy.guest;
+    if(state.auth==='checking'||state.sync==='saving')setLoadingStatus(el,state.auth==='checking'?copy.checking:copy.saving);else el.textContent=state.auth==='unavailable'?(state.unavailableReason||copy.unavailable):copy[state.sync]||copy.guest;
   });
   document.querySelectorAll('[data-account-retry]').forEach(el=>{el.hidden=!['unavailable'].includes(state.auth)&&!['offline','conflict'].includes(state.sync);});
   document.querySelectorAll('[data-account-local]').forEach(el=>{el.hidden=state.sync!=='conflict';});
