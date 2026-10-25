@@ -1,3 +1,4 @@
+import {galleryPreviewMarkup} from './galleryPreviewImage.mjs';
 import {formatCommunityLocation} from './communityLocationFormat.mjs';
 import {iconMarkup} from './icons.mjs';
 
@@ -28,7 +29,7 @@ export function participationLinks(item,now=Date.now()){
 
 // body/facts/credits are HTML from the existing sanitized Markdown and escaped
 // metadata renderers. All activity values and outbound URLs are escaped here.
-export function activityDetailMarkup(item,{locale,copy:c,bodyHtml='',factsHtml='',creditHtml='',originalHtml='',text=String,now}={}){
+export function activityDetailMarkup(item,{locale,copy:c,bodyHtml='',factsHtml='',creditHtml='',originalHtml='',text=String,now,api}={}){
  const v=value=>escape(text(value||'')),{links,primary}=participationLinks(item,now);
  const external=(link,cls='')=>`<a class="${cls}"${link===primary?' data-tone="primary"':''} href="${safeHref(link.url)}" target="_blank" rel="noopener noreferrer"${links.includes(link)?' data-activity-outbound':''}>${v(link.label||c[link.role+'Link']||c.primary)}${link===primary?iconMarkup('arrow-up-right'):''}</a>`;
  const poster=item.poster||item.media?.find(m=>m.role==='poster')?.src,posterHref=safeHref(poster);
@@ -53,7 +54,7 @@ export function activityDetailMarkup(item,{locale,copy:c,bodyHtml='',factsHtml='
  <nav class="entity-section-nav activity-document-nav" aria-label="${escape(c.title)}">${nav.map(([id,label])=>`<a href="#activity-${id}">${escape(label)}</a>`).join('')}</nav></div>
  <div data-reader data-reader-variant="entry" class="reader-layout reader-frame mx-auto px-4 sm:px-6 grid items-start gap-8">
  <div class="reader-body">
- ${posterHref?`<figure class="activity-detail-art"><a href="${posterHref}" class="activity-poster-open" target="_blank" rel="noopener noreferrer" aria-label="${escape(c.viewPoster)}"><span class="activity-poster-frame"><img class="community-detail-poster" src="${posterHref}" alt="${v(item.title)}" fetchpriority="high"></span><span class="activity-poster-caption">${escape(c.viewPoster)}${iconMarkup('arrow-up-right')}</span></a></figure>`:''}
+ ${posterHref?`<figure class="activity-detail-art"><a href="${posterHref}" class="activity-poster-open" target="_blank" rel="noopener noreferrer" aria-label="${escape(c.viewPoster)}"><span class="activity-poster-frame"><img class="community-detail-poster" ${galleryPreviewMarkup(poster,{api,sizes:'(max-width:767px) calc(100vw - 32px), 720px'})} alt="${v(item.title)}" fetchpriority="high"></span><span class="activity-poster-caption">${escape(c.viewPoster)}${iconMarkup('arrow-up-right')}</span></a></figure>`:''}
  <article id="activity-introduction" class="community-detail-body wiki-reader wiki-prose" lang="${escape(locale)}">${bodyHtml}</article>
  ${creditHtml?`<details class="activity-detail-credits"><summary>${escape(c.materialCredits)}</summary>${creditHtml}</details>`:''}</div>
  <aside class="reader-sidebar"><section id="activity-schedule" class="wiki-infobox entity-info activity-info" aria-label="${escape(c.activityInfo)}"><header><small>${escape(c.communityTab)}</small><h2>${escape(c.activityInfo)}</h2></header><div class="entity-info-body">

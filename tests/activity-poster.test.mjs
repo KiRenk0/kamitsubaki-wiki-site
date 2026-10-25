@@ -42,3 +42,14 @@ test('dashboard cards keep one link and original artwork source; failed images c
   let failed=false;const image=dom.window.document.createElement('img');adaptActivityPoster(image,{onError:()=>{failed=true;}});image.dispatchEvent(new dom.window.Event('error'));assert.equal(failed,true);
  }finally{globalThis.document=previous;dom.window.close();}
 });
+
+test('community body previews retain approved originals, reject unknown media, and leave private draft assets alone',async()=>{
+ const {renderCommunityMarkdown,enhanceCommunityImages}=await import('../src/lib/communityClient.js');
+ const dom=new JSDOM('<article></article>'),previous=globalThis.document;globalThis.document=dom.window.document;
+ try{
+  const root=document.querySelector('article'),src='https://images.kamitsubaki.wiki/community-activities/assets/user/hash.webp',draft='https://api.example/api/community-activities/assets/private';
+  renderCommunityMarkdown(root,`![Public](${src})\n\n![Draft](${draft})\n\n![Unknown](https://evil.example/a.jpg)`,[{src},{src:draft}],{api:'https://api.example'});
+  assert.equal(root.querySelectorAll('img').length,2);const image=root.querySelector('img');assert.match(image.src,/thumbnails\/192\//);assert.equal(image.dataset.original,src);assert.equal(image.loading,'lazy');assert.equal(root.querySelectorAll('img')[1].src,draft);
+  root.innerHTML=root.innerHTML;enhanceCommunityImages(root,{api:'https://api.example'});const hydrated=root.querySelector('img');hydrated.dispatchEvent(new dom.window.Event('error'));assert.equal(hydrated.src,src);assert.equal(hydrated.srcset,'');assert.equal(hydrated.onerror,null);
+ }finally{globalThis.document=previous;dom.window.close();}
+});

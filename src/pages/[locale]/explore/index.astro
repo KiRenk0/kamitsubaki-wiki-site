@@ -1,5 +1,6 @@
 ---
 import {pageLabels} from '../../../lib/pageLabels.mjs';
+import ResponsiveImage from '../../../components/ResponsiveImage.astro';
 import Icon from '../../../components/Icon.astro';
 import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
 import WorkspaceLinkCard from '../../../components/WorkspaceLinkCard.astro';
@@ -29,7 +30,7 @@ const copy=resolveLocaleCopy({
     </a>
     <a class="explore-path explore-path--gallery" data-card-kind="feature" href={gallery.href}>
       <span class="explore-path__kicker">{copy.imageKicker}</span>
-      <div class="explore-path__graphic explore-path__graphic--gallery" aria-hidden="true"><img src="/images/artists/kaf.jpg" alt="" loading="lazy"/><img src="/images/artists/kafu.jpg" alt="" loading="lazy"/></div>
+      <div class="explore-path__graphic explore-path__graphic--gallery" aria-hidden="true"><ResponsiveImage src="/images/artists/kaf.jpg" alt="" widths={[192,480]} sizes="180px"/><ResponsiveImage src="/images/artists/kafu.jpg" alt="" widths={[192,480]} sizes="180px"/></div>
       <span class="explore-path__copy"><strong>{gallery.title}</strong><small>{gallery.summary}</small></span>
       <span class="explore-path__action">{copy.imageAction} <span aria-hidden="true"><Icon name="arrow-up-right" /></span></span>
     </a>

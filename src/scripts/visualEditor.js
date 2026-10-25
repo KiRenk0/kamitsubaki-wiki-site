@@ -1149,7 +1149,7 @@ const initialize = async () => {
     const token=++imagePreviewToken,list=$('[data-image-previews]');clearImagePreviewUrls();list.replaceChildren();
     $('[data-image-selection]').textContent=selectedImageFiles.length?`${selectedImageFiles.length} ${tc('选择图片')}`:'';
     if(!selectedImageFiles.length)return;
-    $('[data-image-selection]').textContent=tc('正在准备图片预览…');
+    setLoadingStatus($('[data-image-selection]'),tc('正在准备图片预览…'));
     for(const [index,file] of selectedImageFiles.entries()){
       if(token!==imagePreviewToken)return;
       const row=document.createElement('div');row.className='ve-attachment-preview';row.setAttribute('role','listitem');
@@ -1283,7 +1283,7 @@ const initialize = async () => {
     try {
       if(!selectedImageFiles.length)throw Error(tc('请先选择、拖入或粘贴图片。'));
       if((draft.assets?.length || 0)+selectedImageFiles.length>8)throw Error(tc('最多添加 8 张图片。'));
-      preparingImages=true;button.disabled=true;feedback.textContent=tc('正在保存图片…');
+      preparingImages=true;button.disabled=true;setLoadingStatus(feedback,tc('正在保存图片…'));
       const next=[];
       for(const file of selectedImageFiles)next.push(await prepareImage(file,$('[data-image-source]').value,$('[data-image-alt]').value,{optimize:$('[data-image-optimize]').checked}));
       if(draft!==targetDraft)throw Error('词条已变化，请重新选择图片。');
