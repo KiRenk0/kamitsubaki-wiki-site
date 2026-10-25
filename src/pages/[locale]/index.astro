@@ -18,7 +18,7 @@ import SupportBanner from '../../components/SupportBanner.astro';
 
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getBuildCollection as getCollection } from '../../lib/contentAuditContext';
-import { getLocalizedSite } from '../../lib/homeData.mjs';
+import { getLocalizedEntries, getLocalizedSite } from '../../lib/homeData.mjs';
 import { sampleRandom } from '../../lib/homeMusicCatalog.mjs';
 import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../lib/i18n.mjs';
 import { buildHomeMetadata } from '../../lib/metadata.mjs';
@@ -31,7 +31,7 @@ export function getStaticPaths() {
 
 const { locale } = Astro.params;
 const siteEntries = await getCollection('site');
-const announcementEntries = await getCollection('announcements');
+const announcementEntries = getLocalizedEntries(await getCollection('announcements'), locale, defaultLocale);
 const homeContent = getLocalizedSite(siteEntries, locale, defaultLocale);
 const registry=await getEntityRegistry();
 const homeMusicCatalog = buildEntityMusicCatalog(registry, locale);
