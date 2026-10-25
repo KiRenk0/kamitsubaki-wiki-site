@@ -12,7 +12,7 @@ export async function openActivityPoster(image,opener,{closeLabel,zoomLabel,keyb
   const {default:PhotoSwipe}=await import('photoswipe');
   const dialog=opener.closest('dialog');if(!opener.isConnected||(dialog&&!dialog.open))return;
   const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const viewer=new PhotoSwipe({dataSource:[{src:image.currentSrc||image.src,width:image.naturalWidth,height:image.naturalHeight,alt:image.alt}],appendToEl:dialog||document.body,bgOpacity:.94,...(closeLabel?{closeTitle:closeLabel}:{}),...(zoomLabel?{zoomTitle:zoomLabel}:{}),showAnimationDuration:reduced||keyboard?0:200,hideAnimationDuration:reduced||keyboard?0:160});
+  const viewer=new PhotoSwipe({dataSource:[{src:image.dataset.original||image.currentSrc||image.src,msrc:image.currentSrc||image.src,width:Number(image.dataset.originalWidth)||image.naturalWidth,height:Number(image.dataset.originalHeight)||image.naturalHeight,alt:image.alt}],appendToEl:dialog||document.body,bgOpacity:.94,...(closeLabel?{closeTitle:closeLabel}:{}),...(zoomLabel?{zoomTitle:zoomLabel}:{}),showAnimationDuration:reduced||keyboard?0:200,hideAnimationDuration:reduced||keyboard?0:160});
   // The browser's modal cancel must close the poster, not its parent dashboard.
   const cancel=event=>{event.preventDefault();event.stopImmediatePropagation();viewer.close();};
   dialog?.addEventListener('cancel',cancel,{capture:true});

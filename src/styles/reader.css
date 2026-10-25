@@ -188,7 +188,7 @@ html body .reader-end [data-content-license] { border: 0; border-top: 1px solid 
   html body .reader-body { order: 0; }
   html body .reader-sidebar { order: 1; }
   html body .reader-layout > .reader-body { grid-column: 1; }
-  html body .reader-layout > .reader-sidebar { grid-column: 2;position:sticky;top:var(--reader-sticky-top, 6rem);align-self:start;max-height:calc(100dvh - var(--reader-sticky-top, 6rem) - 1.5rem);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin; }
+  html body .reader-layout > .reader-sidebar { grid-column: 2;position:static;align-self:start;max-height:none;overflow:visible; }
   html body .reader-layout--essay { grid-template-columns: 10.5rem minmax(0, 46rem); justify-content: center; }
   html body .reader-layout--essay > .reader-toc-column { display: block; grid-column: 1; position: sticky; top: var(--reader-sticky-top, 6rem); }
   html body .reader-layout--essay > .reader-body { grid-column: 2; }
