@@ -1,4 +1,5 @@
 ---
+import LoadingStatus from '../../../../components/LoadingStatus.astro';
 import WorkspaceButton from '../../../../components/WorkspaceButton.astro';
 import WorkspaceLayout from '../../../../layouts/WorkspaceLayout.astro';
 import {supportedLocales} from '../../../../lib/i18n.mjs';
@@ -9,6 +10,6 @@ const locale=Astro.params.locale||'zh',c=communityCopy(locale),api=import.meta.e
 ---
 <WorkspaceLayout locale={locale} title={c.series} intro="" path="/community/series/read/" eyebrow="COMMUNITY / SERIES" backHref={`/${locale}/community/activities/`} backLabel={c.back} width="wide" noindex mainAttributes={{class:'community-page','data-community-document':'series','data-locale':locale,'data-api':api,'data-copy':JSON.stringify(c)}}>
  <div class="community-actions" slot="actions"><WorkspaceButton href={`/${locale}/community/activities/apply/`}>{c.apply}</WorkspaceButton></div>
- <section data-community-content><p data-community-document-status role="status">{c.loading}</p></section>
+ <section data-community-content><p data-community-document-status role="status"><LoadingStatus label={c.loading}/></p></section>
 </WorkspaceLayout>
 <script>import {initCommunityDocument} from '../../../../scripts/communityDocument.js';initCommunityDocument(document.querySelector('[data-community-document]'));</script>

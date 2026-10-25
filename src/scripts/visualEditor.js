@@ -1250,7 +1250,7 @@ const initialize = async () => {
     const checkImage=()=>{
       const token=++checkToken,url=normalizeArticleImageUrl(urlField.value,location.href);readyUrl=null;preview.hidden=true;preview.removeAttribute('src');refreshButton();
       if(!url){status.textContent=imageCopy.invalid;return;}
-      status.textContent=imageCopy.checking;
+      setLoadingStatus(status,imageCopy.checking);
       const probe=new Image();probe.onload=()=>{if(token!==checkToken)return;readyUrl=url;preview.src=url;preview.hidden=false;status.textContent=imageCopy.ready;refreshButton();};
       probe.onerror=()=>{if(token!==checkToken)return;status.textContent=imageCopy.unavailable;};
       probe.src=url;
