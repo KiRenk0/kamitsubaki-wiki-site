@@ -29,3 +29,12 @@ test('Markdown responsive candidates retain original dimensions and respect auth
  assert.equal(inline.properties.src,'/small.webp');assert.equal(inline.properties.dataOriginal,'/images/original.jpg');assert.equal(inline.properties.dataOriginalWidth,2560);assert.equal(inline.properties.loading,'lazy');
  assert.deepEqual(directed.properties,{src:'/images/original.jpg',alt:'Art'});
 });
+
+test('published extensionless revisions and community assets receive previews, staging never does',()=>{
+ for(const path of ['/gallery/item-1/revision-2','/community-activities/assets/user-1/hash.webp']){
+  const src='https://images.kamitsubaki.wiki'+path;
+  assert.equal(galleryPreviewAttributes(src,{api:'https://api.example'}).src,'https://api.example/api/gallery/thumbnails/192'+path);
+ }
+ const privateUrl='https://api.example/api/community-activities/assets/hash';
+ assert.deepEqual(galleryPreviewAttributes(privateUrl,{api:'https://api.example'}),{src:privateUrl});
+});

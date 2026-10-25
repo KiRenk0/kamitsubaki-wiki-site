@@ -1,3 +1,4 @@
+import {applyGalleryPreview} from './galleryPreviewImage.mjs';
 import {scheduleText} from './activityPresentation.mjs';
 export {scheduleText} from './activityPresentation.mjs';
 import {formatCommunityLocation} from './communityLocationFormat.mjs';
@@ -43,7 +44,7 @@ export function activityCard(item,{locale,copy,base,placement='center',compact=f
  const card=element('article',null,'activity-card'+(compact?' activity-card--compact':'')+(placement==='dashboard'?' activity-card--dashboard':''));card.dataset.activityId=item.id;card.dataset.activitySource=item.source||'community';
  const href=activityHref(item,locale,placement),link=element('a',null,'activity-card__link');if(href)link.href=href;
  if(item.source==='official'){link.target='_blank';link.rel='noopener noreferrer';}
- if(item.poster){const art=element('div',null,'activity-card__art dui-skeleton'),img=element('img');img.alt=contentText(item.title,item,locale);img.loading='lazy';img.decoding='async';adaptActivityPoster(img,{onError:()=>{art.remove();card.classList.remove('activity-card--poster');}});img.addEventListener('load',()=>{art.classList.remove('dui-skeleton');img.classList.add('is-loaded');});img.src=item.poster;art.append(img);link.append(art);card.classList.add('activity-card--poster');}
+ if(item.poster){const art=element('div',null,'activity-card__art dui-skeleton'),img=element('img');img.alt=contentText(item.title,item,locale);img.loading='lazy';img.decoding='async';applyGalleryPreview(img,{src:item.poster},{api:activityBase(base),sizes:'(max-width:700px) 90vw, 400px'});adaptActivityPoster(img,{onError:()=>{art.remove();card.classList.remove('activity-card--poster');}});img.addEventListener('load',()=>{art.classList.remove('dui-skeleton');img.classList.add('is-loaded');});art.append(img);link.append(art);card.classList.add('activity-card--poster');}
  const body=element('div',null,'activity-card__body');
  const title=element('h3',contentText(item.title,item,locale)),date=element('p',scheduleText(item,locale,copy,{compact:true}),'activity-date');
  body.append(...(placement==='dashboard'?[title,date]:[date,title]));

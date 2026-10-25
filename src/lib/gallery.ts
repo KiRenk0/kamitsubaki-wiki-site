@@ -75,7 +75,7 @@ export async function initGallery(){
     button.dataset.name=name;button.dataset.count=String(row.count);button.dataset.siteOrder=String(index);
     button.setAttribute('aria-label',ready?`${name} · ${row.count} ${unit}`:name);
     const image=role?.image||galleryEntities.find(value=>value.id===row.id)?.image||row.coverUrl;
-    if(image){const img=document.createElement('img');preview(img,{src:image});img.alt='';img.loading='lazy';img.decoding='async';img.onerror=()=>img.replaceWith(text('span',name.slice(0,1),'gallery-role-initial'));button.append(img);}
+    if(image){const img=document.createElement('img');preview(img,{src:image});img.alt='';img.loading='lazy';img.decoding='async';img.addEventListener('error',()=>img.replaceWith(text('span',name.slice(0,1),'gallery-role-initial')),{once:true});button.append(img);}
     else button.append(text('span',name.slice(0,1),'gallery-role-initial'));
     const inner=document.createElement('div');inner.append(text('strong',name),text('small',ready?`${row.count} ${unit}`:'…'));button.append(inner);target.append(button);
    }
