@@ -1,4 +1,6 @@
 ---
+import galleryEntities from '../../../data/gallery-entities.json';
+import {imageAttributes} from '../../../lib/imageAssets.mjs';
 import WorkspaceControl from '../../../components/WorkspaceControl.astro';
 import Icon from '../../../components/Icon.astro';
 import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
@@ -8,6 +10,7 @@ import ExpandControl from '../../../components/ExpandControl.astro';
 import {supportedLocales,resolveLocaleCopy} from '../../../lib/i18n.mjs';
 import '../../../styles/galleryArchive.css';
 export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
+const previewAssets=Object.fromEntries(galleryEntities.filter(item=>item.image).map(item=>[item.image,imageAttributes(item.image,{widths:[192,480],sizes:'(max-width:700px) 40vw, 200px'})]));
 const locale=Astro.params.locale!;
 const api=import.meta.env.PUBLIC_GALLERY_API_URL||import.meta.env.PUBLIC_AI_OBSERVER_API_BASE||'https://api.kamitsubaki.wiki';
 const copy=resolveLocaleCopy({
@@ -21,7 +24,7 @@ Object.assign(copy,resolveLocaleCopy({
  en:{roleSort:'Sort subjects',roleOrderSite:'Directory order',roleOrderCount:'Most photos',roleOrderName:'Name',roleNoMatch:'No matching people or groups. Try another name.',roleCount:'People and groups shown',roleSearch:'Find a person or group',showAllRoles:'Show more people and groups',collapseRoles:'Collapse',moreLoading:'Loading next page…',loaded:'Showing',noSets:'No published design sets yet',noSetsHint:'Existing images are available as individual photos. Curated sets will appear here after contribution and review.',browsePhotos:'Browse all photos',createSet:'Create a design set',suggestedPhotos:'Explore these public photos',download:'Download photo',imageType:'Image type',subject:'Related subjects',author:'Image creator',attribution:'Source check',setName:'Design set',globalCount:'Archive-wide count'}
 },locale));
 ---
-<WorkspaceLayout locale={locale} title={copy.title} intro={copy.intro} path="/gallery/" eyebrow="EXPLORE / VISUAL ARCHIVE" backHref={`/${locale}/explore/`} backLabel={copy.back} width="wide" mainAttributes={{class:'gallery-archive','data-gallery':'','data-mobile-filters':'closed','data-api':api,'data-locale':locale,'data-copy':JSON.stringify(copy)}}>
+<WorkspaceLayout locale={locale} title={copy.title} intro={copy.intro} path="/gallery/" eyebrow="EXPLORE / VISUAL ARCHIVE" backHref={`/${locale}/explore/`} backLabel={copy.back} width="wide" mainAttributes={{class:'gallery-archive','data-gallery':'','data-mobile-filters':'closed','data-api':api,'data-image-origin':import.meta.env.PUBLIC_GALLERY_IMAGE_ORIGIN||'https://images.kamitsubaki.wiki','data-locale':locale,'data-copy':JSON.stringify(copy)}}>
  <Fragment slot="actions"><WorkspaceButton href={`/${locale}/gallery/manage/`} tone="primary">{copy.upload}</WorkspaceButton></Fragment>
  <div class="gallery-overview" data-gallery-overview>
   <section class="gallery-role-section" id="gallery-role-filters" aria-labelledby="gallery-roles-title">
@@ -51,6 +54,7 @@ Object.assign(copy,resolveLocaleCopy({
  </div>
  <section class="gallery-set-detail" data-gallery-detail hidden aria-labelledby="gallery-detail-title"><WorkspaceButton type="button" class="gallery-detail-back" data-gallery-back><Icon name="arrow-left" /> {copy.backToSets}</WorkspaceButton><header class="gallery-detail-head"><div><p data-gallery-detail-path></p><h1 id="gallery-detail-title" data-gallery-detail-title></h1><p data-gallery-detail-meta></p></div><div class="gallery-detail-actions"><WorkspaceButton type="button" data-gallery-photos-in-set>{copy.photosInSet} <Icon name="arrow-right" /></WorkspaceButton><WorkspaceButton data-gallery-edit href={`/${locale}/gallery/manage/`}>{copy.edit} <Icon name="arrow-up-right" /></WorkspaceButton></div></header><div class="gallery-detail-layout"><div class="gallery-detail-images" data-gallery-images></div><aside class="gallery-detail-aside"><dl data-gallery-properties></dl><WorkspaceButton data-gallery-related hidden tone="quiet" href={`/${locale}/database/`}>{copy.related} <Icon name="arrow-up-right" /></WorkspaceButton></aside></div></section>
 </WorkspaceLayout>
+<script type="application/json" data-gallery-image-assets set:html={JSON.stringify(previewAssets).replaceAll('<','\\u003c')}/>
 <script>
  import {initGallery} from '../../../lib/gallery';
  initGallery();

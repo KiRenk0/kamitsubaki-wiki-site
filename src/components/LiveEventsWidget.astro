@@ -1,4 +1,5 @@
 ---
+import LoadingStatus from './LoadingStatus.astro';
 import WorkspaceButton from './WorkspaceButton.astro';
 import Icon from './Icon.astro';
 import { getLanguageTag } from '../lib/i18n.mjs';
@@ -71,7 +72,7 @@ const apiBase = import.meta.env.PUBLIC_EVENTS_API_BASE || 'https://kamitsubaki-e
         <time data-live-events-date></time>
       </div>
 
-      <div class="live-events__status" data-live-events-status aria-live="polite">{copy.loading}</div>
+      <div class="live-events__status" data-live-events-status aria-live="polite"><LoadingStatus label={copy.loading}/></div>
       <div class="live-events__list" data-live-events-list></div>
 
       <footer class="live-events__footer">

@@ -1,3 +1,4 @@
+import {setLoadingStatus} from '../lib/loadingStatus.mjs';
 import {api,state,locale} from './accountStore.js';
 import {benefitsCopy} from '../lib/benefitsCopy.mjs';
 const c=benefitsCopy(locale);
@@ -8,7 +9,7 @@ function init(){
  const button=(label,fn,parent=view)=>{const b=el('button',label,parent);b.type='button';b.className='account-button';b.addEventListener('click',fn);return b;};
  const date=v=>v?new Date(v).toLocaleString(locale):c.pending;
  async function call(path,options){const id=state.viewer?.userId;if(!id)throw Error('login_required');const result=await api('/api/supporter-benefits'+(path.startsWith('/?')?path.slice(1):path==='/'?'':path),options);if(state.viewer?.userId!==id)throw Error('account_changed');return result.data;}
- async function perform(task,feedback=c.success){if(busy)return;busy=true;status.textContent=c.loading;try{await task();status.textContent=feedback;}catch(e){status.textContent=e.data?.error?.message||c.failure;}finally{busy=false;if(reloadAfterSwitch){reloadAfterSwitch=false;if(state.viewer&&location.hash==='#benefits')queueMicrotask(()=>void load());}}}
+ async function perform(task,feedback=c.success){if(busy)return;busy=true;setLoadingStatus(status,c.loading);try{await task();status.textContent=feedback;}catch(e){status.textContent=e.data?.error?.message||c.failure;}finally{busy=false;if(reloadAfterSwitch){reloadAfterSwitch=false;if(state.viewer&&location.hash==='#benefits')queueMicrotask(()=>void load());}}}
  async function load(){if(!state.viewer){owner=null;loaded=false;view.replaceChildren();status.textContent='';return;}if(busy)return;owner=state.viewer.userId;await perform(async()=>{const data=await call('/');view.replaceChildren();renderList(data);loaded=true;},'');}
  function renderList(data){
   const e=data.eligibility;el('p',c.rank+'：'+c.rankLabels[e.rank]+' · '+(e.validUntil?c.until+' '+date(e.validUntil):c.expired));if(e.tiers.length)el('p',c.groups+'：'+e.tiers.map(t=>c.tierLabels[t]||t).join('、'));el('p',c.retained);

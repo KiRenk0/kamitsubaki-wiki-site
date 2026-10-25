@@ -1,3 +1,4 @@
+import {applyGalleryPreview} from '../lib/galleryPreviewImage.mjs';
 import {setIconLabel} from '../lib/icons.mjs';
 import {imageViewer} from '../lib/imageViewer.mjs';
 
@@ -7,9 +8,9 @@ export function initEntityGalleryPreviews(){
   const load=async()=>{
    try{const query=new URLSearchParams({entity:root.dataset.entity,offset:'0'}),response=await fetch(root.dataset.api.replace(/\/$/,'')+'/api/gallery/items?'+query,{signal:AbortSignal.timeout(15000)});if(!response.ok)return;const data=await response.json();if(!data.items?.length)return;
     const copy=JSON.parse(root.dataset.copy||'{}'),locale=root.dataset.locale,images=root.querySelector('[data-gallery-images]'),items=data.items.slice(0,6);
-    const view=items.map(item=>({id:item.id,src:item.src,title:item.title||copy.title,notes:item.notes||'',links:[{href:`/${locale}/gallery/classify/?photo=${encodeURIComponent(item.id)}&returnTo=${encodeURIComponent(location.pathname)}`,label:copy.classify},...(item.sourceUrl?[{href:item.sourceUrl,label:item.sourceTitle||copy.source}]:[]),{href:item.src,label:copy.original}]}));
+    const view=items.map(item=>({id:item.id,src:item.src,msrc:item.thumbnail||undefined,width:item.width,height:item.height,title:item.title||copy.title,notes:item.notes||'',links:[{href:`/${locale}/gallery/classify/?photo=${encodeURIComponent(item.id)}&returnTo=${encodeURIComponent(location.pathname)}`,label:copy.classify},...(item.sourceUrl?[{href:item.sourceUrl,label:item.sourceTitle||copy.source}]:[]),{href:item.src,label:copy.original}]}));
     setIconLabel(root.querySelector('[data-gallery-all]'),`${copy.all} (${data.total}) →`);
-    for(const [index,item] of items.entries()){const button=document.createElement('button'),image=new Image();button.type='button';button.setAttribute('aria-label',item.title||copy.title);image.src=item.thumbnail||item.src;image.alt=item.title||copy.title;image.loading='lazy';button.append(image);button.onclick=()=>imageViewer().open(view,index,button,{photoFirst:true});images.append(button);}root.hidden=false;
+    for(const [index,item] of items.entries()){const button=document.createElement('button'),image=new Image();button.type='button';button.setAttribute('aria-label',item.title||copy.title);applyGalleryPreview(image,item,{api:root.dataset.api,imageOrigin:root.dataset.imageOrigin,sizes:'(max-width:750px) 28vw, 110px'});image.alt=item.title||copy.title;image.loading='lazy';button.append(image);button.onclick=()=>imageViewer().open(view,index,button,{photoFirst:true});images.append(button);}root.hidden=false;
    }catch{/* The article remains fully readable when the gallery API is unavailable. */}
   };
   void load();

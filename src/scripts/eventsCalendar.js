@@ -1,3 +1,4 @@
+import {setLoadingStatus} from '../lib/loadingStatus.mjs';
 import {calendarMonthRange,renderCalendarMonth,shiftCalendarMonth} from '../lib/calendarMonth.js';
 import {setIconLabel} from '../lib/icons.mjs';
 import {
@@ -150,7 +151,7 @@ function mountCalendar(calendar) {
     const activeRequest = new AbortController();
     request = activeRequest;
     status.hidden = false;
-    status.textContent = copy.loading;
+    setLoadingStatus(status,copy.loading);
     status.dataset.state = 'loading';
 
     try {

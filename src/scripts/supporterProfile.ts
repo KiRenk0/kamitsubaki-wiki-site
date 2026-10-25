@@ -1,3 +1,4 @@
+import {setLoadingStatus} from '../lib/loadingStatus.mjs';
 import { failureMessage, isExpiredLink, isStaleVersion, ProfileRequestError, verificationNotice } from '../lib/supporterProfileFlow.mjs';
 
 window.addEventListener('hashchange', () => window.location.reload());
@@ -18,6 +19,7 @@ if (root) {
     status.textContent=message;status.dataset.error=String(error);
     if(error){status.scrollIntoView({block:'center',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});status.focus({preventScroll:true});}
   };
+  const showLoading=(label:string)=>{status.dataset.error='false';setLoadingStatus(status,label);};
   const address=()=>email.value.trim().toLowerCase();
   const wantsBinding=()=>el<HTMLInputElement>('[name=binding]:checked').value==='now';
   function update(){
@@ -31,7 +33,7 @@ if (root) {
     confirmCode.disabled=busy||expired||verified;
     code.disabled=busy||expired||verified;
     submit.disabled=busy||expired||!verified||(wantsBinding()&&!wikiUserId);
-    submit.textContent=busy?'正在处理…':!verified?'验证邮箱后提交审核':wantsBinding()&&!wikiUserId?'登录并刷新账号后提交':'提交审核';
+    if(busy)setLoadingStatus(submit,'正在处理…');else submit.textContent=!verified?'验证邮箱后提交审核':wantsBinding()&&!wikiUserId?'登录并刷新账号后提交':'提交审核';
   }
   function lock(value:boolean){busy=value;for(const control of page.querySelectorAll<HTMLInputElement|HTMLButtonElement>('input,button'))control.disabled=value;update();}
   async function request(path:string,body?:unknown,raw=false,personal=true){
@@ -52,6 +54,7 @@ if (root) {
     if(isExpiredLink(error)){expired=true;reissue.hidden=false;update();}
   }
   async function loadWiki(){
+    setLoadingStatus(el('[data-wiki-account-status]'),'正在读取登录状态…');
     try{
       const account=await request('/profile/wiki-account');wikiUserId=account?.id||'';
       el('[data-wiki-account-choice]').hidden=!account;
@@ -81,7 +84,7 @@ if (root) {
     report(state==='approved'?'资料已通过审核。':state==='rejected'?`请修改后重新提交：${reason}`:'资料已提交，正在等待管理员审核。');
   }
   async function load(){
-    if(busy)return;lock(true);
+    if(busy)return;lock(true);showLoading('正在读取专属链接…');
     try{
       if(!/^[\w-]{40,100}$/.test(token))throw new ProfileRequestError('请打开爱发电私信或邮件中的完整专属链接，也可以在下方申请补发。','invitation_required');
       const data=await request('/profile'), p=data.profile;
@@ -135,7 +138,7 @@ if (root) {
     if(!name.reportValidity()||!email.reportValidity())return;
     if(wantsBinding()&&!wikiUserId){report('请先登录并刷新账号，或选择“以后再绑定”。',true);return;}
     if(wantsBinding()&&existingWikiUserId&&wikiUserId!==existingWikiUserId){report('此份贡献已有账号绑定，不会替换。请选“以后再绑定”保留原账号，或联系管理员核对。',true);return;}
-    lock(true);report('正在提交资料…');
+    lock(true);showLoading('正在提交资料…');
     try{
       const result=await request('/profile',{name:name.value.trim(),email:address(),avatarId,version,...(wantsBinding()?{wikiUserId}:{})});
       version=result.version;dirty=false;showDone('pending');
