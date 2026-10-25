@@ -6,7 +6,7 @@ export function readActivityState(params,today,{source='community',mobile=false}
  return {source:['official','community'].includes(params.get('source'))?params.get('source'):source,month,view:['calendar','agenda'].includes(params.get('view'))?params.get('view'):mobile?'agenda':'calendar',range:['next','deadline','past'].includes(params.get('range'))?params.get('range'):'month',date:/^\d{4}-\d{2}-\d{2}$/.test(params.get('date')||'')?params.get('date'):'',deadlines:params.get('deadlines')!=='0',pastOffsetDays:Number.isSafeInteger(offset)&&offset>=0&&offset<=36500?Math.floor(offset/365)*365:0};
 }
 export function activityRange(state,today,q=''){
- if(state.range==='past')return {from:addDays(today,-365-state.pastOffsetDays),to:addDays(today,-1-state.pastOffsetDays)};
+ if(state.range==='past')return {from:addDays(today,-365-state.pastOffsetDays),to:addDays(today,-state.pastOffsetDays-(state.pastOffsetDays?1:0))};
  if(q.trim()&&state.range==='month')return {from:addDays(today,-270),to:addDays(today,90)};
  if(state.range!=='month')return {from:today,to:addDays(today,29)};
  const first=state.month+'-01',weekday=(new Date(first+'T12:00Z').getUTCDay()+6)%7,from=addDays(first,-weekday);return {from,to:addDays(from,41)};

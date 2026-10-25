@@ -75,9 +75,11 @@ test('range transitions return to a usable month and yearly history windows do n
  const today='2026-10-25',initial=readActivityState(new URLSearchParams('range=next&view=agenda&month=2027-01'),today);
  const monthly=transitionActivity(initial,'calendar',today);assert.equal(monthly.range,'month');assert.equal(monthly.view,'calendar');assert.equal(monthly.month,'2027-01');
  const past=transitionActivity(initial,'past',today),a=activityRange(past,today),b=activityRange(transitionActivity(past,'older',today),today);
+ assert.equal(a.to,today,'include events that finished earlier today');
  assert.equal(Date.parse(a.from)-Date.parse(b.to),86400000);assert.ok((Date.parse(a.to)-Date.parse(a.from))/86400000<400);
  const query=activityRange(monthly,today,'keyword');assert.equal((Date.parse(query.to)-Date.parse(query.from))/86400000,360);
  const item={id:'past',eventStatus:'scheduled',schedule:{kind:'allDay',timeZone:'Asia/Tokyo',startDate:'2026-10-01',endDate:'2026-10-02'}};
+ assert.equal(pastActivities([{id:'today',eventStatus:'scheduled',schedule:{kind:'timed',timeZone:'UTC',startAt:today+'T01:00:00Z',endAt:today+'T02:00:00Z'}}],a,Date.parse(today+'T12:00Z')).length,1);
  assert.deepEqual(pastActivities([item,item,{...item,id:'future',schedule:{...item.schedule,endDate:'2027-01-01'}},{...item,id:'unknown',schedule:{kind:'timed',timeZone:'UTC',startAt:'2026-01-01T00:00Z'}}],a,Date.parse(today+'T12:00Z')).map(x=>x.id),['past']);
 });
 
