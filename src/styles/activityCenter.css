@@ -197,7 +197,7 @@ html body main.workspace-page.events-page__main{--workspace-top:112px;--workspac
 .activity-center .fc-daygrid-day-frame{min-height:86px}
 .activity-center .fc-col-header-cell-cushion{padding-block:8px;font-weight:500;font-size:12px}
 .activity-center .activity-agenda-day{display:grid;grid-template-columns:140px minmax(0,1fr);column-gap:24px;padding:20px 0;border-bottom:1px solid var(--reader-line)}
-.activity-center .activity-agenda-day>h3{grid-row:1 / span 100;margin:0;font:500 15px/1.7 var(--font-serif);font-variant-numeric:tabular-nums}
+.activity-center .activity-agenda-day>h3{grid-row:1 / span var(--activity-day-count,1);margin:0;font:500 15px/1.7 var(--font-serif);font-variant-numeric:tabular-nums}
 .activity-center .activity-point-kind:empty{display:none}
 .activity-center [data-activity-agenda-list] .activity-card{margin-bottom:16px}
 .activity-center [data-activity-agenda-list] .activity-card--poster .activity-card__link,.activity-center [data-activity-archive-list] .activity-card--poster .activity-card__link{grid-template-columns:80px minmax(0,1fr);gap:16px}
@@ -237,7 +237,7 @@ html body main.workspace-page.events-page__main{--workspace-top:112px;--workspac
  .activity-center .activity-card__actions{margin-top:8px;gap:20px;border-top:0}.activity-center .activity-card__actions .activity-text-action{min-height:36px}
  .activity-center [data-activity-featured-section]{padding-bottom:16px;margin-bottom:24px}
  .activity-center .activity-agenda-day{grid-template-columns:64px minmax(0,1fr);gap:12px;padding-block:14px}
- .activity-center .activity-agenda-day>h3{grid-row:1 / span 100;margin:0;font:12px/1.8 var(--font-sans)}
+ .activity-center .activity-agenda-day>h3{grid-row:1 / span var(--activity-day-count,1);margin:0;font:12px/1.8 var(--font-sans)}
  .activity-center [data-activity-agenda-list] .activity-card--poster .activity-card__link{grid-template-columns:56px minmax(0,1fr);gap:10px}
  .activity-center [data-activity-agenda-list] .activity-card h3{font-size:15px}
  .activity-center .activity-section-title{flex-wrap:wrap;gap:8px;margin-bottom:12px}.activity-center .activity-section-title>span{font-size:11px}
