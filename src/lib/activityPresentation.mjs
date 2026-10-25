@@ -25,7 +25,12 @@ export function formatActivityTimeForDay(item,dayKey,locale,viewerTimeZone=Intl.
  const s=item.schedule;if(!s||s.kind==='undated')return scheduleText(item,locale,copy);
  const day=(at,zone)=>new Intl.DateTimeFormat('en-CA',{timeZone:zone,year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(at));
  if(s.kind==='allDay')return s.startDate===dayKey&&(s.endDate||s.startDate)===dayKey?copy.allDay:scheduleText(item,locale,copy);
- if(day(s.startAt,s.timeZone)!==dayKey||s.endAt&&day(s.endAt,s.timeZone)!==dayKey)return scheduleText(item,locale,copy);
+ if(day(s.startAt,s.timeZone)!==dayKey||s.endAt&&day(s.endAt,s.timeZone)!==dayKey){
+  const original=scheduleText(item,locale,copy);
+  if(viewerTimeZone===s.timeZone)return original;
+  const localDateTime=at=>new Intl.DateTimeFormat(locale,{timeZone:viewerTimeZone,dateStyle:'medium',timeStyle:'short',hourCycle:'h23'}).format(new Date(at));
+  return original+'（'+copy.localTime+' '+localDateTime(s.startAt)+(s.endAt?' – '+localDateTime(s.endAt):' · '+copy.endUnknown)+' · '+viewerTimeZone+'）';
+ }
  const time=(at,zone)=>new Intl.DateTimeFormat(locale,{timeZone:zone,hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).format(new Date(at));
  const range=zone=>time(s.startAt,zone)+(s.endAt?' – '+time(s.endAt,zone):' · '+copy.endUnknown);
  const local=viewerTimeZone===s.timeZone?'': '（'+copy.localTime+' '+(day(s.startAt,viewerTimeZone)!==dayKey?day(s.startAt,viewerTimeZone)+' ':'')+range(viewerTimeZone)+(s.endAt&&day(s.endAt,viewerTimeZone)!==day(s.startAt,viewerTimeZone)?' '+day(s.endAt,viewerTimeZone):'')+' · '+viewerTimeZone+'）';

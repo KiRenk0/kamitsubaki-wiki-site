@@ -112,3 +112,13 @@ test('reading-index cards have one detail link and do not invent time or actions
   assert.equal(dated.querySelector('.activity-date'),null,'a known date does not imply all-day opening hours');assert.equal(dated.querySelectorAll('a[href*="/zh/community/activities/"]').length,1);assert.ok(dated.querySelector('a[href*="calendar.ics"]'));assert.ok(dated.querySelector('.activity-jump'));
  } finally {if(old===undefined)delete globalThis.document;else globalThis.document=old;dom.window.close();}
 });
+
+test('cross-midnight agenda retains the full viewer-local date and time range',async()=>{
+ const {formatActivityTimeForDay}=await import('../src/lib/activityPresentation.mjs');
+ const item={schedule:{kind:'timed',timeZone:'America/New_York',startAt:'2026-10-31T23:00:00-04:00',endAt:'2026-11-01T00:00:00-04:00'}};
+ const output=formatActivityTimeForDay(item,'2026-10-31','zh','Asia/Shanghai',activityCopy('zh'));
+ assert.ok(output.includes('America/New_York'));assert.ok(output.includes('Asia/Shanghai'));
+ assert.ok(output.includes('11:00'));assert.ok(output.includes('12:00'));assert.ok(output.includes('11月1日'));
+ const sameZone=formatActivityTimeForDay(item,'2026-10-31','en','America/New_York',activityCopy('en'));
+ assert.equal(sameZone.split('America/New_York').length,2);
+});
