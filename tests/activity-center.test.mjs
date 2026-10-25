@@ -99,3 +99,16 @@ test('details keep the poster exclusively in the information sidebar and a plain
  assert.ok(dom.window.document.querySelector('.reader-sidebar .activity-info .activity-poster-open'));
  dom.window.close();
 });
+
+
+test('reading-index cards have one detail link and do not invent time or actions for undated projects',async()=>{
+ const {JSDOM}=await import('jsdom'),{activityCard}=await import('../src/lib/activityClient.js'),dom=new JSDOM('<body/>'),old=globalThis.document;
+ globalThis.document=dom.window.document;
+ try {
+  const options={locale:'zh',copy,base:'https://api.example',onJump:()=>{}};
+  const unknown=activityCard({id:'unknown',title:'时间待定',source:'community',schedule:{kind:'undated'}},options);
+  assert.equal(unknown.querySelectorAll('a').length,1);assert.equal(unknown.querySelector('.activity-card__primary').textContent,copy.details);assert.equal(unknown.querySelector('.activity-jump'),null);
+  const dated=activityCard({id:'dated',title:'日期已知',source:'community',schedule:{kind:'allDay',timeZone:'Asia/Shanghai',startDate:'2027-04-04',endDate:'2027-04-04'}},{...options,dayKey:'2027-04-04'});
+  assert.equal(dated.querySelector('.activity-date'),null,'a known date does not imply all-day opening hours');assert.equal(dated.querySelectorAll('a[href*="/zh/community/activities/"]').length,1);assert.ok(dated.querySelector('a[href*="calendar.ics"]'));assert.ok(dated.querySelector('.activity-jump'));
+ } finally {if(old===undefined)delete globalThis.document;else globalThis.document=old;dom.window.close();}
+});

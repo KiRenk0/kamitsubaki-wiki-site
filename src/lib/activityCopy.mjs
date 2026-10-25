@@ -10,11 +10,13 @@ export function activityCopy(locale='zh'){
  promotion_hidden:['活动当前未公开，不参与推荐。','Event is not public and is excluded from recommendations.','現在非公開のため推薦されません。'],
  promotion_paused:['活动已延期或取消，暂不参与推荐。','Event postponed or cancelled; excluded from recommendations.','延期または中止のため推薦されません。'],
 
+ communityTabShort:['观测者企划','Community','観測者企画'],officialTabShort:['官方活动','Official','公式イベント'],publishProjectShort:['发布企划','Submit','企画を投稿'],
+ publishProject:['发布企划','Submit a project','企画を投稿'],filterShort:['筛选','Filter','絞り込み'],
  applyPromotion:['申请合作宣传','Request promotion','告知を依頼'],contributeInfo:['补充活动情报','Contribute an event','活動情報を追加'],
  past:['往期活动','Past events','過去のイベント'],pastArchive:['往期企划归档','Past event archive','過去の企画'],older:['查看更早一年','Previous year','さらに前の1年'],pastAll:['查看全部往期','All past events','過去のイベント一覧'],searchResults:['搜索结果','Search results','検索結果'],searchScope:['搜索范围','Search window','検索範囲'],selectedDay:['当日企划','Selected day','選択日の企画'],jump:['在日历中定位','Locate in calendar','カレンダーで表示'],archiveEmpty:['此范围暂无往期活动，可查看更早一年。','No past events here. Try the previous year.','この期間の過去イベントはありません。前の年をご覧ください。'],archiveError:['往期归档暂时无法读取','Archive temporarily unavailable','アーカイブを読み込めません'],
  linkRole:['链接用途','Link purpose','リンクの用途'],linkPrimary:['作为主参与入口','Primary participation link','主な参加リンク'],linkStarts:['生效时间（含时区，可留空）','Active from (with time zone, optional)','開始日時（時間帯付き・任意）'],linkEnds:['失效时间（含时区，可留空）','Active until (with time zone, optional)','終了日時（時間帯付き・任意）'],otherLink:['其他链接','Other link','その他のリンク'],
  promotionHelp:['活动收录与合作推荐分别确认。请填写可核对的公告、参与方式及联系渠道；审核通过不自动保证推荐位置或宣传排期。','Listing and promotional cooperation are confirmed separately. Provide a public announcement, participation instructions and a contact channel. Approval does not guarantee placement or timing.','掲載と告知協力は個別に確認します。公開告知・参加方法・連絡先をご記入ください。承認は推薦枠や掲載期間を保証するものではありません。'],
- discuss:['查看审核讨论','Review discussion','審査のやりとり'],publicResult:['查看公开活动','View published event','公開イベントを見る'],promotionStatus:['宣传反馈','Promotion status','告知状況'],
+ discuss:['查看审核讨论','Review discussion','審査のやりとり'],publicResult:['查看公开活动','View published event','公開イベントを見る'],promotionStarts:['宣传开始','Promotion starts','告知開始'],promotionEnds:['宣传结束','Promotion ends','告知終了'],promotionStatus:['宣传反馈','Promotion status','告知状況'],
 
  home:['首页','Home','ホーム'],activityInfo:['活动信息','Event information','イベント情報'],moreInfo:['更多资料','More information','詳しい情報'],undated:['时间待公布','Dates to be announced','日程は後日発表'],allDay:['全天','All day','終日'],
  locationShort:['活动地点','Location','開催場所'],viewPoster:['查看完整海报','View full poster','ポスターを拡大'],closePoster:['关闭海报','Close poster','ポスターを閉じる'],materialCredits:['素材与署名','Artwork credits','素材・クレジット'],shareShort:['分享','Share','共有'],calendarShort:['加入日历','Add to calendar','カレンダーに追加'],
