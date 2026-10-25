@@ -1,3 +1,4 @@
+import {setLoadingStatus} from './loadingStatus.mjs';
 // Layout uses a fixed crop; only load failures need presentation handling.
 export function adaptActivityPoster(image,{onError}={}){
  image.addEventListener('error',()=>onError?.(),{once:true});
@@ -8,18 +9,30 @@ export function adaptActivityPoster(image,{onError}={}){
 export async function openActivityPoster(image,opener,{closeLabel,zoomLabel,keyboard=false}={}){
  if(opener.dataset.posterOpening||!image.complete||!image.naturalWidth)return;
  opener.dataset.posterOpening='true';
+ const progress=opener.ownerDocument.createElement('span'),previousBusy=opener.getAttribute('aria-busy');
+ setLoadingStatus(progress,zoomLabel||image.alt);opener.append(progress);opener.setAttribute('aria-busy','true');
  try{
   const {default:PhotoSwipe}=await import('photoswipe');
   const dialog=opener.closest('dialog');if(!opener.isConnected||(dialog&&!dialog.open))return;
+  const original=image.dataset.original||image.currentSrc||image.src;
+  let width=Number(image.dataset.originalWidth)||image.naturalWidth,height=Number(image.dataset.originalHeight)||image.naturalHeight;
+  if(original!==(image.currentSrc||image.src)&&!image.dataset.originalWidth){
+   const full=new Image();let timeout;
+   full.src=original;
+   try{await Promise.race([full.decode(),new Promise((_,reject)=>{timeout=setTimeout(()=>reject(Error('Image load timed out')),15000);})]);}
+   finally{clearTimeout(timeout);}
+   width=full.naturalWidth;height=full.naturalHeight;
+   if(!opener.isConnected||(dialog&&!dialog.open))return;
+  }
   const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const viewer=new PhotoSwipe({dataSource:[{src:image.dataset.original||image.currentSrc||image.src,msrc:image.currentSrc||image.src,width:Number(image.dataset.originalWidth)||image.naturalWidth,height:Number(image.dataset.originalHeight)||image.naturalHeight,alt:image.alt}],appendToEl:dialog||document.body,bgOpacity:.94,...(closeLabel?{closeTitle:closeLabel}:{}),...(zoomLabel?{zoomTitle:zoomLabel}:{}),showAnimationDuration:reduced||keyboard?0:200,hideAnimationDuration:reduced||keyboard?0:160});
+  const viewer=new PhotoSwipe({dataSource:[{src:original,msrc:image.currentSrc||image.src,width,height,alt:image.alt}],appendToEl:dialog||document.body,bgOpacity:.94,...(closeLabel?{closeTitle:closeLabel}:{}),...(zoomLabel?{zoomTitle:zoomLabel}:{}),showAnimationDuration:reduced||keyboard?0:200,hideAnimationDuration:reduced||keyboard?0:160});
   // The browser's modal cancel must close the poster, not its parent dashboard.
   const cancel=event=>{event.preventDefault();event.stopImmediatePropagation();viewer.close();};
   dialog?.addEventListener('cancel',cancel,{capture:true});
   viewer.on('destroy',()=>{dialog?.removeEventListener('cancel',cancel,{capture:true});if(opener.isConnected)opener.focus({preventScroll:true});});
   viewer.init();
   containPosterFocus(viewer);
- }finally{delete opener.dataset.posterOpening;}
+ }finally{progress.remove();if(previousBusy===null)opener.removeAttribute('aria-busy');else opener.setAttribute('aria-busy',previousBusy);delete opener.dataset.posterOpening;}
 }
 
 export function containPosterFocus(viewer){

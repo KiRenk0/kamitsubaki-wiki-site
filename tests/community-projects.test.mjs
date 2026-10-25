@@ -64,3 +64,17 @@ test('dynamic deadlines, links and media have visible labels and save failure re
 test('unavailable public details use the shared localized layout, hide actions and never cache errors',async()=>{
  const original=globalThis.fetch;try{for(const locale of ['zh','zh-tw','zh-hk','ja','en'])for(const status of [404,503]){globalThis.fetch=async()=>new Response('Unavailable',{status});const c=communityCopy(locale),template='<html><head><title>Template</title><meta name="robots" content="noindex,nofollow"></head><body><main data-community-document="activity"><a data-community-correct>Suggest</a><button data-community-export>Export</button><section data-community-content><h1>Template</h1><p>Loading</p></section></main></body></html>';const response=await renderCommunityPage({request:new Request('https://wiki.example/'+locale+'/community/activities/hidden/'),env:{ASSETS:{fetch:async()=>new Response(template)}},params:{locale,id:'hidden'}});assert.equal(response.status,status);assert.equal(response.headers.get('Cache-Control'),'no-store');const dom=new JSDOM(await response.text());assert.equal(dom.window.document.querySelector('h1').textContent,status===404?c.notAvailable:c.serviceUnavailable);assert.equal(dom.window.document.querySelector('[data-community-correct]').hidden,true);assert.equal(dom.window.document.querySelector('[data-community-export]').hidden,true);assert.equal(dom.window.document.querySelector('[data-community-unavailable]').dataset.communityUnavailable,'true');dom.window.close();}}finally{globalThis.fetch=original;}
 });
+
+test('public activity and series HTML start with bounded images and keep original links and metadata',async()=>{
+ const original=globalThis.fetch,src='https://images.kamitsubaki.wiki/community-activities/assets/user/art.webp';
+ const template='<html><head><title>Template</title></head><body><main data-community-document="activity"><section data-community-content><p>Loading</p></section></main></body></html>';
+ try{for(const kind of ['activity','series']){
+  const doc={id:'qa',title:'Public project',summary:'Details',sourceLocale:'en',poster:src,body:`![Approved](${src})\n\n![Unapproved](https://evil.example/x.jpg)`,media:[{src,author:'Author',sourceTitle:'Source'}],schedule:{kind:'undated'},mode:'online'};
+  globalThis.fetch=async()=>Response.json({[kind]:doc,points:[],activities:[doc]});
+  const r=await renderCommunityPage({request:new Request('https://wiki.example/en/community/activities/qa/'),params:{locale:'en',id:'qa'},env:{COMMUNITY_API_URL:'https://api.example',ASSETS:{fetch:async()=>new Response(template)}}},kind);
+  const dom=new JSDOM(await r.text()),images=[...dom.window.document.querySelectorAll('img')];
+  assert.ok(images.length>=2);for(const image of images){assert.match(image.src,/^https:\/\/api.example\/api\/gallery\/thumbnails\/192\//);assert.match(image.srcset,/192w.*480w.*960w/);assert.equal(image.dataset.original,src);assert.equal(image.getAttribute('decoding'),'async');}
+  if(kind==='activity')assert.equal(dom.window.document.querySelector('.activity-poster-open').href,src);
+  assert.ok(!dom.window.document.body.innerHTML.includes('evil.example'));dom.window.close();
+ }}finally{globalThis.fetch=original;}
+});

@@ -26,3 +26,11 @@ export function applyGalleryPreview(image, item, options) {
  // retry forever, and clear srcset so the browser actually uses the fallback.
  image.onerror=attrs.src===original?null:event=>{event?.stopImmediatePropagation?.();image.onerror=null;image.removeAttribute('srcset');image.src=original;};
 }
+
+// The edge renderer emits candidates before hydration, preventing an initial
+// full-size request. Keep the original separate for viewers and one-shot fallback.
+export function galleryPreviewMarkup(source, options) {
+ const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const attrs=galleryPreviewAttributes(source,options);
+ return Object.entries({...attrs,'data-original':source,decoding:'async'}).map(([key,value])=>`${key}="${escape(value)}"`).join(' ');
+}
