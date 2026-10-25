@@ -8,6 +8,7 @@ import {applyGalleryPreview,galleryPreviewAttributes} from '../src/lib/galleryPr
 test('loading indicators expose a status name and disappear with success or failure text',()=>{
  const doc=new JSDOM('<p></p>').window.document,target=doc.querySelector('p');
  setLoadingStatus(target,'Checking account');assert.equal(target.querySelector('[role="status"]').textContent,'Checking account');
+ const spinner=target.querySelector('.loading-status__spinner');setLoadingStatus(target,'Checking account');assert.equal(target.querySelector('.loading-status__spinner'),spinner);
  assert.equal(target.querySelector('.loading-status__spinner').getAttribute('aria-hidden'),'true');
  target.textContent='Retry';assert.equal(target.querySelector('[role="status"]'),null);
 });
