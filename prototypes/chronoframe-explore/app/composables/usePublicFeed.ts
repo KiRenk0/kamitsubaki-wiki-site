@@ -44,7 +44,8 @@ export function usePublicFeed(){
  async function reveal(){state.limit+=48;if(state.nextOffset!==null&&state.limit>state.photos.length)await next()}
  async function refresh(){state.epoch++;state.photos=[];state.total=0;state.nextOffset=0;state.limit=48;state.loading=false;state.loadingAll=false;state.error='';state.initialized=false;state.wantAll=false;await next()}
  async function ensure(id:string){if(state.photos.some(p=>p.id===id))return
-  try{const photo=await request<Photo>(`/api/photos/${encodeURIComponent(id)}`,{baseURL});merge([photo])}catch{}
+  const epoch=state.epoch
+  try{const photo=await request<Photo>(`/api/photos/${encodeURIComponent(id)}`,{baseURL});if(epoch===state.epoch)merge([photo])}catch{}
  }
  return {state,next,all,reveal,refresh,ensure,merge}
 }

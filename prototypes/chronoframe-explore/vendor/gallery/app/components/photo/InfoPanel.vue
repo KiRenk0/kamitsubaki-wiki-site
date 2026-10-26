@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
+import { galleryURL } from '~/utils/gallery-location.mjs'
 import { hasValidCoordinates } from '@chronoframe/gallery/shared/utils/location'
 import { albumPagePath } from '@chronoframe/gallery/shared/utils/albumPath'
 import { motion } from 'motion-v'
@@ -470,6 +471,7 @@ const formatedExifData = computed<Record<string, KVData[]>>(() => {
   return sections
 })
 
+const appBase = useRuntimeConfig().app.baseURL
 const isMobile = useMediaQuery('(max-width: 768px)')
 
 const onMinimapClick = (photoId: string) => {
@@ -484,7 +486,7 @@ const onTagClick = (tag: string) => {
 }
 
 const onAlbumClick = (album: Album) => {
-  window.open(albumPagePath(album, true))
+  window.open(galleryURL(window.location.origin, appBase, albumPagePath(album, true)), '_blank', 'noopener')
 }
 </script>
 

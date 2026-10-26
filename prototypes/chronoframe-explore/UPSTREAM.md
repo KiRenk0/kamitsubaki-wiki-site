@@ -16,6 +16,7 @@ The original layouts, scoped CSS, tile motion, WebGL renderer and stable album a
 
 - Anonymous published-data transport, full-catalog/album pagination, visible card limits, full metadata filtering and viewer scope updates.
 - Close unconnected login/map/reactions and metadata filters with no real data. Use modification-time sorting instead of invented photographic dates.
+- Prefix share/document/canonical links with the mounted base; close the disabled OG preview/download. Direct-photo lookups honor refresh generations. Original avatar/loading fallbacks use the same SVG.
 - Invisible accessibility labels in viewer/actions. Footer source URL points to the corresponding modified source, with ChronoFrame credit retained.
 - Type-only compatibility fixes for TypeScript 5.9/Vue (callback/tuple/Blob/predicate/import typing).
 - Host base `/visuals/`, fixed original SVG Wiki avatar, local fonts, disabled remote OG renderer/tracking and optional observability. No user authentication state is inherited.

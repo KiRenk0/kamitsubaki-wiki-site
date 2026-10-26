@@ -10,7 +10,7 @@ const title = computed(() => getSetting('app:title'))
 const author = computed(() => getSetting('app:author'))
 const avatarUrl = computed(
   () =>
-    (getSetting('app:avatarUrl') as string) || '/web-app-manifest-192x192.png',
+    (getSetting('app:avatarUrl') as string) || '/visuals/wiki-avatar.svg',
 )
 </script>
 

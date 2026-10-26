@@ -14,16 +14,17 @@
   },
   {
     "path": "app/components/masonry/item/Header.vue",
-    "matchesUpstream": true,
+    "matchesUpstream": false,
     "upstreamSha256": "7bc663bf6a88ee4d263a1af3f765f037fcbeba07a4c6fd26399bd126effee20a",
-    "adaptedSha256": "7bc663bf6a88ee4d263a1af3f765f037fcbeba07a4c6fd26399bd126effee20a"
+    "adaptedSha256": "039e98ce9263855267750738bc52dc4bddc7cf5d14e02f3f864a4d618656e12f",
+    "onlyChanges": "Use the original SVG as the loader fallback URL; template geometry, styles and motion retained."
   },
   {
     "path": "app/components/masonry/item/HeaderIdentity.vue",
     "matchesUpstream": false,
     "upstreamSha256": "8ed98be6e4ecd1570182cd5755f7d6086dec78760d5f0ba2f01af70a81dee6c3",
-    "adaptedSha256": "346df0f9efa7fbc9472d1e5fbd723adb997599d0a3a84cc1b7c3ce1fd16a0b0c",
-    "onlyChanges": "Close unsupported sign-in only."
+    "adaptedSha256": "053dc1435a77b67315a0c9c2eb087565dfe59019e862ea5719125de27840aba6",
+    "onlyChanges": "Close sign-in and use original SVG as fallback; geometry/styles/motion unchanged."
   },
   {
     "path": "app/components/masonry/item/HeaderStats.vue",
@@ -39,9 +40,10 @@
   },
   {
     "path": "app/components/photo/InfoPanel.vue",
-    "matchesUpstream": true,
+    "matchesUpstream": false,
     "upstreamSha256": "cdcb8aae1c29dab3af484f69a3a2d9688d5497da5595a5dfdfd801389f925e85",
-    "adaptedSha256": "cdcb8aae1c29dab3af484f69a3a2d9688d5497da5595a5dfdfd801389f925e85"
+    "adaptedSha256": "a51ac8977ab9f2b4e8485914c632f4ed0f968c1eec4ffec72173f775c8691244",
+    "onlyChanges": "Prefix album document URLs with the mounted base; original styles/motion retained."
   },
   {
     "path": "app/components/overlay/FilterPanel.vue",

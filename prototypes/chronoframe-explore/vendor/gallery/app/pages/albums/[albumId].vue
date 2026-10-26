@@ -2,6 +2,7 @@
 const galleryApi = useGalleryApi()
 
 import { motion } from 'motion-v'
+import { galleryURL } from '~/utils/gallery-location.mjs'
 import type { AlbumPathResolution } from '@chronoframe/contracts/album-slug'
 
 const route = useRoute()
@@ -41,12 +42,13 @@ watch([resolved, () => route.path, resolveStatus], ([value]) => {
 })
 const albumId = computed(() => resolved.value?.albumId ?? 0)
 const requestUrl = useRequestURL()
+const appBase = useRuntimeConfig().app.baseURL
 const entryContext = useEntryContext()
 useHead(() => ({
   link: [
     {
       rel: 'canonical',
-      href: `${entryContext.value?.canonicalOrigin ?? requestUrl.origin}${canonicalAlbumRoute.value}`,
+      href: galleryURL(entryContext.value?.canonicalOrigin ?? requestUrl.origin, appBase, canonicalAlbumRoute.value),
     },
   ],
 }))

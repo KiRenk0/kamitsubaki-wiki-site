@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import { galleryURL } from '~/utils/gallery-location.mjs'
 import { isAlbumPagePath } from '@chronoframe/gallery/shared/utils/albumPath'
 
 interface Props {
@@ -14,20 +15,19 @@ const emit = defineEmits<{
 const linkCopied = ref(false)
 const copyingLink = ref(false)
 const downloadingOriginal = ref(false)
-const downloadingPreview = ref(false)
 let copiedTimer: ReturnType<typeof setTimeout> | undefined
-const previewVersion = ref(0)
 
 const toast = useToast()
 const { gtag } = useGtag()
 const { returnRoute } = storeToRefs(useViewerState())
 
+const appBase = useRuntimeConfig().app.baseURL
 const shareUrl = computed(() => {
   if (typeof window !== 'undefined') {
     if (returnRoute.value && isAlbumPagePath(returnRoute.value)) {
-      return `${window.location.origin}${returnRoute.value}?photo=${encodeURIComponent(props.photo.id)}`
+      return galleryURL(window.location.origin, appBase, `${returnRoute.value}?photo=${encodeURIComponent(props.photo.id)}`)
     }
-    return `${window.location.origin}/${props.photo.id}`
+    return galleryURL(window.location.origin, appBase, `/${encodeURIComponent(props.photo.id)}`)
   }
   return ''
 })
@@ -42,74 +42,12 @@ const shareTextAndUrl = computed(() => {
   return `${shareText.value}\n${shareUrl.value}`
 })
 
-// OG Image URL and loading state
-const ogImageLoading = ref(true)
-const ogImageError = ref(false)
-const loadingTimer = ref<NodeJS.Timeout | null>(null)
-const ogImageUrl = computed(() => `/_og/r/${props.photo.id}.png`)
-
-// Reset loading state when photo changes or modal opens
-const resetLoadingState = () => {
+// Only working link/original sharing ships; remote OG rendering is disabled.
+watch(() => [props.photo.id, props.isOpen], () => {
   linkCopied.value = false
   clearTimeout(copiedTimer)
-  previewVersion.value++
-  ogImageLoading.value = true
-  ogImageError.value = false
-
-  // Clear existing timer
-  if (loadingTimer.value) {
-    clearTimeout(loadingTimer.value)
-  }
-
-  // Set a timeout to handle cases where onload/onerror never fires
-  loadingTimer.value = setTimeout(() => {
-    if (ogImageLoading.value) {
-      ogImageLoading.value = false
-      ogImageError.value = true
-    }
-  }, 10000) // 10 second timeout
-}
-
-// Reset loading state when photo changes
-watch(() => props.photo.id, resetLoadingState)
-
-// Reset loading state when modal opens
-watch(
-  () => props.isOpen,
-  (newValue) => {
-    if (newValue) {
-      resetLoadingState()
-    }
-  },
-  { immediate: true },
-)
-
-// Handle image load events
-const handleOgImageLoad = () => {
-  if (loadingTimer.value) {
-    clearTimeout(loadingTimer.value)
-    loadingTimer.value = null
-  }
-  ogImageLoading.value = false
-  ogImageError.value = false
-}
-
-const handleOgImageError = () => {
-  if (loadingTimer.value) {
-    clearTimeout(loadingTimer.value)
-    loadingTimer.value = null
-  }
-  ogImageLoading.value = false
-  ogImageError.value = true
-}
-
-// Cleanup on unmount
-onUnmounted(() => {
-  clearTimeout(copiedTimer)
-  if (loadingTimer.value) {
-    clearTimeout(loadingTimer.value)
-  }
 })
+onUnmounted(() => clearTimeout(copiedTimer))
 
 // Social media share functions
 const shareToTwitter = () => {
@@ -246,42 +184,6 @@ const nativeShare = async () => {
     } catch (error) {
       console.error($t('ui.action.share.error.nativeShareFailed'), error)
     }
-  }
-}
-
-// Download OG Image
-const downloadOgImage = async () => {
-  if (downloadingPreview.value) return
-  downloadingPreview.value = true
-  try {
-    const response = await fetch(ogImageUrl.value)
-    if (!response.ok) throw new Error(`HTTP ${response.status}`)
-    const blob = await response.blob()
-    const url = window.URL.createObjectURL(blob)
-    const link = document.createElement('a')
-    link.href = url
-    link.download = `${props.photo.title || 'photo'}-og.png`
-    document.body.appendChild(link)
-    link.click()
-    document.body.removeChild(link)
-    window.URL.revokeObjectURL(url)
-
-    toast.add({
-      title: $t('ui.action.share.success.ogImageDownloaded'),
-      color: 'success',
-      icon: 'tabler:download',
-      duration: 3000,
-    })
-  } catch (error) {
-    toast.add({
-      title: $t('ui.action.share.error.ogImageDownloadFailed'),
-      description: (error as Error)?.message || $t('common.unknownError'),
-      color: 'error',
-      icon: 'tabler:x',
-      duration: 3000,
-    })
-  } finally {
-    downloadingPreview.value = false
   }
 }
 
@@ -425,50 +327,6 @@ const socialPlatforms = computed(() => [
     </template>
     <template #body>
       <div class="space-y-4">
-        <section :aria-label="$t('ui.action.share.ogImage.title')">
-          <div
-            class="relative aspect-2/1 overflow-hidden rounded-xl bg-neutral-100 dark:bg-neutral-800"
-          >
-            <img
-              :key="`${photo.id}-${previewVersion}`"
-              :src="ogImageUrl"
-              :alt="$t('ui.action.share.ogImage.alt')"
-              class="size-full object-cover"
-              :class="{ 'opacity-0': ogImageLoading || ogImageError }"
-              @load="handleOgImageLoad"
-              @error="handleOgImageError"
-            />
-            <div
-              v-if="ogImageLoading || ogImageError"
-              class="absolute inset-0 flex flex-col items-center justify-center gap-2 text-neutral-500 dark:text-neutral-400"
-              role="status"
-            >
-              <Icon
-                :name="ogImageError ? 'tabler:photo-off' : 'tabler:loader-2'"
-                class="size-6"
-                :class="{ 'animate-spin': !ogImageError }"
-              />
-              <span class="text-sm">{{
-                $t(
-                  ogImageError
-                    ? 'ui.action.share.ogImage.loadError'
-                    : 'ui.action.share.ogImage.loading',
-                )
-              }}</span>
-              <UButton
-                v-if="ogImageError"
-                size="sm"
-                color="neutral"
-                variant="ghost"
-                icon="tabler:refresh"
-                @click="resetLoadingState"
-              >
-                {{ $t('ui.action.share.actions.retry') }}
-              </UButton>
-            </div>
-          </div>
-        </section>
-
         <section class="space-y-3">
           <label
             for="photo-share-url"
@@ -507,7 +365,7 @@ const socialPlatforms = computed(() => [
             </div>
             <div
               class="grid p-1.5 [&>div+div]:relative [&>div+div]:before:absolute [&>div+div]:before:inset-y-2 [&>div+div]:before:left-0 [&>div+div]:before:w-px [&>div+div]:before:bg-black/8 dark:[&>div+div]:before:bg-white/10"
-              :class="canNativeShare ? 'grid-cols-3' : 'grid-cols-2'"
+              :class="canNativeShare ? 'grid-cols-2' : 'grid-cols-1'"
             >
               <div
                 v-if="canNativeShare"
@@ -556,28 +414,7 @@ const socialPlatforms = computed(() => [
                   </UButton>
                 </UTooltip>
               </div>
-              <div class="min-w-0">
-                <UTooltip
-                  :text="$t('ui.action.share.actions.downloadOgImage')"
-                  :ui="{ content: 'z-[80]' }"
-                >
-                  <UButton
-                    :aria-label="$t('ui.action.share.actions.downloadOgImage')"
-                    block
-                    size="sm"
-                    class="min-w-0 justify-center gap-1 px-1 py-2 text-xs"
-                    :ui="{ leadingIcon: 'size-3.5' }"
-                    color="neutral"
-                    variant="ghost"
-                    icon="tabler:photo-down"
-                    :loading="downloadingPreview"
-                    :disabled="ogImageLoading || ogImageError"
-                    @click="downloadOgImage"
-                  >
-                    {{ $t('ui.action.share.actions.shareCardShort') }}
-                  </UButton>
-                </UTooltip>
-              </div>
+
             </div>
           </div>
         </section>

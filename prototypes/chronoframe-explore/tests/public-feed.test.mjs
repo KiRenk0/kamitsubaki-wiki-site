@@ -7,7 +7,7 @@ const source=readFileSync(new URL('../app/composables/usePublicFeed.ts',import.m
 function feed(fetchPage){
  const cells=new Map(),exports={}
  const compiled=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText
- vm.runInNewContext(compiled,{exports,useState:(key,init)=>{if(!cells.has(key))cells.set(key,{value:init()});return cells.get(key)},useRequestFetch:()=>async(_path,opts)=>fetchPage(opts.query.offset),useRuntimeConfig:()=>({public:{gallery:{apiBase:'/visuals'}}})})
+ vm.runInNewContext(compiled,{exports,useState:(key,init)=>{if(!cells.has(key))cells.set(key,{value:init()});return cells.get(key)},useRequestFetch:()=>async(path,opts)=>fetchPage(opts.query?.offset,path),useRuntimeConfig:()=>({public:{gallery:{apiBase:'/visuals'}}})})
  return exports.usePublicFeed()
 }
 const page=(offset,total=100)=>({offset,total,photos:Array.from({length:Math.min(24,total-offset)},(_,i)=>({id:String(offset+i)})),nextOffset:offset+24<total?offset+24:null})
@@ -41,4 +41,13 @@ test('opening filters while a page is in flight still completes the full catalog
  for(let i=0;i<30&&catalog.state.nextOffset!==null;i++)await new Promise(resolve=>setTimeout(resolve,2))
  assert.equal(catalog.state.nextOffset,null)
  assert.equal(catalog.state.photos.length,52)
+})
+
+test('refresh also rejects a late direct-photo detail from the previous generation',async()=>{
+ let resolveDetail
+ const catalog=feed((_offset,path)=>path.startsWith('/api/photos/')?new Promise(resolve=>{resolveDetail=resolve}):Promise.resolve(page(0,0)))
+ const detail=catalog.ensure('withdrawn-old');await catalog.refresh()
+ resolveDetail({id:'withdrawn-old'});await detail
+ assert.equal(catalog.state.total,0)
+ assert.equal(catalog.state.photos.length,0)
 })

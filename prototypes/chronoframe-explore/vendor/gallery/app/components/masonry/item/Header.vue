@@ -16,7 +16,7 @@ defineProps<{
     <div
       class="absolute inset-0 -z-10 scale-110 bg-cover bg-center opacity-35 blur-3xl"
       :style="{
-        backgroundImage: `url(${getSetting('app:avatarUrl') || '/web-app-manifest-192x192.png'})`,
+        backgroundImage: `url(${getSetting('app:avatarUrl') || '/visuals/wiki-avatar.svg'})`,
       }"
     ></div>
     <div
