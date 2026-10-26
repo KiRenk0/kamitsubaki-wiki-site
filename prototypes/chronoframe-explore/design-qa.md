@@ -18,8 +18,10 @@ Keep the original identity SVG (400×400 viewBox), fonts, spacing, photo tiles, 
 
 ## Checks
 
-Eleven independent adapter/feed tests cover publication/unsafe URLs, bounded bodies, stalled pagination, records beyond the old selection, retry preserving ordered results, late old-generation responses and opening filters during an active page. Type checking and Cloudflare-module build are required. Main Wiki checks include900 tests with the matching read-only backend checkout, Astro794 files with0 errors/0 warnings (126 hints), UI icons/actions/tokens, docs/workflow/lyrics, complete standard build (9720 pages), built links and Pages asset audit (18355/20000 files). Backend-dependent checks are distinguished from the earlier866-test standalone run.
+Fourteen independent adapter/feed tests cover publication/unsafe URLs, bounded bodies, stalled pagination, records beyond the old selection, retry preserving ordered results, late old-generation responses and opening filters during an active page. Type checking and Cloudflare-module build are required. Main Wiki checks include900 tests with the matching read-only backend checkout, Astro794 files with0 errors/0 warnings (126 hints), UI icons/actions/tokens, docs/workflow/lyrics, complete standard build (9720 pages), built links and Pages asset audit (18355/20000 files). Backend-dependent checks are distinguished from the earlier866-test standalone run.
 
 This local acceptance and build are not live-delivery proof. The workspace release manifest must fix the exact reviewed source/artifact/checks. Cloud startup, route installation and live release markers are verified only after explicit production approval. No production write, migration, new paid resource or plan upgrade has occurred.
 
 独立审查发现并修复分享／所属相册／canonical的应用前缀、关闭未接通的分享预览图，并为详情旧响应跨刷新代次补充回归。原版分享链接与原图下载仍保留；不改主要布局和动画。
+
+Final deep-link acceptance: a real offset24 album photo opens after mounting with48 cards; its share/canonical paths retain/visuals. An unknown query reaches the end with no active loading/viewer and only48 cards rendered (48/223). Screenshots deep-link-share-fixed.png and unknown-photo-bounded.png. Independent SSR probe confirms zero background paging requests before mounting.

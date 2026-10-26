@@ -106,7 +106,7 @@ const albumFeed=useAlbumFeed(album,albumId)
 const albumData=albumFeed.data
 const albumViewer=useViewerState()
 watch(()=>[albumViewer.currentPhotoIndex,albumFeed.state.photos.length],()=>{
- if(albumViewer.isViewerOpen&&albumViewer.returnRoute===canonicalAlbumRoute.value&&albumViewer.currentPhotoIndex>=albumFeed.state.photos.length-5&&albumFeed.state.nextOffset!==null&&!albumFeed.state.loading)void albumFeed.reveal()
+ if(albumViewer.isViewerOpen&&albumViewer.returnRoute===canonicalAlbumRoute.value&&albumViewer.currentPhotoIndex>=albumFeed.state.photos.length-5&&albumFeed.state.nextOffset!==null&&!albumFeed.state.loading)void albumFeed.loadNext()
 })
 
 const albumStats = computed(() => {
@@ -174,7 +174,7 @@ const minColumns = computed(() => (isMobile.value ? 2 : 2))
 const MASONRY_GAP = 4
 
 const handleOpenViewer = (index: number) => {
-  const photos = albumData.value?.photos
+  const photos = albumFeed.state.photos
   if (photos && photos[index]) {
     const { openViewer } = useViewerState()
     const albumRoute = canonicalAlbumRoute.value
@@ -185,9 +185,12 @@ const handleOpenViewer = (index: number) => {
   }
 }
 
+const albumMounted = ref(false)
+onMounted(() => { albumMounted.value = true })
 watch(
-  [() => route.query.photo, () => albumData.value?.photos],
-  ([requestedPhoto, photos]) => {
+  [() => route.query.photo, () => albumFeed.state.photos, albumMounted],
+  ([requestedPhoto, photos, mounted]) => {
+    if (!mounted) return
     const viewer = useViewerState()
     if (typeof requestedPhoto !== 'string' || !photos) {
       if (viewer.returnRoute === canonicalAlbumRoute.value) viewer.closeViewer()
@@ -195,7 +198,7 @@ watch(
     }
     const index = photos.findIndex((photo) => photo.id === requestedPhoto)
     if (index < 0) {
-      if(albumFeed.state.nextOffset!==null&&!albumFeed.state.loading&&!albumFeed.state.error)void albumFeed.reveal()
+      if(albumFeed.state.nextOffset!==null&&!albumFeed.state.loading&&!albumFeed.state.error)void albumFeed.loadNext()
       if (viewer.returnRoute === canonicalAlbumRoute.value) viewer.closeViewer()
       return
     }
