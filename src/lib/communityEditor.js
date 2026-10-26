@@ -1,3 +1,4 @@
+import {setLoadingStatus} from './loadingStatus.mjs';
 // Shared editor source; the frontend keeps a verified copy of this module.
 export function communityEditorMarkup(copy={}){
  const escape=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -42,7 +43,7 @@ export function communityEditorMarkup(copy={}){
 
 export function initCommunityEditor(root,options={}){
  const c={chooseLocation:'请选择',locationError:'地点目录无法读取，输入已保留。请重试。',locationLoading:'正在读取地点目录…',locationSearchMore:'可输入城市名称缩小范围，或先选择省／州。',locationNoResults:'没有匹配的地点。可调整搜索，或使用手动填写城市。',all:'全部',city:'城市',login:'登录后保存或提交',loading:'正在读取…',saved:'草稿已保存',submitted:'已提交审核，可在创作者中心查看进度',published:'已发布',withdrawn:'已撤回待审',error:'请求未完成，输入已保留',requestError:'请求未完成，输入已保留。可重试或导出草稿。',invalidContent:'请检查标题、主办方、公开来源、有效日程以及素材署名和使用说明。',versionConflict:'账号或云端版本已变化。输入已保留，请导出草稿并重新读取比较。',accountChanged:'账号已变化，当前输入已保留在原账号草稿中。请重新打开编辑器。',restoreLocal:'发现未提交的本机输入，是否恢复？',remove:'移除',poster:'主海报',bodyImage:'正文图片',alt:'图片说明',author:'作者署名',sourceTitle:'来源名称',sourceUrl:'来源链接',rightsBasis:'使用依据',rightsEvidence:'授权说明（仅供审核）',original:'投稿者原创',authorized:'获得授权',official:'官方公开素材',insertImage:'插入正文',label:'显示名称',url:'参与链接',registration:'报名截止',submission:'征集截止',supportDeadline:'应援征集截止',deadlines:'截止点类型',scheduleKind:'日期类型',startDate:'截止日期',startLocal:'截止时间',timeZone:'举办地／组织方时区',allDay:'日期',timed:'具体时刻',uploaded:'图片已暂存，请保存草稿',localConflict:'本机输入基于其他云端版本，请导出并重新读取比较',recoveredConflict:'已找回创建结果，但草稿后来有更新，请重新读取比较',invalidTime:'请填写有效时间',dstGap:'当地时间处于夏令时跳时，请选择有效时刻',earlier:'重复时刻：第一次',later:'重复时刻：第二次',deadlineDisambiguation:'截止时间重复时刻',requiredField:'请填写此项',invalidLink:'请填写有效的 HTTPS 链接',invalidZone:'请选择有效的举办地／组织方时区',invalidDate:'请填写有效日期',endBeforeStart:'结束不得早于开始',checkFields:'请检查以下内容',dirty:'有未保存的修改',requiredHelp:'带 * 的内容在提交前需要填写；保存草稿可留空。',...options.copy};
- const $=s=>root.querySelector(s),field=name=>root.elements.namedItem(name),say=value=>{$('[data-editor-status]').textContent=value;};
+ const $=s=>root.querySelector(s),field=name=>root.elements.namedItem(name),say=value=>{const target=$('[data-editor-status]');if(value===c.loading)setLoadingStatus(target,value);else target.textContent=value;};
  const base=String(options.apiBase||(options.admin?location.origin:'https://api.kamitsubaki.wiki')).replace(/\/$/,''),prefix='/api/'+(options.admin?'admin/':'')+'community-activities';
  let owner=null,operationId=options.operationId||crypto.randomUUID(),revisionId=null,version=null,activityId=null,baseVersion=null,seriesId=null,status='draft',media=[],deadlines=[],originalSchedule=null,busy=false,locked=false,dirty=false,sessionGeneration=0;
  const element=(tag,value)=>{const n=document.createElement(tag);if(value!==undefined)n.textContent=value;if(['input','select','textarea'].includes(tag)){n.className='workspace-control dui-'+(tag==='select'?'select':tag==='textarea'?'textarea':'input');n.dataset.uiKit='';}if(tag==='button'){n.className='workspace-button dui-btn dui-btn-ghost';n.dataset.uiKit='';n.dataset.tone='quiet';}return n;};
@@ -86,7 +87,17 @@ export function initCommunityEditor(root,options={}){
  };
 
  const labeled=(control,text)=>{const label=element('label');label.append(element('span',text),control);return label;};
- const addLink=(data={})=>{const row=element('div');row.className='community-editor-row';row.dataset.linkMetadata=JSON.stringify(data);const label=element('input');label.dataset.linkLabel='';label.placeholder=c.label;label.value=data.label||'';const url=element('input');url.type='url';url.dataset.linkUrl='';url.placeholder='https://';url.value=data.url||'';row.append(labeled(label,c.label),labeled(url,c.url),button(c.remove,()=>{row.remove();retain();}));$('[data-editor-links]').append(row);};
+ const addLink=(data={})=>{
+  const row=element('div');row.className='community-editor-row';row.dataset.linkMetadata=JSON.stringify(data);
+  const label=element('input');label.dataset.linkLabel='';label.placeholder=c.label;label.value=data.label||'';
+  const url=element('input');url.type='url';url.dataset.linkUrl='';url.placeholder='https://';url.value=data.url||'';
+  const role=element('select');for(const [value,text]of [['other',c.otherLink||'其他'],['registration',c.registrationLink||'报名'],['submission',c.submissionLink||'投稿'],['live',c.liveLink||'直播'],['replay',c.replayLink||'回放']])option(role,value,text);role.value=data.role||'other';
+  const primary=element('input');primary.type='checkbox';primary.checked=!!data.primary;
+  const starts=element('input'),ends=element('input');starts.dataset.linkStarts='';ends.dataset.linkEnds='';starts.value=data.startsAt||'';ends.value=data.endsAt||'';starts.placeholder=ends.placeholder='2026-10-25T18:00:00+08:00';
+  const sync=()=>{row.dataset.linkMetadata=JSON.stringify({...data,role:role.value,primary:primary.checked,startsAt:starts.value,endsAt:ends.value});};
+  for(const control of [role,primary,starts,ends])control.addEventListener('input',sync);
+  row.append(labeled(label,c.label),labeled(url,c.url),labeled(role,c.linkRole||'链接用途'),labeled(primary,c.linkPrimary||'作为主参与入口'),labeled(starts,c.linkStarts||'生效时间（含时区，可留空）'),labeled(ends,c.linkEnds||'失效时间（含时区，可留空）'),button(c.remove,()=>{row.remove();retain();}));$('[data-editor-links]').append(row);
+ };
  const addDeadline=(d={})=>{
   const row=element('div');row.className='community-editor-row';row.dataset.pointId=d.id||crypto.randomUUID();
   const type=element('select');type.dataset.deadlineType='';type.setAttribute('aria-label',c.deadlines||'Deadline type');for(const t of ['registration','submission','support'])option(type,t,t==='support'?c.supportDeadline:c[t]);type.value=d.type||'registration';
@@ -115,6 +126,11 @@ export function initCommunityEditor(root,options={}){
   if(strict){required(field('title'));if(!options.series){for(const key of ['summary','organizer','sourceUrl'])required(field(key));if(picker&&field('mode').value!=='online'&&field('locationPrecision').value!=='pending'){required(field('country'));required(field(field('locationPrecision').value==='manual'?'city':'cityId'));}if(field('eventStatus').value!=='scheduled')required(field('changeNote'));}}
   for(const key of ['organizerUrl','sourceUrl'])validUrl(field(key));
   root.querySelectorAll('[data-link-url],.community-editor-media input[type=url]').forEach(validUrl);
+  for(const row of $('[data-editor-links]').children){
+   const start=row.querySelector('[data-link-starts]'),end=row.querySelector('[data-link-ends]');
+   for(const control of [start,end])if(control.value&&(!/T.*(?:Z|[+-]\d\d:\d\d)$/.test(control.value)||!Number.isFinite(Date.parse(control.value))))error(control,c.invalidTime);
+   if(start.value&&end.value&&Date.parse(end.value)<=Date.parse(start.value))error(end,c.endBeforeStart);
+  }
   if(!options.series){
    const schedule=(kind,start,end,zone,choice='earlier',endChoice='earlier')=>{
     try{new Intl.DateTimeFormat('en',{timeZone:zone.value}).format();}catch{error(zone,c.invalidZone);return;}

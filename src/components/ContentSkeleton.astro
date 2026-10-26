@@ -1,0 +1,12 @@
+---
+import '../styles/contentSkeleton.css';
+const {kind='lines',count=2,...attributes}=Astro.props;
+---
+<div {...attributes} class:list={['content-skeleton',`content-skeleton--${kind}`,attributes.class]} aria-hidden="true">
+ {Array.from({length:count},()=> <div class="content-skeleton__item">
+  {kind==='cards'&&<div class="dui-skeleton content-skeleton__art"></div>}
+  <div class="dui-skeleton content-skeleton__title"></div>
+  <div class="dui-skeleton content-skeleton__line"></div>
+  <div class="dui-skeleton content-skeleton__line content-skeleton__line--short"></div>
+ </div>)}
+</div>

@@ -1,3 +1,4 @@
+import {setLoadingStatus} from '../lib/loadingStatus.mjs';
 import {iconMarkup} from '../lib/icons.mjs';
 import { createContributorClient } from '../lib/contributorClient.mjs';
 let contributorStorage;
@@ -245,7 +246,7 @@ function renderError(root, state, content, copy) {
   content.hidden = false;
   state.querySelector('[data-contributor-retry]')?.addEventListener('click', () => {
     delete root.dataset.contributorRosterStatus;
-    state.textContent = copy.loading;
+    setLoadingStatus(state,copy.loading);
     loadRoster(root);
   });
 }
@@ -262,7 +263,7 @@ async function loadRoster(root, force = false) {
 
   root.dataset.contributorRosterStatus = 'loading';
   state.hidden = false;
-  state.textContent = copy.loading;
+  setLoadingStatus(state,copy.loading);
   content.hidden = true;
 
   const url = new URL(mode === 'entry' ? '/api/contributors/entry' : '/api/contributors/summary', root.dataset.apiBase);

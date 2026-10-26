@@ -34,7 +34,11 @@ test('AI chat widget receives copy from BaseLayout content lookup', async () => 
   assert.match(layout, /getCollection\('site'\)/);
   assert.match(layout, /getLocalizedSite\(siteEntries,\s*lang\)/);
   assert.match(layout, /siteContent\?\.aiChat/);
-  assert.match(layout, /<AiChatWidget lang=\{lang\} copy=\{aiChatCopy\}/);
+  assert.match(layout, /<ObserverDashboard locale=\{lang\}[\s\S]*aiCopy=\{aiChatCopy\}/);
+  const dashboard = await readProjectFile('../src/components/ObserverDashboard.astro');
+  assert.equal((dashboard.match(/<AiChatWidget/g) || []).length, 1);
+  assert.match(dashboard, /presentation="embedded"/);
+  assert.doesNotMatch(layout, /<AiChatWidget/);
 });
 
 test('AI chat keeps the production Worker fallback when Pages build variables are absent', async () => {
@@ -86,7 +90,7 @@ test('AI chat widget exposes interaction hooks and stream parser integration', a
   assert.match(component, /data-ai-challenge-mount/);
   assert.match(component, /data-ai-terminal-link/);
   assert.match(script, /toggle\.addEventListener\('click'/);
-  assert.match(script, /close\.addEventListener\('click'/);
+  assert.match(script, /close\?\.addEventListener\('click'/);
   assert.match(script, /scrim\?\.addEventListener\('click'/);
   assert.match(script, /setExpanded\(root, true\)/);
   assert.match(script, /setExpanded\(root, false\)/);
@@ -209,6 +213,7 @@ test('streaming uses one assistant bubble for thinking and the final answer', as
 
 test('AI chat widget exposes auth hooks and localized account copy', async () => {
   const component = await readProjectFile('../src/components/AiChatWidget.astro');
+  const account = await readProjectFile('../src/components/AiChatAccount.astro');
   const script = await readProjectFile('../src/scripts/aiChatWidget.js');
   const css = await readProjectFile('../src/styles/global.css');
 
@@ -220,10 +225,11 @@ test('AI chat widget exposes auth hooks and localized account copy', async () =>
     assert.equal(typeof content.aiChat.logoutLabel, 'string');
   }
 
-  assert.match(component, /data-ai-auth/);
-  assert.match(component, /data-ai-oauth href=\{signIn\.toString\(\)\}/);
-  assert.doesNotMatch(component, /data-ai-oauth="(?:github|google)"/);
-  assert.match(component, /data-ai-logout/);
+  assert.match(component, /<AiChatAccount lang=\{lang\} copy=\{normalizedCopy\} signIn=\{signIn\.toString\(\)\}/);
+  assert.match(account, /data-ai-auth/);
+  assert.match(account, /data-ai-oauth href=\{signIn\}/);
+  assert.doesNotMatch(account, /data-ai-oauth="(?:github|google)"/);
+  assert.match(account, /data-ai-logout/);
   assert.match(script, /centralLoginUrl/);
   assert.match(script, /centralLogout/);
   assert.doesNotMatch(script, /api\/auth\/(?:oauth|logout)/);
