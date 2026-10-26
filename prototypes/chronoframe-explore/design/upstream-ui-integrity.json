@@ -1,0 +1,77 @@
+[
+  {
+    "path": "app/components/masonry/Root.vue",
+    "matchesUpstream": false,
+    "upstreamSha256": "7e9cddc2823dd6ea6c81419e97a71abf8c3325a9eedaf6da1ba0e98918ecee11",
+    "adaptedSha256": "7b2e90dd7f67c17c2f18572603d1dee16097a9d12868bef040e4936dde7bac1a",
+    "onlyChanges": "Bound rendered cards and synchronize paginated viewer; type-only callback signature. Template geometry, CSS and animation definitions unchanged."
+  },
+  {
+    "path": "app/components/masonry/Item.vue",
+    "matchesUpstream": true,
+    "upstreamSha256": "dae5c58273a9c11ab182ae6db651d2498456be94da19638f20917b668bf64771",
+    "adaptedSha256": "dae5c58273a9c11ab182ae6db651d2498456be94da19638f20917b668bf64771"
+  },
+  {
+    "path": "app/components/masonry/item/Header.vue",
+    "matchesUpstream": true,
+    "upstreamSha256": "7bc663bf6a88ee4d263a1af3f765f037fcbeba07a4c6fd26399bd126effee20a",
+    "adaptedSha256": "7bc663bf6a88ee4d263a1af3f765f037fcbeba07a4c6fd26399bd126effee20a"
+  },
+  {
+    "path": "app/components/masonry/item/HeaderIdentity.vue",
+    "matchesUpstream": false,
+    "upstreamSha256": "8ed98be6e4ecd1570182cd5755f7d6086dec78760d5f0ba2f01af70a81dee6c3",
+    "adaptedSha256": "346df0f9efa7fbc9472d1e5fbd723adb997599d0a3a84cc1b7c3ce1fd16a0b0c",
+    "onlyChanges": "Close unsupported sign-in only."
+  },
+  {
+    "path": "app/components/masonry/item/HeaderStats.vue",
+    "matchesUpstream": true,
+    "upstreamSha256": "8f54d51cd355507ab4f3797a1310099f0d740462ed18487840f77c955d696559",
+    "adaptedSha256": "8f54d51cd355507ab4f3797a1310099f0d740462ed18487840f77c955d696559"
+  },
+  {
+    "path": "app/components/masonry/item/Photo.vue",
+    "matchesUpstream": true,
+    "upstreamSha256": "5f9dcf9585d1c0961ab72dde332f5f55cff53c1b2ed3d71d129654ce6787625a",
+    "adaptedSha256": "5f9dcf9585d1c0961ab72dde332f5f55cff53c1b2ed3d71d129654ce6787625a"
+  },
+  {
+    "path": "app/components/photo/InfoPanel.vue",
+    "matchesUpstream": true,
+    "upstreamSha256": "cdcb8aae1c29dab3af484f69a3a2d9688d5497da5595a5dfdfd801389f925e85",
+    "adaptedSha256": "cdcb8aae1c29dab3af484f69a3a2d9688d5497da5595a5dfdfd801389f925e85"
+  },
+  {
+    "path": "app/components/overlay/FilterPanel.vue",
+    "matchesUpstream": false,
+    "upstreamSha256": "e28e2db414023351cadb258c56a8afd2bd75076ddb7277eb273838808ee5b50b",
+    "adaptedSha256": "b7453cfb0018567ed7665f261c7427bd3ec8e27366e4d92d71d91fd489e3f249",
+    "onlyChanges": "Show only real tag/text filtering; original template and styles remain."
+  },
+  {
+    "path": "app/components/overlay/SortPanel.vue",
+    "matchesUpstream": true,
+    "upstreamSha256": "ee62ac4c247a5bb7ab119180f34adfb1ef14320d06e172d5a8210bc4dd61fe30",
+    "adaptedSha256": "ee62ac4c247a5bb7ab119180f34adfb1ef14320d06e172d5a8210bc4dd61fe30"
+  },
+  {
+    "path": "app/assets/css/tailwind.css",
+    "matchesUpstream": true,
+    "upstreamSha256": "d9789ca9ee4590ed3c5d66f5b2340d74faba33ef0ce1bae325bedffcf62c5067",
+    "adaptedSha256": "d9789ca9ee4590ed3c5d66f5b2340d74faba33ef0ce1bae325bedffcf62c5067"
+  },
+  {
+    "path": "app/components/album/Listing.vue",
+    "source": "v1.0.2:app/pages/albums/index.vue",
+    "sourceCommit": "730eaddc511662741f48c2fa80108847d24325ce",
+    "templateAndStylesSha256": "fa34598febd203bca4f4a6a35ef04c3bb9011913cec003b31a137c13f4d8ba4d",
+    "templateAndStylesMatchUpstream": true,
+    "motionScriptMatchesUpstream": true,
+    "onlyChanges": [
+      "type import",
+      "API transport"
+    ]
+  }
+]
