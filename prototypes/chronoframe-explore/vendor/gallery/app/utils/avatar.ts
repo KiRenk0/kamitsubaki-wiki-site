@@ -1,4 +1,4 @@
-export const DEFAULT_AVATAR_URL = '/web-app-manifest-192x192.png'
+export const DEFAULT_AVATAR_URL = '/visuals/wiki-avatar.svg'
 
 /**
  * Uploaded avatars use a relative route, which HTML URL inputs reject.
@@ -20,7 +20,7 @@ export function getAvatarInputType(
  */
 export function handleAvatarError(event: Event): void {
   const image = event.target as HTMLImageElement | null
-  if (!image || image.src.includes('web-app-manifest-192x192')) {
+  if (!image || image.src.endsWith(DEFAULT_AVATAR_URL)) {
     return
   }
   image.src = DEFAULT_AVATAR_URL

@@ -1,4 +1,6 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { DEFAULT_AVATAR_URL } from '#gallery/utils/avatar'
+</script>
 
 <template>
   <div class="relative size-24">
@@ -19,7 +21,7 @@
       <img
         v-else
         class="w-full h-full object-cover"
-        src="/web-app-manifest-192x192.png"
+        :src="DEFAULT_AVATAR_URL"
         :alt="$t('ui.loading')"
       />
     </div>

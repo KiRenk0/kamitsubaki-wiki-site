@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import { DEFAULT_AVATAR_URL } from '#gallery/utils/avatar'
 import { z } from 'zod'
 import type { ButtonProps, FormSubmitEvent } from '@nuxt/ui'
 import { twMerge } from 'tailwind-merge'
@@ -61,7 +62,7 @@ const onSubmit = async (event: FormSubmitEvent<Schema>) => {
       <!-- @note: this will not to be replaced with user avatar -->
       <div class="mb-2">
         <img
-          src="/web-app-manifest-192x192.png"
+          :src="DEFAULT_AVATAR_URL"
           :alt="$t('ui.authForm.logoAlt')"
           class="size-24 rounded-full object-cover"
         />
