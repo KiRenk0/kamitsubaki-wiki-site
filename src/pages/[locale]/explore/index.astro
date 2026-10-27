@@ -1,6 +1,7 @@
 ---
 import {pageLabels} from '../../../lib/pageLabels.mjs';
 import ResponsiveImage from '../../../components/ResponsiveImage.astro';
+import VisualRoamPortal from '../../../components/VisualRoamPortal.astro';
 import Icon from '../../../components/Icon.astro';
 import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
 import WorkspaceLinkCard from '../../../components/WorkspaceLinkCard.astro';
@@ -37,6 +38,7 @@ const copy=resolveLocaleCopy({
       <span class="explore-path__action">{copy.imageAction} <span aria-hidden="true"><Icon name="arrow-up-right" /></span></span>
     </a>
   </div>
+  <VisualRoamPortal locale={locale}/>
   <section class="explore-related"><header><span>03 / CONNECTIONS</span><h2>{copy.more}</h2><p>{copy.moreNote}</p></header><div class="explore-systems"><nav class="explore-system-nav">{groups.map(group=><a href={'#system-'+group.id}>{group.title}</a>)}</nav>{groups.map(group=><section id={'system-'+group.id}><h3>{group.title}</h3>{group.items.map((item,index)=><WorkspaceLinkCard href={item.href} index={String(index+1).padStart(2,'0')} title={item.title} description={item.summary}/>)}</section>)}</div></section>
   <a class="explore-journal" href={`/${locale}/announcements/`}><span>SITE / JOURNAL</span><strong>{copy.journal}</strong><small>{copy.journalNote}</small><b>{copy.journalAction} <Icon name="arrow-up-right" /></b></a>
 </WorkspaceLayout>
