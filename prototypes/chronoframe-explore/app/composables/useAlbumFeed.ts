@@ -27,6 +27,7 @@ export function useAlbumFeed(initial:Ref<any>,albumId:Ref<number>){
  let mounted=false
  onMounted(()=>{mounted=true;void all()})
  watch(initial,()=>{if(mounted)void all()},{flush:'post'})
+ onScopeDispose(()=>{mounted=false;epoch++;pending=null;state.loading=false;state.loadingAll=false})
  async function reveal(){state.limit+=48;if(state.limit>state.photos.length)await loadNext()}
  return {state,reveal,loadNext,all,data:computed(()=>initial.value?{...initial.value,photos:state.photos.slice(0,state.limit)}:null)}
 }

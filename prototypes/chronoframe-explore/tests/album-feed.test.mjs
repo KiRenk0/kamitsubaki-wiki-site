@@ -6,10 +6,10 @@ import ts from 'typescript'
 import {reactive,ref,watch,computed,nextTick} from 'vue'
 const source=readFileSync(new URL('../app/composables/useAlbumFeed.ts',import.meta.url),'utf8')
 function albumFeed(api){
- const mounted=[],exports={},initial=ref({photos:[{id:'first'}],total:3,nextOffset:1}),id=ref(1)
+ const mounted=[],disposed=[],exports={},initial=ref({photos:[{id:'first'}],total:3,nextOffset:1}),id=ref(1)
  const compiled=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText
- vm.runInNewContext(compiled,{exports,reactive,watch,computed,onMounted:fn=>mounted.push(fn),useGalleryApi:()=>api})
- return {feed:exports.useAlbumFeed(initial,id),initial,id,mount:()=>mounted.forEach(fn=>fn())}
+ vm.runInNewContext(compiled,{exports,reactive,watch,computed,onMounted:fn=>mounted.push(fn),onScopeDispose:fn=>disposed.push(fn),useGalleryApi:()=>api})
+ return {feed:exports.useAlbumFeed(initial,id),initial,id,mount:()=>mounted.forEach(fn=>fn()),dispose:()=>disposed.forEach(fn=>fn())}
 }
 test('album page failure clears loading and retry keeps its cursor',async()=>{
  let fail=true
@@ -54,4 +54,12 @@ test('album metadata stays prepared while the wall mounts only its current windo
  const {feed,mount}=albumFeed(async()=>{calls++;if(calls===1)throw Error('503');return {photos:[{id:'second'},{id:'third'}],total:3,nextOffset:null}})
  mount();await new Promise(resolve=>setTimeout(resolve,0));assert.equal(calls,1);assert.ok(feed.state.error)
  await feed.all();assert.equal(calls,2);assert.equal(feed.state.photos.length,3);assert.equal(feed.state.error,'')
+ })
+
+ test('leaving an album stops automatic preparation and rejects the pending page',async()=>{
+ let calls=0,resolvePage
+ const {feed,mount,dispose}=albumFeed(()=>{calls++;return new Promise(resolve=>{resolvePage=resolve})})
+ mount();assert.equal(calls,1);dispose();resolvePage({photos:[{id:'late'}],total:100,nextOffset:2})
+ await new Promise(resolve=>setTimeout(resolve,0))
+ assert.equal(calls,1);assert.equal(feed.state.photos.map(p=>p.id).join(','),'first');assert.equal(feed.state.loadingAll,false)
  })
