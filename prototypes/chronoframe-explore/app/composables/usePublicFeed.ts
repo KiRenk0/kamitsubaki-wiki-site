@@ -29,12 +29,14 @@ export function usePublicFeed(){
     const offset=offsets[cursor++]!,page=await read(offset)
     if(state.epoch!==epoch)return
     completed.set(offset,page)
+    const batch:Photo[]=[]
     while(completed.has(mergeOffset)){
      const ready=completed.get(mergeOffset)!
-     completed.delete(mergeOffset);merge(ready.photos);state.total=ready.total;state.nextOffset=ready.nextOffset
+     completed.delete(mergeOffset);batch.push(...ready.photos);state.total=ready.total;state.nextOffset=ready.nextOffset
      if(ready.nextOffset===null)break
      mergeOffset=ready.nextOffset
     }
+    if(batch.length)merge(batch)
    }}catch{failed=true}
   }))
   if(state.epoch!==epoch)return
