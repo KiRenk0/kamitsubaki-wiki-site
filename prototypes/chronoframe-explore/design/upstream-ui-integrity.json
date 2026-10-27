@@ -3,8 +3,8 @@
     "path": "app/components/masonry/Root.vue",
     "matchesUpstream": false,
     "upstreamSha256": "7e9cddc2823dd6ea6c81419e97a71abf8c3325a9eedaf6da1ba0e98918ecee11",
-    "adaptedSha256": "7b2e90dd7f67c17c2f18572603d1dee16097a9d12868bef040e4936dde7bac1a",
-    "onlyChanges": "Bound rendered cards and synchronize paginated viewer; type-only callback signature. Template geometry, CSS and animation definitions unchanged. Metadata now prepares continuously and the external sentinel automatically extends the render window."
+    "adaptedSha256": "d21b26cc4598c92ba5132f37963dfaeff65fddfbccef5f99ee838afd78555e44",
+    "onlyChanges": "Bound rendered cards, preserve visible-window identity while preparing offscreen metadata, synchronize paginated viewer; type-only callback signature. Template geometry, CSS and animation definitions unchanged."
   },
   {
     "path": "app/components/masonry/Item.vue",

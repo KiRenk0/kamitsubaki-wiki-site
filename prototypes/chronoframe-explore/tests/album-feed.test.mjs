@@ -4,11 +4,12 @@ import {readFileSync} from 'node:fs'
 import vm from 'node:vm'
 import ts from 'typescript'
 import {reactive,ref,watch,computed,nextTick} from 'vue'
+import {stableWindow} from './photo-window-helper.mjs'
 const source=readFileSync(new URL('../app/composables/useAlbumFeed.ts',import.meta.url),'utf8')
 function albumFeed(api){
  const mounted=[],disposed=[],exports={},initial=ref({photos:[{id:'first'}],total:3,nextOffset:1}),id=ref(1)
  const compiled=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText
- vm.runInNewContext(compiled,{exports,reactive,watch,computed,onMounted:fn=>mounted.push(fn),onScopeDispose:fn=>disposed.push(fn),useGalleryApi:()=>api})
+ vm.runInNewContext(compiled,{exports,reactive,watch,computed,useStablePhotoWindow:stableWindow,onMounted:fn=>mounted.push(fn),onScopeDispose:fn=>disposed.push(fn),useGalleryApi:()=>api})
  return {feed:exports.useAlbumFeed(initial,id),initial,id,mount:()=>mounted.forEach(fn=>fn()),dispose:()=>disposed.forEach(fn=>fn())}
 }
 test('album page failure clears loading and retry keeps its cursor',async()=>{
@@ -63,3 +64,11 @@ test('album metadata stays prepared while the wall mounts only its current windo
  await new Promise(resolve=>setTimeout(resolve,0))
  assert.equal(calls,1);assert.equal(feed.state.photos.map(p=>p.id).join(','),'first');assert.equal(feed.state.loadingAll,false)
  })
+
+test('album background metadata outside the wall does not replace its visible photo array',async()=>{
+ const {feed}=albumFeed(async path=>{const offset=Number(path.split('offset=')[1]);return {photos:[{id:'photo-'+offset}],total:60,nextOffset:offset+1<60?offset+1:null}})
+ for(let i=0;i<47;i++)await feed.loadNext()
+ const visible=feed.data.value.photos
+ await feed.loadNext();assert.equal(feed.data.value.photos,visible)
+ await feed.reveal();assert.notEqual(feed.data.value.photos,visible)
+})
