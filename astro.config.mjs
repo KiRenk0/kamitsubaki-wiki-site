@@ -12,6 +12,20 @@ import { siteMarkdownOptions } from './src/lib/markdown.mjs';
 import thumbnails from './scripts/thumbnail-integration.mjs';
 
 const { PUBLIC_SITE_URL } = loadEnv(process.env.NODE_ENV || 'production', process.cwd(), 'PUBLIC_');
+// Scratch/build trees (hundreds of thousands of files in .local alone) stay
+// unwatched: registering a native watcher for every directory under them
+// starves the dev server until Vite's module runner times out.
+const unwatchedTrees = [
+  '**/.local/**',
+  '**/.pnpm-store/**',
+  '**/.astro/**',
+  '**/.cache/**',
+  '**/.wrangler/**',
+  '**/dist/**',
+  '**/dist-website/**',
+  '**/prototypes/**',
+  '**/public/_editor/**',
+];
 const stableFontDisplay=()=>({
   name:'wiki-stable-font-display',enforce:'pre',
   transform(source,id){
@@ -34,7 +48,10 @@ export default defineConfig({
   vite: {
     // Separate caches when running an isolated preview beside the main dev server.
     cacheDir: process.env.VITE_CACHE_DIR,
-    server: { strictPort: process.env.ONLINE_INTEGRATION === 'true' },
+    server: {
+      strictPort: process.env.ONLINE_INTEGRATION === 'true',
+      watch: { ignored: unwatchedTrees },
+    },
     plugins: [workspaceBoundary(),localPagefind(),stableFontDisplay(),tailwindcss()],
   },
   markdown: {
