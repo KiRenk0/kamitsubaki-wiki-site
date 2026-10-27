@@ -9,7 +9,11 @@ import {musicConnections,compareLiveSetlists,archiveCollaborations,archiveCovera
 import {archiveCSV,archiveZip,archiveCitation,downloadArchiveFile,pilgrimageGeoJSON,pilgrimageGPX} from '../lib/archiveExports.mjs';
 import {initializeArchiveOpenData} from './archiveOpenData.js';
 import {initializeCollectionTools} from './archiveCollectionTools.js';
-import {collectionEditorItems} from '../lib/archiveCollectionDrafts.mjs';
+import {collectionEditorItems,collectionPresentation,collectionNoteLine} from '../lib/archiveCollectionDrafts.mjs';
+import {archiveChoices} from '../lib/archiveSelection.mjs';
+import {createArchiveEntityPicker} from './archiveEntityPicker.js';
+import {archiveInteractionCopy} from '../lib/archiveInteractionCopy.mjs';
+import {entityLabel} from '../lib/entityLabels.mjs';
 
 const element=(tag,text='',className='')=>{const node=document.createElement(tag);if(text!==undefined)node.textContent=String(text);if(className)node.className=className;return node;};
 function link(text,path) {
@@ -29,6 +33,31 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
  pendingControls.forEach(control=>control.disabled=true);root.setAttribute('aria-busy','true');
  let snapshot,limit=24,lastRows=[],renderToken=0,accountEpoch=0,roomGeneration=0,profile=null,community=null,taskStates=[],reviews=[],room=null,roomTimer=null,scanner=null,atlasMapHandle=null,atlasMapGeneration=0,atlasMapEnabled=false,detailTrigger=null,destroyed=false,collectionTools=null;
  const record=id=>archiveRecord(snapshot,id,locale),name=id=>record(id)?.title || id;
+ const interaction=archiveInteractionCopy(locale),pickers=new Map();let roomPickerEpoch=0;
+ const refreshPickers=()=>{for(const picker of pickers.values())picker.refresh();};
+ function initializePickers(){
+  const all=archiveChoices(snapshot,locale),people=archiveChoices(snapshot,locale,['person','virtual-avatar','unit','software-voice']);
+  const named=[...new Set(snapshot.entities.flatMap(row=>(row.facts.credits || []).filter(credit=>!credit.entity && credit.name).map(credit=>credit.name)))].map(title=>({id:title,title,type:interaction.creator,terms:[title]}));
+  for(const field of root.querySelectorAll('input[list="archive-entity-ids"],input[list="archive-live-ids"],select[name="artist"],textarea[name="interests"],[data-setlist-compare] textarea[name="lives"]')){
+   const multiple=field.tagName==='TEXTAREA',items=field.name==='lives' || field.getAttribute('list')==='archive-live-ids'?all.filter(row=>snapshot.entities.find(entity=>entity.id===row.id)?.type==='live-event'):['artist','creator'].includes(field.name)?field.name==='creator'?[...people,...named]:people:all;
+   pickers.set(field,createArchiveEntityPicker(field,{items,locale,multiple,max:field.name==='interests'?30:field.name==='lives'?4:multiple?100:1}));
+  }
+  const kind=root.querySelector('[data-room-position] [name=kind]'),field=root.querySelector('[data-room-position] [name=entityId]');
+  if(kind && field)kind.addEventListener('change',()=>{const generation=++roomPickerEpoch,picker=pickers.get(field);picker.setValues([],{notify:false});if(kind.value==='entity')picker.setItems(all);else if(kind.value==='event')picker.setItems(snapshot.events.map(event=>({id:event.id,title:(event.text[locale] || event.text.zh || Object.values(event.text)[0]).title,type:interaction.year+' · '+event.date.start,terms:[event.id]})));else{picker.setItems([]);void request('collections').then(data=>{if(generation!==roomPickerEpoch || destroyed)return;picker.setItems((data.collections || []).filter(row=>row.status==='published').map(row=>({id:row.id,title:row.title,type:c.collection,terms:[row.description]})));}).catch(error=>report(errorMessage(error)));}});
+ }
+ function drawQueryConditions(){
+  const confirm=root.querySelector('[data-confirm-query]');if(!confirm)return;
+  let target=root.querySelector('[data-query-conditions]');if(!target){target=element('div','','archive-query-conditions');target.dataset.queryConditions='';target.setAttribute('aria-label',interaction.conditions);confirm.before(target);}
+  target.replaceChildren();for(const [key,value]of Object.entries(formObject(confirm))){if(!value)continue;const field=confirm.elements.namedItem(key),caption=['artist','creator','entity'].includes(key)?name(value):['type','role'].includes(key)?entityLabel(value,locale):key==='media'?c.media:value;
+   const chip=element('span','','archive-picker__chip');chip.append(button((interaction[key] || key)+' · '+caption,()=>{const input=pickers.get(field)?.input || field;input.focus();}));const remove=button('×',()=>{if(field.type==='checkbox')field.checked=false;else field.value='';refreshPickers();drawQueryConditions();});remove.setAttribute('aria-label',interaction.remove+' '+(interaction[key] || key));chip.append(remove);target.append(chip);
+  }
+ }
+ function questionTemplates(){
+  const question=root.querySelector('[data-question-form]');if(!question)return;const artist=record('kaf') || snapshot.entities.map(row=>record(row.id)).find(row=>['virtual-avatar','unit'].includes(row.type)),song=snapshot.entities.find(row=>row.type==='work-track' && row.facts.credits?.some(credit=>credit.role==='composer')),years=snapshot.entities.filter(row=>row.type==='work-track' && (row.facts.performers || []).some(performer=>performer.entity===artist?.id)).map(row=>row.date?.slice(0,4)).filter(Boolean).sort();
+  const target=element('div','','archive-actions');target.dataset.questionTemplates='';target.setAttribute('aria-label',interaction.templates);
+  for(const template of [interaction.songsTemplate,interaction.creditsTemplate,interaction.rangeTemplate]){const text=template.replace('{artist}',artist?.title || '').replace('{work}',song?name(song.id):'').replace('{year}',years.at(-1) || '').replace('{from}',years[0] || '');target.append(button(text,()=>{question.elements.question.value=text;question.dispatchEvent(new Event('submit',{bubbles:true,cancelable:true}));}));}question.after(target);
+  root.querySelector('[data-confirm-query]').addEventListener('input',drawQueryConditions);root.querySelector('[data-confirm-query]').addEventListener('change',drawQueryConditions);
+ }
  const report=message=>{status.textContent=message;};
  const errorMessage=error=>error.message==='profile_conflict'?c.conflict:['community_unavailable','identity_service_unavailable','catalogue_unavailable'].includes(error.message)?c.unavailable:error.status===401?c.signIn:c.failed;
  const action=async(callback,target)=>{if(target)target.disabled=true;try{return await callback();}catch(error){report(errorMessage(error));return null;}finally{if(target)target.disabled=false;}};
@@ -85,6 +114,7 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
   for(const [label,value] of [[c.date,row.date],[c.type,row.type],[c.duration,row.facts.duration],[c.snapshot,snapshot.snapshot]]){data.append(element('dt',label),element('dd',value || c.unknown));}
   detail.append(data);
   if(row.type==='work-track'){
+   detail.append(link(c.addChapter,'/'+locale+'/explore/collections/?add='+encodeURIComponent(id)));
    detail.append(element('h3',c.versions),element('p',c.versionNote));
    const connections=musicConnections(snapshot,id,locale),ul=element('ul');for(const version of connections.versions){const li=element('li');li.append(reference(version.source.id),element('span',' → '),reference(version.target.id),element('span',' · '+(c[version.versionType] || c.unknown)));sources(version.sources,li);ul.append(li);}detail.append(ul.childElementCount?ul:element('p',c.empty));
    detail.append(element('h3',c.relatedReleases));const releases=element('ul');for(const release of connections.releases){const li=element('li');li.append(reference(release.id));releases.append(li);}detail.append(releases.childElementCount?releases:element('p',c.empty));
@@ -232,7 +262,7 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
   const grid=element('div','','archive-metrics');for(const kind of ['read','heard','visited','owned','guarding']){const row=element('div');row.append(element('strong',data.records.filter(r=>r.kind===kind).length),element('span',c[kind]));grid.append(row);}target.append(grid,element('h3',c.stamps));
   target.append(element('p',c.interests+': '+(data.interests || []).map(name).join(' · ')));
   if(data.passport?.published && profile?.publicId)target.append(link(c.share,'/'+locale+'/explore/observatory/?passport='+encodeURIComponent(profile.publicId)));
-  const passport=root.querySelector('[data-passport-form]');if(passport){passport.elements.name.value=data.passport?.name || '';passport.elements.note.value=data.passport?.note || '';passport.elements.published.checked=data.passport?.published || false;passport.elements.interests.value=(data.interests || []).join('\n');}
+  const passport=root.querySelector('[data-passport-form]');if(passport){passport.elements.name.value=data.passport?.name || '';passport.elements.note.value=data.passport?.note || '';passport.elements.published.checked=data.passport?.published || false;passport.elements.interests.value=(data.interests || []).join('\n');refreshPickers();}
   const stampList=element('div');for(const row of data.records.filter(r=>r.kind==='visited').slice(0,50)){const stamp=element('p');stamp.append(element('span',row.date || new Date(row.at).toISOString().slice(0,10),'archive-badge'),reference(row.entityId));stampList.append(stamp);}target.append(stampList,element('h3',c.achievements));
   const approved=profile?.contributions?.approved ?? (profile?.tasks || []).filter(t=>t.status==='approved').length;for(const achievement of observatoryAchievements(data,approved)){target.append(element('p',(achievement.earned?c.achieved+' · ':'')+(c[achievement.kind] || c.contributions)+' · '+achievement.count+' / '+achievement.goal));}
   target.append(element('h3',year+' · '+c.personalYear));
@@ -249,17 +279,22 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
  function fillCollection(collection){
   const editor=root.querySelector('[data-collection-form]');if(!editor)return;
   for(const field of ['id','title','description','kind','revision'])editor.elements.namedItem(field).value=collection[field] || (field==='revision'?'0':'');
-  editor.elements.namedItem('items').value=collection.items.map(item=>item.entityId).join('\n');editor.elements.namedItem('notes').value=collection.items.map(item=>item.note || '').join('\n');collectionTools?.filled();editor.scrollIntoView({block:'start'});
+  editor.elements.namedItem('items').value=collection.items.map(item=>item.entityId).join('\n');editor.elements.namedItem('notes').value=collection.items.map(item=>collectionNoteLine(item.note)).join('\n');
+  if(editor.elements.namedItem('presentation'))editor.elements.namedItem('presentation').value=collectionPresentation(collection.items);collectionTools?.filled();editor.scrollIntoView({block:'start'});
  }
  function collectionCard(collection,target,owned=false){
   const article=element('article','','archive-space');article.append(element('h2',collection.title),element('p',collection.description),element('span',c[collection.status] || collection.status,'archive-badge'));
-  const items=element('ol');for(const item of collection.items){const li=element('li');li.append(reference(item.entityId));if(item.note)li.append(element('p',item.note));items.append(li);}article.append(items);
+  appendCollectionItems(collection,article);
   const tools=element('div','','archive-actions');
   if(collectionTools)tools.append(button(c.preview,()=>action(()=>collectionTools.preview(collection))));
   if(owned)tools.append(button(c.edit,()=>fillCollection(collection)),button(c.remove,event=>action(async()=>{await request('collections/'+collection.id,{method:'DELETE'});await loadCollections();},event.currentTarget)));
   else if(collection.status==='published'){const followed=profile?.follows?.includes(collection.id);tools.append(button(followed?c.unfollow:c.follow,event=>action(async()=>{await request('collections/'+collection.id+'/follow',{method:'POST',body:{follow:!followed}});await loadCollections();},event.currentTarget)),button(c.fork,event=>action(async()=>{const epoch=accountEpoch,currentOwner=await owner();if(epoch!==accountEpoch || destroyed)return;const result=await request('collections/'+collection.id+'/fork',{method:'POST',body:{},expectedOwner:currentOwner});const latestOwner=await owner();if(epoch!==accountEpoch || destroyed || currentOwner!==latestOwner)return;fillCollection(result.collection);await loadCollections();},event.currentTarget)));}
   if(profile?.reviewer && collection.status==='pending' && !owned)for(const [label,decision]of [[c.approve,'approve'],[c.reject,'reject']])tools.append(button(label,event=>action(async()=>{const note=root.querySelector('[data-review-note]')?.value;if(!note?.trim()){report(c.note);return;}await request('collections/'+collection.id+'/review',{method:'POST',body:{action:decision,revision:collection.revision,note}});await loadCollections();},event.currentTarget)));
   tools.append(link(c.share,'/'+locale+'/explore/collections/?collection='+collection.id));article.append(tools);target.append(article);
+ }
+ function appendCollectionItems(collection,article){
+  const cover=collection.items.find(item=>item.cover),image=cover && record(cover.entityId)?.image;if(image){const img=element('img');img.src=image;img.alt=name(cover.entityId);img.loading='lazy';img.className='archive-preview-cover';article.append(img);}
+  const items=element('ol');let section;for(const item of collection.items){const li=element('li');if(item.section && item.section!==section)li.append(element('h3',item.section));section=item.section;li.append(reference(item.entityId));if(item.note){const note=element('p',item.note);note.style.whiteSpace='pre-wrap';li.append(note);}items.append(li);}article.append(items);
  }
  async function loadCollections(){
   const token=++renderToken;
@@ -409,10 +444,13 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
  listen('[data-question-form]','submit',event=>{
   event.preventDefault();const plan=parseArchiveQuestion(event.currentTarget.elements.question.value,snapshot),confirm=root.querySelector('[data-confirm-query]');
   for(const control of confirm.elements){if(!control.name)continue;if(control.type==='checkbox')control.checked=plan.query[control.name]==='yes';else control.value=plan.query[control.name] || '';}
-  root.querySelector('[data-query-plan]').hidden=false;root.querySelector('[data-query-unresolved]').textContent=plan.unresolved.length?c.unresolved+': '+plan.unresolved.join(' · '):c.parsed;
+  root.querySelector('[data-query-plan]').hidden=false;root.querySelector('[data-query-unresolved]').textContent=plan.unrecognizedText?interaction.remaining+': '+plan.unrecognizedText:plan.unresolved.length?c.unresolved+': '+plan.unresolved.map(key=>interaction[key] || key).join(' · '):c.parsed;
+  let choices=root.querySelector('[data-query-candidates]');if(!choices){choices=element('div','','archive-actions');choices.dataset.queryCandidates='';root.querySelector('[data-query-unresolved]').after(choices);}choices.replaceChildren();
+  for(const [key,ids]of Object.entries(plan.candidates || {})){choices.append(element('p',interaction.ambiguous+' · '+(interaction[key] || key)));for(const id of ids){const choice=button(name(id),()=>{confirm.elements.namedItem(key).value=id;for(const candidate of choices.querySelectorAll('[data-candidate-key]'))if(candidate.dataset.candidateKey===key)candidate.setAttribute('aria-pressed',String(candidate===choice));refreshPickers();drawQueryConditions();const pending=Object.keys(plan.candidates).filter(field=>!confirm.elements.namedItem(field).value);root.querySelector('[data-query-unresolved]').textContent=plan.unrecognizedText?interaction.remaining+': '+plan.unrecognizedText:pending.length?interaction.ambiguous:c.parsed;});choice.dataset.candidateKey=key;choice.setAttribute('aria-pressed','false');choices.append(choice);}}
+  refreshPickers();drawQueryConditions();
   results.replaceChildren();report(c.parsed);
  });
- listen('[data-confirm-query]','submit',event=>{event.preventDefault();const values={media:'',...formObject(event.currentTarget)};limit=24;lastRows=selectArchive(snapshot,values,locale);listRecords(lastRows.slice(0,limit));more.hidden=lastRows.length<=limit;report(c.answer+': '+lastRows.length);if(values.entity && record(values.entity))showDetail(values.entity);setQuery({...values,confirmed:'yes',question:root.querySelector('[data-question-form] [name=question]').value});});
+ listen('[data-confirm-query]','submit',event=>{event.preventDefault();if(event.defaultPrevented && event.currentTarget.querySelector('[data-picker-search]:invalid'))return;const values={media:'',...formObject(event.currentTarget)};limit=24;lastRows=selectArchive(snapshot,values,locale);listRecords(lastRows.slice(0,limit));more.hidden=lastRows.length<=limit;report(c.answer+': '+lastRows.length);drawQueryConditions();if(values.entity && record(values.entity))showDetail(values.entity);setQuery({...values,confirmed:'yes',question:root.querySelector('[data-question-form] [name=question]').value});});
  listen('[data-compare-form]','submit',event=>{event.preventDefault();const values=formObject(event.currentTarget);renderComparison([values.left,values.right]);setQuery({...values,leftYear:'',rightYear:''});});
  listen('[data-year-compare-form]','submit',event=>{event.preventDefault();const values=formObject(event.currentTarget);results.replaceChildren();for(const year of [values.leftYear,values.rightYear]){const section=element('section','','archive-space');section.append(element('h2',year));const content=element('div');section.append(content);results.append(section);renderStatistics(content,{year});}setQuery({...values,left:'',right:''});report(c.compareYears);});
  listen('[data-evidence-form]','submit',event=>{event.preventDefault();const id=event.currentTarget.elements.entity.value;renderEvidence(id);setQuery({entity:id});});
@@ -447,20 +485,22 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
   if(collectionTools)void collectionTools.changeOwner().catch(error=>report(errorMessage(error)));
   if(module==='atlas'){root.querySelector('[data-pilgrimage-route]').replaceChildren();root.querySelector('[data-route-directions]').hidden=true;atlasMapHandle?.setRoute([]);void renderRoute();}
   if(module==='observatory' && !new URL(location.href).searchParams.has('passport')){root.querySelector('[data-observatory]').replaceChildren();root.querySelector('[data-passport-form]')?.reset();root.querySelector('[data-witness-form]')?.reset();void syncAndRender();}
-  if(module==='collections'){root.querySelector('[data-community-collections]').replaceChildren();root.querySelector('[data-collection-form]').reset();void loadCollections();}
+  if(module==='collections'){root.querySelector('[data-community-collections]').replaceChildren();const editor=root.querySelector('[data-collection-form]');editor.reset();editor.elements.id.value='';editor.elements.revision.value='0';if(editor.elements.presentation)editor.elements.presentation.value='';void loadCollections();}
   if(module==='challenges'){reviews=[];taskStates=[];results.replaceChildren();void loadTasks();}
   if(module==='rooms'){room=null;clearInterval(roomTimer);root.querySelector('[data-room-current]').replaceChildren();root.querySelector('[data-active-room]').hidden=true;}
+  roomPickerEpoch++;refreshPickers();
  });
  document.addEventListener('visibilitychange',()=>{if(document.hidden)stopCamera();else if(room)void refreshRoom();});
  function restoreSetlists(params){const editor=root.querySelector('[data-setlist-compare]');if(!editor)return;const lives=params.get('lives');editor.elements.lives.value=lives?lives.split(',').join('\n'):'';root.querySelector('[data-setlist-comparison]').replaceChildren();if(lives)editor.dispatchEvent(new Event('submit',{bubbles:true,cancelable:true}));}
- window.addEventListener('popstate',()=>{limit=24;restoreForm();void render();const params=new URL(location.href).searchParams;restoreComparison(params);restoreQuestion(params);restoreSetlists(params);if(module==='evidence')renderEvidence(params.get('entity'));if(module==='today')renderToday(params.get('day') || tokyoDay().slice(5));if(params.get('entry'))showDetail(params.get('entry'));else closeDetail({updateURL:false,restoreFocus:false});});
+ window.addEventListener('popstate',()=>{limit=24;restoreForm();void render();const params=new URL(location.href).searchParams;restoreComparison(params);restoreQuestion(params);restoreSetlists(params);if(module==='evidence')renderEvidence(params.get('entity'));if(module==='today')renderToday(params.get('day') || tokyoDay().slice(5));if(params.get('entry'))showDetail(params.get('entry'));else closeDetail({updateURL:false,restoreFocus:false});refreshPickers();});
  try{
   snapshot=await loadSnapshot(root.dataset.snapshotUrl);pendingControls.forEach(control=>control.disabled=false);root.removeAttribute('aria-busy');restoreForm();await render();
+  initializePickers();questionTemplates();
   const params=new URL(location.href).searchParams;
   if(module==='collections')collectionTools=await initializeCollectionTools(root,{snapshot,locale,owner,storage,onOpen:showDetail,onError:error=>report(errorMessage(error))});
   if(module==='open-data')await initializeArchiveOpenData(root.querySelector('[data-open-data]'),{snapshot,copy:c,locale,load:loadSnapshot});
   if(module==='music')renderGenome();
-  if(module==='museum'){const target=root.querySelector('[data-published-exhibitions]');try{const published=await request('collections');target.replaceChildren();for(const exhibition of published.collections.filter(row=>row.kind==='exhibition')){const article=element('article','','archive-space');article.append(element('h2',exhibition.title),element('p',exhibition.description));const chapters=element('ol');for(const item of exhibition.items){const li=element('li');li.append(reference(item.entityId),element('p',item.note));chapters.append(li);}article.append(chapters,link(c.share,'/'+locale+'/explore/collections/?collection='+exhibition.id));target.append(article);}if(!target.childElementCount)target.append(element('p',c.empty));}catch{target.replaceChildren(element('p',c.unavailable));}}
+  if(module==='museum'){const target=root.querySelector('[data-published-exhibitions]');try{const published=await request('collections');target.replaceChildren();for(const exhibition of published.collections.filter(row=>row.kind==='exhibition')){const article=element('article','','archive-space');article.append(element('h2',exhibition.title),element('p',exhibition.description));appendCollectionItems(exhibition,article);article.append(link(c.share,'/'+locale+'/explore/collections/?collection='+exhibition.id));target.append(article);}if(!target.childElementCount)target.append(element('p',c.empty));}catch{target.replaceChildren(element('p',c.unavailable));}}
   restoreComparison(params);
   restoreSetlists(params);
   if(module==='evidence'){const id=params.get('entity') || snapshot.evidence[0]?.entityId || snapshot.entities[0]?.id;root.querySelector('[data-evidence-form] [name=entity]').value=id;renderEvidence(id);}
@@ -472,6 +512,8 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
   if(module==='physical' && params.get('barcode')){root.querySelector('[data-barcode-form] [name=barcode]').value=params.get('barcode');findBarcode(params.get('barcode'));}
   if(module==='today'){const day=params.get('day') || tokyoDay().slice(5);root.querySelector('[data-today-form] [name=monthDay]').value=day;renderToday(day);const mystery=mysteryEntity(snapshot,tokyoDay());if(mystery)root.querySelector('[data-mystery-clues]').append(element('p',c.year+': '+mystery.year),element('p',c.artist+': '+mystery.performers.map(name).join(' · ')),element('p',c.role+': '+mystery.credits.join(' · ')));}
   if(params.get('entry'))showDetail(params.get('entry'));
+  if(module==='collections' && params.get('add') && record(params.get('add')))fillCollection({title:'',description:'',kind:'collection',revision:0,items:[{entityId:params.get('add'),note:''}]});
+  refreshPickers();drawQueryConditions();
   if(!status.textContent || status.textContent===c.loading)report(c.coverage);
  }catch(error){report(errorMessage(error));status.append(button(c.apply,()=>location.reload()));}
  return {render,showDetail,getSnapshot:()=>snapshot};

@@ -40,16 +40,19 @@ export function selectArchive(snapshot,query={},locale='zh') {
 }
 /** Only recognize a bounded grammar. Unrecognized input remains a search; never silently invent constraints. */
 export function parseArchiveQuestion(text,snapshot) {
-  const input=String(text || '').trim().slice(0,500), query={}, recognized=[], unresolved=[];
+  const input=String(text || '').trim().slice(0,500), query={}, recognized=[], unresolved=[],candidates={};
+  let remaining=foldCjkSearchText(input);
+  const consume=pattern=>{remaining=remaining.replace(pattern,'\u0000');};
   const put=(key,value,label)=>{query[key]=value;recognized.push(label);};
   const typeRules=[['work-track',/\b(songs?|tracks?|music)\b|歌曲|楽曲|曲目/i],['work-release',/\b(albums?|releases?)\b|专辑|專輯|发行|發行|アルバム/i],['live-event',/\b(lives?|concerts?|events?)\b|演出|演唱会|演唱會|ライブ|公演/i],['person',/\b(creators?|people)\b|创作者|創作者|クリエイター/i]];
   const kinds=typeRules.filter(([,rule])=>rule.test(input));
-  if(kinds.length===1)put('type',kinds[0][0],kinds[0][0]);
+  if(kinds.length===1){put('type',kinds[0][0],kinds[0][0]);remaining=foldCjkSearchText(input.replace(new RegExp(kinds[0][1].source,'gi'),'\u0000'));}
   else if(kinds.length>1)unresolved.push('type');
   const years=unique(input.match(/\b(?:19|20)\d{2}\b/g) || []);
   if(years.length===1)put('year',years[0],years[0]);
   else if(years.length===2 && /到|至|から|to|through|[-–~]/i.test(input)) {put('from',years.slice().sort()[0],years[0]);put('to',years.slice().sort()[1],years[1]);}
   else if(years.length>1)unresolved.push('year');
+  if(query.year || query.from)for(const year of years)consume(new RegExp(year+'(?:\\s*年(?:の)?)?','g'));
   const folded=foldCjkSearchText(input);
   const matchesName=name=>{
     if(!name || name.length<2)return false;
@@ -60,16 +63,29 @@ export function parseArchiveQuestion(text,snapshot) {
   };
   const names=snapshot.entities.filter(e=>['person','virtual-avatar','unit','software-voice'].includes(e.type)).filter(e=>[e.id,...Object.values(e.narratives).flatMap(n=>[n.title,n.romanized,...(n.aliases || [])])].some(matchesName));
   const exact=names;
-  if(exact.length===1)put(/作曲|作词|作詞|编曲|編曲|created|composed|written|composer/i.test(input)?'creator':'artist',exact[0].id,exact[0].id);
-  else if(exact.length>1)unresolved.push('artist');
+  const personKey=/作曲|作词|作詞|编曲|編曲|created|composed|written|composer/i.test(input)?'creator':'artist';
+  if(exact.length===1)put(personKey,exact[0].id,exact[0].id);
+  else if(exact.length>1){unresolved.push(personKey);candidates[personKey]=exact.map(row=>row.id);}
+  const consumeNames=rows=>{for(const row of rows)for(const name of [row.id,...Object.values(row.narratives).flatMap(n=>[n.title,n.romanized,...(n.aliases || [])])].filter(Boolean).sort((a,b)=>b.length-a.length)){
+   const foldedName=foldCjkSearchText(name);if(!matchesName(name))continue;
+   const escaped=foldedName.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');consume(new RegExp(/^[\x00-\x7F]+$/.test(foldedName)?'(?<![a-z0-9])'+escaped+'(?![a-z0-9])':escaped,'gi'));
+  }};
+  consumeNames(exact);
   const roleRules=[['composer',/作曲|compos/i],['lyricist',/作词|作詞|lyric/i],['arranger',/编曲|編曲|arrang/i]];
-  for(const [role,rule] of roleRules)if(rule.test(input)){put('role',role,role);break;}
-  if(/MV|ミュージックビデオ|music video/i.test(input))put('media','yes','media');
-  if(!recognized.length)query.q=input;
+  for(const [role,rule] of roleRules)if(rule.test(input)){put('role',role,role);consume(/(?:作曲|作词|编曲)\s*したのは\s*谁|作曲|作词|作詞|编曲|編曲|\b(?:composed?|composer|composing|written|lyricist|lyrics?|arranged?|arranger|arranging|created)\b/gi);break;}
+  if(/MV|ミュージックビデオ|music video/i.test(input)){put('media','yes','media');consume(/\bMV\b|みゅーじっくびでお|music video|\bvideo\b/gi);}
   const targets=snapshot.entities.filter(e=>!['person','virtual-avatar','unit','software-voice'].includes(e.type) && [e.id,...Object.values(e.narratives).map(n=>n.title)].some(matchesName));
-  if(targets.length===1 && /谁|誰|who|版本|バージョン|version|remix|歌詞|歌词|credit|制作|作曲|作词|作詞|演唱|performed/i.test(input)){delete query.q;put('entity',targets[0].id,targets[0].id);}
-  else if(targets.length>1 && /谁|誰|who|version|credit|制作|作曲|作词|作詞/i.test(input))unresolved.push('entity');
-  return {version:archiveVersion,input,query,recognized:unique(recognized),unresolved,requiresConfirmation:true};
+  if(targets.length===1 && /谁|誰|who|版本|バージョン|version|remix|歌詞|歌词|credit|制作|作曲|作词|作詞|演唱|performed/i.test(input)){put('entity',targets[0].id,targets[0].id);consumeNames(targets);}
+  else if(targets.length>1 && /谁|誰|who|version|credit|制作|作曲|作词|作詞/i.test(input)){unresolved.push('entity');candidates.entity=targets.map(row=>row.id);consumeNames(targets);}
+  // Keep every unconsumed description visible and searchable instead of broadening a partly recognized question.
+  const filler=/^(?:(?:in|from|to|through|by|the|a|an|of|for|and|who|what|which|show|find|me|please|are|is|has|have)\s*|请问|请|查找|查询|列出|有哪些|哪些|的|年|谁为|谁|は|が|を|の|に|から|まで|到|至|[-–~])+$/i;
+  remaining=remaining.split('\u0000').map(part=>part.replace(/^[\s，。！？、：；,.!?;:「」『』“”"'()（）]+|[\s，。！？、：；,.!?;:「」『』“”"'()（）]+$/g,'')).map((part,index,parts)=>{
+   if(filler.test(part))return '';let value=part.replace(/^(?:(?:show|find|please|about|regarding|containing|named|called)\b\s*|请问|请|查找|查询|列出|关于)+/i,'');
+   if(index<parts.length-1)value=value.replace(/\s+\b(?:in|from|to|by|the|of|for)\b\s*$/i,'').replace(/的$/,'');return value.trim();
+  }).filter(Boolean).join(' ');
+  if(!recognized.length && !unresolved.length)query.q=input;
+  else if(remaining){query.q=remaining;unresolved.push('q');}
+  return {version:archiveVersion,input,query,recognized:unique(recognized),unresolved:unique(unresolved),candidates,unrecognizedText:remaining,requiresConfirmation:true};
 }
 export function musicVersions(snapshot,id) {
   const seen=new Set([id]), edges=[];

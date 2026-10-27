@@ -6,7 +6,7 @@ import {initializeArchiveWorkspace} from '../src/scripts/archiveWorkspace.js';
 import {archiveFixture} from './helpers/archive-fixture.mjs';
 import {archiveFeatureCopy} from '../src/lib/archiveFeatureCopy.mjs';
 import {archiveCompletionCopy} from '../src/lib/archiveCompletionCopy.mjs';
-import {readCollectionDrafts,collectionDraftKey,exportCollectionEditor} from '../src/lib/archiveCollectionDrafts.mjs';
+import {readCollectionDrafts,saveCollectionDraft,collectionDraftKey,exportCollectionEditor,collectionEditorItems,collectionPresentation,validateCollectionEditor} from '../src/lib/archiveCollectionDrafts.mjs';
 import {emptyObservatory,loadObservatory} from '../src/lib/archivePersonal.mjs';
 const tick=()=>new Promise(resolve=>setTimeout(resolve,10));
 async function domTest(module,markup,run){
@@ -20,6 +20,67 @@ const editor='<form data-collection-form><input name="id"/><input name="title"/>
 const toolsMarkup=editor+'<div data-device-drafts></div><input type="file" data-import-collection/><aside hidden tabindex="-1" data-collection-preview></aside>';
 const c=archiveCompletionCopy('zh'),button=(root,text)=>[...root.querySelectorAll('button')].find(node=>node.textContent===text);
 const initializeTools=(root,owner)=>initializeCollectionTools(root,{snapshot:archiveFixture(),locale:'zh',storage:localStorage,owner,onOpen:()=>{},loadSortable:async()=>({default:class{destroy(){}}})});
+
+test('saving and reopening a collection preserves 21 full-length notes and keeps the editor usable',async()=>{
+ await domTest('collections',toolsMarkup+'<div data-community-collections></div>',async root=>{
+  const snapshot=archiveFixture(),prototype=snapshot.entities.find(row=>row.id==='song-a');for(let index=0;index<21;index++)snapshot.entities.push({...structuredClone(prototype),id:'chapter-'+index});
+  let saved;const request=async(path,options)=>{
+   if(options?.method){saved={...options.body,id:'remote-collection',revision:(saved?.revision || 0)+1,status:'draft'};return {collection:saved};}
+   return path==='me'?{collections:saved?[saved]:[],follows:[]}:{collections:[]};
+  };
+  await initializeArchiveWorkspace(root,{loadSnapshot:async()=>snapshot,owner:async()=>'alice',request,storage:localStorage});
+  const form=root.querySelector('form'),note='首行\n'+'字'.repeat(1997);assert.equal(note.length,2000);
+  form.elements.items.value=Array.from({length:21},(_,index)=>'chapter-'+index).join('\n');form.elements.items.dispatchEvent(new Event('input',{bubbles:true}));
+  for(const field of root.querySelectorAll('[data-chapter-note]')){field.value=note;field.dispatchEvent(new Event('input',{bubbles:true}));}
+  form.elements.title.value='长笔记';form.dispatchEvent(new Event('submit',{bubbles:true,cancelable:true}));await tick();
+  assert.equal(saved.items.length,21);assert.ok(saved.items.every(item=>item.note===note));
+  assert.doesNotThrow(()=>validateCollectionEditor(Object.fromEntries(new FormData(form))));
+  button(root.querySelector('[data-community-collections]'),archiveFeatureCopy('zh').edit).click();
+  assert.deepEqual(collectionEditorItems(Object.fromEntries(new FormData(form))),saved.items);
+  const raw=form.elements.notes,lines=raw.value.split('\n');lines[20]='只修改最后一章';raw.value=lines.join('\n');raw.dispatchEvent(new Event('input',{bubbles:true}));
+  button(form,c.deviceDraft).click();await tick();const draft=readCollectionDrafts(localStorage,'alice')[0],items=collectionEditorItems(draft.editor);
+  assert.ok(items.slice(0,20).every(item=>item.note===note));assert.equal(items[20].note,'只修改最后一章');
+  form.dispatchEvent(new Event('submit',{bubbles:true,cancelable:true}));await tick();assert.deepEqual(saved.items,items);assert.doesNotThrow(()=>validateCollectionEditor(Object.fromEntries(new FormData(form))));
+ });
+});
+
+test('opening another draft closes the old preview and preserves each draft reading progress',async()=>{
+ await domTest('collections',toolsMarkup,async root=>{
+  const first=saveCollectionDraft(localStorage,'alice',{title:'First',items:'song-a\nsong-b',notes:'A\nB'}),second=saveCollectionDraft(localStorage,'alice',{title:'Second',items:'song-a\nsong-b',notes:'Different A\nB'});
+  const key=draft=>collectionDraftKey('alice')+':progress:'+draft.localId,fingerprint=JSON.stringify(['song-a','song-b']);
+  localStorage.setItem(key(second),JSON.stringify({fingerprint,current:1,completed:['song-b']}));
+  await initializeTools(root,async()=>'alice');const article=title=>[...root.querySelectorAll('[data-device-drafts] article')].find(row=>row.querySelector('h3').textContent===title),panel=root.querySelector('[data-collection-preview]');
+  button(article('First'),c.open).click();button(root.querySelector('form'),c.preview).click();await tick();button(panel,c.read).click();await tick();const firstProgress=localStorage.getItem(key(first));
+  button(article('Second'),c.open).click();assert.equal(panel.hidden,true);assert.equal(panel.childElementCount,0);assert.equal(localStorage.getItem(key(first)),firstProgress);
+  button(root.querySelector('form'),c.preview).click();await tick();assert.equal(panel.querySelector('h2').textContent,'Second');assert.ok(button(panel,'✓ '+c.read));
+  button(panel,c.previous).click();await tick();button(panel,c.read).click();await tick();assert.deepEqual(JSON.parse(localStorage.getItem(key(second))).completed,['song-b','song-a']);assert.equal(localStorage.getItem(key(first)),firstProgress);
+ });
+});
+
+test('replacing the editor with a remote collection or an import closes its previous preview',async()=>{
+ await domTest('collections',toolsMarkup+'<div data-community-collections></div>',async root=>{
+  const remote={id:'remote',revision:1,title:'Remote',description:'',kind:'collection',status:'draft',items:[{entityId:'song-b',note:'Remote note'}]};
+  await initializeArchiveWorkspace(root,{loadSnapshot:async()=>archiveFixture(),owner:async()=>'alice',request:async path=>path==='me'?{collections:[remote],follows:[]}:{collections:[]},storage:localStorage});
+  const form=root.querySelector('form'),panel=root.querySelector('[data-collection-preview]');button(form,c.preview).click();await tick();const first=readCollectionDrafts(localStorage,'alice')[0],key=collectionDraftKey('alice')+':progress:'+first.localId;
+  button(panel,c.read).click();await tick();const previous=localStorage.getItem(key);
+  button(root.querySelector('[data-community-collections]'),archiveFeatureCopy('zh').edit).click();assert.equal(panel.hidden,true);assert.equal(localStorage.getItem(key),previous);
+  button(form,c.preview).click();await tick();const input=root.querySelector('[data-import-collection]'),note='Imported first line\n'+'字'.repeat(400),legacyNote='旧笔记'.repeat(200),incoming=exportCollectionEditor({title:'Imported',items:'song-a\nsong-b',notes:note.replace(/\n/g,' ')+'\n'+legacyNote,presentation:collectionPresentation([{entityId:'song-a',note}])});
+  Object.defineProperty(input,'files',{value:[{size:100,text:async()=>JSON.stringify(incoming)}]});input.dispatchEvent(new Event('change'));await tick();assert.equal(panel.hidden,true);assert.equal(form.elements.title.value,'Imported');assert.equal(localStorage.getItem(key),previous);
+  assert.deepEqual(collectionEditorItems(Object.fromEntries(new FormData(form))),[{entityId:'song-a',note},{entityId:'song-b',note:legacyNote}]);
+  const raw=form.elements.notes,lines=raw.value.split('\n');lines[1]='Changed B';raw.value=lines.join('\n');raw.dispatchEvent(new Event('input',{bubbles:true}));assert.deepEqual(collectionEditorItems(Object.fromEntries(new FormData(form))),[{entityId:'song-a',note},{entityId:'song-b',note:'Changed B'}]);
+ });
+});
+
+test('a delayed editing preview cannot reopen after switching to another draft',async()=>{
+ await domTest('collections',toolsMarkup,async root=>{
+  saveCollectionDraft(localStorage,'alice',{title:'First',items:'song-a',notes:'A'});saveCollectionDraft(localStorage,'alice',{title:'Second',items:'song-b',notes:'B'});
+  let calls=0,release;await initializeTools(root,async()=>++calls===3?new Promise(resolve=>release=resolve):'alice');
+  const article=title=>[...root.querySelectorAll('[data-device-drafts] article')].find(row=>row.querySelector('h3').textContent===title),panel=root.querySelector('[data-collection-preview]');
+  button(article('First'),c.open).click();button(root.querySelector('form'),c.preview).click();await tick();assert.equal(typeof release,'function');
+  button(article('Second'),c.open).click();release('alice');await tick();assert.equal(panel.hidden,true);assert.equal(root.querySelector('[name=title]').value,'Second');
+ });
+});
+
 test('deleting an edited draft cancels its pending autosave and removes the progress containing private notes',async()=>{
  await domTest('collections',toolsMarkup,async root=>{
   await initializeTools(root,async()=> 'alice');root.querySelector('[name=title]').value='Private draft';button(root,c.deviceDraft).click();await tick();const saved=readCollectionDrafts(localStorage,'alice')[0];

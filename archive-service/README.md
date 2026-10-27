@@ -26,6 +26,8 @@ Before declaring shared features live, use normal signed-in accounts to verify s
 
 ## State and retention
 
+Collection items retain optional presentation fields in the existing `items` JSON: `section` is a heading of up to 120 characters and `cover` is a boolean, with at most one cover item per collection. Notes retain the 2000-character limit. The service validates these fields before saving; anonymous reading and fork preserve them. Existing collections without presentation fields remain valid, with no database migration required.
+
 Personal records are private by default. A public passport only includes individually public records. Public live witnesses expose only records whose owner selected public visibility; names and passport links additionally require a published passport. Changes in consent take effect on the next read. Personal records and passport publication can be cleared and synchronized from the observatory; collection deletion removes follows. Closed rooms reject future joins. Record revisions and collection revisions use compare-and-swap, and task claims use conditional inserts so a competing claim cannot replace an active one.
 
 The audit table records actual review actions. A submitted task becomes a completed contribution only after independent review of its contribution proof. It does not automatically edit archive content. Merge reviewed source changes through the existing contribution process and regenerate the public snapshot.

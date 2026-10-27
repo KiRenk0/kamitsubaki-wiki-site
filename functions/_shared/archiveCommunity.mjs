@@ -45,10 +45,13 @@ async function eventCatalogue(context) {
 function validateCollection(body,catalogue) {
  const title=text(body.title,120,true),description=text(body.description || '',3000);
  if(!['collection','exhibition'].includes(body.kind) || !['draft','publish'].includes(body.action) || !Array.isArray(body.items) || body.items.length<1 || body.items.length>100)throw failure('invalid_collection');
- const seen=new Set(),items=body.items.map(item=>{
+ let covers=0;const seen=new Set(),items=body.items.map(item=>{
   if(!item || typeof item!=='object' || !catalogue.entities.has(item.entityId) || seen.has(item.entityId))throw failure('invalid_entity');
   seen.add(item.entityId);
-  return {entityId:item.entityId,note:text(item.note || '',2000)};
+  if(item.cover!==undefined && typeof item.cover!=='boolean')throw failure('invalid_collection');
+  if(item.cover && ++covers>1)throw failure('invalid_collection');
+  const section=item.section===undefined?'':text(item.section,120);
+  return {entityId:item.entityId,note:text(item.note || '',2000),...(section?{section}:{}),...(item.cover?{cover:true}:{})};
  });
  return {title,description,kind:body.kind,items:JSON.stringify(items),status:body.action==='draft'?'draft':body.kind==='exhibition'?'pending':'published'};
 }
