@@ -3,6 +3,7 @@ interface State {photos:unknown[];total:number;nextOffset:number|null;loading:bo
 const props=defineProps<{feed:{state:State;reveal:()=>Promise<void>;all:()=>Promise<void>};shown?:number;total?:number}>()
 const sentinel=ref<HTMLElement>()
 const viewer=useViewerState()
+const available=computed(()=>Math.min(props.total??props.feed.state.photos.length,props.feed.state.photos.length))
 const hasMore=computed(()=>(props.shown??Math.min(props.feed.state.limit,props.feed.state.photos.length))<(props.total??props.feed.state.total)||props.feed.state.nextOffset!==null)
 let observer:IntersectionObserver|undefined,frame=0,mounted=false,near=false,busy=false
 async function extend(){
@@ -10,7 +11,7 @@ async function extend(){
  if(!mounted||!near||busy||!hasMore.value||state.error||state.loading||viewer.isViewerOpen||document.hidden)return
  // Metadata preparation is independent of scrolling. Wait for available cards
  // rather than repeatedly growing the window while its page is still in flight.
- if(state.limit>=state.photos.length&&state.loadingAll)return
+ if(state.limit>=available.value)return
  busy=true
  try{await props.feed.reveal();await nextTick()}
  finally{if(mounted)frame=requestAnimationFrame(()=>{

@@ -19,7 +19,7 @@ export function usePublicFeed(){
   if(state.loading){state.wantAll=true;return}
   state.error=''
   if(!state.initialized)await next()
-  if(state.loading||state.nextOffset===null||state.error)return
+  if(state.loading||state.loadingAll||state.nextOffset===null||state.error)return
   const epoch=state.epoch,start=state.nextOffset,stride=state.stride,total=state.total
   const offsets=Array.from({length:Math.ceil((total-start)/stride)},(_,i)=>start+i*stride)
   const completed=new Map<number,FeedPage>();let cursor=0,mergeOffset=start,failed=false
