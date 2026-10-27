@@ -37,7 +37,7 @@ const fullDisplayPhotos = computed(() => {
   return hasActiveFilters.value ? filteredPhotos.value : sortedPhotos.value
 })
 
-const displayPhotos=computed(()=>fullDisplayPhotos.value.slice(0,feed.state.limit))
+const displayPhotos=useStablePhotoWindow(()=>fullDisplayPhotos.value,()=>feed.state.limit)
 
 const viewer = useViewerState()
 const { currentPhotoIndex, isViewerOpen } = storeToRefs(viewer)
