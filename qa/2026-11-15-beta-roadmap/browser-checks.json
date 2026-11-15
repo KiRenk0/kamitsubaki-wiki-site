@@ -1,0 +1,207 @@
+{
+  "checks": [
+    {
+      "locale": "zh",
+      "theme": "light",
+      "width": 320,
+      "status": 200,
+      "entityRows": 1,
+      "comparisonValues": 2,
+      "overflow": false
+    },
+    {
+      "locale": "zh",
+      "theme": "light",
+      "width": 1440,
+      "status": 200,
+      "entityRows": 1,
+      "comparisonValues": 2,
+      "overflow": false
+    },
+    {
+      "locale": "zh",
+      "theme": "dark",
+      "width": 320,
+      "status": 200,
+      "entityRows": 1,
+      "comparisonValues": 2,
+      "overflow": false
+    },
+    {
+      "locale": "zh",
+      "theme": "dark",
+      "width": 1440,
+      "status": 200,
+      "entityRows": 1,
+      "comparisonValues": 2,
+      "overflow": false
+    },
+    {
+      "locale": "zh-tw",
+      "theme": "light",
+      "width": 320,
+      "status": 200,
+      "entityRows": 1,
+      "comparisonValues": 2,
+      "overflow": false
+    },
+    {
+      "locale": "zh-tw",
+      "theme": "light",
+      "width": 1440,
+      "status": 200,
+      "entityRows": 1,
+      "comparisonValues": 2,
+      "overflow": false
+    },
+    {
+      "locale": "zh-tw",
+      "theme": "dark",
+      "width": 320,
+      "status": 200,
+      "entityRows": 1,
+      "comparisonValues": 2,
+      "overflow": false
+    },
+    {
+      "locale": "zh-tw",
+      "theme": "dark",
+      "width": 1440,
+      "status": 200,
+      "entityRows": 1,
+      "comparisonValues": 2,
+      "overflow": false
+    },
+    {
+      "locale": "zh-hk",
+      "theme": "light",
+      "width": 320,
+      "status": 200,
+      "entityRows": 1,
+      "comparisonValues": 2,
+      "overflow": false
+    },
+    {
+      "locale": "zh-hk",
+      "theme": "light",
+      "width": 1440,
+      "status": 200,
+      "entityRows": 1,
+      "comparisonValues": 2,
+      "overflow": false
+    },
+    {
+      "locale": "zh-hk",
+      "theme": "dark",
+      "width": 320,
+      "status": 200,
+      "entityRows": 1,
+      "comparisonValues": 2,
+      "overflow": false
+    },
+    {
+      "locale": "zh-hk",
+      "theme": "dark",
+      "width": 1440,
+      "status": 200,
+      "entityRows": 1,
+      "comparisonValues": 2,
+      "overflow": false
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "width": 320,
+      "status": 200,
+      "entityRows": 1,
+      "comparisonValues": 2,
+      "overflow": false
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "width": 1440,
+      "status": 200,
+      "entityRows": 1,
+      "comparisonValues": 2,
+      "overflow": false
+    },
+    {
+      "locale": "en",
+      "theme": "dark",
+      "width": 320,
+      "status": 200,
+      "entityRows": 1,
+      "comparisonValues": 2,
+      "overflow": false
+    },
+    {
+      "locale": "en",
+      "theme": "dark",
+      "width": 1440,
+      "status": 200,
+      "entityRows": 1,
+      "comparisonValues": 2,
+      "overflow": false
+    },
+    {
+      "locale": "ja",
+      "theme": "light",
+      "width": 320,
+      "status": 200,
+      "entityRows": 1,
+      "comparisonValues": 2,
+      "overflow": false
+    },
+    {
+      "locale": "ja",
+      "theme": "light",
+      "width": 1440,
+      "status": 200,
+      "entityRows": 1,
+      "comparisonValues": 2,
+      "overflow": false
+    },
+    {
+      "locale": "ja",
+      "theme": "dark",
+      "width": 320,
+      "status": 200,
+      "entityRows": 1,
+      "comparisonValues": 2,
+      "overflow": false
+    },
+    {
+      "locale": "ja",
+      "theme": "dark",
+      "width": 1440,
+      "status": 200,
+      "entityRows": 1,
+      "comparisonValues": 2,
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "externalRequestsBlocked": [
+    "https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png",
+    "https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png",
+    "https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png",
+    "https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png",
+    "https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png",
+    "https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png",
+    "https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png",
+    "https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png",
+    "https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png",
+    "https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png",
+    "https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png",
+    "https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png",
+    "https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png",
+    "https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png",
+    "https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png",
+    "https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png",
+    "https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png",
+    "https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png",
+    "https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png",
+    "https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png"
+  ]
+}

@@ -5,7 +5,7 @@ locale: "zh-hk"
 order: 3
 title: "音樂、文章與探索"
 summary: "理解作品目錄、文章專欄、時間軸、圖庫和關聯網絡的區別。"
-generatedFromHash: "343cba779414b39881c4"
+generatedFromHash: "79db2d27c8ed5c39702e"
 generated: true
 generatedFrom: "zh"
 ---
@@ -80,7 +80,7 @@ generatedFrom: "zh"
 
 ## Story Mode 入坑路線
 
-[Story Mode](/zh-hk/explore/stories/)提供初識花譜、認識 V.W.P、神椿市、从花谱到廻花和从 PIEDPIPER 認識神椿五條導覽。每條分六章，跟着提問閲讀檔案、試聽已有媒體，並查看關聯依據。20／30／45 分鐘等時長是導覽建議，完整歌曲、視頻與原作的時間另計。
+[Story Mode](/zh-hk/explore/stories/)提供初識花譜、認識 V.W.P、神椿市、从花谱到廻花、從 PIEDPIPER 認識神椿、沿神崎一織的署名聽歌和讀懂一場演出的檔案七條導覽。每條分六章，跟着提問閲讀檔案、試聽已有媒體，並查看關聯依據。20／30／45 分鐘等時長是導覽建議，完整歌曲、視頻與原作的時間另計。
 
 上一章、跳過和直接選章不會標記已讀；點擊“讀完本章”後才保存進度。進度只存在這台設備的瀏覽器，跨語言可續讀，分享只帶章節位置。完成全部章節後可繼續另一條導覽、Discovery 或 Graph。重新開始只清除當前路線。
 

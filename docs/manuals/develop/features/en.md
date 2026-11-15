@@ -39,6 +39,12 @@ Entries and articles share `prototypes/novel-editor`. Preserve round trips throu
 
 Bulk import presents a preview first. Unlabelled passages stay ordinary prose. Insertion can be undone and should not acquire repeated confirmation steps. Preserve source text, citations, and unknown syntax. See the [Syntax reference](/en/docs/contribute/syntax/) for author instructions.
 
+## Beta archive facts and language review
+
+The archive workspaces and scope are tracked in `docs/v3/fan-archive-roadmap.md`. Filter the multilingual workspace by entity and expand fact differences to inspect the canonical value, original translated value and both source drafts. Verify original official sources before editing; preserve date precision and record the field, source and check date in `evidence`. A canonical query value is not automatically source-verified.
+
+`pnpm archive:check` validates contracts and relations; `pnpm archive:audit` reports current coverage and unresolved differences. Real community synchronization, review and rooms require a dedicated D1 database and the existing account service binding. Record local fixture results separately.
+
 ## Results and limitations
 
 Check loading, empty states, failures, recovery, and mobile focus. Find relevant tests by feature name and run the full gates in [Checks and release](/en/docs/develop/operations/). Local fixtures do not establish provider connectivity, production permissions, or deployment success.

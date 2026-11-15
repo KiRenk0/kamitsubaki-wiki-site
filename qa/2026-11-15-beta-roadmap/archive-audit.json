@@ -1,0 +1,799 @@
+{
+  "version": 1,
+  "snapshot": "ea2adbe132f9cd48d8ea5985f4b0a37305e3776be5805675163f9eb6f2cbcf72",
+  "modules": [
+    "music",
+    "atlas",
+    "visual",
+    "statistics",
+    "observatory",
+    "collections",
+    "challenges",
+    "ask",
+    "compare",
+    "evidence",
+    "languages",
+    "radio",
+    "rooms",
+    "physical",
+    "today",
+    "museum",
+    "live-mode",
+    "open-data"
+  ],
+  "coverage": {
+    "entities": 1837,
+    "relations": 3827,
+    "events": 518,
+    "songs": {
+      "total": 1557,
+      "withCredits": 154,
+      "withRecordedMedia": 806,
+      "withBpm": 0,
+      "withSourcedTags": 0
+    },
+    "lives": {
+      "total": 12,
+      "withSetlists": 1,
+      "withCompleteSetlists": 0,
+      "withCoordinates": 1,
+      "withTickets": 1
+    },
+    "physical": {
+      "items": 1,
+      "editions": 4,
+      "withBarcode": 0
+    },
+    "sources": {
+      "entities": 25,
+      "fieldClaims": 30
+    },
+    "visuals": {
+      "withDates": 1
+    }
+  },
+  "unresolved": {
+    "relations": [],
+    "factDrift": [
+      {
+        "id": "chino",
+        "field": "lifecycle",
+        "locale": "en",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": {
+            "activity": "active"
+          },
+          "sourceFile": "src/content/people/groups/valis/members/chino/zh.md"
+        },
+        "translation": {
+          "locale": "en",
+          "value": {
+            "activity": "unknown"
+          },
+          "sourceFile": "src/content/people/groups/valis/members/chino/en.md"
+        }
+      },
+      {
+        "id": "chino",
+        "field": "lifecycle",
+        "locale": "ja",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": {
+            "activity": "active"
+          },
+          "sourceFile": "src/content/people/groups/valis/members/chino/zh.md"
+        },
+        "translation": {
+          "locale": "ja",
+          "value": {
+            "activity": "unknown"
+          },
+          "sourceFile": "src/content/people/groups/valis/members/chino/ja.md"
+        }
+      },
+      {
+        "id": "ema",
+        "field": "roles",
+        "locale": "en",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": [
+            "vocalist",
+            "lyricist"
+          ],
+          "sourceFile": "src/content/people/groups/dustcell/members/ema/zh.md"
+        },
+        "translation": {
+          "locale": "en",
+          "value": [
+            "vocalist"
+          ],
+          "sourceFile": "src/content/people/groups/dustcell/members/ema/en.md"
+        }
+      },
+      {
+        "id": "ema",
+        "field": "lifecycle",
+        "locale": "en",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": {
+            "activity": "active"
+          },
+          "sourceFile": "src/content/people/groups/dustcell/members/ema/zh.md"
+        },
+        "translation": {
+          "locale": "en",
+          "value": {
+            "activity": "unknown"
+          },
+          "sourceFile": "src/content/people/groups/dustcell/members/ema/en.md"
+        }
+      },
+      {
+        "id": "ema",
+        "field": "roles",
+        "locale": "ja",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": [
+            "vocalist",
+            "lyricist"
+          ],
+          "sourceFile": "src/content/people/groups/dustcell/members/ema/zh.md"
+        },
+        "translation": {
+          "locale": "ja",
+          "value": [
+            "vocalist"
+          ],
+          "sourceFile": "src/content/people/groups/dustcell/members/ema/ja.md"
+        }
+      },
+      {
+        "id": "ema",
+        "field": "lifecycle",
+        "locale": "ja",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": {
+            "activity": "active"
+          },
+          "sourceFile": "src/content/people/groups/dustcell/members/ema/zh.md"
+        },
+        "translation": {
+          "locale": "ja",
+          "value": {
+            "activity": "unknown"
+          },
+          "sourceFile": "src/content/people/groups/dustcell/members/ema/ja.md"
+        }
+      },
+      {
+        "id": "guiano",
+        "field": "affiliations",
+        "locale": "en",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": [],
+          "sourceFile": "src/content/people/creators/guiano/zh.md"
+        },
+        "translation": {
+          "locale": "en",
+          "value": [
+            {
+              "organization": "kamitsubaki-studio",
+              "current": false
+            }
+          ],
+          "sourceFile": "src/content/people/creators/guiano/en.md"
+        }
+      },
+      {
+        "id": "guiano",
+        "field": "affiliations",
+        "locale": "ja",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": [],
+          "sourceFile": "src/content/people/creators/guiano/zh.md"
+        },
+        "translation": {
+          "locale": "ja",
+          "value": [
+            {
+              "organization": "kamitsubaki-studio",
+              "current": false
+            }
+          ],
+          "sourceFile": "src/content/people/creators/guiano/ja.md"
+        }
+      },
+      {
+        "id": "ichinose-ruri",
+        "field": "roles",
+        "locale": "en",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": [
+            "composer",
+            "arranger"
+          ],
+          "sourceFile": "src/content/people/creators/ichinose-ruri/zh.md"
+        },
+        "translation": {
+          "locale": "en",
+          "value": [
+            "composer"
+          ],
+          "sourceFile": "src/content/people/creators/ichinose-ruri/en.md"
+        }
+      },
+      {
+        "id": "ichinose-ruri",
+        "field": "lifecycle",
+        "locale": "en",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": {
+            "activity": "active"
+          },
+          "sourceFile": "src/content/people/creators/ichinose-ruri/zh.md"
+        },
+        "translation": {
+          "locale": "en",
+          "value": {
+            "activity": "unknown"
+          },
+          "sourceFile": "src/content/people/creators/ichinose-ruri/en.md"
+        }
+      },
+      {
+        "id": "ichinose-ruri",
+        "field": "roles",
+        "locale": "ja",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": [
+            "composer",
+            "arranger"
+          ],
+          "sourceFile": "src/content/people/creators/ichinose-ruri/zh.md"
+        },
+        "translation": {
+          "locale": "ja",
+          "value": [
+            "composer"
+          ],
+          "sourceFile": "src/content/people/creators/ichinose-ruri/ja.md"
+        }
+      },
+      {
+        "id": "ichinose-ruri",
+        "field": "lifecycle",
+        "locale": "ja",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": {
+            "activity": "active"
+          },
+          "sourceFile": "src/content/people/creators/ichinose-ruri/zh.md"
+        },
+        "translation": {
+          "locale": "ja",
+          "value": {
+            "activity": "unknown"
+          },
+          "sourceFile": "src/content/people/creators/ichinose-ruri/ja.md"
+        }
+      },
+      {
+        "id": "kamitsubaki-city",
+        "field": "relations",
+        "locale": "en",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": [
+            {
+              "type": "related-project",
+              "target": "kamitsubaki-city-ensemble"
+            },
+            {
+              "type": "related-project",
+              "target": "kamitsubaki-city-regenerate"
+            },
+            {
+              "type": "related-project",
+              "target": "kamitsubaki-city-vr"
+            }
+          ],
+          "sourceFile": "src/content/projects/city-project/kamitsubaki-city/zh.md"
+        },
+        "translation": {
+          "locale": "en",
+          "value": [],
+          "sourceFile": "src/content/projects/city-project/kamitsubaki-city/en.md"
+        }
+      },
+      {
+        "id": "kamitsubaki-city",
+        "field": "relations",
+        "locale": "ja",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": [
+            {
+              "type": "related-project",
+              "target": "kamitsubaki-city-ensemble"
+            },
+            {
+              "type": "related-project",
+              "target": "kamitsubaki-city-regenerate"
+            },
+            {
+              "type": "related-project",
+              "target": "kamitsubaki-city-vr"
+            }
+          ],
+          "sourceFile": "src/content/projects/city-project/kamitsubaki-city/zh.md"
+        },
+        "translation": {
+          "locale": "ja",
+          "value": [],
+          "sourceFile": "src/content/projects/city-project/kamitsubaki-city/ja.md"
+        }
+      },
+      {
+        "id": "misumi",
+        "field": "roles",
+        "locale": "en",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": [
+            "composer",
+            "arranger",
+            "producer"
+          ],
+          "sourceFile": "src/content/people/groups/dustcell/members/misumi/zh.md"
+        },
+        "translation": {
+          "locale": "en",
+          "value": [
+            "composer"
+          ],
+          "sourceFile": "src/content/people/groups/dustcell/members/misumi/en.md"
+        }
+      },
+      {
+        "id": "misumi",
+        "field": "lifecycle",
+        "locale": "en",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": {
+            "activity": "active"
+          },
+          "sourceFile": "src/content/people/groups/dustcell/members/misumi/zh.md"
+        },
+        "translation": {
+          "locale": "en",
+          "value": {
+            "activity": "unknown"
+          },
+          "sourceFile": "src/content/people/groups/dustcell/members/misumi/en.md"
+        }
+      },
+      {
+        "id": "misumi",
+        "field": "roles",
+        "locale": "ja",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": [
+            "composer",
+            "arranger",
+            "producer"
+          ],
+          "sourceFile": "src/content/people/groups/dustcell/members/misumi/zh.md"
+        },
+        "translation": {
+          "locale": "ja",
+          "value": [
+            "composer"
+          ],
+          "sourceFile": "src/content/people/groups/dustcell/members/misumi/ja.md"
+        }
+      },
+      {
+        "id": "misumi",
+        "field": "lifecycle",
+        "locale": "ja",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": {
+            "activity": "active"
+          },
+          "sourceFile": "src/content/people/groups/dustcell/members/misumi/zh.md"
+        },
+        "translation": {
+          "locale": "ja",
+          "value": {
+            "activity": "unknown"
+          },
+          "sourceFile": "src/content/people/groups/dustcell/members/misumi/ja.md"
+        }
+      },
+      {
+        "id": "myu",
+        "field": "lifecycle",
+        "locale": "en",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": {
+            "activity": "active"
+          },
+          "sourceFile": "src/content/people/groups/valis/members/myu/zh.md"
+        },
+        "translation": {
+          "locale": "en",
+          "value": {
+            "activity": "unknown"
+          },
+          "sourceFile": "src/content/people/groups/valis/members/myu/en.md"
+        }
+      },
+      {
+        "id": "myu",
+        "field": "lifecycle",
+        "locale": "ja",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": {
+            "activity": "active"
+          },
+          "sourceFile": "src/content/people/groups/valis/members/myu/zh.md"
+        },
+        "translation": {
+          "locale": "ja",
+          "value": {
+            "activity": "unknown"
+          },
+          "sourceFile": "src/content/people/groups/valis/members/myu/ja.md"
+        }
+      },
+      {
+        "id": "neffy",
+        "field": "lifecycle",
+        "locale": "en",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": {
+            "activity": "active"
+          },
+          "sourceFile": "src/content/people/groups/valis/members/neffy/zh.md"
+        },
+        "translation": {
+          "locale": "en",
+          "value": {
+            "activity": "unknown"
+          },
+          "sourceFile": "src/content/people/groups/valis/members/neffy/en.md"
+        }
+      },
+      {
+        "id": "neffy",
+        "field": "lifecycle",
+        "locale": "ja",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": {
+            "activity": "active"
+          },
+          "sourceFile": "src/content/people/groups/valis/members/neffy/zh.md"
+        },
+        "translation": {
+          "locale": "ja",
+          "value": {
+            "activity": "unknown"
+          },
+          "sourceFile": "src/content/people/groups/valis/members/neffy/ja.md"
+        }
+      },
+      {
+        "id": "nina",
+        "field": "lifecycle",
+        "locale": "en",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": {
+            "activity": "active"
+          },
+          "sourceFile": "src/content/people/groups/valis/members/nina/zh.md"
+        },
+        "translation": {
+          "locale": "en",
+          "value": {
+            "activity": "unknown"
+          },
+          "sourceFile": "src/content/people/groups/valis/members/nina/en.md"
+        }
+      },
+      {
+        "id": "nina",
+        "field": "lifecycle",
+        "locale": "ja",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": {
+            "activity": "active"
+          },
+          "sourceFile": "src/content/people/groups/valis/members/nina/zh.md"
+        },
+        "translation": {
+          "locale": "ja",
+          "value": {
+            "activity": "unknown"
+          },
+          "sourceFile": "src/content/people/groups/valis/members/nina/ja.md"
+        }
+      },
+      {
+        "id": "onuma-parsley",
+        "field": "roles",
+        "locale": "en",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": [
+            "composer",
+            "producer",
+            "vocalist"
+          ],
+          "sourceFile": "src/content/people/creators/onuma-parsley/zh.md"
+        },
+        "translation": {
+          "locale": "en",
+          "value": [
+            "composer"
+          ],
+          "sourceFile": "src/content/people/creators/onuma-parsley/en.md"
+        }
+      },
+      {
+        "id": "onuma-parsley",
+        "field": "lifecycle",
+        "locale": "en",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": {
+            "activity": "active",
+            "startedAt": "2017-06-29"
+          },
+          "sourceFile": "src/content/people/creators/onuma-parsley/zh.md"
+        },
+        "translation": {
+          "locale": "en",
+          "value": {
+            "activity": "unknown"
+          },
+          "sourceFile": "src/content/people/creators/onuma-parsley/en.md"
+        }
+      },
+      {
+        "id": "onuma-parsley",
+        "field": "roles",
+        "locale": "ja",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": [
+            "composer",
+            "producer",
+            "vocalist"
+          ],
+          "sourceFile": "src/content/people/creators/onuma-parsley/zh.md"
+        },
+        "translation": {
+          "locale": "ja",
+          "value": [
+            "composer"
+          ],
+          "sourceFile": "src/content/people/creators/onuma-parsley/ja.md"
+        }
+      },
+      {
+        "id": "onuma-parsley",
+        "field": "lifecycle",
+        "locale": "ja",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": {
+            "activity": "active",
+            "startedAt": "2017-06-29"
+          },
+          "sourceFile": "src/content/people/creators/onuma-parsley/zh.md"
+        },
+        "translation": {
+          "locale": "ja",
+          "value": {
+            "activity": "unknown"
+          },
+          "sourceFile": "src/content/people/creators/onuma-parsley/ja.md"
+        }
+      },
+      {
+        "id": "rara",
+        "field": "lifecycle",
+        "locale": "en",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": {
+            "activity": "active"
+          },
+          "sourceFile": "src/content/people/groups/valis/members/rara/zh.md"
+        },
+        "translation": {
+          "locale": "en",
+          "value": {
+            "activity": "unknown"
+          },
+          "sourceFile": "src/content/people/groups/valis/members/rara/en.md"
+        }
+      },
+      {
+        "id": "rara",
+        "field": "lifecycle",
+        "locale": "ja",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": {
+            "activity": "active"
+          },
+          "sourceFile": "src/content/people/groups/valis/members/rara/zh.md"
+        },
+        "translation": {
+          "locale": "ja",
+          "value": {
+            "activity": "unknown"
+          },
+          "sourceFile": "src/content/people/groups/valis/members/rara/ja.md"
+        }
+      },
+      {
+        "id": "rime",
+        "field": "relations",
+        "locale": "en",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": [
+            {
+              "type": "based-on-voice",
+              "target": "rim"
+            }
+          ],
+          "sourceFile": "src/content/isotopes/rime/zh.md"
+        },
+        "translation": {
+          "locale": "en",
+          "value": [
+            {
+              "type": "based-on-voice",
+              "target": "rim"
+            },
+            {
+              "type": "character-designed-by",
+              "target": "palow"
+            }
+          ],
+          "sourceFile": "src/content/isotopes/rime/en.md"
+        }
+      },
+      {
+        "id": "rime",
+        "field": "relations",
+        "locale": "ja",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": [
+            {
+              "type": "based-on-voice",
+              "target": "rim"
+            }
+          ],
+          "sourceFile": "src/content/isotopes/rime/zh.md"
+        },
+        "translation": {
+          "locale": "ja",
+          "value": [
+            {
+              "type": "based-on-voice",
+              "target": "rim"
+            },
+            {
+              "type": "character-designed-by",
+              "target": "palow"
+            }
+          ],
+          "sourceFile": "src/content/isotopes/rime/ja.md"
+        }
+      },
+      {
+        "id": "vitte",
+        "field": "lifecycle",
+        "locale": "en",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": {
+            "activity": "active"
+          },
+          "sourceFile": "src/content/people/groups/valis/members/vitte/zh.md"
+        },
+        "translation": {
+          "locale": "en",
+          "value": {
+            "activity": "unknown"
+          },
+          "sourceFile": "src/content/people/groups/valis/members/vitte/en.md"
+        }
+      },
+      {
+        "id": "vitte",
+        "field": "lifecycle",
+        "locale": "ja",
+        "kind": "fact-drift",
+        "canonical": {
+          "locale": "zh",
+          "value": {
+            "activity": "active"
+          },
+          "sourceFile": "src/content/people/groups/valis/members/vitte/zh.md"
+        },
+        "translation": {
+          "locale": "ja",
+          "value": {
+            "activity": "unknown"
+          },
+          "sourceFile": "src/content/people/groups/valis/members/vitte/ja.md"
+        }
+      }
+    ]
+  },
+  "acceptance": {
+    "local": "See the dated QA report for commands and actual results.",
+    "online": "Not assessed by this read-only inventory. Record environment and normal-account validation separately.",
+    "device": "Real camera, media provider and physical-device acceptance remain separate from fixtures."
+  }
+}

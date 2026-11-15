@@ -5,7 +5,7 @@ locale: "zh-hk"
 order: 5
 title: "功能維護"
 summary: "按當前實現檢查活動中心、觀測面板、文章閲讀器和共用編輯器。"
-generatedFromHash: "11cb7a603c621cf8a345"
+generatedFromHash: "2d1ab8c5ed538fc96ddd"
 generated: true
 generatedFrom: "zh"
 ---
@@ -43,6 +43,12 @@ AI 在首次選中時按需初始化。切換區域或關閉面板保留草稿�
 詞條和文章共用 `prototypes/novel-editor`。保留插入菜單、屬性、源碼和預覽之間的往返。發言者在發言編輯處維護，頭像、顏色和詞條綁定為可選項，與文檔作者分開。
 
 快速導入先展示預覽，未標註發言者的段落保持普通正文。插入後可撤銷，不為可撤銷操作增加重複確認。保留原文、來源和未知寫法；操作説明見[語法參考](/zh-hk/docs/contribute/syntax/)。
+
+## Beta 檔案資料與語言核對
+
+Fan Archive 的工作區與當前範圍見倉庫 `docs/v3/fan-archive-roadmap.md`。多語言工作區支持實體篩選；事實差異可展開查看規範值、原始譯文值和雙方源稿。修正前核對官方資料，保留日期精度，並在 `evidence` 中明確字段、來源及核對日期。規範值用於查詢，不代表已經由來源證實。
+
+`pnpm archive:check` 檢查資料契約與關係，`pnpm archive:audit` 輸出當前覆蓋和待核對差異。社區的正式賬號同步、審核與多人房間須有專用 D1 和既有賬號服務綁定；本地 fixture 結果單獨記錄。
 
 ## 結果與限制
 

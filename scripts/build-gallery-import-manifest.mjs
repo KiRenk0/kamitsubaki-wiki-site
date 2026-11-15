@@ -37,6 +37,6 @@ for(const file of (await walkImages(resolve(publicRoot,'images'))).sort()){
 }
 const items=[...sources.values()].map(item=>({...item,references:[...new Map(item.references.map(ref=>[JSON.stringify(ref),ref])).values()],suggestedEntities:[...new Set(item.suggestedEntities)]})).sort((a,b)=>a.id.localeCompare(b.id));
 const output=JSON.stringify({schemaVersion:1,items},null,2)+'\n',target=resolve('public/gallery-import-manifest.json');
-if(process.argv.includes('--check')){if(await readFile(target,'utf8').catch(()=>null)!==output)throw Error('图库旧图扫描清单需要更新');}else await writeFile(target,output);
+if(process.argv.includes('--check')){if((await readFile(target,'utf8').catch(()=>null)||'').replace(/\r\n/g,'\n')!==output)throw Error('图库旧图扫描清单需要更新');}else await writeFile(target,output);
 console.log(`旧图候选 ${items.length} 张（其中未关联词条的站内素材 ${items.filter(item=>item.references.every(ref=>ref.kind==='asset')).length} 张）；缺失文件引用 ${missing.length} 条。`);
 if(missing.length)console.log(missing.slice(0,5));

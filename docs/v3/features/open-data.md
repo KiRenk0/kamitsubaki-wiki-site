@@ -25,6 +25,8 @@
 
 语言无关事实从规范资料提取；`narratives` 保存分语言标题、摘要及路由。未写译文时使用有标记的原文回退；繁体转换通过 `generated` 标明。`issues` 保留原始译文事实差异，便于后续审阅。
 
+事实差异还可带有 `canonical` 和 `translation`，分别保存 `{locale,value,sourceFile}`。`value` 是双方原始字段值，`sourceFile` 是仓库相对 Markdown 路径，不包含本机绝对路径。旧快照可能没有这些可选字段。多语言工作区可按实体筛选，展开双方值，再分别打开源稿；规范值只是查询基准，不自动等于已核对的事实。
+
 引用时写明：实体 ID、快照 SHA-256、具体来源 URL、访问日期，以及 KAMITSUBAKI Wiki 贡献者。本站原创文字遵循站点说明的 CC BY-NC-SA 4.0；来源文字、图片、录音、影片与官方嵌入仍遵循各权利人的使用条件。数据接口不授予第三方素材版权。
 
 维护者用 `pnpm archive:snapshot` 主动保存需要长期引用的快照；保存结果在 `public/api/archive/v1/snapshots/`，须随资料变更一起检查和提交。构建不会自动写入源码。`pnpm archive:snapshots:check` 校验已有快照内容与文件名哈希，已保存的哈希文件不得覆写或删除。manifest 指向当前快照；旧快照只有经过主动保存与发布后才可长期访问。

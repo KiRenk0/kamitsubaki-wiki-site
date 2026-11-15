@@ -252,7 +252,7 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
   if(!issue.canonical || !issue.translation)return element('p',title);
   const copy=archiveFactCopy(locale),details=element('details','','archive-space');details.append(element('summary',title),element('p',copy.note));
   for(const [key,label]of [['canonical',copy.canonical],['translation',copy.translation]]){
-   const fact=issue[key];details.append(element('h4',label+' · '+fact.locale),element('pre',JSON.stringify(fact.value,null,2)));
+   const fact=issue[key];details.append(element('h4',label+' · '+fact.locale),element('pre',JSON.stringify(fact.value,null,2),'archive-json-preview'));
    if(fact.sourceFile?.startsWith('src/content/') && !fact.sourceFile.split('/').includes('..'))details.append(link(copy.edit+' · '+fact.locale,'/'+locale+'/contribute/editor/?target='+encodeURIComponent(fact.sourceFile)));
   }
   return details;
