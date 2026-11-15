@@ -1,3 +1,4 @@
+import {scanSpeech,speechRolesMarkdown,speechMarkdown} from './speech.mjs';
 import {entitySourcePath} from './contentLayout.mjs';
 import {z} from 'astro/zod';
 import {createEntitySchema} from './entitySchema.mjs';
@@ -73,6 +74,8 @@ const imageCaptionMarker = '<!-- wiki-editor:image-caption -->';
 export function blockMarkdown(b, locale = 'zh') {
   if (b.originalSource !== undefined && b.originalSnapshot === blockSnapshot(b)) return b.type === 'lyrics' ? b.originalSource.replace(/\{\{lyrics-controls::(?:zh|ja|en)\}\}/g, `{{lyrics-controls::${locale}}}`) : b.originalSource;
   switch (b.type) {
+    case 'speech': return speechMarkdown(b.roleId,b.text);
+    case 'speech-roles': return speechRolesMarkdown(b.roles);
     case 'paragraph': return b.text;
     case 'inline': return `{{${b.kind}::${b.args.filter((arg,i)=>b.kind!=='ruby'||i<2||arg).map(shortcodeArg).join('::')}}}`;
     case 'media-switcher': return `{{media-switcher::${shortcodeArg(b.title)}}}\n\n${b.items.map(item => blockMarkdown({...item,type:'media'})).join('\n\n')}\n\n{{/media-switcher}}`;
@@ -105,8 +108,14 @@ function outputMetadata(draft){
  if(meta.duration==='')delete meta.duration;
  return meta;
 }
+function hasTimestamp(value, seen = new WeakSet()) {
+  if (value instanceof Date) return true;
+  if (value === null || typeof value !== 'object' || seen.has(value)) return false;
+  seen.add(value);
+  return Object.values(value).some(child => hasTimestamp(child, seen));
+}
 export function exportMarkdown(draft) {
-  const doc = parseDocument(draft.originalMeta || '{}');
+  const doc = parseDocument(draft.originalMeta || '{}', {compat:'yaml-1.1'});
   if (doc.errors.length) throw new Error('Invalid frontmatter');
   if (!draft.originalMeta) doc.contents.flow = false;
   const old = doc.toJS({ maxAliasCount: 100 });
@@ -117,7 +126,10 @@ export function exportMarkdown(draft) {
   for (const [key, value] of Object.entries(outputMeta)) {
     if (JSON.stringify(old?.[key]) !== JSON.stringify(value)) doc.set(key, value);
   }
-  const metaSame = JSON.stringify(old) === JSON.stringify(outputMeta);
+  // Astro uses YAML timestamp/number resolution; normalize ambiguous imported scalars too.
+  const legacy = parseDocument(draft.originalMeta || '{}', {customTags:['timestamp']});
+  const compatible = !legacy.errors.length && !hasTimestamp(legacy.toJS({maxAliasCount:100}));
+  const metaSame = compatible && JSON.stringify(old) === JSON.stringify(outputMeta);
   if (draft.originalDocument && metaSame && JSON.stringify(draft.blocks) === draft.originalBlocks) return draft.originalDocument;
   let body = draft.blocks.map(b => blockMarkdown(b, draft.meta.locale)).join('\n\n');
   if (draft.originalBody !== undefined && draft.blockRanges?.length === draft.blocks.length && draft.blocks.every((b,i)=>b.id===draft.blockRanges[i].id)) {
@@ -222,6 +234,9 @@ function lyricBlock(source) {
   return rows.length ? {...newBlock('lyrics'),rows} : null;
 }
 export function parseVisualBlocks(body) {
+  const speech=scanSpeech(body);
+  if(speech.parts.some(p=>p.type==='speech'||p.type==='speech-roles'))return speech.parts.flatMap(p=>p.type==='text'?parseVisualBlocks(p.source):[keepOriginal({...newBlock(p.type),...(p.type==='speech'?{roleId:p.roleId,text:p.text}:{roles:p.roles})},p.source)]);
+
   const lines = body.replaceAll('\r\n','\n').split('\n'); const blocks=[];
   const push=(block,source)=>blocks.push(keepOriginal(block,source));
   for (let i=0;i<lines.length;) {

@@ -267,6 +267,7 @@ function initializeSearch(root) {
   });
 
   document.addEventListener('keydown', (event) => {
+    if (event.defaultPrevented) return;
     if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === 'k') {
       event.preventDefault();
       openSearch();
@@ -278,6 +279,7 @@ function initializeSearch(root) {
       event.preventDefault();
       closeSearch();
     } else if (event.target !== input) {
+      // Active-descendant navigation belongs to the query, not other focused controls.
       return;
     } else if (event.key === 'ArrowDown') {
       event.preventDefault();
