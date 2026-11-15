@@ -23,7 +23,7 @@ export interface ArchiveSnapshot {
  relations:Array<{source:string;target:string;type:string;role?:string;[field:string]:unknown}>;
  events:Array<{id:string;date:{start:string;end?:string;precision:string};text:Record<string,{title:string;summary?:string;locale:string}>;[field:string]:unknown}>;
  evidence:Array<{id:string;entityId:string;field:string;sourceIds:string[];status:string;sources:ArchiveSource[];[field:string]:unknown}>;
- physical:unknown[];issues:Array<{id:string;field?:string;locale?:string;kind:string;target?:string}>;
+ physical:unknown[];issues:Array<{id:string;field?:string;locale?:string;kind:string;target?:string;canonical?:{locale:string;value:unknown;sourceFile:string|null};translation?:{locale:string;value:unknown;sourceFile:string|null}}>;
 }
 export function getArchiveSnapshot():Promise<ArchiveSnapshot>;
 export function buildArchiveSnapshot(registry:EntityRegistry,feature:unknown):Promise<ArchiveSnapshot>;

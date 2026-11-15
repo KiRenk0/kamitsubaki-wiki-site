@@ -11,6 +11,7 @@ import {convertChineseContentValue} from './traditionalChinese.mjs';
 import {unique,archiveVersion} from './archiveResearch.mjs';
 import {sharedFactFields,canonicalEntityEntry} from './sharedEntityFacts.mjs';
 import {validatePhysicalItems} from './archivePhysical.mjs';
+import {archiveFactDrift} from './archiveFactDrift.mjs';
 
 // Narrative fields never override canonical fact values. Conflicting translated facts are reported.
 export {sharedFactFields} from './sharedEntityFacts.mjs';
@@ -40,7 +41,7 @@ export async function buildArchiveSnapshot(registry,feature) {
       const t=translation.data;
       narratives[locale]={locale,title:t.name || t.title || id,romanized:t.romanizedName || t.romanizedTitle || '',summary:t.summary || '',aliases:t.aliases || [],path:'/'+locale+entityRoute(d)};
       for(const field of sharedFactFields.filter(key=>!['sources','venue','credits','tracks','setlist','subProjects','liveInfo','evidence','visualHistory'].includes(key))){
-        if(t[field]!==undefined && d[field]!==undefined && stableArchiveJSON(t[field])!==stableArchiveJSON(d[field]))issues.push({id,locale,field,kind:'fact-drift'});
+        if(t[field]!==undefined && d[field]!==undefined && stableArchiveJSON(t[field])!==stableArchiveJSON(d[field]))issues.push(archiveFactDrift(id,field,entry,translation));
       }
     }
     if(narratives.zh)for(const locale of ['zh-tw','zh-hk'])narratives[locale]={...convertChineseContentValue(narratives.zh,locale),locale,path:'/'+locale+entityRoute(d),generated:true};

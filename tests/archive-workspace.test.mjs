@@ -70,6 +70,22 @@ async function workspaceDOM(module,markup,callback){
 }
 const nextTurn=()=>new Promise(resolve=>setTimeout(resolve,0));
 
+test('language review restores an entity link and shows safe original values and edit targets',async()=>{
+ await workspaceDOM('languages','<form data-archive-filters><input name="entity"/></form>',async(root,w)=>{
+  w.history.replaceState(null,'','?entity=song-a');
+  const snapshot=archiveFixture();
+  snapshot.issues=[{id:'song-a',kind:'fact-drift',locale:'en',field:'releaseDate',canonical:{locale:'zh',value:'2024',sourceFile:'src/content/songs/a/zh.md'},translation:{locale:'en',value:'<img src=x onerror=alert(1)>',sourceFile:'src/content/songs/a/en.md'}}];
+  await initializeArchiveWorkspace(root,{loadSnapshot:async()=>snapshot,owner:async()=>null,storage:localStorage});
+  const result=root.querySelector('[data-archive-results]');
+  assert.equal(result.querySelectorAll('table tr').length,2);
+  assert.equal(result.querySelectorAll('details').length,1);
+  assert.match(result.querySelector('pre:last-of-type').textContent,/<img/);
+  assert.equal(result.querySelector('img'),null);
+  const edit=result.querySelector('a[href*="target="]');
+  assert.equal(new URL(edit.href).searchParams.get('target'),'src/content/songs/a/zh.md');
+ });
+});
+
 test('a delayed collection profile cannot restore private collections after logout',async()=>{
  await workspaceDOM('collections','<div data-community-collections></div><form data-collection-form></form>',async(root,w)=>{
   let who='alice',resolveProfile,started;

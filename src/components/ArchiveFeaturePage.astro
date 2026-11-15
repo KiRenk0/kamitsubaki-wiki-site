@@ -30,6 +30,7 @@ const searchable=['music','radio','statistics','visual','museum','challenges','l
    {module==='museum' && <section class="archive-space"><h2>{c.exhibition}</h2><div data-published-exhibitions></div></section>}
   {module==='atlas' && <label>{c.world}<select name="world"><option value="">{c.all}</option><option value="real">{c.real}</option><option value="virtual">{c.virtual}</option><option value="unknown">{c.worldUnknown}</option></select></label>}
    {module==='challenges' && <label>{c.field}<select name="field"><option value="">{c.all}</option>{unique(snapshot.entities.flatMap(e=>e.completeness.missing.map((m:any)=>m.field))).map(field=><option value={field}>{field}</option>)}<option value="translation">{c.translation}</option></select></label>}
+   {module==='languages' && <label>{c.title}<input name="entity" list="archive-entity-ids" maxlength="150"/></label>}
    {['languages','challenges'].includes(module) && <label>{c.languages}<select name="language">{['zh','ja','en'].map(language=><option value={language}>{language}</option>)}</select></label>}
    {module==='challenges' && <label>{c.taskStatus}<select name="taskStatus"><option value="">{c.all}</option>{['available','mine','claimed','submitted','approved'].map(status=><option value={status}>{c[status]}</option>)}</select></label>}
    <label>{c.sort}<select name="sort"><option value="newest">{c.newest}</option><option value="oldest">{c.oldest}</option><option value="title">{c.title}</option></select></label>

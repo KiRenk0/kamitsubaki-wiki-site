@@ -1,5 +1,4 @@
 ---
-
 schemaVersion: 2
 id: azsagawa
 entityType: person
@@ -10,7 +9,7 @@ roles:
   - singer-songwriter
 lifecycle:
   activity: active
-  startedAt: "2022-11-01"
+  startedAt: 2020-04
 affiliations:
   - organization: sinsekai-record
     current: false
@@ -21,6 +20,20 @@ presentation:
 contentStatus: published
 locale: zh
 summary: 穿梭于虚拟与现实两界的混合形态（Hybrid）实力派男歌手，以深沉磁性的中低音和 R&B/都市流行驾驭力著称，主流签约 TOY'S FACTORY。
+sources:
+  - id: official-toys-biography
+    title: Azsagawa biography - TOYS FACTORY
+    url: https://www.toysfactory.co.jp/artist/azsagawa/bio
+    type: official
+evidence:
+  - id: activity-start-month
+    field: lifecycle.startedAt
+    sourceIds:
+      - official-toys-biography
+    checkedAt: 2026-11-15
+    status: reviewed
+    note: Music activity began in April 2020. The later label affiliation date is
+      not the start of musical activity.
 ---
 
 ## 概述

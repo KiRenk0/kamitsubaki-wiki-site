@@ -14,6 +14,7 @@ import {archiveChoices} from '../lib/archiveSelection.mjs';
 import {createArchiveEntityPicker} from './archiveEntityPicker.js';
 import {archiveInteractionCopy} from '../lib/archiveInteractionCopy.mjs';
 import {entityLabel} from '../lib/entityLabels.mjs';
+import {archiveFactCopy} from '../lib/archiveFactDrift.mjs';
 
 const element=(tag,text='',className='')=>{const node=document.createElement(tag);if(text!==undefined)node.textContent=String(text);if(className)node.className=className;return node;};
 function link(text,path) {
@@ -243,15 +244,27 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
   results.append(element('h3',c.pageSources));sources(row.facts.sources,results);results.append(element('h3',c.sourceHistory));for(const historical of row.facts.sourceHistory || []){const p=element('p');p.append(link(historical.title,historical.archiveUrl),element('span',' · '+historical.capturedAt));results.append(p);}if(!row.facts.sourceHistory?.length)results.append(element('p',c.empty));results.append(element('h3',c.history));
   if(!row.history.length)results.append(element('p',c.empty));
   else{const ul=element('ul');for(const commit of row.history.slice(0,50)){const li=element('li');li.append(element('span',commit.date.slice(0,10)+' · '+commit.title+' '),link(commit.sha.slice(0,8),'https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/commit/'+commit.sha));ul.append(li);}results.append(ul);}
-  const issueRows=snapshot.issues.filter(issue=>issue.id===id);if(issueRows.length){results.append(element('h3',c.issues));for(const issue of issueRows)results.append(element('p',[issue.kind,issue.locale,issue.field,issue.target].filter(Boolean).join(' · ')));}
+  const issueRows=snapshot.issues.filter(issue=>issue.id===id);if(issueRows.length){results.append(element('h3',c.issues));for(const issue of issueRows)results.append(factIssue(issue));}
   report(claims.length+' '+c.claims);
  }
+ function factIssue(issue){
+  const title=[issue.kind,issue.locale,issue.field,issue.target].filter(Boolean).join(' · ');
+  if(!issue.canonical || !issue.translation)return element('p',title);
+  const copy=archiveFactCopy(locale),details=element('details','','archive-space');details.append(element('summary',title),element('p',copy.note));
+  for(const [key,label]of [['canonical',copy.canonical],['translation',copy.translation]]){
+   const fact=issue[key];details.append(element('h4',label+' · '+fact.locale),element('pre',JSON.stringify(fact.value,null,2)));
+   if(fact.sourceFile?.startsWith('src/content/') && !fact.sourceFile.split('/').includes('..'))details.append(link(copy.edit+' · '+fact.locale,'/'+locale+'/contribute/editor/?target='+encodeURIComponent(fact.sourceFile)));
+  }
+  return details;
+ }
  function renderLanguages(){
-  const values=query(),rows=selectArchive(snapshot,{q:values.q,artist:values.artist},locale);
+  const values=query(),rows=selectArchive(snapshot,{q:values.q,artist:values.artist,entity:values.entity},locale);
   results.replaceChildren();const wrap=element('div','','archive-table-scroll'),table=element('table','','archive-table'),header=element('tr');
   for(const title of [c.title,'zh','ja','en',c.drift])header.append(element('th',title));table.append(header);
   for(const row of rows.slice(0,limit)){const tr=element('tr'),th=element('th');th.append(reference(row.id));tr.append(th);for(const language of ['zh','ja','en']){const cell=element('td');if(row.narratives[language])cell.append(link(row.narratives[language].title,row.narratives[language].path));else cell.append(element('span',c.fallback),link(c.claim,'/'+locale+'/explore/challenges/?q='+encodeURIComponent(row.id)+'&field=translation&language='+language));tr.append(cell);}const drift=element('td');const issues=snapshot.issues.filter(issue=>issue.id===row.id && issue.kind==='fact-drift');drift.append(link(String(issues.length),'/'+locale+'/explore/evidence/?entity='+row.id));tr.append(drift);table.append(tr);}wrap.append(table);results.append(wrap,element('h3',c.terms));
-  const terms=element('dl');for(const row of snapshot.entities.filter(e=>e.type==='lore-concept').slice(0,60)){terms.append(element('dt',row.id),element('dd',['zh','ja','en'].map(code=>row.narratives[code]?.title || c.unknown).join(' / ')));}results.append(terms);
+  const terms=element('dl');for(const row of rows.filter(e=>e.type==='lore-concept').slice(0,60)){terms.append(element('dt',row.id),element('dd',['zh','ja','en'].map(code=>row.narratives[code]?.title || c.unknown).join(' / ')));}results.append(terms);
+  const visible=new Set(rows.slice(0,limit).map(row=>row.id)),issues=snapshot.issues.filter(issue=>issue.kind==='fact-drift' && visible.has(issue.id));
+  if(issues.length){results.append(element('h3',c.drift));for(const issue of issues){results.append(reference(issue.id),factIssue(issue));}}
   more.hidden=rows.length<=limit;report(rows.filter(row=>row.narratives[values.language]).length+' / '+rows.length+' · '+c.translationCoverage);
  }
  async function renderObservatory(){

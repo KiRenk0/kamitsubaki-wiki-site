@@ -15,7 +15,21 @@ roles:
   - "composer"
 lifecycle:
   activity: "active"
-  startedAt: "2014-01"
+  startedAt: "2014"
+sources:
+  - id: official-2019-interview
+    title: Guiano and Kanzaki Iori interview (2019)
+    url: https://note.com/kamitsubaki/n/n803a9dbde2eb
+    type: official
+evidence:
+  - id: activity-start-year
+    field: lifecycle.startedAt
+    sourceIds:
+      - official-2019-interview
+    checkedAt: 2026-11-15
+    status: reviewed
+    note: The artists describe beginning uploads around late 2014. Preserve year
+      precision; no exact start day is established.
 ---
 ## Overview
 

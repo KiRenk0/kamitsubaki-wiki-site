@@ -48,9 +48,24 @@ entityType: "unit"
 roles:
   - "virtual-group"
 lifecycle:
-  activity: "active"
+  activity: "hiatus"
   startedAt: "2020-05-15"
-summary: "A five-member virtual girls group that travels between virtual and real worlds through both avatar and origin performance forms."
+summary: "A five-member virtual girls group that travels between virtual and
+  real worlds through both avatar and origin performance forms."
+sources:
+  - id: official-valis-hiatus
+    title: VALISに関する重要なお知らせ
+    url: https://kamitsubaki.jp/news/2025/06/11/7583/
+    type: official
+evidence:
+  - id: group-hiatus
+    field: lifecycle.activity
+    sourceIds:
+      - official-valis-hiatus
+    checkedAt: 2026-11-15
+    status: reviewed
+    note: The group is on indefinite hiatus following the December 2025 final live.
+      Individual member activity is not established by this notice.
 ---
 ## Overview
 
