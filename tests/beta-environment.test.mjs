@@ -10,5 +10,6 @@ test('beta commands override inherited production services with a distinct exact
  for(const [key,value]of Object.entries(env))if(/_API_(?:BASE|URL)$/.test(key))assert.equal(value,registry.api,key);
  assert.equal(env.PATH,'preserved');assert.equal(env.WORKSPACE_ISOLATED,'true');assert.equal(env.PUBLIC_EDITOR_LOCAL,'false');
  assert.equal(env.VISUAL_EXPLORER_LOCAL_ORIGIN,undefined);
+ assert.equal(env.PUBLIC_CONTENT_REPOSITORY,'https://github.com/KiRenk0/kamitsubaki-wiki-site');assert.equal(env.PUBLIC_CONTENT_BRANCH,'beta');
  assert.equal(inherited.PUBLIC_ARCHIVE_API_BASE,'https://production.example');
 });

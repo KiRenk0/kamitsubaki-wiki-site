@@ -13,6 +13,8 @@ pnpm archive:audit
 
 Beta 本机入口是 `http://127.0.0.1:18430/zh/`。上述 beta 命令把 API 固定到 `127.0.0.1:18431`，账号 companion 固定到 `127.0.0.1:18432`，并启用现有隔离来源注册表。未启动本机服务时，账号与社区功能会显示不可用；不使用生产账号或生产数据作为替代。不要将 main 的 `.env`、数据库、Cookie 或凭据复制到此目录。
 
+Beta 命令同时把 `PUBLIC_CONTENT_REPOSITORY` 固定为 `https://github.com/KiRenk0/kamitsubaki-wiki-site`、`PUBLIC_CONTENT_BRANCH` 固定为 `beta`，覆盖继承的源稿目的地。贡献指南、编辑器的 GitHub 编辑／新建文件、档案修订历史和问题反馈均使用该仓库；编辑与新建不会导向上游 main。普通构建在未配置这两项时继续使用既有默认仓库和分支。更改目的地后须重新构建。
+
 目前没有 beta 专用线上环境。社区的本地 fixture／workerd 检查、正式账号联调、第三方播放器和真实相机验收分别记录；本地测试通过不表示已经上线。旧 `dev:online` 和 `build:online` 为既有正式服务联调命令，不用于本任务的 beta 本机预览。
 
 当前范围见 [roadmap](docs/v3/fan-archive-roadmap.md)，最新证据见[第二批验收](qa/2026-11-15-beta-roadmap/continuation-acceptance.md)，[首批验收](qa/2026-11-15-beta-roadmap/acceptance.md)保留历史结果。完整资料覆盖与未解决差异见[审计报告](qa/2026-11-15-beta-roadmap/archive-audit.json)。

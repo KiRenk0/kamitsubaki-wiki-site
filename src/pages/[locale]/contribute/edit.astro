@@ -3,6 +3,7 @@ import WorkspaceButton from '../../../components/WorkspaceButton.astro';
 import WorkspaceControl from '../../../components/WorkspaceControl.astro';
 import Icon from '../../../components/Icon.astro';
 import { editorGuide } from '../../../lib/editorGuide.mjs';
+import {contentRepository} from '../../../lib/contentRepository.mjs';
 import { getBuildCollection as getCollection } from '../../../lib/contentAuditContext';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import SiteNav from '../../../components/SiteNav.astro';
@@ -84,7 +85,7 @@ const metadata = {title:copy.title,description:copy.intro,canonicalPath:'/'+loca
         <section class="cg-section cg-review" aria-labelledby="cg-review-title"><header class="cg-section-heading"><h2 id="cg-review-title">{ui.review}</h2></header><ul>{copy.checklist.map(item=><li>{item}</li>)}</ul></section>
         <section class="cg-section" id="pr-template" aria-labelledby="cg-pr-title"><header class="cg-section-heading"><h2 id="cg-pr-title">{ui.pr}</h2><p>{ui.prHint}</p></header><WorkspaceButton type="submit" class="cg-button" data-copy-pr>{ui.copy}</WorkspaceButton><p class="cg-copy-status" data-copy-status role="status"></p><WorkspaceControl as="textarea" class="cg-template" readonly data-pr-template aria-labelledby="cg-pr-title" rows="12">{copy.prTemplate}</WorkspaceControl></section>
         <section class="cg-section cg-faq" aria-labelledby="cg-faq-title"><header class="cg-section-heading"><h2 id="cg-faq-title">{ui.faq}</h2></header>{copy.faqs.map(faq=><details><summary>{faq.question}</summary><p>{faq.answer}</p></details>)}</section>
-        <section class="cg-section cg-finish" id="guide-finish"><header class="cg-section-heading"><h2>{ui.finish}</h2><p>{ui.finishBody}</p></header><WorkspaceButton tone="primary" class="cg-button cg-button--primary" href={editorHref} data-editor-link>{ui.openEditor} <Icon name="arrow-right" /></WorkspaceButton><header class="cg-section-heading cg-section"><a class="cg-link" href="https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/issues">{ui.issues} <Icon name="arrow-up-right" /></a><p>{ui.issuesHint}</p></header></section>
+        <section class="cg-section cg-finish" id="guide-finish"><header class="cg-section-heading"><h2>{ui.finish}</h2><p>{ui.finishBody}</p></header><WorkspaceButton tone="primary" class="cg-button cg-button--primary" href={editorHref} data-editor-link>{ui.openEditor} <Icon name="arrow-right" /></WorkspaceButton><header class="cg-section-heading cg-section"><a class="cg-link" href={contentRepository.url+'/issues'}>{ui.issues} <Icon name="arrow-up-right" /></a><p>{ui.issuesHint}</p></header></section>
       </div>
     </div>
     </div>

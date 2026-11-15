@@ -1,17 +1,18 @@
 import { sourceRequest } from './editorSource.mjs';
+import {contentRepository,contentFileUrl} from './contentRepository.mjs';
 
 export const guideSteps = ['choose', 'load', 'write', 'sources', 'review', 'submit'];
 export const guideTasks = ['fix', 'source', 'translate', 'new-entry'];
 export const guideStorageKey = 'kamitsubaki-contribution-learning-v2';
-const repository = 'https://github.com/LinkTh1rsty/kamitsubaki-wiki-site';
+const editPrefix=contentRepository.url+'/edit/'+encodeURIComponent(contentRepository.branch)+'/';
 
 export function normalizeGuideTarget(value) {
   let path = String(value || '');
   try { for (let i = 0; i < 2 && /%[a-f\d]{2}/i.test(path); i++) path = decodeURIComponent(path); } catch { return null; }
-  if (path.startsWith(`${repository}/edit/main/`)) path = path.slice(`${repository}/edit/main/`.length);
+  if (path.startsWith(editPrefix)) path = path.slice(editPrefix.length);
   if (!/^src\/content\/(?:[^/\\\s?#%\u0000-\u001f]+\/)*(?:zh|zh-tw|zh-hk|ja|en)\.(?:md|json)$/.test(path) || path.split('/').some(part => part.startsWith('.'))) return null;
   path = path.replace(/\/(zh-tw|zh-hk)(\.(md|json))$/, '/zh$2');
-  return {path, visual: Boolean(sourceRequest(path)), github: `${repository}/edit/main/${path.split('/').map(encodeURIComponent).join('/')}`};
+  return {path, visual: Boolean(sourceRequest(path)), github: contentFileUrl(path)};
 }
 
 export function guideTask(value) {

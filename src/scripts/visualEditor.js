@@ -9,6 +9,7 @@ import {state as accountState,refreshAuth} from './accountStore.js';
 import {mountArticlePicker,ensureArticleDraftUrl,initialArticleRelations,articleEntities} from '../lib/articleEntities.mjs';
 import {initializeArticleSubmission} from './articleSubmission.js';
 import {entitySourcePath} from '../lib/contentLayout.mjs';
+import {contentFileUrl} from '../lib/contentRepository.mjs';
 import {revealPanel,enhanceTabRail} from '../lib/uiMotion.mjs';
 import {mountEditorSidebar} from '../lib/editorSidebar.mjs';
 import { editorStarterCopy, isUntouchedEditorDraft, insertActionGroup, sortInsertActions } from '../lib/editorStarter.mjs';
@@ -451,9 +452,7 @@ const initialize = async () => {
     const github = $('[data-github]');
     github.hidden = articleMode || !validPath(draft.path);
     if (!github.hidden) {
-      const parts = draft.path.split('/').map(encodeURIComponent);
-      const filename = parts.pop();
-      github.href = draft.originalMeta ? `https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/edit/main/${parts.join('/')}/${filename}` : `https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/new/main/${parts.join('/')}?filename=${filename}`;
+      github.href = contentFileUrl(draft.path,draft.originalMeta?'edit':'new');
     }
     updateHistory();
     if(articleMode)void refreshAttachmentPreviews();

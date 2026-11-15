@@ -7,6 +7,7 @@ import {svgNode} from '../lib/archiveChart.mjs';
 import {createArchiveScanner} from '../lib/archiveScanner.mjs';
 import {musicConnections,compareLiveSetlists,archiveCollaborations,archiveCoverage} from '../lib/archiveInsights.mjs';
 import {archiveCSV,archiveZip,archiveCitation,downloadArchiveFile,pilgrimageGeoJSON,pilgrimageGPX} from '../lib/archiveExports.mjs';
+import {contentCommitUrl} from '../lib/contentRepository.mjs';
 import {initializeArchiveOpenData} from './archiveOpenData.js';
 import {initializeCollectionTools} from './archiveCollectionTools.js';
 import {collectionEditorItems,collectionPresentation,collectionNoteLine} from '../lib/archiveCollectionDrafts.mjs';
@@ -243,7 +244,7 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
   if(!claims.length)results.append(element('p',c.empty));
   results.append(element('h3',c.pageSources));sources(row.facts.sources,results);results.append(element('h3',c.sourceHistory));for(const historical of row.facts.sourceHistory || []){const p=element('p');p.append(link(historical.title,historical.archiveUrl),element('span',' · '+historical.capturedAt));results.append(p);}if(!row.facts.sourceHistory?.length)results.append(element('p',c.empty));results.append(element('h3',c.history));
   if(!row.history.length)results.append(element('p',c.empty));
-  else{const ul=element('ul');for(const commit of row.history.slice(0,50)){const li=element('li');li.append(element('span',commit.date.slice(0,10)+' · '+commit.title+' '),link(commit.sha.slice(0,8),'https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/commit/'+commit.sha));ul.append(li);}results.append(ul);}
+  else{const ul=element('ul');for(const commit of row.history.slice(0,50)){const li=element('li');li.append(element('span',commit.date.slice(0,10)+' · '+commit.title+' '),link(commit.sha.slice(0,8),contentCommitUrl(commit.sha)));ul.append(li);}results.append(ul);}
   const issueRows=snapshot.issues.filter(issue=>issue.id===id);if(issueRows.length){results.append(element('h3',c.issues));for(const issue of issueRows)results.append(factIssue(issue));}
   report(claims.length+' '+c.claims);
  }
