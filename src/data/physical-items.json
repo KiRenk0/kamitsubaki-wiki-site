@@ -24,5 +24,64 @@
         "publisher": "KAMITSUBAKI STUDIO"
       }
     ]
+  },
+  {
+    "id": "rime-voicepeak-package",
+    "type": "other",
+    "names": {
+      "zh": "裏命 RIME TALK EXTENSION VOICEPEAK 实体版",
+      "ja": "音楽的同位体 裏命 TALK EXTENSION VOICEPEAK パッケージ版",
+      "en": "RIME TALK EXTENSION VOICEPEAK physical package"
+    },
+    "format": "DVD-ROM / software package",
+    "date": "2024-02-26",
+    "barcode": "4582736573240",
+    "relatedEntities": [
+      "rime"
+    ],
+    "bonusItems": [
+      "Acrylic stand",
+      "Key holder",
+      "Mouse pad"
+    ],
+    "sources": [
+      {
+        "id": "rime-voicepeak-official",
+        "title": "RIME TALK EXTENSION: official package contents",
+        "url": "https://musical-isotope.kamitsubaki.jp/product/rimevoicepeak/",
+        "type": "official"
+      },
+      {
+        "id": "shimamura-rime-package",
+        "title": "島村楽器: 裏命 VOICEPEAK package and download catalogue",
+        "url": "https://www.shimamura.co.jp/update/dtm-recording/2024/01/dl-154014/",
+        "type": "retailer",
+        "publisher": "島村楽器"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "barcode",
+        "sourceIds": [
+          "shimamura-rime-package"
+        ],
+        "checkedAt": "2026-11-15",
+        "note": "Retailer lists 4582736573240 for the physical package. The download edition has a different JAN (4582736574544) and is not this physical record."
+      },
+      {
+        "field": "date",
+        "sourceIds": [
+          "shimamura-rime-package"
+        ],
+        "checkedAt": "2026-11-15"
+      },
+      {
+        "field": "bonusItems",
+        "sourceIds": [
+          "rime-voicepeak-official"
+        ],
+        "checkedAt": "2026-11-15"
+      }
+    ]
   }
 ]

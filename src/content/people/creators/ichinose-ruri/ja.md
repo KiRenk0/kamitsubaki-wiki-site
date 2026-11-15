@@ -3,16 +3,23 @@ schemaVersion: 2
 id: ichinose-ruri
 entityType: person
 name: 一ノ瀬瑠璃
-romanizedName: ichinose-ruri
-roles:
-  - composer
+romanizedName: Ichinose Ruri
+roles: []
 lifecycle:
   activity: unknown
-contentStatus: published
+contentStatus: stub
 locale: ja
-summary: 神椿・深脊界の音楽制作およびインストゥルメンタルオーケストレーションに携わる作編曲家。
+summary: 分類図から取り込んだ未確認の仮項目。人物の同定・表記・作品との関係は出典確認待ち。
+tags:
+  - classification-map-placeholder
+  - verification-required
+  - identity-unverified
+seo:
+  noindex: true
 ---
 
-## 概要
+## 確認状況
 
-**一ノ瀬瑠璃**は、神椿および深脊界の各種メディアミックスプロジェクトにおいて、繊細な弦楽アレンジや劇伴音楽を手掛ける作編曲家です。
+この ID は分類図に基づく仮項目として作られました。表示名は取り込み時のラベルで、人物の同定や表記を確認したものではありません。出典のない性別・職業・所属・作品紹介は撤回しました。編集履歴は保持されています。
+
+本人と作品を特定できる一次資料が得られるまで役割は未記入とし、「市瀬るぽ / Ichinose LUPO」などの類似名と統合しません。未確認であることは、人物の不存在や活動終了を意味しません。

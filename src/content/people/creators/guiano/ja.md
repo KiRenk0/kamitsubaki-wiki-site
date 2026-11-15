@@ -2,8 +2,10 @@
 locale: "ja"
 romanizedName: "Guiano"
 affiliations:
-  - organization: "kamitsubaki-studio"
+  - organization: kamitsubaki-studio
     current: false
+  - organization: allt-studio
+    current: true
 officialLinks:
   - label: "KAMITSUBAKI 公式レコードページ"
     url: "https://kamitsubaki.jp/artist/guiano/"
@@ -48,6 +50,10 @@ sources:
     title: Guiano and Kanzaki Iori interview (2019)
     url: https://note.com/kamitsubaki/n/n803a9dbde2eb
     type: official
+  - id: thinkr-studio-reform
+    title: "THINKR: New Studio Announcement"
+    url: https://newstudio.thinkr.jp/
+    type: official
 evidence:
   - id: activity-start-year
     field: lifecycle.startedAt
@@ -55,8 +61,16 @@ evidence:
       - official-2019-interview
     checkedAt: "2026-11-15"
     status: reviewed
-    note: The artists describe beginning uploads around late 2014. Preserve year
-      precision; no exact start day is established.
+    note: The artists describe beginning uploads around late 2014. Preserve year precision; no exact
+      start day is established.
+  - id: reviewed-studio-affiliation
+    field: affiliations
+    sourceIds:
+      - thinkr-studio-reform
+    checkedAt: "2026-11-15"
+    status: reviewed
+    note: The official studio announcement lists Guiano in ALLT, which branches from KAMITSUBAKI. Keep
+      the earlier affiliation as historical; no transfer date is inferred.
 ---
 ## 概要
 
@@ -168,3 +182,5 @@ Guiano の作風はメロディの親しみやすさと歌詞の感情温度を�
 - [KAMITSUBAKI STUDIO Guiano ページ](https://kamitsubaki.jp/artist/guiano/)
 
 <!-- V3 RESEARCH SUPPLEMENT guiano -->
+
+現在のマネジメントは ALLT STUDIO。THINKR の新スタジオ告知に Guiano が掲載されており、従来の KAMITSUBAKI STUDIO との所属関係は履歴として扱っています。移籍日は推定していません。

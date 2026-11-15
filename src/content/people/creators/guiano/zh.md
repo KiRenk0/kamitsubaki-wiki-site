@@ -1,7 +1,11 @@
 ---
 locale: "zh"
 romanizedName: "Guiano"
-affiliations: []
+affiliations:
+  - organization: kamitsubaki-studio
+    current: false
+  - organization: allt-studio
+    current: true
 officialLinks:
   - label: "Guiano 官方网站"
     url: "https://guiano.fanpla.jp/"
@@ -47,6 +51,10 @@ sources:
     title: Guiano and Kanzaki Iori interview (2019)
     url: https://note.com/kamitsubaki/n/n803a9dbde2eb
     type: official
+  - id: thinkr-studio-reform
+    title: "THINKR: New Studio Announcement"
+    url: https://newstudio.thinkr.jp/
+    type: official
 summary: "融合 EDM、J-Pop 与诗意叙事的全能 Vocaloid Producer 与音乐人。"
 evidence:
   - id: activity-start-year
@@ -55,8 +63,16 @@ evidence:
       - official-2019-interview
     checkedAt: "2026-11-15"
     status: reviewed
-    note: The artists describe beginning uploads around late 2014. Preserve year
-      precision; no exact start day is established.
+    note: The artists describe beginning uploads around late 2014. Preserve year precision; no exact
+      start day is established.
+  - id: reviewed-studio-affiliation
+    field: affiliations
+    sourceIds:
+      - thinkr-studio-reform
+    checkedAt: "2026-11-15"
+    status: reviewed
+    note: The official studio announcement lists Guiano in ALLT, which branches from KAMITSUBAKI. Keep
+      the earlier affiliation as historical; no transfer date is inferred.
 ---
 ## 概述
 
@@ -151,3 +167,5 @@ evidence:
 - [Guiano 官方网站](https://guiano.fanpla.jp/)
 
 <!-- V3 RESEARCH SUPPLEMENT guiano -->
+
+当前管理所属为 [ALLT STUDIO](/zh/database/studios/allt-studio)。THINKR 的新工作室公告将 Guiano 列入 ALLT；此前的 KAMITSUBAKI STUDIO 关联作为历史记录保留，公告未在本条目中用于推定移籍日。

@@ -1,5 +1,4 @@
 ---
-
 schemaVersion: 2
 id: onuma-parsley
 entityType: person
@@ -7,17 +6,52 @@ name: 大沼パセリ
 romanizedName: onuma-parsley
 roles:
   - composer
+  - producer
+  - vocalist
+  - arranger
 lifecycle:
-  activity: unknown
+  activity: active
+  startedAt: "2017"
 presentation:
   image: "/images/artists/onuma-parsley.jpg"
 contentStatus: published
 locale: ja
 summary: 神椿創設時からの初期メンバー。ボカロPとしての活動を経て自作自演のシンガーソングライターへ進化。
+sources:
+  - id: allt-artist-profile
+    title: 大沼パセリ - ALLT STUDIO artist profile
+    url: https://alltstudio.jp/artist/parsleyonuma/
+    type: official
+  - id: thinkr-studio-reform
+    title: "THINKR: New Studio Announcement"
+    url: https://newstudio.thinkr.jp/
+    type: official
+evidence:
+  - id: reviewed-creator-roles
+    field: roles
+    sourceIds:
+      - allt-artist-profile
+    checkedAt: "2026-11-15"
+    status: reviewed
+    note: The official biography documents VOCALOID production from 2017, self-vocal performances and
+      composition/arrangement for other artists. It does not establish an exact first-post day.
+  - id: reviewed-activity
+    field: lifecycle
+    sourceIds:
+      - allt-artist-profile
+    checkedAt: "2026-11-15"
+    status: reviewed
+    note: The current official profile and releases show continued activity. The start is recorded at
+      year precision only.
+affiliations:
+  - organization: kamitsubaki-studio
+    current: false
+  - organization: allt-studio
+    current: true
 ---
 ## 概要
 
-**大沼パセリ**（Onuma Parsley）は、2017年より活動するコンポーザー兼シンガーソングライター。YouTubeで1000万回再生を突破した『エゴイスト』や『Corruption』で知られ、神椿では幸祜への楽曲提供や音楽的同位体（可不・狐子）の起用を精力的に行っています。
+**大沼パセリ**は ALLT STUDIO 所属の音楽クリエイター・シンガー。公式プロフィールでは2017年にボカロPとして活動を開始し、2018年からセルフカバー、2020年から本格的なセルフボーカル活動を行い、他アーティストへの楽曲提供・編曲にも参加しています。
 
 ## 詳細な活動年表と個人的な嗜好
 
@@ -25,7 +59,7 @@ summary: 神椿創設時からの初期メンバー。ボカロPとしての活�
 
 | 日付 | 出来事 |
 | :--- | :--- |
-| 2017-06-29 | 初作《夜明け前》を投稿 |
+| 2017 | ボカロPとして活動開始。初投稿の日付・曲名は確認待ち |
 | 2018-02-20 | 《Corruption》を投稿し、ここから広く注目を集める |
 | 2018-03-07 | 別の P 主・雨のち雨が歌唱する《アフタースクール》を投稿。のちに初音ミク歌唱の VOCALOID 版を公開 |
 | 2018-04-24 | 自身の楽曲のセルフカバー動画の投稿を開始 |

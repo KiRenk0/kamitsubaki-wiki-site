@@ -25,6 +25,14 @@ sources:
     title: Azsagawa biography - TOYS FACTORY
     url: https://www.toysfactory.co.jp/artist/azsagawa/bio
     type: official
+  - id: thinkr-major-announcement
+    title: "THINKR: Azsagawa major debut announcement (2025-08-04)"
+    url: https://prtimes.jp/main/html/rd/p/000000399.000106737.html
+    type: official
+  - id: navy-major-single
+    title: "Azsagawa: Navy official release announcement (2026-04-08)"
+    url: https://kamitsubaki.jp/news/2026/04/08/10705/
+    type: official
 evidence:
   - id: activity-start-month
     field: lifecycle.startedAt
@@ -32,15 +40,24 @@ evidence:
       - official-toys-biography
     checkedAt: "2026-11-15"
     status: reviewed
-    note: Music activity began in April 2020. The later label affiliation date is
-      not the start of musical activity.
+    note: Music activity began in April 2020. The later label affiliation date is not the start of
+      musical activity.
+  - id: reviewed-career-milestones
+    field: lifecycle.startedAt
+    sourceIds:
+      - official-toys-biography
+      - thinkr-major-announcement
+    checkedAt: "2026-11-15"
+    status: reviewed
+    note: Distinguish the April 2020 music start, November 2022 label affiliation, August 2025
+      major-debut announcement and April 2026 first major digital release.
 ---
 
 ## 概述
 
 **梓川**（Azsagawa）是深脊界与神椿体系中极具代表性的跨次元混合形态（Virtual / Real Hybrid）实力派男歌手兼唱作人。
 
-他于 2022 年 11 月 1 日正式加入 [SINSEKAI RECORD](/zh/database/studios/sinsekai-record)（深脊界），以首发单曲《[告赤](/zh/database/music/songs/ciel-mijikayo-no-hoshi)》（雄之助作曲编曲、牛肉作词）正式揭开演艺活动序幕。梓川拥有深沉、醇厚且富有磁性的独特中低音声线，擅长将 Contemporary R&B、City Pop、另类流行与电音律动融为一体，是神椿生态中难能可贵的男性主流歌手标杆。
+梓川于 2020 年 4 月开始音乐活动，2022 年 11 月加入 [SINSEKAI RECORD](/zh/database/studios/sinsekai-record)，并发表首支单曲《告赤》。2025 年 8 月宣布将从 TOY’S FACTORY 主流出道，主流首支数字单曲《Navy》于 2026 年 4 月 8 日发行。音乐活动起点、所属变化和主流发行是三个不同节点。
 
 ---
 
@@ -57,7 +74,7 @@ evidence:
 
 ### 3. 万人现场主流出道与新篇章 (2025 - 2026)
 - **2025 年 3 月**：公布由新世代名作词曲人春野制作的先行曲《Disco FLO》，全面启动 2nd 专辑计划；
-- **2025 年 8 月 3 日**：于个人 2nd ONE-MAN LIVE「PORT＿A」演出高潮时刻，正式向全场乐迷公布重磅喜讯——签约日本主流唱片巨头 **TOY'S FACTORY（玩具工厂）** 实现主流出道（Major Debut）；
+- **2025 年 8 月 3 日**：于个人 2nd ONE-MAN LIVE「PORT＿A」演出高潮时刻，正式向全场乐迷公布重磅喜讯——宣布将从 **TOY'S FACTORY（玩具工厂）** 主流出道（Major Debut），当时尚未公布首发作品；
 - **2026 年 4 月**：通过 TOY'S FACTORY 发行主流 1st 配信单曲《Navy》；在 2026 年 9 月工作室架构重组中，移籍至新设的 [KYOKAI STUDIO](/zh/projects/labels/kyokai-studio)。
 
 ---

@@ -1,5 +1,4 @@
 ---
-
 schemaVersion: 2
 id: onuma-parsley
 entityType: person
@@ -7,18 +6,53 @@ name: Onuma Parsley
 romanizedName: onuma-parsley
 roles:
   - composer
+  - producer
+  - vocalist
+  - arranger
 lifecycle:
-  activity: unknown
+  activity: active
+  startedAt: "2017"
 presentation:
   image: "/images/artists/onuma-parsley.jpg"
 contentStatus: published
 locale: en
-summary: Founding composer of KAMITSUBAKI STUDIO, evolving from acclaimed
-  Vocaloid producer to singer-songwriter.
+summary: Founding composer of KAMITSUBAKI STUDIO, evolving from acclaimed Vocaloid producer to
+  singer-songwriter.
+sources:
+  - id: allt-artist-profile
+    title: 大沼パセリ - ALLT STUDIO artist profile
+    url: https://alltstudio.jp/artist/parsleyonuma/
+    type: official
+  - id: thinkr-studio-reform
+    title: "THINKR: New Studio Announcement"
+    url: https://newstudio.thinkr.jp/
+    type: official
+evidence:
+  - id: reviewed-creator-roles
+    field: roles
+    sourceIds:
+      - allt-artist-profile
+    checkedAt: "2026-11-15"
+    status: reviewed
+    note: The official biography documents VOCALOID production from 2017, self-vocal performances and
+      composition/arrangement for other artists. It does not establish an exact first-post day.
+  - id: reviewed-activity
+    field: lifecycle
+    sourceIds:
+      - allt-artist-profile
+    checkedAt: "2026-11-15"
+    status: reviewed
+    note: The current official profile and releases show continued activity. The start is recorded at
+      year precision only.
+affiliations:
+  - organization: kamitsubaki-studio
+    current: false
+  - organization: allt-studio
+    current: true
 ---
 ## Overview
 
-**Onuma Parsley** is a founding producer of KAMITSUBAKI STUDIO signed to ANARCHIC RECORD. Best known for viral hits like "Egoist" (over 10M views) and "Corruption", he writes across electronic, City Pop, and alternative pop genres.
+**Parsley Onuma** is a music creator and singer managed by ALLT STUDIO. His official biography dates his VOCALOID activity to 2017, self-covers to 2018 and full-scale self-vocal activity to 2020, alongside composition and arrangement for other artists.
 
 ## Detailed Chronology and Personal Preferences
 
@@ -26,7 +60,7 @@ summary: Founding composer of KAMITSUBAKI STUDIO, evolving from acclaimed
 
 | Date | Event |
 | :--- | :--- |
-| 2017-06-29 | Uploaded the debut track “Yoake Mae” |
+| 2017 | Began VOCALOID production; the first-post day and title still need verification |
 | 2018-02-20 | Uploaded “Corruption”, from which he began to attract wide attention |
 | 2018-03-07 | Uploaded “After School” sung by fellow producer Ame nochi Ame, later releasing a Hatsune Miku Vocaloid version |
 | 2018-04-24 | Began uploading self-covers of his own songs |

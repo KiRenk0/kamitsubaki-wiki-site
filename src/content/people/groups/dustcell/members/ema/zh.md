@@ -5,8 +5,9 @@ entityType: "person"
 name: "EMA"
 romanizedName: "EMA"
 roles:
-  - "vocalist"
-  - "lyricist"
+  - vocalist
+  - lyricist
+  - composer
 lifecycle:
   activity: "active"
 relations:
@@ -15,11 +16,47 @@ relations:
 contentStatus: published
 locale: "zh"
 summary: "双人音乐团体 DUSTCELL 的主唱兼作词，以透彻高辨识度的声线、在冷静低吟与撕裂呐喊间的自如穿梭确立独特表达风格。"
+sources:
+  - id: allt-artist-profile
+    title: EMA - ALLT STUDIO artist profile
+    url: https://alltstudio.jp/artist/ema/
+    type: official
+  - id: thinkr-studio-reform
+    title: "THINKR: New Studio Announcement"
+    url: https://newstudio.thinkr.jp/
+    type: official
+  - id: ema-plain-credits
+    title: "EMA: PLAIN official release credits"
+    url: https://kamitsubaki.jp/news/2023/10/25/2731/
+    type: official
+evidence:
+  - id: reviewed-creator-roles
+    field: roles
+    sourceIds:
+      - allt-artist-profile
+      - ema-plain-credits
+    checkedAt: "2026-11-15"
+    status: reviewed
+    note: The official PLAIN credits name EMA for lyrics and music. The profile identifies her as
+      DUSTCELL vocalist; these roles do not imply credits on every track.
+  - id: reviewed-activity
+    field: lifecycle
+    sourceIds:
+      - allt-artist-profile
+    checkedAt: "2026-11-15"
+    status: reviewed
+    note: Current official artist profile and documented releases support active status as of the review
+      date. No individual career start day is inferred from DUSTCELL formation.
+affiliations:
+  - organization: kamitsubaki-studio
+    current: false
+  - organization: allt-studio
+    current: true
 ---
 
 ## 概述与艺术特色
 
-**EMA**（エマ）是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 旗下双人音乐团体 [DUSTCELL](/zh/database/artists/groups/dustcell) 的主唱与作词核心。
+**EMA**（エマ）是双人音乐团体 [DUSTCELL](/zh/database/artists/groups/dustcell) 的主唱，并从事作词、作曲。现由 [ALLT STUDIO](/zh/database/studios/allt-studio) 介绍和管理；2023 年个人单曲《PLAIN》的官方署名为 EMA 作词、作曲。
 
 她拥有一副极具穿透力、清澈而又带有粗粝边缘的高辨识度女性嗓音。在 DUSTCELL 的音乐表达中，EMA 从不拘泥于传统流行乐的甜美范式，而是在低沉冷静的叙述语气、长线条高音旋律与近乎绝望嘶吼的情绪爆发点之间极速切换，将都市青年的孤独、欲望、自我怀疑与生存执念化为直刺骨髓的声音实体。
 

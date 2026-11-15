@@ -5,9 +5,9 @@ entityType: "person"
 name: "Misumi"
 romanizedName: "Misumi"
 roles:
-  - "composer"
-  - "arranger"
-  - "producer"
+  - composer
+  - arranger
+  - producer
 lifecycle:
   activity: "active"
 relations:
@@ -16,11 +16,49 @@ relations:
 contentStatus: published
 locale: "zh"
 summary: "双人音乐团体 DUSTCELL 的作曲、编曲与音乐制作核心，著名 VOCALOID 殿堂级 P 主，以美与狂气并存的疾走感电音摇滚见长。"
+sources:
+  - id: allt-artist-profile
+    title: Misumi - ALLT STUDIO artist profile
+    url: https://alltstudio.jp/artist/misumi/
+    type: official
+  - id: thinkr-studio-reform
+    title: "THINKR: New Studio Announcement"
+    url: https://newstudio.thinkr.jp/
+    type: official
+  - id: dustcell-interview-2020
+    title: DUSTCELL interview - BIG UP!zine (2020-05-29)
+    url: https://big-up.style/zine/article/interview/20200529-6867
+    type: interview
+    publisher: BIG UP!zine
+    publishedAt: "2020-05-29"
+evidence:
+  - id: reviewed-creator-roles
+    field: roles
+    sourceIds:
+      - allt-artist-profile
+      - dustcell-interview-2020
+    checkedAt: "2026-11-15"
+    status: reviewed
+    note: The official profile documents composition and arrangement. The first-person DUSTCELL
+      interview introduces Misumi as composer/producer.
+  - id: reviewed-activity
+    field: lifecycle
+    sourceIds:
+      - allt-artist-profile
+    checkedAt: "2026-11-15"
+    status: reviewed
+    note: Current official artist profile and documented releases support active status as of the review
+      date. No individual career start day is inferred from DUSTCELL formation.
+affiliations:
+  - organization: kamitsubaki-studio
+    current: false
+  - organization: allt-studio
+    current: true
 ---
 
 ## 概述与音乐履历
 
-**Misumi** 是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 旗下双人音乐团体 [DUSTCELL](/zh/database/artists/groups/dustcell) 的作曲、编曲与声音工程总负责，同时也是活跃于日本网络音乐前沿的著名 VOCALOID 音乐制作人。
+**Misumi** 是双人音乐团体 [DUSTCELL](/zh/database/artists/groups/dustcell) 的作曲家、编曲人与音乐制作人，现由 [ALLT STUDIO](/zh/database/studios/allt-studio) 管理。他在 VOCALOID 创作之外，也为其他艺人提供歌曲与编曲。
 
 Misumi 于 2015 年 1 月正式投身同人音乐创作，以初投稿曲《ゆらめきブルー》拉开制作人生涯序幕。随后其作品常年使用初音未来、IA 以及 v flower 等歌声合成引擎，凭借激烈的低频节拍、瞬间奇拔冲入高音域的抓耳旋律线、以及带有刀锋般锐度质感的未来电子元素在圈内声名鹊起。其第 17 首投稿原创曲《反重力の街》首次达成 VOCALOID 殿堂曲成就，至今已累计拥有超过 11 首殿堂级名作。
 

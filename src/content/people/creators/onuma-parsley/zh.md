@@ -1,31 +1,59 @@
 ---
-
 schemaVersion: 2
 id: "onuma-parsley"
 entityType: "person"
 name: "大沼パセリ"
 romanizedName: "Onuma Parsley"
 roles:
-  - "composer"
-  - "producer"
-  - "vocalist"
+  - composer
+  - producer
+  - vocalist
+  - arranger
 lifecycle:
   activity: "active"
-  startedAt: "2017-06-29"
+  startedAt: "2017"
 affiliations:
-  - organization: "anarchic-record"
-    current: true
-  - organization: "kamitsubaki-studio"
+  - organization: kamitsubaki-studio
+    current: false
+  - organization: allt-studio
     current: true
 presentation:
   image: "/images/artists/onuma-parsley.jpg"
 contentStatus: published
 locale: "zh"
-summary: "KAMITSUBAKI STUDIO 创立元老级词曲作家与唱作人，所属 ANARCHIC RECORD，以极具中毒性的电子切片、City Pop 与前卫流行风格著称。"
+summary: "现由 ALLT STUDIO 管理的音乐创作者与歌手，2017 年开始 VOCALOID 创作，亦为其他艺人供曲与编曲。"
+sources:
+  - id: allt-artist-profile
+    title: 大沼パセリ - ALLT STUDIO artist profile
+    url: https://alltstudio.jp/artist/parsleyonuma/
+    type: official
+  - id: thinkr-studio-reform
+    title: "THINKR: New Studio Announcement"
+    url: https://newstudio.thinkr.jp/
+    type: official
+evidence:
+  - id: reviewed-creator-roles
+    field: roles
+    sourceIds:
+      - allt-artist-profile
+    checkedAt: "2026-11-15"
+    status: reviewed
+    note: The official biography documents VOCALOID production from 2017, self-vocal performances and
+      composition/arrangement for other artists. It does not establish an exact first-post day.
+  - id: reviewed-activity
+    field: lifecycle
+    sourceIds:
+      - allt-artist-profile
+    checkedAt: "2026-11-15"
+    status: reviewed
+    note: The current official profile and releases show continued activity. The start is recorded at
+      year precision only.
 ---
 ## 概述
 
-**大沼パセリ**（Onuma Parsley / 大沼欧芹）是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 与 [ANARCHIC RECORD](/zh/database/studios/anarchic-record) 旗下的元老级音乐制作人、词曲作家与创作型歌手。
+**大沼パセリ**（Onuma Parsley）是 [ALLT STUDIO](/zh/database/studios/allt-studio) 旗下的音乐创作者与歌手。官方简介记载，他于 2017 年开始 VOCALOID 创作，2018 年起发表自翻唱，2020 年起正式展开自唱活动，并为其他艺人提供歌曲与编曲。
+
+旧稿另记有 ANARCHIC RECORD 所属关系；本次所读官方资料未确认该关系的起止与现状，因此暂不将它列为已核实的当前所属。此前表述仍保留在修订历史中。
 
 大沼パセリ 自 2017 年起活跃于 niconico 与 YouTube 平台。其作品以变幻莫测的抓耳旋律、充满中毒感的电子合成器音色切片以及深入现代青年心理的叙事歌词为显著标识。自 2019 年 10 月神椿厂牌创立首日即宣布加入，是神椿音乐骨架的重要奠基者之一。
 
@@ -35,7 +63,7 @@ summary: "KAMITSUBAKI STUDIO 创立元老级词曲作家与唱作人，所属 AN
 
 | 演进阶段 | 时间跨度 | 创作特征与代表事件 |
 | :--- | :--- | :--- |
-| **初露锋芒与 VOCALOID 摸索** | 2017 - 2018 | 2017年6月29日以初投稿《夜明け前》启航；早期曲风偏向柔和治愈，后经删稿重构走向高密度电子与毒性节奏 |
+| **初露锋芒与 VOCALOID 摸索** | 2017 - 2018 | 2017 年开始在 YouTube 进行 VOCALOID 创作（官方简介仅确认年份）；早期曲风偏向柔和治愈，后经删稿重构走向高密度电子与毒性节奏 |
 | **现象级名作爆发** | 2018 - 2019 | 2018年先后发表代表作《Corruption》与《エゴイスト》（YouTube 播放量突破千万），确立圈内极高知名度 |
 | **加入神椿与转型唱作人** | 2019 - 2020 | 2019年10月18日作为元老成员正式加入神椿；2020年发行首张完整个人专辑《ave》后宣布暂停纯 P 主活动，以单曲《Latency》转型为自作自唱的 Singer-Songwriter |
 | **同位体与神椿全域联动** | 2021 至今 | 先后起用音乐同位体可不演唱《水面下》、狐子演唱《ボニー&クライド》；频繁为 [幸祜](/zh/artists/vwp/koko) 等神椿魔女提供原创单曲 |
@@ -48,7 +76,7 @@ summary: "KAMITSUBAKI STUDIO 创立元老级词曲作家与唱作人，所属 AN
 
 | 时间 | 事件 |
 | :--- | :--- |
-| 2017-06-29 | 投稿初作《夜明け前》 |
+| 2017 | 开始 VOCALOID 创作；首发日与曲名待核实 |
 | 2018-02-20 | 投稿《Corruption》，自此开始获得广泛关注 |
 | 2018-03-07 | 投稿由另一位 P 主雨のち雨演唱的《アフタースクール》，后发布由初音ミク演唱的 VOCALOID 版本 |
 | 2018-04-24 | 开始投稿对自己曲子的翻唱视频 |

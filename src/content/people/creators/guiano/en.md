@@ -2,8 +2,10 @@
 locale: "en"
 romanizedName: "Guiano"
 affiliations:
-  - organization: "kamitsubaki-studio"
+  - organization: kamitsubaki-studio
     current: false
+  - organization: allt-studio
+    current: true
 officialLinks:
   - label: "KAMITSUBAKI official page"
     url: "https://kamitsubaki.jp/artist/guiano/"
@@ -42,12 +44,16 @@ roles:
 lifecycle:
   activity: "active"
   startedAt: "2014"
-summary: "A Vocaloid producer and singer-songwriter under KAMITSUBAKI STUDIO who
-  has provided songs for Rim, KAF, Myuk, and others."
+summary: "A Vocaloid producer and singer-songwriter under KAMITSUBAKI STUDIO who has provided songs
+  for Rim, KAF, Myuk, and others."
 sources:
   - id: official-2019-interview
     title: Guiano and Kanzaki Iori interview (2019)
     url: https://note.com/kamitsubaki/n/n803a9dbde2eb
+    type: official
+  - id: thinkr-studio-reform
+    title: "THINKR: New Studio Announcement"
+    url: https://newstudio.thinkr.jp/
     type: official
 evidence:
   - id: activity-start-year
@@ -56,8 +62,16 @@ evidence:
       - official-2019-interview
     checkedAt: "2026-11-15"
     status: reviewed
-    note: The artists describe beginning uploads around late 2014. Preserve year
-      precision; no exact start day is established.
+    note: The artists describe beginning uploads around late 2014. Preserve year precision; no exact
+      start day is established.
+  - id: reviewed-studio-affiliation
+    field: affiliations
+    sourceIds:
+      - thinkr-studio-reform
+    checkedAt: "2026-11-15"
+    status: reviewed
+    note: The official studio announcement lists Guiano in ALLT, which branches from KAMITSUBAKI. Keep
+      the earlier affiliation as historical; no transfer date is inferred.
 ---
 ## Overview
 
@@ -171,3 +185,5 @@ As a member of KAMITSUBAKI CREATION, Guiano's activities extend beyond the virtu
 - [KAMITSUBAKI STUDIO Guiano page](https://kamitsubaki.jp/artist/guiano/)
 
 <!-- V3 RESEARCH SUPPLEMENT guiano -->
+
+Guiano is currently listed with ALLT STUDIO in THINKR’s studio announcement. His earlier KAMITSUBAKI affiliation is retained as history; no transfer date is inferred.

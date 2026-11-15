@@ -16,8 +16,32 @@ relations:
     target: kamitsubaki-city-vr
 entityType: project
 status: active
-sources: []
+sources:
+  - id: ensemble-announcement
+    title: "KAMITSUBAKI CITY: ENSEMBLE announcement"
+    url: https://kamitsubaki.jp/news/2024/01/13/2971/
+    type: official
+  - id: regenerate-project
+    title: "KAMITSUBAKI STORY R&D: REGENERATE"
+    url: https://srd.kamitsubaki.jp/game/regenerate/
+    type: official
+  - id: vr-project
+    title: "KAMITSUBAKI STORY R&D: VIRTUAL REALITY"
+    url: https://srd.kamitsubaki.jp/game/virtual_reality/
+    type: official
 summary: 集交替现实游戏（ARG）、轻小说、正统黄金档 TV 动画与主机游戏三部曲于一体的划时代原创旗舰跨媒体 IP。
+evidence:
+  - id: reviewed-game-relations
+    field: relations
+    sourceIds:
+      - ensemble-announcement
+      - regenerate-project
+      - vr-project
+    checkedAt: "2026-11-15"
+    status: reviewed
+    note: Official project pages and announcement identify the three games with the KAMITSUBAKI CITY IP.
+      A related-project edge does not imply an identical continuity; REGENERATE and VR explicitly
+      discuss their shared basic story.
 ---
 ## 概述
 
