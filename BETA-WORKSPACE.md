@@ -17,4 +17,4 @@ Beta 命令同时把 `PUBLIC_CONTENT_REPOSITORY` 固定为 `https://github.com/K
 
 目前没有 beta 专用线上环境。社区的本地 fixture／workerd 检查、正式账号联调、第三方播放器和真实相机验收分别记录；本地测试通过不表示已经上线。旧 `dev:online` 和 `build:online` 为既有正式服务联调命令，不用于本任务的 beta 本机预览。
 
-当前范围见 [roadmap](docs/v3/fan-archive-roadmap.md)，最新证据见[第二批验收](qa/2026-11-15-beta-roadmap/continuation-acceptance.md)，[首批验收](qa/2026-11-15-beta-roadmap/acceptance.md)保留历史结果。完整资料覆盖与未解决差异见[审计报告](qa/2026-11-15-beta-roadmap/archive-audit.json)。
+当前范围见 [roadmap](docs/v3/fan-archive-roadmap.md)，最新证据见[第三批验收](qa/2026-11-15-beta-roadmap/third-acceptance.md)，[第二批验收](qa/2026-11-15-beta-roadmap/continuation-acceptance.md)和[首批验收](qa/2026-11-15-beta-roadmap/acceptance.md)保留历史结果。完整资料覆盖与未解决差异见[审计报告](qa/2026-11-15-beta-roadmap/archive-audit.json)。

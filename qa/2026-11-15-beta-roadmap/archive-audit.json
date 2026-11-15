@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "snapshot": "54d3ec284a49ae64cd862763d50f10d099a4c68f2c7f9da18a301f04f3396de1",
+  "snapshot": "fb2e6d8fe4db5d3214810aada1b8381d18f96adcad1c6119cfdde49c44fc357b",
   "modules": [
     "music",
     "atlas",
@@ -22,20 +22,20 @@
     "open-data"
   ],
   "coverage": {
-    "entities": 1837,
-    "relations": 3832,
+    "entities": 1841,
+    "relations": 3867,
     "events": 518,
     "songs": {
-      "total": 1557,
+      "total": 1559,
       "withCredits": 154,
       "withRecordedMedia": 806,
       "withBpm": 0,
       "withSourcedTags": 0
     },
     "lives": {
-      "total": 12,
-      "withSetlists": 1,
-      "withCompleteSetlists": 0,
+      "total": 14,
+      "withSetlists": 3,
+      "withCompleteSetlists": 2,
       "withCoordinates": 1,
       "withTickets": 1
     },
@@ -45,322 +45,59 @@
       "withBarcode": 1
     },
     "sources": {
-      "entities": 29,
-      "fieldClaims": 39
+      "entities": 40,
+      "fieldClaims": 61
     },
     "visuals": {
-      "withDates": 1
+      "withDates": 2
     }
   },
   "unresolved": {
     "relations": [],
-    "factDrift": [
-      {
-        "id": "chino",
-        "field": "lifecycle",
-        "locale": "en",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": {
-            "activity": "active"
-          },
-          "sourceFile": "src/content/people/groups/valis/members/chino/zh.md"
-        },
-        "translation": {
-          "locale": "en",
-          "value": {
-            "activity": "unknown"
-          },
-          "sourceFile": "src/content/people/groups/valis/members/chino/en.md"
-        }
-      },
-      {
-        "id": "chino",
-        "field": "lifecycle",
-        "locale": "ja",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": {
-            "activity": "active"
-          },
-          "sourceFile": "src/content/people/groups/valis/members/chino/zh.md"
-        },
-        "translation": {
-          "locale": "ja",
-          "value": {
-            "activity": "unknown"
-          },
-          "sourceFile": "src/content/people/groups/valis/members/chino/ja.md"
-        }
-      },
-      {
-        "id": "myu",
-        "field": "lifecycle",
-        "locale": "en",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": {
-            "activity": "active"
-          },
-          "sourceFile": "src/content/people/groups/valis/members/myu/zh.md"
-        },
-        "translation": {
-          "locale": "en",
-          "value": {
-            "activity": "unknown"
-          },
-          "sourceFile": "src/content/people/groups/valis/members/myu/en.md"
-        }
-      },
-      {
-        "id": "myu",
-        "field": "lifecycle",
-        "locale": "ja",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": {
-            "activity": "active"
-          },
-          "sourceFile": "src/content/people/groups/valis/members/myu/zh.md"
-        },
-        "translation": {
-          "locale": "ja",
-          "value": {
-            "activity": "unknown"
-          },
-          "sourceFile": "src/content/people/groups/valis/members/myu/ja.md"
-        }
-      },
-      {
-        "id": "neffy",
-        "field": "lifecycle",
-        "locale": "en",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": {
-            "activity": "active"
-          },
-          "sourceFile": "src/content/people/groups/valis/members/neffy/zh.md"
-        },
-        "translation": {
-          "locale": "en",
-          "value": {
-            "activity": "unknown"
-          },
-          "sourceFile": "src/content/people/groups/valis/members/neffy/en.md"
-        }
-      },
-      {
-        "id": "neffy",
-        "field": "lifecycle",
-        "locale": "ja",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": {
-            "activity": "active"
-          },
-          "sourceFile": "src/content/people/groups/valis/members/neffy/zh.md"
-        },
-        "translation": {
-          "locale": "ja",
-          "value": {
-            "activity": "unknown"
-          },
-          "sourceFile": "src/content/people/groups/valis/members/neffy/ja.md"
-        }
-      },
-      {
-        "id": "nina",
-        "field": "lifecycle",
-        "locale": "en",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": {
-            "activity": "active"
-          },
-          "sourceFile": "src/content/people/groups/valis/members/nina/zh.md"
-        },
-        "translation": {
-          "locale": "en",
-          "value": {
-            "activity": "unknown"
-          },
-          "sourceFile": "src/content/people/groups/valis/members/nina/en.md"
-        }
-      },
-      {
-        "id": "nina",
-        "field": "lifecycle",
-        "locale": "ja",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": {
-            "activity": "active"
-          },
-          "sourceFile": "src/content/people/groups/valis/members/nina/zh.md"
-        },
-        "translation": {
-          "locale": "ja",
-          "value": {
-            "activity": "unknown"
-          },
-          "sourceFile": "src/content/people/groups/valis/members/nina/ja.md"
-        }
-      },
-      {
-        "id": "rara",
-        "field": "lifecycle",
-        "locale": "en",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": {
-            "activity": "active"
-          },
-          "sourceFile": "src/content/people/groups/valis/members/rara/zh.md"
-        },
-        "translation": {
-          "locale": "en",
-          "value": {
-            "activity": "unknown"
-          },
-          "sourceFile": "src/content/people/groups/valis/members/rara/en.md"
-        }
-      },
-      {
-        "id": "rara",
-        "field": "lifecycle",
-        "locale": "ja",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": {
-            "activity": "active"
-          },
-          "sourceFile": "src/content/people/groups/valis/members/rara/zh.md"
-        },
-        "translation": {
-          "locale": "ja",
-          "value": {
-            "activity": "unknown"
-          },
-          "sourceFile": "src/content/people/groups/valis/members/rara/ja.md"
-        }
-      },
-      {
-        "id": "rime",
-        "field": "relations",
-        "locale": "en",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": [
-            {
-              "type": "based-on-voice",
-              "target": "rim"
-            }
-          ],
-          "sourceFile": "src/content/isotopes/rime/zh.md"
-        },
-        "translation": {
-          "locale": "en",
-          "value": [
-            {
-              "type": "based-on-voice",
-              "target": "rim"
-            },
-            {
-              "type": "character-designed-by",
-              "target": "palow"
-            }
-          ],
-          "sourceFile": "src/content/isotopes/rime/en.md"
-        }
-      },
-      {
-        "id": "rime",
-        "field": "relations",
-        "locale": "ja",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": [
-            {
-              "type": "based-on-voice",
-              "target": "rim"
-            }
-          ],
-          "sourceFile": "src/content/isotopes/rime/zh.md"
-        },
-        "translation": {
-          "locale": "ja",
-          "value": [
-            {
-              "type": "based-on-voice",
-              "target": "rim"
-            },
-            {
-              "type": "character-designed-by",
-              "target": "palow"
-            }
-          ],
-          "sourceFile": "src/content/isotopes/rime/ja.md"
-        }
-      },
-      {
-        "id": "vitte",
-        "field": "lifecycle",
-        "locale": "en",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": {
-            "activity": "active"
-          },
-          "sourceFile": "src/content/people/groups/valis/members/vitte/zh.md"
-        },
-        "translation": {
-          "locale": "en",
-          "value": {
-            "activity": "unknown"
-          },
-          "sourceFile": "src/content/people/groups/valis/members/vitte/en.md"
-        }
-      },
-      {
-        "id": "vitte",
-        "field": "lifecycle",
-        "locale": "ja",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": {
-            "activity": "active"
-          },
-          "sourceFile": "src/content/people/groups/valis/members/vitte/zh.md"
-        },
-        "translation": {
-          "locale": "ja",
-          "value": {
-            "activity": "unknown"
-          },
-          "sourceFile": "src/content/people/groups/valis/members/vitte/ja.md"
-        }
-      }
-    ],
+    "factDrift": [],
     "identities": [
       {
         "id": "ichinose-ruri",
         "field": "identity",
         "kind": "unverified-record"
+      },
+      {
+        "id": "official-fan-salons",
+        "field": "identity",
+        "kind": "unverified-record"
+      },
+      {
+        "id": "radio-recordings",
+        "field": "identity",
+        "kind": "unverified-record"
+      },
+      {
+        "id": "release-presentations",
+        "field": "identity",
+        "kind": "unverified-record"
+      }
+    ],
+    "fieldClaims": [
+      {
+        "id": "myu:personal-activity-unresolved",
+        "entityId": "myu",
+        "field": "lifecycle.activity",
+        "status": "unreviewed",
+        "sourceIds": [
+          "valis-solo-announcement-2026"
+        ],
+        "note": "Personal activity after project graduation is not established by this notice. Keep it unknown rather than treating graduation as retirement."
+      },
+      {
+        "id": "rime:design-attribution-review",
+        "entityId": "rime",
+        "field": "relations.character-designed-by",
+        "status": "unreviewed",
+        "sourceIds": [
+          "palow-rime-reference-sheets",
+          "palow-official-profile"
+        ],
+        "note": "PALOW.’s official account publishes three RIME design reference images. PHASE links the same account. This supports the existing translated attribution, but the post does not explicitly say character-design credit; keep this inference separately unreviewed rather than inventing a credit sentence."
       }
     ]
   },
