@@ -70,6 +70,19 @@ async function workspaceDOM(module,markup,callback){
 }
 const nextTurn=()=>new Promise(resolve=>setTimeout(resolve,0));
 
+test('physical barcode results show their cited sources and keep download editions unmatched',async()=>{
+ await workspaceDOM('physical','<form data-barcode-form><input name="barcode"/><button>Find</button></form><div data-barcode-results></div>',async(root,w)=>{
+  const snapshot=archiveFixture();snapshot.physical=[{id:'sourced-package',type:'other',names:{zh:'Sourced package'},barcode:'4582736573240',relatedEntities:['song-a'],sources:[{title:'Retailer catalogue',url:'https://retailer.test/package'}]}];
+  await initializeArchiveWorkspace(root,{loadSnapshot:async()=>snapshot,owner:async()=>null,storage:localStorage});
+  const form=root.querySelector('[data-barcode-form]'),input=form.querySelector('input'),results=root.querySelector('[data-barcode-results]');
+  input.value='4582736573240';form.dispatchEvent(new w.Event('submit',{bubbles:true,cancelable:true}));
+  assert.equal(results.querySelectorAll('article').length,1);
+  assert.equal(results.querySelector('a[href="https://retailer.test/package"]').textContent,'Retailer catalogue');
+  input.value='4582736574544';form.dispatchEvent(new w.Event('submit',{bubbles:true,cancelable:true}));
+  assert.equal(results.querySelectorAll('article').length,0);
+ });
+});
+
 test('language review restores an entity link and shows safe original values and edit targets',async()=>{
  await workspaceDOM('languages','<form data-archive-filters><input name="entity"/></form>',async(root,w)=>{
   w.history.replaceState(null,'','?entity=song-a');
@@ -87,7 +100,7 @@ test('language review restores an entity link and shows safe original values and
 });
 
 test('a delayed collection profile cannot restore private collections after logout',async()=>{
- await workspaceDOM('collections','<div data-community-collections></div><form data-collection-form></form>',async(root,w)=>{
+ await workspaceDOM('collections','<div data-community-collections></div><form data-collection-form><input name="id"/><input name="revision"/></form>',async(root,w)=>{
   let who='alice',resolveProfile,started;
   const profileStarted=new Promise(resolve=>started=resolve);
   const request=async path=>{

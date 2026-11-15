@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "snapshot": "ea2adbe132f9cd48d8ea5985f4b0a37305e3776be5805675163f9eb6f2cbcf72",
+  "snapshot": "54d3ec284a49ae64cd862763d50f10d099a4c68f2c7f9da18a301f04f3396de1",
   "modules": [
     "music",
     "atlas",
@@ -23,7 +23,7 @@
   ],
   "coverage": {
     "entities": 1837,
-    "relations": 3827,
+    "relations": 3832,
     "events": 518,
     "songs": {
       "total": 1557,
@@ -40,13 +40,13 @@
       "withTickets": 1
     },
     "physical": {
-      "items": 1,
+      "items": 2,
       "editions": 4,
-      "withBarcode": 0
+      "withBarcode": 1
     },
     "sources": {
-      "entities": 25,
-      "fieldClaims": 30
+      "entities": 29,
+      "fieldClaims": 39
     },
     "visuals": {
       "withDates": 1
@@ -93,354 +93,6 @@
             "activity": "unknown"
           },
           "sourceFile": "src/content/people/groups/valis/members/chino/ja.md"
-        }
-      },
-      {
-        "id": "ema",
-        "field": "roles",
-        "locale": "en",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": [
-            "vocalist",
-            "lyricist"
-          ],
-          "sourceFile": "src/content/people/groups/dustcell/members/ema/zh.md"
-        },
-        "translation": {
-          "locale": "en",
-          "value": [
-            "vocalist"
-          ],
-          "sourceFile": "src/content/people/groups/dustcell/members/ema/en.md"
-        }
-      },
-      {
-        "id": "ema",
-        "field": "lifecycle",
-        "locale": "en",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": {
-            "activity": "active"
-          },
-          "sourceFile": "src/content/people/groups/dustcell/members/ema/zh.md"
-        },
-        "translation": {
-          "locale": "en",
-          "value": {
-            "activity": "unknown"
-          },
-          "sourceFile": "src/content/people/groups/dustcell/members/ema/en.md"
-        }
-      },
-      {
-        "id": "ema",
-        "field": "roles",
-        "locale": "ja",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": [
-            "vocalist",
-            "lyricist"
-          ],
-          "sourceFile": "src/content/people/groups/dustcell/members/ema/zh.md"
-        },
-        "translation": {
-          "locale": "ja",
-          "value": [
-            "vocalist"
-          ],
-          "sourceFile": "src/content/people/groups/dustcell/members/ema/ja.md"
-        }
-      },
-      {
-        "id": "ema",
-        "field": "lifecycle",
-        "locale": "ja",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": {
-            "activity": "active"
-          },
-          "sourceFile": "src/content/people/groups/dustcell/members/ema/zh.md"
-        },
-        "translation": {
-          "locale": "ja",
-          "value": {
-            "activity": "unknown"
-          },
-          "sourceFile": "src/content/people/groups/dustcell/members/ema/ja.md"
-        }
-      },
-      {
-        "id": "guiano",
-        "field": "affiliations",
-        "locale": "en",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": [],
-          "sourceFile": "src/content/people/creators/guiano/zh.md"
-        },
-        "translation": {
-          "locale": "en",
-          "value": [
-            {
-              "organization": "kamitsubaki-studio",
-              "current": false
-            }
-          ],
-          "sourceFile": "src/content/people/creators/guiano/en.md"
-        }
-      },
-      {
-        "id": "guiano",
-        "field": "affiliations",
-        "locale": "ja",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": [],
-          "sourceFile": "src/content/people/creators/guiano/zh.md"
-        },
-        "translation": {
-          "locale": "ja",
-          "value": [
-            {
-              "organization": "kamitsubaki-studio",
-              "current": false
-            }
-          ],
-          "sourceFile": "src/content/people/creators/guiano/ja.md"
-        }
-      },
-      {
-        "id": "ichinose-ruri",
-        "field": "roles",
-        "locale": "en",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": [
-            "composer",
-            "arranger"
-          ],
-          "sourceFile": "src/content/people/creators/ichinose-ruri/zh.md"
-        },
-        "translation": {
-          "locale": "en",
-          "value": [
-            "composer"
-          ],
-          "sourceFile": "src/content/people/creators/ichinose-ruri/en.md"
-        }
-      },
-      {
-        "id": "ichinose-ruri",
-        "field": "lifecycle",
-        "locale": "en",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": {
-            "activity": "active"
-          },
-          "sourceFile": "src/content/people/creators/ichinose-ruri/zh.md"
-        },
-        "translation": {
-          "locale": "en",
-          "value": {
-            "activity": "unknown"
-          },
-          "sourceFile": "src/content/people/creators/ichinose-ruri/en.md"
-        }
-      },
-      {
-        "id": "ichinose-ruri",
-        "field": "roles",
-        "locale": "ja",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": [
-            "composer",
-            "arranger"
-          ],
-          "sourceFile": "src/content/people/creators/ichinose-ruri/zh.md"
-        },
-        "translation": {
-          "locale": "ja",
-          "value": [
-            "composer"
-          ],
-          "sourceFile": "src/content/people/creators/ichinose-ruri/ja.md"
-        }
-      },
-      {
-        "id": "ichinose-ruri",
-        "field": "lifecycle",
-        "locale": "ja",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": {
-            "activity": "active"
-          },
-          "sourceFile": "src/content/people/creators/ichinose-ruri/zh.md"
-        },
-        "translation": {
-          "locale": "ja",
-          "value": {
-            "activity": "unknown"
-          },
-          "sourceFile": "src/content/people/creators/ichinose-ruri/ja.md"
-        }
-      },
-      {
-        "id": "kamitsubaki-city",
-        "field": "relations",
-        "locale": "en",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": [
-            {
-              "type": "related-project",
-              "target": "kamitsubaki-city-ensemble"
-            },
-            {
-              "type": "related-project",
-              "target": "kamitsubaki-city-regenerate"
-            },
-            {
-              "type": "related-project",
-              "target": "kamitsubaki-city-vr"
-            }
-          ],
-          "sourceFile": "src/content/projects/city-project/kamitsubaki-city/zh.md"
-        },
-        "translation": {
-          "locale": "en",
-          "value": [],
-          "sourceFile": "src/content/projects/city-project/kamitsubaki-city/en.md"
-        }
-      },
-      {
-        "id": "kamitsubaki-city",
-        "field": "relations",
-        "locale": "ja",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": [
-            {
-              "type": "related-project",
-              "target": "kamitsubaki-city-ensemble"
-            },
-            {
-              "type": "related-project",
-              "target": "kamitsubaki-city-regenerate"
-            },
-            {
-              "type": "related-project",
-              "target": "kamitsubaki-city-vr"
-            }
-          ],
-          "sourceFile": "src/content/projects/city-project/kamitsubaki-city/zh.md"
-        },
-        "translation": {
-          "locale": "ja",
-          "value": [],
-          "sourceFile": "src/content/projects/city-project/kamitsubaki-city/ja.md"
-        }
-      },
-      {
-        "id": "misumi",
-        "field": "roles",
-        "locale": "en",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": [
-            "composer",
-            "arranger",
-            "producer"
-          ],
-          "sourceFile": "src/content/people/groups/dustcell/members/misumi/zh.md"
-        },
-        "translation": {
-          "locale": "en",
-          "value": [
-            "composer"
-          ],
-          "sourceFile": "src/content/people/groups/dustcell/members/misumi/en.md"
-        }
-      },
-      {
-        "id": "misumi",
-        "field": "lifecycle",
-        "locale": "en",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": {
-            "activity": "active"
-          },
-          "sourceFile": "src/content/people/groups/dustcell/members/misumi/zh.md"
-        },
-        "translation": {
-          "locale": "en",
-          "value": {
-            "activity": "unknown"
-          },
-          "sourceFile": "src/content/people/groups/dustcell/members/misumi/en.md"
-        }
-      },
-      {
-        "id": "misumi",
-        "field": "roles",
-        "locale": "ja",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": [
-            "composer",
-            "arranger",
-            "producer"
-          ],
-          "sourceFile": "src/content/people/groups/dustcell/members/misumi/zh.md"
-        },
-        "translation": {
-          "locale": "ja",
-          "value": [
-            "composer"
-          ],
-          "sourceFile": "src/content/people/groups/dustcell/members/misumi/ja.md"
-        }
-      },
-      {
-        "id": "misumi",
-        "field": "lifecycle",
-        "locale": "ja",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": {
-            "activity": "active"
-          },
-          "sourceFile": "src/content/people/groups/dustcell/members/misumi/zh.md"
-        },
-        "translation": {
-          "locale": "ja",
-          "value": {
-            "activity": "unknown"
-          },
-          "sourceFile": "src/content/people/groups/dustcell/members/misumi/ja.md"
         }
       },
       {
@@ -561,92 +213,6 @@
             "activity": "unknown"
           },
           "sourceFile": "src/content/people/groups/valis/members/nina/ja.md"
-        }
-      },
-      {
-        "id": "onuma-parsley",
-        "field": "roles",
-        "locale": "en",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": [
-            "composer",
-            "producer",
-            "vocalist"
-          ],
-          "sourceFile": "src/content/people/creators/onuma-parsley/zh.md"
-        },
-        "translation": {
-          "locale": "en",
-          "value": [
-            "composer"
-          ],
-          "sourceFile": "src/content/people/creators/onuma-parsley/en.md"
-        }
-      },
-      {
-        "id": "onuma-parsley",
-        "field": "lifecycle",
-        "locale": "en",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": {
-            "activity": "active",
-            "startedAt": "2017-06-29"
-          },
-          "sourceFile": "src/content/people/creators/onuma-parsley/zh.md"
-        },
-        "translation": {
-          "locale": "en",
-          "value": {
-            "activity": "unknown"
-          },
-          "sourceFile": "src/content/people/creators/onuma-parsley/en.md"
-        }
-      },
-      {
-        "id": "onuma-parsley",
-        "field": "roles",
-        "locale": "ja",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": [
-            "composer",
-            "producer",
-            "vocalist"
-          ],
-          "sourceFile": "src/content/people/creators/onuma-parsley/zh.md"
-        },
-        "translation": {
-          "locale": "ja",
-          "value": [
-            "composer"
-          ],
-          "sourceFile": "src/content/people/creators/onuma-parsley/ja.md"
-        }
-      },
-      {
-        "id": "onuma-parsley",
-        "field": "lifecycle",
-        "locale": "ja",
-        "kind": "fact-drift",
-        "canonical": {
-          "locale": "zh",
-          "value": {
-            "activity": "active",
-            "startedAt": "2017-06-29"
-          },
-          "sourceFile": "src/content/people/creators/onuma-parsley/zh.md"
-        },
-        "translation": {
-          "locale": "ja",
-          "value": {
-            "activity": "unknown"
-          },
-          "sourceFile": "src/content/people/creators/onuma-parsley/ja.md"
         }
       },
       {
@@ -788,6 +354,13 @@
           },
           "sourceFile": "src/content/people/groups/valis/members/vitte/ja.md"
         }
+      }
+    ],
+    "identities": [
+      {
+        "id": "ichinose-ruri",
+        "field": "identity",
+        "kind": "unverified-record"
       }
     ]
   },

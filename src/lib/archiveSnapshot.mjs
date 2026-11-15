@@ -35,6 +35,7 @@ export async function buildArchiveSnapshot(registry,feature) {
     const entry=canonicalEntityEntry(translations);
     const d=entry.data;
     if(d.schemaVersion!==2)continue;
+    if(d.tags?.includes('identity-unverified'))issues.push({id,field:'identity',kind:'unverified-record'});
     const facts=Object.fromEntries(sharedFactFields.filter(key=>d[key]!==undefined).map(key=>[key,d[key]]));
     const narratives={};
     for(const [locale,translation] of translations){

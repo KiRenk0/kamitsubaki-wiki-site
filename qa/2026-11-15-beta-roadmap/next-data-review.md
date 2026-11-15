@@ -1,13 +1,12 @@
 # 资料复核线索
 
-本页保存续作时已找到的原始来源，不表示下列字段已经修改或全部核实。每次实际修订后重新生成 `archive-audit.json`、保存内容快照并验证构建。
+本页保存尚未全部写入当前数据快照的核对线索。EMA、Misumi、大沼パセリ、Guiano、梓川及神椿市项目关系的第二批修订已见 `16ab58fb4` 与[续作验收](continuation-acceptance.md)。每次实际修订后重新生成 `archive-audit.json`、保存内容快照并验证构建；下列新线索不是已应用的状态。
 
-- EMA／Misumi：[THINKR 艺人页](https://thinkr.jp/artist/)给出当前名录与人物简介；[BIG UP! 的本人访谈](https://big-up.style/zine/article/interview/20200529-6867)包含 EMA 自述作词和 Misumi 的制作身份；[《Gachiakuta》动画官方音乐页](https://www.gachiakuta-anime.com/en/music/)明确署名 Misumi 的词曲及编曲。可用于核对 roles 和活动状态，不能把单曲署名扩展为未记载的其他歌曲署名。
-- 大沼パセリ：[官方人物页](https://kamitsubaki.jp/artist/onumaparsley/)确认 2017 年开始活动及自唱、供曲和编曲；[THINKR 当前名录](https://thinkr.jp/artist/)仍有介绍。旧字段的 `2017-06-29` 尚未从本次读取的官方页面核实，不能按“当年”来源维持日级精度。
-- 梓川：本轮已修正结构化 `lifecycle.startedAt` 为 `2020-04`；中文旧正文对 2022 年入社／开始活动的表述仍须逐段整理，区分音乐活动、所属变化与主流出道。来源为 [TOY'S FACTORY 简介](https://www.toysfactory.co.jp/artist/azsagawa/bio)与[2026-04-08 官方发行公告](https://kamitsubaki.jp/news/2026/04/08/10705/)。
-- VALIS：[官方人物页](https://kamitsubaki.jp/artist/valis/)列出五名成员并说明组合休止；[2025-06-11 公告](https://kamitsubaki.jp/news/2025/06/11/7583/)区分组合休止和成员个人后续活动。该公告不证明每个人都继续／停止活动，也不证明全部成员的去留。
-- `ichinose-ruri`：当前词条中的名字、角色、所属缺可靠出处。检索中的“市瀬るぽ／Ichinose LUPO”和“市ノ瀬瑠莉”不能按近似名字合并为此 ID，需找到明确的本人身份及作品依据。
-- 神椿市项目关系：[REGENERATE 官方页面](https://srd.kamitsubaki.jp/game/regenerate/)与[VIRTUAL REALITY 官方页面](https://srd.kamitsubaki.jp/game/virtual_reality/)明确系列关系和共通／独立故事边界。[2025-12-19 官方公告](https://kamitsubaki.jp/news/2025/12/19/9603/)可交叉核对；ENSEMBLE 的对应关系仍需自身页面依据。
-- RIME 的 PALOW. 设计关系、Guiano 的历史／当前所属、神椿市的三个项目关系仍需逐条证据；不要为了将差异数归零而删除译文独有关系或覆盖中文。
+- NINA：已直接读到 [2024-03-08 官方公告](https://kamitsubaki.jp/news/2024/03/08/3215/)，明确当天从 VALIS 毕业并结束艺人活动，亦说明预录音源／配音仍可能使用。这一来源可用于其活动状态与成员关系终点，不应把后来预录作品误判为继续活动。当前第二批快照尚未写入这一修订。
+- CHINO／NEFFY／RARA／VITTE 与 MYU：2025 年组合休止公告不够。新发现的 [2026-02-06 PANORA 报道](https://panora.tokyo/archives/131418)链接至[导演操桃的原始公告](https://twitter.com/SOUGHT_VALIS/status/2019697641416987076)。已通过 X 官方嵌入帖直接浏览运营公告附图，确认四位当天开始个人活动、MYU 于 2 月 13 日从项目毕业，以及操桃同日退任。此证据尚未写入当前第二批快照；MYU 从项目毕业不能直接扩展为此后所有个人音乐活动结束。
+- [PIEDPIPER 的 2026-09-05 原文](https://note.com/futashika/n/n4fdca2f7b788)已经直接读到：VALIS 团体仍属神椿，成员个人活动采用自由职业与 THINKR 代理合作形式；SINSEKAI RECORD 和 ANARCHIC RECORD 在重组中废止；ALLT 早在 2024 年设立。后续需分别核对个人管理／唱片所属和实体类型，不把团体关系直接等同成员管理关系，也不为未写明的移籍日添加日级日期。
+- RIME：[PALOW. 于 2022-10-25 发布的原始帖子](https://x.com/PALOW_/status/1584881922420842496)已通过 X 官方 oEmbed 读取，并在 X 官方嵌入帖直接浏览三张设定图。帖子直读被 403 拒绝，但嵌入的作者为 PALOW.；其[PHASE 官方资料](https://phasestudio.jp/member/palow/)链接同一账号。原文是“发布并附设定图”，没有逐字写明“角色设计担当”，如据此建立设计关系须在证据备注中说明判断依据，不能声称读到了不存在的明确署名句。
+- `ichinose-ruri`：已恢复待核实占位，导入标签不等于已证实姓名。检索中的“市瀬るぽ／Ichinose LUPO”和“市ノ瀬瑠莉”不能按近似名字合并为此 ID，仍需明确的本人身份及作品来源。
+- 大沼パセリ：官方简介只确认 2017 年开始活动。旧稿 `2017-06-29` 与首作曲名仍缺原始投稿依据；ANARCHIC 的具体个人所属历史也不能仅从通用厂牌废止公告推断。
 
 以上仅为内容核对线索；正常账号、服务环境、真实相机、串流和 S01 真实账目仍按主验收清单分别追踪。

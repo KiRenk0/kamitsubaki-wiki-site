@@ -27,6 +27,7 @@ test('Cloudflare Pages asset audit reports only files above the 25 MiB limit', a
 
   assert.equal(CLOUDFLARE_PAGES_MAX_ASSET_BYTES, 25 * 1024 * 1024);
   assert.equal(result.filesScanned, 3);
+  assert.deepEqual(result.byDirectory, {'(root)':2,nested:1});
   assert.deepEqual(result.largest, { path: 'nested/over-limit.json', size: 6 });
   assert.deepEqual(result.oversized, [{ path: 'nested/over-limit.json', size: 6 }]);
 });

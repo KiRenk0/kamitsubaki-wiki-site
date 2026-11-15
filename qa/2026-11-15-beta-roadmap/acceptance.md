@@ -1,5 +1,7 @@
 # Beta roadmap 续作验收（2026-11-15）
 
+本页保存截至首批提交 `5233cda73` 的历史结果。最新第二批见[续作验收](continuation-acceptance.md)；`archive-audit.json` 已随当前快照更新，本页中的旧覆盖数字不代表最新范围。
+
 任务 `20261115-beta-roadmap`，所有者为本会话。仓库为 KiRenk0/kamitsubaki-wiki-site；独立目录 `F:\kamitsubaki-wiki-site-beta`，实现保存在 `task/20261115-beta-roadmap`，交付时本机 `beta` 指向同一提交并在该目录检出。允许范围为 beta/main 集成、既有 roadmap 的实现、资料修订、文档与本地验收。原 main 目录及 Nearby 工作由原任务管理，本任务未覆盖其文件。
 
 ## 基线与交付

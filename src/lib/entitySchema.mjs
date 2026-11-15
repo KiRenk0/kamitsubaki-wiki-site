@@ -30,7 +30,7 @@ export function createEntitySchema(z){
   sourceHistory:z.array(z.object({id,url,title:text,capturedAt:z.string().datetime(),archiveUrl:url,sourceIds,note:z.string().optional()})).optional(),
  };
  const entity=(type,fields)=>z.object({...base,entityType:z.literal(type),...fields}).strict();
- const person={name:text,romanizedName:text,roles:roles.min(1),lifecycle,affiliations:affiliations.optional()};
+ const person={name:text,romanizedName:text,roles,lifecycle,affiliations:affiliations.optional()};
  return z.discriminatedUnion('entityType',[
   entity('person',person),entity('virtual-avatar',person),entity('unit',person),
   entity('software-voice',{name:text,romanizedName:text,voiceEngines:z.array(z.object({engine:text,releaseDate:date.optional()})),relations,commercialLicense:z.object({url:url.optional(),summary:z.string().optional()}).optional(),roles:roles.optional(),lifecycle:lifecycle.optional(),affiliations:affiliations.optional()}),
@@ -46,6 +46,7 @@ export function createEntitySchema(z){
   entity('editorial-article',{title:text,articleCategory:z.enum(['business','art-philosophy','profile','infrastructure','archival']),author:text.optional(),publishDate:date.optional(),relatedEntities:z.array(id).optional()}),
  ]).superRefine((d,c)=>{
   if(d.contentStatus!=='stub'){
+   if(['person','virtual-avatar','unit'].includes(d.entityType)&&!d.roles.length)c.addIssue({code:'custom',path:['roles'],message:'A published entry requires at least one role'});
    for(const key of ({'work-release':['releaseDate'],'project':['status'],'live-event':['dateRange'],'editorial-article':['author','publishDate']}[d.entityType]||[]))if(d[key]===undefined)c.addIssue({code:'custom',path:[key],message:'Required for published entries'});
   }
   const placement=d.classification;

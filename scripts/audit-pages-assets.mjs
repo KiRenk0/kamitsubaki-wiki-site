@@ -34,7 +34,7 @@ export async function auditPagesAssets(outputDirectory, options = {}) {
     maxBytes,
     filesScanned: files.length,
     nearFileLimit: files.length >= Math.min(18000, Math.floor(maxFiles * .9)),
-    byDirectory: Object.fromEntries([...files.reduce((counts,{path})=>{const key=relative(root,path).split(/[\\/]/)[0];const group=relative(root,path).includes('/')?key:'(root)';counts.set(group,(counts.get(group)||0)+1);return counts;},new Map())].sort(([a],[b])=>a.localeCompare(b))),
+    byDirectory: Object.fromEntries([...files.reduce((counts,{path})=>{const name=relative(root,path).replaceAll('\\','/');const group=name.includes('/')?name.split('/')[0]:'(root)';counts.set(group,(counts.get(group)||0)+1);return counts;},new Map())].sort(([a],[b])=>a.localeCompare(b))),
     maxFiles,
     tooManyFiles: files.length > maxFiles,
     largest: bySizeDescending[0] ? toAsset(bySizeDescending[0]) : null,

@@ -4,7 +4,7 @@ import {fileURLToPath} from 'node:url';
 import {createIndex, close} from 'pagefind';
 import {searchKindGroups} from '../src/lib/siteSearch.mjs';
 import {foldCjkSearchText} from '../src/lib/cjkSearch.mjs';
-import {packPagefindFragments} from './pack-pagefind-fragments.mjs';
+import {packPagefindFragments,packPagefindIndexes} from './pack-pagefind-fragments.mjs';
 
 const locales=['zh','zh-tw','zh-hk','ja','en'];
 const escape=value=>String(value||'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
@@ -36,4 +36,4 @@ export async function generatePagefind(directory){
  }finally{await close();}
  return counts;
 }
-export default function pagefindIntegration(){return {name:'wiki-pagefind',hooks:{'astro:build:done':async({dir,logger})=>{const directory=fileURLToPath(dir);const counts=await generatePagefind(directory);logger.info('Pagefind public records: '+JSON.stringify(counts));logger.info('Pagefind fragment packs: '+JSON.stringify(await packPagefindFragments(directory,locales)));}}};}
+export default function pagefindIntegration(){return {name:'wiki-pagefind',hooks:{'astro:build:done':async({dir,logger})=>{const directory=fileURLToPath(dir);const counts=await generatePagefind(directory);logger.info('Pagefind public records: '+JSON.stringify(counts));logger.info('Pagefind fragment packs: '+JSON.stringify(await packPagefindFragments(directory,locales)));logger.info('Pagefind index packs: '+JSON.stringify(await packPagefindIndexes(directory,locales)));}}};}

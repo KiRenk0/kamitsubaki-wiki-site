@@ -371,6 +371,7 @@ export async function initializeArchiveWorkspace(root,{loadSnapshot=loadArchiveS
  }
  function physicalCard(item,target){
   const article=element('article','','archive-row'),body=element('div');body.append(element('h2',item.title+' · '+(item.edition || item.format || c.unknown)),element('p',c.catalogNumber+': '+(item.catalogNumber || c.unknown)),element('p',c.barcode+': '+(item.barcode || c.unknown)),element('p',c.bonus+': '+(item.bonusItems?.join(' · ') || c.unknown)));
+  sources(item.sources,body);
   if(item.path)body.append(link(c.open,item.path));article.append(body);
   if(item.entityId)article.append(button(c.confirm+' · '+c.owned,event=>saveRecord({kind:'owned',entityId:item.entityId,editionId:item.id,...(item.barcode?{barcode:item.barcode}:{})},event.currentTarget)));
   target.append(article);

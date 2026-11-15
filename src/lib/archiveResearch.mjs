@@ -153,7 +153,7 @@ export function physicalCatalog(snapshot,locale='zh') {
     const release=archiveRecord(snapshot,entity.id,locale), editions=entity.facts.editions || [];
     return editions.map(edition=>({id:entity.id+':'+edition.id,entityId:entity.id,title:release.title,edition:edition.name,format:edition.format,
       date:entity.date,path:release.path,catalogNumber:edition.catalogNumber || entity.facts.catalogNumber || '',barcode:edition.barcode || '',
-      bonusItems:edition.bonusItems || [],sources:edition.sourceIds || [],type:'release'}));
+      bonusItems:edition.bonusItems || [],sources:(edition.sourceIds || []).map(id=>(entity.facts.sources || []).find((source,index)=>(source.id || 'source-'+index)===id)).filter(Boolean),type:'release'}));
   }).concat((snapshot.physical || []).map(item=>({...item,title:item.names?.[locale] || item.names?.zh || item.title,entityId:item.relatedEntities?.[0] || '',path:'/'+locale+'/explore/physical/?item='+encodeURIComponent(item.id)})));
 }
 export function atlasPlaces(snapshot,locale='zh') {
